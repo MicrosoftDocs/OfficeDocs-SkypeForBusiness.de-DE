@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Licensing
 - LIL_Placement
 description: 'Erfahren Sie mehr über Add-On-Lizenzen, Funktionen und Informationen zum Kauf von Office 365 Enterprise, Plan E1, E3 und E4. '
-ms.openlocfilehash: 16752a076b84bc8ad8fe65251732af65993cb73784e7589c275fd42ac71c4352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 25f45b9bb84a572c23feb33972c39693695f69e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316451"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594799"
 ---
 # <a name="office-365-enterprise-e1-e3-and-e4"></a>Office 365 Enterprise E1, E3 und E4
 
 [!INCLUDE [sfbo-retirement](../../../Hub/includes/sfbo-retirement.md)]
 
-Wenn Sie den Plan [Office 365 Enterprise E1,](https://products.office.com/business/office-365-enterprise-e1-business-software) [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)oder E4 bereits gekauft haben, finden Sie hier die Add-On-Lizenzen, die Sie kaufen müssen, um weitere Features Skype for Business erhalten.
+Wenn Sie den Plan [Office 365 Enterprise E1,](https://products.office.com/business/office-365-enterprise-e1-business-software) [E3](https://products.office.com/business/office-365-enterprise-e3-business-software)oder E4 bereits erworben haben, finden Sie hier die Add-On-Lizenzen, die Sie kaufen müssen, um weitere Skype for Business zu erhalten.
 
 | Zum Hinzufügen dieser Funktion ... | ... müssen Sie folgende Lizenz erwerben: |
 |:-----|:-----|
@@ -72,7 +72,7 @@ Der E3-Plan ist Teil Ihres Action Packs. So kaufen Sie die Add-Ons **Telefonsyst
 ## <a name="why-dont-i-see-the-option-to-buy-add-ons"></a>Warum sehe ich die Option zum Kaufen von Add-Ons nicht?
 <a name="bkmk_how"> </a>
 
-In einigen Fällen wird die Option zum Kaufen von add-ons Skype for Business in der Microsoft 365 Admin Center.
+In einigen Fällen wird die Option zum Kaufen Skype for Business Add-Ons in der Microsoft 365 Admin Center.
 
 - **Sie haben Microsoft 365 Business Standard über GoDaddy erworben.** In diesem Fall können Sie keine Add-Skype for Business kaufen. Sie müssen zum E3-Plan wechseln (der von GoDaddy nicht verkauft wird), und sie können sie dann kaufen. [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).
 

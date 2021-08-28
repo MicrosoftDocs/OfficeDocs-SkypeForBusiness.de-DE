@@ -9,7 +9,7 @@ audience: ITPro
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: ''
-description: Beschreibt die Unterstützung Teams Apps/Branchen-Apps.
+description: Beschreibt die Unterstützung für Teams/BRANCHEN-Apps.
 ms.collection:
 - M365-voice
 - M365-collaboration
@@ -17,24 +17,24 @@ ms.collection:
 - skype-for-business-online
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9d6f3f03e84e42f7aece380baedb928495560f8
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: db72b520206a68edb006cc0ccbf2518acde081aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386767"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636770"
 ---
 # <a name="microsoft-teams-appsline-of-business-lob-app-support-on-teams-panels"></a>Microsoft Teams-Apps/Branchen-App-Unterstützung für Teams Branchen-Apps
 
-Teams Panels wird Unterstützung für [Teams/Branchen-Apps hinzugefügt.](/microsoftteams/platform/overview) Auf diese Weise können Unternehmen zusätzliche Erfahrungen mit den Panels hinzufügen, die den Anforderungen Ihrer Organisation entsprechen. Diese Version unterstützt statische Webinhalte.
+Teams -Panels wird Unterstützung für [Teams-Apps/Branchen-Apps hinzugefügt.](/microsoftteams/platform/overview) Auf diese Weise können Unternehmen zusätzliche Erfahrungen mit den Panels hinzufügen, die den Anforderungen Ihrer Organisation entsprechen. Diese Version unterstützt statische Webinhalte.
 
 > [!IMPORTANT]
-> Dieses Feature ist nur nach dem Update Ihrer Teams-Panels verfügbar. Sie müssen über die Teams-App, Version 1449/1.0.97.2021070601 oder neuer verfügen, damit die App innerhalb Teams unterstützt wird.
+> Dieses Feature ist nur nach dem Update Ihrer Teams-Panels verfügbar. Sie müssen über die Teams-App, Version 1449/1.0.97.2021070601 oder neuer verfügen, damit die App in Teams unterstützt wird.
 
-## <a name="teams-app-experience-on-teams-panels"></a>Teams der App auf Teams-Panels
+## <a name="teams-app-experience-on-teams-panels"></a>Teams der App auf Teams Panels
 
 ![Screenshot des Teams Admin Centers, der zeigt, in welchem Abschnitt Benutzer zu Apps navigieren können.](media/tac1update.png) 
 
@@ -42,35 +42,35 @@ Teams Panels wird Unterstützung für [Teams/Branchen-Apps hinzugefügt.](/micro
 
 ![Screenshot der App-Canvas, auf der Apps hinzugefügt werden können.](media/appscreen.png)
 
-*Wenn ein Endbenutzer auf eines der App-Symbole tippt, wird der im vorherigen Screenshot Teams Bildschirm der App angezeigt. Das graue Rechteck im Screenshot ist der Bereich, an dem Apps im Teams werden. Die App-Leiste ist fest und teil der App Teams Panels.*
+*Wenn ein Endbenutzer auf eines der App-Symbole tippt, wird der im vorherigen Screenshot Teams Bildschirm der App angezeigt. Das graue Rechteck im Screenshot ist der Bereich, an dem Apps im Teams werden. Die App-Leiste ist fest und Teil der App Teams Panels.*
 
-## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Einrichten und Verwalten von Teams-Panels im Teams Admin Center 
+## <a name="set-up-and-manage-teams-panels-apps-in-teams-admin-center"></a>Einrichten und Verwalten Teams Panels im Teams Admin Center 
 
-Microsoft Teams-Apps bringen wichtige Informationen, allgemeine Tools und vertrauenswürdige Prozesse an die Stelle, an der personen sammeln, lernen und arbeiten. Teams-Apps nutzen [integrierte Funktionen](/microsoftteams/platform/concepts/capabilities-overview). Als IT-Administrator haben Sie nun die Wahl, welche Apps in das Teams-Panels-Gerät Ihrer Organisation mitin ihr gehören und die Berechtigungen über das Teams [Admin Center anpassen.](https://admin.teams.microsoft.com/)
+Microsoft Teams-Apps bringen wichtige Informationen, allgemeine Tools und vertrauenswürdige Prozesse an die Stelle, an der personen sammeln, lernen und arbeiten. Teams-Apps können [integrierte Funktionen nutzen.](/microsoftteams/platform/concepts/capabilities-overview) Als IT-Administrator haben Sie jetzt die Wahl, welche Apps in das Teams-Panels-Gerät Ihrer Organisation mitin ihr gehören und die Berechtigungen über das [Teams Admin Center anpassen.](https://admin.teams.microsoft.com/)
 
 Sie können jetzt die Teams-Apps in Teams-Panels verwenden und die Benutzeroberfläche an die Anforderungen Ihrer Organisation anpassen. Sie können entscheiden, auf welche Web-App Ihre Benutzer zugreifen und die App-Ansichten verwenden und priorisieren können. Einige Optionen, z. B. bot- und messaging-Funktionen, werden derzeit nicht unterstützt. Weitere Informationen zu [den Teams-Apps](/microsoftteams/platform/overview) und zum [Verwalten Ihrer Geräte in Microsoft Teams.](/microsoftteams/devices/device-management)
 
-## <a name="manage-apps-on-teams-panels-in-teams-admin-center"></a>Verwalten von Apps auf Teams in Teams Admin Center
+## <a name="manage-apps-on-teams-panels-in-teams-admin-center"></a>Verwalten von Apps in Teams-Panels im Teams Admin Center
 
-**Hinweis:** Sie müssen ein globaler Administrator oder ein Teams-Dienstadministrator sein, um auf das Teams [Admin Center zugreifen zu können.](https://admin.teams.microsoft.com/)
+**Hinweis:** Sie müssen ein globaler Administrator oder ein Dienstadministrator Teams sein, um auf das Teams [Admin Center zugreifen zu können.](https://admin.teams.microsoft.com/)
 
-Endbenutzer können Apps auf einem Teams anzeigen, Teams installieren. Als Administrator können Sie alle Ihre Teams für Ihre Organisation über das Teams Admin Center anzeigen und verwalten. Weitere Informationen dazu, wie Sie Ihre Apps verwalten können, finden Sie [im Microsoft Teams Admin Center](/microsoftteams/manage-apps) über die Seite **"Apps verwalten".** Auf **der Seite Apps** verwalten im Teams Admin Center können Sie auch [benutzerdefinierte Apps hochladen.](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
+Endbenutzer können Apps auf einem Teams anzeigen, Teams installieren. Als Administrator können Sie alle Teams für Ihre Organisation über das Teams Admin Center anzeigen und verwalten. Weitere Informationen dazu, wie Sie Ihre Apps verwalten können, finden Sie [im Microsoft Teams Admin Center](/microsoftteams/manage-apps) über die Seite **"Apps verwalten".** Auf **der Seite Apps** verwalten im Teams Admin Center können Sie auch [benutzerdefinierte Apps hochladen.](/microsoftteams/manage-apps#publish-a-custom-app-to-your-organizations-app-store)
 
 Nach dem Einrichten von Apps können [](/microsoftteams/teams-app-setup-policies) Sie [App-Berechtigungsrichtlinien](/microsoftteams/teams-app-permission-policies) und Richtlinien für die App-Einrichtung verwenden, um die App-Benutzererfahrung für bestimmte Raumkonten in Ihrer Organisation zu konfigurieren.
 
 ## <a name="pin-apps-on-teams-panels-with-app-setup-policies"></a>Anheften von Apps an Teams Panels mit Richtlinien für die App-Einrichtung
 
-Da Teams die Möglichkeit bietet, eine Vielzahl von Apps anzuzeigen, können Administratoren entscheiden, welche Apps für die Organisation am  wichtigsten sind, und nur diese für den Startbildschirm der Teams-Panels anheften, um schnell darauf zugreifen zu können. Wenn mehr als fünf angeheftet Apps oder nicht angeheftet Apps verfügbar sind, werden sie unter dem Bildschirm **Mehr** angezeigt. Microsoft empfiehlt das Erstellen einer benutzerdefinierten App-Setuprichtlinie speziell für Teams Panels.
+Da Teams die Möglichkeit bietet, eine Vielzahl von Apps anzuzeigen, können Administratoren entscheiden, welche Apps für die Organisation  am wichtigsten sind, und nur diese für den Startbildschirm der Teams-Panels anheften, um schnell darauf zugreifen zu können. Wenn mehr als fünf angeheftet Apps oder nicht angeheftet Apps verfügbar sind, werden sie unter dem Bildschirm **Mehr** angezeigt. Microsoft empfiehlt das Erstellen einer benutzerdefinierten App-Setuprichtlinie speziell für Teams Panels.
 
 ![Screenshot der Benutzeroberfläche der Seite mit den Richtlinien für die App-Einrichtung](media/appsetup1.png) 
 
-Zum Verwalten von angeheftet Apps, die in den Teams-Panels angezeigt werden, melden Sie sich beim Teams Admin Center für Ihre Organisation an, und navigieren Sie zu Setuprichtlinien für **Teams-Apps** Auswählen oder Erstellen einer neuen Richtlinie Angeheftet Apps \>  \>  \> .
+Zum Verwalten von angeheftet Apps, die in den Teams-Panels angezeigt werden, melden Sie sich beim Teams Admin Center für Ihre Organisation an, und navigieren Sie zu Richtlinien für die Einrichtung von **Teams-Apps** Auswählen oder Erstellen einer neuen Richtlinie \>  \>  \> **Angeheftet** Apps.
 
 ![Screenshot des Abschnitts "Angeheftet Apps" auf der Benutzeroberfläche](media/appsetup2.png) 
 
 *Die in diesem Bild enthaltenen Apps sind nur Beispiele und können möglicherweise nicht verwendet werden.*
 
-Microsoft empfiehlt Ihnen, Hochladen **Benutzerdefinierte** Apps zu deaktivieren und Das **Anheften** von Benutzern zu ermöglichen, um die bestmögliche Benutzererfahrung Teams App auf ihren Teams zu erhalten.
+Microsoft empfiehlt Ihnen, Hochladen **Benutzerdefinierte** Apps zu deaktivieren und Das **Anheften** von Benutzern zu ermöglichen, um Teams Benutzerfreundlichkeit auf ihren Teams zu verbessern.
 
 Weitere Informationen zum Anheften von Apps finden Sie unter [Verwalten von Richtlinien für die App-Einrichtung.](/microsoftteams/teams-app-setup-policies)
 
@@ -80,7 +80,7 @@ Weitere Informationen zum Anheften von Apps finden Sie unter [Verwalten von Rich
 
 *Die in diesem Bild enthaltenen Apps sind nur Beispiele und können möglicherweise nicht verwendet werden.*
 
-Um die Reihenfolge zu verwalten, in der Apps in den Teams-Panels angezeigt werden, melden Sie sich beim Teams Admin Center für Ihre Organisation an, und navigieren Sie zu Richtlinien für die Einrichtung von **Teams-Apps** Wählen Sie die Richtlinie \>  \>  \> **Angeheftet Apps:** **Nach oben/unten** aus.
+Um die Reihenfolge zu verwalten, in der Apps in den Teams-Panels angezeigt werden, melden Sie sich beim Teams Admin Center für Ihre Organisation an, und navigieren Sie zu Richtlinien für die Einrichtung von **Teams-Apps** Wählen Sie die Richtlinie Angeheftet \>  \>  \> **Apps:** **Nach oben/unten** aus.
 
 ## <a name="assigning-setup-policies-to-a-room-resource-account"></a>Zuweisen von Setuprichtlinien zu einem Raumressourcenkonto
 
@@ -90,7 +90,7 @@ Nach dem Erstellen der Setuprichtlinie muss der Administrator diese Richtlinie d
 
 ### <a name="how-long-does-it-take-for-teams-panels-to-get-the-new-or-updated-app-setup-policies"></a>Wie lange dauert es, bis Teams die neuen oder aktualisierten Richtlinien für das App-Setup erhalten?
 
-Nach dem Bearbeiten oder Zuweisen neuer Richtlinien im Teams Admin Center kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden. Administratoren können versuchen, sich über den Bereich ab- oder abmelden, auf das  **Symbol Einstellungen** tippen und zum Startbildschirm zurück wechseln, um zu versuchen, die Richtlinien zu aktualisieren.
+Nach dem Bearbeiten oder Zuweisen neuer Richtlinien im Teams Admin Center kann es bis zu 24 Stunden dauern, bis die Änderungen wirksam werden. Administratoren können versuchen, sich über den Bereich ab- oder abmelden, auf das  Symbol **Einstellungen** tippen und zum Startbildschirm zurück wechseln, um zu versuchen, die Richtlinien zu aktualisieren.
 
 ### <a name="what-is-the-ordering-of-the-apps-on-the-more-screen"></a>Wie ordnen sich die Apps auf dem Bildschirm "Mehr" an?
 

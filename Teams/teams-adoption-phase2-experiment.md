@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie, wie Sie die experimentelle Phase der Microsoft Teams durchführen.
+description: In diesem Artikel erfahren Sie, wie Sie die experimentelle Phase der Einführung Microsoft Teams durchführen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c93dbfbb7b3ce6955ad530e13b85fb99b5d1fc01fbbe38b02871e8d7ddae21e1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296602"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636649"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams-Einführungsphase 2 – Experimentieren
 

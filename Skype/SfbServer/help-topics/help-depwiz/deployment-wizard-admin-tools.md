@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployAdminToolsIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec6b9b09-2be0-45e7-b23c-f94b64839e65
-description: Ausführliche Informationen zum Installieren von Skype for Business Server 2015 mithilfe des Bereitstellungs-Assistenten finden Sie unter Installieren Skype for Business Server 2015.
-ms.openlocfilehash: 822626e312c1aea4cf3103a89334613a87fda50d42acdc3de9b601e0f42eeb41
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ausführliche Informationen zur Verwendung des Bereitstellungs-Assistenten zum Installieren von Skype for Business Server 2015 finden Sie unter Install Skype for Business Server 2015.
+ms.openlocfilehash: e6139adbafa4c6d0cd8d3d2095fe0ba2391d6b31
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320657"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616051"
 ---
 # <a name="deployment-wizard-admin-tools"></a>Bereitstellungs-Assistent: Admin-Tools
  

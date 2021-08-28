@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anrufdiagnoseberichte mit mehreren Benutzern, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 19ceb9a7fa58c53e209aaa4fde1ed530d20d7d1a5e6431d2da84d14f01740a60
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4487c320d591c5d64fd209818824ffd1ce045d48
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623647"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Anrufdiagnoseberichte in Skype for Business Server
  

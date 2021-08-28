@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: seo-marvel-apr2020
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Exchange Online und Skype for Business Server lokal.
-ms.openlocfilehash: a72fb8cfb484c9838253b9d87452c745c5e6695525bb0eed380ea6b21be64ee2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e1331526660b928b49beeebf2e70e2552afdacd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280680"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636659"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
@@ -28,13 +28,13 @@ In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-R
   
 Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. In diesem Thema werden Hybridbereitstellungen für Microsoft Teams-Räume mit online Exchange Bereitstellung behandelt. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfiehlt es sich, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, sowie für andere Bereitstellungsoptionen.
 
-Die einfachste Möglichkeit zum Einrichten von Benutzerkonten besteht in der Konfiguration mithilfe von Remotecomputern Windows PowerShell. Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Unterstützung beim Erstellen neuer Benutzerkonten oder zum Überprüfen vorhandener Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Es Ihnen lieber ist, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume werden.
+Die einfachste Möglichkeit zum Einrichten von Benutzerkonten besteht in der Konfiguration mithilfe von Remotecomputern Windows PowerShell. Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Unterstützung beim Erstellen neuer Benutzerkonten oder zum Überprüfen vorhandener Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Es Ihnen lieber ist, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume verwendet werden.
 
 ## <a name="requirements"></a>Anforderungen
 
 Bevor Sie Ihre Microsoft Teams-Räume mit Exchange Online bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
   
-Zum Bereitstellen Microsoft Teams-Räume mit Exchange Online, führen Sie die folgenden Schritte aus. Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen zum Ausführen der zugehörigen Cmdlets verfügen. 
+Führen Sie die Microsoft Teams-Räume mit Exchange Online aus. Vergewissern Sie sich, dass Sie über die erforderlichen Berechtigungen zum Ausführen der zugehörigen Cmdlets verfügen. 
 
    > [!NOTE]
    >  Das Azure Active Directory-Modul für [Windows PowerShell-Cmdlets](/powershell/azure/active-directory/overview) in diesem Abschnitt (z. B. Set-MsolUser) wurde unter Einrichten von Konten für Microsoft Teams-Räume getestet. Es ist möglich, dass andere Cmdlets funktionieren, aber in diesem speziellen Szenario noch nicht getestet wurden.
@@ -43,7 +43,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Erstellen eines Kontos und Festlegen der Exchange-Eigenschaften
 
-1. Starten Sie eine Windows PowerShell-Sitzung auf einem PC, und stellen Sie wie folgt Exchange Online Verbindung mit dem Gerät dar:
+1. Starten Sie eine Windows PowerShell-Sitzung auf einem PC, und stellen Sie wie folgt eine Exchange Online Verbindung mit dem Computer dar:
 
     ``` Powershell
     Set-ExecutionPolicy Unrestricted
@@ -53,7 +53,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
     Import-PSSession $sess -DisableNameChecking
     ```
 
-2. Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount, oder Sie ändern die Einstellungen für ein vorhandenes Raumpostfach. Dadurch kann sich das Konto bei anderen Microsoft Teams-Räume.
+2. Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount oder ändern die Einstellungen für ein vorhandenes Raumpostfach. Dadurch kann sich das Konto bei ihrem Konto Microsoft Teams-Räume.
 
    Wenn Sie ein vorhandenes Ressourcenpostfach ändern:
 
@@ -81,14 +81,14 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
-    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung dafür, dass Skype for Business Server Kennwort Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes einzelne Benutzerkonto Microsoft Teams-Räume erstellen.
+    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung für Skype for Business Server auf Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes einzelne Benutzerkonto Microsoft Teams-Räume erstellen.
   
 4. Klicken Sie auf **Fertig stellen**, um das Konto zu erstellen.
 5. Nachdem Sie das Konto erstellt haben, führen Sie eine Verzeichnissynchronisierung aus. Dies kann mithilfe von [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration) in PowerShell erreicht werden. Wechseln Sie nach Abschluss des Vorgangs zur Seite Benutzer, und vergewissern Sie sich, dass die beiden in den vorherigen Schritten erstellten Konten zusammengeführt wurden.
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Zuweisen einer Microsoft 365 oder Office 365 Lizenz
 
-1. Stellen Sie zuerst eine Verbindung mit Azure AD bereit, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview)
+1. Stellen Sie zunächst eine Verbindung mit Azure AD bereit, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview)
 
    > [!NOTE]
    > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview) nicht unterstützt.
@@ -118,14 +118,14 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 ### <a name="enable-the-user-account-with-skype-for-business-server"></a>Aktivieren des Benutzerkontos mit Skype for Business Server
 
 > [!NOTE]
-> Wenn Sie Ihre Besprechung Teams-Räume nur an Microsoft Teams teilnehmen möchten, müssen Sie nicht die folgenden Schritte ausführen. Die folgenden Schritte sind nur erforderlich, wenn Sie die Unterstützung für Skype for Business.
+> Wenn Sie ihr Konto nur für Teams-Räume Besprechungen Microsoft Teams möchten, müssen Sie nicht die folgenden Schritte ausführen. Die folgenden Schritte sind nur erforderlich, wenn Sie die Unterstützung für ihre Skype for Business.
 
 1. Erstellen Sie eine Windows PowerShell Sitzung von einem PC aus wie folgt:
 
    > [!NOTE]
    > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
    >
-   > Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
+   > Wenn Sie die neueste Version Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
 
    ``` Powershell
    # When using Teams PowerShell Module
@@ -149,11 +149,11 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 ### <a name="assign-a-skype-for-business-server-license-to-your-microsoft-teams-rooms-account"></a>Zuweisen einer Skype for Business Server Lizenz zu Ihrem Microsoft Teams-Räume Konto
 
 > [!NOTE]
-> Wenn Sie Ihre Besprechung Teams-Räume nur an Microsoft Teams teilnehmen möchten, müssen Sie nicht die folgenden Schritte ausführen. Die folgenden Schritte sind nur erforderlich, wenn Sie die Unterstützung für Skype for Business.
+> Wenn Sie ihr Konto nur für Teams-Räume Besprechungen Microsoft Teams möchten, müssen Sie nicht die folgenden Schritte ausführen. Die folgenden Schritte sind nur erforderlich, wenn Sie die Unterstützung für ihre Skype for Business.
 
 1. Melden Sie sich als Mandantenadministrator an, öffnen Sie Microsoft 365 Admin Center, und klicken Sie auf die Administrator-App.
 2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.
-3. Klicken Sie Microsoft Teams-Räume Konto und dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
+3. Klicken Sie Microsoft Teams-Räume Konto, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
 4. Klicken Sie auf **Lizenzen**.
 5. Wählen Sie in **Lizenzen zuweisen** abhängig von Ihren Anforderungen für Lizenzen und für Enterprise-VoIP entweder Skype for Business (Plan 2) oder Skype for Business (Plan 3) aus. Sie müssen eine Plan 3-Lizenz verwenden, wenn Sie ihr Konto auf Enterprise-VoIP Microsoft Teams-Räume.
 6. Klicken Sie auf **Speichern**.
@@ -161,10 +161,10 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 Zur Überprüfung sollten Sie in der Lage sein, sich mit Skype for Business-Client bei diesem Konto anmelden.
 
 > [!NOTE]
-> Wenn Sie derzeit E1-, E3-, E4- oder E5-SKUs mit Skype for Business Plan 2 mit Audiokonferenz oder mit Telefonsystem und einem Anrufplan verwenden, funktionieren diese weiterhin. Sie sollten jedoch erwägen, nach Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell zu Teams Besprechungsraum [Lizenzierungsupdate](rooms-licensing.md)zu verwenden.
+> Wenn Sie derzeit E1-, E3-, E4- oder E5-SKUs mit Skype for Business Plan 2 mit Audiokonferenzen oder mit Telefonsystem und einem Anrufplan verwenden, funktionieren diese weiterhin. Sie sollten jedoch erwägen, nach Ablauf der aktuellen Lizenzen zu einem einfacheren Lizenzierungsmodell zu Teams Besprechungsraum [Lizenzierungsupdate](rooms-licensing.md)zu verwenden.
 
 > [!IMPORTANT]
-> Wenn Sie Skype for Business Plan 2 verwenden, können Sie den Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business werden. Um Ihren Besprechungsraum für Besprechungen Microsoft Teams zu aktivieren, empfehlen wir, die Lizenz Besprechungsraum erwerben.
+> Wenn Sie Skype for Business Plan 2 verwenden, können Sie den Microsoft Teams-Räume nur im Skype for Business-Modus verwenden, was bedeutet, dass alle Ihre Besprechungen Skype for Business sind. Um Ihren Besprechungsraum für Besprechungen Microsoft Teams zu aktivieren, empfehlen wir, die Lizenz Besprechungsraum erwerben.
   
 ## <a name="related-topics"></a>Verwandte Themen
 

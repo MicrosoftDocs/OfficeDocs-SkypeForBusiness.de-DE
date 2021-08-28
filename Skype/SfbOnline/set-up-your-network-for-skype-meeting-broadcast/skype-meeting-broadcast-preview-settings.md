@@ -13,26 +13,26 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom:
 - SMB
 - ms.lync.lac.BroadcastMeetingsPreview
-description: Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor die Produktbuilds allgemein veröffentlicht werden. Weitere Informationen finden Sie unter Skype for Business Vorschau.
-ms.openlocfilehash: b372fcdbe23ed5fcd663cf7af0a0d4aea1cd684277d670308daab120625d2238
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor wir Produktbuilds allgemein veröffentlichen. Weitere Informationen finden Sie unter Skype for Business Vorschau.
+ms.openlocfilehash: e00135bfd2cdd487b02d21b242d3c634accd0ca0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298735"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594809"
 ---
 # <a name="skype-meeting-broadcast-preview-settings"></a>Skype-Besprechung Einstellungen für die Übertragungsvorschau
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor die Produktbuilds allgemein veröffentlicht werden. Weitere Informationen finden Sie unter Skype for Business [Vorschau](https://www.skypepreview.com/).
+Das Skype for Business-Programm bietet Ihnen frühzeitigen Zugriff auf neue Produkte und Features. So kann Ihre Organisation einen Einblick in kommende Produkte erhalten, die neuen Features in Ihrer eigenen Umgebung testen und Feedback geben, bevor wir Produktbuilds allgemein veröffentlichen. Weitere Informationen finden Sie unter Skype for Business [Vorschau.](https://www.skypepreview.com/)
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)

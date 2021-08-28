@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Zusammenfassung: Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.'
-ms.openlocfilehash: 4b0843d44a9e23756e9f4f8516fcaf1f543b94da45749416deb9f43fca0715ad
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6d065f8313a770ce05b10925c9c854cec7e256e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326421"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623627"
 ---
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Nutzungsbericht über Reaktionsgruppen in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.
 
-Die Reaktionsgruppenanwendung bietet Skype for Business Server die Möglichkeit, Anrufe basierend auf der gewählten Nummer und optional auf den Antworten des Anrufers auf eine Reihe von Fragen zu beantworten und weiterzuleiten. Reaktionsgruppenanrufe werden normalerweise nicht an eine Einzelperson weitergeleitet, sondern stattdessen an ein Team von Personen, die als eine Agentgruppe bezeichnet wird. Wenn beispielsweise jemand die Telefonnummer ihres Helpdesks anruft, können Skype for Business Server diesen Anruf automatisch an den ersten verfügbaren Helpdesk-Agent weiterleiten. Alternativ können Skype for Business Server eine Reihe von Fragen stellen ("Drücken Sie 1, wenn Sie Hardwareprobleme haben. Drücken Sie 2, wenn Sie Softwareprobleme haben. Drücken Sie 3, wenn Sie Netzwerkprobleme haben.") und leiten Sie den Anruf basierend auf der Antwort auf diese Fragen an den am besten geeigneten Helpdesk-Agenten weiter.
+Die Reaktionsgruppenanwendung bietet Skype for Business Server die Möglichkeit, Anrufe basierend auf der gewählten Nummer und optional auf den Antworten des Anrufers auf eine Reihe von Fragen zu beantworten und weiterzuleiten. Reaktionsgruppenanrufe werden normalerweise nicht an eine Einzelperson weitergeleitet, sondern stattdessen an ein Team von Personen, die als eine Agentgruppe bezeichnet wird. Wenn beispielsweise jemand die Telefonnummer ihres Helpdesks anruft, können Skype for Business Server diesen Anruf automatisch an den ersten verfügbaren Helpdesk-Agenten weiterleiten. Alternativ können Skype for Business Server eine Reihe von Fragen stellen ("Drücken Sie 1, wenn Sie Hardwareprobleme haben. Drücken Sie 2, wenn Sie Softwareprobleme haben. Drücken Sie 3, wenn Sie Netzwerkprobleme haben.") und leiten Sie den Anruf basierend auf der Antwort auf diese Fragen an den am besten geeigneten Helpdesk-Agenten weiter.
 
 Der Nutzungsbericht über die Reaktionsgruppe gibt einen detaillierten Einblick in die Anzahl der Telefonanrufe, die von allen Reaktionsgruppenworkflows empfangen wurden. Diese Anrufe werden dann in spezifischere Kategorien unterteilt, z. B. Angebotene Anrufe, Angenommene Anrufe und Prozentsatz abgebrochener Anrufe.
 
@@ -70,7 +70,7 @@ Obwohl im Nutzungsbericht über Reaktionsgruppe keine Workflow-URIs angezeigt we
 
 Sie können auch einen ähnlichen Ansatz verwenden, um die Anzahl der Anrufe zu messen, die von Ihrem internen Helpdesk oder Ihrer Kundendienstabteilung behandelt werden.
 
-Um Nutzungsstatistiken für einen bestimmten Workflow zu überprüfen, geben Sie den Workflow-URI in das Feld "Workflow-URI" ein. Wie bereits erwähnt, werden Workflow-URIs (die einem Workflow zugeordnete SIP-Adresse) nicht im Bericht angezeigt. Das bedeutet, dass Sie eine andere Möglichkeit zum Ermitteln des URI eines Workflows finden müssen. Eine Möglichkeit hierfür ist die Verwendung von Windows PowerShell und der Skype for Business Server-Verwaltungsshell. Mit diesem Befehl werden beispielsweise die URIs für alle Reaktionsgruppenworkflows zurückgegeben:
+Um Nutzungsstatistiken für einen bestimmten Workflow zu überprüfen, geben Sie den Workflow-URI in das Feld "Workflow-URI" ein. Wie bereits erwähnt, werden Workflow-URIs (die einem Workflow zugeordnete SIP-Adresse) im Bericht nicht angezeigt. Das bedeutet, dass Sie eine andere Möglichkeit zum Ermitteln des URI eines Workflows finden müssen. Eine Möglichkeit hierfür ist die Verwendung von Windows PowerShell und der Skype for Business Server-Verwaltungsshell. Mit diesem Befehl werden beispielsweise die URIs für alle Reaktionsgruppenworkflows zurückgegeben:
 
 ```PowerShell
 Get-CsRgsWorkflow | Select-Object Name, PrimaryUri

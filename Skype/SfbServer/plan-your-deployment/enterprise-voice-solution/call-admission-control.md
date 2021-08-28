@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Erfahren Sie mehr über die Anrufsteuerung, die verhindern kann, dass Anrufe stattfinden, wenn sie eine schlechte Medienqualität aufweisen, in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: ee51e83c8c797a958ce520e0215b438927a65005d8cb1b3caf4c75793cb55f99
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 16b134e6d775d84be3fff97698d2f03ce7497c87
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306906"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623597"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planen der Anrufsteuerung in Skype for Business Server
 
@@ -43,7 +43,7 @@ Das Cac-Design in Skype for Business Server bietet vier Hauptattribute:
 
 - Die Bereitstellung und Verwaltung ist einfach, ohne dass zusätzliche Geräte erforderlich sind, z. B. speziell konfigurierte Router.
 
-- Es befasst sich mit kritischen Unified Communications-Anwendungsfällen, z. B. Roamingbenutzern und mehreren Anwesenheitspunkten. Anrufsteuerungsrichtlinien werden entsprechend dem Standort des Endpunkts erzwungen, nicht nach dem Standort, an dem der Benutzer verwaltet wird.
+- Es befasst sich mit kritischen Unified Communications-Anwendungsfällen, z. B. Roamingbenutzern und mehreren Anwesenheitspunkten. Anrufsteuerungsrichtlinien werden entsprechend dem Standort des Endpunkts erzwungen, und nicht nach dem Standort, an dem der Benutzer verwaltet wird.
 
 - Zusätzlich zu Sprachanrufen kann es auf anderen Datenverkehr angewendet werden, z. B. Auf Videoanrufe und Audio-/Videokonferenzsitzungen.
 
@@ -78,7 +78,7 @@ Der Bandbreitenrichtliniendienst bietet eine hohe Verfügbarkeit innerhalb eines
 
 ### <a name="network-considerations"></a>Überlegungen zum Netzwerk
 
-Obwohl die Bandbreiteneinschränkung für Audio und Video vom Bandbreitenrichtliniendienst in Skype for Business Server erzwungen wird, wird diese Einschränkung nicht am Netzwerkrouter (Ebene 2 und 3) erzwungen. Die Anrufsteuerung kann nicht verhindern, dass eine Datenanwendung beispielsweise die gesamte Netzwerkbandbreite auf einer WAN-Verbindung verbraucht, einschließlich der Bandbreite, die von Ihrer Anrufsteuerungsrichtlinie für Audio und Video reserviert ist. Um die erforderliche Bandbreite in Ihrem Netzwerk zu schützen, können Sie ein QoS-Protokoll (Quality of Service) wie differentiated Services (DiffServ) bereitstellen. Daher empfiehlt es sich, die von Ihnen definierten Bandbreitenrichtlinien für die Anrufsteuerung mit allen QoS-Einstellungen zu koordinieren, die Sie möglicherweise bereitstellen.
+Obwohl die Bandbreiteneinschränkung für Audio und Video vom Bandbreitenrichtliniendienst in Skype for Business Server erzwungen wird, wird diese Einschränkung nicht am Netzwerkrouter (Ebene 2 und 3) erzwungen. Die Anrufsteuerung kann nicht verhindern, dass eine Datenanwendung beispielsweise die gesamte Netzwerkbandbreite auf einer WAN-Verbindung verbraucht, einschließlich der Bandbreite, die von Ihrer Anrufsteuerungsrichtlinie für Audio und Video reserviert wird. Um die erforderliche Bandbreite in Ihrem Netzwerk zu schützen, können Sie ein QoS-Protokoll (Quality of Service) wie differentiated Services (DiffServ) bereitstellen. Daher empfiehlt es sich, die von Ihnen definierten Bandbreitenrichtlinien für die Anrufsteuerung mit allen QoS-Einstellungen zu koordinieren, die Sie möglicherweise bereitstellen.
 
 ### <a name="media-and-signaling-paths-over-vpn"></a>Medien- und Signalpfade über VPN
 
@@ -86,7 +86,7 @@ Wenn Ihr Unternehmen Medien über VPN unterstützt, stellen Sie sicher, dass sow
 
 ### <a name="call-admission-control-of-outside-users"></a>Anrufsteuerung für externe Benutzer
 
-Die Anrufsteuerung wird nicht über die Grenzen der Skype for Business Server Organisation hinaus erzwungen. Die Anrufsteuerung kann nicht auf den Über das Internet übertragenen Mediendatenverkehr angewendet werden, der nicht von Skype for Business Server verwaltet wird. Anrufsteuerungsprüfungen werden für den Teil des Anrufs durchgeführt, der über das Unternehmensnetzwerk fließt, wenn der angerufene Endpunkt zur Organisation gehört, und der Edgeserver wurde der Netzwerkkonfiguration hinzugefügt, wie in der Bereitstellung der [Anrufsteuerung beschrieben: abschließende Checkliste für Skype for Business Server.](../../deploy/deploy-enterprise-voice/final-checklist.md) Wenn der aufgerufene Endpunkt nicht zur Organisation gehört, z. B. ein Verbundbenutzer oder PIC-Benutzer, werden keine Bandbreitenrichtlinienüberprüfungen durchgeführt, und der ausgehende Anruf ignoriert alle Einschränkungen der Anrufsteuerung.
+Die Anrufsteuerung wird nicht über die Grenzen der Skype for Business Server Organisation hinaus erzwungen. Die Anrufsteuerung kann nicht auf den Über das Internet übertragenen Mediendatenverkehr angewendet werden, der nicht von Skype for Business Server verwaltet wird. Cac checks will be performed on the portion of the call that flows through the enterprise network if the called endpoint belongs to the organization, and the Edge Server has been added to the network configuration, as described in [Call admission control deployment: final checklist for Skype for Business Server](../../deploy/deploy-enterprise-voice/final-checklist.md). Wenn der aufgerufene Endpunkt nicht zur Organisation gehört, z. B. ein Verbundbenutzer oder PIC-Benutzer, werden keine Bandbreitenrichtlinienüberprüfungen durchgeführt, und der ausgehende Anruf ignoriert alle Einschränkungen der Anrufsteuerung.
 
 ### <a name="call-admission-control-of-pstn-connections"></a>Anrufsteuerung für PSTN-Verbindungen
 
@@ -113,7 +113,7 @@ Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte I
 4. Ermitteln Sie die Bandbreiteneinschränkungen für jede WAN-Verbindung.
 
     > [!NOTE]
-    > Bandbreiteneinschränkungen beziehen sich darauf, wie viel Bandbreite auf einer WAN-Verbindung Enterprise-VoIP und Audio-/Videodatenverkehr zugewiesen wird. Wenn eine WAN-Verbindung als "Bandbreiteneinschränkung" beschrieben wird, weist die WAN-Verbindung eine Bandbreitenbeschränkung auf, die niedriger ist als der erwartete Spitzendatenverkehr über die Verbindung.
+    > Bandbreiteneinschränkungen beziehen sich darauf, wie viel Bandbreite auf einer WAN-Verbindung Enterprise-VoIP und Audio-/Videodatenverkehr zugeordnet wird. Wenn eine WAN-Verbindung als "Bandbreiteneinschränkung" beschrieben wird, weist die WAN-Verbindung eine Bandbreitenbeschränkung auf, die niedriger ist als der erwartete Spitzendatenverkehr über die Verbindung.
 
 5. Identifizieren Sie die IP-Subnetze, die jedem Netzwerkstandort zugewiesen sind.
 
@@ -126,7 +126,7 @@ Um diese Konzepte zu erläutern, verwenden wir die Beispielnetzwerktopologie in 
 > [!NOTE]
 > Alle Netzwerkstandorte sind einer Netzwerkregion zugeordnet. Beispielsweise sind die Standorte "Portland", "Reno" und "Albuquerque" in der Region "Nordamerika" enthalten. In dieser Abbildung werden nur WAN-Verbindungen mit Bandbreiteneinschränkungen gezeigt, auf die Anrufsteuerungsrichtlinien angewendet werden. Die Netzwerkstandorte "Chicago", "New York" und "Detroit" werden innerhalb des Regionenovals "Nordamerika" angezeigt, da sie keine Bandbreiteneinschränkungen aufweisen und für diese Standorte daher keine Richtlinien für die Anrufsteuerung erforderlich sind.
 
-Die Komponenten in dieser Beispieltopologie werden in den folgenden Abschnitten erläutert. Ausführliche Informationen zur Planung dieser Topologie, einschließlich der Bandbreiteneinschränkungen, finden Sie unter [Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server.](example-gathering-requirements.md)
+Die Komponenten in dieser Beispieltopologie werden in den folgenden Abschnitten erläutert. Ausführliche Informationen zur Planung dieser Topologie, einschließlich der Bandbreiteneinschränkungen, finden Sie unter Beispiel: Erfassen von Anforderungen für die [Anrufsteuerung in Skype for Business Server.](example-gathering-requirements.md)
 
 ### <a name="identify-network-regions"></a>Identifizieren der Netzwerkregionen
 
@@ -141,7 +141,7 @@ Die hier vorgestellte Beispieltopologie umfasst drei Netzwerkregionen: Nordamer
 Die Anrufsteuerung erfordert, dass für jede Netzwerkregion ein Skype for Business Server zentraler Standort definiert ist. Ausgewählt wird der zentrale Standort, der die beste Netzwerkverbindung und die höchste Bandbreite aller Standorte in dieser Netzwerkregion bietet. In der oben gezeigten beispielhaften Netzwerktopologie sind drei Netzwerkregionen aufgeführt, jede mit einem zentralen Standort zur Verwaltung der Entscheidungen im Rahmen der Anrufsteuerung. Die geeignete Zuordnung für das vorangehende Beispiel wird in der folgenden Tabelle gezeigt.
 
 > [!NOTE]
-> Zentrale Standorte entsprechen nicht notwendigerweise Netzwerkstandorten. In den Beispielen in dieser Dokumentation haben einige zentrale Standorte – Chicago, London und China – denselben Namen wie die Netzwerkstandorte. Auch wenn ein zentraler Standort und ein Netzwerkstandort denselben Namen haben, ist der zentrale Standort ein Element der Skype for Business Server Topologie, während der Netzwerkstandort Teil des Gesamtnetzwerks ist, in dem sich die Skype for Business Server Topologie befindet.
+> Zentrale Standorte entsprechen nicht notwendigerweise Netzwerkstandorten. In den Beispielen in dieser Dokumentation haben einige zentrale Standorte – Chicago, London und China – denselben Namen wie die Netzwerkstandorte. Selbst wenn ein zentraler Standort und ein Netzwerkstandort denselben Namen haben, ist der zentrale Standort ein Element der Skype for Business Server Topologie, während der Netzwerkstandort Teil des Gesamtnetzwerks ist, in dem sich die Skype for Business Server-Topologie befindet.
 
 **Netzwerkregionen, zentrale Standorte und Netzwerkstandorte**
 
@@ -149,7 +149,7 @@ Die Anrufsteuerung erfordert, dass für jede Netzwerkregion ein Skype for Busine
 |:-----|:-----|:-----|
 |Nordamerika  <br/> |Chicago  <br/> |Chicago  <br/> New York  <br/> Detroit  <br/> Portland  <br/> Reno  <br/> Albuquerque  <br/> |
 |EMEA  <br/> |London  <br/> |London  <br/> Köln  <br/> |
-|Apac  <br/> |Peking  <br/> |Peking  <br/> Manila  <br/> |
+|APAC  <br/> |Peking  <br/> |Peking  <br/> Manila  <br/> |
 
 ### <a name="identify-network-sites"></a>Identifizieren von Netzwerkstandorten
 
@@ -185,7 +185,7 @@ Bandbreitenrichtlinien für die Anrufsteuerung können einige oder alle der folg
 > Alle Bandbreitenwerte der Anrufsteuerung stellen die maximalen  *unidirektionalen Bandbreiteneinschränkungen*  dar.
 
 > [!NOTE]
-> Die Funktionen Skype for Business Server VoIP-Richtlinien bieten die Möglichkeit, Bandbreitenrichtlinienüberprüfungen für eingehende Anrufe an den Benutzer außer Kraft zu setzen (nicht für ausgehende Anrufe, die vom Benutzer getätigt werden). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) oder Ändern einer [VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) in der Bereitstellungsdokumentation.
+> Die Funktionen Skype for Business Server VoIP-Richtlinie bieten die Möglichkeit, Bandbreitenrichtlinienüberprüfungen für eingehende Anrufe an den Benutzer außer Kraft zu setzen (nicht für ausgehende Anrufe, die vom Benutzer getätigt werden). Nachdem die Sitzung eingerichtet wurde, wird die Bandbreitenauslastung genau berechnet. Diese Einstellung sollte mit Bedacht verwendet werden. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) oder Ändern einer [VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-policy-and-configure-pstn-usage-records) in der Bereitstellungsdokumentation.
 
 Zur Optimierung der Bandbreitenauslastung auf Sitzungsebene sollten Sie sich Gedanken über die verwendeten Audio- und Videocodecs machen. Vermeiden Sie insbesondere eine zu geringe Bandbreitenzuweisung für einen Codec, der erwartungsgemäß häufig verwendet wird. Umgekehrt sollten Sie die maximale Bandbreite pro Sitzung sehr niedrig ansetzen, wenn Sie verhindern möchten, dass für Mediendaten ein Codec mit hohen Bandbreitenanforderungen verwendet wird. Für Audiodaten ist nicht jeder Codec für jedes Szenario verfügbar. Beispiel:
 
@@ -193,7 +193,7 @@ Zur Optimierung der Bandbreitenauslastung auf Sitzungsebene sollten Sie sich Ged
 
 - Konferenzanrufe zwischen Skype for Business Endpunkten und dem A/V-Konferenzdienst verwenden entweder G.722 oder Siren.
 
-- Anrufe an das Telefonfestnetz (Public Switched Telephone Network, PSTN) an oder von Skype for Business Endpunkten verwenden entweder G.711 oder RTAudio (8 kHz).
+- Anrufe an das Telefonfestnetz (PUBLIC Switched Telephone Network, PSTN) an oder von Skype for Business Endpunkten verwenden entweder G.711 oder RTAudio (8 kHz).
 
 Verwenden Sie die folgende Tabelle, um die maximalen Bandbreiteneinstellungen pro Sitzung zu optimieren.
 
@@ -240,7 +240,7 @@ Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um zu ermitteln, welche I
 Im hier verwendeten Beispiel sind dem Standort "New York" in der Region "Nordamerika" die folgenden IP-Subnetze zugewiesen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Angenommen, der Benutzer Bob, der üblicherweise in Detroit arbeitet, reist für eine Schulung in das New Yorker Büro. Wenn er seinen Computer einschaltet und sich mit dem Netzwerk verbindet, erhält sein Computer eine IP-Adresse aus einem der vier Bereiche, die für "New York" reserviert sind, beispielsweise die Adresse 172.29.80.103.
 
 > [!CAUTION]
-> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Ein Skype for Business Client verwendet seine lokale IP-Adresse und maskiert die IP-Adresse mit der zugeordneten Subnetzmaske. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die Anrufsteuerung, aber keine Medienumgehung bereitstellen, funktioniert die Anrufsteuerung auch dann ordnungsgemäß, wenn Sie virtuelle Subnetze konfigurieren.) Wenn sich ein Client beispielsweise auf einem Computer mit der IP-Adresse 172.29.81.57 mit der IP-Subnetzmaske 255.255.255.0 anmeldet, fordert Skype for Business die Umgehungs-ID an, die dem Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – wenngleich der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Daher ist es wichtig, dass der Administrator Subnetze genau so eingibt, wie sie von Skype for Business Clients bereitgestellt werden (die während der Netzwerkkonfiguration entweder statisch oder von DHCP mit Subnetzen bereitgestellt werden).)
+> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Ein Skype for Business Client verwendet seine lokale IP-Adresse und maskiert die IP-Adresse mit der zugeordneten Subnetzmaske. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die Anrufsteuerung, aber keine Medienumgehung bereitstellen, funktioniert die Anrufsteuerung auch dann ordnungsgemäß, wenn Sie virtuelle Subnetze konfigurieren.) Wenn sich ein Client beispielsweise auf einem Computer mit der IP-Adresse 172.29.81.57 mit der IP-Subnetzmaske 255.255.255.0 anmeldet, fordert Skype for Business die Umgehungs-ID an, die dem Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – wenngleich der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Daher ist es wichtig, dass der Administrator Subnetze genau wie von Skype for Business Clients bereitgestellt (die während der Netzwerkkonfiguration entweder statisch oder über DHCP mit Subnetzen bereitgestellt werden).
 
 ## <a name="best-practices-for-call-admission-control"></a>Bewährte Methoden für die Anrufsteuerung
 

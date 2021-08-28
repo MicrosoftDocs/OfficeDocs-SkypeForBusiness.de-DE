@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 - LIL_Placement
 description: 'Erfahren Sie, wie Sie Personen, die Skype for Business verwenden, Skype for Business personen von außerhalb Ihrer Organisation kontaktieren und sie zu ihrer Kontaktliste hinzufügen können. '
-ms.openlocfilehash: 1c3d0e3e03d85b17e65dfc7a3782d1f2497f6d65f7fa0b84050d9d7cbb759ca2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77fb8098e7adeebd4267aed7f21153b20abd661b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298775"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594839"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 
@@ -37,7 +37,7 @@ Sie müssen über [Administratorberechtigungen](https://support.office.com/artic
 
 ![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
   
-1. Melden Sie sich mit Ihrem Microsoft 365 Oder Office 365 bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
+1. Melden Sie sich mit Ihrem Microsoft 365 Konto oder Office 365 bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
     
 2. Wechseln Sie im Admin Center zu **Admin Center**  >  **Skype for Business.** 
     
@@ -47,7 +47,7 @@ Sie müssen über [Administratorberechtigungen](https://support.office.com/artic
     
 4. Standardmäßig können Ihre Benutzer mit allen anderen Personen weltweit kommunizieren, die Skype for Business verwenden (vorausgesetzt, Ihre Firewall ist so konfiguriert, dass sie dies zulässt). 
     
-    ![Wählen Sie Personen die Verwendung von Skype for Business für die Kommunikation mit ihren Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+    ![Wählen Sie Personen die Verwendung von Skype for Business für die Kommunikation mit Ihren Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
     Wenn Sie möchten, dass Ihre Benutzer mit Skype-Benutzern chatten, ABER nicht mit anderen, die Skype for Business verwenden, wählen Sie **Nur für zulässige Domänen aktivieren** aus. Wenn Sie den Kontakt mit Skype-Benutzern ermöglichen, wird „skype.com" automatisch im Hintergrund als zulässige Domäne hinzugefügt. 
     
@@ -87,11 +87,11 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype, der sich nicht hi
 
 - **Skype for Businessfür Mac** ist es nicht möglich, nach Skype-Kontakten zu suchen und mit ihnen zu kommunizieren.
     
-- Wenn die Verzeichnissuche aktiviert ist, können Sie nach Benutzern Skype und Skype for Business suchen. Wenn Sie sie aus einem bestimmten Grund nicht finden können, indem Sie das Verzeichnis durchsuchen, können Sie ihnen eine Kontaktanfrage senden und sie dann bitten, sich bei Skype zu anmelden und die Anfrage zu akzeptieren, damit Sie mit ihnen eine Nachricht senden können. 
+- Wenn die Verzeichnissuche aktiviert ist, können Sie nach Benutzern Skype und Skype for Business suchen. Wenn Sie die Kontakte aus bestimmten Gründen nicht finden können, indem Sie das Verzeichnis durchsuchen, können Sie ihnen eine Kontaktanfrage senden und sie dann bei Skype anmelden und die Anfrage annehmen, damit Sie mit ihnen eine Nachricht senden können. 
     
 - Chat-Nachrichtenverbindungen mit anderen Chat-Dienstanbietern wie Google oder Facebook sind nicht möglich. Sie können Skype for Business nicht zum Senden von Mobiltelefon-Textnachrichten verwenden.
 
-- Es ist nicht möglich, Audio- oder Videoanrufe zwischen einem Kontakt Skype einem Kontakt oder Skype for Business aufzeichnen.
+- Es ist nicht möglich, Audio- oder Videoanrufe zwischen einem Kontakt Skype und einem Skype for Business aufzeichnen.
     
 ## <a name="what-features-are-available-when-adding-skype-contacts"></a>Welche Funktionen sind beim Hinzufügen von Skype-Kontakten verfügbar?
 

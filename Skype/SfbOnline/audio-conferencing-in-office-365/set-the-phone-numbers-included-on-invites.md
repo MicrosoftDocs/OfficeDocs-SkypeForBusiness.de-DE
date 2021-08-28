@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Hier erhalten Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer zur Teilnahme an einer Skype for Business Online-Besprechung. '
-ms.openlocfilehash: 9ed22a26ddb13d058e81d7fdd046d794623cb3a5176c333429b7227cd279afaa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326981"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594859"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Festlegen der In Einladungen enthaltenen Telefonnummern in Skype for Business Online
 
@@ -38,7 +38,7 @@ ms.locfileid: "54326981"
 Mit Audiokonferenzen in Microsoft 365 oder Office 365 können Benutzer in Ihrer Organisation Skype for Business-Besprechungen erstellen und benutzern dann die telefonische Einwahl in diese Besprechungen ermöglichen. In Microsoft 365 und Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenzbrücke oder eine Audiokonferenzbrücke eines Drittanbieters zu verwenden, die von einem genehmigten Audiokonferenzanbieter (ACP) gehostet wird.
   
 > [!NOTE]
-> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie wissen möchten, ob in Ihrer Region oder Ihrem Land/Ihrer Region Einwahltelefonnummern verfügbar sind, verwenden Sie das **Skype for Business Admin Center**  >  **Voice**  >  **Telefon-Nummern**,  klicken Sie auf Hinzufügen und dann auf Neue Leistungsnummern . Verwenden Sie die Listen für **Land/Region,** **Bundesland/Region** und Ort zum Filtern Ihrer Suche.> Wenn  Sie nach gebührenfreien Servicenummern suchen, wählen Sie gebührenfrei aus der Liste  **Bundesland/Region** aus.
+> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie sehen möchten, ob in Ihrer Region oder Ihrem Land/Ihrer Region Einwahltelefonnummern verfügbar sind, verwenden Sie das **Skype for Business Admin Center**  >  **Voice**  >  **Telefon-Nummern**  , klicken Sie auf Hinzufügen und dann auf Neue **Leistungsnummern**. Verwenden Sie die Listen für **Land/Region,** **Bundesland/Region** und Ort zum Filtern Ihrer Suche.> Wenn  Sie nach gebührenfreien Leistungsnummern suchen, wählen Sie gebührenfrei aus der Liste  **Bundesland/Region** aus.
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -140,7 +140,7 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Center beispielsweise, wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen, viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center gegenüber Geschwindigkeit, Einfachheit und Produktivität viele Vorteile, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

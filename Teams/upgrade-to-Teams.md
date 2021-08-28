@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Ermitteln Sie den optimalen Upgradepfad für Microsoft Teams basierend auf Ihrer aktuellen Skype for Business Bereitstellung.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c0794e855fac3f911b028c049289beaa13a571473f32f84509c6d219d92bdd78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282478"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616131"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Übersicht über die Implementierung des Upgrades
 
@@ -38,7 +38,7 @@ Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgra
 ## <a name="prerequisite-planning-activities"></a>Vorausgesetzte Planungsaktivitäten
 
 > [!IMPORTANT]
-> Bevor Sie mit der Upgradeimplementierung fortfahren, vergewissern Sie sich, dass Sie die Planungsinhalte gelesen haben, beginnend mit Planen Ihres [Upgrades,](upgrade-plan-journey.md) um sicherzustellen, dass Sie alle erforderlichen Planungswebsites abgeschlossen haben.
+> Bevor Sie mit der Upgradeimplementierung fortfahren, vergewissern [](upgrade-plan-journey.md) Sie sich, dass Sie die Planungsinhalte gelesen haben, beginnend mit Planen Ihres Upgrades, um sicherzustellen, dass Sie alle erforderlichen Planungswebsites abgeschlossen haben.
 
 
 - [Ernennen der Projektbeteiligten](upgrade-enlist-stakeholders.md)
@@ -51,13 +51,13 @@ Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgra
 
 ## <a name="choose-your-upgrade-starting-point"></a>Wählen Sie Ihren Upgrade-Ausgangspunkt aus.
 
-Die Schritte, die Sie ausführen, um Ihr Upgrade auf Teams durchzuführen, hängen von Ihrer aktuellen Bereitstellung des Skype for Business:
+Die Schritte, die Sie ausführen, um Ihr Upgrade auf Teams durchzuführen, hängen von Ihrer aktuellen Bereitstellung von Skype for Business:
 
 Wählen Sie basierend auf Ihrer aktuellen Umgebung Ihren Ausgangspunkt aus:  
 
 - **Wenn Sie ein Upgrade von Skype for Business Online** auf Teams durchführen, führen Sie die Schritte unter Upgrade von Skype for Business Online auf [Teams](./upgrade-to-teams-execute-skypeforbusinessonline.md)aus.
 
--  Wenn Sie ein Upgrade von einer lokalen **Skype for Business-Umgebung** durchführen, müssen Sie einige zusätzliche Schritte zum Einrichten der Verbindung zwischen ihrer lokalen und der Onlineumgebung ausführen, bevor Sie Ihre Benutzer in die lokale Umgebung Teams. Weitere Informationen finden Sie unter [Upgrade Skype for Business lokales Upgrade auf Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
+-  Wenn Sie ein Upgrade von einer lokalen **Skype for Business-Umgebung** durchführen, müssen Sie einige zusätzliche Schritte zum Einrichten der Konnektivität zwischen Ihrer lokalen und der Onlineumgebung ausführen, bevor Sie Ihre Benutzer in die lokale Umgebung Teams. Weitere Informationen finden Sie unter [Upgrade Skype for Business lokales Upgrade auf Teams.](upgrade-to-teams-execute-SkypeforBusinessHybridOnPrem.md)
 
 
 

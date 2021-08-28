@@ -1,5 +1,5 @@
 ---
-title: Verwenden von Verwaltungseinheitenfunktionen in Microsoft Teams
+title: Verwenden von Verwaltungseinheitsfunktionen in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 ms.reviewer: prasad.ghlove
@@ -9,30 +9,30 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Verwaltungseinheitenfunktionen in Ihrer Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 93add1771e76f6640b6f1fde3ee6e732499aa329
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 556f220c9ca250f014ae604c96cabf9ef0b0ca0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58399361"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636791"
 ---
 # <a name="administrative-unit-functionality-for-device-management-in-teams"></a>Verwaltungseinheitsfunktionen für die Geräteverwaltung in Teams
 
-Genaueres Rollenbasierter Zugriff für die Geräteverwaltung mithilfe des Microsoft Teams Admin Centers. Wir haben das Verwaltungseinheitskonzept für die Geräteverwaltung über das Teams Admin Center implementiert.
+Genaueres Rollenbasierter Zugriff für die Geräteverwaltung mithilfe des Microsoft Teams Admin Centers. Wir haben das Verwaltungseinheitskonzept für die Geräteverwaltung über das admin center Teams implementiert.
 
 Mit dem Konzept der Verwaltungseinheiten stellen Sie den Zugriff auf eine bestimmte Gruppe von Ressourcen für einen dedizierten Administrator sicher. Die Verwaltungseinheit beschränkt den Zugriff auf alle Ressourcen. Sie können die gleiche Funktionalität für die Verwaltung Teams Geräte erweitern.
 
 > [!NOTE]
-> Das Verwaltungseinheitskonzept ist derzeit nur für die Rolle Teams Geräteadministrator verfügbar.
+> Das Konzept der Verwaltungseinheiten ist derzeit nur für die Teams als Geräteadministrator verfügbar.
 
-Contoso verfügt beispielsweise über Vorgänge in verschiedenen Ländern/Regionen. Andrea ist globale IT-Administratorin in London, Während Prashant IT-Administrator für Indien ist. Wenn Prashant sich heute mit der Rolle "Geräteadministrator" beim Teams Admin Center meldet, sieht er Geräte auf der ganzen Welt. Andrea möchte den Zugriff von Prashant auf die in Indien vorhandenen Geräte einschränken. Das Konzept der administrativen Einheiten hilft bei der Lösung dieses Problems. Erfahren Sie mehr [über das Verwaltungseinheitskonzept.](/azure/active-directory/roles/administrative-units)
+Contoso verfügt beispielsweise über Vorgänge in verschiedenen Ländern/Regionen. Andrea ist globale IT-Administratorin in London, Während Prashant IT-Administrator für Indien ist. Heute, wenn Prashant sich mit der Rolle "Geräteadministrator" beim Teams Admin Center meldet, sehen sie Geräte auf der ganzen Welt. Andrea möchte den Zugriff von Prashant auf die in Indien vorhandenen Geräte einschränken. Das Konzept der administrativen Einheiten hilft bei der Lösung dieses Problems. Erfahren Sie mehr [über das Verwaltungseinheitskonzept.](/azure/active-directory/roles/administrative-units)
 
 ![Diagramm mit Szenarien](media/au-diagram.png)
 
@@ -48,7 +48,7 @@ Nach der Einrichtung kann der globale IT-Administrator Dann Gerätebenutzer hinz
 
 Die Zuweisung der Rolle kann über PowerShell mithilfe des [Cmdlets Add-AzureADMSScopedRoleMembership](/powershell/module/azuread/add-azureadmsscopedrolemembership?view=azureadps-2.0) durchgeführt werden.
 
-Nachdem Sie Benutzern für administrative Einheiten Rollen zugewiesen haben, müssen sich die Benutzer beim Teams Admin Center anmelden, um mit der Verwaltung von Geräten mit Bereichsbereich zu beginnen.
+Nachdem Sie benutzern Rollen für administrative Einheiten zugewiesen haben, müssen sich die Benutzer beim Teams Admin Center anmelden, um mit der Verwaltung von Geräten mit Bereichsbereich zu beginnen.
 
 ## <a name="experience-for-administrative-unit-admin"></a>Benutzererfahrung für Administratoren von Verwaltungseinheiten
 

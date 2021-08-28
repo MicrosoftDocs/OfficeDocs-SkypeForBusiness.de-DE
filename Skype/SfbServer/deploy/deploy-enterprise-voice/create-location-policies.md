@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für erweiterte Notrufdienste (E9-1-1) in Skype for Business Server Enterprise-VoIP konfigurieren.
-ms.openlocfilehash: 46bd1167f573f1d43689d5d4ff145823dafa94a2ec64697e9c20a234b341619d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340281"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58594739"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Erstellen von Standortrichtlinien in Skype for Business Server
 
@@ -29,7 +29,7 @@ In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für erweiterte Notruf
 
 Skype for Business Server verwendet eine Standortrichtlinie, um Skype for Business Clients für E9-1-1 während der Clientregistrierung zu aktivieren. Eine Standortrichtlinie enthält die Einstellungen, die definieren, wie E9-1-1 implementiert wird. Weitere Informationen finden Sie unter Planen von [Standortrichtlinien für Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)
 
-Sie definieren Standortrichtlinien mithilfe der Skype for Business Systemsteuerung oder mit dem Cmdlet ["New-CsLocationPolicy".](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
+Sie definieren Standortrichtlinien mithilfe der Skype for Business Systemsteuerung oder mithilfe des [Cmdlets "New-CsLocationPolicy".](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
 
 > [!NOTE]
 > Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Wenn Sie mehrere Notrufnummern konfigurieren möchten, müssen Sie die Informationen in ["Plan for multiple emergency numbers in Skype for Business Server"](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) befolgen und [mehrere Notrufnummern in Skype for Business konfigurieren.](configure-multiple-emergency-numbers.md) 
@@ -57,7 +57,7 @@ Weitere Informationen finden Sie unter Planen von [Standortrichtlinien für Skyp
 
 ### <a name="to-create-location-policies"></a>So erstellen Sie Standortrichtlinien
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
 
     > [!NOTE]
     > CsLocationPolicy schlägt fehl, wenn die Einstellung für **PstnUsage** nicht bereits in der globalen Liste der PstnUsages enthalten ist.

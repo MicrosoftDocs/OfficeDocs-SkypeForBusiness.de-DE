@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zum Lastenausgleich, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 867c9454aec26e3803447dec8565f210b243db6cf5a2997d18ca08e363eb6c43
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338073"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623587"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
  
@@ -41,7 +41,7 @@ Wenn Sie für einen Pool den DNS-Lastenausgleich verwenden möchten, aber dennoc
   
 Für Server-zu-Server-Datenverkehr verwendet Skype for Business Server den Topologie-fähigen Lastenausgleich. Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher, um die FQDNs der Server in der Topologie abzurufen, und verteilen den Datenverkehr automatisch auf die Server. Administratoren müssen diesen Typ des Lastenausgleichs nicht einrichten oder verwalten. 
   
-Wenn Sie den DNS-Lastenausgleich verwenden und den Datenverkehr zu einem bestimmten Computer blockieren müssen, reicht es nicht aus, nur die IP-Adresseinträge aus dem Pool-FQDN zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen. 
+Wenn Sie den DNS-Lastenausgleich verwenden und Datenverkehr zu einem bestimmten Computer blockieren müssen, reicht es nicht aus, nur die IP-Adresseinträge aus dem Pool-FQDN zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen. 
   
 ## <a name="hardware-load-balancer-requirements"></a>Anforderungen an das Hardwaregerät zum Lastenausgleich
 
@@ -60,7 +60,7 @@ Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den
 > Wenn Sie ein Hardwaregerät zum Lastenausgleich einsetzen, muss der Lastenausgleich für Verbindungen mit dem internen Netzwerk so konfiguriert werden, dass nur für den Datenverkehr zu Servern, auf denen der Zugriffs-Edgedienst und der A/V-Edgedienst ausgeführt werden, ein Lastenausgleich stattfindet. Es kann kein Lastenausgleich für den Datenverkehr zum internen Webkonferenz-Edgedienst oder zum internen XMPP-Proxydienst durchgeführt werden. 
   
 > [!NOTE]
-> Die NAT für direkte Serverrückgabe (Direct Server Return, DSR) wird bei Skype for Business Server nicht unterstützt. 
+> Die NAT des direkten Serverrücklaufs (Direct Server Return, DSR) wird bei Skype for Business Server nicht unterstützt. 
   
 Informationen dazu, ob Ihr Hardwaregerät zum Lastenausgleich die erforderlichen Features unterstützt, die von Skype for Business Server benötigt werden, finden Sie unter [Infrastruktur für Skype for Business.](../../../SfbPartnerCertification/certification/infra-gateways.md) 
   
@@ -104,7 +104,7 @@ Für Bereitstellungen, in denen die cookiebasierte Affinität **verwendet** wird
 - Das Cookie für das Hardwaregerät zum Lastenausgleich MUSS in jeder HTTP-Antwort festgelegt sein, für die die eingehende HTTP-Anforderung kein Cookie enthielt, unabhängig davon, ob für eine vorherige HTTP-Antwort für dieselbe TCP-Verbindung bereits ein Cookie abgerufen wurde. Wenn der Lastenausgleich das Einfügen von Cookies so optimiert, dass sie nur einmal pro TCP-Verbindung erfolgt, darf diese Optimierung NICHT verwendet werden.
     
 > [!NOTE]
-> Typische Konfigurationen des Hardwaregeräts zum Lastenausgleich verwenden die Quelladressenaffinität und eine Tcp-Sitzungsdauer von 20 Minuten. Dies ist für Lync Server- und Lync 2013-Clients in Ordnung, da der Sitzungsstatus über die Clientnutzung und/oder Anwendungsinteraktion beibehalten wird. 
+> Typische Konfigurationen des Hardwaregeräts zum Lastenausgleich verwenden die Quelladressenaffinität und eine Tcp-Sitzungsdauer von 20 Minuten. Dies ist für Lync Server- und Lync 2013-Clients in Ordnung, da der Sitzungsstatus über die Clientnutzung und/oder Anwendungsinteraktion aufrechterhalten wird. 
   
 Wenn Sie mobile Geräte bereitstellen, muss das Hardwaregerät zum Lastenausgleich in der Lage sein, einen Lastenausgleich für eine einzelne Anforderung in einer TCP-Sitzung vorzunehmen (tatsächlich muss es möglich sein, einen Lastenausgleich für eine einzelne Anforderung basierend auf der Ziel-IP-Adresse vorzunehmen).
   
@@ -138,8 +138,8 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
 
 |**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End-  <br/> 5061  <br/> |Quelle  <br/> |HTTPS  <br/> |
-|\<pool\>Web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End-  <br/> 5061  <br/> |Quelle  <br/> |HTTP  <br/> |
+|\<pool\>Web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End-  <br/> 5061  <br/> |Quelle  <br/> |HTTPS  <br/> |
+|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End-  <br/> 5061  <br/> |Quelle  <br/> |HTTP  <br/> |
    
 **Front-End-Serverbenutzerpool – externe HLB-Schnittstelle**
 
@@ -218,11 +218,11 @@ Auch wenn für diese Pools weiterhin Hardwaregeräte zum Lastenausgleich benöti
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS-Lastenausgleich und Unterstützung älterer Clients und Server
 
-Der DNS-Lastenausgleich unterstützt automatisches Failover nur für Server, auf denen Skype for Business Server oder Lync Server 2010 ausgeführt wird, sowie für Lync 2013- und Skype for Business-Clients. Frühere Versionen von Clients und Office Communications Server können weiterhin eine Verbindung mit Pools herstellen, die einen DNS-Lastenausgleich ausführen. Wenn sie jedoch keine Verbindung mit dem ersten Server herstellen können, auf den der DNS-Lastenausgleich verweist, können sie kein Failover zu einem anderen Server im Pool ausführen. 
+Der DNS-Lastenausgleich unterstützt das automatische Failover nur für Server, auf denen Skype for Business Server oder Lync Server 2010 ausgeführt wird, sowie für Lync 2013- und Skype for Business-Clients. Frühere Versionen von Clients und Office Communications Server können weiterhin eine Verbindung mit Pools herstellen, die einen DNS-Lastenausgleich ausführen. Wenn sie jedoch keine Verbindung mit dem ersten Server herstellen können, auf den der DNS-Lastenausgleich sie verweist, können sie kein Failover zu einem anderen Server im Pool ausführen. 
   
 Wenn Sie Exchange UM verwenden, müssen Sie außerdem mindestens Exchange 2010 SP1 verwenden, um Unterstützung für Skype for Business Server DNS-Lastenausgleich zu erhalten. Wenn Sie eine frühere Version von Exchange verwenden, verfügen Ihre Benutzer nicht über Failoverfunktionen für diese Exchange UM-Szenarien:
   
-- Wiedergeben der Enterprise Voicemail auf ihrem Telefon
+- Wiedergeben ihrer Enterprise Voicemail auf ihrem Telefon
     
 - Weiterleiten von Anrufen von einer automatischen Exchange UM-Telefonzentrale
     
@@ -240,7 +240,7 @@ Für die Bereitstellung von DNS-Lastenausgleich in Front-End-Pools und Director-
 - Um den vom DNS-Lastenausgleich verwendeten FQDN zu unterstützen, müssen Sie DNS für die Auflösung des Pool-FQDN (z. B. pool01.contoso.com) in die IP-Adressen aller Server im Pool bereitstellen (z. B. 192.168.1.1, 192.168.1.2 usw.). Schließen Sie nur die IP-Adressen von Servern ein, die gegenwärtig bereitgestellt sind.
     
     > [!CAUTION]
-    > Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN aus jedem anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+    > Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN aus jedem anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
   
 ### <a name="dns-load-balancing-on-edge-server-pools"></a>DNS-Lastenausgleich in Edgeserverpools
 <a name="BK_Edge"> </a>
@@ -257,7 +257,7 @@ Diese Szenarien werden unterstützt, solange alle Edgeserver im Pool verfügbar 
   
  Wenn Sie Exchange UM verwenden, müssen Sie mindestens Exchange 2013 verwenden, um Unterstützung für Skype for Business Server DNS-Lastenausgleich auf Edge zu erhalten. Wenn Sie eine frühere Version von Exchange verwenden, verfügen Ihre Remotebenutzer nicht über Failoverfunktionen für diese Exchange UM-Szenarien:
   
-- Wiedergeben der Enterprise Voicemail auf ihrem Telefon
+- Wiedergeben ihrer Enterprise Voicemail auf ihrem Telefon
     
 - Weiterleiten von Anrufen von einer automatischen Exchange UM-Telefonzentrale
     
@@ -288,6 +288,6 @@ Zur Bereitstellung des DNS-Lastenausgleichs in einem Vermittlungsserverpool müs
 ### <a name="blocking-traffic-to-a-server-with-dns-load-balancing"></a>Blockieren des Datenverkehrs zu einem Server mit DNS-Lastenausgleich
 <a name="BK_Mediation"> </a>
 
-Wenn Sie den DNS-Lastenausgleich verwenden und den Datenverkehr zu einem bestimmten Computer blockieren müssen, reicht es nicht aus, nur die IP-Adresseinträge aus dem Pool-FQDN zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen. 
+Wenn Sie den DNS-Lastenausgleich verwenden und Datenverkehr zu einem bestimmten Computer blockieren müssen, reicht es nicht aus, nur die IP-Adresseinträge aus dem Pool-FQDN zu entfernen. Sie müssen auch den DNS-Eintrag für den Computer entfernen. 
   
 Beachten Sie, dass Skype for Business Server für Server-zu-Server-Datenverkehr den Topologie-fähigen Lastenausgleich verwendet. Server lesen die veröffentlichte Topologie im zentralen Verwaltungsspeicher, um die FQDNs der Server in der Topologie abzurufen, und verteilen den Datenverkehr automatisch auf die Server. Um zu verhindern, dass ein Server Server-zu-Server-Datenverkehr empfängt, müssen Sie den Server aus der Topologie entfernen. 
