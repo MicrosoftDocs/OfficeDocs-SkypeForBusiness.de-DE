@@ -10,28 +10,28 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Das Skype for Business Server 2015 Stress and Performance Tool wird bei der Kapazitätsplanung und Leistungsoptimierung in Nicht-Produktions- oder Testumgebungen verwendet.
-ms.openlocfilehash: 1dff13905145752c57b02795e9aab07737d51b33d94d6355ce5f8c55fa62e7ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611894"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
 Das Skype for Business Server 2015 Stress and Performance Tool wird bei der Kapazitätsplanung und Leistungsoptimierung in Nicht-Produktions- oder Testumgebungen verwendet.
   
-Das Skype for Business Server 2015 Stress and Performance Tool enthält Tools, die Ihre Kapazitätsplanung für Skype for Business Server 2015 vereinfachen. Das tool Skype for Business Server 2015 Stress and Performance hilft Ihnen dabei:
+Das Skype for Business Server 2015 Stress and Performance Tool enthält Tools, die Ihre Kapazitätsplanung für Skype for Business Server 2015 vereinfachen. Das Skype for Business Server 2015 Stress and Performance Tool hilft Ihnen dabei:
   
 - Vereinfachen der Hardwareplanung für Skype for Business Server
     
 - Bereitstellen von mehr Wissen und bewährten Methoden für die Leistungsoptimierung
     
-- Messen der Leistung Ihrer Skype for Business Server Bereitstellungen
+- Messen der Leistung Ihrer Skype for Business Server-Bereitstellungen
     
 In der Regel verwenden Sie dieses Tool, nachdem Sie das [Skype for Business Server 2015-Planungstool](../../management-tools/planning-tool/planning-tool.md) zum Entwerfen der Topologie und zum Optimieren der Topologie mit dem [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md)verwendet haben. 
 
@@ -68,16 +68,16 @@ Diese Anwendungen sind Teil des tools Skype for Business Server Stress and Perfo
 
 Wenn Sie mehr wissen möchten, sollten Sie die folgenden Artikel lesen:
   
-- [Voraussetzungen und Setup für die Skype für das Stress- und Leistungstool von Busines](prerequisites-and-setup.md)
+- [Voraussetzungen und Einrichtung für die Skype für busines Stress and Performance Tool](prerequisites-and-setup.md)
     
 - [Leistungsszenarien für das Skype for Business Server 2015 Stress and Performance Tool](scenarios.md)
     
   - [Bereitstellen der Topologie zum Ausführen von Last in Stress- und Leistungsszenarien](provisioning-the-topology-to-run-load.md)
     
-  - [Konfigurieren von Richtlinien für das Stress- und Leistungstool Skype for Business Server 2015](configuring-policies.md)
+  - [Konfigurieren von Richtlinien für das Skype for Business Server 2015 Stress and Performance Tool](configuring-policies.md)
     
 - [Verwenden des Tools Skype for Business Server 2015 Stress and Performance](using-the-tool.md)
     
-- [Häufig gestellte Fragen zum Stress- und Leistungstool Skype for Business Server 2015](faq.md)
+- [Häufig gestellte Fragen zum Skype for Business Server 2015 Stress and Performance Tool](faq.md)
     
 

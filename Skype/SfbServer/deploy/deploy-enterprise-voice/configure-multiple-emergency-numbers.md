@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server konfigurieren.
-ms.openlocfilehash: e0a12bb63578e5070a079b6ab4561d67255f7199a0042066467fb40eafb54637
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4063545f4d535d04b31291a6ad36eb5a1da971d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300341"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612764"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Konfigurieren mehrerer Notrufnummern in Skype for Business
 
@@ -33,7 +33,7 @@ Skype for Business Server unterstützt jetzt mehrere Notrufnummern für einen Cl
 
 ## <a name="configure-multiple-emergency-numbers"></a>Konfigurieren mehrerer Notrufnummern
 
-Um mehrere Notrufnummern zu konfigurieren, verwenden Sie das Cmdlet New-CsEmergencyNumber und geben dann den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy"](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und ["Set-CsLocationPolicy" an.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Eine vollständige Beschreibung aller Standortrichtlinienparameter, z. B. PSTN-Verwendung und erforderlicher Standort, finden Sie unter ["Set-CsLocationPolicy".](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+Um mehrere Notrufnummern zu konfigurieren, verwenden Sie das Cmdlet New-CsEmergencyNumber und geben dann den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy"](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und ["Set-CsLocationPolicy"](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) an. Eine vollständige Beschreibung aller Standortrichtlinienparameter, z. B. PSTN-Verwendung und erforderlicher Standort, finden Sie unter ["Set-CsLocationPolicy".](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
 
 Mit dem folgenden Befehl wird mithilfe des Cmdlets New-CsEmergency eine neue Notrufnummer mit der Wählzeichenfolge 911 erstellt:
 

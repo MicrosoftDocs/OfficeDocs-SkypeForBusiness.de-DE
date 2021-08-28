@@ -13,20 +13,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie die Wähltat nicht im Teams-Client konfigurieren, damit Benutzer auf die PstN-Funktionalität (Public Switched Telephone Network) zugreifen können.
-ms.openlocfilehash: 848e52859be3b2339e1e1968631c6d55fc7a8df79dc3a691fd47e9613f7f583d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6f67aeda059505ec5c1e78d117407f0e9703f732
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344314"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627617"
 ---
 # <a name="dial-pad-configuration"></a>Wähltablockkonfiguration
 
-Im Teams-Client können Benutzer über die Wählta nicht über das Telefonnetz (PSTN) auf die Funktionen des öffentlichen Telefonnetzwerks zugreifen. Die Wählta pad ist für Benutzer mit einer Telefonsystem-Lizenz verfügbar, sofern sie ordnungsgemäß konfiguriert sind. Die folgenden Kriterien sind alle erforderlich, damit die Wählta nicht auf der Wählta nicht verwendet werden kann:
+Im Teams-Client können Benutzer über die Wählta nicht über das Telefonnetz (PSTN) auf die Funktionen des öffentlichen Telefonnetzwerks zugreifen. Die Wähltapad ist für Benutzer mit einer Telefonsystem verfügbar, sofern sie ordnungsgemäß konfiguriert sind. Die folgenden Kriterien sind alle erforderlich, damit die Wählta nicht auf der Wählta nicht verwendet werden kann:
 
 - Der Benutzer hat eine Telefonsystem ("MCOEV")-Lizenz aktiviert.
 - Der Benutzer verfügt über einen Microsoft-Anrufplan oder ist für direktes Routing aktiviert.
@@ -34,7 +34,7 @@ Im Teams-Client können Benutzer über die Wählta nicht über das Telefonnetz (
 - Der Benutzer ist online und nicht lokal Skype for Business homed.
 - Benutzer hat Teams Anrufrichtlinie aktiviert
 
-In den folgenden Abschnitten wird beschrieben, wie Sie die Kriterien mithilfe von PowerShell überprüfen. In den meisten Fällen müssen Sie sich verschiedene Eigenschaften in der Ausgabe des cmdlets Get-CsOnlineUser betrachten. In den Beispielen $user, dass es sich entweder um die UPN- oder SIP-Adresse des Benutzers handelt.
+In den folgenden Abschnitten wird beschrieben, wie Sie die Kriterien mithilfe von PowerShell überprüfen. In den meisten Fällen müssen Sie sich verschiedene Eigenschaften in der Ausgabe des cmdlets Get-CsOnlineUser betrachten. Beispiele setzen $user, dass es sich entweder um die UPN- oder SIP-Adresse des Benutzers handelt.
 
 ## <a name="user-has-an-enabled-phone-system-mcoev-license"></a>Der Benutzer hat eine Telefonsystem ("MCOEV")-Lizenz aktiviert.
 
@@ -105,7 +105,7 @@ Test_Policy
 
 ## <a name="user-has-enterprise-voice-enabled"></a>Benutzer hat Enterprise-VoIP aktiviert
 
-Um zu überprüfen, ob Enterprise-VoIP aktiviert ist, verwenden Sie den folgenden Befehl:
+Um zu überprüfen, ob der Enterprise-VoIP aktiviert ist, verwenden Sie den folgenden Befehl:
 
 ```
 Get-CsOnlineUser -Identity $user|Select EnterpriseVoiceEnabled
@@ -122,7 +122,7 @@ EnterpriseVoiceEnabled
  
 ## <a name="user-is-homed-online-and-not-in-skype-for-business-on-premises"></a>Der Benutzer ist online und nicht lokal Skype for Business homed.
 
-Um sicherzustellen, dass der Benutzer online und nicht lokal in Skype for Business homed ist, darf "RegistrarPool" nicht NULL sein, und "HostingProvider" muss einen Wert enthalten, der mit "sipfed.online" beginnt.  Verwenden Sie zum Überprüfen der Werte den folgenden Befehl:
+Um sicherzustellen, dass der Benutzer online und nicht in Skype for Business lokal hostet, darf "RegistrarPool" nicht NULL sein und "HostingProvider" muss einen Wert enthalten, der mit "sipfed.online" beginnt.  Verwenden Sie zum Überprüfen der Werte den folgenden Befehl:
 
 ```
 Get-CsOnlineUser -Identity $user|Select RegistrarPool, HostingProvider

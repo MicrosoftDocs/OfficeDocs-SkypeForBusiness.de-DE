@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Irland, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 7279312cf231a18d67d3719fbcf2bf1b23daa939ac96d3922e0b9b5337fe7eff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5164a2479e751e0ba079bc4a2c0a938e1224929
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319688"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627007"
 ---
 # <a name="toll-free-dialing-restrictions-in-ireland"></a>Einschränkungen für gebührenfreie Telefonnummern in Irland
 

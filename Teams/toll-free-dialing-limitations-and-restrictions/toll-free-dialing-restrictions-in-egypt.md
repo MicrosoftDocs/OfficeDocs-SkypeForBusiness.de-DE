@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Ägypten, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 52cb32676c604f76af3128042689faee8a1701760efba97025b11c121161d3ba
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67ac708bbde22c650cb8ab729098cc6ef48c12ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627017"
 ---
 # <a name="toll-free-dialing-restrictions-in-egypt"></a>Einschränkungen für gebührenfreie Telefonnummern in Ägypten
 

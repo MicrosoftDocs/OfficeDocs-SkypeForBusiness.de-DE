@@ -9,34 +9,34 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.custom:
 - Strat_SB_Admin
 - seo-marvel-apr2020
 ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
-description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung mit Exchange lokalen Bereitstellungsumgebung.
-ms.openlocfilehash: 5424e670dcea86aff5f3c8842e2ab3e61cfecf480922ac664ac055ea502dbb09
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung Exchange lokalen Bereitstellungsumgebung.
+ms.openlocfilehash: 35b69e12c38991ecf8ac4d9c0f6f335a097da334
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296652"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612984"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
 
-In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung mit Exchange lokalen und lokalen Microsoft Teams oder Skype for Business Online.
+In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung mit Exchange lokal und Microsoft Teams oder Skype for Business Online.
   
-Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. In diesem Thema werden Hybridbereitstellungen für Microsoft Teams-Räume mit Lokal Exchange Bereitstellung behandelt. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfiehlt es sich, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, sowie für andere Bereitstellungsoptionen.
+Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. Dieses Thema befasst sich mit Hybridbereitstellungen für Microsoft Teams-Räume mit lokal Exchange lokalen Bereitstellungen. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfiehlt es sich, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, sowie für andere Bereitstellungsoptionen.
 
-Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Unterstützung beim Erstellen neuer Benutzerkonten oder zum Überprüfen vorhandener Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Es Ihnen lieber ist, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume werden.
+Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Unterstützung beim Erstellen neuer Benutzerkonten oder zum Überprüfen vorhandener Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Sie es vorziehen, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume verwendet werden.
   
 ## <a name="requirements"></a>Anforderungen
 
-Bevor Sie Ihre Microsoft Teams-Räume mit Exchange lokal bereitstellen, stellen Sie sicher, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
+Bevor Sie Ihre Microsoft Teams-Räume mit einem Exchange lokal bereitstellen, stellen Sie sicher, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
   
-Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie Active Directory-Verwaltungstools, um eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzuzufügen. Dieses Konto wird mit Ihrem Konto Microsoft 365 Konto Office 365. Sie müssen die folgenden Schritte ausführen:
+Wenn Sie Ihre E-Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie Active Directory-Verwaltungstools, um eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzuzufügen. Dieses Konto wird mit ihrem Konto Microsoft 365 Konto Office 365. Sie müssen die folgenden Schritte ausführen:
   
 - Erstellen Sie ein Konto, und synchronisieren Sie es mit Active Directory.
 
@@ -46,15 +46,15 @@ Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden
 
 - Aktivieren Sie das Gerätekonto mit Skype for Business Server. Für die Aktivierung des Gerätekontos muss Ihre Umgebung die folgenden Voraussetzungen erfüllen:
 
-  - Sie müssen in Ihrem Skype for Business Oder höher über Online (Plan 2) Microsoft 365 oder Office 365 verfügen. Der Plan muss die Konferenzfunktion unterstützen.
+  - Sie benötigen Online (Skype for Business Plan 2) oder höher in Ihrem Microsoft 365 oder Office 365 Haben. Der Plan muss die Konferenzfunktion unterstützen.
   
-  - Wenn Sie Telefonie Enterprise-VoIP (PSTN-Telefonie) bei Telefonie-Dienstanbietern für Microsoft Teams-Räume benötigen Sie Skype for Business Online (Plan 3).
+  - Wenn Sie Telefonie Enterprise-VoIP (PSTN-Telefonie) für Telefoniedienstanbieter benötigen Microsoft Teams-Räume sie Skype for Business Online (Plan 3) verwenden.
 
   - Wenn Sie ein Raumkonto mit Microsoft Teams oder Skype for Business Online konfigurieren, sollte die Telefonnummer zugewiesen werden, bevor das Konto als Konto für den Raum aktiviert wird.
   
   - Ihre Mandantenbenutzer müssen über Exchange verfügen.
   
-  - Ihr Microsoft Teams-Räume-Konto erfordert eine Skype for Business Online (Plan 2)- oder Skype for Business Online (Plan 3)-Lizenz, aber keine Exchange Online Lizenz.
+  - Für Ihr Microsoft Teams-Räume-Konto ist zwar eine Skype for Business Online (Plan 2)- oder Skype for Business Online (Plan 3)-Lizenz erforderlich, es ist jedoch keine Lizenz Exchange Online erforderlich.
 
 - Weisen Sie Skype for Business Server Konto eine Lizenz Microsoft Teams-Räume zu.
 
@@ -67,13 +67,13 @@ Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
-    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung dafür, dass Skype for Business Server Kennwort Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes Microsoft Teams-Räume eine Ausnahme erstellen.
+    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung für Skype for Business Server auf Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes ihrer Gerätekonto eine Microsoft Teams-Räume erstellen.
   
-4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wechseln Sie nach Abschluss des Vorgangs zur Seite "Benutzer" in Ihrem Microsoft 365 Admin Center und vergewissern Sie sich, dass das in den vorherigen Schritten erstellte Konto mit online zusammengeführt wurde.
+4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wechseln Sie nach Abschluss des Vorgangs zur Seite "Benutzer" in Ihrem Microsoft 365 Admin Center und vergewissern Sie sich, dass das in den vorherigen Schritten erstellte Konto mit der Online-Version zusammengeführt wurde.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Aktivieren des Remotepostfachs und Festlegen von Eigenschaften
 
-1. [Öffnen Sie die Exchange-Verwaltungsshell,](/powershell/exchange/exchange-server/open-the-exchange-management-shell) oder stellen Sie mithilfe Exchange Remote-PowerShell eine Verbindung [mit Dem Server herzustellen.](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)
+1. [Öffnen Sie die Exchange-Verwaltungsshell,](/powershell/exchange/exchange-server/open-the-exchange-management-shell) oder stellen Sie mithilfe Exchange [PowerShell](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)eine Verbindung mit Dem Server herzustellen.
 
 2. Erstellen Exchange PowerShell ein Postfach für das Konto (Postfach aktivieren des Kontos), indem Sie den folgenden Befehl ausführen:
 
@@ -83,9 +83,9 @@ Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
-3. Konfigurieren Exchange PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
+3. Konfigurieren Exchange in PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
 
-   - Automatisieren der Verarbeitung: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen eines Menschen: frei = akzeptieren; beschäftigt = ablehnen.)
+   - AutomateProcessing: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen eines Menschen: frei = akzeptieren; Beschäftigt = ablehnen.)
 
    - AddOrganizerToSubject: $false (Der Besprechungsorganisator wird dem Betreff der Besprechungsanfrage nicht hinzugefügt.)
 
@@ -99,7 +99,7 @@ Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden
 
    - AdditionalResponse: "Dies ist ein Skype-Besprechung Raum!" (Der zusätzliche Text, der der Besprechungsanfrage hinzugefügt werden soll.)
 
-   In diesem Beispiel werden diese Einstellungen für das Raumpostfach namens Project-Rigel-01 konfiguriert.
+   In diesem Beispiel werden diese Einstellungen für das Raumpostfach Project-Rigel-01 konfiguriert.
 
    ```PowerShell
    Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Skype Meeting room!"
@@ -109,7 +109,7 @@ Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden
 
 ### <a name="assign-a-microsoft-365-or-office-365-license"></a>Zuweisen einer Microsoft 365 oder Office 365 Lizenz
 
-1. Verbinden zu Azure Active Directory. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+1. Verbinden sie Azure Active Directory. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
    > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
@@ -144,7 +144,7 @@ Skype for Business Online-PowerShell wird zum Verwalten von Diensten für Micros
 > [!NOTE]
 > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
 >
-> Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
+> Wenn Sie die neueste Version Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
 
    ``` Powershell
    # When using Teams PowerShell Module
@@ -183,11 +183,11 @@ Skype for Business Online-PowerShell wird zum Verwalten von Diensten für Micros
    Get-CsOnlineUser -Identity 'alice@contoso.com'| fl *registrarpool*
    ```
 
-### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Zuweisen einer Lizenz zu Ihrem Microsoft Teams-Räume-Konto
+### <a name="assign-a-license-to-your-microsoft-teams-rooms-account"></a>Zuweisen einer Lizenz zu Ihrem Microsoft Teams-Räume Konto
 
 1. Melden Sie sich als Mandantenadministrator an, öffnen Sie Microsoft 365 Admin Center, und klicken Sie auf die Administrator-App.
 2. Klicken Sie auf **Benutzer und Gruppen** und dann auf **Benutzer hinzufügen, Kennwörter zurücksetzen und mehr**.
-3. Klicken Sie Microsoft Teams-Räume Konto und dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
+3. Klicken Sie Microsoft Teams-Räume Konto, und klicken Sie dann auf das Stiftsymbol, um die Kontoinformationen zu bearbeiten.
 4. Klicken Sie auf **Lizenzen**.
 5. Wählen Sie in **Lizenzen zuweisen** abhängig von Ihren Anforderungen für Lizenzen und für Enterprise-VoIP entweder Skype for Business (Plan 2) oder Skype for Business (Plan 3) aus. Sie müssen eine Plan 3-Lizenz verwenden, wenn Sie ihr Enterprise-VoIP verwenden Microsoft Teams-Räume.
 6. Klicken Sie auf **Speichern**.

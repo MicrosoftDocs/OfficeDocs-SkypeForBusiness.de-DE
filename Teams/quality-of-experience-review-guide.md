@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies, gageames
 audience: admin
-description: Erfahren Sie, wie Sie die Leistung von Echtzeitmedien in Ihrem Microsoft Teams mithilfe des Anrufqualitäts-Dashboards (CQD) analysieren und verwalten.
-localization_priority: Normal
+description: Erfahren Sie, wie Sie die Leistung von Echtzeitmedien in Microsoft Teams mithilfe des Anrufqualitätsdashboards analysieren und verwalten.
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 45fe1737aec2fca951ab71e0925961ada57873ab289abcafd33b2588f189e259
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275d1c9b3b60a5a1cd25c0991e35f40712fa332e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332567"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627317"
 ---
 #  <a name="use-cqd-to-manage-call-and-meeting-quality-in-microsoft-teams"></a>Verwenden des AQD zum Verwalten der Anruf- und Besprechungsqualität in Microsoft Teams 
 
-Dieser Artikel hilft Ihnen – Teams-Administrator oder Support- und Helpdesk-Entwickler – beim Entwickeln eines Prozesses zur Überwachung und Verwaltung der Anruf- und Besprechungsqualität für Ihre Organisation mithilfe des Microsoft Teams-Anrufqualitäts-Dashboards (CQD). Unsere Anleitungen heben Szenarien für die Audioqualität hervor, da alle Netzwerkverbesserungen, die Sie zur Verbesserung der Audioqualität vorgenommen haben, Zu Verbesserungen bei Video und Freigabe führen.
+Dieser Artikel hilft Ihnen – Teams-Administrator oder Support- und Helpdesk-Entwickler – beim Entwickeln eines Prozesses zum Überwachen und Verwalten der Anruf- und Besprechungsqualität für Ihre Organisation mithilfe des Microsoft Teams-Anrufqualitäts-Dashboards (CQD). Unsere Anleitungen heben Szenarien für die Audioqualität hervor, da alle Netzwerkverbesserungen, die Sie zur Verbesserung der Audioqualität vorgenommen haben, Zu Verbesserungen bei Video und Freigabe führen.
 
 Schlüssel zu dieser Anleitung sind die beiden kuratierten [CQD-Vorlagen–](https://aka.ms/QERtemplates) wir empfehlen, sie herunterzuladen, bevor Sie die Anleitungen in diesem Artikel durchgehen.
 
@@ -36,7 +36,7 @@ In diesem Artikel wird davon ausgegangen, dass Sie [das CQD bereits eingerichtet
 
 ## <a name="categories-to-monitor-and-maintain"></a>Kategorien zum Überwachen und Verwalten
 
-Sobald Sie Besprechungen und Sprachanrufe in Teams haben, benötigen Sie einen Plan für die kontinuierliche Überwachung und Wartung. Dadurch wird sichergestellt, dass Teams immer optimal ausgeführt wird. Dieser Plan sollte die unten aufgeführten Hauptbereiche enthalten. Sie sollten auch Ziele für Qualitätsmetriken festlegen und einen Plan für die Behandlung und Isolierung von Problemen festlegen, wenn sie auftreten.
+Sobald Sie Besprechungen und Sprachanrufe in Teams haben, benötigen Sie einen Plan für die kontinuierliche Überwachung und Wartung. Dadurch wird sichergestellt, dass Teams immer optimal ausgeführt wird. Dieser Plan sollte die unten aufgeführten Hauptbereiche enthalten. Sie sollten auch Ziele für Qualitätsmetriken festlegen und einen Plan für die Behandlung und Isolierung von Problemen festlegen, sobald diese auftreten.
 
 <table>
 <thead>
@@ -97,7 +97,7 @@ Durch die kontinuierliche Bewertung und Behebung der in diesem Artikel beschrieb
 
 Durch die ordnungsgemäße Planung und Gestaltung vor der Bereitstellung von Teams oder Skype for Business Online können Sie den Aufwand verringern, der erforderlich ist, um die hohe Qualität des Erlebnisses aufrechtzuerhalten.
 
-Der Schwerpunkt dieses Artikels liegt auf der Verwendung des Anrufqualitätsdashboards (CQD) Online als primäres Tool zum Melden und Untersuchen der einzelnen Bereich, mit einem besonderen Schwerpunkt auf Audio, um die Verbreitung und die Auswirkungen zu maximieren. Alle zur Optimierung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
+Dieser Artikel konzentriert sich auf die Verwendung des Anrufqualitätsdashboards (CQD) Online als primäres Tool zum Melden und Untersuchen der einzelnen Bereich, mit einem besonderen Schwerpunkt auf Audio, um die Verbreitung und die Auswirkungen zu maximieren. Alle zur Optimierung der Audiowahrnehmung vorgenommenen Netzwerkoptimierungen äußern sich auch direkt als Verbesserungen bei der Video- und Desktopfreigabe.
 
 Um Ihre Bewertung zu beschleunigen, werden [zwei zusammengestellte CQD-Vorlagen](https://aka.ms/qertemplates) bereitgestellt: eine ist für die Verwaltung aller Netzwerke und die andere wird nur nach verwalteten (internen) Netzwerken gefiltert. Obwohl die Vorlagenberichte „Alle Netzwerke“ so konfiguriert sind, dass sie Gebäude- und Netzwerkinformationen anzeigen, können sie dennoch verwendet werden, während Sie auf die Erfassung und das Hochladen von Gebäudeinformationen hinarbeiten. Durch das Hochladen von Gebäudeinformationen in CQD kann der Dienst die Berichterstellung verbessern, indem benutzerdefinierte Gebäude-, Netzwerk- und Standortinformationen hinzugefügt werden, wobei zwischen internen und externen Subnetzen unterschieden wird. Weitere Informationen finden Sie unter [Gebäudezuordnung.](CQD-building-mapping.md)
 
@@ -144,24 +144,24 @@ Die tatsächliche Messung im AQD variiert je nach Arbeitsauslastung, aber im Sin
 
 ##### <a name="why-do-we-prefer-to-use-streams-instead-of-calls"></a>Warum verwenden wir lieber Datenströme als Anrufe?
 
-Streams uns wissen lassen, welcher Teil des Anrufs schlecht war – ausgehend oder eingehend. Wenn Sie sich die Anrufanalyse für einen schlechten Anruf anschauen, ermitteln Sie, ob der schlechte Anruf auf den Datenstrom (ausgehend) oder den Datenstrom des Anrufers (eingehende) des Anrufers zurück ging. Für Konferenzen ist es noch wichtiger zu bestimmen, welcher Datenstrom sich auf die Anrufqualität auswirken soll. Wenn Sie nur Anrufdaten anzeigen, sehen Sie, an wie vielen Konferenzen eine Person teil nimmt, aber Sie sehen nicht, welche Personen aktive Lautsprecher sind, da Sie die meisten Bildschirmfreigaben machen.
+Streams uns wissen lassen, welcher Teil des Anrufs schlecht war – ausgehend oder eingehend. Wenn Sie die Anrufanalyse für einen schlechten Anruf überprüfen möchten, ermitteln Sie, ob der schlechte Anruf auf den Datenstrom (ausgehend) oder den Datenstrom des Anrufers (eingehende) des Anrufers zurück ging. Für Konferenzen ist es noch wichtiger zu bestimmen, welcher Datenstrom sich auf die Anrufqualität auswirken soll. Wenn Sie nur Anrufdaten anzeigen, sehen Sie, an wie vielen Konferenzen eine Person teil nimmt, aber Sie sehen nicht, welche Personen aktive Lautsprecher sind, da Sie die meisten Bildschirmfreigaben machen.
 
-Anrufdaten geben Ihnen Nutzungsmetriken, führen aber nicht zwangsläufig zur Ursache für eine schlechte Anrufqualität. Wenn Sie sich die Datenstromrichtung anschauen, können Sie Faktoren identifizieren, z. B. einen Anruf, der nicht in einem verwalteten Netzwerk geführt wird, oder einen Anruf von einem Mitarbeiter (z. B. einem Lieferanten oder einer Person in einem anderen Netzwerk). Wenn die Netzwerkverbindung der anderen Person in diesen Fällen schlecht war, wird der gesamte Anruf als "schlecht" gekennzeichnet. Sie können keine externen Faktoren berücksichtigen, daher sind diese Daten nicht hilfreich.
+Anrufdaten geben Ihnen Nutzungsmetriken, führen aber nicht zwangsläufig zur Ursache für eine schlechte Anrufqualität. Wenn Sie sich die Datenstromrichtung anschauen, können Sie Faktoren erkennen, z. B. einen Anruf, der nicht in einem verwalteten Netzwerk geführt wird, oder einen Anruf von einem Mitarbeiter (z. B. einem Lieferanten oder einer Person in einem anderen Netzwerk). Wenn die Netzwerkverbindung der anderen Person in diesen Fällen schlecht war, wird der gesamte Anruf als "schlecht" gekennzeichnet. Sie können keine externen Faktoren berücksichtigen, daher sind diese Daten nicht hilfreich.
 
 Die Datenstromrichtung kann Ihnen auch dabei helfen, problematische Geräte oder Clients zu identifizieren.
 
- - Wenn Sie beispielsweise nur über ein begrenztes Budget für Geräte verfügen und Geräte nur für Nutzer mit starken Audiodaten bereitstellen möchten, verwenden Sie den Audioverwendungsbericht (VoIP) und filtern Sie nach ausgehenden Datenströmen und Konferenzen. Suchen Sie nach Audiobenutzern mit hoher Lautstärke, die in integrierte Mikrofone sprechen. Diese korrelieren möglicherweise mit einer schlechteren Anrufqualität (und Sie möchten möglicherweise Audiogeräte für diese Personen bereitstellen). Um dies deutlich zu machen, könnten Sie nach Paketauslastung filtern, was es Ihnen ermöglicht, besonders große Audiogeräte an Kunden zu senden. 
+ - Wenn Sie beispielsweise nur über ein begrenztes Budget für Geräte verfügen und Geräte nur für Nutzer mit starken Audiodaten bereitstellen möchten, verwenden Sie den Audioverwendungsbericht (VoIP) und filtern Sie nach ausgehenden Datenströmen und Konferenzen. Suchen Sie nach Audiobenutzern mit hoher Lautstärke, die in integrierte Mikrofone sprechen. Diese korrelieren möglicherweise mit einer schlechteren Anrufqualität (und Möglicherweise möchten Sie für diese Personen Audiogeräte bereitstellen). Um mehr Klarheit zu schaffen, könnten Sie nach Paketauslastung filtern, wodurch Sie besonders große Audiogeräte verwenden können. 
 
   - Ein weiteres Beispiel ist die Bildschirmfreigabe. Wenn ein Kunde einen alten Teams verwendet, kann die Leistung der Bildschirmfreigabe beeinträchtigt werden. Sie könnten dieses Problem beheben, indem Sie Kundenupgrades für Personen mit einer großen Bildschirmfreigabe priorisieren.
 
  - Indem Sie feststellen, welche Richtung eines Datenstroms zu einer schlechten Anrufqualität führt, können Sie feststellen, ob ein QoS- oder Bandbreitenproblem vor liegt. Wenn Sie QoS noch nicht vollständig implementiert haben oder nur Pakete auf dem Client und nicht im eingehenden Datenstrom markieren, wird möglicherweise eine schlechtere Anrufqualität zu sehen sein. Wenn Sie sich die Datenstromrichtung ansehen, erhalten Sie eine genauere Ansicht des Paketverlusts, der Latenz oder des Jitters in einer bestimmten Richtung. 
 
-   - Nehmen wir beispielsweise an, ein Benutzer beschwert sich über Audiowiedergabe über eine Kabelverbindung (Jitter). Indem Sie sich Datenstrom und Richtung anschauen, können Sie feststellen, dass das Problem nur für eine bestimmte Gruppe von Subnetzen im eingehenden Datenstrom vor tritt. Nachdem Sie Ihrem Netzwerkteam diese Informationen zur Verfügung haben, kann es sie bis zu einem falsch konfigurierten WAN-Beschleuniger nachverfolgen, der den Medienverkehr nicht umgangen hat. Sobald das Netzwerkteam den WAN-Beschleuniger neu konfiguriert hat, verschwindet Jitter, und die Anrufqualität verbessert sich. 
+   - Nehmen wir beispielsweise an, ein Benutzer beschwert sich über Audiowiedergabe über eine Kabelverbindung (Jitter). Wenn Sie sich den Datenstrom und die Richtung anschauen, können Sie feststellen, dass das Problem nur für eine bestimmte Gruppe von Subnetzen im eingehenden Datenstrom vor liegt. Nachdem Sie Ihrem Netzwerkteam diese Informationen zur Verfügung haben, kann es sie bis zu einem falsch konfigurierten WAN-Beschleuniger nachverfolgen, der den Medienverkehr nicht umgangen hat. Sobald das Netzwerkteam den WAN-Beschleuniger neu konfiguriert hat, verschwindet Jitter, und die Anrufqualität verbessert sich. 
 
 
 #### <a name="setup-failure-rate"></a>Aufbaufehlerrate
 
-Die Fehlerrate bei der  Einrichtung, auch bekannt als Messung des Prozentsatzes des gesamten Anrufeinrichtungsfehlers im Anrufduppunkt, ist die Anzahl der Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs nicht eingerichtet werden konnte.
+Die Fehlerrate bei der Einrichtung, auch als Messung "Total _Call Setup Failure Percentage"_ (Prozentsatz der Gesamtanrufeinrichtungsfehler im Anruf-CQD) bezeichnet, ist die Anzahl der Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs nicht eingerichtet werden konnte.
 
 Dies stellt einen Medienstream dar, der nicht aufgebaut werden konnte. Angesichts des Schweregrads der Auswirkungen dieses Problems auf die Benutzerfreundlichkeit ist es das Ziel, diesen Wert so nahe wie möglich auf null zu verringern. Ein hoher Wert für diese Metrik ist bei neuen Bereitstellungen mit unvollständigen Firewallregeln gebräuchlicher als eine reife Bereitstellung, aber es ist trotzdem wichtig, sie in regelmäßigen Abständen zu beobachten.
 
@@ -181,7 +181,7 @@ Die Metrik wird berechnet, indem die Gesamtzahl der abgebrochenen Ströme durch 
 
 ### <a name="define-your-target-metrics"></a>Definieren Ihrer Zielmetriken
 
-In diesem Abschnitt werden einige der wichtigsten Dienstmetriken erläutert, die wir zum Bewerten der Integrität der Dienste verwenden. Indem Sie diese Metriken kontinuierlich bewerten und die Leistung unter ihren definierten Zielen halten, tragen Sie dazu bei, für ihre Benutzer eine konsistente und zuverlässige Anrufqualität zu gewährleisten. Verwenden Sie als Ausgangspunkt die vorgeschlagenen Ziele in der nachstehenden Tabelle. Passen Sie die Ziele nach Bedarf an, um Ihre Geschäftsziele zu erreichen.
+In diesem Abschnitt werden einige der wichtigsten Dienstmetriken erläutert, die wir zum Bewerten der Integrität der Dienste verwenden. Indem Sie diese Metriken kontinuierlich bewerten und die Leistung unter ihren definierten Zielen halten, tragen Sie dazu bei, für Ihre Benutzer eine konsistente und zuverlässige Anrufqualität zu gewährleisten. Verwenden Sie als Ausgangspunkt die vorgeschlagenen Ziele in der nachstehenden Tabelle. Passen Sie die Ziele nach Bedarf an, um Ihre Geschäftsziele zu erreichen.
 
 <table>
 <tr>
@@ -202,7 +202,7 @@ In diesem Abschnitt werden einige der wichtigsten Dienstmetriken erläutert, die
 
 ### <a name="user-experience"></a>Benutzererfahrung
 
-Das Analysieren der Benutzererfahrung ist mehr Kunst als Wissenschaft, da die hier gesammelten Metriken nicht immer bedeuten, dass es ein Problem mit dem Netzwerk oder Dienst gibt, sondern lediglich, dass der Benutzer ein Problem wahrgibt. Das CQD umfasst einen integrierten Umfragemechanismus – Bewerten meines Anrufs (Rate My Call, RMC), um die Gesamtbenutzerfreundlichkeit zu messen. RMC bietet Ihnen Einblicke in die folgenden Fragen aus der Perspektive Ihrer Benutzer:
+Das Analysieren der Benutzererfahrung ist mehr Kunst als Wissenschaft, da die hier gesammelten Metriken nicht immer bedeuten, dass es ein Problem mit dem Netzwerk oder Dienst gibt, sondern lediglich, dass der Benutzer ein Problem wahr nimmt. Das CQD umfasst einen integrierten Umfragemechanismus – Bewerten meines Anrufs (Rate My Call, RMC), um die Gesamtbenutzerfreundlichkeit zu messen. RMC bietet Ihnen Einblicke in die folgenden Fragen aus der Perspektive Ihrer Benutzer:
 
 -   Weiß ich, wie die Lösung zu verwenden ist?
 -   Ist die Lösung benutzerfreundlich und intuitiv und unterstützt Sie die täglichen Kommunikationsanforderungen?
@@ -213,7 +213,7 @@ Das Analysieren der Benutzererfahrung ist mehr Kunst als Wissenschaft, da die hi
 
 #### <a name="rate-my-call"></a>Meinen Anruf bewerten 
 
-"Meinen Anruf bewerten" (Rate My Call, RMC) ist in Teams und Skype for Business. Er wird automatisch nach einem in jedem 10-Anruf oder 10 Prozent angezeigt. In dieser kurzen Umfrage wird der Benutzer gebeten, den Anruf zu bewerten und ein wenig Kontext dafür zu liefern, warum die Anrufqualität schlecht gewesen sein könnte. Ein oder zwei Bewertungen werden als unzureichend betrachtet, drei bis vier sind gut und fünf ist ausgezeichnet. Obwohl es sich eher um einen zurückdrückenden Indikator handelt, ist dies eine nützliche Metrik zum Aufdecken von Problemen, die Dienstmetriken verpassen können.
+"Meinen Anruf bewerten" (Rate My Call, RMC) ist in Teams und Skype for Business. Er wird automatisch nach einem in jedem 10-Anruf oder 10 Prozent angezeigt. In dieser kurzen Umfrage wird der Benutzer gebeten, den Anruf zu bewerten und ein wenig Kontext dafür zu liefern, warum die Anrufqualität schlecht gewesen sein könnte. Ein oder zwei Bewertungen werden als unzureichend betrachtet, drei bis vier sind gut und fünf ist ausgezeichnet. Obwohl es sich um einen eher lausenden Indikator handelt, ist dies eine hilfreiche Metrik zum Aufdecken von Problemen, die bei Dienstmetriken auftreten können.
 
 > [!Note]
 > Der Menschliche Faktor: Benutzer ignorieren die Umfrage häufig, wenn die Anrufqualität gut ist, und füllen sie aus, wenn die Anrufqualität schlecht ist. Dies kann dazu führen, dass Ihre RMC-Berichte auf die schlechte Seite verzerrt sind, auch wenn die Dienstmetriken gut sind.
@@ -226,19 +226,19 @@ Sie benötigen eine solide Client- und Gerätestrategie, um sicherzustellen, das
 
 ##### <a name="client-readiness"></a>Client-Bereitschaft
 
-Indem Sie Teams auf dem neuesten Stand halten, stellen Sie sicher, dass Ihre Benutzer immer die bestmögliche Benutzererfahrung erhalten. Microsoft veröffentlicht häufige Updates für den [Teams-Client](teams-client-update.md) (das Update wird automatisch im Hintergrund installiert, sofern Sie diese Funktionalität nicht deaktiviert haben, was nicht empfohlen wird). Außerdem ist es wichtig, an das Patchen von Netzwerk-, Video-, USB- und Audiotreibern zu denken, da diese häufig übersehen werden und sich auf die Anruf- und Besprechungsqualität auswirken können. Überlegen Sie sich, Netzwerk-, WLAN-, Video-, USB -und Audiotreibern zum aktuellen Patchverwaltungsvorgang hinzuzufügen.
+Indem Sie Teams auf dem neuesten Stand halten, stellen Sie sicher, dass Die Benutzer immer die bestmögliche Benutzererfahrung erhalten. Microsoft veröffentlicht häufige Updates für den [Teams-Client](teams-client-update.md) (das Update wird automatisch im Hintergrund installiert, es sei denn, Sie haben diese Funktionalität deaktiviert ( was von uns nicht empfohlen wird). Außerdem ist es wichtig, an das Patchen von Netzwerk-, Video-, USB- und Audiotreibern zu denken, da diese häufig übersehen werden und sich auf die Anruf- und Besprechungsqualität auswirken können. Überlegen Sie sich, Netzwerk-, WLAN-, Video-, USB -und Audiotreibern zum aktuellen Patchverwaltungsvorgang hinzuzufügen.
 
 
 ##### <a name="device-readiness"></a>Gerätebereitschaft
 
-Keine einzelne Strategie kann das Benutzererlebnis mehr beeinflussen als Ihre Strategie zur Gerätebereitschaft. Beispielsweise erleben Benutzer, die auf ihre Laptoplautsprecher und das Mikrofon angewiesen sind, bei Anrufen und Besprechungen eine Menge Hintergrundgeräusche. Teams ist für die Arbeit mit fast jedem Gerät konzipiert. Wenn Sie jedoch gerätebezogene Probleme haben, finden Sie unter Telefon [für Teams.](./devices/phones-for-teams.md)
+Keine einzelne Strategie kann das Benutzererlebnis mehr beeinflussen als Ihre Strategie zur Gerätebereitschaft. Beispielsweise erleben Benutzer, die auf ihre Laptoplautsprecher und das Mikrofon angewiesen sind, bei Anrufen und Besprechungen eine Menge Hintergrundgeräusche. Teams ist für die Arbeit mit fast jedem Gerät konzipiert. Wenn Sie jedoch gerätebezogene Probleme haben, suchen Sie in Telefon [nach Teams.](./devices/phones-for-teams.md)
 
 
 ### <a name="categories-of-quality"></a>Qualitätskategorien
 
 Operationalisieren Sie eine Reihe von Qualitätsmanagementpraktiken – Dadurch erhalten Sie die beste Chance für eine gute Anruf- und Besprechungsqualität. Ein guter Qualitätsmanagementplan befasst sich mit den folgenden Kategorien:
 
--   **Netzwerk:** Schwerpunkt der Audioqualität auf der Metrik "Schlechtes Streamverhältnis", TCP-Nutzung, verkabelten und drahtlosen Subnetzen und Identifizieren der Verwendung von HTTP-Proxys und VPN
+-   **Netzwerk:** Schwerpunkt der Audioqualität auf der Metrik "Schlechtes Streamverhältnis", TCP-Nutzung, verkabelte und drahtlose Subnetze und Identifizieren der Verwendung von HTTP-Proxys und VPN
 
 -   **Endpunkte:** Audiogeräte und aktuelle Clients
 
@@ -246,7 +246,7 @@ Operationalisieren Sie eine Reihe von Qualitätsmanagementpraktiken – Dadurch 
 
     -   Zuerst ist Microsoft dafür verantwortlich, die Onlinedienste zu Teams und Skype for Business verwalten.
 
-    -   Zweitens werden Aufgaben in Ihrer Organisation verwaltet, um einen zuverlässigen Zugriff auf den Dienst sicherzustellen, z. B. das Aktualisieren von Gebäudeinformationen und die Verwaltung von Firewalls für neue Office 365 IP-Adressen, wenn dem Dienst eine Infrastruktur hinzugefügt wird.
+    -   Zweitens werden Aufgaben in Ihrer Organisation verwaltet, um einen zuverlässigen Zugriff auf den Dienst sicherzustellen, z. B. die Aktualisierung von Gebäudeinformationen und die Verwaltung von Firewalls für neue Office 365-IP-Adressen, wenn dem Dienst eine Infrastruktur hinzugefügt wird.
 
 ![Diagramm der Qualitätskategorien in einer Organisation](media/qerguide-image-categories.png "Die Qualitätskategorien in einer Organisation: Dienstverwaltung, Endpunkte und das Netzwerk.")
 
@@ -254,17 +254,17 @@ Operationalisieren Sie eine Reihe von Qualitätsmanagementpraktiken – Dadurch 
 
 #### <a name="service-management-tasks"></a>Dienstverwaltungsaufgaben
 
-Diese Aufgaben reichen von der Sicherstellung, dass ausreichend Bandbreite zum Erreichen des Diensts verfügbar ist, ohne Internetverbindungen zu verwenden, die Validierung der Dienstqualität (Quality of Service, QoS) in allen Bereichen verwalteter Netzwerke und die Einhaltung der IP-Bereiche von Office 365 in [Firewalls.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+Diese Aufgaben reichen von der Sicherstellung, dass ausreichend Bandbreite verfügbar ist, um zum Dienst zu gelangen, ohne Internetlinks zu sättig zu machen, das Überprüfen der Dienstqualität (Quality of Service, QoS) in allen Bereichen verwalteter Netzwerke und das Behalten der IP-Bereiche der Office 365 in [Firewalls.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 #### <a name="network-tasks"></a>Netzwerkaufgaben
 
-Es gibt zwei Kategorien von Netzwerkaufgaben: Zuverlässigkeit und Qualität. Zuverlässigkeit ist darauf konzentriert, die Fähigkeit des Benutzers zu messen, Anrufe erfolgreich zu halten und in Verbindung zu bleiben. Die Qualität konzentriert sich auf die aggregierten Telemetriedaten, die während und nach dem Anruf vom Kunden des Benutzers an Teams und Skype for Business Online gesendet werden. 
+Es gibt zwei Kategorien von Netzwerkaufgaben: Zuverlässigkeit und Qualität. Zuverlässigkeit ist darauf konzentriert, die Fähigkeit des Benutzers zu messen, anrufe erfolgreich zu halten und in Verbindung zu bleiben. Die Qualität konzentriert sich auf die aggregierten Telemetriedaten, die während und nach dem Anruf vom Kunden des Benutzers an Teams und Skype for Business Online gesendet werden. 
 
 Angesichts der kritischen Auswirkungen, die Zuverlässigkeit auf die Benutzerfreundlichkeit hat, empfehlen wir, Zuverlässigkeitsmetriken zu bewerten und zu untersuchen, bevor Sie sich mit der Qualität abmäten. 
 
 #### <a name="endpoints-tasks"></a>Endpunktaufgaben
 
-Die Hauptaufgabe in dieser Kategorie entfernt alle Hindernisse für normale [Teams Clientupdates.](teams-client-update.md) Standardmäßig wird Teams automatisch regelmäßig aktualisiert (es sei denn, Sie deaktivieren diese Einstellung, was nicht empfohlen wird). 
+Die Hauptaufgabe in dieser Kategorie entfernt alle Hindernisse für normale [Teams Clientupdates.](teams-client-update.md) Standardmäßig wird Teams automatisch aktualisiert (es sei denn, Sie deaktivieren diese Einstellung, was nicht empfohlen wird). 
 
 Sie sollten auch Geräte überwachen und Updates bereitstellen, sobald Sie Probleme im Zusammenhang mit einem Gerät erkennen.
 
@@ -282,15 +282,15 @@ Die meisten Probleme mit Teams Leistung fallen in die folgenden Kategorien:
 -   Nicht optimierte oder integrierte Audiogeräte
 -   Problematische Subnetze oder Netzwerkgeräte
 
-Wenn Sie sich die Zeit nehmen, bevor Sie Teams zum Bewerten dieser Bereiche und zur Behebung von Mängeln nutzen, verringern Sie den Aufwand, der erforderlich ist, um für alle Ihre Benutzer eine qualitativ hochwertige Teams-Erfahrung zu gewährleisten. Informationen zum Bewerten Ihres Netzwerks als Vorbereitung auf [](use-advisor-teams-roll-out.md) Teams Rollouts erhalten Sie unter Ratgeber für Teams und Vorbereiten Ihres Netzwerks [für Teams.](prepare-network.md)
+Wenn Sie sich die Zeit nehmen, bevor Sie Teams nutzen, um diese Bereiche zu bewerten und etwaige Mängel zu beheben, verringern Sie den Aufwand, der erforderlich ist, um eine qualitativ hochwertige Teams-Erfahrung für alle Benutzer zu gewährleisten. Hilfe bei der Bewertung des Netzwerks als Vorbereitung [](use-advisor-teams-roll-out.md) auf Teams Rollouts erhalten Sie unter Ratgeber für Teams und Vorbereiten Ihres Netzwerks [für Teams.](prepare-network.md)
 
 ### <a name="expectations-using-cqd"></a>Erwartungen bei der Verwendung von CQD
 
-Verwenden Sie das Anrufqualitätsdashboard (CQD), um einen Einblick in die Qualität von Anrufen zu erhalten, die mithilfe von Teams und Skype for Business hergestellt werden. Das CQD soll Teams und Skype for Business-Administratoren und Netzwerktechnikern bei der Optimierung des Netzwerks helfen und die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit genau im Auge behalten. Das CQD betrachtet die Aggregierte Telemetrie für die gesamte Organisation, wobei allgemeine Muster sichtbar werden können. auf diese Weise können Sie fundierte Bewertungen erstellen und eine Problembehebung planen. CQD bietet Metrikenberichte, die Einblicke in die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit bieten.
+Verwenden Sie das Anrufqualitätsdashboard (CQD), um einen Einblick in die Qualität von Anrufen zu erhalten, die mithilfe von Teams und Skype for Business werden. Das CQD soll Teams und Skype for Business-Administratoren und Netzwerktechnikern dabei helfen, das Netzwerk zu optimieren und die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit genau im Auge zu behalten. Das CQD betrachtet die Aggregierte Telemetrie für die gesamte Organisation, wobei allgemeine Muster sichtbar werden können. auf diese Weise können Sie fundierte Bewertungen erstellen und eine Problembehebung planen. CQD bietet Metrikenberichte, die Einblicke in die Qualität, Zuverlässigkeit und Benutzerfreundlichkeit bieten.
 
 Obwohl das CQD zum Analysieren von Trends und Subnetzen nützlich ist, bietet es nicht immer eine bestimmte Ursache für ein bestimmtes Szenario. Es ist wichtig, dass Sie dies verstehen und die richtige Erwartung festlegen, wenn Sie das AQD verwenden:
 
--   Das AQD stellt nicht die Ursache für jedes Szenario
+-   Das CQD stellt nicht die Ursache für jedes Szenario
 -   Das CQD enthält keine Telefonsystem oder Audiokonferenzdatenströme.
 -   Das CQD gibt Bereiche zur weiteren Untersuchung auf der Grundlage von Trends an.
 
@@ -346,13 +346,13 @@ Eine gut formulierte CQD-Abfrage enthält alle drei der folgenden Parameter:
 
 -   **Filter:** Wie ich den von der Abfrage zurückgegebenen Datensatz reduzieren möchte.
 
-Eine weitere Möglichkeit, dies zu betrachten, ist,  dass eine Dimension die Gruppierungsfunktion  ist, ein Measure die Daten sind, die mich interessieren, und ein Filter gibt an, wie ich die Ergebnisse auf die für meine Abfrage relevanten Ergebnisse einkreisen möchte. 
+Eine weitere Möglichkeit, dies zu betrachten, ist,  dass eine Dimension die Gruppierungsfunktion  ist, ein Measure die Daten sind, die mich interessieren, und ein Filter ist, wie ich die Ergebnisse auf die für meine Abfrage relevanten Ergebnisse einkreisen möchte. 
 
 Ein Beispiel für eine wohlgeformte Abfrage ist **Zeige schwache Ströme [Messung] nach Subnetz [Dimension] für Gebäude 6 [Filter] an**. Weitere Informationen finden Sie unter [Dimensionen und Messungen, die in CQD verfügbar sind](./dimensions-and-measures-available-in-call-quality-dashboard.md).
 
 ### <a name="first-vs-second"></a>Erster vs. zweiter 
 
-Viele Dimensionen und Kennzahlen im CQD werden als erster oder zweiter Endpunkt bezeichnet. Für das Anrufer-/Anrufer-DK werden keine Felder  verwendet. Diese wurden zuerst und zweiter umbenannt, weil zwischen Anrufer und Anrufer Zwischenschritte erforderlich sind.  Die folgende Logik legt fest, welcher beteiligte Endpunkt als erster bezeichnet wird:
+Viele Dimensionen und Kennzahlen im CQD werden als erster oder zweiter Endpunkt bezeichnet. CQD verwendet keine Anrufer-/Anruferfelder– diese  wurden  zuerst und zweiter umbenannt, weil zwischen Anrufer und Anrufer Zwischenschritte erforderlich sind. Die folgende Logik legt fest, welcher beteiligte Endpunkt als erster bezeichnet wird:
 
 -   Der **erste** wird immer ein Serverendpunkt (Konferenzserver, Vermittlungsserver usw.) sein, wenn ein Server in den Strom oder Anruf einbezogen wird.
 
@@ -374,7 +374,7 @@ Weitere Hinweise dazu, ob sich die Dimension oder Messung auf einen Anruf oder e
 
 ### <a name="good-poor-and-unclassified-calls"></a>Gute, schlechte und nicht klassifizierte Anrufe
 
-Ein Anruf wird entweder als "gut", "schlecht" oder "nicht klassifiziert" kategorisiert. Lassen Sie uns einen Moment Zeit nehmen, um sich ausführlicher damit zu unterhalten.
+Ein Anruf wird entweder als "gut", "schlecht" oder "nicht klassifiziert" kategorisiert. Lassen Sie uns einen Moment Zeit nehmen, um uns ausführlicher damit zu unterhalten.
 
 -   **Gut oder schlecht:** Ein guter oder schlechter Anruf besteht aus einem Anruf, der eine vollständige Gruppe von Dienstmetriken enthält, für die ein vollständiger QoE-Bericht generiert und vom Dienst empfangen wurde. Die Ermittlung, ob ein Datenstrom gut oder schlecht ist, wird [weiter oben in diesem Artikel beschrieben.](#poor-stream-rate)
 
@@ -494,7 +494,7 @@ Häufige Ursachen von Anrufabbrüchen:
 
 Nachdem Sie Ihre Problembereiche ermittelt [](use-call-analytics-to-troubleshoot-poor-call-quality.md) haben, können Sie die Anrufanalyse pro Benutzer verwenden, um die Benutzer in diesem Gebäude auf bestimmte Probleme zu überprüfen. Die Anrufanalyse enthält zusätzliche EUII-Daten und kann hilfreich sein, um potenzielle Ursachen für Drop-Fehler weiter zu isolieren.
 
-Unabhängig vom nächsten Schritt sollten Sie Ihren Helpdesk darüber informieren, dass ein Problem bei bestimmten Gebäuden oder Subnetzen entdeckt wurde. Auf diese Weise kann der Helpdesk schneller auf eingehende Anrufe reagieren und Benutzer effizienter ernennen. Gekennzeichnete Benutzer können dann an das Entwicklungsteam zur weiteren Untersuchung zurückgemeldet werden.
+Unabhängig vom nächsten Schritt sollten Sie Ihren Helpdesk darüber informieren, dass bei bestimmten Gebäuden oder Subnetzen ein Problem entdeckt wurde. Auf diese Weise kann der Helpdesk schneller auf eingehende Anrufe reagieren und Benutzer effizienter ernennen. Gekennzeichnete Benutzer können dann an das Entwicklungsteam zur weiteren Untersuchung zurückgemeldet werden.
 
 Die folgende Tabelle enthält einige häufige Methoden zum Verwalten und Beheben von Abbruchfehlern.
 
@@ -502,7 +502,7 @@ Die folgende Tabelle enthält einige häufige Methoden zum Verwalten und Beheben
 |------------------------------------------|-------------------------------|
 | **Netzwerk/ Internet**                         | **Überlastung**: Arbeiten Sie mit Ihrem Netzwerkteam zusammen, um die Bandbreite bei bestimmten Gebäuden/ Subnetzen zu überwachen, um zu bestätigen, dass es Probleme mit der Übernutzung gibt. Wenn Sie feststellen, dass es zu einer Netzwerküberlastung kommt, überlegen Sie sich, die Bandbreite zu diesem Gebäude zu erhöhen oder QoS anzuwenden. Verwenden Sie die integrierten [Zusammenfassungsberichte über Datenströme mit schlechter Qualität](#quality-investigations), um die problematischen Subnetze bei Problemen mit Jitter, Latenz und Paketverlusten zu überprüfen, da diese häufig einem abgebrochenen Datenstrom vorausgehen.<br><br>**QoS**: Wenn eine Erhöhung der Bandbreite unpraktisch oder unerschwinglich sein sollte, überlegen Sie sich, QoS zu implementieren. Dieses Tool eignet sich besonders für die Verwaltung von überlasteten Datenverkehr und kann dafür sorgen, dass Medienpakete im verwalteten Netzwerk Vorrang vor nicht-Mediendatenverkehr haben. Alternativ können Sie, wenn es keinen eindeutigen Nachweis gibt, dass Bandbreite die Schuld ist, die folgenden Lösungen in Betracht ziehen:<ul><li>[Microsoft Teams QoS-Anleitung](qos-in-teams.md)</li></ul><br>**Ausführen einer Bewertung der Netzwerkbereitschaft**: Eine Netzwerkbewertung liefert Details über die erwartete Bandbreitennutzung, die Beherrschung von Bandbreiten- und Netzwerkänderungen sowie empfohlene Netzwerkpraktiken für Teams und Skype for Business. Wenn Sie die vorstehende Tabelle als Quelle verwenden, haben Sie eine Liste von Gebäuden oder Subnetzen, die hervorragende Kandidaten für eine Bewertung sind.<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li></ul> |
 | **Clients (nur für Skype for Business Online)** | Einige ältere Skype for Business-Clients haben bekannte, dokumentierte Probleme mit der Medienzuverlässigkeit. Überprüfen Sie die Anrufanalyseberichte mehrerer betroffener Benutzer oder erstellen Sie einen benutzerdefinierten Bericht in einer Client-Versionstabelle in CQD, gefiltert nach bestimmten Gebäuden oder Subnetzen mit der Messung der Gesamtzahl an Anrufabbruchfehler in %. Anhand dieser Informationen können Sie erkennen, ob eine Beziehung zwischen Anrufabbrüchen in diesem spezifischen Gebäude und einer bestimmten Version des Clients besteht.     |
-| **Geräte**                                  |Wenn Geräte die Schuld an Problemen mit der Anrufqualität sind, sollten Sie erwägen, beleidende Geräte zu aktualisieren. Weitere [Informationen Teams](./devices/phones-for-teams.md) unter Telefone für weitere Informationen. |
+| **Geräte**                                  |Wenn Geräte die Schuld an Problemen mit der Anrufqualität sind, sollten Sie erwägen, beleidende Geräte zu aktualisieren. Weitere [Informationen finden Teams](./devices/phones-for-teams.md) unter Telefone für weitere Informationen. |
 | **Benutzerverhalten**                            | Wenn Sie feststellen, dass weder Netzwerk, noch Geräte oder Clients das Problem sind, sollten Sie die Entwicklung einer Benutzeradaptionsstrategie in Betracht ziehen, um die Benutzer darüber aufzuklären, wie sie am besten an Besprechungen teilnehmen und diese verlassen können. Besser vorbereitete Teams- und Skype for Business-Benutzer sorgen für eine bessere Benutzererfahrung für alle Teilnehmer. Ein Benutzer, der beispielsweise seinen Laptop in den Ruhezustand versetzt (indem er den Deckel schließt), ohne die Besprechung zu verlassen, wird als unerwarteter Anrufabbruch klassifiziert.   |
 
 ## <a name="quality-investigations"></a>Qualitätsuntersuchungen
@@ -526,7 +526,7 @@ Trendberichte zeigen Qualitätsinformationen über die Zeit an und dienen dazu, 
 > Die Untersuchung von Zwei-Parteien-Anrufe, PSTN-Telefonie und Besprechungsräumen ist ähnlich wie die Untersuchung von Konferenzgesprächen. Der Fokus liegt darauf, Gebäude oder Subnetze abzugrenzen, die die schlechteste Qualität haben, und den Grund für die schlechte Qualität zu identifizieren.
 
 > [!Important]
-> VPN-basierte Berichte werden mithilfe der zweiten VPN-Dimension gefiltert. Diese Dimension setzt voraus, dass der VPN-Netzwerkadapter ordnungsgemäß als Fernzugriffadapter registriert ist. VPN-Anbieter verwenden diese Kennzeichnung nicht zuverlässig, und Ihre gefahrenen Kilometer variieren je nach vpn-Anbieter, der in Ihrer Organisation bereitgestellt wurde. Ändern Sie bei Bedarf die [VPN-Berichte](CQD-upload-tenant-building-data.md#vpn) unter Verwendung des Gebäude- oder Netzwerknamens.
+> VPN-basierte Berichte werden mithilfe der zweiten VPN-Dimension gefiltert. Diese Dimension setzt voraus, dass der VPN-Netzwerkadapter ordnungsgemäß als Fernzugriffadapter registriert ist. VPN-Anbieter verwenden diese Kennzeichnung nicht zuverlässig, und Ihre gefahrenen Kilometer variieren je nach vpn-Anbieter, der in Ihrer Organisation bereitgestellt wurde. Ändern Sie [die VPN-Berichte](CQD-upload-tenant-building-data.md#vpn) bei Bedarf unter Verwendung des Gebäude- oder Netzwerknamens.
 
 ##### <a name="investigation"></a>Untersuchung
 
@@ -568,11 +568,11 @@ Vergessen Sie nicht, Ihren Helpdesk wissen zu lassen, dass in diesen Netzwerken 
 |------------------------------------------|----------------------------------|
 | **Netzwerke**                                 | **Überlastung**: Ein überlastetes Netzwerk oder ein Netzwerk mit mangelhaften Ressourcen kann Probleme mit der Medienqualität verursachen. Arbeiten Sie mit dem Netzwerkteam zusammen, um festzustellen, ob die Netzwerkverbindungen vom Benutzer zum Internet-Ausgangspunkt über genügend Bandbreite zur Unterstützung der Medien verfügen. <br><br>**Ausführen einer Bewertung der Netzwerkbereitschaft**: Eine Netzwerkbewertung liefert Details über die erwartete Bandbreitennutzung, die Beherrschung von Bandbreiten- und Netzwerkänderungen sowie empfohlene Netzwerkpraktiken für Teams und Skype for Business. Wenn Sie die vorstehende Tabelle als Quelle verwenden, haben Sie eine Liste von Gebäuden oder Subnetzen, die hervorragende Kandidaten für eine Bewertung sind.<ul><li>[Vorbereiten des Netzwerks Ihrer Organisation für Teams](prepare-network.md)</li></ul>|
 | **Quality of Service (QoS)**  | QoS ist ein bewährtes Tool, das die Priorisierung von Paketen in einem überlasteten Netzwerk unterstützt, um sicherzustellen, dass sie im Ganzen und pünktlich am Bestimmungsort ankommen. Erwägen Sie die Implementierung von QoS in Ihrer Organisation, um die Qualität der Benutzererfahrung zu maximieren, wenn die Bandbreite eingeschränkt ist. QoS hilft beim Beheben von Problemen, die normalerweise mit einem hohen Maß an Paketverlust verbunden sind, und – zu einem geringeren Grad – von Problemen mit Jitter und Round-trip-Zeiten.<ul><li>[Teams QoS-Leitfaden](qos-in-teams.md)</li></ul> |
-| **WLAN**               | WLAN kann sich erheblich auf die Anrufqualität auswirken. Wi-Fi Für Bereitstellungen werden in der Regel die Netzwerkanforderungen für VoIP-Dienste nicht berücksichtigt, und sie sind häufig eine Ursache für eine schlechte Qualität. Weitere Informationen zur Optimierung Ihrer WLAN-Infrastruktur finden Sie [in diesem Artikel über die WLAN-Planung](/skypeforbusiness/certification/plan-wifi).<br><br>**WLAN-Treiber**: Stellen Sie sicher, dass die Treiber für die WLAN-Verbindung auf dem neuesten Stand sind. Auf diese Weise können Sie die schlechte Benutzererfahrung im Zusammenhang mit einem veralteten Treiber verringern. Viele Organisationen schließen keine Drahtlostreiber in ihre Patchzyklen ein, und diese Treiber können Jahre lang nicht mehr veröffentlicht werden. Viele WLAN-Probleme werden behoben, indem sichergestellt wird, dass die WLAN-Treiber aktuell sind.<br><br>**WMM**: WMM (Wireless Multimedia Extensions), auch als WLAN-Multimedia bezeichnet, bieten grundlegende QoS-Funktionalitäten für drahtlose Netzwerke. Moderne drahtlose Netzwerke müssen viele Geräte unterstützen. Diese Geräte konkurrieren um die Bandbreite und können zu Qualitätsproblemen für VoIP-Dienste führen, bei denen Geschwindigkeit und Latenz am wichtigsten sind. Erkundigen Sie sich bei Ihrem WLAN-Anbieter nach den Einzelheiten und erwägen Sie die Implementierung von WMM in Ihrem WLAN-Netzwerk, um den Medien von Skype for Business und Teams Priorität einzuräumen.<br><br>**Zugriffspunktdichte**: Zugriffspunkte sind möglicherweise zu weit voneinander entfernt oder nicht an einer idealen Position. Um mögliche Störungen zu minimieren, platzieren Sie zusätzliche Zugriffspunkte in Konferenzräumen und an Orten, die nicht durch Wände oder andere Objekte, an denen das Signal Wi-Fi schwach ist.<br><br>**2,4 GHz gegenüber 5 GHz**: 5 GHz bietet weniger Hintergrundinterferenzen und höhere Geschwindigkeiten und sollte bei der Bereitstellung von VoIP über WLAN bevorzugt werden. 5 GHz sind jedoch nicht so stark wie 2,4 GHz und werden nicht so leicht aus der Wand wandbar. Überprüfen Sie Ihr Gebäude-Layout, um festzustellen, auf welche Frequenz Sie sich für die beste Verbindung verlassen können. |
+| **WLAN**               | WLAN kann sich erheblich auf die Anrufqualität auswirken. Wi-Fi Für Bereitstellungen werden in der Regel die Netzwerkanforderungen für VoIP-Dienste nicht berücksichtigt, und sie sind häufig eine Ursache für eine schlechte Qualität. Weitere Informationen zur Optimierung Ihrer WLAN-Infrastruktur finden Sie [in diesem Artikel über die WLAN-Planung](/skypeforbusiness/certification/plan-wifi).<br><br>**WLAN-Treiber**: Stellen Sie sicher, dass die Treiber für die WLAN-Verbindung auf dem neuesten Stand sind. Auf diese Weise können Sie die schlechte Benutzererfahrung im Zusammenhang mit einem veralteten Treiber verringern. Viele Organisationen schließen keine Drahtlostreiber in ihre Patchzyklen ein, und diese Treiber können Jahre lang ohnePatch sein. Viele WLAN-Probleme werden behoben, indem sichergestellt wird, dass die WLAN-Treiber aktuell sind.<br><br>**WMM**: WMM (Wireless Multimedia Extensions), auch als WLAN-Multimedia bezeichnet, bieten grundlegende QoS-Funktionalitäten für drahtlose Netzwerke. Moderne drahtlose Netzwerke müssen viele Geräte unterstützen. Diese Geräte konkurrieren um die Bandbreite und können zu Qualitätsproblemen für VoIP-Dienste führen, bei denen Geschwindigkeit und Latenz am wichtigsten sind. Erkundigen Sie sich bei Ihrem WLAN-Anbieter nach den Einzelheiten und erwägen Sie die Implementierung von WMM in Ihrem WLAN-Netzwerk, um den Medien von Skype for Business und Teams Priorität einzuräumen.<br><br>**Zugriffspunktdichte**: Zugriffspunkte sind möglicherweise zu weit voneinander entfernt oder nicht an einer idealen Position. Um mögliche Störungen zu minimieren, platzieren Sie zusätzliche Zugriffspunkte in Konferenzräumen und an Orten, die nicht durch Wände oder andere Objekte, an denen das Signal Wi-Fi schwach ist.<br><br>**2,4 GHz gegenüber 5 GHz**: 5 GHz bietet weniger Hintergrundinterferenzen und höhere Geschwindigkeiten und sollte bei der Bereitstellung von VoIP über WLAN bevorzugt werden. 5 GHz sind jedoch nicht so stark wie 2,4 GHz und werden nicht so leicht aus der Wand wandbar. Überprüfen Sie Ihr Gebäude-Layout, um festzustellen, auf welche Frequenz Sie sich für die beste Verbindung verlassen können. |
 |**Netzwerkgerät** | In größeren Unternehmen gibt es möglicherweise Hunderte von Geräten, die über das Netzwerk verteilt sind. Arbeiten Sie mit Ihrem Netzwerkteam zusammen, um sicherzustellen, dass die Netzwerkgeräte vom Benutzer bis zum Internet gewartet und auf dem neuesten Stand sind. |
 | **VPN**  | VPN-Geräte sind normalerweise nicht für die Verarbeitung von Echtzeitmedienarbeitsauslastungen ausgelegt. Einige VPN-Konfigurationen verbieten die Verwendung von UDP (das bevorzugte Protokoll für Medien) und verlassen sich nur auf TCP. Erwägen Sie die Implementierung einer VPN-Lösung mit geteiltem Tunnel, um VPN als Quelle schlechter Qualität zu reduzieren. |
 | **Clients** <br>(Nur für Skype for Business Online) | Stellen Sie sicher, dass alle Clients regelmäßig aktualisiert werden. |
-| **Geräte** | Wenn Geräte die Schuld an Problemen mit der Anrufqualität sind, sollten Sie erwägen, beleidende Geräte zu aktualisieren. Weitere [Informationen Teams](./devices/phones-for-teams.md) unter Telefone für weitere Informationen. |
+| **Geräte** | Wenn Geräte die Schuld an Problemen mit der Anrufqualität sind, sollten Sie erwägen, beleidende Geräte zu aktualisieren. Weitere [Informationen finden Teams](./devices/phones-for-teams.md) unter Telefone für weitere Informationen. |
 | **Treiber** | Patchen von Netzwerk (Ethernet und WLAN), Audio-, Video- und USB-Treibern sollten Bestandteil ihrer Gesamtstrategie zur Patchverwaltung sein. Viele Qualitätsprobleme werden durch das Aktualisieren von Treibern behoben. |
 | **Konferenzräume mit WLAN** | Es wird dringend empfohlen, dass Konferenzraumgeräte mit mindestens 1 Gbit/s Ethernet-Verbindung mit dem Netzwerk verbunden sind. Konferenzraumgeräte umfassen in der Regel mehrere Audio- und Videodatenströme sowie Konferenzinhalte wie Bildschirmfreigaben und höhere Netzwerkanforderungen als andere Teams oder Skype for Business-Endpunkte. Konferenzräume sind definitionsgemäß stationäre Geräte, bei denen WLAN nur während der Installation einen Nutzen bringt.<br><br>Konferenzräume müssen mit besonderer Sorgfalt behandelt werden, um sicherzustellen, dass die Erfahrung mit diesen Geräten die Erwartungen erfüllt oder übersteigt. Qualitätsprobleme bei Besprechungsräumen werden in der Regel schnell eskaliert, weil sie häufig von Mitarbeitern der Senior Ebene verwendet werden.<br><br>Bei gleicher Leistung (abgesehen von der Bequemlichkeit) ist die WLAN-Leistung oft geringer als bei einer kabelgebundenen Verbindung. Mit der Verbreitung von Richtlinien zur "Mit eigenen Geräten" und der Verbreitung von Laptops werden Wi-Fi Zugriffspunkte häufig überlastet. Echtzeit-Medien werden in WLAN-Netzwerken möglicherweise nicht priorisiert, was zu Qualitätsproblemen während der Zeiten mit stärkster Nutzung führen kann. Diese intensive Nutzung kann mit einer Besprechung zusammenfallen, bei der es ein Dutzend Personen gibt, die jeweils über einen eigenen Laptop und ein Smartphone verfügen, die alle mit demselben WLAN-Zugangspunkt wie das Gerät für den Besprechungsraum verbunden sind.<br><br>WLAN sollte nur als eine vorübergehende Lösung für eine mobile Installation oder wenn WLAN ordnungsgemäß für die Unterstützung von Echtzeit-Medien der Unternehmensklasse bereitgestellt wurde, in Betracht gezogen werden. |
 
@@ -626,7 +626,7 @@ Die häufigste Ursache für die TCP-Nutzung sind fehlende Ausnahmeregeln in Fire
 
 | Fehlerbehebung        | Anleitung     |
 |--------------------|--------------------------------------|
-| Konfigurieren der Firewall | Stellen Sie [sicher, Microsoft 365 oder Office 365 IP-Ports](/microsoft-365/enterprise/urls-and-ip-address-ranges) und Adressen von Ihrer Firewall ausgeschlossen sind. Konzentrieren Sie sich bei medienbezogenen TCP-Problemen zunächst auf Folgendes:<ul><li>Vergewissern Sie sich, dass die Medien-Subnetze 13.107.64.0/18 und 52.112.0.0/14 des Clients in ihren Firewallregeln enthalten sind.</li><li>UDP-Ports 3478–3481 sind die erforderlichen Media-Ports und müssen geöffnet werden, andernfalls kehrt der Client zurück zu TCP-Port 443.</li></ul> |
+| Konfigurieren der Firewall | Stellen Sie [sicher, Microsoft 365 oder Office 365-IP-Ports](/microsoft-365/enterprise/urls-and-ip-address-ranges) und -Adressen von Ihrer Firewall ausgeschlossen sind. Konzentrieren Sie sich bei medienbezogenen TCP-Problemen zunächst auf Folgendes:<ul><li>Vergewissern Sie sich, dass die Medien-Subnetze 13.107.64.0/18 und 52.112.0.0/14 des Clients in ihren Firewallregeln enthalten sind.</li><li>UDP-Ports 3478–3481 sind die erforderlichen Media-Ports und müssen geöffnet werden, andernfalls kehrt der Client zurück zu TCP-Port 443.</li></ul> |
 | Überprüfen             | Verwenden Sie das [Microsoft-Netzwerkbewertungstool,](https://www.microsoft.com/download/details.aspx?id=53885) um nach Problemen mit der Konnektivität mit bestimmten Microsoft 365 oder Office 365 IP-Adressen und Ports aus dem betroffenen Gebäude oder Subnetz zu suchen.    |
 
 ### <a name="http-proxy"></a>HTTP-Proxy
@@ -652,7 +652,7 @@ Sie möchten so wenige HTTP-Medienstreams wie möglich sehen. Wenn Sie Datenstr�
 
 Wenn Sie nur über einen Internetproxy in Ihrer Organisation verfügen, überprüfen Sie die korrekte Microsoft 365 oder Office 365 urLs und [IP-Adressbereichsausschlüsse .](/microsoft-365/enterprise/urls-and-ip-address-ranges) Wenn in Ihrer Organisation mehrere Internet-Proxys konfiguriert sind, können Sie mit dem HTTP-Unterbericht isolieren, welches Gebäude oder Subnetz betroffen ist.
 
-Stellen Sie für Organisationen, die den Proxy nicht umgehen können, sicher, dass der Skype for Business-Client so konfiguriert ist, dass er sich ordnungsgemäß anmeldet, wenn er sich hinter einem Proxy befindet, wie im Artikel [Skype for Business](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin)wird beschrieben, sollte anstelle einer direkten Verbindung Proxyserver zum Anmelden verwendet werden. 
+Stellen Sie für Organisationen, die den Proxy nicht umgehen können, sicher, dass der Skype for Business-Client so konfiguriert ist, dass er sich ordnungsgemäß anmeldet, wenn er sich hinter einem Proxy befindet. Dies wird im Artikel [Skype for Business](https://support.microsoft.com/help/3207112/skype-for-business-should-use-proxy-server-to-sign-in-instead-of-tryin)beschrieben, wenn anstelle einer direkten Verbindung ein Proxyserver zum Anmelden verwendet wird. 
 
 
 #### <a name="http-proxy-investigations"></a>HTTP-Proxy-Untersuchungen
@@ -697,11 +697,11 @@ Ein wichtiger Teil der Gewährleistung einer qualitativ hochwertigen Benutzererf
 
 Durch Einschränken ihrer Bereitstellung auf Clientversionen, die weniger als sechs Monate alt sind, können Sie die allgemeine Benutzererfahrung und die Verwaltbarkeit verbessern, indem Sie die Anzahl der unterstützten Versionen verringern.
 
-Wenn Sie nur das Office Klick-und-Ausführen verwenden, finden Sie sich automatisch innerhalb des sechsmonatigen Fensters. Es sind keine weiteren Schritte erforderlich.
+Wenn Sie nur das Office Klick-und-Ausführen verwenden, wird das sechsmonatige Fenster automatisch angezeigt. Es sind keine weiteren Schritte erforderlich.
 
 Wenn Sie über eine Kombination aus Klick-und-Los und Installationspaketen (MSI) verfügen, können Sie den Bericht verwenden, um zu überprüfen, ob die MSI-Clients regelmäßig aktualisiert werden. Wenn Sie feststellen, dass Kunden zurückfallen, arbeiten Sie mit dem Team zusammen, das für die Verwaltung von Office-Updates zuständig ist, und stellen Sie sicher, dass diese Clientpatches regelmäßig genehmigen und bereitstellen.
 
-Darüber hinaus ist es wichtig, dass Netzwerk-, Video-, USB- und Audiotreiber ebenfalls auf Patches gepatcht werden. Diese Treiber können leicht übersehen und dadruch nicht in Ihre Patch-Verwaltungsstrategie einbezogen werden.
+Darüber hinaus ist es wichtig, dass Netzwerk-, Video-, USB- und Audiotreiber ebenfalls mit Patches installiert werden. Diese Treiber können leicht übersehen und dadruch nicht in Ihre Patch-Verwaltungsstrategie einbezogen werden.
 
 Die Versionsnummern für Skype for Business finden Sie über die folgenden Links:
 

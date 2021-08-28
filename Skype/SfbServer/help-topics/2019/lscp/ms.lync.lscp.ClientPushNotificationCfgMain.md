@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Microsoft-Pushbenachrichtigungen und Apple-Pushbenachrichtigungen zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
-ms.openlocfilehash: 1400fe60ba9c0accad602a968a646a0f6a8aabe06ac7418dbdaf7d8cd492dc84
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c26788cbe351888aef633cc21a08d46bf3f74deb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316271"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613194"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Mobiler Client: Konfiguration für Pushbenachrichtigung
  

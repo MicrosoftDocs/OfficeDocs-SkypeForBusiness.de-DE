@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie verwenden Archivierungskonfigurationen, um die Archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:'
-ms.openlocfilehash: f59d096ac00d2247b36aae4f3395f78d16ed0bc366e8e60da6a1dc31a3797641
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 08849f41248d78d28f2feb972bcedcde7a2cc768
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325252"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58622857"
 ---
 # <a name="archiving-configuration"></a>Archivierungskonfiguration
  
@@ -68,5 +68,5 @@ Auf der Seite **Archivierungskonfiguration** sind die einzelnen Archivierungsric
     
 - **Aktualisieren** Sie können die Seite **"Archivierungskonfiguration"** aktualisieren, um den Status der Optionen aller Archivierungskonfigurationen zu überprüfen.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server,](../../../plan-your-deployment/archiving/archiving.md)Deploy archiving for [Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und Manage archiving [in Skype for Business Server.](../../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server,](../../../plan-your-deployment/archiving/archiving.md)Deploy archiving for [Skype for Business Server,](../../../deploy/deploy-archiving/deploy-archiving.md)and [Manage archiving in Skype for Business Server.](../../../manage/archiving/archiving.md)
 

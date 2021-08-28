@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Bei der Dienstqualität (Quality of Service, QoS) handelt es sich um eine Netzwerktechnologie, die in einigen Organisationen zum Bereitstellen einer optimalen Benutzerfreundlichkeit für die Audio- und Videokommunikation verwendet wird.
-ms.openlocfilehash: bc09ef8368034787201caee8bc077fe11a3f93a0451d2556eb677ceaab632b10
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 33c580e61be0dcd2a5a193a654294a5ea9087d12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281808"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612164"
 ---
 # <a name="managing-quality-of-service-qos-in-skype-for-business-server"></a>Verwalten von Quality of Service (QoS) in Skype for Business Server
 
@@ -31,15 +31,15 @@ Bei der Dienstqualität (Quality of Service, QoS) handelt es sich um eine Netzwe
 > [!NOTE]  
 > In der Regel wird die Dienstqualität nur auf Kommunikationssitzungen innerhalb Ihres internen Netzwerks angewendet. Beim Implementieren von QoS konfigurieren Sie die Server und Router zwar für die Unterstützung der Paketmarkierung, Sie konfigurieren diese Geräte jedoch für die Unterstützung der Paketmarkierung auf eine bestimmte Art und Weise. Sie können nicht davon ausgehen, dass die Dienstqualität im Internet oder in anderen Netzwerken unterstützt wird. Selbst wenn die Dienstqualität in anderen Netzwerken unterstützt wird, gibt es keine Garantie dafür, dass sie auf dieselbe Art und Weise wie der Dienst in Ihrem Netzwerk konfiguriert ist.
 
-Skype for Business Server erfordert keine Dienstqualität; Wenn Sie QoS derzeit nicht verwenden, müssen Sie den Dienst nicht installieren, bevor Sie Skype for Business Server installieren. Wenn in Ihrem Netzwerk ein erheblicher Paketverlust auftritt, empfiehlt es sich, dieses Problem zu verringern, indem Sie zusätzliche Bandbreite hinzufügen. Wenn das Hinzufügen von mehr Bandbreite nicht möglich ist, sollten Sie stattdessen Quality of Service implementieren.
+Skype for Business Server erfordert keine Dienstqualität; Wenn Sie QoS derzeit nicht verwenden, ist es nicht erforderlich, den Dienst vor der Installation von Skype for Business Server zu installieren. Wenn in Ihrem Netzwerk ein erheblicher Paketverlust auftritt, empfiehlt es sich, dieses Problem zu verringern, indem Sie zusätzliche Bandbreite hinzufügen. Wenn das Hinzufügen von mehr Bandbreite nicht möglich ist, sollten Sie stattdessen Quality of Service implementieren.
 
 Skype for Business Server bietet vollständige Unterstützung für Quality of Service: Das bedeutet, dass Organisationen, die QoS bereits verwenden, Skype for Business Server problemlos in ihre vorhandene Netzwerkinfrastruktur integrieren können. Dazu müssen Sie die folgenden Aufgaben ausführen:
 
   - [Aktivieren von QoS für Geräte, die nicht auf Windows basieren.](enabling-qos-for-devices-that-are-not-based-on-windows.md) Standardmäßig ist QoS für Computer und andere Geräte (z. B. iPhones), auf denen andere Betriebssysteme ausgeführt werden, deaktiviert. Obwohl Sie Skype for Business Server verwenden können, um Quality of Service für Geräte zu aktivieren und zu deaktivieren, können Sie das Produkt in der Regel nicht verwenden, um die von diesen Geräten verwendeten DSCP-Codes zu ändern.
 
-  - [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver.](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md) Sie müssen eine eindeutige Gruppe von Ports für unterschiedliche Pakettypen reservieren, beispielsweise für Audio und Video. Mit Skype for Business Server können Sie Quality of Service nicht aktivieren oder deaktivieren, indem Sie beispielsweise einen Eigenschaftswert auf "True" oder "False" festlegen. Stattdessen wird die Dienstqualität durch die Konfiguration von Portbereichen und die anschließende Erstellung und Anwendung einer Gruppenrichtlinie aktiviert. Wenn Sie sich später dazu entschließen, QoS nicht zu verwenden, können Sie die Dienstqualität einfach durch Entfernen der entsprechenden Gruppenrichtlinienobjekte "deaktivieren".
+  - [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver.](configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md) Sie müssen eine eindeutige Gruppe von Ports für unterschiedliche Pakettypen reservieren, beispielsweise für Audio und Video. Bei Skype for Business Server aktivieren oder deaktivieren Sie Quality of Service nicht, indem Sie beispielsweise einen Eigenschaftswert auf "True" oder "False" festlegen. Stattdessen wird die Dienstqualität durch die Konfiguration von Portbereichen und die anschließende Erstellung und Anwendung einer Gruppenrichtlinie aktiviert. Wenn Sie sich später dazu entschließen, QoS nicht zu verwenden, können Sie die Dienstqualität einfach durch Entfernen der entsprechenden Gruppenrichtlinienobjekte "deaktivieren".
 
-  - [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver.](configuring-port-ranges-for-your-edge-servers.md) Obwohl dies nicht erforderlich ist, können Sie Ihre Edgeserver für die Verwendung derselben Portbereiche wie die anderen Server konfigurieren. Das Konfigurieren einer Quality of Service-Richtlinie sollte nur für die interne Seite Ihrer Edgeserver erfolgen. Die Ursache dafür ist, dass die Dienstqualität nicht für die Verwendung im Internet, sondern in Ihrem internen Netzwerk konzipiert ist.
+  - [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver.](configuring-port-ranges-for-your-edge-servers.md) Obwohl dies nicht erforderlich ist, können Sie Ihre Edgeserver für die Verwendung derselben Portbereiche wie die anderen Server konfigurieren. Das Konfigurieren einer Quality of Service-Richtlinie sollte nur für die interne Seite ihrer Edgeserver erfolgen. Die Ursache dafür ist, dass die Dienstqualität nicht für die Verwendung im Internet, sondern in Ihrem internen Netzwerk konzipiert ist.
 
 - [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server](configuring-port-ranges-for-your-skype-clients.md)  Diese Portbereiche gelten nur für Clientcomputer und unterscheiden sich in der Regel von den auf Ihren Servern konfigurierten Portbereichen. Beachten Sie, dass Skype for Business Server QoS nur für Windows Betriebssysteme als Windows 10 unterstützt.
 

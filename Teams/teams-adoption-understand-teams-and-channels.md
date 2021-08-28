@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie mehr über die Strukturierung von Teams und Kanälen in Microsoft Teams und wie Sie mithilfe von Teams organisationsübergreifende Zusammenarbeit fördern.
+description: Erfahren Sie mehr über das Strukturieren von Teams und Kanälen in Microsoft Teams und wie Sie mithilfe von Teams organisationsübergreifende Zusammenarbeit fördern.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 289f684054d3acd8a3801a816286c365ad3a3cced3319ed54845824cb47a5934
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627277"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
@@ -36,7 +36,7 @@ Die Konzepte von Teams und Kanälen sind von grundlegender Bedeutung für eine g
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in denen die eigentliche Arbeit erledigt wird. 
 
-Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Zur Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365-Gruppen finden Sie unter Microsoft 365 und Gruppen [Microsoft Teams](office-365-groups.md) und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365 Gruppen finden [](office-365-groups.md) Sie unter Microsoft 365 und Gruppen Microsoft Teams und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
@@ -51,9 +51,9 @@ Teamzugriffstypen bestimmen, wer einem Team beitreten kann:
 
 - *Öffentliche* Teams sind für jeden in der Organisation offen, und die Benutzer können direkt beitreten. Öffentliche Teams sind nützlich für die Zusammenarbeit an Themen, die für Personen in verschiedenen Abteilungen oder für Personen, die an verschiedenen Projekten arbeiten, von allgemeinem Interesse sind. Diese Einstellung eignet sich gut als Standardeinstellung für kleinere Organisationen.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Verwenden Teams zum Fördern der organisationsübergreifenden Zusammenarbeit
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Fördern Teams organisationsübergreifende Zusammenarbeit mithilfe von "Daten"
 
-Es ist eine bewährte Methode, Teams zu verwenden, um die organisationsübergreifende Zusammenarbeit zu verbessern, und viele Projekte werden sich für dieses Modell 365 365 365 365 365 365 365 100 m344 2013 2013 2013 20 Darüber hinaus möchten Führungskräfte oder Abteilungen innerhalb einer Organisation möglicherweise ein dediziertes Team für ihre eigenen Mitarbeiter erstellen. Betrachten Sie die In der folgenden Abbildung dargestellten Organisations- und Projektmodelle.
+Es ist eine bewährte Methode, Teams zu verwenden, um die organisationsübergreifende Zusammenarbeit zu verbessern, und viele Projekte werden sich für dieses Modell 365 365 100 100 m 2013 2013 2013 2016 2016 2013 2013 2 Darüber hinaus möchten Führungskräfte oder Abteilungen innerhalb einer Organisation möglicherweise ein dediziertes Team für ihre eigenen Mitarbeiter erstellen. Betrachten Sie die In der folgenden Abbildung dargestellten Organisations- und Projektmodelle.
 
 ![Organisations- und Projektmodelle](media/teams-adoption-organization-project.png)
 

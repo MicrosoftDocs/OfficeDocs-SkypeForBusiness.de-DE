@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten und verwenden können, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 4db3b935526daad03d3d51281944422b597cbc00
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234760"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627337"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -56,7 +56,7 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine od
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
+3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
 4. Wählen Sie die gewünschten Einstellungen aus.
 5. Klicken Sie auf **Speichern**.
 

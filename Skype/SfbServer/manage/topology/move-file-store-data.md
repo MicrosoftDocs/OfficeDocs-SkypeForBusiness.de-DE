@@ -1,5 +1,5 @@
 ---
-title: Verschieben von Datei Store daten in eine neue Store in Skype for Business Server
+title: Verschieben von Datei- Store-Daten in eine neue Store in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:'
-ms.openlocfilehash: 47363372b5a54390ff4ba2982ffe17e7c5d32e22728a8d78bdd45c6bba28c44d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 40b5476b432f0549049c9d1bcf46c7c9a921255a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350157"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612134"
 ---
-# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Verschieben von Datei Store daten in eine neue Store in Skype for Business Server
+# <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server"></a>Verschieben von Datei- Store-Daten in eine neue Store in Skype for Business Server
 
 Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:
 
@@ -35,7 +35,7 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 ### <a name="to-move-file-store-data-from-one-file-store-to-a-new-file-store"></a>So verschieben Sie Dateispeicherdaten von einem Dateispeicher in einen neuen Dateispeicher
 
-1. Melden Sie sich bei einem Computer als Mitglied der Gruppe "RTCUniversersalServerAdmins" oder "CsServerAdministrator" an, auf dem die Skype for Business Server, Die Verwaltungstools installiert sind.
+1. Melden Sie sich bei einem Computer als Mitglied der Gruppe "RTCUniversersalServerAdmins" oder "CsServerAdministrator" an, auf dem die Skype for Business Server,-Verwaltungstools installiert sind.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 
@@ -45,7 +45,7 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 5. Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
 
-6. Topologie-Generator starten: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business Server"** und dann auf **Skype for Business Server Topologie-Generator.**
+6. Topologie-Generator starten: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business Server** und dann auf **Skype for Business Server Topologie-Generator.**
 
 7. Wählen Sie einen Server oder Pool aus, der den Dateispeicher verwendet, und gehen Sie wie folgt vor:
 

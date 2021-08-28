@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen von Statistics Manager für Skype for Business Server
+title: Bereitstellen von Statistics Manager für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,18 +9,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server bereitstellen.'
-ms.openlocfilehash: e5ace82602ef6443331470a3fd3deda69e3fc797f0446749780436b14b4a7b82
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 966d6aa71eff93f616ae0eb1a7443aebab600016
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333257"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612094"
 ---
-# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
+# <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server bereitstellen.
   
@@ -60,7 +60,7 @@ Gehen Sie folgendermaßen vor, um Statistics Manager bereitzustellen:
 5. Importieren Sie die Topologie für die Server, die Sie überwachen.
     
 > [!NOTE]
-> Redis, der Listener-Dienst und die Website müssen alle auf demselben Hostcomputer installiert sein. Stellen Sie sicher, dass auf dem Hostcomputer nicht Skype for Business Server installiert ist. 
+> Redis, der Listener-Dienst und die Website müssen alle auf demselben Hostcomputer installiert sein. Stellen Sie sicher, dass auf dem Hostcomputer Skype for Business Server nicht installiert ist. 
   
 ### <a name="prepare-the-listener-host-machine"></a>Vorbereiten des Listener-Hostcomputers
 
@@ -78,7 +78,7 @@ Um den Hostcomputer vorzubereiten, müssen Sie das Redis-Zwischenspeicherungssys
     
 2. Der Listener-Dienst erfordert ein Zertifikat. Microsoft empfiehlt dringend, ein Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle signiert zu haben. 
     
-    Wenn Sie ein selbstsigngeschütztes Zertifikat verwenden möchten, z. B. zu Testzwecken in einer Übung, finden Sie weitere Informationen unter [Erstellen eines selbstsignten Zertifikats.](deploy.md#BKMK_SelfCert)
+    Wenn Sie ein selbstsignantes Zertifikat verwenden möchten, z. B. zu Testzwecken in einer Übung, finden Sie weitere Informationen unter [Erstellen eines selbstsignten Zertifikats.](deploy.md#BKMK_SelfCert)
     
     Beachten Sie, dass der Agent die Zertifikatfingerabdrucküberprüfung (anstelle der Verkettungsüberprüfung) verwendet. Die vollständige Zertifikatüberprüfung wird nicht ausgeführt, da es möglich ist, selbstsignate Zertifikate zu verwenden.
     
@@ -104,7 +104,7 @@ Installieren Sie den Listener-Dienst auf dem Hostcomputer, indem Sie die StatsMa
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies mithilfe der Schaltfläche **Durchsuchen...** standardmäßig ändern.
+   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies standardmäßig mithilfe der Schaltfläche **Durchsuchen...** ändern.
     
    - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Protokolle" und andere Daten gespeichert werden. Sie können es von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
     
@@ -122,7 +122,7 @@ Führen Sie die folgenden Schritte aus, um die Installation zu überprüfen:
     
    - Wenn "KnownServerCount" 1 oder höher ist, wird die Verbindung mit Redis hergestellt.
     
-   - Nachdem Sie einige Minuten gewartet haben und mindestens ein Agent installiert wurde, überprüfen Sie, ob der ValuesWritten-Zähler inkrementiert.
+   - Nachdem Sie einige Minuten gewartet haben und mindestens ein Agent installiert wurde, überprüfen Sie, ob der ValuesWritten-Zähler erhöht wird.
     
 ### <a name="install-the-website"></a>Installieren der Website
 
@@ -134,7 +134,7 @@ Installieren Sie die Website auf dem Hostcomputer, indem Sie die StatsManWebSite
     
    - **Dienstport:** Dies ist die Portnummer, auf die die Website lauscht. Sie können sie später mithilfe der IIS-Managerbindung ändern. Während der Installation wird dieser Port über die lokale Firewall zugelassen.
     
-   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies mithilfe der Schaltfläche **Durchsuchen...** standardmäßig ändern.
+   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies standardmäßig mithilfe der Schaltfläche **Durchsuchen...** ändern.
     
    - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Protokolle" und andere Daten gespeichert werden. Sie können es von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
     
@@ -164,7 +164,7 @@ Installieren Sie einen Agent auf jedem Skype for Business Server, den Sie überw
     
    - **Dienstfingerabdruck:** Dies ist der Fingerabdruck des SSL-Zertifikats, das der Listener verwendet. Der Agent verwendet diesen Fingerabdruck, um sich beim Listener zu authentifizieren. (Es wird keine vollständige Zertifikatüberprüfung ausgeführt, da es möglich ist, selbstsignate Zertifikate zu verwenden.)
     
-   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies mithilfe der Schaltfläche **Durchsuchen...** standardmäßig ändern.
+   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies standardmäßig mithilfe der Schaltfläche **Durchsuchen...** ändern.
     
    - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Protokolle" und die verschlüsselte password.txt-Datei gespeichert werden. Vielen Dank, dass Sie es von der Standardeinstellung geändert haben. Sie wird bei der Deinstallation nicht gelöscht.
     
@@ -179,7 +179,7 @@ msiexec /l install.log /i StatsManPerfAgent.msi SERVICE_THUMBPRINT=<thumbprint> 
 ### <a name="import-the-topology"></a>Importieren der Topologie
 <a name="BKMK_ImportTopology"> </a>
 
-Nachdem Statistics Manager installiert und ausgeführt wurde, müssen Sie die Skype for Business Server Topologie importieren, damit Statistics Manager den Standort, den Pool und die Rolle der einzelnen Server kennt. Um Ihre Skype for Business Server Topologie zu importieren, verwenden Sie das Cmdlet ["Get-CsPool",](/powershell/module/skype/get-cspool?view=skype-ps) um Informationen zu jedem in Ihrer Organisation verwendeten Pool abzurufen und diese Informationen dann in Statistics Manager zu importieren.
+Nachdem Statistics Manager installiert und ausgeführt wurde, müssen Sie die Skype for Business Server Topologie importieren, damit Statistics Manager den Standort, den Pool und die Rolle der einzelnen Server kennt. Um Ihre Skype for Business Server Topologie zu importieren, verwenden Sie das Cmdlet ["Get-CsPool",](/powershell/module/skype/get-cspool?view=skype-ps) um Informationen zu jedem in Ihrer Organisation verwendeten Pool abzurufen, und importieren diese Informationen dann in Statistics Manager.
   
 Führen Sie die folgenden Schritte aus, um die Skype for Business Server Topologie zu importieren:
   
@@ -220,7 +220,7 @@ Führen Sie das folgende Skript aus, um die aktuell importierten Serverinformati
 .\Get-StatsManServerInfo.ps1
 ```
 
-Wenn Sie Server überwachen möchten, die sich nicht in Ihrer Skype for Business Server Topologie befinden , z. B. eine Exchange Server, können Sie einen Import mit einem einzelnen Server auf dem Host ausführen, auf dem der Listener ausgeführt wird. Führen Sie die folgenden Schritte aus, um einen Import mit einem einzelnen Server auszuführen:
+Wenn Sie Server überwachen möchten, die sich nicht in Ihrer Skype for Business Server Topologie befinden , z. B. eine Exchange Server, können Sie einen Import mit einem einzelnen Server auf dem Host durchführen, auf dem der Listener ausgeführt wird. Führen Sie die folgenden Schritte aus, um einen Import mit einem einzelnen Server auszuführen:
   
 1. Navigieren Sie zu dem Verzeichnis, in dem der Listener installiert ist. Der Standardwert ist: 
     
@@ -272,7 +272,7 @@ Informationen zu allen Ereignissen, die möglicherweise im Anwendungsereignispro
 ## <a name="create-a-self-signed-certificate"></a>Erstellen eines selbstsignten Zertifikats
 <a name="BKMK_SelfCert"> </a>
 
-Microsoft empfiehlt dringend, ein Zertifikat zu verwenden, das von einer vertrauenswürdigen Zertifizierungsstelle signiert ist. Wenn Sie jedoch ein selbstsignes Zertifikat zu Testzwecken verwenden möchten, gehen Sie wie folgt vor: 
+Microsoft empfiehlt dringend, ein von einer vertrauenswürdigen Zertifizierungsstelle signiertes Zertifikat zu verwenden. Wenn Sie jedoch ein selbstsignes Zertifikat zu Testzwecken verwenden möchten, gehen Sie wie folgt vor: 
   
 1. Geben Sie in einer PowerShell-Konsole, während Sie als Administrator angemeldet sind, Folgendes ein:
     

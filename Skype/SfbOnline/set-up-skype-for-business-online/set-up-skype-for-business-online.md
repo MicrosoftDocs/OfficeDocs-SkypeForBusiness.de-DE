@@ -13,7 +13,7 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -24,12 +24,12 @@ ms.custom:
 - O365M_SkypeforBusinessON
 - O365P_SkypeforBusinessON
 description: 'Erfahren Sie, wie Sie Ihre Domäne, Benutzer, Chat-Nachrichten und Anwesenheitsinformationen für Ihr Unternehmen einrichten müssen, um Skype for Business zu installieren. Erfahren Sie außerdem, wie Sie Audio-Konferenzen, das Telefonsystem und Anrufpläne sowie Skype-Livekonferenzen einrichten können. '
-ms.openlocfilehash: 9d8c68468cbceb1e7ab7e2c5d3a9a268b382fa13ec42d78d03269dc9764fb770
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d712fd0bf02e770c15f1c6dcf61789dcf0fd27e9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613254"
 ---
 # <a name="set-up-skype-for-business-online"></a>Einrichten von Skype for Business Online.
 
@@ -39,11 +39,11 @@ Sie müssen über globale Administratorberechtigungen verfügen, um die Skype fo
 
 ## <a name="setting-up-skype"></a>Einrichten von Skype
 
-Sie benötigen Hilfe beim Einrichten ihrer Skype mit Ihrem Microsoft 365- Office 365 Abonnement. Indem Sie die in diesem Artikel angeführten Schritte ausführen, können Sie das Einrichten abschließen.
+Sie benötigen Hilfe beim Einrichten ihrer Skype mit Ihrem Microsoft 365- Office 365-Abonnement. Indem Sie die in diesem Artikel angeführten Schritte ausführen, können Sie das Einrichten abschließen.
 
 ## <a name="1-plan-for-skype-for-business"></a>1. Plan für Skype for Business
 
-Wenn Sie über **[Microsoft 365 Business Premium Standard](https://products.office.com/business/office-365-business-premium)** oder **Business Essentials** verfügen, können Sie Skype for Business verwenden, um Onlineanrufe mit anderen Personen in Ihrem Unternehmen zu machen, die in Ihrem Abonnement sind. Wenn Ihr Unternehmen beispielsweise 10 Mitarbeiter hat, sind Sie in der Lage, [Skype for Business für Chats und Livekonferenzen zu nutzen](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) sowie mit [Skype for Business Besprechungen abzuhalten](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), nachdem Sie die unten genannten Schritte 2 bis 6 ausgeführt haben. Sie können sogar eine [Skype for Business-Konferenz in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) einrichten.
+Wenn Sie über **[Microsoft 365 Business Premium Standard](https://products.office.com/business/office-365-business-premium)** oder **Business Essentials** verfügen, können Sie Skype for Business verwenden, um Onlineanrufe mit anderen Personen in Ihrem Unternehmen zu machen, die in Ihrem Abonnement enthalten sind. Wenn Ihr Unternehmen beispielsweise 10 Mitarbeiter hat, sind Sie in der Lage, [Skype for Business für Chats und Livekonferenzen zu nutzen](https://support.office.com/article/cc05afa6-1894-4a82-9dd9-6222061f50fd) sowie mit [Skype for Business Besprechungen abzuhalten](https://support.office.com/article/2eed8424-581a-4497-b505-c08c152e5851), nachdem Sie die unten genannten Schritte 2 bis 6 ausgeführt haben. Sie können sogar eine [Skype for Business-Konferenz in Outlook](https://support.office.com/article/b8305620-d16e-4667-989d-4a977aad6556#bkmk_OWA) einrichten.
 
 Gehen Sie wie folgt vor, wenn Sie Skype for Business zum Tätigen und Annehmen von **Anrufen** von Personen *außerhalb* Ihres Unternehmens verwenden möchten:
 
@@ -62,7 +62,7 @@ Skype for Business Online ist Bestandteil der Office 365-Suite von Diensten. Um 
 
     ![Beispiel für die Willkommens-E-Mail, die Sie erhalten haben, nachdem Sie sich bei Skype for Business Online angemeldet haben. Sie enthält Ihre Microsoft 365 oder Office 365-ID.](../images/977c5c96-29c5-40c0-a4c4-1ba66ba3a1fb.png)
 
-2. Melden Sie sich beim [Admin Center an,](https://admin.microsoft.com) und geben Sie Ihre Microsoft 365 oder Office 365 Benutzer-ID und das Kennwort ein. 
+2. Melden Sie sich beim [Admin Center an,](https://admin.microsoft.com) und geben Sie Microsoft 365 oder Office 365 Benutzer-ID und das Kennwort ein. 
 
 ## <a name="3-set-up-your-domain-and-users"></a>3. Einrichten Ihrer Domäne und von Benutzern
 <a name="bkmk_users"> </a>

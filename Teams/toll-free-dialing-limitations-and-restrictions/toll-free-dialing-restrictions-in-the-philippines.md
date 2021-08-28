@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in den Philippinen, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: debf3e915a1ee246657bb3e470016e5029fa932ccc82e236612184808e02b7bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1566415bc30085293ba576f6dc91d341bc41b7dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341131"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627407"
 ---
 # <a name="toll-free-dialing-restrictions-in-philippines"></a>Einschränkungen für gebührenfreie Telefonnummern auf den Philippinen
 

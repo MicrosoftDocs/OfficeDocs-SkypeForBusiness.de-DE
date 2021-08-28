@@ -12,7 +12,7 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über App-Berechtigungsrichtlinien in Microsoft Teams und darüber, wie Sie damit steuern, welche Apps Benutzern in Ihrer Organisation zur Verfügung stehen.
 f1.keywords:
@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.addpinnedapp.permissions
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: d489fabcfdbbdd71ed9b7d757e78897d1c5a440757eca71c190661755ba26104
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 841f471d548e26d9eb7eb876433330d3ecd20f67
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332387"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627447"
 ---
 # <a name="manage-app-permission-policies-in-microsoft-teams"></a>Verwalten von App-Berechtigungsrichtlinien in Microsoft Teams
 
@@ -86,7 +86,7 @@ Sie können im Microsoft Teams Admin Center Richtlinien bearbeiten, einschließl
 
 ## <a name="manage-org-wide-app-settings-for-microsoft-365-government"></a>Verwalten von organisationsweiten App-Einstellungen für Microsoft 365 Government  
 
-Bei einer Microsoft 365 Government - GCCH und DoD-Bereitstellung von Teams ist es wichtig, dass Sie Die folgenden Informationen zu App-Einstellungen von Drittanbietern kennen, die für GCCH und DoD eindeutig sind.
+Bei einer Microsoft 365 Government - GCCH und DoD-Bereitstellung von Teams ist es wichtig, die folgenden Informationen zu App-Einstellungen von Drittanbietern zu kennen, die für GCCH und DoD eindeutig sind.
 
 In GGCH und DoD werden alle Drittanbieter-Apps standardmäßig blockiert. Außerdem finden Sie auf der Seite mit den App-Berechtigungsrichtlinien im Microsoft Teams Admin Center den folgenden Hinweis zur Verwaltung von Drittanbieter-Apps.
 

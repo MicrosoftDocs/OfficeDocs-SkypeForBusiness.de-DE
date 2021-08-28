@@ -1,5 +1,5 @@
 ---
-title: Aktualisieren von Statistics Manager für Skype for Business Server
+title: Aktualisieren von Statistics Manager für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,24 +9,24 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server aktualisieren.'
-ms.openlocfilehash: f3ce2a6f92ee1d3bd12994f2fe490b0acd5987e4801a98fa57a3527b9fa47dd8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333197"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611984"
 ---
-# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
+# <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server aktualisieren.
   
 In diesem Thema wird beschrieben, wie Sie eine vorhandene Installation von Statistics Manager für Skype for Business Server aktualisieren– ein leistungsstarkes Tool, mit dem Sie Skype for Business Server Integritäts- und Leistungsdaten in Echtzeit anzeigen können. Sie können alle paar Sekunden Leistungsdaten über Hunderte von Servern abrufen und die Ergebnisse sofort auf der Statistics Manager-Website anzeigen. 
   
-Weitere Informationen zu Statistics Manager und den neuen Features in Version 2.0 finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for [Skype for Business Server.](deploy.md)
+Weitere Informationen zu Statistics Manager und den neuen Features in Version 2.0 finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for [Skype for Business Server](deploy.md).
   
 Es gibt zwei Methoden für das Upgrade:
   
@@ -46,7 +46,7 @@ Stellen Sie vor dem Upgrade sicher, dass Sie über die folgenden Informationen v
     
 ## <a name="automated-upgrade"></a>Automatisiertes Upgrade
 
-Das Skript sammelt Ihre aktuellen Zertifikatinformationen und ihr Listenerkennwort, deinstalliert die alte Version des Produkts und installiert dann die neue Version des Produkts. Die auf dem Server installierte Redis-Instanz wird nicht berührt, sodass alle im Cache gespeicherten Daten während des Upgradeprozesses beibehalten werden.
+Das Skript erfasst Ihre aktuellen Zertifikatinformationen und ihr Listenerkennwort, deinstalliert die alte Version des Produkts und installiert dann die neue Version des Produkts. Die auf dem Server installierte Redis-Instanz wird nicht berührt, sodass alle im Cache gespeicherten Daten während des Upgradeprozesses beibehalten werden.
   
 1. Platzieren Sie die MSI-Dateien für die neue Version des Agents, Listeners und der Website zusammen mit dem Update-StatsMan.ps1 Skript in einem einzigen Ordner auf dem Listener-Computer.
     

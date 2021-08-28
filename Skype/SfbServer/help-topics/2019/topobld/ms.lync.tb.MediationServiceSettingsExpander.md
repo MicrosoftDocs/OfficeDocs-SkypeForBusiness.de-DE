@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 7cfc838f-845b-4b73-bbdf-3c0c9b9aac1b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver bestimmen und seine Zuordnungen zu PSTN-Gateways (Public Switched Telephone Network) einrichten.
-ms.openlocfilehash: 63abe1dc6c34509f05bc7545dd72597a3e24fd50e0afb74258c4729ccd217118
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3a559dc584d53f855e828a4e3123cb7ee6a1479
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321977"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614519"
 ---
-# <a name="mediation-service-setting-expander"></a>Einstellung für den Vermittlungsdienst – Erweiterung
+# <a name="mediation-service-setting-expander"></a>Einstellung für den Vermittlungsdienst – Erweiterung
  
 Auf dieser Seite können Sie die Überwachungsports für diesen Vermittlungsserver bestimmen und seine Zuordnungen zu PSTN-Gateways (Public Switched Telephone Network) einrichten. 
   

@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Priority
+  ms.localizationpriority: high
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
     - M365-collaboration
@@ -28,18 +28,18 @@ productDirectory:
   items:
     - title: Planen des Upgrades (hier starten)
       imageSrc: 'https://docs.microsoft.com/office/media/icons/get-started-teams.svg'
-      summary: 'Unabhängig davon, ob Sie vor dem Ende von Skype for Business Online (31. Juli 2021) auf Teams upgraden oder Szenarien aus Ihrer lokalen Skype for Business-Umgebung auf Teams verschieben, ist ein erfolgreicher Übergang sowohl für die technische Bereitschaft als auch für die Benutzerbereitschaft geeignet. Entdecken Sie unsere bewährten Frameworks, bewährten Methoden und Ressourcen, die Ihnen helfen sollen, einen erfolgreichen Umstieg von Skype for Business Online, Skype for Business Server oder einer Hybridumgebung auf Teams Teams zu erleichtern. Zielgruppe – Alle (Business Sponsoren, IT-Administratoren, Benutzerbereitschafts-/Änderungsmanager, Projektleiter)'
+      summary: 'Unabhängig davon, ob Sie vor dem Ende von Skype for Business Online (31. Juli 2021) auf Teams upgraden oder Szenarien aus Ihrer lokalen Skype for Business-Umgebung auf Teams verschieben, ist ein erfolgreicher Übergang sowohl für die technische Bereitschaft als auch für die Benutzerbereitschaft geeignet. Entdecken Sie unser bewährtes Framework, bewährte Methoden und Ressourcen, die Ihnen dabei helfen sollen, Ihren Wechsel von Skype for Business Online, Skype for Business Server oder einer Hybridumgebung zu Teams zu Teams zu vereinfachen. Zielgruppe – Alle (Business Sponsoren, IT-Administratoren, Benutzerbereitschafts-/Änderungsmanager, Projektleiter)'
       url: 'https://aka.ms/SfBtoTeamsPlan'
     - title: Implementieren des Teams Upgrades
       imageSrc: 'https://docs.microsoft.com/office/media/icons/hybrid-teams.svg'
-      summary: 'Schließen Sie sich uns an, um den besten technischen Ansatz für das Verschieben aller Arbeitslasten in Teams basierend auf Ihren Zielen und Ihrer aktuellen Arbeitsumgebung zu identifizieren Skype for Business vorbereiten. Die meisten Kunden, die erfolgreiche Übergänge abgeschlossen haben, haben Teams neben ihrer aktuellen Skype for Business Online-, Skype for Business Server- oder Hybridimplementierung aktiviert. Diese Sitzung gibt wichtige Überlegungen und wertvolle Ressourcen weiter, die Ihnen beim Definieren der besten Migrationsstrategie für Ihre Organisation helfen sollen. Zielgruppe – IT-Administratoren'
+      summary: 'Schließen Sie sich uns an, um den besten technischen Ansatz für das Verschieben aller Arbeitslasten nach Teams basierend auf Ihren Zielen und Ihrer aktuellen Arbeitsumgebung zu identifizieren Skype for Business vorbereiten. Die meisten Kunden, die erfolgreiche Übergänge abgeschlossen haben, haben Teams neben ihrer aktuellen Skype for Business Online-, Skype for Business Server- oder Hybridimplementierung aktiviert. Diese Sitzung gibt wichtige Überlegungen und wertvolle Ressourcen weiter, die Ihnen beim Definieren der besten Migrationsstrategie für Ihre Organisation helfen sollen. Zielgruppe – IT-Administratoren'
       url: 'https://aka.ms/SfBtoTeamsImplement'
 additionalContent:
   sections:
     - items:
-        - title: Erweitern Ihrer Teams Szenarien?
+        - title: Erweitern Teams Szenarien?
           summary: Sehen Sie sich unsere Teams Kreide-Talk-Workshops für IT-Profis an.
           url: ./chalk-talks-landing-page.yml
         - title: Neu bei Microsoft Teams?
-          summary: Hier finden Sie weitere Informationen zu den ersten Teams.
+          summary: Erfahren Sie mehr über die ersten Schritte mit Teams.
           url: ./teams-overview.md

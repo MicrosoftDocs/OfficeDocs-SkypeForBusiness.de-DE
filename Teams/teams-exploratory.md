@@ -8,7 +8,7 @@ audience: Admin
 ms.reviewer: baluc
 ms.service: msteams
 search.appverid: MET150
-localization_priority: Priority
+ms.localizationpriority: high
 description: Microsoft 365- oder Office 365-Benutzer, die nicht für Microsoft Teams lizenziert sind, können eine explorative Lizenz von Microsoft Teams starten.
 f1.keywords:
 - NOCSH
@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b52261b7a1474dcc62bd774da826a12f797490f6
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 8edeb3180710dede90df8cd2bd5ba54c7f2996bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523856"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627067"
 ---
 # <a name="manage-the-microsoft-teams-exploratory-license"></a>Verwalten der explorativen Lizenz von Microsoft Teams
 

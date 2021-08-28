@@ -1,5 +1,5 @@
 ---
-title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
+title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,20 +9,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.'
-ms.openlocfilehash: 457790514cb769edce6deafc23857a59749b1102cf4c33206eac836d11c75c6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333207"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58612054"
 ---
-# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
+# <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
-**Zusammenfassung:** Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.
+**Zusammenfassung:** In diesem Thema finden Sie Informationen zur Problembehandlung bei der Bereitstellung von Statistics Manager für Skype for Business Server.
   
 In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung beheben, indem Ereignisse beschrieben werden, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, und entsprechende Maßnahmen, die Sie zur Behebung des Ereignisses ergreifen können. Dieses Thema enthält die folgenden Abschnitte:
   
@@ -105,7 +105,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10001** – Konfigurationsproblem
     
-    In der Regel tritt dies auf, wenn die [listener_install_location]-\PerfAgentListener.exe.config Datei von Hand geändert wurde und von der Anwendung nicht gelesen werden kann.
+    Im Allgemeinen tritt dies auf, wenn die Datei [listener_install_location]\PerfAgentListener.exe.config von Hand geändert wurde und von der Anwendung nicht gelesen werden kann.
     
   - **10002** - HTTP-Listener-Initialisierungsfehler
     
@@ -115,7 +115,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10004** – Fehler bei der Zwischenspeicherung der Infrastruktur
     
-  - **10007** - Einstellungen (in Redis gespeichert)
+  - **10007** – Einstellungen (in Redis gespeichert)
     
     Der Listener konnte redis nicht kontaktieren oder wohlgeformte Daten aus dem Cache abrufen und konnte nicht gestartet werden. Stellen Sie sicher, dass der Redis-Dienst auf dem Server gestartet und ordnungsgemäß konfiguriert ist.
     
@@ -129,7 +129,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **30100** – Redis-PING-Ausfall wiederhergestellt
     
-    Diese werden protokolliert, wenn der Listener keine Verbindung mit Redis herstellen kann. Stellen Sie sicher, dass Redis gestartet und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
+    Diese werden protokolliert, wenn der Listener keine Verbindung mit Redis herstellen kann. Stellen Sie sicher, dass Redis gestartet wird und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
     
 - **10200** – Redis Write-Ausfall
     
@@ -137,7 +137,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **30100** – Redis Write-Ausfall behoben
     
-    Diese werden protokolliert, wenn der Listener nicht in den Redis-Cache schreiben kann. Stellen Sie sicher, dass Redis gestartet und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
+    Diese werden protokolliert, wenn der Listener nicht in den Redis-Cache schreiben kann. Stellen Sie sicher, dass Redis gestartet wird und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
     
 - **30000** – Erfolgreich gestartet
     

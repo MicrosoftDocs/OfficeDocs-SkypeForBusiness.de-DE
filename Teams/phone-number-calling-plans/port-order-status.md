@@ -11,18 +11,18 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie den Status Ihrer Portierungsaufträge und die verschiedenen Aktionen für diese erhalten. '
-ms.openlocfilehash: 607e5680c180f8440f6e09dc28a8de0b069f98e996ccb9c5e6c1b45cbb0753f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Hier erfahren Sie, wie Sie den Status Ihrer Portierungsaufträge und die verschiedenen Aktionen für diese erhalten. '
+ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342890"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613044"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Wie ist der Status meiner Portierungsaufträge?
 
@@ -32,13 +32,13 @@ In der folgenden Tabelle sind der Status des Portierungsauftrags sowie die Aktio
 
 |**Status**|**Können Sie die Bestellung anzeigen?**|**Können Sie den Auftrag bearbeiten?**|**Können Sie den Auftrag stornieren?**|**Können Sie den Auftrag löschen?**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Verarbeitung** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat die Bestellung erstellt, und sie ist bei Microsoft eingegangen.  <br/> |
+|**Verarbeitung** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Administrator hat die Bestellung erstellt, und sie wurde von Microsoft erhalten.  <br/> |
 |**Netzbetreiber wird kontaktiert** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde von Microsoft erhalten und genehmigt, und wir arbeiten mit dem verlustverdingten Netzbetreiber daran, die Genehmigung zu erhalten.  <br/> |
 |**Übertragung genehmigt** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde vom verlorenen Netzbetreiber akzeptiert, und das Datum für die Firm Order Commitment (FOC) wurde festgelegt.  <br/> |
 |**Übertragung ausstehend** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden entfernt, sodass die Bestellung nicht mehr bearbeitet oder storniert werden kann.  <br/> |
 |**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (Derzeit können Sie den Portierungsauftrag bei einem Fehler nicht löschen. Der Portierungsauftrag muss neu erstellt werden, oder Sie müssen sich an die Hilfe des [PSTN Service Desk wenden.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |Der verlorene Netzbetreiber hat den Auftrag abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Nummern wurden erfolgreich übertragen.  <br/> |
-|**Abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat den Auftrag storniert.  <br/> |
+|**Abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat die Bestellung storniert.  <br/> |
 
 Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams.](transfer-phone-numbers-to-teams.md)
 

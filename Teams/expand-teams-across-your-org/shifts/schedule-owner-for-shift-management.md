@@ -14,7 +14,7 @@ searchScope:
 description: Erfahren Sie, wie Sie Schichtbesitzer für die Zeitplanverwaltung verwalten. Sie können eine Richtlinie festlegen, um die Berechtigung eines Teammitglieds auf einen Zeitplanbesitzer zu erhöhen.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 9c0bc75e15439cf5fa7c3989bb0854521a1c45b8
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235749"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627537"
 ---
 # <a name="schedule-owner-for-shift-management"></a>Zeitplanbesitzer für Schichtverwaltung
 
@@ -44,7 +44,7 @@ Was kann ein Benutzer mit Terminplanbesitzerberechtigungen tun?
 
 ## <a name="why-schedule-owner"></a>Warum der Besitzer des Terminplans?
 
-Ohne das Feature "Besitzer planen" könnten die täglichen Geschäftsfunktionen unterbrochen werden. Während der Teambesitzer hilft, das Team zu führen, ist er möglicherweise nicht unbedingt die Person, die für die Tagesplanung zuständig ist. In diesem Fall wird durch die Übertragung der Verantwortlichkeit für die Zeitplanverwaltung auf ein anderes Teammitglied der tägliche Betrieb innerhalb des Teams optimiert, und es wird verhindert, dass zwei Teammitglieder über die gleichen Zugriffsrechte verfügen.
+Ohne das Feature "Besitzer planen" könnten die täglichen Geschäftsfunktionen unterbrochen werden. Während der Teambesitzer hilft, das Team zu führen, ist er möglicherweise nicht unbedingt die Person, die für die Tagesplanung zuständig ist. In diesem Fall wird durch die Übertragung der Verantwortlichkeit für die Zeitplanverwaltung auf ein anderes Teammitglied der tägliche Betrieb innerhalb des Teams optimiert, und die Verwirrung zwischen zwei Teammitgliedern, die über die gleichen Zugriffsrechte verfügen, wird beseitigt.
 
 ## <a name="scenario"></a>Szenario
 
@@ -85,4 +85,4 @@ Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName ScheduleOwnerPo
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verwalten der "Schichten"-App für Ihre Organisation in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [Verwalten Sie den schichtbasierten Zugriff für Mitarbeiter in frontline Teams](manage-shift-based-access-flw.md) 
+- [Verwalten Sie den schichtbasierten Zugriff für Mitarbeiter an vorder frontline in Teams](manage-shift-based-access-flw.md) 

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,25 +24,25 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Indien.
-ms.openlocfilehash: c7675f2625de4e7e18167e6982f16a3d6721710554906ee0d0a7a71d9b5598c8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Indien verfügbare Dienste.
+ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344354"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611734"
 ---
 # <a name="availability-in-india"></a>Verfügbarkeit in Indien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Indien.
+Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Indien verfügbare Dienste.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft keine Audiokonferenzen in Indien. TATA Communications bietet einen Einwahl- und Einwahldienst, der mit Ihren Microsoft Teams kompatibel ist. Weitere Informationen finden Sie auf der [Website von TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
+|Sind Audiokonferenzen zum Kauf verfügbar?  <br/> |Microsoft verkauft keine Audiokonferenzen in Indien. TATA Communications bietet einen Einwahl- und Einwahldienst, der mit ihren Microsoft Teams kompatibel ist. Weitere Informationen finden Sie auf der [Website von TATA Communications.](https://www.tatacommunications.com/for-you/tata-communications-connections-for-microsoft-teams/)   <br/> |
 |Werden Telefonnummern für Audiokonferenzen automatisch zugewiesen?  <br/> |Ja, für:<br/><ul><li> Mumbai</ul>Wenn Sie dedizierte Telefonnummern wünschen, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).  <br/> |
 |Dial-out-Möglichkeit über die Rückruffunktion  <br/> |Verfügbar  <br/> |
 

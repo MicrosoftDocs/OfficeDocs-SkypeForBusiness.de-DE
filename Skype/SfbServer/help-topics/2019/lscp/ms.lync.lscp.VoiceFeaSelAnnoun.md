@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Ankündigungsdienst auswählen zum Auswählen eines Ankündigungsdiensts, mit dem eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
-ms.openlocfilehash: 661b263531e11e5731a20a7da2d8c50ce05ff452ead4749a2f530238bcebfdd2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b67c1564703cd0080b73819e6d09ad0a5e5c412
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282008"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613054"
 ---
 # <a name="select-an-announcement-service"></a>Auswählen eines Ankündigungsdiensts
  
