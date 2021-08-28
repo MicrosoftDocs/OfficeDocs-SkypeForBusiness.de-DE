@@ -15,30 +15,30 @@ appliesto:
 - Skype for Business
 - Skype for Business Online
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Security
 description: Sicherheitsleitfaden für Skype for Business Online <add description>
-ms.openlocfilehash: 6dca69d4ced66543845990f88e9c389936281c7a
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: 9eeaa4aec19a3113013ca93c76dfc686eb85b270
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407024"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619291"
 ---
 # <a name="security-and-skype-for-business-online"></a>Sicherheit und Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Skype for Business Online (SfBO) folgt als Bestandteil der Microsoft 365- und Office 365-Dienste allen bewährten Methoden und Verfahren für die Sicherheit, z. B. Sicherheit auf Dienstebene durch tief gehende Verteidigungs-, Kundenkontrollen innerhalb des Diensts, Sicherheitsverschärfen und bewährte Methoden für den Betrieb. Ausführliche Informationen finden Sie im Microsoft Trust Center ( https://microsoft.com/trustcenter) .
+Skype for Business Online (SfBO) folgt als Bestandteil der Microsoft 365- und Office 365-Dienste allen bewährten Methoden und Verfahren für die Sicherheit, z. B. Sicherheit auf Dienstebene durch tief gehende Verteidigungs-, Kundenkontrollen innerhalb des Diensts, Sicherheitsverschärfen und bewährte Methoden des Betriebs. Ausführliche Informationen finden Sie im Microsoft Trust Center ( https://microsoft.com/trustcenter) .
 
 ## <a name="trustworthy-by-design"></a>Vertrauenswürdiges Design
 Skype for Business Online wurde in Übereinstimmung mit dem Microsoft Trustworthy Computing Security Development Lifecycle (SDL) entwickelt, der unter https://www.microsoft.com/sdl/default.aspx beschrieben wird. Der erste Schritt beim Erstellen eines sicheren Unified Communications-Systems bestand in der Entwicklung von Gefahrenmodellen und im Testen jedes einzelnen Features während seines Entwurfs. Mehrere sicherheitsbezogene Verbesserungen wurden in Codierungsprozess und -methoden integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt übernommen wird. Natürlich ist es unmöglich, bereits beim Entwurf alle unbekannten Sicherheitsbedrohungen zu berücksichtigen. Kein System kann 100-prozentige Sicherheit garantieren. Da bei der Produktentwicklung jedoch von Anfang an sichere Designprinzipien berücksichtigt wurden, beinhaltet Skype for Business Online Sicherheitstechnologien nach Branchenstandard als grundlegenden Bestandteil der Architektur. 
 
 ## <a name="trustworthy-by-default"></a>Standardmäßig vertrauenswürdig
-Die Netzwerkkommunikation in Skype for Business Online ist standardmäßig verschlüsselt. Durch die Anforderung, dass alle Server Zertifikate verwenden und OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP) und andere Branchenstandard-Verschlüsselungstechniken wie die 256-Bit-AES-Verschlüsselung (Advanced Encryption Standard) verwenden müssen, sind alle Skype for Business Online-Daten im Netzwerk geschützt.
+Die Netzwerkkommunikation in Skype for Business Online ist standardmäßig verschlüsselt. Da alle Server Zertifikate verwenden müssen und OAUTH, TLS, Secure Real-Time Transport Protocol (SRTP) und andere Verschlüsselungstechniken nach Branchenstandard wie 256-Bit-AES-Verschlüsselung (Advanced Encryption Standard) verwendet werden müssen, werden alle Skype for Business Online-Daten im Netzwerk geschützt.
 
 ## <a name="how-sfbo-handles-common-security-threats"></a>So geht SfBO mit allgemeinen Sicherheitsbedrohungen um
 In diesem Abschnitt werden die häufigeren Bedrohungen der Sicherheit des SfBO-Diensts beschrieben und erläutert, wie Microsoft die einzelnen Bedrohungen abmildert.
@@ -46,7 +46,7 @@ In diesem Abschnitt werden die häufigeren Bedrohungen der Sicherheit des SfBO-D
 ### <a name="compromised-key-attack"></a>Angriff mit kompromittierten Schlüsseln
 Ein Schlüssel ist ein geheimer Code oder eine geheime Nummer zur Verschlüsselung, Entschlüsselung oder Überprüfung geheimer Informationen. In der Public-Key-Infrastruktur (PKI) werden zwei sensible Schlüssel verwendet, die berücksichtigt werden müssen: der private Schlüssel, den jeder Zertifikatsinhaber besitzt, und der Sitzungsschlüssel, der nach einer erfolgreichen Identifizierung und dem Austausch von Sitzungsschlüsseln durch die kommunizierenden Partner verwendet wird. Ein Angriff mit kompromittierten Schlüsseln liegt vor, wenn der Angreifer den privaten Schlüssel oder den Sitzungsschlüssel ermittelt. Gelingt dem Angreifer die Ermittlung des Schlüssels, kann er den Schlüssel zum Entschlüsseln verschlüsselter Daten ohne Wissen des Absenders verwenden.
 
-Skype for Business Online verwendet die PKI-Features im Windows Server-Betriebssystem zum Schutz der Schlüsseldaten, die für die Verschlüsselung für TLS-Verbindungen (Transport Layer Security) verwendet werden. Die für die Medienverschlüsselungen verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht. 
+Skype for Business Online verwendet die PKI-Features im Windows Server-Betriebssystem, um die Schlüsseldaten zu schützen, die für die Verschlüsselung für TLS-Verbindungen (Transport Layer Security) verwendet werden. Die für die Medienverschlüsselungen verwendeten Schlüssel werden über TLS-Verbindungen ausgetauscht. 
 
 ### <a name="network-denial-of-service-attack"></a>Denial-of-Service-Angriff auf Netzwerke
 Bei einem Denial-of-Service-Angriff werden die normale Netzwerknutzung und -funktion durch legitime Nutzer vom Angreifer verhindert. Durch einen Denial-of-Service-Angriff eröffnen sich den Angreifern folgende Möglichkeiten:
@@ -60,7 +60,7 @@ SfBO mildern diese Angriffe ab, indem Azure DDOS-Netzwerkschutz ausgeführt wird
 ### <a name="eavesdropping"></a>Abhörschutz
 Abhöraktionen sind Aktionen, bei denen sich Angreifer Zugriff auf den Datenpfad in einem Netzwerk verschaffen und anschließend den Datenverkehr überwachen und lesen können. Dies wird auch als „Schnüffeln“ (auch „Lauschangriff“, englisch Sniffing oder Snooping) bezeichnet. Wenn der Datenverkehr aus reinem Text besteht, können Angreifer ihn lesen, sobald sie Zugriff auf den Pfad haben. Ein Beispiel wäre ein Angriff, bei dem ein Router auf dem Datenpfad kontrolliert wird. 
 
-SfBO verwendet Mutual TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 oder Office 365 und TLS von Clients zum Dienst, wodurch dieser Angriff innerhalb des Zeitraums, in dem eine bestimmte Unterhaltung anfing, nur sehr schwer zu erreichen ist. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
+SfBO verwendet MUTUAL TLS (MTLS) für die Serverkommunikation innerhalb von Microsoft 365 oder Office 365 und TLS von Clients zum Dienst, wodurch dieser Angriff innerhalb des Zeitraums, in dem eine bestimmte Unterhaltung anfing, nur schwer zu erreichen ist. TLS authentifiziert alle Parteien und verschlüsselt den gesamten Datenverkehr. Damit können Abhöraktionen nicht verhindert werden, aber Angreifer können den Datenverkehr nicht lesen, es sei denn, die Verschlüsselung geht verloren.
 
 Das TURN-Protokoll wird für Echtzeit-Medienzwecke verwendet. Das TURN-Protokoll schreibt keine Verschlüsselung des Datenverkehrs vor, und die von ihm gesendeten Informationen sind durch die Nachrichtenintegrität geschützt. Obwohl es für Lauschangriffe offen ist, können die von ihm gesendeten Informationen (d. h. IP-Adressen und Port) direkt extrahiert werden, indem man einfach die Quell- und Zieladressen der Pakete betrachtet. Der SfBO-Service stellt sicher, dass die Daten gültig sind, indem er die Nachrichtenntegrität der Nachricht anhand des Schlüssels überprüft, der aus einigen wenigen Elementen einschließlich eines TURN-Kennworts abgeleitet wurde, das niemals im Klartext gesendet wird. SRTP wird für den Medienverkehr verwendet und ist ebenfalls verschlüsselt.
 
@@ -248,7 +248,7 @@ Verbund bietet Ihrer Organisation die Möglichkeit, mit anderen Organisationen z
 
 ## <a name="addressing-threats-to-sfbo-conferences"></a>Handhaben von Bedrohungen für SfBO-Konferenzen
 
-Mit SfBO können Unternehmen Webkonferenzen in Echtzeit erstellen und daran teilnehmen. Enterprise Benutzer können auch externe Benutzer einladen, die nicht über ein AAD-, Microsoft 365- oder Office 365-Konto verfügen, um an diesen Besprechungen teilzunehmen. Benutzer, die von Verbundpartnern mit einer sicheren und authentifizierten Identität angestellt sind, können auch an Besprechungen teilnehmen und, wenn sie dazu befördert werden, als Referenten fungieren. Anonyme Benutzer können keine Besprechung erstellen oder als Referent daran teilnehmen, aber sie können zum Referent befördert werden, nachdem sie sich angemeldet haben.
+Mit SfBO können Unternehmen Webkonferenzen in Echtzeit erstellen und daran teilnehmen. Enterprise Benutzer können auch externe Benutzer einladen, die nicht über ein AAD-, Microsoft 365- oder Office 365-Konto verfügen, an diesen Besprechungen teilzunehmen. Benutzer, die von Verbundpartnern mit einer sicheren und authentifizierten Identität angestellt sind, können auch an Besprechungen teilnehmen und, wenn sie dazu befördert werden, als Referenten fungieren. Anonyme Benutzer können keine Besprechung erstellen oder als Referent daran teilnehmen, aber sie können zum Referent befördert werden, nachdem sie sich angemeldet haben.
 
 Die Möglichkeit für externe Benutzer, an SfBO-Meetings teilzunehmen, erhöht den Wert dieser Funktion erheblich, birgt aber auch einige Sicherheitsrisiken. SfBO bietet folgende zusätzlichen Sicherheitsmaßnahmen, um diesen Risiken zu begegnen:
 - Teilnehmerrollen bestimmen die Berechtigungen für die Konferenzsteuerung.
@@ -281,7 +281,7 @@ Standardmäßig gehen Teilnehmer, die sich aus dem PSTN einwählen, direkt zur B
 Besprechungsorganisatoren steuern, ob Teilnehmer an einer Besprechung teilnehmen können, ohne in der Lobby zu warten. Jede Besprechung kann so eingerichtet werden, dass der Zugriff mit einer der folgenden Methoden möglich ist:
 - **Nur ich, der Organisator des Treffens**&nbsp;&nbsp;Jeder außer dem Organisator muss in der Lobby warten, bis er zugelassen wird.
 - **Personen, die ich aus meinem Unternehmen einlade**&nbsp;&nbsp;Jeder aus Ihrem Unternehmen kann direkt zur Besprechung kommen, auch wenn er nicht eingeladen ist.
-- **Jeder aus meiner Organisation** &nbsp; &nbsp; Alle SfBO-Benutzer im Microsoft 365- oder Office 365-Mandanten können an der Besprechung teilnehmen, ohne im Wartebereich warten zu müssen, auch wenn die Benutzer nicht in der Verteilerliste sind. Alle anderen, einschließlich aller externen und anonymen Benutzer, müssen in der Lobby warten, bis sie zugelassen werden.
+- **Jeder aus meiner Organisation** &nbsp; &nbsp; Alle SfBO-Benutzer im Microsoft 365- oder Office 365-Mandanten können an der Besprechung teilnehmen, ohne im Wartebereich warten zu müssen, auch wenn die Benutzer nicht in der Verteilerliste enthalten sind. Alle anderen, einschließlich aller externen und anonymen Benutzer, müssen in der Lobby warten, bis sie zugelassen werden.
 -  &nbsp; Jeder &nbsp; Jeder (ohne Einschränkungen) der Zugriff auf den Besprechungslink erhält, kann sofort an der Besprechung teil.
 Wenn eine beliebige Methode außer Nur Organisator (gesperrt) angegeben ist, kann der Organisator der Besprechung auch Personen angeben, die sich per Telefon einwählen, um die Lobby zu umgehen. 
 

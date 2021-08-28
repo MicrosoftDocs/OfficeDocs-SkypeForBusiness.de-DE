@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität in Skype for Business Server.'
-ms.openlocfilehash: 66d121965d7046a823e26bff8a14fba6ce8213690fcaa4a21ab7a31f4db9f904
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5b9bb3ad0bed9182c41734ed6e173ae9e3febd1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324324"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601470"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Bericht über Peer-to-Peer-Sprach- und -Videoaktivität in Skype for Business Server
  

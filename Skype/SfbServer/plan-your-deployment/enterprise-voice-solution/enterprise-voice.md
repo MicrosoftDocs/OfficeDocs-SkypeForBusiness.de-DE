@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise-VoIP die Planung von Grundlagen in Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und Der Schätzung des VoIP-Nutzungsdatenverkehrs.
-ms.openlocfilehash: 0989fb3fad94a7bb376ee009d4a387b5148965f644c793f65eeb511260c9d620
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320018"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618811"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen der Enterprise-VoIP in Skype for Business Server
  
@@ -29,7 +29,7 @@ Enterprise-VoIP die Planung von Grundlagen in Skype for Business Server, einschl
   
 Der Bereitstellungsprozess für Enterprise-VoIP hängt von Ihrer vorhandenen Topologie, Infrastruktur und der Enterprise-VoIP Funktionalität ab, die Sie unterstützen möchten. Die erforderlichen Verfahren hängen davon ab, welche Features Sie auswählen, aber es gibt andere Planungsüberlegungen, die Sie auf hoher Ebene vornehmen müssen.
   
-Berücksichtigen Sie im Allgemeinen den Typ und die Anzahl der Standorte, die Sie bereitstellen möchten, und deren geografische Standorte, das Anrufvolumen an jedem Standort, die Typen von Netzwerkverbindungen, die Standorte verbinden, ob Sie Redundanz und Failover für voIP-Funktionen für jeden Standort bereitstellen möchten und ob Sie vorhandene PBX-Geräte verwenden möchten. Es gibt bestimmte Überlegungen, z. B. hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie Skype for Business Server als Ganzes planen. Diese Überlegungen werden bei Bedarf in den Themen in diesem Abschnitt behandelt.
+Betrachten Sie im Allgemeinen den Typ und die Anzahl der Standorte, die Sie bereitstellen möchten, und deren geografische Standorte, das Anrufvolumen an jedem Standort, die Typen von Netzwerkverbindungen, die Standorte verbinden, ob Sie Redundanz und Failover für voIP-Funktionen für jeden Standort bereitstellen möchten und ob Sie vorhandene PBX-Geräte verwenden möchten. Es gibt bestimmte Überlegungen, z. B. hohe Verfügbarkeit, die Sie berücksichtigen sollten, wenn Sie Skype for Business Server als Ganzes planen. Diese Überlegungen werden bei Bedarf in den Themen in diesem Abschnitt behandelt.
   
 ## <a name="sites-and-regions"></a>Websites und Regionen
 
@@ -49,13 +49,13 @@ Das Microsoft Lync Server 2013-Planungstool verwendet die folgende Metrik, um de
 > 
 > Für **hohes Datenverkehrsaufkommen** (drei oder mehr Festnetzanrufe pro Benutzer und Stunde) gehen Sie von 5 Benutzern pro Anschluss aus.
     
-Die Anzahl der Ports bestimmt wiederum die Anzahl der erforderlichen Vermittlungsserver und Gateways. Die PSTN-Gateways (Public Switched Telephone Network), die die meisten Organisationen in Betracht ziehen, einen Bereich von 2 Ports bis zu 960 Ports bereitzustellen. (Es gibt noch größere Gateways, die jedoch hauptsächlich von Telefoniedienstanbietern verwendet werden.)
+Die Anzahl der Ports bestimmt wiederum die Anzahl der erforderlichen Vermittlungsserver und Gateways. PsTN-Gateways (Public Switched Telephone Network), für die die meisten Organisationen eine Breite von 2 Ports bis zu 960 Ports in Betracht ziehen. (Es gibt noch größere Gateways, die jedoch hauptsächlich von Telefoniedienstanbietern verwendet werden.)
   
 Eine Organisation mit 10.000 Benutzern und mittlerem Datenverkehrsaufkommen würde z. B. 1000 Ports benötigen. Die Anzahl der erforderlichen Gateways entspricht der Gesamtzahl der erforderlichen Ports, die durch die Gesamtkapazität der Gateways bestimmt ist.
   
 ## <a name="components-features-and-options-of-enterprise-voice"></a>Komponenten, Features und Optionen von Enterprise-VoIP
 
-Weitere Informationen zur Planung Ihrer Enterprise-VoIP-Bereitstellung finden Sie in den folgenden Abschnitten.
+Weitere Informationen zur Planung Ihrer Enterprise-VoIP Bereitstellung finden Sie in den folgenden Abschnitten.
   
 - [Komponenten, die für Enterprise-VoIP in Skype for Business Server erforderlich sind](components-required-for-enterprise-voice.md)
     
@@ -75,6 +75,6 @@ Weitere Informationen zur Planung Ihrer Enterprise-VoIP-Bereitstellung finden Si
     
 - [Planen von Anrufverwaltungsfunktionen in Skype for Business](call-management-features.md)
     
-- [Planen der Ausfallsicherheit Enterprise-VoIP in Skype for Business Server](enterprise-voice-resiliency.md)
+- [Planen Enterprise-VoIP Resilienz in Skype for Business Server](enterprise-voice-resiliency.md)
     
 

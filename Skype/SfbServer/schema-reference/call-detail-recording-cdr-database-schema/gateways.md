@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a909daad-d137-45e0-b149-1de9f8e1e029
 description: Die Gateways-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gateway, das an PSTN-Anrufen (Public Switched Telephone Network) beteiligt ist, die Datensätze in der Datenbank haben.
-ms.openlocfilehash: 62bbe3ab802736a50d1fb049a3585cba286ee7ec16907335aa831ab49259b0fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d0481def0d8693563b2558f6fa605c12d69ddfe
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349667"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601300"
 ---
 # <a name="gateways-table-in-skype-for-business-server-2015"></a>Gateways-Tabelle in Skype for Business Server 2015
  
@@ -26,7 +26,7 @@ Die Gateways-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz speichert
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**GatewayId** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige Nummer, die dieses Gateway identifiziert.  <br/> |
+|**GatewayId** <br/> |int  <br/> |Primary  <br/> |Eindeutige Nummer, die dieses Gateway identifiziert.  <br/> |
 |**Gateway** <br/> |nvarchar(256)  <br/> | <br/> |Gatewayname.  <br/> |
    
 

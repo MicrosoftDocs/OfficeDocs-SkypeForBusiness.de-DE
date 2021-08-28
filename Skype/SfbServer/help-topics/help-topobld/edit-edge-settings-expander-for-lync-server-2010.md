@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Sie bearbeiten die Einstellungen für den Edgeserver oder Edgepool, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 5b4f9e2f6b4c5b74b0c1eadb8d48bc5a4ade0375e48dfdf1ecf399032db5693e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7784e15d7446a51dfa9aed03dd1154bba157485
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335175"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635329"
 ---
-# <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
+# <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
  
 Sie bearbeiten die Einstellungen für den Edgeserver oder Edgepool, indem Sie die folgenden Eigenschaften konfigurieren: 
   
@@ -33,7 +33,7 @@ Sie bearbeiten die Einstellungen für den Edgeserver oder Edgepool, indem Sie di
 - Wählen Sie **"Partnerverbund für diesen Edgepool aktivieren" (Port 5061) aus,** wenn Sie den Edgeserver oder Edgepool für den Partnerverbund mit anderen Sitzungsinitiierungsprotokollpartnern aktivieren möchten.
     
     > [!IMPORTANT]
-    > Sie können nur einen Edgeserver oder Edgepool aktiv für einen Partnerverbund definieren. Die im zugehörigen Screenshot gezeigte Konfiguration weist darauf hin, dass ein anderer Edgeserver oder Edgepool bereits für den Partnerverbund konfiguriert ist. Der externe DNS-SRV-Eintrag für den Partnerverbund (_sipfederationtls._tcp. \<external domain name\> ) verweist auf den Edgeserver oder Edgepool für den Partnerverbund. 
+    > Sie können nur einen Edgeserver oder Edgepool aktiv für den Partnerverbund definieren. Die im zugehörigen Screenshot gezeigte Konfiguration weist darauf hin, dass ein anderer Edgeserver oder Edgepool bereits für den Partnerverbund konfiguriert ist. Der externe DNS-SRV-Eintrag für den Partnerverbund (_sipfederationtls._tcp. \<external domain name\> ) verweist auf den Edgeserver oder Edgepool für den Partnerverbund. 
   
 - Der **interne Configuration Replication Port (HTTPS)** ist standardmäßig bei TCP-Port 4443 der Port, über den die lokale Kopie (d. h. lokal auf den Edgeservern) des zentralen Verwaltungsspeichers repliziert wird. Die lokale Kopie des zentralen Verwaltungsspeichers befindet sich in der **RTCLOCAL-Datenbank** im SQL Server auf jedem Computer. Die Replikation erfolgt unidirektional, wird vom zentralen Verwaltungsserver (oder dem Front-End-Server oder Front-End-Pool mit der Rolle des zentralen Verwaltungsservers) zu den Edgeservern initiiert und ist ein interner Schnittstellenport.
     

@@ -9,32 +9,32 @@ ms.topic: conceptual
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9fd16866-27eb-47a9-b335-2f6bc9044a80
 ms.collection:
 - M365-collaboration
 description: In diesem Artikel werden Überlegungen zur Planung der Verwendung von Azure Monitor zum Verwalten Microsoft Teams-Räume-Geräten in Ihrer Skype for Business oder Teams behandelt.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 1cd848b6ccf963e7b21083ac65c0332f74542967
-ms.sourcegitcommit: 81f1a113a33c7ea8d2256144544d0e34cd64d576
+ms.openlocfilehash: 2808d424d79d8d2b60af0573678ee18d0a52bdeb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "58505413"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619361"
 ---
 # <a name="plan-microsoft-teams-rooms-management-with-azure-monitor"></a>Planen Microsoft Teams-Räume Verwaltung mit Azure Monitor
  
- In diesem Artikel werden Planungsüberlegungen für die Verwendung von Azure Monitor zum Verwalten Microsoft Teams-Räume-Geräten in Ihrer Microsoft Teams oder Skype for Business behandelt.
+ In diesem Artikel werden Überlegungen zur Planung der Verwendung von Azure Monitor zum Verwalten Microsoft Teams-Räume-Geräten in Ihrer Microsoft Teams oder Skype for Business behandelt.
   
-[Azure Monitor](/azure/azure-monitor/overview) ist eine Sammlung von Verwaltungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitstellen und verwalten zu müssen, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können in wenigen Minuten buchstäblich im Betrieb sein. Mit einigen Anpassungen kann die Verwaltung von Microsoft Teams-Räume-Konferenzsystemen durch die Bereitstellung von Benachrichtigungen über den Systemzustand oder Fehler in Echtzeit für einzelne Raumsysteme unterstützt werden, und es kann potenziell bis zur Verwaltung tausender Microsoft Teams-Räume-Konferenzräume skaliert werden.
+[Azure Monitor](/azure/azure-monitor/overview) ist eine Sammlung von Verwaltungsdiensten, die von Anfang an in der Cloud entwickelt wurden. Anstatt lokale Ressourcen bereitstellen und verwalten zu müssen, werden Azure Monitor-Komponenten vollständig in Azure gehostet. Die Konfiguration ist minimal, und Sie können in wenigen Minuten buchstäblich im Betrieb sein. Mit einigen Anpassungsarbeiten kann die Verwaltung von Microsoft Teams-Räume-Konferenzsystemen durch die Bereitstellung von Echtzeitbenachrichtigungen über den Systemzustand oder Fehler für einzelne Raumsysteme unterstützt werden, und es kann potenziell bis zur Verwaltung tausender Microsoft Teams-Räume-Konferenzräume skaliert werden.
   
-Dieser Artikel enthält eine Erläuterung der bewährten Methoden für Anforderungen, Entwurf/Architektur und Implementierung, die für die Implementierung der auf Azure Monitor basierenden Verwaltung von Microsoft Teams-Räume-Konferenzgeräten erforderlich sind, und enthält Links zu detaillierten Artikeln zur Implementierung des Azure Monitor für Microsoft Teams-Räume sowie wichtige Referenzinformationen zur laufenden Überwachung von Microsoft Teams-Räume-Räumen. 
+Dieser Artikel enthält eine Erläuterung der bewährten Methoden für Anforderungen, Entwurf/Architektur und Implementierung, die für die Implementierung der auf Azure Monitor basierenden Verwaltung von Microsoft Teams-Räume-Konferenzgeräten erforderlich sind, und enthält Links zu ausführlichen Artikeln zur Implementierung des Azure Monitor für Microsoft Teams-Räume sowie Informationen zu wichtigen Referenzinformationen zur laufenden Überwachung von Microsoft Teams-Räume-Räumen. 
   
 ## <a name="functional-overview"></a>Funktionsübersicht
 
 ![Diagramm der Microsoft Teams-Räume mit Azure Monitor](../media/3f2ae1b8-61ea-4cd6-afb4-4bd75ccc746a.png)
   
-Die Microsoft Teams-Räume-App auf dem Konsolengerät schreibt Ereignisse in das Windows Ereignisprotokoll. Nach der Installation übergibt ein Microsoft Monitoring-Agent die Informationen an den Azure Monitor-Dienst. 
+Die Microsoft Teams-Räume auf dem Konsolengerät schreibt Ereignisse in das Windows Ereignisprotokoll. Nach der Installation übergibt ein Microsoft Monitoring-Agent die Informationen an den Azure Monitor-Dienst. 
   
 Nach der ordnungsgemäßen Konfiguration analysiert Log Analytics die in die Ereignisbeschreibungen eingebettete JSON-Nutzlast, um zu beschreiben, wie die einzelnen Microsoft Teams-Räume funktionieren und welche Fehler erkannt werden. 
   
@@ -54,7 +54,7 @@ Sie sollten sich bei Bedarf mit der Verwendung des Log Analytics View-Designers 
     
 ## <a name="individual-microsoft-teams-rooms-console-requirements"></a>Anforderungen Microsoft Teams-Räume einzelnen Konsolen
 
-Bei jeder Microsoft Teams-Räume handelt es sich um eine App, die auf einem Surface Pro-Gerät im Kioskmodus ausgeführt wird (normalerweise ist sie so konfiguriert, dass sie die einzige App ist, die auf dem Gerät ausgeführt werden kann). Wie jede Windows-App schreibt die Microsoft Teams-Räume-App Ereignisse wie Start- und Hardwarefehler in das Windows-Ereignisprotokoll. Wenn Sie einen Microsoft Monitor-Agent auf Ihrem Microsoft Teams-Räume-Gerät hinzufügen, können diese Ereignisse erfasst werden. (Weitere Verbinden Windows finden Sie unter Installieren von Computern mit dem [Protokollanalysedienst in Azure.)](/azure/azure-monitor/platform/agent-windows)
+Bei jeder Microsoft Teams-Räume handelt es sich um eine App, die auf einem Surface Pro-Gerät im Kioskmodus ausgeführt wird (normalerweise ist sie so konfiguriert, dass sie die einzige App ist, die auf dem Gerät ausgeführt werden kann). Wie jede Windows-App schreibt die Microsoft Teams-Räume-App Ereignisse wie Start- und Hardwarefehler in das Windows-Ereignisprotokoll. Wenn Sie einen Microsoft Monitor-Agent auf Ihrem Microsoft Teams-Räume-Gerät hinzufügen, können diese Ereignisse erfasst werden. (Einzelheiten [Verbinden Windows Sie unter Installieren von Computern](/azure/azure-monitor/platform/agent-windows) mit dem Protokollanalysedienst in Azure.)
   
 ## <a name="ongoing-management"></a>Laufende Verwaltung
 
@@ -62,7 +62,7 @@ Während Sie Azure Monitor zum Verwalten Ihrer Microsoft Teams-Räume-Geräte ve
   
 ### <a name="related-tasks"></a>Verwandte Aufgaben
 
-- Hier erhalten Sie Informationen zu den von Microsoft Teams-Räume und deren Behebung (siehe Abschnitt "Verstehen [der Protokolleinträge")](azure-monitor-manage.md#understand-the-log-entries)
+- Hier erhalten Sie Informationen zu den von Microsoft Teams-Räume generierten Benachrichtigungen und deren Behebung (siehe Abschnitt "Verstehen [der Protokolleinträge")](azure-monitor-manage.md#understand-the-log-entries)
     
 ## <a name="see-also"></a>Mehr dazu
 

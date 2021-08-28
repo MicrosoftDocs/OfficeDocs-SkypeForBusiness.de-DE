@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel werden Cmdlets beschrieben, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten, die innerhalb und außerhalb eines Unternehmens verwendet werden. Administratoren können Authentifizierungsmethoden intern oder extern in ihrem Netzwerk aktivieren oder deaktivieren.
-ms.openlocfilehash: c9d4cce512ebb296cb442c6a78482f19bf7062aaceb8fe8704cbca3c277e4e92
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bad18e79e1595c7dfe4518d73b6dd764e313e22
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306876"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601360"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen, legacy-Authentifizierungsmethoden intern und extern für Ihr Netzwerk zu deaktivieren.
 
@@ -28,9 +28,9 @@ ms.locfileid: "54306876"
 >  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](./topologies-supported.md)
 >  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](/skypeforbusiness/manage/authentication/use-adal)
   
-Moderne Authentifizierung ermöglicht nicht nur sicherere Authentifizierungsmethoden wie Two-Factor-Authentifizierung oder zertifikatbasierte Authentifizierung, sie kann die Autorisierung Ihres Benutzers ausführen, ohne auch einen Benutzernamen oder ein Kennwort zu benötigen. Es ist ziemlich praktisch.
+Moderne Authentifizierung ermöglicht nicht nur sicherere Authentifizierungsmethoden, z. B. Two-Factor Authentifizierung oder zertifikatbasierte Authentifizierung, sie kann die Autorisierung Ihres Benutzers ausführen, ohne auch einen Benutzernamen oder ein Kennwort zu benötigen. Es ist ziemlich praktisch.
 
-Dieser Artikel hilft Ihnen beim Schließen von Löchern, die für Denial Of Service (DOS)-Angriffe auf Skype for Business Server ausgenutzt wurden, indem sie ältere Methoden für die Authentifizierung deaktivieren, extern, intern oder beides, in Ihrem Netzwerk. Eine gute Methode zum Stoppen von DOS-Angriffen wäre beispielsweise das Deaktivieren Windows integrierten Authentifizierung (einschließlich NTLM und Kerberos). Das externe Deaktivieren von NTLM und die Verwendung der zertifikatbasierten Authentifizierung trägt zum Schutz von Kennwörtern vor Gefährdung bei. Dies liegt daran, dass NTLM Kennwortanmeldeinformationen verwendet, um Benutzer zu authentifizieren, die zertifikatbasierte Authentifizierung – durch moderne Authentifizierung aktiviert – jedoch nicht. Dies bedeutet, dass eine ideale Option zum Reduzieren von DOS-Angriffen darin besteht, NTLM extern zu blockieren und stattdessen nur die zertifikatbasierte Authentifizierung zu verwenden.
+Dieser Artikel hilft Ihnen, Löcher zu stopfen, die für Denial Of Service (DOS)-Angriffe auf Skype for Business Server ausgenutzt wurden, indem Sie ältere Methoden deaktivieren, die für die Authentifizierung verwendet werden, extern, intern oder beides in Ihrem Netzwerk. Eine gute Methode zum Beenden von DOS-Angriffen wäre beispielsweise das Deaktivieren Windows integrierten Authentifizierung (einschließlich NTLM und Kerberos). Das externe Deaktivieren von NTLM und die Verwendung der zertifikatbasierten Authentifizierung trägt zum Schutz von Kennwörtern vor Gefährdung bei. Dies liegt daran, dass NTLM Kennwortanmeldeinformationen verwendet, um Benutzer zu authentifizieren, die zertifikatbasierte Authentifizierung – durch moderne Authentifizierung aktiviert – jedoch nicht. Dies bedeutet, dass eine ideale Option zum Reduzieren von DOS-Angriffen darin besteht, NTLM extern zu blockieren und stattdessen nur die zertifikatbasierte Authentifizierung zu verwenden.
 
 Gut, lassen Sie uns loslegen.
 
@@ -53,9 +53,9 @@ Es ist wichtig zu beachten, dass dies die unterstützten Topologien sind, die an
 |       |Extern  |Intern  |Parameter  |
 |---------|:---------|:---------|---------|
 |__Typ 1__   |  MA + Win       | MA + Win         |  AllowAllExternallyAndInternally       |
-|__Typ 2__   |  Ma       | MA + Win         | BlockWindowsAuthExternally        |
-|__Typ 3__   |  Ma       | Ma        | BlockWindowsAuthExternallyAndInternally        |
-|__Typ 4__   |  Ma       | Gewinnen        | BlockWindowsAuthExternallyAndModernAuthInternally    |
+|__Typ 2__   |  MA       | MA + Win         | BlockWindowsAuthExternally        |
+|__Typ 3__   |  MA       | MA        | BlockWindowsAuthExternallyAndInternally        |
+|__Typ 4__   |  MA       | Gewinnen        | BlockWindowsAuthExternallyAndModernAuthInternally    |
 |__Typ 5__   |  MA + Win       | Gewinnen        | BlockModernAuthInternally         |
 
 __Typ 1 Beschreibung:__ Dies ist das Standardszenario, wenn MA __für__ Skype for Business Server aktiviert ist. Mit anderen Worten, dies ist der *Ausgangspunkt,* wenn MA konfiguriert ist.
@@ -68,7 +68,7 @@ __Typ 4 Beschreibung:__ Diese Topologie blockiert NTLM *extern* und MA intern. E
 
 __Typ 5 Beschreibung:__ *Extern* verwenden Ihre modernen ADAL-Clients MA, und alle Clients, die ADAL nicht unterstützen, verwenden legacy-Authentifizierungsmethoden. *Intern* verwenden *jedoch alle Clients* die Legacyauthentifizierung (einschließlich aller ADAL-fähigen Clients).
 
-Es ist ziemlich einfach, das Ziel des Schutzes Ihrer Kennwörter in den verfügbaren Optionen nachzuverfolgen. Denken Sie daran, dass die ideale Situation darin besteht, MA extern zu verwenden (z. B. durch Konfigurieren der zertifikatbasierten Authentifizierung), um DOS-Angriffe zu vermeiden. Wenn Sie es intern für Ihre modernen Clients nutzen, werden Sie auch Ihr Netzwerk hinsichtlich Skype for Business Server DOS-Angriffe zukunftssicher machen.
+Es ist ziemlich einfach, das Ziel des Schutzes Ihrer Kennwörter in den verfügbaren Optionen nachzuverfolgen. Denken Sie daran, dass die ideale Situation darin besteht, MA extern zu verwenden (z. B. durch Konfigurieren der zertifikatbasierten Authentifizierung), um DOS-Angriffe zu vermeiden. Wenn Sie es intern für Ihre modernen Clients nutzen, werden Sie auch Ihr Netzwerk hinsichtlich Skype for Business Server DOS-Angriffen zukunftssicher machen.
 
 ## <a name="why-to-use-set-csauthconfig-at-the-global-level"></a>Gründe für die Verwendung von Set-CsAuthConfig auf globaler Ebene
 

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainDeploySystem
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d6ea5158-aaa0-4c2f-aeac-c0dfa1718d7c
-description: Klicken Sie zum Starten der Installation oder zum Aktualisieren einer vorhandenen Bereitstellung von Skype for Business Server 2015 auf "Installieren" oder "Aktualisieren" Skype for Business Server. In den Schritten in diesem Abschnitt werden komponenten speziell für eine bestimmte Serverrolle basierend auf dem Topologie-Generator-Dokument installiert. Bevor Sie mit dieser Reihe von Schritten beginnen, müssen Sie die Bereitstellung im Topologie-Generator definieren. Sie müssen an dem Computer, den Sie bereitstellen, als lokaler Administrator und Mitglied der Gruppe "Domänen-Admins" der Domäne angemeldet sein, in der sich der Server befindet. Vor Ausführung dieses Schritts muss der Computer der Domäne beitreten.
-ms.openlocfilehash: a088a700695bca1ceea05411003b48c1f6aa2ca6836d6628b84157a99c3305bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Klicken Sie zum Starten der Installation oder zum Aktualisieren einer vorhandenen Bereitstellung von Skype for Business Server 2015 auf Skype for Business Server installieren oder aktualisieren. In den Schritten in diesem Abschnitt werden komponenten speziell für eine bestimmte Serverrolle basierend auf dem Topologie-Generator-Dokument installiert. Bevor Sie mit dieser Reihe von Schritten beginnen, müssen Sie die Bereitstellung im Topologie-Generator definieren. Sie müssen an dem Computer, den Sie bereitstellen, als lokaler Administrator und Mitglied der Gruppe "Domänen-Admins" der Domäne angemeldet sein, in der sich der Server befindet. Vor Ausführung dieses Schritts muss der Computer der Domäne beitreten.
+ms.openlocfilehash: 08574a5f4816eeb9a0e15a28c6e84180cf3af0e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313543"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601620"
 ---
 # <a name="install-or-update-skype-for-business-server-system"></a>Installieren oder Aktualisieren des Skype for Business Server-Systems
 

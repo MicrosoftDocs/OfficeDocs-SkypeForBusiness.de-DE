@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Verwenden Von PowerShell können Sie Exchange Unified Messaging-Funktionen wie automatische Telefonzentrale und Abonnentenzugriff sowie gehostete Voicemails in Skype for Business Online verwalten.
-ms.openlocfilehash: 88ee063b644a24dd2cc0922be5df049af4949699745bb2f6cb27f4d3c8203a57
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Verwenden Sie PowerShell zum Verwalten Exchange Unified Messaging-Funktionen wie automatische Telefonzentrale und Abonnentenzugriff sowie gehostete Voicemails in Skype for Business Online.
+ms.openlocfilehash: bb7aa3dc025551fe2759efe3f4bb35ca0dc7ae17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323557"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58602000"
 ---
 # <a name="manage-exchange-unified-messaging-and-hosted-voicemail"></a>Verwalten von Exchange Unified Messaging und gehosteten Voicemails
 

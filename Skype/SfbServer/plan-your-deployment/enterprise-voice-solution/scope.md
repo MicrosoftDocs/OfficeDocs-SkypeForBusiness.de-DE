@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Entscheidungen, die für die Planung einer E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: 0fb334f612c2e63a7c2e47779ee4f02ee0e543741a460933cb632bdd8e54d279
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f5ca67f86d9e8ee5a3a26dde86ff9cd25a3c94e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290063"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635229"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definieren des Umfangs der E9-1-1-Bereitstellung in Skype for Business Server
 
@@ -43,10 +43,10 @@ Bevor Sie Skype for Business für E9-1-1 konfigurieren, müssen Sie Ihre E9-1-1-
 
  **Planen Sie die Aktivierung von E9-1-1 für Benutzer außerhalb des Netzwerks?**
 
- Die automatische Standorterfassung ist nur für Clients verfügbar, die sich im Netzwerk der Organisation befinden. Daher muss Ihre Organisation entscheiden, ob E9-1-1-Anrufe von Skype for Business Clients unterstützt werden, die außerhalb des Standorts getätigt werden. Können Benutzer beispielsweise Notrufe tätigen, wenn sie von zu Hause aus oder von einer Kundenwebsite aus arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client so konfiguriert werden, dass der Benutzer zur Eingabe eines Standorts aufgefordert wird. Da diese vom Benutzer bereitgestellten Standorte jedoch nicht anhand des Master Street Address Guide (MSAG) vorab überprüft werden können, muss der Verteiler des Notrufdienstes die Gültigkeit des Standorts mit dem Anrufer bestätigen, bevor der Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterleitet.
+ Die automatische Standorterfassung ist nur für Clients verfügbar, die sich im Netzwerk der Organisation befinden. Daher muss Ihre Organisation entscheiden, ob E9-1-1-Anrufe von Skype for Business Clients außerhalb des Standorts unterstützt werden. Können Benutzer beispielsweise Notrufe tätigen, wenn sie von zu Hause aus oder von einer Kundenwebsite aus arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client so konfiguriert werden, dass der Benutzer zur Eingabe eines Standorts aufgefordert wird. Da diese vom Benutzer bereitgestellten Standorte jedoch nicht anhand des Master Street Address Guide (MSAG) vorab überprüft werden können, muss der Notrufdienstanbieter die Gültigkeit des Standorts mit dem Anrufer bestätigen, bevor der Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterleitet.
 
 > [!NOTE]
-> Skype for Business Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen abrufen. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze vom Standortinformationsdienst ausgeschlossen werden.
+> Skype for Business Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, interne IP-Adressinformationen abrufen können. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze vom Standortinformationsdienst ausgeschlossen werden.
 
  **Möchten Sie eine Weiterleitung von Notrufen an Standorte außerhalb der USA bereitstellen?**
 

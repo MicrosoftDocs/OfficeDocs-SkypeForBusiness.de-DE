@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: Skype for Business Online ermöglicht es Ihnen, zusätzliche Richtlinien für externen Zugriff zu erstellen. Im Gegensatz zu Client- oder Konferenzrichtlinien, bei denen sie über mehrere Kombinationen verfügen können, gibt es drei vordefinierte Richtlinien für externen Zugriff, die die meisten Szenarien abdecken können.
-ms.openlocfilehash: 4db20c286f342662adffeeaeae17737651791f56f74be6558138756b7e65e767
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d0ecf5051de17f923983e16f35eb22b66c41571e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282388"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619271"
 ---
 # <a name="create-custom-external-access-policies"></a>Erstellen von benutzerdefinierten externen Zugriffsrichtlinien
 
@@ -38,7 +38,7 @@ Skype for Business Online ermöglicht es Ihnen, zusätzliche Richtlinien für ex
     
 - Verbund- und Verbraucherzugriff _(FederationAndPICDefault)_
     
-Mit benutzerdefinierten externen Richtlinien können Sie zusätzliche Richtlinien erstellen, die von den oben genannten Einstellungen nicht abgedeckt werden. Beim Erstellen der Richtlinie mussten Sie alle erforderlichen Parameter festlegen, die Sie später nicht mehr ändern konnten. Das Erstellen neuer benutzerdefinierter Richtlinien ermöglicht es Ihnen, Features wie Skype-Verbraucherzugriff oder eine Richtlinie zum Deaktivieren von Audio/Video in der öffentlichen Cloud zu steuern, was von vordefinierten Einstellungen nicht abgedeckt wurde. Benutzerdefinierte Richtlinien für externen Zugriff folgen derselben Syntax wie Client-, Mobilitäts- und Konferenzrichtlinien. Weitere Informationen zu diesen Einstellungen finden Sie [hier.](/previous-versions//mt228132(v=technet.10))
+Mit benutzerdefinierten externen Richtlinien können Sie zusätzliche Richtlinien erstellen, die von den oben genannten Einstellungen nicht abgedeckt werden. Beim Erstellen der Richtlinie mussten Sie alle erforderlichen Parameter festlegen und können sie später nicht mehr ändern. Das Erstellen neuer benutzerdefinierter Richtlinien ermöglicht es Ihnen, Features wie Skype-Verbraucherzugriff oder eine Richtlinie zum Deaktivieren von Audio/Video in der öffentlichen Cloud zu steuern, was von vordefinierten Einstellungen nicht abgedeckt wurde. Benutzerdefinierte Richtlinien für externen Zugriff folgen derselben Syntax wie Client-, Mobilitäts- und Konferenzrichtlinien. Weitere Informationen zu diesen Einstellungen finden Sie [hier.](/previous-versions//mt228132(v=technet.10))
   
 Dazu muss der Benutzer eine unterstützte Version der Klick-und-Ausführen-App von 2016 Skype for Business verwenden, die dies unterstützt. Die folgende Mindestversion des Skype for Business 2016 Klick-und-Ausführen-Clients ist erforderlich:
   
@@ -55,9 +55,9 @@ Dazu muss der Benutzer eine unterstützte Version der Klick-und-Ausführen-App v
 
 > [!NOTE]
 > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams. Wenn Sie die neueste Version von Teams PowerShell verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren.
-1. Installieren Sie [Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
+1. Installieren Sie [Teams PowerShell-Modul .](/microsoftteams/teams-powershell-install)
     
-2. Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
+2. Öffnen Sie Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
  ```powershell
    # When using Teams PowerShell Module
 
@@ -66,7 +66,7 @@ Dazu muss der Benutzer eine unterstützte Version der Klick-und-Ausführen-App v
    Connect-MicrosoftTeams -Credential $credential
    ```
    
-   Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Verbinden für alle [Microsoft 365-](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) oder Office 365-Dienste in einem einzigen Windows PowerShell-Fenster oder Einrichten des Computers [für Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Verbinden aller [Microsoft 365-](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) oder Office 365-Dienste in einem einzigen Windows PowerShell-Fenster oder Einrichten ihres Computers [für Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
    
 ## <a name="create-a-custom-external-access-policy-for-a-user"></a>Erstellen einer benutzerdefinierten Richtlinie für externen Zugriff für einen Benutzer
 
@@ -84,7 +84,7 @@ Grant-CsExternalAccessPolicy -PolicyName BlockSkypeVideo -Identity amosm@contoso
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365, Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

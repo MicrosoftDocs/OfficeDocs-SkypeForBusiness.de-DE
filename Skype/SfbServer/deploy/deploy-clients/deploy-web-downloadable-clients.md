@@ -9,23 +9,23 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Zusammenfassung: Stellen Sie die Skype for Business-Web-App- und Skype-Besprechungs-App bereit, die mit Skype for Business verwendet wird.'
-ms.openlocfilehash: 2fca7600232e9293dedbe9228075470097335d5836fb77c0cb428625e809a609
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Stellen Sie die Skype for Business-Web-App- und Skype Besprechungs-App bereit, die mit Skype for Business verwendet wird.'
+ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330559"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601950"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen von herunterladbaren Webclients in Skype for Business Server
 
 **Zusammenfassung:** Stellen Sie die Skype for Business 2015 Web App und Skype Besprechungs-App bereit, die mit Skype for Business Server verwendet wird.
 
-Skype for Business-Web-App ist ein Internetinformationsdienste(IIS)-Webclient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und standardmäßig bei Bedarf für Besprechungsbenutzer bereitgestellt wird, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungsbenutzer stellen in den meisten Fällen eine Verbindung von außerhalb Ihres Netzwerks her. Wenn ein Benutzer auf eine Besprechungs-URL klickt, der Skype for Business-Client jedoch nicht installiert ist, wird dem Benutzer die Möglichkeit angezeigt, mithilfe der neuesten Version von Skype for Business-Web-App, Skype Besprechungs-App oder Skype for Business für Mac an der Besprechung teilzunehmen.
+Skype for Business-Web-App ist ein Internetinformationsdienste(IIS)-Webclient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und standardmäßig bei Bedarf für Besprechungsbenutzer bereitgestellt wird, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungsbenutzer stellen in den meisten Fällen eine Verbindung von außerhalb Ihres Netzwerks her. Wenn ein Benutzer auf eine Besprechungs-URL klickt, der Skype for Business Client jedoch nicht installiert ist, wird dem Benutzer die Möglichkeit angezeigt, mithilfe der neuesten Version von Skype for Business-Web-App, Skype Besprechungs-App oder Skype for Business für Mac an der Besprechung teilzunehmen.
 
-Die Sprach-, Video- und Freigabefunktionen in Skype for Business-Web-App erfordern ein Microsoft ActiveX-Steuerelement, das vom Browser des Benutzers als Plug-In verwendet wird. Sie können entweder das ActiveX-Steuerelement im Voraus installieren oder benutzern die Installation gestatten, wenn Sie dazu aufgefordert werden. Dies geschieht bei der ersten Verwendung von Skype for Business-Web-App oder beim ersten Zugriff auf ein Feature, das das ActiveX-Steuerelement erfordert.
+Die Sprach-, Video- und Freigabefunktionen in Skype for Business-Web-App erfordern ein Microsoft ActiveX-Steuerelement, das vom Browser des Benutzers als Plug-In verwendet wird. Sie können entweder das ActiveX-Steuerelement im Voraus installieren oder benutzern die Installation gestatten, wenn Sie dazu aufgefordert werden. Dies geschieht bei der ersten Verwendung Skype for Business-Web-App oder beim ersten Zugriff auf ein Feature, das das ActiveX-Steuerelement erfordert.
 
 > [!NOTE]
 > In Skype for Business Server Edgeserverbereitstellungen ist für Skype for Business-Web-App Clientzugriff ein HTTPS-Reverseproxy im Umkreisnetzwerk erforderlich. Sie müssen zudem einfache URLs. Ausführliche Informationen finden Sie unter [Einrichten von Reverseproxyservern](/previous-versions/office/lync-server-2013/lync-server-2013-setting-up-reverse-proxy-servers) und [DNS-Anforderungen für einfache URLs in Skype for Business Server.](../../plan-your-deployment/network-requirements/simple-urls.md)
@@ -116,14 +116,14 @@ Wenn die Installation des Plug-Ins auf einem Computer mit Windows Server 2008 R2
 
 5. Nehmen Sie an der Besprechung erneut teil.
 
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Aktivieren sie Skype Besprechungs-App, um Skype for Business-Web-App zu ersetzen (optional, nur Skype for Business Server 2015).
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Aktivieren Skype Besprechungs-App, um Skype for Business-Web-App zu ersetzen (optional, nur Skype for Business Server 2015)
 <a name="SMA_Enable"> </a>
 
-Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 und höher. Wenn Sie sie nicht verwenden, nehmen externe Benutzer weiterhin über Skype for Business-Web-App an Besprechungen teil.
+Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 und höher. Wenn Sie es nicht verwenden, nehmen externe Benutzer weiterhin über Skype for Business-Web-App an Besprechungen teil.
 
-### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Aktivieren der vereinfachten Besprechungsteilnahme und Skype Besprechungs-App
+### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Vereinfachte Besprechungsteilnahme und Skype Besprechungs-App aktivieren
 
-1. Wenn Sie den Zugriff auf die Content Delivery Network (CDN) aktivieren, haben Benutzer die Möglichkeit, sich online mit CDN zu verbinden und Skype Besprechungs-App (auf Windows) und Skype for Business für Mac (auf dem Mac) zu erhalten, und verwenden die vereinfachte Besprechungsteilnahme.
+1. Wenn Sie den Zugriff auf die Content Delivery Network (CDN) aktivieren, haben Benutzer die Möglichkeit, online eine Verbindung mit CDN herzustellen und Skype Besprechungs-App (auf Windows) und Skype for Business für Mac (auf dem Mac) zu erhalten, und verwenden die vereinfachte Besprechungsbenutzeroberfläche.
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True

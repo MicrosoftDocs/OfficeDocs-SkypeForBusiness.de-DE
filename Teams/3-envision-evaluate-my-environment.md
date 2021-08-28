@@ -12,19 +12,19 @@ ms.reviewer: rowille
 description: Verwenden Sie Personas und Netzwerkanalyse, um die Bereitschaft Ihrer Organisation zu beurteilen, die richtigen TCP- und UDP-Ports zu öffnen und eine Netzwerkbereinigung durchzuführen.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2498d634bda4760d34b6d76762312e56ae51efe4ea08a9b42b875ac250759403
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302089"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635089"
 ---
 # <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
@@ -43,10 +43,10 @@ Sie sollten diese Informationen in das Risikoregister einbinden.
 
 ## <a name="current-environment"></a>Aktuelle Umgebung
 
-Als Teil Ihrer Umweltermittlung sollten Sie alle Fragen im Zusammenhang mit der Endbenutzung von Endbenutzern, z. B. eine Bereitschaftsbeurteilung von PCs und mobilen Geräten zur Unterstützung von Audiokonferenzen und Telefonsystem mit Anrufplan-Geschäftsnutzungsfällen, von Hardwareanforderungen bis zu Softwareanforderungen, mit aufnehmen.
+Als Teil Ihrer Umweltermittlung sollten Sie alle Fragen im Zusammenhang mit der Berechnung von Endbenutzerdaten (z. B. eine Bereitschaftsbeurteilung von PCs und mobilen Geräten zur Unterstützung von Audiokonferenzen und Telefonsystem mit Anrufplan-Geschäftsnutzungsfällen) umfassen, von Hardwareanforderungen bis zu Softwareanforderungen.
 
 Umgebungsermittlung kann auch aufdecken, ob Sie [Telefonnummern an Microsoft übertragen müssen.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-Wenn Sie dies wissen, kann Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Mithilfe der Umgebungsermittlung können Sie [eine Microsoft Teams, um](environmental-discovery-for-microsoft-teams-rollout.md) Umweltermittlung durchzuführen.
+Wenn Sie dies wissen, kann Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Sie können umgebungssuche verwenden, um [Microsoft Teams Umgebungsermittlung](environmental-discovery-for-microsoft-teams-rollout.md) durchzuführen.
 
 <table>
 <tr><td>Titel</td><td>Beschreibung</td></tr>
@@ -68,7 +68,7 @@ Mithilfe der folgenden Überlegungen können Sie die Vorbereitung Ihrer Organisa
 
 <table>
 <tr><td>Titel</td><td>Beschreibung</td></tr>
-<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Waren Sie zuvor erfolgreich mit der Benutzeradzeptanz von Software oder Diensten?</li><li>Können Sie die Nutzungsaufnahme nachverfolgen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer anfänglichen und laufenden Verbreitungskampagne &mdash; &mdash; (Informationen, Schulungen und Support)?</li><li>Verfügen Sie über ein dediziertes Team für die Übernahme/Änderungsverwaltung von Benutzern, oder können Sie in diese Ressourcen investieren, um Unternehmensergebnisse sicherzustellen?</li></ol></td></tr>
+<tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> <br/>Entscheidungspunkte</td><td><ul><li>Waren Sie zuvor erfolgreich mit der Benutzeradzeptanz von Software oder Diensten?</li><li>Können Sie die Nutzungsaufnahme nachverfolgen?</li><li>Verfügen Sie über die Ressourcen zum Entwerfen und Verwalten einer anfänglichen und laufenden Verbreitungskampagne &mdash; &mdash; (Informationen, Schulungen und Support)?</li><li>Verfügen Sie über ein dediziertes Team für die Übernahme/Änderungsverwaltung von Benutzern, oder können Sie in diese Ressourcen investieren, um Unternehmensergebnisse zu gewährleisten?</li></ol></td></tr>
 <tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Wenn Sie allen oben genannten Fragen mit "Ja" geantwortet haben, identifizieren Sie die richtigen Projektbeteiligten für das Benutzeränderungsmanagement, und beginnen Sie mit der Planung &quot; &quot; Ihrer Benutzerbereitschaft.</li><li>Wenn Sie einige oder alle der oben genannten Fragen nicht beantwortet haben, erwägen Sie, externe Ressourcen zu engagieren, die Sie beim Treiben des Änderungsmanagements und von Aktivitäten im Zusammenhang mit der Einführung &quot; &quot; für Ihre Organisation unterstützen.</li></ol></td></tr>
 </table>
 
@@ -111,7 +111,7 @@ Wenn Sie das Netzwerk nicht vorbereiten, führt dies wahrscheinlich zu unzufried
 
 ## <a name="bandwidth-planning"></a>Bandbreitenplanung
 
-Der erste Schritt auf dem Weg zur Netzwerkbereitschaft besteht in der Sicherstellung, dass im Netzwerk genügend Bandbreite für die von den Benutzern Teams Modalitäten zur Verfügung steht. Die Planung einer ausreichenden Bandbreite ist eine ziemlich einfache Aufgabe, bei der sie sehr barrierefrei beginnen, um sicherzustellen, dass Ihre Benutzer eine qualitativ hochwertige und Teams haben.
+Der erste Schritt auf dem Weg zur Netzwerkbereitschaft besteht in der Sicherstellung, dass im Netzwerk genügend Bandbreite für die von Teams Benutzern bereit ist. Die Planung einer ausreichenden Bandbreite ist eine ziemlich einfache Aufgabe, bei der sehr barrierefrei gestartet wird, um sicherzustellen, dass Ihre Benutzer eine qualitativ hochwertige und Teams haben.
 
 ### <a name="local-internet-egress"></a>Lokaler Internetausgang
 
@@ -132,7 +132,7 @@ Wenn Sie einen geteilten Tunnel implementieren möchten, erkundigen Sie sich bei
 
 ### <a name="wi-fi"></a>WLAN
 
-Wie VPN Wi-Fi Netzwerke nicht unbedingt so konzipiert oder konfiguriert, dass Echtzeitmedien unterstützt werden. Die Planung oder Optimierung eines WLAN-Netzwerks zur Unterstützung von Microsoft Teams ist bei einer Bereitstellung von hoher Qualität eine wichtige Überlegung.
+Wie VPN Wi-Fi Netzwerke nicht notwendigerweise so konzipiert oder konfiguriert, dass Echtzeitmedien unterstützt werden. Die Planung oder Optimierung eines WLAN-Netzwerks zur Unterstützung von Microsoft Teams ist bei einer Bereitstellung von hoher Qualität eine wichtige Überlegung.
 
 Beim Optimieren eines WLAN-Netzwerks kommen verschiedene Faktoren zum Tragen:
 
@@ -156,15 +156,15 @@ Auch Plug-Ins und Connectors stellen Verbindungen über diese TCP-Ports her. Die
 Das Öffnen dieser Ports ist für eine zuverlässige Microsoft Teams-Bereitstellung zwingend notwendig. Das Blockieren dieser Ports wird nicht unterstützt und wirkt sich auf die Medienqualität aus.
 
 Wenn es in Ihrer Organisation erforderlich ist, die genauen IP-Adressbereiche und Domänen anzugeben, für die diese Ports geöffnet werden sollen, können Sie die Ziel-IP-Bereiche und Zieldomänen für die Ports einschränken. Eine Liste exakter Ports, Protokolle und IP-Bereiche finden Sie unter Microsoft 365 oder Office 365 von URLs und [IP-Adressbereichen.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)
-Wenn Sie die Ziel-IP-Adressbereiche und Zieldomänen einschränken möchten, müssen Sie die Liste der Ports und Bereiche unbedingt stets auf dem aktuellen Stand halten, da sich diese Angaben ändern können. Sie können [diesen RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) abonnieren, um sich über Änderungen auf dem Laufenden zu halten. Es wird auch geübt, zu testen, ob alle Ports geöffnet werden, indem das [Skype for Business Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) in regelmäßigen Abständen ausgeführt wird. Weitere Informationen zu den Funktionen dieses Tools finden Sie im nächsten Abschnitt.
+Wenn Sie die Ziel-IP-Adressbereiche und Zieldomänen einschränken möchten, müssen Sie die Liste der Ports und Bereiche unbedingt stets auf dem aktuellen Stand halten, da sich diese Angaben ändern können. Sie können [diesen RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) abonnieren, um sich über Änderungen auf dem Laufenden zu halten. Es ist außerdem eine bewährte Methode, zu testen, ob alle Ports geöffnet werden, indem das [Skype for Business Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) in regelmäßigen Abständen ausgeführt wird. Weitere Informationen zu den Funktionen dieses Tools finden Sie im nächsten Abschnitt.
 
-Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für alle Microsoft Teams-Dienste zu umgehen. Obwohl die Verwendung eines Proxys möglicherweise funktioniert, ist es sehr wahrscheinlich, dass sich die Qualität verringert, weil Medien gezwungen sind, TCP anstelle von UDP zu verwenden. Weitere Informationen zu Proxyservern und Umgehung finden Sie unter Erstellen [Microsoft 365 oder Office 365 urLs und IP-Adressbereiche.](./office-365-urls-ip-address-ranges.md)
+Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für alle Microsoft Teams-Dienste zu umgehen. Obwohl die Verwendung eines Proxys möglicherweise funktioniert, ist es sehr wahrscheinlich, dass sich die Qualität verringert, weil Medien gezwungen sind, TCP anstelle von UDP zu verwenden. Weitere Informationen zu Proxyservern und Umgehung finden Sie unter Microsoft 365 [oder Office 365 urLs und IP-Adressbereiche.](./office-365-urls-ip-address-ranges.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="test-the-network"></a>Testen des Netzwerks
 
-Nachdem Sie ihre Planung und Netzwerkvorbereitung abgeschlossen haben – einschließlich Upgrade der Bandbreite und Öffnen von Ports in der Firewall – sollten Sie die Leistung Ihres Netzwerks testen. Die Ergebnisse dieser Tests zeichnen ein klareres Bild von allen Netzwerkoptimierungen oder -korrekturen, die für den Erfolg Ihrer Audiokonferenzen oder -Telefonsystem mit der Implementierung des Anrufplans erforderlich sind.
+Nachdem Sie ihre Planung und Netzwerkvorbereitung abgeschlossen haben – einschließlich Upgrade der Bandbreite und Öffnen von Ports in der Firewall – sollten Sie die Leistung Ihres Netzwerks testen. Die Ergebnisse dieser Tests zeichnen ein klareres Bild von allen Netzwerkoptimierungen oder -korrekturen, die für den Erfolg Ihrer Audiokonferenzen oder Audiokonferenzen mit Telefonsystem Anrufplanimplementierung erforderlich sind.
 
 Sie können das [Skype for Business-Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) herunterladen, um zu testen, ob Ihr Netzwerk für Microsoft Teams bereit ist. Das Tool bietet zwei Funktionen: Es kann zum einen testen, ob die richtigen Ports geöffnet sind, und zum anderen, ob Netzwerkbeeinträchtigungen vorliegen.
 
@@ -208,7 +208,7 @@ Beachten Sie, dass beide Segmente die Anforderungen für eine Bereitstellung von
 
 Wenn aus den Ergebnissen der Bandbreitenplanung, der Porttests oder anderer Tests im Hinblick auf die Netzwerkanforderungen hervorgeht, dass das aktuelle Netzwerk vor der Bereitstellung von Microsoft Teams verbessert werden muss, haben Sie verschiedene Möglichkeiten:
 
--   Führen Sie bei unzureichender Bandbreite ein Upgrade von Verbindungen durch, damit der datenverkehr zu Microsoft 365 oder Office 365 nicht unbehindert fließen kann.
+-   Bei unzureichender Bandbreite sollten Sie Verbindungen aktualisieren, damit der Datenverkehr zu Microsoft 365 oder Office 365 nicht unbehindert fließen kann.
 
 -   Bei blockierten Ports sollten Sie Firewallregeln ändern und die Ports dann erneut testen.
 

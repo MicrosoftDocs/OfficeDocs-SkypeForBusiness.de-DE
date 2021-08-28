@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: 94f59c2c2a8586ec1d0d47316e976d0e662b5bb0824ce34df9de327b0446fcae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8f91e6c7e87c5e7a2032e6c3eb9d6b220ec3da51
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333597"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58636069"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Verwalten von Konferenzen in Skype for Business Server
  
@@ -29,7 +29,7 @@ In Skype for Business Server verwalten Sie die Details von Konferenzen, indem Si
   
 - **Die Konferenzrichtlinieneinstellungen** umfassen eine Vielzahl von Planungs- und Teilnahmeoptionen, von der Frage, ob eine Besprechung IP-Audio und -Video enthalten kann, bis hin zur maximalen Anzahl von Personen, die teilnehmen können. Sie können Konferenzrichtlinien verwenden, um Sicherheit, Bandbreite und rechtliche Aspekte von Besprechungen zu verwalten.
     
-    Beachten Sie, dass Konferenzrichtlinien auf den Benutzer oder Standort angewendet werden und nicht auf eine bestimmte Besprechung angewendet werden können. Daher kann die Besprechungseinladung für die Konferenz einige Wochen im Voraus erstellt werden, aber die restriktive Konferenzrichtlinie sollte auf das Skype for Business Konto des Besprechungsorganisators angewendet werden, kurz bevor die Konferenz beginnt. 
+    Beachten Sie, dass Konferenzrichtlinien auf den Benutzer oder Standort angewendet werden und nicht auf eine bestimmte Besprechung angewendet werden können. Daher kann die Besprechungseinladung für die Konferenz einige Wochen im Voraus erstellt werden, aber die restriktive Konferenzrichtlinie sollte auf das Skype for Business Konto des Besprechungsorganisators unmittelbar vor Beginn der Konferenz angewendet werden. 
     
     Wenn ein dediziertes Konto für die Rolle "Besprechungsorganisator" verwendet wird, kann die Konferenzrichtlinie diesem Konto zugewiesen bleiben. Wenn der Besprechungsorganisator ein allgemeines Skype for Business Konto verwendet, muss die Richtlinie nach Abschluss der Konferenz entfernt werden.
     
@@ -77,11 +77,11 @@ Sie können die meisten Konferenzrichtlinien und Konfigurationseinstellungen mit
     
   - Suchen Sie in Skype for Business Server Verwaltungsshell nach den Cmdlets **"-CsPinPolicy".**
     
-- Zum Verwalten der Konferenzkonfigurationseinstellungen müssen Sie die Skype for Business Server Verwaltungsshell verwenden. Suchen Sie nach **-CsConferencingConfiguration-Cmdlets.**
+- Zum Verwalten der Konferenzkonfigurationseinstellungen müssen Sie die Skype for Business Server-Verwaltungsshell verwenden. Suchen Sie nach **-CsConferencingConfiguration-Cmdlets.**
     
 ## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server Cmdlets der Verwaltungsshell
 
-Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell verwenden, um Konferenzen zu verwalten: 
+Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell zum Verwalten von Konferenzen verwenden: 
   
 **Konferenzrichtlinieneinstellungen**
 
@@ -142,7 +142,7 @@ Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell ver
 
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
-|[Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |Gibt Informationen zu den Client-PIN-Richtlinien zurück, die zur Verwendung in Ihrer Organisation konfiguriert sind. Die PIN-Authentifizierung ermöglicht Benutzern den Zugriff auf Skype for Business Server, indem eine PIN anstelle eines Benutzernamens und Kennworts bereitgestellt wird.  <br/> |
+|[Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) <br/> |Gibt Informationen zu den Client-PIN-Richtlinien zurück, die zur Verwendung in Ihrer Organisation konfiguriert sind. Mit der PIN-Authentifizierung können Benutzer auf Skype for Business Server zugreifen, indem sie anstelle eines Benutzernamens und Kennworts eine PIN angeben.  <br/> |
 |[Grant-CsPinPolicy](/powershell/module/skype/grant-cspinpolicy?view=skype-ps) <br/> |Weist einem Benutzer oder einer Benutzergruppe eine PIN-Richtlinie (Persönliche Identifikationsnummer) des Clients zu.  <br/> |
 |[New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps) <br/> |Erstellt eine neue Client-PIN-Richtlinie (PIN: persönliche Identifikationsnummer).  <br/> |
 |[Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps) <br/> |Entfernt die angegebene PIN-Richtlinie (persönliche Identifikationsnummer).  <br/> |
@@ -153,7 +153,7 @@ Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell ver
 |**Cmdlet**|**Beschreibung**|
 |:-----|:-----|
 |[Disable-CsMeetingRoom](/powershell/module/skype/disable-csmeetingroom?view=skype-ps) <br/> |Deaktiviert einen Skype for Business Server Besprechungsraum. Ein Besprechungsraum ist ein Konferenzmedium, das für Videokonferenzen und Szenarien der Zusammenarbeit in kleinen Konferenzräume entwickelt wurde. Wenn Sie ein Besprechungsraumobjekt deaktivieren, entfernen Sie alle Skype for Business Server spezifischen Active Directory-Attribute, die dem Benutzerkonto zugewiesen sind, das den Besprechungsraum darstellt. Das Active Directory-Benutzerkonto wird allerdings nicht gelöscht.  <br/> |
-|[Enable-CsMeetingRoom](/powershell/module/skype/enable-csmeetingroom?view=skype-ps) <br/> |Aktiviert einen Skype for Business Server Besprechungsraum. Um einen Besprechungsraum zu aktivieren, müssen Sie zunächst ein Active Directory-Benutzerkonto erstellen, das dieses System darstellt. Beachten Sie, dass besprechungsraumobjekte zwar auf Benutzerkonten basieren, diese Objekte jedoch nicht angezeigt werden, wenn Sie das Cmdlet Get-CsUser ausführen.  <br/> |
+|[Enable-CsMeetingRoom](/powershell/module/skype/enable-csmeetingroom?view=skype-ps) <br/> |Aktiviert einen Skype for Business Server Besprechungsraum. Um einen Besprechungsraum zu aktivieren, müssen Sie zunächst ein Active Directory-Benutzerkonto erstellen, das dieses System darstellt. Beachten Sie, dass Besprechungsraumobjekte zwar auf Benutzerkonten basieren, diese Objekte jedoch nicht angezeigt werden, wenn Sie das Cmdlet Get-CsUser ausführen.  <br/> |
 |[Get-CsConferenceDisclaimer](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps) <br/> |Gibt Informationen zu dem in Ihrer Organisation verwendeten Konferenzhaftungsausschluss zurück. Der Konferenzhaftungssausschluss ist eine Meldung, die Benutzern angezeigt wird, die der Konferenz über einen Link beitreten (z. B. Benutzer, die einen Konferenzlink in einen Browser wie Windows Internet Explorer einfügen).  <br/> |
 |[Get-CsMeetingRoom](/powershell/module/skype/get-csmeetingroom?view=skype-ps) <br/> |Gibt Informationen zu allen Skype for Business Server Besprechungsräumen zurück, die für die Verwendung in der Organisation konfiguriert sind.  <br/> |
 |[Move-CsMeetingRoom](/powershell/module/skype/move-csmeetingroom?view=skype-ps) <br/> |Verschiebt ein Skype for Business Server Besprechungsraumobjekt von einem Registrierungsstellenpool in einen anderen.  <br/> |
@@ -167,9 +167,9 @@ Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell ver
 |[Test-CsASConference](/powershell/module/skype/test-csasconference?view=skype-ps) <br/> |Testet, ob ein Benutzerpaar an einer Konferenz zur Anwendungsfreigabe teilnehmen kann.  <br/> |
 |[Test-CsAudioConferencingProvider](/powershell/module/skype/test-csaudioconferencingprovider?view=skype-ps) <br/> |Hiermit wird getestet, ob ein Benutzer eine Verbindung mit seinem Audiokonferenzanbieter herstellen kann. Bei einem Audiokonferenzanbieter handelt es sich um ein Drittanbieterunternehmen, das Konferenzdienste für Organisationen bereitstellt. Audiokonferenzanbieter bieten Benutzern u. a. die Möglichkeit, von außerhalb eines Standorts und ohne Verbindung mit dem Unternehmensnetzwerk oder dem Internet am Audioteil einer Konferenz oder Besprechung teilzunehmen.  <br/> |
 |[Test-CsAVConference](/powershell/module/skype/test-csavconference?view=skype-ps) <br/> |Testet, ob ein Benutzerpaar an einer Audio-/Videokonferenz teilnehmen kann.  <br/> |
-|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Überprüft, ob ein Benutzerpaar an einer Skype for Business Server Webkonferenz teilnehmen kann, die Aktivitäten wie das Freigeben oder Anzeigen PowerPoint Folien, Whiteboards oder Umfragen umfasst. Das Cmdlet überprüft außerdem, ob der Skype for Business Server Webkonferenzdienst Office Web Apps-Server ermitteln kann und ob ein Client eine PowerPoint Datei zur Übertragung durch Office Web Apps-Server hochladen kann.  <br/> |
+|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Überprüft, ob ein Benutzerpaar an einer Skype for Business Server Webkonferenz teilnehmen kann, die Aktivitäten wie das Freigeben oder Anzeigen PowerPoint Folien, Whiteboards oder Umfragen umfasst. Das Cmdlet überprüft außerdem, ob der Skype for Business Server Webkonferenzdienst Office Web Apps-Server ermitteln kann und ob ein Client eine PowerPoint Datei für die Übertragung durch Office Web Apps-Server hochladen kann.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Überprüft, ob ein Benutzer an einer Einwahlkonferenzsitzung teilnehmen kann.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Testet einen Wählplan (ehemals als Standortprofil bezeichnet) für eine Telefonnummer und gibt die Normalisierungsregel, die auf diese Nummer angewendet wird, sowie die übersetzte Nummer nach dem Anwenden der Normalisierungsregel zurück.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet die Fähigkeit von drei Benutzern, an einer Skype for Business Server Mobility Service-Konferenz teilzunehmen. Der Mobilitätsdienst ermöglicht Es Benutzern von Mobiltelefonen wie iPhones und Windows Telefonen, Beispielsweise Chatnachrichten und Anwesenheitsinformationen auszutauschen. Internes Speichern und Abrufen von Voicemail anstelle des Drahtlosanbieters; und nutzen Sie Skype for Business Server Funktionen wie "Anruf über Arbeit" und Ausgehende Konferenzen.  <br/> **Hinweis:** Clients, die MCX verwenden, werden in Skype for Business Server 2019 nicht unterstützt.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet die Fähigkeit von drei Benutzern, an einer Skype for Business Server Mobility Service-Konferenz teilzunehmen. Der Mobilitätsdienst ermöglicht Es Benutzern von Mobiltelefonen wie iPhones und Windows Telefonen, Beispielsweise Chatnachrichten und Anwesenheitsinformationen auszutauschen. Internes Speichern und Abrufen von Voicemail anstelle des Drahtlosanbieters; und nutzen Sie Skype for Business Server Funktionen wie Anruf über Arbeit und Ausgehende Konferenzen.  <br/> **Hinweis:** Clients, die MCX verwenden, werden in Skype for Business Server 2019 nicht unterstützt.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Testet die Fähigkeit eines Benutzerpaars, eine Onlinekonferenz mithilfe der Unified Communications Web API (UCWA) zu planen, daran teilzunehmen und dann eine Onlinekonferenz durchzuführen.  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Gibt Diagnoseinformationen für die in Skype for Business Server enthaltenen Datenkonferenzfunktionen zurück.  <br/> |

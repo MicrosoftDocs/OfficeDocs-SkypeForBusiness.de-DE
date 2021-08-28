@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
 description: In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für eine erweiterte Bereitstellung von Notrufdiensten (E9-1-1) in Skype for Business Server Enterprise-VoIP planen.
-ms.openlocfilehash: 2007e0a530d82dc6b14dee9758c4eeeee75588ca2a81597e18f6a777093f0cf5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b250108fb20a9a1d75069b1036ab7c2fba332443
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286614"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601410"
 ---
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planen von Standortrichtlinien für Skype for Business Server
  
@@ -55,14 +55,14 @@ Sie können die **Einstellung "Speicherort"** so konfigurieren, dass das Clientv
   
  **Haftungsausschluss der erweiterten Notrufdienste**
   
-Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Skype for Business Server können Sie mithilfe der Standortrichtlinie unterschiedliche Haftungsausschlüsse für unterschiedliche Gebietsschemas oder unterschiedliche Benutzergruppen festlegen.
+Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Skype for Business Server können Sie die Standortrichtlinie verwenden, um unterschiedliche Haftungsausschlüsse für unterschiedliche Gebietsschemas oder unterschiedliche Benutzergruppen festzulegen.
   
  **Notrufwählzeichenfolge (E9-1-1-Wählnummer)**
   
 Diese Wählzeichenfolge (ohne das führende "+", aber einschließlich aller Normalisierungen durch den Wählplan des Benutzers) bedeutet, dass ein Anruf ein Notruf ist. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
   
 > [!NOTE]
-> Wenn Ihre Organisation kein Präfix für den externen Leitungszugriff verwendet, müssen Sie keine entsprechende Normalisierungsregel für Wählpläne erstellen, die der 911-Zeichenfolge ein "+" hinzufügt, bevor der Anruf an das ausgehende Routing auf einem Server gesendet wird, auf dem Skype for Business Server ausgeführt wird. das "+" wird automatisch vom Skype for Business Client als Ergebnis der Standortrichtlinie vorangestellt. Wenn Ihre Website jedoch ein Präfix für den externen Zugriff verwendet, müssen Sie der entsprechenden Wählplanrichtlinie eine Normalisierungsregel hinzufügen, die das Präfix für den externen Zugriff entfernt und das "+" hinzufügt. Wenn Ihr Standort beispielsweise ein externes Zugriffspräfix 9 verwendet und ein Benutzer 9 911 wählt, um einen Notruf zu tätigen, verwendet der Client seine Wählplanrichtlinie, um dies auf +911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird. 
+> Wenn Ihre Organisation kein Präfix für den externen Zeilenzugriff verwendet, müssen Sie keine entsprechende Normalisierungsregel für den Wählplan erstellen, die der 911-Zeichenfolge ein "+" hinzufügt, bevor der Anruf an das ausgehende Routing auf einem Server gesendet wird, auf dem Skype for Business Server ausgeführt wird. "+" wird dem Skype for Business Client aufgrund der Standortrichtlinie automatisch vorangestellt. Wenn Ihre Website jedoch ein Präfix für den externen Zugriff verwendet, müssen Sie der entsprechenden Wählplanrichtlinie eine Normalisierungsregel hinzufügen, die das Präfix für den externen Zugriff entfernt und das "+" hinzufügt. Wenn Ihr Standort beispielsweise ein externes Zugriffspräfix 9 verwendet und ein Benutzer 9 911 wählt, um einen Notruf zu tätigen, verwendet der Client seine Wählplanrichtlinie, um dies auf +911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird. 
   
  **Notfall-Wählzeichenfolgenmasken (E9-1-1-Wählmaske)**
   

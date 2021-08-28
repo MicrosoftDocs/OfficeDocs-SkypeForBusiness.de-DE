@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Dieser Referenzbereich enthält die folgenden Informationen:'
-ms.openlocfilehash: 25532271f7a34b6861d0817de9e5e7526c1165d255f9a17a2b8a79414bc2ba05
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 92b361a493bdb090cb216fa5c65dff4787db3c5f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352124"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618751"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory-Schemaerweiterungen, -Klassen und -Attribute
  
@@ -32,7 +32,7 @@ Dieser Referenzbereich enthält die folgenden Informationen:
     
 - Alle von Skype for Business Server verwendeten Attribute mit jeweils einer Beschreibung
     
-- Eine Liste der von Skype for Business Server verwendeten Klassen mit den Attributen, die jeweils enthalten sein können
+- Eine Liste der von Skype for Business Server verwendeten Klassen mit den Attributen, die jeweils
     
 - Globale Einstellungen und Objekte, die zusätzlich zu den universellen Dienst- und Administrationsgruppen verfügbar sind, die während der Vorbereitung der Gesamtstruktur erstellt werden.
     

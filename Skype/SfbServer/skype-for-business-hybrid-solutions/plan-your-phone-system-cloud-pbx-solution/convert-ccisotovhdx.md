@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 216abec2-d354-4ee3-9999-0a6b350a4a5f
 description: Das cmdlet Convert-CcIsoToVhdx erstellt eine virtuelle Basisfestplattendatei (VHDX) mithilfe eines Kunden, der Windows Server 2012 R2-ISO-Datei bereitgestellt wird. Die VHDX-Datei wird während der Bereitstellung von Skype for Business Cloud Connector Edition verwendet.
-ms.openlocfilehash: d168155c918ba1e8a3a576e543eed6693d0fb6faa5bd4fc23efd8c95b2b50fa1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbe1b4939fd99d6200217925bc52b72f6868873
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349547"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635069"
 ---
 # <a name="convert-ccisotovhdx"></a>Convert-CcIsoToVhdx
  
@@ -49,7 +49,7 @@ Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO"
 
 ### <a name="example-2"></a>Beispiel 2
 
-Wenn das cmdlet Convert-CcIsoToVhdx während Windows Update fehlschlägt, liegt dies wahrscheinlich an einer falschen Netzwerk-/Proxykonfiguration. Sie können die Anweisungen in der Fehlermeldung befolgen und sich beim virtuellen Basiscomputer anmelden, um das Problem zu beheben und Windows manuell zu aktualisieren. Führen Sie das Cmdlet nach Abschluss der manuellen Arbeit erneut mit dem Parameter "-GeneralizeOnly" aus, um die verbleibenden Aufträge abzuschließen: 
+Wenn das Cmdlet Convert-CcIsoToVhdx während Windows Aktualisierung fehlschlägt, liegt dies wahrscheinlich an einer falschen Netzwerk-/Proxykonfiguration. Sie können die Anweisungen in der Fehlermeldung befolgen und sich beim virtuellen Basiscomputer anmelden, um das Problem zu beheben und Windows manuell zu aktualisieren. Führen Sie das Cmdlet nach Abschluss der manuellen Arbeit erneut mit dem Parameter "-GeneralizeOnly" aus, um die verbleibenden Aufträge abzuschließen: 
   
 ```powershell
 Convert-CcIsoToVhdx -IsoFilePath "C:\Windows_Server_2012_R2-EN-US-x64.ISO" -GeneralizeOnly

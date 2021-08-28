@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Zusammenfassung: Erfahren Sie mehr über die Repository-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: e36a3c039b0865e1b6299a25d4bbecc80e3a1418135b2667dd599b5621e07727
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c042ace733782fe7a514fec6a5d0e875ddf6b728
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340871"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618821"
 ---
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Repository-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
  
@@ -36,7 +36,7 @@ Die Repository-API besteht aus drei allgemeinen Diensten:
     
 - [Item Service for Call Quality Dashboard (CQD)](item-service.md) – für den Zugriff auf Elemente und die in Elementen gespeicherten Inhalte.
     
-- [User Einstellungen Service for Call Quality Dashboard (CQD)](user-settings-service.md) – für den Zugriff auf benutzerbasierte Einstellungen.
+- [User Einstellungen Service for Call Quality Dashboard (CQD)](user-settings-service.md) – für den Zugriff auf Benutzer-Einstellungen.
     
 Das Anrufqualitätsdashboard verwendet die Repository-API, um die folgenden Informationen zu verwalten: 
   

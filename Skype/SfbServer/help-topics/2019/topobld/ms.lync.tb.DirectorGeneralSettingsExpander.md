@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: c102041c064ee21256264d3a84334e9d2199546daf5cfffa7350325762522d1c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b2800e7b7148650af9cfff785cd7452bb3843cc7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601710"
 ---
-# <a name="director-general-settings-expander"></a>Allgemeine Einstellungen für Director – Erweiterung
+# <a name="director-general-settings-expander"></a>Allgemeine Einstellungen für Director – Erweiterung
  
 Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden die folgenden Abschnitte angezeigt:
   

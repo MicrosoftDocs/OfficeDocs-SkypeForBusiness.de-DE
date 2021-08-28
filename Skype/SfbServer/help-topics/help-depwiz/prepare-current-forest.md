@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainForestPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 description: Um die Active Directory Domain Services-Gesamtstruktur vorzubereiten, müssen Sie das Schema wie im Thema "Schemavorbereitung ausführen" beschrieben erfolgreich erweitern und sicherstellen, dass das Schema repliziert wurde.
-ms.openlocfilehash: 6b02ae0139c4ac813dd8562b237022112f76201d79e82b856e5bfe7e8d6972e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b4473eaf12133ca5f643c98778133a99a64e5a44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309644"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619071"
 ---
 # <a name="prepare-current-forest"></a>Vorbereiten der aktuellen Gesamtstruktur
 

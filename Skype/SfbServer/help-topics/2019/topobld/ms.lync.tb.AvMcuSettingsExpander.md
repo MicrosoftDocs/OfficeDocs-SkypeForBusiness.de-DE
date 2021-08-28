@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AvMcuSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b0633d75-e0bb-4b4e-9abe-1f1c647a6c7d
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:'
-ms.openlocfilehash: a6fd45d6c5ce61e23b3a1d9efad048da492696a45039fa12b360f4047298c4eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b5c7391e27e9bdf172fc7e9f8c5859e6be2e9132
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277240"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601731"
 ---
-# <a name="av-mcu-settings-expander"></a>Einstellungen der AV MCU – Erweiterung
+# <a name="av-mcu-settings-expander"></a>Einstellungen der AV MCU – Erweiterung
  
 Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:
   

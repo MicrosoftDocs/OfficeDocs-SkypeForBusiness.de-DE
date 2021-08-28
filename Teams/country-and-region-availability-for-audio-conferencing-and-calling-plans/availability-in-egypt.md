@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Ägypten Skype for Business und Microsoft Teams für Ägypten verfügbar.
-ms.openlocfilehash: 0f5cb9be98dcde2ddac9866f74c72b2997e6d2683a81f0640dedd165ef0dabee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Ägypten.
+ms.openlocfilehash: b437ed4b8ed54429fb5cf54046d2c084bffe8efc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352373"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635029"
 ---
 # <a name="availability-in-egypt"></a>Verfügbarkeit in Ägypten
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Ägypten Skype for Business und Microsoft Teams für Ägypten verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Ägypten.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

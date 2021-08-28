@@ -1,10 +1,10 @@
 ### YamlMime:Hub
 title: Microsoft Teams Kreidegespräche
-summary: 'Die Kreidegespräche wurden für IT-Experten und Entscheidungsträger entwickelt und bieten eine einzigartige Möglichkeit Teams, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Teams.'
+summary: 'Die Kreidegespräche wurden für IT-Experten und Entscheidungsträger entwickelt und bieten eine einzigartige Gelegenheit Teams, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Teams.'
 brand: teams
 metadata:
   title: Microsoft Teams Kreidegespräche
-  description: 'Die Kreidegespräche wurden für IT-Experten und Entscheidungsträger entwickelt und bieten eine einzigartige Möglichkeit Teams, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Teams. Diese interaktiven Onlineworkshops, die von Fachleuten unterstützt werden, bieten Ihnen Einblicke, um Ihre Teams-Implementierung zu verbessern und Endbenutzern zusätzlichen Nutzen zu bieten. Klicken Sie unten auf einen beliebigen Titel des Workshop, um verfügbare Datums- und Zeitangaben zu sehen, und registrieren Sie sich noch heute!'
+  description: 'Die Kreidegespräche wurden für IT-Experten und Entscheidungsträger entwickelt und bieten eine einzigartige Gelegenheit Teams, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und überzeugendsten Szenarien in Teams. Diese interaktiven Onlineworkshops, die von Fachleuten unterstützt werden, bieten Ihnen Einblicke, um Ihre Teams-Implementierung zu verbessern und Endbenutzern zusätzlichen Nutzen zu bieten. Klicken Sie unten auf einen beliebigen Titel des Workshop, um verfügbare Datums- und Zeitangaben zu sehen, und registrieren Sie sich noch heute!'
   ms.service: msteams
   ms.topic: hub-page
   author: SerdarSoysal
@@ -15,7 +15,7 @@ metadata:
   audience: admin
   f1.keywords:
     - NOCSH
-  localization_priority: Normal
+  ms.localizationpriority: medium
   ROBOTS: 'NOINDEX, NOFOLLOW'
   ms.collection:
     - Teams_ITAdmin_JourneyFromSfB
@@ -34,23 +34,23 @@ productDirectory:
       url: 'https://aka.ms/ChalkTalkAVQuality'
     - title: Also... möchten Sie mit ihrem Teams?
       imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 'Nehmen Sie an uns teil, um einen ausführlichen Blick auf das Hinzufügen von PSTN-Anruffunktionen zu Ihrer Bereitstellung Teams zu erhalten. Gemeinsam werden wir die Aufrufe von Terminologie, Schlüsselkonzepten und Konfigurationen durch durch gehen.'
+      summary: 'Besuchen Sie uns, um einen ausführlichen Blick auf das Hinzufügen von PSTN-Anruffunktionen zu Ihrer Bereitstellung Teams zu erhalten. Gemeinsam werden wir die Aufrufe von Terminologie, Schlüsselkonzepten und Konfigurationen durch durch gehen.'
       url: 'https://aka.ms/ChalkTalkCalling'
-    - title: Beleben Sie Ihre Liveereignisse mit Microsoft Teams
+    - title: Überleben Sie Ihre Liveereignisse mit Microsoft Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/presenter-teams.svg'
       summary: 'Begeistern und beflügeln Sie Ihr Publikum mit großen virtuellen Onlineereignissen mithilfe Microsoft Teams. Hier finden Sie bewährte Methoden, um sicherzustellen, dass Ihr Ereignis erfolgreich ist.'
       url: 'https://aka.ms/ChalkTalksVirtualEvents'
     - title: Apps in Teams-Grundlagen
       imageSrc: 'https://docs.microsoft.com/office/media/icons/blocks-teams.svg'
-      summary: 'Diese Basissitzung befasst sich mit grundlegenden Funktionen wie App-Verwaltung und -Sicherheit. Hier erfahren Sie, wie Sie Ihre Workflows, Produktivitäts-Apps und Dienste, die Sie jeden Tag verwenden, in eine einzige, einheitliche Erfahrung integrieren.'
+      summary: 'Diese Basissitzung befasst sich mit grundlegenden Funktionen wie App-Verwaltung und -Sicherheit. Erfahren Sie, wie Sie Ihre Workflows, Produktivitäts-Apps und Dienste, die Sie jeden Tag verwenden, in eine einzige, vereinheitlichte Benutzererfahrung integrieren.'
       url: 'https://aka.ms/ChalkTalkApps'
     - title: Erstellen Sie wichtige Workflows mit Apps in Teams
       imageSrc: 'https://docs.microsoft.com/office/media/icons/bandwidth-efficiency-teams.svg'
       summary: 'Verbinden Sie Ihre Systeme, erhöhen Sie die Automatisierung, und stellen Sie verbesserte Benutzererfahrungen für die Benutzer zur Verfügung, indem Sie die Apps, auf die Ihre Organisation Teams.'
       url: 'https://aka.ms/ChalkTalkKeyApps'
-    - title: 'Unterstützen Sie Ihre Mitarbeiter im Frontline-Management, um mehr mit Teams'
+    - title: 'Unterstützen Sie Ihre Mitarbeiter im Frontline-Management, um mehr mit ihrer Arbeit zu Teams'
       imageSrc: 'https://docs.microsoft.com/office/media/icons/devices-2-teams.svg'
-      summary: 'Lernen Sie die bewährten Methoden zum Planen und Implementieren optimierter Erfahrungen für produktive Unterhaltungen, die Freigabe von Informationen und die Zeitplanverwaltung für Ihre Frontline-Mitarbeiter auf.'
+      summary: 'Lernen Sie die bewährten Methoden zum Planen und Implementieren optimierter Erfahrungen für produktive Unterhaltungen, die Freigabe von Informationen und die Zeitplanverwaltung für Ihre Frontline-Mitarbeiter ab.'
       url: 'https://aka.ms/TeamsFLW'
 additionalContent:
   sections:
@@ -62,5 +62,5 @@ additionalContent:
           summary: Machen Sie Ihre Benutzer mit Teams Live-Schulung auf den Weg.
           url: ./instructor-led-training-teams-landing-page.yml
         - title: Neu bei Microsoft Teams?
-          summary: Hier finden Sie weitere Informationen zu den ersten Teams.
+          summary: Erfahren Sie mehr über die ersten Schritte mit Teams.
           url: ./teams-overview.md

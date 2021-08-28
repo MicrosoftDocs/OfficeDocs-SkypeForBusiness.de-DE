@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Zusammenfassung: Erfahren Sie, wie Sie PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: d803e7d21be9743704402e2d9532fcfee413d804296cade2e56cbb875c965361
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 03f18a74045c7ea2af4ec3a80b25e65b3c2c5cb6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343439"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618841"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server
  
@@ -37,7 +37,7 @@ Sie können Informationen zu PIN-Richtlinien mithilfe Skype for Business Server 
   
 ### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-control-panel"></a>Anzeigen von Informationen zu PIN-Richtlinien mithilfe Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
@@ -59,9 +59,9 @@ Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung u
 
 Sie können die globale PIN-Richtlinie mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell ändern.
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Ändern der globalen Richtlinie für Einwahlkonferenzen mithilfe Skype for Business Server Systemsteuerung
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Ändern der globalen Pin-Richtlinie für Einwahlkonferenzen mithilfe Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
@@ -98,15 +98,15 @@ Der folgende Befehl ändert den Wert von MinPasswordLength für alle PIN-Richtli
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy".](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy".](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Erstellen einer Benutzer- oder Standort-PIN-Richtlinie
 
-Sie können eine BENUTZER- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell erstellen.
+Sie können eine PIN-Richtlinie für Benutzer oder Standorte mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell erstellen.
   
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Erstellen einer Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Systemsteuerung
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
@@ -157,7 +157,7 @@ Sie können eine Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Busin
   
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Ändern einer Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
@@ -179,7 +179,7 @@ Mit dem folgenden Befehl wird die PIN-Richtlinie geändert, die dem Standort Red
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy".](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy".](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Löschen einer Benutzer- oder Standort-PIN-Richtlinie
 
@@ -187,7 +187,7 @@ Sie können eine Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Busin
   
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-control-panel"></a>Löschen einer Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     

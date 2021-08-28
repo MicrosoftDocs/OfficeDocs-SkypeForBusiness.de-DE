@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Front-End-Pools einem überwachungsspeicher zuordnen, der von Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 92713d8b6940011c97507a7138e05e80e1d119b302f9f58843b90bb9861005e9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307796"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601890"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 
 **Zusammenfassung:** Erfahren Sie, wie Sie Front-End-Pools einem überwachungsspeicher zuordnen, der von Skype for Business Server verwendet wird.
@@ -26,7 +26,7 @@ In Skype for Business Server können Überwachungsdaten nur in Front-End-Pools g
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool
 
- Um einen Überwachungsspeicher einem neuen Front-End-Pool zuzuordnen, stellen Sie sicher, dass Sie die Option **Überwachung (Aufzeichnung von Kommunikationsdatensätzen und Protokollierung von QoE-Metriken)** auf der Seite **"Features auswählen"** des Assistenten zum Definieren eines neuen Front-End-Pools auswählen. Beachten Sie, dass Sie, wenn Sie diese Option auswählen, auch einen SQL Speicher angeben müssen, um den Assistenten abzuschließen. Dieser Speicher muss jedoch nicht zum Zeitpunkt der Ausführung des Assistenten vorhanden sein. Das bedeutet, dass Sie zuerst einen Pool einem Überwachungsspeicher zuordnen, dann später diesen Speicher einrichten und konfigurieren können.
+ Um einen Überwachungsspeicher einem neuen Front-End-Pool zuzuordnen, stellen Sie sicher, dass Sie die Option **Überwachung (Aufzeichnung von Kommunikationsdatensätzen und Protokollierung von QoE-Metriken)** auf der Seite **"Features auswählen"** des Assistenten zum Definieren eines neuen Front-End-Pools auswählen. Beachten Sie, dass Sie bei Auswahl dieser Option auch einen SQL Speicher angeben müssen, um den Assistenten abzuschließen. Dieser Speicher muss jedoch nicht zum Zeitpunkt der Ausführung des Assistenten vorhanden sein. Das bedeutet, dass Sie zuerst einen Pool einem Überwachungsspeicher zuordnen, dann später diesen Speicher einrichten und konfigurieren können.
   
 Alternativ können Sie einem vorhandenen Front-End-Pool anhand des folgenden Verfahrens einen neuen oder anderen Überwachungsspeicher zuordnen:
   
@@ -36,7 +36,7 @@ Alternativ können Sie einem vorhandenen Front-End-Pool anhand des folgenden Ver
     
 3. Geben Sie im Dialogfeld **Speichern unter** einen Dateinamen für Ihre aktuelle Topologie ein, und klicken Sie dann auf **Speichern**. Die gespeicherte Topologie kann später abgerufen und erneut veröffentlicht werden, falls es Probleme mit der neuen Topologie gibt.
     
-4. Erweitern Sie im Topologie-Generator **Skype for Business Server,** erweitern Sie den Namen des Standorts, der den Front-End-Pool enthält, und klicken Sie dann auf **Enterprise Edition Front-End-Pools** erweitern.
+4. Erweitern Sie im Topologie-Generator **Skype for Business Server**, erweitern Sie den Namen des Standorts, der den Front-End-Pool enthält, und klicken Sie dann auf **Enterprise Edition Front-End-Pools** erweitern.
     
 5. Klicken Sie mit der rechten Maustaste auf den Namen des Pools, dem der Überwachungsspeicher zugeordnet werden soll, und klicken Sie dann auf **Eigenschaften bearbeiten**.
     
@@ -54,7 +54,7 @@ Nachdem Sie den Überwachungsspeicher einem Front-End-Pool zugeordnet haben, mü
     
 3. Klicken Sie auf der Seite **Assistent für die Veröffentlichung abgeschlossen** auf **Fertig stellen**.
     
-Nachdem die Topologie veröffentlicht wurde, können Sie die Überwachungsdatenbank auf dem Computer installieren, auf dem der Überwachungsspeicher gehostet wird. Die Überwachungsdatenbank kann mithilfe der Skype for Business Server-Verwaltungsshell und Windows PowerShell installiert werden. Um die Datenbank lokal zu installieren (d. a. um die Datenbank auf demselben Computer zu installieren, auf dem Sie die Skype for Business Server Verwaltungsshell ausführen), starten Sie die Verwaltungsshell auf dem entsprechenden Computer, geben Sie dann den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
+Nachdem die Topologie veröffentlicht wurde, können Sie die Überwachungsdatenbank auf dem Computer installieren, auf dem der Überwachungsspeicher gehostet wird. Die Überwachungsdatenbank kann mithilfe der Skype for Business Server Verwaltungsshell und Windows PowerShell installiert werden. Um die Datenbank lokal zu installieren (d. a. um die Datenbank auf demselben Computer zu installieren, auf dem Sie die Skype for Business Server Verwaltungsshell ausführen), starten Sie die Verwaltungsshell auf dem entsprechenden Computer, geben Sie dann den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
   
 ```powershell
 Install-CsDatabase -LocalDatabases
@@ -62,7 +62,7 @@ Install-CsDatabase -LocalDatabases
 
 Wenn Sie den vorherigen Befehl ausführen, liest Install-CsDatabase die aktuelle Skype for Business Server Topologie, bestimmt, welche Datenbanken auf dem lokalen Computer installiert werden müssen, und installiert und konfiguriert dann automatisch jede dieser Datenbanken.
   
-Um die Datenbank auf einem Remotecomputer (d. h. einem anderen Computer als dem Computer, auf dem die Verwaltungsshell ausgeführt wird) zu installieren, müssen Sie mindestens zwei Parameter angeben: den Parameter "ConfiguredDatabases" und den Parameter "SqlServerFqdn". Diese Parameter weisen das cmdlet Install-CsDatabase an, die Skype for Business Server Topologie abzurufen und dann die erforderlichen Datenbanken auf dem durch den Parameter "SqlServerFqdn" angegebenen Computer zu installieren und zu konfigurieren. Der Parameter "SqlServerFqdn" muss einen Parameterwert verwenden, der den vollqualifizierten Domänennamen des Computers darstellt, auf dem die Datenbanken installiert werden sollen.
+Um die Datenbank auf einem Remotecomputer (d. h. einem anderen Computer als dem Computer, auf dem die Verwaltungsshell ausgeführt wird) zu installieren, müssen Sie mindestens zwei Parameter angeben: den Parameter "ConfiguredDatabases" und den Parameter "SqlServerFqdn". Diese Parameter weisen das cmdlet Install-CsDatabase an, die Skype for Business Server Topologie abzurufen und dann die erforderlichen Datenbanken auf dem durch den SqlServerFqdn-Parameter angegebenen Computer zu installieren und zu konfigurieren. Der Parameter "SqlServerFqdn" muss einen Parameterwert verwenden, der den vollqualifizierten Domänennamen des Computers darstellt, auf dem die Datenbanken installiert werden sollen.
   
 Beispielsweise wird mit dem folgenden Befehl die Überwachungsdatenbank auf dem Computer atl-sql-001.litwareinc.com installiert:
   

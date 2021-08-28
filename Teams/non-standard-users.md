@@ -8,8 +8,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie sich Microsoft Teams in Apps für Nicht-Standardbenutzer verhalten.
-localization_priority: Normal
+description: Hier erfahren Sie, wie Microsoft Teams sich in Apps für Nicht-Standardbenutzer verhalten.
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 97431dae774569c60ddc3299ca1dc637a9c571239082dac3a8c9449ff0124e51
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342880"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619401"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -35,7 +35,7 @@ In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, exte
   > [!Note]
   > Einen detaillierten Vergleich zwischen Gastbenutzern und externen Benutzern finden Sie unter [Kommunizieren mit Benutzern aus anderen Organisationen.](./communicate-with-users-from-other-organizations.md)
 
-- Ein **anonymer Benutzer** ist ein Konzept in Teams, bei denen der Benutzer über einen Link an der Besprechung teilgetreten ist. Der Benutzer hat sich nicht mit seinem Microsoft- oder Organisationskonto angemeldet.
+- Ein **anonymer Benutzer** ist ein Konzept in Teams Besprechungen, bei denen der Benutzer über einen Link an der Besprechung teilgetreten ist. Der Benutzer hat sich nicht mit seinem Microsoft- oder Organisationskonto angemeldet.
 
 ## <a name="guest-users"></a>Gastbenutzer
 
@@ -63,7 +63,7 @@ Bots können Proaktiv Nachrichten für Gastbenutzer senden, aber Gäste können 
 
 ### <a name="install-update-and-delete-for-external-users"></a>Installieren, Aktualisieren und Löschen für externe Benutzer
 
-Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Der App Store der Hostingorganisation.
+Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Store der Hostingorganisation.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Verwendungsverhalten und Richtlinie für externe Benutzer
 
@@ -80,7 +80,7 @@ Anonyme Benutzer können in Besprechungen keine Apps installieren, aktualisieren
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Nutzungsverhalten und Richtlinie für anonyme Benutzer
 
-Anonyme Benutzer können Apps nicht direkt in Besprechungen verwenden. Native Benutzer können weiterhin Besprechungs-Apps verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+Anonyme Benutzer können Apps in Besprechungen nicht direkt verwenden. Native Benutzer können Besprechungs-Apps weiterhin verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
 
 Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Sie können in Besprechungen in Teams mit Apps interagieren, wenn die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.
 

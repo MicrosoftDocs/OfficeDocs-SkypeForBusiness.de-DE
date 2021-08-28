@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddBranchSiteNamePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f2830f80-0b64-4b1e-96de-65ee4cddc3d9
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Geben Sie Folgendes an, um eine neue Zweigstelle zu definieren:'
-ms.openlocfilehash: f8024ecc08348a35fd76964cfe1597dbfbecad024c9be0695247eeeae9e325eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: be551cf032571f49e5d205aaa3f3909023153b4d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322153"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601790"
 ---
 # <a name="add-branch-site-name"></a>Hinzufügen von Zweigstellennamen
 
