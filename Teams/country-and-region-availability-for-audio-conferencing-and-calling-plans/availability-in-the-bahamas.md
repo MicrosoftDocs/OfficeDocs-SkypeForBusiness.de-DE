@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für die Bahamas.
-ms.openlocfilehash: 71ec974345725d9bc33b320f425cb24989cdabe09b1eaf84940c18a5c76f34fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für die Bahamas.
+ms.openlocfilehash: ec62268d9acb8498c230e2ce65b1077c9f7a1ffb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352294"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618531"
 ---
 # <a name="availability-in-the-bahamas"></a>Verfügbarkeit in den Bahamas
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für die Bahamas.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für die Bahamas.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

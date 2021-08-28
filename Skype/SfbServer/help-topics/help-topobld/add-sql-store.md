@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 description: Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.
-ms.openlocfilehash: dfc1c891e3f64df0b8ba96f9f917ec502c272cb50ea87c022977bfc6c7c116b7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1a33e6ad6222414f96fe613e81f3f36926726dff
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307336"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588677"
 ---
 # <a name="add-sql-store"></a>Hinzufügen eines SQL-Speichers
 
 Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.
 
-Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des SQL Server an, der die datenbankinstanz hosten soll, die Sie definieren.
+Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des SQL Server an, das die datenbankinstanz hosten soll, die Sie definieren.
 
 Geben Sie die Instanz von SQL Server an, die die Daten hosten soll. Sie können die Standardinstanz oder eine benannte Instanz angeben.
 

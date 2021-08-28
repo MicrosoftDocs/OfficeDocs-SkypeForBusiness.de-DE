@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Russland verfügbar.
-ms.openlocfilehash: b6172b21f07a480a059eb6e8ecc7b5fa28d841f37db9d011bf73afb6fefba897
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Russland.
+ms.openlocfilehash: cad4334c71a3b704dacdd68845fb565e4cde84db
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626337"
 ---
 # <a name="availability-in-russia"></a>Verfügbarkeit in Russland
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Russland verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Russland.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

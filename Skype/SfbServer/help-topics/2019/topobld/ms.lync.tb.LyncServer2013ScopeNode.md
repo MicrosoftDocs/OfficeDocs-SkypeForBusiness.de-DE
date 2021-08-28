@@ -1,5 +1,5 @@
 ---
-title: Lync Server 2013 – Bereichsknoten
+title: Lync Server 2013 – Bereichsknoten
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LyncServer2013ScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 65ff172c-8a27-45ce-8ce1-c1a37798b3a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: e94263c0cb788cf455c62b7ac3efd9f8e05176bc3f700d183e22b83d18410178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5f805b4b5cae1947142033d8d44f8fdd1e49a03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58599248"
 ---
 # <a name="skype-for-business-server-scope-node"></a>Skype for Business Server Bereichsknoten
  

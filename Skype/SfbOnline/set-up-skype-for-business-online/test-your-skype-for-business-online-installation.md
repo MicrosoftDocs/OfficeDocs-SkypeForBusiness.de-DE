@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
 description: 'Erfahren Sie, wie Sie Zeit sparen, Anrufe unterstützen und die Zufriedenheit erhöhen können, indem Sie Testkonten und Computer einrichten und Einwahlkonferenzen, Onlinefeatures wie Anrufe zwischen zwei Personen, Konferenzen sowie An- und Abmelden testen. '
-ms.openlocfilehash: 5afc5ec98e12ac0a30e6bf7974e17b1cb4552e90322a894407decbde4c94ca17
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611464"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -53,7 +53,7 @@ Nachstehend die Voraussetzungen:
 ## <a name="set-up-test-accounts"></a>Einrichten von Testkonten
 <a name="__toc328126910"> </a>
 
-1. Wechseln Sie **zu Administrator** Microsoft 365 oder Office 365 Benutzer und Gruppen , und wählen Sie dann Hinzufügen Hinzufügen aus, und geben Sie  >   die erforderlichen Informationen   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) ein.
+1. Wechseln Sie **zu Administrator** Microsoft 365 oder Office 365 Benutzer und Gruppen , wählen Sie Hinzufügen Hinzufügen aus, und geben Sie  >   die erforderlichen Informationen   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) ein.
 
 2. Wenn Sie zu Schritt 4 (E-Mail) gelangen, geben Sie Ihre eigene E-Mail-Adresse ein. Sie besitzen dann einen Eintrag für den Namen und das Kennwort des neuen Benutzers.
 

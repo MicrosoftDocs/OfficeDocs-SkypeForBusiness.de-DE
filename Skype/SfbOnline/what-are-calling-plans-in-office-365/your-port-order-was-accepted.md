@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,24 +22,24 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelTransferAccepted
 description: 'Was dies bedeutet, wenn Ihr Portierungsauftrag akzeptiert wurde, und was Sie als Nächstes tun müssen, um ihre Skype for Business fertig zu stellen. '
-ms.openlocfilehash: 78c10a340fd1b00fb29a1c28c638e2421adc4713809a73933a33611ef17c71ef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c99c1feef78e4f28b6edff5e0cbf232c02ce15b5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334407"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611384"
 ---
 # <a name="your-port-order-was-accepted"></a>Ihr Portierungsantrag wurde akzeptiert.
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Ihr Portierungsauftrag ist genehmigt! Suchen Sie nach Ihren Telefonnummern im **Skype for Business Admin Center**  >  **Voice**  >  **Telefon Telefonnummern**.
+Ihr Portierungsauftrag ist genehmigt! Suchen Sie im Skype for Business **Admin Center** Voice Telefon  >    >  Telefonnummern nach Ihren **Telefonnummern.**
   
  **WICHTIG**: Damit im linken Navigationsbereich des Skype for Business Admin Centers die Option **Voice** angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz**, eine Add-On-Lizenz für das **Telefonsystem** oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen.
   
 Nachdem sie genehmigt wurde und Ihre Telefonnummern bereit sind, müssen Sie ein paar Dinge tun, um alles zu richten.
   
-- Stellen Sie [sicher, Skype for Business und Microsoft Teams hinzufügen.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) Sie benötigen einen **Plan** Telefonsystem **Anrufplan** für Inland oder einen **Plan für Auslandsrufe.**
+- Stellen Sie sicher, [dass Skype for Business und Microsoft Teams hinzufügen.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) Sie benötigen einen **Plan** Telefonsystem **Anrufplan** für Inland oder einen **Plan für Auslandsrufe.**
     
 - Erstellen [](/MicrosoftTeams/add-change-remove-emergency-location-organization) Sie Eine Notfalladresse für Ihre Organisation hinzufügen oder entfernen und, falls Sie möchten, einen Notfallstandort für Ihre Organisation[hinzufügen,](/MicrosoftTeams/add-change-remove-emergency-place-organization) ändern oder entfernen (in einigen Ländern/Regionen erhalten Sie eine Notfalladresse mit der Telefonnummer).
     

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: e69ac58c-e8fe-40bc-a4c8-f0a0190fbaa7
 description: Lesen Sie dieses Thema, um Planungsüberlegungen für die Implementierung der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu überprüfen. Informationen zum Bereitstellen der Medienumgehung finden Sie unter Bereitstellen der Medienumgehung in Cloud Connector Edition.
-ms.openlocfilehash: 622bb6cbc4acf5987d28a2c4823bdfd0e495445cba84ed01762423c8e65de576
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 659b735502b6efaabd9167a4b0d820828232f5dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339891"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626407"
 ---
 # <a name="plan-for-media-bypass-in-cloud-connector-edition"></a>Planen der Medienumgehung in der Cloud Connector Edition
  
@@ -37,7 +37,7 @@ Die Medienumgehung kann die Sprachqualität verbessern, indem die Latenz, die M�
 
 Während die Signalisierung denselben Pfad mit oder ohne Medienumgehung einnimmt, unterscheidet sich der Medienfluss. Die folgenden Diagramme zeigen Medien- und Signalisierungspfade in Topologien mit und ohne Medienumgehung. 
   
-In der folgenden Topologie, die keine Medienumgehung verwendet, wird beispielsweise von einem Skype for Business-Client ein PSTN-Anruf an eine externe Nummer gesendet, die SIP-Signalisierung wird an Microsoft 365 oder Office 365 gesendet, wodurch der Signaldatenverkehr gemäß der VoIP-Richtlinie des Endbenutzers gesteuert wird. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie Signaldatenverkehr an den Cloud Connector Edge Server weiter, der den Signaldatenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Session Border Controller (SBC) oder ein Gateway weiterleitet. Medien fließen vom Skype for Business-Client zum Cloud Connector-Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
+In der folgenden Topologie, die keine Medienumgehung verwendet, wird beispielsweise von einem Skype for Business Client ein PSTN-Anruf an eine externe Nummer gesendet, die SIP-Signalisierung wird an Microsoft 365 oder Office 365 gesendet, wodurch der Signaldatenverkehr gemäß der VoIP-Richtlinie des Endbenutzers gesteuert wird. Für Cloud Connector-Benutzer leitet die VoIP-Richtlinie Signaldatenverkehr an den Cloud Connector Edge Server weiter, der den Signaldatenverkehr dann über den Cloud Connector-Vermittlungsserver an einen PSTN-Session Border Controller (SBC) oder ein Gateway weiterleitet. Medien fließen vom Skype for Business-Client zum Cloud Connector-Vermittlungsserver und dann zum SBC oder Gateway, wie im folgenden Diagramm dargestellt:
   
 **Medien- und Signalisierungspfade ohne Medienumgehung**
 

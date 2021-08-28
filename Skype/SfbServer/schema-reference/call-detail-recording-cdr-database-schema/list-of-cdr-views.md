@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
 description: Ansichten bieten eine einfache Möglichkeit, auf Informationen zu den gängigsten Szenarien zuzugreifen, die zum Zurückgeben von Daten aus der KDS-Datenbank verwendet werden. Es wird empfohlen, Ansichten zum Erstellen von benutzerdefinierten Berichten zu verwenden, anstatt die tatsächlichen KDS-Datenbanktabellen zu verwenden. Dies liegt daran, dass die Datenbankansichten mit größerer Wahrscheinlichkeit die Abwärtskompatibilität mit zukünftigen Versionen aufrechterhalten.
-ms.openlocfilehash: 3e0598c33dac7fb139166a8dd9b82deed134a59e24d59cbe8c1884778cb627a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 24effb3b8c90721550ac813342965142f0e29875
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343239"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626477"
 ---
 # <a name="list-of-cdr-views"></a>Liste von KDS-Ansichten
  

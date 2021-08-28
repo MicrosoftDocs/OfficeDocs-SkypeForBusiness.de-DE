@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Archivierungshaftungsausschluss für Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 1afacace566cc75659e5b53e05346461b99f0cb888497f79da6340130585c959
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd9af58e6418dac7d6abd995f33faa1def84c004
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312143"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611314"
 ---
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54312143"
   
 Wenn Ihre Organisation mit externen Partnern kommuniziert, müssen Sie sie darüber informieren, dass Sie die Kommunikation mit ihnen archivieren. Wenn Sie einen Edgeserver bereitstellen und den Partnerverbund für Ihre Organisation aktivieren, werden Sie gefragt, ob Sie automatisch einen Archivierungshaftungsausschluss an externe Partner senden möchten. 
   
-Wenn Sie diese Konfiguration ändern müssen, können Sie die Skype for Business Server Systemsteuerung oder das Cmdlet Windows PowerShell **Set-CsAccessEdgeConfiguration** verwenden. Cmdlets können entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
+Wenn Sie diese Konfiguration ändern müssen, können Sie die Skype for Business Server Systemsteuerung oder das cmdlet Windows PowerShell **Set-CsAccessEdgeConfiguration** verwenden. Cmdlets können entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
   
 Damit externe Benutzer in Ihrer Skype for Business Server Bereitstellung mit Benutzern zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfigurieren, um den Zugriff externer Benutzer zu unterstützen. Ausführliche Informationen finden Sie unter Verwalten von XMPP-Verbundpartnern für Ihre Organisation. Ausführliche Informationen zum Steuern des Zugriffs für bestimmte Verbunddomänen finden Sie unter Steuern des Zugriffs durch einzelne Verbunddomänen.
   
@@ -39,7 +39,7 @@ Damit externe Benutzer in Ihrer Skype for Business Server Bereitstellung mit Ben
     
 4. Klicken Sie auf der Registerkarte **"Zugriffs-Edgekonfiguration"** auf **"Global",** klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
     
-5. Aktivieren oder deaktivieren Sie unter **"Partnerverbund und Verbindung mit öffentlichen Chatdiensten aktivieren"** das Kontrollkästchen **Archivierungshaftungsausschluss an Verbundpartner** senden, um das automatische Senden des Archivierungshaftungsausschlusses zu aktivieren oder zu deaktivieren. 
+5. Aktivieren oder deaktivieren Sie unter **"Partnerverbund und Verbindung mit öffentlichen Chatdiensten aktivieren"** das Kontrollkästchen **"Archivierungshaftungsausschluss an Verbundpartner** senden", um das automatische Senden des Archivierungshaftungsausschlusses zu aktivieren oder zu deaktivieren. 
     
 6. Klicken Sie auf **Commit ausführen**.
     

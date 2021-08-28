@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: sonua, shalenc
 audience: admin
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,14 +19,14 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für die Inhaltsfreigabe verwalten.
-ms.openlocfilehash: 6fc70359c8ef2dc06c02b68ce35977e5e45ef686cd8b44de558a1868ce7cb47e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285824"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592229"
 ---
-# <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
+# <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
 
 <a name="bkcontentsharing"> </a>
 
@@ -41,7 +41,7 @@ In diesem Artikel werden die folgenden Besprechungsrichtlinieneinstellungen im Z
 
 ## <a name="screen-sharing-mode"></a>Bildschirmfreigabemodus
 
-Diese Einstellung ist eine Kombination aus richtlinien pro Organisator und Benutzer. Mit dieser Einstellung wird steuert, ob die Desktop- und Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
+Diese Einstellung ist eine Kombination aus richtlinien pro Organisator und Benutzer. Mit dieser Einstellung wird steuert, ob die Desktop- und Fensterfreigabe in der Besprechung des Benutzers zulässig ist. Besprechungsteilnehmer, denen keine Richtlinien zugewiesen sind (z. b. anonyme Teilnehmer, Gäste, B2B-Teilnehmer und Partner), erben die Richtlinie des Besprechungsorganisators.
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
@@ -79,7 +79,7 @@ Sehen Sie sich das folgende Beispiel an.
 |Daniela   | Global   | Ein       |
 |Bert    | Location1MeetingPolicy        | Aus   |
 
-Daniela kann die Steuerung des freigegebenen Desktops oder Fensters anderen Teilnehmern an einer von Danielk organisierten Besprechung geben. Allerdings kann Nochk anderen Teilnehmern die Steuerung nicht geben.
+Daniela kann anderen Teilnehmern einer von Danielk organisierten Besprechung die Steuerung des freigegebenen Desktops oder Fensters geben. Allerdings kann Nochk anderen Teilnehmern die Steuerung nicht geben.
 
 Verwenden Sie das Cmdlet "AllowParticipantGiveRequestControl", um mithilfe von PowerShell festzulegen, wer die Steuerung übergeben bzw. entsprechende Anforderungen annehmen kann.
 

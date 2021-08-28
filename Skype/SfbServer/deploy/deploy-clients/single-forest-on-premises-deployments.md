@@ -9,21 +9,21 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 80da9d71-3dcd-4ca4-8bd1-6d8196823206
 description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer lokalen Umgebung mit einer einzigen Gesamtstruktur bereitstellen.
-ms.openlocfilehash: 9244ceca231142757a2a82f140b6d17613486117a86af6d6c9248e5a106a958f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7a68171ebf8d56b61ed77c6cef9739b701a0c07e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312103"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591939"
 ---
 # <a name="skype-room-system-single-forest-on-premises-deployments"></a>Skype Lokale Bereitstellungen für Raumsystem mit einzelner Gesamtstruktur
  
 In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer lokalen Umgebung mit einer einzigen Gesamtstruktur bereitstellen.
   
-Dieser Abschnitt enthält eine Übersicht über die Schritte zum Bereitstellen des Skype Raumsystemkontos auf Exchange Server und Skype for Business Server, die in einer lokalen Bereitstellung mit einer einzigen Gesamtstruktur gehostet werden.
+Dieser Abschnitt enthält eine Übersicht über die Schritte zum Bereitstellen des Skype Raumsystemkontos auf Exchange Server und Skype for Business Server in einer lokalen Bereitstellung mit einer einzigen Gesamtstruktur gehostet.
   
 ## <a name="single-forest-on-premises-deployments"></a>Lokale Bereitstellungen mit einer einzelnen Gesamtstruktur
 
@@ -31,7 +31,7 @@ Wenn Sie bereits über ein Ressourcenpostfachkonto für den Konferenzraum verfü
   
 Führen Sie die folgenden Schritte aus, um ein vorhandenes Ressourcenpostfachkonto (z. B. LRS-01) zu verwenden:
   
-1. Führen Sie den folgenden Exchange PowerShell-Befehl "Verwaltung" aus:
+1. Führen Sie den folgenden Exchange PowerShell-Befehl für die Verwaltung aus:
     
    ```powershell
    Set-Mailbox -Name 'LRS-01' -Alias 'LRS01' -Room -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
@@ -45,7 +45,7 @@ Führen Sie die folgenden Schritte aus, um ein vorhandenes Ressourcenpostfachkon
 
    Im obigen Beispiel werden ein aktiviertes Benutzerkonto in Active Directory und ein Raumpostfach für einen Konferenzraum in einer lokalen Exchange Organisation erstellt. Der Parameter RoomMailboxPassword gibt das Kennwort für das Benutzerkonto an.
     
-3. Konfigurieren Sie das Konto, um Konflikte automatisch zu lösen, indem Sie Besprechungen akzeptieren/ablehnen. Skype Konferenzraumkonten in Exchange, die mit dem Raumsystem ausgestattet sind, können von Einzelpersonen verwaltet werden. Beachten Sie jedoch, dass die Person, bis sie eine Besprechung akzeptiert, nicht im Skype Raumsystem-Startbildschirmkalender angezeigt wird.
+3. Konfigurieren Sie das Konto, um Konflikte automatisch zu lösen, indem Sie Besprechungen akzeptieren/ablehnen. Skype Konferenzraumkonten in Exchange, die mit dem Raumsystem ausgestattet sind, können von Einzelpersonen verwaltet werden. Beachten Sie jedoch, dass sie nicht im Skype Raumsystem-Startbildschirmkalender angezeigt werden, bis die Person eine Besprechung annimmt.
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteSubject $false -RemovePrivateProperty $false
@@ -65,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um ein vorhandenes Ressourcenpostfachkon
    Set-Mailbox -Identity LRS01@contoso.com -MailTipTranslations $Temp.MailTipTranslations
    ```
 
-5. Optional: Konfigurieren Sie den Text für die Besprechungsakzeptanz, der Benutzern Informationen über Skype for Business Besprechungsraum und was sie beim Planen von und bei der Teilnahme an Besprechungen erwarten können. 
+5. Optional: Konfigurieren Sie den Text für die Besprechungsakzeptanz, der Benutzern Informationen zu Skype for Business Besprechungsraum und zu den Erwartungen bereitstellt, wenn sie Besprechungen planen und daran teilnehmen. 
     
    ```powershell
    Set-CalendarProcessing -Identity LRS01 -AddAdditionalResponse $TRUE -AdditionalResponse "This is the Additional Response Text"
@@ -114,4 +114,4 @@ Nachdem Sie ein Ressourcenpostfachkonto für die Konferenzräume erstellt haben,
    ```
 
 > [!NOTE]
-> Wenn Sie Enterprise-VoIP für das Skype Room System-Konferenzraumkonto aktivieren, stellen Sie sicher, dass Sie eine eingeschränkte VoIP-Richtlinie konfigurieren, die für Ihre Organisation geeignet ist. Wenn es sich bei dem Skype for Business Besprechungsraum um eine öffentlich verfügbare Ressource handelt, kann jeder diese verwenden, um an einer geplanten oder Ad-hoc-Besprechung teilzunehmen. Nach der Teilnahme an einer Besprechung konnte sich die Person an eine beliebige Nummer auswählen. In Skype for Business Server verwendet das Feature "Ausgehende Konferenzen" die VoIP-Richtlinie des Benutzers, in diesem Fall das Skype Room System-Konto, das für die Teilnahme an der Besprechung verwendet wurde. In früheren Versionen von Lync Server wird die VoIP-Richtlinie des Organisators verwendet. Wenn ein Benutzer einer früheren Version von Lync Server einen Besprechungsraum plant und das Skype Raumkonto des Raumsystems einlädt, kann jeder die Skype for Business Besprechungsraum verwenden, um an der Besprechung teilzunehmen, und eine beliebige nationale/regionale oder internationale Telefonnummer wählen, solange der Organisator diese Nummern wählen darf. 
+> Wenn Sie Enterprise-VoIP für das Skype Room System-Konferenzraumkonto aktivieren, müssen Sie eine eingeschränkte VoIP-Richtlinie konfigurieren, die für Ihre Organisation geeignet ist. Wenn die Skype for Business Besprechungsraum eine öffentlich verfügbare Ressource ist, kann jeder sie verwenden, um an einer geplanten oder Ad-hoc-Besprechung teilzunehmen. Nach der Teilnahme an einer Besprechung konnte sich die Person an eine beliebige Nummer auswählen. In Skype for Business Server verwendet das Feature für ausgehende Konferenzen die VoIP-Richtlinie des Benutzers, in diesem Fall das Skype Room System-Konto, das für die Teilnahme an der Besprechung verwendet wurde. In früheren Versionen von Lync Server wird die VoIP-Richtlinie des Organisators verwendet. Wenn ein Benutzer einer früheren Version von Lync Server einen Besprechungsraum plant und das Skype Raumsystemkonto einlädt, kann jeder benutzer die Skype for Business Besprechungsraum verwenden, um an der Besprechung teilzunehmen, und eine beliebige nationale/regionale oder internationale Telefonnummer wählen, solange der Organisator diese Nummern wählen darf. 

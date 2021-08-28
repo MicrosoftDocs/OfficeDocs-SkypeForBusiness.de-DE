@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ClientPhoneCfgEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 description: Auf der Seite "Neue Gerätekonfiguration" oder "Gerätekonfiguration bearbeiten" können Sie eine Sammlung von Einstellungen erstellen oder ändern, die zum Verwalten Skype for Business Telefon Edition verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: 826f20dcd28002f293ebcf227a954f9bfd61c28f36fd4dd23414e2be59ef4f62
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcd0cccbb0bba00d40a25e6683baf2d12b6f54c5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302709"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588727"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration
  
@@ -44,7 +44,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
 - **SIP-Sicherheit** Sie können Transport- und Authentifizierungsanforderungen für Skype for Business Telefon Edition-Geräte konfigurieren. Folgende Optionen stehen zur Verfügung:
     
-  - **Niedrig** Zulassen einer beliebigen Art von Autorisierung oder Transport.
+  - **Niedrig** Lassen Sie jede Art von Autorisierung oder Transport zu.
     
   - **Mittel** NTLM oder Kerberos ist für die Benutzerauthentifizierung erforderlich.
     
@@ -60,7 +60,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
   - **Minimale PIN-Länge** Sie können die Mindestlänge für die persönliche Identifikationsnummer (PIN) angeben, die zum Entsperren des Telefons verwendet wird. Der zulässige Bereich für die PIN-Länge lautet vier bis 15 Stellen. Die Standardlänge besteht aus sechs Stellen.
     
-  - **Telefon Timeout sperren** Sie können die minimale Zeitdauer angeben, bevor das Telefon sich selbst sperrt. Der Bereich für das Timeout lautet 0 bis 60 Minuten; der Standardwert liegt bei 10 Minuten. Geben Sie den Wert im Format HH:MM:SS ein.
+  - **Timeout für Telefon sperren** Sie können die minimale Zeitdauer angeben, bevor das Telefon sich selbst sperrt. Der Bereich für das Timeout lautet 0 bis 60 Minuten; der Standardwert liegt bei 10 Minuten. Geben Sie den Wert im Format HH:MM:SS ein.
     
 ## <a name="see-also"></a>Siehe auch
 

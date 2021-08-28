@@ -1,5 +1,5 @@
 ---
-title: Upgrade Skype for Business lokalen Upgrades auf Microsoft Teams
+title: Upgrade Skype for Business lokalen Version auf Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: bjwhalen
-description: Hier erfahren Sie, wie Sie ein Upgrade Ihrer Microsoft Teams auf die Skype for Business lokalen Bereitstellung durchführen.
-localization_priority: Normal
+description: Erfahren Sie, wie Sie ein Upgrade Ihrer Organisation Microsoft Teams einer Skype for Business lokalen Bereitstellung durchführen.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -20,14 +20,14 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 743f7aaed340b0cf0c48cc92a472ef25f5ac9613dea436910737c09236b773e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 988051f3840df90ac4919866d2c5fd63c9a3fba4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327381"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611514"
 ---
-# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Upgrade von Skype for Business lokalen Lokalen auf Teams
+# <a name="upgrade-from-skype-for-business-on-premises-to-teams"></a>Upgrade von Skype for Business lokalen auf Teams
 
 ![Upgrade-Wegdiagramm mit Hervorhebung von Bereitstellung und Implementierung](media/upgrade-banner-deployment.png "Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase")
 
@@ -41,7 +41,7 @@ Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgra
 -   [Vorbereitung Ihrer Organisation](./upgrade-prepare-organization.md)
 -   [Durchgeführtes Pilotprojekt](./pilot-essentials.md)
 
-Wenn Sie eine lokale Skype for Business Server oder Microsoft Lync bereitgestellt haben und Ihre Organisation ein Upgrade auf Teams durchführen möchte, folgen Sie den Anleitungen in diesem Artikel. Sie müssen Hybridkonnektivität mit Ihrer Microsoft 365- oder Office 365-Organisation einrichten und die Anforderungen an die Koexistenz festlegen, wenn Sie Ihre Benutzer phasenweise auf Teams verschieben.
+Wenn Sie eine lokale Skype for Business Server oder Microsoft Lync bereitgestellt haben und Ihre Organisation ein Upgrade auf Teams durchführen möchte, folgen Sie den Anleitungen in diesem Artikel. Sie müssen hybride Konnektivität mit Ihrer Microsoft 365- oder Office 365-Organisation einrichten und die Anforderungen an die Koexistenz festlegen, wenn Sie ihre Benutzer phasenweise auf Teams verschieben.
 
 Bevor Sie beginnen, sollten [IT-Profis](#important-considerations-for-organizations-with-skype-for-business-server-on-premises) und -Administratoren die wichtigen Überlegungen für Organisationen mit Skype for Business Server lokal in diesem Artikel lesen.
 
@@ -50,22 +50,22 @@ Bevor Sie beginnen, sollten [IT-Profis](#important-considerations-for-organizati
 
 ## <a name="step-1-configure-hybrid-connectivity"></a>Schritt 1: Konfigurieren der Hybridkonnektivität 
 
-Die wichtigste Voraussetzung für das Upgrade Ihrer lokalen Benutzer auf Teams ist das Konfigurieren von Hybridkonnektivität für Ihre Skype for Business Server lokale Bereitstellung. 
+Die wichtigste Voraussetzung für ein Upgrade Ihrer lokalen Benutzer auf Teams ist das Konfigurieren von Hybridkonnektivität für Ihre Skype for Business Server lokale Bereitstellung. 
 
-Lesen Sie zunächst [Planen der Hybridkonnektivität,](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json) und folgen Sie dann den Aufgaben unter [Konfigurieren der Hybridkonnektivität.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
+Lesen Sie zunächst [Planen der Hybridkonnektivität,](/SkypeForBusiness/hybrid/plan-hybrid-connectivity?toc=%2fSkypeForBusiness%2fsfbhybridtoc%2ftoc.json) und führen Sie dann die unter Konfigurieren der [Hybridkonnektivität beschriebenen Aufgaben aus.](/skypeforbusiness/skype-for-business-hybrid-solutions/deploy-hybrid-connectivity/deploy-hybrid-connectivity)
 
 
 ## <a name="step-2-set-transitional-coexistence-mode-optional"></a>Schritt 2: Festlegen des Koexistenzmodus für Die Koexistenz (optional)
 
-Koexistenz und Interoperabilität zwischen Skype for Business und Teams Clients und Benutzern werden durch Teams-Modi definiert.  Organisationen befinden sich standardmäßig im Modus "Inseln", der es Benutzern ermöglicht, Teams und Skype for Business Clients nebeneinander zu verwenden.
+Koexistenz und Interoperabilität zwischen Skype for Business und Teams-Clients und Benutzern werden durch Teams-Modi definiert.  Organisationen befinden sich standardmäßig im Islands-Modus, der es Benutzern ermöglicht, Teams und Skype for Business Clients nebeneinander zu verwenden.
 
-Für eine Organisation, die auf Teams wechselt, ist der TeamsOnly-Modus das endgültige Ziel für jeden Benutzer– allerdings müssen nicht allen Benutzern TeamsOnly (oder ein beliebiger anderer Modus) gleichzeitig zugewiesen werden.
+Für eine Organisation, die in den Teams wechselt, ist der TeamsOnly-Modus das endgültige Ziel für jeden Benutzer– allerdings müssen nicht allen Benutzern TeamsOnly (oder ein beliebiger anderer Modus) gleichzeitig zugewiesen werden.
 
-Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen optional jeden der Skype for Business-Koexistenzmodi verwenden, um eine vorhersehbare Kommunikation zwischen Benutzern imOnly-Modus und Benutzern sicherzustellen, die sich noch nicht imOnly-Modus befinden.  Der Zweck der Skype for Business-Koexistenzmodi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht in der Bereitstellung einer einfachen, vorhersagbaren Erfahrung für Endbenutzer beim Übergang von Skype for Business zu Teams. 
+Bevor Benutzer den TeamsOnly-Modus erreichen, können Organisationen optional jeden der Skype for Business-Koexistenzmodi verwenden, um eine vorhersehbare Kommunikation zwischen Benutzern imOnly-Modus und Benutzern sicherzustellen, die sich noch nicht imOnly-Modus befinden.  Der Zweck der Skype for Business-Koexistenzmodi (SfBOnly, SfBWithTeamsCollab, SfBWithTeamsCollabAndMeetings) besteht in der Bereitstellung einer einfachen, vorhersagbaren Erfahrung für Endbenutzer, wenn Organisationen von Skype for Business zu Teams. 
 
 Wenn sich ein Benutzer in einem der Skype for Business-Modi befindet, werden alle eingehenden Chats und Anrufe an den Client des Skype for Business des Benutzers geroutet. Um Verwirrung bei Endbenutzern zu vermeiden und für ordnungsgemäßes Routing zu sorgen, werden die Anruf- und Chatfunktionen im Teams-Client deaktiviert, wenn sich ein Benutzer in einem der Skype for Business befindet. Ebenso wird die Besprechungsplanung in Teams explizit deaktiviert, wenn sich Benutzer im Modi SfBOnly oder SfBWithTeamsCollab befinden, und wird explizit aktiviert, wenn sich ein Benutzer im SfBWithTeamsCollabAndMeetings-Modus befindet.
 
-Je nach Ihren Anforderungen können Sie den geeigneten Koexistenzmodus basierend auf dem von Ihrer Organisation ausgewählten Upgradepfad zuweisen. Weitere Informationen finden Sie unter Migrations- und Interoperabilitätsleitfäden für Organisationen, die [Teams](migration-interop-guidance-for-teams-with-skype.md) zusammen mit Skype for Business und Festlegen [Ihrer Koexistenz- und Upgradeeinstellungen verwenden.](./setting-your-coexistence-and-upgrade-settings.md)
+Je nach Ihren Anforderungen können Sie den geeigneten Koexistenzmodus basierend auf dem von Ihrer Organisation ausgewählten Upgradepfad zuweisen. Weitere Informationen finden Sie unter Migrations- und Interoperabilitätsleitfade für Organisationen, die [Teams](migration-interop-guidance-for-teams-with-skype.md) zusammen mit Skype for Business und Festlegen [ihrer Koexistenz- und Upgradeeinstellungen verwenden.](./setting-your-coexistence-and-upgrade-settings.md)
 
 
 ## <a name="step-3-move-users-from-skype-for-business-on-premises-to-teams-only"></a>Schritt 3: Verschieben von Benutzern aus der lokalen Skype for Business in den Teams
@@ -79,15 +79,15 @@ Nachdem Sie alle Benutzer aus der lokalen Bereitstellung in die Cloud verschoben
 
 ## <a name="phone-system-and-pstn-connectivity-options"></a>Telefonsystem und PSTN-Konnektivitätsoptionen
 
-Telefonsystem mit Teams wird unterstützt, nachdem sich der Benutzer im TeamsOnly-Modus befindet. (Wenn sich der Benutzer im Islands-Modus befindet, Telefonsystem nur mit der Skype for Business.) 
+Telefonsystem mit Teams wird unterstützt, nachdem sich der Benutzer im TeamsOnly-Modus befindet. (Wenn sich der Benutzer im Islands-Modus Telefonsystem wird Skype for Business.) 
 
 ### <a name="pstn-connectivity-options"></a>PSTN-Konnektivitätsoptionen
 
-Bei der Abwäge von Optionen für die Konnektivität über das öffentliche Telefonnetz (PSTN) gibt es zwei mögliche Szenarien, wenn sie vom lokalen Skype for Business in den TeamsOnly-Modus wechseln:
+Beim Erwägen der Konnektivitätsoptionen für das öffentliche Telefonnetz (PSTN) gibt es zwei mögliche Szenarien, wenn Sie vom lokalen Skype for Business in den TeamsOnly-Modus wechseln:
 
-- Ein Benutzer in Skype for Business mit einem Enterprise-VoIP, der zu online und einen Microsoft-Anrufplan verwenden wird. Die Migration dieses Benutzers zu Teams setzt voraus, dass das lokale Skype for Business-Konto des Benutzers in die Cloud migriert und der Wechsel mit A) der Portierung der Telefonnummer des Benutzers zu einem Microsoft-Anrufplan oder B) die Zuweisung einer neuen Abonnentennummer aus verfügbaren Regionen koordiniert wird.  Weitere Informationen finden Sie unter Vom Skype for Business Server lokal mit Enterprise-VoIP [zum Microsoft-Anrufplan.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)
+- Ein Benutzer in Skype for Business mit dem Enterprise-VoIP, der online und mithilfe eines Microsoft-Anrufplans umverteilt wird. Die Migration dieses Benutzers zu Teams setzt voraus, dass das lokale Skype for Business-Konto des Benutzers in die Cloud migriert und die Umstellung mit A) der Portierung der Telefonnummer des Benutzers zu einem Microsoft-Anrufplan oder B) die Zuweisung einer neuen Abonnentennummer aus verfügbaren Regionen koordiniert wird.  Weitere Informationen finden Sie unter Von Skype for Business Server lokal mit Enterprise-VoIP [zum Microsoft-Anrufplan.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-microsoft-calling-plan)
 
-- Ein Benutzer in Skype for Business lokalen Netzwerk mit Enterprise-VoIP, der zu online gehen und die lokale PSTN-Anbindung wiederherstellen wird. Die Migration dieses Benutzers zu Teams erfordert das Verschieben des lokalen Skype for Business-Kontos des Benutzers in die Cloud und die Koordinierung dieses Wechsels mit der Migration des Benutzers zu Direct Routing. Weitere Informationen finden Sie unter Vom Skype for Business Server lokal mit Enterprise-VoIP [zum Direct-Routing.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)
+- Ein Benutzer in Skype for Business lokalen Netzwerk mit Enterprise-VoIP, der zu online gehen und die lokale PSTN-Anbindung wiederherstellen wird. Die Migration dieses Benutzers zu Teams erfordert das Verschieben des lokalen Skype for Business-Kontos des Benutzers in die Cloud und das Koordinieren dieses Wechsels mit der Migration des Benutzers zu Direct Routing. Weitere Informationen finden Sie unter Vom Skype for Business Server lokal mit Enterprise-VoIP [zum Direct-Routing.](upgrade-to-teams-on-prem-pstn-considerations.md#from-skype-for-business-server-on-premises-with-enterprise-voice-to-direct-routing)
 
 
 ## <a name="important-considerations-for-organizations-with-skype-for-business-server-on-premises"></a>Wichtige Überlegungen für Organisationen mit Skype for Business Server lokal
@@ -97,7 +97,7 @@ Bei der Abwäge von Optionen für die Konnektivität über das öffentliche Tele
     - [Koexistenzmodi – Referenz](migration-interop-guidance-for-teams-with-skype.md)
     - [Führt Kundenerfahrung und Konformität mit Koexistenzmodi zusammen](teams-client-experience-and-conformance-to-coexistence-modes.md)
 
-- Das Einrichten Skype for Business Hybrid ist Voraussetzung für die Migration in den TeamsOnly-Modus. Lokale Skype for Business Server-Benutzer können Teams zwar im Islands-Modus ohne Hybridmodus verwenden, aber der Übergang in den TeamsOnly-Modus kann nicht vorgenommen werden, ohne den Benutzer mithilfe von [Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)in die Cloud zu verschieben, für die Hybridkonnektivität erforderlich ist. Weitere Informationen finden Sie unter Konfigurieren [der Hybridkonnektivität.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) Außerdem ändert sich diese Anforderung Skype for Business an der bevorstehenden Skype for Business Online nicht. Damit Organisationen von Skype for Business Server zu Teams wechseln können, müssen sie trotzdem eine Hybridlösung mit demselben Toolset einrichten und konfigurieren, genau wie vor der *-Rente.*
+- Das Einrichten Skype for Business Hybrid ist Voraussetzung für die Migration in den TeamsOnly-Modus. Lokale Skype for Business Server-Benutzer können Teams zwar im Islands-Modus ohne Hybridmodus verwenden, aber der Übergang in den TeamsOnly-Modus kann nicht vorgenommen werden, ohne den Benutzer mithilfe von [Move-CsUser](/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud)in die Cloud zu verschieben, für die Hybridkonnektivität erforderlich ist. Weitere Informationen finden Sie unter Konfigurieren [der Hybridkonnektivität.](/skypeforbusiness/hybrid/configure-hybrid-connectivity) Außerdem ändert sich diese Anforderung Skype for Business an der bevorstehenden Skype for Business Online nicht. Damit Organisationen von Skype for Business Server zu Teams wechseln können, müssen sie weiterhin eine Hybridlösung mit demselben Toolset einrichten und konfigurieren, genau wie vor der *-Rente.*
 
 - Um einen lokalen Benutzer in die Cloud zu verschieben, verwenden Sie `Move-CsUser` in den lokalen Verwaltungstools. Es ist nicht mehr erforderlich, den Wechsel zum direkten Verschieben von Benutzern aus der lokalen Lokalen zu `-MoveToTeams` TeamsOnly festzulegen. Wenn Sie einen Benutzer mit aus der lokalen in die Cloud verschieben, wird den Benutzern jetzt automatisch der TeamsOnly-Modus zugewiesen, und ihre Besprechungen aus dem lokalen Modus werden automatisch in Teams-Besprechungen konvertiert, genauso, als ob die Option tatsächlich angegeben `Move-CsUser` `-MoveToTeams switch had been specified` wurde.
 
@@ -105,16 +105,16 @@ Bei der Abwäge von Optionen für die Konnektivität über das öffentliche Tele
 
 - Teams-Benutzer, die lokal über ein Skype for Business-Konto verfügen (d. h., sie wurden noch nicht mithilfe von Move-CsUser in die Cloud verschoben), können weder mit Skype for Business-Benutzern zusammenarbeiten noch mit externen Benutzern zusammenarbeiten. Diese Funktionalität ist nur verfügbar, wenn die Benutzer in die Cloud verschoben werden und TeamsOnly-Benutzer sind. 
 
-- Wenn Sie über lokale Skype for Business-Konten verfügen oder wenn Sie noch über einen lyncdiscover-DNS-Eintrag für eine lokale Bereitstellung verfügen, können Sie den TeamsOnly-Modus nicht auf Mandantenebene zuweisen. Zuerst müssen Sie alle Benutzer mit lokalen Skype for Business-Konten mithilfe von in die Cloud verschieben und dann die unter Deaktivieren einer Hybridmigration zum Abschließen der Migration in die Cloud beschriebenen Schritte ausführen, einschließlich Entfernen von `Move-CsUser` DNS-Einträgen. [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`funktioniert nicht auf Mandantenebene, wenn ein lyncdiscover-DNS-Eintrag erkannt wird, der auf einen anderen Ort als Office 365.
+- Wenn Sie über lokale Skype for Business-Konten verfügen oder wenn Sie noch über einen lyncdiscover-DNS-Eintrag für eine lokale Bereitstellung verfügen, können Sie den TeamsOnly-Modus nicht auf Mandantenebene zuweisen. Sie müssen zuerst alle Benutzer mit lokalen Skype for Business-Konten mithilfe von in die Cloud verschieben und dann die unter Deaktivieren einer Hybridmigration zum Abschließen der Migration in die Cloud beschriebenen Schritte ausführen, einschließlich Entfernen von `Move-CsUser` DNS-Einträgen. [](/skypeforbusiness/hybrid/cloud-consolidation-disabling-hybrid)  `Grant-CsTeamsUpgradePolicy -PolicyName UpgradeToTeams`funktioniert nicht auf Mandantenebene, wenn ein lyncdiscover-DNS-Eintrag erkannt wird, der auf einen anderen Ort als Office 365.
 
-- Sie müssen sicherstellen, dass die Benutzer ordnungsgemäß mit Azure AD mit den richtigen Skype for Business synchronisiert werden. Bei diesen Attributen handelt es sich um alle Präfixe mit dem Präfix "msRTCSIP-". Wenn benutzer nicht ordnungsgemäß mit Azure AD synchronisiert werden, können die Verwaltungstools in Teams nicht diese Benutzer verwalten. (Beispielsweise können Sie lokalen Benutzern keine Richtlinien Teams zuweisen, es sei denn, Sie synchronisieren diese Attribute ordnungsgemäß.) Weitere Informationen finden Sie unter [Konfigurieren von Azure AD Verbinden für Teams und Skype for Business.](/SkypeForBusiness/hybrid/configure-azure-ad-connect)
+- Sie müssen sicherstellen, dass die Benutzer ordnungsgemäß mit Azure AD mit den richtigen Skype for Business synchronisiert werden. Bei diesen Attributen handelt es sich um alle Präfixe mit dem Präfix "msRTCSIP-". Wenn benutzer nicht ordnungsgemäß mit Azure AD synchronisiert werden, können die Verwaltungstools in Teams nicht diese Benutzer verwalten. (Beispielsweise können Sie lokalen Benutzern keine Richtlinien Teams zuweisen, es sei denn, Sie synchronisieren diese Attribute ordnungsgemäß.) Weitere Informationen finden Sie unter [Konfigurieren von Azure AD-Verbinden für Teams und Skype for Business.](/SkypeForBusiness/hybrid/configure-azure-ad-connect)
 
-- Um einen neuen TeamsOnly- oder Skype for Business Online-Benutzer in einer Hybridorganisation zu erstellen, müssen Sie den Benutzer zuerst *in Skype for Business Server* lokal aktivieren und dann mithilfe von Move-CsUser aus der lokalen Cloud in die Cloud verschieben.  Indem Sie den Benutzer zuerst lokal erstellen, wird sichergestellt, dass alle anderen lokal Skype for Business Benutzer den Route zu dem neu erstellten Benutzer routen können. Nachdem alle Benutzer online verschoben wurden, ist es nicht mehr erforderlich, benutzer zuerst lokal zu aktivieren.
+- Zum Erstellen eines neuen TeamsOnly- oder Skype for Business Online-Benutzers in einer Hybridorganisation müssen Sie den Benutzer zuerst *in Skype for Business Server* lokal aktivieren und dann mithilfe von Move-CsUser aus der lokalen Cloud in die Cloud verschieben.  Indem Sie den Benutzer zuerst lokal erstellen, wird sichergestellt, dass alle anderen lokal Skype for Business Benutzer den Route zu dem neu erstellten Benutzer routen können. Nachdem alle Benutzer online verschoben wurden, ist es nicht mehr erforderlich, benutzer zuerst lokal zu aktivieren.
 
 - Wenn Sie Benachrichtigungen im Skype for Business-Client für lokale Benutzer anzeigen möchten, müssen Sie TeamsUpgradePolicy im lokalen Toolset verwenden. Nur der Parameter NotifySfbUsers ist für lokale Benutzer relevant.  Lokale Benutzer erhalten ihren Modus von den Onlineinstanzen von TeamsUpgradePolicy. Weitere Informationen finden Sie in den Notizen unter [Grant-CsTeamsUpgradePolicy.](/powershell/module/skype/grant-csteamsupgradepolicy?view=skype-ps) 
 
 >[!NOTE]
-> Alle neuen Mandanten, die nach dem 3. September 2019 erstellt wurden, werden als TeamsOnly-Mandanten erstellt, es sei denn, die Organisation verfügt bereits über eine lokale Bereitstellung von Skype for Business Server. Microsoft verwendet DNS-Einträge zum Identifizieren von lokalen Skype for Business Server Organisationen. Wenn Ihre Organisation über lokale Skype for Business Server ohne öffentliche DNS-Einträge verfügt, müssen Sie den Microsoft-Support anrufen, damit der neue Mandant heruntergestuft wird. 
+> Alle neuen Mandanten, die nach dem 3. September 2019 erstellt wurden, werden als TeamsOnly-Mandanten erstellt, es sei denn, die Organisation verfügt bereits über eine lokale Bereitstellung von Skype for Business Server. Microsoft verwendet DNS-Einträge zum Identifizieren von lokalen Skype for Business Server Organisationen. Wenn Ihre Organisation über lokale Einträge Skype for Business Server öffentlichen DNS-Einträgen verfügt, müssen Sie den Microsoft-Support anrufen, damit der neue Mandant heruntergestuft wird. 
 
 ## <a name="related-links"></a>Links zu verwandten Themen
 

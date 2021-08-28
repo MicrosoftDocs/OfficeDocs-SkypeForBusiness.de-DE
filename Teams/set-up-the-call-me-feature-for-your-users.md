@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 search.appverid: MET150
 description: Erfahren Sie, wie Sie das Feature Rückruf in Teams so einrichten, dass Benutzer am Audioteil per Telefon teilnehmen können, wenn ihr Computer für Audio nicht möglich ist.
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 f1.keywords:
@@ -17,16 +17,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 972368de75f38ef1ad1d3f268bfa21526eda261658792b67ce8b0d51c3281b2e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9ffdd467f73b590aae153cb8606c225258ef384c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324814"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618441"
 ---
 # <a name="set-up-the-call-me-feature-for-your-users"></a>Einrichten der Funktion „Rückruf“ für Ihre Benutzer
 
-In Microsoft Teams können Benutzer über die Funktion **Rückruf** am Audioteil einer Besprechung per Telefon teilnehmen. In Szenarien, in denen die Verwendung eines Computers für Audio nicht möglich ist, ist dies praktisch. Benutzer erhalten den Audioteil der Besprechung über ihr Mobiltelefon oder ihr Festnetztelefon und den Inhalt der Besprechung, z. B. wenn ein anderer Besprechungsteilnehmer seinen Bildschirm teilt oder ein Video über ihren &mdash; &mdash; Computer wieder abspielt.
+In Microsoft Teams können Benutzer über die Funktion **Rückruf** am Audioteil einer Besprechung per Telefon teilnehmen. Das ist in Szenarien praktisch, in denen die Verwendung eines Computers für Audio nicht möglich ist. Benutzer erhalten den Audioteil der Besprechung über ihr Mobiltelefon oder ihr Festnetztelefon und den Inhalt der Besprechung, z. B. wenn ein anderer Besprechungsteilnehmer seinen Bildschirm teilt oder ein Video über ihren &mdash; &mdash; Computer wieder abspielt.
 
 > [!IMPORTANT]
 > 
@@ -39,7 +39,7 @@ In Microsoft Teams können Benutzer über die Funktion **Rückruf** am Audioteil
 
 ### <a name="join-a-meeting-by-using-phone-for-audio"></a>Teilnehmen an einer Besprechung mithilfe eines Telefons für Audio
 
-Klicken **Sie auf** Teilnehmen,  um an einer Besprechung Telefon wählen Sie dann Audio im Bildschirm Video- und **Audiooptionen** auswählen aus, und klicken Sie auf **Jetzt teilnehmen.** Von hier aus können benutzer den Besprechungsanruf anrufen und an ihnen teilnehmen oder sich manuell in die Besprechung einwählen.
+Klicken **Sie auf** Teilnehmen,  um an einer Besprechung Telefon wählen Sie dann Audio aus dem Bildschirm Video- und **Audiooptionen** auswählen aus, und klicken Sie auf **Jetzt teilnehmen.** Von hier aus können benutzer den Besprechungsanruf anrufen und an ihnen teilnehmen oder sich manuell in die Besprechung einwählen.
 
 ![Screenshot der Option "Telefon Audio"](media/set-up-the-call-me-feature-for-your-users-phone-audio.png)
 
@@ -63,7 +63,7 @@ Hier sehen Sie ein Beispiel  für die Nachricht und die Option Rückruf, die ang
 
 ![Screenshot der Option "Rückruf"](media/set-up-the-call-me-feature-for-your-users-no-mic.PNG)
 
-Der Benutzer klickt **auf Rückruf.** Damit wird der Bildschirm **Telefon für Audio verwenden** angezeigt. Von hier aus können sie ihre Telefonnummer eingeben und sich die Teams lassen und der Besprechung beitreten oder sich manuell in die Besprechung einwählen.
+Der Benutzer klickt **auf Rückruf.** Damit wird der Bildschirm **Telefon für Audio verwenden** angezeigt. Von hier aus können sie ihre Telefonnummer eingeben und sich Teams besprechungstelefonieren lassen und der Besprechung beitreten oder sich manuell in die Besprechung einwählen.
 
 ## <a name="set-up-the-call-me-feature"></a>Einrichten der Funktion "Rückruf"
 

@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: landerl
 audience: admin
 description: Dieser Artikel beschreibt die ersten Schritte zum Aktualisieren von Skype for Business auf Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.custom:
 - Teams-upgrade-guidance
@@ -30,12 +30,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34eb3ed6f6979535e82ac85769011bcd9273c8f8293fa5dfcd7d9f0e1308b73e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b581f509655327c944876306cee666f39e07ef6c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345164"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589411"
 ---
 # <a name="get-started-on-your-upgrade-from-skype-for-business-to-microsoft-teams"></a>Erste Schritte mit Ihrem Upgrade von Skype for Business auf Microsoft Teams
 
@@ -53,7 +53,7 @@ Microsoft Teams erweitert die Funktionen von Skype for Business und bietet Chat,
 
 ## <a name="when-should-my-organization-migrate-to-teams"></a>Wann sollte meine Organisation eine Migration zu Microsoft Teams durchführen?
 
-Während der Skype for Business Online-Dienst bis zum 31. Juli 2021 voll funktionsfähig ist, wird dringend empfohlen, das Upgrade auf den Teams beginnen. Wenn Sie Ihr Upgrade heute beginnen, haben Sie ausreichend Zeit, um es vor dem Ende der Rente zu beenden. Sie können entweder mithilfe der methode Teams überlappenden Funktionen ("Islands-Modus") oder der Methode zum Auswählen von Funktionen ein Upgrade auf Teams durchführen. Weitere Informationen zu diesen Methoden finden Sie unter [Auswählen des Upgradewegs](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)von Skype for Business Teams.
+Während der Skype for Business Online-Dienst bis zum 31. Juli 2021 voll funktionsfähig ist, wird dringend empfohlen, das Upgrade auf den Teams beginnen. Wenn Sie Ihr Upgrade heute beginnen, haben Sie ausreichend Zeit, um es vor dem Ende der Rente zu beenden. Sie können entweder mithilfe der überlappenden Teams ("Islands-Modus") oder der Methode zum Auswählen von Funktionen ein Upgrade auf ihre Leistung durchführen. Weitere Informationen zu diesen Methoden finden Sie unter [Auswählen des Upgradewegs](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)von Skype for Business Teams .
 
 ## <a name="can-we-continue-to-use-skype-for-business-online-as-we-prepare-for-and-execute-our-upgrade-to-teams"></a>Können wir Skype for Business Online weiterhin verwenden, während wir uns auf das Upgrade auf Microsoft Teams vorbereiten und es durchführen?
 
@@ -73,9 +73,9 @@ Microsoft ist bestrebt, Ihnen bei einem erfolgreichen Umstieg von Skype for Busi
 
 Um Ihre Upgradeplanung und -implementierung zu vereinfachen, hostet Microsoft kostenlose Live-Workshops zur interaktiven Upgradeplanung, die Ihnen dabei helfen sollen, sich mit unserem Upgradeframework vertraut zu machen, Einblicke in die Vorbereitung der Benutzer für das Upgrade zu geben und den richtigen Weg für Ihre Organisation auf Ihrem Weg zu Teams. Nehmen Sie an der Sitzung "Übersicht über die Upgradeplanung" teil: [https://aka.ms/SkypeToTeamsPlanning](./upgrade-workshops-landing-page.yml).
 
-Organisationen, die Skype for Business Online verwenden, sind möglicherweise berechtigt, von Microsoft unterstützte Upgrades auf Teams zu nutzen, um den erfolgreichen Umstieg von Skype for Business Online vor der Dienstverendung am 31. Juli 2021 zu unterstützen. Durch Unterstützte Upgrades wird die Anzahl der technischen Aufgaben reduziert, die von Kunden benötigt werden, und es ermöglicht eine größere Konzentration auf die organisatorische Vorbereitung, Benutzerfreundlichkeit und Teams Schulung.
+Organisationen, die Skype for Business Online verwenden, sind möglicherweise berechtigt, von Microsoft unterstützte Upgrades auf Teams zu nutzen, um den erfolgreichen Umstieg von Skype for Business Online vor der Dienstverendung am 31. Juli 2021 zu unterstützen. Durch Unterstützte Upgrades wird die Anzahl der von Kunden erforderlichen technischen Aufgaben verringert, und es wird ermöglicht, sich stärker auf die Vorbereitung der Organisation, die Benutzerfreundlichkeit und die Teams konzentrieren.
 
-Kunden, die für unterstützte Upgrades geplant sind, erhalten drei Monate vor dem Upgrade Benachrichtigungen sowohl im Teams Admin Center als auch im Microsoft 365 Message Center. Weitere Informationen finden Sie unter Unterstützte Upgrades von [Skype for Business Online zu Microsoft Teams.](upgrade-assisted.md)
+Kunden, die für unterstützte Upgrades geplant sind, erhalten drei Monate vor dem Upgrade sowohl im Teams Admin Center als auch im Microsoft 365 Message Center Benachrichtigungen. Weitere Informationen finden Sie unter Unterstützte Upgrades von [Skype for Business Online zu Microsoft Teams.](upgrade-assisted.md)
 
 ## <a name="why-do-i-need-upgrade-guidance-cant-i-just-deletedecommission-skype-for-business"></a>Warum benötige ich einen Upgradeleitfaden? Kann ich Skype for Business nicht einfach löschen/außer Betrieb nehmen?
 

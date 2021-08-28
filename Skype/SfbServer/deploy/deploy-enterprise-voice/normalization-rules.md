@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e8547d7b-f74d-4a73-9a7d-df20d7a87fcd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Normalisierungsregel in Skype for Business Server definieren, erstellen und ändern.'
-ms.openlocfilehash: e491c58951be9c5341927a4edc949f7d119145533d77b9f2cb65d9e6a1a3cc4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3e06aa9821761803c033255c4da3f636ba296dda
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320847"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626207"
 ---
 # <a name="create-or-modify-a-normalization-rule-in-skype-for-business"></a>Erstellen oder Ändern einer Normalisierungsregel in Skype for Business
 
@@ -33,7 +33,7 @@ Definieren, Erstellen und Ändern von Normalisierungsregeln in Skype for Busines
 
 1. Öffnen Skype for Business Server Systemsteuerung
 
-2. (Optional) Führen Sie die Schritte in ["Erstellen oder Ändern eines Wählplans in Skype for Business Server](dial-plans.md) bis Schritt 11" aus, oder [ändern Sie einen Wählplan](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) bis Schritt 10.
+2. (Optional) Führen Sie die Schritte unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server](dial-plans.md) bis Schritt 11 oder Ändern eines [Wählplans](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-dial-plan) bis Schritt 10 aus.
 
 3. Geben Sie in **"Neue Normalisierungsregel"** oder **"Normalisierungsregel bearbeiten"** einen Namen ein, der das Nummernmuster beschreibt, das in **"Name"** normalisiert wird (z. B. "5DigitExtension").
 
@@ -59,7 +59,7 @@ Definieren, Erstellen und Ändern von Normalisierungsregeln in Skype for Busines
 
    - (Optional) Geben Sie einen Wert in die **Ziffern ein, um** ein Feld hinzuzufügen, um Ziffern anzugeben, die der übersetzten Nummer vorangestellt werden sollen (z. B. +1425).
 
-     Wenn das Muster zum **Abgleichen** beispielsweise "contains^(\d {7} )$" als Muster für gewählte Nummern und die **Übersetzungsregel** +1425 $1 als Muster für E.164-Telefonnummern enthält, normalisiert die Regel 5550100 auf +14255550100.
+     Wenn **"Muster zum Abgleichen"** beispielsweise "contains^(\d {7} )$" als Muster für gewählte Nummern und die **Übersetzungsregel** +1425 $1 als Muster für E.164-Telefonnummern enthält, normalisiert die Regel 5550100 auf +14255550100.
 
 7. (Optional) Wenn die Normalisierungsregel zu einer telefonnummer führt, die für Ihre Organisation intern ist, wählen Sie **interne Erweiterung** aus.
 

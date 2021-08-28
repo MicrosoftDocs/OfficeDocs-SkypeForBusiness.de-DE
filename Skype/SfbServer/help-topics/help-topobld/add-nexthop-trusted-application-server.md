@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddExternalApplicationNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
 description: 'Führen Sie zum Festlegen des nächsten Hops für den vertrauenswürdigen Anwendungsserver oder -pool die folgenden Schritte aus:'
-ms.openlocfilehash: afc835d54c07a5522a57852b2393aff981699e97dcdffcf66ab6ebea32699454
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 32a0df5e3a8f5f0d8429aa8945842add6e702207
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277020"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588657"
 ---
 # <a name="add-nexthop-trusted-application-server"></a>Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
  

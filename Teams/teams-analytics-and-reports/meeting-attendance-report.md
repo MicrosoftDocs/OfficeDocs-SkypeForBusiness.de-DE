@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: asappiah
 f1.keywords:
 - NOCSH
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -17,12 +17,12 @@ description: Abrufen eines Anwesenheitsberichts zu einer Besprechung in Teams. D
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 929829d09eab23456c7d045f7baf18bbd17330df
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386664"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58592185"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams – Anwesenheitsbericht zu einer Besprechung
 

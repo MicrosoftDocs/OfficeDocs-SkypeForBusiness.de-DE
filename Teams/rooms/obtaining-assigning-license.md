@@ -13,16 +13,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Microsoft Teams-Räume-Konto eine Lizenz für den Zugriff auf den Premium-verwalteten Microsoft Teams-Räume erhält.
 f1keywords: ''
-ms.openlocfilehash: 78ec170f329d6fdfdabaf7a6fc10f13ec1517b78
-ms.sourcegitcommit: 3ebf9c5d27263b7e92163f1a61844a5367a4744f
+ms.openlocfilehash: d37824c0cf496f7c059e081b73f6f8590b8b0429
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "58449028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58637030"
 ---
 # <a name="getting-started-with-microsoft-teams-rooms-premium-managed-service"></a>Erste Schritte mit Microsoft Teams-Räume Premium verwalteten Diensts
 

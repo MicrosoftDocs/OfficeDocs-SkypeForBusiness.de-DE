@@ -7,7 +7,7 @@ manager: serdars
 audience: ITPro
 ms.topic: troubleshooting
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Direct Routing-Konfiguration überwachen und behandeln, einschließlich Session Border Controller, Direct Routing-Komponenten und Telekommunikations-Trunks.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 534634beb302a5c7027b26a8fdaa305b824cf4efd3930d81f3c6b4d08559c32c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302007"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618501"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
@@ -34,7 +34,7 @@ Die Möglichkeit zum Anrufen und Empfangen von Anrufen mithilfe von Direct-Routi
 - Direct Routing-Komponenten in der Microsoft Cloud 
 - Telecom trunks 
 
-Wenn Sie Schwierigkeiten bei der Problembehandlung haben, können Sie einen Supportfall bei Ihrem SBC-Anbieter oder Microsoft öffnen. 
+Wenn Sie Schwierigkeiten bei der Problembehandlung haben, können Sie einen Supportfall bei Ihrem SBC-Anbieter oder microsoft öffnen. 
 
 Microsoft arbeitet daran, weitere Tools für die Problembehandlung und Überwachung zur Verfügung zu haben. Überprüfen Sie die Dokumentation regelmäßig auf Aktualisierungen. 
 
@@ -56,7 +56,7 @@ Wenn ein Aufruf erfolgt, gilt die folgende Logik:
 
 - Der SBC wurde um 11:00 Uhr gekoppelt.  
 - Der SBC sendet Optionen um 11:01, 11:02 und so weiter.  
-- Um 11:15 uhr nimmt ein Benutzer einen Anruf ab, und der Routingmechanismus wählt diesen SBC aus. 
+- Um 11:15 Uhr nimmt ein Benutzer einen Anruf ab, und der Routingmechanismus wählt diesen SBC aus. 
 
 Das direkte Routing verwendet die regulären Intervalloptionen dreimal (das normale Intervall beträgt eine Minute). Wenn in den letzten drei Minuten Optionen gesendet wurden, gilt der SBC als fehlerfrei.
 
@@ -64,9 +64,9 @@ Wenn der SBC im Beispiel Optionen zu einem beliebigen Zeitpunkt zwischen 11:12 u
 
 Herabstufung bedeutet, dass SBC nicht zuerst ausprobiert wird. Beispielsweise haben wir eine sbc1.contoso.com und sbc2.contoso.com mit gleicher Priorität.  
 
-Wenn sbc1.contoso.com SIP-Optionen nicht wie zuvor beschrieben in regelmäßigen Abständen senden, wird sie herabgestuft. Als Nächstes sbc2.contoso.com sie nach dem -Aufruf. Wenn "sbc2.contoso.con" den Anruf nicht abliefern kann, sbc1.contoso.com (herabgestuft) erneut versucht, bevor ein Fehler generiert wird. 
+Wenn sbc1.contoso.com SIP-Optionen nicht wie zuvor beschrieben in regelmäßigen Abständen senden, wird sie herabgestuft. Als Nächstes sbc2.contoso.com sie nach dem -Aufruf. Wenn "sbc2.contoso.con" den Anruf nicht abliefern kann, wird sbc1.contoso.com (herabgestuft) erneut versucht, bevor ein Fehler generiert wird. 
 
-Werden zwei (oder mehr) SBCs auf einer Route als fehlerfrei und gleich angesehen, wird die Fisher-Yates gemischteUffle angewendet, um die Anrufe zwischen den SBCs zu verteilen.
+Wenn zwei (oder mehr) SBCs in einer Route als fehlerfrei und gleich angesehen werden, wird Fisher-Yates gemischteUffle angewendet, um die Anrufe zwischen den SBCs zu verteilen.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Überwachen des Anrufqualitätsanalyse-Dashboards und von SBC-Protokollen 
  
@@ -79,7 +79,7 @@ Zur Überwachung der Konfiguration können Sie die folgenden Tools verwenden:
 
 Der Direct-Routingdienst verfügt über sehr beschreibende Fehlercodes, die entweder in der Anrufanalyse oder in den SBC-Protokollen gemeldet werden. 
 
-Das Anrufqualitätsdashboard bietet Informationen zur Anrufqualität und Zuverlässigkeit. Weitere Informationen zur Problembehandlung mit der Anrufanalyse finden Sie unter Aktivieren und Verwenden des Anrufqualitätsdashboards für Microsoft Teams und [Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) und Verwenden der Anrufanalyse zur Problembehandlung bei schlechter [Anrufqualität.](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
+Das Anrufqualitätsdashboard bietet Informationen zur Anrufqualität und Zuverlässigkeit. Weitere Informationen zur Problembehandlung mit der Anrufanalyse finden Sie unter Aktivieren und Verwenden des Anrufqualitätsdashboards für Microsoft Teams und [Skype for Business Online](/SkypeForBusiness/using-call-quality-in-your-organization/turning-on-and-using-call-quality-dashboard) und Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität. [](/SkypeForBusiness/using-call-quality-in-your-organization/use-call-analytics-to-troubleshoot-poor-call-quality) 
 
 Bei einem Anruffehler bietet die Anrufanalyse SIP-Standardcodes, die Ihnen bei der Problembehandlung helfen. 
 

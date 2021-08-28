@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: deb5106ebca49644f6e3a23f607d5d1c352fc29e67c2390c39c1182d75a0bb53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c33cfec3f0c242381ab4a3cd09b83eea02521375
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347550"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626397"
 ---
 # <a name="assign-policies-to-your-users-in-microsoft-teams"></a>Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams
 
@@ -63,10 +63,10 @@ Bevor Sie Richtlinien einzelnen Benutzern oder Gruppen zuweisen, beginnen Sie, i
 
 |So geht's  |Wenn...  | Verwendung von ...
 |---------|---------|----|
-|[Zuweisen einer Richtlinie zu einzelnen Benutzern](#assign-a-policy-to-individual-users)    | Sie sind neu bei Teams und beginnen gerade, oder Sie müssen nur einer kleinen Anzahl von Benutzern eine oder mehrere Richtlinien zuweisen. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul
-|[Zuweisen einer Richtlinie zu einer Gruppe](#assign-a-policy-to-a-group) |Weisen Sie Richtlinien basierend auf der Gruppenmitgliedschaft eines Benutzers zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste eine Richtlinie zu.| Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul|
-|[Zuweisen einer Richtlinie zu einer Gruppe von Benutzern](#assign-a-policy-to-a-batch-of-users)   | Weisen Sie Richtlinien großen Gruppen von Benutzern zu. Weisen Sie beispielsweise Hunderten oder Tausenden von Benutzern in Ihrer Organisation gleichzeitig eine Richtlinie zu. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul|
-| [Zuweisen eines Richtlinienpakets zu Benutzern](#assign-a-policy-package-to-users)  |Weisen Sie bestimmten Gruppen von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise Lehrkräften in Ihrer Bildungseinrichtungen das Richtlinienpaket für Bildungseinrichtungen zu, um ihnen Vollzugriff auf Chats, Anrufe und Besprechungen zu geben. Weisen Sie das Richtlinienpaket für Bildungseinrichtungen (Schüler/Studenten sekundärer Bildungseinrichtungen) sekundären Schülern/Studenten zu, um bestimmte Funktionen wie private Anrufe zu beschränken.  |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul|
+|[Zuweisen einer Richtlinie zu einzelnen Benutzern](#assign-a-policy-to-individual-users)    | Sie sind neu bei Teams und beginnen gerade, oder Sie müssen nur einer kleinen Anzahl von Benutzern eine oder mehrere Richtlinien zuweisen. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul
+|[Zuweisen einer Richtlinie zu einer Gruppe](#assign-a-policy-to-a-group) |Weisen Sie Richtlinien basierend auf der Gruppenmitgliedschaft eines Benutzers zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste eine Richtlinie zu.| Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul|
+|[Zuweisen einer Richtlinie zu einer Gruppe von Benutzern](#assign-a-policy-to-a-batch-of-users)   | Weisen Sie Richtlinien großen Gruppen von Benutzern zu. Weisen Sie beispielsweise Hunderten oder Tausenden von Benutzern in Ihrer Organisation gleichzeitig eine Richtlinie zu. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul|
+| [Zuweisen eines Richtlinienpakets zu Benutzern](#assign-a-policy-package-to-users)  |Weisen Sie bestimmten Gruppen von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise Lehrkräften in Ihrer Bildungseinrichtungen das Richtlinienpaket für Bildungseinrichtungen zu, um ihnen Vollzugriff auf Chats, Anrufe und Besprechungen zu geben. Weisen Sie das Richtlinienpaket für Bildungseinrichtungen (Schüler/Studenten sekundärer Bildungseinrichtungen) sekundären Schülern/Studenten zu, um bestimmte Funktionen wie private Anrufe zu beschränken.  |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul|
 | [Zuweisen eines Richtlinienpakets zu einer Gruppe](#assign-a-policy-package-to-a-group) (in der privaten Vorschau)   |Weisen Sie einer Gruppe von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste ein Richtlinienpaket zu. |Das Microsoft Teams Admin Center (in Kürze verfügbar) oder PowerShell-Cmdlets im Teams PowerShell-Modul|
 | [Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern](#assign-a-policy-package-to-a-batch-of-users)|Weisen Sie einer Gruppe von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise allen Lehrkräften in Ihrer Schule das Richtlinienpaket für "Education (Lehrer)" mithilfe einer Batchzuweisung zu, um ihnen Vollzugriff auf Chats, Anrufe und Besprechungen zu geben. Weisen Sie das Richtlinienpaket für Bildungseinrichtungen (Sekundäre Bildungseinrichtungen) einer Gruppe von sekundären Schülern/Studenten zu, um bestimmte Funktionen wie private Anrufe zu beschränken.|PowerShell-Cmdlets im Teams PowerShell-Modul|
 
@@ -76,7 +76,7 @@ Führen Sie die folgenden Schritte aus, um die globalen (organisationsweiten Sta
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zur Richtlinienseite für den Richtlinientyp, den Sie aktualisieren möchten. Beispielsweise können sie **Teams** Teams , Besprechungsbesprechungsrichtlinien  >     >  , **Messaging-Richtlinien** oder **Voice**  >  **Calling-Richtlinien verwenden.**
+1. Wechseln Sie im linken Navigationsbereich Microsoft Teams Admin Center zur Richtlinienseite für den Richtlinientyp, den Sie aktualisieren möchten. Beispielsweise können Sie **Teams**  >  **Teams** Besprechungsrichtlinien   >  , **Messaging-Richtlinien** oder **Voice**  >  **Calling-Richtlinien verwenden.**
 2. Wählen Sie **die Richtlinie Global (Organisationsweit Standard)** aus, um die aktuellen Einstellungen anzeigen.
 3. Aktualisieren Sie die Richtlinie nach Bedarf, und wählen Sie dann **Anwenden aus.**
 
@@ -122,7 +122,7 @@ Führen Sie die folgenden Schritte aus, um eine Richtlinie einem einzelnen Benut
 
 So weisen Sie einem Benutzer eine Richtlinie zu:
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Benutzer **,** und wählen Sie dann den Benutzer aus.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Benutzer **,** und wählen Sie dann den Benutzer aus.
 2. Wählen Sie den Benutzer aus, indem Sie links des Benutzernamens klicken und dann **Einstellungen bearbeiten auswählen.**
 3. Wählen Sie die Richtlinie aus, die Sie zuweisen möchten, und wählen Sie dann **Anwenden aus.**
 
@@ -136,14 +136,14 @@ Sie können auch die folgenden Schritte ausführen:
 
 ### <a name="use-powershell"></a>Verwenden von PowerShell
 
-Jeder Richtlinientyp verfügt über einen eigenen Satz von Cmdlets für die Verwaltung. Verwenden Sie ```Grant-``` das Cmdlet für einen bestimmten Richtlinientyp, um die Richtlinie zuzuordnen. Verwenden Sie beispielsweise das ```Grant-CsTeamsMeetingPolicy``` Cmdlet , um Benutzern Teams Besprechungsrichtlinie zuzuordnen. Diese Cmdlets sind im PowerShell Teams-Modul enthalten und werden in der Referenz [Skype for Business-Cmdlet dokumentiert.](/powershell/skype/intro?view=skype-ps)
+Jeder Richtlinientyp verfügt über einen eigenen Satz von Cmdlets für die Verwaltung. Verwenden Sie ```Grant-``` das Cmdlet für einen bestimmten Richtlinientyp, um die Richtlinie zuzuordnen. Verwenden Sie beispielsweise das ```Grant-CsTeamsMeetingPolicy``` Cmdlet, um Benutzern Teams Besprechungsrichtlinie zuzuordnen. Diese Cmdlets sind im PowerShell Teams Modul enthalten und werden in der Referenz [Skype for Business-Cmdlet dokumentiert.](/powershell/skype/intro?view=skype-ps)
 
 Laden Sie die Teams [PowerShell Public Release](https://www.powershellgallery.com/packages/MicrosoftTeams/) herunter, installieren Sie sie (sofern noch nicht vorhanden), und führen Sie dann die folgenden Schritte aus, um eine Verbindung herzustellen.
 
 > [!NOTE]
 > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams.
 >
-> Wenn Sie die neueste Version Teams [PowerShell verwenden,](https://www.powershellgallery.com/packages/MicrosoftTeams/)müssen Sie den Skype for Business Online Connector nicht installieren.
+> Wenn Sie die neueste Version Teams [PowerShell](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
 
 ```powershell
 # When using Teams PowerShell Module
@@ -167,7 +167,7 @@ Mit der Richtlinienzuweisung zu Gruppen können Sie einer Benutzergruppe, z. B. 
 
 Die Richtlinienzuweisung zu Gruppen wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, funktioniert aber auch mit größeren Gruppen.
 
-Wenn Sie die Richtlinie zuweisen, wird sie der Gruppe sofort zugewiesen. Die Weitergabe der Richtlinienzuweisung an Mitglieder der Gruppe wird jedoch als Hintergrundvorgang durchgeführt und kann je nach Größe der Gruppe einige Zeit dauern. Dasselbe gilt, wenn eine Richtlinie nicht einer Gruppe zugewiesen wird, oder wenn Mitglieder einer Gruppe hinzugefügt oder aus ihr entfernt werden.
+Wenn Sie die Richtlinie zuweisen, wird sie der Gruppe sofort zugewiesen. Die Weitergabe der Richtlinienzuweisung an Mitglieder der Gruppe erfolgt jedoch als Hintergrundvorgang und kann je nach Größe der Gruppe einige Zeit dauern. Dasselbe gilt, wenn eine Richtlinie nicht einer Gruppe zugewiesen wird, oder wenn Mitglieder einer Gruppe hinzugefügt oder aus ihr entfernt werden.
 
 Gruppenrichtlinienzuweisungen werden nur an Benutzer weiterveriert, die direkte Mitglieder der Gruppe sind. Die Zuweisungen werden nicht an Mitglieder geschachtelter Gruppen weiterverteilen.
 
@@ -197,7 +197,7 @@ Wenn Sie einer Gruppe eine Richtlinie zuweisen, geben Sie eine Rangfolge für di
 
 Die Gruppenzuordnungsrangfolge ist relativ zu anderen Gruppenzuweisungen desselben Typs. Wenn Sie z. B. eine Anrufrichtlinie zwei Gruppen zuweisen, legen Sie die Rangfolge einer Aufgabe auf 1 und die andere auf 2, und 1 ist die höchste Einstufung. Die Rangfolge der Gruppenzuweisungen gibt an, welche Gruppenmitgliedschaft im Hinblick auf die Vererbung wichtiger oder relevanter als andere Gruppenmitgliedschaften ist.
 
-Sie haben beispielsweise zwei Gruppen: Mitarbeiter Store Mitarbeiter und Store Vorgesetzte. Beiden Gruppen wird eine Anrufrichtlinie Teams Richtlinie Store Mitarbeiter-Anrufrichtlinie bzw. Store Manager-Anrufrichtlinie zugewiesen. Für einen Store-Manager, der in beiden Gruppen ist, ist ihre Rolle als Manager relevanter als ihre Rolle als Mitarbeiter. Daher sollte die Anrufrichtlinie, die der Store-Manager-Gruppe zugewiesen ist, eine höhere Rangfolge haben.
+Sie haben beispielsweise zwei Gruppen: Mitarbeiter Store Mitarbeiter und Store Vorgesetzte. Beiden Gruppen ist eine Anrufrichtlinie Teams Richtlinie für Anrufer Store Mitarbeiter" bzw. Store Anrufrichtlinie für Manager zugewiesen. Für einen Store-Manager, der in beiden Gruppen ist, ist seine Rolle als Vorgesetzter relevanter als seine Rolle als Mitarbeiter. Daher sollte die Anrufrichtlinie, die der Store-Manager-Gruppe zugewiesen ist, eine höhere Rangfolge haben.
 
 |Gruppe |Teams von Anrufrichtlinien  |Rang|
 |---------|---------|---|
@@ -209,7 +209,7 @@ Wenn Sie keine Rangfolge angeben, wird der Richtlinienzuweisung die niedrigste E
 ### <a name="in-the-teams-admin-center"></a>Im Teams Admin Center
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen über das Microsoft Teams Admin Center nur für Anrufrichtlinien für Teams,Teams-Parkrichtlinien, Teams-Richtlinien, Teams-Richtlinien für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
+> Derzeit ist die Richtlinienzuweisung an Gruppen, die das Microsoft Teams Admin Center verwenden, nur für Anrufrichtlinien für Teams-Anrufe, Teams-Richtlinien zum Parken von Anrufen, Teams-Richtlinie, Teams-Richtlinie für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
 
 1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zur Seite "Richtlinientyp". Wechseln Sie z. B. **zu**  >  **Besprechungsbesprechungsrichtlinien**.
 
@@ -221,14 +221,14 @@ Wenn Sie keine Rangfolge angeben, wird der Richtlinienzuweisung die niedrigste E
     3. Wählen Sie die Richtlinie aus, die Sie zuweisen möchten.
     4. Wählen Sie **Übernehmen aus.**
 
-Um eine Gruppenrichtlinienzuweisung zu  entfernen, wählen Sie auf der Seite "Richtlinie" auf der Registerkarte Gruppenrichtlinienzuweisung die Gruppenzuweisung und dann Entfernen **aus.**
+Um eine Gruppenrichtlinienzuweisung zu  entfernen, wählen Sie auf der Richtlinienseite auf der Registerkarte Gruppenrichtlinienzuweisung die Gruppenzuweisung und dann Entfernen **aus.**
 
 Um die Bewertung einer Gruppenzuordnung zu ändern, müssen Sie zuerst die Gruppenrichtlinienzuweisung entfernen. Führen Sie dann die vorstehenden Schritte aus, um die Richtlinie einer Gruppe zuzuordnen.
 
 ### <a name="use-the-powershell-option"></a>Verwenden der PowerShell-Option
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen mithilfe von PowerShell nicht für alle Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
+> Derzeit ist die Richtlinienzuweisung zu Gruppen mithilfe von PowerShell nicht für alle Teams Richtlinientypen verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
 #### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -308,7 +308,7 @@ Set-CsGroupPolicyAssignment -GroupId 566b8d39-5c5c-4aaa-bc07-4f36278a1b38 -Polic
 
 Hier ist ein Beispiel für das Ändern der effektiven Richtlinie für einen Benutzer, dem eine Richtlinie direkt zugewiesen wurde.
 
-Zunächst verwenden wir das [Cmdlet Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) zusammen mit dem -Parameter, um Details zu den Teams-Richtlinien für Live meeting broadcast zu erhalten, die dem Benutzer `PolicySource` zugeordnet sind.
+Zunächst verwenden wir das [Cmdlet Get-CsUserPolicyAssignment](/powershell/module/teams/get-csuserpolicyassignment) zusammen mit dem -Parameter, um Details zu den Teams-Richtlinien für Liveübertragungen zu erhalten, die dem Benutzer `PolicySource` zugeordnet sind.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity daniel@contoso.com -PolicyType TeamsMeetingBroadcastPolicy | select -ExpandProperty PolicySource
@@ -325,7 +325,7 @@ Group          Vendor Live Events 566b8d39-5c5c-4aaa-bc07-4f36278a1b38
 
 Jetzt entfernen wir die Richtlinie für Mitarbeiterereignisse vom Benutzer. Dies bedeutet, dass dem Benutzer keine Richtlinie für Teams-Liveübertragung mehr direkt zugewiesen ist, und die Richtlinie "Anbieter-Liveereignisse" erbt, die der Gruppe zugewiesen ist, der der Benutzer angehört.
 
-Verwenden Sie dazu das folgende Cmdlet im Skype for Business PowerShell-Modul.
+Verwenden Sie dazu das folgende Cmdlet Skype for Business PowerShell-Modul.
 
 ```powershell
 Grant-CsTeamsMeetingBroadcastPolicy -Identity daniel@contoso.com -PolicyName $null
@@ -356,11 +356,11 @@ Um den Status Ihrer Richtlinienzuweisung zu sehen, wählen Sie  in dem  Banner, 
 ### <a name="use-powershell-method"></a>Verwenden der PowerShell-Methode
 
 > [!NOTE]
-> Derzeit ist die Batchrichtlinienzuweisung mithilfe von PowerShell nicht für alle Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
+> Derzeit ist die Batchrichtlinienzuweisung mit PowerShell nicht für alle Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsBatchPolicyAssignmentOperation.](/powershell/module/teams/new-csbatchpolicyassignmentoperation)
 
 Mit der Batchrichtlinienzuweisung können Sie großen Gruppen von Benutzern gleichzeitig eine Richtlinie zuweisen, ohne ein Skript verwenden zu müssen. Sie verwenden das [Cmdlet New-CsBatchPolicyAssignmentOperation,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um eine Gruppe von Benutzern und die Richtlinie zu übermitteln, die Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert. Anschließend können Sie das [Cmdlet Get-CsBatchPolicyAssignmentOperation](/powershell/module/teams/get-csbatchpolicyassignmentoperation) verwenden, um den Fortschritt und Status der Zuordnungen in einem Stapel nachverfolgt.
 
-Geben Sie Benutzer nach ihrer Objekt-ID oder der SIP-Adresse (Session Initiation Protocol) an. Die SIP-Adresse eines Benutzers hat häufig den gleichen Wert wie der Benutzerprinzipalname (User Principal Name, UPN) oder die gleiche E-Mail-Adresse, aber dies ist nicht erforderlich. Wenn ein Benutzer mit dem UPN oder der E-Mail-Adresse angegeben wird, aber einen anderen Wert als seine SIP-Adresse hat, kann die Richtlinienzuweisung für den Benutzer nicht ausgeführt werden. Wenn ein Batch doppelte Benutzer enthält, werden die Duplikate vor der Verarbeitung aus dem Batch entfernt, und der Status wird nur für die im Batch verbleibenden eindeutigen Benutzer bereitgestellt.
+Geben Sie Benutzer nach ihrer Objekt-ID oder der SIP-Adresse (Session Initiation Protocol) an. Die SIP-Adresse eines Benutzers hat häufig denselben Wert wie der Benutzerprinzipalname (User Principal Name, UPN) oder die gleiche E-Mail-Adresse, aber dies ist nicht erforderlich. Wenn ein Benutzer mit dem UPN oder der E-Mail-Adresse angegeben wird, aber einen anderen Wert als seine SIP-Adresse hat, kann die Richtlinienzuweisung für den Benutzer nicht ausgeführt werden. Wenn ein Batch doppelte Benutzer enthält, werden die Duplikate vor der Verarbeitung aus dem Batch entfernt, und der Status wird nur für die im Batch verbleibenden eindeutigen Benutzer bereitgestellt.
 
 Ein Batch kann bis zu 5.000 Benutzer umfassen. Um optimale Ergebnisse zu erzielen, übermitteln Sie nicht mehr als ein paar Batches gleichzeitig. Lassen Sie die Verarbeitung von Batches abschließen, bevor Sie weitere Batches übermitteln.
 
@@ -380,7 +380,7 @@ Connect-MicrosoftTeams
 
 Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
-#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Installieren und Herstellen einer Verbindung mit dem Azure AD PowerShell für Graph Modul (optional)
+#### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module-optional"></a>Installieren und Herstellen einer Verbindung mit Azure AD PowerShell für Graph Modul (optional)
 
 Möglicherweise möchten Sie auch das [Azure AD PowerShell](/powershell/azure/active-directory/install-adv2) für Graph-Modul herunterladen und installieren (sofern noch nicht vorhanden) und eine Verbindung mit Azure AD herstellen, damit Sie eine Liste der Benutzer in Ihrer Organisation abrufen können.
 
@@ -394,14 +394,14 @@ Wenn Sie dazu aufgefordert werden, melden Sie sich mit den gleichen Administrato
 
 #### <a name="assign-a-setup-policy-to-a-batch-of-users"></a>Zuweisen einer Setuprichtlinie zu einer Gruppe von Benutzern
 
-In diesem Beispiel verwenden wir das [New-CsBatchPolicyAssignmentOperation-Cmdlet,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einer Gruppe von Benutzern, die in der Datei "Users_ids.txt" aufgeführt sind, eine App-Setuprichtlinie namens "HR-App-Setuprichtlinie" zuzuweisen.
+In diesem Beispiel verwenden wir das [Cmdlet New-CsBatchPolicyAssignmentOperation,](/powershell/module/teams/new-csbatchpolicyassignmentoperation) um einer Gruppe von Benutzern, die in der Datei "Users_ids.txt" aufgeführt sind, eine App-Setuprichtlinie namens "HR-App-Setuprichtlinie" zuzuweisen.
 
 ```powershell
 $users_ids = Get-Content .\users_ids.txt
 New-CsBatchPolicyAssignmentOperation -PolicyType TeamsAppSetupPolicy -PolicyName "HR App Setup Policy" -Identity $users_ids -OperationName "Example 1 batch"
 ```
 
-In diesem Beispiel wird eine Verbindung mit Azure AD hergestellt, um eine Sammlung von Benutzern abzurufen. Anschließend weisen wir einer Gruppe von Benutzern, die über ihre SIP-Adresse angegeben wurden, eine Messagingrichtlinie mit dem Namen "Messaging-Richtlinie für neue Mitarbeiter" zu.
+In diesem Beispiel stellen wir eine Verbindung mit Azure AD bereit, um eine Sammlung von Benutzern abzurufen, und weisen dann einer Gruppe von Benutzern, die über ihre SIP-Adresse angegeben wurden, eine Messagingrichtlinie mit dem Namen New Hire Messaging Policy zu.
 
 ```powershell
 Connect-AzureAD
@@ -427,7 +427,7 @@ Weitere Informationen finden Sie unter [Get-CsBatchPolicyAssignmentOperation.](/
 
 ## <a name="assign-a-policy-package-to-users"></a>Zuweisen eines Richtlinienpakets zu Benutzern
 
-Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die in Ihrer Organisation über die gleichen oder ähnliche Rollen verfügen. Jedes Richtlinienpaket ist auf eine Benutzerrolle ausgelegt und enthält vordefinierte Richtlinien und Richtlinieneinstellungen, die für diese Rolle typische Aktivitäten unterstützen. Einige Beispiele für Richtlinienpakete sind das Paket "Education (Teacher)" und das Paket "Gesundheitswesen (klinischer Mitarbeiter)". Weitere Informationen finden Sie unter [Verwalten von Richtlinienpaketen in Teams.](manage-policy-packages.md)
+Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die in Ihrer Organisation über die gleichen oder ähnliche Rollen verfügen. Jedes Richtlinienpaket ist auf eine Benutzerrolle ausgelegt und enthält vordefinierte Richtlinien und Richtlinieneinstellungen, die für diese Rolle typische Aktivitäten unterstützen. Einige Beispiele für Richtlinienpakete sind das Paket "Education (Teacher)" und das Paket "Klinischer Mitarbeiter" im Gesundheitswesen. Weitere Informationen finden Sie unter [Verwalten von Richtlinienpaketen in Teams.](manage-policy-packages.md)
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
@@ -439,7 +439,7 @@ Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und R
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Zuweisen eines Richtlinienpakets zu mehreren Benutzern
 
-1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu Richtlinienpakete **,** und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen auf klicken.
+1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu Richtlinienpakete **,** und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen klicken.
 
 2. Wählen Sie **Benutzer verwalten** aus.
 
@@ -453,12 +453,12 @@ Die Gruppenzuweisung von Richtlinienpaketen ermöglicht es Ihnen, mehrere Richtl
 
 Die Zuweisung von Richtlinienpaketen zu Gruppen wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, funktioniert aber auch bei größeren Gruppen.
 
-Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Die Weitergabe der Richtlinienzuweisung an Mitglieder der Gruppe wird jedoch als Hintergrundvorgang durchgeführt und kann je nach Größe der Gruppe einige Zeit dauern. Dasselbe gilt, wenn eine Richtlinie nicht einer Gruppe zugewiesen wird, oder wenn Mitglieder einer Gruppe hinzugefügt oder aus ihr entfernt werden.
+Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Die Weitergabe der Richtlinienzuweisung an Mitglieder der Gruppe wird jedoch als Hintergrundvorgang durchgeführt und kann je nach Größe der Gruppe einige Zeit dauern. Dasselbe gilt, wenn eine Richtlinie nicht einer Gruppe zugewiesen wird oder Mitglieder einer Gruppe hinzugefügt oder aus ihr entfernt werden.
 
 > [!IMPORTANT]
 > Bevor Sie beginnen, ist es wichtig, Rangfolgeregeln [und](#precedence-rules) Rangfolge von [Gruppenzuweisungen zu verstehen.](#group-assignment-ranking) Lesen und verstehen Sie die Konzepte in [Wichtige](#what-you-need-to-know-about-policy-assignment-to-groups) Informationen zur Richtlinienzuweisung für Gruppen weiter oben in diesem Artikel.
 
-### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern im Admin Center
+### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Zuweisen eines Richtlinienpakets zu einer Benutzergruppe im Admin Center
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
@@ -486,11 +486,11 @@ Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Di
 
 #### <a name="get-the-teams-powershell-module"></a>Holen Sie sich Teams PowerShell-Modul
 
-Eine Schritt-für-Schritt-Anleitung finden Sie unter [Installieren Teams PowerShell.](teams-powershell-install.md)
+Eine schrittweise Anleitung finden Sie unter Installieren [Teams PowerShell.](teams-powershell-install.md)
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Zuweisen eines Richtlinienpakets zu einer Benutzergruppe
 
-Verwenden Sie [das Cmdlet Grant-CsGroupPolicyPackageAssignment,](/powershell/module/teams/grant-csgrouppolicypackageassignment) um einer Gruppe ein Richtlinienpaket zuzuweisen. Sie können eine Gruppe mit der Objekt-ID, der SIP-Adresse oder der E-Mail-Adresse angeben. Geben Sie beim Zuweisen des Richtlinienpakets eine [Gruppenzuordnungsrangfolge](#group-assignment-ranking) für jeden Richtlinientyp im Richtlinienpaket an.
+Verwenden Sie das [Cmdlet Grant-CsGroupPolicyPackageAssignment,](/powershell/module/teams/grant-csgrouppolicypackageassignment) um einer Gruppe ein Richtlinienpaket zuzuweisen. Sie können eine Gruppe mit der Objekt-ID, der SIP-Adresse oder der E-Mail-Adresse angeben. Wenn Sie das Richtlinienpaket zuweisen, geben Sie eine [Gruppenzuordnungsrangfolge](#group-assignment-ranking) für jeden Richtlinientyp im Richtlinienpaket an.
 
 In diesem Beispiel weisen wir das Education_Teacher-Richtlinienpaket einer Gruppe mit der Zuordnungsrangfolge 1 für TeamsAppSetupPolicy und TeamsMeetingBroadcastPolicy und der Rangfolge 2 für TeamsMeetingPolicy zu.
 

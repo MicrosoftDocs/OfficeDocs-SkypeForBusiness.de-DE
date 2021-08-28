@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Erstellen oder Ändern einer Reaktionsgruppenwarteschlange in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: d8b875063d37d38ece7a6ec59c9b0bffbb16ee091e31f67087eb2cc0b52616e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338743"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611260"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Erstellen oder Ändern einer Warteschlange in Skype for Business
  
@@ -106,7 +106,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     > [!NOTE]
     > Wenn Sie einer der delegierten Reaktionsgruppen-Manager für einen verwalteten Workflow sind, können Sie Agentgruppen und Warteschleifen erstellen und Warteschleifen Agentgruppen zuweisen. 
   
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Erstellen Sie die Ansage, die abgespielt werden soll, wenn der Schwellenwert für den Warteschleifen-Timeout erreicht wurde, und speichern Sie diesen in einer Variable. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -181,7 +181,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
     > [!NOTE]
-    > Ausführliche Informationen zum Erstellen der Agentgruppe finden Sie unter [New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Ausführliche Informationen zum Erstellen der Agentgruppe finden Sie unter [New-CsRgsAgentGroup.](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Die Warteschleife erstellen. Führen Sie an der Eingabeaufforderung Folgendes aus:
     

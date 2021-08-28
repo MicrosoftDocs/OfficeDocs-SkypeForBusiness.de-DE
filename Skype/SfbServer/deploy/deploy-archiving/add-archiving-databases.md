@@ -9,15 +9,15 @@ f1.keywords:
 - NOCSH
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server Bereitstellung Archivierungsdatenbanken hinzufügen.'
-ms.openlocfilehash: e775b6e33bedd7bc5aeea5c9d7c04b7d4e5052a2578650c5a3335219c26a7be7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36d825ef79befa430edfd126bd9cd5a5d840b2f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312213"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58611324"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype for Business Server
  
@@ -52,7 +52,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
    - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten. Wenn alle Ihre Benutzer am Microsoft Exchange Server 2013 oder höher verwaltet werden, können Sie Skype for Business Kommunikation für alle Ihre Benutzer in Exchange archivieren. In diesem Fall müssen Sie SQL Server Archivierungsspeicher nicht konfigurieren.
     
-   - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **"Neu",** und führen Sie dann im Dialogfeld **"Neuen SQL Server Store definieren"** die folgenden Schritte aus:
+   - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **Neu,** und führen Sie dann im Dialogfeld **"Neuen SQL Server Store definieren"** die folgenden Schritte aus:
     
    - Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Speicher erstellen möchten.
     
@@ -66,7 +66,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
    - Um einen neuen SQL Server Speicher für die Spiegelung anzugeben, klicken Sie auf **Neu,** und führen Sie dann im Dialogfeld Neue **SQL Server Store** definieren eine der folgenden Aktionen aus:
     
-     a. Geben Sie **in SQL Server FQDN** den FQDN des SQL Server an, in dem Sie den neuen SQL Server Speicher erstellen möchten.
+     a. Geben Sie in **SQL Server FQDN** den FQDN des SQL Server an, in dem Sie den neuen SQL Server Speicher erstellen möchten.
     
      b. Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie verwenden möchten.
     
@@ -84,7 +84,7 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
 ### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>Veröffentlichen der aktualisierten Topologie zum Hinzufügen einer Archivierungsdatenbank zu Ihrer Bereitstellung
 
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird, oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
     > [!NOTE]
     > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist. Zum Veröffentlichen einer Topologie, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, müssen Sie jedoch ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für die Dateifreigabe verfügt, die Sie für den Skype for Business Server Dateispeicher verwenden (sodass der Topologie-Generator die erforderliche freie Zugriffssteuerungsliste (Discretionary Access Control List, DACLs) oder ein Konto mit entsprechenden Rechten konfigurieren kann.

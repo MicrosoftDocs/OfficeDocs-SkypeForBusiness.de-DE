@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie eine Zertifikatanforderung an eine Onlinezertifizierungsstelle (z. B. Server, die sich in Ihrem internen Netzwerk befinden) auf der Seite "Zertifizierungsstelle auswählen" stellen, stehen Ihnen zwei Optionen zur Verfügung:'
-ms.openlocfilehash: f6c0a52018c5741fab22f29e23dd1f8a27b3709cca347cd24bcc1c2e11b87688
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 96f601a26f64802e93d776438dfc92b50f3ae76a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326481"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591829"
 ---
 # <a name="certificate-request-certificate-authority"></a>Zertifikatanforderung (Zertifizierungsstelle)
  

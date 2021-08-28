@@ -9,25 +9,25 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 65025c78-c263-472c-9ff9-e170588f10b5
 description: 'Zusammenfassung: Erfahren Sie, wie Sie PSTN-Verwendungsdatensätze mithilfe der Skype for Business Server Systemsteuerung oder der Skype for Business Server-Verwaltungsshell anzeigen.'
-ms.openlocfilehash: 4f36f263238c1c50299ff22756eaf7e6eed100141d15b3b7250a70a9a11adddf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b708a388950424453e833c28d846e6258070ef5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626187"
 ---
 # <a name="view-pstn-usage-records-in-skype-for-business"></a>Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business
 
 **Zusammenfassung:** Erfahren Sie, wie Sie PSTN-Verwendungsdatensätze mithilfe der Skype for Business Server Systemsteuerung oder der Skype for Business Server-Verwaltungsshell anzeigen.
 
-Ein PSTN-Verwendungseintrag (Public Switched Telephone Network) gibt eine Anrufklasse (z. B. interne, lokale oder Ferngespräche) an, die von verschiedenen Benutzern oder Benutzergruppen in einer Organisation getätigt werden kann. Ausführliche Informationen finden Sie unter [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) in der Planungsdokumentation.
+Ein PSTN-Verwendungseintrag (Public Switched Telephone Network) gibt eine Anrufklasse (z. B. intern, lokal oder fern) an, die von verschiedenen Benutzern oder Benutzergruppen in einer Organisation getätigt werden kann. Ausführliche Informationen finden Sie unter [PSTN Usage Records](/previous-versions/office/lync-server-2013/lync-server-2013-pstn-usage-records) in der Planungsdokumentation.
 
 ### <a name="to-view-a-pstn-usage-record-by-using-skype-for-business-server-control-panel"></a>So zeigen Sie einen PSTN-Verwendungseintrag mithilfe Skype for Business Server Systemsteuerung an
 

@@ -11,22 +11,22 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4846b787-d55e-4364-bdcd-2dee33f0251c
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Um die Replikation der in Schritt 1: Vorbereiten des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell Lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:'
-ms.openlocfilehash: 6198864a92e23bda8668969792466f564b5040cc14bbb4fcc425a8262c4613e0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Um die Replikation der in Schritt 1: Vorbereiten des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:'
+ms.openlocfilehash: e3c4a1d234427c43a9b0de298591b08f8a8194df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309934"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58591819"
 ---
 # <a name="verify-replication-in-the-domain"></a>Überprüfen der Replikation in der Domäne
  
-Um die Replikation der in **Schritt 1: Vorbereiten** des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:
+Um die Replikation der in **Schritt 1: Vorbereiten** des Schemas durchgeführten Domänenvorbereitung zu überprüfen, müssen Sie ein Cmdlet aus der Skype for Business Server Verwaltungsshell Lync Server-Verwaltungsshell ausführen. Um das Cmdlet Windows PowerShell auszuführen, melden Sie sich bei einem Computer an, der Mitglied der von Ihnen vorbereiteten Domäne ist, und als Mitglied der Gruppe "Domänenadministratoren". Gehen Sie wie folgt vor:
   
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie in Windows PowerShell Folgendes ein:
     
