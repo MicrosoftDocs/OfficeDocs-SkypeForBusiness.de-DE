@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Ankündigungen zum Beitreten und Verlassen einer Konferenz in Skype for Business Server
+title: Verwalten von Ankündigungen für den Konferenzbeitritt und -verlassen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: cb09f9c2-c6dc-4083-b45a-8b6773341373
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ankündigungen für den Konferenzbeitritt und -verlassen in Skype for Business Server verwalten.'
-ms.openlocfilehash: 597bf27f574413364f1d16efc31704abe3c107f143f95d9469234d84d245628b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f2219fc8d55485a4c34a8730fbec6b556d57b728
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290383"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625207"
 ---
-# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Verwalten von Ankündigungen zum Beitreten und Verlassen einer Konferenz in Skype for Business Server
+# <a name="manage-conference-join-and-leave-announcements-in-skype-for-business-server"></a>Verwalten von Ankündigungen für den Konferenzbeitritt und -verlassen in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie Ankündigungen für den Konferenzbeitritt und -verlassen in Skype for Business Server verwalten.
+**Zusammenfassung:** Erfahren Sie, wie Sie Ankündigungen für den Konferenzbeitritt und -abtritt in Skype for Business Server verwalten.
   
-Wenn Einwahlbenutzer an einer Konferenz teilnehmen oder diese verlassen, können die Konferenzankündigungsanwendung den Eingang oder das Verlassen ankündigen, indem sie einen Ton wiedergeben oder ihre Namen sagen. Sie können die Funktionsweise von Ankündigungen ändern, indem Sie Skype for Business Server Verwaltungsshell und das Cmdlet **"Set-CsDialinConferencing"** mit den folgenden Parametern verwenden:
+Wenn Einwahlbenutzer an einer Konferenz teilnehmen oder diese verlassen, können die Konferenzankündigungsanwendung ihren Eingang oder ihr Verlassen durch Abspielen eines Tons oder Durchsagen ihrer Namen ankündigen. Sie können die Funktionsweise von Ankündigungen ändern, indem Sie Skype for Business Server Verwaltungsshell und das Cmdlet **"Set-CsDialinConferencing"** mit den folgenden Parametern verwenden:
   
 - EnableNameRecording – Bestimmt, ob anonyme Teilnehmer aufgefordert werden, ihren Namen vor der Teilnahme an der Konferenz zu notieren. Der Standardwert ist "$true", was bedeutet, dass anonyme Teilnehmer aufgefordert werden, ihren Namen anzugeben, wenn sie an einer Konferenz teilnehmen. (Authentifizierte Teilnehmer notieren ihren Namen nicht, da stattdessen ihr Anzeigename verwendet wird.)
     
@@ -38,7 +38,7 @@ Sie können diese Einstellungen auf globaler Oder Standortebene konfigurieren. E
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle Cs-ServerAdministrator oder CsAdministrator an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     

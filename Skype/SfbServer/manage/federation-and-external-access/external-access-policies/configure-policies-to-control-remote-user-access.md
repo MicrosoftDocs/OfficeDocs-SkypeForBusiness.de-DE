@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Sie konfigurieren eine oder mehrere Zugriffsrichtlinien für externe Benutzer, um zu steuern, ob Remotebenutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können. Zum Steuern des Zugriffs durch Remotebenutzer können Sie Richtlinien auf globaler, Standort- und Benutzerebene konfigurieren.
-ms.openlocfilehash: 205ff2cf39a28630677390d5ee39e4dfe4beffad8be3155dd686d50fede40865
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3400544e39941aca408ca99f4c323f97e8c2cd0b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309374"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625187"
 ---
 # <a name="configure-policies-to-control-remote-user-access-in-skype-for-business-server"></a>Konfigurieren von Richtlinien zum Steuern des Remotebenutzerzugriffs in Skype for Business Server
 
@@ -33,7 +33,7 @@ Führen Sie die folgenden Schritte aus, um die einzelnen Richtlinien für den ex
 
 
 > [!NOTE]  
-> In diesem Verfahren wird beschrieben, wie eine Richtlinie nur so konfiguriert wird, dass die Kommunikation mit Remotebenutzern aktiviert wird. Jede Richtlinie, die Sie zur Unterstützung des Remotebenutzerzugriffs konfigurieren, kann jedoch auch den Verbundbenutzerzugriff und den öffentlichen Benutzerzugriff konfigurieren. Ausführliche Informationen zum Konfigurieren von Richtlinien zur Unterstützung von Verbundbenutzern finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs in Skype for Business Server.](configure-policies-to-control-federated-user-access.md) Ausführliche Informationen zum Konfigurieren von Richtlinien zur Unterstützung öffentlicher Benutzer finden Sie unter [Verwalten von SIP-Verbundanbietern für Ihre Organisation in Skype for Business Server.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+> In diesem Verfahren wird beschrieben, wie eine Richtlinie nur so konfiguriert wird, dass die Kommunikation mit Remotebenutzern aktiviert wird. Jede Richtlinie, die Sie zur Unterstützung des Remotebenutzerzugriffs konfigurieren, kann jedoch auch den Verbundbenutzerzugriff und den öffentlichen Benutzerzugriff konfigurieren. Ausführliche Informationen zum Konfigurieren von Richtlinien zur Unterstützung von Verbundbenutzern finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Zugriffs von Verbundbenutzern in Skype for Business Server.](configure-policies-to-control-federated-user-access.md) Ausführliche Informationen zum Konfigurieren von Richtlinien zur Unterstützung öffentlicher Benutzer finden Sie unter [Verwalten von SIP-Verbundanbietern für Ihre Organisation in Skype for Business Server.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
 ## <a name="to-configure-an-external-access-policy-to-support-remote-user-access"></a>So konfigurieren Sie eine Richtlinie für den externen Zugriff für die Unterstützung des Zugriffs durch Remotebenutzer

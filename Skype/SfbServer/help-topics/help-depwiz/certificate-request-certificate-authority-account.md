@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestCAAccount
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6251322d-ac36-4760-b467-bcd543af22aa
 description: Zum Übermitteln einer Anforderung erfordert Ihre Zertifizierungsstelle ggf. andere Anmeldeinformationen als die des Benutzers, als der Sie gerade angemeldet sind. Aktivieren Sie zum Zulassen einer Zertifikatsanforderung als ein anderer Benutzer das Kontrollkästchen Alternative Anmeldeinformationen für die Zertifizierungsstelle angeben, und geben Sie anschließend den Benutzernamen oder Domäne\Benutzername für einen Benutzer ein, der das Zertifikat anfordern kann. Geben Sie im Feld Kennwort das Kennwort des angegebenen Benutzers ein. Der Benutzername und das Kennwort werden anschließend im Rahmen des Zertifikatsanforderungsvorgangs – jedoch nicht in der eigentlichen Zertifikatsanforderung – an die Onlinezertifizierungsstelle gesendet.
-ms.openlocfilehash: db1fb64f92e3f83d2e9506c73a3c9873131e128a690ceb95c8e16ae33aa34636
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7ff5c20d14e2d42688424866f2f463996aff0d8c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323207"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626767"
 ---
 # <a name="certificate-request-certificate-authority-account"></a>Zertifikatanforderung (Zertifizierungsstellenkonto)
  

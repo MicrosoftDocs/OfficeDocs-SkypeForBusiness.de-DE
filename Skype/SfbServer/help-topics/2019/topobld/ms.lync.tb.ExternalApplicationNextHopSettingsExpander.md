@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.ExternalApplicationNextHopSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können den nächsten Hopserver des vertrauenswürdigen Anwendungsserverpools angeben, indem Sie in der Dropdownliste den definierten Enterprise Edition Front-End-Pool oder Standard Edition Front-End-Server auswählen. Ein Director oder Director-Pool kann nicht als nächster Hop für einen vertrauenswürdigen Anwendungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf "OK", um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: efe897436248e3fdf0eff7e7424939d04b9ab652d7295c1d04e9f6f2ce68bff6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5d9fa606b55247e086f158fa532ac110870a313c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331817"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626847"
 ---
-# <a name="external-application-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für externe Anwendung – Erweiterung
+# <a name="external-application-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für externe Anwendung – Erweiterung
  
 Sie können den nächsten Hopserver des vertrauenswürdigen Anwendungsserverpools angeben, indem Sie in der Dropdownliste den definierten Enterprise Edition Front-End-Pool oder Standard Edition Front-End-Server auswählen. Ein Director oder Director-Pool kann nicht als nächster Hop für einen vertrauenswürdigen Anwendungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf **"OK",** um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
   

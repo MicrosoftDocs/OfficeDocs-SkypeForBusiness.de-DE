@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4412cacf94a39341ffc73878ffff9280193847454dc27e8c9d1d7637854b5f27
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9019c2c7486ab4aa27011cb1df778f01d7625829
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626817"
 ---
-# <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
+# <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  
 Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:
   
