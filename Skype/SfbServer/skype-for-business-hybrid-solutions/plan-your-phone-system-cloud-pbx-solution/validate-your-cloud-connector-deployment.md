@@ -1,5 +1,5 @@
 ---
-title: Überprüfen Ihrer Cloud Connector-Bereitstellung
+title: Überprüfen Ihrer Cloud Connector-Bereitstellung
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -10,20 +10,20 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 30b6be15-77fa-43b0-b558-87b9724feb35
 description: Nachdem Sie die Schritte zum Bereitstellen und Konfigurieren von Skype for Business Cloud Connector Edition abgeschlossen haben, stellen Sie sicher, dass Sie Anrufe tätigen und empfangen können.
-ms.openlocfilehash: 1cbfed0716ef88bf48f8dadf0214c48bcd2031e34343da0ce59bd84d6d82d2b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ab02ba4059721d7a87b8fc2d6f40c30ac0bdbd20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54279921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588387"
 ---
-# <a name="validate-your-cloud-connector-deployment"></a>Überprüfen Ihrer Cloud Connector-Bereitstellung
+# <a name="validate-your-cloud-connector-deployment"></a>Überprüfen Ihrer Cloud Connector-Bereitstellung
 
 > [!Important]
 > Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online eingestellt. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.

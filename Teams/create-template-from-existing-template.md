@@ -9,19 +9,19 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie eine vorhandene Teamvorlage zum Erstellen einer neuen Teamvorlage in einem Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 80450257158a3a65da5f0fffe05d48239e42cd33d538544a6363befffce842bf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 56af8756282a4d2cc40ebf33a620855785c67306
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282678"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588217"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen Sie eine neue Teamvorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
 
@@ -31,7 +31,7 @@ Microsoft Teams stellt vordefinierte Vorlagen bereit, die gespeichert und an Ihr
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
+2. Erweitern Sie im linken Navigationsbereich die **Teams**  >  **Teamvorlagen**.
 
 3. Wählen Sie **im Abschnitt Teamvorlagen** neben einer Teamvorlage, die Sie duplizieren möchten, die Option aus, um sie zu markieren.
 
@@ -43,7 +43,7 @@ Microsoft Teams stellt vordefinierte Vorlagen bereit, die gespeichert und an Ihr
 
 ![Abbildung des Startbildschirms der Teamvorlagen mit hervorgehobener Hervorhebung von "Start" mit einer vorhandenen Vorlage.](media/template-start-existing-template.png)
 
-5. Wählen Sie im Bildschirm Wählen Sie die Vorlage aus, die **als Startpunkt verwendet werden** soll die Option Weiter **aus.**
+5. Wählen Sie im Bildschirm Wählen Sie die Vorlage **aus,** die als Ausgangspunkt verwendet werden soll die Option Weiter **aus.**
 
     Die duplizierte Vorlage wird geöffnet, und das Wort **Kopie** wird an den Namen angefügt.
 

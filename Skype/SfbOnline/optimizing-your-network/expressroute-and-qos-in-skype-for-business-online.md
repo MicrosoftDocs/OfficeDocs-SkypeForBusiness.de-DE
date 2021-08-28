@@ -14,18 +14,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Optimization
 description: 'Erfahren Sie mehr über die Verwendung von Azure ExpressRoute, um über ein Netzwerk mit Bandbreitenanforderungen und Quality of Service-Funktionen für eine Benutzererfahrung auf Unternehmensklasse zu verfügen. '
-ms.openlocfilehash: 6854c1a515fc5aa22a2766944366d6b644e14483
-ms.sourcegitcommit: 9fcd9a7ae78e04cef90415c2a0f30a98fbf8270f
+ms.openlocfilehash: ddf90000de18f1fafd60896134eee21574605c8b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58407224"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610192"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute und QoS in Skype for Business Online
 
@@ -226,7 +226,7 @@ Der Stresstest bietet eine gewisse Bestätigung dafür, dass das Netzwerk das er
 
 Der Microsoft ExpressRoute-Dienst stellt eine dedizierte Verbindung mit der Azure-Cloud her, für die Kommunikationsdienste von Office 365-Echtzeitarbeitsauslastungen sind jedoch Netzwerkdienste mit einer ausreichenden Bandbreite erforderlich, die das Datenverkehrsvolumen übertragen und außerdem QoS (Quality of Service) unterstützen können, um eine Benutzererfahrung der Unternehmensklasse zu sichern. Eine QoS-fähige Verbindung muss auf einer End-to-End-Konfiguration basieren (PC, Netzwerkswitche und -router bis zur Cloud), da jeder Teil in dem Pfad, der QoS nicht unterstützen kann, die Qualität des gesamten Anrufs verschlechtern kann.
   
-Dieser Abschnitt soll Ihnen helfen, die Herausforderungen bei der Unterstützung von Echtzeitdatenverkehr in einem IP-Netzwerk sowie das Konfigurieren und Unterstützen einer erfolgreichen ExpressRoute-Bereitstellung von Microsoft 365- oder Office 365-Echtzeitarbeitsauslastungen mithilfe eines Microsoft ExpressRoute Exchange-Anbieters oder Netzwerkdienstanbieter-Partners zu verstehen.
+Dieser Abschnitt soll Ihnen helfen, die Herausforderungen bei der Unterstützung von Echtzeitdatenverkehr in einem IP-Netzwerk zu verstehen und eine erfolgreiche ExpressRoute-Bereitstellung von Microsoft 365 oder Office 365-Echtzeitarbeitsauslastungen mithilfe eines Microsoft ExpressRoute Exchange-Anbieters oder Netzwerkdienstanbieter-Partners zu konfigurieren und zu unterstützen.
   
 QoS wird von Ihrem Netzwerk exklusiv über ExpressRoute-Netzwerkverbindungen akzeptiert und innerhalb des Microsoft-Netzwerks für Skype for Business-Datenverkehr verwendet. Gegenwärtig weisen Teile einiger ausgehender Verbindungen von Microsoft fehlende DSCP-Werte für Skype for Business auf. So lange ausgehende DSCP-Werte vollständig mit DSCP-Werten gekennzeichnet sind, sollten Sie die Richtlinien zum Hinzufügen von QoS-Kennzeichnungen zum Datenverkehr befolgen, wie im Abschnitt **Implementierung von QoS mithilfe einer Netzwerk-Zugriffssteuerungsliste (ACL)** in diesem Artikel näher erläutert.
   
@@ -236,7 +236,7 @@ Die Bereitstellung von VoIP- und Videodiensten in Unternehmensqualität stellt s
   
 Da Entwickler die Auswirkung verlorener VoIP-Pakete kennen, entwickelten Sie zwei Ansätze, um die Leistung von VoIP und Video über IP zu verbessern:
   
-- Der erste besteht darin, die VoIP-Codierung/-Decodierung stabiler zu machen, wenn Pakete verloren gehen. Dazu können Sie entweder die Fehlerkorrektur bei Weiterleitung (Forward Error Correction, FEC) verwenden, um einen Prozentsatz der gefundenen Fehler zu korrigieren, was eine Funktion ist, die in Microsoft 365 oder Office 365 Real Time Transport zu finden ist, oder indem Sie Sprachdecodierungssysteme entwerfen, die versuchen, die Auswirkung verlorener Pakete zu maskieren, was ein Merkmal von Microsoft-Codecs ist. 
+- Der erste besteht darin, die VoIP-Codierung/-Decodierung stabiler zu machen, wenn Pakete verloren gehen. Dazu können Sie entweder die Fehlerkorrektur bei Weiterleitung (Forward Error Correction, FEC) verwenden, um einen Prozentsatz der gefundenen Fehler zu korrigieren, was eine Funktion ist, die in Microsoft 365 oder Office 365 Real Time Transport gefunden wird, oder indem Sie Sprachdecodierungssysteme entwerfen, die versuchen, die Auswirkung verlorener Pakete zu maskieren, was ein Merkmal von Microsoft-Codecs ist. 
     
 - Der zweite ist die Verwendung von Transportdiensten, die QoS-Mechanismen verwenden, um die Leistung des Netzwerks in Bezug auf Verzögerung, Paketverlust und Jitter sowie die Abweichung bei der Verzögerung zwischen Paketen zu garantieren.
     
@@ -400,7 +400,7 @@ MPLS-Anbieter bieten verschiedene Klassen von Serviceabstufungen, die allerdings
 
 Skype for Business verbessert die Art und Weise, in der die Geschäftskommunikation durchgeführt wird. Statt ein mit dem Festnetz verbundenes Telefon, ein eigenständiges Videokonferenzsystem, eine separate Plattform für E-Mails, einen externen Dienst für Audiokonferenzen und ein Mittel für Chat und Anwesenheit zu nutzen, kann Skype for Business all diese Funktionen in einer einzigen Benutzeroberfläche zusammenbringen.
   
-Für eine konsistente Bereitstellung von Echtzeit-VoIP- und Videodiensten der Unternehmensklasse ist eine End-to-End-Netzwerkinfrastruktur erforderlich, die QoS bereitstellen kann. Das beinhaltet sowohl LAN- als auch WAN-Dienste. Microsoft bietet Tools wie den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282), um die für die verschiedenen Dienste erforderliche Netzwerkkapazität abzuschätzen. Darüber hinaus gibt es Partner im Programm "IT-Pro-Tools" [Skype for Business-Lösungen: IT-Pro-Tools,](https://go.microsoft.com/fwlink/?LinkID=690307) die Tools für die Vorabe assessing der Netzwerkinfrastruktur bieten und Überwachung, Berichterstellung und Problembehandlung unterstützen. Ohne eine korrekt dimensionierte und konfigurierte Netzwerkinfrastruktur besteht das Risiko, dass Ihre ExpressRoute Skype of Business-Bereitstellung nicht die Erwartungen an Qualität und Konsistenz Ihrer Benutzer erfüllt.
+Für eine konsistente Bereitstellung von Echtzeit-VoIP- und Videodiensten der Unternehmensklasse ist eine End-to-End-Netzwerkinfrastruktur erforderlich, die QoS bereitstellen kann. Das beinhaltet sowohl LAN- als auch WAN-Dienste. Microsoft bietet Tools wie den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282), um die für die verschiedenen Dienste erforderliche Netzwerkkapazität abzuschätzen. Darüber hinaus gibt es Partner im Programm "IT-Pro-Tools" [Skype for Business-Lösungen: IT-Pro-Tools,](https://go.microsoft.com/fwlink/?LinkID=690307) die Tools zur Vorabe assessing der Netzwerkinfrastruktur bieten und Überwachung, Berichterstellung und Problembehandlung unterstützen. Ohne eine korrekt dimensionierte und konfigurierte Netzwerkinfrastruktur besteht das Risiko, dass Ihre ExpressRoute Skype of Business-Bereitstellung nicht die Erwartungen an Qualität und Konsistenz Ihrer Benutzer erfüllt.
   
 Effektive Unternehmenstools müssen eine zuverlässige und konsistente Leistung bieten und eine Benutzererfahrung bereitstellen, die dafür sorgt, dass Benutzer das Angebot gern annehmen. Aus Netzwerksicht bedeutet das, dass Sie eine Netzwerkinfrastruktur einrichten, sowohl für LAN als auch WAN, fest und mobil, die dies ermöglichen kann. Das Planen, Entwerfen, Implementieren und Verwalten dieser Infrastruktur ist nicht immer leicht. Die Hardware, Tools und Netzwerkdienste, mit denen Sie eine solche Infrastruktur erreichen können, stehen heute zur Verfügung. Es liegt jedoch in der Verantwortung der IT-Mitarbeiter, diese auf eine Weise zu entwerfen, zu implementieren und zu verwalten, die sicherstellt, dass Benutzer eine Reihe von Diensten für die Kommunikation und Zusammenarbeit erhalten, mit denen sie effizient und effektiv arbeiten können, und dass die Organisation die Vorteile dieser Technologie vollständig ausschöpfen kann. 
   

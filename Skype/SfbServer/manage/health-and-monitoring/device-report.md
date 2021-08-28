@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Zusammenfassung: Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.'
-ms.openlocfilehash: 129511daf296018bda5f727d4cdb567bdc93dddfafa6b7c48f7a20a5bcf14567
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f8c3368132dc1924ababfa6fe71b36daa412afee
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344734"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632909"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
@@ -109,7 +109,7 @@ Wenn es um Gerätenamen geht, ist der Gerätebericht äußerst detailliert. Ange
 > [!NOTE]
 > Beachten Sie, dass die Namen von Aufnahmegeräten möglicherweise nicht identisch sind, wenn Sie lokalisierte Versionen von Skype for Business Server ausführen. Ein Gerät mit dem Namen Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US-Englisch könnte einen anderen Namen auf Französisch oder Spanisch haben. 
   
-Häufig benötigen Sie diese Detailebene. In anderen Fällen sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit zum Abrufen dieser Informationen besteht darin, die Geräteberichtsdaten in Microsoft Excel zu exportieren und diese Daten dann in einer durch Trennzeichen getrennten Wertedatei zu speichern (z. B. C:\Data\Devices_Report.csv). Anschließend können Sie eine Reihe von Ähnlichen Befehlen verwenden, um die .CSV-Datei in Windows PowerShell zu importieren und die Gesamtzahl der Anrufe zu melden, die mit einem Aastra-Aufnahmegerät getätigt wurden:
+Häufig benötigen Sie diese Detailebene. In anderen Fällen sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit, informationen wie diese abzurufen, besteht darin, die Geräteberichtsdaten in Microsoft Excel zu exportieren und diese Daten dann in einer durch Trennzeichen getrennten Wertedatei zu speichern (z. B. C:\Data\Devices_Report.csv). Anschließend können Sie eine Reihe von Ähnlichen Befehlen verwenden, um die .CSV-Datei in Windows PowerShell zu importieren und die Gesamtzahl der Anrufe zu melden, die mit einem Aastra-Aufnahmegerät getätigt wurden:
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
@@ -122,7 +122,7 @@ Dadurch wird ein einzelner Wert zurückgegeben, der die Gesamtzahl der Anrufe da
 
 ## <a name="filters"></a>Filter
 
-Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Mit dem Gerätebericht können Sie beispielsweise nach Denktypen (d. h. war der Anruf ein Clientanruf), einem Telefonkonferenzanruf oder einem PsTN-Anruf (Public Switched Telephone Network) gefiltert werden. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden Geräte nach Stunde, Tag, Woche oder Monat gruppiert.
+Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder die zurückgegebenen Daten auf unterschiedliche Weise anzeigen. Mit dem Gerätebericht können Sie z. B. nach Denktypen (d. h. war der Anruf ein Clientanruf), einem Telefonkonferenzanruf oder einem PsTN-Anruf (Public Switched Telephone Network) gefiltert werden. Sie können außerdem festlegen, wie Daten gruppiert werden sollen. In diesem Fall werden Geräte nach Stunde, Tag, Woche oder Monat gruppiert.
   
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Gerätebericht verwenden können.
   

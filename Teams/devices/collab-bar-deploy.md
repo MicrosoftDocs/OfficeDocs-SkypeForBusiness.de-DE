@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Apps Microsoft Teams-Räume Android bereitstellen.
-ms.openlocfilehash: 3ea15b8d242c9aa4685b91cdffb13c7c3a55a752f8a1c9d387f7c858f04845ca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 38d8ce263e3a9628dde45d22729f1a9ce4f944a3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54321497"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632559"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Bereitstellen Microsoft Teams-Räume Apps unter Android
 
@@ -64,13 +64,13 @@ Vor der Teams-Räume müssen Sie entscheiden, ob sie Microsoft 365 Ressourcenkon
 
 Wenn Sie sich für die Einrichtung eines Microsoft 365 Ressourcenkontos entscheiden, müssen Sie eine Lizenz Besprechungsraum erwerben. Die Besprechungsraum enthält ein Ressourcenpostfach, mit dem Personen in Ihrer Organisation den Besprechungsraum über einen Besprechungsraum Outlook Oder Teams. Die Lizenz ermöglicht außerdem Video- und Audiokonferenzen sowie die Bildschirmfreigabe für Besprechungsteilnehmer.
 
-Wenn Sie Anrufe an eine externe Telefonnummer erhalten oder von einer externen Telefonnummer aus anrufen müssen, benötigen Sie möglicherweise eine Anrufplan- oder [Microsoft 365 Business Voice-Add-On-Lizenz](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business). Wenn Sie Direct-Routing in Ihrer Organisation aktiviert haben, benötigen Sie nur die Besprechungsraum SKU.
+Wenn Sie Anrufe an eine externe Telefonnummer erhalten oder von einer externen Telefonnummer aus anrufen müssen, benötigen Sie möglicherweise einen Anrufplan oder Microsoft 365 Business Voice [Add-On-Lizenz](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md?tabs=small-business). Wenn Sie in Ihrer Organisation Direct-Routing aktiviert haben, benötigen Sie nur die Besprechungsraum SKU.
 
-Wenn Sie ein Ressourcenkonto erstellen, können Sie auswählen, ob das Konto Besprechungsanfragen automatisch annehmen oder ablehnen, wiederkehrende Besprechungen zulassen, angeben soll, wie weit im Voraus Personen die Ressource buchen können, und so weiter.
+Wenn Sie ein Ressourcenkonto erstellen, können Sie auswählen, ob das Konto Besprechungsanfragen automatisch annehmen oder ablehnen, besprechungsserienbesprechungen zulassen, angeben soll, wie weit im Voraus Personen die Ressource buchen können, und so weiter.
 
 [!INCLUDE [m365-teams-resource-account-difference](../includes/m365-teams-resource-account-difference.md)]
 
-Weitere Informationen zu Ressourcenkonten Microsoft 365 Sie unter Erstellen eines Ressourcenkontos [mithilfe des -Microsoft 365 Admin Center.](resource-account-ui.md)
+Weitere Informationen zum Erstellen Microsoft 365 Ressourcenkonten finden Sie unter Erstellen eines Ressourcenkontos [mithilfe Microsoft 365 Admin Center.](resource-account-ui.md)
 
 |    |     |
 |-----------|------------|
@@ -83,18 +83,18 @@ Die Planung der Konfiguration und Bereitstellung umfasst die folgenden Hauptbere
 
 - Bereitstellung des Ressourcenkontos
 - Gerätebereitstellung
-- Teams-Räume von Anwendungen und Peripheriegeräten
+- Teams-Räume der Konfiguration von Anwendungen und Peripheriegeräten
 -  Tests
 - Postenverwaltung
 
 ### <a name="account-provisioning"></a>Kontobereitstellung
 
-Wenn Sie planen, Microsoft 365-Ressourcenkonten zu verwenden, damit Benutzer Zusammenarbeitsbalken buchen können, folgen Sie den Anweisungen unter Erstellen eines Ressourcenkontos mit dem [Microsoft 365 Admin Center,](resource-account-ui.md) um ein Microsoft 365-Ressourcenkonto für jede Zusammenarbeitsleiste zu erstellen, die eines benötigt. Hier müssen Sie dem Ressourcenkonto auch eine Besprechungsraum-Lizenz hinzufügen und, wenn Sie Anrufe an oder von externen Telefonnummern erhalten oder anrufen möchten, eine Anrufplan- oder Business Voice-Lizenz hinzufügen, wenn Ihre Organisation nicht Direct Routing verwendet.
+Wenn Sie planen, Microsoft 365-Ressourcenkonten zu verwenden, damit Benutzer Zusammenarbeitsbalken buchen können, folgen Sie den Anweisungen unter Erstellen eines Ressourcenkontos mit dem [Microsoft 365 Admin Center,](resource-account-ui.md) um ein Microsoft 365-Ressourcenkonto für jede Zusammenarbeitsleiste zu erstellen, die eines benötigt. Hier müssen Sie dem Ressourcenkonto auch eine Besprechungsraum-Lizenz hinzufügen und, wenn Sie Anrufe an oder von externen Telefonnummern erhalten möchten, eine Anrufplan- oder Business Voice-Lizenz hinzufügen, wenn Ihre Organisation nicht Direct Routing verwendet.
 
 Wenn Sie einzelnen benutzern Teams-Räume private Nutzung zuweisen möchten, müssen Sie keine zusätzlichen Konten einrichten. Benutzer können sich mit ihren persönlichen Konten bei zusammenarbeitsleisten anmelden.
 
 > [!TIP]
-> Sorgen Sie dafür, dass die Anzeigenamen für ihre Microsoft 365 beschreibend und leicht verständlich sind. Dies sind die Namen, die Benutzern angezeigt werden, wenn sie Nach Besprechungen suchen und Teams-Räume hinzufügen. Sie könnten eine Veranstaltung wie Websiteraumname ( Max. Raumkapazität) verwenden, also könnte Curie, ein 4-Personen-Besprechungsraum in London, beispielsweise den Anzeigenamen - LON-CURIE(4) haben.
+> Sorgen Sie dafür, dass die Anzeigenamen für ihre Microsoft 365 aussagekräftige und leicht verständliche Ressourcenkonten sind. Dies sind die Namen, die Benutzern angezeigt werden, wenn sie Nach Besprechungen suchen und Teams-Räume hinzufügen. Sie könnten eine Veranstaltung wie Websiteraumname ( Max. Raumkapazität) verwenden, also könnte Curie, ein 4-Personen-Besprechungsraum in London, beispielsweise den Anzeigenamen - LON-CURIE(4) haben.
 
 |    |     |
 |-----------|------------|
@@ -103,7 +103,7 @@ Wenn Sie einzelnen benutzern Teams-Räume private Nutzung zuweisen möchten, mü
 
 ### <a name="device-deployment"></a>Gerätebereitstellung
 
-Als Nächstes müssen Sie Ihren Plan erstellen, um die Geräte und die ihnen zugewiesenen Peripheriegeräte an Ihre Räume zu liefern, und dann mit der Installation und Konfiguration fortfahren.
+Als Nächstes müssen Sie Ihren Plan erstellen, um die Geräte und die ihnen zugewiesenen Peripheriegeräte in Ihren Räumen zu liefern, und dann mit der Installation und Konfiguration fortfahren.
 
 |    |     |
 |-----------|------------|
@@ -112,7 +112,7 @@ Als Nächstes müssen Sie Ihren Plan erstellen, um die Geräte und die ihnen zug
 
 ### <a name="testing"></a> Tests
 
-Nachdem Sie ihre Teams-Räume haben, sollten Sie sie testen. Melden Sie sich bei Teams-Räume, und überprüfen Sie, ob die erwarteten Funktionen funktionieren. Es wird dringend empfohlen, sicherzustellen, dass  sie im  Abschnitt Zusammenarbeitsleisten auf der Registerkarte Geräte des Microsoft Teams admin center angezeigt werden. Außerdem ist es wichtig, dass Sie eine Reihe von Testanrufen und -besprechungen führen, um Qualität und Leistung zu überprüfen.
+Nachdem Sie ihre Teams-Räume haben, sollten Sie sie testen. Melden Sie sich bei Teams-Räume, und überprüfen Sie, ob die erwarteten Funktionen funktionieren. Es wird dringend empfohlen, zu überprüfen,  ob sie  im Abschnitt Zusammenarbeitsleisten auf der Registerkarte Geräte im Microsoft Teams Admin Center angezeigt werden. Außerdem ist es wichtig, dass Sie eine Reihe von Testanrufen und -besprechungen führen, um Qualität und Leistung zu überprüfen.
 
 Wir empfehlen, im Rahmen des allgemeinen Microsoft Teams-Rollouts die Konfiguration von Dateien für das Anrufqualitätsdashboard (CQD) zu konfigurieren, Qualitätstrends zu überwachen und sich am Prozess zur Überprüfung der Qualität der Benutzererfahrung zu beteiligen. Weitere Informationen finden Sie im [Handbuch zur Überprüfung der Benutzererfahrung.](../quality-of-experience-review-guide.md)
 

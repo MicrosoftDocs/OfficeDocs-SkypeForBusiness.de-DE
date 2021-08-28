@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine neue Archivierungsrichtlinie für Skype for Business Server erstellen.'
-ms.openlocfilehash: 7793575e75fcee4509c96cd6a569520a4a34576e850818a52dd20518ee725de2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3f32509c6b49a0b0bbbacddac409c817e1e7e2cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280978"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632969"
 ---
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Erstellen einer neuen Archivierungsrichtlinie in Skype for Business Server
 
@@ -58,7 +58,7 @@ So erstellen Sie eine neue Archivierungsrichtlinie mithilfe der Systemsteuerung:
   
 ## <a name="create-a-new-archiving-policy-by-using-windows-powershell"></a>Erstellen einer neuen Archivierungsrichtlinie mithilfe von Windows PowerShell
 
-Sie können auch neue Archivierungsrichtlinien erstellen, indem Sie das Cmdlet Windows PowerShell **New-CsArchivingPolicy** verwenden. Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["New-CsArchivingPolicy".](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
+Sie können auch neue Archivierungsrichtlinien mithilfe des Cmdlets Windows PowerShell **New-CsArchivingPolicy** erstellen. Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["New-CsArchivingPolicy".](/powershell/module/skype/new-csarchivingpolicy?view=skype-ps)
   
 ### <a name="to-create-a-new-archiving-policy-at-the-site-level"></a>So erstellen Sie eine neue Archivierungsrichtlinie auf Standortebene
 

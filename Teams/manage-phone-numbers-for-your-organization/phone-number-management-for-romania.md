@@ -1,5 +1,5 @@
 ---
-title: Telefon der Nummerverwaltung für Rumänien
+title: Telefon der Verwaltung von Nummern für Rumänien
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -14,20 +14,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Rumänien für Microsoft Teams.
-ms.openlocfilehash: 5c9ac50e1b9619a1e4c2890408df3cce701c280d
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 7c9e6da6a76fe20a44f872f077e6ac4a27cd5e55
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233790"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610222"
 ---
-# <a name="phone-number-management-for-romania"></a>Telefon der Nummerverwaltung für Rumänien
+# <a name="phone-number-management-for-romania"></a>Telefon der Verwaltung von Nummern für Rumänien
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 

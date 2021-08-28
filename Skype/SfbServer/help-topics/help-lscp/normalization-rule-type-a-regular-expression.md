@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.VoiceRouteRegexEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fc0fd40d-77b0-40c1-94f4-1026f70bcf30
-description: Geben Sie einen .NET Framework regulären Ausdruck ein, um das Übereinstimmungsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird.
-ms.openlocfilehash: e304f113a0503262e9ca7b511be7c5e0d8e66114268ac3ff3c89cc670c7fa55d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Geben Sie einen .NET Framework regulären Ausdruck ein, um das Abgleichsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird.
+ms.openlocfilehash: 263d7233af01bddc7f4401e56300747489b3f637
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303937"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587517"
 ---
 # <a name="normalization-rule-type-a-regular-expression"></a>Normalisierungsregel: Eingeben eines regulären Ausdrucks
  
-Geben Sie einen .NET Framework regulären Ausdruck ein, um das Übereinstimmungsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird. 
+Geben Sie einen .NET Framework regulären Ausdruck ein, um das Abgleichsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird. 
   
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
   

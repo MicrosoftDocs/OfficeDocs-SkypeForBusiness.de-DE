@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 985077a4-c8e1-4d5a-9fcf-fef41cf6d61d
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Active Directory-Domäne auf eine Installation von Skype for Business Server vorbereiten. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 40225e6efdf848c34d2b7184e4d8863182ef78494e179e27c4fa8ca322f7349d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4a224da84d1e6b4b001e9c561529b1c64b0e995
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609812"
 ---
 # <a name="skype-for-business-server-prepare-active-directory"></a>Skype for Business Server: Vorbereiten von Active Directory
  
@@ -37,7 +37,7 @@ Skype for Business Server arbeitet eng mit Active Directory zusammen. Sie müsse
 Skype for Business Server ist eng in Active Directory Domain Services (AD DS) integriert. Bevor Skype for Business Server zum ersten Mal installiert werden kann, muss Active Directory vorbereitet werden. Im Abschnitt des Bereitstellungs-Assistenten mit dem Titel "Vorbereiten von **Active Directory"** wird die Active Directory-Umgebung für die Verwendung mit Skype for Business Server vorbereitet.
   
 > [!NOTE]
-> Skype for Business Server verwendet (AD DS) zum Nachverfolgen und Kommunizieren mit allen Servern in einer Topologie. Die Meisten dieser Server müssen der Domäne hinzugefügt werden, damit Skype for Business Server ordnungsgemäß funktionieren können. Beachten Sie, dass Server wie Edge und Reverseproxy nicht in die Domäne eingebunden werden sollten.
+> Skype for Business Server verwendet (AD DS) zum Nachverfolgen und Kommunizieren mit allen Servern in einer Topologie. Die Mehrzahl dieser Server muss der Domäne hinzugefügt werden, damit Skype for Business Server ordnungsgemäß funktionieren kann. Beachten Sie, dass Server wie Edge und Reverseproxy nicht in die Domäne eingebunden werden sollten.
   
 > [!IMPORTANT]
 > Die Active Directory-Vorbereitungsprozedur sollte nur einmal für jede Domäne in der Bereitstellung ausgeführt werden. 
@@ -164,7 +164,7 @@ Sehen Sie sich die Videoschritte für **die Vorbereitung von Active Directory** 
     e. Vergewissern Sie sich auf der Registerkarte **"Mitglieder",** dass die ausgewählten Benutzer oder Gruppen vorhanden sind. Klicken Sie auf **OK**.
     
     > [!CAUTION]
-    > Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, Vollzugriff für alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Ausführliche Informationen zu den verfügbaren Rollen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md) Beachten Sie, dass Benutzer nicht für Skype for Business Server aktiviert sein müssen, um Mitglieder der Verwaltungsgruppen werden zu können. 
+    > Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, Vollzugriff für alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Ausführliche Informationen zu den verfügbaren Rollen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md) Beachten Sie, dass Benutzer nicht für Skype for Business Server aktiviert werden müssen, um Mitglieder der Verwaltungsgruppen werden zu können. 
   
     > [!CAUTION]
     > Um die Integrität der Sicherheit und der rollenbasierten Zugriffssteuerung beizubehalten, fügen Sie Den Gruppen Benutzer hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server Bereitstellung ausführt. 

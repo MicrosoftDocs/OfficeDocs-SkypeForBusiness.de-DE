@@ -13,23 +13,23 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8045120f6a74a536b3fcbe420278ad847b3108f38161d6e23f3eecfd5788224c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 36be65ef14cfe0fc97ce49dfa9227fe50daa18f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309144"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588377"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 
-Wenn Sie Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder jedem Benutzer einen Notfallstandort zuweisen. In europäischen Ländern wird der Notfallstandort der Telefonnummer zugeordnet, wenn Sie ihn von Microsoft 365 oder Office 365 oder wenn Sie eine Telefonnummer zu Microsoft 365 oder Office 365. In den USA wird der Notfallstandort der Telefonnummer zugeordnet, wenn sie dem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen ist, an einen neuen Standort wechselt. Weitere Informationen zu Notfalladressen und -standorten finden Sie unter Was sind Notfallstandorte, Notfallstandorte [und Anrufrouting?.](./what-are-emergency-locations-addresses-and-call-routing.md)
+Wenn Sie Anrufpläne einrichten, müssen Sie jeder Telefonnummer oder jedem Benutzer einen Notfallstandort zuweisen. In europäischen Ländern wird der Notfallstandort der Telefonnummer zugeordnet, wenn Sie ihn von Microsoft 365 oder Office 365 oder wenn Sie eine Telefonnummer an den Microsoft 365 oder Office 365. In den USA wird der Notfallstandort der Telefonnummer zugeordnet, wenn sie dem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen ist, an einen neuen Standort wechselt. Weitere Informationen zu Notfalladressen und -standorten finden Sie unter Was sind Notfallstandorte, Notfallstandorte [und Anrufrouting?.](./what-are-emergency-locations-addresses-and-call-routing.md)
   
-Informationen dazu, wie Sie Anrufpläne erhalten und was sie kosten, finden Sie unter [Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Informationen zum Erhalten von Anrufplänen und deren Kosten finden Sie unter Hinzufügen [Teams-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 
@@ -37,7 +37,7 @@ Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin C
 
 1. Klicken Sie in der linken Navigationsleiste Microsoft Teams Admin Center **auf**  >  **Sprachanrufnummern Telefon .**
 
-2. Klicken Sie **Telefon Der** Telefonnummern-Seite auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**. 
+2. Klicken Sie Telefon Der Telefonnummern-Seite auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
 
 3. Gehen Sie **im** Bereich Bearbeiten **unter Notfallstandort** wie folgt vor:
 

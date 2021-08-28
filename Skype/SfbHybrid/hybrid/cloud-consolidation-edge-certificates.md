@@ -19,14 +19,14 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Dieser Anhang enthält ausführliche Schritte zum Aktualisieren des Edgezertifikats im Rahmen der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 7370fe6949c471a6aad9b45ee246f1565b43bdb465eba2110a03f53afa69fe28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58610202"
 ---
 # <a name="update-the-edge-certificate"></a>Aktualisieren des Microsoft Edge-Zertifikats
 
@@ -39,7 +39,7 @@ Der alternative Antragstellername (Subject Alternate Name, SAN) des Zertifikats 
 
 **Schritte:**
 
-1.  Rufen Sie ein neues externes Edgezertifikat für den Edgeserver ab, der alle vorhandenen Einträge sowie zusätzliche Einträge im SAN für alle SIP-Domänen in der Cloudumgebung (mit Ausnahme von *.onmicrosoft.com Domänen) im Format "sip. <DomainName> " enthält.
+1.  Rufen Sie ein neues externes Edgezertifikat für den Edge ab, das alle vorhandenen Einträge sowie zusätzliche Einträge im SAN für alle SIP-Domänen in der Cloudumgebung (mit Ausnahme von *.onmicrosoft.com Domänen) im Format "sip. <DomainName> " enthält.
 2.  Installieren Sie das Zertifikat lokal auf jedem Edgeserver, und weisen Sie es dem Skype Edgedienst auf jedem Edgedienst zu.  Ausführliche Schritte finden Sie im Abschnitt "Externe Edgeschnittstellenzertifikate" in [Deploy Edge Service in Skype for Business Server 2015.](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)
 3.  Starten Sie den Edgedienst auf jedem Edgeserver neu. Sie können dies für ein einzelnes Feld mit den folgenden PowerShell-Befehlen tun:
 
@@ -48,6 +48,6 @@ Der alternative Antragstellername (Subject Alternate Name, SAN) des Zertifikats 
     Start-CsWindowsService
     ```
 
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)

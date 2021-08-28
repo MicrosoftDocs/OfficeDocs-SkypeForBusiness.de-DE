@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
 description: Anhand von Standortrichtlinien wird bestimmt, ob die erweiterten Notfalldienste aktiviert sind und wie sie verwendet werden und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: cb0f4562acd4904a2fb473b4d828090ce4a653f98090905e7bd9a2b54e240f50
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15e1117c9279872e9ec28ec28834ade68d36463f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54319248"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633099"
 ---
 # <a name="location-policy"></a>Ortungsrichtlinie
 
@@ -35,7 +35,7 @@ Zu den Standortrichtlinien gehören die globale Richtlinie und optional eine ode
 - **Benutzerrichtlinien (optional):** Sie können eine oder mehrere Standortrichtlinien für Benutzer erstellen, die jeweils für einen bestimmten Benutzer oder eine Benutzergruppe gelten. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
 
 > [!NOTE]
-> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Ausführliche Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden Sie unter [Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server 2015.](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Ausführliche Informationen zur Verwendung Skype for Business Server Systemsteuerung zum Zuweisen einer Standortrichtlinie zu einem Netzwerkstandort finden Sie unter [Konfigurieren von Netzwerkstandorten.](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
+> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Ausführliche Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden Sie unter [Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server 2015.](../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Ausführliche Informationen zur Verwendung Skype for Business Server Systemsteuerung zum Zuweisen einer Standortrichtlinie zu einem Netzwerkstandort finden Sie unter ["Konfigurieren von Netzwerkstandorten".](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
 
 Auf der Seite **Standortrichtlinie** wird eine Liste mit allen Standortrichtlinien angezeigt, die für Ihre Organisation definiert sind.
 
@@ -70,9 +70,9 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **E9-1-1** Überprüft, ob Benutzer, denen diese Standortrichtlinie zugewiesen ist, für E9-1-1 aktiviert sind.
 
-- **Speicherort** Gibt an, ob Benutzer aufgefordert werden, Standortinformationen einzugeben, wenn sich ihr Client bei Skype for Business Server an einem neuen Standort registriert, und ob ein Haftungsausschluss angezeigt wird, wenn die Eingabeaufforderung ohne Eingabe von Standortinformationen geschlossen wird.
+- **Speicherort** Gibt an, ob Benutzer aufgefordert werden, Standortinformationen einzugeben, wenn sich ihr Client bei Skype for Business Server an einem neuen Standort registriert, und ob ein Haftungsausschluss angezeigt wird, wenn er die Eingabeaufforderung ohne Eingabe von Standortinformationen schließt.
 
-- **PSTN-Verwendung** Gibt die PSTN-Verwendung (Public Switched Telephone Network) an, die verwendet wird, um die VoIP-Route zu bestimmen, die zum Weiterleiten von Notrufen von Clients mit diesem Profil verwendet wird.
+- **PSTN-Verwendung** Gibt die PsTN-Verwendung (Public Switched Telephone Network) an, die verwendet wird, um die VoIP-Route zu bestimmen, die zum Weiterleiten von Notrufen von Clients mit diesem Profil verwendet wird.
 
 - **E9-1-1-Nummer** Gibt die Nummer an, die zum Erreichen der Notrufdienste gewählt wird.
 

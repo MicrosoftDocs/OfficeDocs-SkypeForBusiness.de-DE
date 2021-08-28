@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Erfahren Sie, wie Sie Probleme für Administratoren und Benutzer von Skype for Business in Microsoft 365 und Office 365.
-ms.openlocfilehash: da0668c8ead3dee48e1829a0871fe2a175bddc5b722f036c61bc3abc5027cb6a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie Sie Probleme für Administratoren und Benutzer ihrer Skype for Business in Microsoft 365 und Office 365.
+ms.openlocfilehash: 99c50759cea77e98f239adf8cea265941ce7f704
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310104"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609972"
 ---
 # <a name="troubleshoot-problems-with-skype-for-business-online"></a>Behandeln von Problemen mit Skype for Business Online
 
@@ -77,7 +77,7 @@ Die meisten Probleme, die für Skype for Business Online-Benutzer auftreten, sin
 ## <a name="still-need-help-contact-support"></a>Benötigen Sie weitere Hilfe? Kontaktieren Sie den Support.
 <a name="BK_SupportBridge_1"> </a>
 
-Als Administrator für Microsoft 365 Apps for Business haben Sie kostenlosen Zugriff auf unsere wissenden Supportmitarbeiter, die Ihnen beim Beheben technischer Probleme vor dem Kauf, bei Ihrem Konto und bei der Abrechnung helfen. Sie können den [Support auch](/microsoft-365/Admin/contact-support-for-business-products) im Namen ihrer Microsoft 365 und Office 365 in Ihrer Organisation kontaktieren.
+Als Administrator für Microsoft 365 Apps for Business erhalten Sie kostenlosen Zugriff auf unsere wissenden Supportmitarbeiter, die Ihnen beim Beheben technischer Probleme vor dem Kauf, bei Ihrem Konto und bei der Abrechnung helfen. Sie können den [Support auch](/microsoft-365/Admin/contact-support-for-business-products) im Namen Microsoft 365 und Office 365 in Ihrer Organisation kontaktieren.
 
 - [Hilfe in den Microsoft 365 und Office 365-Communityforen](https://go.microsoft.com/fwlink/p/?LinkId=518605)
 

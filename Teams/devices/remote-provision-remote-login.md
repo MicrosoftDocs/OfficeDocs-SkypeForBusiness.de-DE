@@ -15,15 +15,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android-Geräte verwenden.
-ms.openlocfilehash: 8866079fa02edb8dabbfe36d724194858d16553d
-ms.sourcegitcommit: 3cc2da11aac1a3a7d620810c6f22a7192e4ab993
+ms.openlocfilehash: 31a247f7716d1e97ed3ed1e4b9b7f8d20d0881f8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/23/2021
-ms.locfileid: "58483112"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632199"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und Anmeldung bei Teams Android-Geräten
 
@@ -123,4 +123,4 @@ Das bereitgestellte Gerät wird auf der Registerkarte **Awaiting sign in** angez
 ## <a name="related-article"></a>Verwandter Artikel
 
 - [Verwalten Ihrer Geräte in Teams](device-management.md).
-- [Remoteupdate Teams Geräte](remote-update.md)
+- [Remoteaktualisierung Teams Geräte](remote-update.md)

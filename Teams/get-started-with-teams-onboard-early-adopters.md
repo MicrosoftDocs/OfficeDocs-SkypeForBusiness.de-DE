@@ -9,7 +9,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: serdars
 description: Erfahren Sie mehr zum Onboarding Ihrer aufgeschlossenen Benutzer gleich mit den ersten Teams und Kanälen, die Sie in Microsoft Teams erstellt haben.
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34573ba9083f436fec93ca0f1fa58494f6c952e26fa74f4b93ac942a1b9b633a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c415b4e16a75c6acac91e9cae526364c6f65acb1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304908"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632159"
 ---
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Onboarding von Early Adopters von Microsoft Teams
 

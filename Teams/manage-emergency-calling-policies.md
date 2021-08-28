@@ -14,24 +14,24 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Richtlinien für Notrufe in Microsoft Teams verwenden und verwalten, um zu definieren, was passiert, wenn ein Teams-Benutzer in Ihrer Organisation einen Notruf ablaget.
+description: Erfahren Sie, wie Sie Richtlinien für Notrufe in Microsoft Teams verwalten, um zu definieren, was passiert, wenn ein Teams in Ihrer Organisation einen Notruf ablaget.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallingpolicies.overview
-ms.openlocfilehash: 75c1d66f598d8d480414f1bdb728f442fbfeb82bb212275ed7f03ec8861eb07f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c05318f34f7c52570a061aa66644cde4b8ac020c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329140"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632089"
 ---
 # <a name="manage-emergency-calling-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für Notrufe in Microsoft Teams
 
-Wenn Ihre [](set-up-calling-plans.md) Organisation Anrufpläne verwendet oder Telefonsystem [Direct Routing](direct-routing-landing-page.md)bereitgestellt hat, können Sie mithilfe von Richtlinien für Notrufe in Microsoft Teams definieren, was geschieht, wenn ein Teams-Benutzer in Ihrer Organisation einen Notruf ableitet. Sie können festlegen, wer benachrichtigt werden soll und wie er benachrichtigt wird, wenn ein Benutzer, dem die Richtlinie zugewiesen ist, Notdienste anruft. So können Sie beispielsweise Richtlinieneinstellungen so konfigurieren, dass sie das Sicherheitsdesk Ihrer Organisation automatisch benachrichtigen und sie Notrufe abhören lassen.  
+Wenn Ihre [](set-up-calling-plans.md) Organisation Anrufpläne verwendet oder [Telefonsystem Direct Routing](direct-routing-landing-page.md)bereitgestellt hat, können Sie mithilfe von Richtlinien für Notrufe in Microsoft Teams definieren, was passiert, wenn ein Teams-Benutzer in Ihrer Organisation einen Notruf ableitet. Sie können festlegen, wer benachrichtigt werden soll und wie er benachrichtigt wird, wenn ein Benutzer, dem die Richtlinie zugewiesen ist, Notdienste anruft. So können Sie beispielsweise Richtlinieneinstellungen so konfigurieren, dass sie das Sicherheitsdesk Ihrer Organisation automatisch benachrichtigen und sie Notrufe abhören lassen.  
 
-Sie verwalten Richtlinien für Notrufe, indem Sie zu den Richtlinien für Notrufe im Microsoft Teams Admin Center oder mithilfe von  >   Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
+Sie verwalten Richtlinien für Notrufe, indem Sie zu den Richtlinien für den Sprachnotruf im Microsoft Teams Admin Center oder  >   mithilfe von Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
 
 Für Benutzer können Sie die globale (organisationsweite Standardrichtlinie) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Benutzer erhalten die globale Richtlinie automatisch, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Beachten Sie, dass Sie die Einstellungen in der globalen Richtlinie bearbeiten, aber nicht umbenennen oder löschen können. Für Netzwerkwebsites erstellen und weisen Sie benutzerdefinierte Richtlinien zu.
 
@@ -47,8 +47,8 @@ Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für Notrufe z
 4. Legen Sie die Art und Weise vor, wie Personen in Ihrer Organisation, in der Regel die Sicherheitsanrufe, benachrichtigt werden, wenn ein Notruf erfolgt. Wählen Sie dazu unter **Benachrichtigungsmodus** eine der folgenden Optionen aus:
     - **Nur Benachrichtigung senden:** Eine Teams-Chatnachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet.
     - Konferenz in **stumm** geschaltet und die Stummschaltung nicht wieder möglich: Eine Teams-Chatnachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet und kann an der Unterhaltung zwischen dem Anrufer und dem PSAP-Operator lauschen (aber nicht teilnehmen).
-    - Konferenz in **stumm** geschaltet, aber stummgeschaltet: Eine Teams-Chatnachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet und kann die Stummschaltung für die Audioanrufe und die Teilnahme an der Unterhaltung zwischen dem Anrufer und dem PSAP-Operator wieder aufschalten.
-5.  Wenn Sie eine der Telefonkonferenzen **im** Benachrichtigungsmodus "Stummgeschaltet" ausgewählt haben, können Sie im Feld Für Notrufe zu wählende Nummern eine PSTN-Telefonnummer eines Benutzers oder einer Gruppe eingeben, der bzw. die angerufen und an dem Notruf teilnehmen soll.  Geben Sie z. B. die Nummer des Sicherheitsdiensts Ihrer Organisation ein, der bei einem Notruf einen Anruf erhält und den Anruf dann anhören kann. Die Stummschaltung des PSTN-Telefons kann nicht gelöst werden, auch wenn der Modus auf Konferenz in stummgeschaltet festgelegt ist, die Stummschaltung **aber wieder aufgeschaltet werden kann.**
+    - Konferenz **in stumm** geschaltet, aber stummgeschaltet: Eine Teams-Chatnachricht wird an die von Ihnen angegebenen Benutzer und Gruppen gesendet und kann die Stummschaltung für die Audioanrufe und die Teilnahme an der Unterhaltung zwischen dem Anrufer und dem PSAP-Operator wieder aufschalten.
+5.  Wenn Sie eine der Telefonkonferenzen **im** Modus  "Stummgeschaltete Benachrichtigungen" ausgewählt haben, können Sie im Feld Für Notrufe zu wählende Nummern eine PSTN-Telefonnummer eines Benutzers oder einer Gruppe eingeben, der bzw. die angerufen und an dem Notruf teilnehmen soll. Geben Sie z. B. die Nummer des Sicherheitsdiensts Ihrer Organisation ein, der bei einem Notruf einen Anruf erhält und den Anruf dann anhören kann. Die Stummschaltung des PSTN-Telefons kann nicht gelöst werden, auch wenn der Modus auf Konferenz in stummgeschaltet festgelegt ist, die Stummschaltung **aber wieder aufgeschaltet werden kann.**
 6. Suchen Sie nach einem oder mehreren Benutzern oder Gruppen, z. B. dem Sicherheitsdienst Ihrer Organisation, und wählen Sie diese aus, um sich bei einem Notruf zu benachrichtigen.  Die Benachrichtigung kann an die E-Mail-Adressen von Benutzern, Verteilergruppen und Sicherheitsgruppen gesendet werden. Maximal 50 Benutzer können benachrichtigt werden.
 7. Klicken Sie auf **Anwenden**.
 

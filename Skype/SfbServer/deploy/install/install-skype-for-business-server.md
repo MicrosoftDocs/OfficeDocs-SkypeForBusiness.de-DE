@@ -1,5 +1,5 @@
 ---
-title: Installieren Skype for Business Server auf Servern in der Topologie
+title: Installieren von Skype for Business Server auf Servern in der Topologie
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -10,31 +10,31 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Skype for Business Server Systemkomponenten auf jedem Server in der Topologie installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 8fdeb6d2023a205ee39291714c94ee4fa0f38ddf4eafcced46f331a9478f3fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 89c158243a0cc33faaa1a3b3181dfc1f39094d63
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343829"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58609862"
 ---
-# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installieren Skype for Business Server auf Servern in der Topologie
+# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installieren von Skype for Business Server auf Servern in der Topologie
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die Skype for Business Server Systemkomponenten auf jedem Server in der Topologie installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem [Microsoft Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)herunter.
   
-Nachdem die Topologie in die zentrale Verwaltungs Store geladen wurde und Active Directory weiß, welche Server welche Rollen ausführen, müssen Sie das Skype for Business Server System auf jedem Server in der Topologie installieren. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der Reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Die Installation des Skype for Business Server Systems ist Schritt 7 von 8.
+Nachdem die Topologie in die zentrale Verwaltung Store geladen wurde und Active Directory weiß, welche Server welche Rollen ausführen, müssen Sie das Skype for Business Server System auf jedem Server in der Topologie installieren. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der Reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Die Installation des Skype for Business Server Systems ist Schritt 7 von 8.
   
 ![Übersichtsdiagramm.](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
 ## <a name="install-skype-for-business-server-system"></a>Installieren Skype for Business Server Systems
 
-Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Business Server Komponenten auf jedem Server in der Topologie installieren. Dieser Abschnitt führt Sie durch das Installieren Skype for Business Server und Einrichten der Serverrollen für den Front-End-Pool und alle Serverrollen, die mit den Front-End-Servern verbunden sind. Um Serverrollen zu installieren und einzurichten, führen Sie den Skype for Business Server Bereitstellungs-Assistenten auf jedem Computer aus, auf dem Sie eine Serverrolle installieren. Mit dem Bereitstellungs-Assistenten führen Sie alle vier Bereitstellungsschritte aus, einschließlich der Installation des lokalen Konfigurationsspeichers, der Installation der Front-End-Server, dem Konfigurieren von Zertifikaten und dem Starten von Diensten.
+Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Business Server Komponenten auf jedem Server in der Topologie installieren. Dieser Abschnitt führt Sie durch die Installation Skype for Business Server und das Einrichten der Serverrollen für den Front-End-Pool und alle Serverrollen, die mit den Front-End-Servern verbunden sind. Zum Installieren und Einrichten von Serverrollen führen Sie den Skype for Business Server Bereitstellungs-Assistenten auf jedem Computer aus, auf dem Sie eine Serverrolle installieren. Sie verwenden den Bereitstellungs-Assistenten, um alle vier Bereitstellungsschritte auszuführen, einschließlich der Installation des lokalen Konfigurationsspeichers, der Installation der Front-End-Server, dem Konfigurieren von Zertifikaten und dem Starten von Diensten.
   
 > [!IMPORTANT]
 > Sie müssen den Topologie-Generator verwenden, um die Topologie abzuschließen und zu veröffentlichen, bevor Sie Skype for Business Server auf Servern installieren können. 
@@ -60,18 +60,18 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Busi
 
 1. Fügen Sie das Skype for Business Server Installationsmedium ein. Wenn das Setup nicht automatisch beginnt, doppelklicken Sie auf **Setup**.
     
-2. Die Ausführung des Installationsmediums erfordert Microsoft Visual C++. Es wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob Sie es installieren möchten. Klicken Sie auf **"Ja".**
+2. Das Installationsmedium erfordert Microsoft Visual C++, um ausgeführt zu werden. Es wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob Sie es installieren möchten. Klicken Sie auf **"Ja".**
     
 3. Überprüfen Sie den Lizenzvertrag sorgfältig, und wenn Sie damit einverstanden sind, wählen Sie **"Ich stimme den Bedingungen im Lizenzvertrag zu,** und klicken Sie auf **OK."** 
     
-4. Smart Setup ist ein Feature in Skype for Business Server, bei dem Sie während des Installationsvorgangs eine Verbindung mit dem Internet herstellen können, um während des Installationsvorgangs nach Updates von Microsoft Update (MU) zu suchen, wie in der Abbildung dargestellt. Dies bietet eine bessere Benutzererfahrung, indem sichergestellt wird, dass Sie über die neuesten Updates für das Produkt verfügen. Klicken Sie auf **Installieren**, um mit der Installation zu beginnen.
+4. Smart Setup ist ein Feature in Skype for Business Server, mit dem Sie während des Installationsvorgangs eine Verbindung mit dem Internet herstellen können, um während des Installationsvorgangs nach Updates von Microsoft Update (MU) zu suchen, wie in der Abbildung dargestellt. Dies bietet eine bessere Benutzererfahrung, indem sichergestellt wird, dass Sie über die neuesten Updates für das Produkt verfügen. Klicken Sie auf **Installieren**, um mit der Installation zu beginnen.
     
     > [!NOTE]
-    > Viele Organisationen haben Windows Server Update Services (WSUS) in ihren Unternehmensumgebungen bereitgestellt. Mit WSUS können Administratoren die Verteilung von Updates, die über Microsoft Update veröffentlicht werden, vollständig auf Computern in ihrem Netzwerk verwalten. Im Rahmen der kumulativen Update 1-Version wurde Skype for Business Server Unterstützung für smartes Setup eingeführt, um mit WSUS zu arbeiten. Kunden mit WSUS, die Skype for Business Server zum ersten Mal bereitstellen oder ein Upgrade von der Lync Server 2013-Umgebung mithilfe der Funktion In-Place Upgrade durchführen, verfügen über smartes Setup, das Skype für Windows Updates von WSUS abruft, im Gegensatz zum Abrufen von Updates von MU. Kunden, die Smart Setup verwenden möchten, müssen smartSetupWithWSUS.psq auf allen Computern ausführen, bevor sie Setup.exe ausführen. 
+    > Viele Organisationen haben Windows Server Update Services (WSUS) in ihren Unternehmensumgebungen bereitgestellt. Mit WSUS können Administratoren die Verteilung von Updates, die über Microsoft Update veröffentlicht werden, vollständig auf Computern in ihrem Netzwerk verwalten. Im Rahmen der kumulativen Update 1-Version Skype for Business Server Unterstützung für smartes Setup für die Arbeit mit WSUS eingeführt. Kunden mit WSUS, die Skype for Business Server zum ersten Mal bereitstellen oder ein Upgrade von der Lync Server 2013-Umgebung mithilfe der Funktion In-Place Upgrade durchführen, verfügen über smartes Setup, das Skype für Windows Updates von WSUS abruft, anstatt Updates von MU abzurufen. Kunden, die Smart Setup verwenden möchten, müssen smartSetupWithWSUS.psq auf allen Computern ausführen, bevor sie Setup.exe ausführen. 
   
      ![Smart Setup-Screenshot.](../../media/d35c6cd9-3b8d-4510-871c-30ad07b1f4f2.png)
   
-5. Klicken Sie auf der Seite des Bereitstellungs-Assistenten auf **"Installieren" oder "Aktualisieren Skype for Business Server System".**
+5. Klicken Sie auf der Seite des Bereitstellungs-Assistenten auf **"Installieren" oder "Aktualisieren" Skype for Business Server System.**
     
 6. Führen Sie die Verfahren in den folgenden Prozeduren aus. Klicken Sie nach Abschluss auf **"Beenden",** um den Bereitstellungs-Assistenten zu schließen. Wiederholen Sie die Prozeduren für jeden Front-End-Server im Pool.
     
@@ -120,9 +120,9 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Busi
     > Skype for Business Server unterstützt die SHA-2-Suite (SHA-2 verwendet Digestlängen von 224, 256, 384 oder 512 Bit) von Digesthash- und Signaturalgorithmen für Verbindungen von Clients, die die Betriebssysteme Windows 10, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012 oder Windows Server 2008 R2 ausführen. Um den externen Zugriff mit der SHA-2-Suite zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die auch ein Zertifikat mit dem gleichen Bitlängendigest ausstellen kann. 
   
     > [!IMPORTANT]
-    > Die Auswahl des Hashdigests und Signaturalgorithmus hängt von den Clients und den Servern ab, die das Zertifikat verwenden, sowie von anderen Computern und Geräten, mit denen Clients und Server kommunizieren, die auch wissen müssen, wie die im Zertifikat verwendeten Algorithmen verwendet werden sollen. Informationen dazu, welche Digestlängen im Betriebssystem und in einigen Clientanwendungen unterstützt werden, finden Sie unter [Windows PKI-Blog : SHA2 und Windows.](/archive/blogs/pki/sha2-and-windows) 
+    > Die Auswahl des Hashdigests und Signaturalgorithmus hängt von den Clients und den Servern ab, die das Zertifikat verwenden, sowie von anderen Computern und Geräten, mit denen Clients und Server kommunizieren, die auch wissen müssen, wie die im Zertifikat verwendeten Algorithmen verwendet werden sollen. Informationen dazu, welche Digestlängen im Betriebssystem und in einigen Clientanwendungen unterstützt werden, finden Sie unter [Windows PKI-Blog – SHA2 und Windows](/archive/blogs/pki/sha2-and-windows). 
   
-    Jeder Standard Edition- oder Front-End-Server erfordert bis zu vier Zertifikate: das oAuthTokenIssuer-Zertifikat, ein Standardzertifikat, ein internes Webzertifikat und ein externes Webzertifikat. Sie können jedoch ein einzelnes Standardzertifikat mit entsprechenden einträgen alternativen Antragstellernamen sowie das oAuthTokenIssuer-Zertifikat anfordern und zuweisen. Ausführliche Informationen zu den Zertifikatanforderungen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md)
+    Jeder Standard Edition- oder Front-End-Server erfordert bis zu vier Zertifikate: das oAuthTokenIssuer-Zertifikat, ein Standardzertifikat, ein internes Webzertifikat und ein externes Webzertifikat. Sie können jedoch ein einzelnes Standardzertifikat mit entsprechenden einträgen alternativen Antragstellernamen sowie das oAuthTokenIssuer-Zertifikat anfordern und zuweisen. Ausführliche Informationen zu den Zertifikatsanforderungen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md)
     
     > [!IMPORTANT]
     > Im folgenden Verfahren wird beschrieben, wie Zertifikate von einer internen Active Directory-Zertifikatdienste-basierten Zertifizierungsstelle konfiguriert werden. 

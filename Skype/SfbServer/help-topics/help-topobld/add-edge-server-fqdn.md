@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeServerFqdnsPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 84a9511d-601d-4819-a30c-7b08d96e4d97
 description: Sie müssen einen vollqualifizierten Domänennamen für den Zugriffs-Edgedienst eingeben. Wenn Sie auf der Seite "Features auswählen" keine einzelne &amp; FQDN-IP-Adressoption ausgewählt haben, müssen Sie auch einen FQDN für den Webkonferenz-Edgedienst und den A/V-Edgedienst angeben.
-ms.openlocfilehash: ada345c95f2754cab927a3469660404256d7c53dac7bca3b2f62bf26ce3fca8c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cbf6f957913fa4c22c5e09236d5a2dc22a99dbb0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54290883"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633055"
 ---
 # <a name="add-edge-server-fqdn"></a>Hinzufügen des Edgeserver-FQDN
  

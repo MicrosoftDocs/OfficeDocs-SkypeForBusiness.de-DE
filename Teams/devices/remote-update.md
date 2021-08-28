@@ -11,18 +11,18 @@ ms.collection:
 - M365-collaboration
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: Aktualisieren Microsoft Teams Von Telefonen, Teams Panels und Zusammenarbeitsleisten remote über das Teams Admin Center
-ms.openlocfilehash: 8ff925756e91c72c42d1557a1c735e5323691272a82405d5e4047ab4ff9828b5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Aktualisieren Microsoft Teams von Telefonen, Teams Panels und Zusammenarbeitsleisten remote über Teams Admin Center
+ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322687"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58632179"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Remoteupdate Microsoft Teams Geräte
 
-Mithilfe des Microsoft Teams Admin Centers können Sie Ihre Teams-Geräte wie Teams-Telefone, Teams-Panels und Zusammenarbeitsleisten remote aktualisieren, und Sie können das Verhalten der Firmware für automatische Updates für Geräte auswählen. Sie können auf Ihren Geräten Folgendes aktualisieren, indem Sie Teams Admin Center verwenden:
+Mithilfe des Microsoft Teams Admin Centers können Sie Ihre Teams-Geräte wie Teams-Telefone, Teams-Panels und Zusammenarbeitsleisten remote aktualisieren, und Sie können das Verhalten der Firmware für automatische Updates für Geräte auswählen. Sie können folgendes auf Ihren Geräten über das admin center Teams aktualisieren:
 
 - Teams-App und Teams-Administrator-Agent
 - Unternehmensportal-App
@@ -38,18 +38,18 @@ Zum Verwalten von Geräten müssen Sie ein globaler Administrator, Teams Diensta
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Auswählen des Verhaltens bei automatischen Firmwareupdates für Geräte
 
-Firmwareupdates für Geräte werden automatisch angewendet. Sie können entscheiden, ob Updates angewendet werden sollen, sobald ein Update veröffentlicht wurde (wenn Sie diese Option auswählen, werden Updates am ersten Wochenende nach der Enbst bzw. 30- oder 90-Tage- Version eines Updates angewendet). Firmwareupdates für Geräte werden standardmäßig 30 Tage lang auf eine veröffentlichte Version angewendet.
+Firmwareupdates für Geräte werden automatisch angewendet. Sie können entscheiden, ob Updates angewendet werden sollen, sobald ein Update veröffentlicht wurde (wenn Sie diese Option auswählen, werden Updates am ersten Wochenende nach der Enbst bzw. 30- oder 90-Tage-Endung eines Updates angewendet). Firmwareupdates für Geräte werden standardmäßig 30 Tage lang auf eine veröffentlichte Version angewendet.
 
 > [!IMPORTANT]
 > Die neueste Firmwareupdateversion wird auf Ihrem Gerät Teams angewendet. Stattdessen wird das Update, das automatisch auf Ihr Gerät angewendet wird, um eine Version verzögert. Nehmen wir beispielsweise an, dass auf Ihr Gerät Version "10" angewendet und Version "11" veröffentlicht wird. Version "11" wird noch nicht angewendet. Stattdessen wird Ihr Gerät erst auf Version "11" aktualisiert, nachdem Version "12" veröffentlicht wurde.
 
 > [!NOTE]
-> Einige Geräte unterstützen die automatische Firmwareaktualisierung noch nicht. Die Anwendung von Einstellungen für automatische Firmwareupdates auf Geräten, die automatische Updates nicht unterstützen, hat keine Auswirkungen auf diese Geräte. Bei Fragen, ob Ihr Gerät automatische Firmwareupdates unterstützt, wenden Sie sich an den Gerätehersteller.
+> Einige Geräte unterstützen das automatische Firmwareupdate noch nicht. Die Anwendung von Einstellungen für automatische Firmwareupdates auf Geräten, die automatische Updates nicht unterstützen, hat keine Auswirkungen auf diese Geräte. Bei Fragen, ob Ihr Gerät automatische Firmwareupdates unterstützt, wenden Sie sich an den Gerätehersteller.
 
 Gehen Sie wie folgt vor, um das Verhalten für automatische Updates für Ihre Geräte zu wählen:
 
 1. Melden Sie sich bei Microsoft Teams Admin Center an, indem Sie https://admin.teams.microsoft.com besuchen.
-2. Navigieren **Sie zu**  >  **IP-Telefonen für Geräte** oder zur **Zusammenarbeitsleiste** **Teams Gerätepanels.**
+2. Navigieren **Sie in**  >  **IP-Telefonen oder** **Zusammenarbeitsleisten** **Teams Geräte.**
 3. Wählen Sie ein oder mehrere Geräte und dann **Aktualisieren aus.**
 4. Wählen **Sie unter Firmware-Autoupdate** eine der folgenden Optionen aus:
     - **Sobald verfügbar** Das neueste Firmwareupdate für Geräte wird am ersten Wochenende nach Version des neuesten Updates angewendet.
@@ -66,7 +66,7 @@ Wenn Sie ein oder mehrere Geräte über das Admin Center aktualisieren, können 
 Gehen Sie wie folgt vor, um Remotegeräte manuell zu aktualisieren:
 
 1. Melden Sie sich bei Microsoft Teams Admin Center an, indem Sie https://admin.teams.microsoft.com besuchen.
-2. Navigieren **Sie zu**  >  **IP-Telefonen für Geräte** oder zur **Zusammenarbeitsleiste** **Teams Gerätepanels.**
+2. Navigieren **Sie in**  >  **IP-Telefonen oder** **Zusammenarbeitsleisten** **Teams Geräte.**
 3. Wählen Sie ein oder mehrere Geräte und dann **Aktualisieren aus.**
 4. Wählen **Sie unter Manuelle** Updates die Option **Zeitplan** aus, wenn Sie das Update auf ein zukünftiges Datum und eine zukünftige Uhrzeit planen möchten. Die Aktualisierungen werden zu dem Datum und der Uhrzeit in der Zeitzone angewendet, die in **Zeitzone ausgewählt ist.**
 
@@ -74,8 +74,8 @@ Was Sie sehen, hängt davon ab, ob Sie ein oder mehrere Geräte ausgewählt habe
 
 :::image type="content" source="../media/device-update-status.png" alt-text="Einzel- und Geräteansichten im Statusbereich für Geräteupdates":::
 
-Wenn Sie mehrere Geräte auswählen, können Sie auswählen, welche Updatetypen auf jedes ausgewählte Gerät angewendet werden. Wählen Sie die Updatetypen, die Sie anwenden möchten, und dann **Aktualisieren aus.**
+Wenn Sie mehrere Geräte auswählen, können Sie auswählen, welche Updatetypen auf jedes ausgewählte Gerät angewendet werden. Wählen Sie die Updatetypen aus, die Sie anwenden möchten, und wählen Sie **Dann aktualisieren aus.**
 
 Wenn Sie ein einzelnes Gerät auswählen, werden die für das Gerät verfügbaren Updates angezeigt. Wenn für das Gerät mehrere Updatetypen verfügbar sind, wählen Sie jeden anzuwendende Updatetyp aus. Sie können die aktuelle **Version anzeigen, die** auf dem Gerät angewendet wird, und die **neue** Version, die angewendet wird. Wählen Sie die zu übernehmende(n) Aktualisierung und dann **Aktualisieren aus.**
 
-Nachdem Sie **Update ausgewählt haben,** werden Updates auf Ihre Geräte zu dem Datum und der Uhrzeit angewendet, das/die Sie beim geplanten Update ausgewählt haben. Wenn Sie kein zukünftiges Datum und keine zukünftige Uhrzeit ausgewählt haben, werden Updates innerhalb weniger Minuten auf Ihre Geräte angewendet.
+Nachdem Sie **Update ausgewählt haben,** werden Updates auf Ihre Geräte zu dem Datum und der Uhrzeit angewendet, das/die Sie bei der geplanten Aktualisierung ausgewählt haben. Wenn Sie kein zukünftiges Datum und keine zukünftige Uhrzeit ausgewählt haben, werden Updates innerhalb weniger Minuten auf Ihre Geräte angewendet.

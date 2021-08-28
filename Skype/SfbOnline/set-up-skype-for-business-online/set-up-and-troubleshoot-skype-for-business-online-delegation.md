@@ -13,24 +13,24 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: In diesem Artikel wird erläutert, wie Sie eine Onlinedelegierung Skype for Business und eine Problembehandlung dafür finden. Dieser Artikel enthält Anleitungen zu Einrichtungsempfehlungen, bewährten Methoden und Schritten zur Problembehandlung.
-ms.openlocfilehash: c672006e8b78e5b3fb881da97e2ab3bbe65e465aa5981cc95fb2caf9bed39e4f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: In diesem Artikel wird erläutert, wie Sie eine Onlinedelegierung einrichten und Skype for Business behandeln. Dieser Artikel enthält Anleitungen zu Einrichtungsempfehlungen, bewährten Methoden und Schritten zur Problembehandlung.
+ms.openlocfilehash: c461b54bba68cf6570eae6a6b4dc18ab99a63b89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310174"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58587847"
 ---
 # <a name="set-up-and-troubleshoot-skype-for-business-online-delegation"></a>Einrichten von und Problembehandlung bei Skype for Business Online-Delegierung
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-In diesem Artikel wird erläutert, wie Sie eine Onlinedelegierung Skype for Business und eine Problembehandlung dafür finden. Dieser Artikel enthält Anleitungen zu Einrichtungsempfehlungen, bewährten Methoden und Schritten zur Problembehandlung.
+In diesem Artikel wird erläutert, wie Sie eine Onlinedelegierung einrichten und Skype for Business behandeln. Dieser Artikel enthält Anleitungen zu Einrichtungsempfehlungen, bewährten Methoden und Schritten zur Problembehandlung.
   
 ## <a name="guidelines-and-requirements"></a>Richtlinien und Anforderungen
 
@@ -38,21 +38,21 @@ In diesem Artikel wird erläutert, wie Sie eine Onlinedelegierung Skype for Busi
 
 Das Einrichten und Erhalten einer ordnungsgemäßen Stellvertretung hängt davon ab, dass Sie die folgenden Richtlinien befolgen:
   
-- Sie müssen den vollständigen Skype for Business 2015-Client mit den neuesten Updates oder den vollständigen Skype for Business 2016-Client verwenden.
+- Sie müssen den vollständigen Skype for Business 2015-Client mit den neuesten Updates oder den Skype for Business 2016-Vollclient verwenden.
     
-- Sie müssen den Outlook 2013-Client mit den neuesten Updates oder den Client Outlook 2016 verwenden.
+- Sie müssen den Outlook 2013-Client mit den neuesten Updates oder den Outlook 2016 verwenden.
     
 - Stellen Sie sicher, dass die Delegator- und Stellvertretungscomputer über ein Outlook-Mail-Profil verfügen, das das primäre oder das Standardprofil ist. Dieses E-Mail-Profil sollte nur ein Konto enthalten.
     
-- Skype for Business delegieren und die Stellvertretung sollte Onlinebenutzer sein. Darüber hinaus müssen Exchange Server Postfächer für jedes Konto entweder online oder beide lokal sein.
+- Skype for Business Delegator und die Stellvertretung sollte Onlinebenutzer sein. Darüber hinaus müssen Exchange Server Postfächer für jedes Konto entweder online oder beide lokal sein.
     
 - Sowohl der Delegator als auch der Delegat sollten dieselbe Hauptversion des Outlook.
     
-- Der **EnableExchangeDelegateSync-Attributwert** sollte in der Clientrichtlinie auf **true** festgelegt werden. Sie können diese Einstellung überprüfen, indem Sie das **Get-CSClientPolicy-Cmdlet** im Skype for Business Online PowerShell-Modul ausführen.
+- Der **EnableExchangeDelegateSync-Attributwert** sollte in der Clientrichtlinie auf **true** festgelegt werden. Sie können diese Einstellung überprüfen, indem Sie das **Cmdlet Get-CSClientPolicy** im PowerShell-Skype for Business Ausführen.
     
 - Sowohl der Delegator als auch der Delegat müssen auf verschiedenen Arbeitsstationen Skype for Business und Outlook gleichzeitig angemeldet sein.
     
-- Freigegebene Postfächer werden für die Onlinedelegierung Skype for Business unterstützt. Der Grund dafür ist, dass das freigegebene Postfach nicht über die **sendonbehalf-Zugriffssteuerungsliste** (Access Control List, ACL) verfügen.
+- Freigegebene Postfächer werden für die Onlinedelegierung Skype for Business unterstützt. Dies liegt daran, dass das freigegebene Postfach nicht über die **sendonbehalf-Zugriffssteuerungsliste** (Access Control List, ACL) verfügen.
     
 ### <a name="skype-for-business-client-version-support"></a>Skype for Business der Clientversionsunterstützung
 
@@ -85,7 +85,7 @@ Führen Sie zum Einrichten Skype for Business Onlinedelegierung die folgenden Sc
   
 ### <a name="for-windows-clients"></a>Für Windows Clients
 
- **Registerkarte "Anruf weiterleitung"**
+ **Registerkarte "Anruf weiterleiten"**
   
 1. Wählen **Sie**  >  **Extras Optionen**  >  **Anrufanruf Einstellungen** aus.
     
@@ -95,7 +95,7 @@ Führen Sie zum Einrichten Skype for Business Onlinedelegierung die folgenden Sc
     
  **Keine Registerkarte "Anruf weiterleitung"**
   
-1. Wählen Outlook Dateikonto   >  **aus, und Einstellungen**  >  **Zugriffsrechte für Stellvertretung**  >  **hinzufügen** aus.
+1. Wählen Outlook Dateikonto   >  **und Einstellungen**  >  **Zugriffsrechte für Stellvertretung hinzufügen**  >  **aus.**
     
 2. Suchen Sie den Namen der Person, die die Stellvertretung werden soll, und fügen Sie ihn hinzu.
     
@@ -103,13 +103,13 @@ Führen Sie zum Einrichten Skype for Business Onlinedelegierung die folgenden Sc
     
 ### <a name="for-mac-clients---lync"></a>Für Mac-Clients – Lync
 
- **Registerkarte "Anruf weiterleitung"**
+ **Registerkarte "Anruf weiterleiten"**
   
-- Wenn der Client keine  Registerkarte Anruf weiterleitung mit  dem Link Stellvertretungsmitglieder bearbeiten hat und sich die Delegierung auf einem Mac-Computer befindet, muss sich die Delegator bei einem Windows-basierten Computer anmelden, um die Stellvertretung einrichten zu können. Dies liegt daran, dass Mac-Clients keine MAPI-Verbindungen herstellen können, und dies ist eine Anforderung zum Einrichten Skype for Business Delegierung Outlook.
+- Wenn der Client keine  Registerkarte Anruf weiterleitung mit  dem Link Stellvertretungsmitglieder bearbeiten hat und sich die Stellvertretung auf einem Mac-Computer befindet, muss sich die Delegator bei einem Windows-basierten Computer anmelden, um die Stellvertretung einrichten zu können. Dies liegt daran, dass Mac-Clients keine MAPI-Verbindungen herstellen können, und dies ist eine Anforderung, eine Skype for Business von Outlook.
     
 ### <a name="verify-success"></a>Überprüfen des Erfolgs
 
-Wenn die Einrichtung erfolgreich war, sollte der Stellvertretung die Nachricht Sie wurden als Stellvertretung  für < Name **>** hinzugefügt und außerdem angezeigt werden, dass die Gruppe Personen, für die ich Anrufe verwalte erstellt wurde. Der Delegator sollte sehen, dass die Gruppe **Stellvertretung** erstellt wurde.
+Wenn die Einrichtung erfolgreich war, sollte der Stellvertretung die Nachricht Sie wurden als Stellvertretung für < Name **>** hinzugefügt und außerdem angezeigt werden, dass die Gruppe Personen, für die ich Anrufe verwalte erstellt wurde.  Der Delegator sollte sehen, dass die Gruppe **Stellvertretung** erstellt wurde.
   
 > [!NOTE]
 > Delegierungsberechtigungen werden in der Regel innerhalb von 30 Minuten nach dem Setup angezeigt. Dieser Vorgang kann jedoch bis zu 24 Stunden dauern. 
@@ -122,7 +122,7 @@ Wenn die Einrichtung erfolgreich war, sollte der Stellvertretung die Nachricht S
     
   - > **Auflösung 1** Klicken Sie Skype for Business-Client in der Gruppe Stellvertretung mit der rechten Maustaste auf die Stellvertretung, und wählen Sie **dann Aus Gruppe entfernen aus.** 
     
-- > **Problem 2** Nachdem der Zugriff auf die Stellvertretung über den Outlook-Client gewährt wurde, werden weder die Bestätigungsmeldung noch die Gruppe Personen, für die ich Anrufe verwalte für für die Stellvertretung angezeigt. 
+- > **Problem 2** Nachdem der Zugriff auf die Stellvertretung über den Outlook-Client gewährt wurde, werden weder die Bestätigungsmeldung noch die Gruppe Personen, für die ich Anrufe verwalte für die Stellvertretung angezeigt. 
     
   - > **Auflösung 2** Entfernen Sie die Delegierung aus Outlook Client, warten Sie etwa 15 Minuten auf Replikation, und fügen Sie dann die Stellvertretung erneut hinzu.
     
@@ -133,7 +133,7 @@ Wenn die Einrichtung erfolgreich war, sollte der Stellvertretung die Nachricht S
 - Der Skype for Business Basic-Client wird nicht unterstützt.
     
     > [!NOTE]
-    > Wenn Sie den Skype for Business Basic-Client installieren, wird die Delegierung entfernt und die Delegierung unterbricht. 
+    > Wenn Sie den Skype for Business Basic-Client installieren, wird die Delegierung entfernt und der Delegierungsinbruch ausgeführt. 
   
 - Wenn der **MAPI-Statuswert** nicht **OK** ist, stellen Sie sicher, dass die **SIP-** und **SMTP-Werte** übereinstimmen.
     
@@ -144,7 +144,7 @@ Wenn die Einrichtung erfolgreich war, sollte der Stellvertretung die Nachricht S
     
 - MAPI ist nicht verfügbar. Siehe [Fehler "MAPI nicht verfügbar" im Skype for Business 2016-Client.](https://support.microsoft.com/help/3147130)
     
-- Auf Exchange Online Postfach kann nicht über den Client Skype for Business zugegriffen werden. Führen Sie in diesem Fall den [Test Outlook Verbindung aus,](https://testconnectivity.microsoft.com/) um sicherzustellen, dass die Verbindung bestanden wird.
+- Auf Exchange Online Postfach kann nicht über den Client Skype for Business zugegriffen werden. Führen Sie in diesem Fall den [Test Outlook Verbindung](https://testconnectivity.microsoft.com/) aus, um sicherzustellen, dass die Verbindung bestanden wird.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Einrichten von Skype for Business Online](set-up-skype-for-business-online.md)
