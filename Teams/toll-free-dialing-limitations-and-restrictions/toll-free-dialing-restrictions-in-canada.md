@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Kanada, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: c3b39e327780e2a949a51eb85473714a1875a39a4e80f636bb234140bfedd710
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f9e81f30454d81126dd5db79b8793fda2bc00c14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339343"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633949"
 ---
 # <a name="toll-free-dialing-restrictions-in-canada"></a>Gebührenfreie Wähleinschränkungen in Kanada
 
@@ -48,7 +48,7 @@ ms.locfileid: "54339343"
 > [!NOTE]
 > **Wählformate:**
 >
-> - 800-389 sind etwas Besonderes und für Bahamas
+> - 800-389 sind etwas Besonderes und für Bahamas.
 > - 800-534 sind etwas Besonderes und für Barbados.
 > - 800-623 sind Sonderzeichen und für Bermuda
 > - 800-415 oder 907 oder 751 sind für die Dom Republik

@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
-description: In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie vor der Bereitstellung Ihres Skype for Business Server 2019-Edgeservers beachten sollten. Die Bereitstellungs- und Konfigurationsprozesse für Skype for Business Server 2019 sind Skype for Business Server 2015 sehr ähnlich. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. Ausführliche Schritte finden Sie unter Deploying external user access in Skype for Business Server 2019 in der Bereitstellungsdokumentation, in der der Bereitstellungsprozess beschrieben wird und konfigurationsbezogene Informationen für den externen Benutzerzugriff bereitgestellt werden.
-ms.openlocfilehash: 24202bc84be67453eeff321b268f44769d5b11a8eafcd6d93098db7c7b8537fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie vor der Bereitstellung Ihres Skype for Business Server 2019-Edgeservers beachten sollten. Die Bereitstellungs- und Konfigurationsprozesse für Skype for Business Server 2019 sind Skype for Business Server 2015 sehr ähnlich. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. Ausführliche Schritte finden Sie unter Deploying external user access in Skype for Business Server 2019 in der Bereitstellungsdokumentation, die den Bereitstellungsprozess beschreibt und außerdem Konfigurationsinformationen für den externen Benutzerzugriff bereitstellt.
+ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315081"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615009"
 ---
 # <a name="deploy-pilot-edge-server"></a>Bereitstellen eines Pilot-Edgeservers
 
@@ -37,7 +37,7 @@ In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie beacht
     
      ![Definieren des Edgepool-FQDN-Dialogfelds](../media/migration_ocs_topo_edgepool_page2.JPG)
   
-4. Aktivieren Sie auf der Seite **Funktionen auswählen** nicht den Verbund oder den XMPP-Partnerverbund. Partnerverbund und XMPP-Partnerverbund werden derzeit beide über den älteren Edgeserver weitergeleitet. Diese Funktionen werden in einer späteren Phase der Migration konfiguriert. 
+4. Aktivieren Sie auf der Seite **Funktionen auswählen** nicht den Verbund oder den XMPP-Partnerverbund. Partnerverbund und XMPP-Partnerverbund werden derzeit beide über den Legacy-Edgeserver weitergeleitet. Diese Funktionen werden in einer späteren Phase der Migration konfiguriert. 
 
   
 5. Führen Sie die folgenden Assistentenseiten aus: **Externe FQDNs,** **Definieren der internen IP-Adresse** und Definieren der externen **IP-Adresse.**
@@ -58,6 +58,6 @@ In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie beacht
 Es ist sehr wichtig, dass Sie die Richtlinien in den Themen in der Bereitstellungsdokumentation befolgen. Dieser Abschnitt stellt lediglich einen Leitfaden für die Konfigurationseinstellungen beim Installieren dieser Serverrollen dar. 
 <!-- [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) -->
   
-Sie sollten jetzt parallel zu einer Skype for Business Server 2019-Edgeserverbereitstellung einen älteren Edgeserver bereitgestellt haben. Stellen Sie sicher, dass beide Bereitstellungen ordnungsgemäß ausgeführt werden, die Dienste gestartet sind, und Sie beide Bereitstellungen verwalten können, bevor Sie mit der nächsten Phase fortfahren. 
+Sie sollten jetzt parallel zu einer Skype for Business Server 2019-Edgeserverbereitstellung einen älteren Edgeserver bereitstellen. Stellen Sie sicher, dass beide Bereitstellungen ordnungsgemäß ausgeführt werden, die Dienste gestartet sind, und Sie beide Bereitstellungen verwalten können, bevor Sie mit der nächsten Phase fortfahren. 
   
 

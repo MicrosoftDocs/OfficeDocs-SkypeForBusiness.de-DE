@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Zusammenfassung: Erfahren Sie mehr über die Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server.'
-ms.openlocfilehash: 86c7432ea32f4809d2b69d79583caca578c661950a217f7c1e3977925d524d3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340191"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617021"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server
  
@@ -52,16 +52,16 @@ Stellen Sie vor der Bereitstellung Enterprise-VoIP sicher, dass Ihre Infrastrukt
 
 Wenn Sie den Vermittlungsserver während der Front-End-Bereitstellung mit jedem Front-End-Pool oder Standard Edition-Server verbunden haben, wurden die für Enterprise-VoIP erforderlichen Benutzereinstellungen während der Installation der Dateien für diese Serverrollen automatisch konfiguriert.
   
-Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Telefonnummern normalisiert (richtig formatiert) und mithilfe Skype for Business Server Systemsteuerung in die **Line-URI-Eigenschaft** jedes Benutzers kopiert werden.
+Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Telefonnummern normalisiert (richtig formatiert) werden und mithilfe Skype for Business Server Systemsteuerung in die **Line URI-Eigenschaft** jedes Benutzers kopiert werden.
   
 > [!NOTE]
 > Beispiele für primäre Telefonnummern, die für Enterprise-VoIP Bereitstellung erforderlich sind, finden Sie unter ["Beispielnormalisierungsregeln".](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules) 
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Nächste Schritte: Installieren von Dateien oder Konfigurieren der PSTN-Konnektivität
 
-Nach der Überprüfung der Software- und Umgebungsvoraussetzungen für Enterprise-VoIP können Sie entweder:
+Nachdem Sie die Software- und Umgebungsvoraussetzungen für Enterprise-VoIP überprüft haben, können Sie entweder:
   
-- Installieren Sie den Vermittlungsserver, wie unter ["Bereitstellen eines Vermittlungsservers im Topologie-Generator" in Skype for Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder -pool bereitstellen möchten, da Vermittlungsserver beim Verbinden als Teil des Front-End-Pools oder Standard Edition Serverbereitstellungsvorgangs installiert werden.
+- Installieren Sie den Vermittlungsserver, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder -pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pools oder Standard Edition Serverbereitstellungsprozess installiert werden, wenn diese verbunden sind.
     
 - Oder beginnen Sie mit der Konfiguration von Einstellungen zum Weiterleiten von Anrufen für Enterprise-VoIP Benutzer, wie unter [Konfigurieren von Trunks in Skype for Business Server](configure-trunks.md)beschrieben.
     

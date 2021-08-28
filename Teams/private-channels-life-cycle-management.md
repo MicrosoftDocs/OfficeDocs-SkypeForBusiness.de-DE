@@ -15,19 +15,19 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe einer Graph-API verwalten.
-ms.openlocfilehash: 82a9f865099be4012456a1c3a854e08b79d15db432e965a60e32d44c36147b9c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe einer Graph verwalten.
+ms.openlocfilehash: a2cb9b45afb005c837b260ac3da22c250d16c758
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615321"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus von privaten Kanälen in Microsoft Teams
 
-Hier finden Sie die Anleitungen, die Sie verwalten müssen, um die Graph-API zum Verwalten Teams [privaten](./private-channels.md) Kanälen in Ihrer Organisation zu verwenden.
+Hier finden Sie die Anleitungen, die Sie verwalten müssen. Verwenden Sie die Graph-API zum Verwalten Teams [privaten](./private-channels.md) Kanälen in Ihrer Organisation.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Festlegen, ob Teammitglieder private Kanäle erstellen können
 
@@ -138,7 +138,7 @@ Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.c
 
 Möglicherweise möchten Sie die Besitzer und Mitglieder eines privaten Kanals auflisten, um zu entscheiden, ob Sie bestimmte Mitglieder des privaten Kanals zu Besitzer hochstufen müssen. Dies kann der Fall sein, wenn Besitzer von privaten Kanälen die Organisation verlassen haben und der private Kanal die Hilfe eines Administrator benötigt, um den Besitz des Kanals wieder zu beanspruchen.
 
-Als Administrator können Sie diese Aktionen mithilfe Graph-API ausführen.
+Als Administrator können Sie die Graph-API verwenden, um diese Aktionen durchzuführen.
 
 Sie können diese Befehle über den [Graph-Tester](https://developer.microsoft.com/graph/graph-explorer) ausprobieren.
 

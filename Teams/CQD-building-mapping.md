@@ -13,23 +13,23 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Hier erfahren Sie, wie Sie eine Gebäudezuordnung erstellen, die Sie zum Hochladen von Mandanten- und Gebäudedaten im Anrufqualitäts-Dashboard (CQD) verwenden können.
-ms.openlocfilehash: fbe033511ad0c717dd79bb5d0bb5b480037175abaa9ce7e5dd40aee334094fff
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a119324090d05b593eb1ed66f41efbb7a5bd7a0a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314291"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634099"
 ---
 # <a name="create-a-building-map-for-call-quality-dashboard-cqd"></a>Erstellen eines Gebäudeplans für das Anrufqualitätsdashboard (CQD)
 
-In einer Microsoft Teams oder Skype for Business Onlinebereitstellung sind alle Clients extern. Daher werden standardmäßig alle Clients im Anrufqualitätsdashboard als außerhalb des Anrufqualitätsdashboards gemeldet, unabhängig davon, ob der Client mit einem internen Unternehmensnetzwerk verbunden ist.
+In einer Microsoft Teams oder Skype for Business Online-Bereitstellung sind alle Clients extern. Daher werden standardmäßig alle Clients im Anrufqualitätsdashboard als außerhalb des Anrufqualitätsdashboards gemeldet, unabhängig davon, ob der Client mit einem internen Unternehmensnetzwerk verbunden ist.
 
 Wenn Sie mit einem AQD arbeiten, müssen Sie den Standort eines Endpunkts kennen und wissen, ob er mit einem Netzwerk verbunden war, das Sie verwalten können, oder ob sie ein Netzwerk nicht verwalten können, unter der Annahme, dass Sie nur Netzwerke verbessern können, die Sie verwalten können. Durch das Hochladen von Subnetz- und Gebäudeinformationen in das AQD aktivieren Sie das AQD, um festzustellen, ob der Endpunkt mit einem internen (verwalteten) Netzwerk oder einem externen (nicht verwalteten) Netzwerk verbunden war. Deshalb ist es wichtig, einen Gebäudeplan für Ihre Organisation zu erstellen und in das [AQD hochzuladen.](CQD-upload-tenant-building-data.md)
 

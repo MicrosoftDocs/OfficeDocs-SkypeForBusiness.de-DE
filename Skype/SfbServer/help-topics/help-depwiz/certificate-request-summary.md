@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRequestSummary
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e907e36b-c168-464c-8b52-edd409704a02
 description: Die Seite Zertifikatsanforderungszusammenfassung zeigt eine detaillierte Übersicht aller Optionen und Konfigurationen für das Zertifikat. Die Zusammenfassung enthält den Inhalt der Zertifikatsanforderung und Informationen zu seiner Ausstellung. Überprüfen Sie die Zusammenfassung sorgfältig, um sicherzustellen, dass alle von Ihnen ausgewählten Einträge und Optionen korrekt sind. Wenn Ihre Auswahl korrekt ist, klicken Sie auf "Weiter", um mit der Generierung der Anforderung fortzufahren und sie für das Senden an die Zertifizierungsstelle vorzubereiten.
-ms.openlocfilehash: ca62bd2870f31417212461843b1244eaf72aec66ee8ff27a7e69b7326d84541e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 485f67faca83d97f2ab626c3a1809220e9f2c82d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302759"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633849"
 ---
 # <a name="certificate-request-summary"></a>Zertifikatanforderung (Zusammenfassung)
  

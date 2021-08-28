@@ -9,22 +9,22 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Skype for Business Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 14d942e041d11cfd95b38f4cdcc18ad614c135df9d88b3a3e55261236144bffd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2990e1314ee851156bc11430ecf933fe31552117
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296642"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615191"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen Microsoft Teams-Räume mit Skype for Business Server
   
-In diesem Thema wird erläutert, wie Sie ein Gerätekonto für Microsoft Teams-Räume, wenn Sie über eine lokale Bereitstellung mit einer Gesamtstruktur verfügen.
+In diesem Thema wird erläutert, wie Sie ein Gerätekonto für eine Microsoft Teams-Räume bei einer lokalen Bereitstellung mit einer Gesamtstruktur hinzufügen.
   
 Wenn Sie über eine lokale Bereitstellung mit einer Gesamtstruktur mit Exchange 2013 SP1 oder höher und Skype for Business Server 2015 oder höher verfügen, können Sie die bereitgestellten Windows PowerShell-Skripts verwenden, um Gerätekonten zu erstellen. Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie entsprechende Cmdlets verwenden, die dieselben Ergebnisse erzeugen. Diese Cmdlets werden in diesem Abschnitt beschrieben.
 
@@ -45,7 +45,7 @@ Bevor Sie mit der Bereitstellung Microsoft Teams-Räume, stellen Sie sicher, das
 
    Beachten Sie$strExchangeServer dass $strExchangeServer der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) Ihres Exchange-Servers und $strLyncFQDN der FQDN Ihrer Skype for Business Server ist.
 
-2. Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount, oder Sie ändern die Einstellungen für ein vorhandenes Raumpostfach. Dadurch kann sich das Konto bei anderen Microsoft Teams-Räume.
+2. Nach dem Einrichten einer Sitzung erstellen Sie entweder ein neues Postfach und aktivieren es als RoomMailboxAccount oder ändern die Einstellungen für ein vorhandenes Raumpostfach. Dadurch kann sich das Konto bei anderen Microsoft Teams-Räume.
 
     Wenn Sie ein vorhandenes Ressourcenpostfach ändern:
 
@@ -61,7 +61,7 @@ Bevor Sie mit der Bereitstellung Microsoft Teams-Räume, stellen Sie sicher, das
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Sie können verschiedene Exchange Eigenschaften für das Gerätekonto festlegen, um die Besprechungserfahrung für die Benutzer zu verbessern. Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.
+3. Sie können verschiedene Exchange für das Gerätekonto festlegen, um die Besprechungserfahrung für die Benutzer zu verbessern. Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.
 
    ``` Powershell
    Set-CalendarProcessing -Identity $acctUpn -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -81,7 +81,7 @@ Bevor Sie mit der Bereitstellung Microsoft Teams-Räume, stellen Sie sicher, das
    Set-AdUser $acctUpn -Enabled $true
    ```
 
-6. Aktivieren Sie das Gerätekonto mit Skype for Business Server, indem Sie Ihr Microsoft Teams-Räume Active Directory-Konto in einem Skype for Business Server aktivieren:
+6. Aktivieren Sie das Gerätekonto für Skype for Business Server, indem Sie Ihr Microsoft Teams-Räume Active Directory-Konto in einem Skype for Business Server aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -SipAddress sip:PROJECTRIGEL01@contoso.com -DomainController DC-ND-001.contoso.com

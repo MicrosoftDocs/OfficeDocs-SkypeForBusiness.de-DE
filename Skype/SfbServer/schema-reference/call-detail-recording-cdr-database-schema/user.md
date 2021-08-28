@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 796f77e6-1da6-4969-b18b-3537209a1fe4
 description: In der Benutzeransicht werden Informationen über Benutzer gespeichert, die an Anrufen oder Sitzungen teilnehmen, welche über Datensätze in der Datenbank verfügen. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 200280f6a82a50490aee77177464b435e647a0a44852ca0db5b59c64bda836f3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 59b7371336ec900d6474016bb366407d4ffb7c14
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302249"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616381"
 ---
 # <a name="user-view"></a>Benutzeransicht
  
@@ -26,7 +26,7 @@ In der Benutzeransicht werden Informationen über Benutzer gespeichert, die an A
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|UserId  <br/> |Ganzzahl  <br/> |Eindeutige Zahl, die diesen Benutzer identifiziert.  <br/> |
+|UserId  <br/> |int  <br/> |Eindeutige Zahl, die diesen Benutzer identifiziert.  <br/> |
 |UserUri  <br/> |nvarchar(450)  <br/> |URI des Benutzers  <br/> |
 |TenantKey  <br/> |Uniqueidentifier  <br/> |Mandant des Benutzers. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
 |UriType  <br/> |nvarchar(256)  <br/> |Benutzer-URI-Typ. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |

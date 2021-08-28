@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche und eine Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver konfigurieren.
-ms.openlocfilehash: 52612e1cd4d8990f32b741538b8023ab1f8afabe
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 6e5b420b4ccc8cc59a45834cbd898ccc5b2ec180
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234950"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634289"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-conferencing-application-and-mediation-servers"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver
 
@@ -96,11 +96,11 @@ Wenn Sie die vorherigen drei Befehle ausführen, werden Sie sehen, dass die Stan
 </tbody>
 </table>
 
-Wie bereits erwähnt, sollten Sie bei der Konfiguration Skype for Business Server Ports für QoS sicherstellen, dass: 1) Audioporteinstellungen auf Ihren Konferenz-, Anwendungs- und Vermittlungsservern identisch sind. und 2) Portbereiche überlappen sich nicht. Wenn Sie sich die obige Tabelle genauer ansehen, werden Sie feststellen, dass die Portbereiche für die drei Servertypen identisch sind. Beispielsweise ist der Startaudioport auf Port 49152 für jeden Servertyp festgelegt, und die Gesamtzahl der Ports, die für Audio auf jedem Server reserviert sind, ist ebenfalls identisch: 8348. Die Portbereiche überschneiden sich jedoch: Audioports beginnen bei Port 49152, aber die Ports werden für die Anwendungsfreigabe reserviert. Um quality of Service optimal zu nutzen, sollte die Anwendungsfreigabe neu konfiguriert werden, um einen eindeutigen Portbereich zu verwenden. Beispielsweise können Sie die Anwendungsfreigabe so konfigurieren, dass sie am Port 40803 beginnt und 8348 Ports verwendet. (Warum 8348 Ports? Wenn Sie diese Werte zusammen hinzufügen – 40803 + 8348 –, bedeutet dies, dass die Anwendungsfreigabe die Ports 40803 bis Port 49150 verwendet. Da audio ports do not begin until port 49152, you will no longer have any overlapping port ranges.)
+Wie bereits erwähnt, sollten Sie bei der Konfiguration Skype for Business Server Ports für QoS sicherstellen, dass: 1) Audioporteinstellungen auf Ihren Konferenz-, Anwendungs- und Vermittlungsservern identisch sind. und 2) Portbereiche überlappen sich nicht. Wenn Sie sich die obige Tabelle genauer ansehen, werden Sie feststellen, dass die Portbereiche für die drei Servertypen identisch sind. Beispielsweise ist der Startaudioport auf Port 49152 für jeden Servertyp festgelegt, und die Gesamtzahl der Ports, die für Audio auf jedem Server reserviert sind, ist ebenfalls identisch: 8348. Die Portbereiche überschneiden sich jedoch: Audioports beginnen bei Port 49152, aber die Ports werden für die Anwendungsfreigabe reserviert. Um quality of Service optimal zu nutzen, sollte die Anwendungsfreigabe neu konfiguriert werden, um einen eindeutigen Portbereich zu verwenden. Beispielsweise können Sie die Anwendungsfreigabe so konfigurieren, dass sie an Port 40803 beginnt und 8348 Ports verwendet. (Warum 8348 Ports? Wenn Sie diese Werte zusammen hinzufügen – 40803 + 8348 –, bedeutet dies, dass die Anwendungsfreigabe die Ports 40803 bis Port 49150 verwendet. Da audio ports do not begin until port 49152, you will no longer have any overlapping port ranges.)
 
 Nachdem Sie den neuen Portbereich für die Anwendungsfreigabe ausgewählt haben, können Sie Ihre Änderung mithilfe des Cmdlets Set-CsConferencingServer vornehmen. Diese Änderungen müssen nicht auf den Anwendungsservern oder auf den Vermittlungsservern durchgeführt werden, da sie keinen Datenverkehr von Anwendungsfreigaben verarbeiten. Sie müssen die Portwerte auf diesen Servern lediglich ändern, wenn Sie die Ports für die Übertragung von Audiosignalen neu zuweisen.
 
-Um die Portwerte für die Anwendungsfreigabe auf einem einzelnen Konferenzserver zu ändern, führen Sie einen Befehl ähnlich dem folgenden aus der Skype for Business Server Verwaltungsshell aus:
+Um die Portwerte für die Anwendungsfreigabe auf einem einzelnen Konferenzserver zu ändern, führen Sie einen Befehl wie den folgenden in der Skype for Business Server Verwaltungsshell aus:
 
   **Set-CsConferenceServer -Identity ConferencingServer:atl-cs-001.litwareinc.com -AppSharingPortStart 40803 -AppSharingPortCount 8348**
 
@@ -122,17 +122,17 @@ Quality of Service-Richtlinien können am einfachsten mithilfe von Gruppenrichtl
 
 Um eine Quality of Service-Richtlinie für die Audioverwaltung zu erstellen, melden Sie sich bei einem Computer an, auf dem die Gruppenrichtlinienverwaltung installiert wurde. Öffnen Sie die Gruppenrichtlinienverwaltung (klicken Sie auf **"Start",** zeigen Sie auf **"Verwaltungstools",** und klicken Sie dann auf **"Gruppenrichtlinienverwaltung"),** und führen Sie dann das folgende Verfahren aus:
 
-1.  Suchen Sie in der Gruppenrichtlinienverwaltung nach dem Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Skype for Business Server Computer in einer OE mit dem Namen Skype for Business Server befinden, sollte die neue Richtlinie in der Skype for Business Server OU erstellt werden.
+1.  Suchen Sie in der Gruppenrichtlinienverwaltung nach dem Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Skype for Business Server Computer in einer OU mit dem Namen Skype for Business Server befinden, sollte die neue Richtlinie in der Skype for Business Server OU erstellt werden.
 
 2.  Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf **"Gruppenrichtlinienobjekt in dieser Domäne erstellen", und verknüpfen Sie es hier.**
 
-3.  Geben Sie im Dialogfeld **Neues Gruppenrichtlinienobjekt** einen Namen für das neue Gruppenrichtlinienobjekt in das **Feld "Name"** ein (z. **B. Skype for Business Server QoS),** und klicken Sie dann auf **"OK".**
+3.  Geben Sie im Dialogfeld **"Neues** Gruppenrichtlinienobjekt" einen Namen für das neue Gruppenrichtlinienobjekt in das **Feld "Name"** ein (z. **B. Skype for Business Server QoS),** und klicken Sie dann auf **"OK".**
 
 4.  Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **"Bearbeiten".**
 
 5.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor **Computerkonfiguration**, erweitern Sie **Richtlinien**, erweitern Sie **Windows-Einstellungen**, klicken Sie mit der rechten Maustaste auf **Richtlinienbasierter QoS**, und klicken Sie dann auf **Neue Richtlinie erstellen**.
 
-6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der startseite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server QoS)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
+6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server QoS)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
 7.  Stellen Sie auf der nächsten Seite sicher, dass **alle Anwendungen** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Damit wird ganz einfach sichergestellt, dass alle Anwendungen mit den Paketen aus dem angegebenen Portbereich mit dem angegebenen DSCP-Code übereinstimmen.
 

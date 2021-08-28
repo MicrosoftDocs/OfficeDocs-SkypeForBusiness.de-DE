@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Dänemark verfügbare Dienste.
-ms.openlocfilehash: 9e7e73c439ec971762c71399ad899afea7f3fc371485af84a3886f5b02fc562c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f3a877b6c6139eef02a85176b57688a5897d3aca
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278164"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615411"
 ---
 # <a name="availability-in-denmark"></a>Verfügbarkeit in Dänemark
 

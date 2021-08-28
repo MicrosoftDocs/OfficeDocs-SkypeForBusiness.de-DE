@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams Das Anrufqualitätsdashboard (CQD).
-ms.openlocfilehash: a733abb5f1fb41e149dd0801b5e25dd1bf948bf6
-ms.sourcegitcommit: 942e09c70840582f0cc1e433d4b0261298b1c66d
+description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams anrufqualitätsdashboard (CQD).
+ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58339853"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616301"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ) zum Anrufqualitätsdashboard (CQD)
 
@@ -36,9 +36,9 @@ ms.locfileid: "58339853"
 
 [Warum sehe ich bis zu 0,2 % Differenz bei Anruf- und Benutzeranzahl-Werten für Measures und wie kann ich genaueste Datenmengen erhalten? ](#why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes)
 
-[Warum wird EUII im AQD nicht gefunden?](#why-cant-i-see-euii-in-cqd)
+[Warum wird EUII im CQD nicht gefunden?](#why-cant-i-see-euii-in-cqd)
 
-[Warum werden im AQD Skype for Business angezeigt, wenn ich nur nach Teams gefiltert habe?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Warum werden im Skype for Business AQD Informationen angezeigt, wenn ich nur nach einer Teams habe?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -57,7 +57,7 @@ Hier ist ein Beispiel für die Problembehandlung in dieser Situation. Angenommen
 Wenn die Netzwerkmetriken bei Mittelwerten und Max-Werten gut aussehen, dann sehen Sie sich andere Telemetriedaten an: 
 - Überprüfen Sie das unzureichende Ereignisverhältnis der CPU, um zu überprüfen, ob die erkannten CPU-Ressourcen nicht ausreichend waren und eine schlechte Qualität verursacht haben. 
 - War das Audiogerät im Halbduplexmodus, um Feedback aufgrund von Mikrofonen zu verhindern, die sich in der Nähe der Lautsprecher befinden? 
-- Überprüfen Sie das Geräte-AEC-Ereignisverhältnis halber Duplex-AEC. War die Geräte-Kopplung oder das Mikrofon aufgrund von USB-Audio-Drop-Outs, die an eine Hub- oder Dockingstation angeschlossen wurden, ein Rauschen oder ein statisches Mikrofon aus?  
+- Überprüfen Sie das Geräte-AEC-Ereignisverhältnis halber Duplex-AEC. War die Geräte-Kopplung oder das Mikrofon aufgrund von USB-Audio-Drop-Outs, die an eine Hub- oder Dockingstation angeschlossen wurden, ein Rauschen oder ein statisches Mikrofon?  
 - Überprüfen Sie die Geräte-Störungen und Mikrofon-Störungen des Ereignisverhältnisses. Funktionierte das Gerät selbst ordnungsgemäß?  
 - Überprüfen Sie die Ereignisverhältnisse des Aufnahme- und Rendergeräts "Not Functioning".
 
@@ -84,9 +84,9 @@ Diese Administratorrollen können auf das CQD zugreifen, sie können jedoch nich
 
 Weitere Informationen zu Rollen, die auf das AQD zugreifen können (einschließlich EUII), finden Sie unter Zuweisen von Rollen für den Zugriff auf [das AQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden im AQD Skype for Business angezeigt, wenn ich nur nach Teams gefiltert habe?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden im AQD Skype for Business angezeigt, wenn ich nur nach einer Teams habe?
 
-Wenn Sie nur Teams AQD-Berichten filtern (istTeams = 1), filtern Sie  nach allen Anrufen, bei denen der erste Endpunkt Teams. Wenn der *zweite Endpunkt* Skype for Business, werden diese Informationen in Ihrem AQD-Bericht enthalten.
+Wenn Sie nur Teams AQD-Berichte filtern (istTeams = 1), filtern Sie nach allen Anrufen, bei denen der erste Endpunkt *Teams.* Wenn der *zweite Endpunkt* Skype for Business, werden diese Informationen in Ihrem AQD-Bericht enthalten.
 
 CQDv2 und CQDv3 haben immer unterschiedliche Gesamtanzahlen, da CQDv3 neue Szenarien hat, die CQDv2 nicht haben wird. Aus diesem Grund können sie diese erwarteten Unterschiede zwischen Zusammenfassungssumme und aggregierten Zahlen ohne Filter haben.  
 

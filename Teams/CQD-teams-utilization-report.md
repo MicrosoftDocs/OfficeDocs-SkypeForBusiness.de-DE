@@ -14,22 +14,22 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-description: Verwenden Sie die Teams-Power BI, um auf Microsoft Teams Anrufqualitätsdashboard-Daten zu zugreifen, um die Microsoft Teams in Ihrer Organisation nachverfolgt.
-ms.openlocfilehash: e32d321383621b4a961856ad091ba0497e41d7b27fa32925987a8bb093c7fc91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+description: Verwenden Sie die Teams-Power BI, um auf Microsoft Teams Anrufqualitätsdashboard-Daten zu zugreifen, um die Microsoft Teams in Ihrer Organisation nachverfolgt zu können.
+ms.openlocfilehash: e026f2b6b2b5e04d98dbf14582e5ce1ffc7f5007
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616291"
 ---
 # <a name="view-microsoft-teams-utilization-in-power-bi-using-cqd-data"></a>Anzeigen Microsoft Teams Nutzung in Power BI mithilfe von AQD-Daten
 
 Neu im März 2020 ist, dass wir unseren herunterladbaren Power BI-Abfragevorlagen für das [AQD](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)einen Bericht Teams Nutzung hinzugefügt haben. 
 
-In den neuen berichten Teams Nutzungsberichte können Sie sehen, wie (und in welchem Prozent) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf die Daten des Teams-Anrufqualitäts-Dashboards (AQD) zugreifen. Diese Berichte sollen ein zentraler Speicherort sein, zu dem Administratoren und Führungskräfte schnell auf diese Daten umgehen können.
+In diesen neuen Berichten Teams Nutzungsberichte können Sie sehen, wie (und in welchem Prozent) Ihre Benutzer Microsoft Teams verwenden, indem Sie auf die Teams-Daten des Anrufqualitäts-Dashboards (CQD) zugreifen. Diese Berichte sollen ein zentraler Speicherort sein, zu dem Administratoren und Führungskräfte schnell auf diese Daten umgehen können.
 
-Der bericht Teams "Power BI" besteht aus zwei primären Berichten: Zusammenfassung der Anrufanzahl **[und](#call-count-summary-report)** **[Zusammenfassung der Audiominuten.](#audio-minutes-summary-report)** Die [Berichte Tägliche Verwendung,](#daily-usage)Regionale [](#user-list) [Audiodetails,](#regional-audio-details) [Konferenzdetails](#conference-details) und Benutzerliste werden ins Spiel kommen, wenn ein Benutzer die Drilldownberichte nutzt, die in den folgenden Beschreibungen aufgeführt sind.
+Der Teams Bericht "Power BI" besteht aus zwei primären Berichten: Zusammenfassung der Anrufanzahl **[und](#call-count-summary-report)** **[Zusammenfassung der Audiominuten.](#audio-minutes-summary-report)** Die [Berichte Tägliche Verwendung,](#daily-usage)Regionale [](#user-list) [Audiodetails,](#regional-audio-details) [Konferenzdetails](#conference-details) und Benutzerliste werden ins Spiel kommen, wenn ein Benutzer die Drilldownberichte nutzt, die in den folgenden Beschreibungen aufgeführt sind.
 
 > [!NOTE]
 > Gebäude- und Subnetzdaten müssen aufgefüllt werden, um regionale Filterfunktionen und Netzwerkfilterfunktionen bereitstellen zu können.
@@ -51,7 +51,7 @@ Auf der Hauptseite (Anrufanzahl-Zusammenfassung) wird sofort die Anzahl der Audi
   ![Screenshot: Teams Bericht zur Nutzung](media/CQD-teams-utilization-report4.png)
 
 Im unteren linken Abschnitt der Seite finden Sie eine Tabelle, in der die Gesamtwerte für jeden Medientyp im vergangenen Jahr enthalten sind. 
-    ![Screenshot: Teams der ](media/CQD-teams-utilization-report5.png) ![ Nutzungsberichte: Teams Nutzungsberichte](media/CQD-teams-utilization-report6.png)   
+    ![Screenshot: Teams "Nutzungsberichte": ](media/CQD-teams-utilization-report5.png) ![ Berichte Teams Nutzungsberichten](media/CQD-teams-utilization-report6.png)   
 
 Rechts neben der Tabelle zeigt ein Balkendiagramm Clients an, die in den letzten 30 Tagen am häufigsten (Anrufe/Datenströme) verwendet wurden.
    ![Screenshot: Teams Bericht zur Nutzung](media/CQD-teams-utilization-report7.png)
@@ -63,7 +63,7 @@ Im letzten Diagrammsatz für diese Seite wird jeder Medientyp einzeln angezeigt,
 
 Im Bericht Audiominutennutzung wird die gesamte Minutennutzung in verschiedenen Ansichten bereitgestellt. 
 
-Die 30-Tage-Nutzungszusammenfassung wird neben den Datenschnitten so angezeigt, dass Textfelder einfach zu verwenden sind. Die oberste Zahl zeigt die Gesamtzahl der 30 Tage an, mit internen und externen Aufschlüsselungen darunter.
+Die 30-Tage-Nutzungszusammenfassung wird neben den Datenschnitten so angezeigt, dass Textfelder einfach zu verwenden sind. Die oberste Zahl zeigt die Gesamtanzahl von 30 Tagen mit internen und externen Aufschlüsselungen darunter.
 
 ![Screenshot: Teams Bericht zur Nutzung](media/CQD-teams-utilization-report9.png)
 
@@ -143,13 +143,13 @@ Der regionale Audiotrend kann verwendet werden, um zu zeigen, wie sich externe E
 
 ### <a name="user-list"></a>Benutzerliste
 
-Wie zu erwarten, werden mit dem Drilldown zur Benutzerliste benutzerspezifische Informationen für eine bestimmte Stunde angezeigt, die von der Person ausgewählt wurde, die den Bericht angezeigt hat. Auf den Bericht Benutzerliste kann über einen Drilldown im Diagramm Stündlich-Trends im Bericht tägliche Verwendung zugegriffen werden. Klicken Sie mit der rechten Maustaste auf die Stunde, für die zusätzliche Informationen erforderlich sind, und wählen Sie Drillthrough und Benutzerliste aus, wie unten dargestellt.
+Wie zu erwarten, werden mit dem Drilldown zur Benutzerliste benutzerspezifische Informationen für eine bestimmte Stunde angezeigt, die von der Person ausgewählt wurde, die den Bericht angezeigt hat. Auf den Bericht Benutzerliste können Sie über einen Drilldown im Diagramm Stündlich-Trends im Bericht "Tägliche Verwendung" zeigen. Klicken Sie mit der rechten Maustaste auf die Stunde, für die zusätzliche Informationen erforderlich sind, und wählen Sie Drillthrough und Benutzerliste aus, wie unten dargestellt.
 
 ![Screenshot: Teams Bericht zur Nutzung](media/CQD-teams-utilization-report19.png)
 
 Im Bericht Benutzerliste werden interne/externe Konnektivität durch das Ringdiagramm in der oberen Mitte der Seite angezeigt. In der abbildung unten sehen Sie, dass ein großer Teil der Teilnahme außerhalb des Unternehmensnetzwerks besteht.
 
-Oben rechts im Diagramm wird die Anzahl der Anrufe angezeigt, die von jedem Benutzer innerhalb dieser Stunde vorgenommen wurden.
+Die obere rechte Seite des Diagramms zeigt die Anzahl der Anrufe, die von jedem Benutzer innerhalb dieser Stunde vorgenommen wurden.
 
 ![Screenshot: Teams Bericht zur Nutzung](media/CQD-teams-utilization-report20.png)
 

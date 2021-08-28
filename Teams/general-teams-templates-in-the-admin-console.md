@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe von allgemeinen Teamvorlagen Teamstrukturen erstellen, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
 f1.keywords:
@@ -19,22 +19,22 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c68e3efd00e0f9204f507b4c63977837076bb3beb75a958a0629f1e5da64f69e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3427a14da3d994b10bf8d83f5d03f76769401670
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344028"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634049"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Verwenden allgemeiner Teamvorlagen im Admin Center
 
 Teamvorlagen ermöglichen es Ihnen, Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
 
-Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf finanzielle Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die Auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
+Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf finanzielle Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
 
 In diesem Artikel stellen wir die einzelnen Teamvorlagen vor und empfehlen, sie zu verwenden.
 
-Dieser Artikel ist für Sie, wenn Sie für das Planen, Bereitstellen und Verwalten mehrerer Teams in der gesamten Organisation verantwortlich sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie noch kein Rollout ihrer Teams, lesen Sie zunächst die Informationen unter Rollout [Microsoft Teams.](./deploy-overview.md)
+Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation verantwortlich sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie noch kein Rollout ihrer Teams, lesen Sie zunächst das Rollout [von Microsoft Teams.](./deploy-overview.md)
 
 Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen.](get-started-with-teams-templates-in-the-admin-console.md)
 

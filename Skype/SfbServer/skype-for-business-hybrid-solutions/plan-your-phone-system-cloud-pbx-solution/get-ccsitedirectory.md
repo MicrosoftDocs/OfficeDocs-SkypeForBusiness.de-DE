@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a243758e-6774-4437-ad2e-d5cea5f04eb6
 description: Das cmdlet Get-CcSiteDirectory zeigt das aktuelle Verzeichnis an, in dem Konfigurationsdateien auf Standortebene gespeichert sind. Der Ordner enthält die Basis-VHD und Skype for Business Cloud Connector Edition Installationsdateien. Dieser Ordner sollte für alle anderen Appliances eines Cloud Connector-Standorts freigegeben werden.
-ms.openlocfilehash: 279afabbb88aab162be8445007772e24d24d06d935130d5f4f27a8755a2fd25c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 04b1460b9743c3d19ca4db77f67d057d400f400b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343189"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616371"
 ---
 # <a name="get-ccsitedirectory"></a>Get-CcSiteDirectory
  
@@ -53,7 +53,7 @@ Um Gatewayaffinität und hohe Verfügbarkeit bereitzustellen, können Cloud Conn
 ## <a name="input-types"></a>Eingabetypen
 <a name="InputTypes"> </a>
 
-Keine. Das Cmdlet Get-CcSiteDirectory akzeptiert keine weitergeleitete Eingabe.
+Keine. Das cmdlet Get-CcSiteDirectory akzeptiert keine weitergeleitete Eingabe.
   
 ## <a name="return-types"></a>Rückgabetypen
 <a name="ReturnTypes"> </a>

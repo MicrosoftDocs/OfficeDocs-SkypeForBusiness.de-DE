@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: cec2d9bf-2deb-482c-841b-0e3599f94b50
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihre PsTN-Standorte der Cloud Connector Edition planen, um eine effiziente und kostengünstige Anrufweiterleitung sicherzustellen.
-ms.openlocfilehash: 51bc6c0b7bf536849ebc9d6b1338faa6db8800fee86c4515db4c5f15bf9115b3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 54f8ec9f89c6a3ef88b5ac8e70e9eebfd2968d2d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339961"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616331"
 ---
 # <a name="plan-for-cloud-connector-edition-pstn-sites"></a>Planen von PSTN-Standorten der Cloud Connector Edition
 
@@ -30,11 +30,11 @@ ms.locfileid: "54339961"
  
 Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihre PsTN-Standorte der Cloud Connector Edition planen, um eine effiziente und kostengünstige Anrufweiterleitung sicherzustellen.
   
-In diesem Thema wird beschrieben, was Sie über Cloud Connector Edition und Anrufrouting wissen müssen, damit Sie Ihre Cloud Connector PSTN-Standorte planen können. Ein PSTN-Standort ist eine Kombination aus Cloud Connector-Appliances, die am gleichen Standort bereitgestellt werden und mit allgemeinen PSTN-Gateways verbunden sind. In diesem Thema wird beschrieben, wie Sie Ihre Cloud Connector-Standorttopologie einrichten, um sicherzustellen, dass Ihre Cloud Connector-Standorte sowohl eingehendes als auch ausgehendes Routing für alle Benutzer, die einem Standort zugewiesen sind, auf die kostengünstigste und effektivste Weise verarbeiten können. Weitere Informationen zu Cloud Connector und den Vorteilen von PSTN-Standorten finden Sie unter [Plan for Skype for Business Cloud Connector Edition](plan-skype-for-business-cloud-connector-edition.md). 
+In diesem Thema wird beschrieben, was Sie über Cloud Connector Edition und Anrufrouting wissen müssen, damit Sie Ihre Cloud Connector PSTN-Standorte planen können. Ein PSTN-Standort ist eine Kombination aus Cloud Connector-Appliances, die am gleichen Standort bereitgestellt werden und mit allgemeinen PSTN-Gateways verbunden sind. In diesem Thema wird beschrieben, wie Sie Ihre Cloud Connector-Standorttopologie einrichten, um sicherzustellen, dass Ihre Cloud Connector-Standorte sowohl eingehendes als auch ausgehendes Routing für alle Benutzer, die einem Standort zugewiesen sind, auf die kostengünstigste und effektivste Weise verarbeiten können. Weitere Informationen zu Cloud Connector und den Vorteilen von PSTN-Standorten finden Sie unter [Plan for Skype for Business Cloud Connector Edition.](plan-skype-for-business-cloud-connector-edition.md) 
   
 ## <a name="cloud-connector-pstn-sites-and-call-routing"></a>Cloud Connector PSTN-Standorte und Anrufweiterleitung
 
-Cloud Connector-PSTN-Standorte sind ein Topologiekonstrukt, das erstellt wurde, um unnötige Fern- und Ländergespräche zu verhindern und sicherzustellen, dass ausgehende Notrufe an den entsprechenden Trunk weitergeleitet werden. Um eine kostengünstige und effiziente Weiterleitung von Anrufen zu gewährleisten, einschließlich Notrufe, müssen Sie Ihre PSTN-Standorte sorgfältig planen und angeben, wie den einzelnen Standorten Benutzer zugewiesen werden. 
+Cloud Connector-PSTN-Standorte sind ein Topologiekonstrukt, das erstellt wurde, um unnötige Fern- und Ländergespräche zu verhindern und sicherzustellen, dass ausgehende Notrufe an den entsprechenden Trunk weitergeleitet werden. Um eine kostengünstige und effiziente Weiterleitung von Anrufen, einschließlich Notrufen, zu gewährleisten, müssen Sie Ihre PSTN-Standorte sorgfältig planen und angeben, wie den einzelnen Standorten Benutzer zugewiesen werden. 
   
 Im Rahmen Ihrer Planung für Cloud Connector ist es wichtig, dass Sie mit Ihren Netzbetreibern darüber sprechen, wo sich Ihre Büros und Benutzer befinden und wo die PSTN-Trunks vom Netzbetreiber beendet werden. Sie müssen mit Ihren Netzbetreibern zusammenarbeiten, um zu bestimmen, wie Notrufe weitergeleitet werden können, und diese Informationen dann verwenden, um Cloud Connector-PSTN-Standorte zu definieren und Benutzern die entsprechenden Standorte zuzuweisen. Sie sollten beispielsweise sicherstellen, dass die Trunks, die an einem Rechenzentrum enden, in dem der PSTN-Standort gestreckt ist, so konfiguriert sind, dass sowohl eingehendes als auch ausgehendes Routing für alle Nummern verarbeitet wird, die den Benutzern an diesem Standort zugewiesen sind. 
   
@@ -42,7 +42,7 @@ Jede Cloud Connector-Appliance kann mit mehreren IP-Gateways, IP-Nebenstellenanl
   
 Skype for Business Online behandelt alle Cloud Connector-Appliances an einem Standort gleich und leitet ausgehende Anrufe rotierend an Cloud Connector-Appliances am selben Standort weiter. Jeder Cloud Connector an einem Standort ist mit dem gleichen Satz von PSTN-Trunks verbunden (vollständig vergittert). Da jeder Benutzer einem Cloud Connector-PSTN-Standort zugeordnet ist, werden alle ausgehenden Anrufe dieses Benutzers (Normal oder Notfall) einer der Cloud Connector-Appliances am PSTN-Standort zugewiesen, dem der Benutzer zugeordnet ist. 
   
-Cloud Connector führt statisches Anrufrouting an die angeschlossenen IP-Gateways, IP-Nebenstellenanlagen, SBCs oder direkten PSTN-Trunks durch. Cloud Connector ist noch nicht in der Lage, ein dynamisches Routing zu einem Trunk basierend auf dem Ziel (für das Routing mit den geringsten Kosten) oder basierend auf dem Ursprung (statische oder dynamische Notrufe) durchzuführen. Eingehende Anrufe stellen kein Problem dar, da der Anruf nur von einem Trunk stammen kann, der der Nummer zugeordnet ist. Ausgehende Anrufe können jedoch an eine beliebige Cloud Connector-Appliance an einem Standort (und durch erweiterungsweise die pstn-Trunks, die mit dieser Cloud Connector-Appliance verbunden sind) gehen, was zu unerwünschten Ferngesprächen führen kann. Darüber hinaus werden Notrufe nicht durchgestellt, wenn der Cloud Connector-PSTN-Standort über Rechenzentren mit unterschiedlichen Vorwahlen oder Netzbetreibern gestreckt wird.
+Cloud Connector führt statisches Anrufrouting an die angeschlossenen IP-Gateways, IP-Nebenstellenanlagen, SBCs oder direkten PSTN-Trunks durch. Cloud Connector ist noch nicht in der Lage, ein dynamisches Routing zu einem Trunk basierend auf dem Ziel (für das Routing mit den geringsten Kosten) oder basierend auf dem Ursprung (statische oder dynamische Notrufe) durchzuführen. Eingehende Anrufe stellen kein Problem dar, da der Anruf nur von einem Trunk stammen kann, der der Nummer zugeordnet ist. Ausgehende Anrufe können jedoch an eine beliebige Cloud Connector-Appliance an einem Standort (und durch erweiterungsweise die pstn-Trunks, die an diese Cloud Connector-Appliance angeschlossen sind) gehen, was zu unerwünschten Ferngesprächen führen kann. Darüber hinaus werden Notrufe nicht durchgestellt, wenn der Cloud Connector-PSTN-Standort über Rechenzentren mit verschiedenen Vorwahlen oder Netzbetreibern gestreckt wird.
   
 ## <a name="an-example"></a>Ein Beispiel
 

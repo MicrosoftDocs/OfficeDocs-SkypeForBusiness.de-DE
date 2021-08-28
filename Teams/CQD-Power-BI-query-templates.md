@@ -1,5 +1,5 @@
 ---
-title: Verwenden Power BI Zum Analysieren von AQD-Daten für Microsoft Teams
+title: Verwenden Power BI zum Analysieren von AQD-Daten für Microsoft Teams
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -14,24 +14,24 @@ search.appverid: MET150
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Verwenden Power BI zum Analysieren von AQD-Daten für Microsoft Teams.
-ms.openlocfilehash: 7314a0fb4a5bd1058e2270a3302e165eacc05d07dca4ebcc599a75aed687cd74
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 67e6c8750d064c8472865a22f1367d297fd4fee5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286234"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616321"
 ---
-# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden Power BI Zum Analysieren von AQD-Daten für Microsoft Teams
+# <a name="use-power-bi-to-analyze-cqd-data-for-microsoft-teams"></a>Verwenden Power BI zum Analysieren von AQD-Daten für Microsoft Teams
 
 Neu im Januar 2020: [Power BI-Abfragevorlagen für CQD herunterladen](https://www.microsoft.com/download/details.aspx?id=102291). Anpassbare Power BI-Vorlagen, mit deren Hilfe Sie Ihre CQD-Daten analysieren und berichten können.
 
-Wenn Sie für Anrufqualitätsdashboard-Berichte in Teams lieber Power BI zum Abfragen und Melden Ihrer Daten verwenden möchten, laden Sie unsere Vorlagen für Anrufqualitätsdashboards Power BI herunter. Wenn Sie die Vorlagen in Power BI öffnen, werden Sie aufgefordert, sich mit Ihren Administratoranmeldeinformationen für das AQD anmelden. Sie können diese Abfragevorlagen anpassen und an jeden in Ihrer Organisation verteilen, der über Power BI- und AQD-Administratorberechtigungen verfügt.
+Wenn Sie für Anrufqualitätsdashboard-Berichte in Teams lieber Power BI zum Abfragen und Melden Ihrer Daten verwenden möchten, laden Sie unsere Vorlagen für Das Anrufqualitätsdashboard Power BI herunter. Wenn Sie die Vorlagen in Power BI öffnen, werden Sie aufgefordert, sich mit Ihren Administratoranmeldeinformationen für das AQD anmelden. Sie können diese Abfragevorlagen anpassen und an jeden in Ihrer Organisation verteilen, der über Power BI- und AQD-Administratorberechtigungen verfügt.
 
-Bevor Sie diese PBIT-Dateien verwenden können, müssen Sie den Power BI Connector für [Microsoft CQD](CQD-Power-BI-connector.md) mit der im Download enthaltenen Datei *"MicrosoftCallQuality.pqx"* [installieren.](https://www.microsoft.com/download/details.aspx?id=102291) 
+Bevor Sie diese PBIT-Dateien verwenden können, müssen Sie den Power BI Connector für [Microsoft CQD](CQD-Power-BI-connector.md) mithilfe der im Download enthaltenen Datei *"MicrosoftCallQuality.pqx"* [installieren.](https://www.microsoft.com/download/details.aspx?id=102291) 
 
-Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffsrolle für](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) den Zugriff auf die Power BI verfügen. 
+Stellen Sie sicher, dass Sie über die richtige Zugriffsrolle für [AQD verfügen,](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd) um auf die Power BI zugreifen zu können. 
 
 |  |  |
 |---------|---------|
@@ -39,13 +39,13 @@ Stellen Sie sicher, dass Sie über die richtige [CQD-Zugriffsrolle für](turning
 |CQD Helpdesk Report.pbit     |Dieser Bericht dient zum Integrieren von Gebäude- und EUII-Daten und soll Es Ihnen gestatten, einen Drilldown eines einzelnen Benutzers zu erstellen, um die Ursache für eine schlechte Anrufqualität in Upstream zu finden (z. B. wenn sich der Benutzer in einem Gebäude befindet, in dem Netzwerkprobleme auftreten).         |
 |CQD Location Enhanced Report.pbit     | Wiedererstelle von Standortberichten für das CQD SPD Enthält 9 Berichte, die Informationen zu Anrufqualität, WLAN, Zuverlässigkeit und Bewerten von Anrufen mit zusätzlichen Drillthruss durch Gebäude oder Benutzer bereitstellen.  Stellen Sie sicher, dass Sie die Gebäudedaten hochladen, um Die Berichterstellung zu maximieren.        |
 |CQD Mobile Device Report.pbit     | Bietet Einblicke, die speziell für Benutzer mobiler Geräte optimiert wurden, einschließlich Anrufqualität, Zuverlässigkeit und Anrufrate. Anzeigen von Berichten über Mobilnetzwerke, WLAN-Netzwerke und Betriebssysteme für mobile Geräte (Android, iOS).        |
-|CQD PSTN Direct Routing Report.pbit     |Bietet einblicke speziell für PSTN-Anrufe, die über Direct Routing gehen. Weitere Informationen finden Sie unter [Verwenden des PSTN-Direktroutingberichts für AQD.](CQD-PSTN-report.md)         |
-|CQD-Zusammenfassungsbericht.pbit     |Bessere Visualisierungen, verbesserte Präsentation, höhere Informationsdichte und Rolldaten. Diese Berichte vereinfachen das Bezeichnern von Ausreißern. Führen Sie mithilfe einer einfach zu bedienende interaktiven Karte einen Drilldown in die Anrufqualität nach Standort durch. 9 neue Berichte:</p>- Quality Overall<br>- Zuverlässigkeit insgesamt<br>- RMC (Rate My Call) Overall<br>- Konferenzqualität<br>- P2P-Qualität<br>– Konferenzzuverlässigkeit<br>- P2P Zuverlässigkeit<br>- Conference RMC<br>- P2P RMC         |
-|<strong>(Neu!)</strong> CQD Teams Utilization Report.pbit     | Zeigt, wie Benutzer in Ihrer Organisation Teams und wie viel. Stellen Sie sicher, dass Sie die Gebäudedaten hochladen, um Die Berichterstellung zu maximieren. Weitere Informationen finden Sie unter Verwenden [des AQD-Power BI zum Anzeigen Microsoft Teams Nutzung.](CQD-teams-utilization-report.md)        |
-|CQD User Feedback (Rate My Call) Report.pbit     | Zeigt "Meine Anruf bewerten"-Daten in einer Weise an, die Sie ganz einfach verwenden können, um Die Anrufunterstützung für Ihre Organisation zu unterstützen. Querverweis mit Ausführlichkeit, um Möglichkeiten für die Ausbildung von Endbenutzern zu identifizieren.        |
+|CQD PSTN Direct Routing Report.pbit     |Bietet einblicke speziell für PSTN-Anrufe, die über Direct Routing gehen. Weitere Informationen finden Sie unter [Verwenden des PSTN-Direktroutingberichts](CQD-PSTN-report.md)für AQD.         |
+|CQD-Zusammenfassungsbericht.pbit     |Bessere Visualisierungen, verbesserte Präsentation, höhere Informationsdichte und Rolldaten. Diese Berichte vereinfachen das Bezeichnern von Ausreißern. Führen Sie mithilfe einer einfach zu bedienende interaktiven Karte einen Drilldown in die Anrufqualität nach Standort durch. 9 neue Berichte:</p>- Quality Overall<br>- Zuverlässigkeit insgesamt<br>- RMC (Rate My Call, Meinen Anruf bewerten) Insgesamt<br>- Konferenzqualität<br>- P2P-Qualität<br>– Konferenzzuverlässigkeit<br>- P2P Zuverlässigkeit<br>- Conference RMC<br>- P2P RMC         |
+|<strong>(Neu!)</strong> CQD Teams Utilization Report.pbit     | Zeigt, wie Benutzer in Ihrer Organisation Teams und wie viel. Stellen Sie sicher, dass Sie die Gebäudedaten hochladen, um Die Berichterstellung zu maximieren. Weitere Informationen finden Sie unter Verwenden [des AQD-Power BI zum Anzeigen Microsoft Teams Nutzung](CQD-teams-utilization-report.md).        |
+|CQD User Feedback (Rate My Call) Report.pbit     | Zeigt die Daten zum Bewerten meines Anrufs in einer Weise an, mit der Sie Anrufe für Ihre Organisation problemlos unterstützen können. Querverweis mit Ausführlichkeit, um Möglichkeiten für die Ausbildung von Endbenutzern zu identifizieren.        |
 
 > [!TIP]
-> Nachdem Sie Ihre AQD-Power BI eingerichtet haben, fügen Sie sie als Registerkarte zu einem Kanal hinzu. Nachdem Sie **+** die Option in einem Kanal ausgewählt haben, wählen **Power BI** aus, und suchen Sie den Bericht. Weitere Informationen finden Sie unter [Einbetten eines Berichts mit Power BI Registerkarte für Teams.](/power-bi/service-embed-report-microsoft-teams) Denken Sie daran, dass nur Power BI mit einer Lizenz und Administratoranmeldeinformationen für AQD auf diese Berichte zugreifen können.
+> Nachdem Sie Ihre AQD-Power BI eingerichtet haben, fügen Sie sie als Registerkarte zu einem Kanal hinzu. Nachdem Sie **+** in einem Kanal ausgewählt haben, wählen **Power BI** aus, und suchen Sie den Bericht. Weitere Informationen finden Sie unter [Einbetten eines Berichts auf der Registerkarte](/power-bi/service-embed-report-microsoft-teams)Power BI für Teams. Denken Sie daran, dass nur Personen mit einer Power BI und AQD-Administratoranmeldeinformationen auf diese Berichte zugreifen können.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

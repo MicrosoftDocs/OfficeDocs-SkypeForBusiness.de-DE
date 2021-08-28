@@ -13,20 +13,20 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
-description: 'Passen Skype Besprechungseinladungen mit grafischen Logos, UrLs für Hilfe- und rechtlichen UrLs und Fußzeilentext an. '
-ms.openlocfilehash: c7c642d13eb2e0ac76d4565a977faebe08c52b378f50e1e5193486002056c4ea
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Passen Skype Besprechungseinladungen mit grafischen Logos, UrLs für Hilfe- und rechtlichen Texten und Fußzeilentext an. '
+ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614937"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -41,9 +41,9 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
     
 2. Speichern Sie das Bild im JPG-Format.
     
-3. Store bild an einem zentralen Ort speichern, auf den jeder in Ihrem Unternehmen zugreifen kann, z. B. eine Netzwerkfreigabe, einen freigegebenen OneDrive for Business-Ordner, Dropbox usw.
+3. Store bild an einem zentralen Speicherort speichern, auf den jeder in Ihrem Unternehmen zugreifen kann, z. B. eine Netzwerkfreigabe, einen freigegebenen OneDrive for Business-Ordner, Dropbox usw.
     
-    Jetzt können Sie es zu ihren Besprechungseinladungen hinzufügen. Fahren Sie mit den nächsten Schritten fort.
+    Jetzt können Sie es zu Ihren Besprechungseinladungen hinzufügen. Weitere Informationen finden Sie unter den nächsten Schritten.
     
 ## <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
 <a name="__top"> </a>
@@ -52,7 +52,7 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
 
 1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Wählen Sie im Admin Center Admin **Center und dann**  >  **Skype for Business.**
+2. Wählen Sie im Admin Center Admin **Center und**  >  **Skype for Business** aus.
     
 3. Wählen Sie Skype for Business Admin Center die Option **Onlinebesprechungen aus.** 
     
@@ -62,7 +62,7 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
 
    **Logo-URL:** Geben Sie die URL ein, unter der Ihr Logo gespeichert ist. Denken Sie daran, dass es im JPG-Format vorliegen muss. 
  
-   **Hilfe-URL:** Wenn Ihre Organisation über eine Supportwebsite verfügt, zu der personen wechseln sollen, wenn Probleme auftreten, geben Sie die URL hier ein. 
+   **Hilfe-URL:** Wenn Ihre Organisation über eine Supportwebsite verfügt, zu der Personen wechseln sollen, wenn Probleme auftreten, geben Sie die URL hier ein. 
 
    **URL der rechtlichen Vorschriften:** Wenn es in Ihrer Organisation eine Website für juristische Daten gibt, zu der Personen wechseln sollen, wenn sie rechtliche Bedenken haben, geben Sie die URL hier ein.
     
@@ -71,7 +71,7 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
    
 5. Klicken Sie auf **Speichern**.
     
-6. Warten Sie etwa eine Stunde, bis die Änderungen in allen diensten Microsoft 365 oder Office 365 werden. Wechseln Sie dann zu Outlook, und planen Sie Skype Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
+6. Warten Sie etwa eine Stunde, bis die Änderungen in allen ihren Diensten Microsoft 365 oder Office 365 werden. Wechseln Sie dann zu Outlook, und planen Sie Skype Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
     
     ![So sieht eine benutzerdefinierte Einladung ohne Grafik aus](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   

@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: Der Office Web Apps-Server stellt Dienste bereit, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht jedoch zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
-ms.openlocfilehash: 32716f1dab5cbde7eed222a3178fa2db01748c14a579aa6866d1ce125c1cd7fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Der Office Web Apps-Server bietet Dienste ähnlich wie ein Referent, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht jedoch zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
+ms.openlocfilehash: 7b45a29e1e65e786492b890050cfa894001989e2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303728"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634399"
 ---
-# <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
+# <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 
-Der Office Web Apps-Server stellt Dienste bereit, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht jedoch zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
+Der Office Web Apps-Server bietet Dienste ähnlich wie ein Referent, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht jedoch zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
 
 Sie wählen einen Office Web Apps-Server für Ihre Bereitstellung aus, wenn Sie Konferenzen als eine der Featureoptionen für ihre Skype for Business Server 2015-Konfiguration ausgewählt haben.
 

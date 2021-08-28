@@ -17,18 +17,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: 'Hier erhalten Sie Informationen zu den Features, der Verfügbarkeit und erfahren, wie Sie Microsoft-Telefon System für Ihr Unternehmen planen und einrichten. '
-ms.openlocfilehash: eb39ea455ef298e00982a5ee414415ddbf66207a
-ms.sourcegitcommit: df6ad1b0f0caebebad87f1b5536fba85c3c0d26e
+ms.openlocfilehash: 73f093fa7e8a029ee282a3b4d7cd236553cbc86a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/26/2021
-ms.locfileid: "58548290"
+ms.locfileid: "58615351"
 ---
 # <a name="heres-what-you-get-with-phone-system"></a>Vorteile des Telefonsystems
 
@@ -66,15 +66,15 @@ Telefonsystem bietet die folgenden Features. Sofern nicht anders angegeben, steh
 |[Integrierte Wählta pad](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89) <br/> | Ermöglicht Benutzern das Anrufen nach Name oder Nummer an einer beliebigen Stelle in der Suchleiste und auf der Wähltaste, wodurch ausgehende Anrufe beschleunigt werden. <br/> |
 |Verbundrufe  <br/> |Ermöglicht Benutzern sichere Verbindungen, Kommunikation und Zusammenarbeit mit Benutzern in Partner mandants.  <br/> |
 |[Anrufen und Empfangen eines Videoanrufs](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42) <br/> | Wenn das Konto des Benutzers für Videoanrufe aktiviert ist, kann der Benutzer Videoanrufe mit seinen Kontakten telefonieren. Alles, was sie benötigen, ist eine Kamera, die Lautsprecher und das Mikrofon ihres Computers. Benutzer können auch ein Headset verwenden, wenn ihr Computer nicht über ein integriertes Audiogerät verfügt.<br/> |
-|[Cloudvoicemail](set-up-phone-system-voicemail.md) <br/> | Wenn ein Benutzer eine Voicemail erhält, wird sie als E-Mail Exchange das Postfach des Benutzers zugestellt, und die Voicemail-Nachricht wird als Anlage gesendet. Benutzer können ihre Nachrichten auf ihrem zertifizierten Desktoptelefon und in allen Teams oder Skype for Business hören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. <br> Beachten Sie, dass Benutzer *weder* eine  Telefonsystem-Lizenz benötigen noch über Sprachfunktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.   <br/> |
-|[Cloud-Voicemail von Benutzereinstellungen](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern die Konfiguration ihrer Clienteinstellungen für Voicemail-Begrüßungen, Anrufbeantwortungsregeln und die Begrüßungssprache, einschließlich Außer-Office-Begrüßungen. <br> Beachten Sie, dass Benutzer *weder* eine  Telefonsystem-Lizenz benötigen noch über Sprachfunktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.  |
-|[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren an ihren PC angeschlossenen Lautsprechern können zusätzlich zum Standardlautsprecher ein sekundäres Gerät zum Klingeln festlegen. Beispielsweise kann ein Benutzer mit einem an den PC und den Schreibtischlautsprechern angeschlossenen Headset und Schreibtischlautsprecher wählen, dass beim Ein-/Ein-Anruf sowohl Das Headset als auch der Lautsprecher klingeln, damit er keinen Anruf verpasst.  |
+|[Cloudvoicemail](set-up-phone-system-voicemail.md) <br/> | Wenn ein Benutzer eine Voicemail erhält, wird sie als E-Mail Exchange das Postfach des Benutzers zugestellt, und die Voicemail-Nachricht wird als Anlage gesendet. Benutzer können ihre Nachrichten auf ihrem zertifizierten Desktoptelefon und in allen Teams oder Skype for Business hören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. <br> Beachten Sie, dass Benutzer *weder* eine  Lizenz Telefonsystem noch über sprachfähige Funktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.   <br/> |
+|[Cloud-Voicemail von Benutzereinstellungen](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern die Konfiguration ihrer Clienteinstellungen für Voicemail-Begrüßungen, Anrufbeantwortungsregeln und die Begrüßungssprache, einschließlich Außer-Office-Begrüßungen. <br> Beachten Sie, dass Benutzer *weder* eine  Lizenz Telefonsystem noch über sprachfähige Funktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.  |
+|[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) <br/> | Benutzer mit mehreren an ihren PC angeschlossenen Lautsprechern können zusätzlich zum Standardlautsprecher ein sekundäres Gerät zum Klingeln festlegen. Beispielsweise kann ein Benutzer mit einem an den PC und den Schreibtischlautsprechern angeschlossenen Headset und Schreibtischlautsprecher wählen, dass beim Ein-/Ein-Anruf sowohl Headset als auch Lautsprecher klingeln, damit er keinen Anruf verpasst.  |
 |[Benachrichtigungen bei unterschiedlichen](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) Klingeln (Teams)<br/> |Ermöglicht Benutzern die Auswahl separater Klingeltöne für normale, weitergeleitete und delegierte Anrufe, um die Art des Anrufs unterscheiden zu können.  <br/> |
 |[Funktion "Gemeinsame Leitungen"](shared-line-appearance.md) <br/> | Ermöglicht Benutzern das Teilen ihrer Telefonleitung, sodass ein anderer Benutzer in ihrem Namen Anrufe erstellen und empfangen kann.|
 |[Beschäftigt (nur](teams-calling-policy.md) Teams) <br/> | Eine Anrufrichtlinie, mit der Sie konfigurieren können, wie eingehende Anrufe verarbeitet werden, wenn ein Benutzer: <ul><li>in einem Anruf </li><li>in einer Konferenz</li><li>einem Anruf in der Warteschleife platziert wurde. </li></ul> Der Anrufer erhält eine der folgenden Antworten: <ul><li>Ein beschäftigtes Signal hören, wenn der Anrufer am Telefon ist</li> <li>werden entsprechend den nicht beantworteten Einstellungen des Benutzers geroutet. Mit einer Option kann der Anrufer eine Voicemail für den Benutzer hinterlassen, der bereits an einem Anruf ist.</li></ul> Der Anrufer erhält eine Benachrichtigung über einen verpassten Anruf, kann jedoch keine eingehenden Anrufe entgegenrufen. Dieses Feature ist standardmäßig deaktiviert, kann aber vom Mandantenadministrator aktiviert werden.|
 |[Anrufblockierung](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US) <br/> | Ermöglicht Benutzern das Hinzufügen von Telefonnummern (PSTN) zu einer Liste blockierter Telefonnummern, sodass der nächste Anruf von dieser Nummer an den Benutzer blockiert wird.|
 |[Telefone für häufig verwendeten Bereich](set-up-common-area-phones.md) <br/> | Ein Telefon im allgemeinen Bereich befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem Konferenzraum, der für mehrere Personen zur Verfügung steht. Telefone in gängigen Flächen sind als Geräte und nicht als Benutzer eingerichtet und können sich automatisch bei einem Netzwerk anmelden.|
-|[Unterstützung der Medienumgehung](direct-routing-plan-media-bypass.md) (nur Teams Direct-Routing) <br/> | Um eine bessere Leistung zu erzielen, werden Medien zwischen Session Border Controller (SBC) und dem Client gehalten, anstatt sie über das Microsoft-Telefon-System zu senden. |
+|[Medienumgehungsunterstützung](direct-routing-plan-media-bypass.md) (Teams direktes Routing) <br/> | Um eine bessere Leistung zu erzielen, werden Medien zwischen Session Border Controller (SBC) und dem Client gehalten, anstatt sie über das Microsoft-Telefon zu senden. |
 
 
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Verfügbarkeit in GCC Hoch- und DoD-Wolken

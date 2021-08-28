@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Als Microsoft 365- oder Office 365-Administrator können Sie die Einstellungen für Skype for Business Online-Audiokonferenzen – z. B. Den Anbieter, die gebührenpflichtige oder gebührenfreie Standardnummer, die Konferenz-ID oder die PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. '
-ms.openlocfilehash: 648bb27ce8e6745d765b8fc400494188fd43b5e866ecf0cf927f36fd4d7ca676
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f25df3c9f395583273a4bf8ce68f3c93699a41d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335715"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614947"
 ---
 # <a name="manage-the-audio-conferencing-settings-for-a-user-in-skype-for-business-online"></a>Verwalten der Audiokonferenzeinstellungen für einen Benutzer in Skype for Business Online
 
@@ -35,7 +35,7 @@ ms.locfileid: "54335715"
 > [!Note]
 > Informationen zum Verwalten von Benutzereinstellungen in Microsoft Teams Sie unter Verwalten der Audiokonferenzeinstellungen für einen Benutzer [in Microsoft Teams.](/MicrosoftTeams/manage-the-audio-conferencing-settings-for-a-user-in-teams)
 
-Als Microsoft 365- oder Office 365-Administrator können Sie die Audiokonferenzeinstellungen für einen einzelnen Benutzer in Ihrer Organisation bearbeiten , z. B. den Anbieter, die gebührenpflichtige oder gebührenfreie Standardnummer, die Konferenz-ID oder die PIN. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie Verwalten der [Audiokonferenzeinstellungen für meine Organisation.](manage-the-audio-conferencing-settings-for-my-organization.md)
+Als Microsoft 365- oder Office 365-Administrator können Sie die Audiokonferenzeinstellungen – z. B. den Anbieter, die gebührenpflichtige oder gebührenfreie Standardnummer, die Konferenz-ID oder die PIN – für einen einzelnen Benutzer in Ihrer Organisation bearbeiten. Wenn Sie die Einstellungen für Ihre Organisation bearbeiten möchten, lesen Sie Verwalten der [Audiokonferenzeinstellungen für meine Organisation.](manage-the-audio-conferencing-settings-for-my-organization.md)
 
  
 1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
@@ -51,8 +51,8 @@ Als Microsoft 365- oder Office 365-Administrator können Sie die Audiokonferenze
 |**Einstellung**|**Beschreibung**|
 |:-----|:-----|
 |**Anbietername** <br/> |Wählen Sie Ihren Anbieter aus der Liste aus.  <br/><br/> **Hinweis:** Die restlichen Einstellungen in dieser Tabelle gelten nur, wenn Sie Microsoft als Anbieter von Audiokonferenzen aktivieren.           |
-|**Standardmäßige gebührenpflichtige Nummer** (erforderlich) <br/> |Für Drittanbieter sind diese Rufnummern diejenigen, die Sie vom Anbieter für Audiokonferenzen erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen angezeigt Skype for Business Microsoft Teams werden sollen.  <br/> |
-|**Gebührenfreie Standardnummer** <br/> |Für Drittanbieter sind diese Rufnummern diejenigen, die Sie vom Anbieter für Audiokonferenzen erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen angezeigt Skype for Business Microsoft Teams werden sollen.  <br/> |
+|**Standardmäßige gebührenpflichtige Nummer** (erforderlich) <br/> |Für Drittanbieter sind diese Rufnummern diejenigen, die Sie vom Anbieter für Audiokonferenzen erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen Skype for Business und Microsoft Teams sollen.  <br/> |
+|**Gebührenfreie Standardnummer** <br/> |Für Drittanbieter sind diese Rufnummern diejenigen, die Sie vom Anbieter für Audiokonferenzen erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen Skype for Business und Microsoft Teams sollen.  <br/> |
 |**Lassen Sie die Nutzung gebührenfreier Nummern in der Microsoft-Bridge Ihrer Organisation zur Teilnahme an Besprechungen dieses Benutzers zu** <br/> |Wählen Sie diese Option, wenn Sie den Benutzer von gebührenfreien Nummern zum Teilnehmen an Besprechungen zulassen möchten.  <br/> |
 |**Senden von Konferenzinformationen per E-Mail** <br/> |Klicken Sie nur auf diesen Link, wenn Sie sofort eine E-Mail an den Benutzer mit dessen Konferenz-ID und Telefonnummer senden möchten. (Diese E-Mail enthält nicht die PIN.) Weitere Informationen finden Sie unter [Eine E-Mail an einen Benutzer mit dessen Audiokonferenzen-Informationen senden](send-an-email-to-a-user-with-their-dial-in-information.md).  <br/> |
 |**Konferenz-ID** <br/> |Wählen Sie **Zurücksetzen** aus, wenn Sie die Konferenz-ID für den Benutzer zurücksetzen müssen. Weitere Informationen finden Sie unter [Zurücksetzen einer Konferenz-ID für einen Benutzer](reset-a-conference-id-for-a-user.md).  <br/> |

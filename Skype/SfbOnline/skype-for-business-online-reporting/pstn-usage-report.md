@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 511065a4371ae4f9521022a27c2fdf6804736d48ccc807ee1d3aa0d0148fe3a8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54300441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614905"
 ---
 # <a name="pstn-usage-report"></a>Bericht "PSTN-Verbrauch"
 
@@ -37,7 +37,7 @@ Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb1
 Dieser Bericht bietet Ihnen zusammen mit den Skype for Business Bericht Details zu den Aktivitäten, einschließlich der Anrufnutzung in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation sowie für das Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
+> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
 
@@ -80,7 +80,7 @@ Der Bericht sieht wie folgt aus:
      *    **ucap_in** (ein eingehender PSTN-Anruf an die UC-Anwendung, z. B. automatische Telefon attendant oder Anrufwarteschleife) 
      *    **ucap_out** (ein ausgehender PSTN-Anruf von der UC-Anwendung, z. B. einer automatischen Telefonkonferenz oder einer Anrufwarteschleife)
          > [!NOTE]
-         > Anrufe, die von der UC-Anwendung an einen Benutzer (z. B. eine automatische Telefonkonferenz oder eine Anrufwarteschleife) übertragen wurden, werden im PSTN-Nutzungsbericht nicht angezeigt, da es sich bei diesen Anrufschleifen um Peer-to-Peer-Audioanrufe (P2P) handelt. Sie können unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe im Skype for Business Admin Center zugreifen und nach Benutzername oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder ursprungs der CLID (Anrufleitungs-ID) korreliert. 
+         > Anrufe, die von der UC-Anwendung an einen Benutzer (z. B. eine automatische Telefonkonferenz oder eine Anrufwarteschleife) übertragen wurden, werden im PSTN-Nutzungsbericht nicht angezeigt, da es sich bei diesen Anrufschleifen um Peer-to-Peer-Audioanrufe (P2P) handelt. Sie können unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe im Skype for Business Admin Center zugreifen und nach dem Benutzernamen oder der SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder ursprungs der CLID (Anrufleitungs-ID) korreliert. 
 
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
@@ -105,7 +105,7 @@ Der Bericht sieht wie folgt aus:
 > Möglicherweise wird in einigen Feldern auch "Keine Daten" angezeigt. "Keine Daten" bedeutet, dass das Feld nicht für den Aufruftyp oder die Funktion gilt. 
 
 > [!NOTE]
-> Wenn Sie über einen Anrufplan für Telstra oder Softbank verfügen, werden im PSTN-Nutzungsbericht keine Anrufdetaildatensätze sehen. Wenden Sie sich für Ihre Meldungen an Telstra oder Softbank. 
+> Wenn Sie über einen Anrufplan für Telstra oder Softbank verfügen, werden im PSTN-Nutzungsbericht keine Anrufdetailsetaildatensätze sehen. Wenden Sie sich für Ihre Meldungen an Telstra oder Softbank. 
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie, um eine Spalte nach Zu gruppieren nach einer bestimmten Spalte zu **ziehen,** ziehen Sie die Spaltenüberschrift hier, und legen Sie sie dort ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten angeordnet sind.
  ***
@@ -165,11 +165,11 @@ Die exportierte Datei enthält zusätzliche Felder, die im Onlinebericht nicht v
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
 
 - [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
+- [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

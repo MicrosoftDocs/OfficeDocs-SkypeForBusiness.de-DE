@@ -13,14 +13,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Edgeserver konfigurieren und wie Sie eine Quality of Service-Richtlinie für Ihre A/V-Edgeserver konfigurieren.
-ms.openlocfilehash: 076f7bd6f3118155eeed6a03268326247394e2b7
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634279"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver in Skype for Business Server
 
@@ -68,7 +68,7 @@ Angenommen, Sie haben Ihre Konferenz-, Anwendungs- und Vermittlungsserver so kon
 </table>
 
 
-Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe an Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie in der Skype for Business Server Verwaltungsshell einen Befehl ausführen, der dem folgenden ähnelt:
+Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe an Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ausführen:
 
   **Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 

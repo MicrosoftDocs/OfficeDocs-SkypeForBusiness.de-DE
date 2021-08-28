@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 1bd35f90-8587-48a1-b0c2-095a4053fc77
 description: Bereitstellen der Medienumgehung in Skype for Business Server Enterprise-VoIP. Umfasst Voraussetzungen und Prüfliste für den Bereitstellungsprozess.
-ms.openlocfilehash: 35b6ec05fe1ca410b51cf9d573e003774904d875182d195d8d221e45be42b9bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 34294db2709de56d77ecd1365deac57ad94a86d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322457"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617031"
 ---
 # <a name="deploy-media-bypass-in-skype-for-business-server"></a>Bereitstellen der Medienumgehung in Skype for Business Server
  
@@ -34,7 +34,7 @@ In diesem Thema wird davon ausgegangen, dass Sie mindestens einen oder mehrere V
 > [!NOTE]
 > Die Medienumgehung kann nicht mit jedem PSTN-Gateway, IP-PBX und SBC interagieren. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Ip-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur mit Produkten und Versionen unterstützt, die im [Unified Communications Open Interoperability Program – Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)aufgeführt sind. 
   
-Wenn Sie die Anrufsteuerung (Call Admission Control, CAC) bereits konfiguriert haben, ist eine weitere erweiterte Enterprise-VoIP Funktion, beachten Sie, dass die bandbreitenreservierung, die von der Anrufsteuerung durchgeführt wird, nicht für Anrufe gilt, für die die Medienumgehung verwendet wird. Die Überprüfung, ob die Medienumgehung verwendet werden soll, wird zuerst durchgeführt, und wenn die Medienumgehung verwendet wird, wird die Anrufsteuerung nicht für den Anruf verwendet. Nur wenn die Medienumgehungsüberprüfung fehlschlägt, wird die Prüfung für die Anrufsteuerung durchgeführt. Die beiden Features schließen sich daher für einen bestimmten Anruf, der an das PSTN weitergeleitet wird, gegenseitig aus. Dies ist die Logik, da die Medienumgehung davon ausgeht, dass zwischen den Medienendpunkten eines Anrufs keine Bandbreiteneinschränkungen vorhanden sind. Die Medienumgehung kann nicht für Verbindungen mit eingeschränkter Bandbreite ausgeführt werden. Daher gilt einer der folgenden Punkte für einen PSTN-Anruf: a) Medien umgehen den Vermittlungsserver, und die Anrufsteuerung reserviert keine Bandbreite für den Anruf; oder b) die Anrufsteuerung wendet Bandbreitenreservierungen auf den Anruf an, und Medien werden vom Vermittlungsserver verarbeitet, der an dem Anruf beteiligt ist.
+Wenn Sie die Anrufsteuerung (Call Admission Control, CAC) bereits optional konfiguriert haben, beachten Sie, dass eine weitere erweiterte Enterprise-VoIP Funktion, beachten Sie, dass die bandbreitenreservierung, die von der Anrufsteuerung durchgeführt wird, nicht für Anrufe gilt, für die die Medienumgehung verwendet wird. Die Überprüfung, ob die Medienumgehung verwendet werden soll, wird zuerst durchgeführt, und wenn die Medienumgehung verwendet wird, wird die Anrufsteuerung nicht für den Anruf verwendet. Nur wenn die Medienumgehungsüberprüfung fehlschlägt, wird die Prüfung für die Anrufsteuerung durchgeführt. Die beiden Features schließen sich daher für einen bestimmten Anruf, der an das PSTN weitergeleitet wird, gegenseitig aus. Dies ist die Logik, da die Medienumgehung davon ausgeht, dass zwischen den Medienendpunkten eines Anrufs keine Bandbreiteneinschränkungen vorhanden sind. Die Medienumgehung kann nicht für Verbindungen mit eingeschränkter Bandbreite ausgeführt werden. Daher gilt einer der folgenden Punkte für einen PSTN-Anruf: a) Medien umgehen den Vermittlungsserver, und die Anrufsteuerung reserviert keine Bandbreite für den Anruf; oder b) die Anrufsteuerung wendet Bandbreitenreservierungen auf den Anruf an, und Medien werden vom Vermittlungsserver verarbeitet, der an dem Anruf beteiligt ist.
   
 Zusätzlich zur Aktivierung der Medienumgehung für einzelne Trunkverbindungen, die einem Peer zugeordnet sind, müssen Sie die Medienumgehung auch global aktivieren. Globale Medienumgehungseinstellungen können entweder angeben, dass für Anrufe an das Telefonfestnetz immer eine Medienumgehung versucht wird, oder dass die Medienumgehung mithilfe der Zuordnung von Subnetzen zu Netzwerkstandorten und Netzwerkregionen verwendet wird – ähnlich wie bei der Anrufsteuerung, einer weiteren erweiterten VoIP-Funktion. Wenn sowohl die Medienumgehung als auch die Anrufsteuerung aktiviert sind, werden die Netzwerkregion, der Netzwerkstandort und die Subnetzinformationen, die für die Anrufsteuerung angegeben sind, automatisch verwendet, um zu bestimmen, ob die Medienumgehung verwendet werden soll. Dies bedeutet, dass Sie nicht angeben können, dass bei Anrufen an das Telefonfestnetz immer versucht wird, die Medienumgehung zu verwenden, wenn die Anrufsteuerung aktiviert ist.
   

@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Die Vorteile von Dial-Out und Call Me At Minutes. Ab dem 1. Dezember 2019 bietet jedes Audiokonferenzabonnement 60 Minuten pro Benutzer pro Monat für Länder in Zone A.
-ms.openlocfilehash: d532664abee611fe9ced2e744415edb91e3dae03b8aaea36e705d8bed59b10e6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0794faad1af905e70b3bd1110bf8f0d9a71b2923
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278233"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615431"
 ---
 # <a name="audio-conferencing-subscription-dial-outcall-me-at-minutes-benefit"></a>Audio conferencing subscription "Dial-Out"/"Call Me At" minutes benefit
 
@@ -42,9 +42,9 @@ Jedes Abonnement für Audiokonferenzen bietet 60 Minuten pro Benutzer pro Monat,
 > [!NOTE]
 > Das Ende [](complimentary-dial-out-period.md) des kostenlosen Auswahlzeitraums für Länder, in denen das Audiokonferenz-Abonnement verfügbar ist, hat am 30. November 2019 nicht stattgefunden, aber wir bieten derzeit keine Möglichkeit zum Einrichten von Guthaben für Kommunikationen. Diese speziellen Länder sind Russland, Südkorea und Taiwan.
 
-## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audiokonferenzdetails "Aus einer Besprechung heraus wählen" & "Rückruf unter"
+## <a name="audio-conferencing-dial-out-from-a-meeting--call-me-at-details"></a>Audiokonferenzdetails "Aus einer Besprechung heraus anrufen" & "Rückruf unter"
 
-Für Kunden, die unseren Audiokonferenzdienst verwenden, bietet Microsoft die Möglichkeit, aus Besprechungen heraus zu wählen, die von Benutzern organisiert werden, denen eine Abonnementlizenz für Audiokonferenzen zugewiesen wurde. Anrufe aus Anrufen in Länder, die nicht in der Liste der Länder und Regionen der Zone [A](audio-conferencing-zones.md) enthalten sind, werden mit Guthaben für Kommunikationen pro Minute abgerechnet. Für Ausgehende Anrufe, die pro Minute abgerechnet werden (Anrufe, die den Mandanten-Minutenpool für Ausgehende Anrufe überschreiten, oder Anrufe an Ziele, die nicht in der Liste der Länder und Regionen der Zone [A](audio-conferencing-zones.md) enthalten sind), basieren die Anrufe und die zugehörigen Tarife auf dem Ziel des Anrufs und nicht auf dem Wohnsitzland des Organisators oder dem Besprechungsteilnehmer, der den Ausgehenden Anruf initiiert hat. Beispielsweise wird ein Anruf per Audiokonferenz bei einer Telefonnummer in Frankreich (einem Land der Zone A) per Minutentarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten, Frankreich oder Simbabwe initiiert wurde. 
+Für Kunden, die unseren Audiokonferenzdienst verwenden, bietet Microsoft die Möglichkeit, aus Besprechungen heraus zu wählen, die von Benutzern organisiert werden, denen eine Abonnementlizenz für Audiokonferenzen zugewiesen wurde. Anrufe in Länder, die nicht in der Länder- und Regionsliste der Zone [A](audio-conferencing-zones.md) enthalten sind, werden mit Guthaben für Kommunikationen pro Minute abgerechnet. Für Ausgehende Anrufe, die pro Minute abgerechnet werden (Anrufe, die den Mandanten-Minutenpool für Ausgehende Anrufe überschreiten, oder Anrufe an Ziele, die nicht in der Liste der Länder und Regionen der Zone [A](audio-conferencing-zones.md) enthalten sind), basieren die Anrufe und die zugehörigen Tarife auf dem Ziel des Anrufs und nicht auf dem Wohnsitzland des Organisators oder dem Besprechungsteilnehmer, der den Ausgehenden Anruf initiiert hat. Beispielsweise wird ein Anruf per Audiokonferenz bei einer Telefonnummer in Frankreich (einem Land der Zone A) per Minutentarif abgerechnet, wenn er von einem Besprechungsteilnehmer in den Vereinigten Staaten, Frankreich oder Simbabwe initiiert wurde. 
 
 
 |Lizenzverwendungsort für Besprechungsorganisatoren |Gewähltes Ziel |Kann ich meine Minuten für den Minutenpool für Einwahl verwenden?|Brauche ich Guthaben für Kommunikationen?|
@@ -65,7 +65,7 @@ Für Kunden, die unseren Audiokonferenzdienst verwenden, bietet Microsoft die M�
 
 ## <a name="how-are-minute-pools-calculated"></a>Wie werden Minutenpools berechnet?
 
-Sehen Sie sich das folgende Beispiel an. Ein Kunde hat 115 Abonnementlizenzen für Audiokonferenzen erworben und verfügt über 10 Benutzer in den USA, 100 Benutzer im Vereinigten Königreich und 5 Benutzer in Simbabwe, die alle über Abonnementlizenzen für Audiokonferenzen verfügen. Alle 115 Benutzer nutzen einen Pool von (115 Benutzer x 60 Minuten = 6.900 Anrufminuten für Einwahlkonferenzen pro Kalendermonat), um ausgehende Anrufe an Nicht-Premium-Nummern in allen Ländern und Regionen der Zone [A](audio-conferencing-zones.md)zu *platzieren,* unabhängig davon, wo der Besprechungsorganisator lizenziert ist oder physisch wohnen. So kann beispielsweise ein Organisator einer Simbabwe-Besprechung aus allen Ländern und Regionen der Zone [A](audio-conferencing-zones.md) bis zur Minutengrenzwert für den Minutenpool abwählen.
+Sehen Sie sich das folgende Beispiel an. Ein Kunde hat 115 Abonnementlizenzen für Audiokonferenzen erworben und verfügt über 10 Benutzer in den USA, 100 Benutzer in Großbritannien und 5 Benutzer in Simbabwe, die alle über Abonnementlizenzen für Audiokonferenzen verfügen. Alle 115 Benutzer nutzen einen Pool von (115 Benutzer x 60 Min = 6.900 Anrufminuten für Einwahlkonferenzen pro Kalendermonat), um ausgehende Anrufe an Nicht-Premium-Nummern in allen Ländern und Regionen der Zone [A](audio-conferencing-zones.md)zu *halten,* unabhängig davon, wo der Besprechungsorganisator über eine Lizenz oder einen physischen Standort verfüge. So kann beispielsweise ein Organisator einer Simbabwe-Besprechung aus allen Ländern und Regionen der Zone [A](audio-conferencing-zones.md) bis zur Minutengrenzwert für den Minutenpool abwählen.
 
 - Alle Anrufe, die länger als 6.900 Minuten pro Kalendermonat dauern, werden per Minutenabrechnung über Guthaben für Kommunikationen zu unseren veröffentlichten Tarifen an dieses Ziel abgerechnet. 
 
@@ -76,7 +76,7 @@ Sehen Sie sich das folgende Beispiel an. Ein Kunde hat 115 Abonnementlizenzen f�
 
 ## <a name="how-can-i-monitor-minute-my-pool-usage"></a>Wie kann ich die Nutzung meines Pools in Minuten überwachen?
 
-- Sie können die Nutzung ihres Minutenpools für Abwählen im Microsoft Teams Admin Center überwachen. Wechseln Sie im linken Navigationsbereich zu Analyseberichte **&**  >  **Verwendungsberichte**, und wählen Sie **dann PSTN-Minutenpool aus.** The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries".
+- Sie können die Nutzung ihres Minutenpools für Abwählminuten im Microsoft Teams Admin Center überwachen. Wechseln Sie im linken Navigationsbereich zu Analyseberichte **&**  >  **Verwendungsberichte**, und wählen Sie **dann PSTN-Minutenpools aus.** The Zone A dial-out minute pool will be labeled in the report as "Outbound Calls to Zone A Countries".
 - E-Mail-Benachrichtigungen werden an die folgenden Administratoren gesendet, wenn die Nutzung des DFÜ-Minutenpools Ihrer Organisation 80 Prozent und 100 Prozent erreicht hat:
 
   - Rechnungsadministrator

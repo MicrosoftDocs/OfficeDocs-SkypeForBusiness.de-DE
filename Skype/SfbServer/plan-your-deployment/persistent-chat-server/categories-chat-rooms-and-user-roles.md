@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Kategorien, Chatrooms sowie Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 9724daf78114ede5d46ae690f2ab41cc36c170d2dd73c3664718e7ac4bb995f1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Kategorien, Chatrooms und Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
+ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54352603"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615561"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien, Chatrooms und Benutzerrollen für beständigen Chat in Skype for Business Server 2015
  
@@ -33,7 +33,7 @@ Sie können den Zugriff auf Chatrooms steuern, indem Sie Chatroomkategorien erst
 - Administratorrollen
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Kategorien für die Organisation von Chatrooms
 
@@ -60,7 +60,7 @@ Zusätzlich zu zulässigen und abgelehnten Mitgliedern für Kategorien können S
     > [!IMPORTANT]
     > Wenn der Manager in einer anderen Kategorie auch der Ersteller ist, kann der Manager die Kategorie in eine Kategorie ändern, für die eine Berechtigung zum Erstellen von Chatrooms besitzt. 
   
-- **Mitglied:** Benutzer, die Mitglieder eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch wenn der Chatroom geheim ist) sowie den Chatroom abonnieren (einschließlich Metadatenoptionen wie ungelesene Nachrichten, Egofilter und Schlüsselwortfilter) und am Chatroom teilnehmen (kann Posten, es sei denn, der Chatroom ist ein Auditorium-Raum, in dem nur Referenten Beiträge posten können. , Inhalt abrufen und suchen). Benutzer, die nicht Mitglied des Chatrooms sind, können nach dem Chatroom suchen, wenn sie in der Liste der zugelassenen Mitglieder der Kategorie enthalten sind, aber den Zugriff anfordern müssen, um diesen Chatrooms beizutreten, um auf Inhalte zuzugreifen. (Es ist kein Anforderungszugriff oder Genehmigungen in das System integriert; diese erfolgen extern per E-Mail, Telefon oder anderen Kontakten.)
+- **Mitglied:** Benutzer, die Mitglieder eines Chatrooms sind. Diese Benutzer können die Chatrooms im Verzeichnis sehen (auch wenn der Chatroom geheim ist) sowie den Chatroom abonnieren (einschließlich Metadatenoptionen wie ungelesene Nachrichten, Egofilter und Schlüsselwortfilter) und am Chatroom teilnehmen (kann beiträgen, es sei denn, der Chatroom ist ein Auditorium-Raum, in dem nur Referenten beiträgen können,  Abrufen von Inhalten und Suchen). Benutzer, die nicht Mitglied des Chatrooms sind, können nach dem Chatroom suchen, wenn sie in der Liste der zugelassenen Mitglieder der Kategorie enthalten sind, aber den Zugriff anfordern müssen, um diesen Chatrooms beizutreten, um auf Inhalte zuzugreifen. (Es ist kein Anforderungszugriff oder Genehmigungen in das System integriert; diese erfolgen extern per E-Mail, Telefon oder anderen Kontakten.)
     
 - **Referent**: Benutzer, die Nachrichten in einem Auditorium senden können.
     
@@ -86,6 +86,6 @@ Weitere Informationen zum Konfigurieren und Verwalten von Chatrooms und Benutzer
     
 - [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)
     
-- [Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Verwalten von Chatrooms auf dem Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
     
 

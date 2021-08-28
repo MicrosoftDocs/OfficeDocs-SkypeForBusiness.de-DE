@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
-ms.openlocfilehash: 1db97627ef783e5fa69bb7a186940c589f4aae40039563c3155c7cb29d5166aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329549"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634229"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen mehrerer Notrufnummern in Skype for Business Server
  
@@ -46,13 +46,13 @@ Beachten Sie bei der Planung mehrerer Notrufnummern Folgendes:
   
 - Für jede Notrufnummer können Sie null oder mehr Notfallwählmasken angeben, die für eine bestimmte Standortrichtlinie eindeutig sind.
     
-    Eine Wählmaske ist eine Nummer, die Sie beim Wählen in den Wert der Notrufnummer übersetzen möchten. Angenommen, Sie geben in dieses Feld den Wert 212 ein, und das Feld für die Notrufnummer hat den Wert 911. Wenn ein Benutzer 212 wählt, wird die Nummer in 911 übersetzt. Dadurch können alternative Notrufnummern gewählt werden, und der Anruf kann weiterhin Notrufdienste erreichen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem bzw. der sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Der Zeichenfolgengrenzwert für eine Wählmaske beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
+    Eine Wählmaske ist eine Nummer, die Sie beim Wählen in den Wert der Notrufnummer übersetzen möchten. Angenommen, Sie geben in dieses Feld den Wert 212 ein, und das Feld für die Notrufnummer hat den Wert 911. Wenn ein Benutzer 212 wählt, wird die Nummer in 911 übersetzt. Auf diese Weise können alternative Notrufnummern gewählt werden und der Anruf weiterhin Notrufdienste erreichen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem bzw. der sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Der Zeichenfolgengrenzwert für eine Wählmaske beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
     
 - Jede Standortrichtlinie verfügt über eine einzelne PSTN-Verwendung (Public Switched Telephone Network), die verwendet wird, um zu bestimmen, welche VoIP-Route zum Weiterleiten von Notrufen von Clients mithilfe dieser Richtlinie verwendet wird. Die Verwendung kann eine eindeutige Route pro Notrufnummer aufweisen.
     
 - Wenn für eine Standortrichtlinie die Parameter "EmergencyNumbers" und "DialString" definiert sind und der Client mehrere Notrufnummern unterstützt, hat die Notrufnummer Vorrang. Wenn der Client mehrere Notrufnummern nicht unterstützt, wird die Notrufwählzeichenfolge verwendet.
     
-- Informationen dazu, welche Skype for Business- und Lync-Clients den Empfang mehrerer Notrufnummern, Wählmasken und PSTN-Verwendungen unterstützen, finden Sie unter [Clientunterstützung.](multiple-emergency-numbers.md#BKMK_Clients)
+- Informationen dazu, welche Skype for Business und Lync-Clients den Empfang mehrerer Notrufnummern, Wählmasken und PSTN-Verwendungen unterstützen, finden Sie unter [Clientunterstützung.](multiple-emergency-numbers.md#BKMK_Clients)
     
 > [!NOTE]
 > Mithilfe der Skype for Business Systemsteuerung können Sie nicht mehrere Notrufnummern konfigurieren. Sie müssen PowerShell verwenden, um mehrere Notrufnummern zu konfigurieren. 
@@ -65,7 +65,7 @@ Beachten Sie vor dem Konfigurieren mehrerer Notrufnummern Folgendes:
     
 - Wenn Sie vorhandene Nummern mithilfe des Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben  *und keine neuen Notrufnummern konfigurieren,*  werden die vorhandenen Nummern weiterhin verwendet.
     
-- Damit das Feature für mehrere Notrufnummern funktioniert, müssen die ausgeführten Clientversionen in der Lage sein, das neue Feature zu unterstützen. Ältere Clients verwenden weiterhin die alten Werte, die in den Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask angegeben sind. 
+- Damit das Feature für mehrere Notrufnummern funktioniert, müssen die ausgeführten Clientversionen in der Lage sein, das neue Feature zu unterstützen. Ältere Clients verwenden weiterhin die alten Werte, die von den cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask angegeben werden. 
     
 - Wenn die Benutzer eine Nummer wählen, die der Wählzeichenfolge entspricht, ist keine Wählmaske erforderlich. Wenn beispielsweise die Nummer, die ein Benutzer wählt, 911 ist, lautet die Wählzeichenfolge 911, und es ist keine Maske erforderlich. 
     

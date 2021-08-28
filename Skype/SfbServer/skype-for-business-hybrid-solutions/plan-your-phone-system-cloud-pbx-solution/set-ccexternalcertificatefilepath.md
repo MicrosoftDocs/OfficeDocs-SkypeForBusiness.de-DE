@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 443d071e-633e-4337-b20b-f30cdfbd4aaf
 description: Das cmdlet Set-CcExternalCertificateFilePath gibt den Pfad an, in dem das Zertifikat für den Vermittlungsserver oder Edgeserver gespeichert ist.
-ms.openlocfilehash: 7b9b494b27f3ed05dd1ef1cdb91bd583abf2d2b391f1a49c0b2615fd3485187c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b8555d3a3c6770481e1a66f79fd4a1060d3d9936
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344564"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58615521"
 ---
 # <a name="set-ccexternalcertificatefilepath"></a>Set-CcExternalCertificateFilePath
  
@@ -71,7 +71,7 @@ Das Zertifikat für den Vermittlungsserver ist erforderlich, wenn TLS zwischen d
 
 |**Parameter**|**Required**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|:-----|
-| Ziel <br/> | Erforderlich <br/> |System.String  <br/> |Typ des angeforderten Dateipfads. Zu den Typen gehören:  <br/> EdgeServer (Standard)  <br/> MediationServer  <br/> |
+| Target <br/> | Erforderlich <br/> |System.String  <br/> |Typ des angeforderten Dateipfads. Zu den Typen gehören:  <br/> EdgeServer (Standard)  <br/> MediationServer  <br/> |
 |Import  <br/> |Optional  <br/> |System.Management.Automation.SwitchParameter  <br/> |Gibt an, dass das Zertifikat in den Vermittlungsserver importiert werden muss. Dieser Parameter ist nicht erforderlich, wenn Sie eine Appliance zum ersten Mal bereitstellen. Der Parameter ist erforderlich, wenn Sie das vorhandene Zertifikat in einer bereits bereitgestellten Version ändern möchten.  <br/> |
    
 ## <a name="input-types"></a>Eingabetypen

@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 7c586401-d0e5-4017-b3e1-fe5e7f8fc6db
 description: Informationen zum SIP-Trunking in Skype for Business Server Enterprise-VoIP
-ms.openlocfilehash: 8254df8366fdbfd03dd5ad0aa2f3253e5f4284b8248d26b131f056d28714bd77
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a27967f322db816285db100696fa061f339e9f71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289733"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634199"
 ---
 # <a name="sip-trunking-in-skype-for-business-server"></a>SIP-Trunking in Skype for Business Server
 
@@ -51,7 +51,7 @@ Da SIP-Trunks eine direkte Verbindung mit dem Dienstanbieter herstellen, entfall
 
 ### <a name="expanded-voip-services"></a>Erweiterte VoIP-Dienste
 
-VoIP-Funktionen sind häufig die wichtigste Motivation für die Bereitstellung von SIP-Trunking, die VoIP-Unterstützung stellt jedoch nur den ersten Schritt dar. Mit SIP-Trunking können Sie VoIP-Funktionen erweitern und Skype for Business Server ermöglichen, eine umfangreichere Gruppe von Diensten bereitzustellen. Zum Beispiel:
+VoIP-Funktionen sind häufig die wichtigste Motivation für die Bereitstellung von SIP-Trunking, die VoIP-Unterstützung stellt jedoch nur den ersten Schritt dar. Mit SIP-Trunking können Sie VoIP-Funktionen erweitern und Skype for Business Server aktivieren, um eine umfangreichere Gruppe von Diensten bereitzustellen. Zum Beispiel:
 
 - Die erweiterte Anwesenheitserkennung für Geräte, die nicht Skype for Business Server ausgeführt werden, kann eine bessere Integration in Mobiltelefone ermöglichen, sodass Sie sehen können, wann sich ein Benutzer in einem Mobiltelefon befindet.
 
@@ -64,11 +64,11 @@ VoIP-Funktionen sind häufig die wichtigste Motivation für die Bereitstellung v
 
 Der Begriff Trunk wurde aus der leitungsvermittelten Technologie abgeleitet. Er bezieht sich auf eine dedizierte physische Leitung zur Verbindung von Telefonvermittlungsanlagen. Wie ihr Vorgänger, TDM-Trunks (Time Division Multiplexing), sind SIP-Trunks Verbindungen zwischen zwei separaten SIP-Netzwerken – dem Skype for Business Server Unternehmen und dem ITSP. Im Gegensatz zu leitungsvermittelten Trunks handelt es sich bei SIP-Trunks um virtuelle Verbindungen, die über jeden der unterstützten Typen von SIP-Trunkingverbindungen hergestellt werden können.
 
-Bei direkten SIP-Verbindungen hingegen handelt es sich um SIP-Verbindungen, die nicht über die Grenzen des lokalen Netzwerks hinausgehen (das heißt, es wird eine Verbindung mit einem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz) oder einer Nebenstellenanlage (Private Branch Exchange, PBX) innerhalb des internen Netzwerks hergestellt). Ausführliche Informationen dazu, wie Sie direkte SIP-Verbindungen mit Skype for Business Server verwenden können, finden Sie unter ["Direkte SIP-Verbindungen" in Skype for Business Server.](direct-sip.md)
+Bei direkten SIP-Verbindungen hingegen handelt es sich um SIP-Verbindungen, die nicht über die Grenzen des lokalen Netzwerks hinausgehen (das heißt, es wird eine Verbindung mit einem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz) oder einer Nebenstellenanlage (Private Branch Exchange, PBX) innerhalb des internen Netzwerks hergestellt). Ausführliche Informationen dazu, wie Sie direkte SIP-Verbindungen mit Skype for Business Server verwenden können, finden Sie [unter "Direkte SIP-Verbindungen" in Skype for Business Server.](direct-sip.md)
 
 ## <a name="how-do-i-implement-sip-trunking"></a>Wie implementiere ich SIP-Trunking?
 
-Um SIP-Trunking zu implementieren, müssen Sie die Verbindung über einen Vermittlungsserver weiterleiten, der als Proxy für Kommunikationssitzungen zwischen Skype for Business Server Clients und dem Dienstanbieter fungiert und bei Bedarf Medien transkodiert.
+Um SIP-Trunking zu implementieren, müssen Sie die Verbindung über einen Vermittlungsserver weiterleiten, der bei Bedarf als Proxy für Kommunikationssitzungen zwischen Skype for Business Server Clients und dem Dienstanbieter fungiert und Medien transkodiert.
 
 Jeder Vermittlungsserver verfügt über eine interne Netzwerkschnittstelle und eine externe Netzwerkschnittstelle. Die interne Schnittstelle stellt eine Verbindung mit den Front-End-Servern her. Die externe Schnittstelle wird häufig als Gatewayschnittstelle bezeichnet, da sie traditionell zum Verbinden des Vermittlungsservers mit einem PSTN-Gateway (Public Switched Telephone Network) oder einer IP-Nebenstellenanlage verwendet wurde. Um einen SIP-Trunk zu implementieren, verbinden Sie die externe Schnittstelle des Vermittlungsservers mit der externen Edgekomponente des ITSP. Die externe Edgekomponente des ITSP kann ein SBC (Session Border Controller), ein Router oder ein Gateway sein.
 
@@ -94,10 +94,10 @@ Abhängig vom geografischen Standort der Standorte und dem erwarteten Datenverke
 
 - Welche DID-Nummern (Direct Inward Dialing) erhalten an den einzelnen Standorten die meisten Telefonanrufe?
 
-Die Entscheidung, ob zentrales oder verteiltes SIP-Trunking bereitgestellt werden soll, erfordert eine Kosten-Nutzen-Analyse. In einigen Fällen kann es vorteilhaft sein, sich für das verteilte Bereitstellungsmodell zu entscheiden, auch wenn es nicht erforderlich ist. In einer vollständig zentralisierten Bereitstellung wird der gesamte Zweigstellendatenverkehr über WAN-Verbindungen geroutet. Statt für die erforderliche Bandbreite Gebühren für WAN-Verbindungen zu zahlen, möchten Sie möglicherweise das verteilte SIP-Trunking verwenden. Sie können z. B. einen Standard Edition Server an einem Zweigstellenstandort mit Partnerverbund am zentralen Standort bereitstellen oder eine Survivable Branch Appliance oder einen Survivable Branch Server mit einem kleinen Gateway bereitstellen.
+Die Entscheidung, ob zentrales oder verteiltes SIP-Trunking bereitgestellt werden soll, erfordert eine Kosten-Nutzen-Analyse. In einigen Fällen kann es vorteilhaft sein, sich für das verteilte Bereitstellungsmodell zu entscheiden, auch wenn es nicht erforderlich ist. In einer vollständig zentralisierten Bereitstellung wird der gesamte Zweigstellendatenverkehr über WAN-Verbindungen geroutet. Statt für die erforderliche Bandbreite Gebühren für WAN-Verbindungen zu zahlen, möchten Sie möglicherweise das verteilte SIP-Trunking verwenden. Sie können z. B. einen Standard Edition-Server an einem Zweigstellenstandort mit Partnerverbund am zentralen Standort bereitstellen oder eine Survivable Branch Appliance oder einen Survivable Branch Server mit einem kleinen Gateway bereitstellen.
 
 > [!NOTE]
-> Ausführliche Informationen zum verteilten SIP-Trunking finden Sie unter [Branch Site SIP trunking in Skype for Business Server](branch-site.md).
+> Ausführliche Informationen zum verteilten SIP-Trunking finden Sie unter [Branch Site SIP Trunking in Skype for Business Server](branch-site.md).
 
 ### <a name="supported-sip-trunking-connection-types"></a>Unterstützte Verbindungstypen für das SIP-Trunking
 
@@ -107,7 +107,7 @@ Skype for Business Server unterstützt die folgenden Verbindungstypen für SIP-T
 
 - Eine private Verbindung ohne anderen Datenverkehr – beispielsweise eine geleaste Glasfaserleitung oder T1-Leitung – stellt im Allgemeinen die zuverlässigste und sicherste Form der Verbindung dar. Dieser Verbindungstyp bietet die höchste Anrufkapazität, ist typischerweise jedoch auch die teuerste Variante. Ein VPN ist nicht erforderlich. Private Verbindungen sind geeignet für Organisationen mit hohem Anrufaufkommen oder strikten Sicherheits- und Verfügbarkeitsanforderungen.
 
-- Das Internet stellt den günstigsten Verbindungstyp dar, bietet jedoch auch die geringste Zuverlässigkeit. Die Internetverbindung ist der einzige Skype for Business Server SIP-Trunking-Verbindungstyp, der VPN erfordert.
+- Das Internet stellt den günstigsten Verbindungstyp dar, bietet jedoch auch die geringste Zuverlässigkeit. Die Internetverbindung ist die einzige Skype for Business Server SIP-Trunkingverbindungstyp, der VPN erfordert.
 
 #### <a name="selecting-a-connection-type"></a>Auswählen eines Verbindungstyps
 
@@ -156,7 +156,7 @@ Die folgende Abbildung zeigt die SIP-Trunkingtopologie in Skype for Business Ser
 Wie im Diagramm dargestellt, wird ein VIRTUELLEs privates IP-Netzwerk (VPN) für die Verbindung zwischen dem Unternehmensnetzwerk und dem PSTN-Dienstanbieter (Public Switched Telephone Network) verwendet. Der Zweck dieses privaten Netzwerks besteht darin, IP-Konnektivität bereitzustellen, die Sicherheit zu verbessern und (optional) QoS-Garantien (Quality of Service) zu erhalten. Aufgrund der Art eines VPN müssen Sie Transport Layer Security (TLS) nicht für SIP-Signaldatenverkehr oder SRTP (Secure Real-Time Transport Protocol) für den Mediendatenverkehr verwenden. Verbindungen zwischen dem Unternehmen und dem Dienstanbieter bestehen daher aus einfachen TCP-Verbindungen für SIP und rtp (plain real-time transport protocol) (über UDP) für Medientunnel, die über ein IP-VPN getunnelt werden. Stellen Sie sicher, dass alle Firewalls zwischen den VPN-Routern über offene Ports verfügen, damit die VPN-Router kommunizieren können, und dass die IP-Adressen an den externen Rändern der VPN-Router öffentlich routingbar sind.
 
 > [!IMPORTANT]
-> Wenden Sie sich an Ihren Dienstanbieter, um festzustellen, ob er Unterstützung für hohe Verfügbarkeit bietet, einschließlich Failover. Wenn ja, müssen Sie die Verfahren für die Einrichtung festlegen. Müssen Sie beispielsweise nur eine IP-Adresse und einen SIP-Trunk auf jedem Vermittlungsserver konfigurieren, oder müssen Sie mehrere SIP-Trunks auf jedem Vermittlungsserver konfigurieren? > Wenn Sie über mehrere zentrale Standorte verfügen, fragen Sie auch, ob der Dienstanbieter verbindungen zu und von einem anderen zentralen Standort aktivieren kann.
+> Wenden Sie sich an Ihren Dienstanbieter, um festzustellen, ob er Unterstützung für hohe Verfügbarkeit bietet, einschließlich Failover. Wenn ja, müssen Sie die Verfahren für die Einrichtung festlegen. Müssen Sie beispielsweise nur eine IP-Adresse und einen SIP-Trunk auf jedem Vermittlungsserver konfigurieren, oder müssen Sie mehrere SIP-Trunks auf jedem Vermittlungsserver konfigurieren? > Wenn Sie über mehrere zentrale Standorte verfügen, fragen Sie auch, ob der Dienstanbieter in der Lage ist, Verbindungen zu und von einem anderen zentralen Standort zu aktivieren.
 
 > [!NOTE]
 > Für SIP-Trunking wird dringend empfohlen, eigenständige Vermittlungsserver bereitzustellen. Ausführliche Informationen finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers) in der Bereitstellungsdokumentation.
@@ -167,7 +167,7 @@ Aus Sicherheitsgründen sollten Sie für jede Verbindung zwischen den beiden VPN
 
 Es wird empfohlen, folgende Richtlinien zu befolgen:
 
-- Richten Sie ein virtuelles LAN (VLAN) zwischen dem Vermittlungsserver und dem VPN-Router im Umkreisnetzwerk (auch als DMZ, demilitarisierte Zone und überprüftes Subnetz bezeichnet) ein.
+- Richten Sie ein virtuelles LAN (VLAN) zwischen dem Vermittlungsserver und dem VPN-Router im Umkreisnetzwerk ein (auch als DMZ, demilitarisierte Zone und überprüftes Subnetz bezeichnet).
 
 - Übertragungs- oder Multicastpakete dürfen nicht vom Router an das VLAN übertragen werden.
 

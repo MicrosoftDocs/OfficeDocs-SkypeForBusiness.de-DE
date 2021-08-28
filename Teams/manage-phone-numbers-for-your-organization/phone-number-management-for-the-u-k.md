@@ -15,22 +15,22 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern im Vereinigten Königreich für Microsoft Teams.
-ms.openlocfilehash: 5803e6adcd19801d3e5bca5b5bc7978191a58f25
-ms.sourcegitcommit: 7251b92c9913ca1e43b3cc24fad73e8997303731
+description: Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Großbritannien für Microsoft Teams.
+ms.openlocfilehash: a5de05c71d333a593806dc26990783c41cf57739
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58348507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616211"
 ---
 # <a name="phone-number-management-for-the-united-kingdom"></a>Telefon der Nummerverwaltung für Großbritannien
 
-Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern im Vereinigten Königreich für Microsoft Teams.
+Verwenden Sie diese Tabelle, um Informationen zum Abrufen und Verwalten von Telefonnummern in Großbritannien für Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   
