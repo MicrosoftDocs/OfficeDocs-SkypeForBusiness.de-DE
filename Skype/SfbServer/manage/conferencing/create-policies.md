@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8c685326-8356-4075-bf95-32324b16ef81
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server erstellen.'
-ms.openlocfilehash: 2cce451135c82894d9d82c89e6a62682d95526d31082d209bcaf8144752426b1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d067ce36b600a3dbfca3df318a2fd6d449518160
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344744"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595577"
 ---
 # <a name="create-conferencing-policies-in-skype-for-business-server"></a>Erstellen von Konferenzrichtlinien in Skype for Business Server
  
@@ -84,7 +84,7 @@ Sie können Konferenzrichtlinien mithilfe Skype for Business Server Systemsteuer
     
     - Deaktivieren Sie das Kontrollkästchen **Übertragen von Dateien durch Teilnehmer zulassen**, um Dateiübertragungen zu verhindern. In der Standardeinstellung können Dateien übertragen werden.
     
-    - Deaktivieren Sie das Kontrollkästchen **Anmerkungen aktivieren**, um die Verwendung von Anmerkungen zu verhindern. Deaktivieren Sie zum Verwenden von Anmerkungen in freigegebenen PowerPoint Präsentationen die **PowerPoint Anmerkungen aktivieren.** In der Standardeinstellung sind Anmerkungen zulässig.
+    - Deaktivieren Sie das Kontrollkästchen **Anmerkungen aktivieren**, um die Verwendung von Anmerkungen zu verhindern. Um Anmerkungen in freigegebenen PowerPoint Präsentationen zu verwenden, deaktivieren Sie die **Option "PowerPoint Anmerkungen aktivieren".** In der Standardeinstellung sind Anmerkungen zulässig.
     
     - Deaktivieren Sie das Kontrollkästchen **Abstimmungen aktivieren**, um die Verwendung von Abstimmungen zu verhindern. In der Standardeinstellung sind Abstimmungen zulässig.
     

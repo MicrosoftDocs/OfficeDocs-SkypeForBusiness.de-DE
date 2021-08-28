@@ -19,20 +19,20 @@ f1.keywords:
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Dieser Anhang enthält ausführliche Schritte zum Aktualisieren von AAD-Verbinden, um mehr als eine Gesamtstruktur als Teil der Cloudkonsolidierung für Teams und Skype for Business einzuschließen.
-ms.openlocfilehash: 885e37b2131d455cc4c114f99bb4a95e7aa4896f2d43b55b398e543dc3674e55
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e803ae1e41fd0e68a56e059bbaf398ee30f807f6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295932"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625797"
 ---
 # <a name="update-aad-connect-to-include-more-than-one-forest"></a>Aktualisieren von AAD Connect, um mehrere Gesamtstrukturen einzubeziehen
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Azure AD Verbinden unterstützt [die Synchronisierung aus mehreren Gesamtstrukturen.](/azure/active-directory/connect/active-directory-aadconnect-topologies) Es unterstützt jedoch nur eine Instanz von Azure AD Verbinden Synchronisierung mit AAD. Daher muss in Fällen, in denen Azure AD bereits in einer Gesamtstruktur installiert ist, die vorhandene Instanz von AAD Verbinden aktualisiert werden, um aus der zusätzlichen Gesamtstruktur zu synchronisieren.
+Azure AD Verbinden unterstützt [die Synchronisierung aus mehreren Gesamtstrukturen.](/azure/active-directory/connect/active-directory-aadconnect-topologies) Es unterstützt jedoch nur eine Instanz von Azure AD Verbinden Synchronisierung mit AAD. Daher muss in Fällen, in denen Azure AD bereits in einer Gesamtstruktur installiert ist, die vorhandene Instanz von AAD Verbinden für die Synchronisierung aus der zusätzlichen Gesamtstruktur aktualisiert werden.
 
  - Wenn alle Identitäten nur einmal in beiden Gesamtstrukturen dargestellt werden (d. h. Sie haben keine E-Mail-aktivierten Kontakte erstellt), können Sie einfach den AAD-assistenten Verbinden erneut ausführen, "Synchronisierungsoptionen anpassen" auswählen und dann auf der Seite **Verbinden Ihre Verzeichnisse** den Namen der zusätzlichen Gesamtstruktur und creds eingeben.<br><br>
  ![Die Seite Verbinden Ihre Verzeichnisse](../media/cloud-consolidation-connect-your-directories.png)
@@ -40,6 +40,6 @@ Azure AD Verbinden unterstützt [die Synchronisierung aus mehreren Gesamtstruktu
  ![Die Eindeutig identifizierende Benutzerseite](../media/cloud-consolidation-uniquely-identifying-your-users.png)
 
 
-## <a name="see-also"></a>Weitere Informationen:
+## <a name="see-also"></a>Siehe auch
 
 [Cloudkonsolidierung für Teams und Skype for Business](cloud-consolidation.md)

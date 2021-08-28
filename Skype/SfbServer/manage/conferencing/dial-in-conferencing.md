@@ -9,21 +9,21 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: f091983f9db68e093712b0c5f87f09bb4991974cc593296f2511f5851223faf6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b15a3c8b6a92faaf552bb727e05afa5a618ddd12
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315581"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595537"
 ---
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server verwalten.
   
-In diesem Thema wird die Verwaltung von Einwahlkonferenzen beschrieben. Weitere Informationen zum Planen und Konfigurieren von Einwahlkonferenzen bei der Bereitstellung finden Sie unter ["Planen von Einwahlkonferenzen in Skype for Business Server"](../../plan-your-deployment/conferencing/dial-in-conferencing.md) und ["Konfigurieren von Einwahlkonferenzen in Skype for Business Server".](../../deploy/deploy-conferencing/dial-in-conferencing.md)
+In diesem Thema wird die Verwaltung von Einwahlkonferenzen beschrieben. Weitere Informationen zum Planen und Konfigurieren von Einwahlkonferenzen bei der Bereitstellung finden Sie unter [Plan for dial-in conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md) and Configure [dial-in conferencing in Skype for Business Server.](../../deploy/deploy-conferencing/dial-in-conferencing.md)
   
 Sie können die folgenden Aufgaben zum Verwalten von Einwahlkonferenzen ausführen: Aktivieren oder Deaktivieren von Einwahlkonferenzen, Verwalten von Zugriffsnummern, Verwalten von PIN-Richtlinien für Einwahlkonferenzen, Verwalten von Ankündigungen für den Konferenzbeitritt und -verlassen, Ändern von Tastenzuordnungen für DTMF-Befehle und Einladen von Benutzern zu Einwahlkonferenzen. 
   

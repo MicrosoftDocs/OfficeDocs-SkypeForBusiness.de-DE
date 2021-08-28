@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich deren Einwahlkonferenzeinstellungen in Skype for Business Online ändern. '
-ms.openlocfilehash: 4c5482e8572ad09463c72caf137c6da87e00553f2eaa92c33e087f6670e8a352
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7f095e42eae2ba47573193546e441809ce3ae6e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316521"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618301"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-skype-for-business-online"></a>An Benutzer gesendete E-Mails, wenn ihre Einstellungen in Skype for Business Online geändert werden
 
@@ -50,7 +50,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet wer
     
      ![Skype for Business Verify License](../images/audio-conferencing-user-enabled.png)
   
-    Weitere Informationen zur Lizenzierung von Lizenzen Skype for Business Sie unter Skype for Business [Add-On-Lizenzierung.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
+    Weitere Informationen zur Lizenzierung von Skype for Business finden Sie unter [Skype for Business-Add-On-Lizenzierung.](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md)
     
 - **Sich die Konferenz-ID oder die Standardtelefonnummer eines Benutzers ändert.**
     
@@ -74,11 +74,11 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet wer
     
      ![Die PIN für die Dial-In-Konferenz wurde geändert.](../images/audio-conferencing-pin-has-changed.png)
   
-- **Die Lizenz eines Benutzers wird entfernt, oder wenn der Audiokonferenzanbieter von Microsoft zu einem anderen Anbieter wechselt oder Kein.**
+- **Die Lizenz eines Benutzers wird entfernt, oder wenn der Audiokonferenzanbieter von Microsoft zu einem anderen Anbieter oder zu Keine wechselt.**
     
     Dies geschieht, wenn die Lizenz für **Audiokonferenzen** von einem Benutzer entfernt wird, der Audiokonferenzanbieter eines Benutzers von Microsoft auf einen Drittanbieter für Audiokonferenzen geändert wird oder wenn der Anbieter auf Kein geändert **wird.** Diese E-Mail enthält Anweisungen und Informationen für den Benutzer, mit dem Skype for Business Online Meeting Update Tool spezielle Informationen für Audiokonferenzen zu entfernen, z. B. die Standardeinwahlnummer oder die Konferenz-ID.
     
-    Weitere [Informationen finden Sie unter Zuweisen oder Entfernen von Lizenzen Microsoft 365 Apps for Business.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+    Weitere [Informationen finden Sie unter Zuweisen oder Entfernen von Microsoft 365 Apps for Business.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
     
     So kann diese E-Mail aussehen:
     
@@ -89,7 +89,7 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet wer
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Änderungen an den E-Mail-Nachrichten, die ihnen geschickt werden
 
-Sie können die E-Mail-Nachricht ändern, die automatisch an Benutzer gesendet wird. Zu den zu ändernden Optionen gehören die E-Mail-Adresse und der Anzeigename, der in der Kontaktinformation *From* enthalten ist. Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365, aber Sie können die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell und dem [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) ändern. So ändern Sie die E-Mail-Adresse, die als Absender von E-Mail-Nachrichten an Benutzer verwendet wird:
+Sie können die E-Mail-Nachricht ändern, die automatisch an Benutzer gesendet wird. Zu den zu ändernden Optionen gehören die E-Mail-Adresse und der Anzeigename, der in der Kontaktinformation *From* enthalten ist. Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell und dem [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) ändern. So ändern Sie die E-Mail-Adresse, die als Absender von E-Mail-Nachrichten an Benutzer verwendet wird:
   
 - Die E-Mail-Adresse in den Parameter  _SendEmailFromAddress_ eingeben.
     
@@ -116,7 +116,7 @@ Standardmäßig werden E-Mails an Ihre Benutzer gesendet. Wenn Sie jedoch verhin
  
 ![Symbol mit dem Skype for Business ](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**  
     
-1. Wechseln Sie **Skype for Business linken** Navigationsbereich im Admin Center zu **Audio conferencing**  >  **Microsoft Bridge-Einstellungen**.
+1. Navigieren Sie **Skype for Business linken** Navigationsleiste im Admin Center zu **Audio conferencing**  >  **Microsoft Bridge-Einstellungen**.
     
 2. Aktivieren oder deaktivieren **Sie auf der** Seite Einstellungen von Microsoft Bridge die Option Automatisches Senden von E-Mails an Benutzer, wenn sich **deren Audiokonferenzeinstellungen ändern.** 
     
@@ -147,9 +147,9 @@ Sie können das [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/previous-
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365, aber Sie können die E-Mail-Adresse und den Anzeigenamen mit Windows PowerShell und dem [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) ändern.
+- Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365. Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell und dem [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/previous-versions//mt228132(v=technet.10)) ändern.
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

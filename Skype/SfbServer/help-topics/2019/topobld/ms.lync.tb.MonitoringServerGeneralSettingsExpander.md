@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Überwachungsserver bearbeiten, indem Sie entweder mit der rechten Maustaste in der Konsolenstruktur auf den Überwachungsserver klicken und dann auf der Symbolleiste auf Aktion klicken, oder indem Sie im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf "Eigenschaften bearbeiten" klicken und eine der folgenden Optionen ändern:'
-ms.openlocfilehash: 49c8e4a3bf61f94ebbbf0aa9e5c7960f2e1afad8682802c124f3aa9c8533ca7d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0b3aec1737d4b36a05ca8f0c01f41cce686f386f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618061"
 ---
-# <a name="monitoring-server-general-settings-expander"></a>Allgemeine Einstellungen des Überwachungsservers – Erweiterung
+# <a name="monitoring-server-general-settings-expander"></a>Allgemeine Einstellungen des Überwachungsservers – Erweiterung
  
 Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Überwachungsserver bearbeiten, indem Sie entweder mit der rechten Maustaste in der Konsolenstruktur auf den Überwachungsserver klicken und dann auf der Symbolleiste auf **Aktion** klicken, oder indem Sie im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf **"Eigenschaften bearbeiten"** klicken und eine der folgenden Optionen ändern:
   

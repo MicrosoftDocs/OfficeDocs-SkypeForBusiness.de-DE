@@ -9,7 +9,7 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
@@ -18,12 +18,12 @@ appliesto:
 ms.reviewer: anach
 description: Informationen zur Patienten-App für Teams-Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 24b9813d14654b58018df5d26b94dc5afdaf816725b273c4a18c380bbd03552b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 61b363af8d77c907ee2166fd0ee29da2d8119fde
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308744"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595069"
 ---
 # <a name="patients-app-overview"></a>Übersicht über die Patienten-App
 
@@ -45,7 +45,7 @@ Zu jeder Schicht in Krankenstationen treffen sich Ärzte zu Besprechungen, um si
 
 ## <a name="configure-patients-app"></a>Konfigurieren der Patienten-App
 
-Lesen [Sie Verwalten von App-Setuprichtlinien in Microsoft Teams,](../../teams-app-setup-policies.md) um die Patienten-App für Ihre Organisation zu aktivieren.
+Informationen [zum Aktivieren der Patienten-App für Ihre Microsoft Teams](../../teams-app-setup-policies.md) finden Sie unter Verwalten von Richtlinien für die App-Einrichtung in Ihrem Unternehmen.
 
 Informationen dazu, wie Ihre Endbenutzer auf die Patienten-App zugreifen und sie in einem Team installieren können, dessen Besitzer sie sind oder das sie verwalten, finden Sie unter [Erste Schritte mit "Patienten" in Microsoft Teams](https://support.office.com/article/get-started-with-microsoft-teams-patients-aa7daebe-706a-4a65-8ce9-b9b79233f393).
 

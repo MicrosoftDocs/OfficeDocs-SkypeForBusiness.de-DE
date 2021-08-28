@@ -10,15 +10,15 @@ f1.keywords:
 - NOCSH
 ms.topic: article
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Anweisungen zum Implementieren von cloudbasierter Voicemail für Benutzer, die auf Skype for Business Server verwaltet werden.
-ms.openlocfilehash: 8a0c04d90d77b0843ef8b9097abec91c04ee7bb336bf04e0cbfcc9c7fe5fe38a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f38c181c84edb695fce54d6da805482563cfe01
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337255"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625747"
 ---
 # <a name="configure-cloud-voicemail-service-for-on-premises-users"></a>Konfigurieren Cloud-Voicemail Diensts für lokale Benutzer
 
@@ -37,7 +37,7 @@ Weitere Informationen zu den Vorteilen, Planungsüberlegungen und Anforderungen 
 
 Das Konfigurieren Cloud-Voicemail umfasst die folgenden Aufgaben:
 
-1.  Stellen Sie sicher, dass Die Voraussetzungen erfüllt sind, wie unter [Plan Cloud-Voicemail Service](plan-cloud-voicemail.md)beschrieben.
+1.  Stellen Sie sicher, dass die Voraussetzungen erfüllt sind, wie unter [Plan Cloud-Voicemail Service](plan-cloud-voicemail.md)beschrieben.
 
 2.  Stellen Sie sicher, dass Sie die Hybridkonnektivität wie unter Planen der [Hybridkonnektivität](plan-hybrid-connectivity.md) und [Konfigurieren der Hybridkonnektivität](configure-hybrid-connectivity.md)beschrieben eingerichtet haben. 
 
@@ -52,7 +52,7 @@ Das Konfigurieren Cloud-Voicemail umfasst die folgenden Aufgaben:
 
 ## <a name="configure-cloud-voicemail-as-the-hosting-provider"></a>Konfigurieren Cloud-Voicemail als Hostinganbieter 
 
-Sie konfigurieren Cloud-Voicemail als Hostinganbieter auf einem Front-End-Server, indem Sie das Cmdlet New-CsHostingProvider mit den folgenden Parametern verwenden:
+Sie konfigurieren Cloud-Voicemail als Hostinganbieter auf einem Front-End-Server mithilfe des Cmdlets New-CsHostingProvider mit den folgenden Parametern:
 
 - **Die Identität** gibt einen eindeutigen Zeichenfolgenwertbezeichner für den Hostinganbieter an, den Sie erstellen. Beispielsweise Cloud-Voicemail. 
 
@@ -66,7 +66,7 @@ Sie konfigurieren Cloud-Voicemail als Hostinganbieter auf einem Front-End-Server
 
 - **IsLocal** gibt an, ob der vom Hostinganbieter verwendete Proxyserver in Ihrer Skype for Business Server Topologie enthalten ist. Dieser Parameter muss auf "False" festgelegt sein.
 
-Beispielsweise konfiguriert das folgende Cmdlet in der Skype for Business Verwaltungsshell Cloud-Voicemail als Hostinganbieter:
+Beispielsweise konfiguriert das folgende Cmdlet in der Skype for Business-Verwaltungsshell Cloud-Voicemail als Hostinganbieter:
 
 
 ```PowerShell
@@ -85,7 +85,7 @@ Set-CsHostedVoicemailPolicy -Identity Global -Description "Global Cloud Voicemai
 
 - **Destination** specifies the fully qualified domain name (FQDN) of the hosted Cloud-Voicemail service. Dieser Wert sollte auf **exap.um.outlook.com** festgelegt werden.
 
-- **Die Organisation** ist die Standarddomäne, die Ihrem Mandanten zugewiesen ist. Sie können diese Informationen abrufen, indem Sie sich vom Mandantenadministrator bei office.com anmelden, auf die Admin Center-App klicken, links zu **Setup** navigieren und auf **"Domänen"** klicken. Beispiel: mytenant.onmicrosoft.com.
+- **Die Organisation** ist die Standarddomäne, die Ihrem Mandanten zugewiesen ist. Sie können diese Informationen abrufen, indem Sie sich vom Mandantenadministrator bei office.com anmelden, auf die Admin Center-App klicken, links zu **Setup** navigieren und auf **Domänen** klicken. Beispiel: mytenant.onmicrosoft.com.
 
     Der Organisationsname ist auch der Standarddomänenname in Microsoft 365 oder Office 365.
 
@@ -108,7 +108,7 @@ Get-CsUser -Identity "User1" | Grant-CsHostedVoicemailPolicy -PolicyName "Tag:Cl
 
 ## <a name="enable-a-user-for-cloud-voicemail"></a>Aktivieren eines Benutzers für Cloud-Voicemail
 
-Damit die Voicemailanrufe eines Benutzers an Cloud-Voicemail weitergeleitet werden können, verwenden Sie das Cmdlet ["Set-CsUser"](/powershell/module/skype/set-csuser?view=skype-ps) mit dem Parameter "HostedVoiceMail". 
+Um die Weiterleitung von Voicemailanrufen eines Benutzers an Cloud-Voicemail zu ermöglichen, verwenden Sie das Cmdlet ["Set-CsUser"](/powershell/module/skype/set-csuser?view=skype-ps) mit dem Parameter "HostedVoiceMail". 
 
 Mit dem folgenden Befehl wird beispielsweise ein Benutzerkonto für Cloud-Voicemail aktiviert: 
 
@@ -127,4 +127,4 @@ Set-CsUser -Identity "User1" -HostedVoiceMail $False
 Das Cmdlet überprüft, ob keine gehostete Voicemailrichtlinie – auf globaler, Standort- oder Benutzerebene – für diesen Benutzer gilt. Wenn eine Richtlinie gilt, schlägt das Cmdlet fehl.
 
 > [!NOTE]
->  Benutzer müssen enterprise-voIP aktiviert sein, um den Microsoft Cloud-Voicemail-Dienst zu verwenden.
+>  Benutzer müssen Enterprise-VoIP-fähig sein, um den Microsoft Cloud-Voicemail Dienst verwenden zu können.

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Abfrage ausführen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 860760303510b792cba70fc211ac8b7f9b994996b4937aa333ed54fcffb6eb75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 814b602631b3699b2b802adaee931e4ab0a780a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340861"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626627"
 ---
 # <a name="run-query"></a>Ausführen einer Abfrage
 
@@ -28,7 +28,7 @@ Der Vorgang "Abfrage ausführen" ist Teil der Daten-API für das Anrufqualitäts
 
 ## <a name="run-query"></a>Ausführen einer Abfrage
 
-Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem Cube basierend auf angegebenen Dimensionen, Maßen und Filtern auszuführen und die Daten zurückzugeben.
+Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßangaben und Filtern auszuführen und die Daten zurückzugeben.
 
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
@@ -127,4 +127,4 @@ Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem C
 
  *Datenergebnis*  – Das Ergebnis der Abfrage. Es handelt sich um ein zweidimensionales Array, das alle Permutationen der Elemente der Dimensionen und jedes Element mit den Elementnamen der Dimensionen sowie die aggregierten Werte der angegebenen Maßeinheiten enthält.
 
- *Result is From Cache*  – For diagnostics. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube stammt.
+ *Ergebnis aus Cache*  – für Diagnose. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube stammt.

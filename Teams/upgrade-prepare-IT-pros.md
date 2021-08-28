@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 ms.reviewer: landerl
 description: Erfahren Sie, wie Sie DIE IT-Mitarbeiter in Ihrer Organisation für die Bereitstellung und Unterstützung von Microsoft Teams.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -19,12 +19,12 @@ ms.collection:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 2dc29f8656b4fdd69d0e6e59338e91341d32cc7e283b4bdd2cfb5680192e248b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 53e0e8e57a7948947878fe93bcf358c83adeac52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343859"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618331"
 ---
 # <a name="prepare-your-it-staff-for-microsoft-teams"></a>Vorbereiten Ihrer IT-Microsoft Teams
 
@@ -37,9 +37,9 @@ Dieser Artikel ist Bestandteil der Phase „Technische Bereitschaft“ Ihrer Upg
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Ihre Microsoft 365 oder Office 365 Ihrer Organisation, die technischen Leads und der Support desk sind für die Entwicklung einer qualitativ hochwertigen Benutzererfahrung verdingt. Dies umfasst die Sicherstellung, dass Ihr Netzwerk für die Unterstützung von Teams bereit ist, das Konfigurieren von Teams für Ihre Benutzer sowie die Möglichkeit, probleme, die möglicherweise auftreten können, effektiv zu behandeln und zu beheben.
+Ihre Microsoft 365 oder Office 365 Organisationsadministratoren, technischen Leads und der Support desk sind für die Entwicklung einer qualitativ hochwertigen Benutzererfahrung verdingt. Dies umfasst die Sicherstellung, dass Ihr Netzwerk für die Unterstützung von Teams bereit ist, das Konfigurieren von Teams für Ihre Benutzer sowie die Möglichkeit, probleme, die möglicherweise auftreten können, effektiv zu behandeln und zu beheben.
 
-Teilen Sie die folgenden Ressourcen mit Ihren IT-Mitarbeitern, und vergewissern Sie sich, dass diese bereit sind, Benutzer zu unterstützen, bevor Sie mit dem Upgrade auf die neue Version Teams:
+Teilen Sie die folgenden Ressourcen mit Ihren IT-Mitarbeitern, und bestätigen Sie, dass sie bereit sind, Benutzer zu unterstützen, bevor Sie mit dem Upgrade auf die neue Version Teams:
 
 - [Administratorschulung für Microsoft Teams](itadmin-readiness.md)
 - [Kontakt mit dem Support für Geschäftsprodukte aufnehmen – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products)

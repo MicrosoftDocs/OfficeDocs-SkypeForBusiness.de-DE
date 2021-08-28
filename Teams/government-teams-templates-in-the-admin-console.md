@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie teamvorlagen verwenden, um Teamstrukturen für Behördenanforderungen zu erstellen, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
 f1.keywords:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b915daab744bd764a9ac9e1d0be000357a051a2719e9e544bfff8b5a5c26e5a6
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f373e2e949d4fe461ef06657e0791f4ff59f4b61
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315251"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603404"
 ---
 # <a name="use-government-team-templates-in-the-admin-center"></a>Verwenden von Vorlagen für Government-Teams im Admin Center
 
 Teamvorlagen ermöglichen es Ihnen, Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
 
-Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf behördliche Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die Auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
+Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf behördliche Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
 
 In diesem Artikel stellen wir die einzelnen Teamvorlagen vor und empfehlen, sie zu verwenden.
 

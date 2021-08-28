@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Ein- und Ausstiegsankündigungen in einer Skype for Business Online-Besprechung mit dem Skype for Business Admin Center ein- und ausschalten können. '
-ms.openlocfilehash: 50f2279f309e77126cc71e922b75afe1342b09863220e4c47c32581e6b85bcc9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10eb31edd33f74d335d3cb8f09c75b3cf90d6137
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326971"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603154"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-skype-for-business-online"></a>Ein- und Ausschalten von Ein- und Ausstiegsankündigungen für Besprechungen in Skype for Business Online
 
@@ -44,13 +44,13 @@ Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, der mit einem 
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
     
-1. Wechseln Sie **Skype for Business linken** Navigationsbereich im Admin Center zu **Audio conferencing**  >  **Microsoft Bridge-Einstellungen**.
+1. Navigieren Sie **Skype for Business linken** Navigationsleiste des Admin Centers zu **Audio conferencing**  >  **Microsoft Bridge-Einstellungen**.
     
-2. Aktivieren **oder deaktivieren Sie unter Teilnahme an Besprechungen** die Option Aktivieren Sie die Aktivierung von Benachrichtigungen über zu- und **abgangen von Besprechungen.** Diese Option ist standardmäßig ausgewählt. Wenn Sie sie deaktivieren, werden Benutzer, die bereits an der Besprechung teilnehmen, nicht benachrichtigt, wenn ein Teilnehmer der Besprechung beitritt oder diese verlässt.
+2. Aktivieren oder deaktivieren Sie unter Teilnahme an **Besprechungen** die Option Aktivieren Sie die Aktivierung von Benachrichtigungen über zu- und **abgangen von Besprechungen.** Diese Option ist standardmäßig ausgewählt. Wenn Sie sie deaktivieren, werden Benutzer, die bereits an der Besprechung teilnehmen, nicht benachrichtigt, wenn ein Teilnehmer der Besprechung beitritt oder diese verlässt.
     
 3. Unter **Einstieg/Ausstieg-Ansagetyp** wählen Sie **Namen oder Telefonnummern** oder **Töne**.
     
-4. Aktivieren oder deaktivieren Sie **Anrufer bitten, ihren Namen vor der Teilnahme an der Besprechung zu notiert.**
+4. Aktivieren oder deaktivieren Sie **Anrufer bitten, ihren Namen vor** der Teilnahme an der Besprechung zu aufzeichnen.
     
 5. Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **Speichern**.
     
@@ -59,13 +59,13 @@ Die Konferenzbrücke beantwortet einen Anruf für einen Benutzer, der mit einem 
 
 - Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/set-csonlinedialinconferencingtenantsettings?view=skype-ps) nutzen.
     
-- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des -Microsoft 365 Admin Center gegenüber Geschwindigkeit, Einfachheit und Produktivität viele Vorteile, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center gegenüber Geschwindigkeit, Einfachheit und Produktivität viele Vorteile, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

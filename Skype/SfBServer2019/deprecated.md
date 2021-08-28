@@ -1,5 +1,5 @@
 ---
-title: Veraltet ab Skype for Business Server 2019
+title: Veraltete Skype for Business Server 2019
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,21 +9,21 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype for Business Server 2019 entfernt.'
-ms.openlocfilehash: c6ba9d9945ae5dde2a9898fe5adfd44192faceb5
-ms.sourcegitcommit: 6a87a4180519e493ac115c2faadb9ccae26d5a35
+ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58372055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595029"
 ---
-# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Veraltet ab Skype for Business Server 2019
+# <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Veraltete Skype for Business Server 2019
 
 Erfahren Sie mehr über die Features und Funktionen, die in Skype for Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype for Business Server 2019 finden Sie [unter What's in Skype for Business Server 2019](whats-new.md).
 
-Einige features de-emphasized sind in Skype for Business Server 2019 aus Gründen der Kompatibilität mit früheren Produktversionen enthalten.
+Einige features nicht hervorgehoben sind in Skype for Business Server 2019 aus Gründen der Kompatibilität mit früheren Produktversionen enthalten.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Veraltete Features in Skype for Business Server 2019 
 
@@ -31,7 +31,7 @@ Die folgenden Features und Funktionen sind in Skype for Business Server 2019 ver
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>XMPP-Gateways für Skype for Business Server
 
-Skype for Business Server 2015 und seinen Vorgängern konnten Sie einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool konfigurieren. Diese Funktionalität ist in Skype for Business Server 2019 nicht mehr verfügbar.
+Skype for Business Server 2015 und seinen Vorgängern konnten Sie einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool konfigurieren. Diese Funktion ist in Skype for Business Server 2019 nicht mehr verfügbar.
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Beständiger Chat für Skype for Business Server
 

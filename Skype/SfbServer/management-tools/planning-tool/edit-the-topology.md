@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Nach Abschluss der anfänglichen Fragen können Sie den vollqualifizierten Domänennamen (FQDN) und die IP-Adressen für die Website bearbeiten. Doppelklicken Sie hierzu auf der Seite Globale Topologie auf den Standort, den Sie bearbeiten möchten.
-ms.openlocfilehash: 017b1e9e04851d321c9fd6f08508c8ffeccb4b4b558a3b0668c7e6f0efdd1f15
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6c18b980f7dca770de46a8eaeed01e7c508486b2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347910"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626597"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Bearbeiten der Topologie in Skype for Business Server 2015
 
@@ -31,19 +31,19 @@ Das Planungstool zeigt die Standorttopologie für den ausgewählten Standort an.
 
 - Standorttopologie – Die aktuell angezeigte Seite mit einer visuellen Übersicht über die Topologie, wie empfohlen.
 
-- Edge-Netzwerkdiagramm – Auf der Seite "Edge-Netzwerkdiagramm" übernimmt der Designer die meiste Arbeit im Planungstool. Das Diagramm zeigt die Netzwerkkonfiguration für eine empfohlene Skype for Business Server 2015-Topologie mit bearbeitbaren Einträgen für IP-Adressen und FQDNs für Server, Pool und Hardware- und DNS-Lastenausgleichsmodule (Domain Name System).
+- Edge-Netzwerkdiagramm – Auf der Seite "Edge-Netzwerkdiagramm" übernimmt der Designer die meiste Arbeit im Planungstool. Das Diagramm zeigt die Netzwerkkonfiguration für eine empfohlene Skype for Business Server 2015-Topologie mit bearbeitbaren Einträgen für IP-Adressen und FQDNs für Server, Pool und Hardware und DNS-Lastenausgleich (Domain Name System).
 
 - Edge-Administratorbericht – Der Edge-Administratorbericht enthält insgesamt vier Berichte:
 
      ![Seite "Edge-Administratorbericht"](../../media/Planning_Tool_Summary_Report.png)
 
-  - Zusammenfassungsbericht – Ein allgemeiner Bericht mit Einstellungen für die Edgenetzwerkkonfiguration. Wenn Sie die Werte auf der Seite **"Edge-Netzwerkdiagramm"** auf die TCP/IP- und FQDN-Werte der Topologie ändern, die in der tatsächlichen Bereitstellung verwendet werden, werden diese Adressen und Namen hier dargestellt. Andernfalls wird der Standardtext angezeigt.
+  - Zusammenfassungsbericht – Ein allgemeiner Bericht mit Einstellungen für die Edgenetzwerkkonfiguration. Wenn Sie die Werte auf der Seite **"Edge-Netzwerkdiagramm"** auf die Tcp/IP- und FQDN-Werte der Topologie bearbeiten, die in der tatsächlichen Bereitstellung verwendet werden, werden diese Adressen und Namen hier dargestellt. Andernfalls wird der Standardtext angezeigt.
 
   - Zertifikatbericht : Der Zertifikatbericht listet den Antragstellernamen und alternative Antragstellernamen für die Zertifikate auf, die für die Topologie erforderlich sind.
 
   - Firewallbericht: Der Firewallbericht enthält Informationen, die zum Konfigurieren von Umkreisfirewalls in der Infrastruktur erforderlich sind. Dazu gehören die IP-Adressen (standard- oder bearbeitete Werte), Serverrolle, Quell-IP und -Port, Ziel-IP und -Port, Transportprotokoll, Anwendungsprotokoll und relevante Hinweise.
 
-  - DNS-Bericht : Der DNS-Bericht listet relevante Informationen für die DNS-Einträge auf, die Sie erstellen müssen. Hierzu zählen Eintragstyp, FQDN, IP-Adresse und Hinweise zum ordnungsgemäßen Betrieb.
+  - DNS-Bericht – Der DNS-Bericht listet relevante Informationen für die DNS-Einträge auf, die Sie erstellen müssen. Hierzu zählen Eintragstyp, FQDN, IP-Adresse und Hinweise zum ordnungsgemäßen Betrieb.
 
 - Websitezusammenfassung – Die Websitezusammenfassung bietet eine Übersicht über die Auswahl, die Sie getroffen haben, indem Sie entweder die anfänglichen Fragen beantworten oder die Werte in **Designwebsites** ausfüllen. Außerdem werden Kapazitätsinformationen angezeigt.
 
@@ -73,7 +73,7 @@ Eine nützliche Funktion des Planungstools ist die, dass ein Bereich von IP-Adre
 
 2. Beispielsweise ist der Startwert für den ersten Server fe0101.contoso.com und die IP-Adresse 192.168.21.122.
 
-3. Geben Sie fe0.contoso.com im **Front-End-Server-FQDN** ein, geben Sie "192.168.21.131" in der **IP-Adresse des Front-End-Servers** ein, und klicken Sie dann auf **"OK".**
+3. Geben Sie fe0.contoso.com im **Front-End-Server-FQDN** ein, geben Sie 192.168.21.131 in der **IP-Adresse des Front-End-Servers** ein, und klicken Sie dann auf **OK.**
 
 4. Das Feature für automatisches Erhöhen aktualisiert alle Server im Pool auf fe01 bis fe06 und alle IP-Adressen von 192.168.21.131 auf 136.
 

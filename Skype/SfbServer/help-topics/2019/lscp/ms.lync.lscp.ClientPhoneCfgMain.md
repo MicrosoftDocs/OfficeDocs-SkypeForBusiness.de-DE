@@ -11,20 +11,20 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
 ROBOTS: NOINDEX, NOFOLLOW
-description: Bei einer Gerätekonfiguration handelt es sich um eine Sammlung von Einstellungen, die zum Verwalten Skype for Business Telefon Edition-Geräte entweder global oder innerhalb einer Website verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: c8f1b8e453bf92c103808c0e3500597d1a81b57ed61e4cc22856aeab2284e5b0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Eine Gerätekonfiguration ist eine Sammlung von Einstellungen, die verwendet werden, um Skype for Business Telefon Edition-Geräte global oder innerhalb einer Website zu verwalten. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
+ms.openlocfilehash: 2a97c318d3d810e7479ed7b43ec75ebc24886a09
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625587"
 ---
 # <a name="device-configuration"></a>Gerätekonfiguration
  
-Bei einer Gerätekonfiguration handelt es sich um eine Sammlung von Einstellungen, die zum Verwalten Skype for Business Telefon Edition-Geräte entweder global oder innerhalb einer Website verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen. 
+Eine Gerätekonfiguration ist eine Sammlung von Einstellungen, die verwendet werden, um Skype for Business Telefon Edition-Geräte global oder innerhalb einer Website zu verwalten. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen. 
   
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 

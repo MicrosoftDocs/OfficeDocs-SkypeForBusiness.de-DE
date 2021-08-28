@@ -10,20 +10,20 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
-description: Anleitung zur Verwendung des Skype for Business Server 2015-Planungstools.
-ms.openlocfilehash: 36dca20371ced46d9a4e75d3bd086f23127ef307e6cc8473e706d3b26580b8df
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Anleitung zur Verwendung des planungstools Skype for Business Server 2015.
+ms.openlocfilehash: 7e532f33710da1f0a9f82f2c8169b5258dab50ec
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318858"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626567"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015-Planungstool
  
-Anleitung zur Verwendung des Skype for Business Server 2015-Planungstools.
+Anleitung zur Verwendung des planungstools Skype for Business Server 2015.
   
 Das Skype for Business Server 2015-Planungstool ist ein assistentengesteuertes Tool, das Fragen zur Skype for Business Server 2015-Topologie stellt, die Sie entwerfen. Das Planungstool verwendet die bereitgestellten Informationen zusammen mit bevorzugten Methoden für den Topologieentwurf und die Kapazität, um eine empfohlene Topologie basierend auf den bereitgestellten Antworten zu präsentieren. Sie können das Planungstool aus dem [Skype for Business Server 2015-Planungstool](https://go.microsoft.com/fwlink/p/?LinkID=282725)herunterladen.
   
@@ -35,7 +35,7 @@ Die Verwendung dieses Tools ist der erste Schritt bei der Planung Ihrer Implemen
   
 Das Planungstool bietet auch die Möglichkeit, Informationen in zwei Formaten zu exportieren:
   
-- Microsoft Excel (.xml-Tabellenkalkulation)
+- Microsoft Excel (.xml-Kalkulationstabelle)
     
 - Microsoft Visio (VDX)
     

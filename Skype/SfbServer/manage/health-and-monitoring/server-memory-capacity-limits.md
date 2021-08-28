@@ -1,5 +1,5 @@
 ---
-title: Überwachen von Serverspeicherkapazitätslimits in Skype for Business Server
+title: Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,17 +9,17 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Kapazitätsgrenzen des Serverspeichers in Skype for Business Server überwachen.'
-ms.openlocfilehash: d62ae4a7e9eaed4fd866107de276990c3d883d946b2d44035fcac4fa47b69e61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 224de5c2727efe02ba2303a2eeb30e189ed4d67e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314461"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595515"
 ---
-# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen von Serverspeicherkapazitätslimits in Skype for Business Server
+# <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die Serverspeicherkapazitätsgrenzen in Skype for Business Server überwachen.
   
@@ -27,7 +27,7 @@ ms.locfileid: "54314461"
 > Die Informationen in diesem Thema, die sich auf die Kapazitätsplanung beziehen, beziehen sich nur auf Lync 2010 Mobile-Clients und den Mobilitätsdienst (Mcx). Capacity Planning for the Unified Communications Web API (UCWA), used by the Lync 2013 Mobile clients, is provided by the Lync Server 2013, Planning Tool. 
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 Zwei Leistungsindikatoren für Mobilität können Ihnen helfen, Ihre aktuelle Nutzung zu ermitteln und die Kapazität für den Skype for Business Server Mobility Service (Mcx) zu planen sowie die Speicherauslastung für UCWA zu überwachen. Für UCWA lautet die Zählerkategorie **LS:WEB - UCWA**. Für den Mobilitätsdienst (Mcx) befinden sich die Leistungsindikatoren in der Kategorie **"LS:WEB – Mobiler Kommunikationsdienst".** Die zu überwachenden Indikatoren sind:
   

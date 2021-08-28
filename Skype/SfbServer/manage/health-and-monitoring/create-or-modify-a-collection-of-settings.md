@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c830be5a-2a82-468d-9c46-d3fec0f79fd0
 description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server.'
-ms.openlocfilehash: 1a1e78fbca4ec0d011cb8cbbcade04888b0099040d15a4289d8cc846cfef825b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9b30eee578fd83dd0d94fbd78a490bf1b0e65de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626607"
 ---
 # <a name="create-or-modify-a-collection-of-cdr-configuration-settings-in-skype-for-business-server"></a>Erstellen oder Ändern einer Auflistung von KDS-Konfigurationseinstellungen in Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "54346431"
   
 Mit der Aufzeichnung von Kommunikationsdatensätzen (KDS) können Sie die Verwendung von Peer-to-Peer-Chatsitzungen, VoIP-Telefonanrufen (Voice over Internet Protocol) und Konferenzanrufen nachverfolgen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
   
-Wenn Sie Skype for Business Server eine einzelne, globale Sammlung von KDS-Konfigurationseinstellungen installieren, wird für Sie erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen auf Standortebene zu erstellen. Wenn diese standortspezifischen Einstellungen verwendet werden, haben Sie Vorrang vor den globalen Einstellungen. Wenn Sie beispielsweise Standorteinstellungen für den Standort Redmond erstellen, werden diese Einstellungen (statt der globalen Einstellungen) zum Verwalten von KDS in Redmond verwendet.
+Wenn Sie Skype for Business Server installieren, wird eine einzelne globale Sammlung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren haben auch die Möglichkeit, benutzerdefinierte Einstellungen auf Standortebene zu erstellen. Wenn diese standortspezifischen Einstellungen verwendet werden, haben Sie Vorrang vor den globalen Einstellungen. Wenn Sie beispielsweise Standorteinstellungen für den Standort Redmond erstellen, werden diese Einstellungen (statt der globalen Einstellungen) zum Verwalten von KDS in Redmond verwendet.
   
 Sie können KDS-Konfigurationseinstellungen entweder mit Skype for Business Server Systemsteuerung oder mit dem Cmdlet ["New-CsCdrConfiguration"](/powershell/module/skype/new-cscdrconfiguration?view=skype-ps) erstellen. Sie können Skype for Business Server Systemsteuerung oder das Cmdlet ["Set-CsCdrConfiguration"](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) verwenden, um vorhandene Einstellungen zu ändern. Wenn Sie Skype for Business Server Systemsteuerung zum Erstellen oder Ändern von Einstellungen verwenden, stehen Ihnen die folgenden Optionen zur Verfügung:
   

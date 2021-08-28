@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie eine Liste der Benutzer in Ihrer Organisation anzeigen, die im Skype for Business Admin Center für Einwahlkonferenzen aktiviert sind. '
-ms.openlocfilehash: b1138d80798791a433956e7b53db2569e1667e3126a81c3744c85a9604475012
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 91ac12b07465491b2b8e721f7e876bb9e35cd9af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327071"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618291"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-skype-for-business-online"></a>Eine Liste der Benutzer, die für Audiokonferenzen in Ihrer Online Skype for Business sind
 
@@ -49,9 +49,9 @@ Nachdem Sie die Skype for Business in Ihrer Organisation für Audiokonferenzen a
 
 - Wenn Sie die Liste der aktivierten Benutzer anzeigen, können Sie einen Benutzer aus der Liste auswählen und den Aktionsbereich verwenden, um die Audiokonferenzeinstellungen für diesen Benutzer zu bearbeiten.
     
-- Wenn Sie einen einzelnen Benutzer auswählen, der für die Verwendung von Microsoft als Audiokonferenzanbieter konfiguriert ist, können Sie die Standardtelefonnummer und die Dynamischen Konferenz-IDs Ihrer Organisation anzeigen und die Konferenz-ID für vom Benutzer organisierten Besprechungen zurücksetzen.
+- Wenn Sie einen einzelnen Benutzer auswählen, der für die Verwendung von Microsoft als Audiokonferenzanbieter konfiguriert ist, können Sie die Standardtelefonnummer anzeigen und festlegen, ob Ihre Organisation für dynamische Konferenz-IDs aktiviert ist, und Sie können die Konferenz-ID für vom Benutzer organisierten Besprechungen zurücksetzen.
     
-- Wenn Sie einen einzelnen Benutzer auswählen, der für die Verwendung eines Drittanbieters für Audiokonferenzen konfiguriert ist, können Sie den Namen des Audiokonferenzanbieters, die gebührenpflichtige Telefonnummer und die gebührenfreie Telefonnummer (sofern eingerichtet) anzeigen.
+- Wenn Sie einen einzelnen Benutzer auswählen, der für die Verwendung eines Drittanbieters für Audiokonferenzen konfiguriert ist, können Sie (sofern eingerichtet) den Namen des Audiokonferenzanbieters, die gebührenpflichtige Telefonnummer und die gebührenfreie Telefonnummer anzeigen.
     
 - Mithilfe der Filteroptionen können Sie Benutzer mit folgenden Eigenschaften aufrufen:
     
@@ -77,13 +77,13 @@ Nachdem Sie die Skype for Business in Ihrer Organisation für Audiokonferenzen a
     
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365, Office 365 und Skype for Business Online über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Center beispielsweise, wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen, viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center gegenüber Geschwindigkeit, Einfachheit und Produktivität viele Vorteile, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

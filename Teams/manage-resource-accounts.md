@@ -14,25 +14,25 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.orgwidesettings.resourceaccounts.overview
 - seo-marvel-apr2020
 description: In diesem Artikel erfahren Sie, wie Sie Ressourcenkonten in einem Microsoft Teams.
-ms.openlocfilehash: dd366e59e99b41386d4f5e7a9373401ca67381cf0cf08f44dae1763e401dff53
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4456ff79049f0aebc206fd4d941df7b50caa690b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595039"
 ---
 # <a name="manage-resource-accounts-in-microsoft-teams"></a>Verwalten von Ressourcenkonten in Microsoft Teams
 
-Ein Ressourcenkonto ist ein deaktiviertes Benutzerobjekt in Azure AD und kann zur allgemeinen Darstellung von Ressourcen verwendet werden. Ein Ressourcenkonto kann z. B. in einem Exchange verwendet werden, um Konferenzräume mit einer Telefonnummer und einem Kalender zu repräsentieren. Ein Ressourcenkonto kann in Microsoft 365 oder lokal unter Verwendung von Skype for Business Server 2019 verwaltet werden.
+Ein Ressourcenkonto ist ein deaktiviertes Benutzerobjekt in Azure AD und kann zur allgemeinen Darstellung von Ressourcen verwendet werden. Beispielsweise kann ein Ressourcenkonto in einem Exchange verwendet werden, um Konferenzräume zu repräsentieren und ihnen eine Telefonnummer und einen Kalender zu ermöglichen. Ein Ressourcenkonto kann in Microsoft 365 oder lokal unter Verwendung von Skype for Business Server 2019 verwaltet werden.
 
-In Microsoft Teams wird für jede automatische Telefonhalterung oder Anrufwarteschleife ein Ressourcenkonto benötigt. Ressourcenkonten können auch Servicetelefonnummern zugewiesen werden. Auf diese Weise weisen Sie automatischen Telefonisten und Anrufwarteschleifen Telefonnummern zu, sodass Anrufer von außerhalb Teams die automatische Telefon attendant oder die Anrufwarteschleife erreichen können.
+In Microsoft Teams für jede automatische Telefonhalterung oder Anrufwarteschleife ein Ressourcenkonto erforderlich. Ressourcenkonten können auch Servicetelefonnummern zugewiesen werden. Auf diese Weise weisen Sie automatischen Telefonkonferenzen und Anrufwarteschleifen Telefonnummern zu, damit Anrufer von außerhalb Teams die automatische Telefon attendant oder die Anrufwarteschleife erreichen können.
 
 In diesem Artikel wird beschrieben, wie Sie Ressourcenkonten erstellen und für die Verwendung mit automatischen Telefonkonferenzen und Anrufwarteschleifen bereit machen.
 
@@ -47,7 +47,7 @@ Für jedes Ressourcenkonto ist eine Lizenz erforderlich, um mit automatischen Te
 
 Weiter später in diesem Artikel wird beschrieben, wie Die Lizenz einem Ressourcenkonto zugewiesen wird.
 
-Um die Lizenz für virtuelle Benutzer zu erhalten, wechseln Sie im Microsoft 365 Admin Center zu  >    >  **Add-On-Abonnements** für Abrechnungskäufe, und scrollen Sie bis zum Ende . Hier sehen Sie *Telefonsystem – Virtual User-Lizenz.* Wählen Sie **Jetzt kaufen** aus. Es entstehen keine Kosten, Sie müssen jedoch dennoch die diese Schritte befolgen, um die Lizenz zu erwerben.
+Um die Lizenz für virtuelle Benutzer zu erhalten, wechseln Sie im Microsoft 365 Admin Center zu  >    >  **Add-On-Abonnements** für Abrechnungskaufdienste, und scrollen Sie bis zum Ende – es wird *"Telefonsystem - Virtual User license"* angezeigt. Wählen Sie **Jetzt kaufen** aus. Es entstehen keine Kosten, Sie müssen jedoch dennoch die diese Schritte befolgen, um die Lizenz zu erwerben.
 
 ### <a name="obtain-service-numbers"></a>Beziehen von Leistungsnummern
 
@@ -57,7 +57,7 @@ Für Ressourcenkonten können gebührenpflichtige oder gebührenfreie Leistungsn
 
 Informationen zum Abrufen neuer Servicenummern finden Sie unter [Abrufen von Servicetelefonnummern.](getting-service-phone-numbers.md)
 
-Informationen zum Portieren einer Nummer von einem anderen Netzbetreiber finden Sie unter [Übertragen von Telefonnummern zu Teams.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
+Informationen zum Portieren einer Nummer von einem anderen Netzbetreiber finden Sie unter [Übertragen von Telefonnummern zu Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
 
 ## <a name="create-a-resource-account"></a>Erstellen eines Ressourcenkontos
 
@@ -73,11 +73,11 @@ Sie können ein Ressourcenkonto im Teams Admin Center erstellen.
 
 4. Klicken Sie auf **Speichern**.
 
-![Screenshot einer Liste mit Ressourcenkonten](media/resource-accounts-page.png)
+![Screenshot einer Liste von Ressourcenkonten](media/resource-accounts-page.png)
 
 ## <a name="assign-a-license"></a>Lizenz zuweisen
 
-Für jedes Ressourcenkonto müssen Sie eine Lizenz für *"Microsoft 365 Telefonsystem – Virtueller Benutzer"* zuweisen oder *Telefonsystem* Lizenz zuweisen.
+Für jedes Ressourcenkonto müssen Sie eine Lizenz *"Microsoft 365 Telefonsystem – Virtueller Benutzer"* oder *Telefonsystem* zuweisen.
 
 ![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center](media/resource-account-assign-virtual-user-license.png)
 
@@ -93,7 +93,7 @@ Wenn Sie das Ressourcenkonto mit einer automatischen Telefonant oder Anrufwartes
 
 ![Screenshot der Benutzeroberfläche "Servicenummer zuweisen"](media/resource-account-assign-phone-number.png)
 
-1. Wählen Sie im Teams Admin Center  auf der Seite Ressourcenkonten das Ressourcenkonto aus, dem Sie eine Dienstnummer zuweisen möchten, und klicken Sie dann auf **Zuordnen/Zuweisung wieder auf .**
+1. Wählen Sie Teams Admin Center  auf der Seite Ressourcenkonten das Ressourcenkonto aus, dem Sie eine Dienstnummer zuordnen möchten, und klicken Sie dann auf **Zuordnen/Zuweisung wieder auf .**
 
 2. Wählen Sie **Telefon Dropdownliste Zahlentyp** den Typ der Zahl aus, die Sie verwenden möchten.
 
@@ -120,14 +120,14 @@ Sie können den  Anzeigenamen und den Typ des **Ressourcenkontos** mithilfe der 
 
 ## <a name="change-an-existing-resource-account-to-use-a-virtual-user-license"></a>Ändern eines vorhandenen Ressourcenkontos, um eine virtuelle Benutzerlizenz zu verwenden
 
-Wenn Sie die Lizenzen für Ihr vorhandenes Ressourcenkonto von einer **Telefonsystem-Lizenz** auf eine Lizenz für virtuelle Benutzer umschalten möchten, müssen Sie die kostenlose Lizenz für virtuelle Benutzer erwerben und dann die Schritte im Microsoft 365 Admin Center zum Verschieben von Benutzern in ein anderes Abonnement [ausführen.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
+Wenn Sie die Lizenzen für Ihr vorhandenes Ressourcenkonto von einer **Telefonsystem-Lizenz** auf eine Virtual User-Lizenz umschalten möchten, müssen Sie die kostenlose Lizenz für virtuelle Benutzer erwerben und dann die Schritte im Microsoft 365 Admin Center zum Verschieben von Benutzern in ein anderes Abonnement [ausführen.](/microsoft-365/admin/manage/assign-licenses-to-users#move-users-to-a-different-subscription)
 
 > [!WARNING]
 > Entfernen Sie immer die vollständige Telefonsystemlizenz und weisen Sie die virtuelle Benutzerlizenz der gleichen Lizenzaktivität zu. Wenn Sie die alte Lizenz entfernen, die Kontoänderungen speichern, die neue Lizenz hinzufügen und dann die Kontoeinstellungen erneut speichern, funktioniert das Ressourcenkonto möglicherweise nicht mehr wie erwartet. In diesem Fall empfiehlt es sich, ein neues Ressourcenkonto für die virtuelle Benutzerlizenz zu erstellen und das beschädigte Ressourcenkonto zu entfernen.
 
 ## <a name="skype-for-business-server-2019"></a>Skype For Business Server 2019
 
-Informationen zu Ressourcenkonten, die auf Skype For Business Server 2019 gespeichert werden und für [](/SkypeforBusiness/hybrid/plan-call-queue) Cloudanrufwarteschlangen und automatische Telefonkonferenzen in der Cloud verwendet werden können, finden Sie unter Planen von Cloudanrufwarteschleifen oder Planen automatischer Telefonkonferenzen in der [Cloud.](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) Hybridimplementierung (Nummern, die unter Direct-Routing gespeichert werden) werden mit dem [New-CsHybridApplicationEndpoint-Cmdlet](/powershell/module/skype/new-cshybridapplicationendpoint) auf einem lokalen Skype for Business Server 2019-Server konfiguriert.
+Informationen zu Ressourcenkonten, die auf Skype For Business Server 2019 gespeichert werden und für [](/SkypeforBusiness/hybrid/plan-call-queue) Cloudanrufwarteschleifen und automatische Telefonkonferenzen in der Cloud verwendet werden können, finden Sie unter Planen von Cloudanrufwarteschlangen oder Planen automatischer Telefonkonferenzen in der [Cloud.](/SkypeForBusiness/hybrid/plan-cloud-auto-attendant) Hybridimplementierung (Nummern, die unter Direct-Routing gespeichert werden) werden mit dem [New-CsHybridApplicationEndpoint-Cmdlet](/powershell/module/skype/new-cshybridapplicationendpoint) auf einem lokalen Skype for Business Server 2019-Server konfiguriert.
 
 Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen verwenden müssen, sind:
 
@@ -135,7 +135,7 @@ Die Anwendungs-IDs, die Sie beim Erstellen der Anwendungsinstanzen verwenden mü
 - **Anrufwarteschleife:** 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
 > [!NOTE]
-> Wenn Sie möchten, dass die Anrufwarteschleife oder automatische Telefonzentrale von Benutzern von Skype For Business Server 2019 durchsucht werden kann, sollten Sie Ihre Ressourcenkonten in Skype For Business Server 2019 erstellen, da Online-Ressourcenkonten nicht mit Active Directory synchronisiert werden. Wenn die DNS SRV-Einträge für sipfederationtls auf Skype for Business Server 2019 aufgelöst werden, müssen Ressourcenkonten auf Skype For Business Server 2019 mithilfe der SfB-Verwaltungsshell erstellt und mit Azure AD synchronisiert werden. 
+> Wenn Sie möchten, dass die Anrufwarteschleife oder automatische Telefonzentrale von Benutzern von Skype For Business Server 2019 durchsucht werden kann, sollten Sie Ihre Ressourcenkonten in Skype For Business Server 2019 erstellen, da Online-Ressourcenkonten nicht mit Active Directory synchronisiert werden. Wenn DNS SRV-Einträge für sipfederationtls auf Skype for Business Server 2019  aufgelöst werden, müssen Ressourcenkonten auf Skype For Business Server 2019 mithilfe der SfB-Verwaltungsshell erstellt und mit Azure AD synchronisiert werden.
 
 Bei hybride Implementierungen mit Skype for Business Server:
 

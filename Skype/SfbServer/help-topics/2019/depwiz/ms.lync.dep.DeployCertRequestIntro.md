@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e1d0844b-168e-4474-a432-ce83925a4fe1
 ROBOTS: NOINDEX, NOFOLLOW
 description: Klicken Sie auf Weiter, um mit dem Zertifikatsanforderungsprozess fortzufahren. Zum Beenden des Prozesses, ohne Änderungen am System vorzunehmen, klicken Sie auf Abbrechen.
-ms.openlocfilehash: 4cab3d1477595246f57b5e32bd8351d16aba76e139aa086a509c837ee22dbf3b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e0b59a16d6a6ce2bfa108160bd202c777f397110
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54287514"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618101"
 ---
 # <a name="certificate-request-intro"></a>Zertifikatanforderung (Einführung)
  

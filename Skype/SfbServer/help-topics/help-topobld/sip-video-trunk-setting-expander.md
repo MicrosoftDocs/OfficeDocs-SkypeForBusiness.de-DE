@@ -1,5 +1,5 @@
 ---
-title: Einstellung für den SIP-Videotrunk – Erweiterung
+title: Einstellung für den SIP-Videotrunk – Erweiterung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SipVideoTrunkSettingExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 39e21ee3-3b4e-4ef3-b977-5abeec63bcff
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server 2015 beschrieben.
-ms.openlocfilehash: 6ee2bceacab34f70d92ce4620e726db2a3b75aed915d95110041f525c69af1d1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 032216be3120fa23ba68dd37083273f544da4edd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338213"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604834"
 ---
-# <a name="sip-video-trunk-setting-expander"></a>Einstellung für den SIP-Videotrunk – Erweiterung
+# <a name="sip-video-trunk-setting-expander"></a>Einstellung für den SIP-Videotrunk – Erweiterung
  
 Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter [Erstellen eines VIS-Pools in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/create-a-vis-pool.md)beschrieben.
   
-Die erforderlichen Schritte zum Zuweisen einer Rolle "Video-Interoperabilität-Server" auf einem Server mit Windows PowerShell werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
+Die erforderlichen Schritte zum Zuweisen einer Video-Interoperabilität-Serverrolle auf einem Server mit Windows PowerShell werden online unter [Bereitstellen der VIS-Serverrolle in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/deploy-the-vis-server-role.md) beschrieben.
   
 Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit Windows PowerShell werden online unter [Configure the Video Interop Server in Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-the-vis.md)beschrieben.
   

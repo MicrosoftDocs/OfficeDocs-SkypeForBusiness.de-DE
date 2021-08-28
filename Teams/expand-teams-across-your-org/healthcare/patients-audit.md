@@ -9,19 +9,19 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 ms.reviewer: anach
 description: Informationen zur Überwachung der Patienten-App für Teams Administratoren
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dcd72dbe4c9b83b5f23faa0e01b4133e770822d5
-ms.sourcegitcommit: 2e1d97a3181fe12be43a0641039dca6077863f44
+ms.openlocfilehash: b65dae205f7f7438482847ceb07e37a64609a534
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58380609"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595059"
 ---
 # <a name="audit-logs-for-patients-app"></a>Überwachungsprotokolle für die Patienten-App
 
@@ -34,7 +34,7 @@ Ein Überwachungsprotokoll für Patienten-App-Aktivitäten ermöglicht es Teams 
 
 ## <a name="meet-hipaa-requirements"></a>Erfüllen der HIPAA-Anforderungen
 
-Gemäß den HIPAA-Richtlinien müssen Anbieter im Gesundheitswesen Aufzeichnungen über alle Zugriffe auf PHI speichern, damit die Änderungen überwacht werden können. Microsoft verpflichtet sich für seine Unternehmenskunden, die Microsoft Teams verwenden und ihnen dabei helfen, HIPAA-Anforderungen und -Steuerelemente zu erfüllen. Der Zugriff auf PHI über die Patienten-App wird vollständig nachverfolgt, und Protokolle werden im Microsoft 365 Compliance Center verfügbar gemacht, wie im Artikel zur Überwachungsprotokollsuche [beschrieben.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
+Gemäß den HIPAA-Richtlinien müssen Anbieter im Gesundheitswesen Aufzeichnungen über alle Zugriffe auf PHI speichern, damit die Änderungen überwacht werden können. Microsoft setzt sich für Unternehmenskunden ein, die Microsoft Teams verwenden und ihnen dabei helfen, HIPAA-Anforderungen und -Steuerelemente zu erfüllen. Der Zugriff auf PHI über die Patienten-App wird vollständig nachverfolgt, und Protokolle werden im Microsoft 365 Compliance Center verfügbar gemacht, wie im Artikel zur Überwachungsprotokollsuche [beschrieben.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 > [!IMPORTANT]
 > Die Pflege der Patientendaten wird vom Gesetz dem Gesundheitswesen unter die Last gestellt. Das Gesetz berechtigt Patienten zum Datenschutz und setzt voraus, dass ein IT-Administrator oder HIPAA-Controller problemlos bestimmen kann, welche Krankenschwester, Klinikangestellte oder Sozialarbeiter auf die Patientenakten zugegriffen oder diese geändert haben. Eines der häufigsten Beispiele für eine Verletzung des PHI-Zugriffs ist der Zugriff auf VIP-Patienten. Die Überwachungsprotokollfunktion ist erforderlich, um Untersuchungen bei Verletzungen des PHI-Zugriffs durchzuführen und die HIPAA-Anforderungen zu erfüllen.

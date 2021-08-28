@@ -10,19 +10,19 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Bevor Sie Skype for Business Server bereitstellen und betreiben, müssen Sie Active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
-ms.openlocfilehash: 486d642621869cbb23051d2957614f35aa2c67fcda1c539862b05925787f180d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Bevor Sie Skype for Business Server bereitstellen und ausführen, müssen Sie Active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
+ms.openlocfilehash: 16f71b80864fae8fc97b87eda22ad2a9594c3987
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281658"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58626537"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Schemaänderungen in Skype for Business Server
  
-Bevor Sie Skype for Business Server bereitstellen und betreiben, müssen Sie Active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
+Bevor Sie Skype for Business Server bereitstellen und ausführen, müssen Sie Active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
 
 > [!NOTE]
 > Wenn Sie ein Upgrade von Lync Server 2013 auf Skype for Business Server 2015 durchführen, werden keine Schemaänderungen vorgenommen, und daher gilt dieser Artikel nicht.
@@ -35,7 +35,7 @@ Skype for Business Server erfordert mehrere neue Klassen und Attribute und ände
     
   - Erweiterungen für Klassen zur Aufrechterhaltung der Abwärtskompatibilität mit unterstützten früheren Versionen von Lync Server.
     
-- **Daten** (gespeichert in Skype for Business Server erweiterten Schema und in vorhandenen Schemaklassen):
+- **Daten** (gespeichert in Skype for Business Server erweiterten Schemas und in vorhandenen Schemaklassen):
     
   - Benutzer-SIP-URI (Uniform Resource Identifier) und weitere Einstellungen
     
@@ -59,7 +59,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute beschrieben, die 
 |:-----|:-----|
 |msExchUserHoldPolicies  <br/> |Dieses mehrwertige Attribut enthält Bezeichner für Aufbewahrungsrichtlinien, die für den Benutzer gelten. Mit Aufbewahrungsrichtlinien werden für den Benutzer Postfachelemente für die Dauer der Aufbewahrung gespeichert. Dieses Attribut wird für Exchange 2013 freigegeben.  <br/> |
 |msRTCSIP-UserRoutingGroupId  <br/> |Dies ist die SIP-Routinggruppen-ID. Benutzer in derselben Gruppe registrieren sich beim selben Front-End-Server.  <br/> |
-|msRTCSIP-MirrorBackEndServer  <br/> |Dieses Attribut wird verwendet, um die gespiegelte SQL Server Back-End zu speichern, die vom Front-End-Pool verwendet wird.  <br/> |
+|msRTCSIP-MirrorBackEndServer  <br/> |Dieses Attribut wird verwendet, um die gespiegelte SQL Server Back-End zu speichern, das vom Front-End-Pool verwendet wird.  <br/> |
    
 ## <a name="modified-active-directory-classes"></a>Geänderte Active Directory-Klassen
 
@@ -69,7 +69,7 @@ In der folgenden Tabelle werden die Active Directory-Klassen beschrieben, die vo
 
 |**Klasse**|**Ändern**|**Klasse oder Attribut**|
 |:-----|:-----|:-----|
-|Benutzer  <br/> |Hinzugefügt: mayContain  <br/> Hinzugefügt: mayContain  <br/> |Proxyaddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|User  <br/> |Hinzugefügt: mayContain  <br/> Hinzugefügt: mayContain  <br/> |Proxyaddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Kontakt  <br/> |Hinzugefügt: mayContain  <br/> Hinzugefügt: mayContain  <br/> |Proxyaddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |Hinzugefügt: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

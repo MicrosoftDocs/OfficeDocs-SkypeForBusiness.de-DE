@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für indonesische Skype for Business Microsoft Teams Indonesische Dienste.
-ms.openlocfilehash: a75e80f9201166965d09b4a7fdefd12e106c4002e3858862fd1aa5d1cba1a602
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für indonesische Skype for Business und Microsoft Teams Dienste.
+ms.openlocfilehash: bb2f3ea15ca4d0bd4be26e9bcbd28b5c26fa2fc9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299353"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58618621"
 ---
 # <a name="availability-in-indonesia"></a>Verfügbarkeit in Indonesien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für indonesische Skype for Business Microsoft Teams Indonesische Dienste.
+Hier finden Sie die Microsoft 365 und Office 365 für indonesische Skype for Business und Microsoft Teams Dienste.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6a285f7c-0ef5-4cab-9976-d03be276e35d
 description: 'In Skype for Business Server werden Verwaltungstools mithilfe von Windows PowerShell implementiert. Windows PowerShell bietet eine Befehlszeilenumgebung, produktspezifische Befehle und eine vollständige Skriptsprache. Skype for Business Server tools that are implemented using Windows PowerShell include the following:'
-ms.openlocfilehash: ec70b6acba93d2667f297dd17afc50507aa9e105041195ec7ffa34459fa2b878
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ff8cafa49f502c14bd9d6f67de35e0109b30e44b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301331"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595327"
 ---
 # <a name="windows-powershell-and-skype-for-business-server-management-tools"></a>Verwaltungstools für Windows PowerShell und Skype for Business Server
  
@@ -29,6 +29,6 @@ In Skype for Business Server werden Verwaltungstools mithilfe von Windows PowerS
     
 - **Skype for Business Server Systemsteuerung.** Sie können die Skype for Business Server Systemsteuerungs-Benutzeroberfläche verwenden, um die gängigsten Aufgaben in Ihrer Bereitstellung zu verwalten.
     
-In diesen Tools werden Windows PowerShell-Cmdlets für die Verwaltung einer Bereitstellung verwendet, darunter fast 550 produktspezifische Cmdlets. Die in Skype for Business Server enthaltenen Sicherheits-Cmdlets werden in erster Linie zum Verwalten der Authentifizierung sowie von Benutzerrechten und -berechtigungen verwendet. Zum Verwalten der Authentifizierung stehen zahlreiche Cmdlets zur Verfügung, darunter Cmdlets für die Authentifizierung unter Verwendung von Zertifikaten oder einer persönlichen Identifikationsnummer (PIN). Darüber hinaus können Sie mit einer Reihe von Cmdlets das neue RBAC-Feature (Role-Based Access Control) verwenden, um die administrative Steuerung von Skype for Business Server zu delegieren. Ausführliche Informationen zu den cmdlets Skype for Business Server finden Sie unter [Skype for Business Server Management Shell](../../manage/management-shell.md).
+In diesen Tools werden Windows PowerShell-Cmdlets für die Verwaltung einer Bereitstellung verwendet, darunter fast 550 produktspezifische Cmdlets. Die in Skype for Business Server enthaltenen Sicherheits-Cmdlets werden in erster Linie zum Verwalten der Authentifizierung sowie von Benutzerrechten und -berechtigungen verwendet. Zum Verwalten der Authentifizierung stehen zahlreiche Cmdlets zur Verfügung, darunter Cmdlets für die Authentifizierung unter Verwendung von Zertifikaten oder einer persönlichen Identifikationsnummer (PIN). Darüber hinaus können Sie mit einer Reihe von Cmdlets das neue RBAC-Feature (Role-Based Access Control) verwenden, um die administrative Steuerung von Skype for Business Server zu delegieren. Ausführliche Informationen zu den cmdlets Skype for Business Server finden Sie unter [Skype for Business Server Verwaltungsshell.](../../manage/management-shell.md)
   
 Die skriptbezogenen Sicherheitsfeatures für Windows PowerShell wurden speziell entwickelt, um einige der mit Skripts zusammenhängenden Sicherheitsprobleme in älteren Technologien zu vermeiden, z, B. in Microsoft Visual Basic Scripting Edition (VBScript). Die Windows PowerShell-Sicherheitsfeatures sollen Ihnen helfen, eine Umgebung aufzubauen, in der es den Benutzern nicht möglich ist, auf einfache Weise oder unwissentlich Skripts auszuführen. Standardmäßig sind Windows PowerShell-Sicherheitsfeatures aktiviert. Sie können den Status dieser Features ändern, um Ihren Anforderungen in Bezug auf Skripts und Ihren individuellen Sicherheitszielen Rechnung zu tragen. Das bedeutet nicht, dass Windows PowerShell den Benutzern die Ausführung von Skripts unmöglich macht. Vielmehr erschwert sie es den Benutzern, Skripts auszuführen, ohne dass Sie sich dessen bewusst sind. Ausführliche Informationen finden Sie unter [Windows PowerShell Script Security](/previous-versions/msdn10/gg261722(v=msdn.10)).

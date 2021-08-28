@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie den Dienststatus anzeigen, Dienste starten und beenden und Sitzungen für Dienste verhindern.
-ms.openlocfilehash: 01190d11339dd3549177964ae766a10668bc07e679ddc1f7580ac2339514e008
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c1f527e32d50624fddc1b4b261f6fbd20e97a47
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284675"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604820"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Verwalten von Diensten in Skype for Business Server
 
@@ -85,7 +85,7 @@ Verwenden Sie die Skype for Business Server Systemsteuerung, um alle Skype for B
 
 ### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Starten oder Beenden aller Skype for Business Server Dienste auf einem Computer
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. Sie können ermitteln, ob Ihnen die Rolle "CsServerAdministrator" oder "CsAdministrator RBAC" zugewiesen wurde, indem Sie einen Befehl wie den folgenden ausführen:
+1. Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. Sie können ermitteln, ob Ihnen die Rolle "CsServerAdministrator" oder "CsAdministrator RBAC" zugewiesen wurde, indem Sie einen Befehl wie den folgenden ausführen:
 
     ```powershell
     Get-CsAdminRoleAssignment -Identity "kenmyer"`
@@ -114,9 +114,9 @@ Verwenden Sie die Skype for Business Server Systemsteuerung, um alle Skype for B
 
 Verwenden Sie die Skype for Business Systemsteuerung, um neue Sitzungen für alle Skype for Business Server Dienste zu verhindern, die auf einem bestimmten Computer ausgeführt werden, oder um neue Sitzungen für einen bestimmten Dienst zu verhindern.
 
-### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>Verhindern neuer Sitzungen für alle Skype for Business Server Dienste auf einem Computer
+### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>Verhindern neuer Sitzungen für alle Skype for Business Server-Dienste auf einem Computer
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Skype for Business Server Systemsteuerung verwenden können, finden Sie unter [Installieren und Öffnen von Verwaltungstools.](../../management-tools/install-and-open-administrative-tools.md)
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 4. Sortieren oder durchsuchen Sie auf der Seite Status die Liste, um den Computer zu ermitteln, auf dem die Dienste ausgeführt werden, für die Sie neue Sitzungen verhindern möchten. Klicken Sie anschließend auf den Computer.
@@ -125,7 +125,7 @@ Verwenden Sie die Skype for Business Systemsteuerung, um neue Sitzungen für all
 
 ### <a name="prevent-new-sessions-for-a-specific-service"></a>Verhindern neuer Sitzungen für einen bestimmten Dienst
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich von einem Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer an, der sich in dem Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Skype for Business Server Systemsteuerung verwenden können, finden Sie unter [Installieren und Öffnen von Verwaltungstools.](../../management-tools/install-and-open-administrative-tools.md)
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 4. Klicken Sie auf **Eigenschaften**.

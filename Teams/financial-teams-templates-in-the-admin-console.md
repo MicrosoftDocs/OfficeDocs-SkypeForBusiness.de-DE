@@ -9,9 +9,9 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Teams-Vorlagen verwenden, um Teamstrukturen für finanzielle Anforderungen zu erstellen, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
+description: Erfahren Sie, wie Teams-Vorlagen zum Erstellen von Teamstrukturen für finanzielle Anforderungen verwenden, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 749fa9a3a4264f5e4231082dcf097151377fff069bf5b123afa6b1abc5ba017b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349467"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603434"
 ---
 # <a name="use-financial-team-templates-in-the-admin-center"></a>Verwenden von Finanzteamvorlagen im Admin Center
 
 Teamvorlagen ermöglichen es Ihnen, Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
 
-Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf finanzielle Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die Auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
+Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf finanzielle Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
 
 In diesem Artikel werden die einzelnen Teamvorlagen beschrieben und die Verwendung empfohlen.
 

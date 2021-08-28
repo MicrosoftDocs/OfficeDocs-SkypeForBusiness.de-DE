@@ -9,20 +9,20 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bf2a3b8f-73c6-47e1-8c9e-ca1dc1a502bf
-description: Skype for Business Server umfasst mehrere Sicherheitsfeatures, einschließlich Server-zu-Server-Authentifizierung, rollenbasierte Zugriffssteuerung und zentrale Speicherung von Konfigurationsdaten.
-ms.openlocfilehash: bf4b2c9bb96e7180b5da61462db137f0624ea9efa504295336ed05668bde4410
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Skype for Business Server umfasst mehrere Sicherheitsfeatures, einschließlich Server-zu-Server-Authentifizierung, rollenbasierter Zugriffssteuerung und zentraler Speicherung von Konfigurationsdaten.
+ms.openlocfilehash: eff104fa777837180f4c5b9118fd29a6341267e4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54329529"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595369"
 ---
 # <a name="key-security-features-in-skype-for-business-server"></a>Wichtige Sicherheitsfeatures in Skype for Business Server
  
-Skype for Business Server umfasst mehrere Sicherheitsfeatures, einschließlich Server-zu-Server-Authentifizierung, rollenbasierte Zugriffssteuerung und zentrale Speicherung von Konfigurationsdaten. 
+Skype for Business Server umfasst mehrere Sicherheitsfeatures, einschließlich Server-zu-Server-Authentifizierung, rollenbasierter Zugriffssteuerung und zentraler Speicherung von Konfigurationsdaten. 
   
 Dieser Artikel bietet eine allgemeine Übersicht über Skype for Business Server Sicherheit. 
   
@@ -56,7 +56,7 @@ Skype for Business Server bietet eine leistungsstarke Verwaltungsschnittstelle, 
   
 ### <a name="role-based-access-control-rbac"></a>Role-Based-Zugriffssteuerung (RBAC)
 
-Skype for Business Server bietet rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC), mit der Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards beibehalten können. Mit der rollenbasierten Zugriffssteuerung können Sie dem Prinzip der geringsten Rechte folgen, bei dem Benutzer nur die administrativen Rechte erhalten, die sie für ihre Arbeit benötigen. Skype for Business Server bietet die Möglichkeit, eine neue Rolle zu erstellen und auch eine vorhandene Rolle zu ändern. 
+Skype for Business Server bietet rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC), mit der Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards einhalten können. Mit der rollenbasierten Zugriffssteuerung können Sie dem Prinzip der geringsten Rechte folgen, bei dem Benutzer nur die administrativen Rechte erhalten, die sie für ihre Arbeit benötigen. Skype for Business Server bietet die Möglichkeit, eine neue Rolle zu erstellen und auch eine vorhandene Rolle zu ändern. 
   
 ## <a name="network-address-translation-nat"></a>Netzwerkadressübersetzung (Network Address Translation, NAT)
 
@@ -73,8 +73,8 @@ Der Bereitstellungs-Assistent kann Automatisch Antragstellernamen (SNs) und alte
 
 Skype for Business Server wurde in Übereinstimmung mit dem [Microsoft Trustworthy Computing Security Development Lifecycle](/previous-versions/ms995349(v=msdn.10)) (SDL) entworfen und entwickelt.
   
-- **Vertrauenswürdig durch Design** Der erste Schritt beim Erstellen eines sichereren Unified Communications-Systems bestand darin, Bedrohungsmodelle zu entwerfen und jedes Feature so zu testen, wie es entworfen wurde. Darüber hinaus führt Microsoft Tests außerhalb des entworfenen Verhaltens durch, um Sicherheitsrisiken zu finden, die durch unerwartetes Produktverhalten entstehen. Mehrere sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt aufgenommen wird. Natürlich ist es nicht möglich, alle unbekannten Sicherheitsbedrohungen vorherzusehen. Es gibt kein System ohne Sicherheitslücken. Da bei der Produktentwicklung jedoch von Anfang an sichere Entwurfsprinzipien verwendet wurden, integriert Skype for Business Server Branchenstandardsicherheitstechnologien als grundlegenden Bestandteil ihrer Architektur.
+- **Vertrauenswürdig durch Design** Der erste Schritt beim Erstellen eines sichereren Unified Communications-Systems bestand darin, Bedrohungsmodelle zu entwerfen und jedes Feature so zu testen, wie es entworfen wurde. Darüber hinaus führt Microsoft Tests außerhalb des entworfenen Verhaltens durch, um Sicherheitsrisiken zu finden, die durch unerwartetes Produktverhalten entstehen. Mehrere sicherheitsrelevante Verbesserungen wurden während der Codephase getestet und integriert. Mit Buildzeittools werden Pufferüberläufe und andere potenzielle Sicherheitsbedrohungen erkannt, bevor der Code in das Endprodukt aufgenommen wird. Natürlich ist es nicht möglich, alle unbekannten Sicherheitsbedrohungen vorherzusehen. Es gibt kein System ohne Sicherheitslücken. Da die Produktentwicklung jedoch von Anfang an sichere Entwurfsprinzipien nutzte, integriert Skype for Business Server Branchenstandardsicherheitstechnologien als grundlegenden Bestandteil ihrer Architektur.
     
-- **Standardmäßig vertrauenswürdig** Standardmäßig ist die Netzwerkkommunikation in Skype for Business Server verschlüsselt. Da alle Server Zertifikate und Kerberos-Authentifizierung, TLS, SRTP (Secure Real-Time Transport Protocol) und andere Verschlüsselungstechniken nach Branchenstandard verwenden, einschließlich der AES-Verschlüsselung (Advanced Encryption Standard, 128-Bit), sind praktisch alle Skype for Business Server Daten im Netzwerk geschützt. Darüber hinaus ermöglicht die rollenbasierte Zugriffssteuerung die Bereitstellung von Servern, die Skype for Business Server ausgeführt werden, sodass jede Serverrolle nur die Dienste ausführt und nur über die Berechtigungen im Zusammenhang mit diesen Diensten verfügt, die für die Serverrolle geeignet sind.
+- **Standardmäßig vertrauenswürdig** Standardmäßig ist die Netzwerkkommunikation in Skype for Business Server verschlüsselt. Da alle Server Zertifikate und Kerberos-Authentifizierung, TLS, SRTP (Secure Real-Time Transport Protocol) und andere branchenübliche Verschlüsselungstechniken verwenden, einschließlich der 128-Bit Advanced Encryption Standard (AES)-Verschlüsselung, werden praktisch alle Skype for Business Server Daten im Netzwerk geschützt. Darüber hinaus ermöglicht die rollenbasierte Zugriffssteuerung die Bereitstellung von Servern, die Skype for Business Server ausgeführt werden, sodass jede Serverrolle nur die Dienste ausführt und nur über die Berechtigungen im Zusammenhang mit diesen Diensten verfügt, die für die Serverrolle geeignet sind.
     
-- **Vertrauenswürdig durch Bereitstellung** Alle Skype for Business Server Dokumentation enthält bewährte Methoden und Empfehlungen, mit denen Sie die optimalen Sicherheitsebenen für Ihre Bereitstellung ermitteln und konfigurieren und die Sicherheitsrisiken der Aktivierung von nicht standardmäßigen Optionen bewerten können.
+- **Vertrauenswürdig durch Bereitstellung** Alle Skype for Business Server Dokumentation enthält bewährte Methoden und Empfehlungen, mit denen Sie die optimalen Sicherheitsebenen für Ihre Bereitstellung ermitteln und konfigurieren und die Sicherheitsrisiken der Aktivierung nicht standardmäßiger Optionen bewerten können.
