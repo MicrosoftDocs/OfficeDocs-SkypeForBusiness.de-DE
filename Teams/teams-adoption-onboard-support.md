@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Verwenden Sie Onlineschulungsressourcen, um die Supportmitarbeiter für die Experimentphase ihrer Einführung Teams zu holen.
+description: Nutzen Sie Onlineschulungsressourcen, um die Supportmitarbeiter für die Experimentphase Ihrer Einführung Teams integrieren.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: afc949e71292f88bbd5d955349782938b724bdae94806339d05ddb404aafaf76
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280540"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583569"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Onboarding von Support für Microsoft Teams
 
-Um sicherzustellen, dass frühe Adopter- und Champions-Teams die geeignete Unterstützung erhalten, wenn sie mit der Verwendung von Teams beginnen, treffen Sie sich mit Ihren Supportmitarbeitern, und überprüfen Sie die Funktionen Teams. Wichtige Mitglieder der Supportorganisation möchten möglicherweise Ihrem Early Adopter-Programm beitreten. Ermutigen Sie die Teams in ihren eigenen Szenarien. Nehmen Sie sie mithilfe unserer Onlineschulungsressourcen durch das grundlegende Onboarding des Produkts mit.  
+Um sicherzustellen, dass frühe Adopter- und Champions-Teams über die entsprechende Unterstützung verfügen, wenn sie mit der Verwendung von Teams beginnen, treffen Sie sich mit Ihren Supportmitarbeitern, und überprüfen Sie die Funktionen Teams. Wichtige Mitglieder der Supportorganisation möchten möglicherweise Ihrem Early Adopter-Programm beitreten. Ermuntern Sie Teams Verwendung von Daten in ihren eigenen Szenarien. Nehmen Sie sie mithilfe unserer Onlineschulungsressourcen durch das grundlegende Onboarding des Produkts mit.  
 
 - [Grundlagen – Kernkomponenten Microsoft Teams](https://youtu.be/V6B4KraD-FM)
 - [Problembehandlung Teams](https://youtu.be/0KNh9KNpXcA)
 - [Bekannte Probleme und Problembehandlung](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Microsoft Teams-Schulung](./training-microsoft-teams-landing-page.md)
 
-![Ein Symbol, das den nächsten Schritt ](media/teams-adoption-next-icon.png) weiter darstellt: [Microsoft Teams Phase 3: Skalieren.](teams-adoption-phase3-enable.md)
+![Ein Symbol zur Darstellung des nächsten ](media/teams-adoption-next-icon.png) Schritts: [Microsoft Teams Phase 3: Skalierung](teams-adoption-phase3-enable.md).

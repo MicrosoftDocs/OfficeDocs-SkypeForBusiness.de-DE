@@ -13,15 +13,15 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Priority
+ms.localizationpriority: high
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Probleme mit Installation und Update der Teams-Desktopclient-App unter Windows beheben.
-ms.openlocfilehash: 6235bd6336940d7d36a7de526eaaf1fbb93f5323
-ms.sourcegitcommit: 616403037ddb2d44f06cd9b2eaa9da699b119ef8
+ms.openlocfilehash: 85c5a0f37f41e9a254985ff4a23e324aeb9b2c82
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "51768369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583529"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 
@@ -52,7 +52,7 @@ Wenn die Ursache nicht in "SquirrelSetup.log " aufgeführt ist, oder wenn Sie we
 Wenn Teams erfolgreich installiert wurde, wechselt der Protokollspeicherort von „%LocalAppData%\SquirrelTemp“ zu „%AppData%\Microsoft\Teams“. An diesem Speicherort befinden sich zwei interessante Protokolldateien: "SquirrelSetup.log" und "logs.txt".
 
 - Die Datei "SquirrelSetup.log" an diesem Speicherort wurde von "Update.exe" geschrieben, einer ausführbaren Datei, die die Teams-App wartet.
-- Die Datei "Logs.txt" wird von der Teams-App (speziell "Teams.exe") verwendet, um wichtige Anwendungsereignisse aufzuzeichnen. Sie enthält wahrscheinlich Fehlerinformationen.
+- Die Datei „Logs.txt“ wird von der Teams-App (speziell „Teams.exe“) verwendet, um wichtige Anwendungsereignisse aufzuzeichnen. Sie enthält wahrscheinlich Fehlerinformationen.
 
 Diese Protokolldateien enthalten personenbezogene Informationen (Personally Identifiable Information, PII) und werden daher nicht an Microsoft gesendet.
 

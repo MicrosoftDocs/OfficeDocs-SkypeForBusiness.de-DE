@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.MonitoringServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 05867db5-ad62-41e3-b1ac-f21f43d1e90b
 description: 'Im Lync Server 2013-Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf Aktion klicken oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:'
-ms.openlocfilehash: 39197d9d926cecd7a1acf3834b0fff8ea7f71d92af82921f161f0502e00c415a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4513a0ea5c28d465cd1fc8d8cf949cb09499a7af
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299532"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630719"
 ---
-# <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
+# <a name="monitoring-scope-node"></a>Überwachung – Bereichsknoten
  
 Im Lync Server 2013-Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Server ausführen, auf dem die Überwachung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Überwachung in der Konsolenstruktur ausgeführt wird, auf der Symbolleiste auf **Aktion** klicken oder im Aktionsbereich auf eine Aufgabe klicken und dann auf eine der folgenden Optionen für den Server klicken, auf dem die Überwachung ausgeführt wird:
   

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Archivierung für Skype for Business Server verwalten.'
-ms.openlocfilehash: a3d23eefe673f74162e2c23a3d0476c1251ecad7e4719ccc1a7c6347f564deed
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7751e8aff9bb9d1f559655671ff56655dc0f188
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630689"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Verwalten der Archivierung in Skype for Business Server
 
@@ -46,7 +46,7 @@ Archivierungskonfigurationsoptionen geben an, ob:
     
 - Einrichten des Löschens und Exportierens von Daten
     
-Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server.](options.md)
+Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server](options.md).
   
 ## <a name="archiving-policies"></a>Archivierungsrichtlinien
 

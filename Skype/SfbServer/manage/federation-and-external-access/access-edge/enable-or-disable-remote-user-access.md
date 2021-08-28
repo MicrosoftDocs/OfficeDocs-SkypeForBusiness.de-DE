@@ -13,18 +13,18 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet her und müssen keine VPN-Verbindung herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
-ms.openlocfilehash: 3b95796efbd8056092a24399f6faa7ccd3619b7168a2bb787436beeb3f78f4fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c20f6891b463f44fdcd424ca870fbba0826d33bd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313183"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608192"
 ---
 # <a name="enable-or-disable-remote-user-access-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Remotebenutzerzugriffs in Skype for Business Server
 
-Remotebenutzer sind Benutzer in Ihrer Organisation, die über eine dauerhafte Active Directory-Identität innerhalb der Organisation verfügen. Remotebenutzer melden sich häufig von außerhalb Ihres Netzwerks bei Skype for Business Server an, indem sie ein virtuelles privates Netzwerk (VPN) verwenden, wenn sie nicht mit dem Netzwerk Ihrer Organisation verbunden sind. Remotebenutzer umfassen Mitarbeiter, die zu Hause oder unterwegs arbeiten, sowie andere Remotemitarbeiter, z. B. vertrauenswürdige Anbieter, denen Unternehmensanmeldeinformationen erteilt wurden. Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet her und müssen keine VPN-Verbindung herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
+Remotebenutzer sind Benutzer in Ihrer Organisation, die über eine dauerhafte Active Directory-Identität innerhalb der Organisation verfügen. Remotebenutzer melden sich häufig über ein virtuelles privates Netzwerk (VPN) bei Skype for Business Server außerhalb Ihres Netzwerks an, wenn sie nicht mit dem Netzwerk Ihrer Organisation verbunden sind. Remotebenutzer umfassen Mitarbeiter, die zu Hause oder unterwegs arbeiten, sowie andere Remotemitarbeiter, z. B. vertrauenswürdige Anbieter, denen Unternehmensanmeldeinformationen erteilt wurden. Wenn Sie den Remotebenutzerzugriff für Remotebenutzer aktivieren, stellen unterstützte Remotebenutzer eine Verbindung über das Internet her und müssen keine VPN-Verbindung herstellen, um mit internen Benutzern über Skype for Business Server zusammenzuarbeiten.
 
 Um den Remotebenutzerzugriff zu unterstützen, müssen Sie den Remotebenutzerzugriff aktivieren. Wenn Sie den Remotebenutzerzugriff aktivieren, aktivieren Sie ihn für Ihre gesamte Organisation. Wenn Sie später den Remotebenutzerzugriff vorübergehend oder dauerhaft verhindern möchten, können Sie ihn für Ihre Organisation deaktivieren. Verwenden Sie das Verfahren in diesem Abschnitt, um den Remotebenutzerzugriff für Ihre Organisation zu aktivieren oder zu deaktivieren.
 
@@ -56,7 +56,7 @@ Damit sich Remotebenutzer bei Servern anmelden können, auf denen Skype for Busi
 
 ## <a name="enabling-or-disabling-remote-user-access-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Remotebenutzerzugriffs mithilfe Windows PowerShell Cmdlets
 
-Der Remotebenutzerzugriff kann mithilfe von Windows PowerShell und dem cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Der Remotebenutzerzugriff kann mithilfe von Windows PowerShell und dem Cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server 2013-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-enable-remote-user-access"></a>So aktivieren Sie den Remotebenutzerzugriff
 
@@ -66,7 +66,7 @@ Der Remotebenutzerzugriff kann mithilfe von Windows PowerShell und dem cmdlet Se
 
 ## <a name="to-disable-remote-user-access"></a>So deaktivieren Sie den Remotebenutzerzugriff
 
-  - Um den Remotebenutzerzugriff zu deaktivieren, legen Sie den Wert der **AllowOutsideUsers-Eigenschaft** auf "False" ($False) fest:
+  - Um den Remotebenutzerzugriff zu deaktivieren, legen Sie den Wert der **AllowOutsideUsers-Eigenschaft** auf False ($False) fest:
     
         Set-CsAccessEdgeConfiguration -AllowOutsideUsers $False
 

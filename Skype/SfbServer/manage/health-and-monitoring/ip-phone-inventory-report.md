@@ -1,5 +1,5 @@
 ---
-title: IP Telefon Inventory Report in Skype for Business Server
+title: Ip Telefon Inventory Report in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,23 +9,23 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: aa7d6b31-cb09-4e68-b020-aa5dd0081c20
 description: 'Zusammenfassung: Erfahren Sie mehr über den IP-Telefon-Bestandsbericht in Skype for Business Server.'
-ms.openlocfilehash: 89596d09bff9c58901b54bed928020bae3fa90d5971a8be3929fdc5914b54488
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00677d5ed31303cd87df6547d2cab99323f6ed53
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54276800"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630589"
 ---
-# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>IP Telefon Inventory Report in Skype for Business Server
+# <a name="ip-phone-inventory-report-in-skype-for-business-server"></a>Ip Telefon Inventory Report in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den IP-Telefon-Bestandsbericht in Skype for Business Server.
   
 Der Bericht für den IP-Telefonbestand enthält Informationen zu den IP-Telefonen, die derzeit in der Organisation verwendet werden. Er umfasst eine detaillierte Liste der IP-Telefone, die während des angegebenen Berichtszeitraums tatsächlich verwendet wurden. Mithilfe dieses Berichts können Administratoren unter anderem Informationen dazu erhalten, ob alte oder veraltete Telefone vorhanden sind, die ausgetauscht werden sollten. Zudem können Administratoren darauf hingewiesen werden, dass in der Organisation teure Telefone existieren, die kaum verwendet werden. Solche Informationen können außerordentlich wertvoll sein, wenn es darum geht, neue Telefone zu kaufen oder vorhandene Telefone neu zu verteilen. (Ein Benutzer, der sein teures Telefon selten nutzt, kann beispielsweise gebeten werden, sein Telefon mit einem Benutzer zu tauschen, der sein Telefon häufiger verwendet.)
   
-Beachten Sie, dass dieser Bericht einige Einschränkungen aufweist, wenn es darum geht, als wahrer Bestandsbericht verwendet zu werden. Zum einen listet der IP-Telefon Bericht einfach alle Telefone auf, die sich während des angegebenen Zeitraums bei Skype for Business Server angemeldet haben, sortiert nach ihrer letzten Anmeldezeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht angemeldet hat, wird es nicht im Bestandsbericht aufgeführt. Dazu gehören Telefone, die sich vor Beginn des Zeitraums angemeldet haben und während des angegebenen Zeitintervalls noch angemeldet waren. Angenommen, Sie möchten sich den gesamten Telefonbestand für Juli 2015 ansehen. Nehmen wir auch an, dass sich mehrere Telefone am 30. Juni 2015 bei Skype for Business Server angemeldet haben und seit dem 1. Juli weiterhin angemeldet waren. Diese Telefone werden nicht im Bestandsbericht für den 1. Juli angezeigt.
+Beachten Sie, dass dieser Bericht einige Einschränkungen aufweist, wenn es darum geht, als wahrer Bestandsbericht verwendet zu werden. Der IP-Telefon Bericht listet lediglich alle Telefone auf, die sich während des angegebenen Zeitraums bei Skype for Business Server angemeldet haben, sortiert nach ihrer letzten Anmeldezeit. Wenn sich ein Telefon während des angegebenen Zeitraums nicht angemeldet hat, wird es nicht im Bestandsbericht aufgeführt. Dazu gehören Telefone, die sich vor Beginn des Zeitraums angemeldet haben und während des angegebenen Zeitintervalls noch angemeldet waren. Angenommen, Sie möchten sich den gesamten Telefonbestand für Juli 2015 ansehen. Nehmen wir auch an, dass sich am 30. Juni 2015 mehrere Telefone bei Skype for Business Server angemeldet haben und seit dem 1. Juli weiterhin angemeldet waren. Diese Telefone werden nicht im Bestandsbericht für den 1. Juli angezeigt.
   
 Es ist auch wichtig zu beachten, dass der Bestandsbericht Telefone enthalten kann, die Ihre Organisation nicht mehr verwendet. Angenommen, eine Reihe von Fabrikam-Telefonen ist am 1. Juli 2015 beim System angemeldet; 5 Tage später wurde Ihre Organisation alle diese Fabrikam-Telefone los und ersetzte sie durch ein neueres Contoso-Modell. Die Fabrikam-Telefone werden weiterhin im Bericht "Bestand" angezeigt, einfach weil sie sich im Juli beim System angemeldet haben.
   
@@ -85,7 +85,7 @@ Last logoff time : 8/30/2010 5:59:07 PM
 Last activity    :
 </pre>
 
-Eine weitere interessante Möglichkeit, den IP-Telefon Bestandsbericht zu verwenden, ist folgende: Wenn Sie die MAC-Adresse eines IP-Telefon können Sie den Benutzer ermitteln, der das Telefon zuletzt verwendet hat, indem Sie einfach diese Adresse in das MAC-Adresstextfeld eingeben. Der Bericht "IP Telefon Inventory" meldet dann (unter anderem) die SIP-Adresse des Benutzers zurück, der sich zuletzt mit diesem Telefon angemeldet hat. Alternativ können Sie eine SIP-Adresse des Benutzers (im Präfixfeld "Benutzer-URI") eingeben, um alle Telefone zu ermitteln, die von diesem Benutzer verwendet wurden.
+Eine weitere interessante Möglichkeit zur Verwendung des IP-Telefon Bestandsberichts ist folgende: Wenn Sie die MAC-Adresse eines IP-Telefon können Sie den Benutzer ermitteln, der das Telefon zuletzt verwendet hat, indem Sie einfach diese Adresse in das TEXTfeld der MAC-Adresse eingeben. Der Bericht "IP Telefon Inventar" meldet dann (unter anderem) die SIP-Adresse des Benutzers zurück, der sich zuletzt mit diesem Telefon angemeldet hat. Alternativ können Sie eine SIP-Adresse des Benutzers (im Präfixfeld "Benutzer-URI") eingeben, um alle Telefone zu ermitteln, die von diesem Benutzer verwendet wurden.
   
 ## <a name="filters"></a>Filter
 

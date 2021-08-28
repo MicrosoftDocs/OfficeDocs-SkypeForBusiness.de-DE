@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Netzwerkregionen, Standorte und Subnetze für die Verwendung Location-Based Direct-Routing erstellen und einrichten.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 06bccad77991aa4e9d11160bfd7b7b3e6759189f1160100ebd064e3c133e965d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aa696a0058c34be9b3b67746c8a215f6532c2f0f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306367"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584509"
 ---
 # <a name="configure-network-settings-for-location-based-routing"></a>Konfigurieren der Netzwerkeinstellungen für das standortbasierte Routing
 
@@ -38,19 +38,19 @@ Eine Netzwerkregion enthält eine Sammlung von Netzwerkwebsites und verbindet ve
 
 Ein Netzwerkstandort steht für einen Ort, an dem Ihre Organisation über einen physischen Veranstaltungsort verfügt, z. B. ein Büro, eine Gruppe von Gebäuden oder einen Campus. Sie müssen jede Netzwerkwebsite in der Topologie einer Netzwerkregion zuordnen. Die Schritte zum Konfigurieren von Netzwerkwebsites finden Sie unter [Verwalten der Netzwerktopologie für Cloudfeatures in Teams.](manage-your-network-topology.md)
 
-Eine bewährte Methode für Location-Based Besteht im Erstellen einer separaten Website für jeden Standort mit eindeutiger PSTN-Anbindung. Sie können eine Website erstellen, die für Routing aktiviert Location-Based oder eine Website, die nicht für das Routing Location-Based ist. So möchten Sie beispielsweise eine Website erstellen, die nicht für Location-Based-Routing aktiviert ist, damit Benutzer, die für Location-Based-Routing aktiviert sind, PSTN-Anrufe beim Routing zu dieser Website erstellen können.
+Eine bewährte Methode für Location-Based Routing besteht im Erstellen einer separaten Website für jeden Standort, der über eine eindeutige PSTN-Verbindung verfügt. Sie können eine Website erstellen, die für Routing Location-Based aktiviert ist, oder eine Website, die nicht für das Routing Location-Based ist. So möchten Sie beispielsweise eine Website erstellen, die nicht für Location-Based-Routing aktiviert ist, damit Benutzer, die für das Location-Based-Routing aktiviert sind, PSTN-Anrufe beim Roamen zu dieser Website erstellen können.
 
 ## <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
 
-Jedes Subnetz muss einem bestimmten Netzwerkstandort zugeordnet sein. Sie können demselben Netzwerkstandort mehrere Subnetze, aber nicht mehrere Standorte demselben Subnetz zuordnen. Schritte zum Konfigurieren von Netzwerksubnetzen finden Sie unter Verwalten der Netzwerktopologie für [Cloudfeatures in Teams.](manage-your-network-topology.md)
+Jedes Subnetz muss einem bestimmten Netzwerkstandort zugeordnet sein. Sie können demselben Netzwerkstandort mehrere Subnetze, aber nicht mehrere Standorte demselben Subnetz zuordnen. Schritte zum Konfigurieren von Netzwerksubnetzen finden Sie unter Verwalten der [Netzwerktopologie für Cloudfeatures in Teams.](manage-your-network-topology.md)
 
-Für Location-Based-Routing müssen IP-Subnetze an dem Ort, an dem Teams-Endpunkte eine Verbindung mit dem Netzwerk herstellen können, definiert und einem definierten Netzwerk zugeordnet sein, um eine gebührenpflichtige Umgehung zu erzwingen. Durch diese Zuordnung von Subnetzen Location-Based Routing die Endpunkte geografisch auffinden, um zu bestimmen, ob ein gegebener PSTN-Anruf zulässig sein soll. Sowohl IPv6- als auch IPv4-Subnetze werden unterstützt. Bei der Ermittlung, Teams sich ein Endpunkt an einem Standort befindet, überprüft Location-Based Routing zuerst auf eine übereinstimmende IPv6-Adresse. Wenn keine IPv6-Adresse vorhanden ist, überprüft Location-Based Routing auf eine IPv4-Adresse.
+Für Location-Based-Routing müssen IP-Subnetze an dem Standort, an dem Teams-Endpunkte eine Verbindung mit dem Netzwerk herstellen können, definiert und einem definierten Netzwerk zugeordnet sein, um die gebührenpflichtige Umgehung zu erzwingen. Diese Zuordnung von Subnetzen ermöglicht Location-Based Routing, die Endpunkte geografisch zu finden, um zu bestimmen, ob ein gegebener PSTN-Anruf zulässig sein soll. Sowohl IPv6- als auch IPv4-Subnetze werden unterstützt. Bei der Ermittlung, Teams sich ein Endpunkt an einem Standort befindet, überprüft Location-Based Routing zuerst auf eine übereinstimmende IPv6-Adresse. Wenn keine IPv6-Adresse vorhanden ist, überprüft Location-Based Routing auf eine IPv4-Adresse.
 
 ## <a name="define-trusted-ip-addresses-external-subnets"></a>Definieren vertrauenswürdiger IP-Adressen (externe Subnetze)
 
 Vertrauenswürdige IP-Adressen sind die externen Internet-IP-Adressen des Unternehmensnetzwerks und werden verwendet, um festzustellen, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet. Schritte zum Konfigurieren von vertrauenswürdigen IP-Adressen finden Sie unter Verwalten der [Netzwerktopologie für Cloudfeatures in Teams.](manage-your-network-topology.md)
 
-Wenn die externe IP-Adresse des Benutzers einer IP-Adresse in der Liste der vertrauenswürdigen IP-Adressen entspricht, überprüft Location-Based Routing, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Wenn die externe IP-Adresse des Benutzers nicht mit einer IP-Adresse übereinstimmen, die in der Liste der vertrauenswürdigen IP-Adressen definiert ist, wird der Endpunkt als an einem unbekannten Ort klassifiziert, und alle PSTN-Anrufe an oder von einem Benutzer, der für Location-Based Routing aktiviert ist, werden blockiert.
+Wenn die externe IP-Adresse des Benutzers einer IP-Adresse entspricht, die in der Liste der vertrauenswürdigen IP-Adressen aufgeführt ist, überprüft Location-Based Routing, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Wenn die externe IP-Adresse des Benutzers nicht mit einer IP-Adresse übereinstimmen, die in der Liste der vertrauenswürdigen IP-Adressen definiert ist, wird der Endpunkt als an einem unbekannten Ort klassifiziert, und alle PSTN-Anrufe an oder von einem Benutzer, der für Location-Based Routing aktiviert ist, werden blockiert.
 
 ## <a name="next-steps"></a>Nächste Schritte
 

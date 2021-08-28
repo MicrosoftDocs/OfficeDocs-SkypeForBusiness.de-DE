@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Beispiel-E-Mails und Umfragen, die zusammen mit dem beschleunigten Zehn-Schritt-Aktionsplan für das Upgrade von Skype for Business auf Teams
-localization_priority: Normal
+description: Beispiel-E-Mails und Umfragen, die in Konjunkton mit dem beschleunigten Zehn-Schritt-Aktionsplan für das Upgrade von Skype for Business Teams
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c94094720a68bf14c0c6b3f66d8b45c4a7a3251cd1159645b1226a711d562a2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0c23c2818c791915aa2a8e6c772510c6a50094c1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323777"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583469"
 ---
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-E-Mails und Umfragen für Upgrade Basic Communications
 
@@ -201,7 +201,7 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Beispielumfragen
 
-Geben Sie an, wie gut Sie mit der Durchführung der folgenden Aktivitäten in Teams und ob es Aktivitäten gibt, über die Sie mehr erfahren möchten.
+Geben Sie an, wie gut Sie in der Durchführung der folgenden Aktivitäten in Teams und ob es eine oder mehrere Aktivitäten gibt, über die Sie mehr erfahren möchten.
 
 | &nbsp; | Sehr gut ausgebildet | Gut ausgebildet | Überhaupt nicht gut qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|

@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Bosnien und Herzegowina.
-ms.openlocfilehash: 9c483f4670d3fdfc201f61269bf64fe5e3e9c779b7f9c7fac6b0a5875cb4846f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Bosnien und Herzegowina.
+ms.openlocfilehash: 12c7c57731eeecf7e34da8ee976137652d26c1ab
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326171"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583599"
 ---
 # <a name="availability-in-bosnia-amp-herzegovina"></a>Verfügbarkeit in Bosnien und Herzegowina
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Bosnien und Herzegowina.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Bosnien und Herzegowina.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

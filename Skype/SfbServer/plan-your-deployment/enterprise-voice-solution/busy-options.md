@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Erfahren Sie mehr über die Beschäftigt-Optionen-Funktion in Skype for Business Server.
-ms.openlocfilehash: 9c752ebfbfc24f250b1dc9ad68118d1795cfc356cb1332ff7d1d5c66026cfca1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c43a5a0cae0a798f3c38c62b4a1c7895d9704fbb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306946"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583879"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planen von Beschäftigt-Optionen für Skype for Business Server
  
@@ -30,17 +30,17 @@ Beschäftigt-Optionen ist eine neue VoIP-Richtlinie, die im kumulativen Update v
   
 Die Beschäftigt-Optionen-Richtlinie wird für Failover und Notfallwiederherstellung in gekoppelten Front-End-Pools und Survivable Branch Servers (SBS) unterstützt.
   
-In diesem Thema werden die Features von Beschäftigt-Optionen beschrieben. Informationen zum Installieren und Konfigurieren von Beschäftigt-Optionen finden Sie unter [Installieren und Konfigurieren von Beschäftigt-Optionen für Skype for Business Server](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md).
+In diesem Thema werden die Features von Beschäftigt-Optionen beschrieben. Informationen zum Installieren und Konfigurieren von Beschäftigt-Optionen finden Sie unter [Installieren und Konfigurieren von Beschäftigt-Optionen für Skype for Business Server.](../../deploy/deploy-enterprise-voice/install-and-configure-busy-options.md)
   
 ## <a name="configuration-options"></a>Konfigurationsoptionen
 
-Wenn beschäftigt-Optionen für die Organisation aktiviert ist, können alle Benutzer in Ihrer Organisation, sowohl Enterprise-VoIP als auch Nicht-Enterprise-VoIP Benutzer, die folgenden Features verwenden:
+Wenn beschäftigt-Optionen für die Organisation aktiviert ist, können alle Benutzer in Ihrer Organisation, sowohl Enterprise-VoIP als auch nicht Enterprise-VoIP Benutzer, die folgenden Features verwenden:
   
 - Beschäftigt bei Beschäftigt – In dem neue eingehende Anrufe mit einem Besetzt-Signal abgelehnt werden, wenn der Benutzer ausgelastet ist.
     
 - Voicemail bei Beschäftigt – In dem neue eingehende Anrufe an Voicemail weitergeleitet werden, wenn der Benutzer ausgelastet ist.
     
-Das Feature Beschäftigt-Optionen bietet Failoverfunktionen. Wenn ein Problem auftritt und Benutzer zu einem anderen Front-End-Server oder zu einem anderen Pool in Skype for Business Server wechseln, bleiben die Beschäftigt-Optionen-Einstellungen erhalten.
+Das Feature Beschäftigt-Optionen bietet Failoverfunktionen. Wenn ein Problem auftritt und Benutzer zu einem anderen Front-End-Server oder zu einem anderen Pool in Skype for Business Server wechseln, bleiben ihre Beschäftigt-Optionen-Einstellungen erhalten.
   
 Unabhängig davon, wie ihre Beschäftigt-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder Personen mit einer Warteschleife nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. 
   
@@ -52,7 +52,7 @@ Sie können das Feature Beschäftigt-Optionen konfigurieren, indem Sie Skype for
   
 - Aktivieren oder deaktivieren Sie die VoIP-Richtlinie für Beschäftigt-Optionen für die Enterprise.
     
-- Verwalten von "Beschäftigt bei Gebucht" oder "Voicemail bei Gebucht" für alle Benutzer im Enterprise.
+- Verwalten von "Besetzt bei Gebucht" oder "Voicemail bei Gebucht" für alle Benutzer im Enterprise.
     
 - Verwalten von Beschäftigt bei Gebucht oder Voicemail bei Gebucht für alle Benutzer, die in einem bestimmten Front-End-Pool verwaltet werden.
     

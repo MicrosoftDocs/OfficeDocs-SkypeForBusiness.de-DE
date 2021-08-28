@@ -11,19 +11,19 @@ search.appverid: MET150
 description: Hier finden Sie Antworten auf häufig gestellte Fragen zum Ende von Microsoft StaffHub und zum Übergang zur Schichten-App in Microsoft Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 07e2b94b1c4dea84136a2faad5748fcc412e4097
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: ef05d7cf25f015932f55491368ed8fd4f3131692
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523796"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584579"
 ---
 # <a name="microsoft-staffhub-has-been-retired"></a>Microsoft StaffHub wurde eingestellt
 
@@ -163,8 +163,8 @@ Wenn Sie an diesem Thema interessiert sind, senden Sie uns eine Anfrage über Te
 
 #### <a name="is-reporting-available-to-view-shifts-usage-across-my-organization"></a>Sind Berichte verfügbar, um die Nutzung von Schichten in der gesamten Organisation anzeigen zu können?
 
-Da Schichten eine App in Teams ist, können Sie die Verwendung mithilfe von Teams anzeigen. Weitere Informationen finden Sie unter [Teams Berichterstellung im Microsoft Teams Admin Center](../../teams-analytics-and-reports/teams-reporting-reference.md) und Teams Aktivitätsberichte im [Microsoft 365 Admin Center.](../../teams-activity-reports.md)
+Da Schichten eine App in Teams ist, können Sie die Verwendung in Teams anzeigen. Weitere Informationen finden Sie unter [Teams Berichterstellung im Microsoft Teams Admin Center](../../teams-analytics-and-reports/teams-reporting-reference.md) und Teams Aktivitätsberichte im [Microsoft 365 Admin Center.](../../teams-activity-reports.md)
 
 #### <a name="where-can-i-provide-feedback"></a>Wo kann ich Feedback geben?
   
-Tippen Sie in der mobilen App **oben** links auf dem Bildschirm auf Mehr , wechseln Sie zu Einstellungen Feedback senden oder  >   **Problem melden**. Ebenso können Sie in den Desktop- und Web-Apps unten links auf dem Bildschirm auf Hilfe zum Teilen einer Idee oder  >   auf Problem **melden klicken.**
+Tippen Sie in der mobilen App **oben** links auf dem Bildschirm auf Mehr, wechseln Sie zu Einstellungen Feedback senden oder  >   **Problem melden**. Ebenso können Sie in den Desktop- und Web-Apps unten links auf dem Bildschirm auf Hilfe zum Teilen einer Idee oder  >   auf Problem **melden klicken.**

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
-ms.openlocfilehash: f92c77178630bfb6f04e8c707565993fd24c16873a3dc74461eee0ba11884599
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 65897c03f44cac5fd10a0e2c56e78bb5751ae7e3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309214"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583759"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent-Tabelle
  
@@ -27,7 +27,7 @@ Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioan
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |Ganzzahl  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
 |**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
 |**FromCaller** <br/> |Bit  <br/> |Primary  <br/> |0: Daten des Angerufenen  <br/> 1: Anruferdaten  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das NetworkSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der gesendeten Audiodaten aus.  <br/> |
@@ -44,8 +44,8 @@ Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioan
 |**DeviceClippingEventRatio** <br/> |Decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das DeviceClipping-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Wenn die Fast-End-Spracherkennung das Mikrofon einklammert, hört far-end Verzerrung aufgrund des Zuschneidens. Es ist wichtig, dass Sie nah am Ende keine Mikrofonbeschneidung verwenden.  <br/> |
 |**DeviceEchoEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das DeviceEchoEvent-Ereignis für den Status "Ungültig" ausgelöst wurde. Gerät oder Setup verursacht Echo, das über die Fähigkeit des Systems zum Ausgleich hinausgeht.  <br/> |
 |**DeviceNearEndToEchoRatioEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das DeviceNearEndToEchoRatio-Ereignis für den Zustand "Schlecht" ausgelöst wurde. Die Spracherkennung des Benutzers ist zu niedrig im Vergleich zu dem erfassten Echo, was sich auf die Benutzerfreundlichkeit auswirkt, da es die Unterbrechung eines Benutzers einschränkt. Reduzieren Sie die Lautstärke des Lautsprechers, verschieben Sie das Mikrofon näher an den Talker.  <br/> |
-|**DeviceMultipleEndpointsEventCount** <br/> |Ganzzahl  <br/> ||Gibt an, wie oft während der Sitzung das DeviceMultipleEndpoints-Ereignis für den Zustand "Ungültig" ausgelöst wurde. Es wurden mehrere Audioendpunkte in derselben Sitzung erkannt, und das System verfügt über einen Ausfall, indem die Renderlautstärke reduziert wird.  <br/> |
-|**DeviceHowlingEventCount** <br/> |Ganzzahl  <br/> | <br/> |Gibt an, wie oft während der Sitzung das DeviceHowlingEvent-Ereignis für den Status "Ungültig" ausgelöst wurde. Audiofeedbackschleife erkannt (verursacht durch mehrere Endpunkte, die den Audiopfad teilen).  <br/> |
+|**DeviceMultipleEndpointsEventCount** <br/> |int  <br/> ||Gibt an, wie oft während der Sitzung das DeviceMultipleEndpoints-Ereignis für den Zustand "Ungültig" ausgelöst wurde. Es wurden mehrere Audioendpunkte in derselben Sitzung erkannt, und das System verfügt über einen Ausfall, indem die Renderlautstärke reduziert wird.  <br/> |
+|**DeviceHowlingEventCount** <br/> |int  <br/> | <br/> |Gibt an, wie oft während der Sitzung das DeviceHowlingEvent-Ereignis für den Status "Ungültig" ausgelöst wurde. Audiofeedbackschleife erkannt (verursacht durch mehrere Endpunkte, die den Audiopfad teilen).  <br/> |
 |**DeviceRenderZeroVolumeEventRatio** <br/> |decimal(5,2)  <br/> ||Prozentsatz der Sitzung, für die das DeviceRenderZeroVolume-Ereignis ausgelöst wurde, da es sich im Zustand "Schlecht" befindet. Das Rendergerät wurde auf null Volume festgelegt.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**DeviceRenderMuteEventRatio** <br/> |decimal(5,2)  <br/> ||Prozentsatz der Sitzung, für die das DeviceRenderMute-Ereignis ausgelöst wurde, um sich im Zustand "Schlecht" zu befinden. Das Rendergerät wurde stummgeschaltet.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
    

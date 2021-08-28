@@ -8,7 +8,7 @@ ms.service: msteams
 audience: admin
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 MS.collection:
 - Teams_ITAdmin_Help
 - M365-collaboration
@@ -17,18 +17,18 @@ search.appverid: MET150
 description: Erfahren Sie mehr über Ressourcen, die Ihnen bei der Einführung von Business Voice nach Abschluss der Einrichtung helfen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdf412c2279b0cb0740511534b7a839ad5434c12141d2cf225fdbf9d5e1b5924
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c803c5d8bf77810c90550ed321de8aaf4add04dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309004"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583609"
 ---
 # <a name="finished-business-voice-setup"></a>Fertiges Einrichten von Business-Sprachanrufen
 
-**Herzlichen Glückwunsch!** Sie haben die Einrichtung des Microsoft 365 Business Voice. Im Folgenden finden Sie einige hilfreiche Ressourcen für die Verwaltung von Business Voice und helfen Ihren Benutzern, ihre neuen Telefon-, Besprechungs- und Audiokonferenzerfahrungen in den meisten Fällen zu nutzen.
+**Herzlichen Glückwunsch!** Sie haben die Einrichtung der Microsoft 365 Business Voice. Im Folgenden finden Sie einige hilfreiche Ressourcen für die Verwaltung von Business Voice und helfen Ihren Benutzern, ihre neuen Telefon-, Besprechungs- und Audiokonferenzerfahrungen in den meisten Fällen zu nutzen.
 
-In den folgenden Tabellen sind Ressourcen aufgeführt, mit deren Hilfe Sie Teams Business Voice nutzen können.
+In den folgenden Tabellen finden Sie Ressourcen, mit deren Hilfe Sie Teams Business Voice nutzen können.
 
 ## <a name="training"></a>Schulung
 
@@ -51,7 +51,7 @@ Verwenden Sie die folgenden Ressourcen, um Business Voice an Ihre speziellen Anf
 | [Erstellen und lizenzieren Sie Business Voice-Benutzer, und weisen Sie ihnen Telefonnummern zu](create-users.md)    | Fügen Sie weitere Benutzer zu Business Voice hinzu, und richten Sie sie mit Telefonnummern ein.        |
 | [Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen](create-a-phone-system-call-queue-smb.md)    | Erstellen Sie eine Anrufwarteschleife, um Callcenterumgebungen wie Vertrieb, Kundendienst, technischer Support und so weiter zu unterstützen.        |
 | [Einrichten einer automatischen Attendant – Lernprogramm für Kleinunternehmen](create-a-phone-system-auto-attendant-smb.md)   | Erstellen Sie zusätzliche automatische Telefonkonferenz (Anrufmenüs) für eine flexiblere Anrufrouting.        |
-| [Einrichten des Anrufqualitätsdashboards (CQD)](analytics-dashboard.md)| Richten Sie die Anrufnutzung und die Qualitätüberwachung ein, um sicherzustellen, dass die Benutzer die optimale Business-Sprachqualität erhalten.|
+| [Einrichten des Anrufqualitätsdashboards (CQD)](analytics-dashboard.md)| Richten Sie die Anrufnutzung und die Qualitätüberwachung ein, um sicherzustellen, dass die Benutzer die bestmögliche Business-Spracherfahrung haben.|
 
 ## <a name="manage-business-voice"></a>Verwalten von Business Voice
 
@@ -60,5 +60,5 @@ Verwenden Sie die folgenden Ressourcen, um Teams und Business-Voice im Rahmen Ih
 |Ressource  |Beschreibung  |
 |---------|---------|
 | [Erstellen und lizenzieren Sie Business Voice-Benutzer, und weisen Sie ihnen Telefonnummern zu](create-users.md)    | Fügen Sie weitere Benutzer zu Business Voice hinzu, und richten Sie sie mit Telefonnummern ein.         |
-| [Verwalten Ihrer Geräte in Microsoft Teams](manage-devices.md)    | Erstellen sie Richtlinien für Geräte, die mit Geräten verbunden sind, und überwachen Sie Teams.        |
+| [Verwalten Ihrer Geräte in Microsoft Teams](manage-devices.md)    | Erstellen Sie Richtlinien für Geräte, die mit Geräten verbunden sind, und überwachen Sie Teams.        |
 | [Überwachen und Verbessern der Anrufqualität für Microsoft Teams](monitor-quality.md)    | Überwachen Sie, wer Telefonanrufe macht oder empfängt oder an Onlinebesprechungen teilnimmt, überwachen und Behandeln von Problemen mit der Anrufqualität und so weiter.        |

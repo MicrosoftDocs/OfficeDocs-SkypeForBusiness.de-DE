@@ -10,33 +10,33 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
-description: Nachdem Sie die Installation des Skype for Business Server-Planungstools abgeschlossen haben, können Sie mit dem Planungstool beginnen und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
-ms.openlocfilehash: b5590e3bfdf97a6816421a2164712b069884793958be1dbf38eba1d50ef95592
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Nachdem Sie das Skype for Business Server Planungstool installiert haben, können Sie mit dem Planungstool beginnen und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
+ms.openlocfilehash: a56bca532ad1eef25a249f1b45f880921d9ead58
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347940"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608032"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 
-Nachdem Sie die Installation des Skype for Business Server-Planungstools abgeschlossen haben, können Sie mit dem Planungstool beginnen und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
+Nachdem Sie das Skype for Business Server Planungstool installiert haben, können Sie mit dem Planungstool beginnen und mit dem Entwerfen der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
 
 > [!NOTE]
 >  Das Planungstool ist ein assistentengesteuertes Tool mit detaillierten Anleitungen, die Sie bei der Entscheidungsfindung beim Entwerfen Ihrer Standorte und Topologie informieren. Dieses Thema ist nicht als vollständige Anleitung gedacht, sondern soll Ihnen einfach helfen, das Planungstool in Ihren Entwurfssitzungen zu verwenden.
 
 ### <a name="to-get-started-using-the-planning-tool-and-create-the-initial-design"></a>Erste Schritte mit dem Planungstool und Erstellen des anfänglichen Designs
 
-1. Starten Sie das Skype for Business Server 2015-Planungstool: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business Server 2015"** und dann auf **"Planungstool".**
+1. Starten Sie das Skype for Business Server 2015-Planungstool: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business Server 2015** und dann auf **"Planungstool".**
 
 2. Nachdem das Planungstool gestartet wurde, wird die Seite **"Willkommen beim Planungstool für Skype for Business Server 2015"** angezeigt. Wählen Sie eine der folgenden Optionen aus, um mit dem Entwurf zu beginnen:
 
-   - **Option 1: Erste Schritte** Durch Klicken auf **Erste Schritte** erhalten Sie eine bestimmte Reihe von Fragen mit relevanten Auswahlen, um die Kriterien zu definieren. Nachdem Sie die anfängliche **Erste Schritte** Interviewabschnitt abgeschlossen haben, fahren Sie mit dem **Abschnitt "Websites entwerfen"** fort, um Ihre Websitearchitektur zu definieren. Fahren Sie mit Schritt 3 fort, um diese Option abzuschließen.
+   - **Option 1: Erste Schritte** Durch Klicken auf Erste Schritte erhalten **Sie** eine bestimmte Reihe von Fragen mit relevanten Auswahlen, um die Kriterien zu definieren. Nachdem Sie die anfängliche **Erste Schritte** Interviewabschnitt abgeschlossen haben, fahren Sie mit dem **Abschnitt "Websites entwerfen"** fort, um Ihre Websitearchitektur zu definieren. Fahren Sie mit Schritt 3 fort, um diese Option abzuschließen.
 
-   - **Option 2: Entwerfen von Websites** Wenn Sie auf der Willkommensseite auf **"Websites entwerfen"** klicken, werden die Fragen im **Erste Schritte** umgangen. Die Informationen, die durch Antworten auf die Fragen im **Erste Schritte** Abschnitt gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **"Websites entwerfen"** kann der erfahrene Designer das anfängliche Interview umgehen und die Standardwerte nach Bedarf auf der Startseite **"Zentrale Websites"** ändern. Um diese Option abzuschließen, überspringen Sie die Schritte 3 bis 5, und beginnen Sie mit Schritt 6.
+   - **Option 2: Entwerfen von Websites** Wenn Sie auf der Willkommensseite auf **"Websites entwerfen"** klicken, werden die fragen umgangen, die im **Abschnitt Erste Schritte** angezeigt werden. Die Informationen, die durch Antworten auf die Fragen im **Erste Schritte** Abschnitt gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **"Websites entwerfen"** kann der erfahrene Designer das anfängliche Interview umgehen und die Standardwerte nach Bedarf auf der Startseite **"Zentrale Websites"** ändern. Um diese Option abzuschließen, überspringen Sie die Schritte 3 bis 5, und beginnen Sie mit Schritt 6.
 
    - **Option 3: Anzeigen der gespeicherten Topologie** Wenn Sie eine Topologie bereits durch vorherige Verwendung des Planungstools abgeschlossen und gespeichert haben, können Sie die meisten dieser Schritte überspringen und zunächst die Topologie öffnen und anzeigen. Sie können auch Änderungen und Aktualisierungen an der Topologie vornehmen, sie erneut speichern und dann in Microsoft Excel oder Microsoft Visio exportieren. Um diese Option abzuschließen, überspringen Sie die Schritte 3 bis 12, und beginnen Sie mit Schritt 13.
 
@@ -63,7 +63,7 @@ Nachdem Sie die Installation des Skype for Business Server-Planungstools abgesch
 10. Ändern Sie bei Bedarf die Auswahl für Onlinezusammenarbeit, Benutzer, VoIP, zusätzliche Bereitstellungsoptionen oder Serveranwendungen.
 
     > [!IMPORTANT]
-    > An diesem Punkt im Entwurf können Sie nur Optionen für Ihre Bereitstellung auswählen oder deaktivieren. Sie können jedoch in einer späteren Phase des Planungstool weitere Optionen konfigurieren. Es gibt auch Optionen, die nicht verfügbar sind und nicht gelöscht werden können. Darüber hinaus müssen Sie möglicherweise eine Option deaktivieren, um eine andere zu löschen. Wenn Sie z. B. die **Option Enterprise-VoIP** unter "VoIP" deaktivieren, werden auch die Optionen **"Reaktionsgruppe",** **"Ansage"** und **"Anruf parken"** unter "Serveranwendungen" (die alle Features von Enterprise-VoIP sind) deaktiviert.
+    > An diesem Punkt im Entwurf können Sie nur Optionen für Ihre Bereitstellung auswählen oder deaktivieren. Sie können jedoch in einer späteren Phase des Planungstool weitere Optionen konfigurieren. Es gibt auch Optionen, die nicht verfügbar sind und nicht gelöscht werden können. Darüber hinaus müssen Sie möglicherweise eine Option deaktivieren, um eine andere zu löschen. Wenn Sie beispielsweise die **Option Enterprise-VoIP** unter "VoIP" deaktivieren, werden auch die Optionen **"Reaktionsgruppe",** **"Ansage"** und **"Anruf parken"** unter "Serveranwendungen" (die alle Features von Enterprise-VoIP sind) deaktiviert.
 
 11. Klicken Sie nach dem Definieren eines Websitenamens und der Anzahl der Benutzer auf **"Weiter".**
 

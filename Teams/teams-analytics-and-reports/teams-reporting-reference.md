@@ -10,7 +10,7 @@ ms.reviewer: svemu
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.analyticsandreports.overview
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,27 +18,27 @@ description: In diesem Artikel erfahren Sie mehr über die Teams, die im Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 362dce90521cb5fe948735f7e8a435e5f158ed3e
-ms.sourcegitcommit: a8965ff7b05ff600e3c426a4fff5fdba8b4c8b0b
+ms.openlocfilehash: 02353f540a3739f46e8e693ab4e83141b0bdfd3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "58523826"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583549"
 ---
 # <a name="microsoft-teams-analytics-and-reporting"></a>Microsoft Teams – Analyse und Berichterstellung
 
-Eine neue Analyse- und Berichterstellungserfahrung für Microsoft Teams finden Sie im Microsoft Teams Admin Center. Sie können verschiedene Berichte ausführen, um Einblicke zu erhalten, wie Benutzer in Ihrer Organisation ihre Teams. So können Sie beispielsweise sehen, wie viele Benutzer über Kanal- und Chatnachrichten kommunizieren, sowie die Gerätetypen, die sie zum Herstellen einer Verbindung mit Teams. Ihre Organisation kann die Informationen aus den Berichten verwenden, um Nutzungsmuster besser zu verstehen, bei der Entscheidungsfindung für Unternehmen zu helfen sowie Schulungs- und Kommunikationsaufwand zu informieren.
+Eine neue Analyse- und Berichterstellungserfahrung für Microsoft Teams finden Sie im Microsoft Teams Admin Center. Sie können verschiedene Berichte ausführen, um Einblicke zu erhalten, wie Benutzer in Ihrer Organisation ihre Teams. Sie können z. B. sehen, wie viele Benutzer über Kanal- und Chatnachrichten kommunizieren, sowie die Arten von Geräten, die sie zum Herstellen einer Verbindung mit Teams. Ihre Organisation kann die Informationen aus den Berichten verwenden, um Nutzungsmuster besser zu verstehen, bei der Entscheidungsfindung für Unternehmen zu helfen sowie Schulungs- und Kommunikationsaufwand zu informieren.
 
 ## <a name="how-to-access-the-reports"></a>Zugreifen auf die Berichte
 
-Um auf die Berichte zugreifen zu können, müssen Sie ein globaler Administrator in Microsoft 365 oder Office 365, ein globaler Leser in Microsoft 365 oder Office 365, Teams-Dienstadministrator oder Skype for Business-Administrator sein. Weitere Informationen zu den Teams und zu den Berichten, auf die jede Administratorrolle zugreifen kann, finden Sie unter Verwenden [Teams Administratorrollen](../using-admin-roles.md)zum Verwalten Teams.
+Um auf die Berichte zugreifen zu können, müssen Sie ein globaler Administrator in Microsoft 365 oder Office 365, ein globaler Leser in Microsoft 365 oder Office 365, Teams-Dienstadministrator oder Skype for Business sein. Weitere Informationen zu Teams Administratorrollen und zu den Berichten, auf die jede Administratorrolle zugreifen kann, finden Sie unter Verwenden [Teams Administratorrollen](../using-admin-roles.md)zum Verwalten Teams.
 
 Wechseln Sie zum Microsoft Teams Admin Center, wählen Sie in der linken Navigationsleiste Analyse &-Berichte **aus,** und wählen Sie dann unter Bericht den Bericht **aus,** den Sie ausführen möchten.
 
 > [!NOTE]
-> Die Berichte im Microsoft Teams Admin Center sind von den Aktivitätsberichten für Teams getrennt, die Zu den Microsoft 365-Berichten im Microsoft 365 Admin Center. Weitere Informationen zu den Aktivitätsberichten in der Microsoft 365 Admin Center Finden Teams [Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md)
+> Die Berichte im Microsoft Teams Admin Center sind von den Aktivitätsberichten für Teams getrennt, die Zu den Microsoft 365-Berichten in der Microsoft 365 Admin Center. Weitere Informationen zu den Aktivitätsberichten in der Microsoft 365 Admin Center finden Sie Teams [Aktivitätsberichte im Microsoft 365 Admin Center](../teams-activity-reports.md)
 
-## <a name="teams-reporting-reference"></a>Teams berichterstellungsreferenz
+## <a name="teams-reporting-reference"></a>Teams Berichterstellungsreferenz
 
 Hier finden Sie eine Liste der Teams im Microsoft Teams Admin Center und eine Übersicht über einige der Informationen, die in den einzelnen Berichten zur Verfügung stehen.
 

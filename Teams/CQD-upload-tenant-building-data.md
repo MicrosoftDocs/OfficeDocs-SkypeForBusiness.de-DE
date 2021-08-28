@@ -14,19 +14,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Mandanten- und Gebäudedaten im Anrufqualitätsdashboard (CQD) hochladen.
-ms.openlocfilehash: be51f4ec7eb19f56a07413749abf5455856754ed0984d00cd27ed72d9aaa8316
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322807"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583699"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen des Mandanten und Erstellen von Daten im Anrufqualitätsdashboard (CQD)
 
@@ -35,7 +35,7 @@ Um das Anrufqualitätsdashboard (Anrufqualitätsdashboard, CQD) bestens zu verwe
 
 Sie können hier eine Beispielvorlage für Mandantendaten [herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true) Hilfe zum Erstellen der Zuordnung finden Sie unter [Erstellen eines Gebäudeplans für das AQD.](CQD-building-mapping.md)
 
-Wählen Sie im Dashboard CQD-Zusammenfassungsberichte im Einstellungen -Menü Mandantendaten Hochladen (zahnradsymbol am oberen Rand des AQD) aus.   Von hier aus können Administratoren die Gebäude- und Endpunktinformationen Ihrer Organisation hochladen, z. B. Die Zuordnung von IP-Adressen und geografischen Informationen, die Zuordnung der einzelnen Funkzugriffspunkt und ihrer MAC-Adresse usw.
+Wählen Sie im Dashboard CQD-Zusammenfassungsberichte im Menü Hochladen CQD **Einstellungen** (Zahnradsymbol oben im AQD) aus.  Von hier aus können Administratoren die Gebäude- und Endpunktinformationen Ihrer Organisation hochladen, z. B. Zuordnung von IP-Adressen und geografischen Informationen, Zuordnung der einzelnen Funkzugriffspunkt und ihrer MAC-Adresse usw.
 
 1. Öffnen Sie das CQD (im Teams Admin Center oder unter ), wählen Sie dann das Zahnradsymbol in der oberen rechten Ecke und dann auf der Seite Zusammenfassungsberichte die Option Mandantendaten [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) **Hochladen** aus. 
 
@@ -63,7 +63,7 @@ Wählen Sie im Dashboard CQD-Zusammenfassungsberichte im Einstellungen -Menü Ma
 
 Der erste Typ der Mandantendatendatei im  AQD ist die Gebäudedatendatei. Die Spalte Subnetz wird abgeleitet, indem Sie die Spalte Network+NetworkRange erweitern und dann die Spalte Subnetz mit der Spalte "Erstes Subnetz" oder "Zweites Subnetz" des Anrufdatensatzs verknüpfen, um Informationen zu Gebäude, Ort, Land oder Region zu erhalten. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Überprüfung vor dem Hochladen zu bestehen:
   
-- Bei der Datei muss es sich entweder um eine TSV-Datei (Spalten sind durch TAB-Spalten getrennt) oder um eine .csv (spalten sind durch Kommas getrennt) sein.
+- Bei der Datei muss es sich entweder um eine TSV-Datei (Spalten sind durch TAB-Spalten getrennt) oder um eine .csv -Datei (Spalten sind durch Kommas getrennt) handelt.
 
 - Die Datendatei enthält keine Tabellenüberschriftszeile. Die erste Zeile der Datendatei wird als echte Daten und nicht als Überschriftenbeschriftungen wie "Netzwerk" erwartet.
 
@@ -97,7 +97,7 @@ Der erste Typ der Mandantendatendatei im  AQD ist die Gebäudedatendatei. Die Sp
 
   <sup>1</sup> Zwar ist das AQD nicht erforderlich, aber die Vorlagen sind für die Anzeige von Gebäude- und Netzwerkname konfiguriert.
 
-  <sup>2</sup> Diese Einstellung kann verwendet werden, um zu prüfen, ob sich das Subnetz innerhalb des Unternehmensnetzwerks befindet. Sie können die Verwendung für andere Zwecke anpassen.
+  <sup>2</sup> Diese Einstellung kann verwendet werden, um zu überprüfen, ob sich das Subnetz innerhalb des Unternehmensnetzwerks befindet. Sie können die Verwendung für andere Zwecke anpassen.
 
   <sup>3</sup> Diese Einstellung kann verwendet werden, um zu prüfen, ob das Netzwerk Azure ExpressRoute verwendet oder nicht. Sie können die Verwendung für andere Zwecke anpassen.  
 
@@ -108,7 +108,7 @@ Der erste Typ der Mandantendatendatei im  AQD ist die Gebäudedatendatei. Die Sp
 > [!IMPORTANT]
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen melden die Subnetzinformationen nicht genau. 
 >
-> Die VPN-Spalte ist optional und standardmäßig auf 0 festgelegt. Wenn der Wert der VPN-Spalte auf 1 festgelegt ist, wird das Subnetz, das durch diese Zeile dargestellt wird, vollständig erweitert, um allen IP-Adressen innerhalb des Subnetzes zu entsprechen. Verwenden Sie diese Angaben sparsam und nur für VPN-Subnetze, da sich eine vollständige Erweiterung dieser Subnetze negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken wird. Wenn die Erweiterung des Subnetzes dazu führt, dass das Limit für die Erweiterungszeile von 1.000.000 überschritten wird, wird die Gebäudedatei nicht akzeptiert.
+> Die VPN-Spalte ist optional und standardmäßig auf 0 festgelegt. Wenn der Wert der VPN-Spalte auf 1 festgelegt ist, wird das Subnetz, das durch diese Zeile dargestellt wird, vollständig erweitert, um allen IP-Adressen innerhalb des Subnetzes zu entsprechen. Verwenden Sie diese Angaben sparsam und nur für VPN-Subnetze, da sich eine vollständige Erweiterung dieser Subnetze negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken wird. Wenn die Erweiterung des Subnetzes dazu führt, dass das Limit für Die Erweiterungszeile von 1.000.000 überschritten wird, wird die Gebäudedatei nicht akzeptiert.
 
 
 ### <a name="supernetting"></a>Supernetting
@@ -131,7 +131,7 @@ Hier einige Punkte, die Sie berücksichtigen sollten, bevor Sie Supernetting imp
 
 -   Supernetting kann nur in einer Subnetz-Zuordnung mit einer 8-Bit-zu-28-Bit-Maske verwendet werden.
 
--   Supernetting nimmt im Vorfeld weniger Zeit in Anspruch, aber es geht darum, die Reichhaltigkeit ihrer Daten zu verringern. Nehmen wir an, dass es ein Qualitätsproblem mit Subnetz 10.1.2.0 gibt. Wenn Sie supernetting implementiert haben, wissen Sie nicht, wo sich das Subnetz im Gebäude befindet oder um welchen Netzwerktyp es sich handelt (z. B. eine Übung). Wenn Sie alle Subnetze für die Standortinformationen eines Gebäudes und für die hochgeladenen Grundrisse definiert hätten, wäre diese Unterscheidung möglich.
+-   Supernetting nimmt im Vorfeld weniger Zeit in Anspruch, aber es geht darum, die Reichhaltigkeit ihrer Daten zu verringern. Angenommen, es gibt ein Qualitätsproblem mit Subnetz 10.1.2.0. Wenn Sie supernetting implementiert haben, wissen Sie nicht, wo sich das Subnetz im Gebäude befindet oder um welchen Netzwerktyp es sich handelt (z. B. eine Übung). Wenn Sie alle Subnetze für die Standortinformationen eines Gebäudes und für die hochgeladenen Grundrisse definiert hätten, wäre diese Unterscheidung möglich.
 
 -   Es ist wichtig sicherzustellen, dass die übernetierte Adresse korrekt ist und nicht unerwünschte Subnetze abfangen.
 
@@ -142,7 +142,7 @@ Hier einige Punkte, die Sie berücksichtigen sollten, bevor Sie Supernetting imp
 
 ### <a name="vpn"></a>VPN
 
-Die Qualität der Benutzererfahrung (QoE)-Daten, die Clients an Microsoft 365 oder Office 365 senden – aus der CQD-Daten stammen – enthält ein VPN-Kennzeichen. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Kennzeichen basiert jedoch auf der Meldung von VPN-Anbietern an Windows, dass es sich bei dem registrierten VPN-Netzwerkadapter um einen Remotezugriffsadapter handelt. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Verwenden Sie die oben erläuterte Spalte VPN, um VPN-Subnetze präzise zu markieren und zu identifizieren. Es wird auch geübt, Ihre VPN-Netzwerke zur einfachen Identifizierung in Ihren Berichten zu beschriften. Im Folgenden finden Sie zwei Beispiele zum Beschriften Ihrer VPN-Subnetze:
+Die Qualität der Benutzererfahrung (QoE)-Daten, die Clients an Microsoft 365 oder Office 365 senden – von wo aus CQD-Daten stammen – enthält ein VPN-Flag. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Kennzeichen basiert jedoch auf der Meldung von VPN-Anbietern Windows, dass es sich bei dem registrierten VPN-Netzwerkadapter um einen Remotezugriffsadapter handelt. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Verwenden Sie die oben erläuterte Spalte VPN, um VPN-Subnetze präzise zu markieren und zu identifizieren. Es wird auch geübt, Ihre VPN-Netzwerke zur einfachen Identifizierung in Ihren Berichten zu beschriften. Im Folgenden finden Sie zwei Beispiele zum Beschriften Ihrer VPN-Subnetze:
 
 - Definieren Sie **einen Netzwerknamen,** indem Sie "VPN" in dieses Feld für VPN-Subnetze eingeben.
 
@@ -153,13 +153,13 @@ Die Qualität der Benutzererfahrung (QoE)-Daten, die Clients an Microsoft 365 od
   ![Screenshot des QCD-Berichts mit VPN-Gebäudenamen](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
-> ES ist bekannt, dass VPN-Verbindungen den Netzwerkverbindungstyp als verkabelt identifiziert haben, wenn es sich um eine drahtlose Verbindung handelt. Bei der Qualität über VPN-Verbindungen können Sie nicht davon ausgehen, dass der Verbindungstyp exakt identifiziert wurde.
+> ES ist bekannt, dass VPN-Verbindungen den Netzwerkverbindungstyp falsch als verkabelt identifiziert haben, wenn es sich bei der zugrunde liegenden Verbindung um eine Funkverbindung handelt. Bei der Qualität über VPN-Verbindungen können Sie nicht davon ausgehen, dass der Verbindungstyp exakt identifiziert wurde.
 
 ## <a name="endpoint-data-file"></a>Endpunktdatendatei
 
-Der andere Typ der Mandantendatendatei  für AQD ist die Endpunktdatendatei. Die Spaltenwerte werden in der Spalte Erster Clientendpunktname oder Zweiter Clientendpunktname des Anrufdatensatzs verwendet, um die Informationen zu Endpunkt erstellen, Modell oder Typ zu erhalten. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Überprüfung vor dem Hochladen zu bestehen:
+Der andere Typ der AQD-Mandantendatendatei ist die **Endpunktdatendatei.** Die Spaltenwerte werden in der Spalte Erster Clientendpunktname oder Zweiter Clientendpunktname des Anrufdatensatzs verwendet, um die Informationen zu Endpunkt erstellen, Modell oder Typ zu erhalten. Das Format der Datendatei, die Sie hochladen, muss die folgenden Kriterien erfüllen, um die Überprüfung vor dem Hochladen zu bestehen:
 
-- Bei der Datei muss es sich entweder um eine TSV-Datei (Spalten sind durch TAB-Spalten getrennt) oder um eine .csv (spalten sind durch Kommas getrennt) sein.
+- Bei der Datei muss es sich entweder um eine TSV-Datei (Spalten sind durch TAB-Spalten getrennt) oder um eine .csv -Datei (Spalten sind durch Kommas getrennt) handelt.
 
 - Der Inhalt der Datendatei umfasst keine Tabellenüberschriften. Die erste Zeile der Datendatei wird als echte Daten und nicht als Headerbeschriftung wie "EndpointName" erwartet.
 
@@ -190,9 +190,9 @@ Beim Sammeln von Gebäude- und Subnetzinformationen laden Administratoren die Ge
 
 ## <a name="add-net-new-subnets"></a>Hinzufügen neuer Net-Subnetze
 
-Es gibt Zeiten, in denen Sie neue Net-Subnetze zum AQD hinzufügen müssen, die ursprünglich nicht Teil der Netzwerktopologie waren. Um net neue Subnetze hinzuzufügen, gehen Sie auf der Seite Tenant **Data Hochladen** im CQD wie folgt vor:
+Es gibt Zeiten, in denen Sie neue Net-Subnetze zum AQD hinzufügen müssen, die ursprünglich nicht Teil der Netzwerktopologie waren. Zum Hinzufügen neuer Net-Subnetze gehen Sie auf der Seite Tenant **Data Hochladen** im CQD wie folgt vor:
 
-1.  Laden Sie die Originaldatei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
+1.  Laden Sie die Ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
 
 1.  Entfernen Sie die aktuelle Datei in CQD.
 
@@ -208,7 +208,7 @@ Nachdem Sie die Gebäudeinformationen für verwaltete Netzwerke hochgeladen habe
 
 1. Wechseln Sie im **AQD Hochladen** zur Seite Mandantendatendaten.
 
-1. Laden Sie die Originaldatei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
+1. Laden Sie die Ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
 
 1. Entfernen Sie die aktuelle Datei in CQD.
 

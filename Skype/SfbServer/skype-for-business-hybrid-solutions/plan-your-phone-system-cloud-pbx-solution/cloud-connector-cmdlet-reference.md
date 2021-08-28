@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 072b4bdc-0f1e-4fce-a41e-5c60d24556d5
 description: In der folgenden Tabelle sind die Skype for Business Cloud Connector Edition Cmdlets mit einer kurzen Beschreibung und Links zu weiteren Informationen aufgeführt.
-ms.openlocfilehash: a5a29003db50f79440b6bd0393bce63b8597d90df35cded4b7b6c0114b165b97
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 19fc33912075e7737a4fa7fc242e74dd1de92289
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341490"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583729"
 ---
 # <a name="cloud-connector-cmdlet-reference"></a>Cmdlet-Referenz für Cloud Connector
  
@@ -33,7 +33,7 @@ In der folgenden Tabelle sind die Skype for Business Cloud Connector Edition Cmd
 |**Name des Cmdlets**|**Beschreibung**|
 |:-----|:-----|
 |[Backup-CcCertificationAuthority](backup-cccertificationauthority.md) <br/> Version 1.4.2 und höher  <br/> |Sichert den Zertifizierungsstellendienst in einer Datei und speichert ihn im Ca-Ordner unter dem Websitefreigabeverzeichnis.     <br/> |
-|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Erstellt eine virtuelle Basisfestplattendatei (VHDX) mithilfe eines Kunden, der Windows Server 2012 R2-ISO-Datei bereitgestellt wird. Die VHDX-Datei wird während der Bereitstellung von Cloud Connector verwendet.  <br/> |
+|[Convert-CcIsoToVhdx](convert-ccisotovhdx.md) <br/> |Erstellt eine virtuelle Basisfestplattendatei (VHDX) mithilfe einer vom Kunden bereitgestellten Windows Server 2012 R2-ISO-Datei. Die VHDX-Datei wird während der Bereitstellung von Cloud Connector verwendet.  <br/> |
 |[Enter-CcUpdate](enter-ccupdate.md) <br/> |Bereitet den Cloud Connector-Hostserver auf den Updateprozess vor, indem er in den Wartungsmodus versetzt wird. Die Appliance ist "entleert"; d. h., alle vorhandenen Anrufe werden abgeschlossen, neue Anrufe werden jedoch abgelehnt.  <br/> |
 |[Exit-CcUpdate](exit-ccupdate.md) <br/> |Beendet den Updatewartungsmodus auf dem Cloud Connector-Hostserver.  <br/> |
 |[Export-CcConfiguration](export-ccconfiguration.md) <br/> | Exportiert eine Skype for Business Cloud Connector Edition Konfiguration in eine lokale Datei auf dem Skype for Business Cloud Connector Edition Hostserver. <br/> |
@@ -48,7 +48,7 @@ In der folgenden Tabelle sind die Skype for Business Cloud Connector Edition Cmd
 |[Get-CcSiteLogDirectory](get-ccsitelogdirectory.md) <br/> |Zeigt das aktuelle Verzeichnis an, in dem die Protokolle auf Standortebene für Cloud Connector gespeichert sind.  <br/> |
 |[Get-CcVersion](get-ccversion.md) <br/> Version 2.0 und höher  <br/> |Gibt die Version der Cloud Connector-Instanz zurück. Get-CCVersion können nur auf dem Hostcomputer von Cloud Connector verwendet werden.  <br/> |
 |[Import-CcConfiguration](import-ccconfiguration.md) <br/> Version 2.0 und höher  <br/> |Importiert die Skype for Business Cloud Connector Edition-Konfiguration aus einer lokalen Datei auf den Cloud Connector-Hostserver.  <br/> |
-|[Install-CcAppliance](install-ccappliance.md) <br/> |Installiert die Cloud Connector-Appliance – einschließlich ad, der zentralen Store, des Vermittlungsservers und der virtuellen Edgeservercomputer – auf dem Hostserver.  <br/> |
+|[Install-CcAppliance](install-ccappliance.md) <br/> |Installiert die Cloud Connector-Appliance , einschließlich der virtuellen Computer AD, der zentralen Verwaltung Store, des Vermittlungsservers und des Edgeservers, auf dem Hostserver.  <br/> |
 |[Publish-CcAppliance](publish-ccappliance.md) <br/> | Ruft Informationen zur hohen Verfügbarkeit aus der Onlinemandantenkonfiguration ab und veröffentlicht sie in der Cloud Connector-Appliance auf dem Hostserver. <br/> |
 |[Register-CcAppliance](register-ccappliance.md) <br/> | Registriert Appliance-Informationen an einem PSTN-Standort in einer Onlinemandantenkonfiguration. Eine Appliance muss registriert werden, bevor sie vom Cloud Connector-Verwaltungsdienst bereitgestellt und verwaltet werden kann. <br/> |
 |[Remove-CcCertificationAuthorityFile](remove-cccertificationauthorityfile.md) <br/> Version 1.4.2 und höher  <br/> |Entfernt die Sicherungsdatei des Zertifizierungsstellendiensts " \<SiteRootDirectory\> \CA\SfB CCE Root.p12" im Ca-Ordner unter dem Standortfreigabeverzeichnis für Cloud Connector.  <br/> |

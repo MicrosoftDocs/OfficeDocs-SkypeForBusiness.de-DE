@@ -8,9 +8,9 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: karuanag
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Wählen Sie Early Adopters für die Experimentphase Ihrer einführung Teams und sammeln Sie dann Feedback für Ihr Projekt.
+description: Wählen Sie Early Adopters für die Experimentphase Ihrer Teams und sammeln Sie dann Feedback für Ihr Projekt.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60314eb711fdcdf0f48ec607486acc119f3efcac575c10bec79c80c59d65dc22
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dbc7deee746679b4e82b34dae8a0dd89b07ed37d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323927"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583579"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
-Kehren Sie zur Liste der Mitarbeiter zurück, die Interesse an Ihrem Early Adopter-Programm ausgedrückt haben. Entscheiden Sie, welche dieser Personen an Ihren ersten Experimenten mit einem Teams. Es kann sich um alle oder einen Teil der Personen, die sich interessieren, sein. Auch wenn Sie diese nicht für diese anfänglichen Projekte auswählen, kommunizieren Sie weiterhin mit ihnen, damit sie weiterhin an der Entwicklung interessiert sind und bereit sind, an der Entwicklung teilzunehmen. Sie sind Teil des Onboarding-Prozesses für die projekte, die Sie ausgewählt haben, basierend auf Ihren Diskussionen mit Projektbeteiligten, Ihrem technischen Team und Ihrer oben gezeigten Priorisierungsübung. 
+Kehren Sie zur Liste der Mitarbeiter zurück, die Interesse an Ihrem Early Adopter-Programm ausgedrückt haben. Entscheiden Sie, welche dieser Personen an Ihren ersten Experimenten mit einem Teams. Es kann sich um alle oder einen Teil der Personen, die sich interessieren, sein. Auch wenn Sie sie nicht für diese anfänglichen Projekte auswählen, kommunizieren Sie weiterhin mit ihnen, damit sie weiterhin an der Entwicklung interessiert sind und bereit sind, an der Entwicklung teilzunehmen. Sie sind Teil des Onboarding-Prozesses für die projekte, die Sie ausgewählt haben, basierend auf Ihren Diskussionen mit Projektbeteiligten, Ihrem technischen Team und Ihrer oben gezeigten Priorisierungsübung. 
 
 Führen Sie die folgenden Schritte mit diesen Early Adopters aus:
 
@@ -46,7 +46,7 @@ Verwenden Sie die Komponenten Microsoft 365 oder Office 365, um Feedback zu Ihre
 ![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits über eine Investition in ein Yammer-Netzwerk verfügt, können Sie es als Feedbackforum für Ihr Early Adopter-Programm verwenden. Falls nicht, und Ihr Early Adopter-Programm weniger als 5.000 Mitglieder hat, erstellen Sie ein Team in Teams, um Feedback zu sammeln und Schulungen zur Verfügung zu stellen.
   
 > [!Note]
-> Einige Organisationen werden die Kanäle für frühzeitiges Feedback von Kunden im Team für Das Team für Teamwork-Programme kombinieren. Dies ist ein guter Ansatz, da viele Early Adopter in Zukunft möglicherweise zu Champions werden und eine stärkere Community aufbauen. 
+> Einige Organisationen werden die Kanäle für frühzeitiges Feedback von Kunden in einem Team für Teamwork-Champions-Programme kombinieren. Dies ist ein guter Ansatz, da viele Early Adopters in Zukunft möglicherweise zu Champions werden und eine stärkere Community aufbauen. 
 
 
 ![Ein Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) Weiter: [Onboard-Support.](teams-adoption-onboard-support.md)

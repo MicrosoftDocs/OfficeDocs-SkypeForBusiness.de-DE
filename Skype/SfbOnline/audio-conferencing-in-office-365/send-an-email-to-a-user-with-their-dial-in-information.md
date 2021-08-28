@@ -15,20 +15,20 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Senden Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in Skype for Business Online.
-ms.openlocfilehash: 9cc178b64d9c242337717598f41bdcb4018f14620c5fdc3709abcf8c1bbdb0d9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327041"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584449"
 ---
-# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer E-Mail mit den Audiokonferenzinformationen in Skype for Business Online an einen Benutzer
+# <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer E-Mail mit den Audiokonferenzinformationen in Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
@@ -51,7 +51,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer
 
-1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
 

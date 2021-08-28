@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 9ea090b3-f607-46f7-97dd-2510052524e5
 description: Entscheidungen, die für die Planung der Medienumgehung in Skype for Business Server Enterprise-VoIP erforderlich sind. Umfasst die Interoperabilität mit der Anrufsteuerung (Call Admission Control, CAC).
-ms.openlocfilehash: 386272fd2a20d2d780f146c8eb03d75878cdf69cdfa27145d42c0421ba4ba91f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7bf6be9a279d5b5f90da0274b8d271767be87f36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284704"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630439"
 ---
 # <a name="plan-for-media-bypass-in-skype-for-business"></a>Planen der Medienumgehung in Skype for Business
 
@@ -41,7 +41,7 @@ Die folgende Abbildung zeigt grundlegende Pfade für Medien- und Signaldatenverk
 
 ![Erzwingung der Verbindungserzwingung der Medienumgehung für die Sprachsteuerung](../../media/Plan_CS_VoiceCAC_enforcementofconnectionstoPSTN.jpg)
 
-Die Medienumgehung ist nützlich, wenn Sie die Anzahl von bereitgestellten Vermittlungsservern reduzieren möchten. Üblicherweise wird ein Vermittlungsserverpool an einem zentralen Standort bereitgestellt und steuert die Gateways an den Zweigstellenstandorten. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Skype for Business Server Routen für ausgehende Anrufe und Enterprise-VoIP Richtlinien müssen ordnungsgemäß konfiguriert sein, damit PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway weitergeleitet werden.
+Die Medienumgehung ist nützlich, wenn Sie die Anzahl von bereitgestellten Vermittlungsservern reduzieren möchten. Üblicherweise wird ein Vermittlungsserverpool an einem zentralen Standort bereitgestellt und steuert die Gateways an den Zweigstellenstandorten. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Skype for Business Server Ausgehende Anrufrouten und Enterprise-VoIP Richtlinien müssen ordnungsgemäß konfiguriert sein, damit PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway weitergeleitet werden.
 
 In Wi-Fi-Netzwerken treten üblicherweise mehr Paketverluste auf als in verkabelten Netzwerken. Die Wiederherstellung der Daten aus diesen Paketen kann normalerweise nicht mithilfe von Gateways durchgeführt werden. Daher wird empfohlen, die Qualität eines Wi-Fi-Netzwerks auszuwerten, bevor Sie entscheiden, ob die Medienumgehung für ein Funksubnetz aktiviert werden soll. Darüber hinaus muss erwogen werden, ob eine geringere Latenz zu Lasten der Dateiwiederherstellung nach Paketverlusten akzeptabel ist. RTAudio – ein Codec für Anrufe, die den Vermittlungsserver nicht umgehen – eignet sich besser für die Verarbeitung von Paketverlusten.
 
@@ -116,4 +116,4 @@ Die Medienumgehung kann implementiert werden, wenn die folgenden Voraussetzungen
 
 - Der Vermittlungsserverpeer muss Mediendatenverkehr direkt von Skype for Business Endpunkten akzeptieren. Viele ITSPs ermöglichen es ihrem SBC, Nur-Datenverkehr vom Vermittlungsserver zu empfangen. Wenden Sie sich an Ihren ItsP, um festzustellen, ob der SBC Mediendatenverkehr direkt von Skype for Business Endpunkten akzeptiert.
 
-- Skype for Business Clients und ein Vermittlungsserverpeer müssen gut verbunden sein, d. h., sie befinden sich entweder in derselben Netzwerkregion oder an Netzwerkstandorten, die über WAN-Verbindungen eine Verbindung mit der Region herstellen, die keine Bandbreiteneinschränkungen aufweisen.
+- Skype for Business Clients und ein Vermittlungsserverpeer müssen gut verbunden sein, d. h., sie befinden sich entweder in derselben Netzwerkregion oder an Netzwerkstandorten, die über WAN-Verbindungen ohne Bandbreiteneinschränkungen mit der Region verbunden sind

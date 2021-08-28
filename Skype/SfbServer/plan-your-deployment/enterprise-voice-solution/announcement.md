@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP, die konfiguriert, was mit Telefonanrufen an nicht zugewiesene Telefonnummern in Ihren Organisationen geschieht. Umfasst Audiodateianforderungen.
-ms.openlocfilehash: caec21da11ce4fe44738b57872acc5c1b0533b2536b90304ea83332deae1aeaf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 010e49a8578a6ec2482b454b2fb62ca8718939d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306966"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583909"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planen der Ankündigungsanwendung in Skype for Business
 
@@ -50,4 +50,4 @@ Die Ankündigungsanwendung verwendet **Port 5071** für SIP-Überwachungsanforde
 
 ### <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Die Ankündigungsanwendung unterstützt das Wav-Dateiformat und Windows WMA-Dateiformat (Media Audio) für Musik und Ankündigungen. Audiodateianforderungen für die Ansageanwendung sind die gleichen wie für die Reaktionsgruppenanwendung. Ausführliche Informationen finden Sie unter ["Technische Anforderungen für Reaktionsgruppen".](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)
+Die Ankündigungsanwendung unterstützt das Wav-Dateiformat (Wave) und Windows WMA-Dateiformat (Media Audio) für Musik und Ankündigungen. Audiodateianforderungen für die Ansageanwendung sind die gleichen wie für die Reaktionsgruppenanwendung. Ausführliche Informationen finden Sie unter ["Technische Anforderungen für Reaktionsgruppen".](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)

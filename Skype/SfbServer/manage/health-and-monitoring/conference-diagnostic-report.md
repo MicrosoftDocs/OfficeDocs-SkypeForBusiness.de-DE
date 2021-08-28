@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e9edc23c-8ce8-4ab8-8786-9d22e1e51e14
 description: 'Zusammenfassung: Erfahren Sie mehr über den Diagnosebericht über die Konferenz, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 31410ec98e3902e3ab64967061611e5c94a132258fca0a87a5332efdf0057a21
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 578f4f2a60ca5dd1706d3b366e4decc35effeb7b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328150"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630639"
 ---
 # <a name="conference-diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht über Konferenzen in Skype for Business Server
  
@@ -27,9 +27,9 @@ Der Diagnosebericht über Konferenzen enthält Informationen über Erfolg und Fe
   
 - **Fehler erwartet.** Ein erwarteter Fehler ist in der Regel nur im technischsten Sinne ein Fehler. Angenommen, jemand startet eine Konferenz, hängt aber auf, bevor jemand teilnehmen kann. Technisch gesehen ist dies ein Fehler: Die Konferenz wurde initiiert, aber nicht abgeschlossen. Dies ist jedoch ein Fehler, den Sie erwarten würden: Wenn der Organisator die Konferenz abbricht, bevor jemand teilnehmen kann, erwarten Sie nicht, dass die Konferenz abgeschlossen wird.
     
-- **Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist. Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen. Angenommen, eine Konferenz konnte nicht gehalten werden, da die Besprechungsrichtlinie des Organisators nicht abgerufen werden konnte. Dies ist ein unerwarteter Fehler: Schließlich sollten Sie immer in der Lage sein, die Besprechungsrichtlinie eines Benutzers abzurufen.
+- **Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist. Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen. Angenommen, eine Konferenz konnte nicht gehalten werden, da die Besprechungsrichtlinie des Organisators nicht abgerufen werden konnte. Das ist ein unerwarteter Fehler: Schließlich sollten Sie immer in der Lage sein, die Besprechungsrichtlinie eines Benutzers abzurufen.
     
-Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind. Beispielsweise werden möglicherweise die folgenden Werte im Bericht angezeigt:
+Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwarteter Fehler" nicht zwangsläufig identisch mit der Metrik unter "Sitzungen insgesamt" sind. Beispielsweise können die folgenden Werte im Bericht angezeigt werden:
   
 |**Erfolge**|**Erwartete Fehler**|**Unerwartete Fehler**|**Sitzungen insgesamt**|
 |:-----|:-----|:-----|:-----|

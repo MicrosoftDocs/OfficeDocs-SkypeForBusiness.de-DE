@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5b19edef-4a54-43c9-aa12-5643b8108355
 description: Erfahren Sie mehr über Vermittlungsserver in Skype for Business Server, einschließlich der unterstützten Topologien und der Beziehungen zu M:N-Trunks, Medienumgehung und Anrufsteuerung.
-ms.openlocfilehash: 9e333486eeae4831604a4e4593dc0a65b4e6588eb38cc08df1b9c2a7ee9dcdcd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6113bf05d788620c2ac0b4e91f74b4e347ecc121
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58608012"
 ---
 # <a name="mediation-server-component-in-skype-for-business-server"></a>Vermittlungsserverkomponente in Skype for Business Server
  
@@ -31,7 +31,7 @@ Um Enterprise-VoIP bereitzustellen, müssen Sie einen oder mehrere Vermittlungss
   
 Der Vermittlungsserver übersetzt die Signalisierung zwischen Ihrer internen Enterprise-VoIP-Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network) oder einem SIP-Trunk (Session Initiation Protocol). In einigen Bereitstellungen werden auch die Medien selbst zwischen diesen Punkten übersetzt.
   
-Auf der Skype for Business Server Seite überwacht der Vermittlungsserver eine einzelne MTLS-Transportadresse (Mutual Mutual TLS). Auf der Gatewayseite überwacht der Vermittlungsserver alle zugehörigen Überwachungsports, die Trunks zugeordnet sind. Alle qualifizierten Gateways müssen TLS unterstützen, können jedoch auch TCP verwenden. TCP wird für Gateways unterstützt, die keine Unterstützung für TLS bieten.
+Auf der Skype for Business Server Seite überwacht der Vermittlungsserver eine einzige MTLS-Transportadresse (Mutual Mutual TLS). Auf der Gatewayseite überwacht der Vermittlungsserver alle zugehörigen Überwachungsports, die Trunks zugeordnet sind. Alle qualifizierten Gateways müssen TLS unterstützen, können jedoch auch TCP verwenden. TCP wird für Gateways unterstützt, die keine Unterstützung für TLS bieten.
   
 Wenn Sie auch über eine vorhandene Nebenstellenanlage (Public Branch Exchange) in Ihrer Umgebung verfügen, verarbeitet der Vermittlungsserver Anrufe zwischen Enterprise-VoIP Benutzern und der Nebenstellenanlage. Wenn Es sich bei Ihrer Nebenstellenanlage um eine IP-Nebenstellenanlage handelt, können Sie eine direkte SIP-Verbindung zwischen der Nebenstellenanlage und dem Vermittlungsserver herstellen. Wenn Ihre Nebenstellenanlage eine TDM-Nebenstellenanlage (Time Division Multiplex) ist, müssen Sie auch ein PSTN-Gateway zwischen dem Vermittlungsserver und der Nebenstellenanlage bereitstellen.
   
@@ -72,13 +72,13 @@ Beim Definieren einer Anrufroute geben Sie die dieser Route zugeordneten Trunks 
   
 Der Vermittlungsserver kann als Pool bereitgestellt werden. Dieser Pool kann mit einem Front-End-Pool verbunden oder als eigenständiger Pool bereitgestellt werden. Wenn ein Vermittlungsserver mit einem Front-End-Pool verbunden ist, kann die Poolgröße maximal 12 (der Grenzwert der Poolgröße der Registrierungsstelle) sein. Zusammengenommen erhöhen diese Funktionen die Zuverlässigkeit und Bereitstellungsflexibilität für Vermittlungsserver, erfordern jedoch ähnliche Funktionen in den folgenden Bereichen:
   
-- **PSTN-Gateway.** Ein Skype for Business Server qualifizierte Gateway muss einen DNS-Lastenausgleich implementieren, der es einem qualifizierten PSTN-Gateway (Public Switched Telephone Network) ermöglicht, als Lastenausgleich für einen Pool von Vermittlungsservern zu fungieren und dadurch Anrufe über den Pool zu verteilen.
+- **PSTN-Gateway.** Ein Skype for Business Server qualifizierte Gateway muss einen DNS-Lastenausgleich implementieren, der es einem qualifizierten PSTN-Gateway (Public Switched Telephone Network) ermöglicht, als Lastenausgleich für einen Pool von Vermittlungsservern zu fungieren und dadurch Anrufe im poolweiten Lastenausgleich durchzuführen.
     
 - **Session Border Controller.** Bei einem SIP-Trunk ist die Peerentität ein Session Border Controller (SBC) bei einem Anbieter von Internettelefoniediensten. In richtung vom Vermittlungsserverpool zum SBC kann der SBC Verbindungen von jedem Vermittlungsserver im Pool empfangen. In der Richtung vom SBC zum Pool kann Datenverkehr an einen beliebigen Vermittlungsserver im Pool gesendet werden. Eine Methode, dies zu erreichen, ist der DNS-Lastenausgleich, sofern dies vom Dienstanbieter und SBC unterstützt wird. Eine Alternative besteht darin, dem Dienstanbieter die IP-Adressen aller Vermittlungsserver im Pool zu geben, und der Dienstanbieter stellt diese auf dem SBC als separaten SIP-Trunk für jeden Vermittlungsserver bereit. Der Dienstanbieter übernimmt dann den Lastenausgleich für seine eigenen Server. Nicht alle Dienstanbieter oder SBCs unterstützen diese Funktionen möglicherweise. Darüber hinaus kann der Dienstanbieter für diese Funktion zusätzliche Gebühren berechnen. In der Regel wird für jeden SIP-Trunk zum SBC eine monatliche Gebühr berechnet.
     
-- **IP-Nebenstellenanlage.** In Richtung vom Vermittlungsserverpool zum IP-PBX-SIP-Ende kann die IP-Nebenstellenanlage Verbindungen von jedem Vermittlungsserver im Pool empfangen. In richtung von der IP-Nebenstellenanlage an den Pool kann Datenverkehr an einen beliebigen Vermittlungsserver im Pool gesendet werden. Da die meisten IP-PBXs keinen DNS-Lastenausgleich unterstützen, empfehlen wir, dass einzelne direkte SIP-Verbindungen von der IP-Nebenstellenanlage zu jedem Vermittlungsserver im Pool definiert werden. Die IP-Nebenstellenanlage übernimmt dann ihren eigenen Lastenausgleich, indem der Datenverkehr über die Trunkgruppe verteilt wird. Es wird davon ausgegangen, dass die Trunkgruppe über einen konsistenten Satz von Routingregeln an der IP-Nebenstellenanlage verfügt. Ob eine bestimmte IP-Nebenstellenanlage dieses Trunkgruppenkonzept unterstützt und wie es sich mit der Redundanz- und Clusterarchitektur der IP-Nebenstellenanlage überschneidet, muss ermittelt werden, bevor Sie entscheiden können, ob ein Vermittlungsservercluster ordnungsgemäß mit einer IP-Nebenstellenanlage interagieren kann.
+- **IP-Nebenstellenanlage.** In Richtung vom Vermittlungsserverpool zum IP-PBX-SIP-Ende kann die IP-Nebenstellenanlage Verbindungen von jedem Vermittlungsserver im Pool empfangen. In richtung von der IP-Nebenstellenanlage an den Pool kann Datenverkehr an einen beliebigen Vermittlungsserver im Pool gesendet werden. Da die meisten IP-PBXs keinen DNS-Lastenausgleich unterstützen, wird empfohlen, dass einzelne direkte SIP-Verbindungen von der IP-Nebenstellenanlage zu jedem Vermittlungsserver im Pool definiert werden. Die IP-Nebenstellenanlage übernimmt dann ihren eigenen Lastenausgleich, indem der Datenverkehr über die Trunkgruppe verteilt wird. Es wird davon ausgegangen, dass die Trunkgruppe über einen konsistenten Satz von Routingregeln an der IP-Nebenstellenanlage verfügt. Ob eine bestimmte IP-Nebenstellenanlage dieses Trunkgruppenkonzept unterstützt und wie es sich mit der Redundanz- und Clusterarchitektur der IP-Nebenstellenanlage überschneidet, muss ermittelt werden, bevor Sie entscheiden können, ob ein Vermittlungsservercluster ordnungsgemäß mit einer IP-Nebenstellenanlage interagieren kann.
     
-Ein Vermittlungsserverpool muss über eine einheitliche Ansicht des Peergateways verfügen, mit dem er interagiert. Dies bedeutet, dass alle Mitglieder des Pools über den Konfigurationsspeicher auf die gleiche Definition des Peergateways zugreifen und wahrscheinlich auch für ausgehende Anrufe damit interagieren. Daher gibt es keine Möglichkeit, den Pool so zu segmentieren, dass einige Vermittlungsserver nur mit bestimmten Gatewaypeers für ausgehende Anrufe kommunizieren. Wenn eine solche Segmentierung erforderlich ist, muss ein separater Pool von Vermittlungsservern verwendet werden. Dies wäre beispielsweise der Fall, wenn die zugehörigen Funktionen in PSTN-Gateways, SIP-Trunks oder IP-PBXs für die Interaktion mit einem Pool nicht vorhanden sind, wie weiter oben in diesem Thema beschrieben.
+Ein Vermittlungsserverpool muss über eine einheitliche Ansicht des Peergateways verfügen, mit dem er interagiert. Dies bedeutet, dass alle Mitglieder des Pools über den Konfigurationsspeicher auf die gleiche Definition des Peergateways zugreifen und wahrscheinlich auch für ausgehende Anrufe damit interagieren. Daher gibt es keine Möglichkeit, den Pool so zu segmentieren, dass einige Vermittlungsserver nur mit bestimmten Gatewaypeers für ausgehende Anrufe kommunizieren. Wenn eine solche Segmentierung erforderlich ist, muss ein separater Pool von Vermittlungsservern verwendet werden. Dies wäre beispielsweise der Fall, wenn die zugeordneten Funktionen in PSTN-Gateways, SIP-Trunks oder IP-PBXs für die Interaktion mit einem Pool nicht vorhanden sind, wie weiter oben in diesem Thema beschrieben.
   
 Ein bestimmtes PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SIP-Trunkpeer kann an mehrere Vermittlungsserver oder Trunks weitergeleitet werden. Die Anzahl der Gateways, die ein bestimmter Pool von Vermittlungsservern steuern kann, hängt von der Anzahl der Anrufe ab, die die Medienumgehung verwenden. Wenn eine große Anzahl von Anrufen die Medienumgehung verwendet, kann ein Vermittlungsserver im Pool viele weitere Anrufe verarbeiten, da nur die Verarbeitung der Signalschicht erforderlich ist. 
   
@@ -88,7 +88,7 @@ Die Anrufsteuerung (Call Admission Control, CAC) verwaltet die Einrichtung von E
   
 Die Medienumgehung und die Bandbreitenreservierung schließen sich gegenseitig aus. Wenn für einen Anruf die Medienumgehung verwendet wird, wird für diesen Anruf keine Anrufsteuerung ausgeführt. Es wird davon ausgegangen, dass für den Anruf keine Verbindungen mit beschränkter Bandbreite verwendet werden. Wenn die Anrufsteuerung für einen bestimmten Anruf verwendet wird, der den Vermittlungsserver umfasst, kann für diesen Anruf keine Medienumgehung verwendet werden.
   
-Ausführliche Informationen zur Medienumgehung oder Anrufsteuerung finden Sie unter [Plan for media bypass in Skype for Business](media-bypass.md) or Plan for call admission control in [Skype for Business Server.](call-admission-control.md)
+Ausführliche Informationen zur Medienumgehung oder Anrufsteuerung finden Sie unter [Plan for media bypass in Skype for Business](media-bypass.md) or Plan for call admission control in [Skype for Business Server](call-admission-control.md).
   
 ## <a name="enhanced-9-1-1-e9-1-1-and-mediation-server"></a>9-1-1 (erweitert) (E9-1-1) und Vermittlungsserver
 
@@ -106,7 +106,7 @@ Die Medienumgehung und die Anrufsteuerung schließen sich gegenseitig aus. Wenn 
 
 Der Skype for Business Server Vermittlungsserver ist standardmäßig mit Standard Edition Server, einem Front-End-Pool oder einer Survivable Branch Appliance verbunden. Alle Vermittlungsserver in einem Front-End-Pool müssen identisch konfiguriert sein.
   
-Wenn die Leistung ein Problem darstellt, ist es möglicherweise vorzuziehen, einen oder mehrere Vermittlungsserver in einem dedizierten eigenständigen Pool bereitzustellen. Wir empfehlen auf jeden Fall einen eigenständigen Pool, wenn Sie SIP-Trunking bereitstellen. 
+Wenn die Leistung ein Problem darstellt, kann es vorzuziehen sein, einen oder mehrere Vermittlungsserver in einem dedizierten eigenständigen Pool bereitzustellen. Wir empfehlen auf jeden Fall einen eigenständigen Pool, wenn Sie SIP-Trunking bereitstellen. 
   
 Wenn Sie direkte SIP-Verbindungen mit einem qualifizierten PSTN-Gateway bereitstellen, das Medienumgehung und DNS-Lastenausgleich unterstützt, ist kein eigenständiger fea-mediation-pool erforderlich. Dies liegt daran, dass qualifizierte Gateways einen DNS-Lastenausgleich zu einem Pool von Vermittlungsservern durchführen können und Datenverkehr von jedem Vermittlungsserver in einem Pool empfangen können.
   

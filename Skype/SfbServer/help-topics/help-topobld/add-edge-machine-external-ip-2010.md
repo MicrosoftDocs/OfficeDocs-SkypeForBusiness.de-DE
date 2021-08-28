@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddEdgeMachineExternalIpPage2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 17906fc5-1b5c-4819-849d-bebf0496a763
 description: Sie können die Eigenschaften auf dieser Seite so konfigurieren, dass der Edgeserver auf die externen Speicherorte des Zugriffs-Edgediensts, des Webkonferenz-Edgediensts und des A/V-Edgediensts verweist.
-ms.openlocfilehash: b2d73fd7e5857175cd67db2b6a016ae17d8e4a052c80c6c3ec4a196b5441c4e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9e4d447646fb14397266f0e0359a7eadb43e93d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343629"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58583999"
 ---
-# <a name="add-edge-machine-external-ip-2010"></a>Hinzufügen der externen IP-Adresse zum Edgecomputer – 2010
+# <a name="add-edge-machine-external-ip-2010"></a>Hinzufügen der externen IP-Adresse zum Edgecomputer – 2010
 
 Sie können die Eigenschaften auf dieser Seite so konfigurieren, dass der Edgeserver auf die externen Speicherorte des Zugriffs-Edgediensts, des Webkonferenz-Edgediensts und des A/V-Edgediensts verweist.
 

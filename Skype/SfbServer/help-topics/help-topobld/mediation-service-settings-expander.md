@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FeMediationServiceSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 142c1acd-cdaa-4922-8379-aa1bdf56a964
 description: 'Für Vermittlungsserver können Sie Folgendes angeben:'
-ms.openlocfilehash: c442971e64d31a3a009b602c4cf53387fc6a3fdfb038209854e52c427ec5570f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0e6a480d001b9afa0d6e6042c3ab67c9d756b7aa
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315741"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630769"
 ---
-# <a name="mediation-service-settings-expander"></a>Einstellungen für den Vermittlungsdienst – Erweiterung
+# <a name="mediation-service-settings-expander"></a>Einstellungen für den Vermittlungsdienst – Erweiterung
 
 Für **Vermittlungsserver** können Sie Folgendes angeben:
 
-Wenn Sie den Vermittlungsserver in den Front-End-Pool oder den Standard Edition Server verbinden, aktivieren Sie das Kontrollkästchen **"Verbundener Vermittlungsserver" aktiviert.** Wenn Sie den Vermittlungsserver nicht verbinden möchten, gibt es in diesem Abschnitt keine definierbaren Einstellungen.
+Wenn Sie den Vermittlungsserver in den Front-End-Pool oder den Standard Edition-Server verbinden, aktivieren Sie das Kontrollkästchen **"Verbundener Vermittlungsserver" aktiviert.** Wenn Sie den Vermittlungsserver nicht verbinden möchten, gibt es in diesem Abschnitt keine definierbaren Einstellungen.
 
 Wenn Sie die gemeinsame Ausführung des Vermittlungsservers aktiviert haben, müssen Sie den Überwachungsportbereich des Servers für Transport Layer Security (TLS) festlegen. Standardmäßig lautet dieser Port 5067. Wenn Sie **TCP-Port aktivieren** aktivieren, müssen Sie für den verbundenen Vermittlungsserver einen TCP-Port (Transmission Control Protocol) angeben. Diese Einstellung ist optional. Überprüfen Sie die Gateway- bzw. PSTN-Anforderungen (Public Switched Telephone Network, Telefonfestnetz) dahingehend, ob diese Einstellung erforderlich ist. Standardmäßig ist der Wert des TCP-Ports auf 5068 festgelegt.
 

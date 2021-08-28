@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Wählen Sie die Audiokonferenz-Telefonzentralen-Sprache für eine Audiokonferenznummer in Skype for Business Online.
-ms.openlocfilehash: 044d05ec8b67f1e7732140a90c47b0666568fafe241fe3a45f2d02c46824e903
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 15eca114c4f3d108a078642e6af23923fe817f66
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584429"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-skype-for-business-online"></a>Automatische Telefonzentralen-Spracheinstellung für Audiokonferenzen in Skype for Business Online
 
@@ -49,7 +49,7 @@ Wählen Sie eine primäre Sprache und bis zu vier sekundäre Sprachen. Die prim�
 
 Sie müssen ein globaler Administrator [oder ein Skype for Business](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) [sein,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) um diesen Schritt ausführen zu können.
     
-1. Wechseln Sie **Skype for Business admin center** in der linken Navigationsleiste zum **Legacyportal**. Wählen Sie im Legacyportal **Audio conferencing (Audiokonferenz)** aus, und klicken Sie dann auf **Microsoft Bridge.**
+1. Wechseln Sie **im Skype for Business Admin Center** in der linken Navigationsleiste zum **Legacyportal**. Wählen Sie im Legacyportal **Audio conferencing (Audiokonferenz)** aus, und klicken Sie dann auf **Microsoft Bridge.**
     
 2. Wählen Sie die Telefonnummer für Audiokonferenzen aus der Liste aus, und klicken Sie im Aktionsbereich auf **Sprachen festlegen.** Es ist nur möglich, die Sprachen von De dedicated audio conferencing numbers zu ändern.  
     
@@ -66,13 +66,13 @@ Sie müssen ein globaler Administrator [oder ein Skype for Business](https://sup
     
 - Sprachen können für dedizierte, aber nicht für freigegebene Telefonnummern festgelegt werden.
     
-- Eine Liste der Länder/Regionen, in denen Audiokonferenzen in Microsoft 365 oder Office 365 mit Microsoft als Anbieter verfügbar sind, finden Sie unter Telefon-Nummern für [Audiokonferenzen.](phone-numbers-for-audio-conferencing.md)
+- Eine Liste der Länder/Regionen, in denen Audiokonferenzen in Microsoft 365 oder Office 365 für die Microsoft als Anbieter verfügbar ist, finden Sie unter Telefon-Nummern für [Audiokonferenzen.](phone-numbers-for-audio-conferencing.md)
     
 ## <a name="want-to-use-windows-powershell"></a>Wollen Sie Windows PowerShell verwenden?
 
 Zum Automatisieren dieses Schritts können Sie die [Cmdlets Set-CsOnlineDialInConferencingServiceNumber](/powershell/module/skype/Set-CsOnlineDialInConferencingServiceNumber) und [Get-CsOnlineDialInConferencingLanguagesSupported](/powershell/module/skype/Get-CsOnlineDialInConferencingLanguagesSupported) verwenden.
   
-Weitere Informationen finden Sie unter Verwenden [von Windows PowerShell zum Ausführen Skype for Business Online-Verwaltungsaufgaben.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Weitere Informationen finden Sie unter [Verwenden von Windows PowerShell zum Ausführen Skype for Business Online-Verwaltungsaufgaben.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 

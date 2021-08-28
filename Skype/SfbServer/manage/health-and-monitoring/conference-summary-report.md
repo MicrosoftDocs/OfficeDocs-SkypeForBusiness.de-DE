@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Konferenzbericht in Skype for Business Server.'
-ms.openlocfilehash: 4b210577efa35634475f82ba6f36a4271780713942f04df69294c55c0924a126
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: eac0ebc242afe15635b088f22e34d7677d5ec5f1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345622"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58630629"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Zusammenfassender Konferenzbericht in Skype for Business Server
  

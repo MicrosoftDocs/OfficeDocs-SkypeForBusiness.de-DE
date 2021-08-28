@@ -7,7 +7,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: aaglick
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ebbc1e2b26fdd5f0ff6816d456e0f2a2dc9d02275b8c81089a0c0a1ef299e64f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2ab5eb94740138af0405378728516bd4dfbaf2c7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308714"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58584559"
 ---
 # <a name="get-started-with-team-templates-in-the-admin-center"></a>Erste Schritte mit Teamvorlagen im Admin Center
 
@@ -40,7 +40,7 @@ In diesem Artikel werden die folgenden Features beschrieben:
 - Die Basisvorlagentypen.
 - Hier erfahren Sie, wie Sie mithilfe von einigen Beispielanforderungen ein Team aus einer Vorlage erstellen können.
 
-Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation zuständig sind.
+Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation verantwortlich sind.
 
 ## <a name="team-template-capabilities"></a>Funktionen für Teamvorlagen
 
