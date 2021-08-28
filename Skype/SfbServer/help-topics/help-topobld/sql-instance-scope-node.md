@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SqlInstanceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 1abf5a3cf011d90f8efc81531d5f7fa052a57941ec7484b00435d285364ec134
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a6ae742e778ba105ab19b8e8459b1695fb82519
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338163"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588567"
 ---
-# <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
+# <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  
 Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz von SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für diesen Server, auf der Sie den FQDN des Servers ändern können (falls die Topologie noch nicht veröffentlicht wurde), und die Instanz der zu verwendenden SQL Server.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für diesen Server, auf der Sie den FQDN des Servers ändern können (wenn die Topologie noch nicht veröffentlicht wurde) und die Instanz der zu verwendenden SQL Server.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     

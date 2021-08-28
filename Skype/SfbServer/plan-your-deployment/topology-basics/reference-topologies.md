@@ -9,27 +9,27 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Referenztopologien für Skype for Business Server, einschließlich Diagrammen und Entscheidungen für große, mittlere und kleine Organisationen.
-ms.openlocfilehash: fbc80ddda4a7f208489661e431f83b30d77aea0556a2a21c21144dd437fb4e01
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 76866e21c4abcd0defafb8dcdb4b758da2f376cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349887"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616451"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Referenztopologien für Skype for Business Server
 
 Referenztopologien für Skype for Business Server, einschließlich Diagrammen und Entscheidungen für große, mittlere und kleine Organisationen.
 
-Die beste Skype for Business Server Topologie für Sie hängt von der Größe Ihrer Organisation, den Workloads, die Sie bereitstellen möchten, und Ihren Einstellungen für hohe Verfügbarkeit im Vergleich zu den Kosten der Investition ab.
+Die beste Skype for Business Server Topologie für Sie hängt von der Größe Ihrer Organisation, den Workloads, die Sie bereitstellen möchten, und Ihren Einstellungen für hohe Verfügbarkeit im Vergleich zu den Kosten für Investitionen ab.
 
-In diesem Abschnitt werden drei Beispielreferenztopologien beschrieben, einschließlich der Gründe für viele der Entscheidungen, die in jeder Topologie berücksichtigt wurden.
+In diesem Abschnitt werden drei Beispielreferenztopologien beschrieben, einschließlich der Gründe für viele der Entscheidungen, die in die einzelnen Topologien einbezogen wurden.
 
 ## <a name="reference-topology-for-a-small-organization"></a>Referenztopologie für eine kleine Organisation
 
@@ -43,11 +43,11 @@ Die Referenztopologie für kleine Organisationen zeigt, wie Sie eine stabile, ho
 
 - **Empfehlung zur Bereitstellung eines Edgeservers.** Wenngleich die Bereitstellung eines Edgeservers für das interne Instant Messaging, für Anwesenheitsinformationen und Konferenzen nicht erforderlich ist, wird sie selbst für kleine Bereitstellung empfohlen. Sie können Ihre Skype for Business Server Investition maximieren, indem Sie einen Edgeserver bereitstellen, um Benutzern, die sich derzeit außerhalb der Firewalls Ihrer Organisation befinden, Dienste bereitzustellen. Hierdurch bieten sich folgende Vorteile:
 
-  - Die eigenen Benutzer Ihrer Organisation können Skype for Business Server Funktionen verwenden, wenn sie von zu Hause aus arbeiten oder unterwegs sind.
+  - Die eigenen Benutzer Ihrer Organisation können Skype for Business Server Funktionalität verwenden, wenn sie von zu Hause aus arbeiten oder unterwegs sind.
 
   - Ihre Benutzer können externe Benutzer zur Teilnahme an Besprechungen einladen.
 
-  - Wenn Sie über eine Partner-, Lieferanten- oder Kundenorganisation verfügen, die auch Skype for Business Server verwendet, können Sie eine Verbundbeziehung mit dieser Organisation bilden. Ihre Skype for Business Server Bereitstellung würde dann Benutzer aus dieser Verbundorganisation erkennen, was zu einer besseren Zusammenarbeit führt.
+  - Wenn Sie über einen Partner, einen Anbieter oder eine Kundenorganisation verfügen, die auch Skype for Business Server verwendet, können Sie eine Verbundbeziehung mit dieser Organisation bilden. Ihre Skype for Business Server Bereitstellung würde dann Benutzer aus dieser Verbundorganisation erkennen, was zu einer besseren Zusammenarbeit führt.
 
   - Ihre Benutzer können Chatnachrichten mit Benutzern einiger öffentlicher Chatdienste austauschen.
 
@@ -69,7 +69,7 @@ Die Referenztopologie mit hoher Verfügbarkeit und einem einzelnen Rechenzentrum
 
     Die Topologie mit einem einzelnen Standort kann jedoch noch mehr Benutzer unterstützen, wenn dem Standort ein weiterer Front-End-Pool hinzugefügt wird.
 
-- **Die Notfallwiederherstellung kann hinzugefügt werden.** Für diese Organisation ist die hohe Verfügbarkeit für ihre Skype for Business Server Dienste ein erforderliches Feature, die Notfallwiederherstellung jedoch nicht. Der bereitgestellte Pool von Front-End-Servern bietet hohe Verfügbarkeit.
+- **Die Notfallwiederherstellung kann hinzugefügt werden.** Für diese Organisation ist eine hohe Verfügbarkeit für ihre Skype for Business Server Dienste ein erforderliches Feature, die Notfallwiederherstellung jedoch nicht. Der bereitgestellte Pool von Front-End-Servern bietet hohe Verfügbarkeit.
 
     Wenn sie eine Notfallwiederherstellungsmöglichkeit hinzufügen möchten, könnten sie erwägen, ein weiteres Rechenzentrum einzurichten und dort einen anderen Front-End-Pool hinzuzufügen und ihn mit dem Front-End-Pool in ihrem aktuellen Rechenzentrum zu koppeln. Wenn sich dann ein Notfall auf ihren primären Pool auswirkte, könnten die Administratoren Benutzer in den Sicherungspool übergehen.
 
@@ -121,11 +121,11 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 
 - **Verwenden Standard Edition Servers an einem Zweigstellenstandort.** Diese Organisation stuft Standort C als Zweigstellenstandort ein, da er nur 600 Mitarbeiter umfasst. Die dortigen Benutzer halten jedoch untereinander viele A/V-Konferenzen ab. Wenn es in Skype for Business Server als Zweigstelle bereitgestellt wurde, würden die Medien für diese Konferenzen über das WAN (Wide Area Network) zu und von einem zentralen Standort ausgeführt, an dem ein Front-End-Server bereitgestellt wurde. Um diese potenzielle Bandbreitenlast zu vermeiden, haben sie ein Paar Standard Edition Server an diesem Standort installiert, die diese Konferenzen hosten. Und da Standard Edition Server dort installiert sind, betrachtet Skype for Business Server ihn per Definition als zentralen Standort und wird im Topologie-Generator und im Planungstool als solcher behandelt.
 
-    Nur ein Standard Edition Server würde hier für die Leistung ausreichen, aber die Organisation hat zwei bereitgestellt und kombiniert, um eine hohe Verfügbarkeit für den Fall zu gewährleisten, dass ein Server ausfällt.
+    Hier reicht nur ein Standard Edition Server für die Leistung aus, aber die Organisation hat zwei bereitgestellt und kombiniert, um eine hohe Verfügbarkeit für den Fall zu gewährleisten, dass ein Server ausfällt.
 
     Auch wenn Standort C als zentraler Standort betrachtet wird, müssen Sie dort keine Edgeserver bereitstellen. In diesem Beispiel verwendet Standort C die an Standort A bereitgestellten Edgeserver.
 
-- **Überwachung und Archivierung** Diese Organisation hat sowohl die Überwachung als auch die Archivierung bereitgestellt. Wenn Sie die Überwachung oder Archivierung bereitstellen, wird sie auf jedem Front-End-Server ausgeführt. Die Datenbanken für diese Features können mit der Back-End-Datenbank verbunden werden oder sich auf einem separaten Server befinden. Diese Organisation hat diese Datenbanken auf einem Server getrennt von den Back-End-Servern am zentralen Standort B gespeichert. Die Datenbanken hier empfangen Überwachungs- und Archivierungsdaten von den Front-End-Servern an allen Standorten.
+- **Überwachung und Archivierung** Diese Organisation hat sowohl die Überwachung als auch die Archivierung bereitgestellt. Wenn Sie die Überwachung oder Archivierung bereitstellen, wird sie auf jedem Front-End-Server ausgeführt. Die Datenbanken für diese Features können mit der Back-End-Datenbank verbunden oder auf einem separaten Server gespeichert werden. Diese Organisation hat diese Datenbanken auf einem Server getrennt von den Back-End-Servern am zentralen Standort B gespeichert. Die Datenbanken hier empfangen Überwachungs- und Archivierungsdaten von den Front-End-Servern an allen Standorten.
 
 - **Optionen für Bereitstellungen an Zweigstellenstandorten.** Diese Organisation verfügt tatsächlich über mehr als 50 Zweigstellen, von denen nur zwei in den detaillierten Diagrammen dargestellt sind. Zweigstelle 1 verfügt nicht über eine ausfallsichere WAN-Verbindung zum zentralen Standort, sodass Survivable Branch Appliances für die Bereitstellung von Telefondiensten bereitgestellt werden, falls die WAN-Verbindung zum zentralen Standort unterbrochen wird. Zweigstelle 2 verfügt jedoch über eine ausfallsichere WAN-Verbindung, sodass nur ein PSTN-Gateway (Public Switched Telephone Network) benötigt wird. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird an Zweigstellenstandort 2 kein Vermittlungsserver benötigt. Ausführliche Informationen zur Entscheidung darüber, was an einer Zweigstelle installiert werden soll, finden Sie unter [Plan for Enterprise-VoIP resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
@@ -134,11 +134,11 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 - **Beständiger Chat wird bereitgestellt.** Diese Organisation hat die Server bereitgestellt, die zum Aktivieren des beständigen Chats erforderlich sind. Es hat mehrere Front-End-Server für beständigen Chat bereitgestellt, um sowohl die Last für die Anzahl der Benutzer im Pool zu bewältigen als auch um hohe Verfügbarkeit bereitzustellen. Außerdem wurde compliance für beständigen Chat bereitgestellt und die Store für beständigen Chat und die Kompatibilität für beständigen Chat Store auf separaten Servern gespeichert. Diese Speicher können verbunden sein und sogar mit dem Back-End-Server verbunden werden, aber diese Organisation hat sich entschieden, sie zu trennen, um eine bessere Leistung zu erzielen.
 
     > [!NOTE]
-    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
 
 - **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserverpool verwenden dns-Lastenausgleich. Auf diese Weise sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich, und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 
-- **Exchange UM-Bereitstellung.** Skype for Business Server funktioniert sowohl mit lokalen Bereitstellungen von Exchange Unified Messaging (UM) als auch mit gehosteten Exchange UM. Der zentrale Standort A umfasst einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server und nicht Skype for Business Server ausgeführt wird. Die Exchange UM-Funktionalität für Skype for Business Server wird im Front-End-Pool ausgeführt.
+- **Exchange UM-Bereitstellung.** Skype for Business Server funktioniert sowohl mit lokalen Bereitstellungen von Exchange Unified Messaging (UM) als auch mit gehosteten Exchange UM. Der zentrale Standort A enthält einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server und nicht Skype for Business Server ausgeführt wird. Die Exchange UM-Funktionalität für Skype for Business Server wird im Front-End-Pool ausgeführt.
 
     Am zentralen Standort B wird gehostetes Exchange eingesetzt, daher wird die Exchange UM-Serverfunktionalität ebenfalls gehostet.
 
@@ -148,4 +148,4 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 
 - **Directors können hinzugefügt werden.** Wenn diese Organisation die Sicherheit im Hinblick auf Denial-of-Service-Angriffe erhöhen möchte, könnte sie auch einen Pool von Directors bereitstellen. Ein Director ist eine separate, optionale Serverrolle in Skype for Business Server, die keine Benutzerkonten verwaltet oder Anwesenheits- oder Konferenzdienste bereitstellt. Es dient als interner nächster Hopserver, an den ein Edgeserver eingehenden SIP-Datenverkehr weiterleitet, der für interne Server bestimmt ist. Der Director authentifiziert eingehende Anforderungen vorab und leitet sie an den Heimpool oder Server des Benutzers weiter. Die Vorabauthenitifizierung in Director ermöglicht das Aussortieren von Anfragen, die von Benutzerkonten stammen, die in der Bereitstellung nicht bekannt sind. Ein Director hilft dabei, Front-End-Server vor bösartigem Datenverkehr wie Denial-of-Service (DoS)-Angriffen zu schützen. Wenn das Netzwerk bei einem solchen Angriff mit ungültigen externen Datenverkehr überschwemmt wird, endet der Datenverkehr beim Director.
 
-- **System Center Operations Manager wird empfohlen.** Es wird empfohlen, den Status Ihrer Skype for Business Server-Bereitstellung zu überwachen, um die Dienstverfügbarkeit für Endbenutzer sicherzustellen. Sie können das System Center Operations Manager Management Pack für Skype for Business verwenden, das als kostenloser Download von Microsoft verfügbar ist. Mit dem Skype for Business Management Pack können Sie proaktiv Echtzeitwarnungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um End-to-End-Skype for Business-Funktionen zu testen, Berichte zur Dienstverfügbarkeit zu erhalten usw. Dies hilft Ihnen bei der proaktiven Behandlung von Problemen mit Ihrer Bereitstellung, bevor diese für Endbenutzer spürbar werden.
+- **System Center Operations Manager wird empfohlen.** Es wird empfohlen, den Status Ihrer Skype for Business Server-Bereitstellung zu überwachen, um die Dienstverfügbarkeit für Endbenutzer sicherzustellen. Sie können das System Center Operations Manager Management Pack für Skype for Business verwenden, das als kostenloser Download von Microsoft zur Verfügung steht. Mit dem Skype for Business Management Pack können Sie proaktiv Echtzeitwarnungen erhalten, wenn Probleme auftreten, synthetische Transaktionen ausführen, um End-to-End-Skype for Business-Funktionen zu testen, Berichte zur Dienstverfügbarkeit zu erhalten usw. Dies hilft Ihnen bei der proaktiven Behandlung von Problemen mit Ihrer Bereitstellung, bevor diese für Endbenutzer spürbar werden.

@@ -16,24 +16,24 @@ f1keywords:
 description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite "Apps verwalten" im Microsoft Teams Admin Center verwalten.
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
-ms.openlocfilehash: bf286dd4be3c294d8da0928ddb2317814102e7fbadf6fac306919bbae1bb0b88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.localizationpriority: medium
+ms.openlocfilehash: 63c3baabcacd10bbbc2f4003f33eb90a9c302e74
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304857"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604444"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
-Als Administrator können Sie auf der Seite Apps verwalten im Microsoft Teams Admin Center alle Ihre Teams für Ihre Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf Organisationsebene blockieren oder zulassen, Apps zu Teams hinzufügen, Dienste für Apps von Drittanbietern kaufen, von Apps angeforderte Berechtigungen anzeigen, die Zustimmung des Administrator für Apps erteilen und organisationsweite App-Einstellungen verwalten.
+Als Administrator können Sie auf der Seite Apps verwalten im Microsoft Teams Admin Center alle Ihre Teams für Ihre Organisation anzeigen und verwalten. Hier können Sie den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf Organisationsebene blockieren oder zulassen, Apps zu Teams hinzufügen, Dienste für Apps von Drittanbietern kaufen, von Apps angeforderte Berechtigungen anzeigen, administratorweite Zustimmung zu Apps erteilen und organisationsweite App-Einstellungen verwalten.
 
-Auf der Seite "Apps verwalten" erhalten Sie einen Einblick in alle verfügbaren Apps und erhalten so die Informationen, die Sie benötigen, um zu entscheiden, welche Apps in der gesamten Organisation zulässig sind oder blockiert werden. Anschließend können Sie App-Berechtigungsrichtlinien, Richtlinien [](teams-custom-app-policies-and-settings.md) [](teams-app-setup-policies.md)für die App-Einrichtung und benutzerdefinierte App-Richtlinien und -Einstellungen verwenden, um die App-Benutzererfahrung für bestimmte Benutzer in Ihrer Organisation zu konfigurieren. [](teams-app-permission-policies.md)
+Auf der Seite "Apps verwalten" erhalten Sie einen Einblick in alle verfügbaren Apps und erhalten die Informationen, die Sie benötigen, um zu entscheiden, welche Apps in der gesamten Organisation zulässig sind oder blockiert werden. Anschließend können Sie App-Berechtigungsrichtlinien, Richtlinien [](teams-custom-app-policies-and-settings.md) [](teams-app-setup-policies.md)für die App-Einrichtung und benutzerdefinierte App-Richtlinien und -Einstellungen verwenden, um die App-Benutzerdefinierten für bestimmte Benutzer in Ihrer Organisation zu konfigurieren. [](teams-app-permission-policies.md)
 
 Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein Teams sein, um auf die Seite zugreifen zu können.
 
 > [!NOTE]
-> Die Seite Apps verwalten steht in Microsoft 365 Government Community Cloud High-Bereitstellungen (GCCH) oder DoD-Bereitstellungen (Department of Defense) von Teams.
+> Die Seite Apps verwalten steht in Microsoft 365 Government Community Cloud High-Bereitstellungen (GCCH) oder Der US-Verteidigungsabteilung (DoD) von Teams.
 
 ## <a name="view-apps"></a>Anzeigen von Apps
 
@@ -45,7 +45,7 @@ Sie können jede App einschließlich der folgenden Informationen zu jeder App an
 
   ![Screenshot der Seite "Apps-Details" für eine App](media/manage-apps-app-details.png)
   
-- **Zertifizierung:** Wenn die App die Zertifizierung durchgegangen ist, sehen Sie entweder Microsoft 365 **Zertifizierung** oder **Publisher Nachweis.** Wählen Sie den Link aus, um Zertifizierungsdetails für die App anzuzeigen. Wenn "" angezeigt wird, gibt es **--** keine Zertifizierungsinformationen für die App. Weitere Informationen zu zertifizierten Apps in Teams finden Sie unter [Microsoft 365-Zertifizierungsprogramm für Apps.](/teams-app-certification/all-apps)  
+- **Zertifizierung:** Wenn die App die Zertifizierung durchgegangen  ist, sehen Sie entweder Microsoft 365 zertifizierung oder **Publisher Nachweis.** Wählen Sie den Link aus, um Zertifizierungsdetails für die App anzuzeigen. Wenn "" angezeigt wird, gibt es **--** keine Zertifizierungsinformationen für die App. Weitere Informationen zu zertifizierten Apps in Teams finden Sie unter [Microsoft 365-Zertifizierungsprogramm für Apps.](/teams-app-certification/all-apps)  
 - **Publisher:** Name des Herausgebers.
 - **Veröffentlichungsstatus:** Veröffentlichungsstatus von benutzerdefinierten Apps.
 - **Status:** Status der App auf Organisationsebene. Dies kann einer der folgenden sein:
@@ -71,7 +71,7 @@ Wenn Sie die Informationen anzeigen möchten, die in der Tabelle enthalten sein 
 
 Verwenden Sie die Seite "Apps verwalten", um Apps zu veröffentlichen, die speziell für Ihre Organisation erstellt wurden. Nachdem Sie eine benutzerdefinierte App veröffentlicht haben, steht sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten, eine benutzerdefinierte App im App Store Ihrer Organisation zu veröffentlichen. Die Art der Verwendung hängt davon ab, wie Sie die App erhalten.
 
-- [Genehmigen einer benutzerdefinierten](#approve-a-custom-app)App: Verwenden Sie diese Methode, wenn der Entwickler die App mithilfe der APP-Übermittlungs-API direkt an die Seite Apps verwalten Teams übermittelt. Anschließend können Sie die App direkt über die Seite mit den App-Details überprüfen und veröffentlichen (oder ablehnen).
+- [Genehmigen einer benutzerdefinierten](#approve-a-custom-app)App: Verwenden Sie diese Methode, wenn der Entwickler die App mithilfe der APP-Übermittlungs-API direkt an die Seite "Apps verwalten Teams übermittelt. Anschließend können Sie die App direkt über die Seite mit den App-Details überprüfen und veröffentlichen (oder ablehnen).
 - [Hochladen eines App-Pakets:](#upload-an-app-package)Verwenden Sie diese Methode, wenn Ihnen der Entwickler das App-Paket im .zip sendet. Sie veröffentlichen die App, indem Sie das App-Paket hochladen.
 
 ### <a name="approve-a-custom-app"></a>Genehmigen einer benutzerdefinierten App
@@ -80,15 +80,15 @@ Das **Widget "Ausstehende Genehmigungen"** auf der Seite "Apps verwalten" benach
 
 Sie werden auch benachrichtigt, wenn ein Entwickler ein Update an eine benutzerdefinierte App übermittelt. Anschließend können Sie das Update auf der Seite mit den App-Details überprüfen und veröffentlichen (oder ablehnen). Alle App-Berechtigungs- und App-Setuprichtlinien bleiben für die aktualisierte App erhalten.
 
-Weitere Informationen finden Sie unter [Veröffentlichen einer benutzerdefinierten App, die](submit-approve-custom-apps.md)über die API Teams Übermittlung von Apps übermittelt wird.
+Weitere Informationen finden Sie unter Veröffentlichen einer benutzerdefinierten App, die über die [APP Teams Übermittlungs-API übermittelt wird.](submit-approve-custom-apps.md)
 
 ### <a name="upload-an-app-package"></a>Hochladen eines App-Pakets
 
-Der Entwickler erstellt mit Teams [App Studio](/microsoftteams/platform/get-started/get-started-app-studio)ein Teams-App-Paket und sendet es dann im .zip an Sie. Wenn Sie über das App-Paket verfügen, können Sie es in den App Store Ihrer Organisation hochladen.
+Der Entwickler erstellt mithilfe Teams [App Studio](/microsoftteams/platform/get-started/get-started-app-studio)ein Teams-App-Paket und sendet es dann im .zip an Sie. Wenn Sie über das App-Paket verfügen, können Sie es in den App Store Ihrer Organisation hochladen.
 
 Wählen Sie zum Hochladen einer neuen benutzerdefinierten App **Hochladen,** um das App-Paket hochzuladen. Da die App nach dem Hochladen nicht hervorgehoben wird, müssen Sie die Liste der Apps auf der Seite Apps verwalten durchsuchen, um sie zu finden.
 
-Wenn Sie eine App nach dem Hochladen aktualisieren möchten, wählen Sie in der Liste der Apps auf der Seite Apps verwalten den App-Namen und dann **Aktualisieren aus.** Dadurch werden die vorhandene App ersetzt, und alle Richtlinien für App-Berechtigungen und App-Setup bleiben für die aktualisierte App erhalten.
+Wenn Sie eine App nach dem Hochladen aktualisieren möchten, wählen Sie in der Liste der Apps auf der Seite Apps verwalten den App-Namen und dann **Aktualisieren aus.** Dadurch werden die vorhandene App ersetzt, und alle App-Berechtigungsrichtlinien und App-Setuprichtlinien bleiben für die aktualisierte App erhalten.
 
 Weitere Informationen finden Sie unter [Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets.](upload-custom-apps.md)
 
@@ -98,7 +98,7 @@ Auf der Seite "Apps verwalten" können Sie einzelne Apps auf Organisationsebene 
 
 Wenn Sie eine App zulassen oder blockieren möchten, wählen Sie sie und dann Zulassen **oder** Blockieren **aus.** Wenn Sie eine App blockieren, werden alle Interaktionen mit dieser App deaktiviert, und die App wird in Teams Benutzern in Ihrer Organisation nicht angezeigt.
 
-Wenn Sie eine App auf der Seite Apps verwalten blockieren oder zulassen, wird diese App für alle Benutzer in Ihrer Organisation blockiert oder zulässig.  Wenn Sie eine App in einer Berechtigungsrichtlinie für eine Teams-App blockieren oder zulassen, wird sie für Benutzer, denen diese Richtlinie zugewiesen ist, blockiert oder zulässig. Damit ein Benutzer apps installieren und damit interagieren kann, müssen Sie die App auf Organisationsebene auf der Seite Apps verwalten und in der dem Benutzer zugewiesenen App-Berechtigungsrichtlinie zulassen.
+Wenn Sie eine App auf der Seite Apps verwalten blockieren oder zulassen, wird diese App für alle Benutzer in Ihrer Organisation blockiert oder zulässig.  Wenn Sie eine App in einer Berechtigungsrichtlinie für eine Teams-App blockieren oder zulassen, wird sie für Benutzer, denen diese Richtlinie zugewiesen ist, blockiert oder zulässig. Damit ein Benutzer beliebige Apps installieren und damit interagieren kann, müssen Sie die App auf Organisationsebene auf der Seite Apps verwalten und in der dem Benutzer zugewiesenen App-Berechtigungsrichtlinie zulassen.
 
  > [!NOTE]
  > Wenn Sie eine App deinstallieren möchten, klicken  Sie mit  der rechten Maustaste auf die App, und klicken Sie dann auf der linken Seite auf Deinstallieren, oder verwenden Sie das Menü Weitere Apps.
@@ -119,22 +119,22 @@ Sie können eine App jetzt so anpassen, dass sie ein bestimmtes Erscheinungsbild
 
 ## <a name="purchase-services-for-third-party-apps"></a>Erwerben von Diensten für Apps von Drittanbietern
 
-Sie können direkt über die Seite Apps verwalten nach Lizenzen für Dienste suchen und kaufen, die von Drittanbieter-Apps für Benutzer in Ihrer Organisation angeboten werden. Die **Spalte Lizenzen** in der Tabelle gibt an, ob eine App ein kostenpflichtiges SaaS-Abonnement anbietet. Wählen **Sie Jetzt kaufen** aus, um Pläne und Preisinformationen zu sehen und Lizenzen für Ihre Benutzer zu kaufen. Weitere Informationen finden Sie unter [Kaufen von Diensten Teams Drittanbieter-Apps im Microsoft Teams Admin Center.](purchase-third-party-apps.md)
+Sie können direkt über die Seite Apps verwalten nach Lizenzen für Dienste suchen und kaufen, die von Drittanbieter-Apps für Benutzer in Ihrer Organisation angeboten werden. Die **Spalte Lizenzen** in der Tabelle gibt an, ob eine App ein kostenpflichtiges SaaS-Abonnement anbietet. Wählen **Sie Jetzt kaufen** aus, um Pläne und Preisinformationen zu sehen und Lizenzen für Ihre Benutzer zu kaufen. Weitere Informationen finden Sie unter Erwerben von [Teams für Drittanbieter-Apps im Microsoft Teams Admin Center.](purchase-third-party-apps.md)
 
 ## <a name="grant-admin-consent-to-apps"></a>Erteilen der Administratorzusendung für Apps
 
-Sie können Apps, die Berechtigungen für alle Benutzer in Ihrer Organisation anfordern, eine Überprüfung und Zustimmung erteilen. Sie müssen dies tun, damit Benutzer die von der App angeforderten Berechtigungen beim Starten der App nicht überprüfen und akzeptieren müssen. In **der Spalte** Berechtigungen wird angegeben, ob eine App Über Berechtigungen verfügt, für die eine Zustimmung erforderlich ist. Es wird ein Link **Details** anzeigen für jede app angezeigt, die in Azure AD registriert ist und über Berechtigungen verfügt, die eine Zustimmung benötigen. Weitere Informationen finden Sie unter Anzeigen [von App-Berechtigungen und Erteilen der](app-permissions-admin-center.md)Administratorzusberechtigung im Microsoft Teams Admin Center.
+Sie können Apps, die Berechtigungen für alle Benutzer in Ihrer Organisation anfordern, eine Überprüfung und Zustimmung erteilen. Dadurch müssen Benutzer die von der App angeforderten Berechtigungen beim Starten der App nicht überprüfen und akzeptieren. In **der Spalte** Berechtigungen wird angegeben, ob eine App Über Berechtigungen verfügt, für die eine Zustimmung erforderlich ist. Es wird ein Link **Details** anzeigen für jede app angezeigt, die in Azure AD registriert ist und über Berechtigungen verfügt, die eine Zustimmung benötigen. Weitere Informationen finden Sie unter Anzeigen [von App-Berechtigungen und Erteilen der Administratorzusberechtigung im Microsoft Teams Admin Center.](app-permissions-admin-center.md)
 
 ## <a name="view-resource-specific-consent-permissions"></a>Anzeigen ressourcenspezifischer Zustimmungsberechtigungen
 
-Mit ressourcenspezifischen Zustimmungsberechtigungen (RSC) können Teambesitzer einer App die Zustimmung zum Zugreifen auf und Ändern von Teamdaten erteilen. RSC-Berechtigungen sind präzise, Teams Berechtigungen, die definieren, was eine App in einem bestimmten Team tun kann. RsC-Berechtigungen können Sie auf der **Registerkarte** Berechtigungen der App-Detailseite für eine App anzeigen. Weitere Informationen finden Sie unter Anzeigen [von App-Berechtigungen und Erteilen der](app-permissions-admin-center.md)Administratorzusberechtigung im Microsoft Teams Admin Center.
+Mit ressourcenspezifischen Zustimmungsberechtigungen (RSC) können Teambesitzer einer App die Zustimmung zum Zugreifen auf und Ändern von Teamdaten erteilen. RSC-Berechtigungen sind präzise, Teams Berechtigungen, die definieren, was eine App in einem bestimmten Team tun kann. RsC-Berechtigungen können Sie auf der **Registerkarte** Berechtigungen der App-Detailseite für eine App anzeigen. Weitere Informationen finden Sie unter Anzeigen [von App-Berechtigungen und Erteilen der Administratorzusberechtigung im Microsoft Teams Admin Center.](app-permissions-admin-center.md)
 
 ## <a name="manage-org-wide-app-settings"></a>Verwalten von organisationsweiten App-Einstellungen
 
 Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer Apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte Apps in Ihrer Organisation hochladen oder damit interagieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft. Sie können sie verwenden, um bösartige oder problematische Apps zu kontrollieren.
 
 > [!NOTE]
-> Informationen zur Verwendung von organisationsweiten App-Einstellungen in Microsoft 365 Government - Government Community Cloud High GCCH and Department of Defense (DoD)-Bereitstellungen von Teams finden Sie unter Verwalten von Richtlinien für [App-Berechtigungen in Teams.](teams-app-permission-policies.md)
+> Informationen zur Verwendung von organisationsweiten App-Einstellungen in Microsoft 365 Government – Government Community Cloud High GCCH and Department of Defense (DoD)-Bereitstellungen von Teams finden Sie unter Verwalten von Richtlinien für App-Berechtigungen [in Teams.](teams-app-permission-policies.md)
 
 1. Wählen Sie auf der Seite Apps verwalten die **Option Organisationsweite App-Einstellungen aus.** Sie können in dem Fenster dann die gewünschten Einstellungen konfigurieren.
 
@@ -157,17 +157,17 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer A
 
 ## <a name="view-security-and-compliance-information-for-microsoft-365-certified-apps"></a>Anzeigen von Sicherheits- und Complianceinformationen Microsoft 365 zertifizierten Apps
 
-Bei der Auswertung einer App für ihre Organisation können Administratoren unabhängige Cloud Access Security Broker (CASB), z. B. Microsoft Cloud App Security (MCAS), verwenden, um Informationen zu Sicherheit und Verhalten einer App zu finden. Das Teams Admin Center enthält Sicherheits- und Complianceinformationen von MCAS für Microsoft 365 Certified-Apps, sodass Sie weitere Informationen dazu erhalten, ob die App Ihren Anforderungen entspricht oder nicht.
+Bei der Auswertung einer App für ihre Organisation können Administratoren unabhängige Cloud Access Security Broker (CASB), z. B. Microsoft Cloud App Security (MCAS), verwenden, um Informationen zu Sicherheit und Verhalten einer App zu finden. Das Teams Admin Center enthält Sicherheits- und Complianceinformationen von MCAS für Microsoft 365-zertifizierte Apps, sodass Sie weitere Informationen dazu erhalten, ob die App Ihren Anforderungen entspricht oder nicht.
 
 > [!NOTE]
 > Dieses Feature steht allen Administratoren zur Verfügung, unabhängig davon, ob Ihre Organisation über eine Lizenz verfügt, die MCAS unterstützt.
 
 Führen Sie die folgenden Schritte aus, um auf MCAS-Informationen zu zugreifen:
 
-1. Wählen Sie Teams Admin Center unter Apps verwalten **Teams** **aus.**
-1. Wählen **Sie Zertifizierung** aus, um Apps zu sortieren und Microsoft 365 zertifizierten Apps an den Oberen Rand der Tabelle zu bringen.
+1. Wählen Sie Teams Admin Center  unter Apps Teams **aus.**
+1. Wählen **Sie Zertifizierung** aus, um Apps zu sortieren und Microsoft 365 zertifizierten Apps an den Tabellen oben zu bringen.
 1. Wählen Sie eine Microsoft 365 aus.
-1. Wählen Sie **die Registerkarte Sicherheit und Compliance** aus.
+1. Wählen Sie die **Registerkarte Sicherheit und Compliance** aus.
 
 ![Screenshot der registerkarte Teams Admin Center für Sicherheit und Compliance](media/mcas.png)
 

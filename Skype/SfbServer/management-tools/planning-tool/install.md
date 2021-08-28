@@ -10,16 +10,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
 description: Bevor Sie mit dem Entwerfen und Planen Ihrer Skype for Business Server 2015-Infrastruktur mit dem Skype for Business Server 2015-Planungstool beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungstool muss nicht auf einer Arbeitsstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie Skype for Business Server 2015 installieren möchten. Die Infodatei, die das Planungstool begleitet, enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige der Informationen in der Infodatei werden hier aus Gründen der Übersichtlichkeit dupliziert.
-ms.openlocfilehash: ffa1bceca3e59e42276718b5f139ac6525d36f85face94c762ceebe3013c7487
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343409"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616511"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installieren des Planungstools in Skype for Business Server 2015
 
@@ -30,7 +30,7 @@ Bevor Sie mit dem Entwerfen und Planen Ihrer Skype for Business Server 2015-Infr
 
 Die unterstützten Betriebssysteme für die Installation und den Betrieb des Planungstools sind:
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -42,7 +42,7 @@ Die unterstützten Betriebssysteme für die Installation und den Betrieb des Pla
 
 - Windows 7- und 32-Bit-Edition
 
-- Windows 7.64-Bit-Edition mit Windows unter Win32 (WOW)
+- Windows 7- und 64-Bit-Edition mit Windows auf Win32 (WOW)
 
 - Windows Server 2008 R2 mit WOW
 
@@ -58,13 +58,13 @@ Nachdem die Vorinstallationsanforderungen erfüllt sind, können Sie das Planung
 
 2. Suchen Sie mit Windows Explorer oder einem Befehlsfenster nach dem Verzeichnis, in das Sie die Installationsdateien des Planungstools heruntergeladen haben.
 
-3. Suchen Sie die SkypeForBusinessPlanningTool.msi. Doppelklicken Sie Windows Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE,** um die Datei auszuführen.
+3. Suchen Sie die SkypeForBusinessPlanningTool.msi. Doppelklicken Sie im Windows Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE,** um die Datei auszuführen.
 
-4. Klicken Sie auf der Willkommensseite des **Setup-Assistenten Skype for Business Server 2015** auf **"Weiter".**
+4. Klicken Sie auf der Willkommensseite der **Skype for Business Server 2015, Planning Tool Setup Wizard,** auf **"Weiter".**
 
 5. Überprüfen Sie den **Endbenutzer-Lizenzvertrag,** wählen Sie **"Ich stimme den Bedingungen im Lizenzvertrag** zu, wenn Sie die Nutzungsbedingungen im Lizenzvertrag akzeptieren", und klicken Sie dann auf **"Weiter".**
 
-6. Wählen Sie aus, wo die Dateien des Planungstools installiert werden sollen. Der Standardspeicherort lautet "C:\Programme (x86)\Skype for Business Server 2015\Planning Tool". Wenn Sie den Installationsspeicherort ändern möchten, klicken Sie auf **"Ändern".** Navigieren Oder geben Sie im **Ordner "Ziel ändern"** den Speicherort zum Installieren der Dateien ein, klicken Sie auf **"OK"** und dann auf **"Weiter".**
+6. Wählen Sie aus, wo die Dateien des Planungstools installiert werden sollen. Der Standardspeicherort ist "C:\Programme (x86)\Skype for Business Server 2015\Planning Tool". Wenn Sie den Installationsspeicherort ändern möchten, klicken Sie auf **"Ändern".** Navigieren Oder geben Sie im **Ordner "Ziel ändern"** den Speicherort zum Installieren der Dateien ein, klicken Sie auf **"OK"** und dann auf **"Weiter".**
 
 7. Das Installationsprogramm kann nun das Planungstool installieren. Klicken Sie auf **"Installieren",** um den Installationsvorgang zu starten.
 

@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: cc2fbf41-a7e0-4ef8-a939-47bc42da5529
 description: 'Zusammenfassung: Erfahren Sie, was Sie berücksichtigen sollten, wenn Sie das Anrufqualitäts-Dashboard planen.'
-ms.openlocfilehash: 314c0c631cda29d23accc39980da25fdad567619797d515b90f31ebff9ccd450
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e93db0e3e297de8eff81cea16fa15ff9c7dd42e0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340891"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588577"
 ---
 # <a name="plan-for-call-quality-dashboard-for-skype-for-business-server"></a>Planen des Anrufqualitäts-Dashboards für Skype for Business Server 
  
@@ -26,24 +26,24 @@ ms.locfileid: "54340891"
   
 ## <a name="overview-of-the-skype-for-business-server-call-quality-dashboard"></a>Übersicht über das Skype for Business Server-Anrufqualitäts-Dashboard
 
-Das Skype for Business Server Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) ist eine Berichtsebene über der Quality of Experience-Datenbank im Monitoring Server in Skype for Business Server. CQD verwendet Microsoft SQL Server Analysis Services, um aggregierte Informationen zur Nutzung und Anrufqualität sowie zum Filtern und Pivotieren des Datasets bereitzustellen. Zu den CQD-Features gehören:
+Das Skype for Business Server Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) ist eine Berichtsebene, die sich über der Quality of Experience-Datenbank im Monitoring Server in Skype for Business Server befindet. CQD verwendet Microsoft SQL Server Analysis Services, um aggregierte Informationen zur Nutzung und Anrufqualität sowie zum Filtern und Pivotieren des Datasets bereitzustellen. Zu den CQD-Features gehören:
   
 - **Archivieren der QoE-Daten über die QoE-Archivkomponente von CQD.** Die QoE-Archivkomponente kann QoE-Daten für eine viel längere Dauer speichern, als der Monitoring Server kann. Dies ermöglicht trending und Berichterstellung für bis zu sieben Monate Daten gleichzeitig, mit der Möglichkeit, das Berichterstellungsfenster so weit zurück zu schieben, wie Daten vorhanden sind.
 - **Berichterstellung und Analyse mithilfe der Leistungsfähigkeit und Geschwindigkeit von Microsoft SQL Server Analysis Services.** CQD nutzt Microsoft SQL Analysis Services, um schnelle Zusammenfassungs-, Filter- und Pivotingfunktionen bereitzustellen, um das Dashboard über einen Analysis Cube zu unterstützen. Das Melden der Ausführungsgeschwindigkeit und die Möglichkeit, einen Drilldown in die Daten durchzuführen, kann die Analysezeiten erheblich reduzieren.
 - **Neues Datenschema für die Anrufqualitätsberichterstellung optimiert.** Der Cube verfügt über ein Schema, das für berichte und Untersuchungen zur Sprachqualität entwickelt wurde. Portalbenutzer können sich auf die Berichtsaufgaben konzentrieren, anstatt herauszufinden, wie das QoE Metrics-Datenbankschema den benötigten Ansichten zugeordnet wird. Die Kombination aus dem QoE-Archiv und dem Cube bietet eine Abstraktion, die die Komplexität der Berichterstellung und Analyse über CQD reduziert. Das QoE-Archivdatenbankschema enthält auch Tabellen, die mit bereitstellungsspezifischen Daten aufgefüllt werden können, um den Gesamtwert der Daten zu verbessern.
 - **Integrierte Berichts-Designer und in-situ-Berichtbearbeitung.** Die Portalkomponente enthält mehrere integrierte Berichte, die nach der Call Quality Methodology modelliert wurden. Portalbenutzer können die Berichte ändern und neue Berichte über die Bearbeitungsfunktionalität des Portals erstellen.
-- **Web-API-Zugriff auf die Berichtstruktur- und Analyse-Cube-Daten.** Das Dashboard-Berichterstellungsframework ist nicht die einzige Möglichkeit zum Anzeigen der Daten aus dem Cube. CQD enthält mehrere Beispiele für die Verwendung von HTML und JavaScript zum Abrufen von Daten aus den CQD-Web-APIs und zum Rendern der Daten in einem benutzerdefinierten Format. Die Kombination aus dem Berichts-Editor und den CQD-Web-APIs ermöglicht eine schnelle Prototyperstellung von Berichten und benutzerdefiniertem Berichtslayout.
+- **Web-API-Zugriff auf die Berichtstruktur- und Analyse-Cube-Daten.** Das Dashboard-Berichterstellungsframework ist nicht die einzige Möglichkeit zum Anzeigen der Daten aus dem Cube. CQD enthält mehrere Beispiele für die Verwendung von HTML und JavaScript zum Abrufen von Daten aus den CQD-Web-APIs und zum Rendern der Daten in einem benutzerdefinierten Format. Die Kombination aus dem Berichts-Editor und den CQD-Web-APIs ermöglicht eine schnelle Prototyperstellung von Berichten und eines benutzerdefinierten Berichtslayouts.
 
 > [!NOTE]
 > Ein Administrator kann jetzt Skype for Business Server 2019 mit [CQD Version 3](https://cqd.teams.microsoft.com) verwalten (melden Sie sich mit Administratoranmeldeinformationen an). Dies erfordert eine Hybridimplementierung und die Verwendung von Call Data Connector (CDC). Weitere Informationen zum Aktivieren von CDC finden Sie unter ["Plan Call Data Connector".](../../../SfbHybrid/hybrid/plan-call-data-connector.md) Weitere Informationen zu CQD Version 3 finden Sie unter Aktivieren und Verwenden des [Anrufqualitäts-Dashboards für Microsoft Teams und Skype for Business Online.](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard)
 
 ## <a name="cqd-design-goals"></a>CQD-Entwurfsziele
 
-CQD ermöglicht IT-Experten die Verwendung aggregierter Daten, um Fokusbereiche in ihrer Umgebung zu identifizieren, in denen Probleme mit der Medienqualität auftreten. It-Pro können Statistiken für verschiedene Benutzergruppen vergleichen und Trends und Muster identifizieren. Der Schwerpunkt liegt nicht auf der Lösung einzelner Anrufprobleme, sondern auf der Identifizierung von Problemen und Lösungen, die für viele Benutzer in einer bestimmten Umgebung gelten. 
+CQD ermöglicht IT-Experten die Verwendung aggregierter Daten, um Fokusbereiche in ihrer Umgebung zu identifizieren, in denen Probleme mit der Medienqualität auftreten. It-Pro ermöglicht es, Statistiken für verschiedene Benutzergruppen zu vergleichen und Trends und Muster zu identifizieren. Der Schwerpunkt liegt nicht auf der Lösung einzelner Anrufprobleme, sondern auf der Identifizierung von Problemen und Lösungen, die für viele Benutzer in einer bestimmten Umgebung gelten. 
   
 ## <a name="call-quality-dashboard-components"></a>Komponenten des Anrufqualitätsdashboards
 
-Das Anrufqualitäts-Dashboard besteht aus mehreren Datenbanken, Microsoft SQL Agent-Aufträgen, Prozessen und Webanwendungen. Die Microsoft SQL Agent-Aufträge kopieren regelmäßig Daten aus der QoE-Metrikdatenbank in die QoE-Archivdatenbank und verarbeiten den Cube mit den Daten in der QoE-Archivdatenbank. In der Repository-Datenbank werden die Berichtsdefinitionen gespeichert, die das Portal unterstützen. Das Portal bietet Browserzugriff auf die Cube-Daten. 
+Das Anrufqualitäts-Dashboard besteht aus mehreren Datenbanken, Microsoft SQL Agent-Aufträgen, Prozessen und Webanwendungen. Die Microsoft SQL-Agent-Aufträge kopieren in regelmäßigen Abständen Daten aus der QoE-Metrikdatenbank in die QoE-Archivdatenbank und verarbeiten den Cube mit den Daten in der QoE-Archivdatenbank. In der Repository-Datenbank werden die Berichtsdefinitionen gespeichert, die das Portal unterstützen. Das Portal bietet Browserzugriff auf die Cube-Daten. 
   
 Die CQD-Komponenten, einschließlich der QoE-Archiv-, Cube- und Repository-Datenbanken, können auf dem Monitoring Server, auf einem eigenen Server oder auf mehreren Servern installiert werden. Die jeweilige Installationsmethode hängt von den Leistungsanforderungen von CQD sowie von den Auswirkungen auf andere Prozesse auf denselben Servern ab. Weitere Informationen finden Sie im Abschnitt "Komponenten und Topologien für CQD" weiter unten in diesem Artikel.
   
@@ -59,7 +59,7 @@ Zusammenfassend lässt sich feststellen, dass das CQD die folgenden Elemente erf
     
 ![CQD-Komponenten](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-Dieselbe CQD-Architektur unterstützt Lync Server 2013 und Skype for Business. 
+Die gleiche CQD-Architektur unterstützt Lync Server 2013 und Skype for Business. 
   
 ### <a name="cqd-and-skype-for-business-vs-lync-2013"></a>CQD und Skype for Business im Vergleich zu Lync 2013
 
@@ -91,7 +91,7 @@ Unterstützte Browser für das CQD-Portal: Internet Explorer 11, Internet Explor
   
 ### <a name="rest-apis"></a>REST-APIs
 
-Auf die Cube-Daten kann auch über REST-API-Aufrufe zugegriffen werden. Die über die REST-API-Aufrufe abgerufenen Daten können über HTML-Seiten gerendert werden. Benutzer können die Abfragegeschwindigkeit und das allgemeine Schema von CQD nutzen, während sie weiterhin benutzerdefinierte Berichte erstellen, die ihren geschäftlichen Anforderungen entsprechen. Weitere Informationen zur API und zu Beispielen finden Sie unter "Entwickeln des [Anrufqualitäts-Dashboards für Skype for Business Server".](develop.md) 
+Auf die Cube-Daten kann auch über REST-API-Aufrufe zugegriffen werden. Die über die REST-API-Aufrufe abgerufenen Daten können über HTML-Seiten gerendert werden. Benutzer können die Abfragegeschwindigkeit und das allgemeine Schema von CQD nutzen und gleichzeitig benutzerdefinierte Berichte erstellen, die ihren geschäftlichen Anforderungen entsprechen. Weitere Informationen zur API und zu Beispielen finden Sie unter "Entwickeln des [Anrufqualitäts-Dashboards für Skype for Business Server".](develop.md) 
   
 ## <a name="defining-your-organizations-requirements-for-cqd"></a>Definieren der Anforderungen Ihrer Organisation für CQD
 
@@ -99,7 +99,7 @@ CQD bietet QoE-Datenarchivierung und schnelle und umfassende Analyse von Anrufqu
   
 ### <a name="when-to-deploy-cqd"></a>Wann sollte CQD bereitgestellt werden?
 
- **CQD kann bereitgestellt werden, um eine grundlegende Messung der Anrufqualität einzurichten, auch wenn in einer Organisation keine Probleme mit der Anrufqualität auftreten.** Das Einrichten einer grundlegenden Messung der Anrufqualität ist wichtig, da jede Organisation eine andere Mischung aus Wi-Fi und nicht mit kabelgebundenen und Remote- und Büromitarbeitern hat. Wenn Probleme mit der Anrufqualität auftreten, können die neuesten Messungen der Anrufqualität mit früheren Zeitintervallen verglichen werden. Die trendigen Features von CQD ermöglichen eine einfache Erkennung von Änderungen der Anrufqualität im Laufe der Zeit.
+ **CQD kann bereitgestellt werden, um eine grundlegende Messung der Anrufqualität einzurichten, auch wenn in einer Organisation keine Probleme mit der Anrufqualität auftreten.** Die Festlegung einer grundlegenden Anrufqualitätsmessung ist wichtig, da jede Organisation eine andere Mischung aus Wi-Fi und nicht mit kabelgebundenen und Remote- oder Büromitarbeitern hat. Wenn Probleme mit der Anrufqualität auftreten, können die neuesten Messungen der Anrufqualität mit früheren Zeitintervallen verglichen werden. Die trendigen Features von CQD ermöglichen eine einfache Erkennung von Änderungen der Anrufqualität im Laufe der Zeit.
   
  **CQD kann bereitgestellt werden, um proaktiv Problembereiche zu finden, die sich auf die Anrufqualität auswirken können.** Auch wenn die durchschnittliche Anrufqualität für eine Organisation die von der Organisation festgelegten Ziele erreichen könnte, gibt es möglicherweise Probleme mit der Anrufqualität, die hinter durchschnittlichen Metriken verborgen sind. CQD ermöglicht eine pivottabellenähnliche Aufschlüsselung der Anrufqualitätsmetriken nach vielen Dimensionen in der QoEMetrics-Datenbank. Das Auffinden von Ausreißern in Peergruppen ist eine schnelle Möglichkeit, Probleme mit der Anrufqualität proaktiv zu finden.
   
@@ -134,7 +134,7 @@ CQD enthält mehrere Komponenten und hilft dabei, die Anforderungen der einzelne
 
 Alle CQD-Komponenten und abhängigen Komponenten können auf einem Computer installiert werden. Die Konfiguration mit einem einzigen Feld ist die einfachste Konfiguration und ermöglicht die eigenständige CQD-Konfiguration. CQD würde nur Zugriff auf die QoE-Metrikdatenbank auf dem Monitoring Server benötigen. Der CQD-Server kann ein eigenständiger Computer, ein virtueller Computer oder sogar der Monitoring Server sein, je nach den verfügbaren Ressourcen des Hostcomputers und den Leistungsanforderungen. 
   
-Während der Installation muss der Benutzer, der die Installation ausführt, lediglich die Microsoft SQL Server und Microsoft SQL Server Analysis Services-Instanzen bereitstellen, die zuvor auf dem Computer eingerichtet wurden, auf dem das CQD installiert werden soll. Weitere Informationen finden Sie unter Bereitstellen des Anrufqualitätsdashboards [für Skype for Business Server.](deploy-0.md)
+Während der Installation muss der Benutzer, der die Installation ausführt, einfach die Microsoft SQL Server und Microsoft SQL Server Analysis Services-Instanzen bereitstellen, die zuvor auf dem Computer eingerichtet wurden, auf dem das CQD installiert werden soll. Weitere Informationen finden Sie unter [Bereitstellen des Anrufqualitätsdashboards für Skype for Business Server.](deploy-0.md)
   
 ### <a name="multiserver-configuration"></a>Multiserverkonfiguration
 
@@ -154,12 +154,12 @@ In einer Multiserverkonfiguration können sich das QoE-Archiv, der Cube und das 
   
 ### <a name="supported-topologies"></a>Unterstützte Topologien
 
-CQD führt keine Daten aus mehreren QoEMetrics-Datenbanken zusammen, wie dies der Fall ist, wenn mehrere Skype for Business Server Topologien vorhanden sind, die jeweils über einen eigenen Monitoring Server verfügen. Jede CQD-Instanz muss auf eine QoEMetrics-Datenbank verweisen. Da das CQD jedoch einen Großteil der Berichtsarbeitslast vom Monitoring Server entfernt, sollten große Organisationen, die einen Monitoring Server pro Skype for Business Server Topologie bereitstellen mussten, die Verwendung eines Monitoring Servers für alle Topologien in Betracht ziehen.
+CQD führt keine Daten aus mehreren QoEMetrics-Datenbanken zusammen, wie dies der Fall ist, wenn mehrere Skype for Business Server Topologien vorhanden sind, die jeweils über einen eigenen Monitoring Server verfügen. Jede CQD-Instanz muss auf eine QoEMetrics-Datenbank verweisen. Da das CQD jedoch einen Großteil der Berichtsarbeitslast vom Monitoring Server entfernt, sollten große Organisationen, die einen Überwachungsserver pro Skype for Business Server Topologie bereitstellen mussten, die Verwendung eines Monitoring Servers für alle Topologien in Betracht ziehen.
   
 ## <a name="infrastructure-requirements-for-cqd"></a>Infrastrukturanforderungen für CQD
 <a name="Infrastructure_Req"> </a>
 
-CQD, einschließlich aller komponenten und abhängigen Komponenten, kann auf einem virtuellen Computer, einem einzelnen Computer oder auf mehreren Computern bereitgestellt werden. Die Mindestanforderungen an Software und Hardware sind unten aufgeführt. Datenverfügbarkeit und Abfrageleistung können je nach Anzahl der aktiven Skype for Business Server Benutzer und Hardware und Konfiguration von Minuten bis Stunden variieren. Daher werden unten einige Leistungsmessungen durchgeführt.
+CQD, einschließlich aller komponenten und abhängigen Komponenten, kann auf einem virtuellen Computer, einem einzelnen Computer oder auf mehreren Computern bereitgestellt werden. Die Mindestanforderungen an Software und Hardware sind unten aufgeführt. Die Datenverfügbarkeit und Abfrageleistung kann von Minuten zu Stunden variieren, abhängig von der Anzahl der aktiven Skype for Business Server Benutzern und der Hardware und Konfiguration. Daher werden unten einige Leistungsmessungen durchgeführt.
   
 |||
 |:-----|:-----|
@@ -183,7 +183,7 @@ Die Datenverarbeitung im CQD ist in zwei Hauptphasen unterteilt:
     
   **QoE-Archivverarbeitung.** Die QoE-Archivierungsverarbeitungsaufgabe kopiert Daten aus der QoE-Metrikdatenbank auf dem Überwachungsserver in die QoE-Archivdatenbank. Es gibt zwei Situationen, in denen die Verarbeitungszeit der Aufgabe grundlegend unterschiedliche Leistungsmerkmale aufweisen würde. Der erste ist nach der ersten Installation von CQD. Wenn die Aufgabe zum ersten Mal nach einer Neuinstallation ausgeführt wird, kopiert die QoE-Archivverarbeitungsaufgabe alle Daten, die sich in der QoE-Metrikdatenbank befinden, in die QoE-Archivdatenbank. Die zweite ist die regelmäßige Verarbeitung nach dieser ersten Runde. Die QoE-Archivierungsverarbeitungsaufgabe wird alle 15 Minuten ausgeführt und verarbeitet alle neuen QoE-Datensätze, die sich in der QoE-Metrikdatenbank befinden. Im Allgemeinen ist die anfängliche Verarbeitungszeit kein Problem, da sie nur beim ersten Mal ausgeführt wird, wenn CQD installiert wird. Wenn der CQD-Server jedoch stark unterverlastet ist, kann diese Aufgabe mehrere Stunden dauern. In der folgenden Tabelle finden Sie Beispiele für die anfänglichen QoE-Archivverarbeitungszeiten.
   
-  **CQD Cube-Verarbeitung.** Der Cube-Verarbeitungsvorgang aggregiert die Daten aus der QoE-Archivdatenbank in den Cube. Die anfängliche Cubeverarbeitungszeit und die anschließende Cubeverarbeitungszeit werden durch die SQL Server Analysis Services-Edition bestimmt, die für den CQD-Cube verwendet wird. Wenn die Standard Edition verwendet wird, gibt es keinen Unterschied zwischen der anfänglichen Cubeverarbeitungszeit und der nachfolgenden Cubeverarbeitungszeit, da bei jeder Aktualisierung der Cube-Daten immer eine vollständige Verarbeitung aller verfügbaren Daten erfolgt. (Dies bedeutet, dass die Verarbeitungszeit des Cubes mit zunehmender Datenmenge in der QoE-Archivdatenbank zunimmt.) Da business Intelligence Edition und Enterprise Edition von SQL Server Partitionsunterstützung haben, werden bei Verwendung einer der editionen nur bei der ersten Ausführung alle Daten in der QoE-Archivdatenbank verarbeitet. Wenn die Aufgabe in nachfolgenden Ausführungen alle 15 Minuten ausgelöst wird, verarbeitet die Aufgabe nur die neuen Datensätze, die der QoE-Archivdatenbank seit der letzten Ausführung der Aufgabe hinzugefügt wurden. Einmal am Tag wird auch eine vollständige Verarbeitung auf der Partition durchgeführt, die die Daten des aktuellen Monats enthält.
+  **CQD Cube-Verarbeitung.** Der Cube-Verarbeitungsvorgang aggregiert die Daten aus der QoE-Archivdatenbank in den Cube. Die anfängliche Cubeverarbeitungszeit und die anschließende Cubeverarbeitungszeit werden durch die SQL Server Analysis Services-Edition bestimmt, die für den CQD-Cube verwendet wird. Wenn die Standard Edition verwendet wird, gibt es keinen Unterschied zwischen der anfänglichen Cubeverarbeitungszeit und der nachfolgenden Cubeverarbeitungszeit, da bei jeder Aktualisierung der Cube-Daten immer eine vollständige Verarbeitung aller verfügbaren Daten erfolgt. (Dies bedeutet, dass die Verarbeitungszeit des Cubes mit zunehmender Datenmenge in der QoE-Archivdatenbank zunimmt.) Da die Business Intelligence Edition und Enterprise Edition von SQL Server Partitionsunterstützung haben, werden bei Verwendung einer der editionen nur bei der ersten Ausführung alle Daten in der QoE-Archivdatenbank verarbeitet. Wenn die Aufgabe in nachfolgenden Ausführungen alle 15 Minuten ausgelöst wird, verarbeitet die Aufgabe nur die neuen Datensätze, die der QoE-Archivdatenbank seit der letzten Ausführung der Aufgabe hinzugefügt wurden. Einmal am Tag wird auch eine vollständige Verarbeitung auf der Partition durchgeführt, die die Daten des aktuellen Monats enthält.
   
 Die Merkmale des physischen Computers können sich auf die CQD-Leistung sowie auf die Softwarefeatures auswirken, die in den SQL Server-Komponenten verfügbar sind. Die QoE-Archivkomponente ist im Vergleich zu anderen Komponenten festplattenintensiver, während die Cube-Komponente cpu- und speicherintensiver ist. Alle diese Faktoren tragen zur gesamten Datenverarbeitungszeit von CQD bei, was sich direkt auf die Aktualität und Verfügbarkeit von Daten auswirkt. Organisationen sollten Entscheidungen hinsichtlich der Hardware und Software auf der Grundlage der individuellen Anforderungen der Organisation treffen. 
   
@@ -204,22 +204,22 @@ In diesem Abschnitt wird davon ausgegangen, dass eine einzelne QoEMetrics DB in 
 
 |**Computer**|**QoE-Metriken – DB-Größe**|**SQL Partitionen**|**Datenträgertyp**|**Anzahl der Datenströme**|**Anfänglicher Archivierungsprozess**|**Anfänglicher Cubeprozess**|**Nachfolgender Archivierungsprozess**|**Nachfolgender Cube-Prozess**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Virtueller Computer  <br/> |900 MB  <br/> |Single  <br/> |VHD (variable Größe)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
-|Virtueller Computer  <br/> |9 GB  <br/> |Single  <br/> |VHD (variable Größe)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Virtueller Computer  <br/> |9 GB  <br/> |Single  <br/> |VHD (feste Größe)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
-|Virtueller Computer  <br/> |30+ GB  <br/> |Single  <br/> |VHD (feste Größe)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
-|8 Kerne  <br/> |9 GB  <br/> |Single  <br/> |Mehrere Datenträger  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
+|Virtueller Computer  <br/> |900 MB  <br/> |Einzelverarbeitung  <br/> |VHD (variable Größe)  <br/> |0,5 M  <br/> |30 m  <br/> |2 m  <br/> |30 s  <br/> |1 m  <br/> |
+|Virtueller Computer  <br/> |9 GB  <br/> |Einzelverarbeitung  <br/> |VHD (variable Größe)  <br/> |5 M  <br/> |4 h  <br/> |15 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Virtueller Computer  <br/> |9 GB  <br/> |Einzelverarbeitung  <br/> |VHD (feste Größe)  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |1 m  <br/> |5 m  <br/> |
+|Virtueller Computer  <br/> |30+ GB  <br/> |Einzelverarbeitung  <br/> |VHD (feste Größe)  <br/> |10 M  <br/> |15 h  <br/> |20 m  <br/> |2 m  <br/> |45 m  <br/> |
+|8 Kerne  <br/> |9 GB  <br/> |Einzelverarbeitung  <br/> |Mehrere Datenträger  <br/> |5 M  <br/> |2 h  <br/> |5 m  <br/> |25 s  <br/> |5 m  <br/> |
 |8 Kerne  <br/> |9 GB  <br/> |Mehrere  <br/> |Mehrere Datenträger  <br/> |5 M  <br/> |2 h  <br/> |15 m  <br/> |35 s  <br/> |2 m  <br/> |
-|8 Kerne  <br/> |30+ GB  <br/> |Single  <br/> |Mehrere Datenträger  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
+|8 Kerne  <br/> |30+ GB  <br/> |Einzelverarbeitung  <br/> |Mehrere Datenträger  <br/> |20 M  <br/> |9 h  <br/> |20 m  <br/> |1 m  <br/> |20 m  <br/> |
 |8 Kerne  <br/> |30+ GB  <br/> |Mehrere  <br/> |Mehrere Datenträger  <br/> |20 M  <br/> |9 h  <br/> |30 m  <br/> |2 m  <br/> |2 m  <br/> |
-|4 Kerne  <br/> |200 GB  <br/> |Single  <br/> |Mehrere Datenträger  <br/> |125 M  <br/> |6+ Tage  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
+|4 Kerne  <br/> |200 GB  <br/> |Einzelverarbeitung  <br/> |Mehrere Datenträger  <br/> |125 M  <br/> |6+ Tage  <br/> |7 h  <br/> |2 m  <br/> |6 h  <br/> |
 |16 Kerne  <br/> |500 GB  <br/> |Mehrere  <br/> |Mehrere Ausschlüsse  <br/> |250 M  <br/> |8 Tage  <br/> |2 h  <br/> |2 m  <br/> |10 m  <br/> |
    
 \*Es wird nicht erwartet, dass diese in echten Bereitstellungen auftreten, da die QoE-Metrikdatenbank daten über 9 bzw. 18 Monate verfügen müsste, aber sie werden hier zur Vollständigkeit bereitgestellt.
   
 ### <a name="service-account-requirements"></a>Dienstkontoanforderungen
 
-Sie benötigen ein Konto (mit Lesezugriff auf QoEMetrics), das der SQL-Agent auf dem CQD-Server zum Importieren von Daten in die QoEArchiveDB verwenden kann.
+Sie benötigen ein Konto (mit Lesezugriff auf QoEMetrics), das der SQL-Agent auf dem CQD-Server zum Importieren von Daten in QoEArchiveDB verwenden kann.
   
 Möglicherweise müssen Sie auch ein separates Konto für einen SSAS-Auftrag konfigurieren, um Daten aus QoEArchiveDB abzurufen (dies ist ein optionaler Prozess).
   
@@ -231,11 +231,11 @@ Standardmäßig hat jeder authentifizierte Benutzer Zugriff. Dies kann mithilfe 
   
 ### <a name="pre-install-requirements"></a>Voraussetzungen für die Vorinstallation
 
-Bei diesen Anweisungen wird davon ausgegangen, dass eine QoE Metrics-Datenbank bereits installiert wurde und an einer stelle stelle in der Skype for Business Server Topologie ausgeführt wird.
+Bei diesen Anweisungen wird davon ausgegangen, dass eine QoE Metrics-Datenbank bereits installiert wurde und an einer anderen Stelle in der Skype for Business Server-Topologie ausgeführt wird.
   
 #### <a name="hardware-requirements"></a>Hardwareanforderungen
 
-CQD nutzt Microsoft SQL Server, Microsoft SQL Analysis Server und Microsoft Internet Information Server, sodass die Mindestanforderungen an Hardware und Software von CQD im Wesentlichen mit diesen abhängigen Komponenten identisch sind. Basierend auf den Anforderungen der Organisation in Bezug auf die Aktualität von Daten (die teilweise von der Menge der von der Organisation generierten QoE-Daten abhängen) und den Bereitstellungskosten sollten zusätzliche Bereitstellungsaspekte berücksichtigt werden.
+CQD verwendet Microsoft SQL Server, Microsoft SQL Analysis Server und Microsoft Internet Information Server, sodass die Mindestanforderungen an Hardware und Software von CQD im Wesentlichen mit diesen abhängigen Komponenten identisch sind. Basierend auf den Anforderungen der Organisation in Bezug auf die Aktualität von Daten (die teilweise von der Menge der von der Organisation generierten QoE-Daten abhängen) und den Bereitstellungskosten sollten zusätzliche Bereitstellungsaspekte berücksichtigt werden.
   
 #### <a name="software-requirements"></a>Softwareanforderungen
 
@@ -282,7 +282,7 @@ Es folgen die erforderlichen IIS-Rollendienste (in hierarchischer Reihenfolge):
   - IIS-Verwaltungskonsole
     
 > [!NOTE]
->  Beachten Sie für die oben genannten Anforderungen Folgendes: > Versionen 3.5 und 4.5 des .Net Frameworks sind verfügbar. Beides ist erforderlich (genauer gesagt: 3.5 SP1 ist erforderlich).> Wenn ASP.NET in einigen Systemen vor der IIS-Installation eingerichtet ist, werden ASP.NET möglicherweise nicht in IIS registriert. Das Problem manifestiert sich durch das Fehlen von Anwendungspools für die entsprechende .Net-Version und fehlende .NET CLR-Version in der App-Poolkonfiguration. Um ein solches Problem auf Windows Server 2008 R2 zu beheben, führen Sie `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . Führen Sie auf Windows Server 2012 und Windows Server 2012 R2 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` das Modul "ServiceModel" aus der Standardwebsite in IIS Manager.> Management tools ist optional, wird jedoch empfohlen.
+>  Beachten Sie für die oben genannten Anforderungen Folgendes: > Versionen 3.5 und 4.5 des .Net Frameworks sind verfügbar. Beides ist erforderlich (genauer gesagt: 3.5 SP1 ist erforderlich).> Wenn ASP.NET in einigen Systemen vor der IIS-Installation eingerichtet wird, werden ASP.NET möglicherweise nicht in IIS registriert. Das Problem manifestiert sich durch das Fehlen von Anwendungspools für die entsprechende .Net-Version und fehlende .NET CLR-Version in der App-Poolkonfiguration. Um ein solches Problem auf Windows Server 2008 R2 zu beheben, führen Sie `%systemroot%\Microsoft.NET\Framework64\4.0.30319\aspnet_regiis.exe -iru` . Führen Sie auf Windows Server 2012 und Windows Server 2012 R2 `dism /online /enable-Feature /all /FeatureName:WCF-HTTP-Activation45` das Modul "ServiceModel" aus der Standardwebsite in IIS Manager.> Verwaltungstools ist optional, wird jedoch empfohlen.
   
 Führen Sie folgende Schritte aus, um diese Anforderungen mithilfe von PowerShell zu installieren:
   
@@ -305,13 +305,13 @@ Business Intelligence oder Enterprise Edition wird aus Leistungsgründen empfohl
   
 Standard Edition wird zwar nicht empfohlen, aber auch unterstützt. Die Verarbeitung wird auf eine einzelne Partition beschränkt (die während des Setups konfiguriert werden muss). 
   
-In allen Fällen müssen "Datenbank-Engine Services" und "Analysis Services" installiert sein. Es wird empfohlen, aber nicht erforderlich, auch das Feature "Management Tools – Complete" zu installieren, das SQL Server Management Studio Unterstützung für Analysis Services hinzufügt. Der Bildschirm für die Featureauswahl sollte wie in der Abbildung aussehen.
+In allen Fällen müssen "Datenbank-Engine Services" und "Analysis Services" installiert sein. Es wird empfohlen, aber nicht erforderlich, auch das Feature "Management Tools - Complete" zu installieren, das SQL Server Management Studio Unterstützung für Analysis Services hinzufügt. Der Bildschirm für die Featureauswahl sollte wie in der Abbildung aussehen.
   
 ![SQL Server Featureanforderungen](../../media/37f2f64b-49c8-4620-94ba-f6d1ae9abf83.png)
   
 Wenn Sie das SSAS-Setup konfigurieren, legen Sie in der Analysis Services-Konfiguration "Servermodus" auf "Multidimensional and Data Mining Mode" fest. 
   
-Weitere Hilfe zum Installieren und Konfigurieren SQL Server Business Intelligence-Features finden Sie unter [Installieren von Analysis Services im multidimensionalen und Data Mining-Modus.](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))
+Weitere Hilfe beim Installieren und Konfigurieren von SQL Server Business Intelligence-Features finden Sie unter [Installieren von Analysis Services im multidimensionalen und Data Mining-Modus.](/previous-versions/sql/sql-server-2012/ms143708(v=sql.110))
   
 #### <a name="account-requirements"></a>Kontoanforderungen
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Zusammenfassung: Erfahren Sie mehr über die benutzerbezogenen Anrufdiagnoseberichte, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: b04050b2d2efb94781d310983083c2c3b8e86c30965a3467cc5fcabfc2aa00fb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8caf074022514cca1792cedf60f77fae0506dfb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54280968"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623667"
 ---
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server
   
@@ -43,11 +43,11 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>So greifen Sie auf den Bericht über Benutzeraktivität zu
 
-Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie in Skype for Business Server auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht](ip-phone-inventory-report.md)klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server.](peer-to-peer-session-detail-report.md)
+Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht in Skype for Business Server](ip-phone-inventory-report.md)klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server.](peer-to-peer-session-detail-report.md)
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Optimale Nutzung des Berichts über Benutzeraktivität
 
-Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. dies bedeutet, dass innerhalb des Berichts Informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
+Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. Das bedeutet, dass innerhalb des Berichts informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
 
 > [!NOTE]
 > Technisch gesehen ist es möglich, dass einige Benutzeraktivitäten nicht erfasst werden: Während Skype for Business Server versucht, Informationen zu allen Telefonanrufen beizubehalten, ist es möglich, dass ein Anruf getätigt wurde, ohne dass die Informationen zu diesem Anruf in die Datenbank geschrieben wurden. Skype for Business Server wurde entwickelt, um einen äußerst genauen, aber nicht unbedingt perfekten Blick darauf zu geben, wie Skype for Business Server verwendet wird. (Die Tatsache, dass nicht garantiert wird, dass 100 % aller Anrufe aufgezeichnet werden, erklärt, warum Skype for Business Server Überwachung nicht als Abrechnungssystem verwendet werden sollte.) Zweitens kann ein Überwachungsbericht nur maximal 1.000 Datensätze anzeigen. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 

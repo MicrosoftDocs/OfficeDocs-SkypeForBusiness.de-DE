@@ -15,19 +15,19 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Erfahren Sie, wie Sie die Teilnahme anonymer Anrufer an einer Besprechung über Teams Admin Center aktivieren oder deaktivieren. '
-ms.openlocfilehash: 20fdf9a86da2daec297de88a435b70e84c191ff5af846a51aeae06ae4ba8832f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285674"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604404"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams
 
@@ -35,7 +35,7 @@ Es kann für Benutzer, die sich in eine Besprechung einwählen, frustrierend sei
   
 Wenn sich ein Besprechungsorganisator in die Besprechung ein anruft, ist zum Starten einer Besprechung standardmäßig eine PIN erforderlich. Sie können einrichten, dass sich jeder in eine Besprechung einwählen kann und nicht zur Eingabe einer PIN zum Starten der Besprechung aufgefordert wird. Sie können diese Einstellung im Admin Center für einen einzelnen Benutzer aktivieren oder deaktivieren.
   
-Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung über die App Microsoft Teams hat. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den Audiobenutzer gesendet, wenn ihm die Lizenz für **Audiokonferenzen** zugewiesen wurde und er für Audiokonferenzen aktiviert ist. Weitere Informationen finden Sie unter Senden einer E-Mail mit den Informationen zur [Audiokonferenz](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) an einen Benutzer und E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre [Audiokonferenzeinstellungen ändern.](emails-sent-to-users-when-their-settings-change-in-teams.md)
+Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung über die App Microsoft Teams hat. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den Audiobenutzer gesendet, wenn ihm die Lizenz für **Audiokonferenzen** zugewiesen ist und er für Audiokonferenzen aktiviert ist. Weitere Informationen finden Sie unter Senden einer E-Mail mit den Informationen zur [Audiokonferenz](send-an-email-to-a-user-with-their-dial-in-information-in-teams.md) an einen Benutzer und E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre [Audiokonferenzeinstellungen ändern.](emails-sent-to-users-when-their-settings-change-in-teams.md)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -50,7 +50,7 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
 
 3. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
 
-4. Im **Bereich Audiokonferenz können** Einwahlanrufer als erste Person in einer Besprechung **aktiviert oder deaktiviert werden.**
+4. Im **Bereich Audiokonferenz können** Einwahlanrufer als erste Person an einer Besprechung **aktiviert oder deaktiviert werden.**
     
 4. Klicken Sie auf **Anwenden**. 
 

@@ -16,23 +16,23 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Verwalten Sie Voicemailrichtlinien für Ihre Benutzer.
-ms.openlocfilehash: 112a2ac98ee22c46cb78c579ead947f70a1d6d447ac81ace3aef224304a281dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 275c67cef3a318d15f030f26aa50a74a15748c03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54342969"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604424"
 ---
 # <a name="setting-voicemail-policies-in-your-organization"></a>Einrichten von Voicemailrichtlinien in Ihrer Organisation
 
 > [!WARNING]
-> Für Skype for Business Kunden kann das Deaktivieren von Voicemail über eine Richtlinie für Microsoft Teams-Anrufe auch den Voicemaildienst für Ihre Benutzer Skype for Business deaktivieren.
+> Für Skype for Business Kunden kann das Deaktivieren von Voicemail über eine Richtlinie für Microsoft Teams-Anrufe auch den Voicemail-Dienst für Ihre Benutzer Skype for Business deaktivieren.
 
 ## <a name="voicemail-organization-defaults-for-all-users"></a>Standardeinstellungen der Voicemailorganisation für alle Benutzer
 - Voicemail-Transkription ist aktiviert.
@@ -41,7 +41,7 @@ ms.locfileid: "54342969"
 
 Sie können diese Standardwerte mithilfe der [Cmdlets Set-CsOnlineVoicemailPolicy](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) und [Grant-CsOnlineVoicemailPolicy](/powershell/module/skype/Get-CsOnlineVoicemailPolicy) steuern.
 
-Voicemailnachrichten, die von Benutzern in Ihrer Organisation empfangen werden, werden in der Region transkribiert, in Microsoft 365 Oder Office 365 Organisation gehostet wird. Die Region, in der Ihr Mandant gehostet wird, ist möglicherweise nicht dieselbe Region, in der sich der Benutzer befindet, der die Voicemailnachricht empfängt. Um die Region anzuzeigen, in der [](https://go.microsoft.com/fwlink/p/?linkid=2067339) Ihr Mandant gehostet  wird, wechseln Sie zur Profilseite Organisation, und klicken Sie dann neben **Datenspeicherort** auf Details anzeigen .
+Voicemailnachrichten, die von Benutzern in Ihrer Organisation empfangen werden, werden in der Region transkribiert, in Microsoft 365 Oder Office 365 Organisation gehostet wird. Die Region, in der Ihr Mandant gehostet wird, ist möglicherweise nicht dieselbe Region, in der sich der Benutzer befindet, der die Voicemailnachricht empfängt. Um die Region anzuzeigen, in der [](https://go.microsoft.com/fwlink/p/?linkid=2067339) Ihr Mandant gehostet  wird, wechseln Sie zur Profilseite Organisation, und klicken Sie dann neben Datenspeicherort auf **Details anzeigen**.
 
 > [!IMPORTANT]
 > Sie können mit dem **Cmdlet New-CsOnlineVoiceMailPolicy** keine neue Richtlinieninstanz für die Transkription und Transkription von Obszönitätsmasken erstellen, und Sie können mit dem **Cmdlet Remove-CsOnlineVoiceMailPolicy** keine vorhandene Richtlinieninstanz entfernen.
@@ -111,7 +111,7 @@ Set-CsOnlineVoicemailPolicy -MaximumRecordingLength ([TimeSpan]::FromSeconds(60)
 
 ## <a name="dual-language-system-prompts-for-your-organization"></a>Systemaufforderungen für zwei Sprachen für Ihre Organisation
 
-Standardmäßig werden Voicemail-Systemanrufe Anrufern in der Sprache angezeigt, die der Benutzer beim Einrichten seiner Voicemail ausgewählt hat. Wenn die Eingabeaufforderungen für das Voicemail-System in zwei Sprachen angezeigt werden müssen, können Sie dazu [Set-CsOnlineVoicemailPolicy verwenden.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Eine primäre und sekundäre Sprache müssen festgelegt werden und sind möglicherweise nicht identisch. Führen Sie dazu dies aus:
+Standardmäßig werden Voicemail-Systemanrufe Anrufern in der Sprache angezeigt, die der Benutzer beim Einrichten seiner Voicemail ausgewählt hat. Wenn geschäftliche Anforderungen lauten, dass die Eingabeaufforderungen für das Voicemail-System in zwei Sprachen angezeigt werden, können Sie dazu [Set-CsOnlineVoicemailPolicy verwenden.](/powershell/module/skype/Set-CsOnlineVoicemailPolicy) Eine primäre und sekundäre Sprache müssen festgelegt werden und sind möglicherweise nicht identisch. Führen Sie dazu dies aus:
 
 ```PowerShell
 Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES
@@ -119,7 +119,7 @@ Set-CsOnlineVoicemailPolicy -PrimarySystemPromptLanguage en-US -SecondarySystemP
 
 ## <a name="turning-off-transcription-for-a-user"></a>Aufzeichnung für einen Benutzer deaktivieren
 
-Benutzerrichtlinien werden vor den Standardeinstellungen für die Organisation ausgewertet. Wenn Voicemail-Transkription beispielsweise für alle Ihre Benutzer aktiviert ist, können Sie mit dem [Grant-CsOnlineVoicemailPolicy-Cmdlet](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) eine Richtlinie zum Deaktivieren der Transkription für einen bestimmten Benutzer zuweisen.
+Benutzerrichtlinien werden vor den Standardeinstellungen für die Organisation ausgewertet. Wenn Voicemail-Transkription beispielsweise für alle Ihre Benutzer aktiviert ist, können Sie mit dem [Grant-CsOnlineVoicemailPolicy-Cmdlet](/powershell/module/skype/Grant-CsOnlineVoicemailPolicy) eine Richtlinie zuweisen, um die Transkription für einen bestimmten Benutzer zu deaktivieren.
 
 Führen Sie zum Deaktivieren eines einzelnen Benutzers den folgenden Dienst aus:
 
@@ -139,7 +139,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName TranscriptionProfanityMaskingEnabled -
 
 ## <a name="changing-the-recording-duration-for-a-user"></a>Ändern der Aufzeichnungsdauer für einen Benutzer
 
-Sie müssen zuerst eine benutzerdefinierte Voicemailrichtlinie mit dem [Cmdlet New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) erstellen. Mit dem unten gezeigten Befehl wird eine Online-Voicemailrichtlinie pro Benutzer "OneMinuteVoicemailPolicy" erstellt, bei der "MaximumRecordingLength" auf 60 Sekunden und andere Felder auf den globalen Wert auf Mandantenebene festgelegt sind.
+Sie müssen zuerst eine benutzerdefinierte Voicemailrichtlinie mit dem [New-CsOnlineVoicemailPolicy-Cmdlet](/powershell/module/skype/New-CsOnlineVoicemailPolicy) erstellen. Mit dem unten gezeigten Befehl wird eine Online-Voicemailrichtlinie für pro Benutzer OneMinuteVoicemailPolicy erstellt, bei der MaximumRecordingLength auf 60 Sekunden und andere Felder auf den globalen Wert auf Mandantenebene festgelegt sind.
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "OneMinuteVoicemailPolicy" -MaximumRecordingLength ([TimeSpan]::FromSeconds(60))
@@ -153,7 +153,7 @@ Grant-CsOnlineVoicemailPolicy -PolicyName OneMinuteVoicemailPolicy -Identity sip
 
 ## <a name="dual-language-system-prompts-for-a-user"></a>Systemaufforderungen für zwei Sprachen für einen Benutzer
 
-Sie müssen zuerst eine benutzerdefinierte Voicemailrichtlinie mit dem [Cmdlet New-CsOnlineVoicemailPolicy](/powershell/module/skype/New-CsOnlineVoicemailPolicy) erstellen. Mit dem unten gezeigten Befehl wird eine Online-Voicemailrichtlinie für benutzerspezifische Voicemail enUS-esSP-VoicemailPolicy erstellt, bei der PrimarySystemPromptLanguage auf en-US (Englisch – Vereinigte Staaten) und SecondarySystemPromptLanguage auf es-SP (Spanisch – Spanien) festgelegt ist.
+Sie müssen zuerst eine benutzerdefinierte Voicemailrichtlinie mit dem [New-CsOnlineVoicemailPolicy-Cmdlet](/powershell/module/skype/New-CsOnlineVoicemailPolicy) erstellen. Mit dem unten gezeigten Befehl wird eine Online-Voicemailrichtlinie für benutzerspezifische Voicemail enUS-esSP-VoicemailPolicy erstellt, bei der PrimarySystemPromptLanguage auf en-US (Englisch – Vereinigte Staaten) und secondarySystemPromptLanguage auf es-SP (Spanisch – Spanien) festgelegt ist.
 
 ```PowerShell
 New-CsOnlineVoicemailPolicy -Identity "enUS-esES-VoicemailPolicy" -PrimarySystemPromptLanguage en-US -SecondarySystemPromptLanguage es-ES

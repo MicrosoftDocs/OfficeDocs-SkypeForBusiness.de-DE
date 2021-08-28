@@ -9,31 +9,31 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-description: Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Anruf über Arbeit" ersetzt. In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.
-ms.openlocfilehash: c7b4156c90810206824d922af17b83381a64afe17a3a927825eae91445245cfa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt. In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.
+ms.openlocfilehash: bbe98c5aa6a490276f1f317ed208d936920b0c65
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302369"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604734"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planen der Remoteanrufsteuerung in Skype for Business
  
-Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Anruf über Arbeit" ersetzt.  *In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.* 
+Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt.  *In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.* 
   
  Benutzer der Remoteanrufsteuerung in Ihrer Organisation, die auf Front-End-Servern mit Lync Server verwaltet werden, können weiterhin die Remoteanrufsteuerung verwenden, auch wenn sie einen Skype for Business-Client verwenden. Für Benutzer, die auf Skype for Business Server verwaltet werden, wird die Remoteanrufsteuerung jedoch nicht unterstützt. In der folgenden Tabelle finden Sie Server-/Clientkombinationen und informationen dazu, ob sie die Remoteanrufsteuerung oder "Anruf über Arbeit" unterstützen können.
   
 ||**Skype for Business Client mit aktivierter Skype Benutzeroberfläche**|**Skype for Business Client mit aktivierter Lync-Benutzeroberfläche**|**Skype for Business 2016-Client**|**Lync 2013-Client**|**Lync 2010-Client**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| Skype for Business Server <br/> |Anruf über den Arbeitsplatz  <br/> |1 <br/> |Anruf über den Arbeitsplatz  <br/> |1 <br/> |1 <br/> |
-| Lync Server 2013 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |1 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |
-| Lync Server 2010 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |1 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |
+| Skype for Business Server <br/> |Anruf über den Arbeitsplatz  <br/> |1  <br/> |Anruf über den Arbeitsplatz  <br/> |1  <br/> |1  <br/> |
+| Lync Server 2013 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |1  <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |
+| Lync Server 2010 <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |1  <br/> |Remoteanrufsteuerung  <br/> |Remoteanrufsteuerung  <br/> |
    
 1. Keines der Features wird unterstützt.
   

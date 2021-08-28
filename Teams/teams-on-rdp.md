@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams mit Remotedesktopdiensten verwenden.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,16 +17,16 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d15dabb0b81f86d41540eda7e580c588a0d921bad88eb5fa322fd2103b0cac61
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296462"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635639"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams in Remotedesktopdiensten
 
-In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwendung von Microsoft Teams in einer RDS-Umgebung (Remote Desktop Services) beschrieben.
+In diesem Artikel werden die Anforderungen und Einschränkungen für die Microsoft Teams in einer RDS-Umgebung (Remote Desktop Services) beschrieben.
 
 ## <a name="what-is-rds"></a>Was ist RDS?
 

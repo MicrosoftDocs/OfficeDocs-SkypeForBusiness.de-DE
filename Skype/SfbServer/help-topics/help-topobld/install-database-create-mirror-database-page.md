@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.InstallDatabaseCreateMirrorDatabasePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 6f729574-944e-4968-bdb8-eb483ff0ca88
 description: Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
-ms.openlocfilehash: 0e39e439810eebc068a91d167ed3b8d34b5d23fc1d2b454e0a1954342bfb46b2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c8f346101e9724a777d67d24a43a3bf90a8073c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337055"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588607"
 ---
-# <a name="install-database-create-mirror-database-page"></a>Installieren einer Datenbank – Seite „Spiegeldatenbank erstellen“
+# <a name="install-database-create-mirror-database-page"></a>Installieren einer Datenbank – Seite „Spiegeldatenbank erstellen“
  
 Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
   

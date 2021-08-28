@@ -14,33 +14,33 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Erfahren Sie, wie Sie Telefone im allgemeinen Bereich für Lobbys, Empfangsbereiche und Konferenzräume einrichten. '
-ms.openlocfilehash: 6b97c931364ec9a1c589b0a677e0ec82d6288d945b8f0c002e48824921fe3107
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 928c4c2a81f2e19524aa7dc43ac2bd597b1293dd
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301051"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597959"
 ---
 # <a name="set-up-the-common-area-phone-license-for-microsoft-teams"></a>Einrichten der Lizenz für Telefone für gemeinsame Bereiche für Microsoft Teams
 > [!NOTE]
 > Häufige Telefone in der Nähe unterstützen keine Voicemail.
 
-Ein Telefon in der Nähe eines Telefons befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem anderen Bereich, der von vielen Personen für einen Anruf verwendet werden kann. z. B. einen Empfangsbereich, einen Wartebereich oder ein Konferenztelefon. Telefone in gängigen Gegenden sind mit Konten angemeldet, die an eine gemeinsame Telefon gebunden sind. Die TeamsIPPhone-Richtlinie muss auch entsprechend festgelegt sein, damit das Telefon in einem gemeinsamen Bereich benutzerfreundliche Benutzerfreundlichkeit hat.
+Ein Telefon in der Nähe eines Telefons befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem anderen Bereich, der für viele Personen zum Anrufen zur Verfügung steht. z. B. einen Empfangsbereich, einen Wartebereich oder ein Konferenztelefon. Telefone in gängigen Gegenden sind mit Konten angemeldet, die mit einer gemeinsamen Telefon sind. Die TeamsIPPhone-Richtlinie muss auch entsprechend festgelegt sein, damit das Telefon in einem gemeinsamen Bereich benutzerfreundliche Benutzerfreundlichkeit hat.
 
-In den nachstehenden Schritten helfen wir Ihnen beim Einrichten eines Kontos für Telefonsystem Bereitstellung von Telefonen in der Nähe für Ihre Organisation. Für eine vollständigere Besprechungsraumerfahrung, einschließlich Audiokonferenzen, sollten Sie die dedizierte Lizenz Besprechungsraum einem Besprechungsraumgerät erwerben. 
+In den nachstehenden Schritten helfen wir Ihnen beim Einrichten eines Kontos für Telefonsystem für die Bereitstellung von Telefonen im allgemeinen Bereich für Ihre Organisation. Für eine vollständigere Besprechungsraumerfahrung, einschließlich Audiokonferenzen, sollten Sie die dedizierte Lizenz Besprechungsraum einem Besprechungsraumgerät erwerben. 
 
 Zuerst müssen Sie eine Cap-Lizenz (Common Area Telefon) erwerben und sicherstellen, dass Sie über ein zertifiziertes Telefon verfügen. Weitere Informationen zu zertifizierten Telefonen finden Sie unter [Microsoft Teams-Geräte.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1) 
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
-1. Wechseln Sie Microsoft 365 Admin Center Dienste zum Kauf von **Abrechnungen,**  >   und erweitern Sie dann **Andere Pläne**.
+1. Wechseln Sie Microsoft 365 Admin Center Seite zu  >  **Abrechnungskaufdienste,** und erweitern Sie **dann Andere Pläne**.
 
     ![Screenshot der Kachel "Gemeinsame Telefon"](media/set-up-common-area-phone-image1.png)
 
@@ -51,14 +51,14 @@ Zuerst müssen Sie eine Cap-Lizenz (Common Area Telefon) erwerben und sicherstel
 4. Erweitern **Sie Add-On-Abonnements,** und klicken Sie dann auf , um einen Anrufplan zu kaufen. Wählen Sie entweder den **Plan für Inlandsrufe** oder **einen Plan für Inlands- und Auslandsrufe aus.**
 
 > [!NOTE]
-> Wenn Sie ihr System Direct Microsoft-Telefon Routing verwenden, benötigen Sie keine Lizenz für einen Anrufplan.
+> Wenn Sie das Direct Microsoft-Telefon-Routing-System verwenden, benötigen Sie keine Anrufplanlizenz.
 
 > [!NOTE]
 > Sie müssen keine Lizenz Telefonsystem hinzufügen. Sie ist in der Lizenz Telefon für gemeinsame Bereiche enthalten.
 
-Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams- und Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
-Der gemeinsame Bereich, Telefon von der Lizenz unterstützt wird: 
+Die gemeinsame Telefon-Lizenz unterstützt: 
 
 
 | &nbsp;  |  Telefon für gemeinsame Bereiche  |
@@ -80,7 +80,7 @@ Der gemeinsame Bereich, Telefon von der Lizenz unterstützt wird:
 
 ## <a name="step-2---create-a-new-user-account-for-the-phone-and-assign-the-licenses"></a>Schritt 2 - Ein neues Benutzerkonto für das Telefon erstellen und die Lizenzen zuweisen
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Benutzer,**  >  **die aktive Benutzer**  >  **hinzufügen.**
+1. Wechseln Sie Microsoft 365 Admin Center zu Benutzer, die   >  **aktive Benutzer**  >  **hinzufügen.**
 
 2. Geben Sie einen Benutzernamen wie "Main" für den Vornamen und "Empfang" für den zweiten Namen ein.
 
@@ -88,14 +88,14 @@ Der gemeinsame Bereich, Telefon von der Lizenz unterstützt wird:
 
 4. Geben Sie einen Benutzernamen wie "Main Umleitung" oder "Mainlobby" ein.
 
-5. Bei Telefonen in gängigen Telefonen in der Nähe können Sie ein Kennwort manuell festlegen oder für alle Telefone in der Nähe des gleichen Kennworts verwenden. Darüber hinaus können Sie auch das Kontrollkästchen Diesen Benutzer bei der ersten Anmeldung an das Kennwort **ändern** lassen aktivieren.
+5. Bei Telefonen im allgemeinen Bereich können Sie ein Kennwort manuell festlegen oder für alle Telefone in der Nähe des gleichen Kennworts verwenden. Sie können auch das Kontrollkästchen Diesen Benutzer bei der ersten Anmeldung daran halten, sein Kennwort **zu** ändern aktivieren.
 
-6. Weisen Sie die Lizenzen dem Benutzer zu. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie das gemeinsame Telefon und wählen  Sie entweder einen Plan für Inlandsrufe oder einen Plan für **Inlands- und Auslandsrufe aus.** 
+6. Weisen Sie die Lizenzen dem Benutzer zu. Klicken Sie auf der gleichen Seite auf **Produktlizenzen** erweitern. Aktivieren Sie das gemeinsame Telefon wählen Sie  entweder einen Plan für Inlandsrufe oder einen Plan für **Inlands- und Auslandsrufe aus.** 
 
-    ![Screenshot einer Lizenzzuweisung mit hervorgehobenen Anrufplanoptionen für Inland und Ausland](media/set-up-common-area-phone-image2.png)
+    ![Screenshot mit einer Lizenzzuweisung mit hervorgehobenen Anrufplanoptionen für Inland und Ausland](media/set-up-common-area-phone-image2.png)
 
 > [!NOTE]
-> Wenn Sie das Direct Microsoft-Telefon-Routing-System verwenden, müssen Sie keine Anrufplanlizenz zuweisen.
+> Wenn Sie ihr System Direct Microsoft-Telefon Routing verwenden, müssen Sie keine Anrufplanlizenz zuweisen.
 
 Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
 
@@ -120,4 +120,4 @@ Verwenden Sie Teams Admin Center, um dem Benutzer eine Nummer zuzuordnen.
 
 Weitere Informationen finden Sie unter [Erhalten von Telefonnummern für Ihre Benutzer.](getting-phone-numbers-for-your-users.md)
 
-Sie können auch Ihre telefonnummer, die Sie bei einem anderen Netzbetreiber haben, übertragen und "portieren" oder an Microsoft 365 oder Office 365. Weitere [Informationen finden Sie unter Übertragen von Telefonnummern Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).
+Sie können auch Ihre telefonnummer, die Sie bei einem anderen Netzbetreiber haben, übertragen und "portieren" oder an Microsoft 365 oder Office 365. Siehe [Übertragen von Telefonnummern an Teams](phone-number-calling-plans/transfer-phone-numbers-to-teams.md).

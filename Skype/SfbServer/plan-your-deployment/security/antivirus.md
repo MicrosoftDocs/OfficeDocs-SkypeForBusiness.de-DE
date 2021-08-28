@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über die Interoperabilität von Antivirenscannern mit Skype for Business Server.
-ms.openlocfilehash: 2f44b5a07bf62f06f3363b2f6938e48d9f5866626be44626bd0bd3cb4cf3a2d3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e4016527937c7cfc3c39eb37d2a7b75202fad076
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347811"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588497"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirus-Scanausschlüsse für Skype for Business Server
 
@@ -140,6 +140,6 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 
   - Dateifreigabespeicher (im Topologie-Generator angegeben). Dateispeicher werden im Topologie-Generator angegeben.
 
-  - SQL Server Daten und Protokolldateien, einschließlich der Daten für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich der Standardnamen, finden Sie unter SQL Server Platzierung von [Daten und Protokolldateien](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in der Bereitstellungsdokumentation.
+  - SQL Server Daten und Protokolldateien, einschließlich der Dateien für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter SQL Server Platzierung von [Daten und Protokolldateien](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in der Bereitstellungsdokumentation.
 
-  - SQL Server Daten- und Protokolldateien, einschließlich der dateien für die Front-End-Datenbank, Skype for Business speicher und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter %localdrive%\CSData.
+  - SQL Server Daten- und Protokolldateien, einschließlich der Dateien für die Front-End-Datenbank, Skype for Business speicher und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter %localdrive%\CSData.

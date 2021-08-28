@@ -14,51 +14,51 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie mithilfe von Feedbackrichtlinien steuern können, Teams Benutzer in Ihrer Organisation Feedback zu ihrem Produkt Teams Microsoft übermitteln können.
-ms.openlocfilehash: 749027ae6dcb9766564444b659d5695abfe733210bc11837946bd4b328d3ab47
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier erfahren Sie, wie Sie mithilfe von Feedbackrichtlinien steuern können, Teams Benutzer in Ihrer Organisation Feedback zu diesem Thema Teams Microsoft übermitteln können.
+ms.openlocfilehash: 2308b196dfd31f6d6576f57dbe06ed5eda42cb86
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58635679"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedbackrichtlinien in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Benutzer in Ihrer Organisation können feedback zu Teams an Microsoft senden und uns wissen lassen, wie wir dabei sind, direkt aus dem Teams-Desktop- und Webclients. Wir verbessern ständig die Benutzererfahrung Teams und nutzen dieses Feedback, um Teams verbessern.
+Benutzer in Ihrer Organisation können feedback zu Teams an Microsoft senden und uns wissen lassen, wie wir dabei sind– direkt aus dem Teams-Desktop- und Webclients. Wir verbessern ständig die Benutzererfahrung Teams und nutzen dieses Feedback, um Teams verbessern.
 
 > [!NOTE]
-> Feedbackrichtlinien sind in Bereitstellungen mit hohen GCC, GCC hohen oder doD-Bereitstellungen nicht verfügbar.
+> Feedbackrichtlinien sind in Bereitstellungen von GCC, GCC High- oder DOD-Bereitstellungen nicht verfügbar.
 
 **Das Feature "Feedback geben"**
 
-Benutzer können uns Kommentare und Vorschläge Teams senden, indem sie in der Hilfe zu Feedback  >  **geben** in Teams. Über "Feedback senden" gesendete Daten werden im Rahmen Ihrer Microsoft 365- oder Office 365-Vereinbarung als "Supportdaten" betrachtet, einschließlich Informationen, die andernfalls als "Kundendaten" oder "persönliche Daten" angesehen würden. 
+Benutzer können uns Kommentare und Vorschläge zu Teams senden, indem sie in der Hilfe zu Feedback   >   geben in Teams. Über "Feedback senden" gesendete Daten werden unter Ihrer Microsoft 365- oder Office 365-Vereinbarung als "Supportdaten" betrachtet, einschließlich Informationen, die andernfalls als "Kundendaten" oder "Persönliche Daten" betrachtet würden. 
 
 ![Screenshot der Option "Feedback geben" in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
 **Umfragen**
 
-Benutzer können ihre Erfahrung mit der Bewertung Teams uns Details zu der von ihnen bewerteten Bewertung senden. Diese Popupumfrage wird Benutzern von Zeit zu Zeit im Internet Teams. Wenn ein Benutzer in der Benachrichtigung **Feedback** geben auswählt, wird die Umfrage für den Abschluss der Umfrage angezeigt.
+Benutzer können ihre Erfahrung mit den Bewertungen Teams uns Details zu der von ihnen bewerteten Bewertung senden. Diese Popupumfrage wird Benutzern von Zeit zu Zeit im Teams. Wenn ein Benutzer in der Benachrichtigung **Feedback** geben auswählt, wird die Umfrage für den Abschluss der Umfrage angezeigt.
 
 ![Benachrichtigung und Formular der Umfrage in Teams](media/manage-feedback-policies-in-teams-survey.png)
 
 ## <a name="set-whether-users-can-send-feedback-about-teams-to-microsoft"></a>Festlegen, ob Benutzer Feedback zu Teams an Microsoft senden können
 
-Als Administrator können Sie steuern, ob Benutzer in Ihrer Organisation Feedback  zu Teams an Microsoft senden können, und ob sie die Umfrage erhalten. Standardmäßig wird allen Benutzern in Ihrer Organisation automatisch die globale Richtlinie (Organisationsweite Standardrichtlinie) zugewiesen, und das Feature "Feedback geben" und die Umfrage sind in der Richtlinie aktiviert.  Die Ausnahme ist Teams für Education, bei der die Features für Lehrkräfte und für Schüler/Studenten aktiviert und deaktiviert werden.
+Als Administrator können Sie steuern, ob Benutzer in Ihrer Organisation Feedback  zu einer Umfrage Teams an Microsoft senden können und ob sie die Umfrage erhalten. Standardmäßig wird allen Benutzern in Ihrer Organisation automatisch die globale Richtlinie (Organisationsweite Standardrichtlinie) zugewiesen, und das Feature "Feedback geben" und die Umfrage sind in der Richtlinie aktiviert.  Die Ausnahme ist Teams für Education, bei der die Features für Lehrkräfte und für Schüler/Studenten aktiviert und deaktiviert werden.
 
 Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinierte Richtlinie erstellen und zuweisen. Nachdem Sie die globale Richtlinie bearbeitet oder eine benutzerdefinierte Richtlinie zugewiesen haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden.
 
-Sie möchten beispielsweise zulassen, dass alle Benutzer in Ihrer  Organisation Feedback über Feedback geben und Umfragen erhalten, mit Ausnahme neuer Mitarbeiter in Schulungen. In diesem Szenario erstellen Sie eine benutzerdefinierte Richtlinie, um beide Features zu deaktivieren und sie neuen Mitarbeitern zuzuordnen. Für alle anderen Benutzer in Ihrer Organisation wird die globale Richtlinie mit aktivierten Features aktiviert.  
+So möchten Sie beispielsweise allen Benutzern in Ihrer Organisation  erlauben, Feedback über Feedback zu senden und Umfragen zu erhalten, mit Ausnahme neuer Mitarbeiter in der Schulung. In diesem Szenario erstellen Sie eine benutzerdefinierte Richtlinie, um beide Features zu deaktivieren und sie neuen Mitarbeitern zuzuordnen. Für alle anderen Benutzer in Ihrer Organisation wird die globale Richtlinie mit aktivierten Features aktiviert.  
 
-Sie verwalten Feedbackrichtlinien mithilfe von PowerShell. Verwenden Sie **das Cmdlet New-CsTeamsFeedbackPolicy,** das Sie hier *finden, [](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* um eine benutzerdefinierte Richtlinie zu erstellen. Verwenden Sie **das Grant-CsTeamsFeedbackPolicy-Cmdlet,** um es einem oder mehreren Benutzern oder Benutzergruppen, z. B. einer Sicherheitsgruppe oder Verteilergruppe, zuzuordnen. Verwenden **Sie Set-CsTeamsFeedbackPolicy** zum Festlegen bestimmter Kennzeichnungen.
+Sie verwalten Feedbackrichtlinien mithilfe von PowerShell. Verwenden Sie **das Cmdlet New-CsTeamsFeedbackPolicy,** das Sie hier *finden, [](https://docs.microsoft.com/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)* um eine benutzerdefinierte Richtlinie zu erstellen. Verwenden Sie **das Grant-CsTeamsFeedbackPolicy-Cmdlet,** um es einem oder mehreren Benutzern oder Benutzergruppen, z. B. einer Sicherheitsgruppe oder Verteilergruppe, zuzuordnen. Verwenden **Sie Set-CsTeamsFeedbackPolicy,** um bestimmte Kennzeichen festlegen.
 
 Legen Sie die folgenden Parameter fest, um die Features zu deaktivieren und zu aktivieren:
 
  - **Feedback geben:** Legen Sie den Parameter  **userInitiatedMode** auf aktiviert, damit Benutzer, denen die Richtlinie zugewiesen ist, Feedback geben können. Wenn Sie den Parameter **auf Disabled festlegen,** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, haben keine Möglichkeit, Feedback zu geben.
- - **Umfragen:** Legen Sie den Parameter  **receiveSurveysMode** auf aktiviert, damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und zulassen, dass sie sich abmelden, legen Sie den Parameter auf **enabledUserOverride .** In Teams können Benutzer dann zu Einstellungen Datenschutz wechseln und auswählen, ob sie an  >   Umfragen teilnehmen möchten. Wenn Sie den Parameter **auf Disabled festlegen,** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten keine Umfrage.
+ - **Umfragen:** Legen Sie den Parameter  **receiveSurveysMode** auf aktiviert, damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und zulassen, dass sie sich abmelden, legen Sie den Parameter auf **enabledUserOverride .** In Teams können benutzer dann zu Einstellungen Datenschutz wechseln und auswählen, ob sie  >   an Umfragen teilnehmen möchten. Wenn Sie den Parameter **auf Disabled festlegen,** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten keine Umfrage.
  - **E-Mail:** Verwenden Sie die **AllowEmailCollection-Kennzeichnung,** um ein E-Mail-Feld hinzuzufügen.
 
 ## <a name="create-a-custom-feedback-policy"></a>Erstellen einer benutzerdefinierten Feedbackrichtlinie

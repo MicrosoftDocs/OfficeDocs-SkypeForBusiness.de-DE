@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Konfigurieren, Auffüllen und Veröffentlichen der E9-1-1-Standortdatenbank in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 9e97c959af9dc88ff43fd93e734e21bae051583206be3dd89390dcae59c6ca0c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0eb2fd8e09c09688cf8c8282b35328ca7eb1761b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326601"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597739"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype for Business Server
  
@@ -68,7 +68,7 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "subnets.csv" verwenden, um Subnetzstandorte massenweise zu aktualisieren.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei namens "subnets.csv" verwenden, um Subnetzstandorte massenweise zu aktualisieren.
     
    ```powershell
    $g = Import-Csv subnets.csv
@@ -120,7 +120,7 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>So überprüfen Sie Adressen in der Standortdatenbank auf Gültigkeit
 
-1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Führen Sie die folgenden Cmdlets zum Konfigurieren der Verbindung mit dem Anbieter für die Notrufunterstützung aus.
     
@@ -145,7 +145,7 @@ Wenn Sie ELIN-Gateways (Emergency Location Identification Number) verwenden, mü
   
 ### <a name="to-publish-the-location-database"></a>So veröffentlichen Sie die Standortdatenbank
 
--  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+-  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 - Führen Sie das folgende Cmdlet aus, um die Standortdatenbank zu veröffentlichen.
     

@@ -9,26 +9,26 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5483afd5-d8af-4825-ae95-a82dbe941dbf
-description: Active Directory Domain Services fungiert als Verzeichnisdienst für Windows Server 2003-, Windows Server 2008-, Windows Server 2012- und Windows Server 2012 R2-Netzwerke. Active Directory Domain Services dient auch als Grundlage, auf der die Skype for Business Server Sicherheitsinfrastruktur aufgebaut ist. In diesem Abschnitt wird beschrieben, wie Skype for Business Server Active Directory-Domänendienste verwenden, um eine vertrauenswürdige Umgebung für Chat, Webkonferenzen, Medien und VoIP zu erstellen. Ausführliche Informationen zum Vorbereiten Ihrer Umgebung für Active Directory Domain Services finden Sie unter Installieren Skype for Business Server in der Bereitstellungsdokumentation. Ausführliche Informationen zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation für die Version des von Ihnen verwendeten Betriebssystems.
-ms.openlocfilehash: 8044e79be38300c39790aeae3bd0ece9105f9a145e1185cef2980297674c16f8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Active Directory Domain Services fungiert als Verzeichnisdienst für Windows Server 2003-, Windows Server 2008-, Windows Server 2012- und Windows Server 2012 R2-Netzwerke. Active Directory Domain Services dient auch als Grundlage, auf der die Skype for Business Server Sicherheitsinfrastruktur aufgebaut ist. In diesem Abschnitt wird beschrieben, wie Skype for Business Server Active Directory Domain Services verwendet, um eine vertrauenswürdige Umgebung für Chat, Webkonferenzen, Medien und VoIP zu erstellen. Ausführliche Informationen zum Vorbereiten Der Umgebung für Active Directory Domain Services finden Sie unter Installieren Skype for Business Server in der Bereitstellungsdokumentation. Ausführliche Informationen zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation für die Version des von Ihnen verwendeten Betriebssystems.
+ms.openlocfilehash: 4af4e4b4dd7a64dd133d36a55ca1c334a12fe97e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346391"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604654"
 ---
 # <a name="active-directory-domain-services-for-skype-for-business-server"></a>Active Directory-Domänendienste für Skype for Business Server
  
-Active Directory Domain Services fungiert als Verzeichnisdienst für Windows Server 2003-, Windows Server 2008-, Windows Server 2012- und Windows Server 2012 R2-Netzwerke. Active Directory Domain Services dient auch als Grundlage, auf der die Skype for Business Server Sicherheitsinfrastruktur aufgebaut ist. In diesem Abschnitt wird beschrieben, wie Skype for Business Server Active Directory-Domänendienste verwenden, um eine vertrauenswürdige Umgebung für Chat, Webkonferenzen, Medien und VoIP zu erstellen. Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für Active Directory Domain Services finden Sie unter ["Installieren Skype for Business Server"](../../deploy/install/install.md) in der Bereitstellungsdokumentation. Ausführliche Informationen zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation für die Version des von Ihnen verwendeten Betriebssystems.
+Active Directory Domain Services fungiert als Verzeichnisdienst für Windows Server 2003-, Windows Server 2008-, Windows Server 2012- und Windows Server 2012 R2-Netzwerke. Active Directory Domain Services dient auch als Grundlage, auf der die Skype for Business Server Sicherheitsinfrastruktur aufgebaut ist. In diesem Abschnitt wird beschrieben, wie Skype for Business Server Active Directory Domain Services verwendet, um eine vertrauenswürdige Umgebung für Chat, Webkonferenzen, Medien und VoIP zu erstellen. Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für Active Directory Domain Services finden Sie unter ["Installieren Skype for Business Server"](../../deploy/install/install.md) in der Bereitstellungsdokumentation. Ausführliche Informationen zur Rolle der Active Directory-Domänendienste in Windows Server-Netzwerken finden Sie in der Dokumentation für die Version des von Ihnen verwendeten Betriebssystems.
   
 Skype for Business Server verwendet Active Directory-Domänendienste zum Speichern:
   
 - Globale Einstellungen, die für alle Server, die Skype for Business Server in einer Gesamtstruktur ausgeführt werden, erforderlich sind.
     
-- Dienstinformationen zur Identifizierung der Rollen aller Server, auf denen Skype for Business Server in einer Gesamtstruktur ausgeführt werden.
+- Dienstinformationen, die die Rollen aller Server identifizieren, auf denen Skype for Business Server in einer Gesamtstruktur ausgeführt wird.
     
 - Einige Benutzereinstellungen
     
@@ -46,7 +46,7 @@ Ausführliche Informationen finden Sie unter ["Environmental requirements for Sk
   
 ## <a name="universal-groups"></a>Universelle Gruppen
 
-Während der Vorbereitung der Gesamtstruktur erstellt Skype for Business Server verschiedene universelle Gruppen innerhalb der Active Directory-Domänendienste, die über die Berechtigung zum Zugriff auf und die Verwaltung globaler Einstellungen und Dienste verfügen. Dazu gehören folgende universelle Gruppen:
+Während der Vorbereitung der Gesamtstruktur erstellt Skype for Business Server verschiedene universelle Gruppen innerhalb von Active Directory-Domänendiensten, die über die Berechtigung zum Zugriff auf und die Verwaltung globaler Einstellungen und Dienste verfügen. Dazu gehören folgende universelle Gruppen:
   
 - **Administrative Gruppen**. Diese Gruppen definieren die grundlegenden Administratorrollen für ein Skype for Business Server Netzwerk. Während der Gesamtstrukturvorbereitung werden diese Administratorgruppen Skype for Business Server Infrastrukturgruppen hinzugefügt.
     
@@ -54,14 +54,14 @@ Während der Vorbereitung der Gesamtstruktur erstellt Skype for Business Server 
     
 - **Infrastrukturgruppen**. Diese Gruppen erteilen die Berechtigung für den Zugriff auf bestimmte Bereiche der Skype for Business Server-Infrastruktur. Es sollten keine Infrastrukturgruppen geändert oder Benutzer direkt zu ihnen hinzugefügt werden. Während der Gesamtstrukturvorbereitung werden bestimmte Dienst- und Verwaltungsgruppen zu den entsprechenden Infrastrukturgruppen hinzugefügt.
     
-Ausführliche Informationen zu den spezifischen universellen Gruppen, die bei der Vorbereitung von AD für Skype for Business Server erstellt wurden, sowie zu den Dienst- und Verwaltungsgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie unter Änderungen, die von der [Gesamtstrukturvorbereitung in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
+Ausführliche Informationen zu den spezifischen universellen Gruppen, die bei der Vorbereitung von AD für Skype for Business Server erstellt wurden, sowie zu den Dienst- und Verwaltungsgruppen, die den Infrastrukturgruppen hinzugefügt werden, finden Sie unter Änderungen, die durch die [Gesamtstrukturvorbereitung in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden.
   
 > [!NOTE]
 > Skype for Business Server unterstützt die universellen Gruppen in der Windows Server 2012 sowie Windows Server 2003-Betriebssysteme für Domänencontroller. Mitglieder universeller Gruppen können andere Gruppen und Konten aus beliebigen Domänen in der Domänen- oder Gesamtstruktur umfassen und über Berechtigungen für beliebige Domänen in der Domänen- oder Gesamtstruktur verfügen. Die universelle Gruppenunterstützung in Kombination mit der Administratordelegierung vereinfacht die Verwaltung einer Skype for Business Server Bereitstellung. Beispielsweise ist es nicht erforderlich, eine Domäne einer anderen Domäne hinzuzufügen, um einem Administrator die Verwaltung beider Domänen zu ermöglichen. 
   
 ## <a name="role-based-access-control"></a>Rollenbasierte Zugriffssteuerung
 
-Zusätzlich zum Erstellen von universellen Diensten und Verwaltungsgruppen und zum Hinzufügen von Dienst- und Verwaltungsgruppen zu den entsprechenden universellen Gruppen werden bei der Gesamtstrukturvorbereitung auch Role-Based Zugriffssteuerungsgruppen (Access Control, RBAC) erstellt. Ausführliche Informationen zu den spezifischen RBAC-Gruppen, die durch die Gesamtstrukturvorbereitung erstellt wurden, finden Sie unter Änderungen, die durch die [Gesamtstrukturvorbereitung in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden. Weitere Informationen zu RBAC-Gruppen finden Sie unter [Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) für Skype for Business Server](role-based-access-control-rbac.md).
+Zusätzlich zum Erstellen von universellen Diensten und Verwaltungsgruppen und hinzufügen von Dienst- und Verwaltungsgruppen zu den entsprechenden universellen Gruppen erstellt die Gesamtstrukturvorbereitung auch Role-Based RBAC-Gruppen (Access Control). Ausführliche Informationen zu den spezifischen RBAC-Gruppen, die durch die Gesamtstrukturvorbereitung erstellt wurden, finden Sie unter Änderungen, die durch die [Gesamtstrukturvorbereitung in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) in der Bereitstellungsdokumentation vorgenommen wurden. Weitere Informationen zu RBAC-Gruppen finden Sie unter [Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC) für Skype for Business Server](role-based-access-control-rbac.md).
   
 ## <a name="access-control-entries-aces-and-inheritance"></a>Zugriffssteuerungseinträge und Vererbung
 
@@ -69,9 +69,9 @@ Bei der Gesamtstrukturvorbereitung werden sowohl private als auch öffentliche Z
   
 Beim Schritt zur Domänenvorbereitung werden universellen Gruppen die erforderlichen Zugriffssteuerungseinträge (Access Control Entries, ACEs) hinzugefügt, über die Berechtigungen zum Hosten und Verwalten von Benutzern in der Domäne gewährt werden. Bei der Domänenvorbereitung werden ACEs im Domänenstamm und in drei integrierten Containern erstellt: für Benutzer, Computer und Domänencontroller.
   
-Ausführliche Informationen zu den öffentlichen ACEs, die durch die Gesamtstrukturvorbereitung und die Domänenvorbereitung erstellt und hinzugefügt wurden, finden Sie unter Änderungen, die durch die [Gesamtstrukturvorbereitung in Skype for Business Server vorgenommen](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) wurden, und Änderungen, die [von der Domänenvorbereitung in Skype for Business Server in](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) der Bereitstellungsdokumentation vorgenommen wurden.
+Ausführliche Informationen zu den öffentlichen ACEs, die durch die Gesamtstrukturvorbereitung und die Domänenvorbereitung erstellt und hinzugefügt wurden, finden Sie unter Änderungen, die durch die [Gesamtstrukturvorbereitung in Skype for Business Server](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-forest-preparation.md) vorgenommen wurden, und Änderungen, die [durch die Domänenvorbereitung in Skype for Business Server in](../../schema-reference/active-directory-schema-extensions-classes-and-attributes/changes-made-by-domain-preparation.md) der Bereitstellungsdokumentation vorgenommen wurden.
   
-In Organisationen werden die Active Directory-Domänendienste (Active Directory Domain Services, AD DS) häufig gesperrt, um Sicherheitsrisiken nach Möglichkeit auszuschließen. Eine gesperrte Active Directory-Umgebung kann jedoch die Berechtigungen einschränken, die Skype for Business Server benötigen. Dies kann das Entfernen von ACEs aus Containern und Organisationseinheiten (Organizational Units, OUs) und das Deaktivieren der Vererbung von Berechtigungen für Benutzer-, Kontakt-, InetOrgPerson- oder Computerobjekte beinhalten. In einer gesperrten Active Directory-Umgebung müssen Berechtigungen manuell für die entsprechenden Container und Organisationseinheiten festgelegt werden.
+In Organisationen werden die Active Directory-Domänendienste (Active Directory Domain Services, AD DS) häufig gesperrt, um Sicherheitsrisiken nach Möglichkeit auszuschließen. Eine gesperrte Active Directory-Umgebung kann jedoch die Berechtigungen einschränken, die Skype for Business Server benötigt. Dies kann das Entfernen von ACEs aus Containern und Organisationseinheiten (Organizational Units, OUs) und das Deaktivieren der Vererbung von Berechtigungen für Benutzer-, Kontakt-, InetOrgPerson- oder Computerobjekte beinhalten. In einer gesperrten Active Directory-Umgebung müssen Berechtigungen manuell für die entsprechenden Container und Organisationseinheiten festgelegt werden.
   
 ## <a name="server-information"></a>Serverinformationen
 
@@ -85,7 +85,7 @@ Während der Aktivierung veröffentlicht Skype for Business Server Serverinforma
     
 ## <a name="service-connection-points"></a>Dienstverbindungspunkte
 
-Jedes Skype for Business Server-Objekt in Active Directory Domain Services verfügt über einen SCP namens "RTC Services", der wiederum eine Reihe von Attributen enthält, die jeden Computer identifizieren und die von ihm bereitgestellten Dienste angeben. Zu den wichtigeren SCP-Attributen zählen *"serviceDNSName",* *"serviceDNSNameType",* *"serviceClassname"* und *"serviceBindingInformation".* Ressourcenverwaltungsanwendungen von Drittanbietern können Serverinformationen in einer Bereitstellung abrufen, indem sie diese und andere SCP-Attribute abfragen.
+Jedes Skype for Business Server-Objekt in Active Directory Domain Services verfügt über einen SCP namens "RTC Services", der wiederum eine Reihe von Attributen enthält, die jeden Computer identifizieren und die bereitgestellten Dienste angeben. Zu den wichtigeren SCP-Attributen zählen *"serviceDNSName",* *"serviceDNSNameType",* *"serviceClassname"* und *"serviceBindingInformation".* Ressourcenverwaltungsanwendungen von Drittanbietern können Serverinformationen in einer Bereitstellung abrufen, indem sie diese und andere SCP-Attribute abfragen.
   
 ## <a name="active-directory-server-objects"></a>Active Directory-Serverobjekte
 
@@ -93,7 +93,7 @@ Jede Skype for Business Server Serverrolle verfügt über ein entsprechendes Act
   
 ## <a name="trusted-servers"></a>Vertrauenswürdige Server
 
-In Skype for Business Server sind vertrauenswürdige Server diejenigen, die angegeben werden, wenn Sie den Topologie-Generator ausführen und Ihre Topologie veröffentlichen. Die veröffentlichte Topologie, einschließlich aller Serverinformationen, wird im zentralen Verwaltungsspeicher gespeichert. Nur im zentralen Verwaltungsspeicher definierte Server sind vertrauenswürdig. In Skype for Business Server erfüllt ein vertrauenswürdiger Server die folgenden Kriterien:
+In Skype for Business Server sind vertrauenswürdige Server dieJenigen, die angegeben werden, wenn Sie den Topologie-Generator ausführen und Ihre Topologie veröffentlichen. Die veröffentlichte Topologie, einschließlich aller Serverinformationen, wird im zentralen Verwaltungsspeicher gespeichert. Nur im zentralen Verwaltungsspeicher definierte Server sind vertrauenswürdig. In Skype for Business Server erfüllt ein vertrauenswürdiger Server die folgenden Kriterien:
   
 - Der vollqualifizierte Domänenname (FQDN) des Servers ist in der im zentralen Verwaltungsspeicher gespeicherten Topologie vorhanden.
     

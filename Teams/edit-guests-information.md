@@ -14,29 +14,29 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie ein Administrator Informationen zu Gästen im Portal Azure Active Directory kann.
-localization_priority: Normal
+ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-apr2020
-ms.openlocfilehash: b3168c1302c5a735aeb416702cef5a78833c2bd2
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: da5e5e5a19aa36a0633c9826426cdc16fbc5e7cc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234580"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604574"
 ---
 # <a name="edit-guest-information"></a>Bearbeiten von Gastinformationen
 
-Sie können Gastinformationen im Portal Microsoft 365 Admin Center Oder Azure Active Directory bearbeiten.
+Sie können Gastinformationen aus der Website oder Microsoft 365 Admin Center dem Azure Active Directory bearbeiten.
 
 ## <a name="guest-users-in-the-microsoft-365-admin"></a>Gastbenutzer im Microsoft 365 Administrator
 
-1. Um die Gastinformationen im Microsoft 365 Admin Center [zu](https://admin.microsoft.com)bearbeiten, wählen Sie **Benutzer**  >  **Gastbenutzer aus.**
+1. Wählen Sie zum Bearbeiten der Gastinformationen im [Microsoft 365 Admin Center](https://admin.microsoft.com)die Option **Benutzer**  >  **Gastbenutzer aus.**
 
    ![Die Informationen zu Gastbenutzern, die bearbeitet werden](media/access-guest-user.png)
 
-2. Wählen Sie in **Gastbenutzer einen Benutzer aus.**
+2. Wählen Sie unter **Gastbenutzer einen Benutzer aus.**
 
 3. Wählen Sie in den Gastbenutzerinformationen die Option **Kontaktinformationen verwalten aus.**
 
@@ -46,4 +46,4 @@ Sie können Gastinformationen im Portal Microsoft 365 Admin Center Oder Azure Ac
 
    ![Bearbeiten der Kontaktinformationen für Gastbenutzer](media/manage-guest-contact.png)
 
-Sie können den Gast auch über das Azure Active Directory [bearbeiten.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)
+Sie können den Gast auch über das Portal Azure Active Directory [bearbeiten.](https://aad.portal.azure.com/#blade/Microsoft_AAD_IAM/UsersManagementMenuBlade/MsGraphUsers)

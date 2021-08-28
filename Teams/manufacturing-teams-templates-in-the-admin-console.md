@@ -9,7 +9,7 @@ ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
 - M365-collaboration
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie teamvorlagen verwenden, um Teamstrukturen für die Produktionsanforderungen zu erstellen, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
 f1.keywords:
@@ -19,18 +19,18 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 017656b0bacce810f26ac2821e07ba4dd8f08c9efad47717a94d6b3d95e4278f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b030b3a9635c0ba3f7737e4b749d47ac93fba862
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351874"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604414"
 ---
 # <a name="use-manufacturing-team-templates-in-the-admin-center"></a>Verwenden von Produktionsteamvorlagen im Admin Center
 
 Teamvorlagen ermöglichen es Ihnen, Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
 
-Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die den Produktionsanforderungen entsprechen. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die Auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
+Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die für die Produktionsanforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
 
 In diesem Artikel stellen wir die einzelnen Teamvorlagen vor und empfehlen, sie zu verwenden.
 
@@ -40,7 +40,7 @@ Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte
 
 ## <a name="quality-and-safety"></a>Qualität und Sicherheit
 
-Zentralisieren Sie die Kommunikation, den Zugriff auf Ressourcen und Betriebsvorgänge mit einem Fertigungswerk-Team. Fügen Sie Richtlinien- und Verfahrensdokumente, Schulungsvideos, Sicherheitshinweise, Schichthandover-Prozesse ein.
+Zentralisieren Sie die Kommunikation, den Zugriff auf Ressourcen und Betriebsvorgänge mit einem Fertigungswerk-Team. Fügen Sie Richtlinien- und Verfahrensdokumente, Schulungsvideos, Sicherheitshinweise, Übergabeprozesse für Schichten ein.
 
 | Basisorlagentyp|baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
 | ------------------|-- |----------------------------------------------------- |

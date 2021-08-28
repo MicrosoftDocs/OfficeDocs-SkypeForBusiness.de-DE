@@ -15,20 +15,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Einreichen einer Beanstandung für Skype for Business Calling Services (PSTN Calling in uk), Zeitachsen für Antworten und Beilegung von Streitigkeiten für nicht aufgelöste Beanstandungen.
-ms.openlocfilehash: 5d0697de0d0c19038c5b6307eca4023f2838ee0aab010fb7a33faf371300625c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Einreichen einer Beanstandung für Skype for Business-Anrufdienste (PSTN-Anrufe in Großbritannien), Zeitachsen für Antworten und Beilegung von Streitigkeiten für nicht aufgelöste Beanstandungen.
+ms.openlocfilehash: 648f7b171e8d04f4bad6ef1cdb1021b987cf042e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347410"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604604"
 ---
 # <a name="calling-plans-in-microsoft-365---complaint-handling-code-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Beanstandungshandling-Code für Großbritannien (UK)
 

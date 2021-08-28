@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN), zugeordneten Vermittlungsserver und andere grundlegende Informationen zu diesem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz). Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 8b1059e7ee9373efbb8334fa642f961e18d2ada43e19fd2b5e01741d61562cfb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 88d4aecd950c7f8e4d6caa79fd307b2ef333115e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335035"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623777"
 ---
-# <a name="pstn-gateway-scope-node"></a>PSTN-Gateway – Bereichsknoten
+# <a name="pstn-gateway-scope-node"></a>PSTN-Gateway – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN), zugeordneten Vermittlungsserver und andere grundlegende Informationen zu diesem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz). Folgende Möglichkeiten stehen zur Verfügung:
   

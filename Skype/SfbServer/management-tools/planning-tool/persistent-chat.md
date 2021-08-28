@@ -11,15 +11,15 @@ f1.keywords:
 - ms.lync.plan.PersistentChat
 - ms.lync.plan.PersistentChat
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec111e2e-15dd-4b9b-ba9c-6125139319a1
 description: Mit dem Server für beständigen Chat können Benutzer an themenbasierten Unterhaltungen mit mehreren Teilnehmern teilnehmen, die im Laufe der Zeit bestehen bleiben.
-ms.openlocfilehash: 3b62f3d360e134f52eb38e8ce990be8c63ca7b2541439178a9d81cbd47c6508d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a4206e9843833a3cfaebc10083100f85c7c3a37b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334965"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58588507"
 ---
 # <a name="persistent-chat-planning-tool"></a>Planungstool für beständigen Chat
  

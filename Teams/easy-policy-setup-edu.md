@@ -13,16 +13,16 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden können, um Ihre Lernumgebung sicher zu halten.
+description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden, um Ihre Lernumgebung sicher zu halten.
 f1keywords: ''
-ms.openlocfilehash: 5e046e108f899f95e76df8c03d5fd6d25de4a942
-ms.sourcegitcommit: b1a61c0c48b93e82c7ca8a41b1a718ae3d147d55
+ms.openlocfilehash: d7e2959b5b824d8b053d9b912d0450c2209b4b1b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "58386684"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604594"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Teams für Education-Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für eine sichere Lernumgebung
 
@@ -30,9 +30,9 @@ ms.locfileid: "58386684"
 
 Der Microsoft Teams für Education-Richtlinien-Assistent vereinfacht die Verwaltung von Richtlinien für Ihre Schüler/Studierenden und Lehrkräfte. Verwenden Sie sie, um die wichtigsten Richtlinien für die Erstellung einer sicheren und produktiven Lernumgebung auf einfache und schnelle Weise anzuwenden.
 
-Mit Richtlinien in Teams können Sie steuern, Teams Verhalten in Ihrer Umgebung und welche Features benutzern zur Verfügung stehen. Beispielsweise gibt es Anrufrichtlinien, Besprechungsrichtlinien und Messagingrichtlinien, um nur einige zu nennen, und jeder Richtlinienbereich kann an die Anforderungen Ihrer Organisation angepasst werden.
+Mit Richtlinien in Teams können Sie steuern, Teams verhalten sich in Ihrer Umgebung verhält und welche Features den Benutzern zur Verfügung stehen. Beispielsweise gibt es Anrufrichtlinien, Besprechungsrichtlinien und Messagingrichtlinien, um nur einige zu nennen, und jeder Richtlinienbereich kann an die Anforderungen Ihrer Organisation angepasst werden.
 
-Um eine sichere und fokussierte Lernumgebung zu erhalten, ist es wichtig, Richtlinien zu festlegen, um zu steuern, was Schüler/Studenten in ihrer Teams. Beispielsweise können Sie mithilfe von Richtlinien steuern, wer private Chats und private Anrufe verwenden kann, wer Besprechungen planen und welche Inhaltstypen freigegeben werden können. Sie können auch Richtlinien verwenden, um alle Teams aktivieren, die die Lernerfahrung bereichern.
+Um eine sichere und fokussierte Lernumgebung zu erhalten, ist es wichtig, Richtlinien zu setzen, um zu steuern, welche Schüler/Studenten in der Gruppe Teams. Beispielsweise können Sie mithilfe von Richtlinien steuern, wer private Chats und private Anrufe verwenden kann, wer Besprechungen planen und welche Inhaltstypen freigegeben werden können. Sie können auch Richtlinien verwenden, um alle Teams aktivieren, die die Lernerfahrung bereichern.
 
 Richtlinien müssen sowohl für Schüler/Studierende als auch für Lehrkräfte angepasst werden, um die Lernerfahrung zu schützen. Richtlinien für Schüler und Studenten müssen restriktiver sein, um das Risiko zu verringern, unangemessene Zugriffsebenen zu erhalten. Lehrkräfte und Mitarbeiter benötigen einen separaten Satz von Richtlinien, die möglicherweise ungenügend sind, um erfolgversprechend zu sein. Lassen Sie beispielsweise Lehrkräfte Besprechungen planen und verhindern, dass Schüler/Studierende dies tun.
 
@@ -41,7 +41,7 @@ Richtlinien müssen sowohl für Schüler/Studierende als auch für Lehrkräfte a
 Dieser Artikel führt Sie durch die Ausführung des Assistenten.
 
 > [!IMPORTANT]
-> Die vom Assistenten angewendeten Richtlinien erfüllen die Anforderungen der Mehrzahl Teams für Education Kunden. Der Assistent passt die globale (organisationsweite Standard)-Definition eines Kerns von Richtlinien mit Einstellungen an, die wir für die Sicherheit von Kursteilnehmern empfehlen, und wendet sie auf Schüler/Studierende an. Der Assistent erstellt und weist außerdem einen Satz benutzerdefinierter Richtlinien für Lehrkräfte und Mitarbeiter zu. Die Teams für Education Kunden müssen nach der Ausführung dieses Assistenten keine anderen Richtlinienzuweisungsmethoden verwenden. Verwenden Sie andere Richtlinienzuweisungsmethoden *nur,* wenn Sie Richtlinien für Ihre Schüler/Studenten, Lehrkräfte und Mitarbeiter manuell erstellen und verwalten möchten.
+> Die vom Assistenten angewendeten Richtlinien entsprechen den Anforderungen der Mehrzahl Teams für Education Kunden. Der Assistent passt die globale (organisationsweite Standard)-Definition eines Kerns von Richtlinien mit Einstellungen an, die wir für die Sicherheit von Kursteilnehmern empfehlen, und wendet sie auf Schüler/Studierende an. Der Assistent erstellt und weist außerdem einen Satz benutzerdefinierter Richtlinien für Lehrkräfte und Mitarbeiter zu. Die Teams für Education Kunden müssen nach der Ausführung dieses Assistenten keine anderen Richtlinienzuweisungsmethoden verwenden. Verwenden Sie andere Richtlinienzuweisungsmethoden *nur,* wenn Sie Richtlinien für Ihre Schüler/Studenten, Lehrkräfte und Mitarbeiter manuell erstellen und verwalten möchten.
 
 ## <a name="teams-for-education-policy-wizard"></a>Teams für Education Richtlinien-Assistent
 
@@ -69,7 +69,7 @@ Los geht's!
 
 Führen Sie zum Ausführen des Assistenten die folgenden Schritte aus.
 
-1. Wenn Sie noch nicht mit Teams, wird der Assistent automatisch gestartet. Andernfalls können Sie den Assistenten jederzeit über das Dashboard starten. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers  zu **Dashboard,** und wählen Sie dann in der Kachel Einfaches Einrichten einer Richtlinie für eine sichere Lernumgebung die Option **Schnelleinrichtung aus.**
+1. Wenn Sie noch nicht mit Teams, wird der Assistent automatisch gestartet. Andernfalls können Sie den Assistenten jederzeit über das Dashboard starten. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers  zu **Dashboard,** und wählen Sie dann in der Kachel Einfache Richtlinieneinrichtung für eine sichere Lernumgebung die Option **Schnelleinrichtung aus.**
 
     :::image type="content" source="media/easy-policy-setup-quick-setup.png" alt-text="Screenshot des Assistenten im Dashboard":::
 
@@ -86,7 +86,7 @@ Führen Sie zum Ausführen des Assistenten die folgenden Schritte aus.
     :::image type="content" source="media/easy-policy-setup-review-selections.png" alt-text="Screenshot der Seite im Assistenten zum Überprüfen der Auswahl":::
 
 5. Wählen Sie **Übernehmen** aus, um die Änderungen anzuwenden. Der Vorgang kann einige Minuten dauern.<br/><br/>Die Definitionen der globalen (organisationsweiten Standard)-Richtlinie werden sofort auf Schüler/Studierende angewendet. Für Ihre Lehrkräfte und Mitarbeiter kann es je nach Größe der Gruppe einige Stunden dauern, bis die benutzerdefinierten Richtlinien jedem Mitglied der ausgewählten Gruppe zugewiesen wurden. Dies geschieht im Hintergrund, nachdem Sie diesen Schritt erfolgreich abgeschlossen haben.
-6. Sie sind auf dem Weg, haben es aber noch nicht geschafft! Es gibt ein paar weitere Dinge zu berücksichtigen. Schauen Sie sich als Nächstes die Schritte im Abschnitt Was [nach](#what-to-do-after-running-the-wizard) dem Ausführen des Assistenten zu tun ist in diesem Artikel an.
+6. Sie sind auf dem Weg, aber Sie sind noch nicht fertig! Es gibt ein paar weitere Dinge zu berücksichtigen. Schauen Sie sich als Nächstes die Schritte im Abschnitt Was [nach](#what-to-do-after-running-the-wizard) dem Ausführen des Assistenten zu tun ist in diesem Artikel an.
 
     :::image type="content" source="media/easy-policy-setup-on-way.png" alt-text="Screenshot der Seite im Assistenten für die nächsten Schritte":::
 
@@ -97,7 +97,7 @@ Führen Sie zum Ausführen des Assistenten die folgenden Schritte aus.
 ### <a name="step-1-remove-existing-policy-assignments-that-conflict-with-policies-applied-by-the-wizard"></a>Schritt 1: Entfernen vorhandener Richtlinienzuweisungen, die mit den vom Assistenten angewendeten Richtlinien in Konflikt stehen
 
 > [!IMPORTANT]
-> **Führen Sie diesen Schritt nur aus, wenn Sie  Schülern/Studierenden,** Lehrkräften und Mitarbeitern vorhandene Richtlinien zugewiesen haben, bevor Sie den Assistenten ausgeführt haben. Wenn Sie noch nicht mit Teams und über keine anderen Richtlinien als die vom Assistenten erstellten Richtlinien verfügen, überspringen Sie dies, und fahren Sie mit Schritt 2 fort.
+> **Führen Sie diesen Schritt nur aus, wenn Sie  Schülern/Studierenden,** Lehrkräften und Mitarbeitern vorhandene Richtlinien zugewiesen haben, bevor Sie den Assistenten ausgeführt haben. Wenn Sie noch nicht mit Teams und über keine anderen Richtlinien als die vom Assistenten erstellten Richtlinien verfügen, überspringen Sie diese, und fahren Sie mit Schritt 2 fort.
 
 In Teams kann eine Richtlinie für einen bestimmten Richtlinienbereich auf folgende Weise auf einen Benutzer angewendet werden:
 
@@ -247,7 +247,7 @@ Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, 
 |  |       |Erstellen von Sprachnachrichten         |In Chats und Kanälen zulässig         |In Chats und Kanälen zulässig|
 |  |       |Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen     |Aktiviert         |Aktiviert|
 |  |       |Entfernen von Benutzern aus Gruppenchats         |Aus         |Ein|
-|App-Berechtigungsrichtlinie  |       |Microsoft-Apps         |Blockieren bestimmter Apps und Zulassen, dass > Walkie-Talkie blockiert wird         |Alle Apps zulassen|
+|App-Berechtigungsrichtlinie  |       |Microsoft-Apps         |Blockieren bestimmter Apps und Zulassen, dass alle > Walkie-Talkie blockiert werden         |Alle Apps zulassen|
 |  |       |Drittanbieter-Apps         |Alle Apps zulassen         |Alle Apps zulassen|
 |  |       |Benutzerdefinierte Apps         |Alle Apps zulassen         |Alle Apps zulassen|
 |App-Setuprichtlinie  |           |Hochladen von benutzerdefinierten Apps           |Aus         |Aus|
@@ -333,4 +333,4 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Leh
 
 - [Teams-Richtlinien und Richtlinienpakete für Bildung](policy-packages-edu.md)
 - [Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule](batch-group-policy-assignment-edu.md)
-- [Sicherheit von Kursteilnehmern bei der Verwendung Teams für den Fernunterricht](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Sicherheit der Schüler bei der Verwendung Teams für den Fernunterricht](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
