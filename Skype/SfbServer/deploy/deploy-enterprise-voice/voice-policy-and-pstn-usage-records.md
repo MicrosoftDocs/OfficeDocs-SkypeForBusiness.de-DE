@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen oder Ändern von VoIP-Richtlinien und Konfigurieren von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server Systemsteuerung.'
-ms.openlocfilehash: f81d54314d60b6dbb69efa84a2fc5bb9cd22123ff2158080ed2878102611b7a3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 80e19ed7c271df8b27f53062d4647a39fd6e7491
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320837"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605574"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
 
@@ -54,11 +54,11 @@ ms.locfileid: "54320837"
    - **Voicemail-Escape** verhindert, dass Anrufe sofort an das Voicemailsystem des Mobiltelefons des Benutzers weitergeleitet werden, wenn gleichzeitiges Klingeln konfiguriert ist und das Telefon ausgeschaltet, nicht genügend Akku oder außerhalb der Reichweite ist.
 
      > [!NOTE]
-     > Dieses Feature kann nur über die Skype for Business Server Verwaltungsshell konfiguriert werden.
+     > Dieses Feature kann nur über die Skype for Business Server-Verwaltungsshell konfiguriert werden.
 
    - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype for Business Server bietet eine deutlich größere Palette von Konfigurationsoptionen für die Anrufweiterleitung. Wenn beispielsweise eine Organisation nicht möchte, dass eingehende Anrufe extern an das PSTN weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie geltend machen, um diese Einschränkung bereitzustellen. Diese Option ist standardmäßig aktiviert.
 
-   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype for Business Server kann ein Delegat das gleichzeitige Klingeln konfigurieren, sodass eingehende Anrufe an seinen Vorgesetzten alle Ziele für das gleichzeitige Klingeln der Stellvertretung anrufen können. Auf diese Weise kann der Stellvertreter flexibler auf die für seinen Manager bestimmten Anrufe reagieren. Diese Option ist standardmäßig aktiviert.
+   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype for Business Server kann ein Delegat das gleichzeitige Klingeln konfigurieren, sodass eingehende Anrufe an seinen Vorgesetzten alle Ziele für das gleichzeitige Klingeln des Delegaten klingeln können. Auf diese Weise kann der Stellvertreter flexibler auf die für seinen Manager bestimmten Anrufe reagieren. Diese Option ist standardmäßig aktiviert.
 
    - **Anrufdurchstellung** ermöglicht es, Anrufe an andere Benutzer durchzustellen. Diese Option ist standardmäßig aktiviert.
 
@@ -280,7 +280,7 @@ ms.locfileid: "54320837"
 
    - Um dieselben PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden wie diese VoIP-Richtlinie, wählen Sie die Option **Mithilfe der gleichen PSTN-Verwendungen weiterleiten** im Dropdownmenü aus.
 
-   - Um die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne Skype for Business Benutzer zuzulassen, wählen Sie nur im Dropdownmenü die Option **"An interne Skype for Business Benutzer** weiterleiten" aus. Die Anrufe werden dann nicht an externe PSTN-Nummern weitergeleitet.
+   - Um die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne Skype for Business Benutzer zuzulassen, wählen Sie nur im Dropdownmenü **"Route to internal Skype for Business users"** aus. Die Anrufe werden dann nicht an externe PSTN-Nummern weitergeleitet.
 
    - Um andere PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden, als die für diese VoIP-Richtlinie verwendeten, wählen Sie die Option **Mithilfe benutzerdefinierter PSTN-Verwendungen weiterleiten** im Dropdownmenü aus. Bei Auswahl dieser Option wird ein Steuerelement angezeigt, über das vorhandene PSTN-Verwendungsdatensätze ausgewählt oder neue PSTN-Verwendungsdatensätze erstellt werden können, die speziell auf die Anrufweiterleitung und gleichzeitiges Klingeln ausgerichtet sind.
 

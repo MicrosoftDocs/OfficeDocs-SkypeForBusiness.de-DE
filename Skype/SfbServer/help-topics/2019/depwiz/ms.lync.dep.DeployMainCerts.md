@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 332ec40f-78be-440a-8c1d-ada6114897db
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'In Schritt 3: Zertifikate anfordern, installieren oder zuweisen wird beim Klicken auf Ausführen der Zertifikat-Assistent gestartet. Die über den Assistenten konfigurierten Zertifikate basieren auf der Definition der Skype for Business Server Topologie, die vom Topologie-Generator konfiguriert und im zentralen Verwaltungsspeicher veröffentlicht wird. Damit der Zertifikat-Assistent für eine Onlinezertifizierungsstelle in Ihrer Organisation erfolgreich ausgeführt werden kann, müssen Sie am Computer als Mitglied der lokalen Gruppe "Administratoren" angemeldet sein. Ferner müssen Sie ein authentifizierter Domänenbenutzer in der Domäne des Computers und der Zertifizierungsstelle sein. Der Zertifikat-Assistent bietet die Möglichkeit, alternative Anmeldeinformationen für den Zugriff auf die Zertifizierungsstelle Ihrer Organisation anzugeben.'
-ms.openlocfilehash: 44eb8c3ca1361742a114b3763bde911842734c1ced498dfae73c1f8a7c3c3d45
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 63581c0a24d8bef811d77a5473326d17e404b8d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605444"
 ---
 # <a name="request-install-or-assign-certificates"></a>Anfordern, Installieren oder Zuweisen von Zertifikaten
  

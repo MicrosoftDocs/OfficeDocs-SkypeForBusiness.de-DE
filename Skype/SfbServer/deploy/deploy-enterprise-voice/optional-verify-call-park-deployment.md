@@ -1,5 +1,5 @@
 ---
-title: (Optional) Überprüfen der Bereitstellung zum Parken von Anrufen in Skype for Business
+title: (Optional) Überprüfen der Bereitstellung des Parkens von Anrufen in Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -9,18 +9,18 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fcfe0962-1a9c-4cbd-847c-fed40e3b1480
 description: Überprüfen der Bereitstellung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 1c07b8f3c94a05b7a3f896537b2c0f05d7c0e381fa80ef8b67562854fedc4bf8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 279f55e058678bdd33616a71642555b134052018
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54298655"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579949"
 ---
-# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Bereitstellung zum Parken von Anrufen in Skype for Business
+# <a name="optional-verify-call-park-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Bereitstellung des Parkens von Anrufen in Skype for Business
  
 Überprüfen der Bereitstellung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP. 
   
@@ -29,7 +29,7 @@ Nachdem Sie das Parken von Anrufen installiert und konfiguriert haben, müssen S
 - Rufen Sie einen Benutzer auf, für den das Parken von Anrufen aktiviert ist und der Benutzer den Anruf parken lässt.
     
     > [!NOTE]
-    > Wenn Sie das Parken von Anrufen in der VoIP-Richtlinie direkt vor dem Ausführen dieses Tests aktiviert haben, muss sich der Benutzer, der den Anruf parkt, von Skype for Business abmelden und sich dann wieder anmelden, um die Option zum Parken von Anrufen in der Anrufliste für die Übertragung anzeigen zu können. 
+    > Wenn Sie das Parken von Anrufen in der VoIP-Richtlinie direkt vor dem Ausführen dieses Tests aktiviert haben, muss sich der Benutzer, der den Anruf parkt, von Skype for Business abmelden und sich dann wieder anmelden, um die Option zum Parken von Anrufen in der Anrufweiterleitungsliste anzeigen zu können. 
   
 - Wählen Sie die Orbitnummer, um den Anruf abzurufen.
     

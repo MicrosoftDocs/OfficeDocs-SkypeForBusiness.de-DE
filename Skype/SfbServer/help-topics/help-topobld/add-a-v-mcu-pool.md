@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddAvMcuPoolPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
-description: Alle Enterprise Edition Front-End-Server eines zentralen Standorts ohne einen verbundenen A/V-Konferenzdienst können den gleichen eigenständigen A/V-Konferenzpool verwenden. Für jeden A/V-Konferenzpool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob er nur über einen einzelnen A/V-Konferenzserver oder mehrere A/V-Konferenzserver mit Lastenausgleich verfügt.
-ms.openlocfilehash: ce3ffed642a8cafe6e913ee053a6a2d71787c181b1c704a3e4429df33e7cfed4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Alle Enterprise Edition Front-End-Server eines zentralen Standorts, die nicht über einen verbundenen A/V-Konferenzdienst verfügen, können den gleichen eigenständigen A/V-Konferenzpool verwenden. Für jeden A/V-Konferenzpool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob er nur über einen einzelnen A/V-Konferenzserver oder mehrere A/V-Konferenzserver mit Lastenausgleich verfügt.
+ms.openlocfilehash: 212b9294a1e1d3578652e595cccb72088d859685
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348190"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628107"
 ---
 # <a name="add-av-mcu-pool"></a>Hinzufügen des A/V-MCU-Pools
  
-Alle Enterprise Edition Front-End-Server eines zentralen Standorts ohne einen verbundenen A/V-Konferenzdienst können den gleichen eigenständigen A/V-Konferenzpool verwenden. Für jeden A/V-Konferenzpool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob er nur über einen einzelnen A/V-Konferenzserver oder mehrere A/V-Konferenzserver mit Lastenausgleich verfügt.
+Alle Enterprise Edition Front-End-Server eines zentralen Standorts, die nicht über einen verbundenen A/V-Konferenzdienst verfügen, können den gleichen eigenständigen A/V-Konferenzpool verwenden. Für jeden A/V-Konferenzpool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob er nur über einen einzelnen A/V-Konferenzserver oder mehrere A/V-Konferenzserver mit Lastenausgleich verfügt.
   
 > [!IMPORTANT]
 > Sie können einen Pool mit einem Server nicht in einen Pool mit mehreren Servern konvertieren. Wenn Sie später entscheiden, dass Ihre Organisation einen Pool mit mehreren Servern benötigt, müssen Sie den Einzelserverpool löschen und dann den Pool mit mehreren Servern hinzufügen. 

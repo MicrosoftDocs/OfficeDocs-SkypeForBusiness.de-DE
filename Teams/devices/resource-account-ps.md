@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: In diesem Thema finden Sie Informationen zum Bereitstellen von Zusammenarbeitsbalken für Microsoft Teams.
+description: In diesem Thema finden Sie Informationen zum Bereitstellen von Zusammenarbeitsleisten für Microsoft Teams.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce5fe8fa0066ea613cdee1dbea6cf7fb2e385e2694ae9b84bbd99901c999f69b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3388e2eb1e086cd347769a50bb9603f4a0832402
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54334716"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605814"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-powershell"></a>Erstellen eines Microsoft 365-Ressourcenkontos mithilfe der PowerShell
 
@@ -42,7 +42,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
 
 ### <a name="add-a-resource-account"></a>Hinzufügen eines Ressourcenkontos
 
-1. Verbinden Sie Exchange Online PowerShell. Anweisungen finden Sie [unter Verbinden Exchange Online PowerShell.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
+1. Verbinden Sie Exchange Online PowerShell. Anweisungen finden Sie [unter Verbinden zum Exchange Online von PowerShell.](/powershell/exchange/exchange-online/exchange-online-powershell-v2/exchange-online-powershell-v2?view=exchange-ps#install-and-maintain-the-exchange-online-powershell-v2-module)
 
 2. Erstellen Exchange Online in PowerShell ein neues Raumpostfach, oder ändern Sie ein vorhandenes Raumpostfach.
 
@@ -72,7 +72,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, das den Aliaswert "HuddleRoom02" enthält, und das Kennwort wird auf "808P@$$W 0rd" festlegen. Beachten Sie, dass das Konto aufgrund HuddleRoom02@contoso.onmicrosoft.com vorhandenen Aliaswerts nicht mehr verwendet werden kann.
+     In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, das den Aliaswert "HuddleRoom02" enthält, und das Kennwort wird auf "808P@$$W 0rd" festlegen. Beachten Sie, dass das Konto aufgrund HuddleRoom02@contoso.onmicrosoft.com vorhandenen Aliaswerts nicht mehr verwendet wird.
 
      ``` PowerShell
      Set-Mailbox -Identity HuddleRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '808P@$$W0rd' -AsPlainText -Force)
@@ -83,7 +83,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
 
 3. Konfigurieren Exchange Online in PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
 
-   - Automatisieren der Verarbeitung: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen eines Menschen: frei = akzeptieren; beschäftigt = ablehnen.)
+   - AutomateProcessing: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen eines Menschen: frei = akzeptieren; Beschäftigt = ablehnen.)
 
    - AddOrganizerToSubject: $false (Der Besprechungsorganisator wird dem Betreff der Besprechungsanfrage nicht hinzugefügt.)
 
@@ -110,7 +110,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
    > [!NOTE]
    > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
 
-5. Legen Sie mithilfe der folgenden Syntax huddleroom01@contoso.onmicrosoft.com Ablauf des Kennworts für ihr Kennwort:
+5. Legen Sie das Kennwort für huddleroom01@contoso.onmicrosoft.com, damit es nicht abläuft, mithilfe der folgenden Syntax:
 
       ``` Powershell
       Set-MsolUser -UserPrincipalName huddleroom01@contoso.onmicrosoft.com -PasswordNeverExpires $true

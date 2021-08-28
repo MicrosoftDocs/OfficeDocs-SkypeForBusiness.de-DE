@@ -1,5 +1,5 @@
 ---
-title: Erstellen einer Anrufwarteschleife in Microsoft Teams – Kleinunternehmen-Lernprogramm
+title: Erstellen einer Anrufwarteschleife im Microsoft Teams – Kleinunternehmen
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: serdars
@@ -15,19 +15,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
-ms.openlocfilehash: 7c374819fd142d86d53c92b32f2799b861833006371ee4038a4769eaeb396f0a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
+ms.openlocfilehash: 7267d2d7116f40d29405510a924b5ec560037d0e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605984"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen
 
@@ -51,7 +51,7 @@ In diesem Video wird gezeigt, wie Sie eine Anrufwarteschleife in einer Teams.
 
 #### <a name="before-you-begin"></a>Bevor Sie beginnen
 
-Holen Sie [sich Telefonsystem – Lizenzen für](../teams-add-on-licensing/virtual-user.md) virtuelle Benutzer, wenn Sie noch nicht über lizenzen verfügen. Erhalten Sie einen Für jede Anrufwarteschleife und automatische Telefonhalter, die Sie einrichten möchten. Diese Lizenzen sind kostenlos, daher empfehlen wir, ein paar zusätzliche Lizenzen für den Fall zu erhalten, dass Sie später Änderungen an Ihrem Setup vornehmen.
+Holen Sie [sich Telefonsystem – Lizenzen für virtuelle](../teams-add-on-licensing/virtual-user.md) Benutzer, wenn Sie noch nicht über diese Lizenzen verfügen. Erhalten Sie einen Für jede Anrufwarteschleife und automatische Telefonhalter, die Sie einrichten möchten. Diese Lizenzen sind kostenlos, daher empfehlen wir, ein paar zusätzliche Lizenzen für den Fall zu erhalten, dass Sie später Änderungen an Ihrem Setup vornehmen.
 
 Da telefonierende Mitarbeiter in einer Anrufwarteschleife möglicherweise anrufen, um einen Kundenanruf zurückzukehren, sollten Sie die Anrufer-ID für Ihre Anrufer auf Ihre Haupttelefonnummer oder die Nummer einer entsprechenden automatischen Telefon attendant festlegen. Weitere Informationen finden Sie unter [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](../caller-id-policies.md).
 
@@ -65,7 +65,7 @@ Beim Erstellen einer Anrufwarteschleife können Sie einzelne Benutzer zur Wartes
 
 So erstellen Sie ein Team
 
-1. Klicken Sie **zuerst Teams** der linken Seite der App  auf Beitreten oder ein Team erstellen am unteren Rand Ihrer Teamliste.
+1. Klicken Sie **zuerst Teams** linken Rand der App auf  Beitreten oder ein Team erstellen am unteren Rand Ihrer Teamliste.
 
 2. Klicken Sie dann **auf Team erstellen** (erste Karte, obere linke Ecke).
 
@@ -96,7 +96,7 @@ So fügen Sie einen Kanal hinzu
 
 # <a name="step-2brresource-accounts"></a>[Schritt 2 <br> Ressourcenkonten](#tab/resource-account)
 
-Für jede von Ihnen erstellte Anrufwarteschleife ist ein Ressourcenkonto erforderlich. Dies ähnelt einem Benutzerkonto, mit dem Ausnahme, dass das Konto einer automatischen Telefonhalterung oder Anrufwarteschleife und nicht einer Person zugeordnet ist. In diesem Schritt erstellen wir das Konto, weisen ihm eine *Microsoft 365 Telefonsystem - Virtual User-Lizenz* zu und beginnen dann mit dem Erstellen der Anrufwarteschleife.
+Für jede von Ihnen erstellte Anrufwarteschleife ist ein Ressourcenkonto erforderlich. Dies ähnelt einem Benutzerkonto, mit dem Ausnahme, dass das Konto mit einer automatischen Telefonkonferenz oder einer Anrufwarteschleife statt mit einer Person verknüpft ist. In diesem Schritt erstellen wir das Konto, weisen ihm eine *Microsoft 365 Telefonsystem - Virtual User-Lizenz* zu und beginnen dann mit dem Erstellen der Anrufwarteschleife.
 
 ### <a name="create-a-resource-account"></a>Erstellen eines Ressourcenkontos
 
@@ -114,13 +114,13 @@ Sie können ein Ressourcenkonto im Teams Admin Center erstellen.
 
    Das neue Konto wird in der Liste der Konten angezeigt.
 
-   ![Screenshot einer Liste mit Ressourcenkonten](../media/resource-accounts-page.png)
+   ![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Lizenz zuweisen
 
 Sie müssen dem *Ressourcenkonto Microsoft 365 Telefonsystem - Virtueller Benutzer* zuweisen.
 
-1. Klicken Sie Microsoft 365 Admin Center der Liste **Aktive** Benutzer auf das Ressourcenkonto, dem Sie eine Lizenz zuweisen möchten.
+1. Klicken Sie Microsoft 365 Admin Center Der Liste  Aktive Benutzer auf das Ressourcenkonto, dem Sie eine Lizenz zuweisen möchten.
 
 2. Wählen Sie **auf der Registerkarte Lizenzen** und Apps unter **Lizenzen** die Option Microsoft 365 Telefonsystem **- Virtueller Benutzer aus.**
 
@@ -132,7 +132,7 @@ Sie müssen dem *Ressourcenkonto Microsoft 365 Telefonsystem - Virtueller Benutz
 
 Als Nächstes erstellen wir eine neue Anrufwarteschleife und weisen das Ressourcenkonto zu.
 
-1. Erweitern Sie Teams Admin Center Sprachanrufe **,** klicken Sie auf **Anrufwarteschleifen**, und klicken Sie dann auf **Hinzufügen**.
+1. Erweitern Sie Teams Admin Center Sprachanrufe , klicken Sie auf **Anrufwarteschleifen**, und klicken Sie dann auf **Hinzufügen**.
 
 1. Geben Sie einen Namen für die Anrufwarteschleife ein.
 
@@ -155,7 +155,7 @@ Als Nächstes erstellen wir eine neue Anrufwarteschleife und weisen das Ressourc
    > Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. 
 
 > [!div class="nextstepaction"]
-> [Schritt 3 – Anrufen von Agents >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
+> [Schritt 3 – Anrufen von >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-agents#steps)
 
 # <a name="step-3brcall-agents"></a>[Schritt 3 <br> Telefonmitarbeiter anrufen](#tab/call-agents)
 
@@ -222,7 +222,7 @@ Wählen Sie aus, wie Anrufe zu behandeln sind, die den maximal zulässigen Wert 
 
 # <a name="step-6brcall-timeout"></a>[Timeout für Anrufe in Schritt 6 <br>](#tab/call-timeout)
 
-Wählen Sie aus, was geschehen soll, wenn Anrufe zu lange in der Warteschlange warteten.
+Wählen Sie aus, was geschehen soll, wenn Anrufe zu lange in der Warteschleife warteten.
 
 1. Legen Sie die **maximale Wartezeit (Maximum Wait Time) (Maximale Wartezeit) festgelegt.**
 

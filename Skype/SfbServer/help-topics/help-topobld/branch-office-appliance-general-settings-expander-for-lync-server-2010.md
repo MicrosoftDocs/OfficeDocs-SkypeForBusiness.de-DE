@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Um Eigenschaften für Survivable Branch Appliance oder Survivable Branch Server zu bearbeiten, konfigurieren Sie unter "Allgemein" Folgendes:'
-ms.openlocfilehash: 178e7acd1a5e8b34bc4d3b01a10be369834636e6a67c6a2145f650e2211cadca
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0a0451084067d31c6fc3f45ddd7b8e64a950c32f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313323"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605124"
 ---
-# <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für die Filialanwendung für Lync Server 2010 – Erweiterung
+# <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für die Filialanwendung für Lync Server 2010 – Erweiterung
  
 Zum Bearbeiten von Eigenschaften für Survivable Branch Appliance oder Survivable Branch Server konfigurieren Sie unter **"Allgemein"** Folgendes:
   
@@ -42,7 +42,7 @@ Zum Bearbeiten von Eigenschaften für Survivable Branch Appliance oder Survivabl
     
     Klicken Sie auf **Neu,** wenn Sie den Archivierungsserver, den Sie dieser Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten, nicht erstellt haben.
     
-    **Zuordnen des Monitoring Servers** Wählen Sie in der Liste den Monitoring Server aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
+    **Zuordnen des Monitoring Servers** Wählen Sie in der Liste den Überwachungsserver aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     
     Klicken Sie auf **"Neu",** wenn Sie den Überwachungsserver nicht erstellt haben, den Sie dieser Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     

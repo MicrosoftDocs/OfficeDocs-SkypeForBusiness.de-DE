@@ -13,18 +13,18 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: 'Erfahren Sie, wie sie Skype for Business Onlinekommunikation einrichten, damit Ihre Benutzer mit externen Kontakten Skype können. '
-ms.openlocfilehash: b363814066e8a9bb0169baa3a41e81d10fb69ba3ecca862530292d73b5e94b65
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie sie Skype for Business Onlinekommunikation einrichten, mit der Ihre Benutzer mit externen Skype kommunizieren können. '
+ms.openlocfilehash: 1d4fdfb996b3294637474bfef78caae647ddc4e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297651"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605664"
 ---
 # <a name="video-skype-for-business-online-external-communications"></a>Video: Externe Skype for Business Online-Kommunikation
 
@@ -32,7 +32,7 @@ ms.locfileid: "54297651"
 
 Richten Sie die externe Skype for Business Online-Kommunikation ein, damit Ihre Nutzer mit externen Skype for Business-, Lync- und Skype-Kontakten kommunizieren können.
 
- **Benutzergruppe:** Microsoft 365 und Office 365 Administratoren
+ **Zielgruppe: Microsoft 365** und Office 365 Administratoren
 
 ***
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=492278f0-6912-47ba-a1d1-00040061cf44&AutoPlayVideo=false]
@@ -40,7 +40,7 @@ Richten Sie die externe Skype for Business Online-Kommunikation ein, damit Ihre 
 ***
   
 ## <a name="related-topics"></a>Verwandte Themen
-[Einrichten Skype for Business externen Onlinekommunikation](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (Geführte exemplarische Vorgehensweise)
+[Einrichten Skype for Business externen Onlinekommunikation](https://support.microsoft.com/help/10041/set-up-lync-online-external-communications) (geführte exemplarische Vorgehensweise)
 
 [Zulassen, dass Benutzer externe Skype for Business-Benutzer kontaktieren](allow-users-to-contact-external-skype-for-business-users.md)
 

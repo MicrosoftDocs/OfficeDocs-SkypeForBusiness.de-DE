@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Zum erfolgreichen Durchführen dieses Verfahrens müssen Sie als Mitglied der Gruppe "Domänen-Admins" oder als Mitglied der Gruppe "DNSnsAdmins" beim Server oder bei der Domäne angemeldet sein.
-ms.openlocfilehash: 0c3454bd4fbf8ecdc28730da378357e9d50efec3c12ba5b3926abb61010979ab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1b88ada924cbf2cf7f4153acda54584d81946cb0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327051"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579419"
 ---
 # <a name="update-dns-srv-records"></a>Aktualisieren von DNS SRV-Einträgen
 
@@ -28,7 +28,7 @@ In diesem Thema wird beschrieben, wie Die DNS-Einträge (Domain Name System) nac
 
 1. Klicken Sie auf dem DNS-Server auf **Start**, klicken Sie auf **Verwaltung** und anschließend auf **DNS**.
     
-2. Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne **Forward-Lookupzonen,** erweitern Sie die SIP-Domäne, in der Skype for Business Server 2019 installiert ist, und navigieren Sie zur **Einstellung _tcp.** 
+2. Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne **Forward-Lookupzonen,** erweitern Sie die SIP-Domäne, in der Skype for Business Server 2019 installiert ist, und navigieren Sie zur **einstellung _tcp.** 
     
 3. Klicken Sie im rechten Bereich mit der rechten Maustaste auf **_sipinternaltls,** und wählen Sie **"Eigenschaften"** aus.
     

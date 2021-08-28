@@ -9,26 +9,26 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Erfahren Sie mehr über die Mandantenverwaltungssteuerung für Spracherkennung (Sprachprofil) in Teams Besprechungsräumen.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ddc29f8f098ae1980b173ea1f9c4b6349306f5f79b5ee23fc70ae61204dee907
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fa38282f0c5dbaecfbea88deaf9a5efb88be08cf
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54275921"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628297"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Verwalten von Spracherkennungstechnologie-Steuerelementen für einen intelligenten Lautsprecher
 
-Ein intelligenter Lautsprecher verwendet Sprachprofilinformationen, um zu erkennen, wer was in der Live-Transkription gesagt hat. Wenn ein Microsoft Teams-Räume für Windows mit einem intelligenten Lautsprecher ausgestattet ist, kann während der Besprechung live transkription verwendet werden. In diesem Artikel wird erläutert, wie Sie als Mandantenadministrator die Voice-Profilerstellung steuern, die für die Spracherkennung zum Generieren einer Live-Transkription verwendet wird. Sie können steuern, in welchem Umfang die Organisation die Spracherkennung verwendet, und die folgenden Features:
+Ein intelligenter Lautsprecher verwendet Sprachprofilinformationen, um zu erkennen, wer in Live-Transkription gesagt hat. Wenn ein Microsoft Teams-Räume für Windows mit einem intelligenten Lautsprecher ausgestattet ist, kann während der Besprechung live transkription verwendet werden. In diesem Artikel wird erläutert, wie Sie als Mandantenadministrator die Sprachprofilerstellung steuern, die für die Spracherkennung verwendet wird, um Live-Transkription zu generieren. Sie können steuern, in welchem Umfang die Organisation die Spracherkennung verwendet, und die folgenden Features:
 
 - Bearbeiten Sie den Namen des Sprechers in Aufzeichnungen.
-- Ändern des Sprechers einer einzelnen Äußerung in der Aufzeichnung oder Ändern des Sprechers in allen Äußerungen in der Aufzeichnung (jedoch nicht in zukünftigen Aufzeichnungen).
+- Ändern des Sprechers einer einzelnen Äußerung in der Aufzeichnung oder Ändern des Sprechers in allen Äußerungen in der Aufzeichnung (aber nicht in zukünftigen Aufzeichnungen).
 - Ändern Sie die Sprecheridentifikation für die Personen, die in der Besprechung aufgeführt werden.
 - Entfernen Sie bei jedem Transkript die Identifizierung einer oder mehrere Äußerungen, die als dieser Sprecher identifiziert wurden.
 
@@ -46,7 +46,7 @@ Die folgenden Punkte sind Anforderungen an intelligente Lautsprecher:
 
 ## <a name="set-up-an-intelligent-speaker"></a>Einrichten eines intelligenten Lautsprechers
 
-Ein intelligenter Lautsprecher stellt eine direkte Verbindung über USB mit der Teams-Räume fest. Um optimale Ergebnisse zu erzielen, sollte ein intelligenter Lautsprecher der Marke Yealink mit einer Yealink-Markenkonsole verwendet werden.
+Ein intelligenter Lautsprecher stellt eine direkte Verbindung über USB zur Teams-Räume fest. Um optimale Ergebnisse zu erzielen, sollte ein intelligenter Lautsprecher der Marke Yealink mit einer Yealink-Markenkonsole verwendet werden.
 
 > [!NOTE]
 > Ein intelligenter Yealink-Lautsprecher **muss** mit einer Yealink-Konsole verwendet werden.
@@ -69,11 +69,11 @@ Ein intelligenter Lautsprecher sollte mindestens 20 cm von Wänden und großen O
    ![Setup des intelligenten Lautsprechers mit Lautsprecher, der direkt mit der Konsole verbunden ist. ](../media/intelligent-speakers2.png)
 
 > [!Note]
-> DIES- und Yealink-Geräte sollten das Präfix "WENNS" oder "Yealink" haben und im Lautsprechernamen "UAC2_RENDER" und im Mikrofonnamen "UAC2_TEAMS" enthalten. Wenn Sie diese Mikrofon- und Lautsprechernamen nicht im Dropdownmenü finden, starten Sie das Gerät mit dem intelligenten Lautsprecher neu.
+> UNTERESS- und Yealink-Geräte sollten das Präfix "WENNS" oder "Yealink" haben und im Lautsprechernamen "UAC2_RENDER" und im Mikrofonnamen "UAC2_TEAMS" enthalten. Wenn Sie diese Mikrofon- und Lautsprechernamen nicht im Dropdownmenü finden, starten Sie das Gerät mit dem intelligenten Lautsprecher neu.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Aktivieren einer Intelligenten Lautsprecher-Benutzererkennung
 
-Sprachprofildaten können in jeder Besprechung mit einem intelligenten Lautsprecher verwendet werden. Informationen [zu Teams Besprechungseinstellungen finden](../meeting-policies-in-teams.md#allow-transcription) Sie unter Verwalten von Besprechungsrichtlinien und den [PowerShell-Besprechungs-Cmdlets.](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)
+Sprachprofildaten können in jeder Besprechung mit einem intelligenten Lautsprecher verwendet werden. Informationen [zu Teams Besprechungseinstellungen finden](../meeting-policies-in-teams.md#allow-transcription) Sie unter Besprechungsrichtlinien und [PowerShell-Besprechungs-Cmdlets.](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)
 
 Die Sprachprofildaten des Benutzers werden erstellt, wenn die Richtlinie festgelegt ist, um zu unterscheiden, oder wenn eine Person, die keine Besprechung anberaumt, während der Besprechung eingiert. Die Sprachprofildaten werden am Ende der Besprechung verworfen.
 
@@ -81,12 +81,12 @@ Im Folgenden sind die erforderlichen Richtlinien zum Festlegen eines intelligent
 
 |Richtlinie|Beschreibung|Werte und Verhalten|
 |-|-|-|
-|enrollUserOverride|Verwenden Sie , um sprachprofilaufzeichnung oder -registrierung in den Teams für einen Mandanten fest. |**Deaktiviert**<br><ul><li> Benutzer, die sich noch nie registriert haben, können keine Informationen anzeigen, registrieren oder erneut registrieren.<li>Der Einstiegspunkt für den Registrierungsablauf wird ausgeblendet.<li>Wenn Benutzer einen Link zur Registrierungsseite auswählen, wird eine Meldung angezeigt, die besagt, dass dieses Feature für ihre Organisation nicht aktiviert ist.  <li>Benutzer, die sich registriert haben, können ihr Sprachprofil in den Einstellungen Teams entfernen. Nachdem sie ihr Sprachprofil entfernt haben, kann sie den Registrierungsablauf nicht mehr anzeigen, darauf zugreifen oder diesen abschließen.</li></ul><br>**Aktiviert**<br><ul><li> Benutzer können den Registrierungsablauf anzeigen, darauf zugreifen und diesen abschließen.<li>Der Einstiegspunkt wird auf der Teams auf der Registerkarte **Erkennung** angezeigt.</li></ul>|
-|roomAttributeUserOverride|Steuern Sie die sprachbasierte Benutzeridentifikation in Besprechungsräumen. Diese Einstellung ist für Alle Teams-Räume erforderlich.| **Aus**<br><ul><li>Das Teams-Räume sendet keine Bandbreite zum Sparen von Audiodatenstromen aus dem Raum. <li>Besprechungsraumbenutzer werden nicht attributiert oder unterschieden, und ihre Sprachsignaturen werden nicht abgerufen oder verwendet.<li>Benutzer von Besprechungsraum sind unbekannt.</li></ul> <br>**Attribut**<br><ul><li>Die Benutzer von Räumen werden basierend auf ihrem Registrierungsstatus attributiert.<li>Registrierte Benutzer werden in der Transkription mit ihrem Namen angezeigt.  <li>Nicht registrierte Benutzer werden als Lautsprecher n angezeigt.<li>Das Teams-Räume sendet sieben Audiodatenströme aus dem Raum.</ul> <br>**Distinguish**<br> *Diese Einstellung wird zu einem späteren Zeitpunkt verfügbar sein.*|
+|enrollUserOverride|Verwenden Sie zum Festlegen der Sprachprofilerfassung oder -registrierung in Teams Einstellungen für einen Mandanten. |**Deaktiviert**<br><ul><li> Benutzer, die sich noch nie registriert haben, können keine Informationen anzeigen, registrieren oder erneut registrieren.<li>Der Einstiegspunkt für den Registrierungsablauf wird ausgeblendet.<li>Wenn Benutzer einen Link zur Registrierungsseite auswählen, wird eine Meldung angezeigt, die besagt, dass dieses Feature für ihre Organisation nicht aktiviert ist.  <li>Benutzer, die sich registriert haben, können ihr Sprachprofil in den Einstellungen Teams entfernen. Nachdem sie ihr Sprachprofil entfernt haben, kann sie den Registrierungsablauf nicht mehr anzeigen, darauf zugreifen oder diesen abschließen.</li></ul><br>**Aktiviert**<br><ul><li> Benutzer können den Registrierungsablauf anzeigen, darauf zugreifen und diesen abschließen.<li>Der Einstiegspunkt wird auf der Teams auf der Registerkarte **Erkennung** angezeigt.</li></ul>|
+|roomAttributeUserOverride|Steuern Sie die sprachbasierte Benutzeridentifikation in Besprechungsräumen. Diese Einstellung ist für alle Teams-Räume erforderlich.| **Aus**<br><ul><li>Das Teams-Räume sendet keine Bandbreite zum Sparen von Audiodatenstromen aus dem Raum. <li>Besprechungsraumbenutzer werden nicht attributiert oder unterschieden, und ihre Sprachsignaturen werden nicht abgerufen oder verwendet.<li>Benutzer von Besprechungsraum sind unbekannt.</li></ul> <br>**Attribut**<br><ul><li>Die Benutzer von Räumen werden basierend auf ihrem Registrierungsstatus attributiert.<li>Registrierte Benutzer werden in der Transkription mit ihrem Namen angezeigt.  <li>Nicht registrierte Benutzer werden als Lautsprecher n angezeigt.<li>Das Teams-Räume sendet sieben Audiodatenströme aus dem Raum.</ul> <br>**Distinguish**<br> *Diese Einstellung wird zu einem späteren Zeitpunkt verfügbar sein.*|
 |AllowTranscription|Erforderlich für Benutzer- Teams für Räume.|**Wahr** und **falsch**|
 ||||
 
-Legen Sie Teams Admin Center die Richtlinie **Transkription** zulassen. Einstellungen standardmäßig **auf Aus** festgelegt.
+Legen Sie Teams Admin Center die Richtlinie **Transkription zulassen.** Einstellungen standardmäßig **auf Aus** festgelegt.
 
 ![Admin Center mit hervorgehobenen Besprechungsrichtlinien und ausgewählter Option "Transkription zulassen"](../media/allow-transcription1.png)
 
@@ -98,7 +98,7 @@ Sprachprofildaten werden in Office 365 mit Benutzerinhalten gespeichert.
 
 **Was ist die Aufbewahrungszeitachse und -richtlinie?**
 
-Die allgemeine Aufbewahrungsrichtlinie ist in der Übersicht [Datenaufbewahrung angegeben.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) Darüber hinaus werden die Sprachprofildaten eines Benutzers nach 3 Jahren gelöscht, wenn der Benutzer innerhalb dieses Zeitraums von 3 Jahren nicht zu Besprechungen mit einem intelligenten Lautsprecher eingeladen wird. In Besprechungen für vorhandene Mitarbeiter werden keine Daten verwendet. Wenn ein Mitarbeiter das Unternehmen verlassen hat, werden Sprachprofildaten als Benutzerinhalte betrachtet und als solche behandelt, wie Office 365 in der Übersicht Datenaufbewahrung [beschrieben wird.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)
+Die allgemeine Aufbewahrungsrichtlinie ist in der Übersicht [Datenaufbewahrung angegeben.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) Darüber hinaus werden die Sprachprofildaten eines Benutzers nach 3 Jahren gelöscht, wenn der Benutzer innerhalb dieses Zeitraums von 3 Jahren nicht zu Besprechungen mit einem intelligenten Lautsprecher eingeladen wird. In Besprechungen für vorhandene Mitarbeiter werden keine Daten verwendet. Wenn ein Mitarbeiter das Unternehmen verlassen hat, werden Sprachprofildaten als Benutzerinhalte betrachtet und als solche behandelt Office 365 in der Übersicht Datenaufbewahrung [beschrieben wird.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)
 
 **Werden Sprachprofildaten übergreifend Microsoft-Dienste?**
 

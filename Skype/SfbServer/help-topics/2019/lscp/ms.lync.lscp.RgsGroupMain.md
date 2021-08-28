@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppenanrufen bestimmt sind.
-ms.openlocfilehash: 9a3d6abc058924ac9e96600b0dc290ef149192b6664de4b6e9da1c19d66ad337
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cf86537e70e6e3fbd6e04ad3da2ede5d8f46933f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311943"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579799"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
 

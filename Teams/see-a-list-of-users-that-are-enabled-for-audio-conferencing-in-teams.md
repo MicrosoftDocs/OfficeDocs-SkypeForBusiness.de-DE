@@ -15,30 +15,30 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Erfahren Sie, wie Sie eine Liste der Benutzer in Ihrer Organisation anzeigen können, die innerhalb eines Microsoft Teams. '
-ms.openlocfilehash: 38de936e6a15c16fdbca42f5dbaa558f150152ceb4dc2466d4d7c49720f3ba42
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Hier erfahren Sie, wie Sie eine Liste der Benutzer in Ihrer Organisation anzeigen, die innerhalb eines Microsoft Teams. '
+ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54316731"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579589"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
 
-Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der benutzer anzeigen, die aktiviert wurden. 
+Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der aktivierten Benutzer anzeigen. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Anzeige einer Benutzerliste
 
-- Klicken Sie im Microsoft Teams Admin Center im linken Navigationsbereich auf **Benutzer**.
+- Klicken Sie Microsoft Teams linken Navigationsbereich des Admin Centers auf **Benutzer**.
 
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?

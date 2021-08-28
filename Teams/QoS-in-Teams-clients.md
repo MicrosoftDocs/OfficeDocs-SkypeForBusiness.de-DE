@@ -7,8 +7,8 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: vkorlep, siunies
 audience: admin
-description: Erfahren Sie, wie Sie Quality of Service (QoS) verwenden, um den Netzwerkdatenverkehr für den Microsoft Teams-Desktopclient zu optimieren.
-localization_priority: Normal
+description: Erfahren Sie, wie Sie Quality of Service (QoS) verwenden, um den Netzwerkdatenverkehr für den Microsoft Teams-Client zu optimieren.
+ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
@@ -19,12 +19,12 @@ appliesto:
 ms.custom:
 - seo-marvel-mar2020
 - seo-marvel-apr2020
-ms.openlocfilehash: efe36f1ada9e8c98a82d8d5ece0cee2d9058aa318ef174f6d1b704f1c7f1e178
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c283a66db274bc8723d429631bf265fdb0f5206b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282888"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58606014"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams-clients"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams Clients
 
@@ -43,15 +43,15 @@ Konfigurieren Sie nach Möglichkeit richtlinienbasierte QoS-Einstellungen innerh
 
 Um eine QoS-Audiorichtlinie für Domänen bei Windows 10-Computern zu erstellen, melden Sie sich zuerst an einem Computer an, auf dem die Gruppenrichtlinienverwaltung installiert wurde. Öffnen Sie die Gruppenrichtlinienverwaltung (klicken Sie auf Start, zeigen Sie auf Verwaltungstools, und klicken Sie dann auf Gruppenrichtlinienverwaltung), und führen Sie dann die folgenden Schritte aus:
 
-1. Suchen Sie in der Gruppenrichtlinienverwaltung den Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Ihre Clientcomputer in einer Organisationseinheit namens Clients **befinden,** sollte die neue Richtlinie in der Clients-OU erstellt werden.
+1. Suchen Sie in "Gruppenrichtlinienverwaltung" den Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Ihre Clientcomputer in einer Organisationseinheit namens Clients **befinden,** sollte die neue Richtlinie in der Clients-OU erstellt werden.
 
 1. Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf Gruppenrichtlinienobjekt in dieser Domäne erstellen **und dann auf Hier verknüpfen.**
 
 1. Geben Sie **im Dialogfeld Neues Gruppenrichtlinienobjekt** im Feld **Name** einen Namen für das neue Gruppenrichtlinienobjekt ein, und klicken Sie dann auf **OK.**
 
-1. Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann **auf Bearbeiten**.
 
-1. Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor computerkonfiguration **,** erweitern **Sie Windows Einstellungen**, klicken Sie mit der rechten Maustaste auf Richtlinienbasiertes **QoS,** und klicken Sie dann auf **Neue Richtlinie erstellen**.
+1. Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor computerkonfiguration **,** erweitern Sie **Windows Einstellungen**, klicken Sie mit der rechten Maustaste auf Richtlinienbasiertes **QoS,** und klicken Sie dann auf **Neue Richtlinie erstellen**.
 
 1. Geben Sie **im Dialogfeld Richtlinienbasiertes QoS** auf der Ersten Seite im Feld Name einen Namen für die neue **Richtlinie** ein. Wählen **Sie DSCP-Wert angeben aus,** und legen Sie den Wert auf **46 fest.** Lassen **Sie Die ausgehende Drosselungsrate** angeben deaktiviert, und klicken Sie dann auf **Weiter.**
 
@@ -67,7 +67,7 @@ Um eine QoS-Audiorichtlinie für Domänen bei Windows 10-Computern zu erstellen,
 
 Die von Ihnen erstellten neuen Richtlinien werden erst wirksam, wenn die Gruppenrichtlinie auf den Clientcomputern aktualisiert wurde. Obwohl Gruppenrichtlinien automatisch automatisch aktualisiert werden, können Sie eine sofortige Aktualisierung erzwingen, indem Sie die folgenden Schritte ausführen:
 
-1. Öffnen Sie auf jedem Computer, für den Sie die Gruppenrichtlinie aktualisieren möchten, eine Eingabeaufforderung als Administrator (*Als Administrator ausführen).*
+1. Öffnen Sie auf jedem Computer, für den Sie die Gruppenrichtlinie aktualisieren möchten, eine Eingabeaufforderung als Administrator *(Als Administrator ausführen).*
 
 1. Geben Sie an der Eingabeaufforderung
 
@@ -119,7 +119,7 @@ Führen Sie die folgenden Schritte aus, um zu überprüfen, ob die Werte aus dem
    |     Throttle Rate      | REG_SZ |     -1      |
    | | | |
 
-1. Vergewissern Sie sich, dass der Wert für den Eintrag Anwendungsname für den von Ihnen verwendeten Client korrekt ist, und vergewissern Sie sich, dass sowohl die DSCP-Wert- als auch die Einträge für den lokalen Port die Einstellungen im Gruppenrichtlinienobjekt widerspiegeln.
+1. Überprüfen Sie, ob der Wert für den Eintrag Anwendungsname für den von Ihnen verwendeten Client korrekt ist, und vergewissern Sie sich, dass sowohl die DSCP-Wert- als auch die Einträge für den lokalen Port die Einstellungen im Gruppenrichtlinienobjekt widerspiegeln.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie überprüfen, ob die Skype for Business Server Topologie und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 743741fd18766116ed923a2af632f33c88343ef5957a84165edc7702b3b6593f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605524"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen der Topologie in Skype for Business Server
  
@@ -38,7 +38,7 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
   
 ### <a name="add-users-and-verify-client-connectivity"></a>Hinzufügen von Benutzern und Überprüfen der Clientkonnektivität
 
-1. Verwenden Sie Active Directory-Computer und -Benutzer, um das Active Directory-Benutzerobjekt der Administratorrolle für die Skype for Business Server Bereitstellung (auf der Skype for Business Server Systemsteuerung installiert ist) der **GRUPPE "CSAdministrator"** hinzuzufügen.
+1. Verwenden Sie Active Directory-Computer und -Benutzer, um das Active Directory-Benutzerobjekt der Administratorrolle für die Skype for Business Server Bereitstellung (auf der Skype for Business Server Systemsteuerung installiert ist) der **Gruppe "CSAdministrator"** hinzuzufügen.
     
     > [!IMPORTANT]
     > Wenn Sie die entsprechenden Benutzer und Gruppen nicht zur Gruppe "CsAdministors" hinzufügen, wird beim Öffnen Skype for Business Server Systemsteuerung eine Fehlermeldung angezeigt, die lautet: "Nicht autorisiert: Der Zugriff wird aufgrund eines Autorisierungsfehlers bei der rollenbasierten Zugriffssteuerung (RBAC) verweigert." 
@@ -50,9 +50,9 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
   
 3. Verwenden Sie das Administratorkonto, um sich bei dem Computer anzumelden, auf dem Skype for Business Server Systemsteuerung installiert ist.
     
-4. Starten Sie Skype for Business Server Systemsteuerung, und geben Sie dann anmeldeinformationen ein, wenn Sie dazu aufgefordert werden. Skype for Business Server In der Systemsteuerung werden Bereitstellungsinformationen angezeigt.
+4. Starten Sie Skype for Business Server Systemsteuerung, und geben Sie dann Anmeldeinformationen ein, wenn Sie dazu aufgefordert werden. Skype for Business Server In der Systemsteuerung werden Bereitstellungsinformationen angezeigt.
     
-5. Klicken Sie in der linken Navigationsleiste auf **"Topologie",** und vergewissern Sie sich dann, dass der Dienststatus einen Computer mit einem grünen Pfeil anzeigt und dass sich neben jeder Skype for Business Server Rolle, die bereitgestellt und online geschaltet wurde, ein grünes Häkchen für den Replikationsstatus befindet. 
+5. Klicken Sie in der linken Navigationsleiste auf **"Topologie",** und bestätigen Sie dann, dass der Dienststatus einen Computer mit einem grünen Pfeil anzeigt und dass sich neben jedem Skype for Business Server Rolle, die bereitgestellt und online geschaltet wurde, ein grünes Häkchen für den Replikationsstatus befindet. 
     
 6. Klicken Sie in der linken Navigationsleiste auf **"Benutzer"** und dann auf **"Benutzer aktivieren".** 
     
@@ -86,7 +86,7 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
     
     - **Clientrichtlinie**
     
-    Um die grundlegenden Funktionen zu testen, wählen Sie die option aus, die Sie für die **SIP-URI-Einstellung** des Benutzers generieren bevorzugen (die anderen Optionen in der Konfiguration verwenden Standardeinstellungen), und klicken Sie dann auf **"Aktivieren",** wie in der Abbildung dargestellt.
+    Um die grundlegende Funktionalität zu testen, wählen Sie die Option aus, die Sie für die **SIP-URI-Einstellung** des Benutzers generieren bevorzugen (die anderen Optionen in der Konfiguration verwenden Standardeinstellungen), und klicken Sie dann auf **"Aktivieren",** wie in der Abbildung dargestellt.
     
      ![Aktivieren Sie Benutzer in der Systemsteuerung.](../../media/7ee8717d-9a1f-4864-8f45-71071c88878f.png)
   
@@ -96,6 +96,6 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
   
 12. Melden Sie einen Benutzer bei einem Computer an, der mit der Domäne verbunden ist, und einen anderen Benutzer auf einem anderen Computer in der Domäne.
     
-13. Installieren Sie Skype for Business Client auf jedem der beiden Clientcomputer, und stellen Sie dann sicher, dass sich beide Benutzer bei Skype for Business Server anmelden und Chatnachrichten aneinander senden können.
+13. Installieren Sie Skype for Business Client auf jedem der beiden Clientcomputer, und überprüfen Sie dann, ob sich beide Benutzer bei Skype for Business Server anmelden und Chatnachrichten aneinander senden können.
     
 

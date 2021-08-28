@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Nigeria.
-ms.openlocfilehash: 054c1fcf357465f752f06abd968a454bd836e78580448bb0bbb6ae462237a6bd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams nigerian.
+ms.openlocfilehash: 77622c915cc616d94ff5f8624177a9d01101bc3b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336355"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605934"
 ---
 # <a name="availability-in-nigeria"></a>Verfügbarkeit in Nigeria
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Nigeria.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams nigerian.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

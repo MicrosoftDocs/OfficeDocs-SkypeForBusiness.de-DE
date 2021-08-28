@@ -13,19 +13,19 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BActivity
 description: 'Erfahren Sie, wie Sie die Skype for Business-Aktivitätsberichte erhalten, was sie enthält und wie Sie die Daten interpretieren. '
-ms.openlocfilehash: 559e29abc72600df1a13e2cf8077796d505d726557370e406894fba8c00d6b6e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bdb7f0df8148b89b90eac073a1d709aa658f06d6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605654"
 ---
 # <a name="activity-report"></a>Bericht „Aktivität“
 
@@ -35,16 +35,16 @@ Im **Dashboard** Berichte wird eine Aktivitätsübersicht über die verschiedene
 
 Weitere Informationen finden [Sie in der Übersicht](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) über Berichte.
   
-Dieser Bericht bietet Ihnen zusammen mit Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
+Dieser Bericht bietet Ihnen zusammen mit den Skype for Business Bericht Details zu den Aktivitäten in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich.
   
 > [!NOTE]
-> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich im Netzwerk als Administrator Microsoft 365 Admin Center. 
+> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich im Microsoft 365 Admin Center als Administrator Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-activity-report"></a>So rufen Sie den Bericht „Skype for Business-Aktivität" ab
 
-1. Wechseln Sie zum Admin Center, > **Berichtnutzung**  >  **aus.**
+1. Wechseln Sie zum Admin Center, und >   >  **Berichtnutzung aus.**
     
-2. Wählen Sie **auf der** Seite Verwendung Skype for Business in der Liste Bericht auswählen die Option Aktivität aus, oder klicken Sie   >   auf das Widget Skype for Business **Bericht.** 
+2. Wählen Sie **auf der** Seite Nutzung **in Skype for Business** Liste Bericht auswählen die Option Aktivität aus, oder klicken Sie auf das Widget  >   Skype for Business **Bericht.** 
 
   
 ## <a name="interpret-the-skype-for-business-activity-report"></a>Interpretieren des Berichts „Skype for Business-Aktivitäten"
@@ -80,7 +80,7 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 * **Benutzername** ist der Name des Benutzers.
 * **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
   > [!NOTE]
-  > Aktivitäten für einen gelöschten Benutzer werden weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums über eine Lizenz für den Benutzer lizenziert war. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
+  > Aktivitäten für einen gelöschten Benutzer werden weiterhin in einem Bericht angezeigt, solange der Benutzer zu einem Zeitpunkt im ausgewählten Zeitraum über eine Lizenz verknendte war. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
      
 * **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde.
 * **Datum der letzten Aktivität (UTC)** ist der letzte Zeitpunkt, zu dem der Benutzer an einer Peer-to-Peer-Sitzung teilgenommen, eine Konferenz organisiert oder an einer Konferenz teilgenommen hat.
@@ -105,13 +105,13 @@ Sie können die Berichtsdaten auch in eine Excel-Datei im Format .csv exportiere
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
     
 - [Bericht zum PSTN-Verbrauch in Skype for Business](pstn-usage-report.md) : Sie können die Anzahl der Minuten sehen, die für eingehende/ausgehende Anrufe aufgewendet wurden, sowie die Kosten für diese Anrufe.
 
-- [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+- [Skype for Business Bericht PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
+- [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
 
     
 ## <a name="related-topics"></a>Verwandte Themen

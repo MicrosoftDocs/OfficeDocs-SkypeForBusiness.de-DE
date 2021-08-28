@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4eecb5f7-3ef7-4582-a6cb-9f4aa068338d
 description: 'Zusammenfassung: Erfahren Sie, wie Sie das Feature "Intelligente Kontaktliste" im Skype for Business-Client aktivieren.'
-ms.openlocfilehash: 99658b9f4460970f00da829327c85227637ffbab9d5ffeb0a5c3f071a889d91d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d7e2957b6b8622ea8c3ce3dc2974e7dbb7ff51d4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303149"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579999"
 ---
 # <a name="configure-smart-contacts-list-in-skype-for-business-clients"></a>Konfigurieren einer intelligenten Kontaktliste in Skype for Business Clients
 
@@ -74,7 +74,7 @@ Set-CsClientPolicy -Identity Global -PolicyEntry @{Add=$x}
 
 Sie müssen auch den AddressBookAvailability-Parameter für die entsprechende Richtlinie auf WebSearchOnly festlegen. Weitere Informationen finden Sie unter ["Set-CsClientPolicy".](/powershell/module/skype/set-csclientpolicy?view=skype-ps) 
 
-### <a name="troubleshoot"></a>Troubleshooting
+### <a name="troubleshoot"></a>Problembehandlung
 
 Wenn die Intelligente Kontaktliste nicht wie erwartet funktioniert, überprüfen Sie Folgendes:
 
@@ -84,6 +84,6 @@ Wenn die Intelligente Kontaktliste nicht wie erwartet funktioniert, überprüfen
 
 - Sammeln sie Skype for Business Clientprotokolle für einen neuen Benutzer zur weiteren Analyse.
 
-- Vergewissern Sie sich, dass die Skype for Business Clientbenutzeroberfläche keine Meldung anzeigt, dass keine Verbindung mit dem Adressbuch hergestellt werden kann. Um die Adressbuchkonnektivität zu bestätigen, führen Sie eine Suche nach einem Benutzer in der Skype for Business Clientsuchleiste durch.
+- Vergewissern Sie sich, dass auf der Skype for Business Clientbenutzeroberfläche keine Meldung angezeigt wird, dass keine Verbindung mit dem Adressbuch hergestellt werden kann. Um die Adressbuchkonnektivität zu bestätigen, führen Sie eine Suche nach einem Benutzer in der Skype for Business Clientsuchleiste durch.
 
 - Ad DS-Replikationsprobleme können dazu führen, dass Kontakte nicht aufgelöst werden, wenn sich ein Benutzer zum ersten Mal bei Skype for Business anmeldet.

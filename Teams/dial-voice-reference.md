@@ -14,30 +14,30 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Erfahren Sie mehr über die automatische Telefon attendant und die Optionen für Anrufwarteschleifenwählen und Spracherkennung in Teams.
-ms.openlocfilehash: 6dfb1265d3eb5e1200a2b0638d66415c025ed7682c222aa51767d8a5fea3e0f7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie mehr über die automatische Telefonkonferenz und die Optionen für Anrufwarteschleifenwählen und Spracherkennung in Teams.
+ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54344304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58605784"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referenz zu automatischer Telefonant- und Anrufwarteschleifen-Wähl- und Spracherkennung
 
-Namensanwahl ist ein Feature einer automatischen Telefon attendant, das auch als Verzeichnissuche bezeichnet wird. So können Personen, die Ihre automatische Telefongesellschaft anrufen, Sprachanrufe (Spracherkennung) oder DTMF-Antworten (Phone Keypad) verwenden, um einen vollständigen oder teilweisen Namen zum Durchsuchen des Firmenverzeichnisses ein ein, suchen die Person und lassen den Anruf an diese Person durch. Sie richten die Anrufflusseinstellungen nach Name ein, wenn Sie [die Anrufflusseinstellungen in einer automatischen Telefonkonferenz konfigurieren.](create-a-phone-system-auto-attendant.md#call-flow)
+Namensanwahl ist ein Feature einer automatischen Telefon attendant, das auch als Verzeichnissuche bezeichnet wird. So können Personen, die Ihre automatische Telefongesellschaft anrufen, Sprachanrufe (Spracherkennung) oder DTMF-Antworten (Phone Keypad) verwenden, um einen vollständigen oder teilweisen Namen zum Durchsuchen des Unternehmensverzeichnisses ein ein, suchen die Person und lassen den Anruf an diese Person durch. Sie richten die Anrufflusseinstellungen nach Name ein, wenn Sie [die Anrufflusseinstellungen in einer automatischen Telefonkonferenz konfigurieren.](create-a-phone-system-auto-attendant.md#call-flow)
 
 ## <a name="searching-for-users"></a>Suchen nach Benutzern
 
-Benutzer, die Sie mit der Namensanwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sein. Namensanwahl ist sogar in der Lage, Anrufe zu finden und an Microsoft Teams-Benutzer zu übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Namensanwahl explizit in einer automatischen Telefon attendant.
+Benutzer, die Sie mit der Namensanwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sein. Namensanwahl ist sogar in der Lage, Anrufe an Microsoft Teams-Benutzer zu suchen und zu übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Namensanwahl explizit in einer automatischen Telefon attendant.
 
-Die Durchwahl ist ein Feature einer automatischen Telefon attendant, das ebenfalls Teil der Verzeichnissuche ist. So können Personen, die Ihre automatische Telefonkonferenz anrufen, Sprachanrufe (Spracherkennung) oder DTMF-Antworten (Phone Keypad) verwenden, um die Telefonerweiterung des Benutzers ein- bzw. aus, den sie erreichen möchten, und den Anruf dann an sie durch übertragen lassen. Benutzer, die Sie per Durchwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sein. Darüber hinaus benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Durch die Durchwahl können Sie sogar Anrufe an Benutzer Microsoft Teams suchen und übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Option "Durchwahl wählen" explizit in einer automatischen Telefon attendant.
+Die Durchwahl ist ein Feature einer automatischen Telefon attendant, die ebenfalls Teil der Verzeichnissuche ist. So können Personen, die Ihre automatische Telefonkonferenz anrufen, Sprachanrufe (Spracherkennung) oder DTMF-Antworten (Phone Keypad) verwenden, um die Telefonerweiterung des Benutzers ein- bzw. aus, den sie erreichen möchten, und den Anruf dann an sie durch übertragen lassen. Benutzer, die Sie per Durchwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen für Enterprise-VoIP-Benutzer Skype for Business Server werden. Darüber hinaus benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Die Durchwahl per Durchwahl ist sogar in der Lage, Anrufe an Microsoft Teams-Benutzer zu finden und zu übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Option "Durchwahl wählen" explizit in einer automatischen Telefon attendant.
 
 ### <a name="maximum-directory-size"></a>Maximale Verzeichnisgröße
 
@@ -49,12 +49,12 @@ Es gibt keine Beschränkung der Anzahl der Active Directory-Benutzer, die die Na
 |Sprache (Spracheingabe) |Vorname  <br/> Nachname  <br/> Vorname + Nachname  <br/> Nachname + Vorname  | 80.000 Benutzer |
 
 > [!NOTE]
-> Wenn Sie die Namensanwahl mit Spracherkennung verwenden, active Directory aber mehr als 80.000 Benutzer in Ihrer Organisation ist und Sie den Bereich der Namensanwahl nicht mithilfe der Funktion "Wählbereich" eingeschränkt haben, funktioniert die Namensanwahl weiterhin für Ihre Anrufer über die Wähltasten eines Telefons, und Spracheingaben stehen in allen anderen Szenarien zur Verfügung. Sie können das Feature "Wählbereich" verwenden, um die Namen zu ein grenzen, die erreichbar sind, indem Sie den Bereich der Namensanwahl für eine bestimmte automatische Telefon attendant ändern.
+> Wenn Sie die Namensanwahl mit Spracherkennung verwenden, active Directory in Ihrer Organisation jedoch mehr als 80.000 Benutzer ist und Sie den Bereich der Namensanwahl nicht mithilfe der Funktion "Wählbereich" eingeschränkt haben, funktioniert die Namensanwahl weiterhin für Ihre Anrufer über die Wähltasten eines Telefons, und Spracheingaben stehen in allen anderen Szenarien zur Verfügung. Sie können das Feature "Wählbereich" verwenden, um die Namen zu ein grenzen, die erreichbar sind, indem Sie den Bereich der Namensanwahl für eine bestimmte automatische Telefon attendant ändern.
   
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Namensanwahl - Eingabe über die Wähltastatur (MFV)
 Anrufer können Benutzer mithilfe von Namenswählen erreichen, indem sie den vollständigen oder teilweisen Namen der Person angeben, die sie erreichen möchten. Es gibt verschiedene Formate, die verwendet werden können, wenn der Name eingegeben wird.
 
-Beim Durchsuchen des Verzeichnisses Ihrer Organisation können Benutzer die Taste "0" (Null) verwenden, um ein Leerzeichen zwischen dem Vornamen und dem Nach- oder Nachnamen und dem Vornamen anzugeben. Wenn sie den Namen eingeben, wird sie aufgefordert, die Eingabe über die Zehnertaste mit der Taste # zu beenden. Beispiel: "Drücken Sie #, nachdem Sie den Namen der Person eingeben, die Sie erreichen möchten." Wenn mehrere Namen gefunden werden, wird der Anrufer eine Liste mit Namen zur Auswahl angezeigt.
+Beim Durchsuchen des Verzeichnisses Ihrer Organisation können Benutzer die Taste "0" (Null) verwenden, um ein Leerzeichen zwischen dem Vornamen und dem Nach- oder Nachnamen und dem Vornamen anzugeben. Wenn sie den Namen eingeben, wird sie aufgefordert, die Eingabe über die Tastatur mit der Taste # zu beenden. Beispiel: "Drücken Sie #, nachdem Sie den Namen der Person eingeben, die Sie erreichen möchten." Wenn mehrere Namen gefunden werden, wird der Anrufer eine Liste mit Namen zur Auswahl angezeigt.
   
 Anrufer können bei der Suche nach Namen in Ihrer Organisation über die Wähltastatur eines Telefons die folgenden Suchformate verwenden:
   

@@ -10,27 +10,27 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Vermittlungsserver im Topologie-Generator in Skype for Business Server definieren und bereitstellen.'
-ms.openlocfilehash: 852571234b531fddfbd55cce6444f4f00abc95fe97567a58fb7829f29c5a0701
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd6561ee90751eaedd2ef3fdd5ccb6a2ef950b56
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323507"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58579989"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie einen Vermittlungsserver im Topologie-Generator in Skype for Business Server definieren und bereitstellen.
   
-Die Enterprise-VoIP Workload, Einwahlkonferenzen und erweiterte Enterprise-VoIP-Anwendungen (Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen, Anrufsteuerung usw.) sind in Front-End-Pools verfügbar. Die Funktionalität des Vermittlungsservers ist in den Front-End-Server integriert. Ein separater eigenständiger Vermittlungsserver ist nicht erforderlich. 
+Die Enterprise-VoIP Workload, Einwahlkonferenzen und erweiterte Enterprise-VoIP Anwendungen (Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen, Anrufsteuerung usw.) sind in Front-End-Pools verfügbar. Die Funktionalität des Vermittlungsservers ist in den Front-End-Server integriert. Ein separater eigenständiger Vermittlungsserver ist nicht erforderlich. 
   
-Die einzige Ausnahme stellt die Konfiguration eines SIP-Trunks zum Herstellen einer Verbindung mit einem Session Border Controller (SBC) für einen Anbieter von Internettelefoniediensten dar. Um Ihre Enterprise-VoIP-Infrastruktur mit Ihrem SIP-Trunkanbieter zu verbinden, muss ein separater Vermittlungsserver bereitgestellt werden.
+Die einzige Ausnahme stellt die Konfiguration eines SIP-Trunks zum Herstellen einer Verbindung mit einem Session Border Controller (SBC) für einen Anbieter von Internettelefoniediensten dar. Um ihre Enterprise-VoIP Infrastruktur mit Ihrem SIP-Trunkanbieter zu verbinden, muss ein separater Vermittlungsserver bereitgestellt werden.
   
 Die Verbindung zwischen Skype for Business Server (entweder einem Vermittlungsserver, der in einem Front-End-Pool oder einem eigenständigen Vermittlungsserver verbunden ist) und einem Gateway wird als logische Zuordnung definiert, die als Trunk bezeichnet wird. In den Themen in diesem Abschnitt werden die Definition eines Trunks und die Bereitstellung eines eigenständigen Vermittlungsservers beschrieben, wenn Sie eine Verbindung mit einem SIP-Trunk herstellen.
   
@@ -93,7 +93,7 @@ Sie können den Vermittlungsserver als gemeinsam zugeordnete Rolle in einem Fron
     
 8. Führen Sie auf der Seite **Edgeserver auswählen** einen der folgenden Schritte aus:
     
-   - Wenn Sie pstn-Konnektivität für externe Benutzer bereitstellen möchten, die für Enterprise-VoIP aktiviert sind, klicken Sie unter **"Edgepool auswählen", der von diesem Vermittlungsserver verwendet wird,** auf den FQDN des Edgeserverpools, der diesen Vermittlungsserverpool verwendet, um diesen externen Benutzern PSTN-Konnektivität bereitzustellen, und klicken Sie dann auf **"Weiter".**
+   - Wenn Sie für externe Benutzer, die für Enterprise-VoIP aktiviert sind, PSTN-Konnektivität bereitstellen möchten, klicken Sie unter **"Edgepool auswählen", der von diesem Vermittlungsserver verwendet wird,** auf den FQDN des Edgeserverpools, der diesen Vermittlungsserverpool verwendet, um diesen externen Benutzern PSTN-Konnektivität bereitzustellen, und klicken Sie dann auf **"Weiter".**
     
    - Wenn Sie nicht planen, externe Benutzer für Enterprise-VoIP zu aktivieren, oder wenn Sie Benutzern keine PSTN-Konnektivität bereitstellen möchten, wenn sie sich außerhalb des internen Netzwerks befinden, klicken Sie auf **"Weiter".**
     
