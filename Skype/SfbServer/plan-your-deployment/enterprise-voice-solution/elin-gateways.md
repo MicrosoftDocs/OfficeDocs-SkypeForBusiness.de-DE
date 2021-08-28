@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mithilfe von ELIN-Gateways in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: e3843735006460792f414e685c15552c54a64e1c7896b02b1b0922b31a84e106
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb0656909866a793bc8d64635b17785020dd646d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323077"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596505"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Verwalten von Standorten für ELIN-Gateways in Skype for Business Server
 
@@ -52,7 +52,7 @@ Das **Standortfeld** des Standortinformationsdiensts, das die spezifische Positi
 
 - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Client den richtigen Standort ausgewählt hat. Der Skype for Business Client verkettet automatisch und zeigt die ermittelten **Felder "Standort"** und **"Ort"** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes <street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
+- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Client den richtigen Standort ausgewählt hat. Der Skype for Business-Client verkettet automatisch und zeigt die ermittelten **Orts-** und **Ortsfelder** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes <street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
 
 - Wenn der Standort ungefähr ist, da er von einem drahtlosen Zugriffspunkt bestimmt wird, können Sie das Wort **[Near]** hinzufügen (z. B. "Near 1st Floor 1234").
 
@@ -62,11 +62,11 @@ Nachdem Sie festgelegt haben, wie der Gebäudebereich in Standorte aufgeteilt we
 
 **Beispielstandort und ELIN-Zuweisungen**
 
-|**Gebäudebereich**|**Standort**|**Elin**|
+|**Gebäudebereich**|**Standort**|**ELIN**|
 |:-----|:-----|:-----|
-|Erster Stock  <br/> |1  <br/> |425-555-0100  <br/> |
-|Zweiter Stock  <br/> |2  <br/> |425-555-0111  <br/> |
-|Dritter Stock  <br/> |3  <br/> |425-555-0123  <br/> |
+|Erster Stock  <br/> |1   <br/> |425-555-0100  <br/> |
+|Zweiter Stock  <br/> |2   <br/> |425-555-0111  <br/> |
+|Dritter Stock  <br/> |3   <br/> |425-555-0123  <br/> |
 
 Die von Ihnen definierten Standorte sollten die folgenden Anforderungen erfüllen:
 

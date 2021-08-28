@@ -9,38 +9,38 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Zusammenfassung: Konfigurieren der Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.'
-ms.openlocfilehash: 8f32be864e950d100faa0e3b5f5065d12018c5752610f5c1684aa2c73c84c73b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: cebfb35f740a0060a22bd125ccc2448c0092e87c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54313683"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595979"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
  
 **Zusammenfassung:** Konfigurieren Sie die Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.
   
- Konfigurieren Sie die Einstellungen, die der VIS videotrunks mithilfe Windows PowerShell zuordnen wird. Nach der Installation des VIS-Diensts wird eine Videotrunkkonfiguration mit globaler Reichweite erstellt. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einem spezifischeren Bereich haben. Beachten Sie, dass die Videotrunkkonfiguration eine Sammlung von Einstellungen ist, die für Videotrunks gelten.
+ Konfigurieren Sie die Einstellungen, die der VIS videotrunks mithilfe von Windows PowerShell zuordnen wird. Nach der Installation des VIS-Diensts wird eine Videotrunkkonfiguration mit globaler Reichweite erstellt. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einem spezifischeren Bereich haben. Beachten Sie, dass die Videotrunkkonfiguration eine Sammlung von Einstellungen ist, die für Videotrunks gelten.
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Konfigurieren von Videotrunk und Wählplan
 
-Verwenden Sie die folgenden Windows PowerShell Befehle, um die Videotrunkkonfiguration und den Wählplan anzugeben, die den neu definierten Trunks zugeordnet werden sollen, die im Topologiedokument zwischen dem VIS und allen Videogateways definiert sind. Alle diese Einstellungen können auf globaler, Standort- oder Dienstebene (Videogateway) festgelegt werden. 
+Verwenden Sie die folgenden Windows PowerShell Befehle, um die Konfiguration des Videotrunks und den Wählplan anzugeben, die den neu definierten Trunks zugeordnet werden sollen, die im Topologiedokument zwischen dem VIS und allen Videogateways definiert sind. Alle diese Einstellungen können auf globaler, Standort- oder Dienstebene (Videogateway) festgelegt werden. 
   
-Pro Skype for Business Server Bereitstellung wird ein Wählplan mit globaler Gültigkeitsbereich erstellt. Dieser Wählplan wird vom VIS auf alle Trunks angewendet, die keinen Wählplan mit einem spezifischeren Bereich haben. 
+Pro Skype for Business Server Bereitstellung wird ein Wählplan mit globaler Reichweite erstellt. Dieser Wählplan wird vom VIS auf alle Trunks angewendet, die keinen Wählplan mit einem spezifischeren Bereich haben. 
   
-### <a name="configure-the-vis-using-windows-powershell"></a>Konfigurieren des VIS mithilfe Windows PowerShell
+### <a name="configure-the-vis-using-windows-powershell"></a>Konfigurieren des VIS mit Windows PowerShell
 
-1. Erstellen Sie eine neue Videotrunkkonfiguration (eine Sammlung von Einstellungen), die auf dem Trunk zwischen dem VIS und Cisco Unified Communications Manager (CallManager oder CUCM) verwendet werden soll, mithilfe des folgenden Windows PowerShell Cmdlets:
+1. Erstellen Sie eine neue Videotrunkkonfiguration (eine Sammlung von Einstellungen), die auf dem Trunk zwischen dem VIS und Cisco Unified Communications Manager (CallManager oder CUCM) mithilfe des folgenden cmdlets Windows PowerShell verwendet werden soll:
     
    ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    Wenn ein videotrunk vorhanden ist, der geändert werden muss, verwenden Sie das folgende cmdlet Windows PowerShell:
+    Wenn ein vorhandener Videotrunk vorhanden ist, der geändert werden muss, verwenden Sie das folgende cmdlet Windows PowerShell:
     
    ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)

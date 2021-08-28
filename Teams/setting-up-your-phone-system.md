@@ -17,19 +17,19 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Schrittweise Anleitung zum Einrichten von Telefonsystem (Cloud PBX) für Ihre Organisation in Microsoft 365 oder Office 365.
-ms.openlocfilehash: 1fd75870b53dafa5ade4db4f66a82593cce81836994cd4b5e01f1f1bda4864b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ac52110762b6aad0b1041c14c55a39804e68a8c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54293002"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589647"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -43,7 +43,7 @@ Im Folgenden finden Sie eine schrittweise Anleitung zum Einrichten von Telefonsy
 
 ## <a name="step-2-buy-and-assign-phone-system-and-calling-plan-licenses"></a>Schritt 2: Kaufen und Zuweisen von Lizenzen für Telefonsystem und Anrufplan
 
-Um einem einzelnen Telefonsystem Eine Lizenz Telefonsystem Anrufplan zuzuordnen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365- oder Office 365-Lizenz.  Sie können auch mehreren Benutzern Gleichzeitig Lizenzen zuweisen. Weitere Informationen finden Sie unter [Zuweisen Microsoft Teams Add-On-Lizenzen.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
+Wenn Sie einem Telefonsystem Benutzer eine Lizenz für einen Anrufplan und einen Anrufplan zuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365 oder Office 365 Lizenz.  Sie können auch mehreren Benutzern Gleichzeitig Lizenzen zuweisen. Weitere Informationen finden Sie unter [Zuweisen Microsoft Teams Add-On-Lizenzen.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
 
 Wenn für Ihr Land oder Ihre Region keine Anrufpläne zur Verfügung stehen, erwägen Sie die Verwendung der direkten Weiterleitung, um die lokale Telefonie-Infrastruktur mit dem Telefon System zu verbinden.  Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
 
@@ -53,10 +53,10 @@ Bevor Sie in Ihrer Organisation Benutzer für das Tätigen und Empfangen von Anr
 
 Ihnen stehen drei Methoden zum Abrufen von Telefonnummern für Ihre Benutzer zur Verfügung:
 - Holen Sie sich neue Nummern über Teams Admin Center.
-- Holen Sie sich neue Nummern, die im Admin Center Teams sind.
-- Portieren oder übertragen Sie Ihre vorhandenen Nummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber Microsoft 365 Oder Office 365.
+- Holen Sie sich neue Nummern, die im Teams Admin Center nicht verfügbar sind.
+- Portieren oder übertragen Sie Ihre vorhandenen Nummern von Ihrem derzeitigen Dienstanbieter oder Netzbetreiber zu Microsoft 365 oder Office 365.
 
-Sie müssen die Seite **Nummern hinzufügen verwenden,** um diese Nummern anzeigen, suchen, erwerben und reservieren zu können. Sie können nach Land/Region, Bundesland und Ort suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen.
+Sie müssen die Seite **Zahlen hinzufügen verwenden,** um diese Nummern anzeigen, suchen, erwerben und reservieren zu können. Sie können nach Land/Region, Bundesland und Ort suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen.
 
 ### <a name="get-new-user-phone-numbers-using-the-teams-admin-center"></a>Neue Benutzertelefonnummern über das Teams Admin Center erhalten
 
@@ -64,15 +64,15 @@ Sie müssen die Seite **Nummern hinzufügen verwenden,** um diese Nummern anzeig
 
 2. Wechseln Sie zum **Teams Admin Center**.
     
-3. Navigieren Sie in der linken **Navigationsleiste** zu Telefon  >  **Sprachanrufnummern**, klicken Sie auf Hinzufügen , und folgen Sie dann den Anweisungen. 
+3. Navigieren Sie in der linken **Navigationsleiste** zu  >  **Telefon Sprachanrufnummern**, klicken Sie auf Hinzufügen , und folgen Sie dann den Anweisungen. 
     
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Neue Nummern erhalten, die im Teams Admin Center nicht verfügbar sind
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Neue Nummern erhalten, die im Admin Center Teams sind
   
 Manchmal können Sie (je nach Land/Region) Ihre neuen Nummern nicht über das Teams Admin Center erhalten. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Informationen zum Anfordern neuer Benutzernummern finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)   
   
 ### <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Portieren oder übertragen Sie vorhandene Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber
   
-- Wenn Sie für Ihre Benutzer 999 oder weniger  Telefonnummern benötigen, können Sie den Assistenten Neuer Portierungsauftrag für eine lokale Rufnummer im Teams Admin Center verwenden. Führen Sie die Schritte unter [Übertragen von Telefonnummern Teams,](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) um Ihre Telefonnummern zu übertragen.
+- Wenn Sie für Ihre Benutzer 999 oder weniger  Telefonnummern benötigen, können Sie den Assistenten Neuer Portierungsauftrag für lokale Rufnummern im Teams Admin Center verwenden. Führen Sie die Schritte unter [Übertragen von Telefonnummern Teams,](phone-number-calling-plans/transfer-phone-numbers-to-teams.md) um Ihre Telefonnummern zu übertragen.
     
 - Wenn Sie mehr als 999 Telefonnummern [](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) portieren müssen, lesen Sie Verwalten von Telefonnummern für Ihre Organisation, um eine Serviceanfrage oder einen Auftrag für einen Portierungsantrag zu übermitteln. 
 
@@ -92,9 +92,9 @@ Sie können nicht nur Telefonnummern für Ihre Benutzer aus Microsoft 365 oder O
 3. Wechseln Sie im linken Navigationsbereich zu  >  **Sprachanrufnummern Telefon** neue  >  **Nummer hinzufügen**, und klicken Sie dann auf Neue **Leistungsnummern**.
 
     > [!IMPORTANT]
-    > Damit die Option  "Sprache" im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine **Enterprise E5-Lizenz,** eine Telefonsystem-Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen. 
+    > Damit die Option  "Sprache" im linken Navigationsbereich im Teams Admin Center angezeigt wird, müssen Sie zuerst mindestens eine Enterprise **E5-Lizenz,** eine Telefonsystem-Add-On-Lizenz oder eine Add-On-Lizenz für **Audiokonferenzen** kaufen. 
 
-### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Neue Nummern erhalten, die im Teams Admin Center nicht verfügbar sind
+### <a name="get-new-numbers-that-arent-available-in-the-teams-admin-center"></a>Neue Nummern erhalten, die im Admin Center Teams sind
   
 Manchmal können Sie (je nach Land/Region) Ihre neuen Nummern nicht über das Teams Admin Center erhalten. In diesem Fall müssen Sie ein Formular herunterladen und an uns senden. Informationen zum Anfordern neuer Nummern finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) 
 
@@ -109,7 +109,7 @@ Haben Sie die obigen Schritte befolgt, haben Sie Telefonsystem und Anrufplan gek
 
 ## <a name="step-6-if-you-want-to-set-up-audio-conferencing"></a>Schritt 6: Wenn Sie Audiokonferenzen einrichten möchten
 
-In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Microsoft Teams für genau diese Situation ist die Audiokonferenzfunktion enthalten. Personen können sich mit einem Teams in eine Besprechung einrufen, anstatt die Teams-App auf einem Mobilgerät oder PC zu verwenden.
+In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Microsoft Teams für genau diese Situation ist die Audiokonferenzfunktion enthalten. Personen können sich per Telefon in Teams Besprechung einrufen, anstatt die Teams-App auf einem Mobilgerät oder PC zu verwenden.
 Informationen zum Einrichten von Audiokonferenzen finden Sie unter [Einrichten von Audiokonferenzen für Teams.](set-up-audio-conferencing-in-teams.md)
 
 ## <a name="step-7-if-you-want-to-set-up-a-cloud-call-queue"></a>Schritt 7: Wenn Sie eine Cloudanrufwarteschleifen einrichten möchten
@@ -129,7 +129,7 @@ Informationen zum Einrichten einer automatischen Cloud-Attendendant finden Sie u
 
 Sobald Sie Ihre Servicenummern aus **Schritt 4 oben** haben, müssen Sie sie jedem gewünschten Servicetyp zuordnen. Wenn Sie beispielsweise eine dedizierte Servicetelefonnummer (gebührenpflichtig oder gebührenfrei) haben möchten, müssen Sie die Nummer der Konferenzbrücke zuweisen.
 
-- Für Audiokonferenzen können Sie einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu **Teams Admin Center**  >    >  **Besprechungen Konferenzbrücken** gehen und den Eingabeaufforderungen folgen.  Weitere Informationen finden Sie unter Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf Ihrer [Audiokonferenzbrücke.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+- Für Audiokonferenzen können Sie einer Konferenzbrücke eine dedizierte Nummer zuweisen, indem Sie zu **Teams Admin Center** Besprechungen  >    >  **Konferenzbrücken** gehen und den Eingabeaufforderungen folgen.  Weitere Informationen finden Sie unter Ändern der gebührenpflichtigen oder gebührenfreien Nummern auf Ihrer [Audiokonferenzbrücke.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 - Für automatische Telefonzentralen können Sie einer automatischen Telefonzentrale eine dedizierte Nummer zuweisen, indem Sie zu **Teams Admin Center** Voice  >  **Auto-Telefonzentralen** gehen und den Anweisungen  >   folgen.  Weitere Informationen finden Sie unter [Einrichten einer automatischen Cloud-Attendant.](create-a-phone-system-auto-attendant.md)
 
@@ -139,7 +139,7 @@ Ausführliche Informationen zum Bezug neuer Servicerufnummern und zur Portierung
 
 ## <a name="step-10-set-up-communications-credits-for-your-organization"></a>Schritt 10: Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
-Wenn Sie mit Ihrem Konto gebührenfreie Telefonnummern Microsoft Teams, müssen Sie Guthaben für Kommunikationen einrichten. Microsoft empfiehlt, dass Sie Guthaben für Kommunikationen für Benutzer von Anrufplänen (in- oder internationale Anrufpläne) und Audiokonferenzen einrichten, die in der Lage sein müssen, beliebige Zieladressen anwählen zu können. Viele Länder/Regionen sind enthalten, aber einige Ziele sind möglicherweise nicht in Ihren Abonnements für Anrufplan oder Audiokonferenzen enthalten. 
+Wenn Sie mit Ihrem Konto gebührenfreie Telefonnummern Microsoft Teams, müssen Sie Guthaben für Kommunikationen einrichten. Microsoft empfiehlt, dass Sie Guthaben für Kommunikationen für Ihre Anrufpläne (in- oder internationale) und Audiokonferenzbenutzer einrichten, die in der Lage sein müssen, beliebige Zieladressen anwählen zu können. Viele Länder/Regionen sind enthalten, aber einige Ziele sind möglicherweise nicht in Ihren Abonnements für Anrufplan oder Audiokonferenzen enthalten. 
 
 Wenn Sie die Abrechnung mit Guthaben  für Kommunikationen nicht einrichten und Ihren Benutzern eine Lizenz für Guthaben für Kommunikationen zuweisen und die Minuten für Ihre Organisation auflaufen (je nach Anrufplan oder Audiokonferenzplan in Ihrem Land/Ihrer Region), können diese Benutzer keine Anrufe mehr führen oder aus Audiokonferenzbesprechungen heraus wählen. Weitere Informationen, einschließlich empfohlener Finanzierungsbeträge, finden Sie unter [Was sind](what-are-communications-credits.md) Guthaben für Kommunikationen? und Einrichten von Guthaben für [Kommunikationen für Ihre Organisation.](set-up-communications-credits-for-your-organization.md)
   

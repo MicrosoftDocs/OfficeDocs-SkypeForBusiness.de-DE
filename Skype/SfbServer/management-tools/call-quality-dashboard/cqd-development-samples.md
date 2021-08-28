@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: b0b4811e38d50f871e023757220a2a3f0108be349c55eaf78e39ab243954c5dd
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54331287"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603874"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
@@ -40,7 +40,7 @@ CQD bietet schnellen und einfachen Zugriff auf aggregierte Anrufqualitätsinform
 
 3. Webportal, die HTML5-basierte Schnittstelle, die CQD-Benutzern angezeigt wird und mit der sie interagieren. Dies ist für authentifizierte Benutzer zugänglich.
 
-Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse für die Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet wurden. 
+Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse zur Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet werden. 
 
 ![CQD-Beispielbericht](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 

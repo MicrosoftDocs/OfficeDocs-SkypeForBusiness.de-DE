@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: bfa31b24-a02f-410f-a8ec-206ca4d5b620
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Hardware- und Softwareanforderungen für Konferenzen in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: ebc760ed628bda8485c49e4c6114e9e510d2ff717779862a5620f91fc51cb834
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 4f3eff319165a50aa52108903c5f091415a1018d
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310863"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603854"
 ---
 # <a name="hardware-and-software-requirements-for-conferencing-in-skype-for-business-server"></a>Hardware- und Softwareanforderungen für Konferenzen in Skype for Business Server
 
@@ -43,13 +43,13 @@ Wenn Sie sich für die Bereitstellung von Webkonferenzfunktionen entschieden hab
 
 - Zugriff auf den Dateispeicher, der zum Speichern von Webkonferenzinhalten verwendet wird.
 
-- Integration in Office Web Apps Server, was erforderlich ist, um PowerPoint Dateien während einer Konferenz freizugeben.
+- Integration in Office Web Apps-Server, die erforderlich ist, um PowerPoint Dateien während einer Konferenz freizugeben.
 
 ### <a name="file-store"></a>Dateispeicher
 
-Der Skype for Business Server Webkonferenzdienst speichert Inhalte, die während Besprechungen freigegeben wurden, im Dateispeicher. Im Rahmen der Bereitstellung müssen Sie eine Dateifreigabe angeben, die als Dateispeicher für den Standard Edition Server oder Enterprise Edition Front-End-Pool verwendet werden soll. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben. Weitere Informationen finden Sie unter [Erstellen einer Dateifreigabe in Skype for Business Server](../../deploy/install/create-a-file-share.md). Der Webkonferenzdienst verschlüsselt die Inhalte vor dem Speichern im Dateispeicher.
+Der Skype for Business Server Webkonferenzdienst speichert Inhalte, die während Besprechungen freigegeben wurden, im Dateispeicher. Im Rahmen der Bereitstellung müssen Sie eine Dateifreigabe angeben, die als Dateispeicher für den Standard Edition Server oder Enterprise Edition Front-End-Pool verwendet werden soll. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben. Weitere Informationen finden Sie unter [Erstellen einer Dateifreigabe in Skype for Business Server.](../../deploy/install/create-a-file-share.md) Der Webkonferenzdienst verschlüsselt die Inhalte vor dem Speichern im Dateispeicher.
 
-Skype for Business Server unterstützt die Verwendung von Dateifreigaben auf direct Attached Storage (DAS) oder einem Speicherbereichsnetzwerk (SAN), einschließlich dfs (Distributed File System) und auf einem redundanten Array unabhängiger Datenträger (RAID) für Dateispeicher. Nachdem der Skype for Business Server Bereitstellungs-Assistent den Speicherort der Dateifreigabe definiert hat, erstellt Skype for Business Server eine Ordnerstruktur innerhalb der Dateifreigabe, die der folgenden ähnelt:
+Skype for Business Server unterstützt die Verwendung von Dateifreigaben auf direct Attached Storage (DAS) oder einem Speicherbereichsnetzwerk (SAN), einschließlich dfs (Distributed File System) und auf einem redundanten Array unabhängiger Datenträger (RAID) für Dateispeicher. Nachdem der Skype for Business Server Bereitstellungs-Assistent den Speicherort der Dateifreigabe definiert hat, erstellt Skype for Business Server eine Ordnerstruktur innerhalb der Dateifreigabe, die den folgenden Ähnelt:
 
 - 1-ApplicationServer-1
 
@@ -69,7 +69,7 @@ Der Webkonferenzdienst speichert dann Inhalte wie z. B. PowerPoint-Folien, Whit
 
 Um Webkonferenzfunktionen verwenden zu können, müssen Sie Office Web Apps Server installieren und Skype for Business Server für die Kommunikation mit Office Web Apps Server konfigurieren.
 
-Office Der Web Apps-Server sollte auf einem eigenständigen Computer installiert werden, auf dem Skype for Business Server, SQL Server oder eine andere Serveranwendung nicht ausgeführt wird. (Auf diesem Computer darf keine Version von Office installiert sein.) Auf jedem Computer, auf dem Office Web Apps-Server ausgeführt wird, muss auch eine bestimmte Softwaregruppe installiert sein (einschließlich .NET Framework 4.5 und Windows PowerShell 3.0). Diese Anforderungen sowie Informationen zum Konfigurieren von Zertifikaten und Internetinformationsdienste (IIS) werden auf der [Microsoft Office Web Apps-Bereitstellungswebsite](/webappsserver/deploy-the-infrastructure-office-web-apps-server)ausführlich erläutert.
+Office Web Apps Server sollte auf einem eigenständigen Computer installiert werden, auf dem Skype for Business Server, SQL Server oder einer anderen Serveranwendung nicht ausgeführt wird. (Auf diesem Computer darf keine Version von Office installiert sein.) Auf jedem Computer, auf dem Office Web Apps-Server ausgeführt wird, muss auch eine bestimmte Softwaregruppe installiert sein (einschließlich .NET Framework 4.5 und Windows PowerShell 3.0). Diese Anforderungen sowie Informationen zum Konfigurieren von Zertifikaten und Internetinformationsdienste (IIS) werden auf der [Microsoft Office Web Apps-Bereitstellungswebsite](/webappsserver/deploy-the-infrastructure-office-web-apps-server)ausführlich erläutert.
 
 Informationen zum Konfigurieren von Skype for Business Server für die Verwendung mit Office Web Apps Server finden Sie unter Konfigurieren der [Integration mit Office Web Apps Server in Skype for Business Server.](../../deploy/deploy-conferencing/office-web-app-server.md)
 
@@ -101,7 +101,7 @@ Sie müssen die folgenden Skype for Business Server Komponenten installieren, be
 
 - Mindestens ein Vermittlungsserver und mindestens ein PSTN-Gateway
 
-Für Einwahlkonferenzen, Anwendungsdienst, Konferenzzentralenanwendung und Konferenzankündigungsanwendung die gleichen Betriebssystemanforderungen wie Front-End-Server haben. Ausführliche Informationen finden Sie unter [server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
+Für Einwahlkonferenzen, Anwendungsdienst, Konferenzzentralenanwendung und Konferenzankündigungsanwendung die gleichen Betriebssystemanforderungen wie Für Front-End-Server gelten. Ausführliche Informationen finden Sie unter [server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md).
 
 Konferenzzentralenanwendung und Konferenzankündigungsanwendung erfordern, dass Windows Media Format Runtime auf Front-End-Servern installiert ist. Windows Die Medienformatlaufzeit ist erforderlich, um Windows WMA-Dateien (Media Audio) wiederzugeben, die für Wartemusik, aufgezeichnete Namen und Eingabeaufforderungen verwendet werden. Wenn Sie auf Windows Server 2012 oder Windows Server 2012 R2 installieren (was wir empfehlen), müssen Sie Microsoft Media Foundation installieren, um Windows Media Format Runtime abzurufen. Wenn Sie vor Windows 2012 auf einer beliebigen Version von Windows Server installieren, müssen Sie sicherstellen, dass die Windows Desktopdarstellung installiert ist, um Windows Media Format Runtime abzurufen.
 
@@ -109,9 +109,9 @@ Konferenzzentralenanwendung und Konferenzankündigungsanwendung erfordern, dass 
 
 Skype for Business Server unterstützt keine Anpassung von Sprachansagen und Musik für Einwahlkonferenzen. Wenn Sie jedoch einen starken geschäftlichen Bedarf haben, der erfordert, dass Sie die Standardaudiodateien ändern müssen, lesen Sie den Microsoft Knowledge Base-Artikel 961177, wie Sie [Sprachansagen oder Musikdateien für Einwahlaudiokonferenzen anpassen.](https://go.microsoft.com/fwlink/p/?linkid=3052&amp;kbid=961177)
 
-Sie können auch das [Verwaltungsprogramm "Microsoft Lync Server Konferenzzentrale Custom Voice Prompts"](https://go.microsoft.com/fwlink/p/?LinkId=396880) verwenden, mit dem Administratoren die Standardmäßige Sprachansagen ersetzen können, die verwendet werden, wenn ein Telefonanrufer an einer Skype for Business Besprechung mit benutzerdefinierten Eingabeaufforderungen teilnimmt, um eine andere Benutzererfahrung bei der Besprechungseingabe bereitzustellen. Die benutzerdefinierten Sprachansagen können auf einem Enterprise oder Standard Edition Server installiert werden.
+Sie können auch das [Verwaltungsprogramm "Microsoft Lync Server Konferenzzentrale Custom Voice Prompts"](https://go.microsoft.com/fwlink/p/?LinkId=396880) verwenden, mit dem Administratoren die Standard-Sprachansagen ersetzen können, die verwendet werden, wenn ein Telefonanrufer an einer Skype for Business Besprechung mit benutzerdefinierten Eingabeaufforderungen teilnimmt, um eine andere Oberfläche für die Besprechungseingabe bereitzustellen. Die benutzerdefinierten Sprachansagen können auf einem Enterprise oder Standard Edition Server installiert werden.
 
-für Konferenzzentralenanwendung und Konferenzankündigungsanwendung gelten die folgenden Anforderungen für Wartemusik, aufgezeichnete Namen und Audioaufforderungsdateien:
+für Konferenzzentralenanwendung und Konferenzankündigungsanwendung gelten die folgenden Anforderungen für wartemusik, aufgezeichnete Namen und Audioansagendateien:
 
 - WMA-Dateiformat (Windows Media Audio)
 
@@ -144,7 +144,7 @@ Um die Konferenzfunktionen verwenden zu können, müssen Skype for Business Serv
 |Front-End-Server  <br/> |Skype for Business Server Anwendungsfreigabedienst  <br/> |5065  <br/> |TCP  <br/> |Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.  <br/> |
 |Front-End-Server  <br/> |Skype for Business Server Anwendungsfreigabedienst  <br/> |49152-65535  <br/> |TCP  <br/> |Für die Anwendungsfreigabe verwendeter Medienportbereich.  <br/> |
 |Front-End-Server  <br/> |Skype for Business Server Konferenzankündigung Dienst  <br/> |5073  <br/> |TCP  <br/> |Wird für eingehende SIP-Anforderungen für den Skype for Business Server Konferenzankündigung Dienst (d. b. für Einwahlkonferenzen) verwendet.  <br/> |
-|Alle internen Server  <br/> |Verschiedene  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Für Audiokonferenzen auf allen internen Servern verwendeter Medienportbereich. Wird von allen Servern verwendet, die Audio beenden: Front-End-Server (für Skype for Business Server Konferenzzentrale Dienst, Skype for Business Server Konferenzankündigung Dienst und Skype for Business Server Audio-/Videokonferenzdienst) und Vermittlungsserver.  <br/> |
+|Alle internen Server  <br/> |Verschiedene  <br/> |49152-57500  <br/> |TCP/UDP  <br/> |Für Audiokonferenzen auf allen internen Servern verwendeter Medienportbereich. Wird von allen Servern verwendet, die Audio beenden: Front-End-Server (für Skype for Business Server Konferenzzentrale Dienst, Skype for Business Server Konferenzankündigung-Dienst und Skype for Business Server Audio-/Videokonferenzdienst) und Vermittlungsserver.  <br/> |
 |Office Web Apps-Server  <br/> ||443  <br/> ||Wird von Skype for Business Server zum Herstellen einer Verbindung mit Office Web Apps-Server verwendet.  <br/> |
 
 **Erforderliche Clientports**

@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in China (Süden), einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: fecf60fc6d5f1c73e3fcf16d2f8178b6734f9d20520c50a6caa08215193c87cc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in China (Süden), einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
+ms.openlocfilehash: 7fb043e8334c6abec3245a19d0b730f8fe7497de
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296482"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589557"
 ---
 # <a name="toll-free-dialing-restrictions-in-china---south-10-800-140-xxxx-range"></a>Einschränkungen für gebührenfreie Telefonnummern in China (Süden) – (10 800 140 XXXX-Bereich
 

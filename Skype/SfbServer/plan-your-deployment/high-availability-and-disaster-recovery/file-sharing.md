@@ -9,22 +9,22 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b8c8d5ec-9397-4128-8d1e-8ec6c30fade7
 description: Erfahren Sie, wie Sie mit DFS eine hohe Verfügbarkeit Ihrer Dateifreigaben in Skype for Business Server sicherstellen.
-ms.openlocfilehash: c707a1049bf1c54302c4dde270856379e4731fd4e23b1e886b3144445b4e2aaf
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6abdf9656ddca5148c9b04c6dbe11cdc5da7e840
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337763"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58603814"
 ---
 # <a name="file-sharing-high-availability-in-skype-for-business-server"></a>Hohe Verfügbarkeit der Dateifreigabe in Skype for Business Server
  
 Erfahren Sie, wie Sie mit DFS eine hohe Verfügbarkeit Ihrer Dateifreigaben in Skype for Business Server sicherstellen.
   
-Um eine hohe Verfügbarkeit für die Dateifreigabe in Ihrer Skype for Business Server Bereitstellung sicherzustellen, können Sie dfs (Distributed File System) verwenden. DFS unterstützt Failover von einem Dateiserver auf einen anderen Dateiserver innerhalb des gleichen Rechenzentrums. Bei einer umfassenden Bereitstellung empfehlen wir Ihnen die Verwendung von dedizierten Dateiservern, die mithilfe von DFS kombiniert werden. Weitere Informationen zu DFS in Windows Server 2012 finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) . Informationen zu DFS auf Windows Server 2008 finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) .
+Um eine hohe Verfügbarkeit für die Dateifreigabe in Ihrer Skype for Business Server Bereitstellung sicherzustellen, können Sie das verteilte Dateisystem (DFS) verwenden. DFS unterstützt Failover von einem Dateiserver auf einen anderen Dateiserver innerhalb des gleichen Rechenzentrums. Bei einer umfassenden Bereitstellung empfehlen wir Ihnen die Verwendung von dedizierten Dateiservern, die mithilfe von DFS kombiniert werden. Weitere Informationen zu DFS in Windows Server 2012 finden Sie unter [https://go.microsoft.com/fwlink/?LinkId=524384](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)) . Informationen zu DFS auf Windows Server 2008 finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=524385](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753479(v=ws.10)) .
   
 Abhängig von der Größe Ihres Netzwerks und der gewünschten Ausfallsicherheit können Sie ein Serverpaar zum Hosten von sämtlichen Dateifreigaben eines Standorts oder ein Paar je Front-End-Pool verwenden.
   

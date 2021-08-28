@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in den USA, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: b46823d7ee88b980e1da3babb6aaa6e54384e8348ebe9b17d54f29e2a77a2394
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7513bd868b5c61735869a009c5570134c5545096
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54335825"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589505"
 ---
 # <a name="toll-free-dialing-restrictions-in-the-unites-states"></a>Gebührenfreie Wähleinschränkungen in den Usa
 
@@ -48,7 +48,7 @@ ms.locfileid: "54335825"
 > [!NOTE]
 > **Wählformate:**
 >
-> - 800-389 sind etwas Besonderes und für Bahamas
+> - 800-389 sind etwas Besonderes und für Bahamas.
 > - 800-534 sind etwas Besonderes und für Barbados.
 > - 800-623 sind Sonderzeichen und für Bermuda
 > - 800-415 oder 907 oder 751 sind für die Dom Republik

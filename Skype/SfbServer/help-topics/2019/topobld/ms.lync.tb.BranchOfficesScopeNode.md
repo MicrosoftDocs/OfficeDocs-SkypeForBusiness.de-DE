@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficesScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Knoten Zweigstellenstandorte werden die Zweigstellenstandorte aufgelistet, die diesem zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 43d824c281f1d8f9061d733de0ec17c82a58dbee83354202d7dd1808d6cbfcfe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c3d241eba7b8994b1ac4867f85cbaf45f7e70448
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624157"
 ---
-# <a name="branch-offices-scope-node"></a>Zweigstellen – Bereichsknoten
+# <a name="branch-offices-scope-node"></a>Zweigstellen – Bereichsknoten
  
 Im Knoten **Zweigstellenstandorte** werden die Zweigstellenstandorte aufgelistet, die diesem zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:
   

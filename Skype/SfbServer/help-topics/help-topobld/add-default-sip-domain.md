@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddDefaultSipDomainPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 description: Geben Sie die primäre SIP-Domäne (Session Initiation Protocol) an, die Ihre Bereitstellung unterstützen soll. Die primäre SIP-Domäne kann mit ihrer Active Directory Domain Services-Domäne identisch oder von dieser abweichen. Ihre Active Directory-Domäne kann beispielsweise "fabrikam.net" lauten, und als primäre SIP-Domäne kann "contoso.net" angegeben sein.
-ms.openlocfilehash: 76cff2ecfa416330389caf1790ef1eb3c9259ae397ab751b758979a69d9b696a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 151b6ffdf90f9cc717fd7edb5119b370746b6ad7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320527"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604004"
 ---
 # <a name="add-default-sip-domain"></a>Hinzufügen der Standard-SIP-Domäne
  

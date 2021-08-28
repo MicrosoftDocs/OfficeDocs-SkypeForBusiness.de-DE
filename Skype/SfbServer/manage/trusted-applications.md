@@ -9,14 +9,14 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Eine vertrauenswürdige Anwendung ist eine Anwendung, die auf der Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK basiert, die von Skype for Business Server als vertrauenswürdig eingestuft wird.
-ms.openlocfilehash: f01ac47641dac417efc57b91d59ce3b6ef1c006f273ce41c29eae675db5129eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ef03aa21b64ec305829ed5da8ef84a0d5b8bfd92
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351695"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58596559"
 ---
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Verwalten vertrauenswürdiger Anwendungen in Skype for Business Server
 
@@ -38,7 +38,7 @@ In diesem Artikel erfahren Sie, wie Sie einen neuen vertrauenswürdigen Anwendun
 
 5.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **"Vertrauenswürdige Anwendungsserver",** und klicken Sie dann auf **"Neuer vertrauenswürdiger Anwendungspool".**
 
-6.  Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools ein, wählen Sie aus, ob es sich um einen einzelnen oder mehrere Server handelt, und klicken Sie dann auf **"Weiter".**
+6.  Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools ein, wählen Sie aus, ob es sich um einen einzelnen Oder mehrere Server handelt, und klicken Sie dann auf **"Weiter".**
 
 7.  Wählen Sie auf der Seite **"Nächsten Hop auswählen"** in der Liste den Skype for Business Server Front-End-Pool aus.
 
@@ -66,7 +66,7 @@ In der Skype for Business Server Systemsteuerung können Sie den Namen der Anwen
 
 ### <a name="to-view-a-list-of-trusted-applications"></a>So zeigen Sie eine Liste der vertrauenswürdigen Anwendungen an
 
-1.  Melden Sie sich über ein Benutzerkonto, das der Rolle "CsServerAdministrator", "CsAdministrator", "CsHelpDesk" oder "CsViewOnlyAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den vordefinierten Administratorrollen, die in Skype for Business Server verfügbar sind, finden Sie unter [Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
+1.  Melden Sie sich über ein Benutzerkonto, das der Rolle "CsServerAdministrator", "CsAdministrator", "CsHelpDesk" oder "CsViewOnlyAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den in Skype for Business Server verfügbaren vordefinierten Administratorrollen finden Sie unter [Rollenbasierte Zugriffssteuerung (Role-Based Access Control, RBAC).](../plan-your-deployment/security/role-based-access-control-rbac.md)
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 
@@ -77,31 +77,28 @@ In der Skype for Business Server Systemsteuerung können Sie den Namen der Anwen
 
 ## <a name="view-trusted-application-information"></a>Anzeigen von Informationen zu vertrauenswürdigen Anwendungen
 
-Sie können Informationen zu Ihren vertrauenswürdigen Anwendungen anzeigen, indem Sie Windows PowerShell und das Cmdlet **"Get-CsTrustedApplication"** verwenden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsTrustedApplication"** können Sie Informationen zu Ihren vertrauenswürdigen Anwendungen anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 
 ### <a name="to-view-trusted-applications"></a>So zeigen Sie vertrauenswürdige Anwendungen an
 
 Um alle Ihre vertrauenswürdigen Anwendungen anzuzeigen, geben Sie den folgenden Befehl in die Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
-        Get-CsConferenceDisclaimer
+   **Get-CsConferenceDisclaimer**
     
    Mit diesem Befehl werden Informationen zu den einzelnen vertrauenswürdigen Anwendungen nach folgendem Muster zurückgegeben:
     
-        Identity               : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        RegistrarPool          : 487279971
-        HomeServer             : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC
-                                 Service,CN=Services,CN=Configuration,DC=litware,DC=com
-        OwnerUrn               : urn:application:helpdesk
-        SipAddress             : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com
-        DisplayName            :
-        DisplayNumber          :
-        LineURI                :
-        PrimaryLanguage        : 0
-        SecondaryLanguages     : {}
-        EnterpriseVoiceEnabled : True
-        ExUmEnabled            : False
-        Enabled                : True
+   Identity : CN={5dedf4b0-a590-49b3-80cf-f16f914bbef9},CN=Application Contacts,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com<br/>
+   RegistrarPool : 487279971<br/>
+   HomeServer : CN=Lc Services,CN=Microsoft,CN=co1:2,CN=Pools,CN=RTC Service,CN=Services,CN=Configuration,DC=litware,DC=com OwnerUrn : urn:application:helpdesk<br/>
+   SipAddress : sip:RtcApplication-dbf5142f-2bb2-4c4f-9531-b7fea45c5000@litware.com<br/>
+   Displayname:<br/>
+   DisplayNumber :<br/>
+   LineURI:<br/>
+   PrimaryLanguage : 0<br/>
+   SecondaryLanguages : {}<br/>
+   EnterpriseVoiceEnabled : True<br/>
+   ExUmEnabled : False<br/>
+   Enabled : True<br/>
     
    Ausführliche Informationen finden Sie unter [Get-CsTrustedApplication](/powershell/module/skype/Get-CsTrustedApplication).

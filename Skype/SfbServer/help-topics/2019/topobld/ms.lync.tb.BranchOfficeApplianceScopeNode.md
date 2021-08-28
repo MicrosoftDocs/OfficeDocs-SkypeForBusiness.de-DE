@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 1783194430b8bbbf44f79d97f118dc89ccb32b498bb7471a4aebefe1f16d8ce5
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43803d250d7e5447ed6c34e2bd2d3ade32b912e8
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54323347"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624177"
 ---
-# <a name="branch-office-appliance-scope-node"></a>Filialanwendung – Bereichsknoten
+# <a name="branch-office-appliance-scope-node"></a>Filialanwendung – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:
   

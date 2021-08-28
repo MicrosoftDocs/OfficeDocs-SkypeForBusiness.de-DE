@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.SecPinPolicyEdit
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 344b9be6-dd37-46bc-bfa4-5c06f6666aa7
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 4fbbb396733733b2bc44a3665f50f32cf9ea52df5494d8e2f2782b6548206d5a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0856b3b28d6585b3265244add6ab000f1cd77f7a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311423"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623987"
 ---
 # <a name="pin-policy-create-new-or-edit-existing"></a>PIN-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen PIN-Richtlinie
 

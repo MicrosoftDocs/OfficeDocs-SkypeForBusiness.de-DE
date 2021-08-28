@@ -9,7 +9,7 @@ audience: admin
 ms.service: msteams
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie in Teams ein organisationsweites Team erstellen und verwalten, um für jeden in einer kleinen bis mittelgroßen Organisation eine automatische Zusammenarbeit zu ermöglichen.
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8a45da6af484209fcae5569d52ad03476b9ead4ff6da266d6ca5925c0be815b4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a6faac9e0c04f71bddb69b0a8bd7748072699edb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337983"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589749"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -30,7 +30,7 @@ Organisationsweite Teams bieten eine automatische Möglichkeit für jeden in ein
 
 Mit organisationsweiten Teams können globale Administratoren problemlos ein öffentliches Team mit den folgenden Merkmalen erstellen:
 - Zieht jeden Benutzer in der Organisation ein. 
-- Hält die Mitgliedschaft in Active Directory auf dem neuesten Stand, während Benutzer der Organisation beitreten und diese verlassen.
+- Hält die Mitgliedschaft in Active Directory auf dem neuesten Stand, während Benutzer der Organisation beitreten und sie verlassen.
 
 Nur globale Administratoren können organisationsweite Teams erstellen. Derzeit ist ein organisationsweites Team auf Organisationen mit nicht mehr als 10.000 Benutzern beschränkt. Es gibt auch einen Grenzwert von fünf organisationsweiten Teams pro Mandant. Wenn diese Anforderungen erfüllt sind, sehen globale Administratoren  beim Erstellen eines Teams die Option Organisationsweit als Option, wenn sie Team **ganz neu erstellen auswählen.** 
 
@@ -52,7 +52,7 @@ Wenn das Verzeichnis Ihrer Organisation so aktualisiert wird, dass es neue aktiv
 > - Wenn die Option Organisationsweit beim Erstellen eines Teams nicht angezeigt wird und Sie ein globaler Administrator sind, haben Sie möglicherweise das Limit von fünf organisationsweiten Teams erreicht, oder Ihre Organisation hat mehr als die aktuelle Größenbeschränkung von 10.000 Mitgliedern.  Wir arbeiten daran, dieses Limit künftig zu erhöhen. Organisationsweite Teams sind für Microsoft Teams for Education derzeit noch nicht verfügbar.
 > - Räume, die nicht Teil einer Raumliste sind, Geräte- und Ressourcenkonten werden möglicherweise dem organisationsweiten Team hinzugefügt oder synchronisiert. Teambesitzer können diese Konten ganz einfach wieder aus dem Team entfernen.
 > - Alle Aktionen des Systems zum Hinzufügen oder Entfernen von Mitgliedern werden im Kanal "Allgemein" gepostet. Der Kanal wird außerdem im Teams-Client mit „Neue Aktivität“ gekennzeichnet.
-> - Wir erstellen automatisch ein organisationsweites Team für Ihre Organisation, wenn Ihre Organisation noch nicht Teams und nicht mehr als 5.000 Benutzer hat. Der Teamname spiegelt den Mandantennamen wider verfügt über einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten.
+> - Wir erstellen automatisch ein organisationsweites Team für Ihre Organisation, wenn Ihre Organisation Teams und nicht mehr als 5.000 Benutzer hat. Der Teamname spiegelt den Mandantennamen wider verfügt über einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten.
 
 ## <a name="best-practices"></a>Bewährte Methoden
 
@@ -106,7 +106,7 @@ Wenn diese Problemumgehung keine Option ist, können Sie mithilfe von PowerShell
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>Gibt es eine Möglichkeit, ein vorhandenes Team in ein organisationsweites Team zu konvertieren?
 
-Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team konvertieren, indem sie es im Teams bearbeiten. Wechseln Sie zum Teamnamen und klicken Sie dann auf **Weitere Optionen**  >  **Team bearbeiten**.
+Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team konvertieren, indem sie es in einem Teams bearbeiten. Wechseln Sie zum Teamnamen und klicken Sie dann auf **Weitere Optionen**  >  **Team bearbeiten**.
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>Kann ich mithilfe einer Teamvorlage ein organisationsweites Team erstellen?
 

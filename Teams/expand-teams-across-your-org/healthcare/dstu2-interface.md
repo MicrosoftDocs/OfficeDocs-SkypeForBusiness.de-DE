@@ -9,22 +9,22 @@ ms.service: msteams
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_Healthcare
 appliesto:
 - Microsoft Teams
 ms.reviewer: anach
-description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich Einrichten oder Neukonfigurieren eines FTRI-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-App.
+description: Erfahren Sie mehr über die DSTU2-Schnittstellenspezifikation in Teams, einschließlich einrichten oder neu konfigurieren eines FTRI-Servers für die Zusammenarbeit mit der Microsoft Teams-Patienten-App.
 ms.custom: seo-marvel-mar2020
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 8ec2b1a88d99937e83bc8553f7dbcdd8d92f78b5a8e5708301147a26f0cffe4a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3d4b8e1d965cd3b0704885d6f86e376cfc3c9316
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54308764"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58589729"
 ---
 # <a name="dstu2-interface-specification"></a>Benutzeroberflächenspezifikation DSTU2
 
@@ -312,7 +312,7 @@ Dies sind die mindestens erforderlichen Felder, bei denen es sich um eine Teilme
  - Status
  - Geben Sie [0] ein. Coding[0]. Anzeige
 
-Darüber hinaus müssen die folgenden Felder aus den "must support"-Feldern des US-Core Encounter-Profils
+Darüber hinaus müssen die folgenden Felder aus den "Must Support"-Feldern des US-Core Encounter-Profils
 
  - Period.Start
  - Position[0]. Location.Display
@@ -435,7 +435,7 @@ Dies sind die mindestens erforderlichen Felder, bei denen es sich um eine Teilme
 Für eine großartige Benutzererfahrung kann die Patienten-App nicht nur Felder des Orts, sondern auch die folgenden Felder lesen:
 
  - DateEnded
- - 1222222.Text
+ - 122222.Text
  - Text.Div
 
 Eine Ressourcensuche verwendet die GET-Methode und die folgenden Parameter:

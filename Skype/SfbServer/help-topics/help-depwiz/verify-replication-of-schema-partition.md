@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 description: 'Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in ihrer Active Directory Domain Services-Gesamtstruktur repliziert wurde:'
-ms.openlocfilehash: 315a37267b2bdcae89c098858aa9419eff262c46b7cd37c39799dd5642d2a295
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6809c95be9ec0fd0de9d686e4b38b6a16ea92573
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284995"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58623977"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Überprüfen der Replikation der Schemapartition
  
 Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in ihrer Active Directory Domain Services-Gesamtstruktur repliziert wurde:
   
-1. Melden Sie sich bei einem Domänencontroller (mit Ausnahme des Domänencontrollers mit der Schemamasterrolle) in der Active Directory Domain Services-Gesamtstruktur an, auf den die Schemaerweiterungen als Mitglied der Gruppe "Enterprise Administratoren" angewendet wurden.
+1. Melden Sie sich bei einem Domänencontroller (mit Ausnahme des Domänencontrollers mit der Schemamasterrolle) in der Active Directory Domain Services-Gesamtstruktur an, auf den die Schemaerweiterungen als Mitglied der Gruppe Enterprise Administratoren angewendet wurden.
     
 2. Öffnen Sie den ADSI-Editor: Klicken Sie nacheinander auf **Start**, **Verwaltung** und **ADSI-Editor**.
     

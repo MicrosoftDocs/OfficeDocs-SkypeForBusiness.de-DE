@@ -1,5 +1,5 @@
 ---
-title: SIP-Videotrunks – Bereichsknoten
+title: SIP-Videotrunks – Bereichsknoten
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.SipVideoTrunksScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a4df43f5-0563-4738-a020-7aec3bc46e17
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: 571bb0bbe0473f61644fd702f22d05bb9c7c0ba8a51a6c7bb29648cb2ee4629b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ca0e2dc39018870a0a3a592acb014bf1278a7f71
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54311723"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58616761"
 ---
-# <a name="sip-video-trunks-scope-node"></a>SIP-Videotrunks – Bereichsknoten
+# <a name="sip-video-trunks-scope-node"></a>SIP-Videotrunks – Bereichsknoten
  
 Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter [Erstellen eines VIS-Pools in Skype for Business Server](../../../deploy/deploy-video-interop-server/create-a-vis-pool.md)beschrieben.
   

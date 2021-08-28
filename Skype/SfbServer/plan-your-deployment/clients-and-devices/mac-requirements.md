@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lesen Sie dieses Thema, um mehr über die Hardware-, Software- und Infrastrukturanforderungen für die Ausführung von Skype for Business auf einem Mac zu erfahren.
-ms.openlocfilehash: 71ba17567e9dfe4bafe724ede29aace231ad122105b33eef14550cbc781a79b1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314441"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604774"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business für Mac-Clientanforderungen
  
@@ -38,7 +38,7 @@ Die Skype for Business auf dem Mac-Client erfordert Mac OS X El Macintoshn und h
   
 ### <a name="legacy-mac-clients"></a>Legacy-Mac-Clients
 
-Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf Computern, auf denen Mac OS 10.5.8 oder das neueste Service Pack oder release (Intel-basiert) Betriebssystem ausgeführt wird (Mac OS 10.9-Betriebssystem wird derzeit nicht unterstützt). Ausführliche Informationen zu unterstützten Features finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md)
+Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf Computern mit Mac OS 10.5.8 oder neuesten Service Pack- oder Release-Betriebssystemen (Intel-basiert) (Mac OS 10.9 wird derzeit nicht unterstützt). Ausführliche Informationen zu unterstützten Features finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md)
   
 - Microsoft Lync für Mac 2011 (siehe [Bereitstellungshandbuch für Lync für Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     

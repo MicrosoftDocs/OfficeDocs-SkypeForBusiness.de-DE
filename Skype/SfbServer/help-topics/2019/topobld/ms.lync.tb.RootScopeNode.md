@@ -1,5 +1,5 @@
 ---
-title: Skype for Business Server – Stammbereichsknoten
+title: Skype for Business Server – Stammbereichsknoten
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -11,18 +11,18 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Lync Server-Knoten listet die zentralen Standorte in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 5416a32c2dc00651a19c6ebcce263d11cba18faa04cd9a536360e03740068ac4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b7039c1b6104aff272dbd956f3641372088aa1c3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54305617"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58604054"
 ---
-# <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server – Stammbereichsknoten
+# <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server – Stammbereichsknoten
  
 Der **Lync Server-Knoten** listet die zentralen Standorte in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:
   

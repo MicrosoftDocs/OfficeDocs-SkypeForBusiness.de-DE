@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: b7e9149e-bf16-4120-afe0-3ee09c88f5eb
 description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie die Integration zwischen Office Web Apps Server und Skype for Business Server konfigurieren, um PowerPoint Präsentationen für Webkonferenzen zu aktivieren.'
-ms.openlocfilehash: abaf430ffd2f426d8ed4821409691cc140bb9fa8fe3dd0e23bcf10cbc444c33b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 753ab05e533d77311c9910cb26fe7980b83b1a36
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338783"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58595999"
 ---
 # <a name="configure-integration-with-office-web-apps-server-in-skype-for-business-server"></a>Konfigurieren der Integration mit Office Web Apps Server in Skype for Business Server
  
@@ -27,7 +27,7 @@ Skype for Business Server verwendet Office Web Apps-Server, um PowerPoint Präse
   
 Bevor Sie Skype for Business Server für die Verwendung Office Web Apps-Servers konfigurieren können, müssen Sie sicherstellen, dass Office Web Apps-Server bereits bereitgestellt und konfiguriert ist. Informationen zu Office Web Apps Server finden Sie im Artikel [Bereitstellen der Infrastruktur: Office Online Server](/webappsserver/deploy-the-infrastructure-office-web-apps-server). 
   
-Nachdem Office Web Apps-Server erfolgreich installiert und Die Webfarm ordnungsgemäß konfiguriert wurde, müssen Sie Skype for Business Server für die Kommunikation mit dem neuen Server konfigurieren, indem Sie der Office Web Apps Server Discovery-URL zu Ihrer Skype for Business Server Topologie hinzufügen. 
+Nachdem Office Web Apps-Server erfolgreich installiert und die Webfarm ordnungsgemäß konfiguriert wurde, müssen Sie Skype for Business Server für die Kommunikation mit dem neuen Server konfigurieren, indem Sie der Skype for Business Server Topologie die Office Web Apps Server Discovery-URL hinzufügen. 
   
 > [!NOTE]
 > Die neueste Iteration von Office Web Apps-Server heißt Office Online Server, die von Skype for Business Server unterstützt wird. Weitere Informationen finden Sie in der [Office Online Server Dokumentation.](/officeonlineserver/office-online-server) 
@@ -42,13 +42,13 @@ Gehen Sie dazu wie folgt vor:
     
 3. Geben Sie im Dialogfeld **Topologie speichern unter** einen Namen für Ihr Topologiedokument (z. B. **PreWebAppsServerTopology**) in **Dateiname** ein, und klicken Sie dann auf **Speichern**. Diese Topologie kann später wieder abgerufen und neu veröffentlicht werden, falls es zu Problemen kommt.
     
-4. Erweitern Sie **im** Topologie-Generator Skype for Business Server , erweitern Sie den Namen Ihres Standorts, erweitern Sie **Enterprise Edition Front-End-Pools,** klicken Sie mit der rechten Maustaste auf den Namen eines Ihrer Pools, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
+4. Erweitern Sie im Topologie-Generator **Skype for Business Server,** erweitern Sie den Namen Ihres Standorts, erweitern Sie **Enterprise Edition Front-End-Pools,** klicken Sie mit der rechten Maustaste auf den Namen eines Ihrer Pools, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
     
 5. Suchen Sie im Dialogfeld **Eigenschaften bearbeiten** auf der Registerkarte **Allgemein** die Überschrift **Office Web Apps-Server zuordnen**, und klicken Sie dann auf **Neu** (oder wählen Sie in der Dropdownliste einen vorhandenen Office Web Apps-Server aus).
     
 6. Geben Sie im Dialogfeld **Neuen Office Web Apps-Server definieren** den vollqualifizierten Domänennamen (FQDN) Ihres Office Web Apps-Servercomputers im Feld **FQDN von Office Web Apps-Server** ein. Anschließend sollte im Feld **Office Web Apps-Server-Such-URL** automatisch die Such-URL Ihres Office Web Apps-Servers stehen.
     
-   - Wenn der Office Web Apps-Server lokal installiert ist und sich in derselben Netzwerkzone wie Skype for Business Server sollte die Option **Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird,** nicht ausgewählt werden.
+   - Wenn der Office Web Apps-Server lokal und in derselben Netzwerkzone wie Skype for Business Server installiert ist, sollte die Option **Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird,** nicht ausgewählt werden.
     
    - Wenn der Office Web Apps-Server außerhalb Ihrer internen Firewall bereitgestellt ist, aktivieren Sie die Option **Office Web Apps-Server ist in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt**.
     
@@ -68,7 +68,7 @@ Nachdem Sie die Ermittlungs-URL zur Topologie hinzugefügt haben, müssen Sie di
     
 ## <a name="configure-access-for-external-users"></a>Konfigurieren des Zugriffs für externe Benutzer
 
-Wenn externe Benutzer (d. h. Benutzer, die sich von außerhalb der Firewall Ihrer Organisation anmelden) Zugriff auf Office Web Apps Server PowerPoint Präsentationen haben sollen, müssen Sie Office Web Apps-Server und einen Reverseproxyserver verwenden. Außerdem müssen Sie eine Websiteveröffentlichungsregel erstellen und konfigurieren, mit der sichergestellt wird, dass Benutzer eine Verbindung mit dem Server herstellen können. 
+Wenn externe Benutzer (d. h. Benutzer, die sich von außerhalb der Firewall Ihrer Organisation anmelden) Zugriff auf Office Web Apps Server PowerPoint Präsentationen haben sollen, müssen Sie Office Web Apps Server und einen Reverseproxyserver verwenden. Außerdem müssen Sie eine Websiteveröffentlichungsregel erstellen und konfigurieren, mit der sichergestellt wird, dass Benutzer eine Verbindung mit dem Server herstellen können. 
   
 ## <a name="validate-the-configuration"></a>Überprüfen der Konfiguration
 
@@ -76,7 +76,7 @@ Nachdem Office Web Apps-Server der Topologie hinzugefügt wurde, und nachdem die
   
  **Webkonferenzserver Office Web Apps-Server ermittelt wird, PowerPoint Inhalt aktiviert ist.**
   
-Darüber hinaus sollte ein weiteres LS Data MCU-Ereignis (Ereignis-ID 41032) angezeigt werden, das Office Web Apps Server-URLs zurückgibt. Sie sollten z. B. etwas ähnliches sehen:
+Außerdem sollte ein weiteres LS Data MCU-Ereignis (Ereignis-ID 41032) angezeigt werden, das Office Web Apps Server-URLs zurückgibt. Sie sollten z. B. etwas ähnliches sehen:
   
  **Die Webkonferenzserver-Office Web Apps-Serverermittlung wurde erfolgreich ausgeführt.**
   
@@ -90,8 +90,8 @@ Wenn Sie den Zugriff für externe Benutzer konfiguriert haben, sehen Sie auch et
   
  **Office Interne Teilnehmerseite des Web Apps-Servers: <https://atl-officewebapps-001.litwareinc.com/m/ParticipantFrame.aspx?a=0&amp;embed=true&amp> ;**
   
-Wenn ein LS Data MCU-Ereignis mit der Ereignis-ID 41033 angezeigt wird, bedeutet dies, dass Office Web Apps-Serverermittlung fehlgeschlagen ist. In diesem Fall versuchen Skype for Business Server so oft wie nötig, den neu konfigurierten Office Web Apps-Server zu ermitteln. Wenn der Ermittlungsprozess wiederholt fehlschlägt, sollten Sie Office Web Apps-Server aus ihrem Topologiedokument entfernen, die aktualisierte Topologie veröffentlichen und dann versuchen, Office Web Apps Server wieder zur Topologie hinzuzufügen, nachdem die Verbindungsprobleme behoben wurden.
+Wenn ein LS Data MCU-Ereignis mit der Ereignis-ID 41033 angezeigt wird, bedeutet dies, dass Office Web Apps Server Discovery fehlgeschlagen ist. In diesem Fall versuchen Skype for Business Server so oft wie nötig, den neu konfigurierten Office Web Apps-Server zu ermitteln. Wenn der Ermittlungsprozess wiederholt fehlschlägt, sollten Sie Office Web Apps-Server aus ihrem Topologiedokument entfernen, die aktualisierte Topologie veröffentlichen und dann versuchen, Office Web Apps Server wieder zur Topologie hinzuzufügen, nachdem die Verbindungsprobleme behoben wurden.
   
-Wenn Office Web Apps-Server ordnungsgemäß konfiguriert zu sein scheint und vom Ermittlungsprozess erkannt wurde, können Sie überprüfen, ob Office Web Apps-Server erwartungsgemäß funktioniert, indem Sie eine PowerPoint Präsentation zwischen zwei Skype for Business Clients freigeben. Wenn Benutzer A die PowerPoint Präsentation laden und anzeigen kann und Benutzer B dann an der Besprechung teilnehmen und diese Präsentation anzeigen kann, funktioniert Office Web Apps-Server.
+Wenn Office Web Apps-Server ordnungsgemäß konfiguriert zu sein scheint und vom Ermittlungsprozess erkannt wurde, können Sie überprüfen, ob Office Web Apps-Server erwartungsgemäß funktioniert, indem Sie eine PowerPoint Präsentation zwischen zwei Skype for Business Clients freigeben. Wenn Benutzer A die PowerPoint Präsentation laden und anzeigen kann und Benutzer B dann an der Besprechung teilnehmen und diese Präsentation sehen kann, funktioniert Office Web Apps-Server.
   
 Auch wenn Office Web Apps-Server ordnungsgemäß konfiguriert zu sein scheint, wird möglicherweise die Fehlermeldung "Einige Freigabefeatures sind aufgrund von Serverkonnektivitätsproblemen nicht verfügbar" angezeigt, wenn Sie versuchen, eine PowerPoint Präsentation freizugeben. Wenn diese Fehlermeldung angezeigt wird, sollten Sie den Front-End-Server (oder die Server) neu starten, der dem neuen Office Web Apps-Server zugeordnet ist.
