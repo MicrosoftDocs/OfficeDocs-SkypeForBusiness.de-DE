@@ -9,14 +9,14 @@ audience: admin
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Vor dem Migrieren müssen Updates auf Ihre Umgebung angewendet werden. Die aktuellsten Informationen finden Sie im Ressourcencenter für Updates unter https://go.microsoft.com/fwlink/p/?linkid=232630 .
-ms.openlocfilehash: 958b06eb8a25bca007738a29db37b230b511120a943a5fa5046da5b7e52c39e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 00f9918e25f8be16e31228b771348194f582f3d0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54312333"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620311"
 ---
 # <a name="apply-updates"></a>Anwenden von Updates
 

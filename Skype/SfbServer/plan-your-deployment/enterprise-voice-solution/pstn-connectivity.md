@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Erfahren Sie mehr über SIP-Trunking und PSTN-Gateways für Enterprise-VoIP in Skype for Business Server.
-ms.openlocfilehash: 3ac0a2afba49da52b909bf8b4c040f1124c510ba1818e37100f0c0ebdae941c4
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8aa3914eac1a716380b69971b0c576186dbfac17
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286344"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620971"
 ---
 # <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN-Verbindungskomponenten in Skype for Business Server
  
@@ -60,6 +60,6 @@ Die folgenden Szenarien mit Integration von Enterprise-VoIP und einer Nebenstell
 > [!NOTE]
 > Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Ip-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur mit Produkten und Versionen unterstützt, die im [Unified Communications Open Interoperability Program – Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)aufgeführt sind. 
   
-Ausführliche Informationen zu Partnern, die Enterprise-VoIP Lösungen anbieten, finden Sie auf der [Microsoft Unified Communications-Partnerwebsite.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Ausführliche Informationen zu Partnern, die Enterprise-VoIP Lösungen anbieten, finden Sie auf der [Microsoft Unified Communications Partner-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836)
   
 Ausführliche Informationen zu Partnern, die Enterprise-VoIP Hardwarelösungen anbieten, einschließlich PSTN-Gateways, finden Sie auf der [Microsoft Unified Communications Partners-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836)

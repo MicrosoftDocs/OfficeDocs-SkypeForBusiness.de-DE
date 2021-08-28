@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 50a235b6-5f30-4c49-93d9-6c6f43edce64
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld "Überlaufwarteschlange auswählen", um eine Warteschleife auszuwählen, in der Anrufe weitergeleitet werden, wenn eine Reaktionsgruppenwarteschlange voll ist.
-ms.openlocfilehash: 7eb740ccf6a223cbb87eb28a1a2971effab3704b00ab81827ce5510b7272470d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 90d73d9269c169df743bd10cfee7f77ce097b863
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322297"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620371"
 ---
 # <a name="select-overflow-queue"></a>Auswählen der Überlaufwarteschleife
  

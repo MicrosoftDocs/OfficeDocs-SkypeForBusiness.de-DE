@@ -13,47 +13,47 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Reporting
 - O365E_ReportsS4BOrgActivity
-description: 'Erfahren Sie, wie Sie Skype for Business Bericht "Organisierte Aktivität in einer Konferenz" erhalten und wie Sie ihn interpretieren und anpassen. '
-ms.openlocfilehash: 14b46f6050b7634513b02cc5eaab11eac5d83f78a8e39b1cdca7cb301e7fa64b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Erfahren Sie, wie Sie Skype for Business Bericht "Organisierte Aktivität von Konferenz" erhalten und wie Sie ihn interpretieren und anpassen. '
+ms.openlocfilehash: 88f928facce4d384e38108c2e9d41820895be7be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54326651"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620281"
 ---
 # <a name="conference-organizer-activity-report"></a>Bericht „Aktivitäten zum Organisieren von Konferenzen“
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Im **Dashboard** Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Beispielsweise können Sie den Bericht Skype for Business – Aktivitäten zum Organisieren von Konferenzen verwenden, um zu sehen, **in** welchem Rahmen Ihre Benutzer Konferenzen organisieren, für die Nachrichten, Audio/Video, Anwendungsfreigabe, Web, Ein-/Aus -Drittanbieter und Ein-/Aus-Microsoft verwendet werden. 
+Im **Dashboard** Berichte wird eine Aktivitätsübersicht über die verschiedenen Microsoft 365 oder Office 365 in Ihrer Organisation angezeigt. Mit dieser können Sie einzelne Berichte auf Produktebene näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten in jedem Produkt erhalten. Sie können z. B. den Bericht **Skype for Business –** Aktivitäten zum Organisieren von Konferenzen verwenden, um zu sehen, in welchem Rahmen Ihre Benutzer Konferenzen organisieren, für die Nachrichten, Audio/Video, Anwendungsfreigabe, Web, Ein-/Auswahl (Drittanbieter) und Ein-/Auswahl (Microsoft) verwendet werden. 
 
 Weitere Informationen finden [Sie in der Übersicht](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263) über Berichte.
   
 Dieser Bericht bietet Ihnen zusammen mit den anderen Skype for Business Details zu organisierten Konferenzen innerhalb Ihrer Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation äußerst hilfreich. 
   
 > [!NOTE]
-> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
+> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-conference-organizer-report"></a>So erhalten Sie den Bericht Skype for Business Besprechungsorganisator
 
-1. Wechseln Sie zum Admin Center, > **Berichtnutzung**  >  **aus.**
+1. Wechseln Sie zum Admin Center, und >   >  **Berichtnutzung aus.**
     
-2. Wählen Sie **auf der** Seite Verwendung **Skype for Business** in der Liste Bericht auswählen auf Konferenzorganisatoraktivität  >  aus.  Oder klicken Sie auf **Skype for Business Widget "Besprechungsaktivität"** und dann **Skype for Business** in der Liste Skype for Business **auf Konferenzorganisatoraktivität.**
+2. Wählen Sie **auf der** Seite Verwendung **Skype for Business** in der Liste Bericht auswählen auf Konferenzorganisatoraktivität  >  aus.  Oder klicken Sie auf **das Widget Skype for Business Und** klicken Sie dann **Skype for Business** in der Liste Skype for Business **auf Konferenzorganisatoraktivität.**
   
-## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretieren des Skype for Business Berichts zum Organisieren von Konferenzen
+## <a name="interpret-the-skype-for-business-conferences-organizer-report"></a>Interpretieren Skype for Business Berichts zum Organisieren von Konferenzen
 
-Sie können einen Einblick in Ihre organisierten Skype for Business erhalten, indem Sie sich die Diagramme **Aktivität,** **Benutzer** **und** Minuten ansehen.
+Sie können einen Einblick in Ihre organisierten Skype for Business erhalten, indem Sie sich die Diagramme **Aktivität,** Benutzer **und** Minuten ansehen.
   
-![Skype For Business : Bericht "Organisierte Konferenzen"](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
+![Skype für Unternehmen: Bericht "Organisierte Konferenzen"](../images/0ab0e5e8-cf18-4f8f-a31a-94048e375a0f.PNG)
   
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Im **Skype for Business Bericht** Aktivität zum Organisator von Konferenz werden die Trends über die letzten 7 Tage, 30 Tage, 90 Tage oder 180 Tage angezeigt. Wenn Sie im Bericht jedoch in einen bestimmten Tag klicken, werden in der Tabelle (siehe Zahl 7) Daten für 30 Tage bis zum Datum (siehe Zahl 2) angezeigt, an dem der Bericht generiert wurde.
+![Nummer 1](../images/sfbcallout1.png)<br/>Im **Skype for Business** Bericht Aktivität zum Organisator von Konferenz werden die Trends über die letzten 7 Tage, 30 Tage, 90 Tage oder 180 Tage angezeigt. Wenn Sie im Bericht jedoch in einen bestimmten Tag klicken, werden in der Tabelle (siehe Zahl 7) Daten für 30 Tage bis zum Datum (siehe Zahl 2) angezeigt, an dem der Bericht generiert wurde.
 
 > [!NOTE]
 > Wenn Sie in die Details eines bestimmten Tages klicken, werden in der Tabelle nur Daten für die 30 Tage bis zum Datum angezeigt, an dem der Bericht generiert wurde.
@@ -61,9 +61,9 @@ Sie können einen Einblick in Ihre organisierten Skype for Business erhalten, in
 ***
 ![Nummer 2](../images/sfbcallout2.png)<br/>Jeder Bericht weist das Datum auf, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. 
 ***
-![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten  im Diagramm Aktivität, um die Nutzungstrends nach zu erkennen und die Gesamtanzahl an organisierten Konferenzen sowie die Art der Konferenzen, die in Ihrer Organisation abgehalten werden, zu sehen. Es zeigt Ihnen die Gesamtanzahl sowie die Arten von Microsoft-Konferenzen mit **Audio/Video,** **Anwendungsfreigabe,** **Web,** Ein-/Aus- und Ein-/Aus - **Microsoft-Konferenzen,** die innerhalb Ihrer Organisation organisiert wurden.  
+![Nummer 3](../images/sfbcallout3.png)<br/>Verwenden Sie die interaktiven Diagrammdaten  im Diagramm Aktivität, um die Nutzungstrends nach zu erkennen und die Gesamtanzahl der organisierten Konferenzen sowie die Art der Konferenzen, die in Ihrer Organisation abgehalten werden, zu sehen. Es zeigt Ihnen die Gesamtanzahl sowie die Arten von Microsoft-Konferenzen mit **Audio/Video,** **Anwendungsfreigabe,** **Web,** Ein-/Aus- und Ein-/Aus - **Microsoft-Konferenzen,** die innerhalb Ihrer Organisation organisiert wurden.  
 ***
-![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten  im Diagramm Benutzer, um Nutzungstrends nach zu erkennen und um die Anzahl eindeutiger Benutzer, die Konferenzen organisiert haben, die in Ihrer Organisation abgehalten werden, zu sehen. Es zeigt Ihnen die Gesamtanzahl der Benutzer sowie die Arten der organisierten Ein-/Aus- und Ein-/Aus-Konferenzen von Microsoft-Konferenzen, **Audio/Video** **,** Anwendungsfreigabe, **Web,** Ein-/Aus - Drittanbieter- und  **Ein-/Aus-Microsoft-Konferenzen.** 
+![Nummer 4](../images/sfbcallout4.png)<br/>Verwenden Sie die interaktiven Diagrammdaten  im Diagramm Benutzer, um Nutzungstrends nach zu erkennen und um die Anzahl eindeutiger Benutzer, die Konferenzen organisiert haben, die in Ihrer Organisation abgehalten werden, zu sehen. Es zeigt Ihnen die Gesamtanzahl der Benutzer sowie die Arten der organisierten Ein-/Aus- und Ein-/Aus-Konferenzen von Microsoft-Konferenzen, **Audio/Video** **,** Anwendungsfreigabe, **Web,** Ein-/Aus - Drittanbieter- und Ein-/Aus-Microsoft-Konferenzen.   
 ***
 ![Nummer 5](../images/sfbcallout5.png)<br/>Verwenden Sie die interaktiven Diagrammdaten  im Diagramm Minuten, um Nutzungstrends nach zu erkennen und um die Anzahl an Minuten zu sehen, die von Benutzern bei der Organisation einer Konferenz mithilfe von Audio/Video sowie von Ein-/Auswahl – Microsoft als Konferenzanbieter – verwendet werden. Es zeigt Ihnen die Gesamtanzahl an **Audio/Video-** und Einwahl – Microsoft-Minuten und Einwahl **– Microsoft-Minuten,** die während der Konferenzen, die organisiert wurden, verwendet werden. 
 ***
@@ -78,15 +78,15 @@ Die X-Achse bezeichnet in beiden Diagrammen den ausgewählten Zeitraum für dies
 ![Nummer 7](../images/sfbcallout7.png)<br/>
 Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Legende auf ein Element klicken. Klicken oder tippen  Sie z. B. im Diagramm Aktivität auf Im , **Audio/Video** **,** Anwendungsfreigabe , **Web**, **Ein-/Aus**– Drittanbieter und **Ein-/Aus – Microsoft,** um nur die jeweils zugehörigen Informationen zu sehen. Durch das Ändern dieser Auswahl werden die Informationen in der Gitternetztabelle nicht geändert.
 ***
-![Nummer 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Konferenzaktivitäten der organisierten Konferenz pro Benutzer. Dies zeigt alle Benutzer an, denen Skype for Business zugewiesen haben, sowie die Konferenzen, die sie organisiert haben. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
+![Nummer 8](../images/sfbcallout8.png)<br/>Die Tabelle zeigt eine Aufschlüsselung der Konferenzaktivitäten der organisierten Konferenz pro Benutzer. Hier werden alle Benutzer, denen Skype for Business zugewiesen wurden, sowie die Konferenzen, die sie organisiert haben, gezeigt. Sie können zusätzliche Spalten zur Tabelle hinzufügen. 
 * **Benutzername** ist der Name des Benutzers. 
 * **Gelöscht** bedeutet, dass die Lizenz des Benutzers entfernt wurde.<br/><br/>
   > [!NOTE]
-  > Aktivitäten für einen gelöschten Benutzer werden weiterhin in einem Bericht angezeigt, solange er zu einem Zeitpunkt während des ausgewählten Zeitraums über eine Lizenz für den Benutzer lizenziert war. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
+  > Aktivitäten für einen gelöschten Benutzer werden weiterhin in einem Bericht angezeigt, solange der Benutzer zu einem Zeitpunkt im ausgewählten Zeitraum über eine Lizenz verknendte war. Der Spalte **Gelöscht** können Sie entnehmen, dass der Benutzer zwar möglicherweise nicht mehr aktiv ist, aber dass der Bericht dennoch ihn betreffende Daten enthält.
      
 * **Gelöscht am** ist das Datum, an dem die Lizenz des Benutzers entfernt wurde. 
 * **Datum der letzten Aktivität (UTC)** ist das Datum der letzten Aktivität (UTC) für diesen Benutzer. 
-* **Im** Video wird die Gesamtanzahl der Organisierten Konferenzen mit Dem im Video gezeigt. 
+* **Im** Video wird die Gesamtzahl der Organisierten Konferenzen mit Dementändlichung gezeigt. 
 * **Audio/Video** zeigt die Gesamtzahl der Audio-/Videokonferenzen an, die organisiert wurden.
 * **Anwendungsfreigabe** zeigt die Gesamtanzahl der Anwendungsfreigabe-Konferenzen an, die organisiert wurden. 
 * **Web** zeigt die Gesamtanzahl der Webkonferenzen an, die organisiert wurden. 
@@ -94,7 +94,7 @@ Sie können die im Diagramm angezeigte Datenreihe filtern, indem Sie in der Lege
 * **Ein-/Auswählkonferenzen Microsoft** zeigt die Gesamtzahl der Ein-/Aus-Audiokonferenzen an, die organisiert wurden. 
 * **Audio-/Videominuten** zeigt die Gesamtanzahl an Minuten an, die in organisierten Konferenzen verwendet wurden, in der Audio/Video verwendet wurde. 
 * **Einwahl – Microsoft-Minuten** zeigt die Gesamtanzahl an Einwahlminuten für organisierte Besprechungen an, in der Microsoft als Audiokonferenzanbieter verwendet wird. 
-* **Einwahl – Microsoft-Minuten** zeigt die Gesamtanzahl an Anwählminuten für organisierte Besprechungen an, in der Microsoft als Audiokonferenzanbieter verwendet wird. 
+* **Einwahl – Microsoft-Minuten** zeigt die Gesamtanzahl an Anwahlminuten für organisierte Besprechungen an, in der Microsoft als Audiokonferenzanbieter verwendet wird. 
 
 Wenn die Richtlinien Ihrer Organisation verhindern, dass Sie Berichte anzeigen, in denen Benutzerinformationen identifizierbar sind, können Sie die Datenschutzeinstellung für alle diese Berichte ändern. Lesen Sie den **Abschnitt Ausblenden von Details auf Benutzerebene** unter [Aktivitätsberichte im Admin Center.](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
 ***
@@ -112,13 +112,13 @@ Wenn die Richtlinien Ihrer Organisation verhindern, dass Sie Berichte anzeigen, 
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
     
 - [Bericht zum PSTN-Verbrauch in Skype for Business](pstn-usage-report.md) : Sie können die Anzahl der Minuten sehen, die für eingehende/ausgehende Anrufe aufgewendet wurden, sowie die Kosten für diese Anrufe.
     
-- [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+- [Skype for Business Bericht PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
+- [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)

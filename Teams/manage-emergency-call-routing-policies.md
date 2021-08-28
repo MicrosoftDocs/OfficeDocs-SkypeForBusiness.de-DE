@@ -15,28 +15,28 @@ ms.collection:
 - M365-voice
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinien für das Routing von Notrufen in ihrem Microsoft Teams verwenden und verwalten, um Notrufnummern zu erstellen und anzugeben, wie Notrufe weiterleiten werden.
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: d3266008f5e2c62ead297288a55caf1bbf8b473b
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 5f6d3f45c2a3a97980bec3eb17ee1f6b35952fe5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58234510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619441"
 ---
 # <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Verwalten von Richtlinien für Notfall-Voice Routing für Direct Routing
 
 Wenn Sie Telefonsystem [Direct Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, können Sie Notfall-Voice routing-Richtlinien in Microsoft Teams verwenden, um Notrufnummern zu erstellen und anzugeben, wie Notrufe weiterleiten werden. Eine Richtlinie für die Weiterleitung von Notrufen bestimmt, ob erweiterte Notrufdienste für Benutzer aktiviert werden, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notdienste angerufen werden (z. B. 911 in den USA) und wie Notrufe an Notdienste umgerufen werden.
 
-Sie verwalten Notfallrichtlinien für Voice Routing, indem Sie zu den Richtlinien für Notrufe im Microsoft Teams Admin Center oder  >   mithilfe von Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
+Sie verwalten Richtlinien für Die Weiterleitung von Notrufen **(Voice**  >  **Routing)** über die Richtlinien für den Sprachnotruf im Microsoft Teams Admin Center oder über Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
 
 Für Benutzer können Sie die globale (organisationsweite Standardrichtlinie) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Benutzer erhalten die globale Richtlinie automatisch, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Beachten Sie, dass Sie die Einstellungen in der globalen Richtlinie bearbeiten, aber nicht umbenennen oder löschen können. Für Netzwerkwebsites erstellen und weisen Sie benutzerdefinierte Richtlinien zu.
 
-Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für das Routing von Notfallstimmen zugewiesen haben und sich der Benutzer an diesem Netzwerkstandort befindet, setzt die richtlinie, die dem Netzwerkstandort zugewiesen ist, die Richtlinie außer Kraft, die dem Benutzer zugewiesen ist.
+Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für das Routing von Notfall-Voice routing zugewiesen haben und sich der Benutzer an diesem Netzwerkstandort befindet, setzt die Richtlinie, die dem Netzwerkstandort zugewiesen ist, die Dem Benutzer zugewiesene Richtlinie außer Kraft.
 
 ## <a name="create-a-custom-emergency-voice-routing-policy"></a>Erstellen einer benutzerdefinierten Voice Routing-Richtlinie für Notrufe
 
@@ -50,7 +50,7 @@ Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für das Routi
     1. **Notrufzeichenfolge:** Geben Sie die Notrufzeichenfolge ein. Diese Wählzeichenfolge gibt an, dass es sich bei einem Anruf um einen Notruf handelt.
         > [!NOTE]
         > Bei Direct Routing werden die Clients, die Notrufe Teams, mit einem "+" vor der Notrufzeichenfolge wegübergangen. Bis zum Abschluss des Übergangs sollte das Sprachroutenmuster, das einer Notrufzeichenfolge entspricht, sicherstellen, dass eine Übereinstimmung für Zeichenfolgen mit und ohne vorheriges "+" wie 911 und +911 durchgeführt wird. Beispiel: ^ \\ +?911 oder .*.
-    2. **Notrufmaske:** Für jede Notfallnummer können Sie Null- oder mehr Notrufmasken angeben. Ein Wählformat ist die Nummer, die Sie in den Wert der Notrufzeichenfolge übersetzen möchten. Auf diese Weise können alternative Notrufnummern gewählt werden, und die Notrufe bleiben erhalten. <br>So fügen Sie beispielsweise 112 als Notrufnummer, d. h. die Notrufnummer für die meisten Benutzer in Europa, und 911 als Notrufzeichenfolge hinzu. Ein Teams aus Europa, der zu Gast ist, weiß möglicherweise nicht, dass 911 die Notrufnummer in den USA ist, und wenn er die 112 wählt, wird an die Notrufnummer 911 gewählt. Zum Definieren mehrerer Wählmasken trennen Sie die einzelnen Werte durch ein Semikolon. Beispiel: 112;212.
+    2. **Notrufmaske:** Für jede Notfallnummer können Sie Null- oder mehr Notrufmasken angeben. Ein Wählformat ist die Nummer, die Sie in den Wert der Notrufzeichenfolge übersetzen möchten. Auf diese Weise können alternative Notrufnummern gewählt werden, und die Notrufe bleiben erhalten. <br>So fügen Sie beispielsweise 112 als Notrufnummer, d. h. die Notrufnummer für die meisten Benutzer in Europa, und 911 als Notrufzeichenfolge hinzu. Ein Teams aus Europa, der zu Gast ist, weiß möglicherweise nicht, dass 911 die Notrufnummer in den USA ist, und wenn er die 112 wählt, wird die Nummer 911 gewählt. Zum Definieren mehrerer Wählmasken trennen Sie die einzelnen Werte durch ein Semikolon. Beispiel: 112;212.
     3. **PSTN-Nutzungsdatensatz:** Wählen Sie den Nutzungsdatensatz public Switched Telephone Network (PSTN) aus. Der PSTN-Nutzungsdatensatz wird verwendet, um zu bestimmen, welche Route verwendet wird, um Notrufe von Benutzern weiter zu routen, die zur Verwendung autorisiert sind. Die dieser Verwendung zugeordnete Route sollte auf einen SIP-Trunk (Session Initiation Protocol) verweisen, der für Notrufe oder ein ELIN-Gateway (Emergency Location Identification Number) zum Routen von Notrufen an den nächstgelegenen Public Safety Answering Point (PSAP) verwendet wird.
 
     > [!NOTE]

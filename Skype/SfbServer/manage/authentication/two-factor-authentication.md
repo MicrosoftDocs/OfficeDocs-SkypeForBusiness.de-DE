@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 16f08710-8961-4659-acbf-ebb95a198fb4
 description: 'Zusammenfassung: Verwalten der zweistufigen Authentifizierung in Skype for Business Server.'
-ms.openlocfilehash: db40d3c2f899ec40ba01e0a45304e147513b9c03
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 2b354c99b4e02536ff3db2043ec18fcd092d766e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58235510"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621101"
 ---
 # <a name="manage-two-factor-authentication-in-skype-for-business-server"></a>Verwalten der zweistufigen Authentifizierung in Skype for Business Server
  
@@ -28,7 +28,7 @@ Die zweistufige Authentifizierung bietet erhöhte Sicherheit, da Benutzer zwei F
   
 Ein typisches Beispiel für die zweistufige Authentifizierung mit einem Zertifikat ist die Verwendung von Smartcards. Eine Smartcard enthält ein dem Benutzerkonto zugeordnetes Zertifikat und kann anhand der auf einem Server gespeicherten Benutzer- und Zertifikatinformationen überprüft werden. Durch den Vergleich der Benutzerinformationen (Benutzername und Kennwort) mit dem bereitgestellten Zertifikat überprüft der Server die Anmeldeinformationen und authentifiziert den Benutzer.
   
-Berücksichtigen Sie die folgenden Themen beim Konfigurieren einer Skype for Business Server-Umgebung zur Unterstützung der zweistufigen Authentifizierung.
+Berücksichtigen Sie beim Konfigurieren einer Skype for Business Server umgebung die folgenden Themen, um die zweistufige Authentifizierung zu unterstützen.
   
 ## <a name="client-support"></a>Clientunterstützung
 
@@ -79,7 +79,7 @@ Bei der Kerberos- oder NTLM-Authentifizierungsmethode werden die Windows Anmelde
   
 Wenn Benutzer versehentlich zur Eingabe von Anmeldeinformationen aufgefordert werden, bevor sie aufgefordert werden, ihre PIN einzugeben, wird der **Registrierungsschlüssel "DisableNTCredentials"** möglicherweise unbeabsichtigt auf Clientcomputern konfiguriert, möglicherweise über die Gruppenrichtlinie.
   
-Um die zusätzliche Eingabeaufforderung für Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um mithilfe der Gruppenrichtlinie alle Benutzer für einen bestimmten Pool anzuwenden:
+Um die zusätzliche Eingabeaufforderung für Anmeldeinformationen zu verhindern, erstellen Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um alle Benutzer für einen bestimmten Pool mithilfe von Gruppenrichtlinien anzuwenden:
   
 HKEY_LOCAL_MACHINE\Software\Policies\Microsoft\Office\15.0\Lync
   
@@ -89,7 +89,7 @@ Wert: 0x0
   
 ### <a name="savepassword"></a>SavePassword
 
-Wenn sich ein Benutzer zum ersten Mal bei Skype for Business anmeldet, wird er aufgefordert, sein Kennwort zu speichern. Wenn diese Option ausgewählt ist, kann das Clientzertifikat des Benutzers im persönlichen Zertifikatspeicher und die Windows Anmeldeinformationen des Benutzers im Anmeldeinformations-Manager des lokalen Computers gespeichert werden.
+Wenn sich ein Benutzer zum ersten Mal bei Skype for Business anmeldet, wird er aufgefordert, sein Kennwort zu speichern. Wenn diese Option ausgewählt ist, können das Clientzertifikat des Benutzers im persönlichen Zertifikatspeicher und die Windows Anmeldeinformationen des Benutzers im Anmeldeinformations-Manager des lokalen Computers gespeichert werden.
   
 Die **Registrierungseinstellung "SavePassword"** sollte deaktiviert werden, wenn Skype for Business für die Unterstützung der zweistufigen Authentifizierung konfiguriert ist. Um zu verhindern, dass Benutzer ihre Kennwörter speichern, ändern Sie den folgenden Registrierungseintrag auf der lokalen Arbeitsstation, oder verwenden Sie die Skype for Business administrative Vorlage, um sie mithilfe von Gruppenrichtlinien auf alle Benutzer für einen bestimmten Pool anzuwenden:
   
@@ -107,8 +107,8 @@ Dieses Feature sollte in Situationen aktiviert werden, in denen sicherheit ein s
   
 ## <a name="guest-user-access"></a>Gastbenutzerzugriff
 
-Das Konfigurieren eines ADFS-Proxys oder Reverseproxys zur Unterstützung Skype for Business zweistufigen Authentifizierung von externen Netzwerken wird in diesen Themen nicht behandelt.
+Das Konfigurieren eines ADFS-Proxys oder Reverseproxys zur Unterstützung Skype for Business zweistufigen Authentifizierung aus externen Netzwerken wird in diesen Themen nicht behandelt.
   
-## <a name="see-also"></a>Weitere Artikel
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server](configure-two-factor.md)

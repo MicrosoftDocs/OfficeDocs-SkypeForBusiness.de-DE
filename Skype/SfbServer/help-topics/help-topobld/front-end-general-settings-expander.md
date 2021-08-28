@@ -1,5 +1,5 @@
 ---
-title: Allgemeine Front-End-Einstellungen – Erweiterung
+title: Allgemeine Front-End-Einstellungen – Erweiterung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Um die Einstellungen für einen vorhandenen Front-End-Pool oder Standard Edition Server zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: c2dc27177898c4ec8dbd260b6539e877d5eaf4ede8f402e44f09c5d4e095f1f0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a5c662bf22ea59bb58637622556881afa07e9ba4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54348070"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621261"
 ---
-# <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
+# <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
 
 Um die Einstellungen für einen vorhandenen Front-End-Pool oder Standard Edition Server zu bearbeiten, werden die folgenden Abschnitte angezeigt:
 
@@ -58,7 +58,7 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Dateifreigabe**. Ändern Sie den vom Front-End-Pool verwendeten Dateispeicher. In der Liste können Sie aus den bereits definierten Dateispeichern einen neuen auswählen. Oder Sie können einen neuen Dateispeicher erstellen, indem Sie auf **Neu** klicken.
 
@@ -72,13 +72,13 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Überwachung (KDS- und QoE-Metriken)**. Wählen Sie diese Option aus, um dem Front-End-Pool einen Überwachungs- SQL Server Speicher zuzuordnen. Sie können in der Liste einen bereits definierten Monitoring Server auswählen oder auf **Neu** klicken, um einen neuen Monitoring Server anzugeben.
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Edgepool zuordnen (für Medienkomponenten)**. Ordnen Sie dem Front-End-Pool einen Edgeserver oder -pool zu. Sie können in der Liste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
 
@@ -113,7 +113,7 @@ Geben Sie in **Externe Webdienste** Folgendes an:
 
 - Den vollqualifizierten Domänennamen der externen Webdienste. Der hier angegebene FQDN wird meist von den externen Verbindungsanforderungen bestimmt, z. B. dem Reverseproxy.
 
-- Für die Bereitstellung erforderliche Überwachungs- und veröffentlichte Ports für HTTP und HTTPS. Anfänglich sind die Standardeinstellungen (Port 8080 für HTTP und Port 4443 für HTTPS) definiert. Sie können diese Einstellungen für die Überwachungsports basierend auf den Anforderungen für den Reverseproxy und das externe Netzwerk ändern. Die veröffentlichten Ports sind auf die Standardeinstellungen Port 80 für HTTP und Port 443 für HTTPS festgelegt. Diese Werte bestimmen, welche Ports der Pool auf eingehende Anforderungen überwacht. In der Regel müssen diese nicht geändert werden, es sei denn, es liegt ein Konflikt bei den Portanforderungen für den Pool vor. Interne und externe veröffentlichte Ports, die dieselben Portwerte verwenden, werden erwartet. Dies stellt keinen Konflikt dar.
+- Für die Bereitstellung erforderliche Überwachungs- und veröffentlichte Ports für HTTP und HTTPS. Anfänglich sind die Standardeinstellungen (Port 8080 für HTTP und Port 4443 für HTTPS) definiert. Sie können diese Einstellungen für die Überwachungsports basierend auf den Anforderungen für den Reverseproxy und das externe Netzwerk ändern. Die veröffentlichten Ports sind auf die Standardeinstellungen Port 80 für HTTP und Port 443 für HTTPS festgelegt. Diese Werte bestimmen, welche Ports der Pool auf eingehende Anforderungen überwacht. In der Regel müssen diese nicht geändert werden, es sei denn, es liegt ein Konflikt der Portanforderungen für den Pool vor. Interne und externe veröffentlichte Ports, die dieselben Portwerte verwenden, werden erwartet. Dies stellt keinen Konflikt dar.
 
 ### <a name="mediation-server"></a>Vermittlungsserver
 
@@ -176,7 +176,7 @@ Resilienz bietet Notfallwiederherstellung und hohe Verfügbarkeit für den Serve
 Wählen Sie in der Liste den Front-End-Pool oder Standard Edition Server aus, der als Sicherung für den Server fungiert. Sie können außerdem Zeitintervalle für Failover und Fallback auswählen. Das Aktivieren der Failover- und Fallbackzeiteinstellungen (in Sekunden angegeben) ermöglicht die automatische Erkennung einer fehlgeschlagenen Registrierungsstelle und eine Fallbackzeit, um automatisch zu bestimmen, dass die primäre Registrierung wieder aktiviert ist.
 
 > [!IMPORTANT]
-> Beim Definieren der Fehlererkennung und des Fallbackintervalls sollten Sie darauf achten, kein Intervall einzugeben, das dazu führt, dass das Failover und fallback auftreten, wenn der Server für einen kurzen Zeitraum nicht reagieren sollte. Es ist möglich, dass der primäre Server basierend auf dem Laden des Pools oder der Server möglicherweise für kurze Zeit nicht reagiert. Die Standardwerte für Failover und Fallback sind 300 Sekunden und 600 Sekunden für Pool-zu-Pool- oder Pool-zu-Standard Edition-Server. Bei einer Survivable Branch Appliance oder einem Survivable Branch Server an einem Standort für einen Pool oder Standard Edition Server sind die Standardwerte 120 Sekunden für Failover und 240 Sekunden für Fallback.
+> Bei der Definition der Fehlererkennung und des Fallbackintervalls sollten Sie darauf achten, kein Intervall einzugeben, das zu einem Failover und Fallback führt, wenn der Server für einen kurzen Zeitraum nicht reagieren sollte. Es ist möglich, dass der primäre Server basierend auf dem Laden des Pools oder der Server möglicherweise für kurze Zeit nicht reagiert. Die Standardwerte für Failover und Fallback sind 300 Sekunden und 600 Sekunden für Pool zu Pool oder Pool für Standard Edition Server. Bei einer Survivable Branch Appliance oder einem Survivable Branch Server an einem Standort für einen Pool oder Standard Edition Server sind die Standardwerte 120 Sekunden für Failover und 240 Sekunden für Fallback.
 
 ### <a name="web-services"></a>Webdienste
 
@@ -200,7 +200,7 @@ Für **Vermittlungsserver** können Sie Folgendes angeben:
 
 - Wenn Sie den Vermittlungsserver mit dem Server verbinden, müssen Sie das Kontrollkästchen **Verbundener Vermittlungsserver aktiviert** aktivieren. Wenn Sie den Vermittlungsserver nicht verbinden möchten, ist keine der Einstellungen in diesem Abschnitt verfügbar.
 
-- Wenn Sie die Kollokation des Vermittlungsservers aktiviert haben, definieren Sie den Überwachungsportbereich auf dem Server für TLS. Standardmäßig ist dieser Port 5067. Wenn Sie **TCP-Port aktivieren** auswählen, müssen Sie einen TCP-Port für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder Ihrer PSTN-Anforderungen beziehen, um festzustellen, ob Sie dies benötigen. Standardmäßig ist der TCP-Portwert 5068.
+- Wenn Sie die Kollokation des Vermittlungsservers aktiviert haben, definieren Sie den Überwachungsportbereich auf dem Server für TLS. Standardmäßig ist dieser Port 5067. Wenn Sie **TCP-Port aktivieren** auswählen, müssen Sie einen TCP-Port für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder Ihres PSTN beziehen, um festzustellen, ob Sie dies benötigen. Standardmäßig ist der TCP-Portwert 5068.
 
 - Trunks, die dem verbundenen Vermittlungsserver zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
 

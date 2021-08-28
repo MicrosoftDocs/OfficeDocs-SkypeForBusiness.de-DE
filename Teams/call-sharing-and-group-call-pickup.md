@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,13 +22,13 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.callorderanddelay.tooltip
 - Phone System
 - seo-marvel-mar2020
-description: Anruffreigabe und Gruppenanrufabrufabruf ermöglichen es Benutzern, eingehende Anrufe mit Kollegen zu teilen, sodass Anrufe erfasst werden können, wenn der Benutzer nicht verfügbar ist.
-ms.openlocfilehash: 27c24ce632cb0803b5be27bd3c7f523815c6913e07a3983ebdad449d4e237d37
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Mit Der Anruffreigabe und das Abholen von Gruppenanrufen ermöglichen es Benutzern, eingehende Anrufe mit Kollegen zu teilen, sodass Anrufe erfasst werden können, wenn der Benutzer nicht verfügbar ist.
+ms.openlocfilehash: ce4f51fe2ffeef6051212b825bde84612e766115
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351165"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619641"
 ---
 # <a name="call-sharing-and-group-call-pickup-in-microsoft-teams"></a>Freigeben von Anrufen und Gruppenanrufannahme in Microsoft Teams
 
@@ -36,24 +36,24 @@ Mit den Anruffreigabefunktionen und der Anrufabruffunktionen von Microsoft Teams
 
 Das Abholen von Gruppenanrufen ist für Empfänger weniger störend als andere Formen der Anruffreigabe (wie Anruf weiterleitung oder gleichzeitiges Klingeln), da Benutzer konfigurieren können, wie sie über einen eingehenden freigegebenen Anruf benachrichtigt werden möchten (über Audio und visuelle Benachrichtigung, nur per visueller Darstellung oder über ein Banner in der Teams-App), und sie können entscheiden, ob sie den Anruf annehmen möchten.
 
-Um Anrufe für andere Personen zu teilen, erstellt ein Benutzer eine Anrufgruppe und fügt die Benutzer hinzu, für die er ihre Anrufe freigeben möchte. Anschließend wählen sie eine Einstellung für gleichzeitiges Klingeln oder Weiterleiten aus. Weitere [Informationen finden Sie unter](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) Anruf weiterleitung und Teams in der Anrufkonferenz. Beachten Sie, dass mobile Geräte nur benachrichtigt werden, wenn sie für Banner und Klingelton festgelegt sind.
+Um Anrufe für andere Personen zu teilen, erstellt ein Benutzer eine Anrufgruppe und fügt die Benutzer hinzu, für die er ihre Anrufe freigeben möchte. Anschließend wählen sie eine Einstellung für gleichzeitiges Klingeln oder Weiterleiten aus. Weitere [Informationen finden Sie unter](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e) Anruf weiterleitung und Teams in einer Telefonkonferenz. Beachten Sie, dass mobile Geräte nur benachrichtigt werden, wenn sie für Banner und Klingelton festgelegt sind.
 
 > [!IMPORTANT]
-> Benutzer, der Besitzer der Anrufgruppe und Mitglieder der Anrufgruppe müssen sich im Teams Bereitstellungsmodus befinden. Weitere Details zu Teams Bereitstellungsmodi finden Sie unter Verstehen Microsoft Teams und Skype for Business [Koexistenz und Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Benutzer, der Besitzer der Anrufgruppe und Mitglieder der Anrufgruppe müssen sich im Teams Bereitstellungsmodus befinden. Weitere Details zu Teams Bereitstellungsmodi finden Sie unter Verstehen Microsoft Teams und Skype for Business [Koexistenz](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und Interoperabilität
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Benutzern muss eine Lizenz Microsoft Teams Telefonsystem zugewiesen sein, um Anruffreigaben und das Abholen von Gruppenanrufen einrichten und verwenden zu können. Weitere Details zum Lizenzierungsmodell finden Sie unter Dies ist das, was [Sie mit dem Telefonsystem.](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
+Benutzern muss eine Lizenz zugewiesen Microsoft Teams Telefonsystem, um Anruffreigaben und das Abholen von Gruppenanrufen einrichten und verwenden zu können. Weitere Details zum Lizenzierungsmodell finden Sie unter Dies ist das, was Sie mit dem [Telefonsystem.](https://docs.microsoft.com/MicrosoftTeams/here-s-what-you-get-with-phone-system)
 
 ## <a name="configure-group-call-pickup"></a>Konfigurieren der Gruppenanrufabrufabrufe
 
-Um das Abholen von Gruppenanrufen zu einrichten, konfiguriert ein Benutzer zuerst eine Anrufgruppe (dies ist nicht dasselbe wie eine Sicherheitsgruppe oder eine Microsoft 365-Gruppe), und fügt dann die Benutzer hinzu, für die sie ihre Anrufe freigeben möchten. Anschließend wählen sie eine Einstellung für gleichzeitiges Anrufen oder Anruf weiterleiten aus. Weitere Informationen und schrittweise Anleitungen finden Sie unter [Anruf weiterleitung und gleichzeitiges](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)Anrufen in Teams.
+Um das Abholen von Gruppenanrufen zu einrichten, konfiguriert ein Benutzer zuerst eine Anrufgruppe (dies ist nicht dasselbe wie eine Sicherheitsgruppe oder eine Microsoft 365-Gruppe), und fügt dann die Benutzer hinzu, für die sie ihre Anrufe freigeben möchten. Anschließend wählen sie eine Einstellung für gleichzeitiges Anrufen oder Anruf weiterleiten aus. Weitere Informationen und schrittweise Anleitungen finden Sie unter Anruf weiterleitung und gleichzeitiges Anrufen [in Teams.](https://support.office.com/article/call-forwarding-and-simultaneous-ring-in-teams-a88da9e8-1343-4d3c-9bda-4b9615e4183e)
 
-Die Erstellung von Anrufgruppen und Benachrichtigungseinstellungen sind benutzergesteuerte Features. Administratoren müssen diese Features für ihre Benutzer nicht konfigurieren. Anrufgruppen können nicht aus Sicherheitsgruppen oder Gruppen Microsoft 365 werden. sie müssen in der Teams.
+Die Einstellungen für die Erstellung von Anrufgruppen und Benachrichtigungen sind benutzergesteuerte Features. Administratoren müssen diese Features für ihre Benutzer nicht konfigurieren. Anrufgruppen können nicht aus Sicherheits- oder Gruppengruppen Microsoft 365 werden. sie müssen in einem Teams.
 
 Administratoren sollten Anrufgruppen über die **TeamsCallingPolicy AllowCallGroups-Einstellung** für einen Benutzer aktivieren. Administratoren können dies auch über das Teams aktivieren.  Darüber hinaus kann der konfigurierte Benutzer auch seine Anrufgruppen direkt über den Client konfigurieren. Administratoren oder Endbenutzer können die Konfiguration nicht voneinander blockieren, aber Teams-Verwaltungsportal und Teams-Client sollten diese Beziehung an beiden Stellen genau anzeigen. 
 
-Wichtig: Wenn Administratoren Anrufgruppen für Benutzer deaktivieren (nachdem sie aktiviert und die Beziehungen zwischen Anrufgruppen konfiguriert wurden), müssen die Administratoren die Anrufgruppenbeziehungen für Benutzer im Teams Admin Center bereinigen, um falsche Anrufrouting zu vermeiden. 
+Wichtig: Wenn Administratoren Anrufgruppen für Benutzer deaktivieren (nachdem sie aktiviert und die Beziehungen zwischen Anrufgruppen konfiguriert wurden), müssen die Administratoren die Anrufgruppenbeziehungen für Benutzer im Teams Admin Center bereinigen, um falsche Anrufroutinge zu vermeiden. 
 
 ## <a name="limitations"></a>Einschränkungen
 

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: 58e4de5a2c429a5e36a43f90793fc1e12939b1d235b846ae8db372a2b13d8135
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd1d32ff82fc7bd922acfaea567780b5683eb684
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54302499"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58621071"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server
  
@@ -109,7 +109,7 @@ Sie können Zugriffsnummern für die Einwahl über Skype for Business Server Sys
     > [!NOTE]
     > Derselbe SIP-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. Der SIP-URI kann nicht geändert werden, nachdem die Zugriffsnummer erstellt wurde. Die einzige Möglichkeit zum Ändern des SIP-URI besteht darin, die Zugriffsnummer zu löschen und neu zu erstellen. 
   
-   Klicken Sie im Dropdownlistenfeld auf die Domäne des Konferenzzentralenanwendung, das diese Einwahlnummer unterstützt.
+   Klicken Sie im Dropdownlistenfeld auf die Domäne des Konferenzzentralenanwendung, das diese Zugriffsnummer für die Einwahl unterstützt.
     
 9. Klicken Sie im **Pool** auf den Pool, in dem die Instanz von Konferenzzentrale ausgeführt wird, die diese Einwahlnummer unterstützt.
     
@@ -118,7 +118,7 @@ Sie können Zugriffsnummern für die Einwahl über Skype for Business Server Sys
   
 10. Klicken Sie in der **Primären Sprache** auf die Sprache, in der Eingabeaufforderungen für diese Einwahlnummer wiedergegeben werden. 
     
-    Die primäre Sprache ist die Sprache, die der Konferenzzentrale verwendet, um den Anruf zu beantworten. Unterstützte Sprachen werden zusammen mit jeder Zugriffstelefonnummer auf der Webseite für Einwahlkonferenzen Einstellungen angezeigt.
+    Die primäre Sprache ist die Sprache, die der Konferenzzentrale zum Annehmen des Anrufs verwendet. Unterstützte Sprachen werden zusammen mit jeder Zugriffstelefonnummer auf der Webseite für Einwahlkonferenzen Einstellungen angezeigt.
     
 11. (Optional) Klicken Sie in **sekundären Sprachen (maximal vier)** auf **"Hinzufügen",** wählen Sie eine oder mehrere zusätzliche Sprachen aus, die Sie für Anrufer für diese Einwahlnummer unterstützen möchten, und klicken Sie dann auf **"OK".** 
     
@@ -134,7 +134,7 @@ Sie können Zugriffsnummern für die Einwahl über Skype for Business Server Sys
 
 Verwenden Sie zum Ändern von Einwahlnummern das Cmdlet **"Set-CsDialInConferencingAccessNumber".**
   
-Mit dem folgenden Befehl wird die DisplayName-Eigenschaft für die Zugriffsnummer für Einwahlkonferenzen mit der Identität sip:RedmondDialIn@litwareinc.com geändert. In diesem Beispiel wird der Anzeigename auf "Redmond Dial-In Access Number" festgelegt:
+Der folgende Befehl ändert die DisplayName-Eigenschaft für die Zugriffsnummer für Einwahlkonferenzen mit der Identität sip:RedmondDialIn@litwareinc.com. In diesem Beispiel wird der Anzeigename auf "Redmond Dial-In Access Number" festgelegt:
   
 ```PowerShell
 Set-CsDialInConferencingAccessNumber -Identity "sip:RedmondDialIn@litwareinc.com" -DisplayName "Redmond Dial-In Access Number"

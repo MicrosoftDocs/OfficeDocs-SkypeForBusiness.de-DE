@@ -9,15 +9,15 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Zusammenfassung: Verwenden der Config.xml datei zum Angeben zusätzlicher Installationsanweisungen.'
-ms.openlocfilehash: b7c04a9c08f6a5dd51c21a189ce3a07d81a589cf694e5020a75cf6f646bd1cef
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: So verwenden Sie die Config.xml-Datei, um zusätzliche Installationsanweisungen anzugeben.'
+ms.openlocfilehash: f79dcc1d31fdd862ca8705552d7894dcdd90fcd7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332047"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620491"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Verwenden von Config.xml zum Ausführen von Installationsaufgaben in Skype for Business Clients
 
@@ -39,7 +39,7 @@ Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste I
 
 Es wird empfohlen, die Config.xml-Datei zu verwenden, um Skype for Business automatische Installation zu konfigurieren. 
 
-Standardmäßig wird die Config.xml Datei, die im Hauptproduktordner gespeichert ist (z. B. \ _Produkt_. WW) leitet Setup an, dieses Produkt zu installieren. Beispielsweise wird die Config.xml-Datei im folgenden Ordner Skype for Business installiert:
+Standardmäßig ist die Config.xml Datei, die im Hauptproduktordner gespeichert ist (z. B. _\product_. WW) leitet Setup an, dieses Produkt zu installieren. Die Config.xml-Datei im folgenden Ordner wird beispielsweise Skype for Business installiert:
 
 - \\server\share\Skype15\Skype. WW-\Config.xml
 
@@ -52,9 +52,9 @@ Die Config.xml Elemente, die am häufigsten für Skype for Business Installation
 |:-------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Konfiguration  <br/>     | Element der obersten Ebene (erforderlich). Enthält das Product-Attribut, z. B.: Product=Lync (Dies funktioniert für Skype for Business Clients)  <br/>                                                                                                                                                          |
 | Optionstate  <br/>       | Gibt an, wie bestimmte Produktfeatures während der Installation behandelt werden. Verwenden Sie die folgenden Attribute, um die Installation von Business Connectivity Services zu verhindern, die freigegebene Komponenten enthält, die Outlook beeinträchtigen: <br/>  Id="LOBiMain" <br/>  State="Absent" <br/>  Children="Force" <br/> |
-| Anzeigen  <br/>           | Die Ebene der Benutzeroberfläche, die dem Benutzer angezeigt wird. Zu den typischen Attributen zählen Folgende: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
+| Anzeige  <br/>           | Die Ebene der Benutzeroberfläche, die dem Benutzer angezeigt wird. Zu den typischen Attributen zählen Folgende: <br/>  CompletionNotice="Yes"                                                                                                                                                                                |
 | Protokollierung  <br/>           | Optionen für den vom Setup ausgeführten Protokollierungstyp. Zu den typischen Attributen zählen Folgende: <br/>  Type ="Off"                                                                                                                                                                                       |
-| Setting  <br/>           | Gibt Werte für Windows Installer-Eigenschaften an. Zu den typischen Attributen zählen Folgende:<br/>  Setting Id=" *name*" (der Name der Windows Installer-Eigenschaft)  <br/>  Value=" *value*" (der Wert, der der Eigenschaft zugewiesen werden soll)  <br/>                                                             |
+| Einstellung  <br/>           | Gibt Werte für Windows Installer-Eigenschaften an. Zu den typischen Attributen zählen Folgende:<br/>  Setting Id=" *name*" (der Name der Windows Installer-Eigenschaft)  <br/>  Value=" *value*" (der Wert, der der Eigenschaft zugewiesen werden soll)  <br/>                                                             |
 | DistributionPoint  <br/> | Der vollqualifizierte Pfad des Netzwerkinstallationspfads, von dem die Installation ausgeführt werden soll. Enthält das Standortattribut:<br/>  Location=" *path*"  <br/>                                                                                                                                     |
 
 Das folgende Beispiel zeigt eine Config.xml-Datei für eine typische automatische Installation des Skype for Business-Clients. 

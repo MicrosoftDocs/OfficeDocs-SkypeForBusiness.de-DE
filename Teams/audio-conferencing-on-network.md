@@ -13,18 +13,18 @@ ms.collection:
 - M365-voice
 - M365-collaboration
 - m365initiative-meetings
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden wird Das Netzwerk für Audiokonferenzen beschrieben.
-ms.openlocfilehash: 63a76bd8cb7765816c417d60640d931acbe856bae7c1c7c3531e9598524e59c3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 7d477826c79b1a1630616cc51130348bfb953fa7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351225"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620711"
 ---
 # <a name="on-network-conferencing-for-audio-conferencing"></a>Netzwerkkonferenzen für Audiokonferenzen
 
@@ -58,9 +58,9 @@ Sie müssen die Telefonieausrüstung Ihrer Standorte so konfigurieren, dass Anru
 Sie finden die Leistungsnummern im Teams Admin Center unter **Meetings -> Conferencing Bridges** oder mithilfe des Skype for Business Online PowerShell-Cmdlets Get-CsOnlineDialInConferencingBridge. Weitere Informationen finden Sie in einer Liste der [Audiokonferenznummern in Microsoft Teams.](see-a-list-of-audio-conferencing-numbers-in-teams.md)
 
 > [!NOTE]
-> Diese Funktion steht Benutzern mit einer Audiokonferenz-Lizenz mit Minutenzahl nicht zur Verfügung.
+> Diese Funktion steht Benutzern mit einer Lizenz für Audiokonferenzen mit Minutenzahl nicht zur Verfügung.
 
-## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Aktivieren des Routings Teams von Anrufanrufen für Besprechungen über Direct Routing
+## <a name="enable-the-routing-of-teams-meeting-dial-out-calls-through-direct-routing"></a>Aktivieren des Routings Teams von Anrufanrufen für Besprechungen über Direktes Routing
 
 Teams Auswählanrufe von Besprechungen werden innerhalb einer Besprechung in Ihrer Organisation zu PSTN-Nummern initiiert, einschließlich Der Anruf-me-at-Anrufe und Anrufe, um neue Teilnehmer zu einer Besprechung zu bringen. 
 
@@ -83,7 +83,7 @@ Um das Routing von Anrufanrufen für Besprechungen über Direct Routing zu ermö
 - Konfigurieren des Routings für die Telefoniegeräte Ihrer Organisation
 - (Optional) Konfigurieren eines Wählplans
 
-Anrufanrufe aus Teams Besprechungen werden von der Standarddienstnummer in der Konferenzbrücke angestellt. Weitere Informationen zur Standarddienstnummer Ihrer Audiokonferenzbrücke finden Sie unter Ändern der Telefonnummern für Ihre [Audiokonferenzbrücke.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
+Anrufe aus Besprechungen Teams werden von der Standarddienstnummer in der Konferenzbrücke angestellt. Weitere Informationen zur Standarddienstnummer Ihrer Audiokonferenzbrücke finden Sie unter Ändern der Telefonnummern für Ihre [Audiokonferenzbrücke.](change-the-phone-numbers-on-your-audio-conferencing-bridge.md)
 
 ### <a name="configure-audio-conferencing-routing-policies"></a>Konfigurieren von Routingrichtlinien für Audiokonferenzen
 
@@ -118,7 +118,7 @@ New-CsOnlineVoiceRoute -Identity "Redmond 1" -NumberPattern "^\+1(425|206)(\d{7}
 
 #### <a name="create-audio-conferencing-voice-routing-policies"></a>Erstellen von Richtlinien für das Routing von Audiokonferenz-Voice
 
-Richtlinien für das Routing von Audiokonferenzen für Sprachanrufe legen basierend auf der Zieltelefonnummer des Ausgehenden Anrufs fest, welche Routen zum Weiterleiten eines Anrufs verwendet werden können, der von den Besprechungen eines Organisators stammt. Richtlinien für das Routing von Audiokonferenz-Voice werden einer oder mehreren PSTN-Nutzungen zugeordnet, die wiederum die möglichen Routen bestimmen, die für die Einwahlanrufe von Besprechungen der der Richtlinie zugeordneten Organisatoren verwendet werden sollen.
+Richtlinien für die Sprachroutingrichtlinien für Audiokonferenzen bestimmen die möglichen Routen, die zum Weiterleiten eines Anrufs verwendet werden können, der von den Besprechungen eines Organisators stammt, basierend auf der Zieltelefonnummer des Ausgehenden Anrufs. Richtlinien für das Routing von Audiokonferenz-Voice werden einer oder mehreren PSTN-Nutzungen zugeordnet, die wiederum die möglichen Routen bestimmen, die für die Einwahlanrufe von Besprechungen der Organisatoren verwendet werden sollen, die der Richtlinie zugeordnet sind.
 
 Sie können eine Sprachroutingrichtlinie für Audiokonferenzen mithilfe des Cmdlets "New- CsOnlineAudioConferencingRoutingPolicy" erstellen. Beispiel:
 
@@ -130,7 +130,7 @@ Nachdem die Richtlinie einem Benutzer zugewiesen wurde und wenn ein Anruf beim W
 
 #### <a name="assign-a-policy-to-your-users"></a>Zuweisen einer Richtlinie zu Benutzern
 
-Nachdem die Routingrichtlinien für Audiokonferenzen definiert wurden, können Sie sie nun Benutzern zuweisen. Nachdem ihnen Richtlinien zugewiesen wurden, werden die Anrufanrufe für Besprechungen ausgewertet, um ihren Routingpfad zu bestimmen. Routingrichtlinien für Audiokonferenzen werden immer basierend auf dem Organisator der Besprechung unabhängig vom Besprechungsbenutzer ausgewertet, der einen Anruf aus der Besprechung initiiert.
+Nachdem die Routingrichtlinien für Audiokonferenzen definiert wurden, können Sie sie nun Benutzern zuweisen. Nachdem ihnen Richtlinien zugewiesen wurden, werden die Anrufanrufe für Besprechungen ausgewertet, um ihren Routingpfad zu bestimmen. Routingrichtlinien für Audiokonferenzen werden immer basierend auf dem Organisator der Besprechung unabhängig vom Benutzer in der Besprechung ausgewertet, der einen Anruf vom Organisator initiiert.
 
 Sie können einem Benutzer eine Sprachroutingrichtlinie für Audiokonferenzen zuweisen, indem Sie das Cmdlet "Grant-CsOnlineAudioConferencingRoutingPolicy" verwenden. Zum Beispiel:
 
@@ -146,7 +146,7 @@ Auf der Telefonieausrüstung Ihrer Organisation müssen Sie sicherstellen, dass 
 
 ### <a name="optional-configure-a-dial-plan"></a>(Optional) Konfigurieren eines Wählplans
 
-Bei einem Wählplan handelt es sich um einen Satz von Normalisierungsregeln, mit dem die von einem einzelnen Benutzer gewählten Telefonnummern zum Zweck der Anrufautorisierung und Anrufrouting in ein alternatives Format (normalerweise E.164) übersetzt werden.
+Bei einem Wählplan handelt es sich um eine Reihe von Normalisierungsregeln, mit der die von einem einzelnen Benutzer gewählten Telefonnummern zum Zweck der Anrufautorisierung und Anrufrouting in ein alternatives Format (normalerweise E.164) übersetzt werden.
 
 Standardmäßig können Teams PSTN-Nummern im E.164-Format wählen, d. h. + \<country code\> \<number\> . Wählpläne können jedoch verwendet werden, um Benutzern das Wählen von Telefonnummern in anderen Formaten zu ermöglichen, z. B. vierstellige Erweiterungen.
 

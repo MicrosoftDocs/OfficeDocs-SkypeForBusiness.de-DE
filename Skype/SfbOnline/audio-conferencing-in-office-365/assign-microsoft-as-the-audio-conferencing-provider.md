@@ -16,24 +16,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, wie Sie Microsoft als Anbieter von Einwahlkonferenzen für Skype for Business.
-ms.openlocfilehash: 5e02103dcd84bcbbaf60ccbc1a9fcd29555c241d4e05fd5e0f535b296d965748
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340311"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620301"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Um Audiokonferenzen in Microsoft 365 oder Office 365 mit Skype for Business und Microsoft Teams verwenden zu können, müssen den Benutzern in Ihrer Organisation Lizenzen für Audiokonferenzen zugewiesen sein. Weitere Informationen zur Lizenzierung und zu den Kosten finden Sie unter Testen oder Microsoft 365 audio [conferencing in Microsoft 365](try-or-purchase-audio-conferencing-in-office-365.md) oder Office 365.
+Um Audiokonferenzen in Microsoft 365 oder Office 365 mit Skype for Business und Microsoft Teams verwenden zu können, müssen den Benutzern in Ihrer Organisation Lizenzen für Audiokonferenzen zugewiesen sein. Unter [Testen oder Kaufen von Audiokonferenzen in Microsoft 365](try-or-purchase-audio-conferencing-in-office-365.md) oder Office 365 finden Sie weitere Informationen zur Lizenzierung und zu den Kosten.
 
 Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-IDs, die von Besprechungsteilnehmern zur Teilnahme an Besprechungen Ihrer Organisation verwendet werden können. Sie müssen Microsoft nur Personen, die Besprechungen planen oder Skype for Business oder Microsoft Teams führen werden, als Audiokonferenzanbieter zuweisen.
 

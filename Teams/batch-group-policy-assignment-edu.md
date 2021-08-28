@@ -13,23 +13,23 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie großen Gruppen in Ihrer Bildungseinrichtung basierend auf Gruppenmitgliedschaften oder direkt über eine Batchzuweisung für Remoteunterrichtszwecke (Teleschool, Teleschule) Richtlinien zuweisen.
 f1keywords: ''
-ms.openlocfilehash: 31f853d43f4c4cc9be5a647a98824ee22656e12c7cce471afd3aae92c2ef4a86
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 29e32229462d9ac9e256c3c8ece0ab3f02312631
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340501"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619651"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Weitere Informationen zum Zuweisen von Richtlinien in Microsoft Teams finden Sie unter Zuweisen von Richtlinien [zu Benutzern in Teams.](assign-policies.md)
+> Weitere Informationen zum Zuweisen von Richtlinien in Microsoft Teams finden Sie unter Zuweisen von Richtlinien zu Benutzern [in Teams.](assign-policies.md)
 
 ## <a name="overview"></a>Übersicht
 
@@ -41,7 +41,7 @@ Sie können eine Besprechungsrichtlinie einer Sicherheitsgruppe zuweisen, deren 
 
 - **Verwenden Sie [die Batchrichtlinienzuweisung,](assign-policies.md#assign-a-policy-to-a-batch-of-users) um benutzern eine Besprechungsrichtlinie direkt in Massen zuzuordnen.** Sie können bis zu 5.000 Benutzern gleichzeitig eine Richtlinie zuweisen. Bei mehr als 5.000 Benutzern können Sie mehrere Batches übermitteln. Bei dieser Methode müssen Sie, wenn Sie neue Benutzer haben, die Batchzuweisung erneut ausführen, um den neuen Benutzern die Richtlinie zuzuordnen.
 
-Denken Sie daran, Teams Benutzer automatisch die globale (organisationsweite Standardrichtlinie) für einen Teams-Richtlinientyp erhalten, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Da die Schüler/Studenten häufig die größte Gruppe von Benutzern sind und häufig die restriktivsten Einstellungen erhalten, empfehlen wir, die folgenden Schritte zu unternehmen:
+Denken Sie daran, Teams Benutzer automatisch die globale (organisationsweite Standardrichtlinie) für einen Teams-Richtlinientyp erhalten, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Da die Schüler/Studenten häufig die größte Gruppe von Benutzern sind und häufig die restriktivsten Einstellungen erhalten, wird folgendes empfohlen:
 
 - Erstellen Sie eine benutzerdefinierte Richtlinie, die grundlegende Funktionen wie private Chats und Besprechungsplanung zulässt, und weisen Sie die Richtlinie Ihren Mitarbeitern und Lehrkräften zu.
 - Weisen Sie Ihren Mitarbeitern und Lehrkräften die benutzerdefinierte Richtlinie zu.
@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um eine Sicherheitsgruppe für Ihre Mita
 > [!IMPORTANT]
 > Wenn Sie einer Gruppe eine Richtlinie zuweisen, wird die Richtlinienzuweisung gemäß den Rangfolgeregeln an Mitglieder der Gruppe weiterverfolgen. Wenn einem Benutzer beispielsweise direkt eine Richtlinie zugewiesen wird (entweder einzeln oder über eine Batchzuweisung), hat diese Richtlinie Vorrang vor einer Richtlinie, die von einer Gruppe geerbt wird. Dies bedeutet auch, dass Sie, wenn ein Benutzer über eine Besprechungsrichtlinie verfügt, die ihm direkt zugewiesen wurde, diese Besprechungsrichtlinie vom Benutzer entfernen müssen, bevor er eine Besprechungsrichtlinie von einer Sicherheitsgruppe erben kann.
 
-Bevor Sie beginnen, ist es wichtig, Rangfolgeregeln [und](assign-policies.md#precedence-rules) Rangfolge von [Gruppenzuweisungen zu verstehen.](assign-policies.md#group-assignment-ranking) Lesen und verstehen Sie die Konzepte in Wichtige Informationen zur **[Richtlinienzuweisung zu Gruppen.](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**
+Bevor Sie beginnen, ist es wichtig, Rangfolgeregeln [und](assign-policies.md#precedence-rules) Rangfolge von [Gruppenzuweisungen zu verstehen.](assign-policies.md#group-assignment-ranking) Lesen und verstehen Sie die Konzepte in Wichtige Informationen zur Richtlinienzuweisung **[zu Gruppen.](assign-policies.md#what-you-need-to-know-about-policy-assignment-to-groups)**
 
 Sie müssen alle diese Schritte ausführen, damit Ihre Mitarbeiter und Lehrkräfte eine Besprechungsrichtlinie von einer Sicherheitsgruppe erben können.
 
@@ -74,7 +74,7 @@ Sie müssen alle diese Schritte ausführen, damit Ihre Mitarbeiter und Lehrkräf
 
 Erstellen Sie zunächst eine Sicherheitsgruppe für Ihre Mitarbeiter und Lehrkräfte.
 
-Mit [School Data Sync](/SchoolDataSync/) (SDS) können Sie auf einfache Weise Sicherheitsgruppen erstellen, die [Lehrkräfte und Schüler/Studenten](/SchoolDataSync/edu-security-groups) in Ihrer Schule haben. Wir empfehlen, SDS zum Erstellen der Sicherheitsgruppen zu verwenden, die Sie zum Verwalten von Richtlinien für Ihre Schule benötigen.
+Mit [School Data Sync](/SchoolDataSync/) (SDS) können Sie auf einfache Weise Sicherheitsgruppen erstellen, [die Lehrkräfte und Schüler/Studenten](/SchoolDataSync/edu-security-groups) in Ihrer Schule haben. Wir empfehlen, SDS zum Erstellen der Sicherheitsgruppen zu verwenden, die Sie zum Verwalten von Richtlinien für Ihre Schule benötigen.
 
 Wenn Sie sdS nicht in Ihrer Umgebung bereitstellen können, verwenden Sie dieses [PowerShell-Skript,](scripts/powershell-script-security-groups-edu.md) um zwei Sicherheitsgruppen zu erstellen: eine für alle Mitarbeiter und Lehrkräfte, denen eine Lehrpersonallizenz zugewiesen ist, und eine weitere für alle Schüler/Studenten, denen eine Student-Lizenz zugewiesen ist. Sie müssen dieses Skript routinemäßig ausführen, um die Gruppen aktuell und auf dem neuesten Stand zu halten.
 
@@ -83,7 +83,7 @@ Wenn Sie sdS nicht in Ihrer Umgebung bereitstellen können, verwenden Sie dieses
 #### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen über das Microsoft Teams Admin Center nur für Anrufrichtlinien für Teams,Teams-Parkrichtlinien, Teams-Richtlinien, Teams-Richtlinien für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
+> Derzeit ist die Richtlinienzuweisung an Gruppen, die das Microsoft Teams Admin Center verwenden, nur für Anrufrichtlinien für Teams-Anrufe, Teams-Richtlinien zum Parken von Anrufen, Teams-Richtlinie, Teams-Richtlinie für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Wählen Sie die **Registerkarte Gruppenrichtlinienzuordnung** aus.
@@ -95,14 +95,14 @@ Wenn Sie sdS nicht in Ihrer Umgebung bereitstellen können, verwenden Sie dieses
     3. Wählen Sie **im Feld Richtlinie auswählen** die Option **EducatorMeetingPolicy aus.**
     4. Wählen Sie **Übernehmen aus.**
 
-Um eine Gruppenrichtlinienzuweisung zu  entfernen, wählen Sie auf der Seite "Richtlinie" auf der Registerkarte Gruppenrichtlinienzuweisung die Gruppenzuweisung und dann Entfernen **aus.**
+Um eine Gruppenrichtlinienzuweisung zu  entfernen, wählen Sie auf der Richtlinienseite auf der Registerkarte Gruppenrichtlinienzuweisung die Gruppenzuordnung und dann Entfernen **aus.**
 
 Um die Bewertung einer Gruppenzuordnung zu ändern, müssen Sie zuerst die Gruppenrichtlinienzuweisung entfernen. Führen Sie dann die vorstehenden Schritte aus, um die Richtlinie einer Gruppe zuzuordnen.
 
 #### <a name="using-powershell"></a>Verwendung von PowerShell
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen mithilfe von PowerShell nicht für alle Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
+> Derzeit ist die Richtlinienzuweisung zu Gruppen mithilfe von PowerShell nicht für alle Teams Richtlinientypen verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -181,7 +181,7 @@ Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
 
 ##### <a name="get-the-policies-assigned-to-a-user"></a>Erhalten der Richtlinien, die einem Benutzer zugewiesen werden
 
-Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem reda@contoso.com.
+Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem bestimmten reda@contoso.com.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity reda@contoso.com
@@ -189,7 +189,7 @@ Get-CsUserPolicyAssignment -Identity reda@contoso.com
 
 ## <a name="assign-a-policy-to-a-batch-of-users"></a>Zuweisen einer Richtlinie zu einer Gruppe von Benutzern
 
-Führen Sie die folgenden Schritte aus, um Ihren Mitarbeitern und Lehrkräften eine benutzerdefinierte Besprechungsrichtlinie mit dem Namen EducatorMeetingPolicy in Massen direkt zuzuordnen.
+Führen Sie die folgenden Schritte aus, um Ihren Mitarbeitern und Lehrkräften in Massen eine benutzerdefinierte Besprechungsrichtlinie mit dem Namen EducatorMeetingPolicy direkt zuzuordnen.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
@@ -213,7 +213,7 @@ Connect-AzureAD
 
 Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
-Weitere Informationen finden Sie [unter Verbinden des Moduls Azure Active Directory PowerShell für Graph Modul.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
+Weitere Informationen finden Sie [unter Verbinden des Moduls Azure Active Directory PowerShell Graph Modul.](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -223,7 +223,7 @@ Führen Sie Folgendes aus, um [das Teams PowerShell-Modul](https://www.powershel
 Install-Module -Name MicrosoftTeams
 ```
 
-Führen Sie die folgenden Schritte aus, um Teams Verbindung herzustellen und eine Sitzung zu starten.
+Führen Sie Folgendes aus, um eine Verbindung mit Teams herzustellen und eine Sitzung zu starten.
 
 ```powershell
 Connect-MicrosoftTeams
@@ -270,7 +270,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType TeamsMeetingPolicy -PolicyName 
 ```
 
 > [!NOTE]
-> Wenn Sie einen anderen Richtlinientyp (z. B. "TeamsMessagingPolicy" ) in einem Massenwechsel zuweisen möchten, müssen Sie zu der Richtlinie, die Sie zuweisen, und dem ```PolicyType``` ```PolicyName``` Richtliniennamen wechseln.
+> Wenn Sie einen anderen Richtlinientyp (z. B. TeamsMessagingPolicy) in Massen zuweisen möchten, müssen Sie zu der Richtlinie, die Sie zuweisen, und dem ```PolicyType``` ```PolicyName``` Richtliniennamen wechseln.
 
 #### <a name="get-the-status-of-a-bulk-assignment"></a>Anzeigen des Status einer Massenzuweisung
 

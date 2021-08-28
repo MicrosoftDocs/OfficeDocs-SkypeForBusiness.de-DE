@@ -9,14 +9,14 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 description: Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt, erkennt die Seite für den Besprechungsbeitritt, welcher Client bereits auf dem Computer des Benutzers installiert ist. Ist bereits ein Client installiert, wird dieser Client geöffnet und für den Besprechungsbeitritt verwendet. Wenn kein Client installiert ist, wird standardmäßig die Web-App geöffnet.
-ms.openlocfilehash: c90e8afa95a73618eb1aa95b3d8d174e950e7e92a49988cb6146209f49cc0e58
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8cba2a6ea0bc54eae6c30265c21d33d01ec951c0
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617111"
 ---
 # <a name="configure-the-meeting-join-page"></a>Konfigurieren der Seite für den Besprechungsbeitritt
 
@@ -31,7 +31,7 @@ Sie können das Verhalten der Besprechungsteilnahmeseite ändern, wenn Sie Benut
 |ShowJoinUsingLegacyClientLink  <br/> |Bei Festlegung auf "True" erhalten Benutzer, die mithilfe einer anderen Clientanwendung als Lync an einer Besprechung teilnehmen, die Möglichkeit, an der Besprechung teilzunehmen. Der Standardwert lautet "False".  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |Bei Festlegung auf "True" werden alternative Optionen für die Teilnahme an einer Onlinekonferenz automatisch erweitert und Benutzern angezeigt. Bei Festlegung auf "False" (Standardwert) sind diese Optionen verfügbar, aber der Benutzer muss die Liste der Optionen für sich selbst anzeigen.  <br/> |
    
-### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>So konfigurieren Sie die Besprechungsbeitrittsseite mithilfe Skype for Business Server 2019-Verwaltungsshell
+### <a name="to-configure-the-meeting-join-page-by-using-skype-for-business-server-2019-management-shell"></a>So konfigurieren Sie die Besprechungsteilnahmeseite mithilfe Skype for Business Server 2019-Verwaltungsshell
 
 1. Starten Sie die Skype for Business Server 2019-Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Microsoft Skype for Business Server 2019"** und dann auf **Skype for Business Server Verwaltungsshell.**
     

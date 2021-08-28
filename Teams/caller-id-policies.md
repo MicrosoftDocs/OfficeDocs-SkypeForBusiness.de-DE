@@ -15,22 +15,22 @@ f1.keywords:
 ms.custom: ms.teamsadmincenter.voice.callinglineid.overview
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Anrufer-ID-Richtlinien in Microsoft Teams verwenden und verwalten, um die Anrufer-ID Teams Benutzer in Ihrer Organisation zu ändern oder zu blockieren.
-ms.openlocfilehash: 7157f1a2a7997a8278ac05ac74db676cb551b20d5858b8732e373429f4b5e5aa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: ee663a627e89d7ea2a569496a899d2d68b8366ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341440"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619631"
 ---
 # <a name="manage-caller-id-policies-in-microsoft-teams"></a>Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams.
 
 > [!NOTE]
-> Verwenden Sie die PowerShell-Cmdlets New-CsCallingLineIdentity oder Set-CsCallingLineIdentity im Teams PowerShell-Modul 2.3.1 oder höher, um die Anrufer-ID auf die Telefonnummer eines Ressourcenkontos und den Namen des Anrufers zu setzen. (Diese Optionen stehen im Admin Center Microsoft Teams derzeit nicht zur Verfügung.) 
+> Verwenden Sie die PowerShell-Cmdlets New-CsCallingLineIdentity oder Set-CsCallingLineIdentity im Teams PowerShell-Modul 2.3.1 oder höher, um die Anrufer-ID auf die Telefonnummer eines Ressourcenkontos und den Namen des Anrufers zu setzen. (Diese Optionen sind derzeit nicht im Microsoft Teams Admin Center verfügbar.) 
 
-Wenn ein Benutzer Teams einen Anruf bei einem PSTN-Telefon anruft, wird standardmäßig die Telefonnummer des Teams Benutzers angezeigt. Ebenso wird die Telefonnummer des PSTN-Anrufers angezeigt, wenn Teams Einen Anrufer anruft.
+Wenn ein Benutzer Teams ein PSTN-Telefon anruft, wird standardmäßig die Telefonnummer des Teams Angezeigt. Ebenso wird die Telefonnummer des PSTN-Anrufers angezeigt, wenn Teams Einen Anrufer anruft.
 
 Als Administrator können Sie Anrufer-ID-Richtlinien verwenden, um die Anrufer-ID (auch als Anruferleitungs-ID bekannt) zu ändern oder zu blockieren. Mithilfe von Anrufer-ID-Richtlinien können Sie eine alternative Telefonnummer für Teams-Benutzer in Ihrer Organisation anzeigen, die ausgehende Telefonnummer blockieren, die Anzeige einer eingehenden Nummer blockieren oder den Anrufernamen (Calling Party Name, CNAM) festlegen. Wenn ein Benutzer beispielsweise einen Anruf anruft, können Sie die Anrufer-ID so ändern, dass die Haupttelefonnummer und der Firmenname der Organisation anstelle der Telefonnummer des Benutzers angezeigt werden.
 
@@ -52,7 +52,7 @@ Sie verwalten Anrufer-ID-Richtlinien, indem Sie zu den Richtlinien **für** die 
         - **Servicenummer:** Hiermit können Sie eine Servicetelefonnummer festlegen, die als Anrufer-ID angezeigt werden soll.
         - **Anonym:** Zeigt die Anrufer-ID als Anonym an.
 
-    - **Ersetzen Sie die Anrufer-ID durch diese Servicenummer:** Wählen Sie eine Leistungsnummer aus, die die Anrufer-ID der Benutzer ersetzen soll. Diese Option ist verfügbar, wenn Sie **in Ersetzen** der **Anrufer-ID** durch die Option Servicenummer ausgewählt haben.
+    - **Ersetzen Sie die Anrufer-ID durch diese Dienstnummer:** Wählen Sie eine Leistungsnummer aus, die die Anrufer-ID der Benutzer ersetzen soll. Diese Option ist verfügbar, wenn Sie **in Ersetzen** der **Anrufer-ID** durch die Option Servicenummer ausgewählt haben.
 
 5. Klicken Sie auf **Speichern**.
 

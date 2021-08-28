@@ -16,7 +16,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Vietnam.
-ms.openlocfilehash: bef354a60840983e62cff158aad907951a33a59279b9fb14af63ce00ef5d8fe9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Vietnam verfügbar.
+ms.openlocfilehash: 029fa5629bd4d81b94b9aac29868222eef51dc1a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327780"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620671"
 ---
 # <a name="availability-in-vietnam"></a>Verfügbarkeit in Vietnam
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Vietnam.
+Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Vietnam verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

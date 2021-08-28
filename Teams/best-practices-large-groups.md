@@ -1,5 +1,5 @@
 ---
-title: Verwalten großer Teams in Microsoft Teams – bewährte Methoden
+title: Verwalten großer Teams in Microsoft Teams – Bewährte Methoden
 ms.reviewer: abgupta
 author: lolaj
 ms.author: serdars
@@ -7,22 +7,22 @@ manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
-description: Erfahren Sie mehr über bewährte Methoden zum Verwalten großer Teams in Microsoft Teams, um die Anforderungen Ihrer Organisation zu erfüllen.
+description: Erfahren Sie mehr über bewährte Methoden für die Verwaltung großer Microsoft Teams, um die Anforderungen Ihrer Organisation zu erfüllen.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 18c711fbe7a84bffeb5b3e897b72325aae5281a4e0258da5be6f3df6f96ca43c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d856a47fb4d7888dcaa990cde9a3dd151dac79ea
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54310843"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58619671"
 ---
 # <a name="manage-large-teams-in-microsoft-teams---best-practices"></a>Verwalten großer Teams in Microsoft Teams – Bewährte Methoden
 
@@ -42,9 +42,9 @@ Große Teams sind sehr hilfreich bei der Aktivierung der folgenden Szenarien fü
 
 Verwenden Sie Kontaktgruppen, Sicherheitsgruppen oder Gruppen Office, um ein Team zu starten. Sie können eine Gruppe importieren, um ein Team zu erstellen, oder ein Team aus einer Gruppe Office erstellen.
 
-Eine Gruppe importieren, um ein Team zu **erstellen:** Wenn Sie eine Gruppe mit bis zu 3.500 Mitgliedern in Teams importieren, berechnet Teams automatisch die Gesamtzahl der Mitglieder in der Gruppe. Dies ist nur ein einmal verwendeter Import, und zukünftige Änderungen in der Gruppe werden in diesem Zeitraum Teams.
+Importieren einer Gruppe, um ein Team zu **erstellen:** Wenn Sie eine Gruppe mit bis zu 3.500 Mitgliedern in Teams importieren, berechnet Teams automatisch die Gesamtzahl der Mitglieder in der Gruppe. Dies ist nur ein einmal verwendeter Import, und zukünftige Änderungen in der Gruppe werden in diesem Zeitraum Teams.
 
-**Erstellen eines Teams** aus einer großen Microsoft 365-Gruppe: Wenn Sie ein Team aus einer großen Microsoft 365-Gruppe erstellen, gehören die Mitglieder automatisch der Gruppe "Microsoft 365" und dem **Team** an. Wenn zukünftig Teammitglieder der Gruppe der Microsoft 365 beitreten oder sie verlassen, werden sie dem Team automatisch hinzugefügt oder aus dem Team entfernt.
+**Erstellen eines Teams** aus einer großen Microsoft 365-Gruppe: Wenn Sie ein Team aus einer großen Microsoft 365-Gruppe erstellen, gehören die Mitglieder automatisch der Microsoft 365-Gruppe und dem **Team** an. Wenn zukünftig Teammitglieder der Gruppe der Microsoft 365 beitreten oder sie verlassen, werden sie dem Team automatisch hinzugefügt oder aus dem Team entfernt.
 
 ## <a name="bulk-importexportremove-members-in-a-team"></a>Massenimport/-export/-entfernen von Mitgliedern in einem Team
 
@@ -58,9 +58,9 @@ Sie können die Gruppendiskussionen einkreisen, indem Sie fokussierte Kanäle er
 
 ## <a name="restrict-channel-creation"></a>Einschränken der Kanalerstellung
 
-Wenn es einem Teammitglied gestattet ist, Kanäle zu erstellen, kann dieses Team Kanalsenkung anlegen. Teambesitzer sollten das Erstellen, Aktualisieren, Löschen und Wiederherstellen von Kanälen für Mitglieder in den Einstellungen > **deaktivieren.** Weitere Informationen [finden Sie unter Übersicht über Teams und Kanäle.](teams-channels-overview.md)
+Wenn es einem Teammitglied gestattet ist, Kanäle zu erstellen, kann dieses Team Kanalsenkung erstellen. Teambesitzer sollten das Erstellen, Aktualisieren, Löschen und Wiederherstellen von Kanälen für Mitglieder in den Einstellungen > **deaktivieren.** Weitere Informationen [finden Sie unter Übersicht über Teams und Kanäle.](teams-channels-overview.md)
 
-![Bildschirmabbild, das den Abschnitt "Mitgliedsberechtigungen" auf der Registerkarte "Einstellungen" zeigt.](media/no-channel-creation.png "Screen image that member permissions section of the admin console Einstellungen tab. Die Optionen zum Erstellen oder Löschen von Kanälen durch Mitglieder sind deaktiviert.")
+![Screen image that shows the member permissions section of the admin console Einstellungen tab.](media/no-channel-creation.png "Screen image that member permissions section of the admin console Einstellungen tab. Die Optionen zum Erstellen oder Löschen von Kanälen durch Mitglieder sind deaktiviert.")
 
 ## <a name="add-favorite-channels"></a>Hinzufügen bevorzugter Kanäle
 
@@ -70,17 +70,17 @@ Um das neue Engagement von Benutzern und die Inhaltsermittlung zu beschleunigen,
 
  Details [finden Sie unter Erstellen Ihrer ersten](get-started-with-teams-create-your-first-teams-and-channels.md) Teams und Kanäle.
 
-## <a name="regulate-applications-and-bots-in-large-teams"></a>Regelt Anwendungen und Bots in großen Teams
+## <a name="regulate-applications-and-bots-in-large-teams"></a>Regulieren von Anwendungen und Bots in großen Teams
 
 Um das Hinzufügen ablenkenden Anwendungen oder Bots zu verhindern, können Teambesitzer Apps und Connectors für Teammitglieder deaktivieren, hinzufügen, entfernen und hochladen. Deaktivieren Sie im Admin Center **unter Einstellungen > Mitgliedsberechtigungen** die drei Optionen, mit denen Mitglieder Apps oder Connectors hinzufügen können.
 
-![Bildschirmabbild, das den Abschnitt "Mitgliederberechtigungen" im Einstellungen zeigt.](media/disable-bots-connectors.png "Bildschirmabbild, das den Berechtigungsbereich &quot;Mitglied&quot; des Einstellungen zeigt. Die Optionen für ermöglichen Mitgliedern, Apps oder Connectors hinzuzufügen, sind deaktiviert.")
+![Bildschirmabbild, das den Abschnitt "Mitgliederberechtigungen" im Einstellungen zeigt.](media/disable-bots-connectors.png "Bildschirmabbild, das den Berechtigungsbereich &quot;Mitglied&quot; im Einstellungen zeigt. Die Optionen für zulassen, dass Mitglieder Apps oder Connectors hinzufügen können, sind deaktiviert.")
 
 Siehe [Apps, Bots, & Connectors.](deploy-apps-microsoft-teams-landing-page.md)
 
 ## <a name="regulate-team-and-channel-mentions"></a>Regulieren von Team- und Kanal-Erwähnungen
 
-Team- und Kanal-Erwähnungen können verwendet werden, um die Aufmerksamkeit des gesamten Teams auf bestimmte Kanalbeiträge zu ziehen. Sobald eine Erwähnung in einem Beitrag verwendet wird, wird eine Benachrichtigung an Tausende von Teammitgliedern gesendet. Wenn die Benachrichtigungen zu häufig sind, können Teammitglieder überlastet werden und sich an Teambesitzer beschweren. Um Team- oder Kanal-Erwähnungen zu verhindern, deaktivieren Sie Team- und Kanal-Erwähnungen für **Mitglieder,** indem Sie die Kontrollkästchen im Einstellungen > @mentions deaktivieren.
+Team- und Kanal-Erwähnungen können verwendet werden, um die Aufmerksamkeit des gesamten Teams auf bestimmte Kanalbeiträge zu ziehen. Sobald eine Erwähnung in einem Beitrag verwendet wird, wird eine Benachrichtigung an Tausende von Teammitgliedern gesendet. Wenn die Benachrichtigungen zu häufig sind, können Teammitglieder überlastet werden und sich an Teambesitzer beschweren. Um Team- oder Kanalergnungen zu verhindern, deaktivieren Sie Team- und Kanalergnungen für Mitglieder, indem Sie die Kontrollkästchen im **Team- Einstellungen > @mentions** deaktivieren.
 
 ![Bildschirmabbild, das den Abschnitt "At Erwähnungen" im Einstellungen zeigt.](media/no-at-mentions.png "Bildschirmabbild, das den Abschnitt &quot;At Erwähnungen&quot; im Einstellungen zeigt. Die Optionen zum Anzeigen und Zugreifen auf At-Erwähnungen sind deaktiviert.")
 

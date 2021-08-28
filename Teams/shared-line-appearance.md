@@ -14,7 +14,7 @@ ms.collection:
 audience: Admin
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -22,25 +22,25 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in einer Microsoft Teams.
-ms.openlocfilehash: 6c3a60bbdde46ae707543e2f28cd936dbbb2fc13dfb3535661a710984c284d75
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e9954f85d9f5676635dc8d4616c08d0e0d3ac6be
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54350437"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58617171"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
 Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit dem ein Benutzer eine Stellvertretung zum Beantworten oder Behandeln von Anrufen in seinem Auftrag auswählen kann. Dieses Feature ist hilfreich, wenn ein Benutzer über einen Verwaltungsassistenten verfügt, der die Anrufe des Benutzers regelmäßig verarbeitet. Im Zusammenhang mit der Darstellung einer freigegebenen Zeile ist ein Manager eine Person, die eine Stellvertretung autorisiert, in deren Namen Anrufe zu erstellen oder zu empfangen, und eine Stellvertretung kann Anrufe im Namen einer anderen Person anrufen und empfangen.
 
 > [!IMPORTANT]
-> Dieses Feature ist nur im Teams Bereitstellungsmodus verfügbar. Weitere Details zu Teams Bereitstellungsmodi finden Sie unter Verstehen Microsoft Teams und Skype for Business [Koexistenz und Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+> Dieses Feature ist nur im Teams Bereitstellungsmodus verfügbar. Weitere Details zu Teams Bereitstellungsmodi finden Sie unter Verstehen Microsoft Teams und Skype for Business [Koexistenz](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und Interoperabilität
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Ein Benutzer muss über Telefonsystem pstN-Konnektivität (entweder über eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy) verfügen, um Stellvertretung zu sein oder eine Stellvertretung einrichten zu können und anderen Personen das Anrufen in ihrem Namen zu ermöglichen.
+Ein Benutzer muss über Telefonsystem pstN-Konnektivität verfügen (entweder eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy), um Stellvertretung zu sein oder eine Stellvertretung einrichten zu können und anderen Personen das Anrufen in ihrem Namen zu ermöglichen.
 
-Sowohl Vorgesetzte als auch Stellvertretung Telefonsystem PSTN-Anbindung (entweder über eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy) verfügen. Die Erfahrung mit freigegebenen Zeilen ist Teil der Delegierung und in der Telefonsystem. Weitere Informationen zum Lizenzierungsmodell finden Sie unter Microsoft Teams [Dienstbeschreibung.](/office365/servicedescriptions/teams-service-description)
+Sowohl Manager als auch Stellvertretung Telefonsystem PSTN-Anbindung (entweder über eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy) verfügen. Die Erfahrung mit freigegebenen Zeilen ist Teil der Delegierung und in der Telefonsystem. Weitere Informationen zum Lizenzierungsmodell finden Sie unter Microsoft Teams [Dienstbeschreibung.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Darstellung von Delegierung und freigegebenen Zeilen
 
@@ -72,7 +72,7 @@ Die Darstellung einer freigegebenen Zeile wird derzeit von den folgenden Apps un
 
 Vorgesetzte können bis zu 25 Stellvertretung hinzufügen, und Stellvertretung kann bis zu 25 Vorgesetzte haben. Die Anzahl der Delegierungsbeziehungen, die in einem Mandanten erstellt werden können, ist nicht begrenzt. 
  
-Wenn sich der Delegator und die Stellvertretung nicht am gleichen geografischen Standort befinden, kann der PSTN-Anbieter die Anrufer-ID für einen delegierten Anruf (im Auftrag von) von einem anderen geografischen Standort anzeigen lassen. 
+Wenn sich der Delegator und die Stellvertretung nicht am gleichen geografischen Standort befinden, kann der PSTN-Anbieter zulassen, dass die Anrufer-ID von einem anderen geografischen Standort aus für einen delegierten Anruf (im Auftrag von) bereitgestellt wird. 
  
 ## <a name="more-information"></a>Weitere Informationen
 

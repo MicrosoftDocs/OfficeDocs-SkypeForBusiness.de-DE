@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
 description: tblPrincipalMeta enthält die Prinzipale, die von Active Directory Domain Services aktualisiert werden müssen.
-ms.openlocfilehash: a2cc7ef5313be8abdf50c6cebc5bb8999bf153eeeba0a188cd2d34d2c4608546
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: fd67a9ff2ff68f919ebbff54a0eea2ba59aa7949
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289423"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620841"
 ---
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
@@ -32,7 +32,7 @@ tblPrincipalMeta enthält die Prinzipale, die von Active Directory Domain Servic
 |prinAffiliationsDirty  <br/> |bit, nicht NULL  <br/> |TRUE, wenn Prinzipalzuordnungen aktualisiert werden müssen.  <br/> |
 |prinAttributesDirty  <br/> |bit, nicht NULL  <br/> |TRUE, wenn Prinzipalattribute aktualisiert werden müssen.  <br/> |
 |prinDeleted  <br/> |bit, nicht NULL  <br/> |TRUE, wenn der Prinzipal gelöscht wurde.  <br/> |
-|tryCount  <br/> |Ganzzahl  <br/> |Anzahl der Versuche, den Prinzipal über AD DS zu aktualisieren, die bisher ausgeführt wurden.  <br/> |
+|tryCount  <br/> |int  <br/> |Anzahl der Versuche, den Prinzipal über AD DS zu aktualisieren, die bisher ausgeführt wurden.  <br/> |
 |lastTry  <br/> |Datum/Uhrzeit  <br/> |Zeitstempel des letzten Versuchs, den Prinzipal zu aktualisieren. Kann NULL sein, wenn bisher kein Aktualisierungsversuch unternommen wurde.  <br/> |
 |nextTry  <br/> |Datum/Uhrzeit  <br/> |Zeitstempel für die nächste geplante Aktualisierung. Kann NULL sein, wenn keine weitere Aktualisierung geplant ist.  <br/> |
    

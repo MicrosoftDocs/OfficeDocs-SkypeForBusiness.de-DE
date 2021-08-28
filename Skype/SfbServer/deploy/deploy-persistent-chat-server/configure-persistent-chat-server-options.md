@@ -10,19 +10,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 19ced8de-8867-4152-b38a-891f3bc2a5ea
-description: 'Zusammenfassung: Erfahren Sie, wie Sie optionen für den Server für beständigen Chat auf globaler, Standort- oder Poolebene in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: 8b9e351e32b0a255cfca0f0996961075c94b17b3b9c0ab45704b27d10b709a23
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Erfahren Sie, wie Sie optionen für den Server für beständigen Chat in Skype for Business Server 2015 auf globaler, Standort- oder Poolebene konfigurieren.'
+ms.openlocfilehash: 73ed46368041cab611576f4d8fadb9b586165dfc
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54337125"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58620111"
 ---
 # <a name="configure-persistent-chat-server-options-in-skype-for-business-server-2015"></a>Konfigurieren der Optionen für den Server für beständigen Chat in Skype for Business Server 2015
  
-**Zusammenfassung:** Erfahren Sie, wie Sie optionen für den Server für beständigen Chat in Skype for Business Server 2015 auf globaler, Standort- oder Poolebene konfigurieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie optionen für den Server für beständigen Chat auf globaler, Standort- oder Poolebene in Skype for Business Server 2015 konfigurieren.
   
 Sie können mehrere Optionen für den Server für beständigen Chat angeben, die global, auf alle Pools innerhalb eines Standorts oder auf einen bestimmten Pool innerhalb eines Standorts angewendet werden können. Zu den Serveroptionen für beständigen Chat gehören: 
   
@@ -35,7 +35,7 @@ Sie können mehrere Optionen für den Server für beständigen Chat angeben, die
 - Raumverwaltungs-URL. Die URL, die für die benutzerdefinierte Chatroomverwaltung verwendet wird. Die Einstellung ermöglicht die Verwendung einer benutzerdefinierten Raumverwaltungslösung. 
    
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
  
 ## <a name="configure-persistent-chat-server-global-options"></a>Konfigurieren globaler Optionen für den Server für beständigen Chat
 
