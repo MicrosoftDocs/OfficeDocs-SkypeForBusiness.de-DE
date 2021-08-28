@@ -9,24 +9,24 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fb0faac8-ca1c-4abb-9959-d19def294c64
 description: Erfahren Sie, wie Sie Beschäftigt-Optionen in Skype for Business Server installieren und konfigurieren.
-ms.openlocfilehash: aa7dc18d2c535b96cfca06a28aff85f8ab5bc738c4eef94babd9048450bfb897
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 58c70360a9e25ccefcd62181ab5a1a5b222ae9a5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322397"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600680"
 ---
 # <a name="install-and-configure-busy-options-for-skype-for-business-server"></a>Installieren und Konfigurieren von Beschäftigt-Optionen für Skype for Business Server
 
 Erfahren Sie, wie Sie Beschäftigt-Optionen in Skype for Business Server installieren und konfigurieren.
 
-Beschäftigt-Optionen ist eine neue VoIP-Richtlinie, die im kumulativen Update vom Juli 2016 eingeführt wurde, mit der Sie konfigurieren können, wie eingehende Anrufe verarbeitet werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf gehalten wird. Neue oder eingehende Anrufe können mit einem Besetzt-Signal abgelehnt oder an Voicemail weitergeleitet werden.
+Beschäftigt-Optionen ist eine neue VoIP-Richtlinie, die im kumulativen Update vom Juli 2016 eingeführt wurde, mit der Sie konfigurieren können, wie eingehende Anrufe verarbeitet werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder einen Anruf in die Warteschleife versetzt hat. Neue oder eingehende Anrufe können mit einem Besetzt-Signal abgelehnt oder an Voicemail weitergeleitet werden.
 
 Wenn beschäftigt-Optionen für die Organisation aktiviert ist, können alle Benutzer am Enterprise, sowohl Enterprise-VoIP als auch nicht Enterprise-VoIP Benutzer, die folgenden Konfigurationsoptionen verwenden:
 
@@ -40,13 +40,13 @@ Weitere Informationen zum Feature Beschäftigt-Optionen finden Sie unter [Plan f
 
 ## <a name="install"></a>Installieren
 
-Stellen Sie sicher, dass Sie die neueste Version von Skype for Business Server installiert haben und dass Sie den neuesten Patch installiert haben. Beenden Sie hierzu zunächst alle Dienste, und führen Sie dann das Skype for Business Server Update-Installationsprogramm wie folgt aus:
+Stellen Sie sicher, dass Sie die neueste Version von Skype for Business Server installiert haben und dass Sie den neuesten Patch installiert haben. Beenden Sie hierzu zunächst alle Dienste, und führen Sie dann den Skype for Business Server Update-Installationsprogramm wie folgt aus:
 
 1. Führen Sie den Befehl Stop-CsWindowsService aus.
 
 2. Führen Sie das installationsprogramm SkypeServerUpdateInstaller.exe auf jedem Front-End-Server in einem Pool aus.
 
-3. Führen Sie das SkypeServerUpdateInstaller.exe Installationsprogramm auf jedem Survivable Branch Server (SBS) aus, wenn Sie die Unterstützung für Failover auf SBS sicherstellen möchten.
+3. Führen Sie das installationsprogramm für SkypeServerUpdateInstaller.exe auf jedem Survivable Branch Server (SBS) aus, wenn Sie die Unterstützung für Failover auf SBS sicherstellen möchten.
 
 Das Installationsprogramm stellt die neueste Version der Beschäftigt-Optionen-Anwendung bereit. Die Anwendung ist jedoch nicht standardmäßig aktiviert. Führen Sie die folgenden Schritte aus, um die Anwendung zu aktivieren:
 
@@ -91,7 +91,7 @@ Das Installationsprogramm stellt die neueste Version der Beschäftigt-Optionen-A
    Update-CsAdminRole
    ```
 
-5. Starten Sie schließlich die Skype for Business Server Windows-Dienste auf allen Front-End-Servern in allen Pools, in denen beschäftigt-Optionen installiert und aktiviert wurden, indem Sie den Befehl [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) ausführen:
+5. Starten Sie schließlich die Skype for Business Server Windows-Dienste auf allen Front-End-Servern in allen Pools, in denen Beschäftigt-Optionen installiert und aktiviert wurden, indem Sie den Befehl [Start-CsWindowsService](/powershell/module/skype/start-cswindowsservice?view=skype-ps) ausführen:
 
    ```powershell
    Start-CsWindowsService
@@ -113,7 +113,7 @@ Im nächsten Beispiel konfiguriert der Befehl beschäftigt Optionen für den Ben
 Set-CsBusyOptions -Identity "Chrystal Velasquez" -ActionType VoicemailOnBusy
 ```
 
-Mit dem Cmdlet ["Get-CsBusyOptions"](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) können Sie Konfigurationsinformationen zu Beschäftigt-Optionen abrufen. Im folgenden Beispiel wird die Einstellung "Beschäftigt-Optionen" für "KenMyer@Contoso.com" zurückgegeben:
+Mit dem Cmdlet ["Get-CsBusyOptions"](https://technet.microsoft.com/library/ff0e3b1c-c41d-41e4-9468-0cb057aef9fb.aspx) können Sie Konfigurationsinformationen zu Beschäftigt-Optionen abrufen. Im folgenden Beispiel wird die Beschäftigt-Optionen-Einstellung für "KenMyer@Contoso.com" zurückgegeben:
 
 ```powershell
 Get-CsBusyOptions -Identity sip:KenMyer@Contoso.com
@@ -154,4 +154,4 @@ ScriptName :
 Script     :
 </pre>
 
-Sie können auch Windows Ereignisanzeige verwenden, um zu überprüfen, ob die Beschäftigt-Optionen-Installation erfolgreich war und dass die Beschäftigt-Optionen erfolgreich geladen Skype for Business Server. Öffnen Sie zum Überprüfen der Beschäftigt-Optionen **die Ereignisanzeige – \> Anwendungs- und Dienstprotokolle – \> Skype (oder Lync)-Server,** und suchen Sie nach der Ereignis-ID = 30253.
+Sie können auch Windows Ereignisanzeige verwenden, um zu überprüfen, ob die Beschäftigt-Optionen-Installation erfolgreich war und ob die Beschäftigt-Optionen erfolgreich geladen Skype for Business Server. Öffnen Sie zum Überprüfen der Beschäftigt-Optionen **die Ereignisanzeige – \> Anwendungs- und Dienstprotokolle – \> Skype (oder Lync)-Server,** und suchen Sie nach der Ereignis-ID = 30253.

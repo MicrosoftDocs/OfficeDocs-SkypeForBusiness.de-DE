@@ -13,26 +13,26 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Setup
 - O365P_OnlinePresenceDesc
 description: 'Erfahren Sie, wie Sie Skype for Business, damit Sie die Verfügbarkeit Ihrer Kollegen sehen können. '
-ms.openlocfilehash: 0675d9c24f85fa66e3d1eec2e470af2ffcf3d3e6a77719c63130320ce7e89fbe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d1505546fa51268dc40107ca309553f0826c0da5
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54303339"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58597379"
 ---
 # <a name="configure-presence-in-skype-for-business-online"></a>Konfigurieren der Anwesenheit in Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Das Microsoft Teams Admin Center wurde durch das Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Admins oder Skype for Business zugewiesen sein, damit Skype for Business Features im Teams Admin Center verwalten können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Das Microsoft Teams Admin Center wurde durch Skype for Business Admin Center (Legacy-Portal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Administrator oder Skype for Business zugewiesen sein, damit Skype for Business Features im Teams Admin Center verwalten können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 Standardmäßig kann jeder, der mit einer Person in Ihrer Organisation mithilfe von E-Mail-Skype for Business, auch sehen, ob diese Person online ist. Skype for Business zeigt an, ob eine Person online, in einer Besprechung, offline oder einem anderen Indikator verfügbar ist.
 
@@ -51,9 +51,9 @@ Als Administrator **[für](https://support.office.com/article/eac4d046-1afd-4f1a
 |**Einstellung**|**Wer können die Anwesenheit eines Benutzers anzeigen**|
 |:-----|:-----|
 |**Anwesenheitsinformationen automatisch anzeigen** <br/> |Jeder Skype for Business in Ihrem Unternehmen, der nicht zur Liste  Extern  oder Blockiert einer Person hinzugefügt wurde, kann die Onlinepräsenz dieser Person sehen. <br/> |
-|**Anwesenheitsinformationen nur für die Kontakte eines Benutzers anzeigen** <br/> |Jede Person, die sich in der Kontaktliste einer Person aufgeführt hat und die diese Person nicht zu ihrer Liste Extern **oder** **Blockiert hinzugefügt** hat. <br/> Einzelpersonen können Ihre Standardeinstellungen in ihrer app-Skype for Business außer Kraft setzen: **Einstellungen**  >  **Tools**  >  **Optionen**. <br/> |
+|**Anwesenheitsinformationen nur für die Kontakte eines Benutzers anzeigen** <br/> |Jede Person, die sich in der Kontaktliste einer Person aufgeführt hat und die diese Person nicht zu ihrer Liste Extern **oder** **Blockiert hinzugefügt** hat. <br/> Einzelpersonen können Ihre Standardeinstellungen in ihrer App Skype for Business außer Kraft setzen: **Einstellungen**  >    >  **ToolsOptionen**. <br/> |
 
-Informationen dazu, was Ihre Benutzer in Ihrer Organisation ändern Skype for Business, finden Sie in den folgenden Artikeln:
+Informationen dazu, was Benutzer in Ihrer Organisation ändern Skype for Business, finden Sie in den folgenden Artikeln:
 
 - [Steuern des Zugriffs auf Ihre Anwesenheitsinformationen in Skype for Business](https://support.office.com/article/fea86e34-60cf-4dd0-bfb2-169a42afd92c)
 

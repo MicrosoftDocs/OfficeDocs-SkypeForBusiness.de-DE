@@ -10,25 +10,25 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu angegebenen Organisationseinheiten (OUs) hinzufügen, sodass Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein.
-ms.openlocfilehash: fc537ed927e5eb430b4c379218b4400b6ab12761a272f37bba68a281481c9531
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (OUs) hinzufügen, sodass Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein.
+ms.openlocfilehash: f700b03f95be05e00d4e5eb032d9dd50ceb1352b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349717"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613905"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
  
-Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu angegebenen Organisationseinheiten (OUs) hinzufügen, sodass Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein. 
+Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (OUs) hinzufügen, sodass Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein. 
   
 Mit dem **Grant-CsOuPermission**-Cmdlet werden Objekten in der angegebenen Organisationseinheit Berechtigungen gemäß der folgenden Tabellen erteilt.
   
 ## <a name="granting-permission-for-user-objects"></a>Erteilen von Berechtigungen für User-Objekte
 
-Wenn Sie das Cmdlet **Grant-CsOuPermission** für Benutzerobjekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das Cmdlet **Grant-CsOuPermission** für Benutzerobjekte in einer OE ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
 **Für <c0>User</c0>-Objekte erteilte Berechtigungen**
 

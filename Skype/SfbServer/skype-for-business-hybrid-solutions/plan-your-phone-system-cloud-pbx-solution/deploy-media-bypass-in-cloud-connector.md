@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 0ebba3a4-6124-434c-84aa-32b1cc3345bc
 description: Lesen Sie dieses Thema, um mehr über die Schritte zum Bereitstellen der Medienumgehung mit Cloud Connector Edition, Version 2.0 und höher, zu erfahren.
-ms.openlocfilehash: 6ce46df02295810367556e735897cd9ce912b4c7e8aa15f6db5ffb66d38d4574
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: edc00467d878f0f2ae137c86f179f864bb2ca53f
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54289433"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613775"
 ---
 # <a name="deploy-media-bypass-in-cloud-connector-edition"></a>Bereitstellen der Medienumgehung in Cloud Connector Edition
  
@@ -38,7 +38,7 @@ Um die Medienumgehung zu aktivieren, müssen Sie den DNS-Namen des Webdiensts f�
   
 Ein Mandantenadministrator muss einen DNS A-Eintrag im internen Produktions-Active Directory konfigurieren. Wenn Sie über eine komplexe Umgebung mit mehreren Websites verfügen, sehen Sie sich das Beispiel in [Beispiel: DNS-Einträge der Medienumgehungswebsite in komplexen Umgebungen mit mehreren Websites an.](deploy-media-bypass-in-cloud-connector.md#Example) Der DNS-Eintrag sollte nur für interne Netzwerkclients aufgelöst werden. sie sollte für externe Netzwerkclients nicht aufgelöst werden.
   
-Stellen Sie nach dem Konfigurieren von DNS mithilfe von Remote-PowerShell mit Skype for Business Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell.](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Stellen Sie nach dem Konfigurieren von DNS mithilfe von Remote-PowerShell mit Skype for Business Administratoranmeldeinformationen eine Verbindung mit Skype for Business Online her. Weitere Informationen finden Sie unter [Einrichten des Computers für Windows PowerShell](../../../SfbOnline/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md) .
   
 Geben Sie in der PowerShell-Sitzung die folgenden Befehle ein, um die Medienumgehung zu aktivieren:
   
@@ -69,7 +69,7 @@ Um die lokale Replikation zu überprüfen, stellen Sie eine Verbindung mit den C
 Get-CsNetworkConfiguration -LocalStore
 ```
 
-Um die Clienteinstellungen zu überprüfen, melden Sie sich vom Skype for Business Client ab, melden Sie sich wieder an, und vergewissern Sie sich, dass der Client die Dienst-URL wie folgt erhalten hat:
+Um die Clienteinstellungen zu überprüfen, melden Sie sich vom Skype for Business Client ab, melden Sie sich wieder an, und stellen Sie sicher, dass der Client die Dienst-URL wie folgt erhalten hat:
   
 1. Öffnen Sie "%appdatalocal%\Microsoft\Office\16.0\Lync\Tracing\Lync-UccApi-0.UccApilog". 
     
@@ -118,7 +118,7 @@ Ein Administrator muss außerdem die Webadressen für die Medienumgehung von int
 ## <a name="example-media-bypass-web-site-dns-records-in-complex-multi-site-environments"></a>Beispiel: DNS-Einträge für Die Medienumgehungswebsite in komplexen Umgebungen mit mehreren Websites
 <a name="Example"> </a>
 
-Clients erhalten die Webadresse des Medienumgehungswebdiensts von einem internen DNS-Server. Der Name des Webdiensts ist für alle Cloud Connector-Appliances und Cloud Connector-PSTN-Standorte identisch. In einer komplexen Umgebung mit mehreren Websites empfehlen wir die Verwendung der Windows 2016-DNS-Richtlinie für Geo-Location Based Traffic Management, damit Clients an den Webdienst umgeleitet werden können, der für ihr Netzwerk lokal ist. 
+Clients erhalten die Webadresse des Medienumgehungswebdiensts von einem internen DNS-Server. Der Name des Webdiensts ist für alle Cloud Connector-Appliances und Cloud Connector-PSTN-Standorte identisch. In einer komplexen Umgebung mit mehreren Websites wird empfohlen, die DNS-Richtlinie Windows 2016 für Geo-Location Based Traffic Management zu verwenden, damit Clients an den Webdienst umgeleitet werden können, der für ihr Netzwerk lokal ist. 
   
 Fore more information about Windows 2016 DNS Policies, see [Use DNS Policy for Geo-Location Based Traffic Management with Primary Servers](/windows-server/networking/dns/deploy/primary-geo-location).
   
@@ -184,7 +184,7 @@ Mit Geo-Location Based Traffic Management würden die DNS-Server wie folgt konfi
     
 4. Erstellen Sie die DNS-Richtlinie, die die Clientsubnetze mit den entsprechenden Zonenbereichen verbindet, um die gewünschte DNS-Auflösung sicherzustellen.
     
-An diesem Punkt geben Clients, die DNS-Abfragen aus dem Subnetz Von Amsterdam für hybridvoice.adatum.biz durchführen, den Wert 192.168.1.45 zurück. 192.168.1.46, 192.168.1.47 und 192.168.1.48-Adressen, während Clients, die dasselbe Abfrageformular in Seattle erstellen, 10.10.1.8, 10.10.1.9 und 10.10.1.10 zurückgeben.
+Zu diesem Zeitpunkt geben Clients, die DNS-Abfragen aus dem Subnetz Von Amsterdam für hybridvoice.adatum.biz durchführen, den Wert 192.168.1.45 zurück. 192.168.1.46, 192.168.1.47- und 192.168.1.48-Adressen, während Clients, die dasselbe Abfrageformular in Seattle erstellen, 10.10.1.8, 10.10.1.9 und 10.10.1.10 zurückgeben.
 
 > [!NOTE]
 > Wenn die CCE-Appliance scheinbar nicht die aktualisierten Einstellungen abruft, überprüfen Sie, ob die Appliance in der Lage ist, den Mandanten über Remote-PowerShell zu kontaktieren. Sie können Remote-PowerShell verwenden, um den Appliance-Status mit Get-CsHybridPSTNAppliance zu überprüfen, oder PowerShell auf dem CCE-Host verwenden, um den Status mit Get-CcApplianceStatus zu überprüfen.

@@ -12,19 +12,19 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.PersistentChatAddinMain
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 0c0ecf64-258d-4b43-8fac-fa5ffa4e7646
 description: Sie können den Add-In-Abschnitt der Seite für beständigen Chat verwenden, um URLs mit Chatrooms für beständigen Chat zu verknüpfen. Diese URLs werden im Client im Chatroom im Erweiterungsbereich der Unterhaltung angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
-ms.openlocfilehash: c6f29cd9c9bf2b70b88a3ca3e5e1ac230b56e2a111cc34cc405261d3947e003b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0d3f09ee5f2ab130a54d60424ee2966d36e54142
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54343689"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614345"
 ---
-# <a name="persistent-chat-add-in-main-page"></a>Add-In für beständigen Chat – Hauptseite
+# <a name="persistent-chat-add-in-main-page"></a>Add-In für beständigen Chat – Hauptseite
 
-Sie können den **Add-In-Abschnitt** der Seite für **beständigen Chat** verwenden, um URLs beständigen Chatrooms zuzuordnen. Diese URLs werden im Client im Chatroom im Erweiterungsbereich der Unterhaltung angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
+Sie können den **Add-In-Abschnitt** der Seite für beständigen **Chat** verwenden, um URLs mit Chatrooms für beständigen Chat zu verknüpfen. Diese URLs werden im Client im Chatroom im Erweiterungsbereich der Unterhaltung angezeigt. Ein Administrator muss der Liste der registrierten Add-Ins Add-Ins hinzufügen, und Chatroommanager/Ersteller müssen Chatrooms einem der registrierten Add-Ins zuordnen, bevor Benutzer dieses Upgrade in ihrem Client sehen können.
 
 Add-Ins werden verwendet, um die Raumerfahrung zu erweitern. Ein typisches Add-In kann eine URL enthalten, die auf eine Silverlight-Anwendung zeigt, die abfängt, wenn ein Stock-Ticker in einem Chatroom veröffentlicht wird, und den Aktienverlauf im Erweiterbarkeitsbereich anzeigt. Weitere Beispiele sind das Einbetten einer OneNote 2013-URL in den Chatroom als Add-In, um einen freigegebenen Kontext einzuschließen, z. B. "Top of mind" oder "Topic of the day".
 

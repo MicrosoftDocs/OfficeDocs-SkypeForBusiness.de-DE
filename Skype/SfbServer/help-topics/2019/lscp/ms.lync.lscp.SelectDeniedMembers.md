@@ -11,16 +11,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c626b6b4-15f3-4a59-bb1d-55dc8c60f5cb
 ROBOTS: NOINDEX, NOFOLLOW
-description: Ein Administrator für beständigen Chat kann Chatroomkategorien erstellen und verwalten. Im Rahmen der Erstellung und Verwaltung von Chatroomkategorien kann ein Administrator für beständigen Chat Prinzipale (Active Directory Domain Services-Gruppen/Container/Benutzer) konfigurieren, die Zugriff haben, um Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie zu sein. Ein Administrator für beständigen Chat kann einer Kategorie auch "DeniedMembers" hinzufügen, und diese werden zu expliziten Ausschlüssen in der Liste zugelassener Elemente. DeniedMembers überschreiben, was in AllowedMembers ist.
-ms.openlocfilehash: f9f75af2ced715d90867a07cc87c75451c6e8ad31bd95343c6165288913467ee
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Ein Administrator für beständigen Chat kann Chatroomkategorien erstellen und verwalten. Im Rahmen der Erstellung und Verwaltung von Chatroomkategorien kann ein Administrator für beständigen Chat Prinzipale (Active Directory Domain Services-Gruppen/Container/Benutzer) konfigurieren, die Zugriff haben, um Mitglieder/Ersteller von Chatrooms einer bestimmten Kategorie zu sein. Ein Administrator für beständigen Chat kann einer Kategorie auch "DeniedMembers" hinzufügen, und diese werden zu expliziten Ausschlüssen in der Liste der zulässigen Elemente. DeniedMembers überschreiben, was in AllowedMembers ist.
+ms.openlocfilehash: 05a5752a4700e593096fb012ddd6f7bfb05cbc99
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54297491"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600530"
 ---
 # <a name="select-denied-members"></a>Auswählen abgelehnter Mitglieder
 

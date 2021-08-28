@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.FrontEndGeneralSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: c0174d6a0badadc217119b5b2ea1028bc01367278739d5b6b03bb4ae83c0f21d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54315761"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600130"
 ---
-# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
+# <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 
 Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:
 
@@ -43,7 +43,7 @@ Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, ind
 
 - Wenn Sie die Option "Konferenzen" ausgewählt haben, können Sie **Einwahlkonferenzen (PSTN)** verwenden. Aktivieren Sie das Kontrollkästchen, um die Verwendung der Funktionen für Einwahlkonferenzen zu ermöglichen.
 
-- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP,** wenn Sie Features bereitstellen möchten, die es Lync Server 2013 ermöglichen, als Telefon voice system mit VoIP-Technologien (Voice over IP) zu fungieren, einschließlich der Option der Bereitstellung von Handsettelefonen, SIP-Trunks oder Verbindungen mit öffentlichen Telefonnetzwerken mithilfe von Vermittlungsservern, PSTN-Gateways und IP-Nebenstellenanlagen in Kombination oder allein, basierend auf dem Entwurf und den Anforderungen. Ausführliche Informationen zu Enterprise-VoIP finden Sie unter [Enterprise-VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) und [Plan for Enterprise-VoIP in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP,** wenn Sie Features bereitstellen möchten, mit denen Lync Server 2013 als Telefontelefonsystem mit VoIP-Technologien (Voice over IP) fungiert, einschließlich der Option, Telefone, SIP-Trunks oder Verbindungen mit öffentlichen Telefonnetzwerken mithilfe von Vermittlungsservern, PSTN-Gateways und IP-Nebenstellenanlagen in Kombination oder allein basierend auf dem Entwurf und den Anforderungen bereitzustellen. Ausführliche Informationen zu Enterprise-VoIP finden Sie unter [Enterprise-VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) und [Plan for Enterprise-VoIP in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Verbände**
 
@@ -91,7 +91,7 @@ Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, ind
     Wenn einem Vermittlungsserver mehrere Gateways zugeordnet sind, können Sie das Standardgateway angeben, indem Sie das Gateway auswählen, das Sie als Standard festlegen möchten, und auf **"Als Standard festlegen"** klicken. Falls Sie das aktuelle Standardgateway entfernen möchten, wählen Sie das Gateway aus und klicken auf **Festlegung als Standardeinstellung aufheben**.
 
 > [!IMPORTANT]
-> Wenn Sie in diesem Dialogfeld Änderungen an den Eigenschaften vornehmen, müssen Sie die Topologie veröffentlichen und den Skype for Business Server Bereitstellungs-Assistenten auf allen betroffenen Servern ausführen. Nach der Veröffentlichung der neuen Topologie wird eine Liste der betroffenen Server, auf denen der Skype for Business Server Bereitstellungs-Assistent ausgeführt werden muss, als Link auf dem Zusammenfassungsbildschirm der erfolgreichen Topologieveröffentlichung bereitgestellt. Ausführliche Informationen zur Veröffentlichung der aktualisierten Topologie finden Sie unter [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Ausführliche Informationen zum Bereitstellungs-Assistenten für Skype for Business Server finden Sie unter [Lync Server-Verwaltungstools.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
+> Wenn Sie in diesem Dialogfeld Änderungen an den Eigenschaften vornehmen, müssen Sie die Topologie veröffentlichen und den Skype for Business Server Bereitstellungs-Assistenten auf allen betroffenen Servern ausführen. Nach der Veröffentlichung der neuen Topologie wird eine Liste der betroffenen Server, auf denen der Skype for Business Server Bereitstellungs-Assistent ausgeführt werden muss, als Link auf dem Zusammenfassungsbildschirm für die erfolgreiche Topologieveröffentlichung bereitgestellt. Ausführliche Informationen zur Veröffentlichung der aktualisierten Topologie finden Sie unter [Publish the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-topology). Ausführliche Informationen zum Bereitstellungs-Assistenten für Skype for Business Server finden Sie unter [Lync Server-Verwaltungstools.](/previous-versions/office/lync-server-2013/lync-server-2013-lync-server-administrative-tools)
 
 Klicken Sie auf **OK**, um die Änderungen des Topologiedokuments zu speichern und zu übernehmen.
 

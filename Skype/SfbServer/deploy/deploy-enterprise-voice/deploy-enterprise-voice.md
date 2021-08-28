@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Enterprise-VoIP für Skype for Business Server an einem zentralen Standort bereitstellen.'
-ms.openlocfilehash: 2a3f614d3d48758c28a8ac6036529db4aa668d2262d34edaee90a3ef4776884c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3a47e66bf9ae65d0a994a25b40f182dcc95b87d7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282358"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600690"
 ---
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Bereitstellen von Enterprise-VoIP in Skype for Business Server
 
@@ -29,7 +29,7 @@ ms.locfileid: "54282358"
 
 Verwenden Sie dieses Thema, um Enterprise-VoIP an einem zentralen Standort bereitzustellen. Um Enterprise-VoIP an einem Zweigstellenstandort bereitzustellen, fahren Sie mit [der Bereitstellung von Zweigstellen über.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)
 
-Dieser Abschnitt enthält Verfahren für Bereitstellungen, bei denen ein Vermittlungsserver wie empfohlen auf jedem Front-End-Server oder Standard Edition-Server verbunden ist, sowie für Bereitstellungen mit einem eigenständigen Vermittlungsserverpool. Sie können den folgenden Inhalt überspringen, wenn Sie den Topologie-Generator zum Definieren und Veröffentlichen einer Topologie verwendet haben, die einen Vermittlungsserver auf jedem Front-End-Server oder Standard Edition Server gemeinsam verwendet, da der Bereitstellungs-Assistent die Dateien für den Vermittlungsserver bereits automatisch installiert hat, wenn Sie Dateien für Ihren Front-End-Serverpool oder Standard Edition Server installiert haben:
+Dieser Abschnitt enthält Verfahren für Bereitstellungen, bei denen ein Vermittlungsserver wie empfohlen auf jedem Front-End-Server oder Standard Edition Server verbunden ist, sowie für Bereitstellungen mit einem eigenständigen Vermittlungsserverpool. Sie können den folgenden Inhalt überspringen, wenn Sie den Topologie-Generator zum Definieren und Veröffentlichen einer Topologie verwendet haben, die einen Vermittlungsserver auf jedem Front-End-Server oder Standard Edition-Server gemeinsam verwendet, da der Bereitstellungs-Assistent die Dateien für den Vermittlungsserver bereits automatisch installiert hat, wenn Sie Dateien für Ihren Front-End-Serverpool oder Standard Edition Server installiert haben:
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
 - [Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server](enterprise-voice-security.md)

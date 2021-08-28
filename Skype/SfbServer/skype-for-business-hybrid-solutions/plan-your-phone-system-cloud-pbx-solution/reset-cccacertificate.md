@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 5ada7e55-df9b-4b4e-b752-2468f4e28b8a
 description: Das Cmdlet Reset-CcCACertificate installiert den AD Server des Zertifizierungsstellendiensts neu, um ein neues Zertifikat der Stammzertifizierungsstelle zu erstellen.
-ms.openlocfilehash: 8e0cb93e6f10f28df28213579674a6cda6e7e2cd1cf201319f77dc26be69de80
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 21f62724f74504216bcd38f5498b3a7068722512
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340721"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624967"
 ---
 # <a name="reset-cccacertificate"></a>Reset-CcCACertificate
  
@@ -46,7 +46,7 @@ Reset-CcCACertificate
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Wenn das Zertifikat der Stammzertifizierungsstelle kompromittiert oder nicht mehr sicher ist, müssen Sie das Zertifikat der Stammzertifizierungsstelle und alle von der Stammzertifizierungsstelle ausgestellten Zertifikate aktualisieren. Das cmdlet Reset-CcCACertificate widerruft alle Zertifikate, deinstalliert und installiert die Zertifizierungsstelle neu und bereinigt dann alle Zertifikate im Zusammenhang mit dem alten Zertifizierungsstellendienst. 
+Wenn das Zertifikat der Stammzertifizierungsstelle kompromittiert oder nicht mehr sicher ist, müssen Sie das Zertifikat der Stammzertifizierungsstelle und alle von der Stammzertifizierungsstelle ausgestellten Zertifikate aktualisieren. Das cmdlet Reset-CcCACertificate widerruft alle Zertifikate, deinstalliert und installiert die Zertifizierungsstelle neu, und bereinigt dann alle Zertifikate im Zusammenhang mit dem alten Zertifizierungsstellendienst. 
   
 Weitere Informationen finden Sie unter "Zertifizierungsstellenzertifikate oder interne Zertifikate, die für CMS, Vermittlungsserver und Edgeserver ausgestellt wurden, laufen in Kürze ab oder sind kompromittiert" in der Problembehandlung für Ihre Cloud Connector-Bereitstellung.
   

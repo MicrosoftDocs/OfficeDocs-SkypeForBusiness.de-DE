@@ -11,26 +11,26 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - CSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3543eb40-54f4-49ef-a058-03aceed4773a
-description: Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der Hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering.
-ms.openlocfilehash: c210e5b5db5470ac275bfe845c0c7c6700bfa96c73187cebdcf2785f8e19d85b
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering.
+ms.openlocfilehash: ac829249a6d75c020af2d3d3085b0bda72fe6d2c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54286304"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614025"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-in-skype-for-business-server"></a>Planen der hohen Verfügbarkeit und Notfallwiederherstellung in Skype for Business Server
  
-Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der Hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering. 
+Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering. 
   
-Hohe Verfügbarkeit bedeutet, sicherzustellen, dass Skype for Business Server Dienste auch dann verfügbar sind, wenn mindestens ein Server ausgefallen ist. Die Notfallwiederherstellung bezieht sich auf die Beibehaltung von Diensten im Falle einer natürlichen oder vom Menschen verursachten Notfalls und die Beibehaltung so vieler Daten vor dem Notfall wie möglich.
+Hohe Verfügbarkeit bezieht sich darauf, sicherzustellen, dass Skype for Business Server Dienste auch dann verfügbar sind, wenn mindestens ein Server ausfällt. Die Notfallwiederherstellung bezieht sich auf die Beibehaltung von Diensten im Falle einer natürlichen oder vom Menschen verursachten Notfalls und die Beibehaltung so vieler Daten vor dem Notfall wie möglich.
   
 Wie in früheren Versionen von Lync Server ist die Hauptfunktion für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server die Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers. Dies gilt für Front-End-Server, Edgeserver, Vermittlungsserver und Directors.
   
-Skype for Business Server bietet auch Notfallwiederherstellungsoptionen für Front-End-Pools. Sie können zwei Pools in verschiedenen geografischen Bereichen einrichten, die als Sicherungen füreinander dienen. Wenn dann ein ganzer Pool oder Standort ausfällt, kann der Sicherungspool weiterhin Dienste für Benutzer an beiden Standorten bereitstellen.
+Skype for Business Server bietet außerdem Notfallwiederherstellungsoptionen für Front-End-Pools. Sie können zwei Pools in verschiedenen geografischen Bereichen einrichten, die als Sicherungen füreinander dienen. Wenn dann ein ganzer Pool oder Standort ausfällt, kann der Sicherungspool weiterhin Dienste für Benutzer an beiden Standorten bereitstellen.
   
 Skype for Business Server unterstützt außerdem vier Modi mit hoher Verfügbarkeit für Ihre Back-End-Server: SQL Spiegelung, AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering.
   

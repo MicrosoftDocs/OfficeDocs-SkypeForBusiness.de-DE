@@ -9,15 +9,15 @@ ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype for Business Server 2019.'
-ms.openlocfilehash: cbdfcd92fbb6fbaefb75024dcb1e393ad5049e636e463bc4ad97588279702151
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: b58c61702d447a7b68e9fa7e09cc6e539e682582
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54295962"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600900"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Neuigkeiten in Skype for Business Server 2019
 
@@ -31,14 +31,14 @@ Zu den neuen Features in Skype for Business Server 2019 gehören:
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Unified Messaging-Dienste: Cloud-Voicemail
 
-Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale deaktiviert.  
+Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail und Cloud Auto Attendant-Features nicht mehr unterstützt.  
 
-Cloud-Voicemail ermöglicht allen Ihren Skype for Business 2019-Benutzern&#x2014;, ob sie lokal oder online verwaltet werden,&#x2014;Zugriff auf denselben Voicemaildienst in der Microsoft Cloud zu haben. Cloud-Voicemail bietet die folgenden Vorteile für Ihre lokalen und Onlinebenutzer:
+Cloud-Voicemail ermöglicht allen Ihren Skype for Business 2019-Benutzern&#x2014;, ob sie lokal oder online&#x2014;verwaltet werden, Zugriff auf denselben Voicemaildienst in der Microsoft Cloud zu haben. Cloud-Voicemail bietet die folgenden Vorteile für Ihre lokalen und Onlinebenutzer:
 
-- Zugriff auf Voicemail in ihrem Exchange Postfach mithilfe der Clients Skype for Business Online, Teams oder Outlook
+- Zugriff auf Voicemail in ihrem Exchange Postfach mithilfe des Skype for Business Online-, Teams- oder Outlook-Clients
 - Möglichkeit, das webbasierte Portal zum Verwalten ihrer Voicemailoptionen zu verwenden
 
-Weitere Informationen finden Sie unter [Plan Cloud-Voicemail Service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) and Plan for Skype for Business Server and Exchange Server [migration.](../sfbhybrid/hybrid/plan-um-migration.md)
+Weitere Informationen finden Sie unter [Plan Cloud-Voicemail service](../sfbhybrid/hybrid/plan-cloud-voicemail.md) and Plan for Skype for Business Server and Exchange Server [migration.](../sfbhybrid/hybrid/plan-um-migration.md)
   
 ## <a name="call-monitoring-call-data-connector"></a>Anrufüberwachung: Anrufdatenkonnektor
 
@@ -46,7 +46,7 @@ Der Anrufdatenkonnektor vereinfacht die Anrufüberwachung in einer Hybridumgebun
 
 Mit dem Anrufdaten-Connector können Sie die folgenden Aufgaben mithilfe eines einzelnen Toolsets ausführen:
 
-- Überwachen Sie Ihre Benutzererfahrung über Microsoft Teams, Skype for Business Online und Skype for Business Server hinweg.
+- Überwachen Sie Ihre Benutzererfahrung über Microsoft Teams, Skype for Business Online und Skype for Business Server.
 - Anzeigen und Beheben von Problemen in Ihrem Netzwerk
 - Weisen Sie Helpdesk- und Administratorrollen für die Anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern ermöglichen können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.
 
@@ -54,4 +54,4 @@ Weitere Informationen finden Sie unter ["Plan Call Data Connector".](../sfbhybri
 
 ### <a name="see-also"></a>Siehe auch
 
-[Veraltete Skype for Business Server 2019](deprecated.md)
+[Veraltet ab Skype for Business Server 2019](deprecated.md)

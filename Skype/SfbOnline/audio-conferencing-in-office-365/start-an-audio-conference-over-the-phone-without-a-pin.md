@@ -15,18 +15,18 @@ ms.collection:
 audience: Admin
 appliesto:
 - Skype for Business
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie die Teilnahme anonymer Anrufer an einer Besprechung über Skype for Business Admin Center oder mithilfe eines PowerShell-Skripts aktivieren oder deaktivieren. '
-ms.openlocfilehash: fc44494c916f8245bf1030c15311ee4e5e01a52382e93c04b9dcd8b29a758428
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5403d984d5e87b929db4d1ebc3c7eeba34f3744c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54318060"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600860"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-skype-for-business-online"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Skype for Business Online
 
@@ -39,18 +39,18 @@ Es kann für Benutzer, die sich in eine Besprechung einwählen, frustrierend sei
   
 Wenn sich ein Besprechungsorganisator in die Besprechung ein anruft, ist zum Starten einer Besprechung standardmäßig eine PIN erforderlich. Sie können einrichten, dass sich jeder in eine Besprechung einwählen kann und nicht zur Eingabe einer PIN zum Starten der Besprechung aufgefordert wird. Sie können diese Einstellung für einen einzelnen Benutzer im Skype for Business Admin Center aktivieren oder deaktivieren.
   
-Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung über die App Skype for Business hat. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den Audiobenutzer gesendet, wenn ihm die Lizenz für **Audiokonferenzen** zugewiesen wurde und er für Audiokonferenzen aktiviert ist. Weitere Informationen finden Sie unter Senden einer E-Mail mit den Informationen zur [Audiokonferenz](send-an-email-to-a-user-with-their-dial-in-information.md) an einen Benutzer und E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre [Audiokonferenzeinstellungen ändern.](emails-sent-to-users-when-their-settings-change.md)
+Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung über die App Skype for Business hat. Eine PIN ist nur erforderlich, wenn der Organisator einer Besprechung per Telefon an der Besprechung teilnimmt. Die PIN für Besprechungen wird an den Audiobenutzer gesendet, wenn ihm die Lizenz für **Audiokonferenzen** zugewiesen ist und er für Audiokonferenzen aktiviert ist. Weitere Informationen finden Sie unter Senden einer E-Mail mit den Informationen zur [Audiokonferenz](send-an-email-to-a-user-with-their-dial-in-information.md) an einen Benutzer und E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre [Audiokonferenzeinstellungen ändern.](emails-sent-to-users-when-their-settings-change.md)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
     
-1. Navigieren Sie **Skype for Business admin center** in der linken Navigationsleiste zu Audio **conferencing Users**( Benutzer von  >  **Audiokonferenzen).** 
+1. Navigieren Sie **Skype for Business admin center** in der linken Navigationsleiste zu Audio **conferencing Users (Benutzer von**  >  **Audiokonferenzen).** 
     
 2. Wählen Sie in der Liste den Benutzer aus, und klicken Sie im Aktionsbereich auf **Bearbeiten**. 
     
-3. Aktivieren oder löschen Sie auf der Eigenschaftenseite des Benutzers unter Besprechungsoptionen die Option Zulassen, dass nicht authentifizierte Anrufer die ersten Personen in einer **Besprechung sind. Andern falls nicht, wartet er im Wartebereich, bis ein authentifizierter Benutzer beitritt.**
+3. Aktivieren oder löschen Sie auf der Eigenschaftenseite des Benutzers unter Besprechungsoptionen die Option Zulassen, dass nicht authentifizierte Anrufer die ersten Personen **in einer Besprechung sind. Andern falls nicht, wartet er im Wartebereich, bis ein authentifizierter Benutzer beitritt.**
     
 4. Klicken Sie auf **Speichern**. 
 
@@ -84,13 +84,13 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
 
 - Um Zeit zu sparen bzw. den Vorgang für mehrere Benutzer zu automatisieren, können Sie das Cmdlet [Set-CsOnlineDialInConferencingUser](/powershell/module/skype/Set-CsOnlineDialInConferencingUser) nutzen.
     
-- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen: 
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     

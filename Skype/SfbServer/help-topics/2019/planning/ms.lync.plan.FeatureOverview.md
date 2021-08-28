@@ -12,16 +12,16 @@ ms.custom:
 - ms.lync.plan.FeatureOverview
 - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server Planungstool
-ms.openlocfilehash: 2bff4f6eb8774b9660f27cf2217eccd7b1b3c3dce469cab70ac7c96c9489b234
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c1272cf0809be097e9f5b0282b165ef899744520
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54325122"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600500"
 ---
 # <a name="feature-overview-planning-tool"></a>Featureübersicht (Planungstool)
  
@@ -39,7 +39,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste Schritte** Assistenten gestellten Fragen aufgefüllt oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gefüllt, die Sie im **assistenten Erste Schritte** gestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -88,9 +88,9 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
     Wenn Sie den Skype for Business Server Mobilitätsdienst bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
     
-- **W15 Exchange-Postfach**
+- **W15 Exchange Postfach**
     
-    Skype for Business Server ermöglicht ihnen, Voicemailnachrichten in Exchange Unified Messaging (UM) zu speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
+    Skype for Business Server ermöglicht es Ihnen, Voicemailnachrichten in Exchange Unified Messaging (UM) zu speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
 
     > [!NOTE]
     > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar. Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
@@ -132,7 +132,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die in Exchange verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option zum Integrieren Skype for Business Server Speichers in Exchange Speicher auswählen.
+    Wenn Sie Benutzer haben, die auf Exchange verwaltet werden und ihre Postfächer in In-Place Haltebereich gesetzt wurden, können Sie die Option zum Integrieren Skype for Business Server Speichers in Exchange Speicher auswählen.
     
 - **IPv4**
     
@@ -164,11 +164,11 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste 
     
 - **Konferenzzentrale**
     
-    Konferenzzentralenanwendung bietet Audiokonferenzfunktionen für Telefonbenutzer ohne den Dienst eines Drittanbieters für Audiokonferenzen.
+    Konferenzzentralenanwendung bietet Telefonbenutzern Ohne den Dienst eines Drittanbieters für Audiokonferenzen Audiokonferenzfunktionen.
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder unveränderlich sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stummgeschaltet sind.
     
 - **Anrufsteuerung**
     

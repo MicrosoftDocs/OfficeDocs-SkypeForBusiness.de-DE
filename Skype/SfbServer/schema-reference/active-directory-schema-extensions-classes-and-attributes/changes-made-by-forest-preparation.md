@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objekte und der universellen Dienst- und Verwaltungsgruppen, die bei der Gesamtstrukturvorbereitung erstellt werden.
-ms.openlocfilehash: 8a613b4f71d26f06d36543ef4ec10dab39442860b0435ccd84417624d495c9fe
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c21e6dfac6cd3b6a9bb3c0b6b040138e6d8f8a52
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54349727"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58613995"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server
 
@@ -26,7 +26,7 @@ Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objek
 
 ## <a name="active-directory-global-settings-and-objects"></a>Globale Einstellungen und Objekte in Active Directory
 
-Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie bei allen neuen Skype for Business Server Bereitstellungen), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienstcontainer und fügt ein **RTC Service** -Objekt unter dem Configuration\Services -Objekt hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das globale Einstellungsobjekt enthält alle Einstellungen, die für die Skype for Business Server Bereitstellung gelten. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\Microsoft" ein Objekt "RTC Service" hinzugefügt.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie bei allen neuen Skype for Business Server Bereitstellungen), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienstcontainer und fügt ein **RTC Service -Objekt** unter dem Configuration\Services -Objekt hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das globale Einstellungsobjekt enthält alle Einstellungen, die für die Skype for Business Server Bereitstellung gelten. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\Microsoft" ein Objekt "RTC Service" hinzugefügt.
 
 Außerdem wird während der Gesamtstrukturvorbereitung ein neues Objekt **msRTCSIP-Domain** für die Stammdomäne hinzugefügt, in der das Verfahren ausgeführt wird.
 
@@ -38,7 +38,7 @@ Anhand von universellen Gruppen können Administratoren globale Einstellungen un
 
 - **Administrative Gruppen** Diese Gruppen definieren Administratorrollen für ein Skype for Business Server Netzwerk.
 
-- **Infrastrukturgruppen** Diese Gruppen bieten die Berechtigung für den Zugriff auf bestimmte Bereiche der Skype for Business Server-Infrastruktur. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
+- **Infrastrukturgruppen** Diese Gruppen erteilen die Berechtigung für den Zugriff auf bestimmte Bereiche der Skype for Business Server-Infrastruktur. Sie fungieren als Komponenten von administrativen Gruppen. Sie sollten diese Gruppen weder ändern noch direkt Benutzer zu ihnen hinzufügen.
 
 - **Dienstgruppen** Diese Gruppen sind Dienstkonten, die für den Zugriff auf verschiedene Skype for Business Server Dienste erforderlich sind.
 
@@ -70,7 +70,7 @@ In der folgenden Tabelle werden die Dienstgruppen beschrieben.
 
 |**Dienstgruppe**|**Beschreibung**|
 |:-----|:-----|
-|RTCHSUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen von Front-End-Servern und Standard Edition Servern verwendet werden. Diese Gruppe ermöglicht Servern Lese-/Schreibzugriff auf Skype for Business Server globalen Einstellungen und Active Directory-Benutzerobjekte.  <br/> |
+|RTCHSUniversalServices  <br/> |Umfasst Dienstkonten, die zum Ausführen von Front-End-Servern und Standard Edition Servern verwendet werden. Diese Gruppe ermöglicht Servern Lese-/Schreibzugriff auf Skype for Business Server globalen Einstellungen und Active Directory-Benutzerobjekte.  <br/> |
 |RTCComponentUniversalServices  <br/> |Umfasst Dienstkonten, die zum Ausführen von A/V-Konferenzservern, Webdiensten, Vermittlungsservern, Archivierungsservern und Überwachungsservern verwendet werden.  <br/> |
 |RTCProxyUniversalServices  <br/> |Enthält Dienstkonten, die zum Ausführen Skype for Business Server Edgeservern verwendet werden.  <br/> |
 |RTCUniversalConfigReplicator  <br/> |Umfasst Server, die an Skype for Business Server Replikation des zentralen Verwaltungsspeichers teilnehmen können.  <br/> |

@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: ''
 description: Die Themen in diesem Abschnitt helfen Ihnen zu verstehen, wie Sie Skype for Business Server planen und bereitstellen, damit Sie die Anzahl der Benutzer in Ihrer Organisation angemessen planen und die Serverlast planen können, die ihre Aktivitäten generieren.
-ms.openlocfilehash: aaa34d4ec935735215da36d888ab3c5155f158b89fd366546eac14b3f6259482
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 090d209d1b60d866ddabe976ffb8b04394712525
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54277640"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600890"
 ---
 # <a name="capacity-planning-for-skype-for-business-server-2019"></a>Kapazitätsplanung für Skype for Business Server 2019
 
@@ -33,8 +33,8 @@ Wir haben unsere Leistungstests auf der in der folgenden Tabelle beschriebenen H
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5-2673 v3 Dualprozessor, 6-Core, 2,4 GHz oder höher.  <br/> Intel Itanium-Prozessoren werden für Skype for Business Server 2019-Rollen nicht unterstützt.  <br/> |
 |Arbeitsspeicher  <br/> |32 Gigabyte (GB).  <br/> |
-|Datenträger  <br/> |Entweder:  <br/> • 8 oder mehr Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (zwei der Festplatten mit RAID 1 und 6 mit RAID 10).  <br/> ODER  <br/> • SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 1.0000 U/min bereitstellen können.  <br/> |
-|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Dual- oder Multi-Homed-Konfigurationen werden für Front-End-Server, Back-End-Server und Standard Edition Server **nicht** unterstützt. <br/> Solange sie nicht für das Betriebssystem verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, können Sie über Out-of-Band-Verwaltungssysteme wie DRAC oder GIF verfügen. Dieses Szenario stellt keinen Server mit mehreren Verwalteten dar und wird unterstützt.  <br/> |
+|Datenträger  <br/> |ENTWEDER:  <br/> • 8 oder mehr Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (zwei der Festplatten mit RAID 1 und 6 mit RAID 10).  <br/> OR  <br/> • SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 1.0000 U/min bereitstellen können.  <br/> |
+|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Duale konfigurationen oder Konfigurationen mit mehreren Verwalteten werden für Front-End-Server, Back-End-Server und Standard Edition Server **nicht** unterstützt. <br/> Solange sie nicht für das Betriebssystem verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, können Sie über Out-of-Band-Verwaltungssysteme wie DRAC oder GIF verfügen. Dieses Szenario stellt keinen Server mit mehreren Verwalteten dar und wird unterstützt.  <br/> |
 
 ## <a name="summary-of-results"></a>Zusammenfassung der Ergebnisse
 
@@ -42,20 +42,20 @@ In der folgenden Tabelle sind unsere Empfehlungen zusammengefasst.
 
 |**Serverrolle**|**Maximale Anzahl von unterstützten Benutzern**|
 |:-----|:-----|
-|Front-End-Pool mit 16 Front-End-Servern und Back-End-Servern oder einem Back-End-Serverpaar mit SQL AlwaysOn für hohe Verfügbarkeit.  <br/> |106.000 eindeutige Benutzer gleichzeitig angemeldet, plus 50 % mehrfache Anwesenheitspunkte (Multiple Points of Presence, MPOP), die nicht mobile Instanzen darstellen, plus 40 % der Benutzer, die für Mobilität für insgesamt 210.000 Endpunkte aktiviert sind.  <br/> |
+|Front-End-Pool mit 16 Front-End-Servern und Back-End-Server oder einem Back-End-Serverpaar mit SQL AlwaysOn für hohe Verfügbarkeit.  <br/> |106.000 eindeutige Benutzer gleichzeitig angemeldet, plus 50 % mehrfache Anwesenheitspunkte (Multiple Points of Presence, MPOP), die nicht mobile Instanzen darstellen, plus 40 % der Benutzer, die für Mobilität für insgesamt 210.000 Endpunkte aktiviert sind.  <br/> |
 |A/V-Konferenzen  <br/> |Der von einem Front-End-Pool bereitgestellte A/V-Konferenzdienst unterstützt die Konferenzen des Pools mit einer maximalen Konferenzgröße von 250 Benutzern und jeweils nur einer derart großen Konferenzen.  <br/> **Hinweis:** Darüber hinaus können Sie große Konferenzen mit 250 bis 1.000 Benutzern unterstützen, indem Sie einen separaten Front-End-Pool mit zwei Front-End-Servern zum Hosten der großen Konferenzen bereitstellen. Ausführliche Informationen finden Sie unter [Plan for large meetings in Skype for Business Server](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md). <br/> |
 |Ein Edgeserver  <br/> |18.000 gleichzeitige Remotebenutzer.  <br/> |
 |Ein Director  <br/> |18.000 gleichzeitige Remotebenutzer.  <br/> |
 |Überwachen und Archivieren  <br/> |Die Front-End-Dienste für die Überwachung und Archivierung werden auf jedem Front-End-Server und nicht auf separaten Serverrollen ausgeführt.  <br/> Für die Überwachung und Archivierung sind weiterhin eigene Datenbankspeicher erforderlich. Wenn Sie auch Exchange 2013 oder höher ausführen, können Sie Ihre Archivierungsdaten in Exchange und nicht in einer dedizierten SQL-Datenbank speichern.  <br/> |
 |Ein Vermittlungsserver  <br/> |Der Vermittlungsserver, der mit dem Front-End-Server verbunden ist, wird auf jedem Front-End-Server in einem Pool ausgeführt und sollte genügend Kapazität für die Benutzer im Pool bereitstellen. Informationen zum eigenständigen Vermittlungsserver finden Sie im Abschnitt "Vermittlungsserver" weiter unten in diesem Thema.  <br/> |
-|Ein Standard Edition-Server  <br/> |Es wird dringend empfohlen, wenn Sie Standard Edition Server zum Hosten von Benutzern verwenden, immer zwei Server verwenden, gepaart mit den Empfehlungen in [der Planung für hohe Verfügbarkeit und Notfallwiederherstellung.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Jeder Server im Paar kann bis zu 2.500 Benutzer hosten, und wenn ein Server ausfällt, kann der verbleibende Server 5.000 Benutzer in einem Failoverszenario unterstützen.  <br/>  Wenn Ihre Bereitstellung einen erheblichen Anteil an Audio- oder Videodatenverkehr umfasst, kann die Serverleistung mit mehr als 2.500 Benutzern pro Server beeinträchtigt werden. In diesem Fall sollten Sie weitere Standard Edition Server hinzufügen oder zu Skype for Business Server Enterprise Edition wechseln. <br/> |
+|Ein Standard Edition-Server  <br/> |Wenn Sie Standard Edition Server zum Hosten von Benutzern verwenden, wird dringend empfohlen, immer zwei Server zu verwenden, gepaart mit den Empfehlungen in [der Planung für hohe Verfügbarkeit und Notfallwiederherstellung.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Jeder Server im Paar kann bis zu 2.500 Benutzer hosten, und wenn ein Server ausfällt, kann der verbleibende Server 5.000 Benutzer in einem Failoverszenario unterstützen.  <br/>  Wenn Ihre Bereitstellung einen erheblichen Anteil an Audio- oder Videodatenverkehr umfasst, kann die Serverleistung mit mehr als 2.500 Benutzern pro Server beeinträchtigt werden. In diesem Fall sollten Sie weitere Standard Edition Server hinzufügen oder zu Skype for Business Server Enterprise Edition wechseln. <br/> |
 
 ## <a name="front-end-server"></a>Front-End-Server
 
 > [!NOTE]
 > Gestreckte Pools werden für diese Serverrolle nicht unterstützt.
 
-In einem Front-End-Pool sollten Sie einen Front-End-Server für alle 6.660 Benutzer haben, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyperthreading auf allen Servern im Pool aktiviert ist, dass Sie SQL Server Express Edition verwenden und dass die Serverhardware die Empfehlungen in den [Serveranforderungen für Skype for Business Server 2019](system-requirements.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 106.000. Dabei wird erneut vorausgesetzt, dass Hyperthreading aktiviert ist und SQL Server Express Edition auf allen Servern in Ihrem Pool verwendet wird. Wenn Sie mehr als 106.000 Benutzer an einem Standort haben, können Sie mehr als einen Front-End-Pool bereitstellen.
+In einem Front-End-Pool sollten Sie einen Front-End-Server für alle 6.660 Benutzer haben, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyperthreading auf allen Servern im Pool aktiviert ist, dass Sie SQL Server Express Edition verwenden und dass die Serverhardware die Empfehlungen in den [Serveranforderungen für Skype for Business Server 2019](system-requirements.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 106.000. Dabei wird davon ausgegangen, dass Hyperthreading aktiviert ist und SQL Server Express Edition auf allen Servern in Ihrem Pool verwendet wird. Wenn Sie mehr als 106.000 Benutzer an einem Standort haben, können Sie mehr als einen Front-End-Pool bereitstellen.
 
 Wenn Sie die Anzahl der Benutzer in einem Front-End-Pool berücksichtigen, schließen Sie alle Benutzer ein, die in Survivable Branch Appliances und Survivable Branch-Servern in Zweigstellen verwaltet werden, die diesem Front-End-Pool zugeordnet sind.
 
@@ -73,14 +73,14 @@ Die Anzahl der Benutzer, die von einem bestimmten Front-End-Pool mit einer guten
 - Anstatt SQL Server Express Edition zu verwenden, verwenden Sie eine andere SQL Server Edition. Möglicherweise können Sie weitere Benutzer in jedem Front-End-Pool hosten.
 - Die Nutzung Ihrer Organisation unterscheidet sich stark von den Benutzermodellen, z. B. wenn Sie viel mehr Konferenzdatenverkehr haben.
 
-Die folgende Tabelle zeigt die durchschnittliche Bandbreite für Chatnachrichten und Anwesenheitsinformationen, wenn das Benutzermodell in [Benutzermodellen in Skype for Business Server](../../SfbServer/plan-your-deployment/capacity/user-models.md)definiert ist.
+In der folgenden Tabelle ist die durchschnittliche Bandbreite für Chatnachrichten und Anwesenheitsinformationen im Rahmen des Benutzermodells dargestellt, wie in [Benutzermodellen in Skype for Business Server](../../SfbServer/plan-your-deployment/capacity/user-models.md)definiert.
 
 |**Durchschnittliche Bandbreite pro Benutzer**|**Bandbreitenanforderungen pro Front-End-Server mit 6.660 Benutzern**|
 |:-----|:-----|
 |3-3,75 KBps  <br/> |13 MBps  <br/> |
 
 > [!NOTE]
-> Um die Medienleistung der gemeinsam installierten A/V-Konferenz- und Vermittlungsserverfunktionen auf Ihren Front-End-Servern zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter [RSS (Receive Side Scaling) in der Dokumentation Windows Server 2012.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Medienleistung der gemeinsam installierten A/V-Konferenz- und Vermittlungsserverfunktionen auf Ihren Front-End-Servern zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie [unter Receive Side Scaling (RSS) in der dokumentation Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="conferencing-maximums"></a>Maximale Anzahl von Benutzern für Konferenzen
 
@@ -88,7 +88,7 @@ Angesichts des Benutzermodells, dass sich 5 % der Benutzer in einem Pool zu eine
 
 Die maximal unterstützte Konferenzgröße, die von einem regulären Skype for Business Server Front-End-Pool gehostet wird, in dem auch Benutzer gehostet werden, beträgt 250 Teilnehmer. Während eine Konferenz mit 250 Benutzern stattfindet, unterstützt der Pool auch andere Konferenzen, sodass sich insgesamt 5 % der Poolbenutzer an gleichzeitigen Konferenzen befinden. In einem Pool mit 16 Front-End-Servern und 106.000 Benutzern, während die Konferenz mit 250 Benutzern stattfindet, unterstützt Skype for Business Server 5.050 andere Benutzer, die an kleineren Konferenzen teilnehmen.
 
-Unabhängig von der Anzahl der Benutzer, die im Front-End-Pool oder Standard Edition Server verwaltet werden, unterstützt Skype for Business Server mindestens 125 andere Benutzer, die an kleineren Konferenzen im selben Pool oder Server teilnehmen, auf dem eine Konferenz mit 250 Benutzern gehostet wird.
+Unabhängig von der Anzahl der Benutzer, die im Front-End-Pool oder Standard Edition-Server verwaltet werden, unterstützt Skype for Business Server mindestens 125 andere Benutzer, die an kleineren Konferenzen im selben Pool oder Server teilnehmen, auf dem eine Konferenz mit 250 Benutzern gehostet wird.
 
 Um Konferenzen mit 250 bis 1.000 Benutzern zu aktivieren, können Sie einen separaten Front-End-Pool einrichten, nur um diese Konferenzen zu hosten. In diesem Front-End-Pool werden keine Benutzer gehostet. Ausführliche Informationen finden Sie unter [Planen großer Besprechungen in Skype for Business Server.](../../SfbServer/plan-your-deployment/conferencing/large-meetings.md)
 
@@ -152,13 +152,13 @@ In allen folgenden Tabellen wird davon ausgegangen, dass die Verwendung in [Benu
 
 ## <a name="back-end-server"></a>Back-End-Server
 
-Obwohl ein Großteil der Datenbankinformationen hauptsächlich auf den Front-End-Servern gespeichert wird, sollten Sie sicherstellen, dass Ihre Back-End-Server die weiter oben in diesem Abschnitt und in [den Serverhardwareplattformen aufgeführten](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)Hardwareempfehlungen erfüllen.
+Obwohl ein Großteil der Datenbankinformationen in erster Linie auf den Front-End-Servern gespeichert wird, sollten Sie sicherstellen, dass Ihre Back-End-Server die weiter oben in diesem Abschnitt und in [den Serverhardwareplattformen aufgeführten](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)Hardwareempfehlungen erfüllen.
 
 Um eine hohe Verfügbarkeit ihres Back-End-Servers zu gewährleisten, empfehlen wir die Bereitstellung von AlwaysOn-Verfügbarkeitsgruppen oder Serverspiegelung. Weitere Informationen finden Sie unter [Back-End-Server hohe Verfügbarkeit in Skype for Business Server](../../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
 ## <a name="monitoring-and-archiving"></a>Überwachen und Archivieren
 
-Wenn Sie die Überwachung oder Archivierung bereitstellen, wird die Front-End-Funktion dieser Dienste auf den Front-End-Servern ausgeführt. Überwachung und Archivierung verwenden jeweils einen eigenen Datenbankspeicher, getrennt vom Back-End-Speicher. Wenn Sie Exchange 2013 bereitgestellt haben, können Sie auch Archivierungsdaten für Chatnachrichten in Exchange statt in einem dedizierten SQL speicher speichern.
+Wenn Sie die Überwachung oder Archivierung bereitstellen, wird die Front-End-Funktion dieser Dienste auf den Front-End-Servern ausgeführt. Überwachung und Archivierung verwenden jeweils einen eigenen Datenbankspeicher, getrennt vom Back-End-Speicher. Wenn Sie Exchange 2013 bereitgestellt haben, können Sie auch Archivierungsdaten für Chatnachrichten in Exchange statt in einem dedizierten SQL Speicher speichern.
 
 Die folgende Tabelle gibt an, wie viel Datenbankspeicher pro Benutzer und Tag für Überwachungs- und Archivierungsdaten erforderlich ist.
 
@@ -174,7 +174,7 @@ Microsoft hat die Hardware in der folgenden Tabelle für den Datenbankserver zur
 |:-----|:-----|
 |CPU  <br/> |Intel Xeon E5-2673 v3 Dualprozessor, 6-Core, 2,4 GHz oder höher.  <br/> |
 |Arbeitsspeicher  <br/> |48 GB  <br/> |
-|Datenträger  <br/> | Entweder:<br/> • Mindestens 4 Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (die Datenträger sollten in einer 2x RAID 1-Konfiguration vorhanden sein). <br/>ODER <br/>• SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 4 1.000 U/min bereitstellen können.   <br/> |
+|Datenträger  <br/> | ENTWEDER:<br/> • Mindestens 4 Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (die Datenträger sollten in einer 2x RAID 1-Konfiguration vorhanden sein). <br/>OR <br/>• SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 4 1.000 U/min bereitstellen können.   <br/> |
 |Netzwerk  <br/> | 1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 empfohlen, was eine Teamerstellung mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse erfordert).  <br/> |
 
 **Empfohlene Datenträgerkonfigurationen**
@@ -182,9 +182,9 @@ Microsoft hat die Hardware in der folgenden Tabelle für den Datenbankserver zur
 |**Laufwerk** <br/> |**RAID-Konfiguration** <br/> |**Anzahl der Datenträger** <br/> |
 |:-----|:-----|:-----|
 |KDS-, QoE- und Archivierungsdatenbankdatendateien auf einem einzelnen Laufwerk  <br/> |1+0  <br/> |16   <br/> |
-|KDS-Datenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
-|QoE-Datenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
-|Archivierungsdatenbankprotokolldatei  <br/> |1  <br/> |2  <br/> |
+|KDS-Datenbankprotokolldatei  <br/> |1   <br/> |2   <br/> |
+|QoE-Datenbankprotokolldatei  <br/> |1   <br/> |2   <br/> |
+|Archivierungsdatenbankprotokolldatei  <br/> |1   <br/> |2   <br/> |
 
 ## <a name="video-interop-server-capacity"></a>Kapazität des Video-Interoperabilität-Servers
 

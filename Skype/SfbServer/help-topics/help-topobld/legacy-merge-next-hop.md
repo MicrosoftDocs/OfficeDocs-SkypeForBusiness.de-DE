@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.LegacyMergeNextHopPage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 14c19ac6-f91d-41cb-b6a2-e54ed06b9596
 description: Unter FQDN des nächsten Hops wird der nächste Hopserver angegeben, an den der Legacy-Edgeserver internen Datenverkehr weiterleitet. Geben Sie den vollqualifizierten Domänennamen des nächsten Hopservers ein, an den dieser Edgeserver internen Datenverkehr weiterleitet, und wählen Sie dann entweder Front-End-Pool oder Director aus.
-ms.openlocfilehash: 2f3578a8e8aa8554931a89842cb97adc7552a30e519c9e1eaa7a769a912e8116
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 39e08c5d182660e831b95989696071699554657c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54336915"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600100"
 ---
-# <a name="legacy-merge-next-hop"></a>Legacyzusammenführung – Nächster Hop
+# <a name="legacy-merge-next-hop"></a>Legacyzusammenführung – Nächster Hop
  
 Unter **FQDN des nächsten Hops** wird der nächste Hopserver angegeben, an den der Legacy-Edgeserver internen Datenverkehr weiterleitet. Geben Sie den vollqualifizierten Domänennamen des nächsten Hopservers ein, an den dieser Edgeserver internen Datenverkehr weiterleitet, und wählen Sie dann entweder **Front-End-Pool** oder **Director** aus. 
   

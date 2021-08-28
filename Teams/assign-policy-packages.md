@@ -12,18 +12,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen in Microsoft Teams.
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 6fb97dd96718b7ba909a05161a36092600d47b38ad1478f8608919861c6e1c91
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288344"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58601200"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen
 
@@ -34,7 +34,7 @@ In diesem Artikel werden die verschiedenen Methoden zum Zuweisen von Richtlinien
 
 ## <a name="assign-a-policy-package-to-users"></a>Zuweisen eines Richtlinienpakets zu Benutzern
 
-Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die in Ihrer Organisation über die gleichen oder ähnliche Rollen verfügen. Jedes Richtlinienpaket ist auf eine Benutzerrolle ausgelegt und enthält vordefinierte Richtlinien und Richtlinieneinstellungen, die für diese Rolle typische Aktivitäten unterstützen. Einige Beispiele für Richtlinienpakete sind das Paket "Education (Teacher)" und das Paket "Gesundheitswesen (klinischer Mitarbeiter)". Weitere Informationen finden Sie unter [Verwalten von Richtlinienpaketen in Teams.](manage-policy-packages.md)
+Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die in Ihrer Organisation über die gleichen oder ähnliche Rollen verfügen. Jedes Richtlinienpaket ist auf eine Benutzerrolle ausgelegt und enthält vordefinierte Richtlinien und Richtlinieneinstellungen, die für diese Rolle typische Aktivitäten unterstützen. Einige Beispiele für Richtlinienpakete sind das Paket "Education (Teacher)" und das Paket "Klinischer Mitarbeiter" im Gesundheitswesen. Weitere Informationen finden Sie unter [Verwalten von Richtlinienpaketen in Teams.](manage-policy-packages.md)
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
@@ -46,7 +46,7 @@ Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und R
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Zuweisen eines Richtlinienpakets zu mehreren Benutzern
 
-1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu Richtlinienpakete **,** und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen auf klicken.
+1. Navigieren Sie im linken Navigationsbereich des Microsoft Teams Admin Centers zu Richtlinienpakete **,** und wählen Sie dann das Richtlinienpaket aus, das Sie zuweisen möchten, indem Sie links neben dem Paketnamen klicken.
 2. Wählen Sie **Benutzer verwalten** aus.
 3. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
 4. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **Speichern aus.**
@@ -59,12 +59,12 @@ Die Gruppenzuweisung von Richtlinienpaketen ermöglicht es Ihnen, mehrere Richtl
 
 Die Zuweisung von Richtlinienpaketen zu Gruppen wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, funktioniert aber auch bei größeren Gruppen.
 
-Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Die Weitergabe der Richtlinienzuweisung an Mitglieder der Gruppe wird jedoch als Hintergrundvorgang durchgeführt und kann je nach Größe der Gruppe einige Zeit dauern. Dasselbe gilt, wenn eine Richtlinie nicht einer Gruppe zugewiesen wird, oder wenn Mitglieder einer Gruppe hinzugefügt oder aus ihr entfernt werden.
+Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Die Weitergabe der Richtlinienzuweisung an Mitglieder der Gruppe erfolgt jedoch als Hintergrundvorgang und kann je nach Größe der Gruppe einige Zeit dauern. Dasselbe gilt, wenn eine Richtlinie nicht einer Gruppe zugewiesen wird oder Mitglieder einer Gruppe hinzugefügt oder aus ihr entfernt werden.
 
 > [!IMPORTANT]
 > Bevor Sie beginnen, sollten Sie ( Rangfolgeregeln[)](assign-policies-users-and-groups.md#precedence-rules)und ([Gruppenzuordnungsrangfolge) verstehen.](assign-policies-users-and-groups.md#group-assignment-ranking) Lesen und verstehen Sie die Konzepte in[(](assign-policies-users-and-groups.md#what-you-need-to-know-about-policy-assignment-to-groups)Was Sie über die Richtlinienzuweisung zu Gruppen wissen müssen) weiter oben in diesem Artikel.
 
-### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern im Admin Center
+### <a name="assign-a-policy-package-to-a-group-of-users-in-the-admin-center"></a>Zuweisen eines Richtlinienpakets zu einer Benutzergruppe im Admin Center
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 2. Wechseln Sie im linken Navigationsbereich zur Seite des Richtlinienpakets.
@@ -92,7 +92,7 @@ Eine Schritt-für-Schritt-Anleitung finden Sie unter [Installieren Teams PowerSh
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Zuweisen eines Richtlinienpakets zu einer Benutzergruppe
 
-Verwenden Sie [das Cmdlet Grant-CsGroupPolicyPackageAssignment,](/powershell/module/teams/grant-csgrouppolicypackageassignment) um einer Gruppe ein Richtlinienpaket zuzuweisen. Sie können eine Gruppe mit der Objekt-ID, der SIP-Adresse oder der E-Mail-Adresse angeben. Geben Sie beim Zuweisen des Richtlinienpakets für jeden Richtlinientyp im Richtlinienpaket eine[an](assign-policies-users-and-groups.md#group-assignment-ranking)( Gruppenzuordnungsrangfolge).
+Verwenden Sie das [Cmdlet Grant-CsGroupPolicyPackageAssignment,](/powershell/module/teams/grant-csgrouppolicypackageassignment) um einer Gruppe ein Richtlinienpaket zuzuweisen. Sie können eine Gruppe mit der Objekt-ID, der SIP-Adresse oder der E-Mail-Adresse angeben. Geben Sie beim Zuweisen des Richtlinienpakets für jeden Richtlinientyp im Richtlinienpaket eine[an](assign-policies-users-and-groups.md#group-assignment-ranking)( Gruppenzuordnungsrangfolge).
 
 In diesem Beispiel weisen wir das Education_Teacher-Richtlinienpaket einer Gruppe mit der Zuordnungsrangfolge 1 für TeamsAppSetupPolicy und TeamsMeetingBroadcastPolicy und der Rangfolge 2 für TeamsMeetingPolicy zu.
 

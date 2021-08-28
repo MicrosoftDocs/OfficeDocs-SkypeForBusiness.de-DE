@@ -16,20 +16,20 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
 - seo-marvel-mar2020
-description: Erfahren Sie mehr über das Wählen von gebührenfreien Nummern in Malaysia, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
-ms.openlocfilehash: 47ff1cba1348554dfe33437ad2f9f6034716173570b64d067e3d0aa6cc4e002c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Erfahren Sie mehr über das Wählen gebührenfreier Nummern in Malaysia, einschließlich Verfügbarkeit, Verfügbarkeit über Kabel/Festnetz und Mobilfunknetz und Einschränkungen.
+ms.openlocfilehash: 7a5541a0352555a6c77598005f795d10e3f64682
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54345184"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600940"
 ---
 # <a name="toll-free-dialing-restrictions-in-malaysia"></a>Einschränkungen für gebührenfreie Telefonnummern in Malaysia
 

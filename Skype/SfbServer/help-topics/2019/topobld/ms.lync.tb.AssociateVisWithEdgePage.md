@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateVisWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: 585ee80d1e25740db9ef61fe16dc7e0fcd10f4f5d02961a17fdffb80fbf32281
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 79acc5bb2191aa84fece8bf87d94b3d52d9fb3d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54322087"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600460"
 ---
 # <a name="associate-vis-with-edge"></a>Zuordnen des VIS zu Edge
  

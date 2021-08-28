@@ -14,7 +14,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
@@ -22,18 +22,18 @@ ms.custom:
 - Calling Plans
 - ms.lync.lac.PortOrderQuickViewPanelO365Support
 description: 'Wenn Sie mehr als 999 Telefonnummern an Skype for Business übertragen müssen, erfahren Sie hier, wie Sie eine Serviceanfrage für einen Portierungsantrag übermitteln, um sie zu übertragen. '
-ms.openlocfilehash: ec95b6e49ccfafa3d0b320236543c4874be1f4c0dce53ec4112892c5dcece1e7
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8001463e233b8f927653bb998ea64299fd8b570b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281308"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600800"
 ---
 # <a name="submitting-a-service-request-for-local-number-porting"></a>Senden einer Dienstanforderung für das Portieren lokaler Rufnummern
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Wenn Sie mehr als 999 Telefonnummern (für Benutzer oder Servicenummern einschließlich gebührenpflichtiger oder gebührenfreier) nach Skype for Business Online übertragen müssen, lesen Sie Verwalten von Telefonnummern für [Ihre Organisation.](/microsoftteams/manage-phone-numbers-for-your-organization)
+Wenn Sie mehr als 999 Telefonnummern (für Benutzer oder Servicenummern einschließlich gebührenpflichtiger oder gebührenfreier) auf Skype for Business Online übertragen müssen, lesen Sie Verwalten von Telefonnummern für [Ihre Organisation.](/microsoftteams/manage-phone-numbers-for-your-organization)
 
 > [!NOTE]
 > Wenn Sie mehr als die angegebenen Telefonnummern benötigen, lesen Sie [Kontaktieren des Supports für Business-Produkte – Administratorhilfe](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b).

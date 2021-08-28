@@ -7,7 +7,7 @@ audience: ITPro
 ms.reviewer: NMuravlyannikov
 ms.topic: article
 ms.service: msteams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing für Microsoft Teams konfigurieren, indem Sie alle Benutzer auf einmal wechseln oder einen phasenweise Ansatz implementieren (empfohlen).
+description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing für Microsoft Teams konfigurieren, indem Sie alle Benutzer auf einmal wechseln oder einen phasenweise ansatzweiser Ansatz implementieren (empfohlen).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 74cfdb0d0bd92849b062d84df20e4ca1428f4034b2e8864bfc89ff70b77c6c3c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54284186"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598579"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
@@ -30,7 +30,7 @@ Bevor Sie die Medienumgehung mit Direct Routing konfigurieren, vergewissern Sie 
 
 Zum Aktivieren der Medienumgehung müssen die folgenden Bedingungen erfüllt sein:
 
-1.    Stellen Sie sicher, dass der von Ihnen entscheidende SBC-Anbieter (Session Border Controller) die Medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehung für den SBC bietet. Auf der Zertifizierungsseite finden Sie Informationen zu SBCs, die die Medienumgehung unterstützen, und Anweisungen.
+1.    Stellen Sie sicher, dass ihr SBC-Anbieter (Session Border Controller) die Medienumgehung unterstützt und Anweisungen zum Konfigurieren der Umgehung für den SBC bietet. Auf der Zertifizierungsseite finden Sie Informationen zu SBCs, die die Medienumgehung unterstützen, und Anweisungen.
 
 2.    Sie müssen die Medienumgehung für den Trunk mit dem folgenden Befehl aktivieren: **Set-CSOnlinePSTNGateway -Identity <sbc_FQDN> -MediaBypass $true.**
 
@@ -41,7 +41,7 @@ Zum Aktivieren der Medienumgehung müssen die folgenden Bedingungen erfüllt sei
 
 Sie können alle Benutzer gleichzeitig wechseln oder einen phasenweise ansatzweiser Ansatz implementieren (empfohlen).
 
-- **Gleichzeitiges Wechseln aller Benutzer** Wenn alle Bedingungen erfüllt sind, können Sie den Umgehungsmodus aktivieren. Alle Produktionsbenutzer werden jedoch gleichzeitig umgestellt. Da beim Konfigurieren von Trunks und Ports anfänglich probleme auftreten können, ist die Benutzererfahrung in der Produktionsumgebung möglicherweise davon betroffen. 
+- **Gleichzeitiges Wechseln aller Benutzer** Wenn alle Bedingungen erfüllt sind, können Sie den Umgehungsmodus aktivieren. Alle Produktionsbenutzer werden jedoch gleichzeitig umgestellt. Da beim Konfigurieren von Trunks und Ports zunächst einige Probleme auftreten können, ist die Benutzererfahrung in der Produktionsumgebung möglicherweise davon betroffen. 
 
 - **Phasenweiser Ansatz. (Empfohlen)**.  Erstellen Sie einen neuen Trunk für denselben SBC (mit einem anderen Port), testen Sie ihn, und ändern Sie die Online-Voiceroutingrichtlinie für die Benutzer so, dass sie auf den neuen Trunk verweisen. 
 

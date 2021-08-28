@@ -12,17 +12,17 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.OfficeCommunicationsServerScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ec5088ec-71b5-42cb-9f04-242716877178
 description: Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
-ms.openlocfilehash: 848e4f936ec3e18937fb9ffdff6e4e5ca725d360e109f0c33d7ae80b0fc89a83
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: a62ecd81d083e6f5c89d81f2d6ee950d4ccc943b
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301431"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614245"
 ---
-# <a name="office-communications-server-scope-node"></a>Office Communications Server – Bereichsknoten
+# <a name="office-communications-server-scope-node"></a>Office Communications Server – Bereichsknoten
 
 Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
 

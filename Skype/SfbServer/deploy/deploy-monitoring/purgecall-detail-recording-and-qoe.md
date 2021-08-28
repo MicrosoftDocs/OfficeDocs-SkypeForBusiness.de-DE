@@ -9,19 +9,19 @@ ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Datensätze aus den KDS- und QoE-Datenbanken, die von Skype for Business Server verwendet werden, manuell löschen.'
-ms.openlocfilehash: 11f528d142512ec8e0536d16181f50b5756d09f0f4daf7509d25ca82895b53e8
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 0307d1e11ef7b3ced4122687099be67301b00e04
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54294882"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58600600"
 ---
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Manuelles Löschen der Datenbanken "Aufzeichnung von Kommunikationsdatensätzen" und "Quality of Experience" in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie Datensätze aus den KDS- und QoE-Datenbanken, die von Skype for Business Server verwendet werden, manuell löschen.
+**Zusammenfassung:** Erfahren Sie, wie Sie Datensätze aus dem KDS und den von Skype for Business Server verwendeten QoE-Datenbanken manuell löschen.
   
 Die KDS- und QoE-Datenbanken können manuell oder automatisch aus Datensätzen gelöscht werden. Das Löschen von Datensätzen kann wichtig sein, damit die Daten nicht veraltet sind oder wenn Berichte von einer Ausgangsbasis zurückgesetzt werden müssen.
   

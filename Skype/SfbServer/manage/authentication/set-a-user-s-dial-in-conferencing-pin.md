@@ -9,16 +9,16 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Zusammenfassung: Legen Sie die Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server fest.'
-ms.openlocfilehash: 3470e17600a89696e7fa9a54986ae6e3a98e27c5ebf0f66ae27dcca3d8040b78
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d3871fe99de89bdd1430e2b870f5ddd36be188ed
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54341900"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614215"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server
  
@@ -65,7 +65,7 @@ Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt 
     
 7. Führen Sie im Dialogfeld **PIN festlegen** einen der folgenden Schritte aus:
     
-   - Damit Skype for Business Server die PIN des Benutzers generieren können, wählen Sie **"Automatisches Generieren einer gültigen PIN"** (Standardeinstellung) aus.
+   - Um zuzulassen, dass Skype for Business Server die PIN des Benutzers generieren, wählen Sie **"Automatisches Generieren einer gültigen PIN"** (Standardeinstellung) aus.
     
    - Zum Erstellen einer eigenen PIN klicken Sie auf **Bestimmte PIN manuell eingeben**, klicken Sie auf das Textfeld, und geben Sie anschließend eine PIN ein, welche die in Ihren PIN-Richtlinieneinstellungen angegebenen PIN-Anforderungen erfüllt.
     

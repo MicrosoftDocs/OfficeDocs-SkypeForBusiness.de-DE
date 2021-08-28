@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 44da2f8d-0bf5-4f3e-b2e7-bb181dbbe646
-description: Das Cmdlet Renew-CcCACertificate erneuert das zertifikat der stammzertifizierungsstelle Skype for Business Cloud Connector Edition, das bald abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2.0 und neueren Versionen geändert.
-ms.openlocfilehash: 49b58e18d6393d5a3f9665fea98cba73f22d9c3259f0036dc93dce9dbf67e567
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Das Cmdlet Renew-CcCACertificate erneuert das zertifikat der Skype for Business Cloud Connector Edition Stammzertifizierungsstelle, das bald abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2.0 und neueren Versionen geändert.
+ms.openlocfilehash: f48839360af0be72279547e1e1f9cbd695c48b39
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54340781"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624977"
 ---
 # <a name="renew-cccacertificate"></a>Renew-CcCACertificate
  
-Das Cmdlet Renew-CcCACertificate erneuert das zertifikat der stammzertifizierungsstelle Skype for Business Cloud Connector Edition, das bald abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2.0 und neueren Versionen geändert.
+Das Cmdlet Renew-CcCACertificate erneuert das zertifikat der Skype for Business Cloud Connector Edition Stammzertifizierungsstelle, das bald abläuft oder bereits abgelaufen ist. Dieser Befehl wurde in Update-CcCACertificate in Cloud Connector 2.0 und neueren Versionen geändert.
   
 ```powershell
 Renew-CcCACertificate

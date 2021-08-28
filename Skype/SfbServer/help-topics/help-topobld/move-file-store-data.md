@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 8d1d5819-add2-4f5d-a436-74c00a281df0
 description: 'Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für Ihre Skype for Business Server 2015-Bereitstellung fungiert, oder wenn Sie andere Änderungen vornehmen müssen, die den aktuellen Dateispeicher nicht verfügbar machen würden, müssen Sie zuerst eine neue Freigabe erstellen. Anschließend müssen Sie die folgenden Schritte ausführen:'
-ms.openlocfilehash: d57bfe10df36f200f927d4a2c9850eee0d21e9cf38724f31cc62bf84f76708e2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 10571b398b6e39624c408f0e36baa317212f9b21
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307116"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58614255"
 ---
 # <a name="move-file-store-data-to-a-new-file-store-in-skype-for-business-server-2015"></a>Verschieben von Datei- Store-Daten in eine neue Store in Skype for Business Server 2015
 
@@ -54,7 +54,7 @@ Wenn Sie den Dateiserver entfernen müssen, der derzeit als Dateispeicher für I
 
 9. Klicken Sie unter **"Eigenschaften bearbeiten"** unter **"Zuordnungen"** unter **"Dateispeicher"** auf **"Neu".**
 
-10. Geben Sie unter **"Neuen Datei Store definieren"** unter **"Dateiserver-FQDN"** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Dateiservers ein. Geben Sie unter **"Dateifreigabe"** den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **"OK".**
+10. Geben Sie in **Define New File Store** unter File server **FQDN** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Dateiservers ein. Geben Sie unter **"Dateifreigabe"** den Ordnernamen für die neue Dateifreigabe ein, und klicken Sie dann auf **"OK".**
 
      > [!IMPORTANT]
      > In diesem Schritt wird ein neuer Dateispeicher für die Verwendung im Topologie-Generator definiert. Sie definieren sie nur einmal, nicht für jeden Server. Vor dem Veröffentlichen der Topologie müssen Sie auf dem definierten Dateiserver die definierte Dateifreigabe erstellen. Ausführliche Informationen finden Sie unter [Define the File Store for the Front End](/previous-versions/office/communications/gg133895(v=ocs.14)).

@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - Ent_O365_Hybrid
 - IT_Skype16
@@ -18,17 +18,17 @@ ms.collection:
 - Strat_SB_Hybrid
 ms.custom: ''
 ms.assetid: 3cc3db88-0210-4804-b54e-ba4af1234884
-description: 'In diesem Thema wird beschrieben, wie Benutzer für Telefonsystem mit lokaler PSTN-Anbindung aktiviert werden. Bevor Sie die Schritte in diesem Thema ausführen, sollten Sie Folgendes lesen: .'
-ms.openlocfilehash: 1706c91bc9e277da75253ab2f8675d6dc9c4c06c6057668f69cfd7da058691e3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'In diesem Thema wird beschrieben, wie Benutzer für Telefonsystem mit lokaler PSTN-Konnektivität aktiviert werden. Bevor Sie die Schritte in diesem Thema ausführen, sollten Sie Folgendes lesen: .'
+ms.openlocfilehash: 22e0db6b9cd99c7909bcc6477db28546feef21d3
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288873"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58625037"
 ---
 # <a name="enable-users-for-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Ermöglichen, dass Benutzer des Telefonsystems eine lokale Festnetzanbindung in Skype for Business Server herstellen
 
-In diesem Thema wird beschrieben, wie Benutzer für Telefonsystem mit lokaler PSTN-Anbindung aktiviert werden. Bevor Sie die Schritte in diesem Thema ausführen, sollten Sie Folgendes lesen: .
+In diesem Thema wird beschrieben, wie Benutzer für Telefonsystem mit lokaler PSTN-Konnektivität aktiviert werden. Bevor Sie die Schritte in diesem Thema ausführen, sollten Sie Folgendes lesen: .
   
 - Informationen zum Einrichten der Hybridkonnektivität finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Skype for Business Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) und Bereitstellen der [Hybridkonnektivität zwischen Skype for Business Server und Skype for Business Online.](../../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
     
@@ -41,13 +41,13 @@ In diesem Thema wird beschrieben, wie Benutzer für Telefonsystem mit lokaler PS
 
 ## <a name="moving-users-to-phone-system-with-on-premises-pstn-connectivity"></a>Verschieben von Benutzern zu Telefonsystem mit lokaler PSTN-Anbindung
 
-Bevor Sie Ihre Benutzer in Skype for Business Online verschieben, sollten Sie Ihre Benutzer lokal in Skype for Business Server oder Lync Server 2013 aktivieren und sie dann online verschieben. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) and the special considerations section of Enable the users for Enterprise-VoIP on [premises](enable-the-users-for-enterprise-voice-on-premises.md) (performed while the users are homed on-premises). 
+Bevor Sie Ihre Benutzer zu Skype for Business Online verschieben, sollten Sie Ihre Benutzer lokal in Skype for Business Server oder Lync Server 2013 aktivieren und sie dann online verschieben. Weitere Informationen finden Sie unter [Plan hybrid connectivity between Skype for Business Server and Skype for Business Online](../../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) and the special considerations section of Enable the users for Enterprise-VoIP on [premises](enable-the-users-for-enterprise-voice-on-premises.md) (performed while the users are homed on-premises). 
   
 Alle Benutzer müssen lokal in Active Directory erstellt und mit Microsoft 365 oder Office 365 mithilfe der unterstützten Version von Azure AD Connector synchronisiert werden. Sie können keine Benutzer für Telefonsystem in Office 365 aktivieren, die direkt in Azure AD erstellt wurden. Wenn Sie Telefonsystem mit lokaler PSTN-Konnektivität für einen Benutzer aktivieren möchten, der in Azure AD erstellt wurde, müssen Sie ein neues Konto für diesen Benutzer in Ihrem lokalen AD erstellen, das konto lokal konfigurieren und das Konto dann mithilfe einer unterstützten Version des Azure AD Connector-Tools synchronisieren. 
   
 Die Aktivierung eines Benutzers für Telefonsystem mit lokaler PSTN-Konnektivität und das anschließende Verschieben zu Skype for Business Online erfordert die folgenden Schritte:
   
-- [Aktivieren Sie die Benutzer für Enterprise-VoIP lokal](enable-the-users-for-enterprise-voice-on-premises.md) (während die Benutzer lokal verwaltet werden).
+- [Aktivieren Sie die Benutzer für Enterprise-VoIP lokalen](enable-the-users-for-enterprise-voice-on-premises.md) (durchgeführt, während die Benutzer lokal verwaltet werden).
     
 - [Weisen Sie eine VoIP-Routingrichtlinie](assign-a-voice-routing-policy.md) zu (während die Benutzer lokal verwaltet werden).
     

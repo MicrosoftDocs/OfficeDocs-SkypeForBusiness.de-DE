@@ -11,33 +11,33 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Laden Sie das Playbook für die Website-Aktivierung herunter, um das Rollout Ihres Teams zu planen und die Benutzereinführung, den Eindruck von Qualität und Zufriedenheit zu beschleunigen und zu optimieren.
+description: Laden Sie das Playbook "Site Enablement" herunter, um Teams Einführung zu planen und die Benutzereinführung, den Eindruck von Qualität und Zufriedenheit zu beschleunigen und zu optimieren.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-voice
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 35ac2d0b8158a089e3f002108172066dcf6853c3525c6358dcdd2c8c57d19fa0
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54288693"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58624937"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
 Dieser Artikel bietet eine Übersicht über die Anforderungen für die ordnungsgemäß Bereitstellung von Cloud-Sprachdiensten. Indem Sie den vordefinierten Richtlinien für die Bereitstellung von Cloud-Sprachdiensten folgen, können Sie sicherstellen, dass alle Anforderungen erfolgreich berücksichtigt werden und Sie wiederholbare Ergebnisse erzielen.
 
-## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Playbook für die Website-Aktivierung für Microsoft Teams-Workloads
+## <a name="site-enablement-playbook-for-microsoft-teams-voice-workloads"></a>Playbook für die Website-Aktivierung Microsoft Teams Sprachauslastungen
 
 Verwenden Sie dieses Playbook, um Ihre Organisation bei der erfolgreichen Planung und Durchführung der Microsoft Teams Sprachfeatures auf Website-für-Website-Basis zu unterstützen.
 
 Dieses Playbook umfasst alle erforderlichen Aktivitäten, empfohlene Zeitachsen und Links zu den entsprechenden Anleitungen für jede Aktivität und enthält eine End-to-End-Anleitung, die Ihnen hilft, eine erfolgreiche Teams-Sprachbereitstellung für eine bestimmte Website zu gewährleisten, wobei der Schwerpunkt auf den Faktoren ist, die für den Benutzer wichtig sind.
 
-Durch abschließen der Aktivitäten in diesem Playbook kann Ihre Organisation:
+Wenn Sie die Aktivitäten in diesem Playbook abschließen, kann Ihre Organisation:
 
 -   Planen und planen Sie Ihre Teams effektiv.
 
@@ -46,7 +46,7 @@ Durch abschließen der Aktivitäten in diesem Playbook kann Ihre Organisation:
 -   Reduzieren Sie die Supportanforderungen, und steigern Sie die Benutzerzufriedenheit.
 
 > [!NOTE]
-> Dieser Artikel und das zugeordnete Playbook sind nicht dazu gedacht, alle technischen Konfigurationsschritte zu beschreiben, die für die Dienstermöglichung oder die Bereitstellung eines Tonwahlwahl-Tons für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren sie sich auf Aktivitäten und Aufgaben, die Benutzern empfohlen werden, und lassen sie sie durch einen schnellen und reibungslosen Übergang mit einer hohen Verbreitungsrate mit dem Verbrauch von Teams-Spracharbeitsauslastungen beginnen, während gleichzeitig die Supportanforderungen minimiert werden. Technische Anleitungen zum besten Konfigurieren Ihrer Umgebung für Teams-Voice finden Sie in den Onboarding-Checklisten zum Konfigurieren von [Teams-Voice Workloads,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)Konfigurieren von [Direct-Routing in Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)Teams-Kernfunktionen, Netzwerkfunktionen für [Teams](prepare-network.md)und Aktivieren von [Microsoft 365 oder Office 365.](onboarding-checklist-enable-office-365.md) [](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
+> Dieser Artikel und das zugeordnete Playbook sind nicht dazu gedacht, alle technischen Konfigurationsschritte zu beschreiben, die für die Dienstermöglichung oder die Bereitstellung eines Tonwahlwahl-Tons für eine bestimmte Website erforderlich sind. Stattdessen konzentrieren sie sich auf Aktivitäten und Aufgaben, die Benutzern empfohlen werden, und lassen sie sie durch einen schnellen und reibungslosen Übergang mit einer hohen Verbreitungsrate mit dem Verbrauch von Teams-Spracharbeitsauslastungen beginnen, während gleichzeitig die Supportanforderungen minimiert werden. Technische Anleitungen zum besten Konfigurieren Ihrer Umgebung für Teams-Sprache finden Sie in den Onboarding-Checklisten zum Konfigurieren von [Teams-Voice Workloads,](onboarding-checklist-configure-cloud-voice-workloads-in-Microsoft-Teams.md)Konfigurieren von [Direct-Routing in Teams,](onboarding-checklist-configure-direct-routing-in-Microsoft-Teams.md)Teams-Kernfunktionen, Netzwerkfunktionen für [Teams](prepare-network.md)und Aktivieren von [Microsoft 365 oder Office 365.](onboarding-checklist-enable-office-365.md) [](onboarding-checklist-configure-microsoft-teams-core-capabilities.md)
 
 <!--ENDOFSECTION-->
 
@@ -72,15 +72,15 @@ Das [Playbook "Site Enablement Playbook for Voice" (Playbook)](https://github.co
 ![Screenshot des Playbook für die Website-Aktivierung](media/deploy-my-service-image1.png "Screenshot des Playbook")
 
 > [!NOTE]
-> Sie erstellen eine separate Instanz des Playbook für jede Website im Bereich für Ihre Teams Rollout.
+> Sie erstellen eine separate Instanz des Playbook für jede Website im Bereich für Teams Rollout.
 
 <!--ENDOFSECTION-->
 
 ## <a name="how-to-use-the-playbook"></a>So verwenden Sie das Playbook
 
-Unabhängig von der Größe und Komplexität des Standorts müssen Sie zum Aktivieren jeder Website Ihre Aufgaben und Aktivitäten frühzeitig und in optimaler Reihenfolge vor, während und nach dem eigentlichen Dienstrollout planen. Wir empfehlen, dass Sie diese Schritte beim Planen und Ausführen Ihrer eigenen Reise Microsoft Teams ausführen.
+Unabhängig von der Größe und Komplexität des Standorts müssen Sie ihre Aufgaben und Aktivitäten vor, während und nach dem eigentlichen Dienstrollout frühzeitig planen und in optimaler Reihenfolge ausführen. Wir empfehlen, dass Sie diese Schritte ausführen, während Sie Ihre eigene Reise planen und ausführen, Microsoft Teams zu hören.
 
-1. Laden Sie [das Site Enablement Playbook für Sprachanrufe (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) für Microsoft Teams herunter.
+1. Laden Sie [das "Site Enablement Playbook for Voice" (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) für Microsoft Teams herunter.
 
 2. Erstellen Sie für jede Website eine separate Kopie des Playbook.
 
@@ -92,7 +92,7 @@ Unabhängig von der Größe und Komplexität des Standorts müssen Sie zum Aktiv
 
 5. Überprüfen Sie die einzelnen Aktivitäten, ergreifen Sie erforderliche Aktionen, und aktualisieren Sie den Status, während Sie die Zeitachse durch gehen. Status wird grafisch dargestellt, wie nachstehend beschrieben:
   
-   - ![Abbildung eines grünen Häkchens "Ja" oder "Nicht ](media/deploy-my-service-image3.png) **anwendbar" (grün):** Die Aktivität wurde abgeschlossen, oder sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
+   - ![Abbildung eines grünen Häkchens "Ja" oder "Nicht anwendbar" ](media/deploy-my-service-image3.png) **(grün):** Die Aktivität wurde abgeschlossen, oder sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
    - ![Abbildung eines gelben Ausrufezeichens Die Aktivität ist noch nicht abgeschlossen ](media/deploy-my-service-image4.png) <strong>(gelb):</strong> Die Aktivität wurde noch nicht abgeschlossen und muss im Zeitplan auf Ja oder Nein aktualisiert werden.</li>
    - ![Abbildung eines roten X, das kein Nein ](media/deploy-my-service-image5.png) <strong>(rot) angibt:</strong> Die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in die Besprechung mit dem Projektstatus durchgeführt werden.</li></ul>
 

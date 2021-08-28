@@ -15,7 +15,7 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - NOCSH
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Nicaragua.
-ms.openlocfilehash: 7506493f6aa4d59fa6b5647210674c720e9938d84a347f2997d3bde7bf785ab3
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6954f5a708f624637f338aedbb1c2971c430ca44
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54351085"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58598589"
 ---
 # <a name="availability-in-nicaragua"></a>Verfügbarkeit in Nicaragua
 
