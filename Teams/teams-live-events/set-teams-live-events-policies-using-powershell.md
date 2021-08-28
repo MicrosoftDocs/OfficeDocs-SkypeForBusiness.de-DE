@@ -11,19 +11,19 @@ audience: admin
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Beispiele für die Verwendung von PowerShell zum Festlegen von Richtlinien in Teams, um zu steuern, wer Liveereignisse in Ihrer Organisation halten kann, und die Features, die in den Ereignissen verfügbar sind.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 2b55589a3cabf1b696c1034ce4e20cd7a56af3444f7fa51e0f81f44430ead6bb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328930"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629177"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
@@ -37,7 +37,7 @@ Sie können die folgenden Windows PowerShell verwenden, um Richtlinieneinstellun
 Hier sind einige Beispiele:
 
 > [!NOTE]
-> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit ihrer Skype for Business PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit Ihrer Skype for Business PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Zulassen, dass Benutzer Liveereignisse planen 
 
@@ -58,7 +58,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>Benutzerszenarien
 **Sie möchten, dass alle Benutzer in Ihrer Organisation Liveereignisse planen können**
 
-Wenn Benutzern die globale Richtlinie zugewiesen ist, führen Sie aus, und überprüfen Sie, ob *AllowBroadcastScheduling* * auf *True festgelegt ist:*
+Wenn Benutzern die globale Richtlinie zugewiesen ist, führen Sie aus, und überprüfen Sie, ob *AllowBroadcastScheduling* * auf True festgelegt *ist:*
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -124,13 +124,13 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcast
 ```
 ## <a name="set-who-can-join-live-events"></a>Festlegen, wer an Liveereignissen teilnehmen kann
  
-Legen Sie die globale Richtlinie so fest, dass Benutzer Ereignisse erstellen können, an denen jeder teilnehmen kann, auch anonyme Benutzer, und diese ausführen kann:
+Legen Sie die globale Richtlinie so fest, dass Benutzer Ereignisse erstellen können, an denen jeder teilnehmen kann, auch anonyme Benutzer, und die:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Festlegen der Aufzeichnungsoption für Liveereignisse
 > [!NOTE]
-> Diese Einstellung gilt nur für in einer Anwendung erzeugte Teams.
+> Diese Einstellung gilt nur für in der Anwendung erzeugte Teams.
 
 Legen Sie die globale Richtlinie so ein, dass die Aufzeichnung für Liveereignisse deaktiviert wird:
 ```PowerShell
@@ -138,7 +138,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>Festlegen von Liveuntertiteln in Liveereignissen
 > [!NOTE]
-> Diese Einstellung gilt nur für in einer Anwendung erzeugte Teams. 
+> Diese Einstellung gilt nur für in der Anwendung erzeugte Teams. 
 
 Legen Sie die globale Richtlinie fest, um Liveuntertitel und Untertitel (Transkription) für Ereignisteilnehmer zu aktivieren:
 ```PowerShell

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die hohe Verfügbarkeit und Notfallwiederherstellung des Servers für beständigen Chat in Skype for Business Server 2015 verwalten.'
-ms.openlocfilehash: b3535d87f939da1e8dc0caf2368ec5de77573639ca362002a097f1b1d9afd6c9
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5383a5bc1cb61e4886dcbe2087c6fb319ec4701e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54324284"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580569"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -94,7 +94,7 @@ So führen Sie einen Failover für den Server für beständigen Chat durch:
 
 In diesem Verfahren werden die Schritte beschrieben, die erforderlich sind, um nach einem Serverfehler für beständigen Chat wiederherzustellen und Vorgänge aus dem primären Rechenzentrum wiederherzustellen.
   
-Während des Ausfalls des Servers für beständigen Chat tritt im primären Rechenzentrum ein vollständiger Ausfall auf, und die Primären- und Spiegeldatenbanken stehen nicht mehr zur Verfügung. Für das primäre Rechenzentrum erfolgt ein Failover auf den Sicherungsserver.
+Während des Ausfalls des Servers für beständigen Chat tritt im primären Rechenzentrum ein vollständiger Ausfall auf, und die Primären- und Spiegeldatenbanken sind nicht mehr verfügbar. Für das primäre Rechenzentrum erfolgt ein Failover auf den Sicherungsserver.
   
 Wenn das primäre Rechenzentrum wieder verfügbar ist und die Server wiederhergestellt sind, wird anhand der folgenden Verfahrensweise der normale Betrieb wieder aufgenommen. Bei dem Verfahren wird davon ausgegangen, dass das primäre Rechenzentrum nach dem totalen Ausfall wiederhergestellt wurde und dass die mgc-Datenbank und die mgccomp-Datenbank mithilfe des Topologie-Generators neu erstellt und neu installiert wurden.
   
@@ -163,14 +163,14 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
     
    - Klicken Sie auf **OK**, um mit dem Wiederherstellungsvorgang zu beginnen.
     
-5. Konfigurieren sie SQL Server Protokollversand für die primäre Datenbank. Befolgen Sie die Verfahren unter [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015,](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) um den Protokollversand für die primäre mgc-Datenbank einzurichten.
+5. Konfigurieren Sie SQL Server Protokollversand für die primäre Datenbank. Befolgen Sie die Verfahren unter [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015,](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md) um den Protokollversand für die primäre mgc-Datenbank einzurichten.
     
 6. Legen Sie die aktiven Server für den Server für beständigen Chat fest. Verwenden Sie in der Skype for Business Server Verwaltungsshell das Cmdlet **"Set-CsPersistentChatActiveServer",** um die Liste der aktiven Server festzulegen.
     
     > [!IMPORTANT]
     > Alle aktiven Server müssen sich in demselben Datencenter wie die neue Primärdatenbank befinden oder in einem Datencenter, das über eine Datenbankverbindung mit geringer Wartezeit und hoher Bandbreite verfügt. 
   
-Führen Sie den folgenden Windows PowerShell Befehl aus, um den Pool in seinen normalen Zustand wiederherzustellen:
+Führen Sie den folgenden befehl Windows PowerShell aus, um den Pool in seinen normalen Zustand wiederherzustellen:
   
 ```PowerShell
 Set-CsPersistentChatState -Identity "service: lyncpc.dci.discovery.com" -PoolState Normal

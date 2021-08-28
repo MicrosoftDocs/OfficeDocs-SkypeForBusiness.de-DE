@@ -11,7 +11,7 @@ ms.service: msteams
 description: Beschreibt automatische Telefonkonferenzen in der Cloud und Anrufwarteschleifen und erläutert, wie Sie diese Anrufe in einem Teams.
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-voice
@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7b9510b3e7c31005c2ec75d6358c1f911daba752298b726e960bf38c63e11e4e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bb35bc5a035c03080ce44fa19fa3ecf5a5c674a6
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314261"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580289"
 ---
 # <a name="answer-auto-attendant-and-call-queue-calls-directly-from-teams"></a>Direktes Beantworten von Anrufen aus der automatischen Telefonzentrale und der Anrufwarteschleife aus Teams
 
@@ -32,7 +32,7 @@ Teams Benutzer können Anrufe von automatischen Cloud-Telefonkonferenzen und Anr
 
 ## <a name="what-are-auto-attendants-and-call-queues"></a>Was sind automatische Telefonkonferenzen und Anrufwarteschleifen?
 
-Automatische Cloud-Telefonkonferenzen bieten eine Reihe von Sprachanrufen oder eine Audiodatei, die Anrufer hören, statt einer menschlichen Telefongesellschaft, wenn sie sich in eine Organisation einmingen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden.
+Automatische Telefonkonferenzen in der Cloud stellen eine Reihe von Sprachanrufen oder eine Audiodatei zur Verfügung, die Anrufer hören, statt einer menschlichen Telefongesellschaft, wenn sie sich in eine Organisation einmingen. Bei einer automatischen Telefonzentrale können die Anrufer durch das Menüsystem navigieren, Anrufe einleiten oder Benutzer suchen, indem sie eine Wähltastatur eines Telefons (MFV) oder Spracheingaben mit Spracherkennung verwenden.
 
 Cloudanrufwarteschleifen beinhalten die beim Wählen einer Telefonnummer Ihrer Organisation verwendeten Begrüßungen, die Möglichkeit, den Anruf automatisch zu halten und nach dem nächsten verfügbaren Telefonisten zu suchen, um den Anruf zu entgegenzunehmen, während die Anrufe gehalten werden und die Anrufer dabei Musik hören. Sie können einzelne oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen.
 
@@ -44,7 +44,7 @@ Die folgende Abbildung zeigt, wie ein eingehender Anruf von einer automatischen 
 
 ![Screenshot einer Benachrichtigung über einen eingehenden Anruf](media/answer-auto-attendant-and-call-queue-calls-image1.png)
 
-Sobald eine automatische Telefonkonferenz oder ein Anrufwarteanruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf &#x2014; er kann einen anderen Benutzer hinzufügen oder eine Telefonkonferenz einberaumen oder den Anruf an eine andere Partei durch stellen. Außerdem werden Anrufe der automatischen Telefon attendant basierend auf der Konfiguration des Benutzers weitergeleitet.
+Sobald eine automatische Telefonant oder ein Anrufwarteschleifenanruf beantwortet wurde, kann der Benutzer den Anruf wie jeden anderen Anruf &#x2014; er kann einen anderen Benutzer hinzufügen oder eine Telefonkonferenz einberaumen oder den Anruf an eine andere Partei durch stellen. Außerdem werden Anrufe der automatischen Telefon attendant basierend auf der Konfiguration des Benutzers weitergeleitet.
 
 > [!NOTE] 
 > Anrufe in die Anrufwarteschleife werden nicht basierend auf der Konfiguration des Benutzers weitergeleitet. Dadurch soll sichergestellt werden, dass Anrufer so lange in der Warteschleife verbleiben, bis ein Agent den Anruf beantworten kann und der Anrufer nicht unerwartet weitergeleitet wird.
@@ -62,9 +62,9 @@ Die folgenden Clients unterstützen automatische Telefonant- und Anrufwarteschle
 
 Der Teams-Client wird nur mit dem [Koexistenzmodus Teams unterstützt.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
-## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der automatischen Telefon attendant- und Anrufwarteschleifenunterstützung für Microsoft Teams
+## <a name="configure-auto-attendant-and-call-queue-support-for-microsoft-teams"></a>Konfigurieren der automatischen Telefonant- und Anrufwarteschleifenunterstützung für Microsoft Teams
 
-Um Anrufe in der automatischen Telefonwarteschleife Microsoft Teams Anrufwarteschleifenanrufe zu empfangen, müssen Sie Ihre Interoperabilitätsrichtlinie und die Upgraderichtlinie konfigurieren. Lesen Sie [bitte Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business.](migration-interop-guidance-for-teams-with-skype.md) Wenn Sie keine automatische Telefonhalterung und/oder Anrufwarteschleife konfiguriert [](create-a-phone-system-auto-attendant.md) haben und dies tun möchten, lesen Sie Einrichten einer automatischen Cloud-Telefonkonferenz und Erstellen einer [Cloudanrufwarteschleife.](create-a-phone-system-call-queue.md)
+Um Anrufe in der automatischen Telefonwarteschleife Microsoft Teams Anrufwarteschleifenanrufe zu empfangen, müssen Sie Ihre Interoperabilitätsrichtlinie und die Upgraderichtlinie konfigurieren. Lesen Sie [bitte Migration und Interoperabilität für Organisationen, die Teams zusammen mit Skype for Business.](migration-interop-guidance-for-teams-with-skype.md) Wenn Sie keine automatische Telefon attendant und/oder Anrufwarteschleife konfiguriert [](create-a-phone-system-auto-attendant.md) haben und dies tun möchten, lesen Sie Einrichten einer automatischen Cloud-Telefonkonferenz und Erstellen einer [Cloud-Anrufwarteschleife.](create-a-phone-system-call-queue.md)
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
@@ -73,7 +73,7 @@ Wenn ein Telefonwarteschlangen-Agents einen Anruf auf dem mobilen Gerät erhält
 
 ## <a name="related-topics"></a>Verwandte Themen
 
--    [Was ist Telefonsystem in Microsoft 365 oder Office 365](what-is-phone-system-in-office-365.md)
+-    [Was ist Telefonsystem in Microsoft 365-Office 365](what-is-phone-system-in-office-365.md)
 -    [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md)
 -    [Was sind automatische Cloudtelefonzentralen?](what-are-phone-system-auto-attendants.md)
 -    [Einrichten einer automatischen Cloudtelefonzentrale](create-a-phone-system-auto-attendant.md)

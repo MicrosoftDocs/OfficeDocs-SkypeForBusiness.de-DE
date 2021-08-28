@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Archivierungsdatenbankoptionen für Skype for Business Server ändern.'
-ms.openlocfilehash: 74404b84be52a5a4b296029a61bd1060ebbc5f82a8aa1b3cdeb974cbfece6c44
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 6fecfb4a10020c031ccd2b6ccebda1b016fd24ba
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346471"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580699"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Ändern von Archivierungsdatenbankoptionen in Skype for Business Server
 
@@ -29,11 +29,11 @@ Wenn Sie die Archivierung mit SQL Server Speicher für den Archivierungsspeicher
     
 - Wechseln Sie zur Integration von Microsoft Exchange, um Archivierungsdaten und Dateien auf Exchange Servern zu speichern. Wenn alle Ihre Benutzer auf Ihren Exchange Servern verwaltet werden und Sie Microsoft Exchange Speicher für alle Benutzer in Ihrer Bereitstellung verwenden möchten, sollten Sie die SQL Server Speichern von Datenbanken aus Ihrer Topologie entfernen. 
     
-Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und dann die Topologie erneut veröffentlichen. Geben Sie keine **Archivierung SQL Server Speichers** an oder **aktivieren Sie SQL Server Spiegelungsinformationen,** es sei denn, Sie haben Skype for Business Benutzer, die nicht auf Exchange Servern verwaltet werden.
+Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und dann die Topologie erneut veröffentlichen. Geben Sie keine **Archivierung SQL Server Speichers** an oder aktivieren Sie **SQL Server Spiegelungsinformationen,** es sei denn, Sie haben Skype for Business Benutzer, die nicht auf Exchange Servern verwaltet werden.
   
 ## <a name="change-archiving-database-options"></a>Ändern von Optionen für Archivierungsdatenbanken
 
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mithilfe eines Kontos an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird, oder auf dem die Skype for Business Server Verwaltungstools installiert sind, mithilfe eines Kontos an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
     > [!NOTE]
     > Sie können eine Topologie definieren, indem Sie ein Konto verwenden, das Mitglied der lokalen Benutzergruppe ist, aber eine Topologie veröffentlichen. Dies ist erforderlich, um der Topologie eine Komponente hinzuzufügen. Sie müssen ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (d. h. Lese-, Schreib- und Änderungsberechtigungen) für die Dateifreigabe verfügt, die Sie für den Skype for Business Server Dateispeicher verwenden (d. h., dass der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) oder ein Konto mit entsprechenden Rechten konfigurieren kann.
@@ -58,7 +58,7 @@ Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausf
     
      - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten.
     
-     - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **"Neu"** und führen Sie dann im Dialogfeld **"Neue SQL Server Store definieren"** die folgenden Schritte aus:
+     - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **Neu,** und führen Sie dann im Dialogfeld **"Neuen SQL Server Store definieren"** die folgenden Schritte aus:
     
        - Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Speicher erstellen möchten.
     
@@ -72,7 +72,7 @@ Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausf
     
      - Um einen neuen SQL Server Speicher für die Spiegelung anzugeben, klicken Sie auf **Neu,** und führen Sie dann im Dialogfeld Neue **SQL Server Store** definieren eine der folgenden Aktionen aus:
     
-       a. Geben Sie **in SQL Server FQDN** den FQDN des SQL Server an, auf dem Sie den neuen SQL Server Speicher erstellen möchten.
+       a. Geben Sie in **SQL Server FQDN** den FQDN des SQL Server an, in dem Sie den neuen SQL Server Speicher erstellen möchten.
     
        b. Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie verwenden möchten.
     
@@ -80,7 +80,7 @@ Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausf
     
    - Wenn Sie SQL Server Spiegelung aktivieren und einen SQL Server Spiegelungszeugen hinzufügen oder ändern möchten (eine dritte, separate SQL Server Instanz, die die Integrität der primären SQL Server Server- und Spiegelinstanzen erkennen kann), aktivieren Sie das Kontrollkästchen **"Automatisches Failover" mithilfe SQL Server Spiegelungszeugen,** und führen Sie dann eine der folgenden Aktionen aus:
     
-      a. Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Spiegelungszeugen erstellen möchten.
+      a. Geben Sie in **SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Spiegelungszeugen erstellen möchten.
     
       b. Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
     

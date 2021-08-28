@@ -15,24 +15,24 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Legal
 - seo-marvel-mar2020
 hideEdit: true
-description: Hier erfahren Sie den praktischen Praktischen für PSTN-Anrufpläne für Skype for Business Großbritannien, einschließlich Angaben, wo Sie Hilfe erhalten und wie Sie Beanstandungen einreichen und Streitigkeiten bei der Streitigkeiten klären können.
-ms.openlocfilehash: 822fe58fd072bbb61626b0410876fe6adb3b4790a6db22c97196596f05adf52a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Hier erfahren Sie den praktischen Praktischen für PSTN-Anrufpläne für Skype for Business Großbritannien, einschließlich Angaben, wo Sie Hilfe erhalten und wie Sie Beanstandungen einreichen und Streitfälle beilegungen können.
+ms.openlocfilehash: afddab7205572386a616e0dcb07d00f226efda9c
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54306566"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580199"
 ---
 # <a name="calling-plans-in-microsoft-365---code-of-practice-for-the-united-kingdom-uk"></a>Anrufpläne in Microsoft 365 – Übungscode für Großbritannien (UK)
 
-Dieser Code gilt für Kleinunternehmen-Kunden (Organisationen mit bis zu 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Anrufplandienst Microsoft 365 oder Office 365 (den "Dienst") gemäß den UK-Kommunikationsbestimmungen. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft und anderen Bedingungen, die für Ihre Nutzung des jeweiligen Diensts gelten.
+Dieser Code gilt für Kunden von Kleinunternehmen (Organisationen mit bis zu 10 Mitarbeitern) im Vereinigten Königreich (UK) in Bezug auf den Anrufplandienst von Microsoft 365 oder Office 365 (den "Dienst") gemäß den UK-Kommunikationsbestimmungen. Andere Skype for Business-Dienste unterliegen Ihrem Servicevertrag mit Microsoft und anderen Bedingungen, die für Ihre Nutzung des jeweiligen Diensts gelten.
 
 ## <a name="1-about-skype-for-business"></a>1. Info zu Skype for Business
 
@@ -52,7 +52,7 @@ Einige Antworten auf Ihre Fragen erhalten Sie möglicherweise bereits auf der [S
 
 ## <a name="3-complaints-and-dispute-resolution"></a>3. Beanstandungen und Schlichtung bei Streitigkeiten
 
-Die Kundenzufriedenheit und ein hervorragender Service kommen bei uns an erster Stelle. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Auf der Seite Anrufpläne in Microsoft 365 oder Office 365 – Beanstandungshandling-Code für Großbritannien [(UK)](complaint-handling-code-for-the-united-kingdom-u-k.md) sind die Verfahren für kleine Unternehmen zum Einreichen einer Beanstandung bei uns und unser unabhängiges Schlichtungsverfahren bei Streitigkeiten im Detail.
+Die Kundenzufriedenheit und ein hervorragender Service kommen bei uns an erster Stelle. Sollten Sie jedoch eine Beanstandung haben, werden wir dafür schnell eine Abhilfe suchen. Auf der Seite Anrufpläne in Microsoft 365 oder Office 365 – Beanstandungshandling-Code für Großbritannien [(UK)](complaint-handling-code-for-the-united-kingdom-u-k.md) sind die Verfahren für kleine Unternehmen zur Einreichung einer Beanstandung bei uns und unser unabhängiges Schlichtungsverfahren bei Streitigkeiten im Detail.
   
 ## <a name="4-number-porting"></a>4. Nummernportierung
 
@@ -60,13 +60,13 @@ In einigen Fällen ist Skype for Business ggf. nicht in der Lage, die Telefonnum
 
 ## <a name="5-service-reliability"></a>5. Zuverlässigkeit beim Service
 
-Microsoft 365 oder Office 365-Anrufplan basiert auf Ihrer Breitbandverbindung. Wenn bei Ihrer Breitbandverbindung ein Stromausfall oder ein Stromausfall vor sich geht, können Sie keine Telefonanrufe mehr führen. Die Ursache für diese Fehler kann sich möglicherweise außerhalb unserer Kontrolle halten.
+Microsoft 365 oder Office 365-Anrufplan basiert auf Ihrer Breitbandverbindung. Wenn bei Ihrer Breitbandverbindung ein Stromausfall oder ein Stromausfall vor sich geht, können Sie keine Telefonanrufe mehr führen. Die Ursachen für diese Fehler können sich ihrer Kontrolle möglicherweise nicht mehr erennennen.
 
 ## <a name="6-emergency-calls"></a>6. Notrufe
 
 Skype for Business bietet Kunden in England, Wales, Schottland und Nordirland Zugriff auf die öffentlichen Notrufe 999/112. Notrufe bei 999 oder 112 funktionieren jedoch mit Microsoft 365- oder Office 365 Anrufplandiensten anders als bei herkömmlichen Telefondiensten. Kunden müssen jeden Benutzer über die Unterschiede in Microsoft 365 oder Office 365 Anrufplandienste informieren.
 
-Die Unterschiede umfassen Folgendes: (i) Skype for Business den tatsächlichen Standort eines Anrufers nicht kennen, was dazu führen kann, dass die Notrufdienste an den falschen Standort entsenert werden; (ii) Wenn ein Skype for Business-Benutzer einen Notruf wählt, kann er von einem Netzbetreiber aufgefordert werden, seinen aktuellen Standort zur Verfügung zu stellen, um bei der ordnungsgemäßen Weiterleitung des Notrufs und der Bereitstellung von Notdiensten zu helfen; (iii) Wenn das Gerät des Benutzers über keine Stromversorgung verfügt, ein Stromausfall auftritt oder der Benutzer aus irgendeinem Grund nicht anderweitig auf das Internet zugreifen kann, kann der Benutzer über Microsoft 365- oder Office 365-Anrufplandienste keinen Notruf abrufen; und (iv) Obwohl Microsoft 365- und Office 365-Anrufplandienste überall auf der Welt verwendet werden können, wo eine Internetverbindung verfügbar ist, sollten benutzer nicht unter 999 oder 112 außerhalb von England, Wales, Schottland oder Nordirland anrufen, da der Anruf wahrscheinlich nicht an den entsprechenden Notfalldienst umgerufen wird.
+Die Unterschiede umfassen Folgendes: (i) Skype for Business den tatsächlichen Standort eines Anrufers möglicherweise nicht kennen, was dazu führen kann, dass die Notfalldienste an den falschen Standort entsenert werden; (ii) Wenn ein Skype for Business-Benutzer einen Notruf wählt, kann er von einem Netzbetreiber aufgefordert werden, seinen aktuellen Standort zur Verfügung zu stellen, um bei der ordnungsgemäßen Weiterleitung des Notrufs und bei der Bereitstellung von Notdiensten zu helfen; (iii) Wenn das Gerät des Benutzers über keine Stromversorgung verfügt, ein Stromausfall auftritt oder der Benutzer aus irgendeinem Grund nicht anderweitig auf das Internet zugreifen kann, kann er über Microsoft 365- oder Office 365-Anrufplandienste keinen Notruf abrufen; und (iv) Obwohl Microsoft 365- und Office 365-Anrufplandienste überall auf der Welt verwendet werden können, wo eine Internetverbindung verfügbar ist, sollten benutzer nicht unter 999 oder 112 außerhalb von England, Wales, Schottland oder Nordirland anrufen, da der Anruf wahrscheinlich nicht an den entsprechenden Notdienst umgerufen wird.
 
 Es ist wichtig, dass jeder Kunde den Standort des Benutzers registriert und diese Informationen stets auf dem neuesten Stand hält, sodass sie den Notfalldiensten bereitgestellt werden können. Sie können Änderungen an den Standortinformationen online über das Skype for Business-Administratorportal vornehmen.
 

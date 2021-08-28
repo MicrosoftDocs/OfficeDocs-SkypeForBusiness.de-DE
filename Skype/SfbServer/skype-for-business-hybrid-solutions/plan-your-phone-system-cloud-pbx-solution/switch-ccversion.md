@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 95e37b13-525b-4690-be32-839312e4ffe3
 description: Das cmdlet Switch-CcVersion trennt die ausgeführte Appliance und wechselt zu einer neu bereitgestellten oder Sicherungsanwendung.
-ms.openlocfilehash: 1558f34d2388dc75bf4398ba15fc09cd36c439e2d70a39588ee697bc0ef04341
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9b15310956f80a9269c8fb611a0f7c6c06f561e7
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54320038"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580329"
 ---
 # <a name="switch-ccversion"></a>Switch-CcVersion
  
@@ -50,7 +50,7 @@ Switch-CcVersion -Force
 ## <a name="detailed-description"></a>Detaillierte Beschreibung
 <a name="DetailedDescription"> </a>
 
-Mit dem Cmdlet Switch-CcVersion werden die Cloud Connector-Dienste auf dem Vermittlungsserver und dem Edgeserver ausgeglichen. Alle laufenden Anrufe werden abgeschlossen, die Appliance lehnt jedoch alle neuen Anrufe ab. Nach dem Ausgleich trennt das Cmdlet die ausgeführte Appliance von den Unternehmens- und Internetnetzwerken, deaktiviert alle zur Appliance gehörenden virtuellen Computer und verbindet die Sicherungs-Appliance mit den Unternehmens- und Internetnetzwerken.
+Mit dem Cmdlet Switch-CcVersion werden die Cloud Connector-Dienste auf dem Vermittlungsserver und dem Edgeserver ausgeglichen. Alle laufenden Anrufe werden abgeschlossen, die Appliance lehnt jedoch alle neuen Anrufe ab. Nach dem Ausgleich trennt das Cmdlet die ausgeführte Appliance von den Unternehmens- und Internetnetzwerken, deaktiviert alle virtuellen Computer, die zur Appliance gehören, und verbindet dann die Sicherungsanwendung mit den Unternehmens- und Internetnetzwerken.
   
 ## <a name="parameters"></a>Parameter
 <a name="DetailedDescription"> </a>

@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployMainBootstrap
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 description: 'Zum Installieren und Aktivieren oder Deaktivieren oder Deinstallieren Skype for Business Server 2015-Komponenten verwenden Sie Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten. Sie müssen auf dem Computer, den Sie installieren oder ändern, als lokaler Administrator angemeldet sein und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf "Ausführen". Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Wenn die Installation abgeschlossen ist, überprüfen Sie die Zusammenfassung, und klicken Sie auf Fertig stellen.'
-ms.openlocfilehash: 0bff3c99ada173ddb617f67ab68a8b776936124bf89f82cbaa9c6a273da7acae
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 267a4be0f2077d9cfd1d422d87c5916ab7486ac9
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285075"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628927"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Einrichten oder Entfernen von Komponenten von Skype for Business Server
  

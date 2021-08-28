@@ -9,17 +9,17 @@ ms.topic: article
 ms.service: msteams
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
-description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen die kumulierten Verbesserungen der Microsoft Teams-Räume.
+description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulierte Verbesserungen in Microsoft Teams-Räume.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a76d2ba56a56b3055d0ca6838e512e2074afcf72c93c5590510a22bb946a63eb
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: aed319f4621cb95b653294f4b27d2ff37ffafb72
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346142"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629237"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Anmerkungen zu dieser Microsoft Teams-Räume
 
@@ -78,11 +78,11 @@ In diesem Artikel werden kumulierte Verbesserungen bei Microsoft Teams-Räume.
 ### <a name="49120-7282021"></a>4.9.12.0 (7/28/2021)
 
 In diesem Update eingeführt:
-- Microsoft Teams ist jetzt in den Anwendungseinstellungen verfügbar, sodass Sie kein Skype for Business mehr einrichten müssen. In diesem Modus treten Geräte, die Teams angemeldet sind, als Skype for Business als Gastbenutzer an Besprechungen teil.
+- Microsoft Teams ist jetzt in den Anwendungseinstellungen verfügbar, sodass Sie kein Konto mehr Skype for Business einrichten müssen. In diesem Modus treten Geräte, die Teams angemeldet sind, als Skype for Business als Gastbenutzer an Besprechungen teil.
 - Fix für HDMI-Audio, das zu einer geringeren Anruflautstärke führt. Das HDMI-Audiofeature wird automatisch für alle Geräte mit Anwendungsaufbau 4.9.12.0 aktiviert.
 
 > [!NOTE]
-> S Skype for Business Ende des Lebenszyklus wird empfohlen, auf den ausschließlichen Teams zu aktualisieren.
+> Da Skype for Business Ende des Lebenszyklus erreicht ist, empfiehlt es sich, auf den Teams zu aktualisieren.
 
 ### <a name="48310-05122021"></a>4.8.31.0 (05/12/2021)
 
@@ -90,24 +90,24 @@ In diesem Update eingeführt:
 - Windows 10 20H2-Support 
 
 > [!NOTE]
-> Für das UC-Engine (BIOS-Versionsdatum mit "KYSKLi") Teams-Räume liegen Kompatibilitätsprobleme vor, und aktualisierte Treiber werden in naher Zukunft von System-OEMs bereitgestellt. Windows 10 20H2 wird diesen Geräten nicht angeboten. Weitere Informationen zur Unterstützung Windows Version finden Sie unter Windows 10 [Release-Support.](./rooms-lifecycle-support.md#windows-10-release-support)
+> Für einen UC-Engine (BIOS-Versionsdatum mit "KYSKLi") Teams-Räume gibt es Kompatibilitätsprobleme, und in naher Zukunft werden aktualisierte Treiber von System-OEMs bereitgestellt. Windows 10 20H2 wird diesen Geräten nicht angeboten. Weitere Informationen zur Unterstützung Windows Version finden Sie unter Windows 10 [Release-Support.](./rooms-lifecycle-support.md#windows-10-release-support)
 
 ### <a name="48250-04222021"></a>4.8.25.0 (04/22/2021)
 
 In diesem Update eingeführt:
-- Fix für ein Problem, bei dem Rauminformationen auf Teams-Räume-Konsolen für Raumkonten, die aus der globalen Adressliste (GAL) ausgeblendet sind, nicht angezeigt werden
+- Fix für ein Problem, bei dem Rauminformationen auf Teams-Räume-Konsolen für Raumkonten, die in der globalen Adressliste (GAL) ausgeblendet sind, nicht angezeigt werden
 
 > [!NOTE]
-> GCCH-Kunden können das Upgradepaket von [Manuelles Aktualisieren eines](manual-update.md) Microsoft Teams-Räume herunterladen.
+> GGCH-Kunden können das Upgradepaket von [Manuelles Aktualisieren eines](manual-update.md) Microsoft Teams-Räume herunterladen.
 
 ### <a name="48190-04062021"></a>4.8.19.0 (04/06/2021)
 
 In diesem Update eingeführt:
-- Government Community Cloud High (GCCH) support for Teams-Räume. GCCH-Kunden mit vorhandenen Teams-Räume können Version 4.8.19.0 über manuelles Aktualisieren eines Microsoft Teams-Räume [herunterladen.](manual-update.md)
+- Government Community Cloud Hohe (GCCH)-Unterstützung für Teams-Räume. GCCH-Kunden mit vorhandenen Teams-Räume können Version 4.8.19.0 über [manuelles Aktualisieren](manual-update.md) eines Microsoft Teams-Räume herunterladen.
 - Teilnehmen an Zoom-Besprechungen mit besserer Videoqualität (720p-Unterstützung) und Empfangen der Videogalerie von Teilnehmern
-- Skype for Business Banner "Anmeldefehler" wurde für den Teams entfernt. Diese Änderung unterstützt Organisationen, die Skype for Business entfernen.
-- Teams Besprechungen werden jetzt mit der Analyse von Verknüpfungen behandelt Microsoft Defender Advanced Thread Protection Tresor Links, um die nahtlose Teilnahme an externen Teams zu ermöglichen
-- Fix für das Problem mit der Skalierung von freigegebenen Inhalten in Skype for Business Besprechungen, wenn auf dem PC des Freigebens ein benutzerdefinierter DPI-Wert in einer Windows
+- Skype for Business Banner für Fehler bei der Anmeldung wurde für den Teams entfernt. Diese Änderung unterstützt Organisationen, die Skype for Business entfernen.
+- Teams Die Analyse von Verknüpfungen für die Teilnahme an Besprechungen behandelt jetzt Microsoft Defender Advanced Thread Protection Tresor Links, um die nahtlose Teilnahme an externen Teams zu ermöglichen.
+- Fix für das Problem mit der Skalierung von geteilten Inhalten in Skype for Business, wenn auf dem PC des freigebende Benutzers ein benutzerdefinierter DPI-Wert in einer Windows
 - Qualitäts- und Zuverlässigkeitsfixes
 
 ### <a name="47190-02032021"></a>4.7.19.0 (02/03/2021)
@@ -120,8 +120,8 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Freigeben von HDMI-Audio für Besprechungsteilnehmer in Teams Besprechung
-- Cortana (Vorschau)
-- Verhindern Sie die Stummschaltung basierend auf Audioberechtigungen, Teams Raum als Teilnehmer teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Teilnehmeraudioberechtigungen in Teams Besprechungen.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
+- Cortana -Sprachkenntnisse (Vorschau)
+- Verhindern Sie die Stummschaltung basierend auf Audioberechtigungen, Teams Raum als Teilnehmer teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Audioberechtigungen für Teilnehmer in Teams Besprechungen.](https://support.microsoft.com/office/manage-attendee-audio-permissions-in-teams-meetings-f9db15e1-f46f-46da-95c6-34f9f39e671a)
 - Spotlight someone's video from Teams Room console and consume spotlighted video on room displays
 
 > [!NOTE]
@@ -149,7 +149,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Koordinierte Besprechungen zwischen Microsoft Teams und Surface Hub 2S
-- Beheben eines Skype bei einem Anmeldefehler bei Windows 10 bei der Installation von [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) oder Windows 10 [Update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709)
+- Fix für Skype bei einem Anmeldefehler bei Windows 10, wenn das Update [KB4565351](https://support.microsoft.com/help/4565351/windows-10-update-kb4565351) oder Windows 10 [Update KB4571709](https://support.microsoft.com/help/4571709/windows-10-update-kb4571709) installiert ist
 
 ### <a name="45350-07232020"></a>4.5.35.0 (07/23/2020)
 
@@ -161,7 +161,7 @@ In diesem Update eingeführt:
 - Wechseln zum Layout des Videokatalogs auch dann, wenn Inhalte vorhanden sind
 - Unterstützung virtueller Hände für Teilnehmer und Steuerelemente für Präsentierende
 - Anpassbare Standardlautstärkeeinstellung für Konferenzen und Standardlautsprecher
-- Suchen und Anrufen von Partnerbenutzern (Mandant) aus Teams Raum
+- Suchen und Anrufen von Partnerbenutzern (Mandant) in Teams Raum
 
 > [!IMPORTANT]
 > Version 4.5 ist die letzte Version zur Windows 10 Version 1803. zukünftige Versionen werden für Systeme mit Windows 10 Version 1803 nicht mehr angeboten. Weitere Informationen zur Unterstützung Windows Version finden Sie unter Windows 10 [Release-Support.](./rooms-lifecycle-support.md#windows-10-release-support)
@@ -186,8 +186,8 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Unterstützung der modernen Authentifizierung Exchange und Skype for Business
-- Unterstützung für dynamische Notrufe für Teams (Servicekomponenten erforderlich und mithilfe von Teams-Ringen freigegeben)
+- Unterstützung der modernen Authentifizierung für Exchange und Skype for Business
+- Unterstützung für dynamische Notrufe für Teams (Servicekomponenten erforderlich und freigegeben mithilfe Teams Client Rings)
 - Möglichkeit zum Deaktivieren von doppelten Inhalten aus der Besprechung für zwei Räume mit XML
 - Begrüßungsbildschirm der Anwendung
 - Hinweise zur Open Source Software (OSS) in den Geräteeinstellungen
@@ -212,7 +212,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Automatische Antwort für näherungsbasierte Anrufe und Administratoreinstellung, um dies zu steuern
-- Geräteadministrator Einstellungen Benutzeroberflächenaktualisierung mit Ergänzung der Gerätekonfiguration auf der Registerkarte "Informationen"
+- Geräteadministrator Einstellungen Aktualisieren der Benutzeroberfläche mit Ergänzung der Gerätekonfiguration auf der Registerkarte "Informationen"
 - Raumsteuerung zurück zum Hauptbildschirm
 - Besprechungsraum SKU in GCC
 - Unterstützung der Inhaltskamera für Surface Pro System (mindestens erforderliche App-Build: 4.2.4.0)
@@ -221,7 +221,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Windows 10 1903-Support. Windows 10 1903-Update wird einige Tage nach dem App-Update angeboten.
+- Windows 10 1903-Support. Windows 10 1903-Update wird in einigen Tagen nach dem App-Update angeboten
 - Korrekturen für Bildschirmtastatur werden nicht zuverlässig angezeigt
 
 ### <a name="41220-08152019"></a>4.1.22.0 (08/15/2019)
@@ -239,11 +239,11 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Skype Room System Store-App wird in "Microsoft Teams-Räume" umbenennt
-- Microsoft Teams-Räume der Konsolen-Benutzeroberfläche ist auf eine Microsoft Teams
-- Designupdate: Benutzerdefiniertes Hintergrundbild nur vor Raumanzeigen behalten, während Konsolenhintergrund zu einer neutralen Farbe wird, um sicherzustellen, dass die UI-Steuerelemente der Konsole Farbkontrast erfüllen – Anforderungen an die Barrierefreiheit
+- Microsoft Teams-Räume Konsolen-Benutzeroberfläche ist auf eine Microsoft Teams
+- Designupdate: Benutzerdefiniertes Hintergrundbild nur vor Raumanzeigen anzeigen lassen, während Konsolenhintergrund zu einer neutralen Farbe wird, um sicherzustellen, dass die UI-Steuerelemente der Konsole Farbkontrast erfüllen – Anforderungen an die Barrierefreiheit
 - Universelle Leiste für Steuerelemente für Besprechungsanrufe für Teams-Anrufe/-Besprechungen, um eine konsistente Erfahrung mit Microsoft Teams PC/Web/Mobile Clients<sup>1 zu bieten.</sup>
 - Bewertung von Feedback zur Anrufqualität nach Teams/Besprechungen<sup>1</sup>
-- Empfangen/Rendern von Microsoft Whiteboard auf Microsoft Teams-Räume vor dem Raum, wenn sie vom PC/ Aus dem Web/mobilen Teams<sup>1</sup> <sup>2 freigegeben werden</sup>
+- Empfangen/Rendern von Microsoft Whiteboard auf Microsoft Teams-Räume der Raumanzeige bei freigaben vom PC/ Web/ Mobile Teams<sup>Client 1</sup> <sup>2</sup>
 - Der Support für Windows 10 Version 1809-Upgrades wurde aufgrund von Kompatibilitätsproblemen mit dem Microsoft Teams-Räume entfernt. Windows 10 Support für Version 19H1 wird in zukünftigen Versionen hinzugefügt
 
 <sup>1 Microsoft Teams</sup> Rollout des Diensts mithilfe Teams Ringen. Dieses Feature ist möglicherweise vor oder nach dem Clientupdate 4.0.105.0 verfügbar.
@@ -255,7 +255,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Behebt ein Problem mit dem Feature "Feedback geben".
-- Optimierungen als Vorbereitung auf das bevorstehende Microsoft Teams-Räume Geräteupgrade auf Windows 10 Version 1809
+- Optimierungen in Vorbereitung auf das bevorstehende Microsoft Teams-Räume Geräteupgrade auf Windows 10 Version 1809
 
 ### <a name="40780-03142019"></a>4.0.78.0 (03/14/2019)
 
@@ -298,21 +298,21 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - Erforderliche Codeänderungen zum Vorbereiten der Microsoft Teams-Räume-App für eine spätere Windows 10 Version 1803
-- Beheben eines Formatierungsproblems mit lokalisierten EULAs (speziell Norwegisch), wodurch verhindert wird, dass das Setupfenster des EULA OOBE nicht mehr weiter kommt
+- Beheben eines Formatierungsproblems mit lokalisierten EULAs (speziell Norwegisch), wodurch verhindert wird, dass das Setupfenster des EULA OOBE nicht mehr zur
 - Codeänderungen, die erforderlich sind, damit Microsoft Teams-Räume Auf älteren Lync Room Systems ausgeführt werden kann. Weitere Informationen [finden Sie hier.](./lrs-migration.md)
 
 ### <a name="40190-8312018"></a>4.0.19.0 (8/31/2018)
 
 In diesem Update eingeführt:
 
-- Hotfix for Crestron application not launching which would normally be accessible when the app button on a Crestron SR device is pressed. Microsoft Teams-Räume Neustart der App nach der Installation von 4.0.19.0 erforderlich.
+- Hotfix für die Anwendung "Crestron" wird nicht gestartet, auf die normalerweise zugegriffen werden könnte, wenn die App-Schaltfläche auf einem Gerät mit einem Crestron SR gedrückt wird. Microsoft Teams-Räume Nach der Installation von 4.0.19.0 ist ein Neustart der App erforderlich.
 
 ### <a name="40180-08272018"></a>4.0.18.0 (08/27/2018)
 
 In diesem Update eingeführt:
 
 - Featureverbesserungen für "Problem melden" im Teams (Äquivalent zu "Feedback" im Skype for Business)
-- Ermöglichen des Rückfallens vom Teams in den Skype for Business für SIP-Anrufe
+- Ermöglichen, bei SIP-Anrufen vom Teams in den Skype for Business zurück zu wechseln
 - Verbesserungen der Barrierefreiheit (Sprachausgabe, Bildschirmlupe)
 - App automatisch neu starten, wenn dies erforderlich ist, nachdem Änderungen der XML-Bereitstellung angewendet wurden
 - Sonstige Fehlerbehebungen
@@ -321,7 +321,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Dieses Update ermöglicht sowohl Skype for Business *als* Teams Unterstützung von Besprechungen auf Raumsystemen. Teams ist standardmäßig deaktiviert, sobald das Update angewendet wurde. Administratoren können Eine Teams in geräteeinstellungen oder über einen Remote-XML-Push aktivieren.
+- Dieses Update ermöglicht sowohl Skype for Business *als* Teams Unterstützung von Besprechungen auf Raumsystemen. Teams ist standardmäßig deaktiviert, sobald das Update angewendet wurde. Administratoren können eine Teams in Geräteeinstellungen oder über einen Remote-XML-Push aktivieren.
 
 ### <a name="311150-06182018"></a>3.1.115.0 (06/18/2018)
 
@@ -340,7 +340,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Beheben von Problemen mit der Reaktionsfähigkeit der Konsole, die auf Surface Pro 2017-basierten Geräten beobachtet wurden, die an zwei Front-of-Room-Anzeigen und die Videoaufnahme angeschlossen sind
+- Beheben von Problemen mit der Reaktionsfähigkeit der Konsole, die auf Surface Pro 2017-basierten Geräten beobachtet wurden, die mit zwei Anzeigen im Raum und der Aufnahme von Videos verbunden sind
 - Automatische Überprüfung, um sicherzustellen, dass auf dem System die neuesten Bereitstellungsskripts ausgeführt werden
 
 ### <a name="311040-04162018"></a>3.1.104.0 (04/16/2018)
@@ -384,13 +384,13 @@ In diesem Update eingeführt:
 
 - Unterstützung für [Dockhardware der Polycom MSR Series](https://www.polycom.com/hd-video-conferencing/microsoft-video/msr-series.mdl)
 - Support für [Logitech Brio](https://www.logitech.com/product/brio)
-- Behebt ein Problem, bei dem Anzeigen (Konsole und Front-of-Room) nicht in den Ruhemodus wechseln können, wenn keine Aktivität im Raum vorhanden ist.
+- Behebt ein Problem, bei dem Anzeigen (Konsole und Front-of-Room) nicht in den Ruhezustand wechseln können, wenn keine Aktivität im Raum vorhanden ist.
 
 ### <a name="30120-912017"></a>3.0.12.0 (9/1/2017)
 
 In diesem Update eingeführt:
 
-- Wird auf einem Surface Pro (2017) ausgeführt
+- Wird auf einem Surface Pro (2017) ausgeführt.
 - Unterstützt Windows 10 Enterprise Creator's Update (englische Sprache, Build 1703)
 - Unterstützung für [die Hardware der Docking-Station "Crestron SR"](https://www.crestron.com/products/line/sr-for-skype-for-business-room-system)
 - OEM-Unterstützung für Umgebungssteuerelemente (Crestron)
@@ -407,7 +407,7 @@ In diesem Update eingeführt:
 
 In diesem Update eingeführt:
 
-- Dual-Screen (für ältere Systemparität)
+- Dual-Screen (für die Parität des älteren Systems)
 - Designs (integrierte Designs und die Möglichkeit zum Festlegen eines benutzerdefinierten Designs)
 - Möglichkeit zum Abgeben von Feedback für öffentliche Builds
 - Verbesserte Telemetrie rund um die Zuverlässigkeit von Besprechungs-Teilnahmen
@@ -419,7 +419,7 @@ In diesem Update eingeführt:
 In diesem Update eingeführt:
 
 - App-in-app-Benutzerauswahl von Audio- und Video-USB-Geräten für Besprechungsraum
-- Statusberichte für integrierte Raumkonsolen für Kunden, die microsoft Operations Management Suite verwenden, jetzt Azure Monitor
+- Statusberichte für integrierte Raumkonsolen für Kunden, die die Microsoft Operations Management Suite verwenden, jetzt Azure Monitor
 
 ### <a name="release-to-market-1272016"></a>Release to Market (07.12.2016)
 
@@ -449,7 +449,7 @@ In diesem Update eingeführt:
 - Überwacht und verwaltet als mobiles Windows 10 Enterprise über Intune und Configuration Manager (MDM)
 - Zuverlässigkeit der Unternehmensklasse
 - Geringer Aufwand für Endbenutzerschulungen dank der vertrauten Skype-Benutzeroberfläche
-- Wird auf einem Surface Pro 4 ausgeführt.
+- Wird auf einem Surface Pro 4 ausgeführt
 
 <a name="See"> </a>
 ## <a name="see-also"></a>Siehe auch

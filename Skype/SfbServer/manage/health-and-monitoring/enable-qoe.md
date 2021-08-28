@@ -9,15 +9,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Zusammenfassung: Erfahren Sie, wie Sie QoE (Quality of Experience) in Skype for Business Server aktivieren.'
-ms.openlocfilehash: 12428d02784c858f07f8aeb937420299f0c5e1220772e19c49c388a49eef216a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5865417582f2676525e955efd800684647d9a191
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54301361"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58580589"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Aktivieren der Erlebnisqualität in Skype for Business Server
 
@@ -42,11 +42,11 @@ Verwenden Sie das folgende Verfahren, um QoE für Die gesamte Organisation oder 
 
 ## <a name="enabling-qoe-by-using-windows-powershell-cmdlets"></a>Aktivieren von QoE mithilfe Windows PowerShell Cmdlets
 
-Sie können QoE mit Windows PowerShell und dem Cmdlet **"Set-CsQoEConfiguration"** aktivieren. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) Der Vorgang ist in Skype for Business Server identisch.
+Sie können QoE mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsQoEConfiguration"** aktivieren. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) Der Vorgang ist in Skype for Business Server identisch.
 
 ### <a name="to-enable-qoe-for-a-single-location"></a>So aktivieren Sie QoE für einen einzelnen Speicherort
 
- Um QoE zu aktivieren, legen Sie den Parameter "EnableQoE" auf "True" ($True) fest.
+ Um QoE zu aktivieren, legen Sie den EnableQoE-Parameter auf "True" ($True) fest.
 
   ```PowerShell
   Set-CsQoEConfiguration -Identity "site:Redmond" -EnableQoE $True

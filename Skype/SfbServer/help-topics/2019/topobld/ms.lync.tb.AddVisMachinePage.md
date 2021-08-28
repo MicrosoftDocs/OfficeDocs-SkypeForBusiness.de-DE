@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AddVisMachinePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: acf278d6-36bc-4cfe-839e-54149e72dc1d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: 5d19663f96ea0ffbb6a9ea170a65728465ef4f8fa6a8368186fa8fa0fe1dd290
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3fd673a76bba0c2ce610c3c7578f193e6b44c463
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54304157"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58629047"
 ---
 # <a name="add-vis-machine"></a>Hinzufügen eines VIS-Computers
  
@@ -36,4 +36,4 @@ Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit 
   
 ## <a name="see-also"></a>Siehe auch
 
-[Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+[Planen des Videointeroperabilitätsservers in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)

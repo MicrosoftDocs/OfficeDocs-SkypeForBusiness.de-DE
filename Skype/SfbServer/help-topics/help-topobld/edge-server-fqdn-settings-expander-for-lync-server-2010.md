@@ -1,5 +1,5 @@
 ---
-title: Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
+title: Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -12,21 +12,21 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.EdgeFqdnsSettingsExpander2010
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Um die Eigenschaften unter "Externe Einstellungen" zu definieren, konfigurieren Sie Folgendes:'
-ms.openlocfilehash: d8c800051dcbc6aa2c1a533940c3d3d558ef86ba8db115e557846dc04a08c795
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 3aff6f1a185f7f0d4cb3a596bf8dabea0feb9f89
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54307156"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628767"
 ---
-# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
+# <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
  
 Um die Eigenschaften unter **"Externe Einstellungen"** zu definieren, konfigurieren Sie Folgendes:
   
-Aktivieren Sie das Kontrollkästchen **Separate FQDN und IP-Adresse für Webkonferenzen und A/V aktivieren,** wenn Sie unterschiedliche Pool-FQDNs und IP-Adressen für Webkonferenzen und Audio/Video definieren möchten.
+Aktivieren Sie das Kontrollkästchen **separate FQDN und IP-Adresse für Webkonferenzen und A/V** aktivieren, wenn Sie unterschiedliche Pool-FQDNs und IP-Adressen für Webkonferenzen und Audio/Video definieren möchten.
   
 > [!NOTE]
 > Wenn Sie das Kontrollkästchen für separate FQDN- und IP-Adressen nicht aktivieren, müssen Sie unterschiedliche Ports für jeden der drei vom Edgeserver bereitgestellten Dienste bereitstellen. Der einzige vollqualifizierte Domänenname, der konfiguriert werden soll, ist der FQDN, der dem Zugriffs-Edgedienst zugeordnet ist. 

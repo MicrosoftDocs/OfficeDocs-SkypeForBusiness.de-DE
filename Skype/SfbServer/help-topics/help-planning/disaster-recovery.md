@@ -13,20 +13,20 @@ ms.custom:
 - ms.lync.plan.DisasterRecovery
 - ms.lync.plan.DisasterRecovery
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
-description: Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, indem Sie Front-End-Pools in zwei Rechenzentren koppeln können.
-ms.openlocfilehash: 052b0710736d45516518ff8b37d36ad2d5d5bd55d2c3e8fe87f9a0ec2ca7b06c
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, mit denen Sie Front-End-Pools in zwei Rechenzentren koppeln können.
+ms.openlocfilehash: 97baf11efb001b6ff02dc9beb083590205536449
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333827"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58628797"
 ---
 # <a name="skype-for-business-server-disaster-recovery-planning-tool"></a>Skype for Business Server Tool zur Planung der Notfallwiederherstellung
  
-Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, indem Sie Front-End-Pools in zwei Rechenzentren koppeln können.
+Skype for Business Server 2015 umfasst Notfallwiederherstellungsmaßnahmen, mit denen Sie Front-End-Pools in zwei Rechenzentren koppeln können.
   
-Ausführliche Informationen zur Vorbereitung Ihrer Umgebung auf die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 
