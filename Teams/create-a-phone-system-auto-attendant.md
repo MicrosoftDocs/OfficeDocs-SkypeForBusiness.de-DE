@@ -16,18 +16,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Microsoft Teams.
-ms.openlocfilehash: 6db2dd5b63e26c74de09b8d4b563fe48393a3a37
-ms.sourcegitcommit: 9062b2c81c582ddc878c825ba1b22a6c23ca4b64
+ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/19/2021
-ms.locfileid: "58398904"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634869"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -41,7 +41,7 @@ Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatischer [](plan-a
 Automatische Telefon attendants can direct calls, based on callers' input, to one of the following destinations: <a name="call-routing-options" ></a>
 
 - **Operator** : Der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als jedes der anderen Ziele in dieser Liste definiert werden.
-- **Person in der Organisation–** eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Bei dieser Person kann es sich um einen Onlinebenutzer oder einen lokal mithilfe eines Kontos gehosteten Skype for Business Server.
+- **Person in der Organisation–** eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Bei dieser Person kann es sich um einen Onlinebenutzer oder einen Lokal gehosteten Benutzer Skype for Business Server.
 - **Sprach-App** – eine andere automatische Telefon attendant oder eine Anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefon attendant oder der Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
 - **Voicemail:** Das Sprachpostfach, das einer bestimmten Microsoft 365-Gruppe zugeordnet ist. Sie können wählen, ob Voicemail-Transkriptionen und das "Bitte hinterlassen Sie eine Nachricht nach dem Ton" angezeigt werden soll. Systemaufforderung.
 - **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
@@ -123,9 +123,9 @@ Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **
 
 **Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Wähltastatur des Telefons eingeben. Jeder Onlinebenutzer oder jeder benutzer, der mit Skype for Business Server lokal gehostet wird, ist berechtigter Benutzer und kann mit Namenswählen gefunden werden. (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
 
-**Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie deren Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder lokal mit Skype for Business Server gehostete Benutzer ist berechtigter Benutzer und kann mit der Durchwahl **durch Durchwahl gefunden werden.** (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
+**Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie deren Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder lokal mit Skype for Business Server gehostete Benutzer ist berechtigter Benutzer und kann mit der **Durchwahl-Erweiterung gefunden werden.** (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
 
-Benutzer, die für die Durchwahlerweiterung verfügbar sein möchten, müssen eine Erweiterung haben, die als Teil eines [](/microsoft-365/admin/add-users/add-users) der folgenden Telefonattribute angegeben ist, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massen hinzufügen.)
+Benutzer, die für die Durchwahlerweiterung verfügbar sein möchten, müssen eine Erweiterung haben, die als Teil eines [](/microsoft-365/admin/add-users/add-users) der folgenden Telefonattribute angegeben ist, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massenbenutzern.)
 
 - OfficePhone
 - HomePhone
@@ -234,7 +234,7 @@ Die ausgehende Telefonnummer, die angezeigt wird, wird wie folgt bestimmt:
     - Wenn dies auf Deaktiviert festgelegt ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die empfohlene Standardeinstellung.
     - Ist diese Option aktiviert, wird die Telefonnummer des Ressourcenkontos angezeigt.
 
-Um in Skype for Business Hybridumgebung einen Anruf einer automatischen Telefonkonferenz an das PSTN zu übertragen, erstellen Sie einen neuen lokalen Benutzer, für den die Anruf weiterleitung auf die PSTN-Nummer festgelegt ist. Dem Benutzer muss eine Sprachrichtlinie Enterprise-VoIP aktiviert sein. Weitere Informationen finden Sie unter [Anrufübertragung der automatischen Telefonant an das PSTN.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
+Um in Skype for Business Hybridumgebung einen Anruf einer automatischen Telefonkonferenz an das PSTN zu übertragen, erstellen Sie einen neuen lokalen Benutzer, für den die Anruf weiterleitung auf die PSTN-Nummer festgelegt ist. Der Benutzer muss für den Zugriff aktiviert Enterprise-VoIP und ihm muss eine Sprachrichtlinie zugewiesen sein. Weitere Informationen finden Sie unter [Anrufübertragung der automatischen Telefonant an das PSTN.](/SkypeForBusiness/plan/exchange-unified-messaging-online-migration-support#auto-attendant-call-transfer-to-pstn)
 
 ### <a name="create-an-auto-attendant-with-powershell"></a>Erstellen einer automatischen Attendant mit PowerShell
 

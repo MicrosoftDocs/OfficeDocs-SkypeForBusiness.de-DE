@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.lscp.ImpChooseFileType
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 3638cdc8-71dd-4a22-8613-83859af97387
 description: Im Dialogfeld Dateityperweiterungen auswählen können Sie die Dateityperweiterungen auswählen, die blockiert oder zugelassen werden sollen. Zum Blockieren aktivieren Sie das Kontrollkästchen neben den jeweiligen Erweiterungen unter Dateityperweiterungen, zum Zulassen deaktivieren Sie das Kontrollkästchen. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und sämtliche Dateityperweiterungen für diese Kategorie anzuzeigen. Wenn Sie alle Dateityperweiterungen für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen.
-ms.openlocfilehash: 337016f01b3fc9aea0559572d3d21c8cbbaa76f49cae6b17faf8010a97f5265a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 18339e11b60e232ed3a85c4708976111ad0a11bb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54330049"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634509"
 ---
 # <a name="select-file-type-extensions"></a>Auswählen von Dateityperweiterungen
  

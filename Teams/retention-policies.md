@@ -10,7 +10,7 @@ ms.topic: conceptual
 ms.service: msteams
 audience: admin
 description: Verwenden Sie Aufbewahrungsrichtlinien für Microsoft Teams, um Nachrichten aufzubewahren, die Ihre Organisation zur Einhaltung interner Richtlinien, Branchenvorschriften oder rechtlicher Anforderungen benötigt, und um Nachrichten zu löschen, die als Belastung angesehen werden oder keinen rechtlichen Geschäftswert haben.
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a122bd1d0bb3c8cba450293b43f7532f36c510831bd301ed30d9955a9a1f8d31
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54296692"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634839"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Aufbewahrungsrichtlinien für Microsoft Teams Verwalten
 
@@ -63,13 +63,13 @@ Diese beiden Grundsätze der Aufbewahrung adressieren die meisten Konflikte, die
 
 In vielen Fällen betrachten Organisationen private Chat-Daten als eine größere Belastung als Kanalnachrichten, bei denen es sich in der Regel eher um projektbezogene Gespräche handelt.
 
-Sie können eine einzelne Aufbewahrungsrichtlinie sehr effizient für alle nachrichten Teams konfigurieren. Zur Feinsteuerung können Sie aber auch:
+Sie können eine einzelne Aufbewahrungsrichtlinie sehr effizient für alle Teams konfigurieren. Zur Feinsteuerung können Sie aber auch:
 
 - Es gibt separate Aufbewahrungsrichtlinien für private Chats (1:1- oder 1:n-Chats), Nachrichten von Standardkanälen oder Nachrichten von privaten Kanälen.
 
-- Wenden Sie die Richtlinien nur auf bestimmte Benutzer oder Teams in Ihrer Organisation an. Für Teams chats und private Kanäle können Sie auswählen, für welche Benutzer die Richtlinie gilt. Bei Teams-Kanalnachrichten können Sie auswählen, für welche Teams die Richtlinie gilt.
+- Wenden Sie die Richtlinien nur auf bestimmte Benutzer oder Teams in Ihrer Organisation an. Für Teams Chats und privaten Kanälen können Sie auswählen, für welche Benutzer die Richtlinie gilt. Bei Teams-Kanalnachrichten können Sie auswählen, für welche Teams die Richtlinie gilt.
 
-Beispiel für Standardkanalnachrichten: Erstellen Sie eine Aufbewahrungsrichtlinie für bestimmte Teams in Ihrer Organisation, und konfigurieren Sie diese Richtlinie nach einem Jahr mit einer Löschaktion. Erstellen Sie dann eine weitere Aufbewahrungsrichtlinie für Standardkanalnachrichten für alle anderen Teams, und konfigurieren Sie diese Richtlinie nach 3 Jahren mit einer Löschaktion.
+Beispiel für Standardkanalnachrichten: Erstellen Sie eine Aufbewahrungsrichtlinie für bestimmte Teams in Ihrer Organisation, und konfigurieren Sie diese Richtlinie nach einem Jahr mit einer Löschaktion. Erstellen Sie dann eine weitere Aufbewahrungsrichtlinie für Standardkanalnachrichten für alle anderen Teams, und konfigurieren Sie diese Richtlinie mit einer Löschaktion nach 3 Jahren.
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Aufbewahrungsrichtlinien für Teams erstellen und verwalten
 

@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Jeder Datensatz stellt einen Audiodatenstrom dar. Eine Audiomedienzeile enthält in der Regel zwei Audiodatenströme.
-ms.openlocfilehash: 28111f9c97efdc729d13fda824f4236caad97eee1f08ff31eea0b751dda1cb88
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5b442c011d9e65e67fdc5cb06dd79c0f5fbee8c4
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54309194"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627757"
 ---
 # <a name="audiostream-table"></a>AudioStream-Tabelle
  
@@ -27,27 +27,27 @@ Jeder Datensatz stellt einen Audiodatenstrom dar. Eine Audiomedienzeile enthält
 |Spalte|Datentyp|Schlüssel/Index|Details|
 |:-----|:-----|:-----|:-----|
 |**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |Ganzzahl  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
 |**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**StreamID** <br/> |Ganzzahl  <br/> |Primary  <br/> |Eindeutige ID innerhalb einer Medienzeile.  <br/> |
-|**JitterInterArrival** <br/> |Ganzzahl  <br/> | <br/> |Durchschnittlicher Netzwerkjitter aus RTCP-Statistik (Real Time Control Protocol).  <br/> |
-|**JitterInterArrivalMax** <br/> |Ganzzahl  <br/> | <br/> |Maximaler Netzwerkjitter während des Anrufs.  <br/> |
+|**StreamID** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID innerhalb einer Medienzeile.  <br/> |
+|**JitterInterArrival** <br/> |int  <br/> | <br/> |Durchschnittlicher Netzwerkjitter aus RTCP-Statistik (Real Time Control Protocol).  <br/> |
+|**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Maximaler Netzwerkjitter während des Anrufs.  <br/> |
 |**PacketLossRate** <br/> |decimal(5,4)  <br/> | <br/> |Durchschnittliche Paketverlustrate während des Anrufs.  <br/> |
 |**PacketLossRateMax** <br/> |decimal(5,4)  <br/> | <br/> |Maximale Paketverlustrate während des Anrufs.  <br/> |
 |**BurstDensity** <br/> |decimal(9,4)  <br/> | <br/> |Durchschnittliche Dichte von Paketverlusten bei Verlusten während des Anrufs.  <br/> |
-|**BurstDuration** <br/> |Ganzzahl  <br/> | <br/> |Durchschnittliche Dauer an Paketverlusten bei Bursts von Verlusten während des Anrufs.  <br/> |
+|**BurstDuration** <br/> |int  <br/> | <br/> |Durchschnittliche Dauer an Paketverlusten bei Bursts von Verlusten während des Anrufs.  <br/> |
 |**BurstGapDensity** <br/> |decimal(9,4)  <br/> | <br/> |Durchschnittliche Dichte an Paketverlusten bei Lücken zwischen Bursts von Paketverlusten.  <br/> |
-|**BurstGapDuration** <br/> |Ganzzahl  <br/> | <br/> |Durchschnittliche Dauer der Lücken zwischen Bursts von Paketverlusten.  <br/> |
+|**BurstGapDuration** <br/> |int  <br/> | <br/> |Durchschnittliche Dauer der Lücken zwischen Bursts von Paketverlusten.  <br/> |
 |**PacketUtilization** <br/> |Int  <br/> | <br/> |Paketwert für den Audiostream.  <br/> |
 |**BandwidthEst** <br/> |Int  <br/> | <br/> |Bandbreitenschätzungen für den Audiostream.  <br/> |
 |**DegradationAvg** <br/> |decimal(3,2)  <br/> | <br/> |Netzwerk-MOS-Beeinträchtigung für den gesamten Anruf. Der Bereich umfasst 0,0 bis 5,0.  Diese Metrik gibt an, um welche Menge der Netzwerk-MOS aufgrund von Jitter und Paketverlusten reduziert wurde. Der Wert sollte weniger als 0,5 betragen, um eine akzeptable Qualität zu bieten.  <br/> |
 |**DegradationMax** <br/> |decimal(3,2)  <br/> | <br/> |Maximale Netzwerk-MOS-Beeinträchtigung während des Anrufs.  <br/> |
 |**DegradationJitterAvg** <br/> |decimal(3,2)  <br/> | <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Jitter.  <br/> |
 |**DegradationPacketLossAvg** <br/> |decimal(3,2)  <br/> | <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Paketverlust.  <br/> |
-|**AudioPayloadDescription** <br/> |Ganzzahl  <br/> |Ausländisch  <br/> |Der für den Anruf verwendete Audiocodec, auf den in "PayloadDescription Table" verwiesen wird.  <br/> |
-|**AudioSampleRate** <br/> |Ganzzahl  <br/> | <br/> |Samplingrate für den Audiostream.  <br/> |
-|**Roundtrip** <br/> |Ganzzahl  <br/> | <br/> |Roundtripzeit aus RTCP-Statistik. Für eine akzeptable Qualität sollte dies weniger als 100 ms sein.  <br/> |
-|**RoundTripMax** <br/> |Ganzzahl  <br/> | <br/> |Maximale Roundtripzeit für den Audiostream.  <br/> |
+|**AudioPayloadDescription** <br/> |int  <br/> |Ausländisch  <br/> |Der für den Anruf verwendete Audiocodec, auf den in "PayloadDescription Table" verwiesen wird.  <br/> |
+|**AudioSampleRate** <br/> |int  <br/> | <br/> |Samplingrate für den Audiostream.  <br/> |
+|**Roundtrip** <br/> |int  <br/> | <br/> |Roundtripzeit aus RTCP-Statistik. Für eine akzeptable Qualität sollte dies weniger als 100 ms sein.  <br/> |
+|**RoundTripMax** <br/> |int  <br/> | <br/> |Maximale Roundtripzeit für den Audiostream.  <br/> |
 |**OverallAvgNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |Durchschnittlicher Breitband-Netzwerk-MOS für den Anruf. Diese Metrik ist abhängig vom Paketverlust, Jitter und dem verwendeten Codec. Der Bereich ist [1,0 bis 5,0].  <br/> |
 |**OverallMinNetworkMOS** <br/> |decimal(3,2)  <br/> | <br/> |Der minimale Wideband-Netzwerk-MOS für den Anruf.  <br/> |
 |**SendListenMOS** <br/> |decimal(3,2)  <br/> | <br/> |Die durchschnittliche prognostizierte WIDEBAND-MOS-Bewertung für gesendete Audiodaten, einschließlich Sprachniveau, Rauschniveau und Aufnahmegeräteeigenschaften.  <br/> |
@@ -70,17 +70,17 @@ Jeder Datensatz stellt einen Audiodatenstrom dar. Eine Audiomedienzeile enthält
 |**LossCongestionPercent** <br/> |Gleitkommazahl  <br/> ||Gibt den Prozentsatz der Zeit an, in der sich der Anruf in einem Überlastungszustand befand.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**DelayCongestionPercent** <br/> |Gleitkommazahl  <br/> ||Gibt den Prozentsatz des Anrufs an, bei dem die Überlastung durch die verzögerte Eintreffen von Netzwerkpaketen verursacht wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**ContentionDetectedPercent** <br/> |Gleitkommazahl  <br/> ||Gibt den Prozentsatz der Zeit an, in der der Anruf um Netzwerkressourcen konkurrieren konnte.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**BandwidthEstMin** <br/> |Ganzzahl  <br/> ||Minimale Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**BandwidthEstMax** <br/> |Ganzzahl  <br/> ||Maximale Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**BandwidthEstStdDev** <br/> |Ganzzahl  <br/> ||Standardabweichung der Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**BandwidthEstAvge** <br/> |Ganzzahl  <br/> ||Durchschnittliche Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**BandwidthEstMin** <br/> |int  <br/> ||Minimale Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**BandwidthEstMax** <br/> |int  <br/> ||Maximale Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**BandwidthEstStdDev** <br/> |int  <br/> ||Standardabweichung der Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**BandwidthEstAvge** <br/> |int  <br/> ||Durchschnittliche Bandbreitenberechnung, die während des Anrufs gemessen wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayTotal** <br/> |Gleitkommazahl  <br/> ||Gesamter Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittlicher Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayMax** <br/> |Gleitkommazahl  <br/> ||Maximaler Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |Ganzzahl  <br/> ||Undirektionale Burstvorkommen insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RelativeOneWayGapOccurrences** <br/> |Ganzzahl  <br/> ||Gesamtzahl der vorkommende unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamtzahl der vorkommende unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayGapDensity** <br/> |Gleitkommazahl  <br/> ||Gesamtdichte der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamtdauer der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**DecodeStereoPercent** <br/> |Gleitkommazahl  <br/> ||Prozentsatz des Anrufs, der als Stereo decodiert wurde.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |

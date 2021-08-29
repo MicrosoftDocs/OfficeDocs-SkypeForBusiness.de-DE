@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Ein vertrauenswürdiger Benutzer ist ein Benutzer, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition Server, Enterprise Edition Front-End-Server oder Director. Skype for Business Server nutzt Active Directory Domain Services als einziges, vertrauenswürdiges Back-End-Repository von Benutzeranmeldeinformationen.
-ms.openlocfilehash: 5c0a193f8164faac112a5539154eb95baac20ce5313d07607a96c509a3d06736
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54346411"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627797"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer- und Clientauthentifizierung für Skype for Business Server
  
@@ -50,7 +50,7 @@ Clientzertifikate bieten eine alternative Möglichkeit für Benutzer, von Skype 
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4.5 
 
-Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4.6 nicht unterstützt, was dazu führen kann, dass Skype Besprechungs-App nicht gestartet werden kann. Wenn ein Client AES als Computerschlüsselüberprüfungswert verwendet, müssen Sie den Computerschlüsselwert auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene Skype Besprechungs-App auf IIS zurücksetzen. Anweisungen finden Sie bei Bedarf unter [IIS 8.0 ASP.NET Configuration Management.](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)
+Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4.6 nicht unterstützt, und dies kann dazu führen, dass Skype Besprechungs-App nicht gestartet wird. Wenn ein Client AES als Computerschlüsselüberprüfungswert verwendet, müssen Sie den Computerschlüsselwert auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene Skype Besprechungs-App in IIS zurücksetzen. Anweisungen finden Sie bei Bedarf unter [IIS 8.0 ASP.NET Configuration Management.](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)
   
 Weitere unterstützte Werte sind:
   
@@ -60,4 +60,4 @@ Weitere unterstützte Werte sind:
     
 - HMACSHA512
     
-  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, da sie sich einmal in ASP.NET 4 befanden. [Kryptografieverbesserungen in ASP.NET 4.5, Pt. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) enthält weitere Details.
+  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, da sie sich einmal in ASP.NET 4 befanden. [Kryptografische Verbesserungen in ASP.NET 4.5, Pt. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) enthält weitere Details.

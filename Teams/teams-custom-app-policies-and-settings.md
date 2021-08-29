@@ -12,9 +12,9 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie benutzerdefinierte App-Richtlinien und -Einstellungen verwalten, um zu steuern, wer in Ihrer Organisation benutzerdefinierte Apps in Ihrer Organisation in Microsoft Teams.
+description: Erfahren Sie, wie Sie benutzerdefinierte App-Richtlinien und -Einstellungen verwalten, um zu steuern, wer in Ihrer Organisation benutzerdefinierte Apps in Ihrem Microsoft Teams.
 f1.keywords:
 - CSH
 ms.custom:
@@ -23,23 +23,23 @@ ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.tooltip.allowsideloading
 - ms.teamsadmincenter.apppermspolicies.orgwideapps.customapps
 - seo-marvel-mar2020
-ms.openlocfilehash: 3e148a554e525530fd660433b7fc56379f3a7fa2db8354908bd9ba5b387a1662
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: c00c06f86e55ed0f2c8b28315c6d83cc36ef3c25
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54327501"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634829"
 ---
 # <a name="manage-custom-app-policies-and-settings-in-microsoft-teams"></a>Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Microsoft Teams
 
 > [!NOTE]
-> Informationen zur Verwendung von App Studio finden Sie unter Erste Schritte auf der Microsoft Teams-Plattform mit [C#/.NET](/microsoftteams/platform/get-started/get-started-dotnet-app-studio) und App Studio Der letzte Schritt funktioniert noch nicht. Daher müssen Sie die ZIP-Datei herunterladen und Hochladen einem App-Paket auf die alte Weise installieren, um Microsoft Teams [zu installieren.](/microsoftteams/platform/concepts/apps/apps-upload)
+> Informationen zur Verwendung von App Studio finden Sie unter Erste Schritte auf der Microsoft Teams-Plattform mit [C#/.NET](/microsoftteams/platform/get-started/get-started-dotnet-app-studio) und App Studio Der letzte Schritt funktioniert noch nicht. Daher müssen Sie die ZIP-Datei herunterladen und auf die alte Weise installieren Hochladen einem App-Paket, um Microsoft Teams [zu installieren.](/microsoftteams/platform/concepts/apps/apps-upload)
 
-Als Administrator können Sie benutzerdefinierte App-Richtlinien und -Einstellungen verwenden, um zu steuern, wer in Ihrer Organisation benutzerdefinierte Apps auf ihre Microsoft Teams. Administratoren entscheiden, welche Benutzer benutzerdefinierte Apps hochladen können, und Administratoren und Teambesitzer können bestimmen, ob bestimmte Teams in Ihrer Organisation zulassen, dass ihnen benutzerdefinierte Apps hinzugefügt werden.  Nachdem Sie die Benutzerdefinierte App-Richtlinie bearbeitet haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
+Als Administrator können Sie benutzerdefinierte App-Richtlinien und -Einstellungen verwenden, um zu steuern, wer in Ihrer Organisation benutzerdefinierte Apps auf Ihre Microsoft Teams. Administratoren entscheiden, welche Benutzer benutzerdefinierte Apps hochladen können, und Administratoren und Teambesitzer können bestimmen, ob bestimmte Teams in Ihrer Organisation benutzerdefinierte Apps hinzufügen dürfen.  Nachdem Sie die Benutzerdefinierte App-Richtlinie bearbeitet haben, kann es einige Stunden dauern, bis die Änderungen wirksam werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
 ## <a name="overview-of-custom-apps"></a>Übersicht über benutzerdefinierte Apps
 
-Benutzer können eine benutzerdefinierte App Teams hinzufügen, indem sie ein App-Paket (in einer .zip-Datei) direkt in ein Team oder im persönlichen Kontext hochladen. Dies ist anders als das Hinzufügen von Apps Teams App Store. Wenn Sie eine benutzerdefinierte App hinzufügen, indem Sie ein App-Paket hochladen, das auch als Querladen bezeichnet wird, können Sie eine App während der Entwicklung testen, bevor sie für die breite Verteilung bereit ist. Außerdem können Sie eine App nur für interne Verwendung erstellen und für Ihr Team freigeben, ohne sie an den Teams-App-Katalog im Teams App Store zu übermitteln.
+Benutzer können einer App eine benutzerdefinierte Teams hinzufügen, indem sie ein App-Paket (in einer .zip-Datei) direkt in ein Team oder im persönlichen Kontext hochladen. Dies ist anders als das Hinzufügen von Apps Teams App Store. Durch Das Hinzufügen einer benutzerdefinierten App durch Hochladen eines App-Pakets, das auch als Querladen bezeichnet wird, können Sie eine App während der Entwicklung testen, bevor sie für die breite Verteilung bereit ist. Außerdem können Sie eine App nur für interne Verwendung erstellen und für Ihr Team freigeben, ohne sie an den Teams-App-Katalog im Teams-App Store zu übermitteln.
 
 ![Screenshot mit der Option "Benutzerdefinierte App hochladen" im App Store](media/teams-custom-app-policy-and-settings-upload-app.png)
 
@@ -55,7 +55,7 @@ Diese Einstellungen wirken sich nicht auf die Möglichkeit zum Blockieren von Dr
 
 ### <a name="user-custom-app-policy"></a>Richtlinie für benutzerdefinierte Benutzer-Apps
 
-Im Rahmen [von](teams-app-setup-policies.md)Richtlinien für die App-Einrichtung können Administratoren eine Richtlinieneinstellung **Hochladen** benutzerdefinierten Apps verwenden, um zu steuern, ob ein Benutzer benutzerdefinierte Apps auf Teams.
+Im Rahmen [von](teams-app-setup-policies.md)Richtlinien für das Einrichten von Apps können Administratoren mithilfe einer Richtlinieneinstellung **Hochladen** benutzerdefinierten Apps steuern, ob ein Benutzer benutzerdefinierte Apps auf Teams.
  
 Wenn diese Einstellung deaktiviert ist:
 
@@ -64,7 +64,7 @@ Wenn diese Einstellung deaktiviert ist:
 
 Wenn diese Einstellung aktiviert ist:
 
-- Abhängig von der organisationsweiten Einstellung der benutzerdefinierten App kann der Benutzer benutzerdefinierte Apps in Teams hochladen, die dies zulassen, und in Teams, deren Besitzer sie sind.
+- Abhängig von der organisationsweiten Einstellung für benutzerdefinierte Apps kann der Benutzer benutzerdefinierte Apps in Teams hochladen, die dies zulassen, und in Teams, deren Besitzer sie sind.
 - Der Benutzer kann benutzerdefinierte Apps in den persönlichen Kontext hochladen. 
 - Abhängig von der organisationsweiten Einstellung der benutzerdefinierten App kann der Benutzer mit benutzerdefinierten Apps interagieren.
 
@@ -72,19 +72,19 @@ Sie können die Einstellungen in der globalen App-Setuprichtlinie bearbeiten und
 
 #### <a name="set-a-user-custom-app-policy"></a>Festlegen einer Benutzerdefinierten Benutzer-App-Richtlinie
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Richtlinien **Teams**  >  **Apps.**
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu Richtlinien **Teams**  >  **Apps.**
 2. Klicken Sie auf **Hinzufügen**.
-3. Aktivieren oder deaktivieren Sie **Hochladen Benutzerdefinierte Apps.**
+3. Aktivieren oder deaktivieren Sie Hochladen **Benutzerdefinierte Apps.**
 4. Wählen Sie alle anderen Einstellungen aus, die Sie für die Richtlinie verwenden möchten.
 5. Klicken Sie auf **Speichern**.
 
 ### <a name="team-custom-app-setting"></a>Einstellung für benutzerdefinierte Team-Apps
 
-Administratoren und Teambesitzer können steuern, ob ein Team das Hinzufügen von benutzerdefinierten Apps zulässt. Diese **Einstellung,** Zulassen, dass Mitglieder benutzerdefinierte Apps hochladen, und die benutzerdefinierte App-Richtlinie eines Benutzers bestimmt, wer einem bestimmten Team benutzerdefinierte Apps hinzufügen kann.
+Administratoren und Teambesitzer können steuern, ob ein Team das Hinzufügen benutzerdefinierter Apps zulässt. Diese **Einstellung,** Zulassen, dass Mitglieder benutzerdefinierte Apps hochladen, und die benutzerdefinierte App-Richtlinie eines Benutzers bestimmt, wer einem bestimmten Team benutzerdefinierte Apps hinzufügen kann.
  
 Wenn diese Einstellung deaktiviert ist:
 
-- Teambesitzer können benutzerdefinierte Apps hinzufügen, wenn ihre richtlinienspezifische Benutzerdefinierte App dies zulässt.
+- Teambesitzer können benutzerdefinierte Apps hinzufügen, sofern ihre Richtlinie dies zulässt.
 - Teammitglieder, die keine Teambesitzer sind, können dem Team keine benutzerdefinierten Apps hinzufügen.
 
 Wenn diese Einstellung aktiviert ist:
@@ -114,20 +114,20 @@ Die **Einstellung Interaktion mit benutzerdefinierten** Benutzerdefinierten Apps
 
 ## <a name="how-custom-app-policies-and-settings-work-together"></a>Wie benutzerdefinierte App-Richtlinien und -Einstellungen zusammenarbeiten
 
-In dieser Tabelle sind die benutzerdefinierten App-Richtlinien und -Einstellungen, ihre Kombination und ihre kombinierten Auswirkungen auf die Steuerung zusammengefasst, wer in Ihrer Organisation benutzerdefinierte Apps auf Teams.
+In dieser Tabelle sind die benutzerdefinierten App-Richtlinien und -Einstellungen, ihre Kombination und ihre kombinierte Auswirkung auf die Steuerung, wer in Ihrer Organisation benutzerdefinierte Apps auf Ihre App hochladen kann, Teams.
 
 Sie möchten beispielsweise zulassen, dass nur Teambesitzer benutzerdefinierte Apps in bestimmte Teams hochladen können. Sie würden folgendes festlegen:
 
 - Aktivieren Sie die **Einstellung Interaktion mit benutzerdefinierten Apps zulassen** im Microsoft Teams Admin Center.
 - Deaktivieren Sie das **Deaktivieren von Mitgliedern das Hochladen benutzerdefinierter Apps für** jedes Team erlauben, auf das Sie den Zugriff einschränken möchten.
-- Erstellen und weisen Sie eine benutzerdefinierte App-Setuprichtlinie im Microsoft Teams Admin Center mit aktivierter **Einstellung "Hochladen** Benutzerdefinierte Apps" zu, und weisen Sie sie den Teambesitzern zu.
+- Erstellen und zuweisen Sie im Microsoft Teams Admin Center eine benutzerdefinierte App-Setuprichtlinie, bei der die **Einstellung Hochladen** benutzerdefinierte Apps aktiviert ist, und weisen Sie sie den Teambesitzern zu.
 
 |Organisationsweite Einstellung für benutzerdefinierte Apps |Einstellung für benutzerdefinierte Team-Apps |Richtlinie für benutzerdefinierte Benutzer-Apps |Effekt  |
 |---------|---------|---------|---------|
-| Aus    | Aus    | Aus     |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Dienstadministrators oder eines globalen Teams hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte App zu entfernen.   |
-| Aus     | Aus     | Ein        |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Dienstadministrators oder eines globalen Teams hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte App zu entfernen.         |
+| Aus    | Aus    | Aus     |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams dienstadministrators oder eines globalen Administrator hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte App zu entfernen.   |
+| Aus     | Aus     | Ein        |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams dienstadministrators oder eines globalen Administrator hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte App zu entfernen.         |
 | Aus    | Ein        | Aus        |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Dienstadministrators oder eines globalen Teams hochgeladen werden. Sie können Benutzerdefinierte Windows PowerShell mithilfe von Benutzerdefinierten Apps löschen.         |
-| Aus    | Ein      | Ein       |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Dienstadministrators oder eines globalen Teams hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte App zu entfernen.         |
+| Aus    | Ein      | Ein       |Die Interaktion mit allen benutzerdefinierten Apps wird für Ihre Organisation blockiert. Benutzerdefinierte Apps können von niemandem mit Ausnahme eines Teams dienstadministrators oder eines globalen Administrator hochgeladen werden. Sie können PowerShell verwenden, um die benutzerdefinierte App zu entfernen.         |
 | Ein    | Aus       | Aus         |  Der Benutzer kann keine benutzerdefinierten Apps hochladen.      |
 | Ein     | Aus       | Ein         | Wenn der Benutzer ein Teambesitzer ist, kann er benutzerdefinierte Apps in das Team hochladen. Wenn der Benutzer kein Teambesitzer ist, kann er keine benutzerdefinierten Apps in das Team hochladen. Der Benutzer kann benutzerdefinierte Apps im persönlichen Kontext hochladen.     |
 | Ein     | Ein     | Aus         | Der Benutzer kann keine benutzerdefinierten Apps hochladen.       |

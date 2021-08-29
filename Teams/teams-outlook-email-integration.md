@@ -7,19 +7,19 @@ audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: kblevens
-localization_priority: Normal
+ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über die E-Mail-Integrationsfeatures von Teams und Outlook, einschließlich Funktionen, mit denen Benutzer Informationen zwischen E-Mail in Outlook und Chats oder Kanalunterhaltungen in Teams teilen können.
 ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4501ff85e63091dd0fee8fba39df43b4e4936eabd57c224eff1fdaa518566fab
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: bcc9d8c4ed101017206e086a2282679ec698df27
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54299025"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634819"
 ---
 # <a name="teams-and-outlook-email-integration"></a>Teams- und Outlook-E-Mail-Integration
 

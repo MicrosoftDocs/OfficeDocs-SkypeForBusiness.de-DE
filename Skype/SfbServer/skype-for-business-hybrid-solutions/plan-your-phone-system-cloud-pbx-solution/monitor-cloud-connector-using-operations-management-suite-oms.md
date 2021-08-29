@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector Version 2.1 und höher mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
-ms.openlocfilehash: 1e2156ec8cff777b7bbad595b9792972508edbd455d6a1d27a65b95ad01c5def
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54339991"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627727"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS)
 
@@ -45,7 +45,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Bevor Sie OMS zum Überwachen Ihrer Cloud Connector-Bereitstellung verwenden können, benötigen Sie Folgendes:
 
-- **Ein Azure-Konto und ein OMS-Arbeitsbereich.** Wenn Sie noch nicht über ein Azure-Konto verfügen, müssen Sie ein Konto für die Verwendung von OMS Log Analytics erstellen. Informationen zum Erstellen eines Azure-Kontos und Einrichten eines OMS-Arbeitsbereichs finden Sie unter ["Erste Schritte mit einem Log Analytics-Arbeitsbereich".](/azure/log-analytics/log-analytics-get-started)
+- **Ein Azure-Konto und ein OMS-Arbeitsbereich.** Wenn Sie noch kein Azure-Konto besitzen, müssen Sie ein Konto erstellen, um OMS Log Analytics zu verwenden. Informationen zum Erstellen eines Azure-Kontos und Einrichten eines OMS-Arbeitsbereichs finden Sie unter ["Erste Schritte mit einem Log Analytics-Arbeitsbereich".](/azure/log-analytics/log-analytics-get-started)
 
 - **Cloud Connector, Version 2.1 oder höher**
 
@@ -53,7 +53,7 @@ Bevor Sie OMS zum Überwachen Ihrer Cloud Connector-Bereitstellung verwenden kö
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Konfigurieren von Cloud Connector für die Verwendung von OMS
 
-Sie müssen Ihre lokale Cloud Connector-Umgebung für die Verwendung von OMS konfigurieren. Dazu benötigen Sie Ihre OMS-Arbeitsbereichs-ID und den Schlüssel, die Sie im OMS-Portal wie folgt finden können: Einstellungen - \> verbundene Quellen - Windows \> Server:
+Sie müssen Ihre lokale Cloud Connector-Umgebung für die Verwendung von OMS konfigurieren. Dazu benötigen Sie Ihre OMS-Arbeitsbereichs-ID und den Schlüssel, die Sie im OMS-Portal wie folgt finden können: Einstellungen -- \> Verbundene Quellen -- \> Windows Server:
 
 ![Screenshot für Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -86,7 +86,7 @@ Wie Sie Cloud Connector für die Verwendung von OMS konfigurieren, hängt von Ih
 
 - **Stellen Sie für alle Szenarien sicher, dass die Agents wie folgt verbunden sind:**
 
-    Wechseln Sie im OMS-Portal zu Einstellungen – \> verbundene Quellen – Windows \> Server. Es wird eine Liste der verbundenen Computer angezeigt. 
+    Wechseln Sie im OMS-Portal zu Einstellungen – \> verbundene Quellen – Windows \> Servern. Es wird eine Liste der verbundenen Computer angezeigt. 
 
 ## <a name="configure-oms"></a>Konfigurieren von OMS
 
@@ -100,7 +100,7 @@ Als Nächstes müssen Sie Ihre OMS-Konfiguration mithilfe des OMS-Portals angebe
 
 Im OMS-Portal müssen Sie Informationen zu den Ereignisprotokollen und Leistungsindikatoren wie folgt angeben:
 
-1. Wechseln Sie zu Einstellungen– \> Daten- \> Windows Ereignisprotokollen, und fügen Sie Ereignisprotokolle für: 
+1. Wechseln Sie zu Einstellungen– \> Daten- \> Windows Ereignisprotokolle, und fügen Sie Ereignisprotokolle für: 
 
    - Lync Server
 
@@ -166,7 +166,7 @@ So erstellen Sie dieses Warnungspaar:
 
      Sie würden den Filter durch Ihren eigenen Computerfilter ersetzen oder einfach entfernen. Sie können komplexe Zeichenfolgenfilter ohne reguläre Ausdrücke erstellen. Weitere Informationen finden Sie unter [Zeichenfolgenoperatoren.](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators) Sie können auch reguläre Ausdrücke verwenden. Darüber hinaus können Sie eine Computergruppe erstellen, indem Sie eine Suchabfrage speichern und diese Gruppe als Computerfilter in Der Warnungsabfrage verwenden. Weitere Informationen finden Sie unter [Computergruppen in Log Analytics-Protokollsuchen.](/azure/log-analytics/log-analytics-computer-groups)
 
-    Für jeden Computer ruft die Fehlerabfrage das letzte Ereignisprotokoll für den RTCMEDSRV-Dienststart und den Dienststopp ab. Es wird ein Protokoll zurückgegeben, wenn das letzte Ereignis das Dienststoppereignis ist. es wird nichts zurückgegeben, wenn das letzte Ereignis das Dienststartereignis ist. Kurz gesagt würde die Abfrage eine Liste der Server zurückgeben, deren RTCMEDSRV im Zeitfenster beendet wird. 
+    Für jeden Computer ruft die Fehlerabfrage das letzte Ereignisprotokoll für den RTCMEDSRV-Dienststart und den Dienststopp ab. Es wird ein Protokoll zurückgegeben, wenn das letzte Ereignis das Dienststoppereignis ist. es wird nichts zurückgegeben, wenn das letzte Ereignis das Startereignis des Diensts ist. Kurz gesagt würde die Abfrage eine Liste der Server zurückgeben, deren RTCMEDSRV im Zeitfenster beendet wird. 
 
 - Die Abfrage für die Zurücksetzungswarnung lautet:
 
@@ -174,7 +174,7 @@ So erstellen Sie dieses Warnungspaar:
   Event | where Computer contains "MediationServer" | where EventLog == "Lync Server" and (EventID == 25002 or EventID == 25003) | summarize arg_max(TimeGenerated, EventID) by Computer  | where EventID == 2500
   ```
 
-    Die Zurücksetzungsabfrage führt genau das Gegenteil der Fehlerabfrage aus. Für jeden Computer wird eins zurückgegeben, wenn das letzte Ereignis das Startereignis des Diensts ist. wenn das letzte Ereignis das Dienststoppereignis ist, wird nichts zurückgegeben.
+    Die Zurücksetzungsabfrage führt genau das Gegenteil der Fehlerabfrage aus. Für jeden Computer wird eins zurückgegeben, wenn das letzte Ereignis das Startereignis des Diensts ist. es wird nichts zurückgegeben, wenn das letzte Ereignis das Dienststoppereignis ist.
 
 **Erstellen Sie ein Warnungspaar: "Zu viele gleichzeitige Anrufe in Vermittlungsservern" und "Gleichzeitige Anrufe fallen auf normale Last zurück"**
 
@@ -223,7 +223,7 @@ In der folgenden Tabelle sind die Von Microsoft empfohlenen Dienste aufgeführt,
 |Dienstname  <br/> |Zielserverrolle  <br/> |Stoppereignis-ID  <br/> |Startereignis-ID  <br/> |
 |:-----|:-----|:-----|:-----|
 |RTCMEDSRV  <br/> |Vermittlungsserver  <br/> |25003  <br/> |25002  <br/> |
-|Rtcsrv  <br/> |Edgeserver  <br/> |12289  <br/> |12288  <br/> |
+|RTCSRV  <br/> |Edgeserver  <br/> |12289  <br/> |12288  <br/> |
 |RTCMRAUTH  <br/> |Edgeserver  <br/> |19003  <br/> |19002  <br/> |
 |RTCMEDIARELAY  <br/> |Edgeserver  <br/> |22003  <br/> |22002  <br/> |
 

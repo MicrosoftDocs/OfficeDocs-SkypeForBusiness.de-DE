@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-description: 'Zusammenfassung: Überprüfen Sie die Anforderungen an den Windows Clientsupport, während Sie Skype for Business Server planen.'
-ms.openlocfilehash: e26390920334db03fe1d9f9652759f2018d8306f2d57fce50a32165c4d20bb28
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+description: 'Zusammenfassung: Überprüfen Sie die Supportanforderungen für Windows Clients bei der Planung Skype for Business Server.'
+ms.openlocfilehash: 755f60030c905bfb5a5f488e2573c12b3396ab1e
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54317470"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58627947"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows Clientanforderungen und Softwareunterstützung
  
-**Zusammenfassung:** Überprüfen Sie die Supportanforderungen Windows Clients bei der Planung Skype for Business Server.
+**Zusammenfassung:** Überprüfen Sie die Supportanforderungen für Windows Clients, während Sie Skype for Business Server planen.
   
 In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung der Skype for Business Windows-Clients erforderlich ist. Diese Clients werden installiert, wenn Microsoft 365 oder Office 365 installiert werden, und sind auch auf [allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)unter Download Skype for Business verfügbar.
   
@@ -49,7 +49,7 @@ Lesen Sie die [Systemanforderungen](https://products.office.com/office-system-re
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype Besprechungs-App und Skype for Business-Web-App 
 
-Die Skype-Besprechungs-App und Skype for Business-Web-App unterstützen bestimmte Kombinationen von Betriebssystemen und Browsern. Ausführliche Informationen finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md). 
+Die Skype Besprechungs-App und Skype for Business-Web-App bestimmte Kombinationen von Betriebssystemen und Browsern unterstützen. Ausführliche Informationen finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md). 
   
 ## <a name="using-mandatory-profiles"></a>Verwenden von verbindlichen Profilen
 
@@ -81,4 +81,4 @@ Nachfolgend sind die Skype for Business für Windows Phone Voraussetzungen besch
 
 [Herunterladen von Skype for Business auf allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[systemanforderungen für Microsoft 365 und Office](https://products.office.com/office-system-requirements)
+[Microsoft 365 und Office Systemanforderungen](https://products.office.com/office-system-requirements)

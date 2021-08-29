@@ -15,18 +15,18 @@ audience: Admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
 - Phone System
 description: Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
-ms.openlocfilehash: dd16ef64facfca51d8d2a456d1e5bba877e1e1c0
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: 775b8c01f2638ffb2e13c25edf265f9abdd65989
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233080"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634859"
 ---
 # <a name="microsoft-teams-call-queue-supported-languages"></a>Microsoft Teams von Anrufwarteschleifen unterstützte Sprachen
 

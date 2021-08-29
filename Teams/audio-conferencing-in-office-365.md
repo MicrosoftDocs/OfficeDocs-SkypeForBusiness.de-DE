@@ -17,7 +17,7 @@ audience: admin
 appliesto:
 - Skype for Business
 - Microsoft Teams
-localization_priority: Normal
+ms.localizationpriority: medium
 f1.keywords:
 - CSH
 ms.custom:
@@ -25,12 +25,12 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie mit Audiokonferenzen in Microsoft 365 oder Office 365 von ihrem Telefon aus Besprechungen beitreten können.
-ms.openlocfilehash: 46c3c1c7e2fde92d2c8fa37978c9c3c19928dadd
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ffb24b35171e59ec99d9145362a51c51cd5f2ecb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58232820"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633439"
 ---
 # <a name="audio-conferencing-in-microsoft-365"></a>Audiokonferenzen in Microsoft 365
 Audiokonferenzen in Microsoft 365 und Office 365 ermöglicht Benutzern, sich von ihren Mobiltelefonen aus in Besprechungen einzuwählen. Audiokonferenzen ermöglichen bis zu 1.000 Telefonteilnehmer.

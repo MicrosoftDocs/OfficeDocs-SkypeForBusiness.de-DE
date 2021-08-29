@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.AssociateFrontEndWithEdgePage
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: Jedem Front-End-Pool kann nur ein Edgeserver oder Edgepool zugeordnet sein. Wenn Sie den Zugriff externer Benutzer für eine Website aktivieren, können Sie Unterstützung für Remotebenutzer bereitstellen. Sie können auch die Unterstützung für Verbundbenutzer aktivieren, z. B. Unterstützung für Benutzer bestimmter Anbieter von Öffentlichen Chatkonnektivitätsanbietern (z. B. Windows Live) und Unterstützung für anonyme Benutzer.
-ms.openlocfilehash: ccfe9f14957a53333990b11ae372909d5a33da550168623b41bb4f17733bb899
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5cc67ef37de672ccd47767e866404037e5a17b02
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54338503"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633259"
 ---
 # <a name="associate-front-end-with-edge"></a>Zuordnen des Front-Ends zur Edgekomponente
 

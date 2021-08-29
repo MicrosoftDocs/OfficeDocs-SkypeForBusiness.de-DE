@@ -9,19 +9,19 @@ ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.collection:
 - IT_Skype16
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Eine Zusammenfassung der Enterprise-VoIP Komponenten in Skype for Business Server.
-ms.openlocfilehash: e07c075fad0dcbad8fecfc9183b6ab1a4a1901d848d072a893444c295e56a59d
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 77a2fdf049ac85eae47ad9f4085c5bcaf92f401a
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54333097"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633579"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Komponenten, die für Enterprise-VoIP in Skype for Business Server erforderlich sind
  
@@ -29,7 +29,7 @@ Eine Zusammenfassung der Enterprise-VoIP Komponenten in Skype for Business Serve
   
 Um Enterprise-VoIP bereitzustellen, sind die folgenden Komponenten in Ihrer Topologie erforderlich. 
   
-- Ein oder mehrere Vermittlungsserver, die Signalisierung und in einigen Konfigurationen Medien zwischen Ihrem internen Skype for Business Server, Enterprise-VoIP Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network) oder einem SIP-Trunk (Session Initiation Protocol) übersetzen. Die Vermittlungsserver sind die wichtigste Komponente in Ihrer Enterprise-VoIP Bereitstellung. Weitere Informationen finden Sie unter ["Vermittlungsserverkomponente" in Skype for Business Server.](mediation-server.md)
+- Ein oder mehrere Vermittlungsserver, die Signalisierung und in einigen Konfigurationen Medien zwischen Ihrer internen Skype for Business Server, Enterprise-VoIP-Infrastruktur und einem PSTN-Gateway (Public Switched Telephone Network) oder einem SIP-Trunk (Session Initiation Protocol) übersetzen. Die Vermittlungsserver sind die wichtigste Komponente in Ihrer Enterprise-VoIP Bereitstellung. Weitere Informationen finden Sie unter ["Vermittlungsserverkomponente" in Skype for Business Server.](mediation-server.md)
     
     Vermittlungsserver können mit Front-End-Servern verbunden oder als eigenständige Server installiert werden.
     

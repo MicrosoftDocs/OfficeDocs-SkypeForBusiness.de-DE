@@ -11,16 +11,16 @@ f1.keywords:
 ms.custom:
 - ms.lync.tb.VideoGatewayScopeNode
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 2071b375-4978-4ff5-ae38-5e4a621bf6a3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server beschrieben.
-ms.openlocfilehash: 878153bc4907754b7a8e95d07df02126fa96274f2beef26017b65d004edb545a
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: f36bcc1fc816cadcbb22e7c0f95f68f5398e45ef
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54278973"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633179"
 ---
 # <a name="video-gateway-scope"></a>Videogatewaybereich
  
@@ -36,4 +36,4 @@ Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit 
   
 ## <a name="see-also"></a>Siehe auch
 
-[Plan for Video Interop Server in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)
+[Planen des Videointeroperabilitätsservers in Skype for Business Server](../../../plan-your-deployment/video-interop-server.md)

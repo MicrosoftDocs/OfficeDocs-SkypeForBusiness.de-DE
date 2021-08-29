@@ -10,15 +10,15 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
-ms.openlocfilehash: e058af1fa45c87f97b34ac9c5b931b7d7cb9114205c702c732984adafc04d3fc
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5a4e38c7e29de235c4244e0617575f0732ab4362
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54281648"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58633499"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -41,13 +41,13 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
    
 **Prinzipalwerte**
 
-|**ID**|**Rolle**|**Beschreibung**|**Benutzende**|
+|**ID**|**Rolle**|**Beschreibung**|**Benutzer**|
 |:-----|:-----|:-----|:-----|
-|1  <br/> |Beliebig  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
-|2  <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
-|3  <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|1   <br/> |Beliebig  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|2   <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
+|3   <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
 |4   <br/> |SystemUser  <br/> |Prinzipal, der intern vom Server für beständigen Chat verwendet wird.  <br/> ||
-|5   <br/> |Benutzer  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
+|5   <br/> |User  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
 |8   <br/> |Gleichstrom  <br/> |Active Directory Domain Services-Domänencontroller.  <br/> ||
 |9   <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe  <br/> ||
 |10   <br/> |Ordner  <br/> |Active Directory-Container oder Organisationseinheit  <br/> ||

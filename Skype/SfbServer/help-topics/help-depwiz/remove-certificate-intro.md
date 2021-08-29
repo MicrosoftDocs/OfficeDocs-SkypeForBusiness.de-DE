@@ -12,15 +12,15 @@ f1.keywords:
 ms.custom:
 - ms.lync.dep.DeployCertRemoveIntro
 ms.prod: skype-for-business-itpro
-localization_priority: Normal
+ms.localizationpriority: medium
 ms.assetid: ba7a948c-304d-4dce-ac97-7fdfcccd09d1
 description: Lesen Sie auf der Einführungsseite zu Zertifikat entfernen sorgfältig die Informationen zu den Auswirkungen des Entfernens eines Zertifikats. Klicken Sie nach dem Lesen der Informationen auf Weiter, um fortzufahren.
-ms.openlocfilehash: 3e545fc2a7660368f9c6b33a8dcf8e431b504b3bd2811d4ec2206da12c926caa
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 374164dc436c948d407444fa88bc0a13168caadb
+ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54285105"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "58634589"
 ---
 # <a name="remove-certificate-intro"></a>Entfernen eines Zertifikats (Einführung)
  
