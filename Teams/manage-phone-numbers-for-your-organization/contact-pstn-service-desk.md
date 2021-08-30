@@ -25,7 +25,7 @@ ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, benötigen Sie möglicherweise Hilfe und Support beim PSTN Service Desk.
 ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58598469"
@@ -151,7 +151,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **Office-Adresse** – Dies gilt nur für bestimmte Länder. Dies ist die Websiteadresse Ihres Büros.  
 
-  - **Verzeichnisauflistung** – Dies gilt nur für bestimmte Länder. Möchten Sie Ihre Unternehmensinformationen mit den Telefonnummern veröffentlichen?  
+  - **Verzeichnisauflistung** – Dies gilt nur für bestimmte Länder/Regionen. Möchten Sie Ihre Unternehmensinformationen mit den Telefonnummern veröffentlichen?  
 
 - **Port in**– Portieren vorhandener Telefonnummern von Ihrem aktuellen Dienstanbieter zu Microsoft.  
 

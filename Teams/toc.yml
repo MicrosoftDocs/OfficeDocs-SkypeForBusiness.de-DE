@@ -1628,6 +1628,8 @@ items:
             href: alerts/teams-admin-alerts.md
           - name: Teams-Geräteintegritätsüberwachung
             href: alerts/device-health-status.md
+          - name: Teams- und Peripheriegeräte
+            href: teams-device-health.md
           - name: Funktionalität der Verwaltungseinheit für die Geräteverwaltung
             href: administrative-unit.md
       - name: Teams PowerShell
