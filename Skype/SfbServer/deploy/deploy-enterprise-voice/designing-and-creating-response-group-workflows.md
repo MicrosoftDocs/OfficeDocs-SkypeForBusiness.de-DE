@@ -1,5 +1,5 @@
 ---
-title: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business
+title: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows behandelt.
-ms.openlocfilehash: 63069268621ff7f5e2b3783a661e163ff6fe6416
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
+ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603115"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730954"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business
 
-Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows behandelt.
+Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
 
 Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur Annahme des Anrufs verfahren wird. Der Workflow gibt die Warteschleife an, die zum Halten des Anrufs verwendet werden soll, und gibt die Routingmethode an, die für Sammelanschlüsse verwendet werden soll, oder die Fragen und Antworten, die für interaktive Reaktionsgruppenworkflows verwendet werden sollen.
 
@@ -73,7 +73,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 9. Aktivieren Sie das Kontrollkästchen **Anonymität für Agents aktivieren**, um bei Anrufen die Identität der Agents zu verbergen.
 
     > [!NOTE]
-    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen sowie Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
+    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen und Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
 
 10. Geben Sie im Feld **Geben Sie die Adresse der Gruppe ein, die die Anrufe entgegennimmt** den primären SIP-URI (Uniform Resource Identifier) der Gruppe ein, die die Anrufe beim Workflow erhalten soll.
 
@@ -200,7 +200,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 29. Klicken Sie auf **Bereitstellen**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>So verwenden Sie Skype for Business Server Verwaltungsshell zum Erstellen oder Ändern eines Sammelanschlüssen-Workflows
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>So verwenden Sie Skype for Business Server Verwaltungsshell, um einen Sammelanschlüssen-Workflow zu erstellen oder zu ändern
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
 
@@ -305,7 +305,7 @@ Die folgenden Abschnitte enthalten Beispiele für verschiedene IVR-Szenarien und
 
 #### <a name="ivr-with-one-level-of-questions"></a>IVR mit einer Frageebene
 
-Das folgende Beispiel zeigt eine IVR, die eine Frageebene verwendet. Es verwendet die Spracherkennung, um die Antwort des Anrufers zu erkennen.
+Das folgende Beispiel zeigt eine IVR, die eine Frageebene verwendet. Die Spracherkennung wird verwendet, um die Antwort des Anrufers zu erkennen.
 
  **Frage:** "Vielen Dank, dass Sie die Personalabteilung aufgerufen haben. Wenn Sie mit der Gehaltsliste sprechen möchten, sagen Sie "Payroll". Sagen Sie andernfalls HR."
 
@@ -317,7 +317,7 @@ Die folgende Abbildung zeigt den Anruffluss.
 
  **Interaktiver Anruffluss auf einer Ebene**
 
-![Entwerfen von Anrufflüssen mit interactive Voice Respo](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
+![Entwerfen Sie Anrufflüsse mithilfe von Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel1.jpg)
 
 #### <a name="ivr-with-two-levels-of-questions"></a>IVR mit zwei Fragenebenen
 
@@ -349,7 +349,7 @@ Die folgende Abbildung zeigt den Anruffluss.
 
  **Interaktiver Anruffluss mit zwei Ebenen**
 
-![Entwerfen von Anrufflüssen mit interactive Voice Respo](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
+![Entwerfen Sie Anrufflüsse mithilfe von Interactive Voice Respo.](../../media/Ops_OCS_RGS_IVRLevel2.jpg)
 
 ### <a name="best-practices"></a>Bewährte Methoden
 
@@ -398,7 +398,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 8. Aktivieren Sie das Kontrollkästchen **Für Partnerverbund aktivieren**, um Partnerbenutzern Anrufe bei der Gruppe zu ermöglichen. Sie müssen auch über eine Richtlinie für den externen Zugriff verfügen, die für die Reaktionsgruppenanwendung gilt, die für den Partnerverbund konfiguriert ist.
 
     > [!NOTE]
-    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe Skype for Business Server Systemsteuerung oder mit dem Cmdlet **"Set-CsExternalAccessPolicy"** konfigurieren, um den Parameter "EnableOutsideAccess" auf "True" festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Verbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen dazu, wie Richtlinien auf Benutzer angewendet werden, finden Sie unter [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Ausführliche Informationen zur Verbundeinstellung finden Sie in der Dokumentation unter **"Set-CsExternalAccessPolicy".**
+    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets **"Set-CsExternalAccessPolicy"** konfigurieren, um den Parameter "EnableOutsideAccess" auf "True" festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Verbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen dazu, wie Richtlinien auf Benutzer angewendet werden, finden Sie unter [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Ausführliche Informationen zur Verbundeinstellung finden Sie in der Dokumentation unter **"Set-CsExternalAccessPolicy".**
 
     > [!NOTE]
     > Benutzer, die in Skype for Business Online gehostet werden, können keine Anrufe an Reaktionsgruppen tätigen, die in einer lokalen Bereitstellung gehostet werden. Dies gilt sowohl für Hybridbereitstellungen als auch für Fälle, in denen eine lokale Bereitstellung mit einer Skype for Business Onlinebereitstellung verbunden ist.
@@ -406,7 +406,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 9. Aktivieren Sie das Kontrollkästchen **Anonymität für Agents aktivieren**, um bei Anrufen die Identität der Agents zu verbergen.
 
     > [!NOTE]
-    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen sowie Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
+    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen und Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
 
 10. Geben Sie im Feld **Geben Sie die Adresse der Gruppe ein, die die Anrufe entgegennimmt** den primären SIP-URI (Uniform Resource Identifier) der Gruppe ein, die die Anrufe beim Workflow erhalten soll.
 
@@ -419,7 +419,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 
 13. Geben Sie in **Anzeigenummer** die Nummer ein, wie sie für die Reaktionsgruppe angezeigt werden soll (z. B. +1 (425) 555-0165).
 
-14. (Optional) Geben Sie in Beschreibung eine Beschreibung für den Workflow ein, der auf der Visitenkarte in Skype for Business angezeigt werden soll.
+14. (Optional) Geben Sie in **Beschreibung** eine Beschreibung für den Workflow ein, der auf der Visitenkarte in Skype for Business angezeigt werden soll.
 
 15. Wählen Sie unter **Workflowtyp** die Option **Verwaltet** aus, falls dieser Workflow von einem Reaktionsgruppenmanager verwaltet wird. Gehen Sie folgendermaßen vor, um dem Workflow Reaktionsgruppenmanager zuzuweisen:
 

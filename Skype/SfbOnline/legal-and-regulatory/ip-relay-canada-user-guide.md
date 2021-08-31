@@ -19,12 +19,12 @@ ms.custom:
 - Legal
 hideEdit: true
 description: Verwenden eines IP-Relay-Kontos für Kanada
-ms.openlocfilehash: cf8d63dddea1d26e6fcdf6ffd8701745d50d7385
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18b6f356f6d90b4e6a962ef1b7709cb3cf39253c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618261"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730974"
 ---
 # <a name="ip-relay-in-canada---user-guide"></a>IP Relay in Kanada - Benutzerhandbuch
 
@@ -70,7 +70,7 @@ Nachdem Sie sich angemeldet haben, werden auf der linken Seite des Bildschirms A
 ### <a name="how-to-place-a-911-call"></a>So platzieren Sie einen 911-Anruf:
 Bei einem Notfall können Sie die entsprechende Schaltfläche für den Notfall auswählen, die sich unten auf dem Bildschirm befindet (wie unten dargestellt).
 
-![Schaltflächen für den Notfall](../images/ip-relay-emergency-buttons.png)
+![Notfallschaltflächen.](../images/ip-relay-emergency-buttons.png)
 
 Der IP-Nachrichten-Relay-Operator kontaktiert 911, bestätigt Ihre Adresse und übersetzen mit den verschiedenen Notfallzentralen, bis er nicht mehr benötigt wird und die entsprechende Abteilung an Ihren Standort entsenert wurde.
 

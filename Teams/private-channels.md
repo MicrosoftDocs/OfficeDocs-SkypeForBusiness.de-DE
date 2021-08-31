@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 30fafae99505c685a4042a4a79a6a30ff084d8f3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b9f0accb9436ade4bb084b825662ec92453bba24
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579615"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734174"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -40,7 +40,7 @@ Ein Schlüsselsymbol weist auf einen privaten Kanal hin. Nur Mitglieder privater
 
 Wenn ein privater Kanal erstellt wird, ist er mit dem übergeordneten Team verbunden und kann nicht in ein anderes Team verschoben werden. Außerdem können private Kanäle nicht in Standardkanäle umgewandelt werden und umgekehrt.
 
-![Screenshot: Private Kanäle in einem Team](media/private-channels-in-teams.png)
+![Screenshot: Private Kanäle in einem Team.](media/private-channels-in-teams.png)
 
 ## <a name="private-channel-creation"></a>Erstellung privater Kanäle
 
@@ -66,7 +66,7 @@ Jeder private Kanal verfügt über eigene Einstellungen, die der Kanalbesitzer v
 
 Der Besitzer des privaten Kanals kann auf **Kanal verwalten** klicken und dann die Registerkarten **Mitglieder** und **Einstellungen** verwenden, um Mitglieder hinzuzufügen oder zu entfernen und Einstellungen zu bearbeiten.
 
-![Screenshot der Einstellungen eines privaten Kanals](media/private-channels-in-teams-channel-settings.png)
+![Screenshot der Einstellungen eines privaten Kanals.](media/private-channels-in-teams-channel-settings.png)
 
 ## <a name="private-channel-owner-and-member-actions"></a>Aktionen von Besitzern und Mitgliedern eines privaten Kanals
 

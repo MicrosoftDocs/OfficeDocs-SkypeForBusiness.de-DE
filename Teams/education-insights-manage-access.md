@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ae8cfa1ea62472255825684d2e168be1411bb643
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604534"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730684"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Verwalten des Benutzerzugriffs auf Education Insights
 
@@ -41,7 +41,7 @@ Um Insights auf Organisationsebene bereitzustellen, müssen Sie [Daten vom Stude
 
 * Öffnen Sie die Insights-App, klicken Sie auf **Einstellungen**, und wählen Sie **Benutzerberechtigungen** aus.
 
-:::image type="content" source="media/insights-user-permissions.png" alt-text="Einstellungen":::
+:::image type="content" source="media/insights-user-permissions.png" alt-text="Einstellungen.":::
 
 > [!NOTE]
 > Wenn Sie eine Berechtigung für eine Organisationsebene bereitstellen, kann der Benutzer alle darunter liegenden Organisationseinheiten sehen.
@@ -62,14 +62,14 @@ Wenn Sie das [SDS V2.1-Dateiformat](/schooldatasync/sds-v2.1-csv-file-format) od
 
   Sie sehen eine Liste der Rollen in Ihrer Bildungsorganisation, die Ebene in dieser Hierarchie für jede Rolle, wie vielen Benutzer diese Rolle zugewiesen ist, und die Berechtigungsstufe der Rolle. 
   
-  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Rollenbasierte Berechtigungen":::
+  :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Rollenbasierte Berechtigungen.":::
   
   Wenn eine Rolle auf mehr als einer Organisationsebene vorhanden ist, wird diese Rolle mehrmals angezeigt, einmal für jede Ebene. Im Screenshot haben wir Prinzipale sowohl auf Schul- als auch auf Bezirksebene, sodass es zwei Zeilen für „Prinzipal“ gibt.
   
 * Klicken Sie für jede Rolle auf das Stiftsymbol, um die Berechtigungsstufe auszuwählen. Der Standard ist, dass die Rolle keine Berechtigung zum Anzeigen von Insights hat.
 * Wählen Sie die Berechtigungsstufe aus – **Daten für ihre Organisation anzeigen** oder **Keine**.
 
-  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Bereich für rollenbasierte Berechtigungen":::
+  :::image type="content" source="media/insights-role-based-permissions-panel.png" alt-text="Bereich für rollenbasierte Berechtigungen.":::
   
   Wenn ein Benutzer, der eine differenziertere Berechtigungsstufe benötigt, in der Liste angezeigt wird, passen Sie seine Rolle und/oder Organisation im [importierten Daten aus Ihrem SIS](education-insights-sis-data-sync.md) an, und [erteilen Sie ihm individuelle Berechtigungen](#grant-individual-permission-to-a-user) (falls erforderlich).
 
@@ -86,7 +86,7 @@ Verwenden Sie individuelle Berechtigungen, um die Berechtigung für einen Benutz
   
   Sie sehen die Benutzer in Ihrer Bildungsorganisation, denen eine individuelle Berechtigung erteilt wurden. 
   
-  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individuelle Berechtigungen":::
+  :::image type="content" source="media/insights-individual-permissions.png" alt-text="Individuelle Berechtigungen.":::
   
 ### <a name="grant-individual-permission-to-a-user"></a>Erteilen individueller Berechtigungen für einen Benutzer
 * Klicken Sie oben links auf dem Bildschirm auf **Erteilen individueller Berechtigungen**.
@@ -103,6 +103,6 @@ Verwenden Sie individuelle Berechtigungen, um die Berechtigung für einen Benutz
   * **Bestimmte Organisation** bedeutet, dass der Benutzer die ausgewählte Organisationseinheit und alle darunter liegenden Organisationseinheiten sieht. Beginnen Sie mit der Eingabe, und wählen Sie die Organisationseinheit aus der Liste aus.
   * **Keine** bedeutet, dass der Benutzer nur die Organisationseinheiten sieht, die automatisch durch seine Rolle zugewiesen werden (sofern vorhanden).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich "Individuelle Berechtigungen"":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich "Individuelle Berechtigungen".":::
 
 * Klicken Sie auf **Änderungen speichern**, um zu speichern.

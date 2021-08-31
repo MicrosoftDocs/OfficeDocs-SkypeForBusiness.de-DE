@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype for Business Server bietet eine grundlegende Sitzungsverwaltung durch die Unterstützung des Routings zwischen Trunks. '
-ms.openlocfilehash: 67e22f2727c9ef5f741b71c781084ab8fc2cea27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0e8ed3ab7b72474614011e4b9f7aaf49ffd5160b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630509"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730910"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>Skype for Business Server: Routing zwischen Trunks
 
@@ -25,9 +25,9 @@ Skype for Business Server bietet eine grundlegende Sitzungsverwaltung durch die 
 
 In der folgenden Abbildung wird veranschaulicht, Skype for Business Server die Verbindungskonnektivität zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage ermöglicht.
 
-![Verbindungskonnektivität zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage](../../media/pstn-gateway-ip-pbx.jpg)
+![Verbindungskonnektivität zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage.](../../media/pstn-gateway-ip-pbx.jpg)
 
 In der nächsten Abbildung wird veranschaulicht, Skype for Business Server zwei IP-Nebenstellenanlagen verbunden werden.
 
-![Skype for Business Server verbinden zwei IP-PGX-Systeme](../../media/two-ip-pbx-systems.jpg)
+![Skype for Business Server verbinden zwei IP-PGX-Systeme.](../../media/two-ip-pbx-systems.jpg)
 

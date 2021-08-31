@@ -18,12 +18,12 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinien 
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: fb85ae05925a44db75ed63ada899c6fca92cbceb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e17b468d2c3336dd6b34d0574b7a7c4e7c069186
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621987"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731054"
 ---
 # <a name="assign-policies-in-teams--getting-started"></a>Zuweisen von Richtlinien in Teams – Erste Schritte
 
@@ -43,17 +43,17 @@ Ein Benutzer verfügt über eine effektive Richtlinie für jeden Richtlinientyp.
 
 Wenn einem Benutzer eine Richtlinie direkt zugewiesen wird (entweder einzeln oder über eine Batchzuweisung), hat diese Richtlinie Vorrang. Im folgenden visuellen Beispiel ist die effektive Richtlinie des Benutzers die Besprechungsrichtlinie "Square Square", die dem Benutzer direkt zugewiesen wird.
 
-![Diagramm, das zeigt, wie eine direkt zugewiesene Richtlinie Vorrang hat](media/assign-policies-example-directly-assigned.png)
+![Diagramm, das zeigt, wie eine direkt zugewiesene Richtlinie Vorrang hat.](media/assign-policies-example-directly-assigned.png)
 
 Wenn einem Benutzer eine Richtlinie eines bestimmten Typs nicht direkt zugewiesen wurde, hat die einer Gruppe zugewiesene Richtlinie, deren Mitglied er ist, Vorrang. Wenn ein Benutzer ein Mitglied mehrerer Gruppen ist, hat die Richtlinie mit der höchsten[Rangfolge](assign-policies-users-and-groups.md#group-assignment-ranking)(Gruppenzuordnungsrangfolge) für den angegebenen Richtlinientyp Vorrang.
 
 In diesem visuellen Beispiel ist die effektive Richtlinie des Benutzers die Richtlinie exec Teams und HD, die im Vergleich zu anderen Gruppen, denen der Benutzer gehört, die höchste Zuweisungsrangfolge hat und denen auch eine Richtlinie desselben Richtlinientyps zugewiesen ist.  
 
-![Diagramm, das zeigt, wie eine von einer Gruppe geerbte Richtlinie Vorrang hat](media/assign-policies-example-group.png)
+![Diagramm, das zeigt, wie eine von einer Gruppe geerbte Richtlinie Vorrang hat.](media/assign-policies-example-group.png)
 
 Wenn einem Benutzer eine Richtlinie nicht direkt zugewiesen wurde oder kein Mitglied von Gruppen ist, denen eine Richtlinie zugewiesen wurde, erhält der Benutzer die globale (organisationsweite Standard)-Richtlinie für diesen Richtlinientyp. Hier sehen Sie ein visuelles Beispiel.
 
-![Diagramm, das zeigt, wie eine globale Richtlinie Vorrang hat](media/assign-policies-example-global.png)
+![Diagramm, das zeigt, wie eine globale Richtlinie vorrangig ist.](media/assign-policies-example-global.png)
 
 Weitere Informationen finden Sie unter ([Rangfolgeregeln).](assign-policies-users-and-groups.md#precedence-rules)
 
@@ -65,10 +65,10 @@ Bevor Sie Richtlinien einzelnen Benutzern oder Gruppen zuweisen, beginnen Sie, i
 
 |So geht's  |Wenn...  | Verwendung von ...
 |---------|---------|----|
-|[Zuweisen einer Richtlinie zu einzelnen Benutzern](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Sie sind neu bei Teams und beginnen gerade, oder Sie müssen nur einer kleinen Anzahl von Benutzern eine oder mehrere Richtlinien zuweisen. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul
-|[Zuweisen einer Richtlinie zu einer Gruppe](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Weisen Sie Richtlinien basierend auf der Gruppenmitgliedschaft eines Benutzers zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste eine Richtlinie zu.| Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul|
-|[Zuweisen einer Richtlinie zu einer Gruppe von Benutzern](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Weisen Sie Richtlinien großen Gruppen von Benutzern zu. Weisen Sie beispielsweise Hunderten oder Tausenden von Benutzern in Ihrer Organisation gleichzeitig eine Richtlinie zu. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul|
-|[Zuweisen eines Richtlinienpakets zu Benutzern](assign-policy-packages.md#assign-a-policy-package-to-users)  |Weisen Sie bestimmten Gruppen von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise Lehrkräften in Ihrer Bildungseinrichtungen das Richtlinienpaket für Bildungseinrichtungen zu, um ihnen Vollzugriff auf Chats, Anrufe und Besprechungen zu geben. Weisen Sie das Richtlinienpaket für Bildungseinrichtungen (Schüler/Studierenden sekundärer Bildungseinrichtungen) sekundären Schülern/Studenten zu, um bestimmte Funktionen wie private Anrufe zu beschränken.  |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im Teams PowerShell-Modul|
+|[Zuweisen einer Richtlinie zu einzelnen Benutzern](assign-policies-users-and-groups.md#assign-a-policy-to-individual-users)   | Sie sind neu bei Teams und beginnen gerade, oder Sie müssen nur einer kleinen Anzahl von Benutzern eine oder mehrere Richtlinien zuweisen. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul
+|[Zuweisen einer Richtlinie zu einer Gruppe](assign-policies-users-and-groups.md#assign-a-policy-to-a-group) |Weisen Sie Richtlinien basierend auf der Gruppenmitgliedschaft eines Benutzers zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste eine Richtlinie zu.| Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul|
+|[Zuweisen einer Richtlinie zu einer Gruppe von Benutzern](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)   | Weisen Sie Richtlinien großen Gruppen von Benutzern zu. Weisen Sie beispielsweise Hunderten oder Tausenden von Benutzern in Ihrer Organisation gleichzeitig eine Richtlinie zu. |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul|
+|[Zuweisen eines Richtlinienpakets zu Benutzern](assign-policy-packages.md#assign-a-policy-package-to-users)  |Weisen Sie bestimmten Gruppen von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise Lehrkräften in Ihrer Bildungseinrichtungen das Richtlinienpaket für Bildungseinrichtungen zu, um ihnen Vollzugriff auf Chats, Anrufe und Besprechungen zu geben. Weisen Sie das Richtlinienpaket für Bildungseinrichtungen (Schüler/Studenten sekundärer Bildungseinrichtungen) sekundären Schülern/Studenten zu, um bestimmte Funktionen wie private Anrufe zu beschränken.  |Die Microsoft Teams Admin Center oder PowerShell-Cmdlets im PowerShell Teams Modul|
 |[Zuweisen eines Richtlinienpakets zu einer Gruppe](assign-policy-packages.md#assign-a-policy-package-to-a-group) (in der privaten Vorschau)   |Weisen Sie einer Gruppe von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise allen Benutzern in einer Sicherheitsgruppe oder Verteilerliste ein Richtlinienpaket zu. |Das Microsoft Teams Admin Center (in Kürze verfügbar) oder PowerShell-Cmdlets im Teams PowerShell-Modul|
 |[Zuweisen eines Richtlinienpakets zu einer Gruppe von Benutzern](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users)|Weisen Sie einer Gruppe von Benutzern in Ihrer Organisation, die über die gleichen oder ähnliche Rollen verfügen, mehrere Richtlinien zu. Weisen Sie beispielsweise allen Lehrkräften in Ihrer Schule das Richtlinienpaket für "Education (Lehrer)" mithilfe einer Batchzuweisung zu, um ihnen Vollzugriff auf Chats, Anrufe und Besprechungen zu geben. Weisen Sie das Richtlinienpaket für Bildungseinrichtungen (Sekundäre Bildungseinrichtungen) einer Gruppe von sekundären Schülern/Studenten zu, um bestimmte Funktionen wie private Anrufe zu beschränken.|PowerShell-Cmdlets im Teams PowerShell-Modul|
 
@@ -78,11 +78,11 @@ Führen Sie die folgenden Schritte aus, um die globalen (organisationsweiten Sta
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Wechseln Sie im linken Navigationsbereich Microsoft Teams Admin Center zur Richtlinienseite für den Richtlinientyp, den Sie aktualisieren möchten. Beispielsweise können sie **Teams**  >  **Teams Besprechungsrichtlinien**   >  , **Messaging-Richtlinien** oder **Voice**  >  **Calling-Richtlinien verwenden.**
+1. Wechseln Sie im linken Navigationsbereich Microsoft Teams Admin Center zur Richtlinienseite für den Richtlinientyp, den Sie aktualisieren möchten. Beispielsweise können sie **Teams**  >  **Teams** Richtlinien für Besprechungsbesprechungen,   >   **Messaging-Richtlinien** oder **Voice**  >  **Calling-Richtlinien ändern.**
 2. Wählen Sie **die Richtlinie Global (Organisationsweit Standard)** aus, um die aktuellen Einstellungen anzeigen.
 3. Aktualisieren Sie die Richtlinie nach Bedarf, und wählen Sie dann **Anwenden aus.**
 
-![Aktualisieren der globalen Richtlinie im Teams Admin Center](media/assign-globalpolicy.png)
+![Aktualisieren Sie die globale Teams im Admin Center.](media/assign-globalpolicy.png)
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
@@ -120,7 +120,7 @@ Set-CsTeamsMessagingPolicy -Identity Global -AllowUserEditMessage $false
 
 ## <a name="view-your-policy-assignments-in-the-activity-log"></a>Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
 
-Wenn Sie den Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, können Sie den Status dieser Richtlinienzuweisungen im Aktivitätsprotokoll anzeigen. Im Aktivitätsprotokoll werden Richtlinienzuweisungen für Batches von mehr als 20 Benutzern im Microsoft Teams Admin Center der letzten 30 Tage angezeigt. Beachten Sie, dass im Aktivitätsprotokoll keine Richtlinienpaketzuweisungen, keine Richtlinienzuweisungen für Batches von weniger als 20 Benutzern über das Microsoft Teams Admin Center oder Richtlinienzuweisungen über PowerShell angezeigt werden.
+Wenn Sie den Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, können Sie den Status dieser Richtlinienzuweisungen im Aktivitätsprotokoll anzeigen. Im Aktivitätsprotokoll werden Richtlinienzuweisungen für Batches von mehr als 20 Benutzern im Microsoft Teams Admin Center der letzten 30 Tage angezeigt. Beachten Sie, dass im Aktivitätsprotokoll über das Microsoft Teams Admin Center keine Richtlinienpaketzuweisungen, keine Richtlinienzuweisungen für Batches von weniger als 20 Benutzern oder keine Richtlinienzuweisungen über PowerShell angezeigt werden.
 
 ![Screenshot der Seite "Aktivitätsprotokoll"](media/activity-log.png)
 
@@ -128,7 +128,7 @@ Wenn Sie den Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, kö
 
 So zeigen Sie Ihre Richtlinienzuweisungen im Aktivitätsprotokoll an:
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams **Admin Center** zu Dashboard , und wählen Sie dann unter Aktivitätsprotokoll **die** Option Details **anzeigen aus.**
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams **Admin Center** zu Dashboard , und wählen Sie dann unter Aktivitätsprotokoll die Option Details anzeigen **aus.** 
 2. Sie können alle Richtlinienzuweisungen anzeigen oder die Liste nach Status filtern, um nur Die Aufgaben "Nicht **gestartet",** **"In Bearbeitung"** oder **"Abgeschlossen" angezeigt zu werden.** Zu jeder Aufgabe werden die folgenden Informationen zu sehen:
     - **Name:** Der Name der Richtlinienzuweisung. Klicken Sie auf den Link, um weitere Details anzuzeigen. Dies umfasst die Anzahl der Benutzer, denen die Richtlinie zugewiesen wurde, sowie die Anzahl der abgeschlossenen, in Bearbeitung und nicht begonnenen Zuordnungen. Außerdem sehen Sie die Liste der Benutzer im Batch sowie den Status und das Ergebnis für jeden Benutzer. Nachfolgend ein Beispiel:
 

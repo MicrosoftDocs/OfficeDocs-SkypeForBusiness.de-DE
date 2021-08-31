@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e50c0c3b7051ec713fff72058a53bd261ab650c3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607692"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733434"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -216,11 +216,11 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.  
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Beispiel: die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.
-    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion":::
+    :::image type="content" source="media/flw-flm-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion.":::
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen"":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen".":::
 
 6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
     :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
@@ -234,7 +234,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
     - Kalender
     - Schichten
 
-    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Screenshot der in der Reihenfolge aufgeführten Apps für Vorgesetzte in Service und Produktion":::
+    :::image type="content" source="media/flw-manager-pinned-apps.png" alt-text="Screenshot der in der Reihenfolge aufgeführten Apps für Vorgesetzte in Service und Produktion.":::
 
 #### <a name="create-the-frontline-worker-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion
 
@@ -243,11 +243,11 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Einrichtungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Bespiel: die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.
-    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion in Service und Produktion":::
+    :::image type="content" source="media/flw-flw-app-setup-policy.png" alt-text="Screenshot des Beispielnamens und der Beschreibung für die App-Einrichtungsrichtlinie für Mitarbeiter in Service und Produktion.":::
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen"":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen".":::
 
 6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
 
@@ -260,7 +260,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
     - Teams
     - Schichten
 
-    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Screenshot der in der Reihenfolge aufgeführten Apps für Mitarbeiter in Service und Produktion":::
+    :::image type="content" source="media/flw-worker-pinned-apps.png" alt-text="Screenshot der in der Reihenfolge aufgeführten Apps für Mitarbeiter in Service und Produktion.":::
 
 ### <a name="create-teams-app-permission-policies"></a>Erstellen von App-Berechtigungsrichtlinien für Teams
 
@@ -275,7 +275,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen"":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen".":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
 4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
@@ -290,7 +290,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen"":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen".":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
 4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.

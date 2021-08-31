@@ -13,20 +13,20 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4587c17f1c6f0a6ad95f493876b456f6192f3aa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92064eb31561f74285c338edc6d482fad0b7496f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636459"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734144"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Ressourcenspezifische Zustimmung in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Mit der ressourcenspezifischen Zustimmung in Microsoft Teams Teambesitzern die Zustimmung von Apps für den Zugriff auf Teamdaten erteilt. Beispiele für einen solchen Zugriff sind die Möglichkeit, Kanalnachrichten zu lesen, Kanäle zu erstellen und zu löschen sowie Kanalregisterkarten zu erstellen und zu entfernen.
+Mit der ressourcenspezifischen Zustimmung in Microsoft Teams Teambesitzern die Zustimmung für Apps für den Zugriff auf Teamdaten erteilt. Beispiele für einen solchen Zugriff sind die Möglichkeit, Kanalnachrichten zu lesen, Kanäle zu erstellen und zu löschen sowie Kanalregisterkarten zu erstellen und zu entfernen.
 
-Als Administrator steuern Sie, ob Teambesitzer in Ihrer Organisation über Einstellungen, die Sie mithilfe des powerShell-Moduls von Azure Active Directory (Azure AD) oder des Azure-Portals und des Microsoft Teams Admin Centers konfigurieren, ihre Zustimmung geben können.  
+Als Administrator steuern Sie, ob Teambesitzer in Ihrer Organisation über Einstellungen, die Sie mithilfe des PowerShell-Moduls von Azure Active Directory (Azure AD) oder des Azure-Portals und des Microsoft Teams Admin Centers konfigurieren, ihre Zustimmung geben können.  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>Festlegen, ob Teambesitzer Apps die Zustimmung erteilen können
 
@@ -63,7 +63,7 @@ Zusätzlich zu den Einstellungen in Azure AD legen [](manage-apps.md) die organi
 
 Diese organisationsweite App-Einstellung steuert, ob Benutzer in Ihrer Organisation Apps von Drittanbietern verwenden können. Diese Einstellung muss aktiviert sein, damit Teambesitzer ihre Zustimmung erteilen können. Gehen Sie wie folgt vor, um diese Einstellung zu verwalten:
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams Apps** Apps verwalten , und klicken Sie dann auf  >   **Organisationsweite App-Einstellungen**.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Teams **Apps** Apps verwalten , und klicken Sie dann  >  auf **Organisationsweite App-Einstellungen**.
 2. Deaktivieren **oder aktivieren Sie unter Apps** von Drittanbietern die App Von Drittanbietern **zulassen.**
 
     ![Screenshot der Einstellung "Drittanbieter-Apps in Teams zulassen"](media/resource-specific-consent-org-wide-setting.png)

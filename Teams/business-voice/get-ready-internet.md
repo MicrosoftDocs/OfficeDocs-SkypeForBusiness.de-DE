@@ -17,12 +17,12 @@ search.appverid: MET150
 description: ''
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df894e5ece2b75bc2168c02d4005b3e522bacab5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 82e1ba3c58dca1326cb942726efa7d0006aa622f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617551"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731234"
 ---
 # <a name="check-your-internet-connection-for-business-voice"></a>Überprüfen Ihrer Internetverbindung für Business Voice
 
@@ -64,22 +64,22 @@ Führen Sie die folgenden Schritte aus:
 2. Öffnen Sie **Planung** und dann **Netzwerkplaner** aus.
 3. Wählen Sie unter **Netzwerkpläne** die Option **Hinzufügen** aus. Weisen Sie Ihrem Plan einen Namen zu, und wählen Sie dann **Übernehmen** aus. Ihr Netzwerkplan sollte wie folgt aussehen:
 
-    ![Netzwerkplaner: Hauptbildschirm](../media/network-planner-main.png)
+    ![Netzwerkplaner: Hauptbildschirm.](../media/network-planner-main.png)
 1. Wählen Sie den Namen Ihres Netzwerkplans aus. (Es entspricht **Hauptsitz** im vorhergehenden Bild.)
 2. Wählen Sie auf der nächsten Seite auf der Registerkarte **Netzwerkstandorte** die Option **Netzwerkstandort hinzufügen** aus.
 3. Füllen Sie nur die im folgenden Screenshot angegebenen Felder aus, und wählen Sie dann **Speichern**. Lassen Sie die anderen Felder auf diesem Bildschirm leer, und wählen Sie weder die Option **ExpressRoute** noch die Option **Verbunden mit WAN** aus.
 
-    ![Netzwerkplaner: Informationen zu Standorten](../media/network-planner-site-info.png)
+    ![Netzwerkplaner: Standortinformationen.](../media/network-planner-site-info.png)
 1. Wählen Sie auf der Registerkarte **Bericht** die Option **Bericht starten** aus.
 1. Geben Sie die folgenden Informationen ein, und wählen Sie dann **Bericht erstellen** aus, um einen Bericht mit den Bandbreitenanforderungen für Microsoft Teams zu erstellen. Im nächsten Abschnitt wird beschrieben, wie Sie den Bericht lesen.
 
-    ![Netzwerkplaner: Berichtsinformationen](../media/network-planner-report-info.png)
+    ![Netzwerkplaner: Berichtsinformationen.](../media/network-planner-report-info.png)
 
 ### <a name="find-your-minimum-internet-connection-speed"></a>Ermitteln der Mindestgeschwindigkeit Ihrer Internetverbindung
 
 Wenn Sie **Bericht generieren** auswählen, erstellt Microsoft 365 bzw. Office 365 einen Bericht, der wie folgt aussieht:
 
-![Netzwerkplaner: Berichtsdetails](../media/network-planner-report.png)
+![Netzwerkplaner: Berichtdetails.](../media/network-planner-report.png)
 
 Die hervorgehobene Zahl gibt an, welcher Anteil ihrer Internetverbindung von Teams und Business Voice verwendet wird. Wir empfehlen, dass dieser Wert nicht mehr als 30 % der Gesamtgeschwindigkeit der Internetverbindung ausmacht. Wenn Ihre Internetverbindung z. B. 60 MBit/s beträgt, sollten auf Microsoft Teams und Business Voice nicht mehr als 18 MBit/s entfallen.
 
@@ -87,7 +87,7 @@ Verwenden Sie diese Gleichung zur Ermittlung Ihrer Mindest-Verbindungsgeschwindi
 
 Wenn auf Teams und Business Voice mehr als 30 % der Gesamtgeschwindigkeit Ihrer Internetverbindung entfallen, wird die hervorgehobene Zahl rot angezeigt. In diesem Fall müssen Sie möglicherweise ein Upgrade Ihrer Internetverbindung durchführen.
 
-![Verbindungsgeschwindigkeitswarnung](../media/network-planner-report-speed-warning.png)
+![Warnung zur Verbindungsgeschwindigkeit.](../media/network-planner-report-speed-warning.png)
 
 ## <a name="make-sure-the-computers-and-devices-on-your-network-can-reach-microsoft-365"></a>Feststellen, ob Computer und Geräte in Ihrem Netzwerk Microsoft 365 erreichen können
 

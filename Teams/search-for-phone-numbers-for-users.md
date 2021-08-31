@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie nach Land oder Region und Ort nach Telefonnummern suchen können, die Sie Ihren Benutzern zuweisen können, und geben Sie die Anzahl der benötigten Nummern an.
-ms.openlocfilehash: 4fcc5d43ec232d57437cabdc09d38a75910b03f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 31815ff2877cc487f090600560fe9203c840fe58
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602110"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733564"
 ---
 # <a name="search-for-phone-numbers-for-users"></a>Suchen nach Telefonnummern von Benutzern
 
@@ -40,7 +40,7 @@ Wenn Sie Hilfe beim Erhalten von Telefonnummern benötigen, lesen Sie Verwalten 
 
 **So suchen Sie nach Telefonnummern für Ihre Benutzer**
 
-![Symbol mit dem Teams ](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
   
 1. Wechseln Sie zum **Microsoft Teams Admin Center**.
 
@@ -69,7 +69,7 @@ Wenn Sie Hilfe beim Erhalten von Telefonnummern benötigen, lesen Sie Verwalten 
 
 9. Überprüfen Sie **auf der** Seite Bestätigung Ihre Auswahlmöglichkeiten, und klicken Sie dann auf **Bestellung bestellen**.
 
-10. Wenn Sie zur  Seite Telefon Telefonnummern zurückkehren, wählen Sie die Telefonnummer oder Nummern  aus, die Sie zuweisen möchten, und klicken Sie dann auf Bearbeiten, um sie einem Benutzer zuzuordnen.  
+10. Wenn Sie zur Seite Telefon Nummern **zurückkehren,** wählen Sie die Telefonnummern aus,  die Sie zuweisen möchten, und klicken Sie dann auf Bearbeiten, um sie einem Benutzer zuzuordnen.  
 
 ## <a name="related-topics"></a>Verwandte Themen
 [Übertragen von Telefonnummern – häufig gestellte Fragen](./phone-number-calling-plans/port-order-overview.md)

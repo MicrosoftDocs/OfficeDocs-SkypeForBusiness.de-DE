@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b47f0d9229a695b595255d26da773204e5b21a2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: eaeec25c90e800fcc688dad924ecac8de687841a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608703"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733714"
 ---
 # <a name="governance-quick-start-for-microsoft-teams"></a>Schnellstart von Governance für Microsoft Teams
 
@@ -37,7 +37,7 @@ Die folgenden Aktivitäten werden gleichzeitig ausgeführt, und sie können Ihr 
 
 Weitere Informationen finden Sie unter [Planen der Governance in Teams](plan-teams-governance.md) und Planen der [Lebenszyklusverwaltung in Teams.](plan-teams-lifecycle.md)
 
-## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Ein Symbol, das einen Entscheidungspunkt darstellt](media/teams-adoption-decision-icon.png)Entscheidungen
+## <a name="an-icon-representing-a-decision-pointdecisions"></a>![Ein Symbol, das einen Entscheidungspunkt darstellt.](media/teams-adoption-decision-icon.png)Entscheidungen
 
 Treffen Sie die folgenden Entscheidungen (zu diesem Zeitpunkt gelten diese Entscheidungen nur für Phase 2):
 
@@ -47,7 +47,7 @@ Im Rahmen dieser Phase können Sie zusätzlich zum Kernprojektteam die Personen,
 
 ### <a name="decision-2-teams-naming-conventions"></a>Entscheidung 2: Teams Namenskonventionen 
 
-Wahrscheinlich möchten Sie einige Namenskonventionen für Ihre umfassende Bereitstellung von Teams implementieren und auf doppelte Namen überprüfen. In Phase 2 wird die Implementierung einer manuellen Benennungskonvention nur für die ersten Projekte vorschlagen. Die beste Methode hierin besteht in der Durchführung eines interaktiven Onboardings mit dem Early Adopter-Projektteam, und es ihm zu ermöglichen, einen eigenen Namen auszuwählen. Dadurch erhalten Sie einen Einblick in die Meinung von Mitarbeitern zu ihrer Arbeit und sind für die Erstellung einer Benennungskonvention im größeren Maßstab zu einem späteren Zeitpunkt von wesentlicher Bedeutung. (Weitere Informationen zu den Elementen eines interaktiven Onboardings werden weiter unten in diesem Handbuch angezeigt.)
+Wahrscheinlich möchten Sie einige Namenskonventionen für Ihre umfassende Bereitstellung von Teams implementieren und auf doppelte Namen prüfen. In Phase 2 wird die Implementierung einer manuellen Benennungskonvention nur für die ersten Projekte vorschlagen. Die beste Methode hierin besteht in der Durchführung eines interaktiven Onboardings mit dem Early Adopter-Projektteam, und es ihm zu ermöglichen, einen eigenen Namen auszuwählen. Dadurch erhalten Sie einen Einblick in die Meinung von Mitarbeitern zu ihrer Arbeit und sind für die Erstellung einer Benennungskonvention im größeren Maßstab zu einem späteren Zeitpunkt von wesentlicher Bedeutung. (Weitere Informationen zu den Elementen eines interaktiven Onboardings werden weiter unten in diesem Handbuch angezeigt.)
 
 ### <a name="decision-3-guest-access"></a>Entscheidung 3: Gastzugriff
 
@@ -59,17 +59,17 @@ Die Optimale Verwendung von Teams umfasst die Integration anderer Apps in die Be
 
 ### <a name="decision-5-are-meetings-included-in-your-test"></a>Entscheidung 5: Sind Besprechungen in Ihrem Test enthalten? 
 
-Die Teams Besprechungserfahrung ist qualitativ hochwertig, unterstützt Videochats und führt Ihre Mitarbeiter zusammen, um effektiver zu sein. Wenden Sie sich an Ihr technisches Team, um sicherzustellen, dass Ihre Umgebung bereit für einfache VoIP-Besprechungen ist. Die Aktivierung von Audiokonferenzen oder Sprachdiensten würde normalerweise aus dieser Phase des Experimentierens ausgeschlossen. Dies hängt jedoch von Ihrem Kernprojektteam, Ihrer technischen Bereitschaft und dem Status anderer Sprach-/Besprechungsdienste in Ihrer Organisation ab. Die technische Bereitschaft sollte Dinge umfassen, z. B. Geräte für Besprechungsraum, Endbenutzergeräte und Zubehör sowie das Netzwerk. Wir empfehlen, Videochats und VoIP-Besprechungen in Ihre Experimente mit einzuveraufnahme, um mehr Nutzen aus Ihrer Teams zu gewinnen. 
+Die Teams Besprechungserfahrung ist qualitativ hochwertig, unterstützt Videochats und führt Ihre Mitarbeiter zusammen, um effektiver zu sein. Wenden Sie sich an Ihr technisches Team, um sicherzustellen, dass Ihre Umgebung bereit für einfache VoIP-Besprechungen ist. Die Aktivierung von Audiokonferenzen oder Sprachdiensten würde normalerweise aus dieser Phase des Experimentierens ausgeschlossen. Dies hängt jedoch von Ihrem Kernprojektteam, Ihrer technischen Bereitschaft und dem Status anderer Sprach-/Besprechungsdienste in Ihrer Organisation ab. Die technische Bereitschaft sollte Dinge umfassen, z. B. Geräte für Besprechungsraum, Endbenutzergeräte und Zubehör sowie das Netzwerk. Wir empfehlen, Videochats und VoIP-Besprechungen in Ihre Experimente einzuberaumen, um mehr Nutzen aus Ihrer Teams zu gewinnen. 
 
 ### <a name="decision-6-content-management-and-structure"></a>Entscheidung 6: Inhaltsverwaltung und -struktur
-Teams funktioniert am besten, wenn Benutzer end-to-end innerhalb der Plattform arbeiten – anstatt ständig zu älteren Systemen und Diensten zurückwechseln zu müssen – und bietet neue Arbeitsweisen, die sich von der Benutzerverwöhnung unterscheiden. Im Rahmen Ihres Experiments sollten Sie gemeinsam mit den Teilnehmern Teamstrukturen und Kanäle berücksichtigen, die die multi modalen Methoden der Zusammenarbeit innerhalb von Teams nutzen, und vermeiden Sie das einfache Replizieren vorhandener Ordner- und Speicherstrukturen. Berücksichtigen Sie darüber hinaus alle Complianceanforderungen für Inhalte, die außerhalb von vorhandenen unterstützten Systemen gespeichert sind, z. B. Datensatzverwaltungs- oder Sicherungssysteme.
+Teams funktioniert am besten, wenn Benutzer end-to-end innerhalb der Plattform arbeiten – statt ständig zurück zu älteren Systemen und Diensten zu wechseln – und bietet neue Arbeitsweisen, die sich von der Benutzerverwöhnung unterscheiden. Arbeiten Sie im Rahmen Ihres Experiments mit den Teilnehmern zusammen, um Teamstrukturen und Kanäle zu berücksichtigen, die die multi modalen Methoden der Zusammenarbeit in Teams nutzen, und vermeiden Sie das einfache Replizieren vorhandener Ordner- und Speicherstrukturen. Berücksichtigen Sie darüber hinaus alle Complianceanforderungen für Inhalte, die außerhalb von vorhandenen unterstützten Systemen gespeichert sind, z. B. Datensatzverwaltungs- oder Sicherungssysteme.
 
 ### <a name="decision-7--data-security"></a>Entscheidung 7: Datensicherheit
 
-Zur Vorbereitung der umfassenden Bereitstellung können Sie Sicherheitsbezeichnungen verwenden, um die Teamtypen in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, sich auf Governanceplan [in Teams](plan-teams-governance.md) zu beziehen und sicherzustellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Ihrer Organisation Microsoft 365. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Microsoft 365 administratorrechte erforderlich sind, um diese Arbeit ausführen zu können.
+Zur Vorbereitung der umfassenden Bereitstellung können Sie Sicherheitsbezeichnungen verwenden, um die Teamtypen in Ihrer Umgebung zu klassifizieren. Für dieses Experiment empfehlen wir, sich auf Governanceplan [in Teams](plan-teams-governance.md) zu beziehen und sicherzustellen, dass eine grundlegende Aufbewahrungsrichtlinie für Teams-Daten in Ihrer Organisation Microsoft 365. Möglicherweise müssen Sie diese Arbeit mit Ihrem technischen Team koordinieren, da Microsoft 365 Administratorrechte erforderlich sind, um diese Arbeit ausführen zu können.
 
 ### <a name="decision-8-length-of-your-experiment"></a>Entscheidung 8: Länge des Experiments
 
-Eine erfolgreiche Teams erfolgt in einem gesunden Tempo, um für entsprechende Dynamik, Konzentration und Lernerfolge zu sorgen. Wir empfehlen, dass diese Phase Ihres Projekts 60 Tage dauern sollte, um sicherzustellen, dass Ihre Early Adopters ausreichende Geschäftszyklen abschließen. Wenn Sie die Experimentierdauer um einen zu langen Zeitraum verlängern, erhöht sich das Risiko eines fehlgeschlagenen Änderungsprogramms. diese Zeit variiert jedoch je nach Organisation.  
+Eine erfolgreiche Teams geht in einem gesunden Tempo weiter, um für entsprechende Dynamik, Konzentration und Lernerfolge zu sorgen. Wir empfehlen, dass diese Phase Ihres Projekts 60 Tage dauern sollte, um sicherzustellen, dass Ihre Early Adopters ausreichende Geschäftszyklen abschließen. Wenn Sie die Experimentierdauer um einen zu langen Zeitraum verlängern, erhöht sich das Risiko eines fehlgeschlagenen Änderungsprogramms. diese Zeit variiert jedoch je nach Organisation.  
 
-![Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) Weiter: [Definieren von Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Definieren von Verwendungsszenarien](teams-adoption-define-usage-scenarios.md)

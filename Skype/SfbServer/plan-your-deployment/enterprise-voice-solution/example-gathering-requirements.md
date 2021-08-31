@@ -1,5 +1,5 @@
 ---
-title: Beispiel für die Erfassung von Anforderungen für die Anrufsteuerung in Skype for Business Server
+title: Beispielsammlungsanforderungen für die Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu den Standorten, Regionen und der Bandbreite Ihres Netzwerks.
-ms.openlocfilehash: 88af4148bbdd4063f3897d246a7c56795928ad01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590990"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731454"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server
 
@@ -35,7 +35,7 @@ Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementi
 
 3. Identifizieren und Definieren der Netzwerkstandorte, die mit jeder Netzwerkregion verbunden sind.
 
-4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN mit Bandbreiteneinschränkungen verbunden ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN bandbreiteneinschränkungen ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
 
 5. Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
 
@@ -57,14 +57,14 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Beispielunternehmensnetzwerk mit drei Netzwerkregionen**
 
-     ![Netzwerktopologie (Beispiel) mit 3 Netzwerkregionen](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
+     ![Netzwerktopologie (Beispiel) mit 3 Netzwerkregionen.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
     > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie unter [Komponenten und Topologien für die Anrufsteuerung in Skype for Business.](components-and-topologies.md) 
 
     Im vorherigen Beispiel für die Netzwerktopologie gibt es drei Netzwerkregionen mit jeweils einem Skype for Business Server zentralen Standort, der die Anrufsteuerung verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen. 
 
-    In diesem Beispiel ist eine Skype for Business Bereitstellung mit dem Namen "Chicago" der zentrale Standort für die Region "Nordamerika".
+    In diesem Beispiel ist eine Skype for Business Bereitstellung mit dem Namen "Chicago" der zentrale Standort für die Region Nordamerika.
 
     Alle Skype for Business Benutzer in Nordamerika werden auf Servern in der Bereitstellung von Chicago verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
 
@@ -109,7 +109,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Anrufsteuerung in der Netzwerkregion "Nordamerika" mit drei Netzwerkstandorten, die keine Bandbreiteneinschränkung aufweisen (Chicago, New York und Detroit), und drei Netzwerkstandorten mit eingeschränkter WAN-Bandbreite (Portland, Reno und Albuquerque)**
 
-     ![Beispiel für Netzwerkstandorte, die durch WAN-Bandbreite eingeschränkt sind](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
+     ![Beispiel für Netzwerkstandorte, die durch die WAN-Bandbreite eingeschränkt sind.](../../media/Plan_CS_VoiceCAC_comparisonof6regionsandconstraints.jpg)
 
 5. Ermitteln Sie für jede WAN-Verbindung mit eingeschränkter Bandbreite die folgenden Informationen:
 
@@ -126,9 +126,9 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
      | **Netzwerkstandort**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** |
      |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|
-     | Albuquerque  <br/> | Nordamerika  <br/> | 5 000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              |
+     | Albuquerque  <br/> | Nordamerika  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              |
      | Reno  <br/>        | Nordamerika  <br/> | 10,000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
-     | Portland  <br/>    | Nordamerika  <br/> | 5 000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
+     | Portland  <br/>    | Nordamerika  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              |
      | New York  <br/>    | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       |
      | Chicago  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       |
      | Detroit  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       |
@@ -167,9 +167,9 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    | **Netzwerkstandort**   | **Netzwerkregion**   | **Grenzwert für Bandbreite**      | **Grenzwert für Audio**   | **Grenzwert für Audiositzung** | **Grenzwert für Video**   | **Grenzwert für Videositzung** | **Subnetze**                                                            |
    |:-------------------|:---------------------|:------------------|:------------------|:------------------------|:------------------|:------------------------|:-----------------------------------------------------------------------|
-   | Albuquerque  <br/> | Nordamerika  <br/> | 5 000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
+   | Albuquerque  <br/> | Nordamerika  <br/> | 5,000  <br/>      | 2,000  <br/>      | 175  <br/>              | 1,400  <br/>      | 700  <br/>              | 172.29.79.0/23, 157.57.215.0/25, 172.29.90.0/23, 172.29.80.0/24  <br/> |
    | Reno  <br/>        | Nordamerika  <br/> | 10,000  <br/>     | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 157.57.210.0/23, 172.28.151.128/25  <br/>                              |
-   | Portland  <br/>    | Nordamerika  <br/> | 5 000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
+   | Portland  <br/>    | Nordamerika  <br/> | 5,000  <br/>      | 4,000  <br/>      | 175  <br/>              | 2,800  <br/>      | 700  <br/>              | 172.29.77.0/24 10.71.108.0/24, 157.57.208.0/23  <br/>                  |
    | New York  <br/>    | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24  <br/> |
    | Chicago  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 157.57.211.0/23, 172.28.152.128/25  <br/>                              |
    | Detroit  <br/>     | Nordamerika  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | (keine Begrenzung)  <br/> | (keine Begrenzung)  <br/>       | 172.29.78.0/24 10.71.109.0/24, 157.57.209.0/23  <br/>                  |
@@ -187,14 +187,14 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Netzwerkregionenverbindungen mit zugehörigen Bandbreiteneinschränkungen**
 
-     ![Beispiel für Einschränkungen zwischen 3 Regionen](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
+     ![Beispiel für Einschränkungen zwischen 3 Regionen.](../../media/Plan_CS_VoiceCAC_limitsbetween3regions.jpg)
 
    **Bandbreiteninformationen zu Regionenverbindungen (Bandbreite in KBit/s)**
 
 
    | **Name der Regionenverbindung**  | **Erste Region**     | **Zweite Region** | **Grenzwert für Bandbreite**  | **Grenzwert für Audio** | **Grenzwert für Audiositzung** | **Grenzwert für Video** | **Grenzwert für Videositzung** |
    |:----------------------|:---------------------|:------------------|:--------------|:----------------|:------------------------|:----------------|:------------------------|
-   | NA-EMEA-LINK  <br/>   | Nordamerika  <br/> | EMEA  <br/>       | 50.000  <br/> | 20.000  <br/>   | 175  <br/>              | 14,000  <br/>   | 700  <br/>              |
+   | NA-EMEA-LINK  <br/>   | Nordamerika  <br/> | EMEA  <br/>       | 50.000  <br/> | 20,000  <br/>   | 175  <br/>              | 14,000  <br/>   | 700  <br/>              |
    | EMEA-APAC-LINK  <br/> | EMEA  <br/>          | APAC  <br/>       | 25.000  <br/> | 10,000  <br/>   | 175  <br/>              | 7,000  <br/>    | 700  <br/>              |
 
 
@@ -225,13 +225,13 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
    **Anrufsteuerung in der Netzwerkregion "Nordamerika" mit Anzeige der Bandbreitenkapazitäten und -einschränkungen für die standortübergreifende Verbindung zwischen Reno und Albuquerque**
 
-     ![Beispiel für Netzwerkstandorte, die durch WAN-Bandbreite eingeschränkt sind](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
+     ![Beispiel für Netzwerkstandorte, die durch WAN-Bandbreite eingeschränkt sind.](../../media/Plan_CS_VoiceCAC_limitsforNAdirectlinksRenoAlbuq.jpg)
 
    **Bandbreiteninformationen für eine standortübergreifende Verbindung zwischen zwei Netzwerkstandorten (Bandbreite in KBit/s)**
 
    |**Name der standortübergreifenden Verbindung**|**Erster Standort**|**Zweiter Standort**|**Grenzwert für Bandbreite**|**Grenzwert für Audio**|**Grenzwert für Audiositzung**|**Grenzwert für Video**|**Grenzwert für Videositzung**|
    |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20.000  <br/> |12,000  <br/> |175  <br/> |5 000  <br/> |700  <br/> |
+   |Reno-Albu-Intersite-Link  <br/> |Reno  <br/> |Albuquerque  <br/> |20,000  <br/> |12,000  <br/> |175  <br/> |5,000  <br/> |700  <br/> |
 
 ### <a name="next-steps"></a>Nächste Schritte
 

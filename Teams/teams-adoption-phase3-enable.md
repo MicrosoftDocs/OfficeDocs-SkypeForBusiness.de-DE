@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier finden Sie eine Übersicht über die Schritte, die Sie zur Unterstützung der breitgefächerten Aktivierung von Teams Organisation benötigen.
+description: Hier finden Sie eine Übersicht über die Schritte, die Sie zur Unterstützung der breitgefächerten Aktivierung ihrer Teams Organisation benötigen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bced37aba08ca807e6b83091aa85f16a5c99ea22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586507"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733724"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams-Einführungsphase 3 – Skalieren
 
-In dieser Phase werden Sie Ihre Lernergebnisse, Ihr talentiertes Projektteam und die Beziehungen zu Projektbeteiligten, Champions und Early Adopters nutzen, um die breitgefächerte Aktivierung ihrer Teams Organisation zu unterstützen. Sie führen die folgenden Schritte aus, während Sie sich auf die Fortsetzung des geschäftlichen Engagements im Hinblick auf die Nutzung ihrer Organisation Microsoft Teams:
+In dieser Phase werden Sie Ihre Lernergebnisse, Ihr talentiertes Projektteam und die Beziehungen zu Projektbeteiligten, Champions und Early Adopters nutzen, um die breitgefächerte Aktivierung ihrer Teams Organisation zu unterstützen. Sie führen die folgenden Schritte aus, während Sie sich auf die Fortsetzung des geschäftlichen Engagements im Hinblick auf die Nutzung von Daten durch Ihre Organisation Microsoft Teams:
 
 1. Definieren Sie Ergebnisse und Erfolgsmaßnahmen.
 2. Wählen Sie die Dienststrategie aus.
@@ -41,4 +41,4 @@ In dieser Phase werden Sie Ihre Lernergebnisse, Ihr talentiertes Projektteam und
 7. Bereiten Sie sich auf ein fortlaufendes geschäftliches Engagement vor.
 8. Bereiten Sie sich auf fortlaufende Überprüfungen & Dienstinte health vor.
 
-![Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) Weiter: [Definieren von Ergebnissen und Erfolg](teams-adoption-define-outcomes.md)
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Definieren von Ergebnissen und Erfolg](teams-adoption-define-outcomes.md)

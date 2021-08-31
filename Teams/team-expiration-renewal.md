@@ -11,17 +11,17 @@ ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über Ablauf und Verlängerung von Teams und darüber, wie Sie Microsoft 365-Ablaufrichtlinie für Gruppen verwenden, um nicht verwendete Teams automatisch in Einem Microsoft Teams.
+description: Erfahren Sie mehr über Ablauf und Verlängerung von Teams und darüber, wie Sie Microsoft 365-Ablaufrichtlinie verwenden, um nicht verwendete Teams automatisch in einem Microsoft Teams.
 f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e8f123bf7a351689747649b75f429588445a5d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14c76bd56fa7e6e9392550fa61385539415e52eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625927"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733554"
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Ablauf und Verlängerung des Teams in Microsoft Teams
 
@@ -45,4 +45,4 @@ Um ein versehentliches Löschen zu verhindern, wird die automatische Verlängeru
 
 **Ablaufdatum der Team- und zugrunde liegenden Gruppe nicht übereinstimmen**
 
-Bevor ein Team erneuert wird, wird zuerst die Gruppe, die das Team zurückseniert, erneuert. Im Rahmen der Verlängerung wird für die Gruppe ein neues Ablaufdatum für ein zukünftiges Datum festgelegt. Dieses neue Datum wird in der aktuellen Version möglicherweise nicht Teams. Die Synchronisierung kann bis zu 24 Stunden dauern. Wenn zwischen dem Ablaufdatum eines Teams und seiner zugrunde liegenden Gruppe ein Unterschied zu erkennen ist, warten Sie 24 Stunden, bevor Sie weitere Unterstützung suchen.
+Bevor ein Team erneuert wird, wird zuerst die Gruppe, die das Team zurückseniert, erneuert. Im Rahmen der Verlängerung wird für die Gruppe ein neues Ablaufdatum für ein zukünftiges Datum festgelegt. Dieses neue Datum wird in der aktuellen Version möglicherweise Teams. Die Synchronisierung kann bis zu 24 Stunden dauern. Wenn zwischen dem Ablaufdatum eines Teams und seiner zugrunde liegenden Gruppe ein Unterschied zu erkennen ist, warten Sie 24 Stunden, bevor Sie weitere Unterstützung suchen.

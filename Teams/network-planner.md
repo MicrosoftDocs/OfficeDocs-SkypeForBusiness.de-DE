@@ -8,7 +8,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: svemu
 audience: admin
-description: Der Administrator kann erfahren, wie er mithilfe von Netzwerkplaner die Netzwerkanforderungen für Microsoft Teams.
+description: Der Administrator kann erfahren, wie Er mithilfe von Netzwerkplaner die Netzwerkanforderungen für Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 55fc461a2dd005d454a2b964bb3774c5ac17dbc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 08884e7a8cf4aaebf7f2063cec0e80fcf5619ced
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594609"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731314"
 ---
 # <a name="use-the-network-planner-for-microsoft-teams"></a>Verwenden des Netzwerkplaners für Microsoft Teams
 
@@ -107,4 +107,4 @@ Nachdem Sie alle Websites hinzugefügt haben, können Sie wie folgt einen Berich
 
 ## <a name="example-scenario"></a>Beispielszenario
 
-Wenn Sie ein Beispiel für die Verwendung des Netzwerkplaners zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts anhand dieser Schritte verwenden können, laden Sie den Netzwerkplaner [How-To PowerPoint Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (nur in Englisch) herunter.
+Wenn Sie ein Beispiel für die Verwendung des Netzwerkplaners zum Einrichten eines Netzwerkplans und zum Generieren eines Berichts anhand dieser Schritte verwenden können, laden Sie den Netzwerkplaner How-To PowerPoint [Deck](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/network-planner-how-to.pptx?raw=true) (nur in Englisch) herunter.

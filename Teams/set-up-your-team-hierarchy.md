@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 769790029adf0e18d6201b635659a5b267e5f27c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4571ef220fe972fb1aab27021ea22c01c5a836b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597949"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734124"
 ---
 # <a name="set-up-your-team-targeting-hierarchy"></a>Einrichten Ihrer Team-Adressierungshierarchie
 
@@ -67,14 +67,14 @@ Die Berechtigung zum Veröffentlichen hängt davon ab, ob ein Benutzer Mitglied 
 
 ### <a name="example-hierarchy"></a>Beispielhierarchie
 
-In der folgenden Hierarchie können z. B. "Rückruf", "Kommunikation" und "Personalwesen" Aufgaben für jeden untersten Knoten (jedes Team) in der Hierarchie veröffentlichen, aber "Nordostzone" kann Aufgaben nur in den Teams "New York Store" und "Boston Store" veröffentlichen. Die Beispielhierarchie ermöglicht es den Gruppen Rückruf, Kommunikation und Personalwesen, Aufgaben zu veröffentlichen, die für das gesamte Unternehmen gelten, z. B. Informationen zu Den Leistungen oder Nachrichten vom CEO. Die Nordostzone kann Aufgaben wie die Personalplanung, Wetterinformationen und so weiter nur für die Teams in New York Store und Boston Store veröffentlichen.
+In der folgenden Hierarchie können z. B. "Rückruf", "Kommunikation" und "Personalwesen" Aufgaben für jeden untersten Knoten (jedes Team) in der Hierarchie veröffentlichen, doch die Zone "Nordost" kann Aufgaben nur in den Teams "New York Store" und "Boston Store" veröffentlichen. Die Beispielhierarchie ermöglicht es den Gruppen Rückruf, Kommunikation und Personalwesen, Aufgaben zu veröffentlichen, die für das gesamte Unternehmen gelten, z. B. Informationen zu Den Leistungen oder Nachrichten vom CEO. Die Zone "Nordost" kann Aufgaben wie die Personalplanung, Wetterinformationen und so weiter nur für die Teams in New York Store und Boston Store veröffentlichen.
 
-![Beispiel für ein hierarchisches Team](media/team-targeting-schema-example-new.png)
+![Beispiel für eine hierarchische Teamstruktur.](media/team-targeting-schema-example-new.png)
 
 ## <a name="create-your-hierarchy"></a>Erstellen der Hierarchie
 
 > [!NOTE]
-> Im weiteren Verlauf dieses Artikels wird das Einrichten einer Teamhierarchie im Kontext der Veröffentlichung von Aufgaben an die Empfängerteams erläutert. Unter [Verwalten der Aufgaben-App für](./manage-tasks-app.md) Ihre Organisation in Teams finden Sie eine Übersicht über die Aufgaben-App, in der die Aufgabenveröffentlichung angezeigt wird, wenn sie aktiviert ist.
+> Im weiteren Verlauf dieses Artikels wird das Einrichten einer Teamhierarchie im Kontext der Veröffentlichung von Aufgaben an die Empfängerteams erläutert. Unter [Verwalten der Aufgaben-App](./manage-tasks-app.md) für Ihre Organisation in Teams finden Sie eine Übersicht über die Aufgaben-App, in der die Aufgabenveröffentlichung angezeigt wird, wenn sie aktiviert ist.
 
 Das Schema, das die Hierarchie definiert, basiert auf einer CSV-Datei (Durch Kommas getrennte Werte). Die Datei muss im UTF-8-Format vorliegen. Jede Zeile in der CSV-Datei entspricht einem Knoten in der Hierarchie von Teams. Jede Zeile enthält Informationen, die den Knoten innerhalb der Hierarchie benennt, optional mit einem Team verknüpft und Attribute enthält, die zum Filtern von Teams in Apps verwendet werden können, die dies unterstützen.
 
@@ -99,7 +99,7 @@ Nachdem Sie die drei erforderlichen Spalten hinzugefügt haben, können Sie opti
 
 |Methoden zum Hinzufügen von Attributen|Beschreibung |Beispiel  |
 |---|---------|---------|
-|Wenn sich die Werte für ein Attribut gegenseitig ausschließen, wird der von Ihnen festgelegte Spaltenname zum Namen des Attributs.|Jede Zeile kann einen Wert für dieses Attribut enthalten, und jede Attributspalte kann bis zu 50 eindeutige Werte enthalten. Jeder Wert kann bis zu 100 Zeichen lang sein. Die Gruppe von Attributwerten, die Sie in der Attributspalte angeben, wird als Filterwerte für dieses Attribut angezeigt, wenn Empfängerteams mithilfe der Teamzielhierarchie ausgewählt werden.|Sie möchten, dass Benutzer Stores nach Layout filtern können. Die Werte für dieses Attribut schließen sich gegenseitig aus, da ein Speicher nur ein Layout haben kann. <br><br>Um ein Attribut zum Filtern von Speichern nach Layout hinzuzufügen, fügen Sie eine Spalte mit dem Namen Store hinzu. In diesem Beispiel sind die Werte für Store Layoutattribut "Compact", "Standard" und "Large".
+|Wenn sich die Werte für ein Attribut gegenseitig ausschließen, wird der von Ihnen festgelegte Spaltenname zum Namen des Attributs.|Jede Zeile kann einen Wert für dieses Attribut enthalten, und jede Attributspalte kann bis zu 50 eindeutige Werte enthalten. Jeder Wert kann bis zu 100 Zeichen lang sein. Die Gruppe von Attributwerten, die Sie in der Attributspalte angeben, wird als Filterwerte für dieses Attribut angezeigt, wenn Empfängerteams mithilfe der Teamzielhierarchie ausgewählt werden.|Sie möchten, dass Benutzer Stores nach Layout filtern können. Die Werte für dieses Attribut schließen sich gegenseitig aus, da ein Speicher nur ein Layout haben kann. <br><br>Um ein Attribut zum Filtern von Speichern nach Layout hinzuzufügen, fügen Sie eine Spalte namens Store hinzu. In diesem Beispiel sind die Werte für Store Layoutattribut "Compact", "Standard" und "Large".
 |Wenn Sie mehrere Werte für ein Attribut angeben müssen und sich die Werte nicht gegenseitig ausschließen, verwenden Sie für die Spaltennamen das Format **AttributeName:UniqueValue.** <br><br>**WICHTIG** Verwenden Sie unbedingt den englischen Doppelpunkt (:) da Unicode als Attributspaltentrennzeichen nicht unterstützt wird. |Die Textzeichenfolge vor dem Doppelpunkt (:) wird der Name des Attributs. Alle Spalten, die dieselbe Textzeichenfolge vor den Doppelpunkten enthalten (:) werden zu einem Abschnitt im Filtermenü gruppieren. Jede Zeichenfolge nach dem Doppelpunkt wird zu den Werten für diesen Abschnitt.<br><br>Jede Zeile kann für dieses Attribut einen Wert von 0 (Null) oder 1 haben. Ein Wert von 0 bedeutet, dass das Attribut nicht für den Knoten gilt, und der Wert 1 bedeutet, dass das Attribut auf diesen Knoten zutrifft.|Sie möchten, dass Benutzer Stores nach Abteilung filtern können. Ein Speicher kann mehrere Abteilungen haben, sodass sich die Werte für dieses Attribut nicht gegenseitig ausschließen.<br><br>In diesem Beispiel fügen wir "Departments:Clothing", "Departments:Electronics", "Departments:Food", "Departments:Home and Garden", "Departments:Sports Goods" als Attributspalten hinzu. Abteilungen werden zum Attributnamen, und die Benutzer können nach den Abteilungen "Bekleidung", "Elektronik", "Lebensmittel", "Heim- und Gartenprodukte" und "Sportwaren" filtern.|
 
 Beachten Sie beim Hinzufügen einer Attributspalte Folgendes:
@@ -154,7 +154,7 @@ Los Angeles Store,West Regional Zone,204a1287-2efb-4a8a-88e0-56fbaf5a2389,Large,
 > Um diesen Schritt ausführen zu können, müssen Sie das PowerShell Teams PowerShell Public Preview-Modul aus dem PowerShell-Katalog installieren und verwenden. Die Schritte zum Installieren des Moduls finden Sie unter Installieren Teams PowerShell.
 
 > [!NOTE]
-> Government Community Cloud (GCC) Müssen [cmdlet preview version 2.4.0 (Preview)](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) oder höher verwenden, um sicherzustellen, dass Daten an die GCC-Umgebung und nicht an die Umgebung für die Öffentliche Cloud geroutet werden.
+> Government Community Cloud (GCC) Müssen [cmdlet preview version 2.4.0 (Preview)](https://www.powershellgallery.com/packages/MicrosoftTeams/2.4.0-preview) oder höher verwenden, um sicherzustellen, dass Daten an die GCC-Umgebung und nicht an die Umgebung für die Public Cloud geroutet werden.
 
 Nachdem Sie die Hierarchie in der Schema-CSV-Datei definiert haben, können Sie sie in eine Teams. Führen Sie dazu den folgenden Befehl aus. Sie müssen ein globaler Administrator oder ein Teams sein, um diesen Schritt zu tun.
 
@@ -270,9 +270,9 @@ Error: InvalidTeamId
 Description: TeamID in row # doesn't match a valid Group ID. Please view our documentation to learn how to get the proper GroupID for each team.
 ```
 
-Stellen Sie sicher, dass Sie die richtige TeamId für das Team in Ihrer Schema-CSV-Datei verwenden. Die Team-ID sollte mit der Gruppen-ID der Gruppe identisch sein, Microsoft 365 das Team zurücksentfernt. Sie können die Gruppen-ID des Teams im Microsoft Teams Admin Center nachschauen.
+Stellen Sie sicher, dass Sie die richtige TeamId für das Team in Ihrer Schema-CSV-Datei verwenden. Die Team-ID sollte mit der Gruppen-ID der Gruppe identisch sein, Microsoft 365 dem Team zugeordnet ist. Sie können die Gruppen-ID des Teams im Microsoft Teams Admin Center nachschauen.
 
-1. Wechseln Sie in der linken Navigationsleiste  [Microsoft Teams Admin Center](https://admin.teams.microsoft.com/)zu Teams  >  **Teams verwalten.**
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams  [Admin Center](https://admin.teams.microsoft.com/)zu Teams  >  **Teams verwalten.**
 2. Wenn die **Spalte "Gruppen-ID"** nicht in der Tabelle angezeigt wird, wählen Sie **in** der oberen rechten Ecke der Tabelle Spalten bearbeiten aus, und aktivieren Sie dann **Gruppen-ID**.
 3. Suchen Sie das Team in der Liste, und suchen Sie dann die Gruppen-ID.
 

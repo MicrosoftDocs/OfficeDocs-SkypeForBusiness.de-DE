@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zum Lastenausgleich, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 9b47c87fa834de6b0a7b3ddddaf6493a9c95f363
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba8ab3e4659ea7e17e91b4bf725e8bd1fe8b59ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623587"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733394"
 ---
 # <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
  
@@ -45,7 +45,7 @@ Wenn Sie den DNS-Lastenausgleich verwenden und Datenverkehr zu einem bestimmten 
   
 ## <a name="hardware-load-balancer-requirements"></a>Anforderungen an das Hardwaregerät zum Lastenausgleich
 
-Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den DNS-Lastenausgleich für neue Bereitstellungen optimiert, die hauptsächlich mit anderen Organisationen verbunden sind, die Skype for Business Server oder Lync Server verwenden. Wenn eine hohe Verfügbarkeit für eines der folgenden Szenarien erforderlich ist, muss ein Hardwaregerät zum Lastenausgleich in Edgeserverpools für Folgendes verwendet werden: 
+Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den DNS-Lastenausgleich für neue Bereitstellungen optimiert, die in erster Linie mit anderen Organisationen verbunden sind, die Skype for Business Server oder Lync Server verwenden. Wenn eine hohe Verfügbarkeit für eines der folgenden Szenarien erforderlich ist, muss ein Hardwaregerät zum Lastenausgleich in Edgeserverpools für Folgendes verwendet werden: 
   
 - Partnerverbund mit Organisationen, die Office Communications Server 2007 R2 oder Office Communications Server 2007 verwenden
     
@@ -62,7 +62,7 @@ Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den
 > [!NOTE]
 > Die NAT des direkten Serverrücklaufs (Direct Server Return, DSR) wird bei Skype for Business Server nicht unterstützt. 
   
-Informationen dazu, ob Ihr Hardwaregerät zum Lastenausgleich die erforderlichen Features unterstützt, die von Skype for Business Server benötigt werden, finden Sie unter [Infrastruktur für Skype for Business.](../../../SfbPartnerCertification/certification/infra-gateways.md) 
+Informationen dazu, ob Ihr Hardwaregerät zum Lastenausgleich die erforderlichen Features unterstützt, die von Skype for Business Server benötigt werden, finden Sie unter [Infrastruktur für Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). 
   
 ### <a name="hardware-load-balancer-requirements-for-edge-servers-running-the-av-edge-service"></a>Anforderungen bei Verwendung eines Hardwaregeräts zum Lastenausgleich für Edgeserver, auf denen der A/V-Edgedienst ausgeführt wird
 
@@ -136,14 +136,14 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
   
 **Front-End-Serverbenutzerpool – interne HLB-Schnittstelle**
 
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>Web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End-  <br/> 5061  <br/> |Quelle  <br/> |HTTPS  <br/> |
-|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End-  <br/> 5061  <br/> |Quelle  <br/> |HTTP  <br/> |
+|\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End-  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
+|\<pool\>Web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End-  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
 **Front-End-Serverbenutzerpool – externe HLB-Schnittstelle**
 
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |
@@ -159,7 +159,7 @@ Das folgende Diagramm zeigt ein Beispiel mit internem und externem DNS-Lastenaus
   
 **Edgenetzwerkdiagramm mit öffentlichen IPv4-Adressen**
 
-![Beispiel für ein DNS-Netzwerkdiagramm](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
+![Beispiel für ein DNS-Netzwerkdiagramm.](../../media/2cc9546e-5560-4d95-8fe4-65a792a0e9c3.png)
   
 Wenn Sie DNS-Lastenausgleich verwenden, können Sie möglicherweise auch kostengünstigere Hardwaregeräte zum Lastenausgleich anschaffen, da diese nicht für alle Arten von Datenverkehr eingesetzt werden müssen. Sie sollten Lastenausgleichsmodule verwenden, die die Interoperabilitätsqualifizierungstests mit Skype for Business Server bestanden haben. Ausführliche Informationen zu Lastenausgleichsinteroperabilitätstests finden Sie unter [Lync Server 2010 Load Balancer Partners.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) Der inhalt gilt für Skype for Business Server.
   
@@ -169,7 +169,7 @@ Der DNS-Lastenausgleich wird in der Regel auf Anwendungsebene implementiert. Die
   
 Wenn z. B. drei Front-End-Server im Pool "pool01.contoso.com" vorhanden sind, werden folgende Schritte ausgeführt:
   
-- Clients, die Skype for Business Dns für pool01.contoso.com abfragen. Die Abfrage gibt drei IP-Adressen zurück und speichert sie wie folgt zwischen (nicht unbedingt in dieser Reihenfolge):
+- Clients, die Skype for Business ausführen, fragen DNS nach pool01.contoso.com ab. Die Abfrage gibt drei IP-Adressen zurück und speichert sie wie folgt zwischen (nicht unbedingt in dieser Reihenfolge):
     
     pool01.contoso.com 192.168.10.90
     
@@ -218,7 +218,7 @@ Auch wenn für diese Pools weiterhin Hardwaregeräte zum Lastenausgleich benöti
   
 #### <a name="dns-load-balancing-and-supporting-older-clients-and-servers"></a>DNS-Lastenausgleich und Unterstützung älterer Clients und Server
 
-Der DNS-Lastenausgleich unterstützt das automatische Failover nur für Server, auf denen Skype for Business Server oder Lync Server 2010 ausgeführt wird, sowie für Lync 2013- und Skype for Business-Clients. Frühere Versionen von Clients und Office Communications Server können weiterhin eine Verbindung mit Pools herstellen, die einen DNS-Lastenausgleich ausführen. Wenn sie jedoch keine Verbindung mit dem ersten Server herstellen können, auf den der DNS-Lastenausgleich sie verweist, können sie kein Failover zu einem anderen Server im Pool ausführen. 
+Der DNS-Lastenausgleich unterstützt automatisches Failover nur für Server mit Skype for Business Server oder Lync Server 2010 sowie für Lync 2013- und Skype for Business-Clients. Frühere Versionen von Clients und Office Communications Server können weiterhin eine Verbindung mit Pools herstellen, die den DNS-Lastenausgleich ausführen. Wenn sie jedoch keine Verbindung mit dem ersten Server herstellen können, auf den der DNS-Lastenausgleich sie verweist, können sie kein Failover zu einem anderen Server im Pool ausführen. 
   
 Wenn Sie Exchange UM verwenden, müssen Sie außerdem mindestens Exchange 2010 SP1 verwenden, um Unterstützung für Skype for Business Server DNS-Lastenausgleich zu erhalten. Wenn Sie eine frühere Version von Exchange verwenden, verfügen Ihre Benutzer nicht über Failoverfunktionen für diese Exchange UM-Szenarien:
   
@@ -240,7 +240,7 @@ Für die Bereitstellung von DNS-Lastenausgleich in Front-End-Pools und Director-
 - Um den vom DNS-Lastenausgleich verwendeten FQDN zu unterstützen, müssen Sie DNS für die Auflösung des Pool-FQDN (z. B. pool01.contoso.com) in die IP-Adressen aller Server im Pool bereitstellen (z. B. 192.168.1.1, 192.168.1.2 usw.). Schließen Sie nur die IP-Adressen von Servern ein, die gegenwärtig bereitgestellt sind.
     
     > [!CAUTION]
-    > Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN aus jedem anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+    > Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN aus jedem anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
   
 ### <a name="dns-load-balancing-on-edge-server-pools"></a>DNS-Lastenausgleich in Edgeserverpools
 <a name="BK_Edge"> </a>

@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 planen.'
-ms.openlocfilehash: beb1bf01748d9ebb7336238d3ba2d3f1379e7b0f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie in Skype for Business Server 2015 hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat planen.'
+ms.openlocfilehash: 2a07b9e84e390f8d012308895229eb0da369107c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607972"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731434"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -30,7 +30,7 @@ Hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständig
 > Die Verwendung von SQL AlwaysOn-Verfügbarkeitsgruppen wird für Datenbanken des Servers für beständigen Chat nicht unterstützt. 
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="resource-requirements"></a>Ressourcenanforderungen
 
@@ -40,7 +40,7 @@ Bevor Sie den Server für beständigen Chat für hohe Verfügbarkeit und Notfall
     
 - Eine dedizierte Datenbankinstanz im anderen physischen Rechenzentrum. Diese Datenbank dient als SQL Server sekundäre Datenbank für den Protokollversand für die Datenbank im primären Rechenzentrum.
     
-- Eine dedizierte Datenbankinstanz, die als SQL Server Spiegelung für die sekundäre Datenbank dient. Legen Sie optional eine zusätzliche SQL Server für den Server als Spiegelungszeugen fest. Beide Instanzen müssen sich im selben physischen Rechenzentrum wie die sekundäre Datenbank befinden.
+- Eine dedizierte Datenbankinstanz, die als SQL Server Spiegelung für die sekundäre Datenbank dient. Legen Sie optional eine zusätzliche SQL Server auf dem Server als Spiegelungszeugen fest. Beide Instanzen müssen sich im selben physischen Rechenzentrum wie die sekundäre Datenbank befinden.
     
 - Wenn die Kompatibilität des Servers für beständigen Chat aktiviert ist, sind drei zusätzliche dedizierte Datenbankinstanzen erforderlich. Ihre Verteilung ist identisch mit denen, die zuvor für die Datenbank für beständigen Chat beschrieben wurden. Es ist zwar möglich, dass die Compliancedatenbank dieselbe SQL Server Instanz wie die Datenbank für beständigen Chat gemeinsam verwendet, es werden jedoch eigenständige Instanzen für hohe Verfügbarkeit und Notfallwiederherstellung empfohlen.
     
@@ -84,7 +84,7 @@ Abbildung 1 zeigt eine gestreckte Pooltopologie des Servers für beständigen Ch
     
 **Gestreckter Serverpool für beständigen Chat, wenn sich Rechenzentren mit hoher Bandbreite/geringer Latenz befinden**
 
-![Gestreckter Pool für beständigen Chat mit hoher Bandbreite/geringer Latenz](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
+![Gestreckter Pool für beständigen Chat mit hoher Bandbreite/geringer Latenz.](../../media/55cf3d4b-5f51-4d2f-84ca-b4a13dc5eba3.png)
   
 Abbildung 2 zeigt eine gestreckte Pooltopologie des Servers für beständigen Chat, in der sich Rechenzentren mit geringer Bandbreite/hoher Latenz geografisch befinden.
   
@@ -108,6 +108,6 @@ Abbildung 2 zeigt eine gestreckte Pooltopologie des Servers für beständigen Ch
     
 **Gestreckter Serverpool für beständigen Chat, wenn sich Rechenzentren geografisch mit geringer Bandbreite/hoher Latenz befinden**
 
-![Gestreckter Pool für beständigen Chat mit geringer Bandbreite/hoher Latenz](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
+![Gestreckter Pool für beständigen Chat mit geringer Bandbreite/hoher Latenz.](../../media/40cbd902-57b8-4d57-a61c-cde4e0bd47f0.png)
   
 

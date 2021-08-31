@@ -16,24 +16,24 @@ description: Erfahren Sie, wie Sie Teams Überwachungs- und Benachrichtigungsfun
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 844dddfc04e1dc29311a237c3fc4f7ac41a1ce7f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636760"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58735352"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams der Geräteinte health-Überwachung
 
-Die Geräteintestüberwachung im Microsoft Teams Admin Center bietet Ihnen die Möglichkeit, den Integritätszustand verschiedener Geräte proaktiv zu Teams überwachen. Überwachen Des Offlinestatus eines Geräts und Empfangen von Benachrichtigungen in Echtzeit, wenn das überwachte Gerät in Ihrer Organisation offline geschaltet wird.  
+Die Geräteintestüberwachung im Microsoft Teams Admin Center bietet Ihnen die Möglichkeit, den Status verschiedener Geräte proaktiv zu Teams überwachen. Überwachen Des Offlinestatus eines Geräts und Empfangen von Benachrichtigungen in Echtzeit, wenn das überwachte Gerät in Ihrer Organisation offline geschaltet wird.  
 
 Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Kanälen in Ihrem Mandanten. [Weitere Informationen.](/microsoft-365/solutions/manage-creation-of-groups?view=o365-worldwide)
 
 ## <a name="configure-device-state-rule"></a>Konfigurieren der Gerätestatusregel
 
-1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams Admin Center die Option Benachrichtigungen **& Regeln für Benachrichtigungen**  >  **aus.**
+1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center die Option Benachrichtigungen **& Regeln für Benachrichtigungen**  >  **aus.**
 
-   ![Abschnitt "Regeln" im Admin Center](../media/select-rules.png)
+   ![Abschnitt "Regeln" im Admin Center.](../media/select-rules.png)
 
 2. Wählen Sie **auf der Seite** "Regeln" die Option **Gerätestatusregel aus.**
 
@@ -46,7 +46,7 @@ Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Ka
 
 |Feld |Beschreibung  |
 |--------|-------------|
-|**Regeltyp**   |Die Gerätestatusregel hilft Ihnen bei der effektiven Verwaltung. Teams geräte und wird als Geräteverwaltungstyp klassifiziert. In Zukunft werden weitere Regeln für den Geräteverwaltungstyp zur Überwachung anderer zugehöriger Funktionen verfügbar sein (Beispiele hierfür sind fehlerhafte Geräte und der Anmeldestatus des Geräts).|
+|**Regeltyp**   |Die Gerätestatusregel hilft Ihnen bei der effektiven Verwaltung. Teams geräte und als Geräteverwaltungstyp klassifiziert. In Zukunft werden weitere Regeln für den Geräteverwaltungstyp zur Überwachung anderer zugehöriger Funktionen verfügbar sein (Beispiele hierfür sind fehlerhafte Geräte und der Anmeldestatus des Geräts).|
 |**Bedingung**   |Sie können die Integrität von Geräten überwachen, wenn sie offline sind. [Weitere Informationen](../devices/device-management.md) zur Geräteverwaltung finden Sie im Teams Admin Center. |
 |**Umfang**   |Sie können angeben, wie häufig der Gerätestatus überwacht werden soll, indem Sie die Häufigkeit der Regelauswertung erwähnen. Teams-Geräte werden standardmäßig in Echtzeit überwacht, wenn sie offline sind. |
 |**Gerätebenutzer**   |Sie können angeben, welche Geräte eine proaktive Offlineüberwachung benötigen, indem Sie diese basierend auf angemeldeten Benutzern auswählen. Weitere Details [finden Sie unter Auswählen von](#select-devices-for-configuration) Geräten für die Konfiguration. |
@@ -60,7 +60,7 @@ Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Ka
 
 ## <a name="select-devices-for-configuration"></a>Geräte für die Konfiguration auswählen
 
-1. Sie können die Teams, die Sie überwachen möchten, auswählen, indem Sie Benutzer auswählen, die auf diesen Geräten angemeldet sind. Wählen **Sie im** Abschnitt **Gerätebenutzer die Option Hinzufügen** aus.
+1. Sie können die Teams, die Sie überwachen möchten, auswählen, indem Sie die Benutzer auswählen, die auf diesen Geräten angemeldet sind. Wählen **Sie im** Abschnitt **Gerätebenutzer die Option Hinzufügen** aus.
 
 2. Wählen Sie einen oder mehrere Benutzer aus, für die Sie den Gerätestatus überwachen möchten.
 

@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Hier erhalten finden Sie Links zum Herunterladen von Microsoft Teams für Android in China.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3f9d6dfef0d319f7878ec4138860aa3ab52ffd89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be9edd2cc5147becf360bc7a1b6ad33294c1acdf
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633289"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733774"
 ---
 # <a name="get-microsoft-teams-for-android-in-china"></a>Beziehen von Microsoft Teams für Android in China
 
@@ -29,10 +29,10 @@ Wenn Sie sich in China befinden, verwenden Sie die Links in diesem Artikel, um M
 
 |Store  |QR-Code  |
 |---------|---------|
-| Lenovo: https://aka.ms/TeamsLenovo      | ![QR-Code für Microsoft Teams unter Android aus dem Lenovo-Store](media/get-teams-android-in-china-lenovo.png)        |
-| Xiaomi: https://aka.ms/TeamsXiaomi     |![QR-Code für Microsoft Teams unter Android aus dem Xiaomi-Store](media/get-teams-android-in-china-xiaomi.png)         |
-|Huawei: https://aka.ms/TeamsHuawei     | ![QR-Code für Microsoft Teams unter Android aus dem Huawei-Store](media/get-teams-android-in-china-huawei.png)        |
-|Oppo: Suchen Sie im Oppo-Store nach "Teams"     | ![QR-Code für Microsoft Teams unter Android aus dem Oppo-Store](media/get-teams-android-in-china-oppo.png)        |
-|Baidu: https://aka.ms/teams_baidu_direct_dl     | ![QR-Code für Microsoft Teams unter Android aus dem Baidu-Store](media/get-teams-android-in-china-baidu.png)        |
+| Lenovo: https://aka.ms/TeamsLenovo      | ![QR-Code für Microsoft Teams unter Android aus dem Lenovo-Store.](media/get-teams-android-in-china-lenovo.png)        |
+| Xiaomi: https://aka.ms/TeamsXiaomi     |![QR-Code für Microsoft Teams unter Android aus dem Xiaomi-Store.](media/get-teams-android-in-china-xiaomi.png)         |
+|Huawei: https://aka.ms/TeamsHuawei     | ![QR-Code für Microsoft Teams unter Android aus dem Huawei-Store.](media/get-teams-android-in-china-huawei.png)        |
+|Oppo: Suchen Sie im Oppo-Store nach "Teams"     | ![QR-Code für Microsoft Teams unter Android aus dem Oppo-Store.](media/get-teams-android-in-china-oppo.png)        |
+|Baidu: https://aka.ms/teams_baidu_direct_dl     | ![QR-Code für Microsoft Teams unter Android aus dem Baidu-Store.](media/get-teams-android-in-china-baidu.png)        |
 
 Informationen zum Abrufen anderer mobiler Teams-Clients finden Sie unter [Beziehen von Clients für Microsoft Teams](get-clients.md#mobile-clients).

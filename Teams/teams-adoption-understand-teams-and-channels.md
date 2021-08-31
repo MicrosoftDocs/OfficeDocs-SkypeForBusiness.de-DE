@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e999bb144a16ffb8963a7a03458fefb98311423b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2551d0de27bd945dfda1ba943462b33489d7cd42
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627277"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733984"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
@@ -36,7 +36,7 @@ Die Konzepte von Teams und Kanälen sind von grundlegender Bedeutung für eine g
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in denen die eigentliche Arbeit erledigt wird. 
 
-Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365 Gruppen finden [](office-365-groups.md) Sie unter Microsoft 365 und Gruppen Microsoft Teams und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Weitere Informationen zu Teams und Kanälen finden Sie in der Übersicht über Teams und Kanäle [in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen Teams Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365 Gruppen finden [](office-365-groups.md) Sie unter Microsoft 365 und Gruppen Microsoft Teams und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
@@ -51,14 +51,14 @@ Teamzugriffstypen bestimmen, wer einem Team beitreten kann:
 
 - *Öffentliche* Teams sind für jeden in der Organisation offen, und die Benutzer können direkt beitreten. Öffentliche Teams sind nützlich für die Zusammenarbeit an Themen, die für Personen in verschiedenen Abteilungen oder für Personen, die an verschiedenen Projekten arbeiten, von allgemeinem Interesse sind. Diese Einstellung eignet sich gut als Standardeinstellung für kleinere Organisationen.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Fördern Teams organisationsübergreifende Zusammenarbeit mithilfe von "Daten"
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Verwenden von Teams zum Fördern der organisationsübergreifenden Zusammenarbeit
 
 Es ist eine bewährte Methode, Teams zu verwenden, um die organisationsübergreifende Zusammenarbeit zu verbessern, und viele Projekte werden sich für dieses Modell 365 365 100 100 m 2013 2013 2013 2016 2016 2013 2013 2 Darüber hinaus möchten Führungskräfte oder Abteilungen innerhalb einer Organisation möglicherweise ein dediziertes Team für ihre eigenen Mitarbeiter erstellen. Betrachten Sie die In der folgenden Abbildung dargestellten Organisations- und Projektmodelle.
 
-![Organisations- und Projektmodelle](media/teams-adoption-organization-project.png)
+![Organisations- und Projektmodelle.](media/teams-adoption-organization-project.png)
 
 In einem Organisationsteam (dargestellt auf der linken Seite) können wichtige Informationen darüber geteilt werden, wie die Organisation ihr Geschäft führt, Teamereignisse, Kernstrategien und andere betriebsbereite Informationen, z. B. Geschäftsüberprüfungen. Für das auf der rechten Seite angezeigte Team sind die Informationen zum Bezirk in Kanäle unterteilt, die die Kategorien der von diesem Team erledigten Arbeit darstellen. Mitglieder dieses Teams können derselben Person Bericht erstellen oder nicht, sind aber alle damit beschäftigt, die Ergebnisse für den Bezirk zu führen.
   
 In Phase [2](teams-adoption-phase2-experiment.md) Ihrer Implementierung werden Sie mehr an der Struktur Ihrer Teams arbeiten.
 
-![Symbol für den nächsten Schritt ](media/teams-adoption-next-icon.png) Weiter: [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)
+![Ein Symbol, das den nächsten Schritt zeigt.](media/teams-adoption-next-icon.png) Nächstes: [Erstellen Ihrer ersten Teams](teams-adoption-your-first-teams.md)

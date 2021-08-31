@@ -18,18 +18,18 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Telefonnummern in Besprechungen Microsoft Teams maskieren.
-ms.openlocfilehash: 1a006450c1d98e6db0b02ceb953682efdbe3fd6a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e7fd76f0b9afa9776e554cbde87a0b302c7011
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631989"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733764"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Maskieren von Telefonnummern in Microsoft Teams Besprechungen
 
-Für den zusätzlichen Datenschutz werden den internen Teilnehmern die Telefonnummern der Teilnehmer, die sich Teams eine Teams-Besprechung über Audiokonferenzen einwählen, vollständig angezeigt. Die Nummern werden für Teilnehmer außerhalb Ihrer Organisation maskiert. Diese Einstellung ist die Standardeinstellung für alle Organisationen. Die maskierte Nummer wird wie in der folgenden Abbildung dargestellt angezeigt:
+Für den zusätzlichen Datenschutz werden den internen Teilnehmern die Telefonnummern der Teilnehmer, die sich Teams audio conferencing (Audiokonferenz) einwählen, vollständig angezeigt. Die Nummern werden für Teilnehmer außerhalb Ihrer Organisation maskiert. Diese Einstellung ist die Standardeinstellung für alle Organisationen. Die maskierte Nummer wird wie in der folgenden Abbildung dargestellt angezeigt:
 
-![Beispiel für eine maskierte Telefonnummer](media/hiddenPhoneNum.png)
+![Beispiel für eine maskierte Telefonnummer.](media/hiddenPhoneNum.png)
 
 Bei bestimmten Branchen-Nutzungsfällen haben Administratoren die Möglichkeit zu wählen, wie die Telefonnummern der Audiokonferenzteilnehmer in Besprechungen angezeigt werden, die in ihrem Mandanten organisiert sind. Die Administratoren haben die Wahl zwischen drei Optionen:
 

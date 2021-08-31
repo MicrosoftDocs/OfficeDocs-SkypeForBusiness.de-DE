@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - LIL_Placement
 description: 'Erfahren Sie, wie Sie Personen, die Skype for Business verwenden, Skype for Business personen von außerhalb Ihrer Organisation kontaktieren und sie zu ihrer Kontaktliste hinzufügen können. '
-ms.openlocfilehash: 77fb8098e7adeebd4267aed7f21153b20abd661b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e5ee802b434f0d65f9301757699e2bddc65a579f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594839"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730544"
 ---
 # <a name="let-skype-for-business-users-add-skype-contacts"></a>Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen
 
@@ -35,9 +35,9 @@ Mit Skype for Business können Ihre Benutzer nach beliebigen Benutzern von Skype
   
 Sie müssen über [Administratorberechtigungen](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d?ui=en-US&rs=en-US&ad=US) in Microsoft 365 oder Office 365 verfügen, um dies zu tun.
 
-![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
   
-1. Melden Sie sich mit Ihrem Microsoft 365 Konto oder Office 365 bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
+1. Melden Sie sich mit Ihrem Microsoft 365 Oder Office 365 bei [https://portal.office.com/adminportal/home](https://portal.office.com/adminportal/home#/homepage) an.
     
 2. Wechseln Sie im Admin Center zu **Admin Center**  >  **Skype for Business.** 
     
@@ -47,7 +47,7 @@ Sie müssen über [Administratorberechtigungen](https://support.office.com/artic
     
 4. Standardmäßig können Ihre Benutzer mit allen anderen Personen weltweit kommunizieren, die Skype for Business verwenden (vorausgesetzt, Ihre Firewall ist so konfiguriert, dass sie dies zulässt). 
     
-    ![Wählen Sie Personen die Verwendung von Skype for Business für die Kommunikation mit Ihren Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
+    ![Wählen Sie Personen die Verwendung von Skype for Business für die Kommunikation mit Anderen Skype.](../images/333789f8-2ea6-4bbd-805b-18130f427999.png)
   
     Wenn Sie möchten, dass Ihre Benutzer mit Skype-Benutzern chatten, ABER nicht mit anderen, die Skype for Business verwenden, wählen Sie **Nur für zulässige Domänen aktivieren** aus. Wenn Sie den Kontakt mit Skype-Benutzern ermöglichen, wird „skype.com" automatisch im Hintergrund als zulässige Domäne hinzugefügt. 
     
@@ -71,7 +71,7 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype, der sich nicht hi
     
 2. Melden Sie sich bei Skype for Business ab und dann wieder an, damit Sie die Option zum Durchsuchen des Skype-Verzeichnisses sehen. 
     
-    ![Wenn Skype Verzeichnis hervorgehoben ist, können Sie nach Personen suchen, die über Skype verfügen.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
+    ![Wenn Skype "Verzeichnis" hervorgehoben ist, können Sie nach Personen suchen, die über Skype verfügen.](../images/76ee9fab-1ac3-4f4a-9569-f5f2606dbb7a.png)
   
 3. Suchen Sie in Skype for Business nach Ihrem Kontakt in Skype, und senden Sie eine Chatanfrage. 
     
@@ -87,11 +87,11 @@ Um Ihr Setup zu testen, benötigen Sie einen Kontakt in Skype, der sich nicht hi
 
 - **Skype for Businessfür Mac** ist es nicht möglich, nach Skype-Kontakten zu suchen und mit ihnen zu kommunizieren.
     
-- Wenn die Verzeichnissuche aktiviert ist, können Sie nach Benutzern Skype und Skype for Business suchen. Wenn Sie die Kontakte aus bestimmten Gründen nicht finden können, indem Sie das Verzeichnis durchsuchen, können Sie ihnen eine Kontaktanfrage senden und sie dann bei Skype anmelden und die Anfrage annehmen, damit Sie mit ihnen eine Nachricht senden können. 
+- Wenn die Verzeichnissuche aktiviert ist, können Sie nach Benutzern Skype und Skype for Business suchen. Wenn Sie sie aus einem bestimmten Grund nicht finden können, indem Sie das Verzeichnis durchsuchen, können Sie ihnen eine Kontaktanfrage senden und sie dann bitten, sich bei Skype zu anmelden und die Anfrage zu akzeptieren, damit Sie mit ihnen eine Nachricht senden können. 
     
 - Chat-Nachrichtenverbindungen mit anderen Chat-Dienstanbietern wie Google oder Facebook sind nicht möglich. Sie können Skype for Business nicht zum Senden von Mobiltelefon-Textnachrichten verwenden.
 
-- Es ist nicht möglich, Audio- oder Videoanrufe zwischen einem Kontakt Skype und einem Skype for Business aufzeichnen.
+- Es ist nicht möglich, Audio- oder Videoanrufe zwischen einem Kontakt Skype einem Kontakt Skype for Business aufzeichnen.
     
 ## <a name="what-features-are-available-when-adding-skype-contacts"></a>Welche Funktionen sind beim Hinzufügen von Skype-Kontakten verfügbar?
 

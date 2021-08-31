@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Planen Sie die Kommunikation mit Ihren Benutzern, schulen und unterstützen Sie sie, während Sie ein Pilotprojekt oder ein Onboarding durchführen und ein Upgrade auf Microsoft Teams.
+description: Planen Sie die Kommunikation mit, Schulen und Support für Ihre Benutzer, während Sie ein Pilotprojekt oder ein Onboarding durchführen und ein Upgrade auf Microsoft Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61dd52a83620b0d4d20547e0da14cafa11ce30dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd023e96301661db9e181ab38e1b9b1f9fe3515
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627387"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731554"
 ---
 # <a name="prepare-a-user-readiness-plan"></a>Vorbereiten eines Plans zur Benutzerbereitschaft
 
-![Phasen des Upgradeschritts mit Hervorhebung der Stufe "Benutzerbereitschaft"](media/upgrade-banner-user-readiness.png "Phasen des Upgradeschritts, mit Betonung auf der Stufe &quot;Benutzerbereitschaft&quot;")
+![Phasen des Upgradeschritts mit Hervorhebung der Stufe "Benutzerbereitschaft".](media/upgrade-banner-user-readiness.png "Phasen des Upgradeschritts, mit Betonung auf der Stufe &quot;Benutzerbereitschaft&quot;")
 
 Dieser Artikel ist Teil der Phase der Benutzerbereitschaft für Ihr Upgrade, eine Aktivität, die Sie parallel zur Stufe "Technische Bereitschaft" abschließen. Vergewissern Sie sich zunächst, dass diese Aktivitäten aus den vorherigen Phasen abgeschlossen sind:
 
@@ -38,15 +38,15 @@ Dieser Artikel ist Teil der Phase der Benutzerbereitschaft für Ihr Upgrade, ein
 - [Vertrautmachen mit der Koexistenz und Interoperabilität von Skype for Business und Microsoft Teams](./teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 - [Auswählen der Upgrade-Strategie](upgrade-and-coexistence-of-skypeforbusiness-and-teams.md)
 
-Ein optimaler Benutzerbereitschaftsplan beinhaltet, wie Sie mit Ihren Benutzern kommunizieren, sie schulen und unterstützen, während Sie ein Pilotprojekt, ein Onboarding und ein Upgrade auf Teams. Wie Sie in Bewerten der Bereitschaft zum [Ändern der Organisation](./upgrade-org-change-readiness.md)entdeckt haben, ist die Bereitschaft nicht "One-Size-Fits-All". Verwenden Sie eine Kombination aus Nachrichten mit breiter Reichweite (einschließlich Vision/Value Messaging und universellen Nutzungsfällen) und maßgeschneiderte Nachrichten, Schulungen und Support, die auf die von Ihnen definierten Personen und Kohorien zugeschnitten sind, um optimale Freundlichkeit für die neue Technologie sicherzustellen. Dieser personalisierte Plan wird die Akzeptanz der Benutzer erleichtern, indem er es den Benutzern ermöglicht, sich schneller mit Teams zu in Beziehung zu bringen, und gleichzeitig demonstrieren, dass Sie ihre Anforderungen verstehen.
+Ein optimaler Benutzerbereitschaftsplan beinhaltet, wie Sie mit Ihren Benutzern kommunizieren, sie schulen und unterstützen, während Sie ein Pilotprojekt, ein Onboarding und ein Upgrade auf Teams. Wie Sie in Bewerten der Bereitschaft zum [Ändern der Organisation](./upgrade-org-change-readiness.md)entdeckt haben, ist die Bereitschaft nicht "One-Size-Fits-All". Verwenden Sie eine Kombination aus Nachrichten mit breiter Reichweite (einschließlich Vision/Value Messaging und universellen Nutzungsfällen) und maßgeschneiderte Nachrichten, Schulungen und Support, die auf die von Ihnen definierten Personen und Kohorien zugeschnitten sind, um optimale Freundlichkeit für die neue Technologie sicherzustellen. Dieser personalisierte Plan wird die Akzeptanz der Benutzer erleichtern, indem er es den Benutzern ermöglicht, sich schneller mit Teams zu in Beziehung zu bringen, und gleichzeitig zeigt, dass Sie ihre Anforderungen verstehen.
 
 > [!Tip]
 > Laden Sie [das Upgrade Success Kit](https://aka.ms/UpgradeSuccessKit) für Vorlagen zur Benutzerbereitschaft, z. B. Kommunikations- und Benutzerumfragen, sowie ein Beispiel für einen Upgradeprojektplan und einen Pilottestplan herunter.
 
 |&nbsp; |&nbsp; |
 |---|---|
-| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wie können Sie einen Bereitschaftsplan erstellen, um die Akzeptanz der neuen Lösung durch die Benutzer zu erleichtern und zu beschleunigen?</li><li>Verfügen Sie über die richtigen Bewusstseins-, Schulungs- und Supportressourcen, die sich an der Fähigkeit Ihrer Benutzer, mit Änderungen um umgehen zu können, und der von Ihnen definierten Benutzerperson richten?</li></ul> |
-| ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verwenden Sie die nachstehende Liste, um Ideen für Ihren Bereitschaftsplan zu entwickeln. Wählen Sie die relevantesten Aktivitäten aus – oder fügen Sie eigene hinzu –, um einen für Ihre Organisation optimierten Bereitschaftsplan zu entwerfen. Denken Sie daran, eine Kombination aus breitgefächerten Kampagnen (für Ihre gesamte Organisation) und gezielten Kampagnen (für Verzögerungen oder bestimmte Personenas) zu verwenden, um maximale Ergebnisse zu erzielen.</li></ul>|
+| ![Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wie können Sie einen Bereitschaftsplan erstellen, um die Akzeptanz der neuen Lösung durch die Benutzer zu erleichtern und zu beschleunigen?</li><li>Verfügen Sie über die richtigen Bewusstseins-, Schulungs- und Supportressourcen, die sich an der Fähigkeit Ihrer Benutzer, mit Änderungen um umgehen zu können, und der von Ihnen definierten Benutzerperson richten?</li></ul> |
+| ![Ein Symbol, das den nächsten Schritt zeigt.](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Verwenden Sie die nachstehende Liste, um Ideen für Ihren Bereitschaftsplan zu entwickeln. Wählen Sie die relevantesten Aktivitäten aus – oder fügen Sie eigene hinzu –, um einen für Ihre Organisation optimierten Bereitschaftsplan zu entwerfen. Denken Sie daran, eine Kombination aus breitgefächerten Kampagnen (für Ihre gesamte Organisation) und gezielten Kampagnen (für Verzögerungen oder bestimmte Personenas) zu verwenden, um maximale Ergebnisse zu erzielen.</li></ul>|
 
 <div class="mx-tableFixed">
 <table>

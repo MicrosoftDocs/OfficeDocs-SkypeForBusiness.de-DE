@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Telekonferenzgeräte von Drittanbietern zu integrieren.'
-ms.openlocfilehash: 0e94a7fc84d4174c3fe562355a6550a1b77d909c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0210082f4e505152833b68c182ddfcdd1ea7c2dc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607902"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731424"
 ---
 # <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planen des Videointeroperabilitätsservers in Skype for Business Server
  
 **Zusammenfassung:** Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Telekonferenzgeräte von Drittanbietern zu integrieren.
   
-Skype for Business Server ermöglicht ihnen jetzt die Integration in bestimmte VTC-Lösungen von Drittanbietern (Video Teleconferencing System). Die neue Serverrolle, die diese Interoperabilität von Videokonferenzen ermöglicht, ist der Video-Interoperabilitätsserver (VIDEO Interop Server, VIS), der derzeit als eigenständige Serverrolle implementiert ist, die nur für lokale Installationen verfügbar ist. Ein VIS fungiert als Vermittler zwischen einem Drittanbieter-Telekonferenzsystem und einer Skype for Business Server Bereitstellung. Für diese Version konzentriert sich VIS auf die Interoperabilität mit Cisco/Tandberg-Videosystemen. Lesen Sie diesen Artikel, um festzustellen, ob dieses Feature in Ihrer Skype for Business Server-Installation verwendet werden soll.
+Skype for Business Server können Sie jetzt mit bestimmten VTC-Lösungen (Video Teleconferencing System) von Drittanbietern integrieren. Die neue Serverrolle, die diese Interoperabilität von Videokonferenzen ermöglicht, ist der Video-Interoperabilitätsserver (VIDEO Interop Server, VIS), der derzeit als eigenständige Serverrolle implementiert ist, die nur für lokale Installationen verfügbar ist. Ein VIS fungiert als Vermittler zwischen einem Drittanbieter-Telekonferenzsystem und einer Skype for Business Server Bereitstellung. Für diese Version konzentriert sich vis auf die Interoperabilität mit Cisco/Tandberg-Videosystemen. Lesen Sie diesen Artikel, um zu ermitteln, ob Dieses Feature in Ihrer Skype for Business Server-Installation verwendet werden soll.
   
 ## <a name="device-interoperability"></a>Geräteinteroperabilität
 
@@ -56,7 +56,7 @@ Die derzeit unterstützten VTCs sind:
 
 Der Video-Interoperabilität-Server funktioniert im SIP-Trunkmodus, in dem sich die VTCs weiterhin bei der vorhandenen Cisco-Infrastruktur registrieren , z. B. Cisco Call Manager (CUCM). Zwischen CUCM und dem VIS wird ein Video-SIP-Trunk definiert, sodass Anrufe zwischen den beiden Systemen weitergeleitet werden können. Es werden nur Anrufe über den SIP-Trunk vom VTC an den VIS unterstützt. Auf diese Weise können sich VTCs in eine Skype for Business Konferenz einwählen (durch Wählen der Telefonnummer, die der automatischen Telefonzentrale für Anrufe zugeordnet ist), aber nicht gezogen und in die Konferenz abgelegt werden.
   
-![Diagramm des VIS in SfB](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
+![Diagramm des VIS in SfB.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
 ## <a name="features"></a>Features
 
@@ -64,9 +64,9 @@ Diese Serverrolle bietet Folgendes:
   
 - Konvertierung zwischen den H.264-Formaten, die von Videosystemen von Drittanbietern verwendet werden, und der Skype for Business Server Bereitstellung.
     
-- Konvertierung eines einzelnen Videostreams mit einer bestimmten Auflösung von einem VTC in mehrere Simulcast-Streams mit unterschiedlichen Auflösungen für die Verwendung in der Skype for Business Server Bereitstellung. Diese Datenströme können an die AVMCU und dann an Skype for Business Server Endpunkte und andere Videosysteme gesendet werden, die unterschiedliche Auflösungen angefordert haben. Diese Konvertierung wird auch verwendet, wenn das Videosystem eines Drittanbieters an einer Skype for Business A/V-Telefonkonferenz beteiligt ist. Sobald der Transcodierungsgrenzwert auf einem bestimmten VIS-Server erreicht ist, erhalten alle folgenden Anforderungen für unterschiedliche Auflösungen nur einen Datenstrom mit der niedrigsten Auflösung. 
+- Konvertierung eines einzelnen Videostreams mit einer bestimmten Auflösung von einem VTC in mehrere Simulcast-Streams mit unterschiedlichen Auflösungen für die Verwendung in der Skype for Business Server Bereitstellung. Diese Datenströme können an die AVMCU und dann an Skype for Business Server Endpunkte und andere Videosysteme gesendet werden, die unterschiedliche Auflösungen angefordert haben. Diese Konvertierung wird auch verwendet, wenn das Videosystem eines Drittanbieters an einem Skype for Business A/V-Konferenzanruf beteiligt ist. Sobald der Transcodierungsgrenzwert auf einem bestimmten VIS-Server erreicht ist, erhalten alle folgenden Anforderungen für unterschiedliche Auflösungen nur einen Datenstrom mit der niedrigsten Auflösung. 
     
-- Unterstützung für einen Video-SIP-Trunk zwischen dem CUCM-Gateway und einem Skype for Business Server Video-Interoperabilität-Server; VTCs registrieren sich weiterhin beim Cisco-Gateway und initiieren Anrufe an die Skype for Business-Bereitstellung über das Gateway. Anrufe werden vom Gateway an den Skype for Business Video-Interoperabilitätsserver über den Video-SIP-Trunk weitergeleitet.
+- Unterstützung für einen Video-SIP-Trunk zwischen dem CUCM-Gateway und einem Skype for Business Server Video-Interoperabilitätsserver; VTCs registrieren sich weiterhin beim Cisco-Gateway und initiieren Anrufe an die Skype for Business-Bereitstellung über das Gateway. Anrufe werden vom Gateway an den Skype for Business Video-Interoperabilitätsserver über den Video-SIP-Trunk weitergeleitet.
     
 - Unterstützung für einen Benutzer in einem Konferenzraum mit einem unterstützten Videosystem, um von diesem System aus an einer offenen oder geschlossenen Konferenz teilzunehmen. Dieser Anruf durchläuft den Video-SIP-Trunk.
     
@@ -84,7 +84,7 @@ Für diese Serverrolle gelten die folgenden Einschränkungen:
     
 -  TLS + SRTP oder TCP + RTP wird für die Kommunikation zwischen VTC und VIS über den Video-SIP-Trunk unterstützt.
     
-- Die Anwendungsfreigabe wird nicht unterstützt. Ein Skype for Business Benutzer im Konferenzraum muss an der Skype for Business Konferenz teilnehmen (z. B. über einen Laptop) und die Bildschirme für die App-Freigabe auf einem der kostenlosen Monitore im Konferenzraum anzeigen, der nicht mit dem VTC verknüpft ist.
+- Die Anwendungsfreigabe wird nicht unterstützt. Ein Skype for Business Benutzer im Konferenzraum muss an der Skype for Business Konferenz teilnehmen (z. B. über einen Laptop) und die Bildschirme für die App-Freigabe auf einem der kostenlosen Monitore im Konferenzraum anzeigen, die nicht dem VTC zugeordnet sind.
     
 - Die Möglichkeit für einen VTC, über den VIS an einer Verbundbesprechung teilzunehmen, wird nicht unterstützt.
     
@@ -92,7 +92,7 @@ Für diese Serverrolle gelten die folgenden Einschränkungen:
     
 - Anrufe von einem VTC an das PSTN über den VIS werden nicht unterstützt.
     
-- Anrufe aus dem PSTN an einen VTC über den VIS werden nicht unterstützt.
+- Anrufe vom PSTN an einen VTC über den VIS werden nicht unterstützt.
     
 ## <a name="resiliency-mechanisms"></a>Resilienzmechanismen
 <a name="resiliency"> </a>
@@ -101,7 +101,7 @@ Der VIS unterstützt eingehende Anrufe von einem CUCM, die über einen Video-SIP
   
 1. **VIS-Poolfailover** Wenn der Vis-Hauptpool, auf den das Videogateway verweist, ausgefallen ist, ist eine Wiederherstellung möglich, wenn das Videogateway Trunks für zwei (oder mehr) VIS-Pools definiert hat. Wenn das Videogateway feststellt, dass es keine Anrufe an den primären VIS-Pool tätigen kann, leitet es die Anrufe einfach an einen sekundären VIS-Pool weiter.
     
-     ![Diagramm des VIS-Poolfailovers](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
+     ![Diagramm des VIS-Poolfailovers.](../media/390d93c3-e132-4bbd-8d5a-c70ead9cdfad.png)
   
     Ein bestimmter VIS-Pool kann Trunks zu mehreren Gateways haben, aber normalerweise kann ein bestimmtes Gateway keine Trunks zu mehreren VIS-Pools haben. Daher muss ein Trick ausgeführt werden, um dieses Failover zu unterstützen: Definieren Sie 2 FDQNs in DNS, die in die gleiche IP-Adresse eines Videogateways aufgelöst werden. Stellen Sie jeden FQDN als separates Videogateway im Topologiedokument dar, wobei jedes Videogateway über einen Trunk zu einem anderen VIS-Pool verfügt und eine Wiederherstellung jetzt möglich ist. (Wenn TLS verwendet wird, müssen die mehreren Namen im SAN des Videogatewayzertifikats enthalten sein.)
     
@@ -110,7 +110,7 @@ Der VIS unterstützt eingehende Anrufe von einem CUCM, die über einen Video-SIP
   
 2. **Front-End-Failover** Wenn ein VIS-Pool einen Anruf von CUCM empfängt, aber seinen primären Next-Hop-Registrierungsstellen- oder Front-End-Pool nicht erreichen kann, werden Anrufe an einen Front-End-Sicherungspool weitergeleitet.
     
-     ![Diagramm des Front-End-Failovers](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
+     ![Diagramm des Front-End-Failovers.](../media/6ddc08ec-4708-4c23-9e77-0f88899a2a96.png)
   
     Der VIS verfolgt den Status des primären Front-End-Pools und des Sicherungs-Front-End-Pools (die Einstellung befindet sich in der Sicherungseinstellung für den Registrierungsstellendienst im Topologiedokument). Es sendet Optionsumfragen einmal pro Minute an beide Pools, und wenn es fünf aufeinander folgende Fehler gibt, geht der VIS davon aus, dass ein bestimmter Front-End-Pool ausgefallen ist. Wenn der primäre Front-End-Pool als "ausgefallen" gekennzeichnet ist und eine verfügbare konfigurierte Sicherung vorhanden ist, sendet der VIS neue Aufrufe vom Gateway an den Front-End-Sicherungspool. Sobald der primäre Front-End-Pool zurückkommt, setzt der VIS die Verwendung des primären Front-End-Pools für neue Anrufe fort.
     

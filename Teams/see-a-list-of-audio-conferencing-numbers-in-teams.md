@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie die Für Audiokonferenzen verfügbaren Einwahlkonferenznummern innerhalb eines Microsoft Teams.
-ms.openlocfilehash: 3e4e1c80d04cdb07b9d2d7ce993f4cab28de2155
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie Sie die Für Audiokonferenzen verfügbaren Einwahlkonferenznummern innerhalb eines Microsoft Teams.
+ms.openlocfilehash: ccf10c9ce1a7869f271b781a9f772bffb00934d7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601110"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58734014"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
@@ -44,7 +44,7 @@ Informationen zum [Ändern der Einwahltelefonnummer](set-the-phone-numbers-inclu
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Audiokonferenz-Telefonnummern an
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Konferenzbrücken**  >  **für Besprechungen.** 
 2. Zeigen Sie die für Audiokonferenzen verfügbaren Telefonnummern an.

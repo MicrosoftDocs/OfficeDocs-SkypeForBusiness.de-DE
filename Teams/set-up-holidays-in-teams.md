@@ -20,16 +20,16 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit Ihren automatischen Attendants einrichten.
-ms.openlocfilehash: 3f914243984c9fef70b1217cce504ffd983263e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623227"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733204"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
-Mithilfe des Features "Teams-Feiertage" können Sie Anrufer alternative Meldungen für bestimmte Daten und Zeiten bereitstellen, zu denen Abteilungen, Anrufwarteschleifen oder Personen in Ihrer Organisation unterschiedlichen Arbeitszeiten folgen oder nicht verfügbar sind. Sie können z. B. einen Feiertag für den Neujahrstag erstellen, an dem Ihre Organisation möglicherweise geschlossen ist.
+Mithilfe des Features "Teams-Feiertage" können Sie Anrufer alternative Meldungen zu bestimmten Datums- und Zeiten bereitstellen, zu denen Abteilungen, Anrufwarteschleifen oder Personen in Ihrer Organisation unterschiedlichen Arbeitszeiten folgen oder nicht verfügbar sind. Sie können z. B. einen Feiertag für den Neujahrstag erstellen, an dem Ihre Organisation möglicherweise geschlossen ist.
 
 Die Feiertage, die Sie hier erstellen, sind verfügbar, wenn Sie eine automatische Telefonkonferenz einrichten [,](create-a-phone-system-auto-attendant.md)die jeweils eigene Einstellungen für die Weiterleitung von Begrüßungen und Anrufen bietet.
 
@@ -60,7 +60,7 @@ So erstellen Sie einen Feiertag
 
 10. Klicken Sie auf **Speichern**.
 
-    ![Screenshot der Benutzeroberfläche "Feiertage" mit datumsangaben, die für drei Jahre eingerichtet sind](media/holidays-set-up.png)
+    ![Screenshot der Benutzeroberfläche "Feiertage" mit datumsangaben, die für drei Jahre eingerichtet sind.](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Ändern eines Feiertags
 

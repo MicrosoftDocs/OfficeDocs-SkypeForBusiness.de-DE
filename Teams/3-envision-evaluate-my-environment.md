@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f887916da6db1cb2412f8baa6ffacf6f74d3c5e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fbbc32c1a22fb5a2144231964b8498291ca009d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635089"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730724"
 ---
 # <a name="evaluate-my-environment"></a>Bewerten der Umgebung
 
@@ -43,10 +43,10 @@ Sie sollten diese Informationen in das Risikoregister einbinden.
 
 ## <a name="current-environment"></a>Aktuelle Umgebung
 
-Als Teil Ihrer Umweltermittlung sollten Sie alle Fragen im Zusammenhang mit der Berechnung von Endbenutzerdaten (z. B. eine Bereitschaftsbeurteilung von PCs und mobilen Geräten zur Unterstützung von Audiokonferenzen und Telefonsystem mit Anrufplan-Geschäftsnutzungsfällen) umfassen, von Hardwareanforderungen bis zu Softwareanforderungen.
+Als Teil Ihrer Umweltermittlung sollten Sie alle Fragen im Zusammenhang mit der Endbenutzung von Endbenutzern, z. B. eine Bereitschaftsbeurteilung von PCs und mobilen Geräten zur Unterstützung von Audiokonferenzen und Telefonsystem mit Anrufplan-Geschäftsnutzungsfällen, von Hardwareanforderungen bis zu Softwareanforderungen, mit aufnehmen.
 
 Umgebungsermittlung kann auch aufdecken, ob Sie [Telefonnummern an Microsoft übertragen müssen.](phone-number-calling-plans/transfer-phone-numbers-to-teams.md)
-Wenn Sie dies wissen, kann Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Sie können umgebungssuche verwenden, um [Microsoft Teams Umgebungsermittlung](environmental-discovery-for-microsoft-teams-rollout.md) durchzuführen.
+Wenn Sie dies wissen, kann Ihre Organisation den Projektplan entsprechend anpassen und die erforderlichen Informationen für die Nummernportierung vorbereiten. Mithilfe der [Umgebungsermittlung können](environmental-discovery-for-microsoft-teams-rollout.md) Sie Microsoft Teams, um Umweltermittlung durchzuführen.
 
 <table>
 <tr><td>Titel</td><td>Beschreibung</td></tr>
@@ -79,7 +79,7 @@ Mithilfe der folgenden Überlegungen können Sie die Vorbereitung Ihrer Organisa
 
 Microsoft Teams verwendet Audio- und Videotechnologien (Codecs), die sich an die meisten Netzwerkbedingungen anpassen können, was sich positiv auf die Leistung auswirkt. Um eine optimale und gleichbleibende Leistung sicherzustellen, sollten Sie das Netzwerk für Microsoft Teams vorbereiten.
 
-![Diagramm zur Beschreibung der drei Qualitätskomponenten](media/evaluate-my-environment-image1.png "Diagramm, das die drei Komponenten der Qualität beschreibt und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit Dem Fokus auf dem Netzwerk.")
+![Diagramm zur Beschreibung der drei Komponenten von Qualität.](media/evaluate-my-environment-image1.png "Diagramm, das die drei Komponenten der Qualität beschreibt und wie die Dienstverwaltung alle drei Komponenten überlappt. Mit Dem Fokus auf dem Netzwerk.")
 
 ## <a name="key-takeaways"></a>Wesentliche Punkte
 
@@ -111,7 +111,7 @@ Wenn Sie das Netzwerk nicht vorbereiten, führt dies wahrscheinlich zu unzufried
 
 ## <a name="bandwidth-planning"></a>Bandbreitenplanung
 
-Der erste Schritt auf dem Weg zur Netzwerkbereitschaft besteht in der Sicherstellung, dass im Netzwerk genügend Bandbreite für die von Teams Benutzern bereit ist. Die Planung einer ausreichenden Bandbreite ist eine ziemlich einfache Aufgabe, bei der sehr barrierefrei gestartet wird, um sicherzustellen, dass Ihre Benutzer eine qualitativ hochwertige und Teams haben.
+Der erste Schritt auf dem Weg zur Netzwerkbereitschaft besteht in der Sicherstellung, dass im Netzwerk genügend Bandbreite für die von Teams Benutzern verfügbaren Modalitäten zur Verfügung steht. Die Planung einer ausreichenden Bandbreite ist eine ziemlich einfache Aufgabe, bei der sehr barrierefrei gestartet wird, um sicherzustellen, dass Ihre Benutzer eine qualitativ hochwertige und Teams haben.
 
 ### <a name="local-internet-egress"></a>Lokaler Internetausgang
 
@@ -126,7 +126,7 @@ Durch die Optimierung des Netzwerkpfads zum globalen Microsoft-Netzwerk wird die
 VPNs leisten vielen Organisationen wertvolle Dienste. Leider sind sie normalerweise nicht so konzipiert oder konfiguriert, dass Echtzeitmedien unterstützt werden. Manche VPNs unterstützen möglicherweise UDP nicht. Außerdem entsteht durch VPNs eine zusätzliche Verschlüsselungsebene über den bereits verschlüsselten Mediendatenverkehr hinaus. Zudem leidet möglicherweise aufgrund des Hairpinnings des Datenverkehrs durch ein VPN-Gerät die Effizienz der Konnektivität mit dem Microsoft Teams-Dienst.
 Darüber hinaus sind sie nicht notwendigerweise aus Kapazitätsperspektive so konzipiert, dass sie die erwarteten Auslastungen aufnehmen, Teams erfordern.
 
-Es wird empfohlen, für Teams-Datenverkehr einen alternativen Pfad bereitzustellen, der das VPN umgeht. Dies wird allgemein als *VPN mit geteiltem Tunnel* bezeichnet. Split tunneling means that traffic for Microsoft 365 or Office 365 won t traverse the VPN but will go directly to Microsoft 365 or Office 365. Diese Änderung wirkt sich positiv auf die Qualität aus, bietet aber auch den sekundären Vorteil der Verringerung der Belastung durch VPN-Geräte und das Netzwerk der Organisation.
+Es wird empfohlen, für Teams-Datenverkehr einen alternativen Pfad bereitzustellen, der das VPN umgeht. Dies wird allgemein als *VPN mit geteiltem Tunnel* bezeichnet. Geteiltes Tunneln bedeutet, dass der Datenverkehr Microsoft 365 oder Office 365 VPN nicht durchläuft, sondern direkt zu Microsoft 365 oder Office 365. Diese Änderung wirkt sich positiv auf die Qualität aus, bietet aber auch den sekundären Vorteil der Verringerung der Belastung durch VPN-Geräte und das Netzwerk der Organisation.
 
 Wenn Sie einen geteilten Tunnel implementieren möchten, erkundigen Sie sich bei Ihrem VPN-Anbieter nach den Konfigurationsdetails.
 
@@ -156,15 +156,15 @@ Auch Plug-Ins und Connectors stellen Verbindungen über diese TCP-Ports her. Die
 Das Öffnen dieser Ports ist für eine zuverlässige Microsoft Teams-Bereitstellung zwingend notwendig. Das Blockieren dieser Ports wird nicht unterstützt und wirkt sich auf die Medienqualität aus.
 
 Wenn es in Ihrer Organisation erforderlich ist, die genauen IP-Adressbereiche und Domänen anzugeben, für die diese Ports geöffnet werden sollen, können Sie die Ziel-IP-Bereiche und Zieldomänen für die Ports einschränken. Eine Liste exakter Ports, Protokolle und IP-Bereiche finden Sie unter Microsoft 365 oder Office 365 von URLs und [IP-Adressbereichen.](https://support.office.com/article/Office-365-URLs-and-IP-address-ranges-8548a211-3fe7-47cb-abb1-355ea5aa88a2#bkmk_teams)
-Wenn Sie die Ziel-IP-Adressbereiche und Zieldomänen einschränken möchten, müssen Sie die Liste der Ports und Bereiche unbedingt stets auf dem aktuellen Stand halten, da sich diese Angaben ändern können. Sie können [diesen RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) abonnieren, um sich über Änderungen auf dem Laufenden zu halten. Es ist außerdem eine bewährte Methode, zu testen, ob alle Ports geöffnet werden, indem das [Skype for Business Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) in regelmäßigen Abständen ausgeführt wird. Weitere Informationen zu den Funktionen dieses Tools finden Sie im nächsten Abschnitt.
+Wenn Sie die Ziel-IP-Adressbereiche und Zieldomänen einschränken möchten, müssen Sie die Liste der Ports und Bereiche unbedingt stets auf dem aktuellen Stand halten, da sich diese Angaben ändern können. Sie können [diesen RSS-Feed](https://go.microsoft.com/fwlink/p/?linkid=236301) abonnieren, um sich über Änderungen auf dem Laufenden zu halten. Es wird auch geübt, zu testen, ob alle Ports geöffnet werden, indem [das Skype for Business Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) in regelmäßigen Abständen ausgeführt wird. Weitere Informationen zu den Funktionen dieses Tools finden Sie im nächsten Abschnitt.
 
-Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für alle Microsoft Teams-Dienste zu umgehen. Obwohl die Verwendung eines Proxys möglicherweise funktioniert, ist es sehr wahrscheinlich, dass sich die Qualität verringert, weil Medien gezwungen sind, TCP anstelle von UDP zu verwenden. Weitere Informationen zu Proxyservern und Umgehung finden Sie unter Microsoft 365 [oder Office 365 urLs und IP-Adressbereiche.](./office-365-urls-ip-address-ranges.md)
+Falls ein Proxyserver bereitgestellt wird, empfehlen wir, den Proxyserver für alle Microsoft Teams-Dienste zu umgehen. Obwohl die Verwendung eines Proxys möglicherweise funktioniert, ist es sehr wahrscheinlich, dass sich die Qualität verringert, weil Medien gezwungen sind, TCP anstelle von UDP zu verwenden. Weitere Informationen zu Proxyservern und Umgehung finden Sie unter Microsoft 365 oder Office 365 [URLs und IP-Adressbereiche.](./office-365-urls-ip-address-ranges.md)
 
 <!--ENDOFSECTION-->
 
 ## <a name="test-the-network"></a>Testen des Netzwerks
 
-Nachdem Sie ihre Planung und Netzwerkvorbereitung abgeschlossen haben – einschließlich Upgrade der Bandbreite und Öffnen von Ports in der Firewall – sollten Sie die Leistung Ihres Netzwerks testen. Die Ergebnisse dieser Tests zeichnen ein klareres Bild von allen Netzwerkoptimierungen oder -korrekturen, die für den Erfolg Ihrer Audiokonferenzen oder Audiokonferenzen mit Telefonsystem Anrufplanimplementierung erforderlich sind.
+Nachdem Sie ihre Planung und Netzwerkvorbereitung abgeschlossen haben – einschließlich Upgrade der Bandbreite und Öffnen von Ports in der Firewall – sollten Sie die Leistung Ihres Netzwerks testen. Die Ergebnisse dieser Tests zeichnen ein klareres Bild der Netzwerkoptimierung oder -korrektur, die für den Erfolg Ihrer Audiokonferenzen oder Audiokonferenzen Telefonsystem Implementierung des Anrufplans erforderlich ist.
 
 Sie können das [Skype for Business-Netzwerkbewertungstool](https://www.microsoft.com/download/details.aspx?id=53885) herunterladen, um zu testen, ob Ihr Netzwerk für Microsoft Teams bereit ist. Das Tool bietet zwei Funktionen: Es kann zum einen testen, ob die richtigen Ports geöffnet sind, und zum anderen, ob Netzwerkbeeinträchtigungen vorliegen.
 
@@ -172,7 +172,7 @@ Nachdem Sie das Tool heruntergeladen und installiert haben, finden Sie es unter 
 
 ### <a name="test-for-opened-ports"></a>Testen auf geöffnete Ports
 
-Öffnen Sie ein Eingabeaufforderungsfenster, und navigieren Sie zum Verzeichnis "Netzwerkbewertungstool", indem Sie **CD C: \\ Programme Microsoft Skype for Business Network Assessment Tool \\ eingeben.** Starten Sie an der Eingabeaufforderung den Test auf geöffnete Ports, indem Sie **networkassessmenttool.exe /connectivitycheck** eingeben.
+Öffnen Sie ein Eingabeaufforderungsfenster, und navigieren Sie zum Verzeichnis Netzwerkbewertungstool, indem Sie **CD C: \\ Programme Microsoft Skype for Business Network Assessment Tool \\ eingeben.** Starten Sie an der Eingabeaufforderung den Test auf geöffnete Ports, indem Sie **networkassessmenttool.exe /connectivitycheck** eingeben.
 
 Nach dem Ausführen der Überprüfungen zeigt das Tool entweder die Meldung "Überprüfungen wurden erfolgreich abgeschlossen" an oder zeigt die blockierten Ports an.
 Außerdem wird die Datei „Connectivity_results.txt“ generiert. Diese enthält die Ausgabe des Tools und wird im Verzeichnis „%userprofile%\\appdata\\local\\microsoft skype for business network assessment tool\\“ gespeichert.
@@ -208,7 +208,7 @@ Beachten Sie, dass beide Segmente die Anforderungen für eine Bereitstellung von
 
 Wenn aus den Ergebnissen der Bandbreitenplanung, der Porttests oder anderer Tests im Hinblick auf die Netzwerkanforderungen hervorgeht, dass das aktuelle Netzwerk vor der Bereitstellung von Microsoft Teams verbessert werden muss, haben Sie verschiedene Möglichkeiten:
 
--   Bei unzureichender Bandbreite sollten Sie Verbindungen aktualisieren, damit der Datenverkehr zu Microsoft 365 oder Office 365 nicht unbehindert fließen kann.
+-   Bei unzureichender Bandbreite sollten Sie Verbindungen aktualisieren, damit der Datenverkehr zu Microsoft 365 Oder Office 365 nicht unbehindert fließen kann.
 
 -   Bei blockierten Ports sollten Sie Firewallregeln ändern und die Ports dann erneut testen.
 

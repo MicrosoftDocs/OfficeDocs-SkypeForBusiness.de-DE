@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: b88edf016ae59eab6f2d92b1671c39996cb38464
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627567"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730674"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -72,7 +72,7 @@ Nutzen Sie die vollständige Besprechungsplattform in Microsoft Teams, um virtue
 - Wenn In Ihrer Organisation bereits elektronische Gesundheitsakten (EGA) verwendet werden, können Sie Microsoft Teams integrieren, um nahtloser arbeiten zu können. Microsoft Teams EGA-Konnektor (Elektronische Gesundheitsakte) erleichtert den Klinikärzten den Start eines virtuellen Patientenbesuchs oder einer Beratung mit einem anderen Anbieter in Teams direkt aus dem EGA-System. Weitere Informationen finden Sie unter [Virtuelle Besuche mit Teams – Integration in die EGA](ehr-admin.md).
 - Wenn Sie keine unterstützte EGA verwenden, können Sie Microsoft Bookings und die Bookings-App in Teams verwenden. Weitere Informationen finden Sie unter [Bookings-App und virtuelle Besuche in Microsoft Teams](../../bookings-app-admin.md).
 
-![Virtuelle Besuche mit Microsoft Teams](../../media/virtual-visits-teams.png)
+![Virtuelle Besuche mit Microsoft Teams.](../../media/virtual-visits-teams.png)
 
 ## <a name="teams-policy-packages"></a>Teams-Richtlinienpakete
 
@@ -105,7 +105,7 @@ Neue Vorlagen zum Erstellen von Teams wurden entwickelt, um sie auf eine Kranken
 
 Bringen Sie Ihr Gesundheitsteam zusammen, um die Pflege zu koordinieren und mit Microsoft Teams zusammenzuarbeiten.
 
-![Gesundheitswesen: Zusammenarbeit mit Ihrem Gesundheitsteam in Teams](../../media/teams-healthcare-collaborate-in-teams.png)
+![Gesundheitswesen: Arbeiten Sie mit Ihrem Gesundheitsteam in Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
 Microsoft Teams ermöglicht Ärzten, Klinikern, Krankenschwestern und anderen Mitarbeitern eine effiziente Zusammenarbeit mit den in Microsoft Teams enthaltenen Funktionen für die Zusammenarbeit, wie z. B.:
 
@@ -134,7 +134,7 @@ Eine verantwortliche Krankenschwester erstellt beispielsweise eine Patientenlist
 
 Hier ist eine Beispielliste, die für Patientenvisiten eingerichtet wurde.
 
-:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot einer Beispielliste für Patientenvisiten":::
+:::image type="content" source="../../media/lists-patients-example.png" alt-text="Screenshot der Beispielliste zum Runden von Patienten":::
 
 Weitere Informationen finden Sie unter [Verwalten der Listen-App für Ihre Organisation in Teams](../../manage-lists-app.md).
 

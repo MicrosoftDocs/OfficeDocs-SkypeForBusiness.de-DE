@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3affebfebdfb34923fbdff37a71f652077d7aa7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b6a8323c2d8dfd6023a9e27de9a6f0d47c87ae67
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596329"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730894"
 ---
 # <a name="microsoft-teams-deployment-overview"></a>Microsoft Teams-Bereitstellung – Übersicht
 
@@ -32,7 +32,7 @@ Hallo! Vielen Dank, dass Sie sich für Microsoft Teams entschieden haben. Ganz g
 
 Da Microsoft Teams sich für so viele verschiedene Organisationstypen und Ausgangssituationen eignet, gibt es mehrere Optionen für dessen Einrichtung. Um Ihnen die Suche nach den benötigten Informationen zu erleichtern, haben wir einige Artikel für zwei Zielgruppen unterteilt: **Kleinunternehmen** (weniger als 50 Benutzer) und **mittlere/große Unternehmen** (mehr als 50 Benutzer). Wählen Sie beim Lesen eines Artikels die Registerkarte "Zielgruppe" aus, die Ihrer Organisation am besten entspricht. So sehen die Registerkarten aus:
 
-:::image type="content" source="media/small-large-tabs-example.png" alt-text="Beispiel mit den Registerkarten für kleine und große Zielgruppen, die in einigen Artikeln angezeigt werden":::
+:::image type="content" source="media/small-large-tabs-example.png" alt-text="Beispiel für kleine und große Zielgruppenregisterkarten die in einigen Artikeln angezeigt werden. ":::
 
 In der nachstehenden Liste sind Abschnitte aufgeführt, aus denen Sie im Abschnitt **Erste Schritte** auswählen können, sowie eine kurze Beschreibung der einzelnen Abschnitte.
 

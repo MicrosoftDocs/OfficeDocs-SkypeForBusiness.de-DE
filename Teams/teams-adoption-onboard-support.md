@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Nutzen Sie Onlineschulungsressourcen, um die Supportmitarbeiter für die Experimentphase Ihrer Einführung Teams integrieren.
+description: Verwenden Sie Onlineschulungsressourcen, um die Supportmitarbeiter für die Experimentphase Ihrer Einführung Teams zu holen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,20 +21,20 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0f45a3a8e1538032ffffe3fbee6bc94d093889a1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 41b145b4741199a133c602caa383277aa24d02e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583569"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730864"
 ---
 # <a name="onboard-support-for-microsoft-teams"></a>Onboarding von Support für Microsoft Teams
 
 Um sicherzustellen, dass frühe Adopter- und Champions-Teams über die entsprechende Unterstützung verfügen, wenn sie mit der Verwendung von Teams beginnen, treffen Sie sich mit Ihren Supportmitarbeitern, und überprüfen Sie die Funktionen Teams. Wichtige Mitglieder der Supportorganisation möchten möglicherweise Ihrem Early Adopter-Programm beitreten. Ermuntern Sie Teams Verwendung von Daten in ihren eigenen Szenarien. Nehmen Sie sie mithilfe unserer Onlineschulungsressourcen durch das grundlegende Onboarding des Produkts mit.  
 
 - [Grundlagen – Kernkomponenten Microsoft Teams](https://youtu.be/V6B4KraD-FM)
-- [Problembehandlung Teams](https://youtu.be/0KNh9KNpXcA)
+- [Problembehandlung bei Teams](https://youtu.be/0KNh9KNpXcA)
 - [Bekannte Probleme und Problembehandlung](/MicrosoftTeams/troubleshoot/teams-welcome)
 - [Microsoft Teams-Schulung](./training-microsoft-teams-landing-page.md)
 
-![Ein Symbol zur Darstellung des nächsten ](media/teams-adoption-next-icon.png) Schritts: [Microsoft Teams Phase 3: Skalierung](teams-adoption-phase3-enable.md).
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Microsoft Teams Phase 3: Skalierung](teams-adoption-phase3-enable.md).

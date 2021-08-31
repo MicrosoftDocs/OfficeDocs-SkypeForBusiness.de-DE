@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: rowille
-description: Laden Sie das Playbook "Site Enablement" herunter, um Teams Einführung zu planen und die Benutzereinführung, den Eindruck von Qualität und Zufriedenheit zu beschleunigen und zu optimieren.
+description: Laden Sie das Playbook für die Website-Aktivierung herunter, um Teams Ihrer App zu planen und die Benutzereinführung, den Eindruck von Qualität und Zufriedenheit zu beschleunigen und zu optimieren.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d79e1431d6743f60092acbfab82154037a4c5720
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c027da20c6c305fd5924cd6483c5cbd63b8ddd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624937"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733540"
 ---
 # <a name="deploy-my-service"></a>Bereitstellen des Diensts
 
@@ -78,7 +78,7 @@ Das [Playbook "Site Enablement Playbook for Voice" (Playbook)](https://github.co
 
 ## <a name="how-to-use-the-playbook"></a>So verwenden Sie das Playbook
 
-Unabhängig von der Größe und Komplexität des Standorts müssen Sie ihre Aufgaben und Aktivitäten vor, während und nach dem eigentlichen Dienstrollout frühzeitig planen und in optimaler Reihenfolge ausführen. Wir empfehlen, dass Sie diese Schritte ausführen, während Sie Ihre eigene Reise planen und ausführen, Microsoft Teams zu hören.
+Unabhängig von der Größe und Komplexität des Standorts müssen Sie ihre Aufgaben und Aktivitäten vor, während und nach dem eigentlichen Dienstrollout frühzeitig planen und in optimaler Reihenfolge ausführen. Wir empfehlen, diese Schritte auszuführen, während Sie Ihre eigene Reise planen und ausführen, Microsoft Teams zu hören.
 
 1. Laden Sie [das "Site Enablement Playbook for Voice" (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) für Microsoft Teams herunter.
 
@@ -88,17 +88,17 @@ Unabhängig von der Größe und Komplexität des Standorts müssen Sie ihre Aufg
 
 4. Geben Sie **den Websitenamen, den Websitecode** und das **geplante Startdatum** ein, wie unten dargestellt. Dies ist ein wichtiger Schritt, da die empfohlenen Termine für jede Aktivität im Playbook angepasst werden.
 
-   ![Beispiel mit Websitename, Websitecode und geplantem Startdatum](media/deploy-my-service-image2.png "Beispiel mit dem Websitenamen New York, dem Websitecode NY01 und dem geplanten Startdatum 20. März 2018")
+   ![Beispiel mit Websitename, Websitecode und geplantem Startdatum.](media/deploy-my-service-image2.png "Beispiel mit dem Websitenamen New York, dem Websitecode NY01 und dem geplanten Startdatum 20. März 2018")
 
 5. Überprüfen Sie die einzelnen Aktivitäten, ergreifen Sie erforderliche Aktionen, und aktualisieren Sie den Status, während Sie die Zeitachse durch gehen. Status wird grafisch dargestellt, wie nachstehend beschrieben:
   
-   - ![Abbildung eines grünen Häkchens "Ja" oder "Nicht anwendbar" ](media/deploy-my-service-image3.png) **(grün):** Die Aktivität wurde abgeschlossen, oder sie gilt nicht für diese Website, und es ist keine weitere Aktion erforderlich.</li>
-   - ![Abbildung eines gelben Ausrufezeichens Die Aktivität ist noch nicht abgeschlossen ](media/deploy-my-service-image4.png) <strong>(gelb):</strong> Die Aktivität wurde noch nicht abgeschlossen und muss im Zeitplan auf Ja oder Nein aktualisiert werden.</li>
-   - ![Abbildung eines roten X, das kein Nein ](media/deploy-my-service-image5.png) <strong>(rot) angibt:</strong> Die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in die Besprechung mit dem Projektstatus durchgeführt werden.</li></ul>
+   - ![Abbildung eines grünen Häkchens](media/deploy-my-service-image3.png) **Ja oder nicht anwendbar (grün):** Die Aktivität wurde abgeschlossen oder gilt nicht für diese Website, und es sind keine weiteren Maßnahmen erforderlich.</li>
+   - ![Abbildung eines gelben Ausrufezeichens](media/deploy-my-service-image4.png) <strong>Die Aktivität ist noch nicht abgeschlossen (gelb):</strong> Die Aktivität wurde noch nicht abgeschlossen und muss im Zeitplan auf Ja oder Nein aktualisiert werden.</li>
+   - ![Abbildung eines roten X, das nein angibt.](media/deploy-my-service-image5.png) <strong>Nein (rot):</strong> Die Aktivität kann aufgrund eines Problems nicht abgeschlossen werden und muss in die Besprechung mit dem Projektstatus durchgeführt werden.</li></ul>
 
 6. Der Status wird innerhalb der einzelnen Abschnitten rolliert, und die Abschnittsüberschrift wird mit einem dieser Statusindikatoren formatiert. **Der wöchentliche** Status wird ebenfalls automatisch aktualisiert.
 
-![Screenshot der wöchentlichen Statusrollups im Playbook](media/deploy-my-service-image6.png "Screenshot der wöchentlichen Statusrollups im Playbook")
+![Screenshot der wöchentlichen Statusrollups im Playbook.](media/deploy-my-service-image6.png "Screenshot der wöchentlichen Statusrollups im Playbook")
 
 > [!TIP]
 > Wiederholen Sie die vorstehenden Schritte für alle Speicherorte, über die Sie verfügen.

@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 577060d46bea2196c17a42d82827bdcad7062285
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 89f31f586fc7b3839dd5820089528f91dfad7e93
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632039"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733836"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 
@@ -45,7 +45,7 @@ Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwende
 
 Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie **Teams** > **Teams verwalten** im Admin Center aus.) Jedes Team wird von einer Microsoft 365-Gruppe unterstützt. Dieser Knoten bietet eine Übersicht über Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
 
-![Screenshot: Teams-Übersichtraster](media/manage-teams-in-modern-portal-grid.png)  
+![Screenshot: Teams-Übersichtraster.](media/manage-teams-in-modern-portal-grid.png)  
 
 Das Raster zeigt die folgenden Eigenschaften an:
 
@@ -94,7 +94,7 @@ Sie können von der Hauptübersicht aus auf die Profilseite jedes Teams navigier
 - Hinzufügen oder Entfernen von Kanälen. (beachten Sie, dass Sie den Kanal „Allgemein“ nicht entfernen können.)
 - Ändern von Team- und Gruppeneinstellungen.
  
-![Screenshot: Beispiel für ein Teamprofil](media/manage-teams-in-modern-portal-team-profile-page.png)
+![Screenshot: Beispiel für ein Teamprofil.](media/manage-teams-in-modern-portal-team-profile-page.png)
 
 ## <a name="making-changes-to-teams"></a>Vornehmen von Änderungen an Teams
 

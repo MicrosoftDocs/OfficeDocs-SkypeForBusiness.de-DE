@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planung der Anrufsteuerung (Call Admission Control, CAC), wenn Sie über ein MPLS-Netzwerk, einen SIP-Trunk oder ein PSTN-Gateway oder eine Nebenstellenanlage eines Drittanbieters verfügen. Gilt für Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 42fa61908ff13b6323215f2760b113e5d104553d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631639"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730904"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Komponenten und Topologien für die Anrufsteuerung in Skype for Business
 
@@ -35,13 +35,13 @@ In einem MPLS-Netzwerk (Multiprotocol Label Switching) sind alle Standorte volls
 
 **Beispiel eines MPLS-Netzwerks**
 
-![Anrufsteuerung mit MPLS](../../media/CAC_MPLS_1.jpg)
+![Anrufsteuerung mit MPLS.](../../media/CAC_MPLS_1.jpg)
 
 Zur Bereitstellung der Anrufsteuerung (Call Admission Control, CAC) in einem MPLS-Netzwerk erstellen Sie eine Netzwerkregion für die MPLS-Cloud und Netzwerkstandorte für jeden MPLS-Zweigstellenstandort. Die folgende Abbildung zeigt, wie Netzwerkregion und Netzwerkstandorte konfiguriert sein sollten, um das MPLS-Beispielnetzwerk aus der oben stehenden Abbildung darzustellen. Die Bandbreitenbeschränkungen insgesamt sowie die Bandbreitenbeschränkung pro Sitzung basieren auf der Kapazität der WAN-Verbindung zwischen jedem Netzwerkstandort und der Netzwerkregion, welche die MPLS-Cloud darstellt.
 
 **Netzwerkregion und Netzwerkstandorte für ein MPLS-Netzwerk**
 
-![Anrufsteuerung (Call Admission Control, CAC) mit MPLS-Diagramm](../../media/CAC_MPLS_2.jpg)
+![Anrufsteuerung (Call Admission Control, CAC) mit MPLS-Diagramm.](../../media/CAC_MPLS_2.jpg)
 
 ## <a name="call-admission-control-on-a-sip-trunk"></a>Anrufsteuerung auf einem SIP-Trunk
 
@@ -51,7 +51,7 @@ Die folgende Abbildung zeigt ein Beispiel für die Bereitstellung der Anrufsteue
 
 **Konfiguration der Anrufsteuerung für einen SIP-Trunk**
 
-![Anrufsteuerung – SIP-Trunkingdiagramm](../../media/CAC_SIP_trunk_1.jpg)
+![Call Admission Control SIP Trunking diagram.](../../media/CAC_SIP_trunk_1.jpg)
 
 Zur Konfiguration der Anrufsteuerung für einen SIP-Trunk müssen Sie während der Bereitstellung der Anrufsteuerung die folgenden Aufgaben ausführen:
 
@@ -60,7 +60,7 @@ Zur Konfiguration der Anrufsteuerung für einen SIP-Trunk müssen Sie während d
     > [!NOTE]
     > Für den Anbieter von Internettelefoniediensten ist diese Netzwerkstandortkonfiguration nicht funktionsfähig. Die Bandbreitenrichtlinienwerte werden tatsächlich in Schritt 2 angewendet.
 
-2. Erstellen Sie eine standortübergreifende Verbindung für den SIP-Trunk unter Verwendung der relevanten Parameterwerte für den in Schritt 1 erstellten Standort. Verwenden Sie z. B. den Namen des Netzwerkstandorts in Ihrem Unternehmen als Wert des Parameters "NetworkSiteID1" und den ITSP-Netzwerkstandort als Wert des Parameters "NetworkSiteID2". Ausführliche Informationen finden Sie unter [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in der Bereitstellungsdokumentation und [New-CsNetworkInterSitePolicy.](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+2. Erstellen Sie eine standortübergreifende Verbindung für den SIP-Trunk unter Verwendung der relevanten Parameterwerte für den in Schritt 1 erstellten Standort. Verwenden Sie z. B. den Namen des Netzwerkstandorts in Ihrem Unternehmen als Wert des Parameters "NetworkSiteID1" und den ITSP-Netzwerkstandort als Wert des Parameters "NetworkSiteID2". Ausführliche Informationen finden Sie unter [Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-network-intersite-policies.md) in der Bereitstellungsdokumentation und [New-CsNetworkInterSitePolicy](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).
 
 3. Rufen Sie die IP-Adresse des SCB-Medienendpunkts (Session Border Controller) von Ihrem ITSP ab. Fügen Sie diese IP-Adresse mit der Subnetzmaske 32 zu dem Netzwerkstandort hinzu, der den Anbieter von Internettelefoniediensten repräsentiert. Ausführliche Informationen finden Sie unter [Associate a Subnet with a Network Site](/previous-versions/office/lync-server-2013/lync-server-2013-associate-a-subnet-with-a-network-site).
 
@@ -74,7 +74,7 @@ Die Anrufsteuerung kann über die WAN-Verbindung von der Gatewayschnittstelle de
 
 **Fall 1: Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway**
 
-![Fall 1: Anrufsteuerung zwischen Vermittlungsserver-PSTN-Gateway](../../media/CAC_gateways_1.jpg)
+![Fall 1: Anrufsteuerung zwischen Vermittlungsserver-PSTN-Gateway.](../../media/CAC_gateways_1.jpg)
 
 In diesem Beispiel wird die Anrufsteuerung zwischen dem Vermittlungsserver und einem PSTN-Gateway angewendet. Wenn ein Skype for Business Clientbenutzer am Netzwerkstandort 1 einen PSTN-Anruf über das PSTN-Gateway an Netzwerkstandort 2 abgibt, werden die Medien über die WAN-Verbindung fließen. Für jede PSTN-Sitzung werden daher zwei Prüfungen in Bezug auf die Anrufsteuerung durchgeführt:
 
@@ -99,7 +99,7 @@ Diese Konfiguration ähnelt Fall 1. In beiden Fällen kennt der Vermittlungsserv
 
 **Fall 2: Anrufsteuerung zwischen dem Vermittlungsserver und einer Drittanbieter-Nebenstellenanlage mit Medienendpunkt**
 
-![Fall 2: Anrufsteuerung zwischen Vermittlungsserver-Nebenstellenanlage mit MTP](../../media/CAC_gateways_2.jpg)
+![Fall 2: Anrufsteuerung zwischen Vermittlungsserver-Nebenstellenanlage mit MTP.](../../media/CAC_gateways_2.jpg)
 
 In diesem Beispiel wird die Anrufsteuerung zwischen dem Vermittlungsserver und der Nebenstellenanlage/dem Medienendpunkt angewendet. Wenn ein Skype for Business Clientbenutzer am Netzwerkstandort 1 einen PSTN-Anruf über die Nebenstellenanlage/MTP am Netzwerkstandort 2 abgibt, werden die Medien über die WAN-Verbindung fließen. Für jede PSTN-Sitzung werden daher zwei Prüfungen in Bezug auf die Anrufsteuerung durchgeführt:
 
@@ -124,9 +124,9 @@ Fall 3 unterscheidet sich leicht von den ersten beiden Fällen. Wenn die Drittan
 
 **Fall 3: Anrufsteuerung zwischen dem Vermittlungsserver und einer Drittanbieter-Nebenstellenanlage ohne Medienendpunkt**
 
-![Fall 3: Anrufsteuerung zwischen Vermittlungsserver-Nebenstellenanlage ohne MTP](../../media/CAC_gateways_3.jpg)
+![Fall 3: Anrufsteuerung zwischen Vermittlungsserver-Nebenstellenanlage ohne MTP.](../../media/CAC_gateways_3.jpg)
 
-Wenn in diesem Beispiel ein Skype for Business Clientbenutzer am Netzwerkstandort 1 einen Anruf an einen Benutzer über die Nebenstellenanlage tätigt, kann der Vermittlungsserver cac-Prüfungen nur auf dem Proxyabschnitt (zwischen der Skype for Business Clientanwendung und dem Vermittlungsserver) durchführen. Da der Vermittlungsserver während der Sitzungsanforderung keine Informationen über das Endpunktgerät besitzt, können für die WAN-Verbindung vor Herstellung des Anrufs keine Prüfungen in Bezug auf die Anrufsteuerung durchgeführt werden (zwischen dem Vermittlungsserver und dem Drittanbieter-Endpunkt). Nach dem Einrichten der Sitzung erleichtert der Vermittlungsserver jedoch die Bereitstellung der für den Trunk verwendeten Bandbreite.
+Wenn in diesem Beispiel ein Skype for Business Clientbenutzer am Netzwerkstandort 1 einen Anruf an einen Benutzer über die Nebenstellenanlage tätigt, kann der Vermittlungsserver anrufsteuerungsüberprüfungen nur auf dem Proxyabschnitt (zwischen der Skype for Business Clientanwendung und dem Vermittlungsserver) durchführen. Da der Vermittlungsserver während der Sitzungsanforderung keine Informationen über das Endpunktgerät besitzt, können für die WAN-Verbindung vor Herstellung des Anrufs keine Prüfungen in Bezug auf die Anrufsteuerung durchgeführt werden (zwischen dem Vermittlungsserver und dem Drittanbieter-Endpunkt). Nach dem Einrichten der Sitzung erleichtert der Vermittlungsserver jedoch die Bereitstellung der für den Trunk verwendeten Bandbreite.
 
 Für Anrufe, die vom Drittanbieter-Endpunkt ausgehen, stehen die Informationen über dieses Endpunktgerät zum Zeitpunkt der Sitzungsanforderung zur Verfügung, und Prüfungen in Bezug auf die Anrufsteuerung können auf beiden Seiten des Vermittlungsservers durchgeführt werden.
 
