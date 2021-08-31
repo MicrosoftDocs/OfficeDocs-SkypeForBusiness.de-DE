@@ -21,12 +21,12 @@ ms.custom:
 - Setup
 - ms.lync.lac.TenantInMigration
 description: 'Erfahren Sie, was Sie im Skype for Business Admin Center und andere Features verwenden können, wenn Ihr Dienst zu einem anderen Microsoft-Rechenzentrum migriert wird. '
-ms.openlocfilehash: e131e3c1013b496a6e3ad8581832c628ee2057ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81badc1ab12a767ab106222ebf28fff4c54867e6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581959"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731694"
 ---
 # <a name="why-cant-i-use-the-skype-for-business-online-admin-center-right-now"></a>Warum kann ich das Skype for Business Online Admin Center derzeit nicht verwenden?
 
@@ -52,9 +52,9 @@ Lassen Sie uns zunächst einige Konditionen auf den ersten Schritt gehen.
     
 - **Korrelations-ID** Möglicherweise haben Sie diese in der Nachricht aufgeführt, von der Sie gerade stammten. Diese Informationen werden von Microsoft-Supporttechnikern verwendet, um Ihnen bei der Problembehandlung bei einem Fehler zu helfen. Wenn Sie sich an den Microsoft-Support wenden, werden Sie möglicherweise nach der Korrelations-ID gefragt.
     
-Was dies alles bedeutet, ist wir dabei, alle Ihre Skype for Business Online-Benutzer und Diensteinstellungen an einen anderen Ort zu verschieben, der sich näher bei Ihnen befindet. Je näher, desto besser. Die gute Nachricht ist, dass Ihr Online-Skype for Business nach dieser kurzen Zeit verbessert wird.
+Was dies alles bedeutet, ist wir dabei, alle Ihre Skype for Business Online-Benutzer und Diensteinstellungen an einen anderen Ort zu verschieben, der sich näher bei Ihnen befindet. Je näher, desto besser. Die gute Nachricht ist, dass ihr Online-Skype for Business nach diesem kurzen Zeitraum verbessert wird.
   
-![Dienstmigration in Microsoft 365 oder Office 365](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
+![Dienstmigration in Microsoft 365 oder Office 365.](../images/77502071-36fe-4833-a5ff-3b9ca7676542.png)
   
 ## <a name="what-skype-for-business-online-features-will-still-work"></a>Welche Skype for Business Onlinefeatures funktionieren weiterhin?
 

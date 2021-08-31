@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Reporting
 description: Im neuen Bereich Berichte im Skype for Business Admin Center wird die Anruf- und Audiokonferenzaktivität in Ihrer Organisation angezeigt. Sie können einzelne Berichte näher analysieren, damit Sie einen genaueren Einblick in die Aktivitäten der einzelnen Benutzer erhalten. Sie können beispielsweise mit dem Bericht PSTN-Verwendungsdetails in Skype for Business die Dauer (in Minuten) der eingehenden bzw. ausgehenden Anrufe sowie die damit verbundenen Kosten anzeigen. Sie können PSTN-Verwendungsdetails für Audiokonferenzen einschließlich der Kosten eines Anrufs anzeigen, sodass Sie die Verwendungs- und Abrechnungsdetails des Anrufs zum Ermitteln der Verwendung in Ihrer Organisation nachvollziehen können.
-ms.openlocfilehash: 313b6e7528604cfca3b7d7b4a66986337617afa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad2ac65300e0cb1f1d1b3e879199f04506ceeb6c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614905"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731624"
 ---
 # <a name="pstn-usage-report"></a>Bericht "PSTN-Verbrauch"
 
@@ -37,13 +37,13 @@ Weitere verfügbare [Berichte finden](https://support.office.com/article/0d6dfb1
 Dieser Bericht bietet Ihnen zusammen mit den Skype for Business Bericht Details zu den Aktivitäten, einschließlich der Anrufnutzung in der gesamten Organisation. Diese Details sind beim Untersuchen, Planen und Treffen anderer Geschäftsentscheidungen für Ihre Organisation sowie für das Einrichten von Guthaben für [Kommunikationen sehr hilfreich.](/microsoftteams/what-are-communications-credits)
   
 > [!NOTE]
-> Sie können alle Berichte Skype for Business anzeigen, wenn Sie sich als Administrator bei der Microsoft 365 Admin Center. 
+> Wenn Sie sich als Administrator bei der Skype for Business anmelden, können Sie alle Microsoft 365 Admin Center. 
   
 ## <a name="how-to-get-to-the-skype-for-business-pstn-usage-details-report"></a>Abrufen des Berichts zu den PSTN-Verbrauchsdetails in Skype for Business
 
-![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
 
-- Wechseln Sie zu Admin Center > **Admin Center Skype for Business** Admin  >  **Center**  >  **Meldet**  >  **PSTN-Nutzungsdetails**.
+- Wechseln Sie zum Admin Center, > **Admin Center und** Skype for Business Admin  >  **Center**  >  **PstN-Nutzungsdetails**  >  **meldet.**
     
     > [!NOTE]
     > Je nach Microsoft 365 oder Office 365-Abonnement werden möglicherweise nicht alle Produkte und Berichte angezeigt, die hier angezeigt werden.
@@ -54,10 +54,10 @@ Sie können die Skype for Business PSTN-Verwendung des Benutzers anzeigen, indem
   
 Der Bericht sieht wie folgt aus:
   
-[![Skype for Business PSTN-Nutzungsbericht ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
+[![Skype for Business PSTN-Nutzungsbericht. ](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png)](../images/79d7aadf-c69e-4d6a-8179-ab69dbbb2472.png#lightbox)
 
 ***
-![Nummer 1](../images/sfbcallout1.png)<br/>Die Tabelle zeigt die gesamte PSTN-Verwendung pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre PSTN-Verwendung. Sie können Spalten zur Tabelle hinzufügen bzw. daraus entfernen.
+![Zahl 1.](../images/sfbcallout1.png)<br/>Die Tabelle zeigt die gesamte PSTN-Verwendung pro Benutzer an. Diese Auflistung enthält alle Benutzer, denen Skype for Business zugewiesen ist, sowie ihre PSTN-Verwendung. Sie können Spalten zur Tabelle hinzufügen bzw. daraus entfernen.
 *    **Anruf-ID** ist die ID für einen Anruf. Es ist eine ID für den Anruf, der beim Anruf beim Microsoft-Servicesupport verwendet wird.
 *    **Benutzer-ID** ist der Anmeldename des Benutzers.
 *    **Rufnummer** ist die Skype for Business-Rufnummer, unter der ein eingehender Anruf empfangen wurde, oder die Nummer, die für einen ausgehenden Anruf gewählt wurde.
@@ -80,7 +80,7 @@ Der Bericht sieht wie folgt aus:
      *    **ucap_in** (ein eingehender PSTN-Anruf an die UC-Anwendung, z. B. automatische Telefon attendant oder Anrufwarteschleife) 
      *    **ucap_out** (ein ausgehender PSTN-Anruf von der UC-Anwendung, z. B. einer automatischen Telefonkonferenz oder einer Anrufwarteschleife)
          > [!NOTE]
-         > Anrufe, die von der UC-Anwendung an einen Benutzer (z. B. eine automatische Telefonkonferenz oder eine Anrufwarteschleife) übertragen wurden, werden im PSTN-Nutzungsbericht nicht angezeigt, da es sich bei diesen Anrufschleifen um Peer-to-Peer-Audioanrufe (P2P) handelt. Sie können unter "Tools > Skype for Business Call Analytics" auf die P2P-Anrufe im Skype for Business Admin Center zugreifen und nach dem Benutzernamen oder der SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder ursprungs der CLID (Anrufleitungs-ID) korreliert. 
+         > Anrufe, die von der UC-Anwendung an einen Benutzer (z. B. eine automatische Telefonkonferenz oder eine Anrufwarteschleife) übertragen wurden, werden im PSTN-Nutzungsbericht nicht angezeigt, da es sich bei diesen Anrufschleifen um Peer-to-Peer-Audioanrufe (P2P) handelt. Sie können unter "Tools > Skype for Business Anrufanalyse" auf die P2P-Anrufe im Skype for Business Admin Center zugreifen und nach Benutzername oder SIP-Adresse suchen, die den Anruf nach Datum/Uhrzeit und/oder ursprungs der CLID (Anrufleitungs-ID) korreliert. 
 
      **Inland/International** gibt an, ob der getätigte Anruf basierend auf dem Standort des Benutzers ein Inlandsanruf (innerhalb eines Lands bzw. einer Region) oder ein Auslandsanruf (außerhalb eines Lands bzw. einer Region) war.    
 *    **Gewähltes Ziel** ist der Name des gewählten Lands bzw. der gewählten Region, beispielsweise Frankreich, Deutschland oder Vereinigte Staaten (USA).    
@@ -107,7 +107,7 @@ Der Bericht sieht wie folgt aus:
 > [!NOTE]
 > Wenn Sie über einen Anrufplan für Telstra oder Softbank verfügen, werden im PSTN-Nutzungsbericht keine Anrufdetailsetaildatensätze sehen. Wenden Sie sich für Ihre Meldungen an Telstra oder Softbank. 
 ***
-![Nummer 2](../images/sfbcallout2.png)<br/>Klicken Sie, um eine Spalte nach Zu gruppieren nach einer bestimmten Spalte zu **ziehen,** ziehen Sie die Spaltenüberschrift hier, und legen Sie sie dort ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten angeordnet sind.
+![Zahl 2.](../images/sfbcallout2.png)<br/>Klicken Sie, um eine Spalte nach Zu gruppieren nach einer bestimmten Spalte zu **ziehen,** ziehen Sie die Spaltenüberschrift hier, und legen Sie sie dort ab, wenn Sie eine Ansicht erstellen möchten, in der alle Daten in einer oder mehreren Spalten angeordnet sind.
  ***
 
 ## <a name="exporting-pstn-usage-report"></a>Exportieren des PSTN-Nutzungsberichts
@@ -118,7 +118,7 @@ Dadurch werden Daten aller Benutzer exportiert, und Sie können einfache Sortier
 
 Der Exportvorgang kann je nach Menge der Daten zwischen einigen Sekunden und mehreren Minuten dauern. Wenn der Server den Export abgeschlossen hat, erhalten Sie eine ZIP-Datei namens **"Calls.Export.[ `identifier` ] .zip**". Dabei ist der Bezeichner eine eindeutige ID für den Export, die für die Problembehandlung verwendet werden kann.
 
-Wenn Sie sowohl über Anrufpläne als auch über Direct Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PstN-Verwendungsberichtsdatei hat den Dateinamen "**PSTN.calls.[ `UTC date` ] .csv**" aus. Zusätzlich zu PSTN- und Direct Routing-Dateien enthält das Archiv die Datei "**parameters.js** am ", mit dem ausgewählten Exportzeitbereich und Funktionen (sofern enthalten).
+Wenn Sie sowohl über Anrufpläne als auch über Direct Routing verfügen, enthält die exportierte Datei möglicherweise Daten für beide Produkte. Die PstN-Verwendungsberichtsdatei hat den Dateinamen "**PSTN.calls.[ `UTC date` ] .csv**". Zusätzlich zu PSTN- und Direct Routing-Dateien enthält das Archiv die Datei "**parameters.js** am ", mit dem ausgewählten Exportzeitbereich und Funktionen (sofern enthalten).
 
 Exportierte Datei ist eine CSV-Datei (Comma Separated Values, durch Kommas getrennte Werte) und mit [RFC 4180-Standard](https://tools.ietf.org/html/rfc4180) kompatibel. Die Datei kann in einem Excel oder einem anderen standardkonformen Editor geöffnet werden, ohne dass Transformationen erforderlich sind.
 
@@ -165,11 +165,11 @@ Die exportierte Datei enthält zusätzliche Felder, die im Onlinebericht nicht v
     
 - [Skype for Business - Bericht über Peer-zu Peer-Aktivitäten](peer-to-peer-activity-report.md) : Sie können sehen, in welchem Umfang die Benutzer Chat, Audio/Video, Anwendungsfreigabe sowie Dateiübertragung verwenden.
     
-- [Skype for Business der Bericht "Blockierte Benutzer"](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
+- [Skype for Business von Benutzern gesperrter Bericht](users-blocked-report.md) Sie können die Benutzer in Ihrer Organisation sehen, die für das Erstellen von PSTN-Anrufen gesperrt wurden.
 
-- [Skype for Business Bericht zu PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
+- [Skype for Business Bericht PSTN-Minutenpools](pstn-minute-pools-report.md) können Sie die Anzahl der Minuten sehen, die während des aktuellen Monats in Ihrer Organisation verbraucht wurden.
 
-- [Skype for Business Sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
+- [Skype for Business sitzungsdetails](session-details-report.md) Sie können Details zu den Anruferfahrungen einzelner Benutzer anzeigen.
     
 ## <a name="related-topics"></a>Verwandte Themen
 [Aktivitätsberichte im Admin Center](https://support.office.com/article/0d6dfb17-8582-4172-a9a9-aed798150263)
