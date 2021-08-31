@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen von Besprechungsrichtlinien in Teams verwalten. Steuern Sie über die Richtlinieneinstellungen die Features, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 7f981ed6d4397d07dc0aae5bffc6174983e12e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4809fab0976eda2b109620f2a2716ccb10e80318
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629367"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728420"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -119,13 +119,13 @@ Wählen Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie
 
 Bei **Sofortbesprechungen zulassen** handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob ein Benutzer eine spontane Besprechung in einem Microsoft Teams-Kanal starten kann. Wenn Sie diese Einstellung aktivieren, können Benutzer die Schaltfläche **Besprechen** anklicken, um eine nicht geplante Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
 
-![Screenshot mit dem Symbol für Sofortbesprechungen unter einer Nachricht](media/meeting-policies-meet-now.png)
+![Screenshot zeigt das Symbol für „Jetzt besprechen“ unter einer Nachricht.](media/meeting-policies-meet-now.png)
 
 ### <a name="allow-the-outlook-add-in"></a>Outlook-Add-In zulassen
 
 Bei "Outlook-Add-In zulassen" handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Microsoft Teams-Besprechungen in Outlook (Windows, Mac, Web und Mobile) geplant werden können.
 
-![Screenshot mit der Option für die Planung von Besprechungen](media/meeting-policies-outlook-add-in.png)
+![Screenshot zeigt die Funktion zur Planung einer neuen Besprechung.](media/meeting-policies-outlook-add-in.png)
 
 Wenn Sie diese Option deaktivieren, können die Benutzer keine Besprechungen planen. Microsoft Teams-Besprechungen planen, wenn sie eine neue Besprechung in Outlook erstellen. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
@@ -137,7 +137,7 @@ Wenn diese Richtlinie deaktiviert ist, können Benutzer keine neuen Kanalbesprec
 
 Die Option zum Planen von Besprechungen ist dann deaktiviert.
 
- ![Die Option "Besprechung planen" in Microsoft Teams](media/schedule-meeting-option.png)
+ ![Die Option „Besprechung planen“ in Microsoft Teams.](media/schedule-meeting-option.png)
 
 Die Option zum Auswählen eines Kanals ist deaktiviert.
 
@@ -146,15 +146,15 @@ Die Option zum Auswählen eines Kanals ist deaktiviert.
 Auf der Seite der Kanalbeiträge sind dann die folgenden Features deaktiviert:
 
 - Die Schaltfläche **Besprechung planen** im Feld zum Verfassen von Kanalantworten
-  ![Schaltfläche "Besprechung planen" im Feld zum Verfassen von Antworten](media/schedule-meeting-disabled-in-chat2.png)
+  ![Schaltfläche „Besprechung planen“ im Feld zum Verfassen von Antworten.](media/schedule-meeting-disabled-in-chat2.png)
   
-- Die Schaltfläche **Besprechung planen** im Kanal-Header
-  ![Schaltfläche "Besprechung planen" im Kanal-Header](media/schedule-now-in-header.png)
+- Die Schaltfläche **Besprechung planen** im Kanal-Header.
+  ![Schaltfläche „Besprechung planen“ im Kanal-Header.](media/schedule-now-in-header.png)
 
 Im Kanal-Kalender:
 
 - Die Schaltfläche **Neues Ereignis hinzufügen** im Header des Kanalkalenders ist deaktiviert.
-  ![Deaktivierte Schaltfläche im Header des Kanalkalenders](media/add-new-event-disabled.png)
+  ![Deaktivierte Schaltfläche im Header des Kanalkalenders.](media/add-new-event-disabled.png)
 
 - Die Benutzer können im Kanalkalender keine Zeitblöcke auswählen und ziehen, um eine Kanalbesprechung zu erstellen.
 
@@ -164,7 +164,7 @@ Im Admin Center:
 
 Die Kanalkalender-App wird auf der Seite der App-Berechtigungsrichtlinien im Abschnitt **Microsoft-Apps** angezeigt.
 
- ![die App-Berechtigungsrichtlinie im Microsoft Teams Admin Center](media/manage-microsoft-apps-policy.png)
+ ![die App-Berechtigungsrichtlinie im Microsoft Teams Admin Center.](media/manage-microsoft-apps-policy.png)
 
 ### <a name="allow-scheduling-private-meetings"></a>Planung privater Besprechungen zulassen
 
@@ -191,7 +191,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet w
 
 Über diese Richtlinie wird die Live-Transkription aktiviert. "Transkription zulassen" ist eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob die Transkription einer bestimmten Microsoft Teams-Besprechung möglich ist.
 
-![Transkriptionsoptionen in Besprechungsrichtlinien](media/live-transcription.png)
+![Transkriptionsoptionen in Besprechungsrichtlinien.](media/live-transcription.png)
 
 Bei der Live-Transkription wird gesprochener Text während einer Microsoft Teams-Besprechung nahezu in Echtzeit in Schriftform angezeigt. Der Text wird neben dem Besprechungsvideo angezeigt, einschließlich des Namens des Sprechers und eines Zeitstempels. Weitere Informationen finden Sie unter [Anzeigen der Live-Transkription in einer Microsoft Teams-Besprechung](https://support.microsoft.com/office/view-live-transcription-in-a-teams-meeting-dc1a8f23-2e20-4684-885e-2152e06a4a8b).
 
@@ -212,7 +212,7 @@ Die Aufzeichnung in der Cloud wird über eine benutzerspezifische Richtlinie ges
 
 Personen außerhalb Ihrer Organisation, z. b. Partner- oder anonyme Benutzer, können die Aufzeichnung nicht starten. Gastbenutzer können die Aufzeichnung nicht starten oder beenden.
 
-![die Aufzeichnungsoptionen](media/meeting-policies-recording.png)
+![die Aufzeichnungsoptionen.](media/meeting-policies-recording.png)
 
 Näheres zur Aufzeichnung von Cloud-Besprechungen erfahren Sie unter [Aufzeichnen von Microsoft Teams-Cloudbesprechungen](cloud-recording.md).
 
@@ -264,7 +264,7 @@ In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Rich
 
 | Microsoft Teams – Desktop und Web-Client |Mobile Microsoft Teams-Clients  |
 |:-------:|:-------:|
-|![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf dem Desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf einem Mobilgerät](media/meeting-policies-mobile-join.png)          |
+|![Screenshot zeigt die Besprechungsteilnahme mit Audio/Video-Einstellungen auf dem Desktop.](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf einem Mobilgerät](media/meeting-policies-mobile-join.png)          |
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -358,11 +358,11 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einst
 
 Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuerung übergeben** in der oberen Leiste einer Freigabesitzung angezeigt.
 
-![Screenshot mit der Option "Steuerung übergeben"](media/meeting-policies-give-control.png)
+![Screenshot zeigt die Option „Steuerung übergeben“.](media/meeting-policies-give-control.png)
 
 Wenn die Einstellung für den Benutzer deaktiviert ist, ist die Option **Steuerung übergeben** nicht verfügbar.
 
-![Screenshot, der zeigt, dass die Option "Steuerung übergeben" nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
+![Screenshot zeigt, dass die Option „Steuerung übergeben“ nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -459,7 +459,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie, die steuerlos
 
 Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Personen direkt an einer Besprechung teilnehmen können oder im Wartebereich bleiben müssen, bis sie von einem authentifizierten Benutzer zugelassen werden. Diese Einstellung gilt nicht für Einwahlbenutzer.
 
-![Screenshot einer Besprechung mit einem Benutzer im Wartebereich](media/meeting-policies-lobby.png)
+![Screenshot zeigt eine Besprechung mit einem Benutzer im Wartebereich.](media/meeting-policies-lobby.png)
 
  Besprechungsorganisatoren können in der Besprechungseinladung auf **Besprechungsoptionen** klicken, um diese Einstellung für jede von ihnen geplante Besprechung zu ändern.
 
@@ -489,7 +489,7 @@ Besprechungsrichtlinien weisen eine Einstellung auf, die es Teammitgliedern erla
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die während einer Besprechung angewendet wird. Über diese Einstellung wird gesteuert, ob die Option zum **Aktivieren von Liveuntertiteln** verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können.  
 
-![Screenshot mit der Option zum Aktivieren von Liveuntertiteln](media/meeting-policies-live-captions.png)
+![Screenshot zeigt die Option zum Aktivieren von Liveuntertiteln.](media/meeting-policies-live-captions.png)
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
@@ -520,7 +520,7 @@ Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsof
 
 Darüber hinaus können Sie diese Richtlinie im Microsoft Teams Admin Center bearbeiten.
 
-![Screenshot des Microsoft Teams Admin Centers](media/designated-presenter-role.png)
+![Screenshot des Microsoft Teams Admin Centers.](media/designated-presenter-role.png)
 
 Bedenken Sie, dass, nachdem Sie den Standardwert festgelegt haben, Besprechungsorganisatoren diese Einstellung in Microsoft Teams weiterhin ändern und auswählen können, wer in den von ihnen geplanten Besprechungen präsentieren kann.
 

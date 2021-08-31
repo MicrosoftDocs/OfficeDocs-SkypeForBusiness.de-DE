@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ad66efadda775c11ab653cbe1bc46b2c5a4ab3c3a80edf77265dddabbb71c4a1
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 973ed6056ae8e73b79d7596b2f325cda8cdc48b1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54347280"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732314"
 ---
 # <a name="configure-desktop-sharing-in-microsoft-teams"></a>Konfigurieren der Desktopfreigabe in Microsoft Teams
 
@@ -39,11 +39,11 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
 
 1. Wählen Sie **Besprechungen** > **Besprechungsrichtlinien**.
 
-    ![Ausgewählte Besprechungsrichtlinien](media/configure-desktop-sharing-image1.png)
+    ![Besprechungsrichtlinien ausgewählt.](media/configure-desktop-sharing-image1.png)
 
 2. Wählen Sie auf der Seite **Besprechungsrichtlinien** die Option **Hinzufügen** aus.
 
-    ![Die Besprechungsrichtlinienmeldung](media/addMeeting.png)
+    ![Die Meldung "Besprechungsrichtlinien"](media/addMeeting.png)
 
 3. Weisen Sie Ihrer Richtlinie einen eindeutigen Titel zu und geben Sie eine kurze Beschreibung ein.
 
@@ -53,7 +53,7 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
    - **Einzelne Anwendung**: Ermöglicht Benutzern die Beschränkung der Bildschirmfreigabe auf eine einzelne aktive Anwendung.
    - **Deaktiviert** – Deaktiviert die Bildschirmfreigabe.
 
-    ![Die Freigabemodusoptionen](media/configure-desktop-sharing-image3.png)
+    ![Die Optionen für den Freigabemodus.](media/configure-desktop-sharing-image3.png)
 
   > [!Note]
   > Sie brauchen die Anrufrichtlinie nicht zu aktivieren, damit Benutzer die Bildschirmfreigabe vom Chat aus verwenden können. Der Ton wird jedoch ausgeschaltet, bis sie die Stummschaltung selbst aufheben. Darüber hinaus kann der Benutzer, der den Bildschirm freigibt, auf **Audio hinzufügen** klicken, um Audio zu aktivieren. Ist die Anrufrichtlinie deaktiviert, können Benutzer der Bildschirmfreigabe aus einer Chatsitzung heraus kein Audio hinzufügen.

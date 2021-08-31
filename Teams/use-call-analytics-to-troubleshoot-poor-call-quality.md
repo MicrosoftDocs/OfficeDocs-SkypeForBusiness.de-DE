@@ -1,5 +1,5 @@
 ---
-title: Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität
+title: Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -22,16 +22,16 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Anrufanalysedetails pro Benutzer zu Geräten, Netzwerken und zur Konnektivität, um Benutzerprobleme mit Microsoft Teams und Besprechungen zu beheben.
-ms.openlocfilehash: 32dccd0f02c44e0da54e1c303cccfeca3fd6c624
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f61796d83977c9d0782957fe3bafe787f60403b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611504"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731934"
 ---
-# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden der Anrufanalyse zur Problembehandlung bei schlechter Anrufqualität
+# <a name="use-call-analytics-to-troubleshoot-poor-call-quality"></a>Verwenden von Anrufanalyse, um Probleme mit schlechter Anrufqualität zu behandeln
 
-In diesem Artikel wird erläutert, wie Sie die Anrufanalyse für die Problembehandlung bei schlechter Microsoft Teams-Anruf- oder Besprechungsqualität für einzelne Benutzer verwenden können, wenn Sie ein Teams-Administrator oder ein Teams Communications Support-Experte oder -Techniker sind.
+In diesem Artikel wird erläutert, wie Sie die Anrufanalyse für die Problembehandlung bei schlechter Microsoft Teams-Anruf- oder Besprechungsqualität für einzelne Benutzer verwenden können, wenn Sie die Rolle des Teams-Administrators, des Teams-Experten für den Kommunikationssupport oder des Entwicklers für den Teams-Support haben.
 
 ## <a name="call-analytics-permissions"></a>Berechtigungen für die Anrufanalyse
 
@@ -47,9 +47,9 @@ Als Teams haben Sie Vollzugriff auf alle Anrufanalysedaten für jeden Benutzer. 
 
 ## <a name="where-to-find-per-user-call-analytics"></a>Wo finde ich die Anrufanalyse pro Benutzer?
 
-Um alle Anrufinformationen und Daten für einen Benutzer zu sehen, wechseln Sie zum [Teams Admin Center](https://admin.teams.microsoft.com). Wählen **Sie** unter Benutzer einen Benutzer  aus, und öffnen Sie & auf der Profilseite des Benutzers die Registerkarte & anrufe. Hier finden Sie alle Anrufe und Besprechungen für diesen Benutzer der letzten 30 Tage.
+Um alle Anrufinformationen und Daten für einen Benutzer zu sehen, wechseln Sie zum [Teams Admin Center](https://admin.teams.microsoft.com). Wählen **Sie** unter Benutzer einen Benutzer aus, und öffnen Sie dann die **Registerkarte** & Besprechungen und Anrufe auf der Profilseite des Benutzers. Hier finden Sie alle Anrufe und Besprechungen für diesen Benutzer der letzten 30 Tage.
 
-![Screenshot aller Analyse-Benutzerdaten](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
+![Screenshot aller Analyse-Benutzerdaten.](media/teams-difference-between-call-analytics-and-call-quality-dashboard-image1.png)
 
 Wenn Sie zusätzliche Informationen zu einer bestimmten Sitzung erhalten, einschließlich detaillierter Medien- und Netzwerkstatistiken, klicken Sie auf eine Sitzung, um die Details anzuzeigen.
 
@@ -57,9 +57,9 @@ Wenn Sie zusätzliche Informationen zu einer bestimmten Sitzung erhalten, einsch
 
 ## <a name="what-does-each-teams-support-role-do"></a>Welche Funktion hat Teams support-Rolle?
 
-Der **Teams für Kommunikationsunterstützung** (Unterstützung der Stufe 1) behandelt grundlegende Probleme mit der Anrufqualität. Sie untersuchen keine Probleme mit Besprechungen. Stattdessen sammeln sie verwandte Informationen und eskalieren dann an einen Kommunikationssupporttechniker.
+Der **Teams für Kommunikationsunterstützung** (Unterstützung der Stufe 1) behandelt grundlegende Probleme mit der Anrufqualität. Sie untersuchen keine Probleme mit Besprechungen. Stattdessen sammeln sie verwandte Informationen und eskalieren dann an einen Teams Kommunikationssupporttechniker.
 
-Der **Teams** für Kommunikationsunterstützung (Unterstützung der Stufe 2) sieht Informationen in detaillierten Anrufprotokollen, die für den Experten Teams Kommunikationsunterstützung ausgeblendet sind. In der folgenden Tabelle sind die Informationen aufgeführt, die für die einzelnen Teams Kommunikationsunterstützungsrolle verfügbar sind.
+Der Teams für **Kommunikationsunterstützung** (Stufe 2)) sieht Informationen in detaillierten Anrufprotokollen, die für den Experten Teams Kommunikationsunterstützung ausgeblendet sind. In der folgenden Tabelle sind die Informationen aufgeführt, die für die einzelnen Teams Kommunikationsunterstützungsrolle verfügbar sind.
 
 In der folgenden Tabelle ist aufgeführt, welche Informationen pro Benutzer für die einzelnen Kommunikationsunterstützungsrolle verfügbar sind.
 
@@ -76,9 +76,12 @@ In der folgenden Tabelle ist aufgeführt, welche Informationen pro Benutzer für
 ||Sitzungsdetails|Die Sitzungsdetails werden mit Ausnahmen angezeigt. Angezeigt wird nur der Name des Benutzers, nach dem der Agent gesucht hat. Andere Teilnehmer werden als „Interner Benutzer" oder „Externer Benutzer" identifiziert. Die letzten drei Ziffern der Telefonnummer werden durch Sternchen verschleiert.|Die Sitzungsdetails werden angezeigt. Benutzernamen und Sitzungsdetails werden angezeigt. Die letzten drei Ziffern der Telefonnummer werden durch Sternchen verschleiert.|
 ||||
 
+> [!NOTE]
+> Die Informationen auf der Registerkarte Debuggen enthalten Telemetrie- und Dienstdiagnosedaten, die Microsoft-Supporttechnikern helfen sollen. Ohne den Kontext der zusätzlichen Daten, die für Entwickler zur Verfügung stehen, können sie redundant, ungenau oder verwirrend sein. Wir stellen sie zwar für fortgeschrittene Benutzer zur Verfügung, die nach einer anderen Detailstufe für die Behandlung von Anrufproblemen suchen, aber wir raten davon ab, Beurteilungen auf der Grundlage dieser Daten ohne Microsoft-Support zu erstellen.
+
 ## <a name="troubleshoot-user-call-quality-problems"></a>Behandeln von Problemen mit der Anrufqualität für Benutzer
 
-1. Öffnen Sie Teams Admin Center ( ), und melden Sie sich mit Ihrem Teams-Support oder Teams <https://admin.teams.microsoft.com> Administratoranmeldeinformationen an.
+1. Öffnen Sie Teams Admin Center ( ), und melden Sie sich mit Ihrem <https://admin.teams.microsoft.com> Teams-Support oder Teams Administratoranmeldeinformationen an.
 
 2. Beginnen Sie **im Dashboard** **in** der Benutzersuche mit der Eingabe des Namens oder der SIP-Adresse des Benutzers, dessen Anrufe Sie behandeln möchten, oder wählen Sie Benutzer anzeigen aus, um eine Liste der Benutzer anzuzeigen. 
 

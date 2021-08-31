@@ -21,12 +21,12 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: 8120000599f2e0406d80a7e61b2e5720ffe2fd71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608862"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728164"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und Richtlinienpakete für Bildung
 
@@ -148,7 +148,7 @@ Microsoft Teams umfasst derzeit die folgenden Richtlinienpakete:
 
 Jeder einzelnen Richtlinie wird mit dem Namen des Richtlinienpakets versehen, damit Sie mit einem Richtlinienpaket verknüpfte Richtlinien leicht erkennen können. Wenn Sie das Richtlinienpaket „Education_Teacher“ beispielsweise Lehrkräften in Ihrer Bildungseinrichtung zuweisen, wird für jede Richtlinie im Paket eine Richtlinie namens „Education_Teacher“ erstellt.
 
-![Screenshot des Education_Teacher-Richtlinienpakets](media/policy-packages-education_teacher.png)
+![Screenshot des Education_Teacher-Richtlinienpakets.](media/policy-packages-education_teacher.png)
 
 > [!NOTE]
 > Wenn Sie beschließen, dass Lehrkräfte und administrative Mitarbeiter unterschiedliche Richtlinien benötigen, können Sie ein vorhandenes Paket neu verwenden: ermitteln Sie ein Paket, das Sie derzeit nicht verwenden, und ändern Sie die Einstellungen so, dass sie für diese Gruppe geeignet sind. Möglicherweise müssen Sie eine Notiz für sich selbst erstellen, welcher Gruppe welches Paket zugeordnet ist, doch das ist der einzige „Nachteil“ der Neunutzung eines Pakets.
@@ -178,7 +178,7 @@ Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlini
 
 Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Richtlinienpakete**, und wählen Sie dann **Benutzer verwalten** aus.  
 
-![Screenshot zur Vorgehensweise zum Zuweisen eines Richtlinienpakets im Admin Center](media/policy-packages-healthcare-assign.png)
+![Screenshot zur Vorgehensweise zum Zuweisen eines Richtlinienpakets im Admin Center.](media/policy-packages-healthcare-assign.png)
 
 Weitere Informationen hierzu finden Sie unter [Zuweisen eines Richtlinienpakets](manage-policy-packages.md#assign-a-policy-package).
 

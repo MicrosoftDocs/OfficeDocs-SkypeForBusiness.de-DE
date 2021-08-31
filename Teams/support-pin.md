@@ -13,16 +13,16 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre Support-PIN nachschauen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2c222b74a5fb539b3a492aac833070573775a08629025e3a23f71f8ff76905f
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 9f5acc34efa0d93d1a89edcdec9774fb21e1fb54
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54332407"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733184"
 ---
 # <a name="how-to-look-up-your-support-pin"></a>So suchen Sie Ihre Support-PIN
 
-Führen Sie die folgenden Schritte aus, um Ihre Support-PIN nachschauen zu können, die den Microsoft-Kundensupport telefonisch unterstützt: 
+Führen Sie die folgenden Schritte aus, um Ihre Support-PIN nachschauen zu können, die den Microsoft-Kundensupport telefonisch ermöglicht: 
 
 1. Melden Sie sich beim [Office Admin Center an.](https://admin.microsoft.com/Adminportal/Home?source=applauncher#/homepage) 
 

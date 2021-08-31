@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6d0800fb4d3f596abaad82a2714d8daaa0234337
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 368c2ea6b3d937bbd126eb056bf4e2db4163f31f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631959"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730104"
 ---
 # <a name="it-admin-guide-to-reflect-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Reflect in Microsoft Teams
 
@@ -65,11 +65,11 @@ Wenn Sie zuvor festgelegt haben, dass jede App erlaubt werden muss, wechseln Sie
 ## <a name="where-do-educators-find-reflect"></a>Wo finden Lehrkräfte Reflect?
 Nachdem Sie Reflect aktiviert haben, können Lehrkräfte zum betreffenden Kurs wechseln und **Neue Unterhaltung** auswählen. Anschließend wählen sie **...** aus, um Nachrichtenerweiterungen anzuzeigen, und geben **Reflect** in die Suchleiste ein. Das Dialogfeld führt sie durch das Definieren einer Frage und die Auswahl, wer was sehen kann.
 
-:::image type="content" source="media/reflect-add-app.png" alt-text="Hinzufügen von Reflect zu einem Kursteam":::
+:::image type="content" source="media/reflect-add-app.png" alt-text="Hinzufügen von Reflect zu einem Kursteam.":::
 
 Für den einfachen Zugriff können Sie mit der rechten Maustaste auf das Reflect-Symbol klicken und **Anheften** auswählen.
 
-:::image type="content" source="media/reflect-pin-app.png" alt-text="Heften Sie die Reflect-App an":::
+:::image type="content" source="media/reflect-pin-app.png" alt-text="Heften Sie die Reflect-App an.":::
 
 > [!TIP]
 > Sie können die Reflect-App auch über diesen Link finden: [https://aka.ms/getReflect](https://aka.ms/getReflect).

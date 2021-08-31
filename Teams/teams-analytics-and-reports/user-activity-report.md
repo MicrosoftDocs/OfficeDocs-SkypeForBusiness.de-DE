@@ -17,16 +17,16 @@ description: Erfahren Sie, wie Sie Teams Bericht "Benutzeraktivität" im Microso
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bda252656b47560f37ca7f01b6e3010736028bd4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9d37d0ba3d5a178c0c4e2ebe928d1379b1fa9e3c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635669"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728564"
 ---
 # <a name="microsoft-teams-user-activity-report"></a>Microsoft Teams – Benutzeraktivitätsbericht
 
-Der Teams Benutzeraktivitätsbericht bietet Einen Einblick in die Arten von Aktivitäten, die Benutzer in Ihrer Organisation in Teams. Sie können in ungeplanten Besprechungen (1:1 und Gruppenanrufen) sehen, wie viele Benutzer ungeplant kommunizieren. Sehen Sie sich an, wie viele Teams ein Benutzer organisiert hat, und wie viele Teams ein Benutzer teilgenommen hat. Zeigen Sie Details zu Bildschirm-, Video- und Audiominuten sowie Statistiken zur Chatkommunikation an, z. B. wie viele Benutzer Kanalnachrichten beantworten und veröffentlichen und wie viele Benutzer 1:1- oder Gruppenchatnachrichten verwenden.
+Der Teams Benutzeraktivitätsbericht bietet Einen Einblick in die Arten von Aktivitäten, die Benutzer in Ihrer Organisation in Teams. Sie können in ungeplanten Besprechungen (1:1 und Gruppenanrufen) sehen, wie viele Benutzer ungeplant kommunizieren. Sehen Sie sich an, wie viele Teams ein Benutzer organisiert hat und an besprechungen, Teams ein Benutzer teilgenommen hat. Zeigen Sie Details zu Bildschirm-, Video- und Audiominuten sowie Statistiken zur Chatkommunikation an, z. B. wie viele Benutzer Kanalnachrichten beantworten und veröffentlichen und wie viele Benutzer 1:1- oder Gruppenchatnachrichten verwenden.
 
 > [!NOTE]
 > Die Möglichkeit zum Planen eines Benutzeraktivitätsberichts ist derzeit nicht verfügbar.
@@ -35,10 +35,10 @@ Der Teams Benutzeraktivitätsbericht bietet Einen Einblick in die Arten von Akti
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](../using-admin-roles.md).
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center die Option **Analyseanalyse**&  >  **Verwendungsberichte aus.** Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option Teams **aus.**
+1. Wählen Sie in der linken Navigationsleiste Microsoft Teams Admin Center die Option **Analyseberichte &**  >  **Verwendungsberichte aus.** Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** **aus.**
 2. Wählen **Sie unter Datumsbereich** einen Bereich aus, und wählen Sie dann **Bericht ausführen aus.**
 
-    ![Screenshot des berichts Teams Benutzeraktivitätsberichts im Teams Admin Center mit Callouts](../media/teams-reports-user-activity-with-callouts.png "Screenshot des berichts Teams Benutzeraktivität im Teams Admin Center mit Callouts")
+    ![Screenshot des berichts Teams Benutzeraktivitätsberichts im Teams Admin Center mit Callouts.](../media/teams-reports-user-activity-with-callouts.png "Screenshot des berichts Teams Benutzeraktivitätsberichts im Teams Admin Center mit Callouts")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
@@ -52,7 +52,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 |**6**   | Jede Metrik, die in Diagramm auf Mandantenebene dargestellt wird. Filtern Sie, was im Diagramm angezeigt wird, indem Sie ein Element in der Legende auswählen. Wählen **Sie Kanalnachrichten**,  **Antwortnachrichten**, **Chatnachrichten** oder Organisierte Besprechungen aus, um die jeweils zugehörigen Informationen zu sehen. Durch das Ändern dieser Auswahl werden die Informationen in der Tabelle nicht geändert. |
 |**7**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung nach Benutzer.   <ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Wählen Sie den Anzeigenamen aus, um zur Seite mit den Benutzerdetails im Microsoft Teams Admin Center zu wechseln.</li><li>**Kanalnachrichten** ist die Anzahl der eindeutigen Nachrichten, die der Benutzer während des angegebenen Zeitraums in einem Teamkanal gepostet hat.</li><li>**Antwortnachrichten** ist die Anzahl der eindeutigen Antwortnachrichten, die der Benutzer während des angegebenen Zeitraums in einem Teamkanal gepostet hat.</li> <li>**Posten von** Nachrichten ist die Anzahl der eindeutigen Beitragnachrichten, die der Benutzer während des angegebenen Zeitraums in einem Teamkanal gepostet hat.</li><li>**Chatnachrichten** ist die Anzahl der eindeutigen Nachrichten, die der Benutzer während des angegebenen Zeitraums in einem privaten Chat gepostet hat.</li><li>**Dringende** Nachrichten ist die Anzahl der dringenden Nachrichten, die der Benutzer während des angegebenen Zeitraums in einem Chat gepostet hat.</li><li>**Organisierte Gesamtbesprechungen** ist die Summe einer geplanten, wiederkehrenden, ungeplanten und nicht klassifizierten Besprechung, die ein Benutzer während des angegebenen Zeitraums organisiert hat. <em></em></li><li>**Besprechungen, die als einmal geplant organisiert** werden, ist die Anzahl der einmal geplanten Besprechungen, die ein Benutzer während des angegebenen Zeitraums organisiert hat.</li><li>**Besprechungen, die eine geplante Besprechungsserie** organisieren, ist die Anzahl der Besprechungsserien, die ein Benutzer während des angegebenen Zeitraums organisiert hat.</li><li>**Besprechungen, die einDhoc organisieren,** ist die Anzahl der ungeplanten Besprechungen, die ein Benutzer während des angegebenen Zeitraums organisiert hat.</li><li>**Gesamtbesprechungen teilgenommen** ist die Summe der einmal geplanten, wiederkehrenden, ungeplanten und nicht klassifizierten Besprechungen, an der ein Benutzer während des angegebenen Zeitraums teilgenommen hat. <em></em></li><li>**Die einmal angesetzten Besprechungen** sind die Anzahl der einmal geplanten Besprechungen, an der ein Benutzer während des angegebenen Zeitraums teilgenommen hat.</li><li>**Die geplante Besprechungsserie ist** die Anzahl der Besprechungsserien, an der ein Benutzer während des angegebenen Zeitraums teilgenommen hat.</li><li>**Besprechungen, an dem ein** Benutzer während des angegebenen Zeitraums teilgenommen hat, ist die Anzahl der nicht geplanten Besprechungen.</li><li>**1:1-Anrufe** sind die Anzahl der 1:1-Anrufe, an der der Benutzer während des angegebenen Zeitraums teilgenommen hat.</li><li>**Audiozeit ist** die Gesamtaudiozeit (Minuten), an der der Benutzer während des angegebenen Zeitraums teilgenommen hat.</li><li>**Videozeit** ist die Gesamtvideozeit (Minuten), an der der Benutzer während des angegebenen Zeitraums teilgenommen hat.</li><li>**Bildschirmfreigabezeit ist** die Gesamte Bildschirmfreigabezeit (Minuten), an der der Benutzer während des angegebenen Zeitraums teilgenommen hat.</li>  <li>**Letzte Aktivität** ist das letzte Datum (UTC), an dem der Benutzer an einer Aktivität Teams hat.</li><li>**Andere Aktivitäten** werden nach verfolgt, wenn der Benutzer als aktiv betrachtet wird, aber für Chatnachrichten, 1:1-Anrufe, Kanalnachrichten, Gesamtbesprechungen und organisierte Besprechungen den Wert Null besitzt. Beispiele für Aktionen sind, wenn ein Benutzer einen Kanalnachrichtenbeitrag öffnet, aber nicht antwortet, oder wenn ein Benutzer eine private Nachricht empfängt und diese liest, aber nicht darauf antwortet.</li> <li>**Nicht klassifizierte Besprechungen** sind Besprechungen, die nicht als Zeitplan, Besprechungsserie oder ungeplant klassifiziert werden können. Diese sind kurz und können meistens aufgrund von manipulierten Telemetrieinformationen nicht identifiziert werden.</li> </ul>**Gruppenanrufe** wurden durch Besprechungen ersetzt, die **eindhoc** organisiert haben und **an Besprechungen teilgenommen haben.** Die Summe dieser beiden Werte entspricht dem, was durch **Gruppenaufrufe gemessen wurde.**
 |**8**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen. |
-|**9**   |Exportieren Sie den Bericht zur Offlineanalyse in eine CSV-Datei. Wählen **Sie In Excel** exportieren aus, und wählen  Sie dann auf der Registerkarte **Downloads** die Option Herunterladen aus, um den Bericht herunterzuladen, wenn er bereit ist.<br><br>![Screenshot der Registerkarte "Downloads" mit exportierten Berichten zum Herunterladen](../media/teams-reports-export-to-csv.png) <br>Wenn Sie den Bericht in einer Excel, wird auch eine **ID-Spalte** angezeigt, die die Benutzer-ID darstellt. Eine Benutzer-ID ist in der Regel eine alphanumerische Zeichenfolge. ||
+|**9**   |Exportieren Sie den Bericht zur Offlineanalyse in eine CSV-Datei. Wählen **Sie In Excel** exportieren aus, und  wählen Sie dann auf der Registerkarte **Downloads** die Option Herunterladen aus, um den Bericht herunterzuladen, wenn er bereit ist.<br><br>![Screenshot der Registerkarte "Downloads" mit exportierten Berichten zum Herunterladen](../media/teams-reports-export-to-csv.png) <br>Wenn Sie den Bericht in einer Excel, wird auch eine **ID-Spalte** angezeigt, die die Benutzer-ID darstellt. Eine Benutzer-ID ist in der Regel eine alphanumerische Zeichenfolge. ||
 
 [!INCLUDE [teams-reports-definitions](../includes/teams-reports-definitions.md)]
 
@@ -60,9 +60,9 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 Um die Daten in Teams Benutzeraktivitätsbericht anonym zu machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und AAD-ID im Bericht und beim Export ausgeblendet.
 
-1. Wechseln Microsoft 365 Admin Center In der Website zum **Einstellungen** Org Einstellungen , und wählen Sie unter Registerkarte Dienste die Option \> Berichte **aus.** 
+1. Wechseln Microsoft 365 Admin Center In diesem Fenster  zum Einstellungen Org Einstellungen , und wählen Sie unter Registerkarte Dienste \> die Option Berichte **aus.** 
     
-2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte in Microsoft 365 Admin Center als Teams Admin Center angewendet.
+2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte im Microsoft 365 Admin Center als Teams Admin Center angewendet.
   
 3. Wählen Sie **Änderungen speichern aus.**
 

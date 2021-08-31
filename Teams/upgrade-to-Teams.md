@@ -1,5 +1,5 @@
 ---
-title: Übersicht über die Implementierung des Upgrades auf Microsoft Teams
+title: Übersicht über die Implementierung des Upgrades für Microsoft Teams
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Ermitteln Sie den optimalen Upgradepfad für Microsoft Teams basierend auf Ihrer aktuellen Skype for Business Bereitstellung.
+description: Ermitteln Sie den optimalen Upgradepfad für die Microsoft Teams basierend auf der aktuellen Skype for Business Bereitstellung.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 726355c7edf145dec6eeaf9ec1904119c15a3275
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2501c113eb3589ba26d4a9a6932e103f913c9239
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616131"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730154"
 ---
 # <a name="overview-of-implementing-your-upgrade"></a>Übersicht über die Implementierung des Upgrades
 
-![Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase](media/upgrade-banner-deployment.png "Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase")
+![Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase.](media/upgrade-banner-deployment.png "Phasen des Upgradewegs, mit Betonung auf der Bereitstellungs- und Implementierungsphase")
 
 Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgrades. 
 
@@ -51,7 +51,7 @@ Dieser Artikel ist Teil der Phase Bereitstellung und Implementierung Ihres Upgra
 
 ## <a name="choose-your-upgrade-starting-point"></a>Wählen Sie Ihren Upgrade-Ausgangspunkt aus.
 
-Die Schritte, die Sie ausführen, um Ihr Upgrade auf Teams durchzuführen, hängen von Ihrer aktuellen Bereitstellung von Skype for Business:
+Die Schritte, die Sie ausführen, um Ihr Upgrade auf Teams durchzuführen, sind von der aktuellen Bereitstellung Ihrer Skype for Business:
 
 Wählen Sie basierend auf Ihrer aktuellen Umgebung Ihren Ausgangspunkt aus:  
 

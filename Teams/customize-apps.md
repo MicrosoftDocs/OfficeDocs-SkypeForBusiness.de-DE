@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: 0a3a6b21b34fba7c45ca272f5eefd3eb047a1f7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie Sie Apps in Microsoft Teams.
+ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634059"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730224"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
- Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams werden kann. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Teams Admin Center Apps verwalten anpassen **oder umbenennen.** Die Details können Sie anpassen:
+ Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams wird. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Teams Admin Center Apps verwalten anpassen **oder umbenennen.** Die Details können Sie anpassen:
 
 - Kurzname
 - Kurzbeschreibung
@@ -39,7 +39,7 @@ ms.locfileid: "58634059"
 - Symbol "Gliederung"
 - Akzentfarbe
 
-Details zu [den Teams,](/microsoftteams/platform/resources/schema/manifest-schema) die Sie anpassen können, finden Sie im Schema "Manifest Teams".
+Details zu [den Feldern,](/microsoftteams/platform/resources/schema/manifest-schema) die Sie anpassen können, finden Sie im Teams Manifestschema.
 
 > [!NOTE]
 > Das Anpassen von Apps wird in Government Community Cloud High (GCCH) oder Department of Defense (DoD) derzeit nicht unterstützt.
@@ -53,21 +53,21 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 2. Erweitern Teams **Apps, und** wählen Sie **Apps verwalten aus.**
 3. Überprüfen Sie die **Spalte Anpassbar** der App-Liste, und sortieren Sie nach anpassbaren Apps.
 
-   ![Die sortierte Spalte "Anpassen"](media/customize-column.png)
+   ![Die sortierte Spalte anpassen.](media/customize-column.png)
 
    Es gibt drei Einstiegspunkte für den Zugriff auf das Feature "Anpassen":
 
    - Wählen Sie neben der App aus, die Sie anpassen möchten, und wählen Sie dann **Anpassen aus.**
 
-     ![Option "Auswahl anpassen" 1](media/select-app-to-customize1.png)
+     ![Die Option "Auswahl anpassen" 1.](media/select-app-to-customize1.png)
 
    - Wählen Sie den App-Namen und dann **Anpassbar aus.**
 
-     ![Option "Auswahl anpassen" 2](media/app-details-customizable.png)
+     ![Die Option "Auswahl anpassen" 2.](media/app-details-customizable.png)
 
    - Wählen Sie den App-Namen und dann in **der Dropdownliste** Aktionen die Option **Anpassen** aus.
 
-     ![Option "Auswahl anpassen" 3](media/customize-action-menu.png)
+     ![Option "Auswahl anpassen" 3.](media/customize-action-menu.png)
 
 4. Erweitern Sie den **Abschnitt Details,** und passen Sie die folgenden Felder an:
 
@@ -78,20 +78,20 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
     - URL der Datenschutzrichtlinie
     - URL der Nutzungsbedingungen
 
-   ![Die Einstellungen für "Anpassen"](media/customize-settings.png)
+   ![Die Einstellungen anpassen.](media/customize-settings.png)
 
 > [!Note]
 > Nur die Felder, die der App-Entwickler als anpassbar zugewiesen hat, sind sichtbar.
 
 5. Erweitern Sie **den Bereich Symbol.**
 
-   a. Hochladen symbol Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
+   a. Hochladen symbol. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
 
    b. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie ein transparentes Gliederungspixel (32 x 32) im PNG-Format.
 
    c. Wählen Sie eine App-Akzentfarbe aus, die dem Symbol entspricht.
 
-    ![Anpassen der Farboptionen für den Symbolbereich](media/customize-app-colors.png)
+    ![Passen Sie die Farboptionen für den Symbolbereich an.](media/customize-app-colors.png)
 
 6. Nachdem Die App angepasst wurde, wählen Sie **Übernehmen aus.**
 
@@ -101,7 +101,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
 Jetzt können Teams Benutzer ihren Client Teams öffnen, um die angepasste App zu sehen.
 
-   ![Angepasste App im Teams Client](media/contoso-app.png)
+   ![Angepasste App im Teams-Client.](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Besondere Aspekte beim Anpassen einer App
 
@@ -127,7 +127,7 @@ Möglicherweise möchten Sie die App-Details sehen, um die Informationen zu übe
 
 4. Zeigen Sie die App-Details an, einschließlich des ursprünglichen App-Namens **Kurzname von Herausgeber**.
 
-   ![Anpassen des App-Namens für den Symbolbereich](media/original-app-version.png)
+   ![Passen Sie den App-Namen des Symbolbereichs an.](media/original-app-version.png)
 
    Das **Feld "Kurzname aus** Herausgeber" ist nur sichtbar, wenn Sie den Kurznamen der App geändert haben.
 
@@ -143,7 +143,7 @@ Sie können die App-Details jederzeit auf die ursprünglichen Einstellungen zur�
 
 4. Wählen **Sie in der Dropdownliste** Aktionen die Option Auf Standard **zurücksetzen** aus.
 
-   !["Auf Standard zurücksetzen" hervorgehoben](media/select-reset.png)
+   ![Wählen Sie Auf Standard zurücksetzen aus.](media/select-reset.png)
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 

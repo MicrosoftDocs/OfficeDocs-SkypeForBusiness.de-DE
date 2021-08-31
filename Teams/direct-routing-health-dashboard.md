@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie mithilfe des Integritätsdashboards die Verbindung zwischen dem Session Border Controller und dem direkten Routing überwachen.
-ms.openlocfilehash: aec8a0bb37af02f6103714a26c9d35e18879985c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4927f6473e74a6fc14add9105022fc8efbade260
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592339"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728214"
 ---
 # <a name="health-dashboard-for-direct-routing"></a>Integritätsdashboard für direktes Routing
 
@@ -38,7 +38,7 @@ Sie können das Integritätsdashboard im Microsoft Teams Skype for Business Admi
 
 Das Integritätsdashboard stellt die folgenden Informationen zum Gesamtzustand der verbundenen SBCs zur Verfügung:
 
- ![Zeigt Statistiken zum Integritätsdashboard an](media/direct-routing-dashboard-stats1.png)
+ ![Zeigt Statistiken zum Integritätsdashboard an.](media/direct-routing-dashboard-stats1.png)
 
 - **Direkte Routingzusammenfassung** – Zeigt die Gesamtzahl der SBCs an, die im System registriert sind. Registration means that the tenant administrator added an SBC by using the New-CsOnlinePSTNGateway command. Wenn der SBC in PowerShell hinzugefügt, aber nie verbunden wurde, zeigt das Integritätsdashboard einen fehlerhaften Status an.
 
@@ -76,13 +76,13 @@ Das Integritätsdashboard stellt die folgenden Informationen zum Gesamtzustand d
 
     - Warnung: SIP-Nachrichten sind nicht konfiguriert – die Trunküberwachung mithilfe von SIP-Optionen ist nicht aktiviert. Microsoft Calling System verwendet SIP-Optionen und TLS-Handshakeüberwachung (Transport Layer Security), um den Zustand der verbundenen Session Border Controller (SBCs) auf Anwendungsebene zu ermitteln. Es gibt Probleme, wenn dieser Trunk auf Netzwerkebene (per Ping) erreicht werden kann, das Zertifikat aber abgelaufen ist oder der SIP-Stapel nicht funktioniert. Microsoft empfiehlt, die SIP-Optionen zu aktivieren, damit solche Probleme frühzeitig identifiziert werden können. Lesen Sie die Dokumentation des SBC-Herstellers, um die Sip-Optionen für das Senden zu konfigurieren.
 
-- **Kapazität** gleichzeitiger Anrufe – Sie können das Limit gleichzeitiger Aufrufe angeben, die ein SBC verarbeiten kann, indem Sie den Befehl New- oder Set-CsOnlinePSTNGateway mit dem Parameter -MaxConcurrentSessions verwenden. Dieser Parameter berechnet, wie viele Anrufe über Direct-Routing über einen bestimmten SBC gesendet oder empfangen wurden, und vergleicht ihn mit dem festgelegten Grenzwert. Hinweis: Wenn der SBC auch Anrufe an verschiedene PBXs verarbeitet, werden für diese Nummer nicht die tatsächlichen gleichzeitigen Anrufe angezeigt.
+- **Kapazität gleichzeitiger** Anrufe – Sie können das Limit von gleichzeitigen Anrufen angeben, die ein SBC verarbeiten kann, indem Sie den Befehl New- oder Set-CsOnlinePSTNGateway mit dem Parameter -MaxConcurrentSessions verwenden. Dieser Parameter berechnet, wie viele Anrufe über Direct-Routing über einen bestimmten SBC gesendet oder empfangen wurden, und vergleicht ihn mit dem festgelegten Grenzwert. Hinweis: Wenn der SBC auch Anrufe an verschiedene PBXs verarbeitet, werden für diese Nummer nicht die tatsächlichen gleichzeitigen Anrufe angezeigt.
 
 ## <a name="detailed-information-for-each-sbc"></a>Detaillierte Informationen zu den einzelnen SBC-Daten
 
 Sie können auch die detaillierten Informationen für einen bestimmten SBC anzeigen, wie im folgenden Screenshot dargestellt:
 
-![SBC-Details des Health Dashboards](media/direct-routing-dashboard-SBC-detail1.png)
+![SBC-Details des Health Dashboards.](media/direct-routing-dashboard-SBC-detail1.png)
 
 In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
 
@@ -98,7 +98,7 @@ In der Detailansicht werden die folgenden zusätzlichen Parameter angezeigt:
 
 - **Gleichzeitiger Aufruf:** Zeigt an, wie viele gleichzeitige Aufrufe der SBC verarbeitet wurden. Diese Informationen sind hilfreich, um die Anzahl der benötigten simultanen Kanäle vorherzusagen und den Trend zu erkennen. Sie können die Daten nach der Anzahl der Tage und der Anrufrichtung (ein-/ausgehend/Alle-Datenströme) ziehen.
 
-- **Netzwerkparameter** – Alle Netzwerkparameter werden von der Direct-Routing-Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter Vorbereiten des Unternehmensnetzwerks für [Microsoft Teams](./prepare-network.md)und im Kunden-Edge, um die Microsoft Edge Werte zu erhalten.
+- **Netzwerkparameter** – Alle Netzwerkparameter werden von der Direct-Routing-Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter Vorbereiten des Unternehmensnetzwerks für [Microsoft Teams](./prepare-network.md)und unter Kunden-Edge können Microsoft Edge Werte finden.
 
    - Jitter – Ist das Maß für die Variation der Verzögerungszeit bei der Netzwerkverteilung in Millisekunden, die mithilfe von RTCP (The RTP Control Protocol) zwischen zwei Endpunkten berechnet wird.
 

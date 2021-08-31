@@ -22,12 +22,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie, wie Sie die Sprachen der automatischen Audiokonferenz-Telefonkonferenz f체r eine Audiokonferenznummer in einer Microsoft Teams.
-ms.openlocfilehash: 427510e5026a5812ab14db21a7410c4d9c3e2a8f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e96ebaff3c14dc9c7f09ceea63de7bec2d409758
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630057"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731974"
 ---
 # <a name="set-auto-attendant-languages-for-audio-conferencing-in-microsoft-teams"></a>Einrichten von automatischen Telefonzentralensprachen f체r Audiokonferenzen in Microsoft Teams
 
@@ -43,7 +43,7 @@ W채hlen Sie eine prim채re Sprache und bis zu vier sekund채re Sprachen. Die prim�
   
 ## <a name="set-the-conferencing-auto-attendant-languages"></a>Legen Sie die Sprachen f체r die automatische Telefonzentrale fest
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbr체cken).
 

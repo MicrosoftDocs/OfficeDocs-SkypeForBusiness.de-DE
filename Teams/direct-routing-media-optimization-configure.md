@@ -16,12 +16,12 @@ f1.keywords:
 description: Konfigurieren der lokalen Medienoptimierung für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 004f4ba43bda1502041ba2ec9e34194fd8be93fb
-ms.sourcegitcommit: b17e5acadcca0261eaccc64e1b4ee457348f975c
+ms.openlocfilehash: 49ed6df64957eea2f68a35554d0569ec1e6efaa0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "58365632"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730314"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Konfigurieren der lokalen Medienoptimierung für direktes Routing
 
@@ -36,7 +36,7 @@ Zum Konfigurieren der Lokalen Medienoptimierung sind die folgenden Schritte erfo
 
 Das folgende Diagramm zeigt die in den Beispielen in diesem Artikel verwendete Netzwerkeinrichtung.
 
-![Diagramm mit Netzwerkeinrichtung für Beispiele](media/direct-routing-media-op-9.png "Netzwerkeinrichtung für Beispiele")
+![Diagramm mit Beispielen für die Netzwerkeinrichtung.](media/direct-routing-media-op-9.png "Netzwerkeinrichtung für Beispiele")
 
 
 ## <a name="configure-the-user-and-the-sbc-sites"></a>Konfigurieren des Benutzers und der SBC-Websites
@@ -58,7 +58,7 @@ In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben.
 
 Bei externen vertrauenswürdigen IPs handelt es sich um die externen Internet-IPs des Unternehmensnetzwerks. Bei diesen IP-Adressen handelt es sich um die IP-Adressen, die von Microsoft Teams verwendet werden, wenn sie eine Verbindung mit Microsoft 365. Sie müssen diese externen IPs für jede Website hinzufügen, auf der Benutzer die Optimierung lokaler Medien verwenden.
 
-Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet "New-CsTenantTrustedIPAddress". Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
+Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet New-CsTenantTrustedIPAddress. Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -112,7 +112,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 ### <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
 
-Verwenden Sie zum Definieren von Netzwerksubnetzen und zum Zuordnen dieser Subnetze zu Netzwerkstandorten das cmdlet New-CsTenantNetworkSubnet Netzwerkadresse. Jedes Netzwerksubnetz kann nur einem Standort zugeordnet werden. 
+Verwenden Sie zum Definieren von Netzwerksubnetzen und zum Zuordnen dieser Subnetze zu Netzwerkstandorten das cmdlet New-CsTenantNetworkSubnet Netzwerkverbindung. Jedes Netzwerksubnetz kann nur einem Standort zugeordnet werden. 
 
 ```
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -128,7 +128,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 
 ## <a name="define-the-virtual-network-topology"></a>Definieren der virtuellen Netzwerktopologie 
 
-Zuerst erstellt der Mandantenadministrator eine neue SBC-Konfiguration für jeden relevanten SBC mithilfe des cmdlets New-CsOnlinePSTNGateway SBC.
+Zuerst erstellt der Mandantenadministrator eine neue SBC-Konfiguration für jeden relevanten SBC mithilfe des New-CsOnlinePSTNGateway-Cmdlets.
 Der Mandantenadministrator definiert die virtuelle Netzwerktopologie durch Angeben der Netzwerkwebsites für die PSTN-Gatewayobjekte mithilfe des Set-CsOnlinePSTNGateway-Cmdlets:
 
 ```
@@ -136,7 +136,7 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
 ```
 
 Beachten Sie Folgendes: 
-   - Wenn der Kunde über einen einzigen SBC verfügt, muss der Parameter "-ProxySBC" entweder obligatorisch $null oder ein SBC-FQDN-Wert sein (Szenario: zentraler SBC mit zentralisierten Trunks).
+   - Wenn der Kunde über einen einzelnen SBC verfügt, muss der Parameter "-ProxySBC" entweder obligatorisch $null oder ein SBC-FQDN-Wert sein (Szenario: zentraler SBC mit zentralisierten Trunks).
    - Der -MediaBypass-Parameter muss auf "$true festgelegt werden, um die Optimierung lokaler Medien zu unterstützen.
    - Wenn für SBC der Parameter -BypassMode nicht festgelegt ist, werden X-MS-Header nicht gesendet. 
    - Bei allen Parametern muss die Zwischenschreibung beachtet werden, daher müssen Sie sicherstellen, dass Sie die gleiche Schreibung verwenden, die beim Setup verwendet wurde.  (Die Werte "GatewaySiteID" "Vietnam" und "vietnam" werden z. B. als unterschiedliche Websites behandelt.)
@@ -151,7 +151,7 @@ Set-CSOnlinePSTNGateway -Identity “VNsbc.contoso.com” -GatewaySiteID “Viet
 Set-CSOnlinePSTNGateway -Identity “IDsbc.contoso.com” -GatewaySiteID “Indonesia” -MediaBypass $true -BypassMode “Always” -ProxySBC “proxysbc.contoso.com”
 ```
 
-Hinweis: Um unterbrechungsfreie Vorgänge sicherzustellen, wenn die Optimierung lokaler Medien und das Location-Based-Routing (Location-Based Routing, LBR) gleichzeitig konfiguriert werden, müssen downstream SBCs für LBR aktiviert werden, indem der Parameter GatewaySiteLbrEnabled für jeden downstream-SBC auf $true festgelegt wird. (Diese Einstellung ist für den Proxy-SBC nicht obligatorisch.)
+Hinweis: Damit unterbrechungsfreie Vorgänge bei gleichzeitiger Konfiguration der Optimierung lokaler Medien und des Location-Based-Routings (LBR) sichergestellt werden, müssen downstream-SBCs für LBR aktiviert werden, indem der Parameter GatewaySiteLbrEnabled für jeden downstream-SBC auf $true festgelegt wird. (Diese Einstellung ist für den Proxy-SBC nicht obligatorisch.)
 
 Gemäß den vorstehenden Informationen enthält Direct Routing drei proprietäre SIP Headers zu SIP Invites und Re-invites, wie in der folgenden Tabelle dargestellt.
 
@@ -207,7 +207,7 @@ Die folgende Tabelle zeigt die Konfiguration und Aktion des Endbenutzers:
 
 Das folgende Diagramm zeigt die SIP-Leiter für einen ausgehenden Anruf mit Immer Umgehungsmodus und dem Benutzer am selben Ort wie der SBC.
 
-![Diagramm mit ausgehenden Anrufen](media/direct-routing-media-op-10.png "Ausgehende Anrufe")
+![Diagramm, das ausgehende Anrufe zeigt.](media/direct-routing-media-op-10.png "Ausgehende Anrufe")
 
 Die folgende Tabelle zeigt die X-MS-Header, die von Direct Routing gesendet werden:
 
@@ -283,7 +283,7 @@ Die folgende Tabelle zeigt die Konfiguration und Aktion des Endbenutzers:
 
 | Physischer Standort des Benutzers |  Benutzer macht oder empfängt einen Anruf an/von der Nummer |  Telefonnummer des Benutzers | Online Voice Routing Policy |   Für SBC konfigurierter Modus |
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | +84 4 3926 3000 |  +84 4 5555 5555 | Priorität 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Priorität 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Always Bypass |
+| Vietnam | +84 4 3926 3000 |  +84 4 5555 5555 | Priorität 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Priorität 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – OnlyForLocalUsers Proxysbc.contoso.com – Immer umgehen |
 
 #### <a name="outbound-calls-and-the-user-is-in-the-same-location-as-the-sbc-with-only-for-local-users"></a>Ausgehende Anrufe, und der Benutzer befindet sich an demselben Ort wie der SBC mit Nur für lokale Benutzer.
 

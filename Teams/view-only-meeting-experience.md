@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6bb4eb1c1c681e0c2089ec1258f7729727fdb77f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586299"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732294"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -33,11 +33,11 @@ ms.locfileid: "58586299"
 
 Microsoft Teams ermöglicht bis zu 10 000 Teilnehmern den Beitritt zu einer Teams-Besprechung. Nachdem die Kapazität der Haupt besprechung erreicht wurde (d. h., wenn 1.000 Benutzer an einer Besprechung teilnehmen), werden weitere Teilnehmer mit einer 6-Prozent-Ansicht teilnehmen.
 
-Teilnehmer, die zuerst an der Besprechung teilnehmen, erhalten bis zur Kapazität der Hauptbesprechung alle Teams Besprechungserfahrung. Sie können Audio und Video freigeben, freigegebene Videos ansehen und im Besprechungschat mitmachen.
+Teilnehmer, die zuerst an der Besprechung teilnehmen, erhalten bis zu den Kapazität der Hauptbesprechung alle Teams Besprechungserfahrung. Sie können Audio und Video freigeben, freigegebene Videos ansehen und im Besprechungschat mitmachen.
 
 Teilnehmer, die der Besprechung nach Erreichen der Kapazitätsgrenze beitreten, werden eine schreibgeschützte Erfahrung erhalten.
 
-Die Teilnehmer können der Ansicht über Desktop, Web und mobile Geräte (Android und iOS Teams beitreten.
+Die Teilnehmer können über Desktop, Web und mobile Geräte (Android und iOS Teams der NS-Ansicht beitreten.
 
 > [!Note]
 > Die aktuelle Beschränkung der Kapazität der "Haupt besprechung" (also die Anzahl der vollständig interaktiven Benutzer) beträgt 1000 und umfasst GCC und Webinare.
@@ -65,7 +65,7 @@ Wenn Sie die Option "Nur anzeigen" deaktivieren möchten, können Sie auch Power
 Set-CsTeamsMeetingPolicy -Identity Global -StreamingAttendeeMode Disabled
 ```
 
-In Zukunft können Sie die Option "Nur anzeigen" im Admin Center Teams aktivieren oder deaktivieren.
+In Zukunft können Sie die Option "Nur anzeigen" im Teams aktivieren oder deaktivieren.
 
 ## <a name="impact-to-users"></a>Auswirkungen auf die Benutzer
 
@@ -73,16 +73,16 @@ Die Erfahrung eines Benutzers wird von mehreren Faktoren abhängen.
 
 Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht ist, kann ein Teilnehmer der Besprechung nicht beitreten, wenn einer der folgenden Punkte zutrifft:
 
-- Ein Administrator hat die Teams Barrierefreier Anzeige für den Organisator oder für den gesamten Mandanten deaktiviert.
+- Ein Administrator hat die Teams für den Organisator oder für den gesamten Mandanten deaktiviert.
 - Der Nur-Ansicht-Teilnehmer kann den Wartebereich nicht umgehen. Wenn beispielsweise ein Organisator einer Besprechung entscheidet, dass nur Personen **in** meiner Organisation den Wartebereich umgehen und ein Teilnehmer außerhalb der Organisation versucht, als nur zum Anzeigen verfügbarer Teilnehmer beizukehren, kann er nicht teilnehmen.
 
 Wenn die Kapazität der Haupt besprechung erreicht ist, sehen der Besprechungsorganisator und die Organisatoren ein Banner, das sie informiert, dass neue Teilnehmer nur als nur für die Anzeige bestimmte Teilnehmer teilnehmen werden.
 
-  ![die Teams-Client- und Banner-Nachricht für Organisatoren und Referenten](media/chat-and-banner-message.png)
+  ![der Teams- und Bannernachricht für Organisatoren und Organisatoren.](media/chat-and-banner-message.png)
 
 Wenn die Kapazitätsgrenze der Hauptbesprechung erreicht wurde, werden Besprechungsteilnehmer auf dem Bildschirm vor dem Beitritt informiert, dass sie im schreibgeschützten Modus beitreten werden.
 
-  ![der Teams-Bildschirm vor dem Beitritt und die Nachricht für Teilnehmer, welche diese über den Beitritt im schreibgeschützten Modus informiert](media/view-only-pre-join-screen.png)
+  ![der Teams-Bildschirm und die Meldung für Teilnehmer, dass sie nur im Ansichtsmodus teilnehmen werden.](media/view-only-pre-join-screen.png)
 
 Solange es Platz hat, wird ein Benutzer immer der Hauptbesprechung beitreten. Wenn die Hauptbesprechung die Kapazitätsgrenze erreicht und einer oder mehrere Teilnehmer die Hauptbesprechung verlassen, dann hat die Hauptbesprechung wieder verfügbare Kapazität. Teilnehmer, die der Besprechung beitreten (oder wieder beitreten), werden der Hauptbesprechung beitreten, bis diese die Kapazitätsgrenze wieder erreicht. Teilnehmer, die nur zum Anzeigen verwendet werden, werden nicht automatisch zur Haupt besprechung heraufgestuft und können nicht manuell zur Haupt besprechung heraufgestuft werden.
 
@@ -111,11 +111,11 @@ Die folgenden Optionen in Besprechungen stehen den schreibgeschützten Teilnehme
 
 - Sie können der Besprechung nicht beitreten, wenn der Teilnehmer basierend auf festgelegten Wartebereichsrichtlinien oder -Optionen die Berechtigung zum Umgehen des Wartebereichs nicht hat.
 - Sie können dem schreibgeschützten Raum nicht mittels Audiokonferenz beitreten.
-- Nehmen Sie über ihr System oder Microsoft Teams-Räume CVI-Dienste (Cloud Video Interop) am 5-Raum teil.
+- Nehmen Sie über ihr System oder über CVI-Microsoft Teams-Räume (Cloud Video Interop) am 5-Raum teil.
 - Sie können ihr Audio oder Video nicht teilen.
 - Sie können den Besprechungschat nicht sehen und nicht daran teilnehmen.
 - Sie können den Video-Feed von Besprechungsteilnehmern nicht sehen, sofern der Teilnehmer nicht der aktive Sprecher ist.
-- Weitere PowerPoint, die mit der PowerPoint Live-Funktionalität oder einzelnen Anwendungsfreigaben (mit Anderen als Desktop- oder Bildschirmfreigaben) freigegeben wurden.
+- Weitere PowerPoint, die mithilfe der PowerPoint Live-Funktionalität oder einzelner Anwendungsfreigaben (mit anderen Funktionen als Desktop- oder Bildschirmfreigaben) freigegeben wurden.
 - Heben Sie in der Besprechung die Hand.
 - Senden oder sehen Sie Reaktionen.
 - Interagieren Sie mit jeder 3P-App, die in die Teams-Besprechung integriert ist, einschließlich Umfragen.

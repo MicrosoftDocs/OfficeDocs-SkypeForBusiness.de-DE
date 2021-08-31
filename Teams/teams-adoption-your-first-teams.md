@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die Teams-Einführung durch die Verwaltung Ihrer Microsoft 365- oder Office 365-Bereitstellung mit Teams sowie das Anheften wichtiger Ressourcen als Registerkarten in den entsprechenden Kanälen erreichen.
+description: Erfahren Sie, wie Sie die Teams-Einführung durch die Verwaltung Ihrer Microsoft 365- oder Office 365-Bereitstellung mit Teams und wie Sie wichtige Ressourcen in den entsprechenden Kanälen als Registerkarten anheften können.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18a9d5f7adac8c2f3fd615085b3f03d2b3733142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ce16e1cf59f720402c2b5f1628c268aed927d145
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628257"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732404"
 ---
 # <a name="create-your-first-teams-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams in Microsoft Teams
 
-Die beste Möglichkeit, die Akzeptanz des Teams, besteht in der Verwendung des Produkts. Wir empfehlen Ihnen, Ihre E-Mail-Microsoft 365 oder Office 365 mit Teams. Sie sollten auch eine Community von Mitarbeitern schaffen, die auf Teamwork und Produktivität ausgerichtet sind. (Diese anfänglichen Teams können sich im Laufe der Zeit ändern.) Einige vorgeschlagene Teams sind:
+Die beste Möglichkeit, um die Akzeptanz von Teams zu Teams, ist die Verwendung des Produkts. Wir empfehlen Ihnen, Ihre E-Mail-Microsoft 365 oder Office 365 mit Teams. Sie sollten auch eine Community von Mitarbeitern schaffen, die auf Teamwork und Produktivität ausgerichtet sind. (Diese anfänglichen Teams können sich im Laufe der Zeit ändern.) Einige vorgeschlagene Teams sind:
 
 | Teamname | Vorgeschlagene Kanalnamen |
 | --------- | ---------------------- |
@@ -40,21 +40,21 @@ Die beste Möglichkeit, die Akzeptanz des Teams, besteht in der Verwendung des P
 
 Innerhalb Microsoft Teams erhalten Sie [](/microsoftteams/platform/concepts/tabs/tabs-overview) über den Registerkartenkatalog Zugriff auf alle Microsoft 365- oder Office 365- und Drittanbieter-Apps, die vom Administrator aktiviert wurden. Um Ihr Produkt so gut wie möglich zu nutzen, empfehlen wir, wichtige Ressourcen in jedem der entsprechenden Kanäle als Registerkarten anheften. Sehen Sie sich das Beispiel unten an.
 
-![Screenshot mit Standardregisterkarten und benutzerdefinierten Registerkarten](media/teams-adoption-tab-example.png)
+![Screenshot mit Standardregisterkarten und benutzerdefinierten Registerkarten.](media/teams-adoption-tab-example.png)
 
-In Ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen Referenz in Ihren Teamkanälen zu anheften. Diese Ressourcen werden zusätzlich zu den OneNote Notizbuchabschnitten gespeichert. Wenn Sie mit unserem Team FastTrack, hilft es Ihnen bei der Konfiguration dieser ersten Teams. 
+In Ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen Referenz in Ihren Teamkanälen zu anheften. Diese Ressourcen werden zusätzlich zu den Abschnitten OneNote Notizbuchabschnitten gespeichert. Wenn Sie mit unserem Team FastTrack, hilft es Ihnen bei der Konfiguration dieser ersten Teams. 
 
 |Team-/Kanalname | Angeheftete Registerkarte |
 |----------------- | ---------- |
 | **Microsoft Teams Bereitstellung** ||
 | Allgemein | Registerkarte "Web": [Teams Dokumentation](./index.yml) |
 | Bewusstsein und Verbreitung | [Teams Verbreitungshub](https://aka.ms/DriveTeamsAdoption)<br/>[Microsoft Teams Customer Success Kit](https://aka.ms/TeamsCustomerSuccess)|
-| Geschäftseinsatz | Wiki – Leitfaden für Engagement<br/>Formular – Bitte um Teams Beratung<br/>Liste – Einsatzanforderungen |
-|Early Adopters | Community für angeheftetes Feedback <br/> OneNote häufig gestellte Fragen und allgemeine Designs |
-| Feedback und Berichterstellung | Angeheftet Microsoft 365 oder Office 365 Verwendungsbericht (nur für Microsoft 365 oder Office 365 Administratoren) |
+| Geschäftseinsatz | Wiki – Leitfaden für Engagement<br/>Formular – Bitte um Teams Anfragen<br/>Liste – Einsatzanforderungen |
+|Early Adopters | Community für angeheftetes Feedback <br/> OneNote für häufig gestellte Fragen und allgemeine Designs |
+| Feedback und Berichterstellung | Angeheftet Microsoft 365 oder Office 365 Nutzungsbericht (nur für Microsoft 365 oder Office 365 Administratoren) |
 | Sicherheit und Compliance | Microsoft Trust Portal <br/> [Dokumentation zu Sicherheit und Compliance](/office365/securitycompliance/index)<br/> [Roadmap](/office365/securitycompliance/security-roadmap) |
 | Strategie und Planung | Collaboration North Star PowerPoint <br/> Service Adoption Project Plan |
-| Schulung | Custom Learning Schulungsportal <br/> [Teams-Online-Schulung](https://aka.ms/TeamsTraining) |
+| Schulung | Custom Learning-Schulungsportal <br/> [Teams-Online-Schulung](https://aka.ms/TeamsTraining) |
 | **Team-Champions**|  |
 | Allgemein | Verwendung für Programmankündigungen <br/> Übersicht über das Champion-Programm anheften |
 | Bewährte Methoden | Bewährte Methoden für Teams, Kanäle und Chats PowerPoint <br/> Teamlebenszyklus |
@@ -64,6 +64,6 @@ In Ihren anfänglichen Teams empfehlen wir, die folgenden Elemente zur einfachen
 
 ## <a name="making-the-switch-to-microsoft-teams"></a>Umstieg auf Microsoft Teams
 
-Wenn Sie beginnen, Teams zu verwenden, ist es für Sie und das restliche Projektteam wichtig, dass Sie sich für die Nutzung von Teams-Chats, -Kanälen und -Ressourcen für die Ausführung des Projekts festlegen. Ihre eigene Nutzung von Teams ist entscheidend für die Qualität Ihres Einführungsprojekts. Wir empfehlen Ihnen, auf Fragmentierung Ihres Projekts zu wehren, indem Sie weiterhin E-Mails mit dem Hauptprojektteam führen. Wenn Sie zu Teams, modellieren Sie das Verhalten, das Ihre Mitarbeiter letztendlich nutzen sollen. Legen Sie den Ton ein, und beginnen Sie, ihre Projektinformationen an einem Ort zu finden!  
+Wenn Sie beginnen, Teams zu verwenden, ist es für Sie und das restliche Projektteam wichtig, dass sie sich für die Nutzung von Teams-Chats, -Kanälen und -Ressourcen für die Ausführung des Projekts festlegen. Ihre eigene Nutzung von Teams ist entscheidend für die Qualität Ihres Einführungsprojekts. Wir empfehlen Ihnen, auf Fragmentierung Ihres Projekts zu wehren, indem Sie weiterhin E-Mails mit dem Hauptprojektteam führen. Wenn Sie zu Teams, modellieren Sie das Verhalten, das Ihre Mitarbeiter letztendlich nutzen sollen. Legen Sie den Ton ein, und beginnen Sie, ihre Projektinformationen an einem Ort zu finden!  
 
-![Ein Symbol für den nächsten Schritt: Wie bereit ist Ihre Organisation ](media/teams-adoption-next-icon.png) [für Microsoft Teams?](teams-adoption-assess-readiness.md)
+![Ein Symbol, das den nächsten Schritt zeigt.](media/teams-adoption-next-icon.png) Nächstes: [Wie bereit ist Ihre Organisation für Microsoft Teams?](teams-adoption-assess-readiness.md)

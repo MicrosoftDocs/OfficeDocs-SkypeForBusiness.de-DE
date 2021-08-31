@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung zu konfigurieren. Beim Start zeigt der Topologie-Generator ein Dialogfeld an, in dem die Quelle des Topologiedokuments gefragt wird. Sie wählen eine von drei Optionen aus:'
-ms.openlocfilehash: 07747193ba46d3159693991a9d304cb0aaec57d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9f50a5d69de9c22665585eb50dd19ab3b39a9c76
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621441"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732344"
 ---
 # <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
  
@@ -32,5 +32,5 @@ Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration 
     
 - **Neue Topologie** Wählen Sie diese Option aus, um mit der Konfiguration eines neuen Topologiedokuments zu beginnen. Mit dieser Option wird ein neues Topologiedokument geöffnet, das Sie konfigurieren, um die Anforderungen für die zu konfigurierende Bereitstellung zu erfüllen.
     
-![Topologie-Generator – Startdialogfeld](../../../media/Topology_Builder_Startup_Dialog.jpg)
+![Dialogfeld zum Starten des Topologie-Generators.](../../../media/Topology_Builder_Startup_Dialog.jpg)
   

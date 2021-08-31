@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: 54a209756db16788e6f46f3b34a4367277ca8354
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b377c1c391f1fb3a82976db6d58e84c9eb2f9b94
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635659"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728634"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -79,7 +79,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 
 Diese Einstellung ist eine Benutzerrichtlinie und gilt während einer Besprechung. Über diese Einstellung wird gesteuert, ob die Option zum **Aktivieren von Liveuntertiteln** verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können.  
 
-![Screenshot mit der Option zum Aktivieren von Liveuntertiteln](media/meeting-policies-live-captions.png)
+![Screenshot mit der Option "Liveuntertitel aktivieren".](media/meeting-policies-live-captions.png)
 
 |Einstellungswert |Verhalten  |
 |---------|---------|

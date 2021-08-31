@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die CLS-Protokollierung (Centralized Logging Service) in Skype for Business Server 2015 verwenden.'
-ms.openlocfilehash: d811fb1f331cb680f1c9645dec669bd7c81db192
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628617"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730234"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger for Skype for Business Server 2015
  
@@ -71,7 +71,7 @@ So beenden Sie ein vorhandenes Szenario:
     
 4. Die Benutzeroberfläche wird erneut aktiviert, nachdem das Szenario beendet wurde. Die Details der Aktion werden auch im PowerShell-Befehlsausgabebereich angezeigt.
     
-![CLS Logger starten und beenden](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
+![CLS Logger starten und beenden.](../../media/2c4a36c2-b5db-4550-a3b3-41f18e0e2f0c.png)
   
 ## <a name="search-for-logs"></a>Suchen nach Protokollen
 
@@ -109,14 +109,14 @@ Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle dur
 > 
 > **Überspringen von Netzwerkprotokollen** Überspringt die Suche nach Netzwerkprotokollen, wenn diese aktiviert sind.
     
-![CLS Logger-Suchprotokolle](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
+![CLS Logger-Suchprotokolle.](../../media/5793ea3c-6f5f-40ef-8b53-100da831eedf.png)
   
 ## <a name="create-a-scenario"></a>Erstellen eines Szenarios
 
 1. Klicken Sie auf der Registerkarte **"Szenarien bearbeiten"** auf die Schaltfläche **"Szenario erstellen".**
     
     > [!NOTE]
-    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie auf **"Einstellungen löschen"** klicken, bevor Sie ein neues Szenario erstellen, werden keine Komponenten und Flags ausgewählt.
+    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor dem Erstellen eines neuen Szenarios **auf "Einstellungen löschen"** klicken, werden keine Komponenten und Flags ausgewählt.
   
 2. Geben Sie den Namen des Szenarios ein, das Sie erstellen möchten, und drücken Sie die EINGABETASTE, oder klicken Sie auf die Schaltfläche "Ok".
     
@@ -124,7 +124,7 @@ Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle dur
     
 ## <a name="modify-a-scenario"></a>Ändern eines Szenarios
 
-![CLS-Protokollierung – Screenshot, Szenarien bearbeiten](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
+![CLS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
 1. Suchen Sie auf der Registerkarte **"Szenarien bearbeiten"** das gewünschte Szenario, das Sie ändern möchten.
     

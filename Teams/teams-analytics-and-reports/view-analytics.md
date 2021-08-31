@@ -16,12 +16,12 @@ MS.collection:
 description: Erfahren Sie mehr über teamübergreifende Analysen, Teamanalysen und Analysen pro Kanal in Teams, mit denen Benutzer Nutzungsdaten für Teams oder Kanäle sehen können, zu denen sie gehören.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0aa140482188436a08732638196af64402e6ed15
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606998"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731734"
 ---
 # <a name="view-analytics-in-teams"></a>Anzeigen von Analysen in Teams
 
@@ -35,7 +35,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 
 ## <a name="view-cross-team-analytics"></a>Anzeigen teamübergreifender Analysen
 
-1. Klicken Teams unten in der Teamliste neben Einem Team beitreten oder ein Team erstellen auf **Teams verwalten**.
+1. Klicken Teams team unten in der Teamliste neben Einem Team beitreten oder ein Team erstellen auf **Teams verwalten**.
 2. Klicken Sie auf **die Registerkarte** Analyse.
 3. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für alle Teams anzeigen, deren Mitglied oder Besitzer Sie sind.
 
@@ -57,7 +57,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 2. Klicken Sie auf **die Registerkarte** Analyse.
 4. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für das Team anzeigen.  
 
-    ![Screenshot der Analyseansicht pro Team](../media/view-analytics-per-team.png)
+    ![Screenshot der Analyseansicht pro Team.](../media/view-analytics-per-team.png)
 
     |Element |Beschreibung  |
     |--------|-------------|
@@ -76,7 +76,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 2. Klicken Sie auf **die Registerkarte** Analyse.
 3. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für den Kanal anzeigen.  
 
-    ![Screenshot der Analyseansicht pro Kanal](../media/view-analytics-per-channel.png)
+    ![Screenshot der Analyseansicht pro Kanal.](../media/view-analytics-per-channel.png)
 
     |Element |Beschreibung  |
     |--------|-------------|

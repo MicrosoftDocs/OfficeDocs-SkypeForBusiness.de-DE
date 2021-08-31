@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, was Sie wissen müssen und wie Besprechungsorganisatoren andere Personen anrufen können, die Skype for Business nutzen.
-ms.openlocfilehash: 295c3ee75718faad070a2e4e9eb26d3c9bfdae7e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe8102db8306e4651de532b6e00de88ddb46247
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581979"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732384"
 ---
 # <a name="dialing-out-from-a-skype-for-business-meeting-so-other-people-can-join-it"></a>Abwählen aus einer Skype for Business, damit andere Personen an der Besprechung teilnehmen können
 
@@ -37,7 +37,7 @@ ms.locfileid: "58581979"
 
 Als Besprechungsorganisator können Sie mithilfe der Skype for Business-App einen Anruf aus einer Besprechung herauswählen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können. Zwar ist es bei einem ausgehenden Anruf nicht erforderlich, jedoch empfehlen wir, die vollständige Nummer einschließlich Landes- und Ortsvorwahl zu wählen. So können Sie einen Anruf aus einer Besprechung heraus tätigen:
   
-- Ein-/Auswählen ist nur bei Teilnahme an einer Besprechung über eine Skype for Business-App.
+- Sie können nur dann eine Verbindung aus einer Besprechung herausrufen, wenn Sie mit einer Skype for Business teilnehmen.
     
 - Sie als Besprechungsorganisator wurden für Audiokonferenzen aktiviert.
 
@@ -52,7 +52,7 @@ Um andere Teilnehmer über eine Auswahl zu den Besprechungen Ihrer Organisation 
   
  **Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich Landes- und Ortsvorwahl in das Feld ein.
   
-![Externe Telefonnummer in Skype for Business](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
+![Wählen Sie eine Telefonnummer in Skype for Business.](../images/084b4fb5-21eb-4f10-9a1a-c92b919084b9.png)
   
 ## <a name="supported-countries-and-regions"></a>Unterstützte Länder und Regionen
 

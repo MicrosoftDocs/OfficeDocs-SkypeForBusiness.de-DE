@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Mandanten- und Gebäudedaten im Anrufqualitätsdashboard (CQD) hochladen.
-ms.openlocfilehash: 847abe5aeb18f7cb19bdad9213334f119c101e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02984b413418fff22da44d4edd4349a1bf980ed7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583699"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58733134"
 ---
 # <a name="upload-tenant-and-building-data-in-call-quality-dashboard-cqd"></a>Hochladen des Mandanten und Erstellen von Daten im Anrufqualitätsdashboard (CQD)
 
@@ -35,15 +35,15 @@ Um das Anrufqualitätsdashboard (Anrufqualitätsdashboard, CQD) bestens zu verwe
 
 Sie können hier eine Beispielvorlage für Mandantendaten [herunterladen.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/locations-template.zip?raw=true) Hilfe zum Erstellen der Zuordnung finden Sie unter [Erstellen eines Gebäudeplans für das AQD.](CQD-building-mapping.md)
 
-Wählen Sie im Dashboard CQD-Zusammenfassungsberichte im Menü Hochladen CQD **Einstellungen** (Zahnradsymbol oben im AQD) aus.  Von hier aus können Administratoren die Gebäude- und Endpunktinformationen Ihrer Organisation hochladen, z. B. Zuordnung von IP-Adressen und geografischen Informationen, Zuordnung der einzelnen Funkzugriffspunkt und ihrer MAC-Adresse usw.
+Wählen Sie im Dashboard CQD-Zusammenfassungsberichte im Menü Hochladen CQD **Einstellungen** (zahnradsymbol am oberen Rand des AQD) aus.  Von hier aus können Administratoren die Gebäude- und Endpunktinformationen Ihrer Organisation hochladen, z. B. Zuordnung von IP-Adressen und geografischen Informationen, Zuordnung der einzelnen Funkzugriffspunkt und ihrer MAC-Adresse usw.
 
 1. Öffnen Sie das CQD (im Teams Admin Center oder unter ), wählen Sie dann das Zahnradsymbol in der oberen rechten Ecke und dann auf der Seite Zusammenfassungsberichte die Option Mandantendaten [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) **Hochladen** aus. 
 
-   ![Screenshot des Dialogfelds, das angezeigt wird, während Daten hochgeladen werden](media/qerguide-image-tenantdataupload.png)
+   ![Screenshot des Dialogfelds, das angezeigt wird, während Daten hochgeladen werden.](media/qerguide-image-tenantdataupload.png)
     
 2. Wenn Sie das CQD zum ersten Mal besuchen, werden Sie alternativ aufgefordert, Gebäudedaten hochzuladen. Sie können **Jetzt Hochladen** auswählen, um schnell zur Seite **Mandantendaten hochladen** zu navigieren.
 
-   ![Screenshot eines Banners, das einen Benutzer zum Hochladen von Gebäudedaten auffordert](media/qerguide-image-buildingdatauploadbanner.png)
+   ![Screenshot eines Banners, das einen Benutzer benachrichtigt, dass Gebäudedaten hochgeladen werden.](media/qerguide-image-buildingdatauploadbanner.png)
 
 3. Wählen Sie auf der Seite **Mandantendaten hochladen** **Durchsuchen** aus, um eine Datendatei auszuwählen.
 
@@ -51,7 +51,7 @@ Wählen Sie im Dashboard CQD-Zusammenfassungsberichte im Menü Hochladen CQD **E
 
 5. Wählen Sie nach der Auswahl von **Startdatum** die Option **Hochladen** aus, um die Datei in CQD hochzuladen. <br><br>Bevor die Datei hochgeladen wird, wird sie überprüft. Wenn die Validierung fehlschlägt, wird eine Fehlermeldung angezeigt, in der Sie aufgefordert werden, die Datei zu korrigieren. Die folgende Abbildung zeigt einen Fehler, der auftritt, wenn die Anzahl der Spalten in der Datendatei falsch ist.
 
-   ![Beispiel für ein Dialogfeld mit einem Fehler beim Hochladen der Gebäudedaten](media/qerguide-image-buildingdatauploaderror.png)
+   ![Beispiel für ein Dialogfeld mit einem Fehler beim Hochladen von Gebäudedaten.](media/qerguide-image-buildingdatauploaderror.png)
  
 6. Falls während der Validierung keine Fehler auftreten, war der Dateiupload erfolgreich. Sie können die hochgeladene Datendatei in der Tabelle **Meine Uploads** anzeigen. Dort wird eine vollständige Liste aller hochgeladenen Dateien für den aktuellen Mandanten unten auf der Seite angezeigt.
 
@@ -142,15 +142,15 @@ Hier einige Punkte, die Sie berücksichtigen sollten, bevor Sie Supernetting imp
 
 ### <a name="vpn"></a>VPN
 
-Die Qualität der Benutzererfahrung (QoE)-Daten, die Clients an Microsoft 365 oder Office 365 senden – von wo aus CQD-Daten stammen – enthält ein VPN-Flag. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Kennzeichen basiert jedoch auf der Meldung von VPN-Anbietern Windows, dass es sich bei dem registrierten VPN-Netzwerkadapter um einen Remotezugriffsadapter handelt. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Verwenden Sie die oben erläuterte Spalte VPN, um VPN-Subnetze präzise zu markieren und zu identifizieren. Es wird auch geübt, Ihre VPN-Netzwerke zur einfachen Identifizierung in Ihren Berichten zu beschriften. Im Folgenden finden Sie zwei Beispiele zum Beschriften Ihrer VPN-Subnetze:
+Die Quality of Experience (QoE)-Daten, die Clients an Microsoft 365 oder Office 365 senden – aus denen CQD-Daten stammen – enthält ein VPN-Flag. CQD sieht dies als die erste und die zweite VPN-Dimension. Dieses Kennzeichen basiert jedoch auf der Meldung von VPN-Anbietern Windows, dass es sich bei dem registrierten VPN-Netzwerkadapter um einen Remotezugriffsadapter handelt. Nicht alle VPN-Anbieter registrieren die Fernzugriffsadapter ordnungsgemäß. Aus diesem Grund sind Sie möglicherweise nicht in der Lage, die integrierten VPN-Abfragefilter zu verwenden. Verwenden Sie die oben erläuterte Spalte VPN, um VPN-Subnetze präzise zu markieren und zu identifizieren. Es wird auch geübt, Ihre VPN-Netzwerke zur einfachen Identifizierung in Ihren Berichten zu beschriften. Im Folgenden finden Sie zwei Beispiele zum Beschriften Ihrer VPN-Subnetze:
 
 - Definieren Sie **einen Netzwerknamen,** indem Sie "VPN" in dieses Feld für VPN-Subnetze eingeben.
 
-  ![Screenshot des QCD-Berichts mit VPN-Netzwerknamen](media/qerguide-image-vpnnetworkname.png)
+  ![Screenshot des QCD-Berichts mit VPN unter Verwendung des Netzwerknamens](media/qerguide-image-vpnnetworkname.png)
 
 - Definieren Sie einen **Gebäudenamen,** indem Sie "VPN" in dieses Feld für VPN-Subnetze eingeben.
 
-  ![Screenshot des QCD-Berichts mit VPN-Gebäudenamen](media/qerguide-image-vpnbuildingname.png)
+  ![QCD report screenshot showing VPN using building name.](media/qerguide-image-vpnbuildingname.png)
 
 > [!NOTE]
 > ES ist bekannt, dass VPN-Verbindungen den Netzwerkverbindungstyp falsch als verkabelt identifiziert haben, wenn es sich bei der zugrunde liegenden Verbindung um eine Funkverbindung handelt. Bei der Qualität über VPN-Verbindungen können Sie nicht davon ausgehen, dass der Verbindungstyp exakt identifiziert wurde.
@@ -190,7 +190,7 @@ Beim Sammeln von Gebäude- und Subnetzinformationen laden Administratoren die Ge
 
 ## <a name="add-net-new-subnets"></a>Hinzufügen neuer Net-Subnetze
 
-Es gibt Zeiten, in denen Sie neue Net-Subnetze zum AQD hinzufügen müssen, die ursprünglich nicht Teil der Netzwerktopologie waren. Zum Hinzufügen neuer Net-Subnetze gehen Sie auf der Seite Tenant **Data Hochladen** im CQD wie folgt vor:
+Es gibt Zeiten, in denen Sie neue Net-Subnetze zum AQD hinzufügen müssen, die ursprünglich nicht Teil der Netzwerktopologie waren. Um net neue Subnetze hinzuzufügen, gehen Sie auf der Seite Tenant **Data Hochladen** im CQD wie folgt vor:
 
 1.  Laden Sie die Ursprüngliche Datei herunter, wenn Sie noch nicht über eine aktuelle Kopie verfügen.
 
@@ -200,7 +200,7 @@ Es gibt Zeiten, in denen Sie neue Net-Subnetze zum AQD hinzufügen müssen, die 
 
 1.  Fügen Sie die neuen Nettosubnetze der ursprünglichen Gebäudedatei hinzu.
 
-1.  Hochladen die neu geänderte Gebäudedatei, und legen Sie das Startdatum für einen Tag nach dem Ende der vorherigen Gebäudedatei festgelegt.
+1.  Hochladen die neu geänderte Gebäudedatei, und legen Sie das Startdatum für einen Tag nach dem Ende der vorherigen Gebäudedatei an.
 
 ## <a name="add-missing-subnets"></a>Hinzufügen fehlender Subnetze
 

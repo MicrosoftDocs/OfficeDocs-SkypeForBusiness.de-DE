@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing für Microsoft Teams konfigurieren, indem Sie alle Benutzer auf einmal wechseln oder einen phasenweise ansatzweiser Ansatz implementieren (empfohlen).
+description: Hier erfahren Sie, wie Sie die Medienumgehung mit Telefonsystem Direct-Routing für Microsoft Teams konfigurieren, indem Sie alle Benutzer auf einmal wechseln oder einen phasenweise Ansatz implementieren (empfohlen).
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: dcbc893d3549e491d40268ae3417f5203d755ff6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c0f0ad9d25157058c048b0f12cf72b3755e65e11
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598579"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728684"
 ---
 # <a name="configure-media-bypass-with-direct-routing"></a>Konfigurieren der Medienumgehung mit direktem Routing
 
@@ -47,7 +47,7 @@ Sie können alle Benutzer gleichzeitig wechseln oder einen phasenweise ansatzwei
 
   Dies ist der empfohlene Ansatz, da er einen reibungslosen Übergang und unterbrechungsfreie Benutzeroberfläche ermöglicht. Dieser Ansatz erfordert die Konfiguration des SBC, einen neuen FQDN-Namen und die Konfiguration der Firewall. Beachten Sie, dass Ihr Zertifikat beide Trunks unterstützt. In SAN müssen zwei Namen **(sbc1.contoso.com** und **sbc2.contoso.com)** oder ein Platzhalterzertifikat verwendet werden.
 
-![Migrieren von nicht umgangenen Trunks zu umgehungsfähigen Trunks)](media/direct-routing-media-bypass-8.png)
+![Migrieren Von nicht umgangenen Trunks zu umgehenden Trunks).](media/direct-routing-media-bypass-8.png)
 
 Anweisungen zum Konfigurieren der Trunks und zum Durchführen der Migration finden Sie in der Dokumentation Ihres SBC-Anbieters:
 

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Skype for Business Onlinetelefone zu konfigurieren.
-ms.openlocfilehash: a053928a242be3d7798a5d9c3cc608e3176807c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607442"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728014"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -74,7 +74,7 @@ Von Skype for Business Online unterstützte Telefone und Firmware sind auch mit 
   
 Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert. Je nachdem, wann die Telefone inaktiv sind und welche Abrufintervalle festgelegt sind, werden die neuesten zertifizierten Builds automatisch heruntergeladen und installiert. Sie können die Einstellungen für Geräteupdates mit dem [Set-CsIPPhonePolicy](/powershell/module/skype/Set-CsIPPhonePolicy)-Cmdlet deaktivieren und den  _EnableDeviceUpdate_-Parameter auf  `false` festlegen.
   
-![Screenshot der Bereitstellung von Smartphones](../../images/be727622-1924-439f-96ca-89230739db9e.png)
+![Screenshot der Bereitstellung von Smartphones.](../../images/be727622-1924-439f-96ca-89230739db9e.png)
   
 Wenn neue Firmware verfügbar und zum Herunterladen und Installieren bereit ist, benachrichtigt das Telefon den Benutzer. Polycom-Telefone benachrichtigen den Benutzer und bieten dabei die Optionen **Update** (Aktualisieren) und **Postpone** (Aufschieben).
   
@@ -97,7 +97,7 @@ Informationen zur Planung der Netzwerkinfrastruktur finden Sie unter [Skype Oper
   
 ### <a name="step-6---preparing-for-users-to-sign-in"></a>Schritt 6 - Vorbereiten der Anmeldung der Benutzer
 
-Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter Lizenzierung von Skype for Business und [Microsoft Teams-Add-Ons](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und Zuweisen von Skype for Business [und Microsoft Teams Lizenzen.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
+Damit sich Benutzer erfolgreich bei einem Skype for Business Online-Telefon anmelden und Anrufe tätigen können, müssen Sie sicherstellen, dass den Benutzern die richtigen Lizenzen zugewiesen sind. Sie müssen mindestens eine Telefonsystemlizenz und einen Anrufplan zuweisen. Weitere Informationen finden Sie unter Lizenzierung von Skype for Business und [Microsoft Teams Add-Ons](../../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md) und Zuweisen Skype for Business [und Microsoft Teams Lizenzen.](../../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
   
 Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufpläne.](/microsoftteams/calling-plan-landing-page)
   
@@ -105,7 +105,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufp
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Screenshot der Anmeldung bei Polycom-Telefonen](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
+     ![Screenshot der Anmeldung bei Polycom-Telefonen.](../../images/8a1ffb33-8a63-4242-bb76-d5fafb6a6472.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
@@ -131,7 +131,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufp
     
   - Benutzer mit **Polycom VVX 5XX/6XX** -Telefonen sehen folgenden Bildschirm:
     
-     ![Screenshot der Polycom-Anweisungen](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
+     ![Screenshot der Polycom-Anweisungen.](../../images/ba0df923-a6e5-4a9b-b40b-b03ca188e814.png)
   
   - Benutzer mit **Yealink T48G/T46G** -Telefonen sehen folgenden Bildschirm:
     
@@ -149,15 +149,15 @@ Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufp
   
     Navigieren Sie in einem Browser zu der auf dem Telefon angezeigten Adresse, und geben Sie Ihren Skype for Business-Benutzernamen ein.
     
-     ![Screenshot mit E-Mail-Überprüfung](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
+     ![Screenshot der E-Mail-Überprüfung.](../../images/7c540b85-dc37-4ce7-a077-9e3454a0efd0.png)
   
     Geben Sie den auf dem Telefon angezeigten Code ein.
     
-     ![Screenshot der Eingabe von Code auf dem Anmeldebildschirm](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
+     ![Screenshot der Eingabe von Code auf dem Anmeldebildschirm.](../../images/d6b88016-35d2-41d1-a0da-81fef34521d4.png)
   
     Vergewissern Sie sich, dass auf der Website „ **Skype for Business-zertifiziertes Telefon** von [Name des Telefonherstellers]" angezeigt wird, und klicken Sie auf **Weiter**.
     
-     ![Screenshot der Überprüfung des Namens](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
+     ![Screenshot der Überprüfung des Namens.](../../images/a8252b37-4ff5-4ece-9e2a-3e05bf928299.png)
   
     Klicken Sie auf die Anmeldeinformationen des Benutzers oder auf **Anderes Konto verwenden**:
     
@@ -165,7 +165,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufp
   
     Wenn die folgende Seite angezeigt wird, können Sie den Browser gefahrlos schließen.
     
-     ![Screenshot mit Bestätigungsmeldung](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
+     ![Screenshot mit Bestätigungsmeldung.](../../images/1a873201-52fc-4a63-b7b5-e82bbd031fd2.png)
   
     > [!NOTE]
     > LPE-Telefone für Skype for Business Online unterstützen nur die Anmeldung über USB-Tethering. 
@@ -206,7 +206,7 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
   
 1. Verbinden Sie den PC über den PC-Anschluss mit dem Telefon.
     
-     ![Screenshot der Verbindung mit einem PC](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
+     ![Screenshot, der die Verbindung zu einem PC zeigt.](../../images/e21d76c7-867c-4fe6-95c6-fc40c608ed0c.png)
   
 2. Laden Sie über die folgenden Links die neueste BToE-Software von der Website des entsprechenden Herstellers herunter. Für eine bessere Benutzererfahrung können Sie die BToE-Software mithilfe einer Administratorverteilungslösung wie Microsoft Endpoint Configuration Manager. Hilfe zur Verwendung von Configuration Manager finden Sie unter [Pakete und Programme in Configuration Manager.](/configmgr/apps/deploy-use/packages-and-programs)
     

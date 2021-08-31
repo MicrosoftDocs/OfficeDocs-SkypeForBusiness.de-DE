@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Anzeigen von Administratorberichten für Teams EHR-Connectorbesuche
-ms.openlocfilehash: cebd427096baae564f020694e18fc6023a560790
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd1b7577079c65d12fa85cc4098702cb26b2a1da
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588167"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730194"
 ---
 # <a name="microsoft-teams-ehr-connector-admin-reports"></a>Microsoft Teams EHR Connector-Administratorberichte
 
@@ -38,7 +38,7 @@ Sie können den Administratorbericht Microsoft Teams EHR-Connector anzeigen, ind
 
 Greifen Sie über das Dashboard Microsoft Teams Admin Center auf den Bericht zu.
 
- ![Ein Dialogfeld mit den Zuweisungen und Grenzwerten für virtuelle Besuche](../../media/admin-connector-report.png)
+ ![Ein Dialogfeld mit den Zuweisungen und Grenzwerten für virtuelle Besuche.](../../media/admin-connector-report.png)
 
 Das Dialogfeld enthält die folgenden Daten:
 

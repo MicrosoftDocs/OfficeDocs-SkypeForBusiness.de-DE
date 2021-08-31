@@ -1,22 +1,22 @@
 ---
 title: Erstellen Eines Ressourcenkontos mithilfe der Microsoft 365 Admin Center
-description: Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können Sie über das Microsoft 365 Admin Center ein Ressourcenkonto für Ihre Microsoft Teams-Räume und zusammenarbeitsleisten für Microsoft Teams erstellen.
+description: Wenn Sie lieber eine grafische Benutzeroberfläche verwenden möchten, können Sie mithilfe des Microsoft 365 Admin-Centers ein Ressourcenkonto für Ihre Microsoft Teams-Räume und zusammenarbeitsleisten für Microsoft Teams erstellen.
 ms.reviewer: payurevi
 manager: serdars
 audience: ITPro
-keywords: Erstellen eines Gerätekontos, Microsoft 365 Benutzeroberfläche, Microsoft 365 Admin Center
+keywords: Erstellen eines Gerätekontos, Microsoft 365 Benutzeroberfläche und Microsoft 365 Admin Center
 ms.sitesec: library
 ms.service: msteams
 author: flinchbot
 ms.author: mitressl
 ms.topic: article
 ms.localizationpriority: medium
-ms.openlocfilehash: 014c51182213ec17e940f466ddd5fa0cc13185be561e3670277430ce78a054c2
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 5107521b6b3c3cb69ccb33df1a895edc5fe8b7d9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54314091"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732014"
 ---
 # <a name="create-a-microsoft-365-resource-account-using-the-microsoft-365-admin-center"></a>Erstellen Sie mithilfe Microsoft 365 Ressourcenkontos ein Microsoft 365 Admin Center
 
@@ -33,17 +33,17 @@ Bevor Sie ein Ressourcenkonto Microsoft 365, überprüfen Sie, welche Art von Li
 - **Teams Besprechung** Wenn die Ressource (z. B. eine Microsoft Teams-Räume-Konsole, eine Zusammenarbeitsleiste und so weiter) an einer Teams-Besprechung teilnehmen soll, damit die Teilnehmer sie zum Präsentieren von Video und Audio verwenden können, benötigen Sie eine Besprechungsraum-Lizenz. 
 - **PSTN-Anrufe** Wenn Sie möchten, dass die Ressource Anrufe an oder von externen Telefonnummern (als "Telefon im öffentlichen Telefonnetz" oder "PSTN-Anruf" bezeichnet) anruft, benötigen Sie eine Microsoft 365 Telefonsystem- oder Microsoft 365 Business Voice-Lizenz.
 
-Weitere Informationen zu Lizenzen für Besprechungsraum, Telefonsystem und Business Voice finden Sie unter [hinzufügen Microsoft Teams-On-Lizenzen.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Weitere Informationen zu Lizenzen für Besprechungsraum, Telefonsystem und Business Voice finden Sie unter [Microsoft Teams-Add-On-Lizenzen.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 ## <a name="create-a-resource-account-in-the-microsoft-365-admin-center"></a><a href="" id="create-device-acct-m365-admin-ctr"></a>Erstellen eines Ressourcenkontos im Microsoft 365 Admin Center
 
 1. Melden Sie sich bei ihrem Microsoft 365, indem Siehttps://admin.microsoft.com
 2. Geben Sie die Administratoranmeldeinformationen für Ihren mandanten Microsoft 365 an. Dadurch werden Sie zu Ihrem Microsoft 365 Admin Center.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 Admin Center":::
-3. Navigieren Sie im Admin  Center im linken Bereich zu  Ressourcen (möglicherweise müssen Sie zuerst Alle anzeigen auswählen), und wählen Sie dann Räume **& aus.**
+:::image type="content" source="../media/collaboration-bar-m365-admin-center.png" alt-text="Microsoft 365 Admin Center.":::
+3. Navigieren Sie im Admin  Center im linken Bereich zu  Ressourcen (möglicherweise müssen Sie zuerst Alle anzeigen auswählen), und wählen Sie dann Räume & **aus.**
 
-:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 Admin Center - Ressourcen":::
+:::image type="content" source="../media/collaboration-bar-m365-resources-rooms.png" alt-text="Microsoft 365 Admin Center - Ressourcen.":::
 4. Wählen Sie **Ressourcenpostfach hinzufügen aus,** um ein neues Raumkonto zu erstellen. Geben Sie einen Anzeigenamen und eine E-Mail-Adresse für das Konto ein, wählen Sie **Hinzufügen** und dann Schließen **aus.** Es wird empfohlen, für alle Ressourcenkonten eine Standardisierung nach einer Benennungskonvention zu verwenden.
 
 > [!NOTE]
@@ -55,16 +55,16 @@ Weitere Informationen zu Lizenzen für Besprechungsraum, Telefonsystem und Busin
 >   - Maximale Dauer (Stunden): 24
 > - Automatisches Annehmen von Besprechungsanfragen
 
-:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 Admin Center – Ressourcen hinzufügen":::
+:::image type="content" source="../media/collaboration-bars-admin-resources.png" alt-text="Microsoft 365 Admin Center – Ressourcen hinzufügen.":::
 5. Navigieren Sie **im Admin** Center zum  Abschnitt Benutzer, und in der Liste Aktive Benutzer wird der gerade erstellte Raum angezeigt.
 
-:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 Admin Center – Aktive Benutzer sehen":::
+:::image type="content" source="../media/collaboration-bars-M3565-admin-active-users.png" alt-text="Microsoft 365 Admin Center – Aktive Benutzer sehen.":::
 6. Wählen Sie den Namen des Raums aus, und auf der rechten Seite wird ein Bereich mit den Kontoeigenschaften angezeigt.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 Admin Center – Benutzereigenschaften":::
-7. Jetzt müssen Sie dem Ressourcenkonto ein Kennwort zuweisen. Im Bereich werden die Kontoeigenschaften und mehrere optionale Aktionen angezeigt. Wählen Sie unter **dem Benutzernamen das Symbol** Kennwortschlüssel zurücksetzen aus, um das Kennwort zu ändern. Deaktivieren Sie die **Option Diesen Benutzer muss sein Kennwort ändern, wenn er sich zum ersten Mal anmeldet.** Es ist nicht möglich, das Kennwort über den Anmeldevorgang des Geräts zu ändern. Wählen Sie **Zurücksetzen aus.**
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-settings.png" alt-text="Microsoft 365 Admin Center – Benutzereigenschaften.":::
+7. Jetzt müssen Sie dem Ressourcenkonto ein Kennwort zuweisen. Im Bereich werden die Kontoeigenschaften und mehrere optionale Aktionen angezeigt. Wählen Sie unter **dem Benutzernamen das Symbol** Kennwortschlüssel zurücksetzen aus, um das Kennwort zu ändern. Deaktivieren Sie die **Option Diesen Benutzer muss sein Kennwort bei der ersten Anmeldung ändern.** Es ist nicht möglich, das Kennwort über den Anmeldevorgang des Geräts zu ändern. Wählen Sie **Zurücksetzen aus.**
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 Admin Center – Kennwort zurücksetzen":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-password.png" alt-text="Microsoft 365 Admin Center – Kennwort zurücksetzen.":::
 8. Legen Sie **im Abschnitt Lizenzen** und Apps Standort auswählen auf das Land oder die Region, in dem bzw. der das Gerät installiert werden soll.  Scrollen Sie nach unten, aktivieren Sie das Kontrollkästchen neben der Lizenz, die zugewiesen werden soll (z. B. Besprechungsraum), und wählen Sie **dann Änderungen speichern aus.** Die Lizenz kann je nach Ihrer Organisation variieren.
 
-:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 Admin Center – Lizenz zuweisen":::
+:::image type="content" source="../media/collaboration-bar-m365-admin-center-active-user-assign-license.png" alt-text="Microsoft 365 Admin Center – Lizenz zuweisen.":::

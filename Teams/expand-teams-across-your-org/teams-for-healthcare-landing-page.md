@@ -17,12 +17,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5c5040ba402a14f87ead8156569552c510db63c
-ms.sourcegitcommit: 97c2faab08ec9b8fc9967827883308733ec162ea
+ms.openlocfilehash: ce4bf4f19aa9bee13aa41a1a7090172e41cb5851
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "58233470"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730114"
 ---
 # <a name="teams-for-healthcare"></a>Teams für das Gesundheitswesen
 
@@ -30,6 +30,6 @@ Teams bietet Gesundheitsteams und Gesundheitswesensprofis eine sichere Möglichk
 
 |    &nbsp;           |         &nbsp;      |
 | ------------- | ------------- |
-| ![Screenshot einer Hand mit einem Finger, der auf ein Pfeilsymbol zeigt](../media/get-started-teams.svg)  |  [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](./healthcare/teams-in-hc.md) |
+| ![Screenshot einer Hand mit einem Finger, der auf ein Pfeilsymbol zeigt.](../media/get-started-teams.svg)  |  [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](./healthcare/teams-in-hc.md) |
 | ![Screenshot eines Kartensymbols](../media/walkthrough-map-teams.svg) | [Erste Schritte mit Teams-Vorlagen für Organisationen im Gesundheitswesen](./healthcare/healthcare-templates-admin-console.md) |
-| ![Screenshot des Symbols "Dialogblasen"](../media/chat.svg)  |  [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](./healthcare/messaging-policies-hc.md) |
+| ![Screenshot des Dialogfeldsymbols "Blasen".](../media/chat.svg)  |  [Erste Schritte mit Secure Messaging für Organisationen im Gesundheitswesen](./healthcare/messaging-policies-hc.md) |

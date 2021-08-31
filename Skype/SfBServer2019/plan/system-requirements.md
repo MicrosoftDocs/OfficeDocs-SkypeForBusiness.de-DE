@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: ''
 description: 'Zusammenfassung: Bereiten Sie Ihre Skype for Business Server 2019-Server und Domäneninfrastruktur mit diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen sowie Zertifikat-DNS-, Dateifreigabe- und Active Directory-Informationen sind hier, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm sicherzustellen.'
-ms.openlocfilehash: a994d2546cb6e15830b8cb2439968a53047a6389
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5714c5606c69d6aba0befa03a6556a5da8ab443
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578209"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728364"
 ---
 # <a name="system-requirements-for-skype-for-business-server-2019"></a>Systemanforderungen für Skype for Business Server 2019
  
@@ -45,7 +45,7 @@ Wie Sie vielleicht erwarten, müssen Sie einige Vorbereitungen treffen, bevor Si
 ## <a name="hardware-for-skype-for-business-server-2019"></a>Hardware für Skype for Business Server 2019
 <a name="Hardware"> </a>
 
-Wenn Die Topologie nicht mehr verfügbar ist (und wenn Sie dies nicht tun, können Sie sich die [Topologiegrundlagen für Skype for Business Server 2019-Thema](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) ansehen), ist es an der Zeit, über Server nachzudenken. Skype for Business Server 2019-Server benötigen 64-Bit-Hardware. Unsere Empfehlungen für Hardware finden Sie unten. Dies sind keine Anforderungen, aber sie spiegeln die Anforderungen wider, die für eine optimale Leistung erforderlich sind. Wir verfügen über eine Dokumentation zur Kapazitätsplanung, mit der Sie je nach Ihren Umständen ermitteln können, ob Sie mehr als diese benötigen.
+Wenn Die Topologie nicht mehr verfügbar ist (und wenn Sie dies nicht tun, können Sie sich die [Topologiegrundlagen für Skype for Business Server 2019-Thema](../../SfbServer/plan-your-deployment/topology-basics/topology-basics.md) ansehen), ist es an der Zeit, über Server nachzudenken. Skype for Business Server 2019-Server benötigen 64-Bit-Hardware. Unsere Empfehlungen für Hardware finden Sie unten. Dies sind keine Anforderungen, aber sie spiegeln die Anforderungen wider, die für eine optimale Leistung erforderlich sind. Wir verfügen über eine Dokumentation zur Kapazitätsplanung, mit der Sie je nach Ihren Umständen ermitteln können, ob Sie mehr benötigen.
   
 Empfohlene Hardware für Standard Edition Server:
 
@@ -54,7 +54,7 @@ Empfohlene Hardware für Standard Edition Server:
 |CPU  <br/> |Intel Xeon E5-2673 v3 Dualprozessor, 6-Core, 2,4 GHz oder höher.  <br/> Intel Itanium-Prozessoren werden für Skype for Business Server 2019-Rollen nicht unterstützt.  <br/> |
 |Arbeitsspeicher  <br/> |32 Gigabyte (GB).  <br/> |
 |Datenträger  <br/> |ENTWEDER:  <br/> • 8 oder mehr Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (zwei der Festplatten mit RAID 1 und 6 mit RAID 10).  <br/> OR  <br/> • SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 1.0000 U/min bereitstellen können.  <br/> |
-|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Duale konfigurationen oder Konfigurationen mit mehreren Verwalteten werden für Front-End-Server, Back-End-Server und Standard Edition Server **nicht** unterstützt. <br/> Solange sie nicht für das Betriebssystem verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, können Sie über Out-of-Band-Verwaltungssysteme wie DRAC oder GIF verfügen. Dieses Szenario stellt keinen Server mit mehreren Verwalteten dar und wird unterstützt.  <br/> |
+|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Dual- oder Multi-Homed-Konfigurationen werden für Front-End-Server, Back-End-Server und Standard Edition Server **nicht** unterstützt. <br/> Solange sie nicht für das Betriebssystem verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, können Sie über Out-of-Band-Verwaltungssysteme wie DRAC oder GIF verfügen. Dieses Szenario stellt keinen Server mit mehreren Verwalteten dar und wird unterstützt.  <br/> |
 
 
 Empfohlene Hardware für Front-End-Server und Back-End-Server:
@@ -64,7 +64,7 @@ Empfohlene Hardware für Front-End-Server und Back-End-Server:
 |CPU  <br/> |Intel Xeon E5-2673 v3 Dualprozessor, 6-Core, 2,4 GHz oder höher. <br/> Intel Itanium-Prozessoren werden für Skype for Business Server 2019-Rollen nicht unterstützt.  <br/> |
 |Arbeitsspeicher  <br/> |64 Gigabyte (GB).  <br/> |
 |Datenträger  <br/> |ENTWEDER:  <br/> • 8 oder mehr Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (zwei der Festplatten mit RAID 1 und 6 mit RAID 10).  <br/> OR  <br/> • SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 8 1.0000 U/min bereitstellen können.  <br/> |
-|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Duale konfigurationen oder Konfigurationen mit mehreren Verwalteten werden für Front-End-Server, Back-End-Server und Standard Edition Server **nicht** unterstützt. <br/> Solange sie nicht für das Betriebssystem verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, können Sie über Out-of-Band-Verwaltungssysteme wie DRAC oder GIF verfügen. Dieses Szenario stellt keinen Server mit mehreren Verwalteten dar und wird unterstützt.  <br/> |
+|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Dual- oder Multi-Homed-Konfigurationen werden für Front-End-Server, Back-End-Server und Standard Edition Server **nicht** unterstützt. <br/> Solange sie nicht für das Betriebssystem verfügbar gemacht werden und zum Überwachen und Verwalten der Serverhardware verwendet werden, können Sie über Out-of-Band-Verwaltungssysteme wie DRAC oder GIF verfügen. Dieses Szenario stellt keinen Server mit mehreren Verwalteten dar und wird unterstützt.  <br/> |
    
 Empfohlene Hardware für Edgeserver, eigenständige Vermittlungsserver und Directors:
   
@@ -73,11 +73,11 @@ Empfohlene Hardware für Edgeserver, eigenständige Vermittlungsserver und Direc
 |CPU  <br/> |Intel Xeon E5-2673 v3 Dualprozessor, 6-Core, 2,4 GHz oder höher.  <br/> Intel Itanium-Prozessoren werden für Skype for Business Server 2019-Rollen nicht unterstützt.  <br/> |
 |Arbeitsspeicher  <br/> |32 Gigabyte.  <br/> |
 |Datenträger  <br/> |ENTWEDER:  <br/> • Mindestens 4 Festplattenlaufwerke mit 10.000 U/min mit mindestens 72 GB freiem Speicherplatz (die Datenträger sollten in einer 2x RAID 1-Konfiguration vorhanden sein).  <br/> OR  <br/> • SSDs (Solid State Drives), die den gleichen freien Speicherplatz und eine ähnliche Leistung wie mechanische Festplattenlaufwerke mit 4 1.000 U/min bereitstellen können.  <br/> |
-|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Duale konfigurationen oder Multi-Homed-Konfigurationen werden für Video-Interoperabilitätsserver und Directors **nicht** unterstützt. <br/> Edgeserver benötigen zwei Netzwerkschnittstellen, bei denen es sich um Dualport-Netzwerkadapter handelt, mindestens 1 GBit/s (oder zwei gekoppelte Netzwerkadapter, insgesamt vier, wobei jedes Paar mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse für insgesamt zwei Paare kombiniert wird).  <br/> Auf eigenständigen Vermittlungsservern wird die Installation zusätzlicher Netzwerkschnittstellenkarten (NiCs) unterstützt, um die Konfiguration einer bestimmten PSTN-IP-Adresse zu ermöglichen.  <br/> |
+|Netzwerk  <br/> |1 Dualport-Netzwerkadapter, 1 GBit/s oder höher (2 Netzwerkadapter können verwendet werden, sie müssen jedoch mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse zusammengeführt werden).  <br/> Duale konfigurationen oder Multi-Homed-Konfigurationen werden für Video-Interoperabilitätsserver und Directors **nicht** unterstützt. <br/> Edgeserver benötigen zwei Netzwerkschnittstellen, bei denen es sich um Dualport-Netzwerkadapter handelt, mindestens 1 GBit/s (oder zwei gekoppelte Netzwerkadapter, insgesamt vier, wobei jedes Paar mit einer einzelnen MAC-Adresse und einer einzelnen IP-Adresse für insgesamt zwei Paare kombiniert wird).  <br/> Auf eigenständigen Vermittlungsservern wird die Installation zusätzlicher Netzwerkschnittstellenkarten (Network Interface Cards, NICs) unterstützt, um die Konfiguration einer bestimmten PSTN-IP-Adresse zu ermöglichen.  <br/> |
 
 
 > [!NOTE]
-> Unabhängig von der Serverrolle empfehlen wir auch die folgenden Hardwareeinstellungen für Skype for Business Server 2019 (dies kann je nach erworbener Hardwaremarke variieren. Einzelheiten hierzu finden Sie in der Herstellerdokumentation):
+> Unabhängig von der Serverrolle empfehlen wir auch die folgenden Hardwareeinstellungen für Skype for Business Server 2019 (dies kann je nach erworbener Hardwaremarke variieren. Einzelheiten hierzu finden Sie in der Herstellerdokumentation:
 > - BIOS-Konfiguration – sollte von NUMA auf FLAT festgelegt werden.
 > - Aktivieren Sie Hyperthreading.
 > - Die RSS-Warteschlangeneinstellung sollte auf 8 Warteschlangen festgelegt werden.
@@ -103,7 +103,7 @@ Andere als die hier aufgeführten Betriebssysteme funktionieren nicht ordnungsge
 > 
 > Wenn Sie Windows Admin Center 2019 auf Ihrem Windows Server 2019-Computer installieren, werden Sie aufgefordert, einen Port anzuhören. Möglicherweise wählen Sie Port 443 aus, aber wenn auf diesem Computer Skype for Business Server 2019 installiert ist oder Skype for Business Server 2019 installiert ist, müssen Sie eine andere Portnummer auswählen.
 > 
->Warum ist dies der Fall? Wenn Windows Admin Center 2019 an Port 443 ausgeführt wird, können Sie keine Verbindung mit dem Server über die Skype for Business Systemsteuerung herstellen, und Sie können auch keine Verbindung mit einem internen Webdienst herstellen, der auf dem Server ausgeführt wird (Adressbuchwebdienst, AutoErmittlungsdienst, WebTicketdienst usw.).  Tatsächlich können Sie keine Verbindung mit einer internen Webdienst-URL herstellen. Wählen Sie einen anderen Port aus, falls Sie Windows Admin Center 2019 auf einem Server mit Skype for Business Server 2019 platzieren möchten.
+>Warum ist dies der Fall? Wenn Windows Admin Center 2019 an Port 443 ausgeführt wird, können Sie keine Verbindung mit dem Server über die Skype for Business Systemsteuerung herstellen, und Sie können auch keine Verbindung mit einem internen Webdienst herstellen, der auf dem Server ausgeführt wird (Adressbuchwebdienst, AutoErmittlungsdienst, WebTicket-Dienst usw.).  Tatsächlich können Sie keine Verbindung mit einer internen Webdienst-URL herstellen. Wählen Sie einen anderen Port aus, falls Sie Windows Admin Center 2019 auf einem Server mit Skype for Business Server 2019 platzieren möchten.
 > 
 
   
@@ -121,11 +121,11 @@ Es gibt einige Dinge, die Sie für jeden Server installieren oder konfigurieren 
 |:-----|:-----|
 |Windows PowerShell 3.0  <br/> |Alle Skype for Business Server Server müssen Windows PowerShell 3.0 installiert sein.  <br/> • Diese sollte standardmäßig mit Windows Server 2016 installiert werden.<br/> |
 |Microsoft .NET Framework  <br/> |WCF-Dienste sind ein **Feature,** das als Windows-Feature unter **Server-Manager** installiert ist und zunächst keine Downloads benötigt. <br/> • Sie müssen sicherstellen, dass bei der Installation dieses Features oder wenn es bereits installiert ist und Sie es aktivieren, dass die **HTTP-Aktivierungsoption** ebenfalls aktiviert und installiert ist, z. B.: <br/> ![Screenshot der HTTP-Aktivierungsoption unter den Features .NET Framework 4.5.](../../SfbServer/media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Machen Sie sich keine Sorgen, wenn Sie ein zusätzliches Popup erhalten, das besagt, dass einige andere Dinge installiert werden müssen, damit die HTTP-Aktivierung installiert werden kann. Das ist normal; Klicken Sie auf "OK", und fahren Sie fort. Wenn Sie dieses Popup nicht erhalten, können Sie davon ausgehen, dass diese Elemente bereits installiert sind, und fortfahren.  <br/> Microsoft .NET Framework wird in der Regel installiert, wenn Windows Server 2016 installiert ist. Skype for Business Server erfordert jedoch Microsoft .NET Framework 4.7 oder 4.8, daher müssten Sie es wahrscheinlich aktualisieren. Das Update finden Sie [hier](https://support.microsoft.com/help/3186497/the-net-framework-4-7-offline-installer-for-windows/)<br/> |
-|Media Foundation  <br/> |Für Windows Server 2016 wird die Windows Media Format Runtime mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition-Server, die für Konferenzen verwendet werden, erfordern Windows Media Format Runtime, um die WMA-Dateien (Windows Media Audio) auszuführen, die von den Anwendungen "Parken von Anrufen", "Ansage" und "Reaktionsgruppe" für Ankündigungen und Musik wiedergegeben werden.  <br/> |
+|Media Foundation  <br/> |Für Windows Server 2016 wird die Windows Media Format Runtime mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition-Server, die für Konferenzen verwendet werden, erfordern Windows Media Format Runtime, um die WMA-Dateien (Windows Media Audio) auszuführen, die von den Anwendungen für das Parken von Anrufen, ankündigungen und Reaktionsgruppen für Ankündigungen und Musik wiedergegeben werden.  <br/> |
 |Windows Identity Foundation  <br/> |Wir benötigen Windows Identity Foundation 3.5, um Server-zu-Server-Authentifizierungsszenarien für Skype for Business Server 2019 zu unterstützen.  <br/> • Für Windows Server 2016 müssen Sie nichts herunterladen. Öffnen Sie **den Server-Manager,** und wechseln Sie zum Assistenten zum Hinzufügen von **Rollen und Features.** **Windows Identity Foundation 3.5** ist im Abschnitt **"Features"** aufgeführt. Wenn sie ausgewählt ist, sind Sie gut. Wählen Sie sie andernfalls aus, und klicken Sie auf **"Weiter",** um die Schaltfläche **"Installieren"** zu erreichen. <br/> |
 |Remoteserver-Verwaltungstools  <br/> |Rollenverwaltungstools: AD DS- und AD LDS-Tools  <br/> |
    
- **Front-End-Server und Standard Edition Server benötigen außerdem Folgendes:**
+ **Front-End-Server und Standard Edition-Server benötigen außerdem Folgendes:**
   
 |**Software/Rolle**|**Details**|
 |:-----|:-----|
@@ -185,7 +185,7 @@ IIS, wobei die folgenden Module ausgewählt sind:
     
   - ISAPI-Filter
     
-(Wenn Sie sich fragen, ist es dasselbe Modul wie die Front-End-Server und Standard Edition Server, wobei die Tools für die Komprimierung dynamischer Inhalte und die Verwaltungstools weggelassen werden.)
+(Wenn Sie sich fragen, ist es dasselbe Modul wie die Front-End-Server und Standard Edition-Server, wobei die Tools für die Komprimierung dynamischer Inhalte und die Verwaltungstools weggelassen werden.)
   
 Dafür haben wir auch folgenden PowerShell-Code:
   
@@ -202,7 +202,7 @@ Skype for Business Server 2019-Enterprise Edition erfordert vollständige SQL Se
   
 ||||
 |:-----|:-----|:-----|
-|Microsoft SQL Server 2019 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.  <br/> |Microsoft SQL Server 2017 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.  <br/> |
+|Microsoft SQL Server 2019 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.  <br/> |Microsoft SQL Server 2017 (64-Bit-Edition) und sie müssen mit den neuesten Updates ausgeführt werden.  <br/> |
 Microsoft SQL Server 2016 (64-Bit-Edition), und Sie müssen mit den neuesten Updates ausführen.|
  |
 
@@ -213,7 +213,7 @@ Wenn die hier aufgeführte SQL Server Edition, die Sie verwenden möchten, nicht
   
 ### <a name="sql-clustering-and-sql-always-on"></a>SQL Clustering und SQL AlwaysOn
 
-SQL Clustering mit Skype for Business Server 2019 wird unterstützt. Wenn Sie SQL Clustering einrichten möchten, erfolgt dies in SQL Server.
+SQL Clustering mit Skype for Business Server 2019 wird unterstützt. Wenn Sie SQL Clustering einrichten möchten, geschieht dies in SQL Server.
   
 Stellen Sie sicher, dass Sie über eine aktive/passive Konfiguration für SQL Clustering verfügen, die unterstützt wird. Teilen Sie den passiven Knoten nicht mit anderen SQL Instanzen.
   
@@ -221,13 +221,13 @@ Für Failoverclustering stehen Folgendes zur Auswahl:
   
 Zwei Knoten:
   
-- Microsoft SQL Server 2019 Standard (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
+- Microsoft SQL Server 2019 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 - Microsoft SQL Server 2017 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.
-- Microsoft SQL Server 2016 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.
+- Microsoft SQL Server 2016 Standard (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 
 16 Knoten:
   
-- Microsoft SQL Server 2019-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
+- Microsoft SQL Server 2019 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 - Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 - Microsoft SQL Server 2016-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 
@@ -300,19 +300,19 @@ Unterstützte Topologien in Skype for Business Server 2019 sind:
     
 - Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit Skype for Business Online und Azure Active Directory Verbinden
     
-Es gibt Diagramme und Beschreibungen, mit denen Sie ermitteln können, welche Topologie Sie in Ihrer Umgebung haben oder was Sie vor der Installation von Skype for Business Server 2019 einrichten müssen. Um dies einfach zu halten, schließen wir auch einen Schlüssel ein:
+Wir haben Diagramme und Beschreibungen, die Ihnen helfen, zu bestimmen, welche Topologie Sie in Ihrer Umgebung haben oder was Sie vor der Installation von Skype for Business Server 2019 einrichten müssen. Um dies einfach zu halten, schließen wir auch einen Schlüssel ein:
   
 ![Dies ist ein Schlüssel für die Symbole, die für Skype for Business Topologiediagramme verwendet werden.](../../SfbServer/media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
 #### <a name="single-forest-with-single-domain"></a>Einzelne Gesamtstruktur mit einzelner Domäne
 
-![Diagramm der Active Directory-Gesamtstruktur mit einer einzigen Domäne](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagramm der Active Directory-Gesamtstruktur mit einer einzelnen Domäne.](../../SfbServer/media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 Es wird nicht einfacher als dies; Es handelt sich um eine einzelne Domänengesamtstruktur, eine allgemeine Topologie.
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>Einzelne Gesamtstruktur mit einer Struktur und mehreren Domänen
 
-![Diagramm einer einzelnen Gesamtstruktur, einer einzelnen Struktur und einer Stummschaltung von Domänen](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![Eine einzelne Gesamtstruktur, eine einzelne Struktur und ein Stummschaltungsdomänendiagramm.](../../SfbServer/media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
 Dieses Diagramm zeigt erneut eine einzelne Gesamtstruktur, hat aber auch eine oder mehrere untergeordnete Domänen (in diesem spezifischen Beispiel gibt es drei). Die Domäne, in der die Benutzer erstellt werden, unterscheidet sich möglicherweise von der Domäne Skype for Business Server 2019 bereitgestellt wird. Warum machen Sie sich Gedanken darüber? Beachten Sie, dass sich bei der Bereitstellung eines Skype for Business Server Front-End-Pools alle Server in diesem Pool in einer einzigen Domäne befinden müssen. Sie können domänenübergreifende Verwaltung über Skype for Business Server Unterstützung von Windows universellen Administratorgruppen haben.
   
@@ -320,7 +320,7 @@ Im obigen Diagramm sehen Sie, dass Benutzer aus einer Domäne auf Skype for Busi
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>Einzelne Gesamtstruktur mit mehreren Strukturen und nicht zusammenhängenden Namespaces
 
-![Eine einzelne Gesamtstruktur, mehrere Strukturen und ein nicht zusammenhängendes Namespacediagramm](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![Eine einzelne Gesamtstruktur, mehrere Strukturen und ein nicht zusammenhängendes Namespacediagramm.](../../SfbServer/media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 Möglicherweise haben Sie eine Topologie ähnlich wie in diesem Diagramm, in der Sie über eine Gesamtstruktur verfügen, innerhalb dieser Gesamtstruktur befinden sich jedoch mehrere Domänen mit separaten AD-Namespaces. In diesem Fall ist dieses Diagramm eine gute Abbildung, da es Benutzer in drei verschiedenen Domänen enthält, die auf Skype for Business Server 2019 zugreifen. Durchgezogene Linien deuten darauf hin, dass sie auf einen Skype for Business Server Pool in ihrer eigenen Domäne zugreifen, während eine gestrichelte Linie angibt, dass sie zu einem Pool in einer anderen Struktur wechseln.
   
@@ -328,31 +328,31 @@ Wie Sie sehen können, können Benutzer in derselben Domäne, derselben Struktur
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>Mehrere Gesamtstrukturen in einer Topologie mit zentraler Gesamtstruktur
 
-![Mehrere Gesamtstrukturen in einem Topologiediagramm der zentralen Gesamtstruktur](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Mehrere Gesamtstrukturen in einem Topologiediagramm der zentralen Gesamtstruktur.](../../SfbServer/media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2019 unterstützt mehrere Gesamtstrukturen, die in einer zentralen Gesamtstrukturtopologie konfiguriert sind. Wenn Sie nicht sicher sind, was Sie haben, verwendet die zentrale Gesamtstruktur in der Topologie Objekte darin, um Benutzer in den anderen Gesamtstrukturen darzustellen, und hostet Benutzerkonten für alle Benutzer in der Gesamtstruktur.
   
 Wie funktioniert dies? Ein Verzeichnissynchronisierungsprodukt (z. B. Forefront Identity Manager oder FIM) verwaltet die Benutzerkonten Ihrer Organisation während ihres bestehens. Wenn ein Konto erstellt oder aus einer Gesamtstruktur gelöscht wird, wird diese Änderung mit dem entsprechenden Kontakt in der zentralen Gesamtstruktur synchronisiert.
   
-Wenn Ihre AD-Infrastruktur eingerichtet ist, ist der Umstieg auf diese Topologie möglicherweise nicht einfach, aber wenn Sie bereits dort sind oder Ihre Gesamtstrukturinfrastruktur planen, kann dies eine gute Wahl sein. Sie können ihre Skype for Business Server 2019-Bereitstellung in einer einzigen Gesamtstruktur zentralisieren, während Benutzer die Anwesenheit anderer Benutzer in einer beliebigen Gesamtstruktur suchen, kommunizieren und anzeigen können. Alle Benutzerkontaktupdates werden automatisch mit Synchronisierungssoftware behandelt.
+Wenn Ihre AD-Infrastruktur eingerichtet ist, ist der Umstieg auf diese Topologie möglicherweise nicht einfach, aber wenn Sie bereits dort sind oder Ihre Gesamtstrukturinfrastruktur planen, kann dies eine gute Wahl sein. Sie können Ihre Skype for Business Server 2019-Bereitstellung in einer einzigen Gesamtstruktur zentralisieren, während Benutzer das Vorhandensein anderer Benutzer in einer beliebigen Gesamtstruktur suchen, kommunizieren und anzeigen können. Alle Benutzerkontaktupdates werden automatisch mit Synchronisierungssoftware behandelt.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Mehrere Gesamtstrukturen in einer Skype for Business Ressourcengesamtstrukturtopologie
 <a name="BKMK_multipleforestopology"> </a>
 
-![Mehrere Gesamtstrukturen in einem Topologiediagramm der Ressourcengesamtstruktur](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Mehrere Gesamtstrukturen in einem Topologiediagramm der Ressourcengesamtstruktur.](../../SfbServer/media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 Eine Topologie der Ressourcengesamtstruktur wird ebenfalls unterstützt. Hier ist eine Gesamtstruktur für die Ausführung Ihrer Serveranwendungen vorgesehen, z. B. Microsoft Exchange Server und Skype for Business Server 2019. Diese Ressourcengesamtstrukturen hosten auch eine synchronisierte Darstellung aktiver Benutzerobjekte, jedoch keine angemeldeten Benutzerkonten. Die Ressourcengesamtstruktur ist also eine freigegebene Dienstumgebung für andere Gesamtstrukturen, in denen sich Benutzerobjekte befinden, und sie haben eine Vertrauensstellung auf Gesamtstrukturebene mit der Ressourcengesamtstruktur.
   
 Beachten Sie, dass Exchange Server in derselben Ressourcengesamtstruktur wie Skype for Business Server oder in einer anderen Gesamtstruktur bereitgestellt werden können.
   
-Um Skype for Business Server 2019 in dieser Art von Topologie bereitzustellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen (wenn sich Microsoft Exchange Server bereits in der Umgebung befindet, ist dies möglicherweise für Sie der Fall). Anschließend benötigen Sie ein Verzeichnissynchronisierungstool (z. B. Forefront Identity Manager oder FIM), um Benutzerkonten während ihres Lebenszyklus zu verwalten.
+Um Skype for Business Server 2019 in dieser Topologie bereitzustellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen (wenn sich Microsoft Exchange Server bereits in der Umgebung befindet, ist dies möglicherweise für Sie der Fall). Anschließend benötigen Sie ein Verzeichnissynchronisierungstool (z. B. Forefront Identity Manager oder FIM), um Benutzerkonten während ihres Lebenszyklus zu verwalten.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Mehrere Gesamtstrukturen in einer Skype for Business Ressourcengesamtstrukturtopologie mit Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
 Diese Topologie ähnelt der Topologie, die in [mehreren Gesamtstrukturen in einer Skype for Business Topologie der Ressourcengesamtstruktur](system-requirements.md#BKMK_multipleforestopology)beschrieben ist.
   
-In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skype for Business Server wird in einer dedizierten Ressourcengesamtstruktur bereitgestellt. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder einer anderen Gesamtstruktur bereitgestellt und für eine Hybridbereitstellung mit Exchange Online konfiguriert werden, oder E-Mail-Dienste können ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden. Für diese Topologie ist kein Diagramm verfügbar.
+In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skype for Business Server in einer dedizierten Ressourcengesamtstruktur bereitgestellt wird. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder einer anderen Gesamtstruktur bereitgestellt und für Hybridbereitstellungen mit Exchange Online konfiguriert werden, oder E-Mail-Dienste können ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden. Für diese Topologie ist kein Diagramm verfügbar.
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit Skype for Business Online und Azure Active Directory Verbinden
 <a name="BKMK_multipleforestopology"> </a>
@@ -365,7 +365,7 @@ In diesem Szenario gibt es mehrere lokale Gesamtstrukturen mit einer Ressourceng
   
 Die Single Sign-On-Authentifizierung wird von einer Active Directory-Verbunddienste-Farm in der Benutzergesamtstruktur bereitgestellt.
   
-In diesem Szenario wird die Bereitstellung Exchange lokalen, Exchange Online, einer hybriden Exchange-Lösung oder die Bereitstellung Exchange unterstützt. (Das Diagramm zeigt nur Exchange lokalen, aber die anderen Exchange Lösungen werden ebenfalls vollständig unterstützt.)
+In diesem Szenario wird die Bereitstellung Exchange lokalen Exchange Online, einer Hybridlösung Exchange oder die Bereitstellung Exchange unterstützt. (Das Diagramm zeigt nur Exchange lokal, aber die anderen Exchange Lösungen werden ebenfalls vollständig unterstützt.)
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit hybrider Skype for Business
 <a name="BKMK_multipleforestopology"> </a>
@@ -381,13 +381,13 @@ Skype for Business Server 2019 erfordert DNS aus den folgenden Gründen:
   
 - DNS ermöglicht es Skype for Business Server 2019, interne Server oder Pools zu ermitteln, sodass eine Server-zu-Server-Kommunikation möglich ist.
     
-- DNS ermöglicht Clientcomputern das Ermitteln des Front-End-Pools oder Standard Edition Servers, der für SIP-Transaktionen verwendet wird.
+- MIT DNS können Clientcomputer den Front-End-Pool oder Standard Edition Server ermitteln, der für SIP-Transaktionen verwendet wird.
     
 - Einfache URLs für Konferenzen werden den Servern zugeordnet, auf denen diese Konferenzen gehostet werden.
     
 - DNS ermöglicht externen Benutzern und Clientcomputern die Verbindung mit Ihren Edgeservern oder dem HTTP-Reverseproxy für Chatnachrichten oder Konferenzen.
     
-- UC-Geräte (Unified Communications), die nicht angemeldet sind, können den Front-End-Pool oder Standard Edition Server ermitteln, auf dem der Geräteaktualisierungswebdienst ausgeführt wird, um Updates abzurufen und Protokolle zu senden.
+- Damit können Unified Communications(UC)-Geräte, die nicht angemeldet sind, den Front-End-Pool oder Standard Edition Server ermitteln, auf dem der Geräteaktualisierungswebdienst ausgeführt wird, um Updates abzurufen und Protokolle zu senden.
     
 - Mithilfe von DNS können mobile Clients Webdienstressourcen automatisch ermitteln, ohne dass Benutzer manuell URLs in ihre Geräteeinstellungen eingeben müssen.
     
@@ -399,16 +399,16 @@ Und es ist äußerst wichtig zu beachten, dass jeder Name im DNS mit dem Compute
   
 Dies scheint für jeden Computer logisch zu sein, der bereits einer Domäne beigetreten ist, aber wenn Sie über einen Edgeserver verfügen, der nicht mit Ihrer Domäne verbunden ist, hat er möglicherweise einen Kurznamen ohne Domänensuffix. Stellen Sie sicher, dass dies nicht der Fall ist, entweder im DNS oder auf dem Edgeserver oder einem Skype for Business Server 2019-Server oder -Pool.
   
-Verwenden Sie auf jeden Fall keine Unicode-Zeichen oder Unterstriche. Standardzeichen (A-Z, a-z, 0-9 und Bindestriche) werden von externen DNS- und öffentlichen Zertifizierungsstellen unterstützt (Sie müssen dem SN im Zertifikat FQDNs zuweisen, daran ist es wichtig zu denken), sodass Sie sich von Anfang an viele Probleme ersparen, wenn Sie diesen Namen berücksichtigen.
+Verwenden Sie auf jeden Fall keine Unicode-Zeichen oder Unterstriche. Standardzeichen (A-Z, a-z, 0-9 und Bindestriche) werden von externen DNS- und öffentlichen Zertifizierungsstellen unterstützt (Sie müssen dem SN im Zertifikat FQDNs zuweisen, daran ist es wichtig zu denken), sodass Sie sich viel Probleme ersparen, wenn Sie dies von Anfang an benennen.
   
 Weitere Informationen zu DNS-Anforderungen für Netzwerke finden Sie im Abschnitt ["Networking"](../../SfbServer/plan-your-deployment/network-requirements/network-requirements.md) in unserer Planungsdokumentation.
   
 ## <a name="certificates"></a>Zertifikate
 <a name="Certs"> </a>
 
-Eines der wichtigsten Dinge, die Sie vor der Bereitstellung tun können, ist sicherzustellen, dass Ihre Zertifikate in ordnung sind. Skype for Business Server 2019 benötigt eine Public Key-Infrastruktur (PKI) für TLS-Verbindungen (Transport Layer Security) und MTLS-Verbindungen (Mutual Transport Layer Security). Um auf standardisierte Weise sicher zu kommunizieren, verwendet Skype for Business Server Zertifikate, die von Zertifizierungsstellen (Certificate Authorities, CAs) ausgestellt wurden.
+Eines der wichtigsten Dinge, die Sie vor der Bereitstellung tun können, ist sicherzustellen, dass Ihre Zertifikate in ordnung sind. Skype for Business Server 2019 benötigt eine Public Key-Infrastruktur (PKI) für TLS-Verbindungen (Transport Layer Security) und MTLS-Verbindungen (Mutual Transport Layer Security). Um auf standardisierte Weise sicher zu kommunizieren, verwendet Skype for Business Server Zertifikate, die von Zertifizierungsstellen ausgestellt wurden.
   
-Dies sind einige der Dinge, für die Skype for Business Server 2019 Zertifikate verwendet:
+Dies sind einige der Elemente, für die Skype for Business Server 2019 Zertifikate verwendet:
   
 - TLS-Verbindungen zwischen Clients und Servern
     
@@ -428,7 +428,7 @@ Die Zertifikatplanung ist daher ein Muss. Sehen wir uns nun eine Liste einiger D
     
 - Alle Serverzertifikate müssen einen Zertifikatsperrlisten-Verteilungspunkt unterstützen.
     
-- Alle Zertifikate müssen mithilfe eines Signaturalgorithmus signiert werden, der vom Betriebssystem unterstützt wird. Skype for Business Server 2019 unterstützt die SHA-1- und SHA-2-Suite von Digestgrößen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen.
+- Alle Zertifikate müssen mithilfe eines Signaturalgorithmus signiert werden, der vom Betriebssystem unterstützt wird. Skype for Business Server 2019 unterstützt die SUITE SHA-1 und SHA-2 der Digestgrößen (224, 256, 384 und 512 Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen.
     
 - Die automatische Registrierung wird für interne Server unterstützt, die Skype for Business Server 2019 ausgeführt werden.
     
@@ -515,9 +515,9 @@ Sie benötigen SAN-Namen für die automatische Ermittlung für die folgenden Zer
     
 Die Einzelheiten sind in den folgenden Tabellen aufgeführt.
   
-Hier ist eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2019 bereitgestellt, ohne Die Mobilität bereitzustellen, und dies tritt später auf, wenn Sie bereits Zertifikate in Ihrer Umgebung haben. Die erneute Bereitstellung über eine interne Zertifizierungsstelle ist in der Regel ziemlich einfach, aber mit öffentlichen Zertifikaten von einer öffentlichen Zertifizierungsstelle kann dies etwas pricyer sein.
+Hier ist eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2019 bereitgestellt, ohne Mobilität bereitzustellen, und dies kommt später, wenn Sie bereits Zertifikate in Ihrer Umgebung haben. Die erneute Bereitstellung über eine interne Zertifizierungsstelle ist in der Regel ziemlich einfach, aber mit öffentlichen Zertifikaten von einer öffentlichen Zertifizierungsstelle kann dies etwas pricyer sein.
   
-Wenn Sie sich dies ansehen und viele SIP-Domänen haben (was das Hinzufügen von SANS verteuern würde), können Sie Ihren Reverseproxy so konfigurieren, dass er HTTP für die ursprüngliche AutoErmittlungsdienstanforderung verwendet, anstatt HTTPS (die Standardkonfiguration) zu verwenden. Der Artikel ["Plan for Mobility"](../../SfbServer/plan-your-deployment/mobility.md) enthält weitere Informationen dazu.
+Wenn Sie sich dies ansehen und viele SIP-Domänen haben (was das Hinzufügen von SANS teurer machen würde), können Sie Ihren Reverseproxy so konfigurieren, dass er HTTP für die ursprüngliche AutoErmittlungsdienstanforderung verwendet, anstatt HTTPS (die Standardkonfiguration) zu verwenden. Der Artikel ["Plan for Mobility"](../../SfbServer/plan-your-deployment/mobility.md) enthält weitere Informationen dazu.
   
 Zertifikatanforderungen für Directorpool und Front-End-Pool:
   
@@ -542,7 +542,7 @@ Dieser SAN muss dem Zertifikat zugewiesen werden, das dem SSL-Listener auf Ihrem
 ## <a name="file-share"></a>Dateifreigabe
 <a name="Fileshare"> </a>
 
-Skype for Business Server 2019 kann dieselbe Dateifreigabe für den gesamten Dateispeicher verwenden. Beachten Sie Dabei Folgendes:
+Skype for Business Server 2019 kann die gleiche Dateifreigabe für den gesamten Dateispeicher verwenden. Beachten Sie Dabei Folgendes:
   
 - Eine Dateifreigabe muss sich entweder auf direct Attached Storage (DAS) oder einem Speicherbereichsnetzwerk (SAN) befinden. Dazu gehören das dfs (Distributed File System) und ein redundantes Array unabhängiger Datenträger (RAID) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))
     

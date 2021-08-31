@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Administratoren können die Art von Audiokonferenzen und PSTN-Anrufen für Endbenutzer steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: 9e7f656cd51131237507cc184e021128a33d9268
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe63a29bf4cde46ee881d7a425839073ed4b4b7f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598409"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730324"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -42,14 +42,14 @@ Steuerelemente für ausgehende Anrufe können pro Benutzer oder auf Mandantenbas
 Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, lesen Sie Länder- und [Regionszonen für Audiokonferenzen.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung eingerichtet wurde (im Fall von Audiokonferenzen) oder für den Endbenutzer (im Fall von PSTN-Anrufen durch Endbenutzer).
+   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung (bei Audiokonferenzen) oder für den Endbenutzer (bei PstN-Anrufen des Endbenutzers) eingerichtet wurde.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Einschränken ausgehender Anrufe bei Audiokonferenzen
 
-![Das ](media/teams-logo-30x30.png) **Microsoft Teams-Logo Verwenden des Microsoft Teams Admin Centers**
+![das Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie dann den Anzeigenamen des Benutzers aus der Liste der verfügbaren Benutzer aus.
 
@@ -59,15 +59,15 @@ Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, le
 
 5. Klicken Sie auf **Speichern**.
 
-![Ein Symbol mit dem Skype for Business-Logo](media/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](media/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
 
-1. Wechseln Sie **im Skype for Business Admin Center** in der linken Navigationsleiste zu Benutzer für **Audiokonferenzen,** und wählen Sie den Benutzer aus der Liste der  >  verfügbaren Benutzer aus.
+1. Wechseln Sie **Skype for Business Admin Center** in der linken Navigationsleiste zu Audio **conferencing** Users , und wählen Sie dann den Benutzer aus der Liste  >  der verfügbaren Benutzer aus.
 
 2. Wählen Sie im Aktionsbereich Bearbeiten **aus.**
 
 3.  Wählen **Sie unter Einschränkungen für Das Auswählen** aus Besprechungen dieses Benutzers die option zum Einwahleinschränkungsoption aus.
 
-      ![Einschränkungen für Auswahloptionen](media/restrictions-to-dial-outs.png)
+      ![Die Einschränkungen für Auswahloptionen.](media/restrictions-to-dial-outs.png)
 
 4. Klicken Sie auf **Speichern**.
 
@@ -78,7 +78,7 @@ Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, le
 
 Einschränkungen für ausgehende Anrufe werden durch eine einzelne Richtlinie mit dem Namen OnlineDialOutPolicy gesteuert, die jeweils über ein Einschränkungsattribut verfügt. Die Richtlinie kann nicht angepasst werden, sondern es gibt vordefinierte Richtlinieninstanzen für jede Kombination der Einstellungen.
 
-Sie können das cmdlet Get-CSOnlineDialOutPolicy, um die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
+Mit dem cmdlet Get-CSOnlineDialOutPolicy ausgehende Anrufe können Sie die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
 
 **Legen Sie die Richtlinie auf Benutzerebene mit dem folgenden Cmdlet festgelegt.** (Das Cmdlet "Grant" enthält nicht wie das Cmdlet "Get" das Wort "Online".)
 

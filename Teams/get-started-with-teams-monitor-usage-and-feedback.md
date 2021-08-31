@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f314d7d9a1a53e47e4e2c9bed02626f229f3f2c9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2def0aef8c7cd90319549b82ef591c42ecf09dbc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580139"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732004"
 ---
 # <a name="monitor-usage-and-feedback-in-microsoft-teams"></a>Überwachen von Nutzung und Feedback in Microsoft Teams
 Es ist wichtig zu wissen, wie Benutzer Microsoft Teams verwenden und welche Erfahrungen sie dabei machen. Mithilfe von Nutzungsberichten können Sie Nutzungsmuster besser verstehen. In Kombination mit Feedback von Benutzern gelangen Sie so zu Einsichten, die Sie Ihrer weiteren Bereitstellung zugrunde legen und zur Priorisierung von Schulungs- und Kommunikationsinitiativen verwenden können.
@@ -43,14 +43,14 @@ Um diese Berichte anzuzeigen, müssen Sie ein globaler Administrator in Microsof
 
 - **Teams usage report** (Teams-Nutzungsbericht): Dieser Bericht gibt Ihnen eine Übersicht zu den Nutzungsaktivitäten in Teams, einschließlich der Gesamtzahl der aktiven Benutzer und Kanäle und der Anzahl der aktiven Benutzer und Kanäle, Gäste und Nachrichten in den einzelnen Teams. 
 
-    ![Screenshot eines Teams-Verwendungsberichts](media/teams-reports-teams-usage.png "Screenshot des Teams-Nutzungsberichts im Microsoft Teams Admin Center")     
+    ![Screenshot eines Teams-Verwendungsberichts.](media/teams-reports-teams-usage.png "Screenshot des Teams-Nutzungsberichts im Microsoft Teams Admin Center")     
 - **Teams user activity report** (Teams-Bericht über Benutzeraktivität): Mit diesem Bericht erhalten Sie Einblick in die Aktivitätsarten, an denen sich Benutzer beteiligen, etwa, wie viele Personen in Form von 1:1-Anrufen, Nachrichten in Kanälen und privaten Chatnachrichten kommunizieren. 
 
-    ![Screenshot eines Teams-Benutzeraktivitätsberichts](media/teams-reports-user-activity.png "Screenshot des Teams-Berichts zur Benutzeraktivität im Microsoft Teams Admin Center") 
+    ![Screenshot eines Teams-Benutzeraktivitätsberichts.](media/teams-reports-user-activity.png "Screenshot des Teams-Berichts zur Benutzeraktivität im Microsoft Teams Admin Center") 
 `
 - **Teams device usage report** (Teams-Bericht zur Gerätenutzung): Dieser Bericht zeigt, wie Benutzer Verbindungen mit Microsoft Teams herstellen, einschließlich der Anzahl der Personen, die Teams unterwegs auf ihren mobilen Geräten verwenden. 
 
-    ![Screenshot eines Teams-Gerätenutzungsberichts](media/teams-reports-device-usage.png "Screenshot des Teams-Berichts zur Gerätenutzung im Microsoft Teams Admin Center")
+    ![Screenshot eines Teams-Gerätenutzungsberichts.](media/teams-reports-device-usage.png "Screenshot des Teams-Berichts zur Gerätenutzung im Microsoft Teams Admin Center")
 
 Weitere Informationen finden Sie unter [Teams-Analysen und -Berichte](teams-analytics-and-reports/teams-reporting-reference.md). 
 

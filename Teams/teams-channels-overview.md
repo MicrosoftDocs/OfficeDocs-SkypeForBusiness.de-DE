@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b760d5fad3a694fd0dd41c34116d09297d25dd22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579579"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731944"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -92,7 +92,7 @@ Die folgenden Funktionsbeispiele zeigen, wie verschiedene Benutzertypen ihre Tea
 
 Teams ist gut dafür geeignet, organisatorische Silos aufzubrechen und funktionsübergreifende Teams zu fördern. Ermutigen Sie also die Benutzer, die organisatorischen Grenzen zu überwinden und eher in funktionalen Teams zu denken.
 
-|Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten ![Ein Symbol eines Ordners mit einer Registerkarte](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Ein Symbol für Verbindungsblöcke](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ein Symbol mit einem kleinen Robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
+|Teamtypen  |Mögliche Kanäle  |Apps (Registerkarten ![Ein Symbol, das einen Ordner mit einer Registerkarte darstellt.](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image2.png)/Connectors ![Ein Symbol für Verbindungsblöcke](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image3.png)/Bots ![Ein Symbol mit einem kleinen Robot](media/Overview_of_teams_and_channels_in_Microsoft_Teams_image4.png))  |
 |---------|---------|---------|
 |Vertrieb     |Jährliche Vertriebsbesprechung<br></br> Vierteljährlicher Geschäftsbericht<br></br> Monatlicher Vertriebspipelinebericht<br></br> Vertriebsleitfaden |Power BI<br></br>Trello<br></br>CRM<br></br>Zusammenfassungsbot         |
 |Öffentlichkeitsarbeit     |Pressemitteilungen<br></br>Neuigkeiten und Updates<br></br>Überprüfung der Fakten         |RSS-Feed<br></br>Twitter         |

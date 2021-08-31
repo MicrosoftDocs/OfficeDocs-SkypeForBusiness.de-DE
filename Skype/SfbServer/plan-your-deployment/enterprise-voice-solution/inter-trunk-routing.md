@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f687a548-1f2e-48ed-9745-a13dc1f3698f
 description: Erfahren Sie, wie Skype for Business Server Enterprise-VoIP das Routing zwischen Trunks unterstützt.
-ms.openlocfilehash: e7b70ead822f9e80abf5a85a741492ec5608e8b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a44f9e269985312e31d827254dd7bbfae10bcfd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593579"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731814"
 ---
 # <a name="about-inter-trunk-routing-in-skype-for-business-server"></a>Informationen zum Routing zwischen Trunks in Skype for Business Server
  
@@ -31,10 +31,10 @@ Skype for Business Server bietet eine grundlegende Sitzungsverwaltung durch die 
   
 In der folgenden Abbildung wird veranschaulicht, Skype for Business Server die Verbindungskonnektivität zwischen einem PSTN-Gateway und einer IP-Nebenstellenanlage ermöglicht.
   
-![Lync Server- Verbindungsdiagramm für PSTN-Gateway/IP-NEBENSTELLENANLAGE](../../media/inter_trunk01.jpg)
+![Lync Server verbindet PSTN-Gateway/IP-NEBENSTELLENANLAGE-Diagramm.](../../media/inter_trunk01.jpg)
   
 In der nächsten Abbildung wird veranschaulicht, Skype for Business Server zwei IP-Nebenstellenanlagen verbunden werden.
   
-![Lync Server- Verbindungsdiagramm für IP-PAX-Systeme](../../media/inter_trunk02.jpg)
+![Lync Server- Verbindungsdiagramm für IP-PAX-Systeme.](../../media/inter_trunk02.jpg)
   
 

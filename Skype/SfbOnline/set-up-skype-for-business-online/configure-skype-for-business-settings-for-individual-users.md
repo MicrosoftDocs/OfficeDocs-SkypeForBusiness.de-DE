@@ -23,19 +23,19 @@ ms.custom:
 - ms.lync.lac.UsersGeneralOptions
 - ms.lync.lac.UsersLyncToPhoneMoreInfo
 description: 'Erfahren Sie, wie Skype for Business Einstellungen für einzelne Benutzer ändern können, z. B.: Audio- und Videokonferenzen, Aufzeichnen von Anrufen und Besprechungen. '
-ms.openlocfilehash: 89fce818a73455aeca9a9ba668554d59daf85248
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e96e33f5a83030f187c6e6c3caaee197c2d81a2f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579399"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58731824"
 ---
 # <a name="admins-configure-skype-for-business-settings-for-individual-users"></a>Administratoren: Skype for Business-Einstellungen für einzelne Benutzer konfigurieren
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Das Microsoft Teams Admin Center wurde durch Skype for Business Admin Center (Legacy-Portal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Administrator oder Skype for Business zugewiesen sein, damit Skype for Business Features im Teams Admin Center verwalten können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Das Microsoft Teams Admin Center wurde durch Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Administrator oder Skype for Business zugewiesen sein, damit Skype for Business Features im Teams Admin Center verwalten können. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 In diesem Artikel wird erläutert, wie Administratoren Skype for Business für eine kleine Anzahl von Benutzern einrichten. Um diese Schritte in Massen zu unternehmen, haben wir Links zu den cmdlets Windows PowerShell, die Sie verwenden können, aufgenommen.
   
@@ -50,7 +50,7 @@ Informationen darüber, wie Sie zulassen (bzw. blockieren), dass alle Personen i
 
 Sie müssen über [Administratorberechtigungen verfügen,](https://support.office.com/article/da585eea-f576-4f55-a1e0-87090b6aaa9d) um diese Schritte ausführen zu können.
 
-![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
   
 1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
@@ -74,14 +74,14 @@ Sie müssen über [Administratorberechtigungen verfügen,](https://support.offic
 |Unterhaltungen und Besprechungen aufzeichnen  <br/> |Wählen Sie aus, was diese Person aufzeichnen darf.  <br/> Diese Option ist in Skype for Business Basic nicht verfügbar.  <br/> |
 |Nicht archivierte Funktionen aus Konformitätsgründen deaktivieren  <br/> | Wählen Sie diese Option aus, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind. <br/>  Wenn Sie diese Option auswählen, werden Features deaktiviert, die nicht erfasst werden, wenn Sie im Exchange Admin Center einen [In-Exchange](/exchange/security-and-compliance/in-place-and-litigation-holds) eingerichtet haben. Die folgenden Features werden deaktiviert: <br/>  Dateiübertragung mittels Chat <br/>  Freigegebene OneNote-Seiten <br/>  PowerPoint-Anmerkungen <br/> |
    
-Wenn Sie diese Einstellungen als Massen konfigurieren möchten, verwenden Sie PowerShell. Weitere [Informationen finden Sie unter Einrichten des Computers Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Wenn Sie diese Einstellungen als Massen konfigurieren möchten, verwenden Sie PowerShell. Weitere [Informationen finden Sie unter Einrichten des Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="block-external-communications"></a>Sperren der externen Kommunikation
 <a name="__toc325019206"> </a>
 
 Nachdem Sie die [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzufügen](let-skype-for-business-users-add-skype-contacts.md) für alle Benutzer in Ihrem Unternehmen aktiviert haben, können Sie unter Ausführung der folgenden Schritte einzelne externe Kommunikationen für bestimmte Benutzer sperren.
   
-1. Wählen **Sie Benutzer** aus, wählen Sie die Benutzer aus, deren Einstellungen Sie deaktivieren möchten, und wählen Sie dann Bearbeiten **Bearbeiten** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) aus.
+1. Wählen **Sie Benutzer** aus, wählen Sie die Benutzer aus, deren Einstellungen Sie deaktivieren möchten, und wählen Sie dann **Bearbeiten** ![ Bearbeiten aus. ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)
     
 2. Wählen Sie **Externe Kommunikation** aus, und deaktivieren Sie dann die Optionen Ihren Anforderungen entsprechend:
     
@@ -91,23 +91,23 @@ Nachdem Sie die [Zulassen, dass Skype for Business-Benutzer Skype-Kontakte hinzu
     
 3. Klicken Sie auf **Speichern**.
     
-Wenn Sie diese Einstellungen als Massen konfigurieren möchten, verwenden Sie PowerShell. Weitere [Informationen finden Sie unter Einrichten des Computers Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Wenn Sie diese Einstellungen als Massen konfigurieren möchten, verwenden Sie PowerShell. Weitere [Informationen finden Sie unter Einrichten des Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
   
 ## <a name="edit-audio-conferencing-settings-for-one-user"></a>Bearbeiten der Audiokonferenzeinstellungen für einen Benutzer
 <a name="__toc314837483"> </a>
 
-1. Wählen **Sie Benutzer** aus, wählen Sie den Benutzer aus, dessen Audiokonferenzeinstellungen Sie bearbeiten möchten, und wählen Sie dann Bearbeiten **bearbeiten** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png) aus.
+1. Wählen **Sie Benutzer** aus, wählen Sie den Benutzer aus, dessen Audiokonferenzeinstellungen Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten.** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)
     
 2. Wählen **Sie Audiokonferenzen aus,** wählen Sie Ihren Audiokonferenzanbieter aus, geben Sie die angeforderten Informationen ein, oder ändern Sie sie, und klicken Sie dann auf **Speichern.**
     
 |**Audiokonferenzeinstellung**|**Beschreibung**|
 |:-----|:-----|
 |**Anbietername** <br/> |Wählen Sie Ihren Anbieter aus der Liste aus.  <br/> |
-|**Gebührenpflichtige Nummer** (erforderlich) <br/> |Bei einem Drittanbieter-ACP handelt es sich bei diesen Telefonnummern um die Telefonnummern, die Sie vom Audiokonferenzanbieter erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen Skype for Business und Microsoft Teams werden sollen.  <br/> |
-|**Gebührenfreien Nummer** <br/> |Bei einem Drittanbieter-ACP handelt es sich bei diesen Telefonnummern um die Telefonnummern, die Sie vom Audiokonferenzanbieter erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen Skype for Business und Microsoft Teams werden sollen.  <br/> |
+|**Gebührenpflichtige Nummer** (erforderlich) <br/> |Bei einem Drittanbieter-ACP handelt es sich bei diesen Telefonnummern um die Telefonnummern, die Sie vom Audiokonferenzanbieter erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen Skype for Business und Microsoft Teams sollen.  <br/> |
+|**Gebührenfreien Nummer** <br/> |Bei einem Drittanbieter-ACP handelt es sich bei diesen Telefonnummern um die Telefonnummern, die Sie vom Audiokonferenzanbieter erhalten haben. Wenn der Benutzer Microsoft als Anbieter von Audiokonferenzen verwendet, sind dies die Nummern, die für die Audiokonferenz-Brücke festgelegt werden. Formatieren Sie die Nummern so, wie sie in Besprechungsanfragen Skype for Business und Microsoft Teams sollen.  <br/> |
 |**Konferenz-ID und PIN** (erforderlich) <br/> |Die Teilnehmer-PIN oder der Konferenzcode, die für die Teilnahme an Besprechungen verwendet wird, die von diesem Benutzer geplant und von einem Drittanbieter für Audiokonferenzen bereitgestellt werden. Wenn der Benutzer Microsoft als Audiokonferenzanbieter verwendet, ist dies nicht erforderlich.  <br/> |
    
-Wenn Sie diese Einstellungen als Massen konfigurieren möchten, verwenden Sie PowerShell. Weitere Informationen finden Sie unter Festlegen [der in Einladungen enthaltenen Telefonnummern](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) Einrichten Ihres [Computers Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+Wenn Sie diese Einstellungen als Massen konfigurieren möchten, verwenden Sie PowerShell. Siehe [Festlegen der in Einladungen](../audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites.md) enthaltenen Telefonnummern Einrichten Ihres Computers für [Windows PowerShell](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md).
 
 
 [!INCLUDE [LinkedIn Learning Info](../../common/office/linkedin-learning-info.md)]

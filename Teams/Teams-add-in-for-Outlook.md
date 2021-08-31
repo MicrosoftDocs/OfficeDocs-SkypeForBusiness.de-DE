@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bb1898d5c172c6f0ebc4f56cf9059bbb5986077b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 493d31189c4136799075554343aaddd694922b30
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586751"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728224"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 
@@ -34,7 +34,7 @@ Mit dem Microsoft Teams-Besprechungs-Add-Ins können Benutzer eine Teambesprechu
 
 Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013, Office 2016 oder Office 2019 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
 
-![Screenshot des Microsoft Teams-Add-Ins auf dem Outlook-Menüband](media/Teams-add-in-for-Outlook.png)
+![Screenshot des Teams-Besprechungs-Add-Ins auf dem Outlook-Menüband.](media/Teams-add-in-for-Outlook.png)
 
 > [!NOTE]
 > - Es gibt **keine direkte URL**, die auf das Microsoft Teams-Add-In verweist.
@@ -53,7 +53,7 @@ Die Besprechungskoordinaten (der Link zum Beitreten zu einer Teams-Besprechung u
 
 Die Schaltfläche „Teams-Besprechungen“ in Outlook Web App wird als Teil der neuen Ereigniserstellung angezeigt, wenn der Benutzer eine frühe Version des neuen Outlook im Web verwendet. Informationen dazu, wie Benutzer die frühe Version des neuen Outlook im Web testen können, finden Sie im [Outlook-Blog](https://techcommunity.microsoft.com/t5/Outlook-Blog/Designed-to-be-fast-The-Outlook-on-the-web-user-experience-gets/ba-p/234909?utm_source=t.co&utm_medium=referral).
 
-![Screenshot des Microsoft Teams-Add-Ins in Outlook Web App](media/teams-meeting-add-in-web.png)
+![Screenshot des Teams-Besprechungs-Add-Ins in Outlook Web App.](media/teams-meeting-add-in-web.png)
 
 Die Besprechungskoordinaten (der Link zum Beitreten zur Teams-Besprechung und Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf **Senden** geklickt hat.  
 
@@ -61,7 +61,7 @@ Die Besprechungskoordinaten (der Link zum Beitreten zur Teams-Besprechung und Ei
 
 Die Schaltfläche „Teams-Besprechung“ wird in den neuesten Builds der Outlook-App für iOS-und Android angezeigt.
 
-![Screenshot des Microsoft Teams-Add-Ins in Outlook Mobile](media/teams-meeting-add-in-mobile.png)
+![Screenshot des Teams-Besprechungs-Add-Ins in Outlook Mobile.](media/teams-meeting-add-in-mobile.png)
 
 Die Besprechungskoordinaten (der Link zum Beitreten zur Teams-Besprechung und Einwahlnummern) werden der Besprechungseinladung hinzugefügt, nachdem der Benutzer auf **Senden** geklickt hat.  
 

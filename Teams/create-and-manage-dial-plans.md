@@ -21,12 +21,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Microsoft Teams Admin Center oder Windows PowerShell zum Erstellen und Verwalten von Wählplänen (Wählpläne für PSTN-Anrufe) verwenden.
-ms.openlocfilehash: e6cc5e751efa412c24eb13f182ab5967360c677e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ecabfb04d8919ac289067818e736e170e6d181
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628377"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728704"
 ---
 # <a name="create-and-manage-dial-plans"></a>Erstellen und Verwalten von Wählplänen
 
@@ -67,7 +67,7 @@ Sie weisen einen Wählplan auf die gleiche Weise wie Richtlinien zu. [!INCLUDE [
 ## <a name="using-powershell"></a>Verwendung von PowerShell
   
 ### <a name="start-powershell"></a>Starten von PowerShell
-- Öffnen Sie Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus:
+- Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus:
 
 ```powershell
   # When using Teams PowerShell Module

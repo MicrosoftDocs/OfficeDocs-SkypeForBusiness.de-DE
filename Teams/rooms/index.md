@@ -16,27 +16,27 @@ ms.collection:
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
 description: Erfahren Sie, wie Sie Microsoft Teams-Räume, einschließlich Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
-ms.openlocfilehash: e45ca5445356fcf6c847d8a7680a463a09bfe864
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95d2ef04e4021a91b6881d4ca7537aa4e756420
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607038"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730428"
 ---
 # <a name="microsoft-teams-rooms"></a>Microsoft Teams-Räume
 
 :::row:::
     :::column span="2":::
-       Verwandeln Sie Besprechungsräume – von kleinen, zusammengeknützten Bereichen bis hin zu großen Konferenzräumen – mit einem reichhaltigen, Teams-Erlebnis, das einfach zu verwenden, zu implementieren und zu verwalten ist.
+       Verwandeln Sie Besprechungsräume – von kleinen, zusammengeknützten Bereichen bis hin zu großen Konferenzräumen – mit einem reichhaltigen, Teams Zusammenarbeitserlebnis, das einfach zu verwenden, zu implementieren und zu verwalten ist.
 
        Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.
 
        Wählen Sie die richtige System- und Audio-Video-Peripheriegeräte von einem unserer Partner: Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
 
-       Wenn Sie eine kurze Einführung in Teams-Räume, klicken Sie rechts auf das Video.
+       Wenn Sie eine kurze Einführung in Teams-Räume, klicken Sie auf das Video auf der rechten Seite.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics -Video":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics -Video.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -45,7 +45,7 @@ ms.locfileid: "58607038"
 |  **[Plan](./rooms-plan.md)** |  **[Bereitstellen](./rooms-deploy.md)** |  **[Verwalten](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics -Video":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/Teams-Rooms-Microsoft-Mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics -Video.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
 > Microsoft Teams-Räume ist für die Verwendung mit Microsoft Teams, Skype for Business Online, Skype for Business Server 2019 oder Skype for Business Server 2015 vorgesehen.

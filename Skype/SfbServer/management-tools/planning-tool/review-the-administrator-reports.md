@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
 description: Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden basierend auf den in "Designwebsites" markierten Auswahlen generiert. Der für den Entwurf verantwortlicher Benutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.
-ms.openlocfilehash: 31639b124826368a1da11d359249bc6d08f64c8d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe2d14856a1d884dc04ff8cf2de4ebba41eb95eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591009"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58730394"
 ---
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Überprüfen der Administratorberichte in Skype for Business Server 2015
 
@@ -38,9 +38,9 @@ Das Feature "Administratorberichte" ermöglicht Folgendes:
 ## <a name="review-the-summary-report"></a>Überprüfen des Zusammenfassungsberichts
 <a name="Summary_report"> </a>
 
-Der Skype for Business Administratorbericht ist der erste von vier wertvollen Berichten, die Ihren Entwurf detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind für Ihre informationstechnologie Teams hilfreich:
+Der Skype for Business Administratorbericht ist der erste von vier wertvollen Berichten, die Ihr Design detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind für Ihre informationstechnologie Teams hilfreich:
 
-![Allgemeiner zusammenfassender Administratorbericht](../../media/General_Summary_Report_Admin_Report.png)
+![Allgemeiner zusammenfassender Administratorbericht.](../../media/General_Summary_Report_Admin_Report.png)
 
 Der Zusammenfassungsbericht enthält allgemeine Konfigurationsinformationen zu Ihrem Edgenetzwerk. Der Standort, vollqualifizierter Domänenname (Fully Qualified Domain Name, FQDN) und die IP-Adresse, der Netzwerktyp und kommentare, die für eine bestimmte Rolle spezifisch sind, werden dokumentiert.
 
@@ -59,7 +59,7 @@ Sie können auch detailliertere Berichte anzeigen:
 
 Der Zertifikatbericht enthält alle Zertifikate, die in der empfohlenen Skype for Business Server 2015-Bereitstellung erforderlich sind. Das Planungstool erfasst die eingegebenen Antragstellernamen und alternativen Antragstellernamen. Standardtext, der unbearbeitet bleibt, kann eine potenzielle Herausforderung für das Team darstellen, das für das Anfordern und Ausstellen der Zertifikate verantwortlich ist. In den Zertifikatinformationen ist zudem angegeben, von welcher Stelle das Zertifikat typischerweise ausgestellt werden kann. Wenn die Infrastruktur nicht über eine interne Public Key-Infrastruktur (PKI) verfügt, können sämtliche Zertifikate über einen öffentlichen Zertifikatanbieter angefordert werden. Die Felder "Erweiterte Schlüsselverwendungen" und "Zuweisen zu" des Berichts sind äußerst nützlich und liefern Informationen zum Zweck und Speicherort der einzelnen Zertifikate.
 
-![Zertifikatadministratorbericht](../../media/Certificates_Report_Admin_Report.png)
+![Zertifikat-Administratorbericht.](../../media/Certificates_Report_Admin_Report.png)
 
 Überprüfen Sie die Verwendung und den Zweck der einzelnen Zertifikate in der Bereitstellung sorgfältig, und achten Sie darauf, sie zu verstehen. Wenn eine Frage dazu vorliegt, was ein Zertifikat bewirkt, bestimmen Sie, mit welchem Server oder Dienst was geredet wird. Zertifikate in Skype for Business Server 2015 werden hauptsächlich für zwei Zwecke verwendet:
 
@@ -74,14 +74,14 @@ Skype for Business Server 2015 verfügt über einen potenziell komplexen Satz vo
 
 Aus Sicht der Firewallverwaltung sollte der Bericht sorgfältig überprüft werden, um sicherzustellen, dass es keine Konflikte mit den Firewall-Beendigungsregeln gibt und dass es keine Richtlinien oder Verfahren gibt, die verletzt werden könnten.
 
-![Firewall-Administratorbericht](../../media/Firewall_Report_Admin_Report.png)
+![Firewall-Administratorbericht.](../../media/Firewall_Report_Admin_Report.png)
 
 ## <a name="review-the-dns-report"></a>Überprüfen des DNS-Berichts
 <a name="DNS_Report"> </a>
 
-Der DNS-Bericht, der Teil des Administratorberichts ist, enthält alle empfohlenen und bekannten Einträge für das Dns (Domain Name System) in den internen, Umkreisnetzwerken und externen Netzwerken. Wenn der Designer die Änderungen am Netzwerkdiagramm abgeschlossen hat und alle IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) auf ihre Produktionswerte definiert sind, stellt der DNS-Bericht eine hervorragende Konfigurationsressource bereit. Dieser Bericht kann auch als Dokument zur betriebsbereiten Problembehandlung dienen.
+Der DNS-Bericht, der Teil des Administratorberichts ist, enthält alle empfohlenen und bekannten Einträge für das Domain Name System (DNS) in den internen, Umkreis- und externen Netzwerken. Wenn der Designer die Änderungen am Netzwerkdiagramm abgeschlossen hat und alle IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) auf ihre Produktionswerte definiert sind, stellt der DNS-Bericht eine hervorragende Konfigurationsressource bereit. Dieser Bericht kann auch als Dokument zur betriebsbereiten Problembehandlung dienen.
 
-![DNS-Administratorbericht](../../media/DNS_Report_Admin_Report.png)
+![DNS-Administratorbericht.](../../media/DNS_Report_Admin_Report.png)
 
 Ihr DNS-Verwaltungsteam sollte den DNS-Bericht sorgfältig überprüfen lassen, um sicherzustellen, dass es keine Fehler gibt, die während der Bereitstellung Probleme verursachen oder eine Problembehandlungssitzung erschweren können.
 

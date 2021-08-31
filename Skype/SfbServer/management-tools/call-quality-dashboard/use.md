@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Zusammenfassung: Erfahren Sie mehr über die Verwendung des Anrufqualitäts-Dashboards. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 398550c80e77950d27be9160dd4f45c2f04acfff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3bc40cb6b6519b47134fd609854911a2e969655
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634239"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728264"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server
 
@@ -40,7 +40,7 @@ Darüber hinaus macht CQD Web-APIs verfügbar, die Benutzern programmgesteuerten
 
 Wenn Sie das Anrufqualitäts-Dashboard besuchen, wird der folgende Bildschirm angezeigt:
 
-![Verwenden von CQD](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
+![Verwenden Sie CQD.](../../media/1e061858-db6f-452b-9ae4-eab507220371.png)
 
 1. Im "Zusammenfassungsbereich" wird der Kontext für den "Berichtssatz" (rechts) gefunden.
 2. Klicken Sie im Zusammenfassungsbereichsbericht auf "Bearbeiten", um Ebeneneigenschaften (einschließlich der Höhe der Y-Achse) festzulegen.
@@ -53,17 +53,17 @@ Bewegen Sie den Mauszeiger über die Balkendiagramme und Trendlinien, um detaill
 
 Wenn Sie zum ersten Mal auf das Anrufqualitäts-Dashboard-Portal zugreifen, wird automatisch eine Standardgruppe von Berichten erstellt. Diese Berichte werden manchmal als Systemberichte bezeichnet. Sie können diese Berichte frei ändern oder löschen oder erweitern, indem Sie neue gleichgeordnete und untergeordnete Berichte erstellen.
 
-Auf oberster Ebene zeigt der Bericht "Audio Streams Monatlicher Trend" den monatlichen Trend für alle Audiostreams an. Bewegen Sie die Maus über die Balken in einem Balkendiagramm, um eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten anzuzeigen. Klicken Sie auf den Titel des Berichts "Audio Streams Monatlicher Trend", um zum Bericht "Verwaltetes oder nicht verwaltetes Audio Streams" zu navigieren, in dem die Berichte zwischen verwalteten und nicht verwalteten Anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Nicht verwaltete Anrufe umfassen Anrufe von außerhalb der Unternehmensfirewall und alle Anrufe, die über WLAN getätigt werden.
+Auf oberster Ebene zeigt der Bericht "Audio Streams Monatlicher Trend" den monatlichen Trend für alle Audiostreams an. Bewegen Sie den Mauszeiger über die Balken in einem Balkendiagramm, um eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten anzuzeigen. Klicken Sie auf den Titel des Berichts "Audio Streams Monatlicher Trend", um zum Bericht "Verwaltetes oder nicht verwaltetes Audio Streams" zu navigieren, in dem die Berichte zwischen verwalteten und nicht verwalteten Anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Nicht verwaltete Anrufe umfassen Anrufe von außerhalb der Unternehmensfirewall und alle Anrufe, die über WLAN getätigt werden.
 
 Der andere Bericht auf oberster Ebene heißt "Vom Benutzer gemeldetes Histogramm zur Anrufqualitätsbewertung". Anrufqualitätsbewertungen sind die Nummern, die von Skype for Business Benutzern am Ende eines Anrufs angegeben werden, um die Qualität des Anrufs anzugeben. Die Bewertungsnummern reichen von 1 bis 5, 1 ist die schlechteste und 5 die beste. Das Histogramm zeigt die Anzahl der Audioanrufe mit der angegebenen Bewertung in einem Monat an.
 
-Klicken Sie auf den Titel eines der Berichte, um zu Berichten mit weiteren Filtern für die Daten zu navigieren. In den Systemberichten zeigt jeder untergeordnete Bericht eine Teilmenge der Daten an, die in seinem übergeordneten Bericht verfügbar sind. Das Problemlösungsmodell ist einfach: Untersuchen Sie, auf welchen Unterbericht die Daten oder den Trend beschränkt sind, auf die ein Problem vorgeschlagen wird, und schränken Sie den Problembereich schrittweise ein. Die Möglichkeit zum Erstellen von Unterberichten ermöglicht es Ihnen, Ihre eigenen Schätzungen zur Ursache bestimmter Datentrends zu untersuchen.
+Klicken Sie auf den Titel eines der Berichte, um zu Berichten mit weiteren Filtern für die Daten zu navigieren. In den Systemberichten zeigt jeder untergeordnete Bericht eine Teilmenge der Daten an, die in seinem übergeordneten Bericht verfügbar sind. Das Problemlösungsmodell ist einfach: Untersuchen Sie, auf welchen Unterbericht die Daten oder den Trend, der ein Problem nahe legt, beschränkt sind, und schränken Sie den Problembereich schrittweise ein. Die Möglichkeit zum Erstellen von Unterberichten ermöglicht es Ihnen, Ihre eigenen Schätzungen zur Ursache bestimmter Datentrends zu untersuchen.
 
 ### <a name="create-and-edit-reports"></a>Erstellen und Bearbeiten von Berichten
 
 Klicken Sie im Aktionsmenü eines Berichts auf "Bearbeiten", um den Bericht-Editor anzuzeigen. Jeder Bericht wird durch eine Abfrage im Cube gesichert. Ein Bericht ist eine Visualisierung der Daten, die von seiner Abfrage zurückgegeben werden. Der Bericht-Editor hilft Ihnen beim Bearbeiten dieser Abfragen und der Anzeigeoptionen des Berichts. Wenn Sie den Bericht-Editor öffnen, wird Folgendes angezeigt:
 
-![Verwenden von CQD](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
+![Verwenden Sie CQD.](../../media/e8969625-e6f9-4d67-873f-93e78dd12b35.png)
 
 1. Dimensionen, Kennzahlen und Filter werden im linken Bereich ausgewählt. Zeigen Sie auf einen der vorhandenen Werte, um eine "x"-Schaltfläche anzuzeigen, mit der der Wert entfernt werden kann. Klicken Sie auf die Schaltfläche "Plus" neben einer Überschrift, um das Dialogfeld zu öffnen, in dem Sie eine neue Dimension, Maßeinheit oder Filterung hinzufügen können.
 2. Optionen für die Diagrammanpassung werden oben angezeigt.
@@ -74,7 +74,7 @@ Klicken Sie im Aktionsmenü eines Berichts auf "Bearbeiten", um den Bericht-Edit
 
 Wenn StartDate.Month als Dimension hinzugefügt wird und die Daten als Trend in Tabellenform gerendert werden, können Balkendiagramme und Sparklines innerhalb der Tabellenzellen angezeigt werden. Bewegen Sie den Mauszeiger über das Balkendiagramm und die Sparklines, um die Werte für einzelne Monate anzuzeigen.
 
-![Verwenden von CQD](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
+![Verwenden Sie CQD.](../../media/fe6b18d7-b8cf-472a-9c93-0f7703f5a700.png)
 
 Damit die Balkendiagramme und sparklines angezeigt werden, muss das Kontrollkästchen "Sparklines anzeigen" oben im Bericht-Editor aktiviert sein. Dadurch wird die Option "Trend" ausgewählt und "Monat nach unten" zur letzten Dimension verschoben. Dies kann auch erreicht werden, indem Sie auf "Monat" klicken und die Pfeile nach oben und unten verwenden, um StartDate.Month nach oben oder unten zu verschieben.
 
@@ -82,7 +82,7 @@ Damit die Balkendiagramme und sparklines angezeigt werden, muss das Kontrollkäs
 
 Das Einstellungsmenü enthält Links zu nützlichen Seiten wie den Seiten "Systemintegrität" und "Info" und befindet sich in der oberen rechten Ecke des Dashboards.
 
-![Verwenden von CQD](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
+![Verwenden Sie CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
 Ob Beschreibungen und Zeitstempel angezeigt werden sollen, hängt von einzelnen Benutzern ab, und diese Einstellungen wirken sich nur auf die Version des Dashboards der Person aus und ändern nicht den Berichtsatz oder das, was andere Benutzer sehen. Das Löschen des Caches bewirkt, dass alle Abfragen ihre Daten aus dem Cube neu laden, während beim Wiederherstellen der Standardwerte alle vom Benutzer erstellten oder geänderten Berichte gelöscht und der Systemberichtssatz neu erstellt wird – was einem Benutzer angezeigt wird, wenn er sich zum ersten Mal anmeldet.
 
@@ -92,7 +92,7 @@ Der Link "Benutzerdashboard" zeigt eine Seite an, auf der Benutzer andere Benutz
 
 Zusätzliche Informationen können eingeblendet werden, wenn standortspezifische Informationen in die Archivdatenbank eingegeben werden, um Subnetz-zu-Gebäude-Zuordnungsinformationen bereitzustellen (z. B. Kabel-/Funkanrufqualität durch Gebäude).
 
-Führen Sie mindestens die folgenden Tabellen aus, um diese Berichte zu erstellen:
+Füllen Sie mindestens die folgenden Tabellen aus, um diese Berichte zu erstellen:
 
 - CqdBuilding
 - CqdNetwork
@@ -167,12 +167,12 @@ Standardmäßig enthält diese nächste Tabelle einen Eintrag (0, 'Unknown', 0, 
 |Gebäude |nvarchar(500) |Ja |Der Gebäudename, in dem sich der WLAN-Zugriffspunkt befindet. |
 ||||
 
-## <a name="cqd-streams"></a>CQD-Streams
+## <a name="cqd-streams"></a>CQD Streams
 
 Ein CQD-Datenstrom wird als gut, schlecht oder nicht klassifiziert betrachtet. CQM 1.5 verwendet jetzt die folgende CQD-Definition:
 
 - Ein "schlechter Datenstrom" ist eine beliebige Kombination der Metriken für Anrufe schlechter Qualität, die den Schwellenwert überschreiten.
-- Wenn ein Datenstrom in einem Anruf "schlecht" ist, werden beide Anrufströme als "schlecht" gekennzeichnet. In Konferenzen wird jeder Teilnehmer als eindeutiger Anruf gezählt und unabhängig von allen anderen teilnehmern gemeldet.
+- Wenn ein Datenstrom in einem Anruf "schlecht" ist, werden beide Anrufströme als "schlecht" gekennzeichnet. In Konferenzen wird jeder Teilnehmer als eindeutiger Anruf gezählt und unabhängig von allen anderen gemeldet.
 - Nicht klassifizierte Datenströme sind Datenströme ohne Qualitätsmetriken (also synthetische Transaktionen oder kurze Aufrufe).
 - Gültige Streams = nicht mobile Clients
 - Klassifizierer kann nicht geändert werden
@@ -196,7 +196,7 @@ CQD verwendet keine Felder "Anrufer/Angerufener", sondern "First" und "Second", 
 
  **Zuerst** Ist immer der Serverendpunkt (z. B. AV MCU oder Vermittlungsserver), wenn ein Server am Datenstrom beteiligt ist.
 
- **Second** Ist immer der Clientendpunkt, es sei denn, es handelt sich um einen Server-Server Datenstrom.
+ **Second** Ist immer der Clientendpunkt, es sei denn, es handelt sich um einen Server-Server-Datenstrom.
 
 **Beispiel für die Klassifizierung "Erster und Zweiter"**
 
@@ -236,7 +236,7 @@ Beispiel: Um alle Datenströme aus einem Gebäude abzurufen, bietet UNION eine u
 
 Wenn drahtlos intern verwaltet wird, können Sie die Drahtlosberichte im Bucket "Verwaltet" neu erstellen.
 
-![Aufschlüsselung des CQD-Berichts](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
+![Aufschlüsselung des CQD-Berichts.](../../media/658b8568-0d68-4f5f-83e8-5abc63a85c1d.png)
 
 ## <a name="operational-processes"></a>Betriebliche Prozesse
 

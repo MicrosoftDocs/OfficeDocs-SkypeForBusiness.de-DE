@@ -18,25 +18,25 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Setup
-description: Sie können Ihren Skype for Business ermöglichen, das integrierte Feedbacktool für Skype for Business-App zu verwenden, damit Benutzer Probleme melden und Microsoft Feedback zu deren Erfahrung geben können.
-ms.openlocfilehash: b7be0629e0944f55147a8f0a772663737412f910
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Sie können Ihren Skype for Business ermöglichen, das integrierte Feedbacktool für Skype for Business-App zu verwenden, damit Benutzer Probleme melden und Microsoft Feedback zu deren Erfahrung direkt geben können.
+ms.openlocfilehash: 9382c19c5abf78dc47dcaa3de33841a64e96f490
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611454"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728284"
 ---
 # <a name="turn-on-or-off-skype-for-business-client-feedback-reporting"></a>Aktivieren oder Deaktivieren von Feedbackberichten im Skype for Business-Client
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Sie können Ihren Skype for Business Online-Benutzern die Verwendung des integrierten Feedbacktools für Skype for Business-Apps ermöglichen, damit Benutzer Probleme melden und Microsoft Feedback zu deren Erfahrung direkt geben können. 
+Sie können Ihren Skype for Business Online-Benutzern die Verwendung des integrierten Feedbacktools für die Skype for Business-App ermöglichen, damit Benutzer Probleme melden und Microsoft Feedback zu deren Erfahrung geben können. 
   
 ![Symbol "Feedback bereitstellen"](../images/eac13837-04d9-4da1-8e80-54612cf6650d.png)
   
 Mit diesem Tool kann ein Benutzer die Protokolle aus der App auf dem Gerät kopieren, um Microsoft dabei zu unterstützen, probleme, die möglicherweise auftreten, besser zu untersuchen und zu behandeln. 
   
-![Melden eines Problems mithilfe Einstellungen Symbol](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
+![Melden Sie ein Problem mithilfe Einstellungen Symbol .](../images/2dfb5603-1d69-41fc-a43e-91a3379acbe0.png)
   
 Sie können auch die Einstellung  _EnableOnlineFeedbackScreenshot_ verwenden, damit Benutzer zusammen mit dem Feedback einen Screenshot von ihrem Gerät senden können.
   
@@ -51,7 +51,7 @@ Sie können auch die Einstellung  _EnableOnlineFeedbackScreenshot_ verwenden, da
 > Der Skype for Business Online-Connector ist derzeit Bestandteil des aktuellen PowerShell-Moduls von Teams. Wenn Sie die neueste Version von Teams PowerShell verwenden, müssen Sie den Skype for Business Online-Connector nicht installieren.
 1. Installieren Sie [Teams PowerShell-Modul.](/microsoftteams/teams-powershell-install)
     
-2. Öffnen Sie Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
+2. Öffnen Sie eine Windows PowerShell Eingabeaufforderung, und führen Sie die folgenden Befehle aus: 
 
    ```powershell
    # When using Teams PowerShell Module
@@ -60,7 +60,7 @@ Sie können auch die Einstellung  _EnableOnlineFeedbackScreenshot_ verwenden, da
    $userCredential = Get-Credential
    Connect-MicrosoftTeams -Credential $userCredential
    ```
-   Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Verbinden mit allen [Microsoft 365-](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) oder Office 365-Diensten in einem einzigen Windows PowerShell-Fenster oder Einrichten Ihres Computers [für Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+   Weitere Informationen zum Starten von Windows PowerShell finden Sie unter Verbinden für alle [Microsoft 365-](/microsoft-365/enterprise/connect-to-all-microsoft-365-services-in-a-single-windows-powershell-window) oder Office 365-Dienste in einem einzigen Windows PowerShell-Fenster oder Einrichten des Computers [für Windows PowerShell.](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
    
 ## <a name="turn-on-client-app-feedback-reporting-for-all-the-users-in-your-organization"></a>Aktivieren von Feedbackberichten in der Client-App für alle Benutzer in Ihrer Organisation
 

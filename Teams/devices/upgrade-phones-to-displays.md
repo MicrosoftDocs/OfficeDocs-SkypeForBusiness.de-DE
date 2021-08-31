@@ -15,22 +15,22 @@ ms.collection:
 - M365-voice
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Erfahren Sie, wie Sie Teams-Teams auf Bildschirme im Microsoft Teams Admin Center aktualisieren.
-ms.openlocfilehash: e504bde3b291deb0d38821a0551e70f1f7ac1d4d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie Sie Teams-Teams, um Microsoft Teams Admin Center zu aktualisieren.
+ms.openlocfilehash: a097cde5f8630e3a2ac8a6a932434baae2d92de6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588187"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728654"
 ---
 # <a name="upgrade-teams-phones-to-teams-displays"></a>Aktualisieren Teams von Telefonen auf Teams Bildschirme
 
 > [!IMPORTANT]
-> Ein Upgrade auf Teams-Displays ist nur auf Lenovo Think Smart View-Geräten verfügbar. Die Informationen in diesem Artikel gelten nur für dieses Gerätemodell.  
+> Das Upgrade auf Teams-Displays ist nur auf Lenovo Think Smart View-Geräten verfügbar. Die Informationen in diesem Artikel gelten nur für dieses Gerätemodell.  
 
-Dieser Artikel enthält eine Übersicht über das Upgrade Ihrer Teams-Smartphones auf Teams anzeigegeräte im Microsoft Teams Admin Center. Auf diese Weise können die Geräte ihren Benutzern eine umfangreiche Benutzererfahrung bieten, Teams nutzen können.
+Dieser Artikel enthält eine Übersicht über das Upgrade Ihrer Teams auf Teams im Microsoft Teams Admin Center. Auf diese Weise können die Geräte für Ihre Benutzer eine umfangreiche Benutzererfahrung bieten, Teams geräte angezeigt werden.
 
-Teams-Displays sind eine Kategorie von all-in-one-dedizierten Teams-Geräten mit Umgebungs touchscreen und Freisprecheinrichtungen, die von Cortana. Teams Anzeigen sind die Weiterentwicklung Teams Smartphones. Neben den [](phones-for-teams.md#features-supported-by-teams-phones)von Teams-Telefonen unterstützten Features enthalten Teams-Anzeigen Features wie eine "Immer auf"-Anzeige, auf der alle Teams-Aktivitäten und Optionen für die Zusammenarbeit immer verfügbar sind. Weitere Informationen zu Features, die nur für Teams sind, finden Sie unter Anzeigen [Microsoft Teams Anzeigen.](teams-displays.md)
+Teams-Displays sind eine Kategorie von all-in-one-dedizierten Teams-Geräten mit einem Umgebungs touchscreen und freisprechend von Cortana. Teams Anzeigen sind die Weiterentwicklung Teams Smartphones. Neben den [](phones-for-teams.md#features-supported-by-teams-phones)von Teams-Telefonen unterstützten Features enthalten Teams-Anzeigen Features wie eine "Immer auf"-Anzeige, auf der alle Optionen für Aktivitäten und Zusammenarbeit Teams verfügbar sind. Weitere Informationen zu Features, die nur für Teams sind, finden Sie unter anzeigen [Microsoft Teams](teams-displays.md).
 
 ## <a name="what-you-need-to-know-about-upgrading-to-teams-displays"></a>Wissende Informationen zum Upgrade auf Teams Anzeigen
 
@@ -55,11 +55,11 @@ Denken Sie daran, dass die Aktion nach Teams Upgrade eines Telefons auf ein Team
 1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Gerätetelefone**.
 2. Wählen Sie Teams Telefone aus, die Sie aktualisieren möchten, und wählen Sie dann **Upgrade aus.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Screenshot mit Teams ausgewählten Telefonen für das Upgrade auf Teams Bildschirme":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-select.png" alt-text="Screenshot, der Teams Telefonen zeigt, die für das Upgrade auf Teams wurden.":::
 
-3. Wählen Sie im Dialogfeld Upgrade auf Teams  **anzeigen** die Option Upgrade planen aus, um ein Datum und eine Uhrzeit für das Upgrade oder jetzt aktualisieren zu **legen.**
+3. Wählen Sie im Dialogfeld Upgrade auf  Teams **anzeigen** die Option Upgrade planen aus, um ein Datum und eine Uhrzeit für das Upgrade oder jetzt aktualisieren zu **legen.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Screenshot des Dialogfelds "Upgrade auf Teams Anzeige"":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Screenshot des Dialogfelds "Upgrade auf Teams Anzeige".":::
 
 > [!NOTE]
 > Wenn Sie eine Meldung erhalten, die ankdet, dass für Ihre ausgewählten Telefone kein Upgrade durchgeführt werden kann, stellen Sie sicher, dass Sie Telefone ausgewählt haben, die das Upgrade [unterstützen,](#which-teams-phones-can-be-upgraded)und versuchen Sie es dann erneut.
@@ -72,7 +72,7 @@ Es kann bis zu einer Stunde dauern, bis das Upgrade abgeschlossen ist. Wenn der 
 
 ### <a name="teams-displays-have-the-default-theme-instead-of-the-dark-theme"></a>Teams Anzeigen haben das Standarddesign anstelle des Designs "Dunkel".
 
-Die Unterstützung des dunklen Teams auf Bildschirmen wird in einem zukünftigen Update verfügbar sein. Teams Smartphones, die das Design "Dunkel" verwenden, erhalten nach dem Upgrade auf die Anzeige Teams Standarddesign.
+Die Unterstützung des dunklen Designs Teams auf Bildschirmen wird in einem zukünftigen Update verfügbar sein. Teams Smartphones, die das Design "Dunkel" verwenden, erhalten nach dem Upgrade auf die Anzeige Teams Standarddesign.
 
 ### <a name="some-apps-are-missing-from-the-home-screen"></a>Einige Apps fehlen auf der Startseite
 
@@ -80,7 +80,7 @@ Wenn bestimmte Apps nach dem Upgrade auf der Startseite fehlen, melden Sie sich 
 
 ## <a name="see-also"></a>Mehr dazu
 
-[Einführung Microsoft Teams Bildschirme](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
+[Einführung in Microsoft Teams Anzeigen](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/introducing-microsoft-teams-displays/ba-p/1505437)
 
 [Teams anzeigen](teams-displays.md)
 

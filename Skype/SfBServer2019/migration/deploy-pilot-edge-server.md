@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie vor der Bereitstellung Ihres Skype for Business Server 2019-Edgeservers beachten sollten. Die Bereitstellungs- und Konfigurationsprozesse für Skype for Business Server 2019 sind Skype for Business Server 2015 sehr ähnlich. In diesem Abschnitt sind nur die wichtigsten zu beachtenden Punkte für die Bereitstellung Ihres Pilotpools hervorgehoben. Ausführliche Schritte finden Sie unter Deploying external user access in Skype for Business Server 2019 in der Bereitstellungsdokumentation, die den Bereitstellungsprozess beschreibt und außerdem Konfigurationsinformationen für den externen Benutzerzugriff bereitstellt.
-ms.openlocfilehash: c76d517bd5130c2babc41e0072ae7450b9838a64
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ec659c5099a7be9587c630aa487ddeda1df500
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615009"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728044"
 ---
 # <a name="deploy-pilot-edge-server"></a>Bereitstellen eines Pilot-Edgeservers
 
@@ -31,24 +31,24 @@ In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie beacht
     
 2. Navigieren Sie zum Knoten Skype for Business Server 2019. Klicken Sie mit der rechten Maustaste auf **Edgepools**, und klicken Sie dann auf **Neuer Edgepool**.
     
-     ![Definieren des Dialogfelds "Neuer Edgepool"](../media/migration_ocs_topo_edgepool_page1.JPG)
+     ![Definieren Sie das Dialogfeld "Neuer Edgepool".](../media/migration_ocs_topo_edgepool_page1.JPG)
   
 3. Ein Edgepool ist entweder ein **Pool mit mehreren Computern** oder ein **Pool mit einem Computer**.
     
-     ![Definieren des Edgepool-FQDN-Dialogfelds](../media/migration_ocs_topo_edgepool_page2.JPG)
+     ![Definieren Sie das Dialogfeld "Edgepool-FQDN".](../media/migration_ocs_topo_edgepool_page2.JPG)
   
-4. Aktivieren Sie auf der Seite **Funktionen auswählen** nicht den Verbund oder den XMPP-Partnerverbund. Partnerverbund und XMPP-Partnerverbund werden derzeit beide über den Legacy-Edgeserver weitergeleitet. Diese Funktionen werden in einer späteren Phase der Migration konfiguriert. 
+4. Aktivieren Sie auf der Seite **Funktionen auswählen** nicht den Verbund oder den XMPP-Partnerverbund. Partnerverbund und XMPP-Partnerverbund werden derzeit beide über den älteren Edgeserver weitergeleitet. Diese Funktionen werden in einer späteren Phase der Migration konfiguriert. 
 
   
 5. Führen Sie die folgenden Assistentenseiten aus: **Externe FQDNs,** **Definieren der internen IP-Adresse** und Definieren der externen **IP-Adresse.**
     
 6. Wählen Sie auf der Seite **"Nächsten Hopserver definieren"** den Director für den nächsten Hop des älteren Edgepools aus. 
     
-     ![Definieren des Dialogfelds "Nächster Hop"](../media/migration_ocs_topo_edgepool_page7.JPG)
+     ![Definieren Sie das Dialogfeld "Nächster Hop".](../media/migration_ocs_topo_edgepool_page7.JPG)
   
 7. Ordnen Sie auf der Seite **"Front-End- oder Vermittlungspools zuordnen"** zu diesem Zeitpunkt keinen Pool diesem Edgepool zu. Der externe Mediendatenverkehr wird derzeit über den älteren Edgeserver weitergeleitet. Diese Einstellung wird in einer späteren Phase der Migration konfiguriert. 
     
-     ![Dialogfeld "Front-End-Pools zuordnen"](../media/migration_ocs_topo_edgepool_page8.JPG)
+     ![Dialogfeld "Front-End-Pools zuordnen".](../media/migration_ocs_topo_edgepool_page8.JPG)
   
 8. Klicken Sie auf **Fertig stellen,** und **veröffentlichen Sie** dann die Topologie. 
     
@@ -58,6 +58,6 @@ In diesem Thema werden die Konfigurationseinstellungen behandelt, die Sie beacht
 Es ist sehr wichtig, dass Sie die Richtlinien in den Themen in der Bereitstellungsdokumentation befolgen. Dieser Abschnitt stellt lediglich einen Leitfaden für die Konfigurationseinstellungen beim Installieren dieser Serverrollen dar. 
 <!-- [Deploying external user access in Skype for Business Server 2019](../deployment/deploying-external-user-access/deploying-external-user-access.md) -->
   
-Sie sollten jetzt parallel zu einer Skype for Business Server 2019-Edgeserverbereitstellung einen älteren Edgeserver bereitstellen. Stellen Sie sicher, dass beide Bereitstellungen ordnungsgemäß ausgeführt werden, die Dienste gestartet sind, und Sie beide Bereitstellungen verwalten können, bevor Sie mit der nächsten Phase fortfahren. 
+Sie sollten jetzt parallel zu einer Skype for Business Server 2019-Edgeserverbereitstellung einen älteren Edgeserver bereitgestellt haben. Stellen Sie sicher, dass beide Bereitstellungen ordnungsgemäß ausgeführt werden, die Dienste gestartet sind, und Sie beide Bereitstellungen verwalten können, bevor Sie mit der nächsten Phase fortfahren. 
   
 
