@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: be5a7181a3a3679b1cef33124bcd7ad9d689c7a8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c1353d46d77f12ea7d829f4170f6dedf335e9395
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602080"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729534"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -58,7 +58,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit sind Teams VDI mit Audio/Video-Optimierung (AV) mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams VDI mit Audio/Video(AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -66,13 +66,13 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 |Plattform|Lösung|
 |----|---|
-|![Das Logo von Microsoft](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Azure-Desktop</a> |
-|![Das Logo von Citrix](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-Apps und -Desktops</a> |
-|![Das Logo von VMware](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
+|![Das Logo von Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Azure-Desktop</a> |
+|![Das Logo, das Citrix darstellt.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-Apps und -Desktops</a> |
+|![Das Logo von VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [von Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
+Der virtuelle Azure-Desktop bietet AV-Optimierung für Teams mit VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -86,7 +86,7 @@ Die neuesten Server- und Clientanforderungen finden Sie auf [dieser Citrix-Websi
 
 VMware Horizon ist eine moderne Plattform für die sichere Bereitstellung virtueller Desktops und Apps in der Hybrid-Cloud. Um eine hervorragende Endbenutzererfahrung zu bieten, bietet VMware für Teams eine Medienoptimierung. Diese Optimierung verbessert die Produktivität auf virtuellen Desktops und in virtuellen Apps insgesamt und verbessert die Benutzerfreundlichkeit bei Anrufen und Besprechungen in Teams.
 
-Sie können die aktuelle Version von VMware Horizon über die Seite [VMware-Downloads](https://my.vmware.com/web/vmware/downloads/#all_products) herunterladen. Die erforderlichen Medienoptimierungskomponenten sind standardmäßig Bestandteil des Horizon-Agents und des Horizon-Clients, und es ist nicht erforderlich, ein zusätzliches Plug-In zu installieren, um das Optimierungsfeature für Teams zu verwenden.
+Sie können die aktuelle Version von VMware Horizon über die Seite [VMware-Downloads](https://customerconnect.vmware.com/downloads/#all_products) herunterladen. Die erforderlichen Medienoptimierungskomponenten sind standardmäßig Bestandteil des Horizon-Agents und des Horizon-Clients, und es ist nicht erforderlich, ein zusätzliches Plug-In zu installieren, um das Optimierungsfeature für Teams zu verwenden.
 
 Die neuesten Anforderungen und Anweisungen zum Konfigurieren der Medienoptimierung für Teams finden Sie auf [dieser VMware-Website](https://docs.vmware.com/en/VMware-Horizon/2006/horizon-remote-desktop-features/GUID-F68FA7BB-B08F-4EFF-9BB1-1F9FC71F8214.html).
 
@@ -158,7 +158,7 @@ Microsoft 365 Apps for Enterprise unterstützen keine computerbasierten Installa
 
 #### <a name="how-to-exclude-teams-deployment-through-microsoft-365-apps-for-enterprise"></a>So schließen Sie die Bereitstellungen von Teams über Microsoft 365 Apps for Enterprise aus
 
-Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie unter [Ausschließen von Teams von neuen Installationen von Microsoft 365 Apps for Enterprise](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-office-365-proplus) und [Verwenden von Gruppenrichtlinien zum Steuern der Installation von Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
+Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie unter [Ausschließen von Teams von neuen Installationen von Microsoft 365 Apps for Enterprise](/DeployOffice/teams-install#how-to-exclude-microsoft-teams-from-new-installations-of-microsoft-365-apps) und [Verwenden von Gruppenrichtlinien zum Steuern der Installation von Teams](/DeployOffice/teams-install#use-group-policy-to-control-the-installation-of-microsoft-teams).
 
 ### <a name="deploy-the-teams-desktop-app-to-the-vm"></a>Bereitstellen der Teams-Desktop-App im VM
 
@@ -227,7 +227,7 @@ Es gibt eine Vielzahl von virtualisierten Setupkonfigurationen, bei deren Optimi
 
 Zusätzlich zu Chat und Zusammenarbeit ist Teams auf VDI mit Anrufen und Besprechungen mit unterstützten Virtualisierungsanbieter-Plattformen verfügbar. Unterstützte Features basieren auf dem WebRTC-Medienstapel und der Implementierung eines Virtualisierungsanbieters. Das folgende Diagramm bietet einen Überblick über die Architektur.
 
-![Diagramm mit Teams auf VDI-Architektur](media/teams-on-vdi-architecture.png)
+![Diagramm, das Teams VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > Wenn Sie derzeit Teams ohne AV-Optimierung in VDI ausführen und Features verwenden, die noch nicht für die Optimierung unterstützt sind (z. B. das Geben und Übernehmen von Kontrolle beim Freigeben von Apps), müssen Sie Richtlinien für Virtualisierungsanbieter festlegen, um die Teams-Umleitung zu deaktivieren. Dies bedeutet, dass Teams-Mediensitzungen nicht optimiert werden. Schritte zum Festlegen von Richtlinien zum Deaktivieren der Teams-Umleitung erhalten Sie von Ihrem Virtualisierungsanbieter.
@@ -468,7 +468,7 @@ if($cleanup){
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -setup
 
 - Bei einer computerbasierten Installation wird Teams auf VDI nicht automatisch aktualisiert, wie es bei Nicht-VDI-Teams-Clients der Fall ist. Sie müssen das VM-Image aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen zum Aktualisieren der Teams-App die aktuelle Version deinstallieren, um auf eine neuere Version aktualisieren zu können.
-- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
+- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Es wird empfohlen, die Teams zu beenden, bevor sie die Verbindung mit Citrix Virtual Machine trennen, um dieses Szenario zu vermeiden.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
 - Azure Virtual Desktop unterstützt zurzeit keine macOS- und Linux-basierten Clients.
 - Ein schneller Mandantenwechsel kann zu Problemen mit Anrufen bei VDI führen, z. B. dass die Bildschirmfreigabe nicht verfügbar ist. Durch einen Neustart des Clients werden diese Probleme minimiert.

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Hier erfahren Sie die Schritte zum Zurücksetzen der Konferenz-ID eines Benutzers in Microsoft Teams sowie Links zu Tools für Besprechungsaktualisierungen und -migration.
-ms.openlocfilehash: a4a57fb2f52ce2541e4e30794d78c05eb376a853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6ef5bd8fed266990e5a21edc34e874c218199e87
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627197"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728884"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams
 
@@ -37,7 +37,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -58,7 +58,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 
 - Sie können dem Benutzer alle Konferenzinformationen per E-Mail senden, die konferenz-ID und Einwahltelefonnummern enthält, indem Sie im Abschnitt **Audiokonferenzen** auf Konferenzinformationen **per** E-Mail senden klicken. Die PIN wird nicht gesendet.
     
-- Der Dienst erstellt eine 7- bis 9-stellige Konferenz-ID Teams Konferenzkennung. Sie können die Länge nicht ändern.
+- Der Konferenzdienst erstellt eine 7- bis 9-stellige Konferenz-ID Teams Konferenz-ID. Sie können die Länge nicht ändern.
     
 - Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     
@@ -66,7 +66,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

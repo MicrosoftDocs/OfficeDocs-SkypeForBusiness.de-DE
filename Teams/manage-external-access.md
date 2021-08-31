@@ -21,12 +21,12 @@ description: Ihr Teams- oder IT-Administrator kann den externen Zugriff für and
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 255b714980db3ac63e9251c8db7af243d91dc72d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2739f1b7f97e39617471ecf292ecf9424a7ac396
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610302"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726864"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -70,7 +70,7 @@ Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass I
 
 ### <a name="step-1---enable-your-organization-to-communicate-with-another-teams-or-skype-for-business-organizations"></a>Schritt 1: Aktivieren Ihrer Organisation für die Kommunikation mit einer anderen Microsoft Teams- oder Skype for Business-Organisation
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie im linken Navigationsbereich zu **Organisationsweite Einstellungen** > **Externer Zugriff**.
 
@@ -109,13 +109,13 @@ Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich 
 
 Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern chatten und diese anrufen können. Teams-Benutzer können dann nach schriftlichen Einzelunterhaltungen oder Audio/Video-Anrufen mit Skype-Benutzern suchen und diese starten.
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie im linken Navigationsbereich zu **Organisationsweite Einstellungen** > **Externer Zugriff**.
 
 2. Aktivieren Sie die Einstellung **Benutzer können mit Skype-Benutzern kommunizieren**.
 
-    ![Screenshot der aktivierten Einstellung "Benutzer können mit Skype-Benutzern kommunizieren"](media/manage-external-access-5.png).
+    ![Screenshot der aktivierten Einstellung "Benutzer können mit Skype-Benutzern kommunizieren".](media/manage-external-access-5.png).
 
 Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams- und Skype-Benutzern, einschließlich der Einschränkungen, finden Sie unter [Interoperabilität von Teams und Skype](teams-skype-interop.md).
 

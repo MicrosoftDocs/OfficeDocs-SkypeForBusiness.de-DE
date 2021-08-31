@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: fa5d9c3f1c74133b96eda81d7c56c3f353265b99
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9b8d593d4f3238bb588159290655f1aa241beffc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615341"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727004"
 ---
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
@@ -37,11 +37,11 @@ Die Listen-App in Microsoft Teams hilft Benutzern in Ihrer Organisation beim Nac
 
 In Microsoft Teams greifen Benutzer auf Listen über eine eigene Registerkarte in einem Kanal zu. Klicken Sie zum Loslegen auf das **+**, um den Registerkartenkatalog zu öffnen und einem Kanal eine neue Listen-App-Registerkarteninstanz hinzuzufügen.
 
-![Listen-App im Registerkartenkatalog](media/lists-tab.png)
+![Listet die App im Registerkartenkatalog auf.](media/lists-tab.png)
 
 Benutzer können neue Listen erstellen oder im selben Team vorhandene bzw. Listen von einer anderen SharePoint-Website anheften, auf die sie Zugriff haben. Neue Listen können vollkommen neu erstellt, aus integrierten Vorlagen, basierend auf der Struktur einer bestehenden Liste oder durch Importieren von Daten aus einer Excel-Arbeitsmappe erstellt werden. Die Listen-App ist in Microsoft Teams Desktop-, Web- und mobilen Clients verfügbar.
 
-![Erstellen einer Liste in der Listen-App](media/lists-create-list.png)
+![wie Sie eine Liste in der Listen-App erstellen.](media/lists-create-list.png)
 
 ## <a name="templates"></a>Vorlagen
 

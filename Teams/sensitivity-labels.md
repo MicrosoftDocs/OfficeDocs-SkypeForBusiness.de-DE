@@ -17,22 +17,22 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Vertraulichkeitsbezeichnungen verwenden, um Ihre Teams in Ihrer Microsoft Teams.
-ms.openlocfilehash: d00ebe1861596ddb41e852c7e8fe6360df024ab7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e4f6f3b790bb84b4d628760548b6ab1115f6326d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621957"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729594"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Vertraulichkeitsbeschriftungen für Microsoft Teams
 
 [Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels) ermöglichen Teams, den Zugriff auf vertrauliche Organisationsinhalte zu schützen und zu regulieren, die während der Zusammenarbeit innerhalb von Teams erstellt wurden. Nachdem Sie Vertraulichkeitsbezeichnungen mit den zugehörigen Richtlinien im [Microsoft Compliance Center](/microsoft-365/compliance/go-to-the-securitycompliance-center)konfiguriert haben, können diese Bezeichnungen auf Teams in Ihrer Organisation angewendet werden.
 
-Vertraulichkeitsbezeichnungen werden derzeit in Kursteams für Kunden, die ihre Education-SKUs Teams, nicht unterstützt. Weitere Informationen zur Lizenzierung finden Sie in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
+Vertraulichkeitsbezeichnungen werden in Kursteams derzeit für Kunden, die mit Teams Education-SKUs arbeiten, nicht unterstützt. Weitere Informationen zur Lizenzierung finden Sie in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
 
 ## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Was ist der Unterschied zwischen Vertraulichkeitsbeschriftungen und Teams Klassifizierungsbezeichnungen?
 
-Vertraulichkeitsbeschriftungen unterscheiden sich von Klassifizierungsbezeichnungen, die auch als Azure AD-Gruppenklassifizierung bezeichnet werden. Klassifizierungsbeschriftungen sind Textzeichenfolgen, die einer Gruppe Microsoft 365 zugeordnet werden können, ihnen aber keine tatsächlichen Richtlinien zugeordnet sind. Sie verwenden Klassifizierungsbezeichnungen als Metadaten und müssen dann andere Methoden verwenden, z. B. interne Tools und Skripts, um Richtlinien zu erzwingen.
+Vertraulichkeitsbeschriftungen unterscheiden sich von Klassifizierungsbezeichnungen, die auch als Azure AD-Gruppenklassifizierung bezeichnet werden. Bei Klassifizierungsbeschriftungen handelt es sich um Textzeichenfolgen, die einer Gruppe Microsoft 365 werden können, der aber keine tatsächlichen Richtlinien zugeordnet sind. Sie verwenden Klassifizierungsbezeichnungen als Metadaten und müssen dann andere Methoden verwenden, z. B. interne Tools und Skripts, um Richtlinien zu erzwingen.
 
 Der Vorteil der Verwendung von Vertraulichkeitsbezeichnungen besteht in der automatischen Erzwingung ihrer Richtlinien über eine Kombination aus der Microsoft 365 Groups-Plattform, dem Compliance Center und den Teams-Diensten. Vertraulichkeitsbezeichnungen bieten leistungsstarke Infrastrukturunterstützung für die Sicherung der vertraulichen Daten Ihrer Organisation und die Sicherstellung der Einhaltung Ihrer internen Richtlinien oder Vorschriften.
 
@@ -40,7 +40,7 @@ Wenn Sie derzeit Klassifizierungsbezeichnungen verwenden, finden Sie in der folg
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>Beispielszenarien für Vertraulichkeitsbeschriftungen
 
-Beispielszenarien für die Verwendung von Vertraulichkeitsbeschriftungen mit Teams in Ihrer Organisation:
+Beispielszenarien für die Verwendung von Vertraulichkeitsbezeichnungen mit Teams in Ihrer Organisation:
 
 - [Festlegen der Datenschutzstufe (öffentlich oder privat) für Teams](#set-the-privacy-level-for-teams)
 - [Steuern des Gastzugriffs auf Teams](#control-guest-access-to-teams)
@@ -53,18 +53,18 @@ Sie erstellen und veröffentlichen z. B. eine Vertraulichkeitsbezeichnung mit de
 
 Wenn ein Benutzer ein neues Team  erstellt und die Bezeichnung Vertraulich auswählt, steht dem Benutzer als einzige Datenschutzoption nur Privat **zur Verfügung.** Andere Datenschutzoptionen wie "Öffentlich" und "Organisationsweit" stehen dem Benutzer nicht zur Auswahl:
 
-![Screenshot der Vertraulichkeitsbezeichnung "Vertraulich"](media/sensitivity-labels-confidential-example.png)
+![Screenshot der Vertraulichkeitsbezeichnung "Vertraulich".](media/sensitivity-labels-confidential-example.png)
 
 Ebenso erstellen und veröffentlichen Sie eine Vertraulichkeitsbezeichnung namens "Allgemein", für die die Option für den Datenschutz der Bezeichnung als öffentlich **konfiguriert ist.** Wenn ein Benutzer ein neues Team erstellt, kann er öffentliche oder organisationsweite Teams nur erstellen, wenn er diese Bezeichnung auswählt:
 
-![Screenshot of General sensitivity label](media/sensitivity-labels-general-example.png)
+![Screenshot of General sensitivity label.](media/sensitivity-labels-general-example.png)
 
 Wenn das Team erstellt wird, wird die Vertraulichkeitsbeschriftung in der oberen rechten Ecke der Kanäle im Team angezeigt. 
 
 > [!NOTE]
 > Wenn Sie hierarchische Beschriftungen mit über- und untergeordneten Ebenen wie "Vertraulich\Finanzen" verwenden, wird nur die übergeordnete Beschriftung in der Kanalüberschrift angezeigt.
 
-![Screenshot der Vertraulichkeitsbezeichnung im Teamkanal](media/sensitivity-labels-channel.png)
+![Screenshot der Vertraulichkeitsbezeichnung im Teamkanal.](media/sensitivity-labels-channel.png)
 
 Ein Teambesitzer kann die Vertraulichkeitsbezeichnung und die Datenschutzeinstellung des Teams jederzeit ändern, indem er zum Team geht und dann **auf Team bearbeiten klickt.**
 
@@ -72,7 +72,7 @@ Ein Teambesitzer kann die Vertraulichkeitsbezeichnung und die Datenschutzeinstel
 
 ### <a name="control-guest-access-to-teams"></a>Steuern des Gastzugriffs auf Teams
 
-Sie können Vertraulichkeitsbezeichnungen verwenden, um den Gastzugriff auf Ihre Teams zu steuern. Teams mit einer Bezeichnung erstellt wurden, die den Gastzugriff nicht erlaubt, stehen nur Benutzern in Ihrer Organisation zur Verfügung. Personen außerhalb Ihrer Organisation können dem Team nicht hinzugefügt werden.
+Sie können Vertraulichkeitsbezeichnungen verwenden, um den Gastzugriff auf Ihre Teams zu steuern. Teams mit einer Bezeichnung erstellt wurden, die keinen Gastzugriff erlaubt, stehen nur Benutzern in Ihrer Organisation zur Verfügung. Personen außerhalb Ihrer Organisation können dem Team nicht hinzugefügt werden.
 
 ## <a name="microsoft-teams-admin-center"></a>Microsoft Teams Admin Center
 
@@ -90,16 +90,16 @@ Bevor Sie Vertraulichkeitsbeschriftungen Teams, sollten Sie die folgenden Einsch
 
 - **Vertraulichkeitsbeschriftungen werden von den Teams Graph, PowerShell-Cmdlets und Vorlagen nicht unterstützt.**
     
-    Benutzer können beim Erstellen von Teams keine Vertraulichkeitsbezeichnungen direkt über Teams Graph-APIs, Teams PowerShell-Cmdlets und Teams angeben. Moderne Gruppen und Graph-APIs und PowerShell-Cmdlets ermöglichen jedoch das Erstellen von Gruppen mit Bezeichnungen. Daher können Benutzer zunächst gruppen mit Bezeichnungen mithilfe von Groups Graph APIs oder PowerShell-Cmdlets erstellen und diese Gruppen dann in in Teams.
+    Benutzer können beim Erstellen von Teams nicht direkt über Teams Graph-APIs, Teams PowerShell-Cmdlets und Teams angeben. Moderne Gruppen und Graph-APIs und PowerShell-Cmdlets ermöglichen jedoch das Erstellen von Gruppen mit Bezeichnungen. Daher können Benutzer zuerst mithilfe von Groups Graph-APIs oder PowerShell-Cmdlets Gruppen mit Bezeichnungen erstellen und diese Gruppen dann in Teams.
 
 - **Unterstützung privater Kanäle**
     
     Private Kanäle, die in einem Team erstellt werden, erben die Vertraulichkeitsbezeichnung, die auf ein Team angewendet wurde. Die gleiche Bezeichnung wird automatisch auf die SharePoint für den privaten Kanal angewendet.
     
-    Wenn ein Benutzer die Vertraulichkeitsbeschriftung auf einer SharePoint-Website für einen privaten Kanal jedoch direkt ändert, wird diese Änderung der Bezeichnung im client-Client Teams wider. In diesem Szenario sehen Benutzer weiterhin die ursprüngliche Vertraulichkeitsbezeichnung, die auf das Team angewendet wurde, im Kopf des privaten Kanals.
+    Wenn ein Benutzer die Vertraulichkeitsbeschriftung auf einer SharePoint-Website für einen privaten Kanal jedoch direkt ändert, wird diese Änderung der Bezeichnung nicht im Teams widerspiegelt. In diesem Szenario sehen Benutzer weiterhin die ursprüngliche Vertraulichkeitsbezeichnung, die auf das Team angewendet wurde, im Kopf des privaten Kanals.
 
 ## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Erstellen und Konfigurieren von Vertraulichkeitsbezeichnungen für Teams
 
-Befolgen Sie die Anweisungen in der Microsoft 365, um Vertraulichkeitsbeschriftungen für Ihre Teams: 
+Befolgen Sie die Anweisungen in der Microsoft 365, um Vertraulichkeitsbeschriftungen für Ihre Dokumente zu erstellen Teams: 
 
-- [Verwenden Sie Vertraulichkeitsbezeichnungen,](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)um Inhalte in Microsoft Teams, Microsoft 365 Gruppen und SharePoint zu schützen.
+- [Verwenden Sie Vertraulichkeitsbezeichnungen, um Inhalte in Microsoft Teams, Microsoft 365 Gruppen und SharePoint zu schützen.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)

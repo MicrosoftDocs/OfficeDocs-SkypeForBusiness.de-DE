@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten und Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: bb709d8e618b68fad2bc87dc658eb6f67853e891
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593029"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726134"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
@@ -54,7 +54,7 @@ In diesem Szenario fügt der Teambesitzer "Marketing Leads" als Moderatoren hinz
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Verwenden eines Kanals für Kursdiskussionen in Teams für Education
 
-In Teams für Education möchte eine Naturwissenschaftliche Lehrkraft einen Kanal verwenden, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
+In Teams für Education soll eine Lehrkraft einen Kanal nutzen, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
 
 In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal zu moderieren. Die Lehrassistenten können dann neue Beiträge erstellen, um Diskussionen mit Schülern/Studenten zu starten und zu leiten.
 
@@ -66,7 +66,7 @@ Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung au
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
-![Einstellungen für managing-channel-moderation-in-teams](media/manage-channel-moderation-in-teams-preferences.png)
+![Einstellungen für managing-channel-moderation-in-teams.](media/manage-channel-moderation-in-teams-preferences.png)
 
 ### <a name="turn-on-or-turn-off-moderation-for-a-channel"></a>Aktivieren oder Deaktivieren der Moderation für einen Kanal
 
@@ -76,7 +76,7 @@ Um die Moderation für einen Kanal zu aktivieren, klicken Sie **unter Kanalmoder
 
 ### <a name="add-or-remove-channel-moderators"></a>Hinzufügen oder Entfernen von Kanalmoderatoren
 
-Unter **Wer sind die Moderatoren?** auf **Verwalten**, und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
+Unter **Wer befinden sich die Moderatoren?** auf Verwalten , und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie.  Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
 
 ### <a name="set-team-member-permissions"></a>Festlegen von Teammitgliedsberechtigungen
 

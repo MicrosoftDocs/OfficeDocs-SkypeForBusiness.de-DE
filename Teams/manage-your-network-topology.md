@@ -19,16 +19,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Netzwerkeinstellungen für Cloud-Sprachfeatures in Ihrer Microsoft Teams.
-ms.openlocfilehash: 7ed9837b676197b588669ae95db77c9e834371dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598419"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726574"
 ---
 # <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Verwalten Sie Ihre Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams
 
-Wenn Ihre Organisation standortbasiertes Routing für [Direct-Routing](location-based-routing-plan.md) oder dynamische Notrufe [implementiert,](configure-dynamic-emergency-calling.md)müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Cloud-Sprachfeatures in Microsoft Teams. Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu ermitteln. Dazu gehören Netzwerkregionen, Netzwerkstandorte, Subnetze und vertrauenswürdige IP-Adressen. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Weitere Informationen zu diesen Begriffen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
+Wenn Ihre Organisation standortbasiertes Routing für [Direct Routing](location-based-routing-plan.md) oder dynamische Notrufe [implementiert,](configure-dynamic-emergency-calling.md)müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Cloud-Sprachfeatures in Microsoft Teams. Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu ermitteln, und umfassen Netzwerkregionen, Netzwerkstandorte, Subnetze und vertrauenswürdige IP-Adressen. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Weitere Informationen zu diesen Begriffen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
 
 Sie konfigurieren Netzwerkeinstellungen auf der **Seite Netzwerktopologie** im Microsoft Teams Admin Center oder mithilfe Windows PowerShell.
 
@@ -40,7 +40,7 @@ Auf der Registerkarte Netzwerkstandorte der Seite  **Netzwerktopologie** definie
 
 #### <a name="add-and-configure-a-network-site"></a>Hinzufügen und Konfigurieren einer Netzwerkwebsite
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Netzwerkwebsites.**
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie  >  dann auf die **Registerkarte Netzwerkwebsites.**
 2. Klicken **Sie auf** Hinzufügen , und geben Sie dann einen Namen und eine Beschreibung für die Website ein.
 
     ![Screenshot der Seite "Netzwerkwebsite hinzufügen"](media/manage-network-topology-add-site.png)
@@ -50,14 +50,14 @@ Auf der Registerkarte Netzwerkstandorte der Seite  **Netzwerktopologie** definie
 5. Wenn Sie der Website Richtlinien für Notdienste zuweisen möchten, gehen Sie wie folgt vor:
 
     - Wenn Ihre Organisation Anrufpläne verwendet oder Direktrouting Telefonsystem, wählen Sie unter Richtlinie für Notrufe die zu verwendende Richtlinie aus.
-    - Wenn Ihre Organisation Telefonsystem Direct Routing bereitgestellt hat, wählen Sie unter Richtlinie für das Routing von Notrufen die zu verwendende Richtlinie aus.
+    - Wenn Ihre Organisation Telefonsystem Direct Routing bereitgestellt hat, wählen Sie unter Richtlinie für Das Routing von Notrufen die zu verwendende Richtlinie aus.
 
 6. Wenn Sie dem Standort ein Subnetz zuordnen möchten, klicken Sie unter **Subnetze** auf **Subnetze hinzufügen**. Geben Sie die IP-Version, DIE IP-Adresse und den Netzwerkbereich an, fügen Sie eine Beschreibung hinzu, und klicken Sie dann auf **Übernehmen.** Jedes Subnetz muss einem bestimmten Standort zugeordnet sein.
 7. Klicken Sie auf **Speichern**.
 
 #### <a name="modify-a-network-site"></a>Ändern einer Netzwerkwebsite
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Netzwerkwebsites.**
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie  >  dann auf die **Registerkarte Netzwerkwebsites.**
 2. Wählen Sie die Website aus, indem Sie links des Websitenamens klicken und dann auf **Bearbeiten klicken.**
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 

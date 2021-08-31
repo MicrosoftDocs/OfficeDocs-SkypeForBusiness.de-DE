@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Administratoren erfahren, wie Sie Ankündigungen bei Zu- und Abgang in einer Besprechung aktivieren oder Microsoft Teams können.
-ms.openlocfilehash: f3705284745d6fa470835d45369239b3a22f9713
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Administratoren können in einer Besprechung erfahren, wie Sie Ankündigungen bei Zu- und Abgang aktivieren Microsoft Teams können.
+ms.openlocfilehash: 6a939495c3fe537873b464064656fc529719457f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604324"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728864"
 ---
 # <a name="turn-on-or-off-entry-and-exit-announcements-for-meetings-in-microsoft-teams"></a>Aktivieren oder Deaktivieren von Ankündigungen bei Zu- oder Abgang für Besprechungen in Microsoft Teams
 
@@ -39,7 +39,7 @@ Die Konferenzbrücke nimmt einen Anruf eines Benutzers an, der sich über ein Te
   
 ## <a name="setting-meeting-join-options"></a>Festlegen von Optionen für die Besprechungsteilnahme
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
@@ -62,7 +62,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Weitere Informationen zu Windows PowerShell
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
 - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

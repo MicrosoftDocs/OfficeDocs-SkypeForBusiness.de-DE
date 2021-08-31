@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 76254b414bd282f75a01decc5016e5ae476a0f21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b09b6c6e42fcdd150d5aa95ebd56c9eaec36e01c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607842"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726664"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -96,11 +96,11 @@ Beispielsweise sieht Schulleiter nur die Klassen seiner Schule oder der Abteilun
 * Suchen Sie nach **Insights** und wählen Sie es aus.
 * Ein Beschreibungsbildschirm wird geöffnet. Klicken Sie auf **Hinzufügen**.
 
-:::image type="content" source="media/insights-add-personal-app.png" alt-text="Hinzufügen von Insights zu Teams":::
+:::image type="content" source="media/insights-add-personal-app.png" alt-text="Hinzufügen von Insights zu Teams.":::
 
 * Klicken Sie mit der rechten Maustaste auf das Insights-Symbol, und wählen Sie **Anheften** aus.
 
-:::image type="content" source="media/insights-pin-app.png" alt-text="Heften Sie die Insights-App an":::
+:::image type="content" source="media/insights-pin-app.png" alt-text="Heften Sie die Insights-App an.":::
 
 > [!TIP]
 > Sie können die Insights-App auch über diesen Link finden: [https://aka.ms/addInsights](https://aka.ms/addInsights)
@@ -112,7 +112,7 @@ Insights unterstützt Lerngemeinschaften während **des Lernzyklus**. Mit Echtze
 *   **Diskutieren Sie** Ergebnisse mit Schülern/Studenten und der Schulgemeinschaft, um Beziehungen, Zielsetzungen und Selbstreflektion zu stärken, Zusammenarbeit zu fördern sowie Ergebnisse zu verbessern.
 *   **Ergreifen Sie Maßnahmen**, um Maßnahmen zu entwickeln, Feedback zu Wachstumsbereichen zu geben, Unterrichtsstrategien zu modifizieren und zusätzliche benötigte Unterstützung zu identifizieren.
 
-:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights unterstützt Lerngemeinschaften während des Lernzyklus":::
+:::image type="content" source="media/insights-learning-cycle.png" alt-text="Insights unterstützt Lerngemeinschaften während des Lernzyklus.":::
 
 ## <a name="how-insights-works"></a>Wie funktioniert Insights?
 Insights erstellt leistungsstarke Analysen, die Lehrkräften helfen, bessere Lernergebnisse zu erzielen. Dies geschieht, indem die Aktivitäten von Kursteilnehmern in Teams analysiert und optional die SIS-Daten (Student Information System) genutzt werden, die Sie bereitstellen, um diese Aktivität zu kontextualisieren und zu gruppieren. 

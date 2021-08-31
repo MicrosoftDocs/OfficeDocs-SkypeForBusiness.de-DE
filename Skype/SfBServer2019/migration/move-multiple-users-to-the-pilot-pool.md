@@ -10,17 +10,17 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Mit Skype for Business Server 2019-Systemsteuerung oder Skype for Business Server 2019-Verwaltungsshell können Sie mehrere Benutzer aus Ihrem Legacypool in ihren Skype for Business Server 2019-Pilotpool verschieben.
-ms.openlocfilehash: 50525ce139cb324d71ebcdce54ef96463dc933b5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Sie können mehrere Benutzer aus Ihrem Legacypool in den Skype for Business Server 2019-Pilotpool verschieben, indem Sie Skype for Business Server 2019-Systemsteuerung oder Skype for Business Server 2019-Verwaltungsshell verwenden.
+ms.openlocfilehash: fc4d14d26a76ff4dbfc690fc7517aba77afd253f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624577"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726314"
 ---
 # <a name="move-multiple-users-to-the-pilot-pool"></a>Verschieben mehrerer Benutzer in den Pilotpool
 
-Mit Skype for Business Server 2019-Systemsteuerung oder Skype for Business Server 2019-Verwaltungsshell können Sie mehrere Benutzer aus Ihrem Legacypool in ihren Skype for Business Server 2019-Pilotpool verschieben.
+Sie können mehrere Benutzer aus Ihrem Legacypool in den Skype for Business Server 2019-Pilotpool verschieben, indem Sie Skype for Business Server 2019-Systemsteuerung oder Skype for Business Server 2019-Verwaltungsshell verwenden.
 
  **Inhalt dieses Artikels**
   
@@ -40,7 +40,7 @@ Mit Skype for Business Server 2019-Systemsteuerung oder Skype for Business Serve
     
 3. Wählen Sie zwei Benutzer aus, die Sie in den Skype for Business Server 2019-Pool verschieben möchten. In diesem Beispiel werden wir die Benutzer Chen Yang und Claus Hansen verschieben.
     
-     ![Verschieben von Benutzern in einen bestimmten Registrierungspool](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
+     ![Verschieben sie Benutzer in einen bestimmten Registrierungspool.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_MoveMultipleUsersList.JPG)
   
 4. Wählen Sie im Menü **Aktion** die Option **Ausgewählte Benutzer in Pool verschieben** aus.
     
@@ -48,7 +48,7 @@ Mit Skype for Business Server 2019-Systemsteuerung oder Skype for Business Serve
     
 6. Klicken Sie auf **Aktion** und dann auf **Ausgewählte Benutzer in Pool verschieben**. Klicken Sie auf **OK**.
     
-     ![Dialogfeld "Benutzer verschieben", Pool der Zielregistrierungsstelle](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
+     ![Dialogfeld "Benutzer verschieben", Pool der Zielregistrierungsstelle.](../media/Migration_LyncServer_from_LyncServer2010_CPanelMoveUserSelectPoolDialog.png)
   
 7. Stellen Sie sicher, dass die Spalte **"Registrierungsstellenpool"** für die Benutzer nun den Pool Skype for Business Server 2019 enthält, der angibt, dass die Benutzer erfolgreich verschoben wurden. 
     
@@ -57,13 +57,13 @@ Mit Skype for Business Server 2019-Systemsteuerung oder Skype for Business Serve
 
 1. Öffnen Sie die Skype for Business Server 2019-Verwaltungsshell. 
     
-2. Geben Sie in der Befehlszeile Folgendes ein, und ersetzen Sie **User1** und **User2** durch bestimmte Benutzernamen, die Sie verschieben möchten, und ersetzen Sie **pool_FQDN** durch den Namen des Zielpools. In diesem Beispiel verschieben wir die Benutzer Hao Chen und Katie Jordan. 
+2. Geben Sie in der Befehlszeile Folgendes ein, und ersetzen Sie **"User1"** und **"User2"** durch bestimmte Benutzernamen, die Sie verschieben möchten, und ersetzen Sie **pool_FQDN** durch den Namen des Zielpools. In diesem Beispiel verschieben wir die Benutzer Hao Chen und Katie Jordan. 
     
    ```PowerShell
    Get-CsUser -Filter {DisplayName -eq "User1" -or DisplayName - eq "User2"} | Move-CsUser -Target "pool_FQDN"
    ```
 
-    ![Beispiel für das Cmdlet "PowerShell Get-CsUser"](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
+    ![Beispiel für das Cmdlet "PowerShell Get-CsUser".](../media/Migration_LyncServer_from_LyncServer2010_move2users.jpg)
   
 3. Geben Sie an der Befehlszeile Folgendes ein: 
     
@@ -73,7 +73,7 @@ Mit Skype for Business Server 2019-Systemsteuerung oder Skype for Business Serve
 
 4. Die **Registrierungspool**-Identität sollte jetzt auf den Pool zeigen, den Sie im vorherigen Schritt als **pool_FQDN** angegeben haben. Das Vorhandensein dieser Identität bestätigt, dass die Benutzer erfolgreich verschoben wurden. Wiederholen Sie den Schritt, um zu überprüfen, ob **Benutzer2** verschoben wurde. 
     
-     ![Ausgabe des Cmdlets "PowerShell Get-UsUser -Identity"](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
+     ![Ausgabe des Cmdlets "PowerShell Get-UsUser -Identity".](../media/Migration_LyncServer_from_LyncServer2010_showuser.jpg)
   
 ## <a name="to-move-all-users-at-the-same-time-by-using-the-skype-for-business-server-2019-management-shell"></a>So verschieben Sie alle Benutzer gleichzeitig mithilfe der Skype for Business Server 2019-Verwaltungsshell
 <a name="sectionSection2"> </a>
@@ -88,7 +88,7 @@ In diesem Beispiel wurden alle Benutzer an den Legacypool (pool01.contoso.net) z
    Get-CsUser -OnLyncServer | Move-CsUser -Target "pool_FQDN"
    ```
 
-     ![PowerShell-Cmdlet und Ergebnisse in der Verwaltungsshell](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
+     ![PowerShell-Cmdlet und Ergebnisse in der Verwaltungsshell.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserMultipleAll.png)
   
 3. Führen Sie **"Get-CsUser"** für einen der Pilotbenutzer aus. 
     
@@ -100,6 +100,6 @@ In diesem Beispiel wurden alle Benutzer an den Legacypool (pool01.contoso.net) z
     
 5. Darüber hinaus können wir die Liste der Benutzer in der Systemsteuerung Skype for Business Server 2019 anzeigen und überprüfen, ob der Wert des Registrierungsstellenpools jetzt auf den Pool Skype for Business Server 2019 verweist.
     
-     ![Benutzerliste Skype for Business Server 2019-Systemsteuerung](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
+     ![Skype for Business Server Benutzerliste der Systemsteuerung 2019.](../media/Migration_LyncServer_CPanel_fromLyncServer2010_Move-CSUserVerifyHao.JPG)
   
 

@@ -24,16 +24,16 @@ ms.custom:
 - ms.teamsadmincenter.audioconferencing.bridgesettings
 - seo-marvel-mar2020
 description: Ändern Sie die Einstellungen der Audiokonferenzbrücke, einschließlich Eingangs- und Ausgangsbenachrichtigungen, Wiedergabe von Namen oder Telefonnummern, Töne und Aufforderungsanrufer, um ihren Namen zu notieren.
-ms.openlocfilehash: 434142eb0e7d8cd4759eec180e903eaecad47525
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 413cd4eeb54785f32e0916b5872c477095318cda
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607852"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729094"
 ---
 # <a name="change-the-settings-for-an-audio-conferencing-bridge"></a>Ändern der Einstellungen für eine Audiokonferenzbrücke
 
-Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten, erhalten Sie von der so genannten Audiokonferenzbrücke Telefonnummern für Ihre Benutzer. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern umfassen. Diese Telefonnummern werden verwendet, wenn Anrufer sich in eine Besprechung einwählen. Die Telefonnummer ist am Ende der Skype for Business- oder Microsoft Teams-Besprechungseinladung zu finden.
+Wenn Sie Audiokonferenzen in Microsoft 365 oder Office 365 einrichten, erhalten Sie von der sogenannten Audiokonferenzbrücke Telefonnummern für Ihre Benutzer. Eine Konferenzbrücke kann eine oder mehrere Telefonnummern umfassen. Diese Telefonnummern werden verwendet, wenn Anrufer sich in eine Besprechung einwählen. Die Telefonnummer ist am Ende der Skype for Business- oder Microsoft Teams-Besprechungseinladung zu finden.
   
 Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automatischen Telefonzentrale aus. Je nach Ihren Einstellungen kann sie dann Benachrichtigungen wiedergeben, Anrufer auffordern, ihren Namen aufzuzeichnen, und die PIN-Einstellungen steuern. Besprechungsorganisatoren erhalten PINs, damit sie eine Besprechung starten können, wenn sie keine Skype for Business- oder Microsoft Teams-App verwenden.
 
@@ -43,14 +43,14 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Symbol, das das Microsoft Teams-Logo zeigt](media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
+## <a name="an-icon-showing-the-microsoft-teams-logo-using-the-microsoft-teams-admin-center"></a>![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) Verwenden des Microsoft Teams Admin Centers
 
 1. Navigieren Sie in der linken Navigationsleiste zu **Konferenzbrücken**  >  **für Besprechungen.** 
 
 2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.** 
 
 3. Wählen Sie **im Bereich Einstellungen der** Brücke: 
-   - **Benachrichtigungen über Besprechungs- und -abgänge** Wenn Sie dies deaktivieren, werden Benutzer, die bereits an der Besprechung teilgetreten sind, nicht benachrichtigt, wenn jemand der Besprechung beitritt oder diese verlässt.
+   - **Benachrichtigungen über Besprechungs- und -abgänge** Wenn Sie dies deaktivieren, werden Benutzer, die bereits an der Besprechung teilgetreten sind, nicht benachrichtigt, wenn jemand der Besprechung beitritt oder sie verlässt.
     
      Wenn Sie Benachrichtigungen über den Zugang **zur Besprechung und das** Beenden der Besprechung aktivieren, können Sie die folgenden Optionen auswählen:
     
@@ -62,8 +62,8 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 
 4. Wenn Sie die PIN-Länge für Besprechungen festlegen möchten, wählen Sie in der Liste **PIN-Länge** die Anzahl der Ziffern für die PIN aus.
 
-5. Um anzugeben, ob E-Mails an Ihre Benutzer gesendet werden sollen, aktivieren oder deaktivieren Sie Automatisch E-Mails an Benutzer senden, wenn sich **deren Audiokonferenzkonfiguration ändert.**
-    Weitere Informationen finden Sie unter E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre [Audiokonferenzeinstellungen in Microsoft Teams](emails-sent-to-users-when-their-settings-change-in-teams.md) ändern, oder E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Skype for Business [Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) ändern.
+5. Um anzugeben, ob E-Mails an Benutzer gesendet werden sollen, aktivieren oder deaktivieren Sie Automatisch E-Mails an Benutzer senden, wenn sich **deren Audiokonferenzkonfiguration ändert.**
+    Weitere Informationen finden Sie unter E-Mails, die automatisch an Benutzer gesendet werden, wenn sich ihre [Audiokonferenzeinstellungen in Microsoft Teams ändern,](emails-sent-to-users-when-their-settings-change-in-teams.md) oder E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen [in Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/emails-sent-to-users-when-their-settings-change) ändern.
  
 6. Klicken Sie auf **Speichern**. 
 
@@ -71,7 +71,7 @@ Die Konferenzbrücke nimmt den Anruf an und gibt Sprachanweisungen einer automat
 
 - Um Zeit zu sparen bzw. den Vorgang zu automatisieren, können Sie das Cmdlet [Set-CsDialinConferencingBridge](/powershell/module/skype/Set-CsOnlineDialInConferencingBridge) nutzen.
     
-- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+- Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
     
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

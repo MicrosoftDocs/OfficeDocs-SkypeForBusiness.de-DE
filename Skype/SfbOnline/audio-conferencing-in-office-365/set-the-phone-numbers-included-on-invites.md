@@ -21,24 +21,24 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Hier erhalten Sie die Schritte zum Erstellen einer Standardtelefonnummer für Anrufer zur Teilnahme an einer Skype for Business Online-Besprechung. '
-ms.openlocfilehash: dc2bbff037a5e35b1fdb2c9b23c03246eee4a25b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7136a8108a5ecd9e55d2def1e4cedd1076b270ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594859"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729054"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-skype-for-business-online"></a>Festlegen der In Einladungen enthaltenen Telefonnummern in Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!Note]
-> Informationen zu telefonnummern für Besprechungsanrufe in Microsoft Teams finden Sie unter Festlegen der In Einladungen enthaltenen Telefonnummern [in Microsoft Teams.](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)
+> Informationen zu telefonnummern für Besprechungsanrufe in Microsoft Teams finden Sie unter Festlegen der Telefonnummern, die [in Einladungen in](/MicrosoftTeams/set-the-phone-numbers-included-on-invites-in-teams)Microsoft Teams.
 
 Mit Audiokonferenzen in Microsoft 365 oder Office 365 können Benutzer in Ihrer Organisation Skype for Business-Besprechungen erstellen und benutzern dann die telefonische Einwahl in diese Besprechungen ermöglichen. In Microsoft 365 und Office 365 haben Sie die Möglichkeit, eine Microsoft-Audiokonferenzbrücke oder eine Audiokonferenzbrücke eines Drittanbieters zu verwenden, die von einem genehmigten Audiokonferenzanbieter (ACP) gehostet wird.
   
 > [!NOTE]
-> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie sehen möchten, ob in Ihrer Region oder Ihrem Land/Ihrer Region Einwahltelefonnummern verfügbar sind, verwenden Sie das **Skype for Business Admin Center**  >  **Voice**  >  **Telefon-Nummern**  , klicken Sie auf Hinzufügen und dann auf Neue **Leistungsnummern**. Verwenden Sie die Listen für **Land/Region,** **Bundesland/Region** und Ort zum Filtern Ihrer Suche.> Wenn  Sie nach gebührenfreien Leistungsnummern suchen, wählen Sie gebührenfrei aus der Liste  **Bundesland/Region** aus.
+> Es gibt keine Ressource, die eine Liste aller Einwahlnummern für Audiokonferenzen enthält. Wenn Sie wissen möchten, ob Einwahltelefonnummern in Ihrer Region oder Ihrem Land/Ihrer Region verfügbar sind, verwenden Sie das **Skype for Business Admin Center** Voice  >    >  **Telefon-Nummern**,  klicken Sie auf Hinzufügen und dann auf Neue **Leistungsnummern**. Verwenden Sie die Listen für **Land/Region,**  Bundesland/Region und Ort zum Filtern Ihrer Suche.> Wenn  Sie nach gebührenfreien Servicenummern suchen, wählen Sie gebührenfrei aus der Liste **Bundesland/Region** aus. 
   
 Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organisation. All diese Nummern können verwendet werden, um an den Besprechungen teilzunehmen, die ein Besprechungsorganisator erstellt hat. Sie können aber auch eine Auswahl treffen, die bei den Einladungen zur jeweiligen Besprechung berücksichtigt werden sollen.
   
@@ -56,7 +56,7 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
     
 3. Wählen Sie **Benutzer** aus.
     
-    ![Auswählen von Benutzern im Skype for Business Admin Center](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
+    ![Zeigt die Auswahl von Benutzern im Skype for Business Admin Center.](../images/abc9ce4e-2250-474d-b053-b3bea8162c77.png)
   
 4. Wählen Sie die Benutzer aus, die Sie bearbeiten möchten:
     
@@ -93,7 +93,7 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
 Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßig eine E-Mail an den Benutzer gesendet. Wie Sie diese Einstellung ändern können, erfahren Sie unter [Aktivieren Sie oder deaktivieren Sie beim Senden von e-Mails aus, wenn Audio Konferenzen Einstellungen ändern](enable-or-disable-sending-emails-when-their-settings-change.md).
   
 > [!IMPORTANT]
-> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und Skype for Business Besprechungen aktualisiert und an die Teilnehmer gesendet werden. 
+> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und zukünftige Skype for Business müssen aktualisiert und an die Teilnehmer gesendet werden. 
   
 ## <a name="want-to-know-how-to-manage-with-windows-powershell"></a>Möchten Sie wissen, wie Sie die Verwaltung mit Windows PowerShell organisieren?
 
@@ -140,7 +140,7 @@ Wenn Sie die Konferenzeinstellungen eines Benutzers ändern, wird standardmäßi
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center gegenüber Geschwindigkeit, Einfachheit und Produktivität viele Vorteile, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Center beispielsweise, wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen, viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     

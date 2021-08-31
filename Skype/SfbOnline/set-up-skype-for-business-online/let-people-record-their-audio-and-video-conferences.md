@@ -20,12 +20,12 @@ ms.custom:
 - Setup
 - O365P_RecordingDesc
 description: 'Hier erfahren Sie, wie Sie die Aufzeichnung für Audio- und Videokonferenzen aktivieren und erfahren, was in Aufzeichnungen enthalten und was nicht. '
-ms.openlocfilehash: 8aee8991161364eaab29459ae305e6ba4cf37b50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3e4db64b7703ef4f7373c5607838a707767db78
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625737"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729924"
 ---
 # <a name="let-people-record-their-audio-and-video-conferences"></a>Zulassen, dass Personen ihre Audio- und Videokonferenzen aufzeichnen
 
@@ -33,9 +33,9 @@ ms.locfileid: "58625737"
 
 ## <a name="choose-the-default-recording-setting-for-a-single-user-or-everyone-in-your-organization"></a>Festlegen der standardmäßigen Aufzeichnungseinstellung für eine Person oder alle Personen in Ihrer Organisation
 
-![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
 
-1. Wechseln Sie zum Admin Center > **Skype for Business**, und klicken Sie dann auf **Benutzer**.
+1. Wechseln Sie zum Admin Center, > **Skype for Business**, und klicken Sie dann auf **Benutzer.**
     
 2. Wählen Sie **auf der** Seite Benutzer den oder die Benutzer aus der Liste aus, und klicken Sie dann auf **Bearbeiten**.
     

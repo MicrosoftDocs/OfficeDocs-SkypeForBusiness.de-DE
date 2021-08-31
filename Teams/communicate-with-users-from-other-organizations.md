@@ -18,12 +18,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
 description: Erfahren Sie, wie Sie Benutzer aus anderen Organisationen in Microsoft Teams mithilfe des externen (Partnerverbund) und des Gastzugriffs anrufen, mit ihnen chatten, sie finden und hinzufügen können.
-ms.openlocfilehash: b2a8b7a4fb7042596b5f96ab8ac59b65c5b2df58
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b4665c17559f94152279e86a82bb44c3c73f016
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582409"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729864"
 ---
 # <a name="use-guest-access-and-external-access-to-collaborate-with-people-outside-your-organization"></a>Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten
 
@@ -40,7 +40,7 @@ Richten Sie externen Zugriff ein, wenn Sie Personen außerhalb Ihrer Organisatio
 
 Der externe Zugriff ist standardmäßig für alle Domänen aktiviert. Sie können den externen Zugriff einschränken, indem Sie bestimmte Domänen zulassen oder blockieren oder den Zugriff deaktivieren.
 
-![Screenshot der Einstellungen für den externen Zugriff](media/external-access-federation-settings.png)
+![Screenshot der Einstellungen für den externen Zugriff.](media/external-access-federation-settings.png)
 
 Weitere Informationen zum Konfigurieren des externen Zugriffs finden Sie unter [Externen Zugriff verwalten](manage-external-access.md). 
 

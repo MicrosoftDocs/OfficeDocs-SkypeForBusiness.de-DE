@@ -23,16 +23,16 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
-ms.openlocfilehash: 5dd103651c4cd368b5304d4d33d753b5d13ab73d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 46f29649665521b2bc59c2a4a73db617398bcf37
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596199"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726634"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
 
-Microsoft Teams Der Connector für elektronische Krankenakten (Electronic Health Record, EHR) erleichtert es Kliniken, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
+Microsoft Teams Der Connector für elektronische Krankenakten (Electronic Health Record, EHR) erleichtert Es Kliniken, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
 Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinikern, die Unordnung fragmentierter Systeme zu beseitigen, damit sie Zeit für die bestmögliche Pflege aufwenden können. Microsoft Teams Der EHR-Connector (Electronic Health Record) kann:
 
 - Starten Teams virtuelle Besuche vom Anbieter-EHR-System mit einem integrierten klinischen Workflow.
@@ -49,7 +49,7 @@ Sie müssen sicherstellen, dass Sie die folgenden Voraussetzungen haben, bevor S
 
 - Zugriff auf die Microsoft Teams-App auf dem [Epic’s App Orchard-Marktplatz](https://apporchard.epic.com/Gallery?id=6153).
 
-- Aktives Abonnement der Microsoft Cloud im Gesundheitswesen oder Abonnement des eigenständigen Microsoft Teams EHR-Connector (nur während Produktionstests erzwungen).
+- Aktives Abonnement für Microsoft Cloud im Gesundheitswesen oder Abonnement des Microsoft Teams EHR-Connector (nur bei Produktionstests erzwungen).
 
 - Benutzer müssen über eine entsprechende Microsoft 365- oder Office 365-Lizenz verfügen, die Microsoft Teams-Besprechungen enthält.
 
@@ -72,14 +72,14 @@ Sie benötigen außerdem Informationen von folgenden Personen in Ihrer Organisat
 
 Das Konnektor-Setup erfordert Folgendes:
 
-- [Starten des Konfigurationsportals für den EHR-Connector](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
+- [Starten des Konfigurationsportals für EHR-Connectors](ehr-admin.md#launch-the-ehr-connector-configuration-portal)
 - [Konfigurationsinformationen](ehr-admin.md#configuration-information)
 - [Genehmigen oder Anzeigen Konfiguration](ehr-admin.md#approve-or-view-configuration)
 - [Überprüfen und Beenden der Konfiguration](ehr-admin.md#review-and-finish-the-configuration)
 
-### <a name="launch-the-ehr-connector-configuration-portal"></a>[Starten des Konfigurationsportals für den EHR-Connector](#launch-the-ehr-connector-configuration-portal)
+### <a name="launch-the-ehr-connector-configuration-portal"></a>[Starten des Konfigurationsportals für EHR-Connectors](#launch-the-ehr-connector-configuration-portal)
 
-Mit dem Start des Konfigurationsportals für EHR-Connectors können Sie Ihre Organisation im Gesundheitswesen so konfigurieren, dass sie virtuelle Besuche im Microsoft Teams startet. Sie konfigurieren eine einzelne oder mehrere Organisationen, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Testen Sie die Integration aus der Testumgebung von Epic, bevor Sie zur Produktion übergehen.
+Die Konfiguration Ihrer Organisation im Gesundheitswesen für die Einführung virtueller Besuche Microsoft Teams mit dem Starten des Konfigurationsportals für den EHR-Connector. Sie konfigurieren eine einzelne oder mehrere Organisationen, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Testen Sie die Integration aus der Testumgebung von Epic, bevor Sie zur Produktion übergehen.
   
 - Konfigurations-URL für den EGA-Konnektor: [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -148,7 +148,7 @@ Hauptmerkmale der Anbietererfahrung:
 
 - Der Anbieter kann in Echtzeit Aktualisierungen der Teilnehmer, die für einen bestimmten Termin eine Verbindung herstellen oder trennen, sehen. Der Anbieter kann sehen, wann der Patient mit einem virtuellen Besuch verbunden ist.
 
-  ![Anbietererfahrung eines virtuellen Besuchs mit dem Patienten](../../media/ehc-provider-experience-6.png)
+  ![Anbietererfahrung eines virtuellen Besuchs mit Patienten.](../../media/ehc-provider-experience-6.png)
 
 ### <a name="patient-experience"></a>Patientenerfahrung
 
@@ -166,7 +166,7 @@ Hauptmerkmale der Patientenerfahrung:
 
 - Das Testen des Videos und des Mikrofons ist in der Lobby möglich, bevor Sie an dem virtuellen Besuch teilnehmen.
 
-  ![Patientenerfahrung des virtuellen Besuchs](../../media/ehc-virtual-visit-5.png)
+  ![Patientenerfahrung des virtuellen Besuchs.](../../media/ehc-virtual-visit-5.png)
 
 > [!Note]
 > Epic, MyChart, Haiku und Canto sind Marken der Epic Systems Corporation.

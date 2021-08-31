@@ -13,13 +13,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
-description: 'Zusammenfassung: Erfahren Sie, wie Sie in Skype for Business Server 2015 eine Protokollerfassungssitzung für den zentralisierten Protokollierungsdienst starten oder beenden.'
-ms.openlocfilehash: 8f21b4b63c4261443cf6749f1daf0b905b1adb11
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Protokollerfassungssitzung des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015 starten oder beenden.'
+ms.openlocfilehash: 5ed9630f21e409c240871c981db6346d2d2d9599
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608053"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726954"
 ---
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  
@@ -31,7 +31,7 @@ Um die richtigen Informationen zu erfassen, müssen Sie sicherstellen, dass Sie 
   
 Das Standardszenario heißt **AlwaysOn**. AlwaysOn soll dazu dienen, das Szenario ständig auszuführen, wie der Name des Szenarios bereits impliziert. Das Szenario AlwaysOn erfasst Informationen auf der Ebene "Info" (zum Protokolliergrad "Info" zählen zusätzlich zu den Infomeldungen Meldungen der Ebenen "Schwerwiegend", "Fehler" und "Warnung") für viele der häufigsten Serverkomponenten. Von AlwaysOn werden Informationen vor und nach einem Problem sowie während eines Problems erfasst. Daher unterscheidet es sich gravierend vom typischen Verhalten früherer Protokollierungstools wie OCSLogger. OCSLogger wurde ausgeführt, nachdem das Problem bereits aufgetreten war. Dadurch wurde die Problembehandlung erschwert, da die erfassten Daten nicht proaktiv, sondern rückwirkend waren. Falls AlwaysOn nicht die gewünschten Informationen zum Ermitteln der fehlerhaften Komponente und keine Vorgehensweise zur Behebung enthält (was aufgrund des Umfangs der Anbieter in AlwaysOn unwahrscheinlich ist), erhalten Sie immerhin angemessene Informationen, mit denen die erforderlichen Schritte (z. B. Erstellen eines neuen Szenarios, Erfassen weiterer Informationen, Ausführen einer anderen Suche zum Sammeln genauerer Einzelheiten usw.) ermittelt werden können.
   
-Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgeben von Befehlen. Eine Reihe von Themen konzentriert sich auf die Verwendung von Windows PowerShell über die Skype for Business Server Verwaltungsshell. Die Möglichkeit, eine Reihe komplexer Konfigurationen und Befehle zu verwenden, bevorzugt Windows PowerShell für die Verwendung des zentralisierten Protokollierungsdiensts. Da Windows PowerShell über die Skype for Business Server-Verwaltungsshell nahezu für alle Funktionen in Skype for Business Server vorhanden ist, werden nur die Windows PowerShell Befehle behandelt. 
+Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgeben von Befehlen. Eine Reihe von Themen konzentriert sich auf die Verwendung von Windows PowerShell über die Skype for Business Server-Verwaltungsshell. Die Möglichkeit, eine Reihe komplexer Konfigurationen und Befehle zu verwenden, bevorzugt Windows PowerShell für die Verwendung des zentralisierten Protokollierungsdiensts. Da Windows PowerShell über die Skype for Business Server Verwaltungsshell nahezu für alle Funktionen in Skype for Business Server vorhanden ist, werden nur die Windows PowerShell Befehle behandelt. 
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>So führen Sie Start-CsClsLogging mit Windows PowerShell mit einfachen Befehlen aus
 
@@ -72,7 +72,7 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgebe
 
 1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
-2. Zur Verwaltung der Protokollierungsbefehle stehen zusätzliche Parameter zur Verfügung. Sie können "-Duration" verwenden, um die Zeitdauer für die Ausführung des Szenarios anzupassen. Sie können auch "-Computers", eine Durch kommagetrennte Liste der vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) des Computers oder "-Pools", eine kommagetrennte Liste der FQDNs für Pools definieren, auf denen Sie die Protokollierung ausführen möchten.
+2. Zur Verwaltung der Protokollierungsbefehle stehen zusätzliche Parameter zur Verfügung. Sie können "-Duration" verwenden, um die Zeitdauer für die Ausführung des Szenarios anzupassen. Sie können auch "-Computers", eine Durch Komma getrennte Liste der vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) des Computers oder "-Pools", eine durch Kommas getrennte Liste der FQDNs für Pools definieren, auf denen Sie die Protokollierung ausführen möchten.
     
     Sie starten eine Protokollierungssitzung für das UserReplicator-Szenario im Pool "pool01.contoso.net". Außerdem legen Sie für die Dauer der Protokollierungssitzung 8 Stunden fest. Geben Sie hierzu Folgendes ein:
     
@@ -102,14 +102,14 @@ Um die Funktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}
 ```
 
-Zum Beispiel:
+Beispiel:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Sie fragen sich vielleicht: Wo werden die Protokolle aufbewahrt, nachdem Sie die Protokollierung aktiviert haben? Da Sie mithilfe von Verwaltungsshellabfragen, die an die CLS-Agents gesendet werden, auf die in den Protokollen gespeicherten Informationen zugreifen, können Sie die Ergebnisse in mehrere dateiformate ausgeben, wobei auf jedem Server ein CLS-Agent seine Datensätze aufbewahrt, was eigentlich nicht wichtig ist.  Die Protokolldateien können an einem Speicherort gespeichert werden, den Sie mithilfe einer Vielzahl von Tools angeben und lesen und analysieren, einschließlich **Snooper.exe** und jedes Tool, das eine Textdatei lesen kann, z. **B.Notepad.exe**. Snooper.exe ist Teil der Skype for Business Server 2015-Debugtools und steht als [Webdownload](https://go.microsoft.com/fwlink/p/?LinkId=285257)zur Verfügung.
+> Sie fragen sich vielleicht: Wo werden die Protokolle aufbewahrt, nachdem Sie die Protokollierung aktiviert haben? Da Sie mithilfe von Verwaltungsshellabfragen, die an die CLS-Agents gesendet werden, auf die in den Protokollen gespeicherten Informationen zugreifen, können Sie die Ergebnisse in mehrere dateiformate ausgeben, wobei auf jedem Server ein CLS-Agent seine Datensätze aufbewahrt, was eigentlich nicht wichtig ist.  Die Protokolldateien können an einem Speicherort gespeichert werden, den Sie mithilfe einer Vielzahl von Tools angeben und lesen und analysieren, einschließlich **Snooper.exe** und jedes Tool, das eine Textdatei lesen kann, z. **B.Notepad.exe.** Snooper.exe ist Teil der Skype for Business Server 2015-Debugtools und steht als [Webdownload](https://go.microsoft.com/fwlink/p/?LinkId=285257)zur Verfügung.
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>So beenden Sie eine derzeit ausgeführte sitzung des zentralisierten Protokollierungsdiensts
 
@@ -121,7 +121,7 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
    Show-CsClsLogging
    ```
 
-   ![Windows PowerShell Konsole nach dem Aufrufen von Show-CsCl](../../media/Ops_Show_Stop_CsClsLogging.jpg)
+   ![Windows PowerShell Konsole nach dem Aufrufen von Show-CsCl.](../../media/Ops_Show_Stop_CsClsLogging.jpg)
   
    Das Ergebnis von "Show-CsClsLogging" ist eine Zusammenfassung der ausgeführten Szenarien und der Ebenen, auf denen Sie ausgeführt werden. Ausführliche Informationen finden Sie unter [Show-CsClsLogging](/powershell/module/skype/show-csclslogging?view=skype-ps).
     

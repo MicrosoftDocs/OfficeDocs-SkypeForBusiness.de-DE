@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Direct Routing-Konfiguration überwachen und behandeln, einschließlich Session Border Controller, Direct Routing-Komponenten und Telekommunikations-Trunks.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 537df3fb87386914b88da34dcdd5717cfd5700dc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618501"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726884"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
@@ -46,7 +46,7 @@ Wenn beispielsweise für einen bestimmten Benutzer mehrere SBCs zum Weiterleiten
 
 Das folgende Diagramm zeigt ein Beispiel für die Konfiguration: 
 
-![Konfigurationsbeispiel für SIP-Optionen](media/sip-options-config-example.png)
+![Konfigurationsbeispiel für SIP-Optionen.](media/sip-options-config-example.png)
 
 Wenn ein Benutzer die Nummer +1 425 anruft, wertet \<any seven digits> Direct Routing die Route aus. Es gibt zwei SBCs an der Route: sbc1.contoso.com und sbc2.contoso.com. Beide SBCs haben die gleiche Priorität auf der Route. Vor der Auswahl eines SBC wertet der Routingmechanismus den Zustand der SBCs basierend darauf aus, wann der SBC die SIP-Optionen beim letzten Mal gesendet hat. 
 
@@ -66,7 +66,7 @@ Herabstufung bedeutet, dass SBC nicht zuerst ausprobiert wird. Beispielsweise ha
 
 Wenn sbc1.contoso.com SIP-Optionen nicht wie zuvor beschrieben in regelmäßigen Abständen senden, wird sie herabgestuft. Als Nächstes sbc2.contoso.com sie nach dem -Aufruf. Wenn "sbc2.contoso.con" den Anruf nicht abliefern kann, wird sbc1.contoso.com (herabgestuft) erneut versucht, bevor ein Fehler generiert wird. 
 
-Wenn zwei (oder mehr) SBCs in einer Route als fehlerfrei und gleich angesehen werden, wird Fisher-Yates gemischteUffle angewendet, um die Anrufe zwischen den SBCs zu verteilen.
+Wenn zwei (oder mehr) SBCs auf einer Route als fehlerfrei und gleich angesehen werden, wird Fisher-Yates gemischteUffle angewendet, um die Anrufe zwischen den SBCs zu verteilen.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Überwachen des Anrufqualitätsanalyse-Dashboards und von SBC-Protokollen 
  
@@ -83,6 +83,6 @@ Das Anrufqualitätsdashboard bietet Informationen zur Anrufqualität und Zuverl�
 
 Bei einem Anruffehler bietet die Anrufanalyse SIP-Standardcodes, die Ihnen bei der Problembehandlung helfen. 
 
-![Sip-Beispielcode für einen Anruffehler](media/failed-response-code.png)
+![Beispiel für SIP-Code für einen Anruffehler.](media/failed-response-code.png)
 
 Die Anrufanalyse kann jedoch nur hilfreich sein, wenn Aufrufe die internen Komponenten von Direct-Routing erreichen und fehlschlagen. Bei Problemen mit der SBC-Kopplung oder bei Problemen, bei denen die SIP-Einladung abgelehnt wurde (z. B. wenn der Name des Trunk-FQDN falsch konfiguriert ist), hilft die Anrufanalyse nicht. Verweisen Sie in diesem Fall auf die SBC-Protokolle. Direct Routing sendet eine detaillierte Beschreibung der Probleme an die SBCs. diese Probleme können aus den SBC-Protokollen gelesen werden.

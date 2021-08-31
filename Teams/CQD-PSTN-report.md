@@ -14,17 +14,17 @@ audience: Admin
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-description: Verwenden Sie Microsoft Teams PSTN Direct Routing-Bericht (Microsoft Teams Call Quality Dashboard, CQD) PSTN Direct Routing, um PSTN-Anrufe in ihrem Netzwerk zu überwachen Microsoft Teams.
-ms.openlocfilehash: 18e24690fe86bf7efd511bea674c3d3d7eba3e43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Verwenden Sie Microsoft Teams PSTN Direct Routing-Bericht zum Qualitätsdashboard (Anrufqualitätsdashboard, CQD) zur Überwachung und Problembehandlung bei Anrufen über das Festnetz in Microsoft Teams.
+ms.openlocfilehash: ae36ff214de2142b74b8493e925e25f32572709c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635059"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726424"
 ---
 # <a name="using-the-cqd-pstn-direct-routing-report"></a>Verwenden des PstN-Direktroutingberichts für CQD
 
-Neu im März 2020 ist, dass wir unseren herunterladbaren Power BI-Abfragevorlagen für CQD einen PstN Direct Routing-Bericht (Microsoft Teams Call Quality Dashboard, [CQD)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)hinzugefügt haben. 
+Neu im März 2020 ist, dass wir unseren herunterladbaren Power BI-Abfragevorlagen für das Anrufqualitätsdashboard einen PSTN Direct Routing-Bericht für das Microsoft Teams-Anrufqualitätsdashboard hinzugefügt [haben.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true) 
 
 
 Der CQD PSTN Direct Routing Report (CQD PSTN Direct Routing Report.pbit) hilft Ihnen, die Verwendungsmuster und die Qualität Ihrer PSTN-Dienste zu verstehen. Verwenden Sie diesen Bericht zum Überwachen der Dienstnutzung, Informationen über Ihren Session Border Controller (SBC), den Telefoniedienst, Netzwerkparameter und Details zum Netzwerkeffektivitätsverhältnis. Diese Informationen können Ihnen dabei helfen, Probleme zu erkennen, einschließlich des Grunds für verworfene Anrufe. So können Sie beispielsweise sehen, wann die Lautstärke sinkt oder wie viele Anrufe betroffen sind und aus welchem Grund.
@@ -45,17 +45,17 @@ Der PstN-Direktroutingbericht für das CQD-Format enthält vier Abschnitte:
 1. Analysieren nach Anruftyp, SBC, Anrufer- und Anruferland
 
    Im Bericht CQD PSTN Direct Routing werden Zuverlässigkeits- und Nutzungsmetriken für alle SBCs in Ihrem Mandanten für die letzten 7, 30 oder 180 Tage (6 Monate) zusammengefasst. Sie können Daten nach Anruftyp, SBC, Anrufer- und Anruferland analysieren. Wenn Sie an einem bestimmten SBC oder Land interessiert sind, können Sie Änderungen an Trends im ausgewählten Zeitraum erkennen.
-   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Screenshot der filter available in the CQD PSTN Direct Routing report":::
+   :::image type="content" source="media/CQD-PSTN-report8.png" alt-text="Screenshot der filter available in the CQD PSTN Direct Routing report.":::
    
 2. Nachverfolgen von Trends
 
     Die Analyse von Trends ist unerlässlich, wenn Sie versuchen, die Nutzung von Dienstleistungen und die Zuverlässigkeit zu verstehen. Stündlich gegebene Trends bieten einen genauen Blick auf die tägliche Leistung, wodurch Vorfälle in Echtzeit identifiziert werden können. Bei täglichen Trends können Sie Ihren Dienstzustand langfristig betrachten. Es ist wichtig, dass Sie mit einer geeigneten Daten granularität zwischen diesen beiden Modi wechseln können. Der Bericht PSTN-Direktrouting für AQD-Nachrichten enthält eine Übersicht über die 6-Monat-Trends, Tagestrends für 7 und 30 Tage sowie Stündtrends, damit Sie die Leistung auf den einzelnen Ebenen analysieren können.
-    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Screenshot of trends graphs in CQD PSTN Direct Routing report":::
+    :::image type="content" source="media/CQD-PSTN-report9.png" alt-text="Screenshot of trends graphs in CQD PSTN Direct Routing report.":::
 
 3. Drill through to SBC or user level
 
    Wir haben Drillthrough-Funktionen für viele Datenkategorien im AQD aufbauen, mit denen Sie die Nutzung oder Zuverlässigkeitsverteilung auf SBC- oder Benutzerebene schnell verstehen können. Mithilfe von Drillthrough können Sie Probleme an interessanten Themen schnell finden und die Auswirkungen der realen Benutzer verstehen. Die Features des PstN Direct Routing-Berichts für das CQD-Routing führen einen Drilldown zu den Metriken "Dienstdetails" und "Netzwerkeffektivitätsverhältnis" durch. Klicken Sie auf den Datenpunkt, an dem Sie interessiert sind, um Drilldowns zu Details auf SBC- oder Benutzerebene anzuzeigen.
-   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Screenshot showing drill-through capability on a data point":::
+   :::image type="content" source="media/CQD-PSTN-report10.png" alt-text="Screenshot einer Drillthroughfunktion für einen Datenpunkt":::
 
 
 ## <a name="pstn-overview"></a>PSTN-Übersicht
@@ -67,7 +67,7 @@ Wenn Sie z. B. an der Gesamtverwendung und Integrität aller eingehenden Anrufe 
 
 | **Herausrufen** | **Beschreibung**                                                                                                                                                 |
 | ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1            | Sie können die oben angezeigten Filter verwenden, um einen Drilldown zu starten und ByotIn als Anruftyp auszuwählen, abc.bca.contoso.com Session Boarder Controller und USA als internes Land auszuwählen. |
+| 1            | Sie können die oben angezeigten Filter verwenden, um einen Drilldown zu starten und ByotIn als Anruftyp auszuwählen, abc.bca.contoso.com Session Boarder Controller und USA als internes Land auswählen. |
 | 2            | Nutzungstrend für die letzten 180 Tage. Einen Verwendungsdetailbericht finden Sie auf der Seite "Dienstdetails".                                                                     |
 | 3            | Post Dial Delay, Latency, Jitter, and Packet Loss trend for the past 180 days. Sie finden den Detailbericht auf der Seite Netzwerkparameter.                           |
 | 4            | Gleichzeitiger Anruf- und täglich aktiver Benutzer-Trend für die letzten 180 Tage. Mithilfe dieses Diagramms können Sie die maximale Lautstärke des Diensts besser verstehen.                            |
@@ -117,7 +117,7 @@ Zum Beispiel:
 
 ![Screenshot: PSTN-CQD-Bericht](media/CQD-PSTN-report4.png)
 
-Wenn Tages-NER am 05.02.2020 ein Einbruch hat, können Sie auf das Datum klicken, und andere Diagramme zoomen auf dieses bestimmte Datum.
+Wenn Tages-NER am 05.02.2020 ein Einbruch hat, können Sie auf das Datum klicken, und andere Diagramme zoomen auf dieses spezifische Datum.
 
 ![Screenshot: PSTN-CQD-Bericht](media/CQD-PSTN-report5.png)
 
@@ -125,7 +125,7 @@ Aus dem NER-Trend "Guter Prozentsatz pro Stunde" können Sie feststellen, dass d
 
 ## <a name="network-parameters"></a>Netzwerkparameter
 
-Alle Netzwerkparameter werden von der Direct Routing-Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter Vorbereiten des Unternehmensnetzwerks für [Microsoft Teams](prepare-network.md)und Unter Kunden-Edge finden Sie Informationen Microsoft Edge empfohlenen Werte.
+Alle Netzwerkparameter werden von der Direct Routing-Schnittstelle zum Session Border Controller gemessen. Informationen zu den empfohlenen Werten finden Sie unter Vorbereiten des Unternehmensnetzwerks für [Microsoft Teams](prepare-network.md)und unter Kunden-Edge können Microsoft Edge Werte finden.
 
   - **Jitter** – Ist das Maß für die Variation der Verzögerungszeit bei der Netzwerkverteilung in Millisekunden, die mithilfe von RTCP (The RTP Control Protocol) zwischen zwei Endpunkten berechnet wird.
 

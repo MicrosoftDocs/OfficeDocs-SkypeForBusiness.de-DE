@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04c96412e93029858c5444d662e7db3e65224a21
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578349"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729814"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -158,7 +158,7 @@ Die von Dozenten geleitete Teamerstellung ist eine großartige Bereitstellungsop
 
 Bei diesem hybriden Ansatz können Sie entweder SDS zum Erstellen von Gruppen für jeden Kurs (empfohlen) verwenden oder [Graph-API](/graph/api/educationroot-post-classes) verwenden, um sie selbst zu erstellen. Nach der Vorbereitung von Kursgruppen können Lehrkräfte deren Gruppen in Teams konvertieren, indem Sie das Symbol **Vorgeschlagene Kurse** verwenden.
 
-:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot mit dem Symbol Vorgeschlagene Kurse":::
+:::image type="content" source="media/class-teams-edu-suggested-classes.png" alt-text="Screenshot mit dem Symbol Vorgeschlagene Kurse.":::
 
 ##### <a name="benefits"></a>Vorteile
 

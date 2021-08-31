@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 124908362a762a9940f87713dd4e699459443e85
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630209"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729224"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -43,7 +43,7 @@ Wir empfehlen eine phasenweise Bereitstellung von Teams, Workload nach Workload 
 - [Besprechungen und Konferenzen](deploy-meetings-microsoft-teams-landing-page.md)
 - [Cloud Voice](cloud-voice-landing-page.md)
 
-![Diagramm zur Veranschaulichung der Bereitstellungswege von Microsoft Teams](media/get-started-with-teams-quick-start-pathways.png)
+![Diagramm zur Veranschaulichung der Bereitstellungswege von Teams.](media/get-started-with-teams-quick-start-pathways.png)
 
 Wenn es sich bei Ihrem Unternehmen um eine mittlere oder große Organisation handelt, [verwenden Sie den Ratgeber für Microsoft Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md), um das organisationsweite Rollout dieser Workloads leichter planen zu können. Der Ratgeber nutzt Microsoft Teams selbst zum Erstellen von Planaufgaben, die Besitzern zugewiesen werden, um Dokumente freizugeben und die Kommunikation zwischen den Mitgliedern Ihres Bereitstellungsteams zu ermöglichen.
 

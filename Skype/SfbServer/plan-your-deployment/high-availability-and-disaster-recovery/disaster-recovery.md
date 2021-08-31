@@ -12,23 +12,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 142caf34-0f20-47f3-9d32-ce25ab622fad
-description: Für die Notfallwiederherstellung bietet Skype for Business Server eine Poolpaarung mit Failover für den Fall, dass ein Pool ausfällt.
-ms.openlocfilehash: 728419a20fe99db004b739e599355c9b64a8844f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Für die Notfallwiederherstellung bietet Skype for Business Server Poolpaarung mit Failover für den Fall, dass ein Pool ausfällt.
+ms.openlocfilehash: b6a2c33c123f70850335ce55aba06071ff4104eb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603834"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58728834"
 ---
 # <a name="front-end-pool-disaster-recovery-in-skype-for-business-server"></a>Notfallwiederherstellung von Front-End-Pools in Skype for Business Server
  
-Für die Notfallwiederherstellung bietet Skype for Business Server eine Poolpaarung mit Failover für den Fall, dass ein Pool ausfällt.
+Für die Notfallwiederherstellung bietet Skype for Business Server Poolpaarung mit Failover für den Fall, dass ein Pool ausfällt.
   
 Für die stabilsten Notfallwiederherstellungsoptionen in Skype for Business Server stellen Sie Front-End-Pools an zwei geografisch verteilten Standorten bereit. Jeder Standort verfügt über einen Front-End-Pool, der mit einem entsprechenden Front-End-Pool am anderen Standort gekoppelt ist. Beide Standorte sind aktiv, und der Sicherungsdienst bietet eine Echtzeitdatenreplikation, um die Pools synchronisiert zu halten. Weitere Informationen finden Sie unter [Bereitstellen von Front-End-Poolpaaren für die Notfallwiederherstellung in Skype for Business Server,](../../deploy/deploy-high-availability-and-disaster-recovery/front-end-pools-for-disaster-recovery.md) wenn Sie die Front-End-Poolpaarung implementieren möchten.
   
-![Zeigt Front-End-Pools an zwei verschiedenen Standorten an, die miteinander gekoppelt sind](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
+![Zeigt Front-End-Pools an zwei verschiedenen Standorten an, die miteinander gekoppelt sind.](../../media/f74533c0-a10e-4f18-85a8-b9a008497573.jpg)
   
-Wenn der Pool an einem Standort fehlschlägt, können Sie einen Failover der Benutzer aus diesem Pool auf den Pool am anderen Standort ausführen, der dann alle Benutzer in beiden Pools bedient. Für die Kapazitätsplanung sollten Sie jeden Pool so entwerfen, dass er die Arbeitsauslastung aller Benutzer in beiden Pools im Notfall verarbeiten kann.
+Wenn der Pool an einem Standort fehlschlägt, können Sie die Benutzer aus diesem Pool mit dem Pool am anderen Standort übergehen, der dann alle Benutzer in beiden Pools bedient. Für die Kapazitätsplanung sollten Sie jeden Pool so entwerfen, dass er die Arbeitsauslastung aller Benutzer in beiden Pools im Notfall verarbeiten kann.
   
 Zwei Rechenzentren, die miteinander gekoppelte Front-End-Pools enthalten, können beliebig weit voneinander entfernt sein. Es wird empfohlen, zwei Rechenzentren in derselben Weltregion mit hochschnellen Verbindungen zu koppeln. 
   
@@ -62,9 +62,9 @@ Bei allen RTO- und RPO-Nummern in diesem Dokument wird davon ausgegangen, dass s
   
 ## <a name="central-management-store-failover"></a>Failover des zentralen Verwaltungsspeichers
 
-Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu den Servern und Diensten in Ihrer Bereitstellung. Jede Skype for Business Server Bereitstellung umfasst einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pools gehostet wird.
+Der zentrale Verwaltungsspeicher enthält Konfigurationsdaten zu den Servern und Diensten in Ihrer Bereitstellung. Jede Skype for Business Server Bereitstellung enthält einen zentralen Verwaltungsspeicher, der vom Back-End-Server eines Front-End-Pools gehostet wird.
   
-Wenn Sie den Pool koppeln, der den zentralen Verwaltungsspeicher hostet, wird im Sicherungspool eine Sicherungsdatenbank für den zentralen Verwaltungsspeicher eingerichtet. Zu jedem Zeitpunkt ist eine der beiden Zentralen Verwaltungsspeicherdatenbanken aktiv, die andere ist ein Standbymodus. Der Inhalt wird vom Sicherungsdienst aus der aktiven Datenbank in den Standbymodus repliziert.
+Wenn Sie den Pool koppeln, der den zentralen Verwaltungsspeicher hostet, wird eine Datenbank für den zentralen Sicherungsspeicher im Sicherungspool eingerichtet. Zu jedem Zeitpunkt ist eine der beiden Zentralen Verwaltungsspeicherdatenbanken aktiv, die andere ist ein Standbymodus. Der Inhalt wird vom Sicherungsdienst aus der aktiven Datenbank in den Standbymodus repliziert.
   
 ![Zeigt zwei Front-End-Pools an, einen mit dem aktiven CMS-Speicher und den anderen mit dem passiven Sicherungs-CMS-Speicher.](../../media/aa479398-eb56-4854-8d50-1eff39c58a56.jpg)
   
@@ -76,11 +76,11 @@ Die Engineeringziele für das Failover des zentralen Verwaltungsspeichers sind 5
   
 ## <a name="front-end-pool-pairing-data-security"></a>Datensicherheit bei der Kopplung von Front-End-Pools
 
-Der Sicherungsdienst überträgt kontinuierlich Benutzerdaten und Konferenzinhalte zwischen zwei gepaarten Front-End-Pools. Die Benutzerdaten enthalten SIP-URIs des Benutzers sowie Konferenzpläne, Kontaktlisten und Einstellungen. Konferenzinhalte umfassen Microsoft PowerPoint Uploads sowie Whiteboards, die in Konferenzen verwendet werden.
+Der Sicherungsdienst überträgt kontinuierlich Benutzerdaten und Konferenzinhalte zwischen zwei front-End-Paarpools. Die Benutzerdaten enthalten SIP-URIs des Benutzers sowie Konferenzpläne, Kontaktlisten und Einstellungen. Konferenzinhalte umfassen Microsoft PowerPoint Uploads sowie Whiteboards, die in Konferenzen verwendet werden.
   
 Aus dem Quellpool werden diese Daten aus dem lokalen Speicher exportiert, gezippt und dann an den Zielpool übertragen, wo sie entpackt und in den lokalen Speicher importiert werden. Der Sicherungsdienst geht davon aus, dass sich die Kommunikationsverbindung zwischen den beiden Rechenzentren innerhalb des Unternehmensnetzwerks befindet, das vor dem Internet geschützt ist. Es verschlüsselt weder die übertragenen Daten zwischen den beiden Rechenzentren, noch werden die Daten systemintern in einem sicheren Protokoll wie HTTPS gekapselt. Daher ist ein Man-in-the-Middle-Angriff von internen Mitarbeitern innerhalb des Unternehmensnetzwerks möglich.
   
-Jedes Unternehmen, das Skype for Business Server in mehreren Rechenzentren bereitstellt und die Notfallwiederherstellungsfunktion verwendet, muss sicherstellen, dass der Datenverkehr zwischen Rechenzentren durch das Unternehmensintranet geschützt wird. Unternehmen, die sich um internen Angriffsschutz kümmern, müssen die Kommunikationsverbindungen zwischen den Rechenzentren schützen. Dies ist eine Standardanforderung, die auch viele andere Arten von vertraulichen Unternehmensdaten unterstützt, die zwischen Rechenzentren übertragen werden.
+Jedes Unternehmen, das Skype for Business Server in mehreren Rechenzentren bereitstellt und die Notfallwiederherstellungsfunktion verwendet, muss sicherstellen, dass der Datenverkehr zwischen Rechenzentren durch das Unternehmensintranet geschützt wird. Unternehmen, die sich um internen Angriffsschutz kümmern, müssen die Kommunikationsverbindungen zwischen den Rechenzentren sichern. Dies ist eine Standardanforderung, die auch viele andere Arten von vertraulichen Unternehmensdaten unterstützt, die zwischen Rechenzentren übertragen werden.
   
 Das Risiko von Man-in-the-Middle-Angriffen innerhalb des Unternehmensnetzwerks besteht zwar, doch ist es im Vergleich zur Gefährdung des Datenverkehrs im Internet relativ begrenzt. Insbesondere sind die vom Sicherungsdienst verfügbar gemachten Benutzerdaten (z. B. SIP-URIs) für alle Mitarbeiter innerhalb des Unternehmens über andere Mittel wie das globale Adressbuch oder andere Verzeichnissoftware allgemein verfügbar. Daher sollten Sie sich auf die Sicherung des WAN zwischen den beiden Rechenzentren konzentrieren, wenn der Sicherungsdienst zum Kopieren von Daten zwischen den beiden gekoppelten Pools verwendet wird.
   

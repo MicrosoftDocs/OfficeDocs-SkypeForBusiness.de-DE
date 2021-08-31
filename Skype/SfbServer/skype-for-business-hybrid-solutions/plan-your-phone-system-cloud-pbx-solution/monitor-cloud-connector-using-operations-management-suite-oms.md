@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector Version 2.1 und höher mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
-ms.openlocfilehash: 43ebfe689e113daa063a2ef2ed0d9b68a9d9d66a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627727"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729024"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS)
 
@@ -43,7 +43,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Bevor Sie OMS zum Überwachen Ihrer Cloud Connector-Bereitstellung verwenden können, benötigen Sie Folgendes:
+Bevor Sie OMS zum Überwachen der Cloud Connector-Bereitstellung verwenden können, benötigen Sie Folgendes:
 
 - **Ein Azure-Konto und ein OMS-Arbeitsbereich.** Wenn Sie noch kein Azure-Konto besitzen, müssen Sie ein Konto erstellen, um OMS Log Analytics zu verwenden. Informationen zum Erstellen eines Azure-Kontos und Einrichten eines OMS-Arbeitsbereichs finden Sie unter ["Erste Schritte mit einem Log Analytics-Arbeitsbereich".](/azure/log-analytics/log-analytics-get-started)
 
@@ -53,9 +53,9 @@ Bevor Sie OMS zum Überwachen Ihrer Cloud Connector-Bereitstellung verwenden kö
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Konfigurieren von Cloud Connector für die Verwendung von OMS
 
-Sie müssen Ihre lokale Cloud Connector-Umgebung für die Verwendung von OMS konfigurieren. Dazu benötigen Sie Ihre OMS-Arbeitsbereichs-ID und den Schlüssel, die Sie im OMS-Portal wie folgt finden können: Einstellungen -- \> Verbundene Quellen -- \> Windows Server:
+Sie müssen Ihre lokale Cloud Connector-Umgebung für die Verwendung von OMS konfigurieren. Dazu benötigen Sie die OMS-Arbeitsbereichs-ID und den Schlüssel, die Sie im OMS-Portal wie folgt finden können: Einstellungen - \> verbundene Quellen - Windows \> Server:
 
-![Screenshot für Cloud Connector OMS](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
+![Screenshot für Cloud Connector OMS.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
 Wie Sie Cloud Connector für die Verwendung von OMS konfigurieren, hängt von Ihrem Szenario ab:
 
@@ -65,7 +65,7 @@ Wie Sie Cloud Connector für die Verwendung von OMS konfigurieren, hängt von Ih
 
         Jedes Mal, wenn Cloud Connector bereitgestellt oder aktualisiert wird, versucht er, den OMS-Agent automatisch auf den VMs zu installieren. Aktivieren Sie dieses Feature, damit der OMS-Agent das automatische Update von Cloud Connector überstehen kann.
 
-    2. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie Set-CcCredential -AccountType OMSWorkspace aus. 
+    2. Führen Sie Set-CcCredential -AccountType OMSWorkspace aus, um die OMS-ID und den Schlüssel zu konfigurieren. 
 
 - **Wenn Sie einen OMS-Agent in einer vorhandenen Cloud Connector-Appliance installieren,** führen Sie die folgenden Schritte aus:
 
@@ -80,13 +80,13 @@ Wie Sie Cloud Connector für die Verwendung von OMS konfigurieren, hängt von Ih
 
 - **Wenn Sie die OMS-Arbeitsbereichs-ID oder den Schlüssel in einer Cloud Connector-Appliance aktualisieren möchten, die bereits einen OMS-Agent installiert hat:**
 
-    1. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie Set-CcCredential -AccountType OMSWorkspace aus. 
+    1. Führen Sie Set-CcCredential -AccountType OMSWorkspace aus, um die OMS-ID und den Schlüssel zu konfigurieren. 
 
     2. Führen Sie Install-CcOMSAgent aus, um die Updates anzuwenden. 
 
 - **Stellen Sie für alle Szenarien sicher, dass die Agents wie folgt verbunden sind:**
 
-    Wechseln Sie im OMS-Portal zu Einstellungen – \> verbundene Quellen – Windows \> Servern. Es wird eine Liste der verbundenen Computer angezeigt. 
+    Wechseln Sie im OMS-Portal zu Einstellungen – \> verbundene Quellen – Windows \> Server. Es wird eine Liste der verbundenen Computer angezeigt. 
 
 ## <a name="configure-oms"></a>Konfigurieren von OMS
 
@@ -100,7 +100,7 @@ Als Nächstes müssen Sie Ihre OMS-Konfiguration mithilfe des OMS-Portals angebe
 
 Im OMS-Portal müssen Sie Informationen zu den Ereignisprotokollen und Leistungsindikatoren wie folgt angeben:
 
-1. Wechseln Sie zu Einstellungen– \> Daten- \> Windows Ereignisprotokolle, und fügen Sie Ereignisprotokolle für: 
+1. Wechseln Sie zu Einstellungen– \> Daten- \> Windows Ereignisprotokollen, und fügen Sie Ereignisprotokolle für: 
 
    - Lync Server
 
@@ -218,7 +218,7 @@ So identifizieren Sie Probleme mit Ereignisprotokollen und Leistungsindikatoren:
 
 - **Leistungsindikatoren.** Es sollte ein Schwellenwert für die überwachten Indikatoren vorhanden sein.
 
-In der folgenden Tabelle sind die Von Microsoft empfohlenen Dienste aufgeführt, indem die Ereignis-IDs für "Beenden" und "Starten" aufgelistet werden:
+In der folgenden Tabelle sind die Von Microsoft empfohlenen Dienste aufgeführt, indem die Stopp- und Startereignis-IDs aufgelistet werden:
 
 |Dienstname  <br/> |Zielserverrolle  <br/> |Stoppereignis-ID  <br/> |Startereignis-ID  <br/> |
 |:-----|:-----|:-----|:-----|

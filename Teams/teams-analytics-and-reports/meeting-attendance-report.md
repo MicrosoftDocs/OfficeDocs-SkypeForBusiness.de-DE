@@ -17,18 +17,18 @@ description: Abrufen eines Anwesenheitsberichts zu einer Besprechung in Teams. D
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 233a76bf8c3ae2d3cd71aeddd487f606dcdbaea6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93aad3cdee1c3819ee0d524a8538608dbeba1b0c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592185"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726374"
 ---
 # <a name="microsoft-teams-meeting-attendance-report"></a>Microsoft Teams – Anwesenheitsbericht zu einer Besprechung
 
 Besprechungsorganisatoren können einen Anwesenheitsbericht anzeigen und herunterladen. Sie finden diesen Bericht im Abschnitt **Teilnehmer** der Besprechung, indem Sie wie folgt auf den Downloadpfeil klicken. Sie können den Bericht im Dateiformat .CSV herunterladen (Textformat).
 
-:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Herunterladen von Anwesenheitsberichten zu einer Besprechung in Microsoft Teams":::
+:::image type="content" source="../media/meetings-attendance-download.JPG" alt-text="Herunterladen von Anwesenheitsberichten zu einer Besprechung in Microsoft Teams.":::
 
 Für Mandanten im Bildungswesen ist dieser Bericht hilfreich, um die Anwesenheit von Kursteilnehmern in Onlinekursen nachverfolgen zu können. Beispielsweise kann der Lehrer den Bericht zu Kursbeginn als einfache Möglichkeit zur Überprüfung der Anwesenheit der Teilnehmer herunterladen. Weitere Informationen finden Sie unter [Herunterladen von Anwesenheitsberichten in Teams](https://support.office.com/article/download-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310).
 

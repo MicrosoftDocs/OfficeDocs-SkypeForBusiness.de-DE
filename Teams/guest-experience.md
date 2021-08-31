@@ -19,22 +19,22 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
-ms.openlocfilehash: 2469fe840d09708187c47671335992021c4b60b0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632139"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729614"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
 Wenn ein Gast zu einem Team eingeladen wird, erhält er eine Willkommens-E-Mail-Nachricht. Diese Nachricht enthält einige Informationen zum Team und was ihn jetzt als Mitglied erwartet. Der Gast muss die Einladung in der E-Mail-Nachricht durch das Klicken auf **Microsoft Teams öffnen** annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
     
-![Screenshot mit einem Beispiel einer Willkommens-E-Mail](media/guest-experience-image1.png)
+![Screenshot mit einem Beispiel einer Willkommens-E-Mail-Nachricht.](media/guest-experience-image1.png)
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Ein Tag in der oberen rechten Ecke des Kanal-Threads zeigt die Anzahl der Gäste im Team an und neben dem Namen jedes Gasts wird eine **(Gast)** -Beschriftung angezeigt.
 
-![Screenshot vom Tag, das die Anzahl der Gäste im Team anzeigt](media/guest-experience-image2.png)
+![Screenshot mit einer Markierung, die die Anzahl der Gäste im Team angibt.](media/guest-experience-image2.png)
 
 Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
 - [Teilnehmen an einem Team als Gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)

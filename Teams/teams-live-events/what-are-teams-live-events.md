@@ -22,12 +22,12 @@ ms.custom:
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 90804c7d266df81813aeccd4ed91711d6b4eaf27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b861278bd4ae8081f7bb930a94c602ba4f7507a7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635649"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726524"
 ---
 # <a name="what-are-microsoft-teams-live-events"></a>Was sind Liveereignisse in Microsoft Teams?
 
@@ -43,7 +43,7 @@ Liveereignisse in Teams gelten als die nächste Version von Skype Meeting Broadc
 
 Legen Sie los. Sehen Sie sich zunächst das folgende Diagramm an, das allgemeine Komponenten zeigt, die an Microsoft 365 Liveereignissen beteiligt sind und wie sie verbunden sind.
 
-![Die wichtigsten Komponenten von Liveereignissen](../media/live-events-flow-diagram.png  "Schlüsselkomponenten von Liveereignissen, Planung, Produktion, Stream-Plattform und zertifizierten eCDN-Drittanbietern")
+![Die wichtigsten Komponenten von Liveereignissen.](../media/live-events-flow-diagram.png  "Schlüsselkomponenten von Liveereignissen, Planung, Produktion, Stream-Plattform und zertifizierten eCDN-Drittanbietern")
 
 > [!Note]
 > Wir möchten hervorheben, dass Microsoft Teams-Liveereignisse aufgrund der Natur von Übertragungstechnologien häufig normale (interne) Teilnehmerzahlen überschreiten.
@@ -69,7 +69,7 @@ Auf dem obigen Bild können Sie erkennen, dass es fünf Schlüsselkomponenten gi
 
 Teams bietet Organisatoren die Möglichkeit, ein Ereignis mit den entsprechenden Teilnehmerrechten zu erstellen, Teammitglieder für das Ereignis zu bestimmen, eine Produktionsmethode auszuwählen und Teilnehmer einzuladen. Wenn das Liveereignis aus einer Yammer-Gruppe heraus erstellt wurde, können die Teilnehmer des Liveereignisses das Yammer-Gespräch für die Interaktion mit Personen des Ereignisses nutzen.
 
-![Der Bildschirm "Neue Liveereignisse"](../media/teams-live-events-schedule.png "Screenshot, der den Bildschirm „Neues Liveereignis“ zum Erstellen und Planen eines neues Liveereignisses zeigt")
+![Der Bildschirm "Neue Liveereignisse".](../media/teams-live-events-schedule.png "Screenshot, der den Bildschirm „Neues Liveereignis“ zum Erstellen und Planen eines neues Liveereignisses zeigt")
 
 > [!IMPORTANT]
 > In Teams können Benutzer keine Besprechungen oder Liveereignisse planen, wenn sie offline oder mit begrenzter Bandbreite ausgeführt werden.
@@ -82,7 +82,7 @@ Die Videoeingabe ist die Grundlage des Liveereignisses und kann von einer einzel
 
 - **Externe Apps oder Geräte**: Externe Encoder ermöglichen Benutzern, ihre Liveereignisse direkt von einem externen hardware- oder softwarebasierten Encoder aus mit [Stream](https://stream.microsoft.com) zu produzieren. Diese Option ist am besten, wenn Sie bereits über Geräte mit Studioqualität verfügen (z. B. Medien-Mixer), die das Streaming an einen RTMP-Dienst (Real-time Messaging Protocol) unterstützen. Diese Art von Produktion wird in der Regel für großmaßstäbige Ereignisse wie Town Halls der Geschäftsleitung verwendet, bei denen ein Stream von einem Medien-Mixer für das Publikum übertragen wird.
 
-    ![Ein Liveereignis, das mithilfe einer externen App oder einem externen Gerät produziert wurde](../media/teams-live-events-external-encoder.png "Screenshot eines Liveereignisses, das mithilfe der Produktionsmethode für externe Anwendungen oder Geräte produziert wird")
+    ![Ein Liveereignis, das mithilfe einer externen App oder einem externen Gerät produziert wurde.](../media/teams-live-events-external-encoder.png "Screenshot eines Liveereignisses, das mithilfe der Produktionsmethode für externe Anwendungen oder Geräte produziert wird")
 
 >[!Note]
 > Der Wechsel von Microsoft Stream zu [OneDrive for Business und SharePoint für Besprechungsaufzeichnungen](../tmr-meeting-recording-change.md) erfolgt schrittweise. Beim Start können Sie sich für diese Umgebung entscheiden. Sie müssen sich im November abmelden, wenn Sie Stream weiterhin verwenden möchten. Anfang 2021 müssen alle Kunden OneDrive for Business und SharePoint für neue Besprechungsaufzeichungen verwenden.
@@ -108,7 +108,7 @@ Das Ziel des eCDN ist, die Videoinhalte aus dem Internet zu übernehmen und sie 
 
 Die Erfahrung der Teilnehmer ist der wichtigste Aspekt von Liveereignissen, und es ist entscheidend, dass die Teilnehmer ohne Probleme daran teilnehmen können. Die Teilnehmerumgebung nutzt den Stream Player (für Ereignisse, die in Teams produziert werden) und den Azure Media Player (für Ereignisse, die in einer externen Anwendung oder einem externen Gerät produziert werden) und funktioniert auf dem Desktop, im Browser und auf mobilen Geräten (iOS, Android). Microsoft 365 und Office 365 bieten Yammer und Teams als zwei Zentren der Zusammenarbeit, und die Liveumgebung der Teilnehmer ist in diese Tools integriert.
 
-![Beispiel für die Teilnehmerumgebung von Liveereignissen](../media/teams-live-events-attendee.png "Screenshot, der die Teilnehmerumgebung eines Liveereignisses zeigt")
+![Beispiel für die Teilnehmerumgebung von Liveereignissen.](../media/teams-live-events-attendee.png "Screenshot, der die Teilnehmerumgebung eines Liveereignisses zeigt")
 
 ### <a name="live-event-usage-report"></a>Liveereignis-Nutzungsbericht
 

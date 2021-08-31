@@ -20,25 +20,25 @@ f1.keywords:
 ms.custom:
 - Optimization
 description: 'Erfahren Sie mehr über die Verwendung von Azure ExpressRoute, um über ein Netzwerk mit Bandbreitenanforderungen und Quality of Service-Funktionen für eine Benutzererfahrung auf Unternehmensklasse zu verfügen. '
-ms.openlocfilehash: ddf90000de18f1fafd60896134eee21574605c8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 32d9a3f6be35077f274f0a8ab9facc462a3fe6b4
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610192"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729784"
 ---
 # <a name="expressroute-and-qos-in-skype-for-business-online"></a>ExpressRoute und QoS in Skype for Business Online
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Verbinden Sie Microsoft 365 oder Office 365 über eine dedizierte Netzwerkverbindung mithilfe von Azure ExpressRoute für Microsoft 365 oder Office 365 und Skype for Business Online. Mit Ihrer dedizierten Verbindung für Ihre Skype for Business-Anwendungen profitieren Sie von einer zuverlässigen und vorhersehbaren Leistung sowie Privatsphäre außerhalb des öffentlichen Internets. Sie können jetzt eine bessere Netzwerkverbindung zu Microsoft 365 oder Office 365 und Skype for Business Online erwerben, die Vorhersagbarkeit, Zuverlässigkeit der Unternehmensklasse und eine SLA zur Verfügbarkeit bietet.
+Verbinden, Microsoft 365 oder Office 365 über eine dedizierte Netzwerkverbindung mithilfe von Azure ExpressRoute für Microsoft 365 oder Office 365 und Skype for Business online zu verwenden. Mit Ihrer dedizierten Verbindung für Ihre Skype for Business-Anwendungen profitieren Sie von einer zuverlässigen und vorhersehbaren Leistung sowie Privatsphäre außerhalb des öffentlichen Internets. Sie können jetzt eine bessere Netzwerkverbindung mit Microsoft 365 oder Office 365 und Skype for Business Online erwerben, die Vorhersagbarkeit, Zuverlässigkeit der Unternehmensklasse und eine SLA zur Verfügbarkeit bietet.
   
 > [!NOTE]
 > Eine neue Version des Bandbreitenrechners ist verfügbar: [Skype for Business, Bandbreitenrechner](https://go.microsoft.com/fwlink/?LinkId=715766). Für die Anweisungen in diesem Dokument wird jedoch der Lync 2010- und 2013-Bandbreiten-Rechner verwendet. 
   
 ## <a name="skype-for-business-online-and-expressroute"></a>Skype for Business Online und ExpressRoute
 
-In Zusammenarbeit mit einem Microsoft ExpressRoute-Partner können Sie eine Vielzahl von Microsoft 365- und Office 365-Anwendungen, einschließlich Skype for Business Online in der Cloud, über eine dedizierte Verbindung verbinden. Die Echtzeit-Sprach- und Videokommunikationsfunktionen für Skype for Business erfordern jedoch Netzwerkdienste, die speziell für die Unterstützung dieser Microsoft 365 oder Office 365 Echtzeitarbeitsauslastungen konfiguriert sind. Dazu gehören ein Netzwerk mit ausreichend Bandbreite für die Übertragung des erforderlichen Datenverkehrsvolumens und Unterstützung für eine Dienstqualität (Quality of Service, QoS), die Ihren Benutzern eine Erfahrung der Unternehmensklasse bietet.
+In Zusammenarbeit mit einem Microsoft ExpressRoute-Partner können Sie eine Vielzahl von Microsoft 365- und Office 365-Anwendungen, einschließlich Skype for Business Online in der Cloud, über eine dedizierte Verbindung verbinden. Die Echtzeit-Sprach- und Videokommunikationsfunktionen für Skype for Business erfordern jedoch Netzwerkdienste, die speziell für die Unterstützung dieser Microsoft 365 oder Office 365-Workloads konfiguriert sind. Dazu gehören ein Netzwerk mit ausreichend Bandbreite für die Übertragung des erforderlichen Datenverkehrsvolumens und Unterstützung für eine Dienstqualität (Quality of Service, QoS), die Ihren Benutzern eine Erfahrung der Unternehmensklasse bietet.
   
 Dieses Dokument soll dazu beitragen, dass Sie, Administratoren und Netzwerkdesigner die speziellen Herausforderungen verstehen, die mit der Unterstützung der Echtzeitkommunikation einhergehen. Sie erfahren außerdem mehr über die von Microsoft bereitgestellten Tools, die Sie beim Entwerfen eines Netzwerks unterstützen, das diese Anforderungen unterstützen kann, und werden anhand einer Fallstudie durch den Entwurfsprozess geführt. 
   
@@ -85,7 +85,7 @@ Für die Bereitstellung von konsistenten und hochwertigen Echtzeitdiensten für 
     
 - Die Netzwerkswitche und -router müssen außerdem eine unterbrechungsfreie Stromversorgung (USV) nutzen, damit sie ihren Betrieb bei einem Stromausfall fortsetzen können.
     
-    Da sie über Wi-Fi Verbindungen zu ihren LAN-Niederlassungen verfügen, wird dringend empfohlen, einen zertifizierten Skype for Business Wi-Fi-Infrastrukturpartner von [Skype for Business Solutions zu verwenden.](https://go.microsoft.com/fwlink/?LinkId=690281)
+    Da sie über Wi-Fi Verbindungen zu ihren LAN-Büros verfügen, wird dringend empfohlen, einen zertifizierten Skype for Business Wi-Fi-Infrastrukturpartner von [Skype for Business Solutions zu verwenden.](https://go.microsoft.com/fwlink/?LinkId=690281)
     
     > [!TIP]
     >  Drahtlose 802.11n- und 802.11ac-Zugriffspunkte werden empfohlen.
@@ -94,7 +94,7 @@ Für die Bereitstellung von konsistenten und hochwertigen Echtzeitdiensten für 
     
 Nachdem die Grundlagen abgedeckt sind, empfehlen wir für die Bereitstellung von VoIP-Diensten der Unternehmensklasse für Dewey Law LLC. die Verwendung des MPLS-IP-Diensts (Multi-Protocol Label Switching) eines Netzwerkpartners für die Herstellung der Verbindung mit dem Azure ExpressRoute-Dienst. MPLS stellt einen IP-Dienst mit Leistungsgarantien in Bezug auf Verzögerung, Jitter und Paketverlust bereit. Falls MPLS nicht verfügbar ist, kann jedoch eine Ethernetverbindung zu einem unserer ExpressRoute-Datenaustauschpartner verwendet werden.
   
-MPLS-Anbieter bieten verschiedene Klassen von Serviceleveln, die allerdings von jedem mit unterschiedlichen Begriffen identifiziert werden. Sie müssen eng mit Ihrem Anbieter zusammenarbeiten, um sicherzustellen, dass dieser die Daten versteht, die Sie in den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282) eingegeben haben, sowie die verfügbaren Und-Optionen, die für die verschiedenen Microsoft 365- und Office 365-Echtzeitarbeitsauslastungsanwendungen empfohlen werden.
+MPLS-Anbieter bieten verschiedene Klassen von Serviceleveln, die allerdings von jedem mit unterschiedlichen Begriffen identifiziert werden. Sie müssen eng mit Ihrem Anbieter zusammenarbeiten, um sicherzustellen, dass dieser die Daten versteht, die Sie in den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282) eingegeben haben, sowie die verfügbaren und empfohlenen Optionen für die verschiedenen Microsoft 365- und Office 365-Echtzeitarbeitsauslastungsanwendungen.
   
 Es gibt zwei Möglichkeiten, wie Daten von Skype for Business-Anwendungen zu den geeigneten MPLS-Dienstklassen zugeordnet werden können:
   
@@ -124,7 +124,7 @@ All dies erfordert auch, dass die Verknüpfung der Layer-3- und Layer-2-QoS-Prio
 
 Nachdem Sie die QoS-Netzwerkvoraussetzungen und -mechanismen zur Unterstützung von ExpressRoute eingerichtet haben, besteht der nächste Schritt darin, eine Bestellung für die ExpressRoute-Netzwerkzugriffsdienste aufzugeben. Beim Bestellen von ExpressRoute-Zugriffsdiensten für Dewey Law LLC vom Microsoft-Netzwerkdienstanbieter-Partner müssen zwei Dinge bereitgestellt werden:
   
-- Die Gesamtbandbreite, die erforderlich ist, um jeden Standort mit ExpressRoute zu verbinden Microsoft 365 oder Office 365.
+- Die Gesamtbandbreite, die erforderlich ist, um jeden Standort mit ExpressRoute und anderen Microsoft 365 oder Office 365.
     
 - Die Gesamtbandbreite, die für jede Dienstklasse erforderlich ist, um Skype for Business-Anwendungen zu unterstützen, die bei Dewey Law LLC verwendet werden. Die Bandbreitenanforderung für die Dienstklasse wird vom erwarteten Datenverkehrsvolumen für jede der verschiedenen Skype for Business-Anwendungen wie VoIP, Video, Chat, Anwesenheit und Bildschirmfreigabe gesteuert.
     
@@ -160,7 +160,7 @@ Wir haben für Dewey Law LLC. drei Personas definiert, „Führungskraft/Partner
    
 Sie müssen die Informationen in die Tabelle **Verteilung der Benutzer nach Standort und Positionen** über dem Arbeitsblatt „Standorte" des Lync 2010- und 2013-Bandbreiten-Rechners eingeben. Da die Anzahl der Benutzer in den regionalen Büros identisch ist, werden diese für einen „Standort" definiert und es wird angegeben, dass drei Instanzen davon vorhanden sind. Dasselbe wurde für die großen und kleinen Zweigstellen durchgeführt, in denen 24 bzw. 50 Benutzer in den Standorten vorhanden waren.
   
-Nachdem Sie die Einstellungen für jede Persona angegeben haben, müssen Sie die Anzahl der Benutzer in jeder Persona an jedem Standort in das Arbeitsblatt „Standorte" eingeben. Die Gesamtanzahl der Benutzer für alle Standorte wird automatisch aktualisiert. Da sich keine Benutzer am Speicherort Microsoft 365 oder Office 365 befinden, sollten sie alle in die Zeilen "Verzweigungen" des Arbeitsblatts eingegeben werden. Der Lync 2010 und 2013-Bandbreiten-Rechner füllt dann die Spalten „Klasse für beste Leistung", „Klasse für Datenverkehr" und „Klasse für Echtzeitdatenverkehr" in der Tabelle für die WAN-Bandbreite pro QoS-Datenverkehrsklasse aus. Das wird bei den Daten in der Tabelle weiter unten gezeigt.
+Nachdem Sie die Einstellungen für jede Persona angegeben haben, müssen Sie die Anzahl der Benutzer in jeder Persona an jedem Standort in das Arbeitsblatt „Standorte" eingeben. Die Gesamtanzahl der Benutzer für alle Standorte wird automatisch aktualisiert. Da sich keine Benutzer am Microsoft 365 oder Office 365 befinden, sollten sie alle in die Zeilen "Verzweigungen" des Arbeitsblatts eingegeben werden. Der Lync 2010 und 2013-Bandbreiten-Rechner füllt dann die Spalten „Klasse für beste Leistung", „Klasse für Datenverkehr" und „Klasse für Echtzeitdatenverkehr" in der Tabelle für die WAN-Bandbreite pro QoS-Datenverkehrsklasse aus. Das wird bei den Daten in der Tabelle weiter unten gezeigt.
   
 > [!TIP]
 >  Das vollständige Arbeitsblatt beinhaltet auch die maximale Anzahl von gleichzeitigen Sitzungen für jede Anwendung, diese Spalten wurden aber aus Platzgründen ausgelassen.
@@ -213,7 +213,7 @@ Mit Hilfe der Bandbreitenschätzungen aus der oben stehenden Tabelle **Per appli
    
 Dies bedeutet, dass der Online-Datenverkehr von Skype for Business die Express-Route mit ca. 114 MBit/s durchlaufen wird. Dewey benötigt also wenigstens das 200 MBit/s-Abonnement für ExpressRoute. Mehrfache ExpressRoute-Netze können bei unterschiedlichen ExpressRoute Peering-Standorten erworben werden. Falls sich die Standorte von Dewey in unterschiedlichen geographischen Regionen befinden oder falls die Verbindung zum ExpressRoute-Netz fehlschlägt, könnte dies als Ausfallsicherheit empfohlen werden. Beim Erwerb von ExpressRoute-Netzen in mehreren Azure-Regionen ist das ExpressRoute-Premium-Add-on erforderlich, um globale Konnektivität über ExpressRoute zu erhalten.
   
-Nachdem Sie nun über die Gesamtmenge der erforderlichen Bandbreite und Dienstklassenbandbreite (CoS) verfügen, können Sie Ihre Bestellungen bei den ausgewählten Netzwerkdienstanbietern ab bestellungsieren. Vergessen Sie nicht, Schätzungen für den Datenverkehr für andere Anwendungen und Dienste ein beispiel zu geben. Wir bieten Richtlinien für die Netzwerkplanung für andere Microsoft 365 und Office 365 Dienste, einschließlich Bandbreitenrechner für Exchange und OneDrive. Das Bandbreitenabonnement für einen Netzwerkdienstanbieter ist höher, da der interne Datenverkehr wieder hinzugefügt werden muss. Der Lync 2010 und 2013-Bandbreiten-Rechner bietet nur eine Schätzung des erwarteten Datenverkehrs. Daher wird empfohlen, die Fähigkeit des Netzwerks zu bestätigen, dieses Datenverkehrsvolumen bei einem Stresstest zu unterstützen. 
+Nachdem Sie nun über die Gesamtmenge der erforderlichen Bandbreite und Dienstklassenbandbreite (CoS) verfügen, können Sie Ihre Bestellungen bei den ausgewählten Netzwerkdienstanbietern ab bestellungsieren. Vergessen Sie nicht, Schätzungen für den Datenverkehr für andere Anwendungen und Dienste ein beispiel zu geben. Wir bieten Richtlinien für die Netzwerkplanung für Microsoft 365 und Office 365 Dienste, einschließlich Bandbreitenrechnern für Exchange und OneDrive. Das Bandbreitenabonnement für einen Netzwerkdienstanbieter ist höher, da der interne Datenverkehr wieder hinzugefügt werden muss. Der Lync 2010 und 2013-Bandbreiten-Rechner bietet nur eine Schätzung des erwarteten Datenverkehrs. Daher wird empfohlen, die Fähigkeit des Netzwerks zu bestätigen, dieses Datenverkehrsvolumen bei einem Stresstest zu unterstützen. 
   
 > [!TIP]
 > Ein Stresstest Ihres Netzwerks ist äußerst empfehlenswert, wenn Sie eine Vorabevaluierung eines Netzwerks durchführen. 
@@ -226,7 +226,7 @@ Der Stresstest bietet eine gewisse Bestätigung dafür, dass das Netzwerk das er
 
 Der Microsoft ExpressRoute-Dienst stellt eine dedizierte Verbindung mit der Azure-Cloud her, für die Kommunikationsdienste von Office 365-Echtzeitarbeitsauslastungen sind jedoch Netzwerkdienste mit einer ausreichenden Bandbreite erforderlich, die das Datenverkehrsvolumen übertragen und außerdem QoS (Quality of Service) unterstützen können, um eine Benutzererfahrung der Unternehmensklasse zu sichern. Eine QoS-fähige Verbindung muss auf einer End-to-End-Konfiguration basieren (PC, Netzwerkswitche und -router bis zur Cloud), da jeder Teil in dem Pfad, der QoS nicht unterstützen kann, die Qualität des gesamten Anrufs verschlechtern kann.
   
-Dieser Abschnitt soll Ihnen helfen, die Herausforderungen bei der Unterstützung von Echtzeitdatenverkehr in einem IP-Netzwerk zu verstehen und eine erfolgreiche ExpressRoute-Bereitstellung von Microsoft 365 oder Office 365-Echtzeitarbeitsauslastungen mithilfe eines Microsoft ExpressRoute Exchange-Anbieters oder Netzwerkdienstanbieter-Partners zu konfigurieren und zu unterstützen.
+Dieser Abschnitt soll Ihnen helfen, die Herausforderungen bei der Unterstützung von Echtzeitdatenverkehr in einem IP-Netzwerk sowie das Konfigurieren und Unterstützen einer erfolgreichen ExpressRoute-Bereitstellung von Microsoft 365- oder Office 365-Echtzeitarbeitsauslastungen mithilfe eines Microsoft ExpressRoute Exchange-Anbieters oder Netzwerkdienstanbieter-Partners zu verstehen.
   
 QoS wird von Ihrem Netzwerk exklusiv über ExpressRoute-Netzwerkverbindungen akzeptiert und innerhalb des Microsoft-Netzwerks für Skype for Business-Datenverkehr verwendet. Gegenwärtig weisen Teile einiger ausgehender Verbindungen von Microsoft fehlende DSCP-Werte für Skype for Business auf. So lange ausgehende DSCP-Werte vollständig mit DSCP-Werten gekennzeichnet sind, sollten Sie die Richtlinien zum Hinzufügen von QoS-Kennzeichnungen zum Datenverkehr befolgen, wie im Abschnitt **Implementierung von QoS mithilfe einer Netzwerk-Zugriffssteuerungsliste (ACL)** in diesem Artikel näher erläutert.
   
@@ -236,7 +236,7 @@ Die Bereitstellung von VoIP- und Videodiensten in Unternehmensqualität stellt s
   
 Da Entwickler die Auswirkung verlorener VoIP-Pakete kennen, entwickelten Sie zwei Ansätze, um die Leistung von VoIP und Video über IP zu verbessern:
   
-- Der erste besteht darin, die VoIP-Codierung/-Decodierung stabiler zu machen, wenn Pakete verloren gehen. Dazu können Sie entweder die Fehlerkorrektur bei Weiterleitung (Forward Error Correction, FEC) verwenden, um einen Prozentsatz der gefundenen Fehler zu korrigieren, was eine Funktion ist, die in Microsoft 365 oder Office 365 Real Time Transport gefunden wird, oder indem Sie Sprachdecodierungssysteme entwerfen, die versuchen, die Auswirkung verlorener Pakete zu maskieren, was ein Merkmal von Microsoft-Codecs ist. 
+- Der erste besteht darin, die VoIP-Codierung/-Decodierung stabiler zu machen, wenn Pakete verloren gehen. Dazu können Sie entweder die Fehlerkorrektur bei Weiterleitung (Forward Error Correction, FEC) verwenden, um einen Prozentsatz der gefundenen Fehler zu korrigieren, was eine Funktion ist, die in Microsoft 365 oder Office 365 Echtzeittransport gefunden wird, oder indem Sie Sprachdecodierungssysteme entwerfen, die versuchen, die Auswirkung verlorener Pakete zu maskieren, was ein Merkmal von Microsoft-Codecs ist. 
     
 - Der zweite ist die Verwendung von Transportdiensten, die QoS-Mechanismen verwenden, um die Leistung des Netzwerks in Bezug auf Verzögerung, Paketverlust und Jitter sowie die Abweichung bei der Verzögerung zwischen Paketen zu garantieren.
     
@@ -311,7 +311,7 @@ Differentiated Services (DiffServ) wird als ein „grobkörniger" Mechanismus f�
    
  **IP Version 4-Header**
   
-![IPv4-Header](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
+![IPv4-Header.](../images/c8a6a714-2784-4328-8297-2e62706f302d.png)
   
 ### <a name="layer-2-qos-ieee-8021pwi-fi-multi-media-ieee-80211e"></a>Layer-2-QoS: IEEE 802.1p/WLAN-Multimedia (IEEE 802.11e)
 
@@ -394,13 +394,13 @@ Wenn ein Paket in das MPLS-Netzwerk gesendet wird, hängt der Edgerouter des Net
   
 Neben der Vereinfachung des Weiterleitungsprozesses besteht ein weiterer Vorteil von MPLS darin, dass das Netzwerkverwaltungssystem weiß, welche Verbindungen auf jedem Link im Netzwerk übertragen werden. Durch die Steuerung der Art und Weise, in der Datenverkehr über das Netzwerk weitergeleitet wird, kann der Bediener die QoS garantieren, die jeder Pfad bereitstellt. Im Gegensatz zur Best-Effort-Leistung von herkömmlichen oder einfachen IP-Diensten kann MPLS Bedienern einen IP-Dienst mit einer zuverlässigen Leistung bereitstellen. Außerdem sorgt LSP dafür, dass MPLS an sich sicherer als herkömmliche Internetdienste ist. Bei einfachen IP-Diensten können wir also hoffen, dass das Netzwerk eine ausreichende Leistung bietet, um eine gute Sprachqualität bereitzustellen, und Techniken wie FEC und eine robustere VoIP-Codierung verwenden, um unsere Chancen zu erhöhen, aber mit der Verwendung von MPLS können wir sicher sein, dass das so ist.
   
-MPLS-Anbieter bieten verschiedene Klassen von Serviceabstufungen, die allerdings leider von jedem mit unterschiedlichen Begriffen identifiziert werden. Sie müssen eng mit Ihrem Anbieter zusammenarbeiten, um sicherzustellen, dass dieser die Ausgaben des [Lync 2010- und 2013-Bandbreiten-Rechners](https://go.microsoft.com/fwlink/?LinkID=690282) und die empfohlenen Optionen für verschiedene Microsoft 365- oder Office 365-Echtzeitarbeitsauslastungsanwendungen versteht.
+MPLS-Anbieter bieten verschiedene Klassen von Serviceabstufungen, die allerdings leider von jedem mit unterschiedlichen Begriffen identifiziert werden. Sie müssen eng mit Ihrem Anbieter zusammenarbeiten, um sicherzustellen, dass dieser die Ausgaben des [Lync 2010- und 2013-Bandbreiten-Rechners](https://go.microsoft.com/fwlink/?LinkID=690282) und die empfohlenen Optionen für verschiedene Microsoft 365- oder Office 365-Echtzeitarbeitsauslastungs-Anwendungen versteht.
   
 ## <a name="conclusion"></a>Fazit
 
 Skype for Business verbessert die Art und Weise, in der die Geschäftskommunikation durchgeführt wird. Statt ein mit dem Festnetz verbundenes Telefon, ein eigenständiges Videokonferenzsystem, eine separate Plattform für E-Mails, einen externen Dienst für Audiokonferenzen und ein Mittel für Chat und Anwesenheit zu nutzen, kann Skype for Business all diese Funktionen in einer einzigen Benutzeroberfläche zusammenbringen.
   
-Für eine konsistente Bereitstellung von Echtzeit-VoIP- und Videodiensten der Unternehmensklasse ist eine End-to-End-Netzwerkinfrastruktur erforderlich, die QoS bereitstellen kann. Das beinhaltet sowohl LAN- als auch WAN-Dienste. Microsoft bietet Tools wie den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282), um die für die verschiedenen Dienste erforderliche Netzwerkkapazität abzuschätzen. Darüber hinaus gibt es Partner im Programm "IT-Pro-Tools" [Skype for Business-Lösungen: IT-Pro-Tools,](https://go.microsoft.com/fwlink/?LinkID=690307) die Tools zur Vorabe assessing der Netzwerkinfrastruktur bieten und Überwachung, Berichterstellung und Problembehandlung unterstützen. Ohne eine korrekt dimensionierte und konfigurierte Netzwerkinfrastruktur besteht das Risiko, dass Ihre ExpressRoute Skype of Business-Bereitstellung nicht die Erwartungen an Qualität und Konsistenz Ihrer Benutzer erfüllt.
+Für eine konsistente Bereitstellung von Echtzeit-VoIP- und Videodiensten der Unternehmensklasse ist eine End-to-End-Netzwerkinfrastruktur erforderlich, die QoS bereitstellen kann. Das beinhaltet sowohl LAN- als auch WAN-Dienste. Microsoft bietet Tools wie den [Lync 2010- und 2013-Bandbreiten-Rechner](https://go.microsoft.com/fwlink/?LinkID=690282), um die für die verschiedenen Dienste erforderliche Netzwerkkapazität abzuschätzen. Darüber hinaus gibt es Partner im Programm "IT Pro Tools" Skype for Business [Solutions: IT Pro Tools,](https://go.microsoft.com/fwlink/?LinkID=690307) die Tools für die Vorabe assessing der Netzwerkinfrastruktur bieten und Überwachung, Berichterstellung und Problembehandlung unterstützen. Ohne eine korrekt dimensionierte und konfigurierte Netzwerkinfrastruktur besteht das Risiko, dass Ihre ExpressRoute Skype of Business-Bereitstellung nicht die Erwartungen an Qualität und Konsistenz Ihrer Benutzer erfüllt.
   
 Effektive Unternehmenstools müssen eine zuverlässige und konsistente Leistung bieten und eine Benutzererfahrung bereitstellen, die dafür sorgt, dass Benutzer das Angebot gern annehmen. Aus Netzwerksicht bedeutet das, dass Sie eine Netzwerkinfrastruktur einrichten, sowohl für LAN als auch WAN, fest und mobil, die dies ermöglichen kann. Das Planen, Entwerfen, Implementieren und Verwalten dieser Infrastruktur ist nicht immer leicht. Die Hardware, Tools und Netzwerkdienste, mit denen Sie eine solche Infrastruktur erreichen können, stehen heute zur Verfügung. Es liegt jedoch in der Verantwortung der IT-Mitarbeiter, diese auf eine Weise zu entwerfen, zu implementieren und zu verwalten, die sicherstellt, dass Benutzer eine Reihe von Diensten für die Kommunikation und Zusammenarbeit erhalten, mit denen sie effizient und effektiv arbeiten können, und dass die Organisation die Vorteile dieser Technologie vollständig ausschöpfen kann. 
   

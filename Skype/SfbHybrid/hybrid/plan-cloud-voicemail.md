@@ -11,13 +11,13 @@ ms.topic: article
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
-description: In diesem Artikel werden Die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud-Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter "Konfigurieren von Cloud-Voicemail".
-ms.openlocfilehash: df9675c7ebe36f73190240dc612ce83dd0de2263
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: In diesem Artikel werden Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud-Voicemail-Diensts beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter "Konfigurieren von Cloud-Voicemail".
+ms.openlocfilehash: fe3cc4cc9a7c009b2291875c6ffb4b9e8df4dbac
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594869"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729294"
 ---
 # <a name="plan-cloud-voicemail-service-for-on-premises-users"></a>Planen Cloud-Voicemail Diensts für lokale Benutzer
 
@@ -25,7 +25,7 @@ ms.locfileid: "58594869"
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-In diesem Artikel werden Die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud-Voicemail-Diensts für Ihre lokalen Benutzer beschrieben. Informationen zum Konfigurieren von Cloud-Voicemail finden Sie unter [Konfigurieren Cloud-Voicemail Diensts.](configure-cloud-voicemail.md)
+In diesem Artikel werden Die Vorteile, Planungsüberlegungen und Anforderungen für die Implementierung des Microsoft Cloud-Voicemail-Diensts für Ihre lokalen Benutzer beschrieben. Informationen zum Konfigurieren Cloud-Voicemail finden Sie unter [Konfigurieren Cloud-Voicemail Diensts.](configure-cloud-voicemail.md)
 
 Cloud-Voicemail ersetzt Exchange Unified Messaging (UM) bei der Bereitstellung von Voice Messaging-Funktionen für Skype for Business 2019-Sprachbenutzer, die über Postfächer Exchange Server 2019 oder Exchange Online verfügen. Cloud-Voicemail bietet die folgenden Vorteile für Ihre lokalen und Onlinebenutzer:
 
@@ -55,20 +55,20 @@ Mit Cloud-Voicemail werden Ihre Verwaltungsaufgaben aus folgenden Gründen erheb
 
 Das folgende Diagramm zeigt Cloud-Voicemail in einer Hybridbereitstellung:
 
-![SfB Cloud-Voicemail](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
+![SfB Cloud-Voicemail.](../../sfbserver2019/media/plan-cloud-voice-mail-server1.png)
 
 Nicht beantwortete Anrufe werden wie folgt behandelt:  
 
-1. Für Benutzer, die in Skype for Business 2019 lokal verwaltet werden, werden nicht beantwortete Anrufe vom lokalen Skype for Business Server an den Online-Cloud-Voicemail dienst gesendet.
+1. Für Benutzer, die in Skype for Business 2019 lokal verwaltet werden, werden nicht beantwortete Anrufe vom lokalen Skype for Business Server an den Online-Cloud-Voicemail Dienst gesendet.
 2. Der Dienst verarbeitet die Voicemail, einschließlich Transkription.
 3. Der Dienst übergibt dann die Voicemail im Exchange Postfach des Benutzers, unabhängig davon, ob das Postfach lokal oder online ist.  
-4. Benutzer können über ihren Skype for Business oder Outlook Client auf ihre Voicemail zugreifen.
+4. Benutzer können entweder über ihren Skype for Business- oder Outlook-Client auf ihre Voicemail zugreifen.
 
 ## <a name="requirements"></a>Anforderungen
 
 Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype for Business Server in einer unterstützten Topologie bereitgestellt haben.  Ihre Anforderungen hängen von Ihrem Szenario ab:
 
-- Wenn Sie bereits Exchange UM online verwenden und auf Skype for Business 2019 aktualisieren, müssen Sie Ihre gehostete Voicemailrichtlinie ändern und überprüfen, ob Ihre Hostinganbieter korrekt festgelegt sind. Weitere Informationen finden Sie unter [Konfigurieren Cloud-Voicemail Diensts.](configure-cloud-voicemail.md)
+- Wenn Sie bereits Exchange UM online verwenden und auf Skype for Business 2019 aktualisieren, müssen Sie Die Richtlinie für gehostete Voicemails ändern und überprüfen, ob Ihre Hostinganbieter korrekt festgelegt sind. Weitere Informationen finden Sie unter [Konfigurieren Cloud-Voicemail Diensts.](configure-cloud-voicemail.md)
 
 - Wenn Sie Exchange um lokal verwenden oder eine Kombination aus Benutzern haben, die Exchange UM online und lokal verwenden, müssen Sie sowohl Ihre gehostete Voicemailrichtlinie als auch den Hostinganbieter ändern.  Weitere Informationen finden Sie unter [Konfigurieren Cloud-Voicemail Diensts.](configure-cloud-voicemail.md)
 
@@ -82,7 +82,7 @@ Zusätzlich zu den oben genannten Anforderungen müssen die folgenden Anforderun
 
 - Lokale Benutzer müssen für Enterprise-VoIP und gehostete Voicemail in Skype for Business Server aktiviert sein.
 
-- Eine URL und AutoErmittlung für externe Exchange Webdienste (External Exchange Web Services, EWS) müssen eingerichtet werden, oder einige Cloud-Voicemail Features sind eingeschränkt.
+- Eine URL für externe Exchange Webdienste (External Exchange Web Services, EWS) und die AutoErmittlung müssen eingerichtet werden, oder einige Cloud-Voicemail Features sind eingeschränkt.
 
 - Wenn Sie über einen lokalen Exchange Server verfügen, richten Sie Cloud-Voicemail mithilfe der Schritte unter [Einrichten von Cloud-Voicemail für Exchange Server Postfachbenutzer](/microsoftteams/set-up-phone-system-voicemail#set-up-cloud-voicemail-for-exchange-server-mailbox-users)ein.
 
@@ -93,7 +93,7 @@ Wenn Sie planen, Skype for Business Server 2019 und/oder Exchange Server 2019 be
 - Exchange Server 2019 bietet keine Exchange UM-Funktionalität mehr
 - Skype for Business Server 2019 wird nicht mehr in Exchange Online UM integriert
 
-Version Interoperability and supported topologies for Cloud-Voicemail are listed in the following table, which compares the Skype for Business Server versions the user might be homed on with the possible version providing their Exchange Mailbox. Sie müssen Cloud-Voicemail verwenden, wenn Sie Skype for Business 2019 mit Exchange Online oder Exchange Server 2019 verwenden möchten.
+Versionsinteroperabilität und unterstützte Topologien für Cloud-Voicemail sind in der folgenden Tabelle aufgeführt, in der die Skype for Business Server Versionen, in denen der Benutzer verwaltet werden kann, mit der möglichen Version verglichen werden, die sein Exchange Postfach bereitstellt. Sie müssen Cloud-Voicemail verwenden, wenn Sie Skype for Business 2019 mit Exchange Online oder Exchange Server 2019 verwenden möchten.
 
 | Skype/Lync-Version | Exchange Server 2013 | Exchange Server 2016 | Exchange Server 2019 | Exchange Online   |
 |:---    |:--- |:--- |:--- |:---  |
@@ -107,4 +107,4 @@ Microsoft empfiehlt die folgenden Migrationspfade:
 - Wenn Sie ein Upgrade auf Exchange Server 2019 durchführen und frühere Versionen von Exchange Server UM für Skype for Business Server Voice messaging verwenden, empfiehlt Microsoft, vor dem Postfachupgrade auf Skype for Business Server 2019 zu aktualisieren.  Andernfalls geht die Sprachnachrichtenfunktion verloren.
 - Wenn Sie ein Upgrade auf Skype for Business Server 2019 durchführen und Skype for Business Server 2015 für Voicemail mit Exchange Online UM konfiguriert haben, wird die Voicemail der Benutzer automatisch von Exchange Online UM zu Cloud-Voicemail migriert, wenn ihr Konto auf Skype for Business Server 2019 verschoben wird. 
 
-Weitere Informationen zum Planen der Migration finden Sie unter [Planen der Skype for Business Server und Exchange Server Migration.](plan-um-migration.md)
+Weitere Informationen zum Planen Der Migration finden Sie unter [Planen der Skype for Business Server und Exchange Server Migration.](plan-um-migration.md)

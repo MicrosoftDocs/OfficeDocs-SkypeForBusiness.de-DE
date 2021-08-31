@@ -20,12 +20,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 81b86121aceb0b0044f8b7dca422437331803689
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 261bea1f2abbe4194d0906078977bf870581d31c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636619"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726714"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -59,7 +59,7 @@ Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Or
 
     Hier sind die Einstellungen, die Sie ändern können, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
 
-    ![Screenshot der Richtlinieneinstellungen für Liveereignisse](../media/teams-live-events-policies.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
+    ![Screenshot der Richtlinieneinstellungen für Liveereignisse.](../media/teams-live-events-policies.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
 
 |Einstellung  |Beschreibung  |
 |---------|---------|

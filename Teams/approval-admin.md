@@ -18,34 +18,34 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f50a5f766740d3d5d8fa9effc0b49ec495c361cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f3b1942e1d9b6e93d78694c2b02027bf32c5d7d
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593189"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726214"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
 Die App "Genehmigungen" steht als persönliche App für alle Benutzer von Microsoft Teams zur Verfügung.
 Die App "Genehmigungen" bietet eine einfache Möglichkeit, um in Microsoft Teams Überwachung, Compliance, Verantwortlichkeit und Workflows sowohl in strukturierte als auch unstrukturierte Genehmigungen zu bringen.
 
- ![Abbildung der App "Genehmigungen"](media/approvals-selection.png)
+ ![zeigt die Genehmigungs-App an.](media/approvals-selection.png)
 
 Benutzer können die App "Genehmigungen" an der Menüleiste anheften.
 
- ![Abbildung der App "Genehmigungen" mit der Option zum Anheften](media/approvalApp-pin.png)
+ ![Zeigt die Genehmigungs-App mit der Option zum Anheften an.](media/approvalApp-pin.png)
 
 Durch die erste mit der App "Genehmigungen" erstellte Genehmigung wird die Bereitstellung der Genehmigungslösung in der CDS-Standardumgebung (Common Data Service) ausgelöst. Mit der App "Genehmigungen" erstellte Genehmigungen werden in der CDS-Standardumgebung gespeichert.
 
 In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigungen" beschrieben.
 
 > [!NOTE]
-> Dieses Feature wurde noch nicht für Benutzer von Government Community Cloud (GCC), Government Community Cloud High (GCCH) und Department of Defense (DOD) veröffentlicht.
+> Dieses Feature wurde für Benutzer von Government Community Cloud (GCC), Government Community Cloud High (GCCH) und DEPARTMENT OF Defense (DOD) noch nicht veröffentlicht.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
-Zum Bereitstellen der Genehmigungen-App benötigen Sie die Berechtigung für die folgenden Elemente:
+Zum Bereitstellen der Genehmigungen-App benötigen Sie Berechtigungen für die folgenden Elemente:
 
 - Berechtigungen zum Erstellen einer Microsoft CDS-Datenbank.
 
@@ -57,7 +57,7 @@ Zum Bereitstellen der Genehmigungen-App benötigen Sie die Berechtigung für die
 
 - Für Benutzer ist eine Lizenz für Microsoft Forms erforderlich, damit sie neue Genehmigungsvorlagen einrichten können.
 
-Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird der Genehmigungen-Benutzerrolle in der Zielumgebung bei Ihrer ersten Genehmigungszuweisung automatisch hinzugefügt.
+Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird bei Ihrer ersten Genehmigungszuweisung automatisch der Genehmigungen-Benutzerrolle in der Zielumgebung hinzugefügt.
 
 ## <a name="storage-with-cds"></a>Speicher mit CDS
 
@@ -65,7 +65,7 @@ Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datenspra
 
 Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approvals).
 
-Genehmigungen, die aus einer Vorlage erstellt werden, werden weiterhin Daten in CDS gespeichert, z. B. Titel, Details, Vorlagen-ID und vieles mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Weitere Informationen finden  [Sie unter Datenspeicherung für Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
+Genehmigungen, die aus einer Vorlage erstellt werden, speichern weiterhin Daten in CDS, z. B. Titel, Details, Vorlagen-ID und mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Weitere Informationen finden  [Sie unter Datenspeicherung für Microsoft Forms.](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe)
 
 >[!Note]
 >Wenn Sie die Formularvorlage auf der Microsoft Forms-Website löschen, wird ihre Genehmigungsvorlage nicht mehr angezeigt, und die Benutzer können die Anforderung nicht starten. Benutzern wird die Fehlermeldung "CDB TableNotFound" angezeigt, wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die in Microsoft Forms gelöscht wurde.
@@ -102,7 +102,7 @@ Berechtigungen für Genehmigungsvorlagen
 - Wenn ein Administrator zum ersten Mal eine Vorlage für die gesamte Organisation erstellt, wird automatisch ein neues Teams-Team für alle Administratoren des Mandanten erstellt, einschließlich der Dienstadministratoren des globalen Unternehmens und des Teams. Diese Administratoren werden als Besitzer des Teams hinzugefügt, sodass sie Organisationsvorlagen gemeinsam verwalten können. Administratoren, die in der Organisation neu sind, nachdem das Team erstellt wurde, müssen manuell als Teambesitzer hinzugefügt werden, damit sie über die gleichen Berechtigungen zum Verwalten organisationsweiter Vorlagen verfügen.
 
 > [!Note]
-> Wenn ein Administrator das Team löscht, haben Sie einen Monat Zeit, um es im Azure Active Directory-Portal (AAD) wiederherzustellen, um alle zugehörigen Daten wiederherzustellen. Wenn der Administrator dieses Team nach einem Monat im Papierkorb löscht, gehen alle zugehörigen Daten verloren.
+> Wenn ein Administrator das Team löscht, haben Sie einen Monat Zeit, es im Azure Active Directory-Portal (AAD) wiederherzustellen, um alle zugehörigen Daten wiederherzustellen. Wenn der Administrator dieses Team nach einem Monat im Papierkorb löscht, gehen alle zugehörigen Daten verloren.
 
 ## <a name="disable-the-approvals-app"></a>Deaktivieren der App "Genehmigungen"
 
@@ -114,13 +114,13 @@ Die App "Genehmigungen" ist standardmäßig verfügbar. Sie können die App im M
 
   3. Suchen Sie nach der App "Genehmigungen".
 
-     ![Abbildung der Admin Center-Navigation mit hervorgehobenen Optionen "Microsoft Teams-Apps" > "Apps verwalten"](media/manage-approval-apps.png)
+     ![zeigt die Admin Center-Navigation mit Teams Apps > Apps verwalten.](media/manage-approval-apps.png)
 
   4. Wählen Sie "Genehmigungen" aus.
 
   5. Deaktivieren Sie die App für Ihre Organisation mithilfe des Schalters.
 
-     ![Abbildung der Details für die App "Genehmigungen"](media/approvals-details.png)
+     ![zeigt die Details für die Genehmigungen-App an.](media/approvals-details.png)
 
 ## <a name="retention-policy"></a>Aufbewahrungsrichtlinie
 
@@ -207,6 +207,6 @@ Für die Genehmigungen E-Signatur-Funktionen werden Signaturpartner von Drittanb
 
 1. Wählen Sie Teams Admin Center unter **Apps** verwalten die App Genehmigungen und **dann** **Einstellungen.**
 
-2. Neben jedem E-Signatur-Anbieter befindet sich standardmäßig ein Umschalter, der sich in der Position "Ein" (rechts) befindet. Schieben Sie den Umschalter nach links, um einen bestimmten E-Signatur-Anbieter zu deaktivieren. Wenn ein Teams einen Anbieter deaktiviert, wird den Endbenutzern beim Erstellen einer Genehmigung kein Anbieter mehr zu sehen. Endbenutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter vorgenommen wurden.
+2. Neben jedem E-Signatur-Anbieter befindet sich standardmäßig ein Umschalter, der sich in der Position "Ein" (rechts) befindet. Schieben Sie den Umschalter nach links, um einen bestimmten E-Signatur-Anbieter zu deaktivieren. Wenn ein Teams einen Anbieter deaktiviert, wird der Anbieter beim Erstellen einer Genehmigung nicht für die Endbenutzer eins sehen. Endbenutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter vorgenommen wurden.
 
-Aus der Genehmigungen erstellte E-Genehmigungen-App werden in der Cloud des ausgewählten Anbieters gespeichert. Sie müssen daher zur Website des Anbieters wechseln, um alle Daten zu E-Signaturen zu exportieren. Informationen zum Exportieren und Erhalten dieser Vereinbarungen finden Sie in der Dokumentation des Anbieters.
+E-Genehmigungen, die aus der Genehmigungen-App erstellt wurden, werden in der Cloud des ausgewählten Anbieters gespeichert. Sie müssen daher zur Website des Anbieters wechseln, um alle Daten zu E-Signaturen zu exportieren. Informationen zum Exportieren und Erhalten dieser Vereinbarungen finden Sie in der Dokumentation des Anbieters.

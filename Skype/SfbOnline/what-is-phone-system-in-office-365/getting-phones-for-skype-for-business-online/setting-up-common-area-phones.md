@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Telefone im allgemeinen Bereich zu konfigurieren.
-ms.openlocfilehash: 14c7a76ed8f0aa319049d4352c1cdc6ce4c4ce98
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbf1c5f211eba09ee90a0358b175332fa64de4e2
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607422"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726974"
 ---
 # <a name="set-up-common-area-phones"></a>Einrichten von Telefonen für gemeinsame Bereiche
 
@@ -42,7 +42,7 @@ Zunächst müssen Sie bestätigen, dass Folgendes zutrifft:
   - **Polycom VVX-Telefone:** Wechseln Sie **zu Einstellungen**  >  **Status**  >  **Platform**  >  **Application**  >  **Main**.
   - **Yealink-Telefone:** Wechseln Sie **auf dem Hauptbildschirm** des Telefons zu Status.
   - **AudioCodes-Telefone:** Wechseln Sie vom **Startbildschirm** zum Menü gerätestatus  >    >  **Firmwareversion.**
-  - **Telefone Telefon Lync Telefon Edition (LPE):** Wechseln **Sie**  >  **Systeminformationen** Startbildschirm zu Menümenü.
+  - **Lync Telefon Edition -Telefone (LPE):** Wechseln **Sie**  >  **Systeminformationen** Startbildschirm zu Menümenü.
 
     Firmwareupdates werden vom Skype for Business-Dienst verwaltet. Die Firmware für alle Skype for Business-zertifizierten Telefone wird auf den Skype for Business-Updateserver hochgeladen, und Geräteupdates sind in allen Telefonen standardmäßig aktiviert.
 
@@ -54,7 +54,7 @@ Sie müssen diese Schritte befolgen:
 ### <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 1. Wechseln Sie im Admin Center zu  >  **Abrechnungskaufsdienste**, und fügen Sie **Weitere Pläne hinzu.**
 
-    ![Screenshot der Telefon eines gemeinsamen Bereichs](../../images/cap-license.png)
+    ![Screenshot der gemeinsamen Telefon-Lizenz.](../../images/cap-license.png)
 2. Klicken Sie auf **Telefon für gemeinsame Bereiche** > **Jetzt kaufen** > auf der Seite **Check-Out** klicken Sie auf **Jetzt kaufen**.
 3. Klicken Sie darauf, um **Add-on-Abonnements** zu erweitern, und klicken Sie dann darauf, um einen Anrufplan zu kaufen. Wählen Sie entweder den **Plan für Inlandsrufe** oder **einen Plan für Inlands- und Auslandsrufe aus.**
 
@@ -75,7 +75,7 @@ Weitere Informationen zu Lizenzen finden Sie [unter Skype for Business und Micro
 
      Die Zuweisung der Lizenzen sieht dann so aus:
 
-     ![TurnOnCapLicense.png](../../images/cap-license-turn-on.png)
+     ![TurnOnCapLicense.png.](../../images/cap-license-turn-on.png)
 
      > [!Note]
      > Nur zu Ihrer Information Skype for Business Plan 2 ist in der Lizenz **Telefon für gemeinsame Bereiche** enthalten.
@@ -84,7 +84,7 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
 
 ### <a name="step-3---assign-a-phone-number-to-the-common-area-phone-user-account"></a>Schritt 3 - Eine Telefonnummer dem Benutzerkonto Telefon für gemeinsame Bereich zuweisen
 
-![Symbol mit dem Skype for Business Zuweisen einer Telefonnummer zum Benutzer über das ](../../images/sfb-logo-30x30.png) **Skype for Business Admin Center**
+![Ein Symbol mit dem Skype for Business Logo.](../../images/sfb-logo-30x30.png) Zuweisen einer Telefonnummer zu einem Benutzer über Skype for Business **Admin Center**
 
 1. Im Admin Center > **Admin Center Skype for Business.**  >  
 2. In dem **Skype for Business Admin Center** >  **Sprache** > **Telefonnummern**.
@@ -93,14 +93,14 @@ Weitere Informationen finden Sie unter [Benutzer hinzufügen](https://support.of
 5. Hier müssen Sie eine Notfalladresse angeben. Nach der Suche schauen Sie unter **Notfalladresse auswählen**, um die richtige für Sie auszuwählen.
 6. Klicken Sie auf **Speichern** und Ihr Benutzer sollte so aussehen:
 
-    ![Screenshot der Telefonnummer eines Benutzers](../../images/cap-user-number.png)
+    ![Screenshot der Telefonnummer des Benutzers.](../../images/cap-user-number.png)
 
    > [!Note]
    > Benutzer werden nur angezeigt, wenn sie eine **Telefonsystem**-Lizenz beantragt haben. Wenn Sie dies gerade erst getan haben, dann kann es etwas dauern, bis der Benutzer in der Liste erscheint.
 
 Weitere Informationen finden Sie unter [Erhalten von Telefonnummern für Ihre Benutzer](/microsoftteams/getting-phone-numbers-for-your-users).
 
-Wenn Sie sich fragen, können Sie auch Ihre Telefonnummer, die Sie bei einem anderen Netzbetreiber haben, und "*portieren"* oder zu Microsoft 365 oder Office 365. Weitere Informationen [finden Sie unter Übertragen von Telefonnummern Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
+Wenn Sie sich fragen, können Sie auch Ihre Telefonnummer, die Sie bei einem anderen Netzbetreiber haben, und "*portieren"* oder zu Microsoft 365 oder Office 365. Weitere Informationen finden [Sie unter Übertragen von Telefonnummern Teams](/microsoftteams/phone-number-calling-plans/transfer-phone-numbers-to-teams).
 
 ### <a name="step-4---setting-up-your-phone"></a>Schritt 4 - Einrichten des Telefons
 
@@ -140,7 +140,7 @@ Das oder die Telefone, die Sie besitzen, müssen den Modus **Telefone für gemei
 
 
 > [!NOTE]
-> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit AAD synchronisiert haben und einen Drittanbieter-IDP oder ADFS verwenden, kann die CAP-Bereitstellung nicht bereitgestellt werden. In diesem Fall müssen Sie nur ein Microsoft 365- oder Office 365/Azure Active Directory-Konto verwenden (z. B. ein Konto mit onmicrosoft.com-Domäne), damit die CAP-Bereitstellung funktioniert. 
+> Die CAP-Bereitstellungsseite gibt an, dass sie das Passwort des CAP-Kontos auf ein zufälliges Passwort zurücksetzt. Beachten Sie, dass das Konto, auf das sich die CAP bezieht, das Azure Active Directory (AAD)-Konto ist. Wenn Sie das Konto nur in AAD angelegt haben, ist der Prozess einfach. Wenn Sie ein lokales Active Directory mit AAD synchronisiert haben und einen Drittanbieter-IDP oder ADFS verwenden, kann die CAP-Bereitstellung nicht bereitgestellt werden. In diesem Fall müssen Sie nur ein Microsoft 365- oder Office 365/Azure Active Directory-Konto (z. B.  ein Konto mit einer onmicrosoft.com-Domäne) verwenden, damit die CAP-Bereitstellung funktioniert.
 
 
 ### <a name="related-topics"></a>Verwandte Themen

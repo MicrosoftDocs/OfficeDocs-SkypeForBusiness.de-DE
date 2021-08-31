@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a169208d5e59044e4ce8de63098428f9d4e8f085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636649"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726744"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams-Einführungsphase 2 – Experimentieren
 
@@ -41,4 +41,4 @@ In dieser Phase führen Sie die folgenden Schritte aus:
 5. [Richten Sie Ihre Feedbackkanäle ein.](teams-adoption-onboard-early-adopters.md#gather-feedback)
 6. [Bringen Sie Ihre Supportmitarbeiter an Bord.](teams-adoption-onboard-support.md)
 
-![Ein Symbol zur Darstellung des nächsten ](media/teams-adoption-next-icon.png) Schritts Weiter: [Erstellen Ihres Champions-Programms](teams-adoption-create-champions-program.md)
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Erstellen Sie Ihr Champions-Programm.](teams-adoption-create-champions-program.md)

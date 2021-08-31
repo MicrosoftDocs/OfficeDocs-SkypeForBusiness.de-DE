@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie, wie Sie Zeit sparen, Anrufe unterstützen und die Zufriedenheit erhöhen können, indem Sie Testkonten und Computer einrichten und Einwahlkonferenzen, Onlinefeatures wie Anrufe zwischen zwei Personen, Konferenzen sowie An- und Abmelden testen. '
-ms.openlocfilehash: 12622339c6a09c5bd651a712ff5210df92d04e52
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611464"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729904"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -53,7 +53,7 @@ Nachstehend die Voraussetzungen:
 ## <a name="set-up-test-accounts"></a>Einrichten von Testkonten
 <a name="__toc328126910"> </a>
 
-1. Wechseln Sie **zu Administrator** Microsoft 365 oder Office 365 Benutzer und Gruppen , wählen Sie Hinzufügen Hinzufügen aus, und geben Sie  >   die erforderlichen Informationen   >   ![ ](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) ein.
+1. Wechseln Sie **zu Administrator** Microsoft 365 oder wählen Office 365 Benutzer und Gruppen  >     >  aus, und wählen Sie dann Hinzufügen ![ hinzufügen aus.](../images/328ffb57-5f31-430a-b653-4a6b8e76d338.png) aus, und geben Sie die erforderlichen Informationen ein.
 
 2. Wenn Sie zu Schritt 4 (E-Mail) gelangen, geben Sie Ihre eigene E-Mail-Adresse ein. Sie besitzen dann einen Eintrag für den Namen und das Kennwort des neuen Benutzers.
 
@@ -66,7 +66,7 @@ Auf jedem Testcomputer:
 
 1. Wechseln Sie zur Microsoft 365-Office 365-Startseite, und melden Sie sich mit den Anmeldeinformationen eines Ihrer Testkonten an.
 
-2. Wechseln Sie zu **Einstellungen**![Einstellungen: Profil aktualisieren, Software installieren und mit der Cloud verbinden](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png), und klicken Sie dann auf **Software installieren und mit der Cloud verbinden**.
+2. Wechseln Sie **zu Einstellungen** Einstellungen: Aktualisieren Ihres Profils, Installieren von Software und Herstellen einer Verbindung mit der ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **Cloud.** Klicken Sie dann auf Software installieren, und stellen Sie eine Verbindung mit der Cloud herzustellen .
 
 ## <a name="set-up-audio-conferencing"></a>Einrichten von Audiokonferenzen
 <a name="__toc328126912"> </a>
@@ -83,7 +83,7 @@ Nachdem Sie die Benutzer für Audiokonferenzen eingerichtet haben, erhalten sie 
 
 1. Klicken **Sie auf Benutzer für Audiokonferenzen**  >  .
 
-2. Klicken Sie auf die Namen der Benutzer, für die Sie Einwahlkonferenzen einrichten möchten, und klicken Sie dann auf **Bearbeiten**![Bearbeiten](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png).
+2. Klicken Sie auf die Namen der Benutzer, die Sie für Einwahlkonferenzen einrichten möchten, und klicken Sie dann auf **Bearbeiten.** ![ ](../images/2f8948c1-e4f3-4022-b9cd-37fed066056e.png)
 
 3. Wählen Sie den Audiokonferenzanbieter aus, geben Sie die erforderlichen Informationen ein und klicken Sie auf **Speichern**.
 

@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 84e37bc76fe6c9f52aedae95c3ef01bb49e00cf0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 79d5467bd57900dfe62006a09d5f5cafaf662640
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586549"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726834"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -54,7 +54,7 @@ Die öffentliche Vorschau wird auf Ebene des einzelnen Benutzers aktiviert, und 
  
    - **Nicht aktiviert**: Microsoft Teams Public Preview-Features stehen Endbenutzern nicht zur Verfügung.
 
-    ![zeigt das Dialogfenster "Vorschaueinstellungen" an](media/public-preview-policy.png)  
+    ![zeigt das Dialogfenster "Vorschaueinstellungen" an.](media/public-preview-policy.png)  
 
 Sie können die Richtlinie auch mit dem `Set-CsTeamsUpdateManagementPolicy`-Cmdlet von PowerShell mit dem Parameter `-AllowPublicPreview` festlegen.
 

@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e8733dde289cfc595d8db7b56652cb28dcc646b8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589769"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726894"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
@@ -86,11 +86,11 @@ Erste Schritte:
 
 3. Fügen Sie **im Abschnitt App für diese Vorlage hinzufügen** eine Website-App hinzu.
 
-    ![Option "App für diese Vorlage hinzufügen"](media/add-an-app-template.png)
+    ![fügen Sie eine App für diese Vorlagenoption hinzu.](media/add-an-app-template.png)
 
 4. Wählen Sie das Symbol "Bearbeiten" aus, und geben Sie die URL Ihrer Wahl ein.
 
-    ![Hinzufügen einer App-URL](media/add-url-app-template.png)
+    ![fügen Sie eine App-URL hinzu.](media/add-url-app-template.png)
 
 5. Wählen **Sie speichern** aus, um Änderungen an Ihrer Registerkarten-App vorzunehmen, und wählen Sie dann Übernehmen **aus,** um Ihre Änderungen zu speichern.
 
@@ -102,9 +102,9 @@ Erste Schritte:
 
 Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
-**Problem:** Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte mit Teams unterstützt.
+**Problem:** Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte "Teams" auf einigen Websites nicht unterstützt.
 
-![Browserfehlermeldung](media/browser-error-message.png)
+![browser-Fehlermeldung angezeigt.](media/browser-error-message.png)
 
 **Lösung:** Wenn Sie Probleme beim Anzeigen der Inhalte der Websiteregisterkarte haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Teams stattdessen in der Desktop-App, um ihre App für Websiteregisterkarten anzuzeigen.
 

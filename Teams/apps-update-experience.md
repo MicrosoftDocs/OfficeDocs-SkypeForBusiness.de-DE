@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: 156bafa45fe51884d6697bb4121143fad98fc7cd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0755c505a25d4c858afd104331d193edd8b2b27c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593169"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726204"
 ---
 # <a name="update-apps-in-microsoft-teams"></a>Aktualisieren von Apps in Microsoft Teams
 
-In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Aktualisierungen des Manifests Microsoft Teams, <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">die</a> die Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
+In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Updates des Manifests Microsoft Teams, <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">die</a> die Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
 
 * Ein Bot wurde hinzugefügt oder entfernt
 * Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert
@@ -37,9 +37,9 @@ In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt
 * Ein neuer Connector wurde hinzugefügt
 * Eigenschaften in "webApplicationInfo" wurden geändert
 
-![Neue Version verfügbar](media/manage-your-custom-apps-update1.png)
+![neue Version verfügbar.](media/manage-your-custom-apps-update1.png)
 
-![Upgradeoption für eine App](media/manage-your-custom-apps-update2.png)
+![Upgradeoption für eine App.](media/manage-your-custom-apps-update2.png)
 
 > [!NOTE] 
 > Der Updateprozess gilt für alle App-Updates für Microsoft-Apps, benutzerdefinierte Apps und Apps von Drittanbietern. 

@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e2bd70c0b46d48333552a862ab26a763cfe5473d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613564"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726764"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 
@@ -72,7 +72,7 @@ Unser Leitfaden für ein Early Adopter-Programm ist eine hilfreiche Ressource zu
 
 Veränderung ist ein menschlicher Prozess, der nichts mit Technologie zu tun hat. Erkenntnisse im Bereich der Verhaltenspsychologie und der Neurowissenschaften belegen die natürlichen Widerständen gegenüber Veränderungen. Damit Veränderungen angenommen werden, ist es wichtig, die Anforderungen an die Benutzer vorwegzunehmen, Ihr Verständnis für ihre Situation zum Ausdruck zu bringen und Lösungen zu entwickeln, durch die diese Situation verbessert wird. Selbst dann werden Sie auf natürlichen Widerstand gegenüber Veränderungen stoßen.  
 
-![Abbildung zur Veranschaulichung des Widerstands gegen Veränderungen](media/teams-adoption-resistance.png)
+![Graph zeigt widerstände zu ändern.](media/teams-adoption-resistance.png)
 
 Jedes Unternehmen folgt zum Erzielen von Veränderungen je nach Region, Arbeitsstil, beruflichem Profil und anderen Elementen der Organisation unterschiedlichen Ansätzen. Informationen zum Beurteilen der Bereitschaft Ihrer Organisation finden Sie unter [Einschätzen der Bereitschaft zu organisationsweiten Veränderungen](upgrade-org-change-readiness.md). Verwenden Sie die Anleitungen, um die folgenden Fragen zu beantworten:
 
@@ -104,4 +104,4 @@ Kombinieren Sie diese Daten mit den Profilen der Projektmitarbeiter und den Mita
 
 Sie können mithilfe interner Experten das Problem der unterschiedlichen Veränderungscharakter angehen. Hier ist Feedback der Schlüssel zum Erfolg: Fordern Sie die Benutzer auf, ihre Schwierigkeiten und Bedürfnisse mit anderen zu teilen. Binden Sie Unterbrecher und Widerständler ein, indem Sie diesen Personen oder Gruppen während des Experiments Platz einräumen. Mithilfe dieser bewährten Methode bereiten Sie den Weg für eine reibungslosere breite Bereitstellung Ihrer Verbesserungen für die Zusammenarbeit vor.  
 
-![Ein Symbol, das für den nächsten Schritt steht](media/teams-adoption-next-icon.png)Als Nächstes: [Microsoft Teams-Einführungsphase 2 – Experimentieren](teams-adoption-phase2-experiment.md) 
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Microsoft Teams Phase 2: Experimentieren](teams-adoption-phase2-experiment.md) 

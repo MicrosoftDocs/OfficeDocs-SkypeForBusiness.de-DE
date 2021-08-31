@@ -21,12 +21,12 @@ ms.custom:
 - ms.lync.lac.MeetingInvitation
 - ms.teamsadmincenter.meetingsettings.invitationurls
 description: 'Passen Skype Besprechungseinladungen mit grafischen Logos, UrLs für Hilfe- und rechtlichen Texten und Fußzeilentext an. '
-ms.openlocfilehash: 14a544d5a28fc9a0b64cda573245f2e232e0d901
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 39ad8a6c6f9bec3a03d68ba532454703c4deb1c6
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614937"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729284"
 ---
 # <a name="customize-meeting-invitations"></a>Anpassen von Besprechungseinladungen
 
@@ -48,11 +48,11 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
 ## <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
 <a name="__top"> </a>
 
-![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
 
 1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Wählen Sie im Admin Center Admin **Center und**  >  **Skype for Business** aus.
+2. Wählen Sie im Admin Center Admin **Center und dann**  >  **Skype for Business.**
     
 3. Wählen Sie Skype for Business Admin Center die Option **Onlinebesprechungen aus.** 
     
@@ -71,9 +71,9 @@ Als Administrator können Sie sicherstellen, dass alle Skype for Business-Bespre
    
 5. Klicken Sie auf **Speichern**.
     
-6. Warten Sie etwa eine Stunde, bis die Änderungen in allen ihren Diensten Microsoft 365 oder Office 365 werden. Wechseln Sie dann zu Outlook, und planen Sie Skype Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
+6. Warten Sie etwa eine Stunde, bis die Änderungen in allen ihren Diensten Microsoft 365 oder Office 365 werden. Wechseln Sie dann zu Outlook und planen Sie Skype Besprechung, um zu sehen, wie Ihre Änderungen aussehen. 
     
-    ![So sieht eine benutzerdefinierte Einladung ohne Grafik aus](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
+    ![So sieht eine benutzerdefinierte Einladung ohne Grafik aus.](../images/ebb5c03c-c23d-4da7-97f1-9b13e26a6cf8.png)
   
 ## <a name="related-topics"></a>Verwandte Themen
 <a name="__top"> </a>

@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Audio und Video verwalten.
-ms.openlocfilehash: 2fcfb2525abf935cc8d26e7fe330fa4edff48f90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578359"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726564"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
 
@@ -116,7 +116,7 @@ In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Rich
 
 | Microsoft Teams – Desktop und Web-Client |Mobile Microsoft Teams-Clients  |
 |:-------:|:-------:|
-|![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf dem Desktop](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf einem Mobilgerät](media/meeting-policies-mobile-join.png)          |
+|![Screenshot mit der Teilnahme an einer Besprechung mit Audio-/Videoeinstellungen auf dem Desktop.](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf einem Mobilgerät](media/meeting-policies-mobile-join.png)          |
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -199,7 +199,7 @@ Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant ve
 
 2. Wählen Sie **Besprechungsrichtlinien**  >  **Besprechungsbilder anpassen aus.**
 
-   ![Auswahl der Besprechungsrichtlinien mit hervorgehobener Schaltfläche "Besprechungsbilder anpassen"](media/custom-background-image-button.png)
+   ![Auswahl der Besprechungsrichtlinien mit hervorgehobener Schaltfläche "Besprechungsbilder anpassen".](media/custom-background-image-button.png)
 
 3. Wählen Sie **in Organisationsweite** **Hintergrundbilder die Option Ein aus.**
 

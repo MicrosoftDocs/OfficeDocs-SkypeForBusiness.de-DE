@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für die Inhaltsfreigabe verwalten.
-ms.openlocfilehash: 8a44d7cf9d28f67d14d60388e729db0c060a625b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592229"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726504"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
 
@@ -66,11 +66,11 @@ Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Ei
 
 Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuerung übergeben** in der oberen Leiste einer Freigabesitzung angezeigt.
 
-![Screenshot mit der Option "Steuerung übergeben"](media/meeting-policies-give-control.png)
+![Screenshot mit der Option "Steuerung geben"](media/meeting-policies-give-control.png)
 
 Wenn die Einstellung für den Benutzer deaktiviert ist, ist die Option **Steuerung übergeben** nicht verfügbar.
 
-![Screenshot, der zeigt, dass die Option "Steuerung übergeben" nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
+![Screenshot, der zeigt, dass die Option "Steuerung geben" nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
 
 Sehen Sie sich das folgende Beispiel an.
 

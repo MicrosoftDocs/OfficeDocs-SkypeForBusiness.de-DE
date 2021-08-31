@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie neue Nummern erhalten, Nummern portieren oder vorhandene Nummern Teams und wie Sie den Benutzern die Änderungen anzeigen. '
-ms.openlocfilehash: 5371a3d23e78017db34ae94cdd7516ce40b6347b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Erfahren Sie, wie Sie neue Nummern erhalten, Nummern portieren oder vorhandene Nummern Teams und wie Sie ihren Benutzern die Änderungen anzeigen. '
+ms.openlocfilehash: 368a9d2c699fa631ff98b343d6c2f9562efc62e1
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602270"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729624"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -45,7 +45,7 @@ Es gibt drei Möglichkeiten, Benutzernummern zu erhalten:
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
@@ -72,7 +72,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 Navigieren Sie in der linken Navigationsleiste des Admin Centers zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation, einschließlich Standort, Zahlentyp und  >   Statusinformationen, anzeigen.
   

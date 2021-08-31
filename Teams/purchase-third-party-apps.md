@@ -1,5 +1,5 @@
 ---
-title: Erwerben sie Apps von Drittanbietern für Teams
+title: Erwerben von Drittanbieter-Apps für Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -16,14 +16,14 @@ description: Informationen zum Erwerben von Drittanbieter-Apps für Teams Sie im
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: da917d2c58282554e3e2a68464cea1f2249bd324
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05b280a789a6d41e459e2b8598606e1a7f11226f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616181"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726804"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>Erwerben sie Apps von Drittanbietern für Teams
+# <a name="purchase-third-party-apps-for-teams"></a>Erwerben von Drittanbieter-Apps für Teams
 
 > [!NOTE]
 > Dieses Feature ist derzeit nur in den USA verfügbar.
@@ -34,7 +34,7 @@ Auf [der Seite Apps](manage-apps.md) verwalten im Microsoft Teams Admin Center k
 
 Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps für Benutzer in Ihrer Organisation angeboten werden. Die **Spalte Lizenzen** in der Tabelle gibt an, ob eine App ein SaaS-Abonnement zum Kauf anbietet.
 
-:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot mit Apps von Drittanbietern, die SaaS-Abonnements haben":::
+:::image type="content" source="media/purchase-third-party-apps-list.png" alt-text="Screenshot mit Apps von Drittanbietern, die SaaS-Abonnements haben.":::
 
 ## <a name="search-for-and-purchase-services-for-a-third-party-app"></a>Suchen nach und Kaufen von Diensten für eine Drittanbieter-App
 
@@ -44,7 +44,7 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
     - **Gekauft:** Die App bietet ein SaaS-Abonnement, und Sie haben Lizenzen dafür erworben.
     - **- –**: Die App bietet kein SaaS-Abonnement an.
 3. Wenn Sie die App finden, klicken  Sie auf **Jetzt** kaufen, um auf der Seite mit den App-Details zur Registerkarte Pläne und Preise zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen  benötigen, klicken Sie auf den Link Weitere Informationen, um zur App-Seite in [AppSource zu wechseln.](https://appsource.microsoft.com/)  
-4. Um einen Plan zu kaufen, klicken Sie **auf Jetzt kaufen**. Sie werden zur Einkaufserfahrung für das Angebot weitergeleitet, das mit der App Teams ist. Hier schließen Sie den Kauf des Diensts oder SaaS-Angebots ab.
+4. Um einen Plan zu kaufen, klicken Sie **auf Jetzt kaufen**. Sie werden zur Einkaufserfahrung für das Angebot weitergeleitet, das der App Teams ist. Hier schließen Sie den Kauf des Diensts oder SaaS-Angebots ab.
 5. Wählen Sie den plan aus. Wenn das SaaS-Angebot mehrere Pläne umfasst, klicken Sie **auf Ändern,** um die Liste der verfügbaren Pläne zu sehen.
 6. Wählen Sie Ihre Abrechnungslaufzeit **(monatlich** oder **jährlich)** aus, und geben Sie dann die Anzahl der Benutzerlizenzen ein, die Sie kaufen möchten.
 7. Geben Sie Ihre Zahlungsmethode ein.
@@ -56,15 +56,15 @@ Nachdem Sie das SaaS-Angebot erworben haben, das der Teams-App zugeordnet ist, k
 - **Datum der Lizenzaktivierung:** Das Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als **Abonnement aktivierung ausstehend angezeigt.**
 - **Lizenzen:** Anzahl der erworbenen Lizenzen.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details"":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details".":::
 
 Wählen **Sie Lizenzen verwalten** aus, um zum Microsoft 365 Admin Center zu wechseln, um die erworbenen Lizenzen anzeigen und zu verwalten und um Lizenzzuweisungen für Benutzer zu verwalten.
 
-Globale Administratoren können die Von jedem in der Organisation getätigten Einkäufe anzeigen, während Teams Dienstadministratoren nur die von sich selbst getätigten Einkäufe anzeigen können.  
+Globale Administratoren können die Von jedem in der Organisation getätigten Einkäufe anzeigen, während Teams-Dienstadministratoren nur die von sich selbst getätigten Einkäufe anzeigen können.  
 
 ## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Haben Sie ein SaaS-Angebot für Teams-App, die Sie im Admin Center Microsoft Teams AppSource auflisten und verkaufen möchten?
 
-Entwickler können SaaS-Angebote erstellen, die ihren Apps Teams sind. Diese Angebote werden über [Partner Center veröffentlicht](https://partner.microsoft.com) und stehen Organisationen zum Kauf über [AppSource](https://appsource.microsoft.com/) und Microsoft Teams Admin Center zur Verfügung.
+Entwickler können SaaS-Angebote erstellen, die ihren Apps Teams sind. Diese Angebote werden über [Partner Center veröffentlicht](https://partner.microsoft.com) und stehen Organisationen zum Kauf über [AppSource](https://appsource.microsoft.com/) und das Microsoft Teams Admin Center zur Verfügung.
  
 App-Entwickler von Drittanbietern finden weitere Informationen unter Erstellen [eines SaaS-Angebots.](/azure/marketplace/partner-center-portal/create-new-saas-offer)
 

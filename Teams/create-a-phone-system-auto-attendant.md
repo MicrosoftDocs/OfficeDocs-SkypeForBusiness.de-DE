@@ -21,13 +21,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Microsoft Teams.
-ms.openlocfilehash: 16a26cd3384ddaaa3003649a3026bbe876a38399
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Microsoft Teams.
+ms.openlocfilehash: 59d12bc7d7bde68be6c42aff4e415713d641679f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634869"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58729084"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Attendant
 
@@ -36,12 +36,12 @@ Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen 
 > [!TIP]
 > Dieser Artikel ist für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Einrichten einer [automatischen Attendant – Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
 
-Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatischer [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die Ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen. [](plan-auto-attendant-call-queue.md)
+Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatischer Telefonkonferenzen und Anrufwarteschleifen gelesen und die Ersten Schritte befolgt haben, bevor Sie die in diesem Artikel erläuterten Schritte ausführen. [](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started)
 
 Automatische Telefon attendants can direct calls, based on callers' input, to one of the following destinations: <a name="call-routing-options" ></a>
 
 - **Operator** : Der für die automatische Attendant definierte Operator. Das Definieren eines Operators ist optional. Der Operator kann als jedes der anderen Ziele in dieser Liste definiert werden.
-- **Person in der Organisation–** eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Bei dieser Person kann es sich um einen Onlinebenutzer oder einen Lokal gehosteten Benutzer Skype for Business Server.
+- **Person in der Organisation–** eine Person in Ihrer Organisation, die Sprachanrufe empfangen kann. Bei dieser Person kann es sich um einen Onlinebenutzer oder einen lokal mithilfe eines Kontos gehosteten Skype for Business Server.
 - **Sprach-App** – eine andere automatische Telefon attendant oder eine Anrufwarteschleife. (Wählen Sie das Ressourcenkonto aus, das der automatischen Telefon attendant oder der Anrufwarteschleife zugeordnet ist, wenn Sie dieses Ziel auswählen.)
 - **Voicemail:** Das Sprachpostfach, das einer bestimmten Microsoft 365-Gruppe zugeordnet ist. Sie können wählen, ob Voicemail-Transkriptionen und das "Bitte hinterlassen Sie eine Nachricht nach dem Ton" angezeigt werden soll. Systemaufforderung.
 - **Externe Telefonnummer –** beliebige Telefonnummer. (Siehe [technische Details zur externen Übertragung).](create-a-phone-system-auto-attendant.md#external-phone-number-transfers---technical-details)
@@ -60,7 +60,7 @@ Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer automatischen
 
 ## <a name="general-info"></a>Allgemeine Informationen
 
-![Screenshot der Einstellungen der automatischen Telefongesellschaft für Name, Operator, Zeitzone, Sprache und Spracheingaben](media/auto-attendant-general-info-page-new.png)
+![Screenshot der Einstellungen der automatischen Telefongesellschaft für Name, Operator, Zeitzone, Sprache und Spracheingaben.](media/auto-attendant-general-info-page-new.png)
 
 1. Geben Sie oben im Feld einen Namen für die automatische Attendant ein.
 
@@ -83,7 +83,7 @@ Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer automatischen
 
 Wählen Sie aus, ob eine Begrüßung abspielen soll, wenn die automatische Telefonkonferenz einen Anruf beantwortet.
 
-Wenn Sie Audiodatei **wiedergabe auswählen,** können Sie die Schaltfläche **Hochladen-Datei** verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audio in gespeichert wurde. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
+Wenn Sie Audiodatei **wiedergabe** auswählen, können Sie die Schaltfläche **Hochladen-Datei** verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audio in gespeichert wurde. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
 
 Wenn Sie Grußnachricht **eingeben** auswählen, liest das System den text vor, den Sie eingeben (bis zu 1.000 Zeichen), wenn die automatische Telefonanlage einen Anruf entgegen nimmt.
 
@@ -121,11 +121,11 @@ Wenn Sie Ziele Wähltasten zuweisen, empfiehlt es sich, für die Verzeichnissuch
 
 Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche aus.**
 
-**Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Wähltastatur des Telefons eingeben. Jeder Onlinebenutzer oder jeder benutzer, der mit Skype for Business Server lokal gehostet wird, ist berechtigter Benutzer und kann mit Namenswählen gefunden werden. (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
+**Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Wähltastatur des Telefons eingeben. Jeder Onlinebenutzer oder jeder Benutzer, der mit Skype for Business Server lokal gehostet wird, ist berechtigter Benutzer und kann mit namenswählen gefunden werden. (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
 
-**Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie deren Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder lokal mit Skype for Business Server gehostete Benutzer ist berechtigter Benutzer und kann mit der **Durchwahl-Erweiterung gefunden werden.** (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
+**Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie deren Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder lokal mit Skype for Business Server gehostete Benutzer ist ein berechtigter Benutzer und kann mit der **Durchwahl-Erweiterung gefunden werden.** (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
 
-Benutzer, die für die Durchwahlerweiterung verfügbar sein möchten, müssen eine Erweiterung haben, die als Teil eines [](/microsoft-365/admin/add-users/add-users) der folgenden Telefonattribute angegeben ist, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massenbenutzern.)
+Benutzer, die für die Durchwahlerweiterung verfügbar sein möchten, müssen über eine Durchwahl verfügen, die als [](/microsoft-365/admin/add-users/add-users) Teil eines der folgenden Telefonattribute angegeben ist, die in Active Directory oder Azure Active Directory definiert sind . (Weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massenbenutzern.)
 
 - OfficePhone
 - HomePhone
@@ -143,7 +143,7 @@ Das für die Eingabe der Durchwahl in das Feld für die Telefonnummer des Benutz
 - Beispiel 2: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "+15555555678x5678"
 - Beispiel 3: Set-MsolUser -UserPrincipalName usern@domain.com -Phonenumber "x5678"
 
-Sie können die Erweiterung im Microsoft 365 Admin Center [oder](https://admin.microsoft.com/) im Azure Active Directory Admin [Center festlegen.](https://aad.portal.azure.com) Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonkonferenzen und Anrufwarteschleifen verfügbar sind.
+Sie können die Erweiterung im Microsoft 365 Admin Center [oder](https://admin.microsoft.com/) Azure Active Directory Admin [Center festlegen.](https://aad.portal.azure.com) Es kann bis zu 12 Stunden dauern, bis Änderungen für automatische Telefonkonferenzen und Anrufwarteschleifen verfügbar sind.
 
 > [!NOTE]
 > Wenn Sie sowohl die  Funktionen "Nach Name wählen" als auch "Nach Namen wählen" verwenden möchten, können Sie in Ihrer automatischen Haupttelefon attendant eine Wähltaste zuweisen, um eine automatische Telefon attendant zu erreichen, die für "Nach Namen wählen" **aktiviert ist.**  Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (der  keine Buchstaben zugeordnet sind) zuweisen, um die automatische Telefon attendant für Die Durchwahl zu erreichen.
@@ -152,7 +152,7 @@ Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt haben,** wählen
 
 ## <a name="call-flow-for-after-hours"></a>Anruffluss nach Stunden
 
-![Screenshot der Tages- und Uhrzeiteinstellungen nach Stunden](media/auto-attendant-business-hours.png)
+![Screenshot der Tages- und Uhrzeiteinstellungen nach Stunden.](media/auto-attendant-business-hours.png)
 
 Geschäftszeiten können für jede automatische Attendant festgelegt werden. Wenn keine Geschäftszeiten festgelegt sind, werden alle Tage und alle Stunden des Tages als Geschäftszeiten betrachtet, da standardmäßig ein Rund-um-die-Uhr-Zeitplan festgelegt ist. Geschäftszeiten können mit Tagesumbrüchen festgelegt werden, und alle Stunden, die nicht als Geschäftszeiten festgelegt sind, werden als Nachstunden betrachtet. Sie können verschiedene Optionen für die Anrufbehandlung und Begrüßungen für die Nachstunden festlegen.
 
@@ -196,7 +196,7 @@ Wenn Sie alle Feiertage hinzugefügt haben, wählen Sie Weiter **aus.**
 
 ![Screenshot der Ein- und Ausschließen-Optionen für den Wählbereich](media/auto-attendant-dial-scope.png)
 
-Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namensanwahl oder eine Durchwahl verwendet. Der Standardwert Alle **Onlinebenutzer umfasst** alle Benutzer in Ihrer Organisation, bei der es sich um Onlinebenutzer handelt oder die lokal mithilfe eines Skype for Business Server.
+Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namensanwahl oder eine Durchwahl verwendet. Die Standardeinstellung von **Alle Onlinebenutzer umfasst** alle Benutzer in Ihrer Organisation, bei der es sich um Onlinebenutzer handelt oder die lokal mithilfe eines Skype for Business Server.
 
 Sie können bestimmte Benutzer ein- oder  ausschließen,  indem Sie unter Ein- oder Ausschließen die Option Benutzerdefinierte Benutzergruppe auswählen und dann eine oder mehrere Microsoft 365, Verteilerlisten oder Sicherheitsgruppen auswählen.  Beispielsweise können Sie Manager in Ihrer Organisation aus dem Wählverzeichnis ausschließen. (Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis ausgeschlossen.)
 
@@ -209,11 +209,11 @@ Wenn Sie mit dem Festlegen des Wählbereichs fertig sind, wählen Sie **Weiter a
 
 Allen automatischen Attendants muss ein Ressourcenkonto zugeordnet sein.  Automatische Telefonnummern der ersten Ebene benötigen mindestens ein Ressourcenkonto, das über eine zugeordnete Dienstnummer verfügt. Wenn Sie möchten, können Sie einer automatischen Attendant mehrere Ressourcenkonten zuordnen, die jeweils eine separate Dienstnummer haben.
 
-![Screenshot des Bedienfelds "Konten hinzufügen" des Ressourcenkontos](media/auto-attendant-add-resource-account.png)
+![Screenshot des Bedienfelds "Konten hinzufügen" des Ressourcenkontos.](media/auto-attendant-add-resource-account.png)
 
 Um ein Ressourcenkonto hinzuzufügen, wählen Sie **Konto hinzufügen aus,** und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Wählen **Sie Hinzufügen** und dann Hinzufügen **aus.**
 
-![Screenshot der Liste "Ressourcenkonto" mit ressourcenkonto mit zugewiesener Dienstnummer](media/auto-attendant-resource-account-assigned.png)
+![Screenshot der Liste "Ressourcenkonto" mit dem Ressourcenkonto mit zugewiesener Dienstnummer](media/auto-attendant-resource-account-assigned.png)
 
 Wenn Sie mit dem Hinzufügen von Ressourcenkonten fertig sind, wählen Sie **Absenden aus,** um die Konfiguration der automatischen Attendant zu abschließen.
 
