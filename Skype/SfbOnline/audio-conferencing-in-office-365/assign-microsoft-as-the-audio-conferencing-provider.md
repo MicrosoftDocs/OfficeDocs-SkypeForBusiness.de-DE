@@ -22,27 +22,27 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Erfahren Sie, wie Sie Microsoft als Anbieter von Einwahlkonferenzen für Skype for Business.
-ms.openlocfilehash: 982d0515468109d1adf8ac2d7f00cce36732faf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 360d580b57ca9528eddf96d80b773c04c71c361b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620301"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727714"
 ---
 # <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Um Audiokonferenzen in Microsoft 365 oder Office 365 mit Skype for Business und Microsoft Teams verwenden zu können, müssen den Benutzern in Ihrer Organisation Lizenzen für Audiokonferenzen zugewiesen sein. Unter [Testen oder Kaufen von Audiokonferenzen in Microsoft 365](try-or-purchase-audio-conferencing-in-office-365.md) oder Office 365 finden Sie weitere Informationen zur Lizenzierung und zu den Kosten.
+Um Audiokonferenzen in Microsoft 365 oder Office 365 mit Skype for Business und Microsoft Teams verwenden zu können, müssen die Benutzer in Ihrer Organisation über eine Lizenz für Audiokonferenzen verfügen. Weitere [Informationen zur Lizenzierung](try-or-purchase-audio-conferencing-in-office-365.md) und zu den Kosten finden Sie unter Testen oder Microsoft 365 Audiokonferenzen Office 365 Audiokonferenzen.
 
-Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-IDs, die von Besprechungsteilnehmern zur Teilnahme an Besprechungen Ihrer Organisation verwendet werden können. Sie müssen Microsoft nur Personen, die Besprechungen planen oder Skype for Business oder Microsoft Teams führen werden, als Audiokonferenzanbieter zuweisen.
+Microsoft-Audiokonferenz liefert Telefonnummern zur Einwahl, PINs und Konferenz-IDs, die von Besprechungsteilnehmern zur Teilnahme an Besprechungen Ihrer Organisation verwendet werden können. Sie müssen Microsoft nur Personen, die Besprechungen planen oder führen werden, Microsoft Skype for Business oder Microsoft Teams zuweisen.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
   
 ## <a name="assign-microsoft-as-the-audio-conferencing-provider"></a>Zuweisen von Microsoft als Audiokonferenzanbieter
 
-### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Symbol mit dem Skype for Business Logo](../images/sfb-logo-30x30.png) Verwenden des Skype for Business Admin Center
+### <a name="an-icon-showing-the-skype-for-business-logo-using-the-skype-for-business-admin-center"></a>![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) Verwenden des Skype for Business Admin Center
 
 1. Wechseln Sie zum **Microsoft Teams Admin Center**  >  **Legacy-Portal**.
     

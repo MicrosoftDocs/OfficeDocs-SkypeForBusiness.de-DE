@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Erfahren Sie hier, wie Sie eine Richtlinie für sicheres Messaging für Microsoft Teams anpassen können, die Lesebestätigungen und Benachrichtigungen mit hoher Priorität umfassen kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: efad01c1731ba3c7bacbae012c0062350bd92b39
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595079"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727244"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Sicheres Messaging für Organisationen im Gesundheitswesen
 
@@ -37,11 +37,11 @@ Sie können die globale (organisationsweite) Standardrichtlinie verwenden oder e
 
 Die Richtlinien können auf einfache Weise im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) verwaltet werden: Melden Sie sich mit Administratoranmeldeinformationen an, und wählen Sie im linken Navigationsbereich **Messaging-Richtlinien** aus.
 
- ![Screenshot der Seite "Messaging-Richtlinien"](../../media/hc-messaging-policy-admin-center.png)
+ ![Screenshot der Seite "Messagingrichtlinien"](../../media/hc-messaging-policy-admin-center.png)
 
 Um die bestehende standardmäßige Messaging-Richtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweit Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** und dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
-![Screenshot der Einstellungen für Messaging-Richtlinien](../../media/hc-messaging-policy.png)
+![Screenshot der Einstellungen für Messagingrichtlinien](../../media/hc-messaging-policy.png)
 
 Die folgenden Einstellungen sind für die Anwendung im Gesundheitswesen von besonderem Interesse und sollten beim Entwerfen einer benutzerdefinierten Richtlinie für das Gesundheitswesen berücksichtigt werden:
 

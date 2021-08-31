@@ -22,16 +22,16 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Besprechungsorganisatoren erfahren, wie Sie mithilfe der Teams-App auswählen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können.
-ms.openlocfilehash: db6d900a5892753eee60c3a150579cffb4dbd258
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 690ae9a1597f2d6f1621deb264d9115780d35622
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623317"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725644"
 ---
 # <a name="dialing-out-from-a-microsoft-teams-meeting-so-other-people-can-join-it"></a>Anrufen aus einer Microsoft Teams-Besprechung, sodass andere Personen teilnehmen können
 
-Als Besprechungsorganisator können Sie mithilfe der Teams-App aus einer Besprechung herauswählen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können.
+Als Besprechungsorganisator können Sie mithilfe der App Teams aus einer Besprechung herauswählen, damit andere Personen über ihr Telefon an derselben Besprechung teilnehmen können.
 
 Wenn Sie eine Person anrufen, empfiehlt es sich, dies unter Verwendung der vollständigen Telefonnummern (einschließlich Landes-/Ortscode - E.164-Format) zu tun.
   
@@ -46,7 +46,7 @@ Wenn Sie eine Person anrufen, empfiehlt es sich, dies unter Verwendung der volls
 
 Hier erfahren Sie, wie Sie eine Nummer für die Arbeit einwählen können:
 
- **Schritt 1:** Verwenden Sie in  der Besprechung den Screenshot "Personen hinzufügen" der Schaltfläche "Personen hinzufügen", um eine ![ Telefonnummer ](media/add-people-button.png) anwählen zu können.
+ **Schritt 1:** Verwenden Sie in der Besprechung den Screenshot **"Personen** ![ hinzufügen" der Schaltfläche "Personen hinzufügen".](media/add-people-button.png) option to dial out to a phone number.
  **Schritt 2:** Geben Sie die vollständige Telefonnummer einschließlich Landes-/Ortscode in das Feld Jemanden einladen oder **eine Nummer wählen** ein.
   
 ![Screenshot des Felds "Jemanden einladen oder eine Nummer wählen"](media/invite-someone-box.png)
@@ -57,7 +57,7 @@ Einwählen ist nur in einigen Ländern/Regionen verfügbar. Eine vollständige L
 
 ## <a name="allow-users-to-dial-in"></a>Zulassen, dass Benutzer sich einwählen
 
-Anweisungen zum Einwählen Ihrer Benutzer in eine Teams-Besprechung finden Sie unter Telefon-Nummern für [Audiokonferenzen in Microsoft Teams.](phone-numbers-for-audio-conferencing-in-teams.md)
+Anweisungen zum Einwählen Ihrer Benutzer in eine Teams-Besprechung finden Sie unter Telefon-Nummern für [Audiokonferenzen in Microsoft Teams](phone-numbers-for-audio-conferencing-in-teams.md).
 
 ## <a name="want-to-know-more-about-audio-conferencing"></a>Möchten Sie mehr über Audiokonferenzen erfahren?
 

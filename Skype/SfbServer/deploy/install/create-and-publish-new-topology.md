@@ -17,27 +17,27 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine neue Topologie erstellen, veröffentlichen und überprüfen, bevor Sie Skype for Business Server installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 21c37ee17d6a7fbb1db4cce9716fa84f338e4062
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 322b59a064f15dcd7bada74c0d3d5f563e6b8f64
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619161"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725994"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie eine neue Topologie erstellen, veröffentlichen und überprüfen, bevor Sie Skype for Business Server installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
   
-Bevor Sie das Skype for Business Server System auf jedem Server in der Topologie installieren können, müssen Sie eine Topologie erstellen und veröffentlichen. Wenn Sie eine Topologie veröffentlichen, laden Sie die Topologieinformationen in die zentrale Verwaltungsdatenbank Store. Wenn es sich um einen Enterprise Edition Pool handelt, erstellen Sie die zentrale Store-Datenbank, wenn Sie zum ersten Mal eine neue Topologie veröffentlichen. Wenn dies Standard Edition ist, müssen Sie den Prozess "Erste Standard Edition Server vorbereiten" aus dem Bereitstellungs-Assistenten ausführen, bevor Sie eine Topologie veröffentlichen. Dadurch wird die Standard Edition vorbereitet, indem eine SQL Server Express Edition-Instanz installiert und die zentrale Verwaltungs Store erstellt wird. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Das Erstellen und Veröffentlichen einer neuen Topologie wird in Schritt 6 von 8 beschrieben.
+Bevor Sie das Skype for Business Server System auf jedem Server in der Topologie installieren können, müssen Sie eine Topologie erstellen und veröffentlichen. Wenn Sie eine Topologie veröffentlichen, laden Sie die Topologieinformationen in die zentrale Verwaltungsdatenbank Store. Wenn es sich um einen Enterprise Edition Pool handelt, erstellen Sie die zentrale Verwaltungsdatenbank Store Datenbank, wenn Sie zum ersten Mal eine neue Topologie veröffentlichen. Wenn dies Standard Edition ist, müssen Sie den Prozess "Ersten Standard Edition Server vorbereiten" aus dem Bereitstellungs-Assistenten ausführen, bevor Sie eine Topologie veröffentlichen. Dadurch wird die Standard Edition vorbereitet, indem eine SQL Server Express Edition-Instanz installiert und die zentrale Verwaltungs Store erstellt wird. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Das Erstellen und Veröffentlichen einer neuen Topologie wird in Schritt 6 von 8 beschrieben.
   
-![Übersichtsdiagramm](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
+![Übersichtsdiagramm.](../../media/c5c09ba2-c98b-4194-9857-7c3087c5560e.png)
   
 ## <a name="create-and-publish-new-topology"></a>Erstellen und Veröffentlichen einer neuen Topologie
 
 Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definieren, Konfigurieren und Veröffentlichen von Topologien verwenden. Dieses Tool wurde installiert, als Sie die Verwaltungstools weiter oben in diesem Artikel installiert haben. Es gibt viele verschiedene Optionen, die Sie beim Erstellen einer Topologie treffen können. In diesem Verfahren erstellen Sie eine grundlegende Topologie mit Konferenzen.
   
 > [!IMPORTANT]
-> Skype for Business Server erfordert SQL Server für den Betrieb. Die primären Datenbanken werden als zentrale Verwaltungs Store bezeichnet. Wenn Sie Enterprise Edition bereitstellen, werden diese Datenbanken erstellt, wenn Sie die Topologie mithilfe der folgenden Schritte veröffentlichen. In diesem Fall werden Sie vom Topologie-Generator nach den Verbindungsinformationen zu einer SQL Server Installation gefragt. Wenn Sie planen, Standard Edition bereitzustellen, müssen Sie SQL Server Express Edition installieren, bevor Sie die neue Topologie definieren und veröffentlichen. Um SQL Server Express Edition zu installieren, sollten Sie den Bereitstellungs-Assistenten auf dem Server öffnen, der als Front-End fungiert, und dann "Vorbereitung zuerst Standard Edition Server" ausführen. Wenn Sie auf "Erste Standard Edition Server vorbereiten" klicken, installiert der Bereitstellungs-Assistent automatisch SQL Server Express Edition und erstellt die zentrale Verwaltung Store Datenbanken. 
+> Skype for Business Server erfordert SQL Server für den Betrieb. Die primären Datenbanken werden als zentrale Verwaltungs Store bezeichnet. Wenn Sie Enterprise Edition bereitstellen, werden diese Datenbanken erstellt, wenn Sie die Topologie mithilfe der folgenden Schritte veröffentlichen. In diesem Fall werden Sie vom Topologie-Generator nach den Verbindungsinformationen zu einer SQL Server Installation gefragt. Wenn Sie planen, Standard Edition bereitzustellen, müssen Sie SQL Server Express Edition installieren, bevor Sie die neue Topologie definieren und veröffentlichen. Um SQL Server Express Edition zu installieren, sollten Sie den Bereitstellungs-Assistenten auf dem Server öffnen, der als Front-End fungiert, und dann "Zuerst Standard Edition Server vorbereiten" ausführen. Wenn Sie auf "Ersten Standard Edition Server vorbereiten" klicken, installiert der Bereitstellungs-Assistent automatisch SQL Server Express Edition und erstellt die zentrale Verwaltung Store Datenbanken. 
   
 ### <a name="create-a-new-topology"></a>Erstellen einer neuen Topologie
 
@@ -50,7 +50,7 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
 4. Wählen Sie einen Speicherort und einen Dateinamen für die Topologiekonfigurationsdatei aus.
     
     > [!NOTE]
-    > Die Topologiekonfiguration wird als TOPOLOGIE-Generator-XML-Datei (.tbxml) gespeichert. Wenn Sie eine Topologie veröffentlichen, übertragen Sie die Konfigurationsinformationen aus der Datei an die SQL Server Datenbank. Wenn Sie den Topologie-Generator in zukunft öffnen, können Sie die vorhandene Konfiguration aus SQL Server direkt in den Topologie-Generator herunterladen und sie entweder wieder veröffentlichen, um SQL Server oder als Topologie-Generator-Konfigurationsdatei zu speichern. 
+    > Die Topologiekonfiguration wird als TOPOLOGIE-Generator-XML-Datei (.tbxml) gespeichert. Wenn Sie eine Topologie veröffentlichen, übertragen Sie die Konfigurationsinformationen aus der Datei an die SQL Server Datenbank. Wenn Sie den Topologie-Generator in Zukunft öffnen, können Sie die vorhandene Konfiguration aus SQL Server direkt in den Topologie-Generator herunterladen und sie entweder wieder in SQL Server veröffentlichen oder als Topologie-Generator-Konfigurationsdatei speichern. 
   
 5. Geben Sie auf **dem Bildschirm "Primäre Domäne definieren"** die **primäre SIP-Domäne** ein, und klicken Sie auf **"Weiter".** In diesem Beispiel verwenden wir **"contoso.local",** wie in der Abbildung dargestellt.
     
@@ -70,7 +70,7 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
 
 1. Überprüfen Sie die Voraussetzungen des Assistenten, und klicken Sie dann auf **"Weiter".**
     
-2. Geben Sie den vollqualifizierten Domänennamen (FQDN) des Pools ein, und wählen Sie **entweder Enterprise Edition Front-End-Pool** oder **Standard Edition Server** aus, und klicken Sie dann auf **"Weiter",** wie in der Abbildung dargestellt.
+2. Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools ein, und wählen Sie **entweder Enterprise Edition Front-End-Pool** oder **Standard Edition Servers** aus, und klicken Sie dann auf **"Weiter",** wie in der Abbildung dargestellt.
     
     > [!TIP]
     > Skype for Business Server Enterprise Edition können mehrere Server umfassen, die zusammenarbeiten, um die Front-End-Rolle bereitzustellen. Wenn mehrere Server verwendet werden, um die Rolle zu erfüllen, wird dies als Pool bezeichnet. Daher werden mehrere Server, die zusammenarbeiten, um die Front-End-Rolle bereitzustellen, auch als Front-End-Pool bezeichnet. Skype for Business Server Standard Edition kann nur einen einzelnen Server enthalten, um die Front-End-Rolle bereitzustellen. Es ist üblich, auf den Front-End-Pool zu verweisen, auch wenn nur ein einzelner Server die Rolle bereitstellt. 
@@ -112,18 +112,18 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
     
    - Zum Verwenden eines vorhandenen SQL Server-Speichers, der bereits in Ihrer Topologie definiert wurde, wählen Sie eine Instanz unter **SQL-Speicher** aus.
     
-   - Um eine neue SQL Server Instanz zum Speichern von Poolinformationen zu definieren, klicken Sie auf **"Neu",** und geben Sie dann den **FQDN SQL Server** im Dialogfeld **"Neue SQL Store definieren"** an.
+   - Klicken Sie zum Definieren einer neuen SQL Server Instanz zum Speichern von Poolinformationen auf **"Neu",** und geben Sie dann den **FQDN SQL Server** im Dialogfeld **"Neue SQL Store definieren"** an.
     
    - Zum Angeben des Namens einer SQL Server-Instanz wählen Sie **Benannte Instanz**, und geben Sie anschließend den Namen der Instanz an.
     
    - Klicken Sie auf **Standardinstanz**, um die Standardinstanz zu verwenden.
     
-   - Um SQL Spiegelung zu verwenden, wählen **Sie "SQL Spiegelung aktivieren"** und dann eine vorhandene Instanz aus, oder erstellen Sie eine neue Instanz.
+   - Um SQL Spiegelung zu verwenden, wählen **Sie SQL Spiegelung aktivieren** und eine vorhandene Instanz aus, oder erstellen Sie eine neue Instanz.
 
      > [!NOTE]
-     > SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering werden mit Skype for Business Server 2019 bevorzugt.
+     > SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering-Methoden werden mit Skype for Business Server 2019 bevorzugt.
     
-     In diesem Beispiel geben wir den **SQL Server FQDN** ein, konfigurieren alle relevanten Einstellungen für hohe Verfügbarkeit und klicken dann auf **"OK",** wie in der Abbildung dargestellt.
+     In diesem Beispiel geben wir den **SQL Server FQDN** ein, konfigurieren alle relevanten Einstellungen für hohe Verfügbarkeit und klicken dann auf **OK**, wie in der Abbildung dargestellt.
     
      ![Erstellen Sie einen SQL Server Speicher.](../../media/12822cf9-8608-43c0-94ce-2ca8b3a0ffd5.png)
   
@@ -140,7 +140,7 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
      > [!NOTE]
      > Die Dateifreigabe für Skype for Business Server kann verbunden werden, wird jedoch aus Leistungsgründen nicht empfohlen. Beachten Sie, dass sich die Dateifreigabe in diesem Beispiel auf einem einzelnen dedizierten Server befindet, der als Dateifreigabe fungiert. Es werden jedoch andere robustere Dateifreigabesysteme empfohlen, z. B. DFS mit Windows Server 2012 R2. Ausführliche Informationen zu unterstützten Dateifreigabesystemen finden Sie unter [Anforderungen für Ihre Skype for Business Umgebung.](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) Weitere Informationen zum Erstellen der Dateifreigabe finden Sie unter [Erstellen einer Dateifreigabe in Skype for Business Server](create-a-file-share.md). Sie können die Dateifreigabe definieren, ohne dass die Dateifreigabe erstellt wurde. Sie müssen die Dateifreigabe am definierten Speicherort erstellen, bevor Sie die Topologie veröffentlichen. 
   
-10. Auf der Seite "Webdienst-URL angeben" müssen Sie entscheiden, ob Sie die basis-URL des internen Webdienstpools überschreiben müssen. Der Grund für diese Außerkraftsetzung liegt im Lastenausgleich. Einfacher SIP-Datenverkehr kann über einen einfachen DNS-Lastenausgleich geladen werden. Der HTTP/S-Webdienst-Netzwerkdatenverkehr muss jedoch eine unterstützte Hardware- oder Software-Lastenausgleichslösung verwenden. Unterstützte Lastenausgleichsmodule finden Sie unter [Infrastruktur für Skype for Business](../../../SfbPartnerCertification/certification/infra-gateways.md). In diesem Beispiel haben wir den DNS-Lastenausgleich für SIP-Datenverkehr und eine unterstützte Lösung für den Softwarelastenausgleich verwendet. Da der Datenverkehr auf diese Weise geteilt wird, müssen wir den FQDN des internen Webdienstpools überschreiben. Wenn wir über ein Top-Line-Lastenausgleichsmodul verfügen und den gesamten Datenverkehr darüber senden würden, anstatt DNS-Lastenausgleich für SIP-Datenverkehr zu verwenden, müssten wir die Webdienst-URL nicht überschreiben. 
+10. Auf der Seite "Webdienst-URL angeben" müssen Sie entscheiden, ob Sie die basis-URL des internen Webdienstpools überschreiben müssen. Der Grund für diese Außerkraftsetzung liegt im Lastenausgleich. Einfacher SIP-Datenverkehr kann über einen einfachen DNS-Lastenausgleich geladen werden. Der HTTP/S-Webdienst-Netzwerkdatenverkehr muss jedoch eine unterstützte Hardware- oder Software-Lastenausgleichslösung verwenden. Unterstützte Lastenausgleichsmodule finden Sie unter [Infrastruktur für Skype for Business.](../../../SfbPartnerCertification/certification/infra-gateways.md) In diesem Beispiel haben wir den DNS-Lastenausgleich für SIP-Datenverkehr und eine unterstützte Lösung für den Softwarelastenausgleich verwendet. Da der Datenverkehr auf diese Weise geteilt wird, müssen wir den FQDN des internen Webdienstpools überschreiben. Wenn wir über ein Top-Line-Lastenausgleichsmodul verfügen und den gesamten Datenverkehr darüber senden würden, anstatt DNS-Lastenausgleich für SIP-Datenverkehr zu verwenden, müssten wir die Webdienst-URL nicht überschreiben. 
     
     Im DNS-Abschnitt dieses Themas haben wir einen A-Eintrag für webint.contoso.local erstellt. Dies ist die URL, die wir für den HTTP/S-Datenverkehr der Webdienste verwenden, und sie muss den von uns eingerichteten unterstützten Softwarelastenausgleich durchlaufen. Daher überschreiben wir in diesem Beispiel die URL, um Skype for Business Server mitzuteilen, dass der gesamte HTTP/S-Datenverkehr zu "webint.contoso.local" anstelle von "pool.contoso.local" (siehe Abbildung) gehen soll. Weitere Informationen zum Lastenausgleich finden Sie unter [Lastenausgleichsanforderungen für Skype for Business.](../../plan-your-deployment/network-requirements/load-balancing.md)
     
@@ -152,13 +152,13 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
     > [!CAUTION]
     > Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein. **Verwenden Sie nur Standardzeichen** (einschließlich A-Z, a-z, 0-9 und Bindestriche), wenn Sie URLs oder vollqualifizierte Domänennamen definieren. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Nicht standardmäßige Zeichen in einer URL oder einem FQDN werden häufig von externen DNS- und öffentlichen Zertifizierungsstellen (Public Certification Authorities, CAs) nicht unterstützt (d. b. wenn die URL oder der FQDN dem Antragstellernamen oder alternativen Antragstellernamen im Zertifikat zugewiesen werden muss).
   
-    - Geben Sie optional die externe Basis-URL in die **externe Basis-URL** ein. Sie geben die externe Basis-URL ein, um sie von Ihrem internen Domänennamen zu unterscheiden. Ihre interne Domäne lautet beispielsweise "contoso.local", ihr externer Domänenname ist jedoch contoso.com. Sie würden die URL mithilfe des contoso.com Domänennamens definieren, da er aus öffentlichem DNS aufgelöst werden kann. Dies ist auch im Fall eines Reverseproxys wichtig. Der Domänenname der externen Basis-URL würde dem Domänennamen des vollqualifizierten Domänennamens des Reverseproxys entsprechen. HTTP-Zugriff auf den Front-End-Pool ist für Chatnachrichten und Anwesenheitsinformationen auf mobilen Clients erforderlich.
+    - Geben Sie optional die externe Basis-URL in die **externe Basis-URL** ein. Sie geben die externe Basis-URL ein, um sie von Ihrem internen Domänennamen zu unterscheiden. Ihre interne Domäne lautet beispielsweise contoso.local, ihr externer Domänenname ist jedoch contoso.com. Sie würden die URL mithilfe des contoso.com Domänennamens definieren, da er aus öffentlichem DNS aufgelöst werden kann. Dies ist auch im Fall eines Reverseproxys wichtig. Der Domänenname der externen Basis-URL würde dem Domänennamen des vollqualifizierten Domänennamens des Reverseproxys entsprechen. HTTP-Zugriff auf den Front-End-Pool ist für Chatnachrichten und Anwesenheitsinformationen auf mobilen Clients erforderlich.
     
       ![Webdienste außer Kraft setzen.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
 11. Wenn Sie auf der Seite **"Features auswählen"** die Option **"Konferenzen"** ausgewählt haben, werden Sie aufgefordert, einen Office Web Apps-Server auszuwählen. Klicken Sie auf **Neu,** um das Dialogfeld zu starten.
     
-12. Geben Sie im Dialogfeld **"Neuen Office Web Apps-Server definieren"** den FQDN ihres Office Web Apps-Servers in das Feld **Office Web Apps Server-FQDN** ein. Wenn Sie dies tun, sollte ihre Office Web Apps-Serverermittlungs-URL automatisch in das **Feld Office Web Apps-Serverermittlungs-URL** eingegeben werden.
+12. Geben Sie im Dialogfeld **"Neuen Office Web Apps-Server definieren"** den FQDN ihres Office Web Apps-Servers in das **Feld Office Web Apps Server-FQDN** ein. Wenn Sie dies tun, sollte ihre Office Web Apps-Serverermittlungs-URL automatisch in das **Feld Office Web Apps-Serverermittlungs-URL** eingegeben werden.
     
     Wenn der Office Web Apps-Server lokal installiert ist und sich in derselben Netzwerkzone wie Skype for Business Server befindet, wählen Sie nicht die Option **aus, Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird.**
     
@@ -168,7 +168,7 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
     
 ### <a name="configure-simple-urls"></a>Konfigurieren einfacher URLs
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **Skype for Business Server** obersten Knoten, und klicken Sie dann auf **"Eigenschaften bearbeiten",** wie in der Abbildung dargestellt.
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **Skype for Business Server** oberen Knoten, und klicken Sie dann auf **"Eigenschaften bearbeiten",** wie in der Abbildung dargestellt.
     
      ![Klicken Sie mit der rechten Maustaste auf Skype for Business Server, und wählen Sie "Eigenschaften bearbeiten" aus.](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
   
@@ -180,15 +180,15 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
     
 ### <a name="to-define-the-optional-admin-simple-url"></a>So definieren Sie die optionale einfache URL für den administrativen Zugriff
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **Knoten Skype for Business Server,** und klicken Sie dann auf **Eigenschaften bearbeiten.**
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **knoten Skype for Business Server,** und klicken Sie dann auf **Eigenschaften bearbeiten.**
     
-2. Geben Sie im Feld Administrative **Zugriffs-URL** die einfache URL ein, die Sie für den administrativen Zugriff auf Skype for Business Server Systemsteuerung wünschen, und klicken Sie dann auf **OK.**
+2. Geben Sie im Feld ADMINISTRATIVE **ZUGRIFFS-URL** die einfache URL ein, die Sie für den Administratorzugriff auf Skype for Business Server Systemsteuerung wünschen, und klicken Sie dann auf **OK.**
     
     > [!TIP]
-    > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Option ist https://admin . _\<domain\>_ . Die Admin-URL kann entweder eine interne oder externe Domäne sein, z. B. contoso.local oder contoso.com, solange beide Einträge im internen DNS aufgelöst werden können. 
+    > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Option ist https://admin . _\<domain\>_ . Die Admin-URL kann entweder eine interne oder eine externe Domäne sein, z. B. contoso.local oder contoso.com, solange beide Einträge im internen DNS aufgelöst werden können. 
   
     > [!IMPORTANT]
-    > Wenn Sie eine einfache URL nach der anfänglichen Bereitstellung ändern, müssen Sie sich der Auswirkungen auf DNS-Einträge (Domain Name System) und Zertifikate für einfache URLs bewusst sein. Wenn sich die Änderung auf die Basis einer einfachen URL auswirkt, müssen Sie auch die DNS-Einträge und -Zertifikate ändern. Wenn Sie beispielsweise https://sfb.contoso.com/Meet https://meet.contoso.com die Basis-URL von sfb.contoso.com in meet.contoso.com ändern, müssen Sie die DNS-Einträge und -Zertifikate so ändern, dass sie auf meet.contoso.com verweisen. Wenn Sie die einfache URL von in geändert https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings haben, bleibt die Basis-URL von sfb.contoso.com unverändert, sodass keine DNS- oder Zertifikatänderungen erforderlich sind. Wenn Sie jedoch einen einfachen URL-Namen ändern, müssen Sie das Cmdlet **"Enable-CsComputer"** auf jedem Director- und Front-End-Server ausführen, um die Änderung zu registrieren.
+    > Wenn Sie eine einfache URL nach der anfänglichen Bereitstellung ändern, müssen Sie sich der Auswirkungen auf DNS-Einträge (Domain Name System) und Zertifikate für einfache URLs bewusst sein. Wenn sich die Änderung auf die Basis einer einfachen URL auswirkt, müssen Sie auch die DNS-Einträge und -Zertifikate ändern. Wenn Sie beispielsweise https://sfb.contoso.com/Meet https://meet.contoso.com die Basis-URL von sfb.contoso.com in meet.contoso.com ändern, müssen Sie die DNS-Einträge und -Zertifikate so ändern, dass sie auf meet.contoso.com verweisen. Wenn Sie die einfache URL von in geändert https://sfb.contoso.com/Meet https://sfb.contoso.com/Meetings haben, bleibt die Basis-URL von sfb.contoso.com unverändert, sodass keine DNS- oder Zertifikatsänderungen erforderlich sind. Wenn Sie jedoch einen einfachen URL-Namen ändern, müssen Sie das Cmdlet **"Enable-CsComputer"** auf jedem Director- und Front-End-Server ausführen, um die Änderung zu registrieren.
   
 ### <a name="publish-and-verify-the-topology"></a>Veröffentlichen und Überprüfen der Topologie
 
@@ -222,17 +222,17 @@ Sie können Skype for Business Server Topologie-Generator zum Entwerfen, Definie
   
 10. Klicken Sie optional auf **Erweitert**. Mithilfe von Erweiterten SQL Server Optionen für die Platzierung von Datendateien können Sie zwischen den folgenden Optionen auswählen: 
     
-    - **Automatisches Bestimmen** des Speicherorts der Datenbankdatei – Diese Option bestimmt die beste Betriebsleistung basierend auf der Datenträgerkonfiguration auf Ihrem SQL Server-basierten Server, indem die Protokoll- und Datendateien an den besten Speicherort verteilt werden.
+    - **Automatisches Ermitteln** des Speicherorts von Datenbankdateien – Diese Option bestimmt die beste Betriebsleistung basierend auf der Datenträgerkonfiguration auf Ihrem SQL Server-basierten Server, indem die Protokoll- und Datendateien an den besten Speicherort verteilt werden.
     
-    - **Verwenden Sie SQL Server Standardwerte** für Instanzen. Mit dieser Option werden Protokoll- und Datendateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
+    - **Verwenden Sie SQL Server Instanzstandardeinstellungen:** Mit dieser Option werden Protokoll- und Datendateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
     
     Klicken Sie auf **OK** und dann auf **Weiter**. 
     
 11. Klicken Sie optional auf **"Erweitert".** Mithilfe von Erweiterten SQL Server Optionen für die Platzierung von Datendateien können Sie zwischen den folgenden Optionen auswählen: 
     
-    - **Automatisches Bestimmen** des Speicherorts der Datenbankdatei – Diese Option bestimmt die beste Betriebsleistung basierend auf der Datenträgerkonfiguration auf Ihrem SQL Server-basierten Server, indem die Protokoll- und Datendateien an den besten Speicherort verteilt werden.
+    - **Automatisches Ermitteln** des Speicherorts von Datenbankdateien – Diese Option bestimmt die beste Betriebsleistung basierend auf der Datenträgerkonfiguration auf Ihrem SQL Server-basierten Server, indem die Protokoll- und Datendateien an den besten Speicherort verteilt werden.
     
-    - **Verwenden Sie SQL Server Standardwerte** für Instanzen. Mit dieser Option werden Protokoll- und Datendateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
+    - **Verwenden Sie SQL Server Instanzstandardeinstellungen:** Mit dieser Option werden Protokoll- und Datendateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
     
     Klicken Sie auf **OK**.
     

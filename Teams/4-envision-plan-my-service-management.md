@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: df7d051f6ea140ab74532904994ea3ed5914d066
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c52409d8487462aeab900bc9f0565285ab094e5
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624867"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732974"
 ---
 # <a name="plan-my-service-management"></a>Planen der Dienstverwaltung
 
@@ -38,7 +38,7 @@ Die Dienstverwaltung ist für die meisten Organisationen höchstwahrscheinlich k
 Die Dienstverwaltung umfasst alle Aktivitäten und Prozesse, die bei der End-to-End-Verwaltung von Microsoft Teams anfallen. Einige Komponenten der Dienstverwaltung – die Infrastrukturkomponenten, die der Microsoft 365- oder Office 365-Dienst selbst umfasst – liegen in der Verantwortung von Microsoft, wohingegen der Kunde gegenüber seinen Benutzern für die Verwaltung der verschiedenen Aspekte von Teams, des Netzwerks und der Endpunkte verantwortlich ist, die er bietet.
 Eine umfassende Diskussion über die Verantwortung des Kunden für die Teams-Dienstverwaltung und deren Beziehung zu den Schlüsselkomponenten, die der Qualität der Benutzererfahrung zugrunde liegen, finden Sie unter Planen der Dienstverwaltung und [-qualität.](./prepare-network.md)
 
-![Diagramm der drei Qualitätskomponenten](media/plan-my-service-management-image1.png "Diagramm der drei Komponenten von Qualitäts-Microsoft 365 oder Office 365-Diensten, -Netzwerken und -Endpunkten und der Art und Weise, wie die Dienstverwaltung alle drei überlappt.")
+![Diagramm der drei Qualitätskomponenten.](media/plan-my-service-management-image1.png "Diagramm der drei Komponenten von Qualitäts-Microsoft 365 oder Office 365-Diensten, -Netzwerken und -Endpunkten und der Art und Weise, wie die Dienstverwaltung alle drei überlappt.")
 
 <!--ENDOFSECTION-->
 
@@ -91,9 +91,9 @@ Die mit der Rolle verbundenen Aufgaben und Aktivitäten sind im Betriebshandbuch
 
 ## <a name="introduction-to-the-quality-experience-review-guide"></a>Einführung in das Handbuch für die Überprüfung der Erlebnisqualität
 
-Der Leitfaden zur Qualitätsüberprüfung verfügt über eine Reihe von Aktivitäten, die Anleitungen zur Problembehebung in wichtigen Bereichen bewerten und bereitstellen, die den größten Einfluss auf die Verbesserung der Benutzerfreundlichkeit haben, wie in der nachstehenden Abbildung gezeigt.
+Der Leitfaden zur Qualitätsüberprüfung verfügt über eine Reihe von Aktivitäten, die in wichtigen Bereichen, die den größten Einfluss auf die Verbesserung der Benutzerfreundlichkeit haben, Bereinigungsleitfaden bewerten und bereitstellen, wie in der nachstehenden Abbildung gezeigt.
 
-![Abbildung wichtiger Bereiche, die während der Überprüfung der Qualität überprüft werden sollten](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während der Überprüfung der Qualität überprüft werden sollten: Audio, Zuverlässigkeit und Ergebnisse der Benutzerumfrage.")
+![Abbildung wichtiger Bereiche, die während der Überprüfung der Qualität überprüft werden sollten.](media/plan-my-service-management-image2.png "Die wichtigsten Bereiche, die während der Überprüfung der Qualität überprüft werden sollten: Audio, Zuverlässigkeit und Ergebnisse der Benutzerumfrage.")
 
 Durch kontinuierliches Bewerten und Verbessern der in diesem Dokument beschriebenen Bereiche können Sie die Wahrscheinlichkeit verringern, dass sie sich nachteilig auf die Benutzerfreundlichkeit auswirken. Die meisten bei einer Bereitstellung auftretenden Probleme mit der Benutzerfreundlichkeit können in die folgenden Kategorien eingeordnet werden:
 

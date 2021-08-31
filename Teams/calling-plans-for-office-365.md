@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
-ms.openlocfilehash: c82cdd40eb69ea06443e06ed21ab5d613f0a220b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634069"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727264"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -49,7 +49,7 @@ Besuchen Sie [Verfügbarkeit nach Ländern und Regionen](country-and-region-avai
   
 > [!IMPORTANT]
 > Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Benutzer** und **NICHT** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**.  
-![Screenshot des Speicherorts der Benutzerlizenz](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Screenshot des Lizenzspeicherorts des Benutzers.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen erhalten Sie unter [Audiokonferenz – Zeitraum für ﻿kostenlose ausgehende Anrufe](complimentary-dial-out-period.md).
   

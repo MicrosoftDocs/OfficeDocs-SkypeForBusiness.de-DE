@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für Ihre Teams.
-ms.openlocfilehash: 0122b75bbe698154f3966bb0352522c5335e4da6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für ihre Teams.
+ms.openlocfilehash: fb0025796ad9bbb91c5172cf2cb551de6ecf619b
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598549"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732914"
 ---
 # <a name="getting-service-phone-numbers"></a>Servicetelefonnummern erhalten
 
@@ -49,9 +49,9 @@ Es gibt drei Möglichkeiten, Leistungsnummern zu erhalten:
   
 ## <a name="get-new-service-numbers"></a>Neue Leistungsnummern beziehen
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie im linken Navigationsbereich **zu**  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
+1. Navigieren Sie in der linken **Navigationsleiste** zu Telefon  >  **Sprachanrufnummern**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 3. Gehen Sie auf der Seite Standort und Menge wie folgt vor:
     1. Wählen **Sie unter Land oder Region** ein Land oder eine Region aus.
@@ -73,9 +73,9 @@ Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist,
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers** 
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers** 
 
-Wechseln Sie in der linken Navigationsleiste zu Sprachanrufnummern Telefon um die Nummern für Ihre Organisation, einschließlich Standort, Nummer und  >   Statusinformationen, anzeigen zu können.
+Wechseln Sie in der linken Navigationsleiste zu Telefon Nummern, um die Nummern für Ihre Organisation, einschließlich Standort, Nummer und  >   Statusinformationen, anzeigen.
 
 ## <a name="assign-service-phone-numbers"></a>Zuweisen von Servicetelefonnummern
 

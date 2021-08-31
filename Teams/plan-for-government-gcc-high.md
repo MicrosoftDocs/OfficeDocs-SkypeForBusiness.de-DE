@@ -19,32 +19,32 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 34ef18970aa601c359aacbcfd8239d9fca2419d7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ba5a17ab83cd390a4aae121ccae93adcdda3595
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625977"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732894"
 ---
 # <a name="plan-for-office-365-government---gcc-high-deployments"></a>Planen von Office 365 Government – GCC Bereitstellungen mit hoher Qualität
 
-Dieser Leitfaden ist für IT-Profis, die Bereitstellungen von Office 365 in US-Regierungseinheiten oder anderen Entitäten treiben, die Daten verarbeiten, die staatlichen Vorschriften und Anforderungen unterliegen, wobei die Verwendung von Office 365 Government – GCC High geeignet ist, um diese Anforderungen zu erfüllen.
+Dieser Leitfaden ist für IT-Profis, die Bereitstellungen von Office 365 in US-Regierungseinheiten oder anderen Entitäten treiben, die Daten verarbeiten, die gesetzlichen Vorschriften unterliegen, wobei die Verwendung von Office 365 Government – GCC High für diese Anforderungen geeignet ist.
 
 > [!NOTE]
 > Wenn Ihre Organisation die Anforderungen für "Office 365 Government – GCC Hohe Berechtigung" bereits erfüllt und für das Programm angewendet und in das Programm aufgenommen wurde, können Sie die Schritte 1 und 2 überspringen und direkt mit Schritt 3 fortgehen.
 
 ## <a name="step-1-determine-whether-your-organization-needs-office-365-government---gcc-high-and-meets-eligibility-requirements"></a>Schritt 1: Bestimmen Sie, ob für Ihre Office 365 Government - GCC hoch sein muss und die Berechtigungsanforderungen erfüllt sind. 
 
-Das Office 365 Government – GCC High Environment bietet Compliance mit den Anforderungen der US-Regierung für Clouddienste. Organisationen profitieren nicht nur von den Features und Funktionen von Office 365, sondern auch von den folgenden Features, die einzigartig für Office 365 Government – GCC High sind:
+Das Office 365 Government – GCC High Environment bietet Compliance mit den Anforderungen der US-Regierung für Clouddienste. Organisationen profitieren nicht nur von den Features und Funktionen ihrer Office 365, sondern profitieren auch von den folgenden Features, die einzigartig für Office 365 Government – GCC High sind:
 
 - Die Kundeninhalte Ihrer Organisation sind logisch von Kundeninhalten in kommerziellen Diensten Office 365 Microsoft getrennt.
 - Die Kundeninhalte Ihrer Organisation werden in den USA gespeichert.
 - Der Zugriff auf die Kundeninhalte Ihrer Organisation ist auf angezeigte Microsoft-Mitarbeiter beschränkt.
-- Office 365 Government – GCC High entspricht den Zertifizierungen und Zertifikaten, die für Kunden des öffentlichen US-Amerikanischen Gesundheitswesens erforderlich sind.
+- Office 365 Government – GCC High entspricht den Zertifizierungen und Sverfahren, die für Kunden des öffentlichen US-amerikanischen Gesundheitswesens erforderlich sind.
 
 Weitere Informationen zu den angebotenen Office 365 Government – GCC High-Angebot für US Government-Kunden finden Sie unter [Office 365 Government-Pläne](https://products.office.com/government/compare-office-365-government-plans), einschließlich [Berechtigungsanforderungen.](https://products.office.com/government/compare-office-365-government-plans#EligibilityRequirements)
 
-In [Office 365 Beschreibung des US Government-Diensts](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) werden die Vorteile der Plattform beschrieben, die auf den Complianceanforderungen in den Vereinigten Staaten zentriert sind.
+In Office 365 Beschreibung des [US Government-Diensts](/office365/servicedescriptions/office-365-platform-service-description/office-365-us-government/office-365-us-government) werden die Vorteile der Plattform beschrieben, die auf den Complianceanforderungen in den Vereinigten Staaten zentriert sind.
 
 
 > [!Tip]
@@ -53,10 +53,10 @@ In [Office 365 Beschreibung des US Government-Diensts](/office365/servicedescrip
 
 |    |     |
 |-----------|------------|
-| ![Ein Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, Office 365 Government - GCC hoch für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation die Berechtigungsanforderungen erfüllt.</li></ul> |
+| ![Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Entscheiden Sie, Office 365 Government - GCC "Hoch" für Ihre Organisation geeignet ist.</li><li>Vergewissern Sie sich, dass Ihre Organisation die Berechtigungsanforderungen erfüllt.</li></ul> |
 
 > [!Note]
-> Office 365 Government - GCC High ist nur in den USA verfügbar. Kunden außerhalb der US-Regierung können aus einer Reihe von Office 365 Government [wählen.](https://products.office.com/en/government/compare-office-365-government-plans)
+> Office 365 Government – GCC "High" steht nur in den USA zur Verfügung. Kunden außerhalb der US-Regierung können unter einer Reihe von Office 365 Government [wählen.](https://products.office.com/en/government/compare-office-365-government-plans)
 
 ## <a name="step-2-apply-for-office-365-government---gcc-high"></a>Schritt 2: Apply for Office 365 Government - GCC High
 
@@ -69,14 +69,14 @@ Wir empfehlen, sich vor derEn [](enable-features-office-365.md) Änderung Die Ad
 
 |    |     |
 |-----------|------------|
-| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie eine der Standardeinstellungen ändern Office 365 Government – GCC Hohe Sicherheitseinstellungen, auflösen müssen, um zuerst die Auswirkungen von Änderungen zu verstehen, die Sie möglicherweise vornehmen.</li></ul> |
+| ![Ein Symbol, das einen Entscheidungspunkt zeigt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Entscheiden Sie, ob Sie eine der Standardeinstellungen ändern Office 365 Government – GCC Hohe Sicherheitseinstellungen, auflösen, um zuerst die Auswirkungen von Änderungen zu verstehen, die Sie möglicherweise vornehmen.</li></ul> |
 
 
 ## <a name="step-4-understand-which-teams-capabilities-are-currently-available-in-office-365-government---gcc-high"></a>Schritt 4: Verstehen der Teams, die zurzeit in "Hoch" Office 365 Government – GCC sind
 
 Um den Anforderungen unserer Government Cloud-Kunden gerecht zu werden, gibt es einige Unterschiede zwischen Teams in Office 365 Government – GCC High und Teams in den Enterprise-Plänen. In der folgenden Tabelle finden Sie Informationen zu den verfügbaren Features.
 
-[Microsoft Teams Dienstbeschreibung](/office365/servicedescriptions/teams-service-description)
+[Microsoft Teams der Dienstbeschreibung](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="step-5-plan-for-governance"></a>Schritt 5: Planen der Governance
 
@@ -84,10 +84,10 @@ Ermitteln Sie Ihre Anforderungen an Governance und wie Sie sie erfüllen können
 
 |         |         |         |
 |---------|---------|---------|
-|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Entscheidungspunkt |<ul><li>Ermitteln und dokumentieren Sie Ihre Governanceanforderungen, und folgen Sie den Richtlinien unter [Planen der Governance in Teams.](plan-teams-governance.md) </li></ul>|
+|<img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/>|Entscheidungspunkt |<ul><li>Ermitteln und dokumentieren Sie Ihre Governanceanforderungen, und folgen Sie den Richtlinien unter Planen der [Governance in Teams.](plan-teams-governance.md) </li></ul>|
 
 ## <a name="step-6-deploy-teams-for-collaboration"></a>Schritt 6: Bereitstellen Teams für die Zusammenarbeit
 
-Nachdem Sie in das Bereitstellungs-Office 365 Government – GCC High ein onboarded haben, folgen Sie den empfohlenen Bereitstellungspfaden, die unter So [wird's](./deploy-overview.md)Microsoft Teams. Stellen Sie sicher, dass Sie mit Ihrem Adoption and Change Management-Team zusammenarbeiten und Teams können.
+Nachdem Sie in das Bereitstellungs-Office 365 Government – GCC High ein-/ausgeschlossen wurden, folgen Sie den empfohlenen Bereitstellungspfaden, die [unter](./deploy-overview.md)So wird's Microsoft Teams. Achten Sie darauf, dass Sie mit Ihrem Übernahme- und Änderungsverwaltungsteam zusammenarbeiten und Teams werden.
 
 Sie können auch mit [dem](https://www.microsoft.com/fasttrack) FastTrack oder dem ausgewählten Partner zusammenarbeiten, um den Dienst zu integrieren.

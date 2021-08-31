@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: In diesem Thema erfahren Sie, wie Sie Trunk-Failover bei ausgehenden Anrufen von einem Teams zum Session Border Controller (SBC) behandeln.
-ms.openlocfilehash: 878a4735585ee183f0156b44c253b079c2e6e24c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83320e93df7cbf476d71b3b9165d50ca387292b9
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619451"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727864"
 ---
 # <a name="trunk-failover-on-outbound-calls"></a>Trunkfailover bei ausgehenden Anrufen
 
@@ -45,12 +45,12 @@ Dieser spezielle SBC hat möglicherweise Schwierigkeiten bei der Verbindung mit 
 Im folgenden Diagramm sind zwei SBCs in der Route, die diesen Anruf potenziell liefern können, wenn ein Benutzer einen Anruf bei einer Telefonnummer anruft. Zunächst ist SBC1.contoso.com für den Anruf ausgewählt, aber SBC1.contoso.com ist aufgrund eines Netzwerkproblems nicht in der Lage, ein PTSN-Netzwerk zu erreichen.
 Der Anruf ist in diesem Moment standardmäßig abgeschlossen. 
  
-![Diagramm, das zeigt, dass SBC das PSTN aufgrund eines Netzwerkproblems nicht erreichen kann](media/direct-routing-failover-response-codes1.png)
+![Diagramm, das zeigt, dass der SBC das PSTN aufgrund eines Netzwerkproblems nicht erreichen kann.](media/direct-routing-failover-response-codes1.png)
 
 Es gibt aber noch einen weiteren SBC in der Route, der den Anruf möglicherweise liefern kann.
 Wenn Sie den Parameter konfigurieren, wird der zweite SBC ausprobiert– SBC2.contoso.com `Set-CSOnlinePSTNGateway -Identity sbc1.contoso.com -FailoverResponseCodes "408"` im folgenden Diagramm dargestellt:
 
-![Diagramm, das das Routing an den zweiten SBC zeigt](media/direct-routing-failover-response-codes2.png)
+![Diagramm, das das Routing an den zweiten SBC zeigt.](media/direct-routing-failover-response-codes2.png)
 
 Durch Festlegen des Parameters -FailoverResponseCodes und Angeben der Codes können Sie das Routing optimieren und potenzielle Probleme vermeiden, wenn ein SBC aufgrund eines Netzwerks oder anderer Probleme keinen Aufruf ausführen kann.
 

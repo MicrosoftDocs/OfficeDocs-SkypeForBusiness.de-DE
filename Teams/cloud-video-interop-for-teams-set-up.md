@@ -17,22 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a433a7a372c89a2d22bac7991effdd5081ac298d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0fe0ac66b8d1ff9afe43d4d57783e803f426c23c
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616251"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732954"
 ---
 # <a name="set-up-cloud-video-interop-for-microsoft-teams"></a>Einrichten von Cloud-Video-Interoperabilität für Microsoft Teams
 
 Nachdem Sie Ihre [Cloud Video Interop-Partner](cloud-video-interop.md)ausgewählt haben, müssen Sie die Bereitstellung planen, die Einrichtung mit Bereitstellungsdetails und dem Mandantenschlüssel des Partners einrichten und der Video-Inaktivitäts-App in Ihrer Organisation zustimmen. Im folgenden Diagramm ist der Prozess dargestellt. 
 
-![Bereitstellen von CVI in Ihrer Organisation](media/deploying-cvi.png)
+![Bereitstellen von CVI in Ihrer Organisation.](media/deploying-cvi.png)
 
 ## <a name="plan"></a>Plan
 
-Informationen zum Identifizieren von Partnern, die in Ihrer Microsoft Teams verwendet werden müssen, finden Sie unter [Cloud Video Interop](cloud-video-interop.md) für weitere Informationen. 
+Unter [Cloud Video Interop for Microsoft Teams](cloud-video-interop.md) finden Sie Informationen zum Identifizieren eines Partners oder einer Partner, die in Ihrer Organisation verwendet werden soll. 
 
 So planen Sie die benutzerbasierte/gleichzeitige/websiteweite Aktivierung: 
 
@@ -57,14 +57,14 @@ Führen Sie die folgenden Schritte aus, um Cloud Video Interop zu konfigurieren.
  
 Der Mandantschlüssel ist der Auswähler des Partnerdiensts. Im folgenden Beispiel ist 813878896@t.plcm.vc der Mandantschlüssel. 
 
-![Beispiel für einen Mandantenschlüssel](media/tenant-key-example.png) 
+![Beispiel für einen Mandantenschlüssel.](media/tenant-key-example.png) 
 
 Sie müssen die folgenden Cmdlets ausführen, um den Mandantenschlüssel bereitstellen zu können, und außerdem ausgewählten Benutzern oder ihrer gesamten Organisation ermöglichen, Besprechungen mit Video-Inaktivitätskoordinaten zu erstellen.
 
  
 - **[Get-CsTeamsVideoInteropServicepolicy](/powershell/module/skype/get-csteamsvideointeropservicepolicy):** Microsoft stellt vorgefertigte Richtlinien für jeden unserer unterstützten Partner zur Verfügung, mit denen Sie festlegen können, welche Partner für die Inaktivität bei Cloud-Video verwendet werden sollen.
 
-    Mit diesem Cmdlet können Sie die vorgefertigten Richtlinien identifizieren, die Sie in Ihrer Organisation verwenden können. Sie können diese Richtlinie einem oder mehreren Ihrer Benutzer zuweisen, indem Sie das Grant-CsTeamsVideoInteropServicePolicy nutzen.
+    Mit diesem Cmdlet können Sie die vorgefertigten Richtlinien identifizieren, die Sie in Ihrer Organisation verwenden können. Sie können diese Richtlinie einem oder mehreren Benutzern zuweisen, die das cmdlet Grant-CsTeamsVideoInteropServicePolicy nutzen.
  
 - **[Grant-CsTeamsVideoInteropServicePolicy](/powershell/module/skype/grant-csteamsvideointeropservicepolicy):** Das Grant-CsTeamsVideoInteropServicePolicy-Cmdlet ermöglicht es Ihnen, eine vorgefertigte Richtlinie zur Verwendung in Ihrer Organisation zuzuordnen oder die Richtlinie bestimmten Benutzern zuzuordnen.
  
@@ -80,7 +80,7 @@ Sie müssen die folgenden Cmdlets ausführen, um den Mandantenschlüssel bereits
 
 Sie müssen die Zustimmung der VTCs (Video Teleconferencing Devices) erteilen, um über den Partnerdienst an Besprechungen in Ihrem Unternehmen teilnehmen zu können. Dieser Zustimmungslink wird auch von Ihrem Partner bereitgestellt.  
  
-Nach Abschluss dieser Schritte verfügen die Benutzer, die über das cmdlet "Grant" einzeln aktiviert werden, oder alle Benutzer in der Organisation, wenn der Mandant aktiviert ist, über VTC-Koordinaten in allen Teams-Besprechungen, die sie planen. Jeder VTC kann über diese Koordinaten an diesen Besprechungen teilnehmen.
+Nach Abschluss dieser Schritte verfügen die Benutzer, die über das oben beschriebene Cmdlet Grant einzeln aktiviert werden, oder alle Benutzer in der Organisation, wenn der Mandant aktiviert ist, in allen von ihnen geplanten Teams-Besprechungen über VTC-Koordinaten. Jeder VTC kann über diese Koordinaten an diesen Besprechungen teilnehmen.
 
 
 |Name|Kurzbeschreibung für Anwendungsberechtigungen| Beschreibung|
@@ -99,14 +99,14 @@ Als Nächstes planen Teams Besprechung mit Video-Inopkoordinaten. Der aktivierte
 
 ## <a name="join"></a>Join
 
-Sie können an Teams mit Ihren VTC-Geräten auf folgende Weise teilnehmen:
+Sie können mit Teams VTC-Geräten wie folgt an Besprechungen teilnehmen:
  
 - IVR (Interactive Voice Response, interaktive Sprachantwort)
     - Sie können sich über die -Wählscheibe bei der IVR des Partners tenantkey@domain. 
-    - Sobald Sie sich im Partner IVR befinden, werden Sie zur Eingabe der VTC conferenceId aufgefordert, über die Sie dann mit der Besprechung Teams werden.
+    - Sobald Sie sich im Partner IVR befinden, werden Sie aufgefordert, die VTC conferenceId ein betreten, über die Sie dann mit der Besprechung Teams werden.
 - Direktwahl
-    - Sie können sich direkt in die Teams-Besprechung einwählen, ohne mit dem IVR des Partners zu interagieren, indem Sie die vollständige Zeichenfolge des Mandantenschlüssels verwenden. VTC ConferenceId@domain.
+    - Sie können sich direkt in die Teams-Besprechung einwählen, ohne mit dem IVR des Partners zu interagieren, indem Sie das Direktwählfeature mit der vollständigen Zeichenfolge des Mandantenschlüssels verwenden. VTC ConferenceId@domain.
 - One-Touch Dial
     - Wenn Sie über einen integrierten Teams verfügen, können Sie die von Ihrem Partner gebotenen Ein-Finger-Wählfunktionen verwenden (ohne eine Wählzeichenfolge eingeben zu müssen).
 
-Schließlich können Sie sich mithilfe Teams, Video und Inhaltsfreigabe an Besprechungen beteiligen.
+Und schließlich: Beteiligen Sie Teams an Ihren Besprechungen mithilfe von Audio, Video und Inhaltsfreigabe.

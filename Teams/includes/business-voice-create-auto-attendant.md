@@ -8,7 +8,7 @@ Dieses Video zeigt ein einfaches Beispiel für das Erstellen einer automatischen
 
 Holen Sie sich die Servicenummern (Servicenummern sind ein spezieller Typ von Telefonnummern, die von automatischen Telefonanbietern verwendet werden), die Sie für die automatischen Telefonieren benötigen, auf die Sie durch direktes Wählen von außerhalb Ihrer Organisation zugriffen möchten. Dies kann das [Übertragen von Nummern von einem anderen Anbieter oder](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md) das Anfordern neuer [Leistungsnummern umfassen.](../getting-service-phone-numbers.md)
 
-Jeder automatischen Attendant muss eine Lizenz für "Telefonsystem - Virtueller Benutzer" zugewiesen werden. Beim Kauf von Business Voice haben Sie auch eine Reihe von Telefonsystem - Virtual User-Lizenzen erhalten, sodass Sie wahrscheinlich nicht mehr anfordern müssen. Wenn Sie in Zukunft jedoch mehr benötigen, können Sie diese erhalten, indem Sie den Anweisungen unter Telefonsystem [- Virtual User license folgen.](../teams-add-on-licensing/virtual-user.md)
+Jeder automatischen Attendant muss eine Lizenz Telefonsystem virtueller Benutzer zugewiesen werden. Beim Kauf von Business Voice haben Sie auch eine Reihe von Telefonsystem - Virtual User-Lizenzen erhalten, sodass Sie wahrscheinlich nicht mehr anfordern müssen. Wenn Sie in Zukunft jedoch mehr benötigen, können Sie diese erhalten, indem Sie den Anweisungen unter [Telefonsystem - Virtual User license folgen.](../teams-add-on-licensing/virtual-user.md)
 
 Wenn Sie möchten, dass Ihre automatische Telefonbuchstelle an [Feiertagen](../set-up-holidays-in-teams.md) anders anruft, erstellen Sie die Feiertage, die Sie verwenden möchten, bevor Sie die automatische Telefon attendant erstellen.
 
@@ -39,7 +39,7 @@ Sie können ein Ressourcenkonto im Teams Admin Center erstellen.
 
     Das neue Konto wird in der Liste der Konten angezeigt.
 
-    ![Screenshot einer Liste von Ressourcenkonten](../media/resource-accounts-page.png)
+    ![Screenshot einer Liste mit Ressourcenkonten](../media/resource-accounts-page.png)
 
 ### <a name="assign-a-license"></a>Lizenz zuweisen
 
@@ -51,19 +51,19 @@ Sie müssen dem *Ressourcenkonto Microsoft 365 Telefonsystem - Virtueller Benutz
 
 3. Klicken Sie auf **Änderungen speichern**.
 
-    ![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center](../media/resource-account-assign-virtual-user-license.png)
+    ![Screenshot der Benutzeroberfläche zum Zuweisen von Lizenzen im Microsoft 365 Admin Center.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="assign-a-service-number"></a>Zuweisen einer Leistungsnummer
 
 Wenn sie über eine Telefonnummer erreichbar sein soll, weisen Sie diese Nummer dem Ressourcenkonto zu.
 
-1. Wählen Sie Teams Admin Center  auf der Seite Ressourcenkonten das Ressourcenkonto aus, dem Sie eine Dienstnummer zuordnen möchten, und klicken Sie dann auf **Zuordnen/Zuweisung wieder auf .**
+1. Wählen Sie Teams Admin Center  auf der Seite Ressourcenkonten das Ressourcenkonto aus, dem Sie eine Dienstnummer zuweisen möchten, und klicken Sie dann auf **Zuordnen/Zuweisung wieder auf .**
 
 2. Wählen Sie **Telefon Dropdownliste Zahlentyp** den Typ der Zahl aus, die Sie verwenden möchten.
 
 3. Suchen Sie **im Feld Zugewiesene** Telefonnummer nach der zu verwendende Nummer, und klicken Sie auf **Hinzufügen**.
 
-    ![Screenshot der Benutzeroberfläche "Servicenummer zuweisen"](../media/resource-account-assign-phone-number.png)
+    ![Screenshot der Benutzeroberfläche "Servicenummer zuweisen".](../media/resource-account-assign-phone-number.png)
 
 4. Klicken Sie auf **Speichern**.
 
@@ -86,7 +86,7 @@ So richten Sie eine automatische Attendant ein
 
 6. Wählen Sie aus, ob Sie Spracheingaben aktivieren möchten. Wenn die Option aktiviert ist, wird der Name jeder Menüoption zu einem Schlüsselwort für die Spracherkennung. So können Anrufer beispielsweise "Eins" sagen, um die Menüoption auszuwählen, die der Taste "1" zugeordnet ist, oder "Vertrieb", um die Menüoption "Vertrieb" auszuwählen.
 
-    ![Screenshot der Einstellungen der automatischen Telefongesellschaft für Name, Operator, Zeitzone, Sprache und Spracheingaben](../media/auto-attendant-general-info-page-new.png)
+    ![Screenshot der Einstellungen der automatischen Telefongesellschaft für Name, Operator, Zeitzone, Sprache und Spracheingaben.](../media/auto-attendant-general-info-page-new.png)
 
 7. Klicken Sie auf **Weiter**.
 
@@ -99,7 +99,7 @@ Wählen Sie Ihre Anrufflussoptionen aus.
 
 1. Wählen Sie aus, ob eine Begrüßung abspielen soll, wenn die automatische Telefonkonferenz einen Anruf beantwortet.
 
-    Wenn Sie Audiodatei **wiedergabe auswählen,** können Sie die Schaltfläche **Hochladen-Datei** verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audio in gespeichert wurde. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
+    Wenn Sie Audiodatei **wiedergabe** auswählen, können Sie die Schaltfläche **Hochladen-Datei** verwenden, um eine aufgezeichnete Begrüßungsnachricht hochzuladen, die als Audio in gespeichert wurde. WAV, .MP3 oder . WMA-Format. Die Aufzeichnung darf nicht größer als 5 MB sein.
 
     Wenn Sie Grußnachricht **eingeben** auswählen, liest das System den Text vor, den Sie eingeben (bis zu 1.000 Zeichen), wenn die automatische Telefonanlage einen Anruf entgegen nimmt.
 
@@ -137,9 +137,9 @@ Wählen Sie Ihre Anrufflussoptionen aus.
 
     ![Screenshot der Wähltastenoptionen](../media/auto-attendant-call-flow-menu-options-complete.png)
 
-4. Wenn Sie diese automatische Telefon attendant als Unternehmensverzeichnis verwenden möchten, wählen Sie unter Verzeichnissuche **die** Option Nach Name **wählen aus.** Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Tastatur des Telefons eingeben. Jeder Onlinebenutzer mit einer Telefonsystem-Lizenz ist ein berechtigter Benutzer und kann mit namenswählen gefunden werden. 
+4. Wenn Sie diese automatische Telefon attendant als Unternehmensverzeichnis verwenden möchten, wählen Sie unter Verzeichnissuche **die** Option Nach Name **wählen aus.** Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Tastatur des Telefons eingeben. Jeder Onlinebenutzer mit einer Telefonsystem-Lizenz ist berechtigter Benutzer und kann mit namenswählen gefunden werden. 
 
-    (Sie können **Durchwahl durchwahl auswählen,** die Erweiterung muss jedoch in der Datei Azure Active Directory.)
+    (Sie können **Durchwahl auswählen,** die Erweiterung muss jedoch in der Datei Azure Active Directory.)
 
 5. Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt haben,** klicken Sie auf **Weiter.**
 
@@ -154,7 +154,7 @@ Je nachdem, wie Sie Ihre automatischen Telefonkonferenzen und Anrufwarteschleife
 
 Wenn Sie eine separate Anrufrouting für Anrufer nach Geschäftszeiten wünschen, geben Sie Ihre Geschäftszeiten für jeden Tag an. Klicken **Sie auf Neue Zeit hinzufügen,** um mehrere Stundensätze für einen bestimmten Tag anzugeben, z. B. eine Mittagspause.
 
-![Screenshot der Tages- und Uhrzeiteinstellungen nach Stunden](../media/auto-attendant-business-hours.png)
+![Screenshot der Tages- und Uhrzeiteinstellungen nach Stunden.](../media/auto-attendant-business-hours.png)
 
 Nachdem Sie Ihre Geschäftszeiten angegeben haben, wählen Sie Die Optionen für die Anrufrouting nach Geschäftszeiten aus. Die gleichen Optionen sind verfügbar wie für die Anrufrouting während der Geschäftszeiten, die Sie in **Schritt 3 – Anruffluss angegeben haben.**
 
@@ -194,7 +194,7 @@ Ihre automatische Telefon attendant kann einen Anruffluss für jeden Feiertag ha
     Wenn Sie alle Feiertage hinzugefügt haben, klicken Sie auf **Weiter.**
 
 > [!div class="nextstepaction"]
-> [Schritt 6 – Auswählen, wer sich im Verzeichnis >](?tabs=dial-scope#steps)
+> [Schritt 6 – Wählen Sie aus, wer sich im Verzeichnis >](?tabs=dial-scope#steps)
 
 # <a name="step-6brdirectory-members"></a>[Schritt <br> 6: Verzeichnismitglieder](#tab/dial-scope)
 
@@ -220,11 +220,11 @@ So fügen Sie ein Ressourcenkonto hinzu
 
 1. Klicken **Sie auf** Hinzufügen, und suchen Sie nach dem Konto, das Sie hinzufügen möchten. Klicken **Sie auf** Hinzufügen und dann auf **Hinzufügen**.
 
-    ![Screenshot des Bedienfelds "Konten hinzufügen" des Ressourcenkontos](../media/auto-attendant-add-resource-account.png)
+    ![Screenshot des Bedienfelds "Konten hinzufügen" des Ressourcenkontos.](../media/auto-attendant-add-resource-account.png)
 
 2. Wenn Sie mit dem Hinzufügen von Dienstkonten fertig sind, klicken Sie auf **Absenden.**
 
-    ![Screenshot der Liste "Ressourcenkonto" mit ressourcenkonto mit zugewiesener Dienstnummer](../media/auto-attendant-resource-account-assigned.png)
+    ![Screenshot der Liste "Ressourcenkonto" mit dem Ressourcenkonto mit zugewiesener Dienstnummer](../media/auto-attendant-resource-account-assigned.png)
 
     Damit wird die Konfiguration der automatischen Attendant abgeschlossen.
 

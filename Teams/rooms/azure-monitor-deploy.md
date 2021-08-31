@@ -13,24 +13,24 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 ms.assetid: d86ff657-ee92-4b06-aee3-d4c43090bdcb
-description: In diesem Artikel wird erläutert, wie Sie die Verwaltung ihrer Microsoft Teams-Räume mit Azure Monitor in einer integrierten End-to-End-Weise bereitstellen.
+description: In diesem Artikel wird erläutert, wie Sie die Verwaltung ihrer Microsoft Teams-Räume mit Azure Monitor auf integrierte, end-to-end-Weise bereitstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 77b1e18e9f30e13cc209040ab876324afa232766
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6713b8651432766e6858f3376ff9804d638babcc
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613024"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726114"
 ---
 # <a name="deploy-no-loc-textmicrosoft-teams-rooms-management-with-no-loc-textazure-monitor"></a>:::no-loc text="Microsoft Teams Rooms":::Bereitstellungsverwaltung mit:::no-loc text="Azure Monitor":::
 
 In diesem Artikel wird beschrieben, wie Sie die integrierte End-to-End-Verwaltung von Geräten mithilfe von einrichten und :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: bereitstellen.
 
-Sie können die Konfiguration in so konfigurieren, dass Sie einfache Telemetrie und Benachrichtigungen bereitstellen, die Ihnen bei der :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: Verwaltung von :::no-loc text="Microsoft Teams Rooms"::: Besprechungsraumgeräten helfen. Wenn Ihre Managementlösung reift, können Sie zusätzliche Daten- und Verwaltungsfunktionen bereitstellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und -leistung zu erstellen.
+Sie können die Konfiguration in so konfigurieren, dass Sie einfache Telemetrie und Benachrichtigungen bereitstellen, die Ihnen bei der :::no-loc text="Log Analytics"::: :::no-loc text="Azure Monitor"::: Verwaltung von :::no-loc text="Microsoft Teams Rooms"::: Besprechungsraumgeräten helfen. Wenn Ihre Managementlösung reift, können Sie zusätzliche Daten- und Verwaltungsfunktionen bereitstellen, um eine detailliertere Ansicht der Geräteverfügbarkeit und Leistung zu erstellen.
 
 Durch Folgen dieses Leitfadens können Sie ein Dashboard wie das folgende Beispiel verwenden, um detaillierte Statusberichte zur Geräteverfügbarkeit, Anwendungs- und Hardwarestatus sowie Anwendungs- und :::no-loc text="Microsoft Teams Rooms"::: Betriebssystemversionsverteilung zu erhalten.
 
-![Screenshot der Beispielansicht "Protokollanalyse" für Microsoft Teams-Räume](../media/Deploy-Azure-Monitor-1.png "Beispielansicht für die Protokollanalyse für Microsoft Teams-Räume")
+![Screenshot der Beispielansicht "Protokollanalyse" für Microsoft Teams-Räume.](../media/Deploy-Azure-Monitor-1.png "Beispielansicht für die Protokollanalyse für Microsoft Teams-Räume")
 
 Allgemein müssen Sie die folgenden Aufgaben ausführen:
 
@@ -44,7 +44,7 @@ Allgemein müssen Sie die folgenden Aufgaben ausführen:
 7. [Konfigurieren zusätzlicher :::no-loc text="Azure Monitor"::: Lösungen](azure-monitor-deploy.md#Solutions)
 
 > [!IMPORTANT]
-> Obwohl sie mit einer minimalen Konfiguration einen Computer überwachen kann, auf dem ein Betriebssystem ausgeführt wird, müssen Sie dennoch einige spezifische Schritte ausführen, bevor Sie mit der Bereitstellung von Agents auf allen :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: :::no-loc text="Windows"::: :::no-loc text="Microsoft Teams Rooms"::: Geräten :::no-loc text="Microsoft Teams Rooms"::: beginnen.
+> Obwohl sie mit einer minimalen Konfiguration einen Computer überwachen kann, auf dem ein Betriebssystem ausgeführt wird, gibt es dennoch einige – spezifische Schritte, die Sie ausführen müssen, bevor Sie mit der Bereitstellung von Agents auf allen :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: :::no-loc text="Windows"::: :::no-loc text="Microsoft Teams Rooms"::: Geräten :::no-loc text="Microsoft Teams Rooms"::: beginnen.
 > Daher wird dringend empfohlen, alle Konfigurationsschritte in der richtigen Reihenfolge für eine kontrollierte Einrichtung und Konfiguration durchzuführen. Die Qualität des Endergebniss hängt stark von der Qualität der Anfänglichen Konfiguration ab.
 
 ## <a name="validate-no-loc-textlog-analytics-configuration"></a>Überprüfen der :::no-loc text="Log Analytics"::: Konfiguration
@@ -77,7 +77,7 @@ Sie müssen die Überwachung :::no-loc text="Log Analytics"::: von Ereignissen i
 
 ### <a name="install-no-loc-textmicrosoft-monitoring-agents-to-test-devices"></a>Installieren von :::no-loc text="Microsoft Monitoring"::: Agents zum Testen von Geräten
 
-Stellen Sie den Agent auf den Testgeräten bereit, indem Sie die Anweisungen unter Verbinden :::no-loc text="Microsoft Monitoring"::: [dem Dienst in :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: befolgen. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) Dieser Artikel enthält detaillierte Informationen zu den Schritten zum Bereitstellen des Agents für , Anweisungen zum Beziehen der Arbeitsbereichs-ID _ und des _ Primärschlüssels *, um Geräte mit Ihrer Bereitstellung zu verbinden, sowie Schritte zum Überprüfen der Agentkonnektivität mit :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: Instanz.
+Stellen Sie den Agent auf den Testgeräten bereit, indem Sie die Anweisungen in Verbinden :::no-loc text="Microsoft Monitoring"::: [dem Dienst in :::no-loc text="Windows"::: :::no-loc text="Log Analytics"::: befolgen. :::no-loc text="Azure"::: ](/azure/azure-monitor/platform/agent-windows) Dieser Artikel enthält detaillierte Informationen zu den Schritten zum Bereitstellen des Agents für , Anweisungen zum Beziehen der Arbeitsbereichs-ID _ und des _ Primärschlüssels *, um Geräte mit Ihrer Bereitstellung zu verbinden, sowie Schritte zum Überprüfen der Agentkonnektivität mit :::no-loc text="Microsoft Monitoring"::: :::no-loc text="Windows"::: :::no-loc text="Log Analytics":::  * ** :::no-loc text="Microsoft Teams Rooms"::: :::no-loc text="Azure Monitor"::: :::no-loc text="Log Analytics"::: Instanz.
 
 ### <a name="generate-sample-no-loc-textmicrosoft-teams-rooms-events"></a>Generieren von :::no-loc text="Microsoft Teams Rooms"::: Beispielereignissen
 
@@ -162,7 +162,7 @@ Nachdem Daten gesammelt und benutzerdefinierte Felder zugeordnet wurden, können
 > Die vorherigen Schritte in diesem Leitfaden sollten abgeschlossen worden sein, damit die Dashboardkacheln ordnungsgemäß funktionieren.
 >
 > [!IMPORTANT]
-> [Der Ansichts-Designer in Azure Monitor wird am 31. August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) fortgesetzt und die Funktionen zum Erstellen und Klonen wurden am 30. November 2020 deaktiviert. Stattdessen können Arbeitsmappen verwendet werden. Weitere Informationen zum Leitfaden zum Übergang des Ansichts-Designers zu Arbeitsmappen finden Sie unter [Schnellstart mit vordefinierten Ansichts-Designervorlagen.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
+> [Der Ansichts-Designer in Azure Monitor wird am 31. August 2023](https://azure.microsoft.com/updates/view-designer-in-azure-monitor-is-retiring-on-31-august-2023/) fortgesetzt, und die Funktionen zum Erstellen und Klonen wurden am 30. November 2020 deaktiviert. Stattdessen können Arbeitsmappen verwendet werden. Weitere Informationen zum Leitfaden zum Übergang des Ansichts-Designers zu Arbeitsmappen finden Sie unter [Schnellstart mit vordefinierten Ansichts-Designervorlagen.](/azure/azure-monitor/visualize/view-designer-conversion-tasks#quickstart-with-preset-view-designer-templates)
 
 ### <a name="create-a-microsoft-teams-rooms-dashboard-manually"></a>Manuelles Erstellen Microsoft Teams-Räume Dashboards
 

@@ -20,16 +20,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3547f23d43f07d8de28ba8ca53626be119de30de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f87dfea2eb847a8bf6ae4c6aa95b099d93b0c1e0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595287"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732934"
 ---
 # <a name="implement-quality-of-service-qos-in-microsoft-teams"></a>Implementieren von Quality of Service (QoS) in Microsoft Teams
 
-Quality of Service (QoS) in Microsoft Teams ermöglicht Echtzeit-Netzwerkdatenverkehr, der auf Netzwerkverzögerungen (z. B. Sprach- oder Videodatenströme) zu einem weniger sensiblen Datenverkehr "eingeschnitten" wird (z. B. beim Herunterladen einer neuen App, bei dem eine zusätzliche Sekunde zum Herunterladen keine große Menge ist). QoS verwendet Windows Gruppenrichtlinienobjekte und portbasierte Zugriffssteuerungslisten, um alle Pakete in Echtzeitstreams zu identifizieren und zu markieren. Dies hilft Ihrem Netzwerk dabei, Audio-, Video- und Bildschirmfreigabe-Streams einen dedizierten Teil der Netzwerkbandbreite zu verleihen.
+Quality of Service (QoS) in Microsoft Teams ermöglicht Echtzeit-Netzwerkdatenverkehr, der auf Netzwerkverzögerungen (z. B. Sprach- oder Videostreams) zu einem weniger sensiblen Datenverkehr "eingeschnitten" wird (z. B. beim Herunterladen einer neuen App, bei dem eine zusätzliche Sekunde zum Herunterladen keine große Menge ist). QoS verwendet Windows Gruppenrichtlinienobjekte und portbasierte Zugriffssteuerungslisten, um alle Pakete in Echtzeitdatenströmen zu identifizieren und zu markieren. Dies hilft Ihrem Netzwerk dabei, Audio-, Video- und Bildschirmfreigabe-Streams einen dedizierten Teil der Netzwerkbandbreite zu verleihen.
 
 Wenn Sie eine große Gruppe von Benutzern unterstützen, bei denen eines der in diesem Artikel beschriebenen Probleme auftritt, müssen Sie wahrscheinlich QoS implementieren. Ein kleines Unternehmen mit wenigen Benutzern benötigt möglicherweise QoS nicht, aber auch dort sollte es hilfreich sein.
 
@@ -45,7 +45,7 @@ Damit QoS wirksam wird, müssen Sie in der gesamten Organisation konsistente QoS
 
 _Abbildung 1. Die Beziehung zwischen den Netzwerken einer Organisation und Microsoft 365 oder Office 365 Diensten_
 
-![Abbildung der Beziehung zwischen Netzwerken und Diensten](media/Qos-in-Teams-Image1.png "Die Beziehung zwischen den Netzwerken einer Organisation und Microsoft 365- oder Office 365-Diensten: Lokales Netzwerk und Geräte verbinden sich mit einem verbundenen Netzwerk, das wiederum eine Verbindung mit Microsoft 365- oder Office 365-Cloud-Sprach- und Audiokonferenzdiensten herstellt.")
+![Abbildung der Beziehung zwischen Netzwerken und Diensten.](media/Qos-in-Teams-Image1.png "Die Beziehung zwischen den Netzwerken einer Organisation und Microsoft 365- oder Office 365-Diensten: Lokales Netzwerk und Geräte verbinden sich mit einem verbundenen Netzwerk, das wiederum eine Verbindung mit Microsoft 365- oder Office 365-Cloud-Sprach- und Audiokonferenzdiensten herstellt.")
 
 ## <a name="qos-implementation-checklist"></a>Prüfliste für die QoS-Implementierung
 
@@ -78,13 +78,13 @@ Beachten Sie bei der Vorbereitung der Implementierung von QoS die folgenden Rich
   - IsP zum Microsoft-Netzwerk-Edge – 3 Hops
   - Microsoft-Netzwerk-Edge bis zum endgültigen Ziel – irrelevant
 
-Informationen zum Konfigurieren der Firewallports finden Sie unter Konfigurieren [Office 365 URLs und IP-Bereiche](office-365-urls-ip-address-ranges.md).
+Informationen zum Konfigurieren der Firewallports finden Sie unter konfigurieren [Office 365 URLs und IP-Bereiche](office-365-urls-ip-address-ranges.md).
 
 ## <a name="make-sure-your-network-is-ready"></a>Stellen Sie sicher, dass Ihr Netzwerk bereit ist
 
 Wenn Sie eine QoS-Implementierung in Erwägung ziehen, sollten Sie ihre Bandbreitenanforderungen und andere [Netzwerkanforderungen bereits festgelegt haben.](prepare-network.md)
   
-Verkehrsüberlastung in einem Netzwerk hat großen Einfluss auf die Medienqualität. Fehlende Bandbreite führt zu Leistungseinbußen und einer schlechten Benutzererfahrung. Wenn Teams und Nutzung wächst, verwenden [](use-call-analytics-to-troubleshoot-poor-call-quality.md)Sie Berichterstellung, Anrufanalyse pro Benutzer und Anrufqualitätsdashboard [(CQD),](turning-on-and-using-call-quality-dashboard.md) um Probleme zu erkennen und dann Anpassungen mithilfe von QoS und selektiver Bandbreitenzustellung vornimmt.
+Verkehrsüberlastung in einem Netzwerk hat großen Einfluss auf die Medienqualität. Fehlende Bandbreite führt zu Leistungseinbußen und einer schlechten Benutzererfahrung. Da Teams und Nutzung wächst, verwenden [](use-call-analytics-to-troubleshoot-poor-call-quality.md)Sie Berichterstellung, Anrufanalyse pro Benutzer und Anrufqualitätsdashboard [(Call Quality Dashboard, CQD),](turning-on-and-using-call-quality-dashboard.md) um Probleme zu erkennen und dann Anpassungen mithilfe von QoS und selektiver Bandbreitenzustellung vornimmt.
 
 ### <a name="vpn-considerations"></a>Überlegungen zu VPN
 
@@ -108,7 +108,7 @@ Eine einfache Analogie ist, dass QoS virtuelle "Fahrgemeinschaften" in Ihrem Dat
 
 ## <a name="select-a-qos-implementation-method"></a>Auswählen einer QoS-Implementierungsmethode
 
-Sie können QoS über portbasiertes Tagging implementieren, indem Sie Zugriffssteuerungslisten (ACLs) auf den Routern Ihres Netzwerks verwenden. Portbasiertes Tagging ist die zuverlässigste Methode, da sie in gemischten Windows-, Mac- und Linux-Umgebungen funktioniert und am einfachsten zu implementieren ist. Mobile Clients stellen keinen Mechanismus zum Markieren des Datenverkehrs mithilfe von DSCP-Werten zur Verfügung, daher ist diese Methode erforderlich.  
+Sie können QoS über portbasiertes Tagging implementieren, indem Sie Zugriffssteuerungslisten (ACLs) auf den Routern Ihres Netzwerks verwenden. Portbasiertes Tagging ist die zuverlässigste Methode, da sie in Mixed Windows-, Mac- und Linux-Umgebungen funktioniert und am einfachsten zu implementieren ist. Mobile Clients stellen keinen Mechanismus zum Markieren des Datenverkehrs mithilfe von DSCP-Werten zur Verfügung, daher ist diese Methode erforderlich.  
 
 Mit portbasiertem Tagging untersucht der Router Ihres Netzwerks ein eingehendes Paket. Wenn das Paket über einen bestimmten Port oder Portsbereich eingetroffen ist, identifiziert es es als einen bestimmten Medientyp und legt es in der Warteschlange für diesen Typ ab, und fügt dem IP-Paketheader ein vordefiniertes [DSCP-Zeichen](https://tools.ietf.org/html/rfc2474) hinzu, damit andere Geräte seinen Datenverkehrstyp erkennen und ihm Priorität in der Warteschlange geben können.
 
@@ -118,7 +118,7 @@ Obwohl portbasiertes Tagging plattformübergreifend funktioniert, wird der Daten
 
 Sie können QoS auch implementieren, indem Sie ein Gruppenrichtlinienobjekt (Group Policy Object, GPO) verwenden, um Clientgeräte an den Client weiter zu führen, um eine DSCP-Markierung in IP-Paketheader einlegen, die sie als bestimmte Art von Datenverkehr (z. B. Sprache) identifiziert. Router und andere Netzwerkgeräte können so konfiguriert werden, dass sie dies erkennen und den Datenverkehr in einer separaten Warteschlange mit höherer Priorität abwarten.
 
-Dieses Szenario ist zwar vollständig gültig, es funktioniert aber nur für In eine Domäne Windows Clients. Jedes Gerät, das kein Domänen-Mitglied des Windows ist, wird nicht für DSCP-Tags aktiviert. Andere Clients, z. B. solche mit macOS, verfügen über hart codierte Tags und markieren den Datenverkehr immer.
+Dieses Szenario ist zwar vollständig gültig, es funktioniert aber nur bei Domänen-in-Windows Clients. Jedes Gerät, das kein Domänen-Mitglied des Windows-Client ist, wird nicht für DSCP-Tags aktiviert. Andere Clients, z. B. solche mit macOS, verfügen über hart codierte Tags und markieren den Datenverkehr immer.
 
 Auf der Plusseite wird durch Steuern der DSCP-Markierung über Gruppenrichtlinienobjekt sichergestellt, dass alle in die Domäne eingetretenen Computer dieselben Einstellungen erhalten und nur von einem Administrator verwaltet werden können. Clients, die Gruppenrichtlinienobjekt verwenden können, werden auf dem Ursprungsgerät markiert, und dann können konfigurierte Netzwerkgeräte den Echtzeitdatenstrom anhand des DSCP-Codes erkennen und ihm eine entsprechende Priorität geben.
 
@@ -132,7 +132,7 @@ Sobald alle Geräte im Netzwerk die gleichen Klassifizierungen, Markierungen und
 
 ## <a name="choose-initial-port-ranges-for-each-media-type"></a>Auswählen der anfänglichen Portierungsbereiche für jeden Medientyp
 
-Der DSCP-Wert teilt einem entsprechend konfigurierten Netzwerk mit, welche Priorität einem Paket oder Stream zugewiesen werden soll, ob die DSCP-Markierung von Clients oder basierend auf ACL-Einstellungen dem Netzwerk selbst zugewiesen wird. Jede Medienarbeitsauslastung erhält ihren eigenen eindeutigen DSCP-Wert (andere Dienste ermöglichen möglicherweise, dass Workloads eine DSCP-Markierung teilen, Teams nicht) und einen definierten und separaten Portbereich, der für jeden Medientyp verwendet wird. In anderen Umgebungen ist möglicherweise eine QoS-Strategie vorhanden, die Ihnen hilft, die Priorität von Netzwerkarbeitslasten zu bestimmen.
+Der DSCP-Wert teilt einem entsprechend konfigurierten Netzwerk mit, welche Priorität einem Paket oder Stream zugewiesen werden soll, ob die DSCP-Markierung von Clients oder basierend auf ACL-Einstellungen dem Netzwerk selbst zugewiesen wird. Jede Medienarbeitsauslastung erhält ihren eigenen eindeutigen DSCP-Wert (andere Dienste ermöglichen workloads möglicherweise das Freigeben einer DSCP-Markierung, Teams nicht) und einen definierten und separaten Portbereich, der für jeden Medientyp verwendet wird. In anderen Umgebungen ist möglicherweise eine QoS-Strategie vorhanden, die Ihnen hilft, die Priorität von Netzwerkarbeitslasten zu bestimmen.
 
 Die relative Größe der Portbereiche für verschiedene Echtzeitstreamingarbeitslasten legt den Anteil der gesamten verfügbaren Bandbreite fest, die dieser Arbeitsauslastung gewidmet ist. Zur früheren analogen Postanschrift: Ein Brief mit dem Stempel "Air Mail" wird möglicherweise innerhalb einer Stunde zum nächstgelegenen Flughafen genommen, während ein kleines Paket mit der Kennzeichnung "Massensendungen" einen Tag warten kann, bevor er auf dem Landweg auf einer Reihe von Trucks landet.
 
@@ -157,10 +157,10 @@ Beachten Sie die folgenden Punkte, wenn Sie diese Einstellungen verwenden:
 
 ## <a name="migrate-qos-to-teams"></a>Migrieren von QoS zu Teams
 
-Wenn Sie zuvor bereits Skype for Business Online bereitgestellt haben, einschließlich QoS-Tags und Portbereichen, und werden jetzt bereitgestellt. Teams wird Teams vorhandene Konfiguration respektieren und die gleichen Portbereiche und Tags wie der Skype for Business-Client verwenden. In den meisten Fällen ist keine zusätzliche Konfiguration erforderlich.
+Wenn Sie zuvor in Skype for Business Online bereitgestellt haben, einschließlich QoS-Tags und Portbereichen, und werden jetzt bereitgestellt. Teams, Teams die vorhandene Konfiguration respektiert und die gleichen Portbereiche und Tags wie der Skype for Business verwendet. In den meisten Fällen ist keine zusätzliche Konfiguration erforderlich.
 
 > [!NOTE]
-> Wenn Sie das QoS-Tagging für Anwendungsnamen über eine Gruppenrichtlinie verwenden, müssen Sie Teams.exe Als Anwendungsnamen hinzufügen.
+> Wenn Sie das QoS-Tagging für Anwendungsnamen über eine Gruppenrichtlinie verwenden, müssen Sie Teams.exe als Anwendungsnamen hinzufügen.
 
 ### <a name="implement-qos-in-teams-on-windows-using-powershell"></a>Implementieren von QoS in Teams auf Windows mithilfe von PowerShell
 
@@ -189,11 +189,11 @@ In Teams sollten die von den verschiedenen Workloads verwendeten QoS-Quellports 
 > [!NOTE]
 > Wenn Sie QoS bereits basierend auf Quellportbereichen und DSCP-Markierungen für Skype for Business Online konfiguriert haben, gilt die gleiche Konfiguration für Teams, und an der Zuordnung sind keine weiteren Client- oder Netzwerkänderungen erforderlich. Möglicherweise müssen Sie jedoch die [in Teams](meeting-settings-in-teams.md#set-how-you-want-to-handle-real-time-media-traffic-for-teams-meetings) verwendeten Bereiche entsprechend der Konfiguration für Skype for Business Online festlegen.
 
-Wenn Sie zuvor QoS Skype for Business Server Lokal bereitgestellt haben, müssen Sie Ihre QoS-Richtlinien möglicherweise erneut überprüfen. Passen Sie die Richtlinien entsprechend den Portbereichseinstellungen an, die Sie überprüft haben, um die Benutzerfreundlichkeit Ihrer Teams.
+Wenn Sie zuvor QoS-Richtlinien Skype for Business Server bereitgestellt haben, müssen Sie Ihre QoS-Richtlinien möglicherweise erneut überprüfen. Passen Sie die Richtlinien so an, dass sie den Portbereichseinstellungen entsprechen, die Sie überprüft haben, um die Benutzerfreundlichkeit Ihrer Teams.
 
 ## <a name="validate-your-qos-implementation"></a>Überprüfen der QoS-Implementierung
 
-Damit QoS wirksam wird, muss der vom Gruppenrichtlinienobjekt festgelegte DSCP-Wert an beiden Enden eines Aufrufs vorhanden sein. Durch Analysieren des vom Teams-Client generierten Datenverkehrs können Sie überprüfen, ob der DSCP-Wert nicht geändert oder entfernt wurde, wenn der Teams-Arbeitsauslastungsverkehr durch das Netzwerk bewegt wird.
+Damit QoS wirksam wird, muss der vom Gruppenrichtlinienobjekt festgelegte DSCP-Wert an beiden Enden eines Aufrufs vorhanden sein. Durch Analysieren des vom Teams-Client generierten Datenverkehrs können Sie überprüfen, ob der DSCP-Wert nicht geändert oder entfernt wurde, wenn der Teams-Workloaddatenverkehr durch das Netzwerk bewegt wird.
 
 Vorzugsweise erfassen Sie den Datenverkehr am Netzwerkpunkt. Sie können die Portspiegelung auf einem Switch oder Router verwenden, um dies zu unterstützen.
 
@@ -213,4 +213,4 @@ Lesen Sie diese Themen, um Informationen zur Implementierung von QoS für Intune
 
 - [Vorbereiten des Netzwerks Ihrer Organisation für Microsoft Teams](prepare-network.md)
 
-- [Implementieren von QoS im Teams-Client](QoS-in-Teams-clients.md)
+- [Implementieren von QoS im Teams Client](QoS-in-Teams-clients.md)

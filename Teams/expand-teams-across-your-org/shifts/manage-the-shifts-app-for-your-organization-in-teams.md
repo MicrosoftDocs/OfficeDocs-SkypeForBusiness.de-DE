@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Erfahren Sie, wie Sie die Schichten-App in Ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 8c2e8a8e976e6c92355bc894447353f436b706bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e58b7452ec3e89ded6f24da17490cf476885d72
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608972"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727834"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -36,7 +36,7 @@ ms.locfileid: "58608972"
 
 ## <a name="overview-of-shifts"></a>Übersicht über "Schichten"
 
-Mit der Schichten-App in Microsoft Teams die Frontline-Workers verbunden und synchronisiert. Es wurde zuerst für das schnelle und effektive Zeitmanagement und die Kommunikation für Teams erstellt. Mit Schichten können Mitarbeiter in der Front und deren Vorgesetzte ihre mobilen Geräte verwenden, um Zeitpläne zu verwalten und in Kontakt zu bleiben.
+Die Schichten-App in Microsoft Teams sorgt dafür, dass die Mitarbeiter in der Frontlinie verbunden und synchronisiert sind. Es wurde zuerst für das schnelle und effektive Zeitmanagement und die Kommunikation für Teams erstellt. Mit Schichten können Mitarbeiter in der Front und deren Vorgesetzte ihre mobilen Geräte verwenden, um Zeitpläne zu verwalten und in Kontakt zu bleiben.
 
 - Vorgesetzte erstellen, aktualisieren und verwalten Schichtzeitpläne für Teams. Sie können Nachrichten an eine Person ("Der Boden ist schmutzig") oder an das gesamte Team ("Der regionale Geschäftsführer kommt in 20 Minuten") senden. Sie können auch Richtliniendokumente, Bekanntmachungen und Videos senden.
 - Die Mitarbeiter sehen sich ihre bevorstehenden Schichten an, sehen, wer für den Tag noch geplant ist, fordern einen Austausch an oder bieten eine Schicht an und fordern eine Freistellung an.
@@ -76,7 +76,7 @@ Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass
  
 Teams enthält eine integrierte Setuprichtlinie für FirstLineWorker-Apps, die Sie Mitarbeitern in der Frontline in Ihrer Organisation zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe.
 
-Zum Anzeigen der FirstLineWorker-Richtlinie wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center Teams **Richtlinien** für die  >  **App-Einrichtung.**
+Zum Anzeigen der FirstLineWorker-Richtlinie wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu Setuprichtlinien für Teams  >  **App.**
 
 ![Screenshot der Setuprichtlinie für die FirstLineWorker-App](../../media/firstline-worker-app-setup-policy.png "Screenshot der Setuprichtlinie für die FirstLineWorker-App im Microsoft Teams Admin Center")
 

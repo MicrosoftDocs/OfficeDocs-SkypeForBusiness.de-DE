@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 83fdfdee2b7b55cb9ba0ef0651f8e1994bb182df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603874"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727514"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
@@ -40,9 +40,9 @@ CQD bietet schnellen und einfachen Zugriff auf aggregierte Anrufqualitätsinform
 
 3. Webportal, die HTML5-basierte Schnittstelle, die CQD-Benutzern angezeigt wird und mit der sie interagieren. Dies ist für authentifizierte Benutzer zugänglich.
 
-Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse zur Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet werden. 
+Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse für die Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet wurden. 
 
-![CQD-Beispielbericht](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
+![CQD-Beispielbericht.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
 CQD wird nach der Call Quality Methodology (CQM) erstellt, sodass der Standardsatz von Berichten auf den von CQM eingeführten Untersuchungsfluss abgestimmt ist. Benutzer haben auch die Flexibilität, benutzerdefinierte Berichte entsprechend ihren Anforderungen zu bearbeiten oder zu erstellen. Da es jedoch mehrere Möglichkeiten gibt, die Daten zu visualisieren, erfüllt die vom CQD bereitgestellte Visualisierung möglicherweise nicht vollständig die Anforderungen jedes Benutzers. In solchen Situationen kann ein Benutzer die Daten-APIs und Repository-APIs nutzen, um benutzerdefinierte Berichtsseiten zu erstellen. In diesem Lernprogramm werden wir eine Reihe von Beispielen durchgehen.
 
@@ -54,7 +54,7 @@ Beim Navigieren zur CQD-Homepage (z. B. http://localhost/cqd) werden der Bericht
 
 CQD verfügt bereits über eine große Flexibilität beim Anpassen von Berichten, aber es kann Situationen geben, in denen Benutzer Daten über mehrere Berichte hinweg aggregieren möchten, die in CQD erstellt wurden. Beispielsweise kann es erforderlich sein, einen Bericht zu erstellen, der den Prozentsatz der Anrufe schlechter Qualität aller möglichen Kombinationen von kabelgebundenen Anrufen in einer Tabelle anzeigt (ein Ergebnis wie die Abbildung):
 
-![CQD-Tabelle](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
+![CQD-Tabelle.](../../media/ef19d535-5da6-44a9-91f6-1ed3f30b96f1.png)
 
 Mithilfe des von CQD bereitgestellten Portals müsste ein Benutzer zu mehreren Berichten navigieren, um den Prozentsatz der Anrufe schlechter Qualität für jeden zu extrahieren und zu notieren. Dies kann mühsam sein, wenn viele Datenpunkte gesammelt werden müssen. Die Daten-APIs bieten Benutzern eine programmgesteuerte Möglichkeit, dies durch Abrufen von Daten aus dem Datendienst (z. B. über AJAX-Aufrufe) zu erreichen. 
 
@@ -62,7 +62,7 @@ Mithilfe des von CQD bereitgestellten Portals müsste ein Benutzer zu mehreren B
 
 Nehmen wir zunächst ein einfaches Beispiel. Wenn wir die Anzahl der Audio Good Stream- und Audio Bad-Streams von Februar 2015 auf einer HTML-Seite wie der Abbildung anzeigen möchten:
 
-![CQD-Beispielbericht](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
+![CQD-Beispielbericht.](../../media/f0e4e61f-1fa5-4d69-b192-f19e9612bf1c.png)
 
 Wir müssen einen Aufruf an den Datendienst mit den richtigen Parametern senden und die Abfrageergebnisse in einer HTML-Tabelle anzeigen. Es folgt ein Beispiel für den JavaScript-Code:
 
@@ -197,9 +197,9 @@ Bisher ist der Bericht noch sehr einfach. Der Benutzer kann weitere Messungen, D
 
 Es kann für jemanden schwierig sein, herauszufinden, wie die vollständige Liste von Maßen/Dimensionen/Filtern und deren entsprechenden Werten beim Erstellen einer Abfrage geschrieben wird. In diesem Fall können Sie zum Portal wechseln, einen Bericht mithilfe des Berichts-Editors erstellen, die JSON-Zeichenfolge der Berichtsdefinition anzeigen und dann die Definition in einen benutzerdefinierten Bericht kopieren. 
 
-In diesem Beispiel erstellen wir eine Webseite wie in der Abbildung, auf der ein Benutzer die ID eines vorhandenen Berichtssatzes (oder Berichts) eingeben und die Definition des Berichtssatzes oder Berichts auf der Webseite anzeigen kann. Der Benutzer kann dann die JSON-Zeichenfolge jedes Berichts in Code ähnlich dem in Beispiel 1 gezeigten einfügen und jeden benutzerdefinierten Bericht erstellen, den der Benutzer wünscht. 
+In diesem Beispiel erstellen wir eine Webseite wie in der Abbildung, auf der ein Benutzer die ID eines vorhandenen Berichtssatzes (oder Berichts) eingeben und die Definition des Berichtssatzes oder Berichts auf der Webseite anzeigen kann. Der Benutzer kann dann die JSON-Zeichenfolge jedes Berichts in Code ähnlich dem in Beispiel 1 gezeigten einfügen und alle vom Benutzer gewünschten benutzerdefinierten Berichte erstellen. 
 
-![CQD-Beispiel](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
+![CQD-Beispiel.](../../media/01c45c23-c4d2-47b8-819f-0888cf71260f.png)
 
 Um das Tool zum Anzeigen der Berichtsdefinition zu erstellen, müssen wir Aufrufe an den Repositorydienst senden, um die JSON-Zeichenfolgendarstellungen der Definitionen jedes gewünschten Berichtssatzes abzurufen. Die Repository-API gibt die Berichtssatzdefinition basierend auf einer bestimmten Berichtssatz-ID zurück. 
 

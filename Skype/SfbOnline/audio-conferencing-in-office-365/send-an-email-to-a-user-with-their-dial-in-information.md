@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Senden Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in Skype for Business Online.
-ms.openlocfilehash: 8cb4d51fedc5cd12a3ee7a95b0d83c254526abd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584449"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727674"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer E-Mail mit den Audiokonferenzinformationen in Skype for Business Online
 
@@ -44,7 +44,7 @@ Manchmal Skype for Business, dass Sie den Benutzern möglicherweise ihre Audioko
    
 Hier ist ein Beispiel für die gesendete E-Mail:
   
-![E-Mail zu einer Dial-In-Konferenz](../images/audio-conferencing-info.png)
+![E-Mail für Einwahlkonferenzen.](../images/audio-conferencing-info.png)
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](../includes/updating-admin-interfaces.md)]
@@ -59,7 +59,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
 
 1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Wechseln Sie zum Admin Center > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing (Audiokonferenz).**
+2. Wechseln Sie zum Admin Center, > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing (Audiokonferenz).**
     
 3. Klicken **Sie auf** Benutzer , und wählen Sie den Benutzer aus.
     
@@ -107,7 +107,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
   Set-CsOnlineDialInConferencingUser -id amos.marble@contoso.com  -SendEmail
   ```
 
-- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+- In Bezug auf Windows PowerShell dreht sich bei Skype for Business Online alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
     
   - [Gründe für die Verwendung von Microsoft 365 oder Office 365 PowerShell](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
     

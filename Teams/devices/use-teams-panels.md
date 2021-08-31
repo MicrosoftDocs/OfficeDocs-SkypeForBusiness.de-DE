@@ -16,28 +16,28 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Dieser Artikel enthält Anleitungen zur Verwendung von Teams-Panels.
-ms.openlocfilehash: 0fccd3e733cdeec2cfe84b721cbade5834b05b03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a172eab55e8e9b16432da5ce2f26b39cf71886d3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626267"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732704"
 ---
-# <a name="how-to-use-microsoft-teams-panels"></a>Verwenden von Microsoft Teams Panels
+# <a name="how-to-use-microsoft-teams-panels"></a>So wird's Microsoft Teams verwendet
 
-Microsoft Teams-Bereiche sind kompakte digitale Anzeigegeräte, die direkt außerhalb von Besprechungsräumen, in der Regel neben Eingängen, bereitgestellt werden. Diese Touchscreenpanels sind dedizierte Microsoft Teams, die auf einen Blick einen Überblick über Ihren Besprechungsraum und die geplante Besprechung bieten. Mit den lebendigen farblich kodierten LED- und Startbildschirmanzeigen können Sie feststellen, ob der Platz aus der Ferne verfügbar oder reserviert ist. Sie können die Teams verwenden, um sofort einen verfügbaren Besprechungsort für eine Ad-hoc-Besprechung zu reservieren.
+Microsoft Teams Bereiche sind kompakte digitale Anzeigegeräte, die direkt außerhalb von Besprechungsräumen, in der Regel neben Eingängen, bereitgestellt werden. Diese Touchscreenpanels sind dedizierte Microsoft Teams, die einen Blick auf Ihren Besprechungsraum und die geplante Besprechung bieten. Mit den lebendigen farblich kodierten LED- und Startbildschirmanzeigen können Sie feststellen, ob der Platz aus der Ferne verfügbar oder reserviert ist. Sie können die Teams verwenden, um sofort einen verfügbaren Besprechungsort für eine Ad-hoc-Besprechung zu reservieren.
 
 Teams-Panels verfügen über vorinstallierte Microsoft Teams und zeigen Besprechungsdetails an, die Outlook oder Teams werden.
 
 Dieser Artikel bietet sowohl Endbenutzern als auch Administratoren Eine Anleitung zur Verwendung der Teams Panels. Darüber hinaus finden Sie hier auch Antworten auf [häufig gestellte Fragen](#frequently-asked-questions) zur Verwendung dieser Geräte.
 
-Eine Übersicht über die Panels für Geräte und eine Anleitung zum Planen, Bereitstellen und Verwalten dieser Geräte in Ihrer Organisation finden Sie unter Bereitstellen Microsoft Teams [Panels.](teams-panels.md)
+Eine Übersicht über die Panels für Geräte und eine Anleitung zum Planen, Bereitstellen und Verwalten dieser Geräte in Ihrer Organisation finden Sie unter Bereitstellen [Microsoft Teams Panels.](teams-panels.md)
 
 Einen schnellen Einstieg erhalten Sie unter [Erste Schritte mit Teams Panels.](https://support.microsoft.com/office/get-started-with-teams-panels-fa5e85d1-7ff3-4f11-b0b0-277e2302c8be)
 
-## <a name="teams-panels-end-user-experience"></a>Teams von Panels für die Endbenutzer
+## <a name="teams-panels-end-user-experience"></a>Teams der Endbenutzererfahrung für Panels
 
-Erkunden Sie [den Startbildschirm Ihres](#explore-teams-panels-home-screen) Teams,um Besprechungsräume und Besprechungsdetails anzuzeigen. Oder tippen und scrollen Sie im Touchscreenbereich, um andere Aktionen zu machen.
+Erkunden Sie [den Startbildschirm Ihres](#explore-teams-panels-home-screen) Teams, um Besprechungsräume und Besprechungsdetails anzuzeigen. Oder tippen und scrollen Sie im Touchscreenbereich, um andere Aktionen zu machen.
 
 Verwenden Sie ihre Teams-Panels für:
 
@@ -52,9 +52,9 @@ Die Startseite ist die visuelle Hauptschnittstelle Ihres Teams-Panels.
 
 Auf der Startseite können Sie Standort- und Besprechungsdetails anzeigen, einen Platz reservieren, anstehende Reservierungen anzeigen und den aktuellen Verfügbarkeitsstatus identifizieren.
 
-Der folgende Screenshot zeigt verschiedene Teile oder Kacheln auf der Teams Startbildschirm der Bildschirme:
+Der folgende Screenshot zeigt verschiedene Teile oder Kacheln auf Teams Startbildschirm der Panels:
 
-:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Dieser Screenshot zeigt verschiedene Bereiche auf der Startseite der Teams"-Bereichen.":::
+:::image type="content" source="../media/panels-home-screen-explanation.png" alt-text="Dieser Screenshot zeigt auf der Startseite des Teams Bereiche verschiedene Bereiche an.":::
 
 Eine Beschreibung der einzelnen Kacheln finden Sie in der folgenden Tabelle:
 
@@ -63,7 +63,7 @@ Kachel | Beschreibung
 **1-Aktuelle Uhrzeit, Tag, Datum und Besprechungsraumdetails** | Zeigt die aktuelle Uhrzeit, den Tag, das Datum und den Namen des Besprechungsraums an. Der Name des Besprechungsraums ist der Name des Ressourcenkontos, das sich bei Panels angemeldet hat.
 **2-Besprechungsraumverfügbarkeit und Besprechungsdetails** | Zeigt die Verfügbarkeit des Besprechungsraums an und zeigt Besprechungsdetails an. Weitere Informationen [finden Sie unter Verfügbarkeit des Besprechungsraums und Kachel mit Besprechungsdetails.](#meeting-space-availability-and-meeting-details-tile)
 **3-zukünftiger Kalender** | Zeigt den Besprechungsraumkalender und die Verfügbarkeit von bis zu 24 Stunden ab der aktuellen Stunde an. Scrollen Sie nach oben oder unten, um festzustellen, welche Zeitfenster verfügbar sind und welche reserviert sind.
-**4-Einstellungen** | Zeigt das **symbol Einstellungen** an. Tippen Sie auf das Gerät, um ein Problem zu melden oder die verfügbaren Geräteeinstellungen zu aktualisieren.
+**4-Einstellungen** | Zeigt das **Symbol Einstellungen** An. Tippen Sie auf das Gerät, um ein Problem zu melden oder die verfügbaren Geräteeinstellungen zu aktualisieren.
 
 ### <a name="meeting-space-availability-and-meeting-details-tile"></a>Besprechungsraumverfügbarkeit und Kachel mit Besprechungsdetails
 
@@ -73,7 +73,7 @@ Die Darstellung dieser Kachel und ihrer Funktionen variieren je nach Verfügbark
 
 Die Kachel wird in Lila für einen Besprechungsraum angezeigt, der für eine geplante Besprechung reserviert ist (geplant per Outlook oder Teams). Es zeigt den Besprechungstitel in gut sichtbarer Text- und Endzeit sowie den Namen des Besprechungsorganisators an. Bei einer Teams wird auch das Teams-Logo angezeigt. Wenn die Besprechungsdetails gut sichtbar angezeigt werden, können die Teilnehmer auf einfache Weise bestätigen, dass sie sich zum richtigen Zeitpunkt und zur richtigen Besprechung im richtigen Besprechungsraum treffen.
 
-:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams Der Startbildschirm der Panels zeigt, dass der Besprechungsraum für eine geplante Besprechung reserviert ist":::
+:::image type="content" source="../media/panels-right-tile-scheduled-meeting.png" alt-text="Teams Der Startbildschirm des Panels zeigt, dass der Besprechungsraum für eine geplante Besprechung reserviert ist.":::
 
 > [!NOTE]
 >
@@ -84,13 +84,13 @@ Die Kachel wird in Lila für einen Besprechungsraum angezeigt, der für eine gep
 
 Die Kachel wird in Lila für einen Besprechungsraum angezeigt, der [für eine Ad-hoc-Besprechung reserviert ist.](#reserve-meeting-spaces-for-ad-hoc-meetings) Sie zeigt **reserviert** in gut sichtbarer Schrift zusammen mit der Start- und Endzeit der Besprechung an. Ad-hoc-Besprechungen werden automatisch als Teams geplant, daher wird das Teams immer auf dem Bildschirm angezeigt.
 
-:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams Der Startbildschirm der Panels zeigt, dass der Besprechungsraum für eine Ad-hoc-Besprechung reserviert ist":::
+:::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Teams Der Startbildschirm der Panels zeigt, dass der Besprechungsraum für eine Ad-hoc-Besprechung reserviert ist.":::
 
 #### <a name="meeting-space-is-available"></a>Besprechungsraum ist verfügbar
 
 Die Kachel wird grün für einen verfügbaren Besprechungsraum angezeigt. Es wird **In** gut sichtbarer Schrift verfügbar angezeigt, und außerdem wird eine Schaltfläche Reservieren angezeigt, auf die Sie tippen können, um den Besprechungsraum [für eine Ad-hoc-Besprechung zu reservieren.](#reserve-meeting-spaces-for-ad-hoc-meetings)  Sie können den anstehenden Kalender des Besprechungsraums (untere rechte Kachel) überprüfen, um die Endzeit für Ihre Ad-hoc-Besprechung zu entscheiden.
 
-:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Dieser Screenshot zeigt, wie Teams-Bereiche angezeigt werden, wenn der Besprechungsraum verfügbar ist.":::
+:::image type="content" source="../media/panels-right-tile-available-status.png" alt-text="Dieser Screenshot zeigt, wie Teams Startbildschirm der Besprechungsfelder angezeigt wird, wenn der Besprechungsraum verfügbar ist.":::
 
 ## <a name="reserve-meeting-spaces-for-ad-hoc-meetings"></a>Reservieren von Besprechungsräumen für Ad-hoc-Besprechungen
 
@@ -104,10 +104,10 @@ Für Ad-hoc-Besprechungen, die direkt in Panels gebucht werden:
 So reservieren Sie einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprechung:
 
 1. Tippen Sie auf der Startseite auf die **Schaltfläche Reservieren.**
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams Startbildschirm der Bereiche mit der Schaltfläche 'Reservieren'":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams Startbildschirm der Bereiche mit der Schaltfläche "Reservieren".":::
 2. Überprüfen Sie **im Ad-hoc-Besprechungsbildschirm** die verfügbaren Endzeitoptionen. Sie können die nach rechts oder links zeigenden Pfeile verwenden, um die verfügbaren Endzeitoptionen zu durchsuchen.
 
-    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad-hoc-Besprechungsbildschirm mit Endzeitfenstern":::
+    :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad-hoc-Besprechungsbildschirm mit Den Zeiten für die Endzeit.":::
 
     > [!Note]
     >
@@ -118,10 +118,10 @@ So reservieren Sie einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprech
 3. Tippen Sie auf das gewünschte Endzeitintervall und dann auf **Reservieren**.
 
     Ein Bestätigungsfenster wird mit einem Emoji mit dem Daumen nach oben, der Start- und Endzeit einer Besprechung und dem Namen des Besprechungsraums angezeigt.
-    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Bestätigungsmeldung für Ad-hoc-Besprechung":::
-Die rechte Kachel auf der Startseite wird nun in Lila angezeigt und zeigt den Text **Reserviert** und das Teams an. Dies weist darauf hin, dass der Besprechungsraum jetzt für eine Ad-hoc-Besprechung Teams ist.
+    :::image type="content" source="../media/panels-reserve-confirmation.png" alt-text="Bestätigungsmeldung für eine Ad-hoc-Besprechung.":::
+Die rechte Kachel auf der Startseite wird nun in Lila angezeigt und zeigt **den** Reservierten Text und das Teams an. Dies weist darauf hin, dass der Besprechungsraum jetzt für eine Ad-hoc-Besprechung Teams ist.
   
-    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Startbildschirm, der zeigt, dass besprechungsraum für eine Ad-hoc-Besprechung reserviert ist":::
+    :::image type="content" source="../media/panels-right-tile-reserved-adhoc.png" alt-text="Startbildschirm, der zeigt, dass der Besprechungsraum für eine Ad-hoc-Besprechung reserviert ist.":::
 
     > [!NOTE]
     > Wenn es sich bei dem Besprechungsraum  um einen Microsoft Teams-Raum handelt, können Sie an dieser Teams-Besprechung mit dem Microsoft Teams Raum oder anderen Surface Hub teilnehmen.
@@ -152,11 +152,11 @@ Es gibt mehrere Geräteeinstellungen, z. B. Informationen zu, Barrierefreiheit, 
 So zeigen Sie eine Geräteeinstellung an oder aktualisieren sie:
 
 1. Tippen Sie **Einstellungen** Startbildschirm auf das Symbol "Start".
-2. Tippen Sie **Einstellungen** Bildschirm "Geräteeinstellungen" **auf .**
+2. Tippen Sie **Einstellungen** Bildschirm "Geräteeinstellungen" **auf**.
 3. Tippen Sie **Einstellungen** Bildschirm Gerät auf die Einstellung, die Sie anzeigen oder aktualisieren möchten.
 4. Folgen Sie der Eingabeaufforderung auf dem Bildschirm, um die Einstellung anzuzeigen oder zu aktualisieren.
 
-## <a name="teams-panels-admin-experience"></a>Teams von Panels
+## <a name="teams-panels-admin-experience"></a>Teams-Panels- und Verwaltungserfahrung
 
 Wenn Sie der Administrator des [Teams-Ressourcenkontos](teams-panels.md\#resource-account-provisioning)des Panels sind, sind Sie auch der Administrator der **Panels-App** auf dem Gerät. Als Administrator **der Panels-App** können Sie zusätzlich zur Verwaltung der Einstellungen für  [Panels-Apps](#teams-panels-end-user-experience) auf dem Gerät alle funktionen ausführen, die im Abschnitt für die Endbenutzererfahrung erwähnt werden.
 
@@ -170,9 +170,9 @@ Ihre Panelgeräte bieten zwei Arten von Administratoreinstellungen. Sie müssen 
 
 ### <a name="access-panels-app-settings"></a>AccessPanel-App-Einstellungen
 
-Sie können auf spezifische **Einstellungen der Panels-App** zugreifen, indem Sie **die** Einstellungen unter den Administratoreinstellungen verwenden. Die Schritte für den Zugriff auf **Panels-Einstellungen** können je nach OEM Ihres Geräts unterschiedlich sein.
+Sie können auf **spezifische Einstellungen der Panels-App** zugreifen, indem Sie die Option **Panels-Einstellungen** unter den Administratoreinstellungen auswählen. Die Schritte für den Zugriff auf **Panels-Einstellungen** können je nach OEM Ihres Geräts unterschiedlich sein.
 
-So greifen Sie auf **die Option Panels-Einstellungen** zu:
+So greifen Sie auf **die Option Einstellungen** Panels-App zu:
 
 1. Tippen Sie **Einstellungen** Startbildschirm auf das Symbol "Start".
 2. Tippen Sie **Einstellungen** Bildschirm "Geräteeinstellungen" **auf .**
@@ -185,7 +185,7 @@ So greifen Sie auf **die Option Panels-Einstellungen** zu:
 5. Tippen Sie **auf die Schaltfläche Einstellungen** Panels-App auf dem rechten Bildschirm.
     Der Bildschirm mit den verfügbaren Einstellungen der **Panels-App** wird angezeigt.
 
-    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Dieser Screenshot zeigt den Bildschirm mit den verfügbaren Einstellungen der Panels-App an.":::
+    :::image type="content" source="../media/panels-app-settings-screen.png" alt-text="Dieser Screenshot zeigt den Bildschirm mit den verfügbaren Einstellungen der Panels-App.":::
 
     Verwenden Sie diesen Bildschirm, um die folgenden **Einstellungen der Panels-App** für Ihr Gerät zu aktualisieren:
 
@@ -196,20 +196,20 @@ So greifen Sie auf **die Option Panels-Einstellungen** zu:
 
 Ändern Sie das Hintergrundbild für den Startbildschirm.
 
-1. [Access **Panels-App Einstellungen.**](#access-panels-app-settings)
+1. [Access **Panels-App Einstellungen**](#access-panels-app-settings).
 2. Tippen Sie **auf Hintergrundbilder**.
 3. Wählen **Sie unter Bild auswählen** ein Bild aus, das als Hintergrundbild für den Startbildschirm festgelegt werden soll. Zeigen Sie eine Vorschau des ausgewählten Bilds unter **Hintergrund an.**
-:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Dieser Screenshot zeigt den Bildschirm mit den Hintergrundbildeinstellungen an.":::
+:::image type="content" source="../media/panels-wallpapers-setting.png" alt-text="Dieser Screenshot zeigt den Bildschirm mit den Hintergrundbildeinstellungen.":::
 4. Wechseln Sie zurück zur Startseite, und überprüfen Sie, ob das Hintergrundbild aktualisiert wurde.
 
 #### <a name="change-the-busy-state-led-color"></a>Ändern der Farbe der LED des Beschäftigt-Zustands
 
 Administratoren können rot oder lila als LED-Farbe auswählen, um anzugeben, dass der Besprechungsraum ausgelastet oder reserviert ist. Die LED-Farbe, die angibt, dass ein verfügbarer Bereich steht, ist immer grün und kann nicht geändert werden.
 
-1. [Access **Panels-App Einstellungen.**](#access-panels-app-settings)
-2. Tippen Sie **auf LED Einstellungen**.
+1. [Access **Panels-App Einstellungen**](#access-panels-app-settings).
+2. Tippen Sie **auf DIE EINSTELLUNGEN**.
 3. Wählen **Sie unter LED-Farbe auswählen** die gewünschte Farbe aus.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="Dieser Screenshot zeigt die Statuseinstellungen für den Status "LED-Farbe"":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="Dieser Screenshot zeigt die Statuseinstellungen für den Status "LED-Farbe gebucht".":::
 4. Wechseln Sie zurück zur Startseite, und vergewissern Sie sich, dass die LED-Farbe für den Status "Beschäftigt" aktualisiert wurde. Wenn der Besprechungsraum derzeit verfügbar ist, versuchen Sie, eine Testbestellung zu planen, um die Änderung der LED-Farbe für den Status "Beschäftigt" zu überprüfen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

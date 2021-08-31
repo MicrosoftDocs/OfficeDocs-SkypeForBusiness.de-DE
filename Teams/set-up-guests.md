@@ -22,12 +22,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 description: Erfahren Sie, wie Sie den Gastzugriff in Microsoft Teams als Office 365-Administrator aktivieren bzw. deaktivieren.
-ms.openlocfilehash: e9701defbf987d68f2c0ce79a9797064a07111bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 433d0f3b73da465cdfd11382889b9cd13a1e7b06
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590739"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725524"
 ---
 # <a name="turn-on-or-turn-off-guest-access-to-microsoft-teams"></a>Aktivieren oder Deaktivieren des Gastzugriffs auf Microsoft Teams
 
@@ -48,7 +48,7 @@ ms.locfileid: "58590739"
 
 3. Legen Sie **Gastzugriff in Microsoft Teams ermöglichen** auf **Ein** fest.
 
-    ![Schalter für „Gastzugriff in Teams ermöglichen“ ist auf „An“ eingestellt ](media/guest-access-setting.png)
+    ![Schalter "Gastzugriff zulassen" ist auf Ein festgelegt.](media/guest-access-setting.png)
 
 4. Wählen Sie unter **Anruf**, **Besprechung** und **Messaging** je nach den Funktionen, die Sie Gastbenutzern bereitstellen möchten, **An** oder **Aus** aus.
 
@@ -70,7 +70,7 @@ ms.locfileid: "58590739"
       - **Memes in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Memes in Unterhaltungen zu ermöglichen.
       - **Sticker in Unterhaltungen verwenden**: **Aktivieren** Sie diese Einstellung, um Gästen die Verwendung von Stickern in Unterhaltungen zu ermöglichen.
 
-    ![Einstellungen von Gastberechtigungen in Teams](media/manage-guest-access-image1.png)
+    ![Einstellungen für Gastberechtigungen in Teams.](media/manage-guest-access-image1.png)
 
 5. Klicken Sie auf **Speichern**.
 

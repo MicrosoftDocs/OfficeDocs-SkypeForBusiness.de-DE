@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
-description: Verwenden Sie eine Inhaltskamera in einem Microsoft Teams Raum, der mit Bildverarbeitungssoftware interagiert, um Präsentierenden das Zeichnen auf einem analogen Whiteboard zu ermöglichen.
-ms.openlocfilehash: e24a90e65a5d844a5431951283153a5de2406498
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Verwenden Sie eine Inhaltskamera in Microsoft Teams Raum, die mit Bildverarbeitungssoftware interagiert, damit Sprecher auf einem analogen Whiteboard zeichnen können.
+ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613004"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58726014"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
@@ -33,7 +33,7 @@ Im folgenden Video finden Sie Beispiele für die Funktionen der Inhaltskamera.
 ## <a name="set-up-a-content-camera"></a>Einrichten einer Inhaltskamera
 
 > [!NOTE]
-> Halten Sie sich immer an den Gebäudecode Ihres Landes oder Ihrer Region, der einen Mindestabstand vom Boden definieren kann oder eine Anforderung definiert, dass deckende Ausrüstung mit einer Dacheinrichtung oder einer anderen Struktur gesichert werden muss. Befolgen Sie die Anweisungen zur Aufnahme für die Hardware, die mit der ausgewählten Kamera bereitgestellt wird. OEM-Kamerakamerakits umfassen eine Kamera, USB 2.0-Erweiterungs-Sets und erforderliche Verkabelung.
+> Halten Sie sich immer an den Gebäudecode Ihres Landes oder Ihrer Region, der einen Mindestabstand vom Boden definieren kann oder eine Anforderung definiert, dass deckende Ausrüstung mit einem Dachgerüst oder einer anderen Struktur gesichert werden muss. Befolgen Sie die Anweisungen zur Aufnahme für die Hardware, die mit der ausgewählten Kamera bereitgestellt wird. OEM-Kamerakamerakits umfassen eine Kamera, USB 2.0-Erweiterungs-Sets und erforderliche Verkabelung.
 
 Die Größe des whiteboards, das für die Freigabe verwendet wird, wirkt sich auf die Platzierung der Kamera aus. Empfehlungen für die Boardgröße:
 
@@ -48,7 +48,7 @@ Die ideale Platzierung einer Inhaltskamera ist vertikal und horizontal auf dem W
 
 Sie können die Kamera bis zu 6 in installieren. (152 mm) höher als der obere Rand des Whiteboards und auf dem Whiteboard zentriert, wie gezeigt. Stellen Sie sicher, dass das Kamerabild mindestens einen 6-In-Inhalt umfasst. (152 mm) Rahmen auf beiden Seiten horizontal. Sie können die Kameravorschau in der App Microsoft Teams-Räume, um die endgültige Platzierung der Kamera zu ermitteln.
 
-![Content camera placement diagram](../media/Magic-whiteboard.png)
+![Content camera placement diagram.](../media/Magic-whiteboard.png)
 
 ### <a name="camera-distances"></a>Kameraabstände
 
@@ -82,18 +82,18 @@ Wenn Sie Whiteboards haben, die größer als 3,65 m sind oder keine Ecken haben 
 
 Informationen dazu, ob Sie eine Kamera als Inhaltskamera verwenden können, finden Sie unter Zertifizierte Firmwareversionen für [USB-Audio- und -Videoperipheriegeräte](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
-Auf dem Marketplace für Microsoft Teams finden Sie unterstützte Content Camera Kits unter [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
+Auf dem Marketplace für Microsoft Teams finden Sie unterstützte Content Camera Kits unter [aka.ms/teamsdevices.](https://aka.ms/teamsdevices)
 
 ## <a name="camera-settings"></a>Kameraeinstellungen
 
 Sobald die Kamera im Raum installiert ist, richten Sie sie auf der Raumkonsole Microsoft Teams-Räume ein:
 
-1. Wählen **Einstellungen** Einstellungen Symbol aus, melden Sie sich als ![ Administrator ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) an, und wählen Sie Geräte **Einstellungen.**
+1. Wählen **Einstellungen** Einstellungen Symbol aus. , melden Sie sich als ![ Administrator ](../media/70f1b43f-16d6-4172-9139-71d845c4ed5c.png) an, und wählen Sie Geräte **Einstellungen.**
 2. Wählen Sie **im Abschnitt Kameraeinstellungen** die Inhaltskamera aus, und stellen Sie sicher, dass die Option **Inhaltsverbesserungen** ausgewählt ist.
 3. (Optional) Wenn die Kamera auf dem Kopf stehend installiert wurde, weil die Kamera von der Obergrenze aus bereitgestellt wurde, aktivieren Sie die Option Inhaltskamera **180 Grad** drehen.
 4. Wählen **Sie Speichern und beenden aus.**
 
-![Einrichtung der Inhaltskamera](../media/content-camera.png)
+![Einrichtung der Inhaltskamera.](../media/content-camera.png)
 
 Sie können diese Einstellungen auch remote mithilfe einer [XML-Konfigurationsdatei anpassen.](xml-config-file.md)
 

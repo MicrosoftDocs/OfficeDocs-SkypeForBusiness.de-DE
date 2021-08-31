@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Komponenten und Topologien des Servers für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 67b1e322bd8b367dafdee32f331e597471ba2189
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 63c82eee1a640616aaf8f390a66b2d67678b36ff
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598739"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725944"
 ---
 # <a name="plan-persistent-chat-server-topology"></a>Planen der Topologie des Servers für beständigen Chat
  
@@ -39,12 +39,12 @@ Der Server für beständigen Chat besteht aus den folgenden Komponenten:
     
   - Kompatibilitätsdienst, der eingeschaltet wird, wenn Kompatibilität aktiviert ist
     
-- Ein oder mehrere Server (mehrere, wenn die Spiegelung verwendet wird), auf denen die SQL Server Back-End-Datenbank zum Hosten der Inhaltsdatenbank für beständigen Chat ausgeführt wird, auf dem Chatroominhalte, Chatrooms und Kategorien gespeichert sind.
+- Ein oder mehrere Server (mehrere, wenn die Spiegelung verwendet wird), auf denen die SQL Server Back-End-Datenbank zum Hosten der Inhaltsdatenbank für beständigen Chat ausgeführt wird, auf dem Chatroominhalte, Chatrooms und Kategorien gespeichert werden.
     
     > [!NOTE]
     > In der Back-End-Datenbank werden Chatverlaufsdaten gespeichert, einschließlich Informationen zu Kategorien und erstellten Chatrooms für beständige Chatrooms. 
   
-- Wenn die Kompatibilität aktiviert ist, führt ein oder mehrere Server (mehrere, wenn die Spiegelung verwendet wird) die SQL Server Back-End-Datenbank zum Hosten der Konformitätsdatenbank für beständigen Chat aus, auf dem Complianceereignisse und Chatinhalte zum Zweck der Compliance gespeichert werden.
+- Wenn die Kompatibilität aktiviert ist, führt ein oder mehrere Server (mehrere, wenn spiegelung verwendet wird) die SQL Server Back-End-Datenbank zum Hosten der Konformitätsdatenbank für beständigen Chat aus, auf dem Complianceereignisse und Chatinhalte zum Zweck der Compliance gespeichert werden.
     
 Ausführliche Informationen zu den Hardware- und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Hardware- und Softwareanforderungen für den Server für beständigen Chat in Skype for Business Server 2015.](hardware-and-software-requirements.md) 
   
@@ -62,7 +62,7 @@ Sie können den Server für beständigen Chat in Einem- oder Mehrere-Server-Pool
     
 Obwohl Sie den Server für beständigen Chat auf einem Standard Edition Server bereitstellen können, beachten Sie, dass Leistung und Skalierung beeinträchtigt werden und hohe Verfügbarkeit keine Option ist. Daher wird empfohlen, den beständigen Chat auf einem Standard Edition Server in erster Linie für Machbarkeitsstudien und Evaluierungszwecke bereitzustellen. 
   
-Skype for Business Server 2015 unterstützt eine Vielzahl von Kollokationsszenarien und bietet Ihnen die Flexibilität, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Sie sollten Skalierbarkeitsfaktoren berücksichtigen, bevor Sie entscheiden, ob Komponenten gemeinsam verwendet werden sollen. Kollokationsszenarien unterscheiden sich für Skype for Business Server 2015-Enterprise Edition- und Standard Edition server. 
+Skype for Business Server 2015 unterstützt eine Vielzahl von Kollokationsszenarien und bietet Ihnen die Flexibilität, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie über eine kleine Organisation verfügen) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung benötigt). Sie sollten Skalierbarkeitsfaktoren berücksichtigen, bevor Sie entscheiden, ob Komponenten gemeinsam verwendet werden sollen. Kollokationsszenarien unterscheiden sich für Skype for Business Server 2015-Enterprise Edition- und Standard Edition server. 
   
 In den folgenden Abschnitten werden die Topologien ausführlicher beschrieben, einschließlich Kollokationsszenarien und Optionen für die Back-End-Datenbankserver. Ausführliche Informationen zur Kollokation aller Serverrollen und Datenbanken finden Sie unter [Topologiegrundlagen für Skype for Business Server 2015.](../../plan-your-deployment/topology-basics/topology-basics.md)
   
@@ -99,17 +99,17 @@ Die folgende Abbildung zeigt alle Komponenten einer Topologie für einen einzeln
   
 **Topologie mit einzelnem Server**
 
-![Server für beständigen Chat – Topologie mit einem Server](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
+![Server für beständigen Chat – Topologie mit einem Server.](../../media/e1b39c28-8a4d-4c03-983b-4392889c2d14.png)
   
 ### <a name="enterprise-edition-server-with-multiple-persistent-chat-servers"></a>Enterprise Edition Server mit mehreren Servern für beständigen Chat
 
 Mit Enterprise Edition können Sie eine Topologie mit mehreren Servern bereitstellen, um mehr Kapazität und Zuverlässigkeit zu gewährleisten. Eine Topologie mit mehreren Servern ist identisch mit der Topologie mit einem Server, mit der Ausnahme, dass mehrere Server den Server für beständigen Chat hosten und höher skaliert werden können. Die Topologie mit mehreren Servern kann bis zu vier aktive Computer enthalten, auf denen der Server für beständigen Chat ausgeführt wird (Konfigurationen für hohe Verfügbarkeit und Notfallwiederherstellung ermöglichen bis zu acht, aber nur vier können aktiv sein und die restlichen vier im Standbymodus). Jeder Server kann bis zu 20.000 gleichzeitige Benutzer unterstützen, insgesamt 80.000 gleichzeitige Benutzer, die mit einem Serverpool für beständigen Chat mit 4 Servern verbunden sind. Mehrere Computer, auf denen der Server für beständigen Chat ausgeführt wird, sollten sich in derselben Active Directory Domain Services-Domäne befinden wie Skype for Business Server und der Konformitätsdienst.
   
-Die folgende Abbildung zeigt alle Komponenten einer Topologie mit mehreren Servern mit mehreren Computern, auf denen der Server für beständigen Chat ausgeführt wird, dem optionalen Kompatibilitätsdienst und einer separaten Konformitätsdatenbank.
+Die folgende Abbildung zeigt alle Komponenten einer Topologie mit mehreren Servern mit mehreren Computern, auf denen der Server für beständigen Chat ausgeführt wird, den optionalen Kompatibilitätsdienst und eine separate Konformitätsdatenbank.
   
 **Topologie mit mehreren Servern**
 
-![Server für beständigen Chat – Topologie mit mehreren Servern](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
+![Server für beständigen Chat – Topologie mit mehreren Servern.](../../media/8fc20997-7acc-46ea-8dea-11239ffd9458.png)
   
 Topologien mit mehreren Servern ermöglichen es, Serverfunktionen zu einem Pool zusammenzufassen. In einem Serverpool kommunizieren die Dienste für beständigen Chat und geben Daten frei. Beispielsweise ist der Chatverlauf, der ursprünglich in einem Dienst für beständigen Chat veröffentlicht wurde, über jeden Dienst für beständigen Chat im System verfügbar. Auf eine Datei, die über einen Dienst für beständigen Chat hochgeladen wird, kann von jedem Dienst für beständigen Chat zugegriffen werden. Benutzer können mit unterschiedlichen Front-End-Servern für den Server für beständigen Chat verbunden sein und miteinander kommunizieren. Der Standardport von TCP 8011 verbindet einen Server mit einem Serverpool und wird von den Diensten für beständigen Chat für die Kommunikation zwischen sich selbst oder zu Administrativen Zwecken verwendet.
   

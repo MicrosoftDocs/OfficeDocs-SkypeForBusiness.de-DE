@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Teamvorlagen im Admin Center verwalten.
-ms.openlocfilehash: 8acff1891c112ef9db8fbc9d652949786a524550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578189"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732824"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
@@ -52,7 +52,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 2. Wählen Sie in **der Tabelle Ansichtsvorlagen** die Vorlagen aus, die Sie ausblenden möchten, und wählen Sie ausblenden **aus.**
 
-    ![Die ausgewählten Vorlagen mit hervorgehobener Option 'Ausblenden'](media/template-policies-2.png)
+    ![Die ausgewählten Vorlagen mit hervorgehobener Option "Ausblenden"](media/template-policies-2.png)
 
     Die Vorlagen, die Sie ausgewählt haben, um sie in der Tabelle Ausgeblendete Vorlagen **auszublenden, werden** angezeigt.
 
@@ -60,7 +60,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 2. Wählen Sie die Vorlagen aus, die Sie ein- oder einwählen, und wählen Sie dann **Anzeigen aus.**
 
-   ![Die ausgewählten, nicht ausgeblendeten Vorlagen](media/template-policies-3.png)
+   ![Die ausgewählten Vorlagen, die nicht ausgeblendet sind.](media/template-policies-3.png)
 
    Die ausgewählten Vorlagen werden in der Tabelle mit den **anzeigebaren Vorlagen** angezeigt.
 3. Klicken Sie auf **Speichern**.
@@ -75,7 +75,7 @@ Benutzer, die einer Richtlinie zugewiesen sind, können nur die anzeigebaren Vor
 
 2. Geben Sie die Benutzer ein, die dieser Richtlinie zugewiesen werden soll.
 
-   ![Zuweisen von Benutzern zu einer Vorlagenrichtlinie](media/template-policies-4.png)
+   ![Benutzer einer Vorlagenrichtlinie zuweisen.](media/template-policies-4.png)
 
 3. Wählen Sie **Übernehmen aus.**
 
@@ -122,7 +122,7 @@ A: Im Admin Center:
 2. Wählen Sie den Filter in der Liste Benutzer aus, und filtern Sie nach der Teamvorlagenrichtlinie.
 3. Wählen Sie **Übernehmen aus.**
 
-![Ausgewählte Vorlagenrichtlinie und Anzeigen von Benutzern](media/template-policies-5.png)
+![Die ausgewählte Vorlagenrichtlinie und Ansichtsbenutzer.](media/template-policies-5.png)
 
 **F: Kann ich Vorlagenrichtlinien über PowerShell verwalten?**
 

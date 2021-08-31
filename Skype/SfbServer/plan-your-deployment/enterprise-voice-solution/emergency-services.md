@@ -16,26 +16,26 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed843ed7-371f-46cc-969a-f8062c06fc55
 description: Erfahren Sie mehr über erweiterte 9-1-1 (E9-1-1)-Dienste in Skype for Business Server Enterprise-VoIP, einschließlich Standorterwerbung und Anrufweiterleitung.
-ms.openlocfilehash: 2e7e3a2464f7c6e3579a9779a7926be2d87492d6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 18cb4158e7e7d31772f365711b1ec5e0ed22357a
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592509"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732754"
 ---
 # <a name="plan-for-emergency-services-in-skype-for-business-server"></a>Planen von Notrufdiensten in Skype for Business Server
 
 Erfahren Sie mehr über erweiterte 9-1-1 (E9-1-1)-Dienste in Skype for Business Server Enterprise-VoIP, einschließlich Standorterwerbung und Anrufweiterleitung.
 
-Skype for Business Server unterstützt erweiterte 9-1-1 (E9-1-1)-Dienste innerhalb der Vereinigten Staaten als Teil einer Enterprise-VoIP Bereitstellung. E9-1-1 ist eine Notruffunktion, die einen 9-1-1-Anruf einem Notfallstandort (Emergency Response Location, ERL) zuweist, der aus öffentlichen Adressen (d. h. Straßenadressen) und anderen spezifischeren Standortinformationen, z. B. Stocknummern, für Anrufe aus Gebäuden und anderen mehrinstanzenfähigen Einrichtungen besteht. Mithilfe der bereitgestellten ERL kann eine Rettungsleitstelle (Public Safety Answering Point, PSAP) die Erstantworter sofort an den Anrufer weiterleiten, mit reduziertem Risiko, den Antwortenden versehentlich an einen falschen oder mehrdeutigen Ort zu leiten.
+Skype for Business Server unterstützt erweiterte 9-1-1 (E9-1-1)-Dienste innerhalb der VEREINIGTEn Staaten als Teil einer Enterprise-VoIP Bereitstellung. E9-1-1 ist eine Notruffunktion, die einen 9-1-1-Anruf einem Notfallstandort (Emergency Response Location, ERL) zuweist, der aus öffentlichen Adressen (d. h. Straßenadressen) und anderen spezifischeren Standortinformationen, z. B. Stocknummern, für Anrufe aus Gebäuden und anderen mehrinstanzenfähigen Einrichtungen besteht. Mithilfe der bereitgestellten ERL kann eine Rettungsleitstelle (Public Safety Answering Point, PSAP) die Erstantworter sofort an den Anrufer weiterleiten, mit reduziertem Risiko, den Antwortenden versehentlich an einen falschen oder mehrdeutigen Ort zu leiten.
 
 > [!NOTE]
 > Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Weitere Informationen finden Sie unter [Plan for multiple emergency numbers in Skype for Business Server](multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Skype for Business Server verfügt über drei erweiterte Enterprise-VoIP Features: Anrufsteuerung, Notrufdienste (E9-1-1) und Medienumgehung. Eine Übersicht über die Planungsinformationen, die für alle drei dieser Features gelten, finden Sie unter ["Netzwerkeinstellungen" für die erweiterten Enterprise-VoIP-Features in Skype for Business Server.](network-settings-for-advanced-features.md)
+> Skype for Business Server verfügt über drei erweiterte Enterprise-VoIP Features: Anrufsteuerung, Notrufdienste (E9-1-1) und Medienumgehung. Eine Übersicht über die Planungsinformationen, die für alle drei dieser Features gelten, finden Sie unter ["Netzwerkeinstellungen" für die erweiterten Enterprise-VoIP Features in Skype for Business Server.](network-settings-for-advanced-features.md)
 
-Skype for Business Server unterstützt erweiterte 9-1-1(E9-1-1)-Anrufe von Skype for Business Clients und Lync Telefon Edition-Geräten. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, enthalten Notrufe, die von Skype for Business oder Lync Telefon Edition getätigt werden, Informationen zum Notfallstandort (Emergency Response Location, ERL) aus der Standortinformationsdienstdatenbank. ERLs bestehen aus öffentlichen Adressen (d. h. Straßenadressen) und anderen Informationen, die dazu beiträgt, einen präziseren Standort in Office-Gebäuden und anderen mehrinstanzenfähigen Einrichtungen zu identifizieren. Wenn ein Benutzer einen Notruf abnimmt, leitet Skype for Business Server die Anrufaudio zusammen mit den Standort- und Rückrufinformationen über einen Vermittlungsserver an einen E9-1-1-Dienstanbieter weiter. Der E9-1-1-Dienstanbieter verwendet die Adresse des Anrufers, um den Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterzuleiten, die den Standort des Anrufers bedient, und sendet einen Esqk (Emergency Service Query Key), den die PSAP zum Nachschlagen der ERL des Anrufers verwendet.
+Skype for Business Server unterstützt E9-1-1-Anrufe (Enhanced 9-1-1) von Skype for Business Clients und Lync Telefon Edition-Geräten. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, enthalten Notrufe, die von Skype for Business oder Lync Telefon Edition getätigt werden, Informationen zum Notfallstandort (Emergency Response Location, ERL) aus der Standortinformationsdienstdatenbank. ERLs bestehen aus öffentlichen Adressen (d. h. Straßenadressen) und anderen Informationen, die dazu beiträgt, einen präziseren Standort in Office-Gebäuden und anderen mehrinstanzenfähigen Einrichtungen zu identifizieren. Wenn ein Benutzer einen Notruf abnimmt, leitet Skype for Business Server die Anrufaudio sowie die Standort- und Rückrufinformationen über einen Vermittlungsserver an einen E9-1-1-Dienstanbieter weiter. Der E9-1-1-Dienstanbieter verwendet die Adresse des Anrufers, um den Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterzuleiten, die den Standort des Anrufers bedient, und sendet einen ESQK (Emergency Service Query Key), den die PSAP zum Nachschlagen der ERL des Anrufers verwendet.
 
 Skype for Business Server unterstützt zwei Methoden zum Weiterleiten von Notrufen an einen E9-1-1-Dienstanbieter:
 
@@ -56,11 +56,11 @@ Wenn Sie ein ELIN-Gateway verwenden, fügen Sie auch ERLs zur Standortinformatio
 
 - **Herkömmliche PS-ALI-Option** Wenn Sie an jedem Standort, an dem analoge Telefone bereitgestellt werden, über lokale PSTN-Gateways verfügen und jedes analoge Telefon über eine DID verfügt, können Sie den Standort des analogen Geräts direkt mit einem Ps-ALI-Dienstanbieter (Private Switch/Automatic Location Identification) bereitstellen. In diesem Fall konfigurieren Sie speziell gestaltete Skype for Business VoIP-Richtlinien und weisen sie den Kontaktobjekten des analogen Geräts zu, sodass E9-1-1-Anrufe von diesen Telefonen direkt über das lokale Gateway an den PSTN-Anbieter geleitet werden, der den Standort bedient (anstatt den Anruf an einen SIP-Trunk eines E9-1-1-Dienstanbieters weiterzuleiten). Wird ein Notruf getätigt, ordnet eine dem PSTN-Trunk zugewiesene Datenbank beim PS-ALI-Anbieter die DID jedes analogen Telefons einem physischen Standort zu und stellt diesen Standort der Rettungsleitstelle zur Verfügung. Diese Datensätze müssen beim PS-ALI-Dienstanbieter immer dann aktualisiert werden, wenn Telefone zu anderen ERLs verlegt werden.
 
-- **E9-1-1-Dienstanbieteroption** Sie können die DIDs für analoge Telefone und die entsprechenden ERLs beim E9-1-1-Dienstanbieter registrieren, wenn dies vom E9-1-1-Dienstanbieter unterstützt wird. Wenn der Anbieter einen Anruf von Skype for Business Server erhält, der keine PIDF-LO-Daten enthält, kann der Anbieter sehen, ob eine Datenbankübersprechung in der DID-Nummer der aufrufenden Partei vorhanden ist. Mithilfe der aus der Datenbank abgerufenen ERL kann der Anbieter den Notruf automatisch an die richtige Rettungsleitstelle weiterleiten, und die PSAP erhält die DID des analogen Geräts und einen ESQK-Eintrag, mit dem der Verteiler den Standort des Anrufers suchen kann.
+- **E9-1-1-Dienstanbieteroption** Sie können die DIDs für analoge Telefone und die entsprechenden ERLs beim E9-1-1-Dienstanbieter registrieren, wenn dies vom E9-1-1-Dienstanbieter unterstützt wird. Wenn der Anbieter einen Anruf von Skype for Business Server erhält, der keine PIDF-LO-Daten enthält, kann der Anbieter sehen, ob eine Datenbankübersprechung für die DID-Nummer der aufrufenden Partei vorhanden ist. Mithilfe der aus der Datenbank abgerufenen ERL kann der Anbieter den Notruf automatisch an die richtige Rettungsleitstelle weiterleiten, und die PSAP erhält die DID des analogen Geräts und einen ESQK-Eintrag, mit dem der Verteiler den Standort des Anrufers suchen kann.
 
 Wenn Sie ein ELIN-Gateway verwenden und die Unterstützung für E9-1-1 über analoge Telefone erforderlich ist, können Sie dem PS-ALI-Dienstanbieter wie oben in der ersten Option beschrieben den Standort des analogen Geräts direkt zur Verfügung stellen.
 
-Aus Skype for Business Server Sicht kann der E9-1-1-Prozess in zwei Phasen unterteilt werden:
+Aus Skype for Business Server Perspektive kann der E9-1-1-Prozess in zwei Phasen unterteilt werden:
 
 - Schritt 1: Abrufen eines Standorts
 
@@ -72,13 +72,13 @@ Wenn Sie Ihre Infrastruktur so konfigurieren möchten, dass der Standort von Cli
 
 ## <a name="acquiring-a-location"></a>Abrufen eines Standorts
 
-In einer Skype for Business Server E9-1-1-Bereitstellung erhält jeder intern verbundene Skype for Business oder Lync Telefon Edition-Client aktiv seinen eigenen Standort. Nach der SIP-Registrierung stellt der Client alle Netzwerkkonnektivitätsinformationen bereit, die er über sich selbst kennt, in einer Standortanforderung an den Standortinformationsdienst, bei dem es sich um einen Webdienst handelt, der durch eine replizierte SQL Server Datenbank gesichert wird. Jeder zentrale Standortpool verfügt über einen Standortinformationsdienst, der die Netzwerkinformationen verwendet, um seine Datensätze nach einem übereinstimmenden Speicherort abzufragen. Wenn eine Übereinstimmung vorliegt, gibt der Standortinformationsdienst einen Standort an den Client zurück. Wird keine Übereinstimmung ermittelt, wird der Benutzer möglicherweise zur manuellen Eingabe eines Standorts aufgefordert (abhängig von den Einstellungen in der Ortungsrichtlinie). Die Standortdaten werden in einem standardisierten IETF-XML-Format (Internet Engineering Task Force), das als PIDF-LO (Presence Information Data Format Location Object) bezeichnet wird, zurück an den Client übertragen.
+In einer Skype for Business Server E9-1-1-Bereitstellung erhält jeder intern verbundene Skype for Business oder Lync Telefon Edition-Client aktiv seinen eigenen Standort. Nach der SIP-Registrierung stellt der Client alle Netzwerkkonnektivitätsinformationen bereit, die er über sich selbst kennt, in einer Standortanforderung an den Standortinformationsdienst, bei dem es sich um einen Webdienst handelt, der durch eine replizierte SQL Server Datenbank gesichert ist. Jeder zentrale Standortpool verfügt über einen Standortinformationsdienst, der die Netzwerkinformationen verwendet, um seine Datensätze nach einem übereinstimmenden Speicherort abzufragen. Wenn eine Übereinstimmung vorliegt, gibt der Standortinformationsdienst einen Standort an den Client zurück. Wird keine Übereinstimmung ermittelt, wird der Benutzer möglicherweise zur manuellen Eingabe eines Standorts aufgefordert (abhängig von den Einstellungen in der Ortungsrichtlinie). Die Standortdaten werden in einem standardisierten IETF-XML-Format (Internet Engineering Task Force), das als PIDF-LO (Presence Information Data Format Location Object) bezeichnet wird, zurück an den Client übertragen.
 
 Der Skype for Business Client enthält die PIDF-LO-Daten als Teil eines Notrufs, und diese Daten werden vom E9-1-1-Dienstanbieter verwendet, um die entsprechende PSAP zu ermitteln und den Anruf zusammen mit dem richtigen ESQK an diese PSAP weiterzuleiten, wodurch der PSAP-Verteiler den Standort des Anrufers abrufen kann.
 
 Das folgende Diagramm zeigt, wie ein Skype for Business-Client einen Standort erwirbt (mit Ausnahme der mac-adressbasierten Standortmethode des Drittanbieterclients):
 
-![Abrufen eines Standortdiagramms durch den Client](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
+![So erwirbt der Client ein Standortdiagramm.](../../media/Plan_LyncServer_E911_LocationAcquisition.jpg)
 
 Damit ein Client einen Standort abrufen kann, müssen die folgenden Schritte ausgeführt werden:
 
@@ -98,7 +98,7 @@ Das folgende Diagramm zeigt, wie ein Notruf von Skype for Business Server an die
 
 **Weiterleiten von E9-1-1-Anrufen über einen SIP-Trunk**
 
-![Notrufweiterleitung von Lync Server zu PSAP](../../media/Plan_LyncServer_E911_CallRouting.jpg)
+![Notrufweiterleitung von Lync Server zu PSAP.](../../media/Plan_LyncServer_E911_CallRouting.jpg)
 
 Wenn ein Notruf von einem kompatiblen Skype for Business Server-Client aus getätigt wird:
 

@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Erfahren Sie, wie Sie die Teilnahme anonymer Anrufer an einer Besprechung über Teams Admin Center aktivieren oder deaktivieren. '
-ms.openlocfilehash: 7b67cf357b9230b4dfd2448d84d4ce007149efe9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Erfahren Sie, wie Sie die Teilnahme anonymer Anrufer an einer Besprechung über das Admin Center aktivieren Teams deaktivieren. '
+ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604404"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732744"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams
 
@@ -42,7 +42,7 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
 
-![Ein Symbol mit dem Microsoft Teams-Logo](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie im linken Navigationsbereich auf **Benutzer**. 
 
@@ -50,7 +50,7 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
 
 3. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
 
-4. Im **Bereich Audiokonferenz können** Einwahlanrufer als erste Person an einer Besprechung **aktiviert oder deaktiviert werden.**
+4. Im **Bereich Audiokonferenz können** Einwahlanrufer als erste Person in einer Besprechung **aktiviert oder deaktiviert werden.**
     
 4. Klicken Sie auf **Anwenden**. 
 

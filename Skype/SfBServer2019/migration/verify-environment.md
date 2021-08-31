@@ -10,13 +10,13 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen, müssen Sie überprüfen, ob Legacydienste konfiguriert und gestartet wurden. Es ist wichtig, wichtige Dienste und Features zu identifizieren, die in Ihrer älteren Umgebung vorhanden sind, bevor Sie einen Skype for Business Server 2019-Pilotpool bereitstellen. Bevor Sie Microsoft Skype for Business Server 2019 XMPP in einem Koexistenzstatus mit einer älteren XMPP-Bereitstellung bereitstellen, müssen Sie überprüfen, ob die älteren XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welcher Verbundpartner die ältere XMPP-Konfiguration unterstützt.
-ms.openlocfilehash: c81686f77d42f855f61699d3f141ffcaa463bc9a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen, müssen Sie überprüfen, ob Legacydienste konfiguriert und gestartet wurden. Es ist wichtig, wichtige Dienste und Features zu identifizieren, die in Ihrer älteren Umgebung vorhanden sind, bevor Sie einen Skype for Business Server 2019-Pilotpool bereitstellen. Bevor Sie Microsoft Skype for Business Server 2019 XMPP in einem Koexistenzstatus mit einer älteren XMPP-Bereitstellung bereitstellen, müssen Sie überprüfen, ob die älteren XMPP-Dienste konfiguriert und gestartet wurden, und ermitteln, welcher Verbundpartner von der älteren XMPP-Konfiguration unterstützt wird.
+ms.openlocfilehash: 208b508eb6b2b5c62da51aa6317cde6e2a95bbb7
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586239"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727744"
 ---
 # <a name="verify-the-legacy-environment"></a>Überprüfen der Legacyumgebung
 
@@ -36,7 +36,7 @@ Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen
     
 2. Überprüfen Sie, ob die folgenden Dienste auf dem Front-End-Server ausgeführt werden:
     
-     ![Liste der auf dem Front-End-Server ausgeführten Dienste](../media/migration_lyncserver_config_w14_services.jpg)
+     ![Liste der Auf dem Front-End-Server ausgeführten Dienste.](../media/migration_lyncserver_config_w14_services.jpg)
   
 ## <a name="review-the-legacy-topology-in-skype-for-business-server-control-panel"></a>Überprüfen der Legacytopologie in Skype for Business Server Systemsteuerung
 
@@ -46,7 +46,7 @@ Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen
     
 3. Wählen Sie **Topologie** aus. Stellen Sie sicher, dass die verschiedenen Server in Ihrer Legacybereitstellung aufgeführt sind.
     
-     ![Seite "Systemsteuerungstopologie"](../media/migration_lyncserver_2010_topology.JPG)
+     ![Seite "Systemsteuerungstopologie".](../media/migration_lyncserver_2010_topology.JPG)
   
 ## <a name="review-legacy-users-in-skype-for-business-server-control-panel"></a>Überprüfen von älteren Benutzern in Skype for Business Server Systemsteuerung
 
@@ -56,7 +56,7 @@ Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen
     
 3. Stellen Sie sicher, dass die Spalte **"Registrierungsstellenpool"** für jeden aufgeführten Benutzer auf den Legacypool verweist. 
     
-     ![Systemsteuerung, die Benutzer auflistet](../media/migration_lyncserver_2010_allusers.JPG)
+     ![Systemsteuerung, die Benutzer auflistet.](../media/migration_lyncserver_2010_allusers.JPG)
   
 ## <a name="verify-legacy-edge-and-federation-settings"></a>Überprüfen der älteren Edge- und Verbundeinstellungen
 
@@ -70,7 +70,7 @@ Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen
     
 5. Wählen Sie den Standortknoten aus, und stellen Sie sicher, dass ein **Standortverbund-Routenzuweisungswert** festgelegt ist. 
     
-     ![Topologie-Generator, Standortverbundroute](../media/migration_lyncserver_w14_federation.jpg)
+     ![Topologie-Generator, Standortverbundroute.](../media/migration_lyncserver_w14_federation.jpg)
   
 6. Wählen Sie den Standard Edition Server oder Enterprise Edition Front-End-Pool aus. Bestimmen Sie, ob ein Edgepool für Medien unter **Zuordnungen** konfiguriert wurde. 
     
@@ -78,7 +78,7 @@ Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen
   
 7. Wählen Sie den Edgepool aus, und identifizieren Sie, ob unter der Auswahl des nächsten Hops ein **Next-Hop-Pool** konfiguriert ist.
     
-     ![Topologie-Generator, Auswahl des nächsten Hops](../media/migration_lyncserver_w14_nexthop.jpg)
+     ![Topologie-Generator, Auswahl des nächsten Hops.](../media/migration_lyncserver_w14_nexthop.jpg)
   
 ## <a name="verify-legacy-xmpp-federated-partner-configuration"></a>Überprüfen der Konfiguration von Legacy-XMPP-Verbundpartnern
 
@@ -86,6 +86,6 @@ Bevor Sie Skype for Business Server 2019 in einem Koexistenzstatus bereitstellen
     
 2. Überprüfen Sie, ob der Office Communications Server-XMPP-Gatewaydienst gestartet ist. 
     
-     ![Office Communications Server-XMPP-Gatewaydienst](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
+     ![Office Communications Server-XMPP-Gatewaydienst.](../media/migration_lyncserver_15_xmpp_legacyservicesstarted.JPG)
   
 

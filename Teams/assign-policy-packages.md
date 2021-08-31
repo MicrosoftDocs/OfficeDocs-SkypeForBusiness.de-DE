@@ -18,12 +18,12 @@ description: Lernen Sie die verschiedenen Methoden zum Zuweisen von Richtlinienp
 f1keywords:
 - ms.teamsadmincenter.bulkoperations.users.edit
 - ms.teamsadmincenter.bulkoperations.edit
-ms.openlocfilehash: 711e0fd321dd9eff16ad37d0f662c9f72159a955
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fb7d402ab8a280a724562eec7820f1cad06ea52f
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601200"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727194"
 ---
 # <a name="assign-policy-packages-to-users-and-groups"></a>Zuweisen von Richtlinienpaketen zu Benutzern und Gruppen
 
@@ -38,11 +38,11 @@ Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und R
 
 ### <a name="assign-a-policy-package-to-one-user"></a>Zuweisen eines Richtlinienpakets zu einem Benutzer
 
-1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Benutzer **,** und wählen Sie dann den Benutzer aus.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Benutzer**, und wählen Sie dann den Benutzer aus.
 2. Wählen Sie auf der Seite des Benutzers **Richtlinien** und dann neben Richtlinienpaket **die** Option **Bearbeiten aus.**
 3. Wählen Sie **im Bereich Richtlinienpaket** zuweisen das Paket aus, das Sie zuweisen möchten, und wählen Sie dann Speichern **aus.**
 
-![Teams Admin Center-Screenshot für die Richtlinienpaketzuweisung an einen Benutzer](media/assign-policypackages-user.png)
+![Teams Admin Center-Screenshot für die Richtlinienpaketzuweisung an einen Benutzer.](media/assign-policypackages-user.png)
 
 ### <a name="assign-a-policy-package-to-multiple-users"></a>Zuweisen eines Richtlinienpakets zu mehreren Benutzern
 
@@ -51,7 +51,7 @@ Ein Richtlinienpaket in Teams ist eine Sammlung vordefinierter Richtlinien und R
 3. Suchen Sie im Bereich **Benutzer verwalten** anhand des Anzeigenamens oder des Benutzernamens nach dem Benutzer, wählen Sie den Namen aus, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Benutzer, den Sie hinzufügen wollen.
 4. Wenn Sie mit dem Hinzufügen von Benutzern fertig sind, wählen Sie **Speichern aus.**
 
-![Teams Admin Center-Screenshot für die Richtlinienpaketzuweisung für mehrere Benutzer](media/assign-policypackages-multipleusers.png)
+![Teams Admin Center-Screenshot für die Richtlinienpaketzuweisung für mehrere Benutzer.](media/assign-policypackages-multipleusers.png)
 
 ## <a name="assign-a-policy-package-to-a-group"></a>Ein Richtlinienpaket einer Gruppe zuweisen
 
@@ -79,7 +79,7 @@ Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Di
 
     d. Wählen Sie **Übernehmen aus.**
 
-![Zeigt die Gruppenrichtlinienzuordnung](media/group-pkg-assignment.png)
+![Zeigt die Gruppenrichtlinienzuordnung an.](media/group-pkg-assignment.png)
 
 5. Um die Rangfolge für einen bestimmten Richtlinientyp zu verwalten, navigieren Sie zur jeweiligen Richtlinienseite.
 6. Wenn Sie ein Richtlinienpaket einer Gruppe erneut zuweisen möchten, entfernen Sie zuerst die Gruppenrichtlinienzuweisung. Führen Sie dann die vorstehenden Schritte aus, um das Richtlinienpaket einer Gruppe zuzuordnen.
@@ -88,7 +88,7 @@ Wenn Sie das Richtlinienpaket zuweisen, wird es der Gruppe sofort zugewiesen. Di
 
 #### <a name="get-the-teams-powershell-module"></a>Holen Sie sich Teams PowerShell-Modul
 
-Eine Schritt-für-Schritt-Anleitung finden Sie unter [Installieren Teams PowerShell.](teams-powershell-install.md)
+Eine schrittweise Anleitung finden Sie unter Installieren [Teams PowerShell.](teams-powershell-install.md)
 
 #### <a name="assign-a-policy-package-to-a-group-of-users"></a>Zuweisen eines Richtlinienpakets zu einer Benutzergruppe
 
@@ -110,7 +110,7 @@ Ein Batch enthält bis zu 5.000 Benutzer. Um optimale Ergebnisse zu erzielen, ü
 
 ### <a name="use-the-teams-powershell-module"></a>Verwenden des Teams PowerShell-Moduls
 
-Führen Sie Folgendes aus, um [Microsoft Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams) zu installieren (sofern noch nicht vorhanden). Vergewissern Sie sich, dass Sie Version 1.0.5 oder höher installieren.
+Führen Sie Folgendes aus, um [das Microsoft Teams PowerShell-Modul](https://www.powershellgallery.com/packages/MicrosoftTeams) zu installieren (sofern noch nicht vorhanden). Vergewissern Sie sich, dass Sie Version 1.0.5 oder höher installieren.
 
 ```powershell
 Install-Module -Name MicrosoftTeams

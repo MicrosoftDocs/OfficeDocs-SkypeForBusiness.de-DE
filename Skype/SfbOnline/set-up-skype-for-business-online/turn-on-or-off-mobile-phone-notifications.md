@@ -20,19 +20,19 @@ ms.custom:
 - Setup
 - ms.lync.lac.OrgMobileNotification
 description: Erfahren Sie, wie Sie Mobiltelefonbenachrichtigungen aktivieren oder deaktivieren, damit Ihre Benutzer Benachrichtigungen über eingehende Anrufe, Voicemail und verpasste Chatnachrichten erhalten können.
-ms.openlocfilehash: f44daa163dcce9298a43310b9157256c4b44fbb2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c085c02dbae8fa07b73c39c6592f4ffa0da12d55
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584419"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727564"
 ---
 # <a name="turn-on-or-off-mobile-phone-notifications"></a>Aus- oder Einschalten von Mobiltelefonbenachrichtigungen
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
 > [!IMPORTANT]
-> Das Microsoft Teams Admin Center wurde durch Skype for Business Admin Center (Legacy-Portal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
+> Das Microsoft Teams Admin Center wurde durch Skype for Business Admin Center (Legacyportal) ersetzt. Alle Einstellungen für die Skype for Business befinden sich jetzt im Teams Admin Center. Weitere Informationen finden Sie unter [Verwalten Skype for Business-Einstellungen im Microsoft Teams Admin Center](/MicrosoftTeams/skype-for-business-settings?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2fsfbotoc%2ftoc.json).
 
 Als Administratorrollen **[in Microsoft 365 Apps for Business](https://support.office.com/article/eac4d046-1afd-4f1a-85fc-8219c79e1504)** für Ihre Organisation zuweisen können Sie auswählen, ob Ihre Skype for Business-Benutzer Benachrichtigungen zu eingehenden und verpassten Chatnachrichten erhalten, wenn sie sich auf ihren Mobiltelefonen oder Tablets befinden.
   
@@ -41,11 +41,11 @@ Auf Mobiltelefonen unter Android und Windows Phone werden Skype for Business-Ben
 ## <a name="turn-push-notifications-off-for-all-the-windows-phone-or-apple-devices-in-your-organization"></a>So schalten Sie Pushbenachrichtigungen für alle Windows Phone- oder Apple-Geräte in Ihrer Organisation aus
 <a name="__top"> </a>
 
-![Ein Symbol mit dem Skype for Business-Logo](../images/sfb-logo-30x30.png) **Unter Verwendung des Skype for Business Admin Centers**
+![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers**
 
 1. Melden Sie sich bei Microsoft 365.
     
-2. Wechseln Sie zum Admin Center > **Skype for Business.**
+2. Wechseln Sie zum Admin Center > **Skype for Business**.
     
 3. Wechseln Sie zu **Organisation** > **Allgemein**. 
     

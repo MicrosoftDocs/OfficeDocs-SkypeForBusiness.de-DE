@@ -12,17 +12,17 @@ ms.collection:
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Aktualisieren Microsoft Teams von Telefonen, Teams Panels und Zusammenarbeitsleisten remote über Teams Admin Center
-ms.openlocfilehash: 4166d8543c0c0e847e4463ecf3cf0760876a7b37
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Aktualisieren Microsoft Teams Telefonen, Teams Panels und Zusammenarbeitsleisten remote über Teams Admin Center
+ms.openlocfilehash: c35fc24be2456c4ee1583e7a073a7c4dcf8e7214
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632179"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727464"
 ---
 # <a name="update-microsoft-teams-devices-remotely"></a>Remoteupdate Microsoft Teams Geräte
 
-Mithilfe des Microsoft Teams Admin Centers können Sie Ihre Teams-Geräte wie Teams-Telefone, Teams-Panels und Zusammenarbeitsleisten remote aktualisieren, und Sie können das Verhalten der Firmware für automatische Updates für Geräte auswählen. Sie können folgendes auf Ihren Geräten über das admin center Teams aktualisieren:
+Mithilfe des Microsoft Teams Admin Centers können Sie Ihre Teams-Geräte wie Teams-Telefone, Teams-Panels und Zusammenarbeitsleisten remote aktualisieren, und Sie können das Verhalten der Firmware für automatische Updates für Geräte auswählen. Über das Admin Center Teams Sie auf Ihren Geräten Folgendes aktualisieren:
 
 - Teams-App und Teams-Administrator-Agent
 - Unternehmensportal-App
@@ -34,14 +34,14 @@ Firmwareupdates für Geräte können entweder automatisch angewendet oder für e
 > [!NOTE]
 > Zwar können Firmwareupdates für Geräte geplant werden, aber wenn das geplante Datum und die geplante Uhrzeit nach der konfigurierten maximalen Verzögerung von 30 oder 90 Tage liegen, wird das Firmwareupdate angewendet, wenn die maximale Verzögerung erreicht ist. Das geplante Datum und die geplante Uhrzeit werden ignoriert. Darüber hinaus ist Microsoft Teams Remoteaktualisierung von Geräten ein Feature, das für US Government Cloud-Mandanten (GCC-High) noch nicht verfügbar ist.
 
-Zum Verwalten von Geräten müssen Sie ein globaler Administrator, Teams Dienstadministrator oder Teams Geräteadministrator sein. Weitere Informationen zu Administratorrollen finden Sie unter Verwenden [Microsoft Teams zum Verwalten von Teams.](../using-admin-roles.md)
+Zum Verwalten von Geräten müssen Sie ein globaler Administrator, Teams Dienstadministrator oder Teams sein. Weitere Informationen zu Administratorrollen finden Sie unter Verwenden [Microsoft Teams zum Verwalten von Teams.](../using-admin-roles.md)
 
 ## <a name="choose-automatic-device-firmware-update-behavior"></a>Auswählen des Verhaltens bei automatischen Firmwareupdates für Geräte
 
 Firmwareupdates für Geräte werden automatisch angewendet. Sie können entscheiden, ob Updates angewendet werden sollen, sobald ein Update veröffentlicht wurde (wenn Sie diese Option auswählen, werden Updates am ersten Wochenende nach der Enbst bzw. 30- oder 90-Tage-Endung eines Updates angewendet). Firmwareupdates für Geräte werden standardmäßig 30 Tage lang auf eine veröffentlichte Version angewendet.
 
 > [!IMPORTANT]
-> Die neueste Firmwareupdateversion wird auf Ihrem Gerät Teams angewendet. Stattdessen wird das Update, das automatisch auf Ihr Gerät angewendet wird, um eine Version verzögert. Nehmen wir beispielsweise an, dass auf Ihr Gerät Version "10" angewendet und Version "11" veröffentlicht wird. Version "11" wird noch nicht angewendet. Stattdessen wird Ihr Gerät erst auf Version "11" aktualisiert, nachdem Version "12" veröffentlicht wurde.
+> Die neueste Firmwareupdateversion wird nicht auf Ihr Gerät Teams angewendet. Stattdessen wird das Update, das automatisch auf Ihr Gerät angewendet wird, um eine Version verzögert. Nehmen wir beispielsweise an, dass auf Ihr Gerät Version "10" angewendet und Version "11" veröffentlicht wird. Version "11" wird noch nicht angewendet. Stattdessen wird Ihr Gerät erst auf Version "11" aktualisiert, nachdem Version "12" veröffentlicht wurde.
 
 > [!NOTE]
 > Einige Geräte unterstützen das automatische Firmwareupdate noch nicht. Die Anwendung von Einstellungen für automatische Firmwareupdates auf Geräten, die automatische Updates nicht unterstützen, hat keine Auswirkungen auf diese Geräte. Bei Fragen, ob Ihr Gerät automatische Firmwareupdates unterstützt, wenden Sie sich an den Gerätehersteller.
@@ -66,13 +66,13 @@ Wenn Sie ein oder mehrere Geräte über das Admin Center aktualisieren, können 
 Gehen Sie wie folgt vor, um Remotegeräte manuell zu aktualisieren:
 
 1. Melden Sie sich bei Microsoft Teams Admin Center an, indem Sie https://admin.teams.microsoft.com besuchen.
-2. Navigieren **Sie in**  >  **IP-Telefonen oder** **Zusammenarbeitsleisten** **Teams Geräte.**
+2. Navigieren **Sie zu**  >  **GERÄTE-IP-Telefonen** oder **zur** Zusammenarbeitsleiste **Teams Gerätepanels**.
 3. Wählen Sie ein oder mehrere Geräte und dann **Aktualisieren aus.**
 4. Wählen **Sie unter Manuelle** Updates die Option **Zeitplan** aus, wenn Sie das Update auf ein zukünftiges Datum und eine zukünftige Uhrzeit planen möchten. Die Aktualisierungen werden zu dem Datum und der Uhrzeit in der Zeitzone angewendet, die in **Zeitzone ausgewählt ist.**
 
 Was Sie sehen, hängt davon ab, ob Sie ein oder mehrere Geräte ausgewählt haben. Die linke Abbildung unten zeigt mehrere ausgewählte Geräte, während das Bild auf der rechten Seite ein einzelnes ausgewähltes Gerät zeigt.
 
-:::image type="content" source="../media/device-update-status.png" alt-text="Einzel- und Geräteansichten im Statusbereich für Geräteupdates":::
+:::image type="content" source="../media/device-update-status.png" alt-text="Einzel- und Geräteansichten im Statusbereich für Geräteupdates.":::
 
 Wenn Sie mehrere Geräte auswählen, können Sie auswählen, welche Updatetypen auf jedes ausgewählte Gerät angewendet werden. Wählen Sie die Updatetypen aus, die Sie anwenden möchten, und wählen Sie **Dann aktualisieren aus.**
 

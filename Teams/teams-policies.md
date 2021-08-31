@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Informationen zur Verwendung und Verwaltung von Teamrichtlinien in Ihrer Organisation, damit Sie steuern können, wozu Benutzer in Teams und Kanälen berechtigt sind.
-ms.openlocfilehash: de5558fbecddff0c4437cf3205aa676d664867f6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92b49a31a4ae8cdedb9243293547c42699fed919
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629977"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725494"
 ---
 # <a name="manage-teams-policies-in-microsoft-teams"></a>Verwalten von Teamrichtlinien in Microsoft Teams
 
@@ -45,7 +45,7 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine benutzerdefinier
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein.
 
-    ![Screenshot der Richtlinieneinstellungen für Teams](media/teams-policies.png)
+    ![Screenshot der Richtlinieneinstellungen für Teams.](media/teams-policies.png)
 4. Aktivieren oder deaktivieren Sie private <a name="createchannels"></a> Kanäle **erstellen**, je nachdem, ob Sie Benutzern das Erstellen privater Kanäle gestatten möchten.
 
 5. Klicken Sie auf **Speichern**.

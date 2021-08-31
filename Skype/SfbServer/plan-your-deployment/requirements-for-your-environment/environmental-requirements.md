@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre Nicht-Serveranforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Funktionen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, Zertifikaten und Dateifreigaben.'
-ms.openlocfilehash: dfaf19ac3c34a13055cd496ad25d02cd4b89c783
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e27d854b2755a3d0d8613f12fb80342879faab26
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601330"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58725954"
 ---
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Umweltanforderungen für Skype for Business Server 2015
  
@@ -69,7 +69,7 @@ Welches Domänencontroller-Betriebssystem kann also verwendet werden? Wir haben 
     
 - Windows Server 2008
     
-Jetzt müssen die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2015 bereitstellen, und die Gesamtstrukturfunktionsebene jeder Gesamtstruktur, in der Sie Skype for Business Server 2015 bereitstellen, eine der folgenden Sein:
+Die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2015 bereitstellen, und die Gesamtstrukturfunktionsebene jeder Gesamtstruktur, in der Sie Skype for Business Server 2015 bereitstellen, müssen eine der folgenden Sein:
 
 - Windows Server 2019 (Sie müssen über Skype for Business Server kumulatives Update 5 oder höher 2015 verfügen)
   
@@ -87,7 +87,7 @@ Jetzt müssen die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Bus
     
 Können Sie in diesen Umgebungen schreibgeschützte Domänencontroller verwenden? Achten Sie darauf, solange auch beschreibbare Domänencontroller am gleichen Standort wie die Skype for Business Server verfügbar sind.
   
-Nun ist es wichtig zu wissen, dass Skype for Business Server 2015 keine Domänen mit nur einer Bezeichnung unterstützt. Welche sind das? Wenn Sie eine Stammdomäne mit der Bezeichnung "contoso.local" haben, ist dies in Ordnung. Wenn Sie über eine Stammdomäne verfügen, die nur als lokal bezeichnet wird, funktioniert dies nicht und wird daher nicht unterstützt. Etwas mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us)geschrieben.
+Jetzt ist es wichtig zu wissen, dass Skype for Business Server 2015 keine Domänen mit nur einer Bezeichnung unterstützt. Welche sind das? Wenn Sie eine Stammdomäne mit der Bezeichnung "contoso.local" haben, ist dies in Ordnung. Wenn Sie über eine Stammdomäne verfügen, die nur als lokal bezeichnet wird, funktioniert dies nicht und wird daher nicht unterstützt. Etwas mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us)geschrieben.
   
 Skype for Business Server 2015 unterstützt auch das Umbenennen von Domänen nicht. Wenn Sie dies wirklich tun müssen, müssen Sie Skype for Business Server 2015 deinstallieren, die Domäne umbenennen und dann Skype for Business Server 2015 neu installieren.
   
@@ -95,7 +95,7 @@ Schließlich können Sie es mit einer Domäne mit einer gesperrten AD DS-Umgebun
   
 ### <a name="ad-topologies"></a>AD-Topologien
 
-Skype for Business Server 2015 unterstützten Topologien sind:
+Die unterstützten Topologien Skype for Business Server 2015 sind:
   
 - Einzelne Gesamtstruktur mit einzelner Domäne
     
@@ -117,21 +117,21 @@ Es gibt Diagramme und Beschreibungen, mit denen Sie ermitteln können, welche To
   
 #### <a name="single-forest-with-single-domain"></a>Einzelne Gesamtstruktur mit einzelner Domäne
 
-![Diagramm der Active Directory-Gesamtstruktur mit einer einzigen Domäne](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
+![Diagramm der Active Directory-Gesamtstruktur mit einer einzelnen Domäne.](../../media/24921a0b-3a3e-4bad-8427-49300e2e3f7a.png)
   
 Es wird nicht einfacher als dies, es ist eine einzelne Domänengesamtstruktur, dies ist eine allgemeine Topologie.
   
 #### <a name="single-forest-with-a-single-tree-and-multiple-domains"></a>Einzelne Gesamtstruktur mit einer Struktur und mehreren Domänen
 
-![Diagramm einer einzelnen Gesamtstruktur, einer einzelnen Struktur und einer Stummschaltung von Domänen](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
+![Eine einzelne Gesamtstruktur, eine einzelne Struktur und ein Stummschaltungsdomänendiagramm.](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-Dieses Diagramm zeigt erneut eine einzelne Gesamtstruktur, hat aber auch eine oder mehrere untergeordnete Domänen (in diesem spezifischen Beispiel gibt es drei). Die Domäne, in der die Benutzer erstellt werden, unterscheidet sich möglicherweise von der Domäne, in der 2015 bereitgestellt wird Skype for Business Server. Warum machen Sie sich Gedanken darüber? Beachten Sie, dass sich bei der Bereitstellung eines Skype for Business Server Front-End-Pools alle Server in diesem Pool in einer einzigen Domäne befinden müssen. Sie können die domänenübergreifende Verwaltung über Skype for Business Server unterstützung von Windows universellen Administratorgruppen haben.
+Dieses Diagramm zeigt erneut eine einzelne Gesamtstruktur, hat aber auch eine oder mehrere untergeordnete Domänen (in diesem spezifischen Beispiel gibt es drei). Die Domäne, in der die Benutzer erstellt werden, unterscheidet sich möglicherweise von der Domäne Skype for Business Server 2015 bereitgestellt wird. Warum machen Sie sich Gedanken darüber? Beachten Sie, dass sich bei der Bereitstellung eines Skype for Business Server Front-End-Pools alle Server in diesem Pool in einer einzigen Domäne befinden müssen. Sie können domänenübergreifende Verwaltung über Skype for Business Server unterstützung von Windows universellen Administratorgruppen haben.
   
 Zurück zum obigen Diagramm können Sie sehen, dass Benutzer aus einer Domäne auf Skype for Business Server Pools aus derselben Domäne oder aus verschiedenen Domänen zugreifen können, auch wenn sich diese Benutzer in einer untergeordneten Domäne befinden.
   
 #### <a name="single-forest-with-multiple-trees-and-disjoint-namespaces"></a>Einzelne Gesamtstruktur mit mehreren Strukturen und nicht zusammenhängenden Namespaces
 
-![Eine einzelne Gesamtstruktur, mehrere Strukturen und ein nicht zusammenhängendes Namespacediagramm](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
+![Eine einzelne Gesamtstruktur, mehrere Strukturen und ein nicht zusammenhängendes Namespacediagramm.](../../media/5ede77a1-f5d2-499c-a2c8-d02f3c2f7cd7.png)
   
 Möglicherweise haben Sie eine Topologie ähnlich wie in diesem Diagramm, in der Sie über eine Gesamtstruktur verfügen, aber innerhalb dieser Gesamtstruktur sind mehrere Domänen mit separaten AD-Namespaces vorhanden. Wenn dies der Fall ist, ist dieses Diagramm eine gute Abbildung, da wir Benutzer in drei verschiedenen Domänen haben, die auf Skype for Business Server 2015 zugreifen. Durchgezogene Linien deuten darauf hin, dass sie auf einen Skype for Business Server Pool in ihrer eigenen Domäne zugreifen, während eine gestrichelte Linie angibt, dass sie zu einem Pool in einer anderen Struktur wechseln.
   
@@ -139,36 +139,36 @@ Wie Sie sehen können, können Benutzer in derselben Domäne, derselben Struktur
   
 #### <a name="multiple-forests-in-a-central-forest-topology"></a>Mehrere Gesamtstrukturen in einer Topologie mit zentraler Gesamtstruktur
 
-![Mehrere Gesamtstrukturen in einem Topologiediagramm der zentralen Gesamtstruktur](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
+![Mehrere Gesamtstrukturen in einem Topologiediagramm der zentralen Gesamtstruktur.](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
 Skype for Business Server 2015 unterstützt mehrere Gesamtstrukturen, die in einer zentralen Gesamtstrukturtopologie konfiguriert sind. Wenn Sie nicht sicher sind, was Sie haben, verwendet die zentrale Gesamtstruktur in der Topologie Objekte darin, um Benutzer in den anderen Gesamtstrukturen darzustellen, und hostet Benutzerkonten für alle Benutzer in der Gesamtstruktur.
   
 Wie funktioniert dies? Nun, ein Verzeichnissynchronisierungsprodukt (z. B. Forefront Identity Manager oder FIM) verwaltet die Benutzerkonten Ihrer Organisation während ihres bestehens. Wenn ein Konto erstellt oder aus einer Gesamtstruktur gelöscht wird, wird diese Änderung mit dem entsprechenden Kontakt in der zentralen Gesamtstruktur synchronisiert.
   
-Wenn Ihre AD-Infrastruktur direkt auf diese Topologie umstellen kann, ist dies möglicherweise nicht einfach, aber wenn Sie bereits dort sind oder ihre Gesamtstrukturinfrastruktur planen, kann dies eine gute Wahl sein. Sie können Ihre Skype for Business Server 2015-Bereitstellung in einer einzigen Gesamtstruktur zentralisieren, während Benutzer die Anwesenheit anderer Benutzer in einer beliebigen Gesamtstruktur suchen, kommunizieren und anzeigen können. Alle Benutzerkontaktupdates werden automatisch mit Synchronisierungssoftware behandelt.
+Wenn Ihre AD-Infrastruktur direkt auf diese Topologie umstellen kann, ist dies möglicherweise nicht einfach, aber wenn Sie bereits dort sind oder ihre Gesamtstrukturinfrastruktur planen, kann dies eine gute Wahl sein. Sie können Ihre Skype for Business Server 2015-Bereitstellung in einer einzigen Gesamtstruktur zentralisieren, während Benutzer das Vorhandensein anderer Benutzer in einer beliebigen Gesamtstruktur suchen, kommunizieren und anzeigen können. Alle Benutzerkontaktupdates werden automatisch mit Synchronisierungssoftware behandelt.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Mehrere Gesamtstrukturen in einer Skype for Business Ressourcengesamtstrukturtopologie
 <a name="BKMK_multipleforestopology"> </a>
 
-![Mehrere Gesamtstrukturen in einem Topologiediagramm der Ressourcengesamtstruktur](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
+![Mehrere Gesamtstrukturen in einem Topologiediagramm der Ressourcengesamtstruktur.](../../media/41efa3b6-d9e6-47df-992b-fefcfc39a80d.png)
   
 Eine Topologie der Ressourcengesamtstruktur wird ebenfalls unterstützt. Hier ist eine Gesamtstruktur für die Ausführung Ihrer Serveranwendungen vorgesehen, z. B. Microsoft Exchange Server und Skype for Business Server 2015. Diese Ressourcengesamtstrukturen hosten auch eine synchronisierte Darstellung aktiver Benutzerobjekte, jedoch keine angemeldeten Benutzerkonten. Die Ressourcengesamtstruktur ist also eine freigegebene Dienstumgebung für andere Gesamtstrukturen, in denen sich Benutzerobjekte befinden, und sie haben eine Vertrauensstellung auf Gesamtstrukturebene mit der Ressourcengesamtstruktur.
   
 Beachten Sie, dass Exchange Server in derselben Ressourcengesamtstruktur wie Skype for Business Server oder in einer anderen Gesamtstruktur bereitgestellt werden können.
   
-Um Skype for Business Server 2015 in diesem Topologietyp bereitzustellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen (wenn sich Microsoft Exchange Server bereits in der Umgebung befindet, ist dies möglicherweise für Sie der Fall). Anschließend benötigen Sie ein Verzeichnissynchronisierungstool (z. B. Forefront Identity Manager oder FIM), um Benutzerkonten während ihres Lebenszyklus zu verwalten.
+Um Skype for Business Server 2015 in dieser Topologie bereitzustellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen (wenn sich Microsoft Exchange Server bereits in der Umgebung befindet, ist dies möglicherweise für Sie der Fall). Anschließend benötigen Sie ein Verzeichnissynchronisierungstool (z. B. Forefront Identity Manager oder FIM), um Benutzerkonten während ihres Lebenszyklus zu verwalten.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Mehrere Gesamtstrukturen in einer Skype for Business Ressourcengesamtstrukturtopologie mit Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
 Diese Topologie ähnelt der Topologie, die in [mehreren Gesamtstrukturen in einer Skype for Business Topologie der Ressourcengesamtstruktur](environmental-requirements.md#BKMK_multipleforestopology)beschrieben ist.
   
-In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skype for Business Server wird in einer dedizierten Ressourcengesamtstruktur bereitgestellt. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder einer anderen Gesamtstruktur bereitgestellt und für Hybridbereitstellungen mit Exchange Online konfiguriert werden, oder E-Mail-Dienste können ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden. Für diese Topologie ist kein Diagramm verfügbar.
+In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skype for Business Server in einer dedizierten Ressourcengesamtstruktur bereitgestellt wird. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder einer anderen Gesamtstruktur bereitgestellt und für Hybridbereitstellungen mit Exchange Online konfiguriert werden, oder E-Mail-Dienste können ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden. Für diese Topologie ist kein Diagramm verfügbar.
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit Skype for Business Online und Azure Active Directory Verbinden
 <a name="BKMK_multipleforestopology"> </a>
 
-![Zeigt zwei AD-Gesamtstrukturen, eine Benutzergesamtstruktur und eine Ressourcengesamtstruktur an. Die beiden Gesamtstrukturen haben eine Vertrauensstellung. Sie werden mit Microsoft 365 oder Office 365 mithilfe von Azure AD Verbinden synchronisiert. Alle Benutzer sind über Microsoft 365 oder Office 365 für Skype for Business aktiviert.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Zeigt zwei AD-Gesamtstrukturen, eine Benutzergesamtstruktur und eine Ressourcengesamtstruktur an. Die beiden Gesamtstrukturen haben eine Vertrauensstellung. Sie werden mit Microsoft 365 oder Office 365 mithilfe von Azure AD Verbinden synchronisiert. Alle Benutzer sind für Skype for Business über Microsoft 365 oder Office 365 aktiviert.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
 In diesem Szenario gibt es mehrere lokale Gesamtstrukturen mit einer Ressourcengesamtstrukturtopologie. Es besteht eine voll vertrauenswürdige Beziehung zwischen den Active Directory-Gesamtstrukturen. Das Azure Active Directory Verbinden Tool wird verwendet, um Konten zwischen den lokalen Benutzergesamtstrukturen und Microsoft 365 oder Office 365 zu synchronisieren.
   
@@ -176,7 +176,7 @@ In diesem Szenario gibt es mehrere lokale Gesamtstrukturen mit einer Ressourceng
   
 Die Single Sign-On-Authentifizierung wird von einer Active Directory-Verbunddienste-Farm in der Benutzergesamtstruktur bereitgestellt.
   
-In diesem Szenario wird die Bereitstellung Exchange lokalen, Exchange Online, einer hybriden Exchange-Lösung oder die Bereitstellung Exchange unterstützt. (Das Diagramm zeigt nur Exchange lokal, aber die anderen Exchange Lösungen werden ebenfalls vollständig unterstützt.)
+In diesem Szenario wird die Bereitstellung Exchange lokalen Exchange Online, einer Hybridlösung Exchange oder die Bereitstellung Exchange unterstützt. (Das Diagramm zeigt nur Exchange lokal, aber die anderen Exchange Lösungen werden ebenfalls vollständig unterstützt.)
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit hybrider Skype for Business
 <a name="BKMK_multipleforestopology"> </a>
@@ -190,15 +190,15 @@ Weitere Informationen finden Sie unter Konfigurieren einer Umgebung mit [mehrere
 
 Skype for Business Server 2015 erfordert DNS aus den folgenden Gründen:
   
-- DNS ermöglicht es Skype for Business Server 2015, interne Server oder Pools zu ermitteln, sodass eine Server-zu-Server-Kommunikation möglich ist.
+- DNS ermöglicht es Skype for Business Server 2015, interne Server oder Pools zu ermitteln, was die Kommunikation zwischen Servern ermöglicht.
     
-- DNS ermöglicht Clientcomputern das Ermitteln des Front-End-Pools oder Standard Edition Servers, der für SIP-Transaktionen verwendet wird.
+- MIT DNS können Clientcomputer den Front-End-Pool oder Standard Edition Server ermitteln, der für SIP-Transaktionen verwendet wird.
     
 - Einfache URLs für Konferenzen werden den Servern zugeordnet, auf denen diese Konferenzen gehostet werden.
     
 - DNS ermöglicht externen Benutzern und Clientcomputern die Verbindung mit Ihren Edgeservern oder dem HTTP-Reverseproxy für Chatnachrichten oder Konferenzen.
     
-- UC-Geräte (Unified Communications), die nicht angemeldet sind, können den Front-End-Pool oder Standard Edition Server ermitteln, auf dem der Geräteaktualisierungswebdienst ausgeführt wird, um Updates abzurufen und Protokolle zu senden.
+- Damit können Unified Communications(UC)-Geräte, die nicht angemeldet sind, den Front-End-Pool oder Standard Edition Server ermitteln, auf dem der Geräteaktualisierungswebdienst ausgeführt wird, um Updates abzurufen und Protokolle zu senden.
     
 - Mithilfe von DNS können mobile Clients Webdienstressourcen automatisch ermitteln, ohne dass Benutzer manuell URLs in ihre Geräteeinstellungen eingeben müssen.
     
@@ -217,9 +217,9 @@ Weitere Informationen zu DNS-Anforderungen für Netzwerke finden Sie im Abschnit
 ## <a name="certificates"></a>Zertifikate
 <a name="Certs"> </a>
 
-Eines der wichtigsten Dinge, die Sie vor der Bereitstellung tun können, ist sicherzustellen, dass Ihre Zertifikate in ordnung sind. Skype for Business Server 2015 benötigt eine Public Key-Infrastruktur (PKI) für TLS-Verbindungen (Transport Layer Security) und MTLS-Verbindungen (Mutual Transport Layer Security). Um auf standardisierte Weise sicher zu kommunizieren, verwendet Skype for Business Server Zertifikate, die von Zertifizierungsstellen (Certificate Authorities, CAs) ausgestellt wurden.
+Eines der wichtigsten Dinge, die Sie vor der Bereitstellung tun können, ist sicherzustellen, dass Ihre Zertifikate in ordnung sind. Skype for Business Server 2015 benötigt eine Public Key-Infrastruktur (PKI) für TLS-Verbindungen (Transport Layer Security) und MTLS-Verbindungen (Mutual Transport Layer Security). Um auf standardisierte Weise sicher zu kommunizieren, verwendet Skype for Business Server Zertifikate, die von Zertifizierungsstellen ausgestellt wurden.
   
-Dies sind einige der Elemente, für die Skype for Business Server 2015 Zertifikate verwendet:
+Dies sind einige der Dinge, für die Skype for Business Server 2015 Zertifikate verwendet:
   
 - TLS-Verbindungen zwischen Clients und Servern
     
@@ -239,7 +239,7 @@ Die Zertifikatplanung ist daher ein Muss. Sehen wir uns nun eine Liste einiger D
     
 - Alle Serverzertifikate müssen einen Zertifikatsperrlisten-Verteilungspunkt unterstützen.
     
-- Alle Zertifikate müssen mithilfe eines Signaturalgorithmus signiert werden, der vom Betriebssystem unterstützt wird. Skype for Business Server 2015 unterstützt die Sha-1- und SHA-2-Suite mit Digestgrößen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen.
+- Alle Zertifikate müssen mithilfe eines Signaturalgorithmus signiert werden, der vom Betriebssystem unterstützt wird. Skype for Business Server 2015 unterstützt die SHA-1- und SHA-2-Suite von Digestgrößen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen.
     
 - Die automatische Registrierung wird für interne Server unterstützt, die Skype for Business Server 2015 ausgeführt werden.
     
@@ -248,7 +248,7 @@ Die Zertifikatplanung ist daher ein Muss. Sehen wir uns nun eine Liste einiger D
 - Wenn Sie eine webbasierte Zertifikatanforderung an eine Windows Server 2003-Zertifizierungsstelle senden möchten, muss diese von einem Computer aus gesendet werden, auf dem entweder Windows Server 2003 mit SP2 oder Windows XP ausgeführt wird.
     
 > [!NOTE]
-> Obwohl KB922706 Unterstützung für die Behebung von Problemen bei der Registrierung von Webzertifikaten bei einer Windows Server 2003-Zertifikatdienste-Webregistrierung bietet, ist es nicht möglich, Windows Server 2008, Windows Vista oder Windows 7 zu verwenden, um ein Zertifikat von einer Windows Server 2003-Zertifizierungsstelle anzufordern. 
+> Obwohl KB922706 Unterstützung für das Beheben von Problemen bei der Registrierung von Webzertifikaten bei einer Windows Server 2003-Zertifikatdienste-Webregistrierung bietet, ist es nicht möglich, Windows Server 2008, Windows Vista oder Windows 7 zu verwenden, um ein Zertifikat von einer Windows Server 2003-Zertifizierungsstelle anzufordern. 
   
 > [!NOTE]
 > Die Verwendung des RSASSA-PSS-Signaturalgorithmus wird nicht unterstützt und kann unter anderem zu Fehlern bei Anmelde- und Anrufweiterleitungsproblemen führen. 
@@ -270,7 +270,7 @@ Außerdem benötigen Sie Zertifikate, wenn Skype for Business Server 2015 mit an
   
 Skype for Business Server 2015 umfasst auch Unterstützung für (ohne Dass) Zertifikate, die mit der kryptografischen Hashfunktion SHA-256 signiert wurden. Um den externen Zugriff mit SHA-256 zu unterstützen, muss das externe Zertifikat von einer öffentlichen Zertifizierungsstelle mit SHA-256 ausgestellt werden.
   
-Um die Dinge einfach zu halten, haben wir die Zertifikatanforderungen für Standard Edition Server, Front-End-Pools und andere Rollen in die folgenden Tabellen eingefügt, wobei die fiktiven contoso.com für Beispiele verwendet werden (Sie werden wahrscheinlich etwas anderes für Ihre Umgebung verwenden). Hierbei handelt es sich um standardmäßige Webserverzertifikate mit privaten Schlüsseln, die nicht exportierbar sind. Einige zusätzliche Punkte, die Sie beachten müssen:
+Um die Dinge einfach zu halten, haben wir die Zertifikatanforderungen für Standard Edition Server, Front-End-Pools und andere Rollen in die folgenden Tabellen eingefügt, wobei die fiktiven contoso.com als Beispiele verwendet werden (Sie werden wahrscheinlich etwas anderes für Ihre Umgebung verwenden). Hierbei handelt es sich um standardmäßige Webserverzertifikate mit privaten Schlüsseln, die nicht exportierbar sind. Einige zusätzliche Punkte, die Sie beachten müssen:
   
 - Die erweiterte Schlüsselverwendung (EKU) des Servers wird automatisch konfiguriert, wenn Sie den Zertifikat-Assistenten zum Anfordern von Zertifikaten verwenden.
     
@@ -316,7 +316,7 @@ Zertifikate für Survivable Branch Appliance:
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Zertifikate für Ihren Server für beständigen Chat
 
-Bei der Installation des Servers für beständigen Chat benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wurde wie das zertifikat, das von Ihren internen Skype for Business Server 2015-Servern verwendet wird. Dies muss für jeden Server ausgeführt werden, auf dem Webdienste für beständigen Chat für Datei Hochladen/Herunterladen ausgeführt werden. Es wird dringend empfohlen, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, und wenn Es sich bei Ihrer Zertifizierungsstelle um externe Zertifikate handelt (dies kann etwas Zeit in Anspruch nehmen, bis sie ausgestellt wurde).
+Bei der Installation des Servers für beständigen Chat benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wurde wie das zertifikat, das von Ihren internen servern Skype for Business Server 2015 verwendet wird. Dies muss für jeden Server ausgeführt werden, auf dem Webdienste für beständigen Chat für Datei Hochladen/Herunterladen ausgeführt werden. Es wird dringend empfohlen, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, und wenn Es sich bei Ihrer Zertifizierungsstelle um externe Zertifikate handelt (dies kann etwas Zeit in Anspruch nehmen, bis sie ausgestellt wurde).
   
 ### <a name="certificates-for-external-user-access-edge"></a>Zertifikate für externen Benutzerzugriff (Edge)
 
@@ -338,9 +338,9 @@ Welche Zertifikate? Hier benötigen Sie SAN-Namen für die automatische Erkennun
     
 Wir werden die Einzelheiten in jeder tabelle unten auflisten.
   
-An dieser Stelle ist eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2015 bereitgestellt, ohne Mobilität bereitstellen zu wollen, und dies kommt in die Nächste, wenn Sie bereits Zertifikate in Ihrer Umgebung haben. Die erneute Bereitstellung über eine interne Zertifizierungsstelle ist in der Regel ziemlich einfach, aber mit öffentlichen Zertifikaten von einer öffentlichen Zertifizierungsstelle kann dies etwas teurer sein.
+An dieser Stelle ist eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2015 bereitgestellt, ohne Mobilität bereitstellen zu wollen, und dies kommt nach oben, wenn Sie bereits Zertifikate in Ihrer Umgebung haben. Die erneute Bereitstellung über eine interne Zertifizierungsstelle ist in der Regel ziemlich einfach, aber mit öffentlichen Zertifikaten von einer öffentlichen Zertifizierungsstelle kann dies etwas teurer sein.
   
-Wenn Sie sich dies ansehen und viele SIP-Domänen haben (was das Hinzufügen von SANS verteuern würde), können Sie Ihren Reverseproxy so konfigurieren, dass er HTTP für die ursprüngliche AutoErmittlungsdienstanforderung verwendet, anstatt HTTPS (die Standardkonfiguration) zu verwenden. Weitere Informationen hierzu finden Sie im Thema "Planung für Mobilität".
+Wenn Sie sich dies ansehen und viele SIP-Domänen haben (was das Hinzufügen von SANS teurer machen würde), können Sie Ihren Reverseproxy so konfigurieren, dass er HTTP für die ursprüngliche AutoErmittlungsdienstanforderung verwendet, anstatt HTTPS (die Standardkonfiguration) zu verwenden. Weitere Informationen hierzu finden Sie im Thema "Planung für Mobilität".
   
 Zertifikatanforderungen für Directorpool und Front-End-Pool:
   

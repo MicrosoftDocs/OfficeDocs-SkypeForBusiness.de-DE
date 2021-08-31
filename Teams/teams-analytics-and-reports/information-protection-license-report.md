@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie den Teams Information Protection-Lizenzberich
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1fc9dd7dc39c8803a87f71f9ef80e2a5609603a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44ab006bdbc08ea3b93f46faf9df0f62955814e3
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625857"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58732654"
 ---
 # <a name="microsoft-teams-information-protection-license-report"></a>Microsoft Teams information protection license report
 
@@ -37,7 +37,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 2. Wählen **Sie unter Datumsbereich** einen Bereich aus.
 3. Wählen **Sie unter Apps** eine App und dann Bericht ausführen **aus.**
 
-    ![Screenshot des Teams Information Protection-Lizenzberichts im Teams Admin Center mit Callouts](../media/teams-info-protection-license-report-with-callouts.png "Screenshot des Teams Information Protection-Lizenzberichts im Teams Admin Center mit Callouts")
+    ![Screenshot des Teams Information Protection-Lizenzberichts im Teams Admin Center mit Callouts.](../media/teams-info-protection-license-report-with-callouts.png "Screenshot des Teams Information Protection-Lizenzberichts im Teams Admin Center mit Callouts")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
@@ -45,7 +45,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 |--------|-------------|
 |**1**   |Im Lizenzbericht zum Informationsschutz werden die Trends über die letzten 7 Tage, 30 oder 90 Tage angezeigt. |
 |**2**   |App-Name zeigt eine Liste aller Apps an, die im Datumsbereich die Änderungsbenachrichtigungsereignisse von Nachrichten in den letzten n Tagen abonniert haben. |
-|**3**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung pro Benutzer für die ausgewählte App.<ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Wählen Sie den Anzeigenamen aus, um zur Detailseite des Benutzers im Microsoft Teams Admin Center zu wechseln.</li><li>**Hat erforderliche Lizenz** ist ja, wenn der Benutzer über eine der erforderlichen Lizenzen wie definiert verfügt (hier)[ https://docs.microsoft.com/en-us/graph/teams-licenses ]. Wenn der Benutzer nicht über die  erforderliche Lizenz verfügt, wird der Link Lizenz zuweisen angezeigt, der zur Seite mit den Lizenzdetails des Benutzers im Microsoft Admin Center navigiert (Benutzer aktive Benutzer > Benutzernamen  >   auswählen).</li><li>**Geschützte Lizenzereignisse ist** die Anzahl der eindeutigen Änderungsbenachrichtigungsereignisse, die für eine Nachricht an die App gesendet werden, die von diesem Benutzer erstellt, aktualisiert oder gelöscht wurde.</li></ul> |
+|**3**   |Die Tabelle enthält eine Aufschlüsselung der Nutzung pro Benutzer für die ausgewählte App.<ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Wählen Sie den Anzeigenamen aus, um zur Detailseite des Benutzers im Admin Center Microsoft Teams zu wechseln.</li><li>**Hat erforderliche Lizenz** ist ja, wenn der Benutzer über eine der erforderlichen Lizenzen wie definiert verfügt (hier)[ https://docs.microsoft.com/en-us/graph/teams-licenses ]. Wenn der Benutzer nicht über die  erforderliche Lizenz verfügt, wird der Link Lizenz zuweisen angezeigt, der zur Seite mit den Lizenzdetails des Benutzers im Microsoft Admin Center navigiert (Benutzer aktive Benutzer > Benutzernamen  >   auswählen).</li><li>**Geschützte Lizenzereignisse ist** die Anzahl der eindeutigen Änderungsbenachrichtigungsereignisse, die für eine Nachricht an die App gesendet werden, die von diesem Benutzer erstellt, aktualisiert oder gelöscht wurde.</li></ul> |
 |**4**   |Exportieren Sie den Bericht zur Offlineanalyse in eine CSV-Datei. Wählen **Sie In Excel** Exportieren aus, und klicken Sie dann auf die **Registerkarte** Downloads. Wählen **Sie Herunterladen** aus, um den Bericht herunterzuladen, sobald er bereit ist. |
 |**5**   |Exportieren Sie den Bericht zur Offlineanalyse in eine CSV-Datei. Wählen **Sie In Excel** Exportieren aus, und klicken Sie dann auf die **Registerkarte** Downloads. Wählen **Sie Herunterladen** aus, um den Bericht herunterzuladen, sobald er bereit ist. Wenn Sie den Bericht in Excel anzeigen, sehen Sie  auch eine **ID** und eine E-Mail-Spalte, die die Benutzer-ID und E-Mail-Adresse des Benutzers darstellt. |
 
@@ -53,7 +53,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 Um die Daten im Bericht Teams Benutzeraktivität zu anonym machen, müssen Sie ein globaler Administrator sein. Dadurch werden identifizierbare Informationen wie Anzeigename, E-Mail-Adresse und Azure AD-ID in Berichten und deren Exporten ausgeblendet.
 
-1. Wechseln Sie Microsoft 365 Admin Center Der Dienst zu **Einstellungen** Organisation Einstellungen , und wählen Sie auf der Registerkarte Dienste \> die Option **Berichte aus.** 
+1. Wechseln Sie Microsoft 365 Admin Center Der Dienst zu **Einstellungen** Organisation Einstellungen , und wählen Sie auf der Registerkarte Dienste \> die Option Berichte **aus.** 
     
 2. Wählen **Sie Berichte** aus, und wählen Sie dann **anonyme Bezeichner anzeigen aus.** Diese Einstellung wird sowohl auf die Verwendungsberichte im Microsoft 365 Admin Center als Teams Admin Center angewendet.
   

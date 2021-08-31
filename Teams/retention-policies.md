@@ -19,12 +19,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1385f190c0bcf35c89576695911853c88ef7d1d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f1dbd1d7c586c989484fa71b1e0b0e3d1fb47550
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634839"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727404"
 ---
 # <a name="manage-retention-policies-for-microsoft-teams"></a>Aufbewahrungsrichtlinien für Microsoft Teams Verwalten
 
@@ -63,7 +63,7 @@ Diese beiden Grundsätze der Aufbewahrung adressieren die meisten Konflikte, die
 
 In vielen Fällen betrachten Organisationen private Chat-Daten als eine größere Belastung als Kanalnachrichten, bei denen es sich in der Regel eher um projektbezogene Gespräche handelt.
 
-Sie können eine einzelne Aufbewahrungsrichtlinie sehr effizient für alle Teams konfigurieren. Zur Feinsteuerung können Sie aber auch:
+Sie können eine einzelne Aufbewahrungsrichtlinie sehr effizient für alle nachrichten Teams konfigurieren. Zur Feinsteuerung können Sie aber auch:
 
 - Es gibt separate Aufbewahrungsrichtlinien für private Chats (1:1- oder 1:n-Chats), Nachrichten von Standardkanälen oder Nachrichten von privaten Kanälen.
 
@@ -73,7 +73,7 @@ Beispiel für Standardkanalnachrichten: Erstellen Sie eine Aufbewahrungsrichtlin
 
 ## <a name="create-and-manage-retention-policies-for-teams"></a>Aufbewahrungsrichtlinien für Teams erstellen und verwalten
 
-Verwenden Sie zum Erstellen oder Bearbeiten einer Aufbewahrungsrichtlinie für Teams-Nachrichten die Anweisungen aus Aufbewahrungsrichtlinie [für Teams Speicherorte.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
+Verwenden Sie zum Erstellen oder Bearbeiten einer Aufbewahrungsrichtlinie für Teams-Nachrichten die Anweisungen aus Aufbewahrungsrichtlinie für Teams [Speicherorte.](/microsoft-365/compliance/create-retention-policies#retention-policy-for-teams-locations)
 
 Diese Seite bietet zusätzliche Informationen zum Erstellen und Verwalten von Aufbewahrungsrichtlinien für andere Workloads in Microsoft 365. Sie könnten zum Beispiel auch eine Aufbewahrungsrichtlinie für Microsoft 365 Groups erstellen, um Dateien aufzubewahren und zu löschen, auf die in Teams zugegriffen wird und die in OneDrive oder SharePoint gespeichert sind.  
 
@@ -81,16 +81,16 @@ Diese Seite bietet zusätzliche Informationen zum Erstellen und Verwalten von Au
 
 Bei privaten Chats (1:1-Chats) oder Gruppenchats sehen Benutzer, dass Chats, die älter sind als die Konfiguration der Aufbewahrungsrichtlinie, gelöscht werden. Zudem wird eine automatisch generierte Nachricht mit dem Hinweis "Wir haben ältere Nachrichten aufgrund der Aufbewahrungsrichtlinie Ihrer Organisation gelöscht" über den noch nicht gelöschten Nachrichten angezeigt. Zum Beispiel:
 
-:::image type="content" source="media/retention-policies-image1.png" alt-text="Benutzer in Teams informiert, dass Chatnachrichten aufgrund einer Richtlinie von Teams gelöscht werden":::
+:::image type="content" source="media/retention-policies-image1.png" alt-text="Der Benutzer wurde in Teams darüber informiert, dass Chatnachrichten aufgrund einer Aufbewahrungsrichtlinie Teams werden.":::
 
 
-:::image type="content" source="media/retention-policies-image2.png" alt-text="Benutzer in Teams erklären, dass Nachrichten aufgrund einer Aufbewahrungsrichtlinie von Teams gelöscht werden":::
+:::image type="content" source="media/retention-policies-image2.png" alt-text="Der Benutzer Teams, der erläutert, dass Nachrichten als Ergebnis einer Aufbewahrungsrichtlinie Teams werden.":::
 
 Bei Kanalnachrichten sehen Benutzer (Mitglieder des Kanals), dass die gelöschten Nachrichten nach dem Ablaufen der Nachrichten aus der Ansicht verschwinden. Wenn die gelöschte Nachricht eine übergeordnete Nachricht einer Thread-Unterhaltung war, dann wird anstelle der übergeordneten Nachricht die Meldung "Diese Nachricht wurde aufgrund einer Richtlinie zur Aufbewahrung gelöscht" angezeigt. Beispiel:
 
-:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot des Kanals vor der Speicherung":::
+:::image type="content" source="media/retention-policies-image3.png" alt-text="Screenshot des Kanals vor der Aufbewahrung.":::
 
-:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot des Kanals nach der Speicherung":::
+:::image type="content" source="media/retention-policies-image4.png" alt-text="Screenshot des Kanals nach der Aufbewahrung.":::
 
 > [!NOTE]
 > Die angezeigten Nachrichten, die Benutzer aufgrund von gelöschten Nachrichten sehen, sind derzeit nicht konfigurierbar.

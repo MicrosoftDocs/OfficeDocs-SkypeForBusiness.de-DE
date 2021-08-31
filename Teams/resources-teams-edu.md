@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9ff0509cf38851ac38e20a13cc6c1016bba1b738
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9cf78332ea9ed37a7d91d7ab2e038329b7e7c1fb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597639"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727434"
 ---
 # <a name="microsoft-teams-resources-for-education-admins"></a>Microsoft Teams-Ressourcen für Administratoren in Bildungseinrichtungen
 
@@ -40,9 +40,9 @@ Bitte lesen Sie die [Geschäftsbedingungen, bevor](https://github.com/MicrosoftD
 
 |&nbsp; | &nbsp; |
 |---------|---------|
-|Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckfertig](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Foto eines Posters](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-handouts.png)|
-|[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-flyers.png)   |[Buchwerbung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Foto einer Buchanzeige.](media/edu-adoption-book-adverts.png)         |
-|[Foto der broschüre Tipps Tricks.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Foto der Beispielbroschüre](media/edu-adoption-get-started.png)    |
+|Poster – [anpassbar](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-customizable.zip?raw=true) und [druckfertig](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/posters-print-ready.zip?raw=true)<br>![Foto eines Posters.](media/edu-adoption-posters.png)     |[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/handouts.zip?raw=true)<br>![Foto eines Handzettels](media/edu-adoption-handouts.png)|
+|[Handzettel](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/flyers.zip?raw=true)<br>![Foto eines Handzettels.](media/edu-adoption-flyers.png)   |[Buchwerbung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/book-adverts.zip?raw=true)<br>![Foto einer Buchanzeige.](media/edu-adoption-book-adverts.png)         |
+|[Foto der Tipps Tricks Broschüre.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/get-started-tips-tricks.zip?raw=true)<br> ![Foto der Beispiel broschüre.](media/edu-adoption-get-started.png)    |
 
 ### <a name="digital-assets"></a>Digitale Objekte
 
@@ -51,19 +51,19 @@ Lesen Sie unbedingt den Leitfaden für [digitale Toolkits,](https://github.com/M
 | &nbsp; |&nbsp;  |
 |---------|---------|
 |[E-Mail-Vorlagen](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/email-templates.zip?raw=true)<br> ![Foto eines Beispielhandzettels.](media/edu-adoption-email-templates.png)    |[GIFs](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/gifs.zip?raw=true) <br> ![Screenshot aus einer GIF-Datei](media/edu-adoption-gifs.png)      |
-|[Webbanner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Foto eines Beispielwebbanners](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Screenshot des Beispiel-Videoöffners](media/edu-adoption-videos.png)          |
-|[Werbeanzeigen für digitalen Bildschirm](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Foto einer Werbeanzeige auf einem digitalen Bildschirm](media/edu-adoption-digital-screen-adverts.png)   |      |
+|[Webbanner](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/web-banners.zip?raw=true)<br>![Foto eines Beispielwebbanners.](media/edu-adoption-web-banners.png)    |[Videos](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/videos.zip?raw=true)<br>![Screenshot des Beispiel-Videoöffners](media/edu-adoption-videos.png)          |
+|[Werbeanzeigen für digitalen Bildschirm](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/edu-resources/digital-screen-adverts.zip?raw=true)<br>![Foto einer Werbeanzeige auf einem digitalen Bildschirm.](media/edu-adoption-digital-screen-adverts.png)   |      |
 
 ## <a name="call-to-action"></a>Handlungsaufforderung
 
-- Besuchen Sie Teams für Education [Seite für](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Schulungen, Videos und interaktive Demos
-- Aktivieren Teams im [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) (melden Sie sich als Office 365 an)
+- Besuchen Sie Teams für Education [Seite für Schulungen,](https://www.microsoft.com/en-us/education/products/teams/default.aspx) Videos und interaktive Demos
+- Aktivieren Teams im Microsoft 365 Admin Center [(melden](https://portal.office.com/adminportal/home#/Settings/ServicesAndAddIns) Sie sich als Office 365 an)
 - Laden Sie Microsoft Teams-Clients herunter: [Laden Sie sich Microsoft Teams auf alle Ihre Geräte](https://teams.microsoft.com/downloads).
 - Lesen Sie weitere Informationen zu Office 365 für Bildungseinrichtungen im [Ausbildung-Hilfecenter](https://support.office.com/education).
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 
-- [Teams-Roadmap](https://aka.ms/teamsroadmap)
+- [Teams Roadmap](https://aka.ms/teamsroadmap)
 - Stets auf dem Laufenden mit dem [Microsoft Teams-Blog](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/bg-p/MicrosoftTeamsBlog)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 - [Vorschlag senden](https://aka.ms/eduuservoice)

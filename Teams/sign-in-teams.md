@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4f259b77e5d572adde2dcaea1eb4ffb0555ae36c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c28a79ddd3608e2e10d3e722577fc9e8d49334cb
+ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58577829"
+ms.lasthandoff: 08/30/2021
+ms.locfileid: "58727814"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 
@@ -80,7 +80,7 @@ Teams für IOS und Android unterstützt die parallele Verwendung mehrerer Gesch�
 
 Die folgenden Bilder zeigen, wie Benutzer in Microsoft Teams-Anwendungen für Mobilgeräte mehrere Konten hinzufügen können.
 
-:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Hinzufügen mehrerer Konten in Microsoft Teams":::
+:::image type="content" source="media/sign-in-multiple-accounts.png" alt-text="Hinzufügen mehrerer Konten in Microsoft Teams.":::
 
 ## <a name="restrict-sign-in-to-teams"></a>Einschränken der Anmeldung bei Teams
 
