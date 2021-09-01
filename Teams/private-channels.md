@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: b9f0accb9436ade4bb084b825662ec92453bba24
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
+ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/30/2021
-ms.locfileid: "58734174"
+ms.locfileid: "58744458"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -91,13 +91,12 @@ Eine Anleitung zum Verwalten des Lebenszyklus von privaten Kanälen in Ihrer Org
 
 Jeder private Kanal hat seine eigene SharePoint-Website. Die separate Website soll sicherstellen, dass der Zugriff auf die Dateien des privaten Kanals nur für Mitglieder des privaten Kanals möglich ist. Diese Websites werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Website mit vollem Funktionsumfang erweitert werden. Jede Website wird in derselben geografischen Region wie die Website für das übergeordnete Team erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen. 
 
->[!NOTE]
->- Nur Benutzer mit Besitzer- oder Mitgliedsberechtigungen, die in Microsoft Teams gewährt wurden, haben Zugriff auf Inhalte auf der Privaten Kanalwebsite.
->- SharePoint-Websites mit privaten Kanälen sind nicht auf der Seite „Aktive Websites“im neuen SharePoint Online Admin Center enthalten.
->- SharePoint-Websites mit privaten Kanälen, die nach dem 28. Juni 2021 erstellt wurden, weisen die benutzerdefinierte Vorlagen-ID TEAMCHANNEL#1 auf.
+> [!NOTE]
+> Nur Benutzer mit Besitzer- oder Mitgliedsberechtigungen, die in Microsoft Teams gewährt wurden, haben Zugriff auf Inhalte auf der Privaten Kanalwebsite.
+> SharePoint-Websites mit privaten Kanälen sind nicht auf der Seite „Aktive Websites“im neuen SharePoint Online Admin Center enthalten.
+> SharePoint-Websites mit privaten Kanälen, die nach dem 28. Juni 2021 erstellt wurden, weisen die benutzerdefinierte Vorlagen-ID TEAMCHANNEL#1 auf.
 
-
-Eine Website eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Website des übergeordneten Teams. Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Website wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Alle Änderungen an der Mitgliedschaft in den Gruppen "Besitzer" oder "Mitglied" in SharePoint werden innerhalb von vier Stunden automatisch auf die Mitgliedschaft im privaten Kanal zurückgesetzt. 
+Eine Website eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Website des übergeordneten Teams. Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Website wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Websiteberechtigungen für die Website eines privaten Kanals können nicht unabhängig über SharePoint verwaltet werden. 
 
 Teams verwaltet den Lebenszyklus der Website des privaten Kanals. Wenn die Website außerhalb von Teams gelöscht wird, kann die Website in einem Hintergrundauftrag innerhalb von vier Stunden wiederhergestellt werden, sofern der private Kanal noch aktiv ist. Wenn die Website dauerhaft gelöscht wird, erfolgt die Bereitstellung einer neuen Website für den privaten Kanal.
 
