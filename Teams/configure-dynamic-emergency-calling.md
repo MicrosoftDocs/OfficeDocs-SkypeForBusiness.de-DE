@@ -18,16 +18,16 @@ description: Erfahren Sie, wie Sie die Microsoft-Anrufpläne konfigurieren Telef
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7774b6ebf062f3df9f27736b3c6cc68e4151e14b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6b01a3f73de3803ca428acd8cd43de8c405fc4f9
+ms.sourcegitcommit: 8dc037a3e6df50dc81f47b630c59db6b972535ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584819"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "58853171"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
-Dynamische Notrufe für Microsoft-Anrufpläne und Telefonsystem Direct Routing bieten die Möglichkeit, Notrufe zu konfigurieren und zu weiterleiten sowie Sicherheitsmitarbeiter basierend auf der aktuellen Position des Teams-Clients zu benachrichtigen.  
+Dynamische Notrufe für Microsoft-Anrufpläne und Telefonsystem Direct Routing bieten die Möglichkeit, Notrufe zu konfigurieren und zu weiterleiten sowie Sicherheitsmitarbeiter basierend auf dem aktuellen Standort des Teams-Clients zu benachrichtigen.  
 
 Basierend auf der vom Mandantenadministrator definierten Netzwerktopologie stellt der Teams-Client In einer Anforderung an den Location Information Service (LIS) Netzwerkverbindungsinformationen zur Verfügung. Gibt es eine Übereinstimmung, gibt das LIS einen Standort an den Client zurück. Diese Standortdaten werden zurück an den Client übertragen.  
 
@@ -39,11 +39,11 @@ Bei dynamischen Notrufen muss Folgendes geschehen:
 
    Für Direct-Routing ist zusätzliche Konfiguration für Das Routing von Notrufen und möglicherweise für Partnerkonnektivität erforderlich. Der Administrator muss die Verbindung mit einem ANBIETER für Notfallroutingdienste (EMERGENCY Routing Service, **ERS)** konfigurieren oder den Session Border Controller (SBC) für eine ELIN-Anwendung (Emergency Location Identification Number) konfigurieren.
 
-2. Während des Startvorgangs und in regelmäßigen Abständen oder bei einer Änderung einer Netzwerkverbindung sendet der Teams-Client eine Standortanforderung, die informationen über die Netzwerkkonnektivität enthält, an die Netzwerkeinstellungen und das LIS.
+2. Während des Startvorgangs und in regelmäßigen Abständen oder bei einer Änderung einer Netzwerkverbindung sendet der Teams-Client eine Standortanforderung, die die Netzwerkverbindungsinformationen enthält, an die Netzwerkeinstellungen und das LIS.
 
    - Wenn eine Übereinstimmung mit der Website mit den Netzwerkeinstellungen besteht – Richtlinien für Notrufe werden an den Teams von diesem Standort zurückgegeben. (Weitere Informationen zu Richtlinien finden Sie unter [Konfigurieren von Notfallrichtlinien).](#configure-emergency-policies)
 
-   - Bei einer LIS-Übereinstimmung – ein Notfallstandort aus dem Netzwerkelement, mit dem der Teams-Client verbunden ist, wird an den Teams zurückgegeben. Die Übereinstimmung wird in der folgenden Reihenfolge ausgeführt, und das erste übereinstimmende Ergebnis wird zurückgegeben:
+   - Wenn eine LIS-Übereinstimmung vor liegt – ein Notfallstandort aus dem Netzwerkelement, mit dem der Teams-Client verbunden ist, wird an den Teams zurückgegeben. Die Übereinstimmung wird in der folgenden Reihenfolge ausgeführt, und das erste übereinstimmende Ergebnis wird zurückgegeben:
        - WAP
        - Ethernet-Schalter/-port
        - Ethernet-Schalter
@@ -80,7 +80,7 @@ Die folgenden Clients werden derzeit unterstützt.  Schauen Sie häufig wieder h
 - Teams-Desktopclient für Microsoft Windows
 - Teams-Desktopclient für Apple macOS
 - Teams mobiler Client für den Apple iOS-Client, Version 1.0.92.2019121004 und App Store Version 1.0.92 und höher
-- Teams mobilen Client für Android-Client und Google Play Store-Version 1416/1.0.0.2019121201 und höher
+- Teams mobilen Client für Den Android-Client und Google Play Store, Version 1416/1.0.0.2019121201 und höher
 - Teams 1449/1.0.94.2019110802 und höher
 - Teams-Räume Version 4.4.25.0 und höher
 
@@ -88,11 +88,13 @@ Die folgenden Clients werden derzeit unterstützt.  Schauen Sie häufig wieder h
 > 3PIP-Telefone unterstützen keine dynamischen Notrufe. 
 
 > [!NOTE]
-> Dynamische Notrufe, einschließlich Benachrichtigungen des Sicherheitsdesks, werden auf dem Webclient Teams nicht unterstützt. Um zu verhindern, dass Benutzer den Teams-Webclient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Richtlinie für Teams-Anrufe festlegen und die Einstellung **Web-PSTN-Anruf** zulassen deaktivieren. Weitere Informationen finden Sie unter [Anrufrichtlinien in Teams](teams-calling-policy.md) [und Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
+> Dynamische Notrufe, einschließlich Benachrichtigungen des Sicherheitsdesks, werden auf dem Webclient Teams nicht unterstützt. Um zu verhindern, dass Benutzer den Teams-Webclient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Richtlinie für Teams-Anrufe festlegen und die Einstellung **Web-PSTN-Anruf** zulassen deaktivieren. Weitere Informationen finden Sie unter [Aufrufen von richtlinien in Teams](teams-calling-policy.md) und [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
 
 > [!NOTE]
 > Subnetz- und WLAN-basierte Standorte werden auf allen Clients Teams unterstützt. <br>
-> Ethernet/Switch (LLDP) wird derzeit nur auf Windows und nur Windows Versionen 8.1 und höher unterstützt.
+> Ethernet/Switch (LLDP) wird unterstützt unter:
+> - Windows Versionen 8.1 und höher zu diesem Zeitpunkt.<br>
+> - Mac OS, für das [LLDP-Aktivierungssoftware erforderlich ist.](https://www.microsoft.com/download/details.aspx?id=103383)
 
 ## <a name="assign-emergency-addresses"></a>Zuweisen von Notfalladressen
 
@@ -134,7 +136,7 @@ Beachten Sie die folgenden Definitionen. Weitere Informationen finden Sie unter 
 
 Sie konfigurieren Netzwerkeinstellungen im Microsoft Teams Admin Center oder mithilfe von PowerShell. Weitere Informationen finden Sie unter [Verwalten der Netzwerktopologie für Cloud-Sprachfeatures.](manage-your-network-topology.md)
 
-Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis einige Änderungen an den Netzwerkeinstellungen (z. B. neue Adresse, Netzwerk-ID und so weiter) an die Clients weiterverteilt und für Teams verfügbar sind.  
+Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis einige Änderungen an den Netzwerkeinstellungen (z. B. neue Adresse, Netzwerk-ID und so weiter) an die Clients weiterverteilt Teams werden.  
 
 **Für Anrufplanbenutzer:**
 
@@ -155,7 +157,7 @@ Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis ein
 
 ## <a name="configure-location-information-service"></a>Konfigurieren des Informationsdiensts für den Standort
 
-Ein Teams-Client ruft Notfalladressen von den Standorten ab, die unterschiedlichen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Funkzugriffspunkte (WaPs) werden unterstützt. Ethernet-Switch/-Port wird auf Windows 8.1 zu einem späteren Zeitpunkt unterstützt.
+Ein Teams-Client ruft Notfalladressen von den Standorten ab, die unterschiedlichen Netzwerk-IDs zugeordnet sind. Sowohl Subnetze als auch Funkzugriffspunkte (WaPs) werden unterstützt. Ethernet-Switch/-Port wird auf Windows 8.1 zu diesem Zeitpunkt und später unterstützt.
 
 Damit ein Client einen Standort erhält, müssen Sie das LIS mit Netzwerk-IDs (Subnetzen, WAPs, Schaltern, Ports) und Notfallstandorten füllen. Dies können Sie im Microsoft Teams Admin Center oder mithilfe von PowerShell tun.
 
@@ -181,7 +183,7 @@ Verwenden Sie die folgenden Cmdlets, um Ports, Switches, Subnetze und WAPs zum L
 
 Verwenden Sie die folgenden Richtlinien zum Konfigurieren von Notrufen. Sie können diese Richtlinien im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten.
 
-- **Richtlinie zum Routing von Notrufen** – Gilt nur für direktes Routing. Mit dieser Richtlinie werden Notfallnummern, Masken pro Nummer bei Bedarf und die PSTN-Route pro Nummer konfiguriert.  Sie können diese Richtlinie Benutzern, Netzwerkwebsites oder beiden zuweisen. (Anrufpläne für Teams-Clients werden automatisch für Notrufe mit den Notrufnummern aus dem Land basierend auf ihrem Microsoft 365 oder Office 365 Einsatzstandort aktiviert.)  Weitere Informationen finden Sie unter [Verwalten von Richtlinien für das Routing von Notrufen für Direct Routing.](manage-emergency-call-routing-policies.md)
+- **Richtlinie zum Routing von Notrufen** – Gilt nur für direktes Routing. Mit dieser Richtlinie werden Notfallnummern, Masken pro Nummer bei Bedarf und die PSTN-Route pro Nummer konfiguriert.  Sie können diese Richtlinie Benutzern, Netzwerkwebsites oder beiden zuweisen. (Anrufpläne für Teams-Clients werden automatisch für Notrufe mit den Notrufnummern aus dem Land basierend auf ihren Microsoft 365 oder Office 365-Standort aktiviert.)  Weitere Informationen finden Sie unter [Verwalten von Richtlinien für das Routing von Notrufen für Direct Routing.](manage-emergency-call-routing-policies.md)
 
 - **Richtlinie für Notrufe** – Gilt für Anrufpläne und direktes Routing. Mit dieser Richtlinie wird die Benachrichtigung des Sicherheitsdesks konfiguriert, wenn ein Notruf erfolgt. Sie können festlegen, wer benachrichtigt werden soll und wie er benachrichtigt wird. Beispielsweise, um die Sicherheitsanrufe der Organisation automatisch zu benachrichtigen und sie bei Notrufen anhören zu lassen.  Diese Richtlinie kann entweder Benutzern oder Netzwerkwebsites oder beiden zugewiesen werden. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für Notrufe in Teams.](manage-emergency-calling-policies.md)
 
