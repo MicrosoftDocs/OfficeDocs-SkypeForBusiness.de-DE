@@ -16,20 +16,20 @@ f1.keywords:
 description: Optimierung lokaler Medien für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ef1d4f0a2b2770f048d308f8f497754e33f8f797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e30b5928fb775453db9a4b149f4f464b30401a80
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725514"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866397"
 ---
 # <a name="plan-for-local-media-optimization-for-direct-routing"></a>Planen der Optimierung lokaler Medien für das direkte Routing
 
-PstN-Sprache (Public Switched Telephone Network) wird als unternehmenskritische Anwendung mit hohen Erwartungen an die Sprachqualität betrachtet. Mit Direct Routing können Sie die Mediendatenverkehrsströme steuern, um eine Vielzahl von Netzwerktopologien und lokalen Telefonie-Setups für verschiedene Unternehmen auf der ganzen Welt zu unterstützen. 
+PstN-Sprache (Public Switched Telephone Network) wird als unternehmenskritische Anwendung mit hohen Erwartungen an die Sprachqualität angesehen. Mit Direct Routing können Sie die Mediendatenverkehrsströme steuern, um eine Vielzahl von Netzwerktopologien und lokalen Telefonie-Setups für verschiedene Unternehmen auf der ganzen Welt zu unterstützen. 
 
 Die Optimierung lokaler Medien für das direkte Routing ermöglicht ihnen die Verwaltung der Sprachqualität mit den von Ihnen verwendeten Ressourcen:
 
--   Steuern des Mediendatenverkehrs zwischen den Teams und den Kunden Session Border Controllern (SBCs).
+-   Steuern sie, wie der Medienverkehr zwischen den Teams und den Session Border Controllern (SBCs) des Kunden fließt.
 -   Halten Sie Medien lokal innerhalb der Grenzen von Unternehmensnetzwerk-Subnetzen.
 -   Zulassen von Medienstreams zwischen den Teams-Clients und den SBCs, auch wenn sich die SBCs hinter Unternehmensfirewalls mit privaten IPs befinden und für Microsoft nicht direkt sichtbar sind.
 
@@ -37,7 +37,7 @@ Die Optimierung lokaler Medien unterstützt zwei Szenarien:
 
 - Zentralisierung aller lokalen Trunks über einen zentralen SBC, der mit dem SIP-Haupttelefoniedienst (Session Initiation Protocol) verbunden ist, der Telefoniedienste mit allen lokalen Zweigstellen des Unternehmens bietet.
 
--   Erstellen einer virtuellen Netzwerktopologie von SBCs, wobei die SBCs in den lokalen Zweigstellen mit einem zentralen Proxy-SBC verbunden sind, der für Microsoft-Telefon System über seine externe IP-Adresse sichtbar ist und mit diesem kommuniziert. In einer virtuellen Netzwerktopologie kommunizieren Downstream-SBCs über interne IPs und sind für Benutzer nicht Telefonsystem.
+-   Erstellen einer virtuellen Netzwerktopologie von SBCs, wobei die SBCs in den lokalen Zweigstellen mit einem zentralen Proxy-SBC verbunden sind, der für Microsoft-Telefon System über seine externe IP-Adresse sichtbar ist und mit diesem kommuniziert. In einer virtuellen Netzwerktopologie kommunizieren downstream-SBCs über interne IPs und sind für Benutzer nicht direkt Telefonsystem.
 
 In diesem Artikel werden Featurefunktionen sowie Kundenszenarien und Lösungen beschrieben. Details zur Konfiguration finden Sie unter [Konfigurieren der Optimierung lokaler Medien.](direct-routing-media-optimization-configure.md) 
 
@@ -63,7 +63,7 @@ Basierend auf den Geschäftsanforderungen hat Contoso zwei Lösungen mit local m
 
 - **In Europa** sind alle Trunks zentralisiert, und die Medienflüsse zwischen dem zentralen SBC und den Benutzern werden basierend auf der Benutzerposition verwendet. 
 
-  - Wenn ein Benutzer mit dem lokalen Subnetz eines Unternehmensnetzwerks verbunden ist (d. h., der Benutzer ist intern), fließen die Medienströme zwischen der internen IP des zentralen SBC und dem Teams-Client des Benutzers. 
+  - Wenn ein Benutzer mit dem lokalen Subnetz eines Unternehmensnetzwerks verbunden ist (d. h., der Benutzer ist intern), fließen die Medienflüsse zwischen der internen IP des zentralen SBC und dem Teams-Client des Benutzers. 
   
   - Wenn sich ein Benutzer außerhalb des Unternehmensnetzwerks befindet (z. B. wenn er eine öffentliche drahtlose Internetverbindung verwendet), wird der Benutzer als extern betrachtet. In diesem Fall fließen die Medien zwischen der externen IP des zentralen SBC und dem Teams Client.
 
@@ -101,7 +101,7 @@ Während er lokal ist, wird dem Benutzer die lokale Zweigstelle in Deutschland z
 
 - Der Teams-Client des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API, die während des Aufrufs generierten Medien fließen jedoch an die interne IP-Adresse des zentralen SBC. 
 
-- Der SBC leitet den Fluss an das Telefonsystem und das verbundene PSTN-Netzwerk weiter. 
+- Der SBC leitet den Fluss an Telefonsystem und das verbundene PSTN-Netzwerk um. 
 
 - Der zentrale SBC ist nur für Telefonsystem externe IP-Adresse sichtbar. 
 
@@ -112,11 +112,11 @@ Diagramm 1. Datenverkehrsfluss, wenn sich der Benutzer auf der "Homepage" mit ei
 
 ### <a name="external-user"></a>Externer Benutzer
 
-Das folgende Diagramm zeigt den Datenverkehrsfluss, wenn ein Benutzer nicht lokal ist und nicht mit dem Unternehmensnetzwerk verbunden ist (d. h., das Gerät des Benutzers ist über ein mobiles Gerät oder ein öffentliches WLAN mit dem Internet verbunden). Der Benutzer führt einen Direct Routing-Telefonanruf über Teams:
+Das folgende Diagramm zeigt den Datenverkehrsfluss, wenn ein Benutzer nicht lokal ist und nicht mit dem Unternehmensnetzwerk verbunden ist (d. h., das Gerät des Benutzers ist über ein mobiles Gerät oder ein öffentliches WLAN mit dem Internet verbunden). Der Benutzer führt einen Direkten Routing-Telefonanruf über Teams:
 
 - Der Teams-Client des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API. In diesem Fall fließen die während des Aufrufs generierten Medien jedoch an die externe IP-Adresse des zentralen SBC. 
 
-- Der SBC leitet den Fluss an das Telefonsystem und das verbundene PSTN-Netzwerk weiter. 
+- Der SBC leitet den Fluss an Telefonsystem und das verbundene PSTN-Netzwerk um. 
 
 - Der zentrale SBC ist nur für Telefonsystem externe IP-Adresse sichtbar. 
 
@@ -152,7 +152,7 @@ Das folgende Diagramm zeigt den Datenverkehr auf hoher Ebene für das Szenario, 
 
 - Der lokale SBC leitet den Fluss an den Proxy-SBC in Singapur und an das verbundene lokale PSTN-Netzwerk um.
 
--  Der Proxy-SBC ist nur für Telefonsystem externe IP-Adresse sichtbar und leitet den Fluss vom downstream-SBC (in diesem Fall der lokale SBC in Vietnam) an Telefonsystem. 
+-  Der Proxy-SBC ist nur Telefonsystem externen IP-Adresse sichtbar und leitet den Fluss vom downstream-SBC (in diesem Fall der lokale SBC in Vietnam) an Telefonsystem. 
 
 - Der downstream-SBC in der lokalen Zweigstelle ist für Telefonsystem nicht direkt sichtbar, sondern wird innerhalb der virtuellen Netzwerktopologie zugeordnet, die vom Contoso-Administrator beim Einrichten der Optimierung für lokale Medien definiert wird.
 
@@ -167,7 +167,7 @@ Diagramm 3. Datenverkehrsfluss, wenn sich der Benutzer im "Heimnetzwerk" mit ein
 
 ### <a name="external-user"></a>Externer Benutzer
 
-Das folgende Diagramm zeigt den Datenverkehrsfluss, wenn sich ein Benutzer außerhalb der Unternehmensnetzwerkgrenzen befindet. Der Benutzer ist nicht lokal (befindet sich nicht innerhalb der Grenzen des Unternehmensnetzwerks). Der Benutzer führt einen direkten Routing-Telefonanruf über Teams eine Telefonnummer in Vietnam durch. 
+Das folgende Diagramm zeigt den Datenverkehrsfluss, wenn sich ein Benutzer außerhalb der Unternehmensnetzwerkgrenzen befindet. Der Benutzer ist nicht lokal (befindet sich nicht innerhalb der Grenzen des Unternehmensnetzwerks). Der Benutzer führt einen direkten Routing-Telefonanruf Teams eine Telefonnummer in Vietnam durch. 
 
 - Der Teams-Client des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API, aber die während des Aufrufs generierten Medien fließen zuerst an die externe IP-Adresse des Proxy-SBC in Singapur. 
 
@@ -191,7 +191,7 @@ Die Optimierung lokaler Medien unterstützt zwei Modi:
 
 - **Modus 2: Nur für lokale Benutzer.** In diesem Modus werden Medien nur dann direkt zur internen IP-Adresse des lokalen Downstream-SBC fließen, wenn sie vom internen Benutzer generiert werden, der sich in derselben Zweigstelle wie der Downstream-SBC befindet. 
 
-Um zwischen lokalen Medienoptimierungsmodi zu unterscheiden, muss der Mandantenadministrator den Parameter "-BypassMode" mithilfe des Set-CSonlinePSTNGateway-Cmdlets entweder auf "Always" oder "OnlyForLocalUsers" festlegen. Weitere Informationen finden Sie unter [Konfigurieren der Optimierung lokaler Medien.](direct-routing-media-optimization-configure.md)  
+Zur Unterscheidung zwischen lokalen Medienoptimierungsmodi muss der Mandantenadministrator den Parameter "-BypassMode" mithilfe des Set-CSonlinePSTNGateway-Cmdlets entweder auf "Always" oder "OnlyForLocalUsers" festlegen. Weitere Informationen finden Sie unter [Konfigurieren der Optimierung lokaler Medien.](direct-routing-media-optimization-configure.md)  
 
 > [!NOTE]
 > Bei internen Benutzern ist eine Medienkonnektivität zwischen dem Benutzer und dem SBC über die interne IP-Adresse **erforderlich.** In diesem Fall gibt es keinen Fallback für Relays für den öffentlichen Transport für Medien, da der SBC eine interne IP für Die Medienkonnektivität stellt. 
@@ -220,17 +220,17 @@ Tabelle 3. Beispielkonfiguration für Szenario 1
 |:------------|:-------|:-------|:-------|:-------|
 | Deutschland | +49 1 437 2800 | Priorität 1: ^ \+ 49(\d {8} )$ -DEsbc.contoso.com<br>Priorität 2: .* - proxysbc.contoso.com| DEsbc.contoso.com – Immer umgehen <br>proxysbc.contoso.com – Immer umgehen | Teams Benutzer <-> DEsbc.contoso.com |
 
-Das diagramm unten zeigt den Datenverkehr auf hoher Ebene, der für den internen Benutzer in Deutschland einen direkten Routing-Telefonanruf über eine Teams zu der Nummer in Deutschland führt. 
+Das folgende Diagramm zeigt den datenverkehrsinternen Fluss auf hoher Ebene, der für den internen Benutzer in Deutschland einen direkten Routing-Telefonanruf über Teams zu der Nummer in Deutschland führt. 
 
-- Der Teams des Benutzers kommuniziert mit dem Telefonsystem direkt über die REST-API. 
+- Der Client des Teams des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API. 
 
 - Die während des Anrufs generierten Medien fließen an die interne IP-Adresse des lokalen SBC. 
 
 - Der lokale SBC leitet den Fluss an den Proxy-SBC in Amsterdam und an das verbundene lokale PSTN-Netzwerk weiter. 
 
-- Der Proxy-SBC ist nur Telefonsystem der externen IP-Adresse sichtbar und leitet den Fluss vom downstream-SBC (in diesem Fall dem lokalen SBC in Deutschland) an Telefonsystem. 
+- Der Proxy-SBC ist nur Telefonsystem externen IP-Adresse sichtbar und leitet den Fluss vom downstream-SBC (in diesem Fall dem lokalen SBC in Deutschland) an Telefonsystem. 
 
-- Der downstream-SBC in der lokalen Zweigstelle ist für Telefonsystem nicht direkt sichtbar, sondern wird innerhalb der virtuellen Netzwerktopologie zugeordnet, die vom Contoso-Administrator beim Einrichten der Optimierung für lokale Medien definiert wird.
+- Der downstream-SBC in der lokalen Zweigstelle ist für Telefonsystem nicht direkt sichtbar, sondern wird innerhalb der virtuellen Netzwerktopologie zugeordnet, die vom Administrator von Contoso beim Einrichten der Optimierung lokaler Medien definiert wird.
 
 
 Diagramm 5.  Datenverkehrsfluss mit "Always Bypass"-Modus, und der Benutzer befindet sich auf der "Startseite"-Website
@@ -248,9 +248,9 @@ Tabelle 4. Beispielkonfiguration für Szenario 2
 |:------------|:-------|:-------|:-------|:-------|
 | Frankreich | +49 1 437 2800 | Priorität 1: ^ \+ 49(\d {8} )$ -DEsbc.contoso.com <br>Priorität 2: .* - proxysbc.contoso.com |  DEsbc.contoso.com – Immer umgehen proxysbc.contoso.com – Immer umgehen | Teams Benutzer < – > DEsbc.contoso.com  |
 
-Das folgende Diagramm zeigt den Datenverkehr auf hoher Ebene, wenn der interne deutsche Benutzer, der sich in Frankreich befindet, einen direkten Routing-Telefonanruf über Teams zu der Nummer in Deutschland führt. 
+Das folgende Diagramm zeigt den Datenverkehr auf hoher Ebene, wenn der interne deutsche Benutzer, der sich in Frankreich befindet, einen direkten Routing-Telefonanruf über Teams zur Nummer in Deutschland führt. 
 
-- Der Teams des Benutzers kommuniziert mit den Telefonsystem direkt über die REST-API.
+- Der Client des Teams des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API.
 
 - Die während des Anrufs generierten Medien fließen direkt an die interne IP-Adresse von SBC in Deutschland. 
 
@@ -262,7 +262,7 @@ Diagramm 6.  Datenverkehrsfluss mit "Always Bypass"-Modus, und der Benutzer befi
 
 ### <a name="mode-2-only-for-local-users"></a>Modus 2: Nur für lokale Benutzer
 
-Wenn es schlechte Verbindungen zwischen lokalen Zweigstellen, aber gute Verbindungen zwischen den einzelnen lokalen Zweigniederlassungen und regionalen Niederlassungen gibt, ist der empfohlene Modus "Nur für lokale Benutzer".
+Wenn es schlechte Verbindungen zwischen lokalen Zweigstellen, aber gute Verbindungen zwischen den einzelnen lokalen Zweigniederlassungen und regionalen Niederlassungen gibt, dann ist der empfohlene Modus "Nur für lokale Benutzer".
 
 Nehmen wir beispielsweise an, dass Contoso in der Region APAC mehrere Niederlassungen in verschiedenen Ländern hat. In vielen Ländern ist ein Umstieg auf SIP nicht möglich, da das Unternehmen weiterhin über TDM-Trunks in vielen lokalen Zweigstellen verfügt. Die Zentralisierung der TDM-Trunks ist in der Region APAC keine Option. Darüber hinaus gibt es mehr als fünfzig Contoso-Zweigstellen in der Region APAC mit Hunderten von Gateways (SBCs). 
 
@@ -282,17 +282,17 @@ Tabelle 5. Beispielkonfiguration für den Modus "Nur für lokale Benutzer" Szena
 
 | Physischer Standort des Benutzers | Der Benutzer anruft eine Nummer. | Online Voice Routing Policy | Für SBC konfigurierter Modus | Medien Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Vietnam | +84 4 3926 3000 | Priorität 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br>Priorität 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – nur für lokale Benutzer <br> proxysbc.contoso.com – Immer umgehen | Teams Benutzer <-> VNsbc.contoso.com |
+| Vietnam | +84 4 3926 3000 | Priorität 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br>Priorität 2: .* - proxysbc.contoso.com | VNsbc.contoso.com – Nur für lokale Benutzer <br> proxysbc.contoso.com – Immer umgehen | Teams Benutzer <-> VNsbc.contoso.com |
 
 In the following diagram, a user assigned to the local branch office in Vietnam, while on premises, makes a Direct Routing phone call through Teams. 
 
-- Der Teams des Benutzers kommuniziert mit den Telefonsystem direkt über die REST-API. 
+- Der Client des Teams des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API. 
 
 - Während des Anrufs generierte Medien fließen an die interne IP-Adresse des lokalen SBC. 
 
 - Der lokale SBC leitet den Fluss an den Proxy-SBC in Singapur und an das verbundene lokale PSTN-Netzwerk um. 
 
-- Der Proxy-SBC ist nur Telefonsystem der externen IP-Adresse sichtbar und leitet den Fluss vom downstream-SBC (in diesem Fall dem lokalen SBC in Vietnam) an Telefonsystem. 
+- Der Proxy-SBC ist nur Telefonsystem externen IP-Adresse sichtbar und leitet den Fluss vom downstream-SBC (in diesem Fall dem lokalen SBC in Vietnam) an Telefonsystem. 
 
 - Der downstream-SBC in der lokalen Zweigniederlassung ist für Benutzer Telefonsystem sichtbar, wird aber in der virtuellen Netzwerktopologie zugeordnet.
 
@@ -309,12 +309,12 @@ Tabelle 6. Benutzerkonfiguration
 
 | Physischer Standort des Benutzers | Der Benutzer anruft eine Nummer. | Online Voice Routing Policy | Für SBC konfigurierter Modus | Medien Flow | 
 |:------------|:-------|:-------|:-------|:-------|
-| Indonesien | +84 4 3926 3000 | Priorität 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Priorität 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – nur für lokale Benutzer <br> proxysbc.contoso.com – Immer umgehen | Teams Benutzer <-> proxysbc.contoso.com <-> VNsbc.contoso.com |
+| Indonesien | +84 4 3926 3000 | Priorität 1: ^ \+ 84(\d {9} )$ -VNsbc.contoso.com <br> Priorität 2: .* - proxysbc.contoso.com |VNsbc.contoso.com – Nur für lokale Benutzer <br> proxysbc.contoso.com – Immer umgehen | Teams Benutzer <-> proxysbc.contoso.com <-> VNsbc.contoso.com |
 
 
-Im folgenden Diagramm führt der interne Benutzer, der sich lokal in der indonesischen Niederlassung auf dem Indonesischen Zweigniederlassung aufteilt, einen direkten Routing-Telefonanruf über Teams eine Nummer in Vietnam ab. 
+Im folgenden Diagramm führt der interne Benutzer, der in der indonesischen Zweigstelle lokal ist, einen direkten Routing-Telefonanruf über Teams zu einer Nummer in Vietnam durch. 
 
-- Der Teams des Benutzers kommuniziert mit den Telefonsystem direkt über die REST-API.
+- Der Client des Teams des Benutzers kommuniziert mit Telefonsystem direkt über die REST-API.
 
 - Während des Anrufs generierte Medien fließen zuerst an die interne IP-Adresse des Proxy-SBC. 
 
@@ -336,7 +336,8 @@ Im Folgenden finden Sie eine Liste der bekannten Probleme, die derzeit bei der O
 
 | Problem | Problemumgehung |
 | :--- | :--- |
-| Teams Client wird nicht als **intern** identifiziert, wenn Teams öffentliche IP-Adresse des Kunden der Liste vertrauenswürdiger IP-Adressen des Kunden entspricht. | Die Optimierung lokaler Medien setzt voraus, dass Teams Client-Subnetz einem vom Mandanten konfigurierten [Netzwerksubnetz-Subnetz entspricht.](/powershell/module/skype/new-cstenantnetworksubnet)|
+| Teams Client wird nicht als **intern** identifiziert, wenn Teams öffentliche IP-Adresse des Kunden der Liste Vertrauenswürdige IP des Kunden entspricht. | Die Optimierung lokaler Medien setzt voraus, dass Teams Client-Subnetz einem vom Mandanten konfigurierten [Netzwerksubnetz-Subnetz entspricht.](/powershell/module/skype/new-cstenantnetworksubnet)|
 | Anrufskalation führt zu Gesprächsanrufen, wenn Teams-Client als intern identifiziert wird.| Deaktivieren Sie die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
 | Anrufskalation von 1 bis 1 Anruf zwischen internen Kunden zum Mehrteileranruf mit externen Kunden/Ressourcen führt zu abgelegten Anrufen | Es wird noch an einer Lösung gearbeitt. Deaktivieren Sie alternativ die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
 | Teams Der Benutzer hält den Anruf. Musik auf dem PSTN-Ende ab, und die Optimierung lokaler Medien funktioniert. Der Teams benutzer setzt den Anruf fort. Der Aufruf von PSTN wird fortgesetzt, aber die Optimierung der lokalen Medien funktioniert nicht, und der Aufruf wird über zentrale SBC (Proxy) fortgesetzt. | Wenn ein Benutzer einen Anruf startet, um Musik im Warteschleifen-Speicher (MoH) zu initiieren, wird er von 1:1 zu einem Anruf mit mehrerenPartys durch den Anrufcontroller eskaliert, um media controller and media processor (als AVMCU-Mixer dienen) aufzurufen, über den MoH einen benutzer erreicht, der im Halteraum war. Die Deeskalierung auf einen 1:1-Anruf nach dem Fortsetzen des Anrufs erfolgt nicht wie je nach Entwurf. Deaktivieren Sie die Optimierung lokaler Medien auf dem Direct-Routing-SBC.|
+|Während ein Anruf für einige Sekunden aufgebaut wird, hört der Benutzer möglicherweise Stille.| Aufgrund der Komplexität der Architektur der lokalen Medienoptimierung kann dies in einigen Fällen auftreten.|

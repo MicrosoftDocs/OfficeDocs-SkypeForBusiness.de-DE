@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für die Microsoft Teams.
-ms.openlocfilehash: 3512ea4dd830a3fcd8469c86061c2b1d641b96a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 747884e7d159753518ad3424c2d3d1b69728d088
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624667"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866377"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-Audio- und Videogeräte, die für Microsoft Teams
 
@@ -28,7 +28,7 @@ Das Peripheriegeräte-Zertifizierungsprogramm stellt sicher, dass USB-Peripherie
 
 Um Geräte zu erkunden, die für die Microsoft Teams zertifiziert sind, finden Sie im Teams [Store](https://products.office.com/microsoft-teams/across-devices/devices).
 
-Weitere Informationen zur Unterstützung der Anrufsteuerung mit Teams sie unter Steuern [von Anrufen mit einem Headset in Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
+Weitere Informationen zur Unterstützung der Anrufsteuerung mit Teams finden Sie unter Steuern von Anrufen mit einem Headset [in Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
 > [!TIP]
 > Suchen Sie nach Geräten, die für Skype for Business? Verwenden Sie [USB-Audio- und Videogeräte, die für die Skype for Business.](/skypeforbusiness/certification/devices-usb-devices)
@@ -45,15 +45,15 @@ Benutzer müssen zuvor zertifizierte Geräte nicht ersetzen, wenn sie ein Upgrad
 - **Premium Mikrofon zum Öffnen Office** Alle Headsets werden getestet, um klare Audiodaten zu liefern, aber offene Büros und andere laute Umgebungen stellen eine größere Herausforderung dar. Headsets mit dieser Bezeichnung nehmen die Stimme des Headsetbenutzers auf, übertragen aber nicht den Klang der benachbarten Benutzer.
 - **Besprechungsraumgröße** Gemeinsam genutzte Geräte wie Freisprecheinrichtungen und Kameras verfügen über eine unterstützte Nutzungsdistanz. Empfohlene Entfernungen können je nach Hersteller unterschiedlich sein. Um Kunden eine klare Orientierung zu geben, werden alle gemeinsam genutzten Geräte bei der Zertifizierung für klar definierte Räume und Rauschumgebungen getestet.
 
-Durchsuchen [Sie Geräte, die für Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+Suchen [Sie nach Geräten, die für Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 ## <a name="end-user-experience"></a>Endbenutzererfahrung
 
 ### <a name="new-teams-certification-benefits"></a>Neue Teams von Zertifizierungsvorteilen
 
-- De dedicated Teams button and LED indicator light.
+- Dedizierte Teams Schaltfläche und LED-Anzeige.
 - Benutzerbenachrichtigung über Ereignisse und Warnungen vom Teams-Client (z. B. Beginn einer Besprechung, Voicemail oder verpasster Anruf).
-- Möglichkeit zum Aktivieren des Teams Clients oder Beantworten einer Benachrichtigung mit einem Klick auf die Schaltfläche (z. B. zum Teilnehmen an einer Besprechung).
+- Möglichkeit zum Aktivieren des Teams-Clients oder Beantworten einer Benachrichtigung mit einem Klick auf die Schaltfläche (z. B. zum Teilnehmen an einer Besprechung).
 - Zertifizierung für Erweiterbarkeit (neue Geräte-/Clientfeatures, die per Firmwareupdate geliefert werden).
 
 ### <a name="core-certification-benefits"></a>Grundlegende Zertifizierungsvorteile
@@ -74,10 +74,11 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 ## <a name="certified-devices"></a>Zertifizierte Geräte
 
-*Tabelle aktualisiert August 2021*
+*Tabelle aktualisiert September 2021*
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|AudioCodes           |TXVCam10                                                   |8/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Reisereise 4320                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Reiser 4310                                               |8/6/2021        |Zertifiziert für Microsoft Teams                           |
 |JETZTS/Sennheiser      |ADAPT 160T ANC                                             |6/24/2021       |Zertifiziert für Microsoft Teams                           |
@@ -88,7 +89,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Poly                 |EncorePro 525-M                                            |4/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |EncorePro 515-M                                            |4/26/2021       |Zertifiziert für Microsoft Teams                           |
 |Dell                 |WL7022 Premier Wireless ANC-Headset                        |4/22/2021       |Zertifiziert für Microsoft Teams                           |
-|Dell                 |WL5022 Pro Wireless Headset                                |4/22/2021       |Zertifiziert für Microsoft Teams                           |
+|Dell                 |WL5022 Pro Drahtloses Headset                                |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Dell                 |WH3022 Pro Headset mit Kabel                                   |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Logitech             |C920e Webcam                                               |4/22/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Studio P5 Webcam                                           |4/22/2021       |Zertifiziert für Microsoft Teams                           |
@@ -99,7 +100,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |Microsoft            |Modernes USB-Headset                                         |4/15/2021       |Zertifiziert für Microsoft Teams                           |
 |Yealink              |UVC20 Webcam                                               |3/30/2021       |Zertifiziert für Microsoft Teams                           |
 |Microsoft            |Moderne Webcam                                              |3/24/2021       |Zertifiziert für Microsoft Teams                           |
-|JETZTS/Sennheiser      |Anpassen von 200 Reihen-Headsets                                  |3/19/2021       |Zertifiziert für Microsoft Teams                           |
+|JETZTS/Sennheiser      |Anpassen von 200-Reihen-Headsets                                  |3/19/2021       |Zertifiziert für Microsoft Teams                           |
 |Poly                 |KopfhörerFokus 2 Headset                                    |3/11/2021       |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve2 30 Headset                                         |3/1/2021        |Zertifiziert für Microsoft Teams                           |
 |Microsoft            |Surface Headphones 2+                                      |2/26/2021       |Zertifiziert für Microsoft Teams                           |
@@ -179,14 +180,14 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 | Logitech            | Zone Wired                                                | 3/26/2020      | Zertifiziert für Microsoft Teams                          |
 | Jabra               | Evolve2 40 Headset                                        | 3/26/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reise 6200 Headset                                      | 3/23/2020      | Skype for Business mit Upgrade auf Microsoft Teams     |
-| Poly                | Reise 4245 Office                                       | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
+| Poly                | Reisereise 4245 Office                                       | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Blackwire 8225 Headset                                    | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Calisto 5300-M                                            | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reisereise 4210 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 4210 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
 | Poly                | Reisereise 4220 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 4220 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
-| Poly                | Reise 5200 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
+| Poly                | Reisereise 5200 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 5200 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
 | Poly                | Blackwire 3310-M                                          | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Blackwire 3315-M                                          | 03/03/2020     | Zertifiziert für Microsoft Teams                          |

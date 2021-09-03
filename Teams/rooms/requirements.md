@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen für die Microsoft Teams-Räume Geräte, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
+description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1c19d954a6b513f88ca10922344ad30817ed9d22
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4919dd2cad8cfe3df0270dad27b53a9b62467d36
+ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629247"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58866387"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume können eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und der Nutzung des Raum verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, umhingenden Plätzen durch große Konferenzräume und Konferenzräume.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
+Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume sie eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Nutzung des Raum. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, umhingenden Plätzen durch große Konferenzräume und Konferenzräume.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams-Räume melden sich bei Microsoft Teams, Skype für Business Server 2019, Skype für Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in den von 21Vianet Microsoft 365 oder Office 365 oder DoD-Umgebungen betriebenen Umgebungen nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in der Microsoft 365 oder in Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -187,7 +187,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Bose ControlSpace EX-440C DSP + </br> Bose P2600A AmpLink Referent + Sennheiser TCC2 Ceiling Microphone + </br> Bose DesignMax DM2C-P Ceiling Speaker](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html)|  Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |  |
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink(n) +</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [DesignMax DM2C -LP Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/designmax/designmax_dm2c_lp.html#v=designmax_dm2c_lp_black) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  | 
 |[Bose ControlSpace EX-1280C DSP](https://pro.bose.com/en_us/products/signal_processing_and_networking/controlspace_ex/cs_ex_1280c.html#v=cs_ex_1280c_black) +</br>Bose P2600A AmpLink Vorzeichen+</br> [Sennheiser TCC2 Ceiling Microphone](https://pro.bose.com/en_us/solutions/bose-work/es1-ceiling-audio-solution.html) +</br> [EdgeMax EM180 Ceiling Speaker](https://pro.bose.com/en_us/products/loudspeakers/background_foreground/edgemax/edgemax_em180.html#v=edgemax_em180_white) | Bose DSP: 2.290  </br> P2600A : 1.160  </br> TCC2: 1.4.2  |
-|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)oder [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC-Serie[(SPA-Serie](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) [oder CX-Q-Serie)](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)+ </br> [Lautsprecher der QSC-Akustische](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) Designreihe + QSC IP-Kamera[(PTZ-IP 20x60,](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [PTZ-IP 12x72](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) optional + </br> [QSC Q-SYS E/A USB-Brücke](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP-Kamera und E/A-USB-Brücke: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC-Umfings: N/A </br> Lautsprecher der QSC-Akustische Design-Serie: N/A | 
+|QSC Q-SYS Core ([110f](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-110f/), [8 Flex,](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-8-flex/) [Nano](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/core-nano/)oder [NV-32-H](https://www.qsc.com/solutions-products/q-sys-ecosystem/processing/nv-32-h-core-capable/)) + </br> [Sennheiser TCC2 Ceiling Microphone](https://en-us.sennheiser.com/tcc2) + </br> QSC-Serie[(SPA-Serie](https://www.qsc.com/solutions-products/power-amplifiers/installed/non-network/low-power-applications/spa-series/) [oder CX-Q-Serie)](https://www.qsc.com/solutions-products/power-amplifiers/installed/network/cx-q-series/)+ </br> [Lautsprecher der QSC-Akustische Designreihe](https://www.qsc.com/solutions-products/loudspeakers/installed/passive/solutions/acousticdesigntm-series-solutions/) + </br> QSC IP Camera[(PTZ-IP 20x60,](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/) [PTZ-IP 12x72)](https://www.qsc.com/solutions-products/q-sys-ecosystem/video/ptz-ip-conference-cameras/)optional + </br> [QSC Q-SYS E/A USB-Brücke](https://www.qsc.com/solutions-products/q-sys-ecosystem/audio-io-peripherals/io-usb-bridge/) optional | QSC Q-SYS Core, PTZ-IP-Kamera und E/A-USB-Brücke: QSC Q-SYS Designer 9.0.1-2104.022 </br> Sennheiser TCC2 Ceiling Microphone: TCC2 - 1.5.1, Dante 1.2.0 </br> QSC-Umfings: N/A </br> Lautsprecher der QSC-Akustische Design-Serie: N/A | 
 
 
 &Dagger;-Kunden können entweder die Dante-Benutzeroberfläche oder den von Biamp/Sennheiser empfohlenen Netzwerkschalter für dieses Paket auswählen.
