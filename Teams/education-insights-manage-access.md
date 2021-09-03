@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 314e393b3faf0d5b74d25f3a545277dbba64c566
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
+ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730684"
+ms.lasthandoff: 09/02/2021
+ms.locfileid: "58864195"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Verwalten des Benutzerzugriffs auf Education Insights
 
@@ -64,7 +64,7 @@ Wenn Sie das [SDS V2.1-Dateiformat](/schooldatasync/sds-v2.1-csv-file-format) od
   
   :::image type="content" source="media/insights-role-based-permissions.png" alt-text="Rollenbasierte Berechtigungen.":::
   
-  Wenn eine Rolle auf mehr als einer Organisationsebene vorhanden ist, wird diese Rolle mehrmals angezeigt, einmal für jede Ebene. Im Screenshot haben wir Prinzipale sowohl auf Schul- als auch auf Bezirksebene, sodass es zwei Zeilen für „Prinzipal“ gibt.
+  Wenn eine Rolle auf mehr als einer Organisationsebene vorhanden ist, wird diese Rolle mehrmals angezeigt, einmal für jede Ebene. Im Screenshot haben wir Prinzipale auf Schul-, Bezirks- und Abteilungsebene, sodass es drei Zeilen für „Prinzipal“ gibt.
   
 * Klicken Sie für jede Rolle auf das Stiftsymbol, um die Berechtigungsstufe auszuwählen. Der Standard ist, dass die Rolle keine Berechtigung zum Anzeigen von Insights hat.
 * Wählen Sie die Berechtigungsstufe aus – **Daten für ihre Organisation anzeigen** oder **Keine**.
