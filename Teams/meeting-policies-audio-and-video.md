@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Audio und Video verwalten.
-ms.openlocfilehash: 4f8de802fd2ddf90555a34ac0b8d66d2d7021f79
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9b7c2fd2ac98237383b8aaa1dff8fa764c6df2be
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726564"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973033"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
 
@@ -33,40 +33,12 @@ ms.locfileid: "58726564"
 
 In diesem Artikel werden die Besprechungsrichtlinieneinstellungen speziell für Audio und Video beschrieben. Diese beinhalten Folgendes:
 
-- [Transkription zulassen](#allow-transcription)
-- [Cloud-Aufnahme zulassen](#allow-cloud-recording)
 - [Modus für IP-Audio](#mode-for-ip-audio)
 - [Modus für IP-Video](#mode-for-ip-video)
 - [IP-Video zulassen](#allow-ip-video)
 - [Media-Bitrate (KBs)](#media-bit-rate-kbs)
 - [Videofiltermodus](#video-filters-mode)
 - [Benutzerdefinierte Hintergrundeinstellungen zulassen](#allow-custom-background-settings)
-
-### <a name="allow-transcription"></a>Transkription zulassen
-
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
-
-Beachten Sie, dass die Transkription aufgezeichneter Besprechungen derzeit nur für Benutzer unterstützt wird, die die Sprache in Microsoft Teams auf Englisch festgelegt haben, und dass sie nur funktioniert, wenn in der Besprechung Englisch gesprochen wird.
-
-### <a name="allow-cloud-recording"></a>Cloud-Aufnahme zulassen
-
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Mit dieser Einstellung wird gesteuert, ob Besprechungen dieses Benutzers aufgezeichnet werden können. Die Aufzeichnung kann vom Besprechungsorganisator oder von einem anderen Besprechungsteilnehmer gestartet werden, wenn die Richtlinieneinstellung für den Teilnehmer aktiviert ist, und wenn es sich um einen authentifizierten Benutzer aus derselben Organisation handelt.
-
-Personen außerhalb Ihrer Organisation, z. b. Partner- oder anonyme Benutzer, können die Aufzeichnung nicht starten. Gastbenutzer können die Aufzeichnung nicht starten oder beenden.
-
-![Screenshot mit Aufzeichnungsoptionen](media/meeting-policies-recording.png)
-
-Sehen Sie sich das folgende Beispiel an.
-
-|Benutzer |Besprechungsrichtlinie  |Cloud-Aufnahme zulassen |
-|---------|---------|---------|
-|Daniela | Global   | Aus |
-|Amalia | Location1MeetingPolicy | Ein|
-|Johann (externer Benutzer) | Nicht zutreffend | Nicht zutreffend|
-
-Von Daniela organisierte Besprechungen lassen sich nicht aufzeichnen, und Amanda, deren Richtlinieneinstellung aktiviert ist, kann keine von Daniela organisierten Besprechungen aufzeichnen. Von Amanda organisierte Besprechungen können zwar aufgezeichnet werden, allerdings können Daniela, bei der die Richtlinieneinstellung deaktiviert ist, und John, der ein externer Benutzer ist, von Amanda organisierte Besprechungen nicht aufzeichnen.
-
-Näheres zur Aufzeichnung von Cloud-Besprechungen erfahren Sie unter [Aufzeichnen von Microsoft Teams-Cloudbesprechungen](cloud-recording.md).
 
 ### <a name="mode-for-ip-audio"></a>Modus für IP-Audio
 
@@ -116,7 +88,7 @@ In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Rich
 
 | Microsoft Teams – Desktop und Web-Client |Mobile Microsoft Teams-Clients  |
 |:-------:|:-------:|
-|![Screenshot mit der Teilnahme an einer Besprechung mit Audio-/Videoeinstellungen auf dem Desktop.](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf einem Mobilgerät](media/meeting-policies-mobile-join.png)          |
+|![Screenshot zeigt die Besprechungsteilnahme mit Audio/Video-Einstellungen auf dem Desktop.](media/meeting-policies-audio-video-settings.png)    |![Screenshot der Besprechungsteilnahme-Seite mit Audio/Video-Einstellungen auf einem Mobilgerät](media/meeting-policies-mobile-join.png)          |
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -228,4 +200,4 @@ Die Besprechungsteilnehmer sehen eine Auswahl von Hintergrundbildern, die sie f�
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)

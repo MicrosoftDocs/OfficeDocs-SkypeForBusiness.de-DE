@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten und verwenden können, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: f471d9513995a13eb32eaacd118cd2f3874cda7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627337"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973043"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -100,12 +100,12 @@ Wenn Sie auf der Seite **Besprechungsrichtlinien** eine vorhandene Richtlinie od
 
 - [Allgemein](meeting-policies-in-teams-general.md)
 - [Audio & Video](meeting-policies-audio-and-video.md)
+- [Aufzeichnung & Transkription](meetings-policies-recording-and-transcription.md)
 - [Inhaltsfreigabe](meeting-policies-content-sharing.md)
 - [Teilnehmer & Gäste](meeting-policies-participants-and-guests.md)
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
 - [Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern](meeting-policies-restricted-anonymous-access.md)

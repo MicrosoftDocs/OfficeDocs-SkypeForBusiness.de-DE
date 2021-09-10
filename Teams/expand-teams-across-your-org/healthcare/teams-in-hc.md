@@ -26,12 +26,12 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: bfa67a90a2d6938d6bc2db9d65833c03450b6172
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0fa0976c4e69f205feda03a4047a6bbcb26b1183
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730674"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58972903"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
@@ -70,7 +70,7 @@ Die folgenden Szenarien sind für Organisationen im Gesundheitswesen verfügbar:
 Nutzen Sie die vollständige Besprechungsplattform in Microsoft Teams, um virtuelle Besuche mit den Patienten zu planen, zu verwalten und durchzuführen.
 
 - Wenn In Ihrer Organisation bereits elektronische Gesundheitsakten (EGA) verwendet werden, können Sie Microsoft Teams integrieren, um nahtloser arbeiten zu können. Microsoft Teams EGA-Konnektor (Elektronische Gesundheitsakte) erleichtert den Klinikärzten den Start eines virtuellen Patientenbesuchs oder einer Beratung mit einem anderen Anbieter in Teams direkt aus dem EGA-System. Weitere Informationen finden Sie unter [Virtuelle Besuche mit Teams – Integration in die EGA](ehr-admin.md).
-- Wenn Sie keine unterstützte EGA verwenden, können Sie Microsoft Bookings und die Bookings-App in Teams verwenden. Weitere Informationen finden Sie unter [Bookings-App und virtuelle Besuche in Microsoft Teams](../../bookings-app-admin.md).
+- Wenn Sie keine unterstützte EGA verwenden, können Sie Microsoft Bookings und die Bookings-App in Teams verwenden. Weitere Informationen finden Sie unter Virtuelle Besuche mit Teams [und der Bookings-App.](../bookings-virtual-visits.md)
 
 ![Virtuelle Besuche mit Microsoft Teams.](../../media/virtual-visits-teams.png)
 
