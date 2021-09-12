@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: e7ebfeea83a34bec241c5de29f8d8445410a97d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
+ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617451"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "58973013"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -93,7 +93,7 @@ Mithilfe von Messaging-Richtlinien wird gesteuert, welche Chat- und Messaging-Fu
 
 ### <a name="external-access"></a>Externer Zugriff
 
-Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Durch Aktivieren dieser Funktion und Hinzufügen von Domänen zur Liste der zulässigen Domänen können Ihre Benutzer mit Benutzern in anderen Domänen und Organisationen kommunizieren. Externer Zugriff unterscheidet sich von Gastzugriff darin, dass die Zugriffsberechtigung anstelle eines Einzelbenutzers einer gesamten Domäne erteilt wird. Der externe Zugriff ist standardmäßig deaktiviert.
+Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Microsoft Teams- und Skype for Business-Benutzern die Kommunikation mit Benutzern außerhalb der Organisation. Durch Aktivieren dieser Funktion und Hinzufügen von Domänen zur Liste der zulässigen Domänen können Ihre Benutzer mit Benutzern in anderen Domänen und Organisationen kommunizieren. Externer Zugriff unterscheidet sich von Gastzugriff darin, dass die Zugriffsberechtigung anstelle eines Einzelbenutzers einer gesamten Domäne erteilt wird. Der externe Zugriff ist standardmäßig aktiviert.
 
 |Frage|Aktion |
 |------------|-------|
@@ -102,7 +102,7 @@ Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Micro
 
 ### <a name="guest-access"></a>Gastzugriff
 
-Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Funktionen Gastbenutzern zur Verfügung stehen. Der Gastzugriff ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](./guest-access.md).
+Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Funktionen Gästen zur Verfügung stehen. Der Gastzugriff ist standardmäßig aktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](./guest-access.md).
 
 > [!NOTE]
 > Weitere Informationen zu externem Zugriff und Gastzugriff finden Sie hier: [Kommunikation mit Benutzern aus anderen Organisationen in Microsoft Teams](communicate-with-users-from-other-organizations.md).
