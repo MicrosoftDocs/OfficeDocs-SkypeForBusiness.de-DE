@@ -69,7 +69,7 @@ Führen Sie die folgenden Schritte aus, um einen neuen Fall zu erstellen:
 
 1. Wählen Sie an einer der folgenden Stellen **Neuen Fall erstellen** aus:  
 
-   - Im **Telefonnummern-Servicecenter** Seite, oben auf der Seite oder auf der unteren Kachel.
+   - Auf der Seite **Telefonnummern-Servicecenter** – entweder oben oder über den Link unten (Kachel).
 
    - Auf der Seite **Meine vorhandenen Fälle**  anzeigen.
 
@@ -77,7 +77,7 @@ Führen Sie die folgenden Schritte aus, um einen neuen Fall zu erstellen:
 
 2. Geben Sie Ihre Falldetails an, wie im [nächsten Abschnitt](#provide-case-details) ausführlich beschrieben.
 
-3. Nachdem Sie alle Werte eingegeben haben, wählen Sie **Submit** aus. Es wird ein neuer Bildschirm angezeigt, auf dem Sie Ihre Fallnummer sehen können.  
+3. Nachdem Sie alle Werte eingegeben haben, wählen Sie **Submit** aus. Es wird eine neue Seite geladen, auf der Sie die Fallnummer sehen können.  
 
 ### <a name="provide-case-details"></a>Angeben von Falldetails
 
@@ -95,7 +95,7 @@ Um die Falldetails zu verstehen, benötigt Microsoft die folgenden Informationen
 
 Ein Fall kann eine von zwei Kategorien aufweisen: 
 
-- **Übermitteln einer neuen Anforderung**: Wählen Sie diese Option aus, wenn Sie eine neue Anforderung übermitteln möchten. Sie möchten z. B. eine Portanforderung übermitteln oder Telefonnummern von Microsoft erwerben.  
+- **Übermitteln einer neuen Anforderung**: Wählen Sie diese Option aus, wenn Sie eine neue Anforderung übermitteln möchten. Sie möchten z. B. eine Portanforderung übermitteln oder Telefonnummern von Microsoft erhalten.  
 
 - **Allgemeine** : Wählen Sie diese Option aus, wenn Sie Fragen haben, die Ihnen helfen, Ihre Anfrage zu bestimmen. Beispielsweise müssen Sie wissen, ob Sie Ihre Drahtlosnummern zu Microsoft portieren können, oder sie müssen wissen, ob Microsoft gebührenfreie Vanity-Nummern unterstützt. 
 
@@ -111,7 +111,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **Festzulegenden benutzerdefinierten Anrufnamen (nur 15 Zeichen)** : Der benutzerdefinierte Anrufname, den Sie festlegen möchten. Der Name darf maximal 15 Zeichen enthalten.  
 
-  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, für die Sie einen benutzerdefinierten Anrufnamenwert festlegen möchten. CSV-Datei mit der Liste der Websites hochladen.  
+  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, für die Sie einen benutzerdefinierten Anrufnamenwert festlegen möchten. CSV-Datei mit der Liste der Rufnummern hochladen.  
 
 - **Mandantenübergreifender Port**– Telefonnummern von einem Mandanten in einen anderen verschieben. Sie haben z. B. zwei verschiedene Mandanten in Microsoft und möchten Ihre Telefonnummern von einem Mandanten zum anderen verschieben.  
 
@@ -125,7 +125,7 @@ Der Falltyp kann eine der folgenden sein:
 
   - **angeforderte Datums-*** – Datum und Uhrzeit, an dem Ihre Nummern vom Quellmandanten in den Zielmandanten verschoben werden sollen. Siehe Datum und Uhrzeit.
 
-  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, die Sie vom Quellmandanten zum Zielmandanten verschieben möchten. CSV-Datei mit der Liste der Websites hochladen. 
+  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, die Sie vom Quellmandanten zum Zielmandanten verschieben möchten. CSV-Datei mit der Liste der Rufnummern hochladen. 
 
 - **Ändern des Inventurtyps**– Ändern des Typs der Telefonnummern. Beispielsweise möchten Sie Ihre Microsoft-Abonnentennummern in Dienstnummern ändern. Weitere Informationen zu den von Microsoft unterstützten Telefonnummern finden Sie unter [Arten von Telefonnummern](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
@@ -133,17 +133,17 @@ Der Falltyp kann eine der folgenden sein:
 
   - **bevorzugter Datetime-*** – Das Datum und die Uhrzeit, an dem der Bestandstyp Ihrer Nummern geändert werden soll. Weitere Informationen finden Sie unter Datum und Uhrzeit.
 
-  - **Kontrollkästchen – Ich verstehe, dass meine Telefonnummern** nicht zugewiesen werden müssen, um den Inventurtyp aktualisieren zu können. Microsoft kann Keine Änderungsanforderungen für den Telefonnummerntyp verarbeiten, es sei denn, die Telefonnummern in Ihrem Mandanten sind nicht zugewiesen. Wenn Sie diese Änderung für ein zukünftiges Datum anfordern, müssen Sie sicherstellen, dass die Nummern vor dem angeforderten Datum und der gewünschten Uhrzeit nicht zugewiesen werden. 
+  - **Kontrollkästchen – Ich verstehe, dass meine Telefonnummern nicht zugewiesen sein dürfen, um den Inventurtyp aktualisieren zu können**. Microsoft kann keine Änderungsanforderungen für den Telefonnummerntyp verarbeiten, es sei denn, die Telefonnummern in Ihrem Mandanten sind nicht zugewiesen. Wenn Sie diese Änderung für ein zukünftiges Datum anfordern, müssen Sie sicherstellen, dass die Nummern vor dem angeforderten Datum und der gewünschten Uhrzeit nicht zugewiesen sind. 
 
-  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, deren Typ Sie ändern möchten. CSV-Datei mit der Liste der Websites hochladen. 
+  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, deren Typ Sie ändern möchten. CSV-Datei mit der Liste der Rufnummern hochladen. 
 
-- **New TN Acquisition**– Erwerben neuer Telefonnummern von Microsoft.  
+- **New TN Acquisition** – Erhalten neuer Telefonnummern von Microsoft.  
 
-  - **Zahlentyp** : Wählen Sie den Typ für Ihre Nummern aus. Weitere Informationen finden Sie unter [Arten von Telefonnummern](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
+  - **Nummerntyp**: Wählen Sie den Typ für Ihre Nummern aus. Weitere Informationen finden Sie unter [Arten von Telefonnummern](../different-kinds-of-phone-numbers-used-for-calling-plans.md).
 
   - **Haben Sie versucht, Telefonnummern aus dem Teams Admin Center-Portal** abzurufen– Haben Sie versucht, diese Telefonnummern über das Microsoft Teams Admin Center-Portal zu erwerben, wo Sie sich selbst bedienen können?  
 
-  - **Anzahl der erforderlichen Telefonnummern** : Die Anzahl der Telefonnummern, die Sie kaufen möchten.  
+  - **Anzahl der erforderlichen Telefonnummern**: Die Anzahl der Telefonnummern, die Sie erhalten möchten.  
 
   - **Bundesland/Kanton** : Das Bundesland/die Provinz in Ihrem Land/Ihrer Region, für das/die Sie Telefonnummern benötigen.  
 
@@ -159,15 +159,15 @@ Der Falltyp kann eine der folgenden sein:
 
   -  **Angefordertes Portierungsdatum/-uhrzeit*** – Datum und Uhrzeit, an dem die Nummern zu Microsoft portiert werden sollen. Beachten Sie, dass dies kein garantiertes Portierungsdatum ist, da der aktuelle Nummernbesitzer zuerst unsere Portanforderung genehmigen muss. Siehe Datum und Uhrzeit. 
 
-  - **Liste der Portierungsnummern** : Die Liste der Telefonnummern, die Sie zu Microsoft portieren möchten. CSV-Datei mit der Liste der Websites hochladen. 
+  - **Liste der Portierungsnummern** : Die Liste der Telefonnummern, die Sie zu Microsoft portieren möchten. CSV-Datei mit der Liste der Rufnummern hochladen. 
 
-  - **Autorisierungsschreiben (LETTER of Authorization, LOA)** : Fügen Sie hier eine signierte und ausgefüllte LOA an. Microsoft kann eine Portanforderung nicht ohne LOA verarbeiten.  
+  - **Autorisierungsschreiben (LETTER of Authorization LOA)** : Fügen Sie hier einen ausgefüllten unterschriebenen und gestempelten LOA an. Microsoft kann eine Portierungsanfrage nicht ohne LOA bearbeiten.  
 
 - **Adressupdate**– Aktualisieren der Notrufadresse. Beachten Sie, dass dieses Feld nur für ausgewählte Länder gilt. 
 
   - **Standort-ID** : Die Standort-ID für Ihre Notfalladresse. 
 
-  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, für die Sie die Notfalladresse ändern möchten (geben Sie ihre gewünschte Adresse in das Feld "Beschreibung" ein). CSV-Datei mit der Liste der Websites hochladen. 
+  - **Liste der Telefonnummern** : Die Liste der Telefonnummern, für die Sie die Notfalladresse ändern möchten (geben Sie ihre gewünschte Adresse in das Feld "Beschreibung" ein). CSV-Datei mit der Liste der Rufnummern hochladen. 
 
 ***Datum und Uhrzeit.** Wenn Sie Land = Frankreich, Datum = 14.08.2021 und Uhrzeit = 10:00 Uhr auswählen, wird die Anforderung am 14.08.2021 um 10:00 Uhr ausgeführt. Französische Zeit. 
 
@@ -177,7 +177,7 @@ Geben Sie einen Titel ein, der Ihre Frage zusammenfasst.
 
 #### <a name="additional-contacts-for-notifications"></a>Zusätzliche Kontakte für Benachrichtigungen
 
-Geben Sie die Liste der Personen ein, die automatisierte Statusbenachrichtigungen von Microsoft erhalten. Beispielsweise möchten Sie eine Portierungsreihenfolge platzieren und möchten, dass zwei weitere Kollegen zusätzlich zu sich selbst automatisierte Statusbenachrichtigungen erhalten. Geben Sie die E-Mail-Adressen Ihrer Kollegen im Abschnitt **Benachrichtigungs-E-Mails** an. Diese Informationen sind optional. 
+Geben Sie die Liste der Personen ein, die automatisierte Statusbenachrichtigungen von Microsoft erhalten. Beispielsweise möchten Sie eine Portierung beantragen und möchten, dass zwei weitere Kollegen zusätzlich zu sich selbst automatisierte Statusbenachrichtigungen erhalten. Geben Sie die E-Mail-Adressen Ihrer Kollegen im Abschnitt **Benachrichtigungs-E-Mails** an. Diese Informationen sind optional. 
 
 #### <a name="description"></a>Beschreibung
 
