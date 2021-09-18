@@ -12,40 +12,40 @@ appliesto:
 localization_priority: Normal
 description: Informationen zum Konfigurieren von ServiceNow im Teams-Räume Premium Portal
 f1keywords: ''
-ms.openlocfilehash: a7e1313321c5e556be814d7aa0bd0b80ae9bcb35
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a8f1e43ca52ee9fa155115fb911f88221cb6fdd0
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973227"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432707"
 ---
 # <a name="configure-servicenow-for-teams-rooms"></a>Konfigurieren von ServiceNow für Teams-Räume
 
-In diesem Artikel werden die Voraussetzungen und Schritte zum Konfigurieren Ihrer ServiceNow-Umgebung im Teams-Räume Premium beschrieben.
+In diesem Artikel werden die Voraussetzungen und Schritte zum Konfigurieren Ihrer ServiceNow-Umgebung im Portal Teams-Räume Premium beschrieben.
 
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
 ### <a name="teams-rooms-prerequisites"></a>Teams-Räume Voraussetzungen
 
-- Ihnen muss eine Dienstadministratorrolle zugewiesen sein. Weitere Informationen finden Sie unter [Rollenbasierte Zugriffssteuerung mit dem Microsoft Teams-Räume Verwaltete Dienste.](microsoft-teams-rooms-premium-rbac.md)
+- Ihnen muss eine Dienstadministratorrolle zugewiesen sein. Weitere Informationen finden Sie unter [Rollenbasierte Zugriffssteuerung mit dem](microsoft-teams-rooms-premium-rbac.md)Microsoft Teams-Räume Managed Services.
 
 ### <a name="servicenow-prerequisites"></a>ServiceNow-Voraussetzungen
 
 - Eine Standardautorisierungs-Anmeldung oder eine OAuth-Anmeldung. Weitere Informationen finden Sie unter [Erstellen von Anmeldeinformationen](https://developer.servicenow.com/dev.do#!/learn/learning-plans/rome/servicenow_application_developer/app_store_learnv2_rest_rome_creating_credentials) in ServiceNow.
 - Eine ServiceNow-Instanz und deren Instanzhostname und API-URI
-- Eine Rolle incident_manager oder höher
+- Eine Rolle von incident_manager oder höher
 - Eine Softwareversion von ServiceNow, die Tabellen-API unterstützt
 
-## <a name="set-up-servicenow-configuration-to-teams-rooms"></a>Einrichten der ServiceNow-Konfiguration für Teams-Räume
+## <a name="configure-your-environment"></a>Konfigurieren Ihrer Umgebung
 
-Die Konfiguration Ihrer Umgebung ist in hohem Maße anpassbar und hängt von den Anforderungen Ihrer Organisation ab. In den folgenden Schritten wird das Kopieren Ihrer vorhandenen Konfiguration in ServiceNow in das Teams-Räume Premium schritt.
+Die Konfiguration Ihrer Umgebung ist in hohem Maße anpassbar und hängt von den Anforderungen Ihrer Organisation ab. In den folgenden Schritten wird das Kopieren Ihrer vorhandenen Konfiguration in ServiceNow in das Teams-Räume Premium- 2D-Portal durchschritten.
 
 1. Öffnen Sie die ServiceNow-Instanz, die Sie kopieren möchten. Sie müssen darauf verweisen, wenn Sie das Konfigurationsformular im Teams-Räume Premium ausfüllen.
-2. Wechseln Sie auf einer neuen Browserregisterkarte zum portal [Teams-Räume Premium,](https://portal.rooms.microsoft.com/) und wechseln Sie **zu Einstellungen.** Wählen Sie dann **im linken Navigationsmenü ServiceNow** aus, um das Konfigurationsformular zu öffnen.
+2. Wechseln Sie auf einer neuen Browserregisterkarte zum portal [Teams-Räume Premium,](https://portal.rooms.microsoft.com/) und wechseln Sie zu **Einstellungen.** Wählen Sie dann **im linken Navigationsmenü ServiceNow** aus, um das Konfigurationsformular zu öffnen.
 3. Wählen Sie eine Authentifizierungsmethode aus, um sich anmelden und Ihren ServiceNow-Instanzhost und API-URI ein eingeben.
-4. Alle erforderlichen Elemente in der Spalte "ServiceNow Field" des Abschnitts "Feldzuordnung" sollten vorab ausgefüllt werden. Die folgende Tabelle enthält jedes "ServiceNow"-Feld und das entsprechende Microsoft Teams-Räume Feld. Führen Sie die Aktion für jede Zeile des Abschnitts Feldzuordnung aus. Definitionen der einzelnen "ServiceNow"-Felds finden Sie unter [ServiceNow-Felddefinitionen.](#servicenow-field-definitions)
+4. Alle erforderlichen Elemente in der Spalte "ServiceNow Field" des Abschnitts "Feldzuordnung" sollten vorab ausgefüllt werden. Die folgende Tabelle enthält jedes "ServiceNow"-Feld und das entsprechende feld Microsoft Teams-Räume Feld. Führen Sie die Aktion für jede Zeile des Abschnitts Feldzuordnung aus. Definitionen der einzelnen "ServiceNow"-Felds finden Sie unter [ServiceNow-Felddefinitionen.](#servicenow-field-definitions)
 
-| **ServiceNow-Feld** | **Microsoft Teams-Räume** | **Aktion** |
+| ServiceNow-Feld | Microsoft Teams-Räume-Feld | Aktion |
 | --- | --- | --- |
 | short_description | Vorfallbeschreibung | Keine Aktion erforderlich. Das Teams-Räume Feld wird automatisch ausgefüllt. |
 | Beschreibung | Erste Nachricht | Keine Aktion erforderlich. Das Teams-Räume Feld wird automatisch ausgefüllt. |
@@ -62,7 +62,7 @@ Die Konfiguration Ihrer Umgebung ist in hohem Maße anpassbar und hängt von den
 
 Wenn Sie dem Abschnitt Vorfall zusätzliche Pflichtfelder hinzufügen möchten, wählen Sie **Hinzufügen aus.**
 
-## <a name="test-and-enable-your-servicenow-configuration"></a>Testen und Aktivieren der ServiceNow-Konfiguration
+## <a name="test-and-enable"></a>Testen und aktivieren
 
 Nachdem Sie das Konfigurationsformular abgeschlossen haben, wählen **Sie unten** auf der Seite Test aus. Zum Übermitteln der Konfiguration sind Tests erforderlich.
 
@@ -74,11 +74,11 @@ Nachdem der Test erfolgreich abgeschlossen wurde, wählen Sie **Absenden aus,** 
 
 - **description**: Das Beschreibungsfeld in ServiceNow ist der erste Wert im Unterhaltungsverlauf eines ServiceNow-Vorfalls. Die Beschreibung entspricht der Nachricht "First" im Teams-Räume Premium Portal.
 
-- **assignment_group:** Das Zuordnungsgruppesfeld in ServiceNow wird zum Organisieren von Vorfällen verwendet. Aufgabengruppen sind äquivalent zu Raumgruppen im Teams-Räume Premium Portal. Standardmäßig gibt es eine Raumgruppe, und weitere können hinzugefügt werden. Sie entscheiden, wie viele Gruppen es gibt und wie Sie Ihre Vorfälle gruppieren. Beispielsweise können Sie Ihre Vorfälle nach Ort organisieren.
+- **assignment_group:** Das Feld "Zuordnungsgruppe" in "ServiceNow" dient zum Organisieren von Vorfällen. Aufgabengruppen sind äquivalent zu Raumgruppen im Teams-Räume Premium Portal. Standardmäßig gibt es eine Raumgruppe, und weitere können hinzugefügt werden. Sie entscheiden, wie viele Gruppen es gibt und wie Sie Ihre Vorfälle gruppieren. Beispielsweise können Sie Ihre Vorfälle nach Ort organisieren.
 
-- **Schweregrad:** Das Schweregradfeld in "ServiceNow" wird verwendet, um Vorfälle nach Priorität zu organisieren. Die Werte, die Priorität bestimmen, können angepasst werden. Der Schweregrad entspricht dem Feld "Ring" im Teams-Räume Premium Portal. Um Ringe im Teams-Räume Premium anzupassen, wechseln Sie **im** linken Navigationsmenü zu Updates. Wechseln Sie dann zur Registerkarte **Ringe,** und wählen Sie **Ring hinzufügen aus.**
+- **Schweregrad:** Das Schweregradfeld in "ServiceNow" wird verwendet, um Vorfälle nach Priorität zu organisieren. Die Werte, die Priorität bestimmen, können angepasst werden. Der Schweregrad entspricht dem Feld Ring im Teams-Räume Premium Portal. Um Ringe im Teams-Räume Premium anzupassen, wechseln Sie **im** linken Navigationsmenü zu Updates. Wechseln Sie dann zur Registerkarte **Ringe,** und wählen Sie **Ring hinzufügen aus.**
 
-- **Comments:** Comments ist ein optionales Feld in ServiceNow, das verwendet wird, um benutzerdefinierte erforderliche Felder aus Ihrer ServiceNow-Instanz in Ihre Teams-Räume Premium-Portalkonfiguration zu verwenden. Das Äquivalent zu Kommentaren ist ein benutzerdefinierter Wert im Teams-Räume Premium Portal.
+- **Comments**: Comments is an optional field in ServiceNow that is used to include custom required fields from your ServiceNow instance in your Teams-Räume Premium portal configuration. Das Äquivalent zu Kommentaren ist ein benutzerdefinierter Wert im Teams-Räume Premium Portal.
 
 - **State (aufgelöst):** Das Feld "Status" (aufgelöst) in "ServiceNow" wird verwendet, um zu bestimmen, wie ein Vorfall gelöst wurde, und ist erforderlich, um einen Vorfall zu schließen. Der Statuswert (aufgelöst) kann angepasst werden. Das Äquivalent zu Zustand (aufgelöst) ist ein benutzerdefinierter Wert im Teams-Räume Premium Portal.
 

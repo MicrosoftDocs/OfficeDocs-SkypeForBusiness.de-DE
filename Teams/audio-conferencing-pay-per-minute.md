@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über die Option für Audiokonferenzen mit Minutengebühren für Organisationen, die Microsoft-Volumenlizenzierung verwenden.
-ms.openlocfilehash: ef741bfba6667711c03bd90d2018d7da2093eac8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fcad09e00c106b38ad5f5a42add2e01b011c04ed
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593159"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432677"
 ---
 # <a name="audio-conferencing-pay-per-minute"></a>Audiokonferenz mit Minutenabrechnung
 
@@ -52,19 +52,19 @@ Während das Lizenzangebot für Audiokonferenzen pro Benutzer ein Einwahl- und e
 - Ausgehende Anrufe an externe Telefonnummern aus einer Besprechung Ihrer Organisation.
     
 > [!NOTE]
-> Die diesen Anruftypen zugeordneten Einwahl- und Einwahltarife finden Sie im Abschnitt Tarife für Anrufanrufe finden **Sie** unter [Audiokonferenz.](https://products.office.com/microsoft-teams/online-meeting-solutions#Rates)
+> Die diesen Anruftypen **zugeordneten** Einwahl- und Einwahltarife finden Sie im Abschnitt [Audiokonferenz-Tarife in Audiokonferenzen.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
   
   
-Die Zahlung per Minute setzt voraus, dass Ihr Unternehmen Guthaben für [Kommunikationen](what-are-communications-credits.md) eingerichtet hat. Weitere Informationen finden Sie unter Einrichten von Guthaben für [Kommunikationen](set-up-communications-credits-for-your-organization.md) für Ihre Organisation und/oder [Microsoft Teams Add-On-Lizenzierung.](https://docs.microsoft.com/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
+Die Zahlung per Minute setzt voraus, dass Ihr Unternehmen Guthaben für [Kommunikationen](what-are-communications-credits.md) eingerichtet hat. Weitere Informationen finden Sie unter Einrichten von Guthaben für [Kommunikationen](set-up-communications-credits-for-your-organization.md) für Ihre Organisation [und/oder Microsoft Teams-Add-On- Lizenzierung.](/microsoftteams/teams-add-on-licensing/microsoft-teams-add-on-licensing)
 
   
 Informationen zum Aktivieren von Audiokonferenzen mit Minuten für Benutzer in Ihrer Organisation finden Sie unter Testen oder Kaufen von [Audiokonferenzen in Microsoft Office 365 oder Office 365.](try-or-purchase-audio-conferencing-in-office-365-for-teams.md)
 
 ## <a name="why-is-it-best-for-you"></a>Warum ist es für Sie am besten?
 
-- Die Minutengebühr wird nur für jeden eingehenden oder ausgehenden Anruf berechnet, den jeder Teilnehmer während einer geplanten Besprechung abteilt (die Tarife variieren bei gebührenpflichtigen oder gebührenfreien Anrufen und nach Ziel), anstatt auf einem Mobilgerät oder PC Skype for Business- oder Teams-Anwendung zu verwenden.
+- Die Minutengebühr wird nur pro Minute für jeden eingehenden oder ausgehenden Anruf berechnet, der von jedem Teilnehmer während einer geplanten Besprechung durchgeführt wird (die Tarife variieren bei gebührenpflichtigen oder gebührenfreien Anrufen und nach Ziel) anstatt auf einem Mobilgerät oder PC die Anwendung "Skype for Business" oder "Teams" zu verwenden.
 
-- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, welche Arten von Dial-Outs (im In- und Ausland) aus Den Besprechungen eines Organisators heraus durchgeführt werden können. Siehe Richtlinien zur Einschränkung ausgehender Anrufe [für Audiokonferenzen und PSTN-Benutzeranrufe.](./outbound-calling-restriction-policies.md)
+- Möglichkeit zum Verwalten von Kosten, da Administratoren steuern können, welche Arten von Dial-Outs (im In- und Ausland) aus Besprechungen eines Organisators heraus durchgeführt werden können. Siehe Richtlinien zur Einschränkung ausgehender Anrufe [für Audiokonferenzen und PSTN-Benutzeranrufe.](./outbound-calling-restriction-policies.md)
 
 - Wenn Sie Lizenzen für Audiokonferenz mit Minutenabrechnung haben, müssen Sie nicht jedem Benutzer für die Nutzung der Audiokonferenz separate Lizenzen für Guthaben für Kommunikationen zuweisen (Sie müssen diese möglicherweise noch für andere Dienste zuweisen).
 

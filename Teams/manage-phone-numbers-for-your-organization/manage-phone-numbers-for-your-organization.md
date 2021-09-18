@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Telefonnummern für Ihre Organisation
+title: Verwalten von Telefonnummern für Anrufplan
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -27,21 +27,21 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtige und gebührenfreie) Für Microsoft Teams Organisation erhalten und verwalten.
-ms.openlocfilehash: 03c8fd0c265918a2ef664f668e2900d85ac50cf8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630187"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432527"
 ---
-# <a name="manage-phone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
+# <a name="manage-phone-numbers-for-calling-plan"></a>Verwalten von Telefonnummern für Anrufplan
 
-Es gibt vier Möglichkeiten, Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtig und gebührenfrei) für Ihre Organisation zu erhalten:
+Es gibt vier Möglichkeiten, Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtig und gebührenfrei) für den Anrufplan zu erhalten:
 
-- [Abrufen neuer Benutzertelefonnummern im Microsoft Teams Admin Center.](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)
+- [Abrufen neuer Benutzertelefonnummern im Microsoft Teams Admin Center](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
 - [Abrufen neuer Servicetelefonnummern im Microsoft Teams Admin Center.](../getting-service-phone-numbers.md#get-new-service-numbers)
 - [Übertragen oder _portieren_ Sie Ihre vorhandenen Telefonnummern bei uns.](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
-- Verwenden Sie ein Anfrageformular für neue Telefonnummern, die nicht im Microsoft Teams Admin Center aufgelistet sind.
+- Verwenden Sie ein Anfrageformular für neue Telefonnummern, die nicht im Admin Center Microsoft Teams werden.
 
 > [!IMPORTANT]
 > Für neue Telefonnummern in Australien siehe [Telstra Voice Services](https://aka.ms/TelstraVoicePlan). Neue Telefonnummern in Japan finden Sie unter [SoftBank Voice Services.](https://aka.ms/SoftBankVoicePlan)
@@ -82,32 +82,34 @@ Wenn Sie wissen, nach welcher Art von Formularen Sie suchen, wählen Sie in der 
 
 ***
 
-## <a name="heres-a-bit-more-information-about-these-number-request-forms"></a>Hier finden Sie weitere Informationen zu diesen Formularen zur Anforderung von Telefonnummern
+## <a name="number-request-forms"></a>Formulare für Nummernanforderung
+
+In den folgenden Abschnitten werden die Anforderungsformulare für neue Nummern und zum Übertragen vorhandener Nummern beschrieben.
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Anfordern von Formularen für neue Telefonnummern
 
-In jedem Land bzw. jeder Region gibt es unterschiedliche Anweisungen, unterschiedliche Arten von Telefonnummern (geografisch/nicht orts- und dienstfrei) sowie Regeln/Vorschriften zum Abrufen von Telefonnummern, damit sie in der Region verwendet werden Microsoft Teams.
+In jedem Land bzw. jeder Region gibt es unterschiedliche Anweisungen, unterschiedliche Arten von Telefonnummern (geografisch/nicht orts- und dienstfrei) sowie Regeln/Vorschriften zum Erhalten von Telefonnummern, damit sie in der Region verwendet werden Microsoft Teams.
 
 Manchmal können Sie (je nach Land oder Region) über das Microsoft Teams Admin Center keine neuen Telefonnummern für Benutzer (Abonnenten) oder  Dienste (gebührenpflichtig oder gebührenfrei) erhalten, oder Sie benötigen bestimmte Telefonnummern (Vanity-Anfragen) oder bestimmte Vorwahlnummern. 
 
 Wenn ja, müssen Sie das richtige PDF LOA-Formular (pro Land oder Region und Art der Telefonnummern) herunterladen und an uns senden. Unser Service Desk nimmt die Anfrage von dort ab und beginnt mit der Bearbeitung Ihrer Anfrage.
 
-### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers-from-another-service-provider-to-microsoft-teams"></a>Letter of Authorization (LOAs) to transfer/port existing phone numbers from another service provider to Microsoft Teams
+### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>Genehmigungsschreiben zum Übertragen/Portieren vorhandener Telefonnummern 
 
-Wenn Sie Ihre vorhandenen Telefonnummern übertragen/portieren müssen, müssen Sie uns eine schriftliche Vollmacht (Letter of Authorization, LOA) herunterladen, ausfüllen und uns senden, mit der wir berechtigt sind, in Ihrem Auftrag diese vorhandenen Nummern von einem anderen Dienstanbieter an Microsoft Teams zu übertragen.
+Wenn Sie Ihre vorhandenen Telefonnummern von einem anderen Dienstanbieter zu Teams übertragen/portieren müssen, müssen Sie uns eine Genehmigungsschreiben (Letter of Authorization; LOA) herunterladen, ausfüllen und uns senden. Mit dem LOA erhält Microsoft die Berechtigung, in Ihrem Auftrag vorhandene Nummern von einem anderen Dienstanbieter an Teams.
 
 Senden Sie uns bitte einen **LOA,** wenn Sie derzeit über Folgendes bei einem anderen Netzbetreiber verfügen:
 
 - Telefonnummern von Benutzern (Abonnenten).
 - Servicenummern (gebührenpflichtig) für Audiokonferenzbrücken, automatische Telefonkonferenzen oder Anrufwarteschleifen.
 - Toll-Free Telefonnummern.
-- Mehr als 999 Telefonnummern von Benutzern, die Sie übertragen/portieren müssen, die Sie jedoch mit dem Assistenten zum Portieren lokaler Nummern im Microsoft Teams Admin Center nicht erhalten können.
+- Sie benötigen mehr als 999 Benutzertelefonnummern, die Sie übertragen/portieren müssen, aber nicht über den Assistenten zum Portieren lokaler Nummern im Microsoft Teams Admin Center erhalten können.
 
 Nachdem Sie Ihren **ausgefüllten und signierten** LOA ausgefüllt haben, wenden Sie sich an unseren [PSTN Service Desk,](./contact-pstn-service-desk.md) damit wir Sie unterstützen können.
 
 ## <a name="still-need-assistance"></a>Benötigen Sie weitere Unterstützung?
 
-[Wenden Sie sich an unseren PSTN Service Desk,](./contact-pstn-service-desk.md) damit wir Sie schnellstmöglich unterstützen können.
+Wenn Sie Unterstützung benötigen, wenden Sie [sich an den PSTN Service Desk.](./contact-pstn-service-desk.md)
 
 ## <a name="additional-resources"></a>Weitere Ressourcen
 

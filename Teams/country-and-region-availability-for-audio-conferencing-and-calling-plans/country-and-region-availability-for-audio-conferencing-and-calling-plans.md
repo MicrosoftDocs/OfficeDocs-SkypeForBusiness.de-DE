@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 2cf9eaf4dab9fa52fc077e964874182d85bf73d4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b34ae51dae05d59b320f4d3285efe57131db58d6
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578379"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432297"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -193,11 +193,11 @@ Das Abwählen aus einer Besprechung in ein anderes Land bzw. eine andere Region 
   
 ### <a name="phone-system"></a>Telefonsystem
 
-Mit Telefonsystem erstellen Sie automatische Telefonkonferenzen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben der Anrufsteuerung zu erledigen, z. B. das Platzieren und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Die Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken und Skype for Business dann einen Anruf an diese Person ab. Zum Ein- und Empfangen von Anrufen **verwenden Telefonsystem-Benutzer** ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone, die mit Ihrem Skype for Business.
+Mit Telefonsystem erstellen Sie automatische Telefonkonferenzen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben der Anrufsteuerung zu erledigen, z. B. das Platzieren und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Die Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken und Skype for Business dann einen Anruf an diese Person ab. Zum Ein- und Empfangen von Anrufen verwenden **Telefonsystem-Benutzer** ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone, die mit anderen Geräten Skype for Business.
 
-> Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
+Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
-[Preise für das Telefonsystem](https://products.office.com/skype-for-business/phone-system#Requirements)
+[Preise für das Telefonsystem](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 
 > [!NOTE]
 > Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren.
@@ -217,7 +217,7 @@ Informationen zur Lizenzierung finden Sie auch unter [Lizenzierung des Telefonsy
 
 Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden Servicenummern genannt.
   
-Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Gebührenpflichtige Servicenummern erhalten Sie an diesen Standorten über Skype for Business **Admin Center.**
+Es folgt eine Liste der Hauptstädte und Großstädte, für die Sie gebührenpflichtige Servicenummern zur Verwendung mit Audiokonferenz und Anrufplänen anfordern können. Gebührenpflichtige Servicenummern erhalten Sie an diesen Standorten über **Skype for Business Admin Center.**
   
 Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer erhalten möchten, lesen Sie Abrufen von [Servicetelefonnummern](../getting-service-phone-numbers.md). Wenn Sie bereits über eine gebührenpflichtige oder gebührenfreie Servicenummer verfügen, die Sie von einem anderen Anbieter übertragen möchten, lesen Sie Verwalten von Telefonnummern [für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 

@@ -21,28 +21,28 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 824e03ea5affc4e8c08534b0328632ac3fb4b6f6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6e154f6e972fe54c29f8fcded8c554bf8893795
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728484"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432277"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen
 
-Mithilfe richtlinienbasierter Aufzeichnungen können Organisationen, die Microsoft Teams für Anrufe und Besprechungen festlegen, mithilfe einer Verwaltungsrichtlinie festlegen, wann Anrufe und Onlinebesprechungen automatisch aufgezeichnet und für nachfolgende Verarbeitung und Aufbewahrung erfasst werden sollen, wie dies gemäß den relevanten Unternehmens- oder Gesetzlichen Richtlinien erforderlich ist.
+Mit richtlinienbasierter Aufzeichnung können Organisationen, die Microsoft Teams für Anrufe und Besprechungen annehmen, mithilfe einer Verwaltungsrichtlinie eine Entscheidung treffen, wenn Anrufe und Onlinebesprechungen automatisch aufgezeichnet und für nachfolgende Verarbeitung und Aufbewahrung erfasst werden sollen, wie dies gemäß den relevanten Unternehmens- oder Gesetzlichen Richtlinien erforderlich ist.
 
-Teams wurde verbessert, um die Integration von Aufzeichnungslösungen von Drittanbietern zu unterstützen, einschließlich der Plattformfunktionen, benutzeroberflächen und administrativen Schnittstellen, die erforderlich sind, um eine End-to-End-Lösung für die Konfiguration, Verwaltung, Aufzeichnung, Speicherung und Analyse ihrer Kommunikation Teams bereitzustellen. Zu den Verbesserungen gehören APIs für die Kommunikationsplattform und Ereignisse für die Aufzeichnung, die Folgendes bieten:
+Teams wurde um die Unterstützung der Integration von Aufzeichnungslösungen von Drittanbietern erweitert, einschließlich der Plattformfunktionen, benutzeroberflächen und administrativen Schnittstellen, die erforderlich sind, um eine End-to-End-Lösung zum Konfigurieren, Verwalten, Aufzeichnen, Speichern und Analysieren ihrer Teams bereitzustellen. Zu den Verbesserungen gehören APIs für die Kommunikationsplattform und Ereignisse für die Aufzeichnung, die Folgendes bieten:
 
 - Nahtlose, hochwertige Medienaufnahme auf allen Geräten und allen unterstützten Endpunkten für Audio, Video, Bildschirmfreigabe und Chat.
 
 - Unterstützung für die Erfassung der Interaktion zwischen Teams und unterstützten Anrufendpunkten (Teams, Teams Mobile, Skype for Business, PSTN)
 
-- Neue Verwaltungsrichtlinien für die Complianceaufzeichnung, einschließlich integration in Teams administrative Anrufe und Besprechungstools und -richtlinien
+- Neue Verwaltungsrichtlinien für die Konformitätsaufzeichnung, einschließlich integration in Teams administrative Anruf- und Besprechungstools und -richtlinien
 
-Die Complianceaufzeichnung kann auf Microsoft 365 A3 A5/E3/E5/Business Premium und Office 365 A3/A5/E3/E5 aktiviert werden. 
+Die Complianceaufzeichnung kann für Benutzer Microsoft 365 A3/A5/E3/E5/Business Premium und Office 365 A3/A5/E3/E5 aktiviert werden. 
 
-Die Integrationsfunktionen für die Integration von Konformitätsaufzeichnungslösungen wurden auf der Ignite 2019 in der Complianceaufzeichnungs- und [-Microsoft Teams überprüft.](https://myignite.microsoft.com/archives/IG19-VCE40)
+Die Integrationsfunktionen für die Integration von Konformitätsaufzeichnungslösungen wurden auf der Ignite 2019 in der [Sitzung "Complianceaufzeichnung und -Microsoft Teams" überprüft.](https://myignite.microsoft.com/archives/IG19-VCE40)
 
 ## <a name="teams-interaction-recording-overview"></a>Teams der Aufzeichnung von Interaktionen
 
@@ -62,7 +62,7 @@ Für jede der Kategorien gelten unterschiedliche Anforderungen für die Art und 
 | Zugriffsbesitzer           | Benutzer               | Compliance      |
 | Aufbewahrungsrichtlinie?      | Optional           | Ja             |
 
-Teams bietet verschiedene Funktionen für die [bequeme](./cloud-recording.md) und funktionale Aufzeichnung von Besprechungen und Liveereignissen. Organisationsaufzeichnung bedeutet, dass Organisationen, die Teams für Anrufe und Besprechungen übernehmen, im Rahmen einer Verwaltungsrichtlinie festlegen können, wann Anrufe und Onlinebesprechungen automatisch aufgezeichnet und zur nachfolgenden Verarbeitung und Aufbewahrung erfasst werden sollen, wie dies durch die relevante Unternehmens- oder Gesetzliche Richtlinie vorgeschrieben ist. Benutzern dieser Richtlinie ist bewusst, dass ihre digitalen Interaktionen mit Teams aufgezeichnet werden, aber sie können die Aufzeichnung nicht deaktivieren und haben keinen Zugriff auf die Aufzeichnung, nachdem die Interaktion abgeschlossen ist. Die Aufzeichnung wird Teil des Organisationsarchivs, das compliance- und juristischen Mitarbeitern für eDiscovery, gesetzliche Aufbewahrung und andere Zwecke der Unternehmensaufbewahrung zur Verfügung steht.
+Teams bietet verschiedene Funktionen für die [bequeme](./cloud-recording.md) und funktionale Aufzeichnung von Besprechungen und Liveereignissen. Organisationsaufzeichnung bedeutet, dass Organisationen, die Teams für Anrufe und Besprechungen übernehmen, im Rahmen einer Verwaltungsrichtlinie festlegen können, wann Anrufe und Onlinebesprechungen automatisch aufgezeichnet und zur nachfolgenden Verarbeitung und Aufbewahrung erfasst werden sollen, wie dies von den relevanten Unternehmens- oder Gesetzlichen Richtlinien gefordert wird. Benutzern dieser Richtlinie ist bewusst, dass ihre digitalen Interaktionen mit Teams aufgezeichnet werden, aber sie können die Aufzeichnung nicht deaktivieren und haben keinen Zugriff auf die Aufzeichnung, nachdem die Interaktion abgeschlossen ist. Die Aufzeichnung wird Teil des Organisationsarchivs, das compliance- und juristischen Mitarbeitern für eDiscovery, gesetzliche Aufbewahrung und andere Zwecke der Unternehmensaufbewahrung zur Verfügung steht.
 
 ## <a name="example-user-needs"></a>Beispiel für Benutzeranforderungen
 
@@ -86,7 +86,7 @@ Teams bietet verschiedene Funktionen für die [bequeme](./cloud-recording.md) un
 <td><ul>
 <li><p>Verstehen Sie, warum und wie Sie Aufzeichnungsrichtlinien auf Teams/Endpunkte anwenden/ erzwingen.</p></li>
 <li><p>Konfigurieren und verwalten Teams Aufzeichnungsrichtlinien für die Organisation.</p></li>
-<li><p>Überwachen und Behandeln von Problemen mit der Aufzeichnung bei Teams und Besprechungen.</p></li>
+<li><p>Überwachen und Behandeln von Problemen mit der Aufzeichnung bei Teams von Anrufen und Besprechungen.</p></li>
 <li><p>Unterstützen Sie interne Compliance Officer mit betriebsinternen Analysen zur Nutzung, Qualität und Zuverlässigkeit.</p></li>
 </ul></td>
 </tr>
@@ -111,17 +111,17 @@ Teams bietet verschiedene Funktionen für die [bequeme](./cloud-recording.md) un
 Lösungen für complianceaufzeichnungen sind in Teams integriert, wie in der folgenden Abbildung dargestellt:
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot der Einstellung für die benutzerdefinierte Team-App.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "Die Bilder zeigen den Ablauf, wenn Teams oder Anruf gesendet und empfangen wird.")
+> ![Screenshot der Einstellung für die benutzerdefinierte Team-App.](media/hp-compliance-recording-for-teams-calling-and-meetings.jpg "Die Bilder zeigen den Ablauf, wenn eine Teams oder ein Anruf gesendet und empfangen wird.")
 
 ## <a name="recorder"></a>Rekorder
 
 Die Kernkomponente der Lösung für Complianceaufzeichnungen ist die Aufzeichnung.
-Aufzeichnungen werden als skalierbare Azure-basierte Dienste (Bots) entwickelt, die die [Kommunikationsplattform](/graph/cloud-communications-concept-overview) von Microsoft verwenden und sich als Anwendungen bei Microsoft Graph. Die Aufzeichnung ermöglicht die direkte Interaktion mit [Teams-APIs](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) der Kommunikationsplattform für Anrufe und Besprechungen und stellt den Endpunkt für die Medienaufnahme zur Verfügung.
+Rekorder werden als skalierbare Azure-basierte Dienste (Bots) entwickelt, die die [Kommunikationsplattform](/graph/cloud-communications-concept-overview) von Microsoft verwenden und sich als Anwendungen bei Microsoft Graph. Die Aufzeichnung ermöglicht die direkte Interaktion mit [Teams-APIs](/graph/api/resources/communications-api-overview?view=graph-rest-1.0) der Kommunikationsplattform für Anrufe und Besprechungen und stellt den Endpunkt für die Medienaufnahme zur Verfügung.
 
 Eine [Beispielanwendung für die Complianceaufzeichnung ist verfügbar,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/tree/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot) in der gezeigt wird, wie der Bot konfiguriert, die App-Instanz erstellt und die Compliancerichtlinien zugewiesen werden. Das Beispiel enthält außerdem Beispiele zur API-Verwendung [](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Http/Controllers/PlatformCallController.cs#L199-L244) für das Aufzeichnen bestimmter Interaktionen, z. B. behandeln das Routing eingehender [Anrufe,](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L135-L138)Ändern des Aufzeichnungszuständes und Entfernen des Benutzers, der [aufgezeichnet wird.](https://github.com/microsoftgraph/microsoft-graph-comms-samples/blob/a3943bafd73ce0df780c0e1ac3428e3de13a101f/Samples/BetaSamples/LocalMediaSamples/ComplianceRecordingBot/FrontEnd/Bot/CallHandler.cs#L121-L126)
-Graph Dokumentation zu bestimmten APIs finden Sie hier für [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) und [incomingContext.](/graph/api/resources/incomingcontext?view=graph-rest-1.0)
+Graph Dokumentation zu den spezifischen APIs finden Sie hier für [updateRecordingStatus](/graph/api/call-updaterecordingstatus?tabs=http&view=graph-rest-1.0) und [incomingContext.](/graph/api/resources/incomingcontext?view=graph-rest-1.0)
 
-Die genaue Implementierung des Rekorderdiensts variiert je nach Partner, muss aber so konzipiert sein, dass mehrere Rekorder unterstützt werden, um eine hohe Verfügbarkeit und geografische Verteilung der Bereitstellung zu erreichen, um die Latenz von Teams zum Recorder zu verringern. Darüber hinaus wird erwartet, dass die Aufzeichnungen selbst resilienz- und redundanz entwickelt werden.
+Die genaue Implementierung des Rekorderdiensts variiert je nach Partner, muss aber so konzipiert sein, dass mehrere Rekorder unterstützt werden, um eine hohe Verfügbarkeit und geografische Verteilung der Bereitstellung zu erreichen, um die Latenz von Teams zum Rekorder zu verringern. Darüber hinaus wird erwartet, dass die Aufzeichnungen selbst resilienz- und redundanz entwickelt werden.
 
 Partner müssen die mindestens erforderliche Version der Microsoft Graph-Kommunikations-APIs und SDKs mit Microsoft bestätigen, bevor sie ihre Lösung zur Zertifizierung einreichen, um sicherzustellen, dass alle Anforderungen der Integration von Complianceaufzeichnungen unterstützt werden.
 
@@ -211,7 +211,7 @@ Die Unterstützung für Benachrichtigungen wird mithilfe der Teams aktiviert. Di
 
 ## <a name="compliance-recording-for-teams-certification-programs"></a>Complianceaufzeichnung für Teams Zertifizierungsprogramme
 
-Neben der Veröffentlichung öffentlich verfügbarer APIs, mit denen Partner CCaaS-Lösungen in Teams entwickeln und integrieren können, haben wir die Complianceaufzeichnung für das Microsoft Teams-Zertifizierungsprogramm entwickelt, um Kunden die Sicherheit zu geben, dass die Lösung jedes teilnehmenden Partners getestet und überprüft wurde, um die von Microsoft-Lösungen zu erwartende Qualität, Kompatibilität und Zuverlässigkeit zu bieten.  
+Neben der Veröffentlichung öffentlich verfügbarer APIs, die Es Partnern ermöglichen, CCaaS-Lösungen mit Teams zu entwickeln und zu integrieren, haben wir die Complianceaufzeichnung für das Microsoft Teams-Zertifizierungsprogramm entwickelt, um Kunden die Sicherheit zu geben, dass die Lösung jedes teilnehmenden Partners getestet und überprüft wurde, um die Von Microsoft-Lösungen zu erwartende Qualität, Kompatibilität und Zuverlässigkeit zu bieten.  
 
 Die folgenden Partner haben ihre Lösung für die Microsoft Teams.<br/><br/>
 
@@ -223,6 +223,7 @@ Die folgenden Partner haben ihre Lösung für die Microsoft Teams.<br/><br/>
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
+|Rotes Kästchen |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 |Theta Lake |[https://thetalake.com/integrations/microsoft/](https://thetalake.com/integrations/microsoft/) |
 |Verint |[https://www.verba.com/solutions/microsoft-teams-recording](https://www.verba.com/solutions/microsoft-teams-recording) |
 
@@ -235,10 +236,9 @@ Die folgenden Partner zertifizieren ihre Lösung für Microsoft Teams.<br/><br/>
 |Landis Technologies |[https://landistechnologies.com/](https://landistechnologies.com/) |
 |Luware |[https://luware.com/en/solution/microsoft-teams-recording/](https://luware.com/en/solution/microsoft-teams-recording/) |
 |Oak Innovation |[https://www.oakinnovate.com/call-recording](https://www.oakinnovate.com/call-recording) |
-|Rotes Kästchen |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |
 
 Diese Liste wird aktualisiert, sobald weitere Partner beitreten und die Zertifizierungskriterien erfüllen.
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Wenn Ein Lieferant am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine E-Mail an [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).
+Wenn Sie als Anbieter am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine E-Mail an [Teamscategorypartner@microsoft.com](mailto:Teamscategorypartner@microsoft.com).

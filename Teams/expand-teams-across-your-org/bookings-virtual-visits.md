@@ -19,12 +19,12 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie die Bookings-App in Teams zum Planen, Verwalten und Durchführen virtueller Besuche verwenden.
-ms.openlocfilehash: 9c925e07bebe20e1f103a4f3acf3dc60f8409bcf
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: a37a024e31c75bbedbdb36d9aa0d6acfd2af614c
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973282"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432457"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App
 
@@ -36,15 +36,15 @@ Mit der Bookings-App können Sie komplexe Planungsanforderungen einer Organisati
 
 Die virtuellen Besuche werden in Microsoft Teams besprechungen abgehalten, die stabile Funktionen für Videokonferenzen bieten. Ein Arzt kann z. B. seinen Bildschirm freigeben und die Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
 
-Jeder virtuelle Termin enthält einen Teams-Besprechungslink, der per E-Mail an die Teilnehmer gesendet wird, wo sie ganz einfach über einen Webbrowser oder in Teams auf jedem Gerät teilnehmen können. Automatisierte E-Mail-Erinnerungen helfen, nicht angezeigte Shows zu reduzieren und das Engagement von Kunden und Kunden zu verbessern.
+Jeder virtuelle Termin enthält einen Teams-Besprechungslink, der per E-Mail an die Teilnehmer gesendet wird. Dort können sie ganz einfach über einen Webbrowser oder in Teams von jedem Gerät aus teilnehmen. Automatisierte E-Mail-Erinnerungen helfen, nicht angezeigte Shows zu reduzieren und das Engagement von Kunden und Kunden zu verbessern.
 
 Mit Bookings erhalten Sie eine Erfahrung, die auf Ihre Branche zugeschnitten ist. Im Folgenden finden Sie einige Beispiele für die Verwendung in Ihrer Organisation:
 
 |Branche | Beispiele |
 |---------|---------|
 |Finanzdienstleistungen    |  Virtuelle Besuche für Remotevertrieb und -service<br/>Planen und verwalten Sie virtuelle Termine für Manager von Bankbeziehungen, Finanzberater und Ansprüche anpassende Mitarbeiter (um nur einige zu nennen), um Ihre Kunden mit gesteigerter Effizienz und Benutzerfreundlichkeit zu bedienen.  |
-|Gesundheitswesen   |  Virtuelle Besuche für die Patientenpflege <br/>Planen und verwalten Sie virtuelle Besuche für die Mitglieder Ihres Pflegeteams, die sich mit Patienten oder anderen Anbietern im Gesundheitswesen treffen, um die medizinische Behandlung zu besprechen.   |         |
-|Einzelhandel   | Virtuelle Einkaufserfahrungen <br/>Planen und verwalten Sie Termine für Ihre Vertriebsmitarbeiter, Produktexperten und Entwurfsberater, um virtuelle Einkaufserfahrungen mit Kunden zu führen.   |         |
+|Gesundheitswesen   |  Virtuelle Besuche für die Patientenpflege <br/>Planen und verwalten Sie virtuelle Besuche für die Mitglieder Ihres Pflegeteams, die sich mit Patienten oder anderen Anbietern im Gesundheitswesen treffen, um die medizinische Behandlung zu besprechen.   |
+|Einzelhandel   | Virtuelle Einkaufserfahrungen <br/>Planen und verwalten Sie Termine für Ihre Vertriebsmitarbeiter, Produktexperten und Entwurfsberater, um virtuelle Einkaufserfahrungen mit Kunden zu führen.   |
 
 Dieser Artikel gibt Ihnen einen Überblick über die Verwendung der Bookings-App in Teams zum Planen, Verwalten und Durchführen virtueller Besuche.
 
@@ -52,13 +52,13 @@ Dieser Artikel gibt Ihnen einen Überblick über die Verwendung der Bookings-App
 
 Wenn Sie ein Administrator sind, finden Sie unter Verwalten der [Bookings-App in Teams](../bookings-app-admin.md) Informationen zu den Voraussetzungen für die Verwendung der Bookings-App in Teams, zum Steuern des Zugriffs auf Bookings in Ihrer Organisation und zu empfohlenen Richtlinien- und Administratoreinstellungen.
 
-Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihrem Teams. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen an Terminen über ihr Teams Kalender Outlook oder über den Besprechungslink in ihrer Buchungsbestätigungs-E-Mail teil.
+Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihrem Teams. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen an Terminen über ihr Teams Oder Outlook Kalender teil, oder sie verwenden den Besprechungslink in ihrer Buchungsbestätigungs-E-Mail.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Einrichten eines neuen Buchungskalenders
 
 ### <a name="create-the-booking-calendar"></a>Erstellen des Buchungskalenders
 
-Wechseln Teams zu Bookings   >  **Erste Schritte,** und wählen Sie dann **Neuer Buchungskalender aus.** Füllen Sie das Formular aus, und wählen Sie den relevanten Unternehmenstyp für Ihre Organisation aus.
+Wechseln Teams zu **Bookings**  >  **Erste Schritte,** und wählen Sie dann **Neuer Buchungskalender aus.** Füllen Sie das Formular aus, und wählen Sie den relevanten Unternehmenstyp für Ihre Organisation aus.
 
 :::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Screenshot des Bildschirms "Neuer Buchungskalender" mit Geschäftstypen":::
 
