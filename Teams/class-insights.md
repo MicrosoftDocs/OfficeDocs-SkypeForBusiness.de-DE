@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ec523475d109c5658a3e30d679b2f06425e4ced8
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: cc920db842d37129a122ed69a8816e66a4c16d9e
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866407"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432447"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -133,6 +133,7 @@ Derzeit werden Daten aus den folgenden Bereichen in Klassenteams gesammelt:
 | **Dateien** |   Hochladen, Herunterladen, Zugreifen, Ändern, Kommentieren und Freigeben einer Datei (ohne Dateiinhalt).|
 | **OneNote-Kursnotizbuch** |  Bearbeiten einer Seite oder eines Abschnitts in einem Notizbuch (ohne Seiteninhalt)|
 | **Besprechungen** |    Anwesenheit (ohne Besprechungsinhalt).|
+| **[Lesefortschritt](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    Genauigkeitsrate, anspruchsvollste Wörter und Wörter pro Minute.  |
 | **[Spiegeln](reflect.md)** |   Überprüfungen (einschließlich Werte).|
 
 > [!NOTE]

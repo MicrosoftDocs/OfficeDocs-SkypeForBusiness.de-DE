@@ -901,6 +901,8 @@ items:
             href: shared-line-appearance.md
           - name: Wähltastatur-Konfiguration
             href: dial-pad-configuration.md
+          - name: Musik wird angehalten
+            href: music-on-hold.md
       - name: PSTN-Konnektivitätsoptionen
         items:
           - name: Übersicht
@@ -1000,33 +1002,39 @@ items:
       - name: Telefonnummern
         items:
           - name: Verwalten von Telefonnummern für Ihre Organisation
-            href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
-          - name: 'Arten von Telefonnummern, die für Anrufpläne verwendet werden'
-            href: different-kinds-of-phone-numbers-used-for-calling-plans.md
-          - name: Abrufen von Telefonnummern für Ihre Benutzer
-            href: getting-phone-numbers-for-your-users.md
+            href: manage-phone-numbers-landing-page.md
           - name: Wie viele Telefonnummern können Sie bekommen?
             href: how-many-phone-numbers-can-you-get.md
           - name: Suchen nach Telefonnummern für Benutzer
             href: search-for-phone-numbers-for-users.md
           - name: Anzeigen einer Liste der Telefonnummern in Ihrer Organisation
             href: see-a-list-of-phone-numbers-in-your-organization.md
-          - name: 'Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer'
-            href: assign-change-or-remove-a-phone-number-for-a-user.md
-          - name: Abrufen von Diensttelefonnummern
-            href: getting-service-phone-numbers.md
-          - name: Übertragen von Telefonnummern
+          - name: Telefonnummern für Anrufplan verwalten
             items:
-              - name: Was ist ein Portierungsauftrag?
-                href: phone-number-calling-plans/port-order-overview.md
-              - name: Übertragen von Telefonnummern an Teams
-                href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
-              - name: Manuelles Übermitteln eines Portierungsauftrags
-                href: phone-number-calling-plans/manually-submit-port-order.md
-              - name: Wie ist der Status meiner Portierungsaufträge?
-                href: phone-number-calling-plans/port-order-status.md
-          - name: Unterstützte Bewertungszentren und Abdeckung
-            href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+              - name: Übersicht
+                href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
+              - name: Abrufen von Telefonnummern für Ihre Benutzer
+                href: getting-phone-numbers-for-your-users.md
+              - name: 'Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer'
+                href: assign-change-or-remove-a-phone-number-for-a-user.md
+              - name: Abrufen von Diensttelefonnummern
+                href: getting-service-phone-numbers.md
+              - name: Übertragen von Telefonnummern
+                items:
+                  - name: Was ist ein Portierungsauftrag?
+                    href: phone-number-calling-plans/port-order-overview.md
+                  - name: Übertragen von Telefonnummern an Teams
+                    href: phone-number-calling-plans/transfer-phone-numbers-to-teams.md
+                  - name: Manuelles Übermitteln eines Portierungsauftrags
+                    href: phone-number-calling-plans/manually-submit-port-order.md
+                  - name: Wie ist der Status meiner Portierungsaufträge?
+                    href: phone-number-calling-plans/port-order-status.md
+              - name: Unterstützte Bewertungszentren und Abdeckung
+                href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
+          - name: Telefonnummern für Operator Connect verwalten
+            href: operator-connect-configure.md#set-up-phone-numbers
+          - name: Telefonnummern für Direct Routing verwalten
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
       - name: VoIP-Routing
         items:
           - name: Was sind Wählpläne?

@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1e8bc4836cab206389fcc011e4d7a41d2b54f74
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
+ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973063"
+ms.lasthandoff: 09/17/2021
+ms.locfileid: "59432437"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -309,13 +309,13 @@ Ja, das Ablaufdatum wird pro Datei festgelegt. Benutzer können das Ablaufdatum 
 
 **Wie kann ein Administrator das Ablaufdatum ändern?**
   
-Administratoren können die standardmäßige Ablaufeinstellung in PowerShell oder Teams Admin Center ändern, bevor das Feature freigegeben wird. Die Einstellung kann noch nicht geändert werden. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Microsoft Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen.
+Administratoren können die Standardeinstellung für das Ablaufen in PowerShell (Set-CsTeamsMeetingPolicy –Identity Global – MeetingRecordingExpirationDays) oder im Teams Admin Center ändern, bevor das Feature veröffentlicht wird. **Die Einstellung ist noch nicht zur Änderung verfügbar**. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
 
 Die Werte für die ablaufenden Tage können wie folgt festgelegt werden:
   
-- Der Wert kann zwischen 1 und 99.999 (maximal 273 Jahre) liegen.
-- Der Wert kann auch -1 sein, damit TMR nie abläuft.
-
+- Der Wert kann zwischen 1 und 9.999 sein.
+- Der Wert kann auch -1 sein, damit TMR nie abläuft. 
+ 
 Administratoren können das Ablaufdatum für bestehende Microsoft Teams-Besprechungsaufzeichnungen, die bereits vor der Veröffentlichung dieses Features auf OneDrive oder SharePoint hochgeladen wurden, nicht ändern. Dadurch wird der Absicht des Benutzers Rechnung getragen, der Besitzer der betreffenden Microsoft Teams-Besprechungsaufzeichnung ist.
   
 **Kann ein Administrator festlegen, dass TMR nie abläuft?**
@@ -333,6 +333,11 @@ Das Ablaufdatum wird nach dem erneuten Hochladen unabhängig von der SKU des Ben
 **Was geschieht, wenn ich die Aufzeichnung an einen anderen Ort oder eine andere Website kopiere oder verschiebe?**
 
 Das Datum wird nur für eine verschobene Aufzeichnungsdatei beibehalten. Für eine kopierte Datei gilt das Ablaufdatum nicht, genau wie für eine erneut hochgeladene Aufzeichnung.
+  
+
+**Was kann über die Administratorrichtlinie gesteuert werden?**
+  
+Sowohl für Besprechungen als auch für Anrufe wird die selbe `CsTeamsMeetingPolicy`Einstellung`MeetingRecordingExpirationDays` verwendet. 
   
 **Wie können Endbenutzer das Ablaufdatum für eine bestimmte Microsoft Teams-Besprechungsaufzeichnung ändern?**
   
@@ -369,7 +374,7 @@ Der Dateibesitzer erhält eine E-Mail-Benachrichtigung, wenn die Microsoft Teams
   
 **Welche SKUs sind für dieses Feature erforderlich?**
   
-Alle SKUs verfügen standardmäßig über dieses Feature. Bei A1-Benutzern wird die Ablauffrist standardmäßig 30 Tage betragen; diese kann nicht von ihnen geändert werden.
+Alle SKUs verfügen standardmäßig über dieses Feature. A1-Benutzer werden standardmäßig auf einen Ablaufzeitraum von 30 Tagen festgelegt.
   
 **Handelt es sich bei dem Dateiablauf um ein überwachtes Ereignis, und wird es in meinen Überwachungsprotokollen aufscheinen?**
   
