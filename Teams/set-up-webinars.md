@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Erfahren Sie, wie Sie Webinarrichtlinien für Besprechungen Teams verwalten.
-ms.openlocfilehash: 1ab4f082a270e4d9b3107c0b6ffbb27bd7c70110
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 78c81e25d246dc450ffcd821d22148c330d38f23
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612974"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456315"
 ---
 # <a name="set-up-for-webinars-in-microsoft-teams"></a>Einrichten von Webinaren in Microsoft Teams
 
@@ -38,14 +38,14 @@ Nachdem Sie Webinare in Ihrer Organisation eingerichtet haben, können Ihre Benu
 
 ## <a name="allow-users-to-schedule-webinars-in-the-teams-admin-center"></a>Zulassen, dass Benutzer Webinare im Teams Admin Center planen
 
-Sie können das Teams Admin Center verwenden, um Webinare für Ihre Organisation zu erstellen. Die Richtlinien zum Einrichten von Webinaren finden Sie im Teams Admin Center **unter**  >  **Besprechungsbesprechungsrichtlinien**.
+Sie können das Teams Admin Center verwenden, um Webinare für Ihre Organisation zu erstellen. Die Richtlinien zum Einrichten von Webinaren finden Sie im Teams Admin Center unter Richtlinien **für**  >  **Besprechungsbesprechungen.**
 
 ### <a name="allow-meeting-registration"></a>Besprechungsregistrierung zulassen
 
 Wenn Sie dies aktivieren, können die Benutzer Webinare planen. Diese ist standardmäßig aktiviert. Wenn Sie die Besprechungsregistrierung deaktivieren möchten, legen Sie diese Richtlinie auf **Aus .**
 
 > [!IMPORTANT]
-> **Das Planen privater Besprechungen** zulassen muss so sein, dass die Besprechungsregistrierung funktioniert. Diese Richtlinie ist standardmäßig im Admin Center Teams aktiviert. Für Schüler/Studierende in Bildungseinrichtungen ist diese Richtlinie standardmäßig deaktiviert. Weitere Informationen zum Aktivieren der privaten Besprechungsplanung für Schüler und Studenten finden Sie unter Teams für Education Richtlinien [und Richtlinienpakete.](policy-packages-edu.md)
+> **Das Planen privater Besprechungen** zulassen muss so sein, dass die Besprechungsregistrierung funktioniert. Diese Richtlinie ist standardmäßig im Admin Center Teams aktiviert. Für Schüler/Studierende in Bildungseinrichtungen ist diese Richtlinie standardmäßig deaktiviert. Weitere Informationen zum Aktivieren der privaten Besprechungsplanung für Schüler/Studierende finden Sie unter Teams für Education Richtlinien [und Richtlinienpakete.](policy-packages-edu.md)
 
 ### <a name="who-can-register"></a>Wer kann registriert werden
 
@@ -60,7 +60,7 @@ Wenn Sie dies aktivieren, können Organisatoren Berichte dazu anzeigen, wer sich
 
 ## <a name="allow-users-to-schedule-webinars-using-powershell"></a>Zulassen, dass Benutzer Webinare mit PowerShell planen
 
-Sie können die folgenden Attribute im Windows PowerShell **Set-CsTeamsMeetingPolicy-Cmdlet** verwenden, um Webinare in einer Teams.
+Sie können im Windows PowerShell cmdlet **Set-CsTeamsMeetingPolicy** die folgenden Attribute verwenden, um Webinare in einer Teams.
 
 - AllowMeetingRegistration
 - WhoCanRegister
@@ -73,7 +73,7 @@ Weitere Informationen zum Cmdlet finden Sie unter [Set-CsTeamsMeetingPolicy.](/p
 
 ### <a name="allow-users-to-schedule-webinars"></a>Zulassen, dass Benutzer Webinare planen
 
-Sie können die Registrierung auf Benutzer in Ihrer Organisation beschränken oder sie für alle Benutzer innerhalb und außerhalb Ihres Mandanten öffnen. **WhoCanRegister** ist standardmäßig aktiviert und auf **Jeder festgelegt.** Wenn Sie die Besprechungsregistrierung deaktivieren möchten, legen Sie **AllowMeetingRegistration auf** **False .**
+Sie können die Registrierung auf Benutzer in Ihrer Organisation beschränken oder sie für alle Benutzer innerhalb und außerhalb Ihres Mandanten öffnen. **WhoCanRegister** ist standardmäßig aktiviert und  für die globale **(organisationsweite Standard)-Richtlinie** auf Jeder festgelegt. Wenn Sie die Besprechungsregistrierung deaktivieren möchten, legen Sie **AllowMeetingRegistration auf** **False .**
 
 > [!IMPORTANT]
 > **AllowPrivateMeetingScheduling** muss auf **True festgelegt sein,** damit **AllowMeetingRegistration** funktioniert. Darüber hinaus Microsoft Listen in einem SharePoint. Weitere Informationen finden Sie unter [Steuerelementeinstellungen für Microsoft Listen.](/sharepoint/control-lists)

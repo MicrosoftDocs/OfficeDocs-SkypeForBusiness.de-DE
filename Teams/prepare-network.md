@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: 13bc12d5df1139bc76afa48751e7a7cb3c6197c0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621967"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456345"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams 
 
@@ -153,7 +153,7 @@ In dieser Tabelle wird veranschaulicht, wie Teams Bandbreite nutzt. Microsoft Te
       **Modalität**
    :::column-end:::
    :::column span="3":::
-      **Erforderliche Bandbreite (Bitrate KB/s hoch/ herunter)**
+      **Bandbreitenanforderungen (Bitrate KB/s hoch/herunter)**
    :::column-end:::
 :::row-end:::
 :::row:::

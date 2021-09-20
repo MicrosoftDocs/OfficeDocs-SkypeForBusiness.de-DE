@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58df214ec15153abcee4275f42c6ae6208b5d4b1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5735d69d45785e63cefbbea646a1780dc3aa4ecf
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731244"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456495"
 ---
 # <a name="view-your-policy-assignments-in-the-activity-log"></a>Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll
 
@@ -35,7 +35,7 @@ Wenn Sie den Benutzern im Microsoft Teams Admin Center Richtlinien zuweisen, kö
 
 So zeigen Sie Ihre Richtlinienzuweisungen im Aktivitätsprotokoll an:
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams **Admin Center** zu Dashboard , und wählen Sie dann unter Aktivitätsprotokoll die Option Details anzeigen **aus.** 
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Start**, und wählen Sie dann unter Aktivitätsprotokoll **die** Option Details **anzeigen aus.**
 2. Sie können alle Richtlinienzuweisungen anzeigen oder die Liste nach Status filtern, um nur Die Aufgaben "Nicht **gestartet",** **"In Bearbeitung"** oder **"Abgeschlossen" angezeigt zu werden.** Zu jeder Aufgabe werden die folgenden Informationen zu sehen:
     - **Name:** Der Name der Richtlinienzuweisung. Klicken Sie auf den Link, um weitere Details anzuzeigen. Dies umfasst die Anzahl der Benutzer, denen die Richtlinie zugewiesen wurde, sowie die Anzahl der abgeschlossenen, in Bearbeitung und nicht begonnenen Zuordnungen. Außerdem sehen Sie die Liste der Benutzer im Batch sowie den Status und das Ergebnis für jeden Benutzer. Nachfolgend ein Beispiel:
 

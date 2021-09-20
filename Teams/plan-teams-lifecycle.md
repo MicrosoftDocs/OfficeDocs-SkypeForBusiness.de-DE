@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 082657f5d114a7228f5b95e39390a87ccf6d0dcb
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727824"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456375"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -65,49 +65,7 @@ Teambenutzertypen bestimmen, wie viel Kontrolle ein Teammitglied hat:
 > [!Note]
 > Weitere Informationen zu den Möglichkeiten von Teambesitzern und Teammitgliedern finden Sie im Artikel [Zuweisen von Rollen und Berechtigungen in Microsoft Teams](assign-roles-permissions.md).
 
-Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den Inhabern der einzelnen Administratorrollen zur Verfügung stehen. Diese Rollen und Möglichkeiten werden in der folgenden Tabelle beschrieben.
-
-<table>
- <thead>
-  <tr>
-    <th width="0.5%"></th>
-    <th width="15.5%">Rolle&nbsp;&nbsp;</th>
-    <th width="25%">Beschreibung</th>
-    <th width="60%">Kann die folgenden Tasks ausführen und Tools wie beschrieben verwenden</th>
-  </tr>
-</thead>
-<tbody>
-   <tr>
-    <td valign="top" colspan="2">Teams-Administrator</td>
-    <td valign="top">Verwalten des Microsoft Teams-Dienstes, Erstellen und Verwalten von Microsoft 365-Gruppen</td>
-    <td valign="top">Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken<sup>1</sup><br><br>Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung, Anrufwarteschleifen und automatischen Telefonzentralen<sup>1</sup><br><br>Verwalten von Messaging einschließlich Messagingrichtlinien<sup>1</sup><br><br>Verwalten aller organisationsweiten Einstellungen einschließlich Partnerverbund, Microsoft Teams-Upgrade und Einstellungen des Microsoft Teams-Clients<sup>1</sup><br><br>Verwalten der Teams in der Organisation und der zugehörigen Einstellungen einschließlich der Mitgliedschaft<sup>2</sup><br><br>Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung für Probleme von Benutzern mit der Anrufqualität mithilfe erweiterter Problembehandlungstools<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams-Kommunikationsadministrator</td>
-<td valign="top">Verwalten von Anruf- und Besprechungsfunktionen innerhalb des Microsoft Teams-Diensts</td>
-<td valign="top">Verwalten von Besprechungen einschließlich Besprechungsrichtlinien, Konfigurationen und Konferenzbrücken<sup>1</sup><br><br>Verwalten der VoIP-Funktionen einschließlich Anrufrichtlinien, Telefonnummernbestand und -zuweisung, Anrufwarteschleifen und automatischen Telefonzentralen<sup>1</sup><br><br>Anzeigen von Benutzerprofilseiten und Ausführen einer Problembehandlung für Probleme von Benutzern mit der Anrufqualität mithilfe erweiterter Problembehandlungstools<sup>1</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams-Kommunikationsspezialist</td>
-<td valign="top">Ausführen einer Problembehandlung für Kommunikationsprobleme innerhalb von Microsoft Teams mithilfe von Standardtools</td>
-<td valign="top">Zugreifen auf Benutzerprofilseiten, um mit der Anrufanalyse eine Problembehandlung für Anrufe auszuführen. Kann nur Benutzerinformationen für den gesuchten Benutzer anzeigen.<sup>3</sup></td>
-</tr>
-<tr>
-<td valign="top" colspan="2">Teams-Kommunikationssupporttechniker</td>
-<td valign="top">Ausführen einer Problembehandlung für Kommunikationsprobleme innerhalb von Microsoft Teams mithilfe erweiterter Tools</td>
-<td valign="top">Zugreifen auf Benutzerprofilseiten, um mit der Anrufanalyse eine Problembehandlung für Anrufe auszuführen. Kann sämtliche Informationen in Anrufdatensätzen anzeigen.<sup>3</sup></td>
-</tr>
-<tr>
-</tbody>
-<tfoot>
-<tr><td align="right"><sup>1</sup></td><td colspan="3"><a href="/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell
-">PowerShell – Skype for Business-Modul</a> oder <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>2</sup></td><td colspan="3"><a href="https://www.powershellgallery.com/packages/MicrosoftTeams/0.9.3">PowerShell – Microsoft Teams-Modul</a> oder <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams</a></td></tr>
-<tr><td align="right"><sup>3</sup></td><td colspan="3">Nur <a href="/microsoftteams/manage-teams-skypeforbusiness-admin-center">Admin Center für Microsoft Teams</a></td>
-</tr>
-</tfoot>
-</table>
-
+Die Administratorrollen in Microsoft Teams bestimmen, welche Möglichkeiten den Inhabern der einzelnen Administratorrollen zur Verfügung stehen. Diese werden im folgenden Artikel beschrieben: [Verwenden Sie Microsoft Teams Administratorrollen zum Verwalten von Teams.](using-admin-roles.md)
 
 ## <a name="it-decisions-to-make-before-getting-started"></a>Im Vorfeld zu treffende IT-Entscheidungen
 

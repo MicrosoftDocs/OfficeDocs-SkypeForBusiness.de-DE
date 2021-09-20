@@ -23,12 +23,12 @@ ms.custom:
 - LIL_Placement
 - O365P_DialInConfDesc
 description: 'Hier erfahren Sie, wie Sie Einwahl- oder Audiokonferenzen für Personen in Ihrem Unternehmen einrichten, die telefonisch an Konferenzanrufen teilnehmen müssen. '
-ms.openlocfilehash: d38adf5e1f5d363cb04aa9eb43109ca2ed394a65
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 55edb015df6e0faf77eb644246677f637b7bace7
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725974"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456555"
 ---
 # <a name="set-up-audio-conferencing-for-skype-for-business"></a>Einrichten von Audiokonferenzen für Skype for Business
 
@@ -52,12 +52,12 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
     >[!NOTE] 
     > Audiokonferenzen sind in Office 365 Enterprise E5-Lizenzen und als Add-On enthalten.
         
-2. Nachdem Sie die Audiokonferenz-Lizenzen erworben haben, müssen Sie diese den Personen in Ihrer Organisation zuweisen, die Besprechungen planen oder leiten werden. Lesen [Sie Zuweisen oder Entfernen von Lizenzen für Microsoft 365 Apps for Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) die Sie für die Personen in Ihrer Organisation erworben haben, die Besprechungen planen oder führen werden.
+2. Nachdem Sie die Audiokonferenz-Lizenzen erworben haben, müssen Sie diese den Personen in Ihrer Organisation zuweisen, die Besprechungen planen oder leiten werden. Lesen [Sie zuweisen oder entfernen](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) Sie Lizenzen für Microsoft 365 Apps for Business die Sie für die Personen in Ihrer Organisation erworben haben, die Besprechungen planen oder führen werden.
     
 3. Wir empfehlen auch, dass Sie Guthaben für Kommunikations-Lizenzen (sie kosten nichts) denselben Personen zuweisen, denen Sie im vorherigen Schritt Lizenzen zugewiesen haben. Weitere Informationen zum Guthaben für Kommunikationen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihr Unternehmen](/microsoftteams/set-up-communications-credits-for-your-organization).
     
-> [!NOTE]
-> Sie können auch [Audiokonferenzen mit Minutenabrechnung](/microsoftteams/audio-conferencing-pay-per-minute) einrichten.
+   > [!NOTE]
+   > Sie können auch [Audiokonferenzen mit Minutenabrechnung](/microsoftteams/audio-conferencing-pay-per-minute) einrichten.
 
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Schritt 3: Servicenummern für Ihre Konferenzbrücken anfordern
 <a name="__top"> </a>
@@ -92,7 +92,7 @@ Als Nächstes sollten Sie die [Sprachen für die automatische Telefonzentrale f�
 
 ![Ein Symbol mit dem Microsoft Teams Logo.](../images/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers:**
 
-1. Wechseln Sie über das Dashboard zu **Besprechungen** > **Konferenzbrücken**.
+1. Wechseln Sie von Start zu **Konferenzbrücken**  >  **für Besprechungen.**
 2. Wählen Sie die Telefonnummer der Konferenzbrücke, klicken Sie auf **Bearbeiten**, und wählen Sie dann die Standardsprache aus.
 
 ![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers:**
@@ -108,7 +108,7 @@ Nachdem Sie Ihre Konferenzbrücke eingerichtet haben, vergewissern Sie sich, das
 
 ![Ein Symbol mit dem Microsoft Teams Logo.](../images/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers:**
 
-1. Wechseln Sie über das Dashboard zu **Besprechungen** > **Konferenzbrücken**.
+1. Wechseln Sie von Start zu **Konferenzbrücken**  >  **für Besprechungen.**
 2. Wählen Sie **Brückeneinstellungen** aus. Der **Brücke**-Einstellungsbereich wird geöffnet. 
 
 Weitere Informationen finden Sie unter [Einstellungen für eine Audiokonferenzbrücke ändern](/MicrosoftTeams/change-the-settings-for-an-audio-conferencing-bridge).
@@ -128,7 +128,7 @@ Sie müssen dies für alle Personen in Ihrer Organisation tun, die Besprechungen
 
 ![Ein Symbol mit dem Microsoft Teams Logo.](../images/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers:**
 
-1. Klicken Sie im Dashboard auf **Benutzer**, wählen Sie den entsprechenden Benutzer aus der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie auf Start auf **Benutzer,** wählen Sie den Benutzer in der Liste aus, und wählen Sie **Bearbeiten aus.**
 2. Klicken Sie neben **Audiokonferenzen** auf **Bearbeiten**, und wählen Sie dann im Bereich **Audiokonferenzen** eine Nummer aus den Listen der **gebührenpflichtigen** und **gebührenfreien** Telefonnummern aus.
 
 ![Ein Symbol mit dem Skype for Business Logo.](../images/sfb-logo-30x30.png) **Verwenden des Skype for Business Admin Centers:**

@@ -13,16 +13,16 @@ ms.collection:
 description: Erfahren Sie, wie Sie die PowerShell-Steuerelemente zum Verwalten von Microsoft Teams.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3a1bb503ca759835f34220aa8a963f162b73f36d879d4cf3e8a6321e6f5775e
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: e878acddd27044ecb57d33c76c1af755eaa7c5d8
+ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54328920"
+ms.lasthandoff: 09/20/2021
+ms.locfileid: "59456545"
 ---
 # <a name="microsoft-teams-powershell-overview"></a>Übersicht über PowerShell für Microsoft Teams
 
-Microsoft Teams Das PowerShell-Modul ist eine Gruppe von Cmdlets zum verwalten Teams direkt über die PowerShell-Befehlszeile. PowerShell bietet leistungsstarke Features für Die Automatisierung, die Sie zum Verwalten Ihrer Arbeitsauslastung Teams können.  
+Microsoft Teams Das PowerShell-Modul ist eine Reihe von Cmdlets zum verwalten Teams direkt über die PowerShell-Befehlszeile. PowerShell bietet leistungsstarke Features für Die Automatisierung, die Sie zum Verwalten Ihrer Arbeitsauslastung Teams können.  
 
 Sie können das Microsoft Teams PowerShell-Modul mit einer der folgenden Methoden verwenden: 
 
@@ -34,12 +34,12 @@ Sie können das Microsoft Teams PowerShell-Modul mit einer der folgenden Methode
 
 Das Microsoft Teams PowerShell-Modul enthält die folgenden Features: 
 
-- Verwendet ein einzelnes Modul, um alle Aspekte der Teams, einschließlich Benutzer, Teams, Richtlinien und Konfiguration, zu verwalten.  
+- Verwendet ein einzelnes Modul zum Verwalten aller Aspekte Teams Verwaltung, einschließlich Benutzer, Teams, Richtlinien und Konfiguration.  
 - Unterstützt Authentifizierungsmechanismen wie Zugriffstoken und Anmeldeinformationen. 
 
 ##  <a name="data-collection"></a>Datensammlung 
 
-Microsoft Teams Die Standardeinstellungen des PowerShell-Moduls erfassen Telemetriedaten. Microsoft aggregiert gesammelte Daten zur Identifizierung von Verwendungsmustern und häufigen Problemen, z. B. Cmdlets mit geringem Erfolg, um uns bei der Priorisierung unserer Arbeit zur Verbesserung der PowerShell Teams erfahrung zu unterstützen. Microsoft Teams Das PowerShell-Modul sammelt keine privaten oder persönlichen Daten.  
+Microsoft Teams Die Standardeinstellungen des PowerShell-Moduls erfassen Telemetriedaten. Microsoft aggregiert gesammelte Daten zur Identifizierung von Verwendungsmustern und häufigen Problemen, z. B. Cmdlets mit geringem Erfolg, um uns bei der Priorisierung unserer Arbeit zur Verbesserung der Teams PowerShell-Benutzererfahrung zu unterstützen. Microsoft Teams Das PowerShell-Modul sammelt keine privaten oder persönlichen Daten. Weitere Details finden Sie in den [Microsoft-Datenschutzbestimmungen.](https://privacy.microsoft.com/privacystatement)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
