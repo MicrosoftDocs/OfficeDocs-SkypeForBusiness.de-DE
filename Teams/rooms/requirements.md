@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 910b36c0657e167f2581fc8b00ca4341a2e17a90
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: b53aa8cbb25c554ee321ef31cb1bf353a15157d9
+ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432517"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "59460664"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -150,6 +150,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Group von Logitech](https://www.logitech.com/product/conferencecam-group)   |8.5.778   |
 |[Logitech PTZ Pro](https://www.logitech.com/product/conferencecam-ptz-pro)   | 1.1.219   |
 |[Logitech PTZ Pro 2](https://www.logitech.com/product/conferencecam-ptz-pro2)   |
+|[Logitech Scribe](https://www.logitech.com/en-us/products/video-conferencing/room-solutions/scribe.960-001332.html) | 1.1.1 | &#x2714; |
 |[Nurwa HDL300](https://www.nureva.com/audio-conferencing/hdl300) |2.3.6|
 |[Poly Eagle Eye Cube Camera](https://www.polycom.com/products-services/hd-telepresence-video-conferencing/realpresence-accessories/eagleeye-cameras.html)  |1.2.0 |
 |[Polycom EagleEye IV](https://www.poly.com/us/en/products/video-conferencing/eagleeye/eagleeye-iv)   |1.0.0   |
@@ -211,21 +212,21 @@ In den folgenden Tabellen finden Sie Empfehlungen für Peripheriegeräte basiere
 
 **Für Microsoft Teams-Räume zertifizierte Audio-Peripheriegeräte**
 
-|Raumtyp|Anzahl der Personen|Empfohlene maximale Entfernung von Mikrofon zu Lautsprecher|Gerät nach maximaler Raumgröße|Kommentare|
-|:-----|:-----|:-----|:-----|:-----|
-|**Fokus** <br/> 3,01 m x 2,74 m   |2–4  |1,5 m  |Logitech Connect  |Logitech Connect-Geräte umfassen eine Kamera, die vorn im Raum (nicht in der Mitte des Tisches) positioniert werden muss, um die lokalen Besprechungsteilnehmer zu erfassen. |
-|**Klein** <br/> 4,88 m x 4,88 m  |4–6  |2,0 m  |Jabra 510 <br/> Sennheiser SP20  |Die Wiedergabelautstärke kann bei größeren Räumen eingeschränkt sein.  |
-|**Mittel** <br/> 5,49 m x 6,10 m  |6–12  |2,4 m  |Jabra 710 <br/> Jabra 810 <br/> MeetUp von Logitech <br/> Group von Logitech <br/> Polycom Trio <br/> Polycom CX5100 <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS  |Das MeetUp von Logitech umfasst eine Kamera, die vorn im Raum (nicht in der Mitte des Tisches) positioniert werden muss, um die lokalen Besprechungsteilnehmer zu erfassen. <br/> Im Allgemeinen können Räume mit langen rechteckigen oder u-förmigen Tischen von Satellitenmikrofonen profitieren. <br/> SP 220 MS muss in Daisy-Chain-Konfiguration verwendet werden.  |
-|**Groß** <br/> 4,57 m x 9,75 m  |12–16  |3 m <br/> Diese Entfernung gilt auch für den Bereich, der von jedem angeschlossenen Satellitenmikrofon abgedeckt wird.  |Group von Logitech + Satellitenmikrofone <br/> Polycom Trio + Satellitenmikrofone <br/> Polycom CX5100 + Satellitenmikrofone <br/> Sennheiser SP 220 MS <br/> Yamaha YVC-1000MS + Satellitenmikrofone  |Alle in dieser Zeile aufgeführten Audiogeräte unterstützen Satellitenmikrofon-Optionen. <br/> Das CX5100 verfügt über eine eingebaute 360-Grad-Kamera, sodass das Gerät in der Mitte des Tisches positioniert werden kann. <br/> SP 220 MS muss in Daisy-Chain-Konfiguration verwendet werden.  |
+|Raumtyp|Anzahl der Personen|Empfohlene maximale Entfernung von Mikrofon zu Lautsprecher|
+|:-----|:-----|:-----|
+|**Fokus** <br/> 3,01 m x 2,74 m   |2–4  |1,5 m  |
+|**Klein** <br/> 4,88 m x 4,88 m  |4–6  |2,0 m  |
+|**Mittel** <br/> 5,49 m x 6,10 m  |6–12  |2,4 m  |
+|**Groß** <br/> 4,57 m x 9,75 m  |12–16  |3 m <br/> Diese Entfernung gilt auch für den Bereich, der von jedem angeschlossenen Satellitenmikrofon abgedeckt wird.  |
 
 **Für Microsoft Teams-Räume zertifizierte Video-Peripheriegeräte**
 
-|Raumtyp|Anzahl der Personen|Gerät nach optimaler Raumgröße|Kommentare|
-|:-----|:-----|:-----|:-----|
-|**Fokus** <br/> 3,01 m x 2,74 m  |2–4  |Logitech Connect <br/> MeetUp von Logitech <br/> Polycom CX5100  ||
-|**Klein** <br/> 4,88 m x 4,88 m  |4–6  |Logitech C930e <br/> MeetUp von Logitech <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  |Logitech PTZ Pro, häufig mit Logitech Group gebündelt  |
-|**Mittel** <br/> 5,49 m x 6,10 m  |6–12  |MeetUp von Logitech <br/> Logitech BRIO <br/> Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
-|**Groß** <br/> 4,57 m x 9,75 m  |12–16  |Logitech PTZ Pro <br/> Polycom MSR <br/> Polycom CX5100  ||
+|Raumtyp|Anzahl der Personen|
+|:-----|:-----|
+|**Fokus** <br/> 3,01 m x 2,74 m  |2–4  |
+|**Klein** <br/> 4,88 m x 4,88 m  |4–6  |
+|**Mittel** <br/> 5,49 m x 6,10 m  |6–12  |
+|**Groß** <br/> 4,57 m x 9,75 m  |12–16  |
 
  > [!NOTE]
  > Die Auflösung für die Anzeige vorn im Raum sollte auf nicht mehr als 1920 x 1080 p eingestellt werden.
