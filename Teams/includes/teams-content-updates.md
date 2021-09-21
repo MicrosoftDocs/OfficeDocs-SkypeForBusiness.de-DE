@@ -3,6 +3,37 @@
 
 
 
+## <a name="week-of-september-13-2021"></a>Woche vom 13. September 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 9/13/2021 | [Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
+| 9/13/2021 | [Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | Geändert |
+| 9/13/2021 | [Für Direct Routing zertifizierte Sitzungsrahmencontroller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 9/13/2021 | [Verwalten Ihrer Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
+| 9/14/2021 | [Für Direct Routing zertifizierte Sitzungsrahmencontroller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 9/14/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 9/15/2021 | [Verwalten der Teilnahmeerfahrung für Teams Besuche in mobilen Browsern](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Geändert |
+| 9/16/2021 | [Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
+| 9/16/2021 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 9/17/2021 | [Audiokonferenz mit Minutenabrechnung](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Geändert |
+| 9/17/2021 | [Aufzeichnung einer Teams-Cloudbesprechung](/MicrosoftTeams/cloud-recording) | Geändert |
+| 9/17/2021 | [Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
+| 9/17/2021 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 9/17/2021 | [Schnellstart: Besprechungen, Webinare und Liveereignisse](/MicrosoftTeams/quick-start-meetings-live-events) | Geändert |
+| 9/17/2021 | [Anzeigen einer Liste mit Audiokonferenz-Telefonnummern](/MicrosoftTeams/see-a-list-of-audio-conferencing-numbers-in-teams) | Geändert |
+| 9/17/2021 | [Einrichten von Live-Ereignissen in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Geändert |
+| 9/17/2021 | [Verwalten von Telefonnummern für Ihre Organisation](/MicrosoftTeams/manage-phone-numbers-landing-page) | Hinzugefügt |
+| 9/17/2021 | [Servicetelefonnummern für Anrufpläne erhalten](/MicrosoftTeams/getting-service-phone-numbers) | Geändert |
+| 9/17/2021 | [Wie viele Telefonnummern können Sie erhalten?](/MicrosoftTeams/how-many-phone-numbers-can-you-get) | Geändert |
+| 9/17/2021 | [Verwalten von Telefonnummern für Anrufplan](/MicrosoftTeams/manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization) | Geändert |
+| 9/17/2021 | [Migrieren von Slack auf Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Geändert |
+| 9/17/2021 | [Microsoft Teams-Räume](/MicrosoftTeams/rooms/index) | Geändert |
+| 9/17/2021 | [Suchen nach Telefonnummern für Benutzer](/MicrosoftTeams/search-for-phone-numbers-for-users) | Geändert |
+| 9/17/2021 | [Eine Liste der Telefonnummern in Ihrer Organisation](/MicrosoftTeams/see-a-list-of-phone-numbers-in-your-organization) | Geändert |
+
+
 ## <a name="week-of-september-06-2021"></a>Woche vom 6. September 2021
 
 
