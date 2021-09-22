@@ -755,6 +755,8 @@ items:
         items:
           - name: Übersicht
             href: rooms/index.md
+          - name: Anleitungen zum Besprechungsraum für Teams
+            href: teams-meeting-room-guidance.md
           - name: Verwalteter Dienst „Microsoft Teams-Räume“
             items:
               - name: Plan-Verwaltung
@@ -1608,8 +1610,6 @@ items:
             href: sharepoint-onedrive-interact.md
       - name: Teams-Geräte für Education
         href: devices-for-education.md
-      - name: Besprechungsraumleitfaden für Teams
-        href: teams-meeting-room-guidance.md
       - name: Unterstützte Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams
