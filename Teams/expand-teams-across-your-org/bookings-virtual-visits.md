@@ -60,7 +60,7 @@ Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihre
 
 Wechseln Teams zu **Bookings**  >  **Erste Schritte,** und wählen Sie dann **Neuer Buchungskalender aus.** Füllen Sie das Formular aus, und wählen Sie den relevanten Unternehmenstyp für Ihre Organisation aus.
 
-:::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Screenshot des Bildschirms "Neuer Buchungskalender" mit Geschäftstypen":::
+:::image type="content" source="../media/bookings-virtual-visits-new-booking-calendar.png" alt-text="Screenshot des Bildschirms Neuer Buchungskalender mit Geschäftstypen":::
 
 Wenn Sie eine größere Organisation sind, sollten Sie erwägen, mehrere Buchungskalender zu erstellen, wenn Sie möchten, dass Teilnehmer eine Buchungs-E-Mail von einer bestimmten Abteilung statt von Ihrer gesamten Organisation erhalten.
 Weitere Informationen finden Sie unter [Erstellen eines Bookings-Kalenders.](https://support.microsoft.com//office/create-a-bookings-calendar-921cfd26-a24d-4aca-9004-561594112148)

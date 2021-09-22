@@ -104,7 +104,7 @@ Für Ad-hoc-Besprechungen, die direkt in Panels gebucht werden:
 So reservieren Sie einen verfügbaren Besprechungsraum für eine Ad-hoc-Besprechung:
 
 1. Tippen Sie auf der Startseite auf die **Schaltfläche Reservieren.**
-    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams Startbildschirm der Bereiche mit der Schaltfläche "Reservieren".":::
+    :::image type="content" source="../media/panels-reserve.png" alt-text="Teams Startbildschirm der Bereiche mit der Schaltfläche Reservieren.":::
 2. Überprüfen Sie **im Ad-hoc-Besprechungsbildschirm** die verfügbaren Endzeitoptionen. Sie können die nach rechts oder links zeigenden Pfeile verwenden, um die verfügbaren Endzeitoptionen zu durchsuchen.
 
     :::image type="content" source="../media/panels-reserve-endtime.png" alt-text="Ad-hoc-Besprechungsbildschirm mit Den Zeiten für die Endzeit.":::
@@ -209,7 +209,7 @@ Administratoren können rot oder lila als LED-Farbe auswählen, um anzugeben, da
 1. [Access **Panels-App Einstellungen**](#access-panels-app-settings).
 2. Tippen Sie **auf DIE EINSTELLUNGEN**.
 3. Wählen **Sie unter LED-Farbe auswählen** die gewünschte Farbe aus.
-:::image type="content" source="../media/panels-led-settings.png" alt-text="Dieser Screenshot zeigt die Statuseinstellungen für den Status "LED-Farbe gebucht".":::
+:::image type="content" source="../media/panels-led-settings.png" alt-text="Dieser Screenshot zeigt die Statuseinstellungen für den Status LED-Farbe gebucht.":::
 4. Wechseln Sie zurück zur Startseite, und vergewissern Sie sich, dass die LED-Farbe für den Status "Beschäftigt" aktualisiert wurde. Wenn der Besprechungsraum derzeit verfügbar ist, versuchen Sie, eine Testbestellung zu planen, um die Änderung der LED-Farbe für den Status "Beschäftigt" zu überprüfen.
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen

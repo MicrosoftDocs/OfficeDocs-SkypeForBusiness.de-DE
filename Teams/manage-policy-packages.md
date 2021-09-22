@@ -33,7 +33,7 @@ Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtli
 
 Sie können die in der Richtlinie [enthaltenen Teams](#policy-packages-included-in-teams) oder eigene benutzerdefinierte [Richtlinienpakete erstellen.](#custom-policy-packages)
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinienpakete" im Admin Center":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite Richtlinienpakete im Admin Center":::
 
 Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Richtlinienpakete werden mithilfe des Microsoft Teams Admin Centers oder von PowerShell verwaltet.
 
@@ -91,7 +91,7 @@ So erstellen Sie ein neues benutzerdefiniertes Richtlinienpaket:
 
 1. Wählen Sie im linken Navigationsbereich Microsoft Teams Admin Center **Richtlinienpakete** aus, und klicken Sie dann auf **Hinzufügen**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche "Hinzufügen" auf der Seite "Richtlinienpakete" im Admin Center":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche Hinzufügen auf der Seite Richtlinienpakete im Admin Center":::
 
 2. Geben Sie einen Namen und eine Beschreibung für das Paket ein.
 

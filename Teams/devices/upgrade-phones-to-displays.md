@@ -59,7 +59,7 @@ Denken Sie daran, dass die Aktion nach Teams Upgrade eines Telefons auf ein Team
 
 3. Wählen Sie im Dialogfeld Upgrade auf  Teams **anzeigen** die Option Upgrade planen aus, um ein Datum und eine Uhrzeit für das Upgrade oder jetzt aktualisieren zu **legen.**
 
-    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Screenshot des Dialogfelds "Upgrade auf Teams Anzeige".":::
+    :::image type="content" source="../media/upgrade-phones-to-displays-upgrade.png" alt-text="Screenshot des Dialogfelds Upgrade auf Teams Anzeige.":::
 
 > [!NOTE]
 > Wenn Sie eine Meldung erhalten, die ankdet, dass für Ihre ausgewählten Telefone kein Upgrade durchgeführt werden kann, stellen Sie sicher, dass Sie Telefone ausgewählt haben, die das Upgrade [unterstützen,](#which-teams-phones-can-be-upgraded)und versuchen Sie es dann erneut.

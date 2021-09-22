@@ -103,6 +103,6 @@ Verwenden Sie individuelle Berechtigungen, um die Berechtigung für einen Benutz
   * **Bestimmte Organisation** bedeutet, dass der Benutzer die ausgewählte Organisationseinheit und alle darunter liegenden Organisationseinheiten sieht. Beginnen Sie mit der Eingabe, und wählen Sie die Organisationseinheit aus der Liste aus.
   * **Keine** bedeutet, dass der Benutzer nur die Organisationseinheiten sieht, die automatisch durch seine Rolle zugewiesen werden (sofern vorhanden).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich "Individuelle Berechtigungen".":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich Individuelle Berechtigungen.":::
 
 * Klicken Sie auf **Änderungen speichern**, um zu speichern.

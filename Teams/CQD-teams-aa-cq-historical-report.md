@@ -48,7 +48,7 @@ Führen Sie die folgenden Schritte aus:
 
 - Sie werden aufgefordert, die AQD-Datenpipelineregion auszuwählen. Wählen Sie die Region aus, in der sich Ihr Mandant befindet.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Schaltfläche "Anrufqualitäts-Dashboard" im Teams Admin Center.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-01.png" alt-text="Screenshot der Schaltfläche Anrufqualitäts-Dashboard im Teams Admin Center.":::
 
  - Sie können die Region mithilfe des PS-Skype for Business Online-CMdlets (Get-CsTenant) sehen. ServiceInstance-Ausgabe. 
  Die Region wird wie im folgenden Beispiel nach dem / angezeigt: 
@@ -59,11 +59,11 @@ Führen Sie die folgenden Schritte aus:
  
  - Um Ihre eigenen Daten zu sehen, klicken Sie auf **der** Registerkarte Start unter Abfragen in Power BI Desktop.
 
-   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot der Schaltfläche "Anrufqualitäts-Dashboard" im Teams Admin Center.":::
+   :::image type="content" source="media/cqd-teams-aa-cq-historical-report-02.png" alt-text="Screenshot der Schaltfläche Anrufqualitäts-Dashboard im Teams Admin Center.":::
 
 - Anschließend werden Sie aufgefordert, sich anzumelden. Wählen Sie **Organisationskonto** und dann **Anmelden** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Schaltfläche "Anrufqualitäts-Dashboard" im Teams Admin Center.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-03.png" alt-text="Screenshot der Schaltfläche Anrufqualitäts-Dashboard im Teams Admin Center.":::
 
 - Wählen Sie **Verbinden** aus, und beobachten Sie die Datenaktualisierung.
 
@@ -83,11 +83,11 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationssc
 Führen Sie die folgenden Schritte aus:
 - Wählen Sie im Menüband **Registerkarte anzeigen** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot der Schaltfläche "Anrufqualitäts-Dashboard" im Teams Admin Center.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot der Schaltfläche Anrufqualitäts-Dashboard im Teams Admin Center.":::
 
 - Wählen Sie in der Dropdownliste das Farbschema aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot der Schaltfläche "Anrufqualitäts-Dashboard" im Teams Admin Center.":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-05.png" alt-text="Screenshot der Schaltfläche Anrufqualitäts-Dashboard im Teams Admin Center.":::
 
 
 ## <a name="cqd-fields-description"></a>Beschreibung der CQD-Felder

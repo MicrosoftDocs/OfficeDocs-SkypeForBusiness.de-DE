@@ -108,7 +108,7 @@ Bei den folgenden Schritten wird davon ausgegangen, dass Sie die Installationssc
 Führen Sie die folgenden Schritte durch:
 - Wählen Sie im Menüband **Registerkarte anzeigen** aus.
 
-  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte "Ansicht" zum Ändern des Farbschemas":::
+  :::image type="content" source="media/cqd-teams-aa-cq-historical-report-04.png" alt-text="Screenshot: Auswählen der Registerkarte Ansicht zum Ändern des Farbschemas":::
 
 - Wählen Sie in der Dropdownliste das Farbschema aus.
 

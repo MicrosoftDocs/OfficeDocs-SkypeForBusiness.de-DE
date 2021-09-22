@@ -34,7 +34,7 @@ ms.locfileid: "58750043"
 
 Öffnen Sie das Microsoft-Anrufqualitätsdashboard (CQD) unter [https://cqd.teams.microsoft.com](https://cqd.teams.microsoft.com) (melden Sie sich mit Ihren Administratoranmeldeinformationen an). Oder wechseln Sie zum Teams Admin Center, und wählen Sie **Anrufqualitätsdashboard aus.** 
 
-:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot der Schaltfläche "Anrufqualitäts-Dashboard" im Teams Admin Center.":::
+:::image type="content" source="media/turning-on-and-using-call-quality-dashboard3.png" alt-text="Screenshot der Schaltfläche Anrufqualitäts-Dashboard im Teams Admin Center.":::
 
 Klicken Sie auf der nun geöffneten Seite **auf** Anmelden, und geben Sie Ihr globales Administratorkonto oder Microsoft Teams Administratorkontoinformationen ein. Nach der ersten Anmeldung beginnt das AQD mit dem Sammeln und Verarbeiten von Daten. Denken Sie daran, dass es eine oder mehrere Stunden dauern kann, bis genügend Daten für die Anzeige aussagekräftiger Ergebnisse in den Berichten verarbeiten können.
 

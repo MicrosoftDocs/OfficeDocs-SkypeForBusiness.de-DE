@@ -85,7 +85,7 @@ Um Rollen zuweisen zu können, müssen Sie ein globaler Administrator oder ein A
 2. Wählen Sie die Rolle aus, die Sie zuweisen möchten.
 3. Wählen Sie im Rollenbereich Aufgaben **hinzufügen**  >  **aus.**
 
-    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Screenshot der Option "Hinzufügen" zum Hinzufügen einer Rolle":::
+    :::image type="content" source="../media/microsoft-teams-rooms-premium-role-assignments.png" alt-text="Screenshot der Option Hinzufügen zum Hinzufügen einer Rolle":::
 
 4. Geben Sie **auf der Seite Allgemeine** Einstellungen unter Aufgabeneigenschaften einen Namen für diese Aufgabe ein.  Die Beschreibung ist optional. Wählen Sie **Weiter aus.**
 5. Geben Sie **auf** der  Seite Mitglieder im Feld Nach Benutzer oder Sicherheitsgruppe suchen den Namen eines Benutzers oder einer Sicherheitsgruppe in Ihrem Mandanten ein, dem Sie Berechtigungen erteilen möchten, und schließen Sie dann die Auswahl ab. Wählen Sie **Weiter aus.** 

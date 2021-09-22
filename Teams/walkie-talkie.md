@@ -41,15 +41,15 @@ Derzeit ist Walkie-Talkie für Android-Geräte mit Google Mobile Services (GMS) 
 
 Im Microsoft Teams Admin Center sollten Sie unter Teams Setuprichtlinien für Apps die Einstellung Benutzer-Anheften  >  zulassen auf Ein **festgelegt haben.**  Klicken Sie dann im Abschnitt Angeheftet Apps auf **+Apps hinzufügen.**
 
-:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Zeigt den Abschnitt "Angeheftet Apps" und die Schaltfläche "Apps hinzufügen" an, die ausgewählt werden soll.":::
+:::image type="content" source="media/deploy-walkie-talkie-1.png" alt-text="Zeigt den Abschnitt Angeheftet Apps und die Schaltfläche Apps hinzufügen an, die ausgewählt werden soll.":::
 
 Verwenden Sie im Rechts **angezeigten** Bereich Angeheftet  Apps hinzufügen das Textfeld Suchen, um nach Walkie-Talkie zu suchen. Wenn sie als Suchergebnis angezeigt  wird, wählen Sie die Schaltfläche Hinzufügen rechts neben dem Namen aus, um sie Ihrer Liste hinzuzufügen.
 
-:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Zeigt die Randleiste "Angeheftet Apps hinzufügen" mit Walkie, die in den Suchbereich eingegeben wurde, und die Walkie-Talkie-App in den Suchergebnissen mit der Schaltfläche "Hinzufügen" daneben.":::
+:::image type="content" source="media/deploy-walkie-talkie-2.png" alt-text="Zeigt die Randleiste Angeheftet Apps hinzufügen mit Walkie, die in den Suchbereich eingegeben wurde, und die Walkie-Talkie-App in den Suchergebnissen mit der Schaltfläche Hinzufügen daneben.":::
 
 Die Walkie-Talkie-App sollte nun in der Liste Angeheftet Apps angezeigt werden und steht zur Verfügung, sobald Sie auf die Schaltfläche **Speichern klicken.**
 
-:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Zeigt die Liste "Angeheftet Apps" mit hinzugefügter Walkie-Talkie-App und der Schaltfläche "Speichern" unterhalb der Liste an.":::
+:::image type="content" source="media/deploy-walkie-talkie-3.png" alt-text="Zeigt die Liste Angeheftet Apps mit hinzugefügter Walkie-Talkie-App und der Schaltfläche Speichern unterhalb der Liste an.":::
 
 ### <a name="network-documentation"></a>Netzwerkdokumentation
 

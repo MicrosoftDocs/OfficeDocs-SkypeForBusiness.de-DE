@@ -49,13 +49,13 @@ Nachdem dieses Feature aktiviert wurde, enthält die an die Teilnehmer gesendete
 
 Wechseln Sie in Bookings zu **Einstellungen** Termintypen , wählen Sie einen Termintyp aus, und aktivieren Sie dann Teilnehmer die Teilnahme über einen  >   **mobilen Browser erlauben**. [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) Auf diese Weise kann der mobile Browser für alle Termine dieses Typs teilnehmen.
 
-:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Screenshot der Einstellung "Teilnehmern die Teilnahme über einen mobilen Browser erlauben" für Termintypen in der Bookings-App":::
+:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Screenshot der Einstellung Teilnehmern die Teilnahme über einen mobilen Browser erlauben für Termintypen in der Bookings-App":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>Aktivieren der Teilnahme per mobilem Browser für einen einzelnen Termin
 
 Wählen Sie in Bookings **Neue Buchung** aus, und aktivieren Sie dann Teilnehmern die Teilnahme über einen **mobilen Browser erlauben.**
 
-:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Screenshot der Einstellung "Teilnehmern die Teilnahme über einen mobilen Browser erlauben" auf dem neuen Buchungsformular in der Bookings-App":::
+:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Screenshot der Einstellung Teilnehmern die Teilnahme über einen mobilen Browser erlauben auf dem neuen Buchungsformular in der Bookings-App":::
 
 ### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Termine, die über den EHR Teams geplant wurden
 

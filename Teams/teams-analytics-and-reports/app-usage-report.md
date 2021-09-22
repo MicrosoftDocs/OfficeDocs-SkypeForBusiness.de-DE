@@ -32,11 +32,11 @@ Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält In
 
 1.  Klicken Sie im linken Navigationsbereich des Admin Centers unter <https://admin.teams.microsoft.com> auf **Analyseberichte &** \> **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **Apps-Verwendung aus.**
 
-     :::image type="content" source="media/app-usage-report1.png" alt-text="Screenshot des Menüelements "Verwendungsberichte".":::
+     :::image type="content" source="media/app-usage-report1.png" alt-text="Screenshot des Menüelements Verwendungsberichte.":::
 
 2.  Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**.
 
-      :::image type="content" source="media/app-usage-report2.png" alt-text="Screenshot des Berichts "Apps-Nutzung".":::
+      :::image type="content" source="media/app-usage-report2.png" alt-text="Screenshot des Berichts Apps-Nutzung.":::
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
