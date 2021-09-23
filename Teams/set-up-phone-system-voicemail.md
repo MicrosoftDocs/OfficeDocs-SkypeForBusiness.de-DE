@@ -22,34 +22,34 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, wie Sie Cloud-Voicemail für Ihre Benutzer einrichten. '
-ms.openlocfilehash: c9e073a61501143c478d78b9184602f4eebe9264
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 37cf89d4c728cab491d0312762a2c845bb711dcd
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590729"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482419"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloudvoicemail
 
-Dieser Artikel gilt für Microsoft 365 oder Office 365 Administrator, [](/microsoft-365/admin/add-users/about-admin-roles) wie unter Informationen zu Administratorrollen beschrieben, die das Cloud-Voicemail-Feature für alle Benutzer im Unternehmen einrichten.
+Dieser Artikel ist für den Microsoft 365 oder Office 365 [](/microsoft-365/admin/add-users/about-admin-roles) Administrator, wie unter Informationen zu Administratorrollen beschrieben, die das Cloud-Voicemail-Feature für alle Benutzer im Unternehmen einrichten.
 
 > [!NOTE]
-> Cloud-Voicemail unterstützt das Ablagen von Voicemailnachrichten nur in einem Exchange-Postfach und keine E-Mail-Systeme von Drittanbietern. 
+> Cloud-Voicemail unterstützt das Ablagen von Voicemailnachrichten nur in Exchange-Postfächern und keine E-Mail-Systeme von Drittanbietern. 
 
 > [!NOTE]
-> Wenn eine Stellvertretung einen Anruf im Auftrag eines Delegators anteilt, sind in der Stellvertretung keine Benachrichtigungen Cloud-Voicemail. Benutzer können Benachrichtigungen über verpasste Anrufe erhalten.
+> Wenn eine Stellvertretung einen Anruf im Namen einer Stellvertretung beantwortet, sind in der Stellvertretung keine Benachrichtigungen Cloud-Voicemail. Benutzer können Benachrichtigungen über verpasste Anrufe erhalten.
 
 ## <a name="cloud-voicemail-for-teams-users"></a>Cloud-Voicemail für Teams Benutzer
 
-Für Teams Benutzer wird Cloud-Voicemail automatisch eingerichtet und bereitgestellt. Beachten Sie, dass Telefonsystem für das Konto keine Lizenz Cloud-Voicemail. 
+Für Teams Benutzer Cloud-Voicemail automatisch eingerichtet und bereitgestellt. Beachten Sie, dass Telefonsystem für die App keine Lizenz Cloud-Voicemail. 
 
-## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Einrichten von Cloud-Voicemail für Exchange Server Postfachbenutzer
+## <a name="set-up-cloud-voicemail-for-exchange-server-mailbox-users"></a>Einrichten von Cloud-Voicemail für Exchange Server-Postfachbenutzer
 
 Die folgenden Informationen enthalten Informationen zum Konfigurieren von Cloud-Voicemail für die Zusammenarbeit mit Benutzern, die für Telefonsystem online sind, deren Postfach sich jedoch auf Exchange Server. 
   
-1. Voicemailnachrichten werden an das Postfach der Benutzer Exchange über SMTP übermittelt, über die sie Exchange Online Protection. Um eine erfolgreiche Übermittlung dieser Nachrichten zu ermöglichen, stellen Sie sicher, dass Exchange Connectors zwischen Ihren Exchange-Servern und Exchange Online Protection; [Verwenden Von Connectors können Sie E-Mail-Flow.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
+1. Voicemailnachrichten werden an das Postfach des Benutzers Exchange über SMTP übermittelt, das über Exchange Online Protection. Um eine erfolgreiche Übermittlung dieser Nachrichten zu ermöglichen, stellen Sie sicher, dass Exchange Connectors zwischen Ihren Exchange-Servern und Exchange Online Protection; [Verwenden Von Connectors können Sie E-Mail-Flow.](/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow) 
 
-2. Um Voicemailfeatures zu aktivieren, z. B. das Anpassen von Begrüßungen und visuellen Voicemails in Skype for Business-Clients, ist eine Verbindung von Microsoft 365 oder Office 365 zum Exchange-Serverpostfach über Exchange-Webdienste erforderlich. Um diese Verbindung zu aktivieren, müssen Sie das neue Exchange Oauth-Authentifizierungsprotokoll konfigurieren, das unter Konfigurieren der [OAuth-Authentifizierung](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)zwischen Exchange und Exchange Online-Organisationen beschrieben ist, oder den Exchange-Hybrid-Assistenten ab Exchange 2013 CU5 ausführen. Darüber hinaus müssen Sie die Integration und Oauth zwischen Skype for Business Online und Exchange Server konfigurieren, die unter Konfigurieren der Integration und [OAuth zwischen Skype for Business Online](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)und Exchange Server. 
+2. Zum Aktivieren von Voicemailfeatures wie dem Anpassen von Begrüßungen und visuellen Voicemails in Skype for Business-Clients ist die Verbindung von Microsoft 365 oder Office 365 zum Exchange-Serverpostfach über Exchange-Webdienste erforderlich. Um diese Verbindung zu aktivieren, müssen Sie das neue Exchange Oauth-Authentifizierungsprotokoll konfigurieren, das unter Konfigurieren der [OAuth-Authentifizierung](/exchange/configure-oauth-authentication-between-exchange-and-exchange-online-organizations-exchange-2013-help)zwischen Exchange und Exchange Online-Organisationen beschrieben ist, oder den Exchange-Hybrid-Assistenten ab Exchange 2013 CU5 ausführen. Darüber hinaus müssen Sie die Integration und Oauth zwischen Skype for Business Online und Exchange Server konfigurieren, die unter Konfigurieren der Integration und OAuth zwischen Skype for Business Online und [Exchange Server.](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises) 
 
 ## <a name="set-up-cloud-voicemail-for-skype-for-business-server-users"></a>Einrichten von Cloud-Voicemail für Skype for Business Server Benutzer
 
@@ -57,9 +57,10 @@ Informationen zum Skype for Business von Serverbenutzern Cloud-Voicemail Sie unt
 
 ## <a name="enabling-protected-voicemail-in-your-organization"></a>Aktivieren geschützter Voicemails in Ihrer Organisation
 
-Wenn jemand eine Voicemailnachricht für einen Benutzer in Ihrer Organisation verlässt, wird die Voicemail als Anlage einer E-Mail-Nachricht an das Postfach des Benutzers zugestellt. Wenn Sie Nachrichtenverschlüsselung mithilfe von Nachrichtenflussregeln anwenden, können Sie verhindern, dass diese Voicemailnachrichten an andere Empfänger weitergeleitet werden. Wenn Sie geschützte Voicemail aktivieren, können Benutzer geschützte Voicemailnachrichten abhören, indem sie sich in ihr Voicemail-Postfach einrufen oder indem sie die Nachricht in Outlook, Outlook im Web oder in Outlook für Android oder iOS öffnen. Geschützte Voicemailnachrichten können nicht in einem Skype for Business oder einer Microsoft Teams.
+Wenn jemand eine Voicemailnachricht für einen Benutzer in Ihrer Organisation verlässt, wird die Voicemail als Anlage einer E-Mail-Nachricht an das Postfach des Benutzers zugestellt. Wenn Sie Nachrichtenverschlüsselung mithilfe von Nachrichtenflussregeln anwenden, können Sie verhindern, dass diese Voicemailnachrichten an andere Empfänger weitergeleitet werden. Wenn Sie geschützte Voicemail aktivieren, können Benutzer geschützte Voicemailnachrichten abhören, indem sie sich in ihr Voicemail-Postfach einrufen oder indem sie die Nachricht in Outlook, Outlook im Web oder in Outlook für Android oder iOS öffnen. Geschützte Voicemailnachrichten können nicht in einem Skype for Business oder Microsoft Teams.
 
 Weitere Informationen zur Nachrichtenverschlüsselung finden Sie unter [E-Mail-Verschlüsselung.](/microsoft-365/compliance/email-encryption?view=o365-worldwide)
+
 
 Gehen Sie wie folgt vor, um geschützte Voicemails zu einrichten:
 
@@ -75,7 +76,10 @@ Gehen Sie wie folgt vor, um geschützte Voicemails zu einrichten:
     > - [Konfigurieren und Verwalten von Vorlagen für Azure Information Protection](/information-protection/deploy-use/configure-policy-templates)
     > - [Option "Nicht weiterleiten" für E-Mails](/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)
 
-## <a name="help-your-users-learn-teams-voicemail-features"></a>Unterstützen der Benutzer beim Erlernen Teams Voicemail-Funktionen
+    > [!NOTE]
+    > Sie müssen den folgenden Registrierungsschlüssel für Benutzer, Unternehmen und Organisationen festlegen, in denen das Voicemailformular angezeigt werden soll: [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Office\Outlook\Addins] "AllowVoicemailForm"=dword:00000001                           
+
+## <a name="help-your-users-learn-teams-voicemail-features"></a>Unterstützen der Benutzer beim Erlernen Teams Voicemail-Features
 
 Wir haben die folgenden Informationen für Ihre Benutzer zum Verwalten ihrer Voicemaileinstellungen sowie weitere Anruffunktionen in Teams:
 
