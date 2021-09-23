@@ -16,16 +16,16 @@ search.appverid: MET150
 description: Hier erhalten Sie Informationen zu von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, wo sie gefunden werden und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8f29271485024445d3494c0b2ee7213253bd64ca
-ms.sourcegitcommit: f16e8f51559a46db86fe489075426f05084bb44e
+ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
+ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/21/2021
-ms.locfileid: "59460644"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59482379"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Verwenden von Protokolldateien zur Überwachung und Problembehandlung Microsoft Teams
 
-Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, und diese können zur Überwachung und Problembehandlung im Teams:
+Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, und diese können zur Überwachung und Problembehandlung bei Teams:
 
 -   [Debugprotokolle](#debug-logs)
 
@@ -33,7 +33,7 @@ Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt wer
 
 -   [Desktopprotokolle](#desktop-logs)
 
-In diesem Artikel werden diese Protokolle und ihre Verwendung beschrieben. Informationen zur Problembehandlung für bestimmte Probleme finden Sie unter: [Teams Problembehandlung.](/MicrosoftTeams/troubleshoot/teams) Informationen zum Kontaktieren des Support finden Sie unter [Support erhalten.](/microsoft-365/business-video/get-help-support) Beim Erstellen einer Supportanfrage beim Microsoft-Support benötigt der Supporttechniker die Debugprotokolle. Wenn Sie die Debugprotokolle vor dem Erstellen der Supportanfrage zur Hand haben, kann Microsoft schnell mit der Problembehandlung beginnen. **Medien-** **oder Desktopprotokolle** sind nur erforderlich, wenn sie von Microsoft angefordert werden.
+In diesem Artikel werden diese Protokolle und ihre Verwendung beschrieben. Informationen zur Problembehandlung für bestimmte Probleme finden Sie unter: Teams [Problembehandlung.](/MicrosoftTeams/troubleshoot/teams) Informationen zum Kontaktieren des Support finden Sie unter [Support erhalten.](/microsoft-365/business-video/get-help-support) Beim Erstellen einer Supportanfrage beim Microsoft-Support benötigt der Supporttechniker die Debugprotokolle. Wenn Sie die Debugprotokolle vor dem Erstellen der Supportanfrage zur Hand haben, kann Microsoft schnell mit der Problembehandlung beginnen. **Medien-** **oder Desktopprotokolle** sind nur erforderlich, wenn sie von Microsoft angefordert werden.
 
 > [!NOTE]
 > In diesem Artikel bezieht sich der Begriff **Debugprotokolle** auf die Protokolle, die für die Problembehandlung verwendet werden. Die Dateien, die für diese Protokolle generiert werden, enthalten jedoch den Begriff **Diagnoseprotokolle** in ihren Namen.  
@@ -53,7 +53,7 @@ Windows: STRG+ALT+UMSCHALT+1
 Mac: WAHL+BEFEHL+UMSCHALT+1
 
 
-Die Medienprotokollierung ist standardmäßig deaktiviert. Zum Aktivieren der Medienprotokollierung müssen Die Benutzer die Option im Client Teams aktivieren. Wechseln Sie **zu Einstellungen** Allgemein , und wählen Sie Protokollierung für  >   **Besprechungsdiagnose aktivieren (erfordert einen Neustart Teams).** Der Teams-Client muss zum Starten der Protokollierung neu gestartet werden.
+Die Medienprotokollierung ist standardmäßig deaktiviert. Um die Medienprotokollierung zu aktivieren, müssen Die Benutzer die Option im Teams aktivieren. Wechseln Sie **zu Einstellungen**  >  **Allgemein**, und wählen Sie Protokollierung für **Besprechungsdiagnose aktivieren (erfordert einen Neustart Teams).** Der Teams muss zum Starten der Protokollierung neu gestartet werden.
 
 Wenn ein Problem mit einer bestimmten Besprechung oder einem bestimmten Liveereignis auftritt, ist es hilfreich, die URL der Besprechung zugeordnet zu haben. Dadurch erhalten Sie zusätzliche Informationen, um das genaue Besprechungs- oder Liveereignis in den Protokollen zu erfassen. Diese Informationen können von jedem Teilnehmer für eine Besprechung oder von einem Moderator oder Produzenten für ein Liveereignis gesammelt werden. Diese URL kann erfasst werden, indem Sie auf die Teilnahme-URL zeigen und Link **kopieren auswählen.**
 
@@ -94,19 +94,25 @@ Debugprotokolle zeigen die folgenden Datenflüsse:
 
 -   Anruf/Unterhaltung
 
-So sammeln Sie Protokolle für Linux: Tastenkombination: STRG+ALT+UMSCHALT+1 Die Dateien sind in "~/Downloads" verfügbar.
+So sammeln Sie Protokolle für Linux: Tastenkombination: STRG+ALT+UMSCHALT+1  
+      Die Dateien sind unter ~/Downloads verfügbar.
 
-So sammeln Sie Protokolle für den Browser: Tastenkombination: STRG+ALT+UMSCHALT+1 Die Dateien stehen in "%userprofile%\Downloads" zur Verfügung.
+So sammeln Sie Protokolle für Browser und Windows: Tastenkombination: STRG+ALT+UMSCHALT+1  
+      Die Dateien sind in "%userprofile%\Downloads" verfügbar.
 
 ## <a name="media-logs"></a>Medienprotokolle
 
 Anweisungen zum _Erfassen und Aktivieren der Protokollierung_ Windows Mac. Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe in Teams Besprechungen. Sie sind für Supportfälle erforderlich, die mit anrufbezogenen Problemen verknüpft sind.
 
-Die Medienprotokollierung ist standardmäßig deaktiviert. Um Diagnosedaten für Teams zu protokollieren, müssen die Benutzer die Option im Client Teams aktivieren. Wechseln Sie **zu Einstellungen** Allgemein, aktivieren Sie das Kontrollkästchen Protokollierung für die  >   **Besprechungsdiagnose aktivieren (erfordert** einen Neustart von Teams), starten Sie Teams neu, und reproduzieren Sie das Problem. 
+Die Medienprotokollierung ist standardmäßig deaktiviert. Um Diagnosedaten für Besprechungen Teams zu protokollieren, müssen die Benutzer die Option im Client Teams aktivieren. Wechseln Sie **zu Einstellungen** Allgemein, aktivieren Sie das Kontrollkästchen Protokollierung für die  >   **Besprechungsdiagnose aktivieren (erfordert** einen Neustart von Teams ), starten Sie Teams neu, und reproduzieren Sie das Problem. 
 
 Wenn Sie die Protokolldateien an den Microsoft-Support senden, überprüfen Sie bitte den Zeitstempel der Protokolldateien, um sicherzustellen, dass die Protokolle den Zeitrahmen abdecken, in dem das Problem reproduziert wurde.
 
-So sammeln Sie Protokolle für Linux: Die Dateien sind in ~/.config/Microsoft/Microsoft Teams/media-stack/ .blog und *~/.config/Microsoft/Microsoft Teams/skylib/*.blog verfügbar.
+So sammeln Sie Protokolle für Linux:  
+Die Dateien sind im Blog ~/.config/Microsoft/Microsoft Teams/media-stack/ und im \* \. Blog ~/.config/Microsoft/Microsoft Teams/skylib/ \* \. verfügbar.
+
+So sammeln Sie Protokolle für Windows:  
+Die Dateien sind im Blog %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack und im Blog \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. verfügbar.  
 
 Hier ist eine Liste der generierten Protokolldateien und der Informationen, die sie enthalten.
 
@@ -122,14 +128,17 @@ Hier ist eine Liste der generierten Protokolldateien und der Informationen, die 
 
 Anweisungen zum _Erfassen und Aktivieren der Protokollierung_ Windows Mac. Desktopprotokolle (auch als Bootstrapperprotokolle bezeichnet) enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser auftreten. Wie medienprotokolle werden diese Protokolle nur benötigt, wenn sie von Microsoft angefordert werden. Die Protokolle sind textbasierte und können mit jedem textbasierten Editor in einem Top-down-Format gelesen werden.
 
-So sammeln Sie Protokolle für Linux: Klicken Sie auf das Microsoft Teams in der Taskleiste, und wählen Sie **Protokolle erhalten aus.**
-Die Dateien sind in ~/.config/Microsoft/Microsoft Teams/logs.txt.  
+So sammeln Sie Protokolle für Linux: Klicken Sie auf das symbol Microsoft Teams in der Taskleiste, und wählen Sie **Protokolle erhalten aus.**
+Die Dateien sind in ~/.config/Microsoft/Microsoft Teams/logs.txt.
+  
+So sammeln Sie Protokolle für Windows: Klicken Sie auf Microsoft Teams Taskleiste auf das Symbol "Protokolle", und wählen Sie **Protokolle erhalten aus.**
+Die logs.txt datei wird automatisch in Editor geöffnet.    
 
 ## <a name="browser-trace"></a>Browser-Ablaufverfolgung
 
 Bei einigen Fehlerkategorien müssen Sie vom Microsoft-Support möglicherweise eine Browser ablaufverfolgung erfassen. Diese Informationen können wichtige Details zum Status des Teams Client bereitstellen, wenn der Fehler auftritt.
 
-Bevor Sie die Browser ablaufverfolgung starten, vergewissern Sie sich, dass Sie bei ihrem Teams. Dies ist vor dem Starten der Ablaufverfolgung wichtig, damit die Ablaufverfolgung keine vertraulichen Anmeldeinformationen enthält.
+Bevor Sie die Browser-Ablaufverfolgung starten, vergewissern Sie sich, dass Sie bei ihrem Teams. Dies ist vor dem Starten der Ablaufverfolgung wichtig, damit die Ablaufverfolgung keine vertraulichen Anmeldeinformationen enthält.
 
 Nachdem Sie sich angemeldet haben, wählen Sie einen der folgenden Links aus, der für Ihren Browser geeignet ist, und führen Sie die angegebenen Schritte aus. 
 
@@ -145,7 +154,7 @@ Nachdem Sie sich angemeldet haben, wählen Sie einen der folgenden Links aus, de
 > Ersetzen Sie in den Schritten alle Verweise auf das Azure-Portal durch den Teams Client.
   
 ## <a name="webrtc-logs-in-browsers"></a>WebRTC-Protokolle in Browsern
-WebRTC-Protokolle können den Microsoft-Support unterstützen, indem Sie Verbindungsdetails für Audio- und Videoanrufe bereitstellen. Führen Sie die Schritte zum Zugreifen auf die WebRTC-Protokolle in Edge (Chromium) oder Chrome aus: 
+WebRTC-Protokolle können den Microsoft-Support unterstützen, indem Sie Verbindungsdetails für Audio- und Videoanrufe bereitstellen. Führen Sie die Schritte für den Zugriff auf die WebRTC-Protokolle in Edge (Chromium) oder Chrome aus: 
   
 1.  Öffnen Sie eine neue Registerkarte, und wechseln Sie zu einer der folgenden URLs:
     -   Edge (Chromium): "edge://webrtc-internals/"
