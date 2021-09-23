@@ -21,17 +21,15 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für Ihre Teams.
-ms.openlocfilehash: 6a065c5661fc4b0a716d2aab31687e20645473fb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für Audiokonferenzen portieren Teams.
+ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432497"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491725"
 ---
-# <a name="srvice-phone-numbers-for-calling-plans"></a>Srvice phone numbers for Calling Plans
-
-**HINWEIS FÜR PRÜFER: DIES SCHEINT SPEZIFISCH FÜR ANRUFPLÄNE ZU SEIN. SOLLTE ICH SIE UNTER DEN KNOTEN ANRUFPLÄNE VERSCHIEBEN?**
+# <a name="service-phone-numbers-for-calling-plans"></a>Servicetelefonnummern für Anrufpläne
 
 Sie können [](./getting-phone-numbers-for-your-users.md)nicht nur Telefonnummern für Ihre Benutzer erhalten, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen (auch als Servicenummern bezeichnet). Im Vergleich zu Telefonnummern für Benutzer oder Abonnenten haben Leistungsnummern eine höhere Kapazität für gleichzeitige Anrufe. So kann eine Leistungsnummer beispielsweise Hunderte von Anrufen gleichzeitig verarbeiten, während die Telefonnummer eines Benutzers nur einige wenige Anrufe gleichzeitig verarbeiten kann.
   
@@ -40,7 +38,7 @@ Sie können [](./getting-phone-numbers-for-your-users.md)nicht nur Telefonnummer
   
 Es gibt drei Möglichkeiten, Leistungsnummern zu erhalten:
   
-- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Servicenummern über das Admin Center Microsoft Teams erhalten. Weitere Informationen [finden Sie unter Neue Leistungsnummern erhalten.](#get-new-service-numbers)
+- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Servicenummern über das admin center Microsoft Teams erhalten. Weitere Informationen [finden Sie unter Neue Leistungsnummern erhalten.](#get-new-service-numbers)
 
 - **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber portieren oder übertragen. Über [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
@@ -53,7 +51,7 @@ Es gibt drei Möglichkeiten, Leistungsnummern zu erhalten:
 
 So erhalten Sie neue Leistungsnummern im Teams Admin Center:
 
-1. Wechseln Sie in der linken Navigationsleiste zu  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
+1. Navigieren Sie in der linken **Navigationsleiste** zu Telefon  >  **Sprachanrufnummern**, und klicken Sie dann auf **Hinzufügen**.
 
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 
@@ -79,7 +77,7 @@ Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist,
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-Navigieren Sie im Teams Admin Center in der linken Navigationsleiste zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation einschließlich Standort, Nummertyp und  >   Statusinformationen anzeigen.
+Wechseln Sie im Teams Admin Center in der linken Navigationsleiste zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation einschließlich Standort, Nummertyp und  >   Statusinformationen anzeigen.
 
 ## <a name="assign-service-phone-numbers"></a>Zuweisen von Servicetelefonnummern
 

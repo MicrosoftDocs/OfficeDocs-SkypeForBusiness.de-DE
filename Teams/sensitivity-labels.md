@@ -17,26 +17,26 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Vertraulichkeitsbezeichnungen verwenden, um Ihre Teams in Ihrer Microsoft Teams.
-ms.openlocfilehash: 5337f623a8535a840f1eead45c53506fb8f3fee7
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 135049e80d6a8c0e008886ca924cca64b5943695
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935841"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496692"
 ---
 # <a name="sensitivity-labels-for-microsoft-teams"></a>Vertraulichkeitsbeschriftungen für Microsoft Teams
 
-[Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels) ermöglichen Teams, den Zugriff auf vertrauliche Organisationsinhalte zu schützen und zu regulieren, die während der Zusammenarbeit innerhalb von Teams erstellt wurden. Nachdem Sie Vertraulichkeitsbezeichnungen mit den zugehörigen Richtlinien im [Microsoft Compliance Center](/microsoft-365/compliance/go-to-the-securitycompliance-center)konfiguriert haben, können diese Bezeichnungen auf Teams in Ihrer Organisation angewendet werden.
+[Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels) ermöglichen Teams Administratoren, den Zugriff auf vertrauliche Organisationsinhalte zu schützen und zu regulieren, die während der Zusammenarbeit innerhalb von Teams erstellt wurden. Nachdem Sie Vertraulichkeitsbezeichnungen mit den zugehörigen Richtlinien im [Microsoft Compliance Center](/microsoft-365/compliance/go-to-the-securitycompliance-center)konfiguriert haben, können diese Bezeichnungen auf Teams in Ihrer Organisation angewendet werden.
 
-Vertraulichkeitsbezeichnungen werden derzeit in Kursteams für Kunden, die mit Teams Education-SKUs arbeiten, nicht unterstützt. Weitere Informationen zur Lizenzierung finden Sie in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
+Vertraulichkeitsbezeichnungen werden derzeit in Kursteams für Kunden, die ihre Education-SKUs Teams, nicht unterstützt. Weitere Informationen zur Lizenzierung finden Sie in der [Microsoft Teams-Dienstbeschreibung](/office365/servicedescriptions/teams-service-description).
 
-## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification-labels"></a>Was ist der Unterschied zwischen Vertraulichkeitsbeschriftungen und Teams Klassifizierungsbezeichnungen?
+## <a name="whats-the-difference-between-sensitivity-labels-and-teams-classification"></a>Was ist der Unterschied zwischen Vertraulichkeitsbeschriftungen und Teams Klassifizierung?
 
-Vertraulichkeitsbeschriftungen unterscheiden sich von Klassifizierungsbezeichnungen, die auch als Azure AD-Gruppenklassifizierung bezeichnet werden. Bei Klassifizierungsbeschriftungen handelt es sich um Textzeichenfolgen, die einer Gruppe Microsoft 365 zugeordnet werden können, der aber keine tatsächlichen Richtlinien zugeordnet sind. Sie verwenden Klassifizierungsbezeichnungen als Metadaten und müssen dann andere Methoden verwenden, z. B. interne Tools und Skripts, um Richtlinien zu erzwingen.
+Vertraulichkeitsbeschriftungen unterscheiden sich von Teams Klassifizierung, die auch als Azure AD-Gruppenklassifizierung bezeichnet wird. Klassifizierungen sind Textzeichenfolgen, die einer Bestimmten Microsoft 365-Gruppe zugeordnet werden können, ihnen aber keine tatsächlichen Richtlinien zugeordnet sind. Sie verwenden die Klassifizierung als Metadaten und müssen dann andere Methoden verwenden, z. B. interne Tools und Skripts, um Richtlinien zu erzwingen.
 
-Der Vorteil der Verwendung von Vertraulichkeitsbezeichnungen besteht in der automatischen Erzwingung ihrer Richtlinien über eine Kombination aus der Microsoft 365 Groups-Plattform, dem Compliance Center und den Teams-Diensten. Vertraulichkeitsbezeichnungen bieten leistungsfähige Infrastrukturunterstützung für die Sicherung der vertraulichen Daten Ihrer Organisation und die Sicherstellung der Einhaltung Ihrer internen Richtlinien oder Vorschriften.
+Der Vorteil der Verwendung von Vertraulichkeitsbezeichnungen besteht in der automatischen Erzwingung ihrer Richtlinien über eine Kombination aus der Microsoft 365 Groups-Plattform, dem Compliance Center und den Teams-Diensten. Vertraulichkeitsbezeichnungen bieten leistungsstarke Infrastrukturunterstützung für die Sicherung der vertraulichen Daten Ihrer Organisation und die Sicherstellung der Einhaltung Ihrer internen Richtlinien oder Vorschriften.
 
-Wenn Sie derzeit Klassifizierungsbezeichnungen verwenden, finden Sie in der folgenden Dokumentation weitere Informationen und Anweisungen zum Migrieren dieser Bezeichnungen zu Vertraulichkeitsbeschriftungen: [Klassische Azure AD-Gruppenklassifizierung](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification).
+Wenn Sie derzeit eine Teams verwenden, finden Sie in der folgenden Dokumentation weitere Informationen und Anweisungen zum Konvertieren dieser Werte in Vertraulichkeitsbezeichnungen: Klassifizierung der [klassischen Azure AD-Gruppe.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites#classic-azure-ad-group-classification)
 
 ## <a name="example-scenarios-for-sensitivity-labels"></a>Beispielszenarien für Vertraulichkeitsbeschriftungen
 
@@ -59,10 +59,7 @@ Ebenso erstellen und veröffentlichen Sie eine Vertraulichkeitsbezeichnung namen
 
 ![Screenshot of General sensitivity label.](media/sensitivity-labels-general-example.png)
 
-Wenn das Team erstellt wird, wird die Vertraulichkeitsbeschriftung in der oberen rechten Ecke der Kanäle im Team angezeigt. 
-
-> [!NOTE]
-> Wenn Sie hierarchische Beschriftungen mit über- und untergeordneten Ebenen wie "Vertraulich\Finanzen" verwenden, wird nur die übergeordnete Beschriftung in der Kanalüberschrift angezeigt.
+Wenn das Team erstellt wird, ist die Vertraulichkeitsbezeichnung für Benutzer in der oberen rechten Ecke von Kanälen im Team sichtbar. 
 
 ![Screenshot der Vertraulichkeitsbezeichnung im Teamkanal.](media/sensitivity-labels-channel.png)
 
@@ -72,7 +69,7 @@ Ein Teambesitzer kann die Vertraulichkeitsbezeichnung und die Datenschutzeinstel
 
 ### <a name="control-guest-access-to-teams"></a>Steuern des Gastzugriffs auf Teams
 
-Sie können Vertraulichkeitsbezeichnungen verwenden, um den Gastzugriff auf Ihre Teams zu steuern. Teams mit einer Bezeichnung erstellt wurden, die keinen Gastzugriff erlaubt, stehen nur Benutzern in Ihrer Organisation zur Verfügung. Personen außerhalb Ihrer Organisation können dem Team nicht hinzugefügt werden.
+Sie können Vertraulichkeitsbezeichnungen verwenden, um den Gastzugriff auf Ihre Teams zu steuern. Teams mit einer Bezeichnung erstellt wurden, die den Gastzugriff nicht erlaubt, stehen nur Benutzern in Ihrer Organisation zur Verfügung. Personen außerhalb Ihrer Organisation können dem Team nicht hinzugefügt werden.
 
 ## <a name="microsoft-teams-admin-center"></a>Microsoft Teams Admin Center
 
@@ -84,22 +81,18 @@ Vertraulichkeitsbezeichnungen sind auch in Teameigenschaften und  in der Spalte 
 
 Bevor Sie Vertraulichkeitsbeschriftungen Teams, sollten Sie die folgenden Einschränkungen beachten:
 
-- **Namen von übergeordneten Beschriftungen werden für Unterbezeichnungen nicht angezeigt**
-    
-    Teams unterstützt Unterbezeichnungen, zeigt aber nicht den Namen der übergeordneten Bezeichnung an. Beispielsweise wird **"Vertraulich** \\ **alle Mitarbeiter"** als **"Alle Mitarbeiter" angezeigt.**
-
 - **Vertraulichkeitsbeschriftungen werden von den Teams Graph, PowerShell-Cmdlets und Vorlagen nicht unterstützt.**
     
-    Benutzer können beim Erstellen von Teams keine Vertraulichkeitsbezeichnungen direkt über Teams Graph-APIs, Teams PowerShell-Cmdlets und Teams angeben. Moderne Gruppen und Graph-APIs und PowerShell-Cmdlets ermöglichen jedoch das Erstellen von Gruppen mit Bezeichnungen. Daher können Benutzer zuerst mithilfe von Groups Graph-APIs oder PowerShell-Cmdlets Gruppen mit Bezeichnungen erstellen und diese Gruppen dann in das -Teams.
+    Benutzer können beim Erstellen von Teams keine Vertraulichkeitsbezeichnungen direkt über Teams Graph-APIs, Teams PowerShell-Cmdlets und Teams angeben. Moderne Gruppen und Graph-APIs und PowerShell-Cmdlets ermöglichen jedoch das Erstellen von Gruppen mit Bezeichnungen. Daher können Benutzer zunächst mithilfe von Groups Graph-APIs oder PowerShell-Cmdlets Gruppen mit Bezeichnungen erstellen und diese Gruppen dann in die Gruppe Teams.
 
 - **Unterstützung privater Kanäle**
     
     Private Kanäle, die in einem Team erstellt werden, erben die Vertraulichkeitsbezeichnung, die auf ein Team angewendet wurde. Die gleiche Bezeichnung wird automatisch auf die SharePoint für den privaten Kanal angewendet.
     
-    Wenn ein Benutzer die Vertraulichkeitsbeschriftung auf einer SharePoint-Website für einen privaten Kanal jedoch direkt ändert, wird diese Änderung nicht im Client Teams wider. In diesem Szenario sehen Benutzer weiterhin die ursprüngliche Vertraulichkeitsbezeichnung, die auf das Team angewendet wurde, im Kopf des privaten Kanals.
+    Wenn ein Benutzer die Vertraulichkeitsbezeichnung auf einer SharePoint-Website für einen privaten Kanal jedoch direkt ändert, wird diese Änderung nicht im Client für Teams widerspiegelt. In diesem Szenario sehen Benutzer weiterhin die ursprüngliche Vertraulichkeitsbezeichnung, die auf das Team angewendet wurde, im Kopf des privaten Kanals.
 
 ## <a name="how-to-create-and-configure-sensitivity-labels-for-teams"></a>Erstellen und Konfigurieren von Vertraulichkeitsbezeichnungen für Teams
 
-Befolgen Sie die Anweisungen in der Microsoft 365, um Vertraulichkeitsbeschriftungen für Ihre Teams: 
+Befolgen Sie die Anweisungen in der Microsoft 365, um Vertraulichkeitsbeschriftungen für Ihre Dokumente zu erstellen Teams: 
 
-- [Verwenden Sie Vertraulichkeitsbezeichnungen,](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)um Inhalte in Microsoft Teams, Microsoft 365 Gruppen und SharePoint zu schützen.
+- [Verwenden Sie Vertraulichkeitsbezeichnungen, um Inhalte in Microsoft Teams, Microsoft 365 Gruppen und SharePoint zu schützen.](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites)

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie nach Land oder Region und Ort nach Telefonnummern suchen, die Sie Ihren Benutzern zuweisen können, und geben Sie die Anzahl der benötigten Nummern an.
-ms.openlocfilehash: fc7edf9c31f0b934bb2e1dea2fb44437b8092c59
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: cb4bcac5a79f782e87ce53eb9cb93f8a024260bf
+ms.sourcegitcommit: 9fd9cfe3683503f3c35ad5591324396e2532caef
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432247"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59496682"
 ---
 # <a name="search-for-telephone-numbers-for-users"></a>Suchen nach Telefonnummern für Benutzer
 
@@ -34,7 +34,7 @@ Wenn Sie Benutzer in Ihrer Organisation für das Anrufen und Empfangen von Telef
   
 Bevor Sie Ihren Benutzern von Microsoft bereitgestellte Telefonnummern  zuweisen können, müssen Sie die Seite Neue Nummern erhalten verwenden, um nach telefonnummern zu suchen, die für Sie verfügbar sind. Sie können nach Land **(Markt),** Nummerntyp **und** Standort suchen und dann die Anzahl der Telefonnummern eingeben, die Sie für Ihre Benutzer benötigen. Die Menge wird von der Seite automatisch basierend darauf begrenzt, wie viele noch zur Verfügung stehen. 
 
-Die Art und Weise, wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PstN-Konnektivitätsoption ab: Microsoft-Anrufpläne, Verbinden oder Direct Routing. 
+Die Art und Weise, wie Sie Telefonnummern erwerben und verwalten, hängt von ihrer PstN-Konnektivitätsoption ab: Microsoft-Anrufpläne, Verbinden oder Direct Routing. 
 
 Dieser Artikel gilt nur für Microsoft-Anrufpläne. Weitere Informationen zu allen Optionen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation.](/microsoftteams/manage-phone-numbers-landing-page)
 
@@ -65,11 +65,11 @@ So suchen Sie nach Telefonnummern für Ihre Benutzer:
 8. Wählen Sie **auf der Seite** Telefonnummern erhalten die zu verwendende Telefonnummer aus, klicken Sie auf Telefonnummern erwerben , und klicken Sie dann auf **Weiter.** 
 
     > [!IMPORTANT]
-    > Sie können mehr Telefonnummern erwerben, als Sie Über Microsoft-Lizenzen verfügen. Um zu ermitteln, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl an Microsoft-Anrufplanlizenzen, fügen Sie 10 Prozent der Anzahl an Lizenzen hinzu, fügen Sie dann 10 hinzu, und entfernen Sie dann alle, die Sie bereits erworben haben. Wenn Sie beispielsweise über 100  Lizenzen für einen Microsot-Plan für Inlandanrufe und/oder einen **Microsoft-Plan** für Auslandsanrufe verfügen, können Sie 120 Telefonnummern reservieren, vorausgesetzt, Sie haben noch keine Telefonnummern für diese 100 Benutzer erhalten. Weitere Informationen finden Sie unter [Wie viele Telefonnummern können Sie erhalten?.](./how-many-phone-numbers-can-you-get.md)
+    > Sie können mehr Telefonnummern erwerben, als Sie Über Microsoft-Lizenzen verfügen. Um zu ermitteln, wie viele Telefonnummern Sie erwerben können, nehmen Sie Ihre Anzahl an Microsoft-Anrufplanlizenzen, fügen Sie 10 Prozent der Anzahl an Lizenzen hinzu, fügen Sie dann 10 hinzu, und entfernen Sie dann alle, die Sie bereits erworben haben. Wenn Sie beispielsweise über 100 Lizenzen für einen  Microsoft-Anrufplan für Inland und/oder einen **Microsoft-Plan** für Auslandsanrufe verfügen, können Sie 120 Telefonnummern reservieren, vorausgesetzt, Sie haben noch keine Telefonnummern für diese 100 Benutzer erhalten. Weitere Informationen finden Sie unter [Wie viele Telefonnummern können Sie erhalten?.](./how-many-phone-numbers-can-you-get.md)
 
 9. Überprüfen Sie **auf der** Seite Bestätigung Ihre Auswahlmöglichkeiten, und klicken Sie dann auf **Bestellung bestellen**.
 
-10. Wenn Sie zur  Seite Telefon Telefonnummern zurückkehren, wählen Sie die Telefonnummern aus,  die Sie zuweisen möchten, und klicken Sie dann auf Bearbeiten, um sie einem Benutzer zuzuordnen.  
+10. Wenn Sie zur  Seite Telefon Telefonnummern zurückkehren, wählen Sie die Telefonnummern aus, die Sie zuweisen möchten, und klicken Sie dann auf Bearbeiten, um sie einem Benutzer zuzuordnen.   
 
 ## <a name="related-topics"></a>Verwandte Themen
 

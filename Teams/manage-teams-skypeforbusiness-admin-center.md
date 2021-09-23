@@ -7,8 +7,8 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: ''
-search.appverid: MET150
-description: Erfahren Sie, wie Sie während des Übergangs von Teams im Microsoft 365 Admin Center zum neuen Teams Admin Center mandantenweite Und-Benutzereinstellungen für Teams verwalten.
+ROBOTS: NOINDEX, NOFOLLOW
+description: Erfahren Sie, wie Sie mandantenweite und Benutzereinstellungen für Teams während des Übergangs von Teams im Microsoft 365 Admin Center zum neuen Teams Admin Center verwalten.
 ms.localizationpriority: medium
 f1.keywords:
 - CSH
@@ -21,12 +21,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 - Skype for Business Online
-ms.openlocfilehash: 32e863b244453599bed9c71fc2dede4df14ff1a0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 727aa58f3e7a91336355730ce5f0a552ea09fdc9
+ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615331"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "59491735"
 ---
 # <a name="manage-teams-during-the-transition-to-the-new-microsoft-teams-admin-center"></a>Verwalten von Microsoft Teams während der Umstellung auf das neue Admin Center für Microsoft Teams
 
@@ -46,7 +46,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 |Abschnitt von Microsoft Teams im Microsoft 365 Admin Center  |Einstellungsname (Mandantenebene)  |Microsoft Teams Admin Center-Richtlinie   |Ebene: Mandant oder Benutzer   |
 |---------|---------|---------|---------|
 |Allgemein     |Organigramm in persönlichem Profil anzeigen        |  [TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)       |  Mandant       |
-|Allgemein     |Verwenden Skype for Business für Empfänger, die keine E-Mail-Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Mandant         |
+|Allgemein     |Verwenden Skype for Business-Mail für Empfänger, die nicht über Teams         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Mandant         |
 |E-Mail-Integration     |Benutzern das Senden von E-Mails an Kanäle gestatten         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Mandant         |
 |E-Mail-Integration     |Absenderliste zulassen         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)        |Mandant         |
 |Benutzerdefinierter Cloudspeicher     |Box         |[TeamsClientConfiguration](/powershell/module/skype/set-csteamsclientconfiguration)         |Mandant         |
@@ -87,7 +87,7 @@ Die folgende Tabelle enthält die Abschnitte der Microsoft Teams-Oberfläche, di
 <sup>3</sup> Standard-Apps und externe Apps können in "TeamsAppPermissionPolicy" auf Benutzerebene aktiviert bzw. deaktiviert werden. Darüber hinaus können Apps in organisationsweiten App-Einstellungen auf Mandantenebene blockiert werden, wodurch alle Einstellungen auf Benutzer- und Mandantenebene außer Kraft gesetzt werden.
 
 > [!NOTE]
-> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration im Zusammenhang mit Teams Kanälen. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
+> Sie verwenden weiterhin das Dashboard "Gruppen" im Microsoft 365 Admin Center für die Konfiguration im Zusammenhang mit Teams und Kanälen. Einstellungen für Apps verbleiben im Microsoft 365 Admin Center im Microsoft Teams-Bereich und werden später migriert.
 
 ## <a name="manage-settings-during-the-migration"></a>Verwalten von Einstellungen während der Migration
 
