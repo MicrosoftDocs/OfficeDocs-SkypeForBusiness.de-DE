@@ -1,5 +1,5 @@
 ---
-title: Datenübertragungen zwischen Netzbetreibern und Microsoft für die Verbinden
+title: Datenübertragungen zwischen Netzbetreibern und Microsoft für Operator Connect
 author: MicrosoftHeidi
 ms.author: heidip
 ms.reviewer: alaina, creager
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Spezifische Datenschutzinformationen im Zusammenhang mit der Übertragung von Daten oder Informationen zwischen Netzbetreibern und Microsoft, insbesondere in Bezug auf die Anbieter Verbinden.
+description: Spezifische Datenschutzinformationen in Bezug auf die Übertragung von Daten oder Informationen zwischen Netzbetreibern und Microsoft, insbesondere in Bezug auf Operator Connect.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -18,23 +18,23 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58582189"
 ---
-# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Datenübertragungen zwischen Netzbetreibern und Microsoft für die Verbinden
+# <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Datenübertragungen zwischen Netzbetreibern und Microsoft für Operator Connect
 
 ## <a name="provisioned-and-assigned-numbers"></a>Bereitgestellte und zugewiesene Nummern
 
-Um die ordnungsgemäße Funktionsweise des Operators Verbinden-Programms sicherzustellen, informiert Microsoft jeden teilnehmenden Netzbetreiber über eine API, deren Telefonnummern im Teams Admin Center zugewiesen wurden, sowie den SIP-URI (Session Initiation Protocol Uniform Resource Identifiers) über diese Telefonnummer.
+Um das ordnungsgemäße Funktionieren des Operator Connect-Programms sicherzustellen, teilt Microsoft jedem teilnehmenden Netzbetreiber über eine API mit, welche Telefonnummern des Netzbetreibers im Teams Admin Center zugewiesen wurden, sowie die SIP-URI (Session Initiation Protocol Uniform Resource Identifiers) dieser Telefonnummer.
 
-## <a name="call-detail-records-and-quality-data"></a>Datensätze für Anrufdetails und Qualitätsdaten
+## <a name="call-detail-records-and-quality-data"></a>Anrufdetailaufzeichnungen und Qualitätsdaten
 
-Microsoft stellt jedem teilnehmenden Netzbetreiber über eine API Anrufdetails und Qualitätsdaten zur Verfügung. Dies ist erforderlich, damit Microsoft und der Netzbetreiber eine Problembehandlung durchführen und das ordnungsgemäße Funktionieren des Diensts sicherstellen können.
+Microsoft stellt jedem teilnehmenden Netzbetreiber über eine API Anrufdetailaufzeichnungen und Qualitätsdaten zur Verfügung. Dies ist für Microsoft und den Netzbetreiber erforderlich, um eine Fehlerbehebung durchzuführen und das ordnungsgemäße Funktionieren des Dienstes sicherzustellen.
 
-## <a name="call-duration-data"></a>Daten zur Anrufdauer
+## <a name="call-duration-data"></a>Anrufdauerdaten
 
-Jeder Netzbetreiber stellt Microsoft über eine API die Dauer von Anrufen bereit, die von ihren Kunden über die Microsoft Teams. Microsoft verwendet diese Datensätze, um Kunden Nutzungsinformationen zur Verfügung zu stellen und um sicherzustellen, dass unsere Datensätze mit der des Netzbetreibers konsistent sind. Microsoft wird diese Datensätze in Übereinstimmung mit dem anwendbaren Recht und den anwendbaren Bestimmungen sowie den Datenschutzbestimmungen von Microsoft speichern und verarbeiten.
+Jeder Netzbetreiber stellt Microsoft über eine API die Dauer der Anrufe seiner Kunden mit Microsoft Teams zur Verfügung. Microsoft verwendet diese Aufzeichnungen, um Kunden Nutzungsinformationen bereitzustellen und sicherzustellen, dass unsere Aufzeichnungen mit denen des Netzbetreiber übereinstimmen. Microsoft speichert und verarbeitet diese Aufzeichnungen in Übereinstimmung mit den geltenden Gesetzen und Vorschriften sowie der Microsoft-Datenschutzbestimmungen.
 
-Weitere Informationen finden Sie unter [Kaufen, Konfigurieren und Aktivieren Karrierecoach für Microsoft Teams](career-coach.md)
+Weitere Informationen: [Career Coach für Microsoft Teams kaufen, konfigurieren und aktivieren ](career-coach.md)

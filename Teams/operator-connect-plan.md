@@ -1,5 +1,5 @@
 ---
-title: Operatoren Verbinden
+title: Operator Connect
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Weitere Informationen zu Operatoren Verbinden, z. B. Anforderungen und Planung der Bereitstellung.
+description: Erfahren Sie mehr über Operator Connect, z. B. Anforderungen und Planung der Bereitstellung.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -23,59 +23,59 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: adc229264513d7ec4ca692dca1731d7390b80dc243b4571757607c1c76b7cacb
 ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "54323947"
 ---
-# <a name="plan-for-operator-connect"></a>Planen von Operatoren Verbinden
+# <a name="plan-for-operator-connect"></a>Plan für Operator Connect
 
 >[!NOTE]
->Operatoren Verbinden derzeit nur in der **öffentlichen Vorschau verfügbar.** In der öffentlichen Vorschau können Sie anstehende Features testen und Feedback geben. Features, die in public preview enthalten sind, sind möglicherweise nicht vollständig, werden möglicherweise geändert und werden in der Office 365 Government unterstützt.
+>Operator Connect ist derzeit nur in der **öffentlichen Vorschau** verfügbar. Die öffentliche Vorschau bietet Ihnen die Möglichkeit, kommende Funktionen zu testen und Feedback zu geben. Die in der öffentlichen Vorschau enthaltenen Features sind u. U. nicht vollständig, könnten geändert werden und werden in Office 365 Government Cloud nicht unterstützt.
 
-Operator Verbinden ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und Telefonsystem.  
+Operator Connect ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und dem Telefonsystem.  
 
-In diesem Artikel werden die Vorteile und Anforderungen beschrieben und die am Operator-Programm teilnehmenden Operatoren Verbinden aufgeführt.  Wenn Sie entscheiden, Verbinden die richtige Lösung für Ihre Organisation ist, lesen Sie diesen Artikel unter Konfigurieren der [Operatoren Verbinden.](operator-connect-configure.md)  
+Dieser Artikel beschreibt Vorteile und Anforderungen und listet die Betreiber auf, die am Operator Connect-Programm teilnehmen.  Wenn Sie sich entscheiden, dass Operator Connect die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Operator Connect](operator-connect-configure.md).  
 
 ## <a name="benefits"></a>Vorteile
 
-Wenn Ihr Verbinden Teilnehmer am Microsoft Operator Verbinden-Programm ist, kann er den Dienst verwalten, um PSTN-Anrufe an Teams. Das Operatoren-Verbinden bietet die folgenden Vorteile:
+Wenn Ihr bestehender Betreiber am Microsoft Operator Connect-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Das Operator Connect-Programm bietet die folgenden Vorteile:
 
-- **Nutzen Sie vorhandene Verträge, oder suchen Sie einen neuen Operator.** Sie behalten Ihren bevorzugten Operator und Ihre Verträge bei oder wählen einen neuen aus einer Auswahl von teilnehmenden Operatoren aus, um Ihre geschäftlichen Anforderungen zu erfüllen.
+- **Nutzen bestehender Verträge oder finden eines neuen Betreibers.** Sie behalten Ihren bevorzugten Betreiber und Ihre bevorzugten Verträge oder wählen einen neuen aus einer Auswahl an teilnehmenden Betreibern aus, um Ihre Geschäftsanforderungen zu erfüllen.
 
-- **Von Operatoren verwaltete Infrastruktur.** Ihr Operator verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und bei der Verwaltung von Hardware sparen können.
+- **Vom Betreiber verwaltete Infrastruktur.** Ihr Betreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
 
-- **Schnellere und einfachere Bereitstellung.** Sie können schnell eine Verbindung mit Ihrem Netzbetreiber herstellen und Benutzern Telefonnummern zuweisen – alles über Teams Admin Center.
+- **Schnellere, einfachere Bereitstellung.** Sie können schnell eine Verbindung zu Ihrem Betreiber herstellen und Benutzern Telefonnummern zuweisen – alles über das Teams Admin Center.
 
-- **Verbesserte Unterstützung und Zuverlässigkeit.** Operatoren bieten Vereinbarungen zum technischen Support und Vereinbarungen zum Ebene der gemeinsamen Dienste zur Verbesserung des Supportdienstes, während durch direktes Peering, das von Azure unterstützt wird, eine 1:1-Netzwerkverbindung für eine höhere Zuverlässigkeit erstellt wird.
+- **Verbesserte Unterstützung und Zuverlässigkeit.** Die Betreiber bieten technischen Support und gemeinsame Service-Level-Agreements, um den Support-Service zu verbessern, während direktes Peering, das von Azure unterstützt wird, eine Eins-zu-Eins-Netzwerkverbindung für erhöhte Zuverlässigkeit schafft.
 
 ## <a name="requirements"></a>Anforderungen
 
- Operatoren Verbinden die richtige Lösung für Ihre Organisation, wenn:
+ Operator Connect könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
 
-- Microsoft-Anrufplan ist in Ihrem geografischen Standort nicht verfügbar.
-- Ihr bevorzugter Operator ist ein Teilnehmer am Microsoft Operator Verbinden Programm.
-- Sie möchten nach einem neuen Operator suchen, um das Aufrufen von in einer Teams.
+- Der Microsoft-Anrufplan an Ihrem geografischen Standort nicht verfügbar ist.
+- Ihr bevorzugter Operator ist Teilnehmer am Microsoft Operator Connect-Programm.
+- Sie möchten einen neuen Operator finden, um Anrufe in Teams zu ermöglichen.
 
-Zum Aktivieren von Telefonnummernzuweisungen mit operator Verbinden, stellen Sie sicher, dass Ihre Benutzer dies sind:
+Um die Zuweisung von Telefonnummern mit Operator Connect zu aktivieren, stellen Sie sicher, dass Ihre Benutzer:
 
-- Teams Telefon lizenziert. Weitere Informationen finden Sie unter [Was ist Telefonsystem?](what-is-phone-system-in-office-365.md) und [Zuweisen Teams Add-On-Lizenzen zu Benutzern.](teams-add-on-licensing/assign-teams-add-on-licenses.md)
-- Im TeamsOnly-Modus. Weitere Informationen finden Sie unter [Verstehen Microsoft Teams und Skype for Business Koexistenz und Interoperabilität.](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
+- Teams-Telefon lizenziert. Weitere Informationen finden Sie unter [Was ist ein Telefonsystem? ](what-is-phone-system-in-office-365.md) und [Zuweisen von Teams-Add-On-Lizenzen zu Benutzern](teams-add-on-licensing/assign-teams-add-on-licenses.md).
+- Im TeamsOnly-Modus. Um mehr zu erfahren, siehe [Grundlegendes zur Koexistenz und Interoperabilität von Microsoft Teams und Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ## <a name="available-operators"></a>Verfügbare Operatoren
 
-Die folgenden Operatoren sind Teilnehmer am Microsoft Operator Verbinden Programm:
+Die folgenden Operatoren sind Teilnehmer des Microsoft Operator Connect-Programms:
 
-| Vermittlung | Funktion | Länderabdeckung |
+| Operator | Funktion | Länderabdeckung |
 | --- | --- | --- |
 | `BT`  | Anrufe | Belgien, Dänemark, Finnland, Frankreich, Deutschland, Irland, Italien, Luxemburg, Niederlande, Norwegen, Polen, Südafrika, Spanien, Schweden, Schweiz, Vereinigtes Königreich |
 | `Intrado` | Anrufe | Belgien, Kanada, Dänemark, Frankreich, Deutschland, Irland, Luxemburg, Niederlande, Spanien, Schweden, Vereinigtes Königreich, Vereinigte Staaten  |
 | `NTT`  | Anrufe | Österreich, Belgien, Brasilien, Kanada, Tschechien, Dänemark, Finnland, Frankreich, Deutschland, Irland, Italien, Luxemburg, Mexiko, Niederlande, Norwegen, Polen, Portugal, Puerto Rico, Rumänien, Südafrika, Spanien, Schweden, Schweiz, Vereinigtes Königreich, Vereinigte Staaten |
-| `NuWave` | Anrufe | Österreich, Belgien, Kanada, Dänemark, Frankreich, Deutschland, Irland, Italien, Niederlande, Portugal, Spanien, Schweden, Schweiz, Vereinigtes Königreich, Vereinigte Staaten   |
-| `Orange Business Services` | Anrufe | Österreich, Belgien, Tschechien, Dänemark, Finnland, Frankreich, Französisch-Guiana, Deutschland, Guadeloupe, Irland, Italien, Luxemburg, Martinique, Mayotte, Niederlande, Norwegen, Polen, Portugal, Réunion, St. Saint-Martin, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich  |
-| `Pure IP` | Anrufe | Australien, Österreich, Belgien, Brasilien, Bulgarien, Kanada, Chile, Kolumbien, Kroatien, Zypern, Tschechien, Dänemark, Finnland, Frankreich, Deutschland, Griechenland, Hongkong S.A.R., Irland, Italien, Japan, Litauen, Luxemburg, Malaysia, Mexiko, Niederlande, Neuseeland, Norwegen, Panama, Polen, Portugal, Puerto Rico, Rumänien, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden, Schweiz, Vereinigtes Königreich, VEREINIGTE Staaten  |
+| `NuWave` | Anrufe | Österreich, Belgien, Kanada, Dänemark, Frankreich, Deutschland, Irland, Italien, Niederlande, Portugal, Spanien, Schweden, Schweiz, Großbritannien, USA   |
+| `Orange Business Services` | Anrufe | Österreich, Belgien, Tschechien, Dänemark, Finnland, Frankreich, Französisch-Guayana, Deutschland, Guadeloupe, Irland, Italien, Luxemburg, Martinique, Mayotte, Niederlande, Norwegen, Polen, Portugal, Réunion, Saint Barthélemy, Saint Martin, Spanien, Svalbard, Schweden, Schweiz, Vereinigtes Königreich  |
+| `Pure IP` | Anrufe | Australien, Österreich, Belgien, Brasilien, Bulgarien, Kanada, Chile, Kolumbien, Kroatien, Zypern, Tschechien, Dänemark, Finnland, Frankreich, Deutschland, Griechenland, Sonderverwaltungszone Hongkong, Irland, Italien, Japan, Litauen, Luxemburg, Malaysia, Mexiko, Niederlande, Neuseeland, Norwegen, Panama, Polen, Portugal, Puerto Rico, Rumänien, Singapur, Slowakei, Slowenien, Südafrika, Spanien, Schweden, Schweiz, Großbritannien, USA  |
 | `Rogers Business` | Anrufe | Kanada  |
-| `TATA Communications` | Anrufe | Australien, Österreich, Belgien, Kanada, Tschechisch, Dänemark, Frankreich, Deutschland, Hongkong S.A.R., Ungarn, Irland, Italien, Malaysia, Mexiko, Niederlande, Neuseeland, Polen, Portugal, Rumänien, Singapur, Südkorea, Spanien, Schweden, Schweiz, Thailand, Vereinigtes Königreich, Vereinigte Staaten |
+| `TATA Communications` | Anrufe | Australien, Österreich, Belgien, Kanada, Tschechien, Dänemark, Frankreich, Deutschland, Hongkong, Ungarn, Irland, Italien, Malaysia, Mexiko, Niederlande, Neuseeland, Polen, Portugal, Rumänien, Singapur, Südkorea, Spanien, Schweden, Schweiz, Thailand, Großbritannien, USA |
 | `Telekom Deutschland` | Anrufe | Deutschland  |
 | `Telenor` | Anrufe | Dänemark, Finnland, Norwegen, Schweden  |
-| `Verizon` | Anrufe | Vereinigte Staaten |
+| `Verizon` | Anrufe | Vereinigte Staaten von Amerika |

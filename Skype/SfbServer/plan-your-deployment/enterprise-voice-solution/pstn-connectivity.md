@@ -1,5 +1,5 @@
 ---
-title: PSTN-Verbindungskomponenten in Skype for Business Server
+title: PSTN-Konnektivitätskomponenten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-cichur
 author: cichur
@@ -18,18 +18,18 @@ ms.assetid: 6b2a3f7d-760f-4f09-8432-312c98a7e6b7
 description: Erfahren Sie mehr über SIP-Trunking und PSTN-Gateways für Enterprise-VoIP in Skype for Business Server.
 ms.openlocfilehash: 8aa3914eac1a716380b69971b0c576186dbfac17
 ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 08/26/2021
 ms.locfileid: "58620971"
 ---
-# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN-Verbindungskomponenten in Skype for Business Server
+# <a name="pstn-connectivity-components-in-skype-for-business-server"></a>PSTN-Konnektivitätskomponenten in Skype for Business Server
  
 Erfahren Sie mehr über SIP-Trunking und PSTN-Gateways für Enterprise-VoIP in Skype for Business Server.
   
 Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Außerdem sollte die zugrunde liegende Technologie für Benutzer, die Anrufe tätigen und empfangen, unbemerkt im Hintergrund arbeiten. Aus Benutzersicht sollte ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem Telefonfestnetz wie eine ganz normale SIP-Sitzung wirken.
   
-Für PSTN-Verbindungen können Sie entweder einen SIP-Trunk oder ein PSTN-Gateway (mit einer Nebenstellenanlage, auch als direkte SIP-Verbindung bezeichnet, oder ohne Nebenstellenanlage) bereitstellen.
+Für PSTN-Verbindungen können Sie entweder einen SIP-Trunk oder ein PSTN-Gateway (mit einer PBX, auch als direkter SIP-Link bezeichnet) oder ohne PBX bereitstellen.
   
 ## <a name="sip-trunking"></a>SIP-Trunking
 
@@ -43,11 +43,11 @@ Für diese Bereitstellungslösung ist ein SIP-Trunking-Dienstanbieter erforderli
   
 ## <a name="pstn-gateways"></a>PSTN-Gateways
 
-Bei PSTN-Gateways handelt es sich um Drittanbietergeräte, die Signale und Mediendaten zwischen der Enterprise-VoIP-Infrastruktur und dem Telefonfestnetz oder einer Nebenstellenanlage übersetzen. PSTN-Gateways arbeiten mit dem Vermittlungsserver zusammen, um Anrufe aus dem Festnetz oder über eine Nebenstellenanlage an einen Enterprise-VoIP-Client zu übergeben. Der Vermittlungsserver übergibt außerdem Anrufe von Enterprise-VoIP-Clients an das PSTN-Gateway, damit dieses sie an das Telefonfestnetz oder die Nebenstellenanlage weiterleitet. Eine Liste der Partner, die mit Microsoft zusammenarbeiten, um Geräte bereitzustellen, die mit Skype for Business Server arbeiten, finden Sie auf [der Microsoft Unified Communications Partners-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836) 
+PSTN-Gateways sind Geräte von Drittanbietern, die Signalisierung und Medien zwischen der Enterprise-VoIP-Infrastruktur und einem PSTN oder einer PBX übersetzen. PSTN-Gateways arbeiten mit dem Vermittlungsserver zusammen, um einem Enterprise-VoIP-Client einen PSTN- oder PBX-Anruf zu präsentieren. Der Vermittlungsserver stellt auch Anrufe von Enterprise-VoIP-Clients an das PSTN-Gateway zur Weiterleitung an das PSTN oder die PBX weiter. Eine Liste der Partner, die mit Microsoft zusammenarbeiten, um Geräte bereitzustellen, die mit Skype for Business Server funktionieren, finden Sie auf [der Microsoft Unified Communications Partners-Website ](https://go.microsoft.com/fwlink/p/?linkId=202836). 
   
-## <a name="private-branch-exchanges"></a>Nebenstellenanlagen
+## <a name="private-branch-exchanges"></a>Nebenstellenanlage
 
- Wenn Sie über eine vorhandene VoIP-Infrastruktur verfügen, die eine Nebenstellenanlage (Private Branch Exchange, PBX) verwendet, können Sie Ihre Nebenstellenanlage mit Enterprise-VoIP verwenden.
+ Wenn Sie über eine vorhandene Sprachinfrastruktur verfügen, die eine Nebenstellenanlage (Private Branch Exchange, PBX) verwendet, können Sie Ihre PBX mit Enterprise-VoIP verwenden.
   
 Die folgenden Szenarien mit Integration von Enterprise-VoIP und einer Nebenstellenanlage werden unterstützt:
   
@@ -58,8 +58,8 @@ Die folgenden Szenarien mit Integration von Enterprise-VoIP und einer Nebenstell
 - TDM-Nebenstellenanlage (Time Division Multiplexing) mit eigenständigem PSTN-Gateway.
     
 > [!NOTE]
-> Medienumgehung funktioniert nicht mit allen PSTN-Gateways, IP-Nebenstellenanlagen und SBCs. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Ip-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur mit Produkten und Versionen unterstützt, die im [Unified Communications Open Interoperability Program – Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)aufgeführt sind. 
+> Die Medienumgehung funktioniert nicht mit jedem PSTN-Gateway, IP-PBX und SBC. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Cisco IP-PBXs durchgeführt. Die Medienumgehung wird nur mit Produkten und Versionen unterstützt, die unter [Unified Communications Open Interoperability Program – Lync Server](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md) aufgeführt sind. 
   
-Ausführliche Informationen zu Partnern, die Enterprise-VoIP Lösungen anbieten, finden Sie auf der [Microsoft Unified Communications Partner-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Ausführliche Informationen zu Partnern, die Enterprise-VoIP-Lösungen anbieten, finden Sie auf der [Microsoft Unified Communications Partners-Website](https://go.microsoft.com/fwlink/p/?linkId=202836).
   
-Ausführliche Informationen zu Partnern, die Enterprise-VoIP Hardwarelösungen anbieten, einschließlich PSTN-Gateways, finden Sie auf der [Microsoft Unified Communications Partners-Website.](https://go.microsoft.com/fwlink/p/?linkId=202836)
+Ausführliche Informationen zu Partnern, die Enterprise-VoIP-Hardwarelösungen anbieten, einschließlich PSTN-Gateways, finden Sie auf der [Microsoft Unified Communications-Partner-Website](https://go.microsoft.com/fwlink/p/?linkId=202836).
