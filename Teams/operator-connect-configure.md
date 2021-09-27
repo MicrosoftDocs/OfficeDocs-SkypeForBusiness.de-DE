@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Operator Connect
+title: Konfigurieren von Telefonieanbieter
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Erfahren Sie Näheres über das Konfigurieren von Operator Connect.
+description: Erfahren Sie Näheres über das Konfigurieren von Telefonieanbieter.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -28,12 +28,12 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "54324834"
 ---
-# <a name="configure-operator-connect"></a>Konfigurieren von Operator Connect
+# <a name="configure-operator-connect"></a>Konfigurieren von Telefonieanbieter
 
 >[!NOTE]
->Operator Connect ist derzeit nur in der **öffentlichen Vorschau** verfügbar. Die öffentliche Vorschau bietet Ihnen die Möglichkeit, kommende Funktionen zu testen und Feedback zu geben. Die in der öffentlichen Vorschau enthaltenen Features sind u. U. nicht vollständig, könnten geändert werden und werden in Office 365 Government Clouds nicht unterstützt.
+>Telefonieanbieter ist derzeit nur in der **öffentlichen Vorschau** verfügbar. Die öffentliche Vorschau bietet Ihnen die Möglichkeit, kommende Funktionen zu testen und Feedback zu geben. Die in der öffentlichen Vorschau enthaltenen Features sind u. U. nicht vollständig, könnten geändert werden und werden in Office 365 Government Clouds nicht unterstützt.
 
-In diesem Artikel wird beschrieben, wie diese Einstellungen konfiguriert werden. Lesen Sie vor dem Konfigurieren von Operator Connect [Planen für Operator Connect](operator-connect-plan.md), um sich über Voraussetzungen und Lizenzierung zu informieren.
+In diesem Artikel wird beschrieben, wie diese Einstellungen konfiguriert werden. Lesen Sie vor dem Konfigurieren von Telefonieanbieter [Planen für Telefonieanbieter](operator-connect-plan.md), um sich über Voraussetzungen und Lizenzierung zu informieren.
 
 ## <a name="enable-an-operator"></a>Einen Anbieter aktivieren
 
@@ -45,7 +45,7 @@ So aktivieren Sie einen Anbieter:
 
 2. **Wählen Sie Länder aus.** Wählen Sie unter **Anbietereinstellungen** die Länder aus, die Sie mit dem ausgewählten Anbieter aktivieren möchten.
 
-3. **Geben Sie Kontaktinformationen an (optional).** Wenn Sie möchten, dass Anbieter Ihnen zusätzliche Informationen zu Operator Connect bereitstellen, aktivieren Sie das Kontrollkästchen und geben Sie Ihre Kontaktinformationen an.  
+3. **Geben Sie Kontaktinformationen an (optional).** Wenn Sie möchten, dass Anbieter Ihnen zusätzliche Informationen zu Telefonieanbieter bereitstellen, aktivieren Sie das Kontrollkästchen und geben Sie Ihre Kontaktinformationen an.  
 
 4. **Stimmen Sie dem Hinweis zur Datenübertragung zu.**
 
@@ -57,9 +57,9 @@ Wie Telefonnummern eingerichtet werden, hängt davon ab, ob Sie Nummern für neu
 
 - Wenn Sie Telefonnummern für neue Benutzer beziehen müssen, lesen Sie [Beziehen von Nummern für neue Microsoft Teams-Benutzer](#acquire-numbers-for-new-teams-users).
 
-- Wenn Sie vorhandene Nummern aus Anrufplänen zu Operator Connect verschieben möchten, lesen Sie [Verschieben von Nummern aus Anrufplänen zu Operator Connect](#move-numbers-from-calling-plans-to-operator-connect).
+- Wenn Sie vorhandene Nummern aus Anrufplänen zu Telefonieanbieter verschieben möchten, lesen Sie [Verschieben von Nummern aus Anrufplänen zu Telefonieanbieter](#move-numbers-from-calling-plans-to-operator-connect).
 
-- Wenn Sie vorhandene Nummern von Direct Routing zu Operator Connect verschieben möchten, lesen Sie [Verschieben von Nummern von Direct Routing zu Operator Connect](#move-numbers-from-direct-routing-to-operator-connect).
+- Wenn Sie vorhandene Nummern von Direct Routing zu Telefonieanbieter verschieben möchten, lesen Sie [Verschieben von Nummern von Direct Routing zu Telefonieanbieter](#move-numbers-from-direct-routing-to-operator-connect).
 
 >[!IMPORTANT]
 >**Notfalladressen:** Telefonnummern, die Notfalladressen zugeordnet sind, werden von Ihrem Anbieter verwaltet. Nachdem Sie Notfalladressen im Microsoft Teams Admin Center erstellt haben, weist Ihr Anbieter diesen Notfalladressen Telefonnummern zu. Wenn Sie Änderungen an Notfalladressen und den ihnen zugewiesenen Telefonnummern vornehmen möchten, wenden Sie sich an Ihren Anbieter.
@@ -79,16 +79,16 @@ Führen Sie die folgenden Schritte aus, um Nummern für neue Microsoft Teams-Ben
 5. **Weisen Sie Nummern zu.** Nachdem Ihr Anbieter die Bestellung abgeschlossen hat, lädt er Nummern in Ihren Mandanten hoch. Sie können die Nummern und den Anbieter im Microsoft Teams Admin Center unter **Voice > Telefonnummern** einsehen. Weisen Sie Benutzern Nummern über das Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
  
 
-### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Telefonnummern aus Anrufplänen zu Operator Connect verschieben
+### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Telefonnummern aus Anrufplänen zu Telefonieanbieter verschieben
 
-1. Wenden Sie sich an Ihren Anbieter, um Ihre Nummern zu Operator Connect zu portieren. Unter [Anbieter](#operators) finden Sie die Website Ihres Anbieters.
+1. Wenden Sie sich an Ihren Anbieter, um Ihre Nummern zu Telefonieanbieter zu portieren. Unter [Anbieter](#operators) finden Sie die Website Ihres Anbieters.
 
 2. Nachdem Ihr Anbieter den Portierungsauftrag abgeschlossen hat, können Sie die Zuweisung von Anrufplan-Telefonnummern Ihrer Benutzer aufheben und die Anrufplanlizenz entfernen. Anschließend kann Ihr Anbieter die Nummern in Ihren Mandanten hochladen.
 
-3. Weisen Sie Benutzern Operator Connect-Nummern über das Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
+3. Weisen Sie Benutzern Telefonieanbieter-Nummern über das Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
 
  
-### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Telefonnummern von Direct Routing zu Operator Connect verschieben
+### <a name="move-numbers-from-direct-routing-to-operator-connect"></a>Telefonnummern von Direct Routing zu Telefonieanbieter verschieben
 
 1. Entfernen Sie die vorhandene Telefonnummer von einem Benutzer wie folgt:  
 
@@ -108,13 +108,13 @@ Führen Sie die folgenden Schritte aus, um Nummern für neue Microsoft Teams-Ben
 
 3. Rufen Sie die Website Ihres Anbieters auf, um Telefonnummern zu bestellen und zu beziehen. Eine Liste von Anbieterwebsites finden Sie unter [Anbieter](#operators). Sie müssen Ihre Mandanten-ID angeben. Wenn Sie Ihre Mandanten-ID nicht kennen, lesen Sie [Suchen Ihrer Microsoft 365 Mandanten-ID](/onedrive/find-your-office-365-tenant-id).
 
-4. Nachdem Ihr Anbieter die Bestellung abgeschlossen hat, lädt er Nummern in Ihren Mandanten hoch. Sie können die Nummern und den Anbieter im Microsoft Teams Admin Center unter **Voice > Telefonnummern** einsehen. Weisen Sie Benutzern Operator Connect-Nummern über das Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
+4. Nachdem Ihr Anbieter die Bestellung abgeschlossen hat, lädt er Nummern in Ihren Mandanten hoch. Sie können die Nummern und den Anbieter im Microsoft Teams Admin Center unter **Voice > Telefonnummern** einsehen. Weisen Sie Benutzern Telefonieanbieter-Nummern über das Microsoft Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
 
    
 
 ### <a name="assign-numbers"></a>Telefonnummern zuweisen
 
-Unabhängig davon, ob Sie neue Microsoft Teams-Benutzer hinzufügen oder vorhandene Benutzer auf Operator Connect umstellen, gehen Sie wie folgt vor, um Telefonnummern zuzuweisen:
+Unabhängig davon, ob Sie neue Microsoft Teams-Benutzer hinzufügen oder vorhandene Benutzer auf Telefonieanbieter umstellen, gehen Sie wie folgt vor, um Telefonnummern zuzuweisen:
 
 Um Nummern mithilfe des Microsoft Teams Admin Centers zuzuweisen, wechseln Sie zu **Telefonnummern**. Die Schritte sind dieselben wie beim Zuweisen von Nummern für Anrufpläne. Weitere Informationen finden Sie unter [Einem Benutzer eine Telefonnummer zuweisen](assign-change-or-remove-a-phone-number-for-a-user.md).
 

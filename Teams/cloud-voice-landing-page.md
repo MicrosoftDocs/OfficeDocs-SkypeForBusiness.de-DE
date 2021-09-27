@@ -48,9 +48,9 @@ Wenn Sie die folgenden Punkte mit "Ja" beantworten können, ist "Telefonsystem m
 Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Geschäftsstellen an Standorten haben, an denen keine Microsoft-Anrufpläne verfügbar sind. Oder Sie benötigen eine Kombilösung, die für eine komplexe, multinationale Bereitstellung mit unterschiedlichen Anforderungen an unterschiedlichen geografischen Standorten geeignet ist. Microsoft ermöglicht Kombilösungen: 
 
 - Telefonsystem mit Anrufplan
-- Telefonsystem mit Ihrem eigenen Festnetzbetreiber mit Operator Connect (derzeit nur in der **öffentlichen Vorschauversion** verfügbar)
+- Telefonsystem mit Ihrem eigenen Festnetzbetreiber mit Telefonieanbieter (derzeit nur in der **öffentlichen Vorschauversion** verfügbar)
 - Telefonsystem mit Ihrem eigenen Festnetzbetreiber mit Direct Routing
-- Eine Kombilösung aus Telefonsystem mit Anrufplan, Telefonsystem mit Operator Connect und/oder Telefonsystem mit Direct Routing
+- Eine Kombilösung aus Telefonsystem mit Anrufplan, Telefonsystem mit Telefonieanbieter und/oder Telefonsystem mit Direct Routing
 
 
 ## <a name="what-do-you-need-to-read"></a>Was müssen Sie lesen?
@@ -61,7 +61,7 @@ Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Ges
 | Für alle erforderlich | Beschreibung |
 | :------------|:-------|
 | [**Telefonsystem**](#phone-system) | Microsoft-Technologie, die mit Microsoft Teams Anrufsteuerung und Funktionen von Nebenstellenanlagen in der Microsoft 365-Cloud ermöglicht. |
-| [**Optionen für die Verbindung mit dem Telefonfestnetz**](#public-switched-telephone-network-connectivity-options) | Die Wahlmöglichkeit zwischen der Verwendung von Microsoft als Telefonieanbieter oder der Verbindung Ihres eigenen Telefonieanbieters mit Microsoft Teams mittels Operator Connect oder Direct Routing. In Kombination mit dem Microsoft-Telefonsystem ermöglichen die Festnetzanbindungsoptionen Ihren Benutzern das Telefonieren auf der ganzen Welt.|
+| [**Optionen für die Verbindung mit dem Telefonfestnetz**](#public-switched-telephone-network-connectivity-options) | Die Wahlmöglichkeit zwischen der Verwendung von Microsoft als Telefonieanbieter oder der Verbindung Ihres eigenen Telefonieanbieters mit Microsoft Teams mittels Telefonieanbieter oder Direct Routing. In Kombination mit dem Microsoft-Telefonsystem ermöglichen die Festnetzanbindungsoptionen Ihren Benutzern das Telefonieren auf der ganzen Welt.|
 
 **Je nach Ihren Anforderungen.** Einige Abschnitte in diesem und verwandten Artikeln sind je nach Ihren vorhandenen Bereitstellung und Ihren Anforderungen für Sie relevant. Beispielsweise ist standortbasiertes Routing nur für Direct Routing-Kunden an geografischen Standorten erforderlich, die das Umgehen von Gebühren nicht erlauben.
 
@@ -79,7 +79,7 @@ Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Ges
 | [**Migrieren Ihrer bestehenden Anruflösung**](#migrate-your-existing-voice-solution-to-teams) | Was Sie bei der Migration Ihrer Anruflösung zu Microsoft Teams bedenken müssen.  Lesen Sie diesen Abschnitt, wenn Sie von einer bestehenden Anruflösung zu Microsoft Teams wechseln. 
 
 > [!Important]
-> Den Schwerpunkt dieses Artikels bilden Anruflösungen mit Microsoft Teams. Lösungen mit Skype for Business Online waren zwar verfügbar, Skype for Business Online wurde aber am 31. Juli 2021 eingestellt.  Ab diesem Datum konnte nicht mehr darauf zugegriffen werden. Darüber hinaus wird die Festnetzverbindung zwischen Ihrer lokalen Umgebung &mdash; ob über Skype for Business Server oder Cloud Connector Edition &mdash; und Skype for Business Online nicht mehr unterstützt. In diesem Artikel werden Microsoft Teams-Anruflösungen vorgestellt, und es wird erläutert, wie Sie Ihr lokales Telefonienetzwerk bei Bedarf über Direct Routing oder Operator Connect mit Microsoft Teams verbinden können.
+> Den Schwerpunkt dieses Artikels bilden Anruflösungen mit Microsoft Teams. Lösungen mit Skype for Business Online waren zwar verfügbar, Skype for Business Online wurde aber am 31. Juli 2021 eingestellt.  Ab diesem Datum konnte nicht mehr darauf zugegriffen werden. Darüber hinaus wird die Festnetzverbindung zwischen Ihrer lokalen Umgebung &mdash; ob über Skype for Business Server oder Cloud Connector Edition &mdash; und Skype for Business Online nicht mehr unterstützt. In diesem Artikel werden Microsoft Teams-Anruflösungen vorgestellt, und es wird erläutert, wie Sie Ihr lokales Telefonienetzwerk bei Bedarf über Direct Routing oder Telefonieanbieter mit Microsoft Teams verbinden können.
 
 
 ## <a name="phone-system"></a>Telefonsystem
@@ -143,7 +143,7 @@ Das Telefonsystem bietet vollständige Nebenstellenanlagenfunktionen für Ihre O
 
 - [**Telefonsystem mit Anrufplan**](pstn-connectivity.md#phone-system-with-calling-plan): Eine gänzlich cloudbasierte Lösung, bei der Microsoft Ihr Festnetzbetreiber ist.
 
-- [**Telefonsystem mit Ihrem eigenen Festnetzbetreiber unter Verwendung von Operator Connect**](operator-connect-plan.md) (derzeit nur in der **öffentlichen Vorschauversion** verfügbar).  Wenn Ihr bestehender Betreiber am Microsoft Operator Connect-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Informationen zu den Vorteilen und Anforderungen von Operator Connect sowie eine Liste der Festnetzbetreiber, die an diesem Programm teilnehmen, finden Sie unter [Planung für Operator Connect](operator-connect-plan.md).
+- [**Telefonsystem mit Ihrem eigenen Festnetzbetreiber unter Verwendung von Telefonieanbieter**](operator-connect-plan.md) (derzeit nur in der **öffentlichen Vorschauversion** verfügbar).  Wenn Ihr bestehender Betreiber am Microsoft Telefonieanbieter-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Informationen zu den Vorteilen und Anforderungen von Telefonieanbieter sowie eine Liste der Festnetzbetreiber, die an diesem Programm teilnehmen, finden Sie unter [Planung für Telefonieanbieter](operator-connect-plan.md).
 
 - [**Telefonsystem mit Ihrem eigenen Festnetzbetreiber unter Verwendung von Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) um Ihre lokale Umgebung mit Microsoft Teams zu verbinden.
 

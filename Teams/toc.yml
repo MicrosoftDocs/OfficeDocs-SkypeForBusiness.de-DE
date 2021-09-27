@@ -317,7 +317,7 @@ items:
             href: policy-control-diagnostic-data-desktop.md
           - name: Optionale verbundene Erfahrungen
             href: teams-privacy-oce-overview.md
-          - name: Operator Connect-Datenübertragung
+          - name: Telefonieanbieter-Datenübertragung
             href: operator-connect-data-transfer.md
   - name: Verwalten und Überwachen von Teams
     items:
@@ -917,11 +917,11 @@ items:
                 href: configuring-teams-calling-quickstartguide.md
               - name: Verfügbarkeit nach Land und Region für Anrufpläne
                 href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
-          - name: Operator Connect
+          - name: Telefonieanbieter
             items:
-              - name: Plan für Operator Connect
+              - name: Plan für Telefonieanbieter
                 href: operator-connect-plan.md
-              - name: Konfigurieren von Operator Connect
+              - name: Konfigurieren von Telefonieanbieter
                 href: operator-connect-configure.md
           - name: Direct Routing
             items:
@@ -1031,7 +1031,7 @@ items:
                     href: phone-number-calling-plans/port-order-status.md
               - name: Unterstützte Bewertungszentren und Abdeckung
                 href: phone-number-calling-plans/supported-rate-centers-coverage-matrix.md
-          - name: Telefonnummern für Operator Connect verwalten
+          - name: Telefonnummern für Telefonieanbieter verwalten
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Telefonnummern für Direct Routing verwalten
             href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online

@@ -23,7 +23,7 @@ ms.locfileid: "58631429"
 ---
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
-Microsoft-Anrufpläne, Direct Routing und Operator Connect unterstützen alle das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Mit dieser Funktion kann ein Administrator eine Liste von Nummernmustern auf globaler Ebene des Mandanten definieren, sodass die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten mit der Liste auf Übereinstimmung geprüft werden kann. Wenn eine Übereinstimmung erfolgt, wird ein eingehender Anruf abgelehnt.
+Microsoft-Anrufpläne, Direct Routing und Telefonieanbieter unterstützen alle das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Mit dieser Funktion kann ein Administrator eine Liste von Nummernmustern auf globaler Ebene des Mandanten definieren, sodass die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten mit der Liste auf Übereinstimmung geprüft werden kann. Wenn eine Übereinstimmung erfolgt, wird ein eingehender Anruf abgelehnt.
 
 Diese Funktion zum Blockieren eingehender Anrufe funktioniert nur bei eingehenden Anrufen, die aus dem PSTN stammen, und funktioniert nur auf globaler Mandantenebene. Einzelne Teams-Benutzer können diese Liste nicht bearbeiten. Der Teams-Client ermöglicht es einzelnen Benutzern, PSTN-Anrufe zu blockieren. Informationen dazu, wie Ihre Endbenutzer die Anrufblockierung implementieren können, finden Sie unter [Anrufeinstellungen in Teams verwalten](https://support.microsoft.com/office/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f).
 

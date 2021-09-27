@@ -41,7 +41,7 @@ Um das Telefonsystem mit dem PSTN zu verbinden, können Sie aus den folgenden Op
 
 - [**Anrufplan** ](#phone-system-with-calling-plan). Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Anbieter.
 
-- [**Operator Connect**](#phone-system-with-operator-connect), das derzeit nur in der **öffentlichen Vorschau** verfügbar ist.  Mit Operator Connect kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Operator Connect-Programm teilnimmt, PSTN-Anrufe und Session Border Controller (SBCs) verwalten. 
+- [**Telefonieanbieter**](#phone-system-with-operator-connect), das derzeit nur in der **öffentlichen Vorschau** verfügbar ist.  Mit Telefonieanbieter kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Telefonieanbieter-Programm teilnimmt, PSTN-Anrufe und Session Border Controller (SBCs) verwalten. 
 
 - [**Direktes Routing**](#phone-system-with-direct-routing), mit dem Sie Ihren eigenen PSTN-Anbieter verwenden können, indem Sie Ihre Session Border Controller(s) (SBC) mit dem Telefonsystem verbinden.
 
@@ -81,17 +81,17 @@ Weitere Informationen zum Anrufplan finden Sie in den folgenden Artikeln:
 - [Anrufplan einrichten](set-up-calling-plans.md)
 
 
-## <a name="phone-system-with-operator-connect"></a>Telefonsystem mit Operator Connect
+## <a name="phone-system-with-operator-connect"></a>Telefonsystem mit Telefonieanbieter
 
-Mit Operator Connect, das sich derzeit in der öffentlichen Vorschau befindet, kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Operator Connect-Programm teilnimmt, den Dienst verwalten, um PSTN-Anrufe an Teams zu übertragen. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
+Mit Telefonieanbieter, das sich derzeit in der öffentlichen Vorschau befindet, kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Telefonieanbieter-Programm teilnimmt, den Dienst verwalten, um PSTN-Anrufe an Teams zu übertragen. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
 
-Operator Connect könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
+Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
 
 - Der Microsoft-Anrufplan an Ihrem geografischen Standort nicht verfügbar ist.
-- Ihr bevorzugter Netzbetreiber Teilnehmer am Microsoft Operator Connect-Programm ist.
+- Ihr bevorzugter Netzbetreiber Teilnehmer am Microsoft Telefonieanbieter-Programm ist.
 - Sie einen neuen Netzbetreiber finden möchten, um Anrufe in Teams zu ermöglichen.
 
-Informationen zu den Vorteilen und Anforderungen von Operator Connect sowie eine Liste der an diesem Programm teilnehmenden Netzbetreiber finden Sie unter [Plan Operator Connect](operator-connect-plan.md). Informationen zum Konfigurieren von Operator Connect finden Sie unter [Operator Connect konfigurieren](operator-connect-configure.md).
+Informationen zu den Vorteilen und Anforderungen von Telefonieanbieter sowie eine Liste der an diesem Programm teilnehmenden Netzbetreiber finden Sie unter [Plan Telefonieanbieter](operator-connect-plan.md). Informationen zum Konfigurieren von Telefonieanbieter finden Sie unter [Telefonieanbieter konfigurieren](operator-connect-configure.md).
 
 
 ## <a name="phone-system-with-direct-routing"></a>Direktes Routing für Telefonsysteme
@@ -147,7 +147,7 @@ In der folgenden Tabelle werden die primären Konfigurationsunterschiede hervorg
 | Option | Beschreibung | Telefonnummernverwaltung | Anrufweiterleitung | Verfügbarkeit von Notrufen |
 | :------------| :-------| :-------| :-------| :-------| 
 | Anrufpläne | -Microsoft fungiert als PSTN-Träger.<br>-Sie müssen keine SBCs kaufen oder verwalten.| Von Microsoft bezogen.| -Verwaltet von Microsoft. <br> -Admin konfiguriert Benutzerwählpläne für die Nummernübersetzung. | -Aktiviert von Microsoft. <br> -Admin registriert Adressen. <br> -Dynamische Anrufe werden unterstützt. |
-| Operator Connect | -Netzbetreiber verwaltet PSTN-Konnektivität und SBCs. <br> -Sie müssen keine SBCs kaufen oder verwalten. | -Erhalten durch den Netzbetreiber. <br> - Nummern, die mit Notrufadressen verbunden sind, die vom Netzbetreiber verwaltet werden.  | -Vom Netzbetreiber verwaltet. <br>-Admin konfiguriert Benutzerwählpläne für die Nummernübersetzung. | -Aktiviert durch den Netzbetreiber. <br> -Admin registriert Adressen. <br> -Dynamische Anrufe werden unterstützt. |
+| Telefonieanbieter | -Netzbetreiber verwaltet PSTN-Konnektivität und SBCs. <br> -Sie müssen keine SBCs kaufen oder verwalten. | -Erhalten durch den Netzbetreiber. <br> - Nummern, die mit Notrufadressen verbunden sind, die vom Netzbetreiber verwaltet werden.  | -Vom Netzbetreiber verwaltet. <br>-Admin konfiguriert Benutzerwählpläne für die Nummernübersetzung. | -Aktiviert durch den Netzbetreiber. <br> -Admin registriert Adressen. <br> -Dynamische Anrufe werden unterstützt. |
 | Direct Routing | -Erfordert zertifizierten SBC, der von einem Drittanbieter erworben wurde.<br>-Verbinden Sie Ihren SBC mit dem Telefonsystem.<br> -Verwenden Sie Ihren bestehenden PSTN-Anbieter. | Über den Netzbetreiber bezogen. | -Erfordert zusätzliche Konfiguration durch den Administrator.<br>-Admin konfiguriert Amtswahlpläne für die Nummernübersetzung. <br>-LBR verfügbar, um die Gebührenumgehung einzuschränken. | -Erfordert zusätzliche Konfiguration durch den Administrator. <br>-Registrierte Adressen werden nicht unterstützt. <br>-Registrierte Adressen werden nicht unterstützt. |
 |||||
 
@@ -166,7 +166,7 @@ Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivit
 
 - Informationen zum Verwalten von Telefonnummern für den Anrufplan finden Sie unter [Telefonnummern für Ihre Organisation verwalten](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Informationen zum Verwalten von Telefonnummern mit Operator Connect finden Sie unter [Telefonnummern mit Operator Connect einrichten](operator-connect-configure.md#set-up-phone-numbers).
+- Informationen zum Verwalten von Telefonnummern mit Telefonieanbieter finden Sie unter [Telefonnummern mit Telefonieanbieter einrichten](operator-connect-configure.md#set-up-phone-numbers).
 
 - Informationen zum Verwalten von Telefonnummern für Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voice und -Voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
 
@@ -177,7 +177,7 @@ Wie Sie die Anrufweiterleitung konfigurieren, hängt von Ihrer PSTN-Konnektivit�
 
 - Bei Anrufplänen wird der Großteil der Anrufweiterleitung von der Microsoft-Anrufplaninfrastruktur abgewickelt. Sie konfigurieren Benutzerwählpläne zum Zwecke der Nummernübersetzung für die Anrufberechtigung und Anrufweiterleitung. Weitere Informationen finden Sie unter [Was sind Wählpläne?](what-are-dial-plans.md).
 
-- Bei Operator Connect wird der Großteil der Anrufweiterleitung vom Netzbetreiber verwaltet.  Sie konfigurieren Benutzerwählpläne zum Zwecke der Nummernübersetzung für die Anrufberechtigung und Anrufweiterleitung. Weitere Informationen finden Sie unter [Was sind Wählpläne?](what-are-dial-plans.md).
+- Bei Telefonieanbieter wird der Großteil der Anrufweiterleitung vom Netzbetreiber verwaltet.  Sie konfigurieren Benutzerwählpläne zum Zwecke der Nummernübersetzung für die Anrufberechtigung und Anrufweiterleitung. Weitere Informationen finden Sie unter [Was sind Wählpläne?](what-are-dial-plans.md).
 
 - Für direktes Routing müssen Sie das Anrufrouting konfigurieren, indem Sie die VoIP-Routen angeben und den Benutzern VoIP-Routing-Richtlinien zuweisen. Sie können Wählpläne für die Nummernübersetzung auf Amtsleitungsebene konfigurieren, um die Interoperabilität mit Session Border Controllers (SBCs) sicherzustellen. Weitere Informationen finden Sie unter [Voice-Routing für Direct Routing konfigurieren ](direct-routing-voice-routing.md), [Voice-Routing-Richtlinien verwalten ](manage-voice-routing-policies.md) und [ Telefonnummern übersetzen](direct-routing-translate-numbers.md). 
 
@@ -199,7 +199,7 @@ Wie Sie Notrufe konfigurieren, hängt von Ihrer PSTN-Konnektivitätsoption ab.
 
 - Für den Anrufplan wird jeder Benutzer automatisch für Notrufe aktiviert und muss eine registrierte Notrufadresse haben, die mit der zugewiesenen Telefonnummer verknüpft ist. Dynamische Notrufe (basierend auf dem Standort des Teams-Clients) werden unterstützt.  
 
-- Bei Operator Connect wird jeder Benutzer automatisch für Notrufe aktiviert und muss eine registrierte Notrufadresse haben, die mit seiner zugewiesenen Telefonnummer verknüpft ist, die jedoch nur vom Netzbetreiber festgelegt werden kann. Dynamische Notrufe (basierend auf dem Standort des Teams-Clients) werden unterstützt.
+- Bei Telefonieanbieter wird jeder Benutzer automatisch für Notrufe aktiviert und muss eine registrierte Notrufadresse haben, die mit seiner zugewiesenen Telefonnummer verknüpft ist, die jedoch nur vom Netzbetreiber festgelegt werden kann. Dynamische Notrufe (basierend auf dem Standort des Teams-Clients) werden unterstützt.
 
 - Für das direkte Routing müssen Sie Notrufrichtlinien für Benutzer definieren, indem Sie eine Teams-Notruf-Routing-Richtlinien (TeamsEmergencyCallRoutingPolicy) verwenden, um Notrufnummern und das zugehörige Routingziel zu definieren. Registrierte Notfallstandorte werden für Direct Routing-Benutzer nicht unterstützt. Für dynamische Notrufe ist eine zusätzliche Konfiguration für das Routing von Notrufen und möglicherweise für die Partnerkonnektivität erforderlich.
 

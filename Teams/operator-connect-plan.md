@@ -1,5 +1,5 @@
 ---
-title: Operator Connect
+title: Telefonieanbieter
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -15,7 +15,7 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 - ms.teamsadmincenter.directrouting.overview
-description: Erfahren Sie mehr über Operator Connect, z. B. Anforderungen und Planung der Bereitstellung.
+description: Erfahren Sie mehr über Telefonieanbieter, z. B. Anforderungen und Planung der Bereitstellung.
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
@@ -28,18 +28,18 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 08/05/2021
 ms.locfileid: "54323947"
 ---
-# <a name="plan-for-operator-connect"></a>Plan für Operator Connect
+# <a name="plan-for-operator-connect"></a>Plan für Telefonieanbieter
 
 >[!NOTE]
->Operator Connect ist derzeit nur in der **öffentlichen Vorschau** verfügbar. Die öffentliche Vorschau bietet Ihnen die Möglichkeit, kommende Funktionen zu testen und Feedback zu geben. Die in der öffentlichen Vorschau enthaltenen Features sind u. U. nicht vollständig, könnten geändert werden und werden in Office 365 Government Cloud nicht unterstützt.
+>Telefonieanbieter ist derzeit nur in der **öffentlichen Vorschau** verfügbar. Die öffentliche Vorschau bietet Ihnen die Möglichkeit, kommende Funktionen zu testen und Feedback zu geben. Die in der öffentlichen Vorschau enthaltenen Features sind u. U. nicht vollständig, könnten geändert werden und werden in Office 365 Government Cloud nicht unterstützt.
 
-Operator Connect ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und dem Telefonsystem.  
+Telefonieanbieter ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und dem Telefonsystem.  
 
-Dieser Artikel beschreibt Vorteile und Anforderungen und listet die Betreiber auf, die am Operator Connect-Programm teilnehmen.  Wenn Sie sich entscheiden, dass Operator Connect die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Operator Connect](operator-connect-configure.md).  
+Dieser Artikel beschreibt Vorteile und Anforderungen und listet die Betreiber auf, die am Telefonieanbieter-Programm teilnehmen.  Wenn Sie sich entscheiden, dass Telefonieanbieter die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Telefonieanbieter](operator-connect-configure.md).  
 
 ## <a name="benefits"></a>Vorteile
 
-Wenn Ihr bestehender Betreiber am Microsoft Operator Connect-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Das Operator Connect-Programm bietet die folgenden Vorteile:
+Wenn Ihr bestehender Betreiber am Microsoft Telefonieanbieter-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Das Telefonieanbieter-Programm bietet die folgenden Vorteile:
 
 - **Nutzen bestehender Verträge oder finden eines neuen Betreibers.** Sie behalten Ihren bevorzugten Betreiber und Ihre bevorzugten Verträge oder wählen einen neuen aus einer Auswahl an teilnehmenden Betreibern aus, um Ihre Geschäftsanforderungen zu erfüllen.
 
@@ -51,20 +51,20 @@ Wenn Ihr bestehender Betreiber am Microsoft Operator Connect-Programm teilnimmt,
 
 ## <a name="requirements"></a>Anforderungen
 
- Operator Connect könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
+ Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
 
 - Der Microsoft-Anrufplan an Ihrem geografischen Standort nicht verfügbar ist.
-- Ihr bevorzugter Operator ist Teilnehmer am Microsoft Operator Connect-Programm.
+- Ihr bevorzugter Operator ist Teilnehmer am Microsoft Telefonieanbieter-Programm.
 - Sie möchten einen neuen Operator finden, um Anrufe in Teams zu ermöglichen.
 
-Um die Zuweisung von Telefonnummern mit Operator Connect zu aktivieren, stellen Sie sicher, dass Ihre Benutzer:
+Um die Zuweisung von Telefonnummern mit Telefonieanbieter zu aktivieren, stellen Sie sicher, dass Ihre Benutzer:
 
 - Teams-Telefon lizenziert. Weitere Informationen finden Sie unter [Was ist ein Telefonsystem? ](what-is-phone-system-in-office-365.md) und [Zuweisen von Teams-Add-On-Lizenzen zu Benutzern](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 - Im TeamsOnly-Modus. Um mehr zu erfahren, siehe [Grundlegendes zur Koexistenz und Interoperabilität von Microsoft Teams und Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
 ## <a name="available-operators"></a>Verfügbare Operatoren
 
-Die folgenden Operatoren sind Teilnehmer des Microsoft Operator Connect-Programms:
+Die folgenden Operatoren sind Teilnehmer des Microsoft Telefonieanbieter-Programms:
 
 | Operator | Funktion | Länderabdeckung |
 | --- | --- | --- |
