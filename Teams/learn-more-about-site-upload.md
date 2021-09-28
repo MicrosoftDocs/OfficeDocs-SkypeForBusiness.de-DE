@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d875108648ca8fe91d67c03b7c569c59048cfa43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 189b821e7238911190c4c72c07b863fc961f3074
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589719"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984610"
 ---
 # <a name="add-and-update-reporting-labels"></a>Hinzufügen und Aktualisieren von Labels zur Berichterstellung
 
@@ -40,8 +40,8 @@ Die von Ihnen bereitstellenden Berichtbeschriftungen und Speicherortdaten sind e
 
 **So bearbeiten Sie die Tabelle mit Subnetzen und Standorten**
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center **auf**  >  **Standortberichterstattungsbeschriftungen**.
-2. Klicken Sie **Hochladen Daten speichern**.
+1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseanalyse& beschriftungen**  >  **erstellen**.
+2. Klicken Hochladen **auf Daten speichern**.
 3. Klicken Sie **Hochladen** Im Bereich Daten speichern auf Datei auswählen **,** navigieren Sie dann zu Ihrer bearbeiteten Datei .csv TSV-Datei, und laden Sie sie hoch.
 4. Klicken Sie **Hochladen**.
 
@@ -52,14 +52,14 @@ Verwenden Sie das folgende Beispiel, um die Datendatei zu erstellen.
 > [!IMPORTANT]
 > Ihre Datendatei sollte keine Spaltenüberschriften (z. B. Netzwerk, Netzwerkname usw.) enthalten. Diese werden hier nur zu Informationszwecken verwendet. <br>
 
-|Netzwerk|Netzwerkname|Netzwerkbereich|Gebäudename|Besitzertyp|Gebäudetyp|Building Office Type|Stadt/Ort|PLZ|Land|Status|Region|Inside Corp|Express Route|
+|Netzwerk|Netzwerkname|Netzwerkbereich|Gebäudename|Besitzertyp|Gebäudetyp|Gebäudetyp Office|Stadt/Ort|PLZ|Land|Status|Region|Inside Corp|Express Route|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 |10.0.128.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
 |10.0.130.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
 |10.0.131.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
 |10.0.132.0    |SVC-1|32|USCAMTV001|Contoso Leased RE&F|Office|RE&F|Bergansicht|94043|US|CA|US|1|1|
 
-Weitere Informationen zum Formatieren ihrer Datendatei finden Sie unter Dateiformat für Mandantendaten [und Erstellen einer Datendateistruktur.](CQD-upload-tenant-building-data.md#upload-building-data-file)
+Weitere Informationen zum Formatieren der Datendatei finden Sie unter Dateiformat für [Mandantendaten und Erstellen einer Datendateistruktur.](CQD-upload-tenant-building-data.md#upload-building-data-file)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

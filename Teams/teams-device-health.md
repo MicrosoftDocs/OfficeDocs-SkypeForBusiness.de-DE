@@ -17,22 +17,22 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: 40f03e6713cd68d2de61c6ee1368f3fd44b288ad
-ms.sourcegitcommit: fd3d9118afa15d4750c0b1a98c2c85fcc76cfdc5
+ms.openlocfilehash: d5e98e65c35b8319a7e4f8675b68d530fa382c31
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "58684676"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984770"
 ---
 # <a name="manage-the-health-of-teams-devices"></a>Verwalten der Integrität von Teams Geräten
 
-Administratoren können den Status von geräten überwachen, die mit Microsoft Teams installiert sind, indem sie den Integritätsstatus verwenden, der den Schweregrad von Problemen angibt. Um den Integritätszustand eines Geräts zu überprüfen, können  Sie zur Geräteliste wechseln, die im Abschnitt Geräte des Teams Admin Center angezeigt wird. Die Spalte "Integritätsstatus" in dieser Liste gibt den aktuellen Integritätsstatus des Geräts an. Wenn Sie diesen Status auswählen, wird **der Statusbereich geöffnet,** der weitere Details zu Integritätsproblemen enthält.
+Administratoren können den Status von geräten überwachen, die mit Microsoft Teams installiert wurden, indem sie den Integritätsstatus verwenden, der den Schweregrad von Problemen angibt. Um den Integritätszustand eines Geräts zu überprüfen, können Sie zur Geräteliste wechseln, die im Abschnitt **Teams Geräte** des Teams Admin Centers angezeigt wird. Die Spalte "Integritätsstatus" in dieser Liste gibt den aktuellen Integritätsstatus des Geräts an. Wenn Sie diesen Status auswählen, wird **der Statusbereich geöffnet,** der weitere Details zu Integritätsproblemen enthält.
 
 Viele Arten von Problemen können zum Status des Geräts beitragen, und Teams Admin Center-System wertet den Schweregrad dieser Probleme aus, sobald sie auftreten.
 
 Der Administrator, der die Teams-Geräte für ihre Organisation verwaltet, kann entscheiden, dass der Schweregrad der Probleme für sie nicht der Standardkonfiguration Teams ist. Administratoren haben die Möglichkeit, den Schweregrad und die Auswirkungen auf die Integrität ihrer Geräte so anzupassen, dass sie den Prioritäten ihrer Organisation entsprechen.
 
-Teams-Räume-Geräte verfügen über angeschlossene Peripheriegeräte, um eine umfassende Besprechungserfahrung zu ermöglichen, z. B. Lautsprecher, Mikrofon, Anzeige, Kamera. Details dazu finden Sie auf der Geräteseite unter den Registerkarten Peripheriegeräte und Integrität. Die Konnektivität dieser Peripheriegeräte wirkt sich auf die Integrität des übergeordneten Geräts aus.
+Teams-Räume-Geräte verfügen über angeschlossene Peripheriegeräte, um ein umfassendes Besprechungserlebnis zu ermöglichen, z. B. Lautsprecher, Mikrofon, Anzeige, Kamera. Details dazu finden Sie auf der Geräteseite unter den Registerkarten Peripheriegeräte und Integrität. Die Konnektivität dieser Peripheriegeräte wirkt sich auf die Integrität des übergeordneten Geräts aus.
 
 ## <a name="feature-details"></a>Featuredetails
 

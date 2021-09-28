@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Audio und Video verwalten.
-ms.openlocfilehash: 7dcd3f73d29dcbe635793d4a67db602b8e4c8a1c
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482389"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984620"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
 
@@ -151,7 +151,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Eins
 
 Sie können diese Richtlinie Teams Admin Center und PowerShell festlegen. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie dann Benutzern zuweisen.
 
-Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen können, legen Sie den **Parameter VideoFiltersMode** **(Einstellung** Videofilter im Teams Admin Center auswählen) wie folgt fest:
+Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen können, legen Sie den **Parameter VideoFiltersMode** **(Einstellung** Videofilter auswählen im Teams Admin Center) wie folgt fest:
 
 |Festzulegender Wert in PowerShell|Festlegen eines Werts im Teams Admin Center |Verhalten  |
 |---------|---------|---------|
@@ -165,11 +165,11 @@ Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen k
 
 ### <a name="allow-custom-background-settings"></a>Benutzerdefinierte Hintergrundeinstellungen zulassen
 
-Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Dieses Feature ermöglicht Unternehmen, Unternehmensbranding auf Ihre Teams anzuwenden.
+Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Mit diesem Feature können Unternehmen Unternehmensbranding auf Ihre Teams anwenden.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Wählen Sie **Besprechungsrichtlinien**  >  **Besprechungsbilder anpassen aus.**
+2. Wählen Sie   >  **Besprechungsrichtlinien Besprechungsrichtlinien**  >  **Anpassen von Besprechungsbildern aus.**
 
    ![Auswahl der Besprechungsrichtlinien mit hervorgehobener Schaltfläche "Besprechungsbilder anpassen".](media/custom-background-image-button.png)
 

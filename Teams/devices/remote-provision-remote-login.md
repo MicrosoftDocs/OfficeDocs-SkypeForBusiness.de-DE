@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android-Geräte verwenden.
-ms.openlocfilehash: 668e50eab20d96f28ff7a6be49a0ddcac872b393
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
+ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733314"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "59984740"
 ---
 # <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und -anmeldung für Teams Android-Geräte
 
-IT-Administratoren können Remotebereitstellung und -anmeldung bei einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Prüfcode erstellen. Der gesamte Vorgang kann remote über das Admin Center Teams werden.
+IT-Administratoren können Remotebereitstellung und -anmeldung auf einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Prüfcode erstellen. Der gesamte Vorgang kann remote über das Teams Admin Center abgeschlossen werden.
 
 ## <a name="review-the-supported-devices"></a>Überprüfen der unterstützten Geräte
 
@@ -35,14 +35,14 @@ In der folgenden Liste sind die Firmwareanforderungen für Android-Geräte aufge
 
 |Gerätekategorie|Gerätemodell|Firmwareversion|
 |-|-|-|
-|Teams-Smartphones|Yealink T55/T56/T58|58.15.0.124|
-|Teams-Smartphones|Yealink VP59|91.15.0.58|
-|Teams-Smartphones|Yealink CP960|73.15.0.117|
-|Teams-Smartphones|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams-Smartphones|Crestron UC-2|1.0.3.52|
-|Teams-Smartphones|  Poly Trio C60|  7.0.2.1071|
-|Teams-Smartphones|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams-Smartphones|  Audiocodes C448HD/C450HD/C470HD|   1.10.120|
+|Teams-Telefone|Yealink T55/T56/T58|58.15.0.124|
+|Teams-Telefone|Yealink VP59|91.15.0.58|
+|Teams-Telefone|Yealink CP960|73.15.0.117|
+|Teams-Telefone|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams-Telefone|Crestron UC-2|1.0.3.52|
+|Teams-Telefone|  Poly Trio C60|  7.0.2.1071|
+|Teams-Telefone|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams-Telefone|  Audiocodes C448HD/C450HD/C470HD|   1.10.120|
 |Teams-Panels|  Crestron 770/1070|  1.004.0115|
 |Teams-Räume unter Android|Logitech Rally Bar Mini|1.2.982|
 |Teams-Räume unter Android|Logitech Rally Bar|1.2.982|
@@ -61,7 +61,7 @@ In der folgenden Liste sind die Firmwareanforderungen für Android-Geräte aufge
 Führen Sie die folgenden Schritte zum Bereitstellen eines neuen Geräts aus.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
-2. Erweitern **Sie Geräte**.
+2. Erweitern **Teams Geräte**.
 3. Wählen **Sie auf der Registerkarte Aktionen die** Option Neues Gerät **bereitstellen** aus.
 
 Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse manuell hinzufügen oder eine Datei hochladen.
@@ -76,7 +76,7 @@ Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse m
 1. Geben Sie einen Standort ein, mit dem Techniker ermitteln können, wo die Geräte installiert werden sollen.
 1. Wenn Sie **fertig sind,** wählen Sie Übernehmen aus.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Hochladen einer Datei zum Hinzufügen einer MAC-Adresse für ein Gerät
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Hochladen einer Datei zum Hinzufügen einer MAC-Adresse des Geräts
 
 1. Wählen Sie **auf der Registerkarte Awaiting Activation** die Option Hochladen MAC **IDs aus.**
 2. Laden Sie die Dateivorlage herunter.
@@ -94,9 +94,9 @@ Sie benötigen einen Prüfcode für die Geräte. Der Überprüfungscode wird in 
 
 ## <a name="provision-the-device"></a>Bereitstellen des Geräts
 
-Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerät vom Techniker bereitgestellt. Diese Schritte werden auf dem Gerät Teams durchgeführt.
+Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerät vom Techniker bereitgestellt. Diese Schritte werden auf dem Gerät Teams abgeschlossen.
 
-1. Der Techniker wählt geräte **bereitstellen aus** der Liste **Einstellungen.**  
+1. Der Techniker wählt in **der Liste Gerät** bereitstellen **Einstellungen** aus.  
 
    ![Option "Neues Gerät bereitstellen" auf der Registerkarte "Aktionen".](../media/provision-device1.png)
   
