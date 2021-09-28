@@ -1,9 +1,9 @@
 ---
 title: Verfügbarkeit in Litauen
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: c3a51334-fff3-4b31-9618-c150adb53a0c
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Litauen.
-ms.openlocfilehash: b61d09f9e6045580de9161bcca82b0bb811c2ce9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Für Litauen verfügbare Dienste.
+ms.openlocfilehash: 0eb3979986546f9b99437bba568a1d9cd9e69460
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603524"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942068"
 ---
 # <a name="availability-in-lithuania"></a>Verfügbarkeit in Litauen
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Litauen.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Für Litauen verfügbare Dienste.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -59,11 +59,10 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
-
-Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120-Minuten-Plan für Inlandsrufe </li><li>240-Minuten-Plan für Inlandsrufe</li></li><li>1200-Minuten-Plan für Inlandsrufe </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li></ul>|
+|Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt. <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> | In 196 Länder oder Regionen, einschließlich [dieser](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

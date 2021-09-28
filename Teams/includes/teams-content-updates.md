@@ -3,6 +3,41 @@
 
 
 
+## <a name="week-of-september-20-2021"></a>Woche vom 20. September 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 9/20/2021 | [Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll im Microsoft Teams Admin Center](/MicrosoftTeams/activity-log) | Geändert |
+| 9/20/2021 | [Verfügbarkeit der App "Genehmigungen" in Microsoft Teams](/MicrosoftTeams/approval-admin) | Geändert |
+| 9/20/2021 | [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](/MicrosoftTeams/assign-policies) | Geändert |
+| 9/20/2021 | [Für Direct Routing zertifizierte Sitzungsrahmencontroller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 9/20/2021 | [Teams für Education Richtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen](/MicrosoftTeams/easy-policy-setup-edu) | Geändert |
+| 9/20/2021 | [Clients für Microsoft Teams abrufen](/MicrosoftTeams/get-clients) | Geändert |
+| 9/20/2021 | [Gastzugriff in Microsoft Teams](/MicrosoftTeams/guest-access) | Geändert |
+| 9/20/2021 | [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](/MicrosoftTeams/log-files) | Geändert |
+| 9/20/2021 | [Migrieren von Slack auf Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Geändert |
+| 9/20/2021 | [Planen der Lebenszyklusverwaltung](/MicrosoftTeams/plan-teams-lifecycle) | Geändert |
+| 9/20/2021 | [Vorbereiten des Netzwerks Ihrer Organisation für Teams](/MicrosoftTeams/prepare-network) | Geändert |
+| 9/20/2021 | [Einrichten von Audiokonferenzen für Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Geändert |
+| 9/20/2021 | [Einrichten von Webinaren in Microsoft Teams](/MicrosoftTeams/set-up-webinars) | Geändert |
+| 9/20/2021 | [Übersicht über PowerShell für Microsoft Teams](/MicrosoftTeams/teams-powershell-overview) | Geändert |
+| 9/20/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
+| 9/20/2021 | [Microsoft Teams-Räume](/MicrosoftTeams/rooms/index) | Geändert |
+| 9/20/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 9/21/2021 | [Einrichtung von Administratoren für die Edu Microsoft Parents-App](/MicrosoftTeams/edu-parents-app) | Hinzugefügt |
+| 9/21/2021 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 9/22/2021 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
+| 9/22/2021 | [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](/MicrosoftTeams/log-files) | Geändert |
+| 9/22/2021 | [Verwalten von Besprechungsrichtlinien für Audio und Video](/MicrosoftTeams/meeting-policies-audio-and-video) | Geändert |
+| 9/22/2021 | [Einrichten von Cloudvoicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | Geändert |
+| 9/23/2021 | [Servicetelefonnummern für Anrufpläne erhalten](/MicrosoftTeams/getting-service-phone-numbers) | Geändert |
+| 9/23/2021 | [Verwalten Teams des Übergangs zum neuen Teams Admin Center](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Geändert |
+| 9/23/2021 | [Suchen nach Telefonnummern für Benutzer](/MicrosoftTeams/search-for-phone-numbers-for-users) | Geändert |
+| 9/23/2021 | [Vertraulichkeitsbeschriftungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
+| 9/24/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+
+
 ## <a name="week-of-september-13-2021"></a>Woche vom 13. September 2021
 
 
@@ -60,7 +95,7 @@
 | 9/9/2021 | [Microsoft Teams – Datenschutz](/MicrosoftTeams/teams-privacy) | Geändert |
 | 9/9/2021 | [Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | Hinzugefügt |
 | 9/9/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
-| 9/9/2021 | [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
+| 9/9/2021 | [Erste Schritte mit Teams im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
 | 9/10/2021 | [Musik im Halteraum](/MicrosoftTeams/music-on-hold) | Hinzugefügt |
 | 9/10/2021 | [Konfigurieren von ServiceNow für Teams-Räume](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Geändert |
 | 9/10/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |

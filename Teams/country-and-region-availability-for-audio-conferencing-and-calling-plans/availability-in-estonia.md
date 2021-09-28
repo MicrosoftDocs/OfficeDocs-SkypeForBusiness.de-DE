@@ -1,9 +1,9 @@
 ---
 title: Verfügbarkeit in Estland
-ms.author: crowe
-author: CarolynRowe
+ms.author: czawideh
+author: cazawideh
 manager: serdars
-ms.reviewer: mikedav, jastark, oscarr
+ms.reviewer: ''
 ms.topic: reference
 ms.assetid: 2c244640-e20a-44fa-a153-515ace1f015b
 ms.tgt.pltfrm: cloud
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Estland verfügbar.
-ms.openlocfilehash: d1e6b2caa54b2782e30b7e2d845469ce8eb0eb62
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Estland.
+ms.openlocfilehash: 29f36d9dd98a6a65216029d81d82d1b124b348ea
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634999"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942540"
 ---
 # <a name="availability-in-estonia"></a>Verfügbarkeit in Estland
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Estland verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Estland.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -59,11 +59,10 @@ Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und M
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
-
-Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120-Minuten-Plan für Inlandsrufe </li><li>240-Minuten-Plan für Inlandsrufe</li></li><li>1200-Minuten-Plan für Inlandsrufe </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li></ul>|
+|Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt. <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> | In 196 Länder oder Regionen, einschließlich [dieser](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

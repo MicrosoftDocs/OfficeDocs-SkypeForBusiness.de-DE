@@ -1,9 +1,8 @@
 ---
 title: Verwalten von Telefonnummern für Anrufplan
-author: CarolynRowe
-ms.author: crowe
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: mikedav, roykuntz, jastark
 ms.topic: conceptual
 ms.assetid: 6b61cb3c-361c-48a8-a9ef-d81bddde27bb
 ms.tgt.pltfrm: cloud
@@ -26,19 +25,19 @@ ms.custom:
 - ms.lync.lac.VASAMissingGeoCodes
 - Calling Plans
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtige und gebührenfreie) Für Microsoft Teams Organisation erhalten und verwalten.
-ms.openlocfilehash: cc36fbd39ea470aa9e4175a13af574134d7ec42a
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: Erfahren Sie, wie Sie Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtige und gebührenfreie) für Microsoft Teams Organisation erhalten und verwalten.
+ms.openlocfilehash: 05228657489d2e76dee1b08f630b056606c5a83a
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432527"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59942338"
 ---
 # <a name="manage-phone-numbers-for-calling-plan"></a>Verwalten von Telefonnummern für Anrufplan
 
 Es gibt vier Möglichkeiten, Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtig und gebührenfrei) für den Anrufplan zu erhalten:
 
-- [Abrufen neuer Benutzertelefonnummern im Microsoft Teams Admin Center](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users).
+- [Abrufen neuer Benutzertelefonnummern im Microsoft Teams Admin Center.](../getting-phone-numbers-for-your-users.md#get-new-phone-numbers-for-your-users)
 - [Abrufen neuer Servicetelefonnummern im Microsoft Teams Admin Center.](../getting-service-phone-numbers.md#get-new-service-numbers)
 - [Übertragen oder _portieren_ Sie Ihre vorhandenen Telefonnummern bei uns.](../phone-number-calling-plans/transfer-phone-numbers-to-teams.md#create-a-port-order-and-transfer-your-phone-numbers-to-teams)
 - Verwenden Sie ein Anfrageformular für neue Telefonnummern, die nicht im Admin Center Microsoft Teams werden.
@@ -56,8 +55,10 @@ Wenn Sie wissen, nach welcher Art von Formularen Sie suchen, wählen Sie in der 
 > - [Österreich](phone-number-management-for-austria.md)
 > - [Belgien](phone-number-management-for-belgium.md)
 > - [Kanada](phone-number-management-for-canada.md)
+> - [Kroatien](phone-number-management-for-croatia.md)
 > - [Tschechien](phone-number-management-for-czech-republic.md)
 > - [Dänemark](phone-number-management-for-denmark.md)
+> - [Estland](phone-number-management-for-estonia.md)
 > - [Finnland](phone-number-management-for-finland.md)
 > - [Frankreich](phone-number-management-for-france.md)
 > - [Deutschland](phone-number-management-for-germany.md)
@@ -65,6 +66,8 @@ Wenn Sie wissen, nach welcher Art von Formularen Sie suchen, wählen Sie in der 
 > - [Irland](phone-number-management-for-ireland.md)
 > - [Italien](phone-number-management-for-italy.md)
 > - [Japan](phone-number-management-for-japan.md)
+> - [Lettland](phone-number-management-for-latvia.md)
+> - [Litauen](phone-number-management-for-lithuania.md)
 > - [Luxemburg](phone-number-management-for-luxembourg.md)
 > - [Neuseeland](phone-number-management-for-new-zealand.md)
 > - [Norwegen](phone-number-management-for-norway.md)
@@ -73,6 +76,7 @@ Wenn Sie wissen, nach welcher Art von Formularen Sie suchen, wählen Sie in der 
 > - [Rumänien](phone-number-management-for-romania.md)
 > - [Singapur](phone-number-management-for-singapore.md)
 > - [Slowakei](phone-number-management-for-slovakia.md)
+> - [Slowenien](phone-number-management-for-slovenia.md)
 > - [Spanien](phone-number-management-for-spain.md)
 > - [Schweden](phone-number-management-for-sweden.md)
 > - [Schweiz](phone-number-management-for-switzerland.md)
@@ -88,22 +92,22 @@ In den folgenden Abschnitten werden die Anforderungsformulare für neue Nummern 
 
 ### <a name="request-forms-for-new-phone-numbers"></a>Anfordern von Formularen für neue Telefonnummern
 
-In jedem Land bzw. jeder Region gibt es unterschiedliche Anweisungen, unterschiedliche Arten von Telefonnummern (geografisch/nicht orts- und dienstfrei) sowie Regeln/Vorschriften zum Erhalten von Telefonnummern, damit sie in der Region verwendet werden Microsoft Teams.
+In jedem Land bzw. jeder Region gibt es unterschiedliche Anweisungen, unterschiedliche Arten von Telefonnummern (geografisch/nicht orts- und dienstfrei) sowie Regeln/Vorschriften für das Abrufen von Telefonnummern, damit sie in der Region verwendet werden Microsoft Teams.
 
-Manchmal können Sie (je nach Land oder Region) über das Microsoft Teams Admin Center keine neuen Telefonnummern für Benutzer (Abonnenten) oder  Dienste (gebührenpflichtig oder gebührenfrei) erhalten, oder Sie benötigen bestimmte Telefonnummern (Vanity-Anfragen) oder bestimmte Vorwahlnummern. 
+Manchmal können Sie (je nach Land oder Region) über das Microsoft Teams Admin Center keine neuen Telefonnummern für Benutzer (Abonnenten) oder  Dienste (gebührenpflichtig oder  gebührenfrei) erhalten, oder Sie benötigen bestimmte Telefonnummern (Vanity-Anfragen) oder bestimmte Vorwahlnummern.
 
 Wenn ja, müssen Sie das richtige PDF LOA-Formular (pro Land oder Region und Art der Telefonnummern) herunterladen und an uns senden. Unser Service Desk nimmt die Anfrage von dort ab und beginnt mit der Bearbeitung Ihrer Anfrage.
 
 ### <a name="letters-of-authorization-loas-to-transferport-existing-phone-numbers"></a>Genehmigungsschreiben zum Übertragen/Portieren vorhandener Telefonnummern 
 
-Wenn Sie Ihre vorhandenen Telefonnummern von einem anderen Dienstanbieter zu Teams übertragen/portieren müssen, müssen Sie uns eine Genehmigungsschreiben (Letter of Authorization; LOA) herunterladen, ausfüllen und uns senden. Mit dem LOA erhält Microsoft die Berechtigung, in Ihrem Auftrag vorhandene Nummern von einem anderen Dienstanbieter an Teams.
+Wenn Sie Ihre vorhandenen Telefonnummern von einem anderen Dienstanbieter zu Teams übertragen/portieren müssen, müssen Sie uns eine Genehmigungsschreiben herunterladen, ausfüllen und uns senden. Mit dem LOA erhält Microsoft die Berechtigung, in Ihrem Namen vorhandene Nummern von einem anderen Dienstanbieter an Teams.
 
 Senden Sie uns bitte einen **LOA,** wenn Sie derzeit über Folgendes bei einem anderen Netzbetreiber verfügen:
 
 - Telefonnummern von Benutzern (Abonnenten).
 - Servicenummern (gebührenpflichtig) für Audiokonferenzbrücken, automatische Telefonkonferenzen oder Anrufwarteschleifen.
 - Toll-Free Telefonnummern.
-- Sie benötigen mehr als 999 Benutzertelefonnummern, die Sie übertragen/portieren müssen, aber nicht über den Assistenten zum Portieren lokaler Nummern im Microsoft Teams Admin Center erhalten können.
+- Mehr als 999 Benutzertelefonnummern, die Sie übertragen/portieren müssen, aber nicht im Microsoft Teams Admin Center über den Assistenten zum Portieren lokaler Rufnummern erhalten können.
 
 Nachdem Sie Ihren **ausgefüllten und signierten** LOA ausgefüllt haben, wenden Sie sich an unseren [PSTN Service Desk,](./contact-pstn-service-desk.md) damit wir Sie unterstützen können.
 

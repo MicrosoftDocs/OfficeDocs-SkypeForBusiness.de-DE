@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern (Übertragungsnummern) für Ihre Organisation erhalten, benötigen Sie möglicherweise Hilfe und Support beim PSTN Service Desk.
-ms.openlocfilehash: 01c54f1b6c5592626349841dea0dd4ec197d7488
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 65ebe954fb9a8b101489c9add7739b24bdd529bc
+ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598469"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "59941858"
 ---
 # <a name="pstn-service-desk"></a>PSTN Service Desk 
 
@@ -61,7 +61,6 @@ Im Telefonnummern-Servicecenter können Sie neue Fälle erstellen, vorhandene F�
 - **[Feedback](#view-and-manage-existing-cases)**– Teilen Sie uns Ihr Feedback mit. 
 
 - **[Ihr Name]**  – Aktualisieren Sie Ihre Profilseite. 
-
 
 ## <a name="create-a-new-case"></a>Erstellen eines neuen Falls
 
