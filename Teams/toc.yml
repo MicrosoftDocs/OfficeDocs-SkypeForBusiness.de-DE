@@ -1548,7 +1548,7 @@ items:
       - name: Teams für den Einzelhandel
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
-          - name: Erste Schritte mit Teamvorlagen für den Einzelhandel
+          - name: Verwenden der Teamvorlagen für den Einzelhandel
             href: get-started-with-retail-teams-templates.md
       - name: Teams für Behörden
         href: expand-teams-across-your-org/teams-for-government-landing-page.md
