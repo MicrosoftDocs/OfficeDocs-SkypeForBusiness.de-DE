@@ -1,17 +1,17 @@
 ---
-title: Erste Schritte mit einer Vorlage für ein Finanzteam im Admin Center
-author: cichur
-ms.author: v-cichur
-manager: serdars
+title: Verwenden Sie Vorlagen für Finanzteams
+author: lanachin
+ms.author: v-lanachin
+manager: samanro
 audience: Admin
 ms.topic: article
 ms.service: msteams
-ms.reviewer: phecda louie
+ms.reviewer: yinchang
 ms.collection:
 - M365-collaboration
-ms.localizationpriority: medium
+ms.localizationpriority: high
 search.appverid: MET150
-description: Erfahren Sie, wie Teams-Vorlagen zum Erstellen von Teamstrukturen für finanzielle Anforderungen verwenden, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
+description: Erfahren Sie, wie Sie Finanzteamvorlagen im Teams Admin Center und mit Microsoft Graph verwalten und verwenden, um schnell und einfach Teams für Ihre Finanzdienstleistungsorganisation zu erstellen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -19,39 +19,57 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 291c9e28dec5f779c8a23888b28d78c79919f1f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: MT
+ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
+ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603434"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "59991104"
 ---
-# <a name="use-financial-team-templates-in-the-admin-center"></a>Verwenden von Finanzteamvorlagen im Admin Center
+# <a name="use-financial-team-templates"></a>Verwenden Sie Vorlagen für Finanzteams
 
-Teamvorlagen ermöglichen es Ihnen, Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
+Mit Teamvorlagen in Microsoft Teams können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-Teamvorlagen verfügen über vordefinierte Definitionen von Teamstrukturen, die auf finanzielle Anforderungen ausgelegt sind. Sie können die Teamvorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
+Für Finanzdienstleistungsunternehmen können Teamvorlagen besonders leistungsstark sein, da sie Ihnen helfen, schnell konsistente Teams in Ihrer gesamten Organisation bereitzustellen. Vorlagen helfen den Mitarbeitern auch, sich bei der effektiven Verwendung von Teams zu orientieren.
 
-In diesem Artikel werden die einzelnen Teamvorlagen beschrieben und die Verwendung empfohlen.
+Teams enthält Vorlagen für Finanzdienstleistungsunternehmen. Verwenden Sie diese vorgefertigten Vorlagen, um schnell Teams zu erstellen, mit denen Mitarbeiter kommunizieren und zusammenarbeiten können. In diesem Artikel stellen wir Ihnen jede dieser Vorlagen vor und empfehlen deren Verwendung.
 
-Dieser Artikel ist für Sie, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in Ihrer Finanzorganisation verantwortlich sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie Teams noch nicht eingeführt haben, lesen Sie zunächst die Anleitung zum [Einführen von Microsoft Teams](./deploy-overview.md).
+Wie Sie Teamvorlagen verwalten und damit arbeiten, hängt davon ab, ob Sie Administrator oder Entwickler sind.
 
-Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen.](get-started-with-teams-templates-in-the-admin-console.md)
+|Wenn Sie: | Dann: |
+| ---- | --------- |
+| Ein Administrator oder IT-Profi |[Verwalten Sie Teamvorlagen im Teams Admin Center](#manage-team-templates-in-the-teams-admin-center). Zeigen Sie Teamvorlagen an und wenden Sie Vorlagenrichtlinien an, um zu steuern, welche Vorlagen Ihre Mitarbeiter in Teams zum Erstellen von Teams verwenden können. |
+| Ein Entwickler | [Verwenden Sie Microsoft Graph](#use-team-templates-with-microsoft-graph), um Teams aus Teamvorlagen zu erstellen. |
 
-## <a name="global-crisis-or-event"></a>Globale Krisen oder Ereignisse
+## <a name="manage-team-templates-in-the-teams-admin-center"></a>Verwalten von Teamvorlagen im Teams Admin Center
 
-Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam über Geschäftseinheiten hinweg und helfen Sie beim Erstellen von Plänen für Geschäftskontinuität, teilen Sie Tipps für Remotearbeit, verfolgen Sie Kundenkommunikation, und halten Sie jeden mit Ankündigungen und Neuigkeiten auf dem Schleife.
+Als Administrator können Sie Teamvorlagen im Microsoft Teams Admin Center verwalten. Hier können Sie Details zu jeder Vorlage anzeigen. Sie können Ihren Mitarbeitern auch [Vorlagenrichtlinien erstellen und zuweisen](templates-policies.md), um zu steuern, welche Vorlagen sie in Teams zum [Erstellen von Teams](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) sehen.
 
-| Basisorlagentyp|baseTemplateId | Eigenschaften, die mit dieser Basisvorlage geliefert werden |
-| ------------------|-- |----------------------------------------------------- |
-| Zusammenarbeiten an globalen Krisen oder Veranstaltungen|`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Geschäftskontinuität</li><li>Remotearbeit</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anforderung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Update für Geschäftsleitung</li></ul>Apps: <ul><li>Lob</li><li>Wiki</li><li>Website</li><li>Planner</li></ul>|
-||||
+Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teamvorlagen im Teams Admin Center](get-started-with-teams-templates-in-the-admin-console.md).
 
-## <a name="collaborate-within-a-bank-branch"></a>Zusammenarbeiten in einer Bankfiliale
+Wir bieten derzeit die folgenden vorgefertigten Teamvorlagen für Finanzdienstleistungsunternehmen an. Um sie anzuzeigen, wechseln Sie in der linken Navigation des Teams Admin Center zu **Teams** > **Team-Vorlagen**.
 
-Zentralisieren Sie die Zusammenarbeit für Die Mitarbeiter Ihrer Bank zweigstellenübergreifend über "Zusammenkünfte", "Kundenbesprechungen" und Geschäftsprozesse wie die Zusammenarbeit mit Hypotheken, und halten Sie alle mit Ankündigungen und Kudos auf dem Schleife.
+### <a name="collaborate-within-a-bank-branch"></a>Zusammenarbeit in einer Bankfiliale
 
-| Basisorlagentyp |baseTemplateId| Eigenschaften, die mit dieser Basisvorlage geliefert werden |
+Zentralisieren Sie die Zusammenarbeit für die Mitarbeiter Ihrer Bank zweigstellenübergreifend über Zusammenkünfte, Kundenbesprechungen und Geschäftsprozesse wie die Zusammenarbeit mit Hypotheken, und halten Sie alle mit Ankündigungen und Kudos auf dem Laufenden.
+
+| Vorlagentyp |TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 | ------------------ |--|----------------------------------------------------- |
-|Zusammenarbeiten in einer Bankfiliale|`com.microsoft.teams.template.CollaborateWithinABankBranch` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen Anforderung</li><li>Durchseringen</li><li>Qualifikationsentwicklung</li><li>Kreditverarbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob</li></ul>|
+|Bankfiliale| `CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen anfordern </li><li>Coaching</li><li>Kompetenzentwicklung</li><li>Kreditbearbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problemmelder</li><li>Wiki</li><li>Kalender</li><li>Genehmigungen</li><li>Bulletins</li><li>Ideen</li></ul>|
 ||||
+
+## <a name="use-team-templates-with-microsoft-graph"></a>Verwenden Sie Teamvorlagen mit Microsoft Graph
+
+Entwickler können Microsoft Graph verwenden, um Teams aus vorgefertigten Teamvorlagen zu erstellen. Weitere Informationen zur Verwendung von Teamvorlagen mit Microsoft Graph finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md), [Übersicht über die Microsoft Teams-API](/graph/teams-concept-overview?view=graph-rest-1.0), und [teamsTemplate-Ressourcentyp](/graph/api/resources/teamstemplate?view=graph-rest-1.0).
+
+### <a name="bank-branch"></a>Bankfiliale
+
+Zentralisieren Sie die Zusammenarbeit für die Mitarbeiter Ihrer Bank zweigstellenübergreifend über Zusammenkünfte, Kundenbesprechungen und Geschäftsprozesse wie die Zusammenarbeit mit Hypotheken, und halten Sie alle mit Ankündigungen und Kudos auf dem Laufenden.
+
+| Vorlagentyp |TemplateId| Vorlagenkanäle |
+| ------------------ |--|----------------------------------------------------- |
+|Bankfiliale|`https://graph.microsoft.com/beta/teamsTemplates('CollaborateWithinABankBranch')`|Allgemein<br>Ankündigungen<br>Huddles<br>Kundenbesprechungen<br>Genehmigungen anfordern<br>Coaching<br>Kompetenzentwicklung<br>Kreditbearbeitung<br>Kundenbeschwerden<br>Kudos<br>Lustiges<br>Compliance|
+||||
+
+> [!NOTE]
+> Weitere Vorlagen, die für die Organisation von Finanzdienstleistungen gelten, finden Sie unter [In Microsoft Graph erstellte Teamvorlagen für kleine und mittlere Unternehmen](smb-templates.md).
