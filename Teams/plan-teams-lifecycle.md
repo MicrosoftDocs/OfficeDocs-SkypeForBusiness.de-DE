@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa4d2cfa493ae6bec4429db9c3d01319d889288e
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 539597393f34f2f02734c57df57097281a4d7839
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456375"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012819"
 ---
 # <a name="plan-for-lifecycle-management-in-teams"></a>Planen der Lebenszyklusverwaltung in Microsoft Teams
 
@@ -109,7 +109,7 @@ Unter den folgenden Links finden Sie weitere Informationen zum Organisieren Ihre
 -   [Bereitstellen von Cloud Voice](cloud-voice-landing-page.md)
 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was ist der Zweck des Teams?</li><li>Wer gehört zum Team?</li><li>Soll das Team privat oder öffentlich sein?</li><li>Können neue Mitglieder sich selbst hinzufügen, oder werden sie von Teambesitzern hinzugefügt?</li><li>Wer soll über Berechtigungen zum Erstellen von Kanälen oder Hinzufügen von Registerkarten, Bots und Connectors verfügen?</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Erstellen Sie das Team.</li><li>Planen Sie Kanäle.</li></ul>|
@@ -123,7 +123,7 @@ Der Kanalbesitzer kann das Interesse wecken, indem er eine Willkommensnachricht 
 
 Berücksichtigen Sie die Kanalnamen vor ihrer Erstellung, da das Umbenennen eines Kanals im Team den entsprechenden Ordner in der SharePoint-Dokumentbibliothek nicht umbenennen wird, was zu Verwirrung beim Endbenutzer führen kann. 
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Welche Kanäle werden anfangs zum Team hinzugefügt?</li><li>Welche Anleitungen werden gegebenenfalls zum Hinzufügen neuer Kanäle bereitgestellt? (Nach welchen Kriterien sollen Kanäle eingerichtet werden: Projekte, Themen, andere Kriterien?)</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Erstellen Sie die ersten Kanäle.</li><li>Stellen Sie eine Willkommensnachricht bereit.</li><li>Beginnen Sie mit der Zusammenarbeit.</li></ul>|
@@ -144,7 +144,7 @@ Da es sich bei Teams quasi um lebende Organismen handelt, müssen sie gelegentli
 - Probieren Sie verschiedene Arten der Zusammenarbeit in Kanälen aus, zum Beispiel Kanalbesprechungen oder Registerkartenunterhaltungen, in denen es um Dokumente geht.
 - Verwenden Sie die mobile App von Microsoft Teams, um Ihr Engagement zu steigern.
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Wer soll die Nutzung überwachen, um Probleme zu identifizieren?</li><li>Welche Metriken werden verwendet, um zu ermitteln, ob ein Team in gutem Zustand ist?</li><li>Identifizieren Sie Teams, die nicht mehr von Nutzen sind.</li><li>Identifizieren Sie schwächelnde Teams, die noch einen Zweck erfüllen, aber einer Wiederbelebung bedürfen.</li></ul> |
 | ![Ein Symbol, das den nächsten Schritt darstellt.](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Implementieren Sie einen Prozess für die Überwachung des Zustands einzelner Teams.</li></ul>|
@@ -161,7 +161,7 @@ Auf Teams oder zugeordnete Dienste wie SharePoint angewendete Aufbewahrungsricht
 
 Weitere Informationen zum Einrichten von Ablauf- und Aufbewahrungsrichtlinien finden Sie unter [Übersicht über Sicherheit und Compliance in Microsoft Teams](security-compliance-overview.md).
 
-|    |     |
+|&nbsp;|&nbsp;|
 |-----------|------------|
 | ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Definieren Sie, was das Ende des Lebens eines Teams ausmacht.</li><li>Entscheiden Sie, ob und wie lange der Inhalt eines Teams verfügbar bleiben soll.</li></ul> |
 | ![Ein Symbol, das die nächsten Schritte darstellt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Dokumentieren Sie bewährte Methoden und gesammelte Erfahrungen.</li><li>Archivieren Sie bei Bedarf die Daten.</li></ul>|

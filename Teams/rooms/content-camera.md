@@ -14,13 +14,13 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - seo-marvel-mar2020
-description: Verwenden Sie eine Inhaltskamera in Microsoft Teams Raum, die mit Bildverarbeitungssoftware interagiert, damit Sprecher auf einem analogen Whiteboard zeichnen können.
-ms.openlocfilehash: ae919e50e7e38394e3e9af70a927d5bcdd959f50
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Verwenden Sie eine Inhaltskamera in einem Microsoft Teams, die mit Bildverarbeitungssoftware interagiert, damit Presenter auf einem analogen Whiteboard zeichnen können.
+ms.openlocfilehash: 61c0a1a36630fa31190e57de08379d6e80321a34
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726014"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013159"
 ---
 # <a name="content-cameras"></a>Inhalts-Kameras
 
@@ -65,7 +65,7 @@ Die Entfernung der Kamera vom Whiteboard kombiniert mit der Kameraauflösung und
 | 100°        | 1,26 ft (0,38 m)| 2,52 ft (0,77 m)   | 3,78 ft (1,15 m)   |1,53 m(1,53 m)   |1,29 ft (1,61 m) |
 | 110°        | 1,05 ft (0,32 m)| 2,10 ft (0,64 m)   | 3,15 ft (0,96 m)   |1,28 m/s    |4,41 ft (1,31 m) |
 | 120°        | 0,87 ft. (0,26 m)| 1,73 ft (0,52 m)   | 2,60 ft (0,79 m)   |3,46 ft (1,05 m)   |3,64 ft ( 1,10 m) |
-|             |               |                  |                  |        |                    |                  |
+             
 
 Der Abstand zwischen der Inhaltskamera und der Wand, auf der das Whiteboard bereitgestellt ist, hängt vom HFoV für das Kameramodell ab, das variiert. Installieren Sie Kameras mit einem größeren HFoV (z. B. 120 Grad) näher an der Wand, und Kameras mit einem schmaleren HFoV von der Wand entfernt. Überprüfen Sie den HFoV, bevor Sie mit der Installation der ausgewählten Kamera beginnen.
 
@@ -82,7 +82,7 @@ Wenn Sie Whiteboards haben, die größer als 3,65 m sind oder keine Ecken haben 
 
 Informationen dazu, ob Sie eine Kamera als Inhaltskamera verwenden können, finden Sie unter Zertifizierte Firmwareversionen für [USB-Audio- und -Videoperipheriegeräte](requirements.md#certified-firmware-versions-for-usb-audio-and-video-peripherals).
 
-Auf dem Marketplace für Microsoft Teams finden Sie unterstützte Content Camera Kits unter [aka.ms/teamsdevices.](https://aka.ms/teamsdevices)
+Auf dem Marketplace für Microsoft Teams finden Sie unterstützte Content Camera Kits unter [aka.ms/teamsdevices](https://aka.ms/teamsdevices).
 
 ## <a name="camera-settings"></a>Kameraeinstellungen
 

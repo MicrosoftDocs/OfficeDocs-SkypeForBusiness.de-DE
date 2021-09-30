@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Zusammenfassung: Konfigurieren einer lokalen Partneranwendung für Skype for Business Server.'
-ms.openlocfilehash: 4bc1461f01c60ba1f151cfca28c979b69e08a761
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0907d73d6a23c0a5b9a1f1725503b72c5bce993
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587177"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012619"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Konfigurieren einer lokalen Partneranwendung für Skype for Business Server
  
 **Zusammenfassung:** Konfigurieren Sie eine lokale Partneranwendung für Skype for Business Server.
   
-Nachdem Sie das OAuthTokenIssuer-Zertifikat zugewiesen haben, müssen Sie ihre Skype for Business Server Partneranwendungen konfigurieren. (Das zu besprechende Verfahren konfiguriert sowohl Microsoft Exchange Server 2013 als auch SharePoint als Partneranwendungen, was optional ist.) Um eine lokale Partneranwendung zu konfigurieren, müssen Sie zunächst das folgende Windows PowerShell Skript kopieren und den Code in Editor (oder einen anderen Texteditor) einfügen:
+Nachdem Sie das OAuthTokenIssuer-Zertifikat zugewiesen haben, müssen Sie Ihre Skype for Business Server Partneranwendungen konfigurieren. (Das zu besprechende Verfahren konfiguriert sowohl Microsoft Exchange Server 2013 als auch SharePoint als Partneranwendungen, was optional ist.) Um eine lokale Partneranwendung zu konfigurieren, müssen Sie zunächst das folgende Windows PowerShell Skript kopieren und den Code in Editor (oder einem anderen Texteditor) einfügen:
   
 ```PowerShell
 if ((Get-CsPartnerApplication -ErrorAction SilentlyContinue) -ne $Null)
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Speichern Sie das Skript nach dem Kopieren des Codes mit einer .PS1 Dateierweiterung (z. B. C:\Scripts\ServerToServerAuth.ps1). Beachten Sie, dass Sie vor dem Ausführen dieses Skripts die Metadaten-URLs https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1 bzw. http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1 die Metadaten-URLs ersetzen müssen, die von Ihren Exchange 2013- bzw. SharePoint Servern verwendet werden. Informationen dazu, wie Sie die Metadaten-URL des jeweiligen Produkts identifizieren können, finden Sie in der Produktdokumentation für Exchange 2013 und SharePoint.
+Speichern Sie das Skript nach dem Kopieren des Codes mit einer .PS1 Dateierweiterung (z. B. C:\Scripts\ServerToServerAuth.ps1). Beachten Sie, dass Sie vor dem Ausführen dieses Skripts die Metadaten-URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` bzw. `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` die Metadaten-URLs ersetzen müssen, die von Ihren Exchange 2013- bzw. SharePoint servern verwendet werden. Informationen dazu, wie Sie die Metadaten-URL des jeweiligen Produkts identifizieren können, finden Sie in der Produktdokumentation für Exchange 2013 und SharePoint.
   
 In der letzten Zeile des Skripts werden Sie bemerken, dass dort ein Set-CsOAuthConfiguration-Cmdlet mit der folgenden Syntax aufgerufen wird:
   
@@ -88,13 +88,13 @@ Da beim Aufruf des Set-CsOAuthConfiguration-Cmdlet der Realm-Parameter nicht ver
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000 -Realm "contoso.com"
 ```
 
-Nachdem Sie diese Änderungen vorgenommen haben, können Sie das Skript ausführen und sowohl Exchange 2013 als auch SharePoint als Partneranwendungen konfigurieren, indem Sie die Skriptdatei in der Skype for Business Server Verwaltungsshell ausführen. Zum Beispiel:
+Nachdem Sie diese Änderungen vorgenommen haben, können Sie das Skript ausführen und sowohl Exchange 2013 als auch SharePoint als Partneranwendungen konfigurieren, indem Sie die Skriptdatei in der Skype for Business Server Verwaltungsshell ausführen. Zum Beispiel: 
   
 ```PowerShell
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
-Beachten Sie, dass Sie dieses Skript auch dann ausführen können, wenn Sie nicht sowohl Exchange 2013 als auch SharePoint Server installiert haben:, treten keine Probleme auf, wenn Sie beispielsweise SharePoint Server als Partneranwendung konfigurieren, obwohl sie SharePoint Server nicht installiert haben.
+Beachten Sie, dass Sie dieses Skript auch dann ausführen können, wenn Sie nicht sowohl Exchange 2013 als auch SharePoint Server installiert haben:, treten keine Probleme auf, wenn Sie beispielsweise SharePoint Server als Partneranwendung konfigurieren, obwohl SharePoint Server nicht installiert ist.
   
 Bei Ausführung des Skripts würden Sie dann eine Fehlermeldung erhalten, die wie folgt aussieht:
   

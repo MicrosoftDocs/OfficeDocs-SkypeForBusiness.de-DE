@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 450decb455b35018c2dc4c02951ee542ab212371
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8a928b532dcfb87a866f25502f4523078ce9cd48
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725824"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012959"
 ---
 # <a name="user-presence-in-teams"></a>Anwesenheit in Microsoft Teams
 
@@ -33,6 +33,7 @@ Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und üb
 
  > [!NOTE]
  > Teams berücksichtigt Ihre Datenschutzkonfiguration, d. h.,wenn Sie den Datenschutzmodus aktiviert haben, ist Ihre Anwesenheit für externe Benutzer nicht sichtbar.
+
 ## <a name="presence-states-in-teams"></a>Anwesenheitsstatus in Teams
 
 
@@ -50,10 +51,10 @@ Die Anwesenheit ist Teil des Profils eines Benutzers in Microsoft Teams (und üb
 | ![Das Symbol "gelbe Uhr" zeigt an: abwesend.](media/Presence_Away.png) Abwesend| ![Das Symbol "gelbe Uhr" zeigt an: abwesend.](media/Presence_Away.png) Abwesend|
 || ![Das Symbol "gelbe Uhr" zeigt an](media/Presence_Away.png): abwesend; zuletzt anwesend um *Zeit*|
 |![Das Symbol "gelbe Uhr" zeigt an: abwesend – bin gleich zurück.](media/Presence_Away.png) Bin gleich zurück| |
-|![Grauer Kreis mit x zeigt an: Offline.](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline: Wenn Benutzer einige Minuten nicht auf ihren Geräten angemeldet sind, wird Offline als ihr Status angezeigt. | |
+|![Grauer Kreis mit x zeigt an: Offline.](media/Presence_Offline.png) Als offline anzeigen|![Grauer Kreis mit x zeigt an: Offline](media/Presence_Offline.png) Offline: Wenn Benutzer einige Minuten nicht auf ihren Geräten angemeldet sind, wird Offline als ihr Status angezeigt. |
 || ![Offener grauer Kreis zeig an: Status unbekannt.](media/Presence_Unknown.png) Status unbekannt|
 || ![Lila Kreis mit Pfeil zeigt an: Außer Haus.](media/Presence_OOF.png) Abwesenheit: Abwesenheit wird verwendet, wenn die Option „Abwesenheitsnachricht“ aktiviert ist. |
-|||
+
  > [!NOTE]
  > Für Benutzer, deren Postfach lokal gehostet wird, werden Verzögerungen der Anwesenheitsmeldungen von bis zu einer Stunde (maximal) erwartet.
 
@@ -82,7 +83,6 @@ Vom Benutzer konfigurierte Status haben Standardablaufeinstellungen in Teams, um
 | Beschäftigt|1 Tag|
 | Nicht stören|1 Tag|
 | Sonstige|7 Tage|
-|||
 
 > [!NOTE]
 > Ein Benutzer kann die Dauer einer Anwesenheit auch manuell konfigurieren. Ein Benutzer kann sich beispielsweise selber den Status „Als offline anzeigen bis Morgen früh“ setzen.

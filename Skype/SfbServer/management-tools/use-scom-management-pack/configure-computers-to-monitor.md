@@ -13,34 +13,34 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b24ea184-4b3e-4277-a244-157afb4b368b
-description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2015, und konfigurieren Sie den Computer als System Center Proxy.'
-ms.openlocfilehash: dbca58ff7e8cc837ce5323d24bc127a9d3ee20ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2015, und konfigurieren Sie den Computer so, dass er als System Center Proxy fungiert.'
+ms.openlocfilehash: efe7c7bd9ce2862cd423e0b36a5de21d03e32db0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606124"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015309"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitor"></a>Konfigurieren der zu überwachenden Skype for Business Server Computer
 
 **Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2015, und konfigurieren Sie den Computer als System Center Proxy.
 
-Jeder Skype for Business Server 2015-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie zuerst Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
+Jeder Skype for Business Server 2015-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installieren eines Zertifikats auf einem Watcher-Knoten, der sich außerhalb des Umkreisnetzwerks befindet
 <a name="watcher_node_outside"> </a>
 
 System Center Operations Manager-Agents, die in einem Umkreisnetzwerk (z. B. einem Skype for Business Server Edgeserver), außerhalb des Unternehmens (z. B. einem externen Monitorknoten für synthetische Transaktionen) oder über eine Active Directory-Vertrauensstellungsgrenze ausgeführt werden, erfordern möglicherweise die Konfiguration eines System Center Operations Manager-Gatewayservers. Mit dieser Serverrolle können Agents, die keine Vertrauensstellung mit dem Stammverwaltungsserver haben, Warnungen auslösen. Ausführliche Informationen finden Sie unter [Verwalten von Gatewayservern in Operations Manager 2012.](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
 
-Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auch ein Zertifikat anfordern und konfigurieren, mit dem der Monitorknoten Warnungen an System Center Operations Manager senden kann. Um dieses Verfahren zu vereinfachen, hat das Operations Manager-Team eine Reihe an Dienstprogrammen erstellt, mit denen Sie den richtigen Typ des Zertifikats anfordern und auf dem Computer mit dem Watcher-Knoten installieren können. Ausführliche Informationen und das Herunterladen dieser Hilfsprogramme finden Sie unter ["Abrufen von Zertifikaten für nicht domänenverbundene Agents, die mit dem Assistenten zum Generieren von Zertifikaten erleichtert wurden".](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)
+Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auch ein Zertifikat anfordern und konfigurieren, mit dem der Monitorknoten Warnungen an System Center Operations Manager senden kann. Um dieses Verfahren zu vereinfachen, hat das Operations Manager-Team eine Reihe an Dienstprogrammen erstellt, mit denen Sie den richtigen Typ des Zertifikats anfordern und auf dem Computer mit dem Watcher-Knoten installieren können. Ausführliche Informationen und das Herunterladen dieser Hilfsprogramme finden Sie unter ["Abrufen von Zertifikaten für nicht domänenverbundene Agents, die mit dem Assistenten zum Generieren von Zertifikaten erleichtert wurden".](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Installieren der Operations Manager-Agent-Dateien
 
 1. Doppelklicken Sie auf ihrem System Center Setupmedium auf **Setup.exe**.
 
-2. Klicken Sie im Setup-Assistenten für System Center Operation Manager unter "Optionale Installationen" auf **"Operations Manager-Agent** installieren".
+2. Klicken Sie im Setup-Assistenten für System Center Operation Manager auf **"Operations Manager-Agent installieren"** unter "Optionale Installationen".
 
-3. Klicken Sie im Setup-Assistenten System Center auf der Seite "Willkommen bei der System Center Operations Manager Setup-Assistenten" auf **"Weiter".**
+3. Klicken Sie im Setup-Assistenten System Center auf der Seite "Willkommen bei der System Center Operations Manager-Setup-Assistenten" auf **"Weiter".**
 
 4. Wählen Sie auf der Seite "Zielordner" den Ordner aus, in dem die Operations Manager-Agent-Dateien installiert werden, und klicken Sie auf **"Weiter".**
 
@@ -77,6 +77,6 @@ Um sicherzustellen, dass der neue Skype for Business Server-Agent am Ermittlungs
 
 4. Stellen Sie sicher, dass im Operations Manager-Ereignisprotokoll keine Fehlerereignisse aufgezeichnet wurden.
 
-5. Der Computer, auf den der Agent erfolgreich übertragen wird, wird unter "Agent Managed" angezeigt, und der Computer, auf dem der Agent manuell installiert wurde, wird unter "Ausstehende Verwaltung" angezeigt, klicken Sie auf den Computernamen, und genehmigen Sie ihn.
+5. Der Computer, auf den der Agent erfolgreich verschoben wird, wird unter "Agent Managed" angezeigt, und der Computer, auf dem der Agent manuell installiert wurde, wird unter "Ausstehende Verwaltung" angezeigt, klicken Sie auf den Computernamen, und genehmigen Sie ihn.
 
 6. Klicken Sie mit der rechten Maustaste auf den Namen des Computers, und klicken Sie dann auf **Eigenschaften**. Wählen Sie im Dialogfeld Eigenschaften auf der Registerkarte Sicherheit die Option **Dieser Agent soll als Proxyagent fungieren und verwaltete Objekte auf anderen Computern erkennen** aus, und klicken Sie dann auf **OK**.

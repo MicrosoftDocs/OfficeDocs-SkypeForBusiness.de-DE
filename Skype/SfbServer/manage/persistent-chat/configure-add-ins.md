@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Add-Ins für Chatrooms für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: f6ff42e57f72a6fa875e8123af91caa7f4e3efc0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599980"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013389"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für Chatrooms für beständigen Chat in Skype for Business Server 2015
  
@@ -71,7 +71,7 @@ Sie können Add-Ins für Chatrooms mithilfe der folgenden cmdlets Windows PowerS
 
 Mit dem Cmdlet **"New-CsPersistentChatAddin"** können Sie ein neues Add-In erstellen.
   
-Beispielsweise erstellt der folgende Befehl ein neues Add-In (mit dem Namen ITPersistentChatAddin) für den Pool atl-cs-001.contoso.com. Der URL-Parameter und der Parameterwert http://atl-cs-001.contoso.com/itchat geben den Speicherort der Webseite des Add-Ins an:
+Mit dem folgenden Befehl wird beispielsweise ein neues Add-In (mit dem Namen "ITPersistentChatAddin") für den Pool `atl-cs-001.contoso.com` erstellt. Der URL-Parameter und der Parameterwert `http://atl-cs-001.contoso.com/itchat` geben den Speicherort der Webseite des Add-Ins an:
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -79,7 +79,7 @@ New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn 
 
 ### <a name="configure-settings-for-an-existing-add-in"></a>Konfigurieren von Einstellungen für ein vorhandenes Add-In
 
-Sie können Einstellungen für ein vorhandenes Add-In mithilfe des **Cmdlets "Set-CsPersistentChatAddIn"** konfigurieren. Beispielsweise ändert der folgende Befehl die URL, die dem Add-In für beständigen Chat ITPersistentChatAddin zugewiesen ist. In diesem Fall wird die URL in http://atl-cs-001.contoso.com/itchat2:
+Sie können Einstellungen für ein vorhandenes Add-In mithilfe des **Cmdlets "Set-CsPersistentChatAddIn"** konfigurieren. Beispielsweise ändert der folgende Befehl die URL, die dem Add-In für beständigen Chat ITPersistentChatAddin zugewiesen ist. In diesem Fall wird die URL wie folgt `http://atl-cs-001.contoso.com/itchat2` geändert:
   
 ```PowerShell
 Set-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITPersistentChatAddin" -Url "http://atl-cs-001.contoso.com/itchat2"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Entfernen eines Add-Ins
 
-Sie können ein Add-In mithilfe des **Cmdlets "Remove-CsPersistentChatAddIn"** entfernen. Mit dem folgenden Befehl wird beispielsweise das Add-In "ITChatAddin" des Add-Ins für beständigen Chat entfernt, das sich im Pool atl-cs-001.contoso.com befindet:
+Sie können ein Add-In mithilfe des **Cmdlets "Remove-CsPersistentChatAddIn"** entfernen. Beispielsweise entfernt der folgende Befehl das Add-In "ITChatAddin" des beständigen Chats, das im Pool gefunden `atl-cs-001.contoso.com` wurde:
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

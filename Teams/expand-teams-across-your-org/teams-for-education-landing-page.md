@@ -19,19 +19,19 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 7ddce7d633028ee3087cb8f29b6f47d593e664ae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 85810f800424ddc0453b554ee8ab3a8863766150
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730474"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013979"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
 Mit Teams Lehrkräften können Lehrkräfte gemeinsame Kursräume erstellen, sich in professionellen Lerngemeinschaften verbinden und mit Kursteilnehmern und Lehrkräften kommunizieren. Verwenden Sie die hier bereitgestellten Administratorressourcen als Hilfe bei der erfolgreichen Bereitstellung, Einführung und Verwaltung von Teams in Ihrer Bildungseinrichtung. 
 
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![Screenshot des Pfeilsymbols nach rechts](../media/arrow-right-2-teams.svg)  |  [Schnellstart – Administratoren von Microsoft Teams Education](../teams-quick-start-edu.yml) |
 | ![Screenshot des Papier- und Bleistiftsymbols](../media/sign-up-teams.svg) | [Aufgaben in Teams für Bildungseinrichtungen](./assignments-in-teams.md) |

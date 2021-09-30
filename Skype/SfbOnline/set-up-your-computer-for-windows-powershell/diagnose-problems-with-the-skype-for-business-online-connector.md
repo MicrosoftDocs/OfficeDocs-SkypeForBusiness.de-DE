@@ -18,13 +18,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - PowerShell
-description: Behandeln Sie Probleme beim Erstellen einer PowerShell-Remotesitzung, um eine Verbindung mit Skype for Business Online herzustellen, einschließlich Fehlern beim Importieren-Modul, gleichzeitiger Shell, Live ID und Berechtigungen.
-ms.openlocfilehash: 9157c556eaa2952adf2b67a514eebfb1a9d3abff
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Behandeln Sie Probleme beim Erstellen einer PowerShell-Remotesitzung zum Herstellen einer Verbindung mit Skype for Business Online, einschließlich Fehlern beim Importieren-Modul, gleichzeitiger Shell, Live ID und Berechtigungen.
+ms.openlocfilehash: b585a1d4e830fdd692c85f48fbc3d4ae7b65ab57
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617091"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013319"
 ---
 # <a name="diagnose-connection-problems-with-the-skype-for-business-online-connector"></a>Diagnostizieren von Verbindungsproblemen mit dem Skype for Business Online-Connector
 
@@ -48,16 +48,9 @@ Dieses Thema enthält Informationen, die Ihnen helfen sollen, Probleme zu diagno
     
 - [Die Möglichkeit, Verbindungen mit dem Mandanten herzustellen, wurde in Skype for Business Online deaktiviert](diagnose-problems-with-the-skype-for-business-online-connector.md#BKMKAbilityConnect)
     
-- [Die maximale Anzahl gleichzeitiger Shells für diesen Benutzer in Skype for Business Online wurde überschritten.](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
+- [Die maximale Anzahl von gleichzeitigen Shells für diesen Benutzer in Skype for Business Online wurde überschritten.](#the-maximum-number-of-concurrent-shells-for-this-user-in-skype-for-business-online-has-been-exceeded)
 
 - [Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten in Skype for Business Online wurde überschritten.](#the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded)
-    
-
-> [!IMPORTANT]
-> Standardmäßig ist für PowerShell-Sitzungen ein Zeitausfall nach 60 Minuten festgelegt. Zum erneuten Verbinden müssen Sie die Sitzung schließen und eine neue PowerShell-Sitzung starten. In letzter Zeit wurde eine neue Version von [Skype for Business Online, Windows PowerShell Module (2046.123 – Veröffentlicht am 02.10.2019),](https://www.microsoft.com/download/details.aspx?id=39366)gestartet, die ein neues Cmdlet mit dem Namen **Enable-CsOnlineSessionForReconnection** enthält, mit dem das Problem nach 60 Minuten entschärft wird.
-> Die PowerShell-Sitzung wird erneut verbunden und authentifiziert, sodass sie wieder verwendet werden kann, ohne eine neue Instanz zum erneuten Verbinden starten zu müssen.
-
-
 
 ## <a name="import-module-error-caused-by-windows-powershell-execution-policy"></a>„Import-Module"-Fehler aufgrund der Windows PowerShell-Ausführungsrichtlinie
 <a name="BKMKPowerShellExecutionPolicy"> </a>
@@ -77,28 +70,28 @@ Mithilfe der PowerShell-Ausführungsrichtlinie kann ermittelt werden, welche Kon
 
 Das Skype for Business Online-Connectormodul kann nur in Windows PowerShell 3.0 ausgeführt werden. Wenn Sie versuchen, das Modul unter einer früheren Version von PowerShell zu importieren, tritt beim Importvorgang ein Fehler auf, und etwa diese Fehlermeldung wird angezeigt:
   
-  - **Fehler:** *Import-Module: Die Version der geladenen PowerShell ist "2.0". Für das Modul "D: Programme – Allgemeine \\ \\ \\ Dateien" in Microsoft Lync Server 2013-Modulen \\ \\ LyncOnlineConnectorLyncOnlineConnector.psd1" ist eine \\ mindestens auszuführende PowerShell-Version von "3.0" erforderlich. Überprüfen Sie die Installation von PowerShell, und versuchen Sie es erneut.*
+  - **Fehler:** *Import-Module: Die Version der geladenen PowerShell ist "2.0". Das Modul "D: Gemeinsame Dateien für Programme \\ \\ Microsoft Lync Server \\ 2013-Module \\ \\ LyncOnlineConnector \\ LyncOnlineConnector.psd1" erfordert eine mindestens auszuführende PowerShell-Version von "3.0". Überprüfen Sie die Installation von PowerShell, und versuchen Sie es erneut.*
 
-- **Lösung:** Die einzige Möglichkeit, dieses Problem zu beheben, ist die Windows PowerShell 3.0, die im Microsoft Download Center unter verfügbar [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) ist.
+- **Lösung:** Die einzige Möglichkeit, dieses Problem zu beheben, besteht Windows PowerShell 3.0, das Sie im Microsoft Download Center unter [https://www.microsoft.com/download/details.aspx?id=34595](https://www.microsoft.com/download/details.aspx?id=34595) finden.
   
 ## <a name="modern-authentication-fails-when-winrm-basic-authentication-has-been-disabled"></a>Moderne Authentifizierung schlägt fehl, wenn die WinRM Basic-Authentifizierung deaktiviert wurde
 <a name="BKMKWinRMBasicAuth"> </a>
 
-Die neueste Version des Skype for Business Online Connector-Moduls verwendet moderne Authentifizierung, aber der zugrunde liegende Windows-Client für die Remoteverwaltung (WinRM) muss so konfiguriert werden, dass die Standardauthentifizierung zulässig ist.  Die moderne Authentifizierung verwendet Bearer-Token, die normalerweise im *Header Authorization: Bearer übergeben* werden. Windows PowerShell, auf der Skype for Business PowerShell erstellt wurde, lässt die Manipulation dieses Headers nicht zu.  Stattdessen verwendet Skype for Business PowerShell *den Header Authorization: Basic,* um das Bearer-Token zu übergeben.
+Die neueste Version des Skype for Business Online-Connectormoduls verwendet moderne Authentifizierung, aber der zugrunde liegende Windows Remote Management-Client (WinRM) muss so konfiguriert werden, dass Die Standardauthentifizierung zulässig ist.  Die moderne Authentifizierung verwendet Bearer-Token, die normalerweise im *Header Authorization: Bearer übergeben* werden. Windows PowerShell, auf der Skype for Business PowerShell erstellt wurde, lässt die Manipulation dieser Kopfzeile nicht zu.  Stattdessen verwendet Skype for Business PowerShell den *Header Authorization: Basic,* um das Bearer-Token zu übergeben.
 
-Anweisungen [zum Aktivieren](./download-and-install-windows-powershell-5-1.md) von WinRM für die Standardauthentifizierung Windows PowerShell unter Herunterladen und Installieren von E-Mail..
+Anweisungen zum Aktivieren von WinRM [für die](./download-and-install-windows-powershell-5-1.md) Standardauthentifizierung finden Sie Windows PowerShell herunterladen und installieren sie.
 
 ## <a name="failed-to-connect-to-live-id-server"></a>Fehler beim Herstellen der Verbindung mit dem Live ID-Server
 <a name="BKMKFailedConnect"> </a>
 
 > [!WARNING] 
-> Die Live ID-Authentifizierung wird für den Skype For Business Online Connector nicht mehr unterstützt. Verwenden Sie das Teams PowerShell-Modul, um den Online-Mandanten zu verwalten. Führen Sie beim Verwalten von Hybridumgebungen ein Upgrade auf das neueste kumulative Update durch, oder verwenden Sie die OAuth-Authentifizierung.
+> Die Live ID-Authentifizierung für Skype for Business Online Connector wird nicht mehr unterstützt. Verwenden Sie das Teams PowerShell-Modul, um den Online-Mandanten zu verwalten. Führen Sie beim Verwalten von Hybridumgebungen ein Upgrade auf das neueste kumulative Update durch, oder verwenden Sie die OAuth-Authentifizierung.
 
 Es gibt drei typische Gründe, aus denen beim Verbindungsversuch Fehler auftreten und die folgende Fehlermeldung angezeigt wird:
 
   - **Fehler:** *Get-CsWebTicket : Fehler beim Herstellen einer Verbindung mit Live ID-Servern. Stellen Sie sicher, dass der Proxy aktiviert ist oder der Computer über eine Netzwerkverbindung mit Live-ID-Servern verfügt.*
 
-- **Lösung:** Dieser Fehler bedeutet häufig, dass Microsoft Online Services Anmeldeassistent nicht ausgeführt wird. Sie können den Status dieses Diensts überprüfen, indem Sie an der PowerShell-Eingabeaufforderung den folgenden Befehl ausführen: 
+- **Lösung:** Dieser Fehler bedeutet häufig, dass Microsoft Online Services Nicht ausgeführt wird. Sie können den Status dieses Diensts überprüfen, indem Sie an der PowerShell-Eingabeaufforderung den folgenden Befehl ausführen: 
     ```PowerShell
     Get-Service "msoidsvc"
     ```
@@ -107,7 +100,7 @@ Es gibt drei typische Gründe, aus denen beim Verbindungsversuch Fehler auftrete
     Start-Service "msoidsvc"
     ```
 
-    Wenn der Dienst ausgeführt wird, bestehen möglicherweise Probleme mit der Netzwerkverbindung zwischen Ihrem Computer und dem Microsoft Live ID-Authentifizierungsserver. Überprüfen Sie dies, indem Sie Internet Explorer öffnen und zu [https://login.microsoftonline.com/](https://login.microsoftonline.com/.) navigieren. Versuchen Sie, sich dort Microsoft 365 oder Office 365 zu vermelden. Wenn dabei ein Fehler auftritt, liegen wahrscheinlich Probleme mit der Netzwerkverbindung vor.
+    Wenn der Dienst ausgeführt wird, bestehen möglicherweise Probleme mit der Netzwerkverbindung zwischen Ihrem Computer und dem Microsoft Live ID-Authentifizierungsserver. Überprüfen Sie dies, indem Sie Internet Explorer öffnen und zu [https://login.microsoftonline.com/](https://login.microsoftonline.com/.) navigieren. Versuchen Sie, sich von dort aus bei Microsoft 365 oder Office 365 anmelden. Wenn dabei ein Fehler auftritt, liegen wahrscheinlich Probleme mit der Netzwerkverbindung vor.
   
     Eine weniger häufige Möglichkeit: Der Verbindungs-URI für den Microsoft Live ID-Authentifizierungsserver ist mit einem falschen Wert konfiguriert. Wenn Sie bereits festgestellt haben, dass der Anmeldeassistent ausgeführt wird und dass keine Probleme mit der Netzwerkkonnektivität vorliegen, kann dies die Ursache sein. In diesem Fall wenden Sie sich an den Microsoft-Support.
   
@@ -125,7 +118,7 @@ Als eine der Voraussetzungen für die Verwendung von PowerShell zum Verwalten vo
 
 Wenn Sie versuchen, eine Remoteverbindung mit Skype for Business Online herzustellen, müssen Sie den Benutzernamen und das Kennwort eines gültigen Skype for Business Online-Benutzerkontos angeben. Andern falls nicht, tritt bei der Anmeldung ein Fehler auf, und es wird eine Ähnliche Fehlermeldung wie die hier angezeigte Fehlermeldung angezeigt:
 
-- **Fehler:** Get-CsWebTicket: Fehler bei der Anmeldung für den *Kenmyer@litwareinc.com. Erstellen Sie ein neues PSCredential-Objekt,* und stellen Sie sicher, dass Sie den richtigen Benutzernamen und das richtige Kennwort verwendet haben.
+- **Fehler:** Get-CsWebTicket : Fehler bei der Anmeldung für den *Benutzer kenmyer@litwareinc.com. Erstellen Sie ein neues PSCredential-Objekt,* und stellen Sie sicher, dass Sie den richtigen Benutzernamen und das richtige Kennwort verwendet haben.
 
 - **Lösung:** Wenn Sie glauben, dass Sie ein gültiges Benutzerkonto und das richtige Kennwort verwenden, versuchen Sie erneut, sich zu anmelden. Wenn dies fehlschlägt, verwenden Sie dieselben Anmeldeinformationen, und versuchen Sie, sich bei [https://login.microsoftonline.com/](https://login.microsoftonline.com/) anmelden. Wenn Sie sich dort nicht anmelden können, wenden Sie sich an den Microsoft-Support. 
 
@@ -144,7 +137,7 @@ Sie müssen Mitglied der Gruppe „Mandantenadministratoren" sein, um eine Power
 
 Damit Sie PowerShell mit Skype for Business Online verwalten können, muss die „EnableRemotePowerShellAccess"-Eigenschaft Ihrer PowerShell-Mandantenrichtlinie auf  `True` festgelegt sein. Wenn dies nicht der Fall ist, tritt bei der Verbindung ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
 
-- **Fehler:** New-PSSession : [admin.vdomain.com] Die Verarbeitung von Daten von Remoteserver admin.vdomain.com ist mit der folgenden Fehlermeldung fehlgeschlagen: Die Möglichkeit, mithilfe einer PowerShell-Remotesitzung eine Verbindung mit diesem Mandanten herzustellen, wurde *deaktiviert. Wenden Sie sich an die Lync-Hilfe, um die Powershell-Mandantenrichtlinie dieses Mandanten zu überprüfen. Weitere Informationen finden Sie unter [Remotebehandlung.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
+- **Fehler:** New-PSSession: [admin.vdomain.com] Die Verarbeitung von Daten von Remoteserver admin.vdomain.com ist mit der folgenden Fehlermeldung fehlgeschlagen: Die Möglichkeit, mithilfe einer PowerShell-Remotesitzung eine Verbindung mit diesem Mandanten herzustellen, wurde *deaktiviert. Wenden Sie sich an die Lync-Hilfe, um die Powershell-Mandantenrichtlinie dieses Mandanten zu überprüfen. Weitere Informationen finden Sie unter [Remotebehandlung.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
 
 - **Lösung:** Wenn diese Fehlermeldung angezeigt wird, müssen Sie sich an den Microsoft-Support wenden und den Remote-PowerShell-Zugriff aktivieren lassen.
   
@@ -153,16 +146,16 @@ Damit Sie PowerShell mit Skype for Business Online verwalten können, muss die �
 
 Jeder Administrator darf maximal drei gleichzeitige Remoteverbindungen mit Skype for Business Online herstellen. Wenn drei PowerShell-Remoteverbindungen aktiv sind, tritt beim Versuch, eine vierte gleichzeitige Verbindung herzustellen, ein Fehler auf. Dabei wird die folgende Fehlermeldung angezeigt: 
 
-- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung zum Remoteserver admin.vdomain.com mit der folgenden Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Benutzer wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Benutzer. Weitere Informationen finden Sie unter [Remotebehandlung.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
+- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com ist mit der folgenden Fehlermeldung fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Benutzer wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Benutzer. Weitere Informationen finden Sie unter [Remotebehandlung.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
 
 - **Lösung:** Dieses Problem können Sie nur beheben, wenn Sie mindestens eine der vorherigen Verbindungen schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.
   
 ## <a name="the-maximum-number-of-concurrent-shells-for-this-tenant-in-skype-for-business-online-has-been-exceeded"></a>Die maximale Anzahl von gleichzeitigen Shells für den Mandanten in Skype for Business Online wurde überschritten
 <a name="BKMKMaxNumberShellsTenant"> </a>
 
-Obwohl jeder Administrator bis zu drei gleichzeitige Verbindungen mit einem Skype for Business Online-Mandanten haben darf, ist es nicht zulässig, dass ein einziger Mandant mehr als 20 gleichzeitige Verbindungen hat. So können beispielsweise sechs Administratoren jeweils drei geöffnete Sitzungen haben. Wenn ein vierter Administrator versucht, mehr als zwei Verbindungen herzustellen (wodurch sich insgesamt 21 gleichzeitige Verbindungen ergeben), tritt ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
+Obwohl jeder Administrator bis zu drei gleichzeitige Verbindungen mit einem Skype for Business Online-Mandanten haben darf, ist es nicht zulässig, dass ein mandant mehr als 20 gleichzeitige Verbindungen hat. So können beispielsweise sechs Administratoren jeweils drei geöffnete Sitzungen haben. Wenn ein vierter Administrator versucht, mehr als zwei Verbindungen herzustellen (wodurch sich insgesamt 21 gleichzeitige Verbindungen ergeben), tritt ein Fehler auf, und die folgende Fehlermeldung wird angezeigt:
   
-- **Fehler:** *New-PSSession : [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com mit der folgenden Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Mandanten. Weitere Informationen finden Sie unter [Remotebehandlung.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
+- **Fehler:** New-PSSession: [admin.vdomain.com] Die Verbindung mit dem Remoteserver admin.vdomain.com mit folgender Fehlermeldung ist fehlgeschlagen: Der WS-Management-Dienst kann die Anforderung nicht *verarbeiten. Die maximale Anzahl von gleichzeitigen Shells für diesen Mandanten wurde überschritten. Schließen Sie vorhandene Shells, oder erhöhen Sie das Kontingent für diesen Mandanten. Weitere Informationen finden Sie unter [Remotebehandlung.](/powershell/module/microsoft.powershell.core/about/about_remote_troubleshooting )*
 
 - **Lösung:** Dieses Problem können Sie nur beheben, wenn Sie mindestens eine der vorherigen Verbindungen schließen. Wenn Sie mit einer Skype for Business Online-Sitzung fertig sind, sollten Sie die Sitzung mit dem Cmdlet **Remove-PSSession** beenden. Damit können Sie das Problem vermeiden.  
  

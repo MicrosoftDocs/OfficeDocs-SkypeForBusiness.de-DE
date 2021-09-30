@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f2f7d19b-18c8-4a41-9b17-80d35b73d742
 description: Das Skype for Business Server 2015 Stress and Performance Tool wird bei der Kapazitätsplanung und Leistungsoptimierung in Nicht-Produktions- oder Testumgebungen verwendet.
-ms.openlocfilehash: 381e6178994ce8d4ce2f3558bd075cf6fc3b6d43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0ce2c4f4a608f6ecba980d7f8fe77fbc2863d81d
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611894"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012369"
 ---
 # <a name="skype-for-business-server-2015-stress-and-performance-tool"></a>Skype for Business Server 2015 Stress and Performance Tool
  
@@ -40,35 +40,35 @@ In der Regel verwenden Sie dieses Tool, nachdem Sie das [Skype for Business Serv
   
 ## <a name="tests"></a>Tests
 
-Das Stress and Performance Tool kann diese Arten von Benutzerauslastung simulieren:
+Das Stress and Performance Tool kann diese Arten von Benutzerlast simulieren:
   
-|||
+|&nbsp;|&nbsp;|
 |:-----|:-----|
-|Chat und Anwesenheit  <br/> |Audiokonferenz  <br/> |
-|Anwendungsfreigabe  <br/> |Voice over IP (VoIP), einschließlich PtSN-Simulation (Public Switched Telephone Network)  <br/> |
-|Web Access-Clientkonferenzen  <br/> |Automatische Telefonzentrale für Konferenzen  <br/> |
-|Reaktionsgruppen  <br/> |Erweiterung der Verteilerliste  <br/> |
-|Adressbuchdownload und Adressbuchabfrage  <br/> |Erweiterte 911(E911)-Anrufe und Standortprofil (Wählplan)  <br/> |
-|Multiview  <br/> |Datenzusammenarbeit  <br/> |
-|Mobilität  <br/> ||
+|Chat und Anwesenheit   |Audiokonferenz   |
+|Anwendungsfreigabe   |Voice over IP (VoIP), einschließlich PtSN-Simulation (Public Switched Telephone Network)   |
+|Web Access-Clientkonferenzen   |Automatische Telefonzentrale für Konferenzen   |
+|Reaktionsgruppen   |Erweiterung der Verteilerliste   |
+|Adressbuchdownload und Adressbuchabfrage   |Erweiterte 911(E911)-Anrufe und Standortprofil (Wählplan)   |
+|Multiview   |Datenzusammenarbeit   |
+|Mobilität   ||
    
 ## <a name="applications-and-files-included-with-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Anwendungen und Dateien im Skype for Business Server 2015 Stress and Performance Tool
 
 Diese Anwendungen sind Teil des tools Skype for Business Server Stress and Performance:
   
-|**Tool**|**Beschreibung**|
+|Tool|Beschreibung|
 |:-----|:-----|
-|UserProvisioningTool.exe  <br/> |Dieses Tool wird zum Erstellen von Benutzern und Kontakten verwendet.  <br/> |
-|UserProfileGenerator.exe  <br/> |Wird verwendet, um die Merkmale der Benutzerlast zu konfigurieren, die Sie simulieren.  <br/> |
-|LyncPerfTool.exe  <br/> |Das Tool, das das Laden des Benutzers simuliert.  <br/> |
-|Default.tmx  <br/> |Erforderlich für die Verwendung des Skype for Business Server 2015-Protokollierungstools.  <br/> |
-|Beispiele für Bereitstellungsskripts  <br/> |Wird verwendet, um die Topologie für die Ausführung von Auslastungstests basierend auf bestimmten Szenarien zu konfigurieren. Sie müssen sie wahrscheinlich ändern, um sie für Ihre bestimmte Umgebung relevant zu machen.  <br/> |
+|UserProvisioningTool.exe   |Dieses Tool wird zum Erstellen von Benutzern und Kontakten verwendet.   |
+|UserProfileGenerator.exe   |Wird verwendet, um die Merkmale der Benutzerlast zu konfigurieren, die Sie simulieren.   |
+|LyncPerfTool.exe   |Das Tool, das das Laden des Benutzers simuliert.   |
+|Default.tmx   |Erforderlich für die Verwendung des Skype for Business Server 2015-Protokollierungstools.   |
+|Beispiele für Bereitstellungsskripts   |Wird verwendet, um die Topologie für die Ausführung von Auslastungstests basierend auf bestimmten Szenarien zu konfigurieren. Sie müssen sie wahrscheinlich ändern, um sie für Ihre bestimmte Umgebung relevant zu machen.   |
    
 ## <a name="topics-in-this-section"></a>Themen in diesem Abschnitt
 
 Wenn Sie mehr wissen möchten, sollten Sie die folgenden Artikel lesen:
   
-- [Voraussetzungen und Einrichtung für die Skype für busines Stress and Performance Tool](prerequisites-and-setup.md)
+- [Voraussetzungen und Setup für die Skype für busines Stress and Performance Tool](prerequisites-and-setup.md)
     
 - [Leistungsszenarien für das Skype for Business Server 2015 Stress and Performance Tool](scenarios.md)
     
@@ -78,6 +78,6 @@ Wenn Sie mehr wissen möchten, sollten Sie die folgenden Artikel lesen:
     
 - [Verwenden des Tools Skype for Business Server 2015 Stress and Performance](using-the-tool.md)
     
-- [Häufig gestellte Fragen zum Skype for Business Server 2015 Stress and Performance Tool](faq.md)
+- [Häufig gestellte Fragen zum Stress- und Leistungstool Skype for Business Server 2015](faq.md)
     
 

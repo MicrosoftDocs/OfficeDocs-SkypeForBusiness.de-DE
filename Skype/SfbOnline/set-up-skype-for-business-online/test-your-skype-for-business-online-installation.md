@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Setup
 description: 'Erfahren Sie, wie Sie Zeit sparen, Anrufe unterstützen und die Zufriedenheit erhöhen können, indem Sie Testkonten und Computer einrichten und Einwahlkonferenzen, Onlinefeatures wie Anrufe zwischen zwei Personen, Konferenzen sowie An- und Abmelden testen. '
-ms.openlocfilehash: a022ad3db1890a71016d5ebffeccb0aaf30441ca
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a8efe71507b6270181fb0451f06f10a80c7a578b
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729904"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014569"
 ---
 # <a name="test-your-skype-for-business-online-installation"></a>Testen Ihrer Skype for Business Online-Installation
 
@@ -66,7 +66,7 @@ Auf jedem Testcomputer:
 
 1. Wechseln Sie zur Microsoft 365-Office 365-Startseite, und melden Sie sich mit den Anmeldeinformationen eines Ihrer Testkonten an.
 
-2. Wechseln Sie **zu Einstellungen** Einstellungen: Aktualisieren Ihres Profils, Installieren von Software und Herstellen einer Verbindung mit der ![ ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) **Cloud.** Klicken Sie dann auf Software installieren, und stellen Sie eine Verbindung mit der Cloud herzustellen .
+2. Wechseln Sie **zu Einstellungen** Einstellungen: Aktualisieren Ihres Profils, Installieren von Software und Herstellen einer Verbindung mit der Cloud. Klicken Sie dann auf Software ![ installieren, und stellen Sie eine Verbindung mit der ](../images/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) Cloud herzustellen **.**
 
 ## <a name="set-up-audio-conferencing"></a>Einrichten von Audiokonferenzen
 <a name="__toc328126912"> </a>
@@ -107,7 +107,7 @@ Vergewissern Sie sich, dass die wichtigsten Funktionen von Skype for Business On
 |[An- und Abmelden bei Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Der Skype for Business-Anmeldebildschirm wird angezeigt.  <br/> |
 |[An- und Abmelden bei Lync Online](https://support.office.com/article/1f0fb5f3-102e-4397-a5c4-f878cc0009d6) <br/> |Das Skype for Business-Fenster wird geschlossen und das Skype for Business-Symbol wird nicht mehr im Windows-Benachrichtigungsbereich angezeigt.  <br/> |
 
-Sie können sich nicht anmelden? Weitere Informationen finden Sie unter [Behebung von Anmeldungsproblemen in Skype for Business Online](https://support.microsoft.com/kb/2541980).
+Sie können sich nicht anmelden? Siehe [Problembehandlung Skype for Business Anmeldung für Benutzer.](/skypeforbusiness/troubleshoot/online-sign-in/troubleshoot-sign-in-issues-for-users)
 
  **Kontakte, Anwesenheitsstatus und Chatunterhaltungen**
 

@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zu einfachen URLs in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.'
-ms.openlocfilehash: a36805566b7bdb9f95ef14b572a8efdccdeb916b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622137"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011719"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS-Anforderungen für einfache URLs in Skype for Business Server
 
 **Zusammenfassung:** Lesen Sie die Überlegungen zu einfachen URLs in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.
 
-Einfache URLs erleichtern Ihren Benutzern die Teilnahme an Besprechungen und den Zugriff auf Skype for Business Server Verwaltungstools für Administratoren. Einfache URLs verwenden eine eigene Domäne, die keiner der von Ihnen definierten SIP-Domänen entsprechen darf. 
+Einfache URLs vereinfachen die Teilnahme an Besprechungen für Ihre Benutzer und den Zugriff auf Skype for Business Server-Verwaltungstools für Administratoren. Einfache URLs verwenden eine eigene Domäne, die keiner der von Ihnen definierten SIP-Domänen entsprechen darf. 
 
 Skype for Business Server unterstützt die folgenden drei einfachen URLs: Besprechung, Einwahl und Administrator. Sie müssen einfache URLs für Besprechungen und Einwahl einrichten, und die einfache ADMINISTRATOR-URL ist optional. Die zur Unterstützung einfacher URLs erforderlichen DNS-Einträge (Domain Name System) richten sich danach, wie Sie die einfachen URLs definiert haben und ob Sie die Notfallwiederherstellung für einfache URLs unterstützen möchten. 
 
@@ -42,14 +42,14 @@ Das Definieren einer einfachen URL erfordert auch das Festlegen eines A- und/ode
 
 Der Topologie-Generator und die Cmdlets der Skype for Business Server-Verwaltungsshell erzwingen mehrere Überprüfungsregeln für Ihre einfachen URLs. Sie müssen einfache URLs für Besprechungen und Einwahl angeben, die Festlegung einer einfachen Admin-URL ist jedoch optional. Jede SIP-Domäne muss über eine separate einfache URL für Besprechungen (Meet) verfügen, Sie benötigen jedoch nur eine einfache URL für die Einwahl (Dialin) und eine einfache Admin-URL für die gesamte Organisation.
 
-Jede einfache URL in Ihrer Organisation muss einen eindeutigen Namen haben und darf kein Präfix einer anderen einfachen URL sein (Sie konnten z. B. SfB2015.contoso.com/Meet nicht als einfache Besprechungs-URL und SfB2015.contoso.com/Meet/Dialin als einfache URL für das Dialin festlegen). Namen einfacher URLs dürfen nicht den FQDN Eines Ihrer Pools oder Portinformationen enthalten (z. B. https://FQDN:88/meet ist dies nicht zulässig). Alle einfachen URLs müssen mit dem Präfix "https://" beginnen. 
+Jede einfache URL in Ihrer Organisation muss einen eindeutigen Namen haben und darf kein Präfix einer anderen einfachen URL sein (Sie konnten z. B. nicht `SfB2015.contoso.com/Meet` als einfache Besprechungs-URL und `SfB2015.contoso.com/Meet/Dialin` als einfache Dialin-URL festlegen). Namen einfacher URLs dürfen nicht den FQDN Eines Ihrer Pools oder Portinformationen enthalten (z. B. https://FQDN:88/meet ist dies nicht zulässig). Alle einfachen URLs müssen mit dem Präfix "https://" beginnen. 
 
 Einfache URLs können ausschließlich alphanumerische Zeichen enthalten – a-z, A-Z, 0-9 und Punkt (.). Wenn Sie andere Zeichen verwenden, funktioniert die einfache URL möglicherweise nicht wie erwartet.
 
 ## <a name="changing-simple-urls-after-deployment"></a>Ändern einfacher URLs nach der Bereitstellung
 <a name="BK_Valid"> </a>
 
-Wenn Sie eine einfache URL nach der anfänglichen Bereitstellung ändern, müssen Sie sich der Auswirkungen auf DNS-Einträge und Zertifikate für einfache URLs bewusst sein. Wenn die Änderung sich auf die Basis einer einfachen URL auswirkt, müssen Sie auch die DNS-Einträge und Zertifikate ändern. Wenn Sie beispielsweise https://SfB2015.contoso.com/Meet https://meet.contoso.com die Basis-URL von SfB2015.contoso.com zu meet.contoso.com ändern, müssen Sie die DNS-Einträge und -Zertifikate so ändern, dass sie auf meet.contoso.com verweisen. Wenn Sie die einfache URL von in geändert https://SfB2015.contoso.com/Meet https://SfB2015.contoso.com/Meetings haben, bleibt die Basis-URL von SfB2015.contoso.com unverändert, sodass keine DNS- oder Zertifikatsänderungen erforderlich sind.
+Wenn Sie eine einfache URL nach der anfänglichen Bereitstellung ändern, müssen Sie sich der Auswirkungen auf DNS-Einträge und Zertifikate für einfache URLs bewusst sein. Wenn die Änderung sich auf die Basis einer einfachen URL auswirkt, müssen Sie auch die DNS-Einträge und Zertifikate ändern. Wenn Sie beispielsweise die `https://SfB2015.contoso.com/Meet` `https://meet.contoso.com` Basis-URL von in `SfB2015.contoso.com` `meet.contoso.com` ändern, müssen Sie die DNS-Einträge und -Zertifikate so ändern, dass sie auf `meet.contoso.com` . Wenn Sie die einfache URL von in geändert `https://SfB2015.contoso.com/Meet` `https://SfB2015.contoso.com/Meetings` haben, bleibt die Basis-URL `SfB2015.contoso.com` unverändert, sodass keine DNS- oder Zertifikatänderungen erforderlich sind.
 
 Wenn Sie jedoch einen einfachen URL-Namen ändern, müssen Sie **Enable-CsComputer** auf jedem Director und Front-End-Server ausführen, um die Änderung zu registrieren.
 
@@ -69,20 +69,20 @@ Wenn Sie sich für diese Option entscheiden, benötigen Sie einen separaten DNS-
 
 | **Einfache URL** <br/> | **Beispiel** <br/>                                                                                                    |
 |:---------------------|:---------------------------------------------------------------------------------------------------------------------|
-| Treffen  <br/>          | https://meet.contoso.comhttps://meet.fabrikam.comusw. (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
-| Einwahl  <br/>       | <https://dialin.contoso.com>  <br/>                                                                                  |
-| Admin  <br/>         | <https://admin.contoso.com>  <br/>                                                                                   |
+| Treffen  <br/>          | `https://meet.contoso.com``https://meet.fabrikam.com`usw. (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
+| Einwahl  <br/>       | `<https://dialin.contoso.com>`  <br/>                                                                                  |
+| Administrator  <br/>         | `<https://admin.contoso.com>`  <br/>                                                                                   |
 
-Bei Option 2 basieren einfache URLs auf dem Domänennamen SfB2015.contoso.com. Daher benötigen Sie nur einen DNS-A-Eintrag, der alle drei Arten von einfachen URLs unterstützt. Dieser DNS A-Eintrag verweist auf SfB2015.contoso.com. Zusätzlich benötigen Sie weiterhin separate DNS-A-Einträge für weitere SIP-Domänen in Ihrer Organisation. 
+Bei Option 2 basieren einfache URLs auf dem `SfB2015.contoso.com` Domänennamen. Daher benötigen Sie nur einen DNS-A-Eintrag, der alle drei Arten von einfachen URLs unterstützt. Dieser DNS A-Eintrag verweist auf `SfB2015.contoso.com` . Zusätzlich benötigen Sie weiterhin separate DNS-A-Einträge für weitere SIP-Domänen in Ihrer Organisation. 
 
 **Benennung einfacher URLs – Option 2**
 
 
 | **Einfache URL** <br/> | **Beispiel** <br/>                                                                                                                    |
 |:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------|
-| Treffen  <br/>          | https://SfB2015.contoso.com/Meethttps://SfB2015.fabrikam.com/Meetusw. (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
-| Einwahl  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                                          |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                                           |
+| Treffen  <br/>          | `https://SfB2015.contoso.com/Meet``https://SfB2015.fabrikam.com/Meet`usw. (eine für jede SIP-Domäne in Ihrer Organisation)  <br/> |
+| Einwahl  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                                          |
+| Administrator  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                                           |
 
 Option 3 ist sinnvoll, wenn Sie über zahlreiche SIP-Domänen verfügen und diesen separate einfache URLs für Besprechungen (Meet) zuweisen, jedoch die Anzahl von DNS-Einträgen und die Zertifikatanforderungen für diese einfachen URLs minimieren möchten. 
 
@@ -91,9 +91,9 @@ Option 3 ist sinnvoll, wenn Sie über zahlreiche SIP-Domänen verfügen und die
 
 | **Einfache URL** <br/> | **Beispiel** <br/>                                                                                                      |
 |:---------------------|:-----------------------------------------------------------------------------------------------------------------------|
-| Treffen  <br/>          | <https://SfB2015.contoso.com/contosoSIPdomain/Meet>  <br/> <https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>  <br/> |
-| Einwahl  <br/>       | <https://SfB2015.contoso.com/Dialin>  <br/>                                                                            |
-| Admin  <br/>         | <https://SfB2015.contoso.com/Admin>  <br/>                                                                             |
+| Treffen  <br/>          | `<https://SfB2015.contoso.com/contosoSIPdomain/Meet>`  <br/> `<https://SfB2015.contoso.com/fabrikamSIPdomain/Meet>`  <br/> |
+| Einwahl  <br/>       | `<https://SfB2015.contoso.com/Dialin>`  <br/>                                                                            |
+| Administrator  <br/>         | `<https://SfB2015.contoso.com/Admin>`  <br/>                                                                             |
 
 ## <a name="disaster-recovery-option-for-simple-urls"></a>Notfallwiederherstellungsoption für einfache URLs
 <a name="BK_Valid"> </a>
@@ -114,7 +114,7 @@ Meet-ext.geolb.contoso.com
      Pool2ExternalWebFQDN.contoso.com
 ```
 
-Erstellen Sie dann CNAME-Einträge, die Ihre einfache Meet-URL (z. B. meet.contoso.com) in die beiden GeoDNS-Adressen auflösen.
+Erstellen Sie dann CNAME-Einträge, die Ihre einfache Meet-URL (z. `meet.contoso.com` B. ) in die beiden GeoDNS-Adressen auflösen.
 
 > [!NOTE]
 > Wenn in Ihrem Netzwerk das so genannte Hairpinning eingesetzt wird (der gesamte Datenverkehr der einfachen URL wird über den externen Link geleitet, einschließlich des Datenverkehrs aus der Organisation), können Sie einfach nur die externe GeoDNS-Adresse konfigurieren und Ihre einfache Meet-URL nur in diese externe Adresse auflösen.

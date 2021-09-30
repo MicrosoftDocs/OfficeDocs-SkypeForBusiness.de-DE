@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Überwachungsberichte einer spiegeldatenbank zuordnen, die von Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 723d01f732259098c714eaac330eeaf8c686acac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ecdf630f6839fa65bf163715e473a3a37cdbcece
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600660"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014399"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Zuordnen von Überwachungsberichten zu einer Spiegeldatenbank in Skype for Business Server 
  
@@ -33,15 +33,15 @@ Um Überwachungsberichte zum automatischen Failover auf die Spiegeldatenbank zu 
     
    - Das **Präfix "http:".**
     
-   - Der vollqualifizierte Domänenname (FQDN) des Computers, auf dem die Reporting Services installiert sind (z. **B. atl-sql-001.litwareinc.com).**
+   - Der vollqualifizierte Domänenname (FQDN) des Computers, auf dem die Reporting Services installiert sind (z. B. `atl-sql-001.litwareinc.com` ).
     
    - Die Zeichenfolge **/Reports_**.
     
    - Der Name der Datenbankinstanz, in der die Überwachungsberichte installiert sind (z. B. **"archinst").**
     
-     Wenn z. B. SQL Server Reporting Services auf dem Computer atl-sql-001.litwareinc.com installiert wurde und die Überwachungsberichte die Datenbankinstanz "archinst" verwenden, würde die URL der Startseite wie folgt aussehen:
+     Wenn beispielsweise SQL Server Reporting Services auf dem Computer installiert wurde `atl-sql-001.litwareinc.com` und die Überwachungsberichte die Datenbankinstanz "archinst" verwenden, würde die URL der Startseite wie folgt aussehen:
     
-     **http://atl-sql-001.litwareinc.com/Reports_archinst**
+     `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
 2. Nachdem Sie auf die Reporting Services-Startseite zugegriffen haben, klicken Sie auf **"ServerReports"** und dann auf **Reports_Content**. Dadurch gelangen Sie zur **Reports_Content** Seite für die Skype for Business Server Überwachungsberichte.
     
@@ -61,13 +61,13 @@ Um Überwachungsberichte zum automatischen Failover auf die Spiegeldatenbank zu 
     
 6. Klicken Sie nach dem Aktualisieren der Verbindungszeichenfolge auf **"Übernehmen".**
     
-7. Klicken Sie auf der **CDRDB-Seite** auf den Link **Reports_Content.** Klicken Sie auf die **QMSDB-Datenquelle,** und bearbeiten Sie dann die Verbindungszeichenfolge für die QoE-Datenbank. Zum Beispiel:
+7. Klicken Sie auf der **CDRDB-Seite** auf den Link **Reports_Content.** Klicken Sie auf die **QMSDB-Datenquelle,** und bearbeiten Sie dann die Verbindungszeichenfolge für die QoE-Datenbank. Zum Beispiel: 
     
-    Data source=(local)\archinst; Failover partner=atl-mirror-001\archinst;initial catalog=QoEMetrics
+    `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     
 8. Klicken Sie auf **Anwenden**.
     
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Installieren von Überwachungsberichten in Skype for Business Server](install-monitoring-reports.md)
   

@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: 'Erfahren Sie, wie Sie neue Nummern erhalten, Nummern portieren oder vorhandene Nummern Teams und wie Sie ihren Benutzern die Änderungen anzeigen. '
-ms.openlocfilehash: 368a9d2c699fa631ff98b343d6c2f9562efc62e1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Erfahren Sie, wie Sie neue Nummern für Ihr Konto Teams Portieren, Portieren oder Übertragen vorhandener Nummern erhalten und die Änderungen Ihren Benutzern anzeigen.
+ms.openlocfilehash: 09b42acef400f28760c50cd8a570f5c1cb1e3392
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729624"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012109"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -34,31 +34,36 @@ Bevor Sie Benutzer in Ihrer Organisation für das Tätigen und Erhalten von Tele
   
 Es gibt drei Möglichkeiten, Benutzernummern zu erhalten:
 
-- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Nummern für Ihre Benutzer über das Admin Center Microsoft Teams erhalten. Weitere [Informationen finden Sie unter Neue Telefonnummern für Ihre Benutzer erhalten.](#get-new-phone-numbers-for-your-users)
+- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Nummern für Ihre Benutzer über das Microsoft Teams Admin Center erhalten. Weitere [Informationen finden Sie unter Neue Telefonnummern für Ihre Benutzer erhalten.](#get-new-phone-numbers-for-your-users)
 
 - **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber portieren oder übertragen. Über [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal können Sie (je nach Land oder Region) Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center erhalten, oder Sie benötigen bestimmte Telefonnummern oder Vorwahlnummern. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, wenden Sie sich an [Supportkontakt für Business-Produkte – Administratorhilfe](https://docs.microsoft.com/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
+> Wenn Sie Hilfe beim Einrichten von Telefonnummern für Ihre Organisation benötigen, wenden Sie sich an [Supportkontakt für Business-Produkte – Administratorhilfe](/microsoft-365/admin/contact-support-for-business-products?view=o365-worldwide&tabs=online).
   
 ## <a name="get-new-phone-numbers-for-your-users"></a>Erhalten von neuen Telefonnummern für Ihre Benutzer
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
 1. Wechseln Sie zum Microsoft Teams Admin Center.
-2. Navigieren Sie in der linken **Navigationsleiste** zu Telefon  >  **Sprachanrufnummern**, und klicken Sie dann auf **Hinzufügen**.
+
+2. Wechseln Sie im linken Navigationsbereich **zu**  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
+
 3. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
+
 4. Gehen Sie auf der Seite Standort und Menge wie folgt vor:
     1. Wählen **Sie unter Land oder Region** ein Land oder eine Region aus.
     2. Wählen **Sie unter Zahlentyp** die **Option Benutzer (Abonnent) aus.**
     3. Wählen **Sie unter** Ort einen Speicherort aus. Wenn Sie einen neuen Speicherort erstellen müssen, klicken Sie **auf Speicherort hinzufügen**.
     4. Wählen **Sie unter Vorwahl** eine Vorwahl aus.
     5. Geben **Sie** unter Menge die Anzahl der Nummern ein, die Sie für Ihre Organisation verwenden möchten, und klicken Sie dann **auf** Weiter, um Ihre Nummern auszuwählen.
+
 5. Wählen Sie die Zahlen aus, die Sie wünschen. Sie haben 10 Minuten Zeit, um Ihre Telefonnummern auszuwählen und Ihre Bestellung auf bestellung zu geben. Wenn Sie länger als 10 Minuten zeit haben, werden die Telefonnummern an den Telefonnummernpool zurückgegeben.
+
 6. Wenn Sie bereit sind, Ihre Bestellung zu bestellen, klicken Sie **auf Bestellung bestellen**.
 
     > [!IMPORTANT]
@@ -72,7 +77,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
 
 Navigieren Sie in der linken Navigationsleiste des Admin Centers zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation, einschließlich Standort, Zahlentyp und  >   Statusinformationen, anzeigen.
   

@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Senden Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in Skype for Business Online.
-ms.openlocfilehash: 428ff78fe501200ef9607a03d76c034007517cf0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8576417588571fcc76461a635f00cb3095410b86
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727674"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012349"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-skype-for-business-online"></a>Senden einer E-Mail mit den Audiokonferenzinformationen in Skype for Business Online
 
@@ -59,7 +59,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
 
 1. Melden Sie sich mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Wechseln Sie zum Admin Center, > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing (Audiokonferenz).**
+2. Wechseln Sie zum Admin Center > **Skype for Business**, und klicken Sie in der linken Navigationsleiste auf **Audio conferencing (Audiokonferenz).**
     
 3. Klicken **Sie auf** Benutzer , und wählen Sie den Benutzer aus.
     
@@ -84,7 +84,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
     
   - Wenn sich der Audiokonferenzanbieter für einen Benutzer in Microsoft ändert.
     
-- Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365, aber Sie können die E-Mail-Adresse und den Anzeigenamen mithilfe von Windows PowerShell und dem [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) ändern. Um Änderungen an der E-Mail-Adresse vorzunehmen, an der die E-Mail an die Benutzer gesendet wird, müssen Sie:
+- Standardmäßig stammt der Absender der E-Mails aus Microsoft 365 oder Office 365. Sie können die E-Mail-Adresse und den Anzeigenamen jedoch mit Windows PowerShell und dem [Cmdlet Set-CsOnlineDialInConferencingTenantSettings](/powershell/module/skype/Set-CsOnlineDialInConferencingTenantSettings) ändern. Um Änderungen an der E-Mail-Adresse vorzunehmen, an der die E-Mail an die Benutzer gesendet wird, müssen Sie:
     
   - Geben Sie die E-Mail-Adresse in den Parameter SendEmailFromAddress ein.
     
@@ -122,7 +122,7 @@ Hier ist ein Beispiel für die gesendete E-Mail:
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
+    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter Herunterladen und Installieren des Teams [PowerShell-Moduls heruntergeladen werden.](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 

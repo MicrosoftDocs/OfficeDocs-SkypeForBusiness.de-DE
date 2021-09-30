@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Zusammenfassung: Erfahren Sie, wie Sie KDS-Daten (Call Detail Recording, Aufzeichnung von Kommunikationsdatensätzen) für Skype for Business Server verwalten.'
-ms.openlocfilehash: d79745de9e0194d52bfe3330e516b906fedf464c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8588447d7e12123c0d10ae15b07a7727d94c0f27
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593719"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013759"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Angeben der Aufbewahrung von KDS-Daten in Skype for Business Server
  
@@ -50,7 +50,7 @@ Verwenden Sie die folgenden Verfahren, um Bereinigungseinstellungen für KDS-Dat
     
 ## <a name="specifying-cdr-retention-by-using-windows-powershell-cmdlets"></a>Angeben der KDS-Aufbewahrung mithilfe Windows PowerShell Cmdlets
 
-Sie können KDS-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und dem Cmdlet Set-CsCdrConfiguration erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) Der Vorgang ist in Skype for Business Server identisch.
+Sie können KDS-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und dem Cmdlet Set-CsCdrConfiguration erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-specify-cdr-retention-for-a-specific-location"></a>So geben Sie die die Beibehaltungsdauer für KDS-Daten für einen bestimmten Standort an
 
@@ -70,6 +70,6 @@ Sie können KDS-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und d
 
 Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsCdrConfiguration".](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server](call-detail-recording-cdr.md)

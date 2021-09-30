@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lesen Sie dieses Thema, um mehr über die Hardware-, Software- und Infrastrukturanforderungen für die Ausführung von Skype for Business auf einem Mac zu erfahren.
-ms.openlocfilehash: dd7dc17c4166838a76b11d9905335575205f4b2b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604774"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014469"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business für Mac-Clientanforderungen
  
@@ -31,14 +31,14 @@ Die [Skype for Business auf dem Mac-Client](https://products.office.com/skype-fo
   
 ## <a name="hardware-and-software-requirements-for-skype-for-business-on-mac"></a>Hardware- und Softwareanforderungen für Skype for Business auf dem Mac
 
-Die Skype for Business auf dem Mac-Client erfordert Mac OS X El Macintoshn und höher und verwendet mindestens 100 MB Speicherplatz. Wir unterstützen die Verwendung aller integrierten Audio- und Videogeräte. Externe Geräte müssen sich im [Skype for Business Lösungskatalog befinden.](https://partnersolutions.skypeforbusiness.com/solutionscatalog) 
+Die Skype for Business auf dem Mac-Client erfordert Mac OS X El Macintoshn und höher und verwendet mindestens 100 MB Speicherplatz. Wir unterstützen die Verwendung aller integrierten Audio- und Videogeräte. Externe Geräte müssen auf [Microsoft Teams Geräten](https://www.microsoft.com/microsoft-teams/across-devices/devices)aufgeführt werden. 
   
 > [!NOTE]
 > Diese Liste ist vorläufig, und einige Geräte sind möglicherweise für Lync qualifiziert, werden jedoch auf Skype for Business auf dem Mac nicht unterstützt. Lesen Sie die [Systemanforderungen](https://products.office.com/office-system-requirements) für die erforderliche Mindesthardware.
   
 ### <a name="legacy-mac-clients"></a>Legacy-Mac-Clients
 
-Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf Computern mit Mac OS 10.5.8 oder neuesten Service Pack- oder Release-Betriebssystemen (Intel-basiert) (Mac OS 10.9 wird derzeit nicht unterstützt). Ausführliche Informationen zu unterstützten Features finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md)
+Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf Computern mit Mac OS 10.5.8 oder neuesten Service Pack- oder Release-Betriebssystemen (Intel-basiert) (Mac OS 10.9-Betriebssystem wird derzeit nicht unterstützt). Ausführliche Informationen zu unterstützten Features finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md)
   
 - Microsoft Lync für Mac 2011 (siehe [Bereitstellungshandbuch für Lync für Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     

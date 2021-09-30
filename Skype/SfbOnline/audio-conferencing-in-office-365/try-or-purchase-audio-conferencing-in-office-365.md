@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Informieren Sie sich über das Testen oder erwerben von Lizenzen für Audiokonferenz (PSTN-Konferenz) für Office 365 zum Einrichten von Telefonkonferenzen, in die Personen sich einwählen können. '
-ms.openlocfilehash: 80b3dafce07298d2ca84cec94aa0c8a54020d9d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8830457873ee5555e503e88a27151d15233e217
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597429"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012339"
 ---
 # <a name="try-or-purchase-audio-conferencing-in-microsoft-365-or-office-365-for-skype-for-business-online"></a>Testen oder kaufen Sie Audiokonferenzen in Microsoft 365 oder Office 365 für Skype for Business Online
 
@@ -40,7 +40,7 @@ In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Tele
 
 Sie müssen Audiokonferenzen nur für Personen einrichten, die Besprechungen planen oder führen möchten. Meeting-Teilnehmer, die sich in das Meeting einwählen, benötigen keinerlei zugewiesene Lizenzen und auch ein anderes Setup ist nicht erforderlich.
 
-Infos über die Preisgestaltung finden Sie unter [Preise für Audiokonferenz](https://products.office.com/skype-for-business/audio-conferencing#Requirements).
+Preisinformationen finden Sie [unter Audiokonferenz.](https://www.microsoft.com/microsoft-teams/audio-conferencing)
 
 ## <a name="step-1-buy-and-assign-audio-conferencing-licenses"></a>Schritt 1: Kaufen und Zuweisen von Lizenzen für Audiokonferenzen
 
@@ -56,7 +56,7 @@ Sie müssen ein Administrator sein, um diese Schritte ausführen zu können. Wei
 
    - **Zum Kaufen** finden Sie unter [Add-On-Lizenzierung für Skype for Business und Microsoft Teams](../skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing.md).
 
-3. [Weisen Sie Lizenzen für Microsoft 365 Apps for Business](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) die Sie erworben haben, den Personen in Ihrer Organisation zu, die Besprechungen planen oder führen werden.
+3. [Weisen Sie Lizenzen für Microsoft 365 Apps for Business,](https://support.office.com/article//997596b5-4173-4627-b915-36abac6786dc) die Sie erworben haben, den Personen in Ihrer Organisation zu, die Besprechungen planen oder führen werden.
 
 4. Wenn Sie Add-On Lizenzen und Gesprächseinheiten für Audiokonferenz erworben haben, weisen Sie diese ebenfalls zu. Anweisungen finden Sie unter [Zuweisen Skype for Business und Microsoft Teams Lizenzen.](../skype-for-business-and-microsoft-teams-add-on-licensing/assign-skype-for-business-and-microsoft-teams-licenses.md)
 
@@ -73,7 +73,7 @@ Wenn Sie ein Volumen- und Lizenzierungskunde sind, können Sie Pay-per-Minute Li
     > [!IMPORTANT]
     > Wenn Guthaben für Kommunikationen noch nicht eingerichtet wurden, wird die Audiokonferenz für Benutzer mit Lizenzen mit Minutenabrechnung nicht funktionieren. Außerdem müssen Sie, wenn Sie über Lizenzen für Audiokonferenzen mit Minutenlizenzen verfügen, nicht jedem Benutzer separat Lizenzen für Guthaben für Kommunikationen speziell für die Nutzung von Audiokonferenzen zuweisen, sie müssen sie aber möglicherweise noch für einen anderen Dienst zuweisen.
 
-4. [Weisen Sie Lizenzen für Microsoft 365 Apps for Business](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) die Sie erworben haben, den Personen in Ihrer Organisation zu, die Besprechungen planen oder führen werden.
+4. [Weisen Sie Lizenzen für Microsoft 365 Apps for Business,](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc) die Sie erworben haben, den Personen in Ihrer Organisation zu, die Besprechungen planen oder führen werden.
 
 
 ## <a name="step-2-set-the-audio-conferencing-provider-for-people-who-lead-or-schedule-meetings"></a>Schritt 2: Festlegen des Providers von Audiokonferenz für Personen, die Meetings führen oder planen
@@ -94,7 +94,7 @@ Die folgenden Schritte sind **optional**, aber viele Administratoren führen die
 
 
 > [!NOTE]
-> Dieses Feature ist für Kunden, die ein von 21Vianet Microsoft 365 oder von 21Vianet in China Office 365-Feature verwenden, noch nicht verfügbar. Weitere Informationen finden Sie unter [Informationen zu Microsoft 365 oder Office 365 von 21Vianet.](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
+> Dieses Feature ist für Kunden, die ein von 21Vianet Microsoft 365 oder Office 365 in China betriebenes Konto verwenden, noch nicht verfügbar. Weitere Informationen finden Sie unter [Informationen zu Microsoft 365 oder Office 365 von 21Vianet.](https://support.office.com/article/A8AB5061-3346-4DA0-BB7C-5260822B53AE)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

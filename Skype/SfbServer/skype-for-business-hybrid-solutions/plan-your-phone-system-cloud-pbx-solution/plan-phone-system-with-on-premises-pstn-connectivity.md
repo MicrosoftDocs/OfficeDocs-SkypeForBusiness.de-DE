@@ -20,23 +20,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 021a4c0b-d5de-4155-a506-650d758624aa
 description: Erfahren Sie mehr über die Planungsüberlegungen für Telefonsystem (Cloud PBX) mit lokaler FESTNETZ-Anbindung.
-ms.openlocfilehash: 9715a04eaa4955ca1ccb4d9bef56b3502039c225
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 074afcd05b62501784d5c37d10d698f6c29bdd78
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601260"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014309"
 ---
 # <a name="plan-phone-system-with-on-premises-pstn-connectivity-in-skype-for-business-server"></a>Planen eines Telefonsystems mit lokaler Festnetzanbindung in Skype for Business Server
 
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
+> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
 
 Erfahren Sie mehr über die Planungsüberlegungen für Telefonsystem (Cloud PBX) mit lokaler FESTNETZ-Anbindung.
 
-Dieser Inhalt ist relevant, wenn Sie bereits Skype for Business Server oder lync Server 2013 lokal bereitgestellt haben. Weitere Szenarien finden Sie unter [Microsoft-Telefonielösungen.](/microsoftteams/cloud-voice-landing-page)
+Dieser Inhalt ist relevant, wenn Sie bereits Skype for Business Server oder Lync Server 2013 lokal bereitgestellt haben. Weitere Szenarien finden Sie unter [Microsoft-Telefonielösungen.](/microsoftteams/cloud-voice-landing-page)
 
- Telefonsystem mit lokaler FESTNETZ-Anbindung können Sie Telefonsystem (Cloud PBX)-Funktionen für Ihre Benutzer nutzen. Dies kann bei den folgenden Szenarien hilfreich sein:
+ Telefonsystem mit lokaler PSTN-Anbindung können Sie Telefonsystem (Cloud PBX)-Funktionen für Ihre Benutzer nutzen. Dies kann bei den folgenden Szenarien hilfreich sein:
 
 - Einige Ihrer Skype for Business Benutzer werden lokal verwaltet, andere in Skype for Business Online. Sie können jetzt Telefonsystem Funktionen und Features für Ihre Benutzer aktivieren, die in Skype for Business Online verwaltet werden, aber weiterhin lokale PSTN-Konnektivität verwenden.
 
@@ -45,20 +45,20 @@ Dieser Inhalt ist relevant, wenn Sie bereits Skype for Business Server oder lync
     > [!IMPORTANT]
     > Um Benutzer erfolgreich für Telefonsystem mit lokaler PSTN-Konnektivität zu aktivieren, muss sich ihre SIP-Adresse in Ihrer eigenen Domäne befinden. Die Verwendung der Standarddomäne für Microsoft 365 oder Office 365( onmicrosoft.com) wird nicht unterstützt. 
 
-Weitere Informationen zu Telefonsystem, einschließlich Lizenzierung und Plänen, finden Sie unter [PSTN-Anrufpläne für Skype for Business.](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918)
+Weitere Informationen zu Telefonsystem, einschließlich Lizenzierung und Plänen, finden Sie unter [PSTN-Anrufpläne für Skype for Business](https://support.office.com/article/PSTN-Calling-plans-for-Skype-for-Business-f47c6a97-bc8b-42e6-b5d4-ce6b41ed1918).
 
 ## <a name="feature-comparison"></a>Featurevergleich
 
-Cloud PBX mit lokaler PSTN-Konnektivität bietet nicht das gleiche Feature wie eine vollständig lokale Enterprise-VoIP Lösung. Wenn Sie entscheiden möchten, ob Cloud PBX mit lokaler PSTN-Konnektivität den richtigen Featuresatz für Ihre Organisation bereitstellt, lesen [Sie Folgendes, was Sie mit Cloud PBX erhalten.](/microsoftteams/here-s-what-you-get-with-phone-system?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2ftoc.json)
+Cloud PBX mit lokaler PSTN-Konnektivität bietet nicht den gleichen Featuresatz wie eine vollständig lokale Enterprise-VoIP Lösung. Wenn Sie entscheiden möchten, ob Cloud PBX mit lokaler PSTN-Konnektivität den richtigen Featuresatz für Ihre Organisation bereitstellt, lesen [Sie Folgendes, was Sie mit Cloud PBX erhalten.](/microsoftteams/here-s-what-you-get-with-phone-system?bc=%2fskypeforbusiness%2fbreadcrumb%2ftoc.json&toc=%2fskypeforbusiness%2ftoc.json)
 
 ## <a name="benefits-and-planning-considerations"></a>Vorteile und Planungsüberlegungen
 
 > [!CAUTION]
 > Lync Telefon Edition-Geräte MÜSSEN vor dem Wechsel zu Skype for Business Online auf die mindestens erforderliche Firmware in Ihrer lokalen Umgebung aktualisiert werden.
 Wenn Sie Ihre Benutzer vor dem Aktualisieren der Firmware von der lokalen in die Onlineumgebung verschieben, können Benutzer keine Verbindung mit ihren Telefonen herstellen. Um dieses Problem zu beheben, müssen Benutzer zurück in die lokale Umgebung verschoben werden, damit ihre Telefone auf die mindeste Firmware aktualisiert werden. VERSUCHEN SIE NICHT, AUF DIE MINDESTFIRMWARE ZU AKTUALISIEREN ODER DAS TELEFON ENDGÜLTIG ZURÜCKZUSETZEN, BEVOR SIE DEN BENUTZER ZURÜCK ZU IHRER LOKALEN UMGEBUNG VERSCHIEBEN.
-Wenn eine hard reset durchgeführt wird, während das Gerät nicht mindestens Firmware ist, wird standardmäßig die PIN-Authentifizierung verwendet, die in Skype for Business Online nicht unterstützt wird. Weitere Informationen finden Sie unter [Abrufen von Telefonen für Skype for Business Online.](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)
+Wenn ein hard reset durchgeführt wird, während das Gerät nicht mindestens Firmware ist, verwendet es standardmäßig die PIN-Authentifizierung, die in Skype for Business Online nicht unterstützt wird. Weitere Informationen finden Sie unter ["Abrufen von Telefonen für Skype for Business Online".](https://support.office.com/article/Getting-phones-for-Skype-for-Business-Online-91f2d947-45fc-4fab-bd8b-2e313531c477?ui=en-US&amp;rs=en-US&amp;ad=US)
 
-Durch die Bereitstellung von Telefonsystem mit lokaler PSTN-Anbindung können Sie Ihre Benutzer über Skype for Business Online in Ihrem eigenen Tempo in die Cloud verschieben und gleichzeitig ihre lokale FESTNETZ-Anbindung beibehalten. Wenn Sie über eine Nebenstellenanlage verfügen, verwenden Sie diese weiterhin, um PSTN-Konnektivität für die Benutzer bereitzustellen, die Sie in die Cloud verschieben. Sobald ein Benutzer zu Skype for Business Online und Telefonsystem verschoben wurde, funktioniert sein älteres Pbx-Telefon nicht mehr, aber seine Telefonnummer wird an einen der Skype for Business Clients für PCs oder Smartphones sowie Skype for Business kompatible Schreibtischtelefone weitergeleitet. Nach der Portieren können Telefonsystem Benutzer und Ältere PbX-Benutzer sich normal anrufen sowie PSTN-Anrufe über ihre normale Telefonnummer tätigen/empfangen.
+Durch die Bereitstellung von Telefonsystem mit lokaler PSTN-Anbindung können Sie Ihre Benutzer über Skype for Business Online in Ihrem eigenen Tempo in die Cloud verschieben und gleichzeitig ihre lokale FESTNETZ-Anbindung beibehalten. Wenn Sie über eine Nebenstellenanlage verfügen, verwenden Sie sie weiterhin, um PSTN-Konnektivität für die Benutzer bereitzustellen, die Sie in die Cloud verschieben. Sobald ein Benutzer zu Skype for Business Online- und Telefonsystem verschoben wird, funktioniert sein älteres Festnetztelefon nicht mehr, aber seine Telefonnummer wird an einen der Skype for Business Clients für PCs oder Smartphones sowie Skype for Business kompatible Schreibtischtelefone weitergeleitet. Nach der Portieren können Telefonsystem Benutzer und Ältere PBX-Benutzer sich gegenseitig normal anrufen sowie PSTN-Anrufe über ihre normale Telefonnummer tätigen/empfangen.
 
 Möglicherweise verfügen Sie über ein benutzerdefiniertes Feature oder ein Haupt-Add-On für Ihre ältere Nebenstellenanlage, z. B. ein Callcenter. Wenn das benutzerdefinierte Feature derzeit nicht auf Telefonsystem verfügbar ist, sollten Sie die Benutzer, die dieses benutzerdefinierte Feature benötigen, lokal mit der älteren Nebenstellenanlage belassen und nur die Benutzer portieren, die nicht auf das benutzerdefinierte Feature zugreifen müssen, um Telefonsystem mit lokaler PSTN-Konnektivität zu verwenden.
 
@@ -87,26 +87,26 @@ Bevor Sie Telefonsystem mit lokaler PSTN-Anbindung konfigurieren und Benutzer in
 | **Serverrolle**                                       | **Unterstützte Versionen\\**\*                                                                                         |
 |:------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------|
 | Partnerverbund-Edge\*\*  <br/>                            | Skype for Business Server 2015  <br/>                                                                              |
-| Next Hop Federation Route Internal Pool Server  <br/> | Skype for Business Server 2015, kumulatives Update vom März 2016 6.0.9319.235 oder höher (Front-End oder Director)  <br/> |
+| Next Hop Federation Route Internal Pool Server  <br/> | Skype for Business Server 2015, kumulatives März 2016 Update 6.0.9319.235 oder höher (Front-End oder Director)  <br/> |
 | Front-End-Benutzerserver  <br/>                          | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 | Edgeserver  <br/>                                    | Skype for Business Server 2015  <br/>                                                                              |
 | Vermittlungsserver  <br/>                               | Skype for Business Server 2015  <br/> Lync Server 2013  <br/>                                                      |
 
 \*Unterstützte Mindestversionen sind:
 
-- Skype for Business Server 2015, kumulatives Update vom März 2016 6.0.9319.235
+- Skype for Business Server 2015, kumulatives Update 6.0.9319.235 vom März 2016
 
 - Lync Server 2013 Kumulatives Update vom Juli 2015 5.0.8308.920
 
-\*\*Die Partnerverbundroute für alle unterstützten SIP-Domänen muss über den Edgeserver Skype for Business Server 2015 geleitet werden, auf dem das kumulative Update vom März 2016 oder höher ausgeführt wird. Wenn sich der Benutzerpool in Lync Server 2013 befindet, verbleibt der Datenverkehr des externen Pools auf dem Lync Server 2013-Edgeserver. 
+\*\*Die Partnerverbundroute für alle unterstützten SIP-Domänen muss über den Skype for Business Server 2015-Edgeserver geleitet werden, auf dem das kumulative Update vom März 2016 oder höher ausgeführt wird. Wenn sich der Benutzerpool in Lync Server 2013 befindet, verbleibt der Datenverkehr des externen Pools auf dem Lync Server 2013-Edgeserver. 
 
 Darüber hinaus müssen Sie Folgendes sicherstellen:
 
 - **Lokale Enterprise-VoIP für lokale Benutzer konfiguriert und getestet wird** Dies umfasst PSTN-Verbindungskomponenten. Weitere Informationen finden Sie in den folgenden Themen, wenn Sie Skype for Business Server 2015 verwenden, unter [Plan for Enterprise-VoIP in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md) and Deploy Enterprise-VoIP in Skype for Business Server [2015.](../../deploy/deploy-enterprise-voice/deploy-enterprise-voice.md)
 
-    Wenn Sie Lync Server 2013 verwenden, finden Sie weitere Informationen unter [Planen für Enterprise-VoIP in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) und Bereitstellen von Enterprise-VoIP in Lync Server [2013.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)
+    Wenn Sie Lync Server 2013 verwenden, finden Sie weitere Informationen unter [Planning for Enterprise-VoIP in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice) and [Deploying Enterprise-VoIP in Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-enterprise-voice)
 
-- **Active Directory-Synchronisierung** Sie müssen die Active Directory-Synchronisierung mithilfe von Azure AD Verbinden konfigurieren. Weitere Informationen finden Sie unter [Verwalten von Azure AD-Verbinden.](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect-whats-next/)
+- **Active Directory-Synchronisierung** Sie müssen die Active Directory-Synchronisierung mithilfe von Azure AD Verbinden konfigurieren. Weitere Informationen finden Sie unter [Azure AD Verbinden.](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)
 
     > [!NOTE]
     > Die von Ihnen verwendete Version von AAD Verbinden muss Version 1.0.9125.0 oder höher sein. Wenn Sie eine frühere Version von AAD Verbinden Tools oder DirSync verwenden, aktualisieren Sie bitte auf die unterstützte Version. Sie können ihre aktuelle Installation aktualisieren und alle benutzerdefinierten Regeln verwalten, die Sie in Ihrer Umgebung definiert haben. 

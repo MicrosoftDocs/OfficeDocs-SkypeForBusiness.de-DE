@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
-description: 'Zusammenfassung: Konfigurieren von Testbenutzerkonten und Watcher-Knoteneinstellungen für Skype for Business Server synthetische Transaktionen.'
-ms.openlocfilehash: 77e742940b75845e67a48bddb2c19a4450b289e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Konfigurieren Sie Testbenutzerkonten und Watcher-Knoteneinstellungen für Skype for Business Server synthetische Transaktionen.
+ms.openlocfilehash: 2c24b18856aad2face3a1cda7736365631794661
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580069"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012359"
 ---
 # <a name="skype-for-business-server-configure-watcher-node-test-users-and-settings"></a>Skype for Business Server: Konfigurieren von Testbenutzern und Einstellungen für Watcher-Knoten
  
@@ -35,7 +35,7 @@ Nachdem Sie den Computer konfiguriert haben, der als Watcher-Knoten agieren wird
 
 Testkonten müssen keine tatsächlichen Personen darstellen, aber sie müssen gültige Active Directory-Konten sein. Darüber hinaus müssen diese Konten für Skype for Business Server aktiviert sein, sie müssen über gültige SIP-Adressen verfügen, und sie sollten für Enterprise-VoIP aktiviert sein (um die Test-CsPstnPeerToPeerCall synthetische Transaktion zu verwenden). 
   
-Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind, und sie wie angegeben konfigurieren. Weisen Sie mindestens drei Testbenutzer für jeden Pool zu, den Sie testen möchten. Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das Cmdlet Set-CsTestUserCredential und die Skype for Business Server-Verwaltungsshell verwenden, damit diese Testkonten mit den synthetischen Transaktionen arbeiten können. Führen Sie dazu einen Befehl aus, der dem folgenden ähnelt (bei diesen Befehlen wird davon ausgegangen, dass die drei Active Directory-Benutzerkonten erstellt wurden und dass diese Konten für Skype for Business Server aktiviert sind):
+Wenn Sie die TrustedServer-Authentifizierungsmethode verwenden, müssen Sie lediglich sicherstellen, dass diese Konten vorhanden sind, und sie wie angegeben konfigurieren. Weisen Sie mindestens drei Testbenutzer für jeden Pool zu, den Sie testen möchten. Wenn Sie die Negotiate-Authentifizierungsmethode verwenden, müssen Sie auch das Cmdlet Set-CsTestUserCredential und die Skype for Business Server-Verwaltungsshell verwenden, damit diese Testkonten mit den synthetischen Transaktionen verwendet werden können. Führen Sie dazu einen Befehl aus, der dem folgenden ähnelt (bei diesen Befehlen wird davon ausgegangen, dass die drei Active Directory-Benutzerkonten erstellt wurden und dass diese Konten für Skype for Business Server aktiviert sind):
   
 ```PowerShell
 Set-CsTestUserCredential -SipAddress "sip:watcher1@litwareinc.com" -UserName "litwareinc\watcher1" -Password "P@ssw0rd"
@@ -43,7 +43,7 @@ Set-CsTestUserCredential -SipAddress "sip:watcher2@litwareinc.com" -UserName "li
 Set-CsTestUserCredential -SipAddress "sip:watcher3@litwareinc.com" -UserName "litwareinc\watcher3" -Password "P@ssw0rd"
 ```
 
-Geben Sie nicht nur die SIP-Adresse an, sondern auch den Benutzernamen und das Kennwort. Wenn Sie das Kennwort nicht angeben, werden Sie vom Cmdlet Set-CsTestUserCredential aufgefordert, diese Informationen einzugeben. Der Benutzername kann mithilfe des Im vorherigen Codeblocks angezeigten Domänennamen-/Benutzernamenformats angegeben werden.
+Geben Sie nicht nur die SIP-Adresse an, sondern auch den Benutzernamen und das Kennwort. Wenn Sie das Kennwort nicht angeben, werden Sie vom cmdlet Set-CsTestUserCredential aufgefordert, diese Informationen einzugeben. Der Benutzername kann mithilfe des Im vorherigen Codeblocks angezeigten Domänennamen-/Benutzernamenformats angegeben werden.
   
 Führen Sie die folgenden Befehle aus der Skype for Business Server Verwaltungsshell aus, um zu überprüfen, ob die Anmeldeinformationen des Testbenutzers erstellt wurden:
   
@@ -67,7 +67,7 @@ Nachdem die Testbenutzer erstellt wurden, können Sie einen Watcher-Knoten erste
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"}
 ```
 
-Mithilfe dieses Befehls wird ein neuer Watcher-Knoten erstellt, für den die Standardeinstellungen verwendet werden und der die Standardgruppe synthetischer Transaktionen ausführt. Für den neuen Watcher-Knoten werden zudem die Testbenutzer "watcher1@litwareinc.com", "watcher2@litwareinc.com" und "watcher3@litwareinc.com" verwendet. Wenn der Watcher-Knoten die TrustedServer-Authentifizierung verwendet, können die drei Testkonten alle gültigen Benutzerkonten sein, die für Active Directory und Skype for Business Server aktiviert sind. Wenn der Watcher-Knoten die Negotiate-Authentifizierungsmethode verwendet, müssen diese Benutzerkonten auch mithilfe des Cmdlets Set-CsTestUserCredential für den Watcher-Knoten aktiviert werden.
+Mithilfe dieses Befehls wird ein neuer Watcher-Knoten erstellt, für den die Standardeinstellungen verwendet werden und der die Standardgruppe synthetischer Transaktionen ausführt. Für den neuen Watcher-Knoten werden zudem die Testbenutzer "watcher1@litwareinc.com", "watcher2@litwareinc.com" und "watcher3@litwareinc.com" verwendet. Wenn der Monitorknoten die TrustedServer-Authentifizierung verwendet, können die drei Testkonten alle gültigen Benutzerkonten sein, die für Active Directory und Skype for Business Server aktiviert sind. Wenn der Watcher-Knoten die Negotiate-Authentifizierungsmethode verwendet, müssen diese Benutzerkonten auch für den Watcher-Knoten mithilfe des Cmdlets Set-CsTestUserCredential aktiviert werden.
   
 Führen Sie stattdessen die folgenden Schritte aus, um zu überprüfen, ob die automatische Ermittlung des Zielpools für die Anmeldung korrekt konfiguriert ist, anstatt direkt auf einen Pool zu abzielen:
   
@@ -77,7 +77,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>Konfigurieren erweiterter Tests
 
-Wenn Sie den PSTN-Test aktivieren möchten, der die Konnektivität mit dem Telefonfestnetz überprüft, müssen Sie beim Einrichten des Monitorknotens eine weitere Konfiguration durchführen. Zunächst müssen Sie die Testbenutzer dem PSTN-Testtyp zuordnen, indem Sie einen Befehl wie den folgenden in der Skype for Business Server Verwaltungsshell ausführen:
+Wenn Sie den PSTN-Test aktivieren möchten, der die Konnektivität mit dem Telefonfestnetz überprüft, müssen Sie beim Einrichten des Monitorknotens eine weitere Konfiguration durchführen. Zunächst müssen Sie die Testbenutzer dem PSTN-Testtyp zuordnen, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ausführen:
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"  -Name "Contoso Provider Test" -TestType PSTN
@@ -86,7 +86,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Die Ergebnisse dieses Befehls müssen in einer Variablen gespeichert werden. In diesem Beispiel heißt die Variable $pstnTest. 
   
-Als Nächstes können Sie das Cmdlet **"New-CsWatcherNodeConfiguration"** verwenden, um den Testtyp (in der Variablen $pstnTest gespeichert) einem Skype for Business Server Pool zuzuordnen. Mit dem folgenden Befehl wird beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool atl-cs-001.litwareinc.com erstellt, die drei zuvor erstellten Testbenutzer hinzugefügt und der PSTN-Testtyp hinzugefügt:
+Als Nächstes können Sie das Cmdlet **"New-CsWatcherNodeConfiguration"** verwenden, um den (in der Variablen $pstnTest gespeicherten) Testtyp einem Skype for Business Server Pool zuzuordnen. Mit dem folgenden Befehl wird beispielsweise eine neue Monitorknotenkonfiguration für den Pool atl-cs-001.litwareinc.com erstellt, die drei zuvor erstellten Testbenutzer hinzugefügt und der PSTN-Testtyp hinzugefügt:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com", "sip:watcher3@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -94,7 +94,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 Der vorstehende Befehl schlägt fehl, wenn Sie die Skype for Business Server Kerndateien und die RTCLocal-Datenbank nicht auf dem Monitorknotencomputer installiert haben. 
   
-Um mehrere VoIP-Richtlinien zu testen, können Sie mit dem Cmdlet **"New-CsExtendedTest"** einen erweiterten Test für jede Richtlinie erstellen. Die bereitgestellten Benutzer sollten mit den gewünschten VoIP-Richtlinien konfiguriert werden. Die erweiterten Tests werden mithilfe von Kommatrennzeichen an das Cmdlet **New-CsWatcherNodeConfiguration** übergeben, z. B.:
+Um mehrere VoIP-Richtlinien zu testen, können Sie mit dem Cmdlet **"New-CsExtendedTest"** einen erweiterten Test für jede Richtlinie erstellen. Die bereitgestellten Benutzer sollten mit den gewünschten VoIP-Richtlinien konfiguriert werden. Die erweiterten Tests werden mithilfe von Kommatrennzeichen an das Cmdlet **"New-CsWatcherNodeConfiguration"** übergeben, z. B.:
   
 -ExtendedTests @{Add=$pstnTest 1,$pstnTest 2,$pstnTest 3}
   
@@ -227,7 +227,7 @@ Mit diesem Befehl werden die einzelnen Watcher-Knoten in Ihrer Bereitstellung ge
 
 Zusätzlich zum Ändern der synthetischen Transaktionen, die auf einem Watcher-Knoten ausgeführt werden, können Sie auch das Cmdlet **"Set-CsWatcherNodeConfiguration"** verwenden, um zwei weitere wichtige Aufgaben auszuführen: Aktivieren und Deaktivieren des Watcher-Knotens und Konfigurieren des Watcher-Knotens, um interne Web-URLs oder externe Web-URLs beim Ausführen der Tests zu verwenden.
   
-In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus. Manchmal möchten Sie diese Transaktionen jedoch möglicherweise aussetzen. Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden. Ohne Netzwerkkonnektivität schlagen diese Transaktionen fehl. Um einen Watcher-Knoten vorübergehend zu deaktivieren, führen Sie in der Skype for Business Server Verwaltungsshell einen Befehl aus, der dem folgenden ähnelt:
+In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus. Manchmal möchten Sie diese Transaktionen jedoch möglicherweise aussetzen. Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden. Ohne Netzwerkkonnektivität schlagen diese Transaktionen fehl. Um einen Watcher-Knoten vorübergehend zu deaktivieren, führen Sie in der Skype for Business Server Verwaltungsshell einen Befehl ähnlich dem folgenden aus:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
@@ -279,9 +279,9 @@ bitsadmin /util /SetIEProxy NetworkService NO_PROXY
 
 Im Befehlsfenster wird die folgende Meldung angezeigt:
   
-BITSAdmin ist veraltet und ist nicht garantiert in zukünftigen Versionen von Windows verfügbar. Verwaltungstools für den BITS-Dienst werden jetzt von BITS PowerShell-Cmdlets bereitgestellt.
+BITSAdmin ist veraltet und ist in zukünftigen Versionen von Windows nicht garantiert verfügbar. Verwaltungstools für den BITS-Dienst werden jetzt von BITS PowerShell-Cmdlets bereitgestellt.
   
-Internetproxyeinstellungen für Konto NetworkService auf NO_PROXY festgelegt. 
+Internetproxyeinstellungen für "Account NetworkService" auf NO_PROXY festgelegt. 
   
 (Connection = Standard)
   
@@ -308,7 +308,7 @@ Test-CsPersistentChatMessage -TargetFqdn pool0.contoso.com -SenderSipAddress sip
 
 Führen Sie diese Setupaufgabe innerhalb des Unternehmens aus:
   
-- Wenn er von einem Computer ausgeführt wird, der kein Server ist, muss der Benutzer, der das Cmdlet ausführt, Mitglied der Rolle "CsPersistentChatAdministrators" für Role-Based Zugriffssteuerung (Access Control, RBAC) sein.
+- Wenn sie von einem Computer ausgeführt wird, der kein Server ist, muss der Benutzer, der das Cmdlet ausführt, Mitglied der Rolle "CsPersistentChatAdministrators" für Role-Based Zugriffssteuerung (Access Control, RBAC) sein.
     
 - Wenn er vom Server selbst ausgeführt wird, muss der Benutzer, der das Cmdlet ausführt, Mitglied der Gruppe "RTCUniversalServerAdmins" sein.
     
@@ -326,13 +326,13 @@ Zum Ausführen dieser synthetischen Transaktion müssen Sie Folgendes konfigurie
     
 - Ein PSTN-Gateway, das Anrufe und Medien akzeptiert, die Anrufe basierend auf der gewählten Nummer zurück an den Heimpool eines Empfängers weiterleiten.
     
-### <a name="unified-contact-store-synthetic-transaction"></a>Synthetische Transaktion für einheitliche Kontakte Store
+### <a name="unified-contact-store-synthetic-transaction"></a>Unified Contact Store Synthetic Transaction
 
-Der einheitliche Kontakt Store synthetische Transaktion überprüft die Fähigkeit von Skype for Business Server, Kontakte im Namen eines Benutzers aus Exchange abzurufen.
+Die synthetische Transaktion "Unified Contact Store" überprüft die Fähigkeit von Skype for Business Server, Kontakte im Namen eines Benutzers aus Exchange abzurufen.
   
 Für die Verwendung dieser synthetischen Transaktionen müssen die folgenden Bedingungen erfüllt sein:
   
-- Lyss-Exchange Server-zu-Server-Authentifizierung muss konfiguriert werden.
+- Lyss-Exchange Server-zu-Server-Authentifizierung muss konfiguriert sein.
     
 - Testbenutzer müssen über ein gültiges Exchange Postfach verfügen.
     
@@ -354,7 +354,7 @@ Diese Befehlszeile ist nach Abschluss der Migration erfolgreich.
 
 Für die synthetische Transaktion im Extensible Messaging and Presence Protocol (XMPP) müssen Sie das XMPP-Feature mit einer oder mehreren Verbunddomänen konfigurieren.
   
-Um die synthetische XMPP-Transaktion zu aktivieren, müssen Sie einen XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitstellen. Zum Beispiel:
+Um die synthetische XMPP-Transaktion zu aktivieren, müssen Sie einen XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitstellen. Zum Beispiel: 
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
@@ -369,7 +369,7 @@ In diesem Beispiel muss eine Skype for Business Server Regel vorhanden sein, um 
 
 Für die synthetische Transaktion des Video-Interoperabilität-Servers (VIS) müssen Sie die Unterstützungsdateien für synthetische Transaktionen herunterladen und installieren ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
-Um VISSTSupportPackage.msi zu installieren, stellen Sie sicher, dass die Abhängigkeiten (unter Systemanforderungen) für die MSI-Datei bereits installiert sind. Führen Sie VISSTSupportPackage.msi aus, um eine einfache Installation durchzuführen. Das .msi installiert alle Dateien im folgenden Pfad: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
+Um VISSTSupportPackage.msi zu installieren, stellen Sie sicher, dass die Abhängigkeiten (unter "Systemanforderungen") für die MSI-Datei bereits installiert sind. Führen Sie VISSTSupportPackage.msi aus, um eine einfache Installation durchzuführen. Das .msi installiert alle Dateien im folgenden Pfad: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
 Weitere Informationen zum Ausführen der synthetischen VIS-Transaktion finden Sie in der Dokumentation für das Cmdlet ["Test-CsP2PVideoInteropServerSipTrunkAV".](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
   

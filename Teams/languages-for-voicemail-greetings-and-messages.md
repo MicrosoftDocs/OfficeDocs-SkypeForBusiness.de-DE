@@ -21,20 +21,21 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Hier erfahren Sie, welche Sprachen Sie in Skype for Business für die Standardsystemnachrichten und Voicemail-Begrüßungen festlegen können.
-ms.openlocfilehash: 78c3bd30da636bb9a38d413275e2d5b1ae59f0c5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8393e8a50913548a8e6ec64bcf26154e0af5b148
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590799"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011939"
 ---
 # <a name="teams-languages-for-voicemail-greetings-and-messages"></a>Teams für Voicemail-Begrüßungen und -Nachrichten
 
 Teams unterstützt die folgenden Sprachen für Voicemail-Begrüßungen.
   
-||||||
+
+
+|Sprache  |Land/Region |Für Benutzer in E-Mails sichtbar? |Verfügbar bei Anrufen des Benutzers? |Transkription verfügbar?  |
 |:-------------|:------------------|:--------------------------------------------|:-------------------------------------|:-----------------------------|
-|**Sprache**  |**Land/Region** |**Für Benutzer in E-Mails sichtbar?** |**Verfügbar bei Anrufen des Benutzers?** |**Transkription verfügbar?**  |
 |Arabisch        |Ägypten              |Ja                                          |Ja                                   |Nein  |
 |Arabisch        |Saudi Arabia (المملكة العربية السعودية)       |Ja, aber Arabisch (Ägypten) wird verwendet.             |Nein                                    |Nein  |
 |Bulgarisch     |Bulgarien           |Ja                                          |Ja                                   |Nein  |

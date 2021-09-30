@@ -16,17 +16,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c51be5bf88a7f7f1bc73ac9b67e2a0da77b3e960
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 70ba70b262e045af964f50b11a3ce3b9a96edc7e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727034"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012149"
 ---
 # <a name="teams-for-retail"></a>Teams für den Einzelhandel
 
 Verwenden Sie hier die Administrationsressourcen zur Verwaltung und optimalen Nutzung von Teams für Ihre Einzelhandelsgeschäfte und Mitarbeiter.
 
-|               |               |
+|&nbsp;|&nbsp;|
 | ------------- | ------------- |
 | ![walkthrough-map-teams.](../media/walkthrough-map-teams-small.svg)  |  [Erste Schritte mit Vorlagen für Teams im Einzelhandel](../get-started-with-retail-teams-templates.md) |
+

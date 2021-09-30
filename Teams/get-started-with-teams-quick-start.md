@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 041ae19360e5dfc1fbf3ff1158c7f7cfe6cdaaae
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: db18448960d2a2106005d292ebe6f232327fad2f
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729224"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014239"
 ---
 # <a name="get-started-with-microsoft-teams"></a>Erste Schritte mit Microsoft Teams
 
@@ -44,6 +44,7 @@ Wir empfehlen eine phasenweise Bereitstellung von Teams, Workload nach Workload 
 - [Cloud Voice](cloud-voice-landing-page.md)
 
 ![Diagramm zur Veranschaulichung der Bereitstellungswege von Teams.](media/get-started-with-teams-quick-start-pathways.png)
+
 
 Wenn es sich bei Ihrem Unternehmen um eine mittlere oder große Organisation handelt, [verwenden Sie den Ratgeber für Microsoft Teams als Hilfe beim Rollout von Microsoft Teams](use-advisor-teams-roll-out.md), um das organisationsweite Rollout dieser Workloads leichter planen zu können. Der Ratgeber nutzt Microsoft Teams selbst zum Erstellen von Planaufgaben, die Besitzern zugewiesen werden, um Dokumente freizugeben und die Kommunikation zwischen den Mitgliedern Ihres Bereitstellungsteams zu ermöglichen.
 
@@ -76,8 +77,8 @@ Folgen Sie den nachstehenden Schritten, um ein paar Teams einzurichten und einig
 
 Wenn Sie von Skype for Business (online oder lokal) zu Teams kommen oder eine Hybridkonfiguration benötigen, sollten Sie trotzdem dem oben dargestellten empfohlenen Weg für die Bereitstellung von Teams folgen, aber zunächst müssen Sie etwas mehr zusätzliche Planung hinter sich bringen. Überprüfen Sie als erstes die Anleitung in der Tabelle unten, die sich auf das Profil Ihrer Organisation bezieht.
 
-|  |Profil Ihrer Organisation|Anleitung  |
+|&nbsp;|Profil Ihrer Organisation|Anleitung  |
 |---------|---------|---------|
-|<IMG src="https://docs.microsoft.com/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Ich verwende zurzeit Skype for Business Online und bin bereit für den Wechsel zu Teams. |Gehen Sie zu [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen).        |
-|<IMG SRC="https://docs.microsoft.com/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Meine Organisation setzt Skype for Business Server ein, und ich möchte Teams bereitstellen. |Für eine Teams-Bereitstellung im großen Maßstab müssen Sie zuerst die Hybridverbindung zwischen Ihrer lokalen Umgebung und Microsoft 365 herstellen. Lesen Sie dazu zuerst [Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Ferner sollten Sie [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen) durcharbeiten.   |
-|<IMG src="https://docs.microsoft.com/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Ich verfüge nicht über Skype for Business Server, aber ich habe eine lokale Telefonfestnetzlösung (Public Switched Telephone Network, PSTN). Ich möchte Teams bereitstellen, möchte aber meine lokale PSTN-Lösung behalten. |Führen Sie Teams gemäß den Vorschlägen in diesem Artikel ein.<br><br>Lesen Sie dann [Planen von direktem Routing](direct-routing-plan.md), um mehr über die Verwendung von direktem Routing für Telefonanlagen zu erfahren, um Ihre lokale PSTN-Lösung mit Teams zu verbinden.|
+|<IMG src="/office/media/icons/migration-teams.svg" alt="Migration arrow symbol" height="50" width="50">|Ich verwende zurzeit Skype for Business Online und bin bereit für den Wechsel zu Teams. |Gehen Sie zu [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen). |
+|<IMG SRC="/office/media/icons/hybrid-teams.svg" alt="Hybrid symbol" height="50" width="50">|Meine Organisation setzt Skype for Business Server ein, und ich möchte Teams bereitstellen. |Für eine Teams-Bereitstellung im großen Maßstab müssen Sie zuerst die Hybridverbindung zwischen Ihrer lokalen Umgebung und Microsoft 365 herstellen. Lesen Sie dazu zuerst [Planen der Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](/skypeforbusiness/hybrid/plan-hybrid-connectivity).<br><br>Ferner sollten Sie [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen) durcharbeiten.   |
+|<IMG src="/office/media/icons/on-premises-teams.svg" alt="On premises symbol" height="50" width="50">|Ich verfüge nicht über Skype for Business Server, aber ich habe eine lokale Telefonfestnetzlösung (Public Switched Telephone Network, PSTN). Ich möchte Teams bereitstellen, möchte aber meine lokale PSTN-Lösung behalten. |Führen Sie Teams gemäß den Vorschlägen in diesem Artikel ein.<br><br>Lesen Sie dann [Planen von direktem Routing](direct-routing-plan.md), um mehr über die Verwendung von direktem Routing für Telefonanlagen zu erfahren, um Ihre lokale PSTN-Lösung mit Teams zu verbinden.|

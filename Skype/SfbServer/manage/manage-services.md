@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: In diesem Artikel wird beschrieben, wie Dienste verwaltet werden, die in einer Skype for Business Server-Topologie ausgeführt werden.
-ms.openlocfilehash: 45af8756feda61d0a0bac06beedddcc693591346
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be613203b9e15640ead1b136ebe1b89f4c4c50ea
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593639"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014179"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Verwalten von Diensten für Skype for Business Server
 
@@ -55,11 +55,11 @@ Sie können Skype for Business Server Systemsteuerung verwenden, um alle Dienste
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Anzeigen des Dienststatus mit Windows PowerShell-Cmdlets
 
-Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsWindowsService"** anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) Der Vorgang ist in Skype for Business Server identisch.
+Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsWindowsService"** anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-view-service-status"></a>So zeigen Sie den Dienststatus an
 
-Um den Dienststatus auf einem Computer anzuzeigen, geben Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+Um den Dienststatus auf einem Computer anzuzeigen, geben Sie in der Skype for Business Server Verwaltungsshell einen Befehl ähnlich dem folgenden ein, und drücken Sie dann die EINGABETASTE:
   
 ```PowerShell
 Get-CsWindowsService -ComputerName atl-cs-001.litwareinc.com | Select-Object RoleName, Status

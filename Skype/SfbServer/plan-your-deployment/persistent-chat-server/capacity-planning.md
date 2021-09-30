@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 430bceb547be9208348d61dc919ddb463f2d5ca2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3ff8076a922d6242de0079239a3ff2c73b539a8
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615571"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012159"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -31,7 +31,7 @@ Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung auf die Be
 Bevor Sie diesen Abschnitt lesen, sollten Sie mit Topologien für beständigen Chat vertraut sein. Weitere Informationen finden Sie unter Planen der Topologie des [Servers für beständigen Chat.](topology.md)
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Kapazitätsplanung für den Server für beständigen Chat
 
@@ -51,15 +51,13 @@ Ermitteln Sie anhand der folgenden Beispieltabelle die Anzahl von Benutzern, die
   
 **Beispiel für den Pool für den Server für beständigen Chat mit maximaler Kapazität**
 
-|||
-|:-----|:-----|
-|Aktive Instanzen des Diensts für beständigen Chat  <br/> |4   <br/> |
-|Dienstinstanzen für beständigen Chat  <br/> |8 (nur maximal 4 können aktiv sein; 4 muss inaktiv sein)  <br/> |
-|Aktive Verbundene Benutzer  <br/> |80,000  <br/> |
-|Gesamtzahl der bereitgestellten Benutzer  <br/> |150,000  <br/> |
-|Anzahl der Endpunkte  <br/> |120,000  <br/> |
+- Aktive Dienstinstanzen für beständigen Chat: 4  <br/> 
+- Dienstinstanzen für beständigen Chat: 8 (maximal 4 können aktiv sein; 4 müssen inaktiv sein)  <br/>
+- Aktive Benutzer verbunden: 80.000  <br/>
+- Gesamtzahl der bereitgestellten Benutzer: 150.000  <br/>
+- Anzahl der Endpunkte: 120.000  <br/>
    
-Im vorherigen Beispiel soll die maximale Anzahl von Benutzern unterstützt werden, die der Server für beständigen Chat zulässt: vier Server/Instanzen des Diensts für beständigen Chat (mit vier weiteren passiven Servern, auf denen der Server für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung ausgeführt wird) und 20.000 Benutzer pro Server für insgesamt 80.000 aktive Benutzer.
+Im vorherigen Beispiel soll die maximale Anzahl von Benutzern unterstützt werden, die der Server für beständigen Chat zulässt: vier Server/Instanzen des Diensts für beständigen Chat (kann vier weitere passive Server mit dem Server für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung haben) und 20.000 Benutzer pro Server für insgesamt 80.000 aktive Benutzer.
   
 ### <a name="plan-capacity-for-chat-room-access"></a>Planen der Kapazität für den Chatroomzugriff
 
@@ -67,36 +65,36 @@ Die folgende Beispieltabelle kann Ihnen bei der Planung der Verwaltung des Chatr
   
 **Beispiel für die Verwaltung des Chatroomzugriffs**
 
-||**Kleine Chatrooms**|**Mittlere Chatrooms**|**Große Chatrooms**|**Total**|
+|&nbsp;|Kleine Chatrooms|Mittlere Chatrooms|Große Chatrooms|Summe|
 |:-----|:-----|:-----|:-----|:-----|
-|Größe von Chatrooms (Anzahl der verbundenen Benutzer)  <br/> |30 pro Raum  <br/> |150 pro Raum  <br/> |16.000 pro Raum  <br/> ||
-|Chatrooms  <br/> |32,000  <br/> |1,067  <br/> |10   <br/> |33,077  <br/> |
-|% der Räume, die ein Auditorium sind  <br/> |1%  <br/> |1%  <br/> |50 %  <br/> ||
-|% der geöffneten Räume  <br/> |3%  <br/> |3%  <br/> |50 %  <br/> ||
-|Offene Räume (keine explizite Mitgliedschaft)  <br/> |960  <br/> |32  <br/> |5   <br/> |997  <br/> |
-|Nicht offene Räume (reguläre Räume mit expliziter Mitgliedschaft)  <br/> |31,040  <br/> |1.035  <br/> |5   <br/> |32,080  <br/> |
-|Auditorium-Räume (zusätzlicher Referenteneintrag)  <br/> |0  <br/> |32  <br/> |5   <br/> ||
-|Durch direkte Mitgliedschaft verwaltete Räume  <br/> |50 %  <br/> |10 %  <br/> |0 %  <br/> ||
-|Von Benutzergruppen verwaltete Chatrooms  <br/> |50 %  <br/> |90 %  <br/> |100 %  <br/> ||
-|Benutzergruppen in der Mitgliedschaftsliste jedes Chatrooms für offene Chatrooms (nicht explizit angegeben)  <br/> |0  <br/> |0  <br/> |0  <br/> ||
-|Benutzer in der Mitgliedschaftsliste jedes Chatrooms für nicht offene Chatrooms  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Benutzergruppen in der Mitgliedschaftsliste jedes Chatrooms für nicht offene Chatrooms  <br/> |3   <br/> |5   <br/> |10   <br/> ||
-|Benutzer und Benutzergruppen in der Managerliste jedes Chatrooms (für offene und nicht offene Chatrooms)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Benutzer und Benutzergruppen in der Referentenliste jedes Auditorium-Chatrooms (für offene und nicht offene Chatrooms)  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Benutzerbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms  <br/> |465,600  <br/> |15,520  <br/> |-  <br/> ||
-|Benutzergruppenbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms  <br/> |46,560  <br/> |4656  <br/> |50  <br/> ||
-|Benutzer und benutzergruppenbasierte Entitäten in allen Auditorium-Chatrooms  <br/> |0  <br/> |192  <br/> |50  <br/> ||
-|Benutzer und Benutzergruppen-basierte Managerentitäten in allen Verwaltungslisten für Chatrooms  <br/> |192,000  <br/> |6,400  <br/> |60  <br/> ||
-|Aktive Benutzer pro Chatroom  <br/> |30  <br/> |150  <br/> |16,000  <br/> ||
-|Chatrooms pro Benutzer  <br/> |12   <br/> |2   <br/> |2   <br/> |16   <br/> |
-|Benutzergruppen in der Mitgliedschaftsliste jedes Chatrooms  <br/> |10   <br/> |10   <br/> |15   <br/> ||
-|Von Benutzergruppen verwaltete Chatrooms  <br/> |50 %  <br/> |50 %  <br/> |50 %  <br/> ||
-|Benutzergruppenbasierte Mitgliedschaftsentitäten in allen Chatrooms  <br/> |155,200  <br/> |5173  <br/> |68  <br/> ||
-|Benutzerbasierte Mitgliedschaftsentitäten in allen Chatrooms  <br/> |465,600  <br/> |77,600  <br/> |72,000  <br/> ||
-|Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten der einzelnen Chatrooms  <br/> |6   <br/> |6   <br/> |6   <br/> ||
-|Benutzer und Benutzergruppen in allen Verwaltungs-, Referenten- und Bereichslisten aller Chatrooms  <br/> |192,000  <br/> |6400  <br/> |60  <br/> ||
-|Zugriffssteuerungseinträge  <br/> |704,160  <br/> |26,768  <br/> |160  <br/> |731,088  <br/> |
-|Maximale Anzahl von Zugriffssteuerungseinträgen  <br/> ||||2,000,000  <br/> |
+|Größe von Chatrooms (Anzahl der verbundenen Benutzer)   |30 pro Raum   |150 pro Raum   |16.000 pro Raum   ||
+|Chatrooms   |32,000   |1,067   |10   |33,077   |
+|% der Räume, die ein Auditorium sind   |1%   |1%   |50%   ||
+|% der geöffneten Räume   |3%   |3%   |50%   ||
+|Offene Räume (keine explizite Mitgliedschaft)   |960   |32   |5   |997   |
+|Nicht offene Räume (reguläre Räume mit expliziter Mitgliedschaft)   |31,040   |1.035   |5   |32,080   |
+|Auditorium-Räume (zusätzlicher Referenteneintrag)   |0   |32   |5   ||
+|Durch direkte Mitgliedschaft verwaltete Räume   |50%   |10 %   |0%   ||
+|Von Benutzergruppen verwaltete Chatrooms   |50%   |90 %   |100 %   ||
+|Benutzergruppen in der Mitgliedschaftsliste jedes Chatrooms für offene Chatrooms (nicht explizit angegeben)   |0   |0   |0   ||
+|Benutzer in der Mitgliedschaftsliste jedes Chatrooms für nicht offene Chatrooms   |30   |150   |16,000   ||
+|Benutzergruppen in der Mitgliedschaftsliste jedes Chatrooms für nicht offene Chatrooms   |3   |5   |10   ||
+|Benutzer und Benutzergruppen in der Managerliste jedes Chatrooms (für offene und nicht offene Chatrooms)   |6    |6    |6    ||
+|Benutzer und Benutzergruppen in der Referentenliste jedes Auditorium-Chatrooms (für offene und nicht offene Chatrooms)   |6    |6    |6    ||
+|Benutzerbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms   |465,600   |15,520   |-   ||
+|Benutzergruppenbasierte Mitgliedschaftsentitäten in allen nicht offenen Chatrooms   |46,560   |4656   |50   ||
+|Benutzer und benutzergruppenbasierte Entitäten in allen Auditorium-Chatrooms   |0   |192   |50   ||
+|Benutzer und Benutzergruppen-basierte Managerentitäten in allen Verwaltungslisten für Chatrooms   |192,000   |6,400   |60   ||
+|Aktive Benutzer pro Chatroom   |30   |150   |16,000   ||
+|Chatrooms pro Benutzer   |12    |2   |2   |16   |
+|Benutzergruppen in der Mitgliedschaftsliste jedes Chatrooms   |10   |10   |15    ||
+|Von Benutzergruppen verwaltete Chatrooms   |50%   |50%   |50%   ||
+|Benutzergruppenbasierte Mitgliedschaftsentitäten in allen Chatrooms   |155,200   |5173   |68   ||
+|Benutzerbasierte Mitgliedschaftsentitäten in allen Chatrooms   |465,600   |77,600   |72,000   ||
+|Benutzer und Benutzergruppen in den Manager-, Referenten- und Bereichslisten der einzelnen Chatrooms   |6    |6    |6    ||
+|Benutzer und Benutzergruppen in allen Verwaltungs-, Referenten- und Bereichslisten aller Chatrooms   |192,000   |6400   |60   ||
+|Zugriffssteuerungseinträge   |704,160   |26,768   |160   |731,088   |
+|Maximale Anzahl von Zugriffssteuerungseinträgen   ||||2,000,000   |
    
 Wenn Sie im vorherigen Beispiel die Server für beständigen Chat gemäß den empfohlenen Richtlinien bereitstellen, können sie bis zu 80.000 aktive Benutzer in einem Pool mit vier Servern verarbeiten, für den die Kompatibilität aktiviert ist.
   
@@ -115,7 +113,7 @@ Für jeden Chatroom gibt die vorherige Tabelle zur Kapazitätsplanung die Anzahl
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Planen der Kapazität für die Verwaltung des Chatroomzugriffs nach Einladung
 
-Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um die Anzahl der Einladungen zu verstehen, die der Server für beständigen Chat erstellt und in der Datenbank für beständigen Chat speichert, wenn er für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen in der Kategorie mithilfe der Einstellungsseite **"Chatroomkategorie"** in der Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets "set-csPersistentChatCategory" Windows PowerShell.  Sie können Einladungen in einem Chatroom (in Übereinstimmung mit den in der Kategorie zulässigen Einstellungen) über die vom Skype for Business Client gestartete **Seite "Raumverwaltung"** oder mithilfe eines Windows PowerShell Cmdlets **"set-csPersistentChatRoom"** verwalten.
+Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um die Anzahl der Einladungen zu verstehen, die der Server für beständigen Chat erstellt und in der Datenbank für beständigen Chat speichert, wenn er für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen in der Kategorie mithilfe der Einstellungsseite **"Chatroomkategorie"** in der Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets Windows PowerShell **" set-csPersistentChatCategory".** Sie können Einladungen in einem Chatroom (in Übereinstimmung mit dem, was die Kategorie zulässt) verwalten, indem Sie die Seite **"Raumverwaltung"** verwenden, die vom Skype for Business-Client gestartet wurde, oder mithilfe eines Windows PowerShell Cmdlets, **"set-csPersistentChatRoom".**
   
 Die Beispieldaten in der folgenden Tabelle gehen davon aus, dass auf der Seite **"Chatroomeinstellungen"** für 50 Prozent aller Chatrooms die Option **"Einladungen"** auf **"Ja"** festgelegt ist.
   
@@ -124,21 +122,21 @@ Die Beispieldaten in der folgenden Tabelle gehen davon aus, dass auf der Seite *
   
 **Chatroomzugriff nach Einladungsbeispiel**
 
-||**Kleine Chatrooms**|**Mittlere Chatrooms**|**Große Chatrooms**|**Total**|
+|&nbsp;|Kleine Chatrooms|Mittlere Chatrooms|Große Chatrooms|Summe|
 |:-----|:-----|:-----|:-----|:-----|
-|Benutzer, die auf den Chatroom zugreifen können  <br/> |30 pro Raum  <br/> |150 pro Raum  <br/> |16.000 pro Raum  <br/> ||
-|Prozentsatz der Räume mit Einladungen  <br/> |50 %  <br/> |50 %  <br/> |50 %  <br/> ||
-|Für das Senden von Einladungen konfigurierte Chatrooms  <br/> |16,000  <br/> |533  <br/> |5   <br/> ||
-|Benutzer, die auf den Chatroom zugreifen können  <br/> |60  <br/> |225  <br/> |16,000  <br/> ||
-|Vom Server für beständigen Chat generierte Einladungen  <br/> |960,000  <br/> |120,000  <br/> |80,000  <br/> |1,160,000  <br/> |
-|Maximal zulässige Anzahl von Einladungen  <br/> ||||2,000,000  <br/> |
-|Modell 1 – Start mit der erwarteten Anzahl von Nachrichten pro Raum und Tag  <br/> |||||
-|Chatrate pro Chatroom (pro Tag)  <br/> |50  <br/> |500  <br/> |100  <br/> |650  <br/> |
-|Chatrate (pro Sekunde) in allen Chatrooms  <br/> |55.56  <br/> |18.52  <br/> |0.03  <br/> |74  <br/> |
-|Modell 2 – Start mit der Anzahl der Nachrichten, die pro Benutzer und Tag gepostet werden  <br/> |||||
-|Chatrate pro Benutzer und Tag  <br/> |15   <br/> |5   <br/> |0.1  <br/> |20  <br/> |
-|Chatrate pro Chatroom (pro Tag)  <br/> |38  <br/> |375  <br/> |800  <br/> |1,213  <br/> |
-|Chatrate (pro Sekunde) in allen Chatrooms  <br/> |41.67  <br/> |13.89  <br/> |0.28  <br/> |56  <br/> |
+|Benutzer, die auf den Chatroom zugreifen können   |30 pro Raum   |150 pro Raum   |16.000 pro Raum   ||
+|Prozentsatz der Räume mit Einladungen   |50%   |50%   |50%   ||
+|Für das Senden von Einladungen konfigurierte Chatrooms   |16,000   |533   |5   ||
+|Benutzer, die auf den Chatroom zugreifen können   |60   |225   |16,000   ||
+|Vom Server für beständigen Chat generierte Einladungen   |960,000   |120,000   |80,000   |1,160,000   |
+|Maximal zulässige Anzahl von Einladungen   ||||2,000,000   |
+|Modell 1 – Start mit der erwarteten Anzahl von Nachrichten pro Raum und Tag   |||||
+|Chatrate pro Chatroom (pro Tag)   |50   |500   |100   |650   |
+|Chatrate (pro Sekunde) in allen Chatrooms   |55.56   |18.52   |0.03   |74   |
+|Modell 2 – Start mit der Anzahl der Nachrichten, die pro Benutzer und Tag gepostet werden   |||||
+|Chatrate pro Benutzer und Tag   |15    |5   |0.1   |20   |
+|Chatrate pro Chatroom (pro Tag)   |38   |375   |800   |1,213   |
+|Chatrate (pro Sekunde) in allen Chatrooms   |41.67   |13.89   |0.28   |56   |
    
 ### <a name="plan-capacity-for-persistent-chat-server-performance"></a>Planen der Kapazität für die Leistung des Servers für beständigen Chat
 
@@ -146,39 +144,37 @@ In der folgenden Tabelle wird das Benutzermodell für den Server für beständig
   
 **Benutzermodell für die Leistung des Servers für beständigen Chat**
 
-|||
-|:-----|:-----|
-|Anzahl der aktiven Benutzer, die verbunden sind  <br/> |80,000  <br/> |
-|Anzahl der Dienstinstanzen des Servers für beständigen Chat  <br/> |4   <br/> |
-|Umfang kleiner Chatrooms  <br/> |30 Benutzer  <br/> |
-|Umfang mittelgroßer Chatrooms  <br/> |150 Benutzer  <br/> |
-|Umfang großer Chatrooms  <br/> |16.000 Benutzer  <br/> |
-|Gesamtzahl von Chatrooms  <br/> |33,077  <br/> |
-|Anzahl von kleinen Chatrooms  <br/> |32,000  <br/> |
-|Anzahl von mittelgroßen Chatrooms  <br/> |1,067  <br/> |
-|Anzahl von großen Chatrooms  <br/> |10   <br/> |
-|Gesamtzahl von Chatrooms pro Benutzer  <br/> |16   <br/> |
-|Anzahl von kleinen Chatrooms pro Benutzer  <br/> |12   <br/> |
-|Anzahl von mittelgroßen Chatrooms pro Benutzer  <br/> |2   <br/> |
-|Anzahl von großen Chatrooms pro Benutzer  <br/> |2   <br/> |
-|Anzahl der Räume, die pro Benutzer verbunden sind  <br/> |24  <br/> |
-|Maximale Beitrittsrate  <br/> |10/Sekunde  <br/> |
-|Gesamtchatrate  <br/> |24/Sekunde  <br/> |
-|Chatrate für kleine Chatrooms  <br/> |22,22/Sekunde  <br/> |
-|Chatrate für mittelgroße Chatrooms  <br/> |1,67/Sekunde  <br/> |
-|Chatrate für große Chatrooms  <br/> |~0,15/Sekunde  <br/> |
-|Prozentsatz von Chatrooms, die für Einladungen konfiguriert sind  <br/> |50 %  <br/> |
-|Prozentsatz von direkten Mitgliedschaften  <br/> |50 %  <br/> |
-|Prozentsatz von Gruppenmitgliedschaften  <br/> |50 %  <br/> |
-|Durchschnittliche Anzahl von Vorgängermitgliedschaften in Active Directory Domain Services  <br/> |100 - 200  <br/> |
-|Anzahl von abonnierten Kontakten pro Benutzer  <br/> |80  <br/> |
-|Durchschnittliche Anzahl von Endpunkten pro Benutzer  <br/> |1,5  <br/> |
-|Durchschnittliche Anzahl sichtbarer Chatrooms pro Endpunkt  <br/> |1,5  <br/> |
-|Durchschnittliche Anzahl sichtbarer Chatrooms pro Benutzer  <br/> |2,25 (50 % für 1 Raum und 50 % für 2 Räume); Bis zu 6 Räume sind geöffnet, eins pro Monitor  <br/> |
-|Anzahl von Teilnehmern, die pro Intervall abgerufen werden  <br/> |25 pro sichtbaren Chatroom  <br/> |
-|Länge des Abrufintervalls  <br/> |5 Minuten  <br/> |
-|Anzahl von Teilnehmern, die pro Sekunde abgerufen werden  <br/> |15.000  <br/> |
-|Anzahl von Änderungen des Anwesenheitsstatus pro Stunde und Benutzer  <br/> |6   <br/> |
-|Anzahl von Änderungen des Anwesenheitsstatus pro Sekunde  <br/> |133.33  <br/> |
+- Anzahl der verbundenen aktiven Benutzer: 80.000  <br/>
+- Anzahl der Dienstinstanzen für den Server für beständigen Chat: 4  <br/>
+- Größe kleiner Chatrooms: 30 Benutzer  <br/> 
+- Größe mittelgroßer Chatrooms: 150 Benutzer  <br/>
+- Größe großer Chatrooms: 16.000 Benutzer  <br/>
+- Gesamtzahl der Chatrooms: 33.077  <br/> 
+- Anzahl kleiner Chatrooms: 32.000  <br/> 
+- Anzahl der mittleren Chatrooms: 1.067  <br/> 
+- Anzahl der großen Chatrooms: 10  <br/> 
+- Gesamtzahl der Chatrooms pro Benutzer: 16  <br/> 
+- Anzahl kleiner Chatrooms pro Benutzer: 12  <br/> 
+- Anzahl der mittleren Chatrooms pro Benutzer: 2  <br/> 
+- Anzahl der großen Chatrooms pro Benutzer: 2  <br/> 
+- Anzahl der räume, die pro Benutzer verbunden sind: 24  <br/>
+- Spitzenverknüpfungsrate: 10/Sekunde  <br/> 
+- Gesamt-Chatrate: 24/Sekunde  <br/> 
+- Chatrate für kleine Chatrooms: 22,22/Sekunde  <br/> 
+- Chatrate für mittlere Chatrooms: 1,67/Sekunde  <br/> 
+- Chatrate für große Chatrooms: ~0,15/Sekunde  <br/> 
+- Prozentsatz der chatrooms für Einladungen konfiguriert: 50 %  <br/>
+- Prozentsatz der direkten Mitgliedschaften: 50 %  <br/>
+- Prozentsatz der Gruppenmitgliedschaften: 50 %  <br/> 
+- Durchschnittliche Anzahl von Vorgängermitgliedschaften in Active Directory Domain Services: 100 - 200  <br/>
+- Anzahl der abonnierten Kontakte pro Benutzer: 80  <br/> 
+- Durchschnittliche Anzahl von Endpunkten pro Benutzer: 1,5  <br/> 
+- Durchschnittliche Anzahl sichtbarer Chatrooms pro Endpunkt: 1,5  <br/> 
+- Durchschnittliche Anzahl der sichtbaren Chatrooms pro Benutzer: 2,25 (50 % für 1 Chatroom und 50 % für 2 Chatrooms); Bis zu 6 Räume sind geöffnet, eins pro Monitor  <br/> 
+- Anzahl der pro Intervall abgefragten Teilnehmer: 25 pro sichtbaren Chatroom  <br/> 
+- Dauer des Abrufintervalls: 5 Minuten  <br/> 
+- Anzahl der pro Sekunde abgefragten Teilnehmer: 15.000  <br/>
+- Anzahl der Anwesenheitsänderungen pro Stunde und Benutzer: 6  <br/> 
+- Anzahl der Anwesenheitsänderungen pro Sekunde: 133,33  
    
 

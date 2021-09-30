@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: 00dbb1105805b524f72ba5925abff7d36e61851b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c5e42bd498c1332d2b36c03ec661ae488fcf16aa
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730224"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015019"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
- Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams wird. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Teams Admin Center Apps verwalten anpassen **oder umbenennen.** Die Details können Sie anpassen:
+ Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams werden kann. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Teams Admin Center Apps verwalten anpassen **oder umbenennen.** Die Details können Sie anpassen:
 
 - Kurzname
 - Kurzbeschreibung
@@ -50,7 +50,9 @@ Details zu [den Feldern,](/microsoftteams/platform/resources/schema/manifest-sch
 Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginnen:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
+
 2. Erweitern Teams **Apps, und** wählen Sie **Apps verwalten aus.**
+
 3. Überprüfen Sie die **Spalte Anpassbar** der App-Liste, und sortieren Sie nach anpassbaren Apps.
 
    ![Die sortierte Spalte anpassen.](media/customize-column.png)
@@ -85,11 +87,11 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
 5. Erweitern Sie **den Bereich Symbol.**
 
-   a. Hochladen symbol. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
+   1. Hochladen sie ein Symbol aus. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
 
-   b. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie ein transparentes Gliederungspixel (32 x 32) im PNG-Format.
+   1. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie ein transparentes Gliederungspixel (32 x 32) im PNG-Format.
 
-   c. Wählen Sie eine App-Akzentfarbe aus, die dem Symbol entspricht.
+   1. Wählen Sie eine App-Akzentfarbe aus, die dem Symbol entspricht.
 
     ![Passen Sie die Farboptionen für den Symbolbereich an.](media/customize-app-colors.png)
 

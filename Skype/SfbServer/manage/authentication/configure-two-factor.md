@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c24e0891-e108-4cb6-9902-c6a4c8e68455
 description: 'Zusammenfassung: Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server.'
-ms.openlocfilehash: f4c8532d08a3ed6c06a702039eea224f231cbd06
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 447039a5dd137482c330325fcf479dade583f395
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612394"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014369"
 ---
 # <a name="configure-two-factor-authentication-in-skype-for-business-server"></a>Konfigurieren der zweistufigen Authentifizierung in Skype for Business Server
 
@@ -62,7 +62,7 @@ Informationen zum Installieren einer Enterprise Stammzertifizierungsstelle finde
 
     - Hinzufügen der Gruppe "Domänenbenutzer" mit Berechtigungen zum Lesen/Registrieren (Zulassen)
 
-## <a name="configure-windows-8-for-virtual-smart-cards"></a>Konfigurieren Windows 8 für virtuelle Smartcards
+## <a name="configure-windows-8-for-virtual-smart-cards"></a>Konfigurieren von Windows 8 für virtuelle Smartcards
 
 Ein Faktor, der bei der Bereitstellung von zweistufiger Authentifizierung und Smartcardtechnologie berücksichtigt werden muss, sind die Implementierungskosten. Windows 8 bietet eine Reihe neuer Sicherheitsfunktionen, und eines der interessanten neuen Features ist die Unterstützung virtueller Smartcards.
 
@@ -181,7 +181,7 @@ Weitere Informationen zur Registrierung im Namen von Benutzern als Registrierung
 Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD FS 2.0) zur Unterstützung der mehrstufigen Authentifizierung konfiguriert werden. Informationen zum Installieren von AD FS 2.0 finden Sie unter [AD FS 2.0 Schritt-für-Schritt und Anleitungen.](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))
 
 > [!NOTE]
-> Verwenden Sie bei der Installation von AD FS 2.0 nicht den Windows Server-Manager, um die Active Directory-Verbunddienste-Rolle hinzuzufügen. Laden Sie stattdessen das [RTW-Paket für Active Directory-Verbunddienste 2.0](https://go.microsoft.com/fwlink/p/?LinkId=313375)herunter, und installieren Sie es.
+> Verwenden Sie bei der Installation von AD FS 2.0 nicht den Windows Server-Manager, um die Active Directory-Verbunddienste-Rolle hinzuzufügen. Laden Sie stattdessen die [Active Directory-Verbunddienste](/troubleshoot/windows-server/identity/availability-description-afds)herunter, und installieren Sie sie.
 
 ### <a name="to-configure-ad-fs-for-two-factor-authentication"></a>So konfigurieren Sie AD FS für die zweistufige Authentifizierung
 
@@ -218,7 +218,7 @@ Im folgenden Abschnitt wird beschrieben, wie Active Directory-Verbunddienste (AD
 -IssuanceAuthorizationRules $IssuanceAuthorizationRules
   ```
 
-9. Erstellen Und zuweisen Sie eine Ausstellungstransformationsregel für die Vertrauensstellung der vertrauenden Seite mit Windows PowerShell, indem Sie die folgenden Befehle ausführen:
+9. Erstellen und zuweisen Sie eine Ausstellungstransformationsregel für die Vertrauensstellung der vertrauenden Seite mithilfe Windows PowerShell, indem Sie die folgenden Befehle ausführen:
 
   ```PowerShell
   $IssuanceTransformRules = '@RuleTemplate = "PassThroughClaims" @RuleName = "Sid" c:[Type == "https://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid"]=> issue(claim = c);'
@@ -264,7 +264,7 @@ Mithilfe der formularbasierten Authentifizierung können Sie eine Webseite entwi
 
 8. Verschieben Sie die Zeile, die den TLSClient-Authentifizierungstyp enthält, an den Anfang der Liste im Abschnitt.
 
-9. Speichern und schließen Sie die web.config Datei.
+9. Speichern und schließen Sie die datei web.config.
 
 10. Starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
 
@@ -274,24 +274,24 @@ Mithilfe der formularbasierten Authentifizierung können Sie eine Webseite entwi
   IISReset /Restart /NoForce
   ```
 
-## <a name="configuring-skype-for-business-server-passive-authentication"></a>Konfigurieren Skype for Business Server passiven Authentifizierung
+## <a name="configuring-skype-for-business-server-passive-authentication"></a>Konfigurieren der passiven Authentifizierung von Skype for Business Server
 
-Im folgenden Abschnitt wird beschrieben, wie Sie Skype for Business Server konfigurieren, um die passive Authentifizierung zu unterstützen. Nach der Aktivierung müssen Benutzer, die für die zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle Smartcard und eine gültige PIN verwenden, um sich mit dem Skype for Business Client anzumelden.
+Im folgenden Abschnitt wird beschrieben, wie Sie Skype for Business Server für die Unterstützung der passiven Authentifizierung konfigurieren. Nach der Aktivierung müssen Benutzer, die für die zweistufige Authentifizierung aktiviert sind, eine physische oder virtuelle Smartcard und eine gültige PIN verwenden, um sich mit dem Skype for Business-Client anzumelden.
 
 > [!NOTE]
 > Es wird dringend empfohlen, dass Kunden die passive Authentifizierung für Registrierungsstellen und Webdienste auf Dienstebene aktivieren. Wenn die passive Authentifizierung für Registrierungsstellen und Webdienste auf globaler Ebene aktiviert ist, führt dies wahrscheinlich zu organisationsweiten Authentifizierungsfehlern für Benutzer, die sich nicht mit dem unterstützten Desktopclient anmelden.
 
 ### <a name="web-service-configuration"></a>Webdienstkonfiguration
 
-In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Webdienstkonfiguration für Directors, Enterprise Pools und Standard Edition Server erstellen, die für die passive Authentifizierung aktiviert werden.
+In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Webdienstkonfiguration für Directors-, Enterprise Pools- und Standard Edition-Server erstellen, die für die passive Authentifizierung aktiviert werden.
 
 ### <a name="to-create-a-custom-web-service-configuration"></a>So erstellen Sie eine benutzerdefinierte Webdienstkonfiguration
 
-1. Melden Sie sich mit einem Skype for Business Administratorkonto bei Ihrem Skype for Business Server Front-End-Server an.
+1. Melden Sie sich mit einem Skype for Business-Administratorkonto bei Ihrem Skype for Business Server-Front-End-Server an.
 
 2. Starten Sie die Skype for Business Server-Verwaltungsshell.
 
-3. Erstellen Sie in der Befehlszeile der Skype for Business Server Verwaltungsshell eine neue Webdienstkonfiguration für jeden Director, Enterprise Pool und Standard Edition Server, der für die passive Authentifizierung aktiviert wird, indem Sie den folgenden Befehl ausführen:
+3. Erstellen Sie in der Befehlszeile der Skype for Business Server-Verwaltungsshell eine neue Webdienstkonfiguration für jeden Director, Enterprise Pool und Standard Edition-Server, der für die passive Authentifizierung aktiviert wird, indem Sie den folgenden Befehl ausführen:
 
   ```PowerShell
   New-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseWsFedPassiveAuth $true -WsFedPassiveMetadataUri https://dc.contoso.com/federationmetadata/2007-06/federationmetadata.xml
@@ -306,7 +306,7 @@ In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Web
   Get-CsWebServiceConfiguration -identity "Service:WebServer:SfBPool01.contoso.com" | format-list UseWsFedPassiveAuth, WsFedPassiveMetadataUri
   ```
 
-5. Für Clients ist die passive Authentifizierung die am wenigsten bevorzugte Authentifizierungsmethode für die Webticket-Authentifizierung. Für alle Directors-, Enterprise pools und Standard Edition Server, die für die passive Authentifizierung aktiviert werden, müssen alle anderen Authentifizierungstypen in Skype for Business Webdiensten deaktiviert werden, indem Sie das folgende Cmdlet ausführen:
+5. Für Clients ist die passive Authentifizierung die am wenigsten bevorzugte Authentifizierungsmethode für die Webticket-Authentifizierung. Für alle Directors-, Enterprise Pools- und Standard Edition-Server, die für die passive Authentifizierung aktiviert werden, müssen alle anderen Authentifizierungstypen in skype for Business-Webdiensten deaktiviert werden, indem Sie das folgende Cmdlet ausführen:
 
   ```PowerShell
   Set-CsWebServiceConfiguration -Identity "Service:WebServer:SfBPool01.contoso.com" -UseCertificateAuth $false -UsePinAuth $false -UseWindowsAuth NONE
@@ -320,13 +320,13 @@ In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Web
 
 ### <a name="proxy-configuration"></a>Proxykonfiguration
 
-Wenn die Zertifikatauthentifizierung für Skype for Business Webdienste deaktiviert ist, verwendet der Skype for Business-Client einen weniger bevorzugten Authentifizierungstyp wie Kerberos oder NTLM, um sich beim Registrierungsstellendienst zu authentifizieren. Die Zertifikatauthentifizierung ist weiterhin erforderlich, damit der Client ein Webticket abrufen kann. Kerberos und NTLM müssen jedoch für den Registrierungsstellendienst deaktiviert sein.
+Wenn die Zertifikatauthentifizierung für Skype for Business-Webdienste deaktiviert ist, verwendet der Skype for Business-Client einen weniger bevorzugten Authentifizierungstyp wie Kerberos oder NTLM, um sich beim Registrierungsstellendienst zu authentifizieren. Die Zertifikatauthentifizierung ist weiterhin erforderlich, damit der Client ein Webticket abrufen kann. Kerberos und NTLM müssen jedoch für den Registrierungsstellendienst deaktiviert sein.
 
-In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Proxykonfiguration für Edgepools, Enterprise Pools und Standard Edition Server erstellen, die für die passive Authentifizierung aktiviert werden.
+In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Proxykonfiguration für Edgepools, Unternehmenspools und Standard Edition-Server erstellen, die für die passive Authentifizierung aktiviert werden.
 
 ### <a name="to-create-a-custom-proxy-configuration"></a>So erstellen Sie eine benutzerdefinierte Proxykonfiguration
 
-1. Erstellen Sie in der Befehlszeile der Skype for Business Server Verwaltungsshell eine neue Proxykonfiguration für jeden Skype for Business Server Edgepool, Enterprise Pool und Standard Edition Server, der für die passive Authentifizierung aktiviert wird, indem Sie die folgenden Befehle ausführen:
+1. Erstellen Sie über die Befehlszeile der Skype for Business Server-Verwaltungsshell eine neue Proxykonfiguration für jeden Skype for Business Server Edge Pool, Enterprise Pool und Standard Edition-Server, der für die passive Authentifizierung aktiviert wird, indem Sie die folgenden Befehle ausführen:
 
   ```PowerShell
   New-CsProxyConfiguration -Identity "Service:EdgeServer:EdgePool01.contoso.com" -UseKerberosForClientToProxyAuth $False -UseNtlmForClientToProxyAuth $False
@@ -342,8 +342,8 @@ In den folgenden Schritten wird beschrieben, wie Sie eine benutzerdefinierte Pro
   Get-CsProxyConfiguration -Identity "Service:Registrar:SfBPool01.contoso.com" | format-list UseKerberosForClientToProxyAuth, UseNtlmForClientToProxyAuth, UseCertifcateForClientToProxyAuth
   ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten der zweistufigen Authentifizierung in Skype for Business Server](two-factor-authentication.md)
 
-[Verwenden der zweistufigen Authentifizierung mit Skype for Business Client und Skype for Business Server](use-two-factor.md)
+[Verwenden der zweistufigen Authentifizierung mit dem Skype for Business-Client und Skype for Business Server](use-two-factor.md)

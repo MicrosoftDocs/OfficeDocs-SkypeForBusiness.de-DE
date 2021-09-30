@@ -1,5 +1,5 @@
 ---
-title: Verwalten Sie Ihre Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams
+title: Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features in Microsoft Teams
 author: cichur
 ms.author: v-cichur
 manager: serdars
@@ -19,16 +19,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Netzwerkeinstellungen für Cloud-Sprachfeatures in Ihrer Microsoft Teams.
-ms.openlocfilehash: 701e3900980b628f66d9d62d3dade987fee821fe
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 571b2e2f4c502a41604b5e2660d7e59990dd49bb
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726574"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60015339"
 ---
-# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Verwalten Sie Ihre Netzwerktopologie für Cloud-Sprachfeatures in Microsoft Teams
+# <a name="manage-your-network-topology-for-cloud-voice-features-in-microsoft-teams"></a>Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features in Microsoft Teams
 
-Wenn Ihre Organisation standortbasiertes Routing für [Direct Routing](location-based-routing-plan.md) oder dynamische Notrufe [implementiert,](configure-dynamic-emergency-calling.md)müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Cloud-Sprachfeatures in Microsoft Teams. Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu ermitteln, und umfassen Netzwerkregionen, Netzwerkstandorte, Subnetze und vertrauenswürdige IP-Adressen. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Weitere Informationen zu diesen Begriffen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
+Wenn Ihre Organisation standortbasiertes Routing für [Direct Routing](location-based-routing-plan.md) oder dynamische Notrufe [implementiert,](configure-dynamic-emergency-calling.md)müssen Sie die Netzwerkeinstellungen für die Verwendung mit diesen Cloud-Sprachfeatures in Microsoft Teams. Netzwerkeinstellungen werden verwendet, um den Standort eines Teams-Clients zu ermitteln. Dazu gehören Netzwerkregionen, Netzwerkstandorte, Subnetze und vertrauenswürdige IP-Adressen. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Weitere Informationen zu diesen Begriffen finden Sie unter [Netzwerkeinstellungen für Cloud-Sprachfeatures.](cloud-voice-network-settings.md)
 
 Sie konfigurieren Netzwerkeinstellungen auf der **Seite Netzwerktopologie** im Microsoft Teams Admin Center oder mithilfe Windows PowerShell.
 
@@ -40,7 +40,7 @@ Auf der Registerkarte Netzwerkstandorte der Seite  **Netzwerktopologie** definie
 
 #### <a name="add-and-configure-a-network-site"></a>Hinzufügen und Konfigurieren einer Netzwerkwebsite
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie  >  dann auf die **Registerkarte Netzwerkwebsites.**
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Netzwerkwebsites.**
 2. Klicken **Sie auf** Hinzufügen , und geben Sie dann einen Namen und eine Beschreibung für die Website ein.
 
     ![Screenshot der Seite "Netzwerkwebsite hinzufügen"](media/manage-network-topology-add-site.png)
@@ -50,14 +50,14 @@ Auf der Registerkarte Netzwerkstandorte der Seite  **Netzwerktopologie** definie
 5. Wenn Sie der Website Richtlinien für Notdienste zuweisen möchten, gehen Sie wie folgt vor:
 
     - Wenn Ihre Organisation Anrufpläne verwendet oder Direktrouting Telefonsystem, wählen Sie unter Richtlinie für Notrufe die zu verwendende Richtlinie aus.
-    - Wenn Ihre Organisation Telefonsystem Direct Routing bereitgestellt hat, wählen Sie unter Richtlinie für Das Routing von Notrufen die zu verwendende Richtlinie aus.
+    - Wenn Ihre Organisation Telefonsystem Direct Routing bereitgestellt hat, wählen Sie unter Richtlinie für das Routing von Notrufen die zu verwendende Richtlinie aus.
 
 6. Wenn Sie dem Standort ein Subnetz zuordnen möchten, klicken Sie unter **Subnetze** auf **Subnetze hinzufügen**. Geben Sie die IP-Version, DIE IP-Adresse und den Netzwerkbereich an, fügen Sie eine Beschreibung hinzu, und klicken Sie dann auf **Übernehmen.** Jedes Subnetz muss einem bestimmten Standort zugeordnet sein.
 7. Klicken Sie auf **Speichern**.
 
 #### <a name="modify-a-network-site"></a>Ändern einer Netzwerkwebsite
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie  >  dann auf die **Registerkarte Netzwerkwebsites.**
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Netzwerkwebsites.**
 2. Wählen Sie die Website aus, indem Sie links des Websitenamens klicken und dann auf **Bearbeiten klicken.**
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 
@@ -67,7 +67,7 @@ Sie verwalten externe vertrauenswürdige IP-Adressen auf der Registerkarte **Ver
 
 #### <a name="add-a-trusted-ip-address"></a>Hinzufügen einer vertrauenswürdigen IP-Adresse
 
-1. Navigieren Sie im linken Navigationsbereich Microsoft Teams Admin Center zu Speicherorte-Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Vertrauenswürdige IPs.**
+1. Navigieren Sie im linken Navigationsbereich Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Vertrauenswürdige IPs.**
 2. Klicken Sie auf **Neu**.
 3. Geben Sie **im Bereich Vertrauenswürdige IP-Adresse** hinzufügen die IP-Version, die IP-Adresse und den Netzwerkbereich an, fügen Sie eine Beschreibung hinzu, und klicken Sie dann auf **Übernehmen.**
 
@@ -75,7 +75,7 @@ Sie verwalten externe vertrauenswürdige IP-Adressen auf der Registerkarte **Ver
 
 #### <a name="edit-a-trusted-ip-address"></a>Bearbeiten einer vertrauenswürdigen IP-Adresse
 
-1. Navigieren Sie im linken Navigationsbereich Microsoft Teams Admin Center zu Speicherorte-Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Vertrauenswürdige IPs.**
+1. Navigieren Sie im linken Navigationsbereich Microsoft Teams Admin Center zu Speicherorte Netzwerktopologie , und klicken Sie dann auf die Registerkarte  >   **Vertrauenswürdige IPs.**
 2. Wählen Sie die IP-Adresse aus, indem Sie links davon klicken und dann auf **Bearbeiten klicken.**
 3. Nehmen Sie **im Bereich Vertrauenswürdige IP-Adresse** bearbeiten die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Übernehmen.**
 
@@ -116,7 +116,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Hyderabad" -NetworkRegionID "India"
 
 Die folgende Tabelle zeigt die in diesem Beispiel definierten Netzwerkwebsites.
 
-||Website 1 |Website 2 |
+|&nbsp;|Website 1 |Website 2 |
 |---------|---------|---------|
 |Website-ID    |    Site 1 (Ing)     |  Site 2 (Hyderabad)       |
 |Gebietsnummer  |     Region 1 (Indien)    |   Region 1 (Indien)      |
@@ -140,7 +140,7 @@ New-CsTenantNetworkSubnet -SubnetID "2001:4898:e8:25:844e:926f:85ad:dd8e" -MaskB
 
 Die folgende Tabelle zeigt die in diesem Beispiel definierten Subnetze.
 
-||Website 1 |Website 2 |
+|&nbsp;|Website 1 |Website 2 |
 |---------|---------|---------|
 |Subnetz-ID   |    192.168.0.0     |  2001:4898:e8:25:844e:926f:85ad:dd8e     |
 |Mask  |     24    |   120      |
@@ -174,7 +174,7 @@ Verwenden Sie [das Cmdlet New-CsTenantTrustedIPAddress,](/powershell/module/skyp
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description> 
 ```
 
-Zum Beispiel:
+Zum Beispiel: 
 
 ```PowerShell
 New-CsTenantTrustedIPAddress -IPAddress 198.51.100.0 -MaskBits 30 -Description "Contoso address"  

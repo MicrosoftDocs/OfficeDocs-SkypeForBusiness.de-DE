@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Informieren Sie sich über die Bereitstellungsschritte, um die richtige Firmware zu erhalten, sie bei Bedarf zu aktualisieren, Lizenzen zuzuordnen und Einstellungen für Skype for Business Onlinetelefone zu konfigurieren.
-ms.openlocfilehash: d67badf0bd5ff27466315a5731c2ac9a2117f74e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9724677a3217b73b727a72343f35ebe51a4de09
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728014"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011899"
 ---
 # <a name="deploying-skype-for-business-online-phones"></a>Bereitstellen von Telefonen für Skype for Business Online
 
@@ -120,7 +120,7 @@ Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufp
     > [!NOTE]
     > PIN-Authentifizierung wird für Skype for Business Online in Verbindung mit LPE- und Partner-IP-Telefonen nicht unterstützt. 
   
-- **Verwendung eines PCs**: Wenn auf den PCs von Benutzern BToE-Software (Better Together over Ethernet) installiert und aktiviert ist, können sich die Benutzer über das Authentifizierungsfenster in ihrer Skype for Business-App für Windows bei ihrem Telefon anmelden. Weitere Informationen finden Sie unter Schritt 7 (optional) – Wenn Sie Gerätekopplung und [Better Together over Ethernet (BToE)](deploying-skype-for-business-online-phones.md#BK_BTOE) verwenden.
+- **Verwendung eines PCs**: Wenn auf den PCs von Benutzern BToE-Software (Better Together over Ethernet) installiert und aktiviert ist, können sich die Benutzer über das Authentifizierungsfenster in ihrer Skype for Business-App für Windows bei ihrem Telefon anmelden. Weitere [Informationen finden Sie unter Was ist Skype Operations Framework (SOF) und Skype Academy?.](https://techcommunity.microsoft.com/t5/skype-for-business-blog/what-is-skype-operations-framework-sof-and-skype-academy/ba-p/30506)
     
   > [!NOTE]
   > Die Benutzer müssen den Benutzernamen und das Kennwort der Organisation eingeben, um sich bei dem Telefon anzumelden. Für den Benutzernamen müssen sie das UPN-Format verwenden (zum Beispiel  <em>amosm@contoso.com</em>  ).
@@ -171,17 +171,19 @@ Weitere Informationen zu Anrufplänen finden Sie unter Telefonsystem [und Anrufp
     > LPE-Telefone für Skype for Business Online unterstützen nur die Anmeldung über USB-Tethering. 
   
 - **Unterstützte Bereitstellungen**: Die folgende Tabelle zeigt die unterstützten Authentifizierungstypen für die zurzeit unterstützten Bereitstellungsmodelle, beispielsweise Exchange-Integration, moderne Authentifizierung mit mehrstufiger Authentifizierung (Multi-factor Authentication, MFA) sowie Skype for Business Online und Skype for Business als lokale Bereitstellung.
-    
-|||||||
+
+  
+ 
+ 
+|Skype for Business |Exchange |Methode für die Anmeldung beim Telefon |Skype for Business-Zugriff |Exchange-Zugriff mit moderner Authentifizierung und deaktivierter MFA |Exchange-Zugriff mit moderner Authentifizierung und aktivierter MFA |
 |:-----|:-----|:-----|:-----|:-----|:-----|
-|**Skype for Business** <br/> |**Exchange** <br/> |**Methode für die Anmeldung beim Telefon** <br/> |**Skype for Business-Zugriff** <br/> |**Exchange-Zugriff mit moderner Authentifizierung und deaktivierter MFA** <br/> |**Exchange-Zugriff mit moderner Authentifizierung und aktivierter MFA** <br/> |
-|Online  <br/> |Online  <br/> |Webanmeldung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Online  <br/> |Online  <br/> |Benutzername/Kennwort  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Online  <br/> |Lokal  <br/> |Webanmeldung  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |
-|Online  <br/> |Lokal  <br/> |Benutzername/Kennwort  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Lokal  <br/> |Online/lokal  <br/> |PIN-Authentifizierung  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |
-|Lokal  <br/> |Online/lokal  <br/> |Benutzername/Kennwort  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |
-|Lokal  <br/> |Online/lokal  <br/> |Anmelden über PC (BToE)  <br/> |Ja  <br/> |Ja  <br/> |n/v  <br/> |
+|Online   |Online   |Webanmeldung   |Ja   |Ja   |Ja   |
+|Online   |Online   |Benutzername/Kennwort   |Ja   |Ja   |Nein   |
+|Online   |Lokal   |Webanmeldung   |Ja   |Nein   |Nein   |
+|Online   |Lokal   |Benutzername/Kennwort   |Ja   |Ja   |Nein   |
+|Lokal   |Online/lokal   |PIN-Authentifizierung   |Ja   |Nein   |Nein   |
+|Lokal   |Online/lokal   |Benutzername/Kennwort   |Ja   |Ja   |n/v   |
+|Lokal   |Online/lokal   |Anmelden über PC (BToE)  |Ja   |Ja   |n/v   |
    
 - **Telefonfunktionen**: Die Funktionen können sich je nach IP-Telefonpartner geringfügig unterscheiden. Den vollständigen Funktionssatz und weitere Informationen zu den Funktionen der einzelnen Telefonhersteller finden Sie unter Abrufen von Telefonen [für Skype for Business Online.](getting-phones-for-skype-for-business-online.md)
     
@@ -228,4 +230,3 @@ BToE kann für den Betrieb in zwei Modi konfiguriert werden:  *Automatisch*  (St
 
 [Verfügbarkeit von Land und Region für Audiokonferenz und Anrufpläne](/microsoftteams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans)
 
-  

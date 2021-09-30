@@ -13,25 +13,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.'
-ms.openlocfilehash: 06d44ec8ec46ceff07955eea8615bb00ed46c01c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8dce9edf44557632fc4e84188606152c76d646
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605744"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012179"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Konfigurieren der zu überwachenden Skype for Business Server Computer
 
-**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden Skype for Business Server 2019-Computer, und konfigurieren Sie den Computer als System Center Proxy.
+**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.
 
-Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie zuerst Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
+Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installieren eines Zertifikats auf einem Watcher-Knoten, der sich außerhalb des Umkreisnetzwerks befindet
 <a name="watcher_node_outside"> </a>
 
 System Center Operations Manager-Agents, die in einem Umkreisnetzwerk (z. B. einem Skype for Business Server Edgeserver), außerhalb des Unternehmens (z. B. einem externen Monitorknoten für synthetische Transaktionen) oder über eine Active Directory-Vertrauensstellungsgrenze ausgeführt werden, erfordern möglicherweise die Konfiguration eines System Center Operations Manager-Gatewayservers. Mit dieser Serverrolle können Agents, die keine Vertrauensstellung mit dem Stammverwaltungsserver haben, Warnungen auslösen. Ausführliche Informationen finden Sie unter [Verwalten von Gatewayservern in Operations Manager 2012.](/previous-versions/system-center/system-center-2012-R2/hh212823(v=sc.12))
 
-Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auch ein Zertifikat anfordern und konfigurieren, mit dem der Monitorknoten Warnungen an System Center Operations Manager senden kann. Um dieses Verfahren zu vereinfachen, hat das Operations Manager-Team eine Reihe an Dienstprogrammen erstellt, mit denen Sie den richtigen Typ des Zertifikats anfordern und auf dem Computer mit dem Watcher-Knoten installieren können. Ausführliche Informationen und das Herunterladen dieser Hilfsprogramme finden Sie unter ["Abrufen von Zertifikaten für nicht domänenverbundene Agents, die mit dem Assistenten zum Generieren von Zertifikaten erleichtert wurden".](https://go.microsoft.com/fwlink/p/?LinkID=267421&amp;amp;clcid=0x409)
+Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auch ein Zertifikat anfordern und konfigurieren, mit dem der Monitorknoten Warnungen an System Center Operations Manager senden kann. Um dieses Verfahren zu vereinfachen, hat das Operations Manager-Team eine Reihe an Dienstprogrammen erstellt, mit denen Sie den richtigen Typ des Zertifikats anfordern und auf dem Computer mit dem Watcher-Knoten installieren können. Ausführliche Informationen und das Herunterladen dieser Hilfsprogramme finden Sie unter ["Abrufen von Zertifikaten für nicht domänenverbundene Agents, die mit dem Assistenten zum Generieren von Zertifikaten erleichtert wurden".](https://techcommunity.microsoft.com/t5/system-center-blog/obtaining-certificates-for-non-domain-joined-agents-made-easy/ba-p/340467)
 
 ### <a name="installing-the-operation-manager-agent-files"></a>Installieren der Operations Manager-Agent-Dateien
 

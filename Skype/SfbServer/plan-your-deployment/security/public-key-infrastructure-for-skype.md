@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
 description: Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellt die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
-ms.openlocfilehash: 733b1bb946147edd184a7b0fecb16ffab2adba51
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b1e9e7844641fae3c864f9ae15e7a639cdeb8724
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627927"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014699"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Public Key-Infrastruktur für Skype for Business Server
  
@@ -31,7 +31,7 @@ Selbst wenn das Zertifikat gültige Informationen enthält, muss überprüft wer
 Jedes Zertifikat ist mit einem öffentlichen Schlüssel verknüpft. Der im Zertifikat genannte Server verfügt über einen entsprechenden privaten Schlüssel, der nur dem Server bekannt ist. Ein Client oder Server, der eine Verbindung herstellt, verwendet den öffentlichen Schlüssel zum Verschlüsseln zufällig gewählter Informationen und sendet diese an den Server. Wenn der Server die Informationen entschlüsselt und im Nur-Text-Format zurücksendet, kann die Einheit, die eine Verbindung herstellt, sicher sein, dass der Server über den privaten Schlüssel für das Zertifikat verfügt und es sich somit um den im Zertifikat genannten Server handelt.
   
 > [!NOTE]
-> Nicht alle öffentlichen Zertifizierungsstellen erfüllen die Anforderungen von Skype for Business Server Zertifikaten. Sehen Sie am besten in der Liste der zertifizierten Anbieter für öffentliche Zertifizierungsstellen nach. Ausführliche Informationen finden Sie unter [Unified Communications-Zertifikatpartner.](https://go.microsoft.com/fwlink/p/?LinkId=140898) 
+> Nicht alle öffentlichen Zertifizierungsstellen erfüllen die Anforderungen von Skype for Business Server Zertifikaten. Sehen Sie am besten in der Liste der zertifizierten Anbieter für öffentliche Zertifizierungsstellen nach. 
   
 ## <a name="crl-distribution-points"></a>Sperrlisten-Verteilungspunkte
 
@@ -39,6 +39,6 @@ Skype for Business Server erfordert, dass alle Serverzertifikate einen oder mehr
   
 ## <a name="enhanced-key-usage"></a>Erweiterte Schlüsselverwendung
 
-Skype for Business Server erfordert, dass alle Serverzertifikate die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) zum Zweck der Serverauthentifizierung unterstützen. Das Konfigurieren des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat für die Authentifizierung von Servern gültig ist. Diese EKU ist für MTLS unerlässlich. Es ist möglich, mehrere Einträge in der EKU zu haben, wodurch das Zertifikat für mehrere Zwecke aktiviert wird.
+Skype for Business Server erfordert, dass alle Serverzertifikate die erweiterte Schlüsselverwendung (Enhanced Key Usage, EKU) zum Zweck der Serverauthentifizierung unterstützen. Das Konfigurieren des EKU-Felds für die Serverauthentifizierung bedeutet, dass das Zertifikat zum Authentifizieren von Servern gültig ist. Diese EKU ist für MTLS unerlässlich. Es ist möglich, mehrere Einträge in der EKU zu haben, wodurch das Zertifikat für mehrere Zwecke aktiviert wird.
   
 

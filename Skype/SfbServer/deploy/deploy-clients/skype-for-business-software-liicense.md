@@ -1,5 +1,5 @@
 ---
-title: Skype Softwarelizenz für Raumsystem Skype for Business
+title: Skype Softwarelizenz für Room System Skype for Business
 ms.author: v-cichur
 author: cichur
 manager: serdars
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen.
-ms.openlocfilehash: 23ea556a8afd7160e20a1ddd0b4e1d044761d4d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583329"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011529"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business-Softwarelizenz
  
@@ -27,11 +27,9 @@ Skype Room System verwendet einen installierten Skype for Business-Client, für 
   
 ## <a name="key-management-servers-kms"></a>Schlüsselverwaltungsserver (KMS)
 
-Wenn KMS vorhanden sind und Skype for Business Volumenlizenzaktivierungen verteilen, aktiviert das Skype Raumsystem automatisch den Skype for Business Client. So finden Sie heraus, ob KMS vorhanden sind:
+Wenn KMS vorhanden sind und Skype for Business Volumenlizenzaktivierungen verteilen, aktiviert das Skype Raumsystem automatisch den Skype for Business Client. So ermitteln Sie, ob KMS vorhanden sind:
   
 Führen Sie an einer Eingabeaufforderung Folgendes aus:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
-  
-Weitere Informationen finden Sie unter [Ermitteln von Office und Windows KMS Hosts über DNS und Entfernen nicht autorisierter Instanzen.](https://blogs.technet.com/b/odsupport/archive/2011/11/14/how-to-discover-kms-hosts-via-a-dns-query-and-remove-them-if-need-be.aspx) 
   
 Informationen zum Einrichten einer KMS finden Sie unter [KMS Aktivierung von Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) und [GVLKs für KMS und Active Directory-Aktivierung von Office 2013](/DeployOffice/vlactivation/gvlks)
   

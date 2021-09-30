@@ -45,11 +45,11 @@
 |------|------------|--------|
 | 9/13/2021 | [Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
 | 9/13/2021 | [Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams](/MicrosoftTeams/class-insights) | Geändert |
-| 9/13/2021 | [Für Direct Routing zertifizierte Sitzungsrahmencontroller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
+| 9/13/2021 | [Für Direct Routing zertifizierte Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 9/13/2021 | [Verwalten Ihrer Apps im Microsoft Teams Admin Center](/MicrosoftTeams/manage-apps) | Geändert |
 | 9/14/2021 | [Für Direct Routing zertifizierte Sitzungsrahmencontroller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
 | 9/14/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
-| 9/15/2021 | [Verwalten der Teilnahmeerfahrung für Teams Besuche in mobilen Browsern](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Geändert |
+| 9/15/2021 | [Verwalten der Teilnahmeerfahrung für virtuelle Teams-Besuche in mobilen Browsern](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Geändert |
 | 9/16/2021 | [Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
 | 9/16/2021 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
 | 9/17/2021 | [Audiokonferenz mit Minutenabrechnung](/MicrosoftTeams/audio-conferencing-pay-per-minute) | Geändert |
@@ -80,8 +80,8 @@
 | 9/8/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
 | 9/8/2021 | [Abmessungen und Maße – Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/dimensions-and-measures-available-in-call-quality-dashboard) | Geändert |
 | 9/8/2021 | [Teams für virtuelle Besuche](/MicrosoftTeams/expand-teams-across-your-org/healthcare/ehr-admin) | Geändert |
-| 9/8/2021 | [Verwalten der Teilnahmeerfahrung für Teams Besuche in mobilen Browsern](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Hinzugefügt |
-| 9/8/2021 | [Vertraulichkeitsbeschriftungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
+| 9/8/2021 | [Verwalten der Teilnahmeerfahrung für virtuelle Teams-Besuche in mobilen Browsern](/MicrosoftTeams/expand-teams-across-your-org/mobile-browser-join) | Hinzugefügt |
+| 9/8/2021 | [Vertraulichkeitsbezeichnungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
 | 9/8/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
 | 9/9/2021 | [Verwalten von Besprechungsrichtlinien für Aufzeichnung und Transkription](/MicrosoftTeams/meetings-policies-recording-and-transcription) | Hinzugefügt |
 | 9/9/2021 | [Konfigurieren von ServiceNow für Teams-Räume](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Hinzugefügt |
@@ -95,7 +95,7 @@
 | 9/9/2021 | [Microsoft Teams – Datenschutz](/MicrosoftTeams/teams-privacy) | Geändert |
 | 9/9/2021 | [Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App](/MicrosoftTeams/expand-teams-across-your-org/bookings-virtual-visits) | Hinzugefügt |
 | 9/9/2021 | [Erstellen einer Anrufwarteschleife in Microsoft Teams](/MicrosoftTeams/create-a-phone-system-call-queue) | Geändert |
-| 9/9/2021 | [Erste Schritte mit Teams im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
+| 9/9/2021 | [Erste Schritte mit Teams für Organisationen im Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc) | Geändert |
 | 9/10/2021 | [Musik im Halteraum](/MicrosoftTeams/music-on-hold) | Hinzugefügt |
 | 9/10/2021 | [Konfigurieren von ServiceNow für Teams-Räume](/MicrosoftTeams/rooms/microsoft-teams-rooms-configure-servicenow) | Geändert |
 | 9/10/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |

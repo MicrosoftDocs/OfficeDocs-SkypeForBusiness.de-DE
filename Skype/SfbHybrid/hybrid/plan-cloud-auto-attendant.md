@@ -12,22 +12,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.collection: ''
 description: Übersicht über die Verwendung einer automatischen Cloudtelefonzentrale mit Skype for Business Server 2019
-ms.openlocfilehash: 19be069ac5f61c9fb2b81df76156e6752350073b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ee79c52b8aaf4518511a51cea95b16d32008694c
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728434"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011509"
 ---
 # <a name="plan-cloud-auto-attendants"></a>Planen automatischer Cloud-Telefonzentralen
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]
 
-Die automatische Telefonzentrale, die mit Exchange Unified Messaging (Exchange Server 2013 oder Exchange Server 2016) verwendet wird, ist in Exchange Server 2019 oder Exchange Online nicht mehr verfügbar. Wenn Ihre Implementierung von Skype for Business Server 2019 in eine dieser Exchange Versionen integriert ist, müssen Sie die Online-Cloud voice-Features verwenden, die Telefonsystem zugeordnet sind. Informationen zum Verschieben von Exchange UM-Diensten, die auf Exchange Server 2013 und 2016 verwaltet werden, finden Sie unter [Plan for Skype for Business Server and Exchange Server migration.](plan-um-migration.md)
+Die automatische Telefonzentrale, die mit Exchange Unified Messaging (Exchange Server 2013 oder Exchange Server 2016) verwendet wird, ist in Exchange Server 2019 oder Exchange Online nicht mehr verfügbar. Wenn Ihre Implementierung von Skype for Business Server 2019 in eine dieser Exchange Versionen integriert ist, müssen Sie die Online-Cloud voice-Features verwenden, die Telefonsystem zugeordnet sind. Unter [Plan for Skype for Business Server and Exchange Server migration](plan-um-migration.md) for information about moving Exchange UM services homed on Exchange server 2013 and 2016 to the cloud.
 
 Dies bedeutet inhärent, dass Sie über eine hybride Implementierung von Skype for Business Server 2019 verfügen, wenn Sie Unified Messaging-Features wie automatische Telefonzentralen verwenden möchten. Weitere Informationen finden Sie unter Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
 
-Eine automatische Telefonzentrale ist ein Clouddienst, der Kundenanrufe akzeptiert und Begrüßungen abgibt, ihnen Menüoptionen bereitstellt und mit Anrufern per Sprache oder der Wähltastatur interagiert, um ihre Anrufe an das richtige Ziel weiterzuleiten. Jeder automatischen Telefonzentrale wird ein *Ressourcenkonto* (siehe ["Ressourcenkonten konfigurieren")](configure-onprem-ra.md)auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer automatischen Telefonzentrale im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen dazu, was automatische [Telefonzentralen](/SkypeForBusiness/what-is-phone-system-in-office-365/what-are-phone-system-auto-attendants.md) sind und welche Optionen und Features für automatische Telefonzentralen vorhanden sind, finden Sie unter "Was sind automatische Cloudtelefonzentralen".
+Eine automatische Telefonzentrale ist ein Clouddienst, der Kundenanrufe akzeptiert und Begrüßungen abgibt, ihnen Menüoptionen bereitstellt und mit Anrufern per Sprache oder der Wähltastatur interagiert, um ihre Anrufe an das richtige Ziel weiterzuleiten. Jeder automatischen Telefonzentrale wird ein *Ressourcenkonto* (siehe ["Ressourcenkonten konfigurieren")](configure-onprem-ra.md)auf Ihrem Skype for Business Server 2019-System zugewiesen, das direkt mit einer automatischen Telefonzentrale im Microsoft Teams Admin Center verknüpft wird. Weitere Informationen dazu, was automatische Telefonzentralen sind und welche Optionen und Features für automatische Telefonzentralen vorhanden sind, finden Sie unter "Einrichten einer automatischen [Telefonzentrale".](/microsoftteams/create-a-phone-system-auto-attendant)
 
 > [!NOTE]
 > Sie können einer automatischen Telefonzentrale mehrere Microsoft-Dienstnummern, Direct Routing-Nummern oder Hybridnummern zuweisen.
@@ -37,7 +37,7 @@ Ein eingehender Anruf bei einer automatischen Cloudtelefonzentrale kann einen vo
 ![Diagramm für automatische Telefonzentralen.](../../SfBServer2019/media/AA-plan-concept.png)
 
 1. Über Skype for Business Server 2019
-2. Über einen [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers.md) und Direct [Routing](/MicrosoftTeams/direct-routing-plan.md)
+2. Über einen [Session Border Controller](/MicrosoftTeams/direct-routing-border-controllers) und Direct [Routing.](/microsoftteams/direct-routing-plan-media-bypass)
 3. Über eine Onlinenummer in Microsoft 365 oder Office 365.
 
 Siehe auch:
@@ -49,18 +49,18 @@ Siehe auch:
 
 Bei den folgenden Anforderungen wird davon ausgegangen, dass Sie bereits Skype for Business Server 2019 in einer unterstützten Topologie bereitgestellt haben.  Ihre Anforderungen hängen von Ihrem Szenario ab:
 
-- Wenn Sie bereits Exchange UM online oder lokal verwenden und auf Skype for Business 2019 aktualisieren, müssen Sie die Struktur Ihrer automatischen Telefonzentralen erfassen und sie mithilfe der automatischen Cloudtelefonzentralen in der Cloud neu erstellen. Weitere Informationen finden Sie unter [Verschieben einer Exchange automatischen UM-Telefonzentrale oder Anrufwarteschleife in Telefonsystem.](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)
+- Wenn Sie bereits Exchange UM online oder lokal verwenden und auf Skype for Business 2019 aktualisieren, müssen Sie die Struktur Ihrer automatischen Telefonzentralen erfassen und mithilfe automatischer Cloudtelefonzentralen in der Cloud neu erstellen. Weitere Informationen finden Sie unter [Verschieben einer Exchange automatischen UM-Telefonzentrale oder Anrufwarteschleife in Telefonsystem](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system).
 
 - Führen Sie für eine neue Konfiguration der automatischen Cloudtelefonzentralen die unter  [Konfigurieren von Ressourcenkonten](configure-onprem-ra.md)beschriebenen Schritte aus.
 
 Zusätzlich zu den oben genannten Anforderungen müssen die folgenden Anforderungen so konfiguriert werden, dass eine Verbindung mit dem automatischen Telefonzentralendienst von Microsoft Cloud hergestellt wird:
 
-- Hybridkonnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und die automatische Cloudtelefonzentrale für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass eine Hybridkonnektivität zwischen Ihrer lokalen und Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
+- Hybridkonnektivität. Wenn Sie bereits Skype for Business Server bereitgestellt haben und die automatische Cloudtelefonzentrale für Ihre lokalen Benutzer aktivieren möchten, müssen Sie sicherstellen, dass die Hybridkonnektivität zwischen Ihrer lokalen und Onlineumgebung eingerichtet ist. Dies wird manchmal als Konfiguration für geteilte Domänen bezeichnet.
 
-   Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365.](configure-hybrid-connectivity.md)
+   Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](plan-hybrid-connectivity.md) und Konfigurieren der [Hybridkonnektivität zwischen Skype for Business Server und Microsoft 365 oder Office 365](configure-hybrid-connectivity.md).
 
 - Wenn Sie Ihrer automatischen Telefonzentrale eine Telefonnummer zuweisen, benötigen Sie eine [Office 365 Enterprise E5-Lizenz.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/office-365-enterprise-e5-with-audio-conferencing.md)
-- Erstellen Sie ein [Onlineressourcenkonto](/MicrosoftTeams/manage-resource-accounts.md) oder ein lokales [Ressourcenkonto](configure-onprem-ra.md) für jede automatische Telefonzentrale, und weisen Sie Telefonnummern und Lizenzen zu. 
+- Erstellen Sie ein [Onlineressourcenkonto](/MicrosoftTeams/manage-resource-accounts) oder ein lokales [Ressourcenkonto](configure-onprem-ra.md) für jede automatische Telefonzentrale, und weisen Sie Telefonnummern und Lizenzen zu. 
 
 ## <a name="migration-and-interoperability"></a>Migration und Interoperabilität
 
@@ -78,25 +78,25 @@ Microsoft empfiehlt die folgenden Migrationspfade:
 
 - Wenn Sie ein Upgrade auf Exchange Server 2019 durchführen und frühere Versionen von Exchange Server UM für Skype for Business Server Voice messaging verwenden, empfiehlt Microsoft, vor dem Postfachupgrade auf Skype for Business Server 2019 zu aktualisieren.  Andernfalls geht die Sprachnachrichtenfunktion verloren.
 
-Weitere Informationen zum Planen der Migration finden Sie unter [Planen der Skype for Business Server und Exchange Server Migration.](plan-um-migration.md)
+Weitere Informationen zum Planen Der Migration finden Sie unter [Planen der Skype for Business Server und Exchange Server Migration.](plan-um-migration.md)
 
 ### <a name="migrating-a-previously-implemented-exchange-um-auto-attendant-system"></a>Migrieren eines zuvor implementierten Exchange automatischen UM-Telefonzentralensystems
 
-Derzeit unterstützen wir keine automatisierte Migration in die Cloud eines automatischen UM-Telefonzentralensystems, das in Exchange 2013 oder 2016 erstellt wurde. Um ein automatisches Telefonzentralensystem manuell neu zu erstellen, müssen Sie Folgendes tun:
+Derzeit unterstützen wir keine automatisierte Migration eines automatischen UM-Telefonzentralensystems in die Cloud, das in Exchange 2013 oder 2016 erstellt wurde. Um ein automatisches Telefonzentralensystem manuell neu zu erstellen, müssen Sie Folgendes tun:
 
 1. Verwenden Sie Exchange PowerShell-Administratorbefehle, um die Struktur des alten automatischen Telefonzentralensystems zu überprüfen, einschließlich geschachtelter automatischer Telefonzentralen und Anrufwarteschleifen.  
 2. Erstellen Sie Kopien von Text-zu-Sprache-Skripts oder aufgezeichneten Nachrichten, die jedem Knoten der automatischen UM-Telefonzentrale zugeordnet sind.
 3. Erstellen Sie lokale Endpunkte für jeden Knoten der automatischen Telefonzentrale, einschließlich der Zuweisung von Testtelefonnummern und Lizenzen zu den Objekten. Beachten Sie, dass Sie jetzt die Möglichkeit haben, lokale Telefonnummernlizenzen zuzuweisen, die von Onlinediensten wie Telefonsystem verwendet werden.
 4. Implementieren Sie einen neuen automatischen Cloudtelefonzentralendienst mit Microsoft Teams und Telefonsystem. Details zur Implementierung finden Sie unter [Konfigurieren von Ressourcenkonten.](configure-onprem-ra.md) Laden Sie dabei die Text-zu-Sprache-Skripts oder aufgezeichneten Nachrichten hoch, die jedem Knoten der automatischen UM-Telefonzentrale zugeordnet sind.
 5. Testen Sie die Funktionalität der automatischen Cloudtelefonzentrale.
-6. Weisen Sie die Telefonnummer, die der alten Exchange automatischen UM-Telefonzentrale zugewiesen wurde, der neu erstellten automatischen Haupttelefonzentrale der Cloud neu zu.
+6. Weisen Sie die Telefonnummer, die der alten Exchange automatischen UM-Telefonzentrale zugewiesen wurde, der neu erstellten automatischen Haupttelefonzentrale für die Cloud neu zu.
 
-Weitere Informationen zu diesen Schritten finden Sie unter [Verschieben einer Exchange automatischen UM-Telefonzentrale oder Anrufwarteschleife in Telefonsystem.](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)
+Weitere Informationen zu diesen Schritten finden Sie unter [Verschieben einer automatischen UM-Telefonzentrale oder Anrufwarteschleife in Exchange Telefonsystem.](configure-onprem-ra.md#moving-an-exchange-um-auto-attendant-or-call-queue-to-phone-system)
 
 Wenn Sie über eine solide Struktur verfügen, die Ihren Anforderungen entspricht, und ein Skript, das Kunden effizient führt, fahren Sie mit [dem Konfigurieren von Ressourcenkonten](configure-onprem-ra.md)fort.
 
 > [!CAUTION]
-> Wie in [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)erwähnt, wird davon abgeraten, Exchange in Server 2015 erstellten automatischen UM-Telefonzentralen auf Server mit Server 2019 zu verschieben. Derzeit müssten Sie sie in einem Skype for Business Server 2015-Pool behalten, der im Koexistenzmodus ausgeführt wird.
+> Wie in [KB4480742](https://support.microsoft.com/help/4480742/call-failures-and-500-server-internal-error-after-migration-to-2019)erwähnt, wird davon abgeraten, Exchange in Server 2015 erstellten automatischen UM-Telefonzentralen auf Server mit Server 2019 zu verschieben. Sie müssten sich vorerst in einem Skype for Business Server 2015-Pool befinden, der im Koexistenzmodus ausgeführt wird.
 
 ## <a name="see-also"></a>Siehe auch
 

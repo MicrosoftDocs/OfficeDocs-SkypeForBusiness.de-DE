@@ -19,12 +19,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine VoIP-Richtlinie für Benutzer zuweisen, die Telefonsystem mit lokaler PSTN-Konnektivität verwenden.'
-ms.openlocfilehash: a3524c77cf27dc4fd9ab3a4f74211fc9040aad75
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582539"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013169"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Zuweisen einer VoIP-Routingrichtlinie
  
@@ -35,12 +35,12 @@ ms.locfileid: "58582539"
   
 Sobald ein Benutzer Skype for Business Online ist und Telefonsystem mit lokaler PSTN-Konnektivität verwendet, gelten zwei VoIP-Richtlinien für sie. Eine ist eine lokale VoIP-Routingrichtlinie, die Sie lokal zuweisen. Diese Richtlinie kann global oder benutzerspezifisch sein und definiert, welche PSTN-Verwendungsdatensätze dem Benutzer zugeordnet sind. In diesem Thema wird erläutert, wie Diese Richtlinie zugewiesen wird.
   
-Die andere VoIP-Richtlinie definiert, welche Anruffunktionen für den Benutzer verfügbar sind. Diese VoIP-Richtlinie wird von Microsoft definiert und ist für alle Telefonsystem mit lokalen PSTN-Verbindungsbenutzern identisch. Es wird automatisch Telefonsystem Benutzern zugewiesen.
+Die andere VoIP-Richtlinie definiert, welche Anruffunktionen für den Benutzer verfügbar sind. Diese VoIP-Richtlinie wird von Microsoft definiert und ist für alle Telefonsystem mit lokalen PsTN-Konnektivitätsbenutzern identisch. Es wird automatisch Telefonsystem Benutzern zugewiesen.
   
-||**Lokaler Benutzer**|**Telefonsystem mit lokalen PSTN-Verbindungsbenutzern**|
+|&nbsp;|Lokaler Benutzer|Telefonsystem mit lokalen PSTN-Verbindungsbenutzern|
 |:-----|:-----|:-----|
-|Anruffunktionen, die in  <br/> |VoIP-Richtlinie  <br/> |Vordefinierte VoIP-Richtlinie, die automatisch zugewiesen wird, wenn der Benutzer für Telefonsystem lizenziert ist.  <br/> |
-|PSTN-Verwendungsdatensätze, die mit  <br/> |VoIP-Richtlinie  <br/> |VoIP-Routingrichtlinie, die zugewiesen wird, während der Benutzer weiterhin lokal verwaltet wird.  <br/> |
+|Anruffunktionen, die in   |VoIP-Richtlinie   |Vordefinierte VoIP-Richtlinie, die automatisch zugewiesen wird, wenn der Benutzer für Telefonsystem lizenziert ist.   |
+|PSTN-Verwendungsdatensätze, die mit   |VoIP-Richtlinie   |VoIP-Routingrichtlinie, die zugewiesen wird, während der Benutzer weiterhin lokal verwaltet wird.   |
    
 Sie führen die folgenden Schritte mit Ihrer lokalen Bereitstellung aus, während der Benutzer weiterhin in der lokalen Bereitstellung verwaltet wird.
   
@@ -52,7 +52,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihre Telefonsystem mit lokale
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Fügen Sie der Richtlinie die PSTN-Verwendungsdatensätze hinzu:
     
@@ -60,7 +60,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihre Telefonsystem mit lokale
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    Zum Beispiel:
+    Zum Beispiel: 
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -72,7 +72,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihre Telefonsystem mit lokale
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Erstellen Sie eine neue VoIP-Routingrichtlinie:
     
@@ -80,7 +80,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihre Telefonsystem mit lokale
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    Zum Beispiel:
+    Zum Beispiel: 
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -96,7 +96,7 @@ Unabhängig davon, ob Sie die globale VoIP-Routingrichtlinie oder benutzerspezif
 
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Weisen Sie einem Benutzer eine vorhandene VoIP-Richtlinie zu:
     
@@ -104,7 +104,7 @@ Unabhängig davon, ob Sie die globale VoIP-Routingrichtlinie oder benutzerspezif
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    Zum Beispiel:
+    Zum Beispiel: 
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice
@@ -112,4 +112,4 @@ Unabhängig davon, ob Sie die globale VoIP-Routingrichtlinie oder benutzerspezif
 
 In diesem Beispiel wird der Benutzer mit dem Anzeigenamen Bob Kelly der zuvor erstellten VoIP-Richtlinie mit dem Namen "HybridVoice" zugewiesen.
   
-Weitere Informationen zu VoIP-Routingrichtlinien finden Sie unter [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business 2015](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md), [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps)und [Grant-CsVoicePolicy](/powershell/module/skype/grant-csvoicepolicy?view=skype-ps).
+Weitere Informationen zu VoIP-Routingrichtlinien finden Sie unter [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business 2015,](../../deploy/deploy-enterprise-voice/voice-policy-and-pstn-usage-records.md) [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy)und [Grant-CsVoicePolicy.](/powershell/module/skype/grant-csvoicepolicy)

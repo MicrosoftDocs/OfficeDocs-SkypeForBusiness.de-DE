@@ -20,13 +20,13 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Audio Conferencing
-description: 'Erfahren Sie, was Sie über PINs wissen sollten und wie Sie diese in Ihrer Skype for Business können. '
-ms.openlocfilehash: 22a95c12f1ffe05899194fa357fe33e619f337d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Erfahren Sie, was Sie über PINs wissen sollten und wie Sie diese in Ihrer Skype for Business zurücksetzen. '
+ms.openlocfilehash: c3e33655a5d92dbc24522611a1551c4240c4c228
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594285"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011929"
 ---
 # <a name="reset-the-audio-conferencing-pin-in-skype-for-business-online"></a>Zurücksetzen der Audiokonferenz-PIN in Skype for Business Online
 
@@ -57,8 +57,8 @@ Besprechungen können gestartet werden, wenn ein authentifizierter Benutzer mit 
 Benutzer können eine PIN mithilfe der Option **PIN** zurücksetzen auf der Seite für **Einwahlkonferenzen** zurücksetzen. Auf diese Seite kann auf eine von drei Arten zugegriffen werden:
 
 * Wechseln Sie in einem Browser zu [https://mysettings.lync.com/pstncalling](https://mysettings.lync.com/pstncalling) .
-* Klicken Skype for Business unter Optionen  auf den Pfeil Menü anzeigen, und klicken Sie dann **auf** Tools für Einwahlkonferenzen  >  **Einstellungen.**
-* Klicken Skype for Business im linken Menü  auf Optionen **,** klicken Sie im linken Menü auf Anruf weiterleiten, und klicken Sie dann im Abschnitt Weitere Anruf **Einstellungen** auf Einstellungen **online bearbeiten**. 
+* Klicken Skype for Business auf den  Pfeil Menü anzeigen neben Optionen **,** und klicken Sie dann auf **Extras**  >  **Einwahlkonferenz Einstellungen.**
+* Klicken Skype for Business Im linken Menü  auf Optionen **,** klicken Sie im linken Menü auf Anruf weiterleiten, und klicken Sie dann im Abschnitt Weitere Anruf **Einstellungen** auf Einstellungen **online bearbeiten**. 
 
 ## <a name="what-else-should-you-know-about-pins"></a>Was sollten Sie sonst über PINs wissen?
 
@@ -74,7 +74,7 @@ Benutzer können eine PIN mithilfe der Option **PIN** zurücksetzen auf der Seit
     
 - Wenn Sie Audiokonferenzen einrichten, legen Sie die Ziffern fest, die für die PINs in Ihrer Organisation erforderlich sind. PINs können 4 bis 12 Ziffern enthalten, standardmäßig werden 5 Ziffern verwendet. Wenn Sie die PIN-Längeneinstellung ändern, wird die Einstellung nur auf neu generierte PINs angewendet und nicht auf PIN-Einstellungen für vorhandene Benutzer, die für Audiokonferenzen aktiviert sind. Weitere [Informationen finden Sie unter Festlegen der Länge der PIN für Audiokonferenzbesprechungen.](Set-the-PIN-length-for-Audio-Conferencing-meetings.md)
     
-- Die E-Mail wird standardmäßig auf die primäre SMTP Microsoft 365 oder Office 365 SMTP-Adresse des Benutzers festgelegt. Sie können eine E-Mail an eine nicht Microsoft 365-Mail-Adresse Office 365, z. B. eine E-Hotmail MSN-Adresse, senden. Sie können die standardmäßige E-Mail-Adresse außer Kraft setzen, indem Sie Windows PowerShell. Dies ist nützlich, wenn die Benutzer kein Postfach in Exchange Postfächern Microsoft 365 oder Office 365.
+- Die E-Mail wird standardmäßig auf die Adresse Microsoft 365 oder Office 365 SMTP-Adresse des Benutzers festgelegt. Sie können eine E-Mail an eine Nicht-Microsoft 365-Adresse Office 365, z. B. eine E-Hotmail MSN-Adresse, senden. Sie können die standardmäßige E-Mail-Adresse über Windows PowerShell. Dies ist nützlich, wenn die Benutzer nicht über ein Postfach Exchange In Microsoft 365 Postfach Office 365.
     
 - Zum Überschreiben der Standardbenutzeradresse, an die die E-Mail gesendet wird, kann der Mandantenadministrator das folgende Cmdlet verwenden: Set-CsOnlineDialInConferencingUser -amos.marble -ResetLeaderPIN -SendEmail -SendEmailToAddress "u@hotmail.com". Der Parameter SendEmail ist erforderlich, um die E-Mail-Adresse des Benutzers zu überschreiben.
     
@@ -94,7 +94,7 @@ Benutzer können eine PIN mithilfe der Option **PIN** zurücksetzen auf der Seit
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+- Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität, z. B. wenn Sie die Einstellungen für viele Benutzer gleichzeitig ändern. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
     
   - [Einführung in Windows PowerShell und Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
@@ -103,7 +103,7 @@ Benutzer können eine PIN mithilfe der Option **PIN** zurücksetzen auf der Seit
   - [Verwenden von Windows PowerShell für die Durchführung gängiger Verwaltungsaufgaben von Skype for Business Online](../set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
     
     > [!NOTE]
-    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter [Windows PowerShell-Modul für Skype for Business Online](https://go.microsoft.com/fwlink/?LinkId=294688) heruntergeladen werden.
+    > Mithilfe des Windows PowerShell-Moduls für Skype for Business Online können Sie eine Windows PowerShell-Remotesitzung erstellen, bei der eine Verbindung mit Skype for Business Online hergestellt wird. Dieses Modul, das nur von 64-Bit-Computern unterstützt wird, kann im Microsoft Download Center unter Herunterladen und Installieren des Teams [PowerShell-Moduls heruntergeladen werden.](../set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 

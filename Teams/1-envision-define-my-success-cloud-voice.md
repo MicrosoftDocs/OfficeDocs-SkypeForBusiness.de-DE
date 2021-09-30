@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 749cea72707f03b738330a39457d95fdfad33a43
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4e669e0454f65ef4d3d5ecc0b4832b33201d2703
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609062"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011759"
 ---
 # <a name="define-my-success"></a>Definieren der Erfolgskriterien
 
@@ -32,11 +32,11 @@ Dieser Artikel enthält eine Übersicht über die Anforderungen für die Definit
 
 <!--ENDOFSECTION-->
 
-**Audiokonferenzen** bieten Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (ad hoc oder geplant), indem Sie es den Besprechungsteilnehmern ermöglichen, über ein festgeschaltetes Telefonnetz (PSTN) durch Einwählen über ein herkömmliches Festnetztelefon, eine Private Branch Exchange (PBX) oder ein Mobiltelefon teilzunehmen. Dies ist nützlich, wenn der Organisator oder die Teilnehmer nicht vor einem Computer sind oder wenn Datenverbindungen nicht verfügbar sind oder zu unzuverlässig sind, um Sprachkommunikation zu unterstützen – z. B. in einem Remotebereich mit geringer Abdeckung mobiler Daten, in Verbindung mit einem kostenlosen öffentlichen Wi-Fi-Dienst mit begrenzter Bandbreite oder wenn besprechungsteilnehmer es vorziehen, sich über einen Telefonieendpunkt einwählen, auf den sie schnell zugreifen können.
+**Audiokonferenzen** bieten Organisationen zusätzliche Einstiegspunkte für alle Besprechungen (ad hoc oder geplant), indem Sie es den Besprechungsteilnehmern ermöglichen, über ein festgeschaltetes Telefonnetz (PSTN) durch Einwählen über ein herkömmliches Festnetztelefon, eine Private Branch Exchange (PBX) oder ein Mobiltelefon teilzunehmen. Dies ist nützlich, wenn sich der Organisator oder die Teilnehmer nicht vor einem Computer befinden oder wenn Datenverbindungen nicht verfügbar sind oder zu unzuverlässig sind, um Sprachkommunikation zu unterstützen – z. B. in einem Remotebereich mit geringer Reichweite mobiler Daten, in Verbindung mit einem kostenlosen, öffentlichen Wi-Fi-Dienst mit begrenzter Bandbreite oder wenn sich Besprechungsteilnehmer lieber in die Besprechung einwählen möchten, indem sie einen Telefonieendpunkt verwenden, auf den sie schnell zugreifen können.
 
-Telefonsystem Mit Anrufplänen **("Anrufpläne")** haben Organisationen die Möglichkeit, ihren Arbeitsplatz zu modernisieren, indem Sie Es Benutzern ermöglichen, geschäftliche Telefonanrufe von ihren Computern und mobilen Geräten aus zu unternehmen. Eine arbeitsbasierte Arbeit kann Teil einer Reihe von Szenarien sein – eine aktivitätsbasierte Arbeitsimplementierung, eine größere Büroverzugslösung, eine Office-Fit-out-Aktualisierung, das Ende einer älteren PBX-Lösung, das Ende eines Vertrags für PSTN-Dienstanbieter und so weiter. Mit Anrufplänen erleichtert Microsoft die Verbindung mit dem PSTN.
+Telefonsystem Anrufplänen **("Anrufpläne")** gibt Unternehmen die Möglichkeit, ihren Arbeitsplatz zu modernisieren, indem Benutzer geschäftliche Telefonanrufe von ihren Computern und mobilen Geräten aus anrufen können. Eine arbeitsbasierte Arbeit kann Teil einer Reihe von Szenarien sein – eine aktivitätsbasierte Arbeitsimplementierung, eine größere Büroverzugslösung, eine Office-Fit-out-Aktualisierung, das Ende einer älteren PBX-Lösung, das Ende eines Vertrags für PSTN-Dienstanbieter und so weiter. Mit Anrufplänen erleichtert Microsoft die Verbindung mit dem PSTN.
 
-**Telefonsystem Direktes Routing ("Direct Routing")** bietet Organisationen die gleichen Vorteile wie oben für Anrufpläne, mit dem Ausnahme, dass die PSTN-Konnektivität nicht von Microsoft, sondern von einem Drittanbieter vereinfacht wird. Dies ermöglicht die Bereitstellung in Ländern, in denen Anrufpläne nicht verfügbar sind, oder in Bereitstellungen, in denen ein vorhandener PSTN-Vertrag für Dienstanbieter beibehalten oder eine Interoperabilität mit bestimmten lokalen Systemen erforderlich ist. Ein weiteres Szenario, das direct Routing berücksichtigen sollte, ist die Interoperabilität des Telefoniesystems. Während Benutzer in Ihrer Telefonanlage auf Anrufe um Teams, verbleiben einige Benutzer möglicherweise weiterhin mit älteren PBXs. Das direkte Routing ermöglicht die Koexistenz beider Verwendungsfälle. Der Anrufverkehr zwischen den Benutzern in älteren Systemen und Teams Benutzer bleiben innerhalb der Organisation.
+**Telefonsystem Direct Routing ("Direct Routing")** bietet Organisationen dieselben Vorteile wie oben für Anrufpläne, mit dem Ausnahme, dass die PSTN-Konnektivität durch einen Drittanbieter statt durch Microsoft vereinfacht wird. Dies ermöglicht die Bereitstellung in Ländern, in denen Anrufpläne nicht verfügbar sind, oder in Bereitstellungen, in denen ein vorhandener PSTN-Vertrag für Dienstanbieter beibehalten oder eine Interoperabilität mit bestimmten lokalen Systemen erforderlich ist. Ein weiteres Szenario, das direct Routing berücksichtigen sollte, ist die Interoperabilität des Telefoniesystems. Während Benutzer in Ihrer Telefonanlage zu Anrufen Teams, verbleiben einige Benutzer möglicherweise weiterhin mit älteren PBXs. Das direkte Routing ermöglicht die Koexistenz beider Verwendungsfälle. Der Anrufdatenverkehr zwischen den Benutzern in älteren Systemen und Teams Benutzer bleiben innerhalb der Organisation.
 
 <!--ENDOFSECTION-->
 
@@ -60,9 +60,9 @@ Geschäfts-Use-Cases sollen erwartete und messbare Unternehmensergebnisse defini
 > |         |
 > |---------|
 > |**Beschreibung des aktuellen Geschäftsprozesses**<br>Für interne Besprechungen und Besprechungen mit Dritten nutzt Contoso derzeit die von etablierten lokalen Telefonanbietern bereitgestellten PSTN-Konferenzdienste, die im Minutentakt abgerechnet werden.|
-> |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Contoso gibt pro Jahr ca. eine Million USD für den aktuellen PSTN-Konferenzdienst aus, mit 75 % der Kosten für interne Besprechungen. Die Verwendung herkömmlicher Telefonieendpunkte für die Teilnahme an Besprechungen, die vom PSTN-Konferenzdienst gehostet werden, ist nicht mit dem Plan der Organisation abgestimmt, Teams als moderne Kommunikations- und Zusammenarbeitsplattform zu nutzen.|
+> |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Contoso gibt pro Jahr ca. eine Million USD für den aktuellen PSTN-Konferenzdienst aus, mit 75 % der Kosten für interne Besprechungen. Die Verwendung herkömmlicher Telefonieendpunkte für die Teilnahme an Besprechungen, die vom PSTN-Konferenzdienst gehostet werden, ist nicht mit dem Plan der Organisation abgestimmt, Teams als moderne Kommunikations- und Zusammenarbeitsplattform zu übernehmen.|
 > |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Mit der Einführung von Microsoft Teams als moderne Kommunikations- und Zusammenarbeitsplattform wird erwartet, dass interne Benutzer in erster Linie an Besprechungen teilnehmen, indem sie ihre PCs mit optimierten Headsets und Besprechungsraumgeräten verwenden. Der Audiokonferenzdienst steht für externe Teilnehmer oder für Situationen zur Verfügung, in denen die Verwendung von PC-Audio für die internen Teilnehmer nicht vorteilhaft ist.|
-> |**Erwartete, messbare Geschäftsergebnisse**<br>Der Wechsel Teams als moderne Kommunikations- und Zusammenarbeitsplattform in Kombination mit dem Audiokonferenzdienst verringert erheblich die Kosten für die Bereitstellung des PSTN-Konferenzdiensts.|
+> |**Erwartete, messbare Geschäftsergebnisse**<br>Der Wechsel Teams als moderne Kommunikations- und Zusammenarbeitsplattform in Kombination mit dem Audiokonferenzdienst verringert die Kosten für die Bereitstellung des PSTN-Konferenzdiensts erheblich.|
 
 <br>
 
@@ -73,7 +73,7 @@ Geschäfts-Use-Cases sollen erwartete und messbare Unternehmensergebnisse defini
 > |---------|
 > |**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsräume von Contoso umfasst ein Desktoptelefon für jeden Schreibtisch. Jeder Mitarbeiter hat eine Direktwahlnummer (DID) erhalten. Die Desktoptelefone sind mit einem PBX-System verbunden und über einen SIP-Trunk (Session Initiation Protocol) mit dem PSTN verbunden. Mitarbeiter können Telefonanrufe nur auf ihren zugewiesenen Festnetztelefonen telefonieren und empfangen.|
 > |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Die Verwendungsanalyse der Desktoptelefone zeigt, dass nur 10 % der Desktoptelefone aktiv verwendet werden, während die anderen so konfiguriert sind, dass Anrufe an Mobiltelefone weitergeleitet oder gleichzeitig telefoniert wird. Die Pflege des vorhandenen PBX-Systems und der zugehörigen Desktoptelefone trägt zu 20 % der monatlichen Telefoniedienstkosten von Contoso bei.|
-> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Anrufpläne ermöglichen es dem PC eines Benutzers, Telefonanrufe über das Datennetzwerk zu empfangen und zu platzieren, indem die systemeigene App Microsoft Teams wird. Dadurch entferne ich das Rollout und die Wartung von Desktoptelefonen und eröffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb zu nehmen, da der Telefondienst über die Cloud über das Netzwerk ohne Abhängigkeit von einem herkömmlichen Telefonsystem geliefert werden kann.|
+> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Anrufpläne ermöglichen es dem PC eines Benutzers, Telefonanrufe über das Datennetzwerk zu empfangen und zu platzieren, indem die systemeigene Microsoft Teams-App verwendet wird. Dadurch entferne ich das Rollout und die Wartung von Desktoptelefonen und eröffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb zu nehmen, da der Telefondienst über die Cloud über das Netzwerk ohne Abhängigkeit von einem herkömmlichen Telefonsystem geliefert werden kann.|
 > |**Erwartete, messbare Geschäftsergebnisse**<br>Durch das Entfernen von Wartungsanforderungen und die Außerbetriebnahme älterer Festnetztelefone und Desktoptelefone werden die monatlichen Ausgaben für Telefoniedienste um 20 % reduziert. Anrufpläne vereinfachen Office-Arbeitsbereiche und ermöglichen Contoso, den Betrieb zu erweitern, indem neue Niederlassungen mit minimalen Vorab-Telefoniekosten eingerichtet werden.|
 
 <br>
@@ -85,7 +85,7 @@ Geschäfts-Use-Cases sollen erwartete und messbare Unternehmensergebnisse defini
 > |---------|
 > |**Beschreibung des aktuellen Geschäftsprozesses**<br>Die Standardkonfiguration der Büroarbeitsräume von Contoso umfasst ein Desktoptelefon für jeden Schreibtisch. Jeder Mitarbeiter hat eine Direktwahlnummer (DID) erhalten. Die Desktoptelefone sind mit einem PBX-System verbunden und über einen SIP-Trunk (Session Initiation Protocol) mit dem PSTN verbunden. Mitarbeiter können Telefonanrufe nur auf ihren zugewiesenen Festnetztelefonen telefonieren und empfangen.|
 > |**Herausforderungen mit vorhandenen Geschäftsprozessen**<br>Die Verwendungsanalyse der Desktoptelefone zeigt, dass nur 10 % der Desktoptelefone aktiv verwendet werden, während die anderen so konfiguriert sind, dass Anrufe an Mobiltelefone weitergeleitet oder gleichzeitig telefoniert wird. Die Pflege des vorhandenen PBX-Systems und der zugehörigen Desktoptelefone trägt zu 20 % der monatlichen Telefoniedienstkosten von Contoso bei.|
-> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Der SIP-Trunkanbieter-Vertrag wurde kürzlich unterzeichnet und wird drei Jahre lang verwendet. Direct Routing ermöglicht die PstN-Anbindung durch den SIP-Trunkanbieter und ermöglicht es außerdem dem PC eines Benutzers, Telefonanrufe über das Datennetzwerk zu empfangen und zu platzieren, indem die systemeigene Microsoft Teams-App verwendet wird. Dadurch entferne ich das Rollout und die Wartung von Desktoptelefonen und eröffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb zu nehmen, während ein begrenzter Speicherbedarf für den lokalen Session Border Controller (SBC) beibehalten wird.|
+> |**Wie diesen Herausforderungen am besten begegnet werden kann**<br>Der SIP-Trunkanbieter-Vertrag wurde kürzlich unterzeichnet und wird drei Jahre lang verwendet. Mit Direct Routing kann die PSTN-Verbindung vom SIP-Trunkanbieter bereitgestellt werden, und der PC eines Benutzers kann Telefonanrufe über das Datennetzwerk empfangen und über das Datennetzwerk ab telefonieren, indem die native Microsoft Teams-App verwendet wird. Dadurch entferne ich das Rollout und die Wartung von Desktoptelefonen und eröffnet die Möglichkeit, das vorhandene PBX-System außer Betrieb zu nehmen, während ein begrenzter Speicherbedarf für den lokalen Session Border Controller (SBC) beibehalten wird.|
 > |**Erwartete, messbare Geschäftsergebnisse**<br>Durch das Entfernen von Wartungsanforderungen und die Außerbetriebnahme älterer Festnetztelefone und Desktoptelefone werden die monatlichen Ausgaben für Telefoniedienste um 20 % reduziert. Direct Routing vereinfacht Office-Arbeitsbereiche und ermöglicht Contoso, seinen Betrieb zu erweitern, indem neue Niederlassungen mit minimalen Vorab-Telefoniekosten eingerichtet werden.|
 
 Neben der Definition ihrer geschäftlichen Nutzungsfälle sollten Sie zum Festlegen der Projektgrenzen für Klarheit sorgen:
@@ -96,7 +96,7 @@ Neben der Definition ihrer geschäftlichen Nutzungsfälle sollten Sie zum Festle
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/> |Entscheidungspunkte|<ul><li>Welche geschäftlichen Nutzungsfälle für Audiokonferenzen können Sie in Ihrer Organisation identifizieren?</li><li>Welche geschäftlichen Nutzungsfälle für Anrufpläne können Sie in Ihrer Organisation identifizieren?</li><li>Welche geschäftlichen Einsatzfälle für Direct-Routing können Sie in Ihrer Organisation identifizieren?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie alle geschäftlichen Nutzungsfälle für Audiokonferenzen für Ihre Organisation.</li><li>Dokumentieren Sie alle geschäftlichen Nutzungsfälle für Anrufpläne für Ihre Organisation.</li><li>Dokumentieren Sie alle geschäftlichen Nutzungsfälle für Direct-Routing für Ihre Organisation.</li></ul>|
@@ -112,7 +112,7 @@ Die im vorherigen Schritt definierten Geschäftsnutzungsfälle umfassen einen Or
 > 
 > |Rolle  |Beschreibung  |Name, Kontaktinformationen, Standort  |
 > |---------|---------|---------|
-> |Leitender Projektsponsor|<ul><li>Übernehmen Sie letztendlich Autorität und Verantwortlichkeit für das Projekt und die Lieferung von Projektzielen.</li><li>Helfen Sie bei der Lösung von Problemen, die vom Project wurden.</li><li>Kommunikation von Sponsoren innerhalb des Unternehmens zu Projektzielen.</li><li>Treffen Sie wichtige strategische Entscheidungen.</li><li>Stellen Sie sicher, dass erforderliche Ressourcen und erforderliche Budgets verfügbar sind.</li><li>Führen Sie vierteljährliche Geschäftsüberprüfungen durch.</li><li>Fördern Sie den Kauf und die Unterstützung von Informationskampagnen.</li><li>Dient als Project Sponsor für das Programmrollout.</li></ul>|TBA|
+> |Leitender Projektsponsor|<ul><li>Übernehmen Sie letztendlich Autorität und Verantwortlichkeit für das Projekt und die Lieferung von Projektzielen.</li><li>Helfen Sie bei der Lösung von Problemen, die vom Project Lead eskaliert wurden.</li><li>Kommunikation von Sponsoren innerhalb des Unternehmens zu Projektzielen.</li><li>Treffen Sie wichtige strategische Entscheidungen.</li><li>Stellen Sie sicher, dass erforderliche Ressourcen und erforderliche Budgets verfügbar sind.</li><li>Führen Sie vierteljährliche Geschäftsüberprüfungen durch.</li><li>Fördern Sie den Kauf und die Unterstützung von Informationskampagnen.</li><li>Dient als Project Sponsor für das Programmrollout.</li></ul>|TBA|
 > |Projektleiter|<ul><li>Verwalten und führen Sie das Projektteam.</li><li>Koordinieren Sie die am Projekt beteiligten Partner und Arbeitsteams.</li><li>Seien Sie für das Erstellen und Verwalten von Projektplänen zur Berücksichtigung der Vierteljährlichen Hauptergebnisse buchbar.</li><li>Lösen sie funktionsübergreifende Probleme.</li><li>Stellen Sie regelmäßig Updates für Projektsponsoren zur Verfügung.</li><li>Integrieren Sie Übernahmeaspekte in den Projektplan.</li><li>Führen Sie monatliche Geschäfts- und Betriebsüberprüfungen durch, und tragen Sie zu QBRs bei.</li></ul>|TBA|
 > |Leiter/Architekt für Zusammenarbeit|<ul><li>Ausführung gemäß der von den Unternehmensleitern definierten Zusammenarbeitsstrategie.</li><li>Analysieren und wählen Sie Produkte für die Zusammenarbeit aus, die Geschäftsziele für das Unternehmen erfüllen.</li><li>Designvorgänge für Produkte für die Zusammenarbeit.</li><li>Definieren sie Vorgangs- und Supportmodelle.</li><li>Tragen Sie zu den monatlichen und vierteljährlichen Geschäftsrezensionen bei.</li></ul>|TBA|
 > |Berater|<ul><li>Verantwortlich für Konfigurationsdienste</li><li>Tragen Sie zur Gesamtarchitektur der Lösung bei.</li></ul>|TBA|
@@ -131,7 +131,7 @@ Die im vorherigen Schritt definierten Geschäftsnutzungsfälle umfassen einen Or
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Wer wird die Rolle der einzelnen Hauptbeteiligten für Ihre Organisation erfüllt?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie alle wichtigen Projektbeteiligten, und teilen Sie den einzelnen zugewiesenen Personen die Verantwortlichkeiten und Erwartungen an die Rolle mit.</li></ul>|
@@ -144,7 +144,7 @@ Wenn die Projektbeteiligten zusammengestellt sind, können Sie Geschäfts-Use-Ca
 
 Die vollständige Beteiligung der Projektbeteiligten an der Definition von OKRs und KSIs ist von wesentlicher Bedeutung, um sicherzustellen, dass sie das Gefühl der Besitzrechte haben und diese Erfolgsmaßnahmen an die geschäftlichen Anforderungen der Organisation anpassen können.
 
-OKRs enthalten die Ziele, die Sie zu Projektbeginn festgelegt haben, und Sie definieren auf quartalsweise messbare wichtige Ergebnisse. Sie überprüfen wichtige Ergebnisse monatlich, um den Status des Gesamtprojekts nachverfolgt zu werden, und passen die Quartalspläne basierend auf dem Fortschritt nach Bedarf an.
+OKRs enthalten die Ziele, die Sie zu Projektbeginn festgelegt haben, und Sie definieren auf quartalsweise messbare wichtige Ergebnisse. Sie überprüfen die wichtigsten Ergebnisse monatlich, um den Status des Gesamtprojekts nachverfolgt zu werden, und passen die Quartalspläne basierend auf dem Fortschritt nach Bedarf an.
 
 > [!TIP]
 > Beispiele für okRs, die für eine Audiokonferenzimplementierung relevant sind, finden Sie unten:
@@ -163,7 +163,7 @@ OKRs enthalten die Ziele, die Sie zu Projektbeginn festgelegt haben, und Sie def
 > Beispiele für OKRs, die für eine Anrufplanimplementierung relevant sind, finden Sie unten:
 > <br>
 > 
-> **Vision: Steigern der Produktivität durch Maximierung Microsoft 365 oder Office 365 Investition**
+> **Vision: Steigerung der Produktivität durch Maximierung Microsoft 365 oder Office 365 Investition**
 > 
 > |Ziele  |Wichtige Ergebnisse  |Zu tun  |
 > |---------|---------|---------|
@@ -174,7 +174,7 @@ OKRs enthalten die Ziele, die Sie zu Projektbeginn festgelegt haben, und Sie def
 > Beispiele für okRs, die für eine Direct Routing-Implementierung relevant sind, finden Sie unten:
 > <br>
 > 
-> **Vision: Steigern der Produktivität durch Maximierung Microsoft 365 oder Office 365 Investition**
+> **Vision: Steigerung der Produktivität durch Maximierung Microsoft 365 oder Office 365 Investition**
 > 
 > |Ziele  |Wichtige Ergebnisse  |Zu tun  |
 > |---------|---------|---------|
@@ -219,12 +219,12 @@ Sie müssen im Rahmen dieser Übung Geschäftsrisiken identifizieren und einen E
 > |---------|---------|---------|---------|---------|
 > |Bei der bevorstehenden Fusion werden bis zu 1.000 Personen dazukommen|Hoch|Hoch|Hoch|<ul><li>Erstellen Sie für zusammengeführte Unternehmen ein separates OKR, das für ihre eigenen Projektphasen gilt (Envision, Onboard, Drive Value)</li><li>Fügen Sie diese OKRs nicht in vorhandene OKRs ein.</li></ul>|
 > |Die Portierung von Telefonnummern verzögert den Projektabschluss.|Hoch|Hoch|Hoch|<ul><li>Vorbereiten aller Informationen, die zur Unterstützung der Portierung von Telefonnummern im Voraus erforderlich sind (Kundendienstdatensatz, Abrechnungsdetails, Genehmigungsschreiben)</li><li>Anpassen der Projektzeitachse, um die Bearbeitungszeit der Ausführung der Telefonnummernportierung zu unterstützen</li><li>Teilen Sie den externen Teilnehmern die neuen Einwahlkonferenznummern mit.</li><li>Verwenden temporärer Telefonnummern mit Manipulation der Rufnummernanzeige</li></ul>|
-> |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Führen Sie vor Teams Einer modernen Kommunikations- und Zusammenarbeitsplattform eine Bewertung der Netzwerkbereitschaft für Websites im Umfang des Projekts durch.</li></ul>|
-> |SBC-Konfiguration|Hoch|Hoch|Hoch|<ul><li>Bevor Sie Teams als Ersatz für die vorhandene Telefonanlage implementieren, vergewissern Sie sich, dass Sie alle Anforderungen an die SBC-Konfiguration erfüllen können.</li><li>Stellen Sie sicher, dass SBC-Unterstützungsressourcen über die richtigen Kenntnisse zum Konfigurieren von SBC für Direct-Routing verfügen.</li></ul>|
+> |Geplante Umgestaltung des Netzwerks|Hoch|Mittel|Mittel|<ul><li>Führen Sie vor Teams einer modernen Kommunikations- und Zusammenarbeitsplattform eine Bewertung der Netzwerkbereitschaft für Websites im Projektumfang durch.</li></ul>|
+> |SBC-Konfiguration|Hoch|Hoch|Hoch|<ul><li>Bevor Sie Teams als Ersatz für die vorhandene PbX implementieren, vergewissern Sie sich, dass Sie alle SBC-Konfigurationsanforderungen erfüllen können.</li><li>Stellen Sie sicher, dass SBC-Unterstützungsressourcen über die richtigen Kenntnisse zum Konfigurieren von SBC für Direct-Routing verfügen.</li></ul>|
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Welche OKRs und KSIs&#39;Ihre Organisation?</li><li>Welche Risiken sind für die Implementierung von Audiokonferenzen in Ihrer Organisation von Bedeutung? Welche Pläne zur Entschärfung der identifizierten Risiken gibt es?</li><li>Welche Risiken haben Sie für die Implementierung von Anrufplänen in Ihrer Organisation als relevant identifiziert? Welche Pläne zur Entschärfung der identifizierten Risiken gibt es?</li><li>Welche Risiken sind für die Implementierung von Direct Routing in Ihrer Organisation von Bedeutung? Welche Pläne zur Entschärfung der identifizierten Risiken gibt es?</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Dokumentieren Sie die OKRs und KSIs, und legen Sie die Risiken im Register fest.</li></ul>|
@@ -239,7 +239,7 @@ Für jedes Projekt ist eine vereinbarte Vision und Einarbeitung erforderlich. Um
 
 Ihre Organisation sollte sich einen wichtigen Gedanken über die Mitglieder des Lenkungsgremiums machen. Die Komiteemitglieder müssen sicherstellen, dass das Projekt die Geschäftsziele erreicht, die Sie für die Veränderung innerhalb der Organisation definiert haben, sich regelmäßig treffen, um das aktuelle Pulse des Projekts zu diskutieren und dabei zu helfen, hindernisse zu beseitigen, die auf dem Weg aufgetreten sind.
 
-Der Komitee sollte seinen Charter definieren, um einige Wichtige Ziele zu enthalten:
+Der Komitee sollte seinen Charter definieren, um einige Hauptziele zu enthalten:
 
 -   Halten Sie eine starke Ausrichtung zwischen dem Projektteam und dem Executive Sponsor oder der Geschäftsleitung.
 
@@ -265,7 +265,7 @@ Das Lenkungsgremium trifft sich während der gesamten Lebensdauer eines Projekts
 
 <br>
 
-|         |         |         |
+|&nbsp;|&nbsp;|&nbsp;|
 |---------|---------|---------|
 |<img src="media/audio_conferencing_image7.png" alt="An icon depicting decision points"/>|Entscheidungspunkte|<ul><li>Entscheiden Sie, ob ein Lenkungsgremium für Ihre Organisation erforderlich ist.</li></ul>|
 |<img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/>|Nächste Schritte|<ul><li>Identifizieren Sie die Mitglieder des Lenkungsgremiums.</li><li>Planen Sie Besprechungen von Lenkungsgremiums.</li><li>Bereiten Sie sich auf die Besprechungen des Lenkungsgremiums vor.</li><li>Halten Sie Besprechungen des Lenkungsgremiums ab.</li><li>Ergreifen Sie Maßnahmen basierend auf den Beiträgen in der Besprechung des Lenkungsgremiums.</li></ul>|

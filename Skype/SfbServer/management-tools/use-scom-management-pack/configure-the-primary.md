@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2015.'
-ms.openlocfilehash: 926236d673a6988d36699ce0c307441b4aef3357
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20159d77c34ebaa4a8ed022a5d0f1467deeb89e0
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635259"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012119"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 
@@ -44,15 +44,12 @@ Wenn Sie System Center Operations Manager installieren, müssen Sie alle Kompone
 - Data Warehouse
 
 > [!IMPORTANT]
-> Das "[Microsoft Report Viewer 2010 Redistributable Package](https://www.microsoft.com/download/details.aspx?id=6442)" muss installiert werden, bevor Sie System Center Operations Manager 2012 installieren.
+> Das Microsoft Report Viewer 2010 Redistributable Package muss installiert werden, bevor Sie System Center Operations Manager 2012 installieren.
 
-Ausführliche Informationen zu diesen Produkten und deren Installation finden Sie unter den folgenden Links:
+Ausführliche Informationen zu diesen Produkten und deren Installation finden Sie unter [System Center Operations Manager 2012.](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-- [System Center Operations Manager 2007](https://technet.microsoft.com/library/bb735860.aspx)
-
-Beachten Sie, dass Pro Skype for Business Server Bereitstellung nur ein Stammverwaltungsserver vorhanden sein kann.
+Denken Sie daran, dass Sie nur einen Stammverwaltungsserver pro Skype for Business Server Bereitstellung haben können.
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Importieren der Skype for Business Server 2015 Management Packs
 
@@ -63,7 +60,7 @@ Sie können die Funktionen von System Center Operations Manager erweitern, indem
     > [!NOTE]
     >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter [Konfigurieren von Benachrichtigungen.](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))
 
-- **Das Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) testet wichtige Skype for Business Server Komponenten proaktiv, z. B. die Anmeldung beim System, den Austausch von Chatnachrichten oder das Tätigen von Anrufen an ein Telefon im Telefonfestnetz (Public Switched Telephone Network, PSTN). Diese Tests werden mithilfe der cmdlets für synthetische Transaktionen Skype for Business Server durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
+- **Das Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) testet proaktiv Schlüssel Skype for Business Server Komponenten, z. B. die Anmeldung beim System, den Austausch von Chatnachrichten oder das Tätigen von Anrufen an ein Telefon im Telefonfestnetz (Public Switched Telephone Network, PSTN). Diese Tests werden mithilfe der cmdlets für synthetische Transaktionen Skype for Business Server durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
 
 Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht verwenden, um Skype for Business Server Ereignisse zu überwachen oder Skype for Business Server synthetische Transaktionen auszuführen.
 
@@ -76,7 +73,7 @@ Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
 - **System Center Operations Manager** Mit dieser Methode verwenden Sie den Operations Manager, um die Überwachung für Skype for Business Server hinzuzufügen.
 
-- **Operations Manager-Shell** Sie können die Operations Manager-Shell verwenden, um direkt zu importieren oder probleme zu beheben, die beim Importieren von Management Packs auftreten, indem Sie die System Center Operations Manager-Konsole verwenden.
+- **Operations Manager-Shell** Sie können die Operations Manager-Shell verwenden, um direkt zu importieren, oder um Probleme zu beheben, die beim Importieren von Management Packs auftreten, indem Sie die System Center Operations Manager-Konsole verwenden.
 
 ### <a name="importing-the-management-packs-by-using-system-center-operations-manager"></a>Importieren der Management Packs mithilfe von System Center Operations Manager
 
@@ -90,7 +87,7 @@ Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
 5. Klicken Sie im Dialogfeld **"Onlinekatalogverbindung"** auf **"Nein".**
 
-6. Suchen Sie im Dialogfeld **"Zu importierende Management Packs auswählen"** die Dateien Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp und Microsoft.LS.2015.Monitoring.ComponentAndUser.mp, und klicken Sie dann auf **"Öffnen".** Um mehrere Dateien im Dialogfeld auszuwählen, klicken Sie auf die erste Datei, halten Sie dann die STRG-TASTE gedrückt und klicken Sie auf die nachfolgenden Dateien.
+6. Suchen Sie im Dialogfeld **"Zu importierende Management Packs auswählen"** die Dateien, die Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp und Microsoft.LS.2015.Monitoring.ComponentAndUser.mp, und wählen Sie sie aus, und klicken Sie dann auf **"Öffnen".** Um mehrere Dateien im Dialogfeld auszuwählen, klicken Sie auf die erste Datei, halten Sie dann die STRG-TASTE gedrückt und klicken Sie auf die nachfolgenden Dateien.
 
 7. Klicken Sie im Dialogfeld **Management Packs auswählen** auf **Installieren**. Wenn eine Fehlermeldung angezeigt wird und bei der Installation ein Fehler auftritt, bedeutet das normalerweise, dass sich die Management Pack-Dateien in einem Ordner befinden, der durch die Windows-Benutzerkontensteuerung geschützt ist. Kopieren Sie in diesem Fall die Dateien in einen anderen Ordner, und starten Sie dann den Import- und Installationsvorgang neu.
 
@@ -98,7 +95,7 @@ Zum Importieren der Management Packs können folgende Tools verwendet werden:
 
 ## <a name="importing-the-management-packs-by-using-the-operations-manager-shell"></a>Importieren der Management Packs mithilfe der Operations Manager-Shell
 
-Im Allgemeinen ist es einfacher, die Management Packs mithilfe der Operations Manager-Konsole zu importieren. Wenn jedoch ein Fehler auftritt und der Import fehlschlägt, stellt die Konsole nicht immer ausreichende Fehlerberichte bereit. Im Vergleich dazu liefert die Operations Manager-Shell detaillierte Informationen. Wenn Sie Operations Manager verwenden und beim Importieren eines Management Packs Probleme auftreten, importieren Sie das Paket mithilfe der Operations Manager-Shell. Anhand der Informationen von Operations Manager-Shell können Sie ermitteln, warum der Import fehlgeschlagen ist.
+Im Allgemeinen ist es einfacher, die Management Packs mithilfe der Operations Manager-Konsole zu importieren. Wenn jedoch ein Fehler auftritt und der Import fehlschlägt, stellt die Konsole nicht immer ausreichende Fehlerberichte bereit. Im Vergleich dazu liefert die Operations Manager-Shell detaillierte Informationen. Wenn Sie Operations Manager verwenden und beim Importieren eines Management Packs Probleme auftreten, importieren Sie das Paket mithilfe der Operations Manager-Shell. Anhand der von Operations Manager-Shell bereitgestellten Informationen können Sie ermitteln, warum der Import fehlgeschlagen ist.
 
 1. Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **"Microsoft System Center 2012",** auf **"Operations Manager"** und dann auf **Operations Manager-Shell**.
 

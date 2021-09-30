@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 59e38117-8112-4851-82ac-a746ffa0f89d
 description: 'Zusammenfassung: Anzeigen von Benutzer-PIN-Informationen in Skype for Business Server.'
-ms.openlocfilehash: eb30ae22f5a80835e73962f0e2441633fdc1d46e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a77dbc71a186ff20b0136b3391f5ce33dcda1134
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622377"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60014189"
 ---
 # <a name="view-user-pin-information-in-skype-for-business-server"></a>Anzeigen von Benutzer-PIN-Informationen in Skype for Business Server
  
 **Zusammenfassung:** Anzeigen von Benutzer-PIN-Informationen in Skype for Business Server.
   
-Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Skype for Business Server Benutzer mit Active Directory Domain Services (AD DS)-Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Sie können die PIN-Informationen eines Benutzers in Skype for Business Server Systemsteuerung anzeigen.
+Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Skype for Business Server Benutzer mit Active Directory Domain Services (AD DS)-Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Sie können die PIN-Informationen eines Benutzers über Skype for Business Server Systemsteuerung anzeigen.
   
 > [!NOTE]
 > Sie können PIN-Statusinformationen anzeigen, z. B. ob die PIN festgelegt wurde oder wann die PIN zuletzt geändert wurde, aber Sie können die aktuelle PIN nicht anzeigen, indem Sie sich den PIN-Status ansehen. Wenn ein Benutzer seine PIN verloren hat, können Sie sie zurücksetzen, indem Sie die Verfahren unter [Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
@@ -65,7 +65,7 @@ Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt 
     
 ## <a name="viewing-user-pin-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Benutzer-PIN-Informationen mithilfe Windows PowerShell Cmdlets
 
-Sie können die PIN-Informationen für Benutzer mit dem Get-CsClientPinInfo-Cmdlet anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel ["Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell".](https://go.microsoft.com/fwlink/p/?linkId=255876) Der Vorgang ist in Skype for Business Server identisch.
+Sie können die PIN-Informationen für Benutzer mit dem Get-CsClientPinInfo-Cmdlet anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-view-user-pin-information"></a>So zeigen Sie die PIN-Informationen von Benutzern an
 
@@ -87,7 +87,7 @@ PinExpirationTime :
 
 Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Get-CsConferenceDisclaimer".](/powershell/module/skype/get-csconferencedisclaimer?view=skype-ps)
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server](set-a-user-s-dial-in-conferencing-pin.md)
   

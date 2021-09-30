@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0237ff7d32a677eab1efd8b804b7dc00ca5e4184
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d7eac555d5b48bb704e2699c99eff7c1a2969cc3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733434"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012759"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -203,7 +203,7 @@ Als Administrator können App-Einrichtungsrichtlinien für Folgendes einrichten:
 
 Apps werden an die App-Leiste angeheftet. Hierbei handelt es sich um die Leiste am seitlichen Rand im Microsoft Teams-Desktopclient bzw. am unteren Rand in mobilen Teams-Clients (iOS und Android).
 
-|Microsoft Teams-Desktopclient  |         |Mobile Microsoft Teams-Clients  |
+|Microsoft Teams-Desktopclient  | &nbsp; |Mobile Microsoft Teams-Clients  |
 |---------|---------|---------|
 |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die App-Leiste angeheftet sind.](media/flw-teams-desktop-client.png)         |         |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die untere Leiste angeheftet sind.](media/flw-teams-mobile-client.png) |
 
@@ -220,10 +220,10 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung Benutzer anheften zulassen.":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen".":::
 
 6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms Angeheftete Apps hinzufügen mit der Schaltfläche Hinzufügen für die App Schichten":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
 
 7. Anrufe entfernen, wenn sie angezeigt werden. Wenn Sie dieses Feature entfernen, wird es nicht für den Benutzer deaktiviert, sondern verhindert, dass es auf der App-Leiste angezeigt wird, um die Endbenutzererfahrung zu vereinfachen.
 8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
@@ -247,11 +247,11 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 4. Deaktivieren Sie **Benutzerdefinierte Apps hochladen**.
 5. Deaktivieren Sie **Benutzern das Anheften erlauben**.
-    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung Benutzer anheften zulassen.":::
+    :::image type="content" source="media/flw-allow-user-pinning.png" alt-text="Screenshot der Einstellung "Benutzer anheften zulassen".":::
 
 6. Wenn sie noch nicht aufgeführt ist, fügen Sie die **Schichten**-App hinzu. Klicken Sie [hier](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md), um weitere Informationen zu Schichten zu erhalten.
 
-    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms Angeheftete Apps hinzufügen mit der Schaltfläche Hinzufügen für die App Schichten":::
+    :::image type="content" source="media/flw-add-pinned-apps.png" alt-text="Screenshot des Bildschirms "Angeheftete Apps hinzufügen" mit der Schaltfläche "Hinzufügen" für die App "Schichten"":::
 
 7. Entfernen Sie Besprechungen und Anrufe, falls diese angezeigt werden. Wenn Sie diese Features entfernen, werden sie nicht für den Benutzer deaktiviert, sie werden jedoch nicht auf der App-Leiste angezeigt, um die Endbenutzererfahrung zu vereinfachen.
 8. Ordnen Sie die Apps in der nachfolgend angegebenen Reihenfolge an, um vorzugeben, wie sie in der Microsoft Teams-App-Leiste angezeigt werden sollen, und klicken Sie dann auf  **Speichern**.
@@ -275,7 +275,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite App-Berechtigungsrichtlinie hinzufügen.":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen".":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion.
 4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.
@@ -290,7 +290,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu  **Teams-Apps** > **Berechtigungsrichtlinien**.
 2. Klicken Sie auf  **Hinzufügen**.
 
-    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite App-Berechtigungsrichtlinie hinzufügen.":::
+    :::image type="content" source="media/flw-add-app-permission-policy.png" alt-text="Screenshot der Seite "App-Berechtigungsrichtlinie hinzufügen".":::
 
 3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Beispiel: App-Berechtigungsrichtlinie für Mitarbeiter in Service und Produktion.
 4. Wählen Sie unter  **Microsoft-Apps** **Alle Apps zulassen** aus.

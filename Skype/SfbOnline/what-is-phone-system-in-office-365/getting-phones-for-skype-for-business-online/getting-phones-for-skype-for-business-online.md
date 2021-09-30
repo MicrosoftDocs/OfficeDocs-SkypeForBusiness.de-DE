@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: 'Erfahren Sie, welche Telefone Skype for Business Polycom, HP und Mitel sowie die erforderlichen Lizenzen verwenden. '
-ms.openlocfilehash: c2ada9df24a30a3acecf51d8d01377d117667ee9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4b4a5e48a531a694b006126221ddc7fcba40e1c3
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607432"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60013149"
 ---
 # <a name="getting-phones-for-skype-for-business-online"></a>Kauf von Telefonen für Skype for Business Online
 
@@ -36,7 +36,7 @@ ms.locfileid: "58607432"
 Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Benutzer, die lieber auf herkömmliche Weise als über die Skype for Business-App telefonieren möchten. In diesem Thema werden die Telefone und Firmwareversionen behandelt, die für die Verwendung in Skype for Business Online unterstützt werden. Außerdem finden Sie weitere Informationen, die Sie beim Einrichten von Telefonen in Ihrer Organisation unterstützen sollen.
 
 > [!NOTE]
-> Skype For Business wird langsam durch eine Microsoft Teams als primäre Kommunikationsmethode in Microsoft 365 und Office 365.  Weitere [Informationen finden Sie unter](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) Eine neue Vision für intelligente Kommunikation in Office 365 Für weitere Informationen.
+> Skype For Business wird langsam durch Microsoft Teams als primäre Kommunikationsmethode in Microsoft 365 und Office 365.  Weitere Informationen finden Sie unter Eine neue Vision für [intelligente Kommunikation in Office 365](https://www.microsoft.com/microsoft-365/blog/2017/09/25/a-new-vision-for-intelligent-communications-in-office-365/) Für weitere Informationen.
 >
 >Die neuesten Updates und aktuellsten Informationen zu unterstützten Geräten finden Sie auf den Microsoft Teams [für intelligente Kommunikation.](https://products.office.com/microsoft-teams/across-devices?ms.url=officecomteamsdevices&rtc=1)
   
@@ -44,14 +44,13 @@ Skype for Business Online qualifiziert und unterstützt Festnetztelefone für Be
   
 Microsoft arbeitet eng mit Polycom, Yealink und AudioCodes zusammen, um über das Partner IP Telefon Program (PIP) für die Telefonsystem eine Vielzahl von Geräten zu entwickeln und zu zertifizieren.
   
-Wenn Sie neue Telefone für Skype for Business bestellen, ist es wichtig, Telefone mit der richtigen *Produkt-ID zu kaufen.* Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
+Wenn Sie neue Telefone für Skype for Business bestellen, ist es wichtig, Telefone mit der *richtigen Produkt-ID zu kaufen.* Durch diese Produkt-IDs ist sichergestellt, dass Sie Telefone erhalten, in denen die qualifizierte Version von Skype for Business Online bereits installiert ist.
   
-|||
+|Telefonpartner  |Skype for Business-spezifische Produkt-ID  |
 |:-----|:-----|
-|**Telefonpartner** <br/> |**Skype for Business-spezifische Produkt-ID** <br/> |
-|Polycom  <br/> |Produkt-ID -019  <br/> |
-|Yealink  <br/> |SIP-TXXG Skype for Business Edition  <br/> |
-|AudioCodes  <br/> |UCXXXHDEG (SfB)  <br/> |
+|Polycom   |Produkt-ID -019   |
+|Yealink   |SIP-TXXG Skype for Business Edition   |
+|AudioCodes   |UCXXXHDEG (SfB)   |
    
 Weitere Informationen zu Polycom-Telefonen finden Sie unter [Polydokumentationsbibliothek.](https://documents.polycom.com/category/voice)
   
@@ -66,17 +65,17 @@ Weitere Details zu AudioCodes-Telefonen finden Sie unter [IP-Telefone für Skype
   
 ## <a name="supported-firmware"></a>Unterstützte Firmware
 
-Dies ist die Softwareversion, die mindestens erforderlich ist, damit unterstützte Telefone mit Telefonsystem:
+Dies ist die Mindestsoftwareversion, die für unterstützte Telefone erforderlich ist, um mit Telefonsystem:
   
-||||
-|:-----|:-----|:-----|
-|**Telefontyp** <br/> |**Mindestfirmwareversion** <br/> |**Veröffentlichungsdatum** <br/> |
-|Optimiert (Lync Phone Edition)  <br/> |4.0.7577.4463  <br/> |Mai 2015  <br/> |
-|Zertifizierte Polycom VVX-Serie  <br/> |5.4.0A  <br/> |Dezember 2015  <br/> |
-|Yealink  <br/> |X.8.1.52  <br/> |Februar 2017  <br/> |
-|AudioCodes  <br/> |3.0.0.459.1  <br/> |Dezember 2016  <br/> |
 
-Weitere Informationen zu aktuellen Zertifizierten Firmwareversionen finden Sie unter Skype for Business [IP-Telefone.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
+|Telefontyp |Mindestfirmwareversion |Veröffentlichungsdatum |
+|:-----|:-----|:-----|
+|Optimiert (Lync Phone Edition)   |4.0.7577.4463   |Mai 2015   |
+|Zertifizierte Polycom VVX-Serie   |5.4.0A   |Dezember 2015   |
+|Yealink   |X.8.1.52   |Februar 2017   |
+|AudioCodes   |3.0.0.459.1   |Dezember 2016   |
+
+Weitere Informationen zu aktuellen zertifizierten Firmwareversionen finden Sie unter Skype for Business [IP-Telefone.](../../../SfbPartnerCertification/certification/devices-ip-phones.md)
 
 > [!NOTE]
 > Telefone mit Lync Phone Edition (LPE), die Sie für die lokale Bereitstellung eingerichtet haben, müssen auf die Mindestversion oder höher der notwendigen Firmware aktualisiert werden, bevor die entsprechenden Benutzer zu Skype for Business Online transferiert werden. Wenn Sie Ihre Benutzer von lokal auf Skype for Business Online transferieren, bevor Sie die Firmware auf den Telefonen aktualisieren, können diese Telefone nicht mit Skype for Business Online verbunden werden. 
@@ -91,29 +90,29 @@ Für Open SIP-Firmware und Skype for Business-zertifizierte Firmware können unt
 
 Eine vollständige Aufstellung der Gerätefeatures und -funktionen finden Sie in den Benutzerhandbüchern der Hersteller.
   
-||||||
+
+|Feature  |Polycom 3PIP  |Yealink 3PIP |AudioCodes 3PIP |LPE |
 |:-----|:-----|:-----|:-----|:-----|
-|**Funktion** <br/> |**Polycom 3PIP** <br/> |**Yealink 3PIP** <br/> |**AudioCodes 3PIP** <br/> |**LPE** <br/> |
-|Anmelden mit Benutzeranmeldeinformationen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Anmelden über PC (Kopplung), nur Windows  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die Unterstützungsmatrix im Bereitstellungshandbuch.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Teilnehmen an einer Besprechung mit Einfachklick  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Wählen durch Klicken (Kopplung)  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Besprechungssteuerelemente  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Visuelle Mailbox  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Telefonsperre  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Geräteupdate  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|In-Band-Bereitstellung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|QoE  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden alle Protokolle nur in das Microsoft Support-Team hochgeladen. Kundenzugriff auf Telefonprotokolle ist noch nicht verfügbar.           |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Moderne Authentifizierung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Mehrere Notrufnummern  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Ja  <br/> |
-|Integration von Exchange-Kalendern*  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> <br/> **Hinweis:** Erfordert PC-Tethering           |
-|Integration von Anwesenheitsfunktionen  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Unternehmensverzeichnis  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |
-|Delegierung  <br/> |Ja  <br/> |Ja  <br/> |Ja  <br/> |Nein  <br/> |
-|Integration von Kontaktbildern  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |
-||||||
+|Anmelden mit Benutzeranmeldeinformationen   |Ja  |Ja   |Ja   |Nein   |
+|Anmelden über PC (Kopplung), nur Windows   |Ja   |Ja   |Ja   |Ja   |
+|Anmelden über Webanmeldung  <br/>  <br/> **Hinweis:** Überprüfen Sie die Unterstützungsmatrix im Bereitstellungshandbuch.  |Ja   |Ja   |Ja   |Nein   |
+|Teilnehmen an einer Besprechung mit Einfachklick   |Ja   |Ja   |Ja   |Ja   |
+|Wählen durch Klicken (Kopplung)   |Ja   |Ja   |Ja   |Ja > |
+|Besprechungssteuerelemente   |Ja   |Ja   |Ja   |Ja   |
+|Visuelle Mailbox   |Ja   |Ja   |Ja   |Ja   |
+|Telefonsperre   |Ja   |Ja   |Ja   |Ja   |
+|Geräteupdate   |Ja   |Ja   |Ja   |Ja   |
+|In-Band-Bereitstellung   |Ja   |Ja   |Ja   |Ja   |
+|QoE   |Ja   |Ja   |Ja   |Nein  |
+|Protokoll-Upload  <br/> <br/> **Hinweis:** Derzeit werden alle Protokolle nur in das Microsoft Support-Team hochgeladen. Kundenzugriff auf Telefonprotokolle ist noch nicht verfügbar.           |Ja   |Ja   |Ja   |Ja   |
+|Moderne Authentifizierung   |Ja   |Ja   |Ja   |Nein   |
+|Mehrere Notrufnummern   |Ja   |Nein   |Nein   |Ja   |
+|Integration von Exchange-Kalendern*   |Ja   |Ja   |Ja   |Ja  <br/> <br/> **Hinweis:** Erfordert PC-Tethering           |
+|Integration von Anwesenheitsfunktionen   |Ja   |Ja   |Ja   |Ja   |
+|Unternehmensverzeichnis   |Ja   |Ja   |Ja   |Ja   |
+|Delegierung   |Ja   |Ja   |Ja   |Nein   |
+|Integration von Kontaktbildern   |Nein   |Ja  |Nein   |Ja   |
+
 
      
 > [!NOTE]

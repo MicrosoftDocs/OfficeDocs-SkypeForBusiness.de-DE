@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: edf4a04c-d4c9-4c05-aacc-9e084618bb55
 description: In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector Version 2.1 und höher mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
-ms.openlocfilehash: 0589df251fedb8d60ba115920e76b3aa1b327334
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: cf8a79b9b504b5a98592a169d3a507eb938353b9
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729024"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60012309"
 ---
 # <a name="monitor-cloud-connector-using-operations-management-suite-oms"></a>Überwachen von Cloud Connector mithilfe der Operations Management Suite (OMS)
 
 > [!Important]
-> Cloud Connector Edition wird am 31. Juli 2021 zusammen mit Skype for Business Online eingestellt. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
+> Cloud Connector Edition wird zusammen mit Skype for Business Online am 31. Juli 2021 eingestellt. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
 
 In diesem Thema erfahren Sie, wie Sie Ihre Cloud Connector Version 2.1 und höher mithilfe von Microsoft Operations Management Suite (OMS) überwachen.
 
@@ -45,7 +45,7 @@ Dieses Thema enthält die folgenden Abschnitte:
 
 Bevor Sie OMS zum Überwachen der Cloud Connector-Bereitstellung verwenden können, benötigen Sie Folgendes:
 
-- **Ein Azure-Konto und ein OMS-Arbeitsbereich.** Wenn Sie noch kein Azure-Konto besitzen, müssen Sie ein Konto erstellen, um OMS Log Analytics zu verwenden. Informationen zum Erstellen eines Azure-Kontos und Einrichten eines OMS-Arbeitsbereichs finden Sie unter ["Erste Schritte mit einem Log Analytics-Arbeitsbereich".](/azure/log-analytics/log-analytics-get-started)
+- **Ein Azure-Konto und ein OMS-Arbeitsbereich.** Wenn Sie noch nicht über ein Azure-Konto verfügen, müssen Sie ein Konto für die Verwendung von OMS Log Analytics erstellen. Informationen zum Erstellen eines Azure-Kontos und Einrichten eines OMS-Arbeitsbereichs finden Sie unter ["Erste Schritte mit einem Log Analytics-Arbeitsbereich".](/azure/log-analytics/log-analytics-get-started)
 
 - **Cloud Connector, Version 2.1 oder höher**
 
@@ -53,7 +53,7 @@ Bevor Sie OMS zum Überwachen der Cloud Connector-Bereitstellung verwenden könn
 
 ## <a name="configure-cloud-connector-to-use-oms"></a>Konfigurieren von Cloud Connector für die Verwendung von OMS
 
-Sie müssen Ihre lokale Cloud Connector-Umgebung für die Verwendung von OMS konfigurieren. Dazu benötigen Sie die OMS-Arbeitsbereichs-ID und den Schlüssel, die Sie im OMS-Portal wie folgt finden können: Einstellungen - \> verbundene Quellen - Windows \> Server:
+Sie müssen Ihre lokale Cloud Connector-Umgebung für die Verwendung von OMS konfigurieren. Dazu benötigen Sie Die OMS-Arbeitsbereichs-ID und den Schlüssel, die Sie im OMS-Portal wie folgt finden können: Einstellungen – \> verbundene Quellen – Windows \> Server:
 
 ![Screenshot für Cloud Connector OMS.](../../media/a4bb0a96-c940-435e-a3f5-5ef3062dea83.png)
 
@@ -65,7 +65,7 @@ Wie Sie Cloud Connector für die Verwendung von OMS konfigurieren, hängt von Ih
 
         Jedes Mal, wenn Cloud Connector bereitgestellt oder aktualisiert wird, versucht er, den OMS-Agent automatisch auf den VMs zu installieren. Aktivieren Sie dieses Feature, damit der OMS-Agent das automatische Update von Cloud Connector überstehen kann.
 
-    2. Führen Sie Set-CcCredential -AccountType OMSWorkspace aus, um die OMS-ID und den Schlüssel zu konfigurieren. 
+    2. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie Set-CcCredential -AccountType OMSWorkspace aus. 
 
 - **Wenn Sie einen OMS-Agent in einer vorhandenen Cloud Connector-Appliance installieren,** führen Sie die folgenden Schritte aus:
 
@@ -80,7 +80,7 @@ Wie Sie Cloud Connector für die Verwendung von OMS konfigurieren, hängt von Ih
 
 - **Wenn Sie die OMS-Arbeitsbereichs-ID oder den Schlüssel in einer Cloud Connector-Appliance aktualisieren möchten, die bereits einen OMS-Agent installiert hat:**
 
-    1. Führen Sie Set-CcCredential -AccountType OMSWorkspace aus, um die OMS-ID und den Schlüssel zu konfigurieren. 
+    1. Um die OMS-ID und den Schlüssel zu konfigurieren, führen Sie Set-CcCredential -AccountType OMSWorkspace aus. 
 
     2. Führen Sie Install-CcOMSAgent aus, um die Updates anzuwenden. 
 
@@ -100,7 +100,7 @@ Als Nächstes müssen Sie Ihre OMS-Konfiguration mithilfe des OMS-Portals angebe
 
 Im OMS-Portal müssen Sie Informationen zu den Ereignisprotokollen und Leistungsindikatoren wie folgt angeben:
 
-1. Wechseln Sie zu Einstellungen– \> Daten- \> Windows Ereignisprotokollen, und fügen Sie Ereignisprotokolle für: 
+1. Wechseln Sie zu Einstellungen– \> Daten- \> Windows Ereignisprotokolle, und fügen Sie Ereignisprotokolle für: 
 
    - Lync Server
 
@@ -164,9 +164,9 @@ So erstellen Sie dieses Warnungspaar:
 
     Die Abfrage verwendet den *Computerfilter, wobei Computer "MediationServer" enthält.* Der Filter wählt nur den Computer aus, dessen Name die Zeichenfolge "MediationServer" enthält.
 
-     Sie würden den Filter durch Ihren eigenen Computerfilter ersetzen oder einfach entfernen. Sie können komplexe Zeichenfolgenfilter ohne reguläre Ausdrücke erstellen. Weitere Informationen finden Sie unter [Zeichenfolgenoperatoren.](https://docs.loganalytics.io/docs/Language-Reference/Scalar-operators/String-operators) Sie können auch reguläre Ausdrücke verwenden. Darüber hinaus können Sie eine Computergruppe erstellen, indem Sie eine Suchabfrage speichern und diese Gruppe als Computerfilter in Der Warnungsabfrage verwenden. Weitere Informationen finden Sie unter [Computergruppen in Log Analytics-Protokollsuchen.](/azure/log-analytics/log-analytics-computer-groups)
+     Sie würden den Filter durch Ihren eigenen Computerfilter ersetzen oder einfach entfernen. Sie können komplexe Zeichenfolgenfilter ohne reguläre Ausdrücke erstellen. Sie können auch reguläre Ausdrücke verwenden. Darüber hinaus können Sie eine Computergruppe erstellen, indem Sie eine Suchabfrage speichern und diese Gruppe als Computerfilter in Der Warnungsabfrage verwenden. Weitere Informationen finden Sie unter [Computergruppen in Log Analytics-Protokollsuchen.](/azure/log-analytics/log-analytics-computer-groups)
 
-    Für jeden Computer ruft die Fehlerabfrage das letzte Ereignisprotokoll für den RTCMEDSRV-Dienststart und den Dienststopp ab. Es wird ein Protokoll zurückgegeben, wenn das letzte Ereignis das Dienststoppereignis ist. es wird nichts zurückgegeben, wenn das letzte Ereignis das Startereignis des Diensts ist. Kurz gesagt würde die Abfrage eine Liste der Server zurückgeben, deren RTCMEDSRV im Zeitfenster beendet wird. 
+    Für jeden Computer ruft die Fehlerabfrage das letzte Ereignisprotokoll für den RTCMEDSRV-Dienststart und den Dienststopp ab. Es wird ein Protokoll zurückgegeben, wenn das letzte Ereignis das Dienststoppereignis ist. es wird nichts zurückgegeben, wenn das letzte Ereignis das Dienststartereignis ist. Kurz gesagt würde die Abfrage eine Liste der Server zurückgeben, deren RTCMEDSRV im Zeitfenster beendet wird. 
 
 - Die Abfrage für die Zurücksetzungswarnung lautet:
 
@@ -218,7 +218,7 @@ So identifizieren Sie Probleme mit Ereignisprotokollen und Leistungsindikatoren:
 
 - **Leistungsindikatoren.** Es sollte ein Schwellenwert für die überwachten Indikatoren vorhanden sein.
 
-In der folgenden Tabelle sind die Von Microsoft empfohlenen Dienste aufgeführt, indem die Stopp- und Startereignis-IDs aufgelistet werden:
+In der folgenden Tabelle sind die Von Microsoft empfohlenen Dienste aufgeführt, indem die Ereignis-IDs für "Beenden" und "Starten" aufgelistet werden:
 
 |Dienstname  <br/> |Zielserverrolle  <br/> |Stoppereignis-ID  <br/> |Startereignis-ID  <br/> |
 |:-----|:-----|:-----|:-----|
@@ -246,14 +246,12 @@ Im Folgenden sind die Anrufkapazitätszähler aufgeführt, die überwacht werden
 
 - LS:MediationServer – Ausgehende Anrufe(_Total) \- Aktive Medienumgehungsaufrufe
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 Weitere Informationen zum Arbeiten mit OMS finden Sie in den folgenden Themen:
 
 - [Suchen von Daten mithilfe von Protokollsuchen in Log Analytics](/azure/log-analytics/log-analytics-log-searches)
 
-- [Azure Log Analytics-Sprachreferenz](https://docs.loganalytics.io/docs/Language-Reference)
-
 - [Grundlegendes zu Warnungen in Log Analytics](/azure/log-analytics/log-analytics-alerts)
 
-- [Verbinden Windows Von Computern zum Log Analytics-Dienst in Azure](/azure/log-analytics/log-analytics-windows-agents)
+- [Verbinden von Windows-Computern mit dem Log Analytics-Dienst in Azure](/azure/log-analytics/log-analytics-windows-agents)

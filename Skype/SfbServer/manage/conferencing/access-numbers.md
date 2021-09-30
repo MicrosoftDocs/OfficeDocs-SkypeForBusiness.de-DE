@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a0d64779-93de-4d82-ae35-e4454ef8b8f6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: fd1d32ff82fc7bd922acfaea567780b5683eb684
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d76d6135f32b3ea46368080169bf288a637e7546
+ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621071"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "60011519"
 ---
 # <a name="manage-dial-in-conferencing-access-numbers-in-skype-for-business-server"></a>Verwalten von Zugriffsnummern für Einwahlkonferenzen in Skype for Business Server
  
@@ -97,10 +97,10 @@ Sie können Zugriffsnummern für die Einwahl über Skype for Business Server Sys
     
     Dieser Name wird im Client angezeigt, wenn ein Benutzer die Zugriffsnummer aufruft. 
     
-7. Geben Sie im **Anschluss-URI** die E.164-Nummer der Einwahlnummer im TEL-URI-Format ein, einschließlich des +-Symbols vor der Nummer und ohne Leerzeichen. Beispiel: tel:+14255550200.
+7. Geben Sie im **Anschluss-URI** die E.164-Nummer der Einwahlnummer im TEL-URI-Format ein, einschließlich des +-Symbols vor der Nummer und ohne Leerzeichen. Beispiel: `tel:+14255550200`.
     
     > [!NOTE]
-    > Derselbe Anschluss-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. 
+    > Der gleiche Anschluss-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. 
   
 8. Führen **Sie im SIP-URI** die folgenden Schritte aus:
     
@@ -109,7 +109,7 @@ Sie können Zugriffsnummern für die Einwahl über Skype for Business Server Sys
     > [!NOTE]
     > Derselbe SIP-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. Der SIP-URI kann nicht geändert werden, nachdem die Zugriffsnummer erstellt wurde. Die einzige Möglichkeit zum Ändern des SIP-URI besteht darin, die Zugriffsnummer zu löschen und neu zu erstellen. 
   
-   Klicken Sie im Dropdownlistenfeld auf die Domäne des Konferenzzentralenanwendung, das diese Zugriffsnummer für die Einwahl unterstützt.
+   Klicken Sie im Dropdownlistenfeld auf die Domäne des Konferenzzentralenanwendung, das diese Einwahlnummer unterstützt.
     
 9. Klicken Sie im **Pool** auf den Pool, in dem die Instanz von Konferenzzentrale ausgeführt wird, die diese Einwahlnummer unterstützt.
     
