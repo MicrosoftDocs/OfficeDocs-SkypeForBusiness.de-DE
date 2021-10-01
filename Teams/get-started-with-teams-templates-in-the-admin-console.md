@@ -1,5 +1,5 @@
 ---
-title: Erste Schritte mit Teamvorlagen im Teams Admin Center
+title: Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -18,14 +18,14 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 30d2ef7baf485e617ac5d703659a79d6f57e7f76
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011779"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045571"
 ---
-# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Teams Admin Center
+# <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 
 **Die Möglichkeit zum Erstellen von benutzerdefinierten Vorlagen wird für EDU-Kunden noch nicht unterstützt.**
 
@@ -36,12 +36,12 @@ ms.locfileid: "60011779"
 
 Eine Teamvorlage in Microsoft Teams ist eine Definition der Teamstruktur, die auf einen geschäftlichen Bedarf oder ein geschäftliches Projekt ausgelegt ist. Als Administrator können Sie Vorlagen verwenden, um auf einfache Weise konsistente Teams in Der gesamten Organisation zu implementieren. Mit Vorlagen können Benutzer schnell umfangreiche Bereiche für die Zusammenarbeit mit vordefinierten Einstellungen, Kanälen und Apps erstellen.
 
-Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen.](#create-your-own-team-templates) Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen in einem Dokument für Teams.
+Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen.](#create-your-own-team-templates) Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen in einer Vorlage für die Benutzer verfügbar Teams.
 
-Dieser Artikel gibt Ihnen einen Überblick über die Arbeit mit Teamvorlagen im Teams Admin Center. Sie erfahren mehr über die eigenschaften, die von Vorlagen unterstützt werden, die von uns erstellten vordefinierten Vorlagen, die Grenzwerte für die Vorlagengröße, das Erstellen und Verwalten von Vorlagen und vieles mehr.
+Dieser Artikel bietet Ihnen einen Überblick über die Arbeit mit Teamvorlagen im Teams Admin Center. Sie erfahren mehr über die eigenschaften, die von Vorlagen unterstützt werden, die von uns erstellten vordefinierten Vorlagen, die Grenzwerte für die Vorlagengröße, das Erstellen und Verwalten von Vorlagen und vieles mehr.
 
 > [!NOTE]
-> Ihre Benutzer können Teams aus vordefinierten oder [benutzerdefinierten Teamvorlagen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in der App Teams erstellen. Entwickler können Teams auch mithilfe von Microsoft-Vorlagen programmgesteuert aus vordefinierten Teamvorlagen Graph. Weitere Informationen finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph.](get-started-with-teams-templates.md)
+> Ihre Benutzer können Teams aus vordefinierten oder [benutzerdefinierten Teamvorlagen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in der App Teams erstellen. Entwickler können Teams auch programmgesteuert aus vordefinierten Teamvorlagen mithilfe von Microsoft Graph. Weitere Informationen finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph.](get-started-with-teams-templates.md)
 
 ## <a name="team-template-capabilities"></a>Funktionen für Teamvorlagen
 
@@ -63,7 +63,7 @@ Die meisten Eigenschaften in einem Team werden eingeschlossen und von Teamvorlag
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Vordefinierte Teamvorlagen im Teams Admin Center
 
-Dies sind die vordefinierten Teamvorlagen, die im admin center Teams sind. Vordefinierte Vorlagen sind Vorlagen, die wir für bestimmte Branchen erstellt haben. Zum Anzeigen dieser Vorlagen wechseln Sie im linken Navigationsbereich Teams Admin Center zu Teams  >  **Teamvorlagen**.
+Dies sind die vordefinierten Teamvorlagen, die im Admin Center Teams sind. Vordefinierte Vorlagen sind Vorlagen, die wir für bestimmte Branchen erstellt haben. Zum Anzeigen dieser Vorlagen wechseln Sie im linken Navigationsbereich Teams Admin Center zu Teams  >  **Teamvorlagen**.
 
 Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie die Eigenschaften in einer vordefinierten Vorlage ändern möchten, können Sie eine neue Vorlage aus einer vorhandenen Vorlage erstellen und dann die von Ihnen verwendeten Eigenschaften hinzufügen oder entfernen. Beachten Sie, dass bestimmte Eigenschaften in einigen Vorlagen nicht geändert werden können.
 
@@ -74,13 +74,13 @@ Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie 
 | Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Aufgaben</li> <li>OneNote</li> <li>Mitarbeiterideen</li> <li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul> |
 |Mitarbeiter integrieren|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Communitys</li><li>Aufgaben</li><li>Mitarbeiterideen</li><li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul>|
 |Helpdesk organisieren| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben </li><li>Lob</li><li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li></ul> |
-| Patientenpflege| `com.microsoft.teams.template.healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li><li>Genehmigungen</li><li>Bulletins</li><li>Prüfung</li></ul>|
+| Patientenversorgung| `com.microsoft.teams.template.healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li><li>Genehmigungen</li><li>Bulletins</li><li>Prüfung</li></ul>|
 | Kommunikation über Krisen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anfordern</li><li>Kundeneskalation</li><li>Update für Geschäftsleitung</li><li>Planung</li><li>Logistik</li></ul>Apps: <ul><li>Website</li><li>Aufgaben</li><li>Problemmelder</li><li>Genehmigungen</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 |Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen Anforderung </li><li>Coaching</li><li>Kompetenzentwicklung</li><li>Kreditbearbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problemmelder</li><li>Wiki</li><li>Kalender</li><li>Genehmigungen</li><li>Bulletins</li><li>Ideen</li></ul>|
 |Reaktion auf Vorfälle| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Wiederherstellung</li><li>Dringend</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Aufgaben</li> <li>Genehmigungen</li> <li>Prüfung</li> <li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul>|
 |Krankenhaus| `com.microsoft.teams.template.healthcareHospital` |Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Sorgerecht</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li><li>Listen</li><li>Aufgaben</li><li>Genehmigungen</li><li>Schichten</li><li>Bulletins</li><li>Prüfung</li><li>Ideen</li></ul>|
-|Ein Store organisieren| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Store Bereitschaft</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
-|Einzelhandel für Manager| `com.microsoft.teams.template.retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Prüfung</li></ul>|
+|Ein Store organisieren| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
+|Einzelhandel für leitende Angestellte| `com.microsoft.teams.template.retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Prüfung</li></ul>|
 |Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Leadership</li><li>Wartung</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Gesundheit und Sicherheit</li><li>Schulung</li><li>Lustiges</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li> <li>Problemmelder</li> <li>Prüfung</li> </ul>|
 
 ### <a name="team-templates-by-category-and-industry"></a>Teamvorlagen nach Kategorie und Branche
@@ -108,7 +108,7 @@ Vorlagen sind auf eine bestimmte Anzahl von Kanälen, Registerkarten und Apps be
 |Apps pro Vorlage | 50|
 |||
 
-Weitere Informationen finden Sie unter [Beschränkungen und Spezifikationen Teams.](limits-specifications-teams.md)
+Weitere Informationen finden Sie unter [Beschränkungen und](limits-specifications-teams.md)Spezifikationen Teams.
 
 ## <a name="manage-team-templates"></a>Verwalten von Teamvorlagen
 
@@ -128,7 +128,7 @@ Sie können eigene benutzerdefinierte Vorlagen von Grund auf neu, aus einem vorh
 
 #### <a name="apply-team-template-policies"></a>Anwenden von Richtlinien für Teamvorlagen
 
-Um die Vorlagen zu steuern, die Benutzern in Teams zum Erstellen von Teams angezeigt werden, können Sie Vorlagenrichtlinien festlegen und sie Benutzern und Gruppen in Ihrer Organisation zuweisen. Weitere Informationen finden Sie unter [Verwalten von Teamvorlagen im Teams Admin Center.](templates-policies.md)
+Um die Vorlagen zu steuern, die Benutzern in Teams zum Erstellen von Teams angezeigt [werden,](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)können Sie Vorlagenrichtlinien festlegen und sie Benutzern und Gruppen in Ihrer Organisation zuweisen. Weitere Informationen finden Sie unter [Verwalten von Teamvorlagen im Teams Admin Center.](templates-policies.md)
 
 ### <a name="manage-team-templates-using-powershell"></a>Verwalten von Teamvorlagen mit PowerShell
 
@@ -142,5 +142,5 @@ Verwenden Sie die folgenden Cmdlets zum Verwalten Ihrer Vorlagen in PowerShell.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Erstellen eines Teams aus einer Vorlage](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c)
-- [Erste Schritte mit Teamvorlagen mithilfe von Microsoft Graph](get-started-with-teams-templates.md) 
+- [Erstellen eines Teams aus einer Vorlage](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
+- [Erste Schritte mit Teamvorlagen mittels Microsoft Graph](get-started-with-teams-templates.md)

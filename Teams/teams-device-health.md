@@ -1,5 +1,5 @@
 ---
-title: Verwalten der Integrität von Teams-Geräten
+title: Verwalten der Integrität von Teams Geräten
 author: MicrosoftHeidi
 ms.author: heidip
 manager: serdars
@@ -17,18 +17,19 @@ localization_priority: Normal
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: d5e98e65c35b8319a7e4f8675b68d530fa382c31
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: fae26365a09cab2705d4c7fee5d57c2135203a65
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984770"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045811"
 ---
-# <a name="manage-the-health-of-teams-devices"></a>Verwalten der Integrität von Teams Geräten
+# <a name="manage-the-health-of-teams-devices"></a>Verwalten der Integrität von Teams-Geräten
+
 
 Administratoren können den Status von geräten überwachen, die mit Microsoft Teams installiert wurden, indem sie den Integritätsstatus verwenden, der den Schweregrad von Problemen angibt. Um den Integritätszustand eines Geräts zu überprüfen, können Sie zur Geräteliste wechseln, die im Abschnitt **Teams Geräte** des Teams Admin Centers angezeigt wird. Die Spalte "Integritätsstatus" in dieser Liste gibt den aktuellen Integritätsstatus des Geräts an. Wenn Sie diesen Status auswählen, wird **der Statusbereich geöffnet,** der weitere Details zu Integritätsproblemen enthält.
 
-Viele Arten von Problemen können zum Status des Geräts beitragen, und Teams Admin Center-System wertet den Schweregrad dieser Probleme aus, sobald sie auftreten.
+Viele Arten von Problemen können zum Gerätestatus beitragen, und Teams Admin Center-System wertet den Schweregrad dieser Probleme aus, sobald sie auftreten.
 
 Der Administrator, der die Teams-Geräte für ihre Organisation verwaltet, kann entscheiden, dass der Schweregrad der Probleme für sie nicht der Standardkonfiguration Teams ist. Administratoren haben die Möglichkeit, den Schweregrad und die Auswirkungen auf die Integrität ihrer Geräte so anzupassen, dass sie den Prioritäten ihrer Organisation entsprechen.
 

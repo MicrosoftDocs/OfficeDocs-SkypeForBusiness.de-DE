@@ -22,12 +22,12 @@ appliesto:
 ms.reviewer: ''
 description: Erfahren Sie hier, wie Sie eine Richtlinie für sicheres Messaging für Microsoft Teams anpassen können, die Lesebestätigungen und Benachrichtigungen mit hoher Priorität umfassen kann.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 72a0ab4ebce59a9fa65ec67b413892afa0b1e045
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ededfabcca1ab61ec822f201502658f4d8ac498a
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727244"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045517"
 ---
 # <a name="secure-messaging-for-healthcare-organizations"></a>Sicheres Messaging für Organisationen im Gesundheitswesen
 
@@ -37,9 +37,9 @@ Sie können die globale (organisationsweite) Standardrichtlinie verwenden oder e
 
 Die Richtlinien können auf einfache Weise im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) verwaltet werden: Melden Sie sich mit Administratoranmeldeinformationen an, und wählen Sie im linken Navigationsbereich **Messaging-Richtlinien** aus.
 
- ![Screenshot der Seite "Messagingrichtlinien"](../../media/hc-messaging-policy-admin-center.png)
-
-Um die bestehende standardmäßige Messaging-Richtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweit Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** und dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Screenshot der Seite "Messagingrichtlinien"" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ 
+ Um die bestehende standardmäßige Messaging-Richtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweit Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** und dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 ![Screenshot der Einstellungen für Messagingrichtlinien](../../media/hc-messaging-policy.png)
 

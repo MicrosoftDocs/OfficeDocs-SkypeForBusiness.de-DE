@@ -1,7 +1,7 @@
 ---
 title: Einrichtung für Liveereignisse in Microsoft Teams
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ description: Richten Sie Liveereignisse in Teams ein, einschließlich der Einric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f33490fdccbb67a000278d1e9085b0305204c8f5
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 4d9e21872adb0fb0e34280d29fe928ea3ac056da
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432327"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046191"
 ---
 # <a name="set-up-for-live-events-in-microsoft-teams"></a>Einrichtung für Liveereignisse in Microsoft Teams
 
@@ -50,16 +50,16 @@ Richtlinien für Liveereignisse werden verwendet, um zu steuern, wer in Ihrer Or
 
 <a name="bkcreatepolicy"> </a>
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Richtlinien für Liveereignisse**.
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zur Registerkarte Richtlinien für  >  **Liveereignisse**  >  **verwalten.**
 2. Wählen Sie eine der folgenden Optionen aus:
 
     - Wenn Sie die vorhandene Standardrichtlinie bearbeiten möchten, wählen Sie **Global (organisationsweiter Standard)** aus.
-    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **Hinzufügen** aus.
+    - Wenn Sie eine neue benutzerdefinierte Richtlinie erstellen möchten, wählen Sie **+ Hinzufügen aus.**
     - Wenn Sie eine benutzerdefinierte Richtlinie bearbeiten möchten, markieren Sie die Richtlinie, und wählen Sie dann **Bearbeiten** aus.
 
     Hier sind die Einstellungen, die Sie ändern können, um sie an die Bedürfnisse Ihrer Organisation anzupassen.
 
-    ![Screenshot der Richtlinieneinstellungen für Liveereignisse.](../media/teams-live-events-policies.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
+    ![Screenshot der Richtlinieneinstellungen für Liveereignisse.](../media/teams-live-events-policies-new.png "Screenshot der Richtlinieneinstellungen für Liveereignisse im Microsoft Teams Admin Center")
 
 |Einstellung  |Beschreibung  |
 |---------|---------|

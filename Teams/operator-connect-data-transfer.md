@@ -16,25 +16,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 851d04b3e0d24af7a31b820c812046c55fad21f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 202303954ed2a730589f965bb4e81e663605b005
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582189"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045801"
 ---
 # <a name="data-transfers-between-carriers-and-microsoft-for-operator-connect"></a>Datenübertragungen zwischen Netzbetreibern und Microsoft für Telefonieanbieter
 
-## <a name="provisioned-and-assigned-numbers"></a>Bereitgestellte und zugewiesene Nummern
+Microsoft ist der Controller für personenbezogene Daten, den es in Verbindung mit Operatoren Verbinden. Der Kunde muss seine Endbenutzer über die folgenden Informationen informieren:
 
-Um das ordnungsgemäße Funktionieren des Telefonieanbieter-Programms sicherzustellen, teilt Microsoft jedem teilnehmenden Netzbetreiber über eine API mit, welche Telefonnummern des Netzbetreibers im Teams Admin Center zugewiesen wurden, sowie die SIP-URI (Session Initiation Protocol Uniform Resource Identifiers) dieser Telefonnummer.
+- Die Microsoft-Operator-Verbinden-Funktionen für Microsoft Teams ermöglichen Teams Benutzern die Kommunikation mit anderen Benutzern über Das Anrufen von Netzwerken über Microsoft Teams.
+- Wenn dieses Feature von Ihrer Organisation aktiviert wird, gibt Microsoft Informationen an die Netzbetreiber und Kommunikationsdienste Ihrer Organisation (jeweils einen Netzbetreiber) weiter, um das ordnungsgemäße Funktionieren des Diensts und für die Problembehandlung sicherzustellen.
 
-## <a name="call-detail-records-and-quality-data"></a>Anrufdetailaufzeichnungen und Qualitätsdaten
+Informationen, die Microsoft bei verwendung der Operator-Verbinden an den Netzbetreiber Verbinden:
 
-Microsoft stellt jedem teilnehmenden Netzbetreiber über eine API Anrufdetailaufzeichnungen und Qualitätsdaten zur Verfügung. Dies ist für Microsoft und den Netzbetreiber erforderlich, um eine Fehlerbehebung durchzuführen und das ordnungsgemäße Funktionieren des Dienstes sicherzustellen.
+- Ihre Telefonnummer und ggf. die Ihrer Telefonnummer zugewiesene Microsoft-SIP-URI (Session Initiation Protocol Uniform Resource Identifiers),
+- Anrufdetails und Daten zur Anrufqualität wie Anrufer- und Anrufempfängertelefonnummern; Anruf einladen und Endzeiten; bestimmte Anruferbezeichner; Anrufdauer; und Informationen zu Dienstverbindungen (z. B. IP-Adressen und Betriebssysteme des Anrufers und des Anrufempfängers) und
+- Standortinformationen für Notrufe.
 
-## <a name="call-duration-data"></a>Anrufdauerdaten
+Operatoren können die oben aufgeführten Informationen exportieren und herunterladen.
 
-Jeder Netzbetreiber stellt Microsoft über eine API die Dauer der Anrufe seiner Kunden mit Microsoft Teams zur Verfügung. Microsoft verwendet diese Aufzeichnungen, um Kunden Nutzungsinformationen bereitzustellen und sicherzustellen, dass unsere Aufzeichnungen mit denen des Netzbetreiber übereinstimmen. Microsoft speichert und verarbeitet diese Aufzeichnungen in Übereinstimmung mit den geltenden Gesetzen und Vorschriften sowie der Microsoft-Datenschutzbestimmungen.
-
-Weitere Informationen: [Career Coach für Microsoft Teams kaufen, konfigurieren und aktivieren ](career-coach.md)
+Diese Informationen werden von Ihrem Netzbetreiber gemäß den Datenschutzpraktiken Ihres Anbieters verarbeitet. Weitere Informationen finden Sie in den Datenschutzrichtlinien und Nutzungsbedingungen der Netzbetreiber. Informationen zu den Datenschutzpraktiken von Microsoft finden Sie in den Microsoft-Datenschutzbestimmungen für Teams unter [diesem Link](https://go.microsoft.com/fwlink/?LinkId=521839).

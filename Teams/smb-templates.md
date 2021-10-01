@@ -17,20 +17,20 @@ appliesto:
 ms.reviewer: lavenkat
 description: Verwenden Microsoft Teams vordefinierten Vorlagen, die in Microsoft Graph, um schnell und einfach Teams für kleine und mittelständische Unternehmen zu erstellen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0855e7a61b52582b283a5c1f7c4c4f966045d743
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 324470ffc3366750777c75776e4ae4e783dbb17f
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991214"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045681"
 ---
 # <a name="team-templates-built-in-microsoft-graph-for-small-and-medium-businesses"></a>In Microsoft Graph für kleine und mittelständische Unternehmen integrierte Teamvorlagen
 
-Teamvorlagen in Microsoft Teams es Ihnen ermöglichen, Schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
+Mit Teamvorlagen in Microsoft Teams können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsfähig sein, da sie Ihnen helfen, Ihre Teams schnell zu implementieren. Vorlagen helfen Benutzern auch dabei, sich mit der effektiven Verwendung ihrer Daten zu Teams. Dieser Artikel ist für Sie da, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation verantwortlich sind.
+Für kleine und mittelständische Unternehmen können Vorlagen besonders leistungsfähig sein, da sie Ihnen helfen, Ihre Teams schnell zu implementieren. Vorlagen helfen Benutzern auch dabei, sich mit der effektiven Verwendung von Daten zu Teams. Dieser Artikel ist für Sie da, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Organisation verantwortlich sind.
 
-Wir bieten derzeit drei vordefinierte Vorlagen für kleine und mittelständische Unternehmen, die Sie in verschiedenen Situationen verwenden können. Mit allen Vorlagen werden *private Teams* erstellt. Nachdem Sie die Teams erstellt haben und bereit für das Rollout in Ihrer Organisation sind, können Sie den Datenschutz auf *Organisationsweit* oder öffentlich *festlegen.*
+Wir bieten derzeit drei vordefinierte Vorlagen für kleine und mittelständische Unternehmen, die Sie in verschiedenen Situationen verwenden können. Mit allen Vorlagen werden *private Teams* erstellt. Nachdem Sie die Teams erstellt haben und bereit für das Rollout in Ihrer Organisation sind, können Sie den Datenschutz nach Ihren Anforderungen auf *Organisationsweit* oder öffentlich festlegen.
 
 Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen mit Microsoft Graph.](get-started-with-teams-templates.md)
 
@@ -38,7 +38,7 @@ Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte
 
 Die Company-Wide-Vorlage ist für die Kommunikation und Zusammenarbeit im gesamten Unternehmen gedacht. Sie können den Kanal Allgemein für unternehmensweite Ankündigungen, Branchennachrichten oder Beiträge von Führungskräften verwenden. Der Kanal "Personalwesen" ist ein hervorragender Ort zum Konsolidieren aller personalbezogenen Aktivitäten wie Stellenangebote, Onboarding neuer Mitarbeiter, Schulungen und Entwicklung. Der Kanal "Lustiges" bietet eine soziale Plattform für alle zufälligen und lustigen Beiträge.
 
-| Vorlagentyp  | TemplateId | Eigenschaften, die in dieser Vorlage enthalten sind |
+| Vorlagentyp  | TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Unternehmensweit | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessOrgWide')`| Kanäle <ul><li>Allgemein\*</li><li>Personalwesen\*</li><li>Lustiges\*</li></ul><br> Apps<ul><li>Unternehmensportal (Website, die an den Kanal "Personalwesen" **angeheftet** ist) </li> </UL><br>Teameigenschaften <ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul> |
 
@@ -62,7 +62,7 @@ Content-Type: application/json
 
 Die Vorlage für das Führungsteam eignet sich ideal für die Erstellung eines Teams für Unternehmensleiter, das Unternehmensinitiativen wie jährliche Prioritäten, Finanzbudgets, strategische Initiativen und die wichtigsten Kunden kommunizieren und zusammenarbeiten soll. Diese Vorlage enthält einen privaten *Kanal* zum Einladen ausgewählter Benutzer zu bestimmten Themen.
 
-| Vorlagentyp  | TemplateId | Eigenschaften, die in dieser Vorlage enthalten sind |
+| Vorlagentyp  | TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
 | :------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Executives Team | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessExecutive')` | Kanäle <ul><li>Allgemein\*</li><li>Privat \*</li></ul> Apps<ul><li>OneNote (an den privaten Kanal **angeheftet)**</li> <li>Planner (an den privaten Kanal **angeheftet)** </li></ul><br>Teameigenschaften <ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul> | 
 
@@ -88,7 +88,7 @@ Die Vorlage für ein Abteilungsteam kann zum Erstellen eines Teams für einzelne
 
 Darüber hinaus stellen wir das nachstehende Skript für das Finanzteam zur Verfügung, mit dem die Vorlage auf weitere Abteilungen oder bestimmte Projekte erweitert werden kann, indem Sie Ihren Wünschen hinzufügen, löschen oder bearbeiten. Wenn Sie z. B. über eine *Marketingabteilung* verfügen, kann das Skript  angepasst werden, indem das Team von "Finanzen" in *"Marketing"* umbenennt wird, um ein neues Marketingteam zu erstellen.
 
-| Vorlagentyp | TemplateId | Eigenschaften, die in dieser Vorlage enthalten sind |
+| Vorlagentyp | TemplateId | Eigenschaften, die mit dieser Vorlage geliefert werden |
 |:------------------ | :-------------- | :----------------------------------------------------- | 
 | SMB - <br>Finanzen  | `https://graph.microsoft.com/beta/`<br>` teamsTemplates('SmallBusinessFinance')`| Kanäle <ul><li>Allgemein\*</li><li>Privat \*</li></ul><br> Apps<ul><li>OneNote (an den privaten Kanal **angeheftet)**</li> <li>Planner (an den privaten Kanal **angeheftet)** </li> </ul><br>Teameigenschaften <ul><li>Teamsichtbarkeit auf Privat gesetzt</li></ul> | 
 
@@ -108,7 +108,7 @@ Content-Type: application/json
 }
 ```
 
-### <a name="example-finance-team-template-extension-script"></a>Beispiel: Erweiterungsskript für die Vorlage "Finanzteam"
+### <a name="example-finance-team-template-extension-script"></a>Beispiel: Erweiterungsskript für die Vorlage "Finance Team"
 
 ```powershell
 {
@@ -181,6 +181,6 @@ Content-Type: application/json
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Erste Schritte mit Teams in der Verwaltungskonsole](get-started-with-teams-templates-in-the-admin-console.md)
-- [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md)
+- [Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Erste Schritte mit Teamvorlagen mittels Microsoft Graph](get-started-with-teams-templates.md)
 - [Erstellen eines Teams](/graph/api/team-post?view=graph-rest-beta) (in der Vorschau)

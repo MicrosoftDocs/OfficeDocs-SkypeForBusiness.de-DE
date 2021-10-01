@@ -1,7 +1,7 @@
 ---
-title: Remotebereitstellung und -anmeldung für Teams Android-Geräte
-author: cichur
-ms.author: v-cichur
+title: Remotebereitstellung und Anmeldung bei Teams Android-Geräten
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: prgholve
 ms.topic: article
@@ -18,14 +18,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android-Geräte verwenden.
-ms.openlocfilehash: 20eae8534d06c6f9431b9e9fcb1458812e34cacd
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984740"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046151"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und -anmeldung für Teams Android-Geräte
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und Anmeldung bei Teams Android-Geräten
 
 IT-Administratoren können Remotebereitstellung und -anmeldung auf einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Prüfcode erstellen. Der gesamte Vorgang kann remote über das Teams Admin Center abgeschlossen werden.
 
@@ -35,14 +35,14 @@ In der folgenden Liste sind die Firmwareanforderungen für Android-Geräte aufge
 
 |Gerätekategorie|Gerätemodell|Firmwareversion|
 |-|-|-|
-|Teams-Telefone|Yealink T55/T56/T58|58.15.0.124|
-|Teams-Telefone|Yealink VP59|91.15.0.58|
-|Teams-Telefone|Yealink CP960|73.15.0.117|
-|Teams-Telefone|Yealink MP56/MP54/MP58|122.15.0.36|
-|Teams-Telefone|Crestron UC-2|1.0.3.52|
-|Teams-Telefone|  Poly Trio C60|  7.0.2.1071|
-|Teams-Telefone|  CCX400/CCX500/CCX600    |7.0.2.1072|
-|Teams-Telefone|  Audiocodes C448HD/C450HD/C470HD|   1.10.120|
+|Teams-Smartphones|Yealink T55/T56/T58|58.15.0.124|
+|Teams-Smartphones|Yealink VP59|91.15.0.58|
+|Teams-Smartphones|Yealink CP960|73.15.0.117|
+|Teams-Smartphones|Yealink MP56/MP54/MP58|122.15.0.36|
+|Teams-Smartphones|Crestron UC-2|1.0.3.52|
+|Teams-Smartphones|  Poly Trio C60|  7.0.2.1071|
+|Teams-Smartphones|  CCX400/CCX500/CCX600    |7.0.2.1072|
+|Teams-Smartphones|  Audiocodes C448HD/C450HD/C470HD|   1.10.120|
 |Teams-Panels|  Crestron 770/1070|  1.004.0115|
 |Teams-Räume unter Android|Logitech Rally Bar Mini|1.2.982|
 |Teams-Räume unter Android|Logitech Rally Bar|1.2.982|
@@ -68,9 +68,9 @@ Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse m
 
 ### <a name="manually-add-a-device-mac-address"></a>Manuelles Hinzufügen einer MAC-Adresse für das Gerät
 
-1. Wählen Sie **auf der Registerkarte Awaiting Activation** die Option Add MAC ID **aus.**
+1. Wählen Sie auf **der Registerkarte Aktivierung aus** wartend die Option **MAC-ID hinzufügen aus.**
 
-   ![Fügen Sie manuell eine Mac-Adresse für das Gerät hinzu.](../media/remote-provision-6.png)
+   ![Fügen Sie manuell eine Mac-Adresse für das Gerät hinzu.](../media/remote-provision-6-new.png)
 
 1. Geben Sie die MAC-ID ein.
 1. Geben Sie einen Standort ein, mit dem Techniker ermitteln können, wo die Geräte installiert werden sollen.
@@ -78,16 +78,16 @@ Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse m
 
 ### <a name="upload-a-file-to-add-a-device-mac-address"></a>Hochladen einer Datei zum Hinzufügen einer MAC-Adresse des Geräts
 
-1. Wählen Sie **auf der Registerkarte Awaiting Activation** die Option Hochladen MAC **IDs aus.**
+1. Wählen Sie **auf der Registerkarte** Aktivierung aus wartend die Option Hochladen **MAC-IDs aus.**
 2. Laden Sie die Dateivorlage herunter.
 3. Geben Sie die MAC-ID und den Speicherort ein, und speichern Sie dann die Datei.
-4. **Wählen Sie Datei** und dann **Hochladen** aus.
+4. **Wählen Sie Datei** und dann Hochladen **aus.**
 
 ## <a name="generate-a-verification-code"></a>Generieren eines Prüfcodes
 
 Sie benötigen einen Prüfcode für die Geräte. Der Überprüfungscode wird in Massen oder auf Geräteebene generiert und ist 24 Stunden gültig.
 
-1. Wählen Sie **auf der Registerkarte Awaiting Activation** eine vorhandene MAC-ID aus.
+1. Wählen Sie **auf der Registerkarte Warten auf die** Aktivierung eine vorhandene MAC-ID aus.
    Für die MAC-Adresse wird ein Kennwort erstellt und in der Spalte **Prüfcode** angezeigt.
 
 2. Stellen Sie die Liste der MAC-IDs und Prüfcodes für Die Feldtechniker zur Verfügung. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentlichen Installationsarbeiten überarbeiten soll.
@@ -110,9 +110,9 @@ Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerä
 
 ## <a name="sign-in-remotely"></a>Remote anmelden
 
-Das bereitgestellte Gerät wird auf der Registerkarte **Awaiting sign in** angezeigt. Starten Sie den Remote-Anmeldevorgang, indem Sie das einzelne Gerät auswählen.
+Das bereitgestellte Gerät wird auf der Registerkarte **Auf Anmeldung warten** angezeigt. Starten Sie den Remote-Anmeldevorgang, indem Sie das einzelne Gerät auswählen.
 
-1. Wählen Sie auf der Registerkarte **Awaiting sign in ein Gerät** aus.
+1. Wählen Sie auf der Registerkarte **Auf Anmeldung warten ein Gerät** aus.
 
    ![Das Fenster mit einer Liste der geräte, die für die Anmeldung bereit sind.](../media/remote-device1.png)
 
@@ -123,4 +123,4 @@ Das bereitgestellte Gerät wird auf der Registerkarte **Awaiting sign in** angez
 ## <a name="related-article"></a>Verwandter Artikel
 
 - [Verwalten Ihrer Geräte in Teams](device-management.md).
-- [Remoteupdate Teams Geräte](remote-update.md)
+- [Remoteupdate für Teams Geräte](remote-update.md)

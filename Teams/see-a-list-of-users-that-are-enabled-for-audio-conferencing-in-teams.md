@@ -22,24 +22,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Hier erfahren Sie, wie Sie eine Liste der Benutzer in Ihrer Organisation anzeigen, die innerhalb eines Microsoft Teams. '
-ms.openlocfilehash: 7d6c77eaefe3d3247e8b950cfffff156606db008
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b49dec0b73385ce09d906a128a47ddd4c723694
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579589"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045881"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
 
-Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der aktivierten Benutzer anzeigen. 
+Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der benutzer anzeigen, die aktiviert wurden. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
   
 ## <a name="viewing-a-list-of-users"></a>Anzeige einer Benutzerliste
 
-- Klicken Sie Microsoft Teams linken Navigationsbereich des Admin Centers auf **Benutzer**.
-
+- Klicken Sie Microsoft Teams admin center im linken Navigationsbereich auf **Benutzer**.
 
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
@@ -58,7 +57,7 @@ Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funkt
     
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
     
-Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
+Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps&preserve-view=true).
     
 ## <a name="related-topics"></a>Verwandte Themen
 

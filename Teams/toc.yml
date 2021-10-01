@@ -1009,6 +1009,8 @@ items:
             href: how-many-phone-numbers-can-you-get.md
           - name: Suchen nach Telefonnummern für Benutzer
             href: search-for-phone-numbers-for-users.md
+          - name: 'Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer'
+            href: assign-change-or-remove-a-phone-number-for-a-user.md
           - name: Anzeigen einer Liste der Telefonnummern in Ihrer Organisation
             href: see-a-list-of-phone-numbers-in-your-organization.md
           - name: Telefonnummern für Anrufplan verwalten
@@ -1017,8 +1019,6 @@ items:
                 href: manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md
               - name: Abrufen von Telefonnummern für Ihre Benutzer
                 href: getting-phone-numbers-for-your-users.md
-              - name: 'Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer'
-                href: assign-change-or-remove-a-phone-number-for-a-user.md
               - name: Abrufen von Diensttelefonnummern
                 href: getting-service-phone-numbers.md
               - name: Übertragen von Telefonnummern

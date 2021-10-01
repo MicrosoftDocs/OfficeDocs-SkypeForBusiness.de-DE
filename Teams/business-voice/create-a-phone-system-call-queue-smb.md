@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
-description: Erfahren Sie, wie Sie anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
-ms.openlocfilehash: 3a67771127d5c359d798dd5de688d4f26b3cf39e
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für kleine Unternehmen in Microsoft 365 Business Voice.
+ms.openlocfilehash: 527d0512ae7e58e2141fcc913ba633ea991cc6e5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732117"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045741"
 ---
 # <a name="create-a-call-queue---small-business-tutorial"></a>Erstellen einer Anrufwarteschleife – Lernprogramm für Kleinunternehmen
 
@@ -45,7 +45,7 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
 #### <a name="video-demonstration"></a>Videodemo
 
-In diesem Video wird gezeigt, wie Sie eine Anrufwarteschleife in einer Teams.
+In diesem Video wird gezeigt, wie Sie eine Anrufwarteschleife in Teams.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCF23?autoplay=false]
 
@@ -61,11 +61,11 @@ Da telefonierende Mitarbeiter in einer Anrufwarteschleife möglicherweise anrufe
 
 # <a name="step-1brcreate-a-team"></a>[Schritt 1 <br> Erstellen eines Teams](#tab/create-team)
 
-Beim Erstellen einer Anrufwarteschleife können Sie einzelne Benutzer zur Warteschlange hinzufügen, oder Sie können eine vorhandene Sicherheitsgruppe, Microsoft 365 Sicherheitsgruppe oder ein Microsoft Teams verwenden. Wir empfehlen die [Verwendung eines Teamkanals](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). Dies ermöglicht Mitgliedern der Warteschlange, miteinander zu chatten, Ideen auszutauschen und Dokumente oder andere Ressourcen zu erstellen, damit sie Ihren Kunden helfen können. Ein Team bietet außerdem ein Sprachpostfach, über das Anrufer eine Nachricht nach Stunden hinterlassen können oder wenn die Warteschlange ihre maximale Kapazität erreicht.
+Beim Erstellen einer Anrufwarteschleife können Sie einzelne Benutzer zur Warteschlange hinzufügen oder eine vorhandene Sicherheitsgruppe, Microsoft 365 Sicherheitsgruppe oder ein Microsoft Teams verwenden. Wir empfehlen die [Verwendung eines Teamkanals](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e). Dies ermöglicht Mitgliedern der Warteschlange, miteinander zu chatten, Ideen auszutauschen und Dokumente oder andere Ressourcen zu erstellen, damit sie Ihren Kunden helfen können. Ein Team bietet außerdem ein Sprachpostfach, über das Anrufer eine Nachricht nach Stunden hinterlassen können oder wenn die Warteschlange ihre maximale Kapazität erreicht.
 
 So erstellen Sie ein Team
 
-1. Klicken Sie **zuerst Teams** der linken Seite der App  auf Beitreten oder ein Team erstellen am unteren Rand Ihrer Teamliste.
+1. Klicken Sie **zuerst Teams** linken Rand der App auf  Beitreten oder ein Team erstellen am unteren Rand Ihrer Teamliste.
 
 2. Klicken Sie dann **auf Team erstellen** (erste Karte, obere linke Ecke).
 
@@ -85,7 +85,7 @@ Als Nächstes fügen wir einen Kanal hinzu, der mit der Anrufwarteschleife verwe
 
 So fügen Sie einen Kanal hinzu
 
-1. Suchen Teams Team, das Sie gerade erstellt haben, klicken Sie auf **Weitere** Optionen (...), und klicken Sie dann **auf Kanal hinzufügen.**
+1. Suchen Teams Team, das Sie 2010 erstellt haben, klicken Sie auf **Weitere** Optionen (...), und klicken Sie dann **auf Kanal hinzufügen.**
 
 2. Geben Sie einen Namen und eine Beschreibung für den Kanal ein.
 
@@ -102,7 +102,7 @@ Für jede von Ihnen erstellte Anrufwarteschleife ist ein Ressourcenkonto erforde
 
 Sie können ein Ressourcenkonto im Teams Admin Center erstellen.
 
-1. Erweitern Sie Teams Admin Center **Organisationsweite** Einstellungen , und klicken Sie dann **auf Ressourcenkonten**.
+1. Erweitern Sie Teams Admin Center Sprachanrufe , und klicken Sie dann **auf Ressourcenkonten**.
 
 2. Klicken Sie auf **Hinzufügen**.
 
@@ -126,7 +126,7 @@ Sie müssen dem *Ressourcenkonto Microsoft 365 Telefonsystem - Virtueller Benutz
 
 3. Klicken Sie auf **Änderungen speichern**.
 
-    ![Screenshot der Benutzeroberfläche "Lizenzen zuweisen" im Microsoft 365 Admin Center.](../media/resource-account-assign-virtual-user-license.png)
+    ![Screenshot der Benutzeroberfläche zum Zuweisen von Lizenzen im Microsoft 365 Admin Center.](../media/resource-account-assign-virtual-user-license.png)
 
 ### <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -218,7 +218,7 @@ Wählen Sie aus, wie Anrufe zu behandeln sind, die den maximal zulässigen Wert 
     ![Screenshot der Einstellungen für den Anrufüberlauf](../media/call-queue-overflow-handling.png)
 
 > [!div class="nextstepaction"]
-> [Schritt 6 – Timeout für Anrufe >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
+> [Schritt 6 – Anruftimeout >](/microsoftteams/business-voice/create-a-phone-system-call-queue-smb?tabs=call-timeout#steps)
 
 # <a name="step-6brcall-timeout"></a>[Timeout für Anrufe in Schritt 6 <br>](#tab/call-timeout)
 

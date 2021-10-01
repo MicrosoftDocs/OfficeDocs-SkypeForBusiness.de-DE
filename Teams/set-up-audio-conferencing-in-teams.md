@@ -23,12 +23,12 @@ ms.custom:
 - Audio Conferencing
 - LIL_Placement
 description: 'Hier erfahren Sie, wie Sie Einwahl- oder Audiokonferenzen für Personen in Ihrem Unternehmen einrichten, die telefonisch an Konferenzanrufen teilnehmen müssen. '
-ms.openlocfilehash: db4b2eecbc6620c8f6d76a4ee4b80fd68eebc268
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: f520d9c77fb04a27dbb43194edb24f1080627a51
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456515"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046301"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
@@ -63,7 +63,7 @@ Gehen Sie auf [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anr
 ## <a name="step-3-get-service-numbers-for-your-conferencing-bridges"></a>Schritt 3: Servicenummern für Ihre Konferenzbrücken anfordern
 <a name="__top"> </a>
 
-Für Audiokonferenzen können Sie keine Benutzertelefonnummern verwenden; Sie müssen Servicenummern anfordern. Sie können für Ihre Konferenzbrücken gebührenpflichtige oder gebührenfreie Servicenummern abrufen. Es gibt drei Möglichkeiten, gebührenpflichtige und gebührenfreie Servicenummern zu erhalten: 
+Für Audiokonferenzen können Sie keine Benutzertelefonnummern verwenden; Sie müssen Servicenummern anfordern. Sie können für Ihre Konferenzbrücken gebührenpflichtige oder gebührenfreie Servicenummern abrufen. Es gibt drei Möglichkeiten, gebührenpflichtige und gebührenfreie Servicenummern zu erhalten:
   
 - **Über das Microsoft Teams Admin Center**. Für einige Länder/Regionen können Sie Servicenummern für Ihre Konferenzbrücken über das Microsoft Teams Admin Center erhalten. Siehe [Abrufen von Servicetelefonnummern](./getting-service-phone-numbers.md).
     

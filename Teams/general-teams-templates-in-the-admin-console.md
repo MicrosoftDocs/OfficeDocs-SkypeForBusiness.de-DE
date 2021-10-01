@@ -19,31 +19,31 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 262194a13cb38a267d5030358a612a8475cd2427
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: a23149b26db4cacff46c31396824033622bb1224
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991134"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60046171"
 ---
 # <a name="use-general-team-templates-in-the-admin-center"></a>Verwenden allgemeiner Teamvorlagen im Admin Center
 
-Teamvorlagen in Microsoft Teams es Ihnen ermöglichen, Schnell und einfach Teams zu erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
+Mit Teamvorlagen in Microsoft Teams können Sie schnell und einfach Teams erstellen, indem Sie eine vordefinierte Teamstruktur aus Einstellungen, Kanälen und vorinstallierten Apps bereitstellen.
 
-Verwenden Sie Teamvorlagen, um konsistente Teams in der gesamten Organisation zu bereitstellen. Vorlagen können Den Benutzern auch dabei helfen, sich mit der effektiven Nutzung ihrer Daten zu Teams. Sie können die Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
+Verwenden Sie Teamvorlagen, um konsistente Teams in der gesamten Organisation zu bereitstellen. Vorlagen können Benutzern auch dabei helfen, sich mit der effektiven Nutzung ihrer Daten zu Teams. Sie können die Vorlagen auch erweitern, um Teams zu erstellen, die auf Ihre spezifischen Organisationsanforderungen zugeschnitten sind.
 
-Teams enthält vordefinierte Vorlagen, die wir für bestimmte Geschäftsanforderungen und -projekte erstellt haben. In diesem Artikel stellen wir Ihnen die allgemeine Kategorie von Vorlagen vor, die Sie in Ihrer Organisation für verschiedene Szenarien verwenden können.
+Teams enthält vordefinierte Vorlagen, die wir für bestimmte geschäftsspezifische Anforderungen und Projekte erstellt haben. In diesem Artikel stellen wir Ihnen die allgemeine Kategorie von Vorlagen vor, die Sie in Ihrer Organisation für verschiedene Szenarien verwenden können.
 
-Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen im Teams Admin Center.](get-started-with-teams-templates-in-the-admin-console.md)
+Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Schritte mit Teamvorlagen im Teams Admin Center](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="adopt-office-365"></a>Übernehmen Office 365
 
 Unterstützen Sie den Aufbau, das Wachstum und die Erhaltung Ihrer Community für Experten, indem Sie Ihre Kollegen durch die neue Technologie unterstützen.
 
 > [!div class="mx-tdBreakAll"]
-> | Vorlagentyp |TemplateId| Eigenschaften, die in dieser Vorlage enthalten sind |
+> | Vorlagentyp |TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 > | ------------------|--|-----------------------------------------------------------|
-> | Übernehmen Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ecke "Champions"</li> <li>Teamformulare</li><li>Kalender</li></ul> Apps: <ul><li>Wiki</li>  <li>Kanalkalender</li> <li>Meilensteine</li><li>Schwarze Hefter</li></ul>|
+> | Übernehmen Office 365 |`com.microsoft.teams.template.AdoptOffice365`|  Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ecke "Champions"</li> <li>Teamformulare</li><li>Kalender</li></ul> Apps: <ul><li>Wiki</li>  <li>Kanalkalender</li> <li>Meilensteine</li><li>Bulletins</li></ul>|
 > ||||
 
 ## <a name="manage-a-project"></a>Verwalten eines Projekts
@@ -51,7 +51,7 @@ Unterstützen Sie den Aufbau, das Wachstum und die Erhaltung Ihrer Community fü
 Mit dieser Vorlage für allgemeines Projektmanagement können Sie Aufgaben verwalten, Dokumente freigeben, Projektbesprechungen und Dokumentrisiken durchführen sowie Entscheidungen treffen.
 
 > [!div class="mx-tdBreakAll"]
-> | Vorlagentyp| TemplateId| Eigenschaften, die in dieser Vorlage enthalten sind |
+> | Vorlagentyp| TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 > | ------------------|--|-----------------------------------------------------------|
 > | Verwalten eines Projekts |`com.microsoft.teams.template.ManageAProject`| Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Ressourcen</li> <li>Planung</li></ul> Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben</li><li>Listen</li><li>Power Automate</li></ul> |
 > ||||
@@ -62,9 +62,9 @@ Verwalten Sie Aufgaben, Dokumente, und arbeiten Sie gemeinsam an allem, was Sie 
 Möglicherweise haben Sie basierend auf Ihrer App-Berechtigungsrichtlinie keinen Zugriff auf bestimmte Apps.
 
 > [!div class="mx-tdBreakAll"]
-> | Vorlagentyp | TemplateId| Eigenschaften, die in dieser Vorlage enthalten sind |
+> | Vorlagentyp | TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 > | ------------------ |--|-----------------------------------------------------------|
-> | Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Aufgaben</li> <li>OneNote</li> <li>Mitarbeiterideen</li> <li>Problem Reporter</li><li>Power Automate</li><li>Schwarze Hefter</li><li>Meilensteine</li></ul> |
+> | Verwalten eines Ereignisses|`com.microsoft.teams.template.ManageAnEvent` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Budget</li> <li>Inhalt</li><li>Logistik</li> <li>Planung</li> <li> Marketing und PR</li></ul> Apps:<ul><li>Wiki</li><li>Website</li> <li>YouTube</li> <li>Aufgaben</li> <li>OneNote</li> <li>Mitarbeiterideen</li> <li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul> |
 > ||||
 
 ## <a name="onboard-employees"></a>Mitarbeiter integrieren
@@ -72,9 +72,9 @@ Möglicherweise haben Sie basierend auf Ihrer App-Berechtigungsrichtlinie keinen
 Verbessern Sie Ihre Kultur, und optimieren Sie das Mitarbeiter-Onboarding mit diesem zentralen Team für Ressourcen, Fragen und ein bisschen Spaß.
 
 > [!div class="mx-tdBreakAll"]
-> | Vorlagentyp |TemplateId| Eigenschaften, die in dieser Vorlage enthalten sind |
+> | Vorlagentyp |TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 > | ------------------|--|-----------------------------------------------------------|
-> |Mitarbeiter integrieren|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Communitys</li><li>Aufgaben</li><li>Mitarbeiterideen</li><li>Power Automate</li><li>Schwarze Hefter</li><li>Meilensteine</li></ul>|
+> |Mitarbeiter integrieren|`com.microsoft.teams.template.OnboardEmployees` | Kanäle: <ul><li>Allgemein</li> <li>Ankündigungen</li> <li>Mitarbeiterchat</li> <li>Schulung</li></ul>Apps:<ul><li>Wiki</li><li>Communitys</li><li>Aufgaben</li><li>Mitarbeiterideen</li><li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul>|
 > ||||
 
 ## <a name="organize-a-help-desk"></a>Organisieren eines Helpdesks
@@ -82,9 +82,9 @@ Verbessern Sie Ihre Kultur, und optimieren Sie das Mitarbeiter-Onboarding mit di
 Arbeiten Sie gemeinsam an Dokumentationen, Richtlinien und Prozessen, die Ihren Helpdesk unterstützen. Integrieren Sie Ihr vorhandenes Ticketing-System, oder verwenden Sie unsere Vorlage zum Verwalten von Anforderungen.
 
 > [!div class="mx-tdBreakAll"]
-> | Vorlagentyp |TemplateId| Eigenschaften, die in dieser Vorlage enthalten sind |
+> | Vorlagentyp |TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 > | ------------------|--|------------------------------------------------------------|
-> |Helpdesk organisieren| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben </li><li>Lob</li><li>Problem Reporter</li><li>Power Automate</li><li>Schwarze Hefter</li></ul> |
+> |Helpdesk organisieren| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben </li><li>Lob</li><li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li></ul> |
 > ||||
 
 ## <a name="crisis-communication"></a>Kommunikation über Krisen
@@ -92,7 +92,12 @@ Arbeiten Sie gemeinsam an Dokumentationen, Richtlinien und Prozessen, die Ihren 
 Zentralisieren Sie die Zusammenarbeit für Ihr Krisenteam über Geschäftseinheiten hinweg und helfen Sie beim Erstellen von Plänen für Geschäftskontinuität, teilen Sie Tipps für Remotearbeit, verfolgen Sie Kundenkommunikation, und halten Sie jeden mit Ankündigungen und Neuigkeiten auf dem Schleife.
 
 > [!div class="mx-tdBreakAll"]
-> | Vorlagentyp |TemplateId| Eigenschaften, die in dieser Vorlage enthalten sind |
+> | Vorlagentyp |TemplateId| Eigenschaften, die mit dieser Vorlage geliefert werden |
 > | ------------------ |--|----------------------------------------------------------|
-> | Kommunikation über Krisen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anfordern</li><li>Kundeneskalation</li><li>Update für Geschäftsleitung</li><li>Planung</li><li>Logistik</li></ul>Apps: <ul><li>Website</li><li>Aufgaben</li><li>Problem Reporter</li><li>Genehmigungen</li><li>Schwarze Hefter</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
+> | Kommunikation über Krisen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anfordern</li><li>Kundeneskalation</li><li>Update für Geschäftsleitung</li><li>Planung</li><li>Logistik</li></ul>Apps: <ul><li>Website</li><li>Aufgaben</li><li>Problemmelder</li><li>Genehmigungen</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
 > ||||
+
+## <a name="related-articles"></a>Verwandte Artikel
+
+- [Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center](get-started-with-teams-templates-in-the-admin-console.md)
+- [Erstellen eines Teams aus einer Vorlage](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)

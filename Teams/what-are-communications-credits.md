@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Licensing
 description: 'Erfahren Sie, welche Abrechnung mit Guthaben für Kommunikationen (PSTN-Verbrauch) ankommt, wie Sie Tarife finden und welche Dienste Sie erhalten. '
-ms.openlocfilehash: cd52426a26a5dcefe3a5051a8c8e03e56a2991de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ab0daa196de9768e277b292baf1de2b5d456fa78
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626987"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045851"
 ---
 # <a name="what-are-communications-credits"></a>Was ist Guthaben für Kommunikationen?
 
@@ -53,7 +53,7 @@ Guthaben für Kommunikationen ist eine praktische Möglichkeit, die Minuten in A
   
 ## <a name="what-are-the-communications-credits-rates"></a>Welche Tarife gelten für Guthaben für Kommunikationen?
 
-Wenn Sie sich fragen, welche Kosten für die Anrufe für Anrufpläne anstanden, lesen Sie [Cloudbasierte Telefonsystem für](https://go.microsoft.com/fwlink/p/?LinkId=799523) Sprachanrufe (scrollen Sie nach unten zu "Tarife für Anrufanrufe lesen").
+Wenn Sie sich fragen, welche Kosten für die Anrufe für Anrufpläne anstanden, lesen Sie [Cloudbasierte Telefonsystem](https://go.microsoft.com/fwlink/p/?LinkId=799523) für Sprachanrufe (scrollen Sie nach unten zu "Tarife für Anrufanrufe lesen").
   
 ## <a name="what-is-it"></a>Was ist das?
 
@@ -72,11 +72,11 @@ Sie können die verbrauchsbasierte Abrechnung mit einer **einmaligen Einzahlung*
 Im **Microsoft 365 Admin Center**  >    >    >  **Abrechnungskaufdienste hinzufügen können** Sie Guthaben für Kommunikationen auswählen, um das Guthaben hinzuzufügen, und Sie können Guthaben jederzeit manuell hinzufügen. Sie können auch die Option **Automatisches** Aufladen aktivieren, die automatische Kontoaufladungen zu ermöglichen, wenn der Saldo unter den von Ihnen festgelegten Schwellenwert fällt. Wenn Sie sich dafür entscheiden, den Guthabensaldo für Kommunikationen mit einem einmalbetrag zu bezahlen, und der Saldo dann auf null fällt, funktionieren die oben genannten zusätzlichen Anrufszenarien (einschließlich gebührenfreier Telefonnummern) nicht mehr. Daher wird empfohlen, die Einstellung  für automatisches Aufladen zu verwenden, um Dienstunterbrechungen zu vermeiden, falls der Guthabensaldo für Kommunikationen 0 (null) erreicht. Sie können Ihren aktuellen Guthabensaldo für Kommunikationen anzeigen, indem Sie **zu Abrechnung**  >  **Ihres Produktes Guthaben**  >  **für Kommunikationen gehen.**
 
 > [!NOTE]
->Sie erhalten E-Mails an **alle Benutzer mit** Lync-Dienstadministrator, Unternehmensadministrator, Rechnungsadministrator, Unternehmensadministrator, Benutzerkontenadministrator, Helpdesk-Administrator, Dienstunterstützungsadministrator, Abrechnungsadministrator, Lync-Dienstadministrator, Geräteadministrator, Anwendungsadministrator, Lizenzadministrator, Cloudgeräteadministrator, Authentifizierungsadministrator, Privilegierte Authentifizierungsadministrator, Teams-Kommunikationsadministrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administratorrollen, wenn Transaktionen beim Aufladen erfolgreich waren, Transaktionen beim Aufladen fehlschlagen (z. B. abgelaufene Kreditkarte) oder der Guthabensaldo für Kommunikationen 0 (null) erreicht.
+>Sie erhalten E-Mails an alle Benutzer mit Lync-Dienstadministrator, Unternehmensadministrator, Abrechnungsadministrator, Unternehmensadministrator, Benutzerkontenadministrator, Helpdesk-Administrator, Dienstunterstützungsadministrator, Abrechnungsadministrator, Lync-Dienstadministrator, Geräteadministrator, Anwendungsadministrator, Lizenzadministrator, Cloudgeräteadministrator, Authentifizierungsadministrator, privilegierter Authentifizierungsadministrator, Teams  Kommunikationsadministrator, Teams Communications Support Engineer, Teams Communications Support Specialist, Teams Administratoradministratorrollen: Wenn Transaktionen beim Aufladen erfolgreich waren, Transaktionen zum Aufladen nicht erfolgreich waren (z. B. bei einer abgelaufenen Kreditkarte), oder wenn der Guthabensaldo für Kommunikationen 0 (null) erreicht.
   
-## <a name="communications-credits"></a>Kommunikationsguthaben
+## <a name="communications-credits"></a>Guthaben für Kommunikationen
 
-In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die Teams bereits als Dienstanbieter verwenden, können Nutzungsdaten erhalten, indem Sie sie im Microsoft Teams Admin Center > **Analytics & reports** Usage reports (Nutzungsberichte) überprüfen und dann  >   **PSTN-Nutzung auswählen.**
+In jeder Organisation sind unterschiedliche Nutzungsmuster für das Anrufplanvolumen und unterschiedliche Tarife zu berücksichtigen. Diese Nutzungsdaten müssen Sie bei Ihrem aktuellen Dienstanbieter erfragen. Organisationen, die Teams bereits als Dienstanbieter verwenden, können Nutzungsdaten im Microsoft Teams Admin Center > **Analytics &-Berichte** Verwendungsberichte überprüfen und dann  >  PSTN- und **SMS-Nutzung (Vorschau) auswählen.**
   
 Wenn Sie Guthaben für Kommunikationen einrichten, müssen Sie die Anrufnutzung für Ihre Organisation prüfen, um die Beträge zu bestimmen, die Sie aufladen müssen. Informationen zur Anrufnutzung finden Sie im Bericht PSTN-Nutzung. Sie können die Anrufdatensätze aus diesem Bericht nach Excel exportieren und benutzerdefinierte Berichte erstellen.
 
@@ -118,9 +118,9 @@ Die Pläne und Preise finden Sie unter den folgenden Links:
     
 - [Telefonsystem](https://go.microsoft.com/fwlink/?linkid=799763 )
     
-Sie können auch Informationen zur Preisgestaltung [sehen,](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) indem Sie sich bei der Microsoft 365 Admin Center anmelden und zu   >  **Abrechnungskaufsdienste gehen.**
+Sie können auch Informationen zur Preisgestaltung sehen, indem Sie sich bei der [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home?add=sub&amp;adminportal=1#/catalog) anmelden und zu   >  **Abrechnungskaufsdienste gehen.**
   
-Eine Tabelle mit den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Eine Tabelle mit der Lizenz oder den Lizenzen, die Sie für jedes Feature benötigen, finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
   
 ## <a name="related-topics"></a>Verwandte Themen
 

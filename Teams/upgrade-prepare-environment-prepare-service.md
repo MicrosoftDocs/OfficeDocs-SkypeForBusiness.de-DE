@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Erfahren Sie mehr über die Anforderungen an die Vorbereitung Ihrer Organisation auf die Zusammenarbeit und Cloud-Sprachdienste Teams.
+description: Erfahren Sie mehr über die Anforderungen, die Sie erfüllen müssen, um Ihre Organisation für die Zusammenarbeit und Cloud-Sprachdienste mit Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -20,12 +20,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cd80e9bf911287800443a29c4a21674d11014d58
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 056e2e8d626e8993577b945a38b560cc41a1e90b
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727044"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045541"
 ---
 # <a name="prepare-your-service-for-upgrading-to-teams"></a>Vorbereiten des Diensts auf das Upgrade auf Teams
 
@@ -54,23 +54,23 @@ In den folgenden Prüflisten und Startseiten werden die Schritte für die Bereit
 
 - [Besprechungen und Audiokonferenzen](deploy-meetings-microsoft-teams-landing-page.md)
 
-- [Telefonsystem und PSTN-Konnektivitätsoptionen](cloud-voice-landing-page.md)
+- [Optionen für Telefonsystem und Festnetzanbindung](cloud-voice-landing-page.md)
 
 
 Die Aufgaben und Aktivitäten in diesen Checklisten sind die wichtigsten "Aufgaben"-Elemente, die für jede Bereitstellung von Zusammenarbeits- und Sprachfunktionen mit einer Teams. Sie können die Checklisten so anpassen, dass sie Aktivitäten und Aufgaben enthalten, die speziell für Ihre eigene Aufgabe Teams sind.
 
 Verwenden Sie die bereitgestellten Checklisten, um den Status der einzelnen Aktivitäten und Aufgaben nachverfolgt und sicherzustellen, dass Sie keine kritischen Schritte übersprungen haben. Jede Aktivität enthält eine detaillierte Beschreibung der erforderlichen Aktionen und Verweise auf zusätzliche Informationen, die Sie zum Abschließen dieser Aktivität verwenden können.
 
-Obwohl es empfehlenswert ist, die Checklisten der Reihe nach zu befolgen, hängt die genaue Reihenfolge vom Umfang der Bereitstellung sowie von der Konfiguration und Komplexität Ihrer Umgebung ab. Sie sind so organisiert, dass sie entweder eine "grünes Feld" Teams Bereitstellung (eine ohne vorherige Skype for Business Online-Anwesenheit) oder ein Upgrade von Skype for Business Online auf Teams. Wenn Sie ein Upgrade von Skype for Business Online durchführen, haben Sie möglicherweise einige dieser Aktivitäten bereits abgeschlossen und können sie jetzt ignorieren.
+Obwohl es empfehlenswert ist, die Checklisten der Reihe nach zu befolgen, hängt die genaue Reihenfolge vom Umfang der Bereitstellung sowie von der Konfiguration und Komplexität Ihrer Umgebung ab. Sie sind so organisiert, dass sie entweder eine "grüne" Teams-Bereitstellung (eine ohne vorherige Skype for Business Online-Anwesenheit) oder ein Upgrade von Skype for Business Online auf Teams. Wenn Sie ein Upgrade von Skype for Business Online durchführen, haben Sie möglicherweise einige dieser Aktivitäten bereits abgeschlossen und können sie jetzt ignorieren.
 
 Wenn Sie Benutzer pro Website integrieren, wird dringend empfohlen, das Playbook für die Website-Aktivierung [(Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) als ergänzenden Leitfaden zu diesen Checklisten zu verwenden.
 
 >[!NOTE]
->Die meisten Konfigurationseinstellungen sind in online Teams Skype for Business gebräuchlich. Sie verwenden das Microsoft Teams Admin Center, um diese Einstellungen zu konfigurieren.
+> Die meisten Konfigurationseinstellungen sind bei Teams und Skype for Business verfügbar. Sie verwenden das Microsoft Teams Admin Center, um diese Einstellungen zu konfigurieren.
 
 <table>
 <tr><td><img src="media/audio_conferencing_image7.png" alt="An icon depicting a decision point"/> <br/>Entscheidungspunkt</td><td><ul><li>Wer wird für die Fertigstellung der Onboarding-Checklisten zuständig sein?</li></ul></td></tr>
-<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Laden Sie die Checklisten für das Onboarding herunter.</li><li>Arbeiten Sie die Elemente der Checkliste für das Onboarding schrittweise in Übereinstimmung mit dem Bereitstellungsplan Ihrer Organisation durch.</li></ul></td></tr>
+<tr><td><img src="media/audio_conferencing_image9.png" alt="An icon depicting the next steps"/><br/>Nächste Schritte</td><td><ul><li>Laden Sie die Checklisten für das Onboarding herunter.</li><li>Arbeiten Sie die Elemente der Checkliste für das Onboarding schrittweise gemäß dem Bereitstellungsplan Ihrer Organisation durch.</li></ul></td></tr>
 </table>
 
 <!--ENDOFSECTION-->
@@ -79,7 +79,7 @@ Wenn Sie Benutzer pro Website integrieren, wird dringend empfohlen, das Playbook
 
 Nachdem Sie diese Checkliste abgeschlossen haben, fahren Sie mit dem nächsten Schritt fort: [Durchführen eines Benutzer-Pilotprojekts](pilot-essentials.md)
 
-[//]: # (@Turgay ich diesen nächsten Absatz auskommentiert, weil er sprachspezifisch für die Cloud ist.)
+[//]: # (@Turgay ich diesen nächsten Absatz auskommentiert, weil er sprachspezifisch in der Cloud ist.)
 <!--
 As the next step, use the [Site Enablement Playbook for Voice (Playbook)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) to help you onboard your users on each site to cloud voice, and help ensure that you plan and execute important site-specific activities.
 -->

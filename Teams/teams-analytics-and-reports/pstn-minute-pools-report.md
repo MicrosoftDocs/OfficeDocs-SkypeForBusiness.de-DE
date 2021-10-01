@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Bericht über PSTN-Minutenpools
-author: cichur
-ms.author: v-cichur
+author: serdarsoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Verwenden des Berichts Teams PSTN-Minutenpools im Microsoft Teams A
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f6ea18ce789ab08a92849833f72d1bf291ebaec9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef2e207352bf4ad7ee3d0f6c8fae674c4022e0b0
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730274"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045991"
 ---
 # <a name="microsoft-teams-pstn-minute-pools-report"></a>Microsoft Teams Bericht über PSTN-Minutenpools
 
@@ -30,7 +30,7 @@ Der Bericht Teams PSTN-Minutenpools im Microsoft Teams Admin Center bietet Ihnen
 
 ## <a name="view-the-pstn-minute-pools-report"></a>Anzeigen des Berichts für PSTN-Minutenpools
 
-Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte**&  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **PSTN-Minutenpools** aus, und klicken Sie dann **auf Bericht ausführen.**
+Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **PSTN-Minuten- und SMS(Vorschau)-Pools** aus, und klicken Sie dann **auf Bericht ausführen.**
 
 ![Screenshot des Berichts Teams PSTN-Minutenpools im Admin Center](../media/teams-reports-pstn-minute-pools-with-callouts.png "Screenshot des Berichts Teams PSTN-Minutenpools im Microsoft Teams Admin Center mit nummerierten Anrufen")
 

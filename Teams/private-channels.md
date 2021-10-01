@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 0eddd5f7af724d9b981091ea1fca7f95ee1af8d9
-ms.sourcegitcommit: 1904d6a6b91ce613e2cf61af1e784ae046c3d6b3
+ms.openlocfilehash: 5d942e268639e30a95878485a931cf1af5be87d5
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58744458"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045691"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -130,6 +130,8 @@ Jedes Team kann maximal 30 private Kanäle nutzen, und jeder private Kanal kann 
 Wenn Sie ein Team aus einem bestehenden Team erstellen, werden private Kanäle des bestehenden Teams nicht übernommen.
 
 Benachrichtigungen aus privaten Kanälen sind derzeit in E-Mails zu verpassten Aktivitäten nicht eingeschlossen.
+
+Kanalbesprechungen können nicht geplant werden.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
