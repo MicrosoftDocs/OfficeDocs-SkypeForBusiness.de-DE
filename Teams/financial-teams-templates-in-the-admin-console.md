@@ -19,12 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9273f8519fd7aeea90ff35f49ca0d6986afa2d59
-ms.sourcegitcommit: 6a65e318d49d8990f2b3409ff7bb2c61ea1f2525
+ms.openlocfilehash: 19c6676bb742deacf97afae54f29b369d551b9ae
+ms.sourcegitcommit: 5eb5acd7910724f7f4a598ecc28b003e5bbe5ea5
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 09/29/2021
-ms.locfileid: "59991104"
+ms.locfileid: "60007765"
 ---
 # <a name="use-financial-team-templates"></a>Verwenden Sie Vorlagen für Finanzteams
 
@@ -72,4 +72,4 @@ Zentralisieren Sie die Zusammenarbeit für die Mitarbeiter Ihrer Bank zweigstell
 ||||
 
 > [!NOTE]
-> Weitere Vorlagen, die für die Organisation von Finanzdienstleistungen gelten, finden Sie unter [In Microsoft Graph erstellte Teamvorlagen für kleine und mittlere Unternehmen](smb-templates.md).
+> Weitere Teamvorlagen, die für die Finanzdienstleistungsunternehmen gelten, finden Sie unter [In Microsoft Graph erstellte Teamvorlagen für kleine und mittlere Unternehmen](smb-templates.md).
