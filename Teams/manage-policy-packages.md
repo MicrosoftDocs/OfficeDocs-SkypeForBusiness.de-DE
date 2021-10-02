@@ -20,20 +20,20 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: 7a9e7c8a83d7700840a49febdf0ab88104a7e2d9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58750044"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60081614"
 ---
 # <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: Verwalten von Richtlinienpaketen
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Wir haben Richtlinienpakete erstellt, um die Verwaltung von Richtlinien für Benutzergruppen in Ihrer Organisation zu vereinfachen, zu optimieren und für Konsistenz zu sorgen.  
 
-Sie können die in der Richtlinie [enthaltenen Teams](#policy-packages-included-in-teams) oder eigene benutzerdefinierte [Richtlinienpakete erstellen.](#custom-policy-packages)
+Sie können die [in](#policy-packages-included-in-teams) der Teams enthaltenen Richtlinienpakete verwenden oder eigene [benutzerdefinierte Richtlinienpakete erstellen.](#custom-policy-packages)
 
-:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite Richtlinienpakete im Admin Center":::
+:::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinienpakete" im Admin Center":::
 
 Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Richtlinienpakete werden mithilfe des Microsoft Teams Admin Centers oder von PowerShell verwaltet.
 
@@ -83,15 +83,13 @@ Wenn Sie beispielsweise das Richtlinienpaket für Bildungseinrichtungen (Lehrer)
 
 ## <a name="custom-policy-packages"></a>Benutzerdefinierte Richtlinienpakete
 
-**Benutzerdefinierte Richtlinienpakete sind für die neue Richtlinie noch Government Community Cloud (GCC)**
-
 Mit benutzerdefinierten Richtlinienpaketen können Sie eigene Richtlinien für Benutzer mit ähnlichen Rollen in Ihrer Organisation bündeln. Erstellen Sie eigene Richtlinienpakete, indem Sie die benötigten Richtlinientypen und Richtlinien hinzufügen.
 
 So erstellen Sie ein neues benutzerdefiniertes Richtlinienpaket:
 
 1. Wählen Sie im linken Navigationsbereich Microsoft Teams Admin Center **Richtlinienpakete** aus, und klicken Sie dann auf **Hinzufügen**.
 
-    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche Hinzufügen auf der Seite Richtlinienpakete im Admin Center":::
+    :::image type="content" source="media/policy-packages-add.png" alt-text="Screenshot der Schaltfläche "Hinzufügen" auf der Seite "Richtlinienpakete" im Admin Center":::
 
 2. Geben Sie einen Namen und eine Beschreibung für das Paket ein.
 
@@ -128,9 +126,9 @@ Hier sind die Schritte zum Anzeigen, Zuweisen und Anpassen von Richtlinienpakete
 
 ### <a name="customize-policies-in-a-policy-package"></a>Anpassen von Richtlinien in einem Richtlinienpaket
 
-Sie können die Einstellungen einer  Richtlinie über die Seite "Richtlinienpakete" oder direkt zur Richtlinienseite im Microsoft Teams Admin Center bearbeiten.
+Sie können die Einstellungen einer  Richtlinie über die Seite "Richtlinienpakete" oder direkt zur Richtlinienseite im Microsoft Teams Admin Center ändern.
 
-1. Gehen Sie im linken Navigationsbereich Microsoft Teams Admin Center wie folgt vor:
+1. Gehen Sie in der linken Navigationsleiste Microsoft Teams Admin Center wie folgt vor:
     - Klicken **Sie auf Richtlinienpakete**, und wählen Sie dann das Richtlinienpaket aus, indem Sie links des Paketnamens klicken.
     - Klicken Sie auf den Richtlinientyp.  Klicken Sie beispielsweise auf **Messagingrichtlinien**.
 
@@ -145,6 +143,6 @@ Sie können ein Richtlinienpaket einem einzelnen Benutzer, einer Gruppe oder ein
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Zuweisen von Richtlinienpaketen](assign-policy-packages.md)
-- [Teams Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
+- [Teams richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
 - [Teams Richtlinienpakete-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
-- [Teams von Richtlinienpaketen für Behörden](policy-packages-gov.md)
+- [Teams Richtlinienpakete für Behörden](policy-packages-gov.md)
