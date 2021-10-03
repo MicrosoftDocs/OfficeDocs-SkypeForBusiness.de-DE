@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.dashboard.allteamsdocuments
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d16047b643ee8312a250156cbb5abcd083b01bc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d94c67e4fa00ea5b0206e67963da486ed9b16832
+ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603644"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "60045791"
 ---
 # <a name="welcome-to-microsoft-teams"></a>Willkommen bei Microsoft Teams
 Sind Sie in Ihrer Organisation Administrator für Microsoft Teams? Dann sind Sie hier an der richtigen Stelle. Wenn Sie bereit sind, mit Microsoft Teams loszulegen, beginnen Sie mit [Bereitstellen von Microsoft Teams](./deploy-overview.md) und [Sichere Zusammenarbeit mit Microsoft 365 und Microsoft Teams einrichten](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
@@ -35,7 +35,7 @@ Verpassen Sie nicht unser Video „Willkommen bei Teams für Teams-Admins“ (et
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE47cdp]
 
-Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken Seite der App auf **Hilfe** oder wechseln Sie zum [Microsoft Teams-Hilfecenter](https://support.office.com/teams). Schulungen finden Sie unter [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md). 
+Wenn Sie als Endbenutzer Hilfe zu Teams benötigen, klicken Sie auf der linken Seite der App auf **Hilfe** oder wechseln Sie zum [Microsoft Teams-Hilfecenter](https://support.office.com/teams). Informationen zu Schulungen finden Sie unter [Microsoft Teams-Schulung](training-microsoft-teams-landing-page.md). 
 
 ## <a name="teams-architecture"></a>Teams-Architektur
 
@@ -57,7 +57,6 @@ Um Microsoft Teams anzupassen und zu erweitern, fügen Sie Drittanbieter-Apps mi
 > [!TIP]
 > Wenn Sie sich mit der Architektur von Teams befassen möchten, sehen Sie sich die Videos auf der [Akademie der Plattform für Teams](https://aka.ms/TeamsPlatformAcademy) an.
 
-
 ## <a name="managing-teams"></a>Verwalten von Teams
 
 Als Administrator können Sie Teams über das Microsoft Teams Admin Center verwalten. Um sich schnell zu orientieren, schauen Sie sich das Video "Teams über das Teams Admin Center verwalten" (3:03 Min.) an:
@@ -76,7 +75,7 @@ Sehen Sie regelmäßig im [Nachrichtencenter](https://admin.microsoft.com/AdminP
 ## <a name="upgrade-from-skype-for-business-to-teams"></a>Upgrade von Skype for Business auf Microsoft Teams
 Teams ist der primäre Client für intelligente Kommunikation in Microsoft 365 und Office 365 und ersetzt in Zukunft Skype for Business Online. Weitere Informationen zu den neuen Funktionen von Teams finden Sie in der [Microsoft 365-Roadmap](https://aka.ms/O365Roadmap). Ergänzend zu den Funktionen für beständigen Chat und Messaging bietet Teams umfassende Möglichkeiten für Besprechungen und Anrufe mit vollständig integrierten Sprach- und Videofunktionen. Lesen Sie im Microsoft Teams-Blog den Artikel [Microsoft Teams ist jetzt eine umfassende Lösung für Besprechungen und Anrufe](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Microsoft-Teams-is-now-a-complete-meeting-and-calling-solution/ba-p/236042).
 
-Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen hierzu finden Sie unter [Upgrade to Teams](upgrade-start-here.md) (Upgrade zu Teams ausführen).
+Wenn Sie Skype for Business verwenden und für das Upgrade auf Microsoft Teams bereit sind oder Skype for Business und Microsoft Teams parallel verwenden und jetzt ganz zu Microsoft Teams wechseln möchten, haben wir Tools, Tipps und Anleitungen, die Ihnen beim erfolgreichen Übergang helfen sollen. Weitere Informationen finden Sie unter [Upgrade auf Teams](upgrade-start-here.md).
 
 ## <a name="teamwork"></a>Teamarbeit
 Jedes Team ist anders, das heißt, es gibt keine Universallösung für die Zusammenarbeit. Microsoft 365 und Office 365 sind für die individuellen Anforderungen jedes Teams konzipiert und ermöglicht Benutzern mit speziell entwickelten integrierten Anwendungen Kommunikation, Zusammenarbeit und eine Steigerung ihrer Produktivität.
@@ -89,7 +88,7 @@ Berücksichtigen Sie bei der Entscheidung über die zu verwendenden Microsoft 36
 
 - **SharePoint** ist für Websites, Portale, intelligente Inhaltsdienste, Automatisierung von Geschäftsprozessen und Unternehmenssuche gedacht. Mit SharePoint bleibt der Inhalt im Mittelpunkt der Teamarbeit. Alle Arten von Inhalten können im Handumdrehen teamübergreifend freigegeben werden, sodass alle Teams auf sie zugreifen können. Die enge Integration in Outlook, Yammer und Microsoft Teams ermöglicht die nahtlose Zusammenarbeit an Inhalten mit verschiedenen Möglichkeiten, Unterhaltungen zu führen.
 
-- **OneDrive for Business** dient zum Speichern von Dateien und zum Freigeben dieser Dateien für Personen, die von Benutzern eingeladen werden. Von Benutzern in OneDrive for Business gespeicherte Inhalte bleiben privat, bis die Benutzer sie für andere freigeben. Damit ist dies die beste Option zum Speichern von persönlichen Dokumenten und Entwürfen, die nicht freigegeben werden sollen oder noch nicht für die Freigabe bereit sind.
+- **OneDrive for Business** zum Speichern von Dateien und zum Teilen mit Personen, die ein Benutzer einlädt. Inhalte, die ein Benutzer auf OneDrive for Business speichert, sind privat, bis der Benutzer sie für andere freigibt, was sie zur besten Option zum Speichern persönlicher und Entwurfsdokumente macht, die nicht freigegeben werden sollen oder nicht freigegeben werden sollen.
 
 - **Yammer** vernetzt Personen in der gesamten Organisation. Treiben Sie unternehmensweite Initiativen voran, tauschen Sie bewährte Methoden aus, und richten Sie Communitys ein, in denen es um Themen, Bereiche oder Vorgehensweisen von gemeinsamem Interesse geht. Gewinnen Sie Ideen durch Crowdsourcing, um offene Diskussionen mit Benutzern aus dem gesamten Unternehmen zu fördern.
 
