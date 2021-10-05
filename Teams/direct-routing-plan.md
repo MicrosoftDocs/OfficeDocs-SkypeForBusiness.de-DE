@@ -17,13 +17,13 @@ appliesto:
 f1.keywords:
 - NOCSH
 ms.custom: seo-marvel-mar2020
-description: Erfahren Sie Microsoft-Telefon sie mit System Direct Routing eine Verbindung mit einem unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
-ms.openlocfilehash: a747879a0e95ab524e1a45cf12a366f0bd7e4fe4
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+description: Hier erfahren sie Microsoft-Telefon sie mit System Direct Routing eine Verbindung mit einem unterstützten, vom Kunden bereitgestellten Session Border Controller (SBC) mit Microsoft-Telefon System herstellen können.
+ms.openlocfilehash: a0fe8cc7604e34fabb4c68ecb00c9a7a448afea4
+ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942380"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "60127392"
 ---
 # <a name="plan-direct-routing"></a>Planen von direktem Routing
 
@@ -35,10 +35,10 @@ Microsoft-Telefon Mit System Direct Routing können Sie einen unterstützten, vo
 ![Diagramm, das die Konfiguration der lokalen PSTN-Anbindung zeigt.](media/PlanDirectRouting1-PSTNwithTeams.png "Konfiguration der lokalen PSTN-Anbindung mit Microsoft Teams Client")
 
   > [!NOTE]
-  > Skype for Business Online ermöglicht Ihnen auch das Koppeln eines vom Kunden bereitgestellten SBC, aber dafür ist eine lokale Skype for Business Server-Bereitstellung oder eine spezielle Edition von Skype for Business, der so genannte Cloud Connector, zwischen SBC und Microsoft Cloud erforderlich. Dieses Szenario wird als Hybridstimme bezeichnet. Im Gegensatz dazu ermöglicht Direct-Routing eine direkte Verbindung zwischen dem unterstützten SBC und der Microsoft Cloud.
+  > Skype for Business Online ermöglicht Ihnen auch das Koppeln eines vom Kunden bereitgestellten SBC, aber dafür ist eine lokale Skype for Business Server-Bereitstellung oder eine Spezielle Edition von Skype for Business, der so genannte Cloud Connector, zwischen SBC und Microsoft Cloud erforderlich. Dieses Szenario wird als Hybridstimme bezeichnet. Im Gegensatz dazu ermöglicht Direct-Routing eine direkte Verbindung zwischen dem unterstützten SBC und der Microsoft Cloud.
 
 > [!Important]
-> Cloud Connector Edition wird am 31. Juli 2021 sowie Skype for Business Online aus der Skype for Business werden. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie hier, wie Sie Ihr lokales Telefonienetzwerk mit Teams [mit Direct Routing verbinden.](direct-routing-landing-page.md) 
+> Cloud Connector Edition wird am 31. Juli 2021 sowie Skype for Business Online aus der Skype for Business werden. Nachdem Ihre Organisation ein Upgrade auf Teams durchgeführt hat, erfahren Sie hier, wie Sie Ihr lokales Telefonienetzwerk mit Teams [Direct-Routing verbinden.](direct-routing-landing-page.md) 
 
 Mit Direct Routing können Sie Ihren SBC mit nahezu jedem Telefonie-Trunk verbinden oder mit Drittanbieter-PSTN-Geräten verbinden. Mit Direct Routing haben Sie die Möglichkeit: 
 
@@ -60,7 +60,7 @@ Die Planung der Bereitstellung von Direct-Routing ist der Schlüssel zu einer er
 - [Infrastrukturanforderungen](#infrastructure-requirements)
 - [Lizenzierungs- und andere Anforderungen](#licensing-and-other-requirements)
 - [SBC-Domänennamen](#sbc-domain-names)
-- [Öffentliches vertrauenswürdiges Zertifikat für den SBC](#public-trusted-certificate-for-the-sbc)
+- [Öffentliches vertrauenswürdiges Zertifikat für SBC](#public-trusted-certificate-for-the-sbc)
 - [SIP-Signalisierung: FQDNs](#sip-signaling-fqdns)
 - [SIP-Signalisierung: Ports](#sip-signaling-ports)
 - [Medienverkehr: Portbereiche](#media-traffic-port-ranges)
@@ -75,22 +75,22 @@ Die Infrastrukturanforderungen für die unterstützten SBCs, Domänen und andere
 |:--- |:--- |
 |Session Border Controller (SBC)|Ein unterstützter SBC. Weitere Informationen finden Sie unter [Unterstützte SBCs.](#supported-session-border-controllers-sbcs)|
 |Mit SBC verbundene Telefonie-Trunks|Mindestens ein Telefonie-Trunk ist mit dem SBC verbunden. An einem Ende stellt der SBC eine Verbindung mit dem Microsoft-Telefon über Direct-Routing ein. Der SBC kann auch Verbindungen mit Telefonieen von Drittanbietern wie PBXs, Analog Telephony Adapters und so weiter herstellen. Alle mit dem SBC verbundenen PSTN-Konnektivitätsoption funktionieren. (Informationen zur Konfiguration der PSTN-Trunks zum SBC finden Sie unter SBC-Anbieter oder Trunkanbieter.)|
-|Microsoft 365 oder Office 365 Organisation|Eine Microsoft 365 oder Office 365, die Sie zum Heiming Ihrer Microsoft Teams-Benutzer sowie die Konfiguration und Verbindung mit dem SBC verwenden.|
-|Benutzerregistrierungsstelle|Der Benutzer muss in einem Microsoft 365 oder einem Office 365.<br/>Wenn Ihr Unternehmen über eine lokale Skype for Business- oder Lync-Umgebung mit hybrider Konnektivität zu Microsoft 365 oder Office 365 verfügt, können Sie Voice in Teams für einen benutzer, der lokal heimiert ist, nicht aktivieren.<br/><br/>Um die Registrierungsstelle eines Benutzers zu überprüfen, verwenden Sie das Skype for Business Online-PowerShell-Cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Die Ausgabe des Cmdlets sollte wie hier gezeigt sein:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
-|Domänen|Eine oder mehrere Domänen, die Ihren Microsoft 365 oder Office 365 hinzugefügt wurden.<br/><br/>Beachten Sie, dass Sie nicht die Standarddomäne (.onmicrosoft.com) verwenden können, die \* automatisch für Ihren Mandanten erstellt wird.<br/><br/>Zum Anzeigen der Domänen können Sie das folgende PowerShell Skype for Business Online-PowerShell-Cmdlet verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Microsoft 365 oder Office 365 finden Sie unter Häufig [gestellte Fragen](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)zu Domänen.|
+|Microsoft 365 oder Office 365 Organisation|Eine Microsoft 365 oder Office 365, die Sie für die Microsoft Teams Ihrer Benutzer sowie die Konfiguration und Verbindung mit dem SBC verwenden.|
+|Benutzerregistrierungsstelle|Der Benutzer muss in einem Microsoft 365 oder einem Office 365.<br/>Wenn Ihr Unternehmen über eine lokale Skype for Business- oder Lync-Umgebung mit hybrider Konnektivität zu Microsoft 365 oder Office 365 verfügt, können Sie voice in Teams für einen Benutzer, der lokal heimiert ist, nicht aktivieren.<br/><br/>Um die Registrierungsstelle eines Benutzers zu überprüfen, verwenden Sie das Skype for Business Online-PowerShell-Cmdlet:<br/><code>Get-CsOnlineUser -Identity \<user> \| fl HostingProvider</code> <br/><br/>Die Ausgabe des Cmdlets sollte wie hier gezeigt sein:<br/><code>HostingProvider : sipfed.online.lync.com</code>|
+|Domänen|Eine oder mehrere Domänen, die Ihrer Organisation Microsoft 365 oder Office 365 wurden.<br/><br/>Beachten Sie, dass Sie nicht die Standarddomäne (.onmicrosoft.com) verwenden können, die \* automatisch für Ihren Mandanten erstellt wird.<br/><br/>Zum Anzeigen der Domänen können Sie das folgende PowerShell Skype for Business Online-PowerShell-Cmdlet verwenden:<br/><code>Get-CsTenant \| fl Domains</code><br/><br/>Weitere Informationen zu Domänen und Microsoft 365 oder Office 365 finden Sie unter Häufig [gestellte Fragen (FAQ) zu Domänen.](https://support.office.com/article/Domains-FAQ-1272bad0-4bd4-4796-8005-67d6fb3afc5a)|
 |Öffentliche IP-Adresse für den SBC|Eine öffentliche IP-Adresse, die zum Herstellen einer Verbindung mit dem SBC verwendet werden kann. Basierend auf dem Typ von SBC kann SBC NAT verwenden.|
 |Fully Qualified Domain Name (FQDN) for the SBC|Ein FQDN für den SBC, wobei der Domänenteil des FQDN eine der registrierten Domänen in Ihrer Microsoft 365- oder Office 365 ist. Weitere Informationen finden Sie unter [SBC-Domänennamen.](#sbc-domain-names)|
 |Öffentlicher DNS-Eintrag für SBC |Ein öffentlicher DNS-Eintrag, der den SBC-FQDN der öffentlichen IP-Adresse zuzuordnen. |
-|Öffentliches vertrauenswürdiges Zertifikat für den SBC |Ein Zertifikat für den SBC, der für die Kommunikation mit Direct-Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliches vertrauenswürdiges Zertifikat für SBC.](#public-trusted-certificate-for-the-sbc)|
+|Öffentliches vertrauenswürdiges Zertifikat für SBC |Ein Zertifikat für den SBC, der für die Kommunikation mit Direct-Routing verwendet werden soll. Weitere Informationen finden Sie unter [Öffentliches vertrauenswürdiges Zertifikat für SBC.](#public-trusted-certificate-for-the-sbc)|
 |Verbindungspunkte für direktes Routing |Die Verbindungspunkte für Direct-Routing sind die folgenden drei FQDNs:<br/><br/>`sip.pstnhub.microsoft.com` – Globaler FQDN muss zuerst ausprobiert werden.<br/>`sip2.pstnhub.microsoft.com` – Sekundärer FQDN, geografische Zuordnung zur zweiten Region mit Priorität.<br/>`sip3.pstnhub.microsoft.com` – Drittgrößter FQDN, geografisch der Region mit dritter Priorität zu.<br/><br/>Informationen zu Den Konfigurationsanforderungen finden Sie unter [SIP-Signalisierung: FQDNs](#sip-signaling-fqdns).|
 |IP-Adressen und Ports der Firewall für Direct Routing-Medien |Der SBC kommuniziert mit den folgenden Diensten in der Cloud:<br/><br/>SIP-Proxy, der die Signalisierung behandelt<br/>Medienprozessor, der Medien behandelt ( außer wenn die Medienumgehung<br/><br/>Diese beiden Dienste verfügen über separate IP-Adressen in der Microsoft Cloud, die weiter unten in diesem Dokument beschrieben werden.<br/><br/>Weitere Informationen finden Sie im Abschnitt [Microsoft Teams unter](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams) [URLs und IP-Adressbereiche.](/office365/enterprise/urls-and-ip-address-ranges) |
 |Medientransportprofil|TCP/RTP/SAVP <br/>UDP/RTP/SAVP|
-IP-Adressen und Ports der Firewall für Microsoft Teams Medien |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche.](/office365/enterprise/urls-and-ip-address-ranges) |
+Firewall-IP-Adressen und Ports für Microsoft Teams Medien |Weitere Informationen finden Sie unter [URLs und IP-Adressbereiche.](/office365/enterprise/urls-and-ip-address-ranges) |
 |||
 
 ## <a name="licensing-and-other-requirements"></a>Lizenzierungs- und andere Anforderungen 
 
-Benutzern von Direct-Routing müssen in einem Microsoft 365 oder einer anderen Office 365: 
+Benutzern von Direct-Routing müssen in einem Microsoft 365 oder einer Office 365: 
 
 - Microsoft-Telefon "System" aus. 
 - Microsoft Teams + Skype for Business Plan 2, falls in der Lizenzierung enthalten.
@@ -100,17 +100,17 @@ Benutzern von Direct-Routing müssen in einem Microsoft 365 oder einer anderen O
 > Skype for Business Der Plan sollte nicht aus einem Lizenzvertrag entfernt werden, in dem er enthalten ist. 
 > 
 > [!IMPORTANT]
-> GCC Benutzer von "Hoch" und "DoD" sollten die in G5 enthaltene Lizenzierung für Audiokonferenzen deaktivieren und mit der Aktivierung von Audiokonferenzen warten, bis Direct Routing vollständig konfiguriert ist. Vor dem Aktivieren von Lizenzen für Audiokonferenzen sollten Benutzer Einwahltelefonnummern und eine funktionierende Wählta nicht konfiguriert haben. Weitere [Informationen finden Sie unter Audiokonferenzen mit Direct Routing für GCC High und DoD.](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
+> GCC Benutzer von "Hoch" und "DoD" sollten die in G5 enthaltene Lizenzierung für Audiokonferenzen deaktivieren und mit der Aktivierung von Audiokonferenzen warten, bis Direct Routing vollständig konfiguriert ist. Vor dem Aktivieren von Lizenzen für Audiokonferenzen sollten Benutzer Einwahltelefonnummern und eine funktionierende Wählta nicht konfiguriert haben. Weitere [Informationen finden Sie unter Audiokonferenzen mit Direct Routing GCC High und DoD.](./audio-conferencing-with-direct-routing-for-gcch-and-dod.md)
 
 
 > [!IMPORTANT]
 >  Für den Fall, dass Sie externe Teilnehmer zu geplanten Besprechungen hinzufügen möchten , entweder durch Einenwählen oder durch Angabe der Einwahlnummer, ist die Lizenz für Audiokonferenzen erforderlich.
-> Weisen GCC "High" und "DoD" G5-Benutzern keine Lizenz für Audiokonferenzen zu.  Weisen Sie G3-Benutzern erst dann eine Lizenz für Audiokonferenzen zu, wenn Direct Routing vollständig konfiguriert ist und der Benutzer über eine funktionierende Wähltatischen verfügt.
+> Weisen GCC " High" und "DoD" G5-Benutzern keine Lizenz für Audiokonferenzen zu.  Weisen Sie G3-Benutzern erst dann eine Lizenz für Audiokonferenzen zu, wenn Direct Routing vollständig konfiguriert ist und der Benutzer über eine funktionierende Wähltatischen verfügt.
 
 
 ### <a name="ad-hoc-call-escalation-and-audio-conferencing-license"></a>Ad-hoc-Anrufskalation und Lizenz für Audiokonferenzen
 
-Ein Teams Benutzer kann einen 1:1-Anruf Teams PSTN starten oder Teams, Teams und einen PSTN-Teilnehmer hinzufügen. Dieses Szenario wird als Ad-hoc-Konferenz bezeichnet. Der Weg, den der Anruf einnimmt, hängt davon ab, ob dem Benutzer, der den Anruf eskaliert, eine Microsoft Audio Conferencing-Lizenz zugewiesen wurde:
+Ein Teams Benutzer kann einen 1:1-Anruf Teams PSTN oder Teams, um Teams und einen PSTN-Teilnehmer hinzuzufügen. Dieses Szenario wird als Ad-hoc-Konferenz bezeichnet. Der Weg, den der Anruf einnimmt, hängt davon ab, ob dem Benutzer, der den Anruf eskaliert, eine Microsoft Audio Conferencing-Lizenz zugewiesen wurde:
 
 - Wenn dem Teams, der den Anruf eskaliert, eine Microsoft Audio Conferencing-Lizenz zugewiesen wurde, erfolgt die Eskalation über den Microsoft Audio Conferencing-Dienst. Der Remote-PSTN-Teilnehmer, der zum bestehenden Anruf eingeladen wird, erhält eine Benachrichtigung über den eingehenden Anruf und sieht die Nummer der Microsoft-Brücke, die dem Teams-Benutzer zugewiesen wurde, der die Eskalation ausgelöst hat.
 - Wenn dem Teams, der den Anruf eskaliert, keine Microsoft Audio Conferencing-Lizenz zugewiesen wurde, erfolgt die Eskalation über einen Session Border Controller, der mit der Direct Routing-Schnittstelle verbunden ist. Der Remote-PSTN-Teilnehmer, der zu dem Anruf eingeladen wird, erhält eine Benachrichtigung über den eingehenden Anruf und sieht die Nummer des Teams Benutzers, der die Eskalation ausgelöst hat. Der spezifische SBC, der für die Eskalation verwendet wird, wird durch die Routingrichtlinie des Benutzers definiert. 
@@ -125,7 +125,7 @@ Direct Routing unterstützt auch Benutzer, die für den Microsoft-Anrufplan lize
 
 Das Mischen von Anrufplan- und Direct-Routingkonnektivität für denselben Benutzer ist optional, kann aber hilfreich sein (z. B. wenn dem Benutzer ein Microsoft-Anrufplan zugewiesen ist, er aber einige Aufrufe mit SBC weiterleiten möchte). Eines der am häufigsten verwendeten Szenarien sind Anrufe an PbXs von Drittanbietern.  Bei Festnetztelefonanlagen von Drittanbietern werden alle Anrufe, mit Ausnahme von Anrufen an die mit dieser PbX verbundenen Telefone, über den Microsoft-Anrufplan geroutet, aber Anrufe an Telefone, die mit Drittanbieter-PBXs verbunden sind, gehen an den SBC und bleiben daher im Unternehmensnetzwerk und nicht im PSTN. 
 
-Weitere Informationen zur Lizenzierung Telefonsystem Sie unter ["Holen](https://products.office.com/compare-all-microsoft-office-products?tab=2) Sie sich das Beste aus Ihren Office und [Planen von Optionen.](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
+Weitere Informationen zur Lizenzierung Telefonsystem Sie unter ["Holen](https://products.office.com/compare-all-microsoft-office-products?tab=2) Sie sich das Beste aus Ihrer Office und Planen [von Optionen .](/office365/servicedescriptions/office-365-platform-service-description/office-365-plan-options) 
 
 Weitere Informationen zur Lizenzierung Telefonsystem Finden Sie unter [Microsoft Teams-Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) 
 
@@ -133,14 +133,14 @@ Weitere Informationen zur Lizenzierung Telefonsystem Finden Sie unter [Microsoft
 
 Sie können als Endpunkt verwenden:
 
-- Beliebiger Teams-Client. 
-- Telefone in der Nähe. Weitere Informationen finden Sie unter Einrichten [der Telefon für Microsoft Teams.](./set-up-common-area-phones.md) Beachten Sie, dass Sie beim Einrichten eines gemeinsamen Bereichs mit Direct-Routing Telefon Anrufplanlizenz benötigen.
-- Skype for Business 3PIP-Telefone. Siehe [Skype for Business-Unterstützung für Telefone (3PIP) mit Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
+- Ein beliebiger Teams-Client. 
+- Telefone in der Nähe. Weitere [Informationen finden Sie unter Einrichten der Telefon für Microsoft Teams.](./set-up-common-area-phones.md) Beachten Sie, dass Sie beim Einrichten eines gemeinsamen Bereichs mit Direct-Routing Telefon Anrufplanlizenz benötigen.
+- Skype for Business 3PIP-Telefone. Siehe [Skype for Business-Unterstützung von Telefonen (3PIP) mit Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Skype-for-Business-phones-3PIP-support-with-Microsoft-Teams/ba-p/789351)
 
 
 ## <a name="sbc-domain-names"></a>SBC-Domänennamen
 
-Der SBC-Domänenname muss aus einem der Namen kommen, die in Domains des Mandanten registriert sind. Sie können den Mandanten ".onmicrosoft.com" nicht für \* den FQDN-Namen der SBC verwenden.
+Der SBC-Domänenname muss aus einem der Namen kommen, die in Domains des Mandanten registriert sind. Sie können den \* .onmicrosoft.com-Mandanten nicht für den FQDN-Namen der SBC verwenden.
 
 Die folgende Tabelle enthält Beispiele für DNS-Namen, die für den Mandanten registriert sind, ob der Name als FQDN für den SBC verwendet werden kann, und Beispiele für gültige FQDN-Namen:
 
@@ -149,10 +149,10 @@ Die folgende Tabelle enthält Beispiele für DNS-Namen, die für den Mandanten r
 contoso.com|Ja|**Gültige Namen:**<br/>sbc1.contoso.com<br/>ssbcs15.contoso.com<br/>europe.contoso.com|
 |contoso.onmicrosoft.com|Nein|Die Verwendung von *.onmicrosoft.com-Domänen wird für SBC-Namen nicht unterstützt.
 
-Angenommen, Sie möchten einen neuen Domänennamen verwenden. Ihr Mandant hat z. contoso.com einen Domänennamen, der in Ihrem Mandanten registriert ist, und Sie möchten sbc1.sip.contoso.com. Bevor Sie einen SBC mit dem Sbc1.sip.contoso.com koppeln können, müssen Sie den Domänennamen in sip.contoso.com In Domänen Ihres Mandanten registrieren. Wenn Sie versuchen, einen SBC mit sbc1.sip.contoso.com zu koppeln, bevor Sie den Domänennamen registrieren, wird die folgende Fehlermeldung angezeigt: "Die Domäne "sbc1.sip.contoso.com" kann nicht verwendet werden, da sie für diesen Mandanten nicht konfiguriert wurde."
-Nachdem Sie den Domänennamen hinzugefügt haben, müssen Sie auch einen Benutzer mit UPN-Namen user@sip.contoso.com und eine Lizenz Teams zuweisen. Es kann bis zu 24 Stunden dauern, bis der Domänenname vollständig bereitgestellt wurde, nachdem er zu Domänen Ihres Mandanten hinzugefügt wurde, ein Benutzer mit einem neuen Namen erstellt und dem Benutzer eine Lizenz zugewiesen wurde. 
+Angenommen, Sie möchten einen neuen Domänennamen verwenden. Ihr Mandant hat z. contoso.com einen Domänennamen, der in Ihrem Mandanten registriert ist, und Sie möchten sbc1.sip.contoso.com. Bevor Sie einen SBC mit dem Namen Ihres sbc1.sip.contoso.com können, müssen Sie den Domänennamen in sip.contoso.com In Domänen Ihres Mandanten registrieren. Wenn Sie versuchen, einen SBC mit sbc1.sip.contoso.com zu koppeln, bevor Sie den Domänennamen registrieren, wird die folgende Fehlermeldung angezeigt: "Die Domäne "sbc1.sip.contoso.com" kann nicht verwendet werden, da sie für diesen Mandanten nicht konfiguriert wurde."
+Nachdem Sie den Domänennamen hinzugefügt haben, müssen Sie auch einen Benutzer mit UPN-User@sip.contoso.com erstellen und eine Lizenz Teams zuweisen. Es kann bis zu 24 Stunden dauern, bis der Domänenname vollständig bereitgestellt wurde, nachdem er zu Domänen Ihres Mandanten hinzugefügt wurde, ein Benutzer mit einem neuen Namen erstellt und dem Benutzer eine Lizenz zugewiesen wurde. 
 
-Es ist möglich, dass ein Unternehmen mehrere SIP-Adressbereiche in einem Mandanten hat. Beispielsweise könnte ein Unternehmen einen contoso.com als SIP-Adressraum verwenden und fabrikam.com als zweiten SIP-Adressraum verwenden. Einige Benutzer verfügen über Adressadressen, user@contoso.com einige Benutzer über Adressadressen user@fabrikam.com. 
+Es ist möglich, dass ein Unternehmen mehrere SIP-Adressbereiche in einem Mandanten hat. Beispielsweise könnte ein Unternehmen einen contoso.com als SIP-Adressraum und fabrikam.com als zweiten SIP-Adressraum verwenden. Einige Benutzer verfügen über Adressadressen, user@contoso.com einige Benutzer über Adressadressen user@fabrikam.com. 
 
 Der SBC benötigt nur einen FQDN und kann Benutzer von jedem beliebigen Adressbereich im gekoppelten Mandanten aus serviceen. Beispielsweise kann ein SBC mit dem Namen sbc1.contoso.com den PSTN-Datenverkehr für Benutzer mit Adressen user@contoso.com und user@fabrikam.com empfangen und senden, solange diese SIP-Adressräume im selben Mandanten registriert sind.  
 
@@ -165,7 +165,7 @@ Microsoft empfiehlt, dass Sie das Zertifikat für den SBC anfordern, indem Sie e
 
 Für das Zertifikat muss der SBC-FQDN als gemeinsamer Name (Common Name, CN) oder als Alternativer Subject Name (SAN)-Feld verwendet werden. Das Zertifikat sollte direkt von einer Zertifizierungsstelle ausgestellt werden, nicht von einem Zwischenanbieter.
 
-Alternativ unterstützt Direct-Routing einen Platzhalter im CN und/oder SAN, und der Platzhalter muss RFC [HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)-Standard entsprechen. Ein Beispiel wäre die Verwendung von contoso.com, die mit der SBC-FQDN-sbc.contoso.com, aber nicht mit der \* sbc.test.contoso.com.
+Alternativ unterstützt Direct-Routing einen Platzhalter im CN und/oder SAN, und der Platzhalter muss RFC [HTTP Over TLS](https://tools.ietf.org/html/rfc2818#section-3.1)-Standard entsprechen. Ein Beispiel wäre die Verwendung von contoso.com, die mit der SBC-FQDN-sbc.contoso.com, aber nicht mit der \* SBC-sbc.test.contoso.com.
 
 Das Zertifikat muss von einer der folgenden Stammzertifizierungsstelle generiert werden:
 
@@ -196,6 +196,7 @@ Das Zertifikat muss von einer der folgenden Stammzertifizierungsstelle generiert
 - USERTrust RSA-Zertifizierungsstelle
 - Hongkong Post Root CA 1,2,3
 - Cacheigo Root CA
+- Harica  
 
 Für direct Routing in Office 365 GCCH- und DoD-Umgebungen muss das Zertifikat von einer der folgenden Stammzertifizierungsstelle generiert werden:
 - DigiCert Global Root CA
@@ -218,23 +219,23 @@ Erfahren Sie mehr [über Office 365 und US Government-Umgebungen](/office365/ser
 
 ### <a name="microsoft-365-office-365-and-office-365-gcc-environments"></a>Microsoft 365, Office 365 und Office 365 GCC Umgebung
 
-Die Verbindungspunkte für Direct Routing sind die folgenden drei FQDNs:
+Die Verbindungspunkte für Direct-Routing sind die folgenden drei FQDNs:
 
 - **sip.pstnhub.microsoft.com** – Globaler FQDN – muss zuerst ausprobiert werden. Wenn der SBC eine Anforderung zum Auflösen dieses Namens sendet, geben die Microsoft Azure-DNS-Server eine IP-Adresse zurück, die auf das primäre Azure-Rechenzentrum verweisen, das dem SBC zugewiesen ist. Die Zuordnung basiert auf Leistungsmetriken der Rechenzentren und der geografischen Nähe zum SBC. Die zurückgegebene IP-Adresse entspricht dem primären FQDN.
-- **sip2.pstnhub.microsoft.com** – Sekundärer FQDN – ist der zweiten Region mit Priorität geografisch zuordnungen.
-- **sip3.pstnhub.microsoft.com** – Dritter FQDN – geografische Zuordnung zur dritten Region mit Priorität.
+- **sip2.pstnhub.microsoft.com** – Sekundärer FQDN – geografische Zuordnung zur zweiten Prioritätsregion.
+- **sip3.pstnhub.microsoft.com** – Drittgrößter FQDN – ist der dritten Region mit Priorität geografisch zuzuordnungen.
 
 Das Platzieren dieser drei FQDNs in dieser Reihenfolge ist für Folgendes erforderlich:
 
 - Stellen Sie eine optimale Erfahrung (weniger geladen und dem SBC-Rechenzentrum am nächsten, das durch Abfragen des ersten FQDNs zugeordnet ist) zur Verfügung.
-- Stellen Sie Failover bereit, wenn die Verbindung von einem SBC zu einem Rechenzentrum hergestellt wird, bei dem ein temporäres Problem auftritt. Weitere Informationen finden Sie unten unter [Failovermechanismus.](#failover-mechanism-for-sip-signaling)  
+- Stellen Sie Failover bereit, wenn die Verbindung von einem SBC zu einem Rechenzentrum eingerichtet wird, bei dem ein temporäres Problem auftritt. Weitere Informationen finden Sie unten unter [Failovermechanismus.](#failover-mechanism-for-sip-signaling)  
 
 Die FQDNs – sip.pstnhub.microsoft.com, sip2.pstnhub.microsoft.com und sip3.pstnhub.microsoft.com – werden in IP-Adressen aus den folgenden Subnetzen aufgelöst:
 
 - 52.112.0.0/14
 - 52.120.0.0/14
 
-Sie müssen Ports für alle diese IP-Adressbereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** in alle diese IP-Subnetze aufgelöst. 
+Sie müssen Ports für alle diese IP-Adressbereiche in Ihrer Firewall öffnen, um eingehenden und ausgehenden Datenverkehr zu und von den Adressen für Signale zu ermöglichen.  Wenn Ihre Firewall DNS-Namen unterstützt, wird der FQDN **sip-all.pstnhub.microsoft.com** für alle diese IP-Subnetze aufgelöst. 
 
 ### <a name="office-gcc-dod-environment"></a>Office GCC DoD-Umgebung
 
@@ -252,9 +253,9 @@ Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit d
 
 Der Verbindungspunkt für Direct-Routing ist der folgende FQDN:
 
-**sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und drittrangig vorhandenen FQDNs.
+**sip.pstnhub.gov.teams.microsoft.us** – Globaler FQDN. Da die GCC High-Umgebung nur in den US-Rechenzentren vorhanden ist, gibt es keine sekundären und dritten FQDNs.
 
-Die FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
+Der FQDN sip.pstnhub.gov.teams.microsoft.us wird in eine IP-Adresse aus dem folgenden Subnetz aufgelöst:
 
 - 52.127.88.0/21
 
@@ -262,7 +263,7 @@ Sie müssen Ports für alle diese IP-Adressen in Ihrer Firewall öffnen, damit d
 
 ## <a name="sip-signaling-ports"></a>SIP-Signalisierung: Ports
 
-Sie müssen die folgenden Ports für Microsoft 365 oder Office 365 in denen Direct-Routing angeboten wird:
+Sie müssen die folgenden Ports für Microsoft 365 oder Office 365 verwenden, in denen Direct-Routing angeboten wird:
 - Microsoft 365 oder Office 365
 - Office 365 GCC
 - Office 365 GCC Hoch
@@ -270,13 +271,13 @@ Sie müssen die folgenden Ports für Microsoft 365 oder Office 365 in denen Dire
 
 |Verkehr|Von|Bis|Quellport|Zielport|
 |:--- |:--- |:--- |:--- |:--- |
-|SIP/TLS|SIP-Proxy|SBC|1024 – 65535|Definiert für den SBC (für Office 365 GCC High/DoD muss nur Port 5061 verwendet werden)|
+|SIP/TLS|SIP-Proxy|SBC|1024 – 65535|Definiert auf dem SBC (für Office 365 GCC High/DoD muss nur Port 5061 verwendet werden)|
 SIP/TLS|SBC|SIP-Proxy|Definiert im SBC|5061|
 ||||||
 
 ### <a name="failover-mechanism-for-sip-signaling"></a>Failovermechanismus für SIP-Signalisierung
 
-Der SBC erstellt eine DNS-Abfrage, um die sip.pstnhub.microsoft.com. Basierend auf dem SBC-Standort und den Leistungsmetriken des Rechenzentrums wird das primäre Rechenzentrum ausgewählt. Wenn beim primären Rechenzentrum ein Problem vorfeilt, versucht der SBC den sip2.pstnhub.microsoft.com, der zum zweiten zugewiesenen Rechenzentrum aufgelöst wird. Im seltenen Fall, dass Keine Rechenzentren in zwei Regionen verfügbar sind, wiederholen die SBC den letzten FQDN (sip3.pstnhub.microsoft.com), der die IP des dritten Rechenzentrums enthält.
+Der SBC erstellt eine DNS-Abfrage, um die sip.pstnhub.microsoft.com. Basierend auf dem SBC-Standort und den Leistungsmetriken des Rechenzentrums wird das primäre Rechenzentrum ausgewählt. Wenn beim primären Rechenzentrum ein Problem vorfeilt, versucht der SBC den sip2.pstnhub.microsoft.com, der zum zweiten zugewiesenen Rechenzentrum aufgelöst wird, und im seltenen Fall, dass Keine Rechenzentren in zwei Regionen verfügbar sind, wiederholen die SBC den letzten FQDN (sip3.pstnhub.microsoft.com), der die IP des dritten Rechenzentrums liefert.
 
 In der folgenden Tabelle sind die Beziehungen zwischen primären, sekundären und dritten Rechenzentren zusammengefasst:
 
@@ -333,7 +334,7 @@ Der Mediendatenverkehr fließt über Komponenten, die als Medienprozessoren beze
 ### <a name="leg-between-sbc-and-cloud-media-processor-or-microsoft-teams-client"></a>Leg between SBC and Cloud Media Processor or Microsoft Teams client.
 Gilt sowohl für Fälle der Medienumgehung als auch für Nichtumgehungsfälle.
 
-Die Direct Routing-Schnittstelle auf dem Weg zwischen dem Session Border Controller und dem Cloud Media Processor (ohne Medienumgehung) oder zwischen dem Teams-Client und dem SBC (sofern die Medienumgehung aktiviert ist) kann die folgenden Codecs verwenden:
+Die Direct Routing-Schnittstelle auf dem Weg zwischen dem Session Border Controller und dem Cloud Media Processor (ohne Medienumgehung) oder zwischen dem Teams-Client und dem SBC (wenn die Medienumgehung aktiviert ist) kann die folgenden Codecs verwenden:
 
 - Nicht-Medienumgehung (SBC zu Cloud Media Processor): SILK, G.711, G.722, G.729
 - Medienumgehung (SBC Teams Client): SILK, G.711, G.722, G.729
@@ -348,7 +349,7 @@ Auf dem Bein zwischen Cloud Media Processor und Microsoft Teams wird entweder SI
 
 ## <a name="supported-session-border-controllers-sbcs"></a>Unterstützte Session Border Controller (SBCs)
 
-Microsoft unterstützt nur zertifizierte SBCs für die Kopplung mit Direct Routing. Da Enterprise-VoIP Unternehmen von entscheidender Bedeutung ist, führt Microsoft intensive Tests mit den ausgewählten SBCs durch und arbeitet mit den SBC-Anbietern zusammen, um sicherzustellen, dass die beiden Systeme kompatibel sind. 
+Microsoft unterstützt nur zertifizierte SBCs für die Kopplung mit Direct Routing. Da Enterprise-VoIP Für Unternehmen von entscheidender Bedeutung ist, führt Microsoft intensive Tests mit den ausgewählten SBCs durch und stellt gemeinsam mit den SBC-Anbietern sicher, dass die beiden Systeme kompatibel sind. 
 
 Geräte, die überprüft wurden, werden als Zertifiziert für Teams Direct-Routing aufgeführt. Die zertifizierten Geräte funktionieren garantiert in allen Szenarien. 
 
