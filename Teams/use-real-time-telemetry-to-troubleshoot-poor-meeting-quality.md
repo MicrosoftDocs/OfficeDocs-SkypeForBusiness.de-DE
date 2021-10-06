@@ -22,19 +22,19 @@ ms.custom:
 - ms.teamsadmincenter.users.activity.audioqualitycolumn
 - Reporting
 description: Verwenden Sie Echtzeit-Telemetrie mit Details zu Geräten, Netzwerken und Konnektivität, um Benutzerprobleme mit Microsoft Teams Besprechungen zu beheben.
-ms.openlocfilehash: 2730cb41267e8d02572f72d4d9ed7f154e021d9d
-ms.sourcegitcommit: 26ce61afcb743c8b9e06b4fa048ad93ab70c31c5
+ms.openlocfilehash: 94b303687995ac3bcd765991dbfeb41c6f1459e7
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "60082955"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138361"
 ---
 # <a name="use-real-time-telemetry-to-troubleshoot-poor-meeting-quality"></a>Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität
 
 > [!NOTE]
-> Dieses Feature wird derzeit bis Ende 2021 als öffentliche Vorschauversion angezeigt. Danach wird das Add-On Advanced Communications für Microsoft Teams für jeden Benutzer benötigt, dessen Telemetrie Sie in Echtzeit anzeigen möchten. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications).
+> Dieses Feature wird derzeit bis Ende 2021 als öffentliche Vorschauversion angezeigt. Danach wird für jeden Benutzer, dessen Telemetrie Sie in Echtzeit anzeigen möchten, das Add-On Advanced Communications für Microsoft Teams benötigt. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/MicrosoftTeams/teams-add-on-licensing/advanced-communications).
 
-In diesem Artikel wird erläutert, wie Sie Real-Time Analytics (RTA) verwenden, um Probleme mit Microsoft Teams Besprechungsqualität für einzelne Benutzer zu beheben. Sie können auf ihre Real-Time zugreifen, wenn Sie über eine der folgenden Rollen verfügen:
+In diesem Artikel wird erläutert, wie Sie Real-Time Analytics (RTA) verwenden, um Probleme mit Microsoft Teams Besprechungsqualität für einzelne Benutzer zu beheben. Sie können auf Real-Time Analytics zugreifen, wenn Sie über eine der folgenden Rollen verfügen:
 
 - Teams-Administrator
 - Supportfachmann für die Teams-Kommunikation
@@ -46,7 +46,7 @@ Real-Time Mit Real-Time Analytics können IT-Administratoren die geplanten Bespr
 
 ## <a name="what-is-real-time-analytics"></a>Was ist Real-Time Analyse?
 
-Heute steht die Problembehandlung einzelner Besprechungen für Teams Administratoren über die [Anrufanalyse](use-call-analytics-to-troubleshoot-poor-call-quality.md) nach Dem Ende der Besprechung zur Verfügung. Real-Time mit Analyse können Administratoren geplante Besprechungen behandeln, während sie in Bearbeitung sind.
+Heute steht die Problembehandlung einzelner Besprechungen [](use-call-analytics-to-troubleshoot-poor-call-quality.md) für Teams Anrufanalyse nach dem Ende der Besprechung zur Verfügung. Real-Time Analytics ermöglicht Administratoren die Problembehandlung bei geplanten Besprechungen, während sie in Bearbeitung sind.
 
 Real-Time Analyse zeigt detaillierte Informationen zu Teams Besprechungen für jeden Benutzer in Ihrem Office 365-Konto an, die in Echtzeit aktualisiert werden. Sie enthält Informationen zu Geräten, Netzwerk, Konnektivität, Audio-, Video- und Inhaltsfreigabeproblemen, die Administratoren dabei unterstützen, Probleme mit der Anrufqualität effektiver zu behandeln.
 
@@ -54,7 +54,7 @@ Als Teams erhalten Sie Vollzugriff auf alle Echtzeit-Telemetriedaten für jeden 
 
 ## <a name="where-to-find-per-user-real-time-troubleshooting-telemetry"></a>Wo finde ich Echtzeit-Problembehandlung für Telemetriedaten pro Benutzer?
 
-Um alle Besprechungsinformationen und Daten für einen Benutzer zu sehen, wechseln Sie zum [Teams Admin Center](https://admin.teams.microsoft.com). Wählen **Sie unter** Benutzer verwalten einen Benutzer aus, und öffnen Sie die Registerkarte & Besprechungen und Anrufe auf der  >  Profilseite des Benutzers.  Unter **Aktuelle Besprechungen** wird eine Liste der Besprechungen angezeigt, an denen der Benutzer innerhalb der letzten 24 Stunden teilgenommen hat, für die *Echtzeit-Telemetrie* zur Verfügung steht, einschließlich aller in Bearbeitung ausgeführten Besprechungen. Wenn die Besprechung noch nicht läuft oder keine Echtzeit-Telemetriedaten enthält, werden diese in Vergangene **Besprechungen angezeigt.**
+Um alle Besprechungsinformationen und Daten für einen Benutzer zu sehen, wechseln Sie zum [Teams Admin Center](https://admin.teams.microsoft.com). Wählen **Sie unter** Benutzer verwalten einen Benutzer aus, und öffnen Sie auf der Profilseite des & die Registerkarte  >  Besprechungen und Anrufe.  Unter **Aktuelle Besprechungen** wird eine Liste der Besprechungen angezeigt, an denen der Benutzer innerhalb der letzten 24 Stunden teilgenommen hat, für die *Echtzeit-Telemetrie* zur Verfügung steht, einschließlich aller in Bearbeitung ausgeführten Besprechungen. Wenn die Besprechung noch nicht läuft oder keine Echtzeit-Telemetriedaten enthält, wird sie in Vergangene **Besprechungen angezeigt.**
 
 ![Screenshot der Tabelle für kürzliche Besprechungen](media/recent-meetings.png)
 
@@ -65,6 +65,19 @@ Um zusätzliche Informationen zu den Teilnehmern einer aktuellen Besprechung zu 
 Wenn Sie sich die Telemetrie eines bestimmten Benutzers für eine in Bearbeitung befindende Besprechung, einschließlich Informationen zu Gerät, Netzwerk, Audio, Video und Inhaltsfreigabe, anzeigen möchten, wählen Sie die Besprechungs-ID **aus.**
 
 ![Screenshot der Benutzersitzungsdaten der Anrufanalyse](media/real-time-telemetry.png)
+
+## <a name="measures-available-in-real-time-analytics"></a>In der Analyse Real-Time Measures verfügbar
+
+|Name der Kennzahl |Einheiten |Guter Schwellenwert |Beschreibung |
+|:---|:---|:---|:---|
+|Jitter |Millisekunden |Weniger als 30 ms |Jitter ist ein Maß für die Variation der Paketverzögerung für einen Datenstrom. Wenn dies zu hoch ist, kann das Audio abgehackt werden. | 
+|Paketverlust |Prozent |Weniger als 5 % |Paketverluste treten auf, wenn Datenpakete ihr Ziel nicht erreichen. Der Prozentsatz der verlorenen Pakete basiert auf der Gesamtzahl der gesendeten Pakete. |
+|Round Trip Time |Millisekunden |Weniger als 500 ms |Round trip time is the time it takes for a single packet to travel from the client to the remote endpoint and back to the client. Eine hohe Roundtripzeit kann zu Verzögerungen bei der Streamwiedergabe führen. Ein Beispiel hierüber ist, dass zwei Personen in einer Besprechung aufgrund der Verzögerung unbeabsichtigt miteinander sprechen. |
+|Bitrate (Audio) |Kilobit pro Sekunde (KBit/s) |Größer als 24 KBit/s |Durchsatz des Audiodatenstroms, der in Kilobit pro Sekunde ausgedrückt wurde. |
+|Bitrate (Video & App-Freigabe) |Megabit pro Sekunde (MBit/s) | Nur Informationen |Durchsatz des Videodatenstroms, der in Megabit pro Sekunde ausgedrückt wurde. |
+|Framerate (Video) |Frames pro Sekunde |360p oder mehr: 25-30 BILDER/Sekunde <br/> 270p oder niedriger: 7-15 BILDER/Sekunde |Bei ausgehenden Videostreams ist die Framerate (Framerate, FPS) die Anzahl der Frames pro Sekunde des Vom Client gesendeten Videos. Hier können niedrigere als die erwarteten Werte Systemressourcenbeschränkungen, unzureichende Netzwerkbandbreite oder falsch zu verhaltende Videoaufzeichnungsgeräte vorschlagen. Unterschiedliche Auflösungen haben unterschiedliche zulässige FPS-Bereiche. |
+|Framerate (App-Freigabe) |Frames pro Sekunde (FPS) |Nur Informationen |Bei der App-Freigabe ist die Framerate inhaltsbewusst, um sicherzustellen, dass so viele Frames wie nötig gesendet werden, um eine gute Benutzererfahrung sicherzustellen und das Senden von Frames zu vermeiden, wenn sie nicht benötigt werden. Das Freigeben eines Textdokuments auf dem Bildschirm erfordert z. B. nur einen Frame pro Sekunde, um eine gute Erfahrung zu erzeugen, während das Teilen eines Videos oder Inhalts mit mehr Aktivität die Frames pro Sekunde auf maximal 30 Bilder/Sekunde erhöht, um eine reibungslosere Benutzererfahrung zu ermöglichen. |
+
 
 ## <a name="client-platforms-supported-for-real-time-telemetry"></a>Für Echtzeit-Telemetrie unterstützte Clientplattformen
 

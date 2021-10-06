@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c176369914a2908134d541d30b8908aecef43cd4
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
+ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015429"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "60138271"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -64,11 +64,12 @@ Wie lange ein Überwachungsdatensatz aufbewahrt wird (und nach ihm im Überwachu
 
 Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im Überwachungsprotokoll.
 
-![Screenshot der Seite "Überwachungsprotokollsuche"](media/audit-log-search-page.png)
+![Screenshot der Seite "Überwachungsprotokoll"](media/audit-log-search-page.png)
+
 
 - Durch Klicken auf den Aktivitätsnamen können Sie bestimmte Aktivitäten auswählen, nach denen gesucht werden soll. Sie können auch auf den Gruppennamen klicken, um nach allen Aktivitäten in einer Gruppe (z. B. **Datei- und Ordneraktivitäten**) zu suchen. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl aufzuheben. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das von Ihnen eingegebene Schlüsselwort enthalten.
 
-  ![Screenshot der Überwachungsprotokollsuche.](media/audit-log-search.png)
+  ![Screenshot der Liste "Aktivitäten der Überwachungsprotokollsuche"](media/audit-log-search.png)
 
 - Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
 
@@ -140,9 +141,9 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |App gelöscht |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
 |Kanal gelöscht     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
-|Eine Nachricht mit einem URL-Link in der Datei Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt ihr in der Nachricht einen URL-Link Teams.         |
+|Eine Nachricht mit einem URL-Link in der Datei Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt einen URL-Link zur Nachricht in Teams.         |
 |Exportierte Nachrichten <sup>1, </sup> <sup>2</sup> |    MessagesExported |Chat- oder Kanalnachrichten wurden exportiert.|
-|Abgerufener Chat <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Ein Microsoft Teams-Chat wurde abgerufen.|
+|Abgerufener Chat <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Ein Microsoft Teams Chat wurde abgerufen.|
 |Abrufen aller gehosteten Inhalte einer Nachricht<sup>1, </sup> <sup>2</sup> |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
 |App installiert |AppInstalled         |Eine App wurde installiert.   |
 |Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|
@@ -171,7 +172,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter Erweiterte [Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen der Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter [Erweiterte Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen der Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 
