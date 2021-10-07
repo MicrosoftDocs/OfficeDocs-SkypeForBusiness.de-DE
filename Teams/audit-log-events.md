@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6c3b90906fe5a65d0c4fab2fdc20aeb69099743
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
+ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138271"
+ms.locfileid: "60148906"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -42,18 +42,20 @@ Eine vollständige Liste der überwachten Microsoft Teams-Aktivitäten finden Si
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Damit Sie Überwachungsdaten untersuchen können, müssen Sie zuerst im [Security & Compliance Center](https://protection.office.com) die Überwachung aktivieren. Hilfe zum Aktivieren der Überwachung finden Sie unter [Aktivieren oder Deaktivieren der Suche im Überwachungsprotokoll](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014).
+Bevor Sie sich Überwachungsdaten anschauen können, müssen Sie zuerst die Überwachung im Microsoft 365 Compliance Center. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Überwachung.](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
 > [!IMPORTANT]
 > Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Abrufen von Microsoft Teams-Daten aus dem Überwachungsprotokoll
 
-1. Um Überwachungsprotokolle abzurufen, navigieren Sie zum [Security & Compliance Center](https://go.microsoft.com/fwlink/?linkid=855775). Wählen Sie unter **Suchen** die Option **Überwachungsprotokoll durchsuchen** aus.
+1. Um Überwachungsprotokolle für Teams abzurufen, wechseln Sie zu <https://compliance.microsoft.com> , und wählen Sie Überwachung **aus.**
 
-2. Verwenden Sie die Option **Suchen**, um nach den Aktivitäten, Datumswerten und Benutzern zu filtern, die Sie überwachen möchten.
+2. Filtern Sie **auf der** Seite Suche die Aktivitäten, Daten und Benutzer, die überwacht werden soll.
 
 3. Exportieren Sie die Ergebnisse zur weiteren Analyse nach Excel.
+
+Eine schrittweise Anleitung finden Sie unter [Durchsuchen des Überwachungsprotokolls im Compliance Center.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)
 
 > [!IMPORTANT]
 > Überwachungsdaten sind nur dann im Überwachungsprotokoll sichtbar, wenn die Überwachung aktiviert ist.
@@ -64,18 +66,17 @@ Wie lange ein Überwachungsdatensatz aufbewahrt wird (und nach ihm im Überwachu
 
 Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im Überwachungsprotokoll.
 
-![Screenshot der Seite "Überwachungsprotokoll"](media/audit-log-search-page.png)
+![Screenshot der Seite "Überwachungsprotokollsuche" im Compliance Center](media/audit-log-search-page.png)
 
+- Sie können bestimmte Aktivitäten auswählen, nach der gesucht werden soll, indem Sie auf das Kontrollkästchen neben einer oder mehreren Aktivitäten klicken. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl aufzuheben. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das von Ihnen eingegebene Schlüsselwort enthalten.
 
-- Durch Klicken auf den Aktivitätsnamen können Sie bestimmte Aktivitäten auswählen, nach denen gesucht werden soll. Sie können auch auf den Gruppennamen klicken, um nach allen Aktivitäten in einer Gruppe (z. B. **Datei- und Ordneraktivitäten**) zu suchen. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl aufzuheben. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das von Ihnen eingegebene Schlüsselwort enthalten.
+  ![Screenshot der Dropdownliste "Aktivitäten" auf der Seite "Überwachungsprotokollsuche"](media/audit-log-search.png)
 
-  ![Screenshot der Liste "Aktivitäten der Überwachungsprotokollsuche"](media/audit-log-search.png)
+- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, geben Sie ihn in das Suchfeld ein, um die Aktivität anzeigen, und wählen Sie sie dann aus.
 
-- Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, können Sie nach allen Aktivitäten suchen und die Ergebnisse dann filtern, indem Sie den Vorgangsnamen in das Feld für die Spalte **Aktivität** eingeben. Weitere Informationen finden Sie unter [Schritt 3: Filtern der Suchergebnisse](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-filter-the-search-results).
+- Klicken Sie auf Alle löschen, um die aktuellen **Suchkriterien zu löschen.** Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt.
 
-- Klicken Sie auf **Auswahl aufheben**, um die aktuelle Auswahl von Suchkriterien aufzuheben. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt. Sie können auch auf **Gesamte Auswahl aufheben, um Ergebnisse für alle Aktivitäten anzuzeigen** klicken, um die getroffene Auswahl von Aktivitäten aufzuheben.
-
-- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzukehren, oder Sie können alle Suchergebnisse exportieren, indem Sie  >  **Alle Ergebnisse herunterladen auswählen.**
+- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzukehren, oder Sie können alle Suchergebnisse exportieren, indem Sie  >  **Alle Ergebnisse herunterladen auswählen.** Schrittweise Anleitungen zum Exportieren von Überwachungsprotokollen finden Sie unter [Exportieren der Suchergebnisse in eine Datei.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)
 
 Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Überwachungsprotokollsuche an. Ansuman Acharya, Programm-Manager für Microsoft Teams, veranschaulicht, wie eine Überwachungsprotokollsuche für Microsoft Teams durchgeführt wird.
 
@@ -156,7 +157,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
 |Abgerufene Nachrichten <sup>1, </sup> <sup>2</sup> |MessagesListed |Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
-|Senden einer Nachricht mit einem URL-Link in Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
+|Eine Nachricht mit einem URL-Link in der Nachricht Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
 |Benachrichtigung über gesendete Änderung beim Erstellen <sup>von Nachrichten 1, </sup> <sup>2</sup>  |MessageCreatedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um einen abonnierten Listener über eine neue Nachricht zu informieren.|
 |Benachrichtigung über gesendete Änderungen zum Löschen <sup>von Nachrichten 1, </sup> <sup>2</sup>  |MessageDeletedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine gelöschte Nachricht zu informieren.|
 |Benachrichtigung über gesendete Änderung für <sup>Nachrichtenaktualisierung 1, </sup> <sup>2</sup>    |MessageUpdatedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine aktualisierte Nachricht zu informieren.|
@@ -172,7 +173,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter [Erweiterte Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen der Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter [Erweiterte Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen für die Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 
