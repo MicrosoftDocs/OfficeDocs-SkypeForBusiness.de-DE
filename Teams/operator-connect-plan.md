@@ -3,7 +3,7 @@ title: Telefonieanbieter
 author: cazawideh
 ms.author: czawideh
 manager: serdars
-ms.date: 04/12/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -21,18 +21,18 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0351fe60d46f8bf96dd06df3c64048e390991410
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: bf1e158eb491f0b4b4f2df19c4aa7ebe46f08950
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046111"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249667"
 ---
 # <a name="plan-for-operator-connect"></a>Plan für Telefonieanbieter
 
-Telefonieanbieter ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und dem Telefonsystem. Weitere Informationen zu Teams Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter Planen ihrer [Teams-Sprachlösung](cloud-voice-landing-page.md) und [PSTN-Konnektivitätsoptionen.](pstn-connectivity.md)
+Telefonieanbieter ist eine weitere Option für die Bereitstellung von PSTN-Konnektivität (Public Switched Telephone Network) mit Teams und dem Telefonsystem. Weitere Informationen zu Teams Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter Planen Ihrer [Teams-Sprachlösung](cloud-voice-landing-page.md) und [PSTN-Konnektivitätsoptionen.](pstn-connectivity.md)
 
-In diesem Artikel werden die Vorteile und Anforderungen beschrieben und ein Link zu den Am Microsoft-Operator-Programm Verbinden teilnehmen.  Wenn Sie sich entscheiden, dass Telefonieanbieter die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Telefonieanbieter](operator-connect-configure.md).  
+In diesem Artikel werden die Vorteile und Anforderungen beschrieben und ein Link zu den am Microsoft-Operator-Programm Verbinden teilnehmen.  Wenn Sie sich entscheiden, dass Telefonieanbieter die richtige Lösung für Ihr Unternehmen ist, lesen Sie nach dem Lesen dieses Artikels den Abschnitt [Konfigurieren von Telefonieanbieter](operator-connect-configure.md).  
 
 ## <a name="benefits"></a>Vorteile
 
@@ -59,4 +59,4 @@ Um die Zuweisung von Telefonnummern mit Telefonieanbieter zu aktivieren, stellen
 - Teams-Telefon lizenziert. Weitere Informationen finden Sie unter [Was ist ein Telefonsystem? ](what-is-phone-system-in-office-365.md) und [Zuweisen von Teams-Add-On-Lizenzen zu Benutzern](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 - Im TeamsOnly-Modus. Beachten Sie, dass sich der Benutzer imOnly-Modus befinden muss, die gesamte Organisation jedoch nicht. Um mehr zu erfahren, siehe [Grundlegendes zur Koexistenz und Interoperabilität von Microsoft Teams und Skype for Business](teams-and-skypeforbusiness-coexistence-and-interoperability.md).
 
-Eine Liste der am Microsoft Operator Verbinden-Programm teilnehmenden Operatoren und der Länder oder Regionen, in denen ihr Dienst verfügbar ist, finden Sie im Verzeichnis Microsoft 365 [Operator Verbinden](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).
+Eine Liste der am Microsoft Operator Verbinden-Programm teilnehmenden Operatoren und der Länder oder Regionen, in denen ihr Dienst verfügbar ist, finden Sie im Verzeichnis [Microsoft 365 Operator Verbinden](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory).

@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Feiertagen in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,16 +20,16 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit Ihren automatischen Attendants einrichten.
-ms.openlocfilehash: b72eec8778577454c55d9b3e2e999900fcb70143
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733204"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249497"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
-Mithilfe des Features "Teams-Feiertage" können Sie Anrufer alternative Meldungen zu bestimmten Datums- und Zeiten bereitstellen, zu denen Abteilungen, Anrufwarteschleifen oder Personen in Ihrer Organisation unterschiedlichen Arbeitszeiten folgen oder nicht verfügbar sind. Sie können z. B. einen Feiertag für den Neujahrstag erstellen, an dem Ihre Organisation möglicherweise geschlossen ist.
+Mithilfe des Features "Teams-Feiertage" können Sie Anrufer alternative Meldungen für bestimmte Daten und Zeiten bereitstellen, zu denen Abteilungen, Anrufwarteschleifen oder Personen in Ihrer Organisation unterschiedlichen Arbeitszeiten folgen oder nicht verfügbar sind. Sie können z. B. einen Feiertag für den Neujahrstag erstellen, an dem Ihre Organisation möglicherweise geschlossen ist.
 
 Die Feiertage, die Sie hier erstellen, sind verfügbar, wenn Sie eine automatische Telefonkonferenz einrichten [,](create-a-phone-system-auto-attendant.md)die jeweils eigene Einstellungen für die Weiterleitung von Begrüßungen und Anrufen bietet.
 

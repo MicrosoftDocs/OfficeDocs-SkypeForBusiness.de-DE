@@ -1,7 +1,7 @@
 ---
 title: Parken und Fortsetzen von Anrufen in Microsoft Teams
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: srividhc
 ms.topic: article
@@ -21,24 +21,24 @@ ms.custom:
 - ms.teamsadmincenter.callparkpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie mithilfe der Anruf parken und einen Anruf in einem Anruf halten, Microsoft Teams.
-ms.openlocfilehash: e58cf8ead120cb7265665abecc0683ea9a96f559
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 9092e76b9d8db5e29c1dd5881cd6b0f69d70ae4a
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732544"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249507"
 ---
 # <a name="call-park-and-retrieve-in-microsoft-teams"></a>Parken und Fortsetzen von Anrufen in Microsoft Teams
 
-Das Parken und Abrufen von Anrufen ist ein Feature, mit dem benutzer einen Anruf in die Warteschleife setzen können. Wenn ein Anruf geparkt wird, generiert der Dienst einen eindeutigen Code für den Anrufabruf. Der Benutzer, der den Anruf geparkt hat, oder eine andere Person kann diesen Code dann mit einer unterstützten App oder einem unterstützten Gerät verwenden, um den Anruf abzurufen. (Details [finden Sie unter Parken eines Anrufs in Teams.)](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
+Das Parken und Abrufen von Anrufen ist ein Feature, mit dem benutzer einen Anruf in die Warteschleife setzen können. Wenn ein Anruf geparkt wird, generiert der Dienst einen eindeutigen Code für den Anrufabruf. Der Benutzer, der den Anruf geparkt hat, oder eine andere Person kann diesen Code dann mit einer unterstützten App oder einem unterstützten Gerät verwenden, um den Anruf abzurufen. (Einzelheiten finden Sie unter [Parken eines anrufs in Teams.)](https://support.office.com/article/park-a-call-in-teams-8538c063-d676-4e9a-8045-fc3b7299bb2f)
 
 Häufige Szenarien für die Verwendung des Anruf parkens sind:
 
 - Ein Empfangsist telefont mit einer Person, die in einer Fabrik arbeitet. Der Empfang sagt dann den Anruf und die Codenummer über das öffentliche Adresssystem an. Der Anrufbearbeiter kann dann ein Telefon Teams in der Werkshallen nehmen und den Code zum Abrufen des Anrufs eingeben.
 - Ein Benutzer verdingt einen Anruf auf einem mobilen Gerät, weil der Geräteakku knapp wird. Der Benutzer kann dann den Code zum Abrufen des Anrufs von einem Telefon Teams eingeben.
-- Ein Supportmitarbeiter leitet einen Kundenanruf ab und sendet eine Ankündigung auf einem Teams-Kanal an einen Experten, der den Anruf abruft und dem Kunden hilft. Ein Experte gibt den Code in den Client Teams, um den Anruf abzurufen.
+- Ein Supportmitarbeiter leitet einen Kundenanruf ab und sendet eine Ankündigung auf einem Teams-Kanal an einen Experten, der den Anruf abruft und dem Kunden hilft. Ein Experte gibt den Code in das Programm ein, Teams, um den Anruf abzurufen.
 
-Zum Parken und Abrufen von Anrufen muss der Benutzer ein Enterprise-VoIP und in eine Anruf parkrichtlinien eingeschlossen sein.
+Um Anrufe zu parken und abzurufen, muss ein Benutzer ein Enterprise-VoIP sein und in eine Anruf parkrichtlinien eingeschlossen sein.
 
 > [!NOTE]
 > Anruf parken und abrufen ist nur im Teams [Bereitstellungsmodus](teams-and-skypeforbusiness-coexistence-and-interoperability.md) verfügbar und wird auf IP-Telefonen Skype for Business unterstützt.
@@ -80,8 +80,8 @@ So weisen Sie einer Gruppe eine Anruf parkrichtlinie zu
 
 [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
 
-[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy?view=skype-ps)
+[New-CsTeamsCallParkPolicy](/powershell/module/skype/new-csteamscallparkpolicy)
 
-[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy?view=skype-ps)
+[Set-CsTeamsCallParkPolicy](/powershell/module/skype/set-csteamscallparkpolicy)
 
-[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy?view=skype-ps)
+[Grant-CsTeamsCallParkPolicy](/powershell/module/skype/grant-csteamscallparkpolicy)

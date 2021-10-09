@@ -1,7 +1,7 @@
 ---
 title: Referenz zu automatischer Telefonant- und Anrufwarteschleifen-Wähl- und Spracherkennung
-ms.author: mikeplum
-author: MikePlumleyMSFT
+author: CarolynRowe
+ms.author: crowe
 manager: serdars
 ms.reviewer: colongma
 ms.topic: article
@@ -21,13 +21,13 @@ ms.custom:
 - ms.teamsadmincenter.autoattendants.overview
 - Phone System
 - seo-marvel-apr2020
-description: Erfahren Sie mehr über die automatische Telefonkonferenz und die Optionen für Anrufwarteschleifenwählen und Spracherkennung in Teams.
-ms.openlocfilehash: 8201389c39dc58f80596a6055c927ecfbbf86e38
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie mehr über die automatische Telefon attendant und die Optionen für Anrufwarteschleifenwählen und Spracherkennung in Teams.
+ms.openlocfilehash: acd3202a3f27beaf40af09422687be490f0695c5
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605784"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249687"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referenz zu automatischer Telefonant- und Anrufwarteschleifen-Wähl- und Spracherkennung
 
@@ -35,9 +35,9 @@ Namensanwahl ist ein Feature einer automatischen Telefon attendant, das auch als
 
 ## <a name="searching-for-users"></a>Suchen nach Benutzern
 
-Benutzer, die Sie mit der Namensanwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sein. Namensanwahl ist sogar in der Lage, Anrufe an Microsoft Teams-Benutzer zu suchen und zu übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Namensanwahl explizit in einer automatischen Telefon attendant.
+Benutzer, die Sie mit der Namensanwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sein. Namensanwahl ist sogar in der Lage, Anrufe an Microsoft Teams-Benutzer zu finden und zu übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Namensanwahl explizit in einer automatischen Telefon attendant.
 
-Die Durchwahl ist ein Feature einer automatischen Telefon attendant, die ebenfalls Teil der Verzeichnissuche ist. So können Personen, die Ihre automatische Telefonkonferenz anrufen, Sprachanrufe (Spracherkennung) oder DTMF-Antworten (Phone Keypad) verwenden, um die Telefonerweiterung des Benutzers ein- bzw. aus, den sie erreichen möchten, und den Anruf dann an sie durch übertragen lassen. Benutzer, die Sie per Durchwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen für Enterprise-VoIP-Benutzer Skype for Business Server werden. Darüber hinaus benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Die Durchwahl per Durchwahl ist sogar in der Lage, Anrufe an Microsoft Teams-Benutzer zu finden und zu übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Option "Durchwahl wählen" explizit in einer automatischen Telefon attendant.
+Die Durchwahl ist ein Feature einer automatischen Telefon attendant, die ebenfalls Teil der Verzeichnissuche ist. So können Personen, die Ihre automatische Telefonkonferenz anrufen, Sprachanrufe (Spracherkennung) oder DTMF-Antworten (Phone Keypad) verwenden, um die Telefonerweiterung des Benutzers ein- bzw. aus, den sie erreichen möchten, und den Anruf dann an sie durch übertragen lassen. Benutzer, die Sie per Durchwahl erreicht haben möchten, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen Enterprise-VoIP für Skype for Business Server-Benutzer aktiviert sein. Darüber hinaus benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Durch die Durchwahl können Sie sogar Anrufe an Microsoft Teams-Benutzer suchen und übertragen, die in verschiedenen Ländern oder Regionen für multinationale Organisationen gehostet werden. Angesichts der erforderlichen Voraussetzungen aktivieren Sie die Option "Durchwahl wählen" explizit in einer automatischen Telefon attendant.
 
 ### <a name="maximum-directory-size"></a>Maximale Verzeichnisgröße
 
@@ -110,7 +110,7 @@ Die folgenden Sprachbefehle sind für die Spracherkennung verfügbar:
 |Ja | Drücken Sie 1 für Ja. |
 |Nein | Drücken Sie 2, um "Nein" zu drücken. |
 |Wiederholen |Wiederholt die Liste der Optionen. Drücken Sie * auf der Tastatur, um die Liste der Optionen zu wiederholen. |
-|Vermittlung | Drücken Sie "0" für "Operator". |
+|Anbieter | Drücken Sie "0" für "Operator". |
 |Hauptmenü  |Die Anrufer gelangen zum Hauptmenü der automatischen Telefonzentrale. |
 |Null | Drücken Sie 0 (standardmäßig identisch mit "Operator").|
 |Eins | Drücken Sie 1. |
@@ -124,8 +124,6 @@ Die folgenden Sprachbefehle sind für die Spracherkennung verfügbar:
 |Neun  |Drücken Sie 9.|
 
 ## <a name="related-topics"></a>Verwandte Themen
-
-[Vorteile des Telefonsystems](here-s-what-you-get-with-phone-system.md)
 
 [Anfordern von Servicenummern für Skype for Business und Microsoft Teams](./getting-service-phone-numbers.md)
 

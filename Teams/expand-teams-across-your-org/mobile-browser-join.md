@@ -18,19 +18,19 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: hafarmer
-description: Erfahren Sie mehr über die Teilnahmeerfahrung für Teams virtuellen Besuche in mobilen Browsern.
-ms.openlocfilehash: 6183fccce1c455ac46f4eb7c166530535d5dbbe8
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: Erfahren Sie mehr über die Teilnahmeerfahrung für Teams Besuche in mobilen Browsern.
+ms.openlocfilehash: a0c7bc626414280a8cba5ea55aaa9062ef190ca3
+ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432687"
+ms.lasthandoff: 10/09/2021
+ms.locfileid: "60249757"
 ---
 # <a name="manage-the-join-experience-for-teams-virtual-visits-on-mobile-browsers"></a>Verwalten der Teilnahmeerfahrung für Teams Besuche in mobilen Browsern
 
 Microsoft Teams erleichtert Personen die Teilnahme an Terminen auf ihren mobilen Geräten, ohne sie herunterladen Teams. Für eine nahtlose Erfahrung können die Teilnehmer über einen mobilen Browser an Terminen teilnehmen, z. B. Arztbesuche, Finanzberatungen, Dozentenbürozeiten und so weiter. Teilnehmer müssen die mobile Teams auf ihren mobilen Android- oder iOS-Geräten nicht installieren.
 
-Bei der Teilnahme über einen mobilen Browser wird ein Teilnehmer, der einem Termin über ein mobiles Gerät beitritt, nicht zum Herunterladen Teams. Stattdessen wird Teams in einem mobilen Browser geöffnet, in dem der Teilnehmer **Jetzt** teilnehmen auswählen kann, um bei der Besprechung teilnehmen. Beachten Sie bei diesem Feature, dass Teams in einem mobilen Browser und nicht in der App geöffnet wird, wenn Teams bereits auf dem mobilen Gerät eines Teilnehmers installiert ist.
+Bei der Teilnahme über einen mobilen Browser wird ein Teilnehmer, der einem Termin über ein mobiles Gerät beitritt, nicht zum Herunterladen Teams. Stattdessen wird Teams in einem mobilen Browser geöffnet, in dem der Teilnehmer **Jetzt** teilnehmen auswählen kann, um bei der Besprechung teilnehmen. Beachten Sie bei diesem Feature, dass Teams in einem mobilen Browser und nicht in der App geöffnet wird, wenn Teams Teams bereits auf dem mobilen Gerät eines Teilnehmers installiert ist.
 
 Derzeit ist die Teilnahme über einen mobilen Browser für Termine verfügbar, die wie folgt geplant werden:
 
@@ -49,15 +49,15 @@ Nachdem dieses Feature aktiviert wurde, enthält die an die Teilnehmer gesendete
 
 Wechseln Sie in Bookings zu **Einstellungen** Termintypen , wählen Sie einen Termintyp aus, und aktivieren Sie dann Teilnehmer die Teilnahme über einen  >   **mobilen Browser erlauben**. [](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887) Auf diese Weise kann der mobile Browser für alle Termine dieses Typs teilnehmen.
 
-:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Screenshot der Einstellung Teilnehmern die Teilnahme über einen mobilen Browser erlauben für Termintypen in der Bookings-App":::
+:::image type="content" source="../media/mobile-browser-join-bookings-appointment-type.png" alt-text="Screenshot der Einstellung "Teilnehmern die Teilnahme über einen mobilen Browser erlauben" für Termintypen in der Bookings-App":::
 
 #### <a name="turn-on-mobile-browser-join-for-an-individual-appointment"></a>Aktivieren der Teilnahme per mobilem Browser für einen einzelnen Termin
 
 Wählen Sie in Bookings **Neue Buchung** aus, und aktivieren Sie dann Teilnehmern die Teilnahme über einen **mobilen Browser erlauben.**
 
-:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Screenshot der Einstellung Teilnehmern die Teilnahme über einen mobilen Browser erlauben auf dem neuen Buchungsformular in der Bookings-App":::
+:::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Screenshot der Einstellung "Teilnehmern die Teilnahme über einen mobilen Browser erlauben" auf dem neuen Buchungsformular in der Bookings-App":::
 
-### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Termine, die über den EHR Teams geplant wurden
+### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Termine, die über den EHR Teams Geplant sind
 
 Sie oder Ihre Mitarbeiter müssen nichts einrichten!
 
@@ -77,8 +77,12 @@ Dies sind die mobilen Browser, die derzeit unterstützt werden. Sofern nicht and
 
 &sup2; Für die Unterstützung ausgehender Videos wird Safari 14+ und macOS 11+ benötigt.
 
+## <a name="things-to-consider"></a>Zu berücksichtigende Dinge
+
+Die Mitarbeiter, die den virtuellen Besuch durchführen, können ihren Bildschirm über ihren Teams-Desktop, ein mobiles Gerät oder einen Webclient mit einem Teilnehmer teilen, der über einen mobilen Browser beitritt. Teilnehmer können ihren Bildschirm jedoch nicht über einen mobilen Browser freigeben.
+
 > [!NOTE]
-> Wir fügen der Teilnahmeerfahrung für Besprechungen in zukünftigen Versionen von Teams weitere Funktionen hinzu. Überprüfen Sie daher die neuesten Informationen. Weitere Informationen zu bevorstehenden Features von Microsoft Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Wir fügen der Besprechungs-Teilnahmeerfahrung in zukünftigen Versionen von Teams weitere Funktionen hinzu. Überprüfen Sie daher die neuesten Informationen. Weitere Informationen zu bevorstehenden Features von Microsoft Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
