@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1d9859b15b881d53a2f1b3c5b39442331e51be2e
-ms.sourcegitcommit: 74d3ab35c344d70b2399bc46a6ced3ab2762a470
+ms.openlocfilehash: e5aeecf93146a628c897e22868dc6b4f6ed7b795
+ms.sourcegitcommit: 428eda4236bd063f44e2571563dd96bd6ed1749a
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60138221"
+ms.lasthandoff: 10/11/2021
+ms.locfileid: "60268279"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Für Direct Routing zertifizierte Session Border Controller
 
@@ -38,10 +38,14 @@ Microsoft arbeitet mit jedem Anbieter zusammen, um folgende Schritte zu unterneh
 
   > [!NOTE]
   > Microsoft unterstützt das Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über Direct Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über Direct Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct Routing-Problem eines Kunden mit dem SBC-Gerät eines Anbieters auftritt, muss der Kunde den SBC-Anbieter um Support bitten.
+  > Die Zertifizierung wird für bestimmte SBC-Firmwareversionen gewährt. Jede nachstehend dokumentierte SBC-Firmwareversion ist zertifiziert und wird unterstützt. Höhere Firmwareversionen als jene, die dokumentiert sind, werden unterstützt, solange die Haupt-/Nebenversion gleich ist.
+  > Beispiel: 6.10.258 wird unterstützt – in diesem Fall unterstützen wir auch die Firmwareversionen 6.10. (258 oder höher) Empfohlen 6.20.100 – in diesem Fall empfehlen wir auch die Firmwareversionen 6.20. (100 oder höher) Fragen bezüglich der Unterstützung von bestimmten Versionen beantwortet Ihnen Ihr SBC-Anbieter.
 
 Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. (Informationen dazu, welche SBC-Anbieter die Lokale Medienoptimierung unterstützen, finden Sie unter [Optimierung lokaler Medien für Direktes Routing konfigurieren](direct-routing-media-optimization-configure.md).)
 
-[Erfahren Sie mehr über Direct Routing](https://aka.ms/dr). Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für Direct Routing haben, wenden Sie sich an drsbccertification@microsoft.com. <br/>
+[Hier finden Sie weitere Informationen zu direktem Routing](https://aka.ms/dr).
+Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wenden Sie sich per E-Mail an drsbccertification@microsoft.com. Bitte beachten Sie: Wir akzeptieren bis auf Weiteres keine neuen Zertifizierungshinweise.
+<br/>
 
 ## <a name="certified-sbc-vendors"></a>Zertifizierte SBC-Anbieter
 
