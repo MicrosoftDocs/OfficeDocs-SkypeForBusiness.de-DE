@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5d19e29734f8e62b77a0a355c366c2bdc7a6bbde
-ms.sourcegitcommit: 7b704ba3c9d2db9740c4aad9e5a75a830bbbb63b
+ms.openlocfilehash: e769de858a7c0cb1ab14a538b1b1dc2a6559b21f
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "60148906"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356473"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -35,7 +35,7 @@ Mithilfe des Überwachungsprotokolls können Sie bestimmte Aktivitäten in allen
 - Kanal gelöscht
 - Kanaleinstellung geändert
 
-Eine vollständige Liste der überwachten Microsoft Teams-Aktivitäten finden Sie unter [Microsoft Teams-Aktivitäten](#teams-activities) und ["Schichten"-Aktivitäten in Microsoft Teams (in der Vorschau)](#shifts-in-teams-activities).
+Eine vollständige Liste der Teams überwachten Aktivitäten finden [](#teams-activities) Sie unter Teams und Schichten in Teams [Aktivitäten.](#shifts-in-teams-activities)
 
 > [!NOTE]
 > Überwachungsereignisse aus privaten Kanälen werden ebenfalls protokolliert, wenn sie Teams und Standardkanäle betreffen.
@@ -80,46 +80,6 @@ Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im
 
 Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Überwachungsprotokollsuche an. Ansuman Acharya, Programm-Manager für Microsoft Teams, veranschaulicht, wie eine Überwachungsprotokollsuche für Microsoft Teams durchgeführt wird.
 
-## <a name="use-cloud-app-security-to-set-activity-policies"></a>Verwenden von Cloud App Security zum Festlegen von Aktivitätsrichtlinien
-
-Durch eine [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)-Integration können Sie [Aktivitätsrichtlinien](/cloud-app-security/user-activity-policies) festlegen, um eine Vielzahl von automatisierten Prozessen mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
-
-Nachdem Sie eine Aktivitätserkennungsrichtlinie festgelegt haben, beginnt diese mit dem Generieren von Warnungen. Warnungen werden nur zu Aktivitäten generiert, die nach dem Erstellen der Richtlinie auftreten. Hier sind einige Beispielszenarien für die Verwendung von Aktivitätsrichtlinien in Cloud App Security zum Überwachen von Microsoft Teams-Aktivitäten.
-
-### <a name="external-user-scenario"></a>Szenario "Externer Benutzer"
-
-Ein Szenario, das Sie aus geschäftlicher Sicht vielleicht im Auge behalten möchten, ist das Hinzufügen externer Benutzer zu Ihrer Microsoft Teams-Umgebung. Wenn externe Benutzer aktiviert sind, empfiehlt es sich, ihre Anwesenheit zu überwachen.  Sie können [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) zur Ermittlung von Bedrohungen verwenden.
-
-![Richtlinie zum Überwachen des Hinzufügens externer Benutzer.](media/TeamsExternalUserAddPolicy.png)
-
-Wie im Screenshot dieser Richtlinie zum Überwachen des Hinzufügens externer Benutzer zu sehen ist, haben Sie die Möglichkeit, die Richtlinie zu benennen, den Schweregrad entsprechend den Anforderungen Ihres Unternehmens festzulegen, es (in diesem Fall) als eine einzelne Aktivität festzulegen und dann die Parameter anzugeben, die speziell das Hinzufügen von nicht internen Benutzern überwachen und diese Aktivität auf Microsoft Teams beschränken werden.
-
-Die Ergebnisse dieser Richtlinie können im Aktivitätsprotokoll angezeigt werden:
-
-![Von der Richtlinie für externe Benutzer ausgelöste Ereignisse.](media/TeamsExternalUserList.png)
-
-Hier können Sie Übereinstimmungen mit der von Ihnen festgelegten Richtlinie überprüfen und bei Bedarf Anpassungen vornehmen oder die Ergebnisse exportieren, um sie an anderer Stelle zu verwenden.
-
-### <a name="mass-delete-scenario"></a>Szenario "Massenlöschung"
-
-Wie weiter oben erwähnt, können Sie Löschszenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Microsoft Teams-Sites überwacht. In diesem Beispiel ist eine warnungsbasierte Richtlinie so eingerichtet, dass Massenlöschungen von Teams in einem Zeitraum von 30 Minuten erkannt werden.
-
-![Richtlinie, die die Einrichtung einer Richtlinie für die Erkennung von Massenlöschvorgängen für Teams zeigt.](media/TeamsMassDeletePolicy.png)
-
-Wie im Screenshot zu sehen ist, können Sie viele verschiedene Parameter für diese Richtlinie festlegen, um Löschungen in Microsoft Teams zu überwachen, einschließlich Schweregrad, einzelner oder wiederholter Aktion sowie Parameter, die dies auf Microsoft Teams und Sitelöschungen beschränken. Dies kann unabhängig von einer Vorlage erfolgen, Sie können aber auch eine Vorlage verwenden, auf der diese Richtlinie basieren soll, je nach den Anforderungen Ihres Unternehmens.
-
-Nach der Einrichtung einer für Ihr Unternehmen passenden Richtlinie können Sie die Ergebnisse zu ausgelösten Ereignissen im Aktivitätsprotokoll überprüfen:
-
-![Screenshotereignisse, die durch Massenlöschungen ausgelöst wurden.](media/TeamsMassDeleteList.png)
-
-Sie können anhand der von Ihnen festgelegten Richtlinie filtern, um die Ergebnisse der Richtlinie zu sehen. Wenn Sie mit den Ergebnissen im Aktivitätsprotokoll nicht zufrieden sind (vielleicht sehen Sie eine Menge Ergebnisse, oder gar nichts), kann dies Ihnen dabei helfen, die Abfrage zu verfeinern, damit sie für Ihre Zwecke relevanter wird.
-
-### <a name="alert-and-governance-scenario"></a>Szenario "Warnungen und Governance"
-
-Sie können Warnungen und das Senden von E-Mails an Administratoren und andere Benutzer einrichten, wenn eine Aktivitätsrichtlinie ausgelöst wird. Sie können automatisierte Governanceaktionen festlegen, z. B. das vorübergehende Sperren eines Benutzers oder das automatisierte Auffordern zur erneuten Anmeldung für einen Benutzer. Dieses Beispiel zeigt, wie ein Benutzerkonto vorübergehend gesperrt werden kann, wenn eine Aktivitätsrichtlinie ausgelöst und ermittelt wird, dass ein Benutzer zwei oder mehr Teams in 30 Minuten gelöscht hat.
-
-![Screenshot von Warnungen und Governanceaktionen für eine Aktivitätsrichtlinie](media/audit-log-governance.png)
-
 ## <a name="teams-activities"></a>Microsoft Teams-Aktivitäten
 
 Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer- und Administratoraktivitäten in Microsoft Teams im Microsoft 365-Überwachungsprotokoll erfasst werden. Die Tabelle enthält den Anzeigenamen, der in der Spalte **Aktivitäten** angezeigt wird, sowie den Namen des zugehörigen Vorgangs, der in den Detailinformationen eines Überwachungsdatensatzes und in der CSV-Datei aufscheint, wenn Sie Ihre Suchergebnisse exportieren.
@@ -129,6 +89,8 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Bot zum Team hinzugefügt   |BotAddedToTeam        |Ein Benutzer fügt einem Team einen Bot hinzu.        |
 |Kanal hinzugefügt   |ChannelAdded         |Ein Benutzer fügt einem Team einen Kanal hinzu.         |
 |Connector hinzugefügt  |ConnectorAdded          |Ein Benutzer fügt einen Connector zu einem Kanal hinzu.        |
+|Hinzugefügte Details zu Teams Besprechung|MeetingDetail|Teams Informationen zu einer Besprechung hinzugefügt, einschließlich Startzeit, Endzeit und URL zur Teilnahme an der Besprechung.|
+|Informationen zu Besprechungsteilnehmern hinzugefügt|MeetingParticipantTrack|Teams Informationen zu den Teilnehmern einer Besprechung hinzugefügt, einschließlich der Benutzer-ID jedes Teilnehmers, der Uhrzeit, zu der ein Teilnehmer der Besprechung beigetreten ist, und der Zeit, zu der ein Teilnehmer die Besprechung verlassen hat.|
 |Hinzugefügte Mitglieder    |MemberAdded         |Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal- oder Gruppenchat hinzu.         |
 |Registerkarte hinzugefügt    |TabAdded         |Ein Benutzer fügt einem Kanal eine Registerkarte hinzu.        |
 |Kanaleinstellung geändert    |ChannelSettingChanged         |Der Vorgang "ChannelSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt. <ul><li>Ändert den Namen eines Teamkanals (**Kanalname**).</li><li>Ändert die Beschreibung eines Teamkanals (**Kanalbeschreibung**).</li> </ul>      |
@@ -157,7 +119,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
 |Abgerufene Nachrichten <sup>1, </sup> <sup>2</sup> |MessagesListed |Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
-|Eine Nachricht mit einem URL-Link in der Nachricht Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
+|Senden einer Nachricht mit einem URL-Link in Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
 |Benachrichtigung über gesendete Änderung beim Erstellen <sup>von Nachrichten 1, </sup> <sup>2</sup>  |MessageCreatedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um einen abonnierten Listener über eine neue Nachricht zu informieren.|
 |Benachrichtigung über gesendete Änderungen zum Löschen <sup>von Nachrichten 1, </sup> <sup>2</sup>  |MessageDeletedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine gelöschte Nachricht zu informieren.|
 |Benachrichtigung über gesendete Änderung für <sup>Nachrichtenaktualisierung 1, </sup> <sup>2</sup>    |MessageUpdatedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine aktualisierte Nachricht zu informieren.|
@@ -218,6 +180,46 @@ Sie können die Office 365-Verwaltungsaktivitäten-API verwenden, um Information
 ## <a name="attribution-in-teams-audit-logs"></a>Zuordnungen in Microsoft Teams-Überwachungsprotokollen
 
 Mitgliedschaftsänderungen in Microsoft Teams (z. B. hinzugefügte oder gelöschte Benutzer), im Microsoft 365-Administratorportal oder der Microsoft 365 Groups Graph-API werden in Microsoft Teams-Überwachungsnachrichten und im Kanal "Allgemein" einem bestehenden Besitzer des Teams und nicht dem eigentlichen Ausführenden der Aktion zugeordnet. Informationen zu diesen Szenarien finden Sie in Azure AD oder [Microsoft 365-Gruppenüberwachungsprotokollen](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance).
+
+## <a name="use-cloud-app-security-to-set-activity-policies"></a>Verwenden von Cloud App Security zum Festlegen von Aktivitätsrichtlinien
+
+Durch eine [Microsoft Cloud App Security](/cloud-app-security/what-is-cloud-app-security)-Integration können Sie [Aktivitätsrichtlinien](/cloud-app-security/user-activity-policies) festlegen, um eine Vielzahl von automatisierten Prozessen mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
+
+Nachdem Sie eine Aktivitätserkennungsrichtlinie festgelegt haben, beginnt diese mit dem Generieren von Warnungen. Warnungen werden nur zu Aktivitäten generiert, die nach dem Erstellen der Richtlinie auftreten. Hier sind einige Beispielszenarien für die Verwendung von Aktivitätsrichtlinien in Cloud App Security zum Überwachen von Microsoft Teams-Aktivitäten.
+
+### <a name="external-user-scenario"></a>Szenario "Externer Benutzer"
+
+Ein Szenario, das Sie aus geschäftlicher Sicht vielleicht im Auge behalten möchten, ist das Hinzufügen externer Benutzer zu Ihrer Microsoft Teams-Umgebung. Wenn externe Benutzer aktiviert sind, empfiehlt es sich, ihre Anwesenheit zu überwachen.  Sie können [Cloud App Security](/cloud-app-security/what-is-cloud-app-security) zur Ermittlung von Bedrohungen verwenden.
+
+![Richtlinie zum Überwachen des Hinzufügens externer Benutzer.](media/TeamsExternalUserAddPolicy.png)
+
+Wie im Screenshot dieser Richtlinie zum Überwachen des Hinzufügens externer Benutzer zu sehen ist, haben Sie die Möglichkeit, die Richtlinie zu benennen, den Schweregrad entsprechend den Anforderungen Ihres Unternehmens festzulegen, es (in diesem Fall) als eine einzelne Aktivität festzulegen und dann die Parameter anzugeben, die speziell das Hinzufügen von nicht internen Benutzern überwachen und diese Aktivität auf Microsoft Teams beschränken werden.
+
+Die Ergebnisse dieser Richtlinie können im Aktivitätsprotokoll angezeigt werden:
+
+![Von der Richtlinie für externe Benutzer ausgelöste Ereignisse.](media/TeamsExternalUserList.png)
+
+Hier können Sie Übereinstimmungen mit der von Ihnen festgelegten Richtlinie überprüfen und bei Bedarf Anpassungen vornehmen oder die Ergebnisse exportieren, um sie an anderer Stelle zu verwenden.
+
+### <a name="mass-delete-scenario"></a>Szenario "Massenlöschung"
+
+Wie weiter oben erwähnt, können Sie Löschszenarien überwachen. Es ist möglich, eine Richtlinie zu erstellen, die das Massenlöschen von Microsoft Teams-Sites überwacht. In diesem Beispiel ist eine warnungsbasierte Richtlinie so eingerichtet, dass Massenlöschungen von Teams in einem Zeitraum von 30 Minuten erkannt werden.
+
+![Richtlinie, die die Einrichtung einer Richtlinie für die Erkennung von Massenlöschvorgängen für Teams zeigt.](media/TeamsMassDeletePolicy.png)
+
+Wie im Screenshot zu sehen ist, können Sie viele verschiedene Parameter für diese Richtlinie festlegen, um Löschungen in Microsoft Teams zu überwachen, einschließlich Schweregrad, einzelner oder wiederholter Aktion sowie Parameter, die dies auf Microsoft Teams und Sitelöschungen beschränken. Dies kann unabhängig von einer Vorlage erfolgen, Sie können aber auch eine Vorlage verwenden, auf der diese Richtlinie basieren soll, je nach den Anforderungen Ihres Unternehmens.
+
+Nach der Einrichtung einer für Ihr Unternehmen passenden Richtlinie können Sie die Ergebnisse zu ausgelösten Ereignissen im Aktivitätsprotokoll überprüfen:
+
+![Screenshotereignisse, die durch Massenlöschungen ausgelöst wurden.](media/TeamsMassDeleteList.png)
+
+Sie können anhand der von Ihnen festgelegten Richtlinie filtern, um die Ergebnisse der Richtlinie zu sehen. Wenn Sie mit den Ergebnissen im Aktivitätsprotokoll nicht zufrieden sind (vielleicht sehen Sie eine Menge Ergebnisse, oder gar nichts), kann dies Ihnen dabei helfen, die Abfrage zu verfeinern, damit sie für Ihre Zwecke relevanter wird.
+
+### <a name="alert-and-governance-scenario"></a>Szenario "Warnungen und Governance"
+
+Sie können Warnungen und das Senden von E-Mails an Administratoren und andere Benutzer einrichten, wenn eine Aktivitätsrichtlinie ausgelöst wird. Sie können automatisierte Governanceaktionen festlegen, z. B. das vorübergehende Sperren eines Benutzers oder das automatisierte Auffordern zur erneuten Anmeldung für einen Benutzer. Dieses Beispiel zeigt, wie ein Benutzerkonto vorübergehend gesperrt werden kann, wenn eine Aktivitätsrichtlinie ausgelöst und ermittelt wird, dass ein Benutzer zwei oder mehr Teams in 30 Minuten gelöscht hat.
+
+![Screenshot von Warnungen und Governanceaktionen für eine Aktivitätsrichtlinie](media/audit-log-governance.png)
 
 ## <a name="use-cloud-app-security-to-set-anomaly-detection-policies"></a>Erstellen von Anomalieerkennungsrichtlinien in Cloud App Security
 

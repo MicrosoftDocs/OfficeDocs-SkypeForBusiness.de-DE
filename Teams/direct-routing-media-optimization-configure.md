@@ -16,12 +16,12 @@ f1.keywords:
 description: Konfigurieren der lokalen Medienoptimierung für direktes Routing
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e383a9d0435dde2c17a38d8a1879b3bf3fb6e4d
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 59524c620525505b9fcc19d909f5b4b84cc60720
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127402"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356433"
 ---
 # <a name="configure-local-media-optimization-for-direct-routing"></a>Konfigurieren der lokalen Medienoptimierung für direktes Routing
 
@@ -51,10 +51,8 @@ Um den Benutzer und die SBC-Websites zu konfigurieren, müssen Sie:
 3. [Definieren Sie die virtuelle Netzwerktopologie,](#define-the-virtual-network-topology) indem Sie Website(n) mit relevanten Modi und Proxy-SBC-Werten SBC(s) zuweisen.
 
 > [!NOTE]
-> Die Logik für die Optimierung lokaler Medien basiert darauf, dass Clientadressen relativ zu Unternehmensnetzwerken, die auf eine interne SBC-Schnittstelle (Session Border Controller) (Direct Routing Certified Session Border Controller) zugreifen können, als externe oder interne Adressen konfiguriert sind. Die Clientposition (intern/extern) wird während der Verarbeitung jedes Anrufs bestimmt, indem die Adresse zur Herstellung der Transport relays ermittelt wird.
-> 
-> In VPN-Szenarien mit geteilten Tunneln, in denen Relay über den Internetdienstanbieter erreichbar ist, bevorzugt die Logik für die optimale Route des Clients die Standardroute der lokalen Schnittstelle (z. B. öffentliches WLAN). Dies bewirkt, dass Microsoft dem SBC signalisiert, dass der Client extern ist, obwohl er die interne Schnittstelle des Direct-Routing-SBC des Kunden erreichen kann. Bei Kunden mit Direct Routing, die lokale Medienoptimierung verwenden, kann es zu längeren Anrufeinrichtungszeiten und in einigen Fällen zu keinem Audiosignal beim Empfang von Anrufen aus dem PSTN kommen.
-> 
+> Die Optimierung lokaler Medien basiert darauf, dass Clientstandorte als extern oder intern relativ zu den Unternehmensnetzwerken erkannt werden, die auf eine interne SBC-Schnittstelle (Direct Routing) Session Border Controller (SBC) zugreifen können.
+> In VPN-Szenarien mit geteilten Tunneln, in denen der Clientendpunkt als außerhalb des Kundennetzwerks erkannt wird, signalisiert Microsoft den externen Standort dem SBC, obwohl der Client die interne Schnittstelle des Direct Routing-SBC des Kunden erreichen kann. Bei Kunden mit Direct Routing, die lokale Medienoptimierung verwenden, kann es zu längeren Anrufeinrichtungszeiten und in einigen Fällen zu keinem Audiosignal beim Empfang von Anrufen aus dem PSTN kommen.
 > Um dies zu vermeiden, müssen VPN-Administratoren den Zugriff zwischen VPN-Remotebenutzern und der internen SBC-Schnittstelle für Direct-Routing blockieren.
 
 
@@ -67,7 +65,7 @@ In diesem Artikel wird die Konfiguration für Microsoft-Komponenten beschrieben.
 
 Bei externen vertrauenswürdigen IPs handelt es sich um die externen Internet-IPs des Unternehmensnetzwerks. Bei diesen IP-Adressen handelt es sich um die IP-Adressen, die von Microsoft Teams verwendet werden, wenn sie eine Verbindung mit Microsoft 365. Sie müssen diese externen IPs für jede Website hinzufügen, auf der Benutzer die Optimierung lokaler Medien verwenden.
 
-Um die öffentlichen IP-Adressen für jede Website hinzuzufügen, verwenden Sie das cmdlet New-CsTenantTrustedIPAddress Cmdlet . Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
+Verwenden Sie das cmdlet "New-CsTenantTrustedIPAddress", um die öffentlichen IP-Adressen für jede Website hinzuzufügen. Sie können eine unbegrenzte Anzahl von vertrauenswürdigen IP-Adressen für einen Mandanten definieren. Wenn es sich bei den von Microsoft 365 verwendeten externen IPs um IPv4- und IPv6-Adressen handelt, müssen Sie beide Typen von IP-Adressen hinzufügen. Verwenden Sie für IPv4 mask 32. Verwenden Sie für IPv6 die Maske 128. Sie können sowohl einzelne externe IP-Adressen als auch externe IP-Subnetze hinzufügen, indem Sie im Cmdlet verschiedene MaskBits angeben.
 
 ```
 New-CsTenantTrustedIPAddress -IPAddress <External IP address> -MaskBits <Subnet bitmask> -Description <description>
@@ -91,7 +89,7 @@ Bei allen Parametern muss die Zwischenschreibung beachtet werden, daher müssen 
 
 ### <a name="define-network-regions"></a>Definieren von Netzwerkregionen
 
-Verwenden Sie zum Definieren von Netzwerkregionen das cmdlet New-CsTenantNetworkRegion Netzwerk. Der Parameter RegionID ist ein logischer Name, der die Geografie der Region darstellt und keine Abhängigkeiten oder Einschränkungen aufweist. Der Parameter CentralSite `<site ID>` ist optional.
+Verwenden Sie das cmdlet "New-CsTenantNetworkRegion", um Netzwerkbereiche zu definieren. Der Parameter RegionID ist ein logischer Name, der die Geografie der Region darstellt und keine Abhängigkeiten oder Einschränkungen aufweist. Der Parameter CentralSite `<site ID>` ist optional.
 
 ```powershell
 New-CsTenantNetworkRegion -NetworkRegionID <region ID>  
@@ -121,7 +119,7 @@ New-CsTenantNetworkSite -NetworkSiteID "Singapore" -NetworkRegionID "APAC"
 
 ### <a name="define-network-subnets"></a>Definieren von Netzwerk-Subnetzen
 
-Verwenden Sie zum Definieren von Netzwerksubnetzen und zum Zuordnen dieser Subnetze zu Netzwerkstandorten das cmdlet New-CsTenantNetworkSubnet Netzwerkverbindung. Jedes Netzwerksubnetz kann nur einem Standort zugeordnet werden. 
+Verwenden Sie zum Definieren von Netzwerksubnetzen und zum Zuordnen dieser Subnetze zu Netzwerkstandorten das cmdlet New-CsTenantNetworkSubnet Netzwerkadresse. Jedes Netzwerksubnetz kann nur einem Standort zugeordnet werden. 
 
 ```powershell
 New-CsTenantNetworkSubnet -SubnetID <Subnet IP address> -MaskBits <Subnet bitmask> -NetworkSiteID <site ID>
@@ -137,7 +135,7 @@ New-CsTenantNetworkSubnet -SubnetID 192.168.3.0 -MaskBits 24 -NetworkSiteID “S
 
 ## <a name="define-the-virtual-network-topology"></a>Definieren der virtuellen Netzwerktopologie 
 
-Zuerst erstellt der Mandantenadministrator eine neue SBC-Konfiguration für jeden relevanten SBC mithilfe des cmdlets New-CsOnlinePSTNGateway SBC.
+Zuerst erstellt der Mandantenadministrator eine neue SBC-Konfiguration für jeden relevanten SBC mit dem cmdlet New-CsOnlinePSTNGateway SBC.
 Der Mandantenadministrator definiert die virtuelle Netzwerktopologie durch Angeben der Netzwerkwebsites für die PSTN-Gatewayobjekte mithilfe des Set-CsOnlinePSTNGateway-Cmdlets:
 
 ```powershell
@@ -145,7 +143,7 @@ PS C:\> Set-CsOnlinePSTNGateway -Identity <Identity> -GatewaySiteID <site ID> -M
 ```
 
 Beachten Sie Folgendes: 
-   - Wenn der Kunde über einen einzigen SBC verfügt, muss der Parameter "-ProxySBC" entweder obligatorisch $null oder ein SBC-FQDN-Wert sein (Szenario: zentraler SBC mit zentralisierten Trunks).
+   - Wenn der Kunde über einen einzelnen SBC verfügt, muss der Parameter "-ProxySBC" entweder obligatorisch $null oder ein SBC-FQDN-Wert sein (Szenario: zentraler SBC mit zentralisierten Trunks).
    - Der -MediaBypass-Parameter muss auf "$true festgelegt werden, um die Optimierung lokaler Medien zu unterstützen.
    - Wenn für SBC der Parameter -BypassMode nicht festgelegt ist, werden X-MS-Header nicht gesendet. 
    - Bei allen Parametern muss die Zwischenschreibung beachtet werden, daher müssen Sie sicherstellen, dass Sie die gleiche Schreibung wie beim Setup verwenden.  (Die Werte "GatewaySiteID" "Vietnam" und "vietnam" werden z. B. als unterschiedliche Websites behandelt.)
@@ -238,7 +236,7 @@ Die folgende Tabelle zeigt die X-MS-Header, die von Direct Routing gesendet werd
 
 
 Bei einem eingehenden Anruf ist der Standort des Benutzers unbekannt, und der SBC muss erraten, wo sich der Benutzer befindet. Wenn der Rat nicht richtig ist, ist eine erneute Einladung erforderlich. In diesem Fall wird davon ausgegangen, dass es sich um einen internen Benutzer handelt, dass Medien direkt fließen können und keine weiteren Aktionen erforderlich sind (erneutes Einladen).
-Der mit dem Direct Routing-Dienst verbundene SBC meldet den ursprungsenden SBC-Speicherort, indem Record-Route Und Kontaktfelder bereitstellen. Basierend auf diesen Feldern wird der Medienpfad mit Direct Routing berechnet.
+Der mit dem Direct Routing-Dienst verbundene SBC meldet den SBC-Ursprungsort, indem er die Felder Record-Route Kontakt liefert. Basierend auf diesen Feldern wird der Medienpfad mit Direct Routing berechnet.
 
 Hinweis: Da ein Benutzer mehrere Endpunkte haben kann, ist die Unterstützung von 183 nicht möglich. Für Direct-Routing wird in diesem Fall immer "180 Klingeln" verwendet. 
 
@@ -274,7 +272,7 @@ Die folgende Tabelle zeigt die X-MS-Header, die vom Direct-Routingdienst gesende
 |:------------|:-------|:-------|:-------|
 AlwaysBypass |  Extern |  Nicht zutreffend |   Eingehende |
 
-Bei einem eingehenden Anruf muss der mit Direct-Routing verbundene SBC eine erneute Einladung senden (standardmäßig werden immer lokale Medienkandidaten angeboten), wenn sich der Benutzer extern befindet.  Der X-MediaPath-Wert wird auf Grundlage Record-Route angegebenen SBC-Benutzers berechnet.
+Bei einem eingehenden Anruf muss der mit Direct-Routing verbundene SBC eine erneute Einladung senden (standardmäßig werden immer lokale Medienkandidaten angeboten), wenn sich der Benutzer extern befindet.  X-MediaPath wird auf Grundlage Record-Route angegebenen SBC-Benutzers berechnet.
 
 Das folgende Diagramm zeigt die SIP-Leiter für einen eingehenden Anruf mit AlwaysBypass-Modus, und der Benutzer ist extern.
 

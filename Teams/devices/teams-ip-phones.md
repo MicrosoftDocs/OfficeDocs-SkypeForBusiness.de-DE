@@ -21,16 +21,16 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: f4049c2b969906e149a2f1a6d7ea5249eb0ed2e9
-ms.sourcegitcommit: 1c2364fbefd95151f0847a35e8bc7c4c1b3892f5
+ms.openlocfilehash: 2eff36a8478a63453fca388b8060642c0251b091
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "58935831"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356439"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams zertifizierten Geräten
 
-Die Microsoft Teams Stellen sicher, dass Kunden mit zertifizierten Telefonen und Telefonkonferenzen qualitativ hochwertige Audioanrufe und Besprechungen erleben.
+Die Microsoft Teams Zertifizierungsprogrammen stellen sicher, dass Kunden mit zertifizierten Tischtelefonen und Telefonkonferenzen qualitativ hochwertige Audioanrufe und Besprechungen erleben.
 
 Microsoft Teams Zertifizierungsprogramme stellen eine Leiste mit höherer Qualität mit höheren Leistungszielen und Metriken für die Audioqualität sicher. Partner arbeiten aktiv daran, diese höhere Leiste zu erfüllen, und qualifizieren Geräte für Zertifizierungsanforderungen. Einige unserer Partner arbeiten auch daran, Support für den Skype for Business auf der gleichen Hardware wie die Teams bereitstellen. Zu den Vorteilen Microsoft Teams zertifizierten Geräten gehören:
 
@@ -85,15 +85,15 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 | Poly TC8                | 3.3.2.210441     | März 2021    | Kompatibel mit Poly Studio X30 und Poly Studio X50 |
 | Yealink VC210           | 118.15.0.14      | Februar 2020 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |
 
-## <a name="currently-certified-teams-displays"></a>Zurzeit zertifizierte Teams Displays
+## <a name="currently-certified-teams-displays"></a>Zurzeit für Teams zertifiziert
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Android zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm Microsoft Teams Android zertifiziert:
 
 | Gerätemodell | Firmwareversion | Veröffentlichungsdatum  |
 |:------------------------|:-----------------|:--------------|
 |Lenovo Think Smart View|CD-18781Y.201006.099|Oktober 2020 |
 
-## <a name="currently-certified-teams-panels"></a>Aktuell für Teams zertifiziert
+## <a name="currently-certified-teams-panels"></a>Zurzeit für Teams zertifiziert
 Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams zertifiziert:
 
 | Gerätemodell| Firmwareversion | Veröffentlichungsdatum  |                                         
@@ -126,14 +126,14 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell        | Firmwareversion     | Enthaltene Produktversion  |
 |:--------------------|:---------------------|:-------------------------|
-| Poly Trio C60   | 7.0.3.0517  | 2021 Update #2                        |
-| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | 2021 Update #2                     |
-| Audiocodes C448HD/C450HD/C470HD   | 1.10.143  | 2021 Update #2           |
-| Yealink T55/T56/T58   | 58.15.0.131  | 2021 Update #2                       |
-| Yealink VP59   | 91.15.0.63  | 2021 Update #2                               |
-| Yealink CP960  |73.15.0.126  | 2021 Update #2                               |
-| Yealink MP56/MP54/MP58  |122.15.0.44 | 2021 Update #2                       |
-| Crestron UC-2  |1.0.3.66 | 2021 Update #2 |
+| Poly Trio C60   | 7.0.3.0517  | Update 2021 #2                        |
+| Poly CCX400/CCX500/CCX600   | 7.0.3.0515 | Update 2021 #2                     |
+| Audiocodes C448HD/C450HD/C470HD   | 1.10.143  | Update 2021 #2           |
+| Yealink T55/T56/T58   | 58.15.0.131  | Update 2021 #2                       |
+| Yealink VP59   | 91.15.0.63  | Update 2021 #2                               |
+| Yealink CP960  |73.15.0.126  | Update 2021 #2                               |
+| Yealink MP56/MP54/MP58  |122.15.0.44 | Update 2021 #2                       |
+| Crestron UC-2  |1.0.3.66 | Update 2021 #2 |
 | Poly Trio C60   | 7.0.2.1071  | 2021 Update #1                        |
 | Poly CCX400/CCX500/CCX600   | 7.0.2.1072  | 2021 Update #1                 |
 | Audiocodes C448HD/C450HD/C470HD   | 1.10.120  | 2021 Update #1       |
@@ -154,11 +154,11 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 | Yealink VP59        | 91.15.0.54         | 2020 Update #7           |
 | Yealink CP960       | 73.15.0.115      | 2020 Update #7           |
 
-Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Mobiltelefone.
+Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Microsoft Teams Telefone.
 
-Weitere Informationen [Microsoft Teams Anzeigen finden Sie unter Anzeigen von](teams-displays.md).
+Weitere Informationen [Microsoft Teams Anzeigen finden Sie unter Anzeigen](teams-displays.md)von .
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams-Räume unter Android
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams-Räume für Android
 
 Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware-Versionen.
 
@@ -167,7 +167,7 @@ Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware
 | Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal-Version | Version des Administrator-Agenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
 | 2021 Update #2A | 15. Juli 2021  |1449/1.0.96.2021070803|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
-| 2021 Update #2 | 28. Juni 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
+| Update 2021 #2 | 28. Juni 2021  |1449/1.0.96.2021051904|  5.0.5088.0 |   1.0.0.202104280345.product version code: 262 |
 | 2021 Update #1A  |12. Mai 2021  |1449/1.0.96.2021042903 |5.0.4927.0     |1.0.0.202010121132.product Version Code: 223 |
 | 2021 Update #1  |5. April 2021  |1449/1.0.96.2021032002  |5.0.4927.0     |1.0.0.202010121132.product Version Code: 223 |
 | 2020 Update #3  |24. November 2020  |1449/1.0.94.2020102101  |5.0.4927.0     |1.0.0.202006290446.product Version Code: 216 |
@@ -176,22 +176,22 @@ Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agenten ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent  ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
 | Poly Studio X30 | 3.6.0.350035          | 2021 Update #2A    |
 | Poly Studio X50 | 3.6.0.350035        | 2021 Update #2A    |
 | Poly TC8 | 3.6.0.210534                 | 2021 Update #2A    |
-| EXPAND Vision 3T |1.2.2.21182.10   | 2021 Update #2 |
-| AudioCodes RECEIVERV80 |1.13.361   | 2021 Update #2 |
-| Yealink VC210 |118.15.0.54   | 2021 Update #2    |
-| Yealink MeetingBar A20 | 133.15.0.60     | 2021 Update #2    |
-| Yealink MeetingBar A30 | 133.15.0.60    | 2021 Update #2    |
-| Yealink CTP18 | 137.15.0.37    | 2021 Update #2    |
-| Poly Studio X30 | 3.5.0.344025          | 2021 Update #2    |
-| Poly Studio X50 | 3.5.0.344025        | 2021 Update #2    |
-| Poly TC8 | 3.5.0.210489                 | 2021 Update #2    |
+| EXPAND Vision 3T |1.2.2.21182.10   | Update 2021 #2 |
+| AudioCodes RECEIVERV80 |1.13.361   | Update 2021 #2 |
+| Yealink VC210 |118.15.0.54   | Update 2021 #2    |
+| Yealink MeetingBar A20 | 133.15.0.60     | Update 2021 #2    |
+| Yealink MeetingBar A30 | 133.15.0.60    | Update 2021 #2    |
+| Yealink CTP18 | 137.15.0.37    | Update 2021 #2    |
+| Poly Studio X30 | 3.5.0.344025          | Update 2021 #2    |
+| Poly Studio X50 | 3.5.0.344025        | Update 2021 #2    |
+| Poly TC8 | 3.5.0.210489                 | Update 2021 #2    |
 | Poly Studio X30 | 3.3.2.286154          | 2021 Update #1    |
 | Poly Studio X50 | 3.3.2.286154          | 2021 Update #1    |
 | Poly TC8 | 3.3.2.286154                 | 2021 Update #1    |
@@ -211,17 +211,17 @@ Im Folgenden finden Sie die neuesten Microsoft Teams zeigt App- und Firmwarevers
 
 |Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal-Version | Version des Administrator-Agenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
-|2021 Update #2  |9. Juni 2021 |1449/1.0.95.2021042103    |5.0.5088.0            |  1.0.0.202103160138.product (256)|
+|Update 2021 #2  |9. Juni 2021 |1449/1.0.95.2021042103    |5.0.5088.0            |  1.0.0.202103160138.product (256)|
 |2021 Update #1  |18. März 2021 |1449/1.0.95.2021021104    |5.0.5045.0            | 1.0.0.202101280722.product (253)|
 
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach der Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent  ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
-|Lenovo Think Smart View| CD-18781Y.210507.111 |2021 Update #2 |
+|Lenovo Think Smart View| CD-18781Y.210507.111 |Update 2021 #2 |
 |Lenovo Think Smart View| CD-18781Y.210228.109 |2021 Update #1 |
 
 ### <a name="product-release-information-for-teams-panels"></a>Produktveröffentlichungsinformationen für Teams Panels
@@ -236,18 +236,19 @@ Im Folgenden finden Sie die neuesten Microsoft Teams Panels-App und Firmwarevers
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach der Produktversion.  Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent  ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen.**
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
 |Crestron -TSS770| 1.004.0115 |2021 Update #1 |
 |Crestron-TSS1070 | 1.004.0115 |2021 Update #1 |
+|Yealink RoomPanel | 147.15.0.17 |2021 Update #1 |
 
 
 
 ## <a name="more-resources"></a>Weitere Ressourcen
 
-Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Mobiltelefone.
+Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Microsoft Teams Telefone.
 
 Informationen [zur Firmwareversion ihres mobilen](phones-for-teams.md) Geräts finden Sie unter Suchen der Firmwareversion auf einem mobilen Gerät.
 
@@ -257,6 +258,6 @@ Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zu
 
 Wenn Sie ein Lieferant sind, der am [](/skypeforbusiness/certification/how-to-join) Zertifizierungsprogramm teilnehmen möchten, finden Sie unter Teilnehmen an Anforderungen und verfügbaren Programmen weitere Informationen.
 
-[Entdecken Microsoft Teams Mobiltelefonen und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Lernen Sie Microsoft Teams und zertifizierten Geräten auf.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Interoperabilität von Teams und Skype](../teams-skype-interop.md)
