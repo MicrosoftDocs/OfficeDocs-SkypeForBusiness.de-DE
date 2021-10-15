@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 22d57e349d22deb6d40227ba15d73a7958bad894
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
+ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432437"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "60356449"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -147,7 +147,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
 
 > [!NOTE]
-> Diese Transkription aufgezeichneter Besprechungen wird derzeit nur für Benutzer unterstützt, die die Sprache in Microsoft Teams auf Englisch festgelegt haben, und funktioniert nur, wenn in der Besprechung Englisch gesprochen wird. Sie werden zusammen mit den Besprechungsaufzeichnungen in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert.
+> Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Englisch (USA), Englisch (Kanada), Englisch (Indien), Englisch (Vereinigtes Königreich), Englisch (Australien), Englisch (Neuseeland), Deutsch (Deutschland), Portugiesisch (Brasilien), Niederländisch (Niederlande), Niederländisch (Belgien), Französisch (Frankreich), Spanisch (Spanien), Japanisch (Japan), Französisch (Kanada), Chinesisch (Kantonesisch, traditionell), Chinesisch (Mandarin, vereinfacht), Hindi (Indien), Italienisch (Italien), Koreanisch (Korea), Spanisch (Mexiko), Schwedisch (Schweden), Polnisch (Polen), Arabisch (Vereinigte Arabische Emirate), Arabisch (Saudi-Arabien), Dänisch (Dänemark), Finnisch (Finnland), Norwegisch (Norwegen) und Russisch (Russland) unterstützt. Sie werden zusammen mit den Besprechungsaufzeichnungen in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert.
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob der Initiator der Besprechung die Wahl haben soll, die Besprechungsaufzeichnung zu transkribieren.
 
@@ -309,7 +309,7 @@ Ja, das Ablaufdatum wird pro Datei festgelegt. Benutzer können das Ablaufdatum 
 
 **Wie kann ein Administrator das Ablaufdatum ändern?**
   
-Administratoren können die Standardeinstellung für das Ablaufen in PowerShell (Set-CsTeamsMeetingPolicy –Identity Global – MeetingRecordingExpirationDays) oder im Teams Admin Center ändern, bevor das Feature veröffentlicht wird. **Die Einstellung ist noch nicht zur Änderung verfügbar**. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
+Administratoren können die standardmäßige Ablaufeinstellung in PowerShell oder Teams Admin Center ändern, bevor das Feature freigegeben wird. **Die Einstellung ist noch nicht zur Änderung verfügbar**. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
 
 Die Werte für die ablaufenden Tage können wie folgt festgelegt werden:
   
@@ -411,7 +411,7 @@ Heute sind Untertitel für die Videoaufzeichnungsdatei mit dem Teams-Besprechung
 Zukünftige Änderungen an dem Link zwischen dem Transkript in Teams und der Aufzeichnung werden hier und in den Benachrichtigungen im Nachrichtencenter klargestellt. Wenn wir in Zukunft Änderungen vornehmen, stellen wir sicher, dass Aufzeichnungsdateien, die älter als 60 Tage sind, das Transkript aus der Besprechung als Beschriftungen anzeigen.
 
 > [!NOTE]
-> Es gibt nur englische Untertitel (Besprechungstranskription ist in GCC noch nicht verfügbar).
+> Die Transkription von Besprechungen ist in GCC noch nicht verfügbar.
 
 ## <a name="ediscovery-and-compliance-for-meeting-recordings"></a>eDiscovery und Compliance für Besprechungsaufzeichnungen
 

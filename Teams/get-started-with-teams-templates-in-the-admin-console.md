@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 636cd41a6107f8fb43b42a6118b8ead9d2b754ef
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045571"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367517"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 
@@ -36,12 +36,12 @@ ms.locfileid: "60045571"
 
 Eine Teamvorlage in Microsoft Teams ist eine Definition der Teamstruktur, die auf einen geschäftlichen Bedarf oder ein geschäftliches Projekt ausgelegt ist. Als Administrator können Sie Vorlagen verwenden, um auf einfache Weise konsistente Teams in Der gesamten Organisation zu implementieren. Mit Vorlagen können Benutzer schnell umfangreiche Bereiche für die Zusammenarbeit mit vordefinierten Einstellungen, Kanälen und Apps erstellen.
 
-Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen.](#create-your-own-team-templates) Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen in einer Vorlage für die Benutzer verfügbar Teams.
+Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen.](#create-your-own-team-templates) Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen für Ihre Benutzer in einer Teams.
 
 Dieser Artikel bietet Ihnen einen Überblick über die Arbeit mit Teamvorlagen im Teams Admin Center. Sie erfahren mehr über die eigenschaften, die von Vorlagen unterstützt werden, die von uns erstellten vordefinierten Vorlagen, die Grenzwerte für die Vorlagengröße, das Erstellen und Verwalten von Vorlagen und vieles mehr.
 
 > [!NOTE]
-> Ihre Benutzer können Teams aus vordefinierten oder [benutzerdefinierten Teamvorlagen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in der App Teams erstellen. Entwickler können Teams auch programmgesteuert aus vordefinierten Teamvorlagen mithilfe von Microsoft Graph. Weitere Informationen finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph.](get-started-with-teams-templates.md)
+> Ihre Benutzer können Teams aus vordefinierten oder [benutzerdefinierten Teamvorlagen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in der App Teams erstellen. Entwickler können Teams auch mithilfe von Microsoft-Vorlagen programmgesteuert aus vordefinierten Teamvorlagen Graph. Weitere Informationen finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph.](get-started-with-teams-templates.md)
 
 ## <a name="team-template-capabilities"></a>Funktionen für Teamvorlagen
 
@@ -59,7 +59,7 @@ Die meisten Eigenschaften in einem Team werden eingeschlossen und von Teamvorlag
 | Angeheftete Registerkarten | |
 
 > [!NOTE]
-> Wir werden in zukünftigen Versionen von Microsoft Teams weitere Vorlagenfunktionen hinzufügen. Überprüfen Sie daher die neuesten Informationen zu unterstützten Eigenschaften.
+> In zukünftigen Versionen von Microsoft Teams werden weitere Vorlagenfunktionen hinzugefügt. Überprüfen Sie daher die neuesten Informationen zu unterstützten Eigenschaften.
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Vordefinierte Teamvorlagen im Teams Admin Center
 
@@ -144,3 +144,4 @@ Verwenden Sie die folgenden Cmdlets zum Verwalten Ihrer Vorlagen in PowerShell.
 
 - [Erstellen eines Teams aus einer Vorlage](https://support.microsoft.com/office/create-a-team-with-team-templates-702a2977-e662-4038-bef5-bdf8ee47b17b)
 - [Erste Schritte mit Teamvorlagen mittels Microsoft Graph](get-started-with-teams-templates.md)
+- [Klonen eines Teams](/graph/api/team-clone?view=graph-rest-1.0&tabs=http)

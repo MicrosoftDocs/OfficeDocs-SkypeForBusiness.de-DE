@@ -14,12 +14,12 @@ f1.keywords:
 ms.localizationpriority: medium
 description: Erfahren Sie mehr über die Lifecycle-Unterstützung von Microsoft Teams-Räume, einschließlich der Struktur und der Phasen der dynamischen Unterstützung.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 7e7a82d7643a925d5c997c9d6fe5661a421d47ab
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 937c6b43ebdc7c775251f0a7fc576cc11e666a7f
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356423"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367497"
 ---
 # <a name="microsoft-teams-rooms-app-version-support"></a>Microsoft Teams-Räume – Unterstütze App-Versionen
  
@@ -30,7 +30,7 @@ Die Supportstruktur für Teams-Räume ist dynamisch und hängt von der Verfügba
 Alle Versionen sind in den [Versionshinweisen zu Microsoft Teams-Räume](rooms-release-note.md) aufgeführt.
 
 > [!IMPORTANT]
-> Bei der Installation eines neuen Geräts, das mit einer älteren Version [](manual-update.md) der Teams-Raumanwendung enthalten war, wird empfohlen, die Anwendung nach dem Festlegen des Kontos manuell zu aktualisieren, bevor Sie alle Windows herunterladen. Dadurch wird sichergestellt, dass die korrelierende Betriebssystemversion und Updates auf Ihrem Gerät installiert werden.  
+> Bei der Installation eines neuen Geräts, das mit einer älteren Version [](manual-update.md) der Teams-Raumanwendung enthalten war, wird empfohlen, die Anwendung nach dem Festlegen des Kontos manuell zu aktualisieren, bevor Sie alle Windows herunterladen. Dadurch wird sichergestellt, dass korrekte Betriebssystemversion und Windows Updates auf Ihrem Gerät installiert werden.  
 
 ## <a name="windows-10-release-support"></a>Unterstützte Windows 10-Versionen
 

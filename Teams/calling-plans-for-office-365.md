@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
-ms.openlocfilehash: f79fbab055e7dbc9148e2be11539ecbfbc9b0c03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
+ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727264"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "60367527"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -48,7 +48,11 @@ Alle Benutzer in demselben Land/derselben Region (dies ist der Benutzerstandort,
 Besuchen Sie [Verfügbarkeit nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) um Informationen zu den für jede Organisation in jedem Land/jeder Region monatlich verfügbaren Minuten zu erhalten.
   
 > [!IMPORTANT]
-> Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Benutzer** und **NICHT** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**.  
+> Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Benutzer** und **NICHT** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**. 
+
+> [!NOTE]
+> Pooling ist nur bei identischen Anrufplänen verfügbar.
+
 ![Screenshot des Lizenzspeicherorts des Benutzers.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen erhalten Sie unter [Audiokonferenz – Zeitraum für ﻿kostenlose ausgehende Anrufe](complimentary-dial-out-period.md).
