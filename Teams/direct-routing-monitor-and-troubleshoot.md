@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie die Direct Routing-Konfiguration überwachen und behandeln, einschließlich Session Border Controller, Direct Routing-Komponenten und Telekommunikations-Trunks.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: aeff22bf3558c64111f0d1b66c2fd76288f81477
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 97bc8afb3645fca4e06b859b765dfbf1e3fe1859
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726884"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462319"
 ---
 # <a name="monitor-and-troubleshoot-direct-routing"></a>Überwachung und Problembehandlung von direktem Routing
 
@@ -37,6 +37,19 @@ Die Möglichkeit zum Anrufen und Empfangen von Anrufen mithilfe von Direct-Routi
 Wenn Sie Schwierigkeiten bei der Problembehandlung haben, können Sie einen Supportfall bei Ihrem SBC-Anbieter oder microsoft öffnen. 
 
 Microsoft arbeitet daran, weitere Tools für die Problembehandlung und Überwachung zur Verfügung zu haben. Überprüfen Sie die Dokumentation regelmäßig auf Aktualisierungen. 
+
+## <a name="direct-routing-diagnostic-tool"></a>Direct Routing Diagnostic Tool
+
+Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool überprüfen, ob ein Benutzer für Direct-Routing ordnungsgemäß konfiguriert ist:
+
+1. Wählen **Sie unten Tests** ausführen aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
+
+   > [!div class="nextstepaction"]
+   > [Ausführen von Tests: Direktes Routing](https://aka.ms/TeamsDirectRoutingDiag)
+
+2. Geben Sie im Diagnosebereich Ausführen die E-Mail-Adresse  des Benutzers, den Sie testen möchten, in das Feld Benutzername oder E-Mail ein, und wählen Sie **dann Tests ausführen aus.**
+
+3. Die Tests geben die besten nächsten Schritte zum Adressieren von Mandanten-, Benutzer- oder Richtlinienkonfigurationen zurück, um zu überprüfen, ob der Benutzer für Direct-Routing in einem Microsoft Teams.
 
 ## <a name="monitoring-availability-of-session-border-controllers-using-session-initiation-protocol-sip-options-messages"></a>Überwachen der Verfügbarkeit von Session Border Controllern mithilfe von Sip-Optionsmeldungen (Session Initiation Protocol)
 
@@ -66,7 +79,7 @@ Herabstufung bedeutet, dass SBC nicht zuerst ausprobiert wird. Beispielsweise ha
 
 Wenn sbc1.contoso.com SIP-Optionen nicht wie zuvor beschrieben in regelmäßigen Abständen senden, wird sie herabgestuft. Als Nächstes sbc2.contoso.com sie nach dem -Aufruf. Wenn "sbc2.contoso.con" den Anruf nicht abliefern kann, wird sbc1.contoso.com (herabgestuft) erneut versucht, bevor ein Fehler generiert wird. 
 
-Wenn zwei (oder mehr) SBCs auf einer Route als fehlerfrei und gleich angesehen werden, wird Fisher-Yates gemischteUffle angewendet, um die Anrufe zwischen den SBCs zu verteilen.
+Wenn zwei (oder mehr) SBCs auf einer Route als fehlerfrei und gleich angesehen werden, wird Fisher-Yates zu einer gemischten Zuführung angewendet, um die Anrufe zwischen den SBCs zu verteilen.
 
 ## <a name="monitor-call-quality-analytics-dashboard-and-sbc-logs"></a>Überwachen des Anrufqualitätsanalyse-Dashboards und von SBC-Protokollen 
  

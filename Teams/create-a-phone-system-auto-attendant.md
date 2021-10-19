@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Hier erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrem Microsoft Teams.
-ms.openlocfilehash: 50c024854481a30f4a612db6320f51818b6d3b0d
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: a17921eee249d8baf10256e0d0ea17d4462494c0
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249527"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462355"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -36,7 +36,7 @@ Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen 
 > [!TIP]
 > Dieser Artikel ist für große Organisationen. Wenn Ihre Organisation ein kleines Unternehmen ist, lesen Sie stattdessen das Lernprogramm Einrichten einer [automatischen Attendant – Kleinunternehmen.](/microsoftteams/business-voice/create-a-phone-system-auto-attendant-smb)
 
-Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatischer [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen. [](plan-auto-attendant-call-queue.md)
+Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatische [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen. [](plan-auto-attendant-call-queue.md)
 
 Automatische Telefon attendants can direct calls, based on callers' input, to one of the following destinations: <a name="call-routing-options" ></a>
 
@@ -121,11 +121,11 @@ Wenn Sie Ziele Wähltasten zuweisen, empfiehlt es sich, für die Verzeichnissuch
 
 Wenn Sie keine Wähltasten zugewiesen haben, wählen Sie eine Option für die **Verzeichnissuche aus.**
 
-**Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Wähltastatur des Telefons eingeben. Jeder Onlinebenutzer oder jeder benutzer, der mit Skype for Business Server lokal gehostet wird, ist berechtigter Benutzer und kann mit Namenswählen gefunden werden. (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
+**Nach Namen wählen** – Wenn Sie diese Option aktivieren, können Anrufer den Namen des Benutzers sagen oder ihn auf der Wähltastatur des Telefons eingeben. Jeder Onlinebenutzer oder jeder lokal mit Skype for Business Server gehostete Benutzer ist ein berechtigter Benutzer und kann mit Dem Namen gewählt werden. (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
 
 **Durchwahl:** Wenn Sie diese Option aktivieren, können Anrufer eine Verbindung mit Benutzern in Ihrer Organisation herstellen, indem sie deren Telefonerweiterung wählen. Jeder Onlinebenutzer oder jeder lokal mit Skype for Business Server gehostete Benutzer ist ein berechtigter Benutzer und kann mit der **Durchwahl-Erweiterung gefunden werden.** (Auf der Seite Wählbereich können Sie festlegen, wer im Verzeichnis enthalten ist [und nicht.)](#dial-scope)
 
-Benutzer, die für die Durchwahlerweiterung verfügbar sein möchten, müssen über eine Durchwahl verfügen, die als [](/microsoft-365/admin/add-users/add-users) Teil eines der folgenden Telefonattribute angegeben ist, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massenbenutzern.)
+Benutzer, die für die Durchwahlerweiterung verfügbar sein möchten, müssen eine Erweiterung haben, die als Teil [](/microsoft-365/admin/add-users/add-users) eines der folgenden Telefonattribute angegeben ist, die in Active Directory oder Azure Active Directory definiert sind (weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massen hinzufügen.)
 
 - OfficePhone
 - HomePhone
@@ -196,9 +196,9 @@ Wenn Sie alle Feiertage hinzugefügt haben, wählen Sie Weiter **aus.**
 
 ![Screenshot der Ein- und Ausschließen-Optionen für den Wählbereich](media/auto-attendant-dial-scope.png)
 
-Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namensanwahl oder eine Durchwahl verwendet. Der Standardwert Alle **Onlinebenutzer umfasst** alle Benutzer in Ihrer Organisation, bei der es sich um Onlinebenutzer handelt oder die lokal mithilfe eines Skype for Business Server.
+Der *Wählbereich* definiert, welche Benutzer im Verzeichnis verfügbar sind, wenn ein Anrufer eine Namensanwahl oder eine Durchwahl verwendet. Der Standardwert Alle **Onlinebenutzer umfasst** alle Benutzer in Ihrer Organisation, bei der es sich um Onlinebenutzer handelt oder die lokal mithilfe einer Skype for Business Server.
 
-Sie können bestimmte Benutzer ein- oder  ausschließen,  indem Sie unter Ein- oder Ausschließen die Option Benutzerdefinierte Benutzergruppe auswählen und dann eine oder Microsoft 365, Verteilerlisten oder Sicherheitsgruppen auswählen.  Beispielsweise können Sie Manager in Ihrer Organisation aus dem Wählverzeichnis ausschließen. (Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis ausgeschlossen.)
+Sie können bestimmte Benutzer ein- oder  ausschließen,  indem Sie unter Ein- oder Ausschließen die Option Benutzerdefinierte Benutzergruppe auswählen und dann eine oder mehrere Microsoft 365, Verteilerlisten oder Sicherheitsgruppen auswählen.  Beispielsweise können Sie Manager in Ihrer Organisation aus dem Wählverzeichnis ausschließen. (Wenn sich ein Benutzer in beiden Listen befindet, wird er aus dem Verzeichnis ausgeschlossen.)
 
 > [!NOTE]
 > Es kann bis zu 36 Stunden dauern, bis ein neuer Benutzer seinen Namen im Verzeichnis aufgeführt hat.
@@ -223,13 +223,13 @@ Weitere [Informationen Teams Sie](manage-resource-accounts.md) unter Verwalten T
 
 Lesen Sie die [Angaben unter Voraussetzungen,](plan-auto-attendant-call-queue.md#prerequisites) um zu ermöglichen, dass automatische Telefon attendants Anrufe extern übertragen.  Außerdem:
 
-- Bei einem Ressourcenkonto [](calling-plans-for-office-365.md) mit einer Anrufplanlizenz oder einer [Operator-Verbinden-Nummer](operator-connect-plan.md) muss die externe Durchwahltelefonnummer im E.164-Format eingegeben werden (+[Landeskennzahl][Ortskennzahl][Telefonnummer]).
+- Bei einem Ressourcenkonto [](calling-plans-for-office-365.md) mit einer Anrufplanlizenz oder einer [Operator-Verbinden-Nummer](operator-connect-plan.md) muss die Telefonnummer für externe Übertragungen im E.164-Format eingegeben werden (+[Landeskennzahl][Ortskennzahl][Telefonnummer]).
 
-- Für ein Ressourcenkonto mit einer Telefonsystem-Lizenz und einer Direct Routing Online Voice Routing-Richtlinie ist das Format der Telefonnummer für externe Übertragungen von den Einstellungen des [Session Border Controllers (SBC)](direct-routing-connect-the-sbc.md) abhängig.
+- Bei einem Ressourcenkonto mit einer Telefonsystem-Lizenz und einer Direct Routing Online Voice Routing-Richtlinie ist das Format der Telefonnummer für externe Übertragungen von den Einstellungen des [Session Border Controllers (SBC)](direct-routing-connect-the-sbc.md) abhängig.
 
 Die ausgehende Telefonnummer, die angezeigt wird, wird wie folgt bestimmt:
 
-  - Für Anrufplan- und Verbinden Telefonnummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
+  - Für Anrufplan- Verbinden Telefonnummern wird die Telefonnummer des ursprünglichen Anrufers angezeigt.
   - Bei Direct Routing-Nummern basiert die gesendete Zahl wie folgt auf der Einstellung P-Asserted-Identity (ODER) auf dem SBC:
     - Wenn dies auf Deaktiviert festgelegt ist, wird die Telefonnummer des ursprünglichen Anrufers angezeigt. Dies ist die empfohlene Standardeinstellung.
     - Ist diese Option aktiviert, wird die Telefonnummer des Ressourcenkontos angezeigt.
@@ -257,6 +257,19 @@ Sie können powerShell auch verwenden, um automatische Attendants zu erstellen u
 - [Get-CsAutoAttendantSupportedLanguage](/powershell/module/skype/Get-CsAutoAttendantSupportedLanguage)
 - [Import-CsAutoAttendantHolidays](/powershell/module/skype/import-csautoattendantholidays)
 - [New-CsAutoAttendantCallableEntity](/powershell/module/skype/New-CsAutoAttendantCallableEntity)
+
+## <a name="auto-attendant-diagnostic-tool"></a>automatische Telefonzentrale Diagnostic Tool
+
+Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool überprüfen, ob eine automatische Telefon attendant Anrufe empfangen kann:
+
+1. Wählen **Sie unten Tests** ausführen aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
+
+   > [!div class="nextstepaction"]
+   > [Ausführen von Tests: Teams Verbund](https://aka.ms/TeamsAADiag)
+
+2. Geben Sie im Diagnosebereich Ausführen das Ressourcenkonto in das Feld Benutzername oder **E-Mail** ein, und wählen Sie **dann Tests ausführen aus.**
+
+3. Die Tests identifizieren Konfigurationen von Mandanten-, Richtlinien- oder Ressourcenkontoen, die verhindern, dass die automatische Telefon attendant Anrufe empfangen kann, und stellen Schritte zum Beheben der erkannten Probleme dar.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

@@ -22,25 +22,25 @@ ms.custom:
 - ms.teamsadmincenter.users.voice.calldelegation.tooltip
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in einer Microsoft Teams.
-ms.openlocfilehash: e9954f85d9f5676635dc8d4616c08d0e0d3ac6be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 057c9a91e1eab20ab7f9ece6c427b6c39ef762b9
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617171"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462379"
 ---
 # <a name="shared-line-appearance-in-microsoft-teams"></a>Teamschaltung in Microsoft Teams
 
 Die Darstellung der freigegebenen Zeile ist Teil des Delegierungsfeatures, mit dem ein Benutzer eine Stellvertretung zum Beantworten oder Behandeln von Anrufen in seinem Auftrag auswählen kann. Dieses Feature ist hilfreich, wenn ein Benutzer über einen Verwaltungsassistenten verfügt, der die Anrufe des Benutzers regelmäßig verarbeitet. Im Zusammenhang mit der Darstellung einer freigegebenen Zeile ist ein Manager eine Person, die eine Stellvertretung autorisiert, in deren Namen Anrufe zu erstellen oder zu empfangen, und eine Stellvertretung kann Anrufe im Namen einer anderen Person anrufen und empfangen.
 
 > [!IMPORTANT]
-> Dieses Feature ist nur im Teams Bereitstellungsmodus verfügbar. Weitere Details zu Teams Bereitstellungsmodi finden Sie unter Verstehen Microsoft Teams und Skype for Business [Koexistenz](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und Interoperabilität
+> Dieses Feature ist nur im Teams Bereitstellungsmodus verfügbar. Weitere Details zu Teams Bereitstellungsmodi finden Sie unter Verstehen Microsoft Teams und Skype for Business [Koexistenz und Interoperabilität](teams-and-skypeforbusiness-coexistence-and-interoperability.md)
 
 ## <a name="license-required"></a>Lizenz erforderlich
 
-Ein Benutzer muss über Telefonsystem pstN-Konnektivität verfügen (entweder eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy), um Stellvertretung zu sein oder eine Stellvertretung einrichten zu können und anderen Personen das Anrufen in ihrem Namen zu ermöglichen.
+Ein Benutzer muss über Telefonsystem pstN-Konnektivität verfügen (entweder über eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy), um Stellvertretung zu sein oder eine Stellvertretung einrichten zu können und anderen Personen das Anrufen in ihrem Namen zu ermöglichen.
 
-Sowohl Manager als auch Stellvertretung Telefonsystem PSTN-Anbindung (entweder über eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy) verfügen. Die Erfahrung mit freigegebenen Zeilen ist Teil der Delegierung und in der Telefonsystem. Weitere Informationen zum Lizenzierungsmodell finden Sie unter Microsoft Teams [Dienstbeschreibung.](/office365/servicedescriptions/teams-service-description)
+Sowohl Vorgesetzte als auch Stellvertretung müssen über Eine Telefonsystem PSTN-Konnektivität verfügen (entweder eine Anrufplanlizenz oder Direct Routing OnlineVoiceRoutingPolicy). Die Erfahrung mit freigegebenen Zeilen ist Teil der Delegierung und bestandteil Telefonsystem. Weitere Informationen zum Lizenzierungsmodell finden Sie unter Microsoft Teams [Dienstbeschreibung.](/office365/servicedescriptions/teams-service-description)
 
 ## <a name="configuring-delegation-and-shared-line-appearance"></a>Konfigurieren der Darstellung von Delegierung und freigegebenen Zeilen
 
@@ -63,10 +63,10 @@ Die Darstellung einer freigegebenen Zeile wird derzeit von den folgenden Apps un
 | Anrufe im Auftrag einer anderen empfangen | Ja | Ja | Ja | Ja | Ja |
 | Anrufen einer Telefonnummer im Auftrag einer anderen Rufnummer | Ja | Ja | Ja | Ja | Ja |
 | Anrufen eines Teams Benutzers im Auftrag eines anderen Benutzers | Ja | Ja | Ja | Ja | Ja |
-| Anzeigen der Administratoransicht von freigegebenen Zeilen | Ja | Ja | Ja | Nein | Nein |
-| Anzeigen der Administratoransicht der Anrufaktivitäten des Vorgesetzten | Ja | Ja | Ja | Nein | Nein |
+| Anzeigen der Stellvertretungsansicht von freigegebenen Zeilen | Ja | Ja | Ja | Nein | Nein |
+| Anzeigen der Stellvertretungsansicht der Anrufaktivitäten des Vorgesetzten | Ja | Ja | Ja | Nein | Nein |
 | Anzeigen der Manageransicht von Stellvertretung | Ja | Ja | Ja | Nein | Nein |
-| Der Administrator oder Manager kann die Schleife halten oder fortsetzen. | Ja | Ja | Ja | Nein | Nein |
+| Stellvertretung oder Vorgesetzter kann halten oder fortsetzen | Ja | Ja | Ja | Nein | Nein |
 
 ## <a name="limitations"></a>Einschränkungen
 

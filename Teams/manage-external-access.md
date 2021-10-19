@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 0fac6c236fba7b8cc17af2bc4c21211a5160d06e
-ms.sourcegitcommit: 99503baa8b5183972caa8fe61e92a362213599d9
+ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/05/2021
-ms.locfileid: "60127372"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462329"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -163,6 +163,20 @@ So aktivieren Sie den Partnerverbund zwischen Benutzern in Ihrer Organisation un
 
 > [!IMPORTANT]
 > Sie müssen keine **Skype-Domänen** als zulässige Domänen hinzufügen, um es Microsoft Teams- oder Skype for Business Online-Benutzern zu ermöglichen, mit Skype-Benutzern innerhalb oder außerhalb Ihrer Organisation zu kommunizieren. Es sind alle **Skype-Domänen** zulässig.
+
+## <a name="federation-diagnostic-tool"></a>Partnerverbund-Diagnosetool
+
+Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool überprüfen, ob ein Teams mit einem verbundenen Benutzer Teams kommunizieren kann:
+
+1. Wählen Sie unten **Tests ausführen** aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
+
+   > [!div class="nextstepaction"]
+   > [Ausführen von Tests: Teams Partnerverbund](https://aka.ms/TeamsFederationDiag)
+
+2. Geben Sie im Bereich „Diagnose ausführen“ die **SIP-Adresse (Session Initiation Protocol)** und den **Domänennamen des Partnermandanten** ein, und wählen Sie dann **Tests ausführen** aus.
+
+3. Die Tests geben die besten nächsten Schritte zurück, um alle Mandanten- oder Richtlinienkonfigurationen zu adressieren, die die Kommunikation mit dem Partnerbenutzer verhindern.
+
 
 ## <a name="related-topics"></a>Verwandte Themen
 

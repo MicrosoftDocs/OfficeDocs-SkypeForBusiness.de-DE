@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 9bdf14874765a8cd67f0ea7ffcfdcb05358b061b
-ms.sourcegitcommit: 31da77589ac82c43a89a9c53f2a2de5ab52f93c0
+ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
+ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/14/2021
-ms.locfileid: "60356449"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60462389"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -435,6 +435,33 @@ Sie können DLP-Richtlinien auch über die ProgID-Eigenschaft auf Besprechungsau
 - Value = *Media.Meeting*
 
 Weitere Informationen zu DLP finden Sie im Artikel [Informationen zur Verhinderung von Datenverlust](/microsoft-365/compliance/dlp-learn-about-dlp)
+
+## <a name="meeting-recording-diagnostic-tools"></a>Diagnosetools für Besprechungsaufzeichnungen
+  ### <a name="user-cannot-record-meetings"></a>Benutzer kann keine Besprechungen aufzeichnen
+
+Als Administrator können Sie das folgende Diagnosetool verwenden, um zu überprüfen, ob der Benutzer ordnungsgemäß zum Aufzeichnen einer Besprechung in Teams konfiguriert ist:
+
+1. Wählen Sie unten **Tests ausführen** aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
+
+   > [!div class="nextstepaction"]
+   > [Ausführen von Tests: Besprechungsaufzeichnung](https://aka.ms/MeetingRecordingDiag)
+
+2. Geben Sie im Bereich „Diagnose ausführen“ im Feld **Benutzername oder E-Mail-** die E-Mail-Adresse des Benutzers ein, der keine Besprechungen aufzeichnen kann, und wählen Sie dann **Test ausführen** aus.
+
+3. Die Tests geben die besten nächsten Schritte für alle Mandanten- oder Richtlinienkonfigurationen an, um zu überprüfen, ob der Benutzer ordnungsgemäß für die Aufzeichnung einer Besprechung in Teams konfiguriert ist.
+  
+  ### <a name="meeting-record-is-missing"></a>Besprechungsdatensatz fehlt
+
+Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool überprüfen, ob die Besprechungsaufzeichnung erfolgreich abgeschlossen wurde und basierend auf der Besprechungs-ID und der Startzeit der Aufzeichnung in Stream oder OneDrive hochgeladen wurde:
+
+1. Wählen Sie unten **Tests ausführen** aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
+
+   > [!div class="nextstepaction"]
+   > [Ausführen von Tests: Fehlende Besprechungsaufzeichnung](https://aka.ms/MissingRecordingDiag)
+
+2. Geben Sie im „Diagnosebereich ausführen“ die URL der Besprechung im Feld **URL der Besprechung ein, die aufgezeichnet wurde** (normalerweise in der Besprechungseinladung enthalten) sowie das Datum der Besprechung im **Wann wurde die Besprechung aufgezeichnet? ** Bereich, und wählen Sie dann **Tests ausführen aus**.
+
+3. Die Tests überprüfen, ob die Besprechungsaufzeichnung erfolgreich abgeschlossen und in Stream oder OneDrive hochgeladen wurde.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

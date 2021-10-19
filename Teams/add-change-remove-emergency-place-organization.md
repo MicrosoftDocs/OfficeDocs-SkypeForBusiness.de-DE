@@ -18,18 +18,16 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Ort für einen Notfallstandort für Ihre Organisation im Microsoft Teams Admin Center hinzufügen, ändern oder entfernen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 0f61a16caa40a1470031ec5f680d529522d49c1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2bf3e2fad1ee0f0182e2b3a25f2be78f5ef68823
+ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629377"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "60465965"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation
 
 Je nach Anzahl physischer Standorte in Ihrer Organisation können Sie Orte für Gebäude, Stockwerke und Büros hinzufügen, um einen spezielleren Notfallstandort zu erstellen. Weitere [Informationen finden Sie unter Verwalten von](what-are-emergency-locations-addresses-and-call-routing.md) Notrufen.
-  
-Informationen zum Erhalten eines Anrufplans und deren Kosten finden Sie unter [Teams-Add-On-Lizenzierung.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell.
   
