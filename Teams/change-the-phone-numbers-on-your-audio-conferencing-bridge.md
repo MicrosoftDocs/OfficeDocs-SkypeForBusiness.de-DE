@@ -23,27 +23,27 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie die Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke, um die Abdeckung für Ihre Benutzer zu erweitern.
-ms.openlocfilehash: ba12596ea7a10a0d2b0c5fea75beb4ae96b10f07
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: f39a963759e768f4fab70d2a06e6d90b480699e0
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726934"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536716"
 ---
 # <a name="change-the-phone-numbers-on-your-audio-conferencing-bridge"></a>Ändern der Telefonnummern in Ihrer Audiokonferenzbrücke
 
-Wenn Sie **Lizenzen für Audiokonferenzen erwerben,** hostigt Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von unterschiedlichen Standorten aus, sodass Besprechungsorganisatoren und -teilnehmer über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
+Wenn Sie **Lizenzen für Audiokonferenzen erwerben,** hostigt Microsoft Ihre Audiokonferenzbrücke für Ihre Organisation. Die Audiokonferenzbrücke gibt Einwahltelefonnummern von verschiedenen Standorten aus, damit Sie von den Besprechungsorganisatoren und -teilnehmern über ein Telefon an Skype for Business- oder Microsoft Teams-Besprechungen teilnehmen können.
   
-Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](./getting-service-phone-numbers.md) zugewiesen sind, können Sie weitere Servicenummern (gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen) von anderen Standorten erhalten und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
+Zusätzlich zu den Telefonnummern, die Ihrer Konferenzbrücke bereits [](./getting-service-phone-numbers.md) zugewiesen sind, können Sie zusätzliche Servicenummern (gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen) von anderen Standorten erhalten und diese dann der Konferenzbrücke zuweisen, damit Sie die Abdeckung für Ihre Benutzer erweitern können.
   
 > [!NOTE]
-> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer* sein. Sie können den Typ Telefon der Nummer sehen, indem Sie im Microsoft Teams Admin Center zu Sprachanrufnummern navigieren und in der Spalte  >   **Zahlentyp nachschauen.** Microsoft 365 oder Office 365 Guthaben für Kommunikationen muss zuerst eingerichtet werden, damit sich Benutzer unter einer gebührenfreien Nummer in die Brücke einwählen können.
+> Um eine Rufnummer für ein Konferenzbrücke zuweisen/aufheben können, muss die Rufnummer eine *Servicenummer* sein. Sie können den Typ Telefon der Nummer sehen, indem Sie im Microsoft Teams Admin Center zu Sprachanrufnummern navigieren und in der Spalte  >   **Zahlentyp** nachschauen. Microsoft 365 oder Office 365 Guthaben für Kommunikationen muss zuerst eingerichtet werden, damit sich Benutzer unter einer gebührenfreien Nummer in die Brücke einwählen können.
 
 ## <a name="steps-when-you-are-assigning-a-new-service-phone-number-to-your-conference-bridge"></a>Schritte zum Zuweisen einer neuen Servicetelefonnummer zu Ihrer Konferenzbrücke
 
 ### <a name="step-1---assign-the-new-phone-number-to-your-audio-conferencing-bridge"></a>Schritt 1 - Zuweisen der neuen Telefonnummer zu Ihrer Audiokonferenzbrücke
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie im linken Navigationsbereich **zu**  >  **Sprachanrufnummern Telefon .**
 
@@ -57,7 +57,7 @@ Die Standardtelefonnummer Ihrer Konferenzbrücke definiert die Anrufer-ID, die v
 
 Es kann nur eine gebührenpflichtige Servicenummer als Standardnummer für Ihre Konferenzbrücke festgelegt werden. **gebührenfreie Servicenummern können nicht** als Standardnummer für Ihre Konferenzbrücke festgelegt werden. Wenn Sie eine gebührenpflichtige Servicenummer zuweisen und diese als neue Standardnummer für Ihre Audiokonferenzbrücke festlegen möchten, führen Sie die folgenden Schritte aus:
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie im linken Navigationsbereich zu **Konferenzbrücken**  >  **für Besprechungen.**
 
@@ -67,9 +67,9 @@ Es kann nur eine gebührenpflichtige Servicenummer als Standardnummer für Ihre 
  
 ### <a name="step-3---change-the-default-phone-numbers-that-are-included-in-the-meeting-invites-of-users-optional"></a>Schritt 3 – Ändern der Standardtelefonnummern, die in den Besprechungseinrufen von Benutzern enthalten sind (optional)
 
-Bei den Standardtelefonnummern eines Benutzers handelt es sich um die Nummern, die beim Planen einer Besprechung in den Besprechungseinrufen enthalten sind. Weitere Informationen, einschließlich der Zugewiesene Standardtelefonnummern für neue Benutzer, finden Sie unter Festlegen der Telefonnummern für Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder Festlegen der Telefonnummern, die in Einladungen in [Skype for Business Online enthalten](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)sind.
+Bei den Standardtelefonnummern eines Benutzers handelt es sich um die Nummern, die beim Planen einer Besprechung in den Besprechungseinrufen enthalten sind. Weitere Informationen, einschließlich der Zugewiesene Standardtelefonnummern für neue Benutzer, finden Sie unter Festlegen der Telefonnummern für Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder Festlegen der Telefonnummern, die in Einladungen in [Skype for Business Online](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)enthalten sind.
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie im linken Navigationsbereich **zu** Benutzer, und klicken Sie in der Liste auf den Anzeigenamen des gewünschten Benutzers.
 
@@ -114,9 +114,9 @@ Ersetzen Sie die gebührenpflichtige oder gebührenfreie Standardnummer für all
 Set-CsOnlineDialInConferencingUserDefaultNumber -FromNumber <Number to be removed> -ToNumber <Number to be set as new default> -NumberType <"Toll" or "Toll-Free"> -RescheduleMeetings
 ```
  > [!IMPORTANT] 
- >Sie können auch die gebührenpflichtige oder gebührenfreie Standardnummer von Benutzern im Admin Center Microsoft Teams ändern. Dadurch werden ihre Besprechungen jedoch nicht automatisch neu berechnet. 
+ >Sie können auch die gebührenpflichtige oder gebührenfreie Standardnummer von Benutzern im admin center Microsoft Teams ändern. Dadurch werden ihre Besprechungen jedoch nicht automatisch neu berechnet. 
  
- Weitere Informationen finden Sie unter Festlegen der Telefonnummern für Einladungen [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online [enthalten sind.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
+ Weitere Informationen finden Sie unter Festlegen der In Einladungen enthaltenen Telefonnummern [in Microsoft Teams](set-the-phone-numbers-included-on-invites-in-teams.md) oder Festlegen der Telefonnummern, die in Einladungen in Skype for Business Online [enthalten sind.](/SkypeForBusiness/audio-conferencing-in-office-365/set-the-phone-numbers-included-on-invites)
 
   > [!NOTE]
   > Je nach Größe Ihrer Organisation kann es eine Weile dauern, bis dieser Vorgang abgeschlossen ist.
@@ -196,20 +196,20 @@ Get-CsOnlineDialInConferencingBridge -Name "Conference Bridge"
 
 Das Ergebnis sollte, abgesehen von anderen Informationen wie Identity, Name und Region, auch die DefaultServiceNumber enthalten.
 
-**Beispiel**: Zum Unzuweisen wird die DefaultServiceNumber-8005551234"
+**Beispiel:** Zum Unzuweisen wird die DefaultServiceNumber-8005551234
 ```PowerShell
 Unregister-CsOnlineDialInConferencingServiceNumber -BridgeName "Conference Bridge" -RemoveDefaultServiceNumber 8005551234 
 ```
 
 ## <a name="about-windows-powershell"></a>Informationen zu Windows PowerShell
 
-Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Ihnen helfen, Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt zu verwalten, der Ihre tägliche Arbeit vereinfachen kann, insbesondere, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+Mit Windows PowerShell können Sie Benutzer und deren Berechtigungen verwalten. Windows PowerShell können Ihnen dabei helfen, Microsoft 365 oder Office 365 und Skype for Business Online über einen einzigen Administrationspunkt zu verwalten, der Ihre tägliche Arbeit vereinfachen kann, insbesondere, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
   - [Einführung in Windows PowerShell und Skype for Business Online](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 
   - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-Windows PowerShell hat gegenüber der ausschließlichen Verwendung der Microsoft 365 Admin Center gegenüber Geschwindigkeit, Einfachheit und Produktivität viele Vorteile, z. B. wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
+Windows PowerShell hat gegenüber der ausschließlichen Verwendung des Microsoft 365 Admin Center beispielsweise, wenn Sie Einstellungsänderungen für viele Benutzer gleichzeitig vornehmen, viele Vorteile in der Geschwindigkeit, Einfachheit und Produktivität. Informationen zu diesen Vorteilen finden Sie unter den folgenden Themen:
 
   - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 

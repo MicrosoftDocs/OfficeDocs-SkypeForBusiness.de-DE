@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie den Ort für einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 1edc7bd6f5a1ea1b7a09f6747c1ee61f7dd74758
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 8cb8d51f35799ddb8610e7b3b36b43bf7f1fb890
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465975"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537206"
 ---
 # <a name="assign-or-change-the-place-for-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern des Orts für einen Notfallstandort für einen Benutzer
 
-Jeder aktiven Telefonnummer muss ein Notfallstandort zugeordnet sein, wenn Sie die Telefonnummer einem Benutzer zuweisen. **Sie ordnen die Adresse zu, wenn Sie in Microsoft 365 eine Telefonnummer erhalten, eine Telefonnummer an Microsoft 365 übertragen oder wenn Sie eine Telefonnummer von Ihrem Anbieter erhalten.**
+Jeder aktiven Telefonnummer muss ein Notfallstandort zugeordnet sein, wenn Sie die Telefonnummer einem Benutzer zuweisen. Sie ordnen die Adresse zu, wenn Sie in Microsoft 365 eine Telefonnummer erhalten, eine Telefonnummer an Microsoft 365 übertragen oder wenn Sie eine Telefonnummer von Ihrem Anbieter erhalten.
 
-Wenn Sie die Nummer einem Notfallstandort zuordnen, können Sie auch einen Ort hinzufügen, um einen exakteren Standort innerhalb eines physischen Standorts einzuordnen. Ein Ort kann der Stockwerk, Gebäudeflügel oder die Büronummer sein, in der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten für einen bestimmten Notfallstandort haben und den Ort ändern, wenn der Benutzer in ein anderes Büro oder Gebäude wechselt. Wenn der Benutzer z. B. von der Etage 34 in die Etage 35 wechselt.
+Wenn Sie die Nummer einem Notfallstandort zuordnen, können Sie auch einen Ort hinzufügen, um einen exakteren Standort innerhalb eines physischen Standorts einzuordnen. Ein Ort kann der Stockwerk, Gebäudeflügel oder die Büronummer sein, in der sich der Benutzer befindet. Sie können eine unbegrenzte Anzahl von Orten für einen bestimmten Notfallstandort haben und den Ort ändern, wenn der Benutzer zu einem anderen Büro oder Gebäude wechselt. Wenn der Benutzer z. B. von der Etage 34 in die Etage 35 wechselt.
   
 Sie können den Ort für einen Notfallstandort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 
@@ -37,7 +37,7 @@ Sie können den Ort für einen Notfallstandort für einen Benutzer im Microsoft 
 
 1. Klicken Sie in der linken Navigationsleiste Microsoft Teams Admin Center **auf**  >  **Sprachanrufnummern Telefon .**
 
-2. Klicken Sie Telefon Der Telefonnummern-Seite auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.  
+2. Klicken Sie **Telefon Der** Telefonnummern-Seite auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**. 
 
 3. Gehen Sie **im** Bereich Bearbeiten **unter Notfallstandort** wie folgt vor:
 

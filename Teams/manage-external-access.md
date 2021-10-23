@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 207c46d37503989dddd8039ccdd0c4cd71d6b276
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462329"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536516"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -67,7 +67,7 @@ Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass I
 
 ## <a name="allow-or-block-domains"></a>Zulassen oder Blockieren von Domänen
 
-![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+  **Verwenden des Microsoft Teams Admin Centers**
 
 Vorgehensweise, um bestimmte Domänen zuzulassen
 
@@ -103,7 +103,7 @@ Stellen Sie sicher, dass der Administrator in der anderen Microsoft Teams-Organi
 
 Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern chatten und diese anrufen können. Teams-Benutzer können dann nach schriftlichen Einzelunterhaltungen oder Audio/Video-Anrufen mit Skype-Benutzern suchen und diese starten.
 
-![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+  **Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie im linken Navigationsbereich zu **Benutzer** > **Externer Zugriff**.
 

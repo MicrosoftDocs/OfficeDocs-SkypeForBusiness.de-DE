@@ -19,16 +19,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: 2064ca1fdd816f1948af1f0efcda3021a1c7d2cb
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462339"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537086"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
-Mit dem Gastzugriff können Sie Personen außerhalb Ihrer Organisation Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die Kontrolle über Ihre Unternehmensdaten behalten. Weitere Informationen finden Sie unter [Sichere Zusammenarbeit mit Microsoft 365 und Microsoft Teams einrichten](/microsoft-365/solutions/setup-secure-collaboration-with-teams).
+Mit Gastzugriff können Sie Personen, die nicht Ihrer Organisation angehören, Zugriff auf Teams, Dokumente in Kanälen, Ressourcen, Chats und Anwendungen gewähren und gleichzeitig die vollständige Kontrolle über Ihre eigenen Unternehmensdaten behalten. Weitere Informationen finden Sie unter [Sichere Zusammenarbeit mit Microsoft 365 und Microsoft Teams einrichten](/microsoft-365/solutions/setup-secure-collaboration-with-teams). Der Gastzugriff ist eine organisationsweite Einstellung in Microsoft Teams, die standardmäßig aktiviert ist. Sie können den Gastzugriff auf einzelne Teams mithilfe von [Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) steuern.
 
 > [!NOTE]
 > Wenn Sie nur Personen in anderen Organisationen suchen, anrufen, mit ihnen chatten und Besprechungen mit ihnen einrichten möchten, verwenden Sie den [externen Zugriff](manage-external-access.md).
@@ -52,8 +52,6 @@ Der Gastzugriff in Microsoft Teams erfordert das Konfigurieren anderer Einstellu
 
 - Informationen zum Konfigurieren des Gastzugriffs für Microsoft Teams für die allgemeine Nutzung finden Sie unter [Zusammenarbeit mit Gästen in einem Team](/microsoft-365/solutions/collaborate-as-team).
 - Wenn Sie mit einer Partnerorganisation zusammenarbeiten möchten, die Azure Active Directory verwendet, und es Gästen gestatten möchten, sich selbst für den Zugang zu Teams zu registrieren, lesen Sie [Erstellen eines B2B-Extranets mit verwalteten Gästen](/microsoft-365/solutions/b2b-extranet).
-
-Der Gastzugriff ist eine organisationsweite Einstellung in Microsoft Teams, die standardmäßig aktiviert ist. Sie können den Gastzugriff auf einzelne Teams mithilfe von [Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) steuern.
 
 > [!NOTE]
 > Wenn Sie Administrator sind und Probleme mit dem Gastzugriff in Microsoft Teams haben, wählen Sie unten **Tests ausführen** aus. Dadurch wird die Diagnose für den Gastzugriff im Microsoft 365 Admin Center angezeigt. Diese Tests überprüfen Ihre Konfiguration und empfehlen schnell die nächsten Schritte, um den Gastzugriff für Ihren Mandanten zu aktivieren.

@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3ee0e8e7da6410b26f9c4fc256a12c563f15e9bed1562823792bda73c1c29d70
-ms.sourcegitcommit: a17ad3332ca5d2997f85db7835500d8190c34b2f
+ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "54282668"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536756"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Survivable Branch Appliance (SBA) für Direct Routing
 
@@ -46,6 +46,11 @@ Wenden Sie sich an Ihren SBC-Anbieter, um die neueste SBC-Firmware mit eingebett
 - Der SBC muss für die Medienumgehung konfiguriert werden, damit der Microsoft Teams-Client am Branch-Standort Medien direkt über den SBC übertragen kann. 
 
 - Auf dem Betriebssystem des virtuellen SBA-Computers muss TLS1.2 aktiviert sein.
+- Die Ports 3443, 4444 und 8443 werden von Microsoft SBA Server für die Kommunikation mit dem Teams-Client verwendet und sollten in der Firewall zulässig sein. 
+- Port 5061 (oder der auf dem SBC konfigurierte Port) wird von Microsoft SBA Server für die Kommunikation mit dem SBC verwendet und sollte in der Firewall zulässig sein. 
+- UDP-Port 123 wird von Microsoft SBA Server für die Kommunikation mit dem NTP-Server verwendet und sollte in der Firewall zulässig sein.
+- Port 443 wird von Microsoft SBA Server für die Kommunikation mit anderen Microsoft 365 für die Firewall zugelassen.
+- Azure-IP-Bereiche und -Diensttags für die öffentliche Cloud sollten gemäß den unter den folgenden Richtlinien beschriebenen Richtlinien definiert werden: https://www.microsoft.com/download/details.aspx?id=56519
 
 ## <a name="supported-teams-clients"></a>Unterstützte Microsoft Teams-Clients
 

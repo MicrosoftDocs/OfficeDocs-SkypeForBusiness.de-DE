@@ -359,8 +359,6 @@ items:
             items:
               - name: Informationen zum Gastzugriff
                 href: guest-access.md
-              - name: Checkliste für den Gastzugriff
-                href: /microsoft-365/solutions/collaborate-as-team
               - name: Gast-Erfahrung
                 href: guest-experience.md
               - name: Aktivieren oder Deaktivieren des Gastzugriffs

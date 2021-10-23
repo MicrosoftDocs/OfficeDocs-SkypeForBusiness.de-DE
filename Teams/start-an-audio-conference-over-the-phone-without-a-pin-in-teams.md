@@ -1,5 +1,5 @@
 ---
-title: Starten Sie Audiokonferenz per Telefon ohne PIN in Teams
+title: Starten Sie die Audiokonferenz per Telefon ohne PIN in Teams
 ms.author: tonysmit
 author: tonysmit
 manager: serdars
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Erfahren Sie, wie Sie die Teilnahme anonymer Anrufer an einer Besprechung über das Admin Center aktivieren Teams deaktivieren. '
-ms.openlocfilehash: 5a2abd84514e46a19f3f698650d3acf1ec931410
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: 'Erfahren Sie, wie Sie die Teilnahme anonymer Anrufer an einer Besprechung über Teams Admin Center aktivieren oder deaktivieren. '
+ms.openlocfilehash: da31c734275113eab3e96b67230a578d0609c1bb
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732744"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537306"
 ---
 # <a name="start-an-audio-conference-over-the-phone-without-a-pin-in-microsoft-teams"></a>Starten einer Audiokonferenz per Telefon ohne PIN in Microsoft Teams
 
@@ -42,7 +42,7 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
   
 ## <a name="enable-or-disable-anonymous-callers-from-joining-a-meeting"></a>Aktivieren oder Deaktivieren anonymer Anrufer für die Teilnahme an einer Besprechung
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie im linken Navigationsbereich auf **Benutzer**. 
 
@@ -50,7 +50,7 @@ Der Besprechungsorganisator benötigt keine PIN, wenn jemand die Besprechung üb
 
 3. Klicken Sie **neben Audiokonferenz** auf **Bearbeiten**.
 
-4. Im **Bereich Audiokonferenz können** Einwahlanrufer als erste Person in einer Besprechung **aktiviert oder deaktiviert werden.**
+4. Im **Bereich Audiokonferenz können** Einwahlanrufer als erste Person an einer Besprechung **aktiviert oder deaktiviert werden.**
     
 4. Klicken Sie auf **Anwenden**. 
 
@@ -72,7 +72,7 @@ Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powersh
     
   - Wenn die Besprechung noch nicht begonnen hat (es gibt noch niemand in der Besprechung): Ein Anrufer wird nicht aufgefordert, wenn er der Organisator ist, und er wird auch nicht zur Eingabe der PIN aufgefordert. Da die Einstellung für den Organisator deaktiviert ist, beginnt die Besprechung und die anonymen Anrufer nehmen an der Besprechung teil.
     
-  - Wenn die Besprechung bereits begonnen hat (eine andere Person hat bereits an der Besprechung teil): Ein Anrufer wird nicht aufgefordert, wenn er der Organisator ist, und er wird auch nicht zur Eingabe der PIN aufgefordert; die Besprechung ist bereits begonnen, und der Anrufer wird an der Besprechung teilnehmen.
+  - Wenn die Besprechung bereits begonnen hat (eine andere Person befindet sich bereits in der Besprechung): Ein Anrufer wird nicht aufgefordert, wenn er der Organisator ist, und er wird auch nicht zur Eingabe der PIN aufgefordert. Die Besprechung ist bereits gestartet, und der Anrufer wird ihr beitreten.
     
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 

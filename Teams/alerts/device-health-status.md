@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams Geräteüberwachung und -benachrichtigung
-author: cichur
-ms.author: v-cichur
+author: cazawideh
+ms.author: czawideh
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,16 +12,16 @@ f1.keywords:
 - NOCSH
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie, wie Sie Teams Überwachungs- und Benachrichtigungsfunktionen im Microsoft Teams Admin Center verwenden, um den Integritätszustand ihrer Teams proaktiv zu überwachen.
+description: Erfahren Sie, wie Sie die Teams-Überwachungs- und Benachrichtigungsfunktionen im Microsoft Teams Admin Center verwenden, um den Integritätszustand Ihrer Teams proaktiv zu überwachen.
 appliesto:
 - Microsoft Teams
 ms.custom: ''
-ms.openlocfilehash: b44b564da4e772fb3e385b03d61be6874baf11c5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ac8ace461e2fb2f5ca8c163a5972fa575baec21d
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735352"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536916"
 ---
 # <a name="microsoft-teams-device-health-monitoring"></a>Microsoft Teams der Geräteinte health-Überwachung
 
@@ -31,7 +31,7 @@ Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Ka
 
 ## <a name="configure-device-state-rule"></a>Konfigurieren der Gerätestatusregel
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center die Option Benachrichtigungen **& Regeln für Benachrichtigungen**  >  **aus.**
+1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams Admin Center die Option Benachrichtigungen **& Regeln** für  >  **Benachrichtigungen aus.**
 
    ![Abschnitt "Regeln" im Admin Center.](../media/select-rules.png)
 
@@ -47,7 +47,7 @@ Bevor Sie beginnen, benötigen Sie die Berechtigungen zum Erstellen von Teams/Ka
 |Feld |Beschreibung  |
 |--------|-------------|
 |**Regeltyp**   |Die Gerätestatusregel hilft Ihnen bei der effektiven Verwaltung. Teams geräte und als Geräteverwaltungstyp klassifiziert. In Zukunft werden weitere Regeln für den Geräteverwaltungstyp zur Überwachung anderer zugehöriger Funktionen verfügbar sein (Beispiele hierfür sind fehlerhafte Geräte und der Anmeldestatus des Geräts).|
-|**Bedingung**   |Sie können die Integrität von Geräten überwachen, wenn sie offline sind. [Weitere Informationen](../devices/device-management.md) zur Geräteverwaltung finden Sie im Teams Admin Center. |
+|**Bedingung**   |Sie können die Integrität von Geräten überwachen, wenn sie offline sind. [Weitere Informationen](../devices/device-management.md) zur Geräteverwaltung finden Sie Teams Admin Center. |
 |**Umfang**   |Sie können angeben, wie häufig der Gerätestatus überwacht werden soll, indem Sie die Häufigkeit der Regelauswertung erwähnen. Teams-Geräte werden standardmäßig in Echtzeit überwacht, wenn sie offline sind. |
 |**Gerätebenutzer**   |Sie können angeben, welche Geräte eine proaktive Offlineüberwachung benötigen, indem Sie diese basierend auf angemeldeten Benutzern auswählen. Weitere Details [finden Sie unter Auswählen von](#select-devices-for-configuration) Geräten für die Konfiguration. |
 |**Aktionen**  >  **Kanalwarnung**   |Im Abschnitt Aktionen können Sie Teams-Kanäle angeben, für die Sie Benachrichtigungen erhalten möchten. Derzeit wird ein Standardteam mit dem Namen **Administratorbenachrichtigungen** sowie Benachrichtigungen und Kanal mit dem Namen **MonitoringAlerts** erstellt, an das Benachrichtigungen übermittelt werden. <BR/> <BR/> Globale Administratoren und Teams in Ihrem Mandanten werden diesem Standardteam automatisch hinzugefügt.|
@@ -72,7 +72,7 @@ Alle von der ausgewählten Benutzerliste verwendeten Anmeldegeräte werden auf d
 
 ## <a name="notifications-in-teams-client"></a>Benachrichtigungen im Teams-Client
 
-Die Benachrichtigungen werden im automatisch erstellten **MonitoringAlerts-Kanal** des **Admin Alerts and Notifications Teams** übermittelt.
+Die Benachrichtigungen werden im automatisch erstellten **MonitoringAlerts-Kanal** des **Admin Alerts and Notifications Teams** übermittelt. Sie erhalten innerhalb von 15 Minuten nach dem Offlinebetrieb des Geräts eine Benachrichtigung. 
 
 Eine Geräte-Offlinebenachrichtigung kann die folgenden Informationen enthalten:
 

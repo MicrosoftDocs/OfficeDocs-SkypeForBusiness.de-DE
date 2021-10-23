@@ -20,21 +20,21 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Erfahren Sie, wie Sie einem Benutzer in einer Konferenz eine Konferenz-ID Microsoft Teams und welche Parameter die Konferenz-IDs haben sollten.
-ms.openlocfilehash: 62cbb281af4db60db15676b109b2573c03eb7552
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Erfahren Sie, wie Sie einem Benutzer in einer Konferenz eine Konferenz-ID Microsoft Teams und wie die Parameter für Konferenzkennungen sein sollten.
+ms.openlocfilehash: 74e43f6dcb5599039007f784ad7ebdd5a053251e
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733254"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536866"
 ---
-# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in einer Konferenz zugewiesen Microsoft Teams
+# <a name="view-and-reset-a-conference-id-assigned-to-a-user-in-microsoft-teams"></a>Anzeigen und Zurücksetzen einer Konferenz-ID, die einem Benutzer in einem Microsoft Teams
 
-Wenn ein Microsoft Teams-Benutzer für Audiokonferenzen in Microsoft 365 oder Office 365 eingerichtet wird und Microsoft als Audiokonferenzanbieter verwendet wird, wird ihm automatisch eine Konferenz-ID zugewiesen. Die zugewiesene Konferenz-ID wird in der Besprechungs-Einladung gesendet, wenn die Besprechung geplant ist. Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen. 
+Eine Konferenz-ID wird einem Microsoft Teams-Benutzer automatisch zugewiesen, wenn er für Audiokonferenzen in Microsoft 365 oder Office 365 eingerichtet ist und Microsoft als Audiokonferenzanbieter verwendet. Die zugewiesene Konferenz-ID wird in der Besprechungs-Einladung gesendet, wenn die Besprechung geplant ist. Jedem Meeting, das ein Benutzer plant wird eine eindeutige Konferenz-ID zugewiesen. 
   
-Konferenzkennungen werden zwar automatisch erstellt und Benutzern zugewiesen, es kann aber auch sein, dass Benutzer diese Nummer nicht verwenden möchten und Sie sie auf eine bestimmte Nummer festlegen möchten oder die Benutzer sich nicht mehr erinnern oder ihre Konferenz-ID vergessen haben. Sie können Microsoft Teams Admin Center oder Windows PowerShell, um ihre Konferenz-ID anzeigen, ändern und zurücksetzen.
+Konferenzkennungen werden zwar automatisch erstellt und Benutzern zugewiesen, aber es kann auch sein, dass Benutzer diese Nummer nicht verwenden möchten und Sie sie auf eine bestimmte Nummer festlegen möchten oder die Benutzer sich nicht mehr erinnern oder ihre Konferenz-ID vergessen haben. Sie können Microsoft Teams Admin Center oder Windows PowerShell zum Anzeigen, Ändern und Zurücksetzen ihrer Konferenz-ID verwenden.
   
-Eine E-Mail wird mit der Konferenz-ID und den Standard-Audiokonferenz-Telefonnummern an den Benutzer gesendet. Wenn Sie die Konferenz-ID zurücksetzen, wird eine andere E-Mail gesendet, die die Konferenz-ID, jedoch keine PIN enthält. Weitere [Informationen zum Zurücksetzen der PIN eines](reset-a-conference-id-for-a-user-in-teams.md) Konferenzorganisators finden Sie Microsoft Teams Zurücksetzen einer Konferenz-ID für einen Benutzer in einer Besprechung. 
+Eine E-Mail wird mit der Konferenz-ID und den Standard-Audiokonferenz-Telefonnummern an den Benutzer gesendet. Wenn Sie die Konferenz-ID zurücksetzen, wird eine andere E-Mail gesendet, die die Konferenz-ID, jedoch keine PIN enthält. Weitere [Informationen zum Zurücksetzen der PIN eines](reset-a-conference-id-for-a-user-in-teams.md) Konferenzorganisators finden Sie unter Zurücksetzen einer Konferenz-ID für einen Benutzer in Microsoft Teams. 
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -43,7 +43,7 @@ Eine E-Mail wird mit der Konferenz-ID und den Standard-Audiokonferenz-Telefonnum
 
 ### <a name="to-view-the-conference-id"></a>So zeigen Sie die Konferenz-ID an
 
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
@@ -63,7 +63,7 @@ Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powersh
 
 Sie können eine Konferenz-ID für einen Benutzer zurücksetzen, wenn er diese beispielsweise vergessen hat.
   
-![Ein Symbol mit dem Microsoft Teams Logo.](media/teams-logo-30x30.png) **Verwenden des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 

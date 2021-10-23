@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Erfahren Sie die Schritte zum Zurücksetzen der Konferenz-ID eines Benutzers in Microsoft Teams sowie Links zu Tools für Besprechungsaktualisierungen und -migration.
-ms.openlocfilehash: 9faff7e86480d85c08e4aba4efdce218ee74a9b0
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 3a308be01f84509ea93793d7c2b1bdfd6e084268
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045511"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536486"
 ---
 # <a name="reset-a-conference-id-for-a-user-in-microsoft-teams"></a>Zurücksetzen einer Konferenzkennung für einen Benutzer in Microsoft Teams
 
@@ -37,9 +37,9 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 
 ## <a name="resetting-the-conference-id-for-a-user"></a>Zurücksetzen der Konferenz-ID für einen Benutzer
 
-![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
-1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie **auf Bearbeiten**.
 
@@ -57,7 +57,7 @@ Am Ende der Besprechungseinladungen finden Sie eine dynamische Konferenz-ID sowi
 
 - Sie können dem Benutzer alle Konferenzinformationen per E-Mail senden, die konferenz-ID und Einwahltelefonnummern enthält, indem Sie im Abschnitt **Audiokonferenzen** auf Konferenzinformationen **per** E-Mail senden klicken. Die PIN wird nicht gesendet.
     
-- Der Konferenzdienst erstellt eine 7- bis 9-stellige Konferenz-ID Teams Konferenzkennung. Sie können die Länge nicht ändern.
+- Der Konferenzdienst erstellt eine 7- bis 9-stellige Konferenz-ID Teams Konferenz-ID. Sie können die Länge nicht ändern.
     
 - Nach dem Zurücksetzen wird die neue Konferenz-ID unter **Konferenz-ID** aufgeführt.
     
