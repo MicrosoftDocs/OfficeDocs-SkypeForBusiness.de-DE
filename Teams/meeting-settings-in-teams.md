@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 25d66dfc6487d411185e421a7bdef07c1e135156
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730644"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60537096"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -37,7 +37,7 @@ Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, 
 
 Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beitreten, indem er auf den Link in der Besprechungseinladung klickt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
 
-![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
@@ -59,7 +59,7 @@ Anonyme Benutzer erben jetzt die globale Standardberechtigungsrichtlinie auf Ben
 > [!IMPORTANT]
 > Standardmäßig ist die Einstellung, anonymen Benutzern die Interaktion mit Apps in Besprechungen zu erlauben, aktiviert.
 
-![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um auf diese Einstellung zugreifen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
@@ -86,7 +86,7 @@ Sie können Einladungen zu Teams-Besprechung personalisieren, um die Anforderung
 
 ### <a name="customize-your-meeting-invitations"></a>Anpassen Ihrer Besprechungseinladungen
 
-![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+ **Verwenden des Microsoft Teams Admin Centers**
 
 1. Wechseln Sie zum Admin Center.
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
@@ -111,7 +111,7 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
 > [!IMPORTANT]
 > Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Teams-Dienst ändern, müssen Sie außerdem [übereinstimmende Einstellungen auf alle Benutzergeräte anwenden](QoS-in-Teams-clients.md) und auf alle internen Netzwerkgeräte, um die Änderungen an QoS in Teams vollständig zu implementieren.
 
- ![Ein Symbol mit dem Microsoft Teams-Logo.](media/teams-logo-30x30.png) **Unter Verwendung des Microsoft Teams Admin Centers**
+  **Verwenden des Microsoft Teams Admin Centers**
 1. Wechseln Sie zum Admin Center.
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
 3. Gehen Sie unter **Netzwerk** wie folgt vor:
@@ -121,9 +121,9 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
     - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
         > [!NOTE]
         > Das DSCP-Markieren erfolgt normalerweise über Quellports, und der UDP-Verkehr wird standardmäßig an das Transportrelais mit dem Zielport 3478 weitergeleitet. Wenn Ihr Unternehmen das Markieren auf Zielports verlangt, kontaktieren Sie bitte den Support, um die Kommunikation zum Transportrelais mit den UDP-Ports 3479 (Audio), 3480 (Video), und 3481 (Teilen) zu aktivieren.
-    - Um Portbereiche festzulegen, wählen Sie neben **Portbereich für jeden Typ von Mediendatenverkehr in Echtzeit auswählen** die Option **Portbereiche festlegen** aus, und geben Sie dann die Start- und Endports für Audio, Video und Bildschirmfreigabe ein. Die Auswahl dieser Option ist erforderlich, um QoS zu implementieren. 
+    - Um Portbereiche festzulegen, wählen Sie neben **Portbereich für jeden Typ von Echtzeit-Mediendatenverkehr auswählen** die Option **Portbereiche festlegen** aus, und geben Sie dann die Start- und Endports für Audio, Video und Bildschirmfreigabe ein. Die Auswahl dieser Option ist Voraussetzung für das Implementieren von QoS. 
         > [!Note]
-        > Wenn **QoS-Markierungen (Quality of Service) für den Echtzeit-Medienverkehr** aktiviert sind, müssen Sie Ihre Porteinstellungen verwalten. Diese werden nicht automatisch angepasst.
+        > Wenn **QoS-Markierungen (Quality of Service) für den Echtzeit-Medienverkehr** aktiviert sind, dann müssen Sie Ihre Porteinstellungen verwalten. Diese werden nicht automatisch verwaltet.
         
         > [!IMPORTANT]
         > Wenn Sie **Automatisch beliebige verfügbare Ports verwenden** auswählen, werden verfügbare Ports zwischen 1024 und 65535 verwendet. Verwenden Sie diese Option nur, wenn Sie QoS nicht implementieren.
@@ -143,4 +143,4 @@ Typ des Mediendatenverkehrs| Client-Quellportbereich \* |Protokoll|DSCP-Wert|DSC
 
 \* Die von Ihnen zugewiesenen Portbereiche dürfen sich nicht überlappen und sollten nebeneinander liegen.
 
-Nachdem QoS eine Weile im Einsatz war, erhalten Sie Nutzungsinformationen über den Bedarf für jede dieser drei Arbeitsauslastungen, und Sie können auswählen, welche Änderungen Sie auf der Grundlage Ihrer spezifischen Anforderungen vornehmen möchten. Das [Anrufqualitäts-Dashboard](turning-on-and-using-call-quality-dashboard.md) wird dabei hilfreich sein.
+Nachdem QoS eine Weile im Einsatz war, erhalten Sie Nutzungsinformationen über die Nachfrage für jeden dieser drei Workloads, und Sie können auswählen, welche Änderungen Sie auf der Grundlage Ihrer spezifischen Anforderungen vornehmen möchten. Das [Anrufqualitäts-Dashboard](turning-on-and-using-call-quality-dashboard.md) wird Ihnen dabei helfen.

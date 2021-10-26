@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d84d42849667c1cd87a90f9cd8b3480b5ed8bbd
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462389"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536896"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -261,9 +261,9 @@ Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher
 >
 > Das in diesem Artikel beschriebene Feature für das automatische Ablaufen wurde noch nicht veröffentlicht. Nähere Informationen zum Veröffentlichungstermin finden Sie in der [Roadmap (Feature-ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580).
 > 
-> Hier finden Sie Informationen zur Funktionsweise dieses Features in der ZUKUNFT, damit Sie sich auf diese Änderung vorbereiten und die Microsoft Teams-Richtlinieneinstellungen im Voraus entsprechend ändern können.
+> Wir bieten Ihnen Informationen dazu, wie dieses Feature in Zukunft funktionieren wird, damit Sie sich auf diese Änderung vorbereiten und die Microsoft Teams-Richtlinieneinstellungen im Voraus entsprechend ändern können.
 >
-> Der BEFEHL zum präventiven Ändern der Standardablaufeinstellung in Microsoft Teams kann noch nicht festgelegt werden.  Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist.
+> Der Befehl zum präventiven Ändern der Standardablaufeinstellung in Teams befindet sich zurzeit in der Bereitstellung, aber möglicherweise wird das Attribut in PowerShell bereits angezeigt. Die Einstellung ist in den Teams Admin Centern zurzeit nicht verfügbar. Diese Einstellungen werden mindestens 30 Tage, bevor wir das Feature starten, verfügbar sein und in einem Beitrag im Nachrichtencenter mitgeteilt.
 >
 >
 
@@ -309,14 +309,20 @@ Ja, das Ablaufdatum wird pro Datei festgelegt. Benutzer können das Ablaufdatum 
 
 **Wie kann ein Administrator das Ablaufdatum ändern?**
   
-Administratoren können die standardmäßige Ablaufeinstellung in PowerShell oder Teams Admin Center ändern, bevor das Feature freigegeben wird. **Die Einstellung ist noch nicht zur Änderung verfügbar**. Wir veröffentlichen einen aktualisierten Beitrag im Nachrichtencenter, sobald die Einstellung zur Änderung verfügbar ist. Wenn das Feature veröffentlicht wird, können Administratoren diese Einstellung im Teams Admin Center ändern. Das Ändern der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind nicht betroffen. 
+Administratoren können die Standardeinstellung für den Ablauf in PowerShell oder im Teams Admin Center ändern, bevor das Feature veröffentlicht wird. Eine Änderung der Ablaufeinstellungen wirkt sich ab diesem Zeitpunkt nur auf neu erstellte Microsoft Teams-Besprechungsaufzeichnungen aus. Vor diesem Datum erstellte Aufzeichnungen sind davon nicht betroffen. Neue Aufzeichnungen laufen erst dann automatisch ab, wenn das Feature veröffentlicht wurde, obwohl Sie das Richtlinienattribut vor seiner Veröffentlichung festlegen können.
 
-Die Werte für die ablaufenden Tage können wie folgt festgelegt werden:
+Der Wert für die ablaufenden Tage kann folgendermaßen festgelegt werden:
   
 - Der Wert kann zwischen 1 und 9.999 sein.
 - Der Wert kann auch -1 sein, damit TMR nie abläuft. 
  
 Administratoren können das Ablaufdatum für bestehende Microsoft Teams-Besprechungsaufzeichnungen, die bereits vor der Veröffentlichung dieses Features auf OneDrive oder SharePoint hochgeladen wurden, nicht ändern. Dadurch wird der Absicht des Benutzers Rechnung getragen, der Besitzer der betreffenden Microsoft Teams-Besprechungsaufzeichnung ist.
+  
+Wenn Sie das standardmäßige automatische Ablaufverhalten bei Ihrem Mandanten ändern möchten, ändern Sie in PowerShell das folgende Attribut. In diesem Beispiel wird die Standardeinstellung auf 50 Tage geändert.
+ 
+Set-CsTeamsMeetingPolicy -Identity Global -**New** MeetingRecordingExpirationDays 50
+
+Die Möglichkeit zum Ändern der Standardeinstellung im Microsoft Teams Admin Center wird zu einem späteren Zeitpunkt bereitgestellt – mindestens 30 Tage, bevor wir das Feature für den automatischen Ablauf standardmäßig aktivieren.
   
 **Kann ein Administrator festlegen, dass TMR nie abläuft?**
   
@@ -459,7 +465,7 @@ Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool übe
    > [!div class="nextstepaction"]
    > [Ausführen von Tests: Fehlende Besprechungsaufzeichnung](https://aka.ms/MissingRecordingDiag)
 
-2. Geben Sie im „Diagnosebereich ausführen“ die URL der Besprechung im Feld **URL der Besprechung ein, die aufgezeichnet wurde** (normalerweise in der Besprechungseinladung enthalten) sowie das Datum der Besprechung im **Wann wurde die Besprechung aufgezeichnet? ** Bereich, und wählen Sie dann **Tests ausführen aus**.
+2. Geben Sie im Bereich „Diagnose ausführen“ die URL der Besprechung im Feld **URL der Besprechung, die aufgezeichnet wurde** (ist normalerweise in der Besprechungseinladung enthalten) sowie das Datum der Besprechung im Feld „**Wann wurde die Besprechung aufgezeichnet?**“ ein. Wählen Sie dann **Test ausführen** aus.
 
 3. Die Tests überprüfen, ob die Besprechungsaufzeichnung erfolgreich abgeschlossen und in Stream oder OneDrive hochgeladen wurde.
 

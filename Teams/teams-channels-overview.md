@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6002534362126c2cc16954c7e82c865166776c0b
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 34c255dab5f2f231735abeba9a03ed091d10c205
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731944"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536566"
 ---
 # <a name="overview-of-teams-and-channels-in-microsoft-teams"></a>Übersicht über Teams und Kanäle in Microsoft Teams
 
@@ -73,11 +73,11 @@ Wenn die Moderation eingerichtet ist, können Teambesitzer und Teammitglieder au
 
 **Teameinstellungen** 
 
-Teambesitzer können teamweite Einstellungen direkt in Teams verwalten. Es gibt unter anderem Einstellungen für die folgenden Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Standard- und [Privat-Kanälen](private-channels.md) für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und GIF-Dateien, Aufkleber und Memes verwenden.
+Teambesitzer können teamweite Einstellungen direkt in Teams verwalten. Einstellungen umfassen folgende Möglichkeiten: ein Teambild hinzufügen, Berechtigungen zum Erstellen von Standard- und [privaten Kanälen](private-channels.md) für Teammitglieder festlegen, Registerkarten und Connectors hinzufügen, das gesamte Team oder einen Kanal @erwähnen und die Verwendung von GIF-Dateien, Aufklebern und Memes.
 
 Wenn Sie in Microsoft 365 als Teams-Administrator festgelegt wurden, haben Sie im Teams Admin Center Zugriff auf systemweite Einstellungen. Diese Einstellungen können sich auf die Optionen und Standardeinstellungen auswirken, die Teambesitzer unter „Teameinstellungen“ sehen. Sie können zum Beispiel einen Standardkanal („Allgemein“) für teamweite Ankündigungen, Diskussionen und Ressourcen aktivieren, der für alle Teams angezeigt wird.
 
-Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team zu erstellen. Informationen zum Ändern finden Sie unter [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md).
+Standardmäßig verfügen alle Benutzer über die Berechtigung, ein Team zu erstellen. Um dies zu ändern, lesen Sie [Zuweisen von Rollen und Berechtigungen in Teams](assign-roles-permissions.md).
 
 Eine wichtige frühe Planungsaktivität, mit der Benutzer in Teams eingebunden werden sollen, besteht darin, ihnen zu vermitteln, wie sie mit Teams im Arbeitsalltag besser zusammenarbeiten können. Sprechen Sie mit den Benutzern, und helfen Sie ihnen, Geschäftsszenarien auszuwählen, in denen sie zurzeit bruchstückweise zusammenarbeiten. Bringen Sie alle in einem Kanal zusammen, der relevante Registerkarten enthält, mit deren Hilfe sie produktiv arbeiten können. Die überzeugendsten Anwendungsfälle für Microsoft Teams sind alle organisationsübergreifenden Prozesse.
 
@@ -111,7 +111,7 @@ Es ist möglich, Teams zu erstellen, die an der Organisationsstruktur ausgericht
 
 ## <a name="org-wide-teams"></a>Organisationsweite Teams
 
-Wenn Ihre Organisation aus nicht mehr als 5 000 Benutzern besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).
+Wenn Ihre Organisation aus nicht mehr als 10 000 Benutzern besteht, können Sie ein organisationsweites Team erstellen. Organisationsweite Teams bieten eine automatische Möglichkeit für alle Personen in einer Organisation, Teil eines einzelnen Teams für die Zusammenarbeit zu sein. Weitere Informationen, einschließlich bewährter Methoden zum Erstellen und Verwalten eines organisationsweiten Teams, finden Sie unter [Erstellen eines organisationsweiten Teams in Microsoft Teams](create-an-org-wide-team.md).
 
 ## <a name="next-steps"></a>Nächste Schritte
 

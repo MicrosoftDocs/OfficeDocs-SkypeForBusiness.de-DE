@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 - seo-marvel-apr2020
 - seo-marvel-may2020
-ms.openlocfilehash: 19296d5def314bdd54af25c27401a9bbd0972cf2
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ed307d811322d2c217a117d192731cf5d42edcb7
+ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973013"
+ms.lasthandoff: 10/22/2021
+ms.locfileid: "60536706"
 ---
 # <a name="chat-teams-channels--apps-in-microsoft-teams"></a>Chat, Teams, Kanäle und Apps in Microsoft Teams
 
@@ -34,11 +34,11 @@ Teams bietet ohne weitere Konfiguration eine hervorragende Zusammenarbeitserfahr
 
 Schauen Sie sich unser kurzes Video zum Thema Chats, Teams und Kanäle in Teams (4:30 Minuten) an, um die ersten Schritte zu machen:
 
+<br/>
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE476Yj]
 
-*Neu im November 2019*
- - Sie können [den Advisor für Teams (Vorschau) jetzt als Hilfe beim Rollout von Microsoft Teams verwenden](use-advisor-teams-roll-out.md). Advisor für Teams (Vorschau) führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Microsoft 365- oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
- - [YouTube-Kanal "Microsoft Teams Essentials for IT"](https://aka.ms/MicrosoftTeamsforIT), einschließlich kurzer Videos (8-10 Minuten), die Ihnen zeigen, wie Sie das Rollout von Teams durchführen sowie Teams konfigurieren und verwalten.
+Sie können den [Advisor für Teams](use-advisor-teams-roll-out.md) als Hilfe beim Rollout von Microsoft Teams verwenden. Advisor für Teams führt Sie durch Ihren Rollout von Teams. Er analysiert Ihre Microsoft 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.
 
 > [!TIP]
 > Es ist empfehlenswert, die von uns vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Aneignung von Teams weitere [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) hinzu.
@@ -102,7 +102,7 @@ Externer Zugriff (vormals als Partnerverbund bezeichnet) ermöglicht Ihren Micro
 
 ### <a name="guest-access"></a>Gastzugriff
 
-Mithilfe von Gastzugriff in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Funktionen Gästen zur Verfügung stehen. Der Gastzugriff ist standardmäßig aktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](./guest-access.md).
+Mithilfe des Gastzugriffs in Teams können Einzelbenutzer außerhalb Ihrer Organisation auf Teams und Kanäle zugreifen. Sie können die Einstellungen für den Gastzugriff verwenden, um zu steuern, welche Features Gästen zur Verfügung stehen. Der Gastzugriff ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter [Gastzugriff in Teams](./guest-access.md).
 
 > [!NOTE]
 > Weitere Informationen zu externem Zugriff und Gastzugriff finden Sie hier: [Kommunikation mit Benutzern aus anderen Organisationen in Microsoft Teams](communicate-with-users-from-other-organizations.md).
