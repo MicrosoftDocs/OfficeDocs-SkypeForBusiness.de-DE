@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Erfahren Sie, wie Sie benutzerdefinierte Anrufrichtlinien in Microsoft Teams sowie verschiedene Anrufrichtlinieneinstellungen erstellen, ändern und hinzufügen.
+description: Hier erfahren Sie, wie Sie benutzerdefinierte Anrufrichtlinien in Microsoft Teams sowie verschiedene Anrufrichtlinieneinstellungen erstellen, ändern und hinzufügen.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88e4da290fe19f852d18687227768535d405ebd1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636749"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "60596898"
 ---
-#  <a name="calling-and-call-forwarding-in-teams"></a>Anrufen und Weiterleiten von Anrufen in Teams
+# <a name="calling-and-call-forwarding-in-teams"></a>Anrufen und Weiterleiten von Anrufen in Teams
 
-In Microsoft Teams steuern Anrufrichtlinien, welche Anruf- und Anruf weiterleitungsfeatures benutzern zur Verfügung stehen. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
+In Microsoft Teams steuern Anrufrichtlinien, welche Anruf- und Anruf weiterleitungsfunktionen benutzern zur Verfügung stehen. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
 
 Sie können die globale (organisationsweite Standardrichtlinie) verwenden, die automatisch erstellt wird, oder benutzerdefinierte Richtlinien erstellen und zuweisen.
 
@@ -57,15 +57,15 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Anrufrichtlinie zu be
 
 ## <a name="calling-policy-settings"></a>Einstellungen für Die Anrufrichtlinie
 
-Dies sind die Einstellungen, die Sie für Aufrufrichtlinien konfigurieren können.
+Dies sind die Einstellungen, die Sie für Anrufrichtlinien konfigurieren können.
 
 ### <a name="make-private-calls"></a>Private Anrufe führen
 
-Diese Einstellung steuert alle Aufruffunktionen in Teams. Deaktivieren Sie diese Funktion, um alle Anruffunktionen in ihrer Teams.
+Diese Einstellung steuert alle Aufruffunktionen in Teams. Deaktivieren Sie dies, um alle Anruffunktionen in der Teams.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-people-in-your-organization"></a>Anruf weiterleiten und gleichzeitiges Klingeln an Personen in Ihrer Organisation
 
-Mit dieser Einstellung wird kontrolliert, ob eingehende Anrufe an andere Benutzer weitergeleitet werden können oder ob sie eine andere Person gleichzeitig anrufen können. 
+Mit dieser Einstellung wird kontrolliert, ob eingehende Anrufe an andere Benutzer weitergeleitet werden können oder ob sie eine andere Person gleichzeitig anrufen können.
 
 ### <a name="call-forwarding-and-simultaneous-ringing-to-external-phone-numbers"></a>Anruf weiterleitung und gleichzeitiges Anrufen an externe Telefonnummern
 
