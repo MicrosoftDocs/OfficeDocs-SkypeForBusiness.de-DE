@@ -20,24 +20,27 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie Ihren Teams-Benutzern eine geschäftliche Telefonnummer zuweisen oder diese ändern oder entfernen können, damit Unternehmen und Kunden von außerhalb anrufen können.
-ms.openlocfilehash: 92c19912e566f7dbea09b4849d9970619551b4a4
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 5e8041ce0a8cc95549a9dc75c0c8d74cd2438e1c
+ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536506"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "60579515"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
-Wenn Sie Anrufpläne oder Netzbetreiber einrichten, Verbinden Sie Ihren Benutzern Telefonnummern zuweisen. In Microsoft Teams wird die von Ihnen zugewiesene Telefonnummer aufgelistet, wenn ein Benutzer auf **Anrufe** klickt. 
+Wenn Sie Anrufpläne oder Anbieter Verbinden, weisen Sie Ihren Benutzern Telefonnummern zu. In Microsoft Teams wird die von Ihnen zugewiesene Telefonnummer aufgelistet, wenn ein Benutzer auf **Anrufe** klickt. 
 
 Dieser Artikel bezieht sich auf Anrufpläne und Verbinden. Informationen zum Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer in einem Direct Routing-Szenario finden Sie unter Aktivieren von Benutzern für [Direct-Routing,](./direct-routing-enable-users.md)Sprache und Voicemail.
 
-Bevor Sie eine Nummer für einen Anrufplan- oder Netzbetreiber-Benutzer Verbinden, müssen Sie Telefonnummern für Ihre Benutzer erhalten. Weitere Informationen finden Sie unter [Erhalten von Nummern für Anrufplanbenutzer](getting-phone-numbers-for-your-users.md) oder Einrichten von Nummern für Verbinden [Benutzer.](operator-connect-configure.md#set-up-phone-numbers)
+Bevor Sie eine Nummer für einen Anrufplan- oder Verbinden Benutzer zuweisen können, müssen Sie Telefonnummern für Ihre Benutzer erhalten. Weitere Informationen finden Sie unter [Erhalten von Nummern für Anrufplanbenutzer](getting-phone-numbers-for-your-users.md) oder Einrichten von Nummern für Verbinden [Anrufer.](operator-connect-configure.md#set-up-phone-numbers)
 
   
 > [!NOTE]
 > Eine Möglichkeit, um festzustellen, ob einem Benutzer eine Lizenz zugewiesen wurde, besteht darin, im Microsoft Teams Admin Center **Benutzer** aufzurufen. Wenn eine Lizenz zugewiesen ist, wird es auf der Seite angezeigt.  Sie können auch das Microsoft 365 Admin Center verwenden.
+
+> [!NOTE]
+> Diese Notiz gilt für Kunden, die über eine Hybridbereitstellung mit einem lokalen Active Directory verfügen. Wenn Sie einem Benutzer- oder Ressourcenkonto eine Anrufplan- oder Operator-Verbinden-Telefonnummer zuweisen möchten, müssen Sie sicherstellen, dass die Telefonnummer im lokalen Active Directory entfernt und die Änderung mit Microsoft 365.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Einem Benutzer eine Telefonnummer zuweisen
 
@@ -54,7 +57,7 @@ So weisen Sie eine Nummer über das Teams Admin Center zu:
 4. Um den zugehörigen Notfallstandort zuzuweisen oder zu ändern, suchen Sie unter **Notfallstandort** nach dem Standort und wählen Sie ihn aus.
 
    > [!NOTE]
-   > Wenn Sie Netzbetreibern und Benutzern Nummern zuweisen, Verbinden können Sie den zugeordneten Notfallstandort möglicherweise zuweisen oder ändern. Diese Funktionalität hängt von Ihrem Operator ab. Wenden Sie sich an Ihren Netzbetreiber, um weitere Informationen zu erhalten.
+   > Wenn Sie Dem Netzbetreibern und Benutzern Nummern Verbinden, können Sie den zugeordneten Notfallstandort möglicherweise zuweisen oder ändern. Diese Funktionalität hängt von Ihrem Operator ab. Wenden Sie sich an Ihren Netzbetreiber, um weitere Informationen zu erhalten.
 
 5. Je nachdem, ob Sie dem Benutzer eine E-Mail mit seinen Telefonnummerninformationen senden möchten, deaktivieren oder aktivieren Sie **Dem Benutzer eine E-Mail mit den Telefonnummerninformationen senden**. Standardmäßig ist dies aktiviert. 
 
@@ -78,7 +81,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
   
 ## <a name="change-a-phone-number-for-a-user"></a>Ändern der Telefonnummer für einen Benutzer
 
-So ändern Sie eine Telefonnummer für einen Benutzer über das Teams Admin Center:
+So ändern Sie eine Telefonnummer für einen Benutzer mithilfe des Teams Admin Centers:
     
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen und doppelklicken Sie den gewünschten Benutzer, klicken Sie auf **Konto** und dann erstellen Sie unter **Allgemeine Informationen** eine Notiz mit der dem Benutzer zugewiesenen Telefonnummer.
 
@@ -97,7 +100,7 @@ So ändern Sie eine Telefonnummer für einen Benutzer über das Teams Admin Cent
 8. Um den zugehörigen Notfallstandort zuzuweisen oder zu ändern, suchen Sie unter **Notfallstandort** nach dem Standort und wählen Sie ihn aus.
 
       > [!NOTE]
-      > Wenn Sie Die Nummern der Netzbetreiber-Verbinden ändern, können Sie den zugeordneten Notfallstandort möglicherweise zuweisen oder ändern. Diese Funktionalität hängt von Ihrem Operator ab. Wenden Sie sich an Ihren Netzbetreiber, um weitere Informationen zu erhalten.
+      > Wenn Sie Die Nummern der Netzbetreiber und Verbinden ändern, können Sie den zugeordneten Notfallstandort möglicherweise zuweisen oder ändern. Diese Funktionalität hängt von Ihrem Operator ab. Wenden Sie sich an Ihren Netzbetreiber, um weitere Informationen zu erhalten.
 
 9. Klicken Sie auf **Speichern**.
 
