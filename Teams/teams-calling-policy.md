@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 16749fa21176622bdd68bcd2034eb94c99773f9e
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60596898"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60606954"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Anrufen und Weiterleiten von Anrufen in Teams
 
-In Microsoft Teams steuern Anrufrichtlinien, welche Anruf- und Anruf weiterleitungsfunktionen benutzern zur Verfügung stehen. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
+In Microsoft Teams durch Aufrufrichtlinien wird kontrolliert, welche Anruf- und Anruf weiterleitungsfunktionen für Benutzer verfügbar sind. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
 
 Sie können die globale (organisationsweite Standardrichtlinie) verwenden, die automatisch erstellt wird, oder benutzerdefinierte Richtlinien erstellen und zuweisen.
 
@@ -87,17 +87,17 @@ Diese Einstellung steuert, ob eingehende Anrufe an eine Anrufgruppe weitergeleit
 
 Mit dieser Einstellung können eingehende Anrufe an Stellvertretung geroutet werden, sodass Stellvertretung ausgehende Anrufe im Auftrag der Benutzer, für die sie delegierte Berechtigungen haben, abgehen können. Weitere Informationen finden Sie unter [Freigeben einer Telefonleitung für eine Stellvertretung.](https://support.office.com/article/share-a-phone-line-with-a-delegate-16307929-a51f-43fc-8323-3b1bf115e5a8)
 
-### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Verhindern einer gebührenpflichtigen Umgehung und Senden von Anrufen über das PSTN 
+### <a name="prevent-toll-bypass-and-send-calls-through-the-pstn"></a>Verhindern einer gebührenpflichtigen Umgehung und Senden von Anrufen über das PSTN
 
 Wenn Sie diese Einstellung **auf Ein** festlegen, werden Anrufe über das PSTN gesendet, und es fallen Gebühren an, statt sie über das Netzwerk zu senden und die Gebühren zu umgehen.
 
 ### <a name="busy-on-busy-is-available-when-in-a-call"></a>"Beschäftigt" ist während eines Anrufs verfügbar
 
-Unter Beschäftigt (Beschäftigt-Optionen) können Sie konfigurieren, wie eingehende Anrufe verarbeitet werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf im Halteraum platziert wird. Neue oder eingehende Anrufe können mit einem Beschäftigt-Signal abgelehnt oder entsprechend den Einstellungen des Benutzers geroutet werden, die nicht beantwortet werden. Sie können Beschäftigt-Optionen auf Mandantenebene oder Benutzerebene aktivieren. Unabhängig davon, wie ihre Beschäftigt-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder benutzer mit einem haltenden Anruf nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. Diese Einstellung ist standardmäßig deaktiviert.
+Unter Beschäftigt (Beschäftigt-Optionen) können Sie konfigurieren, wie eingehende Anrufe behandelt werden, wenn sich ein Benutzer bereits in einem Anruf oder einer Konferenz befindet oder ein Anruf in der Warteschleife platziert wird. Neue oder eingehende Anrufe können mit einem Beschäftigt-Signal abgelehnt oder entsprechend den Einstellungen des Benutzers geroutet werden, die nicht beantwortet werden. Sie können Beschäftigt-Optionen auf Mandantenebene oder Benutzerebene aktivieren. Unabhängig davon, wie ihre Beschäftigt-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder benutzer mit einem haltenden Anruf nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. Diese Einstellung ist standardmäßig deaktiviert.
 
 ### <a name="web-pstn-calling"></a>Anrufe über das Web-PSTN
 
-Mit dieser Einstellung können Benutzer PSTN-Nummern über den Teams Anrufen anrufen.
+Mit dieser Einstellung können Benutzer PSTN-Nummern über den Teams anrufen.
 
 ### <a name="incoming-meeting-invites-are-automatically-answered"></a>Eingehende Besprechungs-Einladungen werden automatisch beantwortet.
 
@@ -105,10 +105,10 @@ Diese Einstellung steuert, ob eingehende Besprechungs-Einladungen automatisch be
 
 ### <a name="allow-music-on-hold"></a>Halten von Musik zulassen
 
-Mit dieser Einstellung können Sie die wartemusik ein- oder ausschalten, wenn ein PSTN-Anrufer in den Halteraum gesetzt wird. Sie ist standardmäßig aktiviert. Diese Einstellung gilt nicht für Anruf parken und Chefstellvertretungsfunktionen und ist derzeit nur über PowerShell verfügbar.
+Mit dieser Einstellung können Sie die Wartemusik aktivieren oder deaktivieren, wenn ein PSTN-Anrufer in den Halteraum gesetzt wird. Sie ist standardmäßig aktiviert. Diese Einstellung gilt nicht für Anruf parken und Chefstellvertretungsfunktionen und ist derzeit nur über PowerShell verfügbar.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+[Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)
