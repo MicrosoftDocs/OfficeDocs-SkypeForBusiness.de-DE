@@ -1,7 +1,7 @@
 ---
 title: Tenant Administration control for voice recognition (voice profile) in Teams-Räume
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: parisataheri
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e4b67041b0fa78a43705f5421881ae751175fcdb
-ms.sourcegitcommit: 70c07a6b1be81681eec32a89872e2218d70c514d
+ms.openlocfilehash: b42d60b644d202abecd061e5cece9169cd184a7d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58866367"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605851"
 ---
 # <a name="manage-voice-recognition-technology-controls-for-an-intelligent-speaker"></a>Verwalten von Spracherkennungstechnologie-Steuerelementen für einen intelligenten Lautsprecher
 
@@ -46,19 +46,19 @@ Die folgenden Punkte sind Anforderungen an intelligente Lautsprecher:
 
 ## <a name="set-up-an-intelligent-speaker"></a>Einrichten eines intelligenten Lautsprechers
 
-Ein intelligenter Lautsprecher stellt eine direkte Verbindung über USB zur Teams-Räume-Konsole. Um optimale Ergebnisse zu erzielen, sollte ein intelligenter Lautsprecher der Marke Yealink mit einer Yealink-Markenkonsole verwendet werden.
+Ein intelligenter Lautsprecher stellt eine direkte Verbindung über USB mit der Teams-Räume-Konsole fest. Um optimale Ergebnisse zu erzielen, sollte ein intelligenter Lautsprecher der Marke Yealink mit einer Yealink-Markenkonsole verwendet werden.
 
 > [!NOTE]
 > Ein intelligenter Yealink-Lautsprecher **muss** mit einer Yealink-Konsole verwendet werden.
 
 > [!NOTE]
-> Wir unterstützen keinen intelligenten Lautsprecher, der mit Logitech Surface Pro Microsoft Teams-Räume. Es gibt ein bekanntes Problem, dass Teams-Räume den intelligenten Lautsprecher über die Docking-Station nicht erkennen kann.
+> Wir unterstützen keinen intelligenten Lautsprecher, der mit Logitech Surface Pro Microsoft Teams-Räume. Es gibt ein bekanntes Problem, Teams-Räume den intelligenten Lautsprecher nicht über die Docking-Station erkennen kann.
 
 Ein intelligenter Lautsprecher sollte mindestens 20 cm von Wänden und großen Objekten wie Laptops entfernt platziert werden. Wenn das USB-Kabel für intelligente Lautsprecher nicht lange genug für Ihr Setup ist, verwenden Sie Kabel-Extender.
 
 1. Melden Sie sich bei der Konsole als Administrator an.
 2. Legen Sie die Teams Ihres Geräts so fest, dass sie dem Mikrofon und Lautsprecher des intelligenten Lautsprechers entsprechen.
-   Dies können Sie auch über das TAC-Portal statt über die Raumkonsole tun.
+   Dies können Sie auch über das TAC-Portal und nicht über die Raumkonsole tun.
 
    Das Diagramm zeigt, wie der intelligente Lautsprecher an das Gerät angeschlossen wird, wenn das Gerät ein Datenfeld enthält.
 
@@ -69,11 +69,11 @@ Ein intelligenter Lautsprecher sollte mindestens 20 cm von Wänden und großen O
    ![Setup des intelligenten Lautsprechers mit Lautsprecher, der direkt mit der Konsole verbunden ist.](../media/intelligent-speakers2.png)
 
 > [!Note]
-> UNTERESS- und Yealink-Geräte sollten das Präfix "WENNS" oder "Yealink" haben und im Lautsprechernamen "UAC2_RENDER" und im Mikrofonnamen "UAC2_TEAMS" enthalten. Wenn Sie diese Mikrofon- und Lautsprechernamen nicht im Dropdownmenü finden, starten Sie das Gerät mit dem intelligenten Lautsprecher neu.
+> DIES- und Yealink-Geräte sollten das Präfix "BEIMS" oder "Yealink" haben und im Lautsprechernamen "UAC2_RENDER" und im Mikrofonnamen "UAC2_TEAMS" enthalten. Wenn Sie diese Mikrofon- und Lautsprechernamen nicht im Dropdownmenü finden, starten Sie das Gerät mit dem intelligenten Lautsprecher neu.
 
 ## <a name="enable-an-intelligent-speaker-user-recognition"></a>Aktivieren einer Intelligenten Lautsprecher-Benutzererkennung
 
-Sprachprofildaten können in jeder Besprechung mit einem intelligenten Lautsprecher verwendet werden. Informationen [zu Teams Besprechungseinstellungen finden](../meeting-policies-in-teams.md#allow-transcription) Sie unter Richtlinien für Besprechungen und die [PowerShell-Besprechungs-Cmdlets.](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps)
+Sprachprofildaten können in jeder Besprechung mit einem intelligenten Lautsprecher verwendet werden. Informationen [zu Teams Besprechungseinstellungen finden](../meetings-policies-recording-and-transcription.md#allow-transcription) Sie unter Verwalten von Besprechungsrichtlinien und den [PowerShell-Besprechungs-Cmdlets.](/powershell/module/skype/set-csteamsmeetingpolicy)
 
 Die Sprachprofildaten des Benutzers werden erstellt, wenn die Richtlinie festgelegt ist, um zu unterscheiden, oder wenn eine Person, die keine Besprechung anberaumt, während der Besprechung eingiert. Die Sprachprofildaten werden am Ende der Besprechung verworfen.
 
@@ -94,11 +94,11 @@ Legen Sie Teams Admin Center die Richtlinie **Transkription** zulassen. Einstell
 
 **Wo werden die Sprachprofildaten gespeichert?**
 
-Sprachprofildaten werden in Office 365 mit Benutzerinhalten gespeichert.
+Sprachprofildaten werden in der Office 365 mit Benutzerinhalten gespeichert.
 
 **Was ist die Aufbewahrungszeitachse und -richtlinie?**
 
-Die allgemeine Aufbewahrungsrichtlinie ist in der Übersicht [Datenaufbewahrung angegeben.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) Darüber hinaus werden die Sprachprofildaten eines Benutzers nach 3 Jahren gelöscht, wenn der Benutzer innerhalb dieses Zeitraums von 3 Jahren nicht zu Besprechungen mit einem intelligenten Lautsprecher eingeladen wird. In Besprechungen für vorhandene Mitarbeiter werden keine Daten verwendet. Wenn ein Mitarbeiter das Unternehmen verlassen hat, werden Sprachprofildaten als Benutzerinhalte betrachtet und als solche behandelt Office 365 in der Übersicht Datenaufbewahrung [beschrieben wird.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)
+Die allgemeine Aufbewahrungsrichtlinie ist in der Übersicht [Datenaufbewahrung angegeben.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview) Darüber hinaus werden die Sprachprofildaten eines Benutzers nach 3 Jahren gelöscht, wenn der Benutzer innerhalb dieses Zeitraums von 3 Jahren nicht zu Besprechungen mit einem intelligenten Lautsprecher eingeladen wird. In Besprechungen für vorhandene Mitarbeiter werden keine Daten verwendet. Wenn ein Mitarbeiter das Unternehmen verlassen hat, werden Sprachprofildaten als Benutzerinhalte betrachtet und Office 365 Datenaufbewahrungsrichtlinie behandelt, die in der Übersicht Datenaufbewahrung [beschrieben wird.](/compliance/assurance/assurance-data-retention-deletion-and-destruction-overview)
 
 **Werden Sprachprofildaten übergreifend Microsoft-Dienste?**
 

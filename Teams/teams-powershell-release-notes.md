@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie mehr über die neuesten Änderungen in Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 232a41dce111b0d913c3888c0e00140bf2b904c0
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 0c95ce8097d8ce70d1f19ac91c8ef66f21453562
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579615"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605171"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams PowerShell-Versionshinweise
 
@@ -49,7 +49,7 @@ Diese Seite enthält das neueste Teams PowerShell-Änderungsprotokoll für allge
 | November 2020 | [1.1.7-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.7-preview) | <li>Verwendet MSAL für die Authentifizierungs- & Autorisierung</li><li>Umgestaltet Richtlinienpaket-Cmdlets und Fügt Gruppenpaketzuordnung hinzu</li><li>Umgestalten der Zielhierarchie-Uploadbefehle für die Verwendung eines asynchronen Modells</li> <li>Der Benutzer wird während der anfänglichen Authentifizierung zweimal aufgefordert, wenn er den Parameter -credential nicht verwendet. Benutzer können Anmeldeinformationen mithilfe des Parameters -credential übergeben, um doppelte Eingabeaufforderungen zu vermeiden. Dieses Verhalten wird in der nächsten Version behoben.</li> |
 | September 2020 | [1.1.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.6) | <li>Skype for Business Online Connector-Integration</li> |
 | September 2020 | [1.1.5-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.5-preview) | <li>Skype for Business Online Connector-Integration</li> |
-| Juli 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Hinzugefügte [Gruppenrichtlinienzuordnungs-Cmdlets](./assign-policies.md#assign-a-policy-to-a-group)</li> |
+| Juli 2020 | [1.1.4](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.4) | <li>Hinzugefügte [Gruppenrichtlinienzuordnungs-Cmdlets](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group)</li> |
 | Juni 2020 | [1.1.3-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/1.1.3-preview) | <li>Skype for Business Online Connector-Integration<li>Get-Team von Optimierungen<li>Höhere Zuverlässigkeit</li> |
 | Juni 2020 | [1.0.7](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.7) | <li>Vorabladen des Cmdlets hinzugefügt<li>.NET Framework von Optimierungen</li>   |
 | April 2020 | [1.0.6](https://www.powershellgallery.com/packages/MicrosoftTeams/1.0.6) | <li>Authenticode- und Assemblysignatursignatur<li>Hinzugefügte Get-CsPolicyPackage<li>Hinzugefügte Get-CsUserPolicyPackage<li>Hinzugefügte Get-CsUserPolicyPackageRecommendation<li>Hinzugefügte Grant-CsUserPolicyPackage<li>Hinzugefügte New-CsBatchPolicyPackageAssignmentOperation<li>Hinzugefügte Set-TeamArchivedState<li>Hinzugefügte Set-TeamPicture<li>Entfernte Get-TeamHelp</li>  |

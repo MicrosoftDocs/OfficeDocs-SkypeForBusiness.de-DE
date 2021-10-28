@@ -1,7 +1,7 @@
 ---
 title: Teams Richtlinienpakete-Pakete für das Gesundheitswesen
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -21,12 +21,12 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 description: Erfahren Sie, wie Sie Team-Richtlinienpakete für Ihre Gesundheitsorganisation verwenden und verwalten.
-ms.openlocfilehash: d71945508055ddc7b6f6661d93e8918879d59d23
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: af72046569b0f3bcc36fcc93bfbc5b57d57d631e
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731964"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605711"
 ---
 # <a name="teams-policy-packages-for-healthcare"></a>Teams Richtlinienpakete-Pakete für das Gesundheitswesen
 
@@ -93,9 +93,9 @@ Weisen Sie das Richtlinienpaket Benutzern zu. Wenn einem Benutzer eine Richtlini
 
 Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie im linken Navigationsbereich des Microsoft Teams Admin Center zu **Richtlinienpakete**, und wählen Sie dann **Benutzer verwalten** aus.  
 
-![Screenshot zum Zuweisen eines Richtlinienpakets im Admin Center](media/policy-packages-healthcare-assign.png)
+![Screenshot zur Vorgehensweise zum Zuweisen eines Richtlinienpakets im Admin Center.](media/policy-packages-healthcare-assign.png)
 
-Weitere Informationen hierzu finden Sie unter [Zuweisen eines Richtlinienpakets](manage-policy-packages.md#assign-a-policy-package).
+Weitere Informationen hierzu finden Sie unter [Zuweisen eines Richtlinienpakets](assign-policy-packages.md).
 
 Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später eine andere Richtlinie zuweisen, hat die neuere Vorrang.
 
@@ -105,13 +105,13 @@ Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später ei
 
 Die Gruppenzuweisung von Richtlinienpaketen ermöglicht es Ihnen, mehrere Richtlinien einer Gruppe von Benutzern wie z. B. einer Sicherheitsgruppe oder einer Verteilerliste zuzuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, sie eignet sich aber auch für größere Gruppen.
 
-Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe zuweisen](assign-policies.md#assign-a-policy-package-to-a-group).
+Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Ein Richtlinienpaket einer großen Anzahl von Benutzern (Batch) zuweisen
 
 Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
 
-Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

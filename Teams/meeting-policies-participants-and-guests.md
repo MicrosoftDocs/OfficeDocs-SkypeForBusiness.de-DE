@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: 2ca320db9c4020c6b79f38af86ed5083ae17fb89
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5a277aeb5ccdef5bc3ec98d849cd9f9ec5271e2b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014539"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605411"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -99,5 +99,5 @@ Bei dieser Einstellung handelt es sich um eine Einstellung pro Teilnehmer. Über
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
 - [Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern](meeting-policies-restricted-anonymous-access.md)

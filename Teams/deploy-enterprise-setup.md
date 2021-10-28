@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9d67dbb494a0bde5212d405e5710a7c2730734e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f05616de4f315cee115ee9767a52eea09297dfcf
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584629"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605821"
 ---
 # <a name="set-up-microsoft-teams-in-your-enterprise"></a>Einrichten von Microsoft Teams in Ihrem Unternehmen
 
@@ -95,7 +95,7 @@ Besprechungen und Konferenzen ermöglichen es Personen in Ihrer Organisation, si
 | Entscheidung | Beschreibung |
 |--|--|
 | Welche organisationsweiten Besprechungseinstellungen angewendet werden sollen| Besprechungsrichtlinien steuern, welche Besprechungsfeatures für Besprechungsorganisatoren und -teilnehmer zur Verfügung stehen. Sie können steuern, ob anonyme Teilnehmer an Besprechungen teilnehmen, Besprechungseinladungen anpassen, die Handhabung von Medien in Echtzeit steuern und mehr können. Wenn Sie Änderungen an diesen Einstellungen vornehmen, betreffen sie alle Besprechungen in Ihrer Organisation. <p>[Verwalten von Besprechungseinstellungen in Microsoft Teams](meeting-settings-in-teams.md)|
-| Welche Besprechungsrichtlinien sollten angewendet werden? | Besprechungsrichtlinien werden verwendet, um die Features zu steuern, die Besprechungsteilnehmern für Besprechungen, die von Benutzern in Ihrer Organisation geplant werden, zur Verfügung stehen. Sie können steuern, ob Benutzer private Besprechungen planen, die Option "Jetzt besprechungen" aktivieren, das Aufzeichnen von Besprechungen zulassen und so weiter. Teams hat eine globale Richtlinie, die für jeden gilt.<p> Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen (z. B. Deaktivieren der Aufzeichnung von Besprechungen). <p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für leitende Angestellte) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p> [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md)|
+| Welche Besprechungsrichtlinien sollten angewendet werden? | Besprechungsrichtlinien werden verwendet, um die Features zu steuern, die Besprechungsteilnehmern für Besprechungen, die von Benutzern in Ihrer Organisation geplant werden, zur Verfügung stehen. Sie können steuern, ob Benutzer private Besprechungen planen, die Option "Jetzt besprechungen" aktivieren, das Aufzeichnen von Besprechungen zulassen und so weiter. Teams hat eine globale Richtlinie, die für jeden gilt.<p> Wenn für alle dieselbe Richtlinie gelten soll, müssen Sie nur Änderungen an dieser globalen Richtlinie vornehmen (z. B. Deaktivieren der Aufzeichnung von Besprechungen). <p>Wenn Sie unterschiedliche Richtlinien für unterschiedliche Personengruppen (z. B. eine Richtlinie für Büroarbeiter und eine weitere für leitende Angestellte) wünschen, können Sie Richtlinien erstellen und zuweisen. Wenn Sie einem Benutzer eine Richtlinie zuweisen, gilt die globale Richtlinie nicht mehr für diesen Benutzer.<p> [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-overview.md)|
 | Möchten Sie die Aufzeichnung und Archivierung von Besprechungen zulassen?| Besprechungsorganisatoren können Besprechungen in der Cloud aufzeichnen und archivieren. Sie können Besprechungsaufzeichnung und -archivierung mithilfe von Besprechungsrichtlinien aktivieren oder deaktivieren.<p> [Aufzeichnung einer Teams-Cloudbesprechung](cloud-recording.md) |
 
 ### <a name="audio-conferencing"></a>Audiokonferenz
@@ -145,12 +145,12 @@ Teams und Microsoft 365 stellen zahlreiche Tools zur Verfügung, mit deren Hilfe
 | [Kommunikationscompliance](communication-compliance.md)| Hilft bei der Reduzierung von Kommunikationsrisiken, indem es beleidigende, profane und belästigende Sprache, rassistische und blutige Bilder für Erwachsene und die Weitergabe sensibler Informationen identifiziert und Maßnahmen dagegen ergreift. |
 | [Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](teams-recording-policy.md)| Hiermit können Sie steuern, wann oder ob Anrufe und Besprechungen automatisch aufgezeichnet und für spätere Verarbeitung, Aufbewahrung oder Analyse gespeichert werden sollen.|
 | [Vertraulichkeitsbezeichnungen](sensitivity-labels.md)| Hilft Ihnen dabei, den Zugriff auf vertrauliche Informationen zu schützen und zu regulieren, indem Sie Bezeichnungen erstellen, mit denen ausgewählte Datenschutzoptionen erzwungen werden.|
-| [Verhinderung von Datenverlust](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Ermöglicht es Ihnen, Regeln zu erstellen, mit denen festgelegt wird, wie bestimmte Informationen wie Sozialversicherungsnummern, Kreditkartennummern und so weiter verarbeitet werden sollen. Sie können das Senden bestimmter Informationen verhindern, verhindern, dass diese Ihre Organisation verlassen, und so weiter.|
+| [Verhinderung von Datenverlust](/microsoft-365/compliance/dlp-microsoft-teams?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Ermöglicht es Ihnen, Regeln zu erstellen, mit denen festgelegt wird, wie bestimmte Informationen wie Sozialversicherungsnummern, Kreditkartennummern und so weiter verarbeitet werden sollen. Sie können das Senden bestimmter Informationen verhindern, verhindern, dass diese Ihre Organisation verlassen, und so weiter.|
 | [eDiscovery](eDiscovery-investigation.md)| Hilft Ihnen bei der Suche nach und dem Abrufen von Inhalten in Ihrem Unternehmen, wenn Ihr Unternehmen Discovery-Anforderungen in Gerichtsverfahren erhält. |
 | [Gesetzliche Aufbewahrungspflicht](legal-hold.md)| Hilft Ihnen bei der Aufbewahrung von Informationen in Ihrer Organisation, auch wenn sie von einem Benutzer gelöscht werden, wenn dies während rechtlicher Verfahren erforderlich ist, damit sie während eDiscovery-Untersuchungen gefunden werden können. |
 | [Inhaltssuche](content-search.md)| Bietet einen Weg, um Microsoft Teams-Informationen abzurufen. Die Abfragen schließen Exchange, SharePoint Online und OneDrive for Business ebenfalls ein.|
 | [Auditing](audit-log-events.md)| Hiermit können Sie Informationen zu einer bestimmten Aktion anzeigen, einschließlich der Angaben, wer die Aktion ausgeführt hat, wann die Aktion ausgeführt wurde, welche IP-Adresse verwendet wurde, und so weiter. Zu den Aktionen gehören das Erstellen oder Löschen von Teams, die Erstellung von Kanälen, geänderte Einstellungen in Teams und so weiter.|
-| [Kundenschlüssel](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json&view=o365-worldwide)| Ermöglicht ihnen das Erstellen einer Datenverschlüsselungsrichtlinie mithilfe von Verschlüsselungsschlüsseln, die Sie bereitstellen.|
+| [Kundenschlüssel](/microsoft-365/compliance/customer-key-tenant-level?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json)| Ermöglicht ihnen das Erstellen einer Datenverschlüsselungsrichtlinie mithilfe von Verschlüsselungsschlüsseln, die Sie bereitstellen.|
 
 ## <a name="clients"></a>Clients
 

@@ -1,7 +1,7 @@
 ---
 title: Verwenden Teams mit Remotedesktopdiensten
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,20 +17,20 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3fbb5fbd43d9fdc702d0fb9a0a0de446b3a50087
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635639"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605571"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams in Remotedesktopdiensten
 
-In diesem Artikel werden die Anforderungen und Einschränkungen für die Microsoft Teams in einer RDS-Umgebung (Remote Desktop Services) beschrieben.
+In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwendung von Microsoft Teams in einer RDS-Umgebung (Remote Desktop Services) beschrieben.
 
 ## <a name="what-is-rds"></a>Was ist RDS?
 
-Remotedesktopdienste (Remote Desktop Services, RDS) ist die Plattform ihrer Wahl zum Erstellen von Virtualisierungslösungen für alle Kundenanforderungen. Mit RDS können Sie einzelne virtualisierte Anwendungen bereitstellen, sicheren Zugriff auf mobile Geräte und Remotedesktops bereitstellen und Endbenutzern die Möglichkeit bieten, ihre Anwendungen und Desktops aus der Cloud ausführen zu können.
+Remotedesktopdienste (Remote Desktop Services, RDS) ist die Plattform Ihrer Wahl zum Erstellen von Virtualisierungslösungen für alle Kundenanforderungen. Mit RDS können Sie einzelne virtualisierte Anwendungen bereitstellen, sicheren Zugriff auf mobile Geräte und Remotedesktops bereitstellen und Endbenutzern die Möglichkeit bieten, ihre Anwendungen und Desktops aus der Cloud ausführen zu können.
 
 RDS bietet Flexibilität, Kosteneffizienz und Erweiterbarkeit für die Bereitstellung. RDS wird über eine Vielzahl von Bereitstellungsoptionen geliefert, darunter Windows Server 2016 für lokale Bereitstellungen, Microsoft Azure für Cloudbereitstellungen und ein stabiles Array von Partnerlösungen.
 Abhängig von Ihrer Umgebung und Ihren Voreinstellungen können Sie die RDS-Lösung für die sitzungsbasierte Virtualisierung als VDI (Virtual Desktop Infrastructure) einrichten.
@@ -47,7 +47,7 @@ Sie können Richtlinien mithilfe des Microsoft Teams Admin Centers oder mit Powe
 
 [**Anrufrichtlinien**](teams-calling-policy.md): Teams enthält die integrierte Anrufrichtlinie DisallowCalling, in der alle Anruffeatures deaktiviert sind. Weisen Sie die DisallowCalling-Richtlinie allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
 
-[**Besprechungsrichtlinien**](meeting-policies-in-teams.md): Teams enthält die integrierte Besprechungsrichtlinie AllOff, in der alle Anruffeatures deaktiviert sind. Weisen Sie die AllOff-Richtlinie allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
+[**Besprechungsrichtlinien**](meeting-policies-overview.md): Teams enthält die integrierte Besprechungsrichtlinie AllOff, in der alle Anruffeatures deaktiviert sind. Weisen Sie die AllOff-Richtlinie allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
 
 #### <a name="assign-policies-using-the-microsoft-teams-admin-center"></a>Zuweisen von Richtlinien mithilfe des Microsoft Teams Admin Centers
 

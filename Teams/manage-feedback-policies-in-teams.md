@@ -16,41 +16,41 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mithilfe von Feedbackrichtlinien steuern können, Teams Benutzer in Ihrer Organisation Feedback zu Teams an Microsoft übermitteln können.
-ms.openlocfilehash: 2357af358dad4407fd401b08ff75dfc2560593a2
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Hier erfahren Sie, wie Sie mithilfe von Feedbackrichtlinien steuern können, Teams Benutzer in Ihrer Organisation Feedback zu diesem Thema Teams Microsoft übermitteln können.
+ms.openlocfilehash: 4cb8914a793ddb6342b047caada087006da8f670
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013009"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605771"
 ---
 # <a name="manage-feedback-policies-in-microsoft-teams"></a>Verwalten von Feedbackrichtlinien in Microsoft Teams
 
 [!INCLUDE [preview-feature](includes/preview-feature.md)]
 
-Die Benutzer in Ihrer Organisation können Feedback zu Microsoft Teams uns wissen lassen, wie wir direkt in Teams Desktop, Webclients und mobilen Geräten vor sich gehen. Wir verbessern ständig die Benutzererfahrung Teams und nutzen dieses Feedback, um Teams verbessern.
+Die Benutzer in Ihrer Organisation können Feedback zu Microsoft Teams senden, um uns wissen zu lassen, wie wir direkt in der Teams, Webclients und mobilen Geräten vor sich gehen. Wir verbessern ständig die Benutzererfahrung Teams und nutzen dieses Feedback, um Teams verbessern.
 
 > [!NOTE]
-> Feedbackrichtlinien sind in Bereitstellungen von GCC, GCC High oder DOD nicht verfügbar.
+> Feedbackrichtlinien sind in Bereitstellungen von GCC, GCC high oder DOD nicht verfügbar.
 
 **Das **Feature "Feedback geben"****
 
-Benutzer können uns Kommentare und Vorschläge zu Teams senden, indem sie in Ihrem Desktop und im Web Teams Feedback   >   geben.
+Benutzer können uns Kommentare und Vorschläge Teams senden, indem sie in Ihrem Desktop und Teams Hilfe Feedback  >   geben.
 
 
 ![Feedbackoption in Teams](media/manage-feedback-policies-in-teams-give-feedback.png)
 
-Greifen Sie mithilfe der Hilfe-Einstellungen auf Feedback  >  **&**  >  **mobilen Geräten zu.**
+Greifen Sie auf Feedback auf mobilen Geräten **mithilfe Einstellungen** Hilfe zu &  >  **Feedback senden**  >  **.**
 
 ![Feedbackoption in mobilen Teams senden](media/feedback3.jpg)
 
- Über Feedback  senden  und Feedback senden werden unter Ihrer Microsoft 365- oder Office 365-Vereinbarung als "Supportdaten" betrachtet, einschließlich Informationen, die andernfalls als "Kundendaten" oder "Persönliche Daten" angesehen würden.
+ Über Feedback  senden  und Feedback senden werden unter Ihrer Microsoft 365- oder Office 365-Vereinbarung als "Supportdaten" betrachtet, einschließlich Informationen, die andernfalls als "Kundendaten" oder "Persönliche Daten" betrachtet würden.
 
 
 
 **Umfragen**
 
-Benutzer können ihre Erfahrung mit ihren Teams und uns Details zu der von ihnen bewerteten Bewertung senden. Diese Popupumfrage wird Benutzern von Zeit zu Zeit in einem Teams. Wenn ein Benutzer in der Benachrichtigung **Feedback** geben auswählt, wird die Umfrage für den Abschluss der Umfrage angezeigt.
+Benutzer können ihre Erfahrung mit der Bewertung Teams und uns Details zu der von ihnen bewerteten Bewertung senden. Diese Popupumfrage wird Benutzern von Zeit zu Zeit im Internet Teams. Wenn ein Benutzer in der Benachrichtigung **Feedback** geben auswählt, wird die Umfrage für den Abschluss der Umfrage angezeigt.
 
 ![Benachrichtigung und Formular der Umfrage in Teams.](media/manage-feedback-policies-in-teams-survey.png)
 
@@ -68,7 +68,7 @@ Legen Sie die folgenden Parameter fest, um die Features zu deaktivieren und zu a
 
  - **Feedback geben:** Legen Sie den Parameter  **userInitiatedMode** auf aktiviert, damit Benutzer, denen die Richtlinie zugewiesen ist, Feedback geben können. Wenn Sie den Parameter **auf Disabled festlegen,** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, haben keine Möglichkeit, Feedback zu geben.
 
- - **Umfragen:** Legen Sie den Parameter  **receiveSurveysMode** auf aktiviert, damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und zulassen, dass sie sich abmelden, legen Sie den Parameter auf **enabledUserOverride .** In Teams benutzer können dann zu Einstellungen Datenschutz wechseln und auswählen, ob sie an  >   Umfragen teilnehmen möchten. Wenn Sie den Parameter **auf Disabled festlegen,** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten keine Umfrage.
+ - **Umfragen:** Legen Sie den Parameter  **receiveSurveysMode** auf aktiviert, damit Benutzer, denen die Richtlinie zugewiesen ist, die Umfrage empfangen können. Damit Benutzer die Umfrage erhalten und zulassen, dass sie sich abmelden, legen Sie den Parameter auf **enabledUserOverride .** In Teams können benutzer dann zu Einstellungen Datenschutz wechseln und auswählen, ob sie an Umfragen  >   teilnehmen möchten. Wenn Sie den Parameter **auf Disabled festlegen,** wird das Feature deaktiviert, und Benutzer, denen die Richtlinie zugewiesen ist, erhalten keine Umfrage.
 
  - **E-Mail:** Verwenden Sie die **AllowEmailCollection-Kennzeichnung,** um ein E-Mail-Feld hinzuzufügen.
  - **Protokollsammlung:** Verwenden Sie das **Kennzeichen AllowLogCollection,** um Benutzer eine Protokollsammlungs-Opt-In hinzuzufügen. Die Protokollsammlung ist derzeit nur auf mobilen Geräten aktiviert. Weitere Informationen zu den über Protokolle freigegebenen Daten finden [Sie unter](https://go.microsoft.com/fwlink/?linkid=2168178).
@@ -94,4 +94,4 @@ Grant-CsTeamsFeedbackPolicy -Identity user1@contoso.com -PolicyName "New Hire Fe
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Zuweisen von Richtlinien zu Benutzern in Teams](assign-policies.md)
+- [Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)

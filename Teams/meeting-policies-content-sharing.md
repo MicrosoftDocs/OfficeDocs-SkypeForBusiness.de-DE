@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für die Inhaltsfreigabe verwalten.
-ms.openlocfilehash: f1fe77b2a8be552e2c156fda8d0b1bd89fa83d4c
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726504"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605621"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
 
@@ -66,11 +66,11 @@ Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Ei
 
 Wenn diese Einstellung für den Benutzer aktiviert ist, wird die Option **Steuerung übergeben** in der oberen Leiste einer Freigabesitzung angezeigt.
 
-![Screenshot mit der Option "Steuerung geben"](media/meeting-policies-give-control.png)
+![Screenshot zeigt die Option „Steuerung übergeben“.](media/meeting-policies-give-control.png)
 
 Wenn die Einstellung für den Benutzer deaktiviert ist, ist die Option **Steuerung übergeben** nicht verfügbar.
 
-![Screenshot, der zeigt, dass die Option "Steuerung geben" nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
+![Screenshot zeigt, dass die Option „Steuerung übergeben“ nicht verfügbar ist.](media/meeting-policies-give-control-not-available.png)
 
 Sehen Sie sich das folgende Beispiel an.
 
@@ -144,5 +144,5 @@ Daniela kann sich in Amandas Besprechungen Notizen machen, Amanda kann hingegen 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
 - [Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern](meeting-policies-restricted-anonymous-access.md)

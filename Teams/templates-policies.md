@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Teamvorlagen im Admin Center
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Teamvorlagen im Admin Center verwalten.
-ms.openlocfilehash: c154cdf60b887d5c934e4f63634691c4b9bfcdbd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c8b9926290e58fe190d2351820e2bb63560c8c8c
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732824"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605371"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
@@ -38,7 +38,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern **Teams**  >  **Richtlinien für Vorlagen**.
+2. Erweitern **sie Teams** Richtlinien für  >  **Vorlagen**.
 
 3. Klicken Sie auf **Hinzufügen**.
 
@@ -50,7 +50,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
     - Kurzbeschreibung der Vorlagenrichtlinie
 
-2. Wählen Sie in **der Tabelle Ansichtsvorlagen** die Vorlagen aus, die Sie ausblenden möchten, und wählen Sie ausblenden **aus.**
+2. Wählen Sie in **der Tabelle Ansichtsvorlagen** die Vorlagen aus, die Sie ausblenden möchten, und dann **Ausblenden aus.**
 
     ![Die ausgewählten Vorlagen mit hervorgehobener Option "Ausblenden"](media/template-policies-2.png)
 
@@ -58,7 +58,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 1. Wenn Sie bestimmte Vorlagen ein- oder ein- engen, scrollen Sie zur **Tabelle Ausgeblendete** Vorlagen.
 
-2. Wählen Sie die Vorlagen aus, die Sie ein- oder einwählen, und wählen Sie dann **Anzeigen aus.**
+2. Wählen Sie die Vorlagen aus, die Sie ein- oder ein- en wieder einwählen, und wählen Sie dann **Anzeigen aus.**
 
    ![Die ausgewählten Vorlagen, die nicht ausgeblendet sind.](media/template-policies-3.png)
 
@@ -104,15 +104,14 @@ A: Alle neuen Vorlagen sind standardmäßig sichtbar. Sie können die Vorlage im
 
 A: Gelöschte Vorlagen sind in den Vorlagenrichtlinien nicht mehr vorhanden.
 
-**F: Kann ich einer Vorlagenrichtlinie im Admin Center Teams Benutzer zuweisen?**
+**F: Kann ich einer Vorlagenrichtlinie im Teams mehrere Benutzer zuweisen?**
 
 A: Ja.
 
 1. Wechseln Sie im Admin Center zu **Benutzer**.
 1. Wählen Sie in der Liste Benutzer die Benutzer aus, die Sie einer bestimmten Vorlagenrichtlinie zuweisen möchten.
 1. Wählen Sie Einstellungen bearbeiten aus, und ändern Sie das Feld Richtlinien für Vorlagen.
-1. Wählen Sie Übernehmen aus.
-   Weitere Informationen finden Sie unter Zuweisen [von Richtlinien zu Microsoft Teams – Microsoft Teams Microsoft \| Docs.](./assign-policies.md#assign-a-policy-to-a-batch-of-users)
+1. Wählen Sie Übernehmen aus. [Weitere Informationen](./assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users).
 
 **F: Wie kann ich alle Benutzer anzeigen, die einer bestimmten Richtlinie zugewiesen wurden?**
 
@@ -142,6 +141,6 @@ A: Nein, Vorlagenrichtlinien für EDU werden nicht unterstützt.
 
 - [Erstellen einer Teamvorlage aus einer vorhandenen Teamvorlage](./create-template-from-existing-template.md)
 
-- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](./assign-policies.md)
+- [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams – Microsoft Teams \| Microsoft Docs](./policy-assignment-overview.md)
 
 - [Batch zum Zuweisen von Benutzern zu einer Richtlinie](/powershell/module/teams/new-csbatchpolicyassignmentoperation)

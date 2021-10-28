@@ -1,7 +1,7 @@
 ---
 title: Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen
 author: cichur
-ms.author: v-cichur
+ms.author: serdars
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: edacf3cd2691a4f037882e25251ead3ec2521882
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011909"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605211"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
 > [!NOTE]
-> Der Wechsel zum Speichern von Teams-Besprechungsaufzeichnungen von Classic Stream zu OneDrive und SharePoint (ODSP) wurde seit dem 30. August 2021 abgeschlossen. Alle Aufzeichnungen werden jetzt in ODSP gespeichert. Diese Änderung setzt die Richtlinie "RecordingStorageMode" außer Kraft, und eine Änderung der Einstellung in PowerShell hat keine Auswirkung mehr.
+> Die Änderung des Speicherns Teams Von Classic Stream zu OneDrive and SharePoint (ODSP) wurde seit dem 30. August 2021 abgeschlossen. Alle Aufzeichnungen werden jetzt in ODSP gespeichert. Diese Änderung setzt die Richtlinie "RecordingStorageMode" außer Kraft, und eine Änderung der Einstellung in PowerShell hat keine Auswirkung mehr.
 
 |Datum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Ereignis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,7 +40,7 @@ ms.locfileid: "60011909"
 Microsoft Teams hat eine neue Methode zum Speichern von Besprechungsaufzeichnungen. Als erste Phase eines Übergangs vom klassischen Microsoft Stream zum [neuen Stream](/stream/streamnew/new-stream) speichert diese Methode Aufzeichnungen auf Microsoft OneDrive for Business und SharePoint in Microsoft 365 und bietet viele Vorteile.
 
 > [!NOTE]
-> Wenn eine Teams-Besprechungsaufzeichnung nicht erfolgreich auf OneDrive/SharePoint hochgeladen werden kann, wird die Fehlermeldung "Die Aufzeichnung wurde unerwartet beendet" angezeigt, und die Aufzeichnung wird stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem die Aufzeichnung in AMS gespeichert wurde, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch auf OneDrive/SharePoint oder Stream hochzuladen.
+> Wenn eine Teams-Besprechungsaufzeichnung nicht erfolgreich auf OneDrive/SharePoint hochgeladen werden kann, wird die Fehlermeldung "Die Aufzeichnung wurde unerwartet beendet" angezeigt, und die Aufzeichnung wird stattdessen vorübergehend in Azure Media Services (AMS) gespeichert. Nachdem die Aufzeichnung in AMS gespeichert wurde, werden keine Wiederholungsversuche ausgeführt, um die Aufzeichnung automatisch in OneDrive/SharePoint oder Stream hochzuladen.
 
 Besprechungsaufzeichnungen, die in AMS gespeichert sind, sind 21 Tage lang verfügbar, bevor sie automatisch gelöscht werden. Benutzer können das Video von AMS herunterladen, wenn sie eine Kopie aufbewahren müssen.
 
@@ -96,7 +96,7 @@ Die Option zur Besprechungsaufzeichnung ist eine Einstellung auf der Richtlinien
    ```
 
 > [!Note]
-> Wenn einige Ihrer Benutzer eine Richtlinie pro Organisator oder Benutzer zugewiesen haben, müssen Sie diese Einstellung für diese Richtlinie festlegen, wenn Sie möchten, dass diese Benutzer die Besprechungsaufzeichnungen auch in OneDrive for Business und SharePoint speichern. Weitere Informationen finden Sie unter [Besprechungsrichtlinien in Teams verwalten](meeting-policies-in-teams.md).
+> Wenn einige Ihrer Benutzer eine Richtlinie pro Organisator oder Benutzer zugewiesen haben, müssen Sie diese Einstellung für diese Richtlinie festlegen, wenn Sie möchten, dass diese Benutzer die Besprechungsaufzeichnungen auch in OneDrive for Business und SharePoint speichern. Weitere Informationen finden Sie unter [Besprechungsrichtlinien in Teams verwalten](meeting-policies-overview.md).
 
 ## <a name="opt-out-of-onedrive-for-business-and-sharepoint-to-continue-using-stream"></a>Deaktivieren von OneDrive for Business und SharePoint, um Stream weiterhin nutzen zu können
 
@@ -122,7 +122,7 @@ Set-CsTeamsMeetingPolicy -Identity Global -RecordingStorageMode "Stream"
 |Spontane/Geplante Besprechung                    |Anderes Besprechungsmitglied   |Besprechungsmitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. <br /><br />Der Organisator verfügt über Bearbeitungsrechte und kann freigeben.<br /><br /> Alle anderen Besprechungsmitglieder verfügen über Lesezugriff.|
 |Spontane/Geplante Besprechung mit externen Benutzern|Organisator              |Das OneDrive for Business-Konto des Organisators                     |Der Organisator verfügt über die vollständigen Rechte für die Aufzeichnung.<br /> <br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br /> Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
 |Spontane/Geplante Besprechung mit externen Benutzern|Anderes Besprechungsmitglied   |Mitglied, das auf Aufzeichnung geklickt hat                                  |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über vollständige Rechte auf die Aufzeichnung. Der Organisator verfügt über Bearbeitungsrechte und kann freigeben. <br /><br /> Alle anderen Besprechungsmitglieder aus demselben Mandanten wie der Organisator verfügen über Lesezugriff. <br /><br />Alle anderen externen Mitglieder haben keinen Zugriff, und der Organisator muss sie für sie freigeben.|
-|Kanalbesprechung                            |Kanalmitglied         |SharePoint-Speicherort von Teams für diesen Kanal. **Hinweis:** Das Hochladen von Kanalbeschriftungen nach SharePoint wird für IP-basierte Einschränkungen nicht unterstützt. Es wird empfohlen, [bedingten Azure-Zugriff zu verwenden.](/azure/active-directory/conditional-access/overview) |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über Bearbeitungsrechte auf die Aufzeichnung. <br /> <br />Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint-Berechtigungen des Kanals.|
+|Kanalbesprechung                            |Kanalmitglied         |Teams SharePoint den Speicherort für den Kanal. **Hinweis:** Kanalbeschriftungsaufzeichnungen werden SharePoint für IP-basierte Einschränkungen nicht unterstützt. Es wird empfohlen, [bedingten Azure-Zugriff zu verwenden.](/azure/active-directory/conditional-access/overview) |Ein Mitglied, das auf Aufzeichnung geklickt hat, verfügt über Bearbeitungsrechte auf die Aufzeichnung. <br /> <br />Die Berechtigungen jedes anderen Mitglieds basieren auf den SharePoint-Berechtigungen des Kanals.|
 
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
 
@@ -155,7 +155,7 @@ Da Videos wie jede andere Datei in OneDrive for Business und SharePoint behandel
 
 **Wie kann ich Untertitel verwalten?**
 
-Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen die [Aufzeichnungstranskription über Richtlinien aktivieren](/microsoftteams/cloud-recording) um sicherzustellen, dass ihre Benutzer die Möglichkeit haben, Besprechungen mit Transkription aufzeichnen zu können.
+Untertitel für Teams-Besprechungsaufzeichnungen sind während der Wiedergabe nur verfügbar, wenn der Benutzer die Transkription zum Zeitpunkt der Aufzeichnung aktiviert hatte. Administratoren müssen die [Aufzeichnungsaufzeichnung aktivieren,](meetings-policies-recording-and-transcription.md#allow-transcription) um sicherzustellen, dass ihre Benutzer Besprechungen mit Transkription aufzeichnen können.
 
 Untertitel helfen dabei, inklusive Inhalte für Zuschauer aller Fähigkeiten zu erstellen. Als Besitzer können Sie Untertitel in der Besprechungsaufzeichnung ausblenden, obwohl das Besprechungsprotokoll weiterhin in Teams verfügbar ist, es sei denn, Sie löschen es dort.
 
@@ -180,13 +180,13 @@ Das Video wird im Videoplayer von OneDrive for Business oder SharePoint abgespie
 
 Stream als Plattform wird in naher Zukunft nicht eingestellt. Die Videos, die sich aktuell in Stream befinden, bleiben dort, bis wir mit der Migration beginnen. Bei der Migration werden diese Videos auch nach OneDrive for Business oder SharePoint migriert. Weitere Informationen finden Sie unter [klassische Migration von Stream](/stream/streamnew/classic-migration).
 
-**Wie kann ich eine Aufbewahrungsbezeichnung auf Microsoft Teams-Besprechungsaufzeichnungen anwenden?**
+**Wie kann ich eine Aufbewahrungsbezeichnung auf Microsoft Teams anwenden?**
 
 Siehe [Aufbewahrungsbezeichnungen automatisch anwenden](/microsoft-365/compliance/apply-retention-labels-automatically).
 
 **Wie weise ich meinen Benutzern in Microsoft Teams Richtlinien zu, und welche Richtlinien haben Vorrang?**
 
-Siehe [Welche Richtlinie hat Vorrang?](./assign-policies.md#which-policy-takes-precedence).
+Siehe [Welche Richtlinie hat Vorrang?](./policy-assignment-overview.md#which-policy-takes-precedence).
 
 **Wo wird die Aufzeichnung gespeichert, wenn der Benutzer nicht über OneDrive for Business oder SharePoint verfügt oder das Speicherkontingent voll ist?**
 

@@ -21,19 +21,19 @@ ms.custom: ms.teamsadmincenter.policypackages.overview
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie mehr über Richtlinien in einer Bildungs- oder EDU-Umgebung sowie über die Verwendung und Verwaltung von Richtlinienpaketen in Microsoft Teams.
-ms.openlocfilehash: bda6341afa03e4bfebb2e9a619a42ad0a0b879e3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 80e4b7becb720a6e4e89740ce7bf8c1c49e33af9
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728164"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605381"
 ---
 # <a name="teams-policies-and-policy-packages-for-education"></a>Teams-Richtlinien und Richtlinienpakete für Bildung
 
 [!INCLUDE [policy-wizard-edu](includes/policy-wizard-edu.md)]
 
 > [!NOTE]
-> Wenn Sie generell mehr über Richtlinien in Microsoft Teams erfahren möchten, lesen Sie [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](assign-policies.md).
+> Wenn Sie generell mehr über Richtlinien in Microsoft Teams erfahren möchten, lesen Sie [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](policy-assignment-overview.md).
 
 ## <a name="admins-getting-started-with-microsoft-teams-policy-management"></a>Administratoren: erste Schritte mit der Microsoft Teams-Richtlinienverwaltung
 
@@ -41,7 +41,7 @@ Mit Microsoft Teams können Benutzer unter anderem an Onlinebesprechungen oder L
 
 Nachstehend finden Sie eine Liste der Hauptrichtlinienbereiche, die in Microsoft Teams verfügbar sind. Wenn Sie mehr über die Richtlinien in den einzelnen Bereichen und die von ihnen gesteuerten Funktionen wissen möchten, verwenden Sie die folgenden Links:
 
-- [Besprechungen](meeting-policies-in-teams.md)
+- [Besprechungen](meeting-policies-overview.md)
 - [Liveereignisse](teams-live-events/configure-teams-live-events.md)
 - [Anrufe](teams-calling-policy.md) 
 - [Nachrichten](messaging-policies-in-teams.md)
@@ -121,7 +121,7 @@ Ein Richtlinienpaket in Teams kombiniert vordefinierte Richtlinien und Richtlini
 
 Bildungseinrichtungen im Allgemeinen haben viele Benutzer mit individuellen Bedürfnissen, je nach Alter und Reife der Schüler. So möchten Sie beispielsweise Lehrkräften und Mitarbeitern Vollzugriff auf Microsoft Teams gewähren, die Funktionen von Microsoft Teams aber einschränken, um eine sichere und fokussierte Lernumgebung für Schüler zu fördern. Sie können Richtlinienpakete verwenden, um die Einstellungen entsprechend der Anforderungen unterschiedlicher Kohorten in Ihrer Bildungseinrichtung anzupassen.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > Unsere Hauptempfehlung ist, dass Sie statt eines Richtlinienpakets die globale (organisationsweiter Standard) Richtliniendefinition für Lernende verwenden. Dadurch wird sichergestellt, dass neue Benutzer in Ihrer Organisation immer über den strengsten Richtliniensatz für Lernende verfügen. Wenn diese Empfehlung nicht den Anforderungen Ihrer Institution entspricht, kann eines der unten aufgeführten Lernenden-Richtlinienpakete eine gute Alternative sein. 
 
 Ähnlich wie die Richtlinienliste weiter oben in diesem Artikel definieren Richtlinienpakete Richtlinien für:
@@ -180,7 +180,7 @@ Um einem oder mehreren Benutzern ein Richtlinienpaket zuzuweisen, wechseln Sie i
 
 ![Screenshot zur Vorgehensweise zum Zuweisen eines Richtlinienpakets im Admin Center.](media/policy-packages-healthcare-assign.png)
 
-Weitere Informationen hierzu finden Sie unter [Zuweisen eines Richtlinienpakets](manage-policy-packages.md#assign-a-policy-package).
+Weitere Informationen hierzu finden Sie unter [Zuweisen eines Richtlinienpakets](assign-policy-packages.md).
 
 Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später eine andere Richtlinie zuweisen, hat die neuere Vorrang.
 
@@ -190,13 +190,13 @@ Wenn einem Benutzer eine Richtlinie zugewiesen wurde und Sie ihm dann später ei
 
 Die Gruppenzuweisung von Richtlinienpaketen ermöglicht es Ihnen, mehrere Richtlinien einer Gruppe von Benutzern wie z. B. einer Sicherheitsgruppe oder einer Verteilerliste zuzuweisen. Die Richtlinienzuweisung wird anhand von Prioritätsregeln an die Mitglieder der Gruppe weitergegeben. Wenn Mitglieder einer Gruppe hinzugefügt oder daraus entfernt werden, werden ihre geerbten Richtlinienzuweisungen entsprechend aktualisiert. Diese Methode wird für Gruppen mit bis zu 50.000 Benutzern empfohlen, sie eignet sich aber auch für größere Gruppen.
 
-Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe zuweisen](assign-policies.md#assign-a-policy-package-to-a-group).
+Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einer Gruppe zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-group).
 
 #### <a name="assign-a-policy-package-to-a-large-set-batch-of-users"></a>Ein Richtlinienpaket einer großen Anzahl von Benutzern (Batch) zuweisen
 
 Wenn Sie ein Richtlinienpaket einer großen Anzahl von Benutzern gleichzeitig zuweisen möchten, verwenden Sie hierfür die Richtlinienpaket-Batch-Zuweisung. Verwenden Sie das Cmdlet [New-CsBatchPolicyPackageAssignmentOperation](/powershell/module/teams/new-csbatchpolicypackageassignmentoperation), um einen Benutzer-Batch und das Richtlinienpaket zu senden, das Sie zuweisen möchten. Die Zuweisungen werden als Hintergrundvorgänge verarbeitet, und für jeden Batch wird eine Vorgangs-ID generiert.
 
-Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policies.md#assign-a-policy-package-to-a-batch-of-users).
+Ein Batch kann bis zu 5.000 Benutzer umfassen. Sie können Benutzer durch Angabe ihrer Objekt-ID, des UPN, der SIP-Adresse oder der E-Mail-Adresse hinzufügen. Weitere Informationen hierzu finden Sie unter [Ein Richtlinienpaket einem Batch von Benutzern zuweisen](assign-policy-packages.md#assign-a-policy-package-to-a-batch-of-users).
 
 ## <a name="policies-that-should-be-assigned-for-student-safety"></a>Richtlinien, die zum Schutz von Schülern und Studenten zugewiesen werden sollten
 

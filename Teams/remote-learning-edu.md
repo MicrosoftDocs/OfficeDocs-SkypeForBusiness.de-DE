@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1e6bd14eabadc96084973d3e998291a577dbbfc7
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729814"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605841"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -93,12 +93,12 @@ Eine exemplarische Vorgehensweise zum Erstellen von Teams finden Sie hier: [Erst
 
 Teams-Richtlinien bieten die Möglichkeit, die für bestimmte Benutzer oder Benutzergruppen verfügbaren Optionen zu steuern. Richtlinien können angewendet werden, um zu definieren, wer private Chats, private Anrufe, Besprechungsplanung, Inhaltstypen, die geteilt werden können, und vieles mehr verwenden darf.
 
-**Mitarbeiter, Lehrkräfte und Studenten in Hochschulen** profitieren von den Funktionen der Standardrichtlinien (Global). Einige zusätzliche Richtlinieneinstellungen können aktiviert werden, um Teams weitere Funktionen hinzuzufügen, beispielsweise durch [Aktivieren der Übersetzungsfunktionen in der Messagingrichtlinie](messaging-policies-in-teams.md#messaging-policy-settings) und [Zulassen der automatischen Besprechungstranskription in der Besprechungsrichtlinie](meeting-policies-in-teams.md#allow-transcription).
+**Mitarbeiter, Lehrkräfte und Studenten in Hochschulen** profitieren von den Funktionen der Standardrichtlinien (Global). Einige zusätzliche Richtlinieneinstellungen können aktiviert werden, um Teams weitere Funktionen hinzuzufügen, beispielsweise durch [Aktivieren der Übersetzungsfunktionen in der Messagingrichtlinie](messaging-policies-in-teams.md#messaging-policy-settings) und [Zulassen der automatischen Besprechungstranskription in der Besprechungsrichtlinie](meetings-policies-recording-and-transcription.md#allow-transcription).
 
 Für **Schüler an Grundschulen und weiterführende Schulen** sind möglicherweise eingeschränkte Funktionen erforderlich. Mit Richtlinien können die Möglichkeiten der Schüler eingeschränkt werden. Da die Schüler/Studenten meist die größte Gruppe von Benutzern ausmachen und für sie häufig die restriktivsten Einstellungen gelten, wird empfohlen, dass Änderungen an den Richtlinien für Schüler/Studenten an den Richtlinien "Global (organisationsweite Standardeinstellung)" durchgeführt werden.
 
 > [!IMPORTANT]
-> Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „Personen automatisch zulassen“ auf „Jede/r in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus dem Wartebereich zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](./meeting-policies-in-teams.md#automatically-admit-people).
+> Bei Besprechungsrichtlinien, die Benutzern zugewiesen werden, empfiehlt es sich, die Einstellung „Personen automatisch zulassen“ auf „Jede/r in Ihrer Organisation“ festzulegen. Mit dieser Einstellung wird sichergestellt, dass nicht-authentifizierte Benutzer aus dem Wartebereich zugelassen werden müssen, bevor sie an Teams-Besprechungen teilnehmen können. Weitere Informationen finden Sie unter [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-participants-and-guests.md#automatically-admit-people).
 
 **Mitarbeitern und Lehrkräften an Grundschulen** sollten Richtlinien zugewiesen werden, die ihnen die Kernfunktionen erlauben, die für Schüler möglicherweise eingeschränkt sind. Erstellen Sie neue Richtlinien, die private Chats und die Besprechungsplanung zulassen (Standardeinstellungen für eine neue Richtlinie). [Weisen Sie Mitarbeitern und Pädagogen diese Richtlinien in großen Mengen zu](batch-group-policy-assignment-edu.md).
 

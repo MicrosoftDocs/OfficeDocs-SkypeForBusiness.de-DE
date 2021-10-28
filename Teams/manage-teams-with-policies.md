@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 307eccf1d6e919593cdfadaf2b902a7a15c7b4cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a08e48a37b90a7d8a99053d01a844c3451314e00
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588147"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605591"
 ---
 # <a name="manage-teams-with-policies"></a>Verwalten Teams mit Richtlinien
 
@@ -28,7 +28,7 @@ Richtlinien sind ein wichtiger Bestandteil der Verwaltung Teams. In diesem Artik
 
 ## <a name="what-you-use-policies-for"></a>Für was Sie Richtlinien verwenden
 
-Richtlinien werden verwendet, um viele Aufgaben in Ihrer Organisation in verschiedenen Bereichen, z. B. Nachrichten, Besprechungen und Anwendungen, auszuführen. Zu den Dingen, die Sie tun können, gehören das Planen von Besprechungen in einem Teams-Kanal, das Ermöglichen der Bearbeitung gesendeter Nachrichten durch Benutzer und das Steuern, ob Benutzer Apps an die App-Leiste Teams können.
+Richtlinien werden verwendet, um viele Aufgaben in Ihrer Organisation in verschiedenen Bereichen, z. B. Nachrichten, Besprechungen und Anwendungen, auszuführen. Zu den Dingen, die Sie tun können, gehören das Planen von Besprechungen in einem Teams-Kanal, das Bearbeiten gesendeter Nachrichten durch Benutzer und das Steuern, ob Benutzer Apps an die App-Leiste Teams können.
 
 ## <a name="how-to-assign-policies"></a>Zuweisen von Richtlinien
 
@@ -42,7 +42,7 @@ Weitere Informationen zum Zuweisen von Richtlinien finden [Sie hier.](policy-ass
 
 Richtlinien werden mit dem Microsoft Teams Admin Center oder [mithilfe von PowerShell verwaltet.](./teams-powershell-managing-teams.md#manage-policies-via-powershell)
 
-Eine App-Setuprichtlinie kann es Ihnen z. B. ermöglichen, Benutzern das Hochladen benutzerdefinierter Apps, das Installieren von Apps im Auftrag Ihrer Benutzer und das Anheften von Apps an die Teams App-Leiste zu ermöglichen. Diese Richtlinien werden im Teams Admin Center konfiguriert.
+Mit einer App-Setuprichtlinie können Sie Benutzern beispielsweise das Hochladen benutzerdefinierter Apps, das Installieren von Apps im Namen Ihrer Benutzer und das Anheften von Apps an die Teams ermöglichen. Diese Richtlinien werden im Teams Admin Center konfiguriert.
 
 ![Screenshot der App-Setuprichtlinie.](media/app-setup-policy.png)
 
@@ -62,10 +62,10 @@ Die folgenden Richtlinien können mit einem Konto verwaltet Microsoft Teams.
 
 Richtlinientyp | Beschreibung
 ------------|------------
-[Richtlinienpakete](manage-policy-packages.md) | Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Einstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben.
-[Besprechungsrichtlinien](meeting-policies-in-teams.md) | Eine Besprechungsrichtlinie wird verwendet, um die Features zu steuern, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern in Ihrer Organisation geplant wurden. Zu den Besprechungsrichtlinien gehören die folgenden Themen:<br> - Richtlinien für Audio und Video<br> - Richtlinien für die Inhalts- und Bildschirmfreigabe<br> – Teilnehmer-, Gäste- und Zugriffsrichtlinien<br> - Allgemeine Richtlinien
+[Richtlinienpakete](manage-policy-packages.md) | Ein Richtlinienpaket in Microsoft Teams eine Sammlung vordefinierter Richtlinien und Einstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben.
+[Besprechungsrichtlinien](meeting-policies-overview.md) | Eine Besprechungsrichtlinie wird verwendet, um die Features zu steuern, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern in Ihrer Organisation geplant wurden. Zu den Besprechungsrichtlinien gehören die folgenden Themen:<br> - Richtlinien für Audio und Video<br> - Richtlinien für die Inhalts- und Bildschirmfreigabe<br> – Teilnehmer-, Gäste- und Zugriffsrichtlinien<br> - Allgemeine Richtlinien
 [Richtlinien für Sprachanrufe und Anrufe](voice-and-calling-policies.md)| Richtlinien für Sprach- und Anrufanrufe verwalten diese Einstellungen über Teams wie Notrufe, Anrufrouting und Anrufer-ID.
-[App-Richtlinien](app-policies.md)| App-Richtlinien werden zum Steuern von Anwendungen in Microsoft Teams. Administratoren können zulassen oder blockieren, welche Apps Benutzer installieren, Anwendungen an die Teams-App-Leiste eines Benutzers anheften und Anwendung im Auftrag Ihrer Benutzer installieren können.
+[App-Richtlinien](app-policies.md)| App-Richtlinien werden zum Steuern von Anwendungen in Microsoft Teams. Administratoren können zulassen oder blockieren, welche Apps Benutzer installieren können, Anwendungen an die Teams-App-Leiste eines Benutzers anheften und Anwendung im Auftrag Ihrer Benutzer installieren.
 [Messagingrichtlinien](messaging-policies-in-teams.md)| Messagingrichtlinien steuern die Verfügbarkeit von Chats und Kanalfeatures.
 
 ## <a name="related-topics"></a>Verwandte Themen
@@ -74,4 +74,4 @@ Richtlinientyp | Beschreibung
 * [Verwalten von Feedbackrichtlinien in Microsoft Teams](manage-feedback-policies-in-teams.md)
 * [Verwalten von Teamrichtlinien in Microsoft Teams](teams-policies.md)
 * [Einrichten von Live-Ereignissen in Microsoft Teams](teams-live-events/set-up-for-teams-live-events.md)
-* [Teams für Education von Richtlinien und Richtlinienpaketen](policy-packages-edu.md)
+* [Teams für Education Von Richtlinien und Richtlinienpaketen](policy-packages-edu.md)

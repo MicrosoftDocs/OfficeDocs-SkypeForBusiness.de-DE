@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen von Besprechungsrichtlinien in Teams verwalten. Steuern Sie über die Richtlinieneinstellungen die Features, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: 3abdf46229884996d2a0ba180a36928983c4f7d2
-ms.sourcegitcommit: 4a9ea18808d17e2eb6e4e2e7e3894e33c14e8631
+ms.openlocfilehash: 651d6ec34a86ac7e8468aac8b8a94b8e0c5f18a5
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/22/2021
-ms.locfileid: "59474950"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605241"
 ---
 # <a name="manage-meeting-policies-in-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -579,6 +579,6 @@ Besprechungsreaktionen sind standardmäßig deaktiviert. Das Deaktivieren der Re
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
 - [Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern](meeting-policies-restricted-anonymous-access.md)
 - [Einrichten von Webinaren in Microsoft Teams](set-up-webinars.md)

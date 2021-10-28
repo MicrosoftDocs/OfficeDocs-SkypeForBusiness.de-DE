@@ -20,12 +20,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b7ed3de69ed5deffcd0681f9f040dfeb074b2aa1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c41219f080e2270ed27d52688a03891f74ac26d
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596349"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605361"
 ---
 # <a name="meetings-and-conferencing-in-microsoft-teams"></a>Besprechungen und Konferenzen in Microsoft Teams
 
@@ -103,7 +103,7 @@ Besprechungsrichtlinien werden verwendet, um zu steuern, welche Features für Be
 
 | Frage | Aktion |
 |--------------|--------|
-|<ul><li>Soll ich die ursprünglichen Besprechungsrichtlinien anpassen?</li><li>Benötige ich mehrere Besprechungsrichtlinien?</li><li>Wie bestimme ich, für welche Benutzergruppen welche Besprechungsrichtlinien gelten?</li></ul>|<br>Lesen Sie [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-in-teams.md).|
+|<ul><li>Soll ich die ursprünglichen Besprechungsrichtlinien anpassen?</li><li>Benötige ich mehrere Besprechungsrichtlinien?</li><li>Wie bestimme ich, für welche Benutzergruppen welche Besprechungsrichtlinien gelten?</li></ul>|<br>Lesen Sie [Verwalten von Besprechungsrichtlinien in Teams](meeting-policies-overview.md).|
 |||
 
 ### <a name="audio-conferencing"></a>Audiokonferenzen
@@ -137,12 +137,12 @@ Verwenden Sie Aktivitätsberichte, um zu erfahren, wie Benutzer in Ihrer Organis
 
 Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnvoll sein, diese Einstellungen zu ändern.
 
-### <a name="bandwidth-planning"></a>Bandbreitenplanung 
+### <a name="bandwidth-planning"></a>Bandbreitenplanung
 
 Mit der Bandbreitenplanung kann Ihre Organisationen die Bandbreite schätzen, die erforderlich ist, um Besprechungen in Weitverkehrsnetzen und Internetlinks zu unterstützen, damit bestätigt werden kann, dass das Netzwerk ordnungsgemäß bereitgestellt wurde, um einen skalierten Besprechungsdienst zu unterstützen.
 
 > [!IMPORTANT]
-> In Teams können Benutzer keine Besprechungen oder Liveereignisse planen, wenn sie offline oder mit begrenzter Bandbreite ausgeführt werden. 
+> In Teams können Benutzer keine Besprechungen oder Liveereignisse planen, wenn sie offline oder mit begrenzter Bandbreite ausgeführt werden.
 
 | Frage | Aktion |
 |--------------|--------|
@@ -160,7 +160,7 @@ Weitere Informationen finden Sie unter [Aufzeichnung einer Teams-Cloudbesprechun
 
 | Frage | Aktion |
 |--------------|--------|
-| Soll ich den Transkriptionsdienst für Besprechungen einschalten?|Lesen Sie [Aktivieren oder Deaktivieren der Aufzeichnungstranskription](cloud-recording.md#turn-on-or-turn-off-cloud-recording).|
+| Soll ich den Transkriptionsdienst für Besprechungen einschalten?|Lesen Sie [Aktivieren oder Deaktivieren der Aufzeichnungstranskription](meetings-policies-recording-and-transcription.md#allow-transcription).|
 |||
 
 

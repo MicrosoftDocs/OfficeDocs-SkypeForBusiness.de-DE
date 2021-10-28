@@ -24,12 +24,12 @@ ms.custom:
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.discover
 - ms.teamsadmincenter.teams.teamspolicies.new.tooltip.create
 description: Erfahren Sie, wie Sie Teamkanalrichtlinien in Ihrer Organisation verwenden und verwalten, um zu steuern, welche Benutzer in Teams und Kanälen arbeiten können.
-ms.openlocfilehash: 727bb8b133d5119cd396c79561dde453281206f0
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: 787978d6863a66b39c75f3f2c7315fe1495730c3
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432267"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605611"
 ---
 # <a name="manage-channel-policies-in-microsoft-teams"></a>Verwalten von Kanalrichtlinien in Microsoft Teams
 
@@ -64,10 +64,10 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstel
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwalten Teams verbundener Websites und Kanalwebsites](/SharePoint/teams-connected-sites)
+[Verwalten Teams verbundenen Websites und Kanalwebsites](/SharePoint/teams-connected-sites)
 
 [Private Kanäle in Teams](private-channels.md)
 
-[Benutzern in Microsoft Teams Richtlinien zuweisen](assign-policies.md)
+[Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)
 
-[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy?view=skype-ps)
+[New-CsTeamsChannelsPolicy](/powershell/module/skype/new-csteamschannelspolicy)

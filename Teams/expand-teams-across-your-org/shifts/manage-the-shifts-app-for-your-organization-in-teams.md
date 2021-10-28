@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontline einrichten und verwalten.
+description: Erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d7c1bdde4764b56e8c45a8ad9356437525f00b56
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 87389dfaba68de8cfe02f3291e03d593bb9de75b
+ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045721"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60605831"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -76,7 +76,7 @@ Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass
  
 Teams enthält eine integrierte Setuprichtlinie für FirstLineWorker-Apps, die Sie Mitarbeitern in der Frontline in Ihrer Organisation zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe.
 
-Zum Anzeigen der FirstLineWorker-Richtlinie wechseln Sie im linken Navigationsbereich Microsoft Teams Admin Center zu **Teams-Richtlinien für**  >  **die App.**
+Zum Anzeigen der FirstLineWorker-Richtlinie wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams-Setuprichtlinien**  >  **für Ihre App.**
 
 :::image type="content" source="../../media/firstline-worker-app-setup-policy-new.png" alt-text="Screenshot der Setuprichtlinie für die FirstLineWorker-App im Microsoft Teams Admin Center" lightbox="../../media/firstline-worker-app-setup-policy-new.png":::
 
@@ -95,4 +95,4 @@ Damit Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst im 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Schichten-Hilfe für Mitarbeiter an vorderer Front](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Zuweisen von Richtlinien zu Benutzern in Teams](../../assign-policies.md)
+- [Zuweisen von Richtlinien zu Benutzern in Teams](../../policy-assignment-overview.md)
