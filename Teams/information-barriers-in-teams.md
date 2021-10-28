@@ -1,6 +1,6 @@
 ---
 title: Informationsbarrieren in Microsoft Teams
-description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie sie sich auf ihre Teams.
+description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie diese sich auf Ihre Teams.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,30 +16,30 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b0843ce2adf400dca9cf426789adc6180daf3f57
-ms.sourcegitcommit: 5a28d052379aef67531d3023cbe4dff30dba1136
+ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
+ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60465845"
+ms.lasthandoff: 10/28/2021
+ms.locfileid: "60607399"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
-Informationsbarrieren (Information Barrieren, IBs) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. PSP-Dateien sind z. B. hilfreich, wenn eine Abteilung Informationen verwendet, die nicht für andere Abteilungen freigegeben werden sollten. PSP-Codes sind auch hilfreich, wenn eine Gruppe isoliert oder daran gehindert werden muss, mit Personen außerhalb dieser Gruppe zu kommunizieren.
+Informationsbarrieren (Information Barrieren, IBs) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. PSP-Dateien sind z. B. hilfreich, wenn eine Abteilung Informationen verwendet, die nicht für andere Abteilungen freigegeben werden sollten. PSP-Codes sind auch hilfreich, wenn eine Gruppe isoliert werden muss oder die Kommunikation mit Personen außerhalb dieser Gruppe nicht möglich sein muss.
 
-Beispielsweise Microsoft Teams Informationsbarrieren die folgenden Arten von nicht autorisierter Zusammenarbeit bestimmen und verhindern:
+Im Microsoft Teams können Informationsbarrieren die folgenden Arten von nicht autorisierter Zusammenarbeit bestimmen und verhindern:
 
 - Hinzufügen eines Benutzers zu einem Team oder Kanal
 - Benutzerzugriff auf Team- oder Kanalinhalte
 - Benutzerzugriff auf 1:1- und Gruppenchats
 - Benutzerzugriff auf Besprechungen
-- Verhindert Nachschlage- und Such suchen, Benutzer werden in der Personenauswahl nicht angezeigt.
+- Verhindert Nachschlage- und Such suchen, benutzer werden in der Personenauswahl nicht angezeigt.
 
 >[!NOTE]
 >- Gruppen zur Informationsbarriere können nicht mandantenübergreifend erstellt werden.
 >- Die Verwendung von Bots, Azure Active Directory-Apps (Azure AD), APIs zum Senden von Aktivitätsfeedbenachrichtigungen und einige APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
 >- Private Kanäle sind mit von Ihnen konfigurierten Richtlinien für Informationsbarrieren kompatibel.
->- Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit Teams verbunden sind, finden Sie unter Segmente, die mit Microsoft Teams [sind.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+>- Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit ihren Teams verbunden sind, finden Sie unter Segmente, die Microsoft Teams [sind.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 ## <a name="background"></a>Hintergrund
 
@@ -48,7 +48,7 @@ Der primäre Treiber für PSP-Daten stammt aus der Finanzdienstleisterbranche. D
 Seit der Einführung von PSP-Codes finden sie jedoch in vielen anderen Bereichen hilfreich. Weitere häufige Szenarien sind:
 
 - **Bildung:** Schüler in einer Schule können keine Kontaktdetails für Schüler/Studenten anderer Bildungseinrichtungen nachschauen.
-- **Rechtliches:** Die Vertraulichkeit der Daten, die sich ein Kunde von einem Kunden errät, wird gewahrt, und es wird verhindert, dass ein Kunde darauf zutritt, wenn die Firma, die einen anderen Kunden repräsentiert, darauf zu zugegriffen hat.
+- **Rechtliches:** Die Vertraulichkeit der Daten, die sich ein Kunde von einem Kunden errät, wird gewahrt, und es wird verhindert, dass ein Kunde darauf zugreifen kann, wenn die Firma, die einen anderen Kunden repräsentiert, darauf zu zugegriffen wird.
 - **Behörden:** Der Zugriff auf Informationen und die Steuerung sind auf Abteilungen und Gruppen beschränkt.
 - **Professional:Eine** Gruppe von Personen in einem Unternehmen kann während eines Kundeneinsatzes nur über Gastzugriff mit einem Kunden oder einem bestimmten Kunden chatten.
 
@@ -114,11 +114,11 @@ IB-Richtlinien werden aktiviert, wenn die Teams Ereignisse stattfinden:
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Auswirkungen von Richtlinienänderungen auf vorhandene Chats
 
-Wenn der IB-Richtlinienadministrator Änderungen an einer Richtlinie vor nimmt oder eine Richtlinienänderung aufgrund einer Änderung am Profil eines Benutzers (z. B. bei einer Auftragsänderung) aktiviert wird, durchsucht der Auswertungsdienst für Informationsbarriererichtlinien automatisch die Mitglieder, um sicherzustellen, dass deren Mitgliedschaft im Team keine Richtlinien verletzt.
+Wenn der IB-Richtlinienadministrator Änderungen an einer Richtlinie vor nimmt oder eine Richtlinienänderung aufgrund einer Änderung am Profil eines Benutzers (z. B. bei einer Auftragsänderung) aktiviert wird, durchsucht der Auswertungsdienst für Informationsbarriererichtlinien automatisch die Mitglieder, um sicherzustellen, dass ihre Mitgliedschaft im Team keine Richtlinien verletzt.
 
 Wenn es einen vorhandenen Chat oder eine andere Kommunikation zwischen Benutzern gibt und eine neue Richtlinie festgelegt oder eine vorhandene Richtlinie geändert wurde, wertet der Dienst vorhandene Kommunikationen aus, um sicherzustellen, dass die Kommunikation weiterhin stattfinden darf. 
 
-- **1:1 Chat:** Wenn die Kommunikation zwischen zwei Benutzern nicht mehr zulässig ist (aufgrund der Anwendung auf einen oder beide Benutzer einer Richtlinie, die Kommunikation blockiert), wird die weitere Kommunikation blockiert. Ihre vorhandenen Chatunterhaltungen werden schreibgeschützt.
+- **1:1 Chat:** Wenn die Kommunikation zwischen zwei Benutzern nicht mehr zulässig ist (aufgrund der Anwendung auf einen oder beide Benutzer einer Richtlinie, die die Kommunikation blockiert), wird die weitere Kommunikation blockiert. Ihre vorhandenen Chatunterhaltungen werden schreibgeschützt.
 
     Hier ist ein Beispiel, das zeigt, dass der Chat sichtbar ist.
 
@@ -148,7 +148,7 @@ Derzeit kommt es zu den folgenden Szenarien, wenn eine IB-Richtlinie einen ander
 
 - **Personenauswahl:** Blockierte Benutzer werden in der Personenauswahl nicht angezeigt.
 
-    ![Screenshot der Teams, dass die Richtlinie die Anzeige von Informationen eines anderen Benutzers verhindert.](media/information-barriers-people-picker.png)
+    ![Screenshot des Teams, mit dem der Benutzer darüber informiert wird, dass die Richtlinie die Anzeige von Informationen eines anderen Benutzers verhindert.](media/information-barriers-people-picker.png)
 
 - **Registerkarte Aktivität:** Wenn ein Benutzer die Registerkarte **Aktivität eines** blockierten Benutzers besucht, werden keine Beiträge angezeigt. (Auf **der Registerkarte** Aktivität werden nur Kanalbeiträge angezeigt, und es gibt keine gemeinsamen Kanäle zwischen den beiden Benutzern.)
 
@@ -176,11 +176,11 @@ Derzeit kommt es zu den folgenden Szenarien, wenn eine IB-Richtlinie einen ander
     > [!div class="mx-imgBorder"]
     > ![Screenshot, der zeigt, dass der Benutzer den Chat blockiert hat.](media/ib-after-chat-contacts-policy.png)
 
-- **Skype** zu Teams Migration: Während einer Migration von Skype for Business zu Teams werden alle Benutzer – auch diejenigen Benutzer, die von den IB-Richtlinien blockiert werden – zu Teams. Diese Benutzer werden dann wie oben beschrieben behandelt.
+- **Skype** zu Teams Migration: Während einer Migration von Skype for Business zu Teams werden alle Benutzer – auch diejenigen Benutzer, die durch IB-Richtlinien blockiert sind – zu Teams. Diese Benutzer werden dann wie oben beschrieben behandelt.
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams von Richtlinien und SharePoint Websites
 
-Wenn ein Team erstellt wird, wird eine SharePoint für die Dateierfahrung bereitgestellt und Microsoft Teams zugeordnet. Richtlinien zur Informationsbarriere werden auf dieser Website und SharePoint standardmäßig nicht berücksichtigt. Um Informationsbarrieren in SharePoint und OneDrive zu aktivieren, folgen Sie den Anleitungen und Schritten im Artikel Verwenden von Informationsbarrieren [SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) Artikel.
+Beim Erstellen eines Teams wird eine SharePoint-Website bereitgestellt und Microsoft Teams für die Dateierfahrung zugeordnet. Richtlinien zur Informationsbarriere werden auf dieser Website SharePoint Dateien standardmäßig nicht berücksichtigt. Um Informationsbarrieren in SharePoint und OneDrive zu aktivieren, folgen Sie den Anleitungen und Schritten im Artikel Verwenden von Informationsbarrieren [SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) Artikel.
 
 ## <a name="information--barrier-modes-and-teams"></a>Informationsbarrieremodi und Teams
 
@@ -189,7 +189,7 @@ Der Informationsbarrieremodus hilft dabei, die Personen zu stärken, die einem T
 - **Öffnen:** Diese Konfiguration ist der standardmäßige IB-Modus für alle vorhandenen Gruppen, die vor der Aktivierung von Informationsbarrieren bereitgestellt wurden. In diesem Modus gelten keine IB-Richtlinien.
 - **Implizit:** Diese Konfiguration ist der standardmäßige IB-Modus, wenn ein Team bereitgestellt wird, nachdem Informationsbarrieren aktiviert wurden. Im impliziten Modus können Sie alle kompatiblen Benutzer in der Gruppe hinzufügen.
 
-Microsoft 365 Gruppen, die vor der Aktivierung einer Informationsbarriererichtlinie erstellt werden, werden standardmäßig automatisch auf *"Öffnen"* festgelegt. Nachdem Sie die IB-Richtlinien für Ihren Mandanten aktiviert haben, müssten Sie den Modus aktualisieren, der Gruppen und Websites neu bewertet und dazu führt, dass nicht kompatible Benutzer automatisch aus diesen Gruppen und Websites entfernt werden. Wenn Sie die  Open Mode-Konfiguration für vorhandene mit Teams verbundene Gruppen ändern müssen, um complianceanforderungen für Ihre Organisation zu erfüllen, müssen Sie die [IB-Modi](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) für SharePoint-Websites aktualisieren, die mit dem Teams-Team verbunden sind.
+Microsoft 365 Gruppen, die vor der Aktivierung einer Informationsbarriererichtlinie erstellt werden, werden standardmäßig automatisch auf *"Öffnen"* festgelegt. Nachdem Sie die IB-Richtlinien für Ihren Mandanten aktiviert haben, müssten Sie den Modus aktualisieren, der Gruppen und Websites neu bewertet und dazu führt, dass nicht kompatible Benutzer automatisch aus diesen Gruppen und Websites entfernt werden. Wenn Sie die  Open Mode-Konfiguration für vorhandene mit Teams verbundene Gruppen ändern müssen, um die Complianceanforderungen Ihrer Organisation zu erfüllen, müssen Sie die [IB-Modi](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) für SharePoint-Websites aktualisieren, die mit dem Teams-Team verbunden sind.
 
 Verwenden Sie [das Cmdlet Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) mit dem *Parameter InformationBarrierMode,* der dem Modus entspricht, den Sie für Ihre Segmente verwenden möchten. Zulässige Liste der Werte für den *Parameter InformationBarrierMode* sind *Open* und *Implicit.*
 
@@ -199,27 +199,24 @@ Um beispielsweise den  impliziten Modus für eine Gruppe Microsoft 365 zu konfig
 Set-UnifiedGroup -InformationBarrierMode Implicit
 ```
 
->[!NOTE]
->Wenn der globale Administrator den IB-Modus einer vorhandenen Microsoft 365-Gruppe aktualisiert, die mit Microsoft Teams *verbunden* ist, stellen Sie sicher, dass der IB-Modus der Teams-verbundenen Website in *Implicit aktualisiert wird.* Weitere Informationen finden Sie unter [Erste Schritte mit Informationsbarrieren](/microsoft-365/compliance-information-barriers.md#information-barriers-modes-preview)]
-
 Weitere Informationen dazu, wie Benutzer automatisch aus Gruppen entfernt werden können, finden Sie im Artikel zum [Compliance-Assistenten für](/sharepoint/information-barriers-compliance-assistant) Informationsbarrieren (Vorschau).
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
-Weitere Informationen zu Lizenzen und Berechtigungen, Microsoft 365 Plänen und Preisen finden Sie unter Lizenzierungsrichtlinien für & [Compliance.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+Weitere Informationen zu Lizenzen und Berechtigungen, Plänen und Microsoft 365 Preisen finden Sie unter Lizenzierungsrichtlinien für & [Compliance.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
 - **Benutzer können nicht an Ad-hoc-Besprechungen** teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Besprechungen teilnehmen, wenn die Größe der Teilnehmerliste größer ist als die Teilnahmebeschränkungen für [Besprechungen.](limits-specifications-teams.md) Die Ursache hierauf ist, dass IB-Prüfungen darauf beruhen, ob Benutzer einer Besprechungschatliste hinzugefügt werden können und nur dann, wenn sie der Liste hinzugefügt werden können, an der Besprechung teilnehmen können. Ein Benutzer, der einer Besprechung beitritt, fügt den Benutzer einmal zur Liste hinzu. daher kann die Mannschaftsliste schnell auffüllen. Sobald die Chatliste die Teilnahmebeschränkungen für die Besprechung [erreicht](limits-specifications-teams.md)hat, können der Besprechung keine weiteren Benutzer hinzugefügt werden. Wenn IB für die Organisation aktiviert ist und die Chatliste für eine Besprechung voll ist, können neue Benutzer (benutzer, die noch nicht in der Liste vorhanden sind) nicht an der Besprechung teilnehmen. Wenn jedoch IB für die Organisation nicht aktiviert ist und die Liste der Besprechungschats voll ist, können neue Benutzer (benutzer, die noch nicht in der Liste vorhanden sind) an der Besprechung teilnehmen, obwohl die Chatoption in der Besprechung nicht angezeigt wird. Eine kurzfristige Lösung besteht im Entfernen inaktiver Mitglieder aus der Liste der Besprechungschats, um Platz für neue Benutzer zu schaffen. Wir werden jedoch die Größe der Besprechungschat-Liste zu einem späteren Zeitpunkt erhöhen.
 - **Benutzer können nicht an Kanalbesprechungen** teilnehmen: Wenn IB-Richtlinien aktiviert sind, dürfen Benutzer nicht an Kanalbesprechungen teilnehmen, wenn sie kein Mitglied des Teams sind. Die Ursache hierauf ist, dass IB-Prüfungen darauf beruhen, ob Benutzer einer Besprechungschatliste hinzugefügt werden können und nur dann, wenn sie der Liste hinzugefügt werden können, an der Besprechung teilnehmen können. Der Chatthread in einer Kanalbe besprechung steht nur Mitgliedern des Teams/Kanals zur Verfügung, und Nichtmitglieder können den Chatthread nicht sehen oder darauf zugreifen. Wenn IB für die Organisation aktiviert ist und ein Nicht-Teammitglied versucht, an einer Kanalbesprechung teilnehmen, kann dieser Benutzer nicht an der Besprechung teilnehmen. Wenn JEDOCH IB  für die Organisation nicht aktiviert ist und ein Nicht-Teammitglied versucht, an einer Kanalbesprechung teilnehmen, kann der Benutzer an der Besprechung teilnehmen, aber die Chatoption wird in der Besprechung nicht angezeigt.
 - **Maximale Anzahl der in einer Organisation zulässigen** Segmente: Beim Konfigurieren von IB-Richtlinien kann jede Organisation bis zu 100 Segmente einrichten. Es gibt keine Beschränkung bei der Anzahl der Richtlinien, die konfiguriert werden können.
-- **IB-Richtlinien funktionieren** nicht für Verbundbenutzer: Wenn Sie einen Verbund mit externen Organisationen zulassen, werden die Benutzer dieser Organisationen nicht durch IB-Richtlinien eingeschränkt. Wenn Benutzer Ihrer Organisation an einem Von externen Verbundbenutzern organisierten Chat oder einer Besprechung teilnehmen, schränken die IB-Richtlinien auch nicht die Kommunikation zwischen den Benutzern Ihrer Organisation ein.
+- **IB-Richtlinien funktionieren** nicht für Verbundbenutzer: Wenn Sie einen Verbund mit externen Organisationen zulassen, werden die Benutzer dieser Organisationen nicht durch IB-Richtlinien eingeschränkt. Wenn Benutzer Ihrer Organisation an einem Chat oder einer Besprechung teilnehmen, die von externen Verbundbenutzern organisiert wurde, schränken die IB-Richtlinien auch nicht die Kommunikation zwischen den Benutzern Ihrer Organisation ein.
 
 ## <a name="more-information"></a>Weitere Informationen
 
 - Weitere Informationen zu PSP-Daten finden Sie unter [Informationsbarrieren.](/office365/securitycompliance/information-barriers)
 - Informationen zum Einrichten von IB-Richtlinien finden Sie unter [Erste Schritte mit Informationsbarrieren.](/office365/securitycompliance/information-barriers-policies)
-- Informationen zum Bearbeiten oder Entfernen von IB-Richtlinien finden Sie unter [Verwalten von Informationsbarriererichtlinien.](/microsoft-365/compliance/information-barriers-edit-segments-policies)
+- Informationen zum Bearbeiten oder Entfernen von IB-Richtlinien finden Sie unter [Verwalten von Richtlinien für Informationsbarrieren.](/microsoft-365/compliance/information-barriers-edit-segments-policies)
 
 ## <a name="availability"></a>Verfügbarkeit
 
