@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1f51c262e26613cf29a7dd2883afbf1cc6871b26
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: a22ced459a9e014b92a7141a224ea20d5f7022d2
+ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367517"
+ms.lasthandoff: 11/01/2021
+ms.locfileid: "60633511"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 
@@ -36,7 +36,7 @@ ms.locfileid: "60367517"
 
 Eine Teamvorlage in Microsoft Teams ist eine Definition der Teamstruktur, die auf einen geschäftlichen Bedarf oder ein geschäftliches Projekt ausgelegt ist. Als Administrator können Sie Vorlagen verwenden, um auf einfache Weise konsistente Teams in Der gesamten Organisation zu implementieren. Mit Vorlagen können Benutzer schnell umfangreiche Bereiche für die Zusammenarbeit mit vordefinierten Einstellungen, Kanälen und Apps erstellen.
 
-Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen.](#create-your-own-team-templates) Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen für Ihre Benutzer in einer Teams.
+Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen.](#create-your-own-team-templates) Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen für Ihre Benutzer in einem Teams.
 
 Dieser Artikel bietet Ihnen einen Überblick über die Arbeit mit Teamvorlagen im Teams Admin Center. Sie erfahren mehr über die eigenschaften, die von Vorlagen unterstützt werden, die von uns erstellten vordefinierten Vorlagen, die Grenzwerte für die Vorlagengröße, das Erstellen und Verwalten von Vorlagen und vieles mehr.
 
@@ -59,11 +59,11 @@ Die meisten Eigenschaften in einem Team werden eingeschlossen und von Teamvorlag
 | Angeheftete Registerkarten | |
 
 > [!NOTE]
-> In zukünftigen Versionen von Microsoft Teams werden weitere Vorlagenfunktionen hinzugefügt. Überprüfen Sie daher die neuesten Informationen zu unterstützten Eigenschaften.
+> Wir werden in zukünftigen Versionen von Microsoft Teams weitere Vorlagenfunktionen hinzufügen. Überprüfen Sie daher die neuesten Informationen zu unterstützten Eigenschaften.
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Vordefinierte Teamvorlagen im Teams Admin Center
 
-Dies sind die vordefinierten Teamvorlagen, die im Admin Center Teams sind. Vordefinierte Vorlagen sind Vorlagen, die wir für bestimmte Branchen erstellt haben. Zum Anzeigen dieser Vorlagen wechseln Sie im linken Navigationsbereich Teams Admin Center zu Teams  >  **Teamvorlagen**.
+Dies sind die vordefinierten Teamvorlagen, die im Admin Center Teams sind. Vordefinierte Vorlagen sind Vorlagen, die wir für bestimmte Branchen erstellt haben. Zum Anzeigen dieser Vorlagen wechseln Sie in der linken Navigationsleiste Teams Admin Center zu Teams   >  **Teamvorlagen**.
 
 Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie die Eigenschaften in einer vordefinierten Vorlage ändern möchten, können Sie eine neue Vorlage aus einer vorhandenen Vorlage erstellen und dann die von Ihnen verwendeten Eigenschaften hinzufügen oder entfernen. Beachten Sie, dass bestimmte Eigenschaften in einigen Vorlagen nicht geändert werden können.
 
@@ -82,6 +82,11 @@ Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie 
 |Ein Store organisieren| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
 |Einzelhandel für leitende Angestellte| `com.microsoft.teams.template.retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Prüfung</li></ul>|
 |Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Leadership</li><li>Wartung</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Gesundheit und Sicherheit</li><li>Schulung</li><li>Lustiges</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li> <li>Problemmelder</li> <li>Prüfung</li> </ul>|
+|Verwalten von freiwilligen Helfern| `com.microsoft.teams.template.ManageVolunteers` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Berichterstellung</li><li>Ehrenamtliche Verwaltung</li><li>Engagement Opportunities</li><li>Onboarding für Freiwillige</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Aufgaben</li><li>SharePoint</li><li>OneNote</li></ul>|
+||||
+
+&Sup1; App zum Kanal als Registerkarte hinzugefügt
+
 
 ### <a name="team-templates-by-category-and-industry"></a>Teamvorlagen nach Kategorie und Branche
 
@@ -92,6 +97,7 @@ Weitere Informationen zur Verwendung der vordefinierten Vorlagen in Ihrer Branch
 - [Vorlagen für Government-Teams](government-teams-templates-in-the-admin-console.md)
 - [Vorlagen für Teams im Gesundheitswesen](expand-teams-across-your-org/healthcare/healthcare-templates-admin-console.md)
 - [Produktionsteamvorlagen](manufacturing-teams-templates-in-the-admin-console.md)
+- [Vorlagen für gemeinnützige Teams](team-templates-nonprofit.md)
 - [Teamvorlagen für den Einzelhandel](retail-teams-templates-in-the-admin-console.md)
 
 ## <a name="team-template-size-limits"></a>Größenbeschränkungen für Teamvorlagen
@@ -108,7 +114,7 @@ Vorlagen sind auf eine bestimmte Anzahl von Kanälen, Registerkarten und Apps be
 |Apps pro Vorlage | 50|
 |||
 
-Weitere Informationen finden Sie unter [Beschränkungen und](limits-specifications-teams.md)Spezifikationen Teams.
+Weitere Informationen finden Sie unter [Grenzwerte und Spezifikationen Teams.](limits-specifications-teams.md)
 
 ## <a name="manage-team-templates"></a>Verwalten von Teamvorlagen
 
