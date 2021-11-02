@@ -945,7 +945,7 @@ items:
                     href: direct-routing-connect-the-sbc.md
                   - name: 'Schritt 2: Aktivieren von Benutzern'
                     href: direct-routing-enable-users.md
-                  - name: 'Schritt 3: Konfigurieren des VoIP-Routings'
+                  - name: 'Schritt 3: Konfigurieren des Anrufroutings.'
                     href: direct-routing-voice-routing.md
                   - name: 'Schritt 4: Übersetzen von Telefonnummern'
                     href: direct-routing-translate-numbers.md
@@ -953,7 +953,7 @@ items:
                     href: direct-routing-sbc-multiple-tenants.md
                   - name: Verwenden von analogen Geräten mit Direct Routing
                     href: direct-routing-analog-devices.md
-                  - name: Verwalten von VoIP-Routingrichtlinien
+                  - name: Verwalten von Richtlinien zum Anrufrouting
                     href: manage-voice-routing-policies.md
                   - name: Verwalten von Anrufbenachrichtigungen
                     href: direct-routing-call-notifications.md
@@ -1077,7 +1077,7 @@ items:
                 href: emergency-calling-labels.md
           - name: Verwalten von Notruf-Richtlinien
             href: manage-emergency-calling-policies.md
-          - name: Verwalten von Notfall-VoIP-Routingrichtlinien für Direct Routing
+          - name: Verwalten von Notfall-Anrufweiterleitungsrichtlinien für Direct Routing
             href: manage-emergency-call-routing-policies.md
       - name: Verwalten von Sprach- und Anrufrichtlinien in Teams
         href: voice-and-calling-policies.md

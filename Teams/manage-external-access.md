@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 27ce250a66bd6443419c670d7b0b8b7e26703e5d
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536516"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634924"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -110,6 +110,22 @@ Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisati
 2. Aktivieren Sie die Einstellung **Benutzern in meiner Organisation erlauben, mit Skype-Benutzern zu kommunizieren**.
 
 Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams- und Skype-Benutzern, einschließlich der Einschränkungen, finden Sie unter [Interoperabilität von Teams und Skype](teams-skype-interop.md).
+
+## <a name="block-unsolicited-contact-with-external-unmanaged-teams-users"></a>Unerwünschte Kontakt mit externen, nicht verwalteten Teams-Benutzern blockieren
+
+Führen Sie diese Schritte aus, um Teams-Benutzer in Ihrer Organisation vor unerwünschten Kontakten mit externen Teams-Benutzern zu schützen, deren Konten nicht von einer Organisation verwaltet werden.
+
+  **Verwenden des Microsoft Teams Admin Centers**
+
+1. Navigieren Sie im linken Navigationsbereich zu **Benutzer** > **Externer Zugriff**.
+
+2. Führen Sie einen der folgenden Schritte durch:
+
+    - Um zu verhindern, dass Teams-Benutzer in Ihrer Organisation mit externen Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden, deaktivieren Sie die Einstellung **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** und löschen Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
+
+    - Damit Teams-Benutzer in Ihrer Organisation mit externen Teams-Benutzern kommunizieren können, deren Konten nicht von einer Organisation verwaltet werden, wenn Ihre Teams-Benutzer den Kontakt initiiert haben, aktivieren Sie die Einstellung **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** und löschen Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
+
+    - Damit Teams-Benutzer in Ihrer Organisation mit externen Teams-Benutzern kommunizieren können, deren Konten nicht von einer Organisation verwaltet werden, und Anforderungen zur Kommunikation mit diesen externen Teams-Benutzern erhalten, aktivieren Sie die Einstellung **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** und markieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
 
 ## <a name="test-access"></a>Zugriff testen
 

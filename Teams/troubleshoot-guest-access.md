@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b539116fb5e81156a56c5f73146b92eea898765
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c8d54e236583211c2a8169987bf03ceba756facf
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600930"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641215"
 ---
 # <a name="troubleshoot-problems-with-guest-access-in-microsoft-teams"></a>Behandeln von Problemen mit Gastzugriff in Microsoft Teams
 
@@ -39,16 +39,12 @@ ms.locfileid: "58600930"
 Für den Gastzugriff in Microsoft Teams wird Azure Active Directory (Azure AD) Business-to-Business (B2B) und dessen Lizenzierungsmodell genutzt. Der Gastzugang ist in allen Abonnements von Microsoft 365 Business Standard, Office 365 Enterprise und Office 365 Education enthalten. Eine zusätzliche Microsoft 365- oder Office 365-Lizenz ist nicht erforderlich.
 
 > [!NOTE]
-> Teams für den Home-Mandanten eines Gasts aktiviert sein, damit sich Gäste anmelden und Teams als Gast bei einem anderen Mandanten (Ressourcen) verwenden können.
+> Teams für den Home-Mandanten eines Gasts aktiviert sein, damit sich Gäste bei einem anderen Mandanten (Ressourcen) anmelden und Teams als Gast verwenden können.
 
-Wenn Lizenzierungsfehler angezeigt werden, lesen Sie unbedingt das Abrechnungsmodell für externe Azure AD-Identitäten, um die Lizenzierungsanforderungen zu ermitteln, die Ihre Anforderungen an Gastzugriff in Ihrer Organisation erfüllen. [](/azure/active-directory/external-identities/external-identities-pricing)
+Wenn Lizenzierungsfehler angezeigt werden, lesen Sie unbedingt das Abrechnungsmodell für Azure AD [Externe](/azure/active-directory/external-identities/external-identities-pricing) Identitäten, um die Lizenzierungsanforderungen zu ermitteln, die Ihren Anforderungen an Gastzugriff in Ihrer Organisation entsprechen.
 
 - Gastlizenzen werden für die einladende Organisation gezählt. Denken Sie daran, wenn Sie die Anzahl der benötigten Lizenzen berechnen.
-- Lizenzen werden für Ihre Organisation gezählt, unabhängig davon, ob die eingeladenen Gäste aus einer Microsoft 365 Organisation stammen oder ihre persönlichen E-Mail-Adressen verwenden.
-
-## <a name="support-for-b2b-user-types"></a>Unterstützung von B2B-Benutzertypen
-
-Derzeit unterstützt Teams nur die Gastbenutzer vom Typ "Zustand 1" und "Zustand 2" [gemäß der Definition durch Azure B2B](/azure/active-directory/b2b/user-properties).
+- Lizenzen werden für Ihre Organisation gezählt, unabhängig davon, ob die eingeladenen Gäste aus einer anderen Microsoft 365 Organisation stammen oder ihre persönlichen E-Mail-Adressen verwenden.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
