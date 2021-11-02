@@ -19,13 +19,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 07c335797b2092b42cacb8f0daa92947e7a2349a
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 2f0a6218d9843c0ed99c80c517fe9986f41d79b6
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633555"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641345"
 ---
 # <a name="use-nonprofit-team-templates"></a>Teamvorlagen für Gemeinnützigkeit verwenden
 
@@ -41,7 +40,7 @@ In diesem Artikel erfahren Sie mehr über die Teamvorlage „Freiwillige verwalt
 
 Bringen Sie Ihre Mitarbeiter zusammen, damit sie miteinander kommunizieren und bei Aufgaben und Aktivitäten der Freiwilligenverwaltung zusammenarbeiten.
 
-Diese Vorlage enthält Kanäle und Apps, die entwickelt wurden, um die Aktivitäten der Freiwilligenverwaltung zu optimieren. Mitarbeiter können Kursmaterialien zum Onboarding und häufig verwendete Dokumente organisieren und freigeben, Berichte anzeigen, sich über wichtige Team- und Ereignisankündigungen auf dem neuesten Stand halten und vieles mehr. Die Vorlage lässt sich auch in die „Freiwilligenverwaltung“ integrieren, eine App, die Teil von Microsoft Cloud für gemeinnützige Unternehmen ist und es den Mitarbeitern ermöglicht, Gelegenheiten für freiwillige Einsätze in Teams zu verwalten.
+Diese Vorlage enthält Kanäle und Apps, die entwickelt wurden, um die Aktivitäten der Freiwilligenverwaltung zu optimieren. Mitarbeiter können Kursmaterialien zum Onboarding und häufig verwendete Dokumente organisieren und freigeben, Berichte anzeigen, sich über wichtige Team- und Ereignisankündigungen auf dem neuesten Stand halten und vieles mehr. Die Vorlage lässt sich auch in [Volunteer Management](/dynamics365/industry/nonprofit/volunteer-management-use)integrieren, einer App, die Teil der[Microsoft Cloud für Gemeinnützige Organisationen](/industry/nonprofit/)ist und Mitarbeitern die Verwaltung von Möglichkeiten für freiwilliges Engagement in Teams ermöglicht.
 
 Hier sind die Kanäle und Apps, die in der Teamvorlage „Freiwillige Verwalten“ enthalten sind.
 
@@ -88,3 +87,4 @@ Weitere Informationen zu Teamvorlagen im Allgemeinen finden Sie unter [Erste Sch
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Teams-Hilfedokumentation](https://support.microsoft.com/teams)
+- [Dokumentation zu Microsoft Cloud für gemeinnützige Organisationen](/industry/nonprofit/)
