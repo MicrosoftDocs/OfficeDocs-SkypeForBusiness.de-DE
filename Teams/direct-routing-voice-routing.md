@@ -1,5 +1,5 @@
 ---
-title: Konfigurieren von Voice Routing für Direct Routing
+title: Konfigurieren des Anrufroutings für Direct Routing
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,26 +15,26 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie Voice Routing mit Microsoft-Telefon System Direct Routing konfigurieren.
-ms.openlocfilehash: 7d02eb6a2eb1546e11693e8e2475b1ed6e2b7685
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Erfahren Sie, wie Sie das Anrufrouting mit Microsoft Direct Routing konfigurieren.
+ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727134"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60635044"
 ---
-# <a name="configure-voice-routing-for-direct-routing"></a>Konfigurieren von Voice Routing für Direct Routing
+# <a name="configure-call-routing-for-direct-routing"></a>Konfigurieren des Anrufroutings für Direct Routing
 
-In diesem Artikel wird beschrieben, wie Sie Voice Routing für das direkte Telefonsystem konfigurieren.  Dies ist Schritt 3 der folgenden Schritte zum Konfigurieren von Direct-Routing:
+In diesem Artikel wird beschrieben, wie Sie das Anrufrouting für Direct-Routing konfigurieren. Dies ist Schritt 3 der folgenden Schritte zum Konfigurieren von Direct-Routing:
 
 - Schritt 1: [Verbinden des SBC mit Microsoft-Telefon System und Überprüfen der Verbindung](direct-routing-connect-the-sbc.md) 
 - Schritt 2: [Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail](direct-routing-enable-users.md)
-- **Schritt 3. Konfigurieren von Voice Routing** (Dieser Artikel)
+- **Schritt 3. Konfigurieren der Anrufrouting** (in diesem Artikel)
 - Schritt 4: [Übersetzen von Zahlen in ein alternatives Format](direct-routing-translate-numbers.md) 
 
 Informationen zu allen zum Einrichten von Direct-Routing erforderlichen Schritten finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md)
 
-## <a name="voice-routing-overview"></a>Übersicht über Sprachrouting
+## <a name="call-routing-overview"></a>Übersicht über das Anrufrouting
 
 Microsoft-Telefon Das System verfügt über einen Routingmechanismus, der es ermöglicht, einen Anruf basierend auf den hier verwendeten Daten an einen bestimmten Session Border Controller (SBC) zu wenden: 
 
@@ -43,9 +43,9 @@ Microsoft-Telefon Das System verfügt über einen Routingmechanismus, der es erm
  
 SBCs können als aktiv und Sicherungskopien gekennzeichnet werden. Wenn der als aktiv konfigurierte SBC für eine bestimmte Anrufroute nicht verfügbar ist, wird der Anruf an eine Sicherungs-SBC geroutet.
  
-Das Sprachrouting besteht aus den folgenden Elementen: 
+Die Anrufrouting besteht aus den folgenden Elementen: 
 
-- **Voice routing policy** – Ein Container für PSTN-Nutzungen, der einem Benutzer oder mehreren Benutzern zugewiesen werden kann. 
+- **Anrufroutingrichtlinie** – auch als Voice Routing Policy bezeichnet. Ein Container für PSTN-Nutzungen, der einem Benutzer oder mehreren Benutzern zugewiesen werden kann. 
 
 - **PSTN-Nutzung:** Ein Container für Sprachrouten und PSTN-Nutzungen, der in verschiedenen Richtlinien für das Voicerouting freigegeben werden kann. 
 
@@ -66,7 +66,7 @@ Das folgende Diagramm zeigt zwei Beispiele für Voice Routing-Richtlinien in ein
 
 **Anruf Flow 1 (links):** Wenn ein Benutzer +1 425 XXX XX XX oder +1 206 XXX XX XX anruft, wird der Anruf an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn weder sbc1.contoso.biz noch sbc2.contoso.biz verfügbar sind, wird der Anruf verworfen. 
 
-**Rufen Flow 2 (auf der rechten Seite) an:** Wenn ein Benutzer +1 425 XXX XX XX oder +1 206 XXX XX XX anruft, wird der Anruf zuerst an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn keines der beiden SBC-Daten verfügbar ist, wird die Route mit niedrigerer Priorität ausprobiert (sbc3.contoso.biz und sbc4.contoso.biz). Wenn keine der SBCs verfügbar ist, wird der Anruf verworfen. 
+**Anruf Flow 2 (auf der rechten Seite):** Wenn ein Benutzer +1 425 XXX XX XX oder +1 206 XXX XX XX anruft, wird der Anruf zuerst an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn keines der beiden SBC-Daten verfügbar ist, wird die Route mit niedrigerer Priorität ausprobiert (sbc3.contoso.biz und sbc4.contoso.biz). Wenn keine der SBCs verfügbar ist, wird der Anruf verworfen. 
 
 ![Zeigt Beispiele für Die Voice Routing-Richtlinie an.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -79,7 +79,7 @@ Im folgenden Diagramm wird eine Sprachroute zum Senden von Anrufen an alle ander
 
 ![Zeigt die Voice-Routingrichtlinie mit einer dritten Route an.](media/ConfigDirectRouting-VoiceRoutingPolicywith3rdroute.png)
 
-Für alle anderen Anrufe wird die automatische Route verwendet, wenn ein Benutzer über beide Lizenzen verfügt (Microsoft-Telefon System und Microsoft Calling Plan). Wenn keine Übereinstimmung mit den Nummernmustern in den vom Administrator erstellten Online-Sprachrouten besteht, wird der Anruf über den Microsoft-Anrufplan geroutet. Wenn der Benutzer nur über Microsoft-Telefon System verfügt, wird der Aufruf verworfen, da keine Abgleichsregeln verfügbar sind.
+Bei allen anderen Anrufen wird die automatische Route verwendet, wenn ein Benutzer über beide Lizenzen verfügt (Microsoft-Telefon System und Microsoft Calling Plan). Wenn keine Übereinstimmung mit den Nummernmustern in den vom Administrator erstellten Online-Sprachrouten besteht, wird der Anruf über den Microsoft-Anrufplan geroutet. Wenn der Benutzer nur über ein Microsoft-Telefon verfügt, wird der Aufruf verworfen, da keine Abgleichsregeln verfügbar sind.
 
   > [!NOTE]
   > Der Wert Priority für die Route "Other +1" spielt in diesem Fall keine Rolle, da es nur eine Route gibt, die dem Muster +1 XXX XXX XX XX entspricht. Wenn ein Benutzer +1 324 567 89 89 anruft und sbc5.contoso.biz und sbc6.contoso.biz nicht verfügbar sind, wird der Anruf verworfen.
@@ -102,14 +102,14 @@ Im folgenden Beispiel wird Folgendes veranschaulicht:
 3. Erstellen Sie eine Sprachroutingrichtlinie.
 4. Weisen Sie die Richtlinie einem Benutzer mit dem Namen "Low" zu.
 
-Sie können das [Microsoft Teams Admin Center](#admincenterexample1) oder [PowerShell verwenden,](#powershellexample1) um diese Schritte durchzuführen.
+Sie können diese Schritte [Microsoft Teams Admin Center](#admincenterexample1) oder [PowerShell](#powershellexample1) ausführen.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 <a name="admincenterexample1"></a>
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung "USA und Kanada"
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice** Direct Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Voice** Direct Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
 2. Klicken **Sie auf** Hinzufügen , geben Sie US und **Canada** ein, und klicken Sie dann auf **Übernehmen.**
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Schritt 2: Erstellen von drei Sprachrouten (Redmond 1, Redmond 2 und Other +1)
@@ -312,7 +312,7 @@ In den gezeigten Beispielen wird Dem Benutzer "Nur US Only" und dem Benutzer Joh
 
 ![Zeigt die Sprachroutingrichtlinie an, die Dem Benutzer " Low" zugewiesen ist.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-Bei allen anderen Anrufen wird die automatische Route verwendet, wenn ein Benutzer über beide Lizenzen verfügt (Microsoft-Telefon System und Microsoft Calling Plan). Wenn keine Übereinstimmung mit den Nummernmustern in den vom Administrator erstellten Online-Sprachrouten besteht, wird der Anruf mithilfe des Microsoft-Anrufplans geroutet.  Wenn der Benutzer nur über Microsoft-Telefon System verfügt, wird der Aufruf verworfen, da keine Abgleichsregeln verfügbar sind.
+Bei allen anderen Anrufen wird die automatische Route verwendet, wenn ein Benutzer über Microsoft-Telefon (System und Microsoft Calling Plan) verfügt. Wenn keine Übereinstimmung mit den Nummernmustern in den vom Administrator erstellten Online-Sprachrouten besteht, wird der Anruf mithilfe des Microsoft-Anrufplans geroutet.  Wenn der Benutzer nur über Microsoft-Telefon System verfügt, wird der Aufruf verworfen, da keine Abgleichsregeln verfügbar sind.
 
 ![Zeigt die dem Benutzer John Vererb zugewiesene Voice Routing-Richtlinie an.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -338,14 +338,14 @@ Im folgenden Beispiel wird Folgendes veranschaulicht:
 3. Erstellen Sie eine Voiceroutingrichtlinie namens Keine Einschränkungen.
 4. Weisen Sie die Richtlinie dem Benutzer John Verding zu.
 
-Sie können das [Microsoft Teams Admin Center](#admincenterexample2) oder [PowerShell verwenden,](#powershellexample2) um diese Schritte durchzuführen.
+Sie können diese Schritte [Microsoft Teams Admin Center](#admincenterexample2) oder [PowerShell](#powershellexample2) ausführen.
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 <a name="admincenterexample2"></a>
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung "International"
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice** Direct Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Voice** Direct Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
 2. Klicken **Sie auf** Hinzufügen , geben Sie **International** ein, und klicken Sie dann auf **Übernehmen**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Schritt 2: Erstellen der Sprachroute "International"

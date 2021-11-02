@@ -16,18 +16,24 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: Informationen zum Hinzufügen, Ändern oder Entfernen eines Orts für einen Notfallstandort für Ihre Organisation finden Sie im Microsoft Teams Admin Center.
+description: Erfahren Sie, wie Sie einen Ort für einen Notfallstandort für Ihre Organisation hinzufügen, ändern oder entfernen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98135be7b74583ad01718d19796889bdc9a467d1
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: fec188634377b04cb4149d3680acc07eef797149
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537216"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634874"
 ---
 # <a name="add-change-or-remove-a-place-for-an-emergency-location-in-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation
 
-Je nach Anzahl physischer Standorte in Ihrer Organisation können Sie Orte für Gebäude, Stockwerke und Büros hinzufügen, um einen spezielleren Notfallstandort zu erstellen. Weitere [Informationen finden Sie unter Verwalten von](what-are-emergency-locations-addresses-and-call-routing.md) Notrufen.
+Je nach Anzahl physischer Standorte in Ihrer  Organisation können Sie Orte für Gebäude, Stockwerke und Büros hinzufügen, um einen spezielleren Notfallstandort zu erstellen.
+
+Je nach Ihrer PSTN-Konnektivitätsoption kann die Art und Weise, wie Sie Notfallstandorte und Standortanforderungen verwalten, variieren. Weitere Informationen finden Sie unter [Verwalten von Notrufen.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+In diesem Artikel wird beschrieben, wie  Sie einen Ort für einen Notfallstandort für Ihre Organisation hinzufügen, ändern oder entfernen.
+
+Dieser Artikel bezieht sich auf Microsoft-Anrufpläne, operator Verbinden und Direct Routing.
 
 Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell.
   
@@ -71,6 +77,7 @@ Weitere [Informationen finden Sie unter Remove-CsOnlineLisLocation.](/powershell
     
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
+- [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Nutzungsbedingungen für Notrufe](./emergency-calling-terms-and-conditions.md)

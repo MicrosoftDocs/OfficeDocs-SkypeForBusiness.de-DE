@@ -18,25 +18,25 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie Microsoft-Telefon Direct-Routing konfigurieren, um Ihre lokale Telefonieinfrastruktur mit Ihrem Microsoft Teams.
+description: Erfahren Sie, wie Sie Microsoft-Telefon Direct-Routing konfigurieren, um Ihre lokale Telefonieinfrastruktur mit Microsoft Teams.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: f2e0277afeb7fefc3715aef00138fab3b3ff62bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05e3152c13b0cf6559964d3926d7c66e7cf376e8
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582359"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634894"
 ---
 # <a name="configure-direct-routing"></a>Konfigurieren von direktem Routing
 
-Microsoft-Telefon Mit Direct-Routing (System Direct Routing) können Sie Ihre lokale Telefonieinfrastruktur mit Microsoft Teams. In diesem Artikel werden die auf hoher Ebene erforderlichen Schritte zum Verbinden eines unterstützten lokalen Session Border Controller (SBC) mit Direct Routing sowie das Konfigurieren von Teams-Benutzern für die Verwendung von Direct Routing zum Herstellen einer Verbindung mit dem PstN (Public Switched Telephone Network) aufgeführt. In diesem Artikel finden Sie Links zu zugehörigen Artikeln, um details zu erfahren.  
+Microsoft-Telefon Mit Direct-Routing (System Direct Routing) können Sie Ihre lokale Telefonieinfrastruktur mit ihrem Microsoft Teams. In diesem Artikel werden die auf hoher Ebene erforderlichen Schritte zum Verbinden eines unterstützten lokalen Session Border Controller (SBC) mit Direct Routing sowie das Konfigurieren von Teams-Benutzern für die Verwendung von Direct Routing zum Herstellen einer Verbindung mit dem PstN (Public Switched Telephone Network) aufgeführt. In diesem Artikel finden Sie Links zu zugehörigen Artikeln, um details zu erfahren.  
 
 Informationen dazu, ob Direct Routing die richtige Lösung für Ihre Organisation ist, finden Sie unter Telefonsystem [Direct-Routing.](direct-routing-landing-page.md) Informationen zu den Voraussetzungen und zur Planung Ihrer Bereitstellung finden Sie unter [Planen von Direct-Routing.](direct-routing-plan.md)
 
 > [!Tip]
 > In der folgenden Sitzung erfahren Sie außerdem mehr über die Vorteile von Direct-Routing, die Planung und die Bereitstellung: [Direct-Routing in Microsoft Teams.](https://aka.ms/teams-direct-routing)
 
-Administratoren müssen mit PowerShell-Cmdlets vertraut sein, um die in diesem Artikel erläuterten Schritte ausführen zu können. Weitere Informationen zur Verwendung von PowerShell finden Sie unter [Einrichten des Computers für Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
+Administratoren müssen mit PowerShell-Cmdlets vertraut sein, um die in diesem Artikel erläuterten Schritte ausführen zu können. Weitere Informationen zur Verwendung von PowerShell finden Sie unter [Einrichten ihres Computers für Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) 
 
 Bevor Sie die Schritte in diesen Artikeln ausführen, empfiehlt Microsoft Ihnen, zu bestätigen, dass Ihr SBC von Ihrem SBC-Anbieter empfohlen bereits konfiguriert wurde: 
 
@@ -52,7 +52,7 @@ Führen Sie die folgenden Microsoft-Telefon aus, um das System zu konfigurieren 
 
 - **Schritt 1:** [Verbinden des SBC mit Microsoft-Telefon System und Überprüfen der Verbindung](direct-routing-connect-the-sbc.md)
 - **Schritt 2:** [Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail](direct-routing-enable-users.md)
-- **Schritt 3:** [Konfigurieren von Voice Routing](direct-routing-voice-routing.md)
+- **Schritt 3:** [Konfigurieren der Anrufrouting](direct-routing-voice-routing.md)
 - **Schritt 4:** [Übersetzen von Zahlen in ein alternatives Format](direct-routing-translate-numbers.md) 
 
 Wenn Sie einen SBC für mehrere Mandanten konfigurieren, sollten Sie auch Konfigurieren eines SBC für [mehrere Mandanten lesen.](direct-routing-sbc-multiple-tenants.md)

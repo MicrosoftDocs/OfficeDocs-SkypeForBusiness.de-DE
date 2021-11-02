@@ -16,38 +16,40 @@ appliesto:
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
-description: 'Informationen zum Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation finden Sie im Microsoft Teams Admin Center. '
+description: 'Erfahren Sie, wie Sie einen Notfallstandort für Ihre Organisation hinzufügen, ändern oder entfernen. '
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 601d8ce50d5fcf06574f08abb2c78c73a40fefda
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 4d9c7c56b4e2b2fd14f703d51b4c07cfc173dfa3
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536536"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634854"
 ---
 # <a name="add-change-or-remove-an-emergency-location-for-your-organization"></a>Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation
 
-Unabhängig von der von Ihnen [verwendeten PSTN-Konnektivitätsoption](pstn-connectivity.md) können Microsoft-Anrufpläne, operator Verbinden- oder Direct Routing-Notfallstandorte einer Telefonnummer zugeordnet werden. Je nach Ihrer PSTN-Konnektivitätsoption können die Standortanforderungen jedoch variieren.
+Unabhängig von [](pstn-connectivity.md) der PstN-Konnektivitätsoption, die Sie für Microsoft-Anrufpläne, Operator Verbinden oder Direct Routing-Notfallstandorte auswählen, kann eine Telefonnummer &mdash; &mdash; zugeordnet werden.
 
-**Bei Anrufplänen muss ein** Notfallstandort einer Telefonnummer zugeordnet sein, aber in diesem Fall kann dies je nach Land oder Region variieren. In den USA müssen Sie z. B. einen Notfallstandort zuordnen, wenn Sie dem Benutzer die Telefonnummer zuweisen. Im Vereinigten Königreich müssen Sie der Telefonnummer einen Notfallstandort zuordnen, wenn Sie die Telefonnummern von Microsoft 365 erhalten oder Telefonnummern von Ihrem aktuellen Dienstanbieter übertragen.
+Je nach Ihrer PSTN-Konnektivitätsoption kann die Art und Weise, wie Sie Notfallstandorte und Standortanforderungen verwalten, jedoch variieren. Weitere Informationen finden Sie unter [Verwalten von Notrufen.](what-are-emergency-locations-addresses-and-call-routing.md)
 
-Unabhängig davon, in welchem Land bzw. in welcher Region Sie sich befinden, können Sie einem Notfallstandort einen oder mehrere Orte hinzufügen und einen Notfallstandort entfernen. Je nach Anzahl physischer Standorte in Ihrer Organisation können Sie Orte für Gebäude, Stockwerke und Büros erstellen. Weitere Informationen [finden Sie unter Verwalten von Notrufen.](what-are-emergency-locations-addresses-and-call-routing.md)
+In diesem Artikel wird beschrieben, wie Sie einen Notfallstandort für Ihre Organisation hinzufügen, ändern oder entfernen. 
+
+Dieser Artikel bezieht sich auf Microsoft-Anrufpläne, Operatoren Verbinden direktes Routing.
 
 Sie verwalten Notfallstandorte für Ihre Organisation im Microsoft Teams Admin Center oder mithilfe von PowerShell.
 
-Um einen Notfallstandort zuzuordnen, müssen sich Benutzer, Telefonnummern und Notfallstandorte im selben Land befinden.  Weitere Informationen finden Sie unter [Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer.](assign-change-emergency-location-user.md)
+Um einen Notfallstandort zuzuordnen, müssen sich Benutzer, Telefonnummern und Notfallstandorte im selben Land befinden. Weitere Informationen finden Sie unter [Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer.](assign-change-emergency-location-user.md)
   
 ## <a name="add-an-emergency-location"></a>Hinzufügen eines Notfallstandorts
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf  >  **Notfalladressen für Standorte.**
+1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf  >  **Notfalladressen für Standorte**.
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie einen Namen und eine Beschreibung für den Ort ein.
 4. Wählen Sie das Land oder die Region aus, und geben Sie dann die Adresse ein.
 
    > [!NOTE]
-   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu wissen, dass für die erfolgreiche Aktivierung einer Telefonnummer in Microsoft 365 die Adresse, die am Notfallstandort eingerichtet wurde und zum Erwerben der Nummer verwendet wird, mit der Vorwahl der Telefonnummer übereinstimmen muss.
+   > In Belgien, Frankreich, Deutschland, Irland, den Niederlanden und Spanien ist es wichtig zu wissen, dass zum erfolgreichen Aktivieren einer Telefonnummer in Microsoft 365 die Für den Notfallstandort eingerichtete Adresse, mit der die Nummer beschafft wird, mit der Vorwahl der Telefonnummer übereinstimmen muss.
 
 5. Wenn die Adresse nicht gefunden wird und Sie die Adresse manuell bearbeiten möchten, aktivieren Sie Adresse **manuell bearbeiten.**
 6. Klicken Sie auf **Speichern**.
@@ -60,7 +62,7 @@ Weitere [Informationen finden Sie unter New-CsOnlineLisCivicAddress.](/powershel
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf  >  **Notfalladressen für Standorte.**
+1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf  >  **Notfalladressen für Standorte**.
 2. Wählen Sie in der Liste den Speicherort aus, den Sie ändern möchten, und klicken Sie dann auf **Bearbeiten**.
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor.
 4. Klicken Sie auf **Speichern**.
@@ -76,7 +78,7 @@ Weitere [Informationen finden Sie unter Set-CsOnlineLisCivicAddress.](/powershel
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf  >  **Notfalladressen für Standorte.**
+1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf  >  **Notfalladressen für Standorte**.
 2. Wählen Sie in der Liste den Speicherort aus, den Sie entfernen möchten, und klicken Sie dann auf **Löschen**.
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell

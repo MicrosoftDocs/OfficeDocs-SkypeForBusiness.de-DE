@@ -18,18 +18,22 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 905e0e66555f908e98368d592905e98b54db059a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537286"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634904"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 
-Jeder Telefonnummer oder jedem Benutzer muss ein Notfallstandort zugewiesen werden. Weitere Informationen zu Notfalladressen und -standorten finden Sie unter Was sind Notfallstandorte, Notfallstandorte [und Anrufrouting?.](./what-are-emergency-locations-addresses-and-call-routing.md)
+Unabhängig von [](pstn-connectivity.md) der PstN-Konnektivitätsoption, die Sie für Microsoft-Anrufpläne, Operator Verbinden oder Direct Routing auswählen, muss jeder Telefonnummer oder jedem Benutzer ein Notfallstandort &mdash; zugewiesen &mdash; werden.
 
-Bei Microsoft-Anrufplänen wird in europäischen Ländern der Notfallstandort der Telefonnummer zugeordnet, wenn Sie ihn von Microsoft 365 erhalten oder wenn Sie eine Telefonnummer an den Standort Microsoft 365. In den USA wird der Notfallstandort der Telefonnummer zugeordnet, wenn sie dem Benutzer zugewiesen wird. Die Notfalladresse kann geändert werden, wenn der Benutzer, dem sie zugewiesen ist, an einen neuen Standort wechselt.
+Je nach Ihrer PSTN-Konnektivitätsoption kann jedoch die Art und Weise, wie Sie Notfallstandorte für einen Benutzer verwalten und zuweisen, variieren. Weitere Informationen finden Sie unter [Verwalten von Notrufen.](what-are-emergency-locations-addresses-and-call-routing.md)
+
+In diesem Artikel wird beschrieben, wie Sie einen Notfallstandort für einen Benutzer zuweisen oder ändern. 
+
+Dieser Artikel bezieht sich auf Anrufpläne und Verbinden.
   
 Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin Center oder mithilfe von PowerShell zuweisen oder ändern.
 
@@ -37,7 +41,7 @@ Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin C
 
 1. Klicken Sie in der linken Navigationsleiste Microsoft Teams Admin Center **auf**  >  **Sprachanrufnummern Telefon .**
 
-2. Klicken Sie **Telefon Der** Telefonnummern-Seite auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**. 
+2. Klicken Sie **Telefon Seite** Zahlen bearbeiten  auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
 
 3. Gehen Sie **im** Bereich Bearbeiten **unter Notfallstandort** wie folgt vor:
 
@@ -58,8 +62,7 @@ Weitere [Informationen finden Sie unter Set-CsOnlineVoiceUser.](/powershell/modu
 
 - [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
 - [Hinzufügen, Ändern oder Entfernen eines Notfallstandorts für Ihre Organisation](add-change-remove-emergency-location-organization.md)
-- [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
 - [Zuweisen oder Ändern eines Ortes als Notfallstandort für einen Benutzer](assign-change-emergency-place-user.md)
+- [Hinzufügen, Ändern oder Entfernen eines Ortes als Notfallstandort für Ihre Organisation](add-change-remove-emergency-place-organization.md)
 - [Verwalten von Telefonnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization)
 - [Nutzungsbedingungen für Notrufe](./emergency-calling-terms-and-conditions.md)
-- [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)

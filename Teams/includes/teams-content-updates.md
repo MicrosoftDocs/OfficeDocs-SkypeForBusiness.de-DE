@@ -3,6 +3,65 @@
 
 
 
+## <a name="week-of-october-25-2021"></a>Woche vom 25. Oktober 2021
+
+
+| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
+|------|------------|--------|
+| 10/25/2021 | [End-to-End-Verschlüsselung für Microsoft Teams](/MicrosoftTeams/teams-end-to-end-encryption) | Hinzugefügt |
+| 10/25/2021 | [Anrufrichtlinien in Microsoft Teams: Anruf- und Anruf weiterleitungsfeatures](/MicrosoftTeams/teams-calling-policy) | Geändert |
+| 10/25/2021 | [Verwalten der Integrität von Teams Geräten](/MicrosoftTeams/teams-device-health) | Geändert |
+| 10/25/2021 | [Sicherheitshandbuch für Microsoft Teams – Übersicht](/MicrosoftTeams/teams-security-guide) | Geändert |
+| 10/26/2021 | [Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne](/MicrosoftTeams/country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans) | Geändert |
+| 10/26/2021 | [Geräte für Microsoft Teams](/MicrosoftTeams/devices/teams-ip-phones) | Geändert |
+| 10/26/2021 | [Microsoft Teams bericht zur App-Verwendung](/MicrosoftTeams/teams-analytics-and-reports/app-usage-report) | Geändert |
+| 10/26/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 10/26/2021 | [Verwalten von Teams im Admin Center für Microsoft Teams](/MicrosoftTeams/manage-teams-in-modern-portal) | Geändert |
+| 10/27/2021 | [Telefone und Geräte für Microsoft Teams](/MicrosoftTeams/devices/usb-devices) | Geändert |
+| 10/27/2021 | [Hardwareanforderungen für Microsoft Teams](/MicrosoftTeams/hardware-requirements-for-the-teams-app) | Geändert |
+| 10/27/2021 | [Erwerben von Apps von Drittanbietern für Teams](/MicrosoftTeams/purchase-third-party-apps) | Geändert |
+| 10/27/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
+| 10/27/2021 | [Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen](/MicrosoftTeams/teams-recording-policy) | Geändert |
+| 10/27/2021 | [Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll im Microsoft Teams Admin Center](/MicrosoftTeams/activity-log) | Geändert |
+| 10/27/2021 | [Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule](/MicrosoftTeams/batch-group-policy-assignment-edu) | Geändert |
+| 10/27/2021 | [Parken und Fortsetzen von Anrufen in Microsoft Teams](/MicrosoftTeams/call-park-and-retrieve) | Geändert |
+| 10/27/2021 | [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](/MicrosoftTeams/caller-id-policies). | Geändert |
+| 10/27/2021 | [Einrichten von Microsoft Teams in Ihrem Unternehmen](/MicrosoftTeams/deploy-enterprise-setup) | Geändert |
+| 10/27/2021 | [Besprechungen und Konferenzen in Microsoft Teams](/MicrosoftTeams/deploy-meetings-microsoft-teams-landing-page) | Geändert |
+| 10/27/2021 | [Teams für Education Richtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen](/MicrosoftTeams/easy-policy-setup-edu) | Geändert |
+| 10/27/2021 | [Verwalten Sie die Schicht-App für Ihre Organisation](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Geändert |
+| 10/27/2021 | [Bereitstellen von Microsoft Teams im großen Maßstab für Mitarbeiter in Service und Produktion](/MicrosoftTeams/flw-scripted-deployment) | Geändert |
+| 10/27/2021 | [Verwalten von Richtlinien für Notfall-Voice Routing für Direct Routing](/MicrosoftTeams/manage-emergency-call-routing-policies) | Geändert |
+| 10/27/2021 | [Verwalten von Richtlinien für Notrufe in Microsoft Teams](/MicrosoftTeams/manage-emergency-calling-policies) | Geändert |
+| 10/27/2021 | [Verwalten von Feedbackrichtlinien in Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Geändert |
+| 10/27/2021 | [Verwalten und überwachen Teams](/MicrosoftTeams/manage-teams-overview) | Geändert |
+| 10/27/2021 | [Verwalten Teams mit Richtlinien](/MicrosoftTeams/manage-teams-with-policies) | Geändert |
+| 10/27/2021 | [Verwalten von Voice Routing-Richtlinien für Direct Routing](/MicrosoftTeams/manage-voice-routing-policies) | Geändert |
+| 10/27/2021 | [Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams](/MicrosoftTeams/meeting-expiration) | Geändert |
+| 10/27/2021 | [Verwalten von Besprechungsrichtlinien für die Inhaltsfreigabe](/MicrosoftTeams/meeting-policies-content-sharing) | Geändert |
+| 10/27/2021 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
+| 10/27/2021 | [Verwalten von Besprechungsrichtlinien für Teilnehmer und Gäste](/MicrosoftTeams/meeting-policies-participants-and-guests) | Geändert |
+| 10/27/2021 | [Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern](/MicrosoftTeams/meeting-policies-restricted-anonymous-access) | Geändert |
+| 10/27/2021 | [Musik im Halteraum](/MicrosoftTeams/music-on-hold) | Geändert |
+| 10/27/2021 | [Planen der Governance in Microsoft Teams – Microsoft Teams](/MicrosoftTeams/plan-teams-governance) | Geändert |
+| 10/27/2021 | [Microsoft Teams-Richtlinien und Richtlinienpakete für EDU-Administratoren](/MicrosoftTeams/policy-packages-edu) | Geändert |
+| 10/27/2021 | [Teams von Richtlinienpaketen für Behörden](/MicrosoftTeams/policy-packages-gov) | Geändert |
+| 10/27/2021 | [Teams Richtlinienpakete-Pakete für das Gesundheitswesen](/MicrosoftTeams/policy-packages-healthcare) | Geändert |
+| 10/27/2021 | [Erste Schritte mit Microsoft Teams für Fernunterricht](/MicrosoftTeams/remote-learning-edu) | Geändert |
+| 10/27/2021 | [Tenant Administration control for voice recognition (voice profile) in Teams-Räume](/MicrosoftTeams/rooms/voice-recognition) | Geändert |
+| 10/27/2021 | [PowerShell-Skriptbeispiel – Erstellen von Sicherheitsgruppen für Lehrkräfte und Schüler/Studenten in Ihrer Schule](/MicrosoftTeams/scripts/powershell-script-security-groups-edu) | Geändert |
+| 10/27/2021 | [PowerShell-Skriptbeispiel: Erstellen & Zuweisen einer Messagingrichtlinie](/MicrosoftTeams/scripts/powershell-script-teams-messaging-policy-edu) | Geändert |
+| 10/27/2021 | [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](/MicrosoftTeams/teams-app-permission-policies) | Geändert |
+| 10/27/2021 | [Anrufrichtlinien in Microsoft Teams: Anruf- und Anruf weiterleitungsfeatures](/MicrosoftTeams/teams-calling-policy) | Geändert |
+| 10/27/2021 | [Teams für Virtualized Desktop Infrastructure](/MicrosoftTeams/teams-for-vdi) | Geändert |
+| 10/27/2021 | [Verwenden Teams mit Remotedesktopdiensten](/MicrosoftTeams/teams-on-rdp) | Geändert |
+| 10/27/2021 | [Verwalten von Kanalrichtlinien in Microsoft Teams](/MicrosoftTeams/teams-policies) | Geändert |
+| 10/27/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
+| 10/27/2021 | [Verwalten von Teamvorlagen im Admin Center](/MicrosoftTeams/templates-policies) | Geändert |
+| 10/27/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
+| 10/28/2021 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
+
+
 ## <a name="week-of-october-18-2021"></a>Woche vom 18. Oktober 2021
 
 
@@ -64,7 +123,7 @@
 | 10/20/2021 | [Festlegen der Länge der PIN für Audiokonferenzbesprechungen](/MicrosoftTeams/set-the-pin-length-for-audio-conferencing-meetings-in-teams) | Geändert |
 | 10/20/2021 | [Einrichten von Audiokonferenzen für Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Geändert |
 | 10/20/2021 | [Festlegen Ihrer Einstellungen für Koexistenz und Upgrades](/MicrosoftTeams/setting-your-coexistence-and-upgrade-settings) | Geändert |
-| 10/20/2021 | [Starten Sie die Audiokonferenz per Telefon ohne PIN in Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | Geändert |
+| 10/20/2021 | [Starten Sie Audiokonferenz per Telefon ohne PIN in Teams](/MicrosoftTeams/start-an-audio-conference-over-the-phone-without-a-pin-in-teams) | Geändert |
 | 10/20/2021 | [Konfigurieren von Einstellungen für Live-Ereignisse in Microsoft Teams](/MicrosoftTeams/teams-live-events/configure-teams-live-events) | Geändert |
 | 10/20/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |
 | 10/20/2021 | [Aktivieren oder Deaktivieren der Ankündigung von Zu- und Abgängen für Besprechungen in Teams](/MicrosoftTeams/turn-on-or-off-entry-and-exit-announcements-for-meetings-in-teams) | Geändert |
@@ -107,7 +166,7 @@
 | 10/14/2021 | [Einrichten von Cloudvoicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | Geändert |
 | 10/14/2021 | [Anrufpläne für Microsoft 365](/MicrosoftTeams/calling-plans-for-office-365) | Geändert |
 | 10/14/2021 | [Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center](/MicrosoftTeams/get-started-with-teams-templates-in-the-admin-console) | Geändert |
-| 10/14/2021 | [Erwerben sie Apps von Drittanbietern für Teams](/MicrosoftTeams/purchase-third-party-apps) | Geändert |
+| 10/14/2021 | [Erwerben von Apps von Drittanbietern für Teams](/MicrosoftTeams/purchase-third-party-apps) | Geändert |
 
 
 ## <a name="week-of-october-04-2021"></a>Woche vom 4. Oktober 2021
@@ -156,7 +215,7 @@
 | Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
 |------|------------|--------|
 | 9/27/2021 | [Telefon der Nummerverwaltung für Kroatien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-croatia) | Hinzugefügt |
-| 9/27/2021 | [Telefon Zahlenverwaltung für Estland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-estonia) | Hinzugefügt |
+| 9/27/2021 | [Telefon verwaltung von Zahlen für Estland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-estonia) | Hinzugefügt |
 | 9/27/2021 | [Telefon der Nummerverwaltung für Lettland](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-latvia) | Hinzugefügt |
 | 9/27/2021 | [Telefon der Nummerverwaltung für Litauen](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-lithuania) | Hinzugefügt |
 | 9/27/2021 | [Telefon der Nummerverwaltung für Slowenien](/MicrosoftTeams/manage-phone-numbers-for-your-organization/phone-number-management-for-slovenia) | Hinzugefügt |
@@ -178,9 +237,9 @@
 | 9/28/2021 | [Verwalten Ihrer Geräte in Microsoft Teams](/MicrosoftTeams/devices/device-management) | Geändert |
 | 9/28/2021 | [Verwalten und Filtern Microsoft Teams Gerätetags](/MicrosoftTeams/devices/manage-device-tags) | Geändert |
 | 9/28/2021 | [Remotebereitstellung und -anmeldung für Teams Android-Geräte](/MicrosoftTeams/devices/remote-provision-remote-login) | Geändert |
-| 9/28/2021 | [Remoteupdate für Microsoft Teams Geräte](/MicrosoftTeams/devices/remote-update) | Geändert |
+| 9/28/2021 | [Remoteaktualisierung Microsoft Teams Geräte](/MicrosoftTeams/devices/remote-update) | Geändert |
 | 9/28/2021 | [Microsoft Teams-Panels](/MicrosoftTeams/devices/teams-panels) | Geändert |
-| 9/28/2021 | [Aktualisieren Teams telefonen auf Teams Bildschirme](/MicrosoftTeams/devices/upgrade-phones-to-displays) | Geändert |
+| 9/28/2021 | [Aktualisieren Teams auf Teams Bildschirme](/MicrosoftTeams/devices/upgrade-phones-to-displays) | Geändert |
 | 9/28/2021 | [Hinzufügen und Aktualisieren von Labels zur Berichterstellung](/MicrosoftTeams/learn-more-about-site-upload) | Geändert |
 | 9/28/2021 | [Verwalten von Besprechungsrichtlinien für Audio und Video](/MicrosoftTeams/meeting-policies-audio-and-video) | Geändert |
 | 9/28/2021 | [Microsoft Teams-Räume verwalten](/MicrosoftTeams/rooms/rooms-manage) | Geändert |
@@ -198,7 +257,7 @@
 | 9/29/2021 | [Zurücksetzen der Audiokonferenz-PIN in Microsoft Teams](/MicrosoftTeams/reset-the-audio-conferencing-pin-in-teams) | Geändert |
 | 9/29/2021 | [Informationsbarrieren in Microsoft Teams](/MicrosoftTeams/information-barriers-in-teams) | Geändert |
 | 9/29/2021 | [Audiokonferenzen, Anrufpläne oder direktes Routing](/MicrosoftTeams/1-envision-define-my-success-cloud-voice) | Geändert |
-| 9/29/2021 | [Verwenden Power BI zum Analysieren von AQD-Daten für Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | Geändert |
+| 9/29/2021 | [Verwenden Power BI Zum Analysieren von AQD-Daten für Microsoft Teams](/MicrosoftTeams/cqd-power-bi-query-templates) | Geändert |
 | 9/29/2021 | [Daten und Berichte im Anrufqualitätsdashboard (CQD)](/MicrosoftTeams/cqd-data-and-reports) | Geändert |
 | 9/29/2021 | [Konfigurieren einer Exchange Hybridorganisation](/MicrosoftTeams/exchange-hybrid-organization) | Geändert |
 | 9/29/2021 | [Ressourcen für Administrator-Schulung – Microsoft Teams](/MicrosoftTeams/itadmin-readiness) | Geändert |
@@ -236,8 +295,8 @@
 | 9/29/2021 | [Verwalten von Feedbackrichtlinien in Microsoft Teams](/MicrosoftTeams/manage-feedback-policies-in-teams) | Geändert |
 | 9/29/2021 | [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features in Microsoft Teams](/MicrosoftTeams/manage-your-network-topology) | Geändert |
 | 9/29/2021 | [Verwalten von Besprechungsrichtlinien für Teilnehmer und Gäste](/MicrosoftTeams/meeting-policies-participants-and-guests) | Geändert |
-| 9/29/2021 | [Navigieren durch Microsoft Teams](/MicrosoftTeams/navigate-teams) | Geändert |
-| 9/29/2021 | [Führen Sie ein Benutzerpiloting durch, um auszuwerten und zu testen, Microsoft Teams Benutzer in Ihrer Organisation funktionieren.](/MicrosoftTeams/pilot-essentials) | Geändert |
+| 9/29/2021 | [Navigieren in Microsoft Teams](/MicrosoftTeams/navigate-teams) | Geändert |
+| 9/29/2021 | [Führen Sie ein Benutzerpiloten durch, um auszuwerten und zu testen, Microsoft Teams Benutzer in Ihrer Organisation arbeiten werden.](/MicrosoftTeams/pilot-essentials) | Geändert |
 | 9/29/2021 | [Office 365 Government – DoD-Bereitstellungen](/MicrosoftTeams/plan-for-government-dod) | Geändert |
 | 9/29/2021 | [Microsoft 365 Behörden – GCC Bereitstellungen mit hohem Niveau](/MicrosoftTeams/plan-for-government-gcc-high) | Geändert |
 | 9/29/2021 | [Microsoft 365 Behörden – GCC Bereitstellungen](/MicrosoftTeams/plan-for-government-gcc) | Geändert |
@@ -253,7 +312,7 @@
 | 9/30/2021 | [Einrichten einer automatischen Microsoft Teams](/MicrosoftTeams/create-a-phone-system-auto-attendant) | Geändert |
 | 9/30/2021 | [Remotebereitstellung und -anmeldung für Teams Android-Geräte](/MicrosoftTeams/devices/remote-provision-remote-login) | Geändert |
 | 9/30/2021 | [Microsoft Teams-Panels](/MicrosoftTeams/devices/teams-panels) | Geändert |
-| 9/30/2021 | [Aktualisieren Teams telefonen auf Teams Bildschirme](/MicrosoftTeams/devices/upgrade-phones-to-displays) | Geändert |
+| 9/30/2021 | [Aktualisieren Teams auf Teams Bildschirme](/MicrosoftTeams/devices/upgrade-phones-to-displays) | Geändert |
 | 9/30/2021 | [Sicheres Messaging für Organisationen im Gesundheitswesen, die Microsoft Teams verwenden](/MicrosoftTeams/expand-teams-across-your-org/healthcare/messaging-policies-hc) | Geändert |
 | 9/30/2021 | [Verwalten Sie die Schicht-App für Ihre Organisation](/MicrosoftTeams/expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams) | Geändert |
 | 9/30/2021 | [Verwenden sie den Onboarding-Assistenten für Frontline Worker, um Die Mitarbeiter an der Frontline mit der Arbeit zu starten](/MicrosoftTeams/flw-onboarding-wizard) | Geändert |
@@ -278,7 +337,7 @@
 | 9/30/2021 | [Einrichten von Live-Ereignissen in Microsoft Teams](/MicrosoftTeams/teams-live-events/set-up-for-teams-live-events) | Geändert |
 | 9/30/2021 | [Verwenden der Verzeichnissuche in Microsoft Teams](/MicrosoftTeams/teams-scoped-directory-search) | Geändert |
 | 9/30/2021 | [Einrichten des Anrufqualitätsdashboards (CQD)](/MicrosoftTeams/turning-on-and-using-call-quality-dashboard) | Geändert |
-| 9/30/2021 | [Vorbereiten Ihres Diensts auf ein Upgrade auf Microsoft Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | Geändert |
+| 9/30/2021 | [Vorbereiten Ihres Diensts auf ein Upgrade für Microsoft Teams](/MicrosoftTeams/upgrade-prepare-environment-prepare-service) | Geändert |
 | 9/30/2021 | [Was sind Guthaben für Kommunikationen?](/MicrosoftTeams/what-are-communications-credits) | Geändert |
 | 9/30/2021 | [Verwenden der Teamvorlagen für das Gesundheitswesen](/MicrosoftTeams/expand-teams-across-your-org/healthcare/healthcare-templates-admin-console) | Geändert |
 | 9/30/2021 | [Verwenden Sie Vorlagen für Finanzteams](/MicrosoftTeams/financial-teams-templates-in-the-admin-console) | Geändert |
@@ -294,38 +353,3 @@
 | 10/1/2021 | [Exportieren von Inhalten mit Microsoft Teams Export-APIs](/MicrosoftTeams/export-teams-content) | Geändert |
 | 10/1/2021 | [Anmerkungen zu dieser Microsoft Teams-Räume](/MicrosoftTeams/rooms/rooms-release-note) | Geändert |
 | 10/1/2021 | [Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität](/MicrosoftTeams/use-real-time-telemetry-to-troubleshoot-poor-meeting-quality) | Geändert |
-
-
-## <a name="week-of-september-20-2021"></a>Woche vom 20. September 2021
-
-
-| Zeitpunkt der Veröffentlichung |Titel des Themas | Änderung |
-|------|------------|--------|
-| 9/20/2021 | [Anzeigen Ihrer Richtlinienzuweisungen im Aktivitätsprotokoll im Microsoft Teams Admin Center](/MicrosoftTeams/activity-log) | Geändert |
-| 9/20/2021 | [Verfügbarkeit der App "Genehmigungen" in Microsoft Teams](/MicrosoftTeams/approval-admin) | Geändert |
-| 9/20/2021 | [Zuweisen von Richtlinien zu Ihren Benutzern in Microsoft Teams](/MicrosoftTeams/assign-policies) | Geändert |
-| 9/20/2021 | [Für Direct Routing zertifizierte Sitzungsrahmencontroller](/MicrosoftTeams/direct-routing-border-controllers) | Geändert |
-| 9/20/2021 | [Teams für Education Richtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen](/MicrosoftTeams/easy-policy-setup-edu) | Geändert |
-| 9/20/2021 | [Clients für Microsoft Teams abrufen](/MicrosoftTeams/get-clients) | Geändert |
-| 9/20/2021 | [Gastzugriff in Microsoft Teams](/MicrosoftTeams/guest-access) | Geändert |
-| 9/20/2021 | [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](/MicrosoftTeams/log-files) | Geändert |
-| 9/20/2021 | [Migrieren von Slack auf Microsoft Teams](/MicrosoftTeams/migrate-slack-to-teams) | Geändert |
-| 9/20/2021 | [Planen der Lebenszyklusverwaltung](/MicrosoftTeams/plan-teams-lifecycle) | Geändert |
-| 9/20/2021 | [Vorbereiten des Netzwerks Ihrer Organisation für Teams](/MicrosoftTeams/prepare-network) | Geändert |
-| 9/20/2021 | [Einrichten von Audiokonferenzen für Microsoft Teams](/MicrosoftTeams/set-up-audio-conferencing-in-teams) | Geändert |
-| 9/20/2021 | [Einrichten von Webinaren in Microsoft Teams](/MicrosoftTeams/set-up-webinars) | Geändert |
-| 9/20/2021 | [Übersicht über PowerShell für Microsoft Teams](/MicrosoftTeams/teams-powershell-overview) | Geändert |
-| 9/20/2021 | [Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen](/MicrosoftTeams/tmr-meeting-recording-change) | Geändert |
-| 9/20/2021 | [Microsoft Teams-Räume](/MicrosoftTeams/rooms/index) | Geändert |
-| 9/20/2021 | [Voraussetzungen für Microsoft Teams-Räume](/MicrosoftTeams/rooms/requirements) | Geändert |
-| 9/21/2021 | [Einrichtung von Administratoren für die Edu Microsoft Parents-App](/MicrosoftTeams/edu-parents-app) | Hinzugefügt |
-| 9/21/2021 | [Teams: Verwalten von Besprechungsrichtlinien](/MicrosoftTeams/meeting-policies-in-teams) | Geändert |
-| 9/22/2021 | [Planen von direktem Routing](/MicrosoftTeams/direct-routing-plan) | Geändert |
-| 9/22/2021 | [Verwenden von Protokolldateien bei der Problembehandlung in Microsoft Teams](/MicrosoftTeams/log-files) | Geändert |
-| 9/22/2021 | [Verwalten von Besprechungsrichtlinien für Audio und Video](/MicrosoftTeams/meeting-policies-audio-and-video) | Geändert |
-| 9/22/2021 | [Einrichten von Cloudvoicemail](/MicrosoftTeams/set-up-phone-system-voicemail) | Geändert |
-| 9/23/2021 | [Servicetelefonnummern für Anrufpläne erhalten](/MicrosoftTeams/getting-service-phone-numbers) | Geändert |
-| 9/23/2021 | [Verwalten Teams des Übergangs zum neuen Teams Admin Center](/MicrosoftTeams/manage-teams-skypeforbusiness-admin-center) | Geändert |
-| 9/23/2021 | [Suchen nach Telefonnummern für Benutzer](/MicrosoftTeams/search-for-phone-numbers-for-users) | Geändert |
-| 9/23/2021 | [Vertraulichkeitsbeschriftungen für Microsoft Teams](/MicrosoftTeams/sensitivity-labels) | Geändert |
-| 9/24/2021 | [Microsoft Teams PowerShell-Versionshinweise](/MicrosoftTeams/teams-powershell-release-notes) | Geändert |

@@ -1,5 +1,5 @@
 ---
-title: Verwalten von Richtlinien für Notfall-Voice Routing für Direct Routing
+title: Verwalten von Notruf-Routing-Richtlinien für Direct Routing
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -21,27 +21,27 @@ description: Erfahren Sie, wie Sie Richtlinien für das Routing von Notrufen in 
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.voice.emergencycallroutingpolicies.overview
-ms.openlocfilehash: f7a62338cc8fe3fbdc73e88cfca5dd9e525ff150
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 582036d6168a235744b092f7f11bfd34442f5221
+ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605201"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60634914"
 ---
-# <a name="manage-emergency-voice-routing-policies-for-direct-routing"></a>Verwalten von Richtlinien für Notfall-Voice Routing für Direct Routing
+# <a name="manage-emergency-call-routing-policies-for-direct-routing"></a>Verwalten von Notruf-Routing-Richtlinien für Direct Routing
 
-Wenn Sie Direct [Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, können Sie Notfall-Voice routing-Richtlinien in Microsoft Teams verwenden, um Notrufnummern zu erstellen und anzugeben, wie Notrufe weiterleiten werden. Eine Richtlinie für die Weiterleitung von Notrufen bestimmt, ob erweiterte Notrufdienste für Benutzer aktiviert werden, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notdienste angerufen werden (z. B. 911 in den USA) und wie Notrufe an Notdienste umgerufen werden. 
+Wenn Sie Direct [Routing](direct-routing-landing-page.md) in Ihrer Organisation bereitgestellt haben, können Sie richtlinien für das Routing von Notrufen in Microsoft Teams verwenden, um Notrufnummern zu erstellen und anzugeben, wie Notrufe routing werden. Eine Richtlinie für das Routing von Notrufen bestimmt, ob erweiterte Notrufdienste für Benutzer aktiviert werden, denen die Richtlinie zugewiesen ist, die Nummern, mit denen Notdienste angerufen werden (z. B. 911 in den VEREINIGTEn Staaten), und wie Notrufe an Notdienste umgerufen werden. 
 
 > [!Note]
-> **Beachten Sie, dass diese Voice routing-Richtlinien nur für Direct-Routing gelten– sie gelten nicht für Anrufpläne oder Operatoren Verbinden.**
+> **Beachten Sie, dass diese Anrufroutingrichtlinien nur für Direct-Routing gelten– sie gelten nicht für Anrufpläne oder Operatoren Verbinden.**
 
-Sie verwalten Notfallrichtlinien für Voice Routing, indem Sie zu Den **Notrufrichtlinien** im Microsoft Teams Admin Center oder  >   mithilfe von Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
+Sie verwalten Richtlinien für die Weiterleitung von Notrufen, indem Sie zu den Richtlinien für den Sprachnotruf im Microsoft Teams Admin Center oder mithilfe von  >   Windows PowerShell. Die Richtlinien können Benutzern und [Netzwerkwebsites zugewiesen werden.](cloud-voice-network-settings.md)
 
 Für Benutzer können Sie die globale (organisationsweite Standardrichtlinie) verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Benutzer erhalten die globale Richtlinie automatisch, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Beachten Sie, dass Sie die Einstellungen in der globalen Richtlinie bearbeiten, aber nicht umbenennen oder löschen können. Für Netzwerkwebsites erstellen und weisen Sie benutzerdefinierte Richtlinien zu.
 
-Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für das Routing von Notfallstimmen zugewiesen haben und sich der Benutzer an diesem Netzwerkstandort befindet, setzt die richtlinie, die dem Netzwerkstandort zugewiesen ist, die Richtlinie außer Kraft, die dem Benutzer zugewiesen ist.
+Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für das Routing von Notrufen zugewiesen haben und sich der Benutzer an diesem Netzwerkstandort befindet, setzt die Richtlinie, die dem Netzwerkstandort zugewiesen ist, die Dem Benutzer zugewiesene Richtlinie außer Kraft.
 
-## <a name="create-a-custom-emergency-voice-routing-policy"></a>Erstellen einer benutzerdefinierten Voice Routing-Richtlinie für Notrufe
+## <a name="create-a-custom-emergency-call-routing-policy"></a>Erstellen einer benutzerdefinierten Richtlinie für das Routing von Notrufen
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
@@ -65,7 +65,7 @@ Wenn Sie einer Netzwerkwebsite und einem Benutzer eine Richtlinie für das Routi
 
 Weitere [Informationen finden Sie unter New-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/new-csteamsemergencycallroutingpolicy)
 
-## <a name="edit-an-emergency-voice-routing-policy"></a>Bearbeiten einer Voice Routing-Richtlinie für Notrufe
+## <a name="edit-an-emergency-call-routing-policy"></a>Bearbeiten einer Richtlinie für die Weiterleitung von Notrufen
 
 ### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
@@ -79,13 +79,13 @@ Sie können die globale Standardrichtlinie bearbeiten oder eine von Ihnen erstel
 
 Weitere [Informationen finden Sie unter Set-CsTeamsEmergencyCallRoutingPolicy.](/powershell/module/skype/set-csteamsemergencycallroutingpolicy)
 
-## <a name="assign-a-custom-emergency-voice-routing-policy-to-users"></a>Zuweisen einer benutzerdefinierten Voice Routing-Richtlinie für Notrufe zu Benutzern
+## <a name="assign-a-custom-emergency-call-routing-policy-to-users"></a>Zuweisen einer benutzerdefinierten Richtlinie für die Weiterleitung von Notrufen zu Benutzern
 
 [!INCLUDE [assign-policy](includes/assign-policy.md)]
 
 Siehe auch [Grant-CsTeamsEmergencyCallRoutingPolicy](/powershell/module/skype/grant-csteamsemergencycallroutingpolicy).
 
-## <a name="assign-a-custom-emergency-voice-routing-policy-to-a-network-site"></a>Zuweisen einer benutzerdefinierten Richtlinie für das Routing von Notrufen zu einem Netzwerkstandort
+## <a name="assign-a-custom-emergency-call-routing-policy-to-a-network-site"></a>Zuweisen einer benutzerdefinierten Richtlinie für das Routing von Notrufen zu einem Netzwerkstandort
 
 Verwenden Sie [das Cmdlet Set-CsTenantNetworkSite,](/powershell/module/skype/set-cstenantnetworksite) um einer Netzwerkwebsite eine Routingrichtlinie für Notrufe zuzuordnen.
 
