@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: dea6c465600229414dba30c0b0adecc7e5a5caad
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 731ed3aa7b9cb7b2511d7ffa1614bdf06522ac0e
+ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537096"
+ms.lasthandoff: 11/02/2021
+ms.locfileid: "60641235"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -109,6 +109,14 @@ Sie können Einladungen zu Teams-Besprechung personalisieren, um die Anforderung
 Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwenden, können Sie QoS-Markierungen aktivieren und Portbereiche für jede Art von Mediendatenverkehr festlegen. Das Festlegen von Portbereichen für verschiedene Datenverkehrstypen ist nur ein Schritt bei der Handhabung von Echtzeitmedien. Weitere Details finden Sie unter [Quality of Service (QoS) in Teams](qos-in-teams.md).
 
 > [!IMPORTANT]
+> Apple-basierte Systeme: Der einzige uns bekannte Fall, bei dem Apple-basierte Geräte den DSCP-Wert tatsächlich festlegen, ist, wenn alle folgenden Bedingungen erfüllt sind:
+> - iOS.
+> - WLAN-Netzwerk.
+> - Cisco-Switches.
+> - Der Netzwerkadministrator hat die App zur Liste zugelassener Apps hinzugefügt.
+>
+> Android-basierte Systeme: Es gibt keine bekannten Einschränkungen.
+>
 > Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Teams-Dienst ändern, müssen Sie außerdem [übereinstimmende Einstellungen auf alle Benutzergeräte anwenden](QoS-in-Teams-clients.md) und auf alle internen Netzwerkgeräte, um die Änderungen an QoS in Teams vollständig zu implementieren.
 
   **Verwenden des Microsoft Teams Admin Centers**
@@ -119,6 +127,10 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
     ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center.](media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
     - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
+
+        > [!IMPORTANT]
+        > Beachten Sie, dass die Aktivierung von QoS nur für Endpunkte zum Tagging von Paketen ausgeführt wird, die den Client verlassen. Es wird weiterhin empfohlen, für eingehenden Datenverkehr passende QoS-Regeln auf alle internen Netzwerkgeräte zu anwenden.
+        
         > [!NOTE]
         > Das DSCP-Markieren erfolgt normalerweise über Quellports, und der UDP-Verkehr wird standardmäßig an das Transportrelais mit dem Zielport 3478 weitergeleitet. Wenn Ihr Unternehmen das Markieren auf Zielports verlangt, kontaktieren Sie bitte den Support, um die Kommunikation zum Transportrelais mit den UDP-Ports 3479 (Audio), 3480 (Video), und 3481 (Teilen) zu aktivieren.
     - Um Portbereiche festzulegen, wählen Sie neben **Portbereich für jeden Typ von Echtzeit-Mediendatenverkehr auswählen** die Option **Portbereiche festlegen** aus, und geben Sie dann die Start- und Endports für Audio, Video und Bildschirmfreigabe ein. Die Auswahl dieser Option ist Voraussetzung für das Implementieren von QoS. 
