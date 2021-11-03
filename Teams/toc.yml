@@ -533,6 +533,8 @@ items:
             href: general-teams-templates-in-the-admin-console.md
           - name: Teamvorlagen für die Kategorie „Herstellung“
             href: manufacturing-teams-templates-in-the-admin-console.md
+          - name: Teamvorlagen für die Kategorie „Gemeinnützigkeit“
+            href: team-templates-nonprofit.md
           - name: Verwalten von Richtlinien für Teamvorlagen
             href: templates-policies.md
       - name: Mit Personen außerhalb meiner Organisation zusammenarbeiten
@@ -1553,6 +1555,11 @@ items:
             href: flw-realwear.md
           - name: Walkie Talkie
             href: walkie-talkie.md
+      - name: Teams für gemeinnützige Organisationen
+        href: expand-teams-across-your-org/teams-for-nonprofit-landing-page.md
+        items:
+          - name: Teamvorlagen für Gemeinnützigkeit verwenden
+            href: team-templates-nonprofit.md
       - name: Teams für den Einzelhandel
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
