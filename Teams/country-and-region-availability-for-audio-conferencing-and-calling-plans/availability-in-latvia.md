@@ -25,18 +25,18 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams in Lettland zur Verfügung.
-ms.openlocfilehash: 3004aa00132e60b1136be24426ed3ed80d72c6c6
-ms.sourcegitcommit: 84706d0b3b93c1bc72baac830fefd3f0a87c5ad1
+ms.openlocfilehash: dac4a1294020414e01c901d2593180d16beacfb3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "59942400"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733046"
 ---
 # <a name="availability-in-latvia"></a>Verfügbarkeit in Lettland
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams in Lettland.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Lettland.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -68,11 +68,11 @@ Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Rier ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Rier ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
    
-Informationen zum Abrufen von gebührenpflichtigen und gebührenfreien Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen finden Sie unter Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+Informationen zum Abrufen von gebührenpflichtigen und gebührenfreien Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen finden Sie unter Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Australien für Microsoft Teams.
-ms.openlocfilehash: 156fe90556f63aaadc298b2b7c4340f5e9aa1c33
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 282c52a16cb632b15c3c0aa5d07d9a8cf1a4a07c
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630147"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733536"
 ---
 # <a name="phone-number-management-for-australia"></a>Telefonnummernverwaltung für Australien
 
@@ -39,13 +39,13 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Neue Benutzer-Telefonnummern für Anrufpläne in Australien erhalten.   <br/> |Wenden [Sie sich an Telstra Calling,](https://aka.ms/TelstraVoicePlan) um neue Telefonnummern für Ihre Benutzer zu erhalten. Diese Nummern werden dann Ihrer Organisation hinzugefügt, sodass Sie sie Ihren Benutzern zuweisen können. <br/>
-|Wenn Sie Telstra-Anrufe verwenden, erhalten Sie möglicherweise neue Servicetelefonnummern, die mit automatischen Cloud-Telefonkonferenzen und Anrufwarteschleifen für Australien von Telstra aus verwendet werden können. <br/> |Wenden [Sie sich an Telstra Calling,](https://aka.ms/TelstraVoicePlan) um neue Telefonnummern zu ernennen. Diese Nummern werden dann Ihrer Organisation hinzugefügt, sodass Sie sie Ihren automatischen Telefonkonferenzen und Anrufwarteschleifen zuweisen können. Wenn Sie **Telstra** Calling nicht verwenden, wenden Sie sich möglicherweise an unseren Microsoft Number Management Service Desk, um Servicenummern von Microsoft zu erhalten. [Wenden Sie sich an den PSTN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu erhalten, damit wir Sie so schnell wie möglich unterstützen können. <br/>|
-|Neue Service-Rufnummern für Audiokonferenzen in Australien erhalten.   <br/> |[Wenden Sie sich an den PSTN Service Desk.](contact-pstn-service-desk.md)|
+|Wenn Sie Telstra-Anrufe verwenden, erhalten Sie möglicherweise neue Servicetelefonnummern, die mit automatischen Cloud-Telefonkonferenzen und Anrufwarteschleifen für Australien von Telstra aus verwendet werden können. <br/> |Wenden [Sie sich an Telstra Calling,](https://aka.ms/TelstraVoicePlan) um neue Telefonnummern zu ernennen. Diese Nummern werden dann Ihrer Organisation hinzugefügt, sodass Sie sie Ihren automatischen Telefonkonferenzen und Anrufwarteschleifen zuweisen können. Wenn Sie **Telstra** Calling nicht verwenden, wenden Sie sich möglicherweise an unseren Microsoft Number Management Service Desk, um Servicenummern von Microsoft zu erhalten. [Wenden Sie sich an den TNS Service Desk,](contact-TNS-Service-Desk.md) um Anweisungen zu erhalten, und wir helfen Ihnen so bald wie möglich. <br/>|
+|Neue Service-Rufnummern für Audiokonferenzen in Australien erhalten.   <br/> |[Wenden Sie sich an den TNS Service Desk.](contact-TNS-Service-Desk.md)|
 |Übertragen Sie Telefonnummern nach Microsoft 365 oder Office 365 für Benutzer, automatische Telefonkonferenzen und Anrufwarteschleifen.  <br/> | Wenden [Sie sich an Telstra Calling,](https://aka.ms/TelstraVoicePlan) um Telefonnummern zu übertragen. Diese Nummern werden dann Ihrer Organisation hinzugefügt.  <br/> |
-|Übertragen Sie Telefonnummern an Microsoft 365 oder Office 365, die für Audiokonferenzen verwendet werden können.  |[Anweisungen erhalten Sie beim PSTN Service Desk.](contact-pstn-service-desk.md) |
+|Übertragen Sie Telefonnummern an Microsoft 365 oder Office 365 für die Verwendung mit Audiokonferenzen.  |[Anweisungen erhalten Sie beim TNS Service Desk.](contact-TNS-Service-Desk.md) |
 |Änderung für Notfall-Rufnummern, die Benutzern zugewiesen sind, die eine Rufnummer aus einem Anrufplan haben. |Wenden [Sie sich an Telstra Calling,](https://aka.ms/TelstraVoicePlan) um Änderungen an der Notfalladresse vorzunehmen. Telstra kann diese Informationen für Sie aktualisieren.|
 |Ändern Sie eine Benutzernummer in eine Dienstnummer. |Wird unterstützt, wenn Sie Telstra-Anrufe verwenden.|
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Rufnummern in der Anrufwarteschleife oder der automatischen Telefonkonferenz erhalten Sie [beim PSTN Service Desk.](contact-pstn-service-desk.md) |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Rufnummern in der Anrufwarteschleife oder der automatischen Telefonwarteschleife erhalten Sie [beim TNS Service Desk.](contact-TNS-Service-Desk.md) |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

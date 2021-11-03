@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan verfügbar.
-ms.openlocfilehash: 148eb72fd906398cb7ed7b12c083d1ec5f4c68a3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Dies sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan verfügbar.
+ms.openlocfilehash: e9950242a6d3658f9fe49c04b188f03202bea585
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589869"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733286"
 ---
 # <a name="availability-in-kazakhstan"></a>Verfügbarkeit in Kasachstan
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan verfügbar.
+Dies sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -68,11 +68,11 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Eines der Dreier[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Eines der Dreier[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

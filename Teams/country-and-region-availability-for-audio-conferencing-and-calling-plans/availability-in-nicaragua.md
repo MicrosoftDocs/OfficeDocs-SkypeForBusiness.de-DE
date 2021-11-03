@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Nicaragua.
-ms.openlocfilehash: 6954f5a708f624637f338aedbb1c2971c430ca44
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Nicaragua verfügbare Dienste.
+ms.openlocfilehash: d289a6283d5854e427a35dcf7cac9fd11fbbec29
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598589"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733646"
 ---
 # <a name="availability-in-nicaragua"></a>Verfügbarkeit in Nicaragua
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Nicaragua.
+Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Nicaragua verfügbare Dienste.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -68,8 +68,8 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Man zur Verfügung ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Man zur Verfügung ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
  Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)

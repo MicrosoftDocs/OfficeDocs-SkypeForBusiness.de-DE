@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Japan für Microsoft Teams.
-ms.openlocfilehash: ed0b4403f28f825cdf98a7fde20d3fe4e3b88199
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f583815469a4373233d3a01b109d4d4474555a8b
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628347"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732876"
 ---
 # <a name="phone-number-management-for-japan"></a>Telefon der Nummerverwaltung für Japan
 
@@ -39,12 +39,12 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
 |**Was möchten Sie tun?**|**Führen Sie diese Schritte aus, und laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
 |Rufen Sie neue Benutzertelefonnummern für Anrufpläne in Japan ab.|Wenden Sie sich [an SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um neue Telefonnummern für Ihre Benutzer zu erhalten. Telstra fügt Sie diese Nummern Ihrer Organisation hinzu, damit Sie sie Ihren Benutzern zuweisen können. <br/>
-|Holen Sie sich neue Servicetelefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen in Japan.|Anweisungen dazu erhalten Sie [beim PTSN Service Desk.](contact-pstn-service-desk.md)|
+|Holen Sie sich neue Servicetelefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen in Japan.|Anweisungen erhalten Sie beim [TNS Service Desk.](contact-tns-service-desk.md)|
 |Übertragen Sie Telefonnummern in den Microsoft 365 oder Office 365 für **Benutzer** in Japan.|Wenden Sie sich an [SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um Telefonnummern von Benutzern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.  <br/> |
-|Übertragen Sie Telefonnummern zu einem Microsoft 365 oder Office 365 **anrufwarteschleifen** in Japan.|Wenden Sie sich an [SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um Servicenummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.|
+|Übertragen Sie Telefonnummern zu anderen Microsoft 365 oder Office 365 **anrufwarteschleifen** in Japan.|Wenden Sie sich an [SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um Servicenummern zu übertragen. Telstra fügt diese Nummern dan Ihrer Organisation hinzu.|
 |Ändern Sie die Notfalladresse, die Benutzern zugewiesen ist, die über eine Anrufplan-Telefonnummer verfügen.|Wenden Sie sich an [SoftBank Calling,](https://aka.ms/SoftBankVoicePlan) um Änderungen an der Notfalladresse vorzunehmen. Telstra kann diese Informationen für Sie aktualisieren.|
 |Ändern Sie eine Benutzernummer in eine Dienstnummer. |Bei Verwendung von SoftBank Calling wird derzeit nicht unterstützt.|
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Nummern von Anrufwarteschleifen oder automatischen Telefonanbietern erhalten Sie beim [PTSN Service Desk.](contact-pstn-service-desk.md) |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Rufnummern in der Anrufwarteschleife oder der automatischen Telefonwarteschleife erhalten Sie [beim TNS Service Desk.](contact-tns-service-desk.md) |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

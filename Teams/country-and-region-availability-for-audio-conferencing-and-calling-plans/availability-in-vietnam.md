@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Vietnam verfügbar.
-ms.openlocfilehash: 029fa5629bd4d81b94b9aac29868222eef51dc1a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams vietnamesische Dienste.
+ms.openlocfilehash: 8992019aa20a6c72dd16dd1b5d0588202e40ab1f
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620671"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733716"
 ---
 # <a name="availability-in-vietnam"></a>Verfügbarkeit in Vietnam
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Vietnam verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams vietnamesische Dienste.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,8 +69,8 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Einem Neuen[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)<li>Ho Chi Minh[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul>  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Einem Neuen[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)<li>Ho Chi Minh[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul>  <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).

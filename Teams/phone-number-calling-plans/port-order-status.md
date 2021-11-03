@@ -17,12 +17,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: 'Hier erfahren Sie, wie Sie den Status Ihrer Portierungsaufträge und die verschiedenen Aktionen für diese erhalten. '
-ms.openlocfilehash: 9bf0b66af230ee27036a891572dc92f292cb4d50
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3699a7ccbc2aa7a54c70c9cd99c9277f56ea40fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613044"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733096"
 ---
 # <a name="whats-the-status-of-your-port-orders"></a>Wie ist der Status meiner Portierungsaufträge?
 
@@ -36,13 +36,13 @@ In der folgenden Tabelle sind der Status des Portierungsauftrags sowie die Aktio
 |**Netzbetreiber wird kontaktiert** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde von Microsoft erhalten und genehmigt, und wir arbeiten mit dem verlustverdingten Netzbetreiber daran, die Genehmigung zu erhalten.  <br/> |
 |**Übertragung genehmigt** <br/> |Ja  <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Der Auftrag wurde vom verlorenen Netzbetreiber akzeptiert, und das Datum für die Firm Order Commitment (FOC) wurde festgelegt.  <br/> |
 |**Übertragung ausstehend** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Übertragung ist weniger als 24 Stunden entfernt, sodass die Bestellung nicht mehr bearbeitet oder storniert werden kann.  <br/> |
-|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (Derzeit können Sie den Portierungsauftrag bei einem Fehler nicht löschen. Der Portierungsauftrag muss neu erstellt werden, oder Sie müssen sich an die Hilfe des [PSTN Service Desk wenden.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |Der verlorene Netzbetreiber hat den Auftrag abgelehnt.  <br/> |
+|**Fehler** <br/> |Nein  <br/> |Ja  <br/> |Ja  <br/> |Ja (Derzeit können Sie den Portierungsauftrag bei einem Fehler nicht löschen. Der Portierungsauftrag muss neu erstellt werden, oder Sie müssen sich an [den TNS Service Desk wenden.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |Der verlorene Netzbetreiber hat den Auftrag abgelehnt.  <br/> |
 |**Abgeschlossen** <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Nein  <br/> |Die Nummern wurden erfolgreich übertragen.  <br/> |
 |**Abgebrochen** <br/> |Nein  <br/> |Ja  <br/> |Nein  <br/> |Nein  <br/> |Der Administrator hat die Bestellung storniert.  <br/> |
 
 Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams.](transfer-phone-numbers-to-teams.md)
 
-Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an den [PSTN Service Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an [den TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

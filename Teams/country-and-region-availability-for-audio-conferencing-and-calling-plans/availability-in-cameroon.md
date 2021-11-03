@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kamerun.
-ms.openlocfilehash: 6b47e7488aa7c9e33bc00c82b337ea5b67ab5b10
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e63bdf922073c57df9cd2d914c982d6197847ac9
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605954"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733746"
 ---
 # <a name="availability-in-cameroon"></a>Verfügbarkeit in Kamerun
 
@@ -69,7 +69,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht ortsgebefreit. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht orts-[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht orts-[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
  Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)

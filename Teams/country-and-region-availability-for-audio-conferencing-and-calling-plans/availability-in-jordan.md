@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Jordanien.
-ms.openlocfilehash: 6cb407c2377087d55bf1350d4028c900cc6784b2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7b76169fb05f3ee1d853eea536302e2827d0c071
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598599"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733666"
 ---
 # <a name="availability-in-jordan"></a>Verfügbarkeit in Jordanien
 
@@ -69,8 +69,8 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Amman[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Amman[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).

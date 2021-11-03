@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für Audiokonferenzen portieren Teams.
-ms.openlocfilehash: abb313a169c3f9b3626e219f64810e6333e6147b
-ms.sourcegitcommit: b2566e64e02cb51d18836630d3aa9b6f27b924da
+description: Erfahren Sie, wie Sie neue Telefonnummern erhalten und vorhandene Nummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen (Servicenummern) für Ihre Teams.
+ms.openlocfilehash: 34ff296ce94afa4888e8fd4b0ad23c00d0402468
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59491725"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733306"
 ---
 # <a name="service-phone-numbers-for-calling-plans"></a>Servicetelefonnummern für Anrufpläne
 
@@ -38,20 +38,20 @@ Sie können [](./getting-phone-numbers-for-your-users.md)nicht nur Telefonnummer
   
 Es gibt drei Möglichkeiten, Leistungsnummern zu erhalten:
   
-- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Servicenummern über das admin center Microsoft Teams erhalten. Weitere Informationen [finden Sie unter Neue Leistungsnummern erhalten.](#get-new-service-numbers)
+- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Servicenummern über das Admin Center Microsoft Teams erhalten. Weitere Informationen [finden Sie unter Neue Leistungsnummern erhalten.](#get-new-service-numbers)
 
 - **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber portieren oder übertragen. Über [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
 - **Verwenden eines Anforderungsformulars für neue Telefonnummern.** Manchmal können Sie (je nach Land oder Region) Ihre neuen Telefonnummern nicht über das Microsoft Teams Admin Center erhalten, oder Sie benötigen bestimmte Telefonnummern oder Vorwahlnummern. Wenn ja, müssen Sie ein Formular herunterladen und an uns senden. Weitere Informationen finden Sie unter [Verwalten von Rufnummern für Ihre Organisation](/microsoftteams/manage-phone-numbers-for-your-organization).
   
 > [!NOTE]
-> Servicenummern werden benötigt, damit Sie eine höhere Kapazität für gleichzeitige Anrufe für eine bestimmte Nummer erhalten. Wenn Sie die Nummer an uns übertragen, können Sie sich an den [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) Service Desk wenden, um sicherzustellen, dass die übertragene Servicenummer eine hohe Kapazität für gleichzeitige Anrufe bietet.
+> Servicenummern werden benötigt, damit Sie eine höhere Kapazität für gleichzeitige Anrufe für eine bestimmte Nummer erhalten. Wenn Sie die Nummer an uns übertragen, können Sie sich an den [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Service Desk wenden, um sicherzustellen, dass die übertragene Servicenummer eine hohe Kapazität für gleichzeitige Anrufe bietet.
   
 ## <a name="get-new-service-numbers"></a>Neue Leistungsnummern beziehen
 
 So erhalten Sie neue Leistungsnummern im Teams Admin Center:
 
-1. Navigieren Sie in der linken **Navigationsleiste** zu Telefon  >  **Sprachanrufnummern**, und klicken Sie dann auf **Hinzufügen**.
+1. Wechseln Sie in der linken Navigationsleiste **zu**  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
 
 2. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 
@@ -70,14 +70,14 @@ So erhalten Sie neue Leistungsnummern im Teams Admin Center:
 
 Um Ihre Telefonnummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber zu Teams zu übertragen, können Sie den Portierungs-Assistenten im Microsoft Teams Admin Center verwenden. Führen Sie die Schritte unter [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)aus.
 
-Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist, können Sie einen Portierungsauftrag manuell übermitteln oder zu Verwalten von Telefonnummern für Ihre Organisation [wechseln,](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region auswählen und dann einen Genehmigungsschreiben herunterladen. [](phone-number-calling-plans/manually-submit-port-order.md) Sie müssen für jeden Leistungsnummertyp (z. B. gebührenfrei) separate Portierungsaufträge übermitteln, die Sie mit einem LOA übertragen. Im LOA müssen Sie den richtigen Servicenummertyp auswählen. Stellen Sie sicher, dass Sie angeben, dass Sie eine Leistungsnummer übertragen (und keine Benutzer- oder Abonnentennummer), da die Kapazität für gleichzeitige Anrufe möglicherweise nicht ausreicht, um das Anrufvolumen zu bewältigen.  
+Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist, können Sie einen Portierungsauftrag manuell übermitteln oder zu Verwalten von Telefonnummern für Ihre Organisation [wechseln,](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)Ihr Land oder Ihre Region auswählen und dann einen Genehmigungsschreiben herunterladen. [](phone-number-calling-plans/manually-submit-port-order.md) Sie müssen für jeden Leistungsnummertyp (z. B. gebührenfrei) separate Portierungsaufträge übermitteln, die Sie mit einem LOA übertragen. Im LOA müssen Sie den richtigen Servicenummertyp auswählen. Stellen Sie sicher, dass Sie angeben, dass Sie eine Leistungsnummer (und keine Benutzer- oder Abonnentennummer) übertragen, da die Kapazität für gleichzeitige Anrufe möglicherweise nicht ausreicht, um das Anrufvolumen zu bewältigen.  
 
 > [!NOTE]
-> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie [sich an den PSTN Service Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie [sich an den TNS Service Desk](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
-Wechseln Sie im Teams Admin Center in der linken Navigationsleiste zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation einschließlich Standort, Nummertyp und  >   Statusinformationen anzeigen.
+Navigieren Sie im Teams Admin Center in der linken Navigationsleiste zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation einschließlich Standort, Nummertyp und  >   Statusinformationen zu sehen.
 
 ## <a name="assign-service-phone-numbers"></a>Zuweisen von Servicetelefonnummern
 

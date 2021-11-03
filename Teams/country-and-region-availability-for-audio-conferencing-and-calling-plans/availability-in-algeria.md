@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 Für Algerien Skype for Business und Microsoft Teams Dienste verfügbar.
-ms.openlocfilehash: b1f6a73a2f845cb36bde34755cbb226c6716bd20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e4fd12107fbca1e0d10c40b282ccb2e425b160d
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633389"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732716"
 ---
 # <a name="availability-in-algeria"></a>Verfügbarkeit in Algerien
 
@@ -69,7 +69,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht ortsgebefreit. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht orts-[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht orts-[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
  Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)

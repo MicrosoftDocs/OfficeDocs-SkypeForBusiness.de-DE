@@ -18,13 +18,13 @@ ROBOTS: NOINDEX, NOFOLLOW
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: Erhalten Sie die Anleitungen, die Sie zum Portieren Ihrer Telefonnummern zu Microsoft Teams.
-ms.openlocfilehash: 5ed15432517ae6ba5709e699c89c341dc86f30f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier erhalten Sie die Anleitungen, die Sie zum Portieren Ihrer Telefonnummern zu Microsoft Teams.
+ms.openlocfilehash: bdfe677a4a76128343382373d027abd5061bd8fc
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598389"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733316"
 ---
 # <a name="more-information-about-porting"></a>Weitere Informationen zum Portieren
 
@@ -32,11 +32,11 @@ Hier finden Sie weitere Informationen zum Portieren Ihrer Telefonnummern zu Micr
 
 Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams.](transfer-phone-numbers-to-teams.md)
 
-Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an die Hilfe des [PSTN Service Desk.](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an den [TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="port-order-account-information"></a>Kontoinformationen für Portierungsauftrag
 
-Auf der Seite  Kontoinformationen hinzufügen des Portierungs-Assistenten zum Übermitteln eines Portierungsauftrags geben Sie fast alle Informationen ein, die Sie im LOA bereitstellen würden, darunter:
+Wenn Sie sich  auf der Seite Kontoinformationen hinzufügen des Portierungs-Assistenten zum Übermitteln eines Portierungsauftrags begnen, geben Sie fast alle Informationen ein, die Sie im LOA bereitstellen würden, darunter:
   
 - Kontonummer für den Dienstanbieter oder Netzbetreiber
     
@@ -58,7 +58,7 @@ Auf der Seite  Kontoinformationen hinzufügen des Portierungs-Assistenten zum Ü
   
 Gehen Sie wie folgt vor, um die Übermittlung des Portierungsauftrags einfach zu machen und Fehler zu vermeiden:
   
-- Entfernen Sie alle Features (z. B. Sammel sammelgruppen), die Ihren Nummern zugeordnet sind. Stellen Sie sicher, dass für diese Telefonnummern keine erweiterten Anrufsteuerungsfunktionen wie Sammelsuche oder unterschiedliches Klingeln aktiviert sind.
+- Entfernen Sie alle Funktionen (z. B. Sammel sammelgruppen), die Ihren Nummern zugeordnet sind. Stellen Sie sicher, dass für diese Telefonnummern keine erweiterten Anrufsteuerungsfunktionen wie Sammelsuche oder unterschiedliches Klingeln aktiviert sind.
     
 - Stellen Sie sicher, dass Sie bei Ihrem aktuellen Dienstanbieter keine neuen Serviceaufträge oder Trennungen mehr gestellt haben.
     

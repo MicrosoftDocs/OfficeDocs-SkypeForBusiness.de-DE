@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für China verfügbar.
-ms.openlocfilehash: 52d62a5f4c5835debf5784ed40c646451d831531
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für China verfügbar.
+ms.openlocfilehash: 2013769f13cd94330ccc64422d5ea874d55155f2
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584779"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733686"
 ---
 # <a name="availability-in-china"></a>Verfügbarkeit in China
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für China verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für China verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -71,7 +71,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Beijing (Peking)  <br/> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
-|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)), mit Ausnahme von Kunden, die den Dienst aus China erwerben. Gebührenfreie Telefonnummern sind für Kunden, die den Dienst in China kaufen, nicht verfügbar. <br/> |
+|Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)), mit Ausnahme von Kunden, die den Dienst aus China erwerben. Gebührenfreie Telefonnummern sind für Kunden, die den Dienst in China kaufen, nicht verfügbar. <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
   

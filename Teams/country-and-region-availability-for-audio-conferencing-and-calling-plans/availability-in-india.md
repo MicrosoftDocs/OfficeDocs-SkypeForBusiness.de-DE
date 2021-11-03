@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Indien verfügbare Dienste.
-ms.openlocfilehash: 5a61ded32ca4563a3825d893f671332fa30bb996
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Indien.
+ms.openlocfilehash: 9468da224b7f5079f091125cb0d2841c4bd79290
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611734"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733066"
 ---
 # <a name="availability-in-india"></a>Verfügbarkeit in Indien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Indien verfügbare Dienste.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Indien.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,7 +69,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Weitere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |<ul><li>Chennai</li><li>Mumbai<li>Weitere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 

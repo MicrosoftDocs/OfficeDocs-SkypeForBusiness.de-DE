@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Für Brasilien verfügbare Dienste.
-ms.openlocfilehash: 68379b9c48ed70f590eb3d57a171a6af9f4042be
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Brasilien verfügbar.
+ms.openlocfilehash: 059876da21906264bc1961785b7cddcdc49dd132
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609042"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732736"
 ---
 # <a name="availability-in-brazil"></a>Verfügbarkeit in Brasilien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Für Brasilien verfügbare Dienste.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Brasilien verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,7 +69,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> | <ul><li>Rio de Janeiro <li>  Sao Paulo <li>Weitere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)</ul> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> | <ul><li>Rio de Janeiro <li>  Sao Paulo <li>Weitere Städte [auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)</ul> |
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja  <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    

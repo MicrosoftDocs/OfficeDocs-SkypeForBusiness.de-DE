@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Calling Plans
-description: Erfahren Sie, wie Sie neue Nummern erhalten, Nummern portieren oder vorhandene Nummern Teams und wie Sie ihren Benutzern die Änderungen anzeigen.
-ms.openlocfilehash: 11824043bc8ddd50c1e0c47ee15d22a5f3cc0c97
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: Hier erfahren Sie, wie Sie neue Nummern für Ihr Konto Teams Portieren, Portieren oder Übertragen von vorhandenen Nummern erhalten und die Änderungen Ihren Benutzern anzeigen.
+ms.openlocfilehash: 8fdc0e2341bd48afb0635f554d7d25b3e4244cf1
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537076"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733296"
 ---
 # <a name="getting-phone-numbers-for-your-users"></a>Reservieren von Telefonnummern für Ihre Benutzer
 
@@ -34,7 +34,7 @@ Bevor Sie Benutzer in Ihrer Organisation für das Tätigen und Erhalten von Tele
   
 Es gibt drei Möglichkeiten, Benutzernummern zu erhalten:
 
-- **Verwenden sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Telefonnummern für Ihre Benutzer über das admin center Microsoft Teams erhalten. Weitere [Informationen finden Sie unter Neue Telefonnummern für Ihre Benutzer erhalten.](#get-new-phone-numbers-for-your-users)
+- **Verwenden Sie Microsoft Teams Admin Center.** In einigen Ländern und Regionen können Sie Telefonnummern für Ihre Benutzer über das Admin Center Microsoft Teams erhalten. Weitere [Informationen finden Sie unter Neue Telefonnummern für Ihre Benutzer erhalten.](#get-new-phone-numbers-for-your-users)
 
 - **Portieren von bestehenden Nummern.** Sie können vorhandene Nummern von Ihrem aktuellen Dienstanbieter oder Netzbetreiber portieren oder übertragen. Über [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md) oder [Rufnummern für Ihre Organisation verwalten](/microsoftteams/manage-phone-numbers-for-your-organization) erhalten Sie weitere hilfreiche Informationen.  
   
@@ -51,7 +51,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 1. Wechseln Sie zum Microsoft Teams Admin Center.
 
-2. Wechseln Sie in der linken Navigationsleiste zu  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
+2. Wechseln Sie im linken Navigationsbereich **zu**  >  **Sprachanrufnummern Telefon** und klicken Sie dann auf **Hinzufügen**.
 
 3. Geben Sie einen Namen für den Auftrag ein, und fügen Sie eine Beschreibung hinzu.
 
@@ -71,15 +71,15 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
   
 ## <a name="port-or-transfer-phone-numbers-from-your-service-provider-or-phone-carrier"></a>Portieren oder übertragen Sie vorhandene Telefonnummern von Ihrem Dienstanbieter oder Netzbetreiber
   
-- Wenn Sie für Ihre Benutzer 999 oder weniger Telefonnummern benötigen, verwenden Sie den Portierungs-Assistenten im Microsoft Teams Admin Center. Führen Sie die Schritte unter [Übertragen von Telefonnummern zum Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)aus. Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist, können Sie einen Portierungsauftrag manuell übermitteln oder unter Verwalten von Telefonnummern für Ihre Organisation nach dem Herunterladen des richtigen Genehmigungsschreibens (Letter of Authorization; LOA) lesen. [](phone-number-calling-plans/manually-submit-port-order.md) [](/microsoftteams/manage-phone-numbers-for-your-organization)
+- Wenn Sie für Ihre Benutzer 999 oder weniger Telefonnummern benötigen, verwenden Sie den Portierungs-Assistenten im Microsoft Teams Admin Center. Führen Sie die Schritte unter [Übertragen von Telefonnummern zu Teams](./phone-number-calling-plans/transfer-phone-numbers-to-teams.md)aus. Wenn Ihr Land oder Ihre Region im Portierungs-Assistenten nicht aufgeführt ist, können Sie einen Portierungsauftrag manuell übermitteln oder unter Verwalten von Telefonnummern für Ihre Organisation nach dem Herunterladen des richtigen Genehmigungsschreibens (Letter of Authorization; LOA) lesen. [](phone-number-calling-plans/manually-submit-port-order.md) [](/microsoftteams/manage-phone-numbers-for-your-organization)
 
-- Wenn Sie mehr als 999 Telefonnummern [](phone-number-calling-plans/manually-submit-port-order.md) portieren müssen, können [](/microsoftteams/manage-phone-numbers-for-your-organization) Sie manuell einen Portierungsauftrag übermitteln, oder lesen Sie Verwalten von Telefonnummern für Ihre Organisation, um die richtige Genehmigungsschreiben herunterzuladen und dann an den [PSTN](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) Service Desk zu senden, um alle Ihre Nummern zu übertragen.
+- Wenn Sie mehr als 999 Telefonnummern [](phone-number-calling-plans/manually-submit-port-order.md) portieren müssen, können [](/microsoftteams/manage-phone-numbers-for-your-organization) Sie manuell einen Portierungsauftrag übermitteln oder unter Verwalten von Telefonnummern für Ihre Organisation die richtige Genehmigungsschreiben herunterladen und diese dann an den [TNS](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Service Desk senden, um alle Ihre Nummern zu übertragen.
 
 ## <a name="view-the-phone-numbers-for-your-organization"></a>Anzeigen der Telefonnummern für Ihre Organisation
 
  **Verwenden des Microsoft Teams Admin Centers**
 
-Wechseln Sie in der linken Navigationsleiste des Admin Centers zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation, einschließlich Standort, Zahlentyp und  >   Statusinformationen, anzeigen.
+Navigieren Sie in der linken Navigationsleiste des Admin Centers zu Voice Telefon-Nummern, um die Nummern für Ihre Organisation, einschließlich Standort, Zahlentyp und  >   Statusinformationen, anzeigen.
   
 ## <a name="assign-phone-numbers-to-users"></a>Zuweisen von Telefonnummern an Benutzer
 

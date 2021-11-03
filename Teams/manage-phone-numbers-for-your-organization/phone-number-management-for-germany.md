@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Anfordern und Verwalten von Telefonnummern für Microsoft Teams in Deutschland.
-ms.openlocfilehash: 155ba545d0b11301e36c3a32066b9340aa56e9e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a3aea336583f71bff1795171b40f4fa06374298
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617341"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60732726"
 ---
 # <a name="phone-number-management-for-germany"></a>Telefonnummernverwaltung für Deutschland
 
@@ -35,11 +35,11 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.  <br/> | In Deutschland können Sie Telefonnummern für Ihre Organisation nicht über das Microsoft Teams Admin Center beziehen, sondern Sie müssen eine Anforderung für neue Telefonnummern senden.<br/><br/>Laden Sie eines dieser Formulare herunter. <br/>[Anforderung für eine neue Telefonnummer für Deutschland (v.5.0) (de-de)](https://download.microsoft.com/download/3/d/0/3d08f249-93a6-4bec-8c89-a2614ee0b84d/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf) <br/>  [Anforderung für eine neue Telefonnummer für Deutschland (v.5.0) (en-us)](https://download.microsoft.com/download/e/0/4/e043635c-f275-40dc-a45e-3120dfe0d748/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf)<br/><br/>Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
-|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie eines dieser Formulare herunter. <br/><br/> Telefonnummern für Benutzer:<br/>[Autorisierungsschreiben (Letter of Authorization, LOA) für Deutschland (geografische Nummern) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Für gebührenfreie Telefonnummern:<br/>[Autorisierungsschreiben (Letter of Authorization, LOA) für Deutschland (gebührenfreie Nummern) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Füllen Sie das Feld aus, und wenden Sie sich [an den PTSN Service Desk, um Anweisungen zu erhalten.](contact-pstn-service-desk.md)  <br/> |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den PTSN Service Desk,](contact-pstn-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Rufnummern in der Anrufwarteschleife oder der automatischen Telefonkonferenz erhalten Sie [beim PSTN Service Desk.](contact-pstn-service-desk.md) |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind.  <br/> | In Deutschland können Sie Telefonnummern für Ihre Organisation nicht über das Microsoft Teams Admin Center beziehen, sondern Sie müssen eine Anforderung für neue Telefonnummern senden.<br/><br/>Laden Sie eines dieser Formulare herunter. <br/>[Anforderung für eine neue Telefonnummer für Deutschland (v.5.0) (de-de)](https://download.microsoft.com/download/3/d/0/3d08f249-93a6-4bec-8c89-a2614ee0b84d/new-phone-number-request-for-germany-(v.5.0)-(de-de).pdf) <br/>  [Anforderung für eine neue Telefonnummer für Deutschland (v.5.0) (en-us)](https://download.microsoft.com/download/e/0/4/e043635c-f275-40dc-a45e-3120dfe0d748/new-phone-number-request-for-germany-(v.5.0)-(en-us).pdf)<br/><br/>Füllen Sie das Feld aus, und wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md)  <br/> |
+|Lassen Sie Telefonnummern an uns übertragen.  <br/> | Laden Sie eines dieser Formulare herunter. <br/><br/> Telefonnummern für Benutzer:<br/>[Autorisierungsschreiben (Letter of Authorization, LOA) für Deutschland (geografische Nummern) (v.5.0) (de-de)](https://download.microsoft.com/download/c/6/7/c67575bb-22ca-4a0a-836f-e411094b9067/letter-of-authorization-(loa)-for-germany-(geographic-numbers)-(v.5.0)-(de-de).pdf)<br/><br/>  Für gebührenfreie Telefonnummern:<br/>[Autorisierungsschreiben (Letter of Authorization, LOA) für Deutschland (gebührenfreie Nummern) (v.5.0) (de-de)](https://download.microsoft.com/download/4/b/6/4b6d2f70-dd3b-4936-b3d6-fba19051d4d0/letter-of-authorization-(loa)-for-germany-(toll-free-numbers)-(v.5.0)-(de-de)%20(1).pdf)<br/><br/> Füllen Sie das Feld aus, und wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md)  <br/> |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Rufnummern in der Anrufwarteschleife oder der automatischen Telefonwarteschleife erhalten Sie [beim TNS Service Desk.](contact-tns-service-desk.md) |
 
 ## <a name="related-topics"></a>Verwandte Themen
 

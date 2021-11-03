@@ -18,12 +18,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Hier erfahren Sie, wie Sie eine Anforderung für einen Portierungsantrag manuell übermitteln.
-ms.openlocfilehash: 2a372ee26b9cb7b52b72c635c90a6e0435b7c729
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 221f35bf300ed9ab33ab3088f18e154ecbecc5e3
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60045871"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733496"
 ---
 # <a name="manually-submit-a-port-order"></a>Manuelles Übermitteln eines Portierungsauftrags
 
@@ -33,15 +33,15 @@ Verwenden Sie die Schritte in diesem Artikel, um einen Portierungsauftrag manuel
 
 ## <a name="manually-submit-a-new-port-order-request"></a>Manuelles Übermitteln einer neuen Anforderung für einen Portierungsantrag
 
-Wenn Sie einen neuen Portierungsauftrag manuell übermitteln möchten, senden Sie das ausgefüllte Genehmigungsschreiben direkt an den PSTN Service Desk für Ihre Region.
+Wenn Sie einen neuen Portierungsauftrag manuell übermitteln möchten, senden Sie das ausgefüllte Genehmigungsschreiben direkt an den TNS Service Desk für Ihre Region.
 
 1. Laden Sie [den LOA](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md) für Ihr Land bzw. Ihre Region herunter.
 2. Füllen Sie das Formular aus.
-3. Senden Sie sie an den [PSTN-Service Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) für Ihre Region.
+3. Senden Sie sie an den [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) für Ihre Region.
 
 ## <a name="what-else-should-you-know-about-number-porting"></a>Was sie sonst noch über die Nummernportierung wissen sollten
 
-- Um Anrufpläne verwenden zu können, müssen Sie Lizenzen erwerben und Ihren Benutzern zuweisen. Weitere Informationen [Teams finden Sie unter Add-On-Lizenzierung.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+- Um Anrufpläne verwenden zu können, müssen Sie Lizenzen erwerben und Ihren Benutzern zuweisen. Weitere Informationen [Teams Finden Sie unter Lizenzierung von Add-Ons.](../teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 - Sie müssen jedem Ihrer Benutzer die neuen Telefonnummern zuweisen. Weitere Informationen hierzu finden Sie unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 

@@ -21,19 +21,19 @@ ms.custom:
 - Calling Plans
 - ms.teamsadmincenter.voice.phonenumbers.searchacquire.tooltip.numbertype
 - seo-marvel-apr2020
-description: In diesem Artikel erfahren Sie mehr über die verschiedenen Arten von Telefonnummern, die Microsoft Teams werden.
-ms.openlocfilehash: 0aa75c9052e269d6e45054cdf5b6cf73042c55ac
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+description: In diesem Artikel erfahren Sie mehr über verschiedene Arten von Telefonnummern, die Microsoft Teams werden.
+ms.openlocfilehash: 69eaa94320a540ca0e7ad560e4ff27a7a4bc44e0
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432647"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733696"
 ---
 # <a name="types-of-phone-numbers"></a>Arten von Telefonnummern
 
 Microsoft Teams verwendet abhängig vom Zweck, für den Sie die Telefonnummer verwenden möchten, unterschiedliche Telefonnummerntypen. 
 
-Teams verwendet Benutzernummern, die Benutzern in Ihrer Organisation zugewiesen  werden können, sowie Servicenummern, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschleifen zugewiesen sind.  Servicetelefonnummern haben eine *höhere Kapazität für gleichzeitige Anrufe*  als Benutzernummern. Servicetelefonnummern sind verfügbar, variieren jedoch je nach Land/Region und Art der Nummer (gebührenpflichtige oder gebührenfreie Nummer). Wenn Sie zusätzliche oder andere Nummerntypen als die im Microsoft Teams Admin Center verwendeten Nummern benötigen, können Sie eine Telefonnummernanforderung an den [PSTN Service Desk senden.](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)
+Teams verwendet Benutzernummern, die Benutzern in Ihrer Organisation zugewiesen  werden können, sowie Servicenummern, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschleifen zugewiesen sind.  Servicetelefonnummern haben eine *höhere Kapazität für gleichzeitige Anrufe*  als Benutzernummern. Servicetelefonnummern sind verfügbar, variieren jedoch je nach Land/Region und Art der Nummer (gebührenpflichtige oder gebührenfreie Nummer). Wenn Sie zusätzliche oder andere Nummerntypen benötigen, die nicht mit den nummern im Microsoft Teams Admin Center zu sehen sind, können Sie eine [Telefonnummernanforderung an den TNS Service Desk senden.](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
   
 - **Benutzernummern**
     
@@ -59,7 +59,7 @@ Teams verwendet Benutzernummern, die Benutzern in Ihrer Organisation zugewiesen 
     > Einige Länder/Regionen sowie Nummerntypen, z. B. Anrufe von Mobiltelefonen, können in einigen Fällen gebührenpflichtig für den Anrufer an fallen. 
   
 > [!NOTE]
-> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie [sich an den PSTN Service Desk](manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie [sich an den TNS Service Desk.](manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 

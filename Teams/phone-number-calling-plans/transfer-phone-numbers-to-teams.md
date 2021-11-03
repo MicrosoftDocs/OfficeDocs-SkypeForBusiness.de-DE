@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe des Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter zu Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 3d39c580c2eb17c9555c2cb6ad335a19c48f6677
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617211"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733076"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -35,13 +35,13 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
   > [!NOTE]
   > Wir verarbeiten Portierungsaufträge zur Übertragung von Telefonnummern nur an Werktagen in den USA und nicht an Feiertagen oder Wochenenden.
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen Sie einen Portierungsauftrag, und übertragen Sie Ihre Telefonnummern an Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen Sie einen Portierungsauftrag, und übertragen Sie Ihre Telefonnummern Teams
 
 > [!NOTE]
 > Derzeit können Sie diesen Assistenten verwenden, **um Telefonnummern für Großbritannien,** die Vereinigten Staaten und Kanada zu erhalten. Um Telefonnummern für andere Länder und Regionen zu erhalten, können Sie [einen Portierungsauftrag manuell übermitteln.](manually-submit-port-order.md) Um das Formular zu erhalten, das Sie manuell übermitteln müssen, wählen Sie Ihr Land oder Ihre Region in der Dropdownliste unter Verwalten von Telefonnummern [für Ihre Organisation aus.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachanrufnummern Telefon .** Klicken **Sie auf** Nummern und dann auf **Portieren,** um den Portierungs-Assistenten zu starten.
-2. Überprüfen Sie die Informationen auf der Seite **Erste** Schritte, und klicken Sie dann, wenn Sie fertig sind, auf **Weiter.**
+2. Überprüfen Sie die Informationen auf der Seite **Erste** Schritte, und klicken Sie dann, wenn Sie bereit sind, auf **Weiter.**
 3. Geben Sie **auf der Seite** Speicherort und Zahlentyp auswählen Folgendes an, und klicken Sie dann auf **Weiter:**
 
     - **Land oder Region:** Das Land oder die Region, in dem bzw. der Sie Telefonnummern erhalten.
@@ -77,7 +77,7 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
     1. Klicken **Sie auf Vorlage herunterladen,** um den LOA für Ihr Land oder Ihre Region herunterzuladen. 
     2. Drucken Sie den LOA.
     3. Lassen Sie den LOA von der Person unterzeichnen, die berechtigt ist, Änderungen am Konto vorzunehmen.
-    4. Scannen Sie den signierten LOA, und klicken **sie Hochladen,** um ihn hochzuladen.
+    4. Scannen Sie den signierten LOA, und klicken Sie **Hochladen signierten Genehmigungsschreiben** ein, um ihn hochzuladen.
 
     > [!NOTE]
     > Nachdem Sie Ihren LOA hochgeladen haben, übermitteln Sie Ihre Bestellung. Nur das Hochladen des LOA reicht nicht aus. Sie müssen auch die Bestellung übermitteln, damit sie verarbeitet wird.
@@ -87,7 +87,7 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
 
 ## <a name="what-happens-next"></a>Wie geht es weiter?
 
-Wenn wir Ihren Portierungsantrag erhalten, erhalten Sie eine E-Mail, in der Ihre Anforderung bestätigt wird. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden per E-Mail über den Fortschritt und Status benachrichtigt. Wenn Ihre Portierungsanforderung vom verlorenen Netzbetreiber abgelehnt wird, wenden Sie sich an [den PSTN Service Desk](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md).
+Wenn wir Ihren Portierungsantrag erhalten, erhalten Sie eine E-Mail, in der Ihre Anforderung bestätigt wird. Ihre Anfrage wird täglich überprüft und aktualisiert, und Sie werden per E-Mail über den Fortschritt und Status benachrichtigt. Wenn Ihre Portierungsanforderung vom verlorenen Netzbetreiber abgelehnt wird, wenden Sie sich an [den TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
 
 Um den Status Ihres Portierungsauftrags zu sehen, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu > **Voice**  >  **Portierungsaufträge**, und klicken Sie dann auf **Bestellverlauf**. Der Status jedes Portierungsauftrags wird in der **Spalte Status** aufgeführt. Weitere Informationen finden Sie unter [Wie ist der Status Ihrer Portierungsaufträge?](port-order-status.md)
 

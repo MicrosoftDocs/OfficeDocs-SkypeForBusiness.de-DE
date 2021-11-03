@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Uganda.
-ms.openlocfilehash: 5182a27e524e1b457f1060ba559fe107bfab723a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams Uganda.
+ms.openlocfilehash: 4ef6ddc83ede675f73512e5dc0749ce561ab635b
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586619"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733476"
 ---
 # <a name="availability-in-uganda"></a>Verfügbarkeit in Uganda
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Uganda.
+Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams Uganda.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,10 +69,10 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Nicht ortsgebefreit. Telefonnummern sind nicht an eine bestimmte Stadt oder einen bestimmten Ort gebunden. <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht orts-[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nicht orts-[(auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kenia.
-ms.openlocfilehash: f7ec89f4508b383d14b51e36775e5b12a1c6a06f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kenia verfügbar.
+ms.openlocfilehash: b27487cdc1ff88717ce3860e159d0b8373b6ba60
+ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586653"
+ms.lasthandoff: 11/03/2021
+ms.locfileid: "60733656"
 ---
 # <a name="availability-in-kenya"></a>Verfügbarkeit in Kenia
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kenia.
+Hier sind die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kenia verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,8 +69,8 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Denk ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md)  <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-pstn-service-desk.md) <br/> |
+|Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?  <br/> |Denk ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)  <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
  Wenn Sie eine gebührenpflichtige oder gebührenfreie Servicenummer für Audiokonferenzen, automatische Telefonzentralen und Anrufwarteschleifen anfordern möchten, finden Sie weitere Informationen unter [Anfordern von Servicenummern](../getting-service-phone-numbers.md).
