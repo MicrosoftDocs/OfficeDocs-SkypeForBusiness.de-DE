@@ -5,7 +5,7 @@ ms:assetid: 736fcaad-9f95-4896-b767-e199d86a00a4
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SIP-Partnerverbund, Remotebenutzerzugriff und Verbindungen mit öffentlichen Chatnachrichten in der Skype for Business Server Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: 4a5f6bfe13c27360c535957cefcfd4093b6a1bad
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0e1fd7c1597200f576ff329433eb106f1c425da
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587019"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762463"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer zu einem Skype for Business aktivierten Benutzer
 
@@ -50,9 +50,9 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie 
 > Die **\<Automatic>** Einstellungen gelten für den Standardserver oder die globalen Richtlinieneinstellungen.
 
 
-## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen Per-User Richtlinien für den externen Zugriff mithilfe von Windows PowerShell Cmdlets
+## <a name="assigning-per-user-external-access-policies-by-using-windows-powershell-cmdlets"></a>Zuweisen Per-User Richtlinien für den externen Zugriff mithilfe Windows PowerShell Cmdlets
 
-Richtlinien für den externen Zugriff pro Benutzer können mithilfe von Windows PowerShell und dem Cmdlet Grant-CsExternalAccessPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Richtlinien für den externen Zugriff pro Benutzer können mithilfe von Windows PowerShell und dem Cmdlet Grant-CsExternalAccessPolicy zugewiesen werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-assign-a-per-user-external-access-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine Benutzerrichtlinie für den externen Zugriff zu
 

@@ -1,7 +1,7 @@
 ---
 title: Besprechungskonfiguration
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
 ROBOTS: NOINDEX, NOFOLLOW
 description: Besprechungskonfigurationseinstellungen definieren die Art von Konferenzen (auch alsMeetings bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.
-ms.openlocfilehash: 86b8488028d8eb290fa6a7e41e6c14afc3fbac7c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3ed5a27acef99f05fe9bc0a5f2ba9bbb5300a15e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585279"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769523"
 ---
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
 

@@ -1,6 +1,6 @@
 ---
 title: Anpassen der Mac-Clientumgebung in Skype for Business
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: PhillipGarding
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
 description: In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie sie von außerhalb der App bearbeitet werden.
-ms.openlocfilehash: 9ece447b7d3bce37784e0f1d0b3f8fe3746fce86
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ed702585e0fb7cdd78bdf318b77b8a2513870498
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578129"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773355"
 ---
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Clientumgebung in Skype for Business
  
 In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie sie von außerhalb der App bearbeitet werden.
   
-## <a name="skype-for-business-on-mac-client-preference-settings"></a>einstellungen für Skype for Business für Mac-Clients
+## <a name="skype-for-business-on-mac-client-preference-settings"></a>Einstellungen für Skype for Business für Mac-Clients
 
-Bestimmte Features und Verhaltensweisen, die für Skype for Business auf Mac-Clients verfügbar sind, werden durch die Einstellungseinstellungen auf dem Client bestimmt. Die einstellungen für Skype for Business für Mac finden Sie in einer Datei auf Macs, die den Skype for Business-Client unter dem folgenden Pfad installiert haben: 
+Bestimmte Features und Verhaltensweisen, die für Skype for Business auf Mac-Clients verfügbar sind, werden durch die Einstellungseinstellungen auf dem Client bestimmt. Die Skype for Business für Mac-Einstellungen finden Sie in einer Datei auf Macs, die den Skype for Business-Client unter dem folgenden Pfad installiert haben: 
   
  **~/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Preferences/com.microsoft.SkypeForBusiness.plist**
   
@@ -37,21 +37,21 @@ Um diese Einstellungen festzulegen, rufen Sie eine Terminalaufforderung auf dem 
 | Key | Typ | Wert | Beschreibung |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Boolescher Wert    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standard)    |Geben Sie an, wie Skype for Business den Transport und server identifiziert, der während der Anmeldung verwendet werden soll. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
-|internalAutoDiscoveryURL    |String    |Vollständige AutoErmittlungs-URL    |Interne AutoErmittlungs-URL    |
-|externalAutoDiscoveryURL    |String    |Vollständige AutoErmittlungs-URL    |Externe AutoErmittlungs-URL    |
-|httpProxyDomain    |String    ||HTTP-Proxydomäne    |
-|httpProxyUserName    |String    ||HTTP-Proxybenutzername    |
-|httpProxyPassword    |String    ||HTTP-Proxykennwort    |
+|internalAutoDiscoveryURL    |Zeichenfolge    |Vollständige AutoErmittlungs-URL    |Interne AutoErmittlungs-URL    |
+|externalAutoDiscoveryURL    |Zeichenfolge    |Vollständige AutoErmittlungs-URL    |Externe AutoErmittlungs-URL    |
+|httpProxyDomain    |Zeichenfolge    ||HTTP-Proxydomäne    |
+|httpProxyUserName    |Zeichenfolge    ||HTTP-Proxybenutzername    |
+|httpProxyPassword    |Zeichenfolge    ||HTTP-Proxykennwort    |
 |trustedDomainList    |Array    ||Liste der vertrauenswürdigen Domänen für HTTP-Umleitungen.    |
-|autoAcceptTimeout    |Nummer    |300 (Standard)    |Timeout für automatisches Annehmen für Benutzer ohne serverseitigen Unterhaltungsverlauf.    |
+|autoAcceptTimeout    |Zahl    |300 (Standard)    |Timeout für automatisches Annehmen für Benutzer ohne serverseitigen Unterhaltungsverlauf.    |
 |warnWhenUnknownLocationForE911    |Boolescher Wert    |0 = Deaktiviert  <br/> 1 = Aktiviert    |Warnt den Benutzer, wenn er eine Notrufnummer von einem unbekannten Ort aus wählt.    |
-|sipAddress    |String    ||Die SIP-Adresse (E-Mail), die für die Anmeldung bei Skype for Business verwendet wird.    |
+|sipAddress    |Zeichenfolge    ||Die SIP-Adresse (E-Mail), die zum Anmelden bei Skype for Business verwendet wird.    |
 |userName    |String    ||Der UPN (UserName), der zum Anmelden bei Skype for Business verwendet wird.    |
 |userNameInAdvancedOnly    |Boolescher Wert    |0 = Anzeigen des Benutzernamenfelds auf dem Hauptanmeldungsbildschirm und im Dialogfeld "Erweiterte Eigenschaften"  <br/> 1 = Nur im Dialogfeld "Erweiterte Eigenschaften" das Feld "Benutzername" anzeigen (Standard)    |Geben Sie an, wo das Benutzernamenfeld während der Anmeldung angezeigt wird.    |
    
 ### <a name="usage-examples"></a>Verwendungsbeispiele
 
-Wenn Sie der Liste der vertrauenswürdigen Domänen eine einzelne Domäne (Contoso.com) hinzufügen möchten, verwenden Sie den Schlüssel "trustedDomainList" wie dargestellt:
+Um der Liste der vertrauenswürdigen Domänen eine einzelne Domäne (Contoso.com) hinzuzufügen, verwenden Sie den Schlüssel "trustedDomainList" wie dargestellt:
   
 Defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   

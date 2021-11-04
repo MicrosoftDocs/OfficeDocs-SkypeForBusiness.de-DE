@@ -1,7 +1,7 @@
 ---
 title: Importieren von Zertifikaten (Einführung)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 474fac52-0b11-45dd-a211-fd2f1727238b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Importieren eines Zertifikats müssen Sie einen Pfad zur Zertifikatdatei angeben. In das Textfeld Zertifikatdatei auswählen können Sie entweder den vollständigen Pfad samt Dateinamen eingeben oder auf die Schaltfläche Durchsuchen klicken und zum gewünschten Pfad samt Datei navigieren (in der Regel eine P7B-, PFX- oder CER-Datei).
-ms.openlocfilehash: 7d3e360ee61d1262aaec8d228c5f8833d6abd3e6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 112a8239d9bc1f48404ac0806ec176ead9480e3d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616961"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740061"
 ---
 # <a name="import-certificate-intro"></a>Importieren eines Zertifikats (Einführung)
  

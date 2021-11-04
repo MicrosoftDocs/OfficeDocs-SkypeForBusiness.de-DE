@@ -1,7 +1,7 @@
 ---
 title: Verwalten der Lob-App im Teams Admin Center
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jozhuan
 audience: admin
@@ -9,21 +9,21 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ms.openlocfilehash: 684e6c7feaa19ab7aecdc77eebd6cb1764f431d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733414"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763053"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
 > [!NOTE]
 > Administratoren müssen über eine Lizenz Teams verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Lizenz für Teams auf dieses Feature zu zugreifen, wird eine Fehlermeldung angezeigt.
 
-Die Lob-App in Microsoft Teams hilft Benutzern, den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl von Badge-Sätzen zur Auswahl und der Option zum Erstellen eigener Badges soll Lob helfen, den Aufwand zu erkennen, der sich auf die breite Palette an Arbeit Teams-Benutzern richtet, von Lehrkräften bis Frontline Workers. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+Die Lob-App in Microsoft Teams hilft Benutzern, den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl von Badge-Sätzen, aus der Sie auswählen können, und der Option zum Erstellen eigener Badges soll Lob Teams dazu beitragen, den Aufwand zu erkennen, der in die breite Palette an Arbeit fällt, die von Lehrkräften bis zu Frontline Workers von Benutzern geleistet wird. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Administratoren können steuern, welche Badges für ihre Organisation über das Admin Center verfügbar Microsoft Teams werden. Navigieren Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen.**  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
+Administratoren können steuern, welche Badges für ihre Organisation über das admin center Microsoft Teams verfügbar sind. Navigieren Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen.**  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
 
 ![Screenshot der Einstellungen für die App Lob App](media/manage-praise-app-settings.png)
 
@@ -38,7 +38,7 @@ Integrierte Gruppen sind Sammlungen von Signalen, die von Microsoft für die App
 
 ### <a name="default-badges"></a>Standardabzeichen
 
-Der Standardabzeichensatz soll es benutzern Teams, ihre Peers zu erkennen, damit sie mit ihrer Arbeit darüber hinaus gehen können.
+Der Standardabzeichensatz ist so konzipiert, dass Teams Ihre Kollegen erkennen können, damit sie mit ihrer Arbeit darüber hinaus gehen können.
 
 ![Vorschau auf den Standardabzeichensatz.](media/default-set-praise.png)
 
@@ -65,7 +65,7 @@ Wählen **Sie Benutzerdefiniertes Signal erstellen aus.** Hier können Sie im Se
    > [!TIP]
    > Wenn Sie mit Hexadezimalwerten noch [](#hex-colors-intro) nicht aus dem Weg sind, finden Sie in diesem Artikel eine kurze Einführung in deren Verwendung.
 
-3. Hochladen eines Signalbilds. Der akzeptierte Dateityp wird .PNG. Die Bilddatei muss weniger als 40 KB groß sein und maximal 216 x 216 Pixel groß sein.
+3. Hochladen eines Signalbilds. Der akzeptierte Dateityp ist .PNG. Die Bilddatei muss weniger als 40 KB groß sein und maximal 216 x 216 Pixel groß sein.
 ![Signal mit Beschriftungsfeldern für Hintergrund, Text und Bild](media/praise-app-badge-fields.png)
 
 4. Lokalisieren Sie den Signalnamen: Wählen Sie unter **Lokalisierte Signalnamen** die Option **Hinzufügen aus.** Wählen Sie das gewünschte Locale aus der Dropdownliste aus. Geben Sie dann den Badgenamen in der festgelegten Sprache ein.
@@ -77,7 +77,7 @@ Wählen **Sie Benutzerdefiniertes Signal erstellen aus.** Hier können Sie im Se
 > [!NOTE]
 > Wenn die Schritte 4 und 5 übersprungen werden, wird das Signal in der Standardsprache für alle Locales angezeigt.
 >
-> Wenn Sie alle Änderungen an Ihrer Badgeauswahl vorgenommen haben, müssen Sie Absenden **auswählen.** Es kann einige Stunden dauern, bis diese Änderungen für Ihre Organisation zur Verfügung stehen.
+> Wenn Sie alle Änderungen an Ihrer Signalauswahl vorgenommen haben, müssen Sie Absenden **auswählen.** Es kann einige Stunden dauern, bis diese Änderungen für Ihre Organisation zur Verfügung stehen.
 
 <a name="hex-colors-intro"></br></a>
 
@@ -85,7 +85,7 @@ Wählen **Sie Benutzerdefiniertes Signal erstellen aus.** Hier können Sie im Se
 
 Hexadezimalfarbwerte sind Zeichenfolgen mit sechs Hexadezimalziffern, die die Intensität von Rot (RR), Grün (GG) und Blau (BB) in einer bestimmten Farbe auf einer Skala von 00 bis FF darstellen. Wenn Sie die Werte aller drei Farben zusammenbringen, erhalten Sie einen Hexadezimalwert: #RRGGBB
 
-Beispielsweise ist der Hexadezimalwert für die Farbe Rot #FF0000, da Rot auf den höchsten möglichen Wert festgelegt wird, FF und Grün und Blau jeweils auf den niedrigsten möglichen Wert, 00.
+Beispielsweise ist der Hexadezimalwert für die Farbe Rot #FF0000, da Rot auf den höchsten möglichen Wert festgelegt wird, FF, Grün und Blau jeweils auf den niedrigsten möglichen Wert, 00.
 
 Wenn Sie verschiedene Farben und deren Hexadezimalwerte untersuchen Bing [die Farbauswahl.](https://www.bing.com/search?q=color+picker)
 
@@ -97,8 +97,8 @@ Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 |![Hex color #7FFFD4.](media/hexColor2.png)|  #7FFFD4   |
 |![Hex color #FF75F0.](media/hexColor3.png)|  #FF75F0   |
 |![Hex color #00BFFF.](media/hexColor4.png)|  #00BFFF   |
-|![Hex color #800080.](media/hexColor5.png)|  #800080   |
-|![Hex color #000000.](media/hexColor6.png)|  #000000   |
+|![Hexfarbe #800080.](media/hexColor5.png)|  #800080   |
+|![Hexfarbe #000000.](media/hexColor6.png)|  #000000   |
 
 <a name="best-practices"></br></a>
 
@@ -106,9 +106,9 @@ Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 
 **Senden Sie alle Badges auf einmal.** Da es eine Weile dauert, bis neue Badges verarbeitet werden, sollten Sie am besten alle benutzerdefinierten Badges zur Tabelle hinzufügen, bevor Sie sie übermitteln.
 
-**Beachten Sie bei der Auswahl von Farben die Barrierefreiheit.** Einige Farben sind besser zusammen als andere.  Erstellen Sie einen Kontrast zwischen Text- und Hintergrundfarben, damit der Signalname leichter zu lesen ist. Wenn Sie beispielsweise eine dunkle Hintergrundfarbe ausgewählt haben, wählen Sie eine helle Textfarbe aus.
+**Beachten Sie bei der Auswahl von Farben die Barrierefreiheit.** Einige Farben sind besser zusammen als andere.  Stellen Sie einen Kontrast zwischen Text- und Hintergrundfarben sicher, damit der Signalname leichter zu lesen ist. Wenn Sie beispielsweise eine dunkle Hintergrundfarbe ausgewählt haben, wählen Sie eine helle Textfarbe aus.
 
-**Behalten Sie beim Auswählen eines Bilds die Signalabmessungen im Auge.** Für eine optimale Qualität empfehlen wir, eine Bilddatei mit einer Größe von 216 x 216 Pixel hochzuladen (dies sind die maximalen Abmessungen). Vermeiden Sie es, das Bild zu dehnen oder zu verfälschen, damit es in diese Abmessungen passt.
+**Behalten Sie beim Auswählen eines Bilds die Signalabmessungen im Auge.** Für eine optimale Qualität empfehlen wir, eine Bilddatei mit einer Größe von 216 x 216 Pixel hochzuladen (dies sind die maximalen Abmessungen). Vermeiden Sie es, das Bild zu dehnen oder zu verzerren, damit es in diese Abmessungen passt.
 
 **Wenn das Signalbild nicht rechteckig ist, machen Sie das Bild transparent.** Sie müssen dies tun, bevor Sie die Bilddatei in das Lob.
 

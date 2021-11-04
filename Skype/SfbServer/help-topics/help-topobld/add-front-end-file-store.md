@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen des Front-End-Dateispeichers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,19 +15,19 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d18a648-a0e1-4401-a1e6-7a2755ba8c66
 description: Sie müssen eine Dateifreigabe angeben, die als Dateispeicher für den Standard Edition-Server oder Front-End-Pool der Enterprise Edition verwendet werden soll. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben.
-ms.openlocfilehash: cb5393c4867b6f21ac6a325eb9044889738e9142
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2427c5c90fb60d5a0ddef0ca428d336406e15c03
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596709"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739451"
 ---
 # <a name="add-front-end-file-store"></a>Hinzufügen des Front-End-Dateispeichers
 
 Sie müssen eine Dateifreigabe angeben, die als Dateispeicher für den Standard Edition-Server oder Front-End-Pool der Enterprise Edition verwendet werden soll. Sie können als Dateispeicher eine vorhandene Dateifreigabe oder eine neue Dateifreigabe auswählen, indem Sie den vollqualifizierten Domänennamen (FQDN) des Dateiservers, auf dem sich die Dateifreigabe befindet, und einen Ordnernamen für die neue Dateifreigabe angeben.
 
 > [!IMPORTANT]
-> Die Dateifreigabe kann sich nicht auf dem Enterprise Edition Front-End-Server, sondern auf einem Standard Edition Server befinden.
+> Die Dateifreigabe kann sich nicht auf dem Enterprise Edition Front-End-Server befinden, sondern auf einem Standard Edition Server.
 
 > [!IMPORTANT]
 > Sie können die Dateifreigabe im Topologie-Generator definieren, bevor Sie die Dateifreigabe erstellen, aber Sie müssen die Dateifreigabe am angegebenen Speicherort erstellen, ehe Sie die Topologie veröffentlichen.

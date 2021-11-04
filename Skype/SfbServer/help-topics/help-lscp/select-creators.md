@@ -1,7 +1,7 @@
 ---
 title: Auswählen von Erstellern
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Das Erstellen und Verwalten von Chatrooms für beständige Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Ein Administrator für beständigen Chat kann "AllowedMembers" und "Creators" für jede Kategorie definieren und auch die Standardeinstellungen und Verhaltensweisen für Chatrooms definieren, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für beständigen Chat erstellen und verwalten Kategorien mithilfe Skype for Business Server Systemsteuerung oder Windows PowerShell Cmdlets.
-ms.openlocfilehash: 742ec61eca055e9bf6c8d0578023da2b6553cb84
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e3494f80864b14a3aae457f3a2c808690df52c77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609402"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739521"
 ---
 # <a name="select-creators"></a>Auswählen von Erstellern
 
@@ -38,13 +38,13 @@ Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der
 
 ## <a name="to-configure-categories-for-chat-rooms"></a>So konfigurieren Sie Kategorien für Chatrooms
 
-Fügen Sie in **"Mitgliedschaft"** im Abschnitt **"Ersteller"** Benutzer und andere Active Directory-Prinzipale hinzu, die den Erstellern für die Kategorie zugeordnet sind, oder entfernen Sie sie. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
+Fügen Sie in **"Mitgliedschaft"** im Abschnitt **"Ersteller"** Benutzer und andere Active Directory-Prinzipale hinzu, die erstellern für die Kategorie zugeordnet sind, oder entfernen Sie sie. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
 
 
 
 Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie in der Planungsdokumentation unter "Übersicht über den [Server für beständigen Chat".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter ["Konfigurieren des Servers für beständigen Chat"](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in der Bereitstellungsdokumentation und [verwalten von Lync Server 2013, Server für beständigen Chat](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Grundlegendes zur Persistent Chat-Mitgliedschaft](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)
 

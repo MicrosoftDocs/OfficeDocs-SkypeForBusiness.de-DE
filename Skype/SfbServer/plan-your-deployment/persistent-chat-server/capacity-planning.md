@@ -1,7 +1,7 @@
 ---
 title: Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/23/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: d3ff8076a922d6242de0079239a3ff2c73b539a8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: afa8ecb47913d722a1e1049a549bc6ab2f3800ed
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012159"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777865"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
 **Zusammenfassung:** Lesen Sie dieses Thema, um mehr über die Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.
   
-Der Server für beständigen Chat kann Chats mit mehreren Benutzern in Echtzeit durchführen, die für zukünftige Abrufe und Suchvorgänge beibehalten werden können. Im Gegensatz zu Gruppen-Chatnachrichten, die im Postfach eines Benutzers gespeichert werden, wenn der Unterhaltungsverlauf konfiguriert ist, bleibt eine Sitzung des Servers für beständigen Chat länger geöffnet, und der Inhalt wird zusammen mit den Nachrichten, Dateien, URLs und anderen Daten, die Teil einer laufenden Unterhaltung sind, auf einem Server gespeichert.
+Der Server für beständigen Chat kann Chats mit mehreren Benutzern in Echtzeit durchführen, die für zukünftige Abrufe und Suchvorgänge beibehalten werden können. Im Gegensatz zu Gruppen-Chatnachrichten, die im Postfach eines Benutzers gespeichert werden, wenn der Unterhaltungsverlauf konfiguriert ist, bleibt eine Serversitzung für beständigen Chat länger geöffnet, und der Inhalt wird zusammen mit den Nachrichten, Dateien, URLs und anderen Daten, die Teil einer laufenden Unterhaltung sind, auf einem Server gespeichert.
   
 Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung auf die Bereitstellung des Servers für beständigen Chat. Dieses Thema enthält Tabellen zur Kapazitätsplanung, die Sie verwenden können, um die beste Konfiguration für Ihre Bereitstellung zu ermitteln. Außerdem wird beschrieben, wie Sie Bereitstellungen des Servers für beständigen Chat am besten verwalten, die zu Spitzenzeiten eine höhere Kapazität erfordern.
   
@@ -113,7 +113,7 @@ Für jeden Chatroom gibt die vorherige Tabelle zur Kapazitätsplanung die Anzahl
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Planen der Kapazität für die Verwaltung des Chatroomzugriffs nach Einladung
 
-Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um die Anzahl der Einladungen zu verstehen, die der Server für beständigen Chat erstellt und in der Datenbank für beständigen Chat speichert, wenn er für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen in der Kategorie mithilfe der Einstellungsseite **"Chatroomkategorie"** in der Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets Windows PowerShell **" set-csPersistentChatCategory".** Sie können Einladungen in einem Chatroom (in Übereinstimmung mit dem, was die Kategorie zulässt) verwalten, indem Sie die Seite **"Raumverwaltung"** verwenden, die vom Skype for Business-Client gestartet wurde, oder mithilfe eines Windows PowerShell Cmdlets, **"set-csPersistentChatRoom".**
+Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um die Anzahl der Einladungen zu verstehen, die der Server für beständigen Chat erstellt und in der Datenbank für beständigen Chat speichert, wenn er für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen in der Kategorie mithilfe der Einstellungsseite **"Chatroomkategorie"** in der Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets "set-csPersistentChatCategory" Windows PowerShell.  Sie können Einladungen in einem Chatroom (in Übereinstimmung mit dem, was die Kategorie zulässt) verwalten, indem Sie die Seite **"Raumverwaltung"** verwenden, die vom Skype for Business-Client gestartet wurde, oder mithilfe eines Windows PowerShell Cmdlets, **set-csPersistentChatRoom.**
   
 Die Beispieldaten in der folgenden Tabelle gehen davon aus, dass auf der Seite **"Chatroomeinstellungen"** für 50 Prozent aller Chatrooms die Option **"Einladungen"** auf **"Ja"** festgelegt ist.
   

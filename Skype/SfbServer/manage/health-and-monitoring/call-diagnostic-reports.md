@@ -1,7 +1,7 @@
 ---
 title: Anrufdiagnoseberichte in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anrufdiagnoseberichte mit mehreren Benutzern, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 4487c320d591c5d64fd209818824ffd1ce045d48
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b98dfdfd6f39893c70297f837355dcccbe0096a1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623647"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762453"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Anrufdiagnoseberichte in Skype for Business Server
  

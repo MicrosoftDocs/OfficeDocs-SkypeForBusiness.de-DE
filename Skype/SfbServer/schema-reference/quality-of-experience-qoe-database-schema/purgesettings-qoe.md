@@ -1,7 +1,7 @@
 ---
 title: PurgeSettings-Tabelle (QoE)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 31b85d1c-3f32-4f67-94bf-9389cdd282c5
-description: 'Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete QoE-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Löschinformationen auch aus der Skype for Business Server Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:'
-ms.openlocfilehash: eb5b0570073498580ec2ad468ea50474e0246b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete QoE-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Löschinformationen auch in der Skype for Business Server Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:'
+ms.openlocfilehash: 2c6eada1b64d5ba4ac1ee34185d89c31abcbd3c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620821"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763113"
 ---
 # <a name="purgesettings-table-qoe"></a>PurgeSettings-Tabelle (QoE)
  
-Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete QoE-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Löschinformationen auch aus der Skype for Business Server Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:
+Die PurgeSettings-Tabelle enthält Informationen, die angeben, ob (und wann) veraltete QoE-Datensätze automatisch aus der QoE-Datenbank gelöscht werden. Beachten Sie, dass Löschinformationen auch in der Skype for Business Server Verwaltungsshell abgerufen werden können, indem Sie den folgenden Befehl ausführen:
   
 ```PowerShell
 Get-CsQoEConfiguration

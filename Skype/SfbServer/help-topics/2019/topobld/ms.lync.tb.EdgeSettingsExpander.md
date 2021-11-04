@@ -1,7 +1,7 @@
 ---
 title: Edgeeinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 9d1f133a2f0c8c469c0fb399f46cd3030035629b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7ea357ebf5b0de6001bd74b5dec9f54e33e8d914
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593919"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739771"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
@@ -37,7 +37,7 @@ Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Ser
 
 Der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools des Edgeserverpools. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
 
-Aktivieren Sie das **Kontrollkästchen Partnerverbund für diesen Edgepool aktivieren (Port 5061),** wenn Sie einen Partnerverbund mit einem Skype for Business Server 2015-Server einrichten.
+Aktivieren Sie das **Kontrollkästchen Partnerverbund für diesen Edgepool aktivieren (Port 5061),** wenn Sie den Partnerverbund mit einem Skype for Business Server 2015-Server einrichten.
 
 Geben Sie die Portnummer für **den internen Konfigurationsreplikationsport (HTTPS)** an.
 
@@ -61,6 +61,6 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 > [!IMPORTANT]
 > Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter ["Definieren der Edgetopologie".](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)

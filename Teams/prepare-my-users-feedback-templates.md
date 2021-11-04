@@ -1,7 +1,7 @@
 ---
 title: Feedback-Umfragen in Teams oder Skype for Business
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
@@ -16,22 +16,22 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: f08760e7af5b40a063f0dd43c1b728444884bb9d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594517"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773435"
 ---
 # <a name="user-feedback-surveys"></a>Benutzerfeedback-Umfragen 
 
 Verwenden Sie Feedback-Umfragen, um die Benutzererfahrung und -einblicke nach Ihrer Bereitstellung zu erfassen. Fragen sollten das Feedback über die Empfindlichkeit der Benutzer, die Effektivität von Schulungsressourcen, die Einsatzbereitkeit des Supportplans und die Gesamterfahrung der Benutzer entschärfen. Bewerten Sie Umfrageantworten, um die Smart-Ziele (spezifische, messbare, ansetzbare, relevante und zeitgebundene) Ziele zu messen, die Sie während der Projektplanung definiert haben, und bestimmen Sie alle weiteren erforderlichen Maßnahmen.
 
-Passen Sie die nachstehenden Fragen an, und übertragen Sie sie dann auf ein Umfragetool, z. SharePoint zur einfachen Verteilung und Analyse.
+Passen Sie die nachstehenden Fragen an, und übertragen Sie sie dann zur einfachen Verteilung und Analyse auf ein Umfragetool wie SharePoint Umfragetool.
 
-Für diese Umfragen  bezieht sich das neue Telefonsystem auf die Verwendung von Anruffunktionen in Microsoft Teams oder Skype for Business sowie auf Geräten wie einem Medientelefon oder Mobiltelefon. Alle Verweise auf Microsoft Teams in diesen Umfragen gelten auch für Skype for Business.
+Zum Zweck dieser Umfragen bezieht sich das neue Telefonsystem auf die Verwendung von Anruffunktionen in Microsoft Teams oder Skype for Business sowie auf Geräten wie einem Medientelefon oder Mobiltelefon.  Alle Verweise auf Microsoft Teams in diesen Umfragen gelten auch für Skype for Business.
 
-Geben Sie Ihr Zustimmungsniveau mit den folgenden Aussagen an, wie es sich auf die Verwendung Teams Als Telefon bezieht. 
+Geben Sie Ihr Zustimmungsniveau mit den folgenden Aussagen an, wie es sich auf die Verwendung von Teams als Telefon bezieht. 
 
 |     &nbsp;                              | Vollständig zustimmen | Teilweise Zustimmung | Neutral | Teilweises Ablehnen | Keine vollständigen Meinung | N/A oder nicht verwendet |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
@@ -42,7 +42,7 @@ Geben Sie Ihr Zustimmungsniveau mit den folgenden Aussagen an, wie es sich auf d
 | Das neue Telefonsystem erfüllt alle meine Anrufanforderungen (Durchwahl, Halten, Voicemail und so weiter).                                      |                      |                    |             |                       |                         |                        |
 | Ich sehe den Nutzen der Integration unseres Telefonsystems in Teams.                                                 |                      |                    |             |                       |                         |                        |
 | Die Teams als mein Smartphone macht es für mich einfacher, meine Arbeit zu machen.                                          |                      |                    |             |                       |                         |                        |
-| Meine Audioerfahrung mit Teams ist so gut oder besser wie bei unserem alten Telefonsystem.                   |                      |                    |             |                       |                         |                        |
+| Meine Audioerfahrung mit Teams ist so gut wie oder besser als bei unserem alten Telefonsystem.                   |                      |                    |             |                       |                         |                        |
 
 Bitte erläutern **Sie,**  wenn Sie für eine der oben aufgeführten Aussagen teilweise nicht oder vollständig ablehnend entschieden haben. (Text öffnen)
 
@@ -56,7 +56,7 @@ Geben Sie Ihr Maß an Zustimmung mit den folgenden Aussagen an, was sich auf Ihr
 
 Bitte erläutern **Sie,**  wenn Sie für eine der oben aufgeführten Aussagen teilweise nicht oder vollständig ablehnend entschieden haben. (Text öffnen)
 
-Wie wahrscheinlich ist es, dass Sie einem Teams oder Kollegen die Verwendung eines Telefons empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)
+Werden Sie die Verwendung von Teams als Telefon einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)
 
 | 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|

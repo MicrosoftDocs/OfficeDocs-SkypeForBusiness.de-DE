@@ -1,7 +1,7 @@
 ---
 title: tblEnumAttribute
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 17f8b87e-36a6-4f6a-8630-7c76b61a7595
 description: "\"EnumAttribute\" ist eine hardkodierte Tabelle, mit den Attributen \"Visibility\" und \"Behavior\", die in der \"Node\"-Tabelle verwendet werden."
-ms.openlocfilehash: 7f55d99a028a7af7979394321bb543db11bb1933
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7e96b953cd7d53756dd184ae9b0e9190e9a529e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628547"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763263"
 ---
 # <a name="tblenumattribute"></a>tblEnumAttribute
  
@@ -41,9 +41,9 @@ ms.locfileid: "58628547"
 
 |**Attributeid**|**Attributename**|
 |:-----|:-----|
-|1   <br/> |Sichtbarkeit.  <br/> |
-|2   <br/> |Verhalten.  <br/> |
+|1  <br/> |Sichtbarkeit.  <br/> |
+|2  <br/> |Verhalten.  <br/> |
    
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [tblNode](tblnode.md)

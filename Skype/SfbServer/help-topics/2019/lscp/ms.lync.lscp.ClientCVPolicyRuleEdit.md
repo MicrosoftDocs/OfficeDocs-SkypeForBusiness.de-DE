@@ -1,7 +1,7 @@
 ---
 title: Clientversionsregel
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-ms.openlocfilehash: 44f47f0281d03e63a87ce0e56ecfa1c77c516f27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e24921156470b1a91dc9f7421913c1fa6da1ef35
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769533"
 ---
 # <a name="client-version-rule"></a>Clientversionsregel
 

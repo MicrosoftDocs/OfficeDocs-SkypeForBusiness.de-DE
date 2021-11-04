@@ -1,7 +1,7 @@
 ---
 title: Konferenztabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2a2c327c-4719-42dc-a3bb-6dbc0864d9af
 description: Bei der Conference-Tabelle handelt es sich um eine Tabelle, auf die verwiesen wird. Jeder Datensatz steht für eine Konferenz oder Peer-zu-Peer-Sitzung.
-ms.openlocfilehash: 3da2ed90cbb55e44d4eb4ff4902898eed6099f2e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5129fec73658d86fdb8d5cd7dd5c387cdadf4f9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609152"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763213"
 ---
 # <a name="conference-table"></a>Konferenztabelle
  

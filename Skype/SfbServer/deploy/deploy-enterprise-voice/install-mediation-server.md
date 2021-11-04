@@ -1,7 +1,7 @@
 ---
 title: Installieren der Dateien für den Vermittlungsserver in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Dateien für den Vermittlungsserver in Skype for Business Server installieren.'
-ms.openlocfilehash: 5662e4e79534fd469c64005bba98d1c507defff8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dcc6862b55a4620030d03ed442a24e22ccde54b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620501"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769623"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installieren der Dateien für den Vermittlungsserver in Skype for Business Server
  
@@ -42,7 +42,7 @@ Führen Sie die Schritte in diesem Thema aus, um Skype for Business Server Berei
     
 3. Klicken Sie auf der Seite **"Endbenutzer-Lizenzvertrag"** auf **"Ich stimme zu"** und dann auf **"OK".** (Erforderlich, um fortzufahren.)
     
-4. Klicken Sie auf der Seite **Skype for Business Server Bereitstellungs-Assistenten** auf **Installieren oder Aktualisieren Skype for Business Server Systems.**
+4. Klicken Sie auf der Seite **Skype for Business Server Bereitstellungs-Assistenten** auf **Skype for Business Server System installieren oder aktualisieren.**
     
 5. Next to **Step 1: Install Local Configuration Store**, click **Run**, and then follow the instructions on the screen.
     
@@ -50,7 +50,7 @@ Führen Sie die Schritte in diesem Thema aus, um Skype for Business Server Berei
     
 7. Klicken Sie auf der Seite **"Befehle ausführen",** wenn der Aufgabenstatus als **abgeschlossen** angezeigt wird, auf **"Fertig stellen".**
     
-8. Next to **Step 2: Setup or Remove Skype for Business Server Components**, click **Run**, and then click **Next**.
+8. Klicken Sie neben **Schritt 2: Skype for Business Server Komponenten einrichten oder entfernen,** klicken Sie auf **"Ausführen"** und dann auf **"Weiter".**
     
 9. Klicken Sie auf der Seite **"Befehle ausführen",** wenn der Aufgabenstatus als **abgeschlossen** angezeigt wird, auf **"Fertig stellen".**
     
@@ -62,5 +62,5 @@ Führen Sie die Schritte in diesem Thema aus, um Skype for Business Server Berei
     
 13. Überprüfen Sie auf dem Computer, auf dem Sie Skype for Business Server Systemsteuerung ausführen, auf der **Topologieseite** Skype for Business Server Systemsteuerung, ob der Dienststatus des Vermittlungsservers als grünes Häkchen angezeigt wird. Wenn stattdessen ein rotes X angezeigt wird, wählen Sie den Vermittlungsserver aus. Klicken Sie im Menü **"Aktion"** auf **"Alle Dienste starten".** 
     
-Wenn Sie dem Vermittlungsserverpool mehrere Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im Vermittlungsserverpool aus. Wenn Sie keine Dateien für den Vermittlungsserver für andere Computer installieren müssen, befolgen Sie die Verfahren unter [Konfigurieren von Trunks in Skype for Business Server,](configure-trunks.md) um Einstellungen für die Trunkverbindung zwischen diesem Vermittlungsserverpool (oder allen Vermittlungsservern an einem Standort) und dem Peer zu konfigurieren.
+Wenn Sie dem Vermittlungsserverpool mehrere Computer hinzugefügt haben, führen Sie die Schritte in diesem Verfahren auf allen anderen Computern im Vermittlungsserverpool aus. Wenn Sie keine Dateien für den Vermittlungsserver für andere Computer installieren müssen, befolgen Sie die Verfahren unter [Konfigurieren von Trunks in Skype for Business Server,](configure-trunks.md) um Einstellungen für die Trunkverbindung zwischen diesem Vermittlungsserverpool (oder allen Vermittlungsservern an einem Standort) und seinem Peer zu konfigurieren.
 

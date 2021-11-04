@@ -1,7 +1,7 @@
 ---
 title: Netzwerkeinstellungen für Cloud Voice-Features
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
@@ -18,18 +18,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 425f453e5e1b7f90b1486aa35d09f7919e0c33b4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2165ea1e4e9732f0e840b4f0949b230f5243121d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580219"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769943"
 ---
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams
 
-Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen. Diese Begriffe und Konzepte werden in der gesamten Cloud-Sprachdokumentation für standortbasiertes Routing für [Direct-Routing](location-based-routing-plan.md) und [dynamische Notrufe verwendet.](configure-dynamic-emergency-calling.md) Wenn Sie diese Cloudfeatures in Ihrer Organisation bereitstellen, müssen Sie die Netzwerkeinstellungen für die Verwendung dieser Features in ihrer Microsoft Teams.
+Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen. Diese Begriffe und Konzepte werden in der gesamten Cloud-Sprachdokumentation für standortbasiertes Routing für [Direct-Routing](location-based-routing-plan.md) und [dynamische Notrufe verwendet.](configure-dynamic-emergency-calling.md) Wenn Sie diese Cloudfeatures in Ihrer Organisation bereitstellen, müssen Sie in diesem Beispiel Netzwerkeinstellungen für die Verwendung dieser Features Microsoft Teams.
 
-Dieser Artikel enthält eine Übersicht über die Netzwerkeinstellungen, die für Das Routing und dynamische Notrufe Location-Based Netzwerkeinstellungen verwendet werden. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Die Schritte zum Konfigurieren dieser Einstellungen finden Sie unter Verwalten der [Netzwerktopologie für Cloudfeatures in Teams.](manage-your-network-topology.md)
+Dieser Artikel bietet eine Übersicht über die Netzwerkeinstellungen, die für das Routing und dynamische Notrufe Location-Based Netzwerkverbindung verwendet werden. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Die Schritte zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten der Netzwerktopologie für Cloudfeatures in Teams.](manage-your-network-topology.md)
 
 > [!NOTE]
 > Alle featurespezifischen Anforderungen für Netzwerkeinstellungen sind in den Konfigurationsthemen für dieses Feature dokumentiert.
@@ -52,13 +52,13 @@ Jedes Subnetz muss einem bestimmten Netzwerkstandort zugeordnet sein. Der Stando
 
 Subnetzinformationen werden verwendet, um den Netzwerkstandort zu ermitteln, an dem sich ein Endpunkt befindet, wenn eine neue Sitzung initiiert wird. Wenn der Standort jeder Partei in einer Sitzung bekannt ist, kann das Cloud-Sprachfeature diese Informationen anwenden, um zu bestimmen, wie die Anrufeinrichtung oder das Routing zu behandeln ist.
 
-Bestimmen Sie für jeden Netzwerkstandort zusammen mit dem Netzwerkadministrator, welche IP-Subnetze den einzelnen Netzwerkstandorten zugewiesen sind. Sie können z. B. dem Standort „New York“ in der Region „Nordamerika“ die folgenden IP-Subnetze zuweisen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Wenn Bob, der normalerweise in Usa arbeitet, zu einer Schulung in New York reist, seinen Computer aktiviert und eine Verbindung mit dem Netzwerk herstellt, bekommt sein Computer eine IP-Adresse in einem der vier Bereiche, die New York zugewiesen sind, z. B. 172.29.80.103.
+Bestimmen Sie für jeden Netzwerkstandort zusammen mit dem Netzwerkadministrator, welche IP-Subnetze den einzelnen Netzwerkstandorten zugewiesen sind. Sie können z. B. dem Standort „New York“ in der Region „Nordamerika“ die folgenden IP-Subnetze zuweisen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Wenn Bob, der normalerweise in Usa arbeitet, zur Schulung in New York reist, seinen Computer einstellt und eine Verbindung mit dem Netzwerk herstellt, bekommt sein Computer eine IP-Adresse in einem der vier Bereiche, die New York zugewiesen sind, z. B. 172.29.80.103.
 
 ## <a name="trusted-ip-address"></a>Vertrauenswürdige IP-Adresse
 
-Vertrauenswürdige IP-Adressen sind die externen Internetadressen des Unternehmensnetzwerks. Sie bestimmen, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet, bevor eine Überprüfung auf eine bestimmte Übereinstimmung der Website vor sich geht.
+Vertrauenswürdige IP-Adressen sind die externen Internetadressen des Unternehmensnetzwerks. Sie bestimmen, ob sich der Endpunkt des Benutzers innerhalb des Unternehmensnetzwerks befindet, bevor auf eine bestimmte Übereinstimmung der Website überprüft wird.
 
-Wenn die externe IP-Adresse des Benutzers einer IP-Adresse entspricht, die in der Liste der vertrauenswürdigen IP-Adressen aufgeführt ist, überprüft das Cloud-Sprachfeature, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Eine Übereinstimmung kann mit IPv4- oder IPv6-IP-Adressen vorgenommen werden und hängt vom Format des IP-Pakets ab, das an die Netzwerkeinstellungen gesendet wurde. (Wenn eine öffentliche IP-Adresse sowohl IPv4 als auch IPv6 enthält, müssen Sie beide als vertrauenswürdige IP-Adressen hinzufügen.)
+Wenn die externe IP-Adresse des Benutzers einer IP-Adresse entspricht, die in der Liste der vertrauenswürdigen IP-Adressen enthalten ist, überprüft das Cloud-Sprachfeature, um das interne Subnetz zu ermitteln, in dem sich der Endpunkt des Benutzers befindet. Eine Übereinstimmung kann mit IPv4- oder IPv6-IP-Adressen vorgenommen werden und hängt vom Format des IP-Pakets ab, das an die Netzwerkeinstellungen gesendet wurde. (Wenn eine öffentliche IP-Adresse sowohl IPv4 als auch IPv6 enthält, müssen Sie beide als vertrauenswürdige IP-Adressen hinzufügen.)
 
 Wenn die externe IP-Adresse des Benutzers nicht mit einer IP-Adresse in der Liste der vertrauenswürdigen IP-Adressen übereinstimmen, wird der Endpunkt als an einem unbekannten Speicherort klassifiziert.
 

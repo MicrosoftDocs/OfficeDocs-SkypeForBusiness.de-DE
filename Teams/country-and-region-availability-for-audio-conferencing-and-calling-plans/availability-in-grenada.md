@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Grenada
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Grenada.
-ms.openlocfilehash: 2b4f2e642d0480b5fb8c2327ed2e2c5e594c554a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Grenada.
+ms.openlocfilehash: ae51b5565bb30c597c23dbae6ea2c0a047eb0b57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590839"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769933"
 ---
 # <a name="availability-in-grenada"></a>Verfügbarkeit in Grenada
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Grenada.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Grenada.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

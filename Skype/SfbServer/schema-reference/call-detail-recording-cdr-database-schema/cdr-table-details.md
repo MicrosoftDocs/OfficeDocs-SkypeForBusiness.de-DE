@@ -1,7 +1,7 @@
 ---
 title: Ausführliche Informationen zur KDS-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
 description: In den folgenden Themen werden die Spalten in den einzelnen KDS-Datenbankschematabellen (Call Detail Records, Kommunikationsdatensätze) detailliert beschrieben.
-ms.openlocfilehash: 17450a04cee6463cf5ae9a04f8f4976f59421e80
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9e368669c03e3b81e6eb7a9e2778a8f0edfe2eef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583809"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744041"
 ---
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Ausführliche Informationen zur KDS-Tabelle in Skype for Business Server 2015
  
@@ -32,7 +32,7 @@ In den folgenden Themen werden die Spalten in den einzelnen KDS-Datenbankschemat
     
 - [CallType-Tabelle in Skype for Business Server 2015](calltype.md)
     
-- [ClientVersions-Tabelle in Skype for Business Server 2015](clientversions.md)
+- [Tabelle "ClientVersions" in Skype for Business Server 2015](clientversions.md)
     
 - [ConferenceJoinTimeThresholds-Tabelle in Skype for Business Server 2015](conferencejointimethresholds.md)
     

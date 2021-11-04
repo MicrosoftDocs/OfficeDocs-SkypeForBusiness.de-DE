@@ -1,7 +1,7 @@
 ---
 title: 'Skype for Business Server: Ändern der SIP-Trunkkonfigurationseinstellungen'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7d68b09c-9ea0-43bd-997c-df887869d607
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Systemsteuerung ändern.'
-ms.openlocfilehash: 370e6522d07461276c881798d094fa31fb71e9bb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83cad666b07c011b2b0a23ad4d51532e52a623c5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620121"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745351"
 ---
 # <a name="skype-for-business-server-modify-sip-trunk-configuration-settings"></a>Skype for Business Server: Ändern der SIP-Trunkkonfigurationseinstellungen 
  
@@ -53,12 +53,12 @@ Beim Ändern der SIP-Trunkkonfigurationseinstellungen mit Skype for Business Ser
 |Weiterleiten von P-Asserted-Identity-Daten aktivieren  <br/> |ForwardPAI  <br/> |Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen.  <br/> |
 |Timer für Ausgangsroutingfailover aktivieren  <br/> |EnableFastFailoverTimer  <br/> |Gibt an, ob ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden, an den nächsten verfügbaren Trunk weitergeleitet werden. Wenn keine weiteren Trunks verfügbar sind, wird der Anruf automatisch beendet. In einer Organisation mit langsamen Netzwerk- und Gateway-Reaktionen könnte dies dazu führen, dass Anrufe unnötigerweise beendet werden.  <br/> |
 |Zugeordnete PSTN-Verwendungen  <br/> |PSTNUsages  <br/> |Eine Sammlung von dem Trunk zugewiesenen PSTN-Verwendungen.  <br/> |
-|Übersetzte Nummer zum Testen  <br/> |Nicht zutreffend  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.  <br/> |
+|Übersetzte Nummer zum Testen  <br/> |–  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.  <br/> |
 |Zugehörige Übersetzungsregeln  <br/> |OutboundTranslationRulesList  <br/> |Sammlung an Regeln für die Telefonnummernübersetzung für Anrufe, die per Ausgangsrouting verarbeitet werden (Anrufe, die an Ziele in Nebenstellenanlagen oder im Telefonfestnetz weitergeleitet werden).  <br/> |
 |Übersetzungsregeln für angerufene Nummern  <br/> |OutboundCallingNumberTranslationRulesList  <br/> |Sammlung an Regeln für die Nummernübersetzung für ausgehende Anrufe, die dem Trunk zugewiesen sind.  <br/> |
-|Testtelefonnummer  <br/> |Nicht zutreffend  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.  <br/> |
-|Anrufende Nummer  <br/> |Nicht zutreffend  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.  <br/> |
-|Angerufene Nummer  <br/> |Nicht zutreffend  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.  <br/> |
+|Testtelefonnummer  <br/> |–  <br/> |Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.  <br/> |
+|Anrufende Nummer  <br/> |–  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.  <br/> |
+|Angerufene Nummer  <br/> |–  <br/> |Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.  <br/> |
    
 > [!NOTE]
 > Die Lync Server CsTrunkConfiguration-Cmdlets unterstützen zusätzliche Eigenschaften, die in der Lync Server-Systemsteuerung nicht angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsTrunkConfiguration".](/powershell/module/skype/set-cstrunkconfiguration)

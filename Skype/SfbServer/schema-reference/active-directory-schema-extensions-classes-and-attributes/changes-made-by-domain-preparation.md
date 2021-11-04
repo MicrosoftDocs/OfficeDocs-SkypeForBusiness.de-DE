@@ -1,7 +1,7 @@
 ---
-title: Änderungen, die von der Domänenvorbereitung in Skype for Business Server vorgenommen wurden
+title: Änderungen, die durch die Domänenvorbereitung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,14 +13,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9191221e-6166-4c2b-837e-fa73d90fdf80
 description: In der folgenden Tabelle sind die ACEs (Access Control Entries, Zugriffssteuerungseinträge) aufgeführt, die während der Domänenvorbereitung im Domänenstamm erstellt werden. Alle ACEs werden vererbt, sofern nicht anders angegeben.
-ms.openlocfilehash: af84828aac349f4b09627d96d3a84cc97ff49a79
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2a1e5b8d7de785d08686de074e251e8c1c20709c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630389"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777795"
 ---
-# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Änderungen, die von der Domänenvorbereitung in Skype for Business Server vorgenommen wurden
+# <a name="changes-made-by-domain-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Domänenvorbereitung in Skype for Business Server
  
 In der folgenden Tabelle sind die ACEs (Access Control Entries, Zugriffssteuerungseinträge) aufgeführt, die während der Domänenvorbereitung im Domänenstamm erstellt werden. Alle ACEs werden vererbt, sofern nicht anders angegeben.
   

@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren einer Netzwerkregionenroute
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 35c1511f-8143-4893-a91c-5bc7c18ec0bf
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: e788ece11bb5ddd32086a100300cdb68cd198718
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2bc7e71a338f85f4061da05a46654d3344bafdf4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581739"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745231"
 ---
 # <a name="configure-a-network-region-route"></a>Konfigurieren einer Netzwerkregionsroute
 

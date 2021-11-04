@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren einer E9-1-1-VoIP-Route in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 6933b840-0e7b-4509-ae43-bc9065677547
-description: Konfigurieren von E9-1-1-VoIP-Routen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: efab6698aef0c212bb6a52f6f50e2b2bbbe47141
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Konfigurieren sie E9-1-1-VoIP-Routen in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: ae44eca22212de41a2c4edc9da31b88a112525b9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605584"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769703"
 ---
 # <a name="configure-an-e9-1-1-voice-route-in-skype-for-business-server"></a>Konfigurieren einer E9-1-1-VoIP-Route in Skype for Business Server
  
-Konfigurieren von E9-1-1-VoIP-Routen in Skype for Business Server Enterprise-VoIP. 
+Konfigurieren sie E9-1-1-VoIP-Routen in Skype for Business Server Enterprise-VoIP. 
   
-Zum Bereitstellen des Notruf-Features ("E9-1-1") müssen Sie zunächst eine VoIP-Route für Notrufe konfigurieren. Ausführliche Informationen zum Erstellen von VoIP-Routen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md). Sie können auch mehrere Routen definieren, zum Beispiel wenn Ihre Bereitstellung einen primären und einen sekundären SIP-Trunk enthält. 
+Zum Bereitstellen des Notruf-Features ("E9-1-1") müssen Sie zunächst eine VoIP-Route für Notrufe konfigurieren. Ausführliche Informationen zum Erstellen von VoIP-Routen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md) Sie können auch mehrere Routen definieren, zum Beispiel wenn Ihre Bereitstellung einen primären und einen sekundären SIP-Trunk enthält. 
   
 > [!NOTE]
 > Wenn Sie Standortinformationen in einem E9-1-1-INVITE-Befehl aufnehmen möchten, müssen Sie zunächst den SIP-Trunk konfigurieren, der zum Routen von Notrufen über das Gateway eine Verbindung mit dem E9-1-1-Dienstanbieter herstellt. Setzen Sie zu diesem Zweck im **Set-CsTrunkConfiguration**-Cmdlet das Flag "EnablePIDFLOSupport" auf "True". Der Standardwert für "EnablePIDFLOSupport" lautet "False". Beispiel: `Set-CsTrunkConfiguration Service:PstnGateway:192.168.0.241 -EnablePIDFLOSupport $true.` Es ist nicht erforderlich, Empfangsstandorte für Fallback-PSTN-Gateways (Public Switched Telephone Network) und ELIN-Gateways (Emergency Location Identification Number) zu aktivieren.

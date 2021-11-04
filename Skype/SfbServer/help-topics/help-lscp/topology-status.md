@@ -1,7 +1,7 @@
 ---
 title: Topologiestatus
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 5/21/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d5f858f5-df8e-43a9-80aa-6ba1ddb27459
 description: 'Auf der Seite "Topologie: Status" wird der Status der Server in Ihrer Skype for Business Topologie angezeigt.'
-ms.openlocfilehash: 4b500cf9f8144dac68ec0a01944f09b8c4555727
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b9a36ad21209cb19fbd864b5b4930eff59124d3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605174"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762933"
 ---
 # <a name="topology-status"></a>Topologie: Status
 

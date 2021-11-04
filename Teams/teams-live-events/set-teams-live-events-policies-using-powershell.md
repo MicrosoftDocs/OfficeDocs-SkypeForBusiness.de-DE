@@ -1,7 +1,7 @@
 ---
 title: Verwenden von PowerShell zum Festlegen von Richtlinien für Liveereignisse
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -18,16 +18,16 @@ description: Beispiele für die Verwendung von PowerShell zum Festlegen von Rich
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd408ab17d91a826b0d85a6c2515e8f21013242a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0c167d29811008718b7de080e79b62da1117d118
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769793"
 ---
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
-Sie können die folgenden Windows PowerShell verwenden, um Richtlinieneinstellungen für Liveereignisse in einem Teams: 
+Mithilfe der folgenden cmdlets Windows PowerShell Sie Richtlinieneinstellungen für Liveereignisse in einer Teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,7 +37,7 @@ Sie können die folgenden Windows PowerShell verwenden, um Richtlinieneinstellun
 Hier sind einige Beispiele:
 
 > [!NOTE]
-> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit Ihrer Skype for Business PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit ihrer Skype for Business PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
 
 ## <a name="allow-users-to-schedule-live-events"></a>Zulassen, dass Benutzer Liveereignisse planen 
 
@@ -124,13 +124,13 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName EnableBroadcast
 ```
 ## <a name="set-who-can-join-live-events"></a>Festlegen, wer an Liveereignissen teilnehmen kann
  
-Legen Sie die globale Richtlinie so fest, dass Benutzer Ereignisse erstellen können, an denen jeder teilnehmen kann, auch anonyme Benutzer, und die:
+Legen Sie die globale Richtlinie so fest, dass Benutzer Ereignisse erstellen können, an denen jeder teilnehmen kann, auch anonyme Benutzer, und diese ausführen kann:
 ```PowerShell
 Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility Everyone  
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Festlegen der Aufzeichnungsoption für Liveereignisse
 > [!NOTE]
-> Diese Einstellung gilt nur für in der Anwendung erzeugte Teams.
+> Diese Einstellung gilt nur für in einer Anwendung erzeugte Teams.
 
 Legen Sie die globale Richtlinie so ein, dass die Aufzeichnung für Liveereignisse deaktiviert wird:
 ```PowerShell
@@ -138,7 +138,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>Festlegen von Liveuntertiteln in Liveereignissen
 > [!NOTE]
-> Diese Einstellung gilt nur für in der Anwendung erzeugte Teams. 
+> Diese Einstellung gilt nur für in einer Anwendung erzeugte Teams. 
 
 Legen Sie die globale Richtlinie fest, um Liveuntertitel und Untertitel (Transkription) für Ereignisteilnehmer zu aktivieren:
 ```PowerShell
@@ -146,5 +146,5 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -AllowBroadcastTranscription 
 ```
 
 ### <a name="related-topics"></a>Verwandte Themen
-- [Vorbereitung für Microsoft Teams-Liveereignisse](set-up-for-teams-live-events.md)
+- [Einrichten von Teams-Liveereignissen](set-up-for-teams-live-events.md)
 - [Übersicht über PowerShell für Microsoft Teams](../teams-powershell-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams bericht zur Nutzung von Liveereignisen
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Teams Bericht zur Nutzung von Liveereignissen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0d9f11e64daf1b530704d79c512e5741cda18a48
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a6c533a9c07c1c620dbc1bd2d26919bbf5251cf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729554"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763023"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams bericht zur Nutzung von Liveereignisen
 
@@ -30,12 +30,12 @@ Der Teams Bericht zur Nutzung von Liveereignissen im Microsoft Teams Admin Cente
 
 ## <a name="view-the-live-event-usage-report"></a>Anzeigen des Berichts zur Nutzung von Liveereignisen
 
-1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** Verwendung **von Live-Events aus.**
+1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** Nutzung **von Live-Events aus.**
 2. Wählen **Sie unter Datumsbereich** einen vordefinierten Bereich aus, oder legen Sie einen benutzerdefinierten Bereich fest. Sie können einen Bereich festlegen, um Daten bis zu einem Jahr, sechs Monate vor und nach dem aktuellen Datum, anzeigen zu können.
 3. (Optional) Unter **Organisator** können Sie auswählen, dass nur Liveereignisse angezeigt werden, die von einem bestimmten Benutzer organisiert wurden.
 4. Klicken **Sie auf Bericht ausführen.**  
 
-    ![Screenshot des Berichts Teams Nutzung von Liveereignisen im Teams Admin Center mit Callouts.](../media/teams-live-event-usage-report-with-callouts.png "Screenshot des berichts Teams Liveereignisnutzung im Teams Admin Center mit Callouts")
+    ![Screenshot des Berichts Teams Nutzung von Liveereignisen im Teams Admin Center mit Callouts.](../media/teams-live-event-usage-report-with-callouts.png "Screenshot des Teams zu Liveereignisnutzungsberichten im Teams Admin Center mit Callouts")
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
@@ -44,11 +44,11 @@ Der Teams Bericht zur Nutzung von Liveereignissen im Microsoft Teams Admin Cente
 |**1**   |Im bericht Teams Liveereignis werden die Trends über die letzten 7 Tage, 28 Tage oder einen von Ihnen festgelegten benutzerdefinierten Datumsbereich angezeigt. |
 |**2**   |Jeder Bericht hat das Datum, an dem er generiert wurde. Der Bericht spiegelt die nahezu Echtzeitaktivität wider, wenn die Seite aktualisiert wird. |
 |**3**   |<ul><li>Die X-Achse im Diagramm stellt den ausgewählten Datumsbereich für den Bericht dar.</li> <li> Die Y-Achse ist die Gesamtansichtsanzahl.</li> </ul>Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der Ansichten aller Liveereignisse an diesem Datum zu sehen.|
-|**4**   |Die Tabelle enthält eine Aufschlüsselung der einzelnen Live-Ereignisse. <ul><li>**Ereignis** ist der Anzeigename des Live-Ereignisses. Klicken Sie auf den Namen des [Ereignisses, um weitere Details](#view-event-details) zum Ereignis anzuzeigen. </li> <li>**Startzeit** bezieht sich auf das Startdatum und die Startzeit des Ereignisses.</li> <li>**Der Ereignisstatus** zeigt an, ob das Ereignis stattgefunden hat.  </li><li>**Der** Organisator ist der Name des Ereignisorganisators.</li> <li>**Moderatoren** sind die Namen der Ereignis-Presenter.</li><li>**Produzenten** sind die Namen der Ereignis produzenten.</li><li>**Ansichten** ist die Anzahl der eindeutigen Ansichten nach Abschluss des Ereignisses.</li><li>**Bei der** Aufzeichnung wird gezeigt, ob die Aufzeichnungseinstellung ein- oder ausgeschaltet ist.</li><li>**Der Produktionstyp** zeigt an, ob das Ereignis in einer Teams oder von einer externen Anwendung oder einem gerät produziert wird.</li></li> </ul>Wenn in Azure AD kein Benutzerkonto mehr vorhanden ist, wird der Benutzername in der Tabelle als "--" angezeigt. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
+|**4**   |Die Tabelle enthält eine Aufschlüsselung der einzelnen Live-Ereignisse. <ul><li>**Ereignis** ist der Anzeigename des Live-Ereignisses. Klicken Sie auf den Namen des [Ereignisses, um weitere Details](#view-event-details) zum Ereignis anzuzeigen. </li> <li>**Startzeit** bezieht sich auf das Startdatum und die Startzeit des Ereignisses.</li> <li>**Der Ereignisstatus** zeigt an, ob das Ereignis stattgefunden hat.  </li><li>**Der** Organisator ist der Name des Ereignisorganisators.</li> <li>**Moderatoren** sind die Namen der Ereignis-Presenter.</li><li>**Produzenten** sind die Namen der Ereignis produzenten.</li><li>**Ansichten** ist die Anzahl der eindeutigen Ansichten nach Abschluss des Ereignisses.</li><li>**Bei der** Aufzeichnung wird gezeigt, ob die Aufzeichnungseinstellung ein- oder ausgeschaltet ist.</li><li>**Der Produktionstyp** zeigt an, ob das Ereignis in einer Teams oder von einer externen Anwendung oder einem gerät produziert wird.</li></li> </ul>Beachten Sie: Wenn in einer Tabelle kein Azure AD mehr vorhanden ist, wird der Benutzername in der Tabelle als "--" angezeigt. <br><br>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**5**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 
 ## <a name="notes"></a>Hinweise
-Es werden bis zu 100 Liveereignisse angezeigt, die den kriterien des aktuellen Berichts entsprechen. Wenn Sie weitere Liveereignisse sehen möchten, wenden Sie Datumsfilter an, um die Listengröße zu verringern.
+Es werden bis zu 100 Liveereignisse angezeigt, die den Kriterien des aktuellen Berichts entsprechen. Wenn Sie weitere Liveereignisse sehen möchten, wenden Sie Datumsfilter an, um die Listengröße zu verringern.
 
 ## <a name="view-event-details"></a>Anzeigen von Ereignisdetails
 

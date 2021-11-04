@@ -1,7 +1,7 @@
 ---
 title: Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Zusammenfassung: Sperren oder Entsperren der Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server.'
-ms.openlocfilehash: a716166af4b84c84e453c24c700e60885ccbc918
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ccd575182bbac85b20879eaec8bb3e7a951fda1e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012889"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762513"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server
  
@@ -94,7 +94,7 @@ Sie können Benutzer-PINs sperren und entsperren, indem Sie Windows PowerShell u
   
 ### <a name="to-lock-a-user-pin"></a>So sperren Sie die PIN eines Benutzers
 
-- Verwenden Sie das Cmdlet Lock-CsClientPin, um die PIN eines Benutzers zu sperren. Beispiel:
+- Um die PIN eines Benutzers zu sperren, verwenden Sie das Cmdlet Lock-CsClientPin. Beispiel:
     
   ```PowerShell
   Lock-CsClientPin -Identity "Ken Myer"
@@ -102,7 +102,7 @@ Sie können Benutzer-PINs sperren und entsperren, indem Sie Windows PowerShell u
 
 ### <a name="to-unlock-a-user-pin"></a>So entsperren Sie die PIN eines Benutzers
 
-- Verwenden Sie das Cmdlet Unlock-CsClientPin, um die PIN eines Benutzers zu entsperren. Zum Beispiel: 
+- Verwenden Sie das Cmdlet Unlock-CsClientPin, um die PIN eines Benutzers zu entsperren. Beispiel:
     
   ```PowerShell
   Unlock-CsClientPin -Identity "Ken Myer"

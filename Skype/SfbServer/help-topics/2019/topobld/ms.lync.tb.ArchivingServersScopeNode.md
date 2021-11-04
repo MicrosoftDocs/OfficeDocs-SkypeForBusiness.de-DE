@@ -1,7 +1,7 @@
 ---
 title: Archivierungsserver – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Archivierungsserver ausführen, indem Sie entweder mit der rechten Maustaste auf den Archivierungsserver in der Konsolenstruktur klicken, auf der Symbolleiste auf Aktion klicken oder im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf die folgende Option für den Archivierungsserver klicken.
-ms.openlocfilehash: 564797dc1a86fe0f0b8dd08218f810ae3c46a84d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 488d7a4909001cf34750a4a6faf15ed1ba21e99d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631819"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739841"
 ---
 # <a name="archiving-servers-scope-node"></a>Archivierungsserver – Bereichsknoten
  

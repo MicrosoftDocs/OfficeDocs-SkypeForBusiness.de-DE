@@ -1,7 +1,7 @@
 ---
 title: Einstellungen für die Partnerverbundroute – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22aa11b8-80ba-4c6a-9396-d11166903066
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Zuweisen einer Partnerverbundroute zu einem Standort muss für den Edgeserver bzw. Edgeserverpool der Partnerverbund aktiviert sein. Ist dies nicht der Fall, können die Einstellungen für die Zuweisung einer Partnerverbundroute nicht geändert werden.
-ms.openlocfilehash: c331fb80e070062ad2aeb373d2b7b19d583f4c34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 565ec7fc5888f6b2a2dbe0c6c63772cbe0863f91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739751"
 ---
 # <a name="federation-route-settings-expander"></a>Einstellungen für die Partnerverbundroute – Erweiterung
  
@@ -28,7 +28,7 @@ Zum Zuweisen einer Partnerverbundroute zu einem Standort muss für den Edgeserve
 
 Wenn die Partnerverbundeinstellung für den Edgeserver oder -pool konfiguriert wurde, können Sie die folgenden Optionen konfigurieren: 
   
-- **Verbundroutenzuweisungen an alle Standorte zulassen** Diese Einstellung wirkt sich auf alle Websites aus. Vergewissern Sie sich, dass die Einstellung, die Sie für diesen Standort konfigurieren, für alle Standorte geeignet ist.
+- **Verbundroutenzuweisungen für alle Standorte zulassen** Diese Einstellung wirkt sich auf alle Websites aus. Vergewissern Sie sich, dass die Einstellung, die Sie für diesen Standort konfigurieren, für alle Standorte geeignet ist.
     
 - **Aktivieren des SIP-Partnerverbunds** Wählen Sie diese Option aus, um eine SIP-Partnerverbundroute zu aktivieren, und wählen Sie dann einen Director oder Edgepool als Partnerverbundroute aus.
     

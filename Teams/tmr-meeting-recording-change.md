@@ -1,7 +1,7 @@
 ---
 title: Verwenden von OneDrive for Business und SharePoint für Sitzungsaufzeichnungen
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: debhag
 manager: serdars
 ms.topic: article
@@ -17,17 +17,17 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6467aedfec406837dcbc79ddf6902aa95d6dde88
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 62e09ef5226e4b934ff4077f095fac931b786d49
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605211"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769753"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
 > [!NOTE]
-> Die Änderung des Speicherns Teams Von Classic Stream zu OneDrive and SharePoint (ODSP) wurde seit dem 30. August 2021 abgeschlossen. Alle Aufzeichnungen werden jetzt in ODSP gespeichert. Diese Änderung setzt die Richtlinie "RecordingStorageMode" außer Kraft, und eine Änderung der Einstellung in PowerShell hat keine Auswirkung mehr.
+> Die Änderung des Speicherns Teams von Classic Stream auf OneDrive und SharePoint (ODSP) wurde seit dem 30. August 2021 abgeschlossen. Alle Aufzeichnungen werden jetzt in ODSP gespeichert. Diese Änderung setzt die Richtlinie "RecordingStorageMode" außer Kraft, und eine Änderung der Einstellung in PowerShell hat keine Auswirkung mehr.
 
 |Datum&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|Ereignis&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                                                                                                                                                                                                                                                             |
 |:-----------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

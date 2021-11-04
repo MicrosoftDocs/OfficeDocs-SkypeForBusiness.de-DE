@@ -2,7 +2,7 @@
 title: >
   Hinzufügen des FQDN des vertrauenswürdigen Anwendungspools
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5d065268-a694-49a1-b285-9be80a09995c
 description: 'Geben Sie zum Definieren des vollqualifizierten Domänennamens (FQDN) eines vertrauenswürdigen Anwendungspools Folgendes an:'
-ms.openlocfilehash: a4cb8dea1818b8be459166819193e477635535df
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 060a427c1921368573ca0c68dff73f9487ba3697
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602630"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758357"
 ---
 # <a name="add-trusted-application-pool-fqdn"></a>Hinzufügen des FQDN des vertrauenswürdigen Anwendungspools
  

@@ -1,7 +1,7 @@
 ---
 title: Einrichten oder Entfernen von Komponenten von Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f8813f25-eafa-4006-a186-94e4ebcc5ac7
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Zum Installieren und Aktivieren oder Deaktivieren oder Deinstallieren Skype for Business Server Komponenten verwenden Sie Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten. Sie müssen auf dem Computer, den Sie installieren oder ändern, als lokaler Administrator angemeldet sein und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf "Ausführen". Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Wenn die Installation abgeschlossen ist, überprüfen Sie die Zusammenfassung, und klicken Sie auf Fertig stellen.'
-ms.openlocfilehash: d5f7a087dc76e1189fcf59474737fddff22b15c4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Um Skype for Business Server Komponenten zu installieren und zu aktivieren oder zu deaktivieren oder zu deinstallieren, verwenden Sie Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten. Sie müssen als lokaler Administrator auf dem Computer angemeldet sein, den Sie installieren oder ändern, und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf "Ausführen". Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Wenn die Installation abgeschlossen ist, überprüfen Sie die Zusammenfassung, und klicken Sie auf Fertig stellen.'
+ms.openlocfilehash: 8eb19dca3c8e4b14afdcd2a14cb01bbf684a059e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597159"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755308"
 ---
 # <a name="setup-or-remove-skype-for-business-server-components"></a>Einrichten oder Entfernen von Komponenten von Skype for Business Server
  
-Um Skype for Business Server Komponenten zu installieren und zu aktivieren oder zu deaktivieren oder zu deinstallieren, verwenden Sie **Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten.** Sie müssen auf dem Computer, den Sie installieren oder ändern, als lokaler Administrator angemeldet sein und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf **"Ausführen".** Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Überprüfen Sie nach Abschluss der Installation die Zusammenfassung, und klicken Sie auf **Fertig stellen.**
+Um Skype for Business Server Komponenten zu installieren und zu aktivieren oder zu deaktivieren oder zu deinstallieren, verwenden Sie **Schritt 2: Einrichten oder Entfernen Skype Serverkomponenten.** Sie müssen als lokaler Administrator auf dem Computer angemeldet sein, den Sie installieren oder ändern, und in der Lage sein, Active Directory Domain Services-Benutzer und -Gruppen in der aktuellen Domäne zu lesen. Klicken Sie zunächst auf **"Ausführen".** Wenn Sie dies tun, wird die auf dem zentralen Verwaltungsspeicher basierende Topologiedefinition gelesen. Erforderliche Softwarekomponenten werden entsprechend der rolle, die im zentralen Verwaltungsspeicher definiert ist, installiert und konfiguriert. Überprüfen Sie nach Abschluss der Installation die Zusammenfassung, und klicken Sie auf **Fertig stellen.**
   
 > [!TIP]
 > Wenn Sie die vom Bereitstellungs-Assistenten erstellten Protokolldateien überprüfen müssen, finden Sie diese auf dem Computer, auf dem der Bereitstellungs-Assistent ausgeführt wurde, im Verzeichnis "Benutzer" des Active Directory-Benutzers, der den Schritt ausgeführt hat. Wenn sich der Benutzer beispielsweise als Domänenadministrator in der Domäne Contoso.net angemeldet hat, befinden sich die Protokolldateien in: > C:\Users\Administrator.Contoso\AppData\Local\Temp 
