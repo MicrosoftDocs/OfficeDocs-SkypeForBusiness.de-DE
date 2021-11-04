@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Vermittlungsserver im Topologie-Generator in Skype for Business Server definieren und bereitstellen.'
-ms.openlocfilehash: fd6561ee90751eaedd2ef3fdd5ccb6a2ef950b56
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9eb3f00d8530739b3a4e9986da14038ff7d6ed26
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579989"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764893"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server
  
@@ -74,7 +74,7 @@ Sie können den Vermittlungsserver als gemeinsam zugeordnete Rolle in einem Fron
     
 2. Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Namen des Standorts, für den Sie einen Vermittlungsserver definieren möchten.
     
-3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten **"Vermittlungspools",** und klicken Sie dann auf den **Vermittlungsserverpool.**
+3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten **"Vermittlungspools",** und klicken Sie dann auf **"Vermittlungsserverpool".**
     
 4. Geben Sie unter **"Neuen Vermittlungspool definieren"** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Vermittlungsserverpools ein.
     
@@ -93,7 +93,7 @@ Sie können den Vermittlungsserver als gemeinsam zugeordnete Rolle in einem Fron
     
 8. Führen Sie auf der Seite **Edgeserver auswählen** einen der folgenden Schritte aus:
     
-   - Wenn Sie für externe Benutzer, die für Enterprise-VoIP aktiviert sind, PSTN-Konnektivität bereitstellen möchten, klicken Sie unter **"Edgepool auswählen", der von diesem Vermittlungsserver verwendet wird,** auf den FQDN des Edgeserverpools, der diesen Vermittlungsserverpool verwendet, um diesen externen Benutzern PSTN-Konnektivität bereitzustellen, und klicken Sie dann auf **"Weiter".**
+   - Wenn Sie für Enterprise-VoIP aktivierte externe Benutzer PSTN-Konnektivität bereitstellen möchten, klicken Sie unter **"Edgepool auswählen", der von diesem Vermittlungsserver verwendet wird,** auf den FQDN des Edgeserverpools, der diesen Vermittlungsserverpool verwendet, um diesen externen Benutzern PSTN-Konnektivität bereitzustellen, und klicken Sie dann auf **"Weiter".**
     
    - Wenn Sie nicht planen, externe Benutzer für Enterprise-VoIP zu aktivieren, oder wenn Sie Benutzern keine PSTN-Konnektivität bereitstellen möchten, wenn sie sich außerhalb des internen Netzwerks befinden, klicken Sie auf **"Weiter".**
     

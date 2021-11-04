@@ -1,7 +1,7 @@
 ---
 title: Telefon der Nummerverwaltung für Schweden
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Schweden für Microsoft Teams.
-ms.openlocfilehash: e9bdf7dd2eeb07acf77e0dce0363f6c6e11127a4
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 3cb5152fea4897e4970775b17bb3b4a41959b37b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733346"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775965"
 ---
 # <a name="phone-number-management-for-sweden"></a>Telefon der Nummerverwaltung für Schweden
 

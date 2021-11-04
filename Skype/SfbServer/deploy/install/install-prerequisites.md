@@ -1,7 +1,7 @@
 ---
 title: Installieren der erforderlichen Komponenten für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Zusammenfassung: Erfahren Sie mehr über die Server und Serverrollen, die Sie konfigurieren müssen, bevor Sie Skype for Business Server installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 998fa2371e0d0b0d62ce3755a6be881f49956eef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b646ea95b13454d1b025cfbfdae186c927859e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624367"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751154"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installieren der erforderlichen Komponenten für Skype for Business Server
  
@@ -40,7 +40,7 @@ Skype for Business Server erfordert das Windows Server-Betriebssystem und eine R
 > In diesem Verfahren wird Windows Server 2012 R2 verwendet. Wenn Sie eine andere Version von Windows Server verwenden, ist das Verfahren möglicherweise etwas anders. 
   
 > [!IMPORTANT]
-> Bevor Sie beginnen, stellen Sie mit Windows Update sicher, dass Windows Server auf dem neuesten Stand ist. 
+> Bevor Sie beginnen, stellen Sie sicher, dass Windows Server auf dem neuesten Stand ist, indem Sie Windows Update verwenden. 
   
 ![Windows Server auf dem neuesten Stand.](../../media/a8d57a97-a55e-443b-b304-c534ae9a71b2.png)
   
@@ -55,7 +55,7 @@ Sie können die erforderlichen Rollen und Features mit dem Server-Manager instal
 1. Installieren Sie die erforderlichen Softwarefeatures, die in den [Serveranforderungen für Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md)aufgeführt sind. Die erforderliche Software muss sich auf dem Server befinden, auf dem Skype for Business Server ausgeführt wird.
     
     > [!CAUTION]
-    > Windows Server 2012 R2 installiert nicht standardmäßig alle Quelldateien für die erforderlichen Features. Wenn der Server nicht mit dem Internet verbunden ist, müssen Sie das Windows Server 2012 R2-Medium einfügen und **einen alternativen Quellpfad angeben** auswählen, um die erforderlichen Features zu installieren. Die Quelldateien befinden sich im Verzeichnis "sources\sxs". Wenn sich das Windows Server 2012 R2-Medium beispielsweise in Laufwerk D befindet, legen Sie den Pfad auf `d:\sources\sxs` fest. Es ist wichtig, dass Sie über die neuesten Updates von Windows Update verfügen. Wenn Sie nicht mit dem Internet verbunden sind, müssen Sie alle relevanten Updates sowie alle erforderlichen Komponenten für die erforderlichen Updates manuell installieren. 
+    > Windows Server 2012 R2 installiert nicht standardmäßig alle Quelldateien für die erforderlichen Features. Wenn der Server nicht mit dem Internet verbunden ist, müssen Sie das Windows Server 2012 R2-Medium einfügen und **einen alternativen Quellpfad angeben** auswählen, um die erforderlichen Features zu installieren. Die Quelldateien befinden sich im Verzeichnis "sources\sxs". Wenn sich das Windows Server 2012 R2-Medium beispielsweise auf Laufwerk D befindet, legen Sie den Pfad auf `d:\sources\sxs` fest. Es ist wichtig, dass Sie über die neuesten Updates von Windows Update verfügen. Wenn Sie nicht mit dem Internet verbunden sind, müssen Sie alle relevanten Updates sowie alle erforderlichen Komponenten für die erforderlichen Updates manuell installieren. 
   
 1. Wenn das Dialogfeld angibt, dass die Installation abgeschlossen ist, müssen Sie den Server neu starten, um den Vorgang abzuschließen.
     

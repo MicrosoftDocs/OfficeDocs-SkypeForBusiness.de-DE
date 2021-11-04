@@ -1,7 +1,7 @@
 ---
 title: 'Skype for Business Server: Rechner zur Kapazitätsplanung'
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/1/2018
 manager: serdars
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bc4d93b1-0c38-4bf8-8b65-692ff3e2446d
 description: 'Zusammenfassung: Verwenden des Kapazitätsrechnertools.'
-ms.openlocfilehash: d7e7a5f59017ad87df894dbc294b60a01a8ff5bf
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bfceeb643f9043053c70670f19cbc91b325acbb4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632829"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745921"
 ---
 # <a name="skype-for-business-server-capacity-planning-calculator"></a>Skype for Business Server: Rechner zur Kapazitätsplanung
  
@@ -36,7 +36,7 @@ Der Skype for Business Server Kapazitätsrechner hilft Ihnen bei der Ermittlung 
   
 Sie können am meisten vom Rechner profitieren, wenn Sie genaue, detaillierte Informationen zu Ihrem spezifischen Benutzerprofil haben. Beispielsweise können der Prozentsatz der voIP-aktivierten Benutzer, die durchschnittlichen Anrufe pro Benutzer und Stunde, die Anrufdauer und der Prozentsatz der gleichzeitigen Benutzer in Konferenzen einen großen Unterschied bei den Serveranforderungen ausmachen. Die Genauigkeit der vom Rechner erstellten Empfehlungen hängt von der Genauigkeit der von Ihnen bereitgestellten Informationen ab.
   
-Nachdem Sie das Planungstool und den Kapazitätsplanungsrechner verwendet haben, sollten Sie die vorgeschlagene und geplante Last simulieren, um sicherzustellen, dass Skype for Business Server angemessen bereitgestellt werden. Um Stresstests unter einer simulierten Last durchzuführen, verwenden Sie das unter Skype for Business Server Stress and Performance Tool dokumentierte Skype for Business Server Stress [and Performance Tool.](https://www.microsoft.com/download/details.aspx?id=50367) [](./stress-and-performance-tool/stress-and-performance-tool.md)
+Nachdem Sie das Planungstool und den Kapazitätsplanungsrechner verwendet haben, sollten Sie die vorgeschlagene und geplante Last simulieren, um sicherzustellen, dass Skype for Business Server angemessen bereitgestellt werden. Verwenden Sie zum Durchführen von Belastungstests unter einer simulierten Last das unter Skype for Business Server Stress and Performance Tool dokumentierte Skype for Business Server Stress [and Performance Tool.](https://www.microsoft.com/download/details.aspx?id=50367) [](./stress-and-performance-tool/stress-and-performance-tool.md)
   
 ## <a name="using-the-capacity-calculator"></a>Verwenden des Kapazitätsrechners
 
@@ -72,17 +72,17 @@ Das Verwendungsmodell enthält die folgenden Abschnitte. Geben Sie zum Berechnen
     
 - Geben Sie in **Prozent der Konferenzen,** die Sprache verwenden, den Prozentsatz der Konferenzen ein, die Audio enthalten. 
     
-  - Wenn 20 % Ihrer VoIP-Konferenzen auch reguläre Videos enthalten, aktivieren Sie das Kontrollkästchen **"Video einschließen" (keine Mehrfachansicht).**
+  - Wenn 20 % Ihrer Sprachkonferenzen auch reguläre Videos enthalten, aktivieren Sie das Kontrollkästchen **"Video einschließen" (keine Mehrfachansicht).**
     
   - Wenn 20 % Ihrer Konferenzen auch Video mit mehrfacher Ansicht enthalten, aktivieren Sie das Kontrollkästchen **"Multiansicht** einschließen".
     
   - Wenn 50 % Ihrer VoIP-Konferenzen auch die Anwendungsfreigabe umfassen, aktivieren Sie das Kontrollkästchen **"Anwendungsfreigabe einschließen".**
     
-  - Wenn 20 % Ihrer Sprachkonferenzen Datenuploads enthalten, z. B. PowerPoint Präsentationen, aktivieren Sie das Kontrollkästchen **"Webkonferenzen einschließen".**
+  - Wenn 20 % Ihrer VoIP-Konferenzen Datenuploads enthalten, z. B. PowerPoint Präsentationen, aktivieren Sie das Kontrollkästchen **"Webkonferenzen einschließen".**
     
   **Mobilität**
   
-- Geben Sie in Prozent der Benutzer, die **für Mobilität aktiviert sind,** den Prozentsatz der Benutzer ein, die über mobile Geräte eine Verbindung mit Skype for Business Server herstellen können. Der Standardwert ist 40 %. 
+- Geben Sie in **Prozent der Benutzer,** die für Mobilität aktiviert sind, den Prozentsatz der Benutzer ein, die über mobile Geräte eine Verbindung mit Skype for Business Server herstellen können. Der Standardwert ist 40 %. 
     
 Wenn Sie alle erforderlichen Informationen eingegeben haben, schätzt der Kapazitätsrechner Ihre Anforderungen. Die gelben Zellen zeigen berechnete Werte für CPU-, Arbeitsspeicher- und Bandbreitenanforderungen basierend auf Tests, die in Skype for Business Server Leistungslabors durchgeführt wurden. Die Zahlen werden als Richtlinie bereitgestellt, nicht jede einzelne Variante wird getestet und überprüft. Die folgenden Werte werden berechnet: 
   
@@ -114,6 +114,6 @@ Darüber hinaus werden in der Zeile neben den Front-End-Gesamtservern weitere In
     
 ### <a name="adjusting-for-your-processors"></a>Berechnen der Leistungskennzahlen für Ihre Prozessoren
 
-Alle CPU-Auslastungszahlen in der Tabelle gehen davon aus, dass jeder Skype for Business Server 2015-Server über einen dualen Prozessor, Hex-Core mit 2,26 GHz, mindestens 32 GB Arbeitsspeicher und 8 oder mehr Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz verfügt. Für jeden Skype for Business Server 2019-Server wird bei allen CPU-Auslastungsangaben in der Tabelle davon ausgegangen, dass jeder Server über einen dualen Prozessor, Hex-Core mit Intel Xeon E5-2673 v3, mindestens 64 GB Arbeitsspeicher und mindestens 8 Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz verfügt.
+Alle CPU-Auslastungszahlen in der Tabelle gehen davon aus, dass jeder Skype for Business Server 2015-Server über einen dualen Prozessor, Hex-Core mit 2,26 GHz, mindestens 32 GB Arbeitsspeicher und 8 oder mehr Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz verfügt. Für jeden Skype for Business Server 2019-Server wird bei allen CPU-Auslastungszahlen in der Tabelle davon ausgegangen, dass jeder Server über einen dualen Prozessor, Hex-Core mit Intel Xeon E5-2673 v3, mindestens 64 GB Arbeitsspeicher und 8 oder mehr Festplattenlaufwerke mit 10.000 U/min und mindestens 72 GB freiem Speicherplatz verfügt.
   
 Wenn Ihre Server unterschiedliche Prozessoren haben, können Sie die Abbildungen an Ihre Hardware anpassen.

@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Einführungsphase 2 – Experimentieren
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie, wie Sie die experimentelle Phase der Einführung Microsoft Teams durchführen.
+description: In diesem Artikel erfahren Sie, wie Sie die experimentelle Phase der Microsoft Teams durchführen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9cd56875378d7e38660fd1dfd7a4228e7ce5a7e8
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 177ce9d4ee32f1cb620482acfdbf12086e5b5966
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726744"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745461"
 ---
 # <a name="microsoft-teams-adoption-phase-2---experiment"></a>Microsoft Teams-Einführungsphase 2 – Experimentieren
 
-Sie sind jetzt mit einem großartigen Projektteam und wichtigen Informationen über Ihre Organisation ausgestattet, und Sie sind bereit, mit ihren Teams. Wir empfehlen, mit 2 bis 3 realen Projekten innerhalb einer Gruppe zu experimentieren, die von einem Projektbeteiligten geleitet wird, mit dem Sie eine positive Beziehung haben und in der es eine ausreichende Anzahl von Early Adopters gibt, um aussagekräftiges Feedback zu geben. Ganz gleich, ob Ihre Organisation groß oder klein ist, wir empfehlen den Abschluss dieser Phase, um Einblicke zu erhalten, wie Teams Ihre Zusammenarbeit über die Nutzung der Chat- und Dateispeicherfunktionen hinaus verbessern kann.  
+Sie sind jetzt mit einem großartigen Projektteam und wichtigen Informationen über Ihre Organisation ausgestattet, und Sie sind bereit, mit ihren Teams. Wir empfehlen, mit 2 bis 3 realen Projekten in einer Gruppe zu experimentieren, die von einem Projektbeteiligten geleitet wird, mit dem Sie eine positive Beziehung haben und in der es eine ausreichende Anzahl von Early Adopters gibt, um aussagekräftiges Feedback zu geben. Ganz gleich, ob Ihre Organisation groß oder klein ist, wir empfehlen den Abschluss dieser Phase, um Einblicke zu erhalten, wie Teams Ihre Zusammenarbeit über die Nutzung der Chat- und Dateispeicherfunktionen hinaus verbessern kann.  
 
 In dieser Phase führen Sie die folgenden Schritte aus:
 

@@ -1,7 +1,7 @@
 ---
-title: Beispielsammlungsanforderungen für die Anrufsteuerung in Skype for Business Server
+title: Beispiel für die Erfassung von Anforderungen für die Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
 description: Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu den Standorten, Regionen und der Bandbreite Ihres Netzwerks.
-ms.openlocfilehash: 180e62ca2784186c4cd9e646548183ddbcfeac30
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: da270be0af14c74ff44c07b4fc37aa531740a306
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731454"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765273"
 ---
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server
 
@@ -35,7 +35,7 @@ Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementi
 
 3. Identifizieren und Definieren der Netzwerkstandorte, die mit jeder Netzwerkregion verbunden sind.
 
-4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN bandbreiteneinschränkungen ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN bandbreiteneinschränkungen ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreitenbeschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
 
 5. Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
 
@@ -64,7 +64,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
     Im vorherigen Beispiel für die Netzwerktopologie gibt es drei Netzwerkregionen mit jeweils einem Skype for Business Server zentralen Standort, der die Anrufsteuerung verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen. 
 
-    In diesem Beispiel ist eine Skype for Business Bereitstellung mit dem Namen "Chicago" der zentrale Standort für die Region Nordamerika.
+    In diesem Beispiel ist eine Skype for Business Bereitstellung mit dem Namen "Chicago" der zentrale Standort für die Region "Nordamerika".
 
     Alle Skype for Business Benutzer in Nordamerika werden auf Servern in der Bereitstellung von Chicago verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
 
@@ -235,7 +235,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
 ### <a name="next-steps"></a>Nächste Schritte
 
-Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die Cac-Bereitstellung entweder mithilfe der Skype for Business Server Verwaltungsshell oder Skype for Business Server Systemsteuerung durchführen.
+Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die Bereitstellung der Anrufsteuerung entweder mithilfe der Skype for Business Server Verwaltungsshell oder Skype for Business Server Systemsteuerung durchführen.
 
 > [!NOTE]
 > Obwohl Sie die meisten Netzwerkkonfigurationsaufgaben mithilfe Skype for Business Server Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und Standortverknüpfungen Skype for Business Server Verwaltungsshell verwenden. Ausführliche Informationen finden Sie unter ["New-CsNetworkSubnet"](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und ["New-CsNetworkInterSitePolicy".](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)

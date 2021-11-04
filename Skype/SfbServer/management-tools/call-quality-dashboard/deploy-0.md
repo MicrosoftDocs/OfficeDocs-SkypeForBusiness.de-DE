@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen des Anrufqualitäts-Dashboards für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 287f64f5-0f8a-455a-8979-7b34bf0217bb
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bereitstellungsprozess für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: fc07bb721c0319d041bd7bbee4a4a327d77f28b9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 88f484091b68379d390b921235f78ff9a7a1dd08
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733594"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751704"
 ---
 # <a name="deploy-call-quality-dashboard-for-skype-for-business-server"></a>Bereitstellen des Anrufqualitäts-Dashboards für Skype for Business Server
  
@@ -36,9 +36,9 @@ Das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) besteht aus drei Hau
     
 ![CQD-Komponenten.](../../media/ef3359b1-c98b-4cc5-a549-c84c6e03c011.png)
   
-Der Einrichtungsprozess für das QoE-Archiv umfasst das Erstellen der QoE-Archivdatenbank, das Bereitstellen einer SQL Server gespeicherten Prozedur, die die Daten aus der QoE-Quellmetrikendatenbank in die QoE-Archivdatenbank verschleiert, und das Einrichten des SQL Server Agent-Auftrags, um die gespeicherte Prozedur in einem regelmäßigen Intervall auszuführen. 
+Der Einrichtungsprozess für das QoE-Archiv umfasst das Erstellen der QoE-Archivdatenbank, das Bereitstellen einer SQL Server gespeicherten Prozedur, mit der die Daten aus der QoE-Quellmetrikendatenbank in die QoE-Archivdatenbank verschoben werden, und das Einrichten des SQL Server Agent-Auftrags, um die gespeicherte Prozedur in einem regelmäßigen Intervall auszuführen. 
   
-Die Cubebereitstellung ruft Informationen vom Benutzer ab, wo sich das QoE-Archiv befindet, stellt den Cube bereit und richtet einen regulären SQL Server Agentauftrag ein, der den Cube in einem regelmäßigen Intervall aktualisiert.
+Die Cubebereitstellung ruft Informationen vom Benutzer ab, wo sich das QoE-Archiv befindet, stellt den Cube bereit und richtet einen regulären SQL Server Agent-Auftrag ein, der den Cube in einem regelmäßigen Intervall aktualisiert.
   
 Die Portalinstallation erstellt eine Repository-Datenbank, in der die Zuordnung von CQD-Benutzern zu den Berichten/Abfragen jedes Benutzers gespeichert wird. Anschließend wird eine IIS-Webanwendung eingerichtet, die das Dashboard ist, in dem Benutzer eine vordefinierte Gruppe von Berichten sehen sowie ihre eigenen Abfragen anpassen und erstellen können, um Daten aus dem Cube zu visualisieren. Die Portalinstallation erstellt zwei zusätzliche Webanwendungen, die APIs für Benutzer verfügbar machen, um programmgesteuert auf das Repository und den Cube zuzugreifen. (Diese APIs werden auch intern vom Dashboard verwendet.)
   
@@ -47,7 +47,7 @@ Die Portalinstallation erstellt eine Repository-Datenbank, in der die Zuordnung 
 |:-----|:-----|:-----|:-----|
 |Installieren Sie erforderliche Hardware und Software.  <br/> |Entscheiden Sie sich für die CQD-Konfiguration, und wählen Sie einen SQL Server aus, aus dem die Installation ausgeführt werden soll.  <br/> |Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist.  <br/> |Abschnitt "Voraussetzungen für die Vorinstallation" in der Bereitstellungsdokumentation.  <br/> |
 |Installieren Sie CQD.  <br/> |Führen Sie die MSI-Datei nach dem Bereitstellungsdokument aus.  <br/> |Zum Ausführen des Setups muss das Installationskonto ein Domänenbenutzer sein, der Mitglied der lokalen Administratorgruppe ist und Lesezugriff auf die QoE-Metrikdatenbank auf dem Überwachungsserver hat.  <br/> |Abschnitte "Konten und Bereitstellungsschritte" in der Bereitstellungsdokumentation.  <br/> |
-|Gewähren des Benutzerzugriffs.  <br/> |Für die Verwaltung der Benutzerautorisierung für das Portal empfehlen wir die Verwendung der URL-Autorisierung, die in IIS 7.0 eingeführt wurde. Weitere Informationen finden Sie unter [Grundlegendes zur IIS 7.0-URL-Autorisierung.](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)  <br/> |Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist.  <br/> |Verwalten des Benutzerzugriffs für den Abschnitt "Portal" in der Bereitstellungsdokumentation.  <br/> |
+|Gewähren des Benutzerzugriffs.  <br/> |Für die Verwaltung der Benutzerautorisierung für das Portal empfehlen wir die Verwendung der URL-Autorisierung, die in IIS 7.0 eingeführt wurde. Weitere Informationen finden Sie unter [Grundlegendes zur IIS 7.0-URL-Autorisierung.](https://www.iis.net/learn/manage/configuring-security/understanding-iis-url-authorization)  <br/> |Domänenbenutzer, der Mitglied der lokalen Administratorgruppe ist.  <br/> |Verwalten des Benutzerzugriffs für den Portal-Abschnitt in der Bereitstellungsdokumentation.  <br/> |
 |Optional: Geben Sie Subnetzzuordnungsinformationen an.  <br/> |Füllen Sie Netzwerk- und Gebäudezuordnungstabellen in der QoE-Archivdatenbank auf.  <br/> |Ein Konto mit Schreibzugriff auf die QoE-Archivdatenbank.  <br/> |Abschnitt "Bereitstellen von Subnetzinformationen" in der Benutzerdokumentation.  <br/> |
    
 
@@ -56,9 +56,9 @@ Die Bereitstellung des Anrufqualitätsdashboards umfasst das Einrichten der Infr
   
 ## <a name="deployment-steps"></a>Bereitstellungsschritte
 
-1. Kopieren Sie die CallQualityDashboard.msi auf den Computer, auf dem die Archivdatenbankkomponente von CQD installiert werden soll (dies ist der Computer, auf dem SQL Server installiert ist). 
+1. Kopieren Sie die CallQualityDashboard.msi auf den Computer, auf dem die Archivdatenbankkomponente des CQD installiert werden soll (dies ist der Computer, auf dem SQL Server installiert ist). 
     
-2. Führen Sie die MSI-Datei aus (Windows wird aufgefordert, mit Administratorrechten auszuführen). 
+2. Führen Sie die MSI-Datei aus (Windows wird aufgefordert, mit Administratorrechten auszuführen. 
     
 3. Akzeptieren Sie die Lizenzbedingungen.
     
@@ -68,7 +68,7 @@ Die Bereitstellung des Anrufqualitätsdashboards umfasst das Einrichten der Infr
     
 6. Geben Sie auf der Seite "QoE-Archivkonfiguration" die folgenden Informationen an:
     
-   - **QoE Metrics SQL Server:** SQL Server Instanzname, in dem sich die QoE-Metrik-DB befindet (dies ist die Datenquelle).
+   - **QoE Metrics SQL Server:** SQL Server Instanzname für den Ort, an dem sich die QoE-Metrik-DATENBANK befindet (dies ist die Datenquelle).
     
    - **QoE-Archiv SQL Server Name:** Dieses Feld ist schreibgeschützt und wird auf den vollqualifizierten Domänennamen des lokalen Computers festgelegt. Archiv-DB kann nur auf dem lokalen Computer installiert werden.
     
@@ -85,7 +85,7 @@ Die Bereitstellung des Anrufqualitätsdashboards umfasst das Einrichten der Infr
   
    - **Partitionsdateiverzeichnis:** Pfad zum Speicherort der Partitionen für die QoE-Archivdatenbank. Dies sollte sich auf einem Laufwerk (HDD3 in der empfohlenen Hardwarekonfiguration) befinden, das vom Betriebssystemlaufwerk und SQL Datenbankprotokolldateien getrennt ist. Da die Dateinamen in der Installation behoben sind, empfiehlt es sich, ein leeres Verzeichnis ohne Dateien zu verwenden, um potenzielle Konflikte zu vermeiden.
     
-   - **SQL Agent-Auftragsbenutzer – Benutzername &amp; Kennwort:** Name und Kennwort des Domänendienstkontos (maskiert), die zum Ausführen des Schritts "QoE-Archivdaten" des SQL Server Agent-Auftrags verwendet werden (wodurch die gespeicherte Prozedur ausgeführt wird, um Daten von QoE Metrics DB in Archive DB abzurufen. Dieses Konto muss also über Lesezugriff auf QoE Metrics DB verfügen, wie im Abschnitt "Konten" angegeben. Dieses Konto muss sich auch im QoE-Archiv SQL Server Instanz anmelden).
+   - **SQL Agent-Auftragsbenutzer – Benutzername &amp; Kennwort:** Name und Kennwort des Domänendienstkontos (maskiert), die zum Ausführen des Schritts "QoE-Archivdaten" des SQL Server-Agentauftrags verwendet werden (der die gespeicherte Prozedur ausführt, um Daten aus QoE Metrics DB in Archive DB abzurufen. Dieses Konto muss also über Lesezugriff auf QoE Metrics DB verfügen, wie im Abschnitt "Konten" angegeben. Dieses Konto muss sich auch im QoE-Archiv SQL Server Instanz) anmelden.
     
      > [!NOTE]
      > Das Konto, unter dem die SQL Server Instanz ausgeführt wird, z. B. NT SERVICE\MSSQLSERVER, muss über Zugriff/Berechtigung auf die oben angegebenen Verzeichnisse verfügen, damit die Installation erfolgreich ausgeführt werden kann. Ausführliche Informationen finden Sie unter [Konfigurieren von Dateisystemberechtigungen für Datenbank-Engine Access](/previous-versions/sql/sql-server-2012/jj219062(v=sql.110))
@@ -93,7 +93,7 @@ Die Bereitstellung des Anrufqualitätsdashboards umfasst das Einrichten der Infr
 7. Beim Klicken auf das nächste Element führt das Installationsprogramm die erforderlichen Überprüfungen durch und meldet, ob Probleme auftreten. Wenn alle erforderlichen Überprüfungen erfolgreich sind, wechselt das Installationsprogramm zur Seite "Cubekonfiguration". 
     
     > [!NOTE]
-    > Wenn das Installationsprogramm eine Warnmeldung anzeigt, dass der SQL Server Agent-Dienst für das QoE-Archiv SQL Server Instanz derzeit nicht ausgeführt wird, kann die Installation fortgesetzt werden. Stellen Sie nach der Installation jedoch sicher, dass SQL Agent-Dienst ausgeführt wird, und legen Sie den Starttyp auf "Automatisch" fest, damit der geplante Auftrag ausgeführt wird. 
+    > Wenn das Installationsprogramm eine Warnmeldung anzeigt, dass der SQL Server-Agent-Dienst für das QoE-Archiv SQL Server Instanz derzeit nicht ausgeführt wird, kann die Installation fortgesetzt werden. Stellen Sie nach der Installation jedoch sicher, dass SQL Agent-Dienst ausgeführt wird, und legen Sie den Starttyp auf "Automatisch" fest, damit der geplante Auftrag ausgeführt wird. 
   
 8. Geben Sie auf der Seite "Cubekonfiguration" die folgenden Informationen an:
     
@@ -101,7 +101,7 @@ Die Bereitstellung des Anrufqualitätsdashboards umfasst das Einrichten der Infr
     
    - **QoE-Archiv SQL Server Instanz:** SQL Server Instanzname, in dem sich die QoE-Archiv-DB befindet. Wenn Sie eine Standardinstanz SQL Server angeben möchten, lassen Sie dieses Feld leer. Um einen benannten SQL Server Instanz anzugeben, geben Sie den Instanznamen ein (z. B. den Namen nach dem " \" ). Wenn die QoE-Archivkomponente für die Installation ausgewählt wurde, wird dieses Feld vorab mit dem Wert auf der Seite "QoE-Archivkonfiguration" ausgefüllt.
     
-   - **Cube Analysis Server:** SQL Server Analysis Service-Instanzname für den Ort, an dem der Cube erstellt werden soll. Dies kann ein anderer Computer sein, aber der installierende Benutzer muss Ein Mitglied der Serveradministratoren des Ziels SQL Server Analysis Service-Instanz sein.
+   - **Cube Analysis Server:** SQL Server Analysis Service-Instanzname für den Ort, an dem der Cube erstellt werden soll. Dies kann ein anderer Computer sein, aber der installierende Benutzer muss Mitglied der Serveradministratoren des Ziels SQL Server Analysis Service-Instanz sein.
     
      > [!NOTE]
      >  Weitere Informationen zum Konfigurieren von Analysis Services Server-Administratorberechtigungen finden Sie unter [Erteilen von Serveradministratorberechtigungen (Analysis Services)](/analysis-services/instances/grant-server-admin-rights-to-an-analysis-services-instance?viewFallbackFrom=sql-server-ver15)
@@ -121,13 +121,13 @@ Die Bereitstellung des Anrufqualitätsdashboards umfasst das Einrichten der Infr
     
     - **Cube Analysis Server:** SQL Server Analysis Service-Instanzname für den Speicherort des Cubes. Wenn die Cube-Komponente für die Installation ausgewählt wurde, wird dieses Feld mit dem Auffüllwert auf der Seite "Cubekonfiguration" ausgefüllt.
     
-    - **Repository SQL Server:** SQL Server Instanzname, in dem die Repositorydatenbank erstellt werden soll. Wenn der SQL Server Instanzname, in dem sich die QoE-Archivdatenbank befindet, bereits im Setup (in anderen Komponenten) angegeben wurde, wird dieses Feld mit dem Namen der QoE-Archivdatenbank SQL Server Instanz bereits ausgefüllt. Dies kann eine beliebige SQL Server Instanz sein.
+    - **Repository SQL Server:** SQL Server Instanzname, in dem die Repositorydatenbank erstellt werden soll. Wenn der SQL Server Instanzname, in dem sich die QoE-Archivdatenbank befindet, bereits im Setup (in anderen Komponenten) angegeben wurde, wird dieses Feld vorab mit dem Namen der QoE-Archivdatenbank SQL Server Instanz ausgefüllt. Dies kann eine beliebige SQL Server Instanz sein.
     
     - **Repositorydatenbank:** Standardmäßig ist die Option auf "Neue Datenbank erstellen" festgelegt. Da das Repository DB-Upgrade nicht unterstützt wird, kann die Option "Vorhandene Datenbank verwenden" nur verwendet werden, wenn die vorhandene Repository-DATENBANK das gleiche Schema wie der zu installierende Build aufweist.
     
     - **IIS-App-Poolbenutzer – Benutzername &amp; Kennwort:** Das Konto, unter dem der IIS-Anwendungspool ausgeführt werden soll. Die Felder "Benutzername" und "Kennwort" werden ausgegraut, wenn integrierte Systemkonten ausgewählt sind. Diese Felder werden nur aktiviert, wenn im Dropdownfeld "Other" ausgewählt ist, damit der Benutzer die Kontoinformationen des Domänendiensts eingeben kann.
     
-11. Wenn Sie auf das nächste Klicken klicken, wird die letzte Überprüfungsrunde durchgeführt, um sicherzustellen, dass auf die SQL Server Instanzen über die bereitgestellten Anmeldeinformationen zugegriffen werden kann und IIS auf dem Computer verfügbar ist. Nach erfolgreichem Abschluss der Überprüfung wird das Installationsprogramm mit dem Setup fortfahren. 
+11. Wenn Sie auf den nächsten Klicken klicken, wird die letzte Überprüfungsrunde durchgeführt, um sicherzustellen, dass auf die SQL Server Instanzen mithilfe der bereitgestellten Anmeldeinformationen zugegriffen werden kann und IIS auf dem Computer verfügbar ist. Nach erfolgreichem Abschluss der Überprüfung wird das Installationsprogramm mit dem Setup fortfahren. 
     
 Wenn das Installationsprogramm abgeschlossen ist, wird wahrscheinlich der SQL Server Agent-Auftrag ausgeführt, wobei die anfängliche Auslastung der QoE-Daten und die Cubeverarbeitung ausgeführt wird. Abhängig von der Datenmenge in QoE stehen dem Portal noch keine Daten zur Verfügung. Um den Status der Datenlast und cubeverarbeitung zu überprüfen, wechseln Sie zu  `http://<machinename>/CQD/#/Health` . 
 > [!NOTE]
@@ -149,7 +149,7 @@ Jede Website oder Webanwendung erbt die Standard-URL-Autorisierung, die für den
 ![Bereitstellen der Anrufqualität – Autorisierungsregeln in IIS.](../../media/0da80c28-58fe-4aca-94b4-db684389468c.png)
   
 > [!NOTE]
-> Das Symbol "Autorisierungsregeln" ist nicht mit der ".NET-Autorisierung" im Abschnitt ASP.NET zu verwechseln, bei dem es sich um einen anderen Autorisierungsmechanismus handelt. 
+> Das Symbol "Autorisierungsregeln" darf nicht mit der ".NET-Autorisierung" im Abschnitt ASP.NET verwechselt werden, bei dem es sich um einen anderen Autorisierungsmechanismus handelt. 
   
 Administratoren sollten zuerst die geerbte Regel "Alle Benutzer zulassen" entfernen. Dadurch wird verhindert, dass nicht autorisierte Benutzer auf das Portal zugreifen.
   
@@ -215,11 +215,11 @@ In seltenen Fällen kann das Installationsprogramm die richtigen Einstellungen i
     
      ![Bereitstellen des Anrufqualitäts-Dashboards.](../../media/dc6007aa-870b-4d70-867d-32ffd937063b.png)
   
-2. Klicken Sie auf "Authentifizierung". Wenn die "anonyme Authentifizierung", "ASP.NET Identitätswechsel", "Formularauthentifizierung" und "Windows-Authentifizierung" nicht mit den unten gezeigten Einstellungen übereinstimmen, ändern Sie diese manuell so, dass sie den unten aufgeführten Einstellungen entsprechen. Alle anderen Authentifizierungsmechanismen sollten deaktiviert werden.
+2. Klicken Sie auf "Authentifizierung". Wenn die "anonyme Authentifizierung", "ASP.NET Identitätswechsel", "Formularauthentifizierung" und "Windows-Authentifizierung" nicht mit den unten gezeigten Einstellungen übereinstimmen, ändern Sie sie manuell so, dass sie den unten aufgeführten Einstellungen entsprechen. Alle anderen Authentifizierungsmechanismen sollten deaktiviert werden.
     
      ![Bereitstellen des Anrufqualitäts-Dashboards.](../../media/5d9e38fb-8a50-41a2-a423-3ce983a83d0c.png)
   
-3. Klicken Sie für "Windows-Authentifizierung" auf der rechten Seite auf "Erweiterter Einstellungen".
+3. Klicken Sie für "Windows-Authentifizierung" auf der rechten Seite auf "Erweitert Einstellungen".
     
      ![Bereitstellen des Anrufqualitäts-Dashboards.](../../media/cad29486-df40-4cc9-82f3-bbdaca52d9ca.png)
   
@@ -363,7 +363,7 @@ Das Importieren von Gebäuden bietet Ihnen die Möglichkeit, bestimmte Einblicke
 > [!NOTE]
 > Dieser Schritt ist optional, wird jedoch empfohlen. 
   
-Bevor Sie ein neues Gebäude importieren, sollten Sie bereits einen vordefinierten BuildingKey identifiziert haben. Geben Sie dazu den Befehl "SELECT MAX(BuildingKey) FROM CqdBuilding" SQL aus, um den aktuellen Wert zu identifizieren und dem Ergebnis 1 hinzuzufügen.
+Bevor Sie ein neues Gebäude importieren, sollten Sie bereits einen vordefinierten BuildingKey identifiziert haben. Geben Sie dazu den Befehl "SELECT MAX(BuildingKey) FROM CqdBuilding" SQL befehl aus, um den aktuellen Wert zu identifizieren und dem Ergebnis 1 hinzuzufügen.
   
  **Beispielsyntax SQL**
   
@@ -430,7 +430,7 @@ VALUES
 |**Wie im CQD dargestellt**|**CQDBssid-Tabelle**|**Beispieleingaben**|
 |:-----|:-----|:-----|
 |Ap NName  <br/> |LD  <br/> |AP1  <br/> |
-|BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (Sie müssen das durch Trennzeichen getrennte Fformat verwenden)  <br/> |
+|BBssid  <br/> |BSS  <br/> |00-00-00-00-00-00 (Sie müssen das durch Trennzeichen getrennte fformat verwenden)  <br/> |
 |Controller  <br/> |Gebäude  <br/> |Die API 7  <br/> |
 |Gerät  <br/> |Ess  <br/> |Controller1  <br/> |
 |Radio  <br/> |Phy  <br/> |Bgn  <br/> |
@@ -441,6 +441,6 @@ Nach dem Importieren von Gebäude-/Netzwerkdaten gelten sie standardmäßig nur 
   
 Um alle vorherigen Datensätze mit diesen neuen Daten zu kennzeichnen, müssen Sie die gespeicherte CqdUpdateBuilding-Prozedur wie unten dargestellt ausführen: 
   
-Geben Sie ihr das Datum Ihres ersten Datensatzes (identifizieren Sie, dass sie mithilfe des Befehls "MIN(StartTime) FROM CqdPartitionedStreamView SQL") ein EndDate von morgen und dann NULL für die letzten beiden Werte verwenden.
+Geben Sie ihr das Datum Ihres ersten Datensatzes (identifizieren Sie, dass mit dem Befehl "MIN(StartTime) FROM CqdPartitionedStreamView SQL") ein EndDate von morgen und dann NULL für die letzten beiden Werte verwendet wird.
   
 Sobald die Daten Streamdaten zugeordnet sind, muss der SSIS-Cube alle Datensätze erneut verarbeiten. Dies gilt auch beim Massenbeifügung von BSSID/ISP-Daten. Stellen Sie sicher, dass "Prozess vollständig" ausgewählt ist.

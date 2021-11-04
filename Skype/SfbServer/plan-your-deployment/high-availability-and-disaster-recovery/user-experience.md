@@ -1,7 +1,7 @@
 ---
 title: Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
 description: Erfahren Sie, welche Benutzer bei einem Failover eines Front-End-Pools während der Notfallwiederherstellung in Skype for Business Server auftreten.
-ms.openlocfilehash: b207fd34bc5eaaf2e02addc8040dc262709b2853
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 568f0bce49379e10da8e64ca1eb4507b9319d250
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609232"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744161"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server
  
@@ -34,7 +34,7 @@ Beachten Sie, dass die Location Information Server-Datenbank nicht in den Sicher
   
 ## <a name="user-experience-during-failover"></a>Benutzerfreundlichkeit während des Failovers
 
-Wenn sich ein Benutzer in einem Pool befindet, der fehlschlägt, wird der Benutzer abgemeldet. Jede Peer-to-Peer-Sitzung, an der der Benutzer teilgenommen hat, wird beendet, ebenso wie von diesem Benutzer organisierte Konferenzen. Der Benutzer kann sich nicht wieder anmelden, bis entweder der Registrierungsausfallsicherheits-Zeitgeber abläuft oder der Administrator Failoverprozeduren initiiert, was auch immer zuerst eintritt. Wenn sich Benutzer wieder anmelden, werden sie im Sicherungspool angemeldet. Wenn sie sich vor Abschluss des Failovers anmelden, befinden sie sich im Ausfallsicherheitsmodus, bis das Failover abgeschlossen ist. Nur dann kann ein Benutzer neue Sitzungen einrichten oder vorherige Sitzungen erneut einrichten.
+Wenn sich ein Benutzer in einem Pool befindet, der fehlschlägt, wird der Benutzer abgemeldet. Jede Peer-to-Peer-Sitzung, an der der Benutzer teilgenommen hat, wird beendet, ebenso wie die von diesem Benutzer organisierten Konferenzen. Der Benutzer kann sich nicht wieder anmelden, bis entweder der Registrierungsausfallsicherheits-Zeitgeber abläuft oder der Administrator Failoverprozeduren initiiert, was auch immer zuerst eintritt. Wenn sich Benutzer wieder anmelden, werden sie im Sicherungspool angemeldet. Wenn sie sich vor Abschluss des Failovers anmelden, befinden sie sich im Ausfallsicherheitsmodus, bis das Failover abgeschlossen ist. Nur dann kann ein Benutzer neue Sitzungen einrichten oder vorherige Sitzungen erneut einrichten.
   
 ## <a name="user-experience-during-failback"></a>Benutzererfahrung während des Failbacks
 
@@ -54,8 +54,8 @@ Der Begriff betroffener Benutzer bezieht sich auf sämtliche Benutzer, bei denen
 |Vom nicht betroffenen Benutzer organisierte laufende Konferenz  <br/> |Die Konferenz wird weiterhin ausgeführt, und der betroffene Benutzer kann in der Konferenz verbleiben. Der betroffene Benutzer ist darauf beschränkt, was er im Ausfallsicherheitsmodus ausführen kann.  <br/> |Die Konferenz wird weiterhin ausgeführt, und der betroffene Benutzer kann in der Konferenz verbleiben. Zudem funktionieren alle Modalitäten, nachdem der Benutzer den Ausfallsicherheitsmodus verlassen hat.  <br/> |
 |Planen oder Ändern von geplanten Änderungen, Erstellen von Ad-hoc-Konferenzen  <br/> |Nicht möglich, während sich der Benutzer im Ausfallsicherheitsmodus befindet.  <br/> |Für alle Modalitäten verfügbar.  <br/> |
 |Anwesenheit, wie sie von anderen Benutzern im selben Pool gesehen wird  <br/> |Die Anwesenheit ist unbekannt, während der Benutzer am Sicherungspool während des Ausfallsicherheitsmodus angemeldet ist.  <br/> |Zeigt den letzten vom Benutzer festgelegten Anwesenheitsstatus, und Anwesenheitsänderungen werden nun reflektiert.  <br/> |
-|Verfügbarkeit von Kontaktlisten und Adressbuchdienst  <br/> |Nicht verfügbar  <br/> |Available  <br/> |
-|Alle Peer-zu-Peer-Sitzungen und -modalitäten  <br/> |Available  <br/> |Available  <br/> |
+|Verfügbarkeit von Kontaktlisten und Adressbuchdienst  <br/> |Nicht verfügbar  <br/> |Verfügbar  <br/> |
+|Alle Peer-zu-Peer-Sitzungen und -modalitäten  <br/> |Verfügbar  <br/> |Verfügbar  <br/> |
    
 **Benutzerfreundlichkeit für einen in einem nicht betroffenen Pool verwalteten Benutzer während eines Failbacks eines anderen Pools**
 
@@ -64,6 +64,6 @@ Der Begriff betroffener Benutzer bezieht sich auf sämtliche Benutzer, bei denen
 |Anwesenheitsinformationen des betroffenen Benutzers anzeigen  <br/> |Zeigt den letzten vom betroffenen Benutzer festgelegten Anwesenheitsstatus an.  <br/> |In Bearbeitung. Nicht betroffene Benutzer sehen Updates, die von betroffenen Benutzern vorgenommen wurden.  <br/> |
 |Von betroffenen Benutzern organisierte laufende Konferenzen  <br/> |Alle Modalitäten der Konferenz werden abgebrochen  <br/> |Alle Modalitäten funktionieren nun. Jeder Teilnehmer muss klicken, um wieder an der Konferenz teilzunehmen.  <br/> |
 |Von nicht betroffenen Benutzern organisierte laufende Konferenzen  <br/> |Die Konferenz wird weiterhin ausgeführt, und der betroffene Benutzer kann in der Konferenz verbleiben, und alle Modalitäten funktionieren.  <br/> |Die Konferenz wird weiterhin ausgeführt, und der betroffene Benutzer kann in der Konferenz verbleiben, und alle Modalitäten funktionieren.  <br/> |
-|Alle Peer-zu-Peer-Sitzungen und -modalitäten  <br/> |Available  <br/> |Available  <br/> |
+|Alle Peer-zu-Peer-Sitzungen und -modalitäten  <br/> |Verfügbar  <br/> |Verfügbar  <br/> |
    
 

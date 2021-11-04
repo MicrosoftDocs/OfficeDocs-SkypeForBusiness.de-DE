@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen des Front-End-Überwachungsspeichers – Seite
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 48e8587d-a9d2-4fc5-acc5-2bf0abf133c6
 description: 'Sie verwenden die Option SQL Server-Überwachungsspeicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: fca62973e1ad204b0ecc065297fb09a161494353
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b6f8d74c6f205556fc846bb9edc4bccd0641667
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628017"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744234"
 ---
 # <a name="add-front-end-monitoring-store-page"></a>Hinzufügen des Front-End-Überwachungsspeichers – Seite
  
@@ -30,13 +30,13 @@ Sie verwenden die Option **SQL Server-Überwachungsspeicher definieren**, indem 
     
     Klicken Sie auf **Neu,** um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Monitoring Server-Speicher zu erstellen.
     
-- Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung** aktivieren, wenn Sie die Datenbankspiegelung für den Monitoring Server hinzufügen möchten.
+- Aktivieren Sie das Kontrollkästchen **"SQL Server Speicherspiegelung aktivieren",** wenn Sie die Datenbankspiegelung für den Monitoring Server hinzufügen möchten.
     
     Wählen Sie in der Liste eine vorhandene **SQL Server-Speicherspiegelung für Überwachung** aus.
     
     Klicken Sie auf **Neu,** um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Spiegelspeicher zu erstellen.
     
-- Wenn Sie **SQL Server Speicherspiegelung aktivieren** ausgewählt haben, wählen Sie optional SQL Server **Spiegelungszeugen verwenden aus, um das automatische Failover zu aktivieren,** um einen SQL Server Spiegelungszeugenspeicher aus der Liste auszuwählen.
+- Wenn Sie **SQL Server Speicherspiegelung aktivieren** ausgewählt haben, wählen Sie optional SQL Server **Spiegelungszeugen verwenden** aus, um das automatische Failover zu aktivieren, um einen SQL Server Spiegelungszeugenspeicher aus der Liste auszuwählen.
     
     Klicken Sie auf **Neu,** um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Spiegelungszeugenspeicher zu erstellen.
     
@@ -48,6 +48,6 @@ Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assisten
   
 Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 2015](../../deploy/deploy-monitoring/associate-a-monitoring-store.md)

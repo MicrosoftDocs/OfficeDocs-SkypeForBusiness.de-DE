@@ -1,6 +1,6 @@
 ---
 title: Skype for Business für Mac-Clientanforderungen
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lesen Sie dieses Thema, um mehr über die Hardware-, Software- und Infrastrukturanforderungen für die Ausführung von Skype for Business auf einem Mac zu erfahren.
-ms.openlocfilehash: e25995173b44cf4f5892c1a34f77529042125c58
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 3a4d80bea5bd56f94b5239a537d059c4409d8f33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014469"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745911"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business für Mac-Clientanforderungen
  
@@ -38,11 +38,11 @@ Die Skype for Business auf dem Mac-Client erfordert Mac OS X El Macintoshn und h
   
 ### <a name="legacy-mac-clients"></a>Legacy-Mac-Clients
 
-Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf Computern mit Mac OS 10.5.8 oder neuesten Service Pack- oder Release-Betriebssystemen (Intel-basiert) (Mac OS 10.9-Betriebssystem wird derzeit nicht unterstützt). Ausführliche Informationen zu unterstützten Features finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md)
+Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf Computern mit Mac OS 10.5.8 oder dem neuesten Service Pack oder Release (Intel-basiert) Betriebssystemen (Mac OS 10.9 wird derzeit nicht unterstützt). Ausführliche Informationen zu unterstützten Features finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md)
   
 - Microsoft Lync für Mac 2011 (siehe [Bereitstellungshandbuch für Lync für Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
-- Microsoft Communicator für Mac 2011 (siehe [Communicator für Mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14)))
+- Microsoft Communicator für Mac 2011 (siehe [bereitstellungshandbuch für Communicator für Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
  
 Diese Clients werden von Skype for Business Server 2019 nicht unterstützt.
    

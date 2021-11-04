@@ -1,7 +1,7 @@
 ---
 title: Notfallwiederherstellung (Planungstool)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 88ad1820-d4ef-4eb6-831b-a8574c085bd0
 ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server umfasst Notfallwiederherstellungsmaßnahmen, indem Sie es Ihnen ermöglichen, Front-End-Pools in zwei Rechenzentren zu koppeln.
-ms.openlocfilehash: f696463d5687cb03a1dde1e669c7dbd1707037c2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype for Business Server umfasst Notfallwiederherstellungsmaßnahmen, mit denen Sie Front-End-Pools in zwei Rechenzentren koppeln können.
+ms.openlocfilehash: 76afa73e83b2128fa3d845042fcb9feed2cd41e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619141"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776915"
 ---
 # <a name="disaster-recovery-planning-tool"></a>Notfallwiederherstellung (Planungstool)
  
-Skype for Business Server umfasst Notfallwiederherstellungsmaßnahmen, indem Sie es Ihnen ermöglichen, Front-End-Pools in zwei Rechenzentren zu koppeln.
+Skype for Business Server umfasst Notfallwiederherstellungsmaßnahmen, mit denen Sie Front-End-Pools in zwei Rechenzentren koppeln können.
   
-Ausführliche Informationen zur Vorbereitung Ihrer Umgebung für die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
+Ausführliche Informationen zur Vorbereitung Ihrer Umgebung auf die Notfallwiederherstellung finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server.](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
   
 

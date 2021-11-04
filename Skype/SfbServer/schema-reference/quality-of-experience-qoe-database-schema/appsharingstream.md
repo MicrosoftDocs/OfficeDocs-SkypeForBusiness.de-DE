@@ -1,7 +1,7 @@
 ---
 title: AppSharingStream-Tabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 391490cb-d7b8-44ca-b4d1-429600da909c
 description: Die AppSharingStream-Tabelle enthält QoE-Metriken für die Netzwerkdatenströme, die für die Anwendungsfreigabe verwendet werden. Diese Tabelle wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 5577777c96618e6cf601e8b80763f74acdad5a5a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8ff42466ce5919b42c39e9e4cc84daefadf803fd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592419"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765053"
 ---
 # <a name="appsharingstream-table"></a>AppSharingStream-Tabelle
  
@@ -42,9 +42,9 @@ Die AppSharingStream-Tabelle enthält QoE-Metriken für die Netzwerkdatenströme
 |**RelativeOneWayTotal** <br/> |Gleitkommazahl  <br/> ||Gesamter Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
 |**RelativeOneWayAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittlicher Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
 |**RelativeOneWayMax** <br/> |Gleitkommazahl  <br/> ||Maximaler Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
 |**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamtzahl der vorkommende unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
 |**RelativeOneWayGapDensity** <br/> |Gleitkommazahl  <br/> ||Gesamtdichte der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamtdauer der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> |
@@ -52,9 +52,9 @@ Die AppSharingStream-Tabelle enthält QoE-Metriken für die Netzwerkdatenströme
 |**RDPTileProcessingLatencyTotal** <br/> |Gleitkommazahl  <br/> ||Gesamte Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
 |**RDPTileProcessingLatencyAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
 |**RDPTileProcessingLatencyMax** <br/> |Gleitkommazahl  <br/> ||Maximale Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je höher der Gesamtwert, desto länger die Verzögerung bei der Wiedergabe.  <br/> |
-|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen.  <br/> |
-|**RDPTileProcessingLatencyBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen.  <br/> |
-|**RDPTileProcessingLatencyBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen.  <br/> |
+|**RDPTileProcessingLatencyBurstOccurrences** <br/> |int  <br/> ||Burstvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen.  <br/> |
+|**RDPTileProcessingLatencyBurstDensity** <br/> |Gleitkommazahl  <br/> ||Burstdichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen.  <br/> |
+|**RDPTileProcessingLatencyBurstDuration** <br/> |Gleitkommazahl  <br/> ||Burstdauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen.  <br/> |
 |**RDPTileProcessingLatencyGapOccurrences** <br/> |int  <br/> ||Lückenvorkommen in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP).  <br/> |
 |**RDPTileProcessingLatencyGapDensity** <br/> |Gleitkommazahl  <br/> ||Lückendichte in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je geringer die Lückendichte, desto besser das Wiedergabeerlebnis.  <br/> |
 |**RDPTileProcessingLatencyGapDuration** <br/> |Gleitkommazahl  <br/> ||Lückendauer in der Verarbeitungszeit für Remotedesktopprotokoll-Kacheln (RDP). Je kürzer die Lückendauer, desto besser das Wiedergabeerlebnis.  <br/> |

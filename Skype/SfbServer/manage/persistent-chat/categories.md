@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
 description: 'Zusammenfassung: Informationen zum Verwalten von Serverkategorien für beständigen Chat in Skype for Business Server 2015.'
-ms.openlocfilehash: a69d8ec3119f9f94f9f5c864ec0e0d2d613b0e20
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622217"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776195"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -26,7 +26,7 @@ ms.locfileid: "58622217"
   
 Eine Kategorie ist eine logische Struktur zum Organisieren von Chatrooms. Eine Kategorie definiert einen Standardsatz von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen, die Chatrooms erstellen oder daran teilnehmen können. Chatroomkategorien enthalten Chatrooms, aber keine anderen Kategorien. In jeder Kategorie wird der Inhalt mithilfe von Metadaten beschrieben, z. B. Name und Beschreibung. Die Kategorie verfügt über Eigenschaften, die festgelegt werden können, um das Verhalten der chatrooms zu steuern, die zu ihr gehören. Beispielsweise, ob die Chatrooms Einladungen oder Dateiuploads zulassen oder den Chatverlauf enthalten. 
   
-Das Erstellen und Verwalten von Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Als Administrator für den Server für beständigen Chat können Sie "AllowedMembers" und "Creators" für jede Kategorie sowie die Standardeinstellungen und Verhaltensweisen für Chatrooms definieren, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Wenn Sie beispielsweise die AllowedMembers der Kategorie auf contoso.com festlegen, können Sie eine beliebige Gruppe oder einen beliebigen Benutzer bei Contoso als Mitglied zu Chatrooms in dieser Kategorie hinzufügen. Wenn Sie die zulässigen Mitglieder in einer Kategorie auf "Vertrieb" festlegen, können nur Gruppen und Benutzer in dieser Verteilerliste als Mitglieder zu Chatrooms in dieser Kategorie hinzugefügt werden. Mit der Creators-Eigenschaft können Sie steuern, wer Chatrooms in dieser Kategorie erstellen kann. Nachdem der Chatroom erstellt wurde, kann jeder aus der Gruppe "AllowedMembers" als Manager für laufende Verwaltungsvorgänge in den Chatrooms festgelegt werden (z. B. Mitgliedschaftsänderungen und Genehmigung).
+Das Erstellen und Verwalten von Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Als Administrator für den Server für beständigen Chat können Sie "AllowedMembers" und "Creators" für jede Kategorie definieren und außerdem die Standardeinstellungen und Verhaltensweisen für Chatrooms definieren, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Wenn Sie beispielsweise die AllowedMembers der Kategorie auf contoso.com festlegen, können Sie eine beliebige Gruppe oder einen beliebigen Benutzer bei Contoso als Mitglied zu Chatrooms in dieser Kategorie hinzufügen. Wenn Sie die zulässigen Mitglieder in einer Kategorie auf "Vertrieb" festlegen, können nur Gruppen und Benutzer in dieser Verteilerliste als Mitglieder zu Chatrooms in dieser Kategorie hinzugefügt werden. Mit der Creators-Eigenschaft können Sie steuern, wer Chatrooms in dieser Kategorie erstellen kann. Nachdem der Chatroom erstellt wurde, kann jeder aus der Gruppe "AllowedMembers" als Manager für laufende Verwaltungsvorgänge in den Chatrooms festgelegt werden (z. B. Mitgliedschaftsänderungen und Genehmigung).
   
 Das Definieren von AllowedMembers und Creators für eine Kategorie hat folgende Vorteile:
   
@@ -34,14 +34,14 @@ Das Definieren von AllowedMembers und Creators für eine Kategorie hat folgende 
     
 - Ein Benutzer, der in der Liste Creators vorhanden ist, kann in der Kategorie neue Chatrooms erstellen. Wenn Sie ein System implementieren möchten, in dem eine eingeschränkte Anzahl von Mitarbeitern in der Organisation Chatrooms erstellen kann, kann dieses Steuerelement verwendet werden, um diese Anforderungen zu erfüllen. 
     
-Benutzer, Organisationseinheiten (OUs) und Benutzergruppen, die als Ersteller der Kategorie identifiziert werden, sind die einzigen Personen und Gruppen, die Räume in der Kategorie erstellen dürfen. Nachdem die Kategorie erstellt wurde, können Sie Benutzer, Organisationseinheiten und Benutzergruppen aus der Liste der zugelassenen Mitglieder der Kategorie als Chatroommanager und Mitglieder auswählen, um den Chatroom zu verwalten und daran teilzunehmen. 
+Benutzer, Organisationseinheiten (OUs) und Benutzergruppen, die als Ersteller der Kategorie identifiziert werden, sind die einzigen Personen und Gruppen, die Räume in der Kategorie erstellen dürfen. Nachdem die Kategorie erstellt wurde, können Sie Benutzer, Organisationseinheiten und Benutzergruppen aus der Liste "Zugelassene Mitglieder" der Kategorie als Chatroommanager und Mitglieder auswählen, um den Chatroom zu verwalten und daran teilzunehmen. 
   
-Bevor Sie Kategorien konfigurieren, müssen Sie die [Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)lesen.
+Bevor Sie Kategorien konfigurieren, lesen Sie in [Skype for Business Server 2015 unbedingt Kategorien für beständigen Chat, Chatrooms und Benutzerrollen.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
   
 Sie können Kategorien mithilfe der Systemsteuerung oder mit Windows PowerShell Cmdlets konfigurieren und verwalten.
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Konfigurieren von Kategorien mithilfe der Systemsteuerung
 
@@ -63,11 +63,11 @@ Sie können Kategorien mithilfe der Systemsteuerung oder mit Windows PowerShell 
     
    - Geben Sie unter **Beschreibung** eine ausführliche Beschreibung der Chatroomkategorie an (z. B. eine Chatroomkategorie für Contoso).
     
-   - Um zu steuern, ob Einladungen für Chatrooms aktiviert werden können, die zu dieser Kategorie gehören, aktivieren oder deaktivieren Sie das Kontrollkästchen **Einladungen aktivieren.** Wenn diese Option ausgewählt ist, können Für Räume in dieser Kategorie Einladungen aktiviert oder deaktiviert werden. wenn dies deaktiviert ist, dürfen die Räume in dieser Kategorie keine Einladungen haben. Wenn ein Raum Einladungen eingeht und ein neues Mitglied zu einem Raum hinzugefügt wird, erhält er eine Benachrichtigung über den neuen Chatroom in ihrem Client für beständigen Chat.
+   - Um zu steuern, ob Einladungen für Chatrooms aktiviert werden können, die zu dieser Kategorie gehören, aktivieren oder deaktivieren Sie das Kontrollkästchen **Einladungen aktivieren.** Wenn diese Option ausgewählt ist, können Für Räume in dieser Kategorie Einladungen aktiviert oder deaktiviert sein. wenn dies deaktiviert ist, dürfen die Räume in dieser Kategorie keine Einladungen haben. Wenn ein Raum Einladungen eingeht und ein neues Mitglied zu einem Raum hinzugefügt wird, erhält er eine Benachrichtigung über den neuen Chatroom in ihrem Client für beständigen Chat.
     
    - Um Dateiuploads in Chatrooms dieser Kategorie zu steuern, aktivieren bzw. deaktivieren Sie das Kontrollkästchen **Dateiupload aktivieren**. Ist diese Option aktiviert, können für die Chatrooms dieser Kategorie Dateiuploads aktiviert und deaktiviert werden. Ist die Option deaktiviert, sind Dateiuploads für die Chatrooms dieser Kategorie nicht zulässig.
     
-   - Aktivieren oder deaktivieren Sie das Kontrollkästchen **Chatverlauf aktivieren** oder deaktivieren, um den Chatverlauf zu steuern. Wenn diese Option ausgewählt ist, werden Chatrooms beständig. andernfalls werden Chatnachrichten nicht beibehalten. Wenn die Kompatibilität aktiviert ist, werden Chatrooms in Der Compliance gespeichert, aber die Benutzer können nicht auf ältere Nachrichten zugreifen. Diese Option kann für Chatrooms verwendet werden, die für Ad-hoc-Zusammenarbeiten in Echtzeit vorgesehen sind, für die kein Chatverlauf beibehalten werden muss.
+   - Aktivieren oder deaktivieren Sie das Kontrollkästchen **Chatverlauf aktivieren** oder deaktivieren, um den Chatverlauf zu steuern. Wenn diese Option ausgewählt ist, werden Chatrooms beständig. andernfalls werden Chatnachrichten nicht beibehalten. Wenn die Kompatibilität aktiviert ist, werden Chatrooms in Compliance gespeichert, aber die Benutzer können nicht auf ältere Nachrichten zugreifen. Diese Option kann für Chatrooms verwendet werden, die für Ad-hoc-Zusammenarbeiten in Echtzeit vorgesehen sind, für die kein Chatverlauf beibehalten werden muss.
     
 7. Führen Sie unter **Kategorie bearbeiten** die folgenden Schritte aus:
     
@@ -75,7 +75,7 @@ Sie können Kategorien mithilfe der Systemsteuerung oder mit Windows PowerShell 
     
    - Fügen Sie in **"Mitgliedschaft"** im Abschnitt **"Abgelehnte Mitglieder"** Benutzer und andere Active Directory-Prinzipale hinzu, die Mitgliedern zugeordnet sind, denen aus dem Raum verweigert wird, oder entfernen Sie sie.
     
-   - Fügen Sie in **"Mitgliedschaft"** im Abschnitt **"Ersteller"** Benutzer und andere Active Directory-Prinzipale hinzu, die den Erstellern für die Kategorie zugeordnet sind, oder entfernen Sie sie. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
+   - Fügen Sie in **"Mitgliedschaft"** im Abschnitt **"Ersteller"** Benutzer und andere Active Directory-Prinzipale hinzu, die erstellern für die Kategorie zugeordnet sind, oder entfernen Sie sie. Ein Ersteller ist ein Benutzer, der Berechtigungen zum Erstellen von Chatrooms und zum Zuweisen von Chatroom-Managern und -mitgliedern besitzt.
     
 8. Klicken Sie auf **Commit ausführen**.
     
@@ -109,7 +109,7 @@ Vollständige Informationen zur Cmdlet-Syntax, einschließlich aller Parameter, 
   
 ### <a name="create-a-new-category"></a>Erstellen einer neuen Kategorie
 
-Mit dem Cmdlet **"New-CsPersistentChatCategory"** können Sie eine neue Kategorie erstellen. Der folgende Befehl erstellt beispielsweise eine neue Kategorie namens HelpDesk im Pool atl-cs-001.contoso.com. In diesem Beispiel ist der Dateiupload aktiviert:
+Mit dem Cmdlet **"New-CsPersistentChatCategory"** können Sie eine neue Kategorie erstellen. Mit dem folgenden Befehl wird beispielsweise eine neue Kategorie namens "HelpDesk" im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel ist der Dateiupload aktiviert:
   
 ```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 

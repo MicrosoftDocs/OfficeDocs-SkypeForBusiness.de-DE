@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen der Überwachung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 244df419-d0a8-4b1d-aedd-a92114172ab6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Überwachung in Skype for Business Server bereitstellen.'
-ms.openlocfilehash: c05cddb344f97b066d8d6ea0121cb5942c59d131
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cbb5fe0974e1b02ce5be472ba91d01221fb7df82
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604214"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764843"
 ---
 # <a name="deploy-monitoring-in-skype-for-business-server"></a>Bereitstellen der Überwachung in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie die Überwachung in Skype for Business Server bereitstellen.
 
-Bevor Sie diese Aufgaben ausführen, überprüfen [Sie den Plan für die Überwachung in Skype for Business Server.](../../plan-your-deployment/monitoring.md)
+Bevor Sie diese Aufgaben ausführen, überprüfen Sie den [Plan für die Überwachung in Skype for Business Server.](../../plan-your-deployment/monitoring.md)
 
 In der Regel implementieren Sie Überwachungsdienste in Ihrer Topologie, indem Sie die folgenden beiden Schritte ausführen:
 
@@ -36,16 +36,16 @@ Obwohl es oft einfacher ist, die Überwachung gleichzeitig mit der Erstellung ei
 > [!NOTE]
 > Wenn die Überwachung für einen Pool aktiviert wurde, können Sie den Prozess der Erfassung von Überwachungsdaten deaktivieren, ohne ihre Topologie ändern zu müssen: Skype for Business Server bietet Ihnen die Möglichkeit, die Aufzeichnung von Kommunikationsdatensätzen (KDS) oder QoE-Daten (Quality of Experience) zu deaktivieren (und später erneut zu aktivieren). Weitere Informationen finden Sie in diesem Dokument im Abschnitt "Konfigurieren von KDS (Aufzeichnung von Kommunikationsdatensätzen) und QoE (Quality of Experience)-Einstellungen".
 
-Eine weitere wichtige Verbesserung der Überwachung in Skype for Business Server ist die Tatsache, dass Skype for Business Server Überwachungsberichte jetzt IPv6 unterstützen: Berichte, die das IP-Adressfeld verwenden, zeigen IPv4- oder IPv6-Adressen abhängig von: 1) die verwendete SQL Abfrage an. und, 2) wobei die IPv6-Adresse in der Überwachungsdatenbank gespeichert ist.
+Eine weitere wichtige Verbesserung der Überwachung in Skype for Business Server ist die Tatsache, dass Skype for Business Server Überwachungsberichte jetzt IPv6 unterstützen: Berichte, die das FELD "IP-Adresse" verwenden, zeigen IPv4- oder IPv6-Adressen abhängig von : 1) die verwendete SQL Abfrage an. und, 2) wobei die IPv6-Adresse in der Überwachungsdatenbank gespeichert ist.
 
 > [!NOTE]
-> Stellen Sie sicher, dass der SQL Server Agent-Dienst-Starttyp automatisch ist und der SQL Server Agent-Dienst für die SQL Instanz ausgeführt wird, die die Überwachungsdatenbanken aufweist, damit die Standardmäßige Überwachung SQL Server Wartungsaufträge auf ihrer geplanten Basis unter der Kontrolle des SQL Server Agent-Diensts ausgeführt werden kann.
+> Stellen Sie sicher, dass der SQL Server Agent-Dienst-Starttyp automatisch ist und der SQL Server Agent-Dienst für die SQL Instanz ausgeführt wird, die die Überwachungsdatenbanken speichert, damit die Standardmäßige Überwachung SQL Server Wartungsaufträge unter der Kontrolle des SQL Server Agent-Diensts auf der geplanten Basis ausgeführt werden kann.
 
 Diese Dokumentation führt Sie durch den Prozess der Installation und Konfiguration von Überwachungs- und Überwachungsberichten für Skype for Business Server. Die Dokumentation enthält Schritt-für-Schritt-Anleitungen für Folgendes:
 
 - Aktivieren der Überwachung in Ihrer Topologie und Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool.
 
-- Installieren Sie SQL Server Reporting Services und die Skype for Business Server-Überwachungsberichte. Überwachungsberichte sind vorkonfigurierte Berichte, die verschiedene Einsichten in die in einer Überwachungsdatenbank gespeicherten Informationen bieten.
+- Installieren Sie SQL Server Reporting Services und die Skype for Business Server Überwachungsberichte. Überwachungsberichte sind vorkonfigurierte Berichte, die verschiedene Einsichten in die in einer Überwachungsdatenbank gespeicherten Informationen bieten.
 
 - Konfigurieren sie die Datensammlung für die Aufzeichnung von Kommunikationsdatensätzen (KDS) und QoE (Quality of Experience). Die Aufzeichnung von Kommunikationsdatensätzen bietet Ihnen die Möglichkeit, die Nutzung von Skype for Business Server Funktionen wie VoIP-Telefonanrufen (Voice over IP) nachzuverfolgen. Chatnachrichten; Dateiübertragungen; Audio-/Videokonferenzen (A/V); und Anwendungsfreigabesitzungen. QoE-Metriken dienen der Überwachung der Qualität von Audio- und Videoanrufen in Ihrer Organisation, z. B. der Anzahl der verloren gegangenen Netzwerkpakete, von Hintergrundgeräuschen und der Unterschiede bei Paketverzögerung (Jitter).
 
@@ -65,7 +65,7 @@ Obwohl die Überwachung bereits auf jedem Front-End-Server installiert und aktiv
 
 Obwohl die einheitlichen Datensammlungs-Agents automatisch auf jedem Front-End-Server installiert und aktiviert werden, bedeutet dies nicht, dass Sie automatisch mit der Erfassung von Überwachungsdaten beginnen, sobald Sie die Installation Skype for Business Server abgeschlossen haben. Stattdessen müssen Sie zwei Dinge tun: Sie müssen Ihre Front-End-Server/Front-End-Pools einer Überwachungsdatenbank zuordnen, und Sie müssen die KDS-Überwachung (Call Detail Recording) und/oder QoE-Überwachung (Quality of Experience) auf globaler Ebene und/oder auf Standortebene aktivieren.
 
-Schrittweise Anleitungen zum Zuordnen von Front-End-Servern oder Front-End-Pools zu einer Überwachungsdatenbank finden Sie im Thema ["Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server"](associate-a-monitoring-store.md) im Bereitstellungshandbuch. Nachdem diese Zuordnungen vorgenommen wurden und ihre neue Skype for Business Server Topologie veröffentlicht wurde, können Sie weiterhin keine Überwachungsdaten sammeln. Der Grund dafür ist, dass die KDS- und QoE-Datensammlung standardmäßig deaktiviert ist, wenn Sie Skype for Business Server installieren.
+Schrittweise Anleitungen zum Zuordnen von Front-End-Servern oder Front-End-Pools zu einer Überwachungsdatenbank finden Sie im Thema ["Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server"](associate-a-monitoring-store.md) im Bereitstellungshandbuch. Nachdem diese Zuordnungen vorgenommen wurden und ihre neue Skype for Business Server Topologie veröffentlicht wurde, können Sie weiterhin keine Überwachungsdaten sammeln. Der Grund dafür ist, dass bei der Installation von Skype for Business Server standardmäßig sowohl die KDS- als auch die QoE-Datensammlung deaktiviert ist.
 
 Um mit der Datensammlung zu beginnen, müssen Sie die KDS- und/oder QoE-Überwachung aktivieren. (Beachten Sie, dass Sie nicht sowohl die KDS- als auch die QoE-Überwachung aktivieren müssen. Wenn Sie möchten, können Sie einen Überwachungstyp aktivieren, während der andere Typ deaktiviert bleibt.) Führen Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell aus, um die KDS-Überwachung auf globaler Ebene zu aktivieren:
 
@@ -81,7 +81,7 @@ Alternativ können Sie die KDS-Überwachung in der Skype for Business Server Sys
 
 3. Wählen Sie im Bereich **Einstellung für die Aufzeichnung von Kommunikationsdatensätzen (KDS) bearbeiten** die Option **KDS-Überwachung aktivieren** aus, und klicken Sie auf **Commit**.
 
-Um die QoE-Überwachung auf globaler Ebene zu aktivieren, führen Sie diesen Befehl in der Skype for Business Server-Verwaltungsshell aus:
+Um die QoE-Überwachung auf globaler Ebene zu aktivieren, führen Sie diesen Befehl in der Skype for Business Server Verwaltungsshell aus:
 
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $True
@@ -97,6 +97,6 @@ Wenn Sie möchten, können Sie die QoE-Überwachung auch in der Skype for Busine
 
 Wie bereits erwähnt, ermöglichen die vorherigen Beispiele die Überwachung auf globaler Ebene. d. h., sie ermöglichen die KDS- und QoE-Überwachung in Ihrer gesamten Organisation. Alternativ können Sie separate KDS- und QoE-Konfigurationseinstellungen auf Standortebene erstellen und dann die Überwachung für jeden Standort selektiv aktivieren oder deaktivieren. Sie können z. B. die KDS-Überwachung für Ihren Standort Redmond aktivieren, die KDS-Überwachung für Ihren Standort Dublin jedoch deaktivieren. Weitere Informationen zum Verwalten ihrer Überwachungskonfigurationseinstellungen finden Sie im Bereitstellungshandbuch zum Konfigurieren der Einstellungen für [die Aufzeichnung von Kommunikationsdatensätzen und der QoE-Erfahrung in Skype for Business Server.](call-detail-recording-and-qoe.md)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Planen der Überwachung in Skype for Business Server](../../plan-your-deployment/monitoring.md)

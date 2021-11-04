@@ -1,7 +1,7 @@
 ---
 title: ErrorReport-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ae0287b4-e8ca-4f8c-84ef-502897dcaa2a
 description: In der ErrorReport-Tabelle werden Informationen zu aufgetretenen Fehlern gespeichert. Jeder Datensatz ist ein Fehler. Die Fehler werden entweder vom KDS-Agent erfasst, der auf dem Front-End-Server ausgeführt wird, oder vom Client gesendet.
-ms.openlocfilehash: d2fccd6f1f99884e9d4412cb9814f24d581248a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd74743ed0b9dcd2fb9bb4cfa651f840528cb58c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745771"
 ---
 # <a name="errorreport-table-in-skype-for-business-server-2015"></a>ErrorReport-Tabelle in Skype for Business Server 2015
  
@@ -35,7 +35,7 @@ In der ErrorReport-Tabelle werden Informationen zu aufgetretenen Fehlern gespeic
 |**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Ausländisch  <br/> |Wird zusammen mit **SessionIdSeq** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |Ausländisch  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit **SessionIdTime** verwendet, um eine Sitzung eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
 |**SourceId** <br/> |int  <br/> |Ausländisch  <br/> |Server, der den Fehlerbericht gesendet hat (wenn der Bericht von einer Serverkomponente gesendet wird). Weitere Informationen finden Sie in der [Tabelle "Server".](servers.md) <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**Applicationid** <br/> |int  <br/> |Ausländisch  <br/> |Server, der den Fehlerbericht gesendet hat (wenn der Bericht von einer Serverkomponente gesendet wird). Weitere Informationen finden Sie in der [Application-Tabelle in Skype for Business Server 2015.](application.md) <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**ApplicationId** <br/> |int  <br/> |Ausländisch  <br/> |Server, der den Fehlerbericht gesendet hat (wenn der Bericht von einer Serverkomponente gesendet wird). Weitere Informationen finden Sie in der [Application-Tabelle in Skype for Business Server 2015.](application.md) <br/> Dieses Feld wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**MsDiagHeader** <br/> |Abbildung  <br/> | <br/> |Weitere Informationen zu dem Fehler.  <br/> Diese Daten können mithilfe der folgenden Syntax in das Textformat konvertiert werden:  <br/>  `cast(cast(Detail as varbinary(max)) as varchar(max))` <br/> |
 |**ClientVersionId** <br/> |int  <br/> |Ausländisch  <br/> |Die Clientversion des Endpunkts, der den Fehlerbericht sendet. Weitere Informationen finden Sie in der [Tabelle "ClientVersions" in Skype for Business Server 2015.](clientversions.md) <br/> |
 |**IsCapturedByServer** <br/> |Bit  <br/> ||Ist der Fehlerbericht, der vom KDS-Agent erfasst wird, der auf dem Front-End-Server ausgeführt oder vom Client gesendet wird.  <br/> |

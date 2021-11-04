@@ -1,6 +1,6 @@
 ---
 title: Mindestnetzwerkanforderungen für die Skype-Besprechungs-App
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9666787-e72b-41e1-ba37-aec5fb849a10
 description: 'Zusammenfassung: Informationen für Organisationen, die keine Microsoft 365 oder Office 365 verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun.'
-ms.openlocfilehash: 29b9103d741440a480be27e9d4268d6cc8d94c47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d27e578e448c44cd13190d4aedf1e15f611d997
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615611"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751574"
 ---
 # <a name="skype-meetings-app-minimum-network-requirements"></a>Mindestnetzwerkanforderungen für die Skype-Besprechungs-App
  
-**Zusammenfassung:**  Informationen für Organisationen, die keine Microsoft 365 oder Office 365 verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun. Dieser Artikel richtet sich nicht an die Benutzer dieser Apps.
+**Zusammenfassung:**  Informationen für Organisationen, die Microsoft 365 oder Office 365 nicht verwenden und auf Besprechungen zugreifen müssen, die von Organisationen gehostet werden, die dies tun. Dieser Artikel richtet sich nicht an die Benutzer dieser Apps.
   
-Damit Benutzer Skype Besprechungs-App verwenden können, um an Besprechungen teilzunehmen, die in Skype for Business Online gehostet werden, sollten Netzwerkadministratoren von Organisationen, die Microsoft 365 oder Office 365 verwenden, die unten genannten FQDNs, IPs und Ports zulassen oder anderweitig zur Verfügung stellen.
+Damit Benutzer Skype Besprechungs-App verwenden können, um an Besprechungen teilzunehmen, die in Skype for Business Online gehostet werden, sollten Netzwerkadministratoren von Organisationen, die Microsoft 365 oder Office 365 nicht verwenden, die unten genannten FQDNs, IPs und Ports zulassen oder anderweitig zur Verfügung stellen.
 
 ## <a name="requirements-for-skype-meetings-app-connectivity"></a>Anforderungen für Skype Besprechungs-App-Konnektivität
 

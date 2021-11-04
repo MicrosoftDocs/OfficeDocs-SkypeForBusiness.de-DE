@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer neuen PIN-Richtlinie in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Zusammenfassung: Erstellen einer neuen PIN-Richtlinie in Skype for Business Server.'
-ms.openlocfilehash: 2b777cbf3f130222cda40811e0bb310cf895c79e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24d131792fdc7ae90a8799f231dd94a3e854c576
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583949"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751784"
 ---
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Erstellen einer neuen PIN-Richtlinie in Skype for Business Server
  
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- ode
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>So erstellen Sie eine PIN-Richtlinie auf Benutzer- oder Standortebene
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     

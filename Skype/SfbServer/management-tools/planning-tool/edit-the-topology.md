@@ -1,7 +1,7 @@
 ---
 title: Bearbeiten der Topologie in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 47425ab1-5645-4d6f-b202-64bcce43e3ef
 description: Nach Abschluss der anfänglichen Fragen können Sie den vollqualifizierten Domänennamen (FQDN) und die IP-Adressen für die Website bearbeiten. Doppelklicken Sie hierzu auf der Seite Globale Topologie auf den Standort, den Sie bearbeiten möchten.
-ms.openlocfilehash: 75eadc6234c9ac6e4e8a869df2da4d246b60f9ed
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 2276f2959329c77744054976e3a49f5ad72778ae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732324"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776165"
 ---
 # <a name="edit-the-topology-in-skype-for-business-server-2015"></a>Bearbeiten der Topologie in Skype for Business Server 2015
 
@@ -31,13 +31,13 @@ Das Planungstool zeigt die Standorttopologie für den ausgewählten Standort an.
 
 - Standorttopologie – Die aktuell angezeigte Seite mit einer visuellen Übersicht über die Topologie, wie empfohlen.
 
-- Edge-Netzwerkdiagramm – Auf der Seite "Edge-Netzwerkdiagramm" übernimmt der Designer die meiste Arbeit im Planungstool. Das Diagramm zeigt die Netzwerkkonfiguration für eine empfohlene Skype for Business Server 2015-Topologie mit bearbeitbaren Einträgen für IP-Adressen und FQDNs für Server, Pools sowie Hardware- und DNS-Lastenausgleichsmodule (Domain Name System).
+- Edge-Netzwerkdiagramm – Auf der Seite "Edge-Netzwerkdiagramm" übernimmt der Designer die meiste Arbeit im Planungstool. Das Diagramm zeigt die Netzwerkkonfiguration für eine empfohlene Skype for Business Server 2015-Topologie mit bearbeitbaren Einträgen für IP-Adressen und FQDNs für Server, Pool und Hardware- und DNS-Lastenausgleich (Domain Name System).
 
 - Edge-Administratorbericht – Der Edge-Administratorbericht enthält insgesamt vier Berichte:
 
      ![Seite "Edge-Administratorbericht".](../../media/Planning_Tool_Summary_Report.png)
 
-  - Zusammenfassungsbericht – Ein allgemeiner Bericht mit Einstellungen für die Edgenetzwerkkonfiguration. Wenn Sie die Werte auf der Seite **"Edge-Netzwerkdiagramm"** auf die Tcp/IP- und FQDN-Werte der Topologie bearbeiten, die in der tatsächlichen Bereitstellung verwendet werden, werden diese Adressen und Namen hier dargestellt. Andernfalls wird der Standardtext angezeigt.
+  - Zusammenfassungsbericht – Ein allgemeiner Bericht mit Einstellungen für die Edgenetzwerkkonfiguration. Wenn Sie die Werte auf der Seite **"Edge-Netzwerkdiagramm"** auf die TCP/IP- und FQDN-Werte der Topologie ändern, die in der tatsächlichen Bereitstellung verwendet werden, werden diese Adressen und Namen hier dargestellt. Andernfalls wird der Standardtext angezeigt.
 
   - Zertifikatbericht : Der Zertifikatbericht listet den Antragstellernamen und alternative Antragstellernamen für die Zertifikate auf, die für die Topologie erforderlich sind.
 
@@ -53,7 +53,7 @@ Das Planungstool zeigt die Standorttopologie für den ausgewählten Standort an.
 ## <a name="edit-the-network-configuration-diagram"></a>Bearbeiten des Netzwerkkonfigurationsdiagramms
 <a name="Edit_Network_diagram"> </a>
 
-Der Großteil der Arbeit, die ein Designer im Skype for Business Server 2015-Planungstool ausführt, besteht darin, die Einträge für die IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für die Einträge im Netzwerkdiagramm zu definieren. Die informationen, die auf dieser Seite eingegeben werden, werden in die Berichte und andere Informationen im Planungstool übernommen.
+Der Großteil der Arbeit eines Designers im Skype for Business Server 2015-Planungstool besteht darin, die Einträge für die IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für die Einträge im Netzwerkdiagramm zu definieren. Die informationen, die auf dieser Seite eingegeben werden, werden in die Berichte und andere Informationen im Planungstool übernommen.
 
 ![Planungstools-Netzwerkdiagramm.](../../media/Planning_Tool_Network_Diagram.png)
 
@@ -71,7 +71,7 @@ Eine nützliche Funktion des Planungstools ist die, dass ein Bereich von IP-Adre
 
 1. Doppelklicken Sie auf die Front-End-Server im Pool. Wählen Sie im nun geöffneten Dialogfeld die Option **Möchten Sie IP-Adressen und FQDN als Startpunkte für alle äquivalenten Server im Cluster verwenden?**.
 
-2. Der Startwert für den ersten Server lautet beispielsweise fe0101.contoso.com und die IP-Adresse 192.168.21.122.
+2. Beispielsweise ist der Startwert für den ersten Server fe0101.contoso.com und die IP-Adresse 192.168.21.122.
 
 3. Geben Sie fe0.contoso.com im **Front-End-Server-FQDN** ein, geben Sie 192.168.21.131 in der **IP-Adresse des Front-End-Servers** ein, und klicken Sie dann auf **OK.**
 

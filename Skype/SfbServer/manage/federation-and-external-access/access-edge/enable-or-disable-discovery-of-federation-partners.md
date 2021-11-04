@@ -5,7 +5,7 @@ ms:assetid: 91fd036b-b1af-47cf-b1cf-0aa0a783c2aa
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182550(v=OCS.15)
 ms:contentKeyID: 48184857
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Nachdem Sie Ihre Edgeserver bereitgestellt und den Partnerverbund für Ihre Organisation aktiviert haben, sollten Sie festlegen, ob die automatische Suche von Verbundpartnerdomänen unterstützt werden soll.
-ms.openlocfilehash: c2263691e67b819a510087bde6fbd4f5b757e946
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 754c3fdb86e29a08a0437b3ed2461b580859da14
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614095"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766553"
 ---
 # <a name="enable-or-disable-discovery-of-federation-partners-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern in Skype for Business Server
 
@@ -43,12 +43,12 @@ Nachdem Sie Ihre Edgeserver bereitgestellt und den Partnerverbund für Ihre Orga
 
 6.  Klicken Sie auf **Commit**.
 
-Damit Verbundbenutzer mit Benutzern in Ihrer Skype for Business Server Bereitstellung zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfiguriert haben, um den Zugriff durch Verbundbenutzer zu unterstützen. Ausführliche Informationen finden Sie unter Aktivieren oder Deaktivieren des [Partnerverbunds und der Verbindung mit öffentlichen Chatdiensten.](enable-or-disable-federation-and-public-im-connectivity.md) Ausführliche Informationen zum Steuern des Zugriffs für bestimmte Verbunddomänen finden Sie unter [Verwalten von SIP-Partnerverbunddomänen](../sip-domains/manage-sip-federated-domains-for-your-organization.md) und [Verwalten von SIP-Partnerverbundanbietern.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
+Damit Verbundbenutzer mit Benutzern in Ihrer Skype for Business Server Bereitstellung zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfiguriert haben, um den Zugriff von Verbundbenutzern zu unterstützen. Ausführliche Informationen finden Sie unter Aktivieren oder Deaktivieren des [Partnerverbunds und der Verbindung mit öffentlichen Chatdiensten.](enable-or-disable-federation-and-public-im-connectivity.md) Ausführliche Informationen zum Steuern des Zugriffs für bestimmte Verbunddomänen finden Sie unter [Verwalten von SIP-Partnerverbunddomänen](../sip-domains/manage-sip-federated-domains-for-your-organization.md) und [Verwalten von SIP-Partnerverbundanbietern.](../sip-providers/manage-sip-federated-providers-for-your-organization.md)
 
 
 ## <a name="enabling-or-disabling-discovery-of-federation-partners-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern mithilfe Windows PowerShell Cmdlets
 
-Die Ermittlung von Verbundpartnern kann mithilfe von Windows PowerShell und dem cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Die Ermittlung von Verbundpartnern kann mithilfe von Windows PowerShell und dem cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 
 ## <a name="to-enable-discovery-of-federation-partners"></a>So aktivieren Sie die Ermittlung von Verbundpartnern

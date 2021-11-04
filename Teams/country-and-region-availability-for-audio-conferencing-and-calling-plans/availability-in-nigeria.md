@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Nigeria
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams nigerian.
-ms.openlocfilehash: 77622c915cc616d94ff5f8624177a9d01101bc3b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Nigeria.
+ms.openlocfilehash: d88d602fba36803cf9b3ef7972c6fb90fe04516d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605934"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745661"
 ---
 # <a name="availability-in-nigeria"></a>Verfügbarkeit in Nigeria
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams nigerian.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Nigeria.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

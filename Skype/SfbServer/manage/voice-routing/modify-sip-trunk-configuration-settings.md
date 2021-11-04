@@ -1,7 +1,7 @@
 ---
 title: Skype for Business ServerModify-SIP-Trunkkonfigurationseinstellungen
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'SIP-Trunkkonfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem Telefonnetzwerkgateway, einer IP-Nebenstellenanlage (Public Branch Exchange, PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. '
-ms.openlocfilehash: dbc7dec8af1f27769505b39b5cd2778f66dec0a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ebec5a350dc46a4deb85546e885429ff72737cb2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582729"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751724"
 ---
 # <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business ServerModify-SIP-Trunkkonfigurationseinstellungen
 
@@ -26,7 +26,7 @@ Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktione
 - Die Bedingungen, unter denen RTCP-Pakete (Real-Time Transport Control-Protokoll) gesendet werden.
 - Ob für jeden Trunk die SRTP-Verschlüsselung (Secure Real-Time-Protokoll) erforderlich ist.
 
-Wenn Sie Skype for Business Server installieren, wird eine globale Sammlung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Jede dieser Auflistungen kann später entweder über die Skype for Business Server Systemsteuerung oder Windows PowerShell geändert werden.
+Wenn Sie Skype for Business Server installieren, wird eine globale Auflistung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst). Jede dieser Auflistungen kann später entweder über die Skype for Business Server Systemsteuerung oder Windows PowerShell geändert werden.
 
 Beim Ändern der SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Server-Systemsteuerung stehen Ihnen die folgenden Optionen zur Verfügung:
 
@@ -44,16 +44,16 @@ Beim Ändern der SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Bus
 |Weiterleiten von P-Asserted-Identity-Daten aktivieren|ForwardPAI|Gibt an, ob der PAI-Header (P-Asserted-Identity) zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen.|
 |Timer für Ausgangsroutingfailover aktivieren|EnableFastFailoverTimer|Gibt an, ob ausgehende Anrufe, die vom Gateway nicht innerhalb von 10 Sekunden beantwortet werden, an den nächsten verfügbaren Trunk weitergeleitet werden. Wenn keine weiteren Trunks verfügbar sind, wird der Anruf automatisch beendet. In einer Organisation mit langsamen Netzwerk- und Gateway-Reaktionen könnte dies dazu führen, dass Anrufe unnötigerweise beendet werden.|
 |Zugeordnete PSTN-Verwendungen|PSTNUsages|Eine Sammlung von dem Trunk zugewiesenen PSTN-Verwendungen.|
-|Übersetzte Nummer zum Testen|Nicht zutreffend|Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.|
+|Übersetzte Nummer zum Testen|–|Eine Telefonnummer, die für Ad-hoc-Tests der Trunkkonfigurationseinstellungen verwendet werden kann.|
 |Zugehörige Übersetzungsregeln|OutboundTranslationRulesList|Sammlung an Regeln für die Telefonnummernübersetzung für Anrufe, die per Ausgangsrouting verarbeitet werden (Anrufe, die an Ziele in Nebenstellenanlagen oder im Telefonfestnetz weitergeleitet werden).|
 |Übersetzungsregeln für angerufene Nummern|OutboundCallingNumberTranslationRulesList|Sammlung an Regeln für die Nummernübersetzung für ausgehende Anrufe, die dem Trunk zugewiesen sind.|
-|Testtelefonnummer|Nicht zutreffend|Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.|
-|Anrufende Nummer|Nicht zutreffend|Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.|
-|Angerufene Nummer|Nicht zutreffend|Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.|
+|Testtelefonnummer|–|Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.|
+|Anrufende Nummer|–|Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.|
+|Angerufene Nummer|–|Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.|
 |||
 
 > [!Note]
-> Die Skype for Business Server CsTrunkConfiguration-Cmdlets unterstützen zusätzliche Eigenschaften, die nicht in der Skype for Business Server Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsTrunkConfiguration".](/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Die cmdlets Skype for Business Server CsTrunkConfiguration unterstützen zusätzliche Eigenschaften, die nicht in der Skype for Business Server Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsTrunkConfiguration".](/powershell/module/skype/Set-CsTrunkConfiguration) 
 
 **So ändern Sie die SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Systemsteuerung**
 

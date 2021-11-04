@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Einführungsphase 3 – Skalieren
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier finden Sie eine Übersicht über die Schritte, die Sie zur Unterstützung der breitgefächerten Aktivierung ihrer Teams Organisation benötigen.
+description: Hier finden Sie eine Übersicht über die Schritte, die Sie zur Unterstützung der breitgefächerten Aktivierung von Teams Organisation benötigen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86de4726585f067235c578353a30e0f5ad86574d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: acf0e51436aaad905c1713af7f6131be08b9e704
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733724"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745451"
 ---
 # <a name="microsoft-teams-adoption-phase-3---scale"></a>Microsoft Teams-Einführungsphase 3 – Skalieren
 

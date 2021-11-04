@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server Featureübersicht –Planungstool
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -15,13 +15,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Informationen zum Planungstool für die Skype for Business Server Featureübersicht.
-ms.openlocfilehash: 74436290cfade5993a466b1e444d81a256e5882e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Informationen zum Planungstool Skype for Business Server Featureübersicht.
+ms.openlocfilehash: 44926f016a9b9aabe9981ec66f32638b3a958da6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618871"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744401"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server Featureübersicht –Planungstool
  
@@ -39,7 +39,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gefüllt, die Sie im **assistenten Erste Schritte** gestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Sie auf die im **Assistenten Erste Schritte** gestellten Fragen bereitgestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -127,7 +127,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **IPv4**
     
-    IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte zur Verwendung von IPv6-Adressen umgezogen.
+    IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte auf die Verwendung von IPv6-Adressen umgezogen.
     
 - **IPv6**
     
@@ -159,7 +159,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stummgeschaltet sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder unveränderlich sind.
     
 - **Anrufsteuerung**
     

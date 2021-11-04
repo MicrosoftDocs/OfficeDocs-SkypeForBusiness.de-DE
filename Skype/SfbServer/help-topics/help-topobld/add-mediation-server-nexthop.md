@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen von Vermittlungsservern – NextHop
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ede4123a-b863-4c53-916b-edf776948dd7
-description: Um den nächsten Hop für einen Vermittlungsserver zu definieren, den Sie definieren, wählen Sie in der Dropdownliste "Nächster Hoppool" den Enterprise Edition server oder Standard Edition-Server aus, der als nächster Hop für den Vermittlungsserver fungiert. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 7ee0b5fc0ed76e00c65eb264c380d3032f4e1e27
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Um den nächsten Hop für einen Vermittlungsserver zu definieren, den Sie definieren, wählen Sie in der Dropdownliste "Nächster Hoppool" den Enterprise Edition-Server oder Standard Edition-Server aus, der als nächster Hop für den Vermittlungsserver fungiert. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
+ms.openlocfilehash: a26506fb2fe065fe18ff9517ae144e57c27e4ca8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615781"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776215"
 ---
 # <a name="add-mediation-server-nexthop"></a>Hinzufügen eines Vermittlungsservers – NextHop
  

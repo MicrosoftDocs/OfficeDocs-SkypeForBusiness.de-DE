@@ -1,7 +1,7 @@
 ---
 title: Integration zwischen Skype for Business Online und Exchange Server
 ms.reviewer: cbland
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/2/2019
@@ -13,13 +13,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
-description: Das Konfigurieren der OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online ermöglicht die in der Featureunterstützung beschriebenen integrationsfeatures Skype for Business und Exchange.
-ms.openlocfilehash: 8adb5209a00d1b42dc57f9de8635ade40966f9f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Das Konfigurieren der OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online ermöglicht die in der Featureunterstützung beschriebenen Skype for Business- und Exchange Integrationsfeatures.
+ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621777"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764773"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren der Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
@@ -35,7 +35,7 @@ Dieses Thema bezieht sich auf die Integration in Exchange Server 2013 bis 2019.
 
 - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Informationen zur Kompatibilität finden Sie unter [Skype for Business Kompatibilität mit Office Apps.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
+- Informationen zur Kompatibilität finden Sie unter [Skype for Business Kompatibilität mit Office-Apps.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Konfigurieren der Integration zwischen Exchange Server und O365
 
@@ -47,7 +47,7 @@ Führen Sie die Schritte im folgenden Artikel aus:
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 2: Erstellen eines neuen E-Mail-Benutzerkontos für die Skype for Business Online-Partneranwendung
 
-Dieser Schritt wird auf dem Exchange Server ausgeführt. Er erstellt einen E-Mail-Benutzer und weist ihm die entsprechenden Verwaltungsrollenrechte zu. Dieses Konto wird dann im nächsten Schritt verwendet.
+Dieser Schritt erfolgt auf dem Exchange Server. Er erstellt einen E-Mail-Benutzer und weist ihm die entsprechenden Verwaltungsrollenrechte zu. Dieses Konto wird dann im nächsten Schritt verwendet.
 
 Geben Sie eine überprüfte Domäne für Ihre Exchange Organisation an. Diese Domäne sollte dieselbe Sein wie die primäre SMTP-Domäne, die für die lokalen Exchange Konten verwendet wird. Diese Domäne wird \<your Verified Domain\> im folgenden Verfahren bezeichnet. Außerdem sollte es \<DomainControllerFQDN\> sich um den FQDN eines Domänencontrollers handeln.
 
@@ -126,7 +126,7 @@ Verwenden Sie als Nächstes Windows PowerShell, um das lokale Autorisierungszert
 
 3. Führen Sie das PowerShell-Skript aus, welches Sie im vorherigen Schritt erstellt haben. Beispiel:  `.\UploadAuthCert.ps1`
 
-4. Nachdem Sie das Skript gestartet haben, wird ein Dialogfeld für Anmeldeinformationen angezeigt. Geben Sie die Anmeldeinformationen für das Mandantenadministratorkonto Ihrer Microsoft Online Azure AD-Organisation ein. Lassen Sie Windows PowerShell nach der Ausführung des Skripts für die Azure AD-Sitzung geöffnet. Sie werden diese zum Ausführen eines PowerShell-Skripts im nächsten Schritt erneut nutzen.
+4. Nachdem Sie das Skript gestartet haben, wird ein Dialogfeld für Anmeldeinformationen angezeigt. Geben Sie die Anmeldeinformationen für das Mandantenadministratorkonto Ihrer Microsoft Online Azure AD Organisation ein. Lassen Sie Windows PowerShell nach der Ausführung des Skripts für die Azure AD-Sitzung geöffnet. Sie werden diese zum Ausführen eines PowerShell-Skripts im nächsten Schritt erneut nutzen.
 
 ### <a name="step-6-verify-that-the-certificate-has-uploaded-to-the-skype-for-business-service-principal"></a>Schritt 6: Überprüfen, ob das Zertifikat in den Skype for Business Dienstprinzipal hochgeladen wurde
 1. Führen Sie in der geöffneten und für Azure Active Directory authentifizierten PowerShell Folgendes aus:
@@ -134,7 +134,7 @@ Verwenden Sie als Nächstes Windows PowerShell, um das lokale Autorisierungszert
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Drücken Sie die EINGABETASTE, wenn Sie zur Eingabe von ReturnKeyValues aufgefordert werden.
-3. Vergewissern Sie sich, dass ein Schlüssel mit Start- und Enddaten aufgeführt ist, die mit Ihrem Exchange Oauth-Zertifikat-Start- und -Enddatum übereinstimmen
+3. Bestätigen Sie, dass ein Schlüssel mit Startdatum und Enddaten aufgeführt ist, die mit Ihrem Exchange Oauth-Zertifikat-Start- und Enddatum übereinstimmen
 
 ### <a name="verify-your-success"></a>Überprüfen Ihres Erfolgs
 

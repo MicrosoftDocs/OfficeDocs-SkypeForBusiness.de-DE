@@ -1,7 +1,7 @@
 ---
-title: Installieren und Testen von Skype for Business für Windows Phone
+title: Installieren und Testen Skype for Business für Windows Phone
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 54289bbe-97e7-44bf-8611-4e740fc5b998
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Skype for Business auf Ihrem Windows Phone installieren und testen.'
-ms.openlocfilehash: 53a06d80deb99c5f05a9f7a21ab5a5fd171e2797
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e227acad57552eb9d548c6bd8f694dd52d4dfd99
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727324"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764913"
 ---
-# <a name="install-and-test-skype-for-business-for-windows-phone"></a>Installieren und Testen von Skype for Business für Windows Phone
+# <a name="install-and-test-skype-for-business-for-windows-phone"></a>Installieren und Testen Skype for Business für Windows Phone
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Skype for Business auf Ihrem Windows Phone installieren und testen.
   
@@ -31,11 +31,11 @@ Bevor Sie Benutzer in Ihrer Organisation zum Herunterladen der App anweist, soll
 
 1. Navigieren Sie zu [Windows Phone 8 Update Central,](https://www.windowsphone.com/en-us/how-to/wp8/update-central) um Ihr Telefon auf Windows Phone 8.1 zu aktualisieren.
     
-2. Wechseln Sie von Ihrem Telefon zum **Store,** und suchen Sie nach **Skype for Business**.
+2. Wechseln Sie von Ihrem Telefon zum **Store,** und suchen Sie **nach Skype for Business**.
     
 3. Tippen Sie auf **"Installieren".** 
     
-## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Melden Sie sich zum ersten Mal bei Skype for Business an
+## <a name="sign-in-to-skype-for-business-for-the-first-time"></a>Erstmalige Anmeldung bei Skype for Business
 
 1. Wischen Sie auf dem **Startbildschirm** nach links, um die installierten Apps anzuzeigen, suchen Sie nach Skype for Business für Windows Phone, und tippen Sie dann auf das Symbol, um die App zu öffnen.
     
@@ -45,7 +45,7 @@ Bevor Sie Benutzer in Ihrer Organisation zum Herunterladen der App anweist, soll
     
 3. Tippen Sie auf dem Bildschirm "Programm zur Verbesserung der **Benutzerfreundlichkeit"** auf **"Teilnehmen",** um anonyme Daten zu App-Problemen und der Nutzung an Microsoft zu senden, oder **nein,** wenn Sie nicht teilnehmen möchten.
     
-4. Geben Sie auf dem Bildschirm **"Ihre Geschäftlichen Anrufe nie verpassen"** Ihre Mobiltelefonnummer mit Länder- und Regionscodes ein. Wenn Skype for Business für Windows Phone kein Wi-Fi- oder Mobilfunknetz verwenden können, um einen Audio- oder Videoanruf zu tätigen, werden Sie bei dieser Nummer automatisch angerufen und mit dem Audioteil des Anrufs verbunden.
+4. Geben Sie auf dem Bildschirm **"Ihre Geschäftlichen Anrufe nie verpassen"** Ihre Mobiltelefonnummer mit Länder- und Regionscodes ein. Wenn Skype for Business für Windows Phone kein Wi-Fi- oder Mobilfunkdatennetzwerk verwenden können, um einen Audio- oder Videoanruf zu tätigen, werden Sie bei dieser Nummer automatisch angerufen und mit dem Audioteil des Anrufs verbunden.
     
 5. Tippen Sie auf **"Weiter",** und überprüfen Sie die Benachrichtigungs- und Telefonbuchzugriffseinstellungen:
     
@@ -56,7 +56,7 @@ Bevor Sie Benutzer in Ihrer Organisation zum Herunterladen der App anweist, soll
   
    - **Zulassen des Telefonbuchzugriffs** Suchen Sie nach Kontakten auf Ihrem Mobiltelefon, wenn Sie in Skype for Business für Windows Phone nach Kontakten suchen.
     
-6. Tippen Sie **auf "Weiter",** um mit der Verwendung von Skype for Business für Windows Phone zu beginnen.
+6. Tippen Sie **auf "Weiter",** um mit Skype for Business für Windows Phone zu beginnen.
     
     [Verhindern, dass Skype for Business bei jeder Anmeldung auf dem Computer automatisch gestartet wird](https://support.office.com/article/6b827683-ad55-471a-bd4b-3d4ec098bf75)
     
@@ -78,7 +78,7 @@ Nachdem Sie den Client konfiguriert und sich erfolgreich angemeldet haben, über
     
 2. Tippen Sie auf der Visitenkarte auf die Chatnachricht. ![Symbol für Chatnachrichten in Skype for Business.](../../media/90f8d5fa-7968-4ef7-bf5b-dddf9b893905.png)aus.
     
-3. Stellen Sie sicher, dass ein Chatfenster angezeigt wird und Dass Sie eine Chatnachricht eingeben und senden können.
+3. Stellen Sie sicher, dass ein Chatfenster angezeigt wird und Sie eine Chatnachricht eingeben und senden können.
     
 ### <a name="test-dial-out-conferencing"></a>Testen der Dial-Out-Konferenz
 

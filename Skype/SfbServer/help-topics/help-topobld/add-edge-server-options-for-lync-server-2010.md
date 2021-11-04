@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen der Edgeserveroptionen für Lync Server 2010
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0b059af5-e83f-4564-90b2-d7ebb9e551c2
 description: 'Sie definieren einen neuen Edgeserver oder Edgepool und haben die Möglichkeit, Features für den neuen Server oder Pool zu definieren. Sie können unter den folgenden Optionen wählen:'
-ms.openlocfilehash: 5e597b4fc7961d0d5d05a21746ce32eac09a5085
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cd32d349921038ef7243eac54066d1afe3f2c010
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602680"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776325"
 ---
 # <a name="add-edge-server-options-for-lync-server-2010"></a>Hinzufügen der Edgeserveroptionen für Lync Server 2010
 
@@ -35,7 +35,7 @@ Sie definieren einen neuen Edgeserver oder Edgepool und haben die Möglichkeit, 
 
 - **Die externe IP-Adresse dieses Edgepools wird von NAT übersetzt:** Aktivieren Sie dieses Kontrollkästchen, wenn Sie private IP-Adressen für die externen Edgeschnittstellen verwenden und ein NAT-Gerät (Network Address Translation) bereitstellen, um den Edgeserver oder Edgepool logisch hinter sich zu platzieren.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Planen des Zugriffs externer Benutzer](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-external-user-access)
 

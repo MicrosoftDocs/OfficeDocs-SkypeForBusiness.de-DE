@@ -1,7 +1,7 @@
 ---
 title: VoIP-Routingstatus von Commitänderungen für die VoIP-Routingkonfiguration
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2e5086fb-3c3b-432a-9eab-a9b12cb79d76
 description: Falls die Änderungen nicht abgeschlossen werden konnten, lesen Sie die Meldungen in diesem Dialogfeld, ändern Sie Ihre VoIP-Routingkonfiguration, und wiederholen Sie den Vorgang.
-ms.openlocfilehash: 4fa0de36774716805ad818176d0dce848ee8398d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7a3b935261aaccee6fe127d26564f13733905573
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626707"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60744431"
 ---
 # <a name="voice-routing-status-of-commit-changes-for-voice-routing-configuration"></a>VoIP-Routing: Status von übernommenen Änderungen für die VoIP-Routingkonfiguration
  

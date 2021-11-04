@@ -1,7 +1,7 @@
 ---
 title: Zusammenfassender Konferenzbericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Konferenzbericht in Skype for Business Server.'
-ms.openlocfilehash: eac0ebc242afe15635b088f22e34d7677d5ec5f1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8ad8bc35a014efd1cb84979f7cc05d75c3691673
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630629"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751754"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Zusammenfassender Konferenzbericht in Skype for Business Server
  
@@ -33,8 +33,8 @@ Ein "eindeutiger" Organisator ist jeder, der mindestens eine Konferenz plant. We
 |:-----|:-----|
 |Ken Myer  <br/> |7.07.2015 10:00 Uhr  <br/> |
 |David Ahs  <br/> |7.07.2015 10:00 Uhr  <br/> |
-|Ken Myer  <br/> |07.07.2015 11:00 Uhr  <br/> |
-|Pilar Ackerman  <br/> |07.07.2015 11:00 Uhr  <br/> |
+|Ken Myer  <br/> |7.07.2015 11:00 Uhr  <br/> |
+|Pilar Ackerman  <br/> |7.07.2015 11:00 Uhr  <br/> |
 |Ken Myer  <br/> |7.07.2015 13:00 Uhr  <br/> |
 |Pilar Ackerman  <br/> |7.07.2015 14:00 Uhr  <br/> |
 |Ken Myer  <br/> |02.07.2015 10:00 Uhr  <br/> |
@@ -58,8 +58,8 @@ Gesamtwerte für die meisten Metriken, die im zusammenfassenden Konferenzbericht
 |:-----|:-----|
 |Ken Myer  <br/> |7.07.2015 10:00 Uhr  <br/> |
 |David Ahs  <br/> |7.07.2015 10:00 Uhr  <br/> |
-|Ken Myer  <br/> |07.07.2015 11:00 Uhr  <br/> |
-|Pilar Ackerman  <br/> |07.07.2015 11:00 Uhr  <br/> |
+|Ken Myer  <br/> |7.07.2015 11:00 Uhr  <br/> |
+|Pilar Ackerman  <br/> |7.07.2015 11:00 Uhr  <br/> |
 |Ken Myer  <br/> |7.07.2015 13:00 Uhr  <br/> |
 |Pilar Ackerman  <br/> |7.07.2015 14:00 Uhr  <br/> |
 |Ken Myer  <br/> |02.07.2015 10:00 Uhr  <br/> |
@@ -78,7 +78,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Zusammenfasse
 |**Name**|**Beschreibung**|
 |:-----|:-----|
 |**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Intervall** <br/> | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Monatlich (maximal 12 Monate können angezeigt werden) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie z. B. das Intervall "Täglich" mit dem Startdatum 7.07.2015 und dem Enddatum 28.02.2015 auswählen, werden Daten für die Tage 07.08.2015 12:00 Uhr bis 07.09.2015 12:00 Uhr angezeigt (d. s. Daten insgesamt 31 Tage). <br/> |
    
 ## <a name="metrics"></a>Metriken

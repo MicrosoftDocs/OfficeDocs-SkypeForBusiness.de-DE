@@ -1,7 +1,7 @@
 ---
 title: Einstellungen unter "Nächster Hop" für externe Anwendung – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: be7857e4-9a75-4de5-91b0-bcb241930a0c
 description: Sie können den nächsten Hopserver des vertrauenswürdigen Anwendungsserverpools angeben, indem Sie in der Dropdownliste den definierten Enterprise Edition Front-End-Pool oder Standard Edition Front-End-Server auswählen. Ein Director oder Director-Pool kann nicht als nächster Hop für einen vertrauenswürdigen Anwendungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf "OK", um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: ad2d6b0dece52ee6c7c241ed8239c97113502e09
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: afc73c1c3460e547a4361d4fbda935988e84080c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622427"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751924"
 ---
 # <a name="external-application-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für externe Anwendung – Erweiterung
  

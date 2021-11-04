@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Add-Ins für Chatrooms für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Add-Ins für Chatrooms für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: ab2ccbe3c9f23a7397ecdf7510da63bbd84b9d95
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013389"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745951"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für Chatrooms für beständigen Chat in Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ Add-Ins werden verwendet, um die In-Room-Erfahrung durch Zuordnen von URLs zu Ch
  Bevor Benutzer ein Add-In im Client sehen können, müssen Sie das Add-In der Liste der registrierten Add-Ins hinzufügen, und Chatroommanager oder Ersteller müssen dem Add-In Chatrooms zuordnen.
   
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Konfigurieren von Add-Ins für Chatrooms mithilfe der Systemsteuerung
 

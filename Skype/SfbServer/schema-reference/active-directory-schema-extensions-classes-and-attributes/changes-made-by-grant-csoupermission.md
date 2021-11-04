@@ -1,7 +1,7 @@
 ---
 title: Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
 description: Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (OUs) hinzufügen, sodass Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein.
-ms.openlocfilehash: f700b03f95be05e00d4e5eb032d9dd50ceb1352b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b5c507cf91a880c73c7b377deafb672ed25b1125
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613905"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745841"
 ---
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
  
@@ -28,7 +28,7 @@ Mit dem **Grant-CsOuPermission**-Cmdlet werden Objekten in der angegebenen Organ
   
 ## <a name="granting-permission-for-user-objects"></a>Erteilen von Berechtigungen für User-Objekte
 
-Wenn Sie das Cmdlet **Grant-CsOuPermission** für Benutzerobjekte in einer OE ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das Cmdlet **Grant-CsOuPermission** für Benutzerobjekte in einer OU ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
   
 **Für <c0>User</c0>-Objekte erteilte Berechtigungen**
 
@@ -56,7 +56,7 @@ Wenn Sie das Cmdlet **Grant-CsOuPermission** für Computerobjekte in einer OE au
    
 ## <a name="granting-permission-for-contact-or-appcontact-objects"></a>Erteilen von Berechtigungen für Contact oder AppContact-Objekte
 
-Wenn Sie das Cmdlet **Grant-CsOuPermission** für Contact-Objekte oder AppContact-Objekte in einer ORGANISATIONSeinheit ausführen, werden Gruppen Berechtigungen gewährt, wie in der folgenden Tabelle dargestellt.
+Wenn Sie das Cmdlet **Grant-CsOuPermission** für Contact-Objekte oder AppContact-Objekte in einer OU ausführen, erhalten Gruppen Berechtigungen, wie in der folgenden Tabelle dargestellt.
   
 **Für <c0>Contact</c0>- oder <c1>AppContact</c1>-Objekte erteilte Berechtigungen**
 

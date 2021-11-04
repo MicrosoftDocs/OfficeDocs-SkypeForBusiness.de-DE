@@ -1,7 +1,7 @@
 ---
 title: Kategorien, Chatrooms und Benutzerrollen für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 343a0563-9ca5-4ad0-b4f3-a72f1d7f1a81
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Kategorien, Chatrooms und Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: e3740702f43ae677ef451049bfce2a4497a0b992
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Kategorien, Chatrooms sowie Benutzer- und Administratorrollen für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
+ms.openlocfilehash: 0c468092016fae578e3c96987fed88b37db9d1c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615561"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765213"
 ---
 # <a name="persistent-chat-categories-chat-rooms-and-user-roles-in-skype-for-business-server-2015"></a>Kategorien, Chatrooms und Benutzerrollen für beständigen Chat in Skype for Business Server 2015
  
@@ -33,7 +33,7 @@ Sie können den Zugriff auf Chatrooms steuern, indem Sie Chatroomkategorien erst
 - Administratorrollen
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
     
 ## <a name="categories-for-organizing-chat-rooms"></a>Kategorien für die Organisation von Chatrooms
 
@@ -42,7 +42,7 @@ Mithilfe von Kategorien können Sie Chatrooms organisieren und steuern, welche B
 Der Hauptgrund für das Konzept der zugelassenen und abgelehnten Mitglieder sind ethische Wände. Beispielsweise ist es bei Banken und Finanzinstitutionen üblich, dass beim Implementieren von Richtlinien und Konventionen ethische Grenzen definiert werden, die verhindern, dass Händler und Analysten Mitteilungen und Informationen austauschen. Um dieser Anforderung nachzukommen, kann ein Administrator Kategorien erstellen, sodass in einer Kategorie Chatrooms von Händlern und in einer anderen Kategorie Chatrooms von Analysten erstellt und verwendet werden können. Benutzer können nicht als Mitglied eines Chatrooms hinzugefügt werden, wenn die übergeordnete Kategorie dies verhindert.
   
 > [!IMPORTANT]
-> Zulässige und abgelehnte Mitglieder in einer Kategorie sind nicht identisch mit einer **Mitgliedsrolle,** die für einen beständigen Chatroom gilt.> Suchvorgänge zeigen alle geöffneten und geschlossenen Chatrooms an, für die sich der Benutzer, der die Suche durchführt, in der Liste zugelassener und abgelehnter Mitglieder befindet. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
+> Zulässige und abgelehnte Mitglieder in einer Kategorie sind nicht identisch mit einer **Mitgliedsrolle,** die für einen beständigen Chatroom gilt.> Suchvorgänge zeigen alle geöffneten und geschlossenen Chatrooms an, für die sich der Benutzer, der die Suche durchführt, in der Liste der zugelassenen und abgelehnten Mitglieder befindet. Geheime Chatrooms werden nur angezeigt, wenn der Benutzer, der die Suche durchführt, Mitglied des geheimen Chatrooms ist. Der Benutzer kann nur nach Chatrooms suchen, bei denen er bereits Mitglied ist oder für die er eine Mitgliedschaft anfordern kann. 
   
 ## <a name="chat-rooms-and-user-roles"></a>Chatrooms und Benutzerrollen
 
@@ -68,7 +68,7 @@ Zusätzlich zu zulässigen und abgelehnten Mitgliedern für Kategorien können S
 
 Im Folgenden sind Administratorrollen für den Server für beständigen Chat aufgeführt:
   
-- **Administrator für beständigen Chat:** Die Administratorrolle für beständigen Chat kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, Chatrooms als deaktiviert markieren) sowie Chatroomkategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administratoren können Chatrooms auch als deaktiviert markieren und chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen für Ersteller oder zulässige Mitglieder. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied zu jedem Chatroom hinzufügen. Administratoren können auch die Konfiguration für beständigen Chat (Pooleigenschaften, globale Einstellungen und Compliancekonfiguration) ändern und verwalten sowie die Migration von einer älteren Bereitstellung des Gruppenchatservers zu Skype for Business Server 2015 Persistent Chat Server planen und implementieren.
+- **Administrator für beständigen Chat:** Die Administratorrolle für beständigen Chat kann Chatrooms verwalten (alle Eigenschaften einschließlich Mitgliedschaft, Manager, Kategorien, Chatrooms als deaktiviert markieren) sowie Chatroomkategorien erstellen und verwalten, die definieren, wer Chatrooms erstellen und darauf zugreifen kann. Administratoren können Chatrooms auch als deaktiviert markieren und chatrooms bereinigen, die nicht mehr aktiv sind. Administratoren unterliegen nicht den Einschränkungen für Ersteller oder zulässige Mitglieder. Administratoren können jede Art von Chatroom erstellen und sich selbst als Mitglied zu jedem Chatroom hinzufügen. Administratoren können auch die Konfiguration für beständigen Chat (Pooleigenschaften, globale Einstellungen und Compliancekonfiguration) ändern und verwalten sowie die Migration von einer älteren Bereitstellung des Gruppenchatservers zu Skype for Business Server 2015-Server für beständigen Chat planen und implementieren.
     
     Administratoren für beständigen Chat können den Server für beständigen Chat mithilfe Windows PowerShell Cmdlets remote verwalten (d. b. von einem anderen Computer als dem Server für beständigen Chat). Der Server für beständigen Chat überprüft, ob der Administrator für beständigen Chat Mitglied der lokalen Gruppe des lokalen RTC-Administrators auf dem Front-End-Server für den Server für beständigen Chat ist.
     
@@ -86,6 +86,6 @@ Weitere Informationen zum Konfigurieren und Verwalten von Chatrooms und Benutzer
     
 - [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/categories.md)
     
-- [Verwalten von Chatrooms auf dem Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
+- [Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015](../../manage/persistent-chat/chat-rooms.md)
     
 

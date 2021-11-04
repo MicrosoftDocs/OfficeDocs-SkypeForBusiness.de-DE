@@ -1,7 +1,7 @@
 ---
 title: Überwachen, Starten und Beenden der Dienste für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6b28595-f702-4ecf-8115-e4104b87da89
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Dienste für beständigen Chat in Skype for Business Server 2015 starten, beenden und überwachen.'
-ms.openlocfilehash: 3bc40e0e338cb2ef30b417482185121b26b8cd34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f2b2c964659b3de5045d414736bc5c1e5ddadd28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766483"
 ---
 # <a name="monitor-start-and-stop-the-persistent-chat-services-in-skype-for-business-server-2015"></a>Überwachen, Starten und Beenden der Dienste für beständigen Chat in Skype for Business Server 2015
  
@@ -33,7 +33,7 @@ Die Dienste für beständigen Chat und die Kompatibilitätsdienste für beständ
 |stop-CsWindowsService  <br/> |Beendet den Dienst.  <br/> |
    
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
 Ausführliche Informationen zur Verwendung der Cmdlets finden Sie unter [Skype for Business Server 2015-Verwaltungsshell.](../management-shell.md)
   

@@ -1,14 +1,14 @@
 ---
 title: Teams von Apps für Nicht-Standardbenutzer
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie Microsoft Teams sich in Apps für Nicht-Standardbenutzer verhalten.
+description: Hier erfahren Sie, wie Microsoft Teams sich für Nicht-Standardbenutzer verhalten.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 882fda0be339c8f9869c5b83fbeff3e97d5892ee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619401"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745541"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -41,7 +41,7 @@ In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, exte
 
 ### <a name="install-update-and-delete-for-guest-users"></a>Installieren, Aktualisieren und Löschen für Gastbenutzer
 
-Gäste können keine Apps in einem freigegebenen Kontext wie Chat, Kanal oder Besprechung installieren, aktualisieren oder löschen, aber sie können mit Nachrichtenerweiterungen und direkten Links zu ihrem persönlichen Bereich wechseln. Gäste haben keinen Zugriff auf den Teams-App-Store aus der Teams-Desktopanwendung, können aber über einen direkten Link darauf zugreifen.
+Gäste können keine Apps in einem freigegebenen Kontext wie Chat, Kanal oder Besprechung installieren, aktualisieren oder löschen, aber sie können mit Nachrichtenerweiterungen und direkten Links zu ihrem persönlichen Bereich wechseln. Gäste haben keinen Zugriff auf den Teams-App Store aus der Teams-Desktopanwendung, können aber über einen direkten Link darauf zugreifen.
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>Nutzungsverhalten und Richtlinie für Gastbenutzer
 

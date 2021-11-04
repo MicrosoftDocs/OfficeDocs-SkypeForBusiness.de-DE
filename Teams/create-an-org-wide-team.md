@@ -1,7 +1,7 @@
 ---
 title: Erstellen eines organisationsweiten Teams in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 058aa530508c03587eae3ff6a55e218bc109bbd2
-ms.sourcegitcommit: 1957a06d4bae3d42b4e3b6d4bd8ff2752a19d377
+ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60641175"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745611"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -106,7 +106,7 @@ Wenn diese Problemumgehung keine Option ist, können Sie mithilfe von PowerShell
 
 ### <a name="is-there-a-way-to-convert-an-existing-team-to-an-organization-wide-team"></a>Gibt es eine Möglichkeit, ein vorhandenes Team in ein organisationsweites Team zu konvertieren?
 
-Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team konvertieren, indem sie es in einem Teams bearbeiten. Wechseln Sie zum Teamnamen und klicken Sie dann auf **Weitere Optionen**  >  **Team bearbeiten**.
+Globale Administratoren können ein vorhandenes Team in ein organisationsweites Team konvertieren, indem sie es im Teams bearbeiten. Wechseln Sie zum Teamnamen und klicken Sie dann auf **Weitere Optionen**  >  **Team bearbeiten**.
 
 ### <a name="can-i-create-an-organization-wide-team-using-a-team-template"></a>Kann ich mithilfe einer Teamvorlage ein organisationsweites Team erstellen?
 

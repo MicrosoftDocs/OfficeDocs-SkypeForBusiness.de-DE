@@ -1,7 +1,7 @@
 ---
 title: Allgemeine Einstellungen für die Branch Office Appliance für Lync Server 2010 – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a41754a-4653-4845-afb6-4a74b2edfeb4
 description: 'Um Eigenschaften für Survivable Branch Appliance oder Survivable Branch Server zu bearbeiten, konfigurieren Sie unter "Allgemein" Folgendes:'
-ms.openlocfilehash: 0a0451084067d31c6fc3f45ddd7b8e64a950c32f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f43d0e2cc5a68d8e25143c043aab8ac8faf8bba3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605124"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751944"
 ---
 # <a name="branch-office-appliance-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für die Filialanwendung für Lync Server 2010 – Erweiterung
  
@@ -42,7 +42,7 @@ Zum Bearbeiten von Eigenschaften für Survivable Branch Appliance oder Survivabl
     
     Klicken Sie auf **Neu,** wenn Sie den Archivierungsserver, den Sie dieser Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten, nicht erstellt haben.
     
-    **Zuordnen des Monitoring Servers** Wählen Sie in der Liste den Überwachungsserver aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
+    **Zuordnen des Monitoring Servers** Wählen Sie in der Liste den Monitoring Server aus, den Sie der Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     
     Klicken Sie auf **"Neu",** wenn Sie den Überwachungsserver nicht erstellt haben, den Sie dieser Survivable Branch Appliance oder dem Survivable Branch Server zuordnen möchten.
     

@@ -1,7 +1,7 @@
 ---
 title: CQD-Entwicklungsbeispiele
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 3d6c813ea8df6a1b1c9b6c991767c45c85f9fb34
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ba49af8e8ce79b87c57d761a47b54b6574f3a7f5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751714"
 ---
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
@@ -34,13 +34,13 @@ Tutorial: Building Customized Report Presentation using the CQD Data Service and
 
 CQD bietet schnellen und einfachen Zugriff auf aggregierte Anrufqualitätsinformationen für lokale Skype for Business Server Bereitstellungen. CQD besteht aus drei Komponenten: der QoE-Archivdatenbank, dem Cube und dem Portal. Das Portal ist die Hauptpräsentationsschicht und kann weiter in die folgenden drei Komponenten unterteilt werden:
 
-1. Datendienst, auf den authentifizierte Benutzer über die Daten-API für das Anrufqualitätsdashboard [(Call Quality Dashboard, CQD) in Skype for Business Server](data-api.md)zugegriffen werden können.
+1. Data Service, der für authentifizierte Benutzer über die [Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server](data-api.md)zugänglich ist.
 
 2. Repository service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server](repository-api.md).
 
 3. Webportal, die HTML5-basierte Schnittstelle, die CQD-Benutzern angezeigt wird und mit der sie interagieren. Dies ist für authentifizierte Benutzer zugänglich.
 
-Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse für die Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet wurden. 
+Die im Webportal angezeigten Berichte sind in "Berichtssätze" gruppiert. Die Abbildung zeigt einen Bericht mit zwei Berichten. Jeder Bericht in diesem Dashboard unten zeigt Abfrageergebnisse zur Anzahl der guten Anrufe, Anrufe schlechter Qualität und Prozentsatz der Anrufe schlechter Qualität für mehrere Monate an, wobei verschiedene Filter angewendet werden. 
 
 ![CQD-Beispielbericht.](../../media/9e0723f7-f850-4d11-9ecd-7e8e013a8bed.png)
 
@@ -351,7 +351,7 @@ Hier sind die detaillierten Schritte, um zur Scorecardseite in der Abbildung aus
 
    Hier wird die Dimension  `[Scenarios].[ScenarioPair]` auf "gleich" `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` festgelegt. Dies  `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die erstellt wurde, um die Erstellung von Berichten zu vereinfachen. Es hat sechs Werte, die entsprechen `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Anstatt also eine Kombination aus 6 Filtern zum Definieren eines Szenarios zu verwenden, müssen wir nur 1 Filter verwenden. In unserem Beispiel wird der Wert  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` in das Szenario übersetzt, in dem: der erste Server, der zweite nicht der Server, der erste ist innerhalb, der erste Verbindungstyp verkabelt und der zweite Verbindungstyp verkabelt ist, was die genaue Definition von "Server-Client-Inside Wired" ist.
 
-3. Erstellen Sie einen Filtersatz pro Szenario. Jede Zeile in der Scorecard in der Abbildung stellt ein anderes Szenario dar, bei dem es sich um einen anderen Filter handelt (während die Abmessungen und Maße gleich bleiben). 
+3. Erstellen Sie einen Filtersatz pro Szenario. Jede Zeile in der Scorecard in der Abbildung stellt ein anderes Szenario dar, bei dem es sich um einen anderen Filter handelt (während die Abmessungen und Maßangaben gleich bleiben). 
 
 4. Analysieren Sie die Ergebnisse der AJAX-Aufrufe, und platzieren Sie sie an der richtigen Position der Tabelle. Da dies hauptsächlich HTML- und JavaScript-Manipulation ist, werden wir hier nicht auf details eingehen. Stattdessen wird der Code in Anhang A bereitgestellt.
 

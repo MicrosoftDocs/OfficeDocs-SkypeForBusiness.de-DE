@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1016aed6-99fe-452e-8b20-81c814808c3d
-description: 'Zusammenfassung: Konfigurieren sie die VTC-Geräte für die Arbeit mit Skype for Business Server.'
-ms.openlocfilehash: 1165b4bf569701d71a435a4162ef9feb9ef3018f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Konfigurieren sie die VTC-Geräte für die Verwendung mit Skype for Business Server.'
+ms.openlocfilehash: 07f6a8742b26a7637e5dd321034ecb2cd0818cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751274"
 ---
 # <a name="configure-a-vtc-for-interoperation-with-skype-for-business-server"></a>Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server
  
@@ -69,7 +69,7 @@ Die hier beschriebenen Einstellungen sind nur als Beispiele dafür gedacht, wie 
    |**Parameter**|**Empfohlene Einstellung**|
    |:-----|:-----|
    |Profil 1 – DefaultTransport  <br/> | TCP <br/> |
-   |Profil 1 – Ausgehend  <br/> | Off <br/> |
+   |Profil 1 – Ausgehend  <br/> | Aus <br/> |
    |Profil 1 – TlsVerify  <br/> | Ein <br/> |
    |Profil 1 – Typ  <br/> | Cisco <br/> |
    |Profil 1 – URI  <br/> | Bei CUCM-Registrierung automatisch zugewiesen <br/> |
@@ -103,7 +103,7 @@ Der VTC ist jetzt für die Interoperabilität konfiguriert. Bevor der Dienst beg
    |**Parameter**|**Empfohlene Einstellung**|
    |:-----|:-----|
    | Verzeichnisnummerninformationen – Routenpartition <br/> | SfBVideoInterop_RoutePartition <br/> |
-   |Verzeichnisnummer Einstellungen – Suchbereich aufrufen  <br/> | CSS_SfBVideoInterop <br/> |
+   |Verzeichnisnummer Einstellungen – Anrufsuchbereich  <br/> | CSS_SfBVideoInterop <br/> |
    |MLPP Alternate Party and Confidential Access Level Einstellungen – MLPP Calling Search Space  <br/> | CSS_SfBVideoInterop <br/> |
    |Zeile 1 auf dem Gerät – Anzeige (Anrufer-ID)  <br/> | Nach Bedarf <br/> |
    |Zeile 1 auf dem Gerät – ASCII-Anzeige (Anrufer-ID)  <br/> | Nach Bedarf <br/> |

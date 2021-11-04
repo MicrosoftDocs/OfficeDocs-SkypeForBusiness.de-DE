@@ -1,6 +1,6 @@
 ---
 title: Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule
-author: cichur
+author: serdars
 ms.author: serdars
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie großen Gruppen in Ihrer Bildungseinrichtung basierend auf Gruppenmitgliedschaften oder direkt über eine Batchzuweisung für Remoteunterrichtszwecke (Teleschool, Teleschule) Richtlinien zuweisen.
 f1keywords: ''
-ms.openlocfilehash: 839a66cbaad393f21053ee385017f6a870c60d83
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605181"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60745701"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule
 
@@ -51,7 +51,7 @@ Denken Sie daran, dass die Globale Richtlinie für alle Benutzer in Ihrer Schule
 
 In diesem Lernprogramm erhalten die Kursteilnehmer die Globale Besprechungsrichtlinie, und wir weisen Mitarbeitern und Lehrkräften eine benutzerdefinierte Besprechungsrichtlinie mit dem Namen EducatorMeetingPolicy zu. Wir gehen davon aus, dass Sie die globale [](policy-packages-edu.md) Richtlinie bearbeitet haben, um Die Besprechungseinstellungen für Schüler/Studierende zu anpassen, und eine benutzerdefinierte Richtlinie erstellt haben, die die Besprechungserfahrung für Mitarbeiter und Lehrkräfte definiert.
 
-![Screenshot der Seite "Besprechungsrichtlinien" im Teams Admin Center](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Screenshot der Seite "Besprechungsrichtlinien" im Teams Admin Center.](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Zuweisen einer Richtlinie zu einer Gruppe
 
@@ -74,7 +74,7 @@ Sie müssen alle diese Schritte ausführen, damit Ihre Mitarbeiter und Lehrkräf
 
 Erstellen Sie zunächst eine Sicherheitsgruppe für Ihre Mitarbeiter und Lehrkräfte.
 
-Mit [School Data Sync](/SchoolDataSync/) (SDS) können Sie auf einfache Weise Sicherheitsgruppen erstellen, die [Lehrkräfte und Schüler/Studenten](/SchoolDataSync/edu-security-groups) in Ihrer Schule haben. Wir empfehlen, SDS zum Erstellen der Sicherheitsgruppen zu verwenden, die Sie zum Verwalten von Richtlinien für Ihre Schule benötigen.
+Mit [School Data Sync](/SchoolDataSync/) (SDS) können Sie auf einfache Weise Sicherheitsgruppen erstellen, [die Lehrkräfte und Schüler/Studenten](/SchoolDataSync/edu-security-groups) in Ihrer Schule haben. Wir empfehlen, SDS zum Erstellen der Sicherheitsgruppen zu verwenden, die Sie zum Verwalten von Richtlinien für Ihre Schule benötigen.
 
 Wenn Sie sdS nicht in Ihrer Umgebung bereitstellen können, verwenden Sie dieses [PowerShell-Skript,](scripts/powershell-script-security-groups-edu.md) um zwei Sicherheitsgruppen zu erstellen: eine für alle Mitarbeiter und Lehrkräfte, denen eine Lehrpersonallizenz zugewiesen ist, und eine weitere für alle Schüler/Studenten, denen eine Student-Lizenz zugewiesen ist. Sie müssen dieses Skript routinemäßig ausführen, um die Gruppen aktuell und auf dem neuesten Stand zu halten.
 
@@ -83,7 +83,7 @@ Wenn Sie sdS nicht in Ihrer Umgebung bereitstellen können, verwenden Sie dieses
 #### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen über das Microsoft Teams Admin Center nur für Anrufrichtlinien für Teams,Teams-Parkrichtlinien, Teams-Richtlinien, Teams-Richtlinien für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
+> Derzeit ist die Richtlinienzuweisung an Gruppen über das Microsoft Teams Admin Center nur für Anrufrichtlinien für Teams-Anrufe, Parkrichtlinien für Anrufe Teams, Teams-Richtlinie, Teams-Richtlinie für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Wählen Sie die **Registerkarte Gruppenrichtlinienzuordnung** aus.
@@ -102,7 +102,7 @@ Um die Bewertung einer Gruppenzuordnung zu ändern, müssen Sie zuerst die Grupp
 #### <a name="using-powershell"></a>Verwendung von PowerShell
 
 > [!NOTE]
-> Derzeit steht die Richtlinienzuweisung zu Gruppen mithilfe von PowerShell nicht für alle Teams Richtlinientypen zur Verfügung. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
+> Derzeit ist die Richtlinienzuweisung an Gruppen mithilfe von PowerShell nicht für alle Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -150,7 +150,7 @@ Führen Sie die folgenden Schritte aus, um Teams Verbindung herzustellen und ein
 Connect-MicrosoftTeams
 ```
 
-Wenn Sie dazu aufgefordert werden, melden Sie sich mit den gleichen Administratoranmeldeinformationen an, die Sie zum Herstellen einer Verbindung mit Azure AD.
+Wenn Sie dazu aufgefordert werden, melden Sie sich mit den gleichen Administratoranmeldeinformationen an, die Sie für die Verbindung zu Azure AD.
 
 #### <a name="unassign-a-policy-that-was-directly-assigned-to-users"></a>Eine Richtlinie, die Benutzern direkt zugewiesen wurde, wieder zuweisen
 
@@ -181,7 +181,7 @@ Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
 
 ##### <a name="get-the-policies-assigned-to-a-user"></a>Erhalten der Richtlinien, die einem Benutzer zugewiesen werden
 
-Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem reda@contoso.com.
+Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem bestimmten reda@contoso.com.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity reda@contoso.com
@@ -195,7 +195,7 @@ Führen Sie die folgenden Schritte aus, um Ihren Mitarbeitern und Lehrkräften i
 
 #### <a name="connect-to-the-azure-ad-powershell-for-graph-module-and-the-teams-powershell-module"></a>Verbinden zum Azure AD PowerShell für Graph und zum Teams PowerShell-Modul
 
-Bevor Sie die in diesem Artikel erläuterten Schritte ausführen, müssen Sie das Azure AD PowerShell für Graph-Modul (zum Identifizieren von Benutzern nach den ihnen zugewiesenen Lizenzen) und das Microsoft Teams PowerShell-Modul (zum Zuweisen der Richtlinien zu diesen Benutzern) installieren und eine Verbindung herstellen.
+Bevor Sie die schritte in diesem Artikel ausführen, müssen Sie das Azure AD PowerShell für Graph-Modul (zum Identifizieren von Benutzern nach den ihnen zugewiesenen Lizenzen) und das Microsoft Teams PowerShell-Modul (zum Zuweisen der Richtlinien zu diesen Benutzern) installieren und eine Verbindung herstellen.
 
 ##### <a name="install-and-connect-to-the-azure-ad-powershell-for-graph-module"></a>Installieren und Herstellen einer Verbindung mit Azure AD PowerShell für Graph Modul
 
@@ -213,7 +213,7 @@ Connect-AzureAD
 
 Wenn Sie dazu aufgefordert werden, melden Sie sich mit Ihren Administratoranmeldeinformationen an.
 
-Weitere Informationen finden Sie [unter Verbinden des Moduls Azure Active Directory PowerShell für Graph Modul](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
+Weitere Informationen finden Sie [unter Verbinden mit dem Azure Active Directory PowerShell für Graph Modul](/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module).
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -229,7 +229,7 @@ Führen Sie die folgenden Schritte aus, um Teams Verbindung herzustellen und ein
 Connect-MicrosoftTeams
 ```
 
-Wenn Sie dazu aufgefordert werden, melden Sie sich mit den gleichen Administratoranmeldeinformationen an, die Sie zum Herstellen einer Verbindung mit Azure AD.
+Wenn Sie dazu aufgefordert werden, melden Sie sich mit den gleichen Administratoranmeldeinformationen an, die Sie für die Verbindung zu Azure AD.
 
 #### <a name="identify-your-users"></a>Identifizieren der Benutzer
 
@@ -304,7 +304,7 @@ Sie können den Bereich der Benutzer-IDs ändern, bis Sie die vollständige List
 
 #### <a name="get-the-policies-assigned-to-a-user"></a>Erhalten der Richtlinien, die einem Benutzer zugewiesen werden
 
-Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem hannah@contoso.com.
+Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem bestimmten hannah@contoso.com.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity hannah@contoso.com

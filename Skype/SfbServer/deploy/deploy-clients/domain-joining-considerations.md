@@ -1,6 +1,6 @@
 ---
 title: Skype Überlegungen zur Verknüpfung von Raumsystemdomänen
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3034fdcb-7c89-42c4-9c5e-13400e82d88f
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Skype Room System-Anwendungs-PC mit Ihrer Domäne verknüpfen.
-ms.openlocfilehash: b7590f17e8572d4379324f13924a5b4d7d339753
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a3a5e4b8fb1f4af7c67e0cfa91ff9237be438347
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623037"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751374"
 ---
 # <a name="skype-room-system-domain-joining-considerations"></a>Skype Überlegungen zur Verknüpfung von Raumsystemdomänen
  
@@ -27,13 +27,13 @@ Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Skype Room System-Anwendun
 
 Sie können den Skype Room System-Anwendungs-PC der Active Directory-Domäne hinzufügen oder in einer Arbeitsgruppe belassen. Berücksichtigen Sie die folgenden Punkte, bevor Sie diese Entscheidung treffen:
   
-- Der Domänenbeitritt zum Skype Room System Appliance-PC hilft beim automatischen Importieren der privaten Stammzertifikatkette Ihrer Organisation.
+- Der Domänenbeitritt des Skype Room System-Anwendungs-PCs hilft beim automatischen Importieren der privaten Stammzertifikatkette Ihrer Organisation.
     
 - Wenn Sie dem Skype Room System-Anwendungs-PC beitreten, können Sie Domänenbenutzern und Gruppen Administratorrechte erteilen. Dadurch müssen Sie sich das Kennwort für das Administratorkonto auf Computerebene nicht merken.
     
 - Wenn Sie einen Skype Room System-Anwendungs-PC mit der Domäne verknüpfen, müssen Sie eine separate Organisationseinheit (Organizational Unit, OU) erstellen, damit Sie Gruppenrichtlinienobjektausschlüsse (Group Policy Object, GPO) für die OU bereitstellen können, in der sich alle Skype Room System-Computerobjekte befinden. Erstellen Sie in diesem Fall Computerobjekte in der OE, bevor Sie den Skype Room System-Anwendungs-PC mit der Domäne verknüpfen.
     
-- Viele Organisationen verfügen über die folgenden GPOs, die sich auf Skype Room System-Appliance-PC-Funktionen auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser GPOs in der Skype Room System-OU außer Kraft setzen oder blockieren: 
+- Viele Organisationen verfügen über die folgenden GPOs, die sich auf Skype Room System-Appliance-PC-Funktionen auswirken. Stellen Sie sicher, dass Sie die Vererbung dieser GRUPPENrichtlinienobjekte in der Skype Room System OU außer Kraft setzen oder blockieren: 
     
   - Timeout von Anmeldesitzungen (automatische Sperre)
     
@@ -53,7 +53,7 @@ Sie können den Skype Room System-Anwendungs-PC der Active Directory-Domäne hin
     
 - Alternativ können Sie den Appliance-PC in der Arbeitsgruppe belassen. Wie beim Desktop-Skype for Business-Client müssen Sie dazu die Stammzertifikatkette manuell auf dem Skype Room System-Anwendungs-PC importieren. Sie müssen die Stammzertifikatskette nicht importieren, wenn Ihre Skype for Business Bereitstellung ein öffentliches Zertifikat verwendet (z. B. "Vereumer", "VeriSign" usw.). 
     
-Wenn Sie beabsichtigen, Skype Raumsystemcomputer mit der Domäne zu verknüpfen, um zu vermeiden, dass Skype Raumsystemcomputer versehentlich zu einer unbeabsichtigten OU hinzugefügt wird, die möglicherweise nicht kostenlos von GPOs ist, stellen Sie sicher, dass Sie die richtige OU verwenden. Sie können das folgende Cmdlet aus dem Skype Raumsystemcomputer verwenden, um an der richtigen OU teilzunehmen und empfängt keine GPOs, die möglicherweise LRS-Funktionen blockieren. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um das folgende Cmdlet auszuführen:
+Wenn Sie beabsichtigen, Skype Raumsystemcomputer mit der Domäne zu verknüpfen, um zu vermeiden, dass Skype Raumsystemcomputer versehentlich mit einer unbeabsichtigten OU verknüpft wird, die möglicherweise nicht kostenlos von GPOs ist, stellen Sie sicher, dass Sie die richtige OU verknüpfen. Sie können das folgende Cmdlet aus dem Skype Raumsystemcomputer verwenden, um an der richtigen OU teilzunehmen, und sie erhalten keine GPOs, die möglicherweise die LRS-Funktionalität blockieren. Wenden Sie sich an Ihren Systemadministrator oder OEM-Partner, um das folgende Cmdlet auszuführen:
   
 ```powershell
 $username = "contso.local\LRS01"
@@ -66,7 +66,7 @@ Selbst wenn Sie eine separate OU erstellen und die Vererbung blockieren, gibt es
   
 Möglicherweise haben Sie mehrere Ansätze, um diese Probleme zu lösen. Wir empfehlen Ihnen, sich an Ihre Active Directory-Experten zu wenden, um sicherzustellen, dass Ihnen eine ORGANISATIONSeinheit mit den entsprechenden GPO-Einstellungen oder mindestens eine OU zur Verfügung gestellt wird, in der die zuvor beschriebenen Richtlinien nicht vorhanden sind. Es wird empfohlen, Quality of Service (QoS) für Skype Raumsystemgeräte zu aktivieren.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
   
 [Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration](../../help-topics/help-lscp/device-configuration-create-new-or-edit-existing.md)
 

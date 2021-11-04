@@ -1,7 +1,7 @@
 ---
 title: Topologieserveranwendung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8c95b160-3d88-46c7-987c-38384bac3e51
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Auf der Seite Topologie: Serveranwendung werden die Serveranwendungen der Bereitstellung angezeigt.'
-ms.openlocfilehash: b91270954148455da732db1f04c473dcbe18d6f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f137605f832b3c679c2c0789621dee2df6abac9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591779"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764563"
 ---
 # <a name="topology-server-application"></a>Topologie: Serveranwendung
 
@@ -36,7 +36,7 @@ Auf der Seite **Topologie**: **Serveranwendung** können Sie die folgenden Aufga
 
 - Markieren einer Anwendung als kritisch bzw. Aufheben der Markierung
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Aktivieren oder Deaktivieren einer MSPL-Serveranwendung (Microsoft SIP Processing Language)](/previous-versions/office/lync-server-2013/lync-server-2013-enable-or-disable-a-microsoft-sip-processing-language-mspl-server-application)
 

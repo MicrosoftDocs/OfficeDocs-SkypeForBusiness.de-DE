@@ -1,7 +1,7 @@
 ---
 title: Verwenden des Tools Skype for Business Server 2015 Stress and Performance
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 2/13/2018
 manager: serdars
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
-description: Um das Skype for Business Server 2015 Stress and Performance Tool auszuführen, müssen Sie in der Lage sein, sowohl Benutzer, Kontakte als auch Benutzerprofile zu verwalten, das Tool für die Ausführung zu konfigurieren und dann die Vom Tool erzeugten Ausgaben oder Ergebnisse zu überprüfen.
-ms.openlocfilehash: 6db23c259aa19e8ec9e590218ff233461c677aa0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Um das Skype for Business Server 2015 Stress and Performance Tool auszuführen, müssen Sie sowohl Benutzer als auch Kontakte und Benutzerprofile verwalten, das Tool für die Ausführung konfigurieren und dann die Vom Tool erzeugten Ausgaben oder Ergebnisse überprüfen können.
+ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58586877"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60751584"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden des Tools Skype for Business Server 2015 Stress and Performance
  
-Um das Skype for Business Server 2015 Stress and Performance Tool auszuführen, müssen Sie in der Lage sein, sowohl Benutzer, Kontakte als auch Benutzerprofile zu verwalten, das Tool für die Ausführung zu konfigurieren und dann die Vom Tool erzeugten Ausgaben oder Ergebnisse zu überprüfen.
+Um das Skype for Business Server 2015 Stress and Performance Tool auszuführen, müssen Sie sowohl Benutzer als auch Kontakte und Benutzerprofile verwalten, das Tool für die Ausführung konfigurieren und dann die Vom Tool erzeugten Ausgaben oder Ergebnisse überprüfen können.
   
 Es gibt vier Bereiche, in denen das Skype for Business Server 2015 Stress and Performance Tool ausgeführt wird (die ausführbare Datei ist LyncPerfTool.exe):
   
@@ -42,26 +42,26 @@ Sie müssen das Benutzerbereitstellungstool Skype for Business Server 2015 (SB 2
   
 Dies ist eine Liste hilfreicher Begriffe, die beim Lesen der Themen hilfreich sein können:
   
-- **Organisationseinheit** – Die Organisationseinheit (ORGANIZATIONAL Unit, OE) von Active Directory Domain Services (AD DS).
+- **Organisationseinheit** – Die Organisationseinheit (Organizational Unit, OE) von Active Directory Domain Services (AD DS).
     
 - **Verbund/Poolübergreifend:** Benutzer, die mit Benutzern aus anderen Chatdiensten kommunizieren können.
     
 - **Verteilerlisten** – oder DLs. Dies sind Objekte in AD DS, die eine Liste von AD DS-Benutzern enthalten. Sie werden verwendet, um die Kommunikation zwischen Gruppen von Personen zu vereinfachen.
     
-- **Standortinformationsdienst** – Der Skype for Business Server 2015-Dienst, der, wenn er pro Telefon aktiviert und konfiguriert ist, den Abruf des physischen Standorts für Erweiterte 911 -Dienste (E911) ermöglicht.
+- **Standortinformationsdienst** – Der Skype for Business Server 2015-Dienst, der, wenn er pro Telefon aktiviert und konfiguriert ist, den Abruf des physischen Standorts für E911-Dienste (Enhanced 911) ermöglicht.
     
-- **U.S. Telefon Numbers** – Telefon Nummern, die dem Benutzer zusätzlich zum SIP-URI zugewiesen sind, der für das Weiterleiten von eingehenden und ausgehenden Anrufen in der Umgekehrten Nummernsuche (Reverse Number Lookup, RNL) verwendet wird.
+- **U.S. Telefon Numbers** – Telefon Nummern, die dem Benutzer zusätzlich zu dem SIP-URI zugewiesen sind, der für das Weiterleiten von eingehenden und ausgehenden Anrufen in der Reverse Number Lookup (RNL) verwendet wird.
     
 ### <a name="create-users-and-contacts-by-using-userprovisioningtoolexe"></a>Erstellen von Benutzern und Kontakten mithilfe von UserProvisioningTool.exe
 
 > [!NOTE]
 > Bevor Sie überhaupt beginnen, stellen Sie sicher, dass Sie als Mitglied der Sicherheitsgruppe "Domänenadministratoren" angemeldet sind, um dieses Tool auszuführen. Sie müssen dies tun, da Sie Active Directory-Benutzer erstellen werden. 
   
-Sie müssen das Skype for Business Server-Benutzerbereitstellungstool verwenden, um Benutzer und Kontakte für die Lastsimulation zu erstellen.
+Sie müssen das Skype for Business Server Benutzerbereitstellungstool verwenden, um Benutzer und Kontakte für die Lastsimulation zu erstellen.
   
 Das **Skype for Business Server Benutzerbereitstellungstool** wird mit dem **Paket Skype for Business Server Stress and Performance Tool** installiert. Stellen Sie sicher, dass das Paketinstallationsprogramm (CapacityPlanningTool.msi) auf dem Front-End-Server oder dem Standard Edition Server ausgeführt wurde, den Sie testen möchten.
   
-Sie können das Skype for Business Server Benutzerbereitstellungstool starten, indem Sie die Datei UserProvisioningTool.exe (unter %InstalledDirectory%LyncStressAndPerfTool\LyncStress) auf dem Front-End-Server oder auf dem Standard Edition Server ausführen.
+Sie können das Skype for Business Server Benutzerbereitstellungstool starten, indem Sie die Datei UserProvisioningTool.exe (unter %InstalledDirectory%LyncStressAndPerfTool\LyncStress) auf dem Front-End-Server oder auf dem Standard Edition-Server ausführen.
   
 > [!IMPORTANT]
 > Wenn Sie eine große Anzahl von Benutzern erstellen (z. B. 10.000 oder mehr), führen Sie die UserProvisioningTool.exe aus. Sie müssen dies tun, da das Tool  *neue*  AD-Benutzer erstellt und konfiguriert.
@@ -119,7 +119,7 @@ Wenn Sie auf die Schaltfläche **"Benutzer löschen"** klicken, werden die Einga
 > Bevor Sie Kontakte erstellen, müssen Sie zunächst die Benutzerreplikation abschließen (dies erfolgt über die Registerkarte "Benutzer"). 
   
 > [!IMPORTANT]
-> Wenn Sie ihre Benutzer gerade erstellt haben, müssen Sie warten, bis Skype for Business Server Replikation abgeschlossen ist, und die Benutzerkonten in der Datenbank auffüllen. **Wenn die Replikation der Benutzer noch nicht abgeschlossen ist, wird ein Fehler angezeigt.** Sie wissen, wann Benutzer die Replikation abgeschlossen haben, wenn der Skype for Business Server 2015-Front-End-Dienst gestartet wurde, oder indem Sie das Cmdlet Get-CsUser auf dem letzten Benutzer der Gesamtzahl, die Sie angegeben haben, erfolgreich ausführen.
+> Wenn Sie gerade Ihre Benutzer erstellt haben, müssen Sie warten, bis Skype for Business Server Replikation abgeschlossen ist, und die Benutzerkonten in der Datenbank auffüllen. **Wenn die Replikation der Benutzer noch nicht abgeschlossen ist, wird ein Fehler angezeigt.** Sie wissen, wann Benutzer die Replikation abgeschlossen haben, wenn der Skype for Business Server 2015 Front-End-Dienst gestartet wurde, oder indem Sie das Cmdlet Get-CsUser auf dem letzten Benutzer der Gesamtzahl, die Sie angegeben haben, erfolgreich ausführen.
   
 #### <a name="contacts-creation-tab"></a>Registerkarte "Kontakteerstellung"
 
@@ -131,7 +131,7 @@ Auf dieser Registerkarte können Sie die Kontaktdetails der Benutzer für Ihre T
 
 1. Geben Sie im Feld **"Durchschnittliche Kontakte pro Benutzer"** die durchschnittliche Anzahl von Kontakten ein, die in Kontaktlisten für jeden Benutzer aufgefüllt werden sollen.
     
-2. Aktivieren Sie das **Kontrollkästchen Fixiert ,** wenn Sie für jeden Benutzer eine gleiche Anzahl von Kontakten erstellen möchten. Wenn Sie die Anzahl der für Benutzer erstellten Kontakte variieren möchten, deaktivieren Sie dieses Kontrollkästchen.
+2. Aktivieren Sie das **Kontrollkästchen Fixiert,** wenn Sie für jeden Benutzer eine gleiche Anzahl von Kontakten erstellen möchten. Wenn Sie die Anzahl der für Benutzer erstellten Kontakte variieren möchten, deaktivieren Sie dieses Kontrollkästchen.
     
 3. Geben Sie im Feld **"Durchschnittliche Kontaktgruppen pro Benutzer"** die Anzahl der Kontaktgruppen pro Benutzer ein. Diese Anzahl muss kleiner als **die durchschnittlichen Kontakte pro Benutzer** sein.
     
@@ -203,10 +203,10 @@ Nachdem Ihre Benutzer erstellt wurden (über das Benutzererstellungstool), könn
   
 ### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>Ausführen des Tools für die Skype for Business Server 2015-Auslastungskonfiguration
 
-Starten Sie das Tool "Ladekonfiguration" (UserProfileGenerator.exe), und füllen Sie die Registerkarten aus. Dieses Tool erstellt ein Verzeichnis für jeden Clientcomputer, den Sie zum Ausführen ihrer Simulationen benötigen. Jedes Clientverzeichnis enthält ein Skript zum Starten des Tools Skype for Business Server 2015 Stress and Performance (LyncPerfTool.exe). In den folgenden Abschnitten finden Sie Beispiele für das Ausfüllen der Felder auf jeder Registerkarte des Tools Skype for Business Server 2015 Load Configuration.
+Starten Sie das Tool für die Ladekonfiguration (UserProfileGenerator.exe), und füllen Sie die Registerkarten aus. Dieses Tool erstellt ein Verzeichnis für jeden Clientcomputer, den Sie zum Ausführen ihrer Simulationen benötigen. Jedes Clientverzeichnis enthält ein Skript zum Starten des Tools Skype for Business Server 2015 Stress and Performance (LyncPerfTool.exe). Die folgenden Abschnitte enthalten Beispiele für das Ausfüllen der Felder auf den einzelnen Registerkarten des Tools Skype for Business Server 2015 Load Configuration.
   
 > [!IMPORTANT]
-> Die im Load Configuration-Tool (UserProfileGenerator.exe) verwendeten benutzerspezifischen Werte müssen mit den im Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) für den Pool angegebenen Werten übereinstimmen. 
+> Die im Tool "Lastenkonfiguration" (UserProfileGenerator.exe) verwendeten benutzerspezifischen Werte müssen mit den Im Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) für den Pool angegebenen Werten übereinstimmen. 
   
 #### <a name="common-configuration-tab"></a>Registerkarte "Allgemeine Konfiguration"
 
@@ -214,13 +214,13 @@ Die Registerkarte **"Allgemeine Konfiguration"** des Ladekonfigurationstools wir
   
 ![Die Registerkarte "Benutzerbereitstellung" mit der Registerkarte "Allgemeine Konfiguration".](../../media/c25df343-3550-47fb-88e0-29194338fee2.png)
   
-1. Geben Sie im Feld **Anzahl der verfügbaren** Computer die Anzahl der Computer ein, die Zum Ausführen des Stress and Performance-Tools verwendet werden sollen (LyncPerfTool.exe). Es wird empfohlen, dass Sie einen Computer für alle 4500 Benutzer haben, die Sie simulieren möchten. Diese Anzahl kann jedoch variieren, wenn Sie die Ladestufe reduzieren oder nur eine Teilmenge der verfügbaren Features des Tools verwenden (Ladestufen werden auf der Registerkarte "Allgemeine Szenarien" festgelegt).
+1. Geben Sie im Feld **"Anzahl der verfügbaren Computer"** die Anzahl der Computer ein, die Sie zum Ausführen des Stress and Performance-Tools verwenden möchten (LyncPerfTool.exe). Es wird empfohlen, dass Sie einen Computer für alle 4500 Benutzer haben, die Sie simulieren möchten. Diese Anzahl kann jedoch variieren, wenn Sie die Ladestufe reduzieren oder nur eine Teilmenge der verfügbaren Features des Tools verwenden (Ladestufen werden auf der Registerkarte "Allgemeine Szenarien" festgelegt).
     
-2. Geben Sie im Feld **"Präfix für Benutzernamen"** ein Präfix für das Benutzernamenfeld aller Benutzer ein. Zum Anmelden des Uniform Resource Identifier (URI) wird Folgendes verwendet: *UserPrefix[User Start Index... (Anzahl der Benutzer-1)] @User Domäne,*  z. B. myUser009@Contoso.com.
+2. Geben Sie im Feld **"Präfix für Benutzernamen"** ein Präfix für das Benutzernamenfeld aller Benutzer ein. Zum Anmelden des Uniform Resource Identifier (URI) wird: *UserPrefix[User Start Index... (Anzahl der Benutzer-1)] @User Domäne,*  z. B. myUser009@Contoso.com.
     
 3. Geben Sie im Feld **"Kennwort für alle Benutzer"** das Kennwort ein, das bei der Erstellung der Benutzer verwendet wurde. Wenn Sie dieses Feld leer lassen, wird der Benutzername als Kennwort festgelegt.
     
-4. Geben Sie im Feld **"Benutzeranfangsindex"** den Index des ersten zu konfigurierenden Benutzers ein. Sie können unterschiedliche Bereiche für unterschiedliche Arten oder Laststufen konfigurieren, aber Sie müssen das Lastkonfigurationstool (UserProfileGenerator.exe) einmal pro bereich ausführen, den Sie konfigurieren möchten.
+4. Geben Sie im Feld **"Benutzeranfangsindex"** den Index des ersten zu konfigurierenden Benutzers ein. Sie können unterschiedliche Bereiche für unterschiedliche Arten oder Laststufen konfigurieren, aber Sie müssen das Tool für die Ladekonfiguration (UserProfileGenerator.exe) einmal pro dem Bereich ausführen, den Sie konfigurieren möchten.
     
 5. Geben Sie im Feld **"Anzahl der Benutzer"** die Gesamtzahl der Benutzer ein, die Sie konfigurieren möchten.
     
@@ -236,7 +236,7 @@ Die Registerkarte **"Allgemeine Konfiguration"** des Ladekonfigurationstools wir
     
 11. Geben Sie im **Feld "Port"** den Port ein, den Benutzer für SIP verwenden sollen (hier ist der Standardwert 5061).
     
-12. Geben Sie für das Feld **"Externer Netzwerkserver Einstellungen"** den FQDN des Zugriffsproxys oder Pools und erneut den **Port** an. Diese Einstellungen werden nur für die Lastsimulation externer Endpunkte verwendet.
+12. Geben Sie für das Feld **"Externer Netzwerkserver Einstellungen"** den FQDN des Zugriffsproxys oder Pools und erneut den **Port an.** Diese Einstellungen werden nur für die Lastsimulation externer Endpunkte verwendet.
     
 #### <a name="general-scenarios-tab"></a>Registerkarte "Allgemeine Szenarien"
 
@@ -276,7 +276,7 @@ Diese Schaltflächen und Kontrollkästchen sind für jedes Szenario spezifische 
   
 Für jedes Szenario auf der Registerkarte "Allgemeine Szenarien" (mit Ausnahme von Location Information Services) wird die Unterhaltungsrate mithilfe des entsprechenden Felds im Dialogfeld "Erweitert" berechnet, wenn der Wert der Ladestufe **"Benutzerdefiniert"** lautet. Der Feldname kann je nach Szenario unterschiedlich sein, aber die Feldbeschreibung gibt *an: HINWEIS Diese Nummer wird nur verwendet, wenn "Benutzerdefiniert" im Dropdownmenü ausgewählt ist.*
   
-Die Werte **"Hoch",** **"Mittel"** und **"Niedrig"** ändern die Unterhaltungsraten pro Modalität entsprechend dem Benutzermodell, das eine Balance aller Szenarien darstellt. Wenn die Ladestufe pro Modalität aufgrund eines Unterschieds in der erwarteten Nutzung geändert werden muss, verwenden Sie eine benutzerdefinierte Unterhaltungsrate.
+Die Werte **"Hoch",** **"Mittel"** und **"Niedrig"** ändern die Unterhaltungsraten pro Modalität entsprechend dem Benutzermodell, das eine Balance aller Szenarien darstellt. Wenn die Ladestufe pro Modalität aufgrund eines Unterschieds bei der erwarteten Nutzung geändert werden muss, verwenden Sie eine benutzerdefinierte Unterhaltungsrate.
   
 #### <a name="voice-scenarios-tab"></a>Registerkarte "VoIP-Szenarien"
 
@@ -293,7 +293,7 @@ Folgende Optionen sind verfügbar:
     > [!TIP]
     > Sie können entweder die Skype for Business Systemsteuerung oder Skype for Business Verwaltungsshell verwenden, um die VoIP-Routenkonfiguration zu überprüfen. 
   
-- **Konferenzzentrale –** Geben Sie einen Wert für "Ladestufe" an. Ein anderer Wert als "Deaktiviert" aktiviert das Feld **Telefonnummer .** Geben Sie die Telefonnummer der automatischen Telefonzentrale ein, die Sie verwenden möchten. Klicken Sie auf **"Erweitert",** und geben Sie einen Wert für das **Feld LocationProfile** ein.
+- **Konferenzzentrale –** Geben Sie einen Wert für "Ladestufe" an. Ein anderer Wert als "Deaktiviert" aktiviert das Feld **Telefonnummer.** Geben Sie die Telefonnummer der automatischen Telefonzentrale ein, die Sie verwenden möchten. Klicken Sie auf **"Erweitert",** und geben Sie einen Wert für das **Feld LocationProfile** ein.
     
 - **Service zum Parken von Anrufen –** Geben Sie hier eine Ladestufe an.
     
@@ -308,7 +308,7 @@ Folgende Optionen sind verfügbar:
   
 Web App unterstützt Konferenzszenarien über den Unified Communications Web API (UCWA)-Server, der auf einem Front-End-Server installiert ist. Verwenden Sie die Registerkarte "Web App", um alle Web-App-bezogenen Szenarien zu konfigurieren. Mögliche Optionen sind:
   
-- **Allgemeine Web App-Einstellungen –** Klicken Sie auf die Schaltfläche **"Zusätzliche Einstellungen",** und legen Sie **"ReachTargetServerUrl"** auf die virtuelle IP (VIP) des Verzeichnispools der Front-End-Pool-VIP fest.
+- **Allgemeine Web App-Einstellungen –** Klicken Sie auf die Schaltfläche **"Zusätzliche Einstellungen",** und legen Sie **reachTargetServerUrl** auf die virtuelle IP (VIP) des Verzeichnispools der Front-End-Pool-VIP fest.
     
 - **Anwendungsfreigabe –** Wählen Sie einen Wert für Load Level aus.
     
@@ -319,7 +319,7 @@ Web App unterstützt Konferenzszenarien über den Unified Communications Web API
 - **VoIP-Konferenzen –** Wählen Sie einen Wert für Load Level aus.
     
 > [!NOTE]
-> Jedes Szenario verfügt über eine **Schaltfläche "Erweitert",** die sich daneben befindet. Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress and Performance Tools ändern und die Anpassung aktivieren.> Für jedes Web App-Szenario wird der im **ConversationsPerHour-Feld** angegebene Wert anstelle der Standardeinstellung verwendet, wenn die Ladestufe **"Benutzerdefiniert"** ist.
+> Jedes Szenario verfügt über eine **Schaltfläche "Erweitert",** die sich daneben befindet. Erweiterte Dialogfelder enthalten spezifische Werte für jedes Szenario, die das Verhalten des Stress and Performance Tools ändern und anpassungsfähigen.> Für jedes Web App-Szenario, wenn die Ladestufe **benutzerdefinierte** ist, wird der im **ConversationsPerHour-Feld** angegebene Wert anstelle der Standardeinstellung verwendet.
   
 #### <a name="mobility-tab"></a>Registerkarte "Mobilität"
 
@@ -334,7 +334,7 @@ Die folgenden Optionen sind verfügbar:
 - **Anwesenheits- und P2P-Chat/Audio –** Wählen Sie einen Wert für "Ladestufe" aus, um die Mobilitätssimulation zu aktivieren.
     
 > [!NOTE]
-> Jedes Szenario verfügt über eine **Schaltfläche "Erweitert",** die sich daneben befindet. Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress- und Leistungstools ändern und anpassungsfähigen.> Für jedes Mobilitätsszenario wird der im **Feld ConversationsPerHour** angegebene Wert anstelle des Standardwerts verwendet, wenn die Ladestufe **"Benutzerdefiniert"** ist.
+> Jedes Szenario verfügt über eine **Schaltfläche "Erweitert",** die sich daneben befindet. Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress and Performance Tools ändern und die Anpassung aktivieren.> Für jedes Mobilitätsszenario wird der im **ConversationsPerHour-Feld** angegebene Wert anstelle des Standardwerts verwendet, wenn die Ladestufe **"Custom"** ist.
   
 #### <a name="summary-tab"></a>Registerkarte "Zusammenfassung"
 
@@ -363,7 +363,7 @@ Das Tool "Lastenkonfiguration" (UserProfileGenerator.exe) erstellt eine Batchdat
   
 ### <a name="run-the-stress-and-performance-test"></a>Ausführen des Belastungs- und Leistungstests
 
-1. Kopieren Sie den Ordner mit den Konfigurationsordnern und -dateien in das Verzeichnis, das auf jedem Clientcomputer LyncPerfTool.exe hat. (Wenn Sie beispielsweise die Konfigurationsdateien im Ordner 1.28_13.16.16 generiert haben, kopieren Sie diesen Ordner in den Ordner mit LyncPerfTool.exe darin. Führen Sie dies auf jedem Client aus.)
+1. Kopieren Sie den Ordner mit den Darin enthaltenen Konfigurationsordnern und Dateien in das Verzeichnis, das auf jedem Clientcomputer LyncPerfTool.exe hat. (Wenn Sie beispielsweise die Konfigurationsdateien im Ordner mit dem Namen 1.28_13.16.16 generiert haben, kopieren Sie diesen Ordner in den Ordner mit LyncPerfTool.exe darin. Führen Sie dies auf jedem Client aus.)
     
 2. Navigieren Sie zum Clientordner, und führen Sie das **RunClient-Batchskript** aus. Sie können im Windows Explorer auf die Batchdatei doppelklicken, und sie führt alle Konfigurationsdateien für diesen Client aus. Sie können das Skript auch in einem Clientordner ausführen, indem Sie die folgende Syntax verwenden:
     
@@ -400,7 +400,7 @@ Das Skype for Business Server 2015 Stress and Performance Tool verfügt über vi
   
 ### <a name="client-counters"></a>Clientzähler
 
-Jede Instanz von LyncPerfTool.exe ausgeführt wird, verfügt über eine separate Instanz der Leistungsindikatoren. Jede Instanz wird anhand ihrer Prozess-ID benannt. Wenn Clients überlastet sind, können andere Probleme auftreten. So verhindern Sie diese Probleme:
+Jede Ausgeführte Instanz von LyncPerfTool.exe verfügt über eine separate Instanz der Leistungsindikatoren. Jede Instanz wird anhand ihrer Prozess-ID benannt. Wenn Clients überlastet sind, können andere Probleme auftreten. So verhindern Sie diese Probleme:
   
 - Überwachen sie die CPU- und Speicherauslastung auf den Clientcomputern. Wenn die CPU konsistent über 90 Prozent liegt, verringern Sie die Anzahl der Benutzer.
     
@@ -412,7 +412,7 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 
 |**Leistungsindikator**|**Beschreibung**|
 |:-----|:-----|
-|In Minuten aufgewendete Zeit  <br/> |Zeit, die seit dem Start des Prozesses aufgewendet wurde.  <br/> |
+|In Minuten aufgewendete Zeit  <br/> |Zeit, die seit dem Starten des Prozesses aufgewendet wurde.  <br/> |
 |Aktive Endpunkte  <br/> |Die Anzahl der Endpunkte, die derzeit mit dem Server verbunden sind.  <br/> |
 |Fehlgeschlagene Anmeldungen  <br/> |Gesamtzahl der Endpunkt-Anmeldefehler.  <br/> |
 |Anmeldeversuche  <br/> |Gesamtzahl der Endpunkt-Anmeldeversuche.  <br/> |
@@ -461,7 +461,7 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 |Aktive Anrufe  <br/> |Gesamtzahl der derzeit laufenden eingehenden/ausgehenden Sprachanrufe.  <br/> |
 |Beendete Anrufe  <br/> |Gesamtzahl der bereits beendeten eingehenden/ausgehenden Sprachanrufe.  <br/> |
 |Abgelehnte Anrufe  <br/> |Gesamtzahl der abgelehnten eingehenden Sprachanrufe.  <br/> |
-|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen  <br/> |Gesamtanzahl der versuchten eingehenden/ausgehenden Sprachanrufe.  <br/> |
+|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen.  <br/> |Gesamtanzahl der versuchten eingehenden/ausgehenden Sprachanrufe.  <br/> |
 |Eingerichtete eingehende/ausgehende Anrufe  <br/> |Gesamtzahl der eingerichteten eingehenden/ausgehenden Sprachanrufe.  <br/> |
 |Empfangene Anrufe NNN  <br/> |Gesamtzahl der nnn-Antwortcodes, die vom Server empfangen wurden.  <br/> |
 |VoIP-Passrate (%)  <br/> |Gesamtzahl der eingerichteten Anrufe/Gesamtzahl der versuchten Anrufe.  <br/> |
@@ -478,10 +478,10 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 |**Leistungsindikator**|**Beschreibung**|
 |:-----|:-----|
 |Aktive Anrufe  <br/> |Gesamtzahl der laufenden eingehenden/ausgehenden Chatanrufe.  <br/> |
-|Beendete Anrufe  <br/> |Gesamtzahl der eingehenden/ausgehenden Chatanrufe, die bereits beendet wurden.  <br/> |
+|Beendete Anrufe  <br/> |Die Gesamtzahl der eingehenden/ausgehenden Chatanrufe, die bereits beendet wurden.  <br/> |
 |Empfangene Anrufe NNN  <br/> |Gesamtzahl der nnn-Antwortcodes, die vom Server empfangen wurden.  <br/> |
 |Empfangene/gesendete Chatnachrichten  <br/> |Gesamtanzahl der empfangenen oder gesendeten Nachrichten für alle Sitzungen.  <br/> |
-|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen  <br/> |Gesamtanzahl der versuchten eingehenden/ausgehenden Chatanrufe.  <br/> |
+|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen.  <br/> |Gesamtzahl der versuchten eingehenden/ausgehenden Chatanrufe.  <br/> |
 |Eingerichtete eingehende/ausgehende Anrufe  <br/> |Gesamtzahl der eingehenden/ausgehenden Chatanrufe, die eingerichtet wurden.  <br/> |
    
 **Anrufinformationen zur App-Freigabe**
@@ -491,7 +491,7 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 |Aktive Anrufe  <br/> |Gesamtzahl der laufenden eingehenden/ausgehenden Anwendungsfreigabeanrufe.  <br/> |
 |Beendete Anrufe  <br/> |Gesamtanzahl der bereits beendeten eingehenden/ausgehenden Anwendungsfreigabeanrufe.  <br/> |
 |Empfangene Anrufe NNN  <br/> |Gesamtzahl der nnn-Antwortcodes, die vom Server empfangen wurden.  <br/> |
-|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen  <br/> |Gesamtanzahl der versuchten eingehenden/ausgehenden Anwendungsfreigabeanrufe.  <br/> |
+|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen.  <br/> |Gesamtanzahl der versuchten eingehenden/ausgehenden Anwendungsfreigabeanrufe.  <br/> |
 |Eingerichtete eingehende/ausgehende Anrufe  <br/> |Gesamtzahl der eingerichteten eingehenden/ausgehenden Anwendungsfreigabeanrufe.  <br/> |
    
 **CAA-Anrufinformationen**
@@ -500,7 +500,7 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 |:-----|:-----|
 |Aktive Anrufe  <br/> |Gesamtzahl der derzeit laufenden eingehenden/ausgehenden PsTN-Anrufe (Public Switched Telephone Network).  <br/> |
 |Beendete Anrufe  <br/> |Gesamtanzahl der eingehenden/ausgehenden PSTN-Anrufe, die bereits beendet wurden.  <br/> |
-|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen  <br/> |Gesamtzahl der versuchten eingehenden/ausgehenden PSTN-Anrufe.  <br/> |
+|Es wurde versucht, eingehende/ausgehende Anrufe zu tätigen.  <br/> |Gesamtzahl der versuchten eingehenden/ausgehenden PSTN-Anrufe.  <br/> |
 |Eingerichtete eingehende/ausgehende Anrufe  <br/> |Gesamtzahl der eingerichteten eingehenden/ausgehenden PSTN-Anrufe.  <br/> |
    
 **Konferenzinformationen**
