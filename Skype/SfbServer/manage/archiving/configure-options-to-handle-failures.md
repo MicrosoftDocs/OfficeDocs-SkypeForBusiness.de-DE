@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Archivierungsoptionen zur Behandlung von Fehlern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Chat- und Konferenzsitzungen bei einem Skype for Business Server Fehler blockieren, der die Archivierung verhindern würde.'
-ms.openlocfilehash: f86b26178963621b4d71a657e589a63f1351aeef
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 24bfa5190f4aa86a51d7737c952e6536a7d89b34
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767923"
 ---
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Konfigurieren von Archivierungsoptionen zur Behandlung von Fehlern in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie Chat- und Konferenzsitzungen bei einem Skype for Business Server Fehler blockieren, der die Archivierung verhindern würde.
   
-Wenn die Archivierung eine Anforderung für Ihre Organisation ist, können Sie Chat- und Konferenzsitzungen bei einem Skype for Business Server Fehler blockieren, der die Archivierung verhindern würde. Dies wird manchmal als kritischer Modus bezeichnet. Wenn beispielsweise ein Problem mit einem Speicherdienst vorliegt, werden Chatnachrichten für Benutzer blockiert, deren Kommunikation für die Archivierung aktiviert ist. Sofortnachrichten und Konferenzen werden nach dem Beheben des Fehlers automatisch wiederhergestellt. 
+Wenn die Archivierung eine Anforderung für Ihre Organisation ist, können Sie Chat- und Konferenzsitzungen im Falle eines Skype for Business Server Fehlers blockieren, der die Archivierung verhindern würde. Dies wird manchmal als kritischer Modus bezeichnet. Wenn beispielsweise ein Problem mit einem Speicherdienst vorliegt, werden Chatnachrichten für Benutzer blockiert, deren Kommunikation für die Archivierung aktiviert ist. Sofortnachrichten und Konferenzen werden nach dem Beheben des Fehlers automatisch wiederhergestellt. 
   
 ## <a name="configure-critical-mode-by-using-the-control-panel"></a>Konfigurieren des kritischen Modus mithilfe der Systemsteuerung
 
@@ -43,7 +43,7 @@ So geben Sie an, ob Kommunikationssitzungen im Falle eines Fehlers zulässig sei
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>Konfigurieren des kritischen Modus mithilfe von Windows PowerShell
 
-Mit dem Cmdlet **"Set-CsArchivingConfiguration"** mit dem Parameter "BlockOnArchiveFailure" können Sie auch angeben, ob Kommunikationssitzungen im Falle eines Fehlers zugelassen werden sollen, der die Archivierung verhindern würde.
+Mit dem Cmdlet **"Set-CsArchivingConfiguration"** mit dem Parameter "BlockOnArchiveFailure" können Sie auch angeben, ob Kommunikationssitzungen bei einem Fehler zugelassen werden sollen, der die Archivierung verhindern würde.
   
 Beispielsweise deaktiviert der folgende Befehl die Kommunikation im Falle eines Archivierungsfehlers:
   

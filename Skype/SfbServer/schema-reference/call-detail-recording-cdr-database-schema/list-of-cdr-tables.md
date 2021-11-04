@@ -1,7 +1,7 @@
 ---
 title: Liste der KDS-Tabellen in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) besteht aus den folgenden Tabellen.
-ms.openlocfilehash: acc509fc895c015ec213bd18560986b3f6d12aa7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1e8c76080089005977154c3e23d924a4b98dc6b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635129"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746661"
 ---
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste der KDS-Tabellen in Skype for Business Server 2015
  
@@ -40,7 +40,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 
 |**Table**|**Beschreibung**|
 |:-----|:-----|
-|[ClientVersions-Tabelle in Skype for Business Server 2015](clientversions.md) <br/> |Speichert die Clients (sowohl Clienttyp als auch Versionsnummer) aller an einem Anruf beteiligten Clients, wobei die Informationen in dieser Datenbank erfasst werden.  <br/> |
+|[Tabelle "ClientVersions" in Skype for Business Server 2015](clientversions.md) <br/> |Speichert die Clients (sowohl Clienttyp als auch Versionsnummer) aller an einem Anruf beteiligten Clients, wobei die Informationen in dieser Datenbank erfasst werden.  <br/> |
 |[ConferenceUris-Tabelle in Skype for Business Server 2015](conferenceuris.md) <br/> |Speichert eine Liste der ConferenceURI-Werte, die bei Telefonkonferenzen verwendet werden.  <br/> |
 |[ContentTypes-Tabelle in Skype for Business Server 2015](contenttypes.md) <br/> |Speichert eine Liste der SIP-Inhaltstypen (Session Initiation-Protokoll), die bei Peer-zu-Peer-Anrufen und Telefonkonferenzen verwendet werden.  <br/> |
 |[Tabelle "Geräte" in Skype for Business Server 2015](devices.md) <br/> |Speichert eine Liste der Geräte, einschließlich Hersteller, Hardwareversion und MAC-Adresse.  <br/> |
@@ -55,7 +55,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 |[Pools-Tabelle](pools.md) <br/> |Speichert die Namen der Pools, in denen Sofortnachrichten erfasst werden.  <br/> |
 |[Servertabelle](servers.md) <br/> |Speichert den Namen der an Anrufen beteiligten Server.  <br/> |
 |[Mandantentabelle](tenants.md) <br/> |Speichert die von der aktuellen Bereitstellung unterstützten Mandanten. Es gibt einige integrierte Mandanten für Unternehmensbenutzer, Verbundbenutzer, Benutzer mit Verbindung mit öffentlichen Instant Messaging-Diensten sowie anonyme Benutzer.  <br/> |
-|[UserAgentDef-Tabelle](useragentdef.md) <br/> |Karten Benutzer-Agent-IDs an die beschreibenden Namen des Agents an.  <br/> |
+|[UserAgentDef-Tabelle](useragentdef.md) <br/> |Karten Benutzer-Agent-IDs an die beschreibenden Namen des Agents.  <br/> |
 |[Users-Tabelle](users.md) <br/> |Speichert die Benutzer-URIs von Benutzern, die an Sitzungen teilgenommen haben, die in dieser Datenbank aufgezeichnet oder archiviert wurden.  <br/> |
 |[UserStatistics-Tabelle](userstatistics.md) <br/> |Speichert Informationen über die Nutzung des Systems durch einen einzelnen Benutzer.  <br/> |
    

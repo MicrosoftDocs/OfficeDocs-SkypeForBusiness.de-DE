@@ -1,7 +1,7 @@
 ---
 title: Löschen einer Archivierungskonfiguration in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.'
-ms.openlocfilehash: 046bd2c1fc5e54189ac038bdf769a711b3c9a774
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f0489fb26526a8e68935754a8689e28eca9ef335
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621141"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767883"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype for Business Server
 

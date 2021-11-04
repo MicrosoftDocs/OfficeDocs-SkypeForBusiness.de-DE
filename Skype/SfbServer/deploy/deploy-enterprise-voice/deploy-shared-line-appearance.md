@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen der Funktion "Gemeinsame Leitungen" in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/7/2018
@@ -16,21 +16,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
-description: Lesen Sie dieses Thema, um zu erfahren, wie Sie das SLA (Shared Line Appearance) im kumulativen Update Skype for Business Server 2015, November 2015, bereitstellen. SLA ist ein Feature für die Behandlung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird.
-ms.openlocfilehash: 43c792f7a63d3d58c734036e949250a85a621438
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: In diesem Thema erfahren Sie, wie Sie die Funktion "Gemeinsame Leitungen" (Shared Line Appearance, SLA) in Skype for Business Server kumulativen Update vom November 2015 2015 bereitstellen. SLA ist ein Feature für die Behandlung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird.
+ms.openlocfilehash: edf731976ae9fbf36f99266f0d993c9e4e78fa34
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591909"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749444"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Bereitstellen der Funktion "Gemeinsame Leitungen" in Skype for Business Server 2015
 
-Lesen Sie dieses Thema, um zu erfahren, wie Sie das SLA (Shared Line Appearance) im kumulativen Update Skype for Business Server 2015, November 2015, bereitstellen. SLA ist ein Feature für die Behandlung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird.
+In diesem Thema erfahren Sie, wie Sie die Funktion "Gemeinsame Leitungen" (Shared Line Appearance, SLA) in Skype for Business Server kumulativen Update vom November 2015 2015 bereitstellen. SLA ist ein Feature für die Behandlung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird.
 
 Weitere Informationen zu diesem Feature finden Sie unter [Plan for Shared Line Appearance in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
 
-SLA (Shared Line Appearance) ist ein neues Feature im kumulativen Update Skype for Business Server November 2015. Um dieses Feature zu aktivieren, müssen Sie zuerst dieses kumulative Update bereitgestellt haben.
+SLA (Shared Line Appearance) ist ein neues Feature in Skype for Business Server kumulativen Update vom November 2015. Um dieses Feature zu aktivieren, müssen Sie zuerst dieses kumulative Update bereitgestellt haben.
 
 ### <a name="install-shared-line-appearance"></a>Installieren der Funktion "Gemeinsame Leitungen"
 
@@ -70,7 +70,7 @@ SLA (Shared Line Appearance) ist ein neues Feature im kumulativen Update Skype f
 
     Im folgenden Beispiel wird eine SLA-Gruppe für einen vorhandenen Enterprise-VoIP Benutzer, SLAGroup1, erstellt und die für SLAGroup1 zugewiesene Nummer als SLA-Hauptliniennummer verwendet.
 
-    Der Befehl legt die maximale Anzahl gleichzeitiger Anrufe für die neue SLA-Gruppe auf 3 fest, und für darüber hinausgehende Anrufe, um ein Besetzt-Signal zu hören:
+    Der Befehl legt die maximale Anzahl gleichzeitiger Anrufe für die neue SLA-Gruppe auf 3 fest, und für anrufe, die darüber hinausgehen, um ein besetztes Signal zu hören:
 
    ```powershell
    Set-CsSlaConfiguration -Identity SLAGroup1 -MaxNumberOfCalls 3 -BusyOption BusyOnBusy
@@ -104,7 +104,7 @@ SLA (Shared Line Appearance) ist ein neues Feature im kumulativen Update Skype f
   Set-CsSlaConfiguration -Identity <IdentityOfGroup> -BusyOption <Option> [-Target <TargetUserOrPhoneNumber>]
   ```
 
-    Im folgenden Beispiel werden Anrufe festgelegt, die die maximale Anzahl gleichzeitiger Anrufe überschreiten, die an die Telefonnummer 202-555-1234 weitergeleitet werden sollen. Das Ziel kann ein Benutzer in Ihrer Organisation anstelle einer Telefonnummer sein. in diesem Fall ist die Syntax für die Person, die die weitergeleiteten Anrufe empfängt, identisch mit der Syntax, wenn Sie einen Delegaten angeben:  `sip:<NameofDelegate@domain>` . Der andere mögliche Parameter  `BusyOption` `Voicemail` ist:
+    Im folgenden Beispiel werden Anrufe festgelegt, die die maximale Anzahl gleichzeitiger Anrufe überschreiten, die an die Telefonnummer 202-555-1234 weitergeleitet werden sollen. Das Ziel kann ein Benutzer in Ihrer Organisation anstelle einer Telefonnummer sein. In diesem Fall ist die Syntax für die Person, die die weitergeleiteten Anrufe entgegennehmen soll, identisch mit der Syntax, wenn Sie einen Delegaten angeben:  `sip:<NameofDelegate@domain>` . Der andere mögliche Parameter  `BusyOption` `Voicemail` ist:
 
   ```powershell
   Set-CsSlaConfiguration -Identity SLAGroup1 -BusyOption Forward -Target tel:+2025551234
@@ -132,7 +132,7 @@ SLA (Shared Line Appearance) ist ein neues Feature im kumulativen Update Skype f
   Remove-CsSlaDelegates -Identity <IdentityOfGroup> -Delegate <NameOfDelegate@domain>
   ```
 
-    Zum Beispiel:
+    Beispiel:
 
   ```powershell
   Remove-CsSlaDelegates -Identity SLAGroup1 -Delegate sip:SLA_Delegate3@contoso.com

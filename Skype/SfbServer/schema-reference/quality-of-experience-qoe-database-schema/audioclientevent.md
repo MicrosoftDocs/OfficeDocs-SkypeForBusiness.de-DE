@@ -1,7 +1,7 @@
 ---
 title: AudioClientEvent-Tabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
-ms.openlocfilehash: 65897c03f44cac5fd10a0e2c56e78bb5751ae7e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767313"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent-Tabelle
  
@@ -32,7 +32,7 @@ Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioan
 |**FromCaller** <br/> |Bit  <br/> |Primary  <br/> |0: Daten des Angerufenen  <br/> 1: Anruferdaten  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das NetworkSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der gesendeten Audiodaten aus.  <br/> |
 |**NetworkReceiveQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der empfangenen Audiodaten aus.  <br/> |
-|**NetworkDelayEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das Delay-Ereignis für den Status "Ungültig" ausgelöst wurde. Die Netzwerklatenz ist schwerwiegend und wirkt sich auf die Benutzererfahrung aus, indem die interaktive Kommunikation verhindert wird.  <br/> |
+|**NetworkDelayEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das Verzögerungsereignis für den Status "Ungültig" ausgelöst wurde. Die Netzwerklatenz ist schwerwiegend und wirkt sich auf die Benutzererfahrung aus, indem die interaktive Kommunikation verhindert wird.  <br/> |
 |**NetworkBandwidthLowEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das LowBandwidth-Ereignis für den Status "Ungültig" ausgelöst wurde. Die verfügbare Bandbreite reicht für eine akzeptable Spracherfahrung nicht aus.  <br/> |
 |**CPUInsufficientEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das unzureichende CPU-Ereignis für den Zustand "Ungültig" ausgelöst wurde. Es gibt unzureichende CPU-Zyklen für die Verarbeitung mit den aktuellen Verwendeten Modalitäten und Anwendungen. Dies führt zu Beeinträchtigungen beim Audiokanal.  <br/> |
 |**DeviceHalfDuplexAECEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das DeviceHalfDuplexAEC-Ereignis für den Status "Ungültig" ausgelöst wurde. Um Echo zu verhindern, ist das System halbduplex.  <br/> |

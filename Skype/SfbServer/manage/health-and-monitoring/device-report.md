@@ -1,7 +1,7 @@
 ---
 title: Gerätebericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Zusammenfassung: Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.'
-ms.openlocfilehash: f8c3368132dc1924ababfa6fe71b36daa412afee
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6fd03c402209f5ab33db91038406ac0a5b930ba9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58632909"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767723"
 ---
 # <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
@@ -109,7 +109,7 @@ Wenn es um Gerätenamen geht, ist der Gerätebericht äußerst detailliert. Ange
 > [!NOTE]
 > Beachten Sie, dass die Namen von Aufnahmegeräten möglicherweise nicht identisch sind, wenn Sie lokalisierte Versionen von Skype for Business Server ausführen. Ein Gerät mit dem Namen Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US-Englisch könnte einen anderen Namen auf Französisch oder Spanisch haben. 
   
-Häufig benötigen Sie diese Detailebene. In anderen Fällen sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit, informationen wie diese abzurufen, besteht darin, die Geräteberichtsdaten in Microsoft Excel zu exportieren und diese Daten dann in einer durch Trennzeichen getrennten Wertedatei zu speichern (z. B. C:\Data\Devices_Report.csv). Anschließend können Sie eine Reihe von Ähnlichen Befehlen verwenden, um die .CSV-Datei in Windows PowerShell zu importieren und die Gesamtzahl der Anrufe zu melden, die mit einem Aastra-Aufnahmegerät getätigt wurden:
+Häufig benötigen Sie diese Detailebene. In anderen Fällen sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit zum Abrufen dieser Informationen besteht darin, die Geräteberichtsdaten in Microsoft Excel zu exportieren und diese Daten dann in einer durch Trennzeichen getrennten Wertedatei zu speichern (z. B. C:\Data\Devices_Report.csv). Anschließend können Sie eine Reihe von Befehlen wie diese verwenden, um die .CSV-Datei in Windows PowerShell zu importieren und die Gesamtzahl der Anrufe zu melden, die mit einem Aastra-Aufnahmegerät getätigt wurden:
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv
@@ -126,12 +126,12 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
   
 In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Gerätebericht verwenden können.
   
-**Geräteberichtsfilter**
+**Geräteberichtfilter**
 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
 |**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Ursache des Sprachschalters** <br/> |Grund, warum ein Anruf in den Halbduplex-Modus versetzt werden musste, um Echo zu verhindern. Im Halbduplex-Modus kann die Kommunikation jeweils nur in eine Richtung erfolgen, ähnlich der Art und Weise, in der sich Benutzer bei der Kommunikation mit einem Walkie-Talkie-Gerät abwechseln. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] None Bad timestamp Echo DNLP (dynamic nonlinear processor) Low complexity Bad device state Post-AEC echo (echo cancellation) |
 |**Echoursache** <br/> |Grund, warum echo oberhalb der akzeptierten Ebene in einem Anruf erkannt wurde. (In der Telekommunikation ist Echo eine Spiegelung des Sounds, dasselbe Problem, das Sie hören, wenn Sie bis zum Ende eines Welles yelln.) Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] None Bad timestamp post-AEC echo (acoustic echo cancellation) ANLP (adaptiver nichtlinearer Prozessor) DNLP (dynamic nonlinear processor) Microphone clipping |
 |**Anruftyp** <br/> |Gibt den Typ des Anrufs an, der ausgeführt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] PsTN-Telefonkonferenzanruf für Clientanrufe |
@@ -139,7 +139,7 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie im Gerätebericht 
 |**Netzwerktyp** <br/> |Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] Kabelgebundene Drahtlosverbindung |
 |**VPN** <br/> |Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus:  <br/> [Alle] VPN, kein VPN |
 |**Gerätetyp** <br/> |Gibt den Typ des Geräts an. Wählen Sie eine der folgenden Optionen aus:  <br/> Geräte-Geräte-Rendergerät erfassen/Gerätepaar rendern |
-|**Gerätename** <br/> |Name des Aufnahme- oder Rendergeräts. Sie können den vollständigen Gerätenamen oder einen beliebigen Teil des Gerätenamens eingeben. Um beispielsweise das Gerätemikrofon (Microsoft LifeCam VX-1000) zu finden, können Sie den vollständigen Gerätenamen wie folgt eingeben:  <br/> Mikrofon (Microsoft LifeCam VX-1000.)  <br/> Sie können auch nur einen Teil des Namens eingeben. Zum Beispiel:  <br/> Lifecam  <br/> Beachten Sie, dass der vorherige Filter jedes Gerät zurückgibt, das die Zeichenfolge "LifeCam" an einer beliebigen Stelle im Namen enthält.  <br/> |
+|**Gerätename** <br/> |Name des Aufnahme- oder Rendergeräts. Sie können den vollständigen Gerätenamen oder einen beliebigen Teil des Gerätenamens eingeben. Um beispielsweise das Gerätemikrofon (Microsoft LifeCam VX-1000) zu finden, können Sie den vollständigen Gerätenamen wie folgt eingeben:  <br/> Mikrofon (Microsoft LifeCam VX-1000.)  <br/> Sie können auch nur einen Teil des Namens eingeben. Beispiel:  <br/> Lifecam  <br/> Beachten Sie, dass der vorherige Filter jedes Gerät zurückgibt, das die Zeichenfolge "LifeCam" an einer beliebigen Stelle im Namen enthält.  <br/> |
    
 ## <a name="metrics"></a>Metriken
 

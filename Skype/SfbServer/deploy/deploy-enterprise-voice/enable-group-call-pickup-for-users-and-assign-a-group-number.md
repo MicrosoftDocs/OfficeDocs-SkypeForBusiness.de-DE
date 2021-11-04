@@ -1,7 +1,7 @@
 ---
 title: Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c33bb6c2-d43b-4fb6-a0fa-6d82a7b09abe
 description: Aktivieren Sie Benutzer für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP, und weisen Sie eine Gruppennummer zu.
-ms.openlocfilehash: 2aad048c5e01e34e4503fa648fe5cac96e142690
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c053ae4551ea5954f15261755c20afbf8a45f7b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614895"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759088"
 ---
 # <a name="enable-group-call-pickup-for-users-and-assign-a-group-number-in-skype-for-business"></a>Aktivieren der Gruppenanrufannahme für Benutzer und Zuweisen einer Gruppennummer in Skype for Business
 
@@ -48,6 +48,6 @@ Nachdem Sie der Orbittabelle für das Parken von Anrufen Gruppennummern für die
    SEFAUtil.exe katarina@contoso.com /server:pool01.contoso.com /enablegrouppickup:199
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Deaktivieren der Gruppenannahme für Benutzer](/previous-versions/office/lync-server-2013/lync-server-2013-disable-group-call-pickup-for-users)

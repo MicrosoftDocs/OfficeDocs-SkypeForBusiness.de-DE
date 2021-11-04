@@ -1,7 +1,7 @@
 ---
 title: Verwalten der Archivierung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Archivierung für Skype for Business Server verwalten.'
-ms.openlocfilehash: d7751e8aff9bb9d1f559655671ff56655dc0f188
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ab66b0abae48884935a3041c2fabed9124a9271
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630689"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768013"
 ---
 # <a name="manage-archiving-in-skype-for-business-server"></a>Verwalten der Archivierung in Skype for Business Server
 
@@ -46,7 +46,7 @@ Archivierungskonfigurationsoptionen geben an, ob:
     
 - Einrichten des Löschens und Exportierens von Daten
     
-Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server](options.md).
+Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server.](options.md)
   
 ## <a name="archiving-policies"></a>Archivierungsrichtlinien
 
@@ -58,7 +58,7 @@ Archivierungsrichtlinien bestimmen, ob Folgendes archiviert werden soll:
     
 Diese Richtlinien können auf globaler, Standort- oder Benutzerebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsrichtlinien in Skype for Business Server.](policies.md)
   
-## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Verwalten der Archivierung mithilfe der Systemsteuerung oder Windows PowerShell
+## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Verwalten der Archivierung mithilfe der Systemsteuerung oder mit Windows PowerShell
 
 Sie können die Archivierung mithilfe der Systemsteuerung oder mit Windows PowerShell verwalten. In der folgenden Tabelle sind die cmdlets zusammengefasst, die Ihnen bei der Verwaltung der Archivierung zur Verfügung stehen. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md) 
 

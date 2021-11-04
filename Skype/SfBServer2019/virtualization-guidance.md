@@ -1,7 +1,7 @@
 ---
 title: 'Virtualisierungsunterstützung für Skype for Business Server 2019 '
 ms.reviewer: corbinm
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 06/04/2020
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Erfahren Sie mehr über die Virtualisierungsunterstützung für Skype for Business Server 2019.'
-ms.openlocfilehash: 3db97c5aeb2f0473b8b262f8a77e4e06af1b7d1d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 850bfc0ae19aa8391baca6c9a8b6f1dde85cde2d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594879"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767103"
 ---
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Virtualisierungsunterstützung für Skype for Business Server 2019
 
@@ -40,8 +40,8 @@ SfB Server 2019 wird auf Windows Server 2016 und Windows Server 2019 unterstütz
 
 Für Hypervisoren von Drittanbietern benötigen Sie einen Hypervisor, der das Server Virtualization Validation Program (SVVP)-Test für das entsprechende Betriebssystem bestanden hat.
 
-- Sehen Sie sich die [Windows Server 2016 Versionen](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) in der SVVP-Liste an.
-- Siehe [Windows Server 2019-Versionen](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) in der SVVP-Liste.
+- Siehe [die Windows Server 2016 Versionen](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=88&avt=0&avq=0&OR=1&PGS=25) in der SVVP-Liste.
+- Siehe [die Versionen Windows Server 2019](https://www.windowsservercatalog.com/results.aspx?&bCatID=1521&cpID=0&avc=86&ava=130&avt=0&avq=0&OR=1&PGS=25) in der SVVP-Liste.
 
 ## <a name="stress-and-performance-tool"></a>Stress- und Leistungstool
 
@@ -49,6 +49,6 @@ Das Skype for Business Server 2019 Stress and Performance Tool enthält Tools, d
 
 - Vereinfachen der Hardwareplanung für Skype for Business Server 2019
 - Bereitstellen von mehr Wissen und bewährten Methoden für die Leistungsoptimierung
-- Messen der Leistung Ihrer vorgesehenen Skype for Business Server 2019-Bereitstellungen
+- Messen der Leistung Ihrer beabsichtigten Skype for Business Server 2019-Bereitstellungen
  
 Sie können das Tool [hier](https://www.microsoft.com/download/details.aspx?id=101447)herunterladen.

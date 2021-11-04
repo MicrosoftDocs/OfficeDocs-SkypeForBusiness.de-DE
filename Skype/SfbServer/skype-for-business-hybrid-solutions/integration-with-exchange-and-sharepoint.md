@@ -1,7 +1,7 @@
 ---
 title: Integration mit Exchange und Microsoft Office SharePoint Online
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -21,18 +21,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5d456d6c-ad71-420c-b6d8-4d9cd0324f86
 description: 'Zusammenfassung: Erfahren Sie mehr über Skype for Business Server 2015-Integration in Exchange und SharePoint.'
-ms.openlocfilehash: a2caf4cf409f3631ebc0a85cd2957b30e9d36d2a
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 6805296716970df896a42a3e01a89eb212930ecb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013139"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746511"
 ---
 # <a name="integration-with-exchange-and-sharepoint"></a>Integration mit Exchange und Microsoft Office SharePoint Online
 
 **Zusammenfassung:** Erfahren Sie mehr über Skype for Business Server 2015-Integration in Exchange und SharePoint.
 
-Sie können Skype for Business Server 2015-Bereitstellungen für die Integration mit Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 und SharePoint Server sowohl lokal als auch online konfigurieren. Die in der folgenden Tabelle aufgeführten Features werden mit allen Clients unterstützt, sofern nichts anderes angegeben ist. Weitere Informationen zur Clientunterstützung finden Sie unter [Desktop client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) and Skype for Business Online client comparison tables at Clients for Skype for Business [Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-features).
+Sie können Skype for Business Server 2015-Bereitstellungen für die Integration mit Microsoft Exchange Server 2016, Microsoft Exchange Server 2013, Microsoft Exchange Server 2010 und SharePoint Server konfigurieren, sowohl lokal als auch online. Die in der folgenden Tabelle aufgeführten Features werden mit allen Clients unterstützt, sofern nichts anderes angegeben ist. Weitere Informationen zur Clientunterstützung finden Sie unter [Desktop client feature comparison for Skype for Business](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md) and Skype for Business Online client comparison tables at Clients for Skype for Business [Online](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-features).
 
 [!INCLUDE [sfbo-retirement-skype](../../Hub/includes/sfbo-retirement.md)]
 
@@ -43,7 +43,7 @@ In den folgenden Tabellen sind die Features aufgeführt, die bei der Integration
  **Skype for Business Server lokal und Exchange lokal**
 
 
-|**Feature**|**Notizen**|
+|**Funktion**|**Hinweise**|
 |:-----|:-----|
 |Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Chat und Anwesenheit.](/previous-versions/office/lync-server-2013/lync-server-2013-im-and-presence)  <br/> |
 |Planen und Teilnehmen an Onlinebesprechung über Outlook  <br/> |Weitere Informationen finden Sie unter [Integrieren von Skype for Business Server 2015 in Exchange Server.](../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
@@ -63,12 +63,12 @@ In den folgenden Tabellen sind die Features aufgeführt, die bei der Integration
  **lokale Skype for Business Server und Exchange Online**
 
 
-|**Feature**|**Notizen**|
+|**Funktion**|**Hinweise**|
 |:-----|:-----|
-|Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|Chat/Anwesenheit in Outlook  <br/> |Weitere Informationen finden Sie unter Konfigurieren der [Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |Planen und Teilnehmen an Onlinebesprechung über Outlook  <br/> ||
-|Chat/Anwesenheit in Outlook Web App  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
-|Planen und Teilnehmen an Onlinebesprechung über Outlook Web App  <br/> |Weitere Informationen finden Sie unter [Konfigurieren der Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|Chat/Anwesenheit in Outlook Web App  <br/> |Weitere Informationen finden Sie unter Konfigurieren der [Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
+|Planen und Teilnehmen an Onlinebesprechung über Outlook Web App  <br/> |Weitere Informationen finden Sie unter Konfigurieren der [Integration zwischen lokalen Skype for Business Server 2015 und Outlook Web App](../deploy/integrate-with-exchange-server/outlook-web-app.md) <br/> |
 |Chat/Anwesenheit in mobilen Clients  <br/> ||
 |Teilnehmen an Onlinebesprechung in mobilen Clients  <br/> ||
 |Veröffentlichungsstatus basierend auf Outlook Frei/Gebucht-Kalenderinformationen  <br/> ||
@@ -87,5 +87,5 @@ In der folgenden Tabelle sind die Features aufgeführt, die bei der Integration 
 
 ||**SharePoint (lokal)**|**SharePoint Online**|
 |:-----|:-----|:-----|
-|**Skype for Business Server 2015 lokal** <br/> | Suche nach Fähigkeiten <br/>  Anwesenheit in SharePoint <br/> | Anwesenheit in SharePoint <br/> |
+|**lokale Skype for Business Server 2015** <br/> | Suche nach Fähigkeiten <br/>  Anwesenheit in SharePoint <br/> | Anwesenheit in SharePoint <br/> |
 |**Skype for Business Online** <br/> | Anwesenheit in SharePoint <br/> | Anwesenheit in SharePoint <br/> |

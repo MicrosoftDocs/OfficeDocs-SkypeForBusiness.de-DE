@@ -1,7 +1,7 @@
 ---
 title: Richtlinie für den externen Zugriff
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 336ef724-ab2f-4215-b689-60248a90917f
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 429622c73a6b5a834bf812f1b1ba1a596684f484
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 066db292a5edad946bd274e73b95c6d996bc441a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752184"
 ---
 # <a name="external-access-policy"></a>Richtlinie für den externen Zugriff
 

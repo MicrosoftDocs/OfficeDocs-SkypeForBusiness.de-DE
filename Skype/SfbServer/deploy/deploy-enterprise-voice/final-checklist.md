@@ -1,7 +1,7 @@
 ---
-title: Endgültige Prüfliste für die Bereitstellung der Anrufsteuerung für Skype for Business Server
+title: Letzte Prüfliste für die Bereitstellung der Anrufsteuerung für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d56a525f-3da5-4ac0-a311-0c5efd98c9df
-description: Abschließende Prüfliste für die Bereitstellung der Anrufsteuerung (Call Admission Control, CAC) in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 70fadce643fa21d9551a6a6ba26a2883579eee1f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Letzte Prüfliste für die Bereitstellung der Anrufsteuerung (Call Admission Control, CAC) in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 11bf5a69b273f1311399090cc893bee1f4732443
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594143"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759077"
 ---
 # <a name="call-admission-control-deployment-final-checklist-for-skype-for-business-server"></a>Bereitstellung der Anrufsteuerung: letzte Prüfliste für Skype for Business Server
  
-Abschließende Prüfliste für die Bereitstellung der Anrufsteuerung (Call Admission Control, CAC) in Skype for Business Server Enterprise-VoIP. 
+Letzte Prüfliste für die Bereitstellung der Anrufsteuerung (Call Admission Control, CAC) in Skype for Business Server Enterprise-VoIP. 
   
-Überprüfen Sie anhand der folgenden Prüfliste, ob Sie alle erforderlichen Konfigurationsaufgaben für die Bereitstellung der Anrufsteuerung (Call Admission Control, CAC) ausgeführt haben.
+Überprüfen Sie anhand der folgenden Prüfliste, ob Sie alle erforderlichen Konfigurationsaufgaben zum Bereitstellen der Anrufsteuerung (Call Admission Control, CAC) ausgeführt haben.
   
 - Wenn ein oder mehrere Edgeserver bereitgestellt wurden, muss die IP-Adresse jeder externen Schnittstelle der Subnetzliste in den Netzwerkkonfigurationseinstellungen mit der Bitmaske 32 hinzugefügt werden. Sie sollten dieses Subnetz (IP-Adresse) außerdem der Netzwerkstandort-ID für den geografischen Standort zuordnen, an dem der A/V-Edgedienst bereitgestellt wurde.
     

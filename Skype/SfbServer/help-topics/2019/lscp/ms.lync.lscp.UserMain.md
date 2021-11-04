@@ -1,7 +1,7 @@
 ---
 title: Systemsteuerung – aktualisierte Benutzersuche
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für Skype for Business Server zu konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URIs (Uniform Resource Identifier) nach Benutzern suchen. Sie können auch über die Lync Server-Systemsteuerung oder das Snap-In "Active Directory-Benutzer und -Computer" nach Benutzern suchen.
-ms.openlocfilehash: f3a605ae5352507319ec1ee5d626a20688c1beea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efcb183eb9f763113d5db4c49c86b1d3594173c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579219"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758847"
 ---
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
 
@@ -28,7 +28,7 @@ Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für Skype f
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Systemsteuerungsseite der **Benutzersuche** können Sie die folgenden Aufgaben ausführen:
+Sie können die folgenden Aufgaben auf der Systemsteuerungsseite der **Benutzersuche** ausführen:
 
 - [Nach Benutzern suchen](/previous-versions/office/lync-server-2013/lync-server-2013-search-for-lync-server-users)
 

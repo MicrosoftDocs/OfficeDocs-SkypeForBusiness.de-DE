@@ -1,7 +1,7 @@
 ---
 title: Servertabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1535e676-a647-4606-bc56-e8bfde5ca823
 description: Die Tabelle "Server" ist eine Unterstützende Tabelle, in der Informationen zu den verschiedenen Servern gespeichert werden. Jeder Datensatz in der Tabelle stellt einen Server dar.
-ms.openlocfilehash: 85165b0fa441988a15cd0ac74e25c54728cb2f1b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3a16fd189b01cdef871618eeafe1dc2ac24c762c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604644"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749774"
 ---
 # <a name="servers-table"></a>Servertabelle
  

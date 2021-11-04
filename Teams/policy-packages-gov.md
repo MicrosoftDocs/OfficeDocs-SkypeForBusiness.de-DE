@@ -1,7 +1,7 @@
 ---
-title: Teams Richtlinienpakete für Behörden
-author: cichur
-ms.author: serdars
+title: Teams von Richtlinienpaketen für Behörden
+author: serdars
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: aaglick
 ms.topic: article
@@ -16,18 +16,18 @@ f1.keywords: ''
 ms.custom: ''
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Teams Richtlinienpakete für Ihre Regierungsorganisation verwenden und verwalten.
-ms.openlocfilehash: 745957168c221caf566d04a795e378c642b8ae9a
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+description: Erfahren Sie, wie Sie Richtlinienpakete Teams Ihrer Regierungsorganisation verwenden und verwalten.
+ms.openlocfilehash: 02680b18d32e62a8a559ac6d2a30708e5aa05497
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605441"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749594"
 ---
-# <a name="teams-policy-packages-for-government"></a>Teams Richtlinienpakete für Behörden
+# <a name="teams-policy-packages-for-government"></a>Teams von Richtlinienpaketen für Behörden
 
 > [!NOTE]
-> Richtlinienpakete stehen derzeit in Bereitstellungen von Behörden Microsoft 365 Government GCC DoD nicht zur Verfügung.
+> Richtlinienpakete stehen derzeit in Bereitstellungen von Government Microsoft 365 Government GCC High oder DoD nicht zur Verfügung.
 
 ## <a name="overview"></a>Übersicht
 
@@ -51,7 +51,7 @@ Teams enthält derzeit die folgenden Richtlinienpakete für Behörden.
 
 ![Screenshot der Pakete für die Gesundheitsrichtlinie](media/policy-packages-gov.png)
 
-Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise das Richtlinienpaket des öffentlichen Sicherheitsbeauftragtes Benutzern in Ihrer Organisation zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen PublicSafety_Officer Richtlinie erstellt.
+Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können. Wenn Sie beispielsweise das Richtlinienpaket des öffentlichen Sicherheitsbeauftragtes Benutzern in Ihrer Organisation zuweisen, wird für jede Richtlinie im Paket eine Richtlinie namens PublicSafety_Officer Richtlinie erstellt.
 
 ![Screenshot der Richtlinien im Paket für klinische Mitarbeiter im Gesundheitswesen](media/policy-packages-public-safety-officer.png)
 

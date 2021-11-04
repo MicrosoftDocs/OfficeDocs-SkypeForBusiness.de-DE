@@ -1,14 +1,14 @@
 ---
 title: Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einer Microsoft Teams.
+description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einem Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c3c388ab19d74370612531e3ac998ff3e928e0d3
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726894"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749694"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
@@ -38,7 +38,7 @@ Erste Schritte:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich die **Teams**  >  **Teamvorlagen**.
+2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
 
 3. Klicken Sie auf **Hinzufügen**.
 
@@ -102,7 +102,7 @@ Erste Schritte:
 
 Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
-**Problem:** Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte "Teams" auf einigen Websites nicht unterstützt.
+**Problem:** Bei verwendung Teams-Apps im Browser wird das Rendern auf einer Registerkarte mit Teams nicht unterstützt.
 
 ![browser-Fehlermeldung angezeigt.](media/browser-error-message.png)
 

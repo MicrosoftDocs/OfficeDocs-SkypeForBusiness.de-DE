@@ -1,7 +1,7 @@
 ---
 title: Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Sie konfigurieren Optionen für den Server für beständigen Chat oder den Serverpool für beständigen Chat, indem Sie die folgenden Eigenschaften definieren:'
-ms.openlocfilehash: 242490ebe6be0f68e8c25e0c01b77088c15836d8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622437"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760803"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
  
@@ -37,7 +37,7 @@ Sie konfigurieren Optionen für den Server für beständigen Chat oder den Serve
 > [!NOTE]
 > Diese Option ist nur für Pools mit mehreren Servern verfügbar. 
   
- **Verwenden Sie diesen Pool \<site that this server or pool is being configured in\> als Standard für den Standort:** Aktivieren Sie dieses Kontrollkästchen, wenn dies der Standardpool für den Server für beständigen Chat oder der Server für beständigen Chat für den Standort ist. Sie müssen über einen standardmäßigen Server für beständigen Chat oder pol pro Standort verfügen.
+ **Verwenden Sie diesen Pool \<site that this server or pool is being configured in\> als Standard für den Standort:** Aktivieren Sie dieses Kontrollkästchen, wenn dies der Standardpool für den Server für beständigen Chat oder der Server für beständigen Chat für den Standort ist. Sie müssen über einen Standardmäßigserver für beständigen Chat oder pol pro Standort verfügen.
   
 > [!NOTE]
 > Wenn Ihre Topologie mehrere Standorte enthält, wird auch ein Kontrollkästchen für **"Diesen Pool als Standard für alle Standorte verwenden"** angezeigt.
@@ -50,8 +50,8 @@ Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assisten
   
 Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Planen des Servers für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)

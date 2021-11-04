@@ -1,7 +1,7 @@
 ---
 title: SessionDetails-Ansicht
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea328c6f-cf22-48dd-8f7f-f1666c9148c8
 description: In der SessionDetails-Ansicht werden Informationen zu Peer-to-Peer-Sitzungen gespeichert, bei denen es sich um einen VoIP-VoIP Telefonanruf, eine Chatsitzung mit zwei Teilnehmern oder einen anderen Sitzungstyp handeln kann. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 454cefc905409e0488121addab2cac5df55ef34d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5a278960912ac38dc75fe398e3d75de710785800
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625127"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767453"
 ---
 # <a name="sessiondetails-view"></a>SessionDetails-Ansicht
  
@@ -26,7 +26,7 @@ In der SessionDetails-Ansicht werden Informationen zu Peer-to-Peer-Sitzungen ges
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015-Tabelle.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md) Table. <br/> |
 |**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
 |**InviteTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der ersten INVITE-Anforderung. Dieses Feld wird typischerweise mit Daten aufgefüllt, die von der ersten INVITE-Nachricht in der Sitzung generiert werden. Ist keine INVITE-Nachricht vorhanden, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) aufgefüllt.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, der die Sitzung gestartet hat.  <br/> |
@@ -73,7 +73,7 @@ In der SessionDetails-Ansicht werden Informationen zu Peer-to-Peer-Sitzungen ges
 |**FromUserFlag** <br/> |Smallint  <br/> |Gibt die Attribute des Benutzers an, der die Sitzung gestartet hat. Die folgenden Attributdefinitionen sind zulässig:  <br/> 0x01 - Mit dem Desktoptelefon integriert  <br/> |
 |**ToUserFlag** <br/> |Smallint  <br/> |Gibt die Attribute des Benutzers an, der die Sitzung gestartet hat. Die folgenden Attributdefinitionen sind zulässig:  <br/> 0x01 - Mit dem Desktoptelefon integriert  <br/> |
 |**CallFlag** <br/> |Smallint  <br/> |Gibt die Anrufattribute an. Die folgenden Attributdefinitionen sind zulässig:  <br/> 0x01 - Sitzung mit Wiederholungsversuch  <br/> 0x02 - Ein vom Agent im Namen einer Reaktionsgruppe getätigter Anruf  <br/> |
-|**Standort** <br/> |varchar(max)  <br/> |Standort des Notrufs.  <br/> |
+|**Ort** <br/> |varchar(max)  <br/> |Standort des Notrufs.  <br/> |
 |**LastModifiedTime** <br/> |Datetime  <br/> |Für die interne Verwendung durch den Überwachungsdienst.  <br/> Dieses Feld wurde in Skype for Business Server 2015 eingeführt.  <br/> |
    
 

@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in den 2300er-Jahren
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Dena verfügbar.
-ms.openlocfilehash: eac947ef58bd6166f23451287bed2d419f57258e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619571"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760523"
 ---
 # <a name="availability-in-dominica"></a>Verfügbarkeit inBelegungen
 

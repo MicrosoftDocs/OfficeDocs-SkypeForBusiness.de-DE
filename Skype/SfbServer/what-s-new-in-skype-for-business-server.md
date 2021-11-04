@@ -1,7 +1,7 @@
 ---
 title: Neuigkeiten in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2017
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e62c9229-b738-45ef-b637-0b58ca8225a4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über neue Features in Skype for Business Server 2015 zu erfahren. Ausführliche Informationen zur neuen Clientumgebung finden Sie unter "Lync ist jetzt Skype for Business" – erfahren Sie, was neu ist.'
-ms.openlocfilehash: df0a16855ab7430e87847a392d263f35c6ec2993
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aac68c369983b85ecb95b5000dc41d95e2080d6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617621"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760563"
 ---
 # <a name="whats-new-in-skype-for-business-server-2015"></a>Neuigkeiten in Skype for Business Server 2015
 
@@ -29,14 +29,14 @@ Lync ist jetzt Skype for Business, einer Plattform für Kommunikation und Zusamm
   
 Zu den neuen Features in Skype for Business Server 2015 gehören Verbesserungen an:
   
-- Verwendung durch den Benutzer  
+- Benutzererfahrung  
 - Sprach- und Videounterstützung
 - Mobile Unterstützung
 - Verwaltung von lokalen Servern
 - Bereitstellung und Verwaltung von Hybridlösungen
 - Unterstützung der mehrstufigen Authentifizierung
     
-## <a name="user-experience"></a>Verwendung durch den Benutzer
+## <a name="user-experience"></a>Benutzererfahrung
 
 Der Skype for Business-Client sieht der Consumerversion von Skype sehr ähnlich und verwendet die gleichen Schaltflächen und Symbole. Weniger Menüs und eine flachere Aufgabenhierarchie erleichtern benutzern das schnelle Auffinden der benötigten Steuerelemente und Befehle. 
   
@@ -47,11 +47,11 @@ Skype for Business umfasst die oben beschriebene neue Benutzeroberfläche und di
   
 ## <a name="voice-and-video-improvements"></a>Sprach- und Videoverbesserungen
 
-Skype for Business Server 2015 umfasst Verbesserungen an der Sprach- und Videofunktion, einschließlich der Erfassung und Analyse von Anrufdaten, und verbesserte Interoperabilität mit Videotelekonferenzsystemen von Drittanbietern.
+Skype for Business Server 2015 umfasst Verbesserungen bei der Sprach- und Videofunktion, einschließlich der Erfassung und Analyse von Anrufdaten, und verbesserte Interoperabilität mit Videotelekonferenzsystemen von Drittanbietern.
   
 ### <a name="call-data-collection-and-analysis"></a>Anrufdatensammlung und -analyse
 
-Mit der Funktion "Meinen Anruf bewerten" können Skype for Business Server 2015-Administratoren Anrufdaten sammeln. Dieses Feature ist nur für lokale Bereitstellungen verfügbar. Benutzer werden aufgefordert, nach Abschluss eines Anrufs eine Umfrage zu nehmen. Weitere Informationen finden Sie unter ["Meinen Anruf in Skype for Business Server 2015 bewerten".](manage/health-and-monitoring/rate-my-call.md)
+Mit der Funktion "Meinen Anruf bewerten" können Skype for Business Server 2015-Administratoren Anrufdaten sammeln. Dieses Feature ist nur für lokale Bereitstellungen verfügbar. Benutzer werden aufgefordert, nach Abschluss eines Anrufs eine Umfrage zu nehmen. Weitere Informationen finden Sie unter ["Meinen Anruf bewerten" in Skype for Business Server 2015](manage/health-and-monitoring/rate-my-call.md).
   
 ### <a name="improved-interoperability-with-third-party-video-teleconferencing-systems"></a>Verbesserte Interoperabilität mit Videotelekonferenzsystemen von Drittanbietern
 
@@ -59,14 +59,14 @@ Der Video-Interoperabilität-Server (VIS) fungiert als Vermittler zwischen Skype
   
 ### <a name="call-via-work"></a>Anruf über den Arbeitsplatz
 
-Mit der Funktion "Anruf über Arbeit" können Unternehmensbenutzer Sprachanrufe über den Skype for Business-Client tätigen. Wenn ein Benutzer einen Sprachanruf abgibt, wird er von Skype for Business an die Nebenstellenanlage oder das FESTNETZ-Telefon des Absenders weitergeleitet. Sobald der Absender das Telefon entgegennimmt, wird der Anruf an die Zielnummer weitergeleitet. Der Anrufempfänger antworte, und der Anruf wird mit Skype for Business als Systemsteuerung eingerichtet. Der Absender kann seine Anwesenheits- und Anrufsteuerelemente über Skype for Business verwalten. Serveradministratoren aktivieren und konfigurieren "Anruf über Arbeit" für das Unternehmen. Weitere Informationen finden Sie unter [Plan for Call Via Work in Skype for Business Server 2015](plan-your-deployment/enterprise-voice-solution/call-via-work.md). 
+Mit der Funktion "Anruf über Arbeit" können Unternehmensbenutzer Sprachanrufe über den Skype for Business-Client tätigen. Wenn ein Benutzer einen Sprachanruf abgibt, wird er von Skype for Business an die Nebenstellenanlage oder das PSTN-Telefon des Absenders weitergeleitet. Sobald der Absender das Telefon entgegennimmt, wird der Anruf an die Zielnummer weitergeleitet. Der Anrufempfänger antworte, und der Anruf wird mit Skype for Business als Systemsteuerung eingerichtet. Der Absender kann seine Anwesenheits- und Anrufsteuerelemente über Skype for Business verwalten. Serveradministratoren aktivieren und konfigurieren "Anruf über Arbeit" für das Unternehmen. Weitere Informationen finden Sie unter [Plan for Call Via Work in Skype for Business Server 2015.](plan-your-deployment/enterprise-voice-solution/call-via-work.md) 
   
 ## <a name="mobile-device-support-improvements"></a>Verbesserungen bei der Unterstützung mobiler Geräte
 
-Zu den Verbesserungen bei der Unterstützung mobiler Geräte gehören Features zur Verbesserung der mobilen Benutzererfahrung für Enterprise Edition Benutzer, z. B. Zugriff auf Aufgezeichnete Unterhaltungen und Protokolldaten, erweiterte mobile Besprechungsumgebungen und Unterstützung für einmaliges Anmelden über Office hinweg. Darüber hinaus gibt es Verbesserungen an der Android-Unterstützung, Leistungsverbesserungen und Features, um die Integration über das Common App Framework zu vereinfachen. 
+Zu den Verbesserungen bei der Unterstützung mobiler Geräte gehören Features zur Verbesserung der mobilen Benutzererfahrung für Enterprise Edition Benutzer, z. B. zugriff auf Aufgezeichnete Unterhaltungen und Protokolldaten, verbesserte mobile Besprechungserfahrungen und Unterstützung für einmaliges Anmelden über Office hinweg. Darüber hinaus gibt es Verbesserungen an der Android-Unterstützung, Leistungsverbesserungen und Features, um die Integration über das Common App Framework zu vereinfachen. 
   
 > [!NOTE]
-> Lync 2013-UCWA-Server müssen auf Skype for Business Server 2015 aktualisiert werden, um mobile Clients zu unterstützen. 
+> Lync 2013 UCWA-Server müssen auf Skype for Business Server 2015 aktualisiert werden, um mobile Clients zu unterstützen. 
   
 ### <a name="server-side-conversation-history-is-now-available-on-mobile-devices"></a>Serverseitiger Unterhaltungsverlauf ist jetzt auf mobilen Geräten verfügbar.
 
@@ -82,14 +82,14 @@ Die auf dem Desktop verfügbaren Besprechungsfunktionen sind jetzt auch für mob
     
 ### <a name="skype-for-business-on-android-improvements"></a>Verbesserungen bei Skype for Business unter Android
 
-Skype for Business unter Android bietet jetzt Features, die in Skype for Business unter iOS und Skype for Business unter Windows verfügbar sind:
+Skype for Business unter Android bietet jetzt Features, die denen in Skype for Business unter iOS und Skype for Business unter Windows ähneln:
   
 - Fortsetzen oder erneutes Beitreten zu Unterhaltungen
 - Aktivieren von Zertifikaten und passiver Authentifizierung
 - Einladen anderer Personen zu einer Unterhaltung
 - Einfaches Starten von Gruppenunterhaltungen
 - An einer Besprechung teilnehmen, ohne ein Skype for Business Benutzer zu sein
-- Aktivieren der Smartphone-Benutzeroberfläche auf Android-Tablets
+- Aktivieren der Smartphone-UI auf Android-Tablets
 - Verwalten von Besprechungen durch Hinzufügen oder Entfernen von Teilnehmern
     
 > [!NOTE]
@@ -106,17 +106,17 @@ Sie können jetzt Lync Server 2013-Systeme auf Skype for Business Server 2015 ak
 Es gibt zwei Szenarien für direkte Upgrades: die Move User-Methode, die keine Ausfallzeiten erfordert, und die Offline-Methode, die Ausfallzeiten erfordert. Weitere Informationen dazu, welches Upgradeverfahren für Ihr Unternehmen geeignet ist, finden Sie unter ["Planen des Upgrades auf Skype for Business Server 2015".](plan-your-deployment/upgrade.md) 
   
 > [!NOTE]
-> Die direkte Option ist nicht verfügbar, wenn Sie ein Upgrade von Lync Server 2010 durchführen. Weitere Informationen zum Upgrade von Lync Server 2010 finden Sie unter [Plan to upgrade to Skype for Business Server 2015](plan-your-deployment/upgrade.md). 
+> Die direkte Option ist nicht verfügbar, wenn Sie ein Upgrade von Lync Server 2010 durchführen. Weitere Informationen zum Upgrade von Lync Server 2010 finden Sie unter [Planen des Upgrades auf Skype for Business Server 2015.](plan-your-deployment/upgrade.md) 
   
 ### <a name="smart-setup"></a>Intelligentes Setup
 
-Das Smart Setup-Feature, das Updates automatisch erkennt und herunterlädt, ist jetzt Teil des Setupprogramms. Während des Installationsvorgangs wird der Benutzer gefragt, ob der Installationsvorgang nach Updates suchen sollte. Weitere Informationen finden Sie unter [Installieren Skype for Business Server 2015.](deploy/install/install.md)
+Das Smart Setup-Feature, das Updates automatisch erkennt und herunterlädt, ist jetzt Teil des Setupprogramms. Während des Installationsvorgangs wird der Benutzer gefragt, ob der Installationsvorgang nach Updates suchen sollte. Weitere Informationen finden Sie unter [Install Skype for Business Server 2015](deploy/install/install.md).
   
 ### <a name="improved-front-end-server-patching-and-upgrade-process"></a>Verbesserter Patching- und Upgradeprozess für Front-End-Server
 
 Skype for Business Server führt zwei neue Cmdlets ein, die das Upgrade oder Patchen von Front-End-Servern wesentlich einfacher machen als in früheren Versionen von Lync Server.
   
-Wenn Sie einen Patch oder eine andere Wartung auf einen Front-End-Server anwenden müssen, geben Sie einfach **Invoke-CsComputerFailOver** ein, und geben Sie den Namen dieses Servers an. Skype for Business Server wird die Workload dieses Servers vorübergehend auf die anderen Server im Pool verschoben. Anschließend können Sie die Wartung durchführen und dann das Cmdlet **Invoke-CsComputerFailback** verwenden, um den Server wieder in Betrieb zu nehmen. Wenn Sie jeden Server in einem Pool patchen müssen, führen Sie einfach dieses Verfahren für jeden Server nacheinander aus. Mit diesen neuen Cmdlets können Sie Server viel schneller patchen als in früheren Versionen und mit mehr Zuverlässigkeit und einem einfacheren Workflow.
+Wenn Sie einen Patch oder eine andere Wartung auf einen Front-End-Server anwenden müssen, geben Sie einfach **Invoke-CsComputerFailOver** ein, und geben Sie den Namen dieses Servers an. Skype for Business Server verschiebt die Workload dieses Servers vorübergehend auf die anderen Server im Pool. Anschließend können Sie die Wartung durchführen und dann das Cmdlet **Invoke-CsComputerFailback** verwenden, um diesen Server wieder in Betrieb zu nehmen. Wenn Sie jeden Server in einem Pool patchen müssen, führen Sie einfach dieses Verfahren für jeden Server nacheinander aus. Mit diesen neuen Cmdlets können Sie Server wesentlich schneller patchen als in früheren Versionen, mit mehr Zuverlässigkeit und einem einfacheren Workflow.
   
 ### <a name="improved-front-end-pool-cold-start-capability"></a>Verbesserte Kaltstartfunktion des Front-End-Pools
 
@@ -124,7 +124,7 @@ Skype for Business Server führt ein neues Cmdlet ein, das den Kaltstart eines g
   
 ### <a name="sql-server-alwayson-support-for-on-premises-servers"></a>SQL Server AlwaysOn-Unterstützung für lokale Server
 
-Skype for Business Server 2015 bietet Unterstützung für SQL Server AlwaysOn-Verfügbarkeitsgruppen und SQL Server AlwaysOn-Failoverclusterinstanzen. Zusätzlich zu diesen Features unterstützt Skype for Business Server weiterhin Datenbankspiegelung und SQL Server Clustering, wie in früheren Versionen von Lync Server.
+Skype for Business Server 2015 bietet Unterstützung für SQL Server AlwaysOn-Verfügbarkeitsgruppen und SQL Server AlwaysOn-Failoverclusterinstanzen. Zusätzlich zu diesen Features setzt Skype for Business Server die Unterstützung für datenbankspiegelung und SQL Server Clustering fort, wie in früheren Versionen von Lync Server.
   
 SQL Server AlwaysOn-Verfügbarkeitsgruppen ist eine Lösung für hohe Verfügbarkeit und Notfallwiederherstellung in SQL Server 2012 und SQL Server 2014, die eine Alternative zur Datenbankspiegelung bietet. Eine Verfügbarkeitsgruppe unterstützt eine Failoverumgebung für eine diskrete Gruppe von Datenbanken (auch als Verfügbarkeitsdatenbanken bezeichnet), die gemeinsam einen Failover ausführen. Eine Verfügbarkeitsgruppe unterstützt eine Reihe primärer Datenbanken mit Lese-/Schreibzugriff und eine bis vier Sätze entsprechender sekundärer Datenbanken. Optional können sekundäre Datenbanken für schreibgeschützten Zugriff und für einige Sicherungsvorgänge zur Verfügung gestellt werden.
   
@@ -149,15 +149,15 @@ Skype for Business Server 2015 bietet Verwaltungs- und Verwaltungsfunktionen fü
 - Empfehlungen für Hybridbereitstellungen basierend auf dem Status der lokalen Ressourcen des Kunden, wie vom OnRamp für Office 365 automatisierten Hilfstool bestimmt.
 - Verbesserungen an der Skype for Business Server Systemsteuerung und dem Skype for Business Server Admin Center, sodass Administratoren diese Tools zum Verwalten einer Hybridbereitstellung verwenden können.
 - Verbesserungen in der Systemsteuerung, mit denen sich Administratoren bei einem Microsoft 365 oder Office 365 Mandanten anmelden und eine Hybridbereitstellung mit Skype for Business Online mithilfe des Assistenten für die Hybridkonfiguration einrichten können.
-- Systemsteuerungsunterstützung für das Verschieben von lokalen Benutzern zu Skype for Business Online oder das Verschieben Skype for Business Onlinebenutzer zurück zu lokalen Benutzern.
-- Systemsteuerungsfeatures zum Identifizieren und Filtern von lokalen Benutzerobjekten, die von lokalen Benutzern in Skype for Business Online verschoben wurden (d. h. Hybridbenutzer).
+- Unterstützung der Systemsteuerung für das Verschieben von lokalen Benutzern zu Skype for Business Online oder das Verschieben Skype for Business Onlinebenutzer zurück zu lokalen Benutzern.
+- Systemsteuerungsfunktionen zum Identifizieren und Filtern von lokalen Benutzerobjekten, die von lokalen Benutzern in Skype for Business Online verschoben wurden (d. h. Hybridbenutzer).
 - Admin Center-Features zum Identifizieren und Filtern von Cloudbenutzern, die ursprünglich in Skype for Business Online erstellt wurden, von Hybridbenutzern, die von der lokalen Umgebung zu Online migriert wurden.
-- Die Möglichkeit, Hybridbenutzer mithilfe der Systemsteuerung für lokal verwaltbare Eigenschaften und admin Center für Eigenschaften zu verwalten, die über Skype for Business Online verwaltet werden können.
+- Die Möglichkeit zum Verwalten von Hybridbenutzern über die Systemsteuerung für lokal verwaltbare Eigenschaften und admin Center für Eigenschaften, die über Skype for Business Online verwaltet werden können.
 - Die Verwendung der Kennwortsynchronisierung mit DirSync ermöglicht die Synchronisierung lokaler Active Directory-Kennwörter mit dem Onlinemandanten. Wenn dieses Feature konfiguriert ist, entlässt es die Notwendigkeit, AD FS für die Verbundauthentifizierung bereitzustellen, aber AD FS ist weiterhin für die mehrstufige Authentifizierung erforderlich. 
 - Fortgesetzte Unterstützung für die Koexistenz zwischen Skype for Business Online und Exchange lokal.
     
 > [!NOTE]
-> Es gibt keine Änderung von Lync Online 2013 und Exchange lokalen Koexistenz- und Supportumgebung. 
+> Es gibt keine Änderung von Lync Online 2013 und Exchange lokalen Koexistenz- und Supporterfahrung. 
   
 ## <a name="multi-factor-authentication"></a>Mehrstufige Authentifizierung
 
@@ -171,5 +171,5 @@ Mit Skype for Business mehrstufigen Authentifizierung können jetzt unterschiedl
 Die Skype for Business Multi-Factor Authentication-Erfahrung ist nahtlos, unabhängig von:
   
 - Geografischer Standort – Ob sich der Benutzer innerhalb oder außerhalb der Organisation anmeldet 
-- Client-/Gerätetyp: Gibt an, auf welchem Skype for Business Client verwendet wird und auf welchem Gerät der Client ausgeführt wird (PC, Mobil, iPad usw.).
+- Client-/Gerätetyp– Gibt an, auf welchem Skype for Business Client verwendet wird und auf welchem Gerät der Client ausgeführt wird (PC, Mobil, iPad usw.).
 - Kontospeicherort – Ob der Benutzer in einem lokalen Active Directory oder in Azure Active Directory Online gehostet wird.

@@ -1,7 +1,7 @@
 ---
 title: Reaktionsgruppen erstellen eine neue oder bearbeiten eine vorhandene Agentgruppe
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
 ROBOTS: NOINDEX, NOFOLLOW
 description: Mithilfe von Agentgruppen wird definiert, wer Anrufe bei einer Reaktionsgruppe (so genannte Agents) entgegennehmen kann. Außerdem werden damit die Einstellungen festgelegt, die für alle Agents der Gruppe gelten.
-ms.openlocfilehash: 95e2cac8f98dd25811b093aee3dbdd3ce8459b7a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ac9743327483ace0baf92e93e4de14451fdb47de
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599344"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758877"
 ---
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Reaktionsgruppen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppe
 

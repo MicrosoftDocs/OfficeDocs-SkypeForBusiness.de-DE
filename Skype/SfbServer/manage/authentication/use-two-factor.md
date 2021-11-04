@@ -1,7 +1,7 @@
 ---
 title: Verwenden der zweistufigen Authentifizierung mit Skype for Business Client und Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d4136e61-c3ab-4b26-85c8-c1b2c24f5ee3
 description: 'Zusammenfassung: Verwenden Sie die zweistufige Authentifizierung mit Skype for Business Server und Skype for Business.'
-ms.openlocfilehash: 5b1003c78020e1181112a0ccadaf66a7d1dd4da4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bcba5d4bdd6aacee794b40273b2cb92c83df50a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587123"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767863"
 ---
 # <a name="use-two-factor-authentication-with-skype-for-business-client-and-skype-for-business-server"></a>Verwenden der zweistufigen Authentifizierung mit Skype for Business Client und Skype for Business Server
  
@@ -46,11 +46,11 @@ Ihre Anmeldeinformationen werden in der Regel automatisch konfiguriert, wenn Sky
     
 ## <a name="sign-out-of-skype-for-business"></a>Abmelden von Skype for Business
 
-Wenn Sie mit der Verwendung Skype for Business fertig sind, können Sie die Anzeige schließen, sich von Ihrer Sitzung abmelden oder das Programm beenden, alles über das Menü "Datei". In der folgenden Tabelle werden die Unterschiede bei den Optionen erläutert.
+Wenn Sie die Verwendung Skype for Business abgeschlossen haben, können Sie die Anzeige schließen, sich von Ihrer Sitzung abmelden oder das Programm beenden, alles über das Menü "Datei". In der folgenden Tabelle werden die Unterschiede bei den Optionen erläutert.
   
 |**Option**|**Funktion der Einstellung**|**So führen Sie dies aus**|
 |:-----|:-----|:-----|
-|Schließen  <br/> |Schließt die Anzeige, lässt die mit Ihrer Benutzer-ID identifizierte Skype for Business Sitzung jedoch weiter ausgeführt werden. Auf diese Weise können Sie weiterhin Benachrichtigungen erhalten und mit anderen interagieren. <br/> <br/> Sie können die Anzeige jederzeit wieder abrufen, indem Sie auf der Taskleiste oder im Benachrichtigungsbereich am unteren Rand des Bildschirms auf das symbol Skype for Business klicken.  <br/> | Führen Sie im Skype for Business Hauptfenster eine der folgenden Aktionen aus: <br/> 1. Wählen Sie die Schaltfläche **"Optionen"** und dann **"Datei**  >  **schließen"** aus.  <br/> 2. Klicken Sie auf die Schaltfläche **"Schließen"** (X) in der oberen rechten Ecke des Fensters. <br/> |
+|Schließen  <br/> |Schließt die Anzeige, lässt jedoch die ausführung der mit Ihrer Benutzer-ID identifizierten Skype for Business Sitzung zu. Auf diese Weise können Sie weiterhin Benachrichtigungen erhalten und mit anderen interagieren. <br/> <br/> Sie können die Anzeige jederzeit wieder abrufen, indem Sie auf der Taskleiste oder im Benachrichtigungsbereich am unteren Rand des Bildschirms auf das symbol Skype for Business klicken.  <br/> | Führen Sie im Skype for Business Hauptfenster eine der folgenden Aktionen aus: <br/> 1. Wählen Sie die Schaltfläche **"Optionen"** und dann **"Datei**  >  **schließen"** aus.  <br/> 2. Klicken Sie auf die Schaltfläche **"Schließen"** (X) in der oberen rechten Ecke des Fensters. <br/> |
 |Abmelden  <br/> |Beendet die Sitzung, die Ihrer Benutzer-ID zugeordnet ist, aber Skype for Business wird weiterhin im Hintergrund ausgeführt. Wenn Sie sich abmelden, wird das Anmeldefenster angezeigt.  <br/> **Tipp:** Wählen Sie **"Meine Anmeldeinformationen löschen"** aus, wenn Sie sich abmelden, um den Datensatz Ihrer Anmelde-ID und ihres Kennworts vom Computer zu entfernen. Auf diese Weise kann es für Supportmitarbeiter einfacher sein, Anmeldeprobleme zu beheben. Es kann auch dazu beitragen, dass Ihre Anmeldeinformationen sicherer sind, indem es nicht autorisierten Benutzern erschwert wird, sich mit Ihren Anmeldeinformationen anzumelden. <br/> |Wählen Sie im Skype for Business Hauptfenster die Schaltfläche **"Optionen"** und dann **"Datei**  >  **abmelden" aus.**  <br/> |
 |Beenden  <br/> |Beendet die Skype for Business Sitzung und beendet Skype for Business auf Ihrem Computer. Wenn Sie nach dem Beenden neu starten möchten, wählen Sie "Alle Programme > Skype for Business **starten"**  >  **aus.** <br/> |Wählen Sie im Skype for Business Hauptfenster die Schaltfläche **"Optionen"** und dann **"Datei**  >  **beenden" aus.**  <br/> |
    
@@ -107,7 +107,7 @@ Bevor Sie sich mit einer Smartcard anmelden können, muss die Karte "registriert
 9. Wenn Sie dazu aufgefordert werden, geben Sie Ihre persönliche Identifikationsnummer (PIN) ein, und klicken Sie dann auf **"OK".**
     
     > [!NOTE]
-    > Wenn Ihr technischer Supportmitarbeiter Ihnen keine spezielle PIN für die Registrierung Ihrer Smartcard gegeben hat, verwenden Sie den Standardmäßige Smartcard-PIN-Wert, der 12345678 ist. 
+    > Wenn Ihr technischer Supportmitarbeiter Ihnen keine spezielle PIN für die Registrierung Ihrer Smartcard gegeben hat, verwenden Sie den standardmäßigen PIN-Wert der Smartcard, der 12345678 ist. 
   
 10. Wählen Sie die Option aus, um zu erzwingen, dass der Benutzer (Sie) die PIN bei der ersten Verwendung der Smartcard ändert.
     
@@ -116,7 +116,7 @@ Bevor Sie sich mit einer Smartcard anmelden können, muss die Karte "registriert
 12. Wenn Sie dazu aufgefordert werden, geben Sie Ihre persönliche Identifikationsnummer (PIN) ein, und klicken Sie dann auf **"OK".**
     
     > [!NOTE]
-    > Wenn Ihr technischer Supportmitarbeiter Ihnen keine spezielle PIN für die Registrierung Ihrer Smartcard gegeben hat, verwenden Sie den Standardmäßige Smartcard-PIN-Wert, der 12345678 ist. 
+    > Wenn Ihr technischer Supportmitarbeiter Ihnen keine spezielle PIN für die Registrierung Ihrer Smartcard gegeben hat, verwenden Sie den standardmäßigen PIN-Wert der Smartcard, der 12345678 ist. 
   
 13. Wählen Sie die Option aus, um zu erzwingen, dass der Benutzer (Sie) die PIN bei der ersten Verwendung der Smartcard ändert.
     
@@ -130,7 +130,7 @@ Bevor Sie Ihre Smartcard zum ersten Mal verwenden, sollten Sie auf der Anmeldese
   
 ### <a name="to-sign-in-to-skype-for-business-with-your-smart-card-credentials"></a>So melden Sie sich mit Ihren Smartcard-Anmeldeinformationen bei Skype for Business an
 
-1. Starten Sie den Skype for Business Client.
+1. Starten Sie den Skype for Business-Client.
     
 2. Geben Sie auf dem Anmeldebildschirm den Benutzernamen des Anmeldebenutzerkontos in das **Feld "Anmeldeadresse"** ein, und klicken Sie dann auf **"Anmelden".**
     
@@ -141,9 +141,9 @@ Bevor Sie Ihre Smartcard zum ersten Mal verwenden, sollten Sie auf der Anmeldese
 4. Geben Sie die PIN-Nummer für Ihre Smartcard ein, und klicken Sie dann auf **"OK".**
     
     > [!NOTE]
-    > Wenn Ihnen von Ihrem Supportmitarbeiter keine Smartcard-PIN zugewiesen wurde, verwenden Sie den Standardwert, der 12345678 ist. 
+    > Wenn Ihrem Supportmitarbeiter keine Smartcard-PIN-Nummer zugewiesen wurde, verwenden Sie den Standardwert, der 12345678 ist. 
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Verwalten der zweistufigen Authentifizierung in Skype for Business Server](two-factor-authentication.md)
   

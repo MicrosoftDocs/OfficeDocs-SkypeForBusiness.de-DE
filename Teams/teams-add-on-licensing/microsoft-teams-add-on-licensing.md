@@ -1,6 +1,6 @@
 ---
 title: Add-On-Lizenzen für Microsoft Teams
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: mikedav
@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Features, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 238b49964169e3128cd18d47eddc1f39255823aa
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 456d65bee894fa57483ac48223d79074c2b9e4c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630007"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767123"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -39,7 +39,7 @@ Nachstehend finden Sie eine Liste der Features, die Sie über Microsoft Teams-Ad
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|Feature|Beschreibung|Kleinunternehmen (<300 Benutzer)|Großes Unternehmen (>300 Benutzer)|
+|Feature|Beschreibung|Kleinunternehmen (<300 Benutzer)|Große Unternehmen (>300 Benutzer)|
 **Microsoft 365 Business Voice** <br/> | [Business Voice](../business-voice/whats-business-voice.md) ist eine Telefonielösung für kleine und mittelständische Unternehmen mit bis zu 300 Benutzern, die Telefonsystem, Audiokonferenzen, einen Inlandsanrufplan und mehr umfasst. Zu den Telefonsystem-Funktionen, die Sie erhalten, gehören Voicemail, Anrufer-ID, Parken von Anrufen, Anrufweiterleitung, automatische Telefonzentralen und Anrufwarteschleifen. <br> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Business Voice nach Land und Region](../business-voice/country-region-availability.md). Informationen zu den Preisen finden Sie unter [Preise für Business Voice](https://go.microsoft.com/fwlink/?linkid=2127221). <br/> |&#x2713;||
 |**Audiokonferenzen** <br/> |In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich statt über ihren Computer über ein Telefon in eine Microsoft Teams-Besprechung einwählen. Einrichten von [Audiokonferenzen für](../audio-conferencing-in-office-365.md) Benutzer, die Besprechungen planen oder führen. <br/> Informationen darüber, ob Audiokonferenzen in Ihrem Land oder in Ihrer Region verfügbar sind, finden Sie unter [Verfügbarkeit von Ländern und Regionen für Audiokonferenzen und Anrufpläne](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) . Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).  <br/> <br/>Wenn es sich bei Ihrem um ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern handelt und es derzeit nicht über Audiokonferenzlizenzen verfügt, können Sie Audiokonferenzen für ein Jahr kostenlos erhalten. Seit dem 1. Oktober 2020 ist das kostenlose Audiokonferenzangebot für Benutzer verfügbar, die über Lizenzen für Microsoft 365 Business Basic, Business Standard, Business Premium, Enterprise E1 oder Enterprise E3 verfügen. Näheres erfahren Sie unter [Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen](../audio-conferencing-smb.md).|&#x2713;|&#x2713;|
 |**Gebührenfreie Nummern** |Wenn Sie gebührenfreie Nummern für Audiokonferenzen, automatische Telefonzentralen oder Anrufwarteschleifen wünschen, müssen Sie [Kommunikationsguthaben einrichten](../set-up-communications-credits-for-your-organization.md). <br/> |&#x2713;|&#x2713;|

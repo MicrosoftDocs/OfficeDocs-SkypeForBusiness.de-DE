@@ -1,7 +1,7 @@
 ---
 title: Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5c3892e4-ebae-453e-8107-f42ec0436ea2
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine Administratorrolle für den Server für beständigen Chat erstellen, um die anfängliche Konfiguration und Verwaltung von Diensten für beständigen Chat in Skype for Business Server 2015 zu aktivieren.'
-ms.openlocfilehash: bf534f937282aa90d7d66e2de9893f075a351251
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 19d777d5da21de8e446320c259c065c0fb2e6bff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601870"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759027"
 ---
 # <a name="create-a-persistent-chat-administrator-in-skype-for-business-server-2015"></a>Erstellen eines Administrators für beständigen Chat in Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ In Skype for Business Server müssen Benutzer, die bestimmte Aufgaben ausführen
 Bevor Sie den Server für beständigen Chat konfigurieren und verwalten, müssen Sie sicherstellen, dass die entsprechenden Benutzerrechte und Berechtigungen vorhanden sind und dass alle Benutzer, die als Administratoren für beständigen Chat fungieren, der Sicherheitsgruppe "Administrator für beständigen Chat" hinzugefügt werden.
   
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
 
 ## <a name="create-a-persistent-chat-administrator"></a>Erstellen eines Administrators für beständigen Chat
 
@@ -43,7 +43,7 @@ Führen Sie die folgenden Schritte aus, um der Sicherheitsgruppe "CsPersistentCh
     
 4. Klicken Sie mit der rechten Maustaste auf die Sicherheitsgruppe "CsPersistentChatAdministrator", und klicken Sie dann auf "Eigenschaften".
     
-5. Klicken Sie im Dialogfeld <a0>Eigenschaften</a0> auf der Registerkarte <a1>Elemente</a1> auf <a2>Hinzufügen</a1>.
+5. Klicken Sie im Dialogfeld Eigenschaften auf der Registerkarte Elemente auf Hinzufügen.
     
 6. Geben Sie im Dialogfeld Benutzer,Computer,Kontakt oder Gruppen auswählen den Benutzernamen oder den Anzeigenamen des Benutzers ein, der der Gruppe hinzugefügt werden soll, und klicken Sie dann auf OK.
     

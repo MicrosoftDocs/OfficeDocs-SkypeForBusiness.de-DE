@@ -1,7 +1,7 @@
 ---
 title: Featureübersicht (Planungstool)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server Planungstool
-ms.openlocfilehash: c1272cf0809be097e9f5b0282b165ef899744520
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0b47d1dad12d4933f042217b4762d7bb4f766c6c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600500"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758777"
 ---
 # <a name="feature-overview-planning-tool"></a>Featureübersicht (Planungstool)
  
@@ -39,7 +39,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gefüllt, die Sie im **assistenten Erste Schritte** gestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Sie auf die im **Assistenten Erste Schritte** gestellten Fragen bereitgestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -82,15 +82,15 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Partnerverbund mit XMPP-basiertem Dienstanbieter**
     
-    Skype for Business Server 2015 wurde ein vollständig integrierter XMPP-Proxy (auf den Edgeservern bereitgestellt) und ein XMPP-Gateway auf Ihren Front-End-Servern eingeführt. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways bereitstellen, damit Ihre Skype for Business Server Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
+    Skype for Business Server 2015 wurde ein vollständig integrierter XMPP-Proxy (auf den Edgeservern bereitgestellt) und ein XMPP-Gateway eingeführt, das auf Ihren Front-End-Servern bereitgestellt wurde. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways bereitstellen, damit Ihre Skype for Business Server Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
     
 - **Mobilität**
     
-    Wenn Sie den Skype for Business Server Mobilitätsdienst bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
+    Wenn Sie den Skype for Business Server Mobility Service bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
     
-- **W15 Exchange Postfach**
+- **W15 Exchange-Postfach**
     
-    Skype for Business Server ermöglicht es Ihnen, Voicemailnachrichten in Exchange Unified Messaging (UM) zu speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
+    Skype for Business Server können Voicemailnachrichten in Exchange Unified Messaging (UM) gespeichert werden. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
 
     > [!NOTE]
     > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar. Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
@@ -132,11 +132,11 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die auf Exchange verwaltet werden und ihre Postfächer in In-Place Haltebereich gesetzt wurden, können Sie die Option zum Integrieren Skype for Business Server Speichers in Exchange Speicher auswählen.
+    Wenn Sie Benutzer haben, die in Exchange verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option zum Integrieren Skype for Business Server Speichers in Exchange Speicher auswählen.
     
 - **IPv4**
     
-    IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte zur Verwendung von IPv6-Adressen umgezogen.
+    IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte auf die Verwendung von IPv6-Adressen umgezogen.
     
 - **IPv6**
     
@@ -156,7 +156,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Ankündigung**
     
-    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Die Verwendung des Ankündigungsdiensts verhindert die Situation, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
+    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Durch die Verwendung des Ankündigungsdiensts wird die Situation vermieden, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
     
 - **Parken von Anrufen**
     
@@ -168,7 +168,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stummgeschaltet sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
     
 - **Anrufsteuerung**
     

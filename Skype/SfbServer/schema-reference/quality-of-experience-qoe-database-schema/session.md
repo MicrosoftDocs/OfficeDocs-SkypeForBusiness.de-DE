@@ -1,7 +1,7 @@
 ---
 title: Sitzungstabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
-description: Jeder Datensatz stellt eine Sitzung dar, die Audio oder Audio und Video umfasst. Es enthält allgemeine Informationen über die Sitzung. Eine Sitzung wird als SIP-Dialogfeld (Session Initiation Protocol) zwischen zwei Endpunkten definiert.
-ms.openlocfilehash: bc88a924d16e8e2193b0cce5c487004ab66f47a7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Jeder Datensatz stellt eine Sitzung dar, die Audio oder Audio und Video umfasst. Es enthält allgemeine Informationen über die Sitzung. Eine Sitzung ist als SIP-Dialog (Session Initiation Protocol) für Audio oder Video zwischen zwei Endpunkten definiert.
+ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611844"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768323"
 ---
 # <a name="session-table"></a>Sitzungstabelle
  
-Jeder Datensatz stellt eine Sitzung dar, die Audio oder Audio und Video umfasst. Es enthält allgemeine Informationen über die Sitzung. Eine Sitzung wird als SIP-Dialogfeld (Session Initiation Protocol) zwischen zwei Endpunkten definiert.
+Jeder Datensatz stellt eine Sitzung dar, die Audio oder Audio und Video umfasst. Es enthält allgemeine Informationen über die Sitzung. Eine Sitzung ist als SIP-Dialog (Session Initiation Protocol) für Audio oder Video zwischen zwei Endpunkten definiert.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
@@ -42,7 +42,7 @@ Jeder Datensatz stellt eine Sitzung dar, die Audio oder Audio und Video umfasst.
 |**CallerEndpoint** <br/> |int  <br/> |Ausländisch  <br/> |Endpunkt des Anrufers. Referenziert aus der [Endpunkttabelle.](endpoint.md)  <br/> |
 |**CallerUserAgent** <br/> |Bit  <br/> |Ausländisch  <br/> |Der Benutzer-Agent des Anrufers. Referenziert aus der [UserAgent-Tabelle.](useragent.md)  <br/> |
 |**CallPriority** <br/> |Smallint  <br/> ||Die Priorität dieses Aufrufs.  <br/> |
-|**ClassifiedPoorCall** <br/> |Bit  <br/> ||Diese Spalte ist veraltet und wird nicht in Skype for Business Server verwendet. Stattdessen werden diese Informationen auf einer Pro-Media-Linienbasis gemeldet. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
+|**ClassifiedPoorCall** <br/> |Bit  <br/> ||Diese Spalte ist veraltet und wird in Skype for Business Server nicht mehr verwendet. Stattdessen werden diese Informationen auf einer Pro-Media-Linienbasis gemeldet. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
 |**CallerPAI** <br/> |int  <br/> |Ausländisch  <br/> |P-Asserted-Identity des Benutzers, der den Anruf getätigt hat. Die P-Asserted-Identity (PAI) wird verwendet, um die tatsächliche Identität des Benutzers zu vermitteln, der den Anruf getätigt hat.  <br/> |
 |**CalleeEndpoint** <br/> |int  <br/> |Ausländisch  <br/> |Endpunkt, der den Anruf empfangen hat.  <br/> |
 |**CalleeUserAgent** <br/> |int  <br/> |Ausländisch  <br/> |Benutzer-Agent, der von dem Benutzer eingesetzt wird, der den Anruf empfangen hat. Benutzer-Agents stellen das Clientendpunktgerät dar.  <br/> |

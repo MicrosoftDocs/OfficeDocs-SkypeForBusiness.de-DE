@@ -1,7 +1,7 @@
 ---
 title: Zuordnen des Front-Ends zur Edgekomponente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f09c9b3e-1f5f-4486-8113-e62c10cff138
 ROBOTS: NOINDEX, NOFOLLOW
 description: Jedem Front-End-Pool kann nur ein Edgeserver oder Edgepool zugeordnet sein. Wenn Sie den Zugriff externer Benutzer für eine Website aktivieren, können Sie Unterstützung für Remotebenutzer bereitstellen. Sie können auch die Unterstützung für Verbundbenutzer aktivieren, z. B. Unterstützung für Benutzer bestimmter Anbieter von Öffentlichen Chatkonnektivitätsanbietern (z. B. Windows Live) und Unterstützung für anonyme Benutzer.
-ms.openlocfilehash: 5cc67ef37de672ccd47767e866404037e5a17b02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 773c1fd943c3d137dd1d639bf5863fe5d78831f6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633259"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758677"
 ---
 # <a name="associate-front-end-with-edge"></a>Zuordnen des Front-Ends zur Edgekomponente
 

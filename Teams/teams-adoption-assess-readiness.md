@@ -1,7 +1,7 @@
 ---
 title: Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd526f78a04bc71b2992aa8f3f0bcd15b3b77df0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 24f52433e3b52b728873d13eb06db65d8ecbaa60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726764"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760413"
 ---
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 

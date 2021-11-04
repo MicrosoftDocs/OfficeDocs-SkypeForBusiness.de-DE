@@ -1,7 +1,7 @@
 ---
 title: Tabelle "Hersteller" in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 734608b3-5a3a-4b61-87dc-9a8551401d06
 description: Die Tabelle "Hersteller" ist eine Unterstützende Tabelle. Jeder Datensatz speichert Informationen zu einem Gerätehersteller (Schreibtischtelefon).
-ms.openlocfilehash: c32bac5c347f931f9dc6d80a0d6709e584c0d144
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8dbc35b2517aae294c94bb229135c0cc069a598a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610592"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60749784"
 ---
 # <a name="manufacturers-table-in-skype-for-business-server-2015"></a>Tabelle "Hersteller" in Skype for Business Server 2015
  

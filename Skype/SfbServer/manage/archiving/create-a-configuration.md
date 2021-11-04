@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer Archivierungskonfiguration in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungskonfiguration für Skype for Business Server erstellen.'
-ms.openlocfilehash: 68ea35ef81c3a387aa95c54172bb1decc6c5624b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: abb7f6c894dae734a45d7668f5b1b590d869c9c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606224"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767903"
 ---
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Erstellen einer Archivierungskonfiguration in Skype for Business Server
 
@@ -51,7 +51,7 @@ So konfigurieren Sie Archivierungsoptionen für einen bestimmten Standort oder P
     
    - Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um die Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.
     
-   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Kontrollkästchen "Microsoft Exchange Integration".**
+   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange.**
     
    - Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:
     

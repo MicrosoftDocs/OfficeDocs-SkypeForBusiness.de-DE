@@ -1,7 +1,7 @@
 ---
 title: Phones-Tabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 41cb356d-9cc8-42b6-ac23-98a61b25aadc
 description: Die Phones-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz in der Tabelle speichert Informationen zu einer Telefonnummer, die an VoIP-Anrufen beteiligt ist und Datensätze in der Datenbank enthält.
-ms.openlocfilehash: 37adaaa1885d91c84ee657c422b19debad294c01
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81f6b570e168450d457fedabc2ad9d26b3c7abfd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584859"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767483"
 ---
 # <a name="phones-table"></a>Phones-Tabelle
  

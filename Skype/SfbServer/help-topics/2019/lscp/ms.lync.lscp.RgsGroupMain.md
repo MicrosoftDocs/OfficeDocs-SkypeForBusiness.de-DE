@@ -1,7 +1,7 @@
 ---
 title: Reaktionsgruppengruppe
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppenanrufen bestimmt sind.
-ms.openlocfilehash: cf86537e70e6e3fbd6e04ad3da2ede5d8f46933f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 83e87a68c484cf57de05bbce6824ad043fade933
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579799"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767053"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
 

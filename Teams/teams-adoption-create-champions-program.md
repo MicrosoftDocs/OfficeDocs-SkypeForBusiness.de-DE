@@ -1,7 +1,7 @@
 ---
 title: Erstellen Ihres Champions-Programms für Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
 audience: Admin
@@ -18,21 +18,21 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Erfahren Sie, wie Sie ein Team von Erfahrener schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
+description: Hier erfahren Sie, wie Sie ein Team von Champions schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9a6c9c81b1f36655d99b9fdfeecacda406bab6f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731184"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760403"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Erstellen Ihres Champions-Programms für Microsoft Teams
 
-Champions sind von wesentlicher Bedeutung, um das Bewusstsein, die Akzeptanz und die Ausbildung in Ihrer Organisation zu fördern. Ein Champion ist eine Person, die in erster Linie motiviert ist, anderen zu helfen, die an neuer Technologie (speziell Teams) interessiert sind und anderen Mitarbeitern hilft, sie in Übereinstimmung mit Ihren bewährten Methoden zu nutzen. Je nach Größe Ihrer Organisation können Sie dies als formellen Teil der Rolle der Person haben, aber häufig übernehmen Mitarbeiter diese Rolle selbst aufgrund ihrer Zentralen Motivation, anderen zu helfen.
+Champions sind von wesentlicher Bedeutung, um das Bewusstsein, die Akzeptanz und die Ausbildung in Ihrer Organisation zu fördern. Ein Champion ist eine Person, die in erster Linie motiviert ist, anderen zu helfen, die an neuer Technologie (speziell Teams) interessiert ist und anderen Mitarbeitern hilft, sie in Übereinstimmung mit Ihren bewährten Methoden zu nutzen. Je nach Größe Ihrer Organisation können Sie dies als formalen Teil der Rolle der Person haben, aber häufig übernehmen Mitarbeiter diese Rolle selbst aufgrund ihrer Zentralen Motivation, anderen zu helfen.
 
-Die Champions werden in Ihre allgemeine Planung für die Einführung auf verschiedene Arten einpassen, wie unten gezeigt wird.
+Die Champions werden in Ihre allgemeine Planung für die Einführung auf unterschiedliche Weise einpassen, wie unten gezeigt wird.
 
 ![Abbildung der Planung für die Einführung von Champions.](media/teams-adoption-champions.png)
 
@@ -45,20 +45,20 @@ Champions sollten:
 
 Verwenden Sie unseren [Leitfaden für das Champions-Programm,](https://go.microsoft.com/fwlink/?linkid=854665) um dieses Programm in Ihrer Organisation zu erstellen. Unsere bewährten Methoden für diese Community sind:
 
-- Nehmen Sie am [Champions-Programm teil.](https://aka.ms/O365Champions) Stellen Sie sicher, dass zumindest die Leiter des Champions-Programms (und potenziell alle Unternehmensführer) Mitglieder des Programms sind. Dieser kostenlose monatliche Community-Anruf bietet wertvolle Informationen für die Ausführung eines eigenen Programms und für die beste Ausn nutzen Teams und anderen Microsoft 365 oder Office 365 Dienste. Programmmaterialien können in Ihrem eigenen internen Programm wiederverwendet werden.
+- Nehmen Sie am [Champions-Programm teil.](https://aka.ms/O365Champions) Stellen Sie sicher, dass zumindest die Leiter des Champions-Programms (und potenziell alle Unternehmensführer) Mitglieder des Programms sind. Dieser kostenlose monatliche Community-Anruf bietet wertvolle Informationen für die Ausführung eines eigenen Programms und für die beste Ausn nutzen Teams und anderen Microsoft 365 oder Office 365-Diensten. Programmmaterialien können in Ihrem eigenen internen Programm wiederverwendet werden.
 
 - Verwenden Sie das Team "Teamwork Champion": Ihre Champions sollten das Team, das Sie für sie eingerichtet haben, für die gesamte Programmkommunikation, das Feedback und für die Suche nach Ressourcen verwenden.  Dadurch werden sie sich zunehmend mit dem Produkt und seinen Vorteilen vertraut machen.
 
-- Halten Sie regelmäßige monatliche Besprechungen ab: Fördern Sie Begeisterung und Freundlichkeit Ihrer Community, indem Sie regelmäßige monatliche Besprechungen abhalten. Dies kann eine Kombination aus persönlich und virtuellen Besprechungen sein, aber ihre Konsistenz ist entscheidend für eine umskalierende Champions-Community.
+- Halten Sie regelmäßige monatliche Besprechungen ab: Fördern Sie Begeisterung und Freundlichkeit Ihrer Community, indem Sie regelmäßige monatliche Besprechungen abhalten. Dies kann eine Kombination aus persönlich und virtuellen Besprechungen sein, aber ihre Konsistenz ist der Schlüssel zu einer umskalierenden Champions-Community.
 
     > [!TIP]
     > Planen Sie ihre Besprechungen für die Woche nach dem öffentlichen Communityanruf, um Ihre Tagesordnungen zu erstellen. 
 
-- Machen Sie klare Angaben zu den Programmanforderungen: Bei einigen Champion-Programmen müssen die Mitglieder an den monatlichen Besprechungen teilnehmen, die Geschäftszeiten für die Gruppe der unterstützten Benutzer abhalten und neue Benutzer im Training unterstützen. Stellen Sie unabhängig von Ihren Anforderungen sicher, dass die Champions klar sind, wie sie erfolgreich am Programm teilnehmen können.
+- Machen Sie klare Angaben zu den Programmanforderungen: Bei einigen Champion-Programmen müssen die Mitglieder an den monatlichen Besprechungen teilnehmen, die Geschäftszeiten für die Gruppe von Benutzern, die sie unterstützen, abhalten und neuen Benutzern Schulungen bieten. Stellen Sie unabhängig von Ihren Anforderungen sicher, dass die Champions klar sind, wie sie erfolgreich am Programm teilnehmen können.
 
 - Belohnen Sie Ihre Verfeiner sichtbar: Ihre Verfeiner erhalten wichtige Einblicke in den Fortschritt und potenzielle Fallstricke bei Ihrem Projekt. Belohnen Sie sie häufig für ihre Teilnahme. Kleine Gesten sind weit in Bewegung, und häufig suchen Mitarbeiter nicht nach Geldgewinn, wissen aber Anerkennung für ihre Beiträge zu schätzen. Finden Sie geeignete und lustige Methoden, um ihrer Community zu danken. 
 
-- Trainieren Sie die Champions frühzeitig und häufig: Ihr Programm ist Startprogramm, und monatliche Besprechungen können dazu verwendet werden, Fähigkeiten in Ihrer Champion-Community zu schaffen. Nutzen Sie diese Möglichkeiten, um sie mit ins Boot zu holen, ihre erste Schulung durchanzutreiben, sie zum Kurs zu ermutigen und sicherzustellen, dass sie bereit sind, ihre Mitarbeiter bei der Entwicklung in der Experimentierphase zu unterstützen.  
+- Trainieren Sie die Champions frühzeitig und häufig: Ihr Programm ist Start, und monatliche Besprechungen können dazu verwendet werden, Fähigkeiten in Ihrer Champion-Community zu schaffen. Nutzen Sie diese Möglichkeiten, um sie mit ins Boot zu holen, ihre erste Schulung voranzutreiben, sie zum Kurs zu ermutigen und sicherzustellen, dass sie bereit sind, ihre Mitarbeiter beim Weitergang in der Experimentierphase zu unterstützen.  
 
 ![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Abschließen des Governance-Schnellstarts](teams-adoption-governance-quick-start.md)
 

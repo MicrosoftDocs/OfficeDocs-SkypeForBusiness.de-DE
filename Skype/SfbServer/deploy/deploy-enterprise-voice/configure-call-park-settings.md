@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Ändern der Einstellungen für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 2946d0a1082b8e2b2ce9473dcff18a057c8c01f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 81d523991f1df5d9bc24f19d212ae63fa5b0beb1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585929"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759137"
 ---
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business
 
@@ -55,7 +55,7 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
    > [!TIP]
    > Verwenden Sie das Cmdlet **Get-CsSite**, um den Standort zu ermitteln. Ausführliche Informationen finden Sie in der Dokumentation Skype for Business Server Verwaltungsshell.
 
-    Zum Beispiel:
+    Beispiel:
 
    ```powershell
    New-CsCpsConfiguration -Identity site:Redmond1 -CallPickupTimeoutThreshold 00:01:00 -EnableMusicOnHold $false -MaxCallPickupAttempts 2 -OnTimeoutURI sip:bob@contoso.com

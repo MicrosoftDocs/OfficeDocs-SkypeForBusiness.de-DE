@@ -1,7 +1,7 @@
 ---
 title: Trunkeinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
-ms.openlocfilehash: d9484dd6ab7a9589507808045f8516f0cd9ce70f
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 12d1bd8ee6ae36c6b88f48dc7f9649a3a2c40c8b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729264"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761133"
 ---
 # <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
 
@@ -43,7 +43,7 @@ Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk d
 
 ![Trunk Einstellungen Expander.](../../../media/Trunk_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Prüfliste für die Bereitstellung von SIP-Trunking](/previous-versions/office/lync-server-2013/lync-server-2013-sip-trunk-deployment-checklist)
 

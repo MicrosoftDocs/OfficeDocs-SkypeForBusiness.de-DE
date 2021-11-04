@@ -1,7 +1,7 @@
 ---
 title: Auswählen eines Diensts
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b6086162-8a41-4e75-afa3-7d1889ffdc90
 description: Verwenden Sie das Dialogfeld "Dienst auswählen", um in Ihrer Umgebung verfügbare Dienste zu suchen. Klicken Sie auf einen Dienst in der Liste und anschließend auf OK, um einen vorhandenen Dienst zu verwenden.
-ms.openlocfilehash: c56da3540ba7a7563092bee8275f67f4401192ec
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fc4f3f7c52bc1cb97b4f67c999fa0b417c71d053
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595769"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752154"
 ---
 # <a name="select-a-service"></a>Auswählen eines Diensts
 

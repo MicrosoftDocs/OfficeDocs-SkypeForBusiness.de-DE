@@ -1,7 +1,7 @@
 ---
 title: Installieren und Erstellen von Datenbanken
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,22 +14,22 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
-description: Sie wählen die Datenbanken aus, die Sie für die Bereitstellung erstellen möchten. Standardmäßig wird die Datenbank auf der definierten SQL Server an der definierten Website erstellt und stellt die Datenbankdateien automatisch basierend auf dem SQL Server bereit, auf dem Sie die Datenbanken platzieren.
-ms.openlocfilehash: b6a73c88924e953f5c89f5e4ec7553f982da1fdb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Sie wählen die Datenbanken aus, die Sie für die Bereitstellung erstellen möchten. Standardmäßig wird die Datenbank auf der definierten SQL Server am definierten Standort erstellt und stellt die Datenbankdateien automatisch basierend auf dem SQL Server bereit, auf dem Sie die Datenbanken platzieren, und konfiguriert sie.
+ms.openlocfilehash: 86e5b83a32eef00f331b00ea2ca45344f707cb8a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611038"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761163"
 ---
 # <a name="install-and-create-databases"></a>Installieren und Erstellen von Datenbanken
 
-Sie wählen die Datenbanken aus, die Sie für die Bereitstellung erstellen möchten. Standardmäßig wird die Datenbank auf der definierten SQL Server an der definierten Website erstellt und stellt die Datenbankdateien automatisch basierend auf dem SQL Server bereit, auf dem Sie die Datenbanken platzieren.
+Sie wählen die Datenbanken aus, die Sie für die Bereitstellung erstellen möchten. Standardmäßig wird die Datenbank auf der definierten SQL Server am definierten Standort erstellt und stellt die Datenbankdateien automatisch basierend auf dem SQL Server bereit, auf dem Sie die Datenbanken platzieren, und konfiguriert sie.
 
  **Zu erstellende Datenbanken auswählen**: Aktivieren Sie die Kontrollkästchen aller Datenbanken, die Sie bereitstellen und konfigurieren möchten. Sie können beliebige einzelne oder alle Datenbanken für die Bereitstellung markieren.
 
 > [!CAUTION]
-> Die SQL Server muss bereits für die Instanz konfiguriert sein (sofern vorhanden), und Firewallports müssen geöffnet sein, um die Instanz aufzunehmen, in der Sie die Datenbanken bereitstellen. Ausführliche Informationen finden Sie unter [Konfigurieren SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
+> Die SQL Server muss bereits für die Instanz konfiguriert sein (falls vorhanden), und Firewallports müssen geöffnet sein, um die Instanz aufzunehmen, in der Sie die Datenbanken bereitstellen. Ausführliche Informationen finden Sie unter [Konfigurieren SQL Server](/previous-versions/office/lync-server-2013/lync-server-2013-configure-sql-server-for-lync-server)
 
  **Erweitert:** Klicken Sie auf die SQL Server, und klicken Sie auf die Schaltfläche **"Erweitert",** um Optionen für die Speicherorte der Datenbankdateien auf Ihrem SQL Server auszuwählen. Ausführliche Informationen zu den erweiterten Optionen für die Anordnung von Datenbankdateien finden Sie unter [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).
 

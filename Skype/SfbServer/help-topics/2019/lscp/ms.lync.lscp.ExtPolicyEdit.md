@@ -1,7 +1,7 @@
 ---
 title: Richtlinie für externen Zugriff – Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6f8fa258-9a9d-44fe-b7e3-0b02604907e2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: e9783bdee0cdb08731b716b89a43ff207414e619
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b055f88cbe10ac7db0d22054c7b038c25389cff2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595949"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760333"
 ---
 # <a name="external-access-policy-create-new-or-edit-existing"></a>Richtlinie für den externen Zugriff: Erstellen einer neuen oder Bearbeiten einer vorhandenen Richtlinie für den externen Zugriff
 

@@ -1,7 +1,7 @@
 ---
 title: Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von Kommunikationsdatensätzen (KDS), die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 0453bbe4e8bbd4a9bf8c2fe06b33599375171280
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 93085e0078456cfe371eafe1103bd54ae8006802
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610652"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60767763"
 ---
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server
  
@@ -37,6 +37,6 @@ Bei CDR (Call Detail Recording, Aufzeichnung von Kommunikationsdatensätzen) wer
     
 - [Manuelles Löschen der Datenbanken "Aufzeichnung von Kommunikationsdatensätzen" und "Quality of Experience" in Skype for Business Server](../../deploy/deploy-monitoring/purgecall-detail-recording-and-qoe.md)
     
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurieren der Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen und die Quality of Experience in Skype for Business Server](../../deploy/deploy-monitoring/call-detail-recording-and-qoe.md)

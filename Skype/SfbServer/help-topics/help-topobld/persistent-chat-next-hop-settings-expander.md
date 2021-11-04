@@ -1,7 +1,7 @@
 ---
 title: Einstellungen unter "Nächster Hop" für beständigen Chat – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91423153-746a-4f8a-9c7f-4102d3fdbb8a
 description: Sie konfigurieren den Nächsten Hoppool für beständigen Chat, indem Sie in der Liste einen Front-End-Server oder Front-End-Pool auswählen.
-ms.openlocfilehash: c5fe79178b9008c1805d6a0a09430ec988b9c7f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7a67c893b7f87798ef87f9d70c93f7c21458774
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623787"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768073"
 ---
 # <a name="persistent-chat-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für beständigen Chat – Erweiterung
  
@@ -32,8 +32,8 @@ Sie konfigurieren den **Nächsten Hoppool** für beständigen Chat, indem Sie in
   
  **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Planen des Servers für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
