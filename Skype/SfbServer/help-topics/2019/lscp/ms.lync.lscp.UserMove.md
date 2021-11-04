@@ -1,7 +1,7 @@
 ---
 title: Verschieben eines Benutzers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: fb8e30aa-6b3c-4c8f-b22f-02db9e5fb8c0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite "Benutzer verschieben" können Sie einen Zielpool auswählen, in den der ausgewählte Benutzer verschoben werden soll.
-ms.openlocfilehash: 8cec9cc3c78d233b82da6d7c5fa127d62c90f156
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fd756c8e24399847e49ab94dff8b9b9ca5771c9f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625997"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778725"
 ---
 # <a name="move-user"></a>Verschieben eines Benutzers
 

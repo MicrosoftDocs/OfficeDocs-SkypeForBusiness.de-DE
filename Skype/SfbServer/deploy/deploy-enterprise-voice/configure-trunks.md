@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Trunks in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Trunk zwischen einem Vermittlungsserver und Peers für Enterprise-VoIP in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 0b3846a79d05d6b3eaea664f919dfbca61b036b7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 128be18c31802787c173c8d180de80f5ae5a64fb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617041"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748891"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Konfigurieren von Trunks in Skype for Business Server
  
@@ -41,7 +41,7 @@ Skype for Business Server Funktionalität unterstützt mehrere Zuordnungen zwisc
   
 - Um einen Trunk in Skype for Business Server zuzuweisen oder zu entfernen, müssen Sie zuerst einen Trunk im Topologie-Generator definieren. Ein Trunk besteht aus der folgenden Zuordnung: Vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Vermittlungsservers, Gateway-FQDN und Gateway-Überwachungsport.
     
-- Um mehrere Trunks zu konfigurieren, können Sie mehrere Zuordnungen zwischen demselben Gateway und dem Vermittlungsserver erstellen. Dies bietet zusätzliche Resilienz für die Enterprise-VoIP Infrastruktur, was besonders in interoperationalen Szenarien mit Nebenstellenanlagen (Private Branch Exchange, PBX) nützlich ist. 
+- Um mehrere Trunks zu konfigurieren, können Sie mehrere Zuordnungen zwischen demselben Gateway und dem Vermittlungsserver erstellen. Dies bietet zusätzliche Resilienz für die Enterprise-VoIP-Infrastruktur, was besonders in Interoperationsszenarien mit Nebenstellenanlagen (Private Branch Exchange, PBX) nützlich ist. 
     
 Beim Definieren eines Trunks muss er einer Route zugeordnet werden. Um einen Trunk einer Route zuzuordnen, definieren Sie einen einfachen Namen für den Trunk im Topologie-Generator. Dieser einfache Name wird als Trunkname in der Skype for Business Server Systemsteuerung verwendet, wobei Trunks Routen zugeordnet werden können. Der einfache Trunkname wird als Gatewayname aus der Skype for Business Server Verwaltungsshell verwendet. 
   

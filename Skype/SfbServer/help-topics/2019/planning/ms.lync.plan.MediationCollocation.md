@@ -1,7 +1,7 @@
 ---
 title: Vermittlungskollocation (Planungstool)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Der Vermittlungsserver ist standardmäßig mit dem Front-End-Server verbunden. Der Vermittlungsserver kann aus Leistungsgründen auch in einem eigenständigen Pool bereitgestellt werden, oder wenn Sie SIP-Trunking bereitstellen. In diesem Fall wird der eigenständige Pool dringend empfohlen. Die Kollokation in Skype for Business Server funktioniert genauso wie in Lync Server 2013. Weitere Informationen finden Sie in den folgenden Themen:'
-ms.openlocfilehash: b1a8c1652281240f24eb488931272ccf040166f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7899d15384a093c37701f977a12e08bbc1636406
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580969"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742471"
 ---
 # <a name="mediation-collocation-planning-tool"></a>Vermittlungskollocation (Planungstool)
  

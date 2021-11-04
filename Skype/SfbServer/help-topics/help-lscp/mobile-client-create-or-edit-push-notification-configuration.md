@@ -1,7 +1,7 @@
 ---
-title: Erstellen oder Bearbeiten der Konfiguration von Pushbenachrichtigungen für mobile Clients
+title: Erstellen oder Bearbeiten der Pushbenachrichtigungskonfiguration für mobile Clients
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb39af60-c999-42fb-9538-0bd87098f508
 description: Pushbenachrichtigungen und das Push Notification Clearing House (PNCH) sind zwei wichtige Teile des Mobilitätsfeatures. Pushbenachrichtigung ist der Prozess, bei dem eine Nachricht an die PNCH gesendet wird. Die Nachricht wird hier gespeichert, bis sie an den mobilen Client übermittelt werden kann oder der Timeoutzeitraum abläuft.
-ms.openlocfilehash: eecd164c26e1787f6efb81f5b435dbadea94b550
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af9658627f47b790e632a3af8ffbeb37ce58e73a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631749"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759757"
 ---
 # <a name="mobile-client-create-or-edit-push-notification-configuration"></a>Mobiler Client: Erstellen oder Bearbeiten der Konfiguration für Pushbenachrichtigung
  
@@ -40,7 +40,7 @@ Gehen Sie folgendermaßen vor, um die Pushbenachrichtigung zu aktivieren:
     
    - **Aktivieren der Microsoft-Pushbenachrichtigung** aktiviert die Pushbenachrichtigung an die cloudbasierte PNCH für Windows Phone mit der Skype for Business-App
     
-   - **"Apple-Pushbenachrichtigung aktivieren"** aktiviert die Pushbenachrichtigung an die Apple PNCH für Geräte mit Apples iOS (z. B. iPhone, iPad) und die Skype for Business-App.
+   - **Enable Apple push notification** will enable the push notification to the Apple PNCH for devices running Apple's iOS (for example, iPhone, iPad) and using the Skype for Business app
     
 3. Wenn Sie die Bearbeitungen der Richtlinie abgeschlossen haben, klicken Sie auf **"Commit ausführen",** um Die Änderungen zu speichern. Wenn Sie die vorgenommenen Änderungen löschen müssen, wählen Sie **Abbrechen** aus. An der Richtlinie werden keine Änderungen gespeichert.
     

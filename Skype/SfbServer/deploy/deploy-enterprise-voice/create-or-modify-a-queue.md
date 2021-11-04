@@ -1,7 +1,7 @@
 ---
 title: Erstellen oder Ändern einer Warteschlange in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: b9d6366a-839f-4651-a01d-9254546cadeb
 description: Erstellen oder Ändern einer Reaktionsgruppenwarteschlange in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 8dc93e2d171b45b81527c4706b4b4bbb4f978015
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7cc079b458f4aae2748c212dd5c0bcf710142716
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611260"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765903"
 ---
 # <a name="create-or-modify-a-queue-in-skype-for-business"></a>Erstellen oder Ändern einer Warteschlange in Skype for Business
  
@@ -71,9 +71,9 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
    - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-   - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **"An Voicemail weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** eine Voicemailadresse im Sip-Format *\<username\>* @  *\<domainname\>* ein( z. B. sip:bob@contoso.com).
+   - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **"An Voicemail weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** eine Voicemailadresse im Sip-Format ein *\<username\>* @  *\<domainname\>* (z. B. sip:bob@contoso.com).
     
-   - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **"An Telefonnummer weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** die Telefonnummer im Sip-Format *\<number\>* @  *\<domainname\>* ein( z. B. sip:+14255550121@contoso.com).
+   - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **"An Telefonnummer weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** die Telefonnummer in das Sip-Format *\<number\>* @  *\<domainname\>* ein(z. B. sip:+14255550121@contoso.com).
     
    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **"An SIP-Adresse weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** den URI für den Benutzer im Sip-Format ein: _\<username\>_ @  _\<domainname\>_ .
     
@@ -89,9 +89,9 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     
    - Klicken Sie auf **Trennen**, um die Verbindung nach Ablauf der angegebenen Zeitdauer zu trennen.
     
-   - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **"An Voicemail weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** eine Voicemailadresse im Sip-Format *\<username\>* @  *\<domainname\>* ein( z. B. sip:bob@contoso.com).
+   - Um den Anruf an Voicemail weiterzuleiten, klicken Sie auf **"An Voicemail weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** eine Voicemailadresse im Sip-Format ein *\<username\>* @  *\<domainname\>* (z. B. sip:bob@contoso.com).
     
-   - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **"An Telefonnummer weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** die Telefonnummer im Sip-Format *\<number\>* @  *\<domainname\>* ein( z. B. sip:+14255550121@contoso.com).
+   - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **"An Telefonnummer weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** die Telefonnummer in das Sip-Format *\<number\>* @  *\<domainname\>* ein(z. B. sip:+14255550121@contoso.com).
     
    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **"An SIP-Adresse weiterleiten",** und geben Sie dann im **Feld "SIP-Adresse"** den URI für den Benutzer im Sip-Format ein: _\<username\>_ @  _\<domainname\>_ .
     
@@ -181,7 +181,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
    ```
 
     > [!NOTE]
-    > Ausführliche Informationen zum Erstellen der Agentgruppe finden Sie unter [New-CsRgsAgentGroup.](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
+    > Ausführliche Informationen zum Erstellen der Agentgruppe finden Sie unter [New-CsRgsAgentGroup](/powershell/module/skype/new-csrgsagentgroup?view=skype-ps)
   
 9. Die Warteschleife erstellen. Führen Sie an der Eingabeaufforderung Folgendes aus:
     
@@ -201,7 +201,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Warteschleife zu erstellen 
     Get-CsRgsQueue -Name "Help Desk"
     ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [New-CsRgsQueue](/powershell/module/skype/new-csrgsqueue?view=skype-ps)
   

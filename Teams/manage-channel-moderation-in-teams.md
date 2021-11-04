@@ -1,7 +1,7 @@
 ---
 title: Einrichten und Verwalten der Kanalmoderation
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -16,14 +16,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten und Teammitglieder als Kanalmoderatoren hinzufügen.
+description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten, und erfahren Sie, wie Sie Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 5e1a58f7f09c94ae5178add3897b84e3571eef03
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a012eb26ac9017e0d6a1110505aa1d1025c6a779
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726134"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753988"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
@@ -44,17 +44,17 @@ Kanalmoderatoren können:
 
 ## <a name="scenarios"></a>Szenarien
 
-Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in Ihrer Teams.
+Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in ihrer Organisation Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Verwenden eines Kanals als Ankündigungskanal
 
-Das Marketingteam nutzt einen bestimmten Kanal, um wichtige Projektankündigungen und Projektlieferungen zu teilen. Manchmal veröffentlichen Teammitglieder Inhalte in dem Kanal, der passender in anderen Kanälen gehört. Der Teambesitzer möchte die Freigabe von Informationen im Kanal auf Ankündigungen beschränken, damit Teammitglieder über diesen Kanal immer über die wichtigen Informationen auf dem Informierten bleiben können.
+Das Marketingteam nutzt einen bestimmten Kanal, um wichtige Projektankündigungen und Projektlieferungen zu teilen. Manchmal veröffentlichen Teammitglieder Inhalte in dem Kanal, der passender in anderen Kanälen gehört. Der Teambesitzer möchte die Freigabe von Informationen im Kanal auf Ankündigungen beschränken, sodass Teammitglieder über diesen Kanal immer über die wichtigen Informationen auf dem Informierten bleiben können.
 
 In diesem Szenario fügt der Teambesitzer "Marketing Leads" als Moderatoren hinzu, damit sie Ankündigungen im Kanal veröffentlichen können, und deaktiviert die Möglichkeit für Teammitglieder, auf Nachrichten in diesem Kanal zu antworten.
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Verwenden eines Kanals für Kursdiskussionen in Teams für Education
 
-In Teams für Education soll eine Lehrkraft einen Kanal nutzen, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
+In Teams für Education möchte eine Naturwissenschaftliche Lehrkraft einen Kanal verwenden, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
 
 In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal zu moderieren. Die Lehrassistenten können dann neue Beiträge erstellen, um Diskussionen mit Schülern/Studenten zu starten und zu leiten.
 
@@ -76,7 +76,7 @@ Um die Moderation für einen Kanal zu aktivieren, klicken Sie **unter Kanalmoder
 
 ### <a name="add-or-remove-channel-moderators"></a>Hinzufügen oder Entfernen von Kanalmoderatoren
 
-Unter **Wer befinden sich die Moderatoren?** auf Verwalten , und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie.  Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
+Unter **Wer sind die Moderatoren?** auf **Verwalten,** und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
 
 ### <a name="set-team-member-permissions"></a>Festlegen von Teammitgliedsberechtigungen
 

@@ -1,7 +1,7 @@
 ---
 title: Diagnoseberichte zur Medienqualität in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea61428e-a1d5-4189-aae6-3db19ddc5cf2
 description: 'Zusammenfassung: Erfahren Sie mehr über die Diagnoseberichte zur Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 406eb2208b6f2f53e708732f2de751786ab296a2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba646f0043eb57a97374b7843263e9994d4aa889
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754744"
 ---
 # <a name="media-quality-diagnostic-reports-in-skype-for-business-server"></a>Diagnoseberichte zur Medienqualität in Skype for Business Server
  
@@ -31,7 +31,7 @@ Die Medienqualitäts-Diagnoseberichte bieten Informationen über die Anrufqualit
     
 - [Vergleichsbericht über Medienqualität in Skype for Business Server](comparison.md) Stellt einen Vergleich der Werte für die Anrufqualität für verschiedene Arten von Audioanrufen bereit (z. B. Anrufe über ein Drahtlosnetzwerk und Anrufe über eine kabelgebundene Verbindung).
     
-- [Bericht über Serverleistung in Skype for Business Server](server-performance.md) Listet die Server auf, bei denen die meisten Probleme aufgetreten sind, basierend auf Messungen von wichtigen Qualitätsmetriken wie Beeinträchtigung, Paketverlust und Jitter.
+- [Serverleistungsbericht in Skype for Business Server](server-performance.md) Listet die Server auf, bei denen die meisten Probleme aufgetreten sind, basierend auf Messungen von wichtigen Qualitätsmetriken wie Beeinträchtigung, Paketverlust und Jitter.
     
 - [Standortbericht in Skype for Business Server](location-report.md) Stellt eine Liste der Netzwerkstandorte und eine Zusammenfassung der Medienqualität der Anrufe bereit, die an jedem Standort stattfinden. Für diesen Bericht basieren Standorte auf IP-Subnetzen.
     

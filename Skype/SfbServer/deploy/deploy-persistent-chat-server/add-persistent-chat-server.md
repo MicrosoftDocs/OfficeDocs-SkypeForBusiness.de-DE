@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/28/2016
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server 2015-Topologie einen Server für beständigen Chat hinzufügen.'
-ms.openlocfilehash: 1ea8904ea59dd7ac7d35df1ed0ebcbbe0e3cd9f4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607238"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753412"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
  
@@ -42,7 +42,7 @@ Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederh
 1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
     > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist. Zum Veröffentlichen einer Topologie, die zum Installieren Skype for Business Server erforderlich ist, müssen Sie jedoch ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für den Dateispeicher verfügt, den Sie für den Dateispeicher des Servers für beständigen Chat verwenden möchten (sodass der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber um eine Topologie zu veröffentlichen, die zum Installieren von Skype for Business Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen verfügt (Lesen,  Schreiben und Ändern) für den Dateispeicher, den Sie für den Dateispeicher des Servers für beständigen Chat verwenden möchten (sodass der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
   
 2. Starten Sie den Topologie-Generator.
     
@@ -68,7 +68,7 @@ Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederh
     
    - Um einen vorhandenen SQL Server Speicher zu verwenden, klicken Sie in der Dropdownliste auf den Namen des SQL Server Speichers, den Sie verwenden möchten.
     
-   - Wenn Sie eine neue SQL Server Datenbank angeben möchten, klicken Sie auf **Neu,** und führen Sie unter **"Neuen SQL Store definieren"** die folgenden Schritte aus:
+   - Wenn Sie eine neue SQL Server Datenbank angeben möchten, klicken Sie auf **Neu,** und führen Sie unter **"Neuen SQL Store definieren"** Folgendes aus:
     
    - Geben Sie in **SQL Server FQDN** den FQDN des SQL Server an, für das Sie die neue SQL Server Datenbank erstellen möchten.
     
@@ -109,7 +109,7 @@ Nach dem Aktualisieren der Topologie im Topologie-Generator müssen Sie die Topo
   
 Installieren Sie vor der Veröffentlichung der Topologie die Datenbanken für den Server für beständigen Chat. Verwenden Sie den Topologie-Generator, um Datenbanken zu installieren, indem Sie **"Aktion"** und **"Datenbank installieren"** auswählen.
   
-1. Auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, Melden Sie sich mit einem Konto an, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für den Dateispeicher verfügt, der für den Dateispeicher des Servers für beständigen Chat verwendet werden soll (sodass der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) konfigurieren kann) oder ein Konto mit entsprechenden Benutzerrechten.
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen (Lesen, Schreiben und Ändern) für den Dateispeicher verfügt, der für die Dateispeicher für den Server für beständigen Chat (damit der Topologie-Generator die erforderlichen DACLs (Discretionary Access Control Lists) konfigurieren kann) oder ein Konto mit entsprechenden Benutzerrechten.
     
 2. Starten Sie den Topologie-Generator. Wählen Sie **"Topologie öffnen" aus einer lokalen Datei aus,** wenn Sie sie lokal gespeichert haben.
     

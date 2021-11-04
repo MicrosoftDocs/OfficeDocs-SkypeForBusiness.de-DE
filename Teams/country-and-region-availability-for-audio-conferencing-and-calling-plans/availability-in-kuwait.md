@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Kuwait
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Kuwait.
-ms.openlocfilehash: b85d8189bdfeb4dd975fa5d782340d35b619bdcc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams in Kuwait.
+ms.openlocfilehash: 2067077acba0c3604c83bbc46483b6bd8ee6dc22
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601130"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766193"
 ---
 # <a name="availability-in-kuwait"></a>Verfügbarkeit in Kuwait
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams Kuwait.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams in Kuwait.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

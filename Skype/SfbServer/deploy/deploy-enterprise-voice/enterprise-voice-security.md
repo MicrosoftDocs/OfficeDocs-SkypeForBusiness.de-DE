@@ -1,7 +1,7 @@
 ---
 title: Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Zusammenfassung: Erfahren Sie mehr über die Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server.'
-ms.openlocfilehash: 0f46de6fa8b8c2027a3828df67a0330212392e45
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617021"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778915"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server
  
@@ -59,10 +59,10 @@ Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitste
   
 ## <a name="next-steps-install-files-or-configure-pstn-connectivity"></a>Nächste Schritte: Installieren von Dateien oder Konfigurieren der PSTN-Konnektivität
 
-Nachdem Sie die Software- und Umgebungsvoraussetzungen für Enterprise-VoIP überprüft haben, können Sie entweder:
+Nach der Überprüfung der Software- und Umgebungsvoraussetzungen für Enterprise-VoIP können Sie entweder:
   
-- Installieren Sie den Vermittlungsserver, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder -pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pools oder Standard Edition Serverbereitstellungsprozess installiert werden, wenn diese verbunden sind.
+- Installieren Sie den Vermittlungsserver, wie unter ["Bereitstellen eines Vermittlungsservers im Topologie-Generator" in Skype for Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder -pool bereitstellen möchten, da Vermittlungsserver beim Verbinden als Teil des Front-End-Pools oder Standard Edition Serverbereitstellungsprozess installiert werden.
     
-- Oder beginnen Sie mit der Konfiguration von Einstellungen zum Weiterleiten von Anrufen für Enterprise-VoIP Benutzer, wie unter [Konfigurieren von Trunks in Skype for Business Server](configure-trunks.md)beschrieben.
+- Oder beginnen Sie mit dem Konfigurieren von Einstellungen zum Weiterleiten von Anrufen für Enterprise-VoIP Benutzer, wie unter [Konfigurieren von Trunks in Skype for Business Server](configure-trunks.md)beschrieben.
     
 

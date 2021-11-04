@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 43bfab8a-3d6b-4ca4-8425-879fd910502e
-description: Weisen Sie Netzwerkstandorten in Skype for Business Server Enterprise-VoIP E9-1-1-Standortrichtlinien zu.
-ms.openlocfilehash: 85a6d589a02c427382c0145a531bcc47ecab703f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Zuweisen von E9-1-1-Standortrichtlinien zu Netzwerkstandorten in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 9d248d91703284d58b27e5fd593af95ddf4edaf3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612784"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765953"
 ---
 # <a name="add-a-location-policy-to-a-network-site-in-skype-for-business-server"></a>Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server
  
-Weisen Sie Netzwerkstandorten in Skype for Business Server Enterprise-VoIP E9-1-1-Standortrichtlinien zu. 
+Zuweisen von E9-1-1-Standortrichtlinien zu Netzwerkstandorten in Skype for Business Server Enterprise-VoIP. 
   
-In den folgenden Beispielen wird gezeigt, wie Sie die in "Erstellen von [Standortrichtlinien in Skype for Business Server"](create-location-policies.md) definierte **Standortrichtlinie "Redmond"** einem vorhandenen Netzwerkstandort hinzufügen und wie Sie einen neuen Netzwerkstandort erstellen, der die **Standortrichtlinie "Redmond"** verwendet.
+Die folgenden Beispiele zeigen, wie Sie die in ["Standortrichtlinien erstellen" in Skype for Business Server](create-location-policies.md) definierte **Standortrichtlinie "Redmond"** einem vorhandenen Netzwerkstandort hinzufügen und wie Sie einen neuen Netzwerkstandort erstellen, der die **Standortrichtlinie "Redmond"** verwendet.
   
 Ausführliche Informationen zum Arbeiten mit Netzwerkstandorten finden Sie in der Dokumentation zur Lync Server-Verwaltungsshell für die folgenden Cmdlets:
   

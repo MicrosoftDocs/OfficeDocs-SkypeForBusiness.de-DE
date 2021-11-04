@@ -1,7 +1,7 @@
 ---
 title: 'Bereitstellen eines einheitlichen Kontaktspeichers in Skype for Business Server '
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d1c9ebd8-af42-42a0-87d9-fc899fbd7c42
 description: 'Zusammenfassung: Aktivieren des einheitlichen Kontaktspeichers in Skype for Business Server.'
-ms.openlocfilehash: 181c23b9dc7ab1c4361e3406a9f1f61b4bcf5057
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 459626fe40f76cc19534aaff67d1b1b39c268469
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609932"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748831"
 ---
 # <a name="deploy-unified-contact-store-in-skype-for-business-server"></a>Bereitstellen eines einheitlichen Kontaktspeichers in Skype for Business Server
  
@@ -56,7 +56,7 @@ Wenn Sie Skype for Business Server bereitstellen und die Topologie veröffentlic
    New-CsUserServicesPolicy -Identity site:<site name> -UcsAllowed $True
    ```
 
-   Zum Beispiel:
+   Beispiel:
     
    ```powershell
    New-CsUserServicesPolicy -Identity site:Redmond -UcsAllowed $True
@@ -68,7 +68,7 @@ Wenn Sie Skype for Business Server bereitstellen und die Topologie veröffentlic
    Set-CsUserServicesPolicy -Tenant <tenantId> -UcsAllowed $True
    ```
 
-   Zum Beispiel:
+   Beispiel:
     
    ```powershell
    Set-CsUserServicesPolicy -Tenant "38aad667-af54-4397-aaa7-e94c79ec2308" -UcsAllowed $True
@@ -110,11 +110,11 @@ Verwenden Sie eine der folgenden Methoden, um zu ermitteln, ob die Kontakte eine
   
 - Überprüfen Sie den folgenden Registrierungsschlüssel auf dem Clientcomputer:
     
-    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync<\\ SIP-URL \> \UCS
+    HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Lync\\<SIP-URL \> \UCS
     
     Wenn die Kontakte des Benutzers in Exchange 2013 gespeichert sind, enthält dieser Schlüssel den Wert InUCSMode mit dem Wert 2165.
     
-- Führen Sie das Cmdlet **Test-CsUnifiedContactStore** aus. Geben Sie an der Befehlszeile der Skype for Business Server Verwaltungsshell Folgendes ein:
+- Führen Sie das Cmdlet **Test-CsUnifiedContactStore** aus. Geben Sie in der Befehlszeile der Skype for Business Server Verwaltungsshell Folgendes ein:
     
   ```powershell
   Test-CsUnifiedContactStore -UserSipAddress "sip:kenmyer@litwareinc.com" -TargetFqdn "atl-cs-001.litwareinc.com"
@@ -134,12 +134,12 @@ Mit dem Cmdlet **"Move-CsUser"** wird der Kontaktspeicher des Benutzers automati
     
 Durch das Importieren der Daten eines einheitlichen Kontaktspeichers aus einer Sicherungsdatenbank können Daten des einheitlichen Kontaktspeichers und Benutzerdaten beschädigt werden, falls der einheitliche Kontaktspeichermodus zwischen dem Export und dem Import geändert wurde. Beispiel:
   
-- Wenn Sie Kontaktlisten exportieren, bevor die Kontakte der Benutzer zu Exchange 2013 migriert werden, und dann nach der Migration dieselben Daten importieren, sind die Daten des einheitlichen Kontaktspeichers und die Kontaktlisten beschädigt.
+- Wenn Sie Kontaktlisten exportieren, bevor die Kontakte der Benutzer zu Exchange 2013 migriert werden, und dann nach der Migration dieselben Daten importieren, werden die Daten des einheitlichen Kontaktspeichers und die Kontaktlisten beschädigt.
     
-- Wenn Sie Benutzerdaten exportieren, nachdem Sie Benutzer zu Exchange 2013 migriert haben, führen Sie ein Rollback der Migration durch, und importieren Sie die Daten aus irgendeinem Grund nach der Migration, sind die Daten des einheitlichen Kontaktspeichers und die Kontaktlisten beschädigt.
+- Wenn Sie Benutzerdaten nach der Migration von Benutzern zu Exchange 2013 exportieren, ein Rollback der Migration ausführen und dann aus irgendeinem Grund die Daten nach der Migration importieren, sind die Daten des einheitlichen Kontaktspeichers und die Kontaktlisten beschädigt.
     
 > [!IMPORTANT]
-> Bevor Sie ein Exchange Postfach von Exchange 2013 auf Exchange 2010 verschieben, muss der Exchange-Administrator sicherstellen, dass der Skype for Business Server-Administrator die Skype for Business Server Benutzerkontakte von Exchange 2013 auf Skype for Business Server zurückgesetzt hat. Informationen zum Zurücksetzen von Kontakten des einheitlichen Kontaktspeichers auf Skype for Business Server finden Sie weiter unten in diesem Abschnitt unter "So führen Sie ein Rollback der Kontakte des einheitlichen Kontaktspeichers von Exchange 2013 auf Skype for Business Server" durch. 
+> Bevor Sie ein Exchange Postfach von Exchange 2013 auf Exchange 2010 verschieben, muss der Exchange Administrator sicherstellen, dass der Skype for Business Server Administrator das Skype for Business Server Benutzerkontakte von Exchange 2013 bis Skype for Business Server. Informationen zum Zurücksetzen von Kontakten des einheitlichen Kontaktspeichers auf Skype for Business Server finden Sie weiter unten in diesem Abschnitt unter "So führen Sie ein Rollback der Kontakte des einheitlichen Kontaktspeichers von Exchange 2013 auf Skype for Business Server" durch. 
   
  **Zurücksetzen von Benutzerkontakten:** Wenn Sie das **Cmdlet "Move-CsUser"** verwenden, um Benutzer zwischen Skype for Business Server 2015 und Lync Server 2010 zu verschieben, können Sie diese Schritte überspringen, da das Cmdlet **"Move-CsUser"** automatisch einen Rollback des einheitlichen Kontaktspeichers ausführt, wenn Benutzer von Skype for Business Server 2015 zu Lync Server 2010 verschoben werden. **Move-CsUser** deaktiviert keine Richtlinie für den einheitlichen Kontaktspeicher, sodass die Migration zum einheitlichen Kontaktspeicher erneut erfolgt, wenn der Benutzer zurück zu Skype for Business Server 2015 verschoben wird.
   

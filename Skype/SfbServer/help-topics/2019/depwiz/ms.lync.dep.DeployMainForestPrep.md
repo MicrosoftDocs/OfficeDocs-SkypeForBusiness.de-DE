@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten der aktuellen Gesamtstruktur
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 11f5e359-97eb-45f7-a730-9ddbbaa40b83
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Active Directory Domain Services-Gesamtstruktur vorzubereiten, müssen Sie das Schema wie im Thema "Schemavorbereitung ausführen" beschrieben erfolgreich erweitern und sicherstellen, dass das Schema repliziert wurde.
-ms.openlocfilehash: 90d591b79bd4cdc82e5878b3e9173d19a0f48452
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65cb63a2ac2ea9273ed27f31fd679efe6e00ba3a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609792"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738671"
 ---
 # <a name="prepare-current-forest"></a>Vorbereiten der aktuellen Gesamtstruktur
 
@@ -39,7 +39,7 @@ Sobald diese Voraussetzungen erfüllt sind, können Sie mit **Schritt 3: Aktuell
 
 4. Erweitern Sie unter der Spalte **"Aktion"** im Protokoll **"Gesamtstrukturvorbereitung",** suchen Sie nach einem **\<Success\>** Ausführungsergebnis am Ende jeder Aufgabe, um zu überprüfen, ob die Gesamtstrukturvorbereitung erfolgreich abgeschlossen wurde, schließen Sie das Protokoll, und klicken Sie dann auf **"Fertig stellen".**
 
-5. Warten Sie, bis die Replikation der Active Directory-Domänendienste abgeschlossen ist, oder erzwingen Sie die Replikation auf allen Domänencontrollern, die im **Active Directory-Snap-In "Standorte und Dienste"** für den Stammdomänencontroller der Gesamtstruktur aufgeführt sind, bevor Sie die Domänenvorbereitung ausführen. Erzwingen Sie die Replikation zwischen den Domänencontrollern an allen Active Directory-Standorten, damit die Replikation an den Standorten innerhalb von Minuten durchgeführt werden kann.
+5. Warten Sie, bis die Replikation der Active Directory-Domänendienste abgeschlossen ist, oder erzwingen Sie die Replikation auf alle Domänencontroller, die im **Active Directory-Snap-In "Standorte und Dienste"** für den Stammdomänencontroller der Gesamtstruktur aufgeführt sind, bevor Sie die Domänenvorbereitung ausführen. Erzwingen Sie die Replikation zwischen den Domänencontrollern an allen Active Directory-Standorten, damit die Replikation an den Standorten innerhalb von Minuten durchgeführt werden kann.
 
     > [!TIP]
     > Wenn Sie die Vom Skype for Business Server Bereitstellungs-Assistenten erstellten Protokolldateien überprüfen müssen, finden Sie sie auf dem Computer, auf dem der Bereitstellungs-Assistent ausgeführt wurde, im Verzeichnis "Benutzer" des Active Directory Domain Services-Benutzers, der den Schritt ausgeführt hat. Wenn sich der Benutzer beispielsweise als Domänenadministrator in der Domäne Contoso.net angemeldet hat, befinden sich die Protokolldateien in: C:\Users\Administrator.Contoso\AppData\Local\Temp

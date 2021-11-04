@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Besprechungskonfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server verwalten.'
-ms.openlocfilehash: 14e84021e398308fe1b2d3d2187329c30dcb8412
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: fe622a04e25795471e8f757c352fcaebd7fb1e3b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58603924"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754834"
 ---
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Verwalten von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
@@ -37,7 +37,7 @@ Besprechungskonfigurationseinstellungen definieren Folgendes:
     
 - Ob anonyme (nicht authentifizierte) Benutzer standardmäßig zugelassen werden
     
-Sie können Merkmale von Besprechungen mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell definieren. 
+Sie können Die Merkmale von Besprechungen mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell definieren. 
   
 Sie können Besprechungseinstellungen auf globaler Ebene (standardmäßig erstellt), auf Standortebene oder auf Poolebene angeben. Standardmäßig definieren die globalen Einstellungen die Besprechungsumgebung. Wenn Sie Einstellungen auf Poolebene erstellen, gelten diese Einstellungen für alle Besprechungen, die von diesem Pool gehostet werden. Wenn Sie keine Einstellungen auf Poolebene erstellen, gelten die Einstellungen auf Standortebene, sofern vorhanden. Wenn Sie keine Einstellungen auf Websiteebene definieren, gelten die globalen Einstellungen für alle Besprechungen.
   

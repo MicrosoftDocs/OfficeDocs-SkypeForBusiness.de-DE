@@ -1,7 +1,7 @@
 ---
 title: Ausführen einer Abfrage
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Abfrage ausführen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 814b602631b3699b2b802adaee931e4ab0a780a6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65ff47013f1f11d6d9e5a26ea9031b993f134973
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626627"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766403"
 ---
 # <a name="run-query"></a>Ausführen einer Abfrage
 
@@ -28,7 +28,7 @@ Der Vorgang "Abfrage ausführen" ist Teil der Daten-API für das Anrufqualitäts
 
 ## <a name="run-query"></a>Ausführen einer Abfrage
 
-Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage für den Cube basierend auf angegebenen Dimensionen, Maßangaben und Filtern auszuführen und die Daten zurückzugeben.
+Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem Cube basierend auf angegebenen Dimensionen, Maßen und Filtern auszuführen und die Daten zurückzugeben.
 
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
@@ -84,7 +84,7 @@ Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage für den 
 
  **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
 
- **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+ **Statuscode:** Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
 
  **Antwortheader** – keine zusätzlichen Kopfzeilen.
 
@@ -127,4 +127,4 @@ Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage für den 
 
  *Datenergebnis*  – Das Ergebnis der Abfrage. Es handelt sich um ein zweidimensionales Array, das alle Permutationen der Elemente der Dimensionen und jedes Element mit den Elementnamen der Dimensionen sowie die aggregierten Werte der angegebenen Maßeinheiten enthält.
 
- *Ergebnis aus Cache*  – für Diagnose. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube stammt.
+ *Result is From Cache*  – For diagnostics. Gibt an, ob das Ergebnis aus dem Cache oder aus dem QoE-Cube stammt.

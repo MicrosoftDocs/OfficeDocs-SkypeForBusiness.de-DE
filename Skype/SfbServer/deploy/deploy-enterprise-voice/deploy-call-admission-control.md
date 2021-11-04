@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen der Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ce3e6e71-1e33-4cff-849a-c0468e61fef6
 description: Die Anrufsteuerung (Call Admission Control, CAC) ist eine Lösung, die bestimmt, ob eine Echtzeitsitzung basierend auf der verfügbaren Bandbreite eingerichtet werden kann, um eine schlechte Audio-/Videoqualität für Benutzer in überlasteten Netzwerken zu verhindern.
-ms.openlocfilehash: 5f8143f815c0d2c9e9b9bc281cca935198c92768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b22074df1eac0727334371d92097333a589eb684
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610142"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753596"
 ---
 # <a name="deploy-call-admission-control-in-skype-for-business-server"></a>Bereitstellen der Anrufsteuerung in Skype for Business Server
  
@@ -43,6 +43,6 @@ Die Anrufsteuerung (Call Admission Control, CAC) ist eine Lösung, die bestimmt,
     
 7. Aktivieren Sie die Anrufsteuerung, wie unter Aktivieren der [Anrufsteuerung in Skype for Business Server](enable-call-admission-control.md)beschrieben.
     
-8. Überprüfen Sie einige endgültige Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Ausführliche Informationen finden Sie unter Bereitstellung der [Anrufsteuerung: abschließende Checkliste für Skype for Business Server.](final-checklist.md)
+8. Überprüfen Sie einige endgültige Einstellungen, um sicherzustellen, dass alles ordnungsgemäß eingerichtet ist. Ausführliche Informationen finden Sie unter Bereitstellung der [Anrufsteuerung: letzte Checkliste für Skype for Business Server.](final-checklist.md)
     
 

@@ -1,7 +1,7 @@
 ---
 title: Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a102b226-0460-4d5c-82f9-79b8444fa958
 description: Erstellen, Ändern oder Löschen nicht zugewiesener Nummernbereiche für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: eb20f43729c29911cb9f45888564c8ab5a0ac739
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ad3193994d41d26546da36614baee64c2298cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620241"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753752"
 ---
 # <a name="create-or-modify-an-unassigned-number-range-in-skype-for-business-server"></a>Erstellen oder Ändern eines Bereichs nicht zugewiesener Nummern in Skype for Business Server
  
 Erstellen, Ändern oder Löschen nicht zugewiesener Nummernbereiche für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
   
-Skype for Business Server können Sie sagen, was mit eingehenden Anrufen an Telefonnummern geschieht, die für Ihre Organisation gültig sind, aber keinem Benutzer oder Telefon zugewiesen sind. Um solche Anrufe zu verarbeiten, richten Sie eine Tabelle nicht zugewiesener Nummern ein. Sie können die Tabelle verwenden, um die Anrufe an eine Ankündigungsanwendung oder an einen Exchange UM-Server weiterzuleiten.
+mit Skype for Business Server können Sie sagen, was mit eingehenden Anrufen an Telefonnummern geschieht, die für Ihre Organisation gültig sind, aber keinem Benutzer oder Telefon zugewiesen sind. Um solche Anrufe zu verarbeiten, richten Sie eine Tabelle nicht zugewiesener Nummern ein. Sie können die Tabelle verwenden, um die Anrufe an eine Ankündigungsanwendung oder an einen Exchange UM-Server weiterzuleiten.
   
 Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich danach, wie Sie diese verwenden möchten. Sie können die Tabelle mit allen gültigen Erweiterungen für Ihre Organisation, nur mit nicht zugewiesenen Erweiterungen oder mit einer Kombination aus beiden Nummerntypen konfigurieren. Die Tabelle nicht zugewiesener Nummern kann sowohl zugewiesene als auch nicht zugewiesene Nummern enthalten, wird jedoch nur aufgerufen, wenn ein Anrufer eine Nummer wählt, die derzeit nicht zugewiesen ist. Wenn Sie alle gültigen Erweiterungen in die Tabelle nicht zugewiesener Nummern einschließen, können Sie die Aktion angeben, die ausgeführt wird, wenn jemand Ihre Organisation verlässt, ohne die Tabelle neu konfigurieren zu müssen. Wenn Sie nicht zugewiesene Erweiterungen in die Tabelle aufnehmen, können Sie die Aktion ändern, die für bestimmte Zahlen ausgeführt wird. Wenn Sie beispielsweise die Erweiterung für Ihren Kundendienst ändern, können Sie die alte Kundendienstnummer in die Tabelle aufnehmen und sie dann einer Ankündigung zuweisen, die die neue Nummer bereitstellt.
   
@@ -36,7 +36,7 @@ Wie Sie die Tabelle nicht zugewiesener Rufnummern konfigurieren, richtet sich da
 Verwenden Sie eines der folgenden Verfahren, um bereiche nicht zugewiesener Nummern für die Ankündigungsanwendung zu konfigurieren.
   
 > [!IMPORTANT]
-> Bevor Sie die Tabelle nicht zugewiesener Nummern konfigurieren, muss auf Ihrem System entweder Ankündigungen definiert oder eine Exchange automatische Um-Telefonzentrale (Unified Messaging) eingerichtet sein. 
+> Bevor Sie die Tabelle nicht zugewiesener Nummern konfigurieren, müssen auf Ihrem System entweder Ankündigungen definiert oder eine Exchange automatische Um-Telefonzentrale (Unified Messaging) eingerichtet sein. 
   
 > [!TIP]
 > Wenn jemand eine nicht zugewiesene Nummer aufruft, durchsucht Skype for Business Server die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten übereinstimmenden Bereich. Daher sollte eine Aktion, die als letzte Möglichkeit ausgeführt werden soll, für den letzten Bereich in der Tabelle angegeben werden. 
@@ -169,7 +169,7 @@ Verwenden Sie eines der folgenden Verfahren, um bereiche nicht zugewiesener Numm
     > [!NOTE]
     > Ausführliche Informationen zu weiteren Optionen finden Sie unter [Remove-CsCallParkOrbit](/powershell/module/skype/remove-cscallparkorbit?view=skype-ps). 
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [New-CsUnassignedNumber](/powershell/module/skype/new-csunassignednumber?view=skype-ps)
   

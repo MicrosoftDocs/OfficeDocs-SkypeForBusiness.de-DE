@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der Standortdatenbank in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Konfigurieren, Auffüllen und Veröffentlichen der E9-1-1-Standortdatenbank in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 0eb2fd8e09c09688cf8c8282b35328ca7eb1761b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 759dffbaf5f9370b2604534e2868cdd87933d1ef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597739"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748911"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype for Business Server
  
@@ -62,13 +62,13 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName "Litware" -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    Fügen Sie für ELIN-Gateways die ELIN in das Feld "CompanyName" ein. Sie können mehr als eine ELIN einschließen. Zum Beispiel:
+    Fügen Sie für ELIN-Gateways die ELIN in das Feld "CompanyName" ein. Sie können mehr als eine ELIN einschließen. Beispiel:
     
    ```powershell
    Set-CsLisSubnet -Subnet 157.56.66.0 -Description "Subnet 1" -Location Location1 -CompanyName 425-555-0100; 425-555-0200; 425-555-0300 -HouseNumber 1234 -HouseNumberSuffix "" -PreDirectional "" -StreetName 163rd -StreetSuffix Ave -PostDirectional NE -City Redmond -State WA -PostalCode 99123 -Country US
    ```
 
-    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei namens "subnets.csv" verwenden, um Subnetzstandorte massenweise zu aktualisieren.
+    Alternativ können Sie die folgenden Cmdlets ausführen und eine Datei mit dem Namen "subnets.csv" verwenden, um Subnetzstandorte massenweise zu aktualisieren.
     
    ```powershell
    $g = Import-Csv subnets.csv

@@ -1,7 +1,7 @@
 ---
 title: (Optional) Definieren der Geschäftszeiten von Reaktionsgruppen in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d62551b2-1847-4e1b-abe8-683b72aa94d5
 description: Erstellen oder Ändern der Geschäftszeiten von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 8cceee13e18e8b4a44ba1cffcca68be7c5fd3bf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0afdd3c5f21b947d2c20ba79e9ae8296c582060e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579979"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753576"
 ---
 # <a name="optional-define-response-group-business-hours-in-skype-for-business"></a>(Optional) Definieren der Geschäftszeiten von Reaktionsgruppen in Skype for Business 
  
@@ -64,7 +64,7 @@ Mit der Einstellung der Geschäftszeiten wird definiert, wann der Workflow zur A
    New-CsRgsHoursOfBusiness -Parent "ApplicationServer:Redmond.contoso.com" -Name "Help Desk Business Hours" -MondayHours1 $a -TuesdayHours1 $a -WednesdayHours1 $a -ThursdayHours1 $a -FridayHours1 $a -SaturdayHours1 $b -SaturdayHours2 $c
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [New-CsRgsTimeRange](/powershell/module/skype/new-csrgstimerange?view=skype-ps)
   

@@ -1,7 +1,7 @@
 ---
 title: Überprüfen der Topologie in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a4f4bad1-fc59-47ce-a3ea-b1b893769db6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie überprüfen, ob die Skype for Business Server Topologie und Active Directory-Server wie erwartet funktionieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 0d8bc0a8ead8d435acf23965c461b57dab93edc2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba098dd808fec192cc944ed3796d5e11b0d8af31
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605524"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753238"
 ---
 # <a name="verify-the-topology-in-skype-for-business-server"></a>Überprüfen der Topologie in Skype for Business Server
  
@@ -38,10 +38,10 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
   
 ### <a name="add-users-and-verify-client-connectivity"></a>Hinzufügen von Benutzern und Überprüfen der Clientkonnektivität
 
-1. Verwenden Sie Active Directory-Computer und -Benutzer, um das Active Directory-Benutzerobjekt der Administratorrolle für die Skype for Business Server Bereitstellung (auf der Skype for Business Server Systemsteuerung installiert ist) der **Gruppe "CSAdministrator"** hinzuzufügen.
+1. Verwenden Sie Active Directory-Computer und -Benutzer, um das Active Directory-Benutzerobjekt der Administratorrolle für die Skype for Business Server Bereitstellung (auf der Skype for Business Server Systemsteuerung installiert ist) der **GRUPPE "CSAdministrator"** hinzuzufügen.
     
     > [!IMPORTANT]
-    > Wenn Sie die entsprechenden Benutzer und Gruppen nicht zur Gruppe "CsAdministors" hinzufügen, wird beim Öffnen Skype for Business Server Systemsteuerung eine Fehlermeldung angezeigt, die lautet: "Nicht autorisiert: Der Zugriff wird aufgrund eines Autorisierungsfehlers bei der rollenbasierten Zugriffssteuerung (RBAC) verweigert." 
+    > Wenn Sie die entsprechenden Benutzer und Gruppen nicht zur Gruppe "CsAdministors" hinzufügen, wird beim Öffnen Skype for Business Server Systemsteuerung eine Fehlermeldung angezeigt, die lautet: "Nicht autorisiert: Der Zugriff wird aufgrund eines Autorisierungsfehlers der rollenbasierten Zugriffssteuerung (RBAC) verweigert." 
   
 2. Wenn das Benutzerobjekt derzeit angemeldet ist, melden Sie es ab und wieder an, um die neue Gruppenzuweisung zu registrieren.
     
@@ -50,13 +50,13 @@ Der letzte Schritt besteht darin, den Front-End-Pool zu testen und zu bestätige
   
 3. Verwenden Sie das Administratorkonto, um sich bei dem Computer anzumelden, auf dem Skype for Business Server Systemsteuerung installiert ist.
     
-4. Starten Sie Skype for Business Server Systemsteuerung, und geben Sie dann Anmeldeinformationen ein, wenn Sie dazu aufgefordert werden. Skype for Business Server In der Systemsteuerung werden Bereitstellungsinformationen angezeigt.
+4. Starten Sie Skype for Business Server Systemsteuerung, und geben Sie dann anmeldeinformationen ein, wenn Sie dazu aufgefordert werden. Skype for Business Server In der Systemsteuerung werden Bereitstellungsinformationen angezeigt.
     
-5. Klicken Sie in der linken Navigationsleiste auf **"Topologie",** und bestätigen Sie dann, dass der Dienststatus einen Computer mit einem grünen Pfeil anzeigt und dass sich neben jedem Skype for Business Server Rolle, die bereitgestellt und online geschaltet wurde, ein grünes Häkchen für den Replikationsstatus befindet. 
+5. Klicken Sie in der linken Navigationsleiste auf **"Topologie",** und bestätigen Sie dann, dass der Dienststatus einen Computer mit einem grünen Pfeil anzeigt und dass sich neben jeder Skype for Business Server Rolle, die bereitgestellt und online geschaltet wurde, ein grünes Häkchen für den Replikationsstatus befindet. 
     
 6. Klicken Sie in der linken Navigationsleiste auf **"Benutzer"** und dann auf **"Benutzer aktivieren".** 
     
-7. Klicken Sie auf der Seite **"Neu Skype for Business Server Benutzer"** auf **"Hinzufügen".**
+7. Klicken Sie auf der Seite **"Neuer Skype for Business Server Benutzer"** auf **"Hinzufügen".**
     
 8. Um Suchparameter für die Objekte zu definieren, die Sie suchen möchten, können Sie auf der Seite **"Aus Active Directory** auswählen" die Option **"Suchen"** auswählen und dann optional auf **"Filter hinzufügen"** klicken. Sie können auch die **LDAP-Suche** auswählen und einen LDAP-Ausdruck eingeben, um die zurückzugebenden Objekte zu filtern oder einzuschränken. Nachdem Sie sich für Ihre Suchoptionen entschieden haben, klicken Sie auf **"Suchen".**
     

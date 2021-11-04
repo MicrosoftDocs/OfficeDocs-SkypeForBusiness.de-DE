@@ -1,7 +1,7 @@
 ---
 title: Aktivieren oder Deaktivieren von Offline-Chatnachrichten in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0f44352-fb4a-45d3-85b0-a4320d4b8339
 description: Erfahren Sie, wie Sie Offline-Chatnachrichten in Skype for Business Server aktivieren oder deaktivieren.
-ms.openlocfilehash: 31c27a84965e3b75515c206f8dc984b2eaa178eb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 36894fb2a1ed11428b21b572a28e9ac177a4237d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578039"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753327"
 ---
 # <a name="enable-or-disable-offline-instant-messaging-im-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren von Offline-Chatnachrichten in Skype for Business Server
  
@@ -25,7 +25,7 @@ Erfahren Sie, wie Sie Offline-Chatnachrichten in Skype for Business Server aktiv
   
 ## <a name="enable-offline-instant-messaging-im-in-skype-for-business-server"></a>Aktivieren von Offline-Chatnachrichten in Skype for Business Server
 
-Offline-Chat ist ein clientseitiges Feature, das in Skype for Business Client integriert ist (2016 C2R Build 16.0.6701.1000 oder höher), das Exchange Webdienste (EWS) nutzt, um Nachrichten vom Skype for Business-Client an das Exchange Postfach eines Benutzers zu senden. Offlinenachrichten verwenden Exchange Webdienste (EWS), um Offlinenachrichten vom Skype for Business-Client an das Postfach des Empfängers zu senden. EWS muss für den Skype for Business Client verfügbar sein, damit Offlinenachrichten gesendet werden können. Weitere Informationen zur Planung von Chatnachrichten und Anwesenheitsinformationen finden Sie unter [Plan for instant messaging and presence in Skype for Business Server.](../../plan-your-deployment/instant-messaging-and-presence.md)
+Offline-Chat ist ein clientseitiges Feature, das in Skype for Business Client integriert ist (2016 C2R Build 16.0.6701.1000 oder höher), das Exchange Webdienste (EWS) verwendet, um Nachrichten vom Skype for Business-Client an das Exchange Postfach eines Benutzers zu senden. Offlinenachrichten verwenden Exchange Webdienste (EWS), um Offlinenachrichten vom Skype for Business-Client an das Postfach des Empfängers zu senden. EWS muss für den Skype for Business Client verfügbar sein, damit Offlinenachrichten gesendet werden können. Weitere Informationen zur Planung von Chatnachrichten und Anwesenheitsinformationen finden Sie unter [Plan for instant messaging and presence in Skype for Business Server.](../../plan-your-deployment/instant-messaging-and-presence.md)
   
 > [!NOTE]
 > Wenn das Postfach des Benutzers in Exchange lokal gehostet wird, ist der Skype for Business-Client (2016 C2R Build 16.0.6920.1000) erforderlich. 
@@ -41,7 +41,7 @@ Offline-Chat ist ein clientseitiges Feature, das in Skype for Business Client in
    ```
 
     > [!NOTE]
-    > In Skype for Business Server 2015 CU3 ist die Option EnableOfflineIM standardmäßig auf $True festgelegt. Zum Deaktivieren legen Sie diesen Wert auf $False fest. 
+    > In Skype for Business Server 2015 CU3 ist die Option EnableOfflineIM standardmäßig auf $True festgelegt. Legen Sie diesen Wert zum Deaktivieren auf $False fest. 
   
 3. Führen Sie den folgenden Befehl aus, um zu bestätigen, dass die Möglichkeit zum Speichern von Offline-Chatnachrichten festgelegt ist.
     
@@ -49,7 +49,7 @@ Offline-Chat ist ein clientseitiges Feature, das in Skype for Business Client in
    Get-CsImConfiguration
    ```
 
-## <a name="offline-im-integration-with-exchange"></a>Offline-Chatintegration mit Exchange
+## <a name="offline-im-integration-with-exchange"></a>Integration von Offline-Chatnachrichten in Exchange
 
 Offlinenachrichten sind für Absender nicht verfügbar, wenn sie über eine Clientrichtlinie verfügen, die das automatische Speichern von Offlinenachrichten im Unterhaltungsverlaufsordner deaktiviert (EnableIMAutoArchiving = $false). Es gibt keinen Mechanismus, um zu überprüfen, ob der Empfänger Offlinenachrichten empfangen kann.
   
@@ -59,7 +59,7 @@ Bei Offlinenachrichten, die von einer Verbundorganisation gesendet werden, werde
   
 ## <a name="troubleshooting"></a>Problembehandlung
 
-Es gibt einen Zwei-Minuten-Timer vom Zeitpunkt, an den eine Offlinenachricht gesendet wird, wenn sie angenommen und verarbeitet wird. Wenn Offlinenachrichten nicht verarbeitet werden können, werden sie im folgenden Verzeichnis angezeigt: 
+Es gibt einen zweiminütigen Timer von dem Zeitpunkt, an dem eine Offlinenachricht gesendet wird, wenn sie angenommen und verarbeitet wird. Wenn Offlinenachrichten nicht verarbeitet werden können, werden sie im folgenden Verzeichnis angezeigt: 
   
   <pre>  %localappdata%\microsoft\office\16.0\lync\SipUserAddress\History Spooler   </pre>
 

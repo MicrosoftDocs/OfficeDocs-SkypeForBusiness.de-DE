@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren eines sekundären Standortinformationsdiensts in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 083ffbc6-7c18-4141-85f9-8825b62c3d10
 description: Konfigurieren Sie eine sekundäre Standortquelldatenbank (SECONDARY Location Source, SLS) für E9-1-1 in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: b2db211ec9c1bc7d2459ad2dbc8cada4b87afa6e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6d42375ddc127bd19a73d64782f4f6840a373b87
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618111"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753452"
 ---
 # <a name="configure-a-secondary-location-information-service-in-skype-for-business-server"></a>Konfigurieren eines sekundären Standortinformationsdiensts in Skype for Business Server
  
 Konfigurieren Sie eine sekundäre Standortquelldatenbank (SECONDARY Location Source, SLS) für E9-1-1 in Skype for Business Server Enterprise-VoIP. 
   
-Skype for Business Server stellt eine Webdienstschnittstelle bereit, die Sie verwenden können, um den Standortinformationsdienst auf eine sekundäre SLS-Datenbank (Location Source) zu verweisen. Die Webdienstschnittstelle, die eine Verbindung mit der SLS-Datenbank herstellt, muss dem Standortinformationsdienst WSDL entsprechen. Wenn sowohl eine Standortdatenbank als auch eine sekundäre Standortdatenbank konfiguriert sind, fragt der Standortinformationsdienst zuerst die Standortdatenbank ab, und wenn keine Übereinstimmung gefunden wird, sendet er die Standortanforderung vom Client an die SLS-Datenbank. Wenn der Speicherort im SLS vorhanden ist, sendet der Standortinformationsdienst den Standort zurück an den Client. 
+Skype for Business Server bietet eine Webdienstschnittstelle, die Sie verwenden können, um den Standortinformationsdienst auf eine SEKUNDÄRE Standortquelle (Secondary Location Source, SLS)-Datenbank zu verweisen. Die Webdienstschnittstelle, die eine Verbindung mit der SLS-Datenbank herstellt, muss dem Standortinformationsdienst WSDL entsprechen. Wenn sowohl eine Standortdatenbank als auch eine sekundäre Standortdatenbank konfiguriert sind, fragt der Standortinformationsdienst zuerst die Standortdatenbank ab, und wenn keine Übereinstimmung gefunden wird, sendet er die Standortanforderung vom Client an die SLS-Datenbank. Wenn der Speicherort im SLS vorhanden ist, sendet der Standortinformationsdienst den Standort zurück an den Client. 
   
 ### <a name="to-configure-a-secondary-location-database"></a>So konfigurieren Sie eine Datenbank für sekundären Speicherort
 
@@ -39,6 +39,6 @@ Skype for Business Server stellt eine Webdienstschnittstelle bereit, die Sie ver
    Set-CsWebServiceConfiguration -SecondaryLocationSourceURL "<web service url>" 
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)

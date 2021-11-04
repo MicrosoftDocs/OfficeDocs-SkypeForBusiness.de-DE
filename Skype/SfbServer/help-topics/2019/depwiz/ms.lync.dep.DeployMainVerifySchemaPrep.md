@@ -1,7 +1,7 @@
 ---
 title: Überprüfen der Replikation der Schemapartition
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,19 +14,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
 ROBOTS: NOINDEX, NOFOLLOW
-description: 'Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in ihrer Active Directory Domain Services-Gesamtstruktur repliziert wurde:'
-ms.openlocfilehash: eb0239df900547158cd670a43cdb6fc9e82dc377
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in der Active Directory Domain Services-Gesamtstruktur repliziert wurde:'
+ms.openlocfilehash: 3cbe7b856e257528bf9610ff1733c963775e648a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621577"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738551"
 ---
 # <a name="verify-replication-of-schema-partition"></a>Überprüfen der Replikation der Schemapartition
  
-Gehen Sie folgendermaßen vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in ihrer Active Directory Domain Services-Gesamtstruktur repliziert wurde:
+Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in der Active Directory Domain Services-Gesamtstruktur repliziert wurde:
   
-1. Melden Sie sich bei einem Domänencontroller (außer dem Domänencontroller mit der Schemamasterrolle) in der Active Directory Domain Services-Gesamtstruktur an, auf den die Schemaerweiterungen als Mitglied der Gruppe "Enterprise Administratoren" angewendet wurden.
+1. Melden Sie sich bei einem Domänencontroller (mit Ausnahme des Domänencontrollers, der die Schemamasterrolle enthält) in der Active Directory Domain Services-Gesamtstruktur an, wobei die Schemaerweiterungen als Mitglied der Gruppe "Enterprise Administratoren" angewendet wurden.
     
 2. Öffnen Sie den ADSI-Editor: Klicken Sie nacheinander auf **Start**, **Verwaltung** und **ADSI-Editor**.
     

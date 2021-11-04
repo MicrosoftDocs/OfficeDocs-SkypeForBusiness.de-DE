@@ -1,7 +1,7 @@
 ---
 title: Veröffentlichen der Topologie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2ea9613d-e74f-434b-aa51-eaaab206ff1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite Topologie veröffentlichen wird zu Beginn des Veröffentlichungsprozesses angezeigt. Vergewissern Sie sich vor dem Fortfahren, dass die aufgeführten Aufgaben abgeschlossen wurden. Klicken Sie im Anschluss auf Weiter. Wenn Sie den Veröffentlichungsprozess abbrechen müssen, klicken Sie auf Abbrechen.
-ms.openlocfilehash: b8b1bef69fdf186fd1548de26f3fb7da346d69d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 42b4e1b1be8ece0aa354ff76aca6a77cac5732ce
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759897"
 ---
 # <a name="publish-topology"></a>Veröffentlichen der Topologie
  

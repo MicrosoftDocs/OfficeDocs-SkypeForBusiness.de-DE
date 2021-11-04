@@ -1,7 +1,7 @@
 ---
 title: Übersetzungsregeltyp ein regulärer Ausdruck
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 5ee83724-b399-4f8d-8f6d-4b53a26296b4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Geben Sie im Feld Dieses Muster abgleichen das Muster an, das für den Abgleich der zu übersetzenden Nummern verwendet werden soll. Geben Sie im Feld Übersetzungsregel ein Muster für das Format der übersetzten Nummern an. '
-ms.openlocfilehash: 951da5e52f247c6649883354cb61c8064d495d40
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2f6a0eb82e745c63ee6e0b3cfd7303b9359846b4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590369"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738429"
 ---
 # <a name="translation-rule-type-a-regular-expression"></a>Übersetzungsregel: Eingeben eines regulären Ausdrucks
  

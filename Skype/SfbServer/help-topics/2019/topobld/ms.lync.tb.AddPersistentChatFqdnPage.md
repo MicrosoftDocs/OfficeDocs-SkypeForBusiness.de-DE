@@ -1,7 +1,7 @@
 ---
 title: Definieren des FQDN für beständigen Chat
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e0123fa6-008b-430e-a68b-61f0cc3fb12e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie erstellen einen neuen Pool für den Server für beständigen Chat oder den Serverpool für beständigen Chat mithilfe des Assistenten zum Definieren eines neuen Pools für beständigen Chat. Wählen Sie entweder die Option Pool mit mehreren Computern oder Pool mit einem Computer. Wenn Sie einen Pool mit einem Computer auswählen und später einen Pool mit mehreren Computern benötigen, müssen Sie den Pool mit einem Computer entfernen und dann einen Pool mit mehreren Computern definieren.
-ms.openlocfilehash: af16c2fcb285af2e31f2ac64258b3d5b67cfa04e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cefd43ade682949b4a0e30db562b52039e9b9e54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58614683"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60760047"
 ---
 # <a name="define-persistent-chat-fqdn"></a>Definieren des FQDN für beständigen Chat
 

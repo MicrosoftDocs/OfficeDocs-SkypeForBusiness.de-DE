@@ -1,7 +1,7 @@
 ---
 title: tblPrincipalType
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
-ms.openlocfilehash: 5a4e38c7e29de235c4244e0617575f0732ab4362
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3fa86d3cfed058387681ff0fc5eb2b3ec7afb26d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58633499"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743111"
 ---
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
@@ -43,15 +43,15 @@ tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tbl
 
 |**ID**|**Rolle**|**Beschreibung**|**Benutzer**|
 |:-----|:-----|:-----|:-----|
-|1   <br/> |Beliebig  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
-|2   <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
-|3   <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|1  <br/> |Any  <br/> |Allgemeiner Prinzipal ohne bekannten Typ. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
+|2  <br/> |AnyUser  <br/> |Allgemeiner Prinzipal vom Typ Benutzer. Keine Verwendung in tblPrincipal-Tabelle.  <br/> |Ja  <br/> |
+|3  <br/> |AnyGroup  <br/> |Allgemeiner Prinzipal mit Gruppensemantik. Keine Verwendung in tblPrincipal-Tabelle.  <br/> ||
 |4   <br/> |SystemUser  <br/> |Prinzipal, der intern vom Server für beständigen Chat verwendet wird.  <br/> ||
-|5   <br/> |User  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
+|5  <br/> |Benutzer  <br/> |Regelmäßiger Benutzer.  <br/> |Ja  <br/> |
 |8   <br/> |Gleichstrom  <br/> |Active Directory Domain Services-Domänencontroller.  <br/> ||
 |9   <br/> |Gruppe  <br/> |Active Directory-Sicherheitsgruppe  <br/> ||
-|10   <br/> |Ordner  <br/> |Active Directory-Container oder Organisationseinheit  <br/> ||
+|10  <br/> |Ordner  <br/> |Active Directory-Container oder Organisationseinheit  <br/> ||
    
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [tblPrincipal](tblprincipal.md)

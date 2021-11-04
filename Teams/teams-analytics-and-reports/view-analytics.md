@@ -1,7 +1,7 @@
 ---
 title: Anzeigen von Analysen in Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -16,12 +16,12 @@ MS.collection:
 description: Erfahren Sie mehr über teamübergreifende Analysen, Teamanalysen und Analysen pro Kanal in Teams, mit denen Benutzer Nutzungsdaten für Teams oder Kanäle sehen können, zu denen sie gehören.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 54abc3545ca6d2935a78e3924cbd62e948c02bf1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731734"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742971"
 ---
 # <a name="view-analytics-in-teams"></a>Anzeigen von Analysen in Teams
 
@@ -29,13 +29,13 @@ In Microsoft Teams können Benutzer Analysen für Teams und Kanäle anzeigen, zu
 
 - **Teamübergreifende Analysen geben** Benutzern einen umfassenden Überblick über die Nutzungsdaten für alle Teams, deren Mitglied oder Besitzer sie in einer einzelnen Listenansicht sind.
 - **Teamspezifische Analysen ermöglichen** Benutzern eine genauere Ansicht, in der Nutzungsdaten für ein bestimmtes Team angezeigt werden.
-- **Analysen pro Kanal** ermöglichen Benutzern eine noch genauere Ansicht, in der Nutzungsdaten für einen bestimmten Kanal angezeigt werden.
+- **Analysen pro Kanal** ermöglichen Benutzern eine noch genauere Ansicht, in der Die Nutzungsdaten für einen bestimmten Kanal angezeigt werden.
 
 Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Zeitraum zu sehen.
 
 ## <a name="view-cross-team-analytics"></a>Anzeigen teamübergreifender Analysen
 
-1. Klicken Teams team unten in der Teamliste neben Einem Team beitreten oder ein Team erstellen auf **Teams verwalten**.
+1. Klicken Teams der Liste der Teams unten neben Einem Team beitreten oder ein Team erstellen auf **Teams verwalten**.
 2. Klicken Sie auf **die Registerkarte** Analyse.
 3. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für alle Teams anzeigen, deren Mitglied oder Besitzer Sie sind.
 
@@ -87,7 +87,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 > Sie können auch Analysen pro Kanal anzeigen, indem Sie in der Analyseansicht pro Team im [Dropdown-Listenfeld einen Kanal auswählen.](#view-per-team-analytics)
     
 > [!NOTE]
-> Wir definieren aktive Benutzer als Benutzer, die eine beabsichtigte Aktion im Desktopclient, mobilen Client und Webclient ausführen. Beispiele für eine beabsichtigte Aktion sind das Starten eines Chats, das Starten eines Anrufs, das Freigeben einer Datei, das Bearbeiten eines Dokuments innerhalb von Teams, die Teilnahme an einer Besprechung und so weiter. Passive Aktionen wie der automatische Start, das Minimieren eines Bildschirms oder das Schließen der App werden wegsend. Außerdem werden alle Aktionen für eine einzelne Benutzer-ID entpgruppen.
+> Wir definieren aktive Benutzer als Benutzer, die eine beabsichtigte Aktion im Desktopclient, mobilen Client und Webclient ausführen. Beispiele für eine beabsichtigte Aktion sind das Starten eines Chats, das Starten eines Anrufs, das Freigeben einer Datei, das Bearbeiten eines Dokuments innerhalb von Teams, die Teilnahme an einer Besprechung und so weiter. Passive Aktionen wie der automatische Start, das Minimieren eines Bildschirms oder das Schließen der App werden weg gestreift. Außerdem werden alle Aktionen für eine einzelne Benutzer-ID entpgruppen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

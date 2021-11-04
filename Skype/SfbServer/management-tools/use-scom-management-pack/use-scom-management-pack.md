@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Skype for Business Server 2015 mithilfe des SCOM Management Packs
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Skype for Business Server 2015-Infrastruktur für die Arbeit mit System Center Operations Manager konfigurieren.'
-ms.openlocfilehash: 0349949afe27c5351f9eefda7a5cc5f44a0a072d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014939"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766273"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2015 mithilfe des SCOM Management Packs
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Ihre Skype for Business Server 2015-Infrastruktur für System Center Operations Manager konfigurieren.
   
-In einer idealen Welt treten nie Probleme mit Skype for Business Server 2015 auf. Skype for Business Server können jedoch von externen Faktoren beeinflusst werden, z. B. Netzwerkabstürzen und Hardwarefehlern. Mithilfe von Skype for Business Server 2015 Management Packs können Sie potenzielle Probleme proaktiv identifizieren und beheben. Auf diese Weise erweitern die Skype for Business Server 2015 Management Packs die Funktionen von System Center Operations Manager.
+In einer idealen Welt treten nie Probleme mit Skype for Business Server 2015 auf. Skype for Business Server können jedoch von externen Faktoren betroffen sein, z. B. Netzwerkabstürzen und Hardwarefehlern. Mithilfe Skype for Business Server 2015 Management Packs können Sie potenzielle Probleme proaktiv identifizieren und beheben. Auf diese Weise erweitern die Skype for Business Server 2015 Management Packs die Funktionen von System Center Operations Manager.
   
 Diese Informationen wurden basierend auf Version 9319.0 des Monitoring Packs für Skype for Business Server 2015-Kommunikationssoftware geschrieben.
   
@@ -37,7 +37,7 @@ Identifizieren und [Konfigurieren des primären Verwaltungsservers.](configure-t
   
  Identifizieren und [konfigurieren Sie die Skype for Business Server Computer, die überwacht werden.](configure-computers-to-monitor.md) Um einen Skype for Business Server Computer mithilfe von System Center Operations Manager zu überwachen, müssen Sie die System Center Operations Manager-Agentdateien installieren und jeden Server so konfigurieren, dass er als Proxy fungiert. 
   
- Identifizieren [und Installieren und Konfigurieren von Monitorknoten.](watcher-nodes.md) Monitorknoten sind Computer, die in regelmäßigen Abständen Skype for Business Server synthetische Transaktionen ausgeführt werden– Windows PowerShell Cmdlets, die überprüfen, ob Schlüssel Skype for Business Server Komponenten, z. B. die Möglichkeit, sich am System anzumelden oder Chatnachrichten auszutauschen, erwartungsgemäß funktionieren. 
+ Identifizieren [und Installieren und Konfigurieren von Monitorknoten.](watcher-nodes.md) Monitorknoten sind Computer, die in regelmäßigen Abständen Skype for Business Server synthetischen Transaktionen ausgeführt werden– Windows PowerShell Cmdlets, die überprüfen, ob schlüssel Skype for Business Server Komponenten, z. B. die Möglichkeit zur Anmeldung am System oder die Möglichkeit zum Austauschen von Chatnachrichten, erwartungsgemäß funktionieren. 
   
 ## <a name="system-center-operations-manager-root-management-server-and-agent-support"></a>System Center Operations Manager-Stammverwaltungsserver und Agent-Support
 
@@ -71,7 +71,7 @@ Um einen Watcher-Knoten für synthetische Transaktionen auszuführen, müssen Si
     
 -  Microsoft .NET Framework 4.5
     
-- Skype for Business Server wichtigsten Installationsdateien (OcsCore.msi) und Unified Communications Managed API (UCMA) (Versionen müssen mit der Skype for Business Server WatcherNode.msi Version übereinstimmen)
+- Skype for Business Server hauptinstallationsdateien (OcsCore.msi) und Unified Communications Managed API (UCMA) (Versionen müssen mit der Skype for Business Server WatcherNode.msi Version übereinstimmen)
     
 ## <a name="files-in-this-monitoring-pack"></a>Dateien in diesem Monitoring Pack
 
@@ -93,7 +93,7 @@ Die folgenden Features sind neu in Skype for Business Server 2015 Management Pac
     
 - **Benutzerdefinierte Ausführungsintervalle für synthetische Transaktionen** Zur Vereinfachung des Einrichtungsprozesses von Watcher-Knoten können synthetische Transaktionen Benutzerkonten freigeben. Dadurch wird die Häufigkeit verlangsamt, mit der die Tests ausgeführt werden, während die Tests serialisiert werden, um Konflikte zu vermeiden. Standardmäßig werden synthetische Transaktionen alle 15 Minuten ausgeführt, um sicherzustellen, dass alle Tests über genügend Zeit zum Ausführen verfügen. Administratoren, die mehr Benutzer oder weniger Tests pro Benutzer verwenden möchten, können jetzt auch das Ausführungsintervall reduzieren.
     
-- **Synthetische Transaktion für Video-Interoperabilitätsdienste** Kunden, die von Lösungen anderer Anbieter zu Skype for Business Server 2015 migrieren, möchten häufig weiterhin die Videotelekonferenzgeräte (Video Teleconferencing Devices, VTCs) dieser anderen Anbieter verwenden. Video Interop Server ist eine neue Skype for Business Server 2015-Serverrolle, mit der Kunden weiterhin Cisco-VTCs in ihren Konferenzräumen verwenden können, indem sie eine Verbindung mit Cisco CUCM über einen Video-SIP-Trunk herstellen. Dieses Feature fügt auch eine synthetische Transaktion hinzu, um zu überprüfen, ob der Video-Interoperabilitätsserver aktiv ist und eingehende Verbindungen über einen Video-SIP-Trunk verarbeiten kann.
+- **Synthetische Transaktion für Video-Interoperabilitätsdienste** Kunden, die von Lösungen anderer Anbieter zu Skype for Business Server 2015 migrieren, möchten häufig weiterhin die Videotelekonferenzgeräte (Video Teleconferencing Devices, VTCs) von diesen anderen Anbietern verwenden. Video Interop Server ist eine neue Skype for Business Server 2015-Serverrolle, mit der Kunden weiterhin Cisco-VTCs in ihren Konferenzräumen verwenden können, indem sie eine Verbindung mit Cisco CUCM über einen Video-SIP-Trunk herstellen. Dieses Feature fügt auch eine synthetische Transaktion hinzu, um zu überprüfen, ob der Video-Interoperabilitätsserver aktiv ist und eingehende Verbindungen über einen Video-SIP-Trunk verarbeiten kann.
     
 - **Synthetische Transaktion für Anwendungsfreigabekonferenzen** Die End-to-End-Szenarioüberprüfung für Anwendungsfreigabekonferenzen wird jetzt unterstützt.
     
@@ -104,7 +104,7 @@ Das Skype for Business Server 2015 Management Pack nutzt eine Vielzahl von Featu
 |Überwachungsszenario|Beschreibung|
 |:-----|:-----|
 |Synthetische Transaktionen   | Windows PowerShell Cmdlets, um eine hohe Verfügbarkeit von Szenarien wie Anmeldung, Anwesenheit, Chat und Konferenzen für Benutzer zu testen und sicherzustellen. <br/> Die synthetischen Transaktionen können von jedem geografischen Standort aus ausgeführt werden, einschließlich innerhalb des Unternehmens, außerhalb des Unternehmens und in Zweigstellen.  <br/> Wenn eine synthetische Transaktion fehlschlägt, werden HTML-Protokolle erstellt, um die genaue Art des Fehlers zu ermitteln. Dazu gehören das Verständnis, welche Aktion fehlgeschlagen ist, die Latenz der einzelnen Aktionen, die zum Ausführen des Tests verwendete Befehlszeile und der spezifische Fehler, der aufgetreten ist.   |
-|Warnungen zur Anruf zuverlässigkeit   |Von Skype for Business Server 2015-Servern geschriebene Kommunikationsdatensätze (KDS) geben an, ob Benutzer eine Verbindung mit einem Anruf herstellen können oder warum ein Anruf beendet wird. Anrufzuverlässigkeitswarnungen fragen die KDS-Datenbank ab, um Warnungen zu erstellen, die angeben, wenn bei einer hohen Anzahl von Benutzern Konnektivitätsprobleme bei Peer-to-Peer-Anrufen oder grundlegenden Konferenzfunktionen auftreten.  <br/> Die Szenarioabdeckung umfasst Audioanrufe, Peer-to-Peer-Chatnachrichten und andere Konferenzfunktionen.   |
+|Warnungen zur Anruf zuverlässigkeit   |Von Skype for Business Server 2015-Servern geschriebene Kommunikationsdatensätze (KDS) geben an, ob Benutzer in der Lage sind, eine Verbindung mit einem Anruf herzustellen oder warum ein Anruf beendet wird. Anrufzuverlässigkeitswarnungen fragen die KDS-Datenbank ab, um Warnungen zu erstellen, die angeben, wenn bei einer hohen Anzahl von Benutzern Konnektivitätsprobleme bei Peer-to-Peer-Anrufen oder grundlegenden Konferenzfunktionen auftreten.  <br/> Die Szenarioabdeckung umfasst Audioanrufe, Peer-to-Peer-Chatnachrichten und andere Konferenzfunktionen.   |
 |Warnungen zur Medienqualität   |Datenbankabfragen mit QoE-Berichten (Quality of Experience), die von Skype for Business Server 2015-Clients am Ende jedes Anrufs veröffentlicht wurden. Diese Abfragen erzeugen Warnungen, die Szenarien anheften, in denen Die Medienqualität bei Anrufen und Konferenzen am wahrscheinlichsten beeinträchtigt wird. Die Daten basieren auf wichtigen Metriken, z. B. Paketlatenz und -verlust, die direkt zur Qualität der Benutzererfahrung beitragen.   |
 |Warnungen zur Komponentenintegrität   |Einzelne Serverkomponenten lösen Warnungen über Ereignisprotokolle und Leistungsindikatoren aus, um Fehlerbedingungen anzugeben, die sich erheblich auf Benutzerszenarien auswirken können. Diese Warnungen weisen auf eine Vielzahl von Bedingungen hin, z. B. nicht ausgeführte Dienste, hohe Fehlerraten, hohe Nachrichtenlatenz oder Konnektivitätsprobleme.   |
 |Überwachung der Abhängigkeitsintegrität   |Skype for Business Server kann aus verschiedenen externen Gründen fehlschlagen. Das Management Pack überwacht und sammelt Daten für kritische externe Abhängigkeiten, die auf schwerwiegende Probleme hinweisen können. Diese Abhängigkeiten umfassen die Verfügbarkeit von Internetinformationsdienste (IIS) und die CPU von Servern, die für Skype for Business Server verwendet werden.   |
@@ -114,9 +114,9 @@ Das Skype for Business Server 2015 Management Pack nutzt eine Vielzahl von Featu
 
 Warnungen werden in die folgenden Kategorien unterteilt: 
   
- **Warnungen mit hoher Priorität:** Diese Warnungen weisen auf Bedingungen hin, die zu Dienstausfällen für große Benutzergruppen führen und sofortige Maßnahmen erfordern. Ausfälle, die von synthetischen Transaktionen und Offlinediensten (z. B. Skype for Business Server Audio-/Videokonferenzen) erkannt werden, gelten als Warnungen mit hoher Priorität. Im Gegensatz dazu ist ein Komponentenfehler auf einem einzelnen Computer keine Warnung mit hoher Priorität. Skype for Business Server 2015 verfügt über integrierte Hochverfügbarkeitsfunktionen für diese Situationen, z. B. mehrere Front-End-Server hinter Lastenausgleichsservern.
+ **Warnungen mit hoher Priorität:** Diese Warnungen weisen auf Bedingungen hin, die zu Dienstausfällen für große Benutzergruppen führen und sofortige Maßnahmen erfordern. Ausfälle, die von synthetischen Transaktionen und Offlinediensten (z. B. Skype for Business Server Audio-/Videokonferenzen) erkannt werden, gelten als Warnungen mit hoher Priorität. Im Gegensatz dazu ist ein Komponentenfehler auf einem einzelnen Computer keine Warnung mit hoher Priorität. Skype for Business Server 2015 verfügt über integrierte Hochverfügbarkeitsfeatures für diese Situationen, z. B. mehrere Front-End-Server hinter Lastenausgleichsservern.
   
- **Warnungen mit mittlerer Priorität:** Diese Warnungen deuten auf Bedingungen hin, die sich auf eine Teilmenge von Benutzern auswirken, oder weisen auf Probleme bei der Anrufqualität hin, z. B. Komponentenfehler, Latenz beim Anrufaufbau oder niedrigere Audioqualität bei Anrufen. Warnungen in dieser Kategorie sind zustandsbehaftet (d. h. die Art der Warnung ändert sich basierend auf dem Status der Netzwerkverbindung.) Wenn z. B. die Zeiten für die Anruferstellung auf Latenz hindeuten, dann aber wieder zu einem normalen Schwellenwert zurückkehren, würde diese Warnung mit mittlerer Priorität automatisch in System Center Operations Manager aufgelöst werden, und Administratoren müssten keine Maßnahmen ergreifen. Warnungen, die nicht automatisch aufgelöst werden können, werden in der Regel am selben Geschäftstag von Administratoren behoben.
+ **Warnungen mit mittlerer Priorität:** Diese Warnungen deuten auf Bedingungen hin, die sich auf eine Teilmenge von Benutzern auswirken, oder weisen auf Probleme bei der Anrufqualität hin, z. B. Komponentenfehler, Latenz beim Anrufaufbau oder niedrigere Audioqualität bei Anrufen. Warnungen in dieser Kategorie sind zustandsbehaftet (d. h. die Art der Warnung ändert sich basierend auf dem Status der Netzwerkverbindung.) Wenn z. B. die Zeiten für die Anruferstellung auf Latenz hinweisen, dann aber wieder zu einem normalen Schwellenwert zurückkehren, würde diese Warnung mit mittlerer Priorität automatisch in System Center Operations Manager aufgelöst werden, und Administratoren müssten keine Maßnahmen ergreifen. Warnungen, die nicht automatisch aufgelöst werden können, werden in der Regel am selben Geschäftstag von Administratoren behoben.
   
  **Weitere Warnungen:** Diese Warnungen werden von Komponenten generiert, die sich auf einen bestimmten Benutzer oder eine Teilmenge von Benutzern auswirken können. Eine typische Warnung wäre beispielsweise, dass der Adressbuchdienst den Active Directory® Domain Services (AD DS)-Eintrag für den Benutzer nicht analysieren konnte: testuser@contoso.com. Administratoren können diese Warnungen jederzeit beheben, wenn Zeit verfügbar ist.
   
@@ -188,9 +188,9 @@ In der folgenden Tabelle sind die Integritätszustände von Objekten aufgeführt
    
 ![SCOM-Rollup.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Ein Skype for Business Server Pool kann mehrere einzelne Skype for Business Server Systeme (mit mehr als einer Skype for Business Server Rolle, Skype for Business Server Dienst und Skype for Business Server-Komponente). Daher ist der Ausfall eines einzelnen Servers oder einer Komponente weniger wichtig für den Gesamtzustand des Skype for Business Server Pools, da andere Server im selben Pool den Anwendungsdienst für den Client bereitstellen können. Die Integrität wird auf prozentualer Ebene für den Skype for Business Server-Pool rollt. 
+Ein Skype for Business Server Pool kann mehrere einzelne Skype for Business Server Systeme enthalten (mit mehr als einer Skype for Business Server Rolle, Skype for Business Server Dienst und Skype for Business Server-Komponente). Daher ist der Ausfall eines einzelnen Servers oder einer Komponente weniger wichtig für den Gesamtstatus des Skype for Business Server Pools, da andere Server im selben Pool den Anwendungsdienst für den Client bereitstellen können. Die Integrität wird auf prozentualer Ebene für den Skype for Business Server-Pool rollt. 
   
-Der Skype for Business Server Pool-Watcher führt synthetische Transaktionen für einen Skype for Business Server Pool durch. Durch aufeinander folgende Fehler einer oder mehrerer synthetischer Transaktionen (ein Prozess, der als aufeinander folgendes Abrufintervall bezeichnet wird) wird der kritische Integritätsstatus auf Poolebene (die schlechteste aller synthetischen Transaktionen) wie im folgenden Diagramm dargestellt. 
+Der Skype for Business Server Pool watcher führt synthetische Transaktionen für einen Skype for Business Server Pool aus. Durch aufeinander folgende Fehler einer oder mehrerer synthetischer Transaktionen (ein Prozess, der als aufeinander folgendes Abrufintervall bezeichnet wird) wird der kritische Integritätsstatus auf Poolebene (die schlechteste aller synthetischen Transaktionen) wie im folgenden Diagramm dargestellt. 
   
 ![Aufeinander folgendeS Abrufen des SCOM-Rollups.](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
@@ -236,9 +236,9 @@ Die folgenden Links verbinden Sie mit Informationen zu allgemeinen Aufgaben, die
     
 - [So entfernen Sie ein Management Pack](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Fragen zu Operations Manager und Monitoring Packs finden Sie im [Community-Forum System Center Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
+Fragen zu Operations Manager und Überwachungspaketen finden Sie im [Community-Forum System Center Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
   
-Eine hilfreiche Ressource ist der [Blog System Center Operations Manager -Entfesselt,](https://opsmgrunleashed.wordpress.com/) der Beiträge "Nach Beispiel" für bestimmte Überwachungspakete enthält.
+Eine nützliche Ressource ist der [Blog System Center Operations Manager -Entfesselt,](https://opsmgrunleashed.wordpress.com/) der Beiträge "Nach Beispiel" für bestimmte Überwachungspakete enthält.
   
 Weitere Informationen zu Operations Manager finden Sie in den folgenden Blogs: 
   

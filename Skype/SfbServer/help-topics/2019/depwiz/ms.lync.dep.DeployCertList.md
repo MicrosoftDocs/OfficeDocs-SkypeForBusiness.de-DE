@@ -1,7 +1,7 @@
 ---
 title: Zertifikatliste
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um ein Zertifikat zuzuweisen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 33bd3b4b2a453b5941c8e651b8122b3eb920a699
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df45e1e3d93dd88614d5f05f98f497e3d01080ea
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738832"
 ---
 # <a name="certificate-list"></a>Zertifikatliste
  

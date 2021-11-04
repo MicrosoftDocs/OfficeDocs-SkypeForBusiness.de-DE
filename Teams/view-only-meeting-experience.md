@@ -1,7 +1,7 @@
 ---
 title: Schreibgeschützte Besprechungserfahrung
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 ms.reviewer: christi.balaki
 manager: serdars
 ms.topic: article
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b2af0ae753357497be6ea54b89534f2220b7cbf6
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 6e56f1722d75c8126e8f19ac297e301dfc4e8706
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732294"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766033"
 ---
 # <a name="teams-view-only-meeting-experience"></a>Schreibgeschützte Teams-Besprechungserfahrung
 
@@ -128,7 +128,7 @@ Die folgenden Optionen in Besprechungen stehen den schreibgeschützten Teilnehme
 - Schreibgeschützte Teilnehmer werden im Anwesenheitsbericht nicht eingeschlossen.
 - Schreibgeschützte Teilnehmer werden eine einzelne Videoerfahrung haben. Sie können entweder den aktiven Sprecher sehen, oder den freigegebenen Inhalt, aber nicht beides.
 - Derzeit unterstützen wir die Layouts **Galerie**. **Große Galerie** oder **Zusammen-Modus** für schreibgeschützte Teilnehmer nicht.
-- Schreibgeschützte Teilnehmer werden nur von den folgenden Lobbyrichtlinien unterstützt: „Nur Sie“, „Personen in meiner Organisation und Gäste“, „Personen in meiner Organisation und vertrauenswürdige Organisationen und Gäste“ und „Jeder“. Wenn Sie eine Lobbyrichtlinie verwenden, die keine schreibgeschützten Teilnehmer unterstützt, werden schreibgeschützte Teilnehmer von der Besprechung abgelehnt. 
+- Nur anzeigende Teilnehmer werden nur von den folgenden Lobbyrichtlinien unterstützt: "Personen in meiner Organisation", "Personen in meiner Organisation und Gäste", "Personen in meiner Organisation, vertrauenswürdige Organisationen und Gäste" und "Jeder". Wenn Sie eine Lobbyrichtlinie verwenden, die keine schreibgeschützten Teilnehmer unterstützt, werden schreibgeschützte Teilnehmer von der Besprechung abgelehnt. 
 - Schreibgeschützte Teilnehmer haben nicht die gleiche Wartezeit wie normale Teilnehmer. <sup>1</sup>
 
   <sup>1</sup> Schreibgeschützte Teilnehmer werden in der Besprechung eine Verzögerung von 30 Sekunden für Video und Audio haben.  

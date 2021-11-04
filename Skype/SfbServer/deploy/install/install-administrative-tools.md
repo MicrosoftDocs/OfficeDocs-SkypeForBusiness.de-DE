@@ -1,7 +1,7 @@
 ---
 title: Installieren von Verwaltungstools in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/14/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 52ee7da4-59ba-499a-a105-d93fa9941334
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die für eine Installation von Skype for Business Server erforderlichen Verwaltungstools installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 346022633f4c15d2e1601fddbca174f5b0e6f67d
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: d2f80627aceee47559a06ab604e1cc8827d310b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726294"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753248"
 ---
 # <a name="install-administrative-tools-in-skype-for-business-server"></a>Installieren von Verwaltungstools in Skype for Business Server
  
@@ -34,7 +34,7 @@ Zu den Verwaltungstools gehören der Topologie-Generator und die Systemsteuerung
   
 ## <a name="install-skype-for-business-server-administrative-tools"></a>Installieren von Skype for Business Server-Verwaltungstools
 
-Das Installationsmedium für Skype for Business Server bietet eine flexible Oberfläche. Wenn Sie Setup.exe zum ersten Mal ausführen, werden nur der Skype for Business Server Bereitstellungs-Assistent und die Skype for Business Server-Verwaltungsshell installiert. Mithilfe dieser beiden Tools, die als Kernkomponenten bezeichnet werden, können Sie den Installationsvorgang fortsetzen, bieten jedoch keine primären Funktionen für die gesamte Skype for Business Server Umgebung. Der Bereitstellungs-Assistent wird automatisch gestartet, nachdem Sie die Hauptkomponenten installiert haben. Im Abschnitt des Bereitstellungs-Assistenten mit dem Titel **"Verwaltungstools installieren"** werden Skype for Business Server Topologie-Generator und Skype for Business Server Systemsteuerung installiert.
+Die Installationsmedien für Skype for Business Server bieten eine flexible Oberfläche. Wenn Sie Setup.exe zum ersten Mal ausführen, werden nur der Skype for Business Server Bereitstellungs-Assistent und die Skype for Business Server-Verwaltungsshell installiert. Mithilfe dieser beiden Tools, die als Kernkomponenten bezeichnet werden, können Sie den Installationsvorgang fortsetzen, bieten jedoch keine primären Funktionen für die gesamte Skype for Business Server Umgebung. Der Bereitstellungs-Assistent wird automatisch gestartet, nachdem Sie die Hauptkomponenten installiert haben. Im Abschnitt des Bereitstellungs-Assistenten mit dem Titel **"Verwaltungstools installieren"** werden Skype for Business Server Topologie-Generator und Skype for Business Server Systemsteuerung installiert.
   
 > [!IMPORTANT]
 > In jeder Skype for Business Server Umgebung muss mindestens ein Server mit installierten Verwaltungstools vorhanden sein. 
@@ -47,7 +47,7 @@ Sehen Sie sich die Videoschritte für **die Installation von Verwaltungstools** 
 
 1. Fügen Sie das Skype for Business Server Installationsmedium ein. Wenn das Setup nicht automatisch beginnt, doppelklicken Sie auf **Setup**.
     
-2. Die Ausführung des Installationsmediums erfordert Microsoft Visual C++. Es wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob Sie es installieren möchten. Klicken Sie auf **Ja**.
+2. Für die Ausführung des Installationsmediums ist Microsoft Visual C++ erforderlich. Es wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob Sie es installieren möchten. Klicken Sie auf **Ja**.
     
 3. Mithilfe von Smart Setup, einem neuen Feature in Skype for Business Server, können Sie eine Verbindung mit dem Internet herstellen, um während des Installationsvorgangs nach Updates zu suchen. Dies bietet eine bessere Benutzererfahrung, indem sichergestellt wird, dass Sie bei der Installation über die neuesten Updates für das Produkt verfügen. Klicken Sie auf **Installieren**, um mit der Installation zu beginnen.
     

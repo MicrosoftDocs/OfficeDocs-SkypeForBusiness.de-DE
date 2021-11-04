@@ -1,7 +1,7 @@
 ---
 title: Auswählen von Präfixen für Links
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: bfa55f83-70b4-4790-9b9f-8d849dd94909
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Linkpräfix auswählen wählen Sie die Linktypen aus, die blockiert werden, für die eine Warnmeldung gesendet wird oder die zugelassen werden sollen. Zum Blockieren oder Senden einer Warnmeldung aktivieren Sie die Kontrollkästchen der Erweiterungen in den Kategorien unter Linkpräfixe, zum Zulassen deaktivieren Sie diese. Klicken Sie auf den Pfeil, um eine Kategorie zu erweitern und sämtliche Linkpräfixe für diese Kategorie anzuzeigen. Wenn Sie alle Linkpräfixe für eine Kategorie auswählen möchten, wählen Sie den Kategorienamen aus.
-ms.openlocfilehash: ed42530c8d364a8d09d1ca7711020a5d105bbe78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e1df9a63f01ba164bf059506a69bc7d77bb7f687
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624257"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742741"
 ---
 # <a name="select-hyperlink-prefix"></a>Auswählen von Präfixen für Links
  

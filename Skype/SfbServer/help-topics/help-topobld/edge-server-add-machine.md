@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen eines Edgeservercomputers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bdae4545-942e-4f76-9d3f-6ac5d1ebe213
 description: Geben Sie den vollqualifizierten Domänennamen jedes Computers an, der diesem Pool als Edgeserver hinzugefügt werden soll. Nach dem Hinzufügen eines Computers zur Liste können Sie den vollqualifizierten Domänennamen des Computers zu einem beliebigen Zeitpunkt vor der Veröffentlichung der Topologie aktualisieren oder aus dem Pool entfernen. Wenn Sie den vollqualifizierten Domänennamen nach dem Veröffentlichen der Topologie ändern möchten, müssen Sie den Server im Topologie-Generator löschen und dem Pool anschließend einen neuen Server mit dem neuen vollqualifizierten Domänennamen hinzufügen. Einzelheiten zum Entwerfen der Topologie für einen Edgepool finden Sie unter Define Your Edge Topology in der Dokumentation zur Edgebereitstellung.
-ms.openlocfilehash: ac80fcda2658cc5678d431ad91c3546754658299
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1c35bf65cebec6c099ce5766b023ca8095a355cc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58604854"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747605"
 ---
 # <a name="edge-server-add-machine"></a>Hinzufügen eines Edgeservercomputers
 

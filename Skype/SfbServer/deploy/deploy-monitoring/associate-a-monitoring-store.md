@@ -1,7 +1,7 @@
 ---
 title: Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d3a20d5e-3f24-4cff-bc9b-4f84fea30e6b
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Front-End-Pools einem überwachungsspeicher zuordnen, der von Skype for Business Server verwendet wird.'
-ms.openlocfilehash: cff7c2d7bc85916e7e79f4f78005c81f798bcbf7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7261f86e86bc06426afd0cac8ca9142ab4398fe5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601890"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778905"
 ---
 # <a name="associate-a-monitoring-store-with-a-front-end-pool-in-skype-for-business-server"></a>Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool in Skype for Business Server 
 **Zusammenfassung:** Erfahren Sie, wie Sie Front-End-Pools einem überwachungsspeicher zuordnen, der von Skype for Business Server verwendet wird.
   
-In Skype for Business Server können Überwachungsdaten nur in Front-End-Pools gesammelt werden, die einem Überwachungsspeicher zugeordnet wurden. Eine Aufgabe, die normalerweise ausgeführt wird, wenn Sie einen Front-End-Pool im Topologie-Generator definieren.
+In Skype for Business Server können Überwachungsdaten nur in Front-End-Pools gesammelt werden, die einem Überwachungsspeicher zugeordnet wurden. Eine Aufgabe, die in der Regel ausgeführt wird, wenn Sie einen Front-End-Pool im Topologie-Generator definieren.
   
 ## <a name="associate-a-monitoring-store-with-a-front-end-pool"></a>Zuordnen eines Überwachungsspeichers zu einem Front-End-Pool
 
@@ -30,13 +30,13 @@ In Skype for Business Server können Überwachungsdaten nur in Front-End-Pools g
   
 Alternativ können Sie einem vorhandenen Front-End-Pool anhand des folgenden Verfahrens einen neuen oder anderen Überwachungsspeicher zuordnen:
   
-1. Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business Server 2015** und dann auf **Skype for Business Server Topologie-Generator.**
+1. Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business Server 2015"** und dann auf **Skype for Business Server Topologie-Generator.**
     
 2. Wählen Sie im Dialogfeld **Topologie-Generator** die Option **Topologie aus vorhandener Bereitstellung herunterladen** aus, und klicken Sie dann auf **OK**.
     
 3. Geben Sie im Dialogfeld **Speichern unter** einen Dateinamen für Ihre aktuelle Topologie ein, und klicken Sie dann auf **Speichern**. Die gespeicherte Topologie kann später abgerufen und erneut veröffentlicht werden, falls es Probleme mit der neuen Topologie gibt.
     
-4. Erweitern Sie im Topologie-Generator **Skype for Business Server**, erweitern Sie den Namen des Standorts, der den Front-End-Pool enthält, und klicken Sie dann auf **Enterprise Edition Front-End-Pools** erweitern.
+4. Erweitern Sie im Topologie-Generator **Skype for Business Server,** erweitern Sie den Namen des Standorts, der den Front-End-Pool enthält, und klicken Sie dann auf **Enterprise Edition Front-End-Pools** erweitern.
     
 5. Klicken Sie mit der rechten Maustaste auf den Namen des Pools, dem der Überwachungsspeicher zugeordnet werden soll, und klicken Sie dann auf **Eigenschaften bearbeiten**.
     
@@ -54,7 +54,7 @@ Nachdem Sie den Überwachungsspeicher einem Front-End-Pool zugeordnet haben, mü
     
 3. Klicken Sie auf der Seite **Assistent für die Veröffentlichung abgeschlossen** auf **Fertig stellen**.
     
-Nachdem die Topologie veröffentlicht wurde, können Sie die Überwachungsdatenbank auf dem Computer installieren, auf dem der Überwachungsspeicher gehostet wird. Die Überwachungsdatenbank kann mithilfe der Skype for Business Server Verwaltungsshell und Windows PowerShell installiert werden. Um die Datenbank lokal zu installieren (d. a. um die Datenbank auf demselben Computer zu installieren, auf dem Sie die Skype for Business Server Verwaltungsshell ausführen), starten Sie die Verwaltungsshell auf dem entsprechenden Computer, geben Sie dann den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
+Nachdem die Topologie veröffentlicht wurde, können Sie die Überwachungsdatenbank auf dem Computer installieren, auf dem der Überwachungsspeicher gehostet wird. Die Überwachungsdatenbank kann mithilfe der Skype for Business Server-Verwaltungsshell und Windows PowerShell installiert werden. Um die Datenbank lokal zu installieren (d. a. um die Datenbank auf demselben Computer zu installieren, auf dem Sie die Skype for Business Server Verwaltungsshell ausführen), starten Sie die Verwaltungsshell auf dem entsprechenden Computer, geben Sie dann den folgenden Befehl ein, und drücken Sie die EINGABETASTE:
   
 ```powershell
 Install-CsDatabase -LocalDatabases

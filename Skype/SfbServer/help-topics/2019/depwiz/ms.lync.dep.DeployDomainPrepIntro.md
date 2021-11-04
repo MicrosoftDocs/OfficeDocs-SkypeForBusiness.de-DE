@@ -1,7 +1,7 @@
 ---
 title: Vorbereiten der aktuellen Domäne (Einführung)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 25f2e262-d6ed-4081-bbfd-5f8be5997e6b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Seite "Domäne vorbereiten" beginnt mit der Vorbereitung der Domäne für Skype for Business Server. Klicken Sie auf Weiter, um mit der Vorbereitung der Domäne zu beginnen.
-ms.openlocfilehash: 1149e57e4f3b8aa71273740f0fcaa1327c603c34
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69e5747bcb11b9dcfa139837414f189be0a46886
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621647"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738747"
 ---
 # <a name="prepare-current-domain-intro"></a>Vorbereiten der aktuellen Domäne (Einführung)
  

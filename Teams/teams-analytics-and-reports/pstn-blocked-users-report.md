@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams PstN-Bericht über blockierte Benutzer
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
 - M365-voice
-description: Verwenden Sie den PstN-Bericht für blockierte Benutzer im Microsoft Teams Admin Center, um einen Überblick über die Teams-Benutzer In Ihrer Organisation zu erhalten, die für das Anrufen über das Festnetz gesperrt sind.
+description: Verwenden Sie den Bericht "PstN-blockierte Benutzer" im Microsoft Teams Admin Center, um einen Überblick über die Teams-Benutzer In Ihrer Organisation zu erhalten, die für das Anrufen über das Festnetz gesperrt sind.
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c1f703c672859c68d79a56af754dc087f68407c1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: ef39298142b2cf3fcf16f1acaeba9c3a62e606e0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733094"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742981"
 ---
 # <a name="microsoft-teams-pstn-blocked-users-report"></a>Microsoft Teams PstN-Bericht über blockierte Benutzer
 
@@ -30,7 +30,7 @@ Im Bericht PSTN-blockierte Benutzer im Microsoft Teams Admin Center werden die B
 
 ## <a name="view-the-pstn-blocked-users-report"></a>Anzeigen des Berichts "PstN-Bericht über blockierte Benutzer"
 
-Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **PSTN-blockierte** Benutzer aus, und klicken Sie dann **auf Bericht ausführen.**
+Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **PSTN-blockierte Benutzer** aus, und klicken Sie dann auf Bericht **ausführen.**
 
 ![Screenshot des Berichts "PstN-Bericht über blockierte Benutzer" im Admin Center.](../media/teams-reports-pstn-blocked-users-with-callouts.png "Screenshot des Berichts &quot;PstN-blockierte Benutzer&quot; im Microsoft Teams Admin Center mit nummerierten Callouts")
 
@@ -40,7 +40,7 @@ Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf **Anal
 |--------|-------------|
 |**1**   |Jeder Bericht hat das Datum, an dem er generiert wurde. Die Berichte weisen in der Regel eine Latenz von 24 bis 48 Stunden ab dem Zeitpunkt der Aktivität auf. |
 |**2**   |Die X-Achse ist das Datum. Die Y-Achse gibt die Anzahl der Benutzer an. <br>Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der an diesem Datum blockierten Benutzer zu sehen. |
-|**3**   |Die Tabelle enthält eine Aufschlüsselung aller Benutzer, die für das Erstellen von PSTN-Anrufen gesperrt sind.  Es zeigt alle Benutzer an, denen Telefonsystem audio conferencing zugewiesen sind, und enthält weitere Informationen zu jedem Benutzer. <ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Sie können auf den Anzeigenamen klicken, um zur Einstellungsseite des Benutzers im Microsoft Teams Admin Center zu wechseln. </li> <li>**Telefon** ist die Nummer, die dem Benutzer zugewiesen wurde.</li> <li>**Blockierter Grund** ist der Grund, warum der Benutzer für das Anrufen gesperrt wurde.</li><li>**Eine blockierte** Aktion teilt Ihnen mit, ob der Benutzer in einem Anruf über das Festnetz blockiert oder die Blockierung aufgehoben Teams.</li> <li>**Blockierte Uhrzeit** ist das Datum und die Uhrzeit (UTC), zu dem der Benutzer für das Anrufen gesperrt wurde.</li></li> </ul>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
+|**3**   |Die Tabelle enthält eine Aufschlüsselung aller Benutzer, die für das Erstellen von PSTN-Anrufen gesperrt sind.  Es zeigt alle Benutzer an, denen Telefonsystem audio conferencing zugewiesen sind, und enthält weitere Informationen zu jedem Benutzer. <ul><li>**Anzeigename** ist der Anzeigename des Benutzers. Sie können auf den Anzeigenamen klicken, um zur Einstellungsseite des Benutzers im admin center Microsoft Teams zu wechseln. </li> <li>**Telefon** ist die Nummer, die dem Benutzer zugewiesen wurde.</li> <li>**Blockierter Grund** ist der Grund, warum der Benutzer für das Anrufen gesperrt wurde.</li><li>**Eine blockierte** Aktion teilt Ihnen mit, ob der Benutzer in einem Anruf über das Festnetz blockiert oder die Blockierung aufgehoben Teams.</li> <li>**Blockierte Uhrzeit** ist das Datum und die Uhrzeit (UTC), zu dem der Benutzer für das Anrufen gesperrt wurde.</li></li> </ul>Um in der Tabelle die gewünschten Informationen anzuzeigen, stellen Sie sicher, dass Sie der Tabelle die entsprechenden Spalten hinzufügen. |
 |**4**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 |**5**   |Wählen **Sie Vollbild** aus, um den Bericht im Vollbildmodus anzuzeigen.|
 

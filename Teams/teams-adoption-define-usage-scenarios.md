@@ -1,7 +1,7 @@
 ---
 title: Definieren von Verwendungsszenarios für Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die am besten geeigneten Verwendungsszenarien für die Experimentphase Ihrer Einführung Teams können.
+description: Hier erfahren Sie, wie Sie die am besten geeigneten Verwendungsszenarien für die Experimentphase Ihrer Teams auswählen.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,16 +21,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fd7f42efd4b3c605f31bb7788fb6dbc5f097f764
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 8d110e3b921c24e1b32382b8a69056546948464f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729934"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766083"
 ---
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 
-Stellen Sie sicher, dass Sie die Geschäftsprojekte (Szenarien) verstehen, die in dieser Phase Ihrer Implementierung im Bereich sind. Sehen Sie sich diese Liste mit Beispielszenarien an, die für ein Early Adopter-Programm geeignet sind. Sie können mit einfachen Gewinnen beginnen, z. B.:
+Stellen Sie sicher, dass Sie die Geschäftsprojekte (Szenarien) verstehen, die für diese Phase Ihrer Implementierung im Bereich sind. Sehen Sie sich diese Liste mit Beispielszenarien an, die für ein Early Adopter-Programm geeignet sind. Sie können mit einfachen Gewinnen beginnen, z. B.:
 
 - Persönliche Produktivität
 - Modernes Projektmanagement
@@ -47,7 +47,7 @@ Weitere mögliche Szenarien sind:
 
 ![Eine Abbildung der Teams Szenarien für jedes Szenario.](media/teams-adoption-use-cases.png)
 
-Stellen Sie sich diese Szenario-Bewegung als kumulierten Prozess vor – bringen Sie Dinge mit grundlegenderen Szenarien in Gang, um Begeisterung, Bekanntheit und Glaubwürdigkeit für diese neue Arbeitsweise zu erzeugen. Wechseln Sie dann zu den anspruchsvolleren Einflussbereichen. Wenn mehr Einfluss auf Microsoft Teams ihren Geschäftskollegen demonstriert wird, werden sich mehr davon einmingen, und Dynamik wird aufbauen. Für viele unserer Kunden stellen sie nach dem Erreichen dieses Prozesses fest, dass sie die Projektbeteiligten auf sie zusennen, nachdem sie erfahren haben, wie ihre Kollegen von Ihren Microsoft Teams.
+Stellen Sie sich diese Szenario-Bewegung als kumulierten Prozess vor – bringen Sie Dinge mit grundlegenderen Szenarien in Gang, um Begeisterung, Bekanntheit und Glaubwürdigkeit für diese neue Arbeitsweise zu erzeugen. Wechseln Sie dann zu den anspruchsvolleren Einflussbereichen. Wenn mehr Wirkung mit Microsoft Teams für Ihre Geschäftskollegen demonstriert wird, werden sich mehr davon einmingen, und Dynamik wird aufbauen. Für viele unserer Kunden stellen sie nach dem Erreichen dieses Prozesses fest, dass sie die Projektbeteiligten auf sie zusennen, nachdem sie erfahren haben, wie ihre Kollegen von Ihren Microsoft Teams.
 
 ## <a name="interview-business-stakeholders"></a>Vorstellungsgespräch mit projektbeteiligten Unternehmen
 
@@ -55,7 +55,7 @@ Um die Auswahl dieser frühen Projekte zu bestätigen, empfehlen wir ein direkte
 
 - Was sind einige der Herausforderungen oder Probleme der Organisation im Zusammenhang mit Kommunikation und Zusammenarbeit?
 - In welchen Bereichen möchte Ihre Organisation Dies verbessern?
-- Welche strategischen Initiativen oder aktuellen Transformationsprojekte der Organisation, die Teams unterstützen können?
+- Welche strategischen Initiativen oder aktuellen Transformationsprojekte der Organisation können von Teams unterstützt werden?
 - Welche Kommunikationsmethoden und Zusammenarbeitsmethoden werden in der Regel von Ihrer Organisation besser empfangen als von anderen?
 - Was ist der Prozess zum Entwerfen, Verteilen und Teilen von Informationen?
 
@@ -70,6 +70,6 @@ Nachdem Sie mit einem oder mehreren Projektbeteiligten gesprochen haben, können
 ![Eine Abbildung, die die Auswirkungen auf Das Szenario im Vergleich zu Schwierigkeiten zeigt.](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Wir freuen uns immer darauf zu erfahren, wie unsere Kunden ihre Teams auf neue und innovative Weise verwenden. Teilen Sie #TeamsStories ihre Erfahrungen mit uns in unserem [Diskussionsforum zur treibenden Einführung mit uns.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Fügen Sie Ihrem Beitrag **#TeamsStories** Hashtag-Hashtag bei. Wir sind immer interessiert, wie Sie Ihre Teams in Ihrer Organisation verwenden.
+> Wir freuen uns immer darauf zu erfahren, wie unsere Kunden ihre Teams auf neue und innovative Weise verwenden. Teilen Sie #TeamsStories Ihre Informationen mit uns in unserem [Diskussionsforum zur treibenden Einführung mit.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Fügen Sie Ihrem Beitrag **#TeamsStories** Hashtag-Hashtag bei. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
 
 ![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Integrieren Sie Early Adopters, und sammeln Sie Feedback.](teams-adoption-onboard-early-adopters.md)

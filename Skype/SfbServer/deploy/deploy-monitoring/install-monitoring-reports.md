@@ -1,7 +1,7 @@
 ---
 title: Installieren von Überwachungsberichten in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6f417569-b100-442c-ad48-fdd794626cf7
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Dienst installieren, der Überwachungsberichte in Skype for Business Server generiert.'
-ms.openlocfilehash: bda56b297f9e4f46033cb6d09c46c61f56092b4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5dd24524feecf8792f864d44e0d898166c9717e1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581029"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753442"
 ---
 # <a name="install-monitoring-reports-in-skype-for-business-server"></a>Installieren von Überwachungsberichten in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie einen Dienst installieren, der Überwachungsberichte in Skype for Business Server generiert.
   
-Skype for Business Server Überwachungsberichte liefern Ihnen eine Fülle von Informationen über die Qualität und Menge der Kommunikationssitzungen, die in Ihrer Organisation stattfinden. 
+Skype for Business Server Überwachungsberichte bieten Ihnen eine Fülle von Informationen über die Qualität und Menge der Kommunikationssitzungen, die in Ihrer Organisation stattfinden. 
   
 ## <a name="install-monitoring-reports"></a>Installieren von Überwachungsberichten
 
@@ -32,20 +32,20 @@ Skype for Business Server Überwachungsberichte liefern Ihnen eine Fülle von In
 > [!NOTE]
 > Es empfiehlt sich, die Überwachungsberichte auf demselben Computer zu intstallieren, auf dem auch die Überwachungsdatenbank installiert ist. Somit wird die Zuweisung von Zugriffsberechtigungen für die Berichte vereinfacht: wenn die Überwachungsberichte auf dem Computer installiert sind, der auch als Host für den Überwachungsspeicher fungiert, müssen Sie keine Berechtigungen zuweisen, die einer Datenbank auf dem Computer gestatten, mit Reporting Services zu interagieren, wenn diese auf einem zweiten Computer ausgeführt werden. 
   
-Skype for Business Server Überwachungsberichte umfassen mehr als 30 Berichte, die detaillierte Informationen über Konferenzen, Peer-to-Peer-Chatsitzungen, Benutzerregistrierungen, die Reaktionsgruppenanwendung und vieles mehr bereitstellen sollen. Für die Version 2013 umfassen Skype for Business Server Überwachungsberichte eine Reihe von Verbesserungen:
+Skype for Business Server Überwachungsberichte umfassen mehr als 30 Berichte, die detaillierte Informationen über Konferenzen, Peer-to-Peer-Chatsitzungen, Benutzerregistrierungen, die Reaktionsgruppenanwendung und vieles mehr bereitstellen. Für die Version 2013 umfassen Skype for Business Server Überwachungsberichte eine Reihe von Verbesserungen:
   
 - **Neue Berichte zur Sprachqualität**. Zu diesen neuen Berichten gehört der Vergleichsbericht über [Medienqualität in Skype for Business Server, der](../../manage/health-and-monitoring/comparison.md)die Qualität zwischen verschiedenen Arten von Anrufen vergleicht (z. B. zwischen Kabelanrufen und Drahtlosanrufen). und den [Konferenzbeitrittszeitbericht in Skype for Business Server,](../../manage/health-and-monitoring/join-time-report.md)der Informationen zur Zeitspanne bereitstellt, die Benutzer für die Teilnahme an einer Konferenz benötigen. 
     
-- **Verbesserte Berichte zur Analyse und Problembehebung bei Video- und Anwendungsfreigabesitzungen.** Der zusammenfassende Bericht über [Medienqualität in Skype for Business Server](../../manage/health-and-monitoring/summary.md) bietet eine Möglichkeit zum Analysieren von Video- und Anwendungsfreigabeanrufen, während der Bericht zur [Serverleistung in Skype for Business Server](../../manage/health-and-monitoring/server-performance.md) die Leistung der Server, die diese Anrufe generieren, detailliert darstellt. Video- und Anwendungsfreigabemetriken werden jetzt auch vom [Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) und dem [Konferenzdetailbericht in Skype for Business Server](../../manage/health-and-monitoring/detail-report.md)gemeldet.
+- **Verbesserte Berichte zur Analyse und Problembehebung bei Video- und Anwendungsfreigabesitzungen.** Der zusammenfassende Bericht über [Medienqualität in Skype for Business Server](../../manage/health-and-monitoring/summary.md) bietet eine Möglichkeit zum Analysieren von Video- und Anwendungsfreigabeanrufen, während der Bericht zur [Serverleistung in Skype for Business Server](../../manage/health-and-monitoring/server-performance.md) die Leistung der Server, die diese Anrufe generieren, detailliert darstellt. Video- und Anwendungsfreigabemetriken werden jetzt auch im [Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server](../../manage/health-and-monitoring/peer-to-peer-session-detail-report.md) und [im Detaillierten Konferenzbericht in Skype for Business Server](../../manage/health-and-monitoring/detail-report.md)gemeldet.
     
 - **Verbesserte Berichtsleistung**. Dies umfasst kürzere Reaktions- und Datenabrufzeiten, also auch eine schnellere und einfachere Navigation in den Berichten.
     
 Weitere Informationen erhalten Sie in der Dokumentation zu den Überwachungsberichten.
   
 > [!NOTE]
-> Es ist ein weiterer Bericht – QoE-Anrufdetailunterbericht – in Skype for Business Server enthalten. Dieser Bericht dient jedoch in erster Linie der internen Verwendung und ist nicht für den direkten Zugriff vorgesehen. 
+> Es gibt einen weiteren Bericht – QoE-Anrufdetailunterbericht – in Skype for Business Server. Dieser Bericht dient jedoch in erster Linie der internen Verwendung und ist nicht für den direkten Zugriff vorgesehen. 
   
-Es gibt zwei Möglichkeiten, Skype for Business Server Überwachungsberichte zu installieren: Sie können den Skype for Business Server Bereitstellungs-Assistenten oder ein Windows PowerShell Skript verwenden, das in den Skype for Business Server Installationsdateien enthalten ist. Unabhängig davon, für welche Installationsmethode Sie sich entscheiden, müssen Sie zunächst Folgendes sicherstellen:
+Es gibt zwei Möglichkeiten, Skype for Business Server Überwachungsberichte zu installieren: Sie können den Skype for Business Server Bereitstellungs-Assistenten oder ein Windows PowerShell Skript verwenden, das im Skype for Business Server Installationsdateien. Unabhängig davon, für welche Installationsmethode Sie sich entscheiden, müssen Sie zunächst Folgendes sicherstellen:
   
 - Sie sind dazu berechtigt, einem Benutzerkonto in der Überwachungsdatenbank eine Datenbankrolle hinzuzufügen.
     
@@ -80,10 +80,10 @@ Die im vorstehenden Befehl verwendeten Parameter werden in der folgenden Tabelle
 |storedUserName  <br/> |Ja  <br/> |Benutzerkonto, das für den Zugriff auf den Überwachungsspeicher verwendet wird. Zum Beispiel  <br/> ```-storedUserName "litwareinc\kenmyer"```Dieses Konto muss über die zuvor angegebenen SQL Server und SQL Server Reporting Services Berechtigungen verfügen, sonst schlägt das Skript fehl.  <br/> |
 |storedPassword  <br/> |Ja  <br/> |Kennwort für das Benutzerkonto, das für den Zugriff auf den Überwachungsspeicher verwendet wird.  <br/> |
 |readOnlyGroupName  <br/> |Nein  <br/> |Domäne oder lokale Sicherheitsgruppe, deren Mitglieder den Lesezugriff für die Überwachungsberichte erhalten. Beachten Sie, dass das Skript fehlschlägt, wenn die angegebene Gruppe nicht vorhanden ist. Falls Sie diese Berechtigungen später wieder entziehen möchten oder wenn Sie sich dafür entscheiden, anderen Benutzern oder Gruppen Zugriffsberechtigungen zu erteilen, können Sie dies mithilfe des Berichts-Managers der SQL Service Reporting Services tun.  <br/> |
-|reportSqlServerInstance  <br/> |Nein  <br/> |SQL Server-Instanz, die als Host für den Berichtsdienst fungiert. Die Berichtsinstanz muss unter Verwendung des vollqualifizierten Domänennamens des Berichtsservers angegeben werden. Beispiel:<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```Wenn dieser Parameter nicht enthalten ist, geht das Skript davon aus, dass die Berichtsdienste von derselben SQL Server Instanz gehostet werden, die die Überwachungsdatenbank hostet.  <br/> |
+|reportSqlServerInstance  <br/> |Nein  <br/> |SQL Server-Instanz, die als Host für den Berichtsdienst fungiert. Die Berichtsinstanz muss unter Verwendung des vollqualifizierten Domänennamens des Berichtsservers angegeben werden. Beispiel:<br/> ```-reportServerSqlInstance atl-sql-001.litwareinc.com```Wenn dieser Parameter nicht enthalten ist, geht das Skript davon aus, dass die Berichterstellungsdienste von derselben SQL Server Instanz gehostet werden, die die Überwachungsdatenbank hostet.  <br/> |
 |monitoringDatabaseId  <br/> |Nein  <br/> |Dienstidentität für die Überwachungsdatenbank. Sie können die Identitäten für Ihre Überwachungsdatenbanken durch Ausführung des folgenden Befehls zurückgeben:<br/> ```Get-CsService -MonitoringDatabase```|
    
-Nachdem die Überwachungsberichte installiert wurden, müssen Sie das Cmdlet New-CsReportingConfiguration verwenden, um die URL für den Zugriff auf diese Berichte zu konfigurieren. Diese Aufgabe kann über die Skype for Business Server Verwaltungsshell ausgeführt werden, indem Sie den folgenden befehl Windows PowerShell ausführen. Beachten Sie, dass es empfohlen, aber nicht erforderlich ist, das HTTPS-Protokoll beim Konfigurieren der Berichts-URL zu verwenden:
+Nachdem die Überwachungsberichte installiert wurden, müssen Sie das Cmdlet New-CsReportingConfiguration verwenden, um die URL für den Zugriff auf diese Berichte zu konfigurieren. Diese Aufgabe kann über die Skype for Business Server Verwaltungsshell ausgeführt werden, indem Sie den folgenden Befehl Windows PowerShell ausführen. Beachten Sie, dass es empfohlen, aber nicht erforderlich ist, das HTTPS-Protokoll beim Konfigurieren der Berichts-URL zu verwenden:
   
 ```powershell
 New-CsReportingConfiguration -Identity 'service:MonitoringDatabase:atl-sql-001.litwareinc.com' -ReportingURL 'https://atl-sql-001.litwareinc.com:443/Reports_ARCHINST'

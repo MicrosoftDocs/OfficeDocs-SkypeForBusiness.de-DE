@@ -1,7 +1,7 @@
 ---
 title: MediaLine-Tabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audiomedienzeile. Eine Audio- und Videositzung (A/V) enthält in der Regel eine Audiomedienzeile und eine Videomedienleitung, obwohl die Sitzung möglicherweise zwei Videomedienzeilen enthält, wenn ein Konferenzgerät verwendet wird oder die Galerieansicht verwendet wird.
-ms.openlocfilehash: 9f96c18fcbe5799440e557cb180a52e990f61ec8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627717"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60754284"
 ---
 # <a name="medialine-table"></a>MediaLine-Tabelle
  
@@ -30,7 +30,7 @@ Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der 
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [Session-Tabelle.](session.md)  <br/> |
 |**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |0 is main audio, 1 is main video, and 2 is panorama video, 3 is Application/Desktop Sharing, 16 is Video based Screen Sharing (VbSS). Diese Bezeichnung muss innerhalb einer einzelnen Sitzung eindeutig sein.  <br/> |
 |**ConnectivityIce** <br/> |Tinyint  <br/> | <br/> |Diese Spalte ist vorhanden, wird jedoch in Microsoft Lync Server 2013 nicht verwendet. Informationen über die für eine Medienleitung verwendete Konnektivität werden in den Spalten "CallerConnectivityICE" und "CalleeConnectivityICE" erfasst.  <br/> |
-|**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informationen zum Ice-Prozess (Interactive Connectivity Establishment), der in Bits-Flags beschrieben ist. Ausführliche Informationen finden Sie in der  *Quality of Experience Monitoring Server-Protokollspezifikation,*  die zum Download zur Verfügung steht. <br/> |
+|**CallerIceWarningFlags** <br/> |int  <br/> | <br/> |Informationen zum ICE-Prozess (Interactive Connectivity Establishment), der in Bits-Flags beschrieben ist. Ausführliche Informationen finden Sie in der  *Quality of Experience Monitoring Server-Protokollspezifikation,*  die zum Download zur Verfügung steht. <br/> |
 |**CalleeIceWarningFlags** <br/> |int  <br/> | <br/> |Identisch mit CallerIceWarningFlags, aber auf der Seite des Angerufenen. Ausführliche Informationen finden Sie in der  *Quality of Experience Monitoring Server-Protokollspezifikation,*  die zum Download zur Verfügung steht. <br/> |
 |**Sicherheit** <br/> |Tinyint  <br/> | <br/> |Das verwendete Sicherheitsprofil. 0 ist KEINES, 1 ist SRTP, 2 ist V1.  <br/> |
 |**Transport** <br/> |Tinyint  <br/> | <br/> |0 ist UDP, 1 ist TCP.  <br/> |
@@ -43,7 +43,7 @@ Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der 
 |**CallerRelayPort** <br/> |int  <br/> | <br/> |Port, der vom Aufrufer für den A/V-Edgedienst verwendet wird.  <br/> |
 |**CallerCaptureDev** <br/> |int  <br/> |Ausländisch  <br/> |Erfasst das vom Anrufer verwendete Gerät. Referenziert aus der [Device-Tabelle.](device.md)  <br/> |
 |**CallerRenderDev** <br/> |int  <br/> |Ausländisch  <br/> |Rendern des vom Aufrufer verwendeten Geräts. Referenziert aus der [Device-Tabelle.](device.md)  <br/> |
-|**CallerCaptureDevDriver** <br/> |int  <br/> |Ausländisch  <br/> |Treiber für das Aufnahmegerät des Anrufers, auf den aus der [DeviceDriver-Tabelle](devicedriver.md)verwiesen wird.  <br/> |
+|**CallerCaptureDevDriver** <br/> |int  <br/> |Ausländisch  <br/> |Treiber für das Aufnahmegerät des Anrufers, auf das aus der [DeviceDriver-Tabelle](devicedriver.md)verwiesen wird.  <br/> |
 |**CallerRenderDevDriver** <br/> |int  <br/> |Ausländisch  <br/> |Treiber für das Rendergerät des Anrufers, auf das aus der [DeviceDriver-Tabelle](devicedriver.md)verwiesen wird.  <br/> |
 |**CallerNetworkConnectionType** <br/> |Tinyint  <br/> |Ausländisch  <br/> |Gibt an, wie der Anrufer mit dem Netzwerk verbunden ist. Werte werden aus der [NetworkConnectionDetail-Tabelle](networkconnectiondetail.md)abgerufen. Typische Werte sind 0 für eine kabelgebundene Verbindung" 1 für eine WLAN-Verbindung; und 3 für eine Ethernet-Verbindung.  <br/> |
 |**CallerBssid** <br/> |int  <br/> |Ausländisch  <br/> |BSSID des Anrufers, wenn drahtlos verwendet wird. Referenziert aus [der MacAddress-Tabelle.](macaddress.md)  <br/> |
@@ -65,7 +65,7 @@ Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der 
 |**CalleeVPN** <br/> |Bit  <br/> | <br/> |Der Link des Anrufempfängers; 1 ist ein virtuelles privates Netzwerk (VPN), 0 ist kein VPN.  <br/> |
 |**CalleeLinkSpeed** <br/> |decimal(18,0)  <br/> | <br/> |Die Netzwerkverbindungsgeschwindigkeit (in Basispunkten) für den Endpunkt des Anrufempfängers.  <br/> |
 |**ConversationalMOS** <br/> |decimal(3,2)  <br/> | <br/> |Schmalband-Gesprächs-MOS der Audiositzungen (basierend auf beiden Audiostreams).  <br/> |
-|**AppliedBandwidthLimit** <br/> |int  <br/> ||Dies ist die tatsächliche Bandbreite, die auf den angegebenen Sendeseitendatenstrom angewendet wird, wenn verschiedene Richtlinieneinstellungen (TURN, API, SDP, Richtlinienserver usw.) gelten. Dies ist nicht mit der effektiven Bandbreite zu verwechseln, da basierend auf der Bandbreitenvorkalkulation eine niedrigere effektive Bandbreite vorhanden sein kann. Hierbei handelt es sich im Wesentlichen um die maximale Bandbreite, die der Sendedatenstrom durch die Bandbreiten-Schätzung vorgegebene Grenzwerte belegen kann.  <br/> |
+|**AppliedBandwidthLimit** <br/> |int  <br/> ||Dies ist die tatsächliche Bandbreite, die auf den angegebenen Sendeseitendatenstrom angewendet wird, wenn verschiedene Richtlinieneinstellungen (TURN, API, SDP, Richtlinienserver usw.) gelten. Dies ist nicht mit der effektiven Bandbreite zu verwechseln, da basierend auf der Bandbreitenvorkalkulation eine niedrigere effektive Bandbreite vorhanden sein kann. Hierbei handelt es sich im Wesentlichen um die maximale Bandbreite, die der Sendedatenstrom durch die Bandbreitenvorkalkulation vorgegebene Grenzwerte belegen kann.  <br/> |
 |**AppliedBandwidthSourceKey** <br/> |Smallint  <br/> ||Dies ist die Quelle der Bandbreitenbeschränkung, die angewendet wird. Es beschreibt, woher die Bandbreitenbegrenzung stammt ("Richtlinienserver", "TURN Server", "Modalität" usw.). Referenziert aus der [AppliedBandwidthSource-Tabelle.](appliedbandwidthsource.md)  <br/> |
 |**Caller** <br/> |Bit  <br/> | <br/> |Gibt an, ob Metriken des Anrufers empfangen wurden; 1 ist ja, ein Nullwert ist nein.  <br/> |
 |**Aufgerufenen** <br/> |Bit  <br/> | <br/> |Gibt an, ob Metriken vom Anrufempfänger empfangen wurden; 1 ist ja, ein Nullwert ist nein.  <br/> |

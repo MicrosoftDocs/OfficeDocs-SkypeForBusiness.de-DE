@@ -1,6 +1,6 @@
 ---
 title: Eingehende Anrufe in Microsoft Teams blockieren
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.topic: article
@@ -14,12 +14,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: 6388c65e5f2c8600c263153b1a943bf485670fe4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
-ms.translationtype: HT
+ms.openlocfilehash: 4e7e6d40173bb5917a6cf540481257b21253eeaa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631429"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60766223"
 ---
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
