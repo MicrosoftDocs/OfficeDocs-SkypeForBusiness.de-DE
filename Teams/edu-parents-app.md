@@ -7,7 +7,7 @@ ms.topic: reference
 ms.service: msteams
 audience: admin
 ms.reviewer: ''
-description: Microsoft Teams für EDU-Artikel – Dokumentvoraussetzungen und PowerShell-Einrichtung für die Eltern-App.
+description: 'Microsoft Teams für EDU-Artikel : Dokumentvoraussetzungen und PowerShell-Einrichtung für die Eltern-App.'
 ms.localizationpriority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MET150
@@ -17,18 +17,16 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5b79319da9f901fc4546c25d5165f4d2361521a7
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8cd05f6ad2b238b4db2d611a6fc00e5f8a57189f
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537006"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60785148"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Bereitstellen der Eltern-App in Microsoft Teams
 
-[!INCLUDE [preview-feature](includes/preview-feature.md)]
-
-Das Aktivieren der Eltern-App in Microsoft Teams ist ein einfacher Prozess für Administratoren, der Eine sichere Methode für Lehrkräfte bietet, mit der sie mit Schülern/Studenten und ihren Kontakten kommunizieren können, die weiterhin im Mandanten bleiben, und dies gilt für die gesamte Bildungsorganisation.
+Mit der Eltern-App können Lehrkräfte mithilfe eines Teams-Chats, der auf die gesamte Bildungsorganisation verteilt wird, sichere Verbindungen mit den Eltern und Erziehungsberechtigten der Schüler/Studenten in ihren Klassen herstellen. Alle Daten zu Eltern und Erziehungsberechtigten werden mithilfe von School Data Sync bereitgestellt, sodass Lehrkräfte und IT-Mitarbeiter alles reibungslos einrichten können.
 
 ## <a name="requirements"></a>Anforderungen
 
@@ -45,11 +43,11 @@ Das Aktivieren der Eltern-App in Microsoft Teams ist ein einfacher Prozess für 
 
 - Der Kursbesitzer muss Chat aktiviert haben.
 - Der Kursbesitzer muss über externen Zugriff mit Teams **verfügen, die nicht von einer Organisation verwaltet** werden. 
-  - Diese Einstellung finden Sie unter Organisationsweite Einstellungen > Externer Zugriff für die Mandantenebene. Wenn Sie diese Einstellung für eine bestimmte Gruppe von Benutzern aktivieren möchten, lesen Sie die PowerShell unten.
+  - Diese Einstellung finden Sie unter Benutzer > externem Zugriff für die Mandantenebene. Wenn Sie dies für eine bestimmte Gruppe von Benutzern aktivieren möchten, lesen Sie die PowerShell unten.
 
 ## <a name="enabling-federated-chat-on-a-per-user-basis"></a>Aktivieren von Partnerchats pro Benutzer
 
-1. Installieren Sie die Microsoft Teams Vorschau des PowerShell-Moduls.
+1. Installieren Sie die neueste Microsoft Teams PowerShell-Modul preview.
 
     ```powershell
     Install-Module -Name PowerShellGet -Force -AllowClobber
@@ -63,7 +61,7 @@ Das Aktivieren der Eltern-App in Microsoft Teams ist ein einfacher Prozess für 
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-Standardmäßig ist die Einstellung auf Mandantenebene, die den Teams Consumer-externen Zugriff für den Mandanten (AllowTeamsConsumer) steuert, deaktiviert. Die Richtlinieneinstellung, mit der Teams von Endbenutzern auf Benutzerebene (EnableTeamsConsumerAccess) aktiviert wird, ist jedoch standardmäßig für alle Richtlinien für externen Zugriff auf Benutzerebene aktiviert. Sowohl die Einstellung auf Mandantenebene als auch die Richtlinieneinstellung auf Benutzerebene müssen aktiviert sein, damit ein Benutzer über externen Zugriff auf Teams Consumer verfügen kann. Wenn Sie nicht möchten, dass jeder in Ihrem Mandanten Teams externen Zugriff für Verbraucher aktiviert hat, sollten Sie die den Benutzern zugewiesenen Richtlinien für externen Zugriff auf Benutzerebene aktualisieren, bevor Sie die Einstellung auf Mandantenebene aktivieren.
+Die Richtlinieneinstellung, die Teams Endbenutzerzugriff auf Benutzerebene (EnableTeamsConsumerAccess) aktiviert, ist standardmäßig für alle Richtlinien für externen Zugriff auf Benutzerebene aktiviert. Sowohl die Einstellung auf Mandantenebene (AllowTeamsConsumer) als auch die Richtlinieneinstellung auf Benutzerebene müssen aktiviert sein, damit ein Benutzer über externen Zugriff auf Teams Consumer verfügen kann. Wenn Sie nicht möchten, dass für jeden in Ihrem Mandanten Teams der externe Zugriff für Verbraucher aktiviert ist, sollten Sie die den Benutzern zugewiesenen Richtlinien für externen Zugriff auf Benutzerebene aktualisieren, bevor Sie die Einstellung auf Mandantenebene aktivieren.
 
 Wenn Sie überprüfen müssen, welche Richtlinien für externen Zugriff auf Benutzerebene vorhanden sind und wem sie zugewiesen sind, können Sie die folgenden Schritte ausführen:
     
@@ -76,7 +74,7 @@ Wenn Sie überprüfen müssen, welche Richtlinien für externen Zugriff auf Benu
 4. Überprüfen Sie für jede andere Richtlinie als die "Global"-Richtlinie, welche Benutzer die Richtlinie zugewiesen haben. Hinweis: Alle Benutzer, denen keine bestimmte Richtlinie zugewiesen ist, fallen auf die Richtlinie "Global" zurück.
 
     ```powershell
-    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq “<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
+    Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
 ### <a name="further-powershell-options"></a>Weitere PowerShell-Optionen
@@ -94,7 +92,7 @@ Da für alle Richtlinien für externen Zugriff auf Benutzerebene "EnableTeamsCon
 
 - Zuweisen einer Richtlinie zu einer Gruppe von Benutzern: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
-Sobald Sie sich sicher sind, dass Ihre Richtlinien für externen Zugriff auf Benutzerebene für alle Benutzer richtig festgelegt sind, können Sie die Einstellung auf Mandantenebene aktivieren, die den externen Consumerzugriff für den Mandanten Teams mithilfe des folgenden Cmdlets steuert:
+Sobald Sie sicher sind, dass Ihre Richtlinien für externen Zugriff auf Benutzerebene für alle Benutzer richtig festgelegt sind Teams, können Sie die Einstellung auf Mandantenebene aktivieren, die den externen Consumerzugriff für den Mandanten mithilfe des folgenden Cmdlets steuert:
 
 - Legen Sie die Verbundkonfigurationseinstellungen für Ihren Mandanten (AllowTeamsConsumer auf "true" festlegen) vor: [Set-CsTenantFederationConfiguration (SkypeForBusiness)](/powershell/module/skype/set-cstenantfederationconfiguration)
 

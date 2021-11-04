@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 33286dccf3d54ac694b4d74b736b6d899c035aa8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f23f00249c23acb8397127bd51fd05206ce2f3f6
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760543"
+ms.locfileid: "60785088"
 ---
 # <a name="purchase-configure-and-enable-career-coach-for-microsoft-teams"></a>Erwerben, Konfigurieren und Aktivieren von Karrierecoach für Microsoft Teams
 
@@ -67,7 +67,7 @@ Wenn Sie Karrierecoach Bildungseinrichtung aktivieren möchten, überprüfen Sie
 - Schüler/Studenten
 
 > [!IMPORTANT]
-> Dem KARRIERECOACH muss beim Abschließen der Konfiguration eine Lizenz für Lehrpersonal zugewiesen werden.
+> Dem IT-Karrierecoach muss beim Abschließen der Konfiguration eine Lizenz für Lehrpersonal zugewiesen werden.
 
 **Daten und Dateien von Ihrer Bildungseinrichtung**
 
@@ -87,7 +87,7 @@ Wenn Sie Karrierecoach Bildungseinrichtung aktivieren möchten, überprüfen Sie
 
 ## <a name="purchase-the-career-coach-licenses"></a>Erwerben der Karrierecoach Lizenzen
 
-Karrierecoach ist weltweit (mit Ausnahme von China und Russland) für qualifizierte Hochschulen als Add-On-Lizenz über die Registrierung für Education-Lösungen (Enrollment for Education Solutions, EES), Cloud Service Providers (CSP) und Microsoft 365 Admin Center (Web Direct) verfügbar. Als Microsoft Teams-App müssen Kunden über Microsoft 365 A3/A5 oder Office 365 A1/A3/A5 verfügen, um das Add-On Karrierecoach kaufen zu können.
+Karrierecoach ist weltweit (mit Ausnahme von China und Russland) für qualifizierte Hochschulen als Add-On-Lizenz über die Registrierung für Education-Lösungen (Enrollment for Education Solutions, EES), Cloud Service Providers (CSP) und Microsoft 365 Admin Center (Web Direct) verfügbar. Als Microsoft Teams müssen Kunden über Microsoft 365 A3/A5 oder Office 365 A1/A3/A5 verfügen, um die Add-On-Lizenz Karrierecoach kaufen zu können.
 
 ### <a name="assign-app-licenses-to-users"></a>Zuweisen von App-Lizenzen zu Benutzern
 
@@ -161,19 +161,19 @@ Passen Karrierecoach an die Marke Ihrer Bildungseinrichtung an. Sie sind für di
 
 1. Melden Sie sich beim **[Teams Admin Center an.](https://admin.teams.microsoft.com)**
 
-2. Wählen **Teams Apps Apps**  >  **[verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Karrierecoach**  >  **und Einstellungen aus.**
+2. Wählen **Teams Apps Apps**  >  **[verwalten](https://admin.teams.microsoft.com/policies/manage-apps)**  >  **Karrierecoach** und Einstellungen  >  **aus.**
 
-3. Hochladen Symbol **für die Bildungseinrichtung aus.** Das Symbol wird überall Karrierecoach zum Identifizieren von Inhalten verwendet, die für Ihre Bildungseinrichtung eindeutig sind, Kurskatalogressourcen in der gesamten App sowie im Abschnitt "Reale Erfahrungen" des Dashboards. Das Symbol ist am besten wie folgt formatiert:
+3. Hochladen Sie auf **das Symbol für die Bildungseinrichtung.** Das Symbol wird überall Karrierecoach zum Identifizieren von Inhalten verwendet, die für Ihre Bildungseinrichtung eindeutig sind, Kurskatalogressourcen in der gesamten App sowie im Abschnitt "Reale Erfahrungen" des Dashboards. Das Symbol ist am besten wie folgt formatiert:
 
-- Eine transparente PNG-Datei
-- Seitenverhältnis von 1:1
-- Maximale Größe von 64 px x 64 px
+    - Eine transparente PNG-Datei
+    - Seitenverhältnis von 1:1
+    - Maximale Größe von 64 px x 64 px
 
 4. Hochladen Miniaturansicht **der Bildungseinrichtung aus.** Die Miniaturansicht wird für Kurskatalogressourcen in der gesamten App verwendet, wenn kein bestimmtes Bild für einen Kurs verfügbar ist. Die Miniaturansicht ist am besten wie folgt formatiert:
 
-- PNG-Datei
-- Seitenverhältnis von 16:9
-- Maximale Größe von 360 px x 200 px
+    - PNG-Datei
+    - Seitenverhältnis von 16:9
+    - Maximale Größe von 360 px x 200 px
 
 5. Fügen Sie **die URL für die Datenschutzrichtlinien der Bildungseinrichtung hinzu.** Wenn diese Richtlinie hinzugefügt wird, können Schüler/Studierende die Datenschutzrichtlinie in der App Karrierecoach überprüfen.
 
@@ -221,7 +221,7 @@ Die LinkedIn-Konfiguration verbindet Karrierecoach mit öffentlichen Absolventen
 Der Kurskatalog stellt die Kurse und Kurse dar, die Schülern von Ihrer Bildungseinrichtung angeboten werden.
 
 > [!IMPORTANT]
-> Dies ist ein erforderlicher Abschnitt Karrierecoach ohne einen Kurskatalog nicht aktiviert werden kann.
+> Dies ist ein erforderlicher Abschnitt Karrierecoach der ohne einen Kurskatalog nicht aktiviert werden kann.
 
 Diese Kurse werden innerhalb der App in zwei Bereichen verwendet:
 
@@ -270,7 +270,7 @@ In der folgenden Tabelle sind die Elemente aufgeführt, die in den Kurskatalog e
 Die Studienfelder sind Synonyme für Hauptbereiche von Interesse, akademischer Haupt- und Abschluss abschluss. Auf diese Titel verweisen Kursteilnehmer, wenn sie mit der Nutzung der App beginnen und mit dem Einrichten ihres personalisierten Profils beginnen.
 
 > [!IMPORTANT]
-> Dies ist ein Erforderlicher Abschnitt, der Karrierecoach ohne eine Liste von Studienfeldern nicht aktiviert werden kann.
+> Dies ist ein Erforderlicher Abschnitt Karrierecoach ohne eine Liste von Studienfeldern nicht aktiviert werden kann.
 
 #### <a name="add-the-fields-of-study"></a>Hinzufügen der Lernfelder
 
@@ -317,16 +317,16 @@ Nachdem Karrierecoach für Ihre Organisation konfiguriert wurde. Führen Sie die
 Nachdem Sie die Konfiguration abgeschlossen haben, aktivieren Sie die App für Schüler/Studierende und lizenzierte Benutzer, damit diese zugriffen können, Karrierecoach.  
   
 > [!IMPORTANT]
-> Sie müssen über die Berechtigungen "Global Teams Administratorrolle" verfügen.
+> Sie müssen über die Berechtigungen "Global" oder Teams Administratorrolle verfügen.
 
 1. Melden Sie sich beim **[Teams Admin Center an.](https://admin.teams.microsoft.com)**
 
-1. Wählen **Teams Apps Apps** verwalten &gt; **[](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Karrierecoach** aus.
+1. Wählen Teams **Apps Apps** &gt; **[verwalten und](https://admin.teams.microsoft.com/policies/manage-apps)** &gt; **Karrierecoach.**
 
 2. Verschieben Sie den Umschalter Status auf **Zulässig.**  
 
-  > [!NOTE]
-  > **Zulässig** bedeutet, dass die App für Benutzer in Ihrer Bildungseinrichtung verfügbar ist. Blockiert bedeutet, dass die App für Schüler/Studierende nicht verfügbar ist.
+   > [!NOTE]
+   > **Zulässig** bedeutet, dass die App für Benutzer in Ihrer Bildungseinrichtung verfügbar ist. Blockiert bedeutet, dass die App für Schüler/Studierende nicht verfügbar ist.
 
 ### <a name="add-career-coach-as-an-installed-app"></a>Hinzufügen Karrierecoach als installierte App
 
@@ -340,7 +340,7 @@ Wenn Sie nicht sicher sind, welche Richtlinie Sie verwenden sollen, finden [](/m
 
 3. Wählen Sie unter Installierte Apps die **Option Apps hinzufügen aus.**
 
-4. Suchen Sie im Bereich Installierte Apps hinzufügen nach den Apps, die Sie automatisch installieren möchten, wenn Benutzer Teams. Sie können Apps auch nach der App-Berechtigungsrichtlinie filtern. Wenn Sie Ihre App-Liste ausgewählt haben, wählen Sie **Hinzufügen aus.**
+4. Suchen Sie im Bereich Installierte Apps hinzufügen nach den Apps, die Sie automatisch installieren möchten, wenn die App Teams. Sie können Apps auch nach der App-Berechtigungsrichtlinie filtern. Wenn Sie Ihre App-Liste ausgewählt haben, wählen Sie **Hinzufügen aus.**
 
 5. Klicken Sie auf **Speichern**.
 
@@ -349,7 +349,7 @@ Wenn Sie nicht sicher sind, welche Richtlinie Sie verwenden sollen, finden [](/m
 
 ### <a name="pin-the-app"></a>Anheften der App
 
-Durch das anheften Karrierecoach wird die App für Schüler/Studenten barrierefreier und besser sichtbar.
+Durch das Karrierecoach wird die App für Schüler barrierefreier und besser sichtbar.
 
 1. Melden Sie sich beim **[Teams Admin Center an.](https://admin.teams.microsoft.com)**
 
@@ -372,11 +372,11 @@ Weitere Details finden Sie unter Verwalten [von App-Setuprichtlinien in Microsof
 
 - Wenn in der Karrierecoach-App die Karrierecoach wird zurzeit für Sie eingerichtet" angezeigt wird, wurden die erforderlichen Abschnitte __nicht abgeschlossen.__ Die folgenden __Abschnitte müssen__ abgeschlossen sein, bevor Karrierecoach verwendet werden kann: [Marke](#brand-and-preferences)und Einstellungen, [LinkedIn-Verbindung,](#linkedin-connection)Kurskatalog und [](#course-catalog) [Studienfelder.](#fields-of-study)
 
-- CSVs für Kurskatalog und Studienbereich haben erforderliche Formate und eine maximale Größe von 18 MB. Verweisen Sie Karrierecoach auf das Schema [des Kurskatalogdokuments,](#course-catalog-document-format-and-schema) und Karrierecoach Lerndokumentschemas, um die richtige Konfiguration zu gewährleisten. [](#fields-of-study-document-format-and-schema)
+- CSVs für Kurskatalog und Studienbereich haben erforderliche Formate und eine maximale Größe von 18 MB. Verweisen Sie Karrierecoach auf das [Schema des Kurskatalogdokuments,](#course-catalog-document-format-and-schema) Karrierecoach Studiendokumentschemas, um eine ordnungsgemäße Konfiguration zu gewährleisten. [](#fields-of-study-document-format-and-schema)
 
 - Auf Einstellungsseiten mit Pflichtfeldern wird die Seite nicht übermittelt, wenn die Felder nicht ausgefüllt wurden. Es wird keine Warnmeldung angezeigt. die Seite wird einfach nicht übermittelt.
 
-- Beim ersten Konfigurieren Karrierecoach wird möglicherweise ein Fehlerbanner mit der Meldung "Die Einstellungen der App können nicht aktualisiert werden. Versuchen Sie es erneut." Der Grund dafür ist wahrscheinlich, dass der Mandant die Karrierecoach-App bereitgestellt hat, was bis zu 15 Minuten dauern kann. Warten Sie in diesem Fall 15 Minuten, bevor Sie die Übermittlung erneut einreichen.
+- Beim ersten Konfigurieren Karrierecoach wird möglicherweise ein Fehlerbanner mit der Meldung "Die Einstellungen der App können nicht aktualisiert werden. Versuchen Sie es erneut." Dies liegt wahrscheinlich daran, dass der Mandant die Karrierecoach-App bereitgestellt hat, was bis zu 15 Minuten dauern kann. Warten Sie in diesem Fall 15 Minuten, bevor Sie die Übermittlung erneut einreichen.
 
 - Wenn die Karrierecoach in der App nicht angezeigt Microsoft Teams, wurden die Richtlinienänderungen möglicherweise nicht wirksam. Es kann einige Stunden dauern, bis Richtlinienänderungen aktualisiert wurden. Die Karrierecoach steht in der App erst nach Microsoft Teams Änderungen zur Verfügung.
 

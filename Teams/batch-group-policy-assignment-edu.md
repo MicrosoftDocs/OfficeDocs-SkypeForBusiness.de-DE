@@ -1,7 +1,7 @@
 ---
 title: Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule
-author: serdars
-ms.author: serdars
+author: HowlinWolf-92
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith, angch, cebulnes
 ms.topic: article
@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie großen Gruppen in Ihrer Bildungseinrichtung basierend auf Gruppenmitgliedschaften oder direkt über eine Batchzuweisung für Remoteunterrichtszwecke (Teleschool, Teleschule) Richtlinien zuweisen.
 f1keywords: ''
-ms.openlocfilehash: 3cd0bfd791d2416de31d998c693002cce87f6fcd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7a2321a42910eee77ef9dff3c3aba3165cba156a
+ms.sourcegitcommit: 6da1531dda6a0a3eecdca40e682783cc81c0d3e0
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745701"
+ms.locfileid: "60785078"
 ---
 # <a name="assign-policies-to-large-sets-of-users-in-your-school"></a>Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule
 
@@ -33,7 +33,7 @@ ms.locfileid: "60745701"
 
 ## <a name="overview"></a>Übersicht
 
-Müssen Sie Ihren Schülern/Studierenden und Lehrkräften Zugriff auf verschiedene Features in ihrer Microsoft Teams? Sie können die Benutzer in Ihrer Organisation schnell nach Lizenztyp identifizieren und ihnen dann die entsprechende Richtlinie zuweisen. In diesem Lernprogramm wird gezeigt, wie Sie eine Besprechungsrichtlinie großen Gruppen von Benutzern in Ihrer Schule zuweisen. Sie können Richtlinien über Microsoft Teams Admin Center und PowerShell zuweisen, und wir zeigen Ihnen beide Möglichkeiten.
+Müssen Sie Ihren Schülern/Studierenden und Lehrkräften Zugriff auf verschiedene Features in ihrer Microsoft Teams? Sie können die Benutzer in Ihrer Organisation schnell nach Lizenztyp identifizieren und ihnen dann die entsprechende Richtlinie zuweisen. In diesem Lernprogramm wird gezeigt, wie Sie eine Besprechungsrichtlinie großen Gruppen von Benutzern in Ihrer Schule zuweisen. Sie können Richtlinien über das Microsoft Teams Admin Center und PowerShell zuweisen, und wir zeigen Ihnen beide Möglichkeiten.
 
 Sie können eine Besprechungsrichtlinie einer Sicherheitsgruppe zuweisen, deren Mitglieder die Benutzer sind, oder Benutzern direkt im Maßstab einer Batchrichtlinienzuweisung zuweisen. Folgende Punkte werden behandelt:
 
@@ -51,7 +51,7 @@ Denken Sie daran, dass die Globale Richtlinie für alle Benutzer in Ihrer Schule
 
 In diesem Lernprogramm erhalten die Kursteilnehmer die Globale Besprechungsrichtlinie, und wir weisen Mitarbeitern und Lehrkräften eine benutzerdefinierte Besprechungsrichtlinie mit dem Namen EducatorMeetingPolicy zu. Wir gehen davon aus, dass Sie die globale [](policy-packages-edu.md) Richtlinie bearbeitet haben, um Die Besprechungseinstellungen für Schüler/Studierende zu anpassen, und eine benutzerdefinierte Richtlinie erstellt haben, die die Besprechungserfahrung für Mitarbeiter und Lehrkräfte definiert.
 
-![Screenshot der Seite "Besprechungsrichtlinien" im Teams Admin Center.](media/batch-group-policy-assignment-edu-meeting-policies.png)
+![Screenshot der Seite "Besprechungsrichtlinien" im Teams Admin Center](media/batch-group-policy-assignment-edu-meeting-policies.png)
 
 ## <a name="assign-a-policy-to-a-group"></a>Zuweisen einer Richtlinie zu einer Gruppe
 
@@ -83,7 +83,7 @@ Wenn Sie sdS nicht in Ihrer Umgebung bereitstellen können, verwenden Sie dieses
 #### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen über das Microsoft Teams Admin Center nur für Anrufrichtlinien für Teams-Anrufe, Parkrichtlinien für Anrufe Teams, Teams-Richtlinie, Teams-Richtlinie für Liveereignisse, Teams-Besprechungsrichtlinien und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
+> Derzeit ist die Richtlinienzuweisung an Gruppen, die das Microsoft Teams Admin Center verwenden, nur für Teams-Anrufrichtlinien, Teams-Richtlinien zum Parken von Anrufen, Teams-Richtlinie, Teams-Richtlinie für Liveereignisse, Teams-Besprechungsrichtlinie und Teams-Messaging-Richtlinie verfügbar. Verwenden Sie PowerShell für andere Richtlinientypen.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Wählen Sie die **Registerkarte Gruppenrichtlinienzuordnung** aus.
@@ -102,7 +102,7 @@ Um die Bewertung einer Gruppenzuordnung zu ändern, müssen Sie zuerst die Grupp
 #### <a name="using-powershell"></a>Verwendung von PowerShell
 
 > [!NOTE]
-> Derzeit ist die Richtlinienzuweisung an Gruppen mithilfe von PowerShell nicht für alle Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
+> Derzeit ist die Richtlinienzuweisung zu Gruppen mithilfe von PowerShell nicht für alle gruppenrichtlinientypen Teams verfügbar. Eine Liste der unterstützten Richtlinientypen finden Sie unter [New-CsGroupPolicyAssignment.](/powershell/module/teams/new-csgrouppolicyassignment)
 
 ##### <a name="install-and-connect-to-the-microsoft-teams-powershell-module"></a>Installieren und Herstellen einer Verbindung mit dem Microsoft Teams PowerShell-Modul
 
@@ -181,7 +181,7 @@ Get-CsGroupPolicyAssignment -GroupId staff-faculty@contoso.com
 
 ##### <a name="get-the-policies-assigned-to-a-user"></a>Erhalten der Richtlinien, die einem Benutzer zugewiesen werden
 
-Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem bestimmten reda@contoso.com.
+Führen Sie die folgenden Schritte aus, um alle Richtlinien zu sehen, die einem bestimmten Benutzer zugewiesen sind. Das folgende Beispiel zeigt, wie Sie die Richtlinien erhalten, die einem reda@contoso.com.
 
 ```powershell
 Get-CsUserPolicyAssignment -Identity reda@contoso.com
