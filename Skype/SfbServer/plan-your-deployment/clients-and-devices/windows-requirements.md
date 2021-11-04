@@ -1,6 +1,6 @@
 ---
 title: Windows Clientanforderungen und Softwareunterstützung
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,24 +16,24 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-description: 'Zusammenfassung: Überprüfen Sie die Supportanforderungen für Windows Clients bei der Planung Skype for Business Server.'
-ms.openlocfilehash: 755f60030c905bfb5a5f488e2573c12b3396ab1e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Überprüfen Sie bei der Planung Skype for Business Server die Anforderungen an den Windows Clientsupport.'
+ms.openlocfilehash: 143fdf0e03f6ea125e7b1cbfb3aa0e7a6a93788b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627947"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770213"
 ---
 # <a name="windows-client-requirements-and-software-support"></a>Windows Clientanforderungen und Softwareunterstützung
  
-**Zusammenfassung:** Überprüfen Sie die Supportanforderungen für Windows Clients, während Sie Skype for Business Server planen.
+**Zusammenfassung:** Überprüfen Sie die Supportanforderungen für Windows Clients bei der Planung Skype for Business Server.
   
-In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung der Skype for Business Windows-Clients erforderlich ist. Diese Clients werden installiert, wenn Microsoft 365 oder Office 365 installiert werden, und sind auch auf [allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)unter Download Skype for Business verfügbar.
+In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung der Skype for Business Windows-Clients erforderlich ist. Diese Clients werden installiert, wenn Microsoft 365 oder Office 365 installiert werden, und stehen auch unter [Download Skype for Business auf allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)zur Verfügung.
   
 > [!NOTE]
 > Das Onlinebesprechungs-Add-In für Skype for Business, das die Besprechungsverwaltung innerhalb des Outlook Messaging- und Zusammenarbeitsclients unterstützt, wird automatisch mit Skype for Business installiert. 
   
-**Erforderliche Software für Skype for Business-Client und das Onlinebesprechungs-Add-In**
+**Erforderliche Software für Skype for Business Client und das Onlinebesprechungs-Add-In**
 
 |**Systemkomponente**|**Unterstützte Versionen**|
 |:-----|:-----|
@@ -49,7 +49,7 @@ Lesen Sie die [Systemanforderungen](https://products.office.com/office-system-re
   
 ## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype Besprechungs-App und Skype for Business-Web-App 
 
-Die Skype Besprechungs-App und Skype for Business-Web-App bestimmte Kombinationen von Betriebssystemen und Browsern unterstützen. Ausführliche Informationen finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md). 
+Die Skype-Besprechungs-App und Skype for Business-Web-App bestimmte Kombinationen von Betriebssystemen und Browsern unterstützen. Ausführliche Informationen finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md). 
   
 ## <a name="using-mandatory-profiles"></a>Verwenden von verbindlichen Profilen
 
@@ -58,7 +58,7 @@ Wenn Sie die Skype for Business Konferenzfunktionen verwenden möchten, vermeide
 ## <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Systemanforderungen für Skype for Business für Windows Phone
  
  
-Microsoft Skype for Business für Windows Phone bietet Chatnachrichten, erweiterte Anwesenheit und Telefonie für Benutzer in Ihrer Organisation, die sich über ein Smartphone oder ein Windows Professional mobile Gerät verbinden. Mit mobilen Geräten können Benutzer die Reichweite von Skype for Business erweitern. In diesem Thema werden Planungsüberlegungen für Skype for Business für Windows Phone beschrieben, die die Ermittlung von Voraussetzungen und technischen Anforderungen, erforderlichen Komponenten und Bereitstellungsanleitungen umfassen.
+Microsoft Skype for Business für Windows Phone bietet Chatnachrichten, erweiterte Anwesenheit und Telefonie für Benutzer in Ihrer Organisation, die sich über ein Smartphone oder ein Windows Professional mobilen Gerät verbinden. Mit mobilen Geräten können Benutzer die Reichweite von Skype for Business erweitern. In diesem Thema werden Planungsüberlegungen für Skype for Business für Windows Phone beschrieben, die die Ermittlung von Voraussetzungen und technischen Anforderungen, erforderlichen Komponenten und Bereitstellungsanleitungen umfassen.
   
 ### <a name="skype-for-business-for-windows-phone-prerequisites"></a>Skype for Business für Windows Phone Voraussetzungen
 
@@ -73,7 +73,7 @@ Nachfolgend sind die Skype for Business für Windows Phone Voraussetzungen besch
 - Der Benutzer muss einen Sprach- und Datendienstvertrag bei einem Netzbetreiber abgeschlossen haben.
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Planen von Besprechungsclients (Web App und Besprechungs-App)](meetings-clients.md)
   

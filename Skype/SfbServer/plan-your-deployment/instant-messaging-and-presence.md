@@ -1,7 +1,7 @@
 ---
 title: Planen von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 70d2151e-9382-485d-ab14-758597571a74
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server planen.'
-ms.openlocfilehash: 8498526c97794dce29d791318b025321e932081b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 20de382c034e2049bdb7bb2b36f2da9bc847b876
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599890"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737661"
 ---
 # <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server
  
@@ -27,25 +27,25 @@ Planen von Chatnachrichten und Anwesenheitsinformationen in Skype for Business S
   
 ## <a name="plan-for-instant-messaging-and-presence-in-skype-for-business-server"></a>Planen von Chatnachrichten und Anwesenheitsinformationen in Skype for Business Server
 
-Front-End-Server bieten kern Skype for Business Server Funktionen wie Chatnachrichten und Anwesenheitsinformationen und sind in jeder Skype for Business Server Bereitstellung enthalten. Es stehen zwei Editionen zur Verfügung: Skype for Business Server Enterprise Edition, das in erster Linie für größere Organisationen entwickelt wurde, und Skype for Business Server Standard Edition, das in erster Linie für kleinere Organisationen entwickelt wurde, die eine kleinere Hardwareinvestitionen benötigen und keine vollständigen Hochverfügbarkeitsoptionen erfordern. Beide Editionen unterstützen alle Skype for Business Server Workloads, einschließlich Chat, Anwesenheit, Konferenzen und Enterprise-VoIP.
+Front-End-Server bieten Skype for Business Server Kernfunktionen wie Chatnachrichten und Anwesenheitsinformationen und sind in jeder Skype for Business Server Bereitstellung enthalten. Es stehen zwei Editionen zur Verfügung: Skype for Business Server Enterprise Edition, die in erster Linie für größere Organisationen entwickelt wurde, und Skype for Business Server Standard Edition, das in erster Linie für kleinere Organisationen entwickelt wurde, die eine geringere Hardwareinvestitionen und erfordern keine vollständigen Hochverfügbarkeitsoptionen. Beide Editionen unterstützen alle Skype for Business Server Workloads, einschließlich Chatnachrichten, Anwesenheitsinformationen, Konferenzen und Enterprise-VoIP.
   
 Mit der Sofortnachrichtenfunktion (Instant Messaging, IM) können Benutzer auf ihren Computern in Echtzeit über textbasierte Nachrichten miteinander kommunizieren. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Ein Teilnehmer an einer Sofortnachrichtensitzung mit zwei Teilnehmern kann der Unterhaltung jederzeit einen dritten Teilnehmer hinzufügen. Wenn dies geschieht, ändert sich das Unterhaltungsfenster, um Konferenzfunktionen zu unterstützen.
   
-Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers enthält Informationen, die anderen bei der Entscheidung helfen, ob sie versuchen sollen, den Benutzer zu kontaktieren und ob Chat, Telefon oder E-Mail verwendet werden soll. Die Anwesenheit fördert nach Möglichkeit eine sofortige Kommunikation, liefert aber auch Informationen darüber, ob sich ein Benutzer in einer Besprechung oder außerhalb des Büros befindet, was darauf hinweist, dass eine sofortige Kommunikation nicht möglich ist. Dieser Anwesenheitsstatus wird als Anwesenheitssymbol in Skype for Business und anderen anwesenheitsfähigen Anwendungen angezeigt, einschließlich des Microsoft Outlook Messaging- und Zusammenarbeitsclients, von Microsoft SharePoint-Technologien und Microsoft Office. Das Anwesenheitssymbol stellt die aktuelle Verfügbarkeit des Benutzers und die Bereitschaft zur Kommunikation dar. 
+Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers enthält Informationen, mit denen andere entscheiden können, ob sie versuchen sollen, den Benutzer zu kontaktieren und ob Chat, Telefon oder E-Mail verwendet werden soll. Die Anwesenheit fördert nach Möglichkeit eine sofortige Kommunikation, liefert aber auch Informationen darüber, ob sich ein Benutzer in einer Besprechung oder außerhalb des Büros befindet, was darauf hinweist, dass eine sofortige Kommunikation nicht möglich ist. Dieser Anwesenheitsstatus wird als Anwesenheitssymbol in Skype for Business und anderen Anwesenheitsanwendungen angezeigt, einschließlich des Microsoft Outlook Messaging- und Zusammenarbeitsclients, von Microsoft SharePoint-Technologien und Microsoft Office. Das Anwesenheitssymbol stellt die aktuelle Verfügbarkeit des Benutzers und die Bereitschaft zur Kommunikation dar. 
   
 ### <a name="technical-requirements"></a>Technische Anforderungen
 
-Chatnachrichten und Anwesenheitsinformationen werden immer auf Enterprise Edition Front-End-Pools und Standard Edition Servern ausgeführt. Informationen zu unterstützter Hardware, Betriebssystemen und Datenbanksoftware finden Sie unter ["Certified Gateways",](../../SfbPartnerCertification/certification/infra-gateways.md) ["Requirements for your Skype for Business 2015 environment"](requirements-for-your-environment/requirements-for-your-environment.md)und ["Infrastructure requirements for Skype for Business Server 2019".](../../SfBServer2019/plan/system-requirements.md)
+Chatnachrichten und Anwesenheitsinformationen werden immer auf Enterprise Edition Front-End-Pools und Standard Edition Servern ausgeführt. Informationen zu unterstützter Hardware, Betriebssystemen und Datenbanksoftware finden Sie unter [Certified Gateways](../../SfbPartnerCertification/certification/infra-gateways.md), [Requirements for your Skype for Business 2015 environment,](requirements-for-your-environment/requirements-for-your-environment.md)and [Infrastructure requirements for Skype for Business Server 2019](../../SfBServer2019/plan/system-requirements.md).
   
 ### <a name="enabling-communication-with-external-users"></a>Aktivieren der Kommunikation mit externen Benutzern
 
 Sie können die Vorteile Ihrer Investition in Skype for Business Server erheblich steigern, indem Sie Ihren Benutzern die Kommunikation mit externen Benutzern ermöglichen. Externe Benutzer können Folgendes umfassen:
   
-- Remotebenutzer: Die eigenen Benutzer Ihrer Organisation, wenn sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere Skype for Business Server Geräte verwenden.
+- Remotebenutzer: Die eigenen Benutzer Ihrer Organisation, wenn sie außerhalb Ihrer Firewalls arbeiten und ihre Laptops oder andere Skype for Business Server-Geräte verwenden.
     
 - Verbundbenutzer: Benutzer aus Unternehmen, mit denen Sie zusammenarbeiten, die auch Skype for Business Server ausführen. Damit Ihre Benutzer diese Benutzer problemlos kontaktieren können, erstellen Sie Partnerverbundbeziehungen mit diesen Unternehmen. 
     
-- Skype Benutzer: Skype for Business Benutzer können hunderte Millionen Benutzer auf Skype mit Chat, Sprache und Video erreichen.
+- Skype Benutzer: Skype for Business Benutzer können hunderte Millionen Von Benutzern auf Skype mit Chat, Sprache und Video erreichen.
     
 > [!NOTE]
 > AOL, Yahoo und Google Talk werden nicht mehr unterstützt. 
@@ -72,6 +72,6 @@ Für Instant Messaging (IM) und Anwesenheit sind nur diese Komponenten erforderl
     
 ### <a name="supported-collocation"></a>Unterstützte Kollokation
 
-Kollokation ist definiert als ein einzelner Server oder eine Gruppe von Servern, auf dem mehrere Rollen installiert sind. Ausführliche Informationen zur Kollokation finden Sie unter [Topologiegrundlagen für Skype for Business Server.](topology-basics/topology-basics.md) 
+Kollokation ist definiert als ein einzelner Server oder eine Gruppe von Servern, auf dem mehrere Rollen installiert sind. Ausführliche Informationen zur Kollokation finden Sie unter [Topologiegrundlagen für Skype for Business Server](topology-basics/topology-basics.md). 
   
 

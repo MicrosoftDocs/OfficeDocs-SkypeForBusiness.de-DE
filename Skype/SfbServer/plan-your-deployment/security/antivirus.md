@@ -1,7 +1,7 @@
 ---
 title: Antivirus-Scanausschlüsse für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über die Interoperabilität von Antivirenscannern mit Skype for Business Server.
-ms.openlocfilehash: e4016527937c7cfc3c39eb37d2a7b75202fad076
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 105abd3618c5e869681edc31321a07ab0bce9d57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588497"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737651"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirus-Scanausschlüsse für Skype for Business Server
 
 Übersicht über die Interoperabilität von Antivirenscannern mit Skype for Business Server.
 
-Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business Server nicht beeinträchtigt, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Skype for Business Server Server oder jede Serverrolle ausschließen, auf dem Bzw. auf dem Sie einen Antivirenscanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
+Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business Server nicht beeinträchtigt, müssen Sie bestimmte Prozesse und Verzeichnisse für jeden Skype for Business Server Server oder jede Serverrolle ausschließen, auf dem bzw. der Sie einen Antivirenscanner ausführen. Die folgenden Prozesse und Verzeichnisse sollten ausgeschlossen werden:
 
 > [!NOTE]
 > Die unten aufgeführten Ordner- und Dateispeicherorte sind die Standardspeicherorte für Skype for Business Server. Schließen Sie für alle Speicherorte, für die Sie nicht die Standardeinstellung verwendet haben, die Speicherorte aus, die Sie für Ihre Organisation anstelle der in diesem Thema angegebenen Standardspeicherorte angegeben haben.
@@ -142,4 +142,4 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 
   - SQL Server Daten und Protokolldateien, einschließlich der Dateien für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter SQL Server Platzierung von [Daten und Protokolldateien](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in der Bereitstellungsdokumentation.
 
-  - SQL Server Daten- und Protokolldateien, einschließlich der Dateien für die Front-End-Datenbank, Skype for Business speicher und den RtcDatabase-Speicher. Sie befinden sich normalerweise unter %localdrive%\CSData.
+  - SQL Server Daten und Protokolldateien, einschließlich der Daten für die Front-End-Datenbank, Skype for Business speicher und des RtcDatabase-Speichers. Sie befinden sich normalerweise unter %localdrive%\CSData.

@@ -1,7 +1,7 @@
 ---
 title: PurgeSettings-Tabelle
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9ff2c8fc-4ae8-4f22-96a8-1f4d5eecbf2d
 description: 'Die Tabelle "PurgeSettings" enthält Informationen, mit denen angegeben wird, ob (und wann) veraltete Kommunikationsdatensätze automatisch aus der KDS-Datenbank gelöscht werden. Beachten Sie, dass Löschinformationen auch innerhalb der Skype for Business Server 2015 abgerufen werden können, indem Sie den folgenden Befehl ausführen:'
-ms.openlocfilehash: 3f1f596bd6e8d61c491c93c3664e1f4d110ccf8b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a2b5bc874f6145a121cfb8a43702ab55ab0a5e1d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623467"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763313"
 ---
 # <a name="purgesettings-table"></a>PurgeSettings-Tabelle
  

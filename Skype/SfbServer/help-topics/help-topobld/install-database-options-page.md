@@ -1,7 +1,7 @@
 ---
 title: Seite "Datenbank installieren" – Optionen
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank- und Protokolldateien in Ihrem SQL Server. Die verfügbaren Optionen lauten:'
-ms.openlocfilehash: c8b26656f894fbf2c27b2321f30c174fe10472b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3bf2eaacd374234795806d3a3ff21ad1d38dc646
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587339"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777385"
 ---
 # <a name="install-database-options-page"></a>Seite „Datenbank installieren“ – Optionen
 
@@ -33,7 +33,7 @@ Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank- und Pr
 
  **Verwenden Sie SQL Server Instanzstandardeinstellungen:** Wählen Sie diese Option aus, um Datenbankdateien und Protokolldateien basierend auf den Instanzeinstellungen in SQL Server zu platzieren. Die Optionen werden normalerweise von Ihrem Datenbankadministrator verwaltet und konfiguriert.
 
- **Us these path on target SQL Server:** Select this option to define your own paths for SQL Server database and log files by typing the full path to the drive and folder where the database and log files will be placed.
+ **Wir haben diesen Pfad auf ziel SQL Server:** Wählen Sie diese Option aus, um Ihre eigenen Pfade für SQL Server Datenbank und Protokolldateien zu definieren, indem Sie den vollständigen Pfad zum Laufwerk und Ordner eingeben, in dem die Datenbank und die Protokolldateien abgelegt werden.
 
 > [!IMPORTANT]
 > Möglicherweise werden die eingegebenen Pfade während der Installation mithilfe von Algorithmen zur Leistungsoptimierung geändert. Ausführliche Informationen finden Sie unter [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).
@@ -44,6 +44,6 @@ Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank- und Pr
 
  **Hilfe**: Klicken Sie auf die Schaltfläche "Hilfe", um auf diese Hilfeseite zuzugreifen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Platzierung von SQL Server-Daten und Protokolldatei](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement)

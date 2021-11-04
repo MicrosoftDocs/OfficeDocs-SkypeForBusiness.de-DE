@@ -2,7 +2,7 @@
 title: Verwalten von Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie mehr über die Verfahren für Notfallwiederherstellungsvorgänge sowie für die Wartung des Sicherungsdiensts, der die Daten in gepaarten Front-End-Pools synchronisiert.
-ms.openlocfilehash: b8635728710efbd2c820b6ca57333f77b56d04e5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 962f595dffb56f36ce8d6008db62308c352706cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612264"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763703"
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten von Skype for Business Server Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten Skype for Business Server Notfallwiederherstellung, hohe Verfügbarkeit und Sicherungsdienst
 
 Dieser Abschnitt enthält Verfahren für Notfallwiederherstellungsvorgänge sowie für die Wartung des Sicherungsdiensts, der die Daten in gepaarten Front-End-Pools synchronisiert.
 
@@ -38,7 +38,7 @@ Bei den Verfahren für die Notfallwiederherstellung in diesem Abschnitt wird Fol
 > <LI>
 > <P>Failover für alle Benutzer, die ursprünglich mit P2 zu P1 verwaltet wurden, mithilfe des Failover-Cmdlets. In diesem Fall ist der PoolFQDN der FQDN von P2.</P>
 > <LI>
-> <P>Wenn der Administrator diese P2-Benutzer später wieder auf P2 zurücksetzen möchte, ist der PoolFQDN der FQDN von P2.</P></LI></OL><br>Beachten Sie, dass Schritt 1 oben vor Schritt 2 ausgeführt werden muss, um die Poolintegrität zu erhalten. Wenn Sie Schritt 2 vor Schritt 1 testen, schlägt das Cmdlet "Schritt 2" fehl.
+> <P>Wenn der Administrator diese P2-Benutzer später wieder auf P2 zurücksetzen möchte, ist der PoolFQDN der FQDN von P2.</P></LI></OL><br>Beachten Sie, dass Schritt 1 oben vor Schritt 2 ausgeführt werden muss, um die Poolintegrität zu erhalten. Wenn Sie Schritt 2 vor Schritt 1 versuchen, schlägt das Cmdlet "Schritt 2" fehl.
 
 
 ## <a name="see-also"></a>Siehe auch

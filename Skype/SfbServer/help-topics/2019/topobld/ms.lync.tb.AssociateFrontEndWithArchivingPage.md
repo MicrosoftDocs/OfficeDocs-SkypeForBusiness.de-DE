@@ -1,7 +1,7 @@
 ---
 title: Zuordnen des Front-Ends zur Archivierung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a0d732ab-e845-4f46-8f7b-3ba506597a92
 ROBOTS: NOINDEX, NOFOLLOW
 description: Jedem Front-End-Pool bzw. jeder Survivable Branch Appliance kann nur ein Archivierungsserver zugeordnet werden. Wenn die Archivierung für den Standort aktiviert ist, dient der Archivierungsserver zum Erfassen und Aufzeichnen des Inhalts von Sofortnachrichten und Webkonferenzen aus Unterhaltungen zwischen Benutzern in den dazugehörigen Pools und Survivable Branch Appliances.
-ms.openlocfilehash: 71b8c9fe38ea292d541c180a997ae4d0551068b3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59245f68fb75a1e2cd459ab342ea2eaf2c818291
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58631779"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741101"
 ---
 # <a name="associate-front-end-with-archiving"></a>Zuordnen des Front-Ends zur Archivierung
  

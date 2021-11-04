@@ -1,7 +1,7 @@
 ---
-title: Bereitstellen von Notfalldiensten in Skype for Business Server
+title: Bereitstellen von Notrufdiensten in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,25 +15,25 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: cc6a656a-6043-4b9b-85c2-5708b9bb1c06
-description: Stellen Sie E9-1-1 in Skype for Business Server Enterprise-VoIP bereit. Umfasst Voraussetzungen und Prüfliste für den Bereitstellungsprozess.
-ms.openlocfilehash: 51c877fd285bd9db31de697e72458a44d44d0b71
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Stellen Sie E9-1-1 in Skype for Business Server Enterprise-VoIP bereit. Enthält Voraussetzungen und Prüfliste für den Bereitstellungsprozess.
+ms.openlocfilehash: ce0175f3f249ab013ae425686f8ea167117d2bc1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600710"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741361"
 ---
-# <a name="deploy-emergency-services-in-skype-for-business-server"></a>Bereitstellen von Notfalldiensten in Skype for Business Server
+# <a name="deploy-emergency-services-in-skype-for-business-server"></a>Bereitstellen von Notrufdiensten in Skype for Business Server
  
-Stellen Sie E9-1-1 in Skype for Business Server Enterprise-VoIP bereit. Umfasst Voraussetzungen und Prüfliste für den Bereitstellungsprozess.
+Stellen Sie E9-1-1 in Skype for Business Server Enterprise-VoIP bereit. Enthält Voraussetzungen und Prüfliste für den Bereitstellungsprozess.
   
 Enhanced 9-1-1 (E9-1-1) ist eine Notfallbenachrichtigungsfunktion, die die Telefonnummer des Anrufers einer Anschrift oder Einer Straße zuweist. Anhand dieser Informationen kann die Rettungsleitstelle umgehend Rettungskräfte an die Unglücksstelle senden.
   
-Um E9-1-1 zu unterstützen, müssen Skype for Business Server in der Lage sein, einen Standort korrekt einem Client zuzuordnen und sicherzustellen, dass diese Informationen verwendet werden, um den Notruf an die nächstgelegene Rettungsleitstelle weiterzuleiten.
+Um E9-1-1 zu unterstützen, müssen Skype for Business Server in der Lage sein, einen Standort ordnungsgemäß einem Client zuzuordnen und sicherzustellen, dass diese Informationen verwendet werden, um den Notruf an die nächstgelegene Rettungsleitstelle weiterzuleiten.
   
 ## <a name="deployment-prerequisites-for-e9-1-1"></a>Voraussetzungen für die Bereitstellung von E9-1-1
 
-Bevor Sie E9-1-1 bereitstellen, müssen Sie ihre Skype for Business Server internen Server bereits bereitgestellt haben, einschließlich eines zentralen Verwaltungsspeichers, eines Front-End-Pools oder eines Standard Edition Servers. Sie müssen auch einen oder mehrere Vermittlungsserver bereitstellen, entweder eigenständig oder verbunden mit Front-End-Servern. Darüber hinaus erfordert eine E9-1-1-Bereitstellung einen SIP-Trunk zu einem qualifizierten E9-1-1-Dienstanbieter oder ein ELIN-Gateway (Emergency Location Identification Number) zu Ihrem Telefonfestnetz (Public Switched Telephone Network, PSTN).
+Bevor Sie E9-1-1 bereitstellen, müssen Sie ihre Skype for Business Server internen Server bereitgestellt haben, einschließlich eines zentralen Verwaltungsspeichers, eines Front-End-Pools oder eines Standard Edition Servers. Sie müssen auch einen oder mehrere Vermittlungsserver bereitstellen, entweder eigenständig oder verbunden mit Front-End-Servern. Darüber hinaus erfordert eine E9-1-1-Bereitstellung einen SIP-Trunk zu einem qualifizierten E9-1-1-Dienstanbieter oder ein ELIN-Gateway (Emergency Location Identification Number) zu Ihrem Telefonfestnetz (Public Switched Telephone Network, PSTN).
   
 ## <a name="deployment-process"></a>Bereitstellungsprozess
 

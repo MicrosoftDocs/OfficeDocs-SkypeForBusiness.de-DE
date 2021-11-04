@@ -1,7 +1,7 @@
 ---
 title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,16 +13,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.'
-ms.openlocfilehash: 622e3fdecc9cbe0def1f87a623692cb93889bb00
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612054"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777305"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
-**Zusammenfassung:** In diesem Thema finden Sie Informationen zur Problembehandlung bei der Bereitstellung von Statistics Manager für Skype for Business Server.
+**Zusammenfassung:** Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu behandeln.
   
 In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung beheben, indem Ereignisse beschrieben werden, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, und entsprechende Maßnahmen, die Sie zur Behebung des Ereignisses ergreifen können. Dieses Thema enthält die folgenden Abschnitte:
   
@@ -37,7 +37,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
 
 - **1000** - Prozessorlimiter (Job-Objekt) kann nicht eingerichtet werden - Unbekannter Grund
     
-- **1001** – Prozessbegrenzung ist für den Prozess nicht zulässig (wahrscheinlich bereits innerhalb eines Auftragsobjekts)
+- **1001** - Prozessbegrenzung ist für den Prozess nicht zulässig (wahrscheinlich bereits innerhalb eines Auftragsobjekts)
     
     Der Agent wird innerhalb eines Windows Auftragsobjekts ausgeführt, um den Speicherbedarf automatisch zu begrenzen. Wenn der Agent nicht gestartet wird und diese Ereigniseinträge im Ereignisprotokoll vorhanden sind, kann das Auftragsobjekt nicht auf dem Server instanziiert werden. Um dies zu umgehen, kann der obere Speichergrenzwert entfernt werden, indem ein Wert in der Konfigurationsdatei geändert wird:
     
@@ -105,7 +105,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10001** – Konfigurationsproblem
     
-    Im Allgemeinen tritt dies auf, wenn die Datei [listener_install_location]\PerfAgentListener.exe.config von Hand geändert wurde und von der Anwendung nicht gelesen werden kann.
+    In der Regel tritt dies auf, wenn die Datei [listener_install_location]\PerfAgentListener.exe.config von Hand geändert wurde und von der Anwendung nicht gelesen werden kann.
     
   - **10002** - HTTP-Listener-Initialisierungsfehler
     
@@ -115,7 +115,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10004** – Fehler bei der Zwischenspeicherung der Infrastruktur
     
-  - **10007** – Einstellungen (in Redis gespeichert)
+  - **10007** - Einstellungen (in redis gespeichert)
     
     Der Listener konnte redis nicht kontaktieren oder wohlgeformte Daten aus dem Cache abrufen und konnte nicht gestartet werden. Stellen Sie sicher, dass der Redis-Dienst auf dem Server gestartet und ordnungsgemäß konfiguriert ist.
     

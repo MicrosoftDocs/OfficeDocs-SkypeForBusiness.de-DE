@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe auf einem Back-End-Server in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c93c01e6-626c-40ad-92dd-373b0fe9189f
 description: Bereitstellen (Installieren) einer AlwaysOn-Verfügbarkeitsgruppe in Ihrer Skype for Business Server Bereitstellung.
-ms.openlocfilehash: 72bd60e102bfa121e2b8f7704032f54242aee202
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 69a7627850da06a2a120c0c37fbf83f87c17c277
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58620481"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755644"
 ---
 # <a name="deploy-an-always-on-availability-group-on-a-back-end-server-in-skype-for-business-server"></a>Bereitstellen einer AlwaysOn-Verfügbarkeitsgruppe auf einem Back-End-Server in Skype for Business Server
  
@@ -76,7 +76,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
 4. Es wird empfohlen, die Clusterquorumeinstellungen so zu konfigurieren, dass ein Dateifreigabezeugen verwendet wird. Gehen Sie dazu folgendermaßen vor:
     
-   - Klicken Sie mit der rechten Maustaste auf den Clusternamen, klicken Sie auf **Weitere Aktionen,** und klicken Sie auf **Clusterquorum konfigurieren Einstellungen**.
+   - Klicken Sie mit der rechten Maustaste auf den Clusternamen, klicken Sie auf **Weitere Aktionen,** und klicken Sie auf **Clusterquorum Einstellungen konfigurieren.**
     
    - Klicken Sie auf der Seite **"Quorumkonfigurationsoption auswählen"** auf **"Quorumzeugen auswählen".**
     
@@ -90,7 +90,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
    - Öffnen Sie den SQL Server-Konfigurations-Manager. Klicken Sie in der Struktur auf der linken Seite des Bildschirms auf **SQL Server Dienste,** und doppelklicken Sie dann auf den SQL Server Dienst. 
     
-   - Wählen Sie im Feld Eigenschaften die Registerkarte **AlwaysOn High** Availability aus.  Aktivieren Sie das Kontrollkästchen **AlwaysOn-Verfügbarkeitsgruppen aktivieren.** Starten Sie den SQL Server Dienst neu, wenn Sie dazu aufgefordert werden.
+   - Wählen Sie im Feld Eigenschaften die Registerkarte **AlwaysOn High** Availability aus.  Aktivieren Sie das Kontrollkästchen **AlwaysOn-Verfügbarkeitsgruppen aktivieren.** Starten Sie den SQL Server-Dienst neu, wenn Sie dazu aufgefordert werden.
    
 6. Verwenden Sie den Topologie-Generator, um den Front-End-Pool zu erstellen, wie unter [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server](../../deploy/install/create-and-publish-new-topology.md)erläutert. Geben Sie in diesem Fall die AG als SQL Speicher für den Pool an.
     
@@ -130,7 +130,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
    - Öffnen Sie den Topologie-Generator, wählen Sie **"Topologie aus vorhandener Bereitstellung herunterladen" aus,** und klicken Sie auf **"OK".**
     
-   - Erweitern Sie Skype for Business Server, erweitern Sie Ihre Topologie, und erweitern Sie **SQL Server Stores.** Klicken Sie mit der rechten Maustaste auf den SQL Speicher der neuen AlwaysOn-Verfügbarkeitsgruppe, und klicken Sie auf **"Eigenschaften bearbeiten".**
+   - Erweitern Sie Skype for Business Server, erweitern Sie Ihre Topologie, und erweitern Sie **SQL Server Stores.** Klicken Sie mit der rechten Maustaste auf den SQL Speicher der neuen AlwaysOn-Verfügbarkeitsgruppe, und klicken Sie auf **Eigenschaften bearbeiten.**
     
      - Ändern Sie unten auf der Seite im **Feld SQL Server FQDN** den Wert in den FQDN des Listeners der AG.
     
@@ -150,7 +150,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
 <a name="BKMK_MirroredPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> Wenn der Pool, den Sie auf eine AG aktualisieren, den zentralen Verwaltungsspeicher für Ihre Organisation hostet, müssen Sie den CMS zuerst in einen anderen Pool verschieben, bevor Sie diesen Pool aktualisieren. Verwenden Sie das Cmdlet Move-CsManagementServer, um den Pool zu verschieben. Wenn Sie keinen anderen Pool in Ihrer Organisation haben, können Sie vorübergehend einen Standard Edition Server bereitstellen und den CMS auf diesen Server verschieben, bevor Sie ihr Pool auf die AG aktualisieren. 
+> Wenn der Pool, den Sie auf eine AG aktualisieren, den zentralen Verwaltungsspeicher für Ihre Organisation hostet, müssen Sie den CMS zuerst in einen anderen Pool verschieben, bevor Sie diesen Pool aktualisieren. Verwenden Sie das cmdlet Move-CsManagementServer, um den Pool zu verschieben. Wenn Sie keinen anderen Pool in Ihrer Organisation haben, können Sie vorübergehend einen Standard Edition Server bereitstellen und den CMS auf diesen Server verschieben, bevor Sie Ihr Pool auf die AG aktualisieren. 
   
 1. Führen Sie ein Failover aller Daten vom Spiegel zum Prinzipalknoten durch, indem Sie Skype for Business Server Verwaltungsshell öffnen und das folgende Cmdlet eingeben.
     
@@ -172,7 +172,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
 3. Veröffentlichen Sie die geänderte Topologie. Klicken Sie im Menü **"Aktion"** auf **"Topologie"** und dann auf **"Veröffentlichen".** Klicken Sie dann auf der Bestätigungsseite auf **"Weiter".**
     
-4. Verwenden Sie SQL Server Management Studio, um die Spiegelung zu unterbrechen.
+4. Verwenden Sie SQL Server Management Studio, um den Spiegel zu unterbrechen.
     
    - Öffnen Sie SQL Server Management Studio, navigieren Sie zu Ihren Datenbanken, klicken Sie mit der rechten Maustaste auf **"Aufgaben",** und klicken Sie auf **"Spiegelung".** Klicken Sie dann auf **"Spiegelung entfernen",** und klicken Sie auf **"OK".**
     
@@ -230,7 +230,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
    - Öffnen Sie den SQL Server-Konfigurations-Manager. Klicken Sie in der Struktur auf der linken Seite des Bildschirms auf **SQL Server Dienste,** und doppelklicken Sie dann auf den SQL Server Dienst. 
     
-   - Wählen Sie im Feld Eigenschaften die Registerkarte **AlwaysOn High** Availability aus.  Aktivieren Sie das Kontrollkästchen **AlwaysOn-Verfügbarkeitsgruppen aktivieren.** Starten Sie den SQL Server Dienst neu, wenn Sie dazu aufgefordert werden.
+   - Wählen Sie im Feld Eigenschaften die Registerkarte **AlwaysOn High** Availability aus.  Aktivieren Sie das Kontrollkästchen **AlwaysOn-Verfügbarkeitsgruppen aktivieren.** Starten Sie den SQL Server-Dienst neu, wenn Sie dazu aufgefordert werden.
     
 10. Erstellen Sie die Verfügbarkeitsgruppe.
     
@@ -268,7 +268,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
     - Öffnen Sie den Topologie-Generator. Erweitern Sie in Ihrer Topologie **"Freigegebene Komponenten",** klicken Sie mit der rechten Maustaste auf **SQL Server Speicher,** und klicken Sie auf **"Neu SQL Server Store".**
     
-    - Aktivieren Sie auf der Seite **"Neue SQL Store definieren"** zunächst das **Kontrollkästchen "Hohe Verfügbarkeit Einstellungen",** und stellen Sie dann sicher, dass SQL AlwaysOn-Verfügbarkeitsgruppen im Dropdownfeld angezeigt wird.
+    - Aktivieren Sie auf der Seite **"Neue SQL Store definieren"** zuerst das **Kontrollkästchen "Hohe Verfügbarkeit Einstellungen",** und stellen Sie dann sicher, dass SQL AlwaysOn-Verfügbarkeitsgruppen im Dropdownfeld angezeigt wird.
     
     - Geben Sie im **Feld SQL Server Verfügbarkeitslistener-FQDN** den FQDN des Listeners ein, den Sie beim Erstellen der Verfügbarkeitsgruppe erstellt haben.
     
@@ -278,7 +278,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
     - Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, der der AG zugeordnet werden soll, und klicken Sie auf **"Eigenschaften bearbeiten".**
     
-    - Wählen Sie im **Feld Zuordnungen** im Feld SQL Server Store die Option AG aus.  Wählen Sie dieselbe Gruppe für alle anderen Datenbanken im Pool aus, die Sie in die AG verschieben möchten.
+    - Wählen Sie unter **Zuordnungen** im **Feld SQL Server Store** die AG aus. Wählen Sie dieselbe Gruppe für alle anderen Datenbanken im Pool aus, die Sie in die AG verschieben möchten.
     
     - Wenn Sie sicher sind, dass alle erforderlichen Datenbanken auf AG festgelegt sind, klicken Sie auf **OK.**
     
@@ -308,7 +308,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
 <a name="BKMK_NoHAPool_CreateAlwaysOnGroup"> </a>
 
 > [!NOTE]
-> Wenn der Pool, den Sie auf eine AG aktualisieren, den zentralen Verwaltungsspeicher für Ihre Organisation hostet, müssen Sie den CMS zuerst in einen anderen Pool verschieben, bevor Sie diesen Pool aktualisieren. Verwenden Sie das Cmdlet Move-CsManagementServer, um den Pool zu verschieben. Wenn Sie keinen anderen Pool in Ihrer Organisation haben, können Sie vorübergehend einen Standard Edition Server bereitstellen und den CMS auf diesen Server verschieben, bevor Sie ihr Pool auf die AG aktualisieren. 
+> Wenn der Pool, den Sie auf eine AG aktualisieren, den zentralen Verwaltungsspeicher für Ihre Organisation hostet, müssen Sie den CMS zuerst in einen anderen Pool verschieben, bevor Sie diesen Pool aktualisieren. Verwenden Sie das Cmdlet Move-CsManagementServer, um den Pool zu verschieben. Wenn Sie keinen anderen Pool in Ihrer Organisation haben, können Sie vorübergehend einen Standard Edition Server bereitstellen und den CMS auf diesen Server verschieben, bevor Sie Ihr Pool auf die AG aktualisieren. 
   
 1. Richten Sie das Failoverclustering-Feature auf allen Datenbankservern ein, die Teil der AG sein werden. Führen Sie auf jedem Server die folgenden Aktionen aus:
     
@@ -358,7 +358,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
    - Klicken Sie auf der Seite **Bestätigung** auf **Weiter**.
     
-5. Aktivieren Sie AG auf jedem Server im Cluster in SQL Server-Konfigurations-Manager.
+5. Aktivieren Sie auf jedem Server im Cluster AG in SQL Server-Konfigurations-Manager.
     
    - Öffnen Sie den SQL Server-Konfigurations-Manager. Klicken Sie in der Struktur auf der linken Seite des Bildschirms auf **SQL Server Dienste,** und doppelklicken Sie dann auf den SQL Server Dienst. 
     
@@ -400,7 +400,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
    - Öffnen Sie den Topologie-Generator. Erweitern Sie in Ihrer Topologie **"Freigegebene Komponenten",** klicken Sie mit der rechten Maustaste auf **SQL Server Speicher,** und klicken Sie auf **"Neu SQL Server Store".**
     
-   - Aktivieren Sie auf der Seite **"Neue SQL Store definieren"** zunächst das **Kontrollkästchen "Hohe Verfügbarkeit Einstellungen",** und stellen Sie dann sicher, dass SQL AlwaysOn-Verfügbarkeitsgruppen im Dropdownfeld angezeigt wird.
+   - Aktivieren Sie auf der Seite **"Neue SQL Store definieren"** zunächst das Kontrollkästchen **"Hohe Verfügbarkeit Einstellungen",** und stellen Sie dann sicher, dass SQL AlwaysOn-Verfügbarkeitsgruppen im Dropdownfeld angezeigt wird.
     
    - Geben Sie im **Feld SQL Server Verfügbarkeitslistener-FQDN** den FQDN des Listeners ein, den Sie beim Erstellen der Verfügbarkeitsgruppe erstellt haben.
     
@@ -410,7 +410,7 @@ Wie Sie eine AG bereitstellen, hängt davon ab, ob Sie sie in einem neuen Pool, 
     
    - Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den Pool, der der AG zugeordnet werden soll, und klicken Sie auf **"Eigenschaften bearbeiten".**
     
-   - Wählen Sie im **Feld Zuordnungen** im Feld SQL Server Store die Option AG aus.  Wählen Sie dieselbe Gruppe für alle anderen Datenbanken im Pool aus, die Sie in die AG verschieben möchten.
+   - Wählen Sie unter **Zuordnungen** im **Feld SQL Server Store** die AG aus. Wählen Sie dieselbe Gruppe für alle anderen Datenbanken im Pool aus, die Sie in die AG verschieben möchten.
     
    - Wenn Sie sicher sind, dass alle erforderlichen Datenbanken auf AG festgelegt sind, klicken Sie auf **OK.**
     

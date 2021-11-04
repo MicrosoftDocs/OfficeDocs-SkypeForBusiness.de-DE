@@ -1,7 +1,7 @@
 ---
 title: PSTN-Verwendung– Erstellen einer neuen oder Bearbeiten einer vorhandenen PSTN-Verwendung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: db7da46e-60ec-4f5b-b07a-f79284ad12b8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: b0ff412bee4b92e38507a946d99b850a29d51995
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 92bb6a10daf2bb6412c270543b6a5250c51cc058
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626897"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748621"
 ---
 # <a name="pstn-usage-create-new-or-edit-existing"></a>PSTN-Verwendung: Erstellen einer neuen oder Bearbeiten einer vorhandenen PSTN-Verwendung
 

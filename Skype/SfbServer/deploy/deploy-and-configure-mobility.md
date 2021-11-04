@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen und Konfigurieren der Mobilität für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ec6197a-3d1e-4b42-9465-564044cdab1a
 description: Dieser Artikel führt Sie durch die Schritte zum Konfigurieren einer vorhandenen Skype for Business Server-Installation für die Verwendung des Mobilitätsdiensts, damit Ihre mobilen Geräte Skype for Business Server Mobilitätsfeatures nutzen können.
-ms.openlocfilehash: c0b8a3e2902a8605f952683d6a3629af9e075798
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 598a6b1879f08bb27a0ef5cb44a5033bc3e0339e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611334"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741501"
 ---
 # <a name="deploy-and-configure-mobility-for-skype-for-business-server"></a>Bereitstellen und Konfigurieren der Mobilität für Skype for Business Server  
  
@@ -38,7 +38,7 @@ Nachdem Sie den Artikel ["Plan for Mobility for Skype for Business Server"](../p
 Alle folgenden Abschnitte enthalten Schritte, bei denen davon ausgegangen wird, dass Sie das Planungsthema gelesen haben. Wenn Sie etwas verwirrend finden, können Sie sich die Informationen dort ansehen.
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 ## <a name="create-dns-records"></a>Erstellen von DNS-Einträgen
 <a name="CreateDNSRec"> </a>
@@ -55,13 +55,13 @@ Bei diesen Datensätzen kann es sich um A-Namen (Hostnamen) oder CNAME-Einträge
 
 1. Melden Sie sich bei einem DNS-Server in Ihrem Netzwerk an, der entweder Mitglied der Gruppe **"Domänenadministratoren"** oder **"DnsAdmins"** ist.
     
-2. Klicken Sie auf **"Start",** **"Administrative Tools"** (Sie müssen möglicherweise **danach suchen,** wenn es sich nicht um eine Option aus dem Startmenü handelt), und klicken Sie dann auf **DNS,** um das DNS-Administrator-Snap-In zu öffnen.
+2. Klicken Sie auf **"Start",** **"Verwaltungstools"** (sie müssen möglicherweise **suchen,** wenn es sich nicht um eine Option aus dem Startmenü handelt), und klicken Sie dann auf **DNS,** um das DNS-Administrator-Snap-In zu öffnen.
     
 3. Im linken Bereich des Konsolenfensters müssen Sie zu der Domäne wechseln, in der sich die Front-End-Server Ihrer Skype for Business Server befinden, und die **Forward-Lookupzonen** dort erweitern.
     
 4. Nehmen Sie sich einen Moment Zeit, um zu sehen, welche der folgenden Optionen Sie haben:
     
-   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard oder Enterprise) oder Front-End-Pools.
+   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard- oder Enterprise) oder Front-End-Pool(en).
     
    - Alle Host-A- oder AAAA-Einträge für einen Director- oder Director-Pool (eine optionale Konfiguration, die Möglicherweise in Ihrer Bereitstellung vorhanden ist).
     
@@ -81,7 +81,7 @@ Bei diesen Datensätzen kann es sich um A-Namen (Hostnamen) oder CNAME-Einträge
     
 3. Nehmen Sie sich einen Moment Zeit, um zu sehen, welche der folgenden Optionen Sie haben:
     
-   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard oder Enterprise) oder Front-End-Pools.
+   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard- oder Enterprise) oder Front-End-Pool(en).
     
    - Alle Host-A- oder AAAA-Einträge für einen Director- oder Director-Pool (eine optionale Konfiguration, die Möglicherweise in Ihrer Bereitstellung vorhanden ist).
     
@@ -91,19 +91,19 @@ Bei diesen Datensätzen kann es sich um A-Namen (Hostnamen) oder CNAME-Einträge
     
 6. Als Nächstes sollte ein Bereich vorhanden sein, in den ein **FQDN für den Zielhost** eingegeben werden kann. Dies muss der FQDN für Ihren Front-End-Pool (oder einen einzelnen Front-End-Server oder Directorpool oder Director) sein, der in Schritt 3 oben angegeben ist.
     
-7. Möglicherweise müssen Sie hier speichern, oder wenn Sie zusätzliche CNAME-Einträge in der Forward-Lookupzone jeder SIP-Domäne in Ihrer Skype for Business Server Umgebung erstellen müssen, sollten Sie dies tun, aber sobald Sie fertig sind, speichern Sie Ihre Arbeit.
+7. Möglicherweise müssen Sie hier speichern, oder wenn Sie zusätzliche CNAME-Einträge in der Forward-Lookupzone jeder SIP-Domäne in Ihrer Skype for Business Server Umgebung erstellen müssen, sollten Sie dies tun, aber sobald Sie bereit sind, speichern Sie Ihre Arbeit.
     
 ### <a name="create-an-internal-dns-a-record"></a>Erstellen eines internen DNS A-Eintrags
 
 1. Melden Sie sich bei einem DNS-Server in Ihrem Netzwerk an, der entweder Mitglied der Gruppe **"Domänenadministratoren"** oder **"DnsAdmins"** ist.
     
-2. Klicken Sie auf **"Start",** **"Administrative Tools"** (Sie müssen möglicherweise **danach suchen,** wenn es sich nicht um eine Option aus dem Startmenü handelt), und klicken Sie dann auf **DNS,** um das DNS-Administrator-Snap-In zu öffnen.
+2. Klicken Sie auf **"Start",** **"Verwaltungstools"** (sie müssen möglicherweise **suchen,** wenn es sich nicht um eine Option aus dem Startmenü handelt), und klicken Sie dann auf **DNS,** um das DNS-Administrator-Snap-In zu öffnen.
     
 3. Im linken Bereich des Konsolenfensters müssen Sie zu der Domäne wechseln, in der sich die Front-End-Server Ihrer Skype for Business Server befinden, und die **Forward-Lookupzonen** dort erweitern.
     
 4. Nehmen Sie sich einen Moment Zeit, um zu sehen, welche der folgenden Optionen Sie haben:
     
-   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard oder Enterprise) oder Front-End-Pools.
+   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard- oder Enterprise) oder Front-End-Pool(en).
     
    - Alle Host-A- oder AAAA-Einträge für einen Director- oder Director-Pool (eine optionale Konfiguration, die Möglicherweise in Ihrer Bereitstellung vorhanden ist).
     
@@ -127,7 +127,7 @@ Bei diesen Datensätzen kann es sich um A-Namen (Hostnamen) oder CNAME-Einträge
     
 3. Nehmen Sie sich einen Moment Zeit, um zu sehen, welche der folgenden Optionen Sie haben:
     
-   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard oder Enterprise) oder Front-End-Pools.
+   - Alle Host-A- oder AAAA-Einträge für Ihren Front-End-Server (Standard- oder Enterprise) oder Front-End-Pool(en).
     
    - Alle Host-A- oder AAAA-Einträge für einen Director- oder Director-Pool (eine optionale Konfiguration, die Möglicherweise in Ihrer Bereitstellung vorhanden ist).
     
@@ -285,7 +285,7 @@ Es gibt zwei Hauptaspekte, die Sie berücksichtigen sollten:
     
 3. Es sollte einen Bereich geben, der angibt, auf welche Webveröffentlichungsregel angewendet wird. Sie müssen diese Regel für eingehende Websites oder Anforderungen für Websites ändern. Sie fügen einen neuen Eintrag **hinzu.**
     
-4. Geben Sie den Namen Ihrer AutoErmittlungswebsite ein (das Beispiel, das wir verwenden, ist lyncdiscover.contoso.com), und klicken Sie je nach Format des Reverseproxys auf **"OK"** oder **"Speichern".**
+4. Geben Sie den Namen Ihrer AutoErmittlungswebsite ein (das beispiel, das wir verwenden, ist lyncdiscover.contoso.com), und klicken Sie je nach Format des Reverseproxys auf **"OK"** oder **"Speichern".**
     
 5. Möglicherweise verfügen Sie über ein neues Zertifikat mit dem AutoErmittlungs-SAN-Eintrag. Dies muss auch installiert und für die Verwendung gemäß den Einstellungen Ihres Reverseproxys konfiguriert werden. Achten Sie darauf, alles zu speichern, wenn die Konfiguration abgeschlossen ist.
     
@@ -309,7 +309,7 @@ Es gibt zwei Hauptaspekte, die Sie berücksichtigen sollten:
     
    - Dies muss **SSL** für den externen Zugriff sein, wählen Sie diese Option aus.
     
-   - Sie müssen einen Pfad für die **interne Veröffentlichung** veröffentlichen und den FQDN für die externen Webdienste im Lastenausgleichsmodul ihres Front-End-Pools eingeben (oder den FQDN des Lastenausgleichsmoduls des Directorpools, falls vorhanden). Ein Beispiel wäre sfb_pool01.contoso.local.
+   - Sie müssen einen Pfad für die **interne Veröffentlichung** veröffentlichen und den FQDN für die externen Webdienste im Lastenausgleichsmodul Ihres Front-End-Pools (oder den FQDN des Lastenausgleichsmoduls des Directorpools, falls vorhanden) eingeben. Ein Beispiel wäre sfb_pool01.contoso.local.
     
    - Sie sollten **/\\** _als den zu veröffentlichenden Pfad eingeben, aber Sie müssen auch _*den ursprünglichen Hostheader**weiterleiten.
     
@@ -323,7 +323,7 @@ Es gibt zwei Hauptaspekte, die Sie berücksichtigen sollten:
     
    - Sie müssen einen **SSL-Listener** mit Ihrem aktuellen öffentlichen Zertifikat auswählen.
     
-   - **Die Authentifizierungsdelegierung** sollte auf **"Keine Delegierung"** festgelegt werden, die direkte Clientauthentifizierung **sollte** jedoch zulässig sein.
+   - **Die Authentifizierungsdelegierung** sollte auf **"Keine Delegierung"** festgelegt werden, aber die direkte Clientauthentifizierung **sollte** zulässig sein.
     
    - Die Regel sollte auf **alle Benutzer** festgelegt werden.
     
@@ -386,7 +386,7 @@ Es gibt zwei Hauptaspekte, die Sie berücksichtigen sollten:
 ## <a name="configure-autodiscover-for-mobility-with-hybrid-deployments"></a>Konfigurieren der AutoErmittlung für Mobilität mit Hybridbereitstellungen
 <a name="ConfigAutoD"> </a>
 
-Hybridumgebungen in Skype for Business Server sind Umgebungen, die eine lokale und eine O365-Umgebung kombinieren. Wenn Sie Skype for Business Server in einer Hybridumgebung arbeiten, muss der AutoErmittlungsdienst in der Lage sein, einen Benutzer aus einer dieser Umgebungen zu finden.
+Hybridumgebungen in Skype for Business Server sind Umgebungen, die eine lokale und O365-Umgebung kombinieren. Wenn Sie Skype for Business Server in einer Hybridumgebung arbeiten, muss der AutoErmittlungsdienst in der Lage sein, einen Benutzer aus einer dieser Umgebungen zu finden.
   
 Damit mobile Clients ermitteln können, wo sich ein Benutzer befindet, muss der AutoErmittlungsdienst mit einem neuen URL (Uniform Resource Locator) konfiguriert werden. Das sind die Schritte:
   
@@ -414,9 +414,9 @@ Nachdem Sie Skype for Business Server Mobilitätsdienst und Skype for Business S
 Für Lync Server 2010-Clients auf Skype for Business Server 2015 müssen Sie **Test-CsMcxP2PIM** zum Testen ausführen. Ihre Lync Server 2010-Benutzer müssen weiterhin tatsächliche Benutzer oder vordefinierte Testbenutzer sein, und Sie benötigen ihre Kennwortanmeldeinformationen.
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
-### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Testen von Konferenzen für mobile Skype for Business- und Lync 2013-Clients
+### <a name="test-conferencing-for-skype-for-business-and-lync-2013-mobile-clients"></a>Testen von Konferenzen für mobile Clients für Skype for Business und Lync 2013
 
 1. Melden Sie sich als Mitglied der **Rolle "CsAdministrator"** auf jedem Computer an, auf dem **Skype for Business Server Verwaltungsshell** und **Ocscore** installiert sind.
     
@@ -441,7 +441,7 @@ Für Lync Server 2010-Clients auf Skype for Business Server 2015 müssen Sie **T
 ### <a name="test-conferencing-for-lync-2010-mobile-clients"></a>Testen von Konferenzen für mobile Lync 2010-Clients
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
 
 1. Melden Sie sich als Mitglied der **Rolle "CsAdministrator"** auf jedem Computer an, auf dem **Skype for Business Server Verwaltungsshell** und **Ocscore** installiert sind.
     
@@ -468,7 +468,7 @@ Weitere Informationen zu den Befehlsverfahren finden Sie unter ["Test-CsUcwaConf
 ## <a name="configure-for-push-notifications"></a>Konfigurieren von Pushbenachrichtigungen
 <a name="ConfigPush"> </a>
 
-Pushbenachrichtigungen in Form von Signalen, Symbolen oder Warnungen können auch dann an ein mobiles Gerät gesendet werden, wenn die Skype oder Lync-App inaktiv ist. Aber was sind Pushbenachrichtigungen? Es handelt sich um Ereignisbenachrichtigungen, z. B. eine neue oder verpasste Chateinladung oder für eine empfangene Voicemail. Der Skype for Business Server-Mobilitätsdienst sendet diese Benachrichtigungen an den cloudbasierten Skype for Business Server Pushbenachrichtigungsdienst, der dann die Benachrichtigungen für Windows Phone Benutzer an den Microsoft-Pushbenachrichtigungsdienst (Microsoft Push Notification Service, MSNS) sendet.
+Pushbenachrichtigungen in Form von Signalen, Symbolen oder Warnungen können auch dann an ein mobiles Gerät gesendet werden, wenn die Skype- oder Lync-App inaktiv ist. Aber was sind Pushbenachrichtigungen? Es handelt sich um Ereignisbenachrichtigungen, z. B. eine neue oder verpasste Chateinladung oder für eine empfangene Voicemail. Der Skype for Business Server-Mobilitätsdienst sendet diese Benachrichtigungen an den cloudbasierten Skype for Business Server Pushbenachrichtigungsdienst, der die Benachrichtigungen dann für Windows Phone Benutzer an den Microsoft-Pushbenachrichtigungsdienst (Microsoft Push Notification Service, MSNS) sendet.
   
 Diese Funktionalität ist seit Lync Server 2013 unverändert, aber wenn Sie über eine Skype for Business Server verfügen, sollten Sie folgendermaßen vorgehen:
   
@@ -478,7 +478,7 @@ Diese Funktionalität ist seit Lync Server 2013 unverändert, aber wenn Sie übe
     
 - Testen Sie die Verbundkonfiguration und Pushbenachrichtigungen.
     
-### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Konfigurieren des Skype for Business-Edgeservers für Pushbenachrichtigungen
+### <a name="configure-your-skype-for-business-edge-server-for-push-notifications"></a>Konfigurieren des Skype for Business Edgeservers für Pushbenachrichtigungen
 
 1. Melden Sie sich mit einem Konto, das Mitglied der **Rolle "CsAdministrator"** ist, auf einem Computer an, auf dem **Skype for Business Server Verwaltungsshell** und **Ocscore** installiert sind.
     
@@ -497,7 +497,7 @@ Diese Funktionalität ist seit Lync Server 2013 unverändert, aber wenn Sie übe
    ```
 
     > [!NOTE]
-    > Sie können nicht mehr als eine Verbundbeziehung mit einem einzigen Hostinganbieter haben. Wenn Sie also bereits einen Hostinganbieter eingerichtet haben, der über eine Verbundbeziehung mit sipfed.online.lync.com verfügt, fügen Sie keinen anderen Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieters etwas anderes als SkypeOnline ist. 
+    > Sie können nicht mehr als eine Verbundbeziehung mit einem einzigen Hostinganbieter haben. Wenn Sie also bereits einen Hostinganbieter eingerichtet haben, der über eine Verbundbeziehung mit sipfed.online.lync.com verfügt, fügen Sie keinen weiteren Hostinganbieter hinzu, auch wenn die Identität des Hostinganbieters etwas anderes als SkypeOnline ist. 
   
 4. Richten Sie den Hostinganbieterverbund zwischen Ihrer Organisation und dem Pushbenachrichtigungsdienst unter Skype for Business Online ein. Geben Sie an der Befehlszeile Folgendes ein:
     
@@ -556,7 +556,7 @@ Diese Funktionalität ist seit Lync Server 2013 unverändert, aber wenn Sie übe
 ## <a name="configure-mobility-policy"></a>Konfigurieren der Mobilitätsrichtlinie
 <a name="ConfigMob"> </a>
 
-Sie haben die Möglichkeit mit Skype for Business Server zu bestimmen, wer Ihren Mobilitätsdienst, Anruf über Arbeit, Voice over IP (VoIP) oder Video verwenden kann sowie ob WLAN für VoIP oder Video erforderlich ist. Mit "Über Arbeit anrufen" kann ein mobiler Benutzer beim Tätigen und Empfangen von Anrufen seine geschäftliche Telefonnummer anstelle seiner Mobiltelefonnummer verwenden. Die Person am anderen Ende der Leitung sieht die Mobiltelefonnummer dieses mobilen Benutzers nicht und ermöglicht es dem mobilen Benutzer, ausgehende Anrufgebühren zu vermeiden. Wenn VoIP und Video eingerichtet sind, können Benutzer VoIP-Anrufe und -Videos annehmen und tätigen. Die Einstellungen für die WLAN-Nutzung bestimmen, ob das mobile Gerät eines Benutzers für die Verwendung eines WLAN-Netzwerks über ein Mobilfunknetz erforderlich ist.
+Sie können mit Skype for Business Server bestimmen, wer Ihren Mobilitätsdienst, Ihren Anruf über Die Arbeit, VoIP (Voice over IP) oder Video verwenden kann sowie ob für VoIP oder Video WLAN erforderlich ist. Mit "Über Arbeit anrufen" kann ein mobiler Benutzer beim Tätigen und Empfangen von Anrufen seine geschäftliche Telefonnummer anstelle seiner Mobiltelefonnummer verwenden. Die Person am anderen Ende der Leitung sieht die Mobiltelefonnummer dieses mobilen Benutzers nicht und ermöglicht es dem mobilen Benutzer, ausgehende Anrufgebühren zu vermeiden. Wenn VoIP und Video eingerichtet sind, können Benutzer VoIP-Anrufe und -Videos annehmen und tätigen. Die Einstellungen für die WLAN-Nutzung bestimmen, ob das mobile Gerät eines Benutzers für die Verwendung eines WLAN-Netzwerks über ein Mobilfunknetz erforderlich ist.
   
 Mobilität, Anruf über Arbeit sowie die VoIP- und Videofunktionen sind standardmäßig aktiviert. Die Einstellung, für die WLAN für VoIP und Video erforderlich ist, ist deaktiviert. Ein Administrator hat die Möglichkeit, dies entweder global, nach Website oder nach Benutzer zu ändern.
   
@@ -575,7 +575,7 @@ Damit Benutzer "Anruf über Arbeit" verwenden können, müssen sie auch Folgende
 - Eine Mobilitätsrichtlinie zugewiesen, deren **EnableOutsideVoice** auf **"True"** festgelegt ist.
     
 > [!NOTE]
-> Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können ihre mobilen Geräte verwenden, um Skype zu Skype VoIP-Anrufen zu tätigen, oder sie können an Konferenzen teilnehmen, indem sie auf ihren mobilen Geräten auf den Link "Zum Beitreten klicken" klicken, wenn die entsprechenden Optionen für die VoIP-Richtlinie festgelegt sind, der sie zugeordnet sind. Weitere Details finden Sie im Planungsthema. 
+> Benutzer, die nicht für Enterprise-VoIP aktiviert sind, können ihre mobilen Geräte verwenden, um Skype zu Skype VoIP-Anrufen zu tätigen, oder über den Link "Zum Beitreten klicken" auf ihren mobilen Geräten an Konferenzen teilnehmen, wenn die entsprechenden Optionen für die VoIP-Richtlinie festgelegt sind, der sie zugeordnet sind. Weitere Details finden Sie im Planungsthema. 
   
 ### <a name="modify-global-mobility-policy"></a>Ändern der globalen Mobilitätsrichtlinie
 

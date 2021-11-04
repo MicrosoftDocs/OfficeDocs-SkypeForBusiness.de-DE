@@ -1,7 +1,7 @@
 ---
 title: Reaktionsgruppenwarteschleife
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.
-ms.openlocfilehash: bec9a6e004610067e2f1facf9bfb2ecb124b384e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f4b055650a027efed0534b6a0b4ff9b19b6001f4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748721"
 ---
 # <a name="response-groups-queue"></a>Reaktionsgruppenwarteschleife
 

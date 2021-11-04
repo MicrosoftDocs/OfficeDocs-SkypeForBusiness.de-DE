@@ -1,7 +1,7 @@
 ---
 title: Public Key-Infrastruktur für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
-description: Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellt die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
-ms.openlocfilehash: b1e9e7844641fae3c864f9ae15e7a639cdeb8724
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellen die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
+ms.openlocfilehash: 8fda6b3781c32b681e088b22c624b490d9bbd84b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014699"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763453"
 ---
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Public Key-Infrastruktur für Skype for Business Server
  
-Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellt die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
+Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellen die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
   
 Zertifikate sind digitale IDs. Sie identifizieren einen Server namentlich und geben seine Eigenschaften an. Um sicherzustellen, dass die Informationen in einem Zertifikat gültig sind, muss das Zertifikat von einer Zertifizierungsstelle ausgestellt werden, die von Clients oder anderen Servern, die eine Verbindung mit dem Server herstellen, als vertrauenswürdig eingestuft wird. Wenn der Server nur mit Clients und Servern in einem privaten Netzwerk eine Verbindung herstellt, kann eine Unternehmenszertifizierungsstelle verwendet werden. Wenn der Server mit Entitäten außerhalb des privaten Netzwerks interagiert, ist möglicherweise eine öffentliche Zertifizierungsstelle erforderlich.
   

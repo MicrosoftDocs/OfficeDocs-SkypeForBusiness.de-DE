@@ -1,7 +1,7 @@
 ---
 title: Erstellen von Standortrichtlinien in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,20 +16,20 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1878194-c756-4794-8fa1-15dd2118b4b3
 description: In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für erweiterte Notrufdienste (E9-1-1) in Skype for Business Server Enterprise-VoIP konfigurieren.
-ms.openlocfilehash: d601fddcb66fd5b963ab24caf3a7289a2188628b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 889a20e0b48955be1ce0ba8c891d6c4825b79dab
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594739"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741441"
 ---
 # <a name="create-location-policies-in-skype-for-business-server"></a>Erstellen von Standortrichtlinien in Skype for Business Server
 
 In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für erweiterte Notrufdienste (E9-1-1) in Skype for Business Server Enterprise-VoIP konfigurieren. 
 
-Skype for Business Server verwendet eine Standortrichtlinie, um Skype for Business Clients für E9-1-1 während der Clientregistrierung zu aktivieren. Eine Standortrichtlinie enthält die Einstellungen, die definieren, wie E9-1-1 implementiert wird. Weitere Informationen finden Sie unter Planen von [Standortrichtlinien für Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md)
+Skype for Business Server verwendet eine Standortrichtlinie, um Skype for Business Clients für E9-1-1 während der Clientregistrierung zu aktivieren. Eine Standortrichtlinie enthält die Einstellungen, die definieren, wie E9-1-1 implementiert wird. Weitere Informationen finden Sie unter [Planen von Standortrichtlinien für Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md).
 
-Sie definieren Standortrichtlinien mithilfe der Skype for Business Systemsteuerung oder mithilfe des [Cmdlets "New-CsLocationPolicy".](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
+Sie definieren Standortrichtlinien mithilfe der Skype for Business Systemsteuerung oder mit dem Cmdlet ["New-CsLocationPolicy".](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
 
 > [!NOTE]
 > Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Wenn Sie mehrere Notrufnummern konfigurieren möchten, müssen Sie die Informationen in ["Plan for multiple emergency numbers in Skype for Business Server"](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md) befolgen und [mehrere Notrufnummern in Skype for Business konfigurieren.](configure-multiple-emergency-numbers.md) 
@@ -38,7 +38,7 @@ Sie können die globale Standortrichtlinie bearbeiten und neue standortrichtlini
 
 Zum Erstellen einer Standortrichtlinie müssen Sie ein Konto verwenden, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist, Mitglied der Administratorrolle "CsVoiceAdministrator" ist oder über entsprechende Administratorrechte und Berechtigungen verfügt.
 
-Weitere Informationen finden Sie unter Planen von [Standortrichtlinien für Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/location-policies.md) Cmdlets in diesem Verfahren verwenden eine Standortrichtlinie, die mit den folgenden Werten definiert ist. Eine vollständige Beschreibung der Cmdlet-Parameter und -Werte finden Sie unter [New-CsLocationPolicy.](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
+Weitere Informationen finden Sie unter [Planen von Standortrichtlinien für Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/location-policies.md). Cmdlets in diesem Verfahren verwenden eine Standortrichtlinie, die mit den folgenden Werten definiert ist. Eine vollständige Beschreibung der Cmdlet-Parameter und -Werte finden Sie unter [New-CsLocationPolicy.](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)
 
 
 | **Element**                               | **Wert**                                                                                                                                                                          |

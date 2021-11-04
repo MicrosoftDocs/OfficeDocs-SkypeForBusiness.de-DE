@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen des SQL Server-Speichers für den beständigen Chat
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c8e6064a-8127-4c25-8685-06f49d8bbfce
 description: Sie konfigurieren die SQL Server Speicher, die Datenbanken für den Server für beständigen Chat oder den Serverpool für beständigen Chat bereitstellen.
-ms.openlocfilehash: 7d3f9754e402c6049c4d0fd8cec9dd97758b5d32
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 27063ed9a2858714e6fd26db9fad98db1c47f95e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630839"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763943"
 ---
 # <a name="add-persistent-chat-sql-server-store"></a>Hinzufügen des SQL Server-Speichers für den beständigen Chat
  
@@ -30,13 +30,13 @@ Sie konfigurieren die SQL Server Speicher, die Datenbanken für den Server für 
   
 Klicken Sie auf **Neu,** um eine neue SQL Server und optional eine neue Instanz für die Daten des beständigen Chats zu definieren.
   
-Aktivieren Sie das Kontrollkästchen **"SQL Server Speicherspiegelung aktivieren",** um eine SQL Server Datenbank und eine optionale Instanz zu konfigurieren, die eine gespiegelte Datenbank für die Daten des beständigen Chats bereitstellt.
+Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelung speichern** aktivieren", um eine SQL Server Datenbank und eine optionale Instanz zu konfigurieren, die eine gespiegelte Datenbank für die Daten des beständigen Chats bereitstellt.
   
-Wählen Sie aus der Liste **"Spiegelung", SQL Server** speichern Sie eine SQL Server und eine optionale Instanz, die als SQL Server Spiegelung für die SQL Server für beständigen Chat fungiert.
+Wählen Sie aus der Liste **"Spiegelung", SQL Server** eine SQL Server und eine optionale Instanz speichern, die als SQL Server Spiegel für den SQL Server für beständigen Chat fungiert.
   
 Klicken Sie auf **Neu,** um eine neue SQL Server und optional eine neue Instanz für die Spiegelung des beständigen Chats SQL Server zu definieren.
   
-Wählen Sie in der Liste **Automatisches Failover mithilfe des SQL Server-Spiegelungszeugen aktivieren** eine SQL Server-Instanz aus, die als Zeugenserver für Failoverszenarios dient. Der Zeugenserver spiegelet keine Daten für die Server für beständigen Chat oder hostet diese, stellt jedoch sicher, dass immer nur ein SQL Server in einer gespiegelten Konfiguration der aktive SQL Server ist.
+Wählen Sie in der Liste **Automatisches Failover mithilfe des SQL Server-Spiegelungszeugen aktivieren** eine SQL Server-Instanz aus, die als Zeugenserver für Failoverszenarios dient. Der Zeugenserver spiegelt keine Spiegelung oder Hostdaten für die Server für beständigen Chat ab, stellt jedoch sicher, dass immer nur ein SQL Server in einer gespiegelten Konfiguration der aktive SQL Server ist.
   
 Klicken Sie auf **Neu,** um einen neuen SQL Server Zeugen zu definieren, optional eine Instanz für den Spiegelungszeugen für beständigen Chat SQL Server.
   
@@ -48,9 +48,9 @@ Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assisten
   
 Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Planen des Servers für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   

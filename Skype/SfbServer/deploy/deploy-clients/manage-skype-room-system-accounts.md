@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Skype Room Systems-Konten
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,20 +12,20 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystemkonten verwalten.
-ms.openlocfilehash: a92a9058ea884e8be5a0a89eab0dccebc15f05e1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: In diesem Thema erfahren Sie, wie Sie Skype Room System-Konten verwalten.
+ms.openlocfilehash: aa25b61f8f42043d9bcabe99ff20c1fcf6d1950e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601930"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741481"
 ---
 # <a name="manage-skype-room-system-accounts"></a>Verwalten von Skype Room Systems-Konten
  
-In diesem Thema erfahren Sie, wie Sie Skype Raumsystemkonten verwalten. 
+In diesem Thema erfahren Sie, wie Sie Skype Room System-Konten verwalten. 
 
 > [!NOTE]
-> Microsoft Teams-Räume ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams-Räume finden Sie in der Übersicht über die [Microsoft Teams-Räume-Verwaltung.](/microsoftteams/rooms/rooms-manage)
+> Microsoft Teams-Räume ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams-Räume finden Sie in der [Microsoft Teams-Räume Verwaltungsübersicht.](/microsoftteams/rooms/rooms-manage)
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Verschieben des Skype Raumsystemkontos zwischen Pools
 
@@ -35,9 +35,9 @@ Wenn Sie das Skype Raumsystemkonto von einem Skype for Business Server-Pool in e
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
 ```
 
-## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Deaktivieren des Skype Room System-Kontos für Skype for Business-Dienste
+## <a name="disable-the-skype-room-system-account-for-skype-for-business-services"></a>Deaktivieren des Skype Room System-Kontos für Skype for Business Dienste
 
-Wenn Sie ein vorhandenes Skype Room System-Konto aus Skype for Business Diensten in einem Skype for Business Server Pool deaktivieren müssen, verwenden Sie den folgenden Befehl, um das Konto zu deaktivieren: 
+Wenn Sie ein vorhandenes Skype Room System-Konto aus Skype for Business Diensten in einem Skype for Business Server-Pool deaktivieren müssen, verwenden Sie den folgenden Befehl, um das Konto zu deaktivieren: 
   
 ```powershell
 Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com

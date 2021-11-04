@@ -1,7 +1,7 @@
 ---
 title: Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Tastenzuordnung von DTMF-Befehlen (Dual-Tone Multi-Frequency) in Skype for Business Server verwalten.'
-ms.openlocfilehash: 10f1d6f0386e97d688e0b56b2605c194c0599ee5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bd9f5b4e4560d3b89e713782ad2e8a19991a1382
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592559"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763853"
 ---
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "58592559"
   
 Benutzer von Einwahlkonferenzen können Tasten auf der Telefontastatur drücken, um DTMF-Befehle (Dual-Tone Multi-Frequency) auszuführen. MIT DTMF-Befehlen können Benutzer, die sich in eine Konferenz einwählen, Konferenzeinstellungen (z. B. Stummschalten und Aufheben der Stummschaltung selbst oder Sperren und Entsperren der Konferenz) mithilfe der Tastatur auf ihrem Telefon steuern. 
   
-Verwenden Sie zum Verwalten der für die DTMF-Befehle verwendeten Schlüssel die Skype for Business Server Verwaltungsshell mit den Cmdlets **"Get-CsDialinConferencingDtmfConfiguration",** **"Set-CsDialinConferencingDtmfConfiguration"** und **"New-CsDialinConferencingDtmfConfiguration".**
+Um die für die DTMF-Befehle verwendeten Schlüssel zu verwalten, verwenden Sie die Skype for Business Server Verwaltungsshell mit den Cmdlets **"Get-CsDialinConferencingDtmfConfiguration",** **"Set-CsDialinConferencingDtmfConfiguration"** und **"New-CsDialinConferencingDtmfConfiguration".**
   
 Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstellungen Vorrang vor den globalen Einstellungen. 
 

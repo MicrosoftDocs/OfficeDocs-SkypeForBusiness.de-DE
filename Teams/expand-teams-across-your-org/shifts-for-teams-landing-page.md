@@ -1,9 +1,9 @@
 ---
 title: Schichten für Teams
-description: Erhalten Sie den Administratorleitfaden, den Sie benötigen, um Schichten, das Tool für die Zeitplanverwaltung, in einem Teams.
+description: Erhalten Sie den Administratorleitfaden, den Sie zum Einrichten und Verwalten von Schichten, dem Terminplanungsverwaltungstool, in Teams.
 ms.topic: conceptual
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 audience: admin
 manager: serdars
 f1.keywords:
@@ -21,16 +21,16 @@ searchScope:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 07f31d3f37cc1ebf68c9337afab6605ff894fe9b
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 5e8de5e2c43751c1578678bff9e1f6e9099c4a6a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012549"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756096"
 ---
 # <a name="shifts-for-teams"></a>Schichten für Teams
 
-Teams bietet Mitarbeitern in der Frontlinie in Ihrer Organisation die Tools, die sie benötigen, um effektiv zu kommunizieren und zusammenzuarbeiten. In den folgenden Ressourcen finden Sie weitere Informationen zum Einrichten und Verwalten von Schichten, dem Tool für die Zeitplanverwaltung in Teams.
+Teams bietet Mitarbeitern in der Frontlinie in Ihrer Organisation die Tools, die sie benötigen, um effektiv kommunizieren und zusammenarbeiten zu können. In den folgenden Ressourcen finden Sie weitere Informationen zum Einrichten und Verwalten von Schichten, dem Tool für die Zeitplanverwaltung in Teams.
 
 ### <a name="set-up-and-manage-shifts-for-your-organization"></a>Einrichten und Verwalten von Schichten für Ihre Organisation
 
@@ -42,7 +42,7 @@ Teams bietet Mitarbeitern in der Frontlinie in Ihrer Organisation die Tools, die
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| ![api.](../media/api-small.svg) | **[UMSCHALT- Graph-APIs](/graph/api/resources/shift?view=graph-rest-1.0)** Schichten Graph-APIs ermöglichen Ihnen die Integration von Schichtdaten in externe Personalverwaltungssysteme. Sie haben die Flexibilität, benutzerdefinierte Schichten-Erfahrungen im Back-End zu erstellen, während Sie Benutzern gleichzeitig eine umfassende Front-End-Erfahrung im Hintergrund Teams.             |
+| ![api.](../media/api-small.svg) | **[UMSCHALT- Graph-APIs](/graph/api/resources/shift?view=graph-rest-1.0)** Schichten Graph-APIs ermöglichen Ihnen die Integration von Schichtdaten in externe Personalverwaltungssysteme. Sie haben die Flexibilität, benutzerdefinierte Schichten-Erfahrungen im Back-End zu erstellen, während Sie Benutzern gleichzeitig eine umfassende Front-End-Erfahrung in ihrer Teams.             |
 | ![api.](../media/api-small.svg) | **[Integrationen der Personalverwaltung](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors)** Wenn Sie Personalverwaltungssysteme von Drittanbietern, z. B. Kroneos und JDA, für Planung, Zeit und Anwesenheit verwenden, können Sie Schichten über Schichten Graph-APIs und SDK direkt mit Open Source-Integrationen integrieren. |
 | ![api.](../media/process-flow-teams-small.svg) | **[UMSCHALT+POWER AUTOMATE](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Mit Schichten + Power Automate können Sie Informationen aus Schichten übernehmen und benutzerdefinierte Workflows mit anderen Apps erstellen und Vorgänge im Maßstab ausführen. Automatisieren Sie wichtige Prozesse mit wenig bis gar keinem Code. Die Auslöser und Vorlagen unterstützen eine Vielzahl von Szenarien, z. B. das Aktivieren der automatischen Genehmigung für Schichtanforderungen, wenn keine Genehmigung eines Vorgesetzten erforderlich ist. |
 

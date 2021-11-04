@@ -1,7 +1,7 @@
 ---
 title: Installieren des Planungstools in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/5/2016
@@ -13,24 +13,24 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b95b3301-fa1e-4b96-9af4-05b43d39db8d
-description: Bevor Sie mit dem Entwerfen und Planen Ihrer Skype for Business Server 2015-Infrastruktur mit dem Skype for Business Server 2015-Planungstool beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungstool muss nicht auf einer Arbeitsstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie Skype for Business Server 2015 installieren möchten. Die Infodatei, die das Planungstool begleitet, enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige der Informationen in der Infodatei werden hier aus Gründen der Übersichtlichkeit dupliziert.
-ms.openlocfilehash: 2cfa5e67d567c108d46db1bc52b5426971aa8ca8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Bevor Sie mit dem Entwerfen und Planen Ihrer Skype for Business Server 2015-Infrastruktur mithilfe des Skype for Business Server 2015-Planungstools beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungstool muss nicht auf einer Arbeitsstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie Skype for Business Server 2015 installieren möchten. Die Infodatei, die das Planungstool begleitet, enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige der Informationen in der Infodatei werden hier aus Gründen der Übersichtlichkeit dupliziert.
+ms.openlocfilehash: b476d5d39515fe14d3f13a3ee9dc0c5b5298fdc1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616511"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756884"
 ---
 # <a name="install-the-planning-tool-in-skype-for-business-server-2015"></a>Installieren des Planungstools in Skype for Business Server 2015
 
-Bevor Sie mit dem Entwerfen und Planen Ihrer Skype for Business Server 2015-Infrastruktur mit dem Skype for Business Server 2015-Planungstool beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungstool muss nicht auf einer Arbeitsstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie Skype for Business Server 2015 installieren möchten. Die Infodatei, die das Planungstool begleitet, enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige der Informationen in der Infodatei werden hier aus Gründen der Übersichtlichkeit dupliziert.
+Bevor Sie mit dem Entwerfen und Planen Ihrer Skype for Business Server 2015-Infrastruktur mithilfe des Skype for Business Server 2015-Planungstools beginnen, müssen Sie zuerst das Planungstool installieren. Das Planungstool muss nicht auf einer Arbeitsstation oder einem Server bereitgestellt werden, die Teil der Domäne oder Infrastruktur ist, in der Sie Skype for Business Server 2015 installieren möchten. Die Infodatei, die das Planungstool begleitet, enthält wichtige Informationen zur Installation und Verwendung des Tools. Einige der Informationen in der Infodatei werden hier aus Gründen der Übersichtlichkeit dupliziert.
 
 > [!IMPORTANT]
 > Das Planungstool erfordert die Installation durch einen Benutzer mit Administratorrechten und Berechtigungen auf dem Computer, auf dem das Tool installiert werden soll.
 
 Die unterstützten Betriebssysteme für die Installation und den Betrieb des Planungstools sind:
 
-- Windows 10
+- Windows 10
 
 - Windows 8
 
@@ -58,7 +58,7 @@ Nachdem die Vorinstallationsanforderungen erfüllt sind, können Sie das Planung
 
 2. Suchen Sie mit Windows Explorer oder einem Befehlsfenster nach dem Verzeichnis, in das Sie die Installationsdateien des Planungstools heruntergeladen haben.
 
-3. Suchen Sie die SkypeForBusinessPlanningTool.msi. Doppelklicken Sie im Windows Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE,** um die Datei auszuführen.
+3. Suchen Sie die SkypeForBusinessPlanningTool.msi. Doppelklicken Sie Windows Explorer auf die Datei. Geben Sie im Befehlsfenster den Namen der Datei ein, und drücken Sie dann die **EINGABETASTE,** um die Datei auszuführen.
 
 4. Klicken Sie auf der Willkommensseite der **Skype for Business Server 2015, Planning Tool Setup Wizard,** auf **"Weiter".**
 
@@ -104,7 +104,7 @@ Beim Exportieren Ihres Entwurfs nach Microsoft Visio wird ein Diagramm erstellt,
 
 - Globale Topologie – Diagramm der konfigurierten Skype for Business Server 2015-Standorte.
 
-- Registerkarte "Standortname": Zeigt die Standortkonfigurationstopologie mit Edgeserver, Firewall, PsTN (Public Switched Telephone Network) mit Gateways und die interne Serverbereitstellung an. Die interne Bereitstellung besteht aus konfigurierten Servern und Pools, einschließlich der Front-End-Pools, SQL Server-basierten Servern, Active Directory Domain Services, Directors, Exchange Unified Messaging(UM)-Servern, Exchange Postfachservern, Office Web Apps-Servern, Vermittlungsservern und Servern für beständigen Chat.
+- Registerkarte "Standortname": Zeigt die Standortkonfigurationstopologie mit Edgeserver, Firewall, PSTN (Public Switched Telephone Network) mit Gateways und die interne Serverbereitstellung an. Die interne Bereitstellung besteht aus konfigurierten Servern und Pools, einschließlich der Front-End-Pools, SQL Server-basierten Servern, Active Directory Domain Services, Directors, Exchange Unified Messaging(UM)-Servern, Exchange Postfachservern, Office Web Apps-Servern, Vermittlungsservern und Servern für beständigen Chat.
 
 - Edgenetzwerkdiagramm – Diagramm, das die Edgeserverkonfiguration mit den zugeordneten IP-Adressen und FQDNs angibt. DNS-Lastenausgleich und Hardwarelastenausgleich sind ebenfalls enthalten. Darüber hinaus werden Directors und der Front-End-Server oder Front-End-Pool mit zugeordneter DNS-Lb- oder HLB-Adresse und der zugewiesenen IP-Adresse (das Planungstool unterstützt sowohl IPv4- als auch IPv6-Adressen) und FQDN angezeigt.
 

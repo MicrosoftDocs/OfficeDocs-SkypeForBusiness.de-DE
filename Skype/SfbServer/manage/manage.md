@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
 description: 'Zusammenfassung: Erkunden Sie diese Links, um zu erfahren, wie Sie Skype for Business Server verwalten und verwalten.'
-ms.openlocfilehash: 550e05fdfefb5f3743452b2ecf080b9835297b45
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 23312383a68b05de6d93e52b68f3b5c4c36192dd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012519"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763599"
 ---
 # <a name="manage-skype-for-business-server"></a>Verwalten von Skype for Business Server 
 
@@ -57,5 +57,5 @@ Die folgenden Ressourcen zur Planung von Skype for Business Server stehen von an
 |:-----|:-----|:-----|
 |![Symbol für Dokumente.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server für IT-Spezialisten](../../Hub/index.yml)  |Besuchen Sie das Ressourcencenter, um auf Videos, Communitywebsites, Dokumentationen, Downloads und vieles mehr zuzugreifen. |
 |![Symbol für Entwicklerinhalte.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server für Entwickler   |Hier finden Sie Entwicklerressourcen für Skype for Business Server, einschließlich Codebeispielen, Schulungen und SDKs. |
-|![Symbol für Nachrichten, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change Management und Einführung](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Halten Sie sich über Neuigkeiten aus den Teams auf, die Skype for Business Server erstellen und dokumentieren.  |
+|![Symbol für Nachrichten, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change Management und Einführung](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [blog Skype Team](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Halten Sie sich über Neuigkeiten aus den Teams auf, die Skype for Business Server erstellen und dokumentieren.  |
 

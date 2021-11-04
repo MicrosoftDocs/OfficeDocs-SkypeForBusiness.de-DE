@@ -1,7 +1,7 @@
 ---
 title: Besprechungskonfiguration – Erstellen einer neuen oder Bearbeiten einer vorhandenen Besprechungskonfiguration
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e8fc19fa-6cd7-4f68-b90a-1c7e1b649abd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Besprechungskonfigurationseinstellungen definieren die Benutzerbeitrittserfahrung für von Benutzern geplante Konferenzen. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.
-ms.openlocfilehash: 13eb6ffb440bf50da7525b36307b56e158f6f93f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f95e9f30ab485b80824c31e700fc7f88714a7a5b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58607228"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741251"
 ---
 # <a name="meeting-configuration-create-new-or-edit-existing"></a>Besprechungskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Besprechungskonfiguration
 
@@ -44,7 +44,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Jeder** Wählen Sie diese Option aus, um jeden automatisch als Referenten festzulegen.
 
-- **Konferenztyp standardmäßig zugewiesen** Diese Einstellung steuert, ob das Outlook Konferenz-Add-In Konferenzen immer mithilfe der konferenz zugewiesenen Konferenz des Organisators plant, was bedeutet, dass geplante Konferenzen immer die gleiche Teilnahme-URL und Audioinformationen haben. Aktivieren Sie dieses Kontrollkästchen, damit geplante Konferenzen immer dieselbe Beitritts-URL verwenden. Deaktivieren Sie dieses Kontrollkästchen, um für jede Konferenz eine andere Beitritts-URL zu verwenden.
+- **Konferenztyp standardmäßig zugewiesen** Mit dieser Einstellung wird gesteuert, ob das Outlook Konferenz-Add-In Konferenzen immer mithilfe der dem Organisator zugewiesenen Konferenz plant, was bedeutet, dass geplante Konferenzen immer die gleiche Teilnahme-URL und Audioinformationen aufweisen. Aktivieren Sie dieses Kontrollkästchen, damit geplante Konferenzen immer dieselbe Beitritts-URL verwenden. Deaktivieren Sie dieses Kontrollkästchen, um für jede Konferenz eine andere Beitritts-URL zu verwenden.
 
 - **Standardmäßiges Zulassen anonymer Benutzer** Aktivieren Sie dieses Kontrollkästchen, wenn anonyme (d. h. nicht authentifizierte) Benutzer standardmäßig an Konferenzen teilnehmen dürfen. Deaktivieren Sie dieses Kontrollkästchen, wenn anonyme Benutzer standardmäßig nicht an Konferenzen teilnehmen dürfen.
 

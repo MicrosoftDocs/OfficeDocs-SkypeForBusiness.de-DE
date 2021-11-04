@@ -1,7 +1,7 @@
 ---
 title: Ausführliche Informationen zur Tabelle für den Server für beständigen Chat
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c22d4a76-da50-49de-9038-e0ed7b8e1b58
 description: In den folgenden Themen werden die Spalten in jeder Datenbankschematabelle für beständigen Chat ausführlich beschrieben.
-ms.openlocfilehash: 68c526a3548f8d52546f3b7ec56a9b317529e03c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8b43994f63f02315fcfc6f66884a4c6a52cbee3c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578619"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763293"
 ---
 # <a name="persistent-chat-server-table-details"></a>Ausführliche Informationen zur Tabelle für den Server für beständigen Chat
  

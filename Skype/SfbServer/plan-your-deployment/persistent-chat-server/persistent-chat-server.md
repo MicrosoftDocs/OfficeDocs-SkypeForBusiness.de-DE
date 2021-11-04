@@ -1,7 +1,7 @@
 ---
 title: Plan for Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie den Server für beständigen Chat in Skype for Business Server 2015 planen.'
-ms.openlocfilehash: cb584fc1b618794d9956c2d91c004b8ecc008aa0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731094"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763463"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for Persistent Chat Server in Skype for Business Server 2015
  
@@ -39,7 +39,7 @@ Der Server für beständigen Chat kann dazu beitragen, die Kommunikation innerha
 - Befolgen von Compliance-Bestimmungen durch optionale Bereitstellung des Compliancediensts für beständigen Chat
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
     
 ## <a name="persistent-chat-server-high-level-architecture"></a>Allgemeine Architektur des Servers für beständigen Chat
 
@@ -47,7 +47,7 @@ Das folgende Diagramm zeigt eine allgemeine Ansicht der Architektur des Servers 
   
 ![Architektur des Servers für beständigen Chat High-Level.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-Der beständige Chat besteht aus einer Front-End-Serverrolle, die die Dienste für beständigen Chat bereitstellt, sowie einer Back-End-SQL-Datenbankkomponente. Sowohl Front-End- als auch Back-End-Komponenten sind in einem dedizierten Pool für beständigen Chat enthalten. Jeder Computer, auf dem der Server für beständigen Chat gehostet wird, muss Zugriff auf eine vorhandene Skype for Business Server 2015-Topologie haben. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (A), der von Skype for Business Server Pool A zum Weiterleiten von Nachrichten an diesen pool A abhängig ist.
+Der beständige Chat besteht aus einer Front-End-Serverrolle, die die Dienste für beständigen Chat sowie eine Back-End-SQL-Datenbankkomponente bereitstellt. Sowohl Front-End- als auch Back-End-Komponenten sind in einem dedizierten Pool für beständigen Chat enthalten. Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene Skype for Business Server 2015-Topologie haben. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (A), der von Skype for Business Server Pool A für das Weiterleiten von Nachrichten an ihn abhängig ist.
   
 Sie können einen oder mehrere Serverpools für beständigen Chat mit jeweils bis zu vier aktiven Servern für beständigen Chat bereitstellen, die bis zu 80.000 gleichzeitige Benutzer unterstützen.
   
@@ -99,7 +99,7 @@ Wenn Sie sich für die Bereitstellung des Servers für beständigen Chat entsche
     
 - Wie möchten Sie steuern, wer Räume erstellen kann? Sie können Ersteller definieren, die Räume erstellen können. Ersteller können andere Mitglieder als Chatroommanager für die laufende Verwaltung der Chatrooms zuweisen.
     
-- Wie möchten Sie Räume erstellen? Der Server für beständigen Chat bietet ein webbasiertes Feature zum Erstellen und Verwalten von Chatrooms. Dies kann über den Skype for Business Client gestartet werden. Sie können eine Kundenlösung definieren, die Ihre Geschäftlichen Anforderungen und Workflows implementiert, und den Server für beständigen Chat konfigurieren, um Benutzer zu Ihrer benutzerdefinierten Lösung zu leiten.
+- Wie möchten Sie Räume erstellen? Der Server für beständigen Chat bietet ein webbasiertes Feature zum Erstellen und Verwalten von Chatrooms. Dies kann über den Skype for Business-Client gestartet werden. Sie können eine Kundenlösung definieren, die Ihre Geschäftlichen Anforderungen und Workflows implementiert, und den Server für beständigen Chat so konfigurieren, dass Benutzer zu Ihrer benutzerdefinierten Lösung gelangen.
     
 - Welche Arten von Add-Ins möchten Sie bereitstellen? Add-Ins verbessern die Raumerfahrung, indem sie den Erweiterungsbereich im Skype for Business-Client nutzen, um Kontext bereitzustellen, der für den Raum relevant ist. Sie können die allgemeinen Add-Ins auswählen, die Ihnen (beispielsweise im Hinblick auf Ihre Unternehmenswebsite oder Dokumente für die interne Zusammenarbeit) am hilfreichsten erscheinen. Chatroom-Manager können bei Bedarf eines der registrierten Add-Ins auswählen und ihren Räumen zuordnen. 
     

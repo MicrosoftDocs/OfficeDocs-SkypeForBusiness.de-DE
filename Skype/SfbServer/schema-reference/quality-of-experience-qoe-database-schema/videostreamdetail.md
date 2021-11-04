@@ -1,7 +1,7 @@
 ---
 title: VideoStreamDetail-Ansicht
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 465684ed4cfc857ede340d960f82d8be13031808
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fc778060163047b80ad7c523e2ca93414a23e25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609092"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756056"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail-Ansicht
  
@@ -97,7 +97,7 @@ In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in de
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Maximale Paketverlustrate während des Anrufs.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |Paketwert für den Videostream (Real Time Transport Protocol, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |Bandbreitenschätzungen für den Audiostream.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |Für den Anruf verwendeter Audiocodec, auf den in der [PayloadDescription-Tabelle](payloaddescription.md)verwiesen wird.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |Für den Anruf verwendeter Audiocodec, auf den aus der [PayloadDescription-Tabelle](payloaddescription.md)verwiesen wird.  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |Auflösung des Videos in Pixel Breite x Höhe. Gemeldet als Zeichenfolge.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |Durchschnittliche Bitrate des Videostreams.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |Empfangene Framerate des Videostreams.  <br/> |

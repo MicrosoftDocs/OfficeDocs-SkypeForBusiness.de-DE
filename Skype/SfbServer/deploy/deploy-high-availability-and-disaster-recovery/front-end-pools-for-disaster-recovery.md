@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von front-End-Paarpools für die Notfallwiederherstellung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
 description: Sie können sich dafür entscheiden, gepaarte Front-End-Pools für den Notfallwiederherstellungsschutz zu verwenden, dies ist jedoch keine Voraussetzung.
-ms.openlocfilehash: 9c56ad7a0af5b50f4843a84205c48a11a9177a47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9aec106905b2d8628e30461dce130f301aef1b25
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608572"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741331"
 ---
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen von front-End-Paarpools für die Notfallwiederherstellung in Skype for Business Server
  
@@ -84,6 +84,6 @@ Sie können die Notfallwiederherstellungstopologie von gepaarten Front-End-Pools
 > [!NOTE]
 > Die Option **"Automatisches Failover und Failback für VoIP"** und die zugehörigen Zeitintervalle im Topologie-Generator gelten nur für die In Lync Server-Funktionen zur Ausfallsicherheit von VoIP. Wenn Sie diese Option auswählen, bedeutet dies nicht, dass das in diesem Dokument beschriebene Poolfailover automatisch erfolgt. Poolfailover und Failback erfordern immer, dass ein Administrator die Failover- bzw. Failback-Cmdlets manuell aufruft.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Notfallwiederherstellung von Front-End-Pools in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

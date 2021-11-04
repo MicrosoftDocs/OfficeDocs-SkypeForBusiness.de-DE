@@ -1,7 +1,7 @@
 ---
 title: Auswählen aus Active Directory
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ae1f6ed7-08da-41e1-b327-50e4a22992e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld Aus Active Directory auswählen, um Benutzer zu suchen, die Sie für Skype for Business Server aktivieren möchten. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Benutzers ein, nach dem gesucht werden soll. Zum Abrufen aller verfügbaren Benutzer geben Sie im Suchfeld keine Suchzeichenfolge ein.
-ms.openlocfilehash: 331a5e8d51b0724a4225c63aadb0820ffb92a50f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c50a5f86a4a79341e9c03f73a8c271809f5afa07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606514"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60776995"
 ---
 # <a name="select-from-active-directory"></a>Auswählen aus Active Directory
  

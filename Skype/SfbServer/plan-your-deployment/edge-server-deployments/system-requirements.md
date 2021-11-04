@@ -1,7 +1,7 @@
 ---
 title: Systemanforderungen für Edgeserver in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,22 +16,22 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: bc8a6666f46d093c9f3d2da41f2663c79e94ddf3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622157"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763493"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Systemanforderungen für Edgeserver in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.
   
-Wenn es um Ihre Skype for Business Server Edgeserverbereitstellung geht, müssen Sie dies für den Server oder die Server tun, die sich in der Umgebung befinden, sowie die Planung der Umgebungsstruktur. Weitere Informationen zu Topologie, DNS, Zertifikaten und anderen Infrastrukturaspekten finden Sie in der Dokumentation zu den Umgebungsanforderungen.
+Wenn es um Ihre Skype for Business Server-Edgeserverbereitstellung geht, müssen Sie dies für den Server oder die Server tun, die sich in der Umgebung befinden, sowie die Planung der Umgebungsstruktur. Weitere Informationen zu Topologie, DNS, Zertifikaten und anderen Infrastrukturaspekten finden Sie in der Dokumentation zu den Umgebungsanforderungen.
   
 ## <a name="components"></a>Komponenten
 
-Bei der Erläuterung der Edgeserverumgebung verweisen wir auf Komponenten, die größtenteils in einem Umkreisnetzwerk bereitgestellt werden (d. b. entweder in einer Arbeitsgruppe oder einer Domäne, die sich außerhalb Ihrer Skype for Business Server Domänenstruktur befindet).
+Bei der Erläuterung der Edgeserverumgebung verweisen wir auf Komponenten, die größtenteils in einem Umkreisnetzwerk bereitgestellt werden (d. a. entweder in einer Arbeitsgruppe oder einer Domäne, die sich außerhalb Ihrer Skype for Business Server Domänenstruktur befindet).
   
 Beachten Sie, dass dies die Komponenten sind, die Sie berücksichtigen müssen, um Ihren Edge erfolgreich bereitzustellen:
   
@@ -60,7 +60,7 @@ Dies sind die Skype for Business Server, die in Ihrer Umkreisumgebung bereitgest
     
 - **XMPP-Proxydienst:** Akzeptiert und sendet XMPP-Nachrichten (Extensible Messaging and Presence Protocol) an und von konfigurierten XMPP-Verbundpartnern.
     
-Autorisierte externe Benutzer können Ihre Edgeserver verwenden, um eine Verbindung mit Ihrer internen Skype for Business Server Bereitstellung herzustellen, aber andernfalls gewähren sie keinen anderen Zugriff auf Ihr internes Netzwerk für andere Benutzer.
+Autorisierte externe Benutzer können Ihre Edgeserver verwenden, um eine Verbindung mit Ihrer internen Skype for Business Server-Bereitstellung herzustellen, aber andernfalls gewähren sie keinen anderen Zugriff auf Ihr internes Netzwerk für andere Benutzer.
   
 > [!NOTE]
 > Edgeserver werden bereitgestellt, um Verbindungen für aktivierte Skype for Business Clients und andere Edgeserver (in Verbundszenarien) bereitzustellen. Sie können keine Verbindung von anderen Endpunktclient- oder Servertypen herstellen. Der XMPP-Gatewayserver kann Verbindungen mit konfigurierten XMPP-Partnern zulassen. Aber auch hier sind dies die einzigen Client- und Verbundtypen, die funktionieren. 
@@ -140,13 +140,13 @@ Warum ist das wichtig? Eine wichtige Funktion für einen Director besteht darin,
 
 Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den DNS-Lastenausgleich für neue Bereitstellungen optimiert. Dies wird empfohlen. Wenn Sie hohe Verfügbarkeit benötigen, empfehlen wir die Verwendung eines Hardwaregeräts zum Lastenausgleich für eine bestimmte Situation:
   
-- Exchange UM für Remotebenutzer, die **Exchange** UM vor Exchange 2013 verwenden.
+- Exchange UM für Remotebenutzer, die Exchange UM **vor** Exchange 2013 verwenden.
     
 > [!IMPORTANT]
 > Es ist wichtig zu beachten, dass Sie Lastenausgleichsmodule nicht kombinieren können. In Ihrer Skype for Business Server Umgebung müssen alle Schnittstellen entweder DNS oder HLB verwenden. 
   
 > [!NOTE]
-> Direct Server Return (DSR)-NAT wird für Skype for Business Server nicht unterstützt. 
+> Die NAT für direkte Serverrückgabe (Direct Server Return, DSR) wird für Skype for Business Server nicht unterstützt. 
   
 #### <a name="hardware-load-balancer-requirements-for-edge-servers-edge-servers-running-the-av-edge-service"></a>Anforderungen an das Hardwaregerät zum Lastenausgleich für Edgeserver, auf denen der A/V-Edgedienst ausgeführt wird
 
@@ -186,20 +186,20 @@ Für **Bereitstellungen,** die cookiebasierte Affinität benötigen:
 - Das Cookie für das Hardwaregerät zum Lastenausgleich **muss** in jeder HTTP-Antwort festgelegt werden, für die die eingehende HTTP-Anforderung kein Cookie hatte, unabhängig davon, ob eine vorherige HTTP-Antwort auf derselben TCP-Verbindung ein Cookie erhalten hat. Wenn Ihr Hardwaregerät zum Lastenausgleich das Einfügen von Cookies so optimiert, dass es nur einmal pro TCP-Verbindung auftritt, darf diese Optimierung **nicht** verwendet werden.
     
 > [!NOTE]
-> Es ist typisch für HLB-Konfigurationen, die Quellaffinität und die 20-minütige TCP-Sitzungsdauer zu verwenden, was für Skype for Business Server und ihre Clients geeignet ist, da der Sitzungsstatus über die Clientverwendung und/oder Anwendungsinteraktion beibehalten wird. 
+> Es ist typisch für HLB-Konfigurationen, die Quellaffinität und die 20-minütige TCP-Sitzungsdauer zu verwenden, was für Skype for Business Server und deren Clients geeignet ist, da der Sitzungsstatus über die Clientverwendung und/oder Anwendungsinteraktion beibehalten wird. 
   
 Wenn Sie mobile Geräte bereitstellen, muss Ihr HLB in der Lage sein, einzelne Anforderungen innerhalb einer TCP-Sitzung zu lasten (tatsächlich müssen Sie in der Lage sein, eine einzelne Anforderung basierend auf der Ziel-IP-Adresse zu laden).
   
 > [!IMPORTANT]
 > F5-HLBs verfügen über ein Feature namens OneConnect. Es wird sichergestellt, dass jede Anforderung innerhalb einer TCP-Verbindung einzeln geladen wird. Wenn Sie mobile Geräte bereitstellen, stellen Sie sicher, dass Ihr HlB-Anbieter die gleiche Funktionalität unterstützt. Für die neuesten mobilen iOS-Apps ist TLS Version 1.2 erforderlich. Wenn Sie mehr wissen müssen, stellt F5 bestimmte Einstellungen dafür bereit. 
   
-Hier sind die HLB-Anforderungen für die (optionalen) Director- und (erforderlichen) Front-End-Pool-Webdienste:
+Hier sind die HLB-Anforderungen für die (optionalen) Director- und (erforderlichen) Front-End-Poolwebdienste:
   
-- Legen Sie für die internen WEBDIENSTE-VIPs Source_addr Persistenz (interner Port 80, 443) auf ihrem HLB fest. Für Skype for Business Server bedeutet Source_addr Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
+- Legen Sie für die internen WEBDIENSTE-VIPs Source_addr Persistenz (interner Port 80, 443) auf dem HLB fest. Für Skype for Business Server bedeutet Source_addr Persistenz, dass mehrere Verbindungen, die von einer einzelnen IP-Adresse stammen, immer an einen Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
     
 - Verwenden Sie ein TCP-Leerlauftimeout von 1800 Sekunden.
     
-- Erstellen Sie in der Firewall zwischen Dem Reverseproxy und dem HLB des nächsten Hoppools eine Regel, die https: Datenverkehr an Port 4443 von Ihrem Reverseproxy zu Ihrem HLB zulässt. Ihr HlB muss für das Überwachen der Ports 80, 443 und 4443 konfiguriert sein.
+- Erstellen Sie in der Firewall zwischen dem Reverseproxy und dem HLB des nächsten Hoppools eine Regel, die https: Datenverkehr an Port 4443 von Ihrem Reverseproxy zu Ihrem HLB zulässt. Ihr HlB muss für das Überwachen der Ports 80, 443 und 4443 konfiguriert sein.
     
 #### <a name="summary-of-hlb-affinity-requirements"></a>Zusammenfassung der HLB-Affinitätsanforderungen
 
@@ -213,7 +213,7 @@ Hier sind die HLB-Anforderungen für die (optionalen) Director- und (erforderlic
 
 Sie definieren die Portüberwachung für Ihre Hardwaregeräte zum Lastenausgleich, um zu bestimmen, wann bestimmte Dienste aufgrund von Hardware- oder Kommunikationsfehlern nicht mehr verfügbar sind. Wenn beispielsweise der Front-End-Serverdienst (RTCSRV) beendet wird, weil der Front-End-Server oder Front-End-Pool fehlschlägt, sollte die HLB-Überwachung auch den Empfang von Datenverkehr in den Webdiensten beenden. Sie sollten die Portüberwachung auf der HLB implementieren, um Folgendes für die externe HLB-Schnittstelle zu überwachen:
   
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
 |\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |

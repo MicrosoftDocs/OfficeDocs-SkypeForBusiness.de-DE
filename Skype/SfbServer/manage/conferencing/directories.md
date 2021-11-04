@@ -1,7 +1,7 @@
 ---
 title: Erstellen von Konferenzverzeichnissen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b124b229-7df5-4b7e-8c11-6661c8c8c051
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzverzeichnisse in Skype for Business Server erstellen.'
-ms.openlocfilehash: 21b8d6ad362bcabba2bdde2db2be92ea73da0605
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ef274901e2d70c9ae5e2184568a5a749e73f774c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609342"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763863"
 ---
 # <a name="create-conference-directories-in-skype-for-business-server"></a>Erstellen von Konferenzverzeichnissen in Skype for Business Server
  

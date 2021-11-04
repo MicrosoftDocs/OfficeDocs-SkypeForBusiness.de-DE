@@ -1,7 +1,7 @@
 ---
 title: Erstellen oder Ändern einer VoIP-Route in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d189057d-cc9d-4622-9d10-f5385d703faf
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine VoIP-Route in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung erstellen oder ändern.'
-ms.openlocfilehash: 8b1ca3dc6120fb4e8432736672ee4821e894da56
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ee7f4a0f5d09a36fd1d8e5bcd88a15cd01cc6657
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611240"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755768"
 ---
 # <a name="create-or-modify-a-voice-route-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Route in Skype for Business
  
@@ -49,7 +49,7 @@ ms.locfileid: "58611240"
     
    - **Anfangsziffern für Nummern, die Sie zulassen möchten**: Geben Sie die gewünschten Präfixwerte für diese Route ein (einschließlich eines vorangestellten +, sofern erforderlich). Geben Sie beispielsweise +425 ein, und klicken Sie dann auf **"Hinzufügen".** Wiederholen Sie diesen Schritt für jeden Präfixwert, den Sie in der Route einschließen möchten.
     
-   - **Ausnahmen:** Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die Übereinstimmungsmuster ein, die diese Route  *nicht*  berücksichtigen soll. Wenn Sie z. B. Nummern, die mit +425237 beginnen, von der Route ausschließen möchten, geben Sie den Wert +425237 in das **Feld Ausnahmen** ein, und klicken Sie dann auf **OK.**
+   - **Ausnahmen:** Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die Übereinstimmungsmuster ein, die diese Route  *nicht*  berücksichtigen soll. Wenn Sie z. B. Nummern, die mit +425237 beginnen, von der Route ausschließen möchten, geben Sie den Wert +425237 in das Feld **Ausnahmen** ein, und klicken Sie dann auf **OK.**
     
    - Wenn Sie das Muster für den Vergleich manuell definieren möchten, klicken Sie im Tool **Muster für Vergleich erstellen** auf **Bearbeiten** und geben dann einen regulären .NET Framework-Ausdruck ein, um das Muster für den Vergleich von Zieltelefonnummern anzugeben, auf die die Route angewendet wird. Ausführliche Informationen zum Schreiben regulärer Ausdrücke finden Sie unter [".NET Framework Reguläre Ausdrücke".](/dotnet/standard/base-types/regular-expressions) 
     
@@ -60,7 +60,7 @@ ms.locfileid: "58611240"
 11. Wenn Sie der VoIP-Route eine oder mehrere PSTN-Verwendungen (Public Switched Telephone Network) zuordnen möchten, klicken Sie auf **"Auswählen",** und wählen Sie einen Datensatz aus der Liste der PSTN-Verwendungsdatensätze aus, die für Ihre Enterprise-VoIP Bereitstellung definiert wurden.
     
     > [!NOTE]
-    > Informationen zum Anzeigen der Eigenschaften der einzelnen verfügbaren PSTN-Verwendungsdatensätze finden Sie unter Anzeigen von [PSTN-Verwendungsdatensätzen in Skype for Business.](view-pstn-usage-records.md) > Informationen zum Erstellen oder Bearbeiten von PSTN-Verwendungsdatensätzen finden Sie unter ["Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
+    > Informationen zum Anzeigen der Eigenschaften der einzelnen verfügbaren PSTN-Verwendungsdatensätze finden Sie unter Anzeigen von [PSTN-Verwendungsdatensätzen in Skype for Business.](view-pstn-usage-records.md) > Informationen zum Erstellen oder Bearbeiten von PSTN-Verwendungsdatensätzen finden Sie unter [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business](voice-policy-and-pstn-usage-records.md)
   
 12. Ordnen Sie die PSTN-Verwendungseinträge zur Erzielung optimaler Leistung an. Um die Position eines Datensatzes in der Liste zu ändern, markieren Sie den Datensatznamen, und klicken Sie auf den Pfeil nach oben oder unten.
     
@@ -96,7 +96,7 @@ ms.locfileid: "58611240"
     
    - **Anfangsziffern für Nummern, die Sie zulassen möchten**: Geben Sie die gewünschten Präfixwerte für diese Route ein (einschließlich eines vorangestellten +, sofern erforderlich). Geben Sie beispielsweise +425 ein, und klicken Sie auf **Hinzufügen**. Wiederholen Sie diesen Schritt für jeden Präfixwert, den Sie in der Route einschließen möchten.
     
-   - **Ausnahmen:** Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die Übereinstimmungsmuster ein, die diese Route  *nicht*  berücksichtigen soll. Wenn Sie z. B. Nummern, die mit +425237 beginnen, von der Route ausschließen möchten, geben Sie den Wert +425237 in das **Feld Ausnahmen** ein, und klicken Sie dann auf **OK.**
+   - **Ausnahmen:** Wenn Sie eine oder mehrere Ausnahmen für einen Präfixwert angeben möchten, markieren Sie das Präfix, und klicken Sie auf **Ausnahmen**. Geben Sie einen oder mehrere Werte für die Übereinstimmungsmuster ein, die diese Route  *nicht*  berücksichtigen soll. Wenn Sie z. B. Nummern, die mit +425237 beginnen, von der Route ausschließen möchten, geben Sie den Wert +425237 in das Feld **Ausnahmen** ein, und klicken Sie dann auf **OK.**
     
    - Klicken Sie zum manuellen Definieren des Vergleichsmusters im **Tool "Muster zum Abgleichen** erstellen" auf **"Bearbeiten",** und geben Sie dann einen .NET Framework regulären Ausdruck ein, um das Vergleichsmuster für Zieltelefonnummern anzugeben, auf die die Route angewendet wird. Ausführliche Informationen zum Schreiben regulärer Ausdrücke finden Sie unter [".NET Framework Reguläre Ausdrücke".](/dotnet/standard/base-types/regular-expressions) 
     
@@ -104,7 +104,7 @@ ms.locfileid: "58611240"
     
 8. Wenn Sie der VoIP-Route einen oder mehrere PSTN-Trunks (Public Switched Telephone Network) zuordnen möchten, klicken Sie auf **"Hinzufügen",** und wählen Sie dann einen Trunk aus der Liste aus.
     
-9. Um der VoIP-Route eine oder mehrere PSTN-Verwendungen zuzuordnen, klicken Sie auf **"Auswählen",** und wählen Sie einen Datensatz aus der Liste der PSTN-Verwendungsdatensätze aus, die für Ihre Enterprise-VoIP Bereitstellung definiert wurden.
+9. Wenn Sie der VoIP-Route eine oder mehrere PSTN-Verwendungen zuordnen möchten, klicken Sie auf **"Auswählen",** und wählen Sie einen Datensatz aus der Liste der PSTN-Verwendungsdatensätze aus, die für Ihre Enterprise-VoIP Bereitstellung definiert wurden.
     
     > [!NOTE]
     > Informationen zum Anzeigen der Eigenschaften der einzelnen verfügbaren PSTN-Verwendungsdatensätze finden Sie unter Anzeigen von [PSTN-Verwendungsdatensätzen in Skype for Business.](view-pstn-usage-records.md) > Informationen zum Erstellen oder Bearbeiten von PSTN-Verwendungsdatensätzen finden Sie unter [Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business.](voice-policy-and-pstn-usage-records.md) 
@@ -123,7 +123,7 @@ ms.locfileid: "58611240"
     > [!NOTE]
     > Jedes Mal, wenn Sie eine VoIP-Route erstellen oder ändern, müssen Sie den Befehl **"Commit für alle"** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business](view-pstn-usage-records.md)
   

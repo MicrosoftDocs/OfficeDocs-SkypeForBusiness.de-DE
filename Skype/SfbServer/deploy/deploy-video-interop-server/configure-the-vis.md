@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Zusammenfassung: Konfigurieren der Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.'
-ms.openlocfilehash: cebfb35f740a0060a22bd125ccc2448c0092e87c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 61ab8f8b5c6538491de63696d9445672ce9211cf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595979"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741301"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
  
 **Zusammenfassung:** Konfigurieren Sie die Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.
   
- Konfigurieren Sie die Einstellungen, die der VIS videotrunks mithilfe von Windows PowerShell zuordnen wird. Nach der Installation des VIS-Diensts wird eine Videotrunkkonfiguration mit globaler Reichweite erstellt. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einem spezifischeren Bereich haben. Beachten Sie, dass die Videotrunkkonfiguration eine Sammlung von Einstellungen ist, die für Videotrunks gelten.
+ Konfigurieren Sie die Einstellungen, die der VIS mit Videotrunks zuordnen wird, mithilfe Windows PowerShell. Nach der Installation des VIS-Diensts wird eine Videotrunkkonfiguration mit globaler Reichweite erstellt. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einem spezifischeren Bereich haben. Beachten Sie, dass die Videotrunkkonfiguration eine Sammlung von Einstellungen ist, die für Videotrunks gelten.
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Konfigurieren von Videotrunk und Wählplan
 
@@ -40,7 +40,7 @@ Pro Skype for Business Server Bereitstellung wird ein Wählplan mit globaler Rei
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
    ```
 
-    Wenn ein vorhandener Videotrunk vorhanden ist, der geändert werden muss, verwenden Sie das folgende cmdlet Windows PowerShell:
+    Wenn ein videotrunk vorhanden ist, der geändert werden muss, verwenden Sie das folgende cmdlet Windows PowerShell:
     
    ```powershell
    Set-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls  $true(or $false)
@@ -86,6 +86,6 @@ Die zuvor erwähnten Windows PowerShell Cmdlets für die Videotrunkkonfiguration
   
  **ForwardErrorCorrectionType** Dieser Parameter wird verwendet, um zu bestimmen, ob die Vorwärtsfehlerkorrektur (Forward Error Correction, FEC) für Videodatenströme auf den Abschnitt zwischen dem Video-Interoperabilitätsserver und einem Videogateway angewendet werden soll. Wenn ForwardErrorCorrectionType auf "None" festgelegt wird, wird FEC zwischen VIS und Videogateway/VTC deaktiviert. Wenn ForwardErrorCorrectionType auf "Cisco" festgelegt wird, ist FEC kompatibel mit Videogateways von Cisco, z. B. Cisco Unified Communications Manager (CUCM). Der Standardwert lautet **Keine**.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurieren von CUCM für die Interoperabilität mit Skype for Business Server](configure-cucm-for-interoperation.md)

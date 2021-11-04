@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen eines Edgeservers
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
-description: Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des Externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Preparing for Installation of Servers in the Perimeter Network in der Bereitstellungsdokumentation.
-ms.openlocfilehash: 6f905b24a0ca0da499cf94acda57404fabe289bc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Preparing for Installation of Servers in the Perimeter Network in der Bereitstellungsdokumentation.
+ms.openlocfilehash: 4436ce21de7402b53cd256224000457a06a2aa91
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592661"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770543"
 ---
 # <a name="add-edge-server"></a>Hinzufügen eines Edgeservers
 
-Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des Externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter [Preparing for Installation of Servers in the Perimeter Network](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network) in der Bereitstellungsdokumentation.
+Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter [Preparing for Installation of Servers in the Perimeter Network](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network) in der Bereitstellungsdokumentation.
 
 > [!IMPORTANT]
 > Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Sie müssen ein DNS-Suffix (Domain Name System) für den Namen des Computers konfigurieren, der als Edgeserver oder Edgeserverpool bereitgestellt werden soll und nicht Mitglied einer Domäne ist.

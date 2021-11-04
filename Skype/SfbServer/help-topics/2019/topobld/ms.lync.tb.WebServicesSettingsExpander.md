@@ -1,7 +1,7 @@
 ---
 title: Einstellungen für Webdienste – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Topologie-Generator können Sie die Porteinstellungen ändern, die für ihre internen und externen Webdienste verwendet werden. Darüber hinaus und wenn Sie einen DNS-Lastenausgleich (Domain Name System) bereitstellen, können Sie den Topologie-Generator verwenden, um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools zu konfigurieren, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird.
-ms.openlocfilehash: f160259a78f5d95bd7e5e7e974579ddebe738115
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d0302c3f892840e32e3efa4342f389e6e24e0206
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596989"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748451"
 ---
 # <a name="web-services-settings-expander"></a>Einstellungen für Webdienste – Erweiterung
  

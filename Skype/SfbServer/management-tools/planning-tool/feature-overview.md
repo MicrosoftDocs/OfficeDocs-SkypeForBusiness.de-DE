@@ -1,7 +1,7 @@
 ---
 title: Featureübersicht –Planungstool
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/6/2016
@@ -13,13 +13,13 @@ f1.keywords:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Das Skype for Business Server 2015-Planungstool wird abbestellen.
-ms.openlocfilehash: cd225be2bed2eb211750f846cb12a186b045e8e3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Das Planungstool Skype for Business Server 2015 wird abbestellen.
+ms.openlocfilehash: 87250dba5df1b7f338f4cb9159a7583f1fd5f4fa
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578749"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756936"
 ---
 # <a name="feature-overview-planning-tool"></a>Featureübersicht –Planungstool
  
@@ -33,14 +33,14 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 - **Anzahl der Benutzer** Geben Sie die Anzahl der Benutzer ein, einschließlich der Benutzer an Zweigstellen, die am zentralen Standort verwaltet werden.
     
-- **In der Cloud verwalteten Benutzer** Geben Sie die Anzahl der Benutzer ein, die von Skype for Business Online auf der zentralen Website verwaltet werden.
+- **In der Cloud verwalteten Benutzer** Geben Sie die Anzahl der Benutzer ein, die von Skype for Business Online auf dem zentralen Standort verwaltet werden.
     
 > [!NOTE]
 > Dieses Tool wird für Skype for Business Server 2019 nicht aktualisiert.
 
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gefüllt, die Sie im **assistenten Erste Schritte** gestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Sie auf die im **Assistenten Erste Schritte** gestellten Fragen bereitgestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -48,7 +48,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
   
 - **Chat und Anwesenheit**
     
-    Instant Messaging (Chat) ermöglicht Benutzern die Kommunikation miteinander in Echtzeit auf ihren Computern mithilfe von textbasierten Nachrichten. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers stellt Informationen bereit, mit denen andere personen ermitteln können, ob der Benutzer online ist und wie er am besten kontaktiert werden kann. Beispielsweise wird ein Benutzer, der sich in einer Besprechung befindet, am besten per E-Mail kontaktiert.
+    Chatnachrichten ermöglichen Benutzern die Kommunikation miteinander in Echtzeit auf ihren Computern mithilfe von textbasierten Nachrichten. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers stellt Informationen bereit, mit denen andere personen ermitteln können, ob der Benutzer online ist und wie er am besten kontaktiert werden kann. Beispielsweise wird ein Benutzer, der sich in einer Besprechung befindet, am besten per E-Mail kontaktiert.
     
 - **Audio- und Videokonferenzen**
     
@@ -127,11 +127,11 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
+    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und deren Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
     
 - **IPv4**
     
-    IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte zur Verwendung von IPv6-Adressen umgezogen.
+    IPv4-Adressen sind 32-Bit-Adressen, die einem Computer die Kommunikation über das Internet ermöglichen. Aufgrund der zunehmenden Anzahl von Geräten weltweit sind die verfügbaren IPv4-Adressen abgelaufen. Aus diesem Grund werden viele neue Geräte auf die Verwendung von IPv6-Adressen umgezogen.
     
 - **IPv6**
     
@@ -151,7 +151,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Ankündigung**
     
-    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Die Verwendung des Ankündigungsdiensts verhindert die Situation, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
+    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Durch die Verwendung des Ankündigungsdiensts wird die Situation vermieden, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
     
 - **Parken von Anrufen**
     
@@ -163,7 +163,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten auf die Fragen gef�
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stummgeschaltet sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
     
 - **Anrufsteuerung**
     

@@ -1,7 +1,7 @@
 ---
 title: McuJoinsAndLeaves-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 7/15/2015
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
-description: Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu einer Kombination aus einem Benutzerbeitritt oder -verlassen und einem Konferenzserver. Wenn ein Benutzer beispielsweise einer Konferenz beitritt, die Webkonferenzen und Audio-/Videoelemente enthält, wird ein Datensatz für den Webkonferenzbeitritt dieses Benutzers und ein weiterer Datensatz für die Audio-/Videokonferenzteilnahme des Benutzers erstellt.
-ms.openlocfilehash: 5d01781dd0d16abb3f03cdc8f6021981e7ebfff7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu einer Kombination aus einem Benutzerbeitritt oder -verlassen und einem Konferenzserver. Wenn ein Benutzer beispielsweise einer Konferenz beitritt, die Webkonferenzen und Audio-/Videoelemente enthält, wird ein Datensatz für die Webkonferenzteilnahme dieses Benutzers erstellt, und ein weiterer Datensatz für die Audio-/Videokonferenzteilnahme des Benutzers.
+ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629467"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737601"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>McuJoinsAndLeaves-Tabelle in Skype for Business Server 2015
  
-Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu einer Kombination aus einem Benutzerbeitritt oder -verlassen und einem Konferenzserver. Wenn ein Benutzer beispielsweise einer Konferenz beitritt, die Webkonferenzen und Audio-/Videoelemente enthält, wird ein Datensatz für den Webkonferenzbeitritt dieses Benutzers und ein weiterer Datensatz für die Audio-/Videokonferenzteilnahme des Benutzers erstellt.
+Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu einer Kombination aus einem Benutzerbeitritt oder -verlassen und einem Konferenzserver. Wenn ein Benutzer beispielsweise einer Konferenz beitritt, die Webkonferenzen und Audio-/Videoelemente enthält, wird ein Datensatz für die Webkonferenzteilnahme dieses Benutzers erstellt, und ein weiterer Datensatz für die Audio-/Videokonferenzteilnahme des Benutzers.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|

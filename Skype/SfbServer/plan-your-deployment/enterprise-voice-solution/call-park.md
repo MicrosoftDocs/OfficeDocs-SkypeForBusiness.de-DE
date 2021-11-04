@@ -1,7 +1,7 @@
 ---
 title: Planen des Parkens von Anrufen in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe gehalten und an Abteilungen übertragen werden können. Umfasst Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
-ms.openlocfilehash: 8bc69bedfd3abf7745ce25133ae8ac32d1eda032
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58625177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770183"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planen des Parkens von Anrufen in Skype for Business
  
@@ -35,11 +35,11 @@ Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern folge
     
 - Halten Sie einen Anruf in die Warteschleife, und lassen Sie das ursprüngliche Telefon für andere Anrufe kostenlos.
     
-Wenn ein Benutzer einen Anruf anruft, überträgt Skype for Business Server den Anruf an eine temporäre Nummer, die als Orbit bezeichnet wird, an der der Anruf gehalten wird, bis er entgegennimmt oder ein Zeitüberschreitung aufgetreten ist. Skype for Business Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Um den geparkten Anruf abzurufen, kann der Benutzer die Orbitnummer wählen oder auf die Orbitverbindung oder -schaltfläche im Unterhaltungsfenster klicken. 
+Wenn ein Benutzer einen Anruf anruft, überträgt Skype for Business Server den Anruf an eine temporäre Nummer, die als Orbit bezeichnet wird, an der der Anruf gehalten wird, bis er entgegennahmen oder ein Zeitüberschreitung aufgetreten ist. Skype for Business Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Um den geparkten Anruf abzurufen, kann der Benutzer die Orbitnummer wählen oder auf die Orbitverbindung oder -schaltfläche im Unterhaltungsfenster klicken. 
   
 Der Benutzer, der einen Anruf geparkt hat, kann jemanden über einen externen Mechanismus, z. B. Chatnachrichten oder ein Auslagerungssystem, benachrichtigen, um die Orbitnummer an eine andere Person zu kommunizieren. Der Benutzer, der den Anruf geparkt hat, kann das Unterhaltungsfenster geöffnet lassen, um eine Benachrichtigung zu erhalten, wenn der Anruf abgerufen wird.
   
-Da Orbitbereiche global eindeutig sind, ist es möglich, Anrufe von jedem Skype for Business Server Standort- oder Nebenstellentelefon abzurufen, wenn das Routing entsprechend konfiguriert ist. Wenn niemand den Anruf innerhalb einer konfigurierbaren Zeit abruft, wird der Anruf an die Person zurückgerufen, die ihn geparkt hat. Wenn diese Person den Rückruf nicht entgegennimmt, wird der Anruf an ein Fallbackziel weitergeleitet, z. B. an einen Operator, sofern dies konfiguriert ist. Sie können konfigurieren, wie oft der Anruf zurückruft, bevor er von 1 bis 10 Mal weitergeleitet wird. Wenn niemand einen weitergeleiteten Anruf entgegennimmt, wird der Anruf getrennt. Der Orbit wird freigegeben, wenn der Anruf abgerufen oder getrennt wird.
+Da orbit ranges are globally unique, it is possible to retrieve calls from any Skype for Business Server site or PBX phone if routing is configured appropriately. Wenn niemand den Anruf innerhalb einer konfigurierbaren Zeit abruft, wird der Anruf an die Person zurückgerufen, die ihn geparkt hat. Wenn diese Person den Rückruf nicht entgegennimmt, wird der Anruf an ein Fallbackziel weitergeleitet, z. B. an einen Operator, sofern dies konfiguriert ist. Sie können konfigurieren, wie oft der Anruf zurückruft, bevor er von 1 bis 10 Mal weitergeleitet wird. Wenn niemand einen weitergeleiteten Anruf entgegennimmt, wird der Anruf getrennt. Der Orbit wird freigegeben, wenn der Anruf abgerufen oder getrennt wird.
   
 Wenn Sie das Parken von Anrufen bereitstellen, müssen Sie Bereiche von Durchwahlnummern für das Parken von Anrufen reservieren. Diese Erweiterungen müssen virtuelle Erweiterungen sein: Erweiterungen, denen kein Benutzer oder Telefon zugewiesen ist. Anschließend konfigurieren Sie die Orbittabelle für das Parken von Anrufen mit den Erweiterungsnummernbereichen und geben an, welcher Anwendungsdienst die Anwendung zum Parken von Anrufen hostet, die die einzelnen Bereiche verarbeitet. Jeder Front-End-Pool verfügt über eine Tabelle zum Parken von Anrufen auf dem entsprechenden Back-End-Server, der zum Verwalten von Anrufen verwendet wird, die im Pool geparkt sind. Die Liste der Orbitbereiche wird im zentralen Verwaltungsspeicher gespeichert und zum Weiterleiten von Orbits an den Zielpool verwendet. Jeder Skype for Business Server Pool, in dem die Anwendung zum Parken von Anrufen bereitgestellt und konfiguriert ist, kann einen oder mehrere Orbitbereiche aufweisen. Orbitbereiche müssen in der Skype for Business Server Bereitstellung global eindeutig sein. 
   
@@ -48,7 +48,7 @@ Sie konfigurieren auch andere Einstellungen für das Parken von Anrufen, z. B. w
 > [!NOTE]
 > Angepasste Wartemusikdateien für das Parken von Anrufen werden nicht als Teil des Skype for Business Server Notfallwiederherstellungsprozesses gesichert und gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden. Behalten Sie immer eine separate Sicherungskopie der angepassten Wartemusikdateien bei, die Sie für das Parken von Anrufen hochgeladen haben. 
   
-Die Anwendung zum Parken von Anrufen ist eine Komponente von Enterprise-VoIP. Wenn Sie Enterprise-VoIP bereitstellen, wird die Anwendung zum Parken von Anrufen automatisch installiert und aktiviert. Bevor Sie jedoch das Parken von Anrufen verwenden können, muss der Enterprise-VoIP-Administrator ihn konfigurieren und für Benutzer über eine VoIP-Richtlinie aktivieren.
+Die Anwendung zum Parken von Anrufen ist eine Komponente von Enterprise-VoIP. Wenn Sie Enterprise-VoIP bereitstellen, wird die Anwendung zum Parken von Anrufen automatisch installiert und aktiviert. Bevor Sie das Parken von Anrufen verwenden können, muss der Enterprise-VoIP-Administrator sie jedoch konfigurieren und für Benutzer über eine VoIP-Richtlinie aktivieren.
   
 ## <a name="deployment-and-requirements"></a>Bereitstellung und Anforderungen
 
@@ -56,7 +56,7 @@ Die Anwendung zum Parken von Anrufen wird automatisch installiert, wenn Sie Ente
   
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-Auf allen Front-End-Servern und Standard Edition Servern, auf denen das Parken von Anrufen bereitgestellt wird, muss die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience. Windows Die Medienformatlaufzeit oder Microsoft Media Foundation ist für Windows WMA-Dateien (Media Audio) erforderlich, die für die Wartemusik wiedergegeben werden.
+Auf allen Front-End-Servern und Standard Edition Servern, auf denen das Parken von Anrufen bereitgestellt wird, muss die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. . For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience. Windows Die Medienformatlaufzeit oder Microsoft Media Foundation ist für Windows WMA-Dateien (Media Audio) erforderlich, die für die Wartemusik wiedergegeben werden.
   
 ### <a name="port-requirements"></a>Portanforderungen
 
@@ -125,7 +125,7 @@ Die folgenden Clients können Anrufe abrufen, die beim Parken von Anrufen gepark
 In der folgenden Tabelle wird das Benutzermodell für das Parken von Anrufen beschrieben, das Sie als Grundlage für die Anforderungen an die Kapazitätsplanung verwenden können.
   
 > [!IMPORTANT]
-> Beachten Sie, dass bei der Kapazitätsplanung für die Notfallwiederherstellung jeder Pool eines gekoppelten Pools in der Lage sein sollte, die Workloads für Dienste zum Parken von Anrufen in beiden Pools zu verarbeiten. 
+> Beachten Sie, dass bei der Kapazitätsplanung für die Notfallwiederherstellung jeder Pool eines gepaarten Pools in der Lage sein sollte, die Workloads für Dienste zum Parken von Anrufen in beiden Pools zu verarbeiten. 
   
 **Benutzermodell der Funktion zum Parken von Anrufen**
 

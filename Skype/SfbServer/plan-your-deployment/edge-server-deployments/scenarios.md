@@ -1,7 +1,7 @@
 ---
 title: Edgeserverszenarien in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Zusammenfassung: Überprüfen Sie diese Szenarien, um Ihre Edgeservertopologie in Skype for Business Server zu planen.'
-ms.openlocfilehash: 4035418426975b79a35be7ec84c6affac3ab92d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 7d5c3b90f2b99b51eb74e0880c5a35f79025282a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732083"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60763503"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edgeserverszenarien in Skype for Business Server
  
@@ -31,18 +31,18 @@ Es gibt einige Szenariendiagramme, die Sie bei der Visualisierung und Entscheidu
   
 Diese Abbildungen, die nur zu Beispielzwecken dargestellt werden (und als solche IPv4- und IPv6-Beispieldaten enthalten), stellen nicht den tatsächlichen Kommunikationsfluss dar, sondern eine allgemeine Übersicht über Ihren möglichen Datenverkehr. Portdetails finden Sie auch in den Portdiagrammen für jedes szenario unten.
   
-Die Diagramme zeigen .com für die externe Schnittstelle und .net für die interne Schnittstelle, die auch Beispielmaterial ist. Ihre eigenen Einträge können natürlich ganz anders sein, wenn Sie Ihren eigenen endgültigen Edge-Plan zusammenstellen.
+Die Diagramme zeigen .com für die externe Schnittstelle und .net für die interne Schnittstelle, die auch Beispielmaterial ist; Ihre eigenen Einträge können natürlich ganz anders sein, wenn Sie Ihren eigenen endgültigen Edge-Plan zusammenstellen.
   
 Wir schließen den Director (eine optionale Komponente) in keinem der Diagramme ein, aber Sie können dies separat lesen (dies wird in anderen Planungsthemen erwähnt).
   
-Wie oben erwähnt, sind beispiel-IPv6-Daten in den Diagrammen enthalten. Der Großteil der Dokumentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) bezieht sich auf IPv4, aber Sie werden sicher unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und diese mit interner und externer Adressierung wie bei IPv4-IPs arbeiten müssen. Dank Windows können Sie die Dualstapelfunktion verwenden, die ein separater und eindeutiger Netzwerkstapel für IPv4 und IPv6 ist. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
+Wie oben erwähnt, sind beispiel-IPv6-Daten in den Diagrammen enthalten. Der Großteil der Dokumentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) bezieht sich auf IPv4, aber Sie werden durchaus unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und diese mit interner und externer Adressierung wie bei IPv4-IPs arbeiten müssen. Dank Windows können Sie das Feature "Dualer Stapel" verwenden, bei dem es sich um einen separaten und eindeutigen Netzwerkstapel für IPv4 und IPv6 handelt. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
   
-Es gibt NAT-Geräte, die NAT64 (IPv6 zu IPv4) und NAT66 (IPv6 zu IPv6) zulassen. Dies gilt für die Verwendung mit Skype for Business Server.
+Es gibt NAT-Geräte, die NAT64 (IPv6 zu IPv4) und NAT66 (IPv6 zu IPv6)) zulassen. Dies gilt für die Verwendung mit Skype for Business Server.
   
 > [!IMPORTANT]
 > Wenn Sie die Anrufsteuerung (Call Admission Control, CAC) verwenden, müssen Sie IPv4 auf der internen Schnittstelle verwenden, damit sie funktioniert. 
   
-## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Einzelner konsolidierter Skype for Business Server Edgeserver mit privaten IP-Adressen und NAT
+## <a name="single-consolidated-skype-for-business-server-edge-server-with-private-ip-addresses-and-nat"></a>Einzelner konsolidierter Skype for Business Server-Edgeserver mit privaten IP-Adressen und NAT
 
 In diesem Szenario gibt es keine Option für hohe Verfügbarkeit. Dies bedeutet, dass Sie weniger für Hardware ausgeben und eine einfachere Bereitstellung haben. Wenn hohe Verfügbarkeit ein Muss ist, sehen Sie sich die unten aufgeführten skalierten konsolidierten Szenarien an.
   

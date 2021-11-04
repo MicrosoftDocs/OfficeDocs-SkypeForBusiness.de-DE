@@ -1,7 +1,7 @@
 ---
 title: Richtlinie für beständigen Chat
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/27/2015
@@ -14,21 +14,21 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb9e95b9-f69d-4545-970f-9dfdd93b0eff
-description: Sie können die Seite "Richtlinie für beständigen Chat" der Gruppe für beständigen Chat verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und des Erstellens einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn der Server für beständigen Chat für einen Benutzer durch eine Richtlinie aktiviert ist, wird die Umgebung des Servers für beständigen Chat auf dem Client angezeigt.
-ms.openlocfilehash: 6145740717ca4e240cde767535c91040c336cb90
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Sie können die Seite "Richtlinie für beständigen Chat" der Gruppe für beständigen Chat verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn der Server für beständigen Chat für einen Benutzer durch eine Richtlinie aktiviert ist, wird die Umgebung des Servers für beständigen Chat auf dem Client angezeigt.
+ms.openlocfilehash: 5736f0fc41f86331662e88c0f980c19c89be72c4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621391"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60748191"
 ---
 # <a name="persistent-chat-policy"></a>Richtlinie für beständigen Chat
  
-Sie können die Seite "Richtlinie für **beständigen Chat"** der Gruppe für **beständigen Chat** verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und des Erstellens einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn der Server für beständigen Chat für einen Benutzer durch eine Richtlinie aktiviert ist, wird die Umgebung des Servers für beständigen Chat auf dem Client angezeigt.
+Sie können die Seite "Richtlinie für **beständigen Chat"** der Gruppe für **beständigen Chat** verwenden, um Richtlinien auf globaler, Pool-, Standort- oder Benutzerebene zu verwalten, einschließlich der Konfiguration der globalen Standardrichtlinie und dem Erstellen einer oder mehrerer zusätzlicher Benutzer- und Standortrichtlinien für Ihre Bereitstellung. Wenn der Server für beständigen Chat für einen Benutzer durch eine Richtlinie aktiviert ist, wird die Umgebung des Servers für beständigen Chat auf dem Client angezeigt.
   
 Die globale Richtlinie wird automatisch erstellt, wenn Sie den Server für beständigen Chat bereitstellen, und sie kann konfiguriert, aber nicht gelöscht werden. Da die globale Richtlinie für alle Benutzer gilt, muss sie nicht pro Benutzer festgelegt werden.
   
-Sie können mehrere Standort- und Benutzerrichtlinien erstellen und konfigurieren, die zusammen mit der globalen Richtlinie Benutzer für den Server für beständigen Chat aktivieren. Pool- und Standortrichtlinien für den Server für beständigen Chat setzen die globale Richtlinie für den Server für beständigen Chat außer Kraft, jedoch nur für Benutzer dieses Standorts. Benutzerrichtlinien setzen globale Richtlinien, Poolrichtlinien und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
+Sie können mehrere Standort- und Benutzerrichtlinien erstellen und konfigurieren, die zusammen mit der globalen Richtlinie Benutzer für den Server für beständigen Chat aktivieren. Pool- und Standortrichtlinien für den Server für beständigen Chat überschreiben die globale Richtlinie für den Server für beständigen Chat, jedoch nur für Benutzer dieses Standorts. Benutzerrichtlinien setzen globale Richtlinien, Poolrichtlinien und Standortrichtlinien für diejenigen Benutzer außer Kraft, denen die Benutzerrichtlinie zugewiesen wird.
   
 > [!NOTE]
 > Um den Server für beständigen Chat zu konfigurieren und zu verwenden, müssen Sie zuerst den Topologie-Generator verwenden, um der Topologie Unterstützung für den Server für beständigen Chat hinzuzufügen, und dann die Topologie veröffentlichen. Ausführliche Informationen finden Sie unter Hinzufügen des [Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie.](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md) 
@@ -109,7 +109,7 @@ Die Benutzerrichtlinie setzt die Richtlinien auf globaler und Standortebene auß
     
 ## <a name="to-apply-a-persistent-chat-user-policy-to-a-user-account"></a>So wenden Sie eine Benutzerrichtlinie für beständigen Chat auf ein Benutzerkonto an
 
-Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie entsprechende Richtlinien auf bestimmte Benutzer anwenden, um sie für den Server für beständigen Chat zu aktivieren oder zu deaktivieren.
+Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden, um sie für den Server für beständigen Chat zu aktivieren oder zu deaktivieren.
   
 Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Benutzerrichtlinie für beständigen Chat auf ein oder mehrere Benutzerkonten oder Benutzergruppen anzuwenden.
   

@@ -1,7 +1,7 @@
 ---
 title: Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: 2eabc5e32937b88de4a3c4bbd474e20e132c1984
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585009"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737681"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
@@ -45,25 +45,25 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
   
 |Gesamtanzahl der Server im Pool  <br/> |Anzahl der Server, die ausgeführt werden müssen, damit der Pool zum ersten Mal gestartet wird  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
-|3   <br/> |3   <br/> |
-|4   <br/> |3   <br/> |
-|5   <br/> |4   <br/> |
-|6   <br/> |5   <br/> |
-|7   <br/> |5   <br/> |
+|2  <br/> |1  <br/> |
+|3  <br/> |3  <br/> |
+|4   <br/> |3  <br/> |
+|5  <br/> |4   <br/> |
+|6   <br/> |5  <br/> |
+|7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
 |9   <br/> |7   <br/> |
-|10   <br/> |8   <br/> |
-|11   <br/> |9   <br/> |
-|12   <br/> |10   <br/> |
-|16 **For Skype for Business Server 2019** <br/> |12   <br/> |
+|10  <br/> |8   <br/> |
+|11  <br/> |9   <br/> |
+|12   <br/> |10  <br/> |
+|16 **Für Skype for Business Server 2019** <br/> |12   <br/> |
 
 
    
 Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorherigen Tabelle dargestellt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit kein Quorumverlust auf Poolebene besteht), können Sie das Cmdlet verwenden,  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` um dem Pool zu ermöglichen, nach diesem Quorumverlust auf Routinggruppenebene wiederherzustellen und Fortschritte zu machen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren und zur Spiegelkopie wechseln und genügend Front-End-Server herunterfahren, sodass gemäß der vorherigen Tabelle nicht genügend ausgeführt werden, wird der gesamte Pool heruntergefahren. Weitere Informationen finden Sie unter [Datenbankspiegelungszeugen.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
+> In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren und zur Spiegelkopie wechseln und genügend Front-End-Server herunterfahren, sodass gemäß der vorherigen Tabelle nicht genügend Ausgeführt werden, wird der gesamte Pool heruntergefahren. Weitere Informationen finden Sie unter [Datenbankspiegelungszeugen.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
   
 #### <a name="pool-level-quorum-loss"></a>Quorumverlust auf Poolebene
 
@@ -71,7 +71,7 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann der Quorumverlust auf Poo
   
 |Gesamtanzahl der Front-End-Server im Pool  <br/> |Anzahl der Server, die für die korrekte Funktionsweise des Pools ausgeführt werden müssen  <br/> |
 |:-----|:-----|
-|2   <br/> |1   <br/> |
+|2  <br/> |1  <br/> |
 |3-4  <br/> |Beliebige 2  <br/> |
 |5-6  <br/> |Beliebige 3  <br/> |
 |7   <br/> |Beliebige 4  <br/> |
@@ -90,7 +90,7 @@ Sie sollten auf einige andere Faktoren achten, um sicherzustellen, dass Ihre Fro
   
 - Wenn Sie das erste Mal Benutzer in den Pool verschieben, stellen Sie sicher, dass mindestens drei der Front-End-Server aktiv sind.
     
-- Wenn Sie eine Kopplungsbeziehung zwischen diesem Pool und einem anderen Pool für Notfallwiederherstellungszwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool zu einem bestimmten Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt hat, um Daten ordnungsgemäß mit dem Sicherungspool zu synchronisieren. Weitere Informationen zu Poolpaaren und Notfallwiederherstellungsfeatures finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server.](high-availability-and-disaster-recovery.md) 
+- Wenn Sie eine Kopplungsbeziehung zwischen diesem Pool und einem anderen Pool für Notfallwiederherstellungszwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool zu einem bestimmten Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt hat, um Daten ordnungsgemäß mit dem Sicherungspool zu synchronisieren. Weitere Informationen zu Poolpaaren und Notfallwiederherstellungsfeatures finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Front-End-Pool mit zwei Front-End-Servern
 
@@ -112,7 +112,7 @@ Wenn Sie jemals einen Pool mit zwei Front-End-Servern bereitstellen müssen, bef
 
 Wenn ein Front-End-Server fehlschlägt und wahrscheinlich nicht für ein paar Tage oder mehr ersetzt wird, entfernen Sie den Server aus der Topologie. Fügen Sie den neuen Front-End-Server zur Topologie hinzu, wenn er wieder verfügbar ist.
   
-Immer wenn Sie eine Konfigurationsänderung an einem Front-End-Pool vornehmen, z. B. beim Hinzufügen oder Entfernen von Servern, müssen Sie die folgenden Richtlinien befolgen:
+Jedes Mal, wenn Sie eine Konfigurationsänderung an einem Front-End-Pool vornehmen, z. B. beim Hinzufügen oder Entfernen von Servern, müssen Sie die folgenden Richtlinien befolgen:
   
 - Nachdem die neue Topologie veröffentlicht wurde, müssen Sie jeden Front-End-Server im Pool neu starten. Starten Sie die Server einen nach dem anderen neu.
     

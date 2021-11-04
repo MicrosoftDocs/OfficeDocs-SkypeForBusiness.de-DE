@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der PIN-losen Besprechungsteilnahme in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die PIN-lose Besprechungsteilnahmeoption in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 5e11a727e42ce4d65e21d3e001404a421fc52541
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f579a3f88553130bec68a1e6e6070c742f8824d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617891"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770263"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Konfigurieren der PIN-losen Besprechungsteilnahme in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die PIN-lose Besprechungsteilnahmeoption in Skype for Business Server konfigurieren.
   
-Wenn ein Einwahlanrufer versucht, an einer Besprechung teilzunehmen, platziert der Caa-Dienst (Conference Auto Attendant) den Anrufer in einem Haltestift, der sich vom Wartebereich unterscheidet, &#x2014; wenn ein Referent nicht bereits an einem Anruf teilnimmt und der Einwahlanrufer keine Leiter-PIN eingegeben hat. Mit der PIN-losen Besprechungsteilnahmeoption können Einwahlanrufer an einer Besprechung teilnehmen, ohne eine Leiter-PIN einzugeben, auch wenn sie die erste Person in einem Anruf sind. 
+Wenn ein Einwahlanrufer versucht, an einer Besprechung teilzunehmen, platziert der Caa-Dienst (Conference Auto Attendant) den Anrufer in einem Haltestift, der sich vom Wartebereich unterscheidet &#x2014; wenn ein Referent noch nicht an einem Anruf teilnimmt und der Einwahlanrufer keine Leiter-PIN eingegeben hat. Mit der PIN-losen Besprechungsteilnahmeoption können Einwahlanrufer an einer Besprechung teilnehmen, ohne eine Leiter-PIN einzugeben, auch wenn sie die erste Person in einem Anruf sind. 
   
 Beachten Sie beim Konfigurieren dieses Features Folgendes:
   
@@ -57,7 +57,7 @@ Der folgende Befehl aktiviert beispielsweise die PIN-lose Besprechungsteilnahme 
 Set-CsDialInConferencingConfiguration -Identity site:Redmond -AllowAnonymousPstnActivation $True
 ```
 
-Aus Sicherheitsgründen sollten Sie beim Aktivieren der PIN-losen Besprechungsteilnahme verhindern, dass anonyme Benutzer ausgehende Anrufe ausführen, indem Sie sicherstellen, dass die ConferencingPolicy wie folgt festgelegt ist:
+Wenn die PIN-lose Besprechungsteilnahme aktiviert ist, empfiehlt es sich aus Sicherheitsgründen, anonyme Benutzer am Ausgehenden zu hindern, indem Sie sicherstellen, dass die ConferencingPolicy wie folgt festgelegt ist:
   
 ```PowerShell
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False

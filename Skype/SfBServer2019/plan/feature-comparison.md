@@ -1,6 +1,6 @@
 ---
 title: Vergleich der Desktopclientfeatures für Skype for Business Server 2019
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.reviewer: PhillipGarding
 manager: serdars
@@ -16,29 +16,29 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 16b14d59-7737-4f9d-aa4d-83765a18ea07
 description: 'Zusammenfassung: Skype for Business Server 2019- oder Skype for Business Onlineadministratoren können diese Tabellen verwenden, um zu verstehen, welche Features auf welchen Clients unterstützt werden.'
-ms.openlocfilehash: 5cfe72bbb680a6b127505b57456de2d513fd41bd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 556b88bfe587d1d5a5a1c78461863f0ae8f8fbbf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592949"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777405"
 ---
 # <a name="desktop-client-feature-comparison-for-skype-for-business-server-2019"></a>Vergleich der Desktopclientfeatures für Skype for Business Server 2019
 
 **Zusammenfassung:** Skype for Business Server 2019- oder Skype for Business Onlineadministratoren können diese Tabellen verwenden, um zu verstehen, welche Features auf welchen Clients unterstützt werden.
 
- Bevor Sie Skype for Business Server bereitstellen oder auf Skype for Business Server aktualisieren, überprüfen Sie, welche Clients bereits in Ihrer Organisation verwendet werden. Verwenden Sie die folgenden Tabellen, um die Auswirkungen der Featureunterstützung auf diese Clients zu verstehen. Dies kann Ihnen helfen, Änderungen an die Benutzer zu kommunizieren, den Rolloutvorgang zu beschleunigen und die Vorteile des Upgrades auf den neuesten Client vollständig zu verstehen.
+ Überprüfen Sie vor der Bereitstellung oder dem Upgrade auf Skype for Business Server, welche Clients bereits in Ihrer Organisation verwendet werden. Verwenden Sie die folgenden Tabellen, um die Auswirkungen der Featureunterstützung auf diese Clients zu verstehen. Dies kann Ihnen helfen, Änderungen an die Benutzer zu kommunizieren, den Rolloutvorgang zu beschleunigen und die Vorteile des Upgrades auf den neuesten Client vollständig zu verstehen.
 
-Einige mit Skype for Business Server 2019 verfügbare Features sind in Skype for Business Online nicht verfügbar. Einzelheiten finden Sie unter [Einschränkungen für Online- oder Hybridbenutzerkonten.](feature-comparison.md#Online-Hybrid) Skype for Business Onlineadministratoren können unter [Skype for Business Beschreibung des Onlinediensts](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) Informationen zu den verschiedenen Plänen finden, die ihnen zur Verfügung stehen.
+Einige mit Skype for Business Server 2019 verfügbare Features sind in Skype for Business Online nicht verfügbar. Einzelheiten finden Sie unter [Einschränkungen für Online- oder Hybridbenutzerkonten.](feature-comparison.md#Online-Hybrid) Skype for Business Onlineadministratoren können unter [Skype for Business Beschreibung des Onlinediensts](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description) Informationen zu den verschiedenen verfügbaren Plänen finden.
 
-In den folgenden Tabellen sind die Features aufgeführt, die für jeden Client verfügbar sind, der mit Skype for Business Server 2019 oder Skype for Business Online funktioniert. Sie können auch auf den Vergleich der [Mobilen Clientfeatures für Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) für Vergleiche von Smart Phone- und Tablet-Clientfeatures verweisen. Die Clientzugriffslizenz oder Benutzerabonnementlizenz, die Ihre Organisation erwirbt, wirkt sich auch darauf aus, welche Features Ihren Benutzern zur Verfügung stehen. Ob Sie den vollständigen oder einfachen Client für Benutzer bereitstellen, hängt von der Lizenz oder dem Plan ab, den Ihre Organisation kauft. Weitere Informationen finden Sie im [Lizenzierungshandbuch.](https://products.office.com/skype-for-business/it-pros)
+In den folgenden Tabellen sind die Features aufgeführt, die für jeden Client verfügbar sind, der mit Skype for Business Server 2019 oder Skype for Business Online funktioniert. Sie können auch auf den Vergleich der [Mobilen Clientfeatures für Skype for Business](../../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) für Vergleiche der Funktionen von Smartphones und Tablet-Clients verweisen. Die Clientzugriffslizenz oder Benutzerabonnementlizenz, die Ihre Organisation erwirbt, wirkt sich auch darauf aus, welche Features Ihren Benutzern zur Verfügung stehen. Ob Sie den vollständigen oder einfachen Client für Benutzer bereitstellen, hängt von der Lizenz oder dem Plan ab, den Ihre Organisation kauft. Weitere Informationen finden Sie im [Lizenzierungshandbuch.](https://products.office.com/skype-for-business/it-pros)
 
 > [!IMPORTANT]
-> Skype for Business Server 2019 und Skype for Business Online unterstützen die folgenden zuvor veröffentlichten Clients: Lync 2013, Skype for Business 2015 und Skype for Business 2016 sowie den Skype for Business 2019-Client. Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Clientvergleichstabellen für Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) und [desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
+> Skype for Business Server 2019 und Skype for Business Online unterstützen die folgenden zuvor veröffentlichten Clients: Lync 2013, Skype for Business 2015 und Skype for Business 2016 sowie den Skype for Business 2019-Client. Informationen zu diesen Clients bei Verwendung mit anderen Servern finden Sie in den [Clientvergleichstabellen für lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-desktop-client-comparison-tables) und [desktop client feature comparison for Skype for Business 2015](../../SfbServer/plan-your-deployment/clients-and-devices/desktop-feature-comparison.md). 
 
 
 > [!NOTE]
-> Der Skype for Business-Web-App-Browserclient und die Skype-Besprechungs-App Windows 10-App bieten nur [Besprechungsunterstützung.](feature-comparison.md#BKMK_Conferencing) Weitere Informationen zu diesen Clients finden Sie unter [Planen von Besprechungsclients (Web App und Besprechungs-App).](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md)
+> Der Skype for Business-Web-App Browserclient und die Skype-Besprechungs-App Windows 10-App bieten nur [Besprechungsunterstützung.](feature-comparison.md#BKMK_Conferencing) Weitere Informationen zu diesen Clients finden Sie unter [Planen von Besprechungsclients (Web App und Besprechungs-App).](../../SfbServer/plan-your-deployment/clients-and-devices/meetings-clients.md)
 
 ## <a name="enhanced-presence-support"></a>Erweiterte Anwesenheitsunterstützung
 <a name="BKMK_EnhancedPresence"> </a>
@@ -79,7 +79,7 @@ In dieser Tabelle werden die Features im Zusammenhang mit der Verwaltung von Cha
 | Alternative Kontaktansichten anzeigen (z. B. Kachelansicht)                                           | &#x2714;                                      | &#x2714;                  | &#x2714;         |
 | Sortieren von Kontakten nach Gruppe, Beziehung oder Neu (Personen, die Sie zu ihrer Kontaktliste hinzugefügt haben) | &#x2714;                                      |                           | &#x2714;         |
 | Sortieren von Kontakten nach Status (Verfügbarkeit)                                                        | &#x2714;                                      |                           | &#x2714;         |
-| Suchen und Hinzufügen von Exchange Kontakten                                                              | &#x2714;                                      |                           | &#x2714;         |
+| Suchen und Hinzufügen Exchange Kontakte                                                              | &#x2714;                                      |                           | &#x2714;         |
 
 ## <a name="im-support"></a>Chatunterstützung
 <a name="BKMK_IMSupport"> </a>
@@ -92,7 +92,7 @@ In dieser Tabelle werden Features im Zusammenhang mit der Chatunterstützung beh
 |Navigieren zwischen mehreren Chatunterhaltungen/Nachverfolgen mehrerer Unterhaltungen in einem einzigen Fenster mit Registerkarten   |&#x2714;|&#x2714;|&#x2714;| 
 |Sofortnachrichtenunterhaltungen in Outlook protokollieren  |&#x2714;|&#x2714; Wenn der serverseitige Unterhaltungsverlauf aktiviert ist   |&#x2714;|   
 |Rechtschreibprüfung |&#x2714;|&#x2714;||   
-|Qualifikationssuche (mit SharePoint Serverintegration)  <br/> (Lokale Skype for Business Server und lokale SharePoint 2013 sind für die Suche nach Fähigkeiten erforderlich.)  |&#x2714;||&#x2714;|
+|Qualifikationssuche (mit SharePoint Serverintegration)  <br/> (Lokale Skype for Business Server und lokale SharePoint 2013 sind für die Qualifikationssuche erforderlich.)  |&#x2714;||&#x2714;|
 |Integration des beständigen Chats (Gruppenchat)  <br/> (nicht für Skype for Business Online verfügbar)|&#x2714;||&#x2714;|  
 |Eskalieren eines Chatrooms für beständigen Chat zu einer Skype for Business Besprechung mit einem Klick  <br/> (nicht für Skype for Business Online verfügbar) |&#x2714;||&#x2714;| 
 |Inlinebilder von Absender und Empfänger im Chatfenster |&#x2714;||&#x2714;| 
@@ -105,7 +105,7 @@ In dieser Tabelle werden Features im Zusammenhang mit der Chatunterstützung beh
 Diese Tabelle enthält Features im Zusammenhang mit der Unterstützung von Besprechungen.
 
 > [!NOTE]
->  Skype for Business Besprechungsfunktionen sind in Skype for Business eigenständigen Onlineplan 1 nicht verfügbar.  Plan 1 wird [eingestellt.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
+>  Skype for Business Besprechungsfeatures sind in Skype for Business eigenständigen Onlineplan 1 nicht verfügbar.  Plan 1 wird [eingestellt.](../../SfbOnline/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-for-business-online-plan-1-retirement.md
 )
 
 In Skype-zu-Skype-Sitzungen kann ein Benutzer von Skype for Business Onlineplan 1 an der Desktopfreigabe und Anwendungsfreigabe teilnehmen, wenn er von einem Benutzer eingeladen wird, der Zugriff auf Freigabefeatures hat.
@@ -113,8 +113,8 @@ Ausführliche Informationen finden Sie in der [Skype for Business Onlinedienstbe
 
 |Feature/Funktion | Skype for Business 2016-Client | Skype for Business auf dem Mac | Skype for Business Web App | Skype for Business 2015-Client | Lync 2013-Client | 
 |:-----|:-----|:-----|:-----|:-----|:-----|  
-|Computeraudiofunktionen hinzufügen  |&#x2714;|&#x2714;|&#x2714;(Plug-In erforderlich)  |&#x2714;|&#x2714;| 
-|Video hinzufügen |&#x2714;|&#x2714;|&#x2714;(Plug-In erforderlich) |&#x2714;|&#x2714;| 
+|Computeraudiofunktionen hinzufügen  |&#x2714;|&#x2714;|&#x2714;(erfordert Plug-In)  |&#x2714;|&#x2714;| 
+|Video hinzufügen |&#x2714;|&#x2714;|&#x2714;(erfordert Plug-In) |&#x2714;|&#x2714;| 
 |Video mit mehreren Teilnehmern anzeigen (Katalogansicht)  |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Videobasierte Bildschirmübertragung    |&#x2714;|&#x2714;|&#x2714; Schreibgeschützt   ||| 
 |Steuerelemente für Referenten in Besprechungen verwenden |&#x2714;|&#x2714;|&#x2714;|&#x2714;|&#x2714;| 
@@ -143,11 +143,11 @@ Ausführliche Informationen finden Sie in der [Skype for Business Onlinedienstbe
 |Video-Spotlight festlegen (Video sperren) |&#x2714;||&#x2714;|&#x2714;|&#x2714;| 
 |Steuerung der Bildschirmfreigabe erteilen/übernehmen  |&#x2714;||&#x2714;|||
 
- &#x2776; Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac-, Lync für Mac 2011- oder Communicator für Mac 2011-Benutzer freigegeben werden. Skype for Business für Mac, Lync für Mac 2011 und Communicator für Mac 2011 können Benutzer keine Desktops steuern, die von Windows Benutzern freigegeben wurden. Dies funktioniert auch nicht für Skype for Business-Web-App unter Max OSX.
+ &#x2776; Teilnehmer können keine Desktops steuern, die von Skype for Business für Mac-, Lync für Mac 2011- oder Communicator für Mac 2011-Benutzer freigegeben werden. Skype for Business für Mac, Lync für Mac 2011 und Communicator für Mac 2011 können Benutzer keine Desktops steuern, die von Windows Benutzern freigegeben wurden. Dies funktioniert auch nicht für Skype for Business-Web-App auf Max OSX.
 
  &#x2777; Für Skype for Business Online erfordert dieses Feature Microsoft PSTN-Konferenzen, Exchange Unified Messaging oder einen Drittanbieter für Audiokonferenzen.
 
- &#x2778; Der Lync für Mac 2011-Client kann Microsoft Office 2013 PowerPoint Präsentationen nicht anzeigen, wenn sie von der Skype for Business-Web-App in einer Konferenz freigegeben wurden.
+ &#x2778; Der Lync für Mac 2011-Client kann PowerPoint Präsentationen Microsoft Office 2013 nicht anzeigen, wenn sie von der Skype for Business-Web-App in einer Konferenz freigegeben wurden.
 
 &#x2779; Für Skype for Business 2016-Apps müssen Sie Klick-und-Los, Build 16.0.4227 oder höher verwenden.
 
@@ -173,7 +173,7 @@ Diese Tabelle enthält Funktionen im Zusammenhang mit der Unterstützung von VoI
 |Unterstützen von Notrufdiensten (E-911) |&#x2714;|&#x2714; |&#x2714; &#x2776; |
 |Chatbenachrichtigung an SIP-URI(s) für E-911-Anrufe |&#x2714;|&#x2714;|&#x2714;|
 |Chatbenachrichtigung an Verteilerliste für E-911-Anruf|&#x2714;|&#x2714;|&#x2714;|
-|Verbinden für Voicemail, Einrichten oder Ändern der Begrüßung |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
+|Verbinden zu Voicemail, Einrichten oder Ändern der Begrüßung |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Benachrichtigung über verpasste Anrufe |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
 |Anrufe im Namen eines anderen Kontakts tätigen (Vorgesetzter/Stellvertreter-Szenario) |&#x2714;|&#x2714;|&#x2714; &#x2776; |
 |Anrufe eines anderen Benutzers verwalten, wenn eine Delegierung konfiguriert wurde |&#x2714;|&#x2714;|&#x2714; &#x2776; | 
@@ -278,7 +278,7 @@ Benutzerkonten können entweder online oder lokal vorhanden sein, was sich auf d
 
 - Chatunterstützung: Integration des beständigen Chats (Gruppenchat)
 
-- Chatunterstützung: Eskalieren eines Chatrooms für beständige Chatrooms zu einer Skype for Business Besprechung mit einem Klick
+- Chatunterstützung: Eskalieren eines Chatrooms für beständigen Chat mit einem Klick zu einer Skype for Business Besprechung
 
 - Externe Benutzer: Durchführen von Anrufen mit zwei oder mehr Teilnehmern mit externen Benutzern
 

@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren einer SNMP-Anwendung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Konfigurieren Sie eine SNMP-Anwendung für die Arbeit mit E9-1-1 in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: ec93aa572b2acf80afa104bba3b5fd1f9573f985
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b033a25d16e5f9ffae47111dbd0929441a735796
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597759"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741451"
 ---
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Konfigurieren einer SNMP-Anwendung in Skype for Business Server
  
@@ -32,7 +32,7 @@ Skype for Business Server enthält eine standardmäßige Webdienstschnittstelle,
 Wenn eine SNMP-Anwendung installiert ist und der Standortinformationsdienst keine Übereinstimmung in der Standortdatenbank findet, fragt der Standortinformationsdienst die Anwendung automatisch mithilfe der vom Client bereitgestellten MAC-Adresse ab. Der Standortinformationsdienst verwendet dann die port- und switch-Informationen, die von der SNMP-Anwendung zurückgegeben werden, um die Standortdatenbank erneut abfragt.
   
 > [!NOTE]
-> MAC-Adressen sind auf Computern mit Windows 8 nicht verfügbar. 
+> MAC-Adressen sind auf Computern, auf denen Windows 8 ausgeführt wird, nicht verfügbar. 
   
 ### <a name="to-configure-the-snmp-application-url"></a>So konfigurieren Sie die URL für die SNMP-Anwendung
 
@@ -44,6 +44,6 @@ Wenn eine SNMP-Anwendung installiert ist und der Standortinformationsdienst kein
    Set-CsWebServiceConfiguration -MACResolverUrl "<SNMP application url>" 
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Set-CsWebServiceConfiguration](/powershell/module/skype/set-cswebserviceconfiguration?view=skype-ps)

@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Guatemala
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Guatemala.
-ms.openlocfilehash: 1d99352da922f2fa51850aca41be2fcc022ed1e6
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Guatemala verfügbar.
+ms.openlocfilehash: f09690f0614f389e25c0bff0540c33beb3936206
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732696"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777575"
 ---
 # <a name="availability-in-guatemala"></a>Verfügbarkeit in Guatemala
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Guatemala.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Guatemala verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -72,7 +72,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> Gebührenpflichtige Nummern sind nur innerhalb des Landes zugänglich.|
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
 
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

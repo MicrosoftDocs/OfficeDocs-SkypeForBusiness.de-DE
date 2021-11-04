@@ -1,7 +1,7 @@
 ---
-title: Telefon der Zahlenverwaltung für Finnland
+title: Telefon der Nummerverwaltung für Finnland
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,14 +20,14 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Finnland für Microsoft Teams.
-ms.openlocfilehash: 584d8956ea44a206d1e8b911af6f2ca79fc794e1
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 57f5429bb618f46b4fc198728e459af6a48049b5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733676"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777175"
 ---
-# <a name="phone-number-management-for-finland"></a>Telefon der Zahlenverwaltung für Finnland
+# <a name="phone-number-management-for-finland"></a>Telefon der Nummerverwaltung für Finnland
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 

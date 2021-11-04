@@ -1,7 +1,7 @@
 ---
 title: Mobilitätsplanungstool
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 4/8/2016
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: feceed86-0f71-47e4-8e56-e5181c6b5cc9
 description: Das Mobilitätsfeature Skype for Business Server 2015 unterstützt Funktionen auf mobilen Geräten.
-ms.openlocfilehash: c5ceef8e69072e07e997579d30d8d10bafd106f8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8a0516f52871582230ae998dabf9a41a94c42874
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612114"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60756686"
 ---
 # <a name="mobility-planning-tool"></a>Mobilitätsplanungstool
  

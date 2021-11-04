@@ -1,14 +1,14 @@
 ---
 title: E-Mail-Vorlagen für Benutzerbenachrichtigungen für das Rollout des Onlinetelefonsystems
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in ihren Teams oder Skype for Business.
+description: Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in Teams oder Skype for Business.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -16,16 +16,16 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 34e15e3b9fccd466905572e6cd234da2f498216b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28cd5ad822863876527877ca0bf633577e21914d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617201"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737491"
 ---
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen der Benutzeradzeptanz Ihres neuen Onlinetelefonsystems
 
-Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Onlinetelefonsystem stellt eine erhebliche Änderung in der Art und Weise dar, wie Benutzer arbeiten, und kann die Produktivität beeinträchtigen. Wenn Sie sich Zeit nehmen, die Benutzer durch diese Änderung zu informieren, zu leiten und zu unterstützen, können Sie eine positive Benutzererfahrung sicherstellen und Ihre Kapitalrendite maximieren.
+Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Onlinetelefonsystem stellt eine erhebliche Änderung in der Art und Weise dar, in der Benutzer arbeiten, und kann die Produktivität beeinträchtigen. Wenn Sie sich Zeit nehmen, die Benutzer durch diese Änderung zu informieren, zu leiten und zu unterstützen, können Sie eine positive Benutzererfahrung sicherstellen und Ihre Kapitalrendite maximieren.
 
 Dieser Artikel enthält anpassbare E-Mail-Vorlagen, mit deren Hilfe Benutzer über ihr neues Telefonsystem informiert werden können. Passen Sie die entsprechenden E-Mails an, und senden Sie sie an Ihre spezifische Sprachbereitstellung. Zur einfachen Personalisierung wurden Klammern verwendet, um Abschnitte zu personalisieren. Es wird jedoch empfohlen, organisationsspezifische Nachrichten hinzuzufügen, um die Ankündigung für Ihre Benutzer besonders relevant zu machen. Ersetzen Sie ggf. für Ihre Bereitstellung alle Verweise auf "Teams" durch "Skype for Business".
 

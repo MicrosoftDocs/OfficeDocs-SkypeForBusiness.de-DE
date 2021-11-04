@@ -1,7 +1,7 @@
 ---
 title: Clients-Mobilitätsrichtlinie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
 description: Auf der Seite Mobilitätsrichtlinie von Clients werden die unter der Bereitstellung verfügbaren Mobilitätsrichtlinien angezeigt.
-ms.openlocfilehash: 7962919d0b57284e2d99fa2741f77dbe0ca4d283
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cdd6a4288e3653554e3572361ed62c9278bee99b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609532"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60757467"
 ---
 # <a name="clients-mobility-policy"></a>Clients: Mobilitätsrichtlinie
 
@@ -51,7 +51,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 Ausführliche Informationen zur Konfiguration von Mobilitätsrichtlinien finden Sie unter [Configuring Mobility Policy](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy).
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Planung der Mobilität](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 

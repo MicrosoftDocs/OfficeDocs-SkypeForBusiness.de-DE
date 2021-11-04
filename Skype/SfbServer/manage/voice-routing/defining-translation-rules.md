@@ -1,7 +1,7 @@
 ---
 title: Definieren von Übersetzungsregeln in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server Enterprise-VoIP leitet Anrufe basierend auf Telefonnummern weiter, die in das E.164-Format normalisiert sind. Dies bedeutet, dass alle gewählten Zeichenfolgen in das E.164-Format normalisiert werden müssen, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen, damit sie in den entsprechenden SIP-URI übersetzt werden können. Skype for Business Server bietet die Möglichkeit, die aufgerufene ID und die Darstellung der Anrufer-ID zu bearbeiten.
-ms.openlocfilehash: ca51ef7cbb1619877abf1291ffaa2c76087ec6d3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629637"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737721"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definieren von Übersetzungsregeln in Skype for Business Server
 
@@ -108,7 +108,7 @@ Führen Sie diese Schritte aus, um eine Übersetzungsregel zu definieren, indem 
     - Geben Sie unter **Übereinstimmung mit dem folgenden Muster** das Muster an, das für den Abgleich der zu übersetzenden Nummern verwendet werden soll.
     - Geben Sie unter **Übersetzungsregel** ein Muster für das Format der übersetzten Nummern an.
 
-    Wenn Sie z. B. **^ \+ (\d {9} \d+)$** in **Übereinstimmung mit diesem Muster** und **011 $1** in **der Übersetzungsregel** eingeben, übersetzt die Regel +441235551010 in 011441235551010.
+    Wenn Sie z. B. **^ \+ (\d {9} \d+)$** in **Übereinstimmung mit diesem Muster** und **011 $1** in der **Übersetzungsregel** eingeben, übersetzt die Regel +441235551010 in 011441235551010.
 8. Klicken Sie auf **OK**, um die Übersetzungsregel zu speichern.
 9. Klicken Sie auf **OK**, um die Trunkkonfiguration zu speichern.
 10. Klicken Sie auf der Seite **Trunkkonfiguration** auf **Commit**, und klicken Sie anschließend auf **Commit für alle**. 

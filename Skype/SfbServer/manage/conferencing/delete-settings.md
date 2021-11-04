@@ -1,7 +1,7 @@
 ---
 title: Löschen von Besprechungskonfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8ebafb86-13b9-468e-beda-f85f6786da85
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server löschen.'
-ms.openlocfilehash: 8aa83668be612e2c35d2f0c541c0494ca5cbd24b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 44b1808c5e5d27bb7dd8aef7ebcef9e26923bb6c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595547"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737831"
 ---
 # <a name="delete-meeting-configuration-settings-in-skype-for-business-server"></a>Löschen von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
@@ -39,7 +39,7 @@ Sie können eine Standort- oder Benutzerkonfiguration löschen, die globale Konf
     
 ## <a name="delete-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Löschen von Besprechungskonfigurationseinstellungen mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie das Cmdlet **"Remove-CsMeetingConfiguration", um Besprechungseinstellungen** zu löschen.
+Um Besprechungseinstellungen zu löschen, verwenden Sie das Cmdlet **"Remove-CsMeetingConfiguration".**
   
 Mit dem folgenden Befehl werden die Besprechungskonfigurationseinstellungen entfernt, die auf den Standort Redmond angewendet wurden:
   

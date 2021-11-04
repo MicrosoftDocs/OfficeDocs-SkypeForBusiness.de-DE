@@ -1,7 +1,7 @@
 ---
 title: Benutzer- und Clientauthentifizierung für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
 description: Ein vertrauenswürdiger Benutzer ist ein Benutzer, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition Server, Enterprise Edition Front-End-Server oder Director. Skype for Business Server nutzt Active Directory Domain Services als einziges, vertrauenswürdiges Back-End-Repository von Benutzeranmeldeinformationen.
-ms.openlocfilehash: 069ce556f37591f7332e8e968dc02e657b090d03
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d256efdf69afce16a06b3b055a9446b29deb7cb0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627797"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737641"
 ---
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer- und Clientauthentifizierung für Skype for Business Server
  
 Ein vertrauenswürdiger Benutzer ist ein Benutzer, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition Server, Enterprise Edition Front-End-Server oder Director. Skype for Business Server nutzt Active Directory Domain Services als einziges, vertrauenswürdiges Back-End-Repository von Benutzeranmeldeinformationen.
   
-Die Authentifizierung ist die Bereitstellung von Benutzerinformationen für einen vertrauenswürdigen Server. Skype for Business Server verwendet je nach Status und Standort des Benutzers die folgenden Authentifizierungsprotokolle.
+Die Authentifizierung ist die Bereitstellung von Benutzerinformationen für einen vertrauenswürdigen Server. Skype for Business Server verwendet je nach Status und Speicherort des Benutzers die folgenden Authentifizierungsprotokolle.
   
 - **Sicherheitsprotokoll MIT Kerberos Version 5** für interne Benutzer mit Active Directory-Anmeldeinformationen. Kerberos erfordert eine Clientverbindung zu den Active Directory-Domänendiensten. Aus diesem Grund kann es nicht zur Authentifizierung von Clients außerhalb der Unternehmensfirewall verwendet werden.
     
@@ -50,7 +50,7 @@ Clientzertifikate bieten eine alternative Möglichkeit für Benutzer, von Skype 
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4.5 
 
-Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4.6 nicht unterstützt, und dies kann dazu führen, dass Skype Besprechungs-App nicht gestartet wird. Wenn ein Client AES als Computerschlüsselüberprüfungswert verwendet, müssen Sie den Computerschlüsselwert auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene Skype Besprechungs-App in IIS zurücksetzen. Anweisungen finden Sie bei Bedarf unter [IIS 8.0 ASP.NET Configuration Management.](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)
+Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4.6 nicht unterstützt, was dazu führen kann, dass Skype Besprechungs-App nicht gestartet werden kann. Wenn ein Client AES als Computerschlüsselüberprüfungswert verwendet, müssen Sie den Computerschlüsselwert auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene Skype Besprechungs-App auf IIS zurücksetzen. Anweisungen finden Sie bei Bedarf unter [IIS 8.0 ASP.NET Configuration Management.](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)
   
 Weitere unterstützte Werte sind:
   
@@ -60,4 +60,4 @@ Weitere unterstützte Werte sind:
     
 - HMACSHA512
     
-  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, da sie sich einmal in ASP.NET 4 befanden. [Kryptografische Verbesserungen in ASP.NET 4.5, Pt. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) enthält weitere Details.
+  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, da sie sich einmal in ASP.NET 4 befanden. [Kryptografieverbesserungen in ASP.NET 4.5, Pt. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) enthält weitere Details.

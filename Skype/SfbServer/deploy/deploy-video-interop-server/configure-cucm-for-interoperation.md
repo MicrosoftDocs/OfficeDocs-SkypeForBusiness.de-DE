@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von CUCM für die Interoperabilität mit Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eab3d9f6-ec40-49bf-9162-1a7f5a59451f
 description: 'Zusammenfassung: Konfigurieren von CUCM für die Arbeit mit Skype for Business Server.'
-ms.openlocfilehash: a27af30cd4934743f8b83260ffd46fa3c65cbcd8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 809ad19e89f398c507673ec677b4ce882d341327
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585631"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741321"
 ---
 # <a name="configure-cucm-for-interoperation-with-skype-for-business-server"></a>Konfigurieren von CUCM für die Interoperabilität mit Skype for Business Server
  
@@ -64,7 +64,7 @@ Eine Reihe von CUCM-Einstellungen muss für die Interoperabilität mit dem VIS b
    
 9. Scrollen Sie auf demselben Bildschirm nach unten zum Abschnitt "SDP-Profilinformationen". Der **SDP-Bandbreitenmodifizierer auf Sitzungsebene für die Option "Early Offer" und "Re-invites"** ist standardmäßig auf TIAS und AS festgelegt. Ändern Sie diese Option nur in TIAS. Wenn Sie diese Option bei der Standardeinstellung belassen, verstehen Skype for Business Server die Informationen zur Bandbreitenmodifizierer in der SIP-Nachricht nicht. TIAS bedeutet Transport Independent Application Specific, as means Application Specific. Hierbei handelt es sich um SIP-Optionen, die in RFC3890 angegeben sind.
     
-10. Scrollen Sie auf demselben Bildschirm weiter nach unten. Wählen Sie unter der trunkspezifischen Konfiguration des SIP-Profils **"Early Offer Support for voice and video calls" aus,** und legen Sie ihn auf die **Option "Obligatorisch" (bei Bedarf MTP einfügen)** fest. Dadurch kann CUCM einen ausgehenden SIP-Anruf mit frühem Angebot einrichten. Ein neues Feature in CUCM 8.5 und darüber hinaus besteht darin, dass es die Einrichtung ausgehender Anrufe mit early Offer unterstützt, ohne dass ein Medienendpunkt (Media Termination Point, MTP) erforderlich ist.
+10. Scrollen Sie auf demselben Bildschirm weiter nach unten. Wählen Sie unter der trunkspezifischen Konfiguration des SIP-Profils die Option **"Early Offer Support for voice and video calls" aus,** und legen Sie sie auf die **Option "Obligatorisch" (bei Bedarf MTP einfügen)** fest. Dadurch kann CUCM einen ausgehenden SIP-Anruf mit frühem Angebot einrichten. Ein neues Feature in CUCM 8.5 und darüber hinaus besteht darin, dass es die Einrichtung ausgehender Anrufe mit early Offer unterstützt, ohne dass ein Medienendpunkt (Media Termination Point, MTP) erforderlich ist.
     
 11. Stellen Sie sicher, dass im Abschnitt "SIP-Optionen Ping" das Kontrollkästchen neben "Options Ping to monitor destination status for Trunks with Service Type 'None (Default)' aktiviert ist."
     
@@ -74,11 +74,11 @@ Eine Reihe von CUCM-Einstellungen muss für die Interoperabilität mit dem VIS b
     
 14. Legen Sie das Geräteprotokoll auf SIP fest, und drücken Sie **"Weiter".**
     
-15. Legen Sie unter "Geräteinformationen" den Gerätenamen und die Beschreibung fest (wahrscheinlich auf etwa SfBVideoInterop_SIPTrunk), und legen Sie die Medienressourcen-Gruppenliste auf einen MRGL fest, der die richtigen Medienressourcen enthält. 
+15. Legen Sie unter "Geräteinformationen" den Gerätenamen und die Beschreibung fest (wahrscheinlich auf SfBVideoInterop_SIPTrunk), und legen Sie die Medienressourcen-Gruppenliste auf einen MRGL fest, der die richtigen Medienressourcen enthält. 
     
 16. Scrollen Sie weiter nach unten. Der Medienendpunkt (Media Termination Point, MTP) ist für Videoanrufe nicht erforderlich, wenn er noch nicht deaktiviert ist, deaktivieren Sie ihn. Aktivieren Sie die Option zum **Ausführen auf allen aktiven einheitlichen CM-Knoten.** Bitte beachten Sie, dass Sie der Skype for Business Server Konfiguration alle CUCM-Knoten hinzufügen sollten.
     
-17. Scrollen Sie weiter nach unten. Legen Sie die Optionen für eingehende Anrufe und verbundene Parteien Einstellungen Optionen wie dargestellt fest.
+17. Scrollen Sie weiter nach unten. Legen Sie die Optionen für eingehende Anrufe und Einstellungen verbundene Parteien wie dargestellt fest.
     
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
@@ -120,7 +120,7 @@ Eine Reihe von CUCM-Einstellungen muss für die Interoperabilität mit dem VIS b
     |**Parameter**|**Empfohlene Einstellung**|
     |:-----|:-----|
     | Musterverwendung <br/> |Domänenrouting  <br/> |
-    |IPv4-Muster  <br/> |contoso.com (leer lassen, wenn IPv6 verwendet wird)  <br/> |
+    |IPv4-Muster  <br/> |contoso.com (bei Verwendung von IPv6 leer lassen)  <br/> |
     |IPv6-Muster  <br/> |contoso.com (bei Verwendung von IPv4 leer lassen)  <br/> |
     |Beschreibung  <br/> |SIPRoute-Muster für mediarv  <br/> |
     |Routenpartition  <br/> |SfBVideoInterop_RoutePartition  <br/> |
@@ -141,6 +141,6 @@ An diesem Punkt ist das CUCM-Videogateway für die Verwendung mit dem VIS konfig
 > [!NOTE]
 > Um die Resilienz zu verbessern, sollten Sie dieses CUCM-Gateway so konfigurieren, dass es mit einem zweiten Video-Interoperabilitätsserver oder VIS-Pool funktioniert. Weitere Informationen finden Sie unter [Resilienzmechanismen.](../../plan-your-deployment/video-interop-server.md#resiliency)
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurieren eines VTC für die Interoperabilität mit Skype for Business Server](configure-a-vtc-for-interoperation.md)

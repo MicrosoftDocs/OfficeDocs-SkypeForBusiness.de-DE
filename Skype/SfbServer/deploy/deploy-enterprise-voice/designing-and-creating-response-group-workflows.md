@@ -1,7 +1,7 @@
 ---
 title: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,19 +15,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
-ms.openlocfilehash: fe5efd7b5ba851055803298dd077009c238fd1f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows behandelt.
+ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60755758"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business
 
-Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
+Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows behandelt.
 
-Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur Annahme des Anrufs verfahren wird. Der Workflow gibt die Warteschleife an, die zum Halten des Anrufs verwendet werden soll, und gibt die Routingmethode an, die für Sammelanschlüsse verwendet werden soll, oder die Fragen und Antworten, die für interaktive Reaktionsgruppenworkflows verwendet werden sollen.
+Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur Annahme des Anrufs verfahren wird. Der Workflow gibt die Warteschleife an, die für das Halten des Anrufs verwendet werden soll, und gibt die Routingmethode an, die für Sammelanschlüsse verwendet werden soll, oder die Fragen und Antworten, die für interaktive Reaktionsgruppenworkflows verwendet werden sollen.
 
 Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, Wartemusik, Geschäftszeiten und Feiertage.
 
@@ -73,7 +73,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 9. Aktivieren Sie das Kontrollkästchen **Anonymität für Agents aktivieren**, um bei Anrufen die Identität der Agents zu verbergen.
 
     > [!NOTE]
-    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen und Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
+    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen sowie Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
 
 10. Geben Sie im Feld **Geben Sie die Adresse der Gruppe ein, die die Anrufe entgegennimmt** den primären SIP-URI (Uniform Resource Identifier) der Gruppe ein, die die Anrufe beim Workflow erhalten soll.
 
@@ -644,7 +644,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
      > [!NOTE]
      > Allen Benutzern, die als Manager einer Reaktionsgruppe festgelegt wurden, muss die Rolle "CsResponseGroupManager" zugewiesen werden. Falls Benutzern diese Rolle nicht zugewiesen ist, können sie keine Reaktionsgruppen verwalten.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business](optional-define-response-group-holiday-sets.md)
 

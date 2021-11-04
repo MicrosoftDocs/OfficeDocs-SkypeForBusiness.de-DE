@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der zu überwachenden Skype for Business Server Computer
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.'
-ms.openlocfilehash: bb8dce9edf44557632fc4e84188606152c76d646
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012179"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777115"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Konfigurieren der zu überwachenden Skype for Business Server Computer
 
-**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.
+**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden Skype for Business Server 2019-Computer, und konfigurieren Sie den Computer als System Center Proxy.
 
-Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
+Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie zuerst Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
 
 ## <a name="installing-a-certificate-on-a-watcher-node-located-outside-the-perimeter-network"></a>Installieren eines Zertifikats auf einem Watcher-Knoten, der sich außerhalb des Umkreisnetzwerks befindet
 <a name="watcher_node_outside"> </a>
@@ -37,7 +37,7 @@ Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auc
 
 1. Doppelklicken Sie auf ihrem System Center Setupmedium auf **Setup.exe**.
 
-2. Klicken Sie im Setup-Assistenten für System Center Operation Manager auf **"Operations Manager-Agent installieren"** aus "Agent installieren" unter "Optionale Installationen".
+2. Klicken Sie im Setup-Assistenten für System Center Operation Manager unter "Optionale Installationen" auf **"Operations Manager-Agent** installieren".
 
 3. Klicken Sie im Setup-Assistenten System Center auf der Seite "Willkommen bei der System Center Operations Manager-Setup-Assistenten" auf **"Weiter".**
 
@@ -57,7 +57,7 @@ Wenn Sie einen Agent an einem dieser Speicherorte bereitstellen, müssen Sie auc
 
 11. Klicken Sie auf **Exit**.
 
-For System Center 2012, you can verify that the agent has been created by clicking **Start**, clicking **All Programs**, clicking System Center Operations **Manager 2012,** and then clicking **Operations 2012 Manager Shell**. Geben Sie im Operations Manager-Shell den folgenden befehl Windows PowerShell ein, und drücken Sie dann die EINGABETASTE:
+For System Center 2012, you can verify that the agent has been created by clicking **Start**, clicking **All Programs**, clicking System Center Operations **Manager 2012**, and then clicking **Operations 2012 Manager Shell**. Geben Sie im Operations Manager-Shell den folgenden befehl Windows PowerShell ein, und drücken Sie dann die EINGABETASTE:
 ```PowerShell
 Get-SCOMAgent
 ```
@@ -76,6 +76,6 @@ Um sicherzustellen, dass der neue Skype for Business Server-Agent am Ermittlungs
 
 4. Stellen Sie sicher, dass im Operations Manager-Ereignisprotokoll keine Fehlerereignisse aufgezeichnet wurden.
 
-5. Der Computer, auf den der Agent erfolgreich übertragen wird, wird unter "Agent Managed" angezeigt, und der Computer, auf dem der Agent manuell installiert wurde, wird unter "Ausstehende Verwaltung" angezeigt, klicken Sie auf den Computernamen, und genehmigen Sie ihn.
+5. Der Computer, auf den der Agent erfolgreich verschoben wird, wird unter "Agent Managed" angezeigt, und der Computer, auf dem der Agent manuell installiert wurde, wird unter "Ausstehende Verwaltung" angezeigt, klicken Sie auf den Computernamen, und genehmigen Sie ihn.
 
 6. Klicken Sie mit der rechten Maustaste auf den Namen des Computers, und klicken Sie dann auf **Eigenschaften**. Wählen Sie im Dialogfeld Eigenschaften auf der Registerkarte Sicherheit die Option **Dieser Agent soll als Proxyagent fungieren und verwaltete Objekte auf anderen Computern erkennen** aus, und klicken Sie dann auf **OK**.

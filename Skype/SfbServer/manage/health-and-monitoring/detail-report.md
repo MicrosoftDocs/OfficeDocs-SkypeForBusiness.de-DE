@@ -1,7 +1,7 @@
 ---
 title: Detaillierter Konferenzbericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Zusammenfassung: Erfahren Sie mehr über den in Skype for Business Server verwendeten Konferenzdetailbericht.'
-ms.openlocfilehash: 9b5dbbaf4ab1312d187b4e3c02882c26066c3db5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 56fafff71f1700667a2ad982f56db099cb60c45e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615701"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60737801"
 ---
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Detaillierter Konferenzbericht in Skype for Business Server
 
@@ -64,7 +64,7 @@ In der folgenden Tabelle werden die Informationen aus dem Abschnitt zur Konferen
 |:-----|:-----|
 |**Benutzer** <br/> |SIP-Adresse des Benutzers, der an der Konferenz teilgenommen hat.  <br/> |
 |**Rolle** <br/> |Rolle (z. B. Referent) des Konferenzteilnehmers.  <br/> |
-|**Konnektivität** <br/> |Netzwerkverbindungen (in der Regel "From Internal" oder "From External") des Teilnehmers.  <br/> |
+|**Verbindung** <br/> |Netzwerkverbindungen (in der Regel "From Internal" oder "From External") des Teilnehmers.  <br/> |
 |**Zeitpunkt des Beitritts** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer der Konferenz beigetreten ist.  <br/> |
 |**Zeitpunkt der Beendigung** <br/> |Datum und Uhrzeit, an dem bzw. zu der der Teilnehmer die Konferenz verlassen hat.  <br/> |
 |**Benutzer-Agent** <br/> |Bezeichner für die vom Endpunkt des Teilnehmers verwendete Software.  <br/> |
