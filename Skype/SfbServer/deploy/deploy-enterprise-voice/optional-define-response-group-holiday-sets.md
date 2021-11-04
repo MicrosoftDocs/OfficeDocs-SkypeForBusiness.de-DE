@@ -1,7 +1,7 @@
 ---
 title: (Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 1c97e791285310e673dc647f76cb8cd733ffd52a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8978789a5ac5b050123bad619c093ec4e895c36e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579959"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773265"
 ---
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business
  
@@ -55,9 +55,9 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
    New-CsRgsHolidaySet -Parent "ApplicationServer:Redmond.contoso.com" -Name "2018 Holidays" -HolidayList ($a, $b)
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
-[Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business](designing-and-creating-response-group-workflows.md)
+[Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

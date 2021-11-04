@@ -1,6 +1,6 @@
 ---
 title: Skype Raumsystem-Setupskripts
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: In diesem Thema finden Sie Beispielskripts für die Bereitstellung Skype Room System-Konten.
-ms.openlocfilehash: 3786f4b25fc05ba8fda2583aad6d83bde6bd4f89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 02c356896608987fc52aae8aa613b1b5bff6eb6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585939"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771687"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Raumsystem-Setupskripts
  

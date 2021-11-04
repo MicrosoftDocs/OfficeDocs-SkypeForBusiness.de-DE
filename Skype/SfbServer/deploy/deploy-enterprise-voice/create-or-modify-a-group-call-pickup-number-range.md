@@ -1,7 +1,7 @@
 ---
 title: Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 65e8cacb3b9ecd55c7411e106aa4dd11d91a32f5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 661efa69d7c7a3264872c4d83b94372d8d9951f1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738921"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business
 
@@ -46,7 +46,7 @@ Die Nummernbereiche der Anrufannahmegruppe müssen die folgenden Regeln erfülle
 
 - Wenn der Zahlenbereich mit dem Zeichen \* oder #beginnt, muss der Bereich größer als 100 sein.
 
-- Gültige Werte: Muss mit der Zeichenfolge des regulären Ausdrucks übereinstimmen ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die entweder mit dem Zeichen \* oder der Zahl 1 bis 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen \* oder #ist, muss das folgende Zeichen eine Zahl 1 bis 9 sein (es darf keine Null sein). Nachfolgende Zeichen können eine beliebige Zahl zwischen 0 und 9 bis zu sieben zusätzlichen Zeichen sein (z. B. "#6000", " \* 92000", " \* 95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder #ist, muss das erste Zeichen eine Zahl zwischen 1 und 9 sein (es kann nicht null sein), gefolgt von bis zu acht Zeichen, die jeweils eine Zahl zwischen 0 und 9 aufweisen (z. B. "915551212", "41212", "300").
+- Gültige Werte: Muss mit der Zeichenfolge des regulären Ausdrucks übereinstimmen ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die entweder mit dem Zeichen \* oder der Zahl 1 bis 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen \* oder #ist, muss das folgende Zeichen eine Zahl 1 bis 9 sein (es darf keine Null sein). Nachfolgende Zeichen können eine beliebige Zahl zwischen 0 und 9 bis zu sieben zusätzlichen Zeichen sein (z. B. "#6000", " \* 92000", " \* 95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder #ist, muss das erste Zeichen eine Zahl zwischen 1 und 9 sein (es kann nicht null sein), gefolgt von bis zu acht Zeichen, jeweils eine Zahl 0 bis 9 (z. B. "915551212", "41212", "300").
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>So erstellen oder ändern Sie einen Gruppenbereich für die Anrufannahme
 
@@ -77,7 +77,7 @@ Die Nummernbereiche der Anrufannahmegruppe müssen die folgenden Regeln erfülle
     > [!IMPORTANT]
     > Verwenden Sie dieses Cmdlet, um den Nummernbereich zugewiesenen Typ nur dann zu ändern, wenn Sie den falschen Typ ursprünglich angegeben haben und der Gruppenbereich noch nicht verwendet wird. Wenn Sie den Nummernbereich von CallPark in GroupPickup oder umgekehrt ändern und der Nummernbereich bereits verwendet wird, funktioniert entweder das Parken von Anrufen oder die Gruppenanrufannahme nicht mehr für diesen Nummernbereich. Wenn Sie beispielsweise einen Nummernbereich von CallPark in GroupPick ändern, kann die Anwendung zum Parken von Anrufen diesen Orbitbereich nicht mehr zum Parken von Anrufen verwenden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 

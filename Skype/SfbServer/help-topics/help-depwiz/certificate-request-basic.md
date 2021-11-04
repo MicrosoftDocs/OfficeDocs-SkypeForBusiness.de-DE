@@ -1,7 +1,7 @@
 ---
 title: Zertifikatanforderung (Grundlagen)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/26/2015
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
-description: Die Seite "Name und Sicherheit" Einstellungen enthält ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bitlänge des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen können.
-ms.openlocfilehash: 45633f52ded86f860a90a3544802944f98493c04
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Die Seite "Name und Sicherheit" Einstellungen bietet ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bitlänge des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen können.
+ms.openlocfilehash: 445a71c4655a8325de85165f1970b85fc536dff9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596949"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764273"
 ---
 # <a name="certificate-request-basic"></a>Zertifikatanforderung (Grundlagen)
  

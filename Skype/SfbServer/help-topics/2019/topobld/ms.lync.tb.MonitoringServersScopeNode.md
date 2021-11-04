@@ -1,7 +1,7 @@
 ---
 title: Monitoring Server – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Knoten Monitoring Server werden die Monitoring Server in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: e4424bfca3c59f8b38cbd267b9b76fa59625618b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6e1211e8c34c1e34567a9a3f8a49479c8aa49f6d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58587547"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764333"
 ---
 # <a name="monitoring-servers-scope-node"></a>Überwachungsserver – Bereichsknoten
  

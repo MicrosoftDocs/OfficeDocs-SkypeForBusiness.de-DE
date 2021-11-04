@@ -5,7 +5,7 @@ ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
 ms:contentKeyID: 48679565
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie SIP-Domänen verwalten und konfigurieren, mit denen Sie einen Verbund herstellen können,
-ms.openlocfilehash: b2fc05f6837b48e353693b7d25a8bb469ca9d6b6
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 455cac695ead7f073269fe3df0e70ea5b26ccb0e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628727"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743541"
 ---
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Verbunddomänen für Ihre Organisation in Skype for Business Server
 
@@ -36,7 +36,7 @@ Wenn Sie SIP-Domänen verwalten und konfigurieren möchten, mit denen Sie einen 
 Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche spezifischen Domänen einen Partnerverbund mit Ihrer Organisation eingehen können. Konfigurieren Sie eine oder mehrere spezifische externe Domänen als zulässige Partnerdomänen. Fügen Sie hierzu jede Domäne der Liste zulässiger Domänen hinzu. Selbst wenn die Suche von Verbundpartnern für Ihre Organisation aktiviert ist, führen Sie diesen Schritt aus, wenn es sich bei der Domäne um einen Verbundpartner handelt, der mit mehr als 1.000 Ihrer Benutzer kommunizieren oder mehr als 20 Nachrichten pro Sekunde senden muss. Ist die Suche von Verbundpartnern für Ihre Organisation nicht aktiviert, können nur Benutzer aus externen Domänen am Instant Messaging und an Konferenzen mit Benutzern Ihrer Organisation teilnehmen, die Sie der Liste zulässiger Domänen hinzugefügt haben. Wenn Sie den Zugriff einer Partnerdomäne auf einen bestimmten Server beschränken möchten, auf dem der Zugriffs-Edgedienst des Verbundpartners ausgeführt wird, können Sie für jede Domäne in der Liste zulässiger Domänen den Domänennamen des Servers angeben, auf dem der Zugriffs-Edgedienst ausgeführt wird.
 
 > [!NOTE]  
-> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren. Die Implementierung der Unterstützung für Verbundbenutzer erfordert jedoch auch, dass Sie die Unterstützung für Verbundbenutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer mit Verbundbenutzern zusammenarbeiten können. Ausführliche Informationen zum Aktivieren der Unterstützung für Verbundbenutzer finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md) Ausführliche Informationen zum Konfigurieren von Richtlinien zum Steuern des Partnerverbunds finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
+> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren. Die Implementierung der Unterstützung für Verbundbenutzer erfordert jedoch auch, dass Sie die Unterstützung für Verbundbenutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer mit Verbundbenutzern zusammenarbeiten können. Ausführliche Informationen zum Aktivieren der Unterstützung für Verbundbenutzer finden Sie unter Aktivieren oder Deaktivieren des [Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md) Ausführliche Informationen zum Konfigurieren von Richtlinien zum Steuern des Partnerverbunds finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
 
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>So fügen Sie eine externe Domäne der Liste zulässiger Domänen hinzu
 

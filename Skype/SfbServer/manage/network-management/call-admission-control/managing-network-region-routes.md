@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Netzwerkregionenrouten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Eine Netzwerkregionsroute definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine Netzwerkregionsroute erforderlich.
-ms.openlocfilehash: 962fba52ab3c937a7479c690c43f0bc5cfe9756d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 30782564076c5a6bb5961f904fe30b1cfe0d0ef5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612154"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750194"
 ---
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von Netzwerkregionsrouten in Skype for Business Server
 
@@ -26,7 +26,7 @@ Eine *Netzwerkregionsroute* definiert die Route zwischen zwei Netzwerkregionen. 
 
 Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkeit verfügen, auf jede andere Region zuzugreifen. Während die Regionenverbindungen Bandbreiteneinschränkungen für Verbindungen zwischen Regionen festlegen und auch die physischen Verbindungen darstellen, bestimmt eine Route, welchen Pfad die Verbindung von einer Region zur anderen nimmt. Verwenden Sie die folgenden Verfahren, um vorhandene Netzwerkregionenrouten in Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell anzuzeigen. 
 
-### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>So zeigen Sie Netzwerkregionen-Routeninformationen in Skype for Business Server Systemsteuerung an
+### <a name="to-view-network-region-route-information-in-skype-for-business-server-control-panel"></a>So zeigen Sie Informationen zur Netzwerkregionenroute in Skype for Business Server Systemsteuerung an
 
 1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
@@ -44,9 +44,9 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionen-Routeninformationen mithilfe von Windows PowerShell Cmdlets
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionenrouteninformationen mithilfe Windows PowerShell Cmdlets
 
-Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ### <a name="to-view-network-region-route-information"></a>So zeigen Sie Informationen zur Netzwerkregionsroute an
 
@@ -60,7 +60,7 @@ Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell 
     NetworkRegionLinks : {NorthwestToNortheast}<br/>
     InterNetworkRegionRouteID : TransAmericaRoute<br/>
     NetworkRegionID1 : Pacific Northwest<br/>
-    NetworkRegionID2: Nordost<br/>
+    NetworkRegionID2 : Nordost<br/>
 
 For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
 

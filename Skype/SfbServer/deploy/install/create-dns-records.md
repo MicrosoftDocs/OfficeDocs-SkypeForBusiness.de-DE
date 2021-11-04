@@ -1,7 +1,7 @@
 ---
 title: Erstellen von DNS-Einträgen für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/15/2018
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 798a663c-0b63-4f75-b0a3-9c553cef8c5f
 description: 'Zusammenfassung: Erfahren Sie, wie Sie DNS konfigurieren und DNS-Einträge für eine Installation von Skype for Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 08a652f3ed2dd19d40aa1830ac91459d205b618a
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 5e84c4c0991f042c0d734f8e62aceceb632b3b11
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726324"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771473"
 ---
 # <a name="create-dns-records-for-skype-for-business-server"></a>Erstellen von DNS-Einträgen für Skype for Business Server
  
@@ -39,7 +39,7 @@ Damit Skype for Business Server ordnungsgemäß funktionieren, müssen eine Reih
 
 DNS-Einträge sind erforderlich, damit Skype for Business Server ordnungsgemäß funktionieren und für Benutzer zugänglich sind.
   
-In diesem Beispiel wird ein FQDN mit DNS-Lastenausgleich namens "pool.contoso.local" verwendet. Dieser Pool besteht aus drei Servern, auf denen Skype for Business Server Enterprise Edition ausgeführt wird. Ein Standard Edition Front-End-Server kann nur einen einzelnen Server enthalten. Wenn Sie Standard Edition verwenden, verwenden Sie nur den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des einzelnen Standard Edition Servers, wenn Sie auf die Front-End-Rolle verweisen, anstatt einen DNS-Pool mit Lastenausgleich von Servern zu erstellen, wie in diesem Beispiel gezeigt. Dieses einfache Beispiel, in dem nur die Front-End-Rolle verwendet wird, enthält die DNS-Einträge in der folgenden Tabelle. Informationen zum Planen Ihrer spezifischen DNS-Anforderungen finden Sie unter [DNS-Anforderungen für Skype for Business Server.](../../plan-your-deployment/network-requirements/dns.md) 
+In diesem Beispiel wird ein FQDN mit DNS-Lastenausgleich namens "pool.contoso.local" verwendet. Dieser Pool besteht aus drei Servern, auf denen Skype for Business Server Enterprise Edition ausgeführt wird. Ein Standard Edition Front-End-Server kann nur einen einzelnen Server enthalten. Mithilfe von Standard Edition würden Sie nur den vollqualifizierten Domänennamen (FQDN) des einzelnen Standard Edition Servers verwenden, wenn Sie auf die Front-End-Rolle verweisen, anstatt einen DNS-Pool mit Lastenausgleich von Servern zu erstellen, wie in diesem Beispiel gezeigt. Dieses einfache Beispiel, in dem nur die Front-End-Rolle verwendet wird, enthält die DNS-Einträge in der folgenden Tabelle. Informationen zum Planen Ihrer spezifischen DNS-Anforderungen finden Sie unter [DNS-Anforderungen für Skype for Business Server.](../../plan-your-deployment/network-requirements/dns.md) 
   
  
 |**Beschreibung**|**Record type**|**Name**|**Wird aufgelöst zu**|**Lastenausgleichstyp**|
@@ -56,7 +56,7 @@ In diesem Beispiel wird ein FQDN mit DNS-Lastenausgleich namens "pool.contoso.lo
 |Einfache URL für Einwahl  <br/> |A  <br/> |dialin.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
 |Einfache URL des Webplaners  <br/> |A  <br/> |scheduler.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
 |Einfache URL für die Verwaltung  <br/> |A  <br/> |admin.contoso.local  <br/> |VIP für interne Webdienste  <br/> |Unterstützte Software und Hardware  <br/> |
-|Legacy-Ermittlung  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |Pool-FQDN (Port 5061)  <br/> |Nicht zutreffend  <br/> |
+|Legacy-Ermittlung  <br/> |SRV  <br/> |_sipinternaltls._tcp.contoso.local  <br/> |Pool-FQDN (Port 5061)  <br/> |–  <br/> |
    
 ### <a name="create-dns-records"></a>Erstellen von DNS-Einträgen
 
@@ -64,7 +64,7 @@ In diesem Beispiel wird ein FQDN mit DNS-Lastenausgleich namens "pool.contoso.lo
     
 2. Klicken Sie auf das Dropdownmenü **"Extras"** und dann auf **"DNS".**
     
-3. Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne **Forward LookupZonen,** und erweitern Sie dann die SIP-Domäne, in der Skype for Business Server installiert wird.
+3. Erweitern Sie in der Konsolenstruktur für Ihre SIP-Domäne **Forward LookupZonen** und dann die SIP-Domäne, in der Skype for Business Server installiert wird.
     
 4. Klicken Sie mit der rechten Maustaste auf die SIP-Domäne, und wählen Sie **neuen Host (A oder AAAA)** aus, wie in der Abbildung dargestellt.
     
@@ -95,7 +95,7 @@ In diesem Beispiel wird ein FQDN mit DNS-Lastenausgleich namens "pool.contoso.lo
    
 8. Fahren Sie mit dem Erstellen von A-Datensätzen für alle Server in der geplanten Bereitstellung fort. 
     
-9. Klicken Sie zum Erstellen des SRV-Eintrags (Service Record) für die Legacyermittlung mit der rechten Maustaste auf die SIP-Domäne, und wählen Sie **"Andere neue Datensätze" aus.**
+9. Um den Dienstdatensatz (SRV)-Eintrag für die Legacyermittlung zu erstellen, klicken Sie mit der rechten Maustaste auf die SIP-Domäne, und wählen Sie **"Andere neue Datensätze" aus.**
     
 10. Klicken Sie in **"Ressourceneintragstyp auswählen"** auf **"Dienstspeicherort (SRV)**" und dann auf **"Datensatz erstellen".**
     

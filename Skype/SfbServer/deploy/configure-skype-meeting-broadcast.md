@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechung Broadcast
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 - IT_Skype4B_Hybrid
 ms.assetid: 2979802e-fc6b-4555-bc43-7cd48f6a1d88
 description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte, die Sie ausführen müssen, um Skype-Besprechung Broadcast für Ihre lokale Skype for Business Server Hybridbereitstellung zu konfigurieren.'
-ms.openlocfilehash: 99ba1733dc8c353dc17f9a4c9a51a9ed00410d27
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 9d1ccadfc6a8bed52a7f6d4aa72bd72c2a5e94c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013709"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771697"
 ---
 # <a name="configure-your-on-premises-deployment-for-skype-meeting-broadcast"></a>Konfigurieren Ihrer lokalen Bereitstellung für Skype-Besprechung Broadcast
  
@@ -30,9 +30,9 @@ ms.locfileid: "60013709"
   
 Skype-Besprechung Broadcast ist ein Onlinedienst, der Teil Office 365 ist. Wenn Sie Skype for Business Server lokal ausführen und Skype-Besprechung Broadcast in Ihrer Umgebung verwenden möchten, müssen Sie die Konfigurationsschritte in diesem Thema ausführen. Bevor Sie beginnen, muss Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online konfiguriert werden. Weitere Informationen finden Sie unter Planen der [Hybridkonnektivität zwischen Skype for Business Server und Skype for Business Online](../../SfbHybrid/hybrid/plan-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json) und Bereitstellen der [Hybridkonnektivität zwischen Skype for Business Server und Skype for Business Online.](../../SfbHybrid/hybrid/configure-hybrid-connectivity.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
   
-## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Konfigurieren Der Hybridumgebung für Skype-Besprechung Broadcast
+## <a name="configure-your-hybrid-environment-for-skype-meeting-broadcast"></a>Konfigurieren Ihrer Hybridumgebung für Skype-Besprechung Broadcast
 
-Sie müssen folgendermaßen vorgehen, um Ihre Umgebung auf Skype-Besprechung Broadcast vorzubereiten:
+Sie müssen die folgenden Schritte ausführen, um Ihre Umgebung auf Skype-Besprechung Broadcast vorzubereiten:
   
 - Konfigurieren des Partnerverbunds mit Skype for Business Onlineressourcen
     
@@ -77,7 +77,7 @@ Als Nächstes müssen Sie der Liste der zulässigen Domänen SIP-Partnerdomänen
     
    - resources.lync.com
     
-Sie können auch den externen Zugriff für SIP-Partnerverbunddomänen konfigurieren, indem Sie die folgenden Cmdlets in der Skype for Business Server Verwaltungsshell ausführen:
+Sie können auch den externen Zugriff für SIP-Verbunddomänen konfigurieren, indem Sie die folgenden Cmdlets in der Skype for Business Server Verwaltungsshell ausführen:
   
 ```powershell
 New-CsAllowedDomain -Identity "noammeetings.lync.com"
@@ -86,4 +86,4 @@ New-CsAllowedDomain -Identity "apacmeetings.lync.com"
 New-CsAllowedDomain -Identity "resources.lync.com"
 ```
 
-Nachdem Sie diese Konfigurationsschritte abgeschlossen haben, können Sie mit der Verwendung von Skype-Besprechung Broadcast in Ihrer Bereitstellung beginnen. Weitere Informationen zu Skype-Besprechung Broadcast finden Sie unter [What is a Skype-Besprechung Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and Skype-Besprechung Broadcast Admin [Guide](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md).
+Nachdem Sie diese Konfigurationsschritte abgeschlossen haben, können Sie mit der Verwendung von Skype-Besprechung Broadcast in Ihrer Bereitstellung beginnen. Weitere Informationen zu Skype-Besprechung Broadcast finden Sie unter [What is a Skype-Besprechung Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) and Skype-Besprechung Broadcast Admin [Guide.](../../SfbOnline/set-up-your-network-for-skype-meeting-broadcast/set-up-your-network-for-skype-meeting-broadcast.md)

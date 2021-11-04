@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Edgeservern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Edgeserver in Ihrer Skype for Business Server Umgebung bereitstellen.'
-ms.openlocfilehash: 611e2e6b4bbc3ef8f1d140b02d8dc3f2bc719953
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623027"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773325"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Bereitstellen von Edgeservern in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Edgeserver in Ihrer Skype for Business Server Umgebung bereitstellen.
   
-Die folgenden Abschnitte enthalten Schritte, die ausgeführt werden sollen, nachdem der Skype for Business Server [Plan for Edge Server deployments in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Documentation überprüft wurde. Die Bereitstellungsschritte sind wie folgt:
+Die folgenden Abschnitte enthalten Schritte, die ausgeführt werden sollen, nachdem der Skype for Business Server [Plan für Edgeserverbereitstellungen in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Dokumentation überprüft wurde. Die Bereitstellungsschritte sind wie folgt:
   
 - Netzwerkschnittstellen
     
@@ -51,7 +51,7 @@ Wie in der Planung erwähnt, konfigurieren Sie entweder Ihre Netzwerkschnittstel
     
    a. Drei statische IP-Adressen im subnetz des externen Umkreisnetzwerks und verweisen das Standardgateway auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass sie auf ein DNS-Umkreisserverpaar verweisen.
     
-   b. Eine statische IP-Adresse im externen Subnetz des Umkreisnetzwerks und Verweisen des Standardgateways auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass sie auf ein DNS-Umkreisserverpaar verweisen. Diese Konfiguration ist NUR zulässig, wenn Sie Ihre Topologie zuvor so konfiguriert haben, dass sie nicht standardmäßige Werte in den Portzuweisungen aufweist, die im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) behandelt werden.
+   b. Eine statische IP-Adresse im subnetz des externen Umkreisnetzwerks und Verweisen des Standardgateways auf die interne Schnittstelle der externen Firewall. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass sie auf ein DNS-Umkreisserverpaar verweisen. Diese Konfiguration ist NUR zulässig, wenn Sie Ihre Topologie zuvor so konfiguriert haben, dass sie nicht standardmäßige Werte in den Portzuweisungen aufweist, was im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) behandelt wird.
     
 3. Konfigurieren Sie auf der internen Schnittstelle eine statische IP im internen Subnetz des Umkreisnetzwerks, und legen Sie kein Standardgateway fest. Konfigurieren Sie die ADAPTOR-DNS-Einstellungen so, dass sie auf mindestens einen DNS-Server verweisen, vorzugsweise aber auf ein Dns-Umkreisserverpaar.
     
@@ -68,13 +68,13 @@ Wie in der Planung erwähnt, konfigurieren Sie entweder Ihre Netzwerkschnittstel
     
    a. Drei statische IP-Adressen im externen Subnetz des Umkreisnetzwerks. Außerdem müssen Sie das Standardgateway auf der externen Schnittstelle konfigurieren, z. B. indem Sie den Router für das Internet oder die externe Firewall als Standardgateway definieren. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass sie auf einen externen DNS-Server verweisen, idealerweise auf ein Paar externer DNS-Server.
     
-   b. Eine statische IP-Adresse im externen Subnetz des Umkreisnetzwerks. Außerdem müssen Sie das Standardgateway auf der externen Schnittstelle konfigurieren, z. B. indem Sie den Router für das Internet oder die externe Firewall als Standardgateway definieren. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass sie auf einen externen DNS-Server oder im Idealfall auf ein Paar externer DNS-Server verweisen. Diese Konfiguration ist NUR zulässig, wenn Sie Ihre Topologie zuvor so konfiguriert haben, dass sie nicht standardmäßige Werte in den Portzuweisungen aufweist, die im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) behandelt werden.
+   b. Eine statische IP-Adresse im externen Subnetz des Umkreisnetzwerks. Außerdem müssen Sie das Standardgateway auf der externen Schnittstelle konfigurieren, z. B. indem Sie den Router für das Internet oder die externe Firewall als Standardgateway definieren. Konfigurieren Sie die DNS-Einstellungen des Adapters so, dass sie auf einen externen DNS-Server oder im Idealfall auf ein Paar externer DNS-Server verweisen. Diese Konfiguration ist NUR zulässig, wenn Sie Ihre Topologie zuvor so konfiguriert haben, dass sie nicht standardmäßige Werte in den Portzuweisungen aufweist, was im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) behandelt wird.
     
 3. Konfigurieren Sie auf der internen Schnittstelle eine statische IP im internen Subnetz des Umkreisnetzwerks, und legen Sie kein Standardgateway fest. Lassen Sie außerdem die DNS-Einstellungen des Adapters leer.
     
 4. Erstellen Sie dauerhafte statische Routen auf der internen Schnittstelle zu allen internen Netzwerken, in denen sich Clients, Skype for Business Server und Exchange Unified Messaging (UM)-Server befinden.
     
-5. Bearbeiten Sie die HOST-Datei auf jedem Edgeserver so, dass sie einen Eintrag für den nächsten Hopserver oder die virtuelle IP (VIP) enthält. Dieser Datensatz ist der Director Standard Edition Server oder Front-End-Pool, den Sie im Topologie-Generator als nächste Hopadresse des Edgeservers konfiguriert haben. Wenn Sie den DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied des nächsten Hoppools ein.
+5. Bearbeiten Sie die HOST-Datei auf jedem Edgeserver so, dass sie einen Eintrag für den nächsten Hopserver oder die virtuelle IP (VIP) enthält. Dieser Datensatz ist der Director Standard Edition Server oder Front-End-Pool, den Sie als Edgeserveradresse für den nächsten Hop im Topologie-Generator konfiguriert haben. Wenn Sie den DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied des nächsten Hoppools ein.
     
 ## <a name="installation"></a>Installation
 
@@ -88,7 +88,7 @@ Um diese Schritte erfolgreich abzuschließen, müssen Sie die Schritte im Artike
     
 4. Klicken Sie nach dem Öffnen des Assistenten auf **"Installieren" oder "Aktualisieren" Skype for Business Server System.**
     
-5. Der Assistent führt Prüfungen aus, um festzustellen, ob etwas bereits installiert ist. Da der Assistent zum ersten Mal ausgeführt wird, sollten Sie mit **Schritt 1 beginnen. Installieren Sie die lokale Konfiguration Store.**
+5. Der Assistent führt Prüfungen aus, um festzustellen, ob etwas bereits installiert ist. Da der Assistent zum ersten Mal ausgeführt wird, sollten Sie mit **Schritt 1 beginnen. Installieren Sie die Store "Lokale Konfiguration".**
     
 6. Das Dialogfeld **"Lokales Replikat des zentralen Verwaltungsspeichers** konfigurieren" wird angezeigt. Sie müssen auf **"Aus Datei importieren" klicken (empfohlen für Edgeserver).**
     
@@ -153,7 +153,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vi. Der **Zertifikatexport-Assistent** wird geöffnet. Klicken Sie auf **Weiter**.
     
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vii. Wählen Sie im Dialogfeld **Dateiformat exportieren** das Format aus, in das Sie exportieren möchten. Unsere Empfehlung ist **kryptografischer Nachrichtensyntaxstandard – PKCS #7 Certificates (P7b)**. Wenn Sie auch dies auswählen, sollten Sie nach Möglichkeit auch das Kontrollkästchen **"Alle Zertifikate in den Zertifizierungspfad einschließen"** aktivieren, da dadurch auch die Zertifikatkette exportiert wird, einschließlich des Zertifikats der Stammzertifizierungsstelle und aller Zwischenzertifikate. Klicken Sie auf **Weiter**.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vii. Wählen Sie im Dialogfeld **Dateiformat exportieren** das Format aus, in das Sie exportieren möchten. Unsere Empfehlung lautet **kryptografischer Nachrichtensyntaxstandard – PKCS #7 Certificates (P7b)**. Wenn Sie auch dies auswählen, sollten Sie nach Möglichkeit auch das Kontrollkästchen **"Alle Zertifikate in den Zertifizierungspfad einschließen"** aktivieren, da dadurch auch die Zertifikatkette exportiert wird, einschließlich des Zertifikats der Stammzertifizierungsstelle und aller Zwischenzertifikate. Klicken Sie auf **Weiter**.
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Viii. Geben Sie im Dialogfeld **"Zu exportierende Datei"** im Dateinameneintrag einen Pfad und einen Dateinamen (die Standarderweiterung wäre .p7b) für das exportierte Zertifikat ein. Wenn dies für Sie einfacher ist, wählen Sie die Schaltfläche **"Durchsuchen"** aus, um zu dem Speicherort zu wechseln, an dem Sie das exportierte Zertifikat speichern möchten, und nennen Sie das exportierte Zertifikat hier. Klicken Sie auf **"Speichern"** und dann auf **"Weiter",** wenn Sie fertig sind.
     
@@ -163,7 +163,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 ### <a name="2-import-the-ca-certification-chain"></a>2. Importieren der Zertifizierungskette der Zertifizierungsstelle
 
-&nbsp;&nbsp;&nbsp;Eine. Öffnen Sie auf jedem Edgeserver das MMC (wählen Sie **Start** und **Ausführen** oder **Suchen** aus, und geben Sie **MMC** ein, um es zu öffnen).
+&nbsp;&nbsp;&nbsp;Eine. Öffnen Sie auf jedem Edgeserver das MMC (wählen Sie **"Start"** und **"Ausführen"** oder **"Suchen"** aus, und geben Sie **MMC** ein, um es zu öffnen).
     
 &nbsp;&nbsp;&nbsp;B. Klicken Sie im Menü **"Datei"** auf **"Snap-In hinzufügen/entfernen",** und wählen Sie dann **"Hinzufügen"** aus.
     
@@ -234,7 +234,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;E. Wenn Sie Zertifikate für andere Mitglieder Ihres Edgepools importieren und Ihr Zertifikat einen privaten Schlüssel enthält, aktivieren Sie unbedingt die Zertifikatdatei, die das **private Schlüsselkontrollkästchen des Zertifikats enthält,** und geben Sie das Kennwort an. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
     
-&nbsp;&nbsp;&nbsp;F. Klicken Sie auf der Seite **"Zusammenfassung"** auf **"Weiter",** nachdem Sie die Informationen bestätigt haben, und **"Fertig stellen",** sobald das Zertifikat erfolgreich importiert wurde.
+&nbsp;&nbsp;&nbsp;F. Klicken Sie auf der Seite **"Zusammenfassung"** auf **"Weiter",** nachdem Sie die Informationen bestätigt haben, und klicken Sie **auf "Fertig stellen",** sobald das Zertifikat erfolgreich importiert wurde.
     
  
 ### <a name="5-export-the-certificate"></a>5. Exportieren des Zertifikats
@@ -254,7 +254,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
 &nbsp;&nbsp;&nbsp;G. Doppelklicken Sie auf **Zertifikate (Lokaler Computer)**, um die Zertifikatspeicher zu erweitern. Doppelklicken Sie auf **"Persönlich",** und klicken Sie dann auf **"Zertifikate".**
     
   > [!NOTE]
-  > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alle richtigen Schritte ausgeführt haben, wenden Sie sich an ihren Zertifizierungsstellenadministrator oder -anbieter. 
+  > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alles richtig verstanden haben, wenden Sie sich an Ihren Zertifizierungsstellenadministrator oder -anbieter. 
   
 &nbsp;&nbsp;&nbsp;H. Klicken Sie im **persönlichen Zertifikatspeicher** für den lokalen Computer mit der rechten Maustaste auf das Zertifikat, das Sie exportieren. Wählen Sie im resultierenden Menü **"Alle Aufgaben"** aus, und klicken Sie dann auf **"Exportieren".**
     
@@ -354,7 +354,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;B. Im Bereitstellungs-Assistenten neben **Schritt 3. Anfordern, Installieren oder Zuweisen von Zertifikaten**, klicken Sie auf **"Erneut ausführen".**
     
-&nbsp;&nbsp;&nbsp;C. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Zertifikat aus einem importieren". P7b-, PFX- oder CER-Datei.**
+&nbsp;&nbsp;&nbsp;C. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Zertifikat aus einer importieren". P7b-, PFX- oder CER-Datei.**
     
 &nbsp;&nbsp;&nbsp;D. Geben Sie auf der Seite **"Zertifikat importieren"** den vollständigen Pfad und Dateinamen des Zertifikats ein, das Sie im vorherigen Abschnitt erhalten haben (oder klicken Sie auf **"Durchsuchen",** um die Datei auf diese Weise zu suchen und auszuwählen). Wenn Ihr Zertifikat einen privaten Schlüssel enthält, stellen Sie sicher, dass die Zertifikatdatei den **privaten Schlüssel des Zertifikats enthält,** und geben Sie das Kennwort für den privaten Schlüssel ein. Klicken Sie auf **"Weiter",** wenn sie fertig ist.
     
@@ -382,7 +382,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
 &nbsp;&nbsp;&nbsp;G. Doppelklicken Sie auf **Zertifikate (Lokaler Computer)**, um die Zertifikatspeicher zu erweitern. **Doppelklicken Sie auf "Persönlich",** und klicken Sie dann auf **"Zertifikate".**
     
    > [!NOTE]
-   > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alle richtigen Schritte ausgeführt haben, wenden Sie sich an ihren Zertifizierungsstellenadministrator oder -anbieter. 
+   > Möglicherweise sind Sie hier, und es werden keine Zertifikate im persönlichen Zertifikatspeicher für den lokalen Computer angezeigt. Sie müssen nicht suchen, wenn der Schlüssel nicht vorhanden ist, war dem importierten Zertifikat kein privater Schlüssel zugeordnet. Probieren Sie die obigen Anforderungs- und Importschritte noch einmal aus. Wenn Sie sicher sind, dass Sie alles richtig verstanden haben, wenden Sie sich an Ihren Zertifizierungsstellenadministrator oder -anbieter. 
   
 &nbsp;&nbsp;&nbsp;H. Klicken Sie im **persönlichen Zertifikatspeicher** für den lokalen Computer mit der rechten Maustaste auf das Zertifikat, das Sie exportieren. Wählen Sie im resultierenden Menü **"Alle Aufgaben"** aus, und klicken Sie dann auf **"Exportieren".**
     
@@ -406,7 +406,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;M. Überprüfen Sie die Zusammenfassung im Dialogfeld **"Zertifikatexport-Assistent abschließen",** und klicken Sie dann auf **"Fertig stellen".**
     
-&nbsp;&nbsp;&nbsp;N. Klicken Sie im Dialogfeld für erfolgreichen Export auf **"OK".**
+&nbsp;&nbsp;&nbsp;N. Klicken Sie im Dialogfeld für den erfolgreichen Export auf **"OK".**
     
 &nbsp;&nbsp;&nbsp;O. Sie müssen nun zu diesem Abschnitt "Zertifikat importieren" zurückkehren und das Zertifikat in alle verbleibenden Edgeserver importieren. Fahren Sie dann mit der Zuweisung fort, unten.
     
@@ -417,9 +417,9 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;B. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Vorhandenes Zertifikat zuweisen".**
     
-&nbsp;&nbsp;&nbsp;C. Wählen Sie auf der Seite **"Zertifikatzuweisung"** in der Liste **"Edge extern"** aus.
+&nbsp;&nbsp;&nbsp;C. Wählen Sie auf der Seite **"Zertifikatzuweisung"** die Option **"Edge extern"** in der Liste aus.
     
-&nbsp;&nbsp;&nbsp;D. Wählen Sie auf der Seite **"Zertifikat Store"** das Zertifikat aus, das Sie für den externen Edge importiert haben (aus dem vorherigen Abschnitt).
+&nbsp;&nbsp;&nbsp;D. Wählen Sie auf der Seite **"Zertifikat Store"** das Zertifikat aus, das Sie für den externen Edgeserver importiert haben (aus dem vorherigen Abschnitt).
     
 &nbsp;&nbsp;&nbsp;E. Sehen Sie sich auf der Seite "Zusammenfassung der **Zertifikatzuweisung"** die Einstellungen an, und klicken Sie dann auf **"Weiter",** um das Zertifikat zuzuweisen.
     
@@ -432,16 +432,16 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
   
 ## <a name="starting-the-edge-servers"></a>Starten der Edgeserver
 
-Sobald das Setup abgeschlossen ist, müssen Sie die Dienste auf jedem Edgeserver in Ihrer Bereitstellung starten:
+Nach Abschluss des Setups müssen Sie die Dienste auf jedem Edgeserver in Ihrer Bereitstellung starten:
   
 1. Klicken Sie auf jedem Edgeserver im **Bereitstellungs-Assistenten** neben **Schritt 4: Dienste starten** auf **"Ausführen".**
     
-2. Überprüfen Sie auf der Seite **"Start Skype for Business Server Services"** die Liste der Dienste, und klicken Sie dann auf **"Weiter",** um die Dienste zu starten.
+2. Überprüfen Sie auf der Seite **"Skype for Business Server Dienste starten"** die Liste der Dienste, und klicken Sie dann auf **"Weiter",** um die Dienste zu starten.
     
 3. Nachdem die Dienste gestartet wurden, können Sie auf **Fertig stellen** klicken, um den Assistenten zu schließen.
     
-4. (Optional) Klicken Sie weiterhin unter **Schritt 4: Dienste starten** auf **Dienststatus**.
+4. (Optional) Klicken Sie weiterhin unter **Schritt 4: Dienste starten** auf **"Dienststatus".**
     
-5.  Überprüfen Sie in der **Dienst-MMC** auf jedem Server, ob alle Skype for Business Server Dienste ausgeführt werden.
+5.  Überprüfen Sie in der **Dienst-MMC** auf jedem Server, ob alle Skype for Business Server-Dienste ausgeführt werden.
     
 

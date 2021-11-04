@@ -1,7 +1,7 @@
 ---
 title: Definieren des Umfangs der E9-1-1-Bereitstellung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2c572dfd-e901-471d-b5a0-18bc8d1d5328
 description: Entscheidungen, die für die Planung einer E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: f5ca67f86d9e8ee5a3a26dde86ff9cd25a3c94e4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b576f2d9e7dbf9cb82484803ca6e93afb4440795
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58635229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777995"
 ---
 # <a name="define-the-scope-of-the-e9-1-1-deployment-in-skype-for-business-server"></a>Definieren des Umfangs der E9-1-1-Bereitstellung in Skype for Business Server
 
@@ -39,14 +39,14 @@ Bevor Sie Skype for Business für E9-1-1 konfigurieren, müssen Sie Ihre E9-1-1-
 
  **Wie möchten Sie E9-1-1-Zweigstellen bereitstellen?**
 
- Sie müssen mit dem Konzept der VoIP-Ausfallsicherheit für Zweigstellenstandorte vertraut sein, wenn Sie E9-1-1 in einer Zweigstelle bereitstellen. Wenn Sie über zentralisierte E-9-1-1-SIP-Trunks verfügen und ein WAN-Ausfall auftritt, können sich anmeldende Clients möglicherweise keinen Standort vom Standortinformationsdienst abrufen oder keine Verbindung mit dem Dienstanbieter für Notrufdienste herstellen. Skype for Business bietet mehrere Strategien für die Behandlung von VoIP-Resilienz in Zweigstellen, einschließlich: Ausfallsicherheit von Datennetzwerken, Bereitstellen eines SIP-Trunks an jeder Zweigstelle oder Senden von Notrufen an das lokale Gateway bei Ausfällen. Ausführliche Informationen finden Sie unter [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
+ Sie müssen mit dem Konzept der VoIP-Ausfallsicherheit für Zweigstellenstandorte vertraut sein, wenn Sie E9-1-1 in einer Zweigstelle bereitstellen. Wenn Sie über zentralisierte E-9-1-1-SIP-Trunks verfügen und ein WAN-Ausfall auftritt, können sich anmeldende Clients möglicherweise keinen Standort vom Standortinformationsdienst abrufen oder keine Verbindung mit dem Dienstanbieter für Notrufdienste herstellen. Skype for Business bietet mehrere Strategien für die Behandlung von VoIP-Resilienz in Zweigstellen, einschließlich: Ausfallsicherheit von Datennetzwerken, Bereitstellen eines SIP-Trunks in jeder Zweigstelle oder Senden von Notrufen an das lokale Gateway bei Ausfällen. Ausführliche Informationen finden Sie unter [Planning for Branch-Site Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-branch-site-voice-resiliency).
 
  **Planen Sie die Aktivierung von E9-1-1 für Benutzer außerhalb des Netzwerks?**
 
- Die automatische Standorterfassung ist nur für Clients verfügbar, die sich im Netzwerk der Organisation befinden. Daher muss Ihre Organisation entscheiden, ob E9-1-1-Anrufe von Skype for Business Clients außerhalb des Standorts unterstützt werden. Können Benutzer beispielsweise Notrufe tätigen, wenn sie von zu Hause aus oder von einer Kundenwebsite aus arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client so konfiguriert werden, dass der Benutzer zur Eingabe eines Standorts aufgefordert wird. Da diese vom Benutzer bereitgestellten Standorte jedoch nicht anhand des Master Street Address Guide (MSAG) vorab überprüft werden können, muss der Notrufdienstanbieter die Gültigkeit des Standorts mit dem Anrufer bestätigen, bevor der Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterleitet.
+ Die automatische Standorterfassung ist nur für Clients verfügbar, die sich im Netzwerk der Organisation befinden. Daher muss Ihre Organisation entscheiden, ob E9-1-1-Anrufe von Skype for Business Clients außerhalb des Standorts unterstützt werden. Können Benutzer beispielsweise Notrufe tätigen, wenn sie von zu Hause aus oder von einer Kundenwebsite aus arbeiten? Wenn sich ein Client außerhalb des Unternehmensnetzwerks befindet, kann der Client so konfiguriert werden, dass der Benutzer zur Eingabe eines Standorts aufgefordert wird. Da diese vom Benutzer bereitgestellten Standorte jedoch nicht anhand des Master Street Address Guide (MSAG) vorab überprüft werden können, muss der Verteiler des Notrufdienstes die Gültigkeit des Standorts mit dem Anrufer bestätigen, bevor der Anruf an die Rettungsleitstelle (Public Safety Answering Point, PSAP) weiterleitet.
 
 > [!NOTE]
-> Skype for Business Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, interne IP-Adressinformationen abrufen können. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze vom Standortinformationsdienst ausgeschlossen werden.
+> Skype for Business Clients von Benutzern, die über VPN eine Verbindung mit dem Netzwerk Ihrer Organisation herstellen, können interne IP-Adressinformationen abrufen. Da diese Adressen jedoch nicht zum Identifizieren des tatsächlichen Standorts des Benutzers verwendet werden können, ist es wichtig, dass VPN-Subnetze vom Standortinformationsdienst ausgeschlossen werden.
 
  **Möchten Sie eine Weiterleitung von Notrufen an Standorte außerhalb der USA bereitstellen?**
 

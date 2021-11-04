@@ -1,7 +1,7 @@
 ---
 title: CLS Logger for Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/25/2017
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die CLS-Protokollierung (Centralized Logging Service) in Skype for Business Server 2015 verwenden.'
-ms.openlocfilehash: e35375dd1715f2d9b2e64cc42339af7247d098d4
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: bd468818335125e764dc6094ad32f7c7cad7f72e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730234"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739081"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger for Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ Die CLS-Protokollierung ist ein Tool, das Sie beim Verwalten von Protokollen unt
   
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Um cls Logger erfolgreich zu verwenden, müssen Sie sicherstellen, dass Folgendes zutrifft:
+Um cls Logger erfolgreich verwenden zu können, müssen Sie sicherstellen, dass Folgendes zutrifft:
   
 - Sie verwenden das Tool auf einem Computer, der Mitglied der Domäne ist, in der der zentralisierte Protokollierungsdienst (Centralized Logging Service, CLS) ausgeführt wird. Das Tool wird derzeit in Remote-PowerShell-Sitzungen nicht unterstützt.
     
@@ -116,7 +116,7 @@ Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle dur
 1. Klicken Sie auf der Registerkarte **"Szenarien bearbeiten"** auf die Schaltfläche **"Szenario erstellen".**
     
     > [!NOTE]
-    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor dem Erstellen eines neuen Szenarios **auf "Einstellungen löschen"** klicken, werden keine Komponenten und Flags ausgewählt.
+    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor dem Erstellen eines neuen Szenarios **auf Einstellungen** löschen klicken, werden keine Komponenten und Flags ausgewählt.
   
 2. Geben Sie den Namen des Szenarios ein, das Sie erstellen möchten, und drücken Sie die EINGABETASTE, oder klicken Sie auf die Schaltfläche "Ok".
     

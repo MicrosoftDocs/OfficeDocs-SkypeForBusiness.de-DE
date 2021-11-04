@@ -1,7 +1,7 @@
 ---
 title: Schemaänderungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d760cb93-77d4-4d64-adb7-416b808f36f8
-description: Bevor Sie Skype for Business Server bereitstellen und ausführen, müssen Sie Active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
-ms.openlocfilehash: 16f71b80864fae8fc97b87eda22ad2a9594c3987
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Bevor Sie Skype for Business Server bereitstellen und ausführen, müssen Sie active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
+ms.openlocfilehash: 000aad35a546556a2a6bceaedc0d0fdb9deb2420
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743281"
 ---
 # <a name="schema-changes-in-skype-for-business-server"></a>Schemaänderungen in Skype for Business Server
  
-Bevor Sie Skype for Business Server bereitstellen und ausführen, müssen Sie Active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
+Bevor Sie Skype for Business Server bereitstellen und ausführen, müssen Sie active Directory Domain Services vorbereiten, indem Sie das Schema erweitern. Die Schemaerweiterungen fügen die Klassen und Attribute hinzu, die von Skype for Business Server benötigt werden.
 
 > [!NOTE]
 > Wenn Sie ein Upgrade von Lync Server 2013 auf Skype for Business Server 2015 durchführen, werden keine Schemaänderungen vorgenommen, und daher gilt dieser Artikel nicht.
@@ -45,7 +45,7 @@ Skype for Business Server erfordert mehrere neue Klassen und Attribute und ände
     
   - Das Kerberos-Authentifizierungskonto (ein optionales Computerobjekt)
     
-In diesem Thema werden die active Directory-Schemaänderungen beschrieben, die für Skype for Business Server erforderlich sind. Schemaänderungen, die in früheren Versionen von Office Communications Server eingeführt wurden, werden nicht beschrieben. Eine Liste der Klassen und deren Beschreibungen finden Sie unter [Schemaklassen und Beschreibungen in Skype for Business Server](schema-classes-and-descriptions.md). Eine Liste der Attribute und deren Beschreibungen finden Sie unter [Schemaattribute und Beschreibungen in Skype for Business Server](schema-attributes-and-descriptions.md). Eine Liste der Klassen mit den Attributen, die sie enthalten können, finden Sie unter [Schemaattribute nach Klasse in Skype for Business Server](schema-attributes-by-class.md).
+In diesem Thema werden die active Directory-Schemaänderungen beschrieben, die für Skype for Business Server erforderlich sind. Schemaänderungen, die in früheren Versionen von Office Communications Server eingeführt wurden, werden nicht beschrieben. Eine Liste der Klassen und deren Beschreibungen finden Sie unter [Schemaklassen und Beschreibungen in Skype for Business Server.](schema-classes-and-descriptions.md) Eine Liste der Attribute und deren Beschreibungen finden Sie unter [Schemaattribute und Beschreibungen in Skype for Business Server](schema-attributes-and-descriptions.md). Eine Liste der Klassen mit den Attributen, die sie enthalten können, finden Sie unter [Schemaattribute nach Klasse in Skype for Business Server](schema-attributes-by-class.md).
   
 Das Präfix msRTCSIP identifiziert Klassen und Attribute, die für Skype for Business Server spezifisch sind.
   
@@ -59,7 +59,7 @@ In der folgenden Tabelle werden die Active Directory-Attribute beschrieben, die 
 |:-----|:-----|
 |msExchUserHoldPolicies  <br/> |Dieses mehrwertige Attribut enthält Bezeichner für Aufbewahrungsrichtlinien, die für den Benutzer gelten. Mit Aufbewahrungsrichtlinien werden für den Benutzer Postfachelemente für die Dauer der Aufbewahrung gespeichert. Dieses Attribut wird für Exchange 2013 freigegeben.  <br/> |
 |msRTCSIP-UserRoutingGroupId  <br/> |Dies ist die SIP-Routinggruppen-ID. Benutzer in derselben Gruppe registrieren sich beim selben Front-End-Server.  <br/> |
-|msRTCSIP-MirrorBackEndServer  <br/> |Dieses Attribut wird verwendet, um die gespiegelte SQL Server Back-End zu speichern, das vom Front-End-Pool verwendet wird.  <br/> |
+|msRTCSIP-MirrorBackEndServer  <br/> |Dieses Attribut wird verwendet, um das gespiegelte SQL Server Back-End zu speichern, das vom Front-End-Pool verwendet wird.  <br/> |
    
 ## <a name="modified-active-directory-classes"></a>Geänderte Active Directory-Klassen
 
@@ -69,7 +69,7 @@ In der folgenden Tabelle werden die Active Directory-Klassen beschrieben, die vo
 
 |**Klasse**|**Ändern**|**Klasse oder Attribut**|
 |:-----|:-----|:-----|
-|User  <br/> |Hinzugefügt: mayContain  <br/> Hinzugefügt: mayContain  <br/> |Proxyaddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
+|Benutzer  <br/> |Hinzugefügt: mayContain  <br/> Hinzugefügt: mayContain  <br/> |Proxyaddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Kontakt  <br/> |Hinzugefügt: mayContain  <br/> Hinzugefügt: mayContain  <br/> |Proxyaddresses  <br/> msRTCSIP-UserRoutingGroupId  <br/> |
 |Mail-Recipient  <br/> |add: mayContain  <br/> |msExchUserHoldPolicies  <br/> |
 |msRTCSIP-GlobalTopologySetting  <br/> |Hinzugefügt: mayContain  <br/> |msRTCSIP-MirrorBackEndServer  <br/> |

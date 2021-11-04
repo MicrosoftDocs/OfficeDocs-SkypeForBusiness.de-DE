@@ -1,7 +1,7 @@
 ---
 title: Veraltete Skype for Business Server 2019
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype for Business Server 2019 entfernt.'
-ms.openlocfilehash: cdc7b54f815c324707ee657d8365aa842f28293d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595029"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771724"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Veraltete Skype for Business Server 2019
 
-Erfahren Sie mehr über die Features und Funktionen, die in Skype for Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype for Business Server 2019 finden Sie [unter What's in Skype for Business Server 2019](whats-new.md).
+Erfahren Sie mehr über die Features und Funktionen, die in Skype for Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype for Business Server 2019 finden Sie [unter What's in Skype for Business Server 2019.](whats-new.md)
 
-Einige features nicht hervorgehoben sind in Skype for Business Server 2019 aus Gründen der Kompatibilität mit früheren Produktversionen enthalten.
+Einige features de-emphasized sind in Skype for Business Server 2019 aus Gründen der Kompatibilität mit früheren Produktversionen enthalten.
 
 ## <a name="features-deprecated-in-skype-for-business-server-2019"></a>Veraltete Features in Skype for Business Server 2019 
 
@@ -31,13 +31,13 @@ Die folgenden Features und Funktionen sind in Skype for Business Server 2019 ver
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>XMPP-Gateways für Skype for Business Server
 
-Skype for Business Server 2015 und seinen Vorgängern konnten Sie einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool konfigurieren. Diese Funktion ist in Skype for Business Server 2019 nicht mehr verfügbar.
+Skype for Business Server 2015 und seinen Vorgängern ermöglicht es Ihnen, einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool zu konfigurieren. Diese Funktion ist in Skype for Business Server 2019 nicht mehr verfügbar.
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Beständiger Chat für Skype for Business Server
 
 Der Server für beständigen Chat ist eine optionale Rolle, mit der mehrere Benutzer in Ihrer Organisation an Chatroomunterhaltungen teilnehmen können, die im Laufe der Zeit bestehen bleiben. Beständiger Chat kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Diese Serverrolle wird aus dem Topologie-Generator und aus dem Code entfernt. 
 
-Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here)
+Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here)
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Spiegelung für Skype for Business Server
 
@@ -49,7 +49,7 @@ Direkte Upgrades waren in Skype for Business Server 2015 verfügbar, werden jedo
 
 ### <a name="mobility-service-mcx"></a>Mobilitätsdienst (Mcx)
 
-Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die Mcx verwenden, müssen auf einen aktuellen Client aktualisieren.
+Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die Mcx verwenden, müssen auf einen aktuellen Client aktualisieren.
 
 Weitere Informationen finden Sie unter [Plan for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for [Skype for Business.](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
 
@@ -71,7 +71,7 @@ Die folgenden Tools werden mit Skype for Business Server 2019 nicht unterstützt
 - Skype for Business Server 2015-Planungstool
 - Skype for Business Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Siehe auch
+### <a name="see-also"></a>Weitere Informationen
 
 [Neuigkeiten in Skype for Business Server 2019](whats-new.md)
 

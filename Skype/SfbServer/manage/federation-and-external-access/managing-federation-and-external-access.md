@@ -5,7 +5,7 @@ ms:assetid: 26f806c1-f284-4637-b06b-06270336c540
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,20 +15,20 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Sie aktivieren und konfigurieren den Zugriff externer Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können.
-ms.openlocfilehash: aab0a4c5a3613f285b47a886819d524e37480341
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2521d3f4d4134c4edb89904e5a7db4e4026b79e6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58590139"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743551"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Verwalten des Partnerverbunds und des externen Zugriffs auf Skype for Business Server
 
-Die Bereitstellung eines Edgeservers oder Edgepools ist der erste Schritt zur Unterstützung externer Benutzer. Ausführliche Informationen zum Bereitstellen von Edgeservern finden Sie unter [Bereitstellen von Edgeservern in Skype for Business Server.](../../deploy/deploy-edge-server/deploy-edge-server.md)
+Die Bereitstellung eines Edgeservers oder Edgepools ist der erste Schritt zur Unterstützung externer Benutzer. Ausführliche Informationen zum Bereitstellen von Edgeservern finden Sie unter [Bereitstellen von Edgeservern in Skype for Business Server](../../deploy/deploy-edge-server/deploy-edge-server.md).
 
-Nach der Installation und Konfiguration Ihrer internen Bereitstellung von Skype for Business Server können interne Benutzer in Ihrer Organisation mit anderen internen Benutzern zusammenarbeiten, die ÜBER SIP-Konten in Ihren Active Directory Domain Services (AD DS) verfügen. Die Zusammenarbeit kann das Senden und Empfangen von Chatnachrichten, die Aktualisierung des Anwesenheitsstatus und die Teilnahme an Konferenzen (auch als "Besprechungen" bezeichnet) umfassen. Sie aktivieren und konfigurieren den Zugriff externer Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können. Externe Benutzer können Remotebenutzer Ihrer Bereitstellung, Verbundbenutzer (einschließlich unterstützter Benutzer von Dienstanbietern für öffentliche Chatnachrichten) und anonyme Teilnehmer an Konferenzen einschließen.
+Nach der Installation und Konfiguration ihrer internen Bereitstellung von Skype for Business Server können interne Benutzer in Ihrer Organisation mit anderen internen Benutzern zusammenarbeiten, die ÜBER SIP-Konten in Ihren Active Directory Domain Services (AD DS) verfügen. Die Zusammenarbeit kann das Senden und Empfangen von Chatnachrichten, die Aktualisierung des Anwesenheitsstatus und die Teilnahme an Konferenzen (auch als "Besprechungen" bezeichnet) umfassen. Sie aktivieren und konfigurieren den Zugriff externer Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können. Externe Benutzer können Remotebenutzer Ihrer Bereitstellung, Verbundbenutzer (einschließlich unterstützter Benutzer von Dienstanbietern für öffentliche Chatnachrichten) und anonyme Teilnehmer an Konferenzen einschließen.
 
-Wenn Ihre Bereitstellung die Installation eines Skype for Business Server Edgeservers oder eines Edgepools umfasste, wird der Umfang möglicher Kommunikationstypen durch eine Reihe von Optionen für den externen Benutzerzugriff, die Kommunikation mit Mitgliedern anderer SIP-Partnerverbunddomänen und SIP-Partnerverbundanbieter erheblich erweitert. Nach dem Einrichten des Edgeservers oder Edgepools aktivieren Sie die Typen des externen Benutzerzugriffs, den Sie bereitstellen möchten, und konfigurieren die Richtlinien, die für den externen Zugriff gesteuert werden sollen. In Skype for Business Server aktivieren und konfigurieren Sie den Zugriff externer Benutzer und Richtlinien basierend auf den Aufgabenanforderungen mithilfe der Skype for Business Server Systemsteuerung, der [Skype for Business Server Verwaltungsshell](../management-shell.md)oder beides. 
+Wenn Ihre Bereitstellung die Installation eines Skype for Business Server Edgeservers oder eines Edgepools umfasste, wird der Umfang möglicher Kommunikationstypen durch eine Reihe von Optionen für den externen Benutzerzugriff, die Kommunikation mit Mitgliedern anderer SIP-Partnerverbunddomänen und SIP-Partnerverbundanbieter erheblich erweitert. Nach dem Einrichten des Edgeservers oder Edgepools aktivieren Sie die Typen des externen Benutzerzugriffs, den Sie bereitstellen möchten, und konfigurieren die Richtlinien, die für den externen Zugriff gesteuert werden sollen. In Skype for Business Server aktivieren und konfigurieren Sie den Zugriff externer Benutzer und Richtlinien mithilfe der Skype for Business Server Systemsteuerung, der [Skype for Business Server Verwaltungsshell](../management-shell.md)oder beides basierend auf den Aufgabenanforderungen. 
 
 
 

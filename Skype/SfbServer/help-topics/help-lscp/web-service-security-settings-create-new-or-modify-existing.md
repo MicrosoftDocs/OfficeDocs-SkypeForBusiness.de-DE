@@ -1,7 +1,7 @@
 ---
 title: Webdienstsicherheit Einstellungen Erstellen einer neuen oder Ändern einer vorhandenen Webdienstsicherheit
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: db5709f311a46283ea79c25f409359dac9366981
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 072a0bae5bd628d032d66a43ee7de737d6efae37
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629767"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770683"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Sicherheitseinstellungen für Webdienste: Erstellen neuer oder Ändern vorhandener Sicherheitseinstellungen für Webdienste
 

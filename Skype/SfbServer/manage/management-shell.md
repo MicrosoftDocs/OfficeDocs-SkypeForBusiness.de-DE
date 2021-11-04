@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Server-Verwaltungsshell
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 674b523b-c0b7-4ed6-9e67-afa6e8ac7e12
 description: Die Skype for Business Server-Verwaltungsshell stellt die Befehlszeilenschnittstelle für die Serververwaltung und -verwaltung bereit. Es basiert auf Windows PowerShell und enthält einen umfassenden Satz von Verwaltungs- und Verwaltungs-Cmdlets, die für Skype und ältere Lync-Serverprodukte spezifisch sind.
-ms.openlocfilehash: dbff67d52d616d55d8e183ffab91126f8546f1b1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d8caadfb1dfe80af74861cf20fa0b155dd20d1a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609292"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750314"
 ---
 # <a name="skype-for-business-server-management-shell"></a>Skype for Business Server-Verwaltungsshell
  
@@ -54,7 +54,7 @@ Wichtige Informationen zu Windows PowerShell in Skype for Business Server:
   
 - Skype for Business Server Die Verwaltungsshell wird automatisch auf jedem Skype for Business Server Enterprise Edition Front-End-Server oder Standard Edition-Server installiert.
     
-- Sie können den Hilfeinhalt der Skype for Business Server Verwaltungsshell aktualisieren, indem Sie das Cmdlet ["Update-Hilfe"](/powershell/module/microsoft.powershell.core/update-help) ausführen. Das cmdlet Update-Help lädt die neuesten Hilfedateien herunter, die für alle auf Ihrem Computer installierten Module verfügbar sind, einschließlich Updates für Skype for Business Cmdlets.
+- Sie können den Hilfeinhalt der Skype for Business Server Verwaltungsshell aktualisieren, indem Sie das Cmdlet ["Update-Help"](/powershell/module/microsoft.powershell.core/update-help) ausführen. Das Update-Help Cmdlet lädt die neuesten Hilfedateien herunter, die für alle auf Ihrem Computer installierten Module verfügbar sind, einschließlich Updates für Skype for Business Cmdlets.
     
     Standardmäßig aktualisiert das Cmdlet **"Update-Hilfe"** alle module, die auf Ihrem Skype for Business Server installiert sind. Wenn Sie nur bestimmte Module aktualisieren möchten, können Sie den Parameter _"Module"_ verwenden, um den Umfang des Cmdlets einzuschränken. Im folgenden Beispiel wird nur das Skype for Business Modul aktualisiert.
     
@@ -62,7 +62,7 @@ Wichtige Informationen zu Windows PowerShell in Skype for Business Server:
   Update-Help -Module SkypeforBusiness
   ```
 
-    Wenn Sie die Hilfe auf Servern aktualisieren müssen, die nicht mit dem Internet verbunden sind, können Sie das Cmdlet ["Save-Help"](/powershell/module/microsoft.powershell.core/save-help) verwenden, um die neueste Version der Hilfe abzurufen und sie an einem von Ihnen angegebenen Speicherort zu speichern. Anschließend können Sie das Cmdlet **"Update-Help"** mit dem Parameter _"-SourcePath"_ auf Servern verwenden, die nicht mit dem Internet verbunden sind, um die aktualisierte Hilfe von dem ausgewählten Speicherort abzurufen. Das folgende Beispiel zeigt, wie Sie die Hilfedateien in einer Netzwerkdateifreigabe speichern und dann die Hilfe für das Skype for Business-Modul aus der Dateifreigabe aktualisieren.
+    Wenn Sie die Hilfe auf Servern aktualisieren müssen, die nicht mit dem Internet verbunden sind, können Sie das Cmdlet ["Save-Help"](/powershell/module/microsoft.powershell.core/save-help) verwenden, um die neueste Version der Hilfe abzurufen und an einem von Ihnen angegebenen Speicherort zu speichern. Anschließend können Sie das Cmdlet **"Update-Help"** mit dem Parameter _"-SourcePath"_ auf Servern verwenden, die nicht mit dem Internet verbunden sind, um die aktualisierte Hilfe von dem ausgewählten Speicherort abzurufen. Das folgende Beispiel zeigt, wie Sie die Hilfedateien in einer Netzwerkdateifreigabe speichern und dann die Hilfe für das Skype for Business Modul aus der Dateifreigabe aktualisieren.
     
   ```PowerShell
   // Save the help files

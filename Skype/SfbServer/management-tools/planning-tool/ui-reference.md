@@ -1,7 +1,7 @@
 ---
 title: Referenz zur Benutzeroberfläche des Planungstools
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars
@@ -12,12 +12,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 4639ce49969d9606ce9c063814d175aeec9a15b8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 06ac9abc943f9f9914978c5fb59e00bbca416ba4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750094"
 ---
 # <a name="planning-tool-ui-reference"></a>Referenz zur Benutzeroberfläche des Planungstools
  
@@ -31,7 +31,7 @@ In diesen Themen wird die Schnittstelle für das Planungstool dokumentiert.
     
 - [Webkonferenzen (Planungstool)](../../help-topics/help-planning/web-conferencing.md)
     
-- [Enterprise-VoIP (Planungstool)](../../help-topics/help-planning/enterprise-voice.md)
+- [Enterprise-VoIP (Planning Tool)](../../help-topics/help-planning/enterprise-voice.md)
     
 - [Exchange Unified Messaging Einstellungen (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     

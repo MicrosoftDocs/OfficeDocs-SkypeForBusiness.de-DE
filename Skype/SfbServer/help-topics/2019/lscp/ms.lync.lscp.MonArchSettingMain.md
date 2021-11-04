@@ -1,7 +1,7 @@
 ---
 title: Archivierungskonfiguration
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie verwenden Archivierungskonfigurationen, um die Archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:'
-ms.openlocfilehash: 08849f41248d78d28f2feb972bcedcde7a2cc768
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f67e43d42bb13f0d0c192f7ac9a2710e05578ed5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622857"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773025"
 ---
 # <a name="archiving-configuration"></a>Archivierungskonfiguration
  
@@ -68,5 +68,5 @@ Auf der Seite **Archivierungskonfiguration** sind die einzelnen Archivierungsric
     
 - **Aktualisieren** Sie können die Seite **"Archivierungskonfiguration"** aktualisieren, um den Status der Optionen aller Archivierungskonfigurationen zu überprüfen.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server,](../../../plan-your-deployment/archiving/archiving.md)Deploy archiving for [Skype for Business Server,](../../../deploy/deploy-archiving/deploy-archiving.md)and [Manage archiving in Skype for Business Server.](../../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter ["Plan for archiving in Skype for Business Server",](../../../plan-your-deployment/archiving/archiving.md) ["Deploy archiving for Skype for Business Server"](../../../deploy/deploy-archiving/deploy-archiving.md)und ["Manage archiving in Skype for Business Server".](../../../manage/archiving/archiving.md)
 

@@ -1,7 +1,7 @@
 ---
 title: Erstellen oder Ändern einer Agentgruppe in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f1461fff-51c1-4f4b-9311-8cba02c333fc
 description: Erstellen oder ändern Sie eine Agentgruppe in der Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 367e8e752042d7b8585fdae918f747aa77085223
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: f17b3839e483f1886e69f84b33980f5384b50066
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58589017"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771560"
 ---
 # <a name="create-or-modify-an-agent-group-in-skype-for-business"></a>Erstellen oder Ändern einer Agentgruppe in Skype for Business
  
@@ -29,7 +29,7 @@ Erstellen oder ändern Sie eine Agentgruppe in der Reaktionsgruppe in Skype for 
   
 Beim Erstellen einer Agentgruppe wählen Sie die Agents aus, die der Gruppe zugewiesen werden. Außerdem geben Sie zusätzliche Gruppeneinstellungen (beispielsweise die Routingmethode) an und legen fest, ob sich ein Agent bei der Gruppe an- und abmelden muss. 
   
-Ein Agent, der sich bei der Gruppe anmelden muss, was sich von der Anmeldung oder Abmeldung von Skype for Business unterscheidet, wird als formeller Agent bezeichnet. Formelle Agents müssen sich bei der Gruppe anmelden, um an die Gruppe weitergeleitete Anrufe empfangen zu können. Dies kann für Agents nützlich sein, die Anrufe der Gruppe nur zeitweise annehmen. Formale Agents melden sich bei ihren Gruppen an, indem sie auf ein Menüelement in Skype for Business klicken, um den Windows Internet Explorer-Internetbrowser zu öffnen und eine Webseitenkonsole anzuzeigen.
+Ein Agent, der sich bei der Gruppe anmelden muss, was sich von der Anmeldung oder ab Skype for Business unterscheidet, wird als formeller Agent bezeichnet. Formelle Agents müssen sich bei der Gruppe anmelden, um an die Gruppe weitergeleitete Anrufe empfangen zu können. Dies kann für Agents nützlich sein, die Anrufe der Gruppe nur zeitweise annehmen. Formale Agents melden sich bei ihren Gruppen an, indem sie auf ein Menüelement in Skype for Business klicken, um die Windows Internet Explorer-Internetbrowser zu öffnen und eine Webseitenkonsole anzuzeigen.
   
 Ein Agent, der sich nicht bei der Gruppe anmeldet oder sich nicht abmeldet, wird als informeller Agent bezeichnet. Informelle Agents werden automatisch bei der Gruppe angemeldet, wenn sie sich bei Skype for Business anmelden, und sie können sich nicht von der Gruppe abmelden.
   
@@ -65,7 +65,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
    - Wählen Sie **Informell**, um anzugeben, dass Agents in der Gruppe sich bei der Gruppe weder an- noch abmelden müssen. Agents werden automatisch bei der Gruppe angemeldet, wenn sie sich bei Skype for Business anmelden.
     
-   - klicken Sie auf **Formell**, um festzulegen, dass sich die Agents der Gruppe bei der Gruppe an- oder abmelden müssen. Wenn Sie diese Option auswählen, klicken Agents in Skype for Business auf ein Menüelement, um Internet Explorer zu öffnen und eine Webseitenkonsole für die Anmeldung an und aus der Gruppe anzuzeigen.
+   - klicken Sie auf **Formell**, um festzulegen, dass sich die Agents der Gruppe bei der Gruppe an- oder abmelden müssen. Wenn Sie diese Option auswählen, klicken Agents in Skype for Business auf ein Menüelement, um Internet Explorer zu öffnen und eine Webseitenkonsole zum Anmelden und Abmelden bei der Gruppe anzuzeigen.
     
 8. Geben Sie im Feld **Agentwarnungszeit (Sekunden)** an, wie lange das Telefon eines Agents klingelt, bevor der Anruf an den nächsten verfügbaren Agent übergeben wird (die Standardeinstellung ist 20 Sekunden).
     
@@ -74,7 +74,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
   
 9. Wählen Sie unter **Routingmethode** aus, wie Anrufe an die Agents in der Gruppe weitergeleitet werden:
     
-   - Klicken Sie auf **"Längster Leerlauf",** um einen neuen Anruf zuerst dem Agent anzubieten, der sich am längsten im Leerlauf befand (in Skype for Business am längsten war, ob **"Verfügbar"** oder **"Inaktiv"** vorhanden war). 
+   - Klicken Sie auf **"Längster Leerlauf",** um dem Agent, der sich am längsten im Leerlauf befand (in Skype for Business am längsten verfügbar **oder** **inaktiv)** einen neuen Anruf anzubieten. 
     
    - Klicken Sie auf **Parallel**, um einen neuen Anruf simultan allen verfügbaren Agents anzubieten. Der Anruf wird an den ersten Agent übergeben, der diesen annimmt.
     
@@ -104,7 +104,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
     
       - Wenn serielles Routing oder Roundrobinrouting ausgewählt ist, bietet der Server einen eingehenden Anruf an den entsprechenden Agent gemäß der Routingmethode und gemäß der Reihenfolge, in der Agents in der Verteilerliste aufgeführt sind.
     
-      - Wenn die Verteilerliste Benutzer enthält, für die Lync Server 2010 aktiviert ist, Enterprise-VoIP jedoch nicht aktiviert ist, werden sie der Agentgruppe als nicht funktionierende Agents hinzugefügt. Stellen Sie sicher, dass für alle Mitglieder der Verteilerliste Enterprise-VoIP für ihre Benutzerkonten aktiviert sind.
+      - Wenn die Verteilerliste Benutzer enthält, für die Lync Server 2010 aktiviert ist, Enterprise-VoIP jedoch nicht aktiviert ist, werden sie der Agentgruppe als nicht funktionierende Agents hinzugefügt. Stellen Sie sicher, dass alle Mitglieder der Verteilerliste für ihre Benutzerkonten Enterprise-VoIP aktiviert sind.
     
     > [!IMPORTANT]
     > Wenn Sie eine E-Mail-Verteilerliste verwenden, werden ausgeblendete Mitgliedschaften oder ausgeblendete Listen möglicherweise für den Reaktionsgruppenadministrator oder die Benutzer sichtbar. 
@@ -144,7 +144,7 @@ Verwenden Sie eines der folgenden Verfahren, um eine Agentgruppe zu erstellen od
    Get-CsRgsAgentGroup -Name "Help Desk"
    ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Get-CsService](/powershell/module/skype/get-csservice?view=skype-ps)
   

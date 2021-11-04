@@ -1,7 +1,7 @@
 ---
 title: Planen der Netzwerkanforderungen für Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
 description: 'Zusammenfassung: Überprüfen Sie die nachstehenden Überlegungen zur Netzwerkkomponente, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 0441b64014f7754d30f8040d059f2fac15c9cb5d
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: b2b8496b307111261c77f93d45d3332b42ead90d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014669"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777925"
 ---
 # <a name="plan-network-requirements-for-skype-for-business"></a>Planen der Netzwerkanforderungen für Skype for Business
 
@@ -29,7 +29,7 @@ ms.locfileid: "60014669"
 
 Die Informationen in diesen Themen werden auch im Whitepaper ["Netzwerkplanung, Überwachung und Problembehandlung mit Lync Server" mit](https://www.microsoft.com/download/details.aspx?id=39084) zusätzlichen Details und Tiefe erläutert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Überlegungen für Skype for Business Server unverändert.
 
-Ebenso ist das Whitepaper ["Delivering Lync 2013 Real-Time Communications over WI-Fi"](https://www.microsoft.com/download/details.aspx?id=36494) eine gute Referenz und gilt auch für Skype for Business Server, wenn Ihr Netzwerk WLAN und kabelgebundenen Zugriff umfasst.
+Ebenso ist das Whitepaper ["Delivering Lync 2013 Real-Time Communications over WI-Fi"](https://www.microsoft.com/download/details.aspx?id=36494) eine gute Referenz und gilt auch für Skype for Business Server, wenn Ihr Netzwerk wlan- und kabelgebundenen Zugriff umfasst.
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -37,9 +37,9 @@ Network performance and needs are directly linked to the traffic load placed on 
 ## <a name="server-hardware"></a>Serverhardware
 <a name="S_hard"> </a>
 
-Der Netzwerkadapter jedes Servers in der Skype for Business Server Topologie muss mindestens 1 Gigabit pro Sekunde (GBit/s) unterstützen. Im Allgemeinen sollten Sie alle Serverrollen innerhalb der Skype for Business Server-Topologie mit einer geringen Latenz und einem LAN (Local Area Network) mit hoher Bandbreite verbinden. Die Größe des LAN hängt von der Größe der Topologie ab:
+Der Netzwerkadapter jedes Servers in der Skype for Business Server-Topologie muss mindestens 1 Gigabit pro Sekunde (GBit/s) unterstützen. Im Allgemeinen sollten Sie alle Serverrollen innerhalb der Skype for Business Server-Topologie mit einer geringen Latenz und einem LAN (Local Area Network) mit hoher Bandbreite verbinden. Die Größe des LAN hängt von der Größe der Topologie ab:
 
-- In Standard Edition Topologien sollten sich Server in einem Netzwerk befinden, das 1 GBit/s Ethernet oder eine entsprechende Netzwerkverbindung unterstützt.
+- In Standard Edition Topologien sollten sich Die Server in einem Netzwerk befinden, das 1 GBit/s Ethernet oder eine entspreche unterstützt.
 
 - In Enterprise Edition Topologien sollten sich die meisten Server in einem Netzwerk befinden, das mehr als 1 GBit/s unterstützt, insbesondere bei der Unterstützung von Audio-/Videokonferenzen (A/V) und Anwendungsfreigabe.
 
@@ -48,12 +48,12 @@ Zur Integration in das Telefonfestnetz (Public Switched Telephone Network, PSTN)
 ## <a name="audiovideo-network-requirements"></a>Netzwerkanforderungen für Audio/Video
 <a name="AV_req"> </a>
 
-Zu den Netzwerkanforderungen für Audio/Video (A/V) in einer Skype for Business Server Bereitstellung gehören:
+Die Netzwerkanforderungen für Audio/Video (A/V) in einer Skype for Business Server Bereitstellung umfassen Folgendes:
 
 - Wenn Sie einen einzelnen Edgeserver oder einen Edgepool mithilfe des DNS-Lastenausgleichs bereitstellen, können Sie die  _externe_ Firewall für die Netzwerkadressübersetzung (Network Address Translation, NAT) konfigurieren. Sie können die _interne_ Firewall nicht so konfigurieren, dass NAT ausgeführt wird. Ausführliche Informationen finden Sie unter [Port- und Firewallplanung.](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)
 
     > [!IMPORTANT]
-    > Wenn Sie über einen Edgepool verfügen und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen auf den Edgeservern verwenden, und Sie können NAT nicht für die Server oder den Pool auf Ihrem NAT-fähigen Gerät (z. B. eine Firewall-Appliance oder einen LAN-Switch) verwenden. Ausführliche Informationen finden Sie [unter Edgeserverszenarien in Skype for Business Server.](../edge-server-deployments/scenarios.md)
+    > Wenn Sie über einen Edgepool verfügen und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen auf den Edgeservern und keine NAT für die Server oder den Pool auf Ihrem NAT-fähigen Gerät (z. B. eine Firewall-Appliance oder einen LAN-Switch) verwenden. Ausführliche Informationen finden Sie [unter Edgeserverszenarien in Skype for Business Server.](../edge-server-deployments/scenarios.md)
 
 - Wenn Ihre Organisation eine QoS-Infrastruktur (Quality of Service) verwendet, wird das Mediensubsystem auf den Betrieb innerhalb der vorhandenen Infrastruktur ausgelegt.
 
@@ -63,9 +63,9 @@ Führen Sie die folgenden Schritte aus, um eine optimale Medienqualität bereitz
 
 - Stellen Sie die Netzwerkverbindungen bereit, um den Durchsatz von 65 Kilobit pro Sekunde (KBit/s) pro Audiodatenstrom und 500 KBit/s pro Videostream zu unterstützen, sofern diese aktiviert sind, während Spitzenauslastungszeiten. Eine bidirektionale Audio- oder Videositzung verwendet zwei Datenströme, sodass für eine einfache Audio-/Telefonverbindung 130 KBit/s erforderlich sind, um jeden Datenstrom abzudecken. Video verwendet ebenfalls insgesamt 1000 KBit/s, um eine upstream- und downstream-Verbindung zu übertragen.
 
-- Um unerwartete Spitzen beim Datenverkehr und eine höhere Nutzung im Laufe der Zeit zu bewältigen, können sich Skype for Business Server Medienendpunkte an unterschiedliche Netzwerkbedingungen anpassen und den dreifachen Durchsatz für Audio und Video unterstützen und gleichzeitig eine akzeptable Qualität beibehalten. Gehen Sie nicht davon aus, dass diese Anpassungsfähigkeit das Problem maskiert, wenn ein Netzwerk nicht bereitgestellt wird. In einem nicht bereitgestellten Netzwerk wird die Fähigkeit der Skype for Business Server Medienendpunkte, dynamisch mit variierenden Netzwerkbedingungen umzugehen (z. B. temporärer hoher Paketverlust), verringert.
+- Um unerwartete Spitzen beim Datenverkehr und eine höhere Nutzung im Laufe der Zeit zu bewältigen, können sich Skype for Business Server Medienendpunkte an unterschiedliche Netzwerkbedingungen anpassen und den dreifachen Durchsatz für Audio und Video unterstützen und gleichzeitig eine akzeptable Qualität beibehalten. Gehen Sie nicht davon aus, dass diese Anpassungsfähigkeit das Problem überdecken wird, wenn ein Netzwerk nicht bereitgestellt wird. In einem nicht bereitgestellten Netzwerk wird die Fähigkeit der Skype for Business Server Medienendpunkte, dynamisch mit variierenden Netzwerkbedingungen umzugehen (z. B. temporärer hoher Paketverlust), verringert.
 
-- Bei Netzwerkverbindungen, bei denen die Bereitstellung sehr kostspielig und schwierig ist, müssen Sie möglicherweise die Bereitstellung für ein geringeres Datenverkehrsvolumen in Betracht ziehen. Lassen Sie in diesem Szenario die Ausfallsicherheit der Skype for Business Server Medienendpunkte den Unterschied zwischen dem Datenverkehrsvolumen und dem Spitzendatenverkehr auffangen, und dies zu Lasten einer gewissen Reduzierung der Sprachqualität. Außerdem wird der Headroom verringert, da andernfalls plötzliche Spitzen im Datenverkehr aufgefangen werden können.
+- Bei Netzwerkverbindungen, bei denen die Bereitstellung sehr kostspielig und schwierig ist, müssen Sie möglicherweise die Bereitstellung für ein geringeres Datenverkehrsvolumen in Betracht ziehen. Lassen Sie in diesem Szenario die Qualität der Skype for Business Server Medienendpunkte den Unterschied zwischen dem Datenverkehrsvolumen und dem Spitzendatenverkehr auffangen, was zu einer gewissen Reduzierung der Sprachqualität führen kann. Außerdem wird der Headroom verringert, da andernfalls plötzliche Spitzen im Datenverkehr aufgefangen werden können.
 
 - Für Links, die kurzfristig nicht ordnungsgemäß bereitgestellt werden können (z. B. ein Standort, der sehr schlechte WAN-Verbindungen verwendet), sollten Sie die Videofunktion für bestimmte Benutzer deaktivieren.
 
@@ -83,28 +83,28 @@ In der folgenden Tabelle werden die empfohlenen Einstellungen für IPsec-Ausnahm
 
 |Regelname |Quell-IP |Ziel-IP |Protokoll |Quellport |Zielport |Authentifizierungsanforderung |
 |:--- |:--- |:--- |:--- |:---|:---|:--- |
-|A/V-Edgeserver, intern eingehend|Beliebig  |A/V-Edgeserver, intern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Edgeserver, extern eingehend|Beliebig  |A/V-Edgeserver, extern|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Edgeserver, intern ausgehend|A/V-Edgeserver, intern  |A/V-Edgeserver, extern |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Edgeserver, extern ausgehend|A/V-Edgeserver, extern |Beliebig |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Vermittlungsserver, eingehend|Beliebig  |Vermittlungsserver |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Vermittlungsserver, ausgehend|Vermittlungsserver  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Konferenzzentrale, eingehend|Beliebig  |Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Konferenzzentrale (ausgehend)|Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Konferenzserver, eingehend|Beliebig|Front-End-Server|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|A/V-Konferenzen, ausgehend|Front-End-Server|Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Exchange, eingehend|Beliebig|Exchange Unified Messaging|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Anwendungsfreigabeserver, eingehend|Beliebig|Anwendungsfreigabeserver|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Anwendungsfreigabeserver, ausgehend|Anwendungsfreigabeserver| Beliebig |UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Exchange, ausgehend|Exchange Unified Messaging|Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
-|Clients| Beliebig  |Beliebig|UDP und TCP|Beliebig |Beliebig |Nicht authentifizieren|
+|A/V-Edgeserver, intern eingehend|Any  |A/V-Edgeserver, intern|UDP und TCP|Any |Any |Nicht authentifizieren|
+|A/V-Edgeserver, extern eingehend|Any  |A/V-Edgeserver, extern|UDP und TCP|Any |Any |Nicht authentifizieren|
+|A/V-Edgeserver, intern ausgehend|A/V-Edgeserver, intern  |A/V-Edgeserver, extern |UDP und TCP|Any |Any |Nicht authentifizieren|
+|A/V-Edgeserver, extern ausgehend|A/V-Edgeserver, extern |Any |UDP und TCP|Any |Any |Nicht authentifizieren|
+|Vermittlungsserver, eingehend|Any  |Vermittlungsserver |UDP und TCP|Any |Any |Nicht authentifizieren|
+|Vermittlungsserver, ausgehend|Vermittlungsserver  |Any|UDP und TCP|Any |Any |Nicht authentifizieren|
+|Konferenzzentrale, eingehend|Any  |Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird |UDP und TCP|Any |Any |Nicht authentifizieren|
+|Konferenzzentrale (ausgehend)|Front-End-Server, auf dem die Konferenzzentrale ausgeführt wird  |Any|UDP und TCP|Any |Any |Nicht authentifizieren|
+|A/V-Konferenzserver, eingehend|Any|Front-End-Server|UDP und TCP|Any |Any |Nicht authentifizieren|
+|A/V-Konferenzen, ausgehend|Front-End-Server|Any|UDP und TCP|Any |Any |Nicht authentifizieren|
+|Exchange, eingehend|Any|Exchange Unified Messaging|UDP und TCP|Any |Any |Nicht authentifizieren|
+|Anwendungsfreigabeserver, eingehend|Any|Anwendungsfreigabeserver|UDP und TCP|Any |Any |Nicht authentifizieren|
+|Anwendungsfreigabeserver, ausgehend|Anwendungsfreigabeserver| Any |UDP und TCP|Any |Any |Nicht authentifizieren|
+|Exchange, ausgehend|Exchange Unified Messaging|Any|UDP und TCP|Any |Any |Nicht authentifizieren|
+|Clients| Any  |Any|UDP und TCP|Any |Any |Nicht authentifizieren|
 |         |         |         |         |         |         |         |
 
 
 ## <a name="conferencing-network-requirements"></a>Netzwerkanforderungen für Konferenzen
 <a name="Conf_req"> </a>
 
-Die Bandbreite, die zum Herunterladen von Konferenzinhalten vom IIS-Server (Internet Information Services, Internetinformationsdienste) verwendet wird, hängt von der Größe des Inhalts ab. Sie können die tatsächliche Auslastung überwachen und die Bandbreitenplanung entsprechend anpassen.
+Die Bandbreite, die zum Herunterladen von Konferenzinhalten vom Internetinformationsdienste (IIS)-Server verwendet wird, hängt von der Größe des Inhalts ab. Sie können die tatsächliche Auslastung überwachen und die Bandbreitenplanung entsprechend anpassen.
 
 ## <a name="network-bandwidth-requirements-for-media-traffic"></a>Netzwerkbandbreitenanforderungen für Mediendatenverkehr
 <a name="Conf_req"> </a>
@@ -114,7 +114,7 @@ Ein wichtiger Teil der Netzwerkplanung besteht darin, sicherzustellen, dass Ihr 
 ### <a name="media-traffic-network-usage"></a>Netzwerknutzung des Mediendatenverkehrs
 <a name="Net_req"> </a>
 
-Aufgrund der Vielzahl an verschiedenen Faktoren, wie z. B. Codecverwendung, Auflösung und Aktivitätsgrad kann es schwierig sein, die Bandbreite für Mediendatenverkehr zu berechnen. Die Bandbreitennutzung ist eine Funktion des verwendeten Codecs und der Aktivität des Datenstroms, die je nach Szenario variieren kann. In der folgenden Tabelle sind die Audiocodecs aufgeführt, die normalerweise in Skype for Business Server-Szenarien verwendet werden.
+Aufgrund der Vielzahl an verschiedenen Faktoren, wie z. B. Codecverwendung, Auflösung und Aktivitätsgrad kann es schwierig sein, die Bandbreite für Mediendatenverkehr zu berechnen. Die Bandbreitennutzung ist eine Funktion des verwendeten Codecs und der Aktivität des Datenstroms, die je nach Szenario variieren kann. In der folgenden Tabelle sind die Audiocodecs aufgeführt, die normalerweise in Skype for Business Server Szenarien verwendet werden.
 
 **Audiocodecbandbreite**
 
@@ -160,11 +160,11 @@ Die erforderliche Bandbreite hängt von der Auflösung, Qualität, Bildfrequenz 
 
 - **Bitrate mit maximaler Nutzlast** Dies ist die Bitrate, die ein Endpunkt für die Auflösung mit der maximalen Framerate verwendet. Dies ist der Wert, der die höchste Video- und Tonqualität zulässt.
 
-- **Minimale Nutzlastbitrate** Dies ist die Bitrate, unter der ein Skype for Business Server Endpunkt zur nächsten niedrigeren Auflösung wechselt. Um eine bestimmte Auflösung zu gewährleisten, darf die verfügbare Bitrate der Videonutzlast nicht unter diese minimale Bitrate für diese Auflösung fallen. Dieser Wert hilft Ihnen, den niedrigsten wert zu verstehen, der möglich ist, wenn die maximale Bitrate nicht verfügbar oder praktisch ist. Für einige Benutzer kann ein solches Video mit niedriger Bitrate eine inakzeptable Videoumgebung bieten. Seien Sie daher mit diesen Mindest-Videonutzlastbitraten vorsichtig. Beachten Sie, dass bei statischen, sich nicht ändernden Videoszenen die tatsächliche Bitrate vorübergehend unter die minimale Bitrate fällt.
+- **Minimale Nutzlastbitrate** Dies ist die Bitrate, unter der ein Skype for Business Server Endpunkt zur nächst niedrigeren Auflösung wechselt. Um eine bestimmte Auflösung zu gewährleisten, darf die verfügbare Bitrate der Videonutzlast nicht unter diese minimale Bitrate für diese Auflösung fallen. Dieser Wert hilft Ihnen, den niedrigsten wert zu verstehen, der möglich ist, wenn die maximale Bitrate nicht verfügbar oder praktisch ist. Für einige Benutzer kann ein solches Video mit niedriger Bitrate eine inakzeptable Videoumgebung bieten. Seien Sie daher mit diesen Mindest-Videonutzlastbitraten vorsichtig. Beachten Sie, dass bei statischen, sich nicht ändernden Videoszenen die tatsächliche Bitrate vorübergehend unter die minimale Bitrate fällt.
 
 Skype for Business Server unterstützt viele Auflösungen. Dadurch können Skype for Business Server sich an die unterschiedliche Netzwerkbandbreite und empfangende Clientfunktionen anpassen. Das Standardseitenverhältnis für Skype for Business Server ist 16:9. Das alte 4:3-Seitenverhältnis wird weiterhin für Webcams unterstützt, die keine Erfassung im 16:9-Seitenverhältnis zulassen.
 
-Video FEC ist immer in der Videonutzlast-Bitrate enthalten, wenn es verwendet wird, sodass es keine separaten Werte für Video-FEC und ohne Video-FEC gibt.
+Video-FEC ist immer in der Videonutzlast-Bitrate enthalten, wenn es verwendet wird, sodass es keine separaten Werte für Video-FEC und ohne Video-FEC gibt.
 
 Endpunkte übertragen Audio- oder Videopakete nicht in einem kontinuierlichen Stream. Für jedes Szenario gibt es unterschiedliche Aktivitätsebenen, die angeben, wie häufig Pakete für einen Stream gesendet werden. Die Aktivität eines Streams richtet sich nach dem Medium und dem Szenario, nicht jedoch nach dem verwendeten Codec. In einem Peer-zu-Peer-Szenario gilt Folgendes:
 
@@ -202,7 +202,7 @@ Für die Kapazitätsplanung sind die folgenden beiden Statistiken von Interesse:
 
 - **Maximale Bandbreite mit FEC** Die maximale Bandbreite, die ein Datenstrom verbraucht. Dazu gehören die typische Aktivität des Datenstroms und der typische Codec, der im Szenario mit FEC verwendet wird. Hierbei handelt es sich um die Bandbreite, die benötigt wird, wenn die Streamaktivität bei 100 % liegt und ein Paketverlust auftritt, der eine Vorwärtsfehlerkorrektur zur Verbesserung der Qualität auslöst. Dies ist nützlich, um zu berechnen, wie viel Bandbreite zugewiesen werden muss, damit der Codec in einem bestimmten Szenario verwendet werden kann, und die Verwendung von FEC, um die Qualität unter Paketverlustbedingungen zu erhalten.
 
-Die folgenden Tabellen enthalten auch einen zusätzlichen Bandbreitenwert, **typische Bandbreite.** Dies ist die durchschnittliche Bandbreite, die ein Datenstrom verbraucht. Dazu gehören die typische Aktivität des Datenstroms und der typische Codec, der in dem Szenario verwendet wird. Diese Bandbreite kann verwendet werden, um zu ermitteln, wie viel Bandbreite von Mediendatenverkehr zu einem bestimmten Zeitpunkt verbraucht wird, sollte jedoch nicht für die Kapazitätsplanung verwendet werden, da einzelne Anrufe diesen Wert überschreiten, wenn die Aktivitätsebene größer als der Durchschnitt ist. Die typische Bandbreite des Videodatenstroms in den folgenden Tabellen basiert auf einer Mischung verschiedener Videoauflösungen, wie in gemessenen Kundendaten beobachtet, und kleinere Installationen weisen wahrscheinlich tatsächliche Zahlen auf, die sich von den Tabellendaten unterscheiden. In Peer-to-Peer-Sitzungen würden die meisten Benutzer beispielsweise das Standardfenster für das Videorendering verwenden, während einige Prozent der Benutzer die Skype for Business Server Anwendung erhöhen oder maximieren würden, um bessere Videoauflösungen zu ermöglichen.
+Die folgenden Tabellen enthalten auch einen zusätzlichen Bandbreitenwert, **typische Bandbreite.** Dies ist die durchschnittliche Bandbreite, die ein Datenstrom verbraucht. Dazu gehören die typische Aktivität des Datenstroms und der typische Codec, der in dem Szenario verwendet wird. Diese Bandbreite kann verwendet werden, um zu ermitteln, wie viel Bandbreite von Mediendatenverkehr zu einem bestimmten Zeitpunkt verbraucht wird, sollte jedoch nicht für die Kapazitätsplanung verwendet werden, da einzelne Anrufe diesen Wert überschreiten, wenn die Aktivitätsstufe größer als der Durchschnitt ist. Die typische Bandbreite des Videodatenstroms in den folgenden Tabellen basiert auf einer Mischung verschiedener Videoauflösungen, wie in gemessenen Kundendaten beobachtet, und kleinere Installationen weisen wahrscheinlich tatsächliche Zahlen auf, die sich von den Tabellendaten unterscheiden. In Peer-to-Peer-Sitzungen würden die meisten Benutzer beispielsweise das Standardfenster für das Videorendering verwenden, während einige Prozent der Benutzer die Skype for Business Server Anwendung erhöhen oder maximieren würden, um bessere Videoauflösungen zu ermöglichen.
 
 Die folgenden Tabellen enthalten Werte für die verschiedenen Szenarien.
 
@@ -227,13 +227,13 @@ Die folgenden Tabellen enthalten Werte für die verschiedenen Szenarien.
 |Hauptvideo, Empfang  <br/> |H.264 und RTVideo  <br/> |260  <br/> |8015  <br/> |Nicht zutreffend  <br/> |
 |Hauptvideo, Senden  <br/> |H.264 und RTVideo  <br/> |270  <br/> |8015  <br/> |Nicht zutreffend  <br/> |
 |Panoramavideo, Empfang  <br/> |H.264 und RTVideo  <br/> |190  <br/> |2010 (für eine maximale Auflösung von 1920x288)  <br/> |Nicht zutreffend  <br/> |
-|Panoramavideo, Senden  <br/> |H.264 und RTVideo  <br/> |190  <br/> |2515 ²  <br/> |Nicht zutreffend  <br/> |
+|Panoramavideo, Senden  <br/> |H.264 und RTVideo  <br/> |190  <br/> |2515 ²  <br/> |Nicht anwendbar  <br/> |
 
 1. RT Video wird zusätzlich zu H.264 gesendet, wenn Lync 2010-Clients mit der Konferenz verbunden sind.
 
 2. Wenn mehrere Datenströme vorhanden sind, teilen sie sich dynamisch die zugewiesene Bandbreite.
 
-Für das Hauptvideo ist die typische Streambandbreite die aggregierte Bandbreite über alle empfangenen Videostreams, und der maximale Datenstrom ist die Bandbreite über alle Sendevideostreams. Selbst bei mehreren Videostreams ist die typische Videobandbreite kleiner als im Peer-to-Peer-Szenario, da viele Videokonferenzen die Inhaltsfreigabe verwenden, was zu viel kleineren Videofenstern und damit zu kleineren Videoauflösungen führt. Die maximal unterstützte aggregierte Bandbreite der Videonutzlast beträgt 8000 KBit/s für sowohl Sende- als auch Empfangsstreams, die verwendet werden würden (z. B. wenn zwei eingehende 1920x1080p-Videodatenströme vorhanden sind). Höchstwerte werden in tatsächlichen Implementierungen nur selten angezeigt.
+Für das Hauptvideo ist die typische Streambandbreite die aggregierte Bandbreite über alle empfangenen Videostreams, und der maximale Datenstrom ist die Bandbreite über alle Sendevideostreams. Selbst bei mehreren Videostreams ist die typische Videobandbreite kleiner als im Peer-to-Peer-Szenario, da viele Videokonferenzen die Inhaltsfreigabe verwenden, was zu viel kleineren Videofenstern und damit zu kleineren Videoauflösungen führt. Die maximal unterstützte aggregierte Bandbreite der Videonutzlast beträgt 8000 KBit/s für sowohl Sende- als auch Empfangsstreams, die verwendet werden würden (z. B. wenn zwei eingehende 1920x1080p-Videostreams vorhanden sind). Höchstwerte werden in tatsächlichen Implementierungen nur selten angezeigt.
 
 Beim Erstellen einer Konferenz mit mehreren Teilnehmern, die das Feature für die Galerieansicht verwendet, erhöht sich die Bandbreitenauslastung zunächst, wenn Teilnehmer beitreten, und nimmt dann ab, wenn Die Auflösungen so eingestellt werden, dass sie das Maximum erreichen.
 
@@ -257,12 +257,12 @@ Die Angaben zur Netzwerkbandbreite in diesen Tabellen gelten nur für unidirekti
 ## <a name="managing-quality-of-service"></a>Verwalten der Dienstqualität
 <a name="man_QOS"> </a>
 
-Quality of Service (QoS) ist eine Netzwerktechnologie, die in einigen Organisationen verwendet wird, um eine optimale Endbenutzererfahrung für die Audio- und Videokommunikation bereitzustellen. QoS wird am häufigsten in Netzwerken verwendet, in denen die Bandbreite begrenzt ist: Da eine große Anzahl von Netzwerkpaketen um eine relativ geringe verfügbare Bandbreite konkurrieren, ermöglicht QoS Administratoren, Paketen, die Audio- oder Videodaten übertragen, höhere Prioritäten zuzuweisen. Wenn diese Pakete eine höhere Priorität haben, wird die Audio- und Videokommunikation wahrscheinlich schneller und mit weniger Unterbrechungen abgeschlossen als Netzwerksitzungen, bei denen es um Dinge wie Dateiübertragungen, Webbrowsen oder Datenbanksicherungen geht. Die Ursache dafür ist die Zuweisung einer "Best Effort"-Priorität zu den Netzwerkpaketen, die für Dateiübertragungen oder Datenbanksicherungen verwendet werden.
+Quality of Service (QoS) ist eine Netzwerktechnologie, die in einigen Organisationen verwendet wird, um eine optimale Endbenutzererfahrung für die Audio- und Videokommunikation bereitzustellen. QoS wird am häufigsten in Netzwerken verwendet, in denen die Bandbreite begrenzt ist: Da eine große Anzahl von Netzwerkpaketen um eine relativ geringe verfügbare Bandbreite konkurrieren, ermöglicht QoS Administratoren, Paketen, die Audio- oder Videodaten übertragen, höhere Prioritäten zuzuweisen. Wenn diese Pakete eine höhere Priorität haben, wird die Audio- und Videokommunikation wahrscheinlich schneller und ohne Unterbrechung abgeschlossen als Netzwerksitzungen, bei denen es sich um Dateiübertragungen, Webbrowsen oder Datenbanksicherungen handelt. Die Ursache dafür ist die Zuweisung einer "Best Effort"-Priorität zu den Netzwerkpaketen, die für Dateiübertragungen oder Datenbanksicherungen verwendet werden.
 
 > [!NOTE]
 > QoS gilt in der Regel nur für Kommunikationssitzungen in Ihrem internen Netzwerk. Wenn Sie QoS implementieren, konfigurieren Sie Ihre Server und Router so, dass die Paketmarkierung auf eine bestimmte Weise unterstützt wird, die möglicherweise nicht im Internet oder in anderen Netzwerken unterstützt wird. Auch wenn Quality of Service in anderen Netzwerken unterstützt wird, gibt es keine Garantie dafür, dass QoS genau so konfiguriert wird, wie Sie den Dienst konfiguriert haben. Wenn Sie MPLS verwenden, müssen Sie mit Ihrem MPLS-Anbieter zusammenarbeiten.
 
-Skype for Business Server erfordert keine QoS, wird jedoch dringend empfohlen. Wenn Probleme mit Paketverlusten im Netzwerk auftreten, können Sie mit Ihren verfügbaren Lösungen mehr Bandbreite hinzufügen oder QoS implementieren. Wenn das Hinzufügen von mehr Bandbreite nicht möglich ist, ist die Implementierung von QoS möglicherweise ihre einzige Gebühren, um das Problem zu beheben.
+Skype for Business Server erfordert keine QoS, wird jedoch dringend empfohlen. Wenn Probleme mit Paketverlusten im Netzwerk auftreten, können Sie mit ihren verfügbaren Lösungen mehr Bandbreite hinzufügen oder QoS implementieren. Wenn das Hinzufügen von mehr Bandbreite nicht möglich ist, ist die Implementierung von QoS möglicherweise ihre einzige Gebühren, um das Problem zu beheben.
 
 Skype for Business Server bietet vollständige Unterstützung für QoS: Das bedeutet, dass Organisationen, die QoS bereits verwenden, Skype for Business Server problemlos in ihre vorhandene Netzwerkinfrastruktur integrieren können. Dazu müssen Sie die folgenden Schritte ausführen:
 

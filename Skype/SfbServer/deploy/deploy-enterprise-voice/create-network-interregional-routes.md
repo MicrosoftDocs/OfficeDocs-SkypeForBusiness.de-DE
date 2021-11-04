@@ -1,7 +1,7 @@
 ---
 title: Erstellen regionenübergreifender Netzwerkrouten in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
 description: Erstellen oder Ändern von regionenübergreifenden Netzwerkrouten, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: 0d4e4977cbd2aed82de9c8299f326f301551321a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e74c5bd9630e5171f305cfd22e47a01ea3ea889b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594719"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758107"
 ---
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen regionenübergreifender Netzwerkrouten in Skype for Business Server
  
@@ -79,7 +79,7 @@ In der Beispieltopologie müssen regionenübergreifende Netzwerkrouten für jede
     
 10. Wiederholen Sie die Schritte 4 bis 9 mit Einstellungen für andere regionenübergreifende Netzwerkrouten, um die Erstellung regionenübergreifender Netzwerkrouten für Ihre Topologie abzuschließen.
     
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [New-CsNetworkInterRegionRoute](/powershell/module/skype/new-csnetworkinterregionroute?view=skype-ps)
   

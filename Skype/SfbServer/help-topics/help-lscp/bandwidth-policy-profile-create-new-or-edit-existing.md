@@ -1,7 +1,7 @@
 ---
 title: Bandbreitenrichtlinienprofil Erstellen eines neuen oder Bearbeiten eines vorhandenen Bandbreitenrichtlinienprofils
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7c1d072e-a891-48a9-81c0-3696e372f222
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: c7b020bd0ad9d7f93c032608b635d129eb4c0b4a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a865d0add8618636a535ffcb211a3e00325cda0b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636259"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770853"
 ---
 # <a name="bandwidth-policy-profile-create-new-or-edit-existing"></a>Bandbreitenrichtlinienprofil: Erstellen eines neuen oder Bearbeiten eines vorhandenen Bandbreitenrichtlinienprofils
 

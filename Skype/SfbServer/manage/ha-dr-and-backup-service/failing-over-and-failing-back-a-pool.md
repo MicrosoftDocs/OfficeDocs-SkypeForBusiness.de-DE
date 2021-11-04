@@ -2,7 +2,7 @@
 title: Ausführen von Failover und Failback für einen Pool
 ms.reviewer: ''
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: .
-ms.openlocfilehash: 0e738faa84053f9a4d4c92127b008d397f042499
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a9f4296ce122cdb539cae4d1f3cb7ef14262efc7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013909"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750324"
 ---
 # <a name="failing-over-and-failing-back-a-pool-in-skype-for-business-server"></a>Ausführen eines Failovers und Ausführen eines Failbacks für einen Pool in Skype for Business Server
 
@@ -26,7 +26,7 @@ Verwenden Sie die folgenden Verfahren, wenn ein einzelner Front-End Pool fehlges
 - [Failback eines Pools](#fail-back-a-pool)
 - [Failover des für Skype for Business Server Partnerverbund verwendeten Edgepools](#fail-over-the-edge-pool-used-for-skype-for-business-server-federation)
 - [Failover des Edgepools, der für den XMPP-Partnerverbund in Skype for Business Server](#fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server)
-- [Ausführen eines Failbacks für den Edgepool, der für Skype for Business Server Partnerverbund oder XMPP-Partnerverbund verwendet wird](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
+- [Failback des Edgepools, der für Skype for Business Server Partnerverbund oder XMPP-Partnerverbund verwendet wird](#fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation)
 - [Ändern des einem Front-End-Pool zugeordneten Edgepools](#change-the-edge-pool-associated-with-a-front-end-pool)
 
 ## <a name="fail-over-a-front-end-pool"></a>Failover eines Front-End-Pools
@@ -47,7 +47,7 @@ Wenn ein Front-End-Pool fehlschlägt, der Edgepool an diesem Standort aber noch 
 
 **So legen Sie einen Edgepool für die Verwendung eines nächsten Hoppools an einem anderen Standort fest**
 
-1. Öffnen Sie ein fenster Skype for Business Server Verwaltungsshell, und geben Sie das folgende Cmdlet ein:
+1. Öffnen Sie ein Fenster Skype for Business Server Verwaltungsshell, und geben Sie das folgende Cmdlet ein:
 
     ```powershell
     Set-CsEdgeServer -Identity EdgeServer:<Edge Server pool FQDN> -Registrar Registrar:<NextHopPoolFQDN>
@@ -77,7 +77,7 @@ Wenn ein Front-End-Pool fehlschlägt, der Edgepool an diesem Standort aber noch 
     Get-CsManagementStoreReplicationStatus -CentralManagementStoreStatus
     ```
 
-    Dieses Cmdlet sollte zeigen, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des \_ CMS-Pools verweisen. Wenn sie leer sind, ist der zentrale Verwaltungsserver nicht verfügbar, und Sie müssen einen Failover ausführen.
+    Dieses Cmdlet sollte zeigen, dass sowohl ActiveMasterFQDN als auch ActiveFileTransferAgents auf den FQDN des \_ CMS-Pools verweisen. Wenn sie leer sind, ist der zentrale Verwaltungsserver nicht verfügbar, und Sie müssen ihn übergehen.
 
 4.  Wenn der zentrale Verwaltungsspeicher nicht verfügbar ist oder wenn der zentrale Verwaltungsspeicher in Pool1 ausgeführt wurde (d. h. der pool, der fehlgeschlagen ist), müssen Sie einen Failover auf dem zentralen Verwaltungsserver ausführen, bevor Sie einen Failover für den Pool ausführen. Wenn Sie einen Failover des zentralen Verwaltungsservers ausführen müssen, der in einem Pool mit Skype for Business Server gehostet wurde, verwenden Sie das Cmdlet in Schritt 5 dieses Verfahrens. Wenn Sie den zentralen Verwaltungsserver nicht übergehen müssen, fahren Sie mit Schritt 7 dieses Verfahrens fort.
 
@@ -202,13 +202,13 @@ Wenn der Edgepool, in dem Sie Skype for Business Server Verbund konfiguriert hab
 
 5.  Wählen Sie **"Aktion",** **"Topologie"** und **"Veröffentlichen"** aus. Wenn Sie dazu aufgefordert werden, **die Topologie zu veröffentlichen,** wählen Sie **"Weiter"** aus. Wenn die Veröffentlichung abgeschlossen ist, wählen Sie **Fertig stellen** aus.
 
-6.  Öffnen Sie auf dem Edgeserver den Skype for Business Server Bereitstellungs-Assistenten. Wählen Sie **"Skype for Business Server System installieren oder aktualisieren"** und dann **"Setup" oder "Skype for Business Server Komponenten entfernen"** aus. Wählen Sie **Erneut ausführen** aus.
+6.  Öffnen Sie auf dem Edgeserver den Skype for Business Server-Bereitstellungs-Assistenten. Wählen Sie **"Skype for Business Server System installieren oder aktualisieren"** und dann **"Setup" oder "Skype for Business Server Komponenten entfernen"** aus. Wählen Sie **Erneut ausführen** aus.
 
 7.  Wählen Sie **Weiter** aus. Auf dem Übersichtsbildschirm werden die Aktionen angezeigt, die gerade ausgeführt werden. Wählen Sie nach Abschluss der Bereitstellung **"Protokoll anzeigen"** aus, um die verfügbaren Protokolldateien anzuzeigen. Wählen Sie **"Fertig stellen"** aus, um die Bereitstellung abzuschließen.
     
-    Wenn der Standort, der den fehlerhaften Edgepool enthält, front-End-Server enthält, die noch ausgeführt werden, müssen Sie den Webkonferenzdienst und den A/V-Konferenzdienst auf diesen Front-End Pools aktualisieren, um einen Edgepool an einem Remotestandort zu verwenden, der noch ausgeführt wird. 
+    Wenn der Standort, der den fehlerhaften Edgepool enthält, Front-End-Server enthält, die noch ausgeführt werden, müssen Sie den Webkonferenzdienst und den A/V-Konferenzdienst in diesen Front-End Pools aktualisieren, um einen Edgepool an einem Remotestandort zu verwenden, der noch ausgeführt wird. 
 
- ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Failover des für den XMPP-Partnerverbund in Skype for Business Server verwendeten Edgepools 
+ ## <a name="fail-over-the-edge-pool-used-for-xmpp-federation-in-skype-for-business-server"></a>Failover des Edgepools, der für den XMPP-Partnerverbund in Skype for Business Server 
 
 Ein Edgepool in Ihrer Organisation wurde als Pool für den XMPP-Verbund festgelegt. Wenn dieser Pool ausfällt, müssen Sie einen Failover des XMPP-Verbunds zu einem anderen Edgepool ausführen, um den XMPP-Verbund wieder verwenden zu können.
 
@@ -251,11 +251,11 @@ Im folgenden Verfahren ist EdgePool1 der Pool, der ursprünglich den XMPP-Partne
 
 ## <a name="fail-back-the-edge-pool-used-for-skype-for-business-server-federation-or-xmpp-federation"></a>Ausführen eines Failbacks für den Edgepool, der für Skype for Business Server Partnerverbund oder XMPP-Partnerverbund verwendet wird 
 
-Nachdem ein fehlgeschlagener Edgepool, der zum Hosten des Partnerverbunds verwendet wurde, wieder online geschaltet wurde, führen Sie dieses Verfahren aus, um die Skype for Business Server Partnerverbundroute und/oder die XMPP-Partnerverbundroute zum erneuten Verwenden dieses wiederhergestellten Edgepools zu verwenden.
+Nachdem ein fehlgeschlagener Edgepool, der zum Hosten des Partnerverbunds verwendet wurde, wieder online geschaltet wurde, verwenden Sie dieses Verfahren, um die Skype for Business Server Partnerverbundroute und/oder die XMPP-Partnerverbundroute zum erneuten Verwenden dieses wiederhergestellten Edgepools zu verwenden.
 
 1.  Starten Sie auf dem Edgepool, der nun wieder verfügbar ist, die Edgedienste.
 
-2.  Wenn Sie die Skype for Business Server Verbundroute für die Verwendung des wiederhergestellten Edgeservers zurücksetzen möchten, gehen Sie wie folgt vor:
+2.  Wenn Sie die Skype for Business Server Verbundroute für die Verwendung des wiederhergestellten Edgeservers nicht ausführen möchten, gehen Sie wie folgt vor:
     
     1. Auf einem Front-End-Server öffnen Sie den Topologie-Generator. Erweitern Sie **Edgepools,** und klicken Sie dann mit der rechten Maustaste auf den Edgeserver oder Edgeserverpool, der derzeit für den Partnerverbund konfiguriert ist. Wählen Sie **Eigenschaften bearbeiten** aus.
     
@@ -267,7 +267,7 @@ Nachdem ein fehlgeschlagener Edgepool, der zum Hosten des Partnerverbunds verwen
     
     1. Wählen Sie **"Aktion",** **"Topologie"** und **"Veröffentlichen"** aus. Wenn Sie dazu aufgefordert werden, **die Topologie zu veröffentlichen,** wählen Sie **"Weiter"** aus. Wenn die Veröffentlichung abgeschlossen ist, wählen Sie **Fertig stellen** aus.
     
-    1. Öffnen Sie auf dem Edgeserver den Skype for Business Server-Bereitstellungs-Assistenten. Wählen Sie **"Skype for Business Server System installieren oder aktualisieren"** und dann **"Setup" oder "Skype for Business Server Komponenten entfernen"** aus. Wählen Sie **Erneut ausführen** aus.
+    1. Öffnen Sie auf dem Edgeserver den Skype for Business Server-Bereitstellungs-Assistenten. Wählen Sie **"Skype for Business Server System installieren oder aktualisieren"** aus, und wählen Sie dann **"Setup" oder "Skype for Business Server Komponenten entfernen"** aus. Wählen Sie **Erneut ausführen** aus.
     
     1. Wählen Sie **Weiter** aus. Auf dem Übersichtsbildschirm werden die Aktionen angezeigt, die gerade ausgeführt werden. Wählen Sie nach Abschluss der Bereitstellung **"Protokoll anzeigen"** aus, um die verfügbaren Protokolldateien anzuzeigen. Wählen Sie **"Fertig stellen"** aus, um die Bereitstellung abzuschließen.
 

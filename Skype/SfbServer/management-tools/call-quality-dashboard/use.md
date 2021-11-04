@@ -1,7 +1,7 @@
 ---
 title: Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Zusammenfassung: Erfahren Sie mehr über die Verwendung des Anrufqualitäts-Dashboards. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 8bd18b7be66c4ea9b3a69cd81d4c72fb641603eb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015079"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739101"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server
 
@@ -53,7 +53,7 @@ Bewegen Sie den Mauszeiger über die Balkendiagramme und Trendlinien, um detaill
 
 Wenn Sie zum ersten Mal auf das Anrufqualitäts-Dashboard-Portal zugreifen, wird automatisch eine Standardgruppe von Berichten erstellt. Diese Berichte werden manchmal als Systemberichte bezeichnet. Sie können diese Berichte frei ändern oder löschen oder erweitern, indem Sie neue gleichgeordnete und untergeordnete Berichte erstellen.
 
-Auf oberster Ebene zeigt der Bericht "Audio Streams Monatlicher Trend" den monatlichen Trend für alle Audiostreams an. Bewegen Sie die Maus über die Balken in einem Balkendiagramm, um eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten anzuzeigen. Klicken Sie auf den Titel des Berichts "Audio Streams Monatlicher Trend", um zum Bericht "Verwaltetes oder nicht verwaltetes Audio Streams" zu navigieren, in dem die Berichte zwischen verwalteten und nicht verwalteten Anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Nicht verwaltete Anrufe umfassen Anrufe von außerhalb der Unternehmensfirewall und alle Anrufe, die über WLAN getätigt werden.
+Auf oberster Ebene zeigt der Bericht "Audio Streams Monthly Trend" den monatlichen Trend für alle Audiostreams an. Bewegen Sie den Mauszeiger über die Balken in einem Balkendiagramm, um eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten anzuzeigen. Klicken Sie auf den Titel des Berichts "Audio Streams Monatlicher Trend", um zum Bericht "Verwaltetes und nicht verwaltetes Audio Streams" zu navigieren, in dem die Berichte zwischen verwalteten und nicht verwalteten Anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Nicht verwaltete Anrufe umfassen Anrufe von außerhalb der Unternehmensfirewall und alle Anrufe, die über WLAN getätigt werden.
 
 Der andere Bericht auf oberster Ebene heißt "Vom Benutzer gemeldetes Histogramm zur Anrufqualitätsbewertung". Anrufqualitätsbewertungen sind die Nummern, die von Skype for Business Benutzern am Ende eines Anrufs angegeben werden, um die Qualität des Anrufs anzugeben. Die Bewertungsnummern reichen von 1 bis 5, 1 ist die schlechteste und 5 die beste. Das Histogramm zeigt die Anzahl der Audioanrufe mit der angegebenen Bewertung in einem Monat an.
 
@@ -84,7 +84,7 @@ Das Einstellungsmenü enthält Links zu nützlichen Seiten wie den Seiten "Syste
 
 ![Verwenden Sie CQD.](../../media/0e9ae123-e231-4fea-94e1-5788e8f3e1d3.png)
 
-Ob Beschreibungen und Zeitstempel angezeigt werden sollen, hängt von einzelnen Benutzern ab, und diese Einstellungen wirken sich nur auf die Version des Dashboards der Person aus und ändern nicht den Berichtsatz oder das, was andere Benutzer sehen. Das Löschen des Caches bewirkt, dass alle Abfragen ihre Daten aus dem Cube neu laden, während beim Wiederherstellen der Standardwerte alle vom Benutzer erstellten oder geänderten Berichte gelöscht und der Systemberichtssatz neu erstellt wird – was einem Benutzer angezeigt wird, wenn er sich zum ersten Mal anmeldet.
+Ob Beschreibungen und Zeitstempel angezeigt werden sollen, hängt von einzelnen Benutzern ab, und diese Einstellungen wirken sich nur auf die Version der Person im Dashboard aus und ändern nicht den Berichtssatz oder das, was andere Benutzer sehen. Das Löschen des Caches bewirkt, dass alle Abfragen ihre Daten aus dem Cube neu laden, während beim Wiederherstellen der Standardwerte alle vom Benutzer erstellten oder geänderten Berichte gelöscht und der Systemberichtssatz neu erstellt wird – was einem Benutzer angezeigt wird, wenn er sich zum ersten Mal anmeldet.
 
 Der Link "Benutzerdashboard" zeigt eine Seite an, auf der Benutzer andere Benutzer von CQD anzeigen und ihre Berichte durchsuchen können. Um einen Berichtsatz freizugeben, kopieren Sie den Link in der URL-Leiste, und geben Sie ihn für einen anderen CQD-Benutzer frei. Dieser Link ist der gleiche Link, den andere Benutzer auf der Seite "Link zum Benutzerdashboard" unter dem Benutzernamen des Benutzers sehen würden.
 
@@ -105,11 +105,11 @@ Die für diese Tabellen verwendeten Daten sind wie folgt definiert:
 
 |Spalte|Datentyp|Nullen zulassen?|Details|
 |:-----|:-----|:-----|:-----|
-|BuildingKey |Ganzzahl |Nein |Primärschlüssel für die Tabelle "CqdBuilding". |
+|BuildingKey |int |Nein |Primärschlüssel für die Tabelle "CqdBuilding". |
 |BuildingName |varchar(80) |Nein |Gebäudename. |
 |BuildingShortName |varchar(10) |Nein |Kürzere Version des Gebäudenamens. |
-|OwnershipTypeId |Ganzzahl |Nein |Fremdschlüssel, entspricht einem der Einträge in der Tabelle "CqdBuildingOwners". |
-|BuildingTypeId |Ganzzahl |Nein |Fremdschlüssel, entspricht einem der Einträge in der CqdBuildingType-Tabelle. |
+|OwnershipTypeId |int |Nein |Fremdschlüssel, entspricht einem der Einträge in der Tabelle "CqdBuildingOwners". |
+|BuildingTypeId |int |Nein |Fremdschlüssel, entspricht einem der Einträge in der CqdBuildingType-Tabelle. |
 |Breitengrad |Gleitkommazahl |Ja |Breitengrad des Gebäudes. |
 |Längengrad |Gleitkommazahl |Ja |Längengrad des Gebäudes. |
 |Cityname |varchar(30) |Ja |Name der Stadt, in der sich das Gebäude befindet. |
@@ -127,8 +127,8 @@ Die für diese Tabellen verwendeten Daten sind wie folgt definiert:
 |:-----|:-----|:-----|:-----|
 |Netzwerk |varchar(25) |Nein |Subnetzadresse. |
 |NetworkRange |Tinyint |Ja |Subnetzmaske |
-|NetworkNameID |Ganzzahl |Ja |Optional wird eine Zeile in der CqdNetworkName-Tabelle zugeordnet. |
-|BuildingKey |Ganzzahl |Ja |Fremdschlüssel, entspricht einem der Einträge in der CqdBuilding-Tabelle. |
+|NetworkNameID |int |Ja |Optional wird eine Zeile in der CqdNetworkName-Tabelle zugeordnet. |
+|BuildingKey |int |Ja |Fremdschlüssel, entspricht einem der Einträge in der CqdBuilding-Tabelle. |
 |UpdatedDate |Datum/Uhrzeit |Nein |Datum und Uhrzeit der letzten Aktualisierung des Eintrags. |
 
 
@@ -138,7 +138,7 @@ Standardmäßig enthält diese nächste Tabelle einen Eintrag (0, 'Unbekannt').
 
 |Spalte|Datentyp|Nullen zulassen?|Details|
 |:-----|:-----|:-----|:-----|
-|BuildingTypeId |Ganzzahl |Nein |Primärschlüssel für die CqdBuildingType-Tabelle. |
+|BuildingTypeId |int |Nein |Primärschlüssel für die CqdBuildingType-Tabelle. |
 |BuildingTypeDesc |char(18) |Nein |Beschreibung des Gebäudetyps. |
 
 
@@ -148,7 +148,7 @@ Standardmäßig enthält diese nächste Tabelle einen Eintrag (0, 'Unknown', 0, 
 
 |Spalte|Datentyp|Nullen zulassen?|Details|
 |:-----|:-----|:-----|:-----|
-|OwnershipTypeId |Ganzzahl |Nein |Primärschlüssel für die Tabelle "CqdBuildingOwnershipType". |
+|OwnershipTypeId |int |Nein |Primärschlüssel für die Tabelle "CqdBuildingOwnershipType". |
 |OwnershipTypeDesc |varchar(25) |Nein |Beschreibung des Besitzertyps. |
 |LeaseInd |Tinyint |Ja |Index, der auf eine andere Zeile in der Tabelle "CqdBuildingOwnershipType" verweist, die zum Identifizieren von geleasten Gebäuden verwendet wird. |
 |Besitzer |varchar(50) |Ja |Gebäudebesitzer. |
@@ -192,7 +192,7 @@ JPDR-Definition = Definition schlechter Anrufe minus RatioConcealedSamplesAvg
 
 ## <a name="where-is-callercallee"></a>Wo befindet sich der Anrufer/Angerufene?
 
-CQD verwendet keine Felder für Anrufer/Angerufene, sondern "First" und "Second", da zwischen dem Aufrufer und dem Angerufenen dazwischen schritte vorhanden sind.
+CQD verwendet keine Felder "Anrufer/Angerufener", sondern "First" und "Second", da zwischen dem Aufrufer und dem Angerufenen dazwischen schritte vorhanden sind.
 
  **Zuerst** Ist immer der Serverendpunkt (z. B. AV MCU oder Vermittlungsserver), wenn ein Server am Datenstrom beteiligt ist.
 

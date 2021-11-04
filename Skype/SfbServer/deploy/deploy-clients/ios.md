@@ -1,6 +1,6 @@
 ---
 title: Installieren und Testen von Skype for Business für iOS
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,16 +12,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Zusammenfassung: So installieren und testen Sie die Skype for Business für die iOS-App.'
-ms.openlocfilehash: ff2e2789f733a77ab0d332225a85aca33eb69bc1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 62b7720efbc24606f63f5df83c9082fb4ebf9611
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623017"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758157"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Installieren und Testen von Skype for Business für iOS
  
-**Zusammenfassung:** So installieren und testen Sie die Skype for Business für die iOS-App.
+**Zusammenfassung:** Installieren und Testen der Skype for Business für die iOS-App.
   
 Die Skype for Business für iOS-Apps bietet Skype for Business Anwesenheits-, Chat- und Sprach- und Videoanrufe auf iOS-Geräten. Benutzer mit Lync 2013 erhalten die aktualisierte App entweder automatisch oder werden je nach Benutzereinstellungen aufgefordert, sie manuell zu aktualisieren. Neue Benutzer können sie aus der Apple-App-Store herunterladen. Die Skype for Business für iOS-Apps ist nur in iOS-Versionen 8.0 und höher verfügbar.
   
@@ -35,7 +35,7 @@ Die Skype for Business für iOS-Apps bietet Skype for Business Anwesenheits-, Ch
     
 ## <a name="verifying-mobile-client-installation"></a>Überprüfen der Installation mobiler Clients
 
-Nachdem Sie sich erfolgreich angemeldet haben, überprüfen Sie anhand der folgenden Tests, ob Die Skype for Business Installation auf Ihrem iOS-Gerät ordnungsgemäß funktioniert. 
+Nachdem Sie sich erfolgreich angemeldet haben, überprüfen Sie anhand der folgenden Tests, ob ihre Skype for Business Installation auf Ihrem iOS-Gerät ordnungsgemäß funktioniert. 
   
 ### <a name="search-for-a-contact-in-the-corporate-directory"></a>Suchen nach einem Kontakt im Unternehmensverzeichnis
 

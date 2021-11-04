@@ -1,7 +1,7 @@
 ---
 title: Anzeigen von KDS-Konfigurationsinformationen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 77bd553f-da89-4c84-a5d0-2f7e91d04383
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server verwenden.'
-ms.openlocfilehash: f115c41215f4a559957cae3d85a7276501a96710
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 97019a9d8689cf9eb5cacac82d6776b44bc4283d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011959"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60743481"
 ---
 # <a name="view-cdr-configuration-information-in-skype-for-business-server"></a>Anzeigen von KDS-Konfigurationsinformationen in Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60011959"
   
 Die Funktion zum Aufzeichnen von Kommunikationsdatensätzen (KDS) ermöglicht das Nachverfolgen von Peer-zu-Peer-, VoIP- und Konferenzanrufen. Diese Nutzungsdaten umfassen Informationen wie z. B. Anrufer, Angerufener, Anrufzeitpunkt und Anrufdauer.
   
-Wenn Sie Skype for Business Server installieren, wird eine einzelne, globale Sammlung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen anzeigen, indem Sie Skype for Business Server Systemsteuerung oder das Cmdlet ["Get-CsCdrConfiguration"](/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) verwenden.
+Wenn Sie Skype for Business Server installieren, wird eine einzelne, globale Sammlung von KDS-Konfigurationseinstellungen für Sie erstellt. Administratoren können darüber hinaus Auflistungen mit benutzerdefinierten Einstellungen erstellen, die auf die einzelnen Standorte angewendet werden können. Sie können die in Ihrer Organisation verwendeten KDS-Konfigurationseinstellungen mithilfe Skype for Business Server Systemsteuerung oder des Cmdlets ["Get-CsCdrConfiguration"](/powershell/module/skype/get-cscdrconfiguration?view=skype-ps) anzeigen.
   
 ### <a name="to-view-cdr-configuration-information-by-using-skype-for-business-server-control-panel"></a>So zeigen Sie KDS-Konfigurationsinformationen mithilfe Skype for Business Server Systemsteuerung an
 

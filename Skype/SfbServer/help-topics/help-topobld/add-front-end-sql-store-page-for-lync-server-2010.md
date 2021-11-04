@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 84bbd899-4ce1-4b3b-9bdb-a08cefb626d3
 description: Sie definieren die Eigenschaften der SQL Server Speicher für den neuen Front-End-Pool, den Sie konfigurieren.
-ms.openlocfilehash: f999327894b406ba814b0e46dc6c6c7007a50776
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2fd58add5d04d6fb232e42c33276fcdf6878f6be
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610782"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739361"
 ---
 # <a name="add-front-end-sql-store-page-for-lync-server-2010"></a>Hinzufügen des Front-End-SQL-Speichers für Lync Server 2010 – Seite
  
@@ -35,7 +35,7 @@ Konfigurierbare Einstellungen:
     
 - Wählen Sie **"Neuen SQL Server speicher** definieren" aus, um einen neuen SQL Server Speicher zu erstellen.
     
-    Geben Sie den vollqualifizierten Domänennamen des SQL Server in **SQL Server FQDN ein.**
+    Geben Sie den vollqualifizierten Domänennamen der SQL Server in **SQL Server FQDN ein.**
     
     Standardmäßig ist die **Standardinstanz** angegeben. Wenn Sie eine Instanz definieren möchten, wählen Sie die Option **Benannte Instanz**, und geben Sie den Namen der Instanz ein, die Sie erstellen möchten.
     

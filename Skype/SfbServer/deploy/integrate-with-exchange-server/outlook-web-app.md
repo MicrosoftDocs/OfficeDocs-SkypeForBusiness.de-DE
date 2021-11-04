@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der Integration zwischen lokalen Skype for Business Server und Outlook Web App
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/7/2016
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 95a20117-2064-43c4-94fe-cac892cadb6f
 description: 'Zusammenfassung: Integrieren von Skype for Business Server und Outlook Web App.'
-ms.openlocfilehash: 9edbd804347cd8eba8db609c73066b9030c73ba7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9555303ad5bcb3ad15702f0cf1768549330e33cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621757"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738861"
 ---
 # <a name="configure-integration-between-on-premises-skype-for-business-server-and-outlook-web-app"></a>Konfigurieren der Integration zwischen lokalen Skype for Business Server und Outlook Web App
 
@@ -35,7 +35,7 @@ Kunden, die lokale Skype for Business Server-Bereitstellungen verwenden, können
 
 ## <a name="configure-a-shared-sip-address-space"></a>Konfigurieren eines freigegebenen SIP-Adressraums
 
-Um lokale Skype for Business Server in Exchange Online zu integrieren, müssen Sie einen freigegebenen SIP-Adressraum konfigurieren. Derselbe SIP-Domänenadressraum wird sowohl von Skype for Business Server als auch vom Exchange Online Dienst unterstützt.
+Um lokale Skype for Business Server in Exchange Online zu integrieren, müssen Sie einen freigegebenen SIP-Adressraum konfigurieren. Derselbe SIP-Domänenadressraum wird sowohl von Skype for Business Server als auch vom Exchange Online-Dienst unterstützt.
 
 Konfigurieren Sie mithilfe der Skype for Business Server Verwaltungsshell den Edgeserver für den Partnerverbund, indem Sie das Cmdlet **"Set-CSAccessEdgeConfiguration"** mithilfe der im folgenden Beispiel angezeigten Parameter ausführen:
 
@@ -49,16 +49,16 @@ Ausführliche Informationen zur Verwendung der Skype for Business Server-Verwalt
 
 ## <a name="configure-a-hosting-provider-on-the-edge-server"></a>Konfigurieren eines Hostinganbieters auf dem Edgeserver
 
-Konfigurieren Sie mithilfe der Skype for Business Server Verwaltungsshell einen Hostinganbieter auf dem Edgeserver, indem Sie das Cmdlet **"New-CsHostingProvider"** mithilfe der Parameter im folgenden Beispiel ausführen:
+Konfigurieren Sie mithilfe der Skype for Business Server Verwaltungsshell einen Hostinganbieter auf dem Edgeserver, indem Sie das Cmdlet **"New-CsHostingProvider"** ausführen, indem Sie die Parameter im folgenden Beispiel verwenden:
 
 ```powershell
 New-CsHostingProvider -Identity "Exchange Online" -Enabled $True -EnabledSharedAddressSpace $True -HostsOCSUsers $False -ProxyFqdn "exap.um.outlook.com" -IsLocal $False -VerificationLevel UseSourceVerification
 ```
 
 > [!NOTE]
-> Wenn Sie Microsoft 365 oder Office 365, betrieben von 21Vianet in China, verwenden, ersetzen Sie den Wert für den ProxyFqdn-Parameter in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für den Von 21Vianet betriebenen Dienst: "exap.um.partner.outlook.cn". Wenn Sie Microsoft 365 oder Office 365 GCC High verwenden, ersetzen Sie den Wert für den Parameter ProxyFqdn in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für GCC High: "exap.um.office365.us".
+> Wenn Sie Microsoft 365 oder Office 365 von 21Vianet in China verwenden, ersetzen Sie den Wert für den ProxyFqdn-Parameter in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für den von 21Vianet betriebenen Dienst: "exap.um.partner.outlook.cn". Wenn Sie Microsoft 365 oder Office 365 GCC High verwenden, ersetzen Sie den Wert für den ProxyFqdn-Parameter in diesem Beispiel ("exap.um.outlook.com") durch den FQDN für GCC High: "exap.um.office365.us".
 
-- **Die Identität** gibt einen eindeutigen Zeichenfolgenwertbezeichner für den Hostinganbieter an, den Sie erstellen (z. B. "Exchange Online"). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
+- **Identität** gibt einen eindeutigen Zeichenfolgenwertbezeichner für den Hostinganbieter an, den Sie erstellen (z. B. "Exchange Online"). Werte, die Leerzeichen enthalten, müssen in Anführungszeichen gesetzt werden.
 
 - **Enabled** gibt an, ob die Netzwerkverbindung zwischen Ihrer Domäne und dem Hostinganbieter aktiviert ist. Dieser Parameter muss auf TRUE festgelegt werden.
 
@@ -90,7 +90,7 @@ Get-CsHostingProvider -LocalStore
 ```
 Überprüfen Sie, ob die angezeigten Informationen mit den in den vorherigen Schritten vorgenommenen Änderungen übereinstimmen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Bereitstellen Skype for Business Server Voicemails von Benutzern auf gehosteten Exchange UM](/previous-versions/office/lync-server-2013/lync-server-2013-providing-lync-server-users-voice-mail-on-hosted-exchange-um)
 

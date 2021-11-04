@@ -1,7 +1,7 @@
 ---
 title: Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d8211c64-0b63-4193-a074-673da7d14287
 description: 'Zusammenfassung: Bereitstellen von AV- und OAuth-Zertifikaten für Skype for Business Server.'
-ms.openlocfilehash: 6925b8b042da41f82c505a79afcc5b7678454fbd
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 2ca870ff500c5a963db17f90262c2f128c847d60
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012719"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750354"
 ---
 # <a name="assign-a-per-user-pin-policy-in-skype-for-business-server"></a>Zuweisen einer benutzerbasierten PIN-Richtlinie in Skype for Business Server
 
@@ -67,7 +67,7 @@ Nachdem Sie mindestens eine PIN-Richtlinie auf Benutzerebene erstellt haben, wei
 7. Führen Sie im Abschnitt **Richtlinien zuweisen** unter **PIN-Richtlinie** eine der folgenden Aktionen aus:
     
     > [!NOTE]
-    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds **"Richtlinien zuweisen"** konfigurieren können, **\<Keep as is\>** wird standardmäßig für jede Richtlinie im Dialogfeld ausgewählt. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
+    > Da es mehrere Richtlinien gibt, die Sie mithilfe des Dialogfelds **"Richtlinien zuweisen"** konfigurieren können, **\<Keep as is\>** ist es standardmäßig für jede Richtlinie im Dialogfeld ausgewählt. Wenn Sie an dieser Einstellung keine Änderung vornehmen, wird eine zuvor zugewiesene Richtlinie weiterhin auf den Benutzer angewendet.
   
    - Zulassen, dass Skype for Business Server automatisch entweder die globale Richtlinie oder, falls definiert, die Richtlinie auf Standortebene auswählen.
     

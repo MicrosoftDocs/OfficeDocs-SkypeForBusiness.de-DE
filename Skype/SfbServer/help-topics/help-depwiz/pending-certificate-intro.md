@@ -1,7 +1,7 @@
 ---
 title: Ausstehendes Zertifikat (Einführung)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d95455f3-39d3-4730-89dd-7f988ae5da95
 description: Zum Verarbeiten einer ausstehenden Onlinezertifikatsanforderung (einer Anforderung, die für Ihre Onlinezertifizierungsstelle ausgestellt wurde, jedoch einen manuellen Genehmigungsprozess erfordert) klicken Sie auf Weiter.
-ms.openlocfilehash: 64dfda2c4283ad22ff8c5d5c2ebbb19460c3f9ab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6917e2f290ad1818c9997b46508eb0fd306079b7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609582"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770893"
 ---
 # <a name="pending-certificate-intro"></a>Ausstehendes Zertifikat (Einführung)
  

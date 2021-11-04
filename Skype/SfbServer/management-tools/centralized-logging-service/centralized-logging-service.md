@@ -1,7 +1,7 @@
 ---
-title: Zentraler Protokollierungsdienst in Skype for Business 2015
+title: Zentralisierter Protokollierungsdienst in Skype for Business 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/1/2018
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Zusammenfassung: Erfahren Sie mehr über die Dienstkomponenten und Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.'
-ms.openlocfilehash: 844492e0dddc5337a208bcf4e82fc8de88302884
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 35d73182ec720ac712e5fb6336a3c1c51d7e3cec
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582679"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60739111"
 ---
-# <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentraler Protokollierungsdienst in Skype for Business 2015
+# <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentralisierter Protokollierungsdienst in Skype for Business 2015
  
 **Zusammenfassung:** Erfahren Sie mehr über die Dienstkomponenten und Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.
   
@@ -29,7 +29,7 @@ Der zentralisierte Protokollierungsdienst kann:
   
 - Starten oder beenden Sie die Protokollierung auf einem oder mehreren Computern und Pools mit einem einzigen Befehl von einem zentralen Ort aus.
     
-- Suchprotokolle auf einem oder mehreren Computern und Pools. Sie können die Suche so anpassen, dass sie alle Protokolle auf allen Computern zurückgibt oder präzisere Ergebnisse zurückgibt.
+- Suchprotokolle auf einem oder mehreren Computern und Pools. Sie können die Suche so anpassen, dass alle Protokolle auf allen Computern zurückgegeben oder präzisere Ergebnisse zurückgegeben werden.
     
 - Konfigurieren Sie die Protokollierungssitzungen wie folgt:
     
@@ -44,7 +44,7 @@ Der zentralisierte Protokollierungsdienst kann:
     
   - Definieren Sie den Bereich für die Protokollierungssitzung von den Optionen **"Standort"** (nur zum Ausführen von Protokollierungsaufzeichnungen auf Computern an diesem Standort) oder **"Global"** (zum Ausführen von Protokollierungsaufzeichnungen auf allen Computern in der Bereitstellung).
     
-Der zentralisierte Protokollierungsdienst ist ein leistungsstarkes Problembehandlungstool für große oder kleine Probleme, von der Ursachenanalyse bis hin zu Leistungsproblemen. Alle Beispiele werden mithilfe der Skype for Business Server-Verwaltungsshell gezeigt. Hilfe wird für das Befehlszeilentool über das Tool selbst bereitgestellt, aber es gibt einen begrenzten Satz von Funktionen, die Sie über die Befehlszeile ausführen können. Durch die Verwendung Skype for Business Server Verwaltungsshell haben Sie Zugriff auf einen viel größeren und viel konfigurierbareren Satz von Features, sodass dies immer die erste Wahl sein sollte. 
+Der zentralisierte Protokollierungsdienst ist ein leistungsstarkes Problembehandlungstool für große oder kleine Probleme, von der Ursachenanalyse bis hin zu Leistungsproblemen. Alle Beispiele werden mithilfe der Skype for Business Server Verwaltungsshell gezeigt. Hilfe wird für das Befehlszeilentool über das Tool selbst bereitgestellt, aber es gibt einen begrenzten Satz von Funktionen, die Sie über die Befehlszeile ausführen können. Durch die Verwendung Skype for Business Server Verwaltungsshell haben Sie Zugriff auf einen viel größeren und viel konfigurierbareren Satz von Features, sodass dies immer die erste Wahl sein sollte. 
   
 ## <a name="logging-service-components"></a>Protokollierungsdienstkomponenten
 
@@ -78,12 +78,12 @@ Wenn ein Benutzer eine Protokollsuche anfordert, ermittelt der ClsController, an
 Wenn Sie eine Protokollierungssitzung starten, legen Sie Szenarien fest, die sich auf das Problem beziehen, das Sie beheben möchten. Sie können jederzeit zwei Szenarien gleichzeitig ausführen. Eines dieser beiden Szenarien sollte das Szenario "AlwaysOn" sein. Dieses sollte in Ihrer Bereitstellung immer ausgeführt werden und Informationen von allen Computern, Pools und Komponenten erfassen.
   
 > [!IMPORTANT]
-> Standardmäßig wird das AlwaysOn-Szenario in Ihrer Bereitstellung nicht ausgeführt. Sie müssen das Szenario explizit starten. Nach dem Starten wird es weiterhin ausgeführt, bis es explizit beendet wurde, und der Ausführungsstatus wird durch Neustarts der Computer beibehalten. Ausführliche Informationen zum Starten und Beenden von Szenarien finden Sie unter Starten oder Beenden der [CLS-Protokollerfassung in Skype for Business Server 2015.](start-or-stop-log-capture.md) 
+> Standardmäßig wird das AlwaysOn-Szenario in Ihrer Bereitstellung nicht ausgeführt. Sie müssen das Szenario explizit starten. Nach dem Starten wird es weiterhin ausgeführt, bis es explizit beendet wurde, und der Ausführungsstatus wird durch Neustarts der Computer beibehalten. Ausführliche Informationen zu Start- und Stoppszenarien finden Sie unter Starten oder Beenden der [CLS-Protokollerfassung in Skype for Business Server 2015.](start-or-stop-log-capture.md) 
   
 Wenn ein Problem auftritt, können Sie ein zweites Szenario starten, das sich auf das Problem bezieht. Reproduzieren Sie das Problem, und beenden Sie dann die Protokollierung für das zweite Szenario. Beginnen Sie für das Problem mit der Protokollsuche. Die zusammengefassten Protokolle ergeben eine Protokolldatei, die Nachverfolgungsmeldungen von allen Computern des Standort- oder des globalen Bereichs Ihrer Bereitstellung enthält. Wenn die Suche mehr Daten zurückgibt, als Sie analysieren können (meist Störabstände, bei denen das Rauschen zu hoch ist), führen Sie eine weitere Suche mit enger gesteckten Parametern durch. An diesem Punkt können Sie gegebenenfalls auftretende Muster feststellen, die Ihnen helfen, das Problem genauer einzugrenzen. Letztlich finden Sie nach diversen verfeinerten Suchen Daten, die für das Problem relevant sind und die Hauptursache deutlich machen.
   
 > [!TIP]
-> Wenn in Skype for Business Server ein Problemszenario angezeigt wird, fragen Sie sich zunächst: "Was weiß ich bereits über das Problem?" Wenn Sie die Problemgrenzen quantifizieren, können Sie einen großen Teil der operativen Entitäten in Skype for Business Server entfernen. 
+> Wenn in Skype for Business Server ein Problemszenario angezeigt wird, fragen Sie sich zunächst: "Was weiß ich bereits über das Problem?" Wenn Sie die Problemgrenzen quantifizieren, können Sie einen großteil der operativen Entitäten in Skype for Business Server entfernen. 
   
 Stellen Sie sich ein Beispielszenario vor, in dem Sie wissen, dass Benutzer bei der Suche nach einem Kontakt keine aktuellen Ergebnisse erhalten. Es macht keinen Sinn, nach Problemen in den Medienkomponenten, Enterprise-VoIP, Konferenzen und einer Reihe anderer Komponenten zu suchen. Was Sie nicht wissen, ist, wo das Problem tatsächlich auftritt: auf dem Client oder auf dem Server? Kontakte werden vom Benutzerreplikationsdienst aus Active Directory erfasst und über den Adressbuchserver (ABServer) an den Client übermittelt. Der ABServer erhält seine Updates aus der RTC-Datenbank (in der der Benutzerreplikationsdienst sie geschrieben hat) und sammelt sie standardmäßig bis 1:30 Uhr in Adressbuchdateien. Die Skype for Business Server Clients rufen das neue Adressbuch nach einem zufälligen Zeitplan ab. Da Sie wissen, wie der Prozess funktioniert, können Sie die Suche nach der potenziellen Ursache auf ein Problem im Zusammenhang mit Daten reduzieren, die vom Benutzerreplikationsdienst aus Active Directory gesammelt werden, der ABServer, der die Adressbuchdateien nicht abruft und erstellt, oder die Clients, die die Adressbuchdatei nicht herunterladen.
   

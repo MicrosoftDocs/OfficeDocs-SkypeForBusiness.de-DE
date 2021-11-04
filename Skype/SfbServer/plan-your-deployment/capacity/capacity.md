@@ -1,7 +1,7 @@
 ---
 title: Kapazitätsplanung für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: Die Themen in diesem Abschnitt helfen Ihnen zu verstehen, wie Sie Skype for Business Server planen und bereitstellen, damit Sie die Anzahl der Benutzer in Ihrer Organisation angemessen planen und die Serverlast planen können, die ihre Aktivitäten generieren.
-ms.openlocfilehash: 3fd7a475172f330a8c892a2afa2b6abe78d92042
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: efb72de54c65eca99ad40b05c191433eebfed34f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778105"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>Kapazitätsplanung für Skype for Business Server
  

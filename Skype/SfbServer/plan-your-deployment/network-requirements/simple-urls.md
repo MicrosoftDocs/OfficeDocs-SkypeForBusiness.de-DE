@@ -1,7 +1,7 @@
 ---
 title: DNS-Anforderungen für einfache URLs in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zu einfachen URLs in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.'
-ms.openlocfilehash: cbc8a6f99704f9c450847d0ca3c5173b0066715e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011719"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60777915"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS-Anforderungen für einfache URLs in Skype for Business Server
 
 **Zusammenfassung:** Lesen Sie die Überlegungen zu einfachen URLs in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.
 
-Einfache URLs vereinfachen die Teilnahme an Besprechungen für Ihre Benutzer und den Zugriff auf Skype for Business Server-Verwaltungstools für Administratoren. Einfache URLs verwenden eine eigene Domäne, die keiner der von Ihnen definierten SIP-Domänen entsprechen darf. 
+Einfache URLs vereinfachen die Teilnahme an Besprechungen für Ihre Benutzer und erleichtern Administratoren den Zugriff auf Skype for Business Server Verwaltungstools. Einfache URLs verwenden eine eigene Domäne, die keiner der von Ihnen definierten SIP-Domänen entsprechen darf. 
 
 Skype for Business Server unterstützt die folgenden drei einfachen URLs: Besprechung, Einwahl und Administrator. Sie müssen einfache URLs für Besprechungen und Einwahl einrichten, und die einfache ADMINISTRATOR-URL ist optional. Die zur Unterstützung einfacher URLs erforderlichen DNS-Einträge (Domain Name System) richten sich danach, wie Sie die einfachen URLs definiert haben und ob Sie die Notfallwiederherstellung für einfache URLs unterstützen möchten. 
 

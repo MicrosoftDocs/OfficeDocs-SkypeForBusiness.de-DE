@@ -1,6 +1,6 @@
 ---
 title: Skype Raumsystemverwaltung und Tools
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lesen Sie dieses Thema, um mehr über Verwaltungstools für Skype Room System zu erfahren.
-ms.openlocfilehash: 92fe780565728c457d6853e0210ec7981386ca0b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 04b609e14b6ccffb5224a3041b1e8be25dcf7574
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592879"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60758137"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Raumsystemverwaltung und Tools
  
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie im folgenden Artikel:
     
 - Testen Sie den AutoErmittlungsdienst mit dem Microsoft Connectivity Analyzer-Tool. Wählen Sie den ersten Test aus: "Ich kann mich nicht mit Office Outlook anmelden."
     
-- Wenn der Besprechungsraum bereits über ein Ressourcenpostfach verfügt, erweitern Sie dieses Konto für die Skype Raumsystem (Beispielskript unten auf der Seite).
+- Wenn der Besprechungsraum bereits über ein Ressourcenpostfach verfügt, erweitern Sie dieses Konto für die Skype Room System (Beispielskript unten auf der Seite).
     
 ## <a name="skype-for-business-checklist"></a>Skype for Business Checkliste
 
@@ -50,7 +50,7 @@ Weitere Informationen finden Sie im folgenden Artikel:
   - Skype for Business Health Analysis Tool (Excel)    
   - Skype for Business Connectivity Analyzer 32-Bit oder 64-Bit
     
-- Lesen Sie [die nützlichen neuen Problembehandlungs- und Analysetools für Office 365.](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) Vergewissern Sie sich, dass Sie über einen Skype for Business Pool und einen Office Web Apps-Server verfügen und ein PowerPoint Deck mithilfe des Skype for Business-Clients freigeben können.
+- Überprüfen [Sie nützliche neue Problembehandlungs- und Analysetools für Office 365.](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) Vergewissern Sie sich, dass Sie über einen Skype for Business Pool und einen Office Web Apps-Server verfügen und ein PowerPoint Deck mithilfe des Skype for Business-Clients freigeben können.
     
 - Wenn der Besprechungsraum bereits über ein Ressourcenpostfach verfügt, aktivieren Sie es für Skype for Business.
     
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie im folgenden Artikel:
     
 ## <a name="skype-room-system-security"></a>Skype Raumsystemsicherheit
 
-Skype Room System ist ein eingebettetes System, das vollständig in eine Windows Bereitstellung mithilfe des Skype for Business-Sicherheitsmodells, der Rechteverwaltung und der Verwaltungstools wie SCOM integriert werden kann. Zu den Features gehören:
+Skype Room System ist ein eingebettetes System, das vollständig in eine Windows Bereitstellung mithilfe des Skype for Business Sicherheitsmodells, der Rechteverwaltung und der Verwaltungstools wie SCOM integriert werden kann. Zu den Features gehören:
   
 - Ein Schreibfilter zum Verhindern von Datenträgerschreibvorgängen im Benutzermodus 
     
@@ -80,7 +80,7 @@ Skype Room System ist ein eingebettetes System, das vollständig in eine Windows
     
   - Auf der Skype Room System-Hardware befinden sich keine Standard-Apps oder -Viewer. Alle Inhalte werden über HTTP- oder RDP-Protokolle gerendert.
     
-  - Auf dem Appliance-PC wird das Betriebssystem Windows Embedded Standard 7 ausgeführt. Die gesamte Hardware, einschließlich Der Geräte, wird von OEM-Partnern bereitgestellt.
+  - Auf dem Appliance-PC wird das Windows Embedded Standard 7-Betriebssystem ausgeführt. Die gesamte Hardware, einschließlich Der Geräte, wird von OEM-Partnern bereitgestellt.
     
   - Optionaler Domänenbeitritt zu Active Directory Domain Services (AD DS), wodurch lokale Sicherheitskontoverwaltung und -steuerung aktiviert wird.
     
@@ -92,19 +92,19 @@ Skype Room System ist ein eingebettetes System, das vollständig in eine Windows
     
   - Skype for Business verwendet End-to-End-Verschlüsselung und Autorisierung für alle Kommunikationsmodi.
     
-  - Skype Room System unterstützt Skype for Business Sicherheits- und Compliancestandards. Weitere Informationen finden Sie [unter "Plan for security in Skype For Business Server".](../../plan-your-deployment/security/security.md)
+  - Skype Room System unterstützt Skype for Business Sicherheits- und Compliancestandards. Weitere Informationen finden Sie [unter Plan for security in Skype For Business Server.](../../plan-your-deployment/security/security.md)
     
 ## <a name="license"></a>Lizenz
 
-Stellen Sie sicher, dass Sie eine KMS zum Aktivieren von Software verwenden. Wenn ja, müssen Sie möglicherweise den Skype for Business Client-KMS-Schlüssel überprüfen oder hinzufügen. Wenn Sie KMS nicht verwenden, fordern Sie den Volumenlizenzschlüssel für den Skype for Business Client-MAK an.
+Stellen Sie sicher, dass Sie eine KMS zum Aktivieren von Software verwenden. Wenn ja, müssen Sie möglicherweise den Skype for Business Client-KMS-Schlüssel überprüfen oder hinzufügen. Wenn Sie KMS nicht verwenden, fordern Sie den Volumenlizenzierungsschlüssel für den Skype for Business Client-MAK an.
   
 ## <a name="license-keys"></a>Lizenzschlüssel
 
-Skype Room System führt den Skype for Business-Desktopclient im Hintergrund aus. Wenn Skype Room System Domänenmitglied ist, wird Ihr KMS ermittelt. (und wenn er über den Volumenlizenzierungs-KMS Schlüssel verfügt, wird er automatisch aktiviert). Die Volumenlizenzierung bietet auch einen MAK, den Sie eingeben, wenn xxxxx-xxxxx-xxxxx-xxxxx-xxxxx angezeigt wird. (Sie benötigen Internetzugriff, um mithilfe von MAK zu aktivieren, aber nicht KMS). Weitere Informationen finden Sie unter Volumenaktivierung von Office 2013.
+Skype Room System führt den Skype for Business-Desktopclient im Hintergrund aus. Wenn Skype Room System Ein Domänenmitglied ist, ermittelt es Ihre KMS. (und wenn er über den Volumenlizenzierungs-KMS Schlüssel verfügt, wird er automatisch aktiviert).) Die Volumenlizenzierung bietet auch einen MAK, den Sie eingeben, wenn xxxxx-xxxxx-xxxxx-xxxxx-xxxxx angezeigt wird. (Sie benötigen Internetzugriff, um mithilfe von MAK zu aktivieren, aber nicht KMS). Weitere Informationen finden Sie unter Volumenaktivierung von Office 2013.
   
 - Um den MAK-Schlüssel einzugeben, wechseln Sie zum OEM Einstellungen \> SRS-Lizenzierungstool. Klicken Sie auf Status überprüfen. Wenn der Status "Produkt ist nicht aktiviert" angezeigt wird, geben Sie den Schlüssel ein.
     
-- Wenn während der Aktivierung ein Fehler mit der Meldung "'Der Softwarelizenzierungsdienst hat gemeldet, dass der Product Key ungültig ist") angezeigt wird, überprüfen Sie Folgendes:
+- Wenn während der Aktivierung ein Fehler angezeigt wird, der besagt: "Der Softwarelizenzierungsdienst hat gemeldet, dass der Product Key ungültig ist", überprüfen Sie Folgendes:
     
   - Der Schlüssel wurde richtig eingegeben.
     
@@ -112,7 +112,7 @@ Skype Room System führt den Skype for Business-Desktopclient im Hintergrund aus
     
   - Das System hat Internetzugriff.
     
-- Sie können die Aktivierung per Telefon ausführen, müssen aber zuerst versucht haben, die Aktivierung mit dem SRS-Lizenzierungstool zu starten. Um per Telefon zu aktivieren, starten Sie eine Testbesprechung (kein Testanruf, da dies zu kurz ist). Wählen Sie im Assistenten für die Office Aktivierung die Telefonaktivierung aus, rufen Sie Microsoft an, geben Sie die lange Nummer ein, und geben Sie eine Antwort ein.
+- Sie können die Aktivierung per Telefon ausführen, müssen aber zuerst versucht haben, die Aktivierung mit dem SRS-Lizenzierungstool zu starten. Um per Telefon zu aktivieren, starten Sie eine Testbesprechung (kein Testanruf, da dies zu kurz ist). Wählen Sie im Office Aktivierungs-Assistenten die Option "Telefonaktivierung" aus, rufen Sie Microsoft auf, geben Sie die lange Nummer ein, und geben Sie eine Antwort ein.
     
 ## <a name="certificate-authority"></a>Zertifizierungsstelle
 

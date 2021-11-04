@@ -1,7 +1,7 @@
 ---
 title: Auswählen von Sprachen
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/23/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb9f98e3-6123-4e5a-a360-8ee1be6977f1
 description: Wählen Sie die Sprachen aus, die Sie für Ihre Zugriffsnummer für Einwahlkonferenzen verwenden möchten. Ausführliche Informationen finden Sie unter "Erstellen oder Ändern einer Zugriffsnummer für Einwahlkonferenzen".
-ms.openlocfilehash: eb1211410689c4dcc08e5959fcfa453885bf527f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 278ec7679dae3700cf7fdecebcf1dd1343bd33d9
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60770703"
 ---
 # <a name="select-languages"></a>Auswählen von Sprachen
 

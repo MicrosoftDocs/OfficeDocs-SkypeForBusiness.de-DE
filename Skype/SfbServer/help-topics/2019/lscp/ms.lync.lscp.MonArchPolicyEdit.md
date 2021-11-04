@@ -1,7 +1,7 @@
 ---
 title: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie verwenden Archivierungsrichtlinien, um die Archivierung der internen und externen Kommunikation in Ihrer Bereitstellung für Benutzer zu steuern, die auf Skype for Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:'
-ms.openlocfilehash: 0bcc34f3e221c2faf0f358e2161885005e786ea5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a5df0231622f9967484574ac1a11a89f15fd163e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618071"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773045"
 ---
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Archivierungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
  
@@ -33,7 +33,7 @@ Sie verwenden Archivierungsrichtlinien, um die Archivierung der internen und ext
 - **Benutzerrichtlinien (optional)** Sie können eine oder mehrere Archivierungsrichtlinien für Benutzer angeben, die Sie jeweils so konfigurieren können, dass die Archivierung für die interne oder externe Kommunikation für einen bestimmten Benutzer aktiviert und deaktiviert wird. Eine Benutzerrichtlinie setzt die globale Richtlinie und die Standortrichtlinien außer Kraft, jedoch nur für die Benutzer, denen Sie eine Benutzerrichtlinie zuweisen. Sie können Benutzerrichtlinien bearbeiten oder löschen.
     
 > [!NOTE]
-> Wenn Sie Exchange Integration zum Speichern von Archivierungsdaten in Microsoft Exchange verwenden, steuern Exchange Richtlinien die Archivierung für Benutzer, die auf Exchange verwaltet werden. Um die Archivierung für diese Benutzer zu aktivieren, muss das Postfach des Benutzers auf In-Place Haltebereich gesetzt werden. 
+> Wenn Sie Exchange Integration zum Speichern von Archivierungsdaten in Microsoft Exchange verwenden, steuern Exchange Richtlinien die Archivierung für Benutzer, die auf Exchange verwaltet werden. Um die Archivierung für diese Benutzer zu aktivieren, muss das Postfach des Benutzers in In-Place Haltebereich gesetzt werden. 
   
 Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vorhandene Archivierungsrichtlinie zu konfigurieren:
 - **Name** Jede Archivierungsrichtlinie erfordert einen Namen. Der Name wird anhand des Typs der Richtlinie bestimmt, die Sie hinzufügen oder bearbeiten:
@@ -50,5 +50,5 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     
 - **Archivieren der externen Kommunikation** Aktivieren Sie dieses Kontrollkästchen, um die Archivierung von Kommunikationen zu aktivieren, die externe Benutzer, z. B. Remotebenutzer (einschließlich anonyme Benutzer und Pic-Einstellungsbenutzer), sowie Verbundpartner umfassen. Diese Option ist in keiner Richtlinie standardmäßig aktiviert.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server,](../../../plan-your-deployment/archiving/archiving.md)Deploy archiving for [Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md)und Manage archiving [in Skype for Business Server.](../../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter ["Plan for archiving in Skype for Business Server",](../../../plan-your-deployment/archiving/archiving.md) ["Deploy archiving for Skype for Business Server"](../../../deploy/deploy-archiving/deploy-archiving.md)und ["Manage archiving in Skype for Business Server".](../../../manage/archiving/archiving.md)
 

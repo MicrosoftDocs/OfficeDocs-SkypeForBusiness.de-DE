@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen eines Dateispeichers für den Archivierungsserver
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e95f938e-4dd2-48b8-95a3-05b4c63d4810
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Aktivieren der Archivierung von Chatinhalten und Webkonferenzinhalten (Besprechungen) müssen Sie eine Dateifreigabe angeben, die als Dateispeicher für Kopien aller Webkonferenzinhalte verwendet werden soll. Sie können eine vorhandene Dateifreigabe für den Archivierungsdateispeicher verwenden oder eine neue Dateifreigabe angeben, indem Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Dateiservers angeben, auf dem sich die Dateifreigabe befinden soll, und einen Ordnernamen für die neue Dateifreigabe.
-ms.openlocfilehash: 696ccaecd2a2a7efb3c64cfddf0281f89541a886
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 36b6520c3ead26079751bcb34d8324c7efd5ff7c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629157"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771183"
 ---
 # <a name="add-archiving-server-file-store"></a>Hinzufügen eines Dateispeichers für den Archivierungsserver
 

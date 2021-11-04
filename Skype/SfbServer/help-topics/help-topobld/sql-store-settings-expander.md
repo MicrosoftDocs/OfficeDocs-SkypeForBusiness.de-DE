@@ -1,7 +1,7 @@
 ---
 title: SQL-Speichereinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
 description: Um die Eigenschaften einer SQL Server Datenbank zu bearbeiten, müssen Sie die SQL Server Datenbankinstanz ändern. Sie können das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um Aufgaben auszuführen, z. B. das Verschieben der Archivierungsserverdatenbank von einem Computer auf einen anderen. Darüber hinaus können Sie das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
-ms.openlocfilehash: 83bf11af40e8c51693b2b1768f1d71c9bc2f37f9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8a0debb5bff3befa2f4b15fa93ce16634d280cc0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609372"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60750374"
 ---
 # <a name="sql-store-settings-expander"></a>SQL-Speichereinstellungen – Erweiterung
  
