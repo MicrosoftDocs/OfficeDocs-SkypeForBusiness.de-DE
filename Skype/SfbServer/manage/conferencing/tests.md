@@ -1,7 +1,7 @@
 ---
 title: Testen von Einwahlkonferenzen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server testen.'
-ms.openlocfilehash: f02796fff9e610e20751e4e1ca3094d89435a98f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0a2a612b242a83c5e1d98525f040bf96c4e69ca8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578829"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773625"
 ---
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testen von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server testen.
   
-Als letzte Überprüfung Ihrer Konfiguration für Einwahlkonferenzen können Sie nach Wählplänen suchen, die über eine Region für Einwahlkonferenzen verfügen, die von keiner Zugriffsnummer verwendet wird, und nach Zugriffsnummern, die keine Einwahlkonferenzregion angegeben haben. Sie sollten auch überprüfen, ob die Einwahlkonferenzen Einstellungen Webseite und die Zugriffsnummern für die Einwahl ordnungsgemäß funktionieren.
+Als letzte Überprüfung Ihrer Konfiguration für Einwahlkonferenzen können Sie nach Wählplänen suchen, die über eine Region für Einwahlkonferenzen verfügen, die von keiner Zugriffsnummer verwendet wird, und nach Zugriffsnummern, die keine Einwahlkonferenzregion angegeben haben. Sie sollten auch überprüfen, ob die Einwahlkonferenz-Einstellungen Webseite und die Zugriffsnummern für die Einwahl ordnungsgemäß funktionieren.
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Suchen von Wählplänen mit einer Region für Einwahlkonferenzen, die nicht von einer Zugriffsnummer verwendet wird
 

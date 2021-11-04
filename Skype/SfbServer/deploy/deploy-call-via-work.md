@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von "Anruf über Arbeit" in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4802d733-14ef-4509-92b9-07173614e45f
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Anruf über Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.'
-ms.openlocfilehash: c6113c4447e30d59a262bf2c02b3f7ff2db171f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 98d7cc08b2cb4101f1d9d062e62ef32a3998691b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624417"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761609"
 ---
 # <a name="deploy-call-via-work-in-skype-for-business-server"></a>Bereitstellen von "Anruf über Arbeit" in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Anruf über Arbeit in Skype for Business Server für einige oder alle Benutzer bereitstellen.
   
-Führen Sie die folgenden Schritte aus, um Anruf über Arbeit für Ihre Benutzer bereitzustellen. Planungsüberlegungen werden in ["Plan for Call Via Work" in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)erläutert. In früheren Versionen von Lync Server war die Remoteanrufsteuerung ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt. 
+Führen Sie die folgenden Schritte aus, um Anruf über Arbeit für Ihre Benutzer bereitzustellen. Planungsüberlegungen werden in ["Plan for Call Via Work" in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)erläutert. In früheren Versionen von Lync Server war die Remoteanrufsteuerung ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Anruf über Arbeit" ersetzt. 
   
 ## <a name="prerequisites-for-call-via-work"></a>Voraussetzungen für anruf per Arbeit
 
@@ -36,7 +36,7 @@ Call Via Work verwendet unified Communications Web API (UCWA), die automatisch a
     
 - Alle Benutzer, die für "Anruf über Arbeit" aktiviert sind, müssen über eine DID (Direct Inward Dialing) auf dem PbX-Telefonsystem verfügen. 
     
-- Sie müssen alle Benutzer von "Über Arbeit anrufen" für Enterprise-VoIP aktivieren. Wenn Sie dies tun, müssen Sie die Skype for Business DID-Nummer für jeden Benutzer mit der entsprechenden DID-Nummer für die entsprechende Nebenstellenanlage konfigurieren. 
+- Sie müssen alle Benutzer von "Anruf über Arbeit" für Enterprise-VoIP aktivieren. Wenn Sie dies tun, müssen Sie die Skype for Business DID-Nummer für jeden Benutzer mit der entsprechenden DID-Nummer für das entsprechende PBX-Telefonsystem konfigurieren. 
     
 - Alle Benutzer, die "Anruf über Arbeit" verwenden, müssen die **automatische Konfiguration** in ihrer Option **"Erweiterte Verbindungen"** in ihrem Skype for Business-Client ausgewählt haben. Dadurch kann der Client die UCWA-URLs ermitteln. **Die automatische Konfiguration** ist die Standardauswahl.
     
@@ -98,7 +98,7 @@ Nachdem die Voraussetzungen erfüllt sind, führen Sie die folgenden Schritte au
   Grant-CsCallViaWorkPolicy -Identity ContosoUser1 -PolicyName Tag:ContosoUser1CvWP
   ```
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Plan for Call Via Work in Skype for Business Server](../plan-your-deployment/enterprise-voice-solution/call-via-work.md)
 

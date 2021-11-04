@@ -1,7 +1,7 @@
 ---
 title: Bereitstellungseinstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung in den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: 5dbe01c5c132bf3b9f3be2887752a799b29b131d
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e0904911dc5e1ae7edd49b86e33fa34599ac23d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58605024"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773935"
 ---
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 
@@ -75,6 +75,6 @@ Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in eine
 
 Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Cmdlet-Referenz Windows PowerShell.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 Weitere Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

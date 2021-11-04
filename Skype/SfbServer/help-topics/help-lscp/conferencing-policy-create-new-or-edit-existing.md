@@ -1,7 +1,7 @@
 ---
 title: Konferenzrichtlinie – Erstellen einer neuen oder Bearbeiten einer vorhandenen Konferenzrichtlinie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/24/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 description: Eine Konferenzrichtlinie definiert die Features und Funktionen, die Benutzern während einer Konferenz zur Verfügung stehen (auch bekannt als Besprechung).
-ms.openlocfilehash: 3af54cc96418fdd5d55576947e6a0e59b1cbc485
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: be0e6ee522d3bff98ab87cc8bbab7057499b0ede
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596799"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775205"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Konferenzrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Konferenzrichtlinie
 
@@ -63,7 +63,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Anonymen Teilnehmern das Ausgehende gestatten** Aktivieren Sie dieses Kontrollkästchen, wenn Sie Benutzern das Einwählen in Konferenzen gestatten und nicht authentifizierten (anonymen) Benutzern die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen gestatten möchten. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an, und der Benutzer nimmt das Gespräch an, um an der Konferenz teilzunehmen.
 
-- **Zulassen, dass Teilnehmer, die nicht für Enterprise-VoIP aktiviert sind, ausgehende Anrufe zulassen** Wenn Sie Audio in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern, die nicht für Enterprise-VoIP aktiviert sind, die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen zu ermöglichen. Bei ausgehenden Telefonverbindungen telefoniert der Konferenzserver den Benutzer, und der Benutzer antwortet dann auf das Telefon, um an der Konferenz teilzunehmen.
+- **Teilnehmer, die nicht für Enterprise-VoIP zum Ausgehenden aktiviert sind, gestatten** Wenn Sie Audio in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern, die nicht für Enterprise-VoIP aktiviert sind, die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen zu ermöglichen. Bei ausgehenden Telefonverbindungen telefoniert der Konferenzserver den Benutzer, und der Benutzer antwortet dann auf das Telefon, um an der Konferenz teilzunehmen.
 
 - **Zulassen mehrerer Videostreams** Wenn Sie Video in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern das Organisieren von Konferenzen mit Dem Video "Katalogansicht" zu ermöglichen. Wenn dieses Kontrollkästchen aktiviert ist, können Benutzer mit dieser Einstellung Konferenzen organisieren, die mehrere Videostreams senden. Wenn dieses Kontrollkästchen nicht aktiviert ist, können Benutzer nur Konferenzen organisieren, die einen einzelnen Videostream senden.
 

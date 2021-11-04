@@ -1,6 +1,6 @@
 ---
 title: Skype Softwarelizenz für Room System Skype for Business
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,14 +12,14 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen.
-ms.openlocfilehash: dadb373bacd5af72c11d8e8945825acce7bc5b5e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: dc605af5bc4f922e1da1669fb471ad46173a7646
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011529"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761573"
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business-Softwarelizenz
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Raumsystem: Skype for Business-Softwarelizenz
  
 Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen. 
   

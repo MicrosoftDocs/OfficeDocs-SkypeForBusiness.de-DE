@@ -1,7 +1,7 @@
 ---
 title: Verwenden Teams mit Remotedesktopdiensten
-author: cichur
-ms.author: serdars
+author: serdars
+ms.author: v-mahoffman
 ms.reviewer: alivano
 manager: serdars
 ms.topic: article
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8250991790b6fc2e326a31829e8afc3f8659df74
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 063ded4b2e2963ab30126c5af967017bf4981cef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605571"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774365"
 ---
 # <a name="teams-in-remote-desktop-services"></a>Teams in Remotedesktopdiensten
 
@@ -35,9 +35,9 @@ Remotedesktopdienste (Remote Desktop Services, RDS) ist die Plattform Ihrer Wahl
 RDS bietet Flexibilität, Kosteneffizienz und Erweiterbarkeit für die Bereitstellung. RDS wird über eine Vielzahl von Bereitstellungsoptionen geliefert, darunter Windows Server 2016 für lokale Bereitstellungen, Microsoft Azure für Cloudbereitstellungen und ein stabiles Array von Partnerlösungen.
 Abhängig von Ihrer Umgebung und Ihren Voreinstellungen können Sie die RDS-Lösung für die sitzungsbasierte Virtualisierung als VDI (Virtual Desktop Infrastructure) einrichten.
 
-Derzeit steht Teams einer Remotedesktopdienste-Umgebung mit Unterstützung für Zusammenarbeit und Chatfunktionen zur Verfügung. Um eine optimale Benutzererfahrung sicherzustellen, folgen Sie den Anweisungen in diesem Artikel.
+Derzeit ist Teams in einer Remotedesktopdienste-Umgebung mit Unterstützung für Zusammenarbeit und Chatfunktionen verfügbar. Um eine optimale Benutzererfahrung sicherzustellen, folgen Sie den Anweisungen in diesem Artikel.
 
-## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams über RDS mit Chat und Zusammenarbeit
+## <a name="teams-on-rds-with-chat-and-collaboration"></a>Teams in RDS mit Chat und Zusammenarbeit
 
 Wenn Ihre Organisation nur die Chat- und Zusammenarbeitsfeatures in Teams verwenden möchte, können Sie Richtlinien auf Benutzerebene festlegen, um Anruf- und Besprechungsfunktionen in Teams zu deaktivieren.
 

@@ -1,7 +1,7 @@
 ---
 title: Auswählen von Enterprise-VoIP-Benutzern
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/8/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 91a63439-f2a4-47b3-8c4e-29c8f32ee3c5
 description: Verwenden Sie das Dialogfeld Enterprise-VoIP Benutzer auswählen, um Benutzer zu suchen, die für Enterprise-VoIP aktiviert sind. Geben Sie im Suchfeld die SIP-Adresse oder den Anzeigenamen des Kontakts ein, nach dem gesucht werden soll, und klicken Sie auf Suchen. Zur Auswahl eines Benutzers klicken Sie in den Suchergebnissen auf den Benutzer und anschließend auf OK. Wenn Sie den gesuchten Benutzer nicht finden können, ist dieser Benutzer möglicherweise nicht für Enterprise-VoIP aktiviert.
-ms.openlocfilehash: d557cf654cd8b573dab7efe34afeebd240f46b5b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d07316d8fe46924a8492e0c0358bd98ba2e0e6d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584009"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60764013"
 ---
 # <a name="select-enterprise-voice-users"></a>Auswählen von Enterprise-VoIP-Benutzern
  

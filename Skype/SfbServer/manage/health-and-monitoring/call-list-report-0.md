@@ -1,7 +1,7 @@
 ---
 title: Anruflistenbericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Zusammenfassung: Erfahren Sie mehr über den Anruflistenbericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 1e07eab0251218eaa66434dac6f15a6a782e10cc
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7fe1a638bda3c830a7593f4a9048f7c4fc178229
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599004"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762413"
 ---
 # <a name="call-list-report-in-skype-for-business-server"></a>Anruflistenbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Anruflistenbericht, der in Skype for Business Server verwendet wird.
   
-Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt und empfangen wurden. Beachten Sie, dass die tatsächlich gemeldeten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Wenn Sie z. B. den Bericht aus dem [Gerätebericht in Skype for Business Server](device-report.md)öffnen, werden Metriken wie die folgenden angezeigt, Metriken, die auch im Gerätebericht gemeldet werden:
+Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt und empfangen wurden. Beachten Sie, dass die tatsächlich gemeldeten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Wenn Sie beispielsweise den Bericht aus dem [Gerätebericht in Skype for Business Server](device-report.md)öffnen, werden Metriken wie die folgenden angezeigt, Metriken, die auch im Gerätebericht gemeldet werden:
   
 - Mikrofon des Anrufers
     
@@ -91,6 +91,6 @@ In der folgenden Tabelle sind die Informationen aufgeführt, die im Anruflistenb
 |**Ausblendungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen ausgeblendeten Audiosamples und der Gesamtzahl der Samples. (Ausgeblendete Audiosamples sind ein Verfahren zum "Glätten" der "holprigen" Übertragung, die normalerweise von verworfenen Netzwerkpaketen verursacht wird.) Ein hoher Wert gibt an, dass wegen Paketverlusten oder Jitters Verlustausblendung in großem Umfang angewendet wurde und führt zu verzerrter oder unterbrochener Sprachübertragung.  <br/> |
 |**Streckungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen gestreckten Audiosamples und der Gesamtzahl der Samples. (Gestrecktes Audio ist ein Verfahren zum Dehnen von Audiodaten, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplestreckung in hohem Umfang aufgetreten ist und führt zu roboterhafter oder verzerrter Sprachqualität.  <br/> |
 |**Komprimierungsverhältnis der Reparatur** <br/> |Ja  <br/> |Das durchschnittliche Verhältnis zwischen komprimierten Audiosamples und der Gesamtzahl der Samples. (Komprimiertes Audio sind Audiodaten, die komprimiert wurden, um die Gesprächsqualität aufrechtzuerhalten, wenn ein verworfenes Netzwerkpaket festgestellt wurde.) Ein hoher Wert gibt an, dass wegen Jitters Samplekomprimierung in hohem Umfang angewendet wurde und führt zu zu schneller Sprachwiedergabe oder zu verzerrter Sprachqualität.  <br/> |
-|**Konnektivität** <br/> |Ja  <br/> | Art der Drahtlosen Kommunikationsverbindung. In der Regel ist dies eine der folgenden: <br/>  Relais <br/>  Direkte <br/> |
+|**Verbindung** <br/> |Ja  <br/> | Art der Drahtlosen Kommunikationsverbindung. In der Regel ist dies eine der folgenden: <br/>  Relais <br/>  Direkte <br/> |
    
 

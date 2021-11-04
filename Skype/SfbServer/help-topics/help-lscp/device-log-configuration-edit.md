@@ -1,7 +1,7 @@
 ---
 title: Bearbeiten der Geräteprotokollkonfiguration
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 description: Sie können der Seite "Protokolleinstellung bearbeiten" eine Geräteprotokollkonfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Größe der Protokolldatei oder die Dauer der Aufbewahrung einer Protokolldatei bestimmt, bevor sie gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.
-ms.openlocfilehash: ff199e0fcf7257137307211827bd6d9a0e8a4c4c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7f4dbd16ca9bbf03a74f84cfba15ca93e695743
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58579019"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768973"
 ---
 # <a name="device-log-configuration-edit"></a>Geräteprotokollkonfiguration: Bearbeiten
  
@@ -53,6 +53,6 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
 - **Tage zum Aufbewahren von Protokolldateien (1-365)** Sie können angeben, wie viele Tage die Protokolldateien aufbewahrt werden, bevor sie gelöscht werden. Der Standardwert beträgt 10 Tage.
     
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Geräteprotokollkonfiguration](device-log-configuration.md)

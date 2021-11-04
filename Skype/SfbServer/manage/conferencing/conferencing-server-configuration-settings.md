@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Konfigurationseinstellungen für Konferenzserver in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 36bed690-6e22-4e11-88c1-b40a20836c6a
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Konfigurationseinstellungen für Konferenzserver in Skype for Business Server verwalten.'
-ms.openlocfilehash: 7ba225920fd511d70efe1e063cb77dbd77d9721f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 14fed927e18d291cf17a5c00ee82dac7ef80a6d1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623727"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773705"
 ---
 # <a name="manage-conferencing-server-configuration-settings-in-skype-for-business-server"></a>Verwalten von Konfigurationseinstellungen für Konferenzserver in Skype for Business Server
  
@@ -52,7 +52,7 @@ Beachten Sie, dass Sie nur eine solche Sammlung pro Standort haben können. Dies
   
 Im nächsten Beispiel wird eine neue Auflistung von Konferenzkonfigurationseinstellungen definiert, die zunächst im Arbeitsspeicher gespeichert und dann zu einem späteren Zeitpunkt auf den Standort Redmond angewendet werden. 
   
-Der erste Befehl verwendet das Cmdlet **"New-CsConferencingConfiguration",** um eine neue Speicherauflistung von Einstellungen zu erstellen, die in der Variablen $x gespeichert sind. Der InMemory-Parameter gibt an, dass die Auflistung im Arbeitsspeicher erstellt werden soll, anstatt sie sofort auf den Standort Redmond anzuwenden.
+Der erste Befehl verwendet das Cmdlet **"New-CsConferencingConfiguration",** um eine neue Speicherauflistung der in der Variablen $x gespeicherten Einstellungen zu erstellen. Der InMemory-Parameter gibt an, dass die Auflistung im Arbeitsspeicher erstellt werden soll, anstatt sie sofort auf den Standort Redmond anzuwenden.
   
 Nachdem die Auflistung erstellt wurde, wird mit dem zweiten Befehl der Wert für die Eigenschaft "Organization" auf "Litwareinc" festgelegt. 
   
@@ -64,4 +64,4 @@ $x.Organization = "Litwareinc"
 Set-CsConferencingConfiguration -Instance $x
 ```
 
-Wenn Sie das Cmdlet **"Set-CsConferencingConfiguration"** nicht aufrufen, werden die neuen Einstellungen nie wirksam. Stattdessen werden sie ausgeblendet, sobald Sie Ihre Windows PowerShell Sitzung beenden oder die Variable $x löschen.
+Wenn Sie das Cmdlet **"Set-CsConferencingConfiguration"** nicht aufrufen, werden die neuen Einstellungen nie wirksam. Stattdessen werden sie ausgeblendet, sobald Sie ihre Windows PowerShell Sitzung beenden oder die Variable $x löschen.

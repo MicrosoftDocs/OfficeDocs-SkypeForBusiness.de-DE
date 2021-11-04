@@ -1,7 +1,7 @@
 ---
 title: Übertragen von Telefonnummern an Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: tonysmit
 ms.topic: article
@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe des Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter zu Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b8c2b96da4750ec31616fa577063f58b57a17986
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 2b86210d5e8ac7fe70db0e3774ee7483aad9236a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733076"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761743"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -35,13 +35,13 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
   > [!NOTE]
   > Wir verarbeiten Portierungsaufträge zur Übertragung von Telefonnummern nur an Werktagen in den USA und nicht an Feiertagen oder Wochenenden.
 
-## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen Sie einen Portierungsauftrag, und übertragen Sie Ihre Telefonnummern Teams
+## <a name="create-a-port-order-and-transfer-your-phone-numbers-to-teams"></a>Erstellen Sie einen Portierungsauftrag, und übertragen Sie Ihre Telefonnummern an Teams
 
 > [!NOTE]
 > Derzeit können Sie diesen Assistenten verwenden, **um Telefonnummern für Großbritannien,** die Vereinigten Staaten und Kanada zu erhalten. Um Telefonnummern für andere Länder und Regionen zu erhalten, können Sie [einen Portierungsauftrag manuell übermitteln.](manually-submit-port-order.md) Um das Formular zu erhalten, das Sie manuell übermitteln müssen, wählen Sie Ihr Land oder Ihre Region in der Dropdownliste unter Verwalten von Telefonnummern [für Ihre Organisation aus.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Sprachanrufnummern Telefon .** Klicken **Sie auf** Nummern und dann auf **Portieren,** um den Portierungs-Assistenten zu starten.
-2. Überprüfen Sie die Informationen auf der Seite **Erste** Schritte, und klicken Sie dann, wenn Sie bereit sind, auf **Weiter.**
+2. Überprüfen Sie die Informationen auf der Seite **Erste** Schritte, und klicken Sie dann, wenn Sie fertig sind, auf **Weiter.**
 3. Geben Sie **auf der Seite** Speicherort und Zahlentyp auswählen Folgendes an, und klicken Sie dann auf **Weiter:**
 
     - **Land oder Region:** Das Land oder die Region, in dem bzw. der Sie Telefonnummern erhalten.
@@ -70,14 +70,14 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
     > [!NOTE]
     > Die CSV-Datei darf nur eine Spalte mit der Überschrift "PhoneNumber" enthalten. Jede Telefonnummer muss in einer separaten Zeile stehen und kann nur Ziffern oder im E.164-Format sein.
 
-6. Klicken Sie **auf der** Seite Bestellung abschließen auf **Hochladen** signierte Genehmigungsschreiben, um eine gescannte Kopie der signierten Genehmigungsschreiben hochzuladen.
+6. Klicken Sie **auf der**  Seite Bestellung abschließen auf Hochladen signierte Genehmigungsschreiben, um eine gescannte Kopie der signierten Genehmigungsschreiben hochzuladen.
 
     Wenn Sie den LOA noch nicht heruntergeladen und signiert haben, gehen Sie wie folgt vor:
     
     1. Klicken **Sie auf Vorlage herunterladen,** um den LOA für Ihr Land oder Ihre Region herunterzuladen. 
     2. Drucken Sie den LOA.
     3. Lassen Sie den LOA von der Person unterzeichnen, die berechtigt ist, Änderungen am Konto vorzunehmen.
-    4. Scannen Sie den signierten LOA, und klicken Sie **Hochladen signierten Genehmigungsschreiben** ein, um ihn hochzuladen.
+    4. Scannen Sie den signierten LOA, und klicken Sie **Hochladen,** um ihn hochzuladen.
 
     > [!NOTE]
     > Nachdem Sie Ihren LOA hochgeladen haben, übermitteln Sie Ihre Bestellung. Nur das Hochladen des LOA reicht nicht aus. Sie müssen auch die Bestellung übermitteln, damit sie verarbeitet wird.

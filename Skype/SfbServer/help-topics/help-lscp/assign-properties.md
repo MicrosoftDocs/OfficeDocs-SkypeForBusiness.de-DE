@@ -1,7 +1,7 @@
 ---
 title: Zuweisen von Eigenschaften
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 50c799a3-90a0-4d58-8f8b-17eea56144dc
 description: Im Dialogfeld Eigenschaften zuweisen geben Sie eine Beschreibung und eine Netzwerkstandort-ID für mehrere Subnetze gleichzeitig an. Geben Sie unter Beschreibung eine Beschreibung für die ausgewählten Subnetze ein. Wählen Sie unter Netzwerkstandort-ID die Netzwerkstandort-ID aus, die den ausgewählten Subnetzen zugewiesen werden soll. Klicken Sie auf OK, um diese Eigenschaften den ausgewählten Subnetzen zuzuweisen.
-ms.openlocfilehash: 9d85d90f861c1f177a9af1874428378f465ba760
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d56a52d7cbf6fd1f8a3cbcb630f48e245fb34674
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581579"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769033"
 ---
 # <a name="assign-properties"></a>Zuweisen von Eigenschaften
  

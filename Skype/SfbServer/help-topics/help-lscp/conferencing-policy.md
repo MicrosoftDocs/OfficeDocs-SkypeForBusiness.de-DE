@@ -1,7 +1,7 @@
 ---
 title: Konferenzrichtlinie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
 description: Eine Konferenzrichtlinie definiert die Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
-ms.openlocfilehash: 28a417e6fbaa0dc90a4631f85ce69d1689c915ac
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 28589cf9b9261be244ef5421ad42a246a330d54f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584119"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769013"
 ---
 # <a name="conferencing-policy"></a>Konferenzrichtlinie
 
@@ -52,7 +52,7 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 - **Neu** Startet eine neue Standortkonferenzrichtlinie oder Benutzerkonferenzrichtlinie.
 
-- **Bearbeiten** Öffnet die ausgewählte Konferenzrichtlinie, um sie zu bearbeiten, wählt alle Konferenzrichtlinien in der Liste aus oder löscht die ausgewählte Standort- oder Benutzerrichtlinie.
+- **Bearbeiten** Öffnet die ausgewählte Konferenzrichtlinie, um sie zu bearbeiten, wählt alle Konferenzrichtlinien in der Liste aus oder löscht die ausgewählte Standortrichtlinie oder Benutzerrichtlinie.
 
     > [!NOTE]
     > Für die globale Richtlinie werden die Einstellungen mit **Löschen** auf die Standardwerte zurückgesetzt.
@@ -67,7 +67,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Datenzusammenarbeit** Überprüft, ob die Konferenzrichtlinie angibt, dass die Datenzusammenarbeit in Konferenzen zulässig ist.
 
-- **Anwendungsfreigabe** Wird überprüft, ob die Konferenzrichtlinie angibt, dass die Anwendungsfreigabe in Konferenzen zulässig ist.
+- **Anwendungsfreigabe** Überprüft, ob die Konferenzrichtlinie angibt, dass die Anwendungsfreigabe in Konferenzen zulässig ist.
 
 - **Audio** Überprüft, ob die Konferenzrichtlinie angibt, dass Audio in Konferenzen zulässig ist.
 

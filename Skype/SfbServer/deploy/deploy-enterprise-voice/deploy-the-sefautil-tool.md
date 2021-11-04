@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen des SEFAUtil-Tools in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb556e50-88dd-4404-a3d5-be36f5ba41e6
 description: Bereitstellen des SEFAUtil-Tools in Skype for Business Server.
-ms.openlocfilehash: 4848bc2c73cbcfc132bd996622a25512dedc2bf1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 40f35f227a2e1753f3362cd01b29883e06e1b893
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761533"
 ---
 # <a name="deploy-the-sefautil-tool-in-skype-for-business"></a>Bereitstellen des SEFAUtil-Tools in Skype for Business
  
@@ -32,7 +32,7 @@ Um die Gruppenanrufannahme bereitzustellen und zu verwalten, müssen Sie die Sky
 > [!IMPORTANT]
 > Microsoft Unified Communications Managed API (UCMA) 5 Runtime muss auf jedem Computer installiert sein, auf dem Sie das SEFAUtil-Tool ausführen möchten. Laden Sie es hier herunter: [Unified Communications Managed API 5.0 Runtime](https://www.microsoft.com/download/details.aspx?id=47344). Sie können auch das UCMA 5 SDK herunterladen, das die Laufzeit enthält, hier: [UCMA 5.0 SDK](https://www.microsoft.com/download/details.aspx?id=47345).
   
-Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung ausführen. Um das SEFAUtil-Tool auszuführen, müssen Sie die Schritte 1, 2 und 3 aus dem Bereitstellungs-Assistenten für Skype for Business auf dem Computer mit vertrauenswürdigen Anwendungen ausführen. SEFAUtil erfordert, dass der lokale Konfigurationsspeicher vorhanden ist, sowie ein Zertifikat.
+Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung ausführen. Zum Ausführen des SEFAUtil-Tools müssen Sie die Schritte 1, 2 und 3 aus dem Bereitstellungs-Assistenten für Skype for Business auf dem Computer mit vertrauenswürdigen Anwendungen ausführen. SEFAUtil erfordert, dass der lokale Konfigurationsspeicher vorhanden ist, sowie ein Zertifikat.
   
 > [!NOTE]
 > Weitere Informationen zum Ausführen von SEFAUtil finden Sie im Blogartikel "[How to get SEFAutil running?](/archive/blogs/jenstr/how-to-get-sefautil-running)". 
@@ -49,7 +49,7 @@ Sie können das SEFAUtil-Tool in jedem Front-End-Pool in Ihrer Bereitstellung au
    New-CsTrustedApplicationPool -id <Pool FQDN> -Registrar <Pool Registrar FQDN> -site Site:<Pool Site>
    ```
     > [!NOTE]
-    > Pool-FQDN: Der FQDN des Servers oder Pools, der die SEFAUtil-Anwendung hosten soll (in der Regel ein Skype for Business Front-End-Server oder -Pool).
+    > Pool-FQDN: Der FQDN des Servers oder Pools, der die SEFAUtil-Anwendung hosten wird (in der Regel ein Skype for Business Front-End-Server oder -Pool).
     > Poolregistrierungsstellen-FQDN: Der FQDN des Skype for Business Front-End-Servers oder -Pools, der diesem Anwendungspool zugeordnet ist.
     > Poolstandort: Die Standort-ID des Standorts, auf dem dieser Pool verwaltet wird.
 

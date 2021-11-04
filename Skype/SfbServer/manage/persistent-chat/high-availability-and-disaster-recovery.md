@@ -1,7 +1,7 @@
 ---
 title: Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die hohe Verfügbarkeit und Notfallwiederherstellung des Servers für beständigen Chat in Skype for Business Server 2015 verwalten.'
-ms.openlocfilehash: 5383a5bc1cb61e4886dcbe2087c6fb319ec4701e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3b45f38f1a530e91b75693196c5e64e206b10121
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774765"
 ---
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die hohe Verfügbarkeit und Notfallwiederherstellung des Servers für beständigen Chat in Skype for Business Server 2015 verwalten.
   
-In diesem Thema wird beschrieben, wie Sie den Server für beständigen Chat failoveren und zurücksetzen. Lesen Sie vor dem Lesen dieses Themas unbedingt plan [for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) and [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md).
+In diesem Thema wird beschrieben, wie Sie den Server für beständigen Chat failoveren und zurücksetzen. Lesen Sie vor dem Lesen dieses Themas unbedingt ["Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015"](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md) und ["Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015".](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
 
 > [!NOTE]
 > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
@@ -51,7 +51,7 @@ So führen Sie einen Failover für den Server für beständigen Chat durch:
   
 1. Entfernen Sie den Protokollversand aus der Sicherungsprotokollversanddatenbank des Servers für beständigen Chat.
     
-   - Stellen Sie mit SQL Server Management Studio eine Verbindung mit der Datenbankinstanz her, in der sich die mgc-Sicherungsdatenbank des Servers für beständigen Chat befindet.
+   - Stellen Sie mithilfe SQL Server Management Studio eine Verbindung mit der Datenbankinstanz her, in der sich die mgc-Sicherungsdatenbank des Servers für beständigen Chat befindet.
     
    - Öffnen Sie ein Abfragefenster zur Masterdatenbank.
     
@@ -77,7 +77,7 @@ So führen Sie einen Failover für den Server für beständigen Chat durch:
     
    - **Datenbank mgc mit Wiederherstellung wiederherstellen.**
     
-5. Verwenden Sie in Skype for Business Server Verwaltungsshell den Befehl **"Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver,** um einen Failover zur mgc-Sicherungsdatenbank auszuführen. Stellen Sie sicher, dass Sie den vollqualifizierten Domänennamen Ihres Pools für beständigen Chat durch atl-cs-001.litwareinc.com ersetzen.
+5. Verwenden Sie in Skype for Business Server Verwaltungsshell den Befehl **"Set-CsPersistentChatState -Identity "service:atl-cs-001.litwareinc.com" -PoolState FailedOver,** um einen Failover zur mgc-Sicherungsdatenbank auszuführen. Achten Sie darauf, den vollqualifizierten Domänennamen Ihres Pools für beständigen Chat durch atl-cs-001.litwareinc.com zu ersetzen.
     
     Die mgc-Sicherungsdatenbank dient jetzt als Primärdatenbank.
     
@@ -94,7 +94,7 @@ So führen Sie einen Failover für den Server für beständigen Chat durch:
 
 In diesem Verfahren werden die Schritte beschrieben, die erforderlich sind, um nach einem Serverfehler für beständigen Chat wiederherzustellen und Vorgänge aus dem primären Rechenzentrum wiederherzustellen.
   
-Während des Ausfalls des Servers für beständigen Chat tritt im primären Rechenzentrum ein vollständiger Ausfall auf, und die Primären- und Spiegeldatenbanken sind nicht mehr verfügbar. Für das primäre Rechenzentrum erfolgt ein Failover auf den Sicherungsserver.
+Während des Ausfalls des Servers für beständigen Chat tritt im primären Rechenzentrum ein vollständiger Ausfall auf, und die Primären- und Spiegeldatenbanken stehen nicht mehr zur Verfügung. Für das primäre Rechenzentrum erfolgt ein Failover auf den Sicherungsserver.
   
 Wenn das primäre Rechenzentrum wieder verfügbar ist und die Server wiederhergestellt sind, wird anhand der folgenden Verfahrensweise der normale Betrieb wieder aufgenommen. Bei dem Verfahren wird davon ausgegangen, dass das primäre Rechenzentrum nach dem totalen Ausfall wiederhergestellt wurde und dass die mgc-Datenbank und die mgccomp-Datenbank mithilfe des Topologie-Generators neu erstellt und neu installiert wurden.
   
@@ -113,7 +113,7 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
     
 2. Deaktivieren Sie die Spiegelung für die mgc-Sicherungsdatenbank:
     
-   - Stellen Sie mit SQL Server Management Studio eine Verbindung mit der mgc-Sicherungsinstanz her.
+   - Stellen Sie über SQL Server Management Studio eine Verbindung mit der mgc-Sicherungsinstanz her.
     
    - Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben**, und klicken Sie dann auf **Spiegeln**.
     
@@ -125,7 +125,7 @@ Mit den folgenden Schritten soll die Konfiguration so wiederhergestellt werden, 
     
 3. Sichern Sie die mgc-Datenbank, damit Sie in der neuen primären Datenbank wiederhergestellt werden kann:
     
-   - Stellen Sie mit SQL Server Management Studio eine Verbindung mit der mgc-Sicherungsinstanz her.
+   - Stellen Sie über SQL Server Management Studio eine Verbindung mit der mgc-Sicherungsinstanz her.
     
    - Klicken Sie mit der rechten Maustaste auf die mgc-Datenbank, zeigen Sie auf **Aufgaben**, und klicken Sie dann auf **Sichern**. Das Dialogfeld **Datenbank sichern** wird angezeigt.
     

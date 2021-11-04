@@ -1,7 +1,7 @@
 ---
 title: Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: 60f926a796ce38ecc17e033a4eef3dcd10ae1904
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58600130"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768773"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 
@@ -43,19 +43,19 @@ Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, ind
 
 - Wenn Sie die Option "Konferenzen" ausgewählt haben, können Sie **Einwahlkonferenzen (PSTN)** verwenden. Aktivieren Sie das Kontrollkästchen, um die Verwendung der Funktionen für Einwahlkonferenzen zu ermöglichen.
 
-- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP,** wenn Sie Features bereitstellen möchten, mit denen Lync Server 2013 als Telefontelefonsystem mit VoIP-Technologien (Voice over IP) fungiert, einschließlich der Option, Telefone, SIP-Trunks oder Verbindungen mit öffentlichen Telefonnetzwerken mithilfe von Vermittlungsservern, PSTN-Gateways und IP-Nebenstellenanlagen in Kombination oder allein basierend auf dem Entwurf und den Anforderungen bereitzustellen. Ausführliche Informationen zu Enterprise-VoIP finden Sie unter [Enterprise-VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) und [Plan for Enterprise-VoIP in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP,** wenn Sie Features bereitstellen möchten, mit denen Lync Server 2013 als Telefontelefonsystem mit VoIP-Technologien (Voice over IP) fungiert, einschließlich der Option, Telefone, SIP-Trunks oder Netzwerkverbindungen mit öffentlichen Telefonen mithilfe von Vermittlungsservern, PSTN-Gateways und IP-Nebenstellenanlagen in Kombination oder allein bereitzustellen.  basierend auf dem Entwurf und den Anforderungen. Ausführliche Informationen zu Enterprise-VoIP finden Sie unter [Enterprise-VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) und [Plan for Enterprise-VoIP in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Verbände**
 
 - **SQL Server Speicher:** Der FQDN des SQL Server (und optional eine benannte Instanz), die dem Front-End-Server oder Front-End-Pool zugeordnet ist. Sie wählen den SQL Server-Speicher aus der Liste aus oder erstellen eine neue SQL Server-Instanz, indem Sie auf **Neu** klicken.
 
-- **Dateispeicher:** Sie wählen den FQDN des Servers und die Freigabe (im Format) aus, die  `\\<FQDN of server>\<share name>` als Speicherort für den Dateispeicher für die freigegebenen Dateien fungiert, die lync Server 2013 für Replikation, Konferenzverzeichnisse und andere Zwecke erstellt und verwendet. Sie wählen den Dateispeicher in der Liste aus oder erstellen einen neuen Dateispeicher, indem Sie auf **Neu** klicken.
+- **Dateispeicher:** Sie wählen den FQDN des Servers und die Freigabe (im Format) aus, die  `\\<FQDN of server>\<share name>` als Speicherort für den Dateispeicher für die freigegebenen Dateien fungiert, die Lync Server 2013 für Replikation, Konferenzverzeichnisse und andere Zwecke erstellt und verwendet. Sie wählen den Dateispeicher in der Liste aus oder erstellen einen neuen Dateispeicher, indem Sie auf **Neu** klicken.
 
 - Aktivieren Sie das Kontrollkästchen **Archivierungsserver zuordnen,** um einen Archivierungsserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Archivierungsserver aus der Liste aus, oder klicken Sie auf **Neu,** um die Definitionen für einen neuen Archivierungsserver zu erstellen.
 
 - Aktivieren Sie das Kontrollkästchen **"Monitoring Server zuordnen",** um einen Überwachungsserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Monitoring Server aus der Liste aus, oder klicken Sie auf **Neu,** um die Definitionen für einen neuen Monitoring Server zu erstellen.
 
-- Aktivieren Sie das Kontrollkästchen **"Edgepool zuordnen" (für Medienkomponenten,** um einen Edgeserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Edgeserver oder -pool aus der Liste aus, oder klicken Sie auf **Neu,** um die Definitionen für einen neuen Edgeserver oder -pool zu erstellen.
+- Aktivieren Sie das Kontrollkästchen **"Edgepool zuordnen" (Kontrollkästchen für Medienkomponenten,** um einen Edgeserver für diesen Front-End-Server oder Front-End-Pool zu aktivieren. Nachdem Sie das Kontrollkästchen aktiviert haben, wählen Sie einen vorhandenen Edgeserver oder -pool aus der Liste aus, oder klicken Sie auf **Neu,** um die Definitionen für einen neuen Edgeserver oder -pool zu erstellen.
 
   **Ausfallsicherheit**
 
@@ -99,6 +99,6 @@ Klicken Sie auf **"Abbrechen",** um die Änderungen zu verwerfen und die **Bearb
 
 Klicken Sie auf **Hilfe**, um dieses Hilfethema anzuzeigen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)

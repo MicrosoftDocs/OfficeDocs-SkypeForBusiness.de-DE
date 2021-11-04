@@ -1,7 +1,7 @@
 ---
 title: Komponenten und Topologien für die Anrufsteuerung in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0beec6be-2431-4255-a3d2-512dd030e66a
 description: Planung der Anrufsteuerung (Call Admission Control, CAC), wenn Sie über ein MPLS-Netzwerk, einen SIP-Trunk oder ein PSTN-Gateway oder eine Nebenstellenanlage eines Drittanbieters verfügen. Gilt für Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 6964d57af7f4b1218e502e1b7b8ffc6afee3f5d5
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 338533fb307625b30ee93377ee24265ae7cca02b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773535"
 ---
 # <a name="components-and-topologies-for-call-admission-control-in-skype-for-business"></a>Komponenten und Topologien für die Anrufsteuerung in Skype for Business
 
@@ -126,7 +126,7 @@ Fall 3 unterscheidet sich leicht von den ersten beiden Fällen. Wenn die Drittan
 
 ![Fall 3: Anrufsteuerung zwischen Vermittlungsserver-Nebenstellenanlage ohne MTP.](../../media/CAC_gateways_3.jpg)
 
-Wenn in diesem Beispiel ein Skype for Business Clientbenutzer am Netzwerkstandort 1 einen Anruf an einen Benutzer über die Nebenstellenanlage tätigt, kann der Vermittlungsserver anrufsteuerungsüberprüfungen nur auf dem Proxyabschnitt (zwischen der Skype for Business Clientanwendung und dem Vermittlungsserver) durchführen. Da der Vermittlungsserver während der Sitzungsanforderung keine Informationen über das Endpunktgerät besitzt, können für die WAN-Verbindung vor Herstellung des Anrufs keine Prüfungen in Bezug auf die Anrufsteuerung durchgeführt werden (zwischen dem Vermittlungsserver und dem Drittanbieter-Endpunkt). Nach dem Einrichten der Sitzung erleichtert der Vermittlungsserver jedoch die Bereitstellung der für den Trunk verwendeten Bandbreite.
+Wenn in diesem Beispiel ein Skype for Business Clientbenutzer am Netzwerkstandort 1 einen Anruf an einen Benutzer über die Nebenstellenanlage tätigt, kann der Vermittlungsserver cac-Prüfungen nur für den Proxyabschnitt (zwischen der Skype for Business Clientanwendung und dem Vermittlungsserver) durchführen. Da der Vermittlungsserver während der Sitzungsanforderung keine Informationen über das Endpunktgerät besitzt, können für die WAN-Verbindung vor Herstellung des Anrufs keine Prüfungen in Bezug auf die Anrufsteuerung durchgeführt werden (zwischen dem Vermittlungsserver und dem Drittanbieter-Endpunkt). Nach dem Einrichten der Sitzung erleichtert der Vermittlungsserver jedoch die Bereitstellung der für den Trunk verwendeten Bandbreite.
 
 Für Anrufe, die vom Drittanbieter-Endpunkt ausgehen, stehen die Informationen über dieses Endpunktgerät zum Zeitpunkt der Sitzungsanforderung zur Verfügung, und Prüfungen in Bezug auf die Anrufsteuerung können auf beiden Seiten des Vermittlungsservers durchgeführt werden.
 

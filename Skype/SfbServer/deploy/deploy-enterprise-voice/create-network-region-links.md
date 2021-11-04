@@ -1,7 +1,7 @@
 ---
 title: Erstellen von Netzwerkregionenverbindungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
 description: Erstellen oder Ändern von Netzwerkregionenverbindungen, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: bea44eaabf94c2b37db4d9e50f9266744670fb2a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: dd46e7d7043d7d1814b7a23ac755624af0af4c69
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594163"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775795"
 ---
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von Netzwerkregionenverbindungen in Skype for Business Server
  
@@ -29,7 +29,7 @@ Erstellen oder Ändern von Netzwerkregionenverbindungen, die von Enterprise-VoIP
   
 Regionen in einem Netzwerk sind über eine physische WAN-Verbindung verbunden. Eine Netzwerkregionenverbindung erstellt eine Verbindung zwischen zwei Regionen, die für die Anrufsteuerung (Call Admission Control, CAC) konfiguriert sind, und legt die Bandbreiteneinschränkungen für Audio- und Videodatenverkehr zwischen diesen Regionen fest.
   
-Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika und APAC sowie eine Verbindung zwischen den Regionen EMEA und APAC auf. Jede dieser Regionenverbindungen ist durch die WAN-Bandbreite eingeschränkt, wie in der Tabelle mit den Informationen zur Regionsverbindungsbandbreite in [ Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server ](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)beschrieben.
+Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika und APAC sowie eine Verbindung zwischen den Regionen EMEA und APAC auf. Jede dieser Regionenverbindungen ist durch die WAN-Bandbreite eingeschränkt, wie in der Tabelle "Informationen zur Regionsverbindungsbandbreite" im [Beispiel beschrieben: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Netzwerkregionenverbindungen mithilfe Skype for Business Server Verwaltungsshell
 
@@ -57,9 +57,9 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika un
     
 5. Klicken Sie auf der Seite **"Neue Regionenverbindung"** auf **"Name",** und geben Sie dann einen Namen für die Netzwerkregionenverbindung ein.
     
-6. Klicken Sie auf **"Netzwerkregion #1"** und dann auf die Netzwerkregion in der Liste, die Sie mit der Netzwerkregion #2 verknüpfen möchten.
+6. Klicken Sie auf **Netzwerkregion Nr. 1** und dann auf die Netzwerkregion in der Liste, die Sie mit Netzwerkregion Nr. 2 verknüpfen möchten.
     
-7. Klicken Sie auf **"Netzwerkregion #2"** und dann auf eine Netzwerkregion in der Liste, die Sie mit der Netzwerkregion #1 verknüpfen möchten.
+7. Klicken Sie auf **Netzwerkregion Nr. 2** und dann auf eine Netzwerkregion in der Liste, die Sie mit Netzwerkregion Nr. 1 verknüpfen möchten.
     
 8. Klicken Sie optional auf **Bandbreitenrichtlinie,** und wählen Sie dann das Bandbreitenrichtlinienprofil aus, das Sie auf die Netzwerkregionenverbindung anwenden möchten.
     
@@ -70,7 +70,7 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika un
     
 10. Wiederholen Sie die Schritte 4 bis 9 mit Einstellungen für andere Regionen, um die Erstellung von Netzwerkregionenverbindungen für Ihre Topologie abzuschließen.
     
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [New-CsNetworkRegionLink](/powershell/module/skype/new-csnetworkregionlink?view=skype-ps)
   

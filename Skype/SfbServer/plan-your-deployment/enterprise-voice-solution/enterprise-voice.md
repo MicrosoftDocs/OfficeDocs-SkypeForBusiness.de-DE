@@ -1,7 +1,7 @@
 ---
 title: Planen der Enterprise-VoIP in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
 description: Enterprise-VoIP die Planung von Grundlagen in Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und Der Schätzung des VoIP-Nutzungsdatenverkehrs.
-ms.openlocfilehash: bfd7d4b1491b83c6ad3ab65836777e805689c21f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 60b762d2e9ef49d912dc00407d7b12d44ec334c0
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618811"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762143"
 ---
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen der Enterprise-VoIP in Skype for Business Server
  
@@ -37,7 +37,7 @@ Identifizieren Sie zunächst die Standorte in Ihrer Topologie, an denen Sie Ente
   
 ## <a name="network-links-between-sites"></a>Netzwerkverbindungen zwischen Standorten
 
-Sie müssen auch die Bandbreitennutzung berücksichtigen, die Sie für die Netzwerkverbindungen zwischen Ihrem zentralen Standort und den Zweigstellen erwarten. Wenn Sie über ausfallsichere WAN-Verbindungen zwischen Standorten verfügen oder diese bereitstellen möchten, empfehlen wir, dass Sie an jedem Zweigstellenstandort ein Gateway bereitstellen, um benutzern an diesen Standorten eine lokale DID-Beendigung (Direct Inward Dial) bereitzustellen. Wenn Sie über ausfallsichere WAN-Verbindungen verfügen, die Bandbreite einer WAN-Verbindung jedoch wahrscheinlich eingeschränkt ist, konfigurieren Sie die Anrufsteuerung für diese Verbindung. Wenn Sie keine ausfallsicheren WAN-Verbindungen haben, weniger als 1.000 Benutzer an Ihrem Zweigstellenstandort hosten und keine lokal geschulten Skype for Business Server Administratoren verfügbar sind, wird empfohlen, eine Survivable Branch Appliance am Zweigstellenstandort bereitzustellen. Wenn Sie zwischen 1000 und 5000 Benutzer an Ihrem Zweigstellenstandort hosten, keine ausfallsichere WAN-Verbindung haben und Skype for Business Server Administratoren geschult sind, empfehlen wir, dass Sie einen Survivable Branch Server mit einem kleinen Gateway am Zweigstellenstandort bereitstellen. Erwägen Sie auch die Aktivierung der Medienumgehung für Verbindungen mit eingeschränkter Bandbreite, wenn Sie über ein Gatewaypeer mit Unterstützung der Medienumgehung verfügen.
+Sie müssen auch die Bandbreitennutzung berücksichtigen, die Sie für die Netzwerkverbindungen zwischen Ihrem zentralen Standort und den Zweigstellen erwarten. Wenn Sie über ausfallsichere WAN-Verbindungen zwischen Standorten verfügen oder diese bereitstellen möchten, empfehlen wir, dass Sie an jedem Zweigstellenstandort ein Gateway bereitstellen, um benutzern an diesen Standorten eine lokale DID-Beendigung (Direct Inward Dial) bereitzustellen. Wenn Sie über ausfallsichere WAN-Verbindungen verfügen, die Bandbreite einer WAN-Verbindung jedoch wahrscheinlich eingeschränkt ist, konfigurieren Sie die Anrufsteuerung für diese Verbindung. Wenn Sie keine ausfallsicheren WAN-Verbindungen haben, weniger als 1.000 Benutzer an Ihrem Zweigstellenstandort hosten und keine lokal geschulten Skype for Business Server Administratoren verfügbar sind, empfehlen wir, dass Sie eine Survivable Branch Appliance am Zweigstellenstandort bereitstellen. Wenn Sie zwischen 1000 und 5000 Benutzer an Ihrem Zweigstellenstandort hosten, keine ausfallsichere WAN-Verbindung haben und Skype for Business Server Administratoren geschult sind, empfehlen wir, dass Sie einen Survivable Branch Server mit einem kleinen Gateway am Zweigstellenstandort bereitstellen. Erwägen Sie auch die Aktivierung der Medienumgehung für Verbindungen mit eingeschränkter Bandbreite, wenn Sie über ein Gatewaypeer mit Unterstützung der Medienumgehung verfügen.
   
 ## <a name="estimating-voice-usage-and-traffic"></a>Schätzen der VoIP-Nutzung und des Datenverkehrs
 

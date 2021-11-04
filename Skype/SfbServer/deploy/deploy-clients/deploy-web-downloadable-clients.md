@@ -1,6 +1,6 @@
 ---
 title: Bereitstellen von herunterladbaren Webclients in Skype for Business Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Zusammenfassung: Stellen Sie die Skype for Business-Web-App- und Skype Besprechungs-App bereit, die mit Skype for Business verwendet wird.'
-ms.openlocfilehash: 65b786cbdd999971c5825406087cd8d7f35a155e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Zusammenfassung: Stellen Sie die Skype for Business-Web-App- und Skype-Besprechungs-App bereit, die mit Skype for Business verwendet wird.'
+ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58601950"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761593"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen von herunterladbaren Webclients in Skype for Business Server
 
 **Zusammenfassung:** Stellen Sie die Skype for Business 2015 Web App und Skype Besprechungs-App bereit, die mit Skype for Business Server verwendet wird.
 
-Skype for Business-Web-App ist ein Internetinformationsdienste(IIS)-Webclient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und standardmäßig bei Bedarf für Besprechungsbenutzer bereitgestellt wird, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungsbenutzer stellen in den meisten Fällen eine Verbindung von außerhalb Ihres Netzwerks her. Wenn ein Benutzer auf eine Besprechungs-URL klickt, der Skype for Business Client jedoch nicht installiert ist, wird dem Benutzer die Möglichkeit angezeigt, mithilfe der neuesten Version von Skype for Business-Web-App, Skype Besprechungs-App oder Skype for Business für Mac an der Besprechung teilzunehmen.
+Skype for Business-Web-App ist ein Internetinformationsdienste(IIS)-Webclient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und standardmäßig bei Bedarf für Besprechungsbenutzer bereitgestellt wird, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungsbenutzer stellen in den meisten Fällen eine Verbindung von außerhalb Ihres Netzwerks her. Wenn ein Benutzer auf eine Besprechungs-URL klickt, aber nicht den Skype for Business-Client installiert hat, wird dem Benutzer die Möglichkeit angezeigt, mithilfe der neuesten Version von Skype for Business-Web-App, Skype Besprechungs-App oder Skype for Business für Mac an der Besprechung teilzunehmen.
 
 Die Sprach-, Video- und Freigabefunktionen in Skype for Business-Web-App erfordern ein Microsoft ActiveX-Steuerelement, das vom Browser des Benutzers als Plug-In verwendet wird. Sie können entweder das ActiveX-Steuerelement im Voraus installieren oder benutzern die Installation gestatten, wenn Sie dazu aufgefordert werden. Dies geschieht bei der ersten Verwendung Skype for Business-Web-App oder beim ersten Zugriff auf ein Feature, das das ActiveX-Steuerelement erfordert.
 
@@ -82,7 +82,7 @@ Ausführliche Informationen zum Deaktivieren von BranchCache finden Sie im [Bran
 ## <a name="verifying-skype-for-business-web-app-deployment"></a>Überprüfen Skype for Business-Web-App Bereitstellung
 <a name="MFA"> </a>
 
-Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Ausführliche Informationen zu diesem Cmdlet finden Sie unter ["Test-CsUcwaConference"](/powershell/module/skype/test-csucwaconference?view=skype-ps) in der Dokumentation zur Skype for Business Server-Verwaltungsshell.
+Sie können das Cmdlet "Test-CsUcwaConference" verwenden, um sicherzustellen, dass ein Paar von Testbenutzern in einer Konferenz unter Verwendung der Unified Communications-Web-API (UCWA) teilnehmen können. Ausführliche Informationen zu diesem Cmdlet finden Sie in der Dokumentation zur Skype for Business Server-Verwaltungsshell unter ["Test-CsUcwaConference".](/powershell/module/skype/test-csucwaconference?view=skype-ps)
 
 ## <a name="troubleshooting-plug-in-installation-on-windows-server-2008-r2"></a>Problembehandlung bei der Plug-In-Installation auf Windows Server 2008 R2
 <a name="MFA"> </a>
@@ -116,14 +116,14 @@ Wenn die Installation des Plug-Ins auf einem Computer mit Windows Server 2008 R2
 
 5. Nehmen Sie an der Besprechung erneut teil.
 
-## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Aktivieren Skype Besprechungs-App, um Skype for Business-Web-App zu ersetzen (optional, nur Skype for Business Server 2015)
+## <a name="enable-skype-meetings-app-to-replace-skype-for-business-web-app-optional-skype-for-business-server-2015-only"></a>Aktivieren sie Skype Besprechungs-App, um Skype for Business-Web-App zu ersetzen (optional, nur Skype for Business Server 2015)
 <a name="SMA_Enable"> </a>
 
-Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 und höher. Wenn Sie es nicht verwenden, nehmen externe Benutzer weiterhin über Skype for Business-Web-App an Besprechungen teil.
+Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 und höher. Wenn Sie sie nicht verwenden, nehmen externe Benutzer weiterhin über Skype for Business-Web-App an Besprechungen teil.
 
 ### <a name="enable-simplified-meeting-join-and-skype-meetings-app"></a>Vereinfachte Besprechungsteilnahme und Skype Besprechungs-App aktivieren
 
-1. Wenn Sie den Zugriff auf die Content Delivery Network (CDN) aktivieren, haben Benutzer die Möglichkeit, online eine Verbindung mit CDN herzustellen und Skype Besprechungs-App (auf Windows) und Skype for Business für Mac (auf dem Mac) zu erhalten, und verwenden die vereinfachte Besprechungsbenutzeroberfläche.
+1. Wenn Sie den Zugriff auf die Content Delivery Network (CDN) aktivieren, haben Benutzer die Möglichkeit, sich online mit CDN zu verbinden und Skype Besprechungs-App (auf Windows) und Skype for Business für Mac (auf dem Mac) zu erhalten, und verwenden die vereinfachte Besprechungsbenutzeroberfläche.
 
    ```powershell
    Set-CsWebServiceConfiguration -MeetingUxUseCdn $True
@@ -144,7 +144,7 @@ Dieses Verfahren ist optional und gilt für Skype for Business Server 2015 CU5 u
    ```
 
 > [!NOTE]
-> With MeetingUxUseCdn in Skype for Business Server 2015 Cumulative Update 5, the default value is set to False. Dies verursacht ein Problem, bei dem Skype for Business für Mac Client nicht an Besprechungen von Nicht-Verbundpartnern als Gast teilnehmen kann, auch wenn Skype for Business Administrator MeetingUxUseCdn auf "True" festgelegt hat. Damit dies funktioniert, muss Skype for Business Server 2015 über das kumulative Update 7, 6.0.9319.534 oder höher verfügen. Weitere Informationen finden Sie unter [Aktivieren Skype Besprechungs-App, um Skype for Business-Web-App in Skype for Business Server 2015 zu ersetzen.](https://support.microsoft.com/kb/4132312)
+> With MeetingUxUseCdn in Skype for Business Server 2015 Cumulative Update 5, the default value is set to False. Dies verursacht ein Problem, bei dem Skype for Business für Mac Client nicht als Gast an Besprechungen von Nicht-Verbundpartnern teilnehmen kann, auch wenn Skype for Business Administrator MeetingUxUseCdn auf "True" festgelegt hat. Damit dies funktioniert, muss Skype for Business Server 2015 über das kumulative Update 7, 6.0.9319.534 oder höher verfügen. Weitere Informationen finden Sie unter [Aktivieren Skype Besprechungs-App, um Skype for Business-Web-App in Skype for Business Server 2015 zu ersetzen.](https://support.microsoft.com/kb/4132312)
 
 
 ## <a name="see-also"></a>Siehe auch

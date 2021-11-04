@@ -1,6 +1,6 @@
 ---
 title: Bereitstellen des Lync VDI-Plug-Ins mit Skype for Business Server
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.reviewer: krishra
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: In diesem Thema werden Bereitstellungsverfahren für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert.
-ms.openlocfilehash: 9d745321a398828d6ec31a55528008b467ddea47
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64bbe73f1a0a4a1d2bde59cd86f1cf3a0f5d911e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608612"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775835"
 ---
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Bereitstellen des Lync VDI-Plug-Ins mit Skype for Business Server
  
 In diesem Thema werden Bereitstellungsverfahren für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert. Planungsüberlegungen sind im [Plan für Skype for Business in VDI-Umgebungen.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
   
-Eine Virtual Desktop Infrastructure (VDI)-Umgebung wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Ihre Benutzer befinden sich auf lokalen Windows Computern und verwenden Clients auf einem virtuellen Desktop. Die Verwendung Skype for Business auf einer solchen Verbindung erfordert zusätzliche VDI-Plug-In-Software.
+Eine Virtual Desktop Infrastructure (VDI)-Umgebung wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Ihre Benutzer befinden sich auf lokalen Windows Computern und verwenden Clients auf einem virtuellen Desktop. Die Verwendung von Skype for Business auf einer solchen Verbindung erfordert zusätzliche VDI-Plug-In-Software.
   
 Für die VDI-Plug-In-Komponente stehen zwei Lösungen zur Verfügung– eine von Microsoft und eine von Citrix. Microsoft empfiehlt die Verwendung der neuen HDX RealTime Optimization Pack-Lösung in neuen Bereitstellungen, unterstützt aber weiterhin das ursprüngliche Lync VDI-Plug-In für den restlichen Lebenszyklus. 
   
-Dieses Thema enthält Ausführliche Informationen zur Bereitstellung des Microsoft Lync VDI-Plug-Ins, das nur auf Windows 7 und Windows 8 oder Windows Server 2008 unterstützt wird und nur Lync 2013- oder Skype for Business-Clients unterstützt. Es gibt keine Pläne, dieses Plug-In zu aktualisieren, aber das [Citrix HDX RealTime Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) für Skype for Business wird bei Bedarf aktualisiert.
+Dieses Thema enthält Details zur Bereitstellung des Microsoft Lync VDI-Plug-Ins, das nur auf Windows 7 und Windows 8 oder Windows Server 2008 unterstützt wird und nur Lync 2013- oder Skype for Business-Clients unterstützt. Es gibt keine Pläne, dieses Plug-In zu aktualisieren, aber das [Citrix HDX RealTime Optimization Pack](../../plan-your-deployment/clients-and-devices/vdi-environments.md#Citrix_RT) für Skype for Business wird bei Bedarf aktualisiert.
   
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Vorbereiten der Umgebung für das Lync VDI-Plug-In
 <a name="Prepare_vdi"> </a>
@@ -72,7 +72,7 @@ Nachdem das Lync VDI-Plug-In aktiviert wurde, führt der Benutzer diese Schritte
     
 2. Nachdem Skype for Business das Lync VDI-Plug-In erkannt hat, fordert Skype for Business den Benutzer auf, die Anmeldeinformationen erneut einzugeben. Es wird empfohlen, in diesem Dialogfeld das Kontrollkästchen **Kennwort speichern** zu aktivieren, damit der Benutzer seine Anmeldeinformationen bei folgenden Anmeldevorgängen nicht erneut eingeben muss.
     
-3. Skype for Business beginnt mit der Kopplung mit dem Lync VDI-Plug-In. In diesem Fall zeigt der Client zwei Symbole in der Skype for Business Statusleiste an. Das Symbol unten links zeigt an, dass keine Audiogeräte verfügbar sind, und das blinkende Symbol unten rechts zeigt an, dass die VDI-Kopplung ausgeführt wird: a. Nachdem die VDI-Kopplung erfolgreich war, ändern sich die Symbole, um das Audiogerät anzugeben, das für Anrufe verwendet wird, und den Erfolg der VDI-Kopplung: b. Der Benutzer kann seine Anwesenheit jetzt auf Skype for Business kompatiblen Geräten sehen, die mit dem lokalen Computer verbunden sind, und Anrufe wie gewohnt tätigen und beantworten.
+3. Skype for Business beginnt mit der Kopplung mit dem Lync VDI-Plug-In. In diesem Fall zeigt der Client zwei Symbole in der Skype for Business Statusleiste an. Das Symbol unten links zeigt an, dass keine Audiogeräte verfügbar sind, und das blinkende Symbol unten rechts zeigt an, dass die VDI-Kopplung ausgeführt wird: a. Nachdem die VDI-Kopplung erfolgreich war, ändern sich die Symbole, um das Audiogerät anzugeben, das für Anrufe verwendet wird, und den Erfolg der VDI-Kopplung: b. Der Benutzer kann seine Anwesenheit jetzt auf Skype for Business kompatiblen Geräten sehen, die mit dem lokalen Computer verbunden sind, und Anrufe wie gewohnt tätigen und entgegennehmen.
     
 ## <a name="troubleshoot-the-lync-vdi-plug-in"></a>Problembehandlung für das Lync VDI-Plug-In
 <a name="tshoot_VDI"> </a>

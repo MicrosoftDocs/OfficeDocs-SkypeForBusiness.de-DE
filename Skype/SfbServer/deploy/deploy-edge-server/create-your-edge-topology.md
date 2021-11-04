@@ -1,7 +1,7 @@
 ---
 title: Erstellen der Edgetopologie für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Edgeservertopologie in Skype for Business Server erstellen, veröffentlichen und exportieren.'
-ms.openlocfilehash: db5c4c2f9c68803d0e6823070c83c654df542035
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ff7c2e69c3ee18da5c798fbdf96719bd14146d45
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58584349"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775805"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen der Edgetopologie für Skype for Business Server
  
@@ -49,7 +49,7 @@ Der erste Bereitstellungsschritt besteht darin, ihre Skype for Business Server E
   
 - Ein einzelner Edgeserver
     
-- Edgepool mit DNS-Lastenausgleich (mindestens ein Server)
+- Edgepool mit DNS-Lastenausgleich (ein oder mehrere Server)
     
 - Edgepool mit Hardwarelastenausgleich (ein oder mehrere Server)
     
@@ -71,7 +71,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
 7. Auf dem Bildschirm **"Features auswählen"** haben Sie folgende Auswahlmöglichkeiten:
     
-   - Möglicherweise möchten Sie den gleichen FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server Webkonferenzdienst und Ihren A/V-Edgedienst verwenden. Wenn ja, müssen Sie das **Kontrollkästchen "Nur FQDN und IP-Adresse verwenden"** aktivieren (und dies für Schritt 9 unten beachten).
+   - Möglicherweise möchten Sie denselben FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server Webkonferenzdienst und Ihren A/V-Edgedienst verwenden. Wenn ja, müssen Sie das **Kontrollkästchen "Nur FQDN und IP-Adresse verwenden"** aktivieren (und dies für Schritt 9 unten beachten).
     
    - Wenn Sie planen, den Partnerverbund zu aktivieren, aktivieren Sie das **Kontrollkästchen Verbund für diesen Edgepool aktivieren (Port 5061).**
     
@@ -133,7 +133,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
 7. Auf dem Bildschirm **"Features auswählen"** haben Sie folgende Auswahlmöglichkeiten:
     
-    - Möglicherweise möchten Sie den gleichen FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server Webkonferenzdienst und Ihren A/V-Edgedienst verwenden. Wenn ja, müssen Sie das **Kontrollkästchen "Nur FQDN und IP-Adresse verwenden"** aktivieren (und dies für Schritt 9 unten beachten).
+    - Möglicherweise möchten Sie denselben FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server Webkonferenzdienst und Ihren A/V-Edgedienst verwenden. Wenn ja, müssen Sie das **Kontrollkästchen "Nur FQDN und IP-Adresse verwenden"** aktivieren (und dies für Schritt 9 unten beachten).
     
     - Wenn Sie planen, den Partnerverbund zu aktivieren, aktivieren Sie das **Kontrollkästchen Verbund für diesen Edgepool aktivieren (Port 5061).**
     
@@ -168,7 +168,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     > [!NOTE]
     > Wenn Sie zuvor nicht die Aktivierung und Zuweisung der IPv6-Adressierung ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal, fahren Sie einfach mit dem nächsten Schritt fort. 
   
-13. Klicken Sie auf **Fertig stellen**. Der Edgeserver, den Sie gerade erstellt haben, sollte nun im Dialogfeld **"Computer in diesem Pool definieren"** aufgeführt werden.
+13. Klicken Sie auf **Fertig stellen**. Der Edgeserver, den Sie soeben erstellt haben, sollte nun im Dialogfeld **"Computer in diesem Pool definieren"** aufgeführt werden.
     
 14. Klicken Sie noch auf dem Bildschirm **"Computer in diesem Pool definieren"** erneut auf die Schaltfläche **"Hinzufügen",** und wiederholen Sie die Schritte 11 bis 13, bis Sie alle Edgeserver hinzugefügt haben, die Sie in diesem Pool verwenden möchten. Klicken Sie nach Abschluss dieses Vorgangs auf **"Weiter".**
     
@@ -239,7 +239,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     > [!NOTE]
     > Wenn Sie zuvor nicht die Aktivierung und Zuweisung der IPv6-Adressierung ausgewählt haben, wird dieses Dialogfeld nicht angezeigt. Das ist normal, fahren Sie einfach mit dem nächsten Schritt fort. 
   
-13. Klicken Sie auf **Fertig stellen**. Der Edgeserver, den Sie gerade erstellt haben, sollte nun im Dialogfeld **"Computer in diesem Pool definieren"** aufgeführt werden.
+13. Klicken Sie auf **Fertig stellen**. Der Edgeserver, den Sie soeben erstellt haben, sollte nun im Dialogfeld **"Computer in diesem Pool definieren"** aufgeführt werden.
     
 14. Klicken Sie noch auf dem Bildschirm **"Computer in diesem Pool definieren"** erneut auf die Schaltfläche **"Hinzufügen",** und wiederholen Sie die Schritte 11 bis 13, bis Sie alle Edgeserver hinzugefügt haben, die Sie in diesem Pool verwenden möchten. Klicken Sie nach Abschluss dieses Vorgangs auf **"Weiter".**
     
@@ -256,7 +256,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
 ## <a name="publish-your-edge-server-topology"></a>Veröffentlichen der Edgeservertopologie
 
-Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie sie auch in Ihren Skype for Business Server Edgeserver oder Edgepool exportieren können. Gehen Sie wie folgt vor:
+Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie sie auch in Ihren Skype for Business Server Edgeserver oder Edgepool exportieren können. Führen Sie die folgenden Schritte aus:
   
 1. Starten Sie **den Topologie-Generator** (wenn er nicht bereits aus dem vorherigen Verfahren gestartet wurde).
     
@@ -278,7 +278,7 @@ Um die Bereitstellung erfolgreich durchzuführen, benötigt der Skype for Busine
   
 1. Starten Sie die **Skype for Business Server-Verwaltungsshell.**
     
-2. Führen Sie in der **Skype for Business Server Verwaltungsshell** Folgendes aus:
+2. Führen Sie in der **Skype for Business Server-Verwaltungsshell** Folgendes aus:
     
    ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>

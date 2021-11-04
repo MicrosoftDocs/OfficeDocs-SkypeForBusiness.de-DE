@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
-ms.openlocfilehash: 2d8c3656abe6f1749251574ab01368a46984cee9
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58729614"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774575"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
@@ -110,3 +110,5 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Beenden einer Organisation als Gast](/azure/active-directory/b2b/leave-the-organization)
+
+[Verwenden Sie den Gastzugriff und den externen Zugriff, um mit Personen außerhalb Ihres Unternehmens zusammenzuarbeiten](communicate-with-users-from-other-organizations.md)

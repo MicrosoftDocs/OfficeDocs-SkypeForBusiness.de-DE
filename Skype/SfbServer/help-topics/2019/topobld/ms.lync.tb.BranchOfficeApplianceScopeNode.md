@@ -1,7 +1,7 @@
 ---
 title: Branch Office Appliance – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 43803d250d7e5447ed6c34e2bd2d3ade32b912e8
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e90799cb106030dc26a3331e51c8d7163b84a68f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624177"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775395"
 ---
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung – Bereichsknoten
  

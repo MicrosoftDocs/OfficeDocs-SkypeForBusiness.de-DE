@@ -1,7 +1,7 @@
 ---
 title: Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Kapazitätsgrenzen des Serverspeichers in Skype for Business Server überwachen.'
-ms.openlocfilehash: 224de5c2727efe02ba2303a2eeb30e189ed4d67e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: df24f96c8fca1927c1222e2bf42981f5cebf7aac
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595515"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768703"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server
  
@@ -27,7 +27,7 @@ ms.locfileid: "58595515"
 > Die Informationen in diesem Thema, die sich auf die Kapazitätsplanung beziehen, beziehen sich nur auf Lync 2010 Mobile-Clients und den Mobilitätsdienst (Mcx). Capacity Planning for the Unified Communications Web API (UCWA), used by the Lync 2013 Mobile clients, is provided by the Lync Server 2013, Planning Tool. 
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 Zwei Leistungsindikatoren für Mobilität können Ihnen helfen, Ihre aktuelle Nutzung zu ermitteln und die Kapazität für den Skype for Business Server Mobility Service (Mcx) zu planen sowie die Speicherauslastung für UCWA zu überwachen. Für UCWA lautet die Zählerkategorie **LS:WEB - UCWA**. Für den Mobilitätsdienst (Mcx) befinden sich die Leistungsindikatoren in der Kategorie **"LS:WEB – Mobiler Kommunikationsdienst".** Die zu überwachenden Indikatoren sind:
   
@@ -44,12 +44,12 @@ Um die entsprechenden Grenzwerte zu ermitteln, müssen Sie zunächst ermitteln, 
 Vom Mcx Mobility Service (MB) verwendeter Gesamtspeicher = 164 + (400 + 134) / 1024 * **Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements** + 400 / 1024 * ( Anzahl der derzeit aktiven **Sitzungen** mit  -  **Aktiven Anwesenheitsabonnements**)
   
 > [!IMPORTANT]
-> Der Microsoft Lync Server 2010-Kapazitätsrechner ist eine Tabelle, die mit allen Formeln vorgefüllt wird, mit denen ein Planer bestimmen kann, welche Anforderungen für die Skype for Business Server gelten, einschließlich CPU, Arbeitsspeicher und Festplatte. Sie können [das Arbeitsblatt und ein zugeordnetes Dokument herunterladen.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
+> Der Microsoft Lync Server 2010-Kapazitätsrechner ist eine Tabellenkalkulation, die mit allen Formeln vorgefüllt wird, mit denen ein Planer bestimmen kann, welche Anforderungen für die Skype for Business Server gelten, einschließlich CPU, Arbeitsspeicher und Festplatte. Sie können [das Arbeitsblatt und ein zugeordnetes Dokument herunterladen.](https://go.microsoft.com/fwlink/p/?LinkID=212657) 
   
-Der Front-End-Server benötigt genügend verfügbaren Arbeitsspeicher, um den Mobilitätsdienst in Failoversituationen zu unterstützen. Sie können den aktuellen verfügbaren Speicher auf dem Front-End-Server überwachen, indem Sie den **Speicher\Verfügbare** MB-Zähler oder die zuvor genannte Formel verwenden, um die Menge des Arbeitsspeichers zu planen, den Der Mobilitätsdienst voraussichtlich verwendet.
+Der Front-End-Server benötigt genügend verfügbaren Arbeitsspeicher, um den Mobilitätsdienst in Failoversituationen zu unterstützen. Sie können den aktuellen verfügbaren Speicher auf dem Front-End-Server überwachen, indem Sie den **Speicher\Verfügbare** MB-Zähler oder die zuvor genannte Formel verwenden, um die Menge des Arbeitsspeichers zu planen, den der Mobilitätsdienst voraussichtlich verwenden wird.
   
 Wenn der verfügbare Arbeitsspeicher auf dem Front-End-Server niedriger als 1.500 MB ist, wenn Sie die erwartete Anzahl von Mobilitätsbenutzern planen, müssen Sie weitere Hardware hinzufügen, um den Mobilitätsdienst zu unterstützen. Weitere Informationen finden Sie unter Überwachen der [Mobilität für die Leistung in Skype for Business Server](monitor-mobility-performance.md) in der Betriebsdokumentation.
   
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Überwachen der Mobilität auf Leistung in Skype for Business Server](monitor-mobility-performance.md)

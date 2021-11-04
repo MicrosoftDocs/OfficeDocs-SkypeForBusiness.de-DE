@@ -1,7 +1,7 @@
 ---
 title: Festlegen der PIN
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die PIN des Benutzers zu generieren, wählen Sie "Automatisches Generieren einer gültigen PIN" aus.
-ms.openlocfilehash: 7d1fe8c11e993d3f8bf0bf7f346dc86a10e480a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25352112fa3fe0b51df045745173a9fc19c053cf
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58588917"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775575"
 ---
 # <a name="set-pin"></a>Festlegen einer PIN
 
@@ -30,6 +30,6 @@ Wählen Sie **Bestimmte PIN manuell eingeben**, und geben Sie anschließend eine
 
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Benutzer-PINs](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

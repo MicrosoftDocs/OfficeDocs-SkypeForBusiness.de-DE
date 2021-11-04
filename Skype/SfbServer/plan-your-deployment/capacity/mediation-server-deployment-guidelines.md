@@ -1,7 +1,7 @@
 ---
 title: Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: In diesem Thema werden Die Planungsrichtlinien für die Bereitstellung des Vermittlungsservers beschrieben.
-ms.openlocfilehash: a524d478797c534950637d10efc39e0827d2f2a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b65ff1335c32c17e61da97d90d290cf81b38ca33
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629537"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773555"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server
  
@@ -53,9 +53,9 @@ Sie können das Skype for Business-Planungstool verwenden, um zu bewerten, ob da
   
 Wenn Ausfallsicherheit für Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einem Vermittlungsserver und einem Gateway am Zweigstellenstandort bereitgestellt werden. (Bei der Ausfallsicherheit von Zweigstellenstandorten wird davon ausgegangen, dass Anwesenheits- und Konferenzfunktionen am Standort nicht ausfallsicher sind.) Anleitungen zur Planung von Zweigstellen für VoIP finden Sie unter [Plan for Enterprise-VoIP resiliency in Skype for Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   
-Wenn die IP-Nebenstellenanlage bei Interaktionen mit einer IP-Nebenstellenanlage frühe Medieninteraktionen mit mehreren frühen Dialogfeldern und RFC 3960-Interaktionen nicht ordnungsgemäß unterstützt, können die ersten Wörter der Begrüßung für eingehende Anrufe von der IP-Nebenstellenanlage an Lync-Endpunkte beschnitten werden. Dieses Verhalten kann schwerwiegender sein, wenn ein Vermittlungsserver an einem zentralen Standort Anrufe für eine IP-Nebenstellenanlage weiterleitet, bei der die Route an einem Zweigstellenstandort beendet wird, da mehr Zeit benötigt wird, um die Signalisierung abzuschließen. Wenn dieses Verhalten vorliegt, ist die Bereitstellung eines Vermittlungsservers an der Zweigstelle die einzige Möglichkeit, die Beschneidung der ersten Wörter zu reduzieren.
+Wenn die IP-Nebenstellenanlage bei Interaktionen mit einer IP-Nebenstellenanlage frühe Medieninteraktionen mit mehreren frühen Dialogfeldern und RFC 3960-Interaktionen nicht ordnungsgemäß unterstützt, können die ersten Wörter der Begrüßung für eingehende Anrufe von der IP-Nebenstellenanlage an Lync-Endpunkte beschnitten werden. Dieses Verhalten kann schwerwiegender sein, wenn ein Vermittlungsserver an einem zentralen Standort Anrufe für eine IP-Nebenstellenanlage weiterleitet, bei der die Route an einem Zweigstellenstandort beendet wird, da mehr Zeit erforderlich ist, um die Signalisierung abzuschließen. Wenn dieses Verhalten vorliegt, ist die Bereitstellung eines Vermittlungsservers an der Zweigstelle die einzige Möglichkeit, die Beschneidung der ersten Wörter zu reduzieren.
   
 Wenn der zentrale Standort über eine TDM-Nebenstellenlage verfügt oder die Notwendigkeit eines PSTN-Gateways durch die IP-Nebenstellenanlage nicht eliminiert wird, müssen Sie ein Gateway zur Anrufroute hinzufügen, das mit dem Vermittlungsserver und der Nebenstellenanlage verbunden ist.
   
 > [!NOTE]
-> Um die Medienleistung des eigenständigen Vermittlungsservers zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf diesen Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter["Receive-Side Scaling Enhancements in Windows Server".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zum Netzwerkadapter. 
+> Um die Medienleistung des eigenständigen Vermittlungsservers zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf diesen Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "Verbesserungen bei der[empfangsseitigen Skalierung in Windows Server".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zum Netzwerkadapter. 

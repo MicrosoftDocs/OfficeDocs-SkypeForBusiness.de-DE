@@ -1,7 +1,7 @@
 ---
 title: Speichern von Testfallinformationen für das VoIP-Routing
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7874119d-d92b-484e-bbda-62f65241debd
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Testfallinformationen für das VoIP-Routing speichern können Sie einen temporären Testfall für das VoIP-Routing speichern. Geben Sie unter Testfallinformationen für das VoIP-Routing speichern im Feld Name einen Namen für den Testfall ein, und klicken Sie anschließend auf OK.
-ms.openlocfilehash: 1089a3666c153a6d51701087a9f065f662c859ce
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 59b0c997d1f3a2b34213881435b5eb1ff3d7ddc8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594649"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60769413"
 ---
 # <a name="save-voice-routing-test-case-information"></a>Speichern von Testfallinformationen für das VoIP-Routing
  

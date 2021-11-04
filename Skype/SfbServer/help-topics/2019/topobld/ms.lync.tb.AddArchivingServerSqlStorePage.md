@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen eines SQL Server-Speichers für den Archivierungsserver
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 26e0a748-e31d-4c66-b225-b37e0a45408f
 ROBOTS: NOINDEX, NOFOLLOW
-description: Der Archivierungsserver erfordert eine unterstützte 64-Bit-Edition der SQL Server-Datenbanksoftware, um die Archivdaten zu speichern. Sie können entweder eine zuvor definierte SQL Server Datenbank auswählen, die für die Archivierung verwendet werden soll, oder eine neue SQL Server Datenbank definieren, indem Sie einen vollqualifizierten Domänennamen (FQDN) des Servers angeben, auf dem sich die SQL Server-Datenbank befindet, und die Instanz von SQL Server, die Sie für die neue SQL Server Datenbank verwenden möchten (dies kann die Standardinstanz oder eine benannte Instanz sein, die Sie angeben).
-ms.openlocfilehash: b192bc1663585c3edd62dad758498e7b40ffd21c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Der Archivierungsserver erfordert eine unterstützte 64-Bit-Edition der SQL Server-Datenbanksoftware, um die Archivdaten zu speichern. Sie können entweder eine zuvor definierte SQL Server Datenbank auswählen, die für die Archivierung verwendet werden soll, oder eine neue SQL Server Datenbank definieren, indem Sie einen vollqualifizierten Domänennamen (FQDN) des Servers angeben, auf dem sich die SQL Server-Datenbank befindet, und die Instanz der SQL Server, die Sie für die neue SQL Server datab verwenden möchten. ase (dies kann die Standardinstanz oder eine benannte Instanz sein, die Sie angeben).
+ms.openlocfilehash: 11ca3b8a83d565064e573ae8a080f896f846175a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58609662"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775465"
 ---
 # <a name="add-archiving-server-sql-server-store"></a>Hinzufügen eines SQL Server-Speichers für den Archivierungsserver
 
-Der Archivierungsserver erfordert eine unterstützte 64-Bit-Edition der SQL Server-Datenbanksoftware, um die Archivdaten zu speichern. Sie können entweder eine zuvor definierte SQL Server Datenbank auswählen, die für die Archivierung verwendet werden soll, oder eine neue SQL Server Datenbank definieren, indem Sie einen vollqualifizierten Domänennamen (FQDN) des Servers angeben, auf dem sich die SQL Server-Datenbank befindet, und die Instanz von SQL Server, die Sie für die neue SQL Server Datenbank verwenden möchten (dies kann die Standardinstanz oder eine benannte Instanz sein, die Sie angeben).
+Der Archivierungsserver erfordert eine unterstützte 64-Bit-Edition der SQL Server-Datenbanksoftware, um die Archivdaten zu speichern. Sie können entweder eine zuvor definierte SQL Server Datenbank auswählen, die für die Archivierung verwendet werden soll, oder eine neue SQL Server Datenbank definieren, indem Sie einen vollqualifizierten Domänennamen (FQDN) des Servers angeben, auf dem sich die SQL Server-Datenbank befindet, und die Instanz der SQL Server, die Sie für die neue SQL Server datab verwenden möchten. ase (dies kann die Standardinstanz oder eine benannte Instanz sein, die Sie angeben).
 
 > [!NOTE]
 > Wenn das zum Veröffentlichen der Topologie verwendete Konto über die erforderlichen Benutzerrechte und -berechtigungen verfügt, können Sie die Archivierungsdatenbank (LcsLog) beim Veröffentlichen Ihrer Topologie erstellen. Sie können die Datenbank auch zu einem späteren Zeitpunkt, im Rahmen des Installationsvorgangs oder als Teil eines anderen Vorgangs erstellen.

@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Einwahlkonferenzen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Einwahlkonferenzen in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 3533220dc84f131b02f180bb863883b371cbf365
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 8cc3a27e9051d0fd73bff68cc4213020d6658844
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013789"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761563"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Konfigurieren von Einwahlkonferenzen in Skype for Business Server
  
@@ -60,7 +60,7 @@ Benutzer von Einwahlkonferenzen nehmen an Konferenzen als authentifizierte Unter
   
 So richten Sie Wählpläne für Einwahlkonferenzen ein:
   
-- Unabhängig davon, ob Sie Enterprise-VoIP bereitstellen, ändern Sie den globalen Wählplan, um eine Einwahlkonferenzregion hinzuzufügen, und stellen Sie sicher, dass ihre Einwahlnummern mithilfe einer Normalisierungsregel korrekt konvertiert werden. Ausführliche Anweisungen finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+- Unabhängig davon, ob Sie Enterprise-VoIP bereitstellen, ändern Sie den globalen Wählplan, um eine Region für Einwahlkonferenzen hinzuzufügen, und stellen Sie sicher, dass ihre Einwahlnummern durch eine Normalisierungsregel korrekt konvertiert werden. Ausführliche Anweisungen finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
     
 - Wenn Sie Enterprise-VoIP nicht bereitgestellt haben, erstellen Sie Wählpläne für Ihre Zugriffsnummern für Einwahlkonferenzen. Stellen Sie sicher, dass Sie eine Region für Einwahlkonferenzen angeben. Ausführliche Anweisungen finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
     
@@ -81,7 +81,7 @@ Verwenden Sie das Cmdlet **"Get-CsDialPlan",** um zu überprüfen, ob die Region
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** oder **CsAdministrator** an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -105,7 +105,7 @@ Weitere Informationen finden Sie unter [Get-CsDialPlan](/powershell/module/skype
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle **Cs-VoiceAdministrator**, **Cs-ServerAdministrator** oder **CsAdministrator** an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 3. Führen Sie für alle Wähleinstellungen, in denen die Region für Einwahlkonferenzen fehlt, den folgenden Befehl aus:
     
@@ -155,12 +155,12 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
   
 5. Geben Sie in der **Anzeigenummer** die Telefonnummer ein, die PSTN-Telefonbenutzer wählen, um an einer Konferenz teilzunehmen. Diese Nummer wird in Besprechungseinladungen und auf der Webseite für Einwahlkonferenzen Einstellungen angezeigt.
     
-6. Geben Sie unter **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dies ist der Name, der der Einwahlzugriffsnummer in Skype for Business Suchergebnissen zugeordnet ist. Dieser Name wird im Client angezeigt, wenn ein Benutzer die Zugriffsnummer aufruft. 
+6. Geben Sie unter **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dies ist der Name, der der Einwahlnummer in Skype for Business Suchergebnissen zugeordnet ist. Dieser Name wird im Client angezeigt, wenn ein Benutzer die Zugriffsnummer aufruft. 
     
 7. Geben Sie im **Anschluss-URI** die E.164-Nummer der Einwahlnummer im TEL-URI-Format ein, einschließlich des +-Symbols vor der Nummer und ohne Leerzeichen. Beispiel: `tel:+14255550200`.
     
     > [!NOTE]
-    > Derselbe Anschluss-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. 
+    > Der gleiche Anschluss-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. 
   
 8. Führen **Sie im SIP-URI** die folgenden Schritte aus:
     
@@ -169,7 +169,7 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
      > [!NOTE]
      > Derselbe SIP-URI kann nicht von einer anderen Zugriffsnummer für Einwahlkonferenzen wiederverwendet werden. Der SIP-URI kann nicht geändert werden, nachdem die Zugriffsnummer erstellt wurde. Die einzige Möglichkeit zum Ändern des SIP-URI besteht darin, die Zugriffsnummer zu löschen und neu zu erstellen. 
   
-   - Klicken Sie im Dropdownlistenfeld auf die Domäne der Konferenzzentralenanwendung, die diese Einwahlnummer unterstützt.
+   - Klicken Sie im Dropdownlistenfeld auf die Domäne des Konferenzzentralenanwendung, das diese Einwahlnummer unterstützt.
     
 9. Klicken Sie im **Pool** auf den Pool, in dem die Instanz von Konferenzzentrale ausgeführt wird, die diese Einwahlnummer unterstützt.
     
@@ -178,7 +178,7 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
   
 10. Klicken Sie in der **Primären Sprache** auf die Sprache, in der Eingabeaufforderungen für diese Einwahlnummer wiedergegeben werden. 
     
-    Die primäre Sprache ist die Sprache, die der Konferenzzentrale zum Annehmen des Anrufs verwendet. Unterstützte Sprachen werden zusammen mit jeder Zugriffstelefonnummer auf der Webseite für Einwahlkonferenzen Einstellungen angezeigt.
+    Die primäre Sprache ist die Sprache, die der Konferenzzentrale verwendet, um den Anruf zu beantworten. Unterstützte Sprachen werden zusammen mit jeder Zugriffstelefonnummer auf der Webseite für Einwahlkonferenzen Einstellungen angezeigt.
     
 11. (Optional) Klicken Sie in **sekundären Sprachen (maximal vier)** auf **"Hinzufügen",** wählen Sie eine oder mehrere zusätzliche Sprachen aus, die Sie für Anrufer für diese Einwahlnummer unterstützen möchten, und klicken Sie dann auf **"OK".** 
     
@@ -217,6 +217,6 @@ In diesem Thema wird beschrieben, wie Sie einem einzelnen Benutzerkonto einen **
 6. Geben Sie unter **Telefonie** in das Feld **Anschluss-URI** eine eindeutige, normalisierte Telefonnumer ein (beispielsweise tel:+14255550200).
     
     > [!NOTE]
-    > Sie können **den Anschluss-URI** nur angeben, wenn die **Telefonie** nur auf **PC-zu-PC** festgelegt ist, **nur Enterprise-VoIP,** **Remoteanrufsteuerung** oder **Remoteanrufsteuerung.** 
+    > Sie können **den Anschluss-URI** nur angeben, wenn die **Telefonie** nur auf **PC-zu-PC,** **Enterprise-VoIP,** **Remoteanrufsteuerung** oder **Remoteanrufsteuerung** festgelegt ist. 
   
 7. Klicken Sie auf **Commit ausführen**.

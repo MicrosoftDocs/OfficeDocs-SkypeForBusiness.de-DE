@@ -1,7 +1,7 @@
 ---
 title: QoE-Daten (Quality of Experience)
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2b030ced-0aae-4023-bb26-544d14bdd2f0
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 3a5245c0456ca44b24cd07942f086622bab88b14
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: cc2e3d13ffbb35cc630b3baf49d047501b9ea0e7
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581519"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60775147"
 ---
 # <a name="quality-of-experience-qoe-data"></a>QoE-Daten (Quality of Experience)
  
@@ -28,7 +28,7 @@ Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausfü
   
 - [Aktivieren der Erlebnisqualität in Skype for Business Server 2015](../../manage/health-and-monitoring/enable-qoe.md)
     
-- [Ändern von Quality of Experience-Einstellungen in Skype for Business Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
+- [Ändern der QoE-Einstellungen in Skype for Business Server 2015](../../manage/health-and-monitoring/modify-qoe-settings.md)
     
 - [Erstellen von QoE-Konfigurationseinstellungen in Skype for Business Server 2015](../../manage/health-and-monitoring/create-qoe-configuration-settings.md)
     

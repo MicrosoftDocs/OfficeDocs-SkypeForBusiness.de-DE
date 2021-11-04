@@ -1,7 +1,7 @@
 ---
 title: Legacyzusammenführung – Hinzufügen einer erweiterten Edgekomponente
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -14,16 +14,16 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 324349df-ff11-40b5-93cf-4504e18b8985
-description: Skype for Business Server unterstützt nicht das Zusammenführen einer erweiterten Edgeserverkonfiguration von Communications Server 2007 R2 Office Legacy. Der erweiterte Edgeserver muss zunächst in einen konsolidierten Edgeserver umgewandelt werden, ehe die Zusammenführung der Edgeserverinformationen erfolgen kann.
-ms.openlocfilehash: a9a4ffdeccb6408a35764d0c41e500c9d6b57843
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Skype for Business Server unterstützt nicht das Zusammenführen einer erweiterten Edgeserverkonfiguration von Communications Server 2007 R2 für legacy Office Communications Server 2007 R2. Der erweiterte Edgeserver muss zunächst in einen konsolidierten Edgeserver umgewandelt werden, ehe die Zusammenführung der Edgeserverinformationen erfolgen kann.
+ms.openlocfilehash: 49f12305c41ff6b986d9728424247f9d89860f57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630809"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60773825"
 ---
 # <a name="legacy-merge-add-expanded-edge"></a>Legacyzusammenführung – Hinzufügen einer erweiterten Edgekomponente
  
-Skype for Business Server unterstützt nicht das Zusammenführen einer erweiterten Edgeserverkonfiguration von Communications Server 2007 R2 Office Legacy. Der erweiterte Edgeserver muss zunächst in einen konsolidierten Edgeserver umgewandelt werden, ehe die Zusammenführung der Edgeserverinformationen erfolgen kann. 
+Skype for Business Server unterstützt nicht das Zusammenführen einer erweiterten Edgeserverkonfiguration von Communications Server 2007 R2 für legacy Office Communications Server 2007 R2. Der erweiterte Edgeserver muss zunächst in einen konsolidierten Edgeserver umgewandelt werden, ehe die Zusammenführung der Edgeserverinformationen erfolgen kann. 
   
 

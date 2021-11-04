@@ -1,7 +1,7 @@
 ---
 title: Telefon der Nummerverwaltung für Portugal
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -18,17 +18,17 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Portugal für Microsoft Teams.
-ms.openlocfilehash: f5e3c09ab638c1401602d473c317d35af8b1212f
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Portugal für Microsoft Teams.
+ms.openlocfilehash: 9a5fb9a5c74085eedf29b7e7ac996c8449ddeff1
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733146"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774455"
 ---
 # <a name="phone-number-management-for-portugal"></a>Telefon der Nummerverwaltung für Portugal
 
-In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Portugal für Microsoft Teams. 
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Portugal für Microsoft Teams. 
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   

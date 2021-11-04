@@ -1,7 +1,7 @@
 ---
 title: Telefon der Nummerverwaltung für die Tschechische Republik
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -19,19 +19,19 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in der tschechischen Republik für Microsoft Teams.
-ms.openlocfilehash: 5d3984a7c51450108f371d1a9863ae07c8322b54
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in der tschechischen Microsoft Teams.
+ms.openlocfilehash: 295b65198e3635a8af15ffa647b57efe67d8af50
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733506"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60774555"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefon der Nummerverwaltung für die Tschechische Republik
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in der tschechischen Republik für Microsoft Teams.
+In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in der tschechischen Microsoft Teams.
   
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
   

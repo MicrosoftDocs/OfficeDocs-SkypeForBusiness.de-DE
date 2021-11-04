@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 12/20/2018
@@ -14,18 +14,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Zusammenfassung: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.'
-ms.openlocfilehash: d82a8aa665a699e7589a3a477023be55ea0407ea
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 342d00be9f2c4d52483ff7da931bfc8f47c9e2e2
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621797"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761463"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
  
-**Zusammenfassung:** Konfigurieren Sie die Verwendung von Fotos mit hoher Auflösung in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.
+**Zusammenfassung:** Konfigurieren Sie die Verwendung von Hochauflösenden Fotos in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.
   
-In Skype for Business Server können Fotos im Postfach Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online eines Benutzers gespeichert werden, das Fotogrößen von bis zu 648 x 648 Pixeln zulässt. Darüber hinaus können Exchange Server die Größe dieser Fotos für die Verwendung in verschiedenen Produkten nach Bedarf automatisch ändern. Dies bedeutet in der Regel drei verschiedene Fotogrößen und Auflösungen:
+In Skype for Business Server können Fotos im Postfach Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online eines Benutzers gespeichert werden, wodurch Fotogrößen von bis zu 648 x 648 Pixeln möglich sind. Darüber hinaus können Exchange Server die Größe dieser Fotos für die Verwendung in verschiedenen Produkten nach Bedarf automatisch ändern. Dies bedeutet in der Regel drei verschiedene Fotogrößen und Auflösungen:
   
 - 64 x 64 Pixel, die Für das Active Directory thumbnailPhoto-Attribut verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, erstellt Exchange automatisch eine Version dieses Fotos mit 64 x 64 Pixeln und aktualisiert das thumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass der Umgekehrte nicht zutrifft: Wenn Sie das ThumbnailPhoto-Attribut in Active Directory manuell aktualisieren, wird das Foto im Exchange Postfach des Benutzers nicht automatisch aktualisiert.
     
@@ -36,7 +36,7 @@ In Skype for Business Server können Fotos im Postfach Exchange Server 2019, Exc
 > [!NOTE]
 > Wenn Sie über die Ressourcen verfügen, wird empfohlen, 648 x 648 Fotos hochzuladen. bietet die maximale Auflösung und optimale Bildqualität in allen Office 2013-Anwendungen. Jedes JPEG-Foto mit einer Größe von 648 x 648 und einer Tiefe von 24 Bit ergibt eine Dateigröße von ca. 240 KB. Das bedeutet, dass Sie für alle vier Benutzerfotos ca. 1 MB Speicherplatz benötigen. 
   
-Fotos mit hoher Auflösung, auf die mit Exchange Webdiensten zugegriffen wird, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen. Benutzer dürfen nur ihr eigenes Foto aktualisieren. Administratoren können das Foto jedoch für jeden Benutzer aktualisieren, indem sie die Exchange Verwaltungsshell und eine Reihe von Windows PowerShell Befehlen verwenden, die den folgenden ähneln:
+Fotos mit hoher Auflösung, auf die mit Exchange Webdiensten zugegriffen wird, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen. Benutzer dürfen nur ihr eigenes Foto aktualisieren. Administratoren können das Foto jedoch für jeden Benutzer aktualisieren, indem sie die Exchange-Verwaltungsshell und eine Reihe von Windows PowerShell Befehlen wie die folgenden verwenden:
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))

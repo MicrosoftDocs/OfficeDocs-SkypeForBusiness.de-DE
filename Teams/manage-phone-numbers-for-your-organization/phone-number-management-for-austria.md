@@ -1,7 +1,7 @@
 ---
 title: Telefon der Nummerverwaltung für Österreich
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: davlick,krkilaru
 ms.topic: reference
@@ -19,12 +19,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in Österreich für Microsoft Teams.
-ms.openlocfilehash: 411ec652189a9e6040731b9f5b21136fa44530c9
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 6abf2814f37708e8ec13e071c34ab4f1c901f7c3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60732846"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60761763"
 ---
 # <a name="phone-number-management-for-austria"></a>Telefon der Nummerverwaltung für Österreich
 

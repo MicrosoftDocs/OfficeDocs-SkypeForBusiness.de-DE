@@ -1,7 +1,7 @@
 ---
 title: Benutzermodelle in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
 description: Die hier beschriebenen Benutzermodelle stellen die Grundlage für die Kapazitätsplanungsmaße und Empfehlungen dar, die in der Nutzung des Benutzermodells für die Kapazitätsplanung für Skype for Business Server beschrieben werden.
-ms.openlocfilehash: 3086699cc73968b3a3f902ff1f8e99d9e78d7fe3
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: e72a16668c0247a23ac4d032e0a3f09b06a71cc5
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58585029"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768633"
 ---
 # <a name="user-models-in-skype-for-business-server"></a>Benutzermodelle in Skype for Business Server
  
@@ -72,7 +72,7 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 |Verteilung von Konferenzclients  <br/> |Für geplante Besprechungen:  <br/> • 65 % der Konferenzbenutzer verwenden Skype for Business 2016.  <br/> • 5 % der Konferenzbenutzer verwenden Skype for Business-Web-App.  <br/> • 30 % der Konferenzbenutzer verwenden frühere Clients, einschließlich Lync 2013 und Microsoft Lync 2010.  <br/> Für ungeplante Besprechungen:  <br/> • 70 % der Konferenzbenutzer verwenden Skype for Business.  <br/> • 30 % der Konferenzbenutzer verwenden frühere Clients, einschließlich Lync 2013 und Microsoft Lync 2010.  <br/> |
 |Gleichzeitigkeit von Besprechungen  <br/> |5 % der Benutzer befinden sich während der Arbeitszeiten in Konferenzen. Bei einem Pool mit 80.000 Benutzern können sich daher bis zu 4.000 Benutzer gleichzeitig in Konferenzen befinden.  <br/> |
 |Verteilung der Audiofunktion in Besprechungen  <br/> |40 % Kombination aus VoIP-Audio- und Einwahlkonferenzen, mit einem Verhältnis von 3:1 von VoIP-Benutzern zu Einwahlbenutzern.  <br/> 35 % nur VoIP-Audio.  <br/> 15 % nur Audio bei Einwahlkonferenzen.  <br/> 10 % ohne Audio (reine Chatkonferenzen mit durchschnittlich fünf gesendeten Nachrichten pro Benutzer).  <br/> |
-|Medienmix für Konferenzen  <br/> |Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.  <br/> Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:  <br/> **Hinweis:** Diese Zahlen addieren sich zu mehr als 100 %, da eine Konferenz mehrere Methoden für die Zusammenarbeit haben kann. <br/> • 50 % anwendungsfreigabe hinzufügen. Es wird davon ausgegangen, dass ein Benutzer Daten mit maximal 1,1 MB pro Sekunde sendet.  <br/> • 50 % chatten (mit durchschnittlich 2 Nachrichten pro Benutzer).  <br/> • 20 % fügen datenzusammenarbeit hinzu, einschließlich PowerPoint oder Whiteboard. Dabei werden pro Konferenz durchschnittlich 2 PowerPoint Dateien präsentiert, mit einer durchschnittlichen PowerPoint Dateigröße von 10 MB (ohne eingebettetes Video) oder 30 MB (mit eingebettetem Video). Durchschnittlich 20 Anmerkungen pro Whiteboard.  <br/> • 20 % Video hinzufügen. 70 % dieser Benutzer nehmen an Konferenzen teil, für die Mehrfachansicht-Video aktiviert ist, wobei jeder Benutzer 2 bis 3 Videostreams empfängt.  <br/> • 15 % können freigegebene Notizen hinzufügen.  <br/> |
+|Medienmix für Konferenzen  <br/> |Bei 75 % der Konferenzen handelt es sich um Webkonferenzen mit Audio sowie einigen anderen Methoden für die Zusammenarbeit.  <br/> Für diesen Konferenzen werden die folgenden weiteren Methoden für die Zusammenarbeit genutzt:  <br/> **Hinweis:** Diese Zahlen addieren sich zu mehr als 100 %, da eine Konferenz mehrere Methoden für die Zusammenarbeit haben kann. <br/> • 50 % anwendungsfreigabe hinzufügen. Es wird davon ausgegangen, dass ein Benutzer Daten mit maximal 1,1 MB pro Sekunde sendet.  <br/> • 50 % chatten (mit durchschnittlich 2 Nachrichten pro Benutzer).  <br/> • 20 % add data collaboration, including PowerPoint or whiteboard In these, an average of 2 PowerPoint files presented per conference, with an average PowerPoint file size of 10 MB (without embedded video) or 30 MB (with embedded video). Durchschnittlich 20 Anmerkungen pro Whiteboard.  <br/> • 20 % Video hinzufügen. 70 % dieser Benutzer nehmen an Konferenzen teil, für die Mehrfachansicht-Video aktiviert ist, wobei jeder Benutzer 2 bis 3 Videostreams empfängt.  <br/> • 15 % können freigegebene Notizen hinzufügen.  <br/> |
 |Verteilung der Konferenzteilnehmer  <br/> |50 % interne, authentifizierte Benutzer.  <br/> 25 % authentifizierte Benutzer mit Remotezugriff.  <br/> 15 % anonyme Benutzer.  <br/> 10 % Partnerbenutzer.  <br/> |
 |Verteilung für den Besprechungsbeitritt  <br/> |Für die Benutzer wird simuliert, dass sie der Besprechung innerhalb der ersten 5 Minuten beitreten.  <br/> |
    

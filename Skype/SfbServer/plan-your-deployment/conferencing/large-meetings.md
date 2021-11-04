@@ -1,7 +1,7 @@
 ---
 title: Planen großer Besprechungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 21507e18-bd79-4019-9c3a-0867fccaa3b4
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über bewährte Methoden für die Implementierung und Verwaltung großer Besprechungen in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: 109bfef5dd86821cdb8ec8e372f26f3edd062983
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1196c1d5b2ff4fe6456d03f698b80589ef428b24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58582609"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60762223"
 ---
 # <a name="plan-for-large-meetings-in-skype-for-business-server"></a>Planen großer Besprechungen in Skype for Business Server
  
@@ -29,7 +29,7 @@ Die Größe von Besprechungen, die Skype for Business Server unterstützen könn
 > Dieses Thema befasst sich mit bewährten Methoden für große Besprechungen, die von Skype for Business Server unterstützt werden. Wenn Ihre Organisation größere Besprechungsfunktionen benötigt, sollten Sie erwägen, eine Hybridumgebung zu implementieren, die Skype-Besprechung Broadcast nutzt, einen neuen Onlinedienst, der Teil Microsoft 365 und Office 365 ist. 
 
 > [!NOTE]
-> Skype-Besprechung Broadcast ermöglicht Benutzern das Hosten und Übertragen von Besprechungen an ein großes Onlinepublikum von bis zu 10.000 Teilnehmern. Die Verwendung von Skype-Besprechung Broadcast erfordert, dass Skype for Business Server bereits in einem Hybridsetup mit einer Produktions-Microsoft 365 oder Office 365 Organisation konfiguriert werden. Für alle Benutzer muss ein Onlinemandant als Voraussetzung eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die Skype-Besprechung Broadcast nutzen kann, lesen Sie [was ist eine Skype-Besprechung Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) und konfigurieren Sie Ihre lokale Bereitstellung für Skype-Besprechung [Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
+> Skype-Besprechung Broadcast ermöglicht Benutzern das Hosten und Übertragen von Besprechungen an ein großes Onlinepublikum von bis zu 10.000 Teilnehmern. Die Verwendung von Skype-Besprechung Broadcast erfordert, dass Skype for Business Server bereits in einem Hybridsetup mit einer Produktions-Microsoft 365 oder Office 365 Organisation konfiguriert sind. Für alle Benutzer muss ein Onlinemandant als Voraussetzung eingerichtet sein. Wenn Sie an der Bereitstellung einer Hybridlösung interessiert sind, die Skype-Besprechung Broadcast nutzen kann, lesen Sie [was ist eine Skype-Besprechung Broadcast?](https://go.microsoft.com/fwlink/?LinkId=617071) und konfigurieren Sie Ihre lokale Bereitstellung für Skype-Besprechung [Broadcast](../../deploy/configure-skype-meeting-broadcast.md). 
   
 Große Besprechungen weisen in der Regel die folgenden Merkmale auf:
   
@@ -37,13 +37,13 @@ Große Besprechungen weisen in der Regel die folgenden Merkmale auf:
     
 - Ein oder mehrere Benutzer sind Referenten, und alle anderen Teilnehmer nehmen nur als Teilnehmer teil.
     
-- PowerPoint Präsentationsfreigabe ist die Hauptaktivität der Datenzusammenarbeit.
+- PowerPoint Präsentationsfreigabe ist die Hauptaktivität für die Datenzusammenarbeit.
     
 - Audio ist erforderlich, und video kann auch verwendet werden.
     
 - Eine dedizierte Person, in der Regel der Besprechungsorganisator oder ein Assistent des Organisators, richtet die Besprechung weit im Voraus ein.
     
-- Dedizierte Mitarbeiter (nicht die Referenten) führen die Besprechung aus, einschließlich der Verbindung zu einer Onlinebesprechung, der Überprüfung, ob Audio-, Video- und Folienfreigaben funktionieren, Verwalten von Lobby- und Benutzerrollen, Stummschalten und Aufheben der Stummschaltung von Teilnehmern, Beantworten von Fragen und Verwalten von Aufzeichnungen, je nach Bedarf.
+- Dedizierte Mitarbeiter (nicht die Referenten) führen die Besprechung aus, einschließlich der Herstellung einer Verbindung mit einer Onlinebesprechung, der Überprüfung, ob Audio-, Video- und Folienfreigaben funktionieren, Verwalten von Lobby- und Benutzerrollen, Stummschalten und Aufheben der Stummschaltung von Teilnehmern, Beantworten von Fragen und Verwalten von Aufzeichnungen, sofern zutreffend.
     
 Wenn ein Benutzer eine Besprechung plant, erstellt Skype for Business Server einen Datensatz in der Konferenzdatenbank, in dem Konferenzdaten gespeichert werden, aber keine Hardwareressourcen für die geplante Besprechung im Voraus reserviert werden. Stattdessen verfügt Skype for Business Server über integrierte Lastenausgleichslogik, um Konferenzressourcen auf Front-End-Servern dynamisch so zuzuweisen, dass Lasten gleichmäßig auf alle Front-End-Server im Pool verteilt werden. Dadurch werden Hardwareressourcen effektiv bereitstellt und verwendet, es ist jedoch wichtig, dass Sie sehr große Besprechungen angemessen unterstützen. 
   
@@ -55,11 +55,11 @@ Für die Unterstützung großer Besprechungen mit bis zu 1.000 Teilnehmern müss
 
 Wenn Ihre Organisation Besprechungen mit mehr als 250 Teilnehmern erfordert, müssen Sie einen dedizierten Pool planen, um die Last zu unterstützen. 
   
-Um über genügend CPU- und Speicherressourcen für Besprechungen mit bis zu 1000 Benutzern zu verfügen, sollten die hostenden Front-End-Server keine anderen Chat- und Anwesenheits- oder Enterprise-VoIP-Workloads hosten. Die Server sollten auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen. Um Besprechungen mit bis zu 1.000 Benutzern zu hosten, müssen Sie einen separaten Skype for Business Server Pool einrichten, der für das Hosten großer Besprechungen vorgesehen ist.
+Um über genügend CPU- und Speicherressourcen für Besprechungen mit bis zu 1.000 Benutzern zu verfügen, sollten die hostenden Front-End-Server keine anderen Chat- und Anwesenheits- oder Enterprise-VoIP-Workloads hosten. Die Server sollten auch keine anderen Besprechungen hosten, unabhängig von der Größe der anderen Besprechungen. Um Besprechungen mit bis zu 1.000 Benutzern zu hosten, müssen Sie einen separaten Skype for Business Server Pool einrichten, der für das Hosten großer Besprechungen vorgesehen ist.
   
-Ein Skype for Business Server Pool, der für das Hosten großer Besprechungen vorgesehen ist, sollte eine und nur eine Besprechung mit bis zu 1.000 Benutzern gleichzeitig hosten. Besprechungszeiten müssen daher im Voraus über einen Out-of-Band-Planungsprozess reserviert werden, um dedizierten Support von den Front-End-Servern sicherzustellen. Um mehrere große Besprechungen gleichzeitig zu unterstützen, sollten Sie mehrere dedizierte Pools für große Besprechungen einrichten.
+Ein Skype for Business Server Pool, der für das Hosten großer Besprechungen vorgesehen ist, sollte eine und nur eine Besprechung mit bis zu 1.000 Benutzern gleichzeitig hosten, sodass Besprechungszeiten im Voraus über einen Out-of-Band-Planungsprozess reserviert werden müssen, um dedizierten Support von den Front-End-Servern sicherzustellen. Um mehrere große Besprechungen gleichzeitig zu unterstützen, sollten Sie mehrere dedizierte Pools für große Besprechungen einrichten.
   
-Weitere Informationen zu den Hardware- und Softwareanforderungen und zum Planen einer Topologie, die große Besprechungen unterstützt, finden Sie unter [Hardware- und Softwareanforderungen für Konferenzen in Skype for Business Server](hardware-and-software-requirements.md) und [Planen der Konferenztopologie für Skype for Business Server.](conferencing-topology.md)
+Weitere Informationen zu den Hardware- und Softwareanforderungen und zur Planung einer Topologie, die große Besprechungen unterstützt, finden Sie unter [Hardware- und Softwareanforderungen für Konferenzen in Skype for Business Server](hardware-and-software-requirements.md) und [Planen Ihrer Konferenztopologie für Skype for Business Server.](conferencing-topology.md)
   
 ## <a name="implement-best-practices-for-large-meetings"></a>Implementieren bewährter Methoden für große Besprechungen
 
@@ -89,7 +89,7 @@ Um den Echtzeit-Kommunikationsdatenverkehr im großen Besprechungspool zu minimi
 
 Bei mehreren Hundert bis 1.000 Benutzern in einer Besprechung empfiehlt es sich, die Onlinesitzung einer großen Besprechung durch eine dedizierte Person zu moderieren. Diese dedizierte Person kann eine Stellvertretung des Besprechungsorganisators oder ein Mitglied des Supportpersonals für große Besprechungen der Organisation sein. Es ist wichtig, den dedizierten Besprechungsmoderator zum Zeitpunkt der Besprechungsplanung als Referenten hinzuzufügen, obwohl es möglich ist, einen Teilnehmer einer Onlinebesprechung zur Referentenrolle zu bewerben, während die Besprechung läuft.
   
-Der Besprechungsmoderator kann alle Referentenfunktionen Skype for Business Clients verwenden, um die große Besprechung zu verwalten. Zu diesen Funktionen gehören:
+Der Besprechungsmoderator kann alle Referentenfunktionen von Skype for Business Clients verwenden, um die große Besprechung zu verwalten. Zu diesen Funktionen gehören:
   
 - Überwachen des Wartebereichs und Zulassen oder Ablehnen von Benutzern im Wartebereich
     
@@ -108,7 +108,7 @@ Der Besprechungsmoderator kann alle Referentenfunktionen Skype for Business Clie
     
 ### <a name="maintain-a-separate-calendar"></a>Verwalten eines separaten Kalenders
 
-Für jeden großen Besprechungspool sollten Sie einen separaten Kalender mit großen Besprechungen verwalten, die in diesem Pool geplant sind. Sie können z. B. ein einzelnes Benutzerkonto im großen Besprechungspool verwalten und Outlook mit Exchange und Onlinebesprechungs-Add-In für Skype for Business verwenden, um einen separaten Kalender zu verwalten. Wenn Sie mehrere Benutzerkonten verwenden, um Supportmitarbeitern das Erstellen großer Besprechungen zu ermöglichen, können Sie einen separaten Kalender einrichten, in dem alle großen Besprechungen festgehalten werden, die von Supportmitarbeitern erstellt werden. 
+Für jeden großen Besprechungspool sollten Sie einen separaten Kalender mit großen Besprechungen verwalten, die in diesem Pool geplant sind. Sie können z. B. ein einzelnes Benutzerkonto im Pool für große Besprechungen verwalten und Outlook mit Exchange und Onlinebesprechungs-Add-Ins für Skype for Business verwenden, um einen separaten Kalender zu verwalten. Wenn Sie mehrere Benutzerkonten verwenden, um Supportmitarbeitern das Erstellen großer Besprechungen zu ermöglichen, können Sie einen separaten Kalender einrichten, in dem alle großen Besprechungen festgehalten werden, die von Supportmitarbeitern erstellt werden. 
   
 Durch das Verwalten eines separaten Kalenders für Besprechungen vermeiden Sie Konflikte und stellen sicher, dass zu einem bestimmten Zeitpunkt immer jeweils nur eine große Besprechung stattfinden kann.
   
@@ -128,7 +128,7 @@ Zum Planen einer großen Besprechung müssen die folgenden Schritte ausgeführt 
     
 ### <a name="specify-appropriate-scheduling-details"></a>Angeben der entsprechenden Planungsdetails
 
-Nachdem sie überprüft haben, ob zum gewünschten Zeitpunkt keine andere Besprechung geplant ist, plant der große Supportmitarbeiter der Besprechung, der die Anforderung verarbeitet, die Besprechung im Pool für große Besprechungen. 
+Nach der Überprüfung, ob zum gewünschten Zeitpunkt keine andere Besprechung geplant ist, plant der große Supportmitarbeiter der Besprechung, der die Anforderung verarbeitet, die Besprechung im großen Besprechungspool. 
   
 Um eine optimale Benutzererfahrung zu gewährleisten, ist es wichtig, die große Besprechung mit den richtigen Zugriffsebenen und Besprechungseinstellungen zu planen, die den Anforderungen des Besprechungsorganisators entsprechen. Berücksichtigen Sie die folgenden Planungseinstellungen, die in Skype for Business Besprechungsoptionen konfiguriert sind:
   
@@ -160,7 +160,7 @@ Um eine optimale Benutzererfahrung zu gewährleisten, ist es wichtig, die große
     
   - Die von eine große Besprechung anfordernden Personen vorgelegte Liste mit Referenten
     
-    Durch die explizite Verwaltung von Referenten können Sie die Referenten auf eine kleine Zahl beschränken, um eine effektive große Besprechung zu ermöglichen. Wenn die Mehrzahl der Besprechungsteilnehmer die Teilnehmerrolle hat, verringert dies die Wahrscheinlichkeit, dass Personen versehentlich die Kontrolle über die Präsentation übernehmen, eine PowerPoint Präsentation löschen, Referenten stumm schalten/die Stummschaltung aufheben und andere Unterbrechungen der Besprechung. 
+    Durch die explizite Verwaltung von Referenten können Sie die Referenten auf eine kleine Zahl beschränken, um eine effektive große Besprechung zu ermöglichen. Wenn die Mehrzahl der Besprechungsteilnehmer über die Teilnehmerrolle verfügt, verringert dies die Wahrscheinlichkeit, dass Personen versehentlich die Kontrolle über die Präsentation übernehmen, eine PowerPoint Präsentation löschen, Referenten stumm schalten/die Stummschaltung aufheben und andere Unterbrechungen der Besprechung. 
     
 - Aktivieren Sie die Option **Alle Teilnehmer stummschalten**, um sicherzustellen, dass nur Referenten Audioinhalte in die Besprechung übertragen können.
     
@@ -189,7 +189,7 @@ Erstellen Sie eine neue Konferenzrichtlinie speziell für große Besprechungen, 
 - Legen Sie die Option **EnableMultiviewJoin** auf **False** fest.
     
 > [!NOTE]
-> Für die Unterstützung großer Besprechungen in Skype for Business Server muss die **AllowLargeMeetings-Einstellung** auf "true" festgelegt sein. Wenn diese Einstellung auf "true" festgelegt ist, wird die Skype for Business Oberfläche für besonders große Besprechungen optimiert, wenn Benutzer an der Besprechung teilnehmen. Insbesondere zeigt Skype for Business in einer großen Besprechung nicht das Ursprüngliche oder Aktualisieren der vollständigen Besprechungsteilnehmerliste an, was ein Leistungsengpass sowohl für den Client als auch für Skype for Business Server ist. Stattdessen zeigen Skype for Business nur Informationen über den Benutzer und die Liste der Referenten der Besprechung an. Skype for Business zeigt weiterhin die Gesamtzahl der Teilnehmer an, die in den großen Besprechungen verfügbar sind.
+> Für die Unterstützung großer Besprechungen in Skype for Business Server muss die Einstellung **"AllowLargeMeetings"** auf "true" festgelegt sein. Wenn diese Einstellung auf "true" festgelegt ist, wird die Skype for Business Oberfläche für besonders große Besprechungen optimiert, wenn Benutzer an der Besprechung teilnehmen. Insbesondere zeigt Skype for Business in einer großen Besprechung nicht die anfängliche oder die Aktualisierung der vollständigen Besprechungsteilnehmerliste an. Dies ist ein Leistungsengpass sowohl für den Client als auch für Skype for Business Server. Stattdessen zeigen Skype for Business nur Informationen über den Benutzer und die Liste der Referenten der Besprechung an. Skype for Business zeigt weiterhin die Gesamtzahl der Teilnehmer an, die in den großen Besprechungen verfügbar sind.
 
 Die **Einstellung "AllowLargeMeetings $true" bewirkt Folgendes:**
 
@@ -215,7 +215,7 @@ Darüber hinaus müssen Sie den dedizierten großen Besprechungspool so konfigur
   
 - Legen Sie die Option **Als Referenten festlegen** auf **Keine** fest. Normalerweise sind nur einige wenige Benutzer der gesamten Teilnehmer einer großen Besprechung Referenten, sodass die Teilnehmer nicht automatisch als Referenten für große Besprechungen zugelassen werden sollten. Die Referenten sollten stattdessen bei der geplanten Besprechung explizit festgelegt oder während der großen Besprechung explizit ernannt werden.
     
-- Stellen Sie sicher, dass das **Kontrollkästchen "Konferenztyp zugewiesen" standardmäßig** nicht aktiviert ist. Mit dieser Einstellung wird gesteuert, ob das Onlinebesprechungs-Add-In für Skype for Business konferenzen immer mithilfe der vom Organisator zugewiesenen Konferenz plant. Dies bedeutet, dass geplante Besprechungen dieselbe Teilnahme-URL und dieselben Audioinformationen aufweisen. In Szenarien für die Zusammenarbeit in kleinen Gruppen funktioniert ein solcher zugewiesener Konferenztyp gut, da jeder über eine eigene zugewiesene Konferenz verfügt und die url- und Audioinformationen für den konstanten Beitritt dazu beiträgt, die Teilnahme an Besprechungen zu beschleunigen. Im Szenario für große Besprechungen plant der Supportmitarbeiter für große Besprechungen die großen Besprechungen jedoch mithilfe eines einzigen Satzes von Benutzeranmeldeinformationen und stellt den Besprechungsanfragern dann Teilnahme-URLs und Audioinformationen bereit. In diesem Fall funktioniert die Verwendung einer anderen URL für die Teilnahme an jeder Besprechung besser.
+- Stellen Sie sicher, dass das **Kontrollkästchen "Konferenztyp zugewiesen" standardmäßig** nicht aktiviert ist. Mit dieser Einstellung wird gesteuert, ob das Onlinebesprechungs-Add-In für Skype for Business immer Konferenzen mithilfe der dem Organisator zugewiesenen Konferenz plant, was bedeutet, dass geplante Besprechungen die gleiche Teilnahme-URL und Audioinformationen aufweisen. In Szenarien für die Zusammenarbeit in kleinen Gruppen funktioniert ein solcher zugewiesener Konferenztyp gut, da jeder über eine eigene zugewiesene Konferenz verfügt und die url- und Audioinformationen für den konstanten Beitritt dazu beiträgt, die Teilnahme an Besprechungen zu beschleunigen. Im Szenario für große Besprechungen plant der Supportmitarbeiter für große Besprechungen die großen Besprechungen jedoch mithilfe eines einzigen Satzes von Benutzeranmeldeinformationen und stellt den Besprechungsanfragern dann Teilnahme-URLs und Audioinformationen bereit. In diesem Fall funktioniert die Verwendung einer anderen URL für die Teilnahme an jeder Besprechung besser.
     
 - Stellen Sie sicher, dass das Kontrollkästchen **Anonyme Benutzer standardmäßig zulassen** nur aktiviert wird, wenn es erforderlich ist. Diese Einstellung wirkt sich auf den standardmäßigen Besprechungszugriffstyp aus, der vom Onlinebesprechungs-Add-In für Skype for Business geplant wird, wenn keine zugewiesene Konferenz verwendet wird. Die entsprechende Option für diese Einstellung hängt von den Anforderungen Ihrer Organisation ab. Wenn die meisten großen Besprechungen in Ihrer Organisation interne Besprechungen sind, sollte diese Option nicht ausgewählt werden. Wenn beim Großteil der großen Besprechungen externe Benutzer teilnehmen, sollte diese Option ausgewählt werden.
     

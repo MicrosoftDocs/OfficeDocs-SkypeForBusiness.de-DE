@@ -1,7 +1,7 @@
 ---
 title: Anrufqualitäts-Dashboard für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eda05329-e306-469b-a69a-33806f58ec6f
 description: 'Zusammenfassung: Erfahren Sie mehr über das Anrufqualitäts-Dashboard, das ein Berichtstool für Skype for Business Server ist.'
-ms.openlocfilehash: 940f19344db7a1d2710a44381926a70d9297df4e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6623217b81db0be552cef1683e5db0a36a46977a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616571"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60768683"
 ---
 # <a name="call-quality-dashboard-for-skype-for-business-server"></a>Anrufqualitäts-Dashboard für Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über das Anrufqualitäts-Dashboard, das ein Berichterstellungstool für Skype for Business Server ist.
  
-Das Skype for Business Server Anrufqualitätsdashboard (Call Quality Dashboard, CQD) ist eine Berichtsebene über der Quality of Experience-Datenbank im Monitoring Server in Skype for Business Server und Lync Server 2013. CQD verwendet Microsoft SQL Server Analysis Services, um aggregierte Informationen zur Nutzung und Anrufqualität sowie zum Filtern und Pivotieren des Datasets bereitzustellen.
+Das Skype for Business Server Anrufqualitätsdashboard (CQD) ist eine Berichtsebene, die sich über der Quality of Experience-Datenbank im Monitoring Server in Skype for Business Server und Lync Server 2013 befindet. CQD verwendet Microsoft SQL Server Analysis Services, um aggregierte Informationen zur Nutzung und Anrufqualität sowie zum Filtern und Pivotieren des Datasets bereitzustellen.
   
 Die folgenden Themen sind in diesem Abschnitt enthalten und sollten vor der Bereitstellung des Anrufqualitäts-Dashboards überprüft werden.
   
