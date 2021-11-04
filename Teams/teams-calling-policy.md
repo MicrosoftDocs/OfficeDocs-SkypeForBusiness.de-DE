@@ -8,7 +8,7 @@ ms.service: msteams
 ms.reviewer: jastark
 audience: admin
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie benutzerdefinierte Anrufrichtlinien in Microsoft Teams sowie verschiedene Anrufrichtlinieneinstellungen erstellen, ändern und hinzufügen.
+description: Erfahren Sie, wie Sie benutzerdefinierte Anrufrichtlinien in Microsoft Teams sowie verschiedene Anrufrichtlinieneinstellungen erstellen, ändern und hinzufügen.
 ms.localizationpriority: medium
 ms.collection:
 - M365-voice
@@ -20,16 +20,16 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 60a6f78d99f6481f2c10db5467f3e7e7bad9f7fb
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e1ed56a843fc0582c903d7b8b549ab1b97eb050a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60606954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783118"
 ---
 # <a name="calling-and-call-forwarding-in-teams"></a>Anrufen und Weiterleiten von Anrufen in Teams
 
-In Microsoft Teams durch Aufrufrichtlinien wird kontrolliert, welche Anruf- und Anruf weiterleitungsfunktionen für Benutzer verfügbar sind. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
+In Microsoft Teams steuern Anrufrichtlinien, welche Anruf- und Anruf weiterleitungsfunktionen für Benutzer verfügbar sind. Anrufrichtlinien bestimmen, ob ein Benutzer private Anrufe ausführen, Anrufanrufe oder gleichzeitiges Anrufen an andere Benutzer oder externe Telefonnummern verwenden, Anrufe an Voicemail weiterleiten, Anrufe an Anrufgruppen senden, Delegierung für ein- und ausgehende Anrufe verwenden kann und so weiter.
 
 Sie können die globale (organisationsweite Standardrichtlinie) verwenden, die automatisch erstellt wird, oder benutzerdefinierte Richtlinien erstellen und zuweisen.
 
@@ -47,7 +47,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Anrufrichtlin
 
 Führen Sie die folgenden Schritte aus, um eine vorhandene Anrufrichtlinie zu bearbeiten.
 
-1. Wählen Sie in der linken Navigationsleiste Microsoft Teams Admin Center Die **Richtlinien für**  >  **Sprachanrufe aus.**
+1. Wählen Sie in der linken Navigationsleiste des Microsoft Teams Admin Center **Sprachanrufrichtlinien**  >  **aus.**
 2. Klicken Sie neben der Richtlinie, die Sie ändern möchten, und wählen Sie dann **Bearbeiten aus.**
 3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
 
@@ -111,4 +111,4 @@ Mit dieser Einstellung können Sie die Wartemusik aktivieren oder deaktivieren, 
 
 [Set-CSTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy)
 
-[Zuweisen von Richtlinien zu Benutzern in Teams](policy-assignment-overview.md)
+[Benutzern in Microsoft Teams Richtlinien zuweisen](policy-assignment-overview.md)

@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Richtlinienpaketen in Microsoft Teams
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
 ms.topic: article
@@ -20,18 +20,18 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: 3ea2a0b88b5c412cde4b4b6cbd3da6e1d7282e94
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60081614"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60783117"
 ---
-# <a name="microsoft-teams-manage-policy-packages"></a>Microsoft Teams: Verwalten von Richtlinienpaketen
+# <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinienpaketen in Microsoft Teams
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Wir haben Richtlinienpakete erstellt, um die Verwaltung von Richtlinien für Benutzergruppen in Ihrer Organisation zu vereinfachen, zu optimieren und für Konsistenz zu sorgen.  
 
-Sie können die [in](#policy-packages-included-in-teams) der Teams enthaltenen Richtlinienpakete verwenden oder eigene [benutzerdefinierte Richtlinienpakete erstellen.](#custom-policy-packages)
+Sie können die in ihrer [Teams](#policy-packages-included-in-teams) enthaltenen Richtlinienpakete verwenden oder eigene [benutzerdefinierte Richtlinienpakete erstellen.](#custom-policy-packages)
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinienpakete" im Admin Center":::
 
@@ -71,7 +71,7 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten.|
 |Benutzer von kleinen und mittleren Unternehmen (Business-Sprache) |Erstellt eine App-Setuprichtlinie, die die Apps für eine Business-Spracherfahrung enthält.|
 |Benutzer von kleinen und mittleren Unternehmen (ohne Business-Sprache) |Erstellt eine App-Setuprichtlinie, die für kleine und mittelständische Unternehmen und Teams (nicht business voice experience) relevant ist.
-|Public Safety Officer   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Public Safety Officers in Ihrer Organisation gelten.|
+|Public Safety Officer   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
 
 > [!NOTE]
 > Wir werden in zukünftigen Versionen von Teams weitere Richtlinienpakete hinzufügen, überprüfen Sie daher die neuesten Informationen.  
@@ -120,7 +120,7 @@ Hier sind die Schritte zum Anzeigen, Zuweisen und Anpassen von Richtlinienpakete
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Anzeigen der Einstellungen einer Richtlinie in einem Richtlinienpaket
 
-1. Wählen Sie im linken Navigationsbereich Microsoft Teams Admin Center Richtlinienpakete **aus,** und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
+1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center Richtlinienpakete **aus,** und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
 
 2. Klicken Sie auf die Richtlinie, die Sie anzeigen möchten.
 
@@ -143,6 +143,6 @@ Sie können ein Richtlinienpaket einem einzelnen Benutzer, einer Gruppe oder ein
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Zuweisen von Richtlinienpaketen](assign-policy-packages.md)
-- [Teams richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
+- [Teams von Richtlinienpaketen für EDU-Administratoren](policy-packages-edu.md)
 - [Teams Richtlinienpakete-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
-- [Teams Richtlinienpakete für Behörden](policy-packages-gov.md)
+- [Teams von Richtlinienpaketen für Behörden](policy-packages-gov.md)
