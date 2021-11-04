@@ -1,7 +1,7 @@
 ---
 title: Telefon der Nummerverwaltung für Rumänien
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
 ms.topic: reference
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Rumänien für Microsoft Teams.
-ms.openlocfilehash: bdd5669e5edb02913cd98a54f8320ed065bd9b0d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 176ece5e20ae3e83bcb03b24858d3e9f7b1244ff
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733326"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759297"
 ---
 # <a name="phone-number-management-for-romania"></a>Telefon der Nummerverwaltung für Rumänien
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. <br/> |In Rumänien können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an [den TNS Service Desk wenden, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Rumänien (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den TNS Service Desk](contact-tns-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen. |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. <br/> |In Rumänien können Sie Telefonnummern für Ihre Organisation über das Microsoft Teams Admin Center erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an [den TNS Service Desk wenden, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für Rumänien (v.1.0) (rm-rm)](https://download.microsoft.com/download/1/4/d/14d27bf9-4326-409e-be0c-30f88d1fae83/new-phone-number-request-for-romania-(v1.0)-(ro-RO).pdf). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden herunter, es vollständig ausfüllen und sich an [den TNS Service Desk](contact-tns-service-desk.md)wenden, um Anweisungen zu erhalten.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen. |
 |Lassen Sie Telefonnummern an uns übertragen.<br/> | Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Rumänien (alle Nummern) (v.1.0) (rm-rm)](https://download.microsoft.com/download/9/c/1/9c1dcdc3-2161-4e2e-bdce-34397d20782e/letter-of-authorization-(loa)-for-romania-(all-numbers)-(v.1.0)-(rm-rm).pdf) <br/> <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<br/><br/>Die Übertragung von Nummern kann in diesem Markt vier bis fünf Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.  <br/> |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |

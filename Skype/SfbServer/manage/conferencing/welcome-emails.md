@@ -1,7 +1,7 @@
 ---
-title: Senden von Willkommens-E-Mails an Einwahlbenutzer in Skype for Business Server
+title: Senden einer Willkommens-E-Mail an Einwahlbenutzer in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzer bei Einwahlkonferenzen in Skype for Business Server willkommen heißen.'
-ms.openlocfilehash: 4304952bbede0f35183a80f789783bbfc4a8cfbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 64dd7086b1a40de0c0cc2e0b33a66257153541cd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58578799"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772071"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden von Willkommens-E-Mails an Einwahlbenutzer in Skype for Business Server
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden einer Willkommens-E-Mail an Einwahlbenutzer in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Benutzer bei Einwahlkonferenzen in Skype for Business Server willkommen heißen.
   
@@ -29,7 +29,7 @@ In der Regel verwenden Sie das Cmdlet **"Set-CsClientPin",** um PINs zurückzuse
   
 Sie können das **Set-CsPinSendCAWelcomeMail-Skript** verwenden, um die PIN festzulegen und eine Willkommens-E-Mail an einen einzelnen Benutzer zu senden. Standardmäßig setzt das Skript eine PIN nicht zurück, wenn sie bereits festgelegt ist. Sie können jedoch den Parameter "Force" verwenden, um das Zurücksetzen einer PIN zu erzwingen. Die E-Mail-Nachricht wird mithilfe von SMTP (Simple Mail Transfer Protocol) gesendet.
   
-Sie können ein Skript erstellen, das das **Set-CsPinSendCAWelcomeMail-Skript** iterativ ausführt, um PINs festzulegen und E-Mails an eine Gruppe von Benutzern zu senden. Sie können die E-Mail-Vorlage (d. h. die Datei CAWelcomeEmailTemplate.html) ändern, um weitere Links zu Intranetseiten hinzuzufügen oder den E-Mail-Text zu ändern.
+Sie können ein Skript erstellen, das das **Set-CsPinSendCAWelcomeMail-Skript** iterativ ausführt, um PINs festzulegen und E-Mails an eine Gruppe von Benutzern zu senden. Sie können die E-Mail-Vorlage (d. h. die CAWelcomeEmailTemplate.html-Datei) ändern, um weitere Links zu Intranetseiten hinzuzufügen oder den E-Mail-Text zu ändern.
   
 
 
@@ -56,7 +56,7 @@ Sie können ein Skript erstellen, das das **Set-CsPinSendCAWelcomeMail-Skript** 
 
 **SmtpServer** Standardmäßig verwendet das Skript den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die **variable $PSEmailServer** nicht festgelegt ist, müssen Sie diesen Parameter angeben.
     
-**Anmeldeinformationen** Standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht über die Berechtigung zum Senden von E-Mails im Namen der angegebenen Absenderadresse verfügt, müssen Sie diesen Parameter angeben. Geben Sie diesen Parameter als allgemeine Regel an, wenn Sie Ihre E-Mail-Adresse nicht als Absenderadresse angeben.
+**Anmeldeinformationen** Standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht über die Berechtigung zum Senden von E-Mails im Namen der angegebenen Absenderadresse verfügt, müssen Sie diesen Parameter angeben. Als allgemeine Regel geben Sie diesen Parameter an, wenn Sie Ihre E-Mail-Adresse nicht als Absenderadresse angeben.
     
 Im folgenden Beispiel wird eine neue PIN erstellt und dann eine Willkommens-E-Mail von Sven an Bob gesendet. Er verwendet den E-Mail-Text aus der Standardvorlage und erstellt die E-Mail-Nachricht im HTML-Format. Der Standardantrag lautet "Willkommen bei Einwahlkonferenzen":
   

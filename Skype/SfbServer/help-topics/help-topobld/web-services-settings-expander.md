@@ -1,7 +1,7 @@
 ---
 title: Einstellungen für Webdienste – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aefc9f51-a171-4a58-be65-7accb470cb2a
 description: Im Topologie-Generator können Sie die Porteinstellungen ändern, die für ihre internen und externen Webdienste verwendet werden. Darüber hinaus und wenn Sie einen DNS-Lastenausgleich (Domain Name System) bereitstellen, können Sie den Topologie-Generator verwenden, um den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Pools zu konfigurieren, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird.
-ms.openlocfilehash: 0835e394a10ddedede5191250cf3b4df16daa0f0
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 0d1f97f7ff44e78c5a117ddd65664a479d63a20f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630709"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765593"
 ---
 # <a name="web-services-settings-expander"></a>Einstellungen für Webdienste – Erweiterung
  
@@ -33,7 +33,7 @@ Im Topologie-Generator können Sie die Porteinstellungen ändern, die für ihre 
 2. Klicken Sie im Dialogfeld **Eigenschaften bearbeiten** auf die Registerkarte **Webdienste**.
     
     > [!CAUTION]
-    > Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+    > Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
   
 3. Wenn Sie die Eigenschaften eines Enterprise Edition Pools bearbeiten, können Sie den **FQDN überschreiben** auswählen. Diese Option sollte nur ausgewählt werden, wenn Sie dns-Lastenausgleich (Domain Name System) verwenden. Wählen Sie bei Verwendung des DNS-Lastenausgleichs **Vollqualifizierten Domänennamen außer Kraft setzen** aus, und geben Sie in das Textfeld den vollqualifizierten Domänennamen des Pools ein, der in die physischen IP-Adressen aller Server in diesem Pool aufgelöst wird. Wenn Sie nicht mit dem DNS-Lastenausgleich arbeiten und **Vollqualifizierten Domänennamen außer Kraft setzen** deaktiviert lassen, kann der vollqualifizierte Domänenname der internen Webdienste nicht geändert werden. Der FQDN für interne Webdienste ist die URL, die von internen Benutzern zum Herstellen einer Verbindung mit Skype for Business Server verwendet wird.
     

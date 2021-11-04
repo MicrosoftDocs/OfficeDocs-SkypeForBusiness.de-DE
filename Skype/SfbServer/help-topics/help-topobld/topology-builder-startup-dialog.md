@@ -1,7 +1,7 @@
 ---
 title: Topologie-Generator – Startdialogfeld
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
 description: 'Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Microsoft Lync Server 2013-Bereitstellung zu konfigurieren. Beim Start zeigt der Topologie-Generator ein Dialogfeld an, in dem die Quelle des Topologiedokuments gefragt wird. Sie wählen eine von drei Optionen aus:'
-ms.openlocfilehash: 79684328510afb702c99967646725b35c7776bfd
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 0d7f0dbba4ec46a94c231fd38605d8f739fd1aef
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727654"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765613"
 ---
 # <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
 
@@ -34,7 +34,7 @@ Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration 
 
 ![Dialogfeld zum Starten des Topologie-Generators.](../../media/Topology_Builder_Startup_Dialog.jpg)
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Einführung in lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-introduction)
 

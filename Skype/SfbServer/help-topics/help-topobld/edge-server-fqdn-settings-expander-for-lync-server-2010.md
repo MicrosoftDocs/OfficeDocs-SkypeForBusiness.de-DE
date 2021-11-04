@@ -1,7 +1,7 @@
 ---
 title: Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,21 +15,21 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: eb57268c-2419-4655-ace1-91cf871f25c7
 description: 'Um die Eigenschaften unter "Externe Einstellungen" zu definieren, konfigurieren Sie Folgendes:'
-ms.openlocfilehash: 3aff6f1a185f7f0d4cb3a596bf8dabea0feb9f89
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 505a4607029ccef38bb937cbb44891f9baaf3eb4
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628767"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772231"
 ---
 # <a name="edge-server-fqdn-settings-expander-for-lync-server-2010"></a>Edgeserver-FQDN-Einstellungen für Lync Server 2010 – Erweiterung
  
 Um die Eigenschaften unter **"Externe Einstellungen"** zu definieren, konfigurieren Sie Folgendes:
   
-Aktivieren Sie das Kontrollkästchen **separate FQDN und IP-Adresse für Webkonferenzen und A/V** aktivieren, wenn Sie unterschiedliche Pool-FQDNs und IP-Adressen für Webkonferenzen und Audio/Video definieren möchten.
+Aktivieren Sie das Kontrollkästchen **Separate FQDN und IP-Adresse für Webkonferenzen und A/V aktivieren,** wenn Sie unterschiedliche Pool-FQDNs und IP-Adressen für Webkonferenzen und Audio/Video definieren möchten.
   
 > [!NOTE]
-> Wenn Sie das Kontrollkästchen für separate FQDN- und IP-Adressen nicht aktivieren, müssen Sie unterschiedliche Ports für jeden der drei vom Edgeserver bereitgestellten Dienste bereitstellen. Der einzige vollqualifizierte Domänenname, der konfiguriert werden soll, ist der FQDN, der dem Zugriffs-Edgedienst zugeordnet ist. 
+> Wenn Sie das Kontrollkästchen für separate FQDN- und IP-Adressen nicht aktivieren möchten, müssen Sie unterschiedliche Ports für jeden der drei vom Edgeserver bereitgestellten Dienste bereitstellen. Der einzige vollqualifizierte Domänenname, der konfiguriert werden soll, ist der FQDN, der dem Zugriffs-Edgedienst zugeordnet ist. 
   
 Aktivieren Sie das Kontrollkästchen **"A/V-Edgedienst ist NAT aktiviert",** wenn der A/V-Edgedienst eine NAT-IP-Adresse (Network Address Translation) und -Konfiguration verwenden soll.
   

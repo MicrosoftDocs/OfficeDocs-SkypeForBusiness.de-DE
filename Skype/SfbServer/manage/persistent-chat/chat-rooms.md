@@ -1,7 +1,7 @@
 ---
-title: Verwalten von Chatrooms auf dem Server für beständigen Chat in Skype for Business Server 2015
+title: Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,23 +13,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7b2e1302-280c-4efe-9ec8-787687b414da
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Chatrooms für den Server für beständigen Chat in Skype for Business Server 2015 verwalten.'
-ms.openlocfilehash: 928fef65d63165721957ca0622b959860d82704e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5eb69b3f852ce8e093947cdd04cc00b6bfdc19e3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58630569"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746881"
 ---
-# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Chatrooms auf dem Server für beständigen Chat in Skype for Business Server 2015
+# <a name="manage-chat-rooms-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Chatrooms im Server für beständigen Chat in Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Chatrooms für den Server für beständigen Chat in Skype for Business Server 2015 verwalten.
   
-Das Erstellen und Verwalten von Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Eine Kategorie definiert, wer chatrooms erstellen oder daran teilnehmen kann. Bevor Sie versuchen, Chatrooms zu verwalten, müssen Sie [die Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) lesen und [Kategorien im Server für beständigen Chat in Skype for Business Server 2015 verwalten.](categories.md)
+Das Erstellen und Verwalten von Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Eine Kategorie definiert, wer chatrooms erstellen oder daran teilnehmen kann. Bevor Sie versuchen, Chatrooms zu verwalten, müssen Sie die [Kategorien für beständigen Chat, Chatrooms und Benutzerrollen in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md) lesen und [Kategorien im Server für beständigen Chat in Skype for Business Server 2015 verwalten.](categories.md)
   
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
-Sie können Chatrooms mithilfe der Windows PowerShell Befehlszeilenschnittstelle oder mit dem Skype for Business-Client konfigurieren und verwalten, wenn Sie Mitglied des Chatrooms sind. In diesem Thema wird beschrieben, wie Sie Chatrooms mithilfe der Windows PowerShell Befehlszeilenschnittstelle verwalten. Wenn Sie Chatrooms mithilfe des Skype for Business-Clients verwalten möchten, lesen Sie die Clienthilfe. 
+Sie können Chatrooms mithilfe der Windows PowerShell Befehlszeilenschnittstelle oder mithilfe des Skype for Business-Clients konfigurieren und verwalten, wenn Sie Mitglied des Chatrooms sind. In diesem Thema wird beschrieben, wie Chatrooms mithilfe der Windows PowerShell Befehlszeilenschnittstelle verwaltet werden. Wenn Sie Chatrooms mithilfe des Skype for Business-Clients verwalten möchten, lesen Sie die Clienthilfe. 
   
 Chatrooms können eine von zwei Typen sein: Normal und Auditorium. Ein normaler Chatroom ermöglicht es allen Mitgliedern, Nachrichten zu posten und zu lesen. Ein Auditorium ist eine Art von Chatroom, in dem nur Referenten beiträgen können, aber jeder kann lesen.
   
@@ -79,11 +79,11 @@ Zusätzlich zu den oben genannten Parametern können Sie mit dem Cmdlet **"Set-C
     
 - Moderatoren. Mit dieser Option können Sie Referenten einem Auditorium-Chatroom zuweisen. 
     
-  Ausführliche Informationen zur Syntax, einschließlich aller Parameter, finden Sie unter [Skype for Business Server 2015-Verwaltungsshell.](../management-shell.md)
+  Ausführliche Informationen zur Syntax, einschließlich aller Parameter, finden Sie in [Skype for Business Server 2015-Verwaltungsshell.](../management-shell.md)
   
 ## <a name="create-a-new-room"></a>Erstellen eines neuen Raums
 
-Mit dem Cmdlet **"New-CsPersistentChatRoom"** können Sie einen neuen Raum erstellen. Der folgende Befehl erstellt beispielsweise einen neuen Chatroom mit dem Namen ITChatRoom im Pool atl-cs-001.contoso.com. In diesem Beispiel wird der Chatroom der IT-Kategorie hinzugefügt:
+Mit dem Cmdlet **"New-CsPersistentChatRoom"** können Sie einen neuen Raum erstellen. Mit dem folgenden Befehl wird beispielsweise ein neuer Chatroom mit dem Namen "ITChatRoom" im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel wird der Chatroom der IT-Kategorie hinzugefügt:
   
 ```PowerShell
 New-CsPersistentChatRoom -Name "ITChatRoom" -PersistentChatPoolFqdn "atl-cs-001.contoso.com"-Category "IT"

@@ -1,7 +1,7 @@
 ---
 title: AudioStreamDetail-Ansicht
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 10/20/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in der Datenbank. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: fa3d65c5c4f42bb0ecfe32447b9d8dcab5a10c55
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3485ac8e8f2f38e7440ef723dfa40b3530589fc8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58583749"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741861"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  
@@ -33,7 +33,7 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |EndTime  <br/> |Datum/Uhrzeit  <br/> |Endzeit der Sitzung.  <br/> |
 |DialogCategory  <br/> |Bit  <br/> |Dialogkategorie: 0 ist die Skype for Business Server zum Vermittlungsserver. 1 ist der Vermittlungsserver zum PSTN-Gateway.  <br/> |
 |MediationServerBypassFlag  <br/> |Bit  <br/> |Flag, das angibt, ob der Anruf umgangen wurde oder nicht.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |Gibt an (falls vorhanden), warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmten. Es ist nur ein Wert definiert:  <br/> 0x0001 : Unbekannte Umgehungs-ID für Standardnetzwerkadapter.  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Gibt an (falls vorhanden), warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmten. Es ist nur ein Wert definiert:  <br/> 0x0001: Unbekannte Umgehungs-ID für Standardnetzwerkadapter.  <br/> |
 |CallPriority  <br/> |int  <br/> |Priorität des Anrufs.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN des Anruferpools.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |FQDN des Angerufenenpools.  <br/> |
@@ -68,7 +68,7 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |CalleeIPAddr  <br/> |var(50)  <br/> |IP-Adresse des Angerufenen. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
 |CalleePort  <br/> |int  <br/> |Vom Angerufenen verwendeter Port.  <br/> |
 |CalleeInside  <br/> |Bit  <br/> |Gibt an, ob sich der Angerufene innerhalb des Intervallnetzwerks befindet: 1 bedeutet, dass der Angerufene sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Angerufene außerhalb des Netzwerks befindet.  <br/> |
-|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Anrufers.  <br/> |
+|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Aufrufers.  <br/> |
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Anrufers.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Angerufenen.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Angerufenen.  <br/> |

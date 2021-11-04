@@ -1,6 +1,6 @@
 ---
 title: Bereitstellen Microsoft Teams-Räume mit Microsoft 365 oder Office 365
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,34 +15,34 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Microsoft 365 oder Office 365, wobei Teams oder Skype for Business und Exchange online sind.
-ms.openlocfilehash: 91c6b1ecfa12e24daded5f821da44d72084aed72
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d052683b1f393afd777f6e17a4b38b96f17d6b5a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58615221"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741581"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Bereitstellen Microsoft Teams-Räume mit Microsoft 365 oder Office 365
 
-In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Microsoft 365 oder Office 365, wobei Microsoft Teams oder Skype for Business und Exchange online verfügbar sind.
+In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Microsoft 365 oder Office 365, wobei Microsoft Teams oder Skype for Business und Exchange online sind.
 
-Die einfachste Möglichkeit zum Einrichten von Benutzerkonten besteht in der Konfiguration mithilfe von Remotecomputern Windows PowerShell. Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Unterstützung beim Erstellen neuer Benutzerkonten oder zum Überprüfen vorhandener Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Es Ihnen lieber ist, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume verwendet werden.
+Die einfachste Möglichkeit zum Einrichten von Benutzerkonten besteht in der Konfiguration mithilfe von Remotecomputern Windows PowerShell. Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Erstellung neuer Benutzerkonten oder zum Überprüfen vorhandener Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Es Ihnen lieber ist, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume verwendet werden.
 
 ## <a name="requirements"></a>Anforderungen
 
-Bevor Sie Ihre Microsoft Teams-Räume mit Microsoft 365 oder Office 365 bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
+Stellen Sie vor der Microsoft Teams-Räume mit Microsoft 365 -Office 365 sicher, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
 
 Um die Skype for Business zu aktivieren, müssen Sie über Folgendes verfügen:
 
 - Skype for Business Online (Plan 2 oder ein Enterprise-basierter Plan) oder höher in Ihrem Microsoft 365 oder Office 365 Plan. Der Plan muss Einwahlkonferenzfunktionen zulassen.
 
-- Wenn Sie einwahlfunktionen aus einer Besprechung benötigen, benötigen Sie eine Audiokonferenz und Telefonsystem Lizenz.  Wenn Sie Auswahlfunktionen aus einer Besprechung benötigen, benötigen Sie eine Lizenz für Audiokonferenzen.
+- Wenn Sie in einer Besprechung Einwahlfunktionen benötigen, benötigen Sie eine Audiokonferenz und Telefonsystem Lizenz.  Wenn Sie Auswahlfunktionen aus einer Besprechung benötigen, benötigen Sie eine Lizenz für Audiokonferenzen.
 
 - Ihre Mandantenbenutzer müssen über Exchange verfügen.
 
-- Für Ihr Microsoft Teams-Räume-Konto ist mindestens eine Skype for Business Online (Plan 2)-Lizenz erforderlich, es ist jedoch keine Lizenz Exchange Online erforderlich. Weitere [Microsoft Teams-Räume finden Sie unter Verwalten](rooms-licensing.md) von Lizenzen.
+- Für Ihr Microsoft Teams-Räume-Konto ist mindestens eine Skype for Business Online (Plan 2)-Lizenz erforderlich, es ist jedoch keine Lizenz Exchange Online erforderlich. Weitere [Microsoft Teams-Räume finden Sie unter Erwerben](rooms-licensing.md) von Lizenzen.
 
-Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in der Skype for Business [Onlinedienstbeschreibung.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie im Artikel [Skype for Business Onlinedienstbeschreibung.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
 
 ### <a name="add-a-device-account"></a>Hinzufügen eines Gerätekontos
 
@@ -84,7 +84,7 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) und [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
-3. Konfigurieren Exchange Online in PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
+3. Konfigurieren Exchange Online PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
 
    - AutomateProcessing: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen eines Menschen: frei = akzeptieren; Beschäftigt = ablehnen.)
 
@@ -149,7 +149,7 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
     > [!NOTE]
     > Wenn das Kennwort nicht auf Nie abläuft festgelegt ist, wird das Konto nicht mehr auf dem Gerät anmelden, wenn das Konto den Ablaufzeitraum erreicht. Das Kennwort muss dann für das Konto geändert und auch lokal auf dem MTR-Gerät aktualisiert werden.
 
-6. Das Gerätekonto muss über eine gültige Microsoft 365 oder Office 365 verfügen, oder Exchange und Microsoft Teams oder Skype for Business funktionieren nicht. Wenn Sie über eine Lizenz verfügen, müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> um eine Liste der verfügbaren SKUs für Ihre Organisation Microsoft 365 oder Office 365 wie folgt abzurufen:
+6. Das Gerätekonto muss über eine gültige Lizenz Microsoft 365 oder Office 365 verfügen, oder Exchange und Microsoft Teams oder Skype for Business funktionieren nicht. Wenn Sie über eine Lizenz verfügen, müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> um eine Liste der verfügbaren SKUs für Ihre Microsoft 365 oder Office 365 Organisation wie folgt abzurufen:
 
    ```Powershell
    Get-MsolAccountSku
@@ -160,7 +160,7 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
    ```  -->
 
-   Als Nächstes können Sie eine Lizenz hinzufügen, indem Sie die `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. In diesem Beispiel wird dem Besprechungsraum die folgende Lizenz hinzufügt:
+   Als Nächstes können Sie eine Lizenz hinzufügen, indem Sie die `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. In diesem Beispiel wird Besprechungsraum-Lizenz dem Konto hinzufügt:
 
    ```PowerShell
    Set-MsolUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
@@ -175,16 +175,16 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
 
    Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
 
-   Sie können diesem Konto Telefonsystem Funktionen hinzufügen, sie müssen sie aber zuerst konfigurieren. Weitere [Informationen finden Sie unter Telefonsystem?.](../what-is-phone-system-in-office-365.md) In diesem Beispiel wird der PSTN-Anrufplan für Inlands- und Auslandsrufe hinzufügt:
+   Sie können diesem Konto Telefonsystem-Funktionen hinzufügen, sie müssen sie aber zuerst konfigurieren. Weitere [Informationen finden Sie Telefonsystem unter](../what-is-phone-system-in-office-365.md) Was ist Telefonsystem?. In diesem Beispiel wird der PSTN-Anrufplan für Inlands- und Auslandsrufe hinzufügt:
 
    ```PowerShell
    Set-MsolUserLicense -UserPrincipalName rigel1@contoso.onmicrosoft.com -AddLicenses "Contoso:MCOPSTN2"
    ```
 
     > [!NOTE]
-    > Wenn Sie Ihr Teams-Räume so konfigurieren, dass sie nur systemeigene an Microsoft Teams teilnehmen, sollten Sie nicht mit dem folgenden Schritt fortfahren. Folgendes ist nur erforderlich, wenn Sie auch Unterstützung für lokale Skype for Business aktivieren.
+    > Wenn Sie Ihre Teams-Räume so konfigurieren, dass sie nur systemeigene an Microsoft Teams teilnehmen, sollten Sie nicht mit dem folgenden Schritt fortfahren. Folgendes ist nur erforderlich, wenn Sie auch Unterstützung für lokale Skype for Business aktivieren.
 
-7. Um das Gerätekonto mit einem lokalen Skype for Business zu aktivieren, stellen Sie sicher, dass Ihre Umgebung die in den anforderungen [Microsoft Teams-Räume erfüllt.](requirements.md)
+7. Um das Gerätekonto mit einem lokalen Skype for Business zu aktivieren, müssen Sie sicherstellen, dass Ihre Umgebung die in den Microsoft Teams-Räume [Anforderungen erfüllt.](requirements.md)
 
    Starten Sie eine [Remote Windows PowerShell Sitzung](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell) wie folgt (stellen Sie sicher, dass Sie Skype for Business [Online-PowerShell-Komponenten installieren):](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/download-and-install-the-skype-for-business-online-connector)
 
@@ -201,7 +201,7 @@ Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in de
    Connect-MicrosoftTeams -Credential $credential
    ```
 
-   Rufen Sie die RegistrarPool-Informationen aus dem neuen Benutzerkonto ab, das eingerichtet wird, wie im folgenden Beispiel dargestellt:
+   Rufen Sie die RegistrarPool-Informationen aus dem neuen Benutzerkonto ab, das eingerichtet wird, wie im folgenden Beispiel gezeigt:
 
    ``` Powershell
     Get-CsOnlineUser -Identity "Rigel1@contoso.onmicrosoft.com" | Select -Expand RegistrarPool

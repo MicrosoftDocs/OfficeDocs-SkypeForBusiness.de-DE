@@ -1,7 +1,7 @@
 ---
 title: Planen der PSTN-Konnektivität in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 280f684a-740a-443d-8ecf-574241382a42
 description: Planen der PSTN-Konnektivität in Enterprise-VoIP in Skype for Business Server.
-ms.openlocfilehash: 803b613e3b78465f1dd8d9d04fd552b8bee553d1
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 3cbc7c6a6069fef3a8898121dba287edcec5b4c6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746761"
 ---
 # <a name="plan-for-pstn-connectivity-in-skype-for-business-server"></a>Planen der PSTN-Konnektivität in Skype for Business Server
  
 Planen der PSTN-Konnektivität in Enterprise-VoIP in Skype for Business Server.
   
-Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Benutzer, die Anrufe tätigen und empfangen, sollten die zugrunde liegende Technologie nicht kennen: Aus Sicht des Benutzers sollte ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN wie ein weiterer Telefonanruf erscheinen.
+Eine VoIP-Lösung für Unternehmen muss ein- und ausgehende PSTN-Anrufe (Public Switched Telephone Network, Telefonfestnetz) ermöglichen, ohne dass die Dienstqualität (Quality of Service, QoS) in irgendeiner Weise beeinträchtigt wird. Benutzer, die Anrufe tätigen und empfangen, sollten sich der zugrunde liegenden Technologie nicht bewusst sein: Aus Sicht des Benutzers sollte ein Anruf zwischen der Enterprise-VoIP-Infrastruktur und dem PSTN wie ein weiterer Telefonanruf erscheinen.
   
 Skype for Business Server bietet zuverlässige, skalierbare PSTN-Konnektivität mithilfe der folgenden Optionen:
   
@@ -49,6 +49,6 @@ Je nach Größe, geografischer Abdeckung und der vorhandenen Enterprise-VoIP-Inf
     
 - [Übersetzungsregeln in Skype for Business Server](translation-rules.md)
     
-- [Planen des Ausgehenden VoIP-Routings in Skype for Business Server](outbound-voice-routing.md)
+- [Planen des ausgehenden VoIP-Routings in Skype for Business Server](outbound-voice-routing.md)
     
 

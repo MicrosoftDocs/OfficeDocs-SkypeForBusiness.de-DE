@@ -1,7 +1,7 @@
 ---
 title: Planen von Edgeserverbereitstellungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Zusammenfassung: Planen Ihrer Skype for Business Server Edgeumgebung. In diesem Thema werden Die Edge-Konzepte vorgestellt, und Sie können sich mit unseren ausführlicheren Themen organisieren.'
-ms.openlocfilehash: 9acdb42e4ebc46fd6597ab047ee523b0ff309fb5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ad92c0d61381595ac2274bf52aa108efe5703a90
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602460"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746861"
 ---
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planen von Edgeserverbereitstellungen in Skype for Business Server
  
-**Zusammenfassung:** Planen Sie ihre Skype for Business Server Edgeumgebung. In diesem Thema werden Die Edge-Konzepte vorgestellt, und Sie können sich mit unseren ausführlicheren Themen organisieren.
+**Zusammenfassung:** Planen Sie Ihre Skype for Business Server Edgeumgebung. In diesem Thema werden Die Edge-Konzepte vorgestellt, und Sie können sich mit unseren ausführlicheren Themen organisieren.
   
-Wenn Sie über eine Skype for Business Server Umgebung verfügen, die intern gut funktioniert, ist der nächste Schritt für Sie möglicherweise die Einführung eines Edgeservers oder eines Edgepools in die Umgebung. Diese Rolle wäre wichtig, wenn die von Skype for Business Server bereitgestellten Dienste von Personen außerhalb Ihres internen Netzwerks verwendet werden sollen. Dies kann potenziell Folgendes umfassen:
+Wenn Sie über eine Skype for Business Server Umgebung verfügen, die intern gut funktioniert, ist der nächste Schritt für Sie möglicherweise die Einführung eines Edgeservers oder eines Edgepools in die Umgebung. Diese Rolle wäre wichtig, wenn Sie möchten, dass die von Skype for Business Server bereitgestellten Dienste von Personen außerhalb Ihres internen Netzwerks verwendet werden. Dies kann potenziell Folgendes umfassen:
   
 - Remotebenutzer: Mitarbeiter außerhalb des Standorts, entweder vorübergehend oder fortlaufend.
     

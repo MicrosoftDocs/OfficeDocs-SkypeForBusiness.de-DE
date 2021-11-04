@@ -1,7 +1,7 @@
 ---
 title: Planen mehrerer Notrufnummern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
-ms.openlocfilehash: 06b65e889c4a1ae9badf84d3d6fc948405ed4db9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634229"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741962"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen mehrerer Notrufnummern in Skype for Business Server
  
@@ -29,7 +29,7 @@ Lesen Sie dieses Thema, um zu erfahren, wie Sie mehrere Notrufnummern in Skype f
   
 Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Während die Vereinigten Staaten über eine einzige Notrufnummer( 911) verfügen, unterstützen viele Länder mehrere Notrufnummern. Das Vereinigte Königreich unterstützt beispielsweise sowohl 999, die für das Vereinigte Königreich spezifische Notrufnummer als auch 112, die Notrufnummer für die Europäische Union. 
   
-Dieses Feature ist auch für Gesundheitsdienstleister in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern mit Code wünschen.
+Dieses Feature ist auch für Gesundheitsdienstleister in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern (Code) erhalten möchten.
   
 ## <a name="multiple-emergency-numbers-and-location-policies"></a>Mehrere Notrufnummern und Standortrichtlinien
 
@@ -42,7 +42,7 @@ Beachten Sie bei der Planung mehrerer Notrufnummern Folgendes:
 - Mit dem kumulativen Update vom Juni 2016 können Sie bis zu 5 Notrufnummern für eine bestimmte Standortrichtlinie definieren. Mit dem kumulativen Update vom November 2016 erhöht sich diese Zahl auf 100.
     
     > [!NOTE]
-    > Wenn Sie noch kein Upgrade auf das kumulative Update vom November 2016 durchgeführt haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Für jede Notrufnummer können Sie null oder mehr Notfallwählmasken angeben, die für eine bestimmte Standortrichtlinie eindeutig sind.
     
@@ -65,7 +65,7 @@ Beachten Sie vor dem Konfigurieren mehrerer Notrufnummern Folgendes:
     
 - Wenn Sie vorhandene Nummern mithilfe des Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben  *und keine neuen Notrufnummern konfigurieren,*  werden die vorhandenen Nummern weiterhin verwendet.
     
-- Damit das Feature für mehrere Notrufnummern funktioniert, müssen die ausgeführten Clientversionen in der Lage sein, das neue Feature zu unterstützen. Ältere Clients verwenden weiterhin die alten Werte, die von den cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask angegeben werden. 
+- Damit das Feature für mehrere Notrufnummern funktioniert, müssen die ausgeführten Clientversionen in der Lage sein, das neue Feature zu unterstützen. Ältere Clients verwenden weiterhin die alten Werte, die in den Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask angegeben sind. 
     
 - Wenn die Benutzer eine Nummer wählen, die der Wählzeichenfolge entspricht, ist keine Wählmaske erforderlich. Wenn beispielsweise die Nummer, die ein Benutzer wählt, 911 ist, lautet die Wählzeichenfolge 911, und es ist keine Maske erforderlich. 
     

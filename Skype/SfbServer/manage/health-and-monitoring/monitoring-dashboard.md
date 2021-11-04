@@ -1,7 +1,7 @@
 ---
 title: Verwenden des Monitoring-Dashboards in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e00e5783-116f-481f-ad17-3af847d6769a
 description: 'Zusammenfassung: Erfahren Sie mehr über das Monitoring-Dashboard in Skype for Business Server.'
-ms.openlocfilehash: 544dfdc37f25fe60418dc190a76467c044a58d65
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b03c85355d2217763066ddce68e55eab65343249
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58622347"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772031"
 ---
 # <a name="using-the-monitoring-dashboard-in-skype-for-business-server"></a>Verwenden des Monitoring-Dashboards in Skype for Business Server
  
@@ -179,7 +179,7 @@ Im Monitoring-Dashboard gibt es eine Reihe von Möglichkeiten zum Exportieren de
     
 - Word
     
-Klicken Sie auf die gewünschte Exportoption, um die aktuelle Dashboardansicht (und deren Werte) zu exportieren. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business Server standardmäßig das **Berichtsüberwachungsdashboard** betitelt und in Ihrem Downloadordner speichert. Um dem Bericht einen anderen Namen zu geben oder ihn in einem anderen Ordner zu speichern, klicken Sie auf den Pfeil neben der Schaltfläche **"Speichern",** und klicken Sie dann auf **"Speichern unter".** Wenn Sie mit name **Monitoring Dashboard** in Ordnung sind und den Bericht im Ordner "Downloads" gespeichert haben, können Sie einfach auf die Schaltfläche **"Speichern"** klicken.
+Klicken Sie auf die gewünschte Exportoption, um die aktuelle Dashboardansicht (und deren Werte) zu exportieren. Skype for Business Server generiert einen Bericht im angegebenen Format und gibt Ihnen dann die Möglichkeit, diesen Bericht zu öffnen oder zu speichern. Beachten Sie, dass Skype for Business Server das **Berichtsüberwachungsdashboard** standardmäßig betitelt und in Ihrem Downloadordner speichert. Um dem Bericht einen anderen Namen zu geben oder ihn in einem anderen Ordner zu speichern, klicken Sie auf den Pfeil neben der Schaltfläche **"Speichern",** und klicken Sie dann auf **"Speichern unter".** Wenn Sie mit name **Monitoring Dashboard** in Ordnung sind und den Bericht im Ordner "Downloads" gespeichert haben, können Sie einfach auf die Schaltfläche **"Speichern"** klicken.
   
 Beim Exportieren von Dashboarddaten wird möglicherweise ein Sicherheitshinweisangezeigt, dass Ihre aktuellen Einstellungen das Herunterladen dieser Datei nicht zulassen. Führen Sie in diesem Fall die folgenden Aktionen aus:
   

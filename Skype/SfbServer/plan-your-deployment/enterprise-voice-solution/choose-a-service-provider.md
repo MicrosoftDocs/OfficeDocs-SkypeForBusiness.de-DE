@@ -1,7 +1,7 @@
 ---
 title: Auswählen eines E9-1-1-Dienstanbieters für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 58bd6284-0bc0-420b-bc08-7035b348c03c
 description: Auswählen Ihres Dienstanbieters für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 834e0c730721e17253ac644559fd67c930ccaa02
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5ed65185e8c04855d437013c91ba92678bb4baca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580499"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746811"
 ---
 # <a name="choose-an-e9-1-1-service-provider-for-skype-for-business-server"></a>Auswählen eines E9-1-1-Dienstanbieters für Skype for Business Server
  
 Auswählen Ihres Dienstanbieters für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP.
   
-Der E9-1-1-Dienstanbieter leitet Notrufe, die von Skype for Business Server stammen, basierend auf den standortbezogenen Informationen im Anruf an die richtige Rettungsstelle weiter. 
+Der E9-1-1-Dienstanbieter leitet Notrufe, die von Skype for Business Server stammen, basierend auf den standortbezogenen Informationen in dem Anruf an die richtige Rettungsstelle weiter. 
   
 Um E9-1-1 als Teil einer Skype for Business Server Bereitstellung zu unterstützen, müssen Sie den E9-1-1-Routingdienst von einem qualifizierten E9-1-1-Dienstanbieter für das Lync Open Interoperability-Programm abrufen. Wählen Sie den Anbieter, der die Anforderungen Ihrer Organisation am besten erfüllt.
 

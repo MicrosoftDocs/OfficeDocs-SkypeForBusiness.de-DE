@@ -1,7 +1,7 @@
 ---
 title: Konferenzrichtlinie – Erstellen einer neuen oder Bearbeiten einer vorhandenen Konferenzrichtlinie
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ebd2f120-b57a-4c94-9509-20e098f4b0f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Eine Konferenzrichtlinie definiert die Features und Funktionen, die Benutzern während einer Konferenz zur Verfügung stehen (auch bekannt als Besprechung).
-ms.openlocfilehash: f06ae9e2a23e83ec00fa77acf46d30a0b78fbeab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9d62ac561252c3cda025f040c2de335c49c12bae
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624357"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60753014"
 ---
 # <a name="conferencing-policy-create-new-or-edit-existing"></a>Konferenzrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Konferenzrichtlinie
 
@@ -63,7 +63,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Anonymen Teilnehmern das Ausgehende gestatten** Aktivieren Sie dieses Kontrollkästchen, wenn Sie Benutzern das Einwählen in Konferenzen gestatten und nicht authentifizierten (anonymen) Benutzern die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen gestatten möchten. Bei ausgehenden Telefonverbindungen ruft der Konferenzserver den Benutzer an, und der Benutzer nimmt das Gespräch an, um an der Konferenz teilzunehmen.
 
-- **Zulassen, dass Teilnehmer, die nicht für Enterprise-VoIP aktiviert sind, ausgehende Anrufe zulassen** Wenn Sie Audio in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern, die nicht für Enterprise-VoIP aktiviert sind, die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen zu ermöglichen. Bei ausgehenden Telefonverbindungen telefoniert der Konferenzserver den Benutzer, und der Benutzer antwortet dann auf das Telefon, um an der Konferenz teilzunehmen.
+- **Teilnehmer, die nicht für Enterprise-VoIP zum Ausgehenden aktiviert sind, gestatten** Wenn Sie Audio in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern, die nicht für Enterprise-VoIP aktiviert sind, die Teilnahme an einer Konferenz über ausgehende Telefonverbindungen zu ermöglichen. Bei ausgehenden Telefonverbindungen telefoniert der Konferenzserver den Benutzer, und der Benutzer antwortet dann auf das Telefon, um an der Konferenz teilzunehmen.
 
 - **Zulassen mehrerer Videostreams** Wenn Sie Video in **Audio/Video** aktiviert haben, aktivieren Sie dieses Kontrollkästchen, um Benutzern das Organisieren von Konferenzen mit Dem Video "Katalogansicht" zu ermöglichen. Wenn dieses Kontrollkästchen aktiviert ist, können Benutzer mit dieser Einstellung Konferenzen organisieren, die mehrere Videostreams senden. Wenn dieses Kontrollkästchen nicht aktiviert ist, können Benutzer nur Konferenzen organisieren, die einen einzelnen Videostream senden.
 
@@ -96,7 +96,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
     Klicken Sie auf den Pfeil nach oben oder nach unten neben der Beschriftung, um den Abschnitt zu schließen oder zu öffnen.
 
-- Wählen Sie **"Anwendungs- und Desktopfreigabe aktivieren"** aus, um Benutzern das Freigeben von Anwendungen oder ihren Desktop während der Teilnahme an einer Konferenz oder Sitzung mit zwei Teilnehmern zu ermöglichen. Wählen Sie **"Anwendungs- und Desktopfreigabe deaktivieren"** aus, um zu verhindern, dass Benutzer Anwendungen oder ihren Desktop freigeben, während sie an einer Konferenz oder Sitzung mit zwei Teilnehmern teilnehmen.
+- Wählen Sie **"Anwendungs- und Desktopfreigabe aktivieren"** aus, um Benutzern das Freigeben von Anwendungen oder deren Desktop während der Teilnahme an einer Konferenz oder Sitzung mit zwei Teilnehmern zu ermöglichen. Wählen Sie **"Anwendungs- und Desktopfreigabe deaktivieren"** aus, um zu verhindern, dass Benutzer Anwendungen oder ihren Desktop freigeben, während sie an einer Konferenz oder Sitzung mit zwei Teilnehmern teilnehmen.
 
 - **Aktivieren der Peer-to-Peer-Dateiübertragung** Aktivieren Sie dieses Kontrollkästchen, um Dateiübertragungen zwischen Personen (d. h. Dateiübertragungen, an denen nicht alle Teilnehmer beteiligt sind) während einer Konferenz oder Sitzung mit zwei Teilnehmern zuzulassen.
 
@@ -105,6 +105,6 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 - **Teilnehmer können mit mehreren Videostreams teilnehmen** Aktivieren Sie dieses Kontrollkästchen, um Teilnehmern das Empfangen von Katalogansichtsvideos in Konferenzen zu ermöglichen, die dies zulassen. Wenn diese Option nicht ausgewählt ist, können teilnehmer nur einen einzelnen Videostream empfangen, unabhängig davon, was die Konferenz zulässt.
 
     > [!NOTE]
-    > Die **Option "Mehrere Videodatenströme zulassen"** bestimmt, ob eine Konferenz mehrere Videostreams zulässt.
+    > Der **Wert "Mehrere Videodatenströme zulassen"** bestimmt, ob eine Konferenz mehrere Videostreams zulässt.
 
 Ausführliche Informationen zu den Konferenzfunktionen finden Sie unter [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Konferenzrichtlinien finden Sie unter [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) in der Betriebsdokumentation.

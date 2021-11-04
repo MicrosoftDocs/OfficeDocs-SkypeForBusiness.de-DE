@@ -1,7 +1,7 @@
 ---
 title: Abrufen der Benutzereinstellungen
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bdfe063b-e808-4f3c-884a-acbbabb9be0a
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Benutzer Einstellungen abrufen", der Teil des Benutzer-Einstellungen-Diensts ist. Der Benutzer-Einstellungen-Dienst ist Teil der Repository-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 9ac219a46a1a747650c9f89feaf6e017d0d56bed
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b7be08df46aa63287d931a566d26671bfecfc3b8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592539"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778175"
 ---
 # <a name="get-user-settings"></a>Abrufen der Benutzereinstellungen
  
@@ -45,7 +45,7 @@ Abrufen von Benutzer Einstellungen gibt eine Liste der Einstellungen für einen 
   
   **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
-  **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+  **Statuscode:** Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
   **Antwortheader** – keine zusätzlichen Kopfzeilen.
   

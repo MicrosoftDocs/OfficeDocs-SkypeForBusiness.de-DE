@@ -1,7 +1,7 @@
 ---
 title: Auswählen von Gruppen
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d780f676-c2c5-4f57-90dd-df5fcd204d76
 description: Reaktionsgruppenwarteschlangen halten Anrufe an Reaktionsgruppen ab, bis ein Agent den Anruf entgegennimmt. Warteschleifen sind Agentgruppen zugewiesen. Beim Erstellen oder Bearbeiten einer Warteschleife verwenden Sie das Dialogfeld Gruppen auswählen, um eine oder mehrere Agentgruppen auszuwählen, die der Warteschleife zugewiesen werden.
-ms.openlocfilehash: 5f1c0da28929f4bf5f99f78c2a9bfbe35a351c88
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d3c81cca2c396b158521866c27d06300fc2f4001
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619081"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742261"
 ---
 # <a name="select-groups"></a>Auswählen von Gruppen
 

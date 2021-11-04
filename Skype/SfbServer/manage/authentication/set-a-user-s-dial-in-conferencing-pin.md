@@ -1,7 +1,7 @@
 ---
 title: Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Zusammenfassung: Legen Sie die Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server fest.'
-ms.openlocfilehash: 0532a5972a373bd92d9fb72d0883d6c40542a91e
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: e5735c58f6e46d16f55146521ad876cd8990151f
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012319"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772101"
 ---
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server
  
 **Zusammenfassung:** Legen Sie die Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server fest.
   
-Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Skype for Business Server Benutzer mit Active Directory Domain Services (AD DS)-Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die PIN für Einwahlkonferenzen vergessen hat oder die PIN nicht mit Skype for Business Server festgelegt hat, können Sie die PIN des Benutzers über Skype for Business Server Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
+Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Skype for Business Server Benutzer mit Active Directory Domain Services (AD DS)-Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die Einwahlkonferenz-PIN vergessen hat oder die PIN nicht mithilfe von Skype for Business Server festgelegt hat, können Sie die PIN des Benutzers über Skype for Business Server Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
   
 > [!NOTE]
 > Bestimmte Eigenschaften der PIN, beispielsweise die Mindestlänge, können als Richtlinie konfiguriert werden. Zusätzlich zur globalen Richtlinie können Sie eine PIN-Richtlinie für einzelne Standorte oder Benutzer konfigurieren. 

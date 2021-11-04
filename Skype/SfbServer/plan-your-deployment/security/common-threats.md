@@ -1,7 +1,7 @@
 ---
 title: Allgemeine Sicherheitsbedrohungen im modernen Computing
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/22/2016
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
-description: Da es sich bei Skype for Business Server um ein Kommunikationssystem der Unternehmensklasse handelt, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
-ms.openlocfilehash: 04fa1eb040c1e208781d862da0bd92bc68a77dbd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
+ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58629509"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741921"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Allgemeine Sicherheitsbedrohungen im modernen Computing
  
-Da es sich bei Skype for Business Server um ein Kommunikationssystem der Unternehmensklasse handelt, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
+Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
   
 ## <a name="compromised-key-attack"></a>Angriff mit kompromittierten Schlüsseln
 
@@ -59,7 +59,7 @@ Das TURN-Protokoll (Traversal Using Relay NAT) schreibt nicht vor, dass der Date
   
 ## <a name="identity-spoofing-ip-address-and-caller-id-spoofing"></a>Identitätsspoofing (IP-Adresse und Spoofing der Anrufer-ID)
 
-Identitätsspoofing tritt auf, wenn der Angreifer eine Telefonnummer eines gültigen Benutzers (Anrufer-ID) oder eine IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermittelt und verwendet, ohne dafür autorisiert zu sein. Ein erfolgreicher Angriff ermöglicht es dem Angreifer, so zu arbeiten, als wäre der Angreifer die Entität, die normalerweise durch die Telefonnummer (Anrufer-ID) oder die IP-Adresse identifiziert wird.
+Identitätsspoofing tritt auf, wenn der Angreifer eine Telefonnummer eines gültigen Benutzers (Anrufer-ID) oder eine IP-Adresse eines Netzwerks, Computers oder einer Netzwerkkomponente ermittelt und verwendet, ohne dazu autorisiert zu sein. Ein erfolgreicher Angriff ermöglicht es dem Angreifer, so zu arbeiten, als wäre der Angreifer die Entität, die normalerweise durch die Telefonnummer (Anrufer-ID) oder die IP-Adresse identifiziert wird.
 
 Im Kontext von Skype for Business Server kommt IP-Adressspoofing nur ins Spiel, wenn ein Administrator die folgenden beiden Aktionen ausgeführt hat:
   

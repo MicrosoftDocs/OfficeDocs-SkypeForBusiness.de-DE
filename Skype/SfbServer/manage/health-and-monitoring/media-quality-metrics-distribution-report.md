@@ -1,7 +1,7 @@
 ---
 title: Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 0ba1bfadee22d731a6ef6c523ba22261a8f22202
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 773dceacfc7ca955a893d740ef4832ee8d94cb0e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606184"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746954"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server 
  
@@ -27,16 +27,16 @@ Mit dem Bericht über die Metrikverteilung der Medienqualität können Sie ein D
   
 |**Anrufnummer**|**Roundtripzeit (Millisekunden)**|
 |:-----|:-----|
-|1   <br/> |50  <br/> |
-|2   <br/> |50  <br/> |
-|3   <br/> |50  <br/> |
+|1  <br/> |50  <br/> |
+|2  <br/> |50  <br/> |
+|3  <br/> |50  <br/> |
 |4   <br/> |50  <br/> |
-|5   <br/> |50  <br/> |
+|5  <br/> |50  <br/> |
 |6   <br/> |50  <br/> |
 |7   <br/> |50  <br/> |
 |8   <br/> |4550  <br/> |
 |9   <br/> |50  <br/> |
-|10   <br/> |50  <br/> |
+|10  <br/> |50  <br/> |
    
 Der Durchschnitt für diese Roundtripzeiten beträgt 500 Millisekunden (5000 dividiert durch 10). 500 Millisekunden sind eine extrem große Roundtripzeit. Daher könnten Sie annehmen, dass Sie ein schwerwiegendes Problem mit der Netzwerküberlastung haben. (Lange Roundtripzeiten sind in der Regel das Ergebnis überlasteter Netzwerke.)
   
@@ -53,7 +53,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 |**Name**|**Beschreibung**|
 |:-----|:-----|
 |**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Minimum in x-Achse** <br/> |Niedrigster Wert, der auf der X-Achse des Diagramms angezeigt werden soll.  <br/> |
 |**Maximum in x-Achse** <br/> |Der höchste Wert, der auf der X-Achse des Diagramms angezeigt werden soll.  <br/> |
 |**Zugriffstyp** <br/> | Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Intern <br/>  Extern <br/> |

@@ -5,7 +5,7 @@ ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfigurieren und Quality of Service-Richtlinien in Skype for Business Server für Clients konfigurieren, die auf Windows 10 ausgeführt werden.
-ms.openlocfilehash: d43b79d82e3099cbc471b12fba5ad7155de43e77
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b2382a5060d0723f76312a089ab50b0b41314c8e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58591159"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60742111"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server
 
@@ -38,7 +38,7 @@ Sie können ermitteln, welche Portbereiche derzeit für Kommunikationssitzungen 
 
 **Get-CsConferencingConfiguration**
 
-Unter der Annahme, dass Sie seit der Installation Skype for Business Server keine Änderungen an den Konferenzeinstellungen vorgenommen haben, sollten Sie Informationen abrufen, die diese Eigenschaftswerte enthalten:
+Wenn Sie seit der Installation Skype for Business Server keine Änderungen an den Konferenzeinstellungen vorgenommen haben, sollten Sie Informationen abrufen, die diese Eigenschaftswerte enthalten:
 
 ClientMediaPortRangeEnabled : False<br/>
 ClientAudioPort : 5350<br/>
@@ -54,7 +54,7 @@ Wenn Sie sich die vorherige Ausgabe genauer ansehen, werden Sie zwei wichtige As
 
 **ClientMediaPortRangeEnabled : False**
 
-Dies ist wichtig, da bei Festlegung dieser Eigenschaft auf "False" Skype for Business Clients einen beliebigen verfügbaren Port zwischen den Ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. dies gilt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf eine bestimmte Gruppe von Ports einschränken möchten (und dies ist bei der Implementierung von Quality of Service sinnvoll), müssen Sie zuerst Clientmedienportbereiche aktivieren. Dies kann mit dem folgenden befehl Windows PowerShell erfolgen:
+Dies ist wichtig, da bei Festlegung dieser Eigenschaft auf "False" Skype for Business Clients einen beliebigen verfügbaren Port zwischen ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. dies gilt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf einen bestimmten Satz von Ports beschränken möchten (und dies ist etwas, was Sie tun möchten, wenn Sie quality of Service implementieren möchten), müssen Sie zuerst Clientmedienportbereiche aktivieren. Dies kann mit dem folgenden befehl Windows PowerShell erfolgen:
 
 **Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
@@ -113,7 +113,7 @@ Zur Implementierung des Quality of Service (QoS) muss jeder dieser Portbereiche 
 
 In der obigen Tabelle stellen Clientportbereiche eine Teilmenge der Portbereiche dar, die für Ihre Server konfiguriert sind. Beispielsweise wurde die Anwendungsfreigabe auf den Servern so konfiguriert, dass die Ports 40803 bis 49151 verwendet werden. Auf den Clientcomputern ist die Anwendungsfreigabe für die Verwendung der Ports 42000 bis 42019 konfiguriert. Auch dies geschieht in erster Linie, um die Verwaltung von QoS zu vereinfachen: Clientports müssen keine Teilmenge der auf dem Server verwendeten Ports darstellen. (Beispielsweise können Sie auf den Clientcomputern die Anwendungsfreigabe so konfigurieren, dass beispielsweise die Ports 10000 bis 10019 verwendet werden.) Es wird jedoch empfohlen, die Clientportbereiche zu einer Teilmenge ihrer Serverportbereiche zu machen.
 
-Zudem haben Sie vielleicht festgestellt, dass auf den Servern 8348 Ports für die Anwendungsfreigabe reserviert wurden, auf den Clients jedoch lediglich 20 Ports. Auch dies wird empfohlen, ist aber keine feste und schnelle Regel. Im Allgemeinen können Sie jeden verfügbaren Port als eine einzige Kommunikationssitzung betrachten: Wenn 100 Ports in einem Portbereich verfügbar sind, bedeutet dies, dass der betreffende Computer zu einem bestimmten Zeitpunkt an höchstens 100 Kommunikationssitzungen teilnehmen kann. Da Server wahrscheinlich an weitaus mehr Unterhaltungen als Clients beteiligt sind, ist es sinnvoll, auf den Servern viel mehr Ports als auf den Clients zu öffnen. Wenn Sie auf einem Client 20 Ports für die Anwendungsfreigabe reservieren, bedeutet dies, dass ein Benutzer auf dem angegebenen Gerät an 20 Anwendungssitzungen gleichzeitig teilnehmen kann. Dies sollte für die allermeisten Benutzer ausreichend sein.
+Zudem haben Sie vielleicht festgestellt, dass auf den Servern 8348 Ports für die Anwendungsfreigabe reserviert wurden, auf den Clients jedoch lediglich 20 Ports. Auch dies wird empfohlen, ist aber keine feste und schnelle Regel. Im Allgemeinen können Sie jeden verfügbaren Port als eine einzige Kommunikationssitzung betrachten: Wenn 100 Ports in einem Portbereich verfügbar sind, bedeutet dies, dass der betreffende Computer an maximal 100 Kommunikationssitzungen zu einem bestimmten Zeitpunkt teilnehmen kann. Da Server wahrscheinlich an weitaus mehr Unterhaltungen als Clients beteiligt sind, ist es sinnvoll, auf den Servern viel mehr Ports als auf den Clients zu öffnen. Wenn Sie auf einem Client 20 Ports für die Anwendungsfreigabe reservieren, bedeutet dies, dass ein Benutzer auf dem angegebenen Gerät an 20 Anwendungssitzungen gleichzeitig teilnehmen kann. Dies sollte für die allermeisten Benutzer ausreichend sein.
 
 Um ihrer globalen Sammlung von Konferenzkonfigurationseinstellungen die vorherigen Portbereiche zuzuweisen, können Sie den folgenden Befehl Skype for Business Server Verwaltungsshell verwenden:
 
@@ -183,7 +183,7 @@ Um eine Quality of Service-Audiorichtlinie für Windows 10 Computer zu erstellen
 
 6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
-7.  Wählen Sie auf der nächsten Seite **nur Anwendungen mit diesem ausführbaren Namen** aus, geben Sie **Lync.exe** als Namen ein, und klicken Sie dann auf **"Weiter".** Diese Einstellung weist die Richtlinie an, nur den übereinstimmenden Datenverkehr vom Skype for Business-Client zu priorisieren.
+7.  Wählen Sie auf der nächsten Seite **"Nur Anwendungen mit diesem ausführbaren Namen"** aus, geben **SieLync.exe** als Namen ein, und klicken Sie dann auf **"Weiter".** Diese Einstellung weist die Richtlinie an, nur übereinstimmenden Datenverkehr vom Skype for Business-Client zu priorisieren.
 
 8.  Stellen Sie auf der dritten Seite sicher, dass sowohl **eine Beliebige Quell-IP-Adresse** als auch **eine beliebige Ziel-IP-Adresse** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Durch diese beiden Einstellungen wird sichergestellt, dass Pakete unabhängig davon verwaltet werden, welcher Computer (IP-Adresse) diese Pakete gesendet hat und welcher Computer (IP-Adresse) sie empfangen wird.
 
@@ -259,6 +259,6 @@ Wenn Sie DSCP-Werte für alle Netzwerkadapter auf einem Computer markieren möch
 
 Nach dem Erstellen und Konfigurieren des neuen Registrierungswerts müssen Sie ihren Computer neu starten, damit die Änderungen wirksam werden.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Erstellen eines Gruppenrichtlinienobjekts in Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

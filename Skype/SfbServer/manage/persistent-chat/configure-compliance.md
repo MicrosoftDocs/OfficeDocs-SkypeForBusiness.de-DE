@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 1/31/2018
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Zusammenfassung: Erfahren Sie, wie Sie den Kompatibilitätsdienst für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: 50650c8f5c63d8d407a0660c24e82aab577e5817
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602520"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778315"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 
@@ -67,7 +67,7 @@ Sie können die folgenden Parameter festlegen:
 
 - AddUserDetails : Wenn dieser Parameter aktiviert ist, werden zusätzliche Details zu jedem Chatroombenutzer in der Datenbank aufgezeichnet. Da diese Einstellung die Größe der Datenbank erheblich erhöhen kann, ist sie standardmäßig deaktiviert.
 
-- Identität : Dieser Parameter ermöglicht es, Complianceeinstellungen auf eine bestimmte Sammlung, einschließlich der globalen, Website- und Serviceebenen, zu beschränken. Der Standardwert ist die globale Ebene. 
+- Identität: Dieser Parameter ermöglicht es, Complianceeinstellungen auf eine bestimmte Sammlung, einschließlich der globalen, Website- und Serviceebenen, zu beschränken. Der Standardwert ist die globale Ebene. 
 
 - RunInterval : Dieser Parameter bestimmt die Zeitspanne, bis der Server die nächste Konformitätsausgabedatei erstellt (der Standardwert ist 15 Minuten).
 
@@ -150,7 +150,7 @@ Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "i
 |:-----|:-----|:-----|
 |Benutzername  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
 |ID  <br/> |Die eindeutige ID des Absenders.  <br/> |Erforderlich  <br/> |
-|E-Mail senden  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
+|E-Mail  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
 |Uri  <br/> |Der SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
 

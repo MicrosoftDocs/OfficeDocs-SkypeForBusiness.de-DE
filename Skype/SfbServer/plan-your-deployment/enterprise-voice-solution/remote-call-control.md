@@ -1,7 +1,7 @@
 ---
 title: Planen der Remoteanrufsteuerung in Skype for Business
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 688a0328-1aa7-449f-b5f7-98c876112ed2
-description: Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt. In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.
-ms.openlocfilehash: de06005cb26e163a6f7f26c64e6863b6e6f4acbb
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Anruf über Arbeit" ersetzt. In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.
+ms.openlocfilehash: 23d8f25f4a416c10bf4fd186db68a729703891ca
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60015289"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746741"
 ---
 # <a name="plan-for-remote-call-control-in-skype-for-business"></a>Planen der Remoteanrufsteuerung in Skype for Business
  
-Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Über Arbeit anrufen" ersetzt.  *In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.* 
+Die Remoteanrufsteuerung war in früheren Versionen von Lync Server ein Feature, mit dem Benutzer ihre Nebenstellenanlagentelefone mit Lync Server steuern konnten. In Skype for Business Server wurde dieses Feature durch "Anruf über Arbeit" ersetzt.  *In den Clientversionen für Skype for Business Server 2015 und in Zukunft ist die Remoteanrufsteuerung im Client nicht mehr verfügbar und wurde zur Verwendung entfernt.* 
   
  Benutzer der Remoteanrufsteuerung in Ihrer Organisation, die auf Front-End-Servern mit Lync Server verwaltet werden, können weiterhin die Remoteanrufsteuerung verwenden, auch wenn sie einen Skype for Business-Client verwenden. Für Benutzer, die auf Skype for Business Server verwaltet werden, wird die Remoteanrufsteuerung jedoch nicht unterstützt. In der folgenden Tabelle finden Sie Server-/Clientkombinationen und informationen dazu, ob sie die Remoteanrufsteuerung oder "Anruf über Arbeit" unterstützen können.
   

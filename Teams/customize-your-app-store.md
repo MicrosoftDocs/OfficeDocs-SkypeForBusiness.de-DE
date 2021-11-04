@@ -1,7 +1,7 @@
 ---
 title: Store für benutzerdefinierte Apps
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über den Store für benutzerdefinierte Apps in Microsoft Teams.
-ms.openlocfilehash: 06663505a173d7fa1a5d53957fbf2df8fdd232d0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58728904"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60741661"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Store für benutzerdefinierte Apps in Microsoft Teams
 
@@ -44,7 +44,7 @@ In diesem Artikel werden die Store-Features von benutzerdefinierten Apps und der
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Hier können Sie Ihr Organisationslogo hochladen. Das ausgewählte Logo wird auf dem Teams in **"Apps,**  >  **die für Ihren Mandanten erstellt wurden"** angezeigt.
+Hier können Sie Ihr Organisationslogo hochladen. Das ausgewählte Logo wird auf dem Teams in **"Apps,**  >  **die für Ihren Mandanten erstellt wurden" angezeigt.**
 
 Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 240 x 60 Groß sein, oder es wird auf diese Größe skaliert. Er sollte nicht größer als 5 MB sein. Die unterstützten Formate sind:
 
@@ -60,7 +60,7 @@ Das Logo wird in der oberen rechten Ecke des Mandanten-App-Katalogs im Teams ang
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Das Logo Ihrer Organisation oder ein kleines Logo ist ein Bild oder Symbol, das Ihre Organisationsmarke darstellt und Ihren Firmennamen nicht enthält. Die Lovemark hilft Teammitgliedern, den App-Store zu identifizieren. Das ausgewählte Logo wird auf der Seite "Teams"-Client angezeigt.
+Das Logo Ihrer Organisation oder ein kleines Logo ist ein Bild oder Symbol, das Ihre Organisationsmarke darstellt und Ihren Firmennamen nicht enthält. Die Lovemark hilft Teammitgliedern, den App-Store zu identifizieren. Das ausgewählte Logo wird im Teams auf der Seite "Apps" angezeigt.
 
 Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 32 x 32 Pixel groß sein, oder es wird auf diese Größe skaliert. Er sollte nicht größer als 5 MB sein. Die unterstützten Formate sind:
 
@@ -68,7 +68,7 @@ Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die D
 - .png
 - .jpg
 
-Das kleine Logo wird neben dem Abschnittstitel Für Mandanten **erstellt** auf der Startseite des Teams Store angezeigt.
+Das kleine Logo wird  neben dem Abschnittstitel Für Mandanten erstellt auf der Startseite des Teams Store angezeigt.
 
 ## <a name="customize-the-background-color"></a>Anpassen der Hintergrundfarbe
 
@@ -76,7 +76,7 @@ Das kleine Logo wird neben dem Abschnittstitel Für Mandanten **erstellt** auf d
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Stellen Sie sicher, dass der Hintergrund genügend Kontrast zum Text hat, damit die Benutzer den Text deutlich lesen können. Der Hintergrund wird im Teams-Client in **apps**  >  **built for your tenant header** angezeigt.
+Stellen Sie sicher, dass der Hintergrund genügend Kontrast zum Text hat, damit die Benutzer den Text deutlich lesen können. Der Hintergrund wird im Client Teams in **Apps angezeigt,**  >  **die für Ihren Mandantenkopf erstellt** wurden.
 
 Sie haben nun die folgenden Optionen:
 
@@ -109,7 +109,7 @@ Wenn Sie eine Vorschau Ihrer Änderungen anzeigen möchten, wählen Sie **App St
 ![Vorschau auf den Store für benutzerdefinierte Apps.](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> Die Darstellung kann sich von der endgültigen Version Des Store für angepasste Apps unterscheiden, da einige Standardfarben auf der Version ihres Teams basieren.
+> Die Darstellung kann sich von der endgültigen Version Ihres angepassten App-Store unterscheiden, da einige Standardfarben auf der Version Ihres Teams basieren.
 
 ## <a name="related-article"></a>Verwandter Artikel
 

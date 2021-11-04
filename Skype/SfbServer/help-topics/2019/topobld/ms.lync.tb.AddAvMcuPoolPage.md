@@ -1,7 +1,7 @@
 ---
 title: Hinzufügen des A/V-MCU-Pools
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Alle Enterprise Edition Front-End-Server eines zentralen Standorts, die nicht über einen verbundenen A/V-Konferenzdienst verfügen, können den gleichen eigenständigen A/V-Konferenzpool verwenden. Für jeden A/V-Konferenzpool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob er nur über einen einzelnen A/V-Konferenzserver oder mehrere A/V-Konferenzserver mit Lastenausgleich verfügt.
-ms.openlocfilehash: 114d67f6643fe2629cf3a6c1a72daa70eb2db65f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7957b965caff74c2c7489d3053f8c302b94e3286
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626867"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60738331"
 ---
 # <a name="add-av-mcu-pool"></a>Hinzufügen des A/V-MCU-Pools
  

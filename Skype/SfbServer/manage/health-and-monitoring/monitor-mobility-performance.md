@@ -1,7 +1,7 @@
 ---
 title: Überwachen der Mobilität auf Leistung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Zusammenfassung: Erfahren Sie mehr über den Mobilitätsdienst (Mcx) und die Unified Communications-Web-API (UCWA) in Skype for Business Server.'
-ms.openlocfilehash: 556e50a162e455b1d0805c55fa34cb8f4de1603e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 5f8adbbdc653d8cdf2e19ce3f82fc4fdb0383505
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598889"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746921"
 ---
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Überwachen der Mobilität auf Leistung in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Mobilitätsdienst (Mcx) und die Unified Communications-Web-API (UCWA) in Skype for Business Server.
   
-Der Skype for Business Server Mobility Service (Mcx) und die Unified Communications Web API (UCWA) erhöhen die Last auf Front-End-Servern und Front-End-Pools. Mobile Geräte, die eine Verbindung mit dem Server auch dann aufrechterhalten, wenn die mobile Anwendung minimiert wird, z. B. Android- und Nokia-Geräte mit Lync 2010 Mobile sowie Android- und Apple-Geräte mit Lync 2013 Mobile, führen zu einer höheren Last als Geräte, die ihre Verbindung mit dem Server beenden, wenn die mobile Anwendung minimiert wird. Wenn Ihre Mobilitätsnutzung zunimmt, müssen Sie die Mobilitätsleistung überwachen, um zu bestimmen, wann Sie Ihre Kapazität erhöhen müssen.
+Der Skype for Business Server Mobility Service (Mcx) und die Unified Communications Web API (UCWA) erhöhen die Last auf Front-End-Servern und Front-End-Pools. Mobile Geräte, die eine Verbindung mit dem Server aufrechterhalten, auch wenn die mobile Anwendung minimiert wird, z. B. Android- und Nokia-Geräte mit Lync 2010 Mobile sowie Android- und Apple-Geräte mit Lync 2013 Mobile, führen zu einer höheren Last als Geräte, die ihre Verbindung mit dem Server beenden, wenn die mobile Anwendung minimiert wird. Wenn Ihre Mobilitätsnutzung zunimmt, müssen Sie die Mobilitätsleistung überwachen, um zu bestimmen, wann Sie Ihre Kapazität erhöhen müssen.
 
 > [!NOTE]
 > McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
@@ -44,7 +44,7 @@ Weitere Grenzwerte für Server, die die Mobilitätsleistung beeinflussen können
 
 - [Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server](server-memory-capacity-limits.md)
     
-- [Überwachen der Mobilitätsdienste- und UCWA-Nutzung in Skype for Business Server](service-and-ucwa-usage.md)
+- [Überwachen der Mobilitätsdienst- und UCWA-Nutzung in Skype for Business Server](service-and-ucwa-usage.md)
     
 - [Konfigurieren des Mobilitätsdiensts für hohe Leistung in Skype for Business Server](configure-service.md)
     

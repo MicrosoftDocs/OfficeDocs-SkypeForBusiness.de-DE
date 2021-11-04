@@ -5,7 +5,7 @@ ms:assetid: 6f0ae442-6624-4e3f-849a-5b9e387fb8cf
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Edgeserver konfigurieren und wie Sie eine Quality of Service-Richtlinie für Ihre A/V-Edgeserver konfigurieren.
-ms.openlocfilehash: 9e9ec2e3f6aff938866655f3534b2a45ab77f726
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1f455ab417ed111a34134e3581806b4ce2a4bd57
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634279"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778305"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver in Skype for Business Server
 
@@ -68,7 +68,7 @@ Angenommen, Sie haben Ihre Konferenz-, Anwendungs- und Vermittlungsserver so kon
 </table>
 
 
-Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe an Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ausführen:
+Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ausführen:
 
   **Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 
@@ -76,7 +76,7 @@ Oder führen Sie den folgenden Befehl aus, um alle Edgeserver in Ihrer Organisat
 
   **Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_. Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}**
 
-Sie können die aktuellen Porteinstellungen für Ihre Edgeserver überprüfen, indem Sie den folgenden Befehl Skype for Business Server Verwaltungsshell verwenden:
+Sie können die aktuellen Porteinstellungen für Ihre Edgeserver mithilfe des folgenden Befehls Skype for Business Server Verwaltungsshell überprüfen:
 
   **Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount**
 
@@ -106,7 +106,7 @@ Ab diesem Schritt sind die Vorgehensweisen beim Erstellen einer Active Directory
 
 1.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor oder im Editor für lokale Gruppenrichtlinien **Computerkonfiguration**, **Richtlinien** und **Windows-Einstellungen**, klicken Sie mit der rechten Maustaste auf **Richtlinienbasierter QoS**, und klicken Sie dann auf **Neue Richtlinie erstellen**.
 
-2.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der startseite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server Audio)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
+2.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie (z. **B. Skype for Business Server Audio)** in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
 3.  Stellen Sie auf der nächsten Seite sicher, dass **alle Anwendungen** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Durch diese Einstellung wird das Netzwerk angewiesen, nach allen Paketen mit der DSCP-Markierung 46 zu suchen, anstatt nur nach von einer bestimmten Anwendung erstellten Paketen.
 

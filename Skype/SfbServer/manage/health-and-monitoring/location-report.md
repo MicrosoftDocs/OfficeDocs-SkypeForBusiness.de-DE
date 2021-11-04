@@ -1,7 +1,7 @@
 ---
 title: Standortbericht in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Zusammenfassung: Erfahren Sie mehr über den Standortbericht in Skype for Business Server.'
-ms.openlocfilehash: 0d8062f45bd566491af12a299be0c8e0c51f4cde
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 25ae04e604ccfb5f423e3d066585c85fb07c742b
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58580579"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740511"
 ---
 # <a name="location-report-in-skype-for-business-server"></a>Standortbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Standortbericht in Skype for Business Server.
   
-Der Standortbericht enthält Informationen zu Den Anrufqualitätsmetriken, die nach Netzwerkstandort (d. a. nach Netzwerksubnetz) gruppiert sind. Wenn bei Ihren Benutzern Probleme mit ihren Anrufen auftreten, können Sie anhand dieses Berichts ermitteln, ob diese Probleme weit verbreitet sind oder ob sie größtenteils auf ein bestimmtes Netzwerksegment beschränkt sind.
+Der Standortbericht enthält Informationen zu Anrufqualitätsmetriken, die nach Netzwerkstandort (d. a. nach Netzwerksubnetz) gruppiert sind. Wenn bei Ihren Benutzern Probleme mit ihren Anrufen auftreten, können Sie anhand dieses Berichts ermitteln, ob diese Probleme weit verbreitet sind oder ob sie größtenteils auf ein bestimmtes Netzwerksegment beschränkt sind.
   
 ## <a name="accessing-the-location-report"></a>Zugreifen auf den Standortbericht
 
@@ -44,7 +44,7 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Standortbe
 |**Name**|**Beschreibung**|
 |:-----|:-----|
 |**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Ziel** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
+|**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Standort des Anrufers** <br/> |IP-Subnetz des Benutzers, der den Anruf getätigt hat. Sie können nur **[Alle]** auswählen, um alle Subnetze anzugeben. <br/> |
 |**Standort des Angerufenen** <br/> |IP-Subnetz des Benutzers, der den Anruf empfangen hat. Sie können nur **[Alle]** auswählen, um alle Subnetze anzugeben. <br/> |
 |**Netzwerktyp** <br/> | Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Wired <br/>  Wireless <br/> |
@@ -52,7 +52,7 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Standortbe
    
 ## <a name="metrics"></a>Metriken
 
-In der folgenden Tabelle sind die Im Standortbericht enthaltenen Informationen aufgeführt.
+In der folgenden Tabelle sind die Informationen aufgeführt, die im Standortbericht angegeben sind.
   
 **Standortberichtsmetriken**
 

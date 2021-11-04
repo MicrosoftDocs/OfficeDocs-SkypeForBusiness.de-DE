@@ -1,7 +1,7 @@
 ---
 title: Benutzer zeigen VoIP-Richtlinie an
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f259a753-cfdc-4fa7-ba35-6fb812e1552a
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 64382af1fc4bf4754881d417dba05a2dfc27705e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7f75378952d5042533331b4a908799431d19563c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599303"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752664"
 ---
 # <a name="users-view-voice-policy"></a>Benutzer: Anzeigen einer VoIP-Richtlinie
 

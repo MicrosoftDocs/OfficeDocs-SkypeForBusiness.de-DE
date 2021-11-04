@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren von Testbenutzern und Einstellungen für Watcher-Knoten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 2/13/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ab2e0d93-cf52-4a4e-b5a4-fd545df7a1a9
 description: Konfigurieren von Testbenutzerkonten und Watcher-Knoteneinstellungen für Skype for Business Server synthetische Transaktionen.
-ms.openlocfilehash: 7e7c318f6e9176c46a7dbbab6c8d1833f74911e9
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d80e939132c609f9ed6f505a4f759f3fc2c46e07
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58599940"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759647"
 ---
 # <a name="how-to-configure-watcher-node-test-users-and-settings"></a>Konfigurieren von Testbenutzern und Einstellungen für Watcher-Knoten
  
@@ -76,7 +76,7 @@ New-CsWatcherNodeConfiguration -UseAutoDiscovery $true -TargetFqdn "atl-cs-001.l
 
 ### <a name="configuring-extended-tests"></a>Konfigurieren erweiterter Tests
 
-Wenn Sie den PSTN-Test aktivieren möchten, der die Konnektivität mit dem Telefonfestnetz überprüft, müssen Sie beim Einrichten des Monitorknotens eine zusätzliche Konfiguration durchführen. Zunächst müssen Sie die Testbenutzer dem PSTN-Testtyp zuordnen, indem Sie einen Befehl wie den folgenden aus der Skype for Business Server Verwaltungsshell ausführen:
+Wenn Sie den PSTN-Test aktivieren möchten, der die Konnektivität mit dem Telefonfestnetz überprüft, müssen Sie beim Einrichten des Monitorknotens eine zusätzliche Konfiguration durchführen. Zunächst müssen Sie die Testbenutzer dem PSTN-Testtyp zuordnen, indem Sie einen Befehl wie den folgenden in der Skype for Business Server Verwaltungsshell ausführen:
   
 ```PowerShell
 $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:watcher2@litwareinc.com" -Name "Contoso Provider Test" -TestType PSTN
@@ -85,7 +85,7 @@ $pstnTest = New-CsExtendedTest -TestUsers "sip:watcher1@litwareinc.com", "sip:wa
 > [!NOTE]
 > Die Ergebnisse dieses Befehls müssen in einer Variablen gespeichert werden. In diesem Beispiel heißt die Variable $pstnTest. 
   
-Als Nächstes können Sie das Cmdlet **"New-CsWatcherNodeConfiguration"** verwenden, um den Testtyp (in der Variablen $pstnTest gespeichert) einem Skype for Business Server Pool zuzuordnen. Mit dem folgenden Befehl wird beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool atl-cs-001.litwareinc.com erstellt, die beiden zuvor erstellten Testbenutzer hinzugefügt und der PSTN-Testtyp hinzugefügt:
+Als Nächstes können Sie das Cmdlet **"New-CsWatcherNodeConfiguration"** verwenden, um den (in der Variablen $pstnTest gespeicherten) Testtyp einem Skype for Business Server Pool zuzuordnen. Der folgende Befehl erstellt beispielsweise eine neue Watcher-Knotenkonfiguration für den Pool atl-cs-001.litwareinc.com, fügt die beiden zuvor erstellten Testbenutzer hinzu und fügt den PSTN-Testtyp hinzu:
   
 ```PowerShell
 New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumber 5061 -TestUsers @{Add= "sip:watcher1@litwareinc.com","sip:watcher2@litwareinc.com"} -ExtendedTests @{Add=$pstnTest}
@@ -93,7 +93,7 @@ New-CsWatcherNodeConfiguration -TargetFqdn "atl-cs-001.litwareinc.com" -PortNumb
 
 Der vorstehende Befehl schlägt fehl, wenn Sie die Skype for Business Server Kerndateien und die RTCLocal-Datenbank nicht auf dem Monitorknotencomputer installiert haben. 
   
-Um mehrere VoIP-Richtlinien zu testen, können Sie mit dem Cmdlet **"New-CsExtendedTest"** einen erweiterten Test für jede Richtlinie erstellen. Die bereitgestellten Benutzer sollten mit den gewünschten VoIP-Richtlinien konfiguriert werden. Die erweiterten Tests werden mithilfe von Kommatrennzeichen an das Cmdlet **New-CsWatcherNodeConfiguration** übergeben, z. B.:
+Um mehrere VoIP-Richtlinien zu testen, können Sie mit dem Cmdlet **"New-CsExtendedTest"** einen erweiterten Test für jede Richtlinie erstellen. Die bereitgestellten Benutzer sollten mit den gewünschten VoIP-Richtlinien konfiguriert werden. Die erweiterten Tests werden mithilfe von Kommatrennzeichen an das Cmdlet **"New-CsWatcherNodeConfiguration"** übergeben, z. B.:
   
 -ExtendedTests @{Add=$pstnTest 1,$pstnTest 2,$pstnTest 3}
   
@@ -232,7 +232,7 @@ Mit diesem Befehl werden die einzelnen Watcher-Knoten in Ihrer Bereitstellung ge
 
 Zusätzlich zum Ändern der synthetischen Transaktionen, die auf einem Watcher-Knoten ausgeführt werden, können Sie auch das Cmdlet **"Set-CsWatcherNodeConfiguration"** verwenden, um zwei weitere wichtige Aufgaben auszuführen: Aktivieren und Deaktivieren des Watcher-Knotens und Konfigurieren des Watcher-Knotens, um interne Web-URLs oder externe Web-URLs beim Ausführen der Tests zu verwenden.
   
-In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus. Manchmal möchten Sie diese Transaktionen jedoch möglicherweise aussetzen. Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden. Ohne Netzwerkkonnektivität schlagen diese Transaktionen fehl. Um einen Watcher-Knoten vorübergehend zu deaktivieren, führen Sie in der Skype for Business Server Verwaltungsshell einen Befehl aus, der dem folgenden ähnelt:
+In der Standardeinstellung führen Watcher-Knoten in regelmäßigen Abständen alle für sie aktivierten synthetischen Transaktionen aus. Manchmal möchten Sie diese Transaktionen jedoch möglicherweise aussetzen. Wenn der Watcher-Knoten zum Beispiel vorübergehend vom Netzwerk getrennt ist, liegt kein Grund vor, dass die synthetischen Transaktionen ausgeführt werden. Ohne Netzwerkkonnektivität schlagen diese Transaktionen fehl. Um einen Watcher-Knoten vorübergehend zu deaktivieren, führen Sie einen Befehl wie den folgenden aus der Skype for Business Server Verwaltungsshell aus:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity "atl-watcher-001.litwareinc.com" -Enabled $False
@@ -272,7 +272,7 @@ Die meisten synthetischen Transaktionen können auf einem Monitorknoten wie bese
   
 ### <a name="data-conferencing-synthetic-transaction"></a>Synthetische Transaktion für Datenkonferenzen
 
-Wenn sich ihr Monitorknotencomputer außerhalb Ihres Umkreisnetzwerks befindet, können Sie die synthetische Transaktion für Datenkonferenzen wahrscheinlich erst ausführen, wenn Sie zuerst die Windows Internet Explorer deaktivieren® Proxyeinstellungen für den Internetbrowser für das Netzwerkdienstkonto, indem Sie die folgenden Schritte ausführen:
+Wenn sich ihr Monitorknotencomputer außerhalb Ihres Umkreisnetzwerks befindet, können Sie wahrscheinlich die synthetische Transaktion für Datenkonferenzen nur dann ausführen, wenn Sie zuerst die Windows Internet Explorer deaktivieren® Proxyeinstellungen für den Internetbrowser für das Netzwerkdienstkonto, indem Sie die folgenden Schritte ausführen:
   
 1. Klicken Sie auf dem Computer mit den Watcher-Knoten auf **Start**, **Alle Programme**, **Zubehör**, klicken Sie mit der rechten Maustaste auf **Eingabeaufforderung**, und klicken Sie dann auf **Als Administrator ausführen**.
     
@@ -335,11 +335,11 @@ Zum Ausführen dieser synthetischen Transaktion müssen Sie Folgendes konfigurie
     
 ### <a name="unified-contact-store-synthetic-transaction"></a>Unified Contact Store Synthetic Transaction
 
-Der einheitliche Kontakt Store synthetische Transaktion überprüft die Fähigkeit von Skype for Business Server, Kontakte im Namen eines Benutzers aus Exchange abzurufen.
+The Unified Contact Store synthetic transaction verifies the ability of Skype for Business Server to retrieve contacts on behalf of a user from Exchange.
   
 Für die Verwendung dieser synthetischen Transaktionen müssen die folgenden Bedingungen erfüllt sein:
   
-- Lyss-Exchange Server-zu-Server-Authentifizierung muss konfiguriert werden.
+- Lyss-Exchange Server-zu-Server-Authentifizierung muss konfiguriert sein.
     
 - Testbenutzer müssen über ein gültiges Exchange Postfach verfügen.
     
@@ -361,7 +361,7 @@ Diese Befehlszeile ist nach Abschluss der Migration erfolgreich.
 
 Für die synthetische Transaktion im Extensible Messaging and Presence Protocol (XMPP) müssen Sie das XMPP-Feature mit einer oder mehreren Verbunddomänen konfigurieren.
   
-Um die synthetische XMPP-Transaktion zu aktivieren, müssen Sie einen XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitstellen. Zum Beispiel:
+Um die synthetische XMPP-Transaktion zu aktivieren, müssen Sie einen XmppTestReceiverMailAddress-Parameter mit einem Benutzerkonto in einer routingfähigen XMPP-Domäne bereitstellen. Beispiel:
   
 ```PowerShell
 Set-CsWatcherNodeConfiguration -Identity pool0.contoso.com -Tests @{Add="XmppIM"} -XmppTestReceiverMailAddress user1@litwareinc.com
@@ -374,9 +374,9 @@ In diesem Beispiel muss eine Skype for Business Server Regel vorhanden sein, um 
   
 ### <a name="video-interop-server-vis-synthetic-transaction"></a>Synthetische Transaktion des Video-Interoperabilität-Servers (VIS)
 
-Für die synthetische Transaktion des Video-Interoperabilität-Servers (VIS) müssen Sie die Unterstützungsdateien für synthetische Transaktionen herunterladen und installieren ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
+Die synthetische Transaktion des Video-Interoperabilität-Servers (VIS) erfordert, dass Sie die Supportdateien für synthetische Transaktionen herunterladen und installieren ([VISSTSupportPackage.msi](https://www.microsoft.com/download/details.aspx?id=46921)). 
   
-Um VISSTSupportPackage.msi sicherzustellen, dass die Abhängigkeiten (unter "Systemanforderungen") für die MSI-Datei bereits installiert sind. Führen Sie VISSTSupportPackage.msi aus, um eine einfache Installation durchzuführen. Das .msi installiert alle Dateien unter dem folgenden Pfad: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
+Um VISSTSupportPackage.msi sicherzustellen, dass die Abhängigkeiten (unter Systemanforderungen) für die MSI-Datei bereits installiert sind. Führen Sie VISSTSupportPackage.msi aus, um eine einfache Installation durchzuführen. Das .msi installiert alle Dateien im folgenden Pfad: "%ProgramFiles%\VIS Synthetic Transaction Support Package".
   
 Weitere Informationen zum Ausführen der synthetischen VIS-Transaktion finden Sie in der Dokumentation für das Cmdlet [Test-CsP2PVideoInteropServerSipTrunkAV.](/powershell/module/skype/Test-CsP2PVideoInteropServerSipTrunkAV)
   
@@ -410,7 +410,7 @@ Aus diesem Grund bieten synthetische Transaktionen umfassende Protokollierung. M
     
 - Der Zeitpunkt, zu dem die Aktivität abgeschlossen wurde.
     
-- Die ausgeführte Aktion (z. B. Erstellen, Beitreten zu einer Konferenz oder Verlassen einer Konferenz, Anmelden bei Skype for Business Server; Senden einer Chatnachricht).
+- Die ausgeführte Aktion (z. B. Erstellen, Beitreten zu einer Konferenz oder Verlassen einer Konferenz, Anmelden bei Skype for Business Server, Senden einer Chatnachricht).
     
 - Informations-, ausführliche, Warnungs- oder Fehlermeldungen, die beim Ausführen der Aktivität generiert wurden.
     

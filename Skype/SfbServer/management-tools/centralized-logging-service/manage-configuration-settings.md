@@ -1,7 +1,7 @@
 ---
 title: Verwalten der Konfigurationseinstellungen des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 8/17/2015
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93b9a354-9aea-4b3a-a4fe-68a89f436196
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015 abrufen, aktualisieren und erstellen.'
-ms.openlocfilehash: 8b2809fd9b91859d0e32e9dfaf0ddb8cbebe7a53
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: a6225af25abc2db0375e7ca93ae22c342a1ec498
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628597"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778165"
 ---
 # <a name="manage-centralized-logging-service-configuration-settings-in-skype-for-business-server-2015"></a>Verwalten der Konfigurationseinstellungen des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015
 
@@ -28,13 +28,13 @@ ms.locfileid: "58628597"
 Der zentralisierte Protokollierungsdienst wird durch Einstellungen und Parameter gesteuert und konfiguriert, die vom zentralisierten Protokollierungsdienstcontroller (CENTRALIZED Logging Service Controller, CLSController) erstellt und verwendet werden, um Befehle an den zentralisierten Protokollierungsdienst-Agent (CENTRALIZED Logging Service Agent, CLSAgent) des einzelnen Computers zu senden. Der Agent verarbeitet die Befehle, die an ihn gesendet werden, und verwendet (im Falle eines Startbefehls) die Konfiguration der Szenarien, Anbieter, Ablaufverfolgungsdauer und Flags, um mit der Erfassung von Ablaufverfolgungsprotokollen gemäß den bereitgestellten Konfigurationsinformationen zu beginnen.
 
 > [!IMPORTANT]
->  Nicht alle für den zentralisierten Protokollierungsdienst aufgeführten cmdlets Windows PowerShell sind für die Verwendung mit Skype for Business Server lokalen Bereitstellungen 2015 vorgesehen. Obwohl sie scheinbar funktionieren, sind die folgenden Cmdlets nicht für die Funktion mit Skype for Business Server lokalen Bereitstellungen 2015 ausgelegt:
+>  Nicht alle für den zentralisierten Protokollierungsdienst aufgeführten cmdlets Windows PowerShell sind für die Verwendung mit Skype for Business Server lokalen Bereitstellungen 2015 vorgesehen. Obwohl sie scheinbar funktionieren, sind die folgenden Cmdlets nicht für die Verwendung mit lokalen Bereitstellungen Skype for Business Server 2015 ausgelegt:
 
 -  **CsClsRegion-Cmdlets:** [Get-CsClsRegion](/powershell/module/skype/get-csclsregion?view=skype-ps) ,[Set-CsClsRegion](/powershell/module/skype/set-csclsregion?view=skype-ps), [New-CsClsRegion](/powershell/module/skype/new-csclsregion?view=skype-ps)und [Remove-CsClsRegion](/powershell/module/skype/remove-csclsregion?view=skype-ps).
 -  **CsClsSearchTerm-Cmdlets:** [Get-CsClsSearchTerm](/powershell/module/skype/get-csclssearchterm?view=skype-ps) und [Set-CsClsSearchTerm](/powershell/module/skype/set-csclssearchterm?view=skype-ps).
 -  **CsClsSecurityGroup-Cmdlets:** [Get-CsClsSecurityGroup](/powershell/module/skype/get-csclssecuritygroup?view=skype-ps), [Set-CsClsSecurityGroup](/powershell/module/skype/set-csclssecuritygroup?view=skype-ps),  [New-CsClsSecurityGroup](/powershell/module/skype/new-csclssecuritygroup?view=skype-ps)und [Remove-CsClsSecurityGroup](/powershell/module/skype/remove-csclssecuritygroup?view=skype-ps).
 
-Die in diesen Cmdlets definierten Einstellungen behindern oder verursachen keine negativen Verhaltensweisen, sind jedoch für die Verwendung mit Microsoft 365 oder Office 365 vorgesehen und liefern nicht die erwarteten Ergebnisse in lokalen Bereitstellungen. Dies bedeutet nicht, dass diese Cmdlets in lokalen Bereitstellungen nicht verwendet werden, aber ihre Verwendung ist ein fortgeschrittenes Thema, das in dieser Dokumentation nicht behandelt wird.
+Die in diesen Cmdlets definierten Einstellungen behindern oder verursachen keine negativen Verhaltensweisen, sind jedoch für die Verwendung mit Microsoft 365 oder Office 365 vorgesehen und liefern in lokalen Bereitstellungen nicht die erwarteten Ergebnisse. Dies bedeutet nicht, dass diese Cmdlets in lokalen Bereitstellungen nicht verwendet werden, aber ihre Verwendung ist ein fortgeschrittenes Thema, das in dieser Dokumentation nicht behandelt wird.
 
 Der zentralisierte Protokollierungsdienst kann in einem Bereich ausgeführt werden, der einen einzelnen Computer oder einen Pool von Computern, einen Standortbereich (d. a. einen definierten Standort wie den Standort Redmond mit einer Sammlung von Computern und Pools in Ihrer Bereitstellung) oder einen globalen Bereich (d. b. alle Computer und Pools in Ihrer Bereitstellung) umfasst.
 
@@ -44,7 +44,7 @@ Um den Bereich des zentralisierten Protokollierungsdiensts mithilfe der Skype fo
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "<Skype for Business cmdlet>"}
 ```
 
-Zum Beispiel:
+Beispiel:
 
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
@@ -61,7 +61,7 @@ Ein einzelner Computerbereich kann während der Ausführung des [Befehls "Search
 Standort- und globale Bereiche werden in den Cmdlets **"New-,** **Set-** und **Remove-** Centralized Logging Service" definiert. Die folgenden Beispiele zeigen, wie ein Standortbereich und ein globaler Bereich festgelegt werden.
 
 > [!IMPORTANT]
-> Die angezeigten Befehle können Parameter und Konzepte enthalten, die in anderen Abschnitten behandelt werden. Die Beispielbefehle sollen die Verwendung des Parameters **"-Identity"** zum Definieren des Bereichs veranschaulichen, und die anderen Parameter sind aus Gründen der Vollständigkeit und zum Angeben des Bereichs enthalten. Ausführliche Informationen zu den **Cmdlets "Set-CsClsConfiguration"** finden Sie in der Betriebsdokumentation unter ["Set-CsClsConfiguration".](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
+> Die angezeigten Befehle können Parameter und Konzepte enthalten, die in anderen Abschnitten behandelt werden. Die Beispielbefehle sollen die Verwendung des Parameters **"-Identity"** zum Definieren des Bereichs demonstrieren, und die anderen Parameter sind aus Gründen der Vollständigkeit und zum Angeben des Bereichs enthalten. Ausführliche Informationen zu den **Cmdlets "Set-CsClsConfiguration"** finden Sie in der Betriebsdokumentation unter ["Set-CsClsConfiguration".](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 
 ### <a name="to-retrieve-the-current-centralized-logging-service-configuration"></a>So rufen Sie die aktuelle Konfiguration des zentralisierten Protokollierungsdiensts ab
 
@@ -153,7 +153,7 @@ Der Befehl teilt dem CLSAgent auf allen Computern und in allen Pools am Standort
    ```
 
     > [!NOTE]
-    > "New-CsClsConfiguration" bietet Zugriff auf eine Vielzahl optionaler Konfigurationseinstellungen. Ausführliche Informationen zu den Konfigurationsoptionen finden Sie unter [Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) and [Understanding Centralized Logging Service Configuration Einstellungen.](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings)
+    > "New-CsClsConfiguration" bietet Zugriff auf eine Vielzahl optionaler Konfigurationseinstellungen. Ausführliche Informationen zu den Konfigurationsoptionen finden Sie unter [Get-CsClsConfiguration](/powershell/module/skype/get-csclsconfiguration?view=skype-ps) und [Understanding Centralized Logging Service Configuration Einstellungen.](/previous-versions/office/lync-server-2013/lync-server-2013-understanding-centralized-logging-service-configuration-settings)
 
 Wenn Sie z. B. eine neue Konfiguration erstellen möchten, die einen Netzwerkordner für Cachedateien, den Rollover-Zeitraum für die Protokolldateien und die Rollover-Größe für die Protokolldateien definiert, können Sie folgenden Befehl eingeben:
 
@@ -182,13 +182,13 @@ Um z. B. eine Konfiguration des zentralisierten Protokollierungsdiensts zu entfe
 > Dies ist die neue Konfiguration, die im Verfahren "So erstellen Sie eine neue konfiguration des zentralisierten Protokollierungsdiensts" erstellt wurde.
 
 Wenn Sie eine Konfiguration auf Standortebene löschen, verwendet der Standort anschließend die globalen Einstellungen.
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 [Konfigurieren von Anbietern für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015](configure-providers.md)
 
 [Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015](configure-scenarios.md)
 
-[Zentraler Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)
+[Zentralisierter Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)
 
 [Set-CsClsConfiguration](/powershell/module/skype/set-csclsconfiguration?view=skype-ps)
 

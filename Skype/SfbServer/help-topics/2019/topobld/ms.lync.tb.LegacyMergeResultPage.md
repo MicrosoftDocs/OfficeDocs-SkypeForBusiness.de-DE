@@ -1,7 +1,7 @@
 ---
 title: Legacyzusammenführung – Ergebnisse
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0ef58717-a7ce-4451-a6f3-1fe5a850ab31
 ROBOTS: NOINDEX, NOFOLLOW
 description: Klicken Sie auf "Weiter", um mit dem Zusammenführen einer Legacybereitstellung mit Skype for Business Server zu beginnen. Ausführliche Informationen zum Ausführen des Topologie-Generator-Zusammenführungs-Assistenten finden Sie in der Migrationsdokumentation unter Zusammenführen mithilfe des Topologie-Generator-Zusammenführungs-Assistenten.
-ms.openlocfilehash: 11d7662fbdbe5a3a83a78115b3d107aabde766d5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4fc5dc60aee7efb8f8c5ed4c8dab5873252387f3
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636329"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778515"
 ---
 # <a name="legacy-merge-results"></a>Legacyzusammenführung – Ergebnisse
 

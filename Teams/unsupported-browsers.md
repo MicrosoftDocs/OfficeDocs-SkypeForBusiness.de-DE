@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Besprechungen mit nicht unterstützten Browsern
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Teams Audio und Video in nicht unterstützten Browsern funktioniert.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 62ba55bd7a199731956c37e4cd12ff1684c9a9a5
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 213de938360754efd95b5fb460c0cf5a3c735203
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58613434"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740141"
 ---
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams-Besprechungen mit nicht unterstützten Browsern
 

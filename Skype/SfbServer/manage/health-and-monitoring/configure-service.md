@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren des Mobilitätsdiensts für hohe Leistung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c2b8aadb-cffb-49f0-ba7a-e8541a1ff475
 description: 'Zusammenfassung: Erfahren Sie mehr über den Mobilitätsdienst in Skype for Business Server.'
-ms.openlocfilehash: da2685faae6bf44fee212132dba6a0f7e0fe2e76
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ddf976d6adde4a8214a1a7ae1cc40930df421fd6
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58621031"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746987"
 ---
 # <a name="configure-mobility-service-for-high-performance-in-skype-for-business-server"></a>Konfigurieren des Mobilitätsdiensts für hohe Leistung in Skype for Business Server
  
@@ -30,7 +30,7 @@ Wenn Sie den Mobilitätsdienst (Mcx) auf Internetinformationsdienste (IIS) 7.5 i
   
 Hier sind die Leistungseinstellungen:
   
-### <a name="settings-for-mcx-on-iis-75"></a>Einstellungen für Mcx unter IIS 7.5
+### <a name="settings-for-mcx-on-iis-75"></a>Einstellungen für Mcx auf IIS 7.5
 
 1. **maxConcurrentThreadsPerCPU** ist auf null (0) gesetzt.
     

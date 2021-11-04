@@ -1,7 +1,7 @@
 ---
-title: Konfigurieren von Richtlinien für das Skype for Business Server 2015 Stress and Performance Tool
+title: Konfigurieren von Richtlinien für das Stress- und Leistungstool Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 11/11/2015
 manager: serdars
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7e1435e2-d073-4265-8067-ebcb5bf28835
 description: Richtlinienkonfiguration für Skype for Business Server 2015 Stress and Performance Tool.
-ms.openlocfilehash: 9523dff4a2db09b229ef1500e6634674d85c1472
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: ba08b12b94847ac130a5f95770ad9cf4c71e0e8c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611954"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771991"
 ---
-# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Konfigurieren von Richtlinien für das Skype for Business Server 2015 Stress and Performance Tool
+# <a name="configuring-policies-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Konfigurieren von Richtlinien für das Stress- und Leistungstool Skype for Business Server 2015
  
 Richtlinienkonfiguration für Skype for Business Server 2015 Stress and Performance Tool.
   
@@ -50,12 +50,12 @@ Es gibt mehrere Richtlinien und andere Bereiche, die Sie in Skype for Business S
 ## <a name="archiving-policy"></a>Archivierungsrichtlinie
 <a name="ArchivingPolicy"> </a>
 
-Wenn Sie einen Archivierungsserver in Ihrer Skype for Business Server Topologie bereitgestellt haben, können Sie sich das skript ArchivingPolicy.ps1 ansehen. Wenn Sie weitere Unterstützung benötigen, sehen Sie sich die Cmdlets für Archivierungs- und Webkonferenzen an.
+Wenn Sie einen Archivierungsserver in Ihrer Skype for Business Server Topologie bereitgestellt haben, können Sie sich das Skript ArchivingPolicy.ps1 ansehen. Wenn Sie weitere Unterstützung benötigen, sehen Sie sich die Cmdlets für Archivierungs- und Webkonferenzen an.
   
 ## <a name="conferencing-policy"></a>Konferenzrichtlinie
 <a name="ConferencingPolicy"> </a>
 
-Für Konferenzen verfügen wir über das Skript MeetingPolicy.ps1. Wenn Sie weitere Unterstützung benötigen, sehen Sie sich die Webkonferenz-Cmdlets an.
+Für Konferenzen haben wir das Skript MeetingPolicy.ps1. Wenn Sie weitere Unterstützung benötigen, sehen Sie sich die Webkonferenz-Cmdlets an.
   
 ## <a name="contacts-policy"></a>Kontaktrichtlinie
 <a name="ContactsPolicy"> </a>
@@ -86,7 +86,7 @@ Ausführliche Informationen finden Sie in den Enterprise-VoIP Cmdlets.
 ## <a name="conference-attendant-application"></a>Konferenzzentralenanwendung
 <a name="ConfAttendantApp"> </a>
 
-Überprüfen Sie zuerst das skript ConferenceAutoAttendantConfiguration.ps1. Sie sollten die Telefonnummer "ConferencingAutoAttendant" (standardmäßig 1121111111) notieren, damit Sie sie wie unten beschrieben in das LyncPerfTool-Konfigurationstool für die Konfigurationsgenerierung eingeben können:
+Überprüfen Sie zunächst das skript ConferenceAutoAttendantConfiguration.ps1. Sie sollten die Telefonnummer "ConferencingAutoAttendant" (standardmäßig 1121111111) notieren, damit Sie sie wie folgt in das LyncPerfTool-Konfigurationstool für die Konfigurationsgenerierung eingeben können:
   
 ![Die Registerkarte "VoIP-Szenarien" mit konferenzbasierter Ladestufe und Telefonnummer.](../../media/a3ea5fc0-8b3d-4842-b809-f137f470dbdc.png)
   
@@ -113,7 +113,7 @@ Sie müssen die folgenden Schritte ausführen, um Stress- und Leistungstests fü
   
 3. Wenn Sie alles in das UserProvisioningTool eingegeben haben, klicken Sie auf die Schaltfläche **"LIS-Konfigurationsdateien generieren".**
     
-4. Jetzt werden CSV-Dateien für Ports, Subnetze, Switches und WAPs (Wireless Access Points) sowie eine XML-Datei für das Stress and Performance-Tool generiert. Sie können die CSV-Dateien für Eingaben verwenden, wenn Sie den Standortinformationsdienst (LOCATION Information Service, LIS) mit dem Skript LisConfiguration.ps1 konfigurieren. Dazu müssen Sie die Locations0.xml-Datei in den gleichen Ordner wie die ausführbare Datei des Stress and Performance Tools (LyncPerfTool.exe) verschieben. Auf diese Weise können Sie Standortprofilszenarien (Wählplanszenarien) ausführen.
+4. Jetzt werden CSV-Dateien für Ports, Subnetze, Switches und WAPs (Wireless Access Points) sowie eine XML-Datei für das Stress and Performance-Tool generiert. Sie können die CSV-Dateien für Eingaben verwenden, wenn Sie den Standortinformationsdienst (LOCATION Information Service, LIS) mit dem Skript LisConfiguration.ps1 konfigurieren. Dazu müssen Sie die Locations0.xml-Datei in den gleichen Ordner verschieben wie die ausführbare Datei des Stress and Performance Tools (LyncPerfTool.exe). Auf diese Weise können Sie Standortprofilszenarien (Wählplanszenarien) ausführen.
     
 ## <a name="configuring-response-group-application"></a>Konfigurieren der Reaktionsgruppenanwendung
 <a name="ConfigResponseGroupApp"> </a>

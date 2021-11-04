@@ -1,7 +1,7 @@
 ---
 title: Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server erstellen.'
-ms.openlocfilehash: ad1f4fabf172fa5ff693a91e7994916487c322e7
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 03a9194a5b4015d9434641e7946b66c57ff4df77
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58595567"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747151"
 ---
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
@@ -77,7 +77,7 @@ New-CsMeetingConfiguration -Identity "site:Redmond"
 
 Da im vorherigen Befehl keine parameter (außer dem obligatorischen Identity-Parameter) angegeben wurden, verwenden die neuen Besprechungskonfigurationseinstellungen die Standardwerte für alle eigenschaften.
   
-Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Um beispielsweise eine Sammlung von Besprechungskonfigurationseinstellungen zu erstellen, die standardmäßig alle Personen zu einer Besprechung als Referenten zulassen, verwenden Sie einen Befehl wie den folgenden:
+Zum Erstellen von Einstellungen, die verschiedene Eigenschaftswerte verwenden, geben Sie einfach den entsprechenden Parameter und den Parameterwert an. Um beispielsweise eine Sammlung von Besprechungskonfigurationseinstellungen zu erstellen, die standardmäßig alle Personen zu einer Besprechung als Referent zulassen, verwenden Sie einen Befehl wie den folgenden:
   
 ```PowerShell
 New-CsMeetingConfiguration -Identity "site:Redmond" -DesignateAsPresenter "Everyone"

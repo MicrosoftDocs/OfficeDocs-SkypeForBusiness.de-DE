@@ -1,7 +1,7 @@
 ---
 title: SQL-Instanzen – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/25/2015
@@ -14,19 +14,19 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 399dce5b-bd51-4693-89d9-3463c1d73ded
-description: 'In der SQL werden die SQL Server Datenbanken in Ihrer Topologie aufgelistet. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4224b469eb041082550c7a0d588614283b702a30
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: 'Im SQL werden die SQL Server Datenbanken in Ihrer Topologie aufgelistet. Folgende Möglichkeiten stehen zur Verfügung:'
+ms.openlocfilehash: 6651527cd5bfdbca73aec1539d25a0e2194aa01d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602540"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60765633"
 ---
 # <a name="sql-instances-scope-node"></a>SQL-Instanzen – Bereichsknoten
  
-In **der SQL werden** die SQL Server Datenbanken in Ihrer Topologie aufgelistet. Folgende Möglichkeiten stehen zur Verfügung:
+Im **SQL werden** die SQL Server Datenbanken in Ihrer Topologie aufgelistet. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren neuer SQL Store,** mit dem Sie der Topologie eine neue SQL Server Datenbank hinzufügen.
+- **Neuer SQL-Speicher**. Startet den Assistenten zum **Definieren neuer SQL Store,** mit dem Sie der Topologie eine neue SQL Server-Datenbank hinzufügen.
     
 Zusätzlich zu den SQL Server Datenbankoptionen können Sie die folgenden allgemeinen Aufgaben ausführen:
   

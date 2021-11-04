@@ -1,7 +1,7 @@
 ---
 title: Bericht über Benutzeraktivität in Skype for Business Server 25
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Benutzeraktivität in Skype for Business Server.'
-ms.openlocfilehash: d2f303751219c0ba156f45d792196673a4283159
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58617871"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778335"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Bericht über Benutzeraktivität in Skype for Business Server
 
@@ -27,7 +27,7 @@ Der Bericht über Benutzeraktivität stellt eine detaillierte Liste der Peer-zu-
 
 Der Bericht über Benutzeraktivität wird auch als "Helpdesk"-Bericht bezeichnet. Der Grund ist, dass der Bericht häufig vom Helpdeskpersonal verwendet wird, um Sitzungsinformationen für einen bestimmten Benutzer abzurufen. Sie können den Bericht nach Anrufen filtern, die von einem bestimmten Benutzer entgegengenommen oder initiiert wurden, indem Sie einfach den SIP-URI dieses Benutzers in das Feld Präfix des Benutzer-URI eingeben.
 
-Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden Benutzer zurück, dessen SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie z. **B. "ken"** in das URI-Feld eingeben, wird im Bericht über Benutzeraktivität **"Ken"** gesucht. Myer@litwareinc.com. Es werden jedoch auch die folgenden Benutzer gefunden:
+Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden Benutzer zurück, dessen SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie z. **B. ken** in das URI-Feld eingeben, **wird** ken im Bericht über Benutzeraktivität gesucht. Myer@litwareinc.com. Es werden jedoch auch die folgenden Benutzer gefunden:
 
 - **ken** azi@litwareinc.com
 
@@ -37,20 +37,20 @@ Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden 
 
 - **Ken** nedy@litwareinc.com
 
-Um sicherzustellen, dass nur Informationen für Ken Myer zurückgegeben werden, geben Sie entweder seinen vollständigen URI (Ken.Myer@litwareinc.com) in das Suchfeld ein oder mindestens genügend Kens URI, um ihn eindeutig von anderen Benutzern in Ihrer Organisation zu unterscheiden. Zum Beispiel:
+Um sicherzustellen, dass nur Informationen für Ken Myer zurückgegeben werden, geben Sie entweder seinen vollständigen URI (Ken.Myer@litwareinc.com) in das Suchfeld ein, oder mindestens genügend Typen von Kens URI, um ihn eindeutig von anderen Benutzern in Ihrer Organisation zu unterscheiden. Beispiel:
 
 Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>So greifen Sie auf den Bericht über Benutzeraktivität zu
 
-Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht in Skype for Business Server](ip-phone-inventory-report.md)klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server.](peer-to-peer-session-detail-report.md)
+Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie in Skype for Business Server auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht](ip-phone-inventory-report.md)klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server.](peer-to-peer-session-detail-report.md)
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Optimale Nutzung des Berichts über Benutzeraktivität
 
-Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. dies bedeutet, dass innerhalb des Berichts Informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
+Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. das bedeutet, dass innerhalb des Berichts Informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
 
 > [!NOTE]
-> Technisch gesehen ist es möglich, dass einige Benutzeraktivitäten nicht erfasst werden: Während Skype for Business Server versucht, Informationen zu allen Telefonanrufen beizubehalten, ist es möglich, dass ein Anruf getätigt wurde, ohne dass die Informationen zu diesem Anruf in die Datenbank geschrieben wurden. Skype for Business Server wurde entwickelt, um einen äußerst genauen, aber nicht unbedingt perfekten Blick darauf zu vermitteln, wie Skype for Business Server verwendet wird. (Die Tatsache, dass nicht garantiert wird, dass 100 % aller Anrufe aufgezeichnet werden, erklärt, warum Skype for Business Server Überwachung nicht als Abrechnungssystem verwendet werden sollte.) Zweitens kann ein Überwachungsbericht nur maximal 1.000 Datensätze anzeigen. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 
+> Technisch gesehen ist es möglich, dass einige Benutzeraktivitäten nicht erfasst werden: Während Skype for Business Server versucht, Informationen zu allen Telefonanrufen beizubehalten, ist es möglich, dass ein Anruf getätigt wurde, ohne dass die Informationen zu diesem Anruf in die Datenbank geschrieben wurden. Skype for Business Server wurde entwickelt, um einen äußerst genauen, aber nicht unbedingt perfekten Blick darauf zu geben, wie Skype for Business Server verwendet wird. (Die Tatsache, dass nicht garantiert wird, dass 100 % aller Anrufe aufgezeichnet werden, erklärt, warum Skype for Business Server Überwachung nicht als Abrechnungssystem verwendet werden sollte.) Zweitens kann ein Überwachungsbericht nur maximal 1.000 Datensätze anzeigen. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 
 
 - Welche Benutzter haben das System in diesem Zeitraum tatsächlich verwendet?
 
@@ -120,7 +120,7 @@ In der folgenden Tabelle werden die Filter aufgelistet, die Sie im Bericht über
 | **Name**                   | **Beschreibung**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:---------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **From** <br/>             | Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 17.07.12015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                      |
-| **Ziel** <br/>               | Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 17.07.12015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                             |
+| **Bis** <br/>               | Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 17.07.12015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/17/12015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/13/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/>                                                             |
 | **Aktivitätstyp** <br/>    | Aktivitätstyp. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Peer-to-Peer <br/>  Konferenz <br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Modalität** <br/>         | Die für Sie verfügbare Modalität variiert je nach ausgewähltem Aktivitätstyp. Wenn der Aktivitätstyp Peer-zu-Peer ist, können Sie Chat auswählen. Dateiübertragung; Anwendungsfreigabe; Sprache; oder Video als Modalität.  <br/> Wenn der Aktivitätstyp Konferenz ist, können Sie Chat Telefon Konferenz auswählen. Webkonferenz; Anwendungsfreigabe; VoIP-/Videokonferenz; oder Telefoniekonferenz.  <br/>                                                                                                                                                                                                                                            |
 | **Sitzungskategorie** <br/> | Gibt an, ob die betreffende Aktivität erfolgreich war oder nicht. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Erfolg <br/>  Erwarteter Fehler <br/>  Unerwarteter Fehler <br/>  Ein "erwarteter Fehler" ist ein Fehler, der erwartungsgemäß auftritt. Hat beispielsweise ein Benutzer seinen Status auf "Nicht stören" gesetzt, ist zu erwarten, dass alle Anrufe an diesen Benutzer fehlschlagen. Ein "unerwarteter Fehler" ist ein Fehler, der in einem ansonsten scheinbar fehlerfreien System auftritt. Beispielsweise sollte ein Anruf nicht abgebrochen werden, während der Anrufer sich in der Warteschleife befindet. In diesem Fall würde der Fehler als "unerwartet" gekennzeichnet. <br/> |
@@ -167,7 +167,7 @@ In der folgenden Tabelle sind die im Bericht über Benutzeraktivität für jeden
 |:-----|:-----|:-----|
 |**Rolle** <br/> |Nein  <br/> |Konferenzrolle (z. B. Referent) des Benutzers.  <br/> |
 |**Teilnehmer** <br/> |Nein  <br/> |SIP-Adresse des Benutzers  <br/> |
-|**Konnektivität** <br/> |Nein  <br/> |Art der Netzwerkverbindung, z. B. "From Internal" für interne Verbindungen oder "From PSTN" für Einwahlbenutzer.  <br/> |
+|**Verbindung** <br/> |Nein  <br/> |Art der Netzwerkverbindung, z. B. "From Internal" für interne Verbindungen oder "From PSTN" für Einwahlbenutzer.  <br/> |
 |**Zeitpunkt des Beitritts** <br/> |Nein  <br/> |Datum und Uhrzeit, an dem bzw. zu der der Benutzer der Konferenz beigetreten ist.  <br/> |
 |**Zeitpunkt der Beendigung** <br/> |Nein  <br/> |Datum und Uhrzeit, an dem bzw. zu der der Benutzer die Konferenz verlassen hat.  <br/> |
 |**Diagnose-ID** <br/> |Nein  <br/> |Eindeutige ID (in der Form eines Headers vom Typ "ms-diagnostics"), die an eine SIP-Nachricht angehängt wird und oft nützliche Informationen für die Fehlerbehebung bereitstellt. Diagnostics-Header sind optional (SIP-Sitzungen ohne diese Header sind möglich) und Diagnose-IDs werden nur für Sitzungen berichtet, bei denen Probleme aufgetreten sind.  <br/> |

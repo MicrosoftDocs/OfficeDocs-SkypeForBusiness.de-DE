@@ -1,7 +1,7 @@
 ---
 title: Übersetzungsregeln in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6e067bd4-4931-4385-81ac-2acae45a16d8
 description: Erfahren Sie mehr über Übersetzungsregeln und die Normalisierung von Wählzeichenfolgen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 94e5fdf3428694f672622c62b76e81886afe1682
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 535b98c53367689d3b3002fdda14fb8a706a7f3a
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58606074"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60746721"
 ---
 # <a name="translation-rules-in-skype-for-business-server"></a>Übersetzungsregeln in Skype for Business Server
 
@@ -42,5 +42,5 @@ Ausführliche Informationen zur Implementierung von Übersetzungsregeln finden S
 
 |**Beschreibung**|**Anfangsziffern**|**Length**|**Zu entfernende Ziffern**|**Hinzuzufügende Ziffern**|**Vergleichsmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|Normales Ferngespräch in den USA  <br/> (Entfernen des "+"-Attributs)  <br/> |+1  <br/> |Exakt 12  <br/> |1   <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 wird zu 14255551010  <br/> |
-|Internationales Ferngespräch aus den USA  <br/> (Entfernen von "+" und Hinzufügen von 011)  <br/> |+  <br/> |Mindestens 11  <br/> |1   <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 wird zu 011441235551010  <br/> |
+|Normales Ferngespräch in den USA  <br/> (Entfernen des "+"-Attributs)  <br/> |+1  <br/> |Exakt 12  <br/> |1  <br/> |0  <br/> |^\+(1\d {10} ) $  <br/> |$1  <br/> |+14255551010 wird zu 14255551010  <br/> |
+|Internationales Ferngespräch aus den USA  <br/> (Entfernen von "+" und Hinzufügen von 011)  <br/> |+  <br/> |Mindestens 11  <br/> |1  <br/> |011  <br/> |^\+(\d {9} \d+)$  <br/> |011$1  <br/> |+441235551010 wird zu 011441235551010  <br/> |

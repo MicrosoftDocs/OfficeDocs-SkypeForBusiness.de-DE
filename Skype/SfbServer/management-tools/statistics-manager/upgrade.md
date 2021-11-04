@@ -1,7 +1,7 @@
 ---
 title: Aktualisieren von Statistics Manager für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server aktualisieren.'
-ms.openlocfilehash: caa2a5f7576a046c990315b638e618a379dd039e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2196f07d25fb761055df4432f0c2fd930368474d
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611984"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772001"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
@@ -26,7 +26,7 @@ ms.locfileid: "58611984"
   
 In diesem Thema wird beschrieben, wie Sie eine vorhandene Installation von Statistics Manager für Skype for Business Server aktualisieren– ein leistungsstarkes Tool, mit dem Sie Skype for Business Server Integritäts- und Leistungsdaten in Echtzeit anzeigen können. Sie können alle paar Sekunden Leistungsdaten über Hunderte von Servern abrufen und die Ergebnisse sofort auf der Statistics Manager-Website anzeigen. 
   
-Weitere Informationen zu Statistics Manager und den neuen Features in Version 2.0 finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for [Skype for Business Server](deploy.md).
+Weitere Informationen zu Statistics Manager und den neuen Features in Version 2.0 finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for [Skype for Business Server.](deploy.md)
   
 Es gibt zwei Methoden für das Upgrade:
   
@@ -46,7 +46,7 @@ Stellen Sie vor dem Upgrade sicher, dass Sie über die folgenden Informationen v
     
 ## <a name="automated-upgrade"></a>Automatisiertes Upgrade
 
-Das Skript erfasst Ihre aktuellen Zertifikatinformationen und ihr Listenerkennwort, deinstalliert die alte Version des Produkts und installiert dann die neue Version des Produkts. Die auf dem Server installierte Redis-Instanz wird nicht berührt, sodass alle im Cache gespeicherten Daten während des Upgradeprozesses beibehalten werden.
+Das Skript sammelt Ihre aktuellen Zertifikatinformationen und ihr Listenerkennwort, deinstalliert die alte Version des Produkts und installiert dann die neue Version des Produkts. Die auf dem Server installierte Redis-Instanz wird nicht berührt, sodass alle im Cache gespeicherten Daten während des Upgradeprozesses beibehalten werden.
   
 1. Platzieren Sie die MSI-Dateien für die neue Version des Agents, Listeners und der Website zusammen mit dem Update-StatsMan.ps1 Skript in einem einzigen Ordner auf dem Listener-Computer.
     

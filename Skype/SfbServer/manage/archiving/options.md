@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Archivierungsoptionen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Archivierungsoptionen für Skype for Business Server konfigurieren.'
-ms.openlocfilehash: c38142f9a3c4e0db6c856bb1c75846399e9d62dd
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4ab0f64db30638b29367f113acc342077b84b113
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616611"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747309"
 ---
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Verwalten von Archivierungsoptionen in Skype for Business Server
 
@@ -39,7 +39,7 @@ Sie konfigurieren die Archivierung zunächst bei der Bereitstellung, aber Sie k�
     
 Sie können Konfigurationsoptionen auf den folgenden Ebenen angeben:
   
-- Konfiguration auf globaler Ebene, die standardmäßig beim Bereitstellen von Skype for Business Server
+- Konfiguration auf globaler Ebene, die standardmäßig erstellt wird, wenn Sie Skype for Business Server
     
 - Optionale Konfigurationen auf Standortebene, die angeben, wie die Archivierung für einen bestimmten Standort implementiert wird
     
@@ -59,7 +59,7 @@ Sie können Archivierungsoptionen mithilfe der Systemsteuerung wie folgt konfigu
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Konfigurieren von Archivierungsoptionen mithilfe von Windows PowerShell
 
-Sie können Archivierungsoptionen auch mithilfe der in der folgenden Tabelle aufgeführten Windows PowerShell Cmdlets konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md)
+Sie können Archivierungsoptionen auch mithilfe der in der folgenden Tabelle aufgeführten cmdlets Windows PowerShell konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md)
   
 
 |**Cmdlet**|**Beschreibung**|

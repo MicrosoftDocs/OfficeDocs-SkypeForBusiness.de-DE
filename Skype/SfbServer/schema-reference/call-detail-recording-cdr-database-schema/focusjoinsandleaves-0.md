@@ -1,7 +1,7 @@
 ---
 title: FocusJoinsAndLeaves-Ansicht
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 226460ef-766f-4d61-80cb-f332b65a210d
 description: In der FocusJoinsAndLeaves-Ansicht werden Informationen zum Beitreten und Verlassen von Informationen für eine Konferenz gespeichert. Jede Konferenz wird in dieser Ansicht durch einen Datensatz dargestellt, der jedes Mal geschrieben wird, wenn ein Benutzer der Konferenz beitritt und diese verlässt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 102e520c9bfdb9988061db64dec621a8683b1b5e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6195558ec7a59e9e7605db4b56f761aec374f831
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58628557"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740301"
 ---
 # <a name="focusjoinsandleaves-view"></a>FocusJoinsAndLeaves-Ansicht
  
@@ -26,8 +26,8 @@ In der FocusJoinsAndLeaves-Ansicht werden Informationen zum Beitreten und Verlas
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Konferenzinstanz. Wird zusammen mit SessionIdSeq verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Konferenztabelle in Skype for Business Server 2015.](conferences.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Konferenzinstanz. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Konferenztabelle in Skype for Business Server 2015.](conferences.md) <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Konferenzinstanz. Wird zusammen mit SessionIdSeq verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Tabelle "Konferenzen" in Skype for Business Server 2015.](conferences.md) <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Konferenzinstanz. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Tabelle "Konferenzen" in Skype for Business Server 2015.](conferences.md) <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden.  <br/> |
 |**UserUriType** <br/> |nvarchar(256)  <br/> |Typ des URIs des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
 |**UserTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, dessen Informationen zum Beitreten/Verlassen einer Konferenz erfasst wurden. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |

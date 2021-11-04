@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in Albanien
 author: cichur
-ms.author: v-cichur
+ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Albanien.
-ms.openlocfilehash: a886e43ead05024e745d960db51d38e038e7730d
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: 423c8c690c99e30dcd0e02851485015f11611a79
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733825"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60759327"
 ---
 # <a name="availability-in-albania"></a>Verfügbarkeit in Albanien
 

@@ -5,7 +5,7 @@ ms:assetid: e5f7f38d-ede5-4af3-88c2-026e8a78df12
 ms:mtpsurl: https://technet.microsoft.com/en-us/library/Hh202193(v=OCS.15)
 ms:contentKeyID: 48185669
 mtps_version: v=OCS.15
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Wenn Sie Skype for Business in Ihrer Organisation bereitstellen, können Sie einen Verbund mit den Domänen eines oder mehrerer Skype for Business Onlinekunden erstellen. '
-ms.openlocfilehash: 282b6c3808670eac9ee2833d7248de978611124e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 7d41073aadae59c6b01c7eeeb1c5072a6ca21e24
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58612344"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60747141"
 ---
 # <a name="configuring-federation-support-for-a-skype-for-business-online-customer-in-skype-for-business-server"></a>Konfigurieren der Verbundunterstützung für einen Skype for Business Onlinekunden in Skype for Business Server
 
@@ -29,7 +29,7 @@ Sie können Benutzern in Ihrer Organisation auf die folgende Art Kommunikationsd
 - Bereitstellen von Skype for Business Server in Ihrer Organisation (als *lokale Dienste* bezeichnet) und Einrichten Skype for Business Benutzerkonten in Ihrer Organisation.
 - Einrichten eines Microsoft Skype for Business Online-Kundenkontos bei einem Hostinganbieter und Einrichten von Benutzerkonten beim Hostinganbieter (auch als *Onlinedienste* bezeichnet).
 
-Wenn Sie Skype for Business in Ihrer Organisation bereitstellen, können Sie einen Verbund mit den Domänen eines oder mehrerer Skype for Business Onlinekunden erstellen. Um den Partnerverbund zwischen Benutzern Ihrer lokalen Skype for Business-Bereitstellung und Benutzern eines Skype for Business Onlinekunden zu aktivieren, müssen Sie den Support für die Domäne und die Benutzer des Skype for Business Onlinekunden konfigurieren.
+Wenn Sie Skype for Business in Ihrer Organisation bereitstellen, können Sie einen Verbund mit den Domänen eines oder mehrerer Skype for Business Onlinekunden erstellen. Um den Partnerverbund zwischen Benutzern Ihrer lokalen Skype for Business-Bereitstellung und Benutzern eines Skype for Business Onlinekunden zu aktivieren, müssen Sie die Unterstützung für die Domäne und die Benutzer des Skype for Business Onlinekunden konfigurieren.
 
 [!INCLUDE [sfbo-retirement-skype](../../../../Hub/includes/sfbo-retirement.md)]
 
@@ -38,7 +38,7 @@ Wenn Sie Skype for Business in Ihrer Organisation bereitstellen, können Sie ein
 
 ## <a name="prerequisites-for-federating-with-a-skype-for-business-online-customer"></a>Voraussetzungen für den Verbund mit einem Skype for Business Onlinekunden
 
-Um sich mit einem Skype for Business Online-Kunden zu verbinden, sollten Sie die anfängliche Bereitstellung und Konfiguration von Skype for Business Server in Ihrer Organisation bereits abgeschlossen haben. Dazu gehört Folgendes:
+Um einen Verbund mit einem Skype for Business Onlinekunden zu erstellen, sollten Sie die anfängliche Bereitstellung und Konfiguration von Skype for Business Server in Ihrer Organisation bereits abgeschlossen haben. Dazu gehört Folgendes:
 
 - Bereitstellen mindestens eines Standard Edition Servers oder eines Enterprise Edition Front-End-Pools in Ihrer Organisation.
 - Aktivieren interner Benutzerkonten für Skype for Business Server.
@@ -50,15 +50,15 @@ Um sich mit einem Skype for Business Online-Kunden zu verbinden, sollten Sie die
 
 Für den Verbund mit einem Skype for Business Onlinekunden müssen Sie die folgenden Schritte ausführen:
 
-- Konfigurieren sie den Support für die Domäne des Skype for Business Online 2010-Kunden (z. B. contoso.onmicrosoft.com). Wie in [den Voraussetzungen für den Verbund mit einem Skype for Business Onlinekunden](#prerequisites-for-federating-with-a-skype-for-business-online-customer)angegeben, sollten Sie den Partnerverbund bereits für Ihre Organisation aktiviert haben. Zum Aktivieren des Partnerverbunds muss die Methode zur Steuerung des Zugriffs durch Partnerdomänen angegeben werden. Wenn in Ihrer Organisation die Ermittlung verwendet wird, kann die Domäne optional der Liste der zugelassenen Domänen Ihrer Organisation hinzugefügt werden. Wenn Sie die Domänenermittlung nicht aktiviert haben, müssen Sie der Liste der zulässigen Domänen den Domänennamen des Skype for Business Onlinekunden hinzufügen. Sie können einen Domänennamen entweder über Skype for Business Server Systemsteuerung oder durch Ausführen des **Cmdlets "New-CSAllowedDomain"** hinzufügen. Ausführliche Informationen zur Verwendung Skype for Business Server Systemsteuerung, einschließlich der Aktivierung der Ermittlung von Domänen, finden Sie unter [Verwalten von SIP-Partnerverbundanbietern für Ihre Organisation in Skype for Business Server.](../sip-providers/manage-sip-federated-providers-for-your-organization.md) Ausführliche Informationen zur Verwendung des **Cmdlets "New-CSAllowedDomain"** zum Hinzufügen einer Domäne finden Sie unter ["New-CsAllowedDomain".](/powershell/module/skype/New-CsAllowedDomain)
+- Konfigurieren sie den Support für die Domäne des Skype for Business Online 2010-Kunden (z. B. contoso.onmicrosoft.com). Wie in [den Voraussetzungen für den Verbund mit einem Skype for Business Onlinekunden](#prerequisites-for-federating-with-a-skype-for-business-online-customer)angegeben, sollten Sie den Partnerverbund bereits für Ihre Organisation aktiviert haben. Zum Aktivieren des Partnerverbunds muss die Methode zur Steuerung des Zugriffs durch Partnerdomänen angegeben werden. Wenn in Ihrer Organisation die Ermittlung verwendet wird, kann die Domäne optional der Liste der zugelassenen Domänen Ihrer Organisation hinzugefügt werden. Wenn Sie die Domänenermittlung nicht aktiviert haben, müssen Sie den Domänennamen des Skype for Business Onlinekunden zur Liste der zulässigen Domänen hinzufügen. Sie können einen Domänennamen entweder über Skype for Business Server Systemsteuerung oder durch Ausführen des **Cmdlets "New-CSAllowedDomain"** hinzufügen. Ausführliche Informationen zur Verwendung Skype for Business Server Systemsteuerung, einschließlich der Aktivierung der Ermittlung von Domänen, finden Sie unter [Verwalten von SIP-Verbundanbietern für Ihre Organisation in Skype for Business Server.](../sip-providers/manage-sip-federated-providers-for-your-organization.md) Ausführliche Informationen zur Verwendung des **Cmdlets "New-CSAllowedDomain"** zum Hinzufügen einer Domäne finden Sie unter ["New-CsAllowedDomain".](/powershell/module/skype/New-CsAllowedDomain)
 
   > [!NOTE]  
-  > Ein Skype for Business Onlinekunde kann mehrere Domänen haben. Wenn Sie einen Verbund mit mehr als einer der Domänen erstellen möchten, müssen Sie die Unterstützung für jede einzelne Domäne konfigurieren, mit der Sie den Partnerverbund unterstützen möchten, und der Administrator des Skype for Business Onlinekunden muss den Partnerverbund für jede der Domänen aktivieren, die verbunden werden sollen.
+  > Ein Skype for Business Onlinekunde kann mehrere Domänen haben. Wenn Sie einen Verbund mit mehr als einer der Domänen erstellen möchten, müssen Sie die Unterstützung für jede einzelne Domäne konfigurieren, mit der Sie den Partnerverbund unterstützen möchten, und der Administrator des Skype for Business Online-Kunden muss den Partnerverbund für jede der Domänen aktivieren, die verbunden werden sollen.
 
 - Konfigurieren Sie die Unterstützung für den Hostinganbieter der Skype for Business Online-Kundendomäne, mit der Sie einen Partnerverbund erstellen möchten. Verwenden Sie das Verfahren in diesem Abschnitt, um die Unterstützung für Hostinganbieter zu konfigurieren.
 
   > [!NOTE]  
-  > Dieser Schritt ist nur für den Partnerverbund mit einer Domäne eines Skype for Business Onlinekunden erforderlich, nicht für einen Partnerverbund mit einer Domäne, die lokal am Standort eines Verbundpartners bereitgestellt wird.
+  > Dieser Schritt ist nur für den Partnerverbund mit einer Domäne eines Skype for Business Onlinekunden erforderlich, nicht für partnerverbundene Domänen, die lokal am Standort eines Verbundpartners bereitgestellt werden.
 
 ### <a name="to-configure-support-for-a-hosting-provider"></a>So konfigurieren Sie die Unterstützung für einen Hostinganbieter
 
@@ -96,8 +96,8 @@ Sie müssen die Benutzerkonten aller Benutzer in der Organisation so konfigurier
 
 Damit Skype for Business Benutzer in Ihrer Organisation mit Benutzern eines Skype for Business Onlinekunden kommunizieren können, müssen Sie die folgenden Schritte ausgeführt haben:
 
-- Alle Voraussetzungen erfüllt. Dazu gehören die Bereitstellung Ihrer internen Server und Edgeserver, das Aktivieren der Verbundunterstützung für Ihre Organisation und das Einrichten von Benutzerkonten. Ausführliche Informationen finden Sie unter "Voraussetzungen für den [Verbund mit einem Skype for Business Onlinekunden".](#prerequisites-for-federating-with-a-skype-for-business-online-customer)
-- Konfigurierte Domänenzugriffsunterstützung in Ihrer internen Bereitstellung. Dazu gehört das Erstellen eines Hostanbietereintrags und das Konfigurieren Ihrer Bereitstellung, um den Zugriff von der Domäne des Skype for Business Onlinekunden zuzulassen. Ausführliche Informationen finden Sie unter Konfigurieren der [Verbundunterstützung für eine Skype for Business Onlinedomäne.](#configure-federation-support-for-a-skype-for-business-online-domain)
+- Alle Voraussetzungen erfüllt. Dazu gehören die Bereitstellung Ihrer internen Server und Edgeserver, das Aktivieren der Verbundunterstützung für Ihre Organisation und das Einrichten von Benutzerkonten. Ausführliche Informationen finden Sie unter ["Voraussetzungen für den Verbund mit einem Skype for Business Online-Kunden".](#prerequisites-for-federating-with-a-skype-for-business-online-customer)
+- Konfigurierte Domänenzugriffsunterstützung in Ihrer internen Bereitstellung. Dazu gehört das Erstellen eines Hostanbietereintrags und das Konfigurieren Ihrer Bereitstellung, um den Zugriff von der Domäne des Skype for Business Onlinekunden zuzulassen. Ausführliche Informationen finden Sie unter [Konfigurieren der Verbundunterstützung für eine Skype for Business Onlinedomäne.](#configure-federation-support-for-a-skype-for-business-online-domain)
 - Konfigurierte Ihre Benutzerkonten für die Unterstützung des Partnerverbunds. Ausführliche Informationen finden Sie unter [Konfigurieren des Benutzerzugriffs für den Partnerverbund mit einem Skype for Business Onlinekunden.](#configure-user-access-for-federation-with-a-skype-for-business-online-customer)
 
-Nachdem Sie alle diese Schritte abgeschlossen haben und der Administrator des Skype for Business Onlinekunden alle Konfigurationen seiner Onlinedienste abgeschlossen hat, um den Partnerverbund mit Ihrer Organisation zu unterstützen, überprüfen Sie die Kommunikation, indem Sie die Kommunikation zwischen einem internen Benutzer in Ihrer Organisation und einem Benutzer des Skype for Business Online-Kunden testen. Wenn die Kommunikation nicht erfolgreich ist, verwenden Sie das Protokollierungstool von Ihrem Edgeserver, um Protokoll- und Ablaufverfolgungsdateien zu erfassen, um das Problem zu beheben.
+Nachdem Sie alle diese Schritte abgeschlossen haben und der Administrator des Skype for Business Onlinekunden alle Konfigurationen seiner Onlinedienste abgeschlossen hat, um den Partnerverbund mit Ihrer Organisation zu unterstützen, überprüfen Sie die Kommunikation, indem Sie die Kommunikation zwischen einem internen Benutzer in Ihrer Organisation und einem Benutzer des Skype for Business Onlinekunden testen. Wenn die Kommunikation nicht erfolgreich ist, verwenden Sie das Protokollierungstool von Ihrem Edgeserver, um Protokoll- und Ablaufverfolgungsdateien zu erfassen, um das Problem zu beheben.

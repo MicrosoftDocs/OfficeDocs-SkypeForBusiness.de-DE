@@ -1,7 +1,7 @@
 ---
 title: Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Zusammenfassung: Erfahren Sie, wie Sie Kommunikationsdatensätze (KDS) in Skype for Business Server aktivieren.'
-ms.openlocfilehash: 51c2dcd1f1ecf77647ded6dbbc41ea9cdc2c13d8
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Aufzeichnungen von Kommunikationsdatensätzen (KDS) in Skype for Business Server aktivieren.'
+ms.openlocfilehash: 7adfc44c97387fc99244b0d2dea1cd7f884b6e6e
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014559"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740581"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie Sie KDS-Datensätze (Call Detail Recording) in Skype for Business Server aktivieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie Aufzeichnungen von Kommunikationsdatensätzen (KDS) in Skype for Business Server aktivieren.
 
 Bei der Aufzeichnung von Kommunikationsdatensätzen werden Nutzungs- und Diagnoseinformationen über Peer-zu-Peer-Aktivitäten aufgezeichnet, z. B. Chat, VoIP-Anrufe (Voice over Internet Protocol), Anwendungsfreigabe, Dateiübertragung und Besprechungen. Anhand der Nutzungsdaten kann die Rendite berechnet werden, und die Diagnosedaten können zur Problembehandlung bei Peer-zu-Peer-Aktivitäten und Besprechungen eingesetzt werden.
 
@@ -32,7 +32,7 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>So aktivieren Sie KDS mit Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 

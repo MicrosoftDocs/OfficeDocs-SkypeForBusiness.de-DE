@@ -1,7 +1,7 @@
 ---
-title: Voraussetzungen und Einrichtung für die Skype für busines Stress and Performance Tool
+title: Voraussetzungen und Setup für die Skype für busines Stress and Performance Tool
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 ms.date: 12/20/2018
 manager: serdars
@@ -14,14 +14,14 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 948c176c-75ce-418d-891a-a68427d61e40
 description: Anforderungen oder Voraussetzungen für das Skype for Business Server 2015 Stress and Performance Tool. So installieren oder richten Sie das Stress and Performance Tool ein.
-ms.openlocfilehash: 5d86dbc085929bfcb9bd52dd7d25f46f92fda8fb
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 87c42d63e394c6beea68c23b8e1d7cff7b07266c
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611924"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60771921"
 ---
-# <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Voraussetzungen und Einrichtung für die Skype für busines Stress and Performance Tool
+# <a name="prerequisites-and-setup-for-the-skype-for-busines-stress-and-performance-tool"></a>Voraussetzungen und Setup für die Skype für busines Stress and Performance Tool
  
 Anforderungen oder Voraussetzungen für das Skype for Business Server 2015 Stress and Performance Tool. So installieren oder richten Sie das Stress and Performance Tool ein.
   
@@ -38,7 +38,7 @@ Darüber hinaus finden Sie weiter unten einen Abschnitt zum [Installieren des To
 ## <a name="client-hardware-requirements"></a>Clienthardwareanforderungen
 <a name="ClientHardwareReqs"> </a>
 
-Wenn Sie das Stress and Performance Tool für Ihre Skype for Business Server 2015-Bereitstellung ausführen, benötigen Sie mindestens diese Hardwareanforderungen für alle 4500 Benutzer in Ihrem Test:
+Wenn Sie das Stress and Performance Tool für Ihre Skype for Business Server 2015-Bereitstellung ausführen, benötigen Sie mindestens diese Hardwareanforderungen, die für alle 4500 Benutzer in Ihrem Test erfüllt sind:
   
 - 1 Gigabit-Netzwerkadapter
     
@@ -51,7 +51,7 @@ Wenn Sie das Stress and Performance Tool für Ihre Skype for Business Server 201
 
 Die unterstützten Betriebssysteme für das Stress and Performance Tool sind:
   
-- Windows Server 2012
+- Windows Server 2012
     
 - Windows Server 2008 (64-Bit)
     
@@ -83,6 +83,6 @@ Sie benötigen diese zusätzlichen Konfigurationen, um das Stress and Performanc
 
 Die Installation konnte nicht einfacher sein. Sie müssen die Windows Installer-Datei **CapacityPlanningTool.msi** auf jedem Clientcomputer ausführen, den Sie zum Simulieren des Benutzerdatenverkehrs verwenden möchten, und auf einem Front-End-Server in jedem Pool, auf dem Sie Benutzer und Kontakte erstellen.
   
-Um die .msi zusammen mit den beispielskripts, die in unseren anderen Artikeln erwähnt werden, herunterzuladen, wechseln Sie zum Download Center-Link: [Skype for Business Server 2015, Stress and Performance Tool.](https://www.microsoft.com/download/details.aspx?id=50367)
+Um die .msi zusammen mit den in unseren anderen Artikeln erwähnten Beispielskripts herunterzuladen, wechseln Sie zum Download Center-Link: [Skype for Business Server 2015, Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367).
   
 

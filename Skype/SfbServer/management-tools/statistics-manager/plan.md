@@ -1,7 +1,7 @@
 ---
 title: Planen von Statistics Manager für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Statistics Manager für Skype for Business Server zu erfahren.'
-ms.openlocfilehash: 2ba909e5bcc526a40374f5f9fdbbcf15c1cf7c39
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 79f8bc38169d6cba52160772cd9ba0869e761b30
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730754"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60778145"
 ---
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen von Statistics Manager für Skype for Business Server
 
@@ -28,7 +28,7 @@ ms.locfileid: "58730754"
 
 Sie können Statistics Manager verwenden, um fortlaufende Leistungsprobleme zu identifizieren, die Ergebnisse einer geplanten Änderung Ihrer Umgebung anzuzeigen, die Behebung von Ausfällen nachzuverfolgen und vieles mehr. Standardmäßig ist Statistics Manager mit KHI-Schwellenwerten (Key Health Indicator) konfiguriert und kann an die individuellen Anforderungen Ihrer Bereitstellung angepasst werden.
 
-Sie können Statistics Manager in einer lokalen Bereitstellung bereitstellen, in der ein einzelner Server alle serverseitigen Statistics Manager-Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistics Manager finden Sie unter [Deploy Statistics Manager for Skype for Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistics Manager verfügen, aber noch kein Upgrade auf Version 2.0 durchgeführt haben, finden Sie weitere Informationen zu den [Neuerungen in Version 2.0](plan.md#BKMK_WhatsNew) und [zum Upgrade von Statistics Manager für Skype for Business Server.](upgrade.md)
+Sie können Statistics Manager in einer lokalen Bereitstellung bereitstellen, in der ein einzelner Server alle serverseitigen Statistics Manager-Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistics Manager finden Sie unter [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistics Manager verfügen, aber noch kein Upgrade auf Version 2.0 durchgeführt haben, finden Sie weitere Informationen [unter Neuigkeiten in Version 2.0](plan.md#BKMK_WhatsNew) und Upgrade Statistics Manager für [Skype for Business Server.](upgrade.md)
 
 Dieses Thema enthält die folgenden Abschnitte:
 
@@ -53,7 +53,7 @@ Statistics Manager ermöglicht Folgendes:
 
 - Anzeigen von Daten, die für eine bestimmte Rolle aggregiert wurden; Beispielsweise Front-End-Server, Vermittlungsserver, Edgeserver usw.
 
-- Führen Sie einen Drilldown durch, um Daten für bestimmte Standorte, bestimmte Pools innerhalb des Standorts und dann bestimmte Server innerhalb des Pools anzuzeigen.
+- Führen Sie einen Drilldown durch, um Daten für bestimmte Standorte, bestimmte Pools innerhalb des Standorts und dann für bestimmte Server innerhalb des Pools anzuzeigen.
 
 - Erstellen Sie benutzerdefinierte Diagramme, sodass ausgewählte Indikatoren standardmäßig angezeigt werden.
 
@@ -153,7 +153,7 @@ Sie müssen die folgenden Software-, Netzwerk- und Hardwareanforderungen berück
 |Eingehender TCP-Port 80 oder 443 zum Hosten der Website geöffnet.  <br/> |||
 |Eingehender TCP-Port 8443 (anpassbare Portnummer), damit die Agents mit ihm kommunizieren können.  <br/> |||
 
-Während der Installation werden Firewallports für listener und die Website automatisch erstellt. Für die Agents geht die Installation davon aus, dass ausgehende TCP-Verbindungen standardmäßig zulässig sind.
+Während der Installation werden Firewallports für listener und die Website automatisch erstellt. Für die Agents wird bei der Installation davon ausgegangen, dass ausgehende TCP-Verbindungen standardmäßig zulässig sind.
 
 ### <a name="hardware-requirements"></a>Hardwareanforderungen
 

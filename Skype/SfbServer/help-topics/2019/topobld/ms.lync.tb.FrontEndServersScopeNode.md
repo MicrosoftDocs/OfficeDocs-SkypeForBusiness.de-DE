@@ -1,7 +1,7 @@
 ---
 title: Front-End-Server – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 audience: ITPro
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99c8c4b6-eb12-4c6b-b32c-3977d17fc8fa
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Knoten Front-End-Pools der Enterprise Edition werden die Front-End-Pools an diesem Standort aufgelistet. Die Knoten vom Typ Front-End-Server der Standard Edition  enthalten die Standard Edition-Server an diesem Standort. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: e4c70bb652f920b086e2ed8c86c4c16cf68bbe2c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9330da7eb3778f2cdfdd4ff3493c57c82f085dfd
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58634639"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60752464"
 ---
 # <a name="front-end-servers-scope-node"></a>Front-End-Server – Bereichsknoten
  

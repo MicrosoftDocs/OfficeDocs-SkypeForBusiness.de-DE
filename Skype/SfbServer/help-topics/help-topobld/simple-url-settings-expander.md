@@ -1,7 +1,7 @@
 ---
 title: Einstellungen für einfache URL – Erweiterung
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 11/17/2018
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9fd2087a-3c3a-4863-aa7f-e532a18e77af
 description: 'Führen Sie zum Angeben neuer, Entfernen vorhandener oder Ändern der aktiven einfachen URLs Folgendes aus:'
-ms.openlocfilehash: 230ad40510f02f5945bd0af2902c818af996ca70
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b3b5330efe6e1027c8c9bebf05d4e6ae2da9a917
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626677"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60772181"
 ---
 # <a name="simple-url-settings-expander"></a>Einstellungen für einfache URL – Erweiterung
 
@@ -48,6 +48,6 @@ Zum Bearbeiten oder Ändern der URL für den administrativen Zugriff müssen Sie
 
 Klicken Sie, nachdem Sie alle Änderungen auf der Seite für die Eigenschaftenbearbeitung vorgenommen haben, auf **OK**, um die Änderungen zu speichern. Klicken Sie auf **Abbrechen**, um Änderungen zu verwerfen.
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Weitere Informationen
 
 Ausführliche Informationen finden Sie unter [Planning for Simple URLs](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-simple-urls).

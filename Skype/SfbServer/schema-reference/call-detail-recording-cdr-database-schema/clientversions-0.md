@@ -1,7 +1,7 @@
 ---
 title: ClientVersions-Ansicht
 ms.reviewer: ''
-ms.author: v-cichur
+ms.author: v-mahoffman
 author: cichur
 manager: serdars
 ms.date: 3/9/2015
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: caf7678f-83a0-46c8-83cc-fee4c3991f52
 description: In der ClientVersions-Ansicht werden Informationen zu den verschiedenen Clienttypen und -versionen gespeichert, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Ansicht stellt eine Clientversion dar. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: bb17827f018919ba7b6088da884904a959bd6398
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 91f206a482803cbecd2704638cffdff1aec5c8c8
+ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58593479"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "60740311"
 ---
 # <a name="clientversions-view"></a>ClientVersions-Ansicht
  
