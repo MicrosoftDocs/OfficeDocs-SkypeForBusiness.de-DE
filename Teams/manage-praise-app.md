@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ms.openlocfilehash: a65fae76440a520e4ed0054f9ac039e417c0e60e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c67f70150c2b8635bd317f724004471f4b73e800
+ms.sourcegitcommit: 36761f644b9af5bdef30fe1c3817defc278b965e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763053"
+ms.lasthandoff: 11/05/2021
+ms.locfileid: "60793453"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
@@ -23,12 +23,12 @@ ms.locfileid: "60763053"
 
 Die Lob-App in Microsoft Teams hilft Benutzern, den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl von Badge-Sätzen, aus der Sie auswählen können, und der Option zum Erstellen eigener Badges soll Lob Teams dazu beitragen, den Aufwand zu erkennen, der in die breite Palette an Arbeit fällt, die von Lehrkräften bis zu Frontline Workers von Benutzern geleistet wird. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Administratoren können steuern, welche Badges für ihre Organisation über das admin center Microsoft Teams verfügbar sind. Navigieren Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen.**  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
+Administratoren können über das Microsoft Teams Admin Center steuern, welche Badges für ihre Organisation verfügbar sind. Navigieren Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen.**  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
 
 ![Screenshot der Einstellungen für die App Lob App](media/manage-praise-app-settings.png)
 
 > [!NOTE]
-> Das Lob-App ist für US-Regierungwolken nicht verfügbar.
+> Die Lob-App ist für GCC Cloudumgebung, aber nicht für GCC High oder DoD verfügbar.
 
 ## <a name="use-built-in-badge-sets"></a>Verwenden von integrierten Signalsätzen
 
