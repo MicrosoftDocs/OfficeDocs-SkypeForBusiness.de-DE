@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Microsoft Teams Cloud Voice-Features und die Entscheidungen, die für die Bereitstellung in Ihrer Organisation zu treffen sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: eb6796dff27cf078c2f8f1d2d2f1ffc00fddc5e0
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: dba035c7bcbc6f94e8c4e7573f7dc6c4bc0e06c3
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58730514"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824684"
 ---
 # <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Microsoft Teams-Anruflösung 
 
@@ -41,14 +41,14 @@ Möglicherweise möchten Sie die einfachste Lösung verwenden, das &mdash;Telefo
 
 Wenn Sie die folgenden Punkte mit "Ja" beantworten können, ist "Telefonsystem mit Anrufplan" die richtige Lösung für Sie:
 
-- Anrufpläne sind in Ihrem Land oder Ihrer Region verfügbar.
+- PSTN-Anrufe sind in Ihrem Land oder Ihrer Region nicht verfügbar.
 - Sie müssen nicht bei Ihrem aktuellen Festnetzbetreiber bleiben.
 - Sie möchten von Microsoft verwalteten Zugriff auf das Telefonfestnetz nutzen.
 
 Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Geschäftsstellen an Standorten haben, an denen keine Microsoft-Anrufpläne verfügbar sind. Oder Sie benötigen eine Kombilösung, die für eine komplexe, multinationale Bereitstellung mit unterschiedlichen Anforderungen an unterschiedlichen geografischen Standorten geeignet ist. Microsoft ermöglicht Kombilösungen: 
 
 - Telefonsystem mit Anrufplan
-- Telefonsystem mit Ihrem eigenen Festnetzbetreiber mit Telefonieanbieter (derzeit nur in der **öffentlichen Vorschauversion** verfügbar)
+- Telefonsystem bei Ihrem eigenen Netzbetreiber mit Netzbetreiber Verbinden
 - Telefonsystem mit Ihrem eigenen Festnetzbetreiber mit Direct Routing
 - Eine Kombilösung aus Telefonsystem mit Anrufplan, Telefonsystem mit Telefonieanbieter und/oder Telefonsystem mit Direct Routing
 
@@ -143,7 +143,7 @@ Das Telefonsystem bietet vollständige Nebenstellenanlagenfunktionen für Ihre O
 
 - [**Telefonsystem mit Anrufplan**](pstn-connectivity.md#phone-system-with-calling-plan): Eine gänzlich cloudbasierte Lösung, bei der Microsoft Ihr Festnetzbetreiber ist.
 
-- [**Telefonsystem mit Ihrem eigenen Festnetzbetreiber unter Verwendung von Telefonieanbieter**](operator-connect-plan.md) (derzeit nur in der **öffentlichen Vorschauversion** verfügbar).  Wenn Ihr bestehender Betreiber am Microsoft Telefonieanbieter-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Informationen zu den Vorteilen und Anforderungen von Telefonieanbieter sowie eine Liste der Festnetzbetreiber, die an diesem Programm teilnehmen, finden Sie unter [Planung für Telefonieanbieter](operator-connect-plan.md).
+- [**Telefonsystem mit Ihrem eigenen Netzbetreiber mithilfe des Netzbetreibers Verbinden.**](operator-connect-plan.md) Wenn Ihr bestehender Betreiber am Microsoft Telefonieanbieter-Programm teilnimmt, kann er den Dienst verwalten, um Festnetzanrufe in Microsoft Teams zu ermöglichen. Informationen zu den Vorteilen und Anforderungen von Operatoren Verbinden Sie unter [Planoperator Verbinden.](operator-connect-plan.md)
 
 - [**Telefonsystem mit Ihrem eigenen Festnetzbetreiber unter Verwendung von Direct Routing**](pstn-connectivity.md#phone-system-with-direct-routing) um Ihre lokale Umgebung mit Microsoft Teams zu verbinden.
 

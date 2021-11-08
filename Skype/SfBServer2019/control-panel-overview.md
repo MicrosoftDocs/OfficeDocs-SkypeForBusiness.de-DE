@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Dieser Artikel bietet eine Übersicht über die neue Systemsteuerung.
-ms.openlocfilehash: 8a4f8e073b424969951a69c620dd5f65a582fd75
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579869"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824643"
 ---
 # <a name="control-panel"></a>Systemsteuerung
 
@@ -50,3 +50,11 @@ Die neue Systemsteuerung enthält häufig verwendete Menüelemente, die die meis
 |Gerätekonfiguration         |    [Gerätekonfiguration](use-powershell-client-menu.md#device-configuration)     |
 |Mobilitätsrichtlinie         |    [Mobilitätsrichtlinie](use-powershell-client-menu.md#mobility-policy)     |
 |Konfiguration von Pushbenachrichtigungen         |    [Konfiguration von Pushbenachrichtigungen](use-powershell-client-menu.md#push-notification-configuration)     |
+
+## <a name="security"></a>Sicherheit
+
+|Untermenü  |Informationsquelle für Cmdlet  |
+|---------|---------|
+|Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
+|Webdienst      |  [Webdienst](use-powershell-security-menu.md#web-service)       |
+|PIN-Richtlinie    | [PIN-Richtlinie](use-powershell-security-menu.md#pin-policy)        |

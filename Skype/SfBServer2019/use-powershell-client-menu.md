@@ -12,17 +12,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.collection: ''
-description: 'Zusammenfassung: Skype for Business Server Systemsteuerung zur Cmdlet-Zuordnung.'
-ms.openlocfilehash: e4d72aad28167e3be427f203b8e5b80e2305a636
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+description: 'Zusammenfassung: Skype for Business Server Systemsteuerung zur Cmdlet-Zuordnung für das Clientmenü.'
+ms.openlocfilehash: 1dc0c3a9638af8fdec90fccb633909b9ccf40405
+ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579838"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60824653"
 ---
 # <a name="client"></a>Client
 
-In diesem Artikel wird beschrieben, wie ähnliche Ergebnisse wie die des **Menüelements "Client"** in der älteren Systemsteuerung mithilfe von Cmdlets erzielt werden können.
+In diesem Artikel wird beschrieben, wie ähnliche Ergebnisse wie mit dem **Clientmenüelement** in der älteren Systemsteuerung mithilfe von Cmdlets erzielt werden können.
 
 In diesem Artikel werden die folgenden Untermenüs beschrieben:
 
@@ -38,7 +38,7 @@ In diesem Artikel werden die folgenden Untermenüs beschrieben:
 
 ## <a name="client-version-policy"></a>Clientversionsrichtlinie
 
-Das Untermenüelement **CLIENTVERSIONSRICHTLINIE** im Menü **"Client"** gibt Informationen zu den Clients zurück, die in Skype for Business Server Umgebung unterstützt werden. Mit einer Clientversionsrichtlinie können Sie die Clients angeben, die sich bei Skype for Business Server System anmelden können.
+Das Untermenüelement **CLIENTVERSIONSRICHTLINIE** unter dem Menü **"Client"** gibt Informationen zu den Clients zurück, die in Skype for Business Server Umgebung unterstützt werden. Mit einer Clientversionsrichtlinie können Sie die Clients angeben, die sich bei Skype for Business Server System anmelden können.
 
 Betrachten wir die verschiedenen Aufgaben, die ein Benutzer mit **CLIENT VERSION POLICY** ausführen kann, und die Skype for Business Cmdlets, denen diese Aufgaben zugeordnet sind.
 
@@ -369,7 +369,7 @@ Betrachten wir die verschiedenen Aufgaben, die ein Benutzer auf **DEVICE UPDATE*
 
 Das Untermenüelement **"GERÄT TESTEN"** bietet Administratoren die Möglichkeit, Firmwareupdates zu testen, bevor diese Updates an alle Geräte in einer Organisation verteilt werden.
 
-Betrachten wir die verschiedenen Aufgaben, die ein Benutzer auf **DEM TESTGERÄT** ausführen kann, und die Skype for Business Cmdlets, denen diese Aufgaben zugeordnet sind.
+Betrachten wir die verschiedenen Aufgaben, die ein Benutzer auf **TEST DEVICE** ausführen kann, und die Skype for Business Cmdlets, denen diese Aufgaben zugeordnet sind.
 
 ---
 > **Szenario 1:** Auflisten aller Testgeräte
@@ -629,7 +629,7 @@ Betrachten wir die verschiedenen Aufgaben, die ein Benutzer mit **DEVICE CONFIGU
 
 ## <a name="mobility-policy"></a>Mobilitätsrichtlinie
 
-**Mobilitätsrichtlinie** bestimmt, ob ein Benutzer Skype for Business Mobile verwenden kann. Diese Richtlinien bestimmen ferner, ob ein Benutzer das Feature "Geschäftlich anrufen" nutzen darf, um Anrufe auf seinem Mobiltelefon unter Verwendung seiner geschäftlichen Telefonnummer anstatt seiner Mobilfunknummer zu tätigen und entgegenzunehmen. Mobilitätsrichtlinien können auch verwendet werden, um Wi-Fi Verbindungen beim Tätigen oder Empfangen von Anrufen zu einer Anforderung zu machen.
+**Die MOBILITÄTSRICHTLINIE** bestimmt, ob ein Benutzer Skype for Business Mobile verwenden kann. Diese Richtlinien bestimmen ferner, ob ein Benutzer das Feature "Geschäftlich anrufen" nutzen darf, um Anrufe auf seinem Mobiltelefon unter Verwendung seiner geschäftlichen Telefonnummer anstatt seiner Mobilfunknummer zu tätigen und entgegenzunehmen. Mobilitätsrichtlinien können auch verwendet werden, um Wi-Fi Verbindungen beim Tätigen oder Empfangen von Anrufen zu einer Anforderung zu machen.
 
 Betrachten wir die verschiedenen Aufgaben, die ein Benutzer mit **MOBILITY POLICY** ausführen kann, und die Skype for Business Cmdlets, denen diese Aufgaben zugeordnet sind.
 
