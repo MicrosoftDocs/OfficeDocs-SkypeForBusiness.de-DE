@@ -2,7 +2,7 @@
 title: Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e12613e-59f2-4810-a32d-24a9789a4a6e
 description: Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objekte und der universellen Dienst- und Verwaltungsgruppen, die bei der Gesamtstrukturvorbereitung erstellt werden.
-ms.openlocfilehash: 3da4c97a5dab0b7738f01201f9c0cc5b4e34a782
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8226c2e9b692699902faa751fafe14424e43ed45
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745871"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828638"
 ---
 # <a name="changes-made-by-forest-preparation-in-skype-for-business-server"></a>Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server
 
@@ -26,7 +26,7 @@ Dieser Abschnitt enthält eine Beschreibung der globalen Einstellungen und Objek
 
 ## <a name="active-directory-global-settings-and-objects"></a>Globale Einstellungen und Objekte in Active Directory
 
-Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie bei allen neuen Skype for Business Server Bereitstellungen), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienstcontainer und fügt unter dem Configuration\Services-Objekt ein **RTC Service-Objekt** hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das globale Einstellungsobjekt enthält alle Einstellungen, die für die Skype for Business Server Bereitstellung gelten. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\Microsoft" ein Objekt "RTC Service" hinzugefügt.
+Wenn Sie globale Einstellungen im Konfigurationscontainer speichern (wie bei allen neuen Skype for Business Server Bereitstellungen), verwendet die Gesamtstrukturvorbereitung den vorhandenen Dienstcontainer und fügt unter dem Configuration\Services-Objekt ein **RTC-Dienstobjekt** hinzu. Unterhalb des Objekts "RTC Service" wird bei der Gesamtstrukturvorbereitung ein Objekt **Global Settings** vom Typ "msRTCSIP-GlobalContainer" hinzugefügt. Das globale Einstellungsobjekt enthält alle Einstellungen, die für die Skype for Business Server Bereitstellung gelten. Wenn Sie die globalen Einstellungen im Systemcontainer speichern, wird bei der Gesamtstrukturvorbereitung ein Microsoft-Container unterhalb des Systemcontainers der Stammdomäne verwendet und unterhalb des Objekts "System\Microsoft" ein Objekt "RTC Service" hinzugefügt.
 
 Außerdem wird während der Gesamtstrukturvorbereitung ein neues Objekt **msRTCSIP-Domain** für die Stammdomäne hinzugefügt, in der das Verfahren ausgeführt wird.
 

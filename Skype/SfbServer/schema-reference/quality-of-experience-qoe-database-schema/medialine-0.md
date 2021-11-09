@@ -2,7 +2,7 @@
 title: MediaLine-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 414b1d63-ae97-4c27-bac0-c9ad0f808ff0
 description: Jeder Datensatz stellt eine Medienzeile dar. (Eine Audiositzung enthält in der Regel eine Audiomedienzeile. Eine Audio- und Videositzung (A/V) enthält in der Regel eine Audiomedienzeile und eine Videomedienleitung, obwohl die Sitzung möglicherweise zwei Videomedienzeilen enthält, wenn ein Konferenzgerät verwendet wird oder die Galerieansicht verwendet wird.
-ms.openlocfilehash: ae2d776b47f7fe0ef172c9904ea77ae6188535fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d832990b92bd0f398c613f2daeec91fc89f5f52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754284"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857162"
 ---
 # <a name="medialine-table"></a>MediaLine-Tabelle
  

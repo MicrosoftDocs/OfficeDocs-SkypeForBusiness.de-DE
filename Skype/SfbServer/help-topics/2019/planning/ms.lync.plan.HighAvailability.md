@@ -2,7 +2,7 @@
 title: Hochverfügbarkeit (Planungstool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
 ROBOTS: NOINDEX, NOFOLLOW
 description: Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server basiert auf Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers.
-ms.openlocfilehash: 57a12aeb3ea3997f160949d374f2d430137c32c2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bd8d5f56055e75cfdccaaf7867c5b59feb9e39e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758767"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841707"
 ---
 # <a name="high-availability-planning-tool"></a>Hochverfügbarkeit (Planungstool)
  
@@ -39,6 +39,6 @@ Skype for Business Server erfordert mindestens zwei Front-End-Server, um hohe Ve
     > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Skype for Business zum Microsoft Teams Upgrade.](/MicrosoftTeams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, Teams oder Skype for Business Server 2015 weiterhin verwenden. 
 
     
-Das Planungstool fügt außerdem eine Spiegeldatenbank SQL für alle Datenbanken hinzu. Wenn z. B. eine Front-End-SQL Server-Datenbank vorhanden ist, fügt das Planungstool die andere Datenbank als Spiegeldatenbank für diese hinzu und bezeichnet sie als "Front-End-Spiegel SQL Datenbank.
+Das Planungstool fügt außerdem eine Spiegeldatenbank SQL für alle Datenbanken hinzu. Wenn z. B. eine Front-End-SQL Server-Datenbank vorhanden ist, fügt das Planungstool die andere Datenbank als Spiegeldatenbank für diese hinzu und bekommt den Namen "Front-End-Spiegel SQL Datenbank.
   
 Weitere Informationen zur Vorbereitung Ihrer Umgebung auf hohe Verfügbarkeit finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server.](../../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)

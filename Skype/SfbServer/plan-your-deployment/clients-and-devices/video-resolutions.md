@@ -2,7 +2,7 @@
 title: Skype for Business-Clientvideoauflösungen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8f68f4c2-3194-487c-bd2f-fbe71ba8ad70
 description: 'Zusammenfassung: Überprüfen Sie die Clientvideoanforderungen bei der Planung für Skype for Business Server.'
-ms.openlocfilehash: 6a483a67b298f2d1ce9a32fbcd7e89882c0598aa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 717813e9ed667bbd0d3d9d63e45ae3b9c45b4dcf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745881"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856552"
 ---
 # <a name="skype-for-business-client-video-resolutions"></a>Skype for Business-Clientvideoauflösungen
  
@@ -35,13 +35,13 @@ IT-Experten werden diese Informationen nützlich finden, um die Eignung von Lapt
 
 Skype for Business verwendet die Hardwarebeschleunigung für die Videocodierung und -decodierung basierend auf dem Standard H.264/MPEG-4 Part 10 Advanced Video Coding. Auf diese Weise können Computer mit niedrigeren CPU-Taktgeschwindigkeiten Videos mit höherer Auflösung codieren und decodieren. Die Videohardware-Anforderungen hängen von der Computerkonfiguration und der gewünschten Videoauflösung ab.
   
-Weitere Informationen finden Sie unter [Windows- und Mac-Hardwareanforderungen.](https://products.office.com/office-system-requirements)
+Siehe auch [Windows- und Mac-Hardwareanforderungen.](https://products.office.com/office-system-requirements)
   
 ### <a name="video-hardware-requirements"></a>Anforderungen an die Videohardware
 
 |**Funktion**|**Anforderung**|
 |:-----|:-----|
-|Hardwarebeschleunigte H.264-Decodierung mit DirectX Video Acceleration (DXVA)  <br/> |• Grafikkarte muss DirectX 9.0 unterstützen und die DXVA2_ModeH264_VLD_NoFGT Decodierungsmodus und die DirectX 9-API verfügbar machen.  <br/> • Der neueste Grafikkartentreiber muss installiert sein.  <br/> |
+|Hardwarebeschleunigte H.264-Decodierung mit DirectX Video Acceleration (DXVA)  <br/> |• Die Grafikkarte muss DirectX 9.0 unterstützen und die DXVA2_ModeH264_VLD_NoFGT Decodierungsmodus und die DirectX 9-API verfügbar machen.  <br/> • Der neueste Grafikkartentreiber muss installiert sein.  <br/> |
 |Hardwarebeschleunigte H.264-Codierung: Chipsatzanforderungen  <br/> |Die folgenden hardwarebeschleunigte Videocodierungslösungen von Intel werden unterstützt:  <br/> • Intel HD Graphics 2000-, 2500-, 3000- und 4000-Chipsätze der zweiten und dritten Generation (oder neuere Versionen) mit integrierten Hardware-Video-Encodern. Die Installation des Intel HD Graphics-Treibers 15.28.9.2884 oder des neuesten Treibers, der Folgendes enthält, ist erforderlich:  <br/> • Anzeigetreiber 9.17.10.2884 oder der neueste Treiber  <br/> • Hardware Media Foundation Transform (HMFT) Version 3.12.10.31 oder die neueste HMFT  <br/> Die folgenden hardwarebeschleunigte Videocodierungslösungen für AMD werden unterstützt:  <br/> • AMD Video Codec Engine, das in mehreren separaten Grafikkarten und in integrierten beschleunigten Verarbeitungseinheiten von AMD A-Series Accelerated Processors verfügbar ist. Der AMD Video Codec Engine-Treiber 9.12.0.0 oder höher muss installiert sein.  <br/> |
 |Hardwarebeschleunigte H.264-Codierung: Kameraanforderungen  <br/> |USB-Videokameras mit integrierter H.264-Hardwarecodierung entsprechend der USB Video Class (UVC-)Spezifikation Version 1.5.  <br/> **Hinweis:** Skype for Business unterstützt UVC 1.5-Kameras mit Windows 8 oder Windows 8.1, einschließlich der Unterstützung für UVC 1.5. Da Windows 7 keine Unterstützung für UVC 1.5 umfasst, behandelt Skype for Business UVC 1.5-Kameras als normale Kameras ohne Hardwarecodierungsunterstützung. <br/> |
    
@@ -75,7 +75,7 @@ Die folgenden drei Tabellen erläutern die maximale Codierungs- und Decodierungs
 |640 x 360  <br/> |1920 x 1080  <br/> |4 Kerne und VideoEncodeScore ≥ 4,5  <br/> |
 |1280 x 720  <br/> |1280 x 720  <br/> |4 Kerne und VideoEncodeScore ≥ 7,3  <br/> |
 |1280 x 720  <br/> |1920 x 1080  <br/> |4 Kerne und VideoEncodeScore ≥ 7,3  <br/> |
-|1920 x 1080  <br/> |1920 x 1080  <br/> |–  <br/> |
+|1920 x 1080  <br/> |1920 x 1080  <br/> |Nicht zutreffend  <br/> |
    
 **Computer mit DXVA, aber ohne hardwarebeschleunigten Codierer**
 

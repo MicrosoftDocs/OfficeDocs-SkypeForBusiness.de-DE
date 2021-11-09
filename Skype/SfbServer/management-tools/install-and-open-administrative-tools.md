@@ -2,7 +2,7 @@
 title: Installieren und Öffnen von Verwaltungstools
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren und öffnen, die Sie zum Bereitstellen und Verwalten von Skype for Business benötigen.
-ms.openlocfilehash: a40a1617490f22c37ec2a8173118dcb289ec8ff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 21fc33f5e095100f9634695925e1000172742695
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743431"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848418"
 ---
 # <a name="install-and-open-administrative-tools"></a>Installieren und Öffnen von Verwaltungstools
 
@@ -33,7 +33,7 @@ In diesem Thema wird beschrieben, wie Sie die Verwaltungstools installieren, die
 4. Klicken Sie auf der Seite "Installationsspeicherort" auf **"OK".** Ändern Sie diesen Pfad in einen anderen Speicherort oder ein anderes Laufwerk, wenn Sie die Dateien an einem anderen Speicherort installieren müssen.
 
     > [!Important]
-    > Wenn Ihre Organisation Internetinformationsdienste (IIS) und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk suchen muss, können Sie den Installationsspeicherortpfad für die Skype for Business Server Dateien im Dialogfeld "Setup" ändern. Wenn Sie die Setupdateien auf diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen Skype for Business Server Dateien auf diesem Laufwerk bereitgestellt. 
+    > Wenn Ihre Organisation Internetinformationsdienste (IIS) und alle Webdienste auf einem anderen Laufwerk als dem Systemlaufwerk suchen muss, können Sie den Installationsspeicherortpfad für die Skype for Business Server Dateien im Dialogfeld "Setup" ändern. Wenn Sie die Setupdateien unter diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen Skype for Business Server Dateien auf diesem Laufwerk bereitgestellt. 
 
 5. Lesen Sie die Lizenzbedingungen auf der Seite Endbenutzer-Lizenzvertrag, klicken Sie auf **Ich stimme zu** und anschließend auf **OK**. Dieser Schritt ist erforderlich, um fortfahren zu können.
 6. Klicken Sie auf der Seite des Bereitstellungs-Assistenten auf **"Administratortools installieren".** 
@@ -64,7 +64,7 @@ Verwenden Sie das folgende Verfahren, um den Topologie-Generator zu öffnen, um 
 
 1. Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
     > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber um eine Topologie zu lesen, zu veröffentlichen oder zu aktivieren, die zum Installieren von Skype for Business Server auf einem Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe "Domänenadministratoren" und der Gruppe "RTCUniversalServerAdmins" ist.  verfügt über Vollzugriffsberechtigungen (d. h. Lesen, Schreiben und Ändern) für die Dateifreigabe, die Sie für den Archivierungsdateispeicher verwenden möchten, damit der Topologie-Generator die erforderliche freie Zugriffssteuerungsliste (Discretionary Access Control List, DACLs) oder ein Konto mit entsprechenden Benutzerrechten konfigurieren kann.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber zum Lesen, Veröffentlichen oder Aktivieren einer Topologie, die zum Installieren von Skype for Business Server auf einem Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe "Domänenadministratoren" und der Gruppe "RTCUniversalServerAdmins" ist.  verfügt über Vollzugriffsberechtigungen (d. h. Lesen, Schreiben und Ändern) für die Dateifreigabe, die Sie für den Archivierungsdateispeicher verwenden möchten, damit der Topologie-Generator die erforderliche freie Zugriffssteuerungsliste (Discretionary Access Control List, DACLs) oder ein Konto mit entsprechenden Benutzerrechten konfigurieren kann.
  
 2. Topologie-Generator starten: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business Server"** und dann auf **Skype for Business Server Topologie-Generator.**
 
@@ -75,7 +75,7 @@ Verwenden Sie eines der folgenden Verfahren, um die Skype for Business Server Sy
 > [!NOTE]
 > Sie können ein Benutzerkonto verwenden, das der Rolle "CsAdministrator" zugewiesen ist, um alle Aufgaben in der Skype for Business Server Systemsteuerung auszuführen. Sie können andere Rollen verwenden, um sich bei der Skype for Business Server Systemsteuerung anzumelden, um bestimmte Verwaltungsaufgaben auszuführen, abhängig von der aufgabe, die Sie ausführen müssen. Sie können z. B. CSArchivingAdministrator verwenden, um die Archivierung in der Skype for Business Server Systemsteuerung zu verwalten. Ausführliche Informationen zu Rollen finden Sie unter [Planen der rollenbasierten Zugriffssteuerung.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) Ausführliche Informationen zu den Rollen, die Sie zum Ausführen einer bestimmten Aufgabe verwenden können, finden Sie in der Dokumentation für die Aufgabe. 
 
-**So öffnen Sie die Skype for Business Server Systemsteuerung von jedem Computer in der Firewall Ihrer Organisation**
+**So öffnen Sie die Skype for Business Server Systemsteuerung von einem beliebigen Computer in der Firewall Ihrer Organisation**
 
 1. Melden Sie sich von einem Benutzerkonto, das der Rolle "CsAdministrator" oder einer anderen Rolle zugewiesen ist, die über die entsprechenden Benutzerrechte und Berechtigungen für die auszuführende Aufgabe verfügt, bei einem beliebigen Computer in Ihrer internen Bereitstellung mit einer mindesten Bildschirmauflösung von 1024 x 768 an.
 
@@ -86,8 +86,8 @@ Verwenden Sie eines der folgenden Verfahren, um die Skype for Business Server Sy
 
 **So öffnen Sie die Skype for Business Server Systemsteuerung auf einem Computer, auf dem Skype for Business Server**
 
-1. Melden Sie sich von einem Benutzerkonto, das Mitglied der Rolle "CsAdministrator" ist, oder einer anderen Rolle, die über die entsprechenden Benutzerrechte und Berechtigungen für die auszuführende Aufgabe verfügt, bei einem Computer an, auf dem Sie Skype for Business Server installiert haben, oder mindestens bei den Skype for Business Server Verwaltungstools. Zum Konfigurieren von Einstellungen muss der Computer eine minimale Bildschirmauflösung von 1024 x 768 aufweisen.
-2. Start Skype for Business Server Systemsteuerung: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **"Verwaltungstools",** auf **Skype for Business Server** und dann auf **Skype for Business Server Systemsteuerung.**
+1. Melden Sie sich von einem Benutzerkonto, das Mitglied der Rolle "CsAdministrator" oder einer anderen Rolle ist, das über die entsprechenden Benutzerrechte und Berechtigungen für die auszuführende Aufgabe verfügt, bei einem Computer an, auf dem Sie Skype for Business Server installiert haben, oder mindestens bei den Skype for Business Server Verwaltungstools. Zum Konfigurieren von Einstellungen muss der Computer eine minimale Bildschirmauflösung von 1024 x 768 aufweisen.
+2. Starten Sie Skype for Business Server Systemsteuerung: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **"Verwaltungstools",** auf **Skype for Business Server** und dann auf **Skype for Business Server Systemsteuerung.**
 
 ## <a name="skype-for-business-server-management-shell"></a>Skype for Business Server-Verwaltungsshell 
 
@@ -98,7 +98,7 @@ Verwenden Sie das folgende Verfahren, um die Skype for Business Server Verwaltun
 
 **So öffnen Sie Skype for Business Server Verwaltungsshell**
 
-Wenn Sie ein Windows PowerShell Fenster anstelle der Skype for Business Server-Verwaltungsshell öffnen, können Sie die cmdlets Skype for Business Server standardmäßig nicht ausführen. Um die cmdlets Skype for Business Server in Windows PowerShell auszuführen, geben Sie an der Eingabeaufforderung Windows PowerShell Folgendes ein:
+Wenn Sie anstelle der Skype for Business Server-Verwaltungsshell ein Windows PowerShell Fenster öffnen, können Sie die Cmdlets Skype for Business Server standardmäßig nicht ausführen. Wenn Sie die cmdlets Skype for Business Server innerhalb Windows PowerShell ausführen möchten, geben Sie an der Eingabeaufforderung Windows PowerShell Folgendes ein:
 
 `Import-Module Lync`
 

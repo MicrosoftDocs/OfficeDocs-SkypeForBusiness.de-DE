@@ -2,7 +2,7 @@
 title: Hinzufügen eines Edgeservers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9bd9c2b2-8329-4b31-a937-e462f5cc7293
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des Externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Preparing for Installation of Servers in the Perimeter Network in der Bereitstellungsdokumentation.
-ms.openlocfilehash: 5c4fa2c6930b576995357ef86d5ca409b9bb15c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter Preparing for Installation of Servers in the Perimeter Network in der Bereitstellungsdokumentation.
+ms.openlocfilehash: 6beac7dc3603efd3ee5f0d5b8cf36b2c2206be8e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742461"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832649"
 ---
 # <a name="add-edge-server"></a>Hinzufügen eines Edgeservers
 
-Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des Externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter [Preparing for Installation of Servers in the Perimeter Network](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network) in der Bereitstellungsdokumentation.
+Um einen Edgeserver oder Edgeserverpool in Ihren Topologieentwurf zu integrieren, müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem der Edgeserver oder Edgeserverpool bereitgestellt werden soll. Bevor Sie eine Topologie veröffentlichen, die den Edgeserver oder Edgeserverpool enthält, und Skype for Business Server installieren, sollten Sie alle Voraussetzungen für die Bereitstellung des externen Benutzerzugriffs erfüllt haben. Ausführliche Informationen zu diesen Voraussetzungen finden Sie unter [Preparing for Installation of Servers in the Perimeter Network](/previous-versions/office/lync-server-2013/lync-server-2013-preparing-for-installation-of-servers-in-the-perimeter-network) in der Bereitstellungsdokumentation.
 
 > [!IMPORTANT]
 > Der angegebene Name muss mit dem auf dem Server konfigurierten Computernamen übereinstimmen. Der Name eines Computers, der nicht Mitglied einer Domäne ist, ist standardmäßig kein FQDN, sondern ein Kurzname. Der Topologie-Generator verwendet keine Kurznamen, sondern FQDNs. Sie müssen ein DNS-Suffix (Domain Name System) für den Namen des Computers konfigurieren, der als Edgeserver oder Edgeserverpool bereitgestellt werden soll und nicht Mitglied einer Domäne ist.

@@ -2,7 +2,7 @@
 title: Featureübersicht (Planungstool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server Planungstool
-ms.openlocfilehash: 0b47d1dad12d4933f042217b4762d7bb4f766c6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832689"
 ---
 # <a name="feature-overview-planning-tool"></a>Featureübersicht (Planungstool)
  
@@ -35,7 +35,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 - **Anzahl der Benutzer** Geben Sie die Anzahl der Benutzer ein, einschließlich der Benutzer an Zweigstellen, die am zentralen Standort verwaltet werden.
     
-- **In der Cloud verwalteten Benutzer** Geben Sie die Anzahl der Benutzer ein, die von Skype for Business Online auf der zentralen Website verwaltet werden.
+- **In der Cloud verwalteten Benutzer** Geben Sie die Anzahl der Benutzer ein, die von Skype for Business Online auf dem zentralen Standort verwaltet werden.
     
 ## <a name="ui-elements"></a>UI-Elemente
 
@@ -55,7 +55,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Einwahlkonferenzen**
     
-    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Für Einwahlkonferenzen müssen Sie die Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen bereitstellen.
+    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Einwahlkonferenzen erfordern, dass Sie die Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen bereitstellen.
     
 - **Webkonferenzen**
     
@@ -66,7 +66,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     Der beständige Chat ermöglicht es mehreren Benutzern, an Unterhaltungen teilzunehmen, in denen sie Inhalte zu bestimmten Themen veröffentlichen und darauf zugreifen, einschließlich Text, Links und Dateien. Benutzer können zwar während einer Sitzung in Echtzeit kommunizieren, der Inhalt der einzelnen Sitzungen kann jedoch dauerhaft sein, was bedeutet, dass er auch nach Beendigung einer Sitzung weiterhin verfügbar ist.
 
     > [!NOTE] 
-    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Skype for Business zum Microsoft Teams Upgrade.](/MicrosoftTeams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Skype for Business zum Microsoft Teams Upgrade.](/MicrosoftTeams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, Teams oder Skype for Business Server 2015 weiterhin verwenden.
     
 ### <a name="users"></a>Benutzer
 
@@ -86,14 +86,14 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Mobilität**
     
-    Wenn Sie den Skype for Business Server Mobility Service bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
+    Wenn Sie den Skype for Business Server Mobilitätsdienst bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
     
 - **W15 Exchange-Postfach**
     
-    Skype for Business Server können Voicemailnachrichten in Exchange Unified Messaging (UM) gespeichert werden. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
+    Skype for Business Server ermöglicht es Ihnen, Voicemailnachrichten in Exchange Unified Messaging (UM) zu speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
 
     > [!NOTE]
-    > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar. Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+    > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar, Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
     
 ### <a name="voice"></a>VoIP
 
@@ -108,7 +108,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Anrufbeantwortung, Abonnentenzugriff, Anrufbenachrichtigung und automatische Telefonzentralendienste bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
 
     > [!NOTE]
-    > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar. Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+    > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar, Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
     
 ### <a name="additional-deployment-options"></a>Zusätzliche Bereitstellungsoptionen
 
@@ -168,7 +168,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder unveränderlich sind.
     
 - **Anrufsteuerung**
     

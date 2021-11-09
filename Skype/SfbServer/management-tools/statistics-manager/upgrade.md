@@ -2,7 +2,7 @@
 title: Aktualisieren von Statistics Manager für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server aktualisieren.'
-ms.openlocfilehash: 2196f07d25fb761055df4432f0c2fd930368474d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772001"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857332"
 ---
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  

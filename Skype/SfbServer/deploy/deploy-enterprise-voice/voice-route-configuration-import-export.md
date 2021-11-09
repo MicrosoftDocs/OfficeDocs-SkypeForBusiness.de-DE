@@ -2,7 +2,7 @@
 title: Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Konfigurationsdatei für das VoIP-Routing in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.'
-ms.openlocfilehash: 7b3b0ae7e7fe49b645fd5a6ee6b6b4d9fcc1affd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine VoIP-Routing-Konfigurationsdatei in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.'
+ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773225"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832899"
 ---
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business
  
-**Zusammenfassung:** Erfahren Sie, wie Sie eine VoIP-Routing-Konfigurationsdatei in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie eine Konfigurationsdatei für das VoIP-Routing in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.
   
 Wenn Sie Ihre VoIP-Routingkonfiguration speichern möchten, ohne sie zu veröffentlichen, führen Sie die folgenden Schritte aus, um eine Momentaufnahme Ihrer VoIP-Routingkonfiguration zu speichern und abzurufen. 
   

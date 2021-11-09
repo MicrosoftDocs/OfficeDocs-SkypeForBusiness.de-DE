@@ -2,7 +2,7 @@
 title: Response Groups Queue Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.
-ms.openlocfilehash: 995a2ec25184f451fe28a7f32ac9335b1b7248e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1595439c8d85bf5525ef5cecdc250856d9d2596f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745221"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832699"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Reaktionsgruppenwarteschleife: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppenwarteschleife
 
@@ -38,7 +38,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
     Mit den Pfeilen nach oben und unten wird eine ausgewählte Agentgruppe in der Liste nach oben und unten verschoben. Die Reihenfolge der Agentgruppen wirkt sich auf die Reihenfolge aus, in der Skype for Business Server nach einem verfügbaren Agent sucht. Das heißt, die erste Gruppe in der Liste wird zuerst nach einem verfügbaren Agent durchsucht, gefolgt von der zweiten Gruppe usw.
 
-- **Aktivieren des Warteschlangentimeouts** Aktivieren Sie dieses Kontrollkästchen, um einen maximalen Zeitraum anzugeben, bis ein Anrufer im Wartebereich warte, bevor ein Agent den Anruf entgegennimmt. Wenn Sie diese Option auswählen, müssen Sie auch Folgendes angeben:
+- **Aktivieren des Warteschlangentimeouts** Aktivieren Sie dieses Kontrollkästchen, um einen maximalen Zeitraum anzugeben, bis ein Anrufer in der Warteschleife warte, bevor ein Agent den Anruf entgegennimmt. Wenn Sie diese Option auswählen, müssen Sie auch Folgendes angeben:
 
   - **Timeoutzeitraum (Sekunden)** Wählen Oder geben Sie die maximale Anzahl von Sekunden ein, die ein Anrufer warten kann, bevor ein Agent den Anruf entgegennimmt.
 
@@ -46,11 +46,11 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Disconnect**
 
-  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
+  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein \<username> @ \<domainname> (z. B. sip:bob \@ contoso.com).
 
-  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein <number> @ <domainname> (z. B. sip:+14255550121@contoso.com).
+  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein \<number> @ \<domainname> (z. B. sip:+14255550121 \@ contoso.com).
 
-  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: <username> @ <domainname> .
+  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: \<username> @ \<domainname> .
 
   - **An eine andere Warteschlange weiterleiten** Wenn Sie diese Option auswählen, navigieren Sie zu der Warteschleife, in der Anrufe empfangen werden sollen, wenn das Zeitlimit für die Anrufe abläuft.
 
@@ -64,11 +64,11 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Disconnect**
 
-  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
+  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein \<username> @ \<domainname> (z. B. sip:bob@contoso.com).
 
-  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein <number> @ <domainname> (z. B. sip:+14255550121@contoso.com).
+  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein \<number> @ \<domainname> (z. B. sip:+14255550121@contoso.com).
 
-  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: <username> @ <domainname> .
+  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: \<username> @ \<domainname> .
 
   - **An eine andere Warteschlange weiterleiten** Wenn Sie diese Option auswählen, navigieren Sie zu der Warteschleife, die Anrufe empfangen soll, wenn der Schwellenwert für den Warteschleifenüberlauf erreicht ist.
 

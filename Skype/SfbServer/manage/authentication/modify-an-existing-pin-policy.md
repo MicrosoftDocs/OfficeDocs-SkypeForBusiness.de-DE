@@ -2,7 +2,7 @@
 title: Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 'Zusammenfassung: Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server.'
-ms.openlocfilehash: dac6540407ed019fe9147d86bc119426a6679574
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754868"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848578"
 ---
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server
  
@@ -30,7 +30,7 @@ Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- ode
   
 ### <a name="to-modify-an-existing-pin-policy"></a>So ändern Sie eine vorhandene PIN-Richtlinie
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     

@@ -2,7 +2,7 @@
 title: Planen von Einwahlkonferenzen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Planung von Einwahlkonferenzen in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: ec4bfdbb514f1027ff11098cc1ba78045faf1553
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763523"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841087"
 ---
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planen von Einwahlkonferenzen in Skype for Business Server
  
@@ -25,7 +25,7 @@ ms.locfileid: "60763523"
   
 Einwahlkonferenzen sind ein optionales Feature von Skype for Business Server, mit dem Besprechungsteilnehmer am Audioteil einer Besprechung teilnehmen können, indem sie sich über ein Telefon in die Besprechung einwählen. Einwahlkonferenzen sind ein Teil von Audiokonferenzen und erfordern zusätzliche Konfiguration. In diesem Thema wird beschrieben, was Sie bedenken müssen, bevor Sie Einwahlkonferenzen für Ihre Organisation bereitstellen. 
   
-Einige der für Einwahlkonferenzen erforderlichen Komponenten sind spezifisch für Einwahlkonferenzen, andere Enterprise-VoIP Komponenten. Obwohl Einwahlkonferenzen einige der gleichen Komponenten verwenden, die Enterprise-VoIP verwendet, können Sie Einwahlkonferenzen auch dann bereitstellen, wenn Sie Enterprise-VoIP nicht bereitstellen. In diesem Abschnitt werden die Komponenten beschrieben, die für Einwahlkonferenzen benötigt werden. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP Lösung in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)
+Einige der für Einwahlkonferenzen erforderlichen Komponenten sind spezifisch für Einwahlkonferenzen, andere Enterprise-VoIP Komponenten. Obwohl Einwahlkonferenzen einige der gleichen Komponenten verwenden, die Enterprise-VoIP verwenden, können Sie Einwahlkonferenzen auch dann bereitstellen, wenn Sie Enterprise-VoIP nicht bereitstellen. In diesem Abschnitt werden die Komponenten beschrieben, die für Einwahlkonferenzen benötigt werden. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP Lösung in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)
   
 Einwahlkonferenzen erfordern, dass Sie eine Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) herstellen, indem Sie einen Vermittlungsserver bereitstellen. Zusätzlich zur Bereitstellung eines Vermittlungsservers müssen Sie Folgendes berücksichtigen, um Einwahlkonferenzen für Ihre Organisation zuzulassen:
   
@@ -46,11 +46,11 @@ Einwahlkonferenzen erfordern, dass Sie eine Verbindung mit dem Telefonfestnetz (
 
 Einwahlkonferenzen erfordern mindestens einen Vermittlungsserver und mindestens ein PSTN-Gateway (Public Switched Telephone Network). 
   
-Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort können Sie einen Vermittlungsserver in einem Front-End-Pool oder Standard Edition-Server oder auf einem eigenständigen Server oder Pool bereitstellen. An einem Zweigstellenstandort können Sie einen Vermittlungsserver auf einem eigenständigen Server oder als Komponente der Survivable Branch Appliance bereitstellen.
+Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort können Sie einen Vermittlungsserver in einem Front-End-Pool oder Standard Edition-Server verbinden oder auf einem eigenständigen Server oder Pool bereitstellen. An einem Zweigstellenstandort können Sie einen Vermittlungsserver auf einem eigenständigen Server oder als Komponente der Survivable Branch Appliance bereitstellen.
   
 Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder eine Komponente der Survivable Branch Appliance sein.
   
-Ausführliche Informationen zu den Anforderungen für Vermittlungsserver und PSTN-Gateways finden Sie unter [Vermittlungsserverkomponente in Skype for Business Server,](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)und Definieren eines [Gateways im Topologie-Generator in Skype for Business Server.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
+Ausführliche Informationen zu den Anforderungen für Vermittlungsserver und PSTN-Gateways finden Sie [unter Vermittlungsserverkomponente in Skype for Business Server,](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)und Definieren eines [Gateways im Topologie-Generator in Skype for Business Server.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planen von Wählplänen, Zugriffsnummern und Konferenzregionen
 

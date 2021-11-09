@@ -1,8 +1,8 @@
 ---
-title: Anforderungen an den Lastenausgleich für Skype for Business
+title: Lastenausgleichsanforderungen für Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,14 +16,14 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 84489328-64a4-486c-9384-a3e5c8ed9c8b
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zum Lastenausgleich, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: a738a615c773b3f2861899e061fbdbd664e05636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4bdfc9d9958154df8ce485c945dbe8accd630ed8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777945"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840997"
 ---
-# <a name="load-balancing-requirements-for-skype-for-business"></a>Anforderungen an den Lastenausgleich für Skype for Business
+# <a name="load-balancing-requirements-for-skype-for-business"></a>Lastenausgleichsanforderungen für Skype for Business
  
 **Zusammenfassung:** Überprüfen Sie die Überlegungen zum Lastenausgleich, bevor Sie Skype for Business Server implementieren.
   
@@ -60,7 +60,7 @@ Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den
 > Wenn Sie ein Hardwaregerät zum Lastenausgleich einsetzen, muss der Lastenausgleich für Verbindungen mit dem internen Netzwerk so konfiguriert werden, dass nur für den Datenverkehr zu Servern, auf denen der Zugriffs-Edgedienst und der A/V-Edgedienst ausgeführt werden, ein Lastenausgleich stattfindet. Es kann kein Lastenausgleich für den Datenverkehr zum internen Webkonferenz-Edgedienst oder zum internen XMPP-Proxydienst durchgeführt werden. 
   
 > [!NOTE]
-> Die NAT für direkte Serverrückgabe (Direct Server Return, DSR) wird mit Skype for Business Server nicht unterstützt. 
+> Die NAT für direkte Serverrückgabe (Direct Server Return, DSR) wird bei Skype for Business Server nicht unterstützt. 
   
 Informationen dazu, ob Ihr Hardwaregerät zum Lastenausgleich die erforderlichen Features unterstützt, die von Skype for Business Server benötigt werden, finden Sie unter [Infrastruktur für Skype for Business.](../../../SfbPartnerCertification/certification/infra-gateways.md) 
   
@@ -136,17 +136,17 @@ Sie definieren die Portüberwachung für Hardwaregeräte zum Lastenausgleich (Ha
   
 **Front-End-Serverbenutzerpool – interne HLB-Schnittstelle**
 
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |\<pool\>web-int_mco_443_vs  <br/> 443  <br/> |443  <br/> |Front-End-  <br/> 5061  <br/> |Source  <br/> |HTTPS  <br/> |
-|\<pool\>web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End-  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
+|\<pool\>Web-int_mco_80_vs  <br/> 80  <br/> |80  <br/> |Front-End-  <br/> 5061  <br/> |Source  <br/> |HTTP  <br/> |
    
 **Front-End-Serverbenutzerpool – externe HLB-Schnittstelle**
 
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End-  <br/> 5061  <br/> |None  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End-  <br/> 5061  <br/> |None  <br/> |HTTP  <br/> |
    
 ## <a name="dns-load-balancing"></a>DNS-Lastenausgleich
 <a name="BKMK_DNSLoadBalancing"> </a>

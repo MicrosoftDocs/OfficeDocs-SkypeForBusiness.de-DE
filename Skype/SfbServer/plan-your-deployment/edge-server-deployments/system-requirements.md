@@ -2,7 +2,7 @@
 title: Systemanforderungen für Edgeserver in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ed53a566-0504-46f9-81a7-116a637833af
 description: 'Zusammenfassung: Erfahren Sie mehr über die Systemanforderungen für Edgeserver in Skype for Business Server.'
-ms.openlocfilehash: 573c9c71493c4bed59ce6fbde4dafa95848b469f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f61412ab8246945e50af0276e46ac53ca080605c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763493"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863462"
 ---
 # <a name="edge-server-system-requirements-in-skype-for-business-server"></a>Systemanforderungen für Edgeserver in Skype for Business Server
  
@@ -31,7 +31,7 @@ Wenn es um Ihre Skype for Business Server-Edgeserverbereitstellung geht, müssen
   
 ## <a name="components"></a>Komponenten
 
-Bei der Erläuterung der Edgeserverumgebung verweisen wir auf Komponenten, die größtenteils in einem Umkreisnetzwerk bereitgestellt werden (d. a. entweder in einer Arbeitsgruppe oder einer Domäne, die sich außerhalb Ihrer Skype for Business Server Domänenstruktur befindet).
+Bei der Erläuterung der Edgeserverumgebung verweisen wir auf Komponenten, die größtenteils in einem Umkreisnetzwerk bereitgestellt werden (d. a. entweder in einer Arbeitsgruppe oder in einer Domäne, die sich außerhalb Ihrer Skype for Business Server Domänenstruktur befindet).
   
 Beachten Sie, dass dies die Komponenten sind, die Sie berücksichtigen müssen, um Ihren Edge erfolgreich bereitzustellen:
   
@@ -60,7 +60,7 @@ Dies sind die Skype for Business Server, die in Ihrer Umkreisumgebung bereitgest
     
 - **XMPP-Proxydienst:** Akzeptiert und sendet XMPP-Nachrichten (Extensible Messaging and Presence Protocol) an und von konfigurierten XMPP-Verbundpartnern.
     
-Autorisierte externe Benutzer können Ihre Edgeserver verwenden, um eine Verbindung mit Ihrer internen Skype for Business Server-Bereitstellung herzustellen, aber andernfalls gewähren sie keinen anderen Zugriff auf Ihr internes Netzwerk für andere Benutzer.
+Autorisierte externe Benutzer können Ihre Edgeserver verwenden, um eine Verbindung mit Ihrer internen Skype for Business Server Bereitstellung herzustellen, aber andernfalls gewähren sie keinen anderen Zugriff auf Ihr internes Netzwerk für andere Benutzer.
   
 > [!NOTE]
 > Edgeserver werden bereitgestellt, um Verbindungen für aktivierte Skype for Business Clients und andere Edgeserver (in Verbundszenarien) bereitzustellen. Sie können keine Verbindung von anderen Endpunktclient- oder Servertypen herstellen. Der XMPP-Gatewayserver kann Verbindungen mit konfigurierten XMPP-Partnern zulassen. Aber auch hier sind dies die einzigen Client- und Verbundtypen, die funktionieren. 
@@ -83,7 +83,7 @@ Ein Reverseproxyserver (RP) hat keine Skype for Business Server Rolle, ist aber 
     
 - Dateien vom Adressbuchserver herunterladen oder Abfragen an den Adressbuchwebabfragedienst senden.
     
-- Updates für Client- und Gerätesoftware erhalten.
+- Updates für Client- und Gerätesoftware abrufen.
     
 Und für mobile Geräte:
   
@@ -91,7 +91,7 @@ Und für mobile Geräte:
     
 - Es ermöglicht Pushbenachrichtigungen von Microsoft 365 oder Office 365 an mobile Geräte.
     
-Unsere aktuellen Empfehlungen für Reverseproxys finden Sie auf der Seite ["Telefonieinfrastruktur für Skype for Business".](../../../SfbPartnerCertification/certification/infra-gateways.md) Ihr Reverseproxy also:
+Unsere aktuellen Reverseproxyempfehlungen finden Sie auf der Seite ["Telefonieinfrastruktur für Skype for Business".](../../../SfbPartnerCertification/certification/infra-gateways.md) Ihr Reverseproxy also:
   
 - transport layer security (TLS) verwenden können, die über öffentliche Zertifikate in Ihre Umgebung eingeführt wurde, um eine Verbindung mit den veröffentlichten externen Webdiensten herzustellen:
     
@@ -143,7 +143,7 @@ Die Skype for Business Server skalierte konsolidierte Edgetopologie ist für den
 - Exchange UM für Remotebenutzer, die Exchange UM **vor** Exchange 2013 verwenden.
     
 > [!IMPORTANT]
-> Es ist wichtig zu beachten, dass Sie Lastenausgleichsmodule nicht kombinieren können. In Ihrer Skype for Business Server Umgebung müssen alle Schnittstellen entweder DNS oder HLB verwenden. 
+> Es ist wichtig zu beachten, dass Sie Lastenausgleichsmodule nicht kombinieren können. In Ihrer Skype for Business Server-Umgebung müssen alle Schnittstellen entweder DNS oder HLB verwenden. 
   
 > [!NOTE]
 > Die NAT für direkte Serverrückgabe (Direct Server Return, DSR) wird für Skype for Business Server nicht unterstützt. 
@@ -183,10 +183,10 @@ Für **Bereitstellungen,** die cookiebasierte Affinität benötigen:
     
 - Das Cookie für das Hardwaregerät zum Lastenausgleich **muss** **"MS-WSMAN"** heißen (dies ist der Wert, den die Webdienste erwarten, und er kann nicht geändert werden).
     
-- Das Cookie für das Hardwaregerät zum Lastenausgleich **muss** in jeder HTTP-Antwort festgelegt werden, für die die eingehende HTTP-Anforderung kein Cookie hatte, unabhängig davon, ob eine vorherige HTTP-Antwort auf derselben TCP-Verbindung ein Cookie erhalten hat. Wenn Ihr Hardwaregerät zum Lastenausgleich das Einfügen von Cookies so optimiert, dass es nur einmal pro TCP-Verbindung auftritt, darf diese Optimierung **nicht** verwendet werden.
+- Das Cookie für das Hardwaregerät zum Lastenausgleich **muss** in jeder HTTP-Antwort festgelegt werden, für die die eingehende HTTP-Anforderung kein Cookie hatte, unabhängig davon, ob eine vorherige HTTP-Antwort auf derselben TCP-Verbindung ein Cookie erhalten hat. Wenn Ihr Hardwaregerät zum Lastenausgleich die Cookie-Einfügung so optimiert, dass sie nur einmal pro TCP-Verbindung auftritt, darf diese Optimierung **nicht** verwendet werden.
     
 > [!NOTE]
-> Es ist typisch für HLB-Konfigurationen, die Quellaffinität und die 20-minütige TCP-Sitzungsdauer zu verwenden, was für Skype for Business Server und deren Clients geeignet ist, da der Sitzungsstatus über die Clientverwendung und/oder Anwendungsinteraktion beibehalten wird. 
+> Es ist typisch für HLB-Konfigurationen, die Quellaffinität und die 20-minütige TCP-Sitzungsdauer zu verwenden, was für Skype for Business Server und deren Clients geeignet ist, da der Sitzungsstatus über die Clientnutzung und/oder Anwendungsinteraktion beibehalten wird. 
   
 Wenn Sie mobile Geräte bereitstellen, muss Ihr HLB in der Lage sein, einzelne Anforderungen innerhalb einer TCP-Sitzung zu lasten (tatsächlich müssen Sie in der Lage sein, eine einzelne Anforderung basierend auf der Ziel-IP-Adresse zu laden).
   
@@ -213,14 +213,14 @@ Hier sind die HLB-Anforderungen für die (optionalen) Director- und (erforderlic
 
 Sie definieren die Portüberwachung für Ihre Hardwaregeräte zum Lastenausgleich, um zu bestimmen, wann bestimmte Dienste aufgrund von Hardware- oder Kommunikationsfehlern nicht mehr verfügbar sind. Wenn beispielsweise der Front-End-Serverdienst (RTCSRV) beendet wird, weil der Front-End-Server oder Front-End-Pool fehlschlägt, sollte die HLB-Überwachung auch den Empfang von Datenverkehr in den Webdiensten beenden. Sie sollten die Portüberwachung auf der HLB implementieren, um Folgendes für die externe HLB-Schnittstelle zu überwachen:
   
-|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Hinweise**|
+|**Virtuelle IP/Port**|**Knoten Port**|**Knoten Computer/Monitor**|**Persistenzprofil**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
-|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTPS  <br/> |
-|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End-  <br/> 5061  <br/> |Keine  <br/> |HTTP  <br/> |
+|\<pool\>web_mco_443_vs  <br/> 443  <br/> |4443  <br/> |Front-End-  <br/> 5061  <br/> |None  <br/> |HTTPS  <br/> |
+|\<pool\>web_mco_80_vs  <br/> 80  <br/> |8080  <br/> |Front-End-  <br/> 5061  <br/> |None  <br/> |HTTP  <br/> |
    
 ## <a name="hardware-and-software-requirements"></a>Hardware- und Softwareanforderungen
 
-Wir haben die Hardware- und Softwareanforderungen des Edgeservers in unseren allgemeinen [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Systemanforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) behandelt.
+Wir haben die Hardware- und Softwareanforderungen für Edgeserver in unseren allgemeinen [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Systemanforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) behandelt.
   
 ## <a name="collocation"></a>Kollokation
 

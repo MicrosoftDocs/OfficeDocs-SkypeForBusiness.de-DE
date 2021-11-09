@@ -1,7 +1,7 @@
 ---
 title: Einschränkungen für gebührenfreie Telefonnummern in Portugal
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: davlick, krkilaru
 ms.topic: reference
@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigt Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder/Regionen zum Wählen der gebührenfreien Nummer.
-ms.openlocfilehash: 31535bb8ecd578edde90c133c88031d42f61e027
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ad30e48d8524f121f1c389b66f7a37fdac5083a4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740191"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840677"
 ---
 # <a name="toll-free-dialing-restrictions-in-portugal"></a>Einschränkungen für gebührenfreie Telefonnummern in Portugal
 

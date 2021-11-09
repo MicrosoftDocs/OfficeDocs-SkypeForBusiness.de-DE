@@ -2,7 +2,7 @@
 title: Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,17 +14,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-description: Der Office Web Apps-Server stellt Dienste bereit, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht aber zusätzliche Features, die die vorherigen Versionen nicht hatten.
-ms.openlocfilehash: bb6ef049439238c90863d2b3b3b96f1e46e79f99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Der Office Web Apps-Server bietet Dienste, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht aber zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
+ms.openlocfilehash: b233c6d1f76234cc19d1bec47473dbdda1447e7b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739301"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863792"
 ---
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 
-Der Office Web Apps-Server stellt Dienste bereit, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht aber zusätzliche Features, die die vorherigen Versionen nicht hatten.
+Der Office Web Apps-Server bietet Dienste, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht aber zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
 
 Sie wählen einen Office Web Apps-Server für Ihre Bereitstellung aus, wenn Sie Konferenzen als eine der Featureoptionen für ihre Skype for Business Server 2015-Konfiguration ausgewählt haben.
 
@@ -36,6 +36,6 @@ Bei den Optionen in diesem Dialogfeld haben Sie die folgenden Auswahlmöglichkei
 
 3. Klicken Sie auf **Neu**, um einen neuen Office Web Apps-Server für die Bereitstellung zu definieren.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Veröffentlichen von Office Web Apps Server mithilfe eines Reverseproxyservers](/previous-versions/office/lync-server-2013/lync-server-2013-publishing-office-web-apps-server-using-a-reverse-proxy-server)

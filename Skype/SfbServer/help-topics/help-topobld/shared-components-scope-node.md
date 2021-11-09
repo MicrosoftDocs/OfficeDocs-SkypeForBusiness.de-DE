@@ -2,7 +2,7 @@
 title: Freigegebene Komponenten – Bereichsknoten
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dc8238a0-24aa-47a0-b871-4465ada1761e
 description: Klicken Sie mit der rechten Maustaste in der Hierarchiestruktur des Topologie-Generators auf "Freigegebene Komponenten", um neue freigegebene Komponenten zu erstellen oder auf Optionen auf Topologieebene zuzugreifen.
-ms.openlocfilehash: 770db8099e670837343b7925d5bfd8a6eca29628
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f589615f5a81c7c4de5b15818aae1841c1de5859
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740661"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863602"
 ---
 # <a name="shared-components-scope-node"></a>Freigegebene Komponenten – Bereichsknoten
  

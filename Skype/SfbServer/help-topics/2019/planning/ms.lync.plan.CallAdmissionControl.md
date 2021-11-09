@@ -2,7 +2,7 @@
 title: Anrufsteuerung (Planungstool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 7b73e678-3e5c-491c-bef1-0eb72cf60398
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der Anrufsteuerungsdienst ermittelt anhand der verfügbaren Netzwerkbandbreite, ob Kommunikationssitzungen (beispielsweise Sprach- oder Videoanrufe) in Echtzeit eingerichtet werden dürfen.
-ms.openlocfilehash: 0e84efb85bd64bb883690dcbe9f96003b2b731e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e72b64f595ebca9e83df722b09c14a7f971651cd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757777"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831349"
 ---
 # <a name="call-admission-control-planning-tool"></a>Anrufsteuerung (Planungstool)
  

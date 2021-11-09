@@ -2,7 +2,7 @@
 title: Notfallwiederherstellungstests in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Durchführen einer Systemwiederherstellung für einen Skype for Business Server Poolserver zum Testen des dokumentierten Notfallwiederherstellungsprozesses
-ms.openlocfilehash: 94d4d4d1a832db3bb72a844818675dba04c214b9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743451"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863502"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Notfallwiederherstellungstests in Skype for Business Server
 
-Führen Sie eine Systemwiederherstellung für einen Skype for Business Server Poolserver durch, um den dokumentierten Notfallwiederherstellungsprozess zu testen. Dieser Test simuliert einen vollständigen Hardwarefehler für einen Server und trägt dazu bei, sicherzustellen, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests jeden Monat zu drehen, damit Ihre Organisation jedes Mal den Ausfall eines anderen Servers oder eines anderen Geräts testet. 
+Führen Sie eine Systemwiederherstellung für einen Skype for Business Server Poolserver aus, um den dokumentierten Notfallwiederherstellungsprozess zu testen. Dieser Test simuliert einen vollständigen Hardwarefehler für einen Server und trägt dazu bei, sicherzustellen, dass die Ressourcen, Pläne und Daten für die Wiederherstellung verfügbar sind. Versuchen Sie, den Fokus des Tests jeden Monat zu drehen, damit Ihre Organisation jedes Mal den Ausfall eines anderen Servers oder eines anderen Geräts testet. 
 
 Beachten Sie, dass der Zeitplan, nach dem Organisationen Notfallwiederherstellungstests durchführen, variieren wird. Es ist sehr wichtig, dass Notfallwiederherstellungstests nicht ignoriert oder nicht beachtet werden. 
 
@@ -46,14 +46,14 @@ Der Skype for Business Server Verschieben des Benutzerprozesses ist im Grunde ei
 
 Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfallwiederherstellungspool herstellen und wie gewohnt arbeiten. Damit Benutzer eine Verbindung mit dem Notfallwiederherstellungspool herstellen können, ist eine DNS-Eintragsänderung erforderlich.
 
-Auf den Produktions-Skype for Business-Pool wird von Clients verwiesen, die die Autokonfigurations- und DNS-SRV-Einträge verwenden von:
+Auf den Produktions-Skype for Business-Pool wird von Clients verwiesen, die die Autokonfigurations- und DNS-SRV-Einträge von:
 
 - SRV: _sip._tls.\<domain> /CNAME: SIP.\<domain>
 - CNAME: SIP.\<domain> /cvc-pool-1.\<domain>
 
 Um das Failover zu vereinfachen, muss dieser CNAME-Eintrag aktualisiert werden, um auf den DROCSPool-FQDN zu verweisen:
 
-- CNAME: SIP.<domain> /DROCSPool.\<domain>
+- CNAME: SIP.\<domain> /DROCSPool.\<domain>
 - Sip.\<domain>
 - AV.\<domain>
 - webconf.\<domain>

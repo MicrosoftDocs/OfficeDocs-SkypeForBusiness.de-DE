@@ -2,7 +2,7 @@
 title: Direkte SIP-Verbindungen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Direkte SIP-Verbindungen werden zwischen Skype for Business Server und PSTN-Gateways und IP-Nebenstellenanlagen in Enterprise-VoIP unterstützt.
-ms.openlocfilehash: b08067518f4f9e60214a34d8220a7ae367978ee5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754452"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848398"
 ---
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Direkte SIP-Verbindungen in Skype for Business Server
 
@@ -42,13 +42,13 @@ Um eine direkte SIP-Verbindung zu implementieren, führen Sie im Wesentlichen di
 
 Wenn Ihre Organisation eine der in diesem Abschnitt beschriebenen Bereitstellungen verwendet, können Sie Skype for Business Server als einzige Telefonielösung für einen Teil oder die gesamte Organisation verwenden. In diesem Abschnitt werden die folgenden Bereitstellungen ausführlich beschrieben:
 
-- **Inkrementelle Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie über eine vorhandene PbX-Infrastruktur (Private Branch Exchange) verfügen und sie beabsichtigen, Enterprise-VoIP inkrementell für kleinere Gruppen oder Teams innerhalb Ihrer Organisation einzuführen.
+- **Inkrementelle Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie über eine vorhandene PbX-Infrastruktur (Private Branch Exchange) verfügen und Sie beabsichtigen, Enterprise-VoIP inkrementell für kleinere Gruppen oder Teams innerhalb Ihrer Organisation einzuführen.
 
 - **Nur VoIP-Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie die Bereitstellung von Enterprise-VoIP an einem Standort erwägen, der keine herkömmliche Telefonieinfrastruktur besitzt.
 
 #### <a name="incremental-deployment"></a>Inkrementelle Bereitstellung
 
-Bei der inkrementellen Bereitstellung ist Skype for Business Server die einzige Telefonielösung für einzelne Teams oder Abteilungen, während die restlichen Benutzer in einer Organisation weiterhin eine Nebenstellenanlage verwenden. Diese inkrementelle Bereitstellungsstrategie bietet eine Möglichkeit, IP-Telefonie über kontrollierte Pilotprogramme in Ihr Unternehmen einzuführen. Arbeitsgruppen, deren Kommunikationsanforderungen am besten von Microsoft Unified Communications erfüllt werden, werden in Enterprise-VoIP verschoben, während andere Benutzer auf der vorhandenen Nebenstellenanlage verbleiben. Zusätzliche Arbeitsgruppen können nach Bedarf zu Enterprise-VoIP migriert werden.
+Bei der inkrementellen Bereitstellung ist Skype for Business Server die einzige Telefonielösung für einzelne Teams oder Abteilungen, während die restlichen Benutzer in einer Organisation weiterhin eine Nebenstellenanlage verwenden. Diese inkrementelle Bereitstellungsstrategie bietet eine Möglichkeit, IP-Telefonie über kontrollierte Pilotprogramme in Ihr Unternehmen einzuführen. Arbeitsgruppen, deren Kommunikationsanforderungen am besten von Microsoft Unified Communications erfüllt werden, werden in Enterprise-VoIP verschoben, während andere Benutzer weiterhin auf der vorhandenen Nebenstellenanlage bleiben. Zusätzliche Arbeitsgruppen können nach Bedarf zu Enterprise-VoIP migriert werden.
 
 Die inkrementelle Option wird empfohlen, wenn Sie klar definierte Benutzergruppen haben, die gemeinsame Kommunikationsanforderungen haben und sich für die zentrale Verwaltung eignen. Diese Option ist auch wirksam, wenn Sie über Teams oder Abteilungen verfügen, die sich über viele geografische Bereiche erstrecken, in denen die Einsparungen bei Ferngespräche erheblich sein können. Tatsächlich ist diese Option nützlich, um virtuelle Teams zu erstellen, deren Mitglieder möglicherweise auf der ganzen Welt verteilt sind. Sie können solche Teams erstellen, ändern oder auflösen, um schnell auf sich ändernde Geschäftsanforderungen zu reagieren.
 
@@ -110,7 +110,7 @@ PSTN-Gateways (Public Switched Telephone Network) sind Hardwarekomponenten von D
 
 In einem Unternehmen mit mehreren Standorten wird üblicherweise mindestens ein Gateway pro Standort bereitgestellt. Zweigstellen können eine Verbindung mit dem PSTN entweder über ein Gateway oder über eine Survivable Branch Appliance herstellen, die Gateway und Server in einem einzigen Feld kombiniert. Wenn Zweigstellen ein Gateway verwenden, sind sowohl eine Registrierungsstelle als auch ein Vermittlungsserver vor Ort erforderlich, es sei denn, die WAN-Verbindung ist ausfallsicher. Ein oder mehrere Vermittlungsserver, die auf Front-End-Servern verbunden sind, können Anrufe für ein oder mehrere Gateways an jedem Standort weiterleiten. Es wird empfohlen, dass die registrierungsstelle, der Vermittlungsserver und das Gateway, die vor Ort erforderlich sind, als Survivable Branch Appliance bereitgestellt werden.
 
-Das Bestimmen der Anzahl, Größe und des Standorts von PSTN-Gateways ist möglicherweise die wichtigste und teuerste Entscheidung, die Sie bei der Planung Ihrer Enterprise-VoIP-Infrastruktur treffen müssen.
+Die Bestimmung der Anzahl, Größe und Desorts von PSTN-Gateways ist möglicherweise die wichtigste und teuerste Entscheidung, die Sie bei der Planung Ihrer Enterprise-VoIP Infrastruktur treffen müssen.
 
 Sie müssen folgende wichtige Fragen bedenken. Keine dieser Fragen kann unabhängig von den anderen beantwortet werden.
 

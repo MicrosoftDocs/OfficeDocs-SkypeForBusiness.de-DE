@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in Benin
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier sind die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Benin verfügbar.
-ms.openlocfilehash: 1959c1debcf128ea1ba82b1201039e69adf54ef6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Benin.
+ms.openlocfilehash: 1879ca63993f51755d75a2de0c534c9d07eb6230
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777595"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833069"
 ---
 # <a name="availability-in-benin"></a>Verfügbarkeit in Benin
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier sind die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Benin verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Benin.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

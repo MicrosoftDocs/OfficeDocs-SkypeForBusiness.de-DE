@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Daten und Berichte, die im Microsoft-Anrufqualitätsdashboard (CQD) verfügbar sind.
-ms.openlocfilehash: 0f54b6c3c69d65b12aa248f7180dec3617273857
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014619"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833079"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Anrufqualitätsdashboard (CQD)
 
@@ -40,10 +40,10 @@ Sie können auf CQD-Daten über verschiedene Möglichkeiten zugreifen. Wählen S
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|Teams Admin Center [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD-Daten sind  auf der Seite Benutzer im Teams Admin Center enthalten, auf der die am häufigsten benötigten Daten in einem einfach zu lesenen Format angezeigt werden. Sie können keine AQD-Daten anpassen, die Sie unter Benutzer **finden.**  |
+|Teams Admin Center [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD-Daten sind  auf der Seite Benutzer im Teams Admin Center enthalten, auf der die am häufigsten benötigten Daten in einem einfach lesbaren Format angezeigt werden. Sie können keine AQD-Daten anpassen, die Sie unter Benutzer **finden.**  |
 |CQD-Portal [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Stabile Zusammenfassung und detaillierte Berichte, die die meisten Anforderungen erfüllen, mit Drillthroughfiltern. Sie können Berichte auch im CQD-Portal anpassen. <br><br>Holen Sie sich [zwei Vorlagen für CQD-Berichte,](#import-the-cqd-report-templates) die Ihnen beim Analysieren von Daten im CQD-Portal helfen sollen.       |
-|Power BI     | Verwenden Sie direkte Abfragen zum Anzeigen Ihrer AQD-Daten in Power BI mithilfe [anpassbarer Power BI-Vorlagen.](CQD-Power-BI-query-templates.md) [Laden Sie Power BI-Abfragevorlagen für das AQD herunter.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Sie können auch die REST-API verwenden, um über Power BI [auf AQD-Daten](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) zu zugreifen. Verwenden Sie diese Methode, wenn Sie Ihre AQD-Daten herunterladen möchten, damit Sie offline damit arbeiten können. Der Vorteil dieser Methode ist eine bessere Leistung. Dies gilt besonders für große Datenmengen, die sich in Power BI abschneiden, wenn Sie online sind.       |
-|Graph-API     | Greifen Sie mit der Graph-API selbst auf Daten zur [Anrufqualität zu.](/graph/api/resources/callrecords-api-overview?view=graph-rest-beta) Dies ist die komplexeste Methode, bietet Ihnen aber die größte Kontrolle und Flexibilität bei der Analyse der Daten zur Anrufqualität. Wenn Sie sie beispielsweise mit anderen Daten für Ihre Organisation verbinden müssen, können Sie die Graph-API verwenden, um ein Datenmodell zu erstellen und Daten zur Anrufqualität zu integrieren.        |
+|Power BI     | Verwenden Sie direkte Abfragen zum Anzeigen Ihrer AQD-Daten in Power BI mithilfe [von anpassbaren Power BI Vorlagen.](CQD-Power-BI-query-templates.md) [Laden Power BI Abfragevorlagen für das AQD herunter.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Sie können auch [die REST-API verwenden, um über eine E-Mail auf](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) AQD-Power BI. Verwenden Sie diese Methode, wenn Sie Ihre AQD-Daten herunterladen möchten, damit Sie offline damit arbeiten können. Der Vorteil dieser Methode ist eine bessere Leistung, besonders hilfreich bei großen Datenmengen, die sich in ihrer Power BI, wenn Sie online sind.       |
+|Graph-API     | Greifen Sie mithilfe der -API auf die Graph [zu.](/graph/api/resources/callrecords-api-overview) Dies ist die komplexeste Methode, bietet Ihnen aber die größte Kontrolle und Flexibilität bei der Analyse der Daten zur Anrufqualität. Wenn Sie sie beispielsweise mit anderen Daten für Ihre Organisation verbinden müssen, können Sie die Graph-API verwenden, um ein Datenmodell zu erstellen und Daten zur Anrufqualität zu integrieren.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importieren der Vorlagen für CQD-Berichte
 
@@ -81,11 +81,11 @@ Aus Konformitätsgründen werden Endbenutzerdaten (EUII) (auch als personenbezog
 
 Diese [RBAC-Rollen](/azure/role-based-access-control/overview) **haben** EUII-Zugriff:
 - Globaler Administrator
-- Teams-Dienstadministrator
-- Teams Communications Admin
+- Teams Dienstadministrator
+- Teams Kommunikationsadministrator
 - Teams-Kommunikationssupporttechniker
 - Global Reader
-- Skype for Business-Administrator
+- Skype for Business Administrator
 
 Diese RBAC-Rollen **haben keinen** EUII-Zugriff:
 - Leser für Berichte
@@ -106,9 +106,9 @@ Der PARAMETER URL Date akzeptiert ein Feld "Day". In Berichten im Fortlaufenden 
 
 |URL| Enddatum des Rolltage-Trends|
 |:---|:---|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02/</span>   |Aktueller Tag im Februar 2019|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /2019-02-15/</span>|15. Februar 2019|
-|<span>https:// <cqdv3> /spd/#/Dashboard/ <reportid> /00/</span>        |Aktueller Tag|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02/</span>   |Aktueller Tag im Februar 2019|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /2019-02-15/</span>|15. Februar 2019|
+|<span>https:// \<cqdv3> /spd/#/Dashboard/ \<reportid> /00/</span>        |Aktueller Tag|
 |||
 
 Standardmäßig wird der aktuelle Tag des Monats als letzter Tag des Rolltage-Trends verwendet.
@@ -118,7 +118,7 @@ Standardmäßig wird der aktuelle Tag des Monats als letzter Tag des Rolltage-Tr
 
 Die standardmäßigen Zusammenfassungs- und detaillierten CQD-Berichte sind möglicherweise alles, was Sie zum Verwalten der Anrufqualität für Ihre Organisation benötigen. Bei Bedarf können Sie benutzerdefinierte [Berichte erstellen.](#create-custom-detailed-reports) 
 
-Wenn Sie Power BI zum Analysieren Ihrer AQD-Daten verwenden möchten, lesen Sie Verwenden von Power BI zum Analysieren von [CQD-Daten für Teams.](CQD-Power-BI-query-templates.md)
+Wenn Sie Ihre AQD-Power BI analysieren möchten, lesen Sie verwenden Power BI zum Analysieren von [AQD-Daten](CQD-Power-BI-query-templates.md)für Teams.
 
 |Feature|Zusammenfassungsberichte|Detaillierte Berichte|
 |:--- |:--- |:--- |
@@ -139,14 +139,14 @@ Wenn Sie Power BI zum Analysieren Ihrer AQD-Daten verwenden möchten, lesen Sie 
 
 
  
-### <a name="select-product-data-to-see-in-reports"></a>Produktdaten auswählen, die in Berichten zu sehen sind
+### <a name="select-product-data-to-see-in-reports"></a>Auswählen von Produktdaten, die in Berichten zu sehen sind
 
-In den Zusammenfassungs- und Location-Enhanced-Berichten  können Sie die Dropdownliste Produktfilter verwenden, um alle Produktdaten, nur Microsoft Teams-Daten oder nur Skype for Business Online-Daten anzeigen.
+In den Zusammenfassungs- und Location-Enhanced-Berichten  können Sie die Dropdownliste Produktfilter verwenden, um alle Produktdaten, nur Microsoft Teams oder nur Skype for Business Onlinedaten zu zeigen.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot: Zeigt die Optionen des Produktfilter-Steuerelements.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
   
-In detaillierten Berichten können Sie die Daten mithilfe der Dimension Ist **Teams** nach Microsoft Teams- oder Skype for Business Online-Daten filtern.
+In detaillierten Berichten können Sie die Is **Teams-Dimension** verwenden, um die Daten zu filtern, Microsoft Teams oder Skype for Business Onlinedaten zu speichern.
 
 ## <a name="summary-reports"></a>Zusammenfassungsberichte
 
@@ -157,7 +157,7 @@ Dies sind die Berichte, die im CQD-Dashboard angezeigt werden, wenn Sie sich zum
 |Allgemeine Anrufqualität     | Aggregat der anderen drei Registerkarten.       |
 |Server – Client     |Details der Datenströme zwischen Server- und Clientendpunkten.        |
 |Client – Client     |Details der Datenströme zwischen zwei Clientendpunkten.        |
-|SLA zur Sprachqualität     |Informationen zu Anrufen, die in der SLA zur Sprachqualität in Skype for Business [enthalten sind.](https://go.microsoft.com/fwlink/p/?linkid=846252)        |
+|SLA zur Sprachqualität     |Informationen zu Anrufen, die in der SLA Skype for Business zur [Sprachqualität enthalten sind.](https://go.microsoft.com/fwlink/p/?linkid=846252)        |
 
 ### <a name="overall-call-quality-tab"></a>Registerkarte „Gesamtanrufqualität"
 
@@ -166,7 +166,7 @@ Verwenden Sie die Daten auf dieser Registerkarte, um den Status und die Trends d
 > [!div class="mx-imgBorder"]
 > ![Screenshot: Anzeigen der Registerkarte "Anrufqualität".](media/c8d183b1-6592-49b0-a81d-35cc0568d5f0.png)
   
-Datenströme werden in drei Gruppen klassifiziert: "Gut", "Schlecht" und "Nicht klassifiziert". Es gibt auch berechnete  *Werte des Werts "Poor %",*  die Ihnen das Verhältnis von Datenströmen, die als *"Schlecht"*  klassifiziert wurden, zur gesamtzahl klassifizierten Datenstromanzahl geben. Da *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*, ist die Poor *%*  nicht vom Vorhandensein mehrerer *Nicht klassifizierter*  Datenströme betroffen. Informationen zur Klassifizierung eines Datenstroms als "schlecht" oder "gut" finden Sie unter Streamklassifizierung [im Anrufqualitätsdashboard.](stream-classification-in-call-quality-dashboard.md)
+Streams werden in drei Gruppen klassifiziert: "Gut", "Schlecht" und "Nicht klassifiziert". Es gibt auch berechnete  *Werte des Werts "Poor %",*  die Ihnen das Verhältnis von Datenströmen, die als *"Schlecht"*  klassifiziert wurden, zur gesamtzahl klassifizierten Datenstromanzahl geben. Da *Poor % = Poor streams/ (Poor streams+ Good streams) * 100*, ist die Poor *%*  nicht vom Vorhandensein mehrerer *Nicht klassifizierter*  Datenströme betroffen. Informationen zur Klassifizierung eines Datenstroms als "schlecht" oder "gut" finden Sie unter Streamklassifizierung [im Anrufqualitätsdashboard.](stream-classification-in-call-quality-dashboard.md)
   
 Verwenden Sie die Skala links, um die Datenstromanzahlswerte zu messen.
 
@@ -207,7 +207,7 @@ Ebenso enthält die Registerkarte Client-Client fünf reduzierbare Abschnitte:
 
 #### <a name="inside-versus-outside"></a>Innen im Vergleich zu Außen
 
-Das CQD bezeichnet einen  Datenstrom mithilfe von Gebäudeinformationen als "Innen" oder "Außen", falls er vorhanden ist.  Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Wenn sich das Subnetz in der Liste der Subnetze befindet, die in den hochgeladenen Gebäudeinformationen mit InsideCorp gekennzeichnet sind, wird es als *Inside betrachtet.* Wenn die Gebäudeinformationen noch nicht hochgeladen wurden, werden die Datenströme beim Innentest immer als *Außen einklassig.* 
+Das CQD bezeichnet einen  Datenstrom mithilfe von Gebäudeinformationen als "Innen" oder "Außen", sofern er vorhanden ist.  Die Endpunkte jedes Datenstroms sind einer Subnetzadresse zugeordnet. Wenn sich das Subnetz in der Liste der Subnetze befindet, die in den hochgeladenen Gebäudeinformationen mit InsideCorp gekennzeichnet sind, wird es als *Inside betrachtet.* Wenn die Gebäudeinformationen noch nicht hochgeladen wurden, werden die Datenströme beim Innentest immer als *Außen einklassig.* 
 
 Beim Innentest für ein Server-Client wird nur der Clientendpunkt berücksichtigt. Da sich Server aus der Perspektive des Benutzers stets außerhalb befinden, werden sie beim Test nicht berücksichtigt.
   
@@ -221,13 +221,13 @@ Wie die Namen bereits angeben, basieren die Klassifizierungskriterien auf dem Ty
   
 ## <a name="tenant-data-information"></a>Informationen zu Mandantendaten
 
-Das Dashboard für AQD-Zusammenfassungsberichte enthält eine  Seite Upload von Mandantendaten, auf die Sie zugreifen können, indem Sie in der oberen rechten Ecke im Einstellungsmenü die Option Upload von Mandantendaten auswählen.  Diese Seite wird für Administratoren verwendet, um ihre eigenen Informationen hochzuladen, z. B.:
+Das Dashboard für AQD-Zusammenfassungsberichte enthält eine Seite Mit Mandantendaten **Hochladen,** auf die Sie zugreifen können, indem Sie in der oberen rechten Ecke im Menü Einstellungen die Option Mandantendaten **Hochladen** auswählen. Diese Seite wird für Administratoren verwendet, um ihre eigenen Informationen hochzuladen, z. B.:
 
 - Eine Karte mit IP-Adressen und geografischen Informationen.
 - Eine Karte der einzelnen Drahtlos-AP und ihrer MAC-Adresse.
 - Eine Karte des Endpunkts zum Endpunkt Erstellen/Modell/Typ usw.
   
-Es wird empfohlen, die Mandanten-, Gebäude- und Standortdaten hochzuladen, damit das AQD diese Informationen in Ihre Berichte einmingen kann. Wenn Sie diese Daten noch nicht hochgeladen haben, lesen Sie Hochladen von [Mandanten- und Gebäudedaten.](CQD-upload-tenant-building-data.md) 
+Es wird empfohlen, die Mandanten-, Gebäude- und Standortdaten hochzuladen, damit das AQD diese Informationen in Ihre Berichte einmingen kann. Wenn Sie diese Daten noch nicht hochgeladen haben, lesen Hochladen [und Gebäudedaten](CQD-upload-tenant-building-data.md). 
 
 
 ## <a name="detailed-reports"></a>Detaillierte Berichte
@@ -236,11 +236,11 @@ Es wird empfohlen, die Mandanten-, Gebäude- und Standortdaten hochzuladen, dami
 |---------|---------|
 |Location-Enhanced berichte     |Zeigt Qualitätstrends auf der Grundlage von Standortinformationen an. Dieser Bericht wird nur angezeigt, wenn Sie [Ihre Mandantendaten hochgeladen haben.](CQD-upload-tenant-building-data.md)        |
 |Zuverlässigkeitsberichte     |Umfasst Audio, Video, videobasierte Bildschirmfreigabe (VBSS) und Berichte zur App-Freigabe.        |
-|Berichte zur Qualität der Benutzererfahrung     |Audioqualität und Zuverlässigkeit für alle Clients und Geräte, einschließlich Besprechungsräume. Bei diesen Berichten handelt es sich um eine "schlankere" Version der herunterladbaren [CQD-Vorlagen,](https://aka.ms/QERtemplates)wobei der Schwerpunkt auf den Schlüsselbereichen für die Analyse der Audioqualität und Zuverlässigkeit liegen soll.         |
+|Berichte zur Qualität der Benutzererfahrung     |Audioqualität und Zuverlässigkeit für alle Clients und Geräte, einschließlich Besprechungsräume. Bei diesen Berichten handelt es sich um eine schlankere Version der herunterladbaren [CQD-Vorlagen,](https://aka.ms/QERtemplates)wobei der Schwerpunkt auf den Schlüsselbereichen für die Analyse der Audioqualität und Zuverlässigkeit liegen soll.         |
 |Qualitätsdrilldownberichte     | Drilldowns: Datum nach Region, Standorten, Subnetzen, Stunden und Benutzern.        |
 |Fehlerdrilldownberichte     | Drilldowns: Datum nach Region, Standorten, Subnetzen, Stunden und Benutzern.        |
 |Bewerten von Meinen Anrufberichten     |Analysieren Sie die Benutzeranrufbewertungen nach Region, Standort oder Benutzer. Enthält ausführliches Feedback.         |
-|Helpdeskberichte     |Helpdeskberichte sehen Anruf- und Besprechungsdaten für einzelne Benutzer, Benutzergruppen oder alle Benutzer. Durch das Einbinden von Gebäude- und EUII-Daten helfen diese Berichte dabei, mögliche Systemprobleme basierend auf dem Netzwerkstandort, Konferenzdetails, Geräten oder Firmware zu identifizieren.         |
+|Helpdeskberichte     |Helpdeskberichte sehen Anruf- und Besprechungsdaten für einzelne Benutzer, Benutzergruppen oder alle Benutzer. Durch das Einbinden von Gebäude- und EUII-Daten helfen diese Berichte, mögliche Systemprobleme basierend auf dem Netzwerkstandort, Konferenzdetails, Geräten oder Firmware zu identifizieren.         |
 |Clientversionsberichte     |Clientversionszusammenfassung: Anzeigen der Anzahl der Sitzungen und Benutzer für jede Client-App-Version<br><br>Clientversion nach Benutzer: Anzeigen der Benutzernamen für jede Client-App-Version <br><br>Vordefinierte Filter für "Produkt- und Clienttyp" helfen dabei, die Versionen auf bestimmte Clients zu konzentrieren.         |
 |Endpunktberichte     |Zeigt die Anrufqualität nach Endpunkten des Computers an (Computer erstellen und Modell). Diese Berichte enthalten Gebäudedaten, wenn Sie sie hochgeladen haben.         |
 
@@ -254,7 +254,7 @@ Wählen Sie in der pull-down-Liste der Berichte am oberen Rand des Bildschirms, 
 > [!IMPORTANT]
 > Der Netzwerkbereich kann zur Darstellung eines Supernetzes (einer Kombination aus mehreren Subnetzen mit einem einzelnen Routing-Präfix) verwendet werden. Alle neuen Gebäude-Uploads werden auf sich überlappende Bereiche hin untersucht. Wenn Sie zuvor eine Gebäudedatei hochgeladen haben, sollten Sie die aktuelle Datei herunterladen und erneut hochladen, um mögliche Überlappungen zu identifizieren und das Problem vor dem erneuten Hochladen zu beheben. Alle Überlappungen in zuvor hochgeladenen Dateien können zu falschen Zuordnungen von Subnetzen zu Gebäuden in den Berichten führen. Bestimmte VPN-Implementierungen melden die Subnetzinformationen nicht genau. Es wird empfohlen, beim Hinzufügen eines VPN-Subnetzes zur Gebäudedatei anstelle eines Eintrags für das Subnetz separate Einträge für jede Adresse im VPN-Subnetz als separates 32 Bit-Netzwerk hinzuzufügen. Jede Zeile kann die gleichen Gebäudemetadaten enthalten. Ein Beispiel: Anstelle einer Zeile für 172.16.18.0/24 sollten Sie 256 Zeilen verwenden - eine Zeile für jede Adresse zwischen 172.16.18.0/32 und 172.16.18.255/32 (einschließlich).
 >
-> Die VPN-Spalte ist optional und standardmäßig auf 0 festgelegt.  Wenn der Wert der VPN-Spalte auf 1 festgelegt ist, wird das Subnetz, das durch diese Zeile dargestellt wird, vollständig erweitert, um allen IP-Adressen innerhalb des Subnetzes zu entsprechen.  Verwenden Sie diese Angaben sparsam und nur für VPN-Subnetze, da sich eine vollständige Erweiterung dieser Subnetze negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken wird.
+> Die VPN-Spalte ist optional und standardmäßig auf 0 festgelegt.  Wenn der Wert der VPN-Spalte auf 1 festgelegt ist, wird das Subnetz, das durch diese Zeile dargestellt wird, vollständig erweitert, um allen IP-Adressen innerhalb des Subnetzes zu entsprechen.  Verwenden Sie dies sparsam und nur für VPN-Subnetze, da sich eine vollständige Erweiterung dieser Subnetze negativ auf die Abfragezeiten für Abfragen mit Gebäudedaten auswirken wird.
 
 Zeigen Sie auf Balkendiagramme und Trendlinien im Bericht, um detaillierte Werte anzuzeigen. Der Bericht, der einen Fokus besitzt, zeigt das Aktionsmenü an: **Bearbeitung**, **Klonen**, **Löschen**, **Herunterladen** und **Exportieren**.
 
@@ -307,7 +307,7 @@ Wählen Sie in der Liste auf der linken Seite des Abfrage-Editors eine Dimension
 
 Zusätzlich zur Drilldownfunktion unterstützt das AQD auch das Angeben von Filtern mit mehreren Werten (ODER-Filtern).
 
-Um mehrere Filterwerte auszuwählen, beginnen Sie, indem Sie dem Bericht einen neuen Filter hinzufügen. Klicken **+** Sie neben der Filterbeschriftung, geben Sie den Namen der zu verwendende Dimension ein, und klicken Sie auf **Hinzufügen.** 
+Um mehrere Filterwerte auszuwählen, beginnen Sie, indem Sie dem Bericht einen neuen Filter hinzufügen. Klicken **+** Sie neben der Filterbeschriftung, geben Sie den Namen der zu verwendende Dimension ein, und klicken Sie auf **Hinzufügen**. 
 
 ![Screenshot: Hinzufügen eines Mehrfachauswahlfilters](media/qerguide-image-addmultiselectfilter.png)
 
@@ -331,8 +331,8 @@ Bestimmte AQD-Berichte enthalten Filter auf Dashboardebene, die das Filtern nach
 
 ### <a name="url-filters"></a>URL-Filter
 
-Das CQD unterstützt das Hinzufügen von Filtern zur URL. Dies erleichtert die Freigabe oder Textmarke für eine AQD-Abfrage. Sie können Parameter in der URL definieren, z. B. Trendmonat, Mandanten-ID oder Sprache. Sie können der URL auch Filter auf Produkt- oder Dashboardebene hinzufügen.
-Das Ausschließen von Verbunddaten aus AQD-Berichten ist nützlich, wenn Sie verwaltete Gebäude oder Netzwerke sanieren, in denen Verbundendpunkte sich auf Ihre Berichte möglicherweise beeinflussen können.
+Das CQD unterstützt das Hinzufügen von Filtern zur URL. Dadurch können Sie eine AQD-Abfrage ganz einfach freigeben oder mit einer Textmarke versehen. Sie können Parameter in der URL definieren, z. B. Trendmonat, Mandanten-ID oder Sprache. Sie können der URL auch Filter auf Produkt- oder Dashboardebene hinzufügen.
+Das Ausschließen von Verbunddaten aus AQD-Berichten ist nützlich, wenn Sie verwaltete Gebäude oder Netzwerke sanieren, in denen Verbundendpunkte Sich auf Ihre Berichte möglicherweise beeinflussen können.
 
 Um einen Filter hinzuzufügen, fügen Sie Folgendes an das Ende der URL an:
 
@@ -348,7 +348,7 @@ Wenn Sie einer URL einen Filter auf Dashboardebene hinzufügen möchten, muss di
 
 `filter/DATA_MODEL_NAME|VALUE`
 
-Wenn Sie z. B. einen Produktfilterwert von Microsoft Teams anwenden möchten, fügen Sie Folgendes hinzu:
+Wenn Sie z. B. einen Produktfilterwert von Microsoft Teams möchten, fügen Sie Folgendes hinzu:
 
 `filter/[AllStreams].[Is%20Teams]|[True]`
 
@@ -363,7 +363,7 @@ Zum Anwenden von URL-Filtern mit Mehrfachauswahlwerten trennen Sie jeden Wert du
 Wenn Sie einen ungültigen Namen oder Wert angeben, wird der URL-Filter nicht angewendet.
 
 
-Sie können einen URL-Filter verwenden, um jeden Bericht für eine bestimmte Dimension zu filtern. Die am häufigsten verwendeten URL-Filter werden zum Filtern von Berichten verwendet, um Telemetriedaten von Partnerteilnehmern auszuschließen oder sich nur auf Teams oder Skype for Business Online zu konzentrieren. Das Ausschließen von Verbunddaten aus AQD-Berichten ist nützlich, wenn Sie verwaltete Gebäude oder Netzwerke sanieren, in denen Verbundendpunkte sich auf Ihre Berichte möglicherweise beeinflussen können.
+Sie können einen URL-Filter verwenden, um jeden Bericht für eine bestimmte Dimension zu filtern. Die am häufigsten verwendeten URL-Filter werden verwendet, um Berichte zu filtern, um Telemetriedaten von Partnerteilnehmern auszuschließen oder sich nur auf Teams oder Skype for Business Online zu konzentrieren. Das Ausschließen von Verbunddaten aus AQD-Berichten ist nützlich, wenn Sie verwaltete Gebäude oder Netzwerke sanieren, in denen Verbundendpunkte Sich auf Ihre Berichte möglicherweise beeinflussen können.
 
 | Filter         | Beschreibung          | Beispiel für CQD-Abfragefilter      |
 |----------------|----------------------|-------------------------------|
@@ -388,19 +388,19 @@ Sie können Ihre Mandanten-ID auch mithilfe von PowerShell finden:
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleich von Teams- und Skype for Business-AQD-Daten
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleichen Teams und Skype for Business AQD-Daten
 
-Bei der Überprüfung Ihrer Daten können Unterschiede bei den Daten zwischen Teams und Skype for Business bestehen. Dafür gibt es einige Gründe:
+Beim Überprüfen Ihrer Daten können Unterschiede bei den Daten zwischen Teams und Skype for Business. Dafür gibt es einige Gründe:
 - Unterschiede bei den Mechanismen zur Sicherstellung von Leistung und Zuverlässigkeit:
-  - Teams verfügt über automatische erneute Verbindungen und schnelles Roaming. Skype for Business funktioniert nicht.
-  - Teams verfügt über dynamische Bandbreitenverwaltung. Skype for Business funktioniert nicht.
-- Unterschiede bei [den IP-Adressbereichen](Office-365-URLs-IP-address-ranges.md) zwischen Teams und Skype for Business. Die IP-Bereiche von Teams sind neuer, wodurch Verbindungsprobleme bei der Firewall auftreten können.
+  - Teams verfügt über automatische erneute Verbindung und schnelles Roaming. Skype for Business dies nicht zu.
+  - Teams verfügt über dynamische Bandbreitenverwaltung. Skype for Business dies nicht zu.
+- Unterschiede bei [ip-Adressbereichen](Office-365-URLs-IP-address-ranges.md) zwischen Teams und Skype for Business. Die Teams IP-Bereiche sind neuer, wodurch Verbindungsprobleme bei der Firewall auftreten können.
 
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verbessern und Überwachen der Anrufqualität für Teams](monitor-call-quality-qos.md)
+[Verbessern und überwachen Sie die Anrufqualität für Teams](monitor-call-quality-qos.md)
 
 [Was ist CQD?](CQD-what-is-call-quality-dashboard.md)
 
@@ -414,4 +414,4 @@ Bei der Überprüfung Ihrer Daten können Unterschiede bei den Daten zwischen Te
 
 [Stream Classification in CQD](stream-classification-in-call-quality-dashboard.md)
 
-[Verwenden von Power BI zum Analysieren von AQD-Daten](CQD-Power-BI-query-templates.md)
+[Verwenden Power BI zum Analysieren von AQD-Daten](CQD-Power-BI-query-templates.md)

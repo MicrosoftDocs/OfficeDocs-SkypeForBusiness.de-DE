@@ -2,7 +2,7 @@
 title: Häufig gestellte Fragen zum Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 11/11/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ce18db60-5f6b-423d-bc41-91e7c80fb7e3
 description: Skype for Business 2015 Stress and Performance Tool frequently asked questions (FAQ), hilfreich, um herauszufinden, welche Toolkonfigurationen unterstützt werden, um Toolprobleme zu beheben und Verhaltensweisen zu erläutern, die beim Ausführen der Stress- und Leistungstools auftreten können.
-ms.openlocfilehash: 7a922293b4e8b938d6ed9c1d3f763a47b70a5c6c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb81d31711b027d58b8d5b97ecd6d14f32c0fa0f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857292"
 ---
 # <a name="faq-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Häufig gestellte Fragen zum Skype for Business Server 2015 Stress and Performance Tool
  
@@ -33,11 +33,11 @@ Dies wird **nicht** empfohlen. Das Tool würde sich auf die Leistung, Sicherheit
   
 ## <a name="im-logging-my-users-on-for-the-first-time-why-are-my-servers-running-a-high-load"></a>Ich protokolliere meine Benutzer zum ersten Mal. Warum führen meine Server eine hohe Last aus?
 
-Wenn sich die Benutzer zum ersten Mal anmelden, werden zusätzliche Vorgänge im Hintergrund ausgeführt. Daher kann die Leistung auf dem Microsoft SQL Server Back-End-Server beeinträchtigt werden. Es wird empfohlen, einen kurzen Test auszuführen, der alle Benutzer anmeldet, und dann die Clients neu zu starten, bevor Sie mit der Messung der Ergebnisse mit dem Tool beginnen. Skype for Business Server unterstützt nicht mehr als 12 gleichzeitige Benutzeranmeldungssitzungen pro Sekunde, aber bitte beachten Sie, dass die tatsächliche Anzahl, die von Ihren Servern verarbeitet werden kann, von Ihrer Hardwarekonfiguration abhängt und möglicherweise niedriger als der unterstützte Wert ist.
+Wenn sich die Benutzer zum ersten Mal anmelden, werden zusätzliche Vorgänge im Hintergrund ausgeführt. Daher kann die Leistung auf dem Microsoft SQL Server Back-End-Server beeinträchtigt werden. Es wird empfohlen, einen kurzen Test auszuführen, der sich bei allen Benutzern anmeldet, und dann die Clients neu zu starten, bevor Sie mit der Messung der Ergebnisse mit dem Tool beginnen. Skype for Business Server unterstützt nicht mehr als 12 gleichzeitige Benutzeranmeldungssitzungen pro Sekunde, aber bitte beachten Sie, dass die tatsächliche Anzahl, die von Ihren Servern verarbeitet werden kann, von Ihrer Hardwarekonfiguration abhängt und möglicherweise niedriger als der unterstützte Wert ist.
   
 ## <a name="my-clients-are-running-out-of-memory-what-should-i-do"></a>Meinen Clients geht der Arbeitsspeicher aus! Wie behebe ich diese Situation?
 
-Wenn Clients nicht genügend Arbeitsspeicher zur Seite steht, sollten Sie die Anzahl der Benutzer reduzieren, die pro Skype for Business Server Front-End-Pool angemeldet sind. Sie können auch auswählen, ob Front-End-Pools skaliert werden sollen, wenn das Problem dauerhaft ist.
+Wenn clients nicht genügend Arbeitsspeicher vorhanden ist, sollten Sie die Anzahl der Benutzer reduzieren, die pro Skype for Business Server Front-End-Pool angemeldet sind. Sie können auch auswählen, ob Front-End-Pools skaliert werden sollen, wenn das Problem dauerhaft ist.
   
 ## <a name="can-i-run-this-tool-on-a-skype-for-business-server-itself"></a>Kann ich dieses Tool auf einem Skype for Business Server selbst ausführen?
 
@@ -49,15 +49,15 @@ Ja, das ist möglich.
   
 ## <a name="what-does-mpop-mean"></a>Was bedeutet MPOP?
 
-MPOP ist eine gekürzte Möglichkeit, "mehrere Anwesenheitspunkte" zu sagen. MPOP soll Szenarien simulieren, in denen Benutzer von mehreren Computern oder Geräten aus bei Skype for Business 2015-Client angemeldet sind. Beachten Sie, dass in LyncPerfTool.exe jeder Endpunkt das Standardprofil verwendet. Mit anderen Worten, das Profil wird nicht zwischen zwei Anwesenheitspunkten aufgeteilt.
+MPOP ist eine gekürzte Möglichkeit, "mehrere Anwesenheitspunkte" zu sagen. MPOP soll Szenarien simulieren, in denen Benutzer von mehreren Computern oder Geräten aus beim Skype for Business 2015-Client angemeldet sind. Beachten Sie, dass in LyncPerfTool.exe jeder Endpunkt das Standardprofil verwendet. Mit anderen Worten, das Profil wird nicht zwischen zwei Anwesenheitspunkten aufgeteilt.
   
-## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Ich habe mit LyncPerfTool.exe begonnen, aber nichts geschieht. Was ist los?
+## <a name="i-started-lyncperftoolexe-but-nothing-is-happening-whats-going-on"></a>Ich habe mit LyncPerfTool.exe begonnen, aber es passiert nichts. Was ist los?
 
 Überprüfen Sie den Indikator "Aktive Endpunkte insgesamt" auf den Servern, um festzustellen, ob die Benutzer eine Verbindung herstellen. Wenn die Benutzer keine Verbindung herstellen, überprüfen Sie Ihre Skype for Business Server 2015-Konfiguration. Das Angezeigte Problem tritt in der Regel auf, weil ein Servername, ein Benutzerpräfix oder ein Kennwort falsch ist. Beachten Sie, dass externe Clients Access-Proxy- und TargetServer-Werte angeben sollten. Überprüfen Sie die Portnummer in der Konfigurationsdatei.
   
 ## <a name="how-can-i-be-sure-that-something-is-being-measured"></a>Wie kann ich sicherstellen, dass etwas gemessen wird?
 
-Es gibt LyncPerfTool-Leistungsindikatoren, die angeben, ob Benutzer Eine Verbindung herstellen und Aktionen ausführen. Die einfachste Möglichkeit, um sicherzustellen, dass Aktionen gemessen werden, besteht jedoch darin, sich bei einem der Konten mit einem Skype for Business 2015-Client anzumelden und diese Aktionen selbst auszuführen. Überprüfen Sie die Ergebnisse, um zu bestätigen, dass Messungen durchgeführt wurden.
+Es gibt LyncPerfTool-Leistungsindikatoren, die angeben, ob Benutzer Eine Verbindung herstellen und Aktionen ausführen. Die einfachste Möglichkeit, sicherzustellen, dass Aktionen gemessen werden, besteht jedoch darin, sich bei einem der Konten mit einem Skype for Business 2015-Client anzumelden und diese Aktionen selbst auszuführen. Überprüfen Sie die Ergebnisse, um zu bestätigen, dass Messungen durchgeführt wurden.
   
 ## <a name="i-have-lync-server-2010-capacity-planning-tools-andor-lync-server-2013-capacity-planning-tools-installed-is-that-okay"></a>Ich habe Lync Server 2010 Capacity Planning Tools und/oder Lync Server 2013 Capacity Planning Tools installiert. Ist das in Ordnung?
 

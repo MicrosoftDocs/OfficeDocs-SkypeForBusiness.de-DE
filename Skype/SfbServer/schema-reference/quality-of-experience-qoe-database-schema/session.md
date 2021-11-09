@@ -2,7 +2,7 @@
 title: Sitzungstabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7f05529c-794d-41ed-bca4-2e85b87b2dec
 description: Jeder Datensatz stellt eine Sitzung dar, die Audio oder Audio und Video umfasst. Es enthält allgemeine Informationen über die Sitzung. Eine Sitzung ist als SIP-Dialog (Session Initiation Protocol) für Audio oder Video zwischen zwei Endpunkten definiert.
-ms.openlocfilehash: bc81bb3c67f91b975643929170354c7b152d2237
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 044d7d2626ca0d04bb55b7a060d39e7ec330312d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768323"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840927"
 ---
 # <a name="session-table"></a>Sitzungstabelle
  

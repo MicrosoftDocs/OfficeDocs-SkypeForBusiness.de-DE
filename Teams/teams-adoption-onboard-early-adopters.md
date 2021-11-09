@@ -1,6 +1,6 @@
 ---
 title: Onboarding von Early Adopters und Sammeln von Feedback
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Wählen Sie Early Adopters für die Experimentphase Ihrer Teams und sammeln Sie dann Feedback zu Ihrem Projekt.
+description: Wählen Sie Early Adopters für die Experimentphase Ihrer einführung Teams und sammeln Sie dann Feedback für Ihr Projekt.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47c51e869e25726e73863091a88e4f7289d7693c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a87a6802a538609e9899f2645833a1e9bdab120f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753866"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840727"
 ---
 # <a name="onboard-early-adopters-and-gather-feedback-for-microsoft-teams"></a>Onboarding von Early Adopters und Sammeln von Feedback für Microsoft Teams
 
@@ -43,7 +43,7 @@ Führen Sie die folgenden Schritte mit diesen Early Adopters aus:
 
 Verwenden Sie die Komponenten Microsoft 365 oder Office 365, um Feedback zu Ihrem Projekt zu sammeln.
   
-![Ein Symbol, das einen Entscheidungspunkt darstellt.](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits in ein Yammer-Netzwerk investiert hat, können Sie es als Feedbackforum für Ihr Early Adopter-Programm verwenden. Falls nicht, und Ihr Early Adopter-Programm weniger als 5.000 Mitglieder hat, erstellen Sie ein Team in Teams, um Feedback zu sammeln und Schulungen zur Verfügung zu stellen.
+![Ein Symbol, das einen Entscheidungspunkt darstellt.](media/teams-adoption-decision-icon.png) Entscheidung: Wenn Ihre Organisation bereits über eine Investition in ein Yammer-Netzwerk verfügt, können Sie es als Feedbackforum für Ihr Early Adopter-Programm verwenden. Andern falls nicht, und Ihr Early Adopter-Programm weniger als 5.000 Mitglieder hat, erstellen Sie ein Team in Teams, um Feedback zu sammeln und Schulungen zur Verfügung zu stellen.
   
 > [!Note]
 > Einige Organisationen werden die Kanäle für frühzeitiges Feedback von Kunden in einem Team für Teamwork-Champions-Programme kombinieren. Dies ist ein guter Ansatz, da viele Early Adopter in Zukunft möglicherweise zu Champions werden und eine stärkere Community aufbauen. 

@@ -2,7 +2,7 @@
 title: Leistungsszenarien für das Skype for Business Server 2015 Stress and Performance Tool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,21 +14,21 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d972382f-971e-4fa7-b7ee-8ab9d3a5c11d
 description: Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 mit dem Stress and Performance Tool für Leistungs- und Auslastungstests zu konfigurieren.
-ms.openlocfilehash: a56e2ec12547937ef44973932ef79d3405573039
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a04d94bc0c43b9de2043b9ee601a294b7945a45
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777255"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841107"
 ---
 # <a name="performance-scenarios-for-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Leistungsszenarien für das Skype for Business Server 2015 Stress and Performance Tool
  
 Aufgaben, die Sie ausführen müssen, um Skype for Business Server 2015 mit dem Stress and Performance Tool für Leistungs- und Auslastungstests zu konfigurieren.
   
-Um das Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool) auszuführen, muss die topologie Skype for Business Server 2015 zunächst für szenarien konfiguriert werden, die für Sie relevant sind. Wenn Skype for Business Server 2015 nicht konfiguriert oder falsch konfiguriert ist, schlägt die Ladesimulation mit großer Wahrscheinlichkeit fehl. Mit dem Skype for Business Server 2015 Stress and Performance Tool stellen wir Beispiel Skype for Business Server Management Shell-Skripts und grundlegende Ressourcendateien als Teil des [Tooldownloads bereit.](https://www.microsoft.com/download/details.aspx?id=50367) Diese können als Ausgangspunkt für die Konfiguration Ihrer Skype for Business Server-Bereitstellung verwendet werden. In diesem Artikel werden die Windows PowerShell bereitgestellten Beispiele beschrieben.
+Um das Skype for Business Server 2015 Stress and Performance Tool (LyncPerfTool) auszuführen, muss die topologie Skype for Business Server 2015 zunächst für szenarien konfiguriert werden, die für Sie relevant sind. Wenn Skype for Business Server 2015 nicht konfiguriert oder falsch konfiguriert ist, tritt bei der Ladesimulation mit großer Wahrscheinlichkeit ein Fehler auf. Mit dem Skype for Business Server 2015 Stress and Performance Tool stellen wir Beispiel Skype for Business Server Management Shell-Skripts und grundlegende Ressourcendateien als Teil des [Tooldownloads bereit.](https://www.microsoft.com/download/details.aspx?id=50367) Diese können als Ausgangspunkt für die Konfiguration Ihrer Skype for Business Server-Bereitstellung verwendet werden. In diesem Artikel werden die Windows PowerShell bereitgestellten Beispiele beschrieben.
   
 > [!NOTE]
-> Dieses Thema hilft Ihnen nicht zu beschreiben, wie sie Skype for Business Server 2015 im Allgemeinen konfigurieren, dafür gibt es weitere Planungs- und Bereitstellungsthemen. Ausführliche Informationen zum Arbeiten mit Windows PowerShell in Skype for Business Server 2015 finden Sie in der Dokumentation zur Skype for Business Server Verwaltungsshell unter "Einführung einfügen" HIER. 
+> In diesem Thema erfahren Sie nicht, wie Sie Skype for Business Server 2015 im Allgemeinen konfigurieren, dafür gibt es weitere Planungs- und Bereitstellungsthemen. Ausführliche Informationen zum Arbeiten mit Windows PowerShell in Skype for Business Server 2015 finden Sie in der Dokumentation zur Skype for Business Server Verwaltungsshell unter "Einführung einfügen" HIER. 
   
 ## <a name="about-running-skype-for-business-server-management-shell-scripts"></a>Informationen zum Ausführen Skype for Business Server-Verwaltungsshell-Skripts
 
@@ -37,7 +37,7 @@ Wir stellen Beispiel-PowerShell-Skripts bereit, mit denen Sie sich auf Ihre Lade
 > [!CAUTION]
 > Bitte achten Sie darauf, diese Beispiele zu überprüfen und zu verstehen. Skripts überschreiben bei der Ausführung alle vorhandenen Einstellungen in der Topologie. 
   
-## <a name="stress-and-performance-tool-client-version-names"></a>Namen der Stress and Performance Tool-Clientversion
+## <a name="stress-and-performance-tool-client-version-names"></a>Stress and Performance Tool– Clientversionsnamen
 
 Möglicherweise müssen Sie die Clientversionsprüfungsrichtlinie konfigurieren, wenn Sie die Einstellungen zuvor von den Standardwerten geändert haben. Wenn Sie sich darüber nicht sicher sind, lesen Sie die Dokumentation zur [Clientversionsprüfung.](/previous-versions/office/lync-server-2013/lync-server-2013-view-client-version-policy-rules)
   

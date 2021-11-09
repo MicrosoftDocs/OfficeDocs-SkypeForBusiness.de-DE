@@ -2,7 +2,7 @@
 title: DeviceDriver-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ca91a0b4-98c0-49f6-af9d-7d0f8ac75f1a
 description: Die DeviceDriver-Tabelle ist eine Unterstützende Tabelle. Jeder Datensatz stellt einen Treiber dar, der entweder von einem Aufnahmegerät oder einem Rendergerät verwendet wird.
-ms.openlocfilehash: 31b847ce089ca042282ad04aa4af77fc0e6681c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ca0a88e90b0183bf35c4c84675db5b3327d52ee
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740271"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857172"
 ---
 # <a name="devicedriver-table"></a>DeviceDriver-Tabelle
  

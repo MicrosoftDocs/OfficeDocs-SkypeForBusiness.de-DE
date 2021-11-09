@@ -2,7 +2,7 @@
 title: Bearbeiten der Einstellungen von Office Web Apps-Servern
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7a4b91ff-ca11-4dde-852d-ec51d143968a
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps-Servers. Die folgenden Eigenschaften stehen zur Bearbeitung zur Verfügung:'
-ms.openlocfilehash: 75a9822fb91e145eb28d8df506eaa392663e1fd1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89c4676a5bd8e26ff269698ca4c7688c6a5c1c05
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769243"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831189"
 ---
 # <a name="edit-office-web-apps-server-settings"></a>Bearbeiten der Einstellungen von Office Web Apps-Servern
 
@@ -28,12 +28,12 @@ Sie bearbeiten die Eigenschaften des konfigurierten Office Web Apps-Servers. Die
 
  **Office Web Apps Server FQDN:** Diese Eigenschaft definiert den vollqualifizierten Domänennamen des Office Web Apps-Servers und sollte mit einem DNS-Host-A- oder AAAA-Eintrag (wenn IPv6 verwendet wird) übereinstimmen.
 
- **Office Web Apps Server Discovery URL:** Die URL (Uniform Resource Locator) für den Clientzugriff auf den Office Web Apps-Server, müssen Sie diese Adresse möglicherweise von der Standardeinstellung aus bearbeiten, wenn sich der Server in einer anderen Netzwerkzone befindet als dem internen Netzwerk für Ihre Bereitstellung.
+ **Office Web Apps Server Discovery URL:** Die URL (Uniform Resource Locator) für den Clientzugriff auf den Office Web Apps Server, müssen Sie diese Adresse möglicherweise von der Standardeinstellung aus bearbeiten, wenn sich der Server in einer anderen Netzwerkzone befindet als dem internen Netzwerk für Ihre Bereitstellung.
 
 Aktivieren Sie das Kontrollkästchen **Der Office Web Apps-Server ist in einem externen Netzwerk bereitgestellt**, wenn dieser Server in Ihrem Umkreisnetzwerk oder in einer anderen Netzwerkzone bereitgestellt wird, die sich außerhalb Ihrer internen Firewall befindet, mit der das Umkreisnetzwerk, weniger vertrauenswürdige Netzwerke und das Internet von der internen Bereitstellung getrennt werden.
 
 ![Office Web Apps Einstellungen expander.](../../../media/OfficeWebApps_Settings_Expander.jpg)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Komponenten und Topologien für Konferenzen](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-conferencing)

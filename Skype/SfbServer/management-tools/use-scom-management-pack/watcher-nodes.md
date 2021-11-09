@@ -2,7 +2,7 @@
 title: Installieren und Konfigurieren von Monitorknoten
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/20/2015
 audience: ITPro
@@ -13,23 +13,23 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7392e4f8-6e2d-447b-aaa3-878f73995f9d
-description: So installieren und konfigurieren Sie Watcher-Knoten für Skype for Business Server synthetische Transaktionen.
-ms.openlocfilehash: aca051b005c3ec9a901c5366a7788af5e95d06f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Beschreibt den Prozess zum Installieren und Konfigurieren von Monitorknoten für Skype for Business Server synthetische Transaktionen.
+ms.openlocfilehash: 9b0faf7f449bf75083d3b83e40c7807207ad51a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766213"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833089"
 ---
-# <a name="how-to-install-and-configure-watcher-nodes"></a>Installieren und Konfigurieren von Monitorknoten
+# <a name="learn-to-install-configure-watcher-nodes"></a>Informationen zum Installieren, Konfigurieren von Monitorknoten
  
 **Zusammenfassung:** Installieren und konfigurieren Sie Monitorknoten für Skype for Business Server synthetische Transaktionen.
   
 Monitorknoten sind Computer, die regelmäßig Skype for Business Server synthetische Transaktionen ausführen. Synthetische Transaktionen sind Windows PowerShell Cmdlets, die überprüfen, ob wichtige Benutzerszenarien wie die Möglichkeit, sich anzumelden oder Chatnachrichten auszutauschen, erwartungsgemäß funktionieren. For Skype for Business Server 2015, System Center Operations Manager can run the synthetic transactions shown in the following table, which includes three synthetic transaction types:
   
-- **Standardeinstellung** Synthetische Transaktionen, die standardmäßig von einem Watcher-Knoten ausgeführt werden. Wenn Sie einen neuen Watcher-Knoten erstellen, können Sie angeben, welche synthetischen Transaktionen dieser Knoten ausführen wird. (Dies ist der Zweck des Tests-Parameters, der vom Cmdlet New-CsWatcherNodeConfiguration verwendet wird.) Wenn Sie beim Erstellen des Watcher-Knotens nicht den Parameter "Tests" verwenden, werden automatisch alle synthetischen Standardtransaktionen und keine der nicht standardmäßigen synthetischen Transaktionen ausgeführt. Dies bedeutet beispielsweise, dass der Monitorknoten für die Ausführung des Test-CsAddressBookService Tests konfiguriert ist, aber nicht für die Ausführung des Test-CsExumConnectivity Tests konfiguriert ist.
+- **Standardeinstellung** Synthetische Transaktionen, die standardmäßig von einem Watcher-Knoten ausgeführt werden. Wenn Sie einen neuen Watcher-Knoten erstellen, können Sie angeben, welche synthetischen Transaktionen dieser Knoten ausführen wird. (Dies ist der Zweck des Tests-Parameters, der vom Cmdlet New-CsWatcherNodeConfiguration verwendet wird.) Wenn Sie beim Erstellen des Watcher-Knotens nicht den Parameter "Tests" verwenden, werden automatisch alle synthetischen Standardtransaktionen und keine der nicht standardmäßigen synthetischen Transaktionen ausgeführt. Dies bedeutet beispielsweise, dass der Watcher-Knoten so konfiguriert wird, dass er den Test-CsAddressBookService Test ausführt, aber nicht für die Ausführung des Test-CsExumConnectivity Tests konfiguriert ist.
     
-- **Nicht standardmäßig** Tests, bei denen Monitorknoten nicht standardmäßig ausgeführt werden. (Ausführliche Informationen finden Sie in der Beschreibung des Standardtyps.) Der Monitorknoten kann jedoch aktiviert werden, um alle nicht standardmäßigen synthetischen Transaktionen auszuführen. Sie können dies tun, wenn Sie den Watcher-Knoten (mithilfe des Cmdlets New-CsWatcherNodeConfiguration) oder jederzeit nach dem Erstellen des Watcher-Knotens erstellen. Beachten Sie, dass viele der nicht standardmäßigen synthetischen Transaktionen zusätzliche Einrichtungsschritte erfordern. Weitere Informationen zu diesen Schritten finden Sie in [den speziellen Setupanweisungen für synthetische Transaktionen.](test-users-and-settings.md#special_synthetictrans)
+- **Nicht standardmäßig** Tests, bei denen Monitorknoten nicht standardmäßig ausgeführt werden. (Ausführliche Informationen finden Sie in der Beschreibung des Standardtyps.) Der Monitorknoten kann jedoch aktiviert werden, um alle nicht standardmäßigen synthetischen Transaktionen auszuführen. Sie können dies tun, wenn Sie den Watcher-Knoten erstellen (mithilfe des Cmdlets New-CsWatcherNodeConfiguration) oder jederzeit, nachdem der Watcher-Knoten erstellt wurde. Beachten Sie, dass viele der nicht standardmäßigen synthetischen Transaktionen zusätzliche Einrichtungsschritte erfordern. Weitere Informationen zu diesen Schritten finden Sie in [den speziellen Setupanweisungen für synthetische Transaktionen.](test-users-and-settings.md#special_synthetictrans)
     
 - **Erweitert** Ein spezieller Typ einer nicht standardmäßigen synthetischen Transaktion. Im Unterschied zu anderen synthetischen Transaktionen können sie bei jedem Durchgang mehrere Male ausgeführt werden. Dies ist beim Überprüfen des Verhaltens hilfreich, z. B. bei mehreren PSTN-VoIP-Routen (Public Switched Telephone Network) für einen Pool. Sie können dies einfach konfigurieren, indem Sie einem Monitorknoten mehrere Instanzen eines erweiterten Tests hinzufügen.
     
@@ -65,10 +65,10 @@ Zu den für Watcher-Knoten verfügbaren synthetischen Transaktionen gehören:
 Sie müssen keine Monitorknoten installieren, um System Center Operations Manager zu verwenden. Wenn Sie diese Knoten nicht installieren, können Sie immer noch Echtzeitwarnungen von Skype for Business Server 2015-Komponenten erhalten, wenn ein Problem auftritt. (Das Component and User Management Pack verwendet keine Monitorknoten.) Watcher-Knoten sind jedoch erforderlich, wenn Sie End-to-End-Szenarien mithilfe des Active Monitoring Management Packs überwachen möchten.
   
 > [!NOTE]
-> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne Operations Manager zu verwenden oder zu installieren. Abhängig von der Größe Ihrer Skype for Business Server Bereitstellung können synthetische Transaktionen einen großen Teil des Computerspeichers und der Prozessorzeit belegen. Aus diesem Grund wird empfohlen, einen dedizierten Computer als Monitorknoten zu verwenden. Sie sollten beispielsweise keinen Skype for Business Server Front-End-Server so konfigurieren, dass er als Monitorknoten fungiert. Monitorknoten sollten die gleichen grundlegenden Hardwareanforderungen erfüllen wie jeder andere Computer in Ihrer Skype for Business Server Topologie. 
+> Administratoren können synthetische Transaktionen auch manuell ausführen, ohne Operations Manager zu verwenden oder zu installieren. Abhängig von der Größe Ihrer Skype for Business Server Bereitstellung können synthetische Transaktionen einen großen Teil des Arbeitsspeichers und der Prozessorzeit des Computers belegen. Aus diesem Grund wird empfohlen, einen dedizierten Computer als Monitorknoten zu verwenden. Sie sollten beispielsweise keinen Skype for Business Server Front-End-Server so konfigurieren, dass er als Monitorknoten fungiert. Monitorknoten sollten die gleichen grundlegenden Hardwareanforderungen erfüllen wie alle anderen Computer in Ihrer Skype for Business Server Topologie. 
   
 > [!NOTE]
-> Ein legacy Lync Server 2013 Watcher-Knoten kann nicht auf demselben Computer wie ein Skype for Business Server 2015 Watcher-Knoten verbunden werden, da die Kernsystemdateien für Lync Server 2013 und Skype for Business Server 2015 nicht auf demselben Computer installiert werden können. Skype for Business Server 2015 Watcher-Knoten können jedoch Skype for Business Server 2015 und Lync Server 2013 gleichzeitig überwachen. Synthetische Standardtransaktionen werden für beide Produktversionen unterstützt. 
+> Ein legacy Lync Server 2013 Watcher-Knoten kann nicht auf demselben Computer wie ein Skype for Business Server 2015 Watcher-Knoten verbunden werden, da die Kernsystemdateien für Lync Server 2013 und Skype for Business Server 2015 nicht auf demselben Computer installiert werden können. Skype for Business Server 2015 Watcher-Knoten können jedoch gleichzeitig Skype for Business Server 2015 und Lync Server 2013 überwachen. Synthetische Standardtransaktionen werden für beide Produktversionen unterstützt. 
   
 Lync Server 2013 Watcher-Knoten können innerhalb oder außerhalb eines Unternehmens bereitgestellt werden, um Folgendes zu überprüfen:
   
@@ -169,7 +169,7 @@ Um die Authentifizierung mit vertrauenswürdigen Servern zu konfigurieren, müss
 > [!NOTE]
 > Eine vertrauenswürdige Anwendung ist eine Anwendung, der der vertrauenswürdige Status für die Ausführung als Teil von Skype for Business Server 2015 zugewiesen wird, die jedoch kein integrierter Bestandteil des Produkts ist. Vertrauensstatus bedeutet, dass nicht bei jeder Ausführung der Anwendung eine Authentifizierung angefordert wird.
   
-Um einen vertrauenswürdigen Anwendungspool zu erstellen, öffnen Sie die Skype for Business Server-Verwaltungsshell, und führen Sie einen Befehl wie den folgenden aus:
+Um einen vertrauenswürdigen Anwendungspool zu erstellen, öffnen Sie die Skype for Business Server Verwaltungsshell, und führen Sie einen Befehl wie den folgenden aus:
   
 ```PowerShell
 New-CsTrustedApplicationPool -Identity atl-watcher-001.litwareinc.com -Registrar atl-cs-001.litwareinc.com -ThrottleAsServer $True -TreatAsAuthenticated $True -OutboundOnly $False -RequiresReplication $True -ComputerFqdn atl-watcher-001.litwareinc.com -Site Redmond
@@ -196,7 +196,7 @@ Enable-CsTopology
 
 Das Computerkonto des Watcher-Knotens erfordert die Möglichkeit, cms für einige synthetische Transaktionen abfragt. Um diese Möglichkeit zuzulassen, fügen Sie das Computerkonto des Watcher-Knotens zur Sicherheitsgruppe "RTCUniversalReadOnlyAdmins" hinzu. Starten Sie den Computer neu, nachdem die AD-Replikation erfolgt ist.
   
-Um zu überprüfen, ob die neue vertrauenswürdige Anwendung erstellt wurde, geben Sie Folgendes an der Eingabeaufforderung der Skype for Business Server Verwaltungsshell ein:
+Um zu überprüfen, ob die neue vertrauenswürdige Anwendung erstellt wurde, geben Sie Folgendes an der Eingabeaufforderung Skype for Business Server Verwaltungsshell ein:
   
 ```PowerShell
 Get-CsTrustedApplication -Identity "atl-watcher-001.litwareinc.com/urn:application:STWatcherNode"
@@ -209,9 +209,9 @@ Jedem Watcher-Knoten, der die TrustedServer-Authentifizierung verwendet, muss mi
   
 So weisen Sie ein Standardzertifikat zu:
   
-1. Klicken Sie auf "Start", auf "Alle Programme", auf Skype for Business Server 2015 und dann auf Skype for Business Server Bereitstellungs-Assistenten. 
+1. Klicken Sie auf "Start", "Alle Programme", "Skype for Business Server 2015" und dann auf Skype for Business Server Bereitstellungs-Assistenten. 
     
-2. Klicken Sie im Bereitstellungs-Assistenten Skype for Business Server auf Skype for Business Server System installieren oder aktualisieren, und klicken Sie dann unter der Überschrift "Zertifikat anfordern", "Installieren" oder "Zuweisen" auf "Ausführen". 
+2. Klicken Sie im Skype for Business Server Bereitstellungs-Assistenten auf Skype for Business Server System installieren oder aktualisieren, und klicken Sie dann unter der Überschrift "Zertifikat anfordern", "Installieren" oder "Zertifikat zuweisen" auf "Ausführen". 
     
 > [!NOTE]
 > Wenn die Schaltfläche Ausführen deaktiviert ist, müssen Sie möglicherweise zunächst unter Lokalen Konfigurationsspeicher installieren auf Ausführen klicken. 
@@ -225,7 +225,7 @@ Führen Sie einen der folgenden Schritte aus:
 ## <a name="install-and-configure-a-watcher-node"></a>Installieren und Konfigurieren eines Watcher-Knotens
 <a name="enable_synthetic_trans"> </a>
 
-Nachdem Sie den Monitorknotencomputer neu gestartet und ein Zertifikat konfiguriert haben, müssen Sie die Datei Watchernode.msi ausführen. (Sie müssen Watchernode.msi auf jedem Computer ausführen, auf dem sowohl die Operations Manager-Agentdateien als auch die Skype for Business Server 2015-Kernkomponenten installiert sind.) 
+Nachdem Sie den Monitorknotencomputer neu gestartet und ein Zertifikat konfiguriert haben, müssen Sie die Datei Watchernode.msi ausführen. (Sie müssen Watchernode.msi auf jedem Computer ausführen, auf dem sowohl die Operations Manager-Agent-Dateien als auch die Skype for Business Server 2015-Kernkomponenten installiert sind.) 
   
 So installieren und konfigurieren Sie einen Watcher-Knoten:
   

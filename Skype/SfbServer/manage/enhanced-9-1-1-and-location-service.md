@@ -2,7 +2,7 @@
 title: Verwalten der erweiterten 9-1-1 und des Standortdiensts
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -10,22 +10,22 @@ ms.prod: skype-for-business-itpro
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
-description: Skype for Business Server unterstützt erweiterte 9-1-1(E9-1-1)-Anrufe von Skype for Business Clients. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, enthalten Notrufe, die von Skype for Business getätigt werden, Informationen zum Notfallstandort (Emergency Response Location, ERL) aus der Standortinformationsdienst-Datenbank.
-ms.openlocfilehash: cff19de879066163f53de6b8d51ef8384d451438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Skype for Business Server unterstützt erweiterte 9-1-1 (E9-1-1)-Anrufe von Skype for Business Clients. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, enthalten Notrufe, die von Skype for Business getätigt werden, Informationen zum Notfallstandort (Emergency Response Location, ERL) aus der Standortinformationsdienst-Datenbank.
+ms.openlocfilehash: 5eb5fe86449147c38c5719976f202591f13a67fb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848528"
 ---
 # <a name="manage-enhanced-9-1-1-and-the-location-service-in-skype-for-busines-server"></a>Verwalten der erweiterten 9-1-1 und des Standortdiensts in Skype für Busines Server
 
-Skype for Business Server unterstützt erweiterte 9-1-1(E9-1-1)-Anrufe von Skype for Business Clients. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, enthalten Notrufe, die von Skype for Business getätigt werden, Informationen zum Notfallstandort (Emergency Response Location, ERL) aus der Standortinformationsdienst-Datenbank. Verwenden Sie die Verfahren in diesem Artikel, um die Standortrichtlinie zu verwalten.
+Skype for Business Server unterstützt erweiterte 9-1-1 (E9-1-1)-Anrufe von Skype for Business Clients. Wenn Sie Skype for Business Server für E9-1-1 konfigurieren, enthalten Notrufe, die von Skype for Business getätigt werden, Informationen zum Notfallstandort (Emergency Response Location, ERL) aus der Standortinformationsdienst-Datenbank. Verwenden Sie die Verfahren in diesem Artikel, um die Standortrichtlinie zu verwalten.
 
 > [!Note]
 > Ausführliche Informationen zum Bereitstellen erweiterter Enterprise-VoIP Features, z. B. E9-1-1 und des Standortinformationsdiensts, finden Sie unter [Bereitstellen erweiterter Enterprise-VoIP Features.](../deploy/deploy-enterprise-voice/deploy-advanced-enterprise-voice-features.md)
 
-In Skype for Business Server können Sie die Standortrichtlinie verwenden, um Einstellungen für erweiterte 9-1-1-Funktionen (E9-1-1) und Standorteinstellungen für Benutzer oder Kontakte anzuwenden. Die Standortrichtlinie bestimmt, ob ein Benutzer für E9-1-1 aktiviert ist und wenn ja, welches Verhalten ein Notruf hat. Sie können beispielsweise die Standortrichtlinie verwenden, um zu definieren, welche Nummer einen Notruf darstellt (z. B. 911 in den VEREINIGTEn Staaten), ob die Unternehmenssicherheit automatisch benachrichtigt werden soll und wie der Anruf weitergeleitet werden soll.
+In Skype for Business Server können Sie die Standortrichtlinie verwenden, um Einstellungen im Zusammenhang mit erweiterten 9-1-1-Funktionen (E9-1-1) und Standorteinstellungen für Benutzer oder Kontakte anzuwenden. Die Standortrichtlinie bestimmt, ob ein Benutzer für E9-1-1 aktiviert ist und wenn ja, welches Verhalten ein Notruf hat. Sie können beispielsweise die Standortrichtlinie verwenden, um zu definieren, welche Nummer einen Notruf darstellt (z. B. 911 in den VEREINIGTEn Staaten), ob die Unternehmenssicherheit automatisch benachrichtigt werden soll und wie der Anruf weitergeleitet werden soll.
 
 Sie können Standortrichtlinien aus der **Netzwerkkonfigurationsgruppe** in der Skype for Business Server Systemsteuerung konfigurieren. In der Skype for Business Server Systemsteuerung können Sie Standortrichtlinien anzeigen, erstellen, ändern oder löschen. Verwenden Sie das folgende Verfahren, um Informationen zu Ortungsrichtlinien anzuzeigen. 
 
@@ -61,9 +61,9 @@ In Skype for Business Server können Sie die Standarddauer zwischen Clientanford
 
 3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Standortrichtlinie".**
 
-4.  Klicken Sie auf der Seite **"Standortrichtlinie"** auf **"Neu",** und wählen Sie dann den Richtlinientyp aus, den Sie erstellen möchten:
+4.  Klicken Sie auf der Seite **"Standortrichtlinie"** auf **"Neu",** und wählen Sie dann den Typ der Richtlinie aus, die Sie erstellen möchten:
     
-      - Klicken Sie auf **Standortrichtlinie,** um eine Standortrichtlinie zu erstellen. Wählen Sie in **"Standort auswählen"** die Website aus, auf die die Richtlinie angewendet werden soll, und klicken Sie auf **"OK".** Auf der Seite **"Neue Standortrichtlinie"** enthält das **Feld Bereich** den Wert Site, und das Feld Name enthält den Namen der ausgewählten Website.   Eines dieser Felder kann nicht geändert werden. Eine Standortrichtlinie wird automatisch auf alle Benutzer am angegebenen Standort angewendet und überschreibt die globale Richtlinie für diese Benutzer.
+      - Klicken Sie auf **Standortrichtlinie,** um eine Standortrichtlinie zu erstellen. Wählen Sie in **"Standort auswählen"** die Website aus, auf die die Richtlinie angewendet werden soll, und klicken Sie auf **"OK".** Auf der Seite **"Neue Standortrichtlinie"** enthält das **Feld Bereich** den Wert Site, und das Feld Name enthält den Namen der ausgewählten Website.   Eines dieser Felder kann nicht geändert werden. Eine Standortrichtlinie wird automatisch auf alle Benutzer am angegebenen Standort angewendet und setzt die globale Richtlinie für diese Benutzer außer Kraft.
     
       - Klicken Sie auf **"Benutzerrichtlinie",** um eine **Benutzerrichtlinie** zu erstellen. In der **Neuen Standortrichtlinie** enthält das **Feld Bereich** den Wert **Benutzer.** Sie können diesen Wert nicht ändern. Geben Sie im **Feld "Name"** den Namen ein, den Sie dieser Richtlinie zuweisen möchten. Eine Benutzerrichtlinie gilt nicht automatisch für Benutzer. Nachdem Sie die Benutzerrichtlinie erstellt haben, müssen Sie die Richtlinie manuell den Benutzern oder Netzwerkstandorten gewähren, auf die die Richtlinie angewendet werden soll.
 

@@ -2,7 +2,7 @@
 title: Active Directory-Schemaerweiterungen, -Klassen und -Attribute
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Dieser Referenzbereich enthält die folgenden Informationen:'
-ms.openlocfilehash: 55ab4d185f2fb00159185cbb69ff1998db9d6f1b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a2e304a59970e775940d0a95480259cfa8fb5814
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762083"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828658"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory-Schemaerweiterungen, -Klassen und -Attribute
  
@@ -26,7 +26,7 @@ Dieser Referenzbereich enthält die folgenden Informationen:
   
 - Active Directory-Schemaerweiterungen, die für Skype for Business Server neu sind oder geändert wurden
     
-    Das Active Directory-Schema enthält formale Definitionen für alle Objektklassen, die in einer Active Directory-Gesamtstruktur erstellt werden können. Das Schema enthält darüber hinaus auch formale Definitionen für alle Attribute, die für ein Active Directory-Objekt vorhanden sein können. Der globale Katalog von Active Directory enthält Replikate aller Objekte für die Gesamtstruktur sowie eine Teilmenge der Attribute für die einzelnen Objekte. In diesem Abschnitt werden die Klassen und Attribute beschrieben, die in Skype for Business Server neu oder geändert wurden.
+    Das Active Directory-Schema enthält formale Definitionen für alle Objektklassen, die in einer Active Directory-Gesamtstruktur erstellt werden können. Das Schema enthält darüber hinaus auch formale Definitionen für alle Attribute, die für ein Active Directory-Objekt vorhanden sein können. Der globale Katalog von Active Directory enthält Replikate aller Objekte für die Gesamtstruktur sowie eine Teilmenge der Attribute für die einzelnen Objekte. In diesem Abschnitt werden die Klassen und Attribute beschrieben, die in Skype for Business Server neu sind oder geändert wurden.
     
 - Alle von Skype for Business Server verwendeten Klassen mit jeweils einer Beschreibung
     
@@ -54,7 +54,7 @@ Dieser Referenzbereich enthält die folgenden Informationen:
     
 - [Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server](changes-made-by-forest-preparation.md)
     
-- [Änderungen, die durch die Domänenvorbereitung in Skype for Business Server](changes-made-by-domain-preparation.md)
+- [Änderungen, die von der Domänenvorbereitung in Skype for Business Server vorgenommen wurden](changes-made-by-domain-preparation.md)
     
 - [Von Grant-CsSetupPermission in Skype for Business Server vorgenommene Änderungen](changes-made-by-grant-cssetuppermission.md)
     

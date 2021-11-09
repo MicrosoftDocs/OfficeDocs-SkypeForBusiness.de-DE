@@ -2,7 +2,7 @@
 title: Hybrid-Assistent Anmelden bei Microsoft 365 oder Office 365
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -19,12 +19,12 @@ ms.collection:
 ms.assetid: 791026d0-730f-4225-872e-74c9b5c166d7
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie den Assistenten Skype for Business Server Hybridverwaltung, um Ihre Umgebung für die Hybridbereitstellung mit Skype for Business Online zu konfigurieren.
-ms.openlocfilehash: 545cdd86397c5f8b358d87f2aef279fc11796e0b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff188a77f2c6bf06d95499b62a5cdccf35275923
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742751"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840457"
 ---
 # <a name="hybrid-wizard-sign-in-to-microsoft-365-or-office-365"></a>Hybrid-Assistent: Anmelden bei Microsoft 365 oder Office 365
 

@@ -2,7 +2,7 @@
 title: Bereitstellen von Statistics Manager für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 37b2bb9c-c5d4-4fb0-a976-670b7594b82f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server bereitstellen.'
-ms.openlocfilehash: 6444f89f43ea4951e186af589f5986e5a3e7bc9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4cfedb385078cd12413cb9f27059f7b5ed8023a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778155"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857432"
 ---
 # <a name="deploy-statistics-manager-for-skype-for-business-server"></a>Bereitstellen von Statistics Manager für Skype for Business Server
  
@@ -60,11 +60,11 @@ Gehen Sie folgendermaßen vor, um Statistics Manager bereitzustellen:
 5. Importieren Sie die Topologie für die Server, die Sie überwachen.
     
 > [!NOTE]
-> Redis, der Listener-Dienst und die Website müssen alle auf demselben Hostcomputer installiert sein. Stellen Sie sicher, dass auf dem Hostcomputer keine Skype for Business Server installiert ist. 
+> Redis, der Listener-Dienst und die Website müssen alle auf demselben Hostcomputer installiert sein. Stellen Sie sicher, dass auf dem Hostcomputer Skype for Business Server installiert ist. 
   
 ### <a name="prepare-the-listener-host-machine"></a>Vorbereiten des Listener-Hostcomputers
 
-Um den Hostcomputer vorzubereiten, müssen Sie das Redis-Zwischenspeicherungssystem im Arbeitsspeicher installieren und sicherstellen, dass sich ein gültiges Zertifikat auf dem Computer befindet. Microsoft empfiehlt, den neuesten stabilen Build von Redis 3.0 zu installieren. Statistics Manager Version 2.0 wurde mit Redis 3.2.100 getestet. 
+Um den Hostcomputer vorzubereiten, müssen Sie das Redis-Cachesystem im Arbeitsspeicher installieren und sicherstellen, dass sich ein gültiges Zertifikat auf dem Computer befindet. Microsoft empfiehlt, den neuesten stabilen Build von Redis 3.0 zu installieren. Statistics Manager Version 2.0 wurde mit Redis 3.2.100 getestet. 
   
 1. Laden Sie Redis von der folgenden Website herunter: [https://github.com/MSOpenTech/redis](https://github.com/MSOpenTech/redis) . 
     
@@ -78,7 +78,7 @@ Um den Hostcomputer vorzubereiten, müssen Sie das Redis-Zwischenspeicherungssys
     
 2. Der Listener-Dienst erfordert ein Zertifikat. Microsoft empfiehlt dringend, ein Zertifikat von einer vertrauenswürdigen Zertifizierungsstelle signiert zu haben. 
     
-    Wenn Sie ein selbstsignantes Zertifikat verwenden möchten, z. B. zu Testzwecken in einer Übung, finden Sie weitere Informationen unter [Erstellen eines selbstsignten Zertifikats.](deploy.md#BKMK_SelfCert)
+    Wenn Sie ein selbstsigngeschütztes Zertifikat verwenden möchten, z. B. zu Testzwecken in einer Übung, finden Sie weitere Informationen unter [Erstellen eines selbstsignten Zertifikats.](deploy.md#BKMK_SelfCert)
     
     Beachten Sie, dass der Agent die Zertifikatfingerabdrucküberprüfung (anstelle der Verkettungsüberprüfung) verwendet. Die vollständige Zertifikatüberprüfung wird nicht ausgeführt, da es möglich ist, selbstsignate Zertifikate zu verwenden.
     
@@ -104,7 +104,7 @@ Installieren Sie den Listener-Dienst auf dem Hostcomputer, indem Sie die StatsMa
        Get-ChildItem -path cert:\LocalMachine\My
        ```
 
-   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies standardmäßig mithilfe der Schaltfläche **Durchsuchen...** ändern.
+   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies mithilfe der Schaltfläche **Durchsuchen...** standardmäßig ändern.
     
    - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Protokolle" und andere Daten gespeichert werden. Sie können es von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
     
@@ -134,7 +134,7 @@ Installieren Sie die Website auf dem Hostcomputer, indem Sie die StatsManWebSite
     
    - **Dienstport:** Dies ist die Portnummer, auf die die Website lauscht. Sie können sie später mithilfe der IIS-Managerbindung ändern. Während der Installation wird dieser Port über die lokale Firewall zugelassen.
     
-   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies standardmäßig mithilfe der Schaltfläche **Durchsuchen...** ändern.
+   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies mithilfe der Schaltfläche **Durchsuchen...** standardmäßig ändern.
     
    - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Protokolle" und andere Daten gespeichert werden. Sie können es von der Standardeinstellung ändern. Sie wird bei der Deinstallation nicht gelöscht.
     
@@ -164,7 +164,7 @@ Installieren Sie einen Agent auf jedem Skype for Business Server, den Sie überw
     
    - **Dienstfingerabdruck:** Dies ist der Fingerabdruck des SSL-Zertifikats, das der Listener verwendet. Der Agent verwendet diesen Fingerabdruck, um sich beim Listener zu authentifizieren. (Es wird keine vollständige Zertifikatüberprüfung ausgeführt, da es möglich ist, selbstsignate Zertifikate zu verwenden.)
     
-   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies standardmäßig mithilfe der Schaltfläche **Durchsuchen...** ändern.
+   - **Installieren Von Dir:** Dies ist das Verzeichnis, in dem die Binärdateien installiert werden. Sie können dies mithilfe der Schaltfläche **Durchsuchen...** standardmäßig ändern.
     
    - **AppData Dir:** Dies ist das Verzeichnis, in dem der Ordner "Protokolle" und die verschlüsselte password.txt-Datei gespeichert werden. Vielen Dank, dass Sie es von der Standardeinstellung geändert haben. Sie wird bei der Deinstallation nicht gelöscht.
     
@@ -267,7 +267,7 @@ Wenn ein Agent nicht gestartet werden kann, überprüfen Sie Folgendes:
   .\PerfAgentStorageManager.exe -redis=localhost -a=getcountervalues  -counter="\\*\Processor Information\% Processor Time_Mean_Mean\_Total" -file:all-processor.csv
   ```
 
-Informationen zu allen Ereignissen, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, finden Sie unter [Problembehandlung bei Statistics Manager für Skype for Business Server.](troubleshoot.md)
+Informationen zu allen Ereignissen, die möglicherweise im Anwendungsereignisprotokoll angezeigt werden, finden Sie unter [Problembehandlung bei Statistics Manager für Skype for Business Server](troubleshoot.md).
   
 ## <a name="create-a-self-signed-certificate"></a>Erstellen eines selbstsignten Zertifikats
 <a name="BKMK_SelfCert"> </a>

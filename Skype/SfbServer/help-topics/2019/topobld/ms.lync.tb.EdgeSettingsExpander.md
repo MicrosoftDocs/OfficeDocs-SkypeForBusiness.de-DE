@@ -2,7 +2,7 @@
 title: Edgeeinstellungen – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 7ea357ebf5b0de6001bd74b5dec9f54e33e8d914
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1f67b701e97b02a5b801d93e2d5757cdff287aa3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739771"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855942"
 ---
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
@@ -61,6 +61,6 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 > [!IMPORTANT]
 > Wenn Sie diese Einstellungen ändern (z. B. die Verwendung separater vollqualifizierter Domänennamen und IP-Adressen oder Ports festlegen), müssen Sie alle anderen Dienste aktualisieren, die von den ursprünglich konfigurierten Werten abhängen.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter ["Definieren der Edgetopologie".](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)

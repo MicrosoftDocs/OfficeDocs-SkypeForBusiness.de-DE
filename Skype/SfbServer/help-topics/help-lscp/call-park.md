@@ -2,7 +2,7 @@
 title: Funktion zum Parken von Anrufen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b752617d-554d-470e-b17b-387403ac74ed
 description: Wenn ein Anruf geparkt wird, wird er an eine temporäre Nummer weitergeleitet, bei der der Anruf gehalten wird, bis jemand ihn entgegennimmt oder ein Zeitüberschreitung auftritt. Sie müssen eine Tabelle mit den Bereichen von Durchwahlnummern konfigurieren, die Sie für geparkte Anrufe reservieren. Dabei muss es sich um virtuelle Durchwahlnummern handeln (also Nummern, denen kein Benutzer oder Telefon zugeordnet ist). Jeder Pool, in dem die Anwendung zum Parken von Anrufen ausgeführt wird, kann über einen oder mehrere Erweiterungsbereiche verfügen. Diese Bereiche müssen innerhalb der Bereitstellung eindeutig sein.
-ms.openlocfilehash: cfbe98e0f432fc5be2b27979ab76d0436ae8343f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 14c5ddbf3bd7f2d862cfd3f3e89310932964b8b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742302"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841567"
 ---
 # <a name="call-park"></a>Parken von Anrufen
 

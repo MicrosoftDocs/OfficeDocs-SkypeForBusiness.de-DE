@@ -2,7 +2,7 @@
 title: Planen der Anrufsteuerung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6fda0195-4c89-4dea-82e8-624f03e3d062
 description: Erfahren Sie mehr über die Anrufsteuerung, die verhindern kann, dass Anrufe stattfinden, wenn sie eine schlechte Medienqualität aufweisen, in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 59b8d3f74d138e087f4a5b49b7a40d6ec935a829
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6260321a29ad138fae41eacb9a1bee5d322d1684
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768643"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841077"
 ---
 # <a name="plan-for-call-admission-control-in-skype-for-business-server"></a>Planen der Anrufsteuerung in Skype for Business Server
 
@@ -113,7 +113,7 @@ Zur Planung der Anrufsteuerung (Call Admission Control, CAC) sind detaillierte I
 4. Ermitteln Sie die Bandbreiteneinschränkungen für jede WAN-Verbindung.
 
     > [!NOTE]
-    > Bandbreiteneinschränkungen beziehen sich darauf, wie viel Bandbreite auf einer WAN-Verbindung Enterprise-VoIP und Audio-/Videodatenverkehr zugeordnet wird. Wenn eine WAN-Verbindung als "Bandbreiteneinschränkung" beschrieben wird, weist die WAN-Verbindung eine Bandbreitenbeschränkung auf, die niedriger ist als der erwartete Spitzendatenverkehr über die Verbindung.
+    > Bandbreiteneinschränkungen beziehen sich darauf, wie viel Bandbreite auf einer WAN-Verbindung Enterprise-VoIP und Audio-/Videodatenverkehr zugewiesen wird. Wenn eine WAN-Verbindung als "Bandbreiteneinschränkung" beschrieben wird, weist die WAN-Verbindung eine Bandbreitenbeschränkung auf, die niedriger ist als der erwartete Spitzendatenverkehr über die Verbindung.
 
 5. Identifizieren Sie die IP-Subnetze, die jedem Netzwerkstandort zugewiesen sind.
 
@@ -240,7 +240,7 @@ Arbeiten Sie mit Ihrem Netzwerkadministrator zusammen, um zu ermitteln, welche I
 Im hier verwendeten Beispiel sind dem Standort "New York" in der Region "Nordamerika" die folgenden IP-Subnetze zugewiesen: 172.29.80.0/23, 157.57.216.0/25, 172.29.91.0/23, 172.29.81.0/24. Angenommen, der Benutzer Bob, der üblicherweise in Detroit arbeitet, reist für eine Schulung in das New Yorker Büro. Wenn er seinen Computer einschaltet und sich mit dem Netzwerk verbindet, erhält sein Computer eine IP-Adresse aus einem der vier Bereiche, die für "New York" reserviert sind, beispielsweise die Adresse 172.29.80.103.
 
 > [!CAUTION]
-> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Ein Skype for Business Client verwendet seine lokale IP-Adresse und maskiert die IP-Adresse mit der zugeordneten Subnetzmaske. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die Anrufsteuerung, aber keine Medienumgehung bereitstellen, funktioniert die Anrufsteuerung auch dann ordnungsgemäß, wenn Sie virtuelle Subnetze konfigurieren.) Wenn sich ein Client beispielsweise auf einem Computer mit der IP-Adresse 172.29.81.57 mit der IP-Subnetzmaske 255.255.255.0 anmeldet, fordert Skype for Business die Umgehungs-ID an, die dem Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – wenngleich der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Daher ist es wichtig, dass der Administrator Subnetze genau wie von Skype for Business Clients bereitstellt (die während der Netzwerkkonfiguration entweder statisch oder über DHCP mit Subnetzen bereitgestellt werden).
+> Die während der Netzwerkkonfiguration auf dem Server angegebenen IP-Subnetze müssen dem Format entsprechen, das von Clientcomputern bereitgestellt wird, damit eine ordnungsgemäße Verwendung für die Medienumgehung gewährleistet ist. Ein Skype for Business Client verwendet seine lokale IP-Adresse und maskiert die IP-Adresse mit der zugeordneten Subnetzmaske. Bei Ermittlung der Umgehungs-ID für jeden Client vergleicht die Registrierung die Liste der IP-Subnetze für jeden Netzwerkstandort mit dem vom Client bereitgestellten Subnetz, um eine exakte Übereinstimmung zu ermitteln. Aus diesem Grund ist es wichtig, dass es sich bei den während der Netzwerkkonfiguration auf dem Server eingegebenen Subnetzen nicht um virtuelle, sondern um tatsächliche Subnetze handelt. (Wenn Sie die Anrufsteuerung, aber keine Medienumgehung bereitstellen, funktioniert die Anrufsteuerung auch dann ordnungsgemäß, wenn Sie virtuelle Subnetze konfigurieren.) Wenn sich ein Client beispielsweise auf einem Computer mit der IP-Adresse 172.29.81.57 mit der IP-Subnetzmaske 255.255.255.0 anmeldet, fordert Skype for Business die Umgehungs-ID an, die dem Subnetz 172.29.81.0 zugeordnet ist. Wenn das Subnetz als 172.29.0.0/16 definiert ist, betrachtet die Registrierung dies – wenngleich der Client dem virtuellen Subnetz angehört – nicht als Übereinstimmung, da die Registrierung ausschließlich nach Subnetz 172.29.81.0 sucht. Daher ist es wichtig, dass der Administrator Subnetze genau wie von Skype for Business Clients (die während der Netzwerkkonfiguration entweder statisch oder über DHCP mit Subnetzen bereitgestellt werden) bereitstellt.
 
 ## <a name="best-practices-for-call-admission-control"></a>Bewährte Methoden für die Anrufsteuerung
 

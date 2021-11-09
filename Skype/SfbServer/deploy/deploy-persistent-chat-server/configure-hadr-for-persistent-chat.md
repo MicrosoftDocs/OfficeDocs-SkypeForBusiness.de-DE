@@ -2,7 +2,7 @@
 title: Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
-description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: b4377d2151adfccd591bb7c59d7d8854f03e453b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
+ms.openlocfilehash: 8c5a219b803f38c4a2690f0b4ff213cb17446cd7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755634"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832879"
 ---
 # <a name="configure-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -32,7 +32,7 @@ Skype for Business Server unterstützt mehrere Modi mit hoher Verfügbarkeit fü
 > [!NOTE] 
 > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
   
-Bevor Sie Ihre Bereitstellung für den beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, sollten Sie mit den Konzepten in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sein. Die in diesen Themen beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Der Planungsinhalt beschreibt die Ressourcenanforderungen und die Gestreckte Pooltopologie, die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat ermöglicht, einschließlich der Verwendung SQL Server Spiegelung für hohe Verfügbarkeit und SQL Server Protokollversands für die Notfallwiederherstellung.
+Bevor Sie ihre Bereitstellung für den beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, sollten Sie mit den Konzepten in [Plan for high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/high-availability-and-disaster-recovery.md)vertraut sein. Die in diesen Themen beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Der Planungsinhalt beschreibt die Ressourcenanforderungen und die Gestreckte Pooltopologie, die hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat ermöglicht, einschließlich der Verwendung SQL Server Spiegelung für hohe Verfügbarkeit und SQL Server Protokollversands für die Notfallwiederherstellung.
   
 ## <a name="use-topology-builder-to-configure-high-availability-and-disaster-recovery"></a>Verwenden des Topologie-Generators zum Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung
 

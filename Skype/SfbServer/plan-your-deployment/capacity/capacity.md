@@ -2,7 +2,7 @@
 title: Kapazitätsplanung für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,19 +13,19 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e557ed2c-9cb2-4c90-8fd1-96a814c47c19
 description: Die Themen in diesem Abschnitt helfen Ihnen zu verstehen, wie Sie Skype for Business Server planen und bereitstellen, damit Sie die Anzahl der Benutzer in Ihrer Organisation angemessen planen und die Serverlast planen können, die ihre Aktivitäten generieren.
-ms.openlocfilehash: efb72de54c65eca99ad40b05c191433eebfed34f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e683eb2605c2a66a836321028595e2f034baf183
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778105"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856562"
 ---
 # <a name="capacity-planning-for-skype-for-business-server"></a>Kapazitätsplanung für Skype for Business Server
  
 Die Themen in diesem Abschnitt helfen Ihnen zu verstehen, wie Sie Skype for Business Server planen und bereitstellen, damit Sie die Anzahl der Benutzer in Ihrer Organisation angemessen planen und die Serverlast planen können, die ihre Aktivitäten generieren. 
   
 > [!NOTE]
-> Für alle Empfehlungen in diesem Abschnitt wird davon ausgegangen, dass Sie Skype for Business kumulative Update vom November 2015 oder höher auf Ihren Servern installiert haben. 
+> Bei allen Empfehlungen in diesem Abschnitt wird davon ausgegangen, dass Sie Skype for Business kumulative Update vom November 2015 oder höher auf Ihren Servern installiert haben. 
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

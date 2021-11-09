@@ -2,7 +2,7 @@
 title: Aktivieren der Erlebnisqualität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c8bb3c67-b324-4d94-8158-00c792c7ac42
 description: 'Zusammenfassung: Erfahren Sie, wie Sie QoE (Quality of Experience) in Skype for Business Server aktivieren.'
-ms.openlocfilehash: aa1f755dbc19da959f54f6af882bff2049363d6f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89c6a41a356355ea5ac717a10e2848aa16d94249
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767703"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863572"
 ---
 # <a name="enable-quality-of-experience-in-skype-for-business-server"></a>Aktivieren der Erlebnisqualität in Skype for Business Server
 
@@ -32,7 +32,7 @@ Verwenden Sie das folgende Verfahren, um QoE für Die gesamte Organisation oder 
 
 ### <a name="to-enable-qoe-by-using-skype-for-business-server-control-panel"></a>So aktivieren Sie QoE mithilfe Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 
@@ -70,7 +70,7 @@ Sie können QoE mit Windows PowerShell und dem Cmdlet **"Set-CsQoEConfiguration"
 
 Ausführliche Informationen finden Sie unter ["Set-CsQoEConfiguration".](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Planen der Überwachung](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 

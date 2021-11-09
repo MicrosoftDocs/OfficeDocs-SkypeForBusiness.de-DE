@@ -2,7 +2,7 @@
 title: Partnerverbund (Planungstool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
 ROBOTS: NOINDEX, NOFOLLOW
 description: Edgeserver können so konfiguriert werden, dass Ihre internen und externen Benutzer auf Kontakte in Partnerorganisationen oder -diensten zugreifen können.
-ms.openlocfilehash: 6090ef424293f36f6cdca7c0d70541b3c453c38b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 768d67d236e5da2fc53ee63eb3ba1765c1248bcc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775555"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840407"
 ---
 # <a name="federation-planning-tool"></a>Partnerverbund (Planungstool)
  

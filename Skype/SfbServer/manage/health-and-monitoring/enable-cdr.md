@@ -2,7 +2,7 @@
 title: Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Zusammenfassung: Erfahren Sie, wie Sie Aufzeichnungen von Kommunikationsdatensätzen (KDS) in Skype for Business Server aktivieren.'
-ms.openlocfilehash: 7adfc44c97387fc99244b0d2dea1cd7f884b6e6e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Kommunikationsdatensätze (KDS) in Skype for Business Server aktivieren.'
+ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740581"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863582"
 ---
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
 
@@ -32,7 +32,7 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
 
 ### <a name="to-enable-cdr-with-skype-for-business-server-control-panel"></a>So aktivieren Sie KDS mit Skype for Business Server Systemsteuerung
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 
@@ -73,7 +73,7 @@ Sie können KDS mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsCdrConfi
 
 Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsCdrConfiguration".](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Planen der Überwachung](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-monitoring)
 

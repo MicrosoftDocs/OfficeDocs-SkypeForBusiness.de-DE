@@ -2,7 +2,7 @@
 title: Zuordnen des VIS zu Edge
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 64d99926-053d-4a7f-a26d-467eef6c0950
 description: Die erforderlichen Schritte zum Definieren eines neuen VIS oder Videogateways im Topologie-Generator werden online unter Erstellen eines VIS-Pools in Skype for Business Server 2015 beschrieben.
-ms.openlocfilehash: 94d1e03702c7581a5c165a783abb302b89eefd57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 65dab6a2f095edbfb5dc1a18f086f9472b33aee8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751994"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863722"
 ---
 # <a name="associate-vis-with-edge"></a>Zuordnen des VIS zu Edge
  
@@ -34,6 +34,6 @@ Die Konfigurationsschritte für einen neuen Video-Interoperabilitätsserver mit 
   
  Die Einstellungen für einen VTC, die in der Cisco-GUI für die Interoperabilität mit einem Videogateway und einem VIS festgelegt werden müssen, werden online unter [Configure a VTC for Interoperation with Skype for Business Server 2015](../../deploy/deploy-video-interop-server/configure-a-vtc-for-interoperation.md)beschrieben.
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Plan for Video Interop Server in Skype for Business Server 2015](../../plan-your-deployment/video-interop-server.md)

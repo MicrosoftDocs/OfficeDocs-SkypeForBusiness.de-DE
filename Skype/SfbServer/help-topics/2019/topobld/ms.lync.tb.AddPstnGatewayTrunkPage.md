@@ -2,7 +2,7 @@
 title: Definieren des Stammtrunks für eine neue IP-Adresse oder ein neues PSTN-Gateway
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 22203d9a-4612-45c7-9375-69ae9964ce1e
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switched Telephone Network, PSTN), indem Sie Folgendes konfigurieren:'
-ms.openlocfilehash: ab57011eec73fcbee21dafc52cf85ddeebb01b7d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1a255c6b4dbe9b2e880c564abae90b2557a965cb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761183"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832589"
 ---
 # <a name="define-the-root-trunk-for-a-new-ip-or-pstn-gateway"></a>Definieren des Stammtrunks für eine neue IP-Adresse oder ein neues PSTN-Gateway
 
@@ -36,7 +36,7 @@ Sie definieren den Stammtrunk für die IP oder die Festnetzleitung (Public Switc
 
 - **Zugeordneter Vermittlungsserverport:** Definieren des Ports, auf dem der ausgewählte Vermittlungsserver lauscht
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](../../../deploy/deploy-enterprise-voice/configure-trunk-with-media-bypass.md)
 

@@ -2,7 +2,7 @@
 title: Zertifikatanforderung (Rückgabe)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/1/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ada9045-0fdf-4470-8574-2fa08bab9392
 description: 'Auf der Seite Status der Onlinezertifikatsanforderung finden Sie wichtige Informationen, die aus der erfolgreichen Erstellung und Ausstellung des Onlinezertifikats resultieren. Die Seite enthält ferner den Zertifikatfingerabdruck, der das Zertifikat eindeutig identifiziert. Standardmäßig ist das Kontrollkästchen Dieses Zertifikat Skype for Business Server Zertifikatverwendungen zuweisen aktiviert. Wenn Sie auf Fertig stellen klicken, wird das Zertifikat lync Server 2013 automatisch für die Zwecke zugewiesen, die Sie während der Erstellungsschritte der Zertifikatanforderung definiert haben. Das Zertifikat wird standardmäßig für die folgenden Zwecke zugewiesen:'
-ms.openlocfilehash: ec715e7270247ca35707ea89694b4970c7ece25c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 64c12960e574b9e43059989713974631db2a427e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764263"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831099"
 ---
 # <a name="certificate-request-returned"></a>Zertifikatanforderung (Rückgabe)
  

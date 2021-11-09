@@ -2,7 +2,7 @@
 title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.'
-ms.openlocfilehash: 3f3bade7c7696e7361b63dc2f539534b6072d34a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777305"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857342"
 ---
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
@@ -115,7 +115,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10004** – Fehler bei der Zwischenspeicherung der Infrastruktur
     
-  - **10007** - Einstellungen (in redis gespeichert)
+  - **10007** - Einstellungen (in Redis gespeichert)
     
     Der Listener konnte redis nicht kontaktieren oder wohlgeformte Daten aus dem Cache abrufen und konnte nicht gestartet werden. Stellen Sie sicher, dass der Redis-Dienst auf dem Server gestartet und ordnungsgemäß konfiguriert ist.
     
@@ -129,7 +129,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **30100** – Redis-PING-Ausfall wiederhergestellt
     
-    Diese werden protokolliert, wenn der Listener keine Verbindung mit Redis herstellen kann. Stellen Sie sicher, dass Redis gestartet wird und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
+    Diese werden protokolliert, wenn der Listener keine Verbindung mit Redis herstellen kann. Stellen Sie sicher, dass Redis gestartet und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
     
 - **10200** – Redis Write-Ausfall
     
@@ -137,7 +137,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **30100** – Redis Write-Ausfall behoben
     
-    Diese werden protokolliert, wenn der Listener nicht in den Redis-Cache schreiben kann. Stellen Sie sicher, dass Redis gestartet wird und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
+    Diese werden protokolliert, wenn der Listener nicht in den Redis-Cache schreiben kann. Stellen Sie sicher, dass Redis gestartet und netzwerkkonnektivität zwischen Listener und Redis verfügbar ist.
     
 - **30000** – Erfolgreich gestartet
     

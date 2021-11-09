@@ -2,7 +2,7 @@
 title: Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 3d293a8a-e182-4547-8b06-2603c3c77329
 description: 'Zusammenfassung: Sperren oder Entsperren der Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server.'
-ms.openlocfilehash: ccd575182bbac85b20879eaec8bb3e7a951fda1e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1ae1deea84b099852decd9acbc6315049484b0b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848598"
 ---
 # <a name="lock-or-unlock-a-user-pin-in-skype-for-business-server"></a>Sperren oder Entsperren einer Benutzer-PIN in Skype for Business Server
  

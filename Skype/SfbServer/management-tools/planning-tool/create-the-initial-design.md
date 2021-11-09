@@ -2,7 +2,7 @@
 title: Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f3131153-de14-41be-b1e6-7d4bb0191af1
 description: Nachdem Sie das Skype for Business Server Planungstool installiert haben, können Sie mit dem Planungstool beginnen und mit dem Entwurf der vorgeschlagenen Skype for Business Server 2015-Infrastruktur beginnen.
-ms.openlocfilehash: 0b1b477dffb6547629844268b8ade6ed5620ecbf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 85bbab87696f01e00ccbd9b5e413329a52a7cd22
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750144"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863482"
 ---
 # <a name="create-the-initial-topology-design-for-skype-for-business-server-2015"></a>Erstellen des anfänglichen Topologieentwurfs für Skype for Business Server 2015
 
@@ -34,9 +34,9 @@ Nachdem Sie das Skype for Business Server Planungstool installiert haben, könne
 
 2. Nachdem das Planungstool gestartet wurde, wird die Seite **"Willkommen beim Planungstool für Skype for Business Server 2015"** angezeigt. Wählen Sie eine der folgenden Optionen aus, um mit dem Entwurf zu beginnen:
 
-   - **Option 1: Erste Schritte** Durch Klicken auf Erste Schritte erhalten **Sie** eine bestimmte Reihe von Fragen mit relevanten Auswahlen, um die Kriterien zu definieren. Nachdem Sie die anfängliche **Erste Schritte** Interviewabschnitt abgeschlossen haben, fahren Sie mit dem **Abschnitt "Websites entwerfen"** fort, um Ihre Websitearchitektur zu definieren. Fahren Sie mit Schritt 3 fort, um diese Option abzuschließen.
+   - **Option 1: Erste Schritte** Durch Klicken auf **Erste Schritte** erhalten Sie eine bestimmte Reihe von Fragen mit relevanten Auswahlen, um die Kriterien zu definieren. Nachdem Sie die anfängliche **Erste Schritte** Interviewabschnitt abgeschlossen haben, fahren Sie mit dem **Abschnitt "Websites entwerfen"** fort, um Ihre Websitearchitektur zu definieren. Fahren Sie mit Schritt 3 fort, um diese Option abzuschließen.
 
-   - **Option 2: Entwerfen von Websites** Wenn Sie auf der Willkommensseite auf **"Websites entwerfen"** klicken, werden die Fragen im **Erste Schritte** umgangen. Die Informationen, die durch Antworten auf die Fragen im **Erste Schritte** Abschnitt gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **"Websites entwerfen"** kann der erfahrene Designer das anfängliche Interview umgehen und die Standardwerte nach Bedarf auf der Startseite **"Zentrale Websites"** ändern. Um diese Option abzuschließen, überspringen Sie die Schritte 3 bis 5, und beginnen Sie mit Schritt 6.
+   - **Option 2: Entwerfen von Websites** Wenn Sie auf der Willkommensseite auf **"Designwebsites"** klicken, werden die Fragen im **Erste Schritte** Umgang umgangen. Die Informationen, die durch Antworten auf die Fragen im **Erste Schritte** Abschnitt gesammelt worden wären, werden mit dieser Option auf Standardwerte festgelegt. Durch Klicken auf **"Websites entwerfen"** kann der erfahrene Designer das anfängliche Interview umgehen und die Standardwerte nach Bedarf auf der Startseite **"Zentrale Websites"** ändern. Um diese Option abzuschließen, überspringen Sie die Schritte 3 bis 5, und beginnen Sie mit Schritt 6.
 
    - **Option 3: Anzeigen der gespeicherten Topologie** Wenn Sie eine Topologie bereits durch vorherige Verwendung des Planungstools abgeschlossen und gespeichert haben, können Sie die meisten dieser Schritte überspringen und zunächst die Topologie öffnen und anzeigen. Sie können auch Änderungen und Aktualisierungen an der Topologie vornehmen, sie erneut speichern und dann in Microsoft Excel oder Microsoft Visio exportieren. Um diese Option abzuschließen, überspringen Sie die Schritte 3 bis 12, und beginnen Sie mit Schritt 13.
 
@@ -77,6 +77,6 @@ Nachdem Sie das Skype for Business Server Planungstool installiert haben, könne
 
 16. Das Planungstool zeigt die Seite "Globale Topologie" an. Sie können nun mit dem Bearbeiten, Aktualisieren oder Ändern der Topologie beginnen, indem Sie die im Planungstool verfügbaren Tools verwenden.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Bearbeiten des Entwurfs](/previous-versions/office/lync-server-2013/lync-server-2013-editing-the-design)

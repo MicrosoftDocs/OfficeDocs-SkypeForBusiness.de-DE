@@ -2,7 +2,7 @@
 title: Konfigurieren von Benutzerrichtlinien für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e5862480-95f8-4d76-a2b5-940cd995e93c
 description: 'Zusammenfassung: In diesem Thema erfahren Sie, wie Sie in Skype for Business Server 2015 erste Benutzerrichtlinien für den Server für beständigen Chat erstellen. Benutzerrichtlinien für beständigen Chat bestimmen, ob Benutzern der Zugriff auf Chatrooms gewährt wird.'
-ms.openlocfilehash: c77782ed1aeef1b7696ab7b00b5bbfcc9c00f421
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71003f6befa3e6c47cd65829c3703a45527e5964
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778895"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832859"
 ---
 # <a name="configure-persistent-chat-user-policies-in-skype-for-business-server-2015"></a>Konfigurieren von Benutzerrichtlinien für beständigen Chat in Skype for Business Server 2015
  

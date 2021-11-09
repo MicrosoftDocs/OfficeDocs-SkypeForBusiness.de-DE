@@ -2,7 +2,7 @@
 title: Ausstehendes Zertifikat (Aufruf)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 description: Auf der Seite Befehle ausführen wird eine Zusammenfassung der Befehle angezeigt, die zum Abrufen des ausstehenden Zertifikats ausgeführt wurden. Nach Abschluss der Aufgabe steht die Protokolldatei für Ausstehende Zertifikate abrufen zur Verfügung. Klicken Sie auf Protokoll anzeigen, um den Verarbeitungs- und Aufgabenstatus anzuzeigen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: ab5ffd29cecc206b0723b5e8daf69a5ffe628165
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23bbfca4e36fffc12039bf220f863dfe1131530f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739651"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831089"
 ---
 # <a name="pending-certificate-invoke"></a>Ausstehendes Zertifikat (Aufruf)
  

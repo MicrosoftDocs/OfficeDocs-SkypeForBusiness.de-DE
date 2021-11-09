@@ -1,6 +1,6 @@
 ---
 title: Optimieren von Feedback und Berichterstellung für Microsoft Teams Einführung
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 11/01/2018
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 136e6a2b2155a7215b468f1c2309b54db7914605
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a52e0035099ccb764272566c899ee5811c18ac5b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745491"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840717"
 ---
 # <a name="optimize-feedback-and-reporting-for-your-microsoft-teams-adoption"></a>Optimieren des Feedbacks und der Berichterstellung für Ihre Einführung von Microsoft Teams
 
@@ -39,12 +39,12 @@ In der gesamten Experimentphase sammeln Sie Informationen darüber, wie Personen
 - Wann verwende ich dieses neue Tool neben meiner vorhandenen Technologie?
 - Wer für die Verwendung dieses Tools mit mir genehmigt?
 - Ist sie für hochgradig vertrauliche Informationen sicher? 
-- Wer sprach ich mit, um mehr über die Microsoft Teams?
+- Wer sprich ich mit, um mehr über das Thema zu Microsoft Teams?
 - Irgendetwas funktioniert nicht. Wie kann ich Hilfe erhalten?
 
 ## <a name="invest-in-your-champions"></a>Investieren Sie in Ihre Champions
 
-Während Sie sich auf die Skalierung Ihrer Nutzung von Microsoft Teams vorbereiten, stellen Sie zusätzliche Champions in jedem Geschäftsbereich oder jeder Gruppe ein, zu dem Sie erweitert werden. Registrieren Sie diese engagierten Mitarbeiter in Ihr Dienstschulungsprogramm, und standardisieren Sie, wie und wann Sie sich mit ihnen treffen.
+Während Sie sich auf die Skalierung Ihrer Nutzung von Microsoft Teams, stellen Sie zusätzliche Champions in jedem Geschäftsbereich oder jeder Gruppe ein, in die Sie erweitert werden. Registrieren Sie diese engagierten Mitarbeiter in Ihr Dienstschulungsprogramm, und standardisieren Sie, wie und wann Sie sich mit ihnen treffen.
  
 Entwerfen Sie klar in Ihrem Champions-Programm, was Ihre Mitarbeiter erhalten und was sie erwartet, wenn sie zu Champions werden. Allgemeine Programmanforderungen sind geplante Geschäftszeiten, Die Teilnahme an monatlichen Communityanrufen und die Teilnahme an internen Online-Communitys, um Ihren Umstieg auf diese neuen Erfahrungen zu unterstützen.  
 
@@ -57,7 +57,7 @@ Bewährte Methode: Lassen Sie Mitarbeiter aus Ihrer internen Supportabteilung od
 Es gibt drei Arten von Berichten, die Sie bei der Bereitstellung und Einführung der Berichte überprüfen Microsoft Teams:
 
 - [Dienstzustand](https://status.office365.com/) – von Microsoft 365, Office 365 und Ihrer internen IT-Supportabteilung.
-- [Microsoft 365](/microsoft-365/admin/activity-reports/activity-reports) Berichte im Admin Center – aus Microsoft 365 oder Office 365 anzeigen Microsoft 365 Berichte im Admin Center – Microsoft Teams [Benutzeraktivität](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity). Sie können auch Informationen aus anderen Systemen innerhalb Ihrer Organisation verwenden.
+- [Microsoft 365 Berichte](/microsoft-365/admin/activity-reports/activity-reports) im Admin Center – aus Microsoft 365 oder Office 365 anzeigen Microsoft 365 Berichte im Admin Center – Microsoft Teams [Benutzeraktivität .](/microsoft-365/admin/activity-reports/microsoft-teams-user-activity) Sie können auch Informationen aus anderen Systemen innerhalb Ihrer Organisation verwenden.
 - Zufriedenheit mit den Dienstleistungen – Gesammelt von internen Communityforen und Umfragen zu bestimmten Erfahrungen
 
 ![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Fördern des Bewusstseins und Implementieren von Schulungen](teams-adoption-drive-awareness.md)
