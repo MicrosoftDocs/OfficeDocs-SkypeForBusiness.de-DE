@@ -1,6 +1,6 @@
 ---
 title: Planen von Liveereignissen in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -20,12 +20,12 @@ description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 84a167e2b53ce61d7d06848b10f63c7419bc9260
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 496c34d36c5e8288a6f29d33a47c1bd6fab2c38a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769813"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865453"
 ---
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
@@ -127,9 +127,9 @@ Die folgende Tabelle enthält eine Gegenüberstellung der verfügbaren Kernfunkt
 |Produzentenclient auf Mac |&#x274C;  | &#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Teilnehmeranzahl in Produzenten-UI |&#x274C;  |&#x2714; (Teams) |&#x2714; (Stream, Teams via Stream Embed) |
 |Mehrere Referenten zulässig |&#x2714; (Skype for Business) |&#x2714; (Teams) |–  |
-|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |&#x274C; |Nicht zutreffend |
+|Referenten während der Sitzung einladen |&#x2714; (Skype for Business) |&#x274C; |– |
 |Referenten über Web und Mobilgerät teilnehmen |&#x2714; (Skype for Business)  |&#x274C; |– |
-|Externer Zugriff (Partnerverbund) & Gastreferenten/-teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |Nicht zutreffend |
+|Externer Zugriff (Partnerverbund) & Gastreferenten/-teilnehmer |&#x2714; (Skype for Business)  |  &#x2714; (Teams) |– |
 |Referent – Telefonfestnetz (PSTN)-Zugang |&#x274C; |&#x2714; (Teams) |– |
 |Bildschirm präsentieren |&#x274C; |&#x2714; (Teams) |– |
 |Systemaudio unter Windows freigeben (nur bei Bildschirmfreigabe verfügbar)|&#x274C; |&#x2714; (Teams) |&#x2714; |
