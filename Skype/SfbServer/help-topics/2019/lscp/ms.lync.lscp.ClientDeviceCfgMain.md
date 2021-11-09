@@ -2,7 +2,7 @@
 title: Geräteprotokollkonfiguration
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der Geräteaktualisierungswebdienst erstellt automatisch Protokolldateien, die Geräteaktualisierungsaktivitäten aufzeichnen. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation sollten Sie Schwellenwerte für die Größe des Protokolldatencaches, die Größe der Protokolldatei oder die Dauer festlegen, die eine Protokolldatei vor dem Löschen aufbewahrt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Wenn Sie nicht möchten, dass der Geräteaktualisierungswebdienst Protokolldateien automatisch löscht, können Sie sie bei Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
-ms.openlocfilehash: 655c8451ac40cd31787282ab0b804d4309aa34a8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1a628c9d1fd7604345d7c6fee723accb936084a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764693"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838247"
 ---
 # <a name="device-log-configuration"></a>Geräteprotokollkonfiguration
 
@@ -60,6 +60,6 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 - **Aktualisieren** Sie können die Geräteprotokollkonfigurationsliste aktualisieren, um den Status der Optionen für alle Geräteprotokollkonfigurationen zu überprüfen.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Ändern von Protokolldateieinstellungen für die Geräteaktualisierung](/previous-versions/office/lync-server-2013/lync-server-2013-modify-settings-for-device-update-log-files)

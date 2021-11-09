@@ -2,7 +2,7 @@
 title: Bereitstellen von Edgeservern in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,18 +15,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 63c7251c-080a-4175-99a6-f86d0266d6bc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Edgeserver in Ihrer Skype for Business Server Umgebung bereitstellen.'
-ms.openlocfilehash: db09f8560b41fd43a7d005b70866888e0db27c75
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30beb7b42b2f77e82d83768d918102cbaa0f7f5e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773325"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852729"
 ---
 # <a name="deploy-edge-servers-in-skype-for-business-server"></a>Bereitstellen von Edgeservern in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Edgeserver in Ihrer Skype for Business Server Umgebung bereitstellen.
   
-Die folgenden Abschnitte enthalten Schritte, die ausgeführt werden sollen, nachdem der Skype for Business Server [Plan für Edgeserverbereitstellungen in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Dokumentation überprüft wurde. Die Bereitstellungsschritte sind wie folgt:
+Die folgenden Abschnitte enthalten Schritte, die ausgeführt werden sollen, nachdem der Skype for Business Server [Plan for Edge Server deployments in Skype for Business Server](../../plan-your-deployment/edge-server-deployments/edge-server-deployments.md) Documentation überprüft wurde. Die Bereitstellungsschritte sind wie folgt:
   
 - Netzwerkschnittstellen
     
@@ -74,11 +74,11 @@ Wie in der Planung erwähnt, konfigurieren Sie entweder Ihre Netzwerkschnittstel
     
 4. Erstellen Sie dauerhafte statische Routen auf der internen Schnittstelle zu allen internen Netzwerken, in denen sich Clients, Skype for Business Server und Exchange Unified Messaging (UM)-Server befinden.
     
-5. Bearbeiten Sie die HOST-Datei auf jedem Edgeserver so, dass sie einen Eintrag für den nächsten Hopserver oder die virtuelle IP (VIP) enthält. Dieser Datensatz ist der Director Standard Edition Server oder Front-End-Pool, den Sie als Edgeserveradresse für den nächsten Hop im Topologie-Generator konfiguriert haben. Wenn Sie den DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied des nächsten Hoppools ein.
+5. Bearbeiten Sie die HOST-Datei auf jedem Edgeserver so, dass sie einen Eintrag für den nächsten Hopserver oder die virtuelle IP (VIP) enthält. Dieser Datensatz ist der Director Standard Edition Server oder Front-End-Pool, den Sie im Topologie-Generator als nächste Hopadresse des Edgeservers konfiguriert haben. Wenn Sie den DNS-Lastenausgleich verwenden, fügen Sie eine Zeile für jedes Mitglied des nächsten Hoppools ein.
     
 ## <a name="installation"></a>Installation
 
-Um diese Schritte erfolgreich abzuschließen, müssen Sie die Schritte im Artikel ["Erstellen der Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) befolgt haben.
+Um diese Schritte erfolgreich abzuschließen, müssen Sie die Schritte im Artikel "Erstellen der [Edgetopologie für Skype for Business Server"](create-your-edge-topology.md) befolgt haben.
   
 1. Melden Sie sich bei dem Server an, den Sie für die Edgeserverrolle konfiguriert haben, mit einem Konto, das sich in der lokalen Administratorgruppe befindet.
     
@@ -88,11 +88,11 @@ Um diese Schritte erfolgreich abzuschließen, müssen Sie die Schritte im Artike
     
 4. Klicken Sie nach dem Öffnen des Assistenten auf **"Installieren" oder "Aktualisieren" Skype for Business Server System.**
     
-5. Der Assistent führt Prüfungen aus, um festzustellen, ob etwas bereits installiert ist. Da der Assistent zum ersten Mal ausgeführt wird, sollten Sie mit **Schritt 1 beginnen. Installieren Sie die Store "Lokale Konfiguration".**
+5. Der Assistent führt Prüfungen aus, um festzustellen, ob etwas bereits installiert ist. Da der Assistent zum ersten Mal ausgeführt wird, sollten Sie mit **Schritt 1 beginnen. Installieren Sie die lokale Konfiguration Store.**
     
 6. Das Dialogfeld **"Lokales Replikat des zentralen Verwaltungsspeichers** konfigurieren" wird angezeigt. Sie müssen auf **"Aus Datei importieren" klicken (empfohlen für Edgeserver).**
     
-7. Navigieren Sie hier zum Speicherort der Topologie, die Sie zuvor exportiert haben, wählen Sie die .zip Datei aus, klicken Sie auf **"Öffnen"** und dann auf **"Weiter".**
+7. Navigieren Sie von hier aus zum Speicherort der Topologie, die Sie zuvor exportiert haben, wählen Sie die .zip Datei aus, klicken Sie auf **"Öffnen"** und dann auf **"Weiter".**
     
 8. Der Bereitstellungs-Assistent liest die Konfigurationsdatei und schreibt die XML-Konfigurationsdatei auf den lokalen Computer.
     
@@ -107,7 +107,7 @@ Um diese Schritte erfolgreich abzuschließen, müssen Sie die Schritte im Artike
 Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation zur Edgezertifikatsplanung. Die Schritte zum Einrichten von Zertifikaten finden Sie unten.
   
 > [!NOTE]
-> Beim Ausführen des Zertifikat-Assistenten müssen Sie als Konto mit den richtigen Berechtigungen für den Typ der Zertifikatvorlage angemeldet sein, die Sie verwenden möchten. Standardmäßig verwendet eine Skype for Business Server Zertifikatanforderung die Webserver-Zertifikatvorlage. Wenn Sie mit einem Konto angemeldet sind, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist, um über diese Vorlage ein Zertifikat anzufordern, überprüfen Sie, ob der Gruppe die Berechtigungen "Registrieren" für die Verwendung dieser Vorlage zugewiesen wurden. 
+> Beim Ausführen des Zertifikat-Assistenten müssen Sie als Konto mit den richtigen Berechtigungen für den Typ der Zertifikatvorlage angemeldet sein, die Sie verwenden möchten. Standardmäßig verwendet eine Skype for Business Server Zertifikatanforderung die Webserver-Zertifikatvorlage. Wenn Sie mit einem Konto angemeldet sind, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist, um ein Zertifikat über diese Vorlage anzufordern, überprüfen Sie, ob der Gruppe die Berechtigungen "Registrieren" für die Verwendung dieser Vorlage zugewiesen wurden. 
   
 ### <a name="internal-edge-interface-certificates"></a>Interne Edgeschnittstellenzertifikate
 
@@ -228,7 +228,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;B. Im Bereitstellungs-Assistenten neben **Schritt 3. Anfordern, Installieren oder Zuweisen von Zertifikaten**, klicken Sie auf **"Erneut ausführen".**
     
-&nbsp;&nbsp;&nbsp;C. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Zertifikat aus einem importieren". P7b-, PFX- oder CER-Datei.**
+&nbsp;&nbsp;&nbsp;C. Klicken Sie auf der Seite **"Verfügbare Zertifikataufgaben"** auf **"Zertifikat aus einer importieren". P7b-, PFX- oder CER-Datei.**
     
 &nbsp;&nbsp;&nbsp;D. Geben Sie auf der Seite **"Zertifikat importieren"** den vollständigen Pfad und Dateinamen des Zertifikats ein, das Sie im vorherigen Abschnitt erhalten haben (oder klicken Sie auf **"Durchsuchen",** um die Datei auf diese Weise zu suchen und auszuwählen).
     
@@ -275,7 +275,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;M. Überprüfen Sie die Zusammenfassung im Dialogfeld **"Zertifikatexport-Assistent abschließen",** und klicken Sie dann auf **"Fertig stellen".**
     
-&nbsp;&nbsp;&nbsp;N. Klicken Sie im Dialogfeld für erfolgreichen Export auf **"OK".**
+&nbsp;&nbsp;&nbsp;N. Klicken Sie im Dialogfeld für den erfolgreichen Export auf **"OK".**
     
  
 ### <a name="6-assign-the-certificate"></a>6. Zuweisen des Zertifikats
@@ -315,7 +315,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   Ich. Geben Sie im **Anzeigenamen** einen Anzeigenamen für das Zertifikat ein (z. B. externer Edge).
     
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ii. Wählen Sie in **Bitlänge** die Bitlänge aus (der Standardwert ist 2048, Sie können höher gehen und sicherer sein, aber die Leistung wird verlangsamt).
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Ii. Wählen Sie in **Bitlänge** Die Bitlänge aus (der Standardwert ist 2048, Sie können höher gehen und sicherer sein, aber die Leistung wird verlangsamt).
     
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Iii. Wenn Sie ein exportierbares Zertifikat benötigen, müssen Sie das Kontrollkästchen **"Privaten Zertifikatschlüssel als exportierbar** markieren" aktivieren.
     
@@ -327,7 +327,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;J. Auf der Seite **"Antragstellername/Alternative Antragstellernamen"** sollten die erforderlichen Informationen automatisch vom Assistenten aufgefüllt werden.
     
-&nbsp;&nbsp;&nbsp;K. Aktivieren Sie auf der Seite **"SIP-Domäneneinstellung" auf der Seite "Alternative Antragstellernamen" (SANs)** das Domänenkontrollkästchen, um einen SIP hinzuzufügen.<sipdomain> Eintrag in der Liste alternativer Antragstellernamen.
+&nbsp;&nbsp;&nbsp;K. Aktivieren Sie auf der Seite **"SIP-Domäneneinstellung" auf der Seite "Alternative Antragstellernamen" (SANs)** das Domänenkontrollkästchen, um einen SIP hinzuzufügen.\<sipdomain> Eintrag in der Liste alternativer Antragstellernamen.
     
 &nbsp;&nbsp;&nbsp;L. Auf der Seite **"Zusätzliche alternative Antragstellernamen konfigurieren"** müssen Sie alle zusätzlichen alternativen Antragstellernamen hinzufügen, die Sie benötigen.
     
@@ -389,7 +389,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
 &nbsp;&nbsp;&nbsp;Ich. Klicken Sie im Assistenten für den Zertifikatexport auf **Weiter**. Wählen Sie **"Ja", exportieren** Sie den privaten Schlüssel. Klicken Sie auf **Weiter**.
     
    > [!NOTE]
-   > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. Sie müssen das Zertifikat erneut vom Anbieter anfordern, wobei der private Schlüssel für den Export festgelegt ist, bevor Sie dies erfolgreich ausführen.
+   > If **Yes, export the private key** isn't available, then the private key for this certificate wasn't marked for export before you got it. Sie müssen das Zertifikat erneut vom Anbieter anfordern, wobei der private Schlüssel für den Export festgelegt ist, bevor Sie dies erfolgreich durchführen können.
   
 &nbsp;&nbsp;&nbsp;J. Wählen Sie im Dialogfeld "Dateiformate exportieren" die Option "Persönliche Informationen Exchange – PKCS#12 (. PFX) und wählen Sie dann Folgendes aus:
     
@@ -419,7 +419,7 @@ Die Zertifikatanforderungen für den Edgeserver finden Sie in der Dokumentation 
     
 &nbsp;&nbsp;&nbsp;C. Wählen Sie auf der Seite **"Zertifikatzuweisung"** die Option **"Edge extern"** in der Liste aus.
     
-&nbsp;&nbsp;&nbsp;D. Wählen Sie auf der Seite **"Zertifikat Store"** das Zertifikat aus, das Sie für den externen Edgeserver importiert haben (aus dem vorherigen Abschnitt).
+&nbsp;&nbsp;&nbsp;D. Wählen Sie auf der Seite **"Zertifikat Store"** das Zertifikat aus, das Sie für den externen Edge importiert haben (aus dem vorherigen Abschnitt).
     
 &nbsp;&nbsp;&nbsp;E. Sehen Sie sich auf der Seite "Zusammenfassung der **Zertifikatzuweisung"** die Einstellungen an, und klicken Sie dann auf **"Weiter",** um das Zertifikat zuzuweisen.
     

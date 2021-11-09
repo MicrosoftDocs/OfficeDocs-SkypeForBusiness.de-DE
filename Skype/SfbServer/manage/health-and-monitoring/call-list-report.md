@@ -2,7 +2,7 @@
 title: Anruflistenbericht für Reaktionsgruppen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Zusammenfassung: Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.'
-ms.openlocfilehash: 46193159c9cb29f63b3fc4ca9053a3e9dd098d01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773615"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837597"
 ---
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Anruflistenbericht für Reaktionsgruppen in Skype for Business Server
 

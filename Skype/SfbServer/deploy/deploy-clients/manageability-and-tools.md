@@ -1,7 +1,7 @@
 ---
 title: Skype Raumsystemverwaltung und Tools
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c336ee9a-1ed8-4f64-9f7f-89549ae24c40
 description: Lesen Sie dieses Thema, um mehr über Verwaltungstools für Skype Room System zu erfahren.
-ms.openlocfilehash: 04b609e14b6ccffb5224a3041b1e8be25dcf7574
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 976ed518941ded1278bf34a1c991a20adb8a0d8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758137"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865412"
 ---
 # <a name="skype-room-system-manageability-and-tools"></a>Skype Raumsystemverwaltung und Tools
  
@@ -40,7 +40,7 @@ Weitere Informationen finden Sie im folgenden Artikel:
     
 - Testen Sie den AutoErmittlungsdienst mit dem Microsoft Connectivity Analyzer-Tool. Wählen Sie den ersten Test aus: "Ich kann mich nicht mit Office Outlook anmelden."
     
-- Wenn der Besprechungsraum bereits über ein Ressourcenpostfach verfügt, erweitern Sie dieses Konto für die Skype Room System (Beispielskript unten auf der Seite).
+- Wenn der Besprechungsraum bereits über ein Ressourcenpostfach verfügt, erweitern Sie dieses Konto für das Skype Raumsystem (Beispielskript unten auf der Seite).
     
 ## <a name="skype-for-business-checklist"></a>Skype for Business Checkliste
 
@@ -50,7 +50,7 @@ Weitere Informationen finden Sie im folgenden Artikel:
   - Skype for Business Health Analysis Tool (Excel)    
   - Skype for Business Connectivity Analyzer 32-Bit oder 64-Bit
     
-- Überprüfen [Sie nützliche neue Problembehandlungs- und Analysetools für Office 365.](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) Vergewissern Sie sich, dass Sie über einen Skype for Business Pool und einen Office Web Apps-Server verfügen und ein PowerPoint Deck mithilfe des Skype for Business-Clients freigeben können.
+- Sehen Sie [sich nützliche neue Problembehandlungs- und Analysetools für Office 365 an.](/archive/blogs/educloud/useful-new-troubleshooting-and-analysis-tools-for-office-365) Vergewissern Sie sich, dass Sie über einen Skype for Business Pool und einen Office Web Apps-Server verfügen und ein PowerPoint Deck mithilfe des Skype for Business-Clients freigeben können.
     
 - Wenn der Besprechungsraum bereits über ein Ressourcenpostfach verfügt, aktivieren Sie es für Skype for Business.
     
@@ -80,7 +80,7 @@ Skype Room System ist ein eingebettetes System, das vollständig in eine Windows
     
   - Auf der Skype Room System-Hardware befinden sich keine Standard-Apps oder -Viewer. Alle Inhalte werden über HTTP- oder RDP-Protokolle gerendert.
     
-  - Auf dem Appliance-PC wird das Windows Embedded Standard 7-Betriebssystem ausgeführt. Die gesamte Hardware, einschließlich Der Geräte, wird von OEM-Partnern bereitgestellt.
+  - Auf dem Appliance-PC wird das Betriebssystem Windows Embedded Standard 7 ausgeführt. Die gesamte Hardware, einschließlich Der Geräte, wird von OEM-Partnern bereitgestellt.
     
   - Optionaler Domänenbeitritt zu Active Directory Domain Services (AD DS), wodurch lokale Sicherheitskontoverwaltung und -steuerung aktiviert wird.
     
@@ -92,15 +92,15 @@ Skype Room System ist ein eingebettetes System, das vollständig in eine Windows
     
   - Skype for Business verwendet End-to-End-Verschlüsselung und Autorisierung für alle Kommunikationsmodi.
     
-  - Skype Room System unterstützt Skype for Business Sicherheits- und Compliancestandards. Weitere Informationen finden Sie [unter Plan for security in Skype For Business Server.](../../plan-your-deployment/security/security.md)
+  - Skype Room System unterstützt Skype for Business Sicherheits- und Compliancestandards. Weitere Informationen finden Sie [unter "Plan for security in Skype For Business Server".](../../plan-your-deployment/security/security.md)
     
 ## <a name="license"></a>Lizenz
 
-Stellen Sie sicher, dass Sie eine KMS zum Aktivieren von Software verwenden. Wenn ja, müssen Sie möglicherweise den Skype for Business Client-KMS-Schlüssel überprüfen oder hinzufügen. Wenn Sie KMS nicht verwenden, fordern Sie den Volumenlizenzierungsschlüssel für den Skype for Business Client-MAK an.
+Stellen Sie sicher, dass Sie eine KMS zum Aktivieren von Software verwenden. Wenn ja, müssen Sie möglicherweise den Skype for Business-Client-KMS-Schlüssel überprüfen oder hinzufügen. Wenn Sie KMS nicht verwenden, fordern Sie den Volumenlizenzschlüssel für den Skype for Business Client-MAK an.
   
 ## <a name="license-keys"></a>Lizenzschlüssel
 
-Skype Room System führt den Skype for Business-Desktopclient im Hintergrund aus. Wenn Skype Room System Ein Domänenmitglied ist, ermittelt es Ihre KMS. (und wenn er über den Volumenlizenzierungs-KMS Schlüssel verfügt, wird er automatisch aktiviert).) Die Volumenlizenzierung bietet auch einen MAK, den Sie eingeben, wenn xxxxx-xxxxx-xxxxx-xxxxx-xxxxx angezeigt wird. (Sie benötigen Internetzugriff, um mithilfe von MAK zu aktivieren, aber nicht KMS). Weitere Informationen finden Sie unter Volumenaktivierung von Office 2013.
+Skype Room System führt den Skype for Business-Desktopclient im Hintergrund aus. Wenn Skype Room System Domänenmitglied ist, wird Ihr KMS ermittelt. (und wenn er über die Volumenlizenzierung KMS Schlüssel verfügt, wird er automatisch aktiviert).) Die Volumenlizenzierung bietet auch einen MAK, den Sie eingeben, wenn xxxxx-xxxxx-xxxxx-xxxxx-xxxxx angezeigt wird. (Sie benötigen Internetzugriff für die Aktivierung mithilfe von MAK, aber nicht KMS). Weitere Informationen finden Sie unter Volumenaktivierung von Office 2013.
   
 - Um den MAK-Schlüssel einzugeben, wechseln Sie zum OEM Einstellungen \> SRS-Lizenzierungstool. Klicken Sie auf Status überprüfen. Wenn der Status "Produkt ist nicht aktiviert" angezeigt wird, geben Sie den Schlüssel ein.
     
@@ -112,7 +112,7 @@ Skype Room System führt den Skype for Business-Desktopclient im Hintergrund aus
     
   - Das System hat Internetzugriff.
     
-- Sie können die Aktivierung per Telefon ausführen, müssen aber zuerst versucht haben, die Aktivierung mit dem SRS-Lizenzierungstool zu starten. Um per Telefon zu aktivieren, starten Sie eine Testbesprechung (kein Testanruf, da dies zu kurz ist). Wählen Sie im Office Aktivierungs-Assistenten die Option "Telefonaktivierung" aus, rufen Sie Microsoft auf, geben Sie die lange Nummer ein, und geben Sie eine Antwort ein.
+- Sie können die Aktivierung per Telefon ausführen, müssen aber zuerst versucht haben, die Aktivierung mit dem SRS-Lizenzierungstool zu starten. Um per Telefon zu aktivieren, starten Sie eine Testbesprechung (kein Testanruf, da dies zu kurz ist). Wählen Sie im Office Aktivierungs-Assistenten die Telefonaktivierung aus, rufen Sie Microsoft an, geben Sie die lange Nummer ein, und geben Sie eine Antwort ein.
     
 ## <a name="certificate-authority"></a>Zertifizierungsstelle
 
@@ -124,14 +124,14 @@ Importieren Sie die Zertifikatdatei (CRT) in das Skype Raumsystem, wenn Sie Skyp
 
 Stellen Sie sicher, dass Ihre Zertifizierungsstelle über einen HTTP-Pfad für die Zertifikatsperrliste verfügt. Falls nicht, aktualisieren Sie Ihre Zertifizierungsstelle so, dass sie eine einschließt.
   
-Installieren Sie Zertifikate im Administratorsetup des Skype Room System unter System Einstellungen \> Certificate Manager. Sie benötigen die Enterprise Stammzertifizierungsstelle für Ihr internes Zertifikat.
+Installieren Sie Zertifikate im Administratorsetup des Skype Raumsystems unter System Einstellungen \> Zertifikat-Manager. Sie benötigen die Enterprise Stammzertifizierungsstelle für Ihr internes Zertifikat.
   
 Eine Möglichkeit zum Abrufen der benötigten Zertifikate besteht darin, die Zertifizierungsstelle zu ermitteln, die Ihre Zertifikate ausgestellt hat. Klicken Sie für Skype for Business Server auf einem PC in Skype for Business auf Einstellungen \> \> Einstellungen "Tools Dial-in Conference". Dadurch wird eine Webseite geöffnet, die durch die Zertifizierungsstelle gesichert ist, die die internen Zertifikate ausgestellt hat. Klicken Sie auf das Symbol "Sperren" in der Adressleiste des Browsers, um einen Sicherheitsbericht anzuzeigen. Klicken Sie auf "Zertifikate anzeigen", und überprüfen Sie die CRL-Verteilungspunkteigenschaft. Der zweite CN-Parameter sollte der Servername der Zertifizierungsstelle sein. Öffnen Sie nun Windows Explorer für diese Adresse \\ \< CA Server Name \> \CertEnroll. Kopieren Sie die beiden CRL-Dateien und die CRT-Datei auf ein Flashlaufwerk, und platzieren Sie sie auf der linken Seite des SMART Board.
   
 Importieren Sie die CRT-Datei in das Skype Raumsystem im Ordner "Vertrauenswürdige Raumzertifizierungsstelle".
   
-Importieren Sie die CRL-Dateien im Skype Raumsystem unter dem Ordner "Zwischenzertifizierungsstellen". (Sie müssen den Dateierweiterungsfilter im Zertifikat-Manager in CRL ändern, um die Dateien anzuzeigen).
+Importieren Sie die CRL-Dateien im Skype Raumsystem im Ordner "Zwischenzertifizierungsstellen". (Sie müssen den Dateierweiterungsfilter im Zertifikat-Manager in CRL ändern, um die Dateien anzuzeigen).
   
 Hinweis: Der Office Web Apps 2013-Server kann dieselbe Zertifizierungsstelle wie Skype for Business verwenden. Wenn dies nicht der Fall ist, können Sie PowerPoint in einer Besprechung nicht freigeben. Wenden Sie sich an die IT-Abteilung, und rufen Sie die CRT- und CRL-Dateien aus der Zertifizierungsstellen-Netzwerkfreigabe "CertEnroll" ab, wie oben erläutert. 
   
-Die Domänenmitgliedschaft kann einige Dinge vereinfachen, da Sie das Skype Raumsystem als Windows System behandeln können und sich bei einigen Zertifikataspekten auf Active Directory verlassen können. Es empfiehlt sich jedoch, dies manuell zu verwalten.
+Die Domänenmitgliedschaft kann einige Dinge vereinfachen, da Sie das Skype Raumsystem als Windows System behandeln können und sich für einige der Zertifikataspekte auf Active Directory verlassen können. Es empfiehlt sich jedoch, dies manuell zu verwalten.

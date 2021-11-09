@@ -2,7 +2,7 @@
 title: Konfigurieren von Archivierungsrichtlinien für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: e8e48087-d4f0-4fe1-9e7e-f2b3e07f815f
-description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie anfängliche Archivierungsrichtlinien für Skype for Business Server Benutzer konfigurieren.'
-ms.openlocfilehash: 62e61d951c7e05effa68afd13c849c027b40a896
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die anfänglichen Archivierungsrichtlinien für Skype for Business Server Benutzer konfigurieren.'
+ms.openlocfilehash: 96d53ae71a8faa72c5dcdc3816c09c1b6d492e67
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749524"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853789"
 ---
 # <a name="configure-archiving-policies-for-skype-for-business-server"></a>Konfigurieren von Archivierungsrichtlinien für Skype for Business Server
  
-**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie die anfänglichen Archivierungsrichtlinien für Skype for Business Server Benutzer konfigurieren.
+**Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie anfängliche Archivierungsrichtlinien für Skype for Business Server Benutzer konfigurieren.
   
 In Skype for Business Server verwenden Sie Richtlinien, um die Archivierung für die interne und externe Kommunikation für Benutzer zu aktivieren und zu deaktivieren, die auf Skype for Business Server verwaltet werden. Dazu gehört Folgendes:
   
@@ -31,10 +31,10 @@ In Skype for Business Server verwenden Sie Richtlinien, um die Archivierung für
     
 - Optionale Richtlinien auf Benutzerebene, die angeben, wie die Archivierung für bestimmte Benutzer implementiert wird
     
-Sie richten archivierungsrichtlinien anfänglich ein, wenn Sie die Archivierung bereitstellen, aber Sie können Richtlinien nach der Bereitstellung ändern, hinzufügen und löschen. In Skype for Business Server Systemsteuerung können Sie die Seite **"Archivierungsrichtlinie"** der Gruppe **"Archivierung und Überwachung"** verwenden, um Richtlinien auf globaler, Standort- und Benutzerebene zu verwalten.
+Sie richten archivierungsrichtlinien anfänglich ein, wenn Sie die Archivierung bereitstellen, aber Sie können Richtlinien nach der Bereitstellung ändern, hinzufügen und löschen. In Skype for Business Server Systemsteuerung können Sie die Seite **"Archivierungsrichtlinien"** der Gruppe **"Archivierung und Überwachung"** verwenden, um Richtlinien auf globaler, Standort- und Benutzerebene zu verwalten.
   
 > [!NOTE]
-> Um die Implementierung der Archivierung zu steuern, müssen Sie Optionen angeben, z. B. ob Chats oder Konferenzen archiviert werden sollen, die Verwendung des kritischen Modus und Bereinigungsoptionen. Standardmäßig sind keine Optionen in der globalen Archivierungskonfiguration oder einer Archivierungskonfiguration für Standorte oder Pools aktiviert. Sie sollten alle geeigneten Optionen angeben, bevor Sie die Archivierung für die interne oder externe Kommunikation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Archivierungsoptionen für Skype for Business Server](configure-archiving-options.md). 
+> Um die Implementierung der Archivierung zu steuern, müssen Sie Optionen angeben, z. B. ob Chats oder Konferenzen archiviert werden sollen, die Verwendung des kritischen Modus und Bereinigungsoptionen. Standardmäßig sind keine Optionen in der globalen Archivierungskonfiguration oder einer Archivierungskonfiguration für Standorte oder Pools aktiviert. Sie sollten alle geeigneten Optionen angeben, bevor Sie die Archivierung für die interne oder externe Kommunikation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Archivierungsoptionen für Skype for Business Server.](configure-archiving-options.md) 
   
 > [!NOTE]
 > Wenn Sie die Integration von Microsoft Exchange für Ihre Bereitstellung aktivieren, steuern Exchange In-Place Aufbewahrungsrichtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange verwaltet werden und deren Postfächer In-Place Haltebereich haben. 
@@ -43,7 +43,7 @@ Ausführliche Informationen zur Funktionsweise von Archivierungsrichtlinien, ein
   
 ## <a name="global-policy"></a>Globale Richtlinie
 
-Wenn Sie Ihre Front-End-Server bereitstellen, erstellt Skype for Business Server eine globale Richtlinie für die Archivierung. Standardmäßig ist die Archivierung in der globalen Richtlinie deaktiviert. Die globale Richtlinie steuert, ob die Archivierung für die interne und externe Kommunikation für die gesamte Bereitstellung aktiviert ist, es sei denn, Sie richten Standort- oder Benutzerrichtlinien ein, die die globale Richtlinie außer Kraft setzen, oder wenn Sie Microsoft Exchange Integration für einige oder alle Benutzer verwenden. Wenn Sie Microsoft Exchange Integration verwenden, gilt die globale Richtlinie nicht für Benutzer, die in Exchange verwaltet werden und die Postfächer in In-Place Haltebereich setzen.
+Wenn Sie Ihre Front-End-Server bereitstellen, erstellt Skype for Business Server eine globale Richtlinie für die Archivierung. Standardmäßig ist die Archivierung in der globalen Richtlinie deaktiviert. Die globale Richtlinie steuert, ob die Archivierung für die interne und externe Kommunikation für Die gesamte Bereitstellung aktiviert ist, es sei denn, Sie richten Standort- oder Benutzerrichtlinien ein, die die globale Richtlinie außer Kraft setzen, oder wenn Sie Microsoft Exchange Integration für einige oder alle Benutzer verwenden. Wenn Sie Microsoft Exchange Integration verwenden, gilt die globale Richtlinie nicht für Benutzer, die in Exchange verwaltet werden und die Postfächer in In-Place Haltebereich setzen.
   
 ### <a name="configure-the-global-policy-for-archiving-for-skype-for-business-server-archiving-databases"></a>Konfigurieren der globalen Richtlinie für die Archivierung für Skype for Business Server Archivierungsdatenbanken
 

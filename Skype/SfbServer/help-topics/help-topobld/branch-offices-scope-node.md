@@ -2,7 +2,7 @@
 title: Zweigstellen – Bereichsknoten
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 116d317c-8df0-45a0-83d4-eb10cf525d70
 description: 'Im Knoten Zweigstellenstandorte werden die Zweigstellenstandorte aufgelistet, die diesem zentralen Standort zugeordnet sind. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 2d95ea4e01d8d7b60455540bed69c7e02a320506
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d8ff2d5cfbe1b2167145f6066d7e5caf4d7dd527
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760813"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840067"
 ---
 # <a name="branch-offices-scope-node"></a>Zweigstellen – Bereichsknoten
  

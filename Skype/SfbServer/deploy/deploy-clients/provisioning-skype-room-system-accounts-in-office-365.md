@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen Skype Raumsystemkonten in Microsoft 365 und Office 365
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
 description: Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.
-ms.openlocfilehash: 1f4262453735baa08e16e7da03909e48ef12f4ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758117"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853769"
 ---
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Bereitstellen Skype Raumsystemkonten in Microsoft 365 und Office 365
  
@@ -29,7 +29,7 @@ Der folgende Abschnitt behandelt Skype Bereitstellung von Raumsystemkonten.
 
 Ihr Onlinemandant muss die folgenden Anforderungen erfüllen:
   
-- Der Microsoft 365- oder Office 365-Plan muss Skype for Business Onlineplan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in der Skype for Business Beschreibung des [Onlinediensts.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+- Der Microsoft 365- oder Office 365-Plan muss Skype for Business Onlineplan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in der [Skype for Business Onlinedienstbeschreibung.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
     
 - Für Ihren Mandanten muss die Konferenzfunktion Skype for Business aktiviert sein.
     
@@ -61,13 +61,13 @@ Das folgende Diagramm enthält eine Übersicht über den Bereitstellungsfluss Sk
   
 ## <a name="identify-a-new-conference-room"></a>Identifizieren eines neuen Konferenzraums
 
-Möglicherweise befindet sich bereits ein Ressourcenraumpostfach in Exchange, das das Planungsfeature bereitstellt, oder Sie erstellen möglicherweise zum ersten Mal ein Ressourcenpostfach, um Skype Raumsystembereitstellung zu vereinfachen. In jedem Fall müssen Sie ein Raumkonto identifizieren, das in Ihrem Mandanten verwendet werden soll. Die Abschnitte Exchange Online Bereitstellung und Skype for Business Bereitstellung enthalten Anleitungen für beide Arten von Konten. Angenommen, Sie haben die folgenden beiden Räume, und Sie möchten Skype Raumsystem für beide bereitstellen:
+Möglicherweise verfügen Sie bereits über ein Ressourcenraumpostfach in Exchange, das das Planungsfeature bereitstellt, oder Sie erstellen möglicherweise zum ersten Mal ein Ressourcenpostfach, um Skype Raumsystembereitstellung zu vereinfachen. In jedem Fall müssen Sie ein Raumkonto identifizieren, das in Ihrem Mandanten verwendet werden soll. Die Abschnitte Exchange Online Bereitstellung und Skype for Business Bereitstellung enthalten Anleitungen für beide Arten von Konten. Angenommen, Sie haben die folgenden beiden Räume, und Sie möchten Skype Raumsystem für beide bereitstellen:
   
 - Vorhandenes Ressourcenpostfachkonto: confrm1@contoso.onmicrosoft.com
     
 - Neues Ressourcenpostfachkonto: confrm2@contoso.onmicrosoft.com
     
-## <a name="exchange-online-provisioning"></a>bereitstellung von Exchange Online
+## <a name="exchange-online-provisioning"></a>Exchange Online Bereitstellung
 
 Stellen Sie zunächst eine Verbindung mit Exchange Online PowerShell her, indem Sie die Anweisungen im Thema [Verbinden Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)befolgen.
   

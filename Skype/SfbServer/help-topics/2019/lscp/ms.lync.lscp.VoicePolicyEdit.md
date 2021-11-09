@@ -2,7 +2,7 @@
 title: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Richtlinie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb07d783-e084-4256-a928-a67a6ac006cb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 023be813adeaee88bdbb296af5c1f44400f3388b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e6fb2bfd581e8cbc6bdc1943a572cfea4d309d5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750944"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838227"
 ---
 # <a name="voice-policy-create-new-or-edit-existing"></a>VoIP-Richtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen VoIP-Richtlinie
 

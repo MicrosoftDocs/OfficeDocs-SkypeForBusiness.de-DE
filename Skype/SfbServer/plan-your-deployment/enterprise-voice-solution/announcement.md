@@ -2,7 +2,7 @@
 title: Planen der Ankündigungsanwendung in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
 description: Planung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP, die konfiguriert, was mit Telefonanrufen an nicht zugewiesene Telefonnummern in Ihren Organisationen geschieht. Umfasst Audiodateianforderungen.
-ms.openlocfilehash: 26dbd9a0bf1513812cb08034216194ca67a92b39
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778095"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838497"
 ---
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planen der Ankündigungsanwendung in Skype for Business
 

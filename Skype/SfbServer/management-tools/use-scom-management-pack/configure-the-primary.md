@@ -2,7 +2,7 @@
 title: Konfigurieren des primären Verwaltungsservers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7e21cce-1dd2-489a-a2eb-f632799f7523
 description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2015.'
-ms.openlocfilehash: 98a6cb9f18a5ff3fe008e7d07f5101884e5aa0f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6128cc33f0a877235c3356a2bef78a9288f6fc13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774595"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852949"
 ---
 # <a name="how-to-configure-the-primary-management-server"></a>Konfigurieren des primären Verwaltungsservers
 
@@ -39,7 +39,7 @@ Wenn Sie System Center Operations Manager installieren, müssen Sie alle Kompone
 
 - Webkonsole
 
-- Berichterstellung
+- Reporting
 
 - Data Warehouse
 
@@ -49,7 +49,7 @@ Wenn Sie System Center Operations Manager installieren, müssen Sie alle Kompone
 Ausführliche Informationen zu diesen Produkten und deren Installation finden Sie unter [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
 
-Beachten Sie, dass Sie pro Skype for Business Server Bereitstellung nur einen Stammverwaltungsserver haben können.
+Beachten Sie, dass Pro Skype for Business Server Bereitstellung nur ein Stammverwaltungsserver vorhanden sein kann.
 
 ## <a name="importing-the-skype-for-business-server-2015-management-packs"></a>Importieren der Skype for Business Server 2015 Management Packs
 
@@ -60,7 +60,7 @@ Sie können die Funktionen von System Center Operations Manager erweitern, indem
     > [!NOTE]
     >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter [Konfigurieren von Benachrichtigungen.](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))
 
-- **Das Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) testet wichtige Skype for Business Server Komponenten proaktiv, z. B. die Anmeldung beim System, den Austausch von Chatnachrichten oder das Tätigen von Anrufen an ein Telefon im Telefonfestnetz (Public Switched Telephone Network, PSTN). Diese Tests werden mithilfe Skype for Business Server Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
+- **Das Active Monitoring Management Pack** (Microsoft.LS.2015.Monitoring.ActiveMonitoring.mp) testet proaktiv wichtige Skype for Business Server-Komponenten, z. B. die Anmeldung beim System, den Austausch von Chatnachrichten oder das Tätigen von Anrufen an ein Telefon, das sich im Telefonfestnetz (Public Switched Telephone Network, PSTN) befindet. Diese Tests werden mithilfe Skype for Business Server Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
 
 Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht verwenden, um Skype for Business Server Ereignisse zu überwachen oder Skype for Business Server synthetische Transaktionen auszuführen.
 

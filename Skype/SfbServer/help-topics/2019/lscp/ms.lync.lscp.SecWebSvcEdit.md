@@ -2,7 +2,7 @@
 title: Webdienstsicherheit Einstellungen Erstellen einer neuen oder Ändern einer vorhandenen Webdienstsicherheit
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: eddda5af-ddee-4ded-9c70-a07af0f8d14d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: bae932073a4c38263f2b8ed6a2f475cdafe0aeed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a5a3888b1e7290b97759b42f19f03659c0e4d64b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771293"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853499"
 ---
 # <a name="web-service-security-settings-create-new-or-modify-existing"></a>Sicherheitseinstellungen für Webdienste: Erstellen neuer oder Ändern vorhandener Sicherheitseinstellungen für Webdienste
 

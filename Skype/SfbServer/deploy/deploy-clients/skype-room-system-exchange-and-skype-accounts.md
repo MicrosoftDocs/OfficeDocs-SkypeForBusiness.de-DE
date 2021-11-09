@@ -1,7 +1,7 @@
 ---
 title: Bereitstellung von Skype Exchange- und Skype-Konten des Raumsystems
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.assetid: fa71a2da-2cc9-4ad1-8ec9-08d1c9c5247a
 ms.collection: M365-voice
 description: Lesen Sie diese Themen, um zu erfahren, wie Sie Exchange und Skype Konten für Skype Raumsystem bereitstellen.
-ms.openlocfilehash: 7fe7eb6b1c9fa010ae650115ca63bb59c66d9804
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fe92f11882ae2d4dcd3ddd509f747f310fd25e6f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775815"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837387"
 ---
 # <a name="provisioning-of-skype-room-system-exchange-and-skype-accounts"></a>Bereitstellung von Skype Exchange- und Skype-Konten des Raumsystems
  

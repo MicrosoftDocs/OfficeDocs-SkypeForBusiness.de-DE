@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: Konfigurieren eines Trunks ohne Medienumgehung'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,16 +16,16 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3422e93e-7bd2-4470-968c-dc38345b18ca
 description: 'Zusammenfassung: Konfigurieren eines Trunks ohne medienumgehung für Skype for Business Server aktiviert.'
-ms.openlocfilehash: 09d178cf2deeb27ec47c39090f7dcc233af3cbb0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bccc88e442532ebf9a2c503fa851965447eb1e85
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759117"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839117"
 ---
 # <a name="skype-for-business-server-configure-a-trunk-without-media-bypass"></a>Skype for Business Server: Konfigurieren eines Trunks ohne Medienumgehung
 
-**Zusammenfassung:** Konfigurieren Sie einen Trunk ohne medienumgehung für Skype for Business Server aktiviert.
+**Zusammenfassung:** Konfigurieren Sie einen Trunk ohne Medienumgehung, der für Skype for Business Server aktiviert ist.
 
 Führen Sie die folgenden Schritte aus, um einen Trunk mit deaktivierter Medienumgehung zu konfigurieren. Wenn Sie einen Trunk mit aktivierter Medienumgehung konfigurieren möchten, lesen Sie die Informationen unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server.](configure-trunk-with-media-bypass.md)
 
@@ -165,7 +165,7 @@ Eine Trunkkonfiguration ist eine Gruppe von Parametern, die auf Trunks angewende
     > [!NOTE]
     > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md) in der Betriebsdokumentation.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md)
 

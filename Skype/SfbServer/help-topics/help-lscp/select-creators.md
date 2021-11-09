@@ -2,7 +2,7 @@
 title: Auswählen von Erstellern
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f8d9ed6f-22ba-470e-b0b4-0da3cea5e961
 description: Das Erstellen und Verwalten von Chatrooms für beständige Chatrooms ist mit der richtigen Verwendung von Kategorien viel einfacher. Ein Administrator für beständigen Chat kann "AllowedMembers" und "Creators" für jede Kategorie definieren und auch die Standardeinstellungen und Verhaltensweisen für Chatrooms definieren, die auf alle in der Kategorie erstellten Chatrooms angewendet werden. Administratoren für beständigen Chat erstellen und verwalten Kategorien mithilfe Skype for Business Server Systemsteuerung oder Windows PowerShell Cmdlets.
-ms.openlocfilehash: e3494f80864b14a3aae457f3a2c808690df52c77
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d0b794c8f378f46d7713875b83560de37ac7c8b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739521"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60837977"
 ---
 # <a name="select-creators"></a>Auswählen von Erstellern
 
@@ -44,7 +44,7 @@ Fügen Sie in **"Mitgliedschaft"** im Abschnitt **"Ersteller"** Benutzer und and
 
 Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie in der Planungsdokumentation unter "Übersicht über den [Server für beständigen Chat".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter ["Konfigurieren des Servers für beständigen Chat"](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in der Bereitstellungsdokumentation und [verwalten von Lync Server 2013, Server für beständigen Chat](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Grundlegendes zur Persistent Chat-Mitgliedschaft](/previous-versions/office/lync-server-2013/understanding-persistent-chat-membership)
 

@@ -2,7 +2,7 @@
 title: Einstellungen für Lync Server-Standort – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
 ROBOTS: NOINDEX, NOFOLLOW
 description: So ändern Sie die Eigenschaften eines vorhandenen Standorts
-ms.openlocfilehash: cf0929517a29aed35748d0da83455733eebcf6a7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e848f66b82c85975ef399cc9277e22c631a4649f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770983"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839257"
 ---
 # <a name="lync-server-site-settings-expander"></a>Einstellungen für Lync Server-Standort – Erweiterung
 
@@ -43,6 +43,6 @@ Wenn die Partnerverbundeinstellung für den Edgeserver oder -pool konfiguriert w
 > [!CAUTION]
 > Diese Einstellung gilt für alle Standorte. Vergewissern Sie sich, dass die Einstellung, die Sie für diesen Standort konfigurieren, für alle Standorte geeignet ist.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 Ausführliche Informationen finden Sie unter [Topologies for External User Access](/previous-versions/office/lync-server-2013/lync-server-2013-scenarios-for-external-user-access).

@@ -2,7 +2,7 @@
 title: Edgeserverszenarien in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Zusammenfassung: Überprüfen Sie diese Szenarien, um Ihre Edgeservertopologie in Skype for Business Server zu planen.'
-ms.openlocfilehash: 7d5c3b90f2b99b51eb74e0880c5a35f79025282a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763503"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838527"
 ---
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edgeserverszenarien in Skype for Business Server
  
@@ -35,9 +35,9 @@ Die Diagramme zeigen .com für die externe Schnittstelle und .net für die inter
   
 Wir schließen den Director (eine optionale Komponente) in keinem der Diagramme ein, aber Sie können dies separat lesen (dies wird in anderen Planungsthemen erwähnt).
   
-Wie oben erwähnt, sind beispiel-IPv6-Daten in den Diagrammen enthalten. Der Großteil der Dokumentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) bezieht sich auf IPv4, aber Sie werden durchaus unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und diese mit interner und externer Adressierung wie bei IPv4-IPs arbeiten müssen. Dank Windows können Sie das Feature "Dualer Stapel" verwenden, bei dem es sich um einen separaten und eindeutigen Netzwerkstapel für IPv4 und IPv6 handelt. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
+Wie oben erwähnt, sind beispiel-IPv6-Daten in den Diagrammen enthalten. Der Großteil der Dokumentation in ["Plan for Edge Server deployments in Skype for Business Server"](edge-server-deployments.md) bezieht sich auf IPv4, aber Sie werden mit Sicherheit unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und diese mit interner und externer Adressierung wie bei IPv4-IPs arbeiten müssen. Dank Windows können Sie die Funktion "Dualer Stapel" verwenden, bei der es sich um einen separaten und eindeutigen Netzwerkstapel für IPv4 und IPv6 handelt. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
   
-Es gibt NAT-Geräte, die NAT64 (IPv6 zu IPv4) und NAT66 (IPv6 zu IPv6)) zulassen. Dies gilt für die Verwendung mit Skype for Business Server.
+Es gibt NAT-Geräte, die NAT64 (IPv6 zu IPv4) und NAT66 (IPv6 zu IPv6) zulassen. Dies gilt für die Verwendung mit Skype for Business Server.
   
 > [!IMPORTANT]
 > Wenn Sie die Anrufsteuerung (Call Admission Control, CAC) verwenden, müssen Sie IPv4 auf der internen Schnittstelle verwenden, damit sie funktioniert. 
@@ -76,7 +76,7 @@ In diesem Szenario können Sie eine hohe Verfügbarkeit in Ihrer Edgebereitstell
 
 Außerdem haben wir ein Diagramm für skalierte konsolidierte Edgepools mit DNS-Lastenausgleich.
   
-![Netzwerkperimeter für Edgeszenario skalierter konsolidierter Edgeserver mit DNS LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Netzwerkperimeter für Edgeszenario skalierter konsolidierter Edgeserver mit DNS-LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-dns-load-balancing-and-public-ip-addresses"></a>Skalierter konsolidierter Skype for Business Server Edgepool mit DNS-Lastenausgleich und öffentlichen IP-Adressen
 
@@ -88,7 +88,7 @@ In diesem Szenario können Sie eine hohe Verfügbarkeit in Ihrer Edgebereitstell
 
 Außerdem haben wir ein Diagramm für skalierte konsolidierte Edgepools mit DNS-Lastenausgleich.
   
-![Netzwerkperimeter für Edgeszenario skalierter konsolidierter Edgeserver mit DNS LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
+![Netzwerkperimeter für Edgeszenario skalierter konsolidierter Edgeserver mit DNS-LB.](../../media/Plan_LyncServer_Edge_NetPerimeter_ScaledConsolidatedEdgeDNSLB.jpg)
   
 ## <a name="scaled-consolidated-skype-for-business-server-edge-pool-with-hardware-load-balancing"></a>Skalierter konsolidierter Skype for Business Server Edgepool mit Hardwarelastenausgleich
 

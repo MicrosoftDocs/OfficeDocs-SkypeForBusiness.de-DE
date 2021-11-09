@@ -2,7 +2,7 @@
 title: tblADUpdates
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ba19fa16-4d2d-4635-ac32-f93e09469546
 description: tblADUpdates enthält Active Directory Domain Services-Änderungen, die noch nicht von den späteren Active Directory-Synchronisierungsschritten verarbeitet wurden.
-ms.openlocfilehash: cd5c022c68d7c4760c9f00a5d8c3034588506294
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00c3cce25b3e69372813721192677956ec8a15d4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754294"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839827"
 ---
 # <a name="tbladupdates"></a>tblADUpdates
  
@@ -26,7 +26,7 @@ tblADUpdates enthält Active Directory Domain Services-Änderungen, die noch nic
   
 **Columns**
 
-|**Spalte**|**Typ**|**Beschreibung**|
+|**Spalte**|**Type**|**Beschreibung**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |GUID, nicht NULL  <br/> |Prinzipal-GUID des geänderten Objekts.  <br/> |
 |prinADPath  <br/> |nvarchar (384), nicht NULL  <br/> |Distinguished Name (DN) des Objekts.  <br/> |

@@ -2,7 +2,7 @@
 title: Hinzufügen der Director-Überwachung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a9009434-3771-475f-8314-c104f2716a29
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie verwenden die Option SQL Server-Überwachungsspeicher definieren, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: 2dd13a9c3fee71f4e639ca8d7fbf6826bb941aec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b2e1c0781529e4e7e1d8904561cf2fe3decaab8c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758747"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839397"
 ---
 # <a name="add-director-monitoring"></a>Hinzufügen der Director-Überwachung
  
@@ -30,7 +30,7 @@ Sie verwenden die Option **SQL Server-Überwachungsspeicher definieren**, indem 
     
     Klicken Sie auf **Neu,** um eine neue SQL Server FQDN-Definition und optional einen Instanznamen für den Monitoring Server-Speicher zu erstellen.
     
-- Aktivieren Sie das Kontrollkästchen **"SQL Server Speicherspiegelung aktivieren",** wenn Sie die Datenbankspiegelung für den Monitoring Server hinzufügen möchten.
+- Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung** aktivieren, wenn Sie die Datenbankspiegelung für den Monitoring Server hinzufügen möchten.
     
     Wählen Sie in der Liste eine vorhandene **SQL Server-Speicherspiegelung für Überwachung** aus.
     

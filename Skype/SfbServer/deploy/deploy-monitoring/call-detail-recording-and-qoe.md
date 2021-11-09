@@ -2,7 +2,7 @@
 title: Konfigurieren der Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen und die Quality of Experience in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,28 +12,28 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 009a0499-4f8c-450d-9c72-a565a08e9f7a
 description: 'Zusammenfassung: Erfahren Sie, wie Sie KDS und QoE in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: abb6996a7483afb8526731ac69404174883ce313
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9275ead7fee4b9751141dd683bafb8b41e077530
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745321"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839637"
 ---
 # <a name="configure-call-detail-recording-and-quality-of-experience-settings-in-skype-for-business-server"></a>Konfigurieren der Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen und die Quality of Experience in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie KDS und QoE in Skype for Business Server konfigurieren.
   
-Konfigurieren Sie die KDS- und QoE-Überwachung mithilfe SQL Server Reporting Services Berichte für Skype for Business Server.
+Konfigurieren Sie die KDS- und QoE-Überwachung mit SQL Server Reporting Services Berichten für Skype for Business Server.
   
 ## <a name="configure-cdr-and-qoe"></a>Konfigurieren von KDS und QoE
 
-Nachdem Sie einem Front-End-Pool einen Überwachungsspeicher zugeordnet haben, richten Sie den Überwachungsspeicher ein, und installieren und konfigurieren Sie dann SQL Server Reporting Services- und Überwachungsberichte, und Sie können die KDS-Überwachung (Call Detail Recording, KDS) und die QoE-Überwachung (Quality of Experience) mithilfe Skype for Business Server Verwaltungsshell verwalten. Skype for Business Server Mit Verwaltungsshell-Cmdlets können Sie die KDS- und/oder QoE-Überwachung für einen bestimmten Standort oder für die gesamte Skype for Business Server Bereitstellung aktivieren und deaktivieren. dies kann mit einem einfachen Befehl wie dem folgenden ausgeführt werden:
+Nachdem Sie einem Front-End-Pool einen Überwachungsspeicher zugeordnet haben, richten Sie den Überwachungsspeicher ein, und installieren und konfigurieren Sie dann SQL Server Reporting Services- und Überwachungsberichte, und Sie können die KDS-Überwachung (Call Detail Recording, KDS) und die QoE-Überwachung (Quality of Experience) mithilfe Skype for Business Server Verwaltungsshell verwalten. Skype for Business Server Mit Verwaltungsshell-Cmdlets können Sie die KDS- und/oder QoE-Überwachung für einen bestimmten Standort oder die gesamte Skype for Business Server Bereitstellung aktivieren und deaktivieren. dies kann mit einem einfachen Befehl wie dem folgenden ausgeführt werden:
   
 ```powershell
 Set-CsQoEConfiguration -Identity "global" -EnableQoE $False
 ```
 
-Wenn Sie Skype for Business Server installieren, installieren Sie auch eine vordefinierte Sammlung globaler Konfigurationseinstellungen für KDS und QoE. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
+Wenn Sie Skype for Business Server installieren, installieren Sie auch eine vordefinierte Sammlung von globalen Konfigurationseinstellungen für KDS und QoE. In der folgenden Tabelle sind Standardwerte für einige gängige Einstellungen für die Aufzeichnung von Kommunikationsdatensätzen aufgeführt:
   
 |**Eigenschaft**|**Beschreibung**|**Standardwert**|
 |:-----|:-----|:-----|

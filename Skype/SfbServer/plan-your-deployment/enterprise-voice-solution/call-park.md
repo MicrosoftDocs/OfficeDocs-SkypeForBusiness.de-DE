@@ -2,7 +2,7 @@
 title: Planen des Parkens von Anrufen in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
 description: Planung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe gehalten und an Abteilungen übertragen werden können. Umfasst Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
-ms.openlocfilehash: 1cba225d966f835e59f75c359cee49ab183d21eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770183"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839837"
 ---
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planen des Parkens von Anrufen in Skype for Business
  
 Planung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe gehalten und an Abteilungen übertragen werden können. Umfasst Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
   
-Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern folgende Aktionen:
+Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern Folgendes:
   
 - Halten Sie einen Anruf an, und rufen Sie den Anruf dann vom gleichen telefon oder einem anderen Telefon ab.
     
@@ -35,7 +35,7 @@ Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern folge
     
 - Halten Sie einen Anruf in die Warteschleife, und lassen Sie das ursprüngliche Telefon für andere Anrufe kostenlos.
     
-Wenn ein Benutzer einen Anruf anruft, überträgt Skype for Business Server den Anruf an eine temporäre Nummer, die als Orbit bezeichnet wird, an der der Anruf gehalten wird, bis er entgegennahmen oder ein Zeitüberschreitung aufgetreten ist. Skype for Business Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Um den geparkten Anruf abzurufen, kann der Benutzer die Orbitnummer wählen oder auf die Orbitverbindung oder -schaltfläche im Unterhaltungsfenster klicken. 
+Wenn ein Benutzer einen Anruf anruft, überträgt Skype for Business Server den Anruf an eine temporäre Nummer, die als Orbit bezeichnet wird, an der der Anruf gehalten wird, bis er entgegennimmt oder ein Zeitüberschreitung aufgetreten ist. Skype for Business Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Um den geparkten Anruf abzurufen, kann der Benutzer die Orbitnummer wählen oder auf die Orbitverbindung oder -schaltfläche im Unterhaltungsfenster klicken. 
   
 Der Benutzer, der einen Anruf geparkt hat, kann jemanden über einen externen Mechanismus, z. B. Chatnachrichten oder ein Auslagerungssystem, benachrichtigen, um die Orbitnummer an eine andere Person zu kommunizieren. Der Benutzer, der den Anruf geparkt hat, kann das Unterhaltungsfenster geöffnet lassen, um eine Benachrichtigung zu erhalten, wenn der Anruf abgerufen wird.
   

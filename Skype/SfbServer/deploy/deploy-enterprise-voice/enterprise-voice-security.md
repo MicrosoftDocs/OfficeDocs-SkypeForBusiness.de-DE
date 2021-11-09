@@ -2,7 +2,7 @@
 title: Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 15354abe-733e-466b-bcd4-a6cfbf58caf8
 description: 'Zusammenfassung: Erfahren Sie mehr über die Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server.'
-ms.openlocfilehash: 48cb415208008441f306dd0384c494149f65c4e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 01f7be3bfe3e43d53d574632f228681be5af4ba4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778915"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839077"
 ---
 # <a name="security-and-configuration-prerequisites-for-enterprise-voice-in-skype-for-business-server"></a>Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server
  
@@ -52,7 +52,7 @@ Stellen Sie vor der Bereitstellung Enterprise-VoIP sicher, dass Ihre Infrastrukt
 
 Wenn Sie den Vermittlungsserver während der Front-End-Bereitstellung mit jedem Front-End-Pool oder Standard Edition-Server verbunden haben, wurden die für Enterprise-VoIP erforderlichen Benutzereinstellungen während der Installation der Dateien für diese Serverrollen automatisch konfiguriert.
   
-Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Telefonnummern normalisiert (richtig formatiert) werden und mithilfe Skype for Business Server Systemsteuerung in die **Line URI-Eigenschaft** jedes Benutzers kopiert werden.
+Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitstellung eine primäre Rufnummer für jeden Benutzer bereitstellen, der für Enterprise-VoIP aktiviert werden soll. Als Administrator sind Sie dafür verantwortlich, die Eindeutigkeit dieser Nummer sicherzustellen. Vor der Implementierung müssen alle primären Telefonnummern normalisiert (richtig formatiert) und mithilfe Skype for Business Server Systemsteuerung in die **Line-URI-Eigenschaft** jedes Benutzers kopiert werden.
   
 > [!NOTE]
 > Beispiele für primäre Telefonnummern, die für Enterprise-VoIP Bereitstellung erforderlich sind, finden Sie unter ["Beispielnormalisierungsregeln".](../../plan-your-deployment/enterprise-voice-solution/outbound-voice-routing.md#BKMK_SampleNormalizationRules) 
@@ -61,7 +61,7 @@ Wenn Sie Enterprise-VoIP neu bereitstellen, müssen Sie vor Beginn der Bereitste
 
 Nach der Überprüfung der Software- und Umgebungsvoraussetzungen für Enterprise-VoIP können Sie entweder:
   
-- Installieren Sie den Vermittlungsserver, wie unter ["Bereitstellen eines Vermittlungsservers im Topologie-Generator" in Skype for Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder -pool bereitstellen möchten, da Vermittlungsserver beim Verbinden als Teil des Front-End-Pools oder Standard Edition Serverbereitstellungsprozess installiert werden.
+- Installieren Sie den Vermittlungsserver, wie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](deploy-a-mediation-server.md)beschrieben, aber nur, wenn Sie einen eigenständigen Vermittlungsserver oder -pool bereitstellen möchten, da Vermittlungsserver im Rahmen des Front-End-Pools oder Standard Edition Serverbereitstellungsprozess installiert werden, wenn diese verbunden sind.
     
 - Oder beginnen Sie mit dem Konfigurieren von Einstellungen zum Weiterleiten von Anrufen für Enterprise-VoIP Benutzer, wie unter [Konfigurieren von Trunks in Skype for Business Server](configure-trunks.md)beschrieben.
     

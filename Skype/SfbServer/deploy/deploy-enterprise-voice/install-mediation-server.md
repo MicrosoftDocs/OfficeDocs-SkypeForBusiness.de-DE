@@ -2,7 +2,7 @@
 title: Installieren der Dateien für den Vermittlungsserver in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f0f7dd15-58e1-40fd-aa7e-6db50ceafacd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Dateien für den Vermittlungsserver in Skype for Business Server installieren.'
-ms.openlocfilehash: 8dcc6862b55a4620030d03ed442a24e22ccde54b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6efe52ab2964e8a9c95083bbcf6592573ebf7da2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769623"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839687"
 ---
 # <a name="install-the-files-for-mediation-server-in-skype-for-business-server"></a>Installieren der Dateien für den Vermittlungsserver in Skype for Business Server
  
@@ -42,7 +42,7 @@ Führen Sie die Schritte in diesem Thema aus, um Skype for Business Server Berei
     
 3. Klicken Sie auf der Seite **"Endbenutzer-Lizenzvertrag"** auf **"Ich stimme zu"** und dann auf **"OK".** (Erforderlich, um fortzufahren.)
     
-4. Klicken Sie auf der Seite **Skype for Business Server Bereitstellungs-Assistenten** auf **Skype for Business Server System installieren oder aktualisieren.**
+4. Klicken Sie auf der Seite **Skype for Business Server Bereitstellungs-Assistent** auf **Installieren oder Aktualisieren Skype for Business Server Systems.**
     
 5. Next to **Step 1: Install Local Configuration Store**, click **Run**, and then follow the instructions on the screen.
     
@@ -50,11 +50,11 @@ Führen Sie die Schritte in diesem Thema aus, um Skype for Business Server Berei
     
 7. Klicken Sie auf der Seite **"Befehle ausführen",** wenn der Aufgabenstatus als **abgeschlossen** angezeigt wird, auf **"Fertig stellen".**
     
-8. Klicken Sie neben **Schritt 2: Skype for Business Server Komponenten einrichten oder entfernen,** klicken Sie auf **"Ausführen"** und dann auf **"Weiter".**
+8. Next to **Step 2: Setup or Remove Skype for Business Server Components**, click **Run**, and then click **Next**.
     
 9. Klicken Sie auf der Seite **"Befehle ausführen",** wenn der Aufgabenstatus als **abgeschlossen** angezeigt wird, auf **"Fertig stellen".**
     
-10. Klicken Sie neben **Schritt 3: Anfordern, Installieren oder Zuweisen von Zertifikaten** auf **"Ausführen".** Folgen Sie den Anweisungen auf dem Bildschirm, und akzeptieren Sie die Standardeinstellungen. Der Vermittlungsserver erfordert ein Zertifikat, sodass Sie **Schritt 3** zweimal ausführen: einmal, um das erforderliche Zertifikat auszustellen, und einmal mehr, um es zuzuweisen.
+10. Klicken Sie neben **Schritt 3: Anfordern, Installieren oder Zuweisen von Zertifikaten** auf **"Ausführen".** Folgen Sie den Anweisungen auf dem Bildschirm, und akzeptieren Sie die Standardeinstellungen. Der Vermittlungsserver erfordert ein Zertifikat. Daher führen Sie **Schritt 3** zweimal aus: einmal, um das erforderliche Zertifikat auszustellen, und einmal mehr, um es zuzuweisen.
     
 11. Wenn das Zertifikat ordnungsgemäß ausgestellt und zugewiesen wurde, klicken Sie neben **Schritt 4: Dienste starten** auf **Ausführen,** und folgen Sie dann den Anweisungen auf dem Bildschirm.
     

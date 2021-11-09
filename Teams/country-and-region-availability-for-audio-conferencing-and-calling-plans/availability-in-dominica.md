@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit in den 2300er-Jahren
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, fafan
 ms.topic: reference
@@ -24,19 +24,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Dena verfügbar.
-ms.openlocfilehash: d5e0e46cc82ceb6747fd0248ff3cbbe97dbaa462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Dena verfügbar.
+ms.openlocfilehash: f890a0f5ff6971cafb5a4e158fa860567369682b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760523"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853939"
 ---
 # <a name="availability-in-dominica"></a>Verfügbarkeit inBelegungen
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Dena verfügbar.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Dena verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

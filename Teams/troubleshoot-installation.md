@@ -1,6 +1,6 @@
 ---
 title: Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: lenatarhun
@@ -16,12 +16,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Probleme mit Installation und Update der Teams-Desktopclient-App unter Windows beheben.
-ms.openlocfilehash: f65e4b6d6bebd463d143bedc1b1cd50f031cb299
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 71a7162e243779ae779a4e0224d54955ec611e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777155"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865443"
 ---
 # <a name="troubleshoot-microsoft-teams-installation-and-update-issues-on-windows"></a>Beheben von Problemen bei Installation und Update von Microsoft Teams unter Windows
 
@@ -123,7 +123,7 @@ Problembehebungstipps:
 - Um sich zu vergewissern, dass dieses Problem bei Ihnen auftritt, beenden Sie die Teams. (Klicken Sie dazu in der Taskleiste mit der rechten Maustaste auf Teams, und klicken Sie dann auf **Beenden**.) Öffnen Sie dann den Task-Manager in Windows, um zu überprüfen, ob noch eine Instanz von Teams ausgeführt wird.  
 - Wenn Sie sich nicht an dem Computer befinden, auf dem das Problem auftritt, untersuchen Sie die Datei "SquirrelTemp.log", die von dem Computer, auf dem das Problem auftritt, erfasst wurde, und suchen Sie im Protokoll nach einem Eintrag "Programm: Der Prozess kann nicht beendet werden".
 - Um festzustellen, was das Beenden von "Teams.exe" verhindert, sehen Sie sich die Protokolle "Dlls.txt" und "Handles.txt" an. Anhand dieser Protokolle können Sie die Prozesse ermitteln, die das Beenden von Teams verhindert haben.
-- Eine weitere Ursache, die das Beenden von Teams möglicherweise verhindert, ist der Kernelmodus-Dateisystemfilter-Treiber. Verwenden Sie das SysInternals-Tool, [ProcDump](/sysinternals/downloads/procdump), um die Kernelmodusprozess-Speicherabbilddatei durch Ausführen von ```procdump -mk <pid>``` zu erfassen, wobei <pid> die vom Task-Manager abgerufene Prozess-ID ist. Sie können auch die Protokolldatei "Driverquery.txt" untersuchen, um die aktiven Filtertreiber anzuzeigen, die sich störend auf Teams auswirken können.
+- Eine weitere Ursache, die das Beenden von Teams möglicherweise verhindert, ist der Kernelmodus-Dateisystemfilter-Treiber. Verwenden Sie das SysInternals-Tool, [ProcDump](/sysinternals/downloads/procdump), um die Kernelmodusprozess-Speicherabbilddatei durch Ausführen von ```procdump -mk <pid>``` zu erfassen, wobei \<pid> die vom Task-Manager abgerufene Prozess-ID ist. Sie können auch die Protokolldatei "Driverquery.txt" untersuchen, um die aktiven Filtertreiber anzuzeigen, die sich störend auf Teams auswirken können.
 - Um dieses Problem zu beheben, starten Sie den Computer neu.
 
 #### <a name="file-permissions"></a>Dateiberechtigungen

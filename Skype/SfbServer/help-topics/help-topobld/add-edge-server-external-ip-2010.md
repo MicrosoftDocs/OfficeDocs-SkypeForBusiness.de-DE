@@ -2,7 +2,7 @@
 title: Hinzufügen der externen IP-Adresse des Edgeservers – 2010
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: adb2778d-fd46-4ab9-899d-f97f71493659
 description: Sie können die Eigenschaften auf dieser Seite so konfigurieren, dass der Edgeserver auf die externen Speicherorte des Zugriffs-Edgediensts, des Webkonferenz-Edgediensts und des A/V-Edgediensts verweist.
-ms.openlocfilehash: 88636f9718bb600a220cdf4dd912ec12abfca7e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4c178fa31ae676d139c18a1beeed6a40ebe682e4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752144"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853229"
 ---
 # <a name="add-edge-server-external-ip-2010"></a>Hinzufügen der externen IP-Adresse des Edgeservers – 2010
 

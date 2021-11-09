@@ -2,7 +2,7 @@
 title: Konfigurieren von Trunks in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1309c09-ad9a-4c54-9650-4e3f5b2a4a00
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Trunk zwischen einem Vermittlungsserver und Peers für Enterprise-VoIP in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 128be18c31802787c173c8d180de80f5ae5a64fb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f2d88d71476e428230aac0298cb0445844757e1c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748891"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839107"
 ---
 # <a name="configure-trunks-in-skype-for-business-server"></a>Konfigurieren von Trunks in Skype for Business Server
  

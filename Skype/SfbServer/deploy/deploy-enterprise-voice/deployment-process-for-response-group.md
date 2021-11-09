@@ -2,7 +2,7 @@
 title: Bereitstellungsprozess für Reaktionsgruppen in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d390c8a1-dc6e-44d8-b386-2be1fca9877c
 description: Bereitstellungsprozess und Schritte für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: cbc8a26e88cc98f32042ba00fab1ecf181af67d4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13a83c5fbedc2a7b38118b0e7935c4722e3855ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765873"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853699"
 ---
 # <a name="deployment-process-for-response-group-in-skype-for-business"></a>Bereitstellungsprozess für Reaktionsgruppen in Skype for Business
 
@@ -43,7 +43,7 @@ Für die Konfiguration von Reaktionsgruppen müssen Sie über mindestens eine de
 |**CsViewOnlyAdministrator** <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |√(4)  <br/> |
 
 > [!NOTE]
-> **(1)** Ein Active Directory Domain Services-Benutzerobjekt muss mitglied der angegebenen Active Directory-Sicherheitsgruppe sein. Ein Administrator oder ein anderes delegiertes Active Directory-Gruppenmitglied mit entsprechenden Berechtigungen zum Hinzufügen von Benutzern zu einer Sicherheitsgruppe (z. B. Administrator, Kontooperatoren) muss der aufgeführten Sicherheitsgruppe oder Gruppe ein Benutzerobjekt hinzufügen, damit der Benutzer die aufgeführten Funktionen ausführen kann. **(2)** Nur für Workflows, die der CsResponseGroupAdministrator dem CsResponseGroupManager zugewiesen hat. **(3)** Ein Reaktionsgruppen-Manager kann einem Workflow, den der aktuelle Manager bereits verwaltet, ein anderes Mitglied von CsResponseGroupManager zuweisen. **(4)** CsViewOnlyAdministrator kann nur Das Verb "Get"-Cmdlets ausführen.
+> **(1)** Ein Active Directory Domain Services-Benutzerobjekt muss mitglied der angegebenen Active Directory-Sicherheitsgruppe sein. Ein Administrator oder ein anderes delegiertes Active Directory-Gruppenmitglied mit entsprechenden Berechtigungen zum Hinzufügen von Benutzern zu einer Sicherheitsgruppe (z. B. Administrator, Kontooperatoren) muss der aufgeführten Sicherheitsgruppe oder Gruppe ein Benutzerobjekt hinzufügen, damit der Benutzer die aufgeführten Funktionen ausführen kann. **(2)** Nur für Workflows, die der CsResponseGroupAdministrator dem CsResponseGroupManager zugewiesen hat. **(3)** Ein Reaktionsgruppen-Manager kann einem Workflow, den der aktuelle Manager bereits verwaltet, ein anderes Mitglied von CsResponseGroupManager zuweisen. **(4)** CsViewOnlyAdministrator kann nur verb "Get"-Cmdlets ausführen.
 
 ## <a name="response-group-configuration-prerequisites"></a>Konfigurationsvoraussetzungen für Reaktionsgruppen
 
@@ -118,7 +118,7 @@ Um Yi-, Meng- oder Zang-Zeichen zu unterstützen, müssen Sie die Sortierung fü
 
 - Dbo. Workflows
 
-Verwenden Sie für SQL Server 2008 R2 und SQL Server 2012 die sortierung Latin_General_100 (Akzentsensitiv). Bei Verwendung dieser Sortierung wird die Groß-/Kleinschreibung bei Objektnamen nicht beachtet.
+Verwenden Sie für SQL Server 2008 R2 und SQL Server 2012 die Latin_General_100 (Akzentsensitive) Sortierung. Bei Verwendung dieser Sortierung wird die Groß-/Kleinschreibung bei Objektnamen nicht beachtet.
 
 Die Sortierung kann über Microsoft SQL Server Management Studio geändert werden. Ausführliche Informationen zur Verwendung dieses Tools finden Sie unter ["Verwenden von SQL Server Management Studio".](/sql/ssms/sql-server-management-studio-ssms) Führen Sie die folgenden Schritte aus, um die Sortierung zu ändern:
 
@@ -137,7 +137,7 @@ Die Sortierung kann über Microsoft SQL Server Management Studio geändert werde
 |**Phase**|**Schritte**|**Berechtigungen**|**Bereitstellungsdokumentation**|
 |:-----|:-----|:-----|:-----|
 |Aktivieren von Benutzern für Skype for Business und für Enterprise-VoIP  <br/> |Aktivieren Sie Benutzer, die Agents für Skype for Business und Enterprise-VoIP werden. Benutzer müssen aktiviert sein, bevor Sie sie Agentgruppen hinzufügen können. In der Regel werden Benutzer während der Enterprise Edition- oder Standard Edition Serverbereitstellung für Skype for Business aktiviert. Benutzer werden während der Enterprise-VoIP Bereitstellung für Enterprise-VoIP aktiviert.  <br/> |RTCUniversalUserAdmins  <br/> CsUserAdministrator  <br/> CsAdministrator  <br/> |[Aktivieren oder Deaktivieren von Benutzern für lync Server 2013 Preview](/previous-versions/office/lync-server-2013/lync-server-2013-disable-or-re-enable-user-account-for-lync-server) <br/> [Aktivieren von Benutzern für Enterprise-VoIP in Skype for Business Server](enable-users-for-enterprise-voice.md) <br/> |
-|Erstellen und Konfigurieren von Reaktionsgruppen, die aus Agentgruppen, Warteschlangen und Workflows bestehen  <br/> |1. Verwenden Sie die Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell, um Folgendes zu tun:  <br/> a. Erstellen und Konfigurieren von Agentgruppen  <br/> b. Erstellen und Konfigurieren von Warteschlangen  <br/> 2. Verwenden Sie optional Skype for Business Server Verwaltungsshell, um vordefinierte Geschäftszeiten und Feiertage für Reaktionsgruppen zu erstellen.  <br/> 3. Verwenden Sie das Konfigurationstool für Reaktionsgruppen oder Skype for Business Server Verwaltungsshell, um Workflows (Sammelanschlüsse für Gruppen oder IVR-Anrufflüsse) zu erstellen, einschließlich benutzerdefinierter Geschäftszeiten und Feiertage für Reaktionsgruppen.  <br/> Sie können über Skype for Business Server Systemsteuerung auf das Konfigurationstool für Reaktionsgruppen zugreifen.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Erstellen von Agentgruppen für Reaktionsgruppen](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Erstellen von Warteschleifen für Reaktionsgruppen](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Optional) Definieren der Geschäftszeiten von Reaktionsgruppen in Skype for Business](optional-define-response-group-business-hours.md) <br/> [(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
+|Erstellen und Konfigurieren von Reaktionsgruppen, die aus Agentgruppen, Warteschlangen und Workflows bestehen  <br/> |1. Verwenden Sie die Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell, um Folgendes zu tun:  <br/> a. Erstellen und Konfigurieren von Agentgruppen  <br/> b. Erstellen und Konfigurieren von Warteschlangen  <br/> 2. Verwenden Sie optional Skype for Business Server Verwaltungsshell, um vordefinierte Geschäftszeiten und Feiertage für Reaktionsgruppen zu erstellen.  <br/> 3. Verwenden Sie das Konfigurationstool für Reaktionsgruppen oder Skype for Business Server-Verwaltungsshell, um Workflows (Sammelanschlüsse für Gruppen oder Interaktive Sprachantwort (Interactive Voice Response, IVR) zu erstellen, einschließlich benutzerdefinierter Geschäftszeiten und Feiertage für Reaktionsgruppen.  <br/> Sie können über Skype for Business Server Systemsteuerung auf das Konfigurationstool für Reaktionsgruppen zugreifen.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> CsResponseGroupManager  <br/> |[Erstellen von Agentgruppen für Reaktionsgruppen](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-agent-groups) <br/> [Erstellen von Warteschleifen für Reaktionsgruppen](/previous-versions/office/lync-server-2013/lync-server-2013-create-response-group-queues) <br/> [(Optional) Definieren der Geschäftszeiten von Reaktionsgruppen in Skype for Business](optional-define-response-group-business-hours.md) <br/> [(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business](optional-define-response-group-holiday-sets.md) <br/> [Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business](designing-and-creating-response-group-workflows.md) <br/> |
 |(Optional) Anpassen der Einstellungen auf Anwendungsebene  <br/> |Verwenden Sie Skype for Business Server Verwaltungsshell, um die Standardkonfiguration für die Wartemusik, die Standardmäßige Audiodatei für die Wartemusik, den Aktivierungszeitraum des Agent-Ringbacks und die Konfiguration des Anrufkontexts anzupassen.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in Skype for Business](managing-application-level-response-group-settings.md) <br/> |
 |(Optional) Delegieren der Verwaltung von Reaktionsgruppen  <br/> |Weisen Sie Benutzern die Rolle "CsResponseGroupManager" zu, um die Konfiguration von Reaktionsgruppen zu delegieren. Reaktionsgruppenmanager können dann die Ihnen zugewiesenen Reaktionsgruppen konfigurieren.  <br/> |RTCUniversalServerAdmins  <br/> CsResponseGroupAdministrator  <br/> CsVoiceAdministrator  <br/> CsServerAdministrator  <br/> CsAdministrator  <br/> |[Planen der rollenbasierten Zugriffssteuerung](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-role-based-access-control) <br/> |
 |Überprüfen der Reaktionsgruppenbereitstellung  <br/> |Führen Sie Testanrufe bei den Sammelanschlüssen und IVR-Workflows durch, um sicherzustellen, dass die Konfiguration wie erwartet funktioniert.  <br/> |-  <br/> |-  <br/> |

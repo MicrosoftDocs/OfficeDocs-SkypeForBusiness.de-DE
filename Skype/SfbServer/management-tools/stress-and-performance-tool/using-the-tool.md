@@ -2,7 +2,7 @@
 title: Verwenden des Tools Skype for Business Server 2015 Stress and Performance
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/13/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 93f42230-24a2-418d-9770-bf4670a9d78f
 description: Um das Skype for Business Server 2015 Stress and Performance Tool auszuführen, müssen Sie sowohl Benutzer als auch Kontakte und Benutzerprofile verwalten, das Tool für die Ausführung konfigurieren und dann die Vom Tool erzeugten Ausgaben oder Ergebnisse überprüfen können.
-ms.openlocfilehash: d54374e81319a6a95ec61fbb2ab5885e2ec368ca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b71148f4fcf26726b530861b147336a1c7b1d12e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751584"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60839847"
 ---
 # <a name="using-the-skype-for-business-server-2015-stress-and-performance-tool"></a>Verwenden des Tools Skype for Business Server 2015 Stress and Performance
  
@@ -119,7 +119,7 @@ Wenn Sie auf die Schaltfläche **"Benutzer löschen"** klicken, werden die Einga
 > Bevor Sie Kontakte erstellen, müssen Sie zunächst die Benutzerreplikation abschließen (dies erfolgt über die Registerkarte "Benutzer"). 
   
 > [!IMPORTANT]
-> Wenn Sie gerade Ihre Benutzer erstellt haben, müssen Sie warten, bis Skype for Business Server Replikation abgeschlossen ist, und die Benutzerkonten in der Datenbank auffüllen. **Wenn die Replikation der Benutzer noch nicht abgeschlossen ist, wird ein Fehler angezeigt.** Sie wissen, wann Benutzer die Replikation abgeschlossen haben, wenn der Skype for Business Server 2015 Front-End-Dienst gestartet wurde, oder indem Sie das Cmdlet Get-CsUser auf dem letzten Benutzer der Gesamtzahl, die Sie angegeben haben, erfolgreich ausführen.
+> Wenn Sie ihre Benutzer gerade erstellt haben, müssen Sie warten, bis Skype for Business Server Replikation abgeschlossen ist, und die Benutzerkonten in der Datenbank auffüllen. **Wenn die Replikation der Benutzer noch nicht abgeschlossen ist, wird ein Fehler angezeigt.** Sie wissen, wann Benutzer die Replikation abgeschlossen haben, wenn der Skype for Business Server 2015 Front-End-Dienst gestartet wurde, oder indem Sie das Cmdlet Get-CsUser auf dem letzten Benutzer der Gesamtzahl, die Sie angegeben haben, erfolgreich ausführen.
   
 #### <a name="contacts-creation-tab"></a>Registerkarte "Kontakteerstellung"
 
@@ -203,10 +203,10 @@ Nachdem Ihre Benutzer erstellt wurden (über das Benutzererstellungstool), könn
   
 ### <a name="running-the-skype-for-business-server-2015-load-configuration-tool"></a>Ausführen des Tools für die Skype for Business Server 2015-Auslastungskonfiguration
 
-Starten Sie das Tool für die Ladekonfiguration (UserProfileGenerator.exe), und füllen Sie die Registerkarten aus. Dieses Tool erstellt ein Verzeichnis für jeden Clientcomputer, den Sie zum Ausführen ihrer Simulationen benötigen. Jedes Clientverzeichnis enthält ein Skript zum Starten des Tools Skype for Business Server 2015 Stress and Performance (LyncPerfTool.exe). Die folgenden Abschnitte enthalten Beispiele für das Ausfüllen der Felder auf den einzelnen Registerkarten des Tools Skype for Business Server 2015 Load Configuration.
+Starten Sie das Tool "Ladekonfiguration" (UserProfileGenerator.exe), und füllen Sie die Registerkarten aus. Dieses Tool erstellt ein Verzeichnis für jeden Clientcomputer, den Sie zum Ausführen ihrer Simulationen benötigen. Jedes Clientverzeichnis enthält ein Skript zum Starten des Tools Skype for Business Server 2015 Stress and Performance (LyncPerfTool.exe). In den folgenden Abschnitten finden Sie Beispiele zum Ausfüllen der Felder auf den einzelnen Registerkarten des Tools Skype for Business Server 2015 Load Configuration.
   
 > [!IMPORTANT]
-> Die im Tool "Lastenkonfiguration" (UserProfileGenerator.exe) verwendeten benutzerspezifischen Werte müssen mit den Im Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) für den Pool angegebenen Werten übereinstimmen. 
+> Die im Load Configuration-Tool (UserProfileGenerator.exe) verwendeten benutzerspezifischen Werte müssen mit den Im Skype for Business Server 2015 User Creation Tool (UserProvisioningTool.exe) für den Pool angegebenen Werten übereinstimmen. 
   
 #### <a name="common-configuration-tab"></a>Registerkarte "Allgemeine Konfiguration"
 
@@ -220,11 +220,11 @@ Die Registerkarte **"Allgemeine Konfiguration"** des Ladekonfigurationstools wir
     
 3. Geben Sie im Feld **"Kennwort für alle Benutzer"** das Kennwort ein, das bei der Erstellung der Benutzer verwendet wurde. Wenn Sie dieses Feld leer lassen, wird der Benutzername als Kennwort festgelegt.
     
-4. Geben Sie im Feld **"Benutzeranfangsindex"** den Index des ersten zu konfigurierenden Benutzers ein. Sie können unterschiedliche Bereiche für unterschiedliche Arten oder Laststufen konfigurieren, aber Sie müssen das Tool für die Ladekonfiguration (UserProfileGenerator.exe) einmal pro dem Bereich ausführen, den Sie konfigurieren möchten.
+4. Geben Sie im Feld **"Benutzeranfangsindex"** den Index des ersten zu konfigurierenden Benutzers ein. Sie können unterschiedliche Bereiche für unterschiedliche Arten oder Laststufen konfigurieren, aber Sie müssen das Tool für die Ladekonfiguration (UserProfileGenerator.exe) einmal pro bereich ausführen, den Sie konfigurieren möchten.
     
 5. Geben Sie im Feld **"Anzahl der Benutzer"** die Gesamtzahl der Benutzer ein, die Sie konfigurieren möchten.
     
-6. Geben Sie im Feld **"Benutzerdomäne"** die für den SIP-URI verwendete Domäne ein. Dies wird verwendet, um den SIP-URI jedes Benutzers zu erstellen, um sich beim Skype for Business Server 2015-Front-End-Server oder Standard Edition-Server anzumelden, und unterscheidet sich möglicherweise von der Kontodomäne.
+6. Geben Sie im Feld **"Benutzerdomäne"** die für den SIP-URI verwendete Domäne ein. Dies wird verwendet, um den SIP-URI der einzelnen Benutzer zu erstellen, um sich beim Skype for Business Server 2015 Front-End-Server oder Standard Edition-Server anzumelden, und unterscheidet sich möglicherweise von der Kontodomäne.
     
 7. Geben Sie im Feld **"Kontodomäne"** die AD DS-Domänenanmeldung ein.
     
@@ -236,7 +236,7 @@ Die Registerkarte **"Allgemeine Konfiguration"** des Ladekonfigurationstools wir
     
 11. Geben Sie im **Feld "Port"** den Port ein, den Benutzer für SIP verwenden sollen (hier ist der Standardwert 5061).
     
-12. Geben Sie für das Feld **"Externer Netzwerkserver Einstellungen"** den FQDN des Zugriffsproxys oder Pools und erneut den **Port an.** Diese Einstellungen werden nur für die Lastsimulation externer Endpunkte verwendet.
+12. Geben Sie für das Feld für den **externen Netzwerkserver Einstellungen** den FQDN des Zugriffsproxys oder Pools und erneut den **Port** an. Diese Einstellungen werden nur für die Lastsimulation externer Endpunkte verwendet.
     
 #### <a name="general-scenarios-tab"></a>Registerkarte "Allgemeine Szenarien"
 
@@ -259,7 +259,7 @@ Sie können die Ladestufen und Parameter für die einzelnen allgemeinen Szenarie
     
 - **Adressbuch-Webabfrage –** Dies ist der Adressbuch-Nachschlagedienst anstelle des Adressbuchdateidownloads. Wenn Sie dies für Adressbuchdateidownloads aktivieren möchten, klicken Sie auf die Schaltfläche **"Erweitert",** und legen **Sie "EnableABSDownload"** auf "True" fest. Geben Sie einen Wert für die Ladestufe an.
     
-- **Reaktionsgruppendienst –** Klicken Sie auf die Schaltfläche **"Erweitert",** und geben Sie die URIs der Reaktionsgruppen an, die Sie bereits erstellt haben, als Sie Reaktionsgruppendienst Agents bereitgestellt haben. Sie müssen mindestens eine Reaktionsgruppe auswählen. Um mehr zu verwenden, trennen Sie die Reaktionsgruppen durch Semikolons. Aktualisieren Sie **RGSUriSuffixStartIndex** und **RGSUriSuffixEndIndex** auf die tatsächlichen Werte. Wählen Sie eine Ladestufe aus.
+- **Reaktionsgruppendienst –** Klicken Sie auf die Schaltfläche **"Erweitert",** und geben Sie die URIs der Reaktionsgruppen an, die Sie bereits bei der Bereitstellung Reaktionsgruppendienst Agents erstellt haben. Sie müssen mindestens eine Reaktionsgruppe auswählen. Um mehr zu verwenden, trennen Sie die Reaktionsgruppen durch Semikolons. Aktualisieren Sie **RGSUriSuffixStartIndex** und **RGSUriSuffixEndIndex** auf die tatsächlichen Werte. Wählen Sie eine Ladestufe aus.
     
 - **Standortinformationsdienste –** Wählen Sie die Ladestufe "Aktiviert" oder "Deaktiviert" aus.
     
@@ -274,7 +274,7 @@ Sie können die Ladestufen und Parameter für die einzelnen allgemeinen Szenarie
     
 Diese Schaltflächen und Kontrollkästchen sind für jedes Szenario spezifische zusätzliche Werte und ändern das Verhalten des Stress- und Leistungstools und ermöglichen Anpassungen.
   
-Für jedes Szenario auf der Registerkarte "Allgemeine Szenarien" (mit Ausnahme von Location Information Services) wird die Unterhaltungsrate mithilfe des entsprechenden Felds im Dialogfeld "Erweitert" berechnet, wenn der Wert der Ladestufe **"Benutzerdefiniert"** lautet. Der Feldname kann je nach Szenario unterschiedlich sein, aber die Feldbeschreibung gibt *an: HINWEIS Diese Nummer wird nur verwendet, wenn "Benutzerdefiniert" im Dropdownmenü ausgewählt ist.*
+Wenn der Wert der Ladestufe **"Benutzerdefiniert"** ist, wird die Unterhaltungsrate für jedes Szenario auf der Registerkarte "Allgemeine Szenarien" (mit Ausnahme von Standortinformationsdiensten) mithilfe des entsprechenden Felds im Dialogfeld "Erweitert" berechnet. Der Feldname kann je nach Szenario unterschiedlich sein, aber die Feldbeschreibung gibt *an: HINWEIS Diese Nummer wird nur verwendet, wenn "Benutzerdefiniert" im Dropdownmenü ausgewählt ist.*
   
 Die Werte **"Hoch",** **"Mittel"** und **"Niedrig"** ändern die Unterhaltungsraten pro Modalität entsprechend dem Benutzermodell, das eine Balance aller Szenarien darstellt. Wenn die Ladestufe pro Modalität aufgrund eines Unterschieds bei der erwarteten Nutzung geändert werden muss, verwenden Sie eine benutzerdefinierte Unterhaltungsrate.
   
@@ -308,7 +308,7 @@ Folgende Optionen sind verfügbar:
   
 Web App unterstützt Konferenzszenarien über den Unified Communications Web API (UCWA)-Server, der auf einem Front-End-Server installiert ist. Verwenden Sie die Registerkarte "Web App", um alle Web-App-bezogenen Szenarien zu konfigurieren. Mögliche Optionen sind:
   
-- **Allgemeine Web App-Einstellungen –** Klicken Sie auf die Schaltfläche **"Zusätzliche Einstellungen",** und legen Sie **reachTargetServerUrl** auf die virtuelle IP (VIP) des Verzeichnispools der Front-End-Pool-VIP fest.
+- **Allgemeine Web App-Einstellungen –** Klicken Sie auf die Schaltfläche **"Zusätzliche Einstellungen",** und legen Sie **reachTargetServerUrl** auf die virtuelle IP (VIP) des Verzeichnispools der Vip des Front-End-Pools fest.
     
 - **Anwendungsfreigabe –** Wählen Sie einen Wert für Load Level aus.
     
@@ -334,7 +334,7 @@ Die folgenden Optionen sind verfügbar:
 - **Anwesenheits- und P2P-Chat/Audio –** Wählen Sie einen Wert für "Ladestufe" aus, um die Mobilitätssimulation zu aktivieren.
     
 > [!NOTE]
-> Jedes Szenario verfügt über eine **Schaltfläche "Erweitert",** die sich daneben befindet. Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress and Performance Tools ändern und die Anpassung aktivieren.> Für jedes Mobilitätsszenario wird der im **ConversationsPerHour-Feld** angegebene Wert anstelle des Standardwerts verwendet, wenn die Ladestufe **"Custom"** ist.
+> Jedes Szenario verfügt über eine **Schaltfläche "Erweitert",** die sich daneben befindet. Erweiterte Dialogfelder enthalten für jedes Szenario spezifische Werte, die das Verhalten des Stress and Performance Tools ändern und anpassungsfähigen.> Für jedes Der Mobilitätsszenarien, wenn die Ladestufe **benutzerdefiniert** ist, wird der im **ConversationsPerHour-Feld** angegebene Wert anstelle der Standardeinstellung verwendet.
   
 #### <a name="summary-tab"></a>Registerkarte "Zusammenfassung"
 
@@ -363,9 +363,9 @@ Das Tool "Lastenkonfiguration" (UserProfileGenerator.exe) erstellt eine Batchdat
   
 ### <a name="run-the-stress-and-performance-test"></a>Ausführen des Belastungs- und Leistungstests
 
-1. Kopieren Sie den Ordner mit den Darin enthaltenen Konfigurationsordnern und Dateien in das Verzeichnis, das auf jedem Clientcomputer LyncPerfTool.exe hat. (Wenn Sie beispielsweise die Konfigurationsdateien im Ordner mit dem Namen 1.28_13.16.16 generiert haben, kopieren Sie diesen Ordner in den Ordner mit LyncPerfTool.exe darin. Führen Sie dies auf jedem Client aus.)
+1. Kopieren Sie den Ordner mit den Konfigurationsordnern und -dateien in das Verzeichnis, das auf jedem Clientcomputer LyncPerfTool.exe hat. (Wenn Sie beispielsweise die Konfigurationsdateien im Ordner 1.28_13.16.16 generiert haben, kopieren Sie diesen Ordner in den Ordner mit LyncPerfTool.exe darin. Führen Sie dies auf jedem Client aus.)
     
-2. Navigieren Sie zum Clientordner, und führen Sie das **RunClient-Batchskript** aus. Sie können im Windows Explorer auf die Batchdatei doppelklicken, und sie führt alle Konfigurationsdateien für diesen Client aus. Sie können das Skript auch in einem Clientordner ausführen, indem Sie die folgende Syntax verwenden:
+2. Navigieren Sie zum Clientordner, und führen Sie das **RunClient-Batchskript** aus. Sie können im Windows Explorer auf die Batchdatei doppelklicken und alle Konfigurationsdateien für diesen Client ausführen. Sie können das Skript auch in einem Clientordner ausführen, indem Sie die folgende Syntax verwenden:
     
    ```console
    RunClient0.bat "C:\Program Files\Skype for Business Server 2015\LyncStressAndPerfTool\LyncStress" 
@@ -400,7 +400,7 @@ Das Skype for Business Server 2015 Stress and Performance Tool verfügt über vi
   
 ### <a name="client-counters"></a>Clientzähler
 
-Jede Ausgeführte Instanz von LyncPerfTool.exe verfügt über eine separate Instanz der Leistungsindikatoren. Jede Instanz wird anhand ihrer Prozess-ID benannt. Wenn Clients überlastet sind, können andere Probleme auftreten. So verhindern Sie diese Probleme:
+Jede Instanz der ausgeführten LyncPerfTool.exe verfügt über eine separate Instanz der Leistungsindikatoren. Jede Instanz wird anhand ihrer Prozess-ID benannt. Wenn Clients überlastet sind, können andere Probleme auftreten. So verhindern Sie diese Probleme:
   
 - Überwachen sie die CPU- und Speicherauslastung auf den Clientcomputern. Wenn die CPU konsistent über 90 Prozent liegt, verringern Sie die Anzahl der Benutzer.
     
@@ -412,7 +412,7 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 
 |**Leistungsindikator**|**Beschreibung**|
 |:-----|:-----|
-|In Minuten aufgewendete Zeit  <br/> |Zeit, die seit dem Starten des Prozesses aufgewendet wurde.  <br/> |
+|In Minuten aufgewendete Zeit  <br/> |Zeit, die seit dem Start des Prozesses aufgewendet wurde.  <br/> |
 |Aktive Endpunkte  <br/> |Die Anzahl der Endpunkte, die derzeit mit dem Server verbunden sind.  <br/> |
 |Fehlgeschlagene Anmeldungen  <br/> |Gesamtzahl der Endpunkt-Anmeldefehler.  <br/> |
 |Anmeldeversuche  <br/> |Gesamtzahl der Endpunkt-Anmeldeversuche.  <br/> |
@@ -431,8 +431,8 @@ Hier ist eine Liste der wichtigsten Leistungsindikatoren:
 
 |**Leistungsindikator**|**Beschreibung**|
 |:-----|:-----|
-|ABS Full/Delta-Dateidownloads versucht  <br/> |Gesamtzahl der versuchten vollständigen oder Delta-Dateidownloadanforderungen.  <br/> |
-|ABS Full/Delta-Dateidownloads erfolgreich  <br/> |Gesamtzahl der versuchten vollständigen oder Delta-Dateidownloadanforderungen.  <br/> |
+|ABS Full/Delta-Dateidownloads versucht  <br/> |Gesamtanzahl der versuchten vollständigen oder Delta-Dateidownloadanforderungen.  <br/> |
+|ABS Full/Delta-Dateidownloads erfolgreich  <br/> |Gesamtanzahl der versuchten vollständigen oder Delta-Dateidownloadanforderungen.  <br/> |
 |Mit dem Adressbuchwebabfragedienst zusammenhängende Leistungsindikatoren  <br/> |Adressbuchdatei-Download-bezogene Leistungsindikatoren.  <br/> |
 |Abs WS Calls attempted  <br/> |Gesamtanzahl der versuchten Webdienstanforderungen für Adressbuchabfragen.  <br/> |
 |ABS-WS-Aufrufe erfolgreich  <br/> |Gesamtanzahl der Webdienstanforderungen des Adressbuchwebs, die einen erfolgreichen Antwortcode zurückgegeben haben.  <br/> |

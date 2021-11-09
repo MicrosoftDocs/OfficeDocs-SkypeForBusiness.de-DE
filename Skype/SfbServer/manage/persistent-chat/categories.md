@@ -2,7 +2,7 @@
 title: Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -12,13 +12,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b0c834b9-b5c8-41d5-865b-c8b180e76d13
-description: 'Zusammenfassung: Informationen zum Verwalten von Serverkategorien für beständigen Chat in Skype for Business Server 2015.'
-ms.openlocfilehash: e9892f032d5af24d1394fddc6965ead6e769472e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Serverkategorien für beständigen Chat in Skype for Business Server 2015 verwalten.'
+ms.openlocfilehash: 86a90143bad43f4bb8a96434885eec741c01f4a4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776195"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60853009"
 ---
 # <a name="manage-categories-in-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015
  
@@ -38,10 +38,10 @@ Benutzer, Organisationseinheiten (OUs) und Benutzergruppen, die als Ersteller de
   
 Bevor Sie Kategorien konfigurieren, lesen Sie in [Skype for Business Server 2015 unbedingt Kategorien für beständigen Chat, Chatrooms und Benutzerrollen.](../../plan-your-deployment/persistent-chat-server/categories-chat-rooms-and-user-roles.md)
   
-Sie können Kategorien mithilfe der Systemsteuerung oder mit Windows PowerShell Cmdlets konfigurieren und verwalten.
+Sie können Kategorien mithilfe der Systemsteuerung oder mithilfe Windows PowerShell Cmdlets konfigurieren und verwalten.
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="configure-categories-by-using-the-control-panel"></a>Konfigurieren von Kategorien mithilfe der Systemsteuerung
 
@@ -109,7 +109,7 @@ Vollständige Informationen zur Cmdlet-Syntax, einschließlich aller Parameter, 
   
 ### <a name="create-a-new-category"></a>Erstellen einer neuen Kategorie
 
-Mit dem Cmdlet **"New-CsPersistentChatCategory"** können Sie eine neue Kategorie erstellen. Mit dem folgenden Befehl wird beispielsweise eine neue Kategorie namens "HelpDesk" im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel ist der Dateiupload aktiviert:
+Mit dem Cmdlet **"New-CsPersistentChatCategory"** können Sie eine neue Kategorie erstellen. Mit dem folgenden Befehl wird beispielsweise eine neue Kategorie namens HelpDesk im Pool atl-cs-001.contoso.com erstellt. In diesem Beispiel ist der Dateiupload aktiviert:
   
 ```PowerShell
 New-CsPersistentChatCategory -Name "HelpDesk" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -EnableFileUpload 
