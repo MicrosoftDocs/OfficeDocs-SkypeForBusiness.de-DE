@@ -2,7 +2,7 @@
 title: Definieren eines neuen Trunks
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e5d97b27-5ae8-41e0-8ee9-0c3f6d5dd123
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Definieren Sie einen neuen SIP-Trunk (Session Initiation Protocol), indem Sie die folgenden Informationen angeben:'
-ms.openlocfilehash: 9b86ef8d130b673cfeda8812cad0628e093ff762
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7e6c80b3f5762dc409a47ee4b9e6f7ff9053b84c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776765"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836897"
 ---
 # <a name="define-a-new-trunk"></a>Definieren eines neuen Trunks
 
@@ -38,7 +38,7 @@ Definieren Sie einen neuen SIP-Trunk (Session Initiation Protocol), indem Sie di
 
 - **Zugeordneter Vermittlungsserverport:** Legen Sie den Portwert auf den TCP- oder TLS-Portwert des Vermittlungsservers fest, den dieser SIP-Trunk verwendet.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [M:N-Trunk in Skype for Business Server](../../../plan-your-deployment/enterprise-voice-solution/m-n-trunk.md)
 

@@ -2,7 +2,7 @@
 title: Erstellen der Edgetopologie für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5ea18841-afdc-4ccb-8d86-30584c1f5aca
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Edgeservertopologie in Skype for Business Server erstellen, veröffentlichen und exportieren.'
-ms.openlocfilehash: ff7c2e69c3ee18da5c798fbdf96719bd14146d45
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b016475f32e38b1353f7ef14f91e203843cd748b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775805"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844858"
 ---
 # <a name="create-your-edge-topology-for-skype-for-business-server"></a>Erstellen der Edgetopologie für Skype for Business Server
  
@@ -51,7 +51,7 @@ Der erste Bereitstellungsschritt besteht darin, ihre Skype for Business Server E
     
 - Edgepool mit DNS-Lastenausgleich (ein oder mehrere Server)
     
-- Edgepool mit Hardwarelastenausgleich (ein oder mehrere Server)
+- Edgepool mit Hardwarelastenausgleich (mindestens ein Server)
     
 Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die Planungsdokumentation durchzugehen, bevor Sie mit dem Ausführen dieser Schritte beginnen. Andernfalls beginnen wir.
   
@@ -85,7 +85,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
    - Aktivieren von IPv6 auf der externen Schnittstelle
     
-   Diese sind ziemlich selbsterklärend, unabhängig davon, ob Sie IPv4- oder IPv6-Adressen verwenden, und Sie diese Adressen intern oder extern auf Ihrem Edgeserver anwenden (dies müssen Sie bei Schritt 10 berücksichtigen). Sie haben auch die Möglichkeit, ihren Edgeserver oder Ihren Edgepool so zu konfigurieren, dass eine NAT-Adresse (Network Address Translation) für die externe IP-Adresse verwendet wird. Sie können dies tun, indem Sie das **Kontrollkästchen "Die externe IP-Adresse dieses Edgepools wird durch NAT übersetzt"** auswählen. Klicken Sie auf **"Weiter",** wenn sie fertig ist.
+   Diese sind ziemlich selbsterklärend, unabhängig davon, ob Sie IPv4- oder IPv6-Adressen verwenden, und Sie diese Adressen intern oder extern auf Ihrem Edgeserver anwenden (Dies müssen Sie bei Schritt 10 berücksichtigen). Sie haben auch die Möglichkeit, ihren Edgeserver oder Ihren Edgepool so zu konfigurieren, dass eine NAT-Adresse (Network Address Translation) für die externe IP-Adresse verwendet wird. Sie können dies tun, indem Sie das **Kontrollkästchen "Die externe IP-Adresse dieses Edgepools wird durch NAT übersetzt"** auswählen. Klicken Sie auf **"Weiter",** wenn sie fertig ist.
     
 9. Auf dem Bildschirm "Externe FQDNs" hängen Ihre Auswahl von der Auswahl ab, die Sie in Schritt 7 oben getroffen haben.
     
@@ -133,7 +133,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
 7. Auf dem Bildschirm **"Features auswählen"** haben Sie folgende Auswahlmöglichkeiten:
     
-    - Möglicherweise möchten Sie denselben FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server Webkonferenzdienst und Ihren A/V-Edgedienst verwenden. Wenn ja, müssen Sie das **Kontrollkästchen "Nur FQDN und IP-Adresse verwenden"** aktivieren (und dies für Schritt 9 unten beachten).
+    - Möglicherweise möchten Sie den gleichen FQDN und die gleiche IP-Adresse für Ihren SIP-Zugriffsdienst, Ihren Skype for Business Server Webkonferenzdienst und Ihren A/V-Edgedienst verwenden. Wenn ja, müssen Sie das **Kontrollkästchen "Nur FQDN und IP-Adresse verwenden"** aktivieren (und dies für Schritt 9 unten beachten).
     
     - Wenn Sie planen, den Partnerverbund zu aktivieren, aktivieren Sie das **Kontrollkästchen Verbund für diesen Edgepool aktivieren (Port 5061).**
     
@@ -218,7 +218,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
      Diese sind ziemlich selbsterklärend, unabhängig davon, ob Sie IPv4- oder IPv6-Adressen verwenden, und Sie diese Adressen intern oder extern auf Ihrem Edgeserver anwenden (Dies müssen Sie bei Schritt 11 berücksichtigen).
     
      > [!NOTE]
-     > Im Gegensatz zu den anderen beiden Topologieoptionen **DÜRFEN** Sie bei Verwendung eines Hardwaregeräts zum Lastenausgleich NICHT die Option auswählen, dass **die externe IP-Adresse des Edgepools durch NAT übersetzt wird.** Dies wird **nicht unterstützt.**
+     > Im Gegensatz zu den beiden anderen Topologieoptionen **DÜRFEN** Sie bei Verwendung eines Hardwaregeräts zum Lastenausgleich NICHT die Option auswählen, dass **die externe IP-Adresse des Edgepools durch NAT übersetzt wird.** Dies wird **nicht unterstützt.**
   
 9. Auf dem Bildschirm "Externe FQDNs" hängen Ihre Auswahl von der Auswahl ab, die Sie in Schritt 7 oben getroffen haben.
     
@@ -256,7 +256,7 @@ Wenn Sie nicht sicher sind, was Sie benötigen, ist es ein guter Zeitpunkt, die 
     
 ## <a name="publish-your-edge-server-topology"></a>Veröffentlichen der Edgeservertopologie
 
-Nachdem Sie die oben beschriebenen Schritte abgeschlossen haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie sie auch in Ihren Skype for Business Server Edgeserver oder Edgepool exportieren können. Führen Sie die folgenden Schritte aus:
+Nachdem Sie die obigen Schritte abgeschlossen haben, ist es an der Zeit, diese neue Topologie zu veröffentlichen, mit der Sie sie auch in Ihren Skype for Business Server Edgeserver oder Edgepool exportieren können. Führen Sie die folgenden Schritte aus:
   
 1. Starten Sie **den Topologie-Generator** (wenn er nicht bereits aus dem vorherigen Verfahren gestartet wurde).
     
@@ -278,7 +278,7 @@ Um die Bereitstellung erfolgreich durchzuführen, benötigt der Skype for Busine
   
 1. Starten Sie die **Skype for Business Server-Verwaltungsshell.**
     
-2. Führen Sie in der **Skype for Business Server-Verwaltungsshell** Folgendes aus:
+2. Führen Sie in der **Skype for Business Server Verwaltungsshell** Folgendes aus:
     
    ```powershell
    Export-CsConfiguration -FileName <ConfigurationFilePath.zip>

@@ -2,7 +2,7 @@
 title: Hinzufügen von SQL-Speichern
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -14,17 +14,17 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
 ROBOTS: NOINDEX, NOFOLLOW
-description: Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.
-ms.openlocfilehash: fee7fcd3a7d18f9bf6f3c8fe91c3c971c9cdcba0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server – entweder eine Standardinstanz oder eine benannte Instanz – angeben, geben Sie Folgendes an.
+ms.openlocfilehash: d738fb2efa3703686f99ada3ce1ed7a181f7b1a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769333"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836917"
 ---
 # <a name="add-sql-store"></a>Hinzufügen eines SQL-Speichers
 
-Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.
+Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server – entweder eine Standardinstanz oder eine benannte Instanz – angeben, geben Sie Folgendes an.
 
 Geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des SQL Server an, das die datenbankinstanz hosten soll, die Sie definieren.
 
