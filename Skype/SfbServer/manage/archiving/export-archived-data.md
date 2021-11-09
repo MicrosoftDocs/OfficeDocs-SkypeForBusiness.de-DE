@@ -2,7 +2,7 @@
 title: Exportieren archivierter Daten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8214bb0a-baa7-414f-9eee-313b65223fa3
 description: 'Zusammenfassung: Erfahren Sie, wie Archivierte Daten für Skype for Business Server exportiert werden.'
-ms.openlocfilehash: e78ec210e993a11bf0ae17d4e41270602d2bf24a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef9ffca2612adb088f9d06cdbaad809f72278595
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740651"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856782"
 ---
 # <a name="export-archived-data-in-skype-for-business-server"></a>Exportieren archivierter Daten in Skype for Business Server
 
@@ -31,7 +31,7 @@ Wenn Sie die Integration von Microsoft Exchange aktivieren, werden die Daten in 
 
 Sie können archivierte Daten mithilfe des Cmdlets Export-CSArchivingData exportieren. 
   
-Der folgende Befehl exportiert alle Archivierungsdaten, die seit dem 1. Juni 2012 in die Archivierungsdatenbank atl-sql-001.contoso.com geschrieben wurden. Die resultierende Ausgabedatei wird im Ordner "C:\ArchivingExports" gespeichert.
+Mit dem folgenden Befehl werden alle Archivierungsdaten exportiert, die seit dem 1. Juni 2012 in die Archivierungsdatenbank atl-sql-001.contoso.com geschrieben wurden. Die resultierende Ausgabedatei wird im Ordner "C:\ArchivingExports" gespeichert.
   
 ```PowerShell
 Export-CsArchivingData -Identity "ArchivingDatabase:atl-sql-001.contoso.com" -StartDate 6/1/2012 -OutputFolder "C:\ArchivingExports"

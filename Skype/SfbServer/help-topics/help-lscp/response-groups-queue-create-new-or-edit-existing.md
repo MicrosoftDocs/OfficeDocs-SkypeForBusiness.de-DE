@@ -2,7 +2,7 @@
 title: Response Groups Queue Create New or Edit Existing
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cbdde536-8668-4a08-9862-8615e8691fd7
 description: Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.
-ms.openlocfilehash: c70742f19a088785275516f927e5a6fa7d5f9e6b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fba6a756ab12dda91c84aee5c0ed75679db71c71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750504"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827758"
 ---
 # <a name="response-groups-queue-create-new-or-edit-existing"></a>Reaktionsgruppenwarteschleife: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppenwarteschleife
 
@@ -46,11 +46,11 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Disconnect**
 
-  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
+  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein \<username> @ \<domainname> (z. B. sip:bob@contoso.com).
 
-  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein <number> @ <domainname> (z. B. sip:+14255550121@contoso.com).
+  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein \<number> @ \<domainname> (z. B. sip:+14255550121@contoso.com).
 
-  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: <username> @ <domainname> .
+  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: \<username> @ \<domainname> .
 
   - **An eine andere Warteschlange weiterleiten** Wenn Sie diese Option auswählen, navigieren Sie zu der Warteschleife, in der Anrufe empfangen werden sollen, wenn das Zeitlimit für die Anrufe abläuft.
 
@@ -64,11 +64,11 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
   - **Disconnect**
 
-  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein <username> @ <domainname> (z. B. sip:bob@contoso.com).
+  - **Weiterleiten an Voicemail** Wenn Sie diese Option in **der SIP-Adresse** auswählen, geben Sie eine Voicemailadresse im Sip-Format ein \<username> @ \<domainname> (z. B. sip:bob@contoso.com).
 
-  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein <number> @ <domainname> (z. B. sip:+14255550121@contoso.com).
+  - **An Telefonnummer weiterleiten** Wenn Sie diese Option auswählen, geben Sie in der **SIP-Adresse** die Telefonnummer im Sip-Format ein \<number> @ \<domainname> (z. B. sip:+14255550121@contoso.com).
 
-  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: <username> @ <domainname> .
+  - **An SIP-Adresse weiterleiten** Wählen Sie diese Option aus, um den Anruf an einen anderen Benutzer weiterzuleiten. Geben Sie in der **SIP-Adresse** den URI für den Benutzer im Sip-Format ein: \<username> @ \<domainname> .
 
   - **An eine andere Warteschlange weiterleiten** Wenn Sie diese Option auswählen, navigieren Sie zu der Warteschleife, die Anrufe empfangen soll, wenn der Schwellenwert für den Warteschleifenüberlauf erreicht ist.
 

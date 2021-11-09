@@ -2,7 +2,7 @@
 title: Neuerstellen unter Lync Server 2010 – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: ef810ad3-1689-4c21-b995-d45e5486f8b0
 description: Sie können neue Serverrollen im Lync Server 2010-Knoten des Topologie-Generators erstellen, indem Sie mit der rechten Maustaste auf Lync Server 2010 klicken, "Neu" und dann die zu erstellende Serverrolle auswählen.
-ms.openlocfilehash: f65c32065cb1ab48280a10d263f7d11bcd57eebb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 741fc7a5234bcb7e7ddfb8179c8cf9e840bfbb61
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775015"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864872"
 ---
 # <a name="lync-server-2010-create-new-expander"></a>Neuerstellen unter Lync Server 2010 – Erweiterung
  

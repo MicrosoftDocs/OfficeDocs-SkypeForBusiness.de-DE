@@ -1,7 +1,7 @@
 ---
 title: Planen der Skype for Business 2015-Clientumgebung für Ihre Benutzer
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 12/20/2018
@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0df4fd9e-370b-4b9d-a595-f1199fbc9f81
 description: 'Zusammenfassung: Erfahren Sie mehr über die neuen Skype for Business und die Schritte, die Sie ausführen können, um Ihre Umgebung und Ihre Benutzer auf das Update vorzubereiten, unabhängig davon, ob Sie Skype for Business Online verwenden, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013 oder Lync Server 2010.'
-ms.openlocfilehash: a35a447d9810952e9aac149f2297eda87575bdf3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9979b7d9fe449de926358097b9fd2fdd36e5afb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740457"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864742"
 ---
 # <a name="plan-the-skype-for-business-2015-client-experience-for-your-users"></a>Planen der Skype for Business 2015-Clientumgebung für Ihre Benutzer
  
 **Zusammenfassung:** Erfahren Sie mehr über die neuen Skype for Business und die Schritte, die Sie ausführen können, um Ihre Umgebung und Ihre Benutzer auf das Update vorzubereiten, unabhängig davon, ob Sie Skype for Business Online, Skype for Business Server 2019, Skype for Business Server 2015, Lync Server 2013 oder Lync Server 2010.
   
-Das Office Update für Lync 2013 vom 14. April 2015 enthält die neue Skype for Business Benutzeroberfläche. Mit diesem Update können Administratoren das Aussehen und Verhalten des Clients steuern und auswählen, ob die Lync 2013-Clientumgebung beibehalten oder die verbesserte Skype for Business-Clientumgebung verwendet werden soll. Der Skype for Business-Client hat den Lync 2013-Client effektiv ersetzt und Administratoren die Möglichkeit hinzugefügt, zwischen der vorhandenen Lync-Clientumgebung und der neuen Skype for Business-Clientumgebung auszuwählen. Informationen zu diesem Update finden Sie im [Update vom 14. April 2015 für Lync 2013 (Skype for Business) (KB2889923).](https://support.microsoft.com/kb/2889923/)
+Das Office Update für Lync 2013 vom 14. April 2015 enthält die neue Skype for Business Benutzeroberfläche. Mit diesem Update können Administratoren das Aussehen und Verhalten des Clients steuern und auswählen, ob die Lync 2013-Clientumgebung beibehalten oder die verbesserte Skype for Business Clientumgebung verwendet werden soll. Der Skype for Business-Client hat den Lync 2013-Client effektiv ersetzt und Administratoren die Möglichkeit hinzugefügt, zwischen der vorhandenen Lync-Clientumgebung und der neuen Skype for Business Clientumgebung zu wählen. Informationen zu diesem Update finden Sie im Update vom [14. April 2015 für Lync 2013 (Skype for Business) (KB2889923).](https://support.microsoft.com/kb/2889923/)
   
 Am 12. Mai 2015 gibt es ein weiteres monatliches Update von Office, das den aktualisierten Skype for Business-Client enthält. Viele Kunden, die das April-Update nicht angewendet haben, nehmen das Update vom 12. Mai für Office 2013 auf. Die Informationen in diesem Thema helfen Ihnen, Ihre Organisation, Ihre Umgebung und Ihre Benutzer auf das Clientupdate vorzubereiten. Um den Übergang für Ihre Benutzer und Supportteams zu vereinfachen, verwenden Sie die Informationen in diesem Thema, um zu entscheiden, welche Clientumgebung Sie für Ihre Benutzer wünschen, und nehmen Sie dann die Änderungen an Ihrer Umgebung vor der Bereitstellung des Clientupdates in Ihrer Organisation vor.
   
@@ -48,13 +48,13 @@ Mit dem neuen Skype for Business-Client können Sie steuern, welche Clientumgebu
   
 Mithilfe von Clientrichtlinien können Sie konfigurieren, welche Clientumgebung Ihre Benutzer erhalten. Eine Clientrichtlinie ist eine Reihe von Konfigurationseinstellungen, die auf Benutzer angewendet werden, wenn sie sich bei Lync oder Skype for Business anmelden.
   
-### <a name="skype-for-business-client-experience"></a>Skype for Business Clientumgebung
+### <a name="skype-for-business-client-experience"></a>Skype for Business-Clientumgebung
 
-Zusätzlich zu allen Features von Lync bietet Skype for Business neue Features mit vereinfachten Steuerelementen und vertrauten Symbolen aus Skype. Einige neue Features in Skype for Business sind nur mit dem neuen Skype for Business Client verfügbar. Weitere Informationen zu den neuen Features in Skype for Business finden Sie unter ["Entdecken Skype for Business".](https://go.microsoft.com/fwlink/p/?LinkId=528686)
+Zusätzlich zu allen Features von Lync bietet Skype for Business neue Features mit vereinfachten Steuerelementen und vertrauten Symbolen aus Skype. Einige neue Features in Skype for Business sind nur mit der neuen Skype for Business-Clientumgebung verfügbar. Weitere Informationen zu den neuen Features in Skype for Business finden Sie unter ["Entdecken Skype for Business".](https://go.microsoft.com/fwlink/p/?LinkId=528686)
   
 ### <a name="lync-client-experience"></a>Lync-Clientumgebung
 
-Die Lync-Clientumgebung ist der Lync 2013-Clientumgebung sehr ähnlich, mit der Ihre Benutzer bereits vertraut sind. Es gibt jedoch einige Änderungen, über die Sie Ihre Benutzer informieren möchten. Informationen dazu, was sich zwischen der Lync-Clientumgebung und dem Lync 2013-Client unterscheidet, finden Sie unter ["Warum werden Skype for Business angezeigt, wenn ich Lync verwende?"](https://go.microsoft.com/fwlink/p/?LinkId=544712) und die zusätzlichen Links weiter unten in diesem Thema.
+Die Lync-Clientumgebung ist der Lync 2013-Clientumgebung, mit der Ihre Benutzer bereits vertraut sind, sehr ähnlich, aber es gibt einige Änderungen, über die Sie Ihre Benutzer informieren möchten. Informationen dazu, was sich zwischen der Lync-Clientumgebung und dem Lync 2013-Client unterscheidet, finden Sie unter ["Warum werden Skype for Business angezeigt, wenn ich Lync verwende?"](https://go.microsoft.com/fwlink/p/?LinkId=544712) und die zusätzlichen Links weiter unten in diesem Thema.
   
 ## <a name="prepare-your-environment-for-the-skype-for-business-client"></a>Vorbereiten der Umgebung für den Skype for Business-Client
 <a name="usinglync"> </a>
@@ -65,13 +65,13 @@ Nachdem Sie bestätigt haben, dass Sie eine Version von Skype for Business Serve
   
 Sie sollten diese Änderungen vornehmen, bevor das Clientupdate an Ihre Benutzer übermittelt wird, damit Sie die Clientumgebung ab dem ersten Start des Skype for Business Clients steuern können. In den folgenden Tabellen sind die Schritte aufgeführt, die Sie ausführen müssen, um Ihre Umgebung für die gewünschte Clientumgebung für Ihre Benutzer zu konfigurieren.
   
-|**Bereitstellung**|**Skype for Business Clientumgebung**|**Lync-Clientumgebung**|
+|**Bereitstellung**|**Skype for Business-Clientumgebung**|**Lync-Clientumgebung**|
 |:-----|:-----|:-----|
 |Skype for Business Online  <br/> |Außer der Bereitstellung von Clientbuild 4711.1002 (April 2015) oder höher gibt es keine weiteren Schritte.  <br/> |[Verwenden der Lync-Clientumgebung mit Skype for Business Online](user-experience.md#LyncwithSfBO) <br/> |
-|Skype for Business Server 2015  <br/> |Außer der Bereitstellung von Clientbuild 4711.1002 (April 2015) oder höher gibt es keine weiteren Schritte.  <br/> |[Verwenden der Lync-Clientumgebung mit lokalen Skype for Business Server](user-experience.md#LyncwithSfBServer) <br/> |
-|Lync Server 2013 und Lync Server 2010  <br/> |[Verwenden der Skype Clientumgebung mit lync Server 2013 oder lokalen Lync Server 2010](user-experience.md#SkypewithLynconprem) <br/> |[Verwenden der Lync-Clientumgebung mit lync Server 2013 oder lync Server 2010 lokal](user-experience.md#LyncwithLynconprem) <br/> |
+|Skype for Business Server 2015  <br/> |Außer der Bereitstellung von Clientbuild 4711.1002 (April 2015) oder höher gibt es keine weiteren Schritte.  <br/> |[Verwenden der Lync-Clientumgebung mit Skype for Business Server lokal](user-experience.md#LyncwithSfBServer) <br/> |
+|Lync Server 2013 und Lync Server 2010  <br/> |[Verwenden der Skype Clientumgebung mit lync Server 2013 oder lync Server 2010 lokal](user-experience.md#SkypewithLynconprem) <br/> |[Verwenden der Lync-Clientumgebung mit lync Server 2013 oder lync Server 2010 lokal](user-experience.md#LyncwithLynconprem) <br/> |
    
-## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Verwenden der Skype Clientumgebung mit lync Server 2013 oder lokalen Lync Server 2010
+## <a name="use-the-skype-client-experience-with-lync-server-2013-or-lync-server-2010-on-premises"></a>Verwenden der Skype Clientumgebung mit lync Server 2013 oder lync Server 2010 lokal
 <a name="SkypewithLynconprem"> </a>
 
 Führen Sie die Schritte in diesem Abschnitt aus, wenn Sie die Skype Clientumgebung in einer lokalen Bereitstellung konfigurieren möchten. Die Standardumgebung für lokale Bereitstellungen
@@ -154,7 +154,7 @@ Weisen Sie die Richtlinie dann Benutzern zu, indem Sie den Namen der Richtlinie 
 Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 ```
 
- **Schritt 3: Optional–** Wenn Benutzer den Skype for Business Client zum ersten Mal starten, wird standardmäßig die Skype Clientumgebung verwendet, und benutzern wird eine Benachrichtigung angezeigt, in der sie aufgefordert werden, den Client neu zu starten, um die Lync-Clientumgebung zu erhalten. Sie können Ihre Umgebung so konfigurieren, dass die Lync-Clientumgebung angezeigt wird, wenn Benutzer den Client zum ersten Mal starten, und das Clientlernprogramm deaktivieren, indem Sie die Systemregistrierung auf Clientcomputern ändern. Die Schritte, die Sie ausführen müssen, bevor Sie den Skype for Business-Client bereitstellen, finden Sie unter [Konfigurieren der Clientumgebung mit Skype for Business](../../deploy/deploy-clients/configure-the-client-experience.md).
+ **Schritt 3: Optional–** Wenn Benutzer den Skype for Business Client zum ersten Mal starten, wird standardmäßig die Skype Clientumgebung verwendet, und benutzern wird eine Benachrichtigung angezeigt, in der sie aufgefordert werden, den Client neu zu starten, um die Lync-Clientumgebung zu erhalten. Sie können Ihre Umgebung so konfigurieren, dass die Lync-Clientumgebung angezeigt wird, wenn Benutzer den Client zum ersten Mal starten, und das Clientlernprogramm deaktivieren, indem Sie die Systemregistrierung auf Clientcomputern ändern. Die Schritte, die Sie ausführen müssen, bevor Sie den Skype for Business-Client bereitstellen, finden Sie unter [Konfigurieren der Clientumgebung mit Skype for Business.](../../deploy/deploy-clients/configure-the-client-experience.md)
   
  **Schritt 4:** Nachdem Sie Ihre Clientrichtlinien konfiguriert haben, stellen Sie den Skype for Business Client, Build 4711.1002 (April 2015) oder höher bereit.
   
@@ -163,7 +163,7 @@ Grant-CsClientPolicy username@contoso.com -PolicyName UseLyncUI
 
 Führen Sie die Schritte in diesem Abschnitt aus, wenn Sie die Lync-Clientumgebung konfigurieren und Skype for Business Online verwenden möchten.
   
-Wenn Sie Skype for Business Online verwenden, können Sie weiterhin die Lync-Clientumgebung mit dem Skype for Business-Client in Ihrer Organisation verwenden, indem Sie Remote-PowerShell zum Konfigurieren von Clientrichtlinien verwenden. Es gibt **drei Optionen** für die Verwendung einer Clientrichtlinie, um die Clientumgebung festzulegen. Beachten Sie, dass sich die Richtlinien- und Parameternamen von den Einstellungen unterscheiden, die Sie zum Konfigurieren der Clientumgebung verwenden, wenn Sie Skype for Business oder lync Server lokal verwenden.
+Wenn Sie Skype for Business Online verwenden, können Sie weiterhin die Lync-Clientumgebung mit dem Skype for Business-Client in Ihrer Organisation verwenden, indem Sie Remote-PowerShell verwenden, um Clientrichtlinien zu konfigurieren. Es gibt **drei Optionen** für die Verwendung einer Clientrichtlinie, um die Clientumgebung festzulegen. Beachten Sie, dass sich die Richtlinien- und Parameternamen von den Einstellungen unterscheiden, die Sie zum Konfigurieren der Clientumgebung verwenden, wenn Sie Skype for Business oder lync Server lokal verwenden.
   
  **Option 1:** Legen Sie die Lync-Clientumgebung mithilfe einer globalen Richtlinie fest. Beachten Sie, dass Client- und Standortrichtlinien, die auf Benutzer angewendet werden, Vorrang vor einer globalen Richtlinie haben.
   

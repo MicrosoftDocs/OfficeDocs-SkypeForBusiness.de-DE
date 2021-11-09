@@ -2,7 +2,7 @@
 title: Bericht über Benutzeraktivität in Skype for Business Server 25
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Benutzeraktivität in Skype for Business Server.'
-ms.openlocfilehash: 2d0021a1a8ab72da972c68da94a0a99b84eb7d28
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c78718e55740afdd42ceff11e1ab62d6198c15ec
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778335"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828738"
 ---
 # <a name="user-activity-report-in-skype-for-business-server"></a>Bericht über Benutzeraktivität in Skype for Business Server
 
@@ -37,7 +37,7 @@ Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden 
 
 - **Ken** nedy@litwareinc.com
 
-Um sicherzustellen, dass nur Informationen für Ken Myer zurückgegeben werden, geben Sie entweder seinen vollständigen URI (Ken.Myer@litwareinc.com) in das Suchfeld ein, oder mindestens genügend Typen von Kens URI, um ihn eindeutig von anderen Benutzern in Ihrer Organisation zu unterscheiden. Beispiel:
+Um sicherzustellen, dass nur Informationen für Ken Myer zurückgegeben werden, geben Sie entweder seinen vollständigen URI (Ken.Myer@litwareinc.com) in das Suchfeld ein oder mindestens genügend Kens URI, um ihn eindeutig von anderen Benutzern in Ihrer Organisation zu unterscheiden. Beispiel:
 
 Ken.my
 
@@ -47,7 +47,7 @@ Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseit
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Optimale Nutzung des Berichts über Benutzeraktivität
 
-Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. das bedeutet, dass innerhalb des Berichts Informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
+Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. dies bedeutet, dass innerhalb des Berichts Informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
 
 > [!NOTE]
 > Technisch gesehen ist es möglich, dass einige Benutzeraktivitäten nicht erfasst werden: Während Skype for Business Server versucht, Informationen zu allen Telefonanrufen beizubehalten, ist es möglich, dass ein Anruf getätigt wurde, ohne dass die Informationen zu diesem Anruf in die Datenbank geschrieben wurden. Skype for Business Server wurde entwickelt, um einen äußerst genauen, aber nicht unbedingt perfekten Blick darauf zu geben, wie Skype for Business Server verwendet wird. (Die Tatsache, dass nicht garantiert wird, dass 100 % aller Anrufe aufgezeichnet werden, erklärt, warum Skype for Business Server Überwachung nicht als Abrechnungssystem verwendet werden sollte.) Zweitens kann ein Überwachungsbericht nur maximal 1.000 Datensätze anzeigen. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 

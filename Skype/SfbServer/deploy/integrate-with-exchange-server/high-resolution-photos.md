@@ -2,7 +2,7 @@
 title: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Zusammenfassung: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.'
-ms.openlocfilehash: 342d00be9f2c4d52483ff7da931bfc8f47c9e2e2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a28e151d99440b1ec682eab2a473f3cffac7ac4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761463"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856992"
 ---
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
  
@@ -36,7 +36,7 @@ In Skype for Business Server können Fotos im Postfach Exchange Server 2019, Exc
 > [!NOTE]
 > Wenn Sie über die Ressourcen verfügen, wird empfohlen, 648 x 648 Fotos hochzuladen. bietet die maximale Auflösung und optimale Bildqualität in allen Office 2013-Anwendungen. Jedes JPEG-Foto mit einer Größe von 648 x 648 und einer Tiefe von 24 Bit ergibt eine Dateigröße von ca. 240 KB. Das bedeutet, dass Sie für alle vier Benutzerfotos ca. 1 MB Speicherplatz benötigen. 
   
-Fotos mit hoher Auflösung, auf die mit Exchange Webdiensten zugegriffen wird, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen. Benutzer dürfen nur ihr eigenes Foto aktualisieren. Administratoren können das Foto jedoch für jeden Benutzer aktualisieren, indem sie die Exchange-Verwaltungsshell und eine Reihe von Windows PowerShell Befehlen wie die folgenden verwenden:
+Fotos mit hoher Auflösung, auf die mit Exchange Webdiensten zugegriffen wird, können von Benutzern hochgeladen werden, die Outlook 2013 Web App ausführen. Benutzer dürfen nur ihr eigenes Foto aktualisieren. Administratoren können das Foto jedoch für jeden Benutzer aktualisieren, indem sie die Exchange Verwaltungsshell und eine Reihe von Windows PowerShell Befehlen wie die folgenden verwenden:
   
 ```powershell
 $photo = ([Byte[]] $(Get-Content -Path "C:\Photos\Kenmyer.jpg" -Encoding Byte -ReadCount 0))

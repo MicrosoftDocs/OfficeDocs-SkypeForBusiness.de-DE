@@ -2,7 +2,7 @@
 title: Planen der erweiterten Edgeserverbereitstellung für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3a5895f-f64f-44eb-9a5e-8d606ac1fc38
 description: Überprüfen Sie Szenarien für Skype for Business Server Bereitstellungsoptionen, unabhängig davon, ob Sie einen einzelnen Server wünschen oder einen Serverpool mit DNS oder HLB bevorzugen.
-ms.openlocfilehash: 5b58d9aa79566f7aee3ac102f1c5e73996bc6dae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa829bf805529792abb408cd6716e2948dd69ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767643"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842768"
 ---
 # <a name="plan-advanced-edge-server-deployment-for-skype-for-business-server"></a>Planen der erweiterten Edgeserverbereitstellung für Skype for Business Server
  
@@ -104,7 +104,7 @@ Hier werden die DNS-Einträge für die internen und externen Zonen aufgelistet. 
     
   - DNS A- und AAAA-Einträge (wenn Sie IPv6-Adressen verwenden) für Ihren Front-End-Pool, Directorpool oder Director-Poolnamen und alle internen Server, die Skype for Business Server im Netzwerk Ihrer Organisation ausgeführt werden.
     
-  - DNS A- und AAAA-Einträge (wenn Sie IPv6-Adressen verwenden) für Ihre interne Edgeschnittstelle für jeden Skype for Business Server Edgeserver in Ihrem Umkreisnetzwerk.
+  - DNS A- und AAAA-Einträge (wenn Sie IPv6-Adressen verwenden) für ihre interne Edgeschnittstelle für jeden Skype for Business Server Edgeservers in Ihrem Umkreisnetzwerk.
     
   - DNS A- und AAAA-Einträge (wenn Sie IPv6-Adressen verwenden) für die interne Schnittstelle jedes Reverseproxyservers in Ihrem Umkreisnetzwerk **(optional** für die Verwaltung eines Reverseproxys).
     
@@ -114,7 +114,7 @@ Hier werden die DNS-Einträge für die internen und externen Zonen aufgelistet. 
     
 - Alle ihre Skype for Business Server internen Edgeschnittstellen in Ihrem Umkreisnetzwerk verwenden diese interne DNS-Zone zum Auflösen von Abfragen an contoso.com.
     
-- Alle Server, auf denen Skype for Business Server ausgeführt wird, und Clients, die Skype for Business Server im Unternehmensnetzwerk ausführen, verweisen auf interne DNS-Server, um Abfragen an contoso.com aufzulösen, oder sie verwenden die Hostdatei auf jedem Edgeserver und listen A- und AAAA-Einträge (wenn Sie IPv6-Adressen verwenden) für den nächsten Hopserver (speziell für den Director- oder Director-Pool) auf.  VIP, FRONT-End-Pool-VIP oder Standard Edition-Server).
+- Alle Server mit Skype for Business Server und Clients, die Skype for Business Server im Unternehmensnetzwerk ausführen, verweisen auf interne DNS-Server zum Auflösen von Abfragen an contoso.com, oder sie verwenden die Hostdatei auf jedem Edgeserver und listen A- und AAAA-Einträge (wenn Sie IPv6-Adressen verwenden) für den nächsten Hopserver (insbesondere für den Director- oder Director-Pool) auf.  VIP, Front-End-Pool-VIP oder Standard Edition-Server).
     
 ### <a name="external-dns"></a>Externes DNS
 
@@ -133,13 +133,13 @@ Hier werden die DNS-Einträge für die internen und externen Zonen aufgelistet. 
 ## <a name="automatic-configuration-without-split-brain-dns"></a>Automatische Konfiguration ohne Split-Brain-DNS
 <a name="NoSplitBrainDNS"> </a>
 
-Wenn Sie split-brain DNS nicht verwenden, funktioniert die interne automatische Konfiguration von Clients, die Skype for Business ausgeführt werden, nur, wenn Sie eine der hier aufgeführten Problemumgehungen verwenden. Warum nicht? Da Skype for Business Server erfordert, dass der SIP-URI des Benutzers mit der Domäne des Front-End-Pools übereinstimmt, der für die automatische Konfiguration vorgesehen ist. Dies hat sich gegenüber früheren Versionen von Lync Server nicht geändert.
+Wenn Sie split-brain DNS nicht verwenden, funktioniert die interne automatische Konfiguration von Clients, die Skype for Business ausgeführt werden, nur, wenn Sie eine der hier verfügbaren Problemumgehungen verwenden. Warum nicht? Da Skype for Business Server erfordert, dass der SIP-URI des Benutzers mit der Domäne des Front-End-Pools übereinstimmt, der für die automatische Konfiguration vorgesehen ist. Dies hat sich gegenüber früheren Versionen von Lync Server nicht geändert.
   
 Wenn Sie also zwei SIP-Domänen verwenden, benötigen Sie diese DNS-SRV-Einträge:
   
 - _sipinternaltls._tcp.contoso.com. 86400 IN SRV 0 0 5061 pool01.contoso.com
     
-     *Wenn sich ein Benutzer als bob@contoso.com anmeldet, funktioniert dieser Eintrag für die automatische Konfiguration, da die SIP-Domäne des Benutzers mit der Domäne des Front-End-Pools (contoso.com) übereinstimmt.* 
+     *Wenn sich ein Benutzer als bob@contoso.com anmeldet, funktioniert dieser Eintrag für die automatische Konfiguration, da die SIP-Domäne des Benutzers mit der Domäne des Front-End-Pools übereinstimmt (contoso.com).* 
     
 - _sipinternaltls._tcp.fabrikam.com. 86400 IN SRV 0 0 5061 pool01.fabrikam.com
     
@@ -151,7 +151,7 @@ Um das Beispiel weiter zu verwenden, würde dies nicht funktionieren:
     
      *Ein Benutzer, der sich als tim@litwareinc.com anmeldet, funktioniert nicht für die automatische Konfiguration, da seine SIP-Domäne (litwareinc.com) nicht mit der Domäne im Pool (fabrikam.com) übereinstimmt.* 
     
-Wenn Sie also eine automatische Anforderung für Ihre Skype for Business-Clients ohne Split-Brain-DNS benötigen, haben Sie folgende Optionen:
+Wenn Sie also eine automatische Anforderung für Ihre Skype for Business-Clients ohne Split-Brain-DNS benötigen, stehen Ihnen die folgenden Optionen zur Verfügung:
   
 - **Gruppenrichtlinienobjekte**
     
@@ -164,7 +164,7 @@ Wenn Sie also eine automatische Anforderung für Ihre Skype for Business-Clients
     
     Sie müssen eine Zone in Ihrem internen DNS erstellen, die ihrer externen DNS-Zone entspricht (z. B. contoso.com), und dann DNS A-Einträge (und AAAA, wenn Sie IPv6-Adressen verwenden) erstellen, die dem Skype for Business Server Pool entsprechen, der für die automatische Konfiguration verwendet wird.
     
-    Wenn Sie beispielsweise einen Benutzer auf pool01.contoso.net verwaltet haben, sich jedoch als bob@contoso.com bei Skype for Business anmelden, erstellen Sie eine interne DNS-Zone namens contoso.com, und erstellen Sie darin einen DNS A-Eintrag (und AAAA, wenn die IPv6-Adresse verwendet wird) für pool01.contoso.com.
+    Wenn Sie beispielsweise einen Benutzer auf pool01.contoso.net verwaltet haben, sich jedoch als bob@contoso.com bei Skype for Business anmelden, erstellen Sie eine interne DNS-Zone namens contoso.com, und erstellen Sie darin einen DNS A-Eintrag (und AAAA, wenn IPv6-Adressen verwendet werden) für pool01.contoso.com.
     
 - **Interne Pin-Punkt-Zone**
     
@@ -198,14 +198,14 @@ Wenn Sie also eine automatische Anforderung für Ihre Skype for Business-Clients
 > Der FQDN des Front-End-Pools wird zweimal angezeigt, jedoch mit zwei verschiedenen IP-Adressen. Der Grund dafür ist, dass der DNS-Lastenausgleich verwendet wird. Wenn HLB verwendet wird, gibt es nur einen einzigen Front-End-Pooleintrag. 
   
 > [!NOTE]
-> Außerdem ändern sich die FQDN-Werte des Front-End-Pools zwischen dem contoso.com und fabrikam.com Beispielen, die IP-Adressen bleiben jedoch gleich. Der Grund dafür ist, dass Benutzer, die sich über eine der SIP-Domänen anmelden, den gleichen Front-End-Pool für die automatische Konfiguration verwenden. 
+> Außerdem ändern sich die FQDN-Werte des Front-End-Pools zwischen dem contoso.com und fabrikam.com Beispielen, aber die IP-Adressen bleiben gleich. Der Grund dafür ist, dass Benutzer, die sich über eine der SIP-Domänen anmelden, den gleichen Front-End-Pool für die automatische Konfiguration verwenden. 
   
 ## <a name="dns-disaster-recovery"></a>DNS-Notfallwiederherstellung
 <a name="DNSDR"> </a>
 
 Um DNS so zu konfigurieren, dass Skype for Business Server Webdatenverkehr an Ihre Notfallwiederherstellungs- und Failoverwebsites umgeleitet wird, müssen Sie einen DNS-Anbieter verwenden, der GeoDNS unterstützt. Sie können Ihre DNS-Einträge zur Unterstützung der Notfallwiederherstellung einrichten, sodass Features, die Webdienste verwenden, auch dann fortgesetzt werden, wenn ein ganzer Front-End-Pool ausfällt. Dieses Dr-Feature unterstützt die einfachen URLs für AutoErmittlung, Besprechung und Einwahl.
   
-Sie definieren und konfigurieren zusätzliche DNS-Host-A-Einträge (AAAA bei Verwendung von IPv6)-Einträgen für die interne und externe Auflösung von Webdiensten bei Ihrem GeoDNS-Anbieter. Bei den folgenden Details wird davon ausgegangen, dass gepaarte Pools geografisch verteilt sind und dass der von Ihrem Anbieter unterstützte GeoDNS **entweder** über Roundrobin-DNS **verfügt oder** für die Verwendung von Pool1 als Primärserver konfiguriert ist und zu Pool2 übergeht, wenn Kommunikations- oder Stromausfälle auftreten.
+Sie definieren und konfigurieren zusätzliche DNS-Host-A-Einträge (AAAA bei Verwendung von IPv6)-Einträgen für die interne und externe Auflösung von Webdiensten bei Ihrem GeoDNS-Anbieter. Bei den folgenden Details wird davon ausgegangen, dass gepaarte Pools geografisch verteilt sind und dass der von Ihrem Anbieter unterstützte GeoDNS **entweder** über Roundrobin-DNS **verfügt oder** für die Verwendung von Pool1 als primärer Pool konfiguriert ist und zu Pool2 übergeht, wenn Kommunikations- oder Stromausfälle auftreten.
   
 Alle DNS-Einträge in dieser Tabelle sind Beispiele.
   
@@ -227,7 +227,7 @@ Der DNS-Lastenausgleich wird in der Regel auf Anwendungsebene implementiert. Die
   
 Wenn beispielsweise drei Front-End-Server in einem Pool mit dem Namen pool01.contoso.com vorhanden sind, würde Folgendes passieren:
   
-- Clients, die Skype for Business Dns für pool01.contoso.com abfragen. Die Abfrage gibt drei IP-Adressen zurück und speichert sie wie folgt (in einer bestimmten Reihenfolge):
+- Clients, die Skype for Business dns für pool01.contoso.com abfragen. Die Abfrage gibt drei IP-Adressen zurück und speichert sie wie folgt (in einer bestimmten Reihenfolge):
     
    |&nbsp;|&nbsp;|
    |:-----|:-----|
@@ -242,7 +242,7 @@ Wenn beispielsweise drei Front-End-Server in einem Pool mit dem Namen pool01.con
 - Wenn der Client alle zwischengespeicherten Einträge ohne erfolgreiche Verbindung versucht, erhält der Benutzer eine Benachrichtigung, dass derzeit keine Server verfügbar sind, auf denen Skype for Business Server ausgeführt werden.
     
 > [!NOTE]
-> Der DNS-basierte Lastenausgleich unterscheidet sich vom DNS-Roundrobin (DNS RR), der sich in der Regel auf den Lastenausgleich bezieht, indem dns verwendet wird, um eine andere Reihenfolge von IP-Adressen für die Server in Ihrem Pool zu geben. In der Regel ermöglicht DNS-RR die Lastverteilung, aber kein Failover. Wenn beispielsweise die Verbindung mit der ip-Adresse, die von Ihrer DNS A-Abfrage (oder AAAA in einem IPv6-Szenario) zurückgegeben wird, fehlschlägt, schlägt diese Verbindung fehl. Dies macht DNS RR weniger zuverlässig als DNS-basierten Lastenausgleich. Sie können dns-RR weiterhin in Verbindung mit dnsbasiertem Lastenausgleich verwenden, wenn Sie dies tun müssen. 
+> Der DNS-basierte Lastenausgleich unterscheidet sich vom DNS-Roundrobin (DNS RR), der sich in der Regel auf den Lastenausgleich bezieht, indem dns verwendet wird, um eine andere Reihenfolge von IP-Adressen für die Server in Ihrem Pool zu geben. In der Regel ermöglicht DNS-RR die Lastenverteilung, aber kein Failover. Wenn beispielsweise die Verbindung mit der ip-Adresse, die von Ihrer DNS A-Abfrage (oder AAAA in einem IPv6-Szenario) zurückgegeben wird, fehlschlägt, schlägt diese Verbindung fehl. Dies macht DNS RR weniger zuverlässig als DNS-basierten Lastenausgleich. Sie können dns-RR weiterhin in Verbindung mit dnsbasiertem Lastenausgleich verwenden, wenn Sie dies tun müssen. 
   
 Sie verwenden den DNS-Lastenausgleich für Folgendes:
   

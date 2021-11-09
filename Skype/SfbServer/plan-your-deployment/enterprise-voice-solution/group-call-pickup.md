@@ -2,7 +2,7 @@
 title: Planen der Gruppenanrufannahme in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3dc0eca8-c773-463c-96bb-9cd6afa2a840
 description: Planung der Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP, mit der Benutzer Anrufe annehmen können, die ursprünglich für andere bestimmt waren.
-ms.openlocfilehash: 27d0ae55891981c715127cf6d61aab7135448cc3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 94868d78790d9cfaafaf35915c9c3cd1c7a9793f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765253"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850698"
 ---
 # <a name="plan-for-group-call-pickup-in-skype-for-business"></a>Planen der Gruppenanrufannahme in Skype for Business
  
@@ -57,12 +57,12 @@ Die Gruppenanrufannahme kann nicht verwendet werden, um die folgenden Arten von 
 - Anrufe von einem Kontakt, dem die Datenschutzbeziehung "Freunde und Familie" zugewiesen wurde
     
     > [!TIP]
-    > Ein Benutzer, der Mitglied einer Anrufannahmegruppe ist, kann verhindern, dass bestimmte Anrufe über die Gruppenanrufannahme abgerufen werden, indem er den Kontakt im Skype for Business-Client als persönlichen Kontakt markiert. Um einen Kontakt als persönlichen Kontakt zu markieren, legen Sie die Datenschutzbeziehung für den Kontakt auf Freunde und Familie fest. Eingehende Anrufe von Kontakten, deren Datenschutzbeziehung auf "Freunde und Familie" festgelegt ist, können nicht mithilfe der Gruppenanrufannahme abgerufen werden. 
+    > Ein Benutzer, der Mitglied einer Anrufannahmegruppe ist, kann verhindern, dass bestimmte Anrufe über die Gruppenanrufannahme abgerufen werden, indem er den Kontakt im Skype for Business Client als persönlichen Kontakt markiert. Um einen Kontakt als persönlichen Kontakt zu markieren, legen Sie die Datenschutzbeziehung für den Kontakt auf Freunde und Familie fest. Eingehende Anrufe von Kontakten, deren Datenschutzbeziehung auf "Freunde und Familie" festgelegt ist, können nicht mithilfe der Gruppenanrufannahme abgerufen werden. 
   
 - Videoteil von Audio-/Videoanrufen 
     
     > [!NOTE]
-    > Wenn ein Benutzer einen Audio-/Videoanruf entgegennimmt, empfängt er nur die Audiodaten. Entweder die Person, die den Anruf annimmt, oder die Person, die den Anruf annimmt, kann den Anruf eskalieren, um ein Video hinzuzufügen. 
+    > Wenn ein Benutzer einen Audio-/Videoanruf entgegennimmt, empfängt er nur die Audiodaten. Entweder die Anrufer oder die Person, die den Anruf entgegennimmt, kann den Anruf eskalieren, um ein Video hinzuzufügen. 
   
 - Gleichzeitige Anrufe, die an Teammitglieder weitergeleitet werden
     
@@ -95,7 +95,7 @@ Jeder der folgenden Clients kann verwendet werden, um Anrufe an Mitglieder der G
 - Lync Phone Edition
     
 > [!NOTE]
-> Benutzer können jeden dieser Clients verwenden, um Anrufe an Mitglieder der Gruppenanrufannahme zu beantworten, aber die Benutzer müssen in einem Skype for Business Server Pool oder einem Lync Server 2013-Pool mit kumulativen Updates für Lync Server 2013 verwaltet werden: Februar 2013. 
+> Benutzer können jeden dieser Clients verwenden, um Anrufe an Mitglieder der Gruppenanrufannahme zu beantworten, aber die Benutzer müssen in einem pool Skype for Business Server oder einem Lync Server 2013-Pool mit kumulativen Updates für Lync Server 2013 verwaltet werden: Februar 2013. 
   
 Die folgenden Clients und Geräte werden für die Annahme von Anrufen an Mitglieder der Gruppenanrufannahme nicht unterstützt:
   
@@ -130,6 +130,6 @@ In der folgenden Tabelle wird das Benutzermodell für die Gruppenanrufannahme be
 > Berechnen Sie die Metriken für Front-End-Pools mit weniger als acht Front-End-Servern linear. Wenn Ihr Front-End-Pool beispielsweise über einen Front-End-Server verfügt, berechnen Sie die maximale Last als 1/8 der in der Tabelle angezeigten Werte. 
   
 > [!NOTE]
-> Sie können die empfohlene Anzahl von Benutzern pro Gruppe und die Anzahl der Gruppen erhöhen oder verringern, solange Sie die maximale Anzahl von Benutzern pro Pool nicht überschreiten. Beispielsweise kann Ihr Standard Edition Server 120 Gruppen mit 25 Benutzern pro Gruppe haben, da die Anzahl der Benutzer, die für die Gruppenanrufannahme aktiviert sind, weiterhin innerhalb des Maximalwerts des Benutzermodells liegt (d. a. 120 Gruppen mal 25 Benutzer sind 3.000 Benutzer für die Gruppenanrufannahme aktiviert). 
+> Sie können die empfohlene Anzahl von Benutzern pro Gruppe und die Anzahl der Gruppen erhöhen oder verringern, solange Sie die maximale Anzahl von Benutzern pro Pool nicht überschreiten. Beispielsweise kann Ihr Standard Edition Server 120 Gruppen mit 25 Benutzern pro Gruppe haben, da die Anzahl der Benutzer, die für die Gruppenanrufannahme aktiviert sind, immer noch innerhalb des Maximalwerts des Benutzermodells liegt (das heißt, 120 Gruppen mal 25 Benutzer sind 3.000 Benutzer für die Gruppenanrufannahme aktiviert). 
   
 

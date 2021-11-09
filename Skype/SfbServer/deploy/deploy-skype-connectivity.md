@@ -2,7 +2,7 @@
 title: Bereitstellen Skype Konnektivität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: fb51860b-6f46-4b71-b8c8-682d0982d36d
-description: 'Zusammenfassung: Erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype Konnektivität bezeichnet.'
-ms.openlocfilehash: 003e9a69dc4213b662795b0570afb3ca152d7e00
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.'
+ms.openlocfilehash: c8bdbf96fcbf0831433ad2274d8ab89911df1de5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751304"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835823"
 ---
 # <a name="deploy-skype-connectivity-in-skype-for-business-server"></a>Bereitstellen Skype Konnektivität in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype Konnektivität bezeichnet.
+**Zusammenfassung:** Erfahren Sie, wie Sie Skype for Business Server mit Skype Consumer verbinden. Wird auch als Skype-Konnektivität bezeichnet.
   
 Dieser Artikel führt Sie durch die Bereitstellung für Skype Konnektivität.
   
@@ -34,11 +34,11 @@ Skype Die Konnektivität bietet Skype for Business Benutzern die Möglichkeit, S
 
 Skype Die Verzeichnissuche bietet Skype for Business Benutzern die Möglichkeit, nach Skype Kontakten zu suchen. Mit der Suchfunktion können Benutzer folgende Suchfunktionen verwenden:
   
-- **Suche nach Anzeigename, z. B. "John Doe"** – Dies könnte viele Ergebnisse zurückgeben, sodass Sie möglicherweise nicht finden, wonach Sie suchen.
+- **Suche nach Anzeigename, z. B. "John Doe":** Dies könnte viele Ergebnisse zurückgeben, sodass Sie möglicherweise nicht finden, wonach Sie suchen.
     
 - **Suche nach Anzeigename und Ort, z. B. "John Doe in Einerde"** – Dadurch werden die Ergebnisse der Suche erheblich eingegrenzt.
     
-- **Suche nach E-Mail, z. B. "johndoe@outlook.com"** – Dies sollte in den meisten Fällen ein Ergebnis zurückgeben; die, die genau mit der angegebenen E-Mail übereinstimmt. Wenn jedoch dieselbe E-Mail mehreren Konten zugeordnet ist, werden möglicherweise mehrere Ergebnisse zurückgegeben.
+- **Suche nach E-Mail, Beispiel "johndoe@outlook.com"** – Dies sollte in den meisten Fällen ein Ergebnis zurückgeben; die, die genau mit der angegebenen E-Mail übereinstimmt. Wenn jedoch dieselbe E-Mail mehreren Konten zugeordnet ist, werden möglicherweise mehrere Ergebnisse zurückgegeben.
     
 - **Suche nach Telefonnummer, z. B. "123-123-1234":** Dies sollte in den meisten Fällen ein Ergebnis zurückgeben; das, das genau mit dem angegebenen Telefon übereinstimmt. Telefon Nummer muss den Ländercode (d. h. 1-xxx-yyy-zzzz) enthalten. Wenn dieselbe Telefonnummer mehreren Konten zugeordnet ist, werden möglicherweise mehrere Ergebnisse zurückgegeben.
     
@@ -52,9 +52,9 @@ Skype Die Verzeichnissuche bietet Skype for Business Benutzern die Möglichkeit,
 In der folgenden Tabelle wird die Unterstützung für Skype Verzeichnissuche beschrieben.
   
 
-|&nbsp;|Skype for Business Server Front-End|Lync Server 2013 (oder älter) Front-End|Anmerkungen|
+|&nbsp;|Skype for Business Server Front-End|Lync Server 2013 (oder älter) Front-End|Kommentare|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Server Rand   |Unterstützt   |Nicht unterstützt   |Skype for Business Server und Edge sind Voraussetzungen für Skype Verzeichnissuche.   |
+|Skype for Business Server Rand   |Unterstützt   |Nicht unterstützt   |Skype for Business Server und Edge sind Voraussetzungen für Skype Verzeichnissuche   |
 |Skype for Business Server Parallele Bereitstellung von Edge + Lync Server 2013 Edge   |Unterstützt   |Nicht unterstützt   |Skype Der Datenverkehr der Verzeichnissuche fließt über Skype for Business Server Edgeserver. Der Verbunddatenverkehr durchläuft den vom Administrator konfigurierten Edgeserver. Beispielsweise könnte der Administrator weiterhin Verbunddatenverkehr über Lync Server 2013-Edgeserver senden, die Skype Verzeichnissuche nicht unterstützen würden.   |
 |Lync Server 2013 (oder älter) Edge   |Nicht unterstützt   |Nicht unterstützt   ||
    
@@ -75,7 +75,7 @@ In der folgenden Tabelle wird die Unterstützung für Skype Verzeichnissuche bes
   
 ## <a name="deploying-skype-connectivity-for-skype-for-business-online"></a>Bereitstellen Skype Konnektivität für Skype for Business Online
 
-Skype Konnektivität ist auch ein Feature von Skype for Business Online, das Teil von Microsoft 365 und Office 365 ist. Sie können das Feature Skype Konnektivität über das Skype for Business Verwaltungscenter innerhalb des Microsoft 365 Admin Center aktivieren.
+Skype Konnektivität ist auch ein Feature von Skype for Business Online, das Teil von Microsoft 365 und Office 365 ist. Sie können das Feature Skype Konnektivität über das Skype for Business-Verwaltungscenter innerhalb des Microsoft 365 Admin Center aktivieren.
   
 For Microsoft 365 Midsize Business, Office 365 Enterprise, Microsoft 365 Education, and Office 365 for Government: Sign in to the Microsoft 365 Admin Center and navigate to the Skype for Business Administration Center. Wechseln Sie zu "Externe Kommunikation". Klicken Sie unter "Öffentliche Chatdienstanbieter" auf "Aktivieren". Wenn Sie den Zugriff einzelner Benutzer auf Skype Konnektivität steuern möchten, können Sie dies tun, indem Sie die Einstellungen für die externe Kommunikation einzelner Benutzer bearbeiten.
   
@@ -96,13 +96,13 @@ Weitere Informationen zur Skype for Business Onlineverwaltung finden Sie unter:
 Skype for Business Server verwendet die Verbundzugriffsarchitektur, um die Konnektivität mit Skype zu unterstützen. Diese Konnektivität ermöglicht Es Ihren Skype for Business Server Benutzern, Skype hinzuzufügen. Skype Clients können ihrer Kontaktliste auch Skype for Business Benutzer hinzufügen. Basierend auf Richtlinien, die in Skype for Business Server Benutzer in der Lage sind, per Chat zu kommunizieren, die Anwesenheit der anderen zu sehen und Audio- und Videoanrufe zu initiieren. Skype Konnektivität ist auch ein Feature von Skype for Business Online und kann für Skype for Business Onlinekunden über das Skype for Business Administration Center innerhalb des Microsoft 365 Admin Center aktiviert werden.
   
 > [!NOTE]
-> Wenn Skype for Business Server bereits für die Verbindung mit Windows Messenger mithilfe von PIC (Public Instant Messaging Connectivity) konfiguriert ist, ist Ihre Bereitstellung bereits für Skype Konnektivität konfiguriert. Die einzige Änderung, die Sie möglicherweise berücksichtigen sollten, ist das Umbenennen Ihres vorhandenen Messenger PIC-Eintrags als Skype. 
+> Wenn Skype for Business Server bereits für die Verbindung mit Windows Messenger mithilfe von PIC (Public Instant Messaging Connectivity) konfiguriert ist, ist Ihre Bereitstellung bereits für Skype Konnektivität konfiguriert. Die einzige Änderung, die Sie berücksichtigen sollten, besteht darin, den vorhandenen Messenger PIC-Eintrag als Skype umzubenennen. 
   
 ### <a name="the-skype-for-business-server-public-im-connectivity-provisioning-site-is-no-longer-available"></a>Die Skype for Business Server Bereitstellungswebsite für die Verbindung mit öffentlichen Chatdiensten ist nicht mehr verfügbar.
 
 Die Website, die früher zum manuellen Bereitstellen des Partnerverbunds zwischen Skype for Business lokalen Bereitstellungen und Skype verwendet wurde, ist nicht mehr erforderlich und wird am 15.08.2019 beendet. Der Partnerverbund mit Skype verwendet jetzt die Partnersuche im Partnerverbund. Dies ist derselbe Mechanismus, der für den Partnerverbund mit Skype for Business Online erforderlich ist.
 
-Für die Kommunikation zwischen jeder lokalen Skype for Business Bereitstellung und Skype Benutzern über die vorhandene Infrastruktur für öffentliche Chatnachrichten muss die lokale Edgeserverkonfiguration jetzt mit Skype for Business Online kompatibel sein.
+Für die Kommunikation zwischen jeder lokalen Skype for Business-Bereitstellung und Skype Benutzern über die vorhandene Infrastruktur für öffentliche Chatnachrichten muss die lokale Edgeserverkonfiguration jetzt mit Skype for Business Online kompatibel sein.
 
 > [!NOTE]
 > Die meisten Kunden benötigen keine Aktion, einschließlich aller Bereitstellungen, die mit Skype for Business Online verbunden sind.
@@ -123,7 +123,7 @@ Weitere Anleitungen zu externen Zertifikaten finden Sie in der [Zertifikatplanun
 #### <a name="faqs"></a>Häufig gestellte Fragen
 
 **Warum wird die Bereitstellungswebsite heruntergefahren?**
-Der öffentliche Pic-Bereitstellungsmechanismus (pic.lync.com), der 2006 bereitgestellt wurde, kann nicht mehr gewartet werden und wird am 15.08.2019 beendet. Stattdessen wird vom Partnerverbund für öffentliche Chatnachrichten das gleiche Verbundmodell verwendet, das von Skype for Business Online verwendet wird, das als "Partnerermittlung" bezeichnet wird, wobei eine lokale Bereitstellung öffentlich von den DNS-SRV-Einträgen des Partnerverbunds auffindbar ist.
+Der öffentliche Pic-Bereitstellungsmechanismus (pic.lync.com), der 2006 bereitgestellt wurde, kann nicht mehr gewartet werden und wird am 15.08.2019 beendet. Stattdessen wird vom Partnerverbund für öffentliche Chatnachrichten das gleiche Verbundmodell verwendet, das von Skype for Business Online verwendet wird, das als "Partnerermittlung" bezeichnet wird, wobei eine lokale Bereitstellung öffentlich durch den DNS-Verbund-SRV-Eintrag(n) auffindbar ist.
 
 **Bedeutet diese Änderung, dass der Partnerverbund für öffentliche Chatnachrichten veraltet ist?**
 Nein. Der Partnerverbund für öffentliche Chatnachrichten wird viele Jahre lang unterstützt, wahrscheinlich bis das Skype for Business lokale Produkt das Ende der Lebensdauer erreicht.
@@ -132,14 +132,14 @@ Nein. Der Partnerverbund für öffentliche Chatnachrichten wird viele Jahre lang
 Nein, da Sie bereits mit Skype for Business Online verbunden sind, wirkt sich diese Änderung nicht auf Sie aus.
  
 **Bedeutet diese Änderung, dass unser Unternehmen den Partnerverbund mit Skype for Business Online aktivieren muss?**
-Nein. Wenn Ihre Edgeserverproxyeinstellungen den Partnerverbund mit dem Skype for Business Onlinehostinganbieter (sipfed.online.lync.com) nicht aktivieren, wirkt sich diese Änderung nicht darauf aus. Die gleichen DNS- und Zertifikatanforderungen, die auch für die Verbundsuche mit Skype for Business Online gelten, gelten jetzt auch für die Verbundsuche mit Skype Benutzern.
+Nein. Wenn Ihre Edgeserverproxyeinstellungen den Partnerverbund mit dem Skype for Business Onlinehostinganbieter (sipfed.online.lync.com) nicht aktivieren, wirkt sich diese Änderung nicht darauf aus. Die gleichen DNS- und Zertifikatanforderungen, die auch für das Partnerverbunden mit Skype for Business Online gelten, gelten jetzt auch für die Partnersuche mit Skype Benutzern.
  
 **Unser Unternehmen ist groß und kann seine Edgekonfiguration aus gesetzlichen/Compliance-/usw. Gründen nicht ändern... Was können wir tun?**
 Jede lokale Organisation, die ihre Edgeserverkonfiguration nicht wie angegeben ändern kann, sollte sich so bald wie möglich an den Produktsupport wenden.
 
 ### <a name="enabling-federation-and-public-im-connectivity-pic"></a>Aktivieren des Partnerverbunds und der Konnektivität mit öffentlichen Chatdiensten (PIC)
 
-Konzentrieren Sie sich jetzt auf die Skype for Business Server Umgebung und administrative Aufgaben, die zum Konfigurieren Skype Konnektivität erforderlich sind. In diesem Abschnitt wird davon ausgegangen, dass der Administrator Skype for Business Server bereitgestellt und den externen Zugriff konfiguriert hat, auch bekannt als Edgeserver. 
+Konzentrieren Sie sich nun auf die Skype for Business Server Umgebung und administrative Aufgaben, die zum Konfigurieren Skype Konnektivität erforderlich sind. In diesem Abschnitt wird davon ausgegangen, dass der Administrator Skype for Business Server bereitgestellt und den externen Zugriff konfiguriert hat, auch bekannt als Edgeserver. 
   
 Es sind drei primäre Schritte erforderlich, um den Partnerverbund und PIC zu aktivieren. Diese sind:
   
@@ -147,16 +147,16 @@ Es sind drei primäre Schritte erforderlich, um den Partnerverbund und PIC zu ak
     
 2. Konfigurieren von mindestens einer Richtlinie zur Unterstützung des Verbundbenutzerzugriffs
     
-3. Konfigurieren der Einstellung Skype PIC-Anbieters
+3. Konfigurieren der Einstellung des Skype PIC-Anbieters
     
 #### <a name="1-configure-federation-and-pic"></a>1. Konfigurieren von Partnerverbund und PIC
 
-Ein Partnerverbund ist erforderlich, damit Skype Benutzer mit Skype for Business Benutzern in Ihrer Organisation kommunizieren können. Pic (Public Instant Messaging Connectivity) ist eine Verbundklasse und muss so konfiguriert sein, dass Ihre Skype for Business Benutzer mit Skype Benutzern kommunizieren können. Partnerverbund und PIC werden mithilfe der Skype for Business Server Systemsteuerung konfiguriert.
+Der Partnerverbund ist erforderlich, damit Skype Benutzer mit Skype for Business Benutzern in Ihrer Organisation kommunizieren können. Pic (Public Instant Messaging Connectivity) ist eine Verbundklasse und muss so konfiguriert sein, dass Ihre Skype for Business Benutzer mit Skype Benutzern kommunizieren können. Partnerverbund und PIC werden mithilfe der Skype for Business Server Systemsteuerung konfiguriert.
   
 > [!NOTE]
 > Der PIC-Partnerverbund wird von Produktversionen vor Lync Server 2010 (Live Communication Server, Office Communications Server) nicht mehr unterstützt. Zu den unterstützten Plattformen für PIC-Partnerverbund gehören Skype for Business Server, Lync Server 2013 und Lync Server 2010. 
   
-Ein Partnerverbund ist erforderlich, damit Skype Benutzer mit Skype for Business Benutzern in Ihrer Organisation kommunizieren können. Pic (Public Instant Messaging Connectivity) ist eine Verbundklasse und muss so konfiguriert sein, dass Ihre Skype for Business Server Benutzer mit Skype Benutzern kommunizieren können. Partnerverbund und PIC werden mithilfe des Edgekonfigurationsdialogfelds der Skype for Business Server Systemsteuerung konfiguriert, wie in der Abbildung dargestellt.
+Der Partnerverbund ist erforderlich, damit Skype Benutzer mit Skype for Business Benutzern in Ihrer Organisation kommunizieren können. Pic (Public Instant Messaging Connectivity) ist eine Verbundklasse und muss so konfiguriert sein, dass Ihre Skype for Business Server Benutzer mit Skype Benutzern kommunizieren können. Partnerverbund und PIC werden mithilfe des Edgekonfigurationsdialogfelds der Skype for Business Server Systemsteuerung konfiguriert, wie in der Abbildung dargestellt.
   
 ![Neuen Edgepool definieren.](../media/32d7f255-c6ad-426d-96c2-2ef4d81f3b51.png)
   
@@ -169,7 +169,7 @@ Dadurch werden die administrativen Aufgaben abgeschlossen, die auf dem Server au
 
 Mithilfe der Skype for Business Server Systemsteuerung muss ein Administrator eine oder mehrere Zugriffsrichtlinien für externe Benutzer konfigurieren, um zu steuern, ob Skype Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können.
   
-#### <a name="3-configure-the-skype-pic-provider-setting"></a>3. Konfigurieren der Einstellung für den Skype PIC-Anbieter
+#### <a name="3-configure-the-skype-pic-provider-setting"></a>3. Konfigurieren der Einstellung Skype PIC-Anbieters
 
 Mithilfe der Skype for Business Server Verwaltungsshell muss ein Administrator die Skype for Business Clientrichtlinie so konfigurieren, dass Skype als zusätzlicher PIC-Anbieter angezeigt wird. 
   
@@ -181,11 +181,11 @@ Für Neuinstallationen können Sie Skype Konnektivität konfigurieren, indem Sie
 ![SIP-Partnerverbundanbieter.](../media/8fc7b566-72b5-4c43-961c-9249fdf7e575.png)
   
 > [!NOTE]
-> Um Skype Konnektivität beim Upgrade auf Skype for Business Server zu konfigurieren, müssen Sie die vorhandene Skype öffentlichen Anbieter entfernen und erneut hinzufügen. 
+> Zum Konfigurieren Skype Konnektivität beim Upgrade auf Skype for Business Server müssen Sie den vorhandenen Skype öffentlichen Anbieter entfernen und erneut hinzufügen. 
   
 Das Konfigurieren Skype Konnektivität kann auch nur mithilfe von PowerShell erfolgen. So konfigurieren Sie Skype Konnektivität mithilfe von PowerShell:
   
-1. Öffnen Sie auf einem Skype for Business Server Front-End-Server die Skype for Business Server-Verwaltungsshell.
+1. Öffnen Sie auf einem Skype for Business Server Front-End-Server die Skype for Business Server Verwaltungsshell.
     
 2. Führen Sie die folgenden beiden Befehle aus:
     
@@ -206,13 +206,13 @@ Das Konfigurieren Skype Konnektivität kann auch nur mithilfe von PowerShell erf
     
    - IconURL: Symbol, das von Lync &amp; Skype for Business Client verwendet wird, um Skype Kontakte visuell zu identifizieren
     
-   - NameDecorationRoutingDomain und NameDecorationExcludedDomainList: Wenn Sie diese Einstellung festlegen, können Benutzer die MSAs Skype Benutzer eingeben, ohne dass sie wissen müssen, wie Nicht-Microsoft-Domänen mit "msn.com" "decodiert" werden müssen. Dadurch entfällt die Notwendigkeit, "user(contoso.com)@msn.com" für alle Domänen einzugeben, die NICHT in der ExcludedDomainList enthalten sind. Der SfB-Client formatieren die MSA automatisch, wenn die Domäne NICHT in der Liste ausgeschlossen ist. Wir haben die gängigsten Microsoft-Kontodomänen zur ausgeschlossenen Liste hinzugefügt.
+   - NameDecorationRoutingDomain und NameDecorationExcludedDomainList: Wenn Sie diese Einstellung festlegen, können Benutzer die MSAs Skype Benutzer eingeben, ohne dass sie wissen müssen, wie Sie Nicht-Microsoft-Domänen mit "msn.com" decodieren müssen. Dadurch entfällt die Notwendigkeit, "user(contoso.com)@msn.com" für alle Domänen einzugeben, die NICHT in der ExcludedDomainList enthalten sind. Der SfB-Client formatieren die MSA automatisch, wenn die Domäne NICHT in der Liste ausgeschlossen ist. Wir haben die gängigsten Microsoft-Kontodomänen zur ausgeschlossenen Liste hinzugefügt.
     
      > [!NOTE]
      > Der öffentliche Anbieter muss entfernt und neu hinzugefügt werden, wenn Änderungen vorgenommen werden. Direkte Änderungen sind nicht zulässig. 
   
      > [!NOTE]
-     > In Lync Server 2013 KU5 &amp; Lync-Desktopclient in Office 2013 SP1 hinzugefügt, verbessern nameDecorationRoutingDomain und NameDecorationExcludedDomainList die Situation, in der Lync-Benutzer, die Skype Kontakte hinzufügen, nicht von Microsoft stammende Domänen "versehen" müssen, um sie zu identifizieren und an Skype (das Format von: user(contoso.com)@msn.com) weiterzuleiten. Diese neuen Einstellungen ermöglichen die automatische Formatierung der Eingabe des Adressbenutzers im Dialogfeld "Skype Kontakt hinzufügen" mit der NameDecorationRoutingDomain (die auf msn.com festgelegt werden sollte), wenn sie nicht die Domänen in NameDecorationExcludedDomainList enthält (derzeit können wir msn.com, live.com, Hotmail.com outlook.com unterstützen). 
+     > Die in Lync Server 2013 KU5 &amp; Lync-Desktopclient in Office 2013 SP1 hinzugefügte NameDecorationRoutingDomain und NameDecorationExcludedDomainList verbessern die Situation, in der Lync-Benutzer, die Skype Kontakte hinzufügen, nicht von Microsoft stammende Domänen "versehen" müssen, um sie zu identifizieren und an Skype (das Format von: user(contoso.com)@msn.com) weiterzuleiten. Diese neuen Einstellungen ermöglichen die automatische Formatierung der Eingabe des Adressbenutzers im Dialogfeld "Skype Kontakt hinzufügen" mit der NameDecorationRoutingDomain (die auf msn.com festgelegt werden sollte), wenn sie nicht die Domänen in NameDecorationExcludedDomainList enthält (derzeit können wir msn.com, live.com, Hotmail.com outlook.com unterstützen). 
   
 3. Von einem Skype for Business können Clientbenutzer jetzt einen Skype Benutzer suchen und hinzufügen.
     
@@ -225,7 +225,7 @@ In der folgenden Tabelle wird der Status der Interoperabilität zwischen der neu
 |:-----|:-----|:-----|
 |Skype Windows Desktop   |7.6 oder höher, Windows XP und höher   |**NEU:** Unterstützung für Windows Skype Client hinzugefügt, der auf Windows XP und Windows Vista ausgeführt wird **(erfordert die neueste Clientversion 7.26 oder höher)**  |
 |Skype Mobil – Android Telefon und Tablet   |6.19 oder höher mit Android OS Version 4.0.3 oder höher   |Geräte mit niedriger Spezifikation unterstützen möglicherweise keine Videoanrufe   |
-|Skype Mobil – iOS   |6.11 oder höher, auf IOS 7 oder höher   |Nicht unterstützt werden iPhone 4 und früher, iPod der 4. Generation und früher iPad 1. Generation   |
+|Skype Mobil – iOS   |6.11 oder höher, auf IOS 7 oder höher   |Nicht unterstützt werden iPhone 4 und früher, iPod der 4. Generation und früher, iPad 1. Generation   |
 |Skype Mac   |7.19 oder höher, unter Mac OS X 10.9 (Mavericks) oder höher   |Erfordert Mac OSX 10.9 oder höher   |
 |Skype Universal Windows App (Windows 10) Desktop und Mobile   |Windows 10 (Redstone 1-Update oder höher)   |Windows Universelle App erhält update im Fall 2016 hinzufügen interop-Unterstützung   |
    
@@ -245,5 +245,5 @@ In der folgenden Tabelle wird der Status der Interoperabilität zwischen der neu
 |Lync Mac 2011   |Kann hinzugefügt werden (keine Suche)   |Ja   |
 |Lync Desktop 2010   |Kann hinzugefügt werden (keine Suche)   |Ja   |
 |Lync Phone Edition   |Nicht zutreffend   |Nicht zutreffend   |
-|Lync-Telefonzentrale   |Nicht zutreffend   |–   |
+|Lync-Telefonzentrale   |Nicht zutreffend   |Nicht zutreffend   |
    

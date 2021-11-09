@@ -1,6 +1,6 @@
 ---
 title: Einrichten und Verwalten der Kanalmoderation
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jotaing
@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten, und erfahren Sie, wie Sie Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a012eb26ac9017e0d6a1110505aa1d1025c6a779
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753988"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829559"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
@@ -44,7 +44,7 @@ Kanalmoderatoren können:
 
 ## <a name="scenarios"></a>Szenarien
 
-Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in ihrer Organisation Teams.
+Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in Ihrer Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Verwenden eines Kanals als Ankündigungskanal
 
@@ -76,7 +76,7 @@ Um die Moderation für einen Kanal zu aktivieren, klicken Sie **unter Kanalmoder
 
 ### <a name="add-or-remove-channel-moderators"></a>Hinzufügen oder Entfernen von Kanalmoderatoren
 
-Unter **Wer sind die Moderatoren?** auf **Verwalten,** und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
+Klicken **Wer unter Moderatoren?** auf **Verwalten,** und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
 
 ### <a name="set-team-member-permissions"></a>Festlegen von Teammitgliedsberechtigungen
 

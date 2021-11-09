@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,20 +21,20 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Audiokonferenzen in Ihrem kleinen oder mittleren Unternehmen für Personen festlegen, die sich per Telefon in Besprechungen einrufen müssen. '
-ms.openlocfilehash: ddac35fa5ee6ff7134b1114037aca627fda792db
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743051"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827408"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen
 
-Mit Audiokonferenzen können sich Personen mit einem Telefon in Teams-Besprechungen einrufen, statt die Teams-App auf ihrem Mobilgerät oder ihrem Computer zu verwenden.  
+Mit Audiokonferenzen können sich Personen mit einem Telefon in Teams-Besprechungen einrufen, anstatt die Teams-App auf dem Mobilgerät oder vom Computer aus zu verwenden.  
 
 Wenn Sie ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern sind und aktuell über keine Lizenzen für Audiokonferenzen verfügen, können Sie Audiokonferenzen ein Jahr kostenlos erhalten. Dieses kostenlose Angebot ist ab dem 1. Oktober 2020 verfügbar.
 
-Die Add-On-Lizenz für Audiokonferenzen kann auf Benutzer angewendet werden, die über Microsoft 365 Business Basic-, Business Standard-, Business Premium-, Enterprise E1- oder E3-Enterprise verfügen. Weitere Informationen finden Sie unter [Teams von Add-On-Lizenzen.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
+Die Add-On-Lizenz für Audiokonferenzen kann auf Benutzer angewendet werden, die über Microsoft 365 Business Basic-, Business Standard-, Business Premium-, Enterprise E1- oder Enterprise E3-Lizenzen verfügen. Weitere Informationen finden Sie unter [Teams von Add-On-Lizenzen.](teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
 > [!NOTE]
 > Wenn Sie über Enterprise E5 oder Microsoft 365 Business Voice verfügen, können Sie das kostenlose Audiokonferenz-Angebot nicht nutzen, da diese Lizenzen bereits Audiokonferenzen enthalten.
@@ -67,20 +67,20 @@ Weisen Sie jeder Person, die Besprechungen führen soll, eine Lizenz zu. Verwend
 
 #### <a name="assign-a-license-to-one-user"></a>Zuweisen einer Lizenz zu einem Benutzer
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Benutzer**  >  **aktive Benutzer**.  
+1. Wechseln Sie Microsoft 365 Admin Center Der Benutzer zu  >  **Aktive Benutzer.**  
 2. Wählen Sie die Zeile des Benutzers aus, dem Sie die Lizenz zuweisen möchten, und wählen Sie dann im Bereich Lizenzen **und Apps aus.**
-3. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz aktivieren,** und wählen Sie dann **Änderungen speichern aus.**
+3. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz,** und wählen Sie dann **Änderungen speichern aus.**
 
 #### <a name="assign-a-license-to-multiple-users"></a>Zuweisen einer Lizenz für mehrere Benutzer
 
-1. Wechseln Sie Microsoft 365 Admin Center zu **Benutzer**  >  **aktive Benutzer**.  
+1. Wechseln Sie Microsoft 365 Admin Center Der Benutzer zu  >  **Aktive Benutzer.**  
 2. Wählen Sie die Kreise neben den Benutzern aus, den Sie die Lizenz zuweisen möchten, und wählen Sie dann **Produktlizenzen verwalten aus.**
 3. Wählen Sie **im Bereich Produktlizenzen** verwalten die Option **Weitere zuweisen aus.**
-4. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz aktivieren,** und wählen Sie dann **Änderungen speichern aus.**  
+4. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz,** und wählen Sie dann **Änderungen speichern aus.**  
 
 ## <a name="schedule-teams-meetings-in-outlook"></a>Planen Teams Besprechungen in Outlook
 
-Ihre Besprechungsorganisatoren können jetzt Besprechungen in einem Outlook. Wechseln Outlook **Kalender,** und wählen Sie dann die Schaltfläche Teams **Besprechung** aus. Die Einwahlnummern der Besprechung und die Konferenz-ID werden automatisch der Besprechungseinladung hinzugefügt, die an die Besprechungsteilnehmer gesendet wird. Weitere Informationen finden Sie unter [Planen Teams Besprechung in Outlook](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f).
+Ihre Besprechungsorganisatoren können jetzt Besprechungen in einem Outlook. Wechseln Outlook Kalender, und wählen Sie dann die Schaltfläche Teams **Besprechung** aus. Die Einwahlnummern der Besprechung und die Konferenz-ID werden automatisch der Besprechungseinladung hinzugefügt, die an die Besprechungsteilnehmer gesendet wird. Weitere Informationen finden Sie unter [Planen Teams Besprechung in Outlook.](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
 
 > [!NOTE]
 > Wenn Sie möchten, können Sie Besprechungseinladungen anpassen, um Ihr Firmenlogo, Links zur Supportwebsite und einen Haftungsausschluss sowie eine Fußzeile als Text hinzuzufügen. Weitere Informationen finden Sie unter [Anpassen von Besprechungseinladungen.](meeting-settings-in-teams.md#customize-meeting-invitations)
@@ -93,7 +93,7 @@ Es gibt zwei Arten von Nummern, die Sie für Ihre Konferenzbrücke verwenden kö
 
 Eine freigegebene Nummer ist eine Nummer, die von allen Organisationen gemeinsam genutzt wird. Freigegebene Nummern sind gebührenpflichtige Nummern und werden automatisch zugewiesen, wenn Sie Audiokonferenzen einrichten.
 
-Wenn Sie die Standardnummer sehen möchten, die Ihrer Konferenzbrücke zugewiesen ist, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu Konferenzbrücken für Besprechungen , und suchen Sie dann die Nummer für den  >  nächstgelegenen Ort.
+Wenn Sie die Standardnummer sehen möchten, die Ihrer Konferenzbrücke zugewiesen ist, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu Konferenzbrücken für Besprechungen, und suchen Sie dann die Nummer für den  >  nächstgelegenen Ort.
 
 ### <a name="dedicated-numbers"></a>Dedizierte Nummern
 
@@ -103,13 +103,13 @@ Es gibt eine Reihe von Möglichkeiten, eine dedizierte Nummer zu erhalten. Sie k
 
 Wenn Sie eine gebührenfreie Nummer verwenden, müssen Sie zuerst jeder Person, die Besprechungen führt, eine Lizenz für Guthaben für Kommunikationen zuweisen. Weitere Informationen finden Sie unter [Einrichten von Guthaben für Kommunikationen für Ihre Organisation.](set-up-communications-credits-for-your-organization.md)
 
-Nachdem Sie Ihre Nummer erhalten haben, weisen Sie sie Ihrer Konferenzbrücke zu. Verwenden Sie Microsoft Teams Admin Center.
+Nachdem Sie Ihre Nummer erhalten haben, weisen Sie sie Ihrer Konferenzbrücke zu. Verwenden Sie Microsoft Teams Admin Center, um dies zu tun.
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu  >  **Besprechungen Konferenzbrücken**.
 2. Wählen **Sie Hinzufügen** und dann **Gebührenpflichtige Nummer** oder **Gebührenfreie Nummer aus.**
 3. Wählen Sie **im Bereich Telefonnummer hinzufügen** die Nummer und dann Übernehmen **aus.**
 
-Weisen Sie dann die Nummer jeder Person zu, die Besprechungen führen soll. Verwenden Sie Microsoft Teams Admin Center.
+Weisen Sie dann die Nummer jeder Person zu, die Besprechungen führen soll. Verwenden Sie Microsoft Teams Admin Center, um dies zu tun.
 
 1. Wählen Sie im linken Navigationsbereich Microsoft Teams Admin Center Benutzer **aus,** klicken Sie auf den Anzeigenamen des Benutzers, und wählen Sie **Bearbeiten aus.**
 2. Wählen **Sie** Bearbeiten neben **Audiokonferenz aus,** und wählen Sie dann im Bereich  **Audiokonferenz** in  den Listen Gebührenpflichtige Nummer oder Gebührenfreie Rufnummer eine Nummer aus, und wählen Sie dann Übernehmen **aus.**

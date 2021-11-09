@@ -2,7 +2,7 @@
 title: Schemaattribute nach Klasse in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 72726b43-f1ea-458c-9304-a26e8a12128c
 description: In diesem Abschnitt werden die Schemaattribute aufgeführt, die in jeder Skype for Business Server Klasse enthalten sein können, und die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter Schemaklassen und Beschreibungen in Skype for Business Server. Eine Liste aller Attribute und deren Beschreibungen finden Sie unter Schemaattribute und Beschreibungen in Skype for Business Server.
-ms.openlocfilehash: e3443155c4dec7d68ab2bb971f5fd9cad024eafe
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3e4e584896da8dd6345d3f284c30463094b4b6e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743301"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829809"
 ---
 # <a name="schema-attributes-by-class-in-skype-for-business-server"></a>Schemaattribute nach Klasse in Skype for Business Server
  
-In diesem Abschnitt werden die Schemaattribute aufgeführt, die in jeder Skype for Business Server Klasse enthalten sein können, und die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter [Schemaklassen und Beschreibungen in Skype for Business Server.](schema-classes-and-descriptions.md) Eine Liste aller Attribute und deren Beschreibungen finden Sie unter [Schemaattribute und Beschreibungen in Skype for Business Server](schema-attributes-and-descriptions.md).
+In diesem Abschnitt werden die Schemaattribute aufgeführt, die in jeder Skype for Business Server Klasse enthalten sein können, und die Klassen, die in anderen Klassen enthalten sein können. Eine Liste aller Klassen und deren Beschreibungen finden Sie unter [Schemaklassen und Beschreibungen in Skype for Business Server](schema-classes-and-descriptions.md). Eine Liste aller Attribute und deren Beschreibungen finden Sie unter [Schemaattribute und Beschreibungen in Skype for Business Server.](schema-attributes-and-descriptions.md)
   
 ## <a name="attributes-by-class"></a>Attribute nach Klasse
 

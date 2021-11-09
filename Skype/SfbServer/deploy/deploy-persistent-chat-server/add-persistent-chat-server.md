@@ -2,7 +2,7 @@
 title: Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6b4f4d69-3c9d-4bc7-bc9b-46427a095de2
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server 2015-Topologie einen Server für beständigen Chat hinzufügen.'
-ms.openlocfilehash: b3fe63921ca666844776c420a27cd2717d6f84be
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b4148989430987c2a1435ce08315908e27e7e13
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753412"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857012"
 ---
 # <a name="add-persistent-chat-server-to-your-skype-for-business-server-2015-topology"></a>Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie
  
@@ -35,14 +35,14 @@ Nachdem Sie die erforderliche Software auf jedem Server installiert haben, auf d
 
 ## <a name="update-your-topology-to-include-persistent-chat-server"></a>Aktualisieren Der Topologie, um den Server für beständigen Chat einzuschließen
 
-Führen Sie die folgenden Schritte aus, um einen einzelnen Serverpool für beständigen Chat ohne Notfallwiederherstellungskonfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung finden Sie unter [Configure high availability and disaster recovery for Persistent Chat Server in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
+Führen Sie die folgenden Schritte aus, um einen einzelnen Serverpool für beständigen Chat ohne Notfallwiederherstellungskonfiguration zu installieren. Informationen zum Konfigurieren eines gestreckten Servers für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung finden Sie unter [Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015.](../../deploy/deploy-high-availability-and-disaster-recovery/configure-hadr-for-persistent-chat.md)
   
 Um mehrere Pools für den Server für beständigen Chat bereitzustellen, wiederholen Sie den gleichen Prozess für jeden Pool.
   
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
     > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber um eine Topologie zu veröffentlichen, die zum Installieren von Skype for Business Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen verfügt (Lesen,  Schreiben und Ändern) für den Dateispeicher, den Sie für den Dateispeicher des Servers für beständigen Chat verwenden möchten (sodass der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber um eine Topologie zu veröffentlichen, die zum Installieren Skype for Business Server erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen verfügt (Lesen,  Schreiben und Ändern) für den Dateispeicher, den Sie für den Dateispeicher des Servers für beständigen Chat verwenden möchten (sodass der Topologie-Generator die erforderlichen DACLs konfigurieren kann) oder ein Konto mit entsprechenden Rechten.
   
 2. Starten Sie den Topologie-Generator.
     

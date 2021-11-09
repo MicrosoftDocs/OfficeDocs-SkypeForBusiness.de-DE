@@ -2,7 +2,7 @@
 title: Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Zusammenfassung: Konfigurieren der Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.'
-ms.openlocfilehash: 61ab8f8b5c6538491de63696d9445672ce9211cf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741301"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835813"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
  
@@ -86,6 +86,6 @@ Die zuvor erwähnten Windows PowerShell Cmdlets für die Videotrunkkonfiguration
   
  **ForwardErrorCorrectionType** Dieser Parameter wird verwendet, um zu bestimmen, ob die Vorwärtsfehlerkorrektur (Forward Error Correction, FEC) für Videodatenströme auf den Abschnitt zwischen dem Video-Interoperabilitätsserver und einem Videogateway angewendet werden soll. Wenn ForwardErrorCorrectionType auf "None" festgelegt wird, wird FEC zwischen VIS und Videogateway/VTC deaktiviert. Wenn ForwardErrorCorrectionType auf "Cisco" festgelegt wird, ist FEC kompatibel mit Videogateways von Cisco, z. B. Cisco Unified Communications Manager (CUCM). Der Standardwert lautet **Keine**.
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren von CUCM für die Interoperabilität mit Skype for Business Server](configure-cucm-for-interoperation.md)

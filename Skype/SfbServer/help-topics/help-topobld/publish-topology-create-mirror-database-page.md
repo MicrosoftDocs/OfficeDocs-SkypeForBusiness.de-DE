@@ -2,7 +2,7 @@
 title: Veröffentlichen der Topologie – Seite „Spiegeldatenbank erstellen“
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f05ffca1-e972-4ee2-8370-2ef5df03e179
 description: Dies ist eine vorläufige Dokumentation und kann geändert werden. Leere Themen wurden als Platzhalter hinzugefügt.
-ms.openlocfilehash: fcf84d4ee1a83ce83a7c30c63ba7cab5db15e672
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ec0b8a99a84f0e7a2449b3548457c626917887e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763873"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830099"
 ---
 # <a name="publish-topology-create-mirror-database-page"></a>Veröffentlichen der Topologie – Seite „Spiegeldatenbank erstellen“
  
@@ -30,6 +30,6 @@ Der Topologie-Generator analysiert alle Konfigurationseinstellungen im definiert
   
  Wenn Sie sich zurzeit dafür entscheiden, keine oder alle dieser Datenbanken zu installieren, löschen Sie die Datenbanken, die Sie nicht installieren möchten. Zu einem späteren Zeitpunkt wählen Sie die Installation der **Datenbank** aus, indem Sie mit der rechten Maustaste auf die meisten Knotenelemente im Topologie-Generator klicken.
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Bereitstellen SQL Spiegelung für hohe Verfügbarkeit von Back-End-Servern in Skype for Business Server 2015](../../deploy/deploy-high-availability-and-disaster-recovery/sql-mirroring-for-high-availability.md)

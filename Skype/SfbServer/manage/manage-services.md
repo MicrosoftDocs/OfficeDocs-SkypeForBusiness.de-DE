@@ -2,7 +2,7 @@
 title: Verwalten von Diensten für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
 description: In diesem Artikel wird beschrieben, wie Dienste verwaltet werden, die in einer Skype for Business Server-Topologie ausgeführt werden.
-ms.openlocfilehash: 6ef87e9dfba890e36a0a00fb9d7fd1161ca2f04d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768693"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856672"
 ---
 # <a name="manage-services-for-skype-for-business-server"></a>Verwalten von Diensten für Skype for Business Server
 
@@ -48,7 +48,7 @@ Sie können Skype for Business Server Systemsteuerung verwenden, um alle Dienste
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 3. Klicken Sie auf der linken Navigationsleiste auf **Topologie**. 
-4. Sortieren oder durchsuchen Sie die Liste nach Bedarf auf der Seite **"Status",** um den gewünschten Computer zu finden, und klicken Sie dann auf den Computernamen.
+4. Sortieren oder durchsuchen Sie die Liste auf **der** Statusseite nach Bedarf, um den gewünschten Computer zu finden, und klicken Sie dann auf den Computernamen.
 5. Führen Sie einen der folgenden Schritte aus:
    - Klicken Sie auf **"Dienststatus** abrufen", um den neuesten Status der auf dem Computer ausgeführten Dienste anzuzeigen.
    - Um eine Liste der auf dem Computer ausgeführten Dienste und den Status der einzelnen Dienste anzuzeigen, klicken Sie auf **"Eigenschaften"** und dann auf **"Schließen",** um zur Liste zurückzukehren.

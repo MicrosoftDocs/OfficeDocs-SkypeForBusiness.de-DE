@@ -2,7 +2,7 @@
 title: Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 59d8f5ba-5064-4ea5-b4bf-2b9736e0fedd
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen Vermittlungsserver im Topologie-Generator in Skype for Business Server definieren und bereitstellen.'
-ms.openlocfilehash: 9eb3f00d8530739b3a4e9986da14038ff7d6ed26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7dd3704b47b384d3fab62a7cc051adcf5b380c0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764893"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857032"
 ---
 # <a name="deploy-a-mediation-server-in-topology-builder-in-skype-for-business-server"></a>Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server
  
@@ -30,7 +30,7 @@ ms.locfileid: "60764893"
   
 Die Enterprise-VoIP Workload, Einwahlkonferenzen und erweiterte Enterprise-VoIP Anwendungen (Reaktionsgruppenanwendung, Anwendung zum Parken von Anrufen, Anrufsteuerung usw.) sind in Front-End-Pools verfügbar. Die Funktionalität des Vermittlungsservers ist in den Front-End-Server integriert. Ein separater eigenständiger Vermittlungsserver ist nicht erforderlich. 
   
-Die einzige Ausnahme stellt die Konfiguration eines SIP-Trunks zum Herstellen einer Verbindung mit einem Session Border Controller (SBC) für einen Anbieter von Internettelefoniediensten dar. Um ihre Enterprise-VoIP Infrastruktur mit Ihrem SIP-Trunkanbieter zu verbinden, muss ein separater Vermittlungsserver bereitgestellt werden.
+Die einzige Ausnahme stellt die Konfiguration eines SIP-Trunks zum Herstellen einer Verbindung mit einem Session Border Controller (SBC) für einen Anbieter von Internettelefoniediensten dar. Um Ihre Enterprise-VoIP Infrastruktur mit Ihrem SIP-Trunkanbieter zu verbinden, muss ein separater Vermittlungsserver bereitgestellt werden.
   
 Die Verbindung zwischen Skype for Business Server (entweder einem Vermittlungsserver, der in einem Front-End-Pool oder einem eigenständigen Vermittlungsserver verbunden ist) und einem Gateway wird als logische Zuordnung definiert, die als Trunk bezeichnet wird. In den Themen in diesem Abschnitt werden die Definition eines Trunks und die Bereitstellung eines eigenständigen Vermittlungsservers beschrieben, wenn Sie eine Verbindung mit einem SIP-Trunk herstellen.
   
@@ -64,7 +64,7 @@ Sie können den Vermittlungsserver als gemeinsam zugeordnete Rolle in einem Fron
 7. Klicken Sie auf **"Fertig stellen",** wenn Sie das Zuordnen eines oder mehrerer Peers zum Front-End-Pool abgeschlossen haben.
     
     > [!NOTE]
-    > Bevor Sie mit dem nächsten Schritt im Enterprise-VoIP Bereitstellungsprozess fortfahren, stellen Sie sicher, dass der Vermittlungsserverpool (d. h. der Front-End-Pool mit der verbundenen Vermittlungsserverkomponente) die angegebenen FQDNs verwendet. 
+    > Bevor Sie mit dem nächsten Schritt im Enterprise-VoIP Bereitstellungsprozess fortfahren, stellen Sie sicher, dass der Vermittlungsserverpool (d. h. der Front-End-Pool mit der Verbundenen Vermittlungsserverkomponente) die angegebenen FQDNs verwendet. 
   
 8. Klicken Sie mit der rechten Maustaste auf den Knoten **Skype for Business Server 2015,** und klicken Sie dann auf **"Topologie veröffentlichen".**
     
@@ -74,7 +74,7 @@ Sie können den Vermittlungsserver als gemeinsam zugeordnete Rolle in einem Fron
     
 2. Erweitern Sie im Topologie-Generator in der Konsolenstruktur den Namen des Standorts, für den Sie einen Vermittlungsserver definieren möchten.
     
-3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten **"Vermittlungspools",** und klicken Sie dann auf **"Vermittlungsserverpool".**
+3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf den Knoten **"Vermittlungspools",** und klicken Sie dann auf den **Vermittlungsserverpool.**
     
 4. Geben Sie unter **"Neuen Vermittlungspool definieren"** den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) des Vermittlungsserverpools ein.
     

@@ -1,8 +1,8 @@
 ---
-title: Installieren Skype for Business Server auf Servern in der Topologie
+title: Installieren von Skype for Business Server auf Servern in der Topologie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,18 +17,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: defd6b2c-f267-4f8c-bc94-8894e2a429b6
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Skype for Business Server Systemkomponenten auf jedem Server in der Topologie installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: bcf2645e6f33865da0f1ad6bbc985e581950693b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb589b606f095deade6bd4f8921d48e1f3799cf5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745301"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864312"
 ---
-# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installieren Skype for Business Server auf Servern in der Topologie
+# <a name="install-skype-for-business-server-on-servers-in-the-topology"></a>Installieren von Skype for Business Server auf Servern in der Topologie
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die Skype for Business Server Systemkomponenten auf jedem Server in der Topologie installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem [Microsoft Evaluation Center](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server)herunter.
   
-Nachdem die Topologie in die zentrale Verwaltungs Store geladen wurde und Active Directory weiß, welche Server welche Rollen ausführen, müssen Sie das Skype for Business Server System auf jedem Server in der Topologie installieren. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der Reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Die Installation des Skype for Business Server Systems ist Schritt 7 von 8.
+Nachdem die Topologie in die zentrale Verwaltungs Store geladen wurde und Active Directory weiß, welche Server welche Rollen ausführen, müssen Sie das Skype for Business Server System auf jedem server in der Topologie installieren. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der Reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Die Installation des Skype for Business Server Systems ist Schritt 7 von 8.
   
 ![Übersichtsdiagramm.](../../media/6855713d-a5b4-4e5b-8f83-fef3d7a5ec5d.png)
   
@@ -43,13 +43,13 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Busi
 > Dieses Verfahren muss für alle Server in der Topologie abgeschlossen werden. 
   
 > [!CAUTION]
-> Nachdem Sie Skype for Business Server auf einem Front-End-Server installiert haben, müssen Sie beim ersten Starten der Dienste sicherstellen, dass der Windows Firewalldienst auf dem Server ausgeführt wird. 
+> Nachdem Sie Skype for Business Server auf einem Front-End-Server installiert haben, müssen Sie beim ersten Starten von Diensten sicherstellen, dass der Windows Firewalldienst auf dem Server ausgeführt wird. 
   
 > [!CAUTION]
 > Bevor Sie diese Schritte ausführen, stellen Sie sicher, dass Sie mit einem Domänenbenutzerkonto, das ein lokaler Administrator und Mitglied der Gruppe "RTCUniversalServerAdmins" ist, auf dem Server angemeldet sind. 
   
 > [!NOTE]
-> Wenn Sie Skype for Business Server Setup auf diesem Server noch nicht ausgeführt haben, werden Sie zur Eingabe eines Laufwerks und Pfads für die Installation aufgefordert. Dies bietet die Möglichkeit, auf einem anderen Laufwerk als dem Systemlaufwerk zu installieren, wenn Ihre Organisation dies erfordert oder wenn Sie Bedenken hinsichtlich des Speicherplatzes haben. Sie können den Installationspfad für die Skype for Business Server Dateien im Dialogfeld **"Setup"** in ein neues, verfügbares Laufwerk ändern. Wenn Sie die Setupdateien unter diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen Skype for Business Server-Dateien dort bereitgestellt.
+> Wenn Sie Skype for Business Server Setup auf diesem Server noch nicht ausgeführt haben, werden Sie zur Eingabe eines Laufwerks und Pfads für die Installation aufgefordert. Dies bietet die Möglichkeit, auf einem anderen Laufwerk als dem Systemlaufwerk zu installieren, wenn Ihre Organisation dies erfordert oder wenn Sie Bedenken hinsichtlich des Speicherplatzes haben. Sie können den Installationsspeicherortpfad für die Skype for Business Server Dateien im Dialogfeld **"Setup"** in ein neues, verfügbares Laufwerk ändern. Wenn Sie die Setupdateien unter diesem Pfad installieren, einschließlich OCSCore.msi, werden auch die restlichen Skype for Business Server-Dateien dort bereitgestellt.
   
 > [!IMPORTANT]
 > Bevor Sie mit der Installation beginnen, stellen Sie mithilfe von Windows Update sicher, dass Windows Server auf dem neuesten Stand ist. 
@@ -60,7 +60,7 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Busi
 
 1. Fügen Sie das Skype for Business Server Installationsmedium ein. Wenn das Setup nicht automatisch beginnt, doppelklicken Sie auf **Setup**.
     
-2. Das Installationsmedium erfordert Microsoft Visual C++, um ausgeführt zu werden. Es wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob Sie es installieren möchten. Klicken Sie auf **"Ja".**
+2. Für die Ausführung des Installationsmediums ist Microsoft Visual C++ erforderlich. Es wird ein Dialogfeld angezeigt, in dem Sie gefragt werden, ob Sie es installieren möchten. Klicken Sie auf **"Ja".**
     
 3. Überprüfen Sie den Lizenzvertrag sorgfältig, und wenn Sie damit einverstanden sind, wählen Sie **"Ich stimme den Bedingungen im Lizenzvertrag zu,** und klicken Sie auf **OK."** 
     
@@ -80,7 +80,7 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Busi
 1. Überprüfen Sie die Voraussetzungen, und klicken Sie dann auf **"Ausführen"** neben **Schritt 1: Installieren der lokalen Konfiguration Store.**
     
     > [!NOTE]
-    > Das Store "Lokale Konfiguration" ist eine schreibgeschützte Kopie der zentralen Verwaltungs Store. In einer Standard Edition Bereitstellung wird die zentrale Store mithilfe einer lokalen Kopie von SQL Server Express Edition auf dem Front-End-Server erstellt. Dies geschieht, wenn Sie die Prozedur "Erste Standard Edition Server vorbereiten" ausführen. In einer Enterprise Edition Bereitstellung wird der zentrale Verwaltungsspeicher erstellt, wenn Sie die Topologie veröffentlichen, die einen Enterprise Edition Front-End-Pool enthält. 
+    > Die Store "Lokale Konfiguration" ist eine schreibgeschützte Kopie der zentralen Verwaltungs Store. In einer Standard Edition Bereitstellung wird die zentrale Store mithilfe einer lokalen Kopie von SQL Server Express Edition auf dem Front-End-Server erstellt. Dies geschieht, wenn Sie die Prozedur "Erste Standard Edition Server vorbereiten" ausführen. In einer Enterprise Edition Bereitstellung wird der zentrale Verwaltungsspeicher erstellt, wenn Sie die Topologie veröffentlichen, die einen Enterprise Edition Front-End-Pool enthält. 
   
 2. Stellen Sie auf der Seite **"Lokale Konfiguration installieren" Store** sicher, dass die Option **"Direkt aus dem zentralen Verwaltungsspeicher abrufen"** ausgewählt ist, und klicken Sie dann auf **"Weiter".**
     
@@ -120,7 +120,7 @@ Nachdem Sie eine Topologie veröffentlicht haben, können Sie die Skype for Busi
     > Skype for Business Server unterstützt die SHA-2-Suite (SHA-2 verwendet Digestlängen von 224, 256, 384 oder 512 Bit) von Digesthash- und Signaturalgorithmen für Verbindungen von Clients, die die Betriebssysteme Windows 10, Windows 8, Windows 7, Windows Server 2012 R2, Windows Server 2012 oder Windows Server 2008 R2 ausführen. Um den externen Zugriff mit der SHA-2-Suite zu unterstützen, wird das externe Zertifikat von einer öffentlichen Zertifizierungsstelle ausgestellt, die auch ein Zertifikat mit dem gleichen Bitlängendigest ausstellen kann. 
   
     > [!IMPORTANT]
-    > Die Auswahl des Hashdigests und Signaturalgorithmus hängt von den Clients und den Servern ab, die das Zertifikat verwenden, sowie von anderen Computern und Geräten, mit denen Clients und Server kommunizieren, die auch wissen müssen, wie die im Zertifikat verwendeten Algorithmen verwendet werden sollen. Informationen dazu, welche Digestlängen im Betriebssystem und in einigen Clientanwendungen unterstützt werden, finden Sie unter [Windows PKI-Blog SHA2 und Windows.](/archive/blogs/pki/sha2-and-windows) 
+    > Die Auswahl des Hashdigests und Signaturalgorithmus hängt von den Clients und den Servern ab, die das Zertifikat verwenden, sowie von anderen Computern und Geräten, mit denen Clients und Server kommunizieren, die auch wissen müssen, wie die im Zertifikat verwendeten Algorithmen verwendet werden sollen. Informationen dazu, welche Digestlängen im Betriebssystem und in einigen Clientanwendungen unterstützt werden, finden Sie unter [Windows PKI-Blog : SHA2 und Windows.](/archive/blogs/pki/sha2-and-windows) 
   
     Jeder Standard Edition- oder Front-End-Server benötigt bis zu vier Zertifikate: das oAuthTokenIssuer-Zertifikat, ein Standardzertifikat, ein internes Webzertifikat und ein externes Webzertifikat. Sie können jedoch ein einzelnes Standardzertifikat mit entsprechenden einträgen alternativen Antragstellernamen sowie das oAuthTokenIssuer-Zertifikat anfordern und zuweisen. Ausführliche Informationen zu den Zertifikatsanforderungen finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md)
     

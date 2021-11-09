@@ -2,7 +2,7 @@
 title: Plan for Persistent Chat Server in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 9e652487-a123-40c0-ae61-47fb8ecc4a20
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie den Server für beständigen Chat in Skype for Business Server 2015 planen.'
-ms.openlocfilehash: a697337570dfbf66e752234435d1335661638c54
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7adeb623f581d7ce6f3bfad5dadafd143299fad5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763463"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842717"
 ---
 # <a name="plan-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Plan for Persistent Chat Server in Skype for Business Server 2015
  
@@ -47,7 +47,7 @@ Das folgende Diagramm zeigt eine allgemeine Ansicht der Architektur des Servers 
   
 ![Architektur des Servers für beständigen Chat High-Level.](../../media/0344f6e2-0c6d-4391-b4b3-ec31062b1576.png)
   
-Der beständige Chat besteht aus einer Front-End-Serverrolle, die die Dienste für beständigen Chat sowie eine Back-End-SQL-Datenbankkomponente bereitstellt. Sowohl Front-End- als auch Back-End-Komponenten sind in einem dedizierten Pool für beständigen Chat enthalten. Jeder Computer, der den Server für beständigen Chat hostet, muss Zugriff auf eine vorhandene Skype for Business Server 2015-Topologie haben. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (A), der von Skype for Business Server Pool A für das Weiterleiten von Nachrichten an ihn abhängig ist.
+Der beständige Chat besteht aus einer Front-End-Serverrolle, die die Dienste für beständigen Chat bereitstellt, sowie einer Back-End-SQL-Datenbankkomponente. Sowohl Front-End- als auch Back-End-Komponenten sind in einem dedizierten Pool für beständigen Chat enthalten. Jeder Computer, auf dem der Server für beständigen Chat gehostet wird, muss Zugriff auf eine vorhandene Skype for Business Server 2015-Topologie haben. In diesem Diagramm gibt es einen Serverpool für beständigen Chat (A), der von Skype for Business Server Pool A zum Weiterleiten von Nachrichten an diesen pool A abhängig ist.
   
 Sie können einen oder mehrere Serverpools für beständigen Chat mit jeweils bis zu vier aktiven Servern für beständigen Chat bereitstellen, die bis zu 80.000 gleichzeitige Benutzer unterstützen.
   

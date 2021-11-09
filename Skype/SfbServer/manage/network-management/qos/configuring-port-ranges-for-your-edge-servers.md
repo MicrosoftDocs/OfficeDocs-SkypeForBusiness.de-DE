@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204996(v=OCS.15)
 ms:contentKeyID: 48184469
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Edgeserver konfigurieren und wie Sie eine Quality of Service-Richtlinie für Ihre A/V-Edgeserver konfigurieren.
-ms.openlocfilehash: 1f455ab417ed111a34134e3581806b4ce2a4bd57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ae955eb8863f561cc1837b7f0319f7424f13e99c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778305"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829939"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-edge-servers-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver in Skype for Business Server
 
@@ -68,7 +68,7 @@ Angenommen, Sie haben Ihre Konferenz-, Anwendungs- und Vermittlungsserver so kon
 </table>
 
 
-Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server Verwaltungsshell ausführen:
+Wie Sie sehen können, beginnen Ihre Portbereiche für Audio, Video und Anwendungsfreigabe bei Port 40803 und umfassen insgesamt 24732 Ports. Wenn Sie möchten, können Sie einen bestimmten Edgeserver so konfigurieren, dass er diese allgemeinen Portwerte verwendet, indem Sie einen Befehl ähnlich dem folgenden in der Skype for Business Server-Verwaltungsshell ausführen:
 
   **Set-CsEdgeServer -Identity EdgeServer:atl-edge-001.litwareinc.com -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730**
 
@@ -76,7 +76,7 @@ Oder führen Sie den folgenden Befehl aus, um alle Edgeserver in Ihrer Organisat
 
   **Get-CsService -EdgeServer | ForEach-Object {Set-CsEdgeServer -Identity $_. Identity -MediaCommunicationPortStart 40803 -MediaCommunicationPortCount 24730}**
 
-Sie können die aktuellen Porteinstellungen für Ihre Edgeserver mithilfe des folgenden Befehls Skype for Business Server Verwaltungsshell überprüfen:
+Sie können die aktuellen Porteinstellungen für Ihre Edgeserver überprüfen, indem Sie den folgenden Befehl Skype for Business Server Verwaltungsshell verwenden:
 
   **Get-CsService -EdgeServer | Select-Object Identity, MediaCommunicationPortStart, MediaCommunicationPortCount**
 
@@ -98,7 +98,7 @@ Wenn Sie Active Directory-basierte Richtlinien erstellen, sollten Sie sich auf e
 
 2.  Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf **"Gruppenrichtlinienobjekt in dieser Domäne erstellen", und verknüpfen Sie es hier.**
 
-3.  Geben Sie im Dialogfeld **Neues Gruppenrichtlinienobjekt** einen Namen für das neue Gruppenrichtlinienobjekt in das **Feld "Name"** ein (z. **B. Skype for Business Server Audio),** und klicken Sie dann auf **"OK".**
+3.  Geben Sie im Dialogfeld **Neues** Gruppenrichtlinienobjekt einen Namen für das neue Gruppenrichtlinienobjekt in das **Feld Name** ein (z. **B. Skype for Business Server Audio),** und klicken Sie dann auf **"OK".**
 
 4.  Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **"Bearbeiten".**
 

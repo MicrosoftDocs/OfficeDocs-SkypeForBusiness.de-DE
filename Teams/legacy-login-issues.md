@@ -1,7 +1,7 @@
 ---
-title: Probleme beim Empfang von Nachrichten und Anrufen in älteren Systemen in Teams
+title: Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen in Teams
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 05/29/2020
@@ -17,16 +17,16 @@ description: Behandeln von Problemen im Zusammenhang mit dem Empfang von Nachric
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fb36f4be70b174a324f017b1e52529f457e83f36
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 69a3f070b247507e0d22535179353860434e94ad
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768303"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857142"
 ---
 # <a name="issues-receiving-messages-and-calls-on-legacy-systems"></a>Probleme beim Empfang von Nachrichten und Anrufen auf älteren Systemen
 
-Benutzer haben möglicherweise Probleme beim Empfang von Nachrichten oder Anrufen, wenn sie ältere Versionen von Teams oder sich mit anderen Anwendungen angemeldet haben.
+Benutzer haben möglicherweise Probleme beim Empfang von Nachrichten oder Anrufen, wenn sie ältere versionen von Teams oder sich mit anderen Anwendungen angemeldet haben.
 
 ## <a name="legacy-adu-setups"></a>Legacy-ADU-Setups
 

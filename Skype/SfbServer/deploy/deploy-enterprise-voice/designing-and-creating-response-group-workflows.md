@@ -1,8 +1,8 @@
 ---
-title: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business
+title: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
-description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows behandelt.
-ms.openlocfilehash: 842cbf321dc4e4f54ff244e9e809517807a6686c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
+ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755758"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864382"
 ---
-# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business
+# <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business
 
-Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Workflows für Sammelanschlüsse als auch interaktive Workflows behandelt.
+Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
 
 Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur Annahme des Anrufs verfahren wird. Der Workflow gibt die Warteschleife an, die für das Halten des Anrufs verwendet werden soll, und gibt die Routingmethode an, die für Sammelanschlüsse verwendet werden soll, oder die Fragen und Antworten, die für interaktive Reaktionsgruppenworkflows verwendet werden sollen.
 
@@ -73,7 +73,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 9. Aktivieren Sie das Kontrollkästchen **Anonymität für Agents aktivieren**, um bei Anrufen die Identität der Agents zu verbergen.
 
     > [!NOTE]
-    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen sowie Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
+    > Anonyme Anrufe können nicht mit Chat oder Video beginnen, obwohl der Agent oder der Anrufer Chat und Video hinzufügen kann, nachdem der Anruf eingerichtet wurde. Ein anonymer Agent kann Anrufe auch in die Warteschleife setzen, Anrufe (sowohl Blind- als auch Beratungsübertragungen) übertragen und Anrufe parken und abrufen. Anonyme Anrufe unterstützen keine Konferenzen, Anwendungsfreigabe und Desktopfreigabe, Dateiübertragung, Whiteboarding und Datenzusammenarbeit sowie Die Aufzeichnung von Anrufen. Agents, die das Lync VDI-Plug-In verwenden, können eingehende Anrufe anonym empfangen, aber keine ausgehenden Anrufe anonym tätigen.
 
 10. Geben Sie im Feld **Geben Sie die Adresse der Gruppe ein, die die Anrufe entgegennimmt** den primären SIP-URI (Uniform Resource Identifier) der Gruppe ein, die die Anrufe beim Workflow erhalten soll.
 
@@ -204,7 +204,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
 
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
 
 3. Erstellen Sie die Ansage, die als Willkommensnachricht abgespielt werden soll, und speichern Sie sie in einer Variablen. Führen Sie an der Befehlszeile folgenden Befehl aus:
 
@@ -572,69 +572,69 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-4. Ein interaktiver Workflow erfordert zwei oder mehr Warteschleifen und mindestens zwei Agentgruppen. Erstellen Sie zunächst die Agentgruppen. Führen Sie  aus.
+4. Ein interaktiver Workflow erfordert zwei oder mehr Warteschleifen und mindestens zwei Agentgruppen. Erstellen Sie zunächst die Agentgruppen. Führen Sie Folgendes aus: 
 
    ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
-5. Erstellen Sie die Warteschlangen. Führen Sie  aus.
+5. Erstellen Sie die Warteschlangen. Führen Sie Folgendes aus: 
 
    ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
-6. Erstellen Sie die erste Eingabeaufforderung für Reaktionsgruppen. Führen Sie  aus.
+6. Erstellen Sie die erste Eingabeaufforderung für Reaktionsgruppen. Führen Sie Folgendes aus: 
 
    ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
    ```
 
-7. Erstellen Sie dann die Aktion, die nach der Eingabeaufforderung ausgeführt werden soll. Führen Sie  aus.
+7. Erstellen Sie dann die Aktion, die nach der Eingabeaufforderung ausgeführt werden soll. Führen Sie Folgendes aus: 
 
    ```powershell
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
-8. Erstellen Sie die erste Antwortgruppenantwort. Führen Sie  aus.
+8. Erstellen Sie die erste Antwortgruppenantwort. Führen Sie Folgendes aus: 
 
    ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
-9. Erstellen Sie nun die zweite Eingabeaufforderung, die zweite Anrufaktion und die zweite Antwort. Erstellen Sie zunächst die Eingabeaufforderung. Führen Sie  aus.
+9. Erstellen Sie nun die zweite Eingabeaufforderung, die zweite Anrufaktion und die zweite Antwort. Erstellen Sie zunächst die Eingabeaufforderung. Führen Sie Folgendes aus: 
 
    ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
-10. Erstellen Sie die zweite Anrufaktion. Führen Sie  aus.
+10. Erstellen Sie die zweite Anrufaktion. Führen Sie Folgendes aus: 
 
     ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
     ```
 
-11. Erstellen Sie die zweite Antwortgruppenantwort. Führen Sie  aus.
+11. Erstellen Sie die zweite Antwortgruppenantwort. Führen Sie Folgendes aus: 
 
     ```powershell
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
-12. Erstellen Sie die Eingabeaufforderung auf oberster Ebene. Führen Sie  aus.
+12. Erstellen Sie die Eingabeaufforderung auf oberster Ebene. Führen Sie Folgendes aus: 
 
     ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
-13. Erstellen Sie die Frage auf oberster Ebene. Führen Sie  aus.
+13. Erstellen Sie die Frage auf oberster Ebene. Führen Sie Folgendes aus: 
 
     ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]
     ```
 
-14. Erstellen Sie nun den Workflow. Führen Sie  aus.
+14. Erstellen Sie nun den Workflow. Führen Sie Folgendes aus: 
 
     ```powershell
     $IVRAction = New-CsRgsCallAction -Action TransferToQuestion [-Question $Question]
@@ -644,7 +644,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
      > [!NOTE]
      > Allen Benutzern, die als Manager einer Reaktionsgruppe festgelegt wurden, muss die Rolle "CsResponseGroupManager" zugewiesen werden. Falls Benutzern diese Rolle nicht zugewiesen ist, können sie keine Reaktionsgruppen verwalten.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business](optional-define-response-group-holiday-sets.md)
 

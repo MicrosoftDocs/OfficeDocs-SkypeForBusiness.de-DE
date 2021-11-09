@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in den Bahamas
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für die Bahamas.
-ms.openlocfilehash: a568158ac60c3bbb30e14abbfda0401553c9b821
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d1a5a54b15da9b2adaf6d138c2c168bbde1375d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827378"
 ---
 # <a name="availability-in-the-bahamas"></a>Verfügbarkeit in den Bahamas
 

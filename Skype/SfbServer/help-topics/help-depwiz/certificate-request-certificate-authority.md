@@ -2,7 +2,7 @@
 title: Zertifikatanforderung (Zertifizierungsstelle)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a609f1b0-ae13-44ca-a467-b7fb14ff18a1
 description: 'Wenn Sie eine Zertifikatanforderung an eine Onlinezertifizierungsstelle (z. B. Server, die sich in Ihrem internen Netzwerk befinden) auf der Seite "Zertifizierungsstelle auswählen" stellen, stehen Ihnen zwei Optionen zur Verfügung:'
-ms.openlocfilehash: 226a653c08a176e64b0b908d0276549e62c00273
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 06c6aaa8a1576e28402cab304917c1f16ba4a99d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741031"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843148"
 ---
 # <a name="certificate-request-certificate-authority"></a>Zertifikatanforderung (Zertifizierungsstelle)
  
@@ -30,7 +30,7 @@ Beim Erstellen einer Zertifikatsanforderung an eine Onlinezertifizierungsstelle 
     
 2. Wählen Sie eine andere Zertifizierungsstelle aus.
     
-Wenn Sie die erste Option auswählen, wird eine Dropdownliste mit allen Windows serverbasierten Zertifizierungsstellen angezeigt, die in Ihrer Umgebung erkannt werden. Wählen Sie die Zertifizierungsstelle aus, die für Ihr Zertifikat geeignet ist. Möglicherweise müssen Sie sich an Ihren Zertifizierungsstellenadministrator wenden, um zu wissen, welche Zertifizierungsstelle Sie auswählen müssen.
+Wenn Sie die erste Option auswählen, wird eine Dropdownliste angezeigt, die alle Windows serverbasierten Zertifizierungsstellen enthält, die in Ihrer Umgebung erkannt werden. Wählen Sie die Zertifizierungsstelle aus, die für Ihr Zertifikat geeignet ist. Möglicherweise müssen Sie sich an Ihren Zertifizierungsstellenadministrator wenden, um zu wissen, welche Zertifizierungsstelle Sie auswählen müssen.
   
 Bei Wahl der zweiten Option geben Sie den vollqualifizierten Domänennamen und die Zertifizierungsstelleninstanz der Zertifizierungsstelle ein, die Sie für das Zertifikat verwenden möchten. Diese Option kommt in Frage, wenn die gewünschte Zertifizierungsstelle keine Windows Server-basierte Zertifizierungsstelle ist, jedoch für Windows Server-basierte Zertifizierungsstellen funktioniert.
   

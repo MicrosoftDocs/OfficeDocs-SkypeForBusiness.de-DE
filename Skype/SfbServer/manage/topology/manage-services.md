@@ -2,7 +2,7 @@
 title: Verwalten von Diensten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,16 +11,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie den Dienststatus anzeigen, Dienste starten und beenden und Sitzungen für Dienste verhindern.
-ms.openlocfilehash: c48a6a07605096dfdccc96539d01e5607e171b9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cc5218f5347eb2124f42b8881bce730c74889bda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756982"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864732"
 ---
 # <a name="manage-services-in-skype-for-business-server"></a>Verwalten von Diensten in Skype for Business Server
 
-Sie können die Skype for Business Server Systemsteuerung verwenden, um eine Liste aller Computer anzuzeigen, auf denen Skype for Business Server in Ihrer Topologie ausgeführt wird, den Status von Diensten anzuzeigen, Dienste zu starten oder zu beenden und Sitzungen für Dienste zu verhindern.
+Sie können die Skype for Business Server Systemsteuerung verwenden, um eine Liste aller Computer anzuzeigen, auf denen Skype for Business Server in Ihrer Topologie ausgeführt wird, den Status der Dienste anzuzeigen, Dienste zu starten oder zu beenden und Sitzungen für Dienste zu verhindern.
 
 - [Anzeigen einer Liste der Computer, auf denen Skype for Business Server](#view-a-list-of-computers-running-skype-for-business-server)
 - [Anzeigen des Status von Diensten, die auf einem Computer in Skype for Business](#view-the-status-of-services-running-on-a-computer-in-skype-for-business)
@@ -53,7 +53,7 @@ Verwenden Sie die Skype for Business Server Systemsteuerung, um alle Dienste anz
 
 ### <a name="viewing-service-status-by-using-windows-powershell-cmdlets"></a>Anzeigen des Dienststatus mithilfe Windows PowerShell Cmdlets
 
-Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem cmdlet Get-CsWindowsService anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Weitere Informationen finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md)
+Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet Get-CsWindowsService anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Weitere Informationen finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md)
 
 **So zeigen Sie den Dienststatus an**
 
@@ -85,7 +85,7 @@ Verwenden Sie die Skype for Business Server Systemsteuerung, um alle Skype for B
 
 ### <a name="start-or-stop-all-skype-for-business-server-services-on-a-computer"></a>Starten oder Beenden aller Skype for Business Server Dienste auf einem Computer
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. Sie können ermitteln, ob Ihnen die Rolle "CsServerAdministrator" oder "CsAdministrator RBAC" zugewiesen wurde, indem Sie einen Befehl wie den folgenden ausführen:
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben. Sie können ermitteln, ob Ihnen die Rolle "CsServerAdministrator" oder "CsAdministrator RBAC" zugewiesen wurde, indem Sie einen Befehl wie den folgenden ausführen:
 
     ```powershell
     Get-CsAdminRoleAssignment -Identity "kenmyer"`
@@ -116,7 +116,7 @@ Verwenden Sie die Skype for Business Systemsteuerung, um neue Sitzungen für all
 
 ### <a name="prevent-new-sessions-for-all--skype-for-business-server-services-on-a-computer"></a>Verhindern neuer Sitzungen für alle Skype for Business Server Dienste auf einem Computer
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Skype for Business Server Systemsteuerung verwenden können, finden Sie unter [Installieren und Öffnen von Verwaltungstools.](../../management-tools/install-and-open-administrative-tools.md)
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 4. Sortieren oder durchsuchen Sie auf der Seite Status die Liste, um den Computer zu ermitteln, auf dem die Dienste ausgeführt werden, für die Sie neue Sitzungen verhindern möchten. Klicken Sie anschließend auf den Computer.
@@ -125,7 +125,7 @@ Verwenden Sie die Skype for Business Systemsteuerung, um neue Sitzungen für all
 
 ### <a name="prevent-new-sessions-for-a-specific-service"></a>Verhindern neuer Sitzungen für einen bestimmten Dienst
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Systemsteuerung zu öffnen. Ausführliche Informationen zu den verschiedenen Methoden, die Sie zum Starten der Skype for Business Server Systemsteuerung verwenden können, finden Sie unter [Installieren und Öffnen von Verwaltungstools.](../../management-tools/install-and-open-administrative-tools.md)
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
 4. Klicken Sie auf **Eigenschaften**.

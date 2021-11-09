@@ -21,12 +21,12 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 description: Dieser Anhang enthält ausführliche Schritte zum Aktualisieren des Edgezertifikats im Rahmen der Cloudkonsolidierung für Teams und Skype for Business.
-ms.openlocfilehash: 1c4708f593b1a9bd8fbc2a427e2f0c5df9feab5c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bb8d2eabf17d83546737d3d94fb4add5dc0a892e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610202"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857112"
 ---
 # <a name="update-the-edge-certificate"></a>Aktualisieren des Microsoft Edge-Zertifikats
 
@@ -39,7 +39,7 @@ Der alternative Antragstellername (Subject Alternate Name, SAN) des Zertifikats 
 
 **Schritte:**
 
-1.  Rufen Sie ein neues externes Edgezertifikat für den Edge ab, das alle vorhandenen Einträge sowie zusätzliche Einträge im SAN für alle SIP-Domänen in der Cloudumgebung (mit Ausnahme von *.onmicrosoft.com Domänen) im Format "sip. <DomainName> " enthält.
+1.  Rufen Sie ein neues externes Edgezertifikat für den Edge ab, der alle vorhandenen Einträge sowie zusätzliche Einträge im SAN für alle SIP-Domänen in der Cloudumgebung (mit Ausnahme von *.onmicrosoft.com Domänen) im Formular `sip.<DomainName>` enthält.
 2.  Installieren Sie das Zertifikat lokal auf jedem Edgeserver, und weisen Sie es dem Skype Edgedienst auf jedem Edgedienst zu.  Ausführliche Schritte finden Sie im Abschnitt "Externe Edgeschnittstellenzertifikate" in [Deploy Edge Service in Skype for Business Server 2015.](../../SfbServer/deploy/deploy-edge-server/deploy-edge-servers.md)
 3.  Starten Sie den Edgedienst auf jedem Edgeserver neu. Sie können dies für ein einzelnes Feld mit den folgenden PowerShell-Befehlen tun:
 

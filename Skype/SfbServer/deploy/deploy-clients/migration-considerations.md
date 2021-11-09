@@ -1,7 +1,7 @@
 ---
 title: Skype Überlegungen zur Migration des Raumsystems
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
 description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Umgebung mit mehreren Versionen von Skype for Business Server und Lync Server bereitstellen.
-ms.openlocfilehash: f3a26b630873bad0d3c8585486c91c7250f452e3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b57115a332a647143fc0a3a7ca2c1ee178ad5fe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769733"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850508"
 ---
 # <a name="skype-room-system-migration-considerations"></a>Skype Überlegungen zur Migration des Raumsystems
  
@@ -27,9 +27,9 @@ In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Umgebung mit meh
 
 Dieser Abschnitt enthält Anleitungen, wenn Sie Skype Raumsystem in einer Umgebung mit mehreren Pools bereitstellen, die unterschiedliche Versionen von Skype for Business Server oder Lync Server enthält. 
   
-Die BENUTZERreplikationskomponente (USER Replicator, UR) in Lync Server ruft Benutzerobjekte aus Active Directory ab und platziert sie in der Back-End-SQL Server-Datenbank von Lync Server. Nur die UR in Lync Server 2013 erkennt Skype Room System-Objekte. Die UR in früheren Versionen von Lync Server und Office Communications Server erkennt nicht die Active Directory-Attribute, die LRS-Objekte festlegen, und war ihnen daher nicht bekannt. 
+Die BENUTZERreplikationskomponente (USER Replicator, UR) in Lync Server ruft Benutzerobjekte aus Active Directory ab und platziert sie in der Back-End-SQL Server-Datenbank von Lync Server. Nur die UR in Lync Server 2013 erkennt Skype Room System-Objekte. Die UR in früheren Versionen von Lync Server und Office Communications Server erkennt nicht die Active Directory-Attribute, die LRS-Objekte kennzeichnen, und war ihnen daher nicht bekannt. 
   
-Wenn ein Skype Room System-Konto versucht, sich bei Lync anzumelden, und eine automatische Ermittlung basierend auf dem SRV-Eintrag oder dem DNS-A-Eintrag durchführt, und wenn diese Konten auf eine frühere Version von Lync Server oder Office Communications Server verweisen, erhält LRS eine Antwort vom Legacypool "404 Not Found". Der Legacypool kann Skype Room System nicht an seinen Lync Server 2013-Homepool umleiten. 
+Wenn ein Skype Room System-Konto versucht, sich bei Lync anzumelden, und die automatische Ermittlung basierend auf dem SRV-Eintrag oder dem DNS-A-Eintragssuche durchführt und diese Konten auf eine frühere Version von Lync Server oder Office Communications Server verweisen, erhält LRS eine Antwort vom Legacypool "404 Not Found". Der Legacypool kann Skype Room System nicht zu seinem Lync Server 2013-Homepool umleiten. 
   
 Sie können dieses Problem mit den folgenden Optionen beheben: 
   

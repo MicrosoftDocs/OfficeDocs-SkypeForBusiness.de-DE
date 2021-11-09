@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in Uganda
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams Uganda.
-ms.openlocfilehash: 746d4d368964e19c74a94b8ff623b4bbc639eff8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams für Uganda.
+ms.openlocfilehash: 7143b72ec26782fbc1be9b14e55916f152ed7fc2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760493"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827338"
 ---
 # <a name="availability-in-uganda"></a>Verfügbarkeit in Uganda
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams Uganda.
+Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams für Uganda.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

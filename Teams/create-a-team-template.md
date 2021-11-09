@@ -1,6 +1,6 @@
 ---
 title: Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einem Microsoft Teams.
+description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einer Microsoft Teams.
 ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b7f3574121bb056208748be522af0b9a5f744846
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749694"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864482"
 ---
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
@@ -102,11 +102,11 @@ Erste Schritte:
 
 Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
-**Problem:** Bei verwendung Teams-Apps im Browser wird das Rendern auf einer Registerkarte mit Teams nicht unterstützt.
+**Problem:** Bei verwendung Teams-Apps im Browser wird das Rendern auf einer Registerkarte "Teams" auf einigen Websites nicht unterstützt.
 
 ![browser-Fehlermeldung angezeigt.](media/browser-error-message.png)
 
-**Lösung:** Wenn Sie Probleme beim Anzeigen der Inhalte der Websiteregisterkarte haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Teams stattdessen in der Desktop-App, um ihre App für Websiteregisterkarten anzuzeigen.
+**Lösung:** Wenn Sie Probleme beim Anzeigen der Inhalte der Registerkarte "Website" haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Teams stattdessen in der Desktop-App, um ihre App für Websiteregisterkarten anzuzeigen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

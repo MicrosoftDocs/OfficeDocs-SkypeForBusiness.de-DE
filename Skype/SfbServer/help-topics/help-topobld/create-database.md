@@ -2,7 +2,7 @@
 title: Erstellen der Datenbank
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4d391619-1cab-4265-ae8a-2519993705bc
 description: Der Topologie-Generator bietet eine Möglichkeit zum Installieren von Datenbanken in einem SQL Server Speicher. Wenn Sie Datenbanken mithilfe des Topologie-Generators installieren, liest die Anwendung Informationen aus der Topologie und installiert dann die erforderlichen Datenbanken auf dem angegebenen SQL Server Computer oder SQL Server Cluster. Dies ist die einzige Art von Datenbankinstallation, die bei Verwendung des Topologie-Generators verfügbar ist. Wenn Sie eine bestimmte Datenbank auf einem bestimmten Computer installieren müssen oder wenn Sie eine verbundenen Datenbank installieren müssen, müssen Sie stattdessen Windows PowerShell Befehlszeilenschnittstelle und das cmdlet Install-CsDatabase verwenden.
-ms.openlocfilehash: 1f2bf26626b370e606ce3856f29a2dae2c39ab44
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c6923f81de97fb6210861366ad71f3f87cdd83f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739291"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830189"
 ---
 # <a name="create-database"></a>Erstellen einer Datenbank
  
-Der Topologie-Generator bietet eine Möglichkeit zum Installieren von Datenbanken in einem SQL Server Speicher. Wenn Sie Datenbanken mithilfe des Topologie-Generators installieren, liest die Anwendung Informationen aus der Topologie und installiert dann die erforderlichen Datenbanken auf dem angegebenen SQL Server Computer oder SQL Server Cluster. Dies ist die einzige Art von Datenbankinstallation, die bei Verwendung des Topologie-Generators verfügbar ist. Wenn Sie eine bestimmte Datenbank auf einem bestimmten Computer installieren müssen oder wenn Sie eine verbundenen Datenbank installieren müssen, müssen Sie stattdessen Windows PowerShell Befehlszeilenschnittstelle und das Cmdlet ["Install-CsDatabase"](/powershell/module/skype/install-csdatabase?view=skype-ps) verwenden.
+Der Topologie-Generator bietet eine Möglichkeit zum Installieren von Datenbanken in einem SQL Server Speicher. Wenn Sie Datenbanken mithilfe des Topologie-Generators installieren, liest die Anwendung Informationen aus der Topologie und installiert dann die erforderlichen Datenbanken auf dem angegebenen SQL Server Computer oder SQL Server Cluster. Dies ist die einzige Art von Datenbankinstallation, die bei Verwendung des Topologie-Generators verfügbar ist. Wenn Sie eine bestimmte Datenbank auf einem bestimmten Computer installieren oder eine verbundenen Datenbank installieren müssen, müssen Sie stattdessen Windows PowerShell Befehlszeilenschnittstelle und das Cmdlet ["Install-CsDatabase"](/powershell/module/skype/install-csdatabase?view=skype-ps) verwenden.
   
 ### <a name="creating-a-database"></a>Erstellen einer Datenbank
 
@@ -36,7 +36,7 @@ Der Topologie-Generator bietet eine Möglichkeit zum Installieren von Datenbanke
     
    - **Speicherort für Datenbankdateien automatisch bestimmen**. Bei Auswahl dieser Option verwendet der Topologie-Generator einen integrierten Algorithmus, um den Speicherort für die Datenbankprotokolle und Datendateien auszuwählen.
     
-   - **Standardpfade der SQL Server-Instanz verwenden**. Wenn Sie diese Option auswählen, wird der integrierte Algorithmus nicht verwendet, um die Speicherorte für die Datenbankprotokolle und Datendateien auszuwählen. Stattdessen werden Protokolldateien und Datendateien an den Speicherorten gespeichert, die vom SQL Server Standardpfad angegeben werden (diese Pfade müssen von einem SQL Server Administrator erweitert konfiguriert werden). Datendateien werden im Standardmäßigen SQL Server Speicherort der Datendatei gespeichert, während Protokolldateien im Standardspeicherort SQL Server Protokolldatei gespeichert werden.
+   - **Standardpfade der SQL Server-Instanz verwenden**. Wenn Sie diese Option auswählen, wird der integrierte Algorithmus nicht verwendet, um die Speicherorte für die Datenbankprotokolle und Datendateien auszuwählen. Stattdessen werden Protokolldateien und Datendateien an den Speicherorten gespeichert, die durch den SQL Server Standardpfad angegeben werden (diese Pfade müssen von einem SQL Server Administrator erweitert konfiguriert werden). Datendateien werden im Standardmäßigen SQL Server Speicherort der Datendatei gespeichert, während Protokolldateien im Standardspeicherort SQL Server Protokolldatei gespeichert werden.
     
 4. Klicken Sie auf **OK**.
     

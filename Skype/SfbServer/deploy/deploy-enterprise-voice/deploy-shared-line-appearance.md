@@ -2,7 +2,7 @@
 title: Bereitstellen der Funktion "Gemeinsame Leitungen" in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 474a5e4a-9479-4e86-8607-b9f41a0fa648
 description: In diesem Thema erfahren Sie, wie Sie die Funktion "Gemeinsame Leitungen" (Shared Line Appearance, SLA) in Skype for Business Server kumulativen Update vom November 2015 2015 bereitstellen. SLA ist ein Feature für die Behandlung mehrerer Anrufe für eine bestimmte Nummer, die als freigegebene Nummer bezeichnet wird.
-ms.openlocfilehash: edf731976ae9fbf36f99266f0d993c9e4e78fa34
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e79bb427c28f2c0e8dcc3ff7b5e0d1f6319ac7d8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749444"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835943"
 ---
 # <a name="deploy-shared-line-appearance-in-skype-for-business-server-2015"></a>Bereitstellen der Funktion "Gemeinsame Leitungen" in Skype for Business Server 2015
 
@@ -30,11 +30,11 @@ In diesem Thema erfahren Sie, wie Sie die Funktion "Gemeinsame Leitungen" (Share
 
 Weitere Informationen zu diesem Feature finden Sie unter [Plan for Shared Line Appearance in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/shared-line-appearance.md)
 
-SLA (Shared Line Appearance) ist ein neues Feature in Skype for Business Server kumulativen Update vom November 2015. Um dieses Feature zu aktivieren, müssen Sie zuerst dieses kumulative Update bereitgestellt haben.
+SLA (Shared Line Appearance) ist ein neues Feature in Skype for Business Server, kumulatives Update vom November 2015. Um dieses Feature zu aktivieren, müssen Sie zuerst dieses kumulative Update bereitgestellt haben.
 
 ### <a name="install-shared-line-appearance"></a>Installieren der Funktion "Gemeinsame Leitungen"
 
-1. Führen Sie nach der Bereitstellung des kumulativen Updates vom November 2015 Skype for Business Server den `SkypeServerUpdateInstaller.exe` Patch auf jedem Front-End-Server im Pool aus.
+1. Führen Sie nach der Bereitstellung Skype for Business Server kumulatives Update vom November 2015 den `SkypeServerUpdateInstaller.exe` Patch auf jedem Front-End-Server im Pool aus.
 
 2. Das Installationsprogramm stellt die neueste Version der SLA-Anwendung bereit, die Anwendung ist jedoch nicht standardmäßig aktiviert. Sie wird durch Ausführen der unten beschriebenen Schritte aktiviert:
 
@@ -68,7 +68,7 @@ SLA (Shared Line Appearance) ist ein neues Feature in Skype for Business Server 
 
     Das cmdlet Set-CsSlaConfiguration kennzeichnet das Enterprise-VoIP Konto SLAGroup1 als SLA-Entität, und die Anzahl von SLAGroup1 wird zur Nummer für die SLA-Gruppe. Alle Aufrufe von SLAGroup1 klingeln für die gesamte SLA-Gruppe.
 
-    Im folgenden Beispiel wird eine SLA-Gruppe für einen vorhandenen Enterprise-VoIP Benutzer, SLAGroup1, erstellt und die für SLAGroup1 zugewiesene Nummer als SLA-Hauptliniennummer verwendet.
+    Im folgenden Beispiel wird eine SLA-Gruppe für einen vorhandenen Enterprise-VoIP Benutzer, SLAGroup1, erstellt und die SLAGroup1 zugewiesene Nummer als SLA-Hauptliniennummer verwendet.
 
     Der Befehl legt die maximale Anzahl gleichzeitiger Anrufe für die neue SLA-Gruppe auf 3 fest, und für anrufe, die darüber hinausgehen, um ein besetztes Signal zu hören:
 

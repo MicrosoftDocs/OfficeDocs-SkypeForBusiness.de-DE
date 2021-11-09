@@ -2,7 +2,7 @@
 title: 'Business Server 2015: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5fb5b189-56c1-49cf-92c8-e4fd6e2fdd5c
 description: Erfahren Sie, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.
-ms.openlocfilehash: ce69159126a134893e03ca97e6ac3c2fc20bfda5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4a214dedacdd38b875db93dc5e2b13f35d640169
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738891"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60829449"
 ---
 # <a name="business-server-2015-configure-high-availability-and-disaster-recovery-for-persistent-chat-server"></a>Business Server 2015: Konfigurieren von hoher Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat
  
@@ -45,7 +45,7 @@ Führen Sie im Topologie-Generator die folgenden Schritte aus, um hohe Verfügba
     
     c. Aktivieren Sie die SQL Server Protokollversanddatenbank.
     
-    d. Fügen Sie den sekundären SQL Server Speicher SQL Server Protokollversand hinzu.
+    d. Fügen Sie den sekundären SQL Server Speicher für den SQL Server Protokollversand hinzu.
     
     e. Fügen Sie den SQL Server Speicherspiegel für die sekundäre Datenbank hinzu.
     
@@ -68,7 +68,7 @@ Stellen Sie mithilfe von SQL Server Management Studio eine Verbindung mit der se
 6. Befindet sich der Sicherungsordner auf dem primären Server, geben Sie den lokalen Pfad zum Sicherungsordner im Feld **Wenn sich der Sicherungsordner auf dem primären Server befindet, geben Sie den lokalen Pfad zum Ordner ein (z. B. "c:/backup")** ein. (Befindet sich der Sicherungsordner nicht auf dem primären Server, können Sie dieses Feld leer lassen.)
     
     > [!IMPORTANT]
-    > Wenn das SQL Server Dienstkonto auf Dem primären Server unter dem lokalen Systemkonto ausgeführt wird, müssen Sie ihren Sicherungsordner auf dem primären Server erstellen und einen lokalen Pfad zu diesem Ordner angeben. 
+    > Wenn das SQL Server Dienstkonto auf Ihrem primären Server unter dem lokalen Systemkonto ausgeführt wird, müssen Sie ihren Sicherungsordner auf dem primären Server erstellen und einen lokalen Pfad zu diesem Ordner angeben. 
   
 7. Konfigurieren Sie den Parameter **Dateien löschen, die älter sind als** und den Parameter **Warnen, wenn keine Sicherung erfolgt in**.
     
@@ -121,7 +121,7 @@ Führen Sie die folgenden Schritte aus, damit der Protokollversand fortgesetzt w
 9. Wenn sich der Sicherungsordner auf dem primären Server befindet, geben Sie den lokalen Pfad zum Sicherungsordner im Feld **Wenn sich der Sicherungsordner auf dem primären Server befindet, geben Sie den lokalen Pfad zum Ordner ein** ein. (Wenn sich der Sicherungsordner nicht auf dem primären Server befindet, können Sie dieses Feld leer lassen.)
     
     > [!IMPORTANT]
-    > Wenn das SQL Server Dienstkonto auf Dem primären Server unter dem lokalen Systemkonto ausgeführt wird, müssen Sie ihren Sicherungsordner auf dem primären Server erstellen und einen lokalen Pfad zu diesem Ordner angeben. 
+    > Wenn das SQL Server Dienstkonto auf Ihrem primären Server unter dem lokalen Systemkonto ausgeführt wird, müssen Sie ihren Sicherungsordner auf dem primären Server erstellen und einen lokalen Pfad zu diesem Ordner angeben. 
   
 10. Konfigurieren Sie den Parameter **Dateien löschen, die älter sind als** und den Parameter **Warnen, wenn keine Sicherung erfolgt in**.
     

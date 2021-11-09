@@ -2,7 +2,7 @@
 title: Benutzer zeigen den PIN-Status an
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e4b8cf70-b8c3-499d-b0f9-7019d9b6aae4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 0402ddd9a0db2fda6ed45e4f9888b5bb57ab098e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b5b542e95169f642ea754672fffd3b240c5c4ecd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742581"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843298"
 ---
 # <a name="users-view-pin-status"></a>Benutzer: Anzeigen des PIN-Status
  

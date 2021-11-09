@@ -2,7 +2,7 @@
 title: DNS-Anforderungen für einfache URLs in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 3a3c9b22-892f-45a7-b05c-539d358a1a86
 description: 'Zusammenfassung: Überprüfen Sie die Überlegungen zu einfachen URLs in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.'
-ms.openlocfilehash: d638ff2d3d1b89deaad90c054698692e70ffaae7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1dd3b4b06b704e7d840dd6f430a9ba9782913a3b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777915"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864672"
 ---
 # <a name="dns-requirements-for-simple-urls-in-skype-for-business-server"></a>DNS-Anforderungen für einfache URLs in Skype for Business Server
 
 **Zusammenfassung:** Lesen Sie die Überlegungen zu einfachen URLs in diesem Thema, bevor Sie DNS-Einträge für Skype for Business Server implementieren.
 
-Einfache URLs vereinfachen die Teilnahme an Besprechungen für Ihre Benutzer und erleichtern Administratoren den Zugriff auf Skype for Business Server Verwaltungstools. Einfache URLs verwenden eine eigene Domäne, die keiner der von Ihnen definierten SIP-Domänen entsprechen darf. 
+Einfache URLs erleichtern Ihren Benutzern die Teilnahme an Besprechungen und den Zugriff auf Skype for Business Server Verwaltungstools für Administratoren. Einfache URLs verwenden eine eigene Domäne, die keiner der von Ihnen definierten SIP-Domänen entsprechen darf. 
 
 Skype for Business Server unterstützt die folgenden drei einfachen URLs: Besprechung, Einwahl und Administrator. Sie müssen einfache URLs für Besprechungen und Einwahl einrichten, und die einfache ADMINISTRATOR-URL ist optional. Die zur Unterstützung einfacher URLs erforderlichen DNS-Einträge (Domain Name System) richten sich danach, wie Sie die einfachen URLs definiert haben und ob Sie die Notfallwiederherstellung für einfache URLs unterstützen möchten. 
 
@@ -123,7 +123,7 @@ Wenn Sie diese Methode verwenden, können Sie jede GeoDNS-Adresse so konfigurier
 
 Sie können dieselbe Konfiguration für die einfache Dialin-URL verwenden. Erstellen Sie hierzu zusätzliche Einträge wie im vorherigen Beispiel, die in  `dialin` `meet` den DNS-Einträgen ersetzen. Verwenden Sie für die einfache Admin-URL eine der weiter oben in diesem Abschnitt aufgelisteten drei Optionen.
 
-Sobald diese Konfiguration eingerichtet ist, müssen Sie eine Überwachungsanwendung verwenden, um die HTTP-Überwachung so einzurichten, dass nach Fehlern Ausschau gehalten wird. Überwachen Sie für den externen Zugriff, um sicherzustellen, dass HTTPS GET lyncdiscover.<sipdomain> Anforderungen an den externen Web-FQDN oder die IP-Adresse des Lastenausgleichs für die beiden Pools sind erfolgreich. Beispielsweise dürfen die folgenden Anforderungen keinen **ACCEPT**-Header enthalten und müssen **200 OK** zurückgegeben.
+Sobald diese Konfiguration eingerichtet ist, müssen Sie eine Überwachungsanwendung verwenden, um die HTTP-Überwachung so einzurichten, dass nach Fehlern Ausschau gehalten wird. Überwachen Sie für den externen Zugriff, um sicherzustellen, dass HTTPS GET lyncdiscover.\<sipdomain> Anforderungen an den externen Web-FQDN oder die IP-Adresse des Lastenausgleichs für die beiden Pools sind erfolgreich. Beispielsweise dürfen die folgenden Anforderungen keinen **ACCEPT**-Header enthalten und müssen **200 OK** zurückgegeben.
 
 ```console
 HTTPS GET Pool1ExternalWebFQDN.contoso.com/autodiscover/autodiscoverservice.svc/root

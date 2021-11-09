@@ -2,7 +2,7 @@
 title: Hinzufügen der NAT-IP-Adresse des Edgecomputers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 71fb7752-c37f-46bb-a470-b5a8083aa95f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn die öffentliche IP-Adresse dieses Edgepools von der Netzwerkadressenübersetzung (NAT) übersetzt wird, müssen Sie die zu übersetzende öffentliche IP-Adresse angeben. Dies muss die externe IP-Adresse des A/V-Edgediensts sein.
-ms.openlocfilehash: 03decce6d76ef5f7e30e45c7beba20d4462cd576
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cdd63d72f325aee420cf7caf84dafa6ee4fafa24
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757747"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850268"
 ---
 # <a name="add-edge-machine-nat-ip"></a>Hinzufügen der NAT-IP-Adresse des Edgecomputers
  

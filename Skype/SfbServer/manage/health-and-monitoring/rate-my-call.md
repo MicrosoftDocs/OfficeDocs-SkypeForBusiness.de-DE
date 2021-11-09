@@ -2,7 +2,7 @@
 title: Meinen Anruf in Skype for Business Server bewerten
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Zusammenfassung: Erfahren Sie mehr über die Funktion "Meinen Anruf bewerten" in Skype for Business Server.'
-ms.openlocfilehash: 7786a5e3cb41918c34e5413259b27a01e3f94aaf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768753"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864832"
 ---
 # <a name="rate-my-call-in-skype-for-business-server"></a>Meinen Anruf in Skype for Business Server bewerten
 
@@ -35,11 +35,11 @@ Bevor die Benutzer in Ihrer Skype for Business Server Bereitstellung auf die Fun
 
 -  Sie müssen Skype for Business Server installiert haben (Version 9160 oder höher).
 
-- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren und bitten Sie sie auch, die Skype for Business Benutzeroberfläche zu verwenden.
+- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren und bitten Sie sie auch, die Skype for Business Ui zu verwenden.
 
 - Benutzer müssen im Skype for Business Server Front-End-Pool verwaltet werden.
 
-- Sie benötigen eine Skype for Business Server Überwachungsdatenbank, die Ihren Skype for Business Server Pools zugeordnet ist.
+- Es muss eine Skype for Business Server Überwachungsdatenbank bereitgestellt und Ihren Skype for Business Server Pools zugeordnet sein.
 
 - Es wird empfohlen, das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) bereitzustellen.
 
@@ -72,7 +72,7 @@ Tokendefinitionen sind wie folgt codiert:
 |1  <br/> |DistortedSpeech  <br/> |
 |2  <br/> | ElectronicFeedback <br/> |
 |3  <br/> | BackgroundNoise <br/> |
-|4   <br/> |MuffledSpeech  <br/> |
+|4  <br/> |MuffledSpeech  <br/> |
 |5  <br/> |Echo  <br/> |
 | 21  <br/> | FrozenVideo <br/> |
 |22  <br/> | PixelatedVideo <br/> |
@@ -93,7 +93,7 @@ Tokendefinitionen sind wie folgt codiert:
 |203  <br/> |Video_LowQuality  <br/> |
 |204  <br/> |Video_FrozenVideo  <br/> |
 |205  <br/> |Video_StoppedUnexpectedly  <br/> |
-|30W  <br/> |Video_DarkVideo  <br/> |
+|206  <br/> |Video_DarkVideo  <br/> |
 |207  <br/> |Video_NoAudioSync  <br/> |
 |208  <br/> |Video_Other  <br/> |
 |301  <br/> |Pstn_DialPad  <br/> |
@@ -110,7 +110,7 @@ Tokendefinitionen sind wie folgt codiert:
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Diese Tabelle enthält Abrufergebnisse aus der "Star"-Abstimmung und ggf. aktiviertes Kundenfeedback.
 
-Daten aus Tabellen können mithilfe einer **\* Auswahlabfrage aus [Table.Name]** oder mithilfe von Microsoft SQL Server Management Studio aufgerufen werden.
+Daten aus Tabellen können mithilfe einer **\* Auswahlabfrage aus [Table.Name]** oder mithilfe Microsoft SQL Server Management Studio aufgerufen werden.
 
 Die folgenden SQL Abfragen können verwendet werden:
 
@@ -190,7 +190,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Aktualisieren von Tokendefinitionen
 
-Die neuesten Skype for Business-Clients melden neue Problemtoken-IDs ( \> 100), die möglicherweise nicht in [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Tokendefinitionen zu aktualisieren, kann der folgende SQL Befehl mithilfe von Microsoft SQL Server Management Studio auf der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge in [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
+Die neuesten Skype for Business-Clients melden neue Problemtoken-IDs ( \> 100), die möglicherweise nicht in [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Tokendefinitionen zu aktualisieren, kann der folgende SQL Befehl mit Microsoft SQL Server Management Studio auf der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge in [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

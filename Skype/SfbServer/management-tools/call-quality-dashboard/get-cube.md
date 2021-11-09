@@ -2,7 +2,7 @@
 title: Abrufen von Cubes
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Cube abrufen", der Teil der Daten-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: bb5edc6bba4c374600845d18c371332a62a6085e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 961453404d4abe4f026f240cd03e59a3b4c82993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739151"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60827498"
 ---
 # <a name="get-cube"></a>Abrufen von Cubes
  

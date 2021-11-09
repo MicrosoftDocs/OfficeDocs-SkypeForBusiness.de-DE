@@ -2,7 +2,7 @@
 title: Erstellen eines VIS-Pools in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd8c4f7-057f-4360-8e3e-ec29b58f16a8
 description: 'Zusammenfassung: Erstellen eines Video-Interoperabilität-Serverpools in Skype for Business Server mithilfe des Topologie-Generators.'
-ms.openlocfilehash: e622c6510b23148617ad180ecc61480503a79a8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3c16381e1fceaf280571f2927d8123bc6861dd5c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748801"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864332"
 ---
 # <a name="create-a-vis-pool-in-skype-for-business-server"></a>Erstellen eines VIS-Pools in Skype for Business Server
  
@@ -65,7 +65,7 @@ ms.locfileid: "60748801"
     > Um die Ausfallsicherheit zu verbessern, sollten Sie einen zweiten Video-Interoperabilitätsserver oder VIS-Pool oder einen Front-End-Sicherungspool konfigurieren. Weitere Informationen finden Sie unter [Resilienzmechanismen.](../../plan-your-deployment/video-interop-server.md#resiliency)
   
 Alle mithilfe des Topologie-Generators ausgeführten Aufgaben sollten jetzt abgeschlossen sein. Fahren Sie mit der Installation der Software auf dem neuen VIS-Server oder den neuen Vis-Servern fort.
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Bereitstellen der VIS-Serverrolle in Skype for Business Server](deploy-the-vis-server-role.md)
 
