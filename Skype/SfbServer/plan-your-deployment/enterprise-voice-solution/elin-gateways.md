@@ -2,7 +2,7 @@
 title: Verwalten von Standorten für ELIN-Gateways in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
 description: Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mithilfe von ELIN-Gateways in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: f8440e4e125773e91850b890bb2a02c7d1312fde
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756522"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845168"
 ---
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Verwalten von Standorten für ELIN-Gateways in Skype for Business Server
 
 Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mithilfe von ELIN-Gateways in Skype for Business Server Enterprise-VoIP erforderlich sind.
 
-Damit Skype for Business Server automatisch Speicherorte für Clients innerhalb eines Netzwerks bereitstellen, müssen Sie die folgenden Aufgaben ausführen:
+Damit Skype for Business Server automatisch Speicherorte für Clients in einem Netzwerk bereitstellen, müssen Sie die folgenden Aufgaben ausführen:
 
 - Füllen Sie die Standortinformationsdienst-Datenbank mit einer Netzwerkkarte auf, und schließen Sie die Notrufnummern (Emergency Location Identification Numbers, ELINs) in das Feld "CompanyName" ein.
 
@@ -38,7 +38,7 @@ Damit Skype for Business Server automatisch Speicherorte für Clients innerhalb 
 Ausführliche Informationen zum Ausführen dieser Aufgaben finden Sie unter [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in der Bereitstellungsdokumentation.
 
 > [!NOTE]
-> Speicherorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem sie mithilfe eines Skype for Business Server Verwaltungsshell-Befehls veröffentlicht und in die lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) in der Bereitstellungsdokumentation.
+> Speicherorte, die der zentralen Standortdatenbank hinzugefügt wurden, stehen dem Client erst zur Verfügung, nachdem sie mithilfe eines befehls Skype for Business Server Verwaltungsshell veröffentlicht und in die lokalen Speicher des Pools repliziert wurden. Ausführliche Informationen finden Sie unter [Publishing the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-publish-the-location-database) in der Bereitstellungsdokumentation.
 
 In diesem Abschnitt wird beschrieben, was Sie beim Planen der Aktualisierung und Verwaltung der Standortdatenbank berücksichtigen sollten.
 
@@ -52,7 +52,7 @@ Das **Standortfeld** des Standortinformationsdiensts, das die spezifische Positi
 
 - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Client den richtigen Standort ausgewählt hat. Der Skype for Business-Client verkettet automatisch und zeigt die ermittelten **Felder "Standort"** und **"Ort"** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes <street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
+- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Client den richtigen Standort ausgewählt hat. Der Skype for Business-Client verkettet automatisch und zeigt die ermittelten **Felder "Standort"** und **"Ort"** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes \<street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
 
 - Wenn der Standort ungefähr ist, da er von einem drahtlosen Zugriffspunkt bestimmt wird, können Sie das Wort **[Near]** hinzufügen (z. B. "Near 1st Floor 1234").
 

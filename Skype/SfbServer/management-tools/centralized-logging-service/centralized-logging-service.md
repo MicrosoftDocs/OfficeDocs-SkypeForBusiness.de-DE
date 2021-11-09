@@ -2,7 +2,7 @@
 title: Zentralisierter Protokollierungsdienst in Skype for Business 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 975718a0-f3e3-404d-9453-6224e73bfdd0
 description: 'Zusammenfassung: Erfahren Sie mehr über die Dienstkomponenten und Konfigurationseinstellungen für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015.'
-ms.openlocfilehash: 35d73182ec720ac712e5fb6336a3c1c51d7e3cec
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 457740b04a331d701ce991e696fa7cf88b57230c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739111"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854269"
 ---
 # <a name="centralized-logging-service-in-skype-for-business-2015"></a>Zentralisierter Protokollierungsdienst in Skype for Business 2015
  
@@ -38,7 +38,7 @@ Der zentralisierte Protokollierungsdienst kann:
   - Sie können einen vorhandenen Anbieter verwenden oder einen neuen Anbieter erstellen. Aprovider definiert, was die Protokollierungssitzung erfasst, welche Detailebene, welche Komponenten nachverfolgt werden sollen und welche Flags angewendet werden.
     
     > [!TIP]
-    >  Wenn Sie mit OCSLogger vertraut sind, beziehen sich die Ausdrucksanbieter auf die Auflistung von **Komponenten** (z. B. S4, SIPStack), einen **Protokollierungstyp** (z. B. WPP, EventLog oder IIS-Protokolldatei), eine **Ablaufverfolgungsebene** (z. B. Alle, ausführlich, debuggen) und **Flags** (z. B. TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter (einer Windows PowerShell Variablen) definiert und an den Befehl "Zentralisierter Protokollierungsdienst" übergeben.
+    >  Wenn Sie mit OCSLogger vertraut sind, beziehen sich die Ausdrucksanbieter auf die Auflistung von **Komponenten** (z. B. S4, SIPStack), einen **Protokollierungstyp** (z. B. WPP, EventLog oder IIS-Protokolldatei), eine **Ablaufverfolgungsebene** (z. B. Alle, ausführlich, debuggen) und **Flags** (z. B. TF_COMPONENT, TF_DIAG). Diese Elemente werden im Anbieter definiert (eine Windows PowerShell Variable) und an den Befehl "Zentralisierter Protokollierungsdienst" übergeben.
   
   - Konfigurieren Sie Protokolle für bestimmte Computer und Pools.
     
@@ -93,7 +93,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
   
 ### <a name="to-display-the-current-centralized-logging-service-configuration"></a>So zeigen Sie die aktuelle Konfiguration des zentralisierten Protokollierungsdiensts an
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie den folgenden Befehl an der Eingabeaufforderung ein:
     
@@ -102,7 +102,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
    ```
 
     > [!TIP]
-    > Sie können den Bereich der zurückgegebenen Konfigurationseinstellungen einschränken oder erweitern, indem Sie einen Bereich definieren, z. B.  `-Identity` "Site:Redmond", um nur die CsClsConfiguration für den Standort Redmond zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe an ein anderes Windows PowerShell Cmdlet weiterleiten. Geben Sie beispielsweise Folgendes ein, um Details zu den szenarien abzurufen, die in der Konfiguration für den Standort "Redmond" definiert sind: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
+    > Sie können den Bereich der zurückgegebenen Konfigurationseinstellungen einschränken oder erweitern, indem Sie einen Bereich definieren, z. B.  `-Identity` "Site:Redmond", um nur die CsClsConfiguration für den Standort Redmond zurückzugeben. Wenn Sie Details zu einem bestimmten Teil der Konfiguration wünschen, können Sie die Ausgabe an ein anderes cmdlet Windows PowerShell weiterleiten. Geben Sie beispielsweise Folgendes ein, um Details zu den szenarien abzurufen, die in der Konfiguration für den Standort "Redmond" definiert sind: `Get-CsClsConfiguration -Identity "site:Redmond" | Select-Object -ExpandProperty Scenarios`
   
      ![Beispielausgabe von Get-CsClsConfiguration.](../../media/Ops_Get-CsClsConfiguration_Basic.jpg)
   
@@ -112,7 +112,7 @@ Der zentralisierte Protokollierungsdienst ist so konfiguriert, dass er definiert
 |:-----|:-----|
 |**Identity** <br/> |Identifiziert den Bereich und den Namen dieser Konfiguration. Es gibt nur eine globale Konfiguration sowie eine Konfiguration pro Standort.  <br/> |
 |**Scenarios** <br/> |Auflistung aller Szenarien, die für diese Konfiguration definiert sind.  <br/> |
-|**Searchterms** <br/> |Definierte Suchbegriffe für die Konfiguration. Microsoft 365 oder Office 365, keine lokalen Bereitstellungen.  <br/> |
+|**Searchterms** <br/> |Definierte Suchbegriffe für die Konfiguration. Microsoft 365 oder Office 365, nicht lokale Bereitstellungen.  <br/> |
 |**SecurityGroups** <br/> |Definierte Sicherheitsgruppen, die steuern, wer (welche Mitglieder der Sicherheitsgruppen) Computer basierend auf dem Standort, an dem sie sich befinden, anzeigen können. Der Standort ist in diesem Kontext der Standort, der im Topologie-Generator definiert ist.  <br/> |
 |**Regionen** <br/> |Definierte Regionen werden verwendet, um Sicherheitsgruppen zu einer Region zusammenzufassen, beispielsweise EMEA.  <br/> |
 |**EtlFileRolloverSizeMB** <br/> |Der Parameter gibt die maximale Größe der Protokolldatei vor der Erstellung einer neuen ETL-Datei (Event Trace Log, Ereignis-Ablaufverfolgungsprotokoll) an. Wenn die definierte Größe erreicht ist, wird eine neue Protokolldatei erstellt, auch wenn die in EtlFileRolloverMinutes festgelegte maximale Zeit noch nicht erreicht wurde.  <br/> |

@@ -2,7 +2,7 @@
 title: Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 58269c38-98d9-499f-ab69-6a63a6e5530e
 description: 'Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, indem Sie die folgenden Attribute bearbeiten oder konfigurieren. Die Konfigurationsseite ist in die folgenden Abschnitte unterteilt:'
-ms.openlocfilehash: d7257a8abf61f2d081562e72b40811017dcefaa0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b515acd1aa475247f0f87206a0af50eedb21a294
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855562"
 ---
 # <a name="front-end-general-settings-expander-for-lync-server-2010"></a>Allgemeine Einstellungen für das Front-End für Lync Server 2010 – Erweiterung
 
@@ -43,7 +43,7 @@ Sie bearbeiten die Eigenschaften des Front-End-Servers oder Front-End-Pools, ind
 
 - Wenn Sie die Option "Konferenzen" ausgewählt haben, können Sie **Einwahlkonferenzen (PSTN)** verwenden. Aktivieren Sie das Kontrollkästchen, um die Verwendung der Funktionen für Einwahlkonferenzen zu ermöglichen.
 
-- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP,** wenn Sie Features bereitstellen möchten, mit denen Lync Server 2013 als Telefontelefonsystem mit VoIP-Technologien (Voice over IP) fungiert, einschließlich der Option, Telefone, SIP-Trunks oder Netzwerkverbindungen mit öffentlichen Telefonen mithilfe von Vermittlungsservern, PSTN-Gateways und IP-Nebenstellenanlagen in Kombination oder allein bereitzustellen.  basierend auf dem Entwurf und den Anforderungen. Ausführliche Informationen zu Enterprise-VoIP finden Sie unter [Enterprise-VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) und [Plan for Enterprise-VoIP in Skype for Business Server 2015.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
+- Aktivieren Sie das Kontrollkästchen **Enterprise-VoIP,** wenn Sie Features bereitstellen möchten, mit denen Lync Server 2013 als Telefontelefonsystem mit VoIP-Technologien (Voice over IP) fungiert, einschließlich der Option, Telefone, SIP-Trunks oder Netzwerkverbindungen mit öffentlichen Telefonen mithilfe von Vermittlungsservern, PSTN-Gateways und IP-Nebenstellenanlagen in Kombination oder allein bereitzustellen.  basierend auf dem Entwurf und den Anforderungen. Ausführliche Informationen zu Enterprise-VoIP finden Sie unter [Enterprise-VoIP](/previous-versions/office/lync-server-2013/lync-server-2013-enterprise-voice) und [Plan for Enterprise-VoIP in Skype for Business Server 2015](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice.md)
 
     **Verbände**
 
@@ -99,6 +99,6 @@ Klicken Sie auf **"Abbrechen",** um die Änderungen zu verwerfen und die **Bearb
 
 Klicken Sie auf **Hilfe**, um dieses Hilfethema anzuzeigen.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Definieren und Konfigurieren eines Front-End-Pools oder Standard Edition-Servers](/previous-versions/office/lync-server-2013/lync-server-2013-define-and-configure-a-front-end-pool-or-standard-edition-server)

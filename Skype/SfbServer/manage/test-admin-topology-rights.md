@@ -2,7 +2,7 @@
 title: Testen von Administratortopologierechten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: So testen Sie Topologierechte in Skype for Business Server
-ms.openlocfilehash: 2da77957baaa510ef7669fb6a980de2aacf428a4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759717"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861312"
 ---
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testen von Administratortopologierechten in Skype for Business Server
 
@@ -24,12 +24,12 @@ ms.locfileid: "60759717"
 |--|--|
 |Überprüfungszeitplan|Nach der ersten Skype for Business Server Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.|
 |Testtool|Windows PowerShell|
-|Erforderliche Berechtigungen|Bei lokaler Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br/><br/>Wenn sie mit einer Remoteinstanz von Windows PowerShell ausgeführt werden, müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole \| Where-Object {$_. Cmdlets -match "Test-CsSetupPermission"}|
+|Erforderliche Berechtigungen|Bei lokaler Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br/><br/>Bei Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>Beschreibung
 
-Standardmäßig können nur Domänenadministratoren eine Skype for Business Server Topologie aktivieren und umfangreiche Änderungen an der Skype for Business Server-Infrastruktur vornehmen. Dies ist kein Problem, solange Ihre Domänenadministratoren und Ihre Skype for Business Server-Administratoren identisch sind. In vielen Organisationen besitzen Skype for Business Server Administratoren keine Administratorrechte für die gesamte Domäne. Das bedeutet standardmäßig, dass diese Administratoren (definiert als Mitglieder der Gruppe "RTCUniversalServerAdmins") keine Skype for Business Server Topologieänderungen vornehmen können. Um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Topologieänderungen vorzunehmen, müssen Sie die erforderlichen Active Directory-Berechtigungen mithilfe des [Cmdlets Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) zuweisen.
+Standardmäßig können nur Domänenadministratoren eine Skype for Business Server Topologie aktivieren und umfangreiche Änderungen an der Skype for Business Server Infrastruktur vornehmen. Dies ist kein Problem, solange Ihre Domänenadministratoren und Ihre Skype for Business Server-Administratoren identisch sind. In vielen Organisationen besitzen Skype for Business Server Administratoren keine Administratorrechte für die gesamte Domäne. Das bedeutet standardmäßig, dass diese Administratoren (definiert als Mitglieder der Gruppe "RTCUniversalServerAdmins") keine Skype for Business Server Topologieänderungen vornehmen können. Um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Topologieänderungen vorzunehmen, müssen Sie die erforderlichen Active Directory-Berechtigungen mithilfe des [Cmdlets Grant-CsSetupPermission](/powershell/module/skype/Grant-CsSetupPermission) zuweisen.
  
 Das Cmdlet Test-CsSetupPermission überprüft, ob die erforderlichen Berechtigungen zum Installieren Skype for Business Server oder einer seiner Komponenten im angegebenen Active Directory-Container konfiguriert sind. Wenn die Berechtigungen nicht zugewiesen sind, können Sie das Cmdlet Grant-CsSetupPermission ausführen, um Mitgliedern der Gruppe "RTCUniversalServerAdmins" das Recht zu geben, Skype for Business Server zu installieren und zu aktivieren.
 
@@ -61,7 +61,7 @@ WARNUNG: Detaillierte Ergebnisse finden Sie unter "C:\Users\Admin\AppData\Local\
 
 ## <a name="reasons-why-the-test-might-have-failed"></a>Gründe, warum der Test möglicherweise fehlgeschlagen ist
 
-Es gibt zwar nur selten Ausnahmen, wenn Test-CsSetupPermission fehlschlägt, bedeutet dies in der Regel, dass keine Setupberechtigungen für den angegebenen Active Directory-Container zugewiesen werden. Diese Berechtigungen können mithilfe des Cmdlets Grant-CsSetupPermission zugewiesen werden. Beispielsweise gewährt dieser Befehl Setupberechtigungen für den Computercontainer in der Domäne litwareinc.com:
+Es gibt zwar selten Ausnahmen, wenn Test-CsSetupPermission fehlschlägt, bedeutet dies in der Regel, dass keine Setupberechtigungen für den angegebenen Active Directory-Container zugewiesen werden. Diese Berechtigungen können mithilfe des Cmdlets Grant-CsSetupPermission zugewiesen werden. Beispielsweise gewährt dieser Befehl Setupberechtigungen für den Computercontainer in der Domäne litwareinc.com:
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 

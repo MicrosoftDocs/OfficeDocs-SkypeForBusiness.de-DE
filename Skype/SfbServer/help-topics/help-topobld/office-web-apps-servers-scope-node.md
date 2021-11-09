@@ -2,7 +2,7 @@
 title: Office Web Apps-Server – Bereichsknoten
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie "New Office Web Apps Server" aus, um den Assistenten zu öffnen.
-ms.openlocfilehash: 3be73db10f8250152c0561befa5cf0b1a1778921
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie "Neu Office Web Apps-Server" aus, um den Assistenten zu öffnen.
+ms.openlocfilehash: 862767cc78732b41be4325807599e9b1e89b1eb4
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763933"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854429"
 ---
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps-Server – Bereichsknoten
 
@@ -32,6 +32,6 @@ Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server,** und wähle
 
 - **Hilfe**: Über diese Option greifen Sie auf die Hilfe für den aktiven Knoten zu.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Konfigurieren der Integration mit Office Web Apps Server und Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-office-web-apps-server-and-lync-server-2013)

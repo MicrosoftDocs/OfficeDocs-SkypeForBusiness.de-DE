@@ -2,7 +2,7 @@
 title: Skype for Business Server 2015-Planungstool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Anleitung zur Verwendung des Skype for Business Server 2015-Planungstools.
-ms.openlocfilehash: d7574366fda49ccfa86b1190cfe3ea03e476bc5d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739071"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845318"
 ---
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015-Planungstool
  
@@ -57,7 +57,7 @@ In den folgenden Themen wird das Planungstool vorgestellt und ausführlich besch
     
 - [Überprüfen der Administratorberichte in Skype for Business Server 2015](review-the-administrator-reports.md)
     
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Installieren Skype for Business Server 2015](../../deploy/install/install.md)
   

@@ -2,7 +2,7 @@
 title: Planen von Beschäftigt-Optionen für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f85c6bc-a962-4283-971c-4380d83b3a66
 description: Erfahren Sie mehr über die Beschäftigt-Optionen-Funktion in Skype for Business Server.
-ms.openlocfilehash: d47b31c53b5357a520f6aa0b3a6c0a02c18df8f2
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b233260327688830a338989c14ef0eb24ade781e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756542"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854229"
 ---
 # <a name="plan-for-busy-options-for-skype-for-business-server"></a>Planen von Beschäftigt-Optionen für Skype for Business Server
  
@@ -40,13 +40,13 @@ Wenn beschäftigt-Optionen für die Organisation aktiviert ist, können alle Ben
     
 - Voicemail bei Beschäftigt – In dem neue eingehende Anrufe an Voicemail weitergeleitet werden, wenn der Benutzer ausgelastet ist.
     
-Das Feature Beschäftigt-Optionen bietet Failoverfunktionen. Wenn ein Problem auftritt und Benutzer zu einem anderen Front-End-Server oder zu einem anderen Pool in Skype for Business Server wechseln, bleiben die Beschäftigt-Optionen-Einstellungen erhalten.
+Das Feature Beschäftigt-Optionen bietet Failoverfunktionen. Wenn ein Problem auftritt und Benutzer zu einem anderen Front-End-Server oder zu einem anderen Pool in Skype for Business Server wechseln, bleiben ihre Beschäftigt-Optionen-Einstellungen erhalten.
   
 Unabhängig davon, wie ihre Beschäftigt-Optionen konfiguriert sind, werden Benutzer in einem Anruf oder einer Konferenz oder personen mit einer Warteschleife nicht daran gehindert, neue Anrufe oder Konferenzen zu initiieren. 
   
-Nach der Konfiguration ist die Beschäftigt-Optionen-Einstellung für alle Skype for Business Anrufgeräte und Clients des Benutzers wirksam. Basierend auf den Beschäftigt-Optionen-Einstellungen des Benutzers würde der Anruf, der abgelehnt oder an Voicemail gesendet wird, auf keinem der Anrufgeräte des Benutzers – einschließlich Macintosh, Windows Desktop, mobile Clients oder IP-Telefone – klingeln, auf denen der Benutzer angemeldet ist. 
+Nach der Konfiguration ist die Beschäftigt-Optionen-Einstellung für alle Skype for Business Anrufgeräte und Clients des Benutzers wirksam. Basierend auf den Beschäftigt-Optionen-Einstellungen des Benutzers klingelt der Anruf, der abgelehnt oder an Voicemail gesendet wird, auf keinem der Anrufgeräte des Benutzers , einschließlich Macintosh, Windows Desktop, mobile Clients oder IP-Telefone, auf denen der Benutzer angemeldet ist. 
   
-Benutzern werden Benachrichtigungen über verpasste Anrufe auf ihren Skype for Business Clients und Geräten angezeigt, und sie werden auch per E-Mail benachrichtigt. Anrufer, deren Anruf aufgrund von Beschäftigt bei Gebucht abgelehnt wurde, sehen eine Benachrichtigung in ihrem Skype for Business Client, die besagt, dass der Benutzer, den sie zu erreichen versucht haben, bei einem anderen Anruf ausgelastet ist.
+Benutzern werden Benachrichtigungen über verpasste Anrufe auf ihren Skype for Business Clients und Geräten angezeigt, und sie werden auch per E-Mail benachrichtigt. Anrufer, deren Anruf aufgrund von Beschäftigt bei Gebucht abgelehnt wurde, sehen in ihrem Skype for Business Client eine Benachrichtigung, dass der Benutzer, den sie zu erreichen versucht haben, bei einem anderen Anruf ausgelastet ist.
   
 Sie können das Feature Beschäftigt-Optionen konfigurieren, indem Sie Skype for Business PowerShell-Cmdlets für Folgendes verwenden:
   
@@ -110,6 +110,6 @@ Beschäftigt-Optionen bieten Interoperabilität mit den folgenden VoIP-Anwendung
     
 - Gleichzeitiges Klingeln und Anrufweiterleitung
     
-    Die Beschäftigt-bei-Gebucht-Funktion ist nicht für das Arbeiten mit gleichzeitigen Anrufen und Anrufweiterleitung ausgelegt.
+    Die Beschäftigt-bei-Gebucht-Funktion ist nicht für die Verwendung mit gleichzeitigen Anrufen und Anrufweiterleitung ausgelegt.
     
 

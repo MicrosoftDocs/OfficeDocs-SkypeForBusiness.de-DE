@@ -2,7 +2,7 @@
 title: Office Web Apps-Server – Bereichsknoten – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -14,13 +14,13 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f934e076-1022-40cd-8a4a-0b90ccf6f2a6
-description: 'Klicken Sie im Topologie-Generator mit der rechten Maustaste auf Office Web Apps-Server, um Folgendes auszuführen:'
-ms.openlocfilehash: 873bb25ef84ed6508f7fb5eae4bf8f4993f05234
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server im Topologie-Generator, um Folgendes auszuführen:'
+ms.openlocfilehash: 68cc30e456f314984b802b0b7c04037f4317c466
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743631"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854459"
 ---
 # <a name="office-web-apps-server-scope-node-expander"></a>Office Web Apps-Server – Bereichsknoten – Erweiterung
  

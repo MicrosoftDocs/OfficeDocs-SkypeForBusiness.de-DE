@@ -2,7 +2,7 @@
 title: Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 6c3bf826-e7fd-4002-95dc-01020641ef01
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellen, ändern und entfernen.'
-ms.openlocfilehash: da9a3c431be78a3abeab929fab86f1bf45e6cfa7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 10225be172d91aba18db29a1a6669cfbe8656fa6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855442"
 ---
 # <a name="configure-scenarios-for-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Konfigurieren von Szenarien für den zentralisierten Protokollierungsdienst in Skype for Business Server 2015
  
@@ -57,7 +57,7 @@ Wie [im zentralisierten Protokollierungsdienst in Skype for Business 2015](centr
   
 ### <a name="to-create-a-new-scenario-with-the-new-csclsscenario-cmdlet"></a>So erstellen Sie ein neues Szenario mit dem Cmdlet "New-CsClsScenario"
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Verwenden Sie für die Erstellung eines neuen Szenarios für eine Protokollierungssitzung [New-CsClsProvider](/powershell/module/skype/new-csclsprovider?view=skype-ps), und definieren Sie den Namen für das Szenario (d. h. dessen eindeutige Identifizierung). Wählen Sie als Typ für das Protokollierungsformat entweder WPP (Windows-Präprozessorformat für die Softwareablaufverfolgung, Standard), EventLog (Windows-Ereignisprotokoll-Format) oder IISLog (Datei im ASCII-Format basierend auf dem IIS-Protokolldatei-Format). Definieren Sie anschließend den Protokolliergrad (gemäß der Definition im entsprechenden Abschnitt in diesem Thema) und die Flags (gemäß der Definition im entsprechenden Abschnitt in diesem Thema).
     
@@ -83,7 +83,7 @@ Wie [im zentralisierten Protokollierungsdienst in Skype for Business 2015](centr
 
 ### <a name="to-create-a-new-scenario-with-multiple-providers-with-the-new-csclsscenario-cmdlet"></a>So erstellen Sie ein neues Szenario mit mehreren Anbietern mit dem Cmdlet "New-CsClsScenario"
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Für jeweils einen Geltungsbereich können Sie nur zwei Szenarien erstellen. Sie sind jedoch nicht auf eine feste Anzahl von Anbietern beschränkt. In diesem Beispiel wird davon ausgegangen, dass drei Anbieter erstellt wurden, die Sie allesamt dem Szenario zuweisen möchten, das Sie soeben erstellen. Die Variablennamen der Anbieter lauten LyssProvider, ABServerProvider und SIPStackProvider. Um einem Szenario mehrere Anbieter zu definieren und zuzuweisen, geben Sie Folgendes an einer Skype for Business Server Verwaltungsshell oder Windows PowerShell Eingabeaufforderung ein:
     
@@ -92,11 +92,11 @@ Wie [im zentralisierten Protokollierungsdienst in Skype for Business 2015](centr
    ```
 
     > [!NOTE]
-    > Wie in Windows PowerShell bekannt, wird die Konvention zum Erstellen einer Hashtabelle von Werten mithilfe von `@{<variable>=<value1>, <value2>, <value>…}` Assplatting bezeichnet. Ausführliche Informationen zum Splatting in Windows PowerShell finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) . 
+    > Wie in Windows PowerShell bekannt, wird die Konvention zum Erstellen einer Hashtabelle mit Werten mithilfe von `@{<variable>=<value1>, <value2>, <value>…}` "Assplatting" bezeichnet. Ausführliche Informationen zum Splatting in Windows PowerShell finden Sie unter [https://go.microsoft.com/fwlink/p/?LinkId=267760](/previous-versions/technet-magazine/gg675931(v=msdn.10)) . 
   
 ### <a name="to-modify-an-existing-scenario-with-the-set-csclsscenario-cmdlet"></a>So ändern Sie ein vorhandenes Szenario mit dem Cmdlet "Set-CsClsScenario"
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Es gilt eine Beschränkung auf zwei Szenarien pro Geltungsbereich. Sie können jederzeit ändern, welche Szenarien ausgeführt werden, auch wenn gerade eine Protokollerfassungssitzung läuft. Falls Sie die ausgeführten Szenarien neu definieren, verwendet die aktuelle Protokollierungssitzung ab diesem Zeitpunkt das entfernte Szenario nicht mehr, sondern stattdessen das neue Szenario. Die Protokollinformationen, die im Rahmen des entfernten Szenarios erfasst wurden, verbleiben jedoch in den erfassten Protokollen. Um ein neues Szenario zu definieren, gehen Sie wie folgt vor (d. a. wenn ein bereits definierter Anbieter mit dem Namen "S4Provider" hinzugefügt wird):
     
@@ -130,7 +130,7 @@ Wie [im zentralisierten Protokollierungsdienst in Skype for Business 2015](centr
 
 ### <a name="to-remove-an-existing-scenario-with-the-remove-csclsscenario-cmdlet"></a>So entfernen Sie ein vorhandenes Szenario mit dem Cmdlet "Remove-CsClsScenario"
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Wenn Sie ein Szenario entfernen möchten, das zuvor definiert wurde, geben Sie Folgendes ein:
     
@@ -147,7 +147,7 @@ Wie [im zentralisierten Protokollierungsdienst in Skype for Business 2015](centr
 Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereits erfassten Ablaufverfolgungen sind jedoch nach wie vor in den Protokollen verfügbar und können gesucht werden.
 ### <a name="to-load-and-unload-the-edit-csclsscenario-cmdlet-using-the-clsscenarioeditpsm1-module"></a>So laden und entladen Sie das cmdlet Edit-CsClsScenario mithilfe des Moduls "ClsScenarioEdit.psm1"
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
     > [!IMPORTANT]
     > Das Modul ClsScenarioEdit.psm1 wird als separater Webdownload bereitgestellt. Das Modul ist Teil der Debugtools Skype for Business Server 2015. Standardmäßig werden die Debugtools im Verzeichnis "C:\Program Files\Skype for Business Server 2015\Debugging Tools" installiert. 
@@ -159,7 +159,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
    ```
 
     > [!TIP]
-    > Beim erfolgreichen Laden des Moduls werden Sie an die Eingabeaufforderung Windows PowerShell zurückgegeben. Geben Sie ein, um zu bestätigen, dass das Modul geladen wurde und Edit-CsClsScenario verfügbar  `Get-Help Edit-CsClsScenario` ist. Daraufhin sollte die grundlegende Kurzfassung der Syntax für  EditCsClsScenario angezeigt werden. 
+    > Beim erfolgreichen Laden des Moduls werden Sie an die eingabeaufforderung Windows PowerShell zurückgegeben. Geben Sie ein, um zu bestätigen, dass das Modul geladen wurde und Edit-CsClsScenario verfügbar  `Get-Help Edit-CsClsScenario` ist. Daraufhin sollte die grundlegende Kurzfassung der Syntax für  EditCsClsScenario angezeigt werden. 
   
 3. Geben Sie zum Entladen der Module Folgendes ein:
     
@@ -168,11 +168,11 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
    ```
 
     > [!TIP]
-    > Beim erfolgreichen Entladen des Moduls werden Sie an die Eingabeaufforderung Windows PowerShell zurückgegeben. Geben Sie ein, um zu bestätigen, dass das Modul entladen  `Get-Help Edit-CsClsScenario` wurde. Windows PowerShell versucht, die Hilfe für das Cmdlet zu finden, und schlägt fehl. 
+    > Das erfolgreiche Entladen des Moduls gibt Sie an die eingabeaufforderung Windows PowerShell zurück. Geben Sie ein, um zu bestätigen, dass das Modul entladen  `Get-Help Edit-CsClsScenario` wurde. Windows PowerShell versucht, die Hilfe für das Cmdlet zu suchen, und schlägt fehl. 
   
 ### <a name="to-remove-an-existing-provider-from-a-scenario-with-the-edit-clscontroller-module"></a>So entfernen Sie einen vorhandenen Anbieter mithilfe des Edit-ClsController-Moduls aus einem Szenario
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie im Windows PowerShell Folgendes ein:
     
@@ -181,7 +181,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
    ```
 
     > [!TIP]
-    > Beim erfolgreichen Laden des Moduls werden Sie an die Eingabeaufforderung Windows PowerShell zurückgegeben. Geben Sie ein, um zu bestätigen, dass das Modul geladen wurde und Edit-CsClsScenario verfügbar  `Get-Help Edit-CsClsScenario` ist. Daraufhin sollte die grundlegende Kurzfassung der Syntax für  EditCsClsScenario angezeigt werden. 
+    > Beim erfolgreichen Laden des Moduls werden Sie an die eingabeaufforderung Windows PowerShell zurückgegeben. Geben Sie ein, um zu bestätigen, dass das Modul geladen wurde und Edit-CsClsScenario verfügbar  `Get-Help Edit-CsClsScenario` ist. Daraufhin sollte die grundlegende Kurzfassung der Syntax für  EditCsClsScenario angezeigt werden. 
   
 3. Geben Sie Folgendes ein, um einen Anbieter aus dem AlwaysOn-Szenario zu entfernen:
     
@@ -205,7 +205,7 @@ Das Cmdlet **Remove-CsClsScenario** entfernt das angegebene Szenario, die bereit
     
 ### <a name="to-add-a-provider-to-a-scenario-with-the-edit-clscontroller-module"></a>So fügen Sie ein Szenario mit dem Edit-ClsController-Modul hinzu
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 2. Geben Sie Folgendes ein, um einen Anbieter zum AlwaysOn-Szenario hinzuzufügen:
     

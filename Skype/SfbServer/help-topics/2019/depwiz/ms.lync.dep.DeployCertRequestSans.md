@@ -2,7 +2,7 @@
 title: Zertifikatanforderung (zusätzliche alternative Antragstellernamen)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 99ef9628-72a5-463d-8dd6-4b783dcc8360
 ROBOTS: NOINDEX, NOFOLLOW
 description: Die Option Weitere alternative Antragstellernamen konfigurieren bietet eine Möglichkeit, dem Zertifikat vor dessen Fertigstellung und Anforderung weitere alternative Antragstellernamen hinzuzufügen. Geben Sie zum Hinzufügen des alternativen Antragstellernamens dessen vollqualifizierten Domänennamen ein, und klicken Sie dann auf Hinzufügen. Wenn Sie einen alternativen Antragstellernamen hinzugefügt haben, den Sie löschen möchten, markieren Sie dessen Eintrag, und klicken Sie auf Entfernen. Klicken Sie zum Entfernen aller Einträge mit alternativen Antragstellernamen auf Alle löschen.
-ms.openlocfilehash: b0819a0f04532b41b8645f09d9bac92a9fff3370
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b1c6ebc2f505853c39268142661d03ed70a9aef5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748771"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860782"
 ---
 # <a name="certificate-request-additional-subject-alternate-names"></a>Zertifikatanforderung (zusätzliche alternative Antragstellernamen)
  

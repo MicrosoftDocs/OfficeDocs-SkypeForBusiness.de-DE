@@ -2,7 +2,7 @@
 title: Konfigurieren der PIN-losen Besprechungsteilnahme in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die PIN-lose Besprechungsteilnahmeoption in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 1f579a3f88553130bec68a1e6e6070c742f8824d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770263"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861362"
 ---
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Konfigurieren der PIN-losen Besprechungsteilnahme in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die PIN-lose Besprechungsteilnahmeoption in Skype for Business Server konfigurieren.
   
-Wenn ein Einwahlanrufer versucht, an einer Besprechung teilzunehmen, platziert der Caa-Dienst (Conference Auto Attendant) den Anrufer in einem Haltestift, der sich vom Wartebereich unterscheidet &#x2014; wenn ein Referent noch nicht an einem Anruf teilnimmt und der Einwahlanrufer keine Leiter-PIN eingegeben hat. Mit der PIN-losen Besprechungsteilnahmeoption können Einwahlanrufer an einer Besprechung teilnehmen, ohne eine Leiter-PIN einzugeben, auch wenn sie die erste Person in einem Anruf sind. 
+Wenn ein Einwahlanrufer versucht, an einer Besprechung teilzunehmen, platziert der Caa-Dienst (Conference Auto Attendant) den Anrufer in einem Haltestift, der sich von der Lobby-&#x2014; unterscheidet, wenn ein Referent nicht bereits an einem Anruf teilnimmt und der Einwahlanrufer keine Leiter-PIN eingegeben hat. Mit der PIN-losen Besprechungsteilnahmeoption können Einwahlanrufer an einer Besprechung teilnehmen, ohne eine Leiter-PIN einzugeben, auch wenn sie die erste Person in einem Anruf sind. 
   
 Beachten Sie beim Konfigurieren dieses Features Folgendes:
   

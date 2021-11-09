@@ -2,7 +2,7 @@
 title: Definieren der Benutzeroberfläche für den manuellen Erwerb eines Standorts in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: d37f67d3-e248-483b-b64c-3986559ef357
-description: Planung für Roamingbenutzer in einer E9-1-1-Bereitstellung mit SIP-Trunkinganbietern in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 263c2e79e340492b27d196f73373505f7c1e4f66
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Planen von Roamingbenutzern in einer E9-1-1-Bereitstellung mit SIP-Trunkinganbietern in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: d412c3368dc6f3e302ab8f589aaed1585ea0b233
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60770113"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855282"
 ---
 # <a name="define-the-user-experience-for-manually-acquiring-a-location-in-skype-for-business-server"></a>Definieren der Benutzeroberfläche für den manuellen Erwerb eines Standorts in Skype for Business Server
  
-Planung für Roamingbenutzer in einer E9-1-1-Bereitstellung mit SIP-Trunkinganbietern in Skype for Business Server Enterprise-VoIP.
+Planen von Roamingbenutzern in einer E9-1-1-Bereitstellung mit SIP-Trunkinganbietern in Skype for Business Server Enterprise-VoIP.
   
 Wenn ein Client sich außerhalb des Netzwerks oder in einem nicht definierten Subnetz befindet, kann der Benutzer manuell einen Standort eingeben. Bei einem Notruf wird der Anruf jedoch zuerst an ein nationales/regionales Telefoncenter für Notrufe (Emergency Call Response Center, ECRC) und erst anschließend an eine Rettungsleitstelle (Public Safety Answering Point, PSAP) weitergeleitet. Der Anrufer wird vom ECRC zur Angabe seines Standorts aufgefordert, und anschließend wird der Notruf anhand der bereitgestellten Informationen an die entsprechende Rettungsleitstelle weitergeleitet wird. 
   

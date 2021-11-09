@@ -2,7 +2,7 @@
 title: SBA-Einstellungen der Registrierungsstelle – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 68ea1fc0-9cd1-4e0a-995e-b53845493477
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren die folgenden Eigenschaften:'
-ms.openlocfilehash: 4f12e5a43a195b07b8147d3243880910d36bfa98
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 02c89e7b8938d6446171919655215c63c1c04628
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769193"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845618"
 ---
 # <a name="registrar-sba-settings-expander"></a>SBA-Einstellungen der Registrierungsstelle – Erweiterung
 
@@ -41,6 +41,6 @@ Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren die fo
 
   **Hilfe**: Mit dieser Option zeigen Sie diese Hilfeseite an.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
-[Planen Enterprise-VoIP Ausfallsicherheit](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)
+[Planen Enterprise-VoIP Resilienz](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency)

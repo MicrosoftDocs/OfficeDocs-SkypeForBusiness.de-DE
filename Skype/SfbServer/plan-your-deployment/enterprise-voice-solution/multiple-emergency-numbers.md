@@ -2,7 +2,7 @@
 title: Planen mehrerer Notrufnummern in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,21 +15,21 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: Lesen Sie dieses Thema, um zu erfahren, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
-ms.openlocfilehash: 8e4761b22295d71c33af414e2a92dac7bf1210d6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
+ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741962"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861132"
 ---
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen mehrerer Notrufnummern in Skype for Business Server
  
-Lesen Sie dieses Thema, um zu erfahren, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
+In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
   
 Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Während die Vereinigten Staaten über eine einzige Notrufnummer( 911) verfügen, unterstützen viele Länder mehrere Notrufnummern. Das Vereinigte Königreich unterstützt beispielsweise sowohl 999, die für das Vereinigte Königreich spezifische Notrufnummer als auch 112, die Notrufnummer für die Europäische Union. 
   
-Dieses Feature ist auch für Gesundheitsdienstleister in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern (Code) erhalten möchten.
+Dieses Feature ist auch für Gesundheitsdienstleister in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern mit Code wünschen.
   
 ## <a name="multiple-emergency-numbers-and-location-policies"></a>Mehrere Notrufnummern und Standortrichtlinien
 
@@ -42,11 +42,11 @@ Beachten Sie bei der Planung mehrerer Notrufnummern Folgendes:
 - Mit dem kumulativen Update vom Juni 2016 können Sie bis zu 5 Notrufnummern für eine bestimmte Standortrichtlinie definieren. Mit dem kumulativen Update vom November 2016 erhöht sich diese Zahl auf 100.
     
     > [!NOTE]
-    > Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Wenn Sie noch kein Upgrade auf das kumulative Update vom November 2016 durchgeführt haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Für jede Notrufnummer können Sie null oder mehr Notfallwählmasken angeben, die für eine bestimmte Standortrichtlinie eindeutig sind.
     
-    Eine Wählmaske ist eine Nummer, die Sie beim Wählen in den Wert der Notrufnummer übersetzen möchten. Angenommen, Sie geben in dieses Feld den Wert 212 ein, und das Feld für die Notrufnummer hat den Wert 911. Wenn ein Benutzer 212 wählt, wird die Nummer in 911 übersetzt. Auf diese Weise können alternative Notrufnummern gewählt werden und der Anruf weiterhin Notrufdienste erreichen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem bzw. der sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Der Zeichenfolgengrenzwert für eine Wählmaske beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
+    Eine Wählmaske ist eine Nummer, die Sie beim Wählen in den Wert der Notrufnummer übersetzen möchten. Angenommen, Sie geben in dieses Feld den Wert 212 ein, und das Feld für die Notrufnummer hat den Wert 911. Wenn ein Benutzer 212 wählt, wird die Nummer in 911 übersetzt. Dadurch können alternative Notrufnummern gewählt werden, und der Anruf kann weiterhin Notrufdienste erreichen (z. B. wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Nummer dieses Landes oder dieser Region anstelle der Nummer für das Land oder die Region zu wählen, in dem bzw. der sie sich derzeit befinden). (Dies ist beispielsweise hilfreich, wenn jemand aus einem Land oder einer Region mit einer anderen Notrufnummer versucht, die Notrufnummer des eigenen Lands zu wählen, und nicht die Notrufnummer des Lands oder der Region, in dem/der er sich gerade aufhält.) Um mehrere Notrufmasken zu definieren, trennen Sie die Werte durch ein Semikolon, z. B. 212;414. Der Zeichenfolgengrenzwert für eine Wählmaske beträgt 100 Zeichen. Bei jedem Zeichen muss es sich um eine Ziffer von 0 bis 9 handeln.
     
 - Jede Standortrichtlinie verfügt über eine einzelne PSTN-Verwendung (Public Switched Telephone Network), die verwendet wird, um zu bestimmen, welche VoIP-Route zum Weiterleiten von Notrufen von Clients mithilfe dieser Richtlinie verwendet wird. Die Verwendung kann eine eindeutige Route pro Notrufnummer aufweisen.
     
@@ -101,7 +101,7 @@ Die folgende Tabelle zeigt die Clientunterstützung für mehrere Notrufnummern. 
 ||DC (Deferred Channel) veröffentlicht am 11. Oktober 2016 – Version 1605 (Build 6965.2092)  <br/> |
 |**MSI** <br/> |Update vom 7. Juni – [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac und iOS** <br/> |**Version** <br/> |
-||Skype for Business Mac-Clientversion 16.9  <br/> Skype for Business iOS-Client, Version 6.16  <br/> |
+||Skype for Business Mac-Clientversion 16.9  <br/> Skype for Business iOS-Client version 6.16  <br/> |
 |**Android** <br/> |**Version** <br/> |
 ||Skype for Business Android-Clientversion 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Version** <br/> |

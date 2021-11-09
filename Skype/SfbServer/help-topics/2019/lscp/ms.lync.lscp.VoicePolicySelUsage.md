@@ -2,7 +2,7 @@
 title: Auswählen eines PSTN-Verwendungsdatensatzes
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 80a5b130-2b36-4318-9870-f5176c8d8f62
 ROBOTS: NOINDEX, NOFOLLOW
 description: Suchen Sie im Dialogfeld PSTN-Verwendungseintrag auswählen nach einem vorhandenen PSTN-Verwendungseintrag (Public Switched Telephone Network), den Sie verwenden können.
-ms.openlocfilehash: f643129e794bb2b08af528828830f3cff9f99f23
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac0c30fb724a004d0b177e4230e08d46c4687d64
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761333"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860662"
 ---
 # <a name="select-pstn-usage-record"></a>Auswählen eines PSTN-Verwendungsdatensatzes
  

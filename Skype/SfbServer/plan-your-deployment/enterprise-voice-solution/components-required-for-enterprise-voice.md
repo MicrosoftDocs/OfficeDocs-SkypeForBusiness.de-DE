@@ -2,7 +2,7 @@
 title: Komponenten, die für Enterprise-VoIP in Skype for Business Server erforderlich sind
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ee219976-c39a-4b2f-988d-886c339700f7
 description: Eine Zusammenfassung der Enterprise-VoIP Komponenten in Skype for Business Server.
-ms.openlocfilehash: 80fce2f32521f2d4d5e493efafebbc344cba0e26
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0dcc7578ee427fe6bf37f2bbde48c09ff32d62e7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768523"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855422"
 ---
 # <a name="components-required-for-enterprise-voice-in-skype-for-business-server"></a>Komponenten, die für Enterprise-VoIP in Skype for Business Server erforderlich sind
  
@@ -41,6 +41,6 @@ Um Enterprise-VoIP bereitzustellen, sind die folgenden Komponenten in Ihrer Topo
     
     Der A/V-Authentifizierungsdienst ist mit dem A/V-Edgedienst verknüpft und stellt Authentifizierungsdienste für ihn bereit. Externe Benutzer, die versuchen, eine Verbindung mit dem A/V-Edgedienst herzustellen, benötigen ein vom A/V-Authentifizierungsdienst bereitgestelltes Authentifizierungstoken, damit ihre Anrufe durchgestellt werden können.
     
-- Darüber hinaus werden einige Enterprise-VoIP Komponenten auf Front-End-Servern ausgeführt. Ausführliche Informationen zu diesen Komponenten finden Sie unter ["VoIP-Komponenten für Front-End-Server" für Skype for Business Server](front-end-server-voip.md)
+- Darüber hinaus werden einige Enterprise-VoIP Komponenten auf Front-End-Servern ausgeführt. Ausführliche Informationen zu diesen Komponenten finden Sie unter ["VoIP-Komponenten des Front-End-Servers" für Skype for Business Server](front-end-server-voip.md)
     
 

@@ -2,7 +2,7 @@
 title: Vorbereiten des Schemas (Aufruf)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: f031eb6d-0749-4247-842c-c1e701027ffb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite "Befehle ausführen" wird eine Zusammenfassung der Befehle angezeigt, die ausgegeben werden, um das Schema für Skype for Business Server zu erweitern.
-ms.openlocfilehash: 379f0890dbb9795a60a3d643f3a228fdb517c969
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fb148bd36f0c67ec4af0d3f6f85e64a4814d9793
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60755174"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860762"
 ---
 # <a name="prepare-schema-invoke"></a>Vorbereiten des Schemas (Aufruf)
  

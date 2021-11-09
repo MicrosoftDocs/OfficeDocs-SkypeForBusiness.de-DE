@@ -2,7 +2,7 @@
 title: Konfigurieren von Add-Ins für Chatrooms für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/28/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c1037909-0750-411a-98c1-3a327eed4ae8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Add-Ins für Chatrooms für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: 183ac4cbbdcdddfea65b3a6acab44ef4c81fe662
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c23a0dd11d51bbfa1c49d8a910decda5be0ac48f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745951"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854299"
 ---
 # <a name="configure-add-ins-for-persistent-chat-rooms-in-skype-for-business-server-2015"></a>Konfigurieren von Add-Ins für Chatrooms für beständigen Chat in Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ Add-Ins werden verwendet, um die In-Room-Erfahrung durch Zuordnen von URLs zu Ch
  Bevor Benutzer ein Add-In im Client sehen können, müssen Sie das Add-In der Liste der registrierten Add-Ins hinzufügen, und Chatroommanager oder Ersteller müssen dem Add-In Chatrooms zuordnen.
   
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
 ## <a name="configure-add-ins-for-chat-rooms-by-using-the-control-panel"></a>Konfigurieren von Add-Ins für Chatrooms mithilfe der Systemsteuerung
 
@@ -71,7 +71,7 @@ Sie können Add-Ins für Chatrooms mithilfe der folgenden cmdlets Windows PowerS
 
 Mit dem Cmdlet **"New-CsPersistentChatAddin"** können Sie ein neues Add-In erstellen.
   
-Mit dem folgenden Befehl wird beispielsweise ein neues Add-In (mit dem Namen "ITPersistentChatAddin") für den Pool `atl-cs-001.contoso.com` erstellt. Der URL-Parameter und der Parameterwert `http://atl-cs-001.contoso.com/itchat` geben den Speicherort der Webseite des Add-Ins an:
+Beispielsweise erstellt der folgende Befehl ein neues Add-In (mit dem Namen ITPersistentChatAddin) für den `atl-cs-001.contoso.com` Pool. Der URL-Parameter und der Parameterwert `http://atl-cs-001.contoso.com/itchat` geben den Speicherort der Webseite des Add-Ins an:
   
 ```PowerShell
 New-CsPersistentChatAddin -Name "ITPersistentChatAddin" -PersistentChatPoolFqdn "atl-cs-001.contoso.com" -Url "http://atl-cs-001.contoso.com/itchat"
@@ -95,7 +95,7 @@ Get-CsPersistentChatAddin
 
 ### <a name="remove-an-add-in"></a>Entfernen eines Add-Ins
 
-Sie können ein Add-In mithilfe des **Cmdlets "Remove-CsPersistentChatAddIn"** entfernen. Beispielsweise entfernt der folgende Befehl das Add-In "ITChatAddin" des beständigen Chats, das im Pool gefunden `atl-cs-001.contoso.com` wurde:
+Sie können ein Add-In mithilfe des **Cmdlets "Remove-CsPersistentChatAddIn"** entfernen. Mit dem folgenden Befehl wird z. B. das Add-In "ITChatAddin" des Add-Ins für beständigen Chat entfernt, das im Pool gefunden `atl-cs-001.contoso.com` wurde:
   
 ```PowerShell
 Remove-CsPersistentChatAddin -Identity "atl-cs-001.contoso.com\ITChatAddin"

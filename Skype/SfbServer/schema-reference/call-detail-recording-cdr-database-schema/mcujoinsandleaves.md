@@ -2,7 +2,7 @@
 title: McuJoinsAndLeaves-Tabelle in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4e073366-0b5d-45b4-a3f6-d63dd5fd9f25
 description: Jeder Datensatz in dieser Tabelle enthält Anrufdetails zu einer Kombination aus einem Benutzerbeitritt oder -verlassen und einem Konferenzserver. Wenn ein Benutzer beispielsweise einer Konferenz beitritt, die Webkonferenzen und Audio-/Videoelemente enthält, wird ein Datensatz für die Webkonferenzteilnahme dieses Benutzers erstellt, und ein weiterer Datensatz für die Audio-/Videokonferenzteilnahme des Benutzers.
-ms.openlocfilehash: df18ca4785fab9b56057eb439ab55caa2b1a170f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 35b229d7a3fecbd731fc044cb4c8e30b93e736b3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737601"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844968"
 ---
 # <a name="mcujoinsandleaves-table-in-skype-for-business-server-2015"></a>McuJoinsAndLeaves-Tabelle in Skype for Business Server 2015
  

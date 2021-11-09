@@ -2,7 +2,7 @@
 title: Location-Based Routing für Konferenzen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 8b86740e-db95-4304-bb83-64d0cbb91d47
-description: Planung des standortbasierten Routings für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich Anrufdurchstellungen mit Beratungsgesprächen.
-ms.openlocfilehash: 118ccd13fb85f9566c7b62736514936d4f41f9bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Planung des standortbasierten Routings für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich Anrufdurchstellungen mit Beratungsanruf.
+ms.openlocfilehash: d9fee0304310f551d750be85a9b6e2b0d9a47ad3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768513"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855402"
 ---
 # <a name="location-based-routing-for-conferencing-in-skype-for-business-server"></a>Location-Based Routing für Konferenzen in Skype for Business Server
 
-Planung des standortbasierten Routings für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich Anrufdurchstellungen mit Beratungsgesprächen.
+Planung des standortbasierten Routings für Konferenzen in Skype for Business Server Enterprise-VoIP, einschließlich Anrufdurchstellungen mit Beratungsanruf.
 
-Location-Based Routing ermöglicht es, das Routing von Anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Anrufbeteiligten einzuschränken. mit Location-Based Routing für Konferenzen können Sie Location-Based Routingregeln für Besprechungen (z. B. Konferenzen) erzwingen, um die Gebührenumgehung im öffentlichen Telefonnetz zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt Location-Based Routingeinschränkungen basierend auf dem Standort der teilnehmenden Benutzer. Die Location-Based-Anwendung "Routing für Konferenzen" ermöglicht darüber hinaus die Durchsetzung Location-Based Routingeinschränkungen für beratungsstörende Übertragungen, die PSTN-Endpunkte betreffen.
+Location-Based Routing ermöglicht es, das Routing von Anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Anrufbeteiligten einzuschränken. Location-Based Routing für Konferenzen ermöglicht es Ihnen, Location-Based Routingregeln für Besprechungen (z. B. Konferenzen) zu erzwingen, um die Gebührenumgehung im öffentlichen Telefonnetz zu verhindern. Die Anwendung überwacht eine aktive Konferenz und erzwingt Location-Based Routingeinschränkungen basierend auf dem Standort der teilnehmenden Benutzer. Die Location-Based Routing für Konferenzanwendung ermöglicht darüber hinaus die Erzwingung Location-Based Routingeinschränkungen für beratungsstörende Übertragungen, die PSTN-Endpunkte betreffen.
 
-Die Location-Based Routingkonferenzanwendung bietet Skype for Business Konferenzen einen Mechanismus zur Verhinderung der Gebührenumgehung im öffentlichen Telefonnetz. Die Anwendung überwacht aktive Konferenzen und erzwingt Location-Based Routingeinschränkungen basierend auf dem Standort der Skype for Business teilnehmenden Benutzer.
+Die Location-Based-Routingkonferenzanwendung bietet Skype for Business Konferenzen einen Mechanismus zur Verhinderung von Gebührenumgehungen im öffentlichen Telefonnetz. Die Anwendung überwacht aktive Konferenzen und erzwingt Location-Based Routingeinschränkungen basierend auf dem Standort der Skype for Business teilnehmenden Benutzer.
 
-Die Location-Based Routingkonferenzanwendung bestimmt, ob Location-Based Routing für eine Skype for Business Besprechung erzwungen werden soll, wenn die folgenden Kriterien erfüllt sind:
+Die Location-Based Routingkonferenzanwendung bestimmt, ob Location-Based Routing in einer Skype for Business Besprechung erzwungen werden soll, wenn die folgenden Kriterien erfüllt sind:
 
 - Der Besprechungsorganisator ist für Location-Based Routing aktiviert. Location-Based Routingeinschränkungen werden nur auf Konferenzen angewendet, die von Benutzern organisiert werden, die für Location-Based Routing aktiviert sind.
 
@@ -39,11 +39,11 @@ Die Location-Based Routingkonferenzanwendung bestimmt, ob Location-Based Routing
 
 - Der Netzwerkstandort, an dem das PSTN-Gateway zum Überbrücken der Konferenz mit dem PSTN verwendet wird, sowie die Netzwerkstandorte, von denen die Organisatoren und Teilnehmer eine Verbindung herstellen.
 
-Die Location-Based Routing für Konferenzanwendung verhindert die Teilnahme von Skype for Business Benutzern und PSTN-Endpunkten von verschiedenen Netzwerkstandorten an derselben Konferenz. Wenn der Organisator einer Besprechung für Location-Based Routing aktiviert ist, erzwingt die Konferenzanwendung die folgenden Einschränkungen:
+Die Location-Based Routing für Konferenzanwendung verhindert die Teilnahme von Skype for Business Benutzern und PSTN-Endpunkten von unterschiedlichen Netzwerkstandorten an derselben Konferenz. Wenn der Organisator einer Besprechung für Location-Based Routing aktiviert ist, erzwingt die Konferenzanwendung die folgenden Einschränkungen:
 
-- Die Endpunkte, die an einer Skype for Business Besprechung teilnehmen können, hängen von den Endpunkten ab, die bereits der Konferenz beigetreten sind. Diese Einschränkung wird angepasst, wenn verbundene Endpunkte verlassen und neue Endpunkte der Konferenz beitreten. Wenn Organisatoren und Teilnehmer an einer Skype for Business Besprechung am selben Netzwerkstandort teilnehmen, kann ein PSTN-Endpunkt, ein anderer Teilnehmer vom selben Netzwerkstandort, ein anderer Teilnehmer von einem anderen Netzwerkstandort oder ein Teilnehmer von einem unbekannten Netzwerkstandort teilnehmen.
+- Die Endpunkte, die an einer Skype for Business Besprechung teilnehmen können, sind von den Endpunkten abhängig, die bereits der Konferenz beigetreten sind. Diese Einschränkung wird angepasst, wenn verbundene Endpunkte verlassen und neue Endpunkte der Konferenz beitreten. Wenn Organisatoren und Teilnehmer an einer Skype for Business Besprechung am selben Netzwerkstandort teilnehmen, kann ein PSTN-Endpunkt, ein anderer Teilnehmer vom selben Netzwerkstandort, ein anderer Teilnehmer von einem anderen Netzwerkstandort oder ein Teilnehmer von einem unbekannten Netzwerkstandort teilnehmen.
 
-- Wenn Organisatoren und Teilnehmer von unterschiedlichen oder unbekannten Netzwerkstandorten an der Besprechung teilnehmen, kann ein PSTN-Endpunkt nicht an der Besprechung teilnehmen, wenn der PSTN-Anruf von einem SIP-Trunk ausgeht, der für Location-Based Routing aktiviert ist.
+- Wenn Organisatoren und Teilnehmer von verschiedenen oder unbekannten Netzwerkstandorten an der Besprechung teilnehmen, kann ein PSTN-Endpunkt nicht an der Besprechung teilnehmen, wenn der PSTN-Anruf von einem SIP-Trunk ausgeht, der für Location-Based Routing aktiviert ist.
 
 - Wenn Organisatoren und Teilnehmer alle von demselben Netzwerkstandort aus an der Besprechung teilnehmen und Teilnehmer aus dem PSTN an derselben Besprechung teilnehmen, kann ein Skype for Business Endpunkt von einem anderen Netzwerkstandort nicht an der Besprechung teilnehmen.
 
@@ -51,10 +51,10 @@ Diese Konferenzen Location-Based Routingeinschränkungen werden in der folgenden
 
 |Benutzer in einer Konferenz zu einem bestimmten Zeitpunkt|Benutzer, die an der Konferenz teilnehmen dürfen|Benutzer dürfen nicht an der Konferenz teilnehmen|
 |:-----|:-----|:-----|
-|Skype for Business VoIP-Clientbenutzer von einem einzigen Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer am selben Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem anderen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Partner-Skype for Business VoIP-Clientbenutzer  <br/> Benutzerbeitritt von einem PSTN-Endpunkt aus  <br/> |Keine  <br/> |
-|Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer von einer beliebigen Website  <br/> Skype for Business VoIP-Clientbenutzer von einer unbekannten Website  <br/> Partner-Skype for Business VoIP-Clientbenutzer  <br/> |Benutzerbeitritt über einen PSTN-Endpunkt  <br/> |
-|Skype for Business VoIP-Clientbenutzer von unterschiedlichen Netzwerkstandorten  <br/> |Skype for Business VoIP-Clientbenutzer von einem beliebigen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Partner-Skype for Business VoIP-Clientbenutzer  <br/> |Benutzerbeitritt über einen PSTN-Endpunkt  <br/> |
-|Skype for Business VoIP-Clientbenutzer von einem einzelnen Netzwerkstandort und Benutzer, die von einem PSTN-Endpunkt beitreten  <br/> |Skype for Business VoIP-Clientbenutzer am selben Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer von einem anderen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Partner-Skype for Business VoIP-Clientbenutzer  <br/> |
+|Skype for Business VoIP-Clientbenutzer von einem einzigen Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer am selben Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem anderen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Partnerbenutzer Skype for Business VoIP-Client  <br/> Benutzerbeitritt von einem PSTN-Endpunkt aus  <br/> |None  <br/> |
+|Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer von einer beliebigen Website  <br/> Skype for Business VoIP-Clientbenutzer von einer unbekannten Website  <br/> Partnerbenutzer Skype for Business VoIP-Client  <br/> |Benutzerbeitritt über einen PSTN-Endpunkt  <br/> |
+|Skype for Business VoIP-Clientbenutzer von unterschiedlichen Netzwerkstandorten  <br/> |Skype for Business VoIP-Clientbenutzer von einem beliebigen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Partnerbenutzer Skype for Business VoIP-Client  <br/> |Benutzerbeitritt über einen PSTN-Endpunkt  <br/> |
+|Skype for Business VoIP-Clientbenutzer von einem einzelnen Netzwerkstandort und Benutzer, die von einem PSTN-Endpunkt beitreten  <br/> |Skype for Business VoIP-Clientbenutzer am selben Netzwerkstandort  <br/> |Skype for Business VoIP-Clientbenutzer von einem anderen Netzwerkstandort  <br/> Skype for Business VoIP-Clientbenutzer von einem unbekannten Netzwerkstandort  <br/> Partnerbenutzer Skype for Business VoIP-Client  <br/> |
 
 Im Folgenden finden Sie weitere Merkmale der Location-Based-Anwendung "Routing für Konferenzen":
 
@@ -62,7 +62,7 @@ Im Folgenden finden Sie weitere Merkmale der Location-Based-Anwendung "Routing f
 
 - Ein PSTN-Endpunkt, der einer Konferenz mit Location-Based Routingerzwingungen beitritt, kann unabhängig vom Status der Konferenz nicht teilnehmen, wenn der Endpunkt über einen Trunk beitritt, der nicht für Location-Based Routing aktiviert ist.
 
-- Ein Pbx-System, das über einen SIP-Trunk mit einem Vermittlungsserver verbunden ist und keine Anrufe an das PSTN ausgibt, hat dieselben Erzwingungen wie Skype for Business Benutzer, die sich am selben Netzwerkstandort befinden, an dem der SIP-Trunk definiert ist. Beispielsweise kann ein PSTN-Endpunkt einer Konferenz mit einem PBX-Benutzer und einem Skype for Business-Benutzer beitreten, wenn er sich am selben Netzwerkstandort befindet. andernfalls kann der PSTN-Endpunkt nicht an der Konferenz teilnehmen, wenn sich der PBX-Benutzer an einem anderen Netzwerkstandort befindet als der Skype for Business Benutzer.
+- Ein Pbx-System, das über einen SIP-Trunk mit einem Vermittlungsserver verbunden ist und keine Anrufe an das PSTN weitergibt, hat dieselben Erzwingungen wie Skype for Business Benutzer, die sich am selben Netzwerkstandort befinden, an dem der SIP-Trunk definiert ist. Beispielsweise kann ein PSTN-Endpunkt einer Konferenz mit einem PBX-Benutzer und einem Skype for Business-Benutzer beitreten, wenn er sich am selben Netzwerkstandort befindet. andernfalls kann der PSTN-Endpunkt nicht an der Konferenz teilnehmen, wenn sich der PBX-Benutzer an einem anderen Netzwerkstandort befindet als der Skype for Business Benutzer.
 
 > [!NOTE]
 > Mit Skype for Business kumulativen Update 4 sollte das Verhalten in der folgenden Tabelle beobachtet werden:
@@ -80,11 +80,11 @@ Zusätzlich zum Erzwingen Location-Based Routings zu Skype for Business Besprech
 
 ![Standortbasiertes Routing für Konferenzdiagramm.](../../media/LocationBasedRoutingForConferencing.jpg)
 
-Wenn ein Benutzer, der für Location-Based Routing aktiviert ist, eine Anrufdurchstellung eines PSTN-Endpunkts initiiert (wie in der vorstehenden Abbildung dargestellt), werden zwei aktive Anrufe erstellt, ein Anruf zwischen dem PSTN-Benutzer und Skype for Business Benutzer A und der andere zwischen Skype for Business Benutzer A und Skype for Business Benutzer B. Das folgende Verhalten wird durch t erzwungen. Er Location-Based Routing für konferenzanwendung:
+Wenn ein Benutzer, der für Location-Based Routing aktiviert ist, die Anrufdurchstellung eines PSTN-Endpunkts initiiert (wie in der vorstehenden Abbildung dargestellt), werden dadurch zwei aktive Anrufe erstellt, ein Anruf zwischen dem PSTN-Benutzer und Skype for Business Benutzer A und der andere zwischen Skype for Business Benutzer A und Skype for Business Benutzer B. Das folgende Verhalten wird durch t erzwungen. er Location-Based Routing für Konferenzanwendung:
 
-- Wenn das SIP-Trunkrouting des PSTN-Anrufs berechtigt ist, den PSTN-Anruf erneut an den Netzwerkstandort weiterzuleiten, an dem sich Skype for Business Benutzer B (d. h. Das Übertragungsziel) befindet, wird die Anrufübertragung zugelassen. andernfalls wird die Anrufdurchstellung blockiert. Diese Autorisierung erfolgt basierend auf dem Standort der übertragenen Partei, der sich am gleichen Netzwerkstandort wie der SIP-Trunk befindet, der den aktiven Anruf an den PSTN-Endpunkt weiterleite.
+- Wenn das SIP-Trunkrouting des PSTN-Anrufs autorisiert ist, den PSTN-Anruf an den Netzwerkstandort umzuleiten, an dem sich Skype for Business Benutzer B (d. h. Das Übertragungsziel) befindet, ist die Anrufübertragung zulässig. andernfalls wird die Anrufdurchstellung blockiert. Diese Autorisierung erfolgt basierend auf dem Standort der übertragenen Partei, der sich am gleichen Netzwerkstandort wie der SIP-Trunk befindet, der den aktiven Anruf an den PSTN-Endpunkt weiterleite.
 
-- Wenn das SIP-Trunkrouting des eingehenden PSTN-Anrufs nicht berechtigt ist, Anrufe an den Netzwerkstandort weiterzuleiten, an dem sich die übertragene Partei (Skype for Business Benutzer B) befindet, oder wenn sich die übertragene Partei an einem unbekannten Netzwerkstandort befindet, wird die Anrufweiterleitung an den PSTN-Endpunkt (d. h. das Ziel der Anrufübertragung) blockiert.
+- Wenn das SIP-Trunkrouting des eingehenden PSTN-Anrufs nicht berechtigt ist, Anrufe an den Netzwerkstandort weiterzuleiten, an dem sich die übertragene Partei (Skype for Business Benutzer B) befindet, oder die übertragene Partei sich an einem unbekannten Netzwerkstandort befindet, wird die Anrufweiterleitung an den PSTN-Endpunkt (d. h. das Ziel der Anrufübertragung) blockiert.
 
 In der folgenden Tabelle wird beschrieben, wie Location-Based Routingeinschränkungen von der Anwendung Location-Based Routing für Konferenzen für Anrufdurchstellungen angewendet werden. Obwohl PBX-Endpunkte nicht direkt mit einem Netzwerkstandort verbunden sind, kann dem SIP-Trunk, mit dem die Nebenstellenanlage verbunden ist, ein Netzwerkstandort zugewiesen werden. Daher kann der PBX-Endpunkt indirekt einem Netzwerkstandort zugeordnet werden.
 
@@ -106,14 +106,14 @@ In der folgenden Tabelle wird beschrieben, wie Location-Based Routingeinschränk
 
 ## <a name="requirements"></a>Anforderungen
 
-Die Location-Based Routing für Konferenzanwendung erfordert, dass Skype for Business Server oder lync Server 2013 kumulatives Update 2 auf allen Front-End Pools und Standard Edition Servern in Ihrer Topologie bereitgestellt wird. Wenn diese Serverversionen nicht auf einigen Servern in Ihrer Topologie installiert sind, können Location-Based Routingeinschränkungen bei Besprechungen und Anrufdurchstellungen mit Beratungsgesprächen nicht vollständig erzwungen werden.
+Die Location-Based Routing für Konferenzanwendung erfordert, dass Skype for Business Server oder das kumulative Update 2 für Lync Server 2013 in allen Front-End Pools und Standard Edition Servern in Ihrer Topologie bereitgestellt wird. Wenn diese Serverversionen nicht auf einigen Servern in Ihrer Topologie installiert sind, können Location-Based Routingeinschränkungen bei Besprechungen und Anrufdurchstellungen mit Beratungsgesprächen nicht vollständig erzwungen werden.
 
 In der folgenden Tabelle ist die Kombination aus Serverrollen und Versionen aufgeführt, die Location-Based Routing unterstützen.
 
 
 |Front-End Poolversion|Version des Vermittlungsservers|Unterstützt|
 |:-----|:-----|:-----|
-|Skype for Business Server oder kumulatives Update 2 für Lync Server 2013  <br/> |Skype for Business Server oder kumulatives Update 2 für Lync Server 2013  <br/> |Ja  <br/> |
+|Skype for Business Server oder lync Server 2013 Kumulatives Update 2  <br/> |Skype for Business Server oder lync Server 2013 Kumulatives Update 2  <br/> |Ja  <br/> |
 |Kumulatives Update 2 für Lync Server 2013  <br/> |Kumulatives Update 1 für Lync Server 2013  <br/> |Nein  <br/> |
 |Kumulatives Update 2 für Lync Server 2013  <br/> |Lync Server 2010  <br/> |Nein  <br/> |
 |Kumulatives Update 2 für Lync Server 2013  <br/> |Office Communications Server 2007 R2  <br/> |Nein  <br/> |
@@ -133,7 +133,7 @@ Die Location-Based Routing für Konferenzanwendung basiert auf der Konfiguration
 
 ## <a name="enabling-the-location-based-routing-for-conferencing"></a>Aktivieren des Location-Based Routings für Konferenzen
 
-Die Location-Based Routing für Konferenzanwendung ist standardmäßig deaktiviert. Bevor Sie diese Anwendung aktivieren, müssen Sie die richtige Priorität für die Anwendung bestimmen. Führen Sie das folgende Cmdlet in Skype for Business Server Verwaltungsshell aus, um diese Priorität zu ermitteln:
+Die Location-Based-Anwendung "Routing für Konferenzen" ist standardmäßig deaktiviert. Bevor Sie diese Anwendung aktivieren, müssen Sie die richtige Priorität für die Anwendung bestimmen. Führen Sie das folgende Cmdlet in Skype for Business Server Verwaltungsshell aus, um diese Priorität zu ermitteln:
 
 ```powershell
 Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
@@ -141,7 +141,7 @@ Get-CsServerApplication -Identity Service:Registrar:<Pool FQDN>
 
 In diesem Cmdlet \<Pool FQDN\> ist der Pool, in dem die Location-Based Routing für Konferenzanwendung aktiviert werden soll.
 
-Dieses Cmdlet gibt die Liste der von Skype for Business Server gehosteten Anwendungen und den Prioritätswert für jede von ihnen zurück. Der Location-Based Routing für Konferenzanwendung muss ein Prioritätswert zugewiesen werden, der größer als die Anwendung "UdcAgent" und kleiner als die Anwendungen "DefaultRouting", "ExumRouting" und "OutboundRouting" ist. Es wird empfohlen, der Location-Based Routing für Konferenzanwendung einen Prioritätswert zuzuweisen, der um einen Punkt höher als der Prioritätswert der Anwendung "UdcAgent" ist.
+Dieses Cmdlet gibt die Liste der von Skype for Business Server gehosteten Anwendungen und den Prioritätswert für jede von ihnen zurück. Der Location-Based Routing für Konferenzanwendung muss ein Prioritätswert zugewiesen werden, der größer als die Anwendung "UdcAgent" und kleiner als die Anwendungen "DefaultRouting", "ExumRouting" und "OutboundRouting" ist. Es wird empfohlen, der Location-Based Routing für Konferenzanwendung einen Prioritätswert zuzuweisen, der um einen Punkt über dem Prioritätswert der Anwendung "UdcAgent" liegt.
 
 Wenn die Anwendung "UdcAgent" beispielsweise den Prioritätswert "2" hat, die "DefaultRouting"-Anwendung den Prioritätswert "8", die Anwendung "ExumRouting" den Prioritätswert "9" und die Anwendung "OutboundRouting" den Prioritätswert "10" hat, sollten Sie der Location-Based Routing für Konferenzanwendung den Prioritätswert "3" zuweisen. Auf diese Weise würde die Priorität der Anwendungen in der folgenden Reihenfolge platziert: Andere Anwendungen (Prioritäten: 0 bis 1), "UdcAgent" (Priorität: 2), Location-Based Routingkonferenzanwendung (Priorität: 3), andere Anwendungen (Prioritäten: 4 bis 8), "DefaultRouting" (Priorität: 9), "ExumRouting" (Priorität: 10) und "Ausgehendes Routing" (Priorität: 11).
 

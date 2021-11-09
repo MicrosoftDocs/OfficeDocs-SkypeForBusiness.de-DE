@@ -1,8 +1,8 @@
 ---
-title: Planen des ausgehenden VoIP-Routings in Skype for Business Server
+title: Planen des Ausgehenden VoIP-Routings in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,17 +15,17 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: fde45195-6eb4-403c-9094-57df7fc0bd2a
-description: Erfahren Sie mehr über ausgehendes VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählplänen, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen.
-ms.openlocfilehash: 47b0b196579d69612c3c9d62c8ca9aade008535e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Erfahren Sie mehr über das ausgehende VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählplänen, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen.
+ms.openlocfilehash: 1c8331f1959b03166ecd02b65e6fa1080bb43993
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759507"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861072"
 ---
-# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen des ausgehenden VoIP-Routings in Skype for Business Server
+# <a name="plan-for-outbound-voice-routing-in-skype-for-business-server"></a>Planen des Ausgehenden VoIP-Routings in Skype for Business Server
  
-Erfahren Sie mehr über ausgehendes VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählplänen, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen.
+Erfahren Sie mehr über das ausgehende VoIP-Routing in Skype for Business Server Enterprise-VoIP, einschließlich Anrufweiterleitungseinstellungen, Wählplänen, Normalisierungsregeln, VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen.
   
 Das Routing ausgehender Anrufe gilt für Enterprise-VoIP Anrufe, die für ein PSTN-Gateway, einen Trunk oder eine Nebenstellenanlage bestimmt sind. Wenn ein Skype for Business Benutzer einen Anruf abgibt, normalisiert der Server die Telefonnummer ggf. in das E.164-Format und versucht, sie einem SIP-URI zuzuordnen. Ermittelt der Server keine Übereinstimmung, wird die Routinglogik für ausgehende Anrufe basierend auf der bereitgestellten Wählzeichenfolge angewendet. Sie können diese Logik durch Konfigurieren der Servereinstellungen definieren, die in der folgenden Tabelle beschrieben werden.
   
@@ -304,11 +304,11 @@ Skype for Business Server bietet Flexibilität bei der Weiterleitung von Anrufen
 
 Durch das Festlegen von Trunks, an die verschiedene Rufnummern weitergeleitet werden, können Sie die Routen bestimmen, die die geringsten Kosten verursachen, und sie entsprechend implementieren. Normalerweise wählen Sie Trunks aus, indem Sie den Trunk mit dem nächst gelegenen Gateway zum Standort der Zielrufnummer auswählen, um die Gebühren für Ferngespräche möglichst gering zu halten. Wenn Sie sich z. B. in New York befinden und eine Rufnummer in Rom wählen, leiten Sie den Anruf über das IP-Netzwerk an den Trunk mit dem Gateway in Ihrer Niederlassung in Rom weiter, sodass nur Gebühren für ein Ortsgespräch anfallen.
   
-Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten Verbindungsaufbaus: Fabrikam beschließt, dass deutsche Benutzer Rufnummern in den USA über den US-Trunk wählen sollen. Fabrikam möchte das System auch so konfigurieren, dass alle Anrufe von Benutzern aus den USA Skype for Business Server Deutschland und angrenzenden Ländern/Regionen am Trunk mit dem Gateway in Deutschland beendet werden. Durch dieses Routing wird Geld gespart, da ein Anruf von Deutschland nach Österreich beispielsweise weniger kostspielig ist als ein Anruf aus den USA nach Österreich.
+Das folgende Beispiel zeigt eine Verwendungsmöglichkeit des kostenoptimierten Verbindungsaufbaus: Fabrikam beschließt, dass deutsche Benutzer Rufnummern in den USA über den US-Trunk wählen sollen. Fabrikam möchte das System auch so konfigurieren, dass alle Anrufe von Benutzern aus den USA Skype for Business Server nach Deutschland und angrenzenden Ländern/Regionen am Trunk mit dem Gateway in Deutschland beendet werden. Durch dieses Routing wird Geld gespart, da ein Anruf von Deutschland nach Österreich beispielsweise weniger kostspielig ist als ein Anruf aus den USA nach Österreich.
   
 ### <a name="translating-outbound-dial-strings"></a>Übersetzen ausgehender Wählzeichenfolgen
 
-Skype for Business Server erfordert, dass alle Wählzeichenfolgen in das E.164-Format normalisiert werden, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen. Für Trunks mit Gateways oder Nebenstellenanlagen, für die Nummern in lokale Wählformate übersetzt werden müssen, können Sie mit Skype for Business Server eine oder mehrere Regeln erstellen, mit denen Sie die angerufene Nummer (d. h. den Anforderungs-URI) vor dem Weiterleiten an den Trunk bearbeiten können. Sie können beispielsweise eine Regel schreiben, mit der das Präfix +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
+Skype for Business Server erfordert, dass alle Wählzeichenfolgen in das E.164-Format normalisiert werden, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen. Bei Trunks mit Gateways oder Nebenstellenanlagen, für die Nummern in lokale Wählformate übersetzt werden müssen, können Sie mit Skype for Business Server eine oder mehrere Regeln erstellen, mit denen Sie die angerufene Nummer (d. h. den Anforderungs-URI) vor dem Weiterleiten an den Trunk bearbeiten können. Sie können beispielsweise eine Regel schreiben, mit der das Präfix +44 aus einer Wählzeichenfolge entfernt und durch 0144 ersetzt wird.
   
 Mit Skype for Business Server ist es möglich, eine oder mehrere Regeln zu erstellen, die beim Bearbeiten der Anrufnummer vor dem Weiterleiten an den Trunk helfen.
   

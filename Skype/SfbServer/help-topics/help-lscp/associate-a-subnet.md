@@ -2,7 +2,7 @@
 title: Zuordnen eines Subnetzes
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a0d497d9-01ef-4b34-80dc-517622f9b260
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: e37a25761aaba23e903c4cdd78f6bd812aed968c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 870039d2a8ca8638df7029cbabf7571b17076a37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759877"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60840307"
 ---
 # <a name="associate-a-subnet"></a>Zuordnen eines Subnetzes
 

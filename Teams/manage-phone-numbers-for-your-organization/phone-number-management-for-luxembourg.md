@@ -1,6 +1,6 @@
 ---
 title: Telefon Nummerverwaltung für Luxemburg
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Luxemburg für Microsoft Teams.
-ms.openlocfilehash: a272512e257f09bbfd27a9b29ebb23124802a6bc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a8a9beac82efe81cb23a42066d4867fc74287316
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743861"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860932"
 ---
 # <a name="phone-number-management-for-luxembourg"></a>Telefon Nummerverwaltung für Luxemburg
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre O
   
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In Luxemburg können Sie Telefonnummern für Ihre Organisation über das admin center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an TNS wenden, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<ul><li>[Neue Telefonnummernanforderung für Luxemburg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Neue Telefonnummernanforderung für Luxemburg – Deutsch (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Neue Telefonnummernanforderung für Luxemburg – Luxemburgisch (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Neue Telefonnummernanforderung für Luxemburg – Französisch (v.1.0) (lu-FR)](https://download.microsoft.com/download/f/2/6/f26f72b3-4d14-4b53-8bc1-aa17c1f0ae64/New%20phone%20number%20request%20for%20Luxembourg.pdf)</li></ul> <br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie eines der folgenden Formulare herunterladen: <ul><li>[Kunden in Luxemburg kennen – Französisch v1.0 fr-FR](https://download.microsoft.com/download/5/3/7/537cded0-54f9-4973-8839-e8aec9e60677/know-your-customer-for-luxembourg-(v1.0)-(fr-FR).pdf)</li> <li>[Kunden in Luxemburg kennen – Deutsch v1.0 de-DE](https://download.microsoft.com/download/5/c/5/5c537722-d6bf-40a7-ad79-80a4925395dc/know-your-customer-for-luxembourg-(v1.0)-(de-DE).pdf)</li></ul><br/> vollständig aus, und wenden Sie sich an [den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen. |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In Luxemburg können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und [sich an TNS wenden, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<ul><li>[Neue Telefonnummernanforderung für Luxemburg (v.1.0) (en-lu)](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/new-number-request-forms/new-phone-number-request-for-the-united-states-(v.5.0)-(en-us).pdf?raw=true) </li><li>[Neue Telefonnummernanforderung für Luxemburg – Deutsch (v.1.0) (de-DE)](https://download.microsoft.com/download/a/3/2/a32afd97-3c58-46e7-a823-abd81d065115/new-phone-number-request-for-luxembourg-(v1.0)-(de-DE).pdf)</li><li>[Neue Telefonnummernanforderung für Luxemburg – Luxemburgisch (v.1.0) (lu-LU)](https://download.microsoft.com/download/0/2/b/02b5afa5-bbfa-4606-8d18-a0e28f5ce721/know-your-customer-for-luxembourg-(v1.0)-(lb-LU).pdf)</li><li>[Neue Telefonnummernanforderung für Luxemburg – Französisch (v.1.0) (lu-FR)](https://download.microsoft.com/download/f/2/6/f26f72b3-4d14-4b53-8bc1-aa17c1f0ae64/New%20phone%20number%20request%20for%20Luxembourg.pdf)</li></ul> <br/>Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie eines der folgenden Formulare herunterladen: <ul><li>[Kunden in Luxemburg kennen – Französisch v1.0 fr-FR](https://download.microsoft.com/download/5/3/7/537cded0-54f9-4973-8839-e8aec9e60677/know-your-customer-for-luxembourg-(v1.0)-(fr-FR).pdf)</li> <li>[Kunden in Luxemburg kennen – Deutsch v1.0 de-DE](https://download.microsoft.com/download/5/c/5/5c537722-d6bf-40a7-ad79-80a4925395dc/know-your-customer-for-luxembourg-(v1.0)-(de-DE).pdf)</li></ul><br/> vollständig aus, und wenden Sie sich an [den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen. |
 |Lassen Sie Telefonnummern an uns übertragen.| Laden Sie dieses Formular herunter. <br/>[Genehmigungsschreiben für Luxemburg (alle Nummern) (v.1.0) (en-lu)](https://download.microsoft.com/download/5/d/e/5dec4f65-c5a9-4dae-a576-56c737f739d2/letter-of-authorization-(loa)-for-luxembourg-(all-numbers)-(v1.1)-(en-lu).pdf) <br/> <br/>Füllen Sie das Feld aus, und wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md) <br/><br/>Die Übertragung von Nummern kann in diesem Markt zwei bis drei Wochen dauern.<br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden.    |
 |Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen für die Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
 |Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |

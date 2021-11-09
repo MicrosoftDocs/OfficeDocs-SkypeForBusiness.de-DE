@@ -2,7 +2,7 @@
 title: Serveranforderungen für Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 8d47b242-b93d-4c2e-a658-23b78bca30b1
 description: 'Zusammenfassung: Bereiten Sie Ihre Skype for Business Server 2015-Server mit diesem Thema vor. Hardware, Betriebssystem, Datenbanken, Software, alle Systemanforderungen und Empfehlungen sind hier aufgeführt, um eine erfolgreiche Installation und Bereitstellung Ihrer Serverfarm sicherzustellen.'
-ms.openlocfilehash: ece492adcf126870990ed810455d144c9b90aa5b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f12dcd955f044e626deda5e8e21fec00e53b876c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743351"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860952"
 ---
 # <a name="server-requirements-for-skype-for-business-server-2015"></a>Serveranforderungen für Skype for Business Server 2015
  
@@ -74,7 +74,7 @@ Sobald Sie die Hardware eingerichtet haben, müssen Sie Betriebssysteme (BS) ins
 |Windows Server 2012 R2 Datacenter-Betriebssystem mit allen erforderlichen Updates installiert.   |Windows Server 2012 R2 Standard os with all required updates installed.   |
 |Windows Server 2012 Datacenter Betriebssystem mit allen erforderlichen Updates installiert.   |Windows Server 2012 Standard Betriebssystem mit allen erforderlichen Updates installiert.   |
    
-Wenn sie nicht in dieser Liste enthalten ist, funktioniert sie nicht ordnungsgemäß, versuchen Sie es bitte nicht für Neuinstallationen von Skype for Business Server 2015.
+Wenn sie nicht in dieser Liste enthalten ist, funktioniert sie nicht ordnungsgemäß. Versuchen Sie es bitte nicht für Neuinstallationen von Skype for Business Server 2015.
 
 > [!NOTE]
 > Direkte Upgrades des Betriebssystems werden mit Lync Server 2013 nicht unterstützt. Sie müssen einen separaten Pool bereitstellen und Benutzer in den neuen Pool mit einem anderen Betriebssystem migrieren. Alle Server in einem Pool müssen über dieselbe Betriebssystemversion verfügen.
@@ -84,7 +84,7 @@ Wenn sie nicht in dieser Liste enthalten ist, funktioniert sie nicht ordnungsgem
   
 Zusätzlich zum neuesten Service Pack sollten Sie sicherstellen, dass die folgenden Updates installiert sind, sofern sie für Sie relevant sind:
   
-- Für Windows Server 2012 sollte der KB-Artikel 2858668 vor einem Upgrade installiert werden. [Rufen Sie es hier ab.](https://support.microsoft.com/kb/2858668/)
+- Für Windows Server 2012 sollten KB-Artikel 2858668 vor einem Upgrade installiert werden. [Rufen Sie es hier ab.](https://support.microsoft.com/kb/2858668/)
     
 - Wenn Sie über Windows Server 2012 R2 verfügen, installieren Sie den KB-Artikel 2982006 vor dem Upgrade. [Es ist hier zu finden.](https://support.microsoft.com/kb/2982006/)
     
@@ -100,7 +100,7 @@ Skype for Business Server 2015-Enterprise Edition ist etwas komplizierter, aber 
   
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|:-----|
-|Microsoft SQL Server 2019 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.  |Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.  |Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype for Business kumulativen Update 7 oder höher ausführen ([laden Sie Skype for Business kumulative Update herunter).](https://support.microsoft.com/help/3061064)   |Microsoft SQL Server 2014 Enterprise (64-Bit-Edition), und Sie müssen mit kumulativem Update 6 oder höher[(kumulatives Update 6 herunterladen)](https://support.microsoft.com/kb/3031047/)ausführen.   |Microsoft SQL Server 2012-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.   |
+|Microsoft SQL Server 2019 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.  |Microsoft SQL Server 2017-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.  |Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype for Business kumulativen Update 7 oder höher ausführen ([laden Sie Skype for Business kumulatives Update herunter).](https://support.microsoft.com/help/3061064)   |Microsoft SQL Server 2014 Enterprise (64-Bit-Edition), und Sie müssen mit kumulativem Update 6 oder höher[(kumulatives Update 6 herunterladen)](https://support.microsoft.com/kb/3031047/)ausführen.   |Microsoft SQL Server 2012-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.   |
 |Microsoft SQL Server 2019 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.  |Microsoft SQL Server 2017 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.  |Microsoft SQL Server 2016 Standard (64-Bit-Edition) mit Service Pack 1 oder höher, und Sie müssen mit Skype for Business kumulativen Update 7 oder höher ausführen ([laden Sie Skype for Business kumulative Update herunter).](https://support.microsoft.com/help/3061064)   |Microsoft SQL Server 2014 Standard (64-Bit-Edition), und Sie müssen mit kumulativem Update 6 oder höher[(kumulatives Update 6 herunterladen)](https://support.microsoft.com/kb/3031047/)ausführen.   |Microsoft SQL Server 2012 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.   |
    
 Wenn die hier aufgeführte SQL Server Edition, die Sie verwenden möchten, nicht angezeigt wird, können Sie sie nicht verwenden.
@@ -110,7 +110,7 @@ Wenn die hier aufgeführte SQL Server Edition, die Sie verwenden möchten, nicht
 - Die Freigabe SQL Back-Ends zwischen zwei oder mehr Pools wird nicht unterstützt.
 
 ### <a name="microsoft-exchange-storage"></a>Microsoft Exchange-Speicher
-Besprechungsinhaltsdateien, z. B. PowerPoint Präsentationen, werden als Anlagen archiviert. Wenn Sie Skype for Business Archivdaten mit Exchange Compliancedaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhaltsdateien unterstützt. Sie müssen Exchange bereitstellen, bevor Sie die Archivierung mithilfe der Integrationsoption "Microsoft Exchange" bereitstellen und aktivieren. 
+Besprechungsinhaltsdateien, z. B. PowerPoint Präsentationen, werden als Anlagen archiviert. Wenn Sie Skype for Business Archivdaten mit Exchange Compliancedaten speichern möchten, müssen Sie Exchange für Ihre Exchange-Bereitstellung verwenden und sicherstellen, dass die maximale Speichergröße die Speicherung der Besprechungsinhaltsdateien unterstützt. Sie müssen Exchange bereitstellen, bevor Sie die Archivierung mithilfe der Microsoft Exchange-Integrationsoption bereitstellen und aktivieren. 
     
 Wenn Sie Exchange Speicher verwenden, müssen Sie keine separaten SQL Server Datenbanken für die Archivierung bereitstellen, es sei denn, Sie verfügen über Skype for Business Benutzer, die nicht auf Ihren Exchange Servern verwaltet werden. Wenn Sie die Archivierung mithilfe der Microsoft Exchange-Integrationsoption bereitstellen, werden Skype for Business Archivdaten mit Exchange Compliancedaten nur für die Benutzer gespeichert, die auf Ihren Exchange Servern verwaltet werden. 
   
@@ -122,18 +122,18 @@ Die Archivierung verwendet den Skype for Business Server Dateispeicher für die 
     
 Microsoft Message Queuing ist nicht erforderlich.
     
-Sie müssen die Infrastruktur für den Archivierungsspeicher einrichten. Dazu gehört die Auswahl von Exchange oder Archivierungsspeicher mit SQL Server.   Skype for Business Server Die Anforderungen an die Archivierungsinfrastruktur sind identisch mit den Anforderungen für die Bereitstellung von Skype for Business Server. Ausführliche Informationen finden Sie unter ["Anforderungen für Ihre Skype for Business Umgebung".](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) 
+Sie müssen die Infrastruktur für den Archivierungsspeicher einrichten. Dazu gehört die Auswahl von Exchange oder Archivierungsspeicher mit SQL Server.   Skype for Business Server Die Anforderungen an die Archivierungsinfrastruktur sind mit denen für die Bereitstellung von Skype for Business Server identisch. Ausführliche Informationen finden Sie unter ["Anforderungen für Ihre Skype for Business Umgebung".](../../plan-your-deployment/requirements-for-your-environment/requirements-for-your-environment.md) 
   
 > [!NOTE]
-> Um Benutzer zu unterstützen, die nicht auf Exchange Servern verwaltet werden, oder wenn Sie die Microsoft Exchange-Integrationsoption nicht verwenden möchten, müssen Sie archivierungsspeicher mithilfe einer 64-Bit-SQL Server-Datenbank bereitstellen. 
+> Um Benutzer zu unterstützen, die nicht auf Exchange Servern verwaltet werden, oder wenn Sie die Microsoft Exchange-Integrationsoption nicht verwenden möchten, müssen Sie den Archivierungsspeicher mithilfe einer 64-Bit-SQL Server-Datenbank bereitstellen. 
     
-Sie müssen die SQL Server Plattformen vor der Bereitstellung und Aktivierung der Archivierung einrichten. Wenn das zum Veröffentlichen der Topologie zu verwendende Konto über die entsprechenden Administratorrechte und Berechtigungen verfügt, können Sie die Archivierungsdatenbank (LcsLog) erstellen, wenn Sie Ihre Topologie veröffentlichen. Sie können die Datenbank auch später erstellen, die im Rahmen des Installationsvorganges enthalten ist. Ausführliche Informationen zu SQL Server finden Sie in der [SQL Server Dokumentation.](/sql/sql-server/)
+Sie müssen die SQL Server Plattformen einrichten, bevor Sie die Archivierung bereitstellen und aktivieren. Wenn das zum Veröffentlichen der Topologie zu verwendende Konto über die entsprechenden Administratorrechte und Berechtigungen verfügt, können Sie die Archivierungsdatenbank (LcsLog) erstellen, wenn Sie Ihre Topologie veröffentlichen. Sie können die Datenbank auch später erstellen, die im Rahmen des Installationsvorganges enthalten ist. Ausführliche Informationen zu SQL Server finden Sie in der [SQL Server Dokumentation.](/sql/sql-server/)
     
 Die Laststeigerung für die Archivierung kann erheblich sein. Daher sollten Sie sicherstellen, dass der Speicherplatz für Front-End-Server ausreicht, auf denen die Archivierung aktiviert ist.
 
 ### <a name="sql-mirroring-sql-clustering-and-sql-always-on"></a>SQL Spiegelung, SQL Clustering und SQL AlwaysOn
 
-Sie können SQL Spiegelung oder SQL Clustering mit Skype for Business Server 2015 verwenden, dies wird unterstützt. SQL Die Spiegelung wird über den Skype for Business Server Topologie-Generator eingerichtet. Wenn Sie SQL Clustering einrichten möchten, geschieht dies in SQL Server.
+Sie können SQL Spiegelung oder SQL Clustering mit Skype for Business Server 2015 verwenden, wird dies unterstützt. SQL Die Spiegelung wird über den Skype for Business Server Topologie-Generator eingerichtet. Wenn Sie SQL Clustering einrichten möchten, geschieht dies in SQL Server.
   
 Stellen Sie sicher, dass Sie über eine aktive/passive Konfiguration für SQL Clustering verfügen, da dies unterstützt wird. Geben Sie den passiven Knoten nicht für andere SQL Instanz frei.
   
@@ -149,27 +149,27 @@ Zwei Knoten:
 
 - Microsoft SQL Server 2014 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.
     
--  Microsoft SQL Server 2012 Standard (64-Bit-Edition) und wir empfehlen die Ausführung mit dem neuesten Service Pack.
+-  Microsoft SQL Server 2012 Standard (64-Bit-Edition), und es wird empfohlen, das neueste Service Pack zu verwenden.
 
 16 Knoten:
 
 - Microsoft SQL Server 2019 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 
-- Microsoft SQL Server 2017-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
+- Microsoft SQL Server 2017 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 
 - Microsoft SQL Server 2016 Enterprise (64-Bit-Edition) mit Service Pack 1 oder höher. Es wird empfohlen, das neueste Service Pack zu verwenden.
   
 - Microsoft SQL Server 2014 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
     
-- Microsoft SQL Server 2012-Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
+- Microsoft SQL Server 2012 Enterprise (64-Bit-Edition), und wir empfehlen die Ausführung mit dem neuesten Service Pack.
 
 > [!IMPORTANT]
 > Beim Upgrade sollten Sie sicherstellen, dass auf Ihren Front-End-Servern mindestens SQL Server 2012 SP1 vor dem Upgrade installiert ist. [Hier ist ein Link](https://www.microsoft.com/download/details.aspx?id=35575) zu SP1, wenn Sie es sofort herunterladen möchten.
   
-Wenn Sie mehr über SQL Spiegelung lesen müssen, finden Sie im Thema Skype for Business Server 2015 die hohe Verfügbarkeit von Back-End-Servern. Konfigurieren SQL Server Clustering für Skype for Business Server 2015 umfasst die Schritte für die Vorbereitung des Clusterings. Es gibt auch weitere Links zum Failoverclustering für SQL, für [2014,](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) [2012](/previous-versions/sql/sql-server-2012/hh231721(v=sql.110))und [2008.](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105))
+Wenn Sie mehr über SQL Spiegelung lesen müssen, finden Sie in Skype for Business Server 2015 eine Back-End-Server-Hochverfügbarkeit. Konfigurieren SQL Server Clustering für Skype for Business Server 2015 umfasst die Schritte zum Vorbereiten des Clusterings. Es gibt auch weitere Links zum Failoverclustering für SQL, für [2014,](/sql/sql-server/failover-clusters/install/sql-server-failover-cluster-installation) [2012](/previous-versions/sql/sql-server-2012/hh231721(v=sql.110))und [2008.](/previous-versions/sql/sql-server-2008-r2/ms189134(v=sql.105))
   
 > [!NOTE]
-> Neu in der Version 2015 ist die Unterstützung von SQL AlwaysOn. Dies wird unterstützt. Weitere Informationen finden Sie im Thema zur hohen Verfügbarkeit von [Back-End-Servern in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md)
+> Neu in der Version 2015 ist die Unterstützung von SQL AlwaysOn. Es wird unterstützt, und Sie können weitere Informationen dazu im Thema zur hohen Verfügbarkeit von [Back-End-Servern in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md) lesen.
 
 > [!NOTE]
 > SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering werden mit Skype for Business Server 2019 bevorzugt.  
@@ -186,11 +186,11 @@ Es gibt einige Dinge, die Sie für jeden Server installieren oder konfigurieren 
 |:-----|:-----|
 |Windows PowerShell 3.0   |Alle Skype for Business Server Server müssen Windows PowerShell 3.0 installiert sein.  <br/> • Wenn Sie die Installation auf Windows Server 2012 oder Windows Server 2012 R2 durchführen, sind Sie festgelegt, da sie bereits vorhanden ist.  <br/> • Wenn Sie ein Upgrade auf Windows Server 2008 R2 durchführen, können Sie die [Windows Management Framework 3.0](https://www.microsoft.com/download/details.aspx?id=34595) herunterladen, um sie zu erhalten. <br/> **Tipp:** Sobald Sie die richtige PowerShell aktiviert haben, bestätigen Sie, dass es sich um BuildVersion 6.2.9200.0 oder höher handelt, indem Sie zur PowerShell-Eingabeaufforderung wechseln und `$PSVersionTable` eingeben. Dadurch sollten die benötigten Informationen angezeigt werden.   |
 |Microsoft .NET Framework   |WCF-Dienste sind ein **Feature,** das als Windows-Feature unter **Server-Manager** installiert ist, ohne dass Downloads erforderlich sind. <br/> • Sie müssen sicherstellen, dass bei der Installation dieses Features oder wenn es bereits installiert ist und Sie es aktivieren, dass die **HTTP-Aktivierungsoption** ebenfalls wie folgt aktiviert und installiert ist: <br/> ![Screenshot der HTTP-Aktivierungsoption unter den Features .NET Framework 4.5.](../../media/a4064fa0-fa49-4474-bd98-b9a79ff68f8b.png) <br/> Machen Sie sich keine Sorgen, wenn Sie ein zusätzliches Popup erhalten, das besagt, dass einige andere Dinge installiert werden müssen, damit die HTTP-Aktivierung installiert werden kann. Das ist normal, klicken Sie auf "OK", und fahren Sie fort. Wenn Sie dieses Popup nicht erhalten, gehen Sie davon aus, dass diese Elemente bereits installiert sind, und fahren Sie fort.  <br/> Microsoft .NET Framework wird in der Regel installiert, wenn Windows Server 2012 R2 oder Windows Server 2016 installiert sind. Skype for Business Server funktioniert mit den folgenden Microsoft .NET Framework-Versionen:  <br/> • .NET 3.5  <br/> • .NET 4.5  <br/> • .NET 4.6.x  <br/> • .NET 4.7.1 (für Skype for Business Server CU 5 oder höher)  <br/> • .NET 4.7.2 (für Skype for Business Server CU 6 oder höher)  <br/>  • .NET 4.8 (für Skype for Business Server CU 9 oder höher) <br/>  .NET Framework 3.5 wird wahrscheinlich standardmäßig auf Ihrem Windows Server 2008 R2-Computer installiert (überprüfen Sie auf jeden Fall, ob Sie sich vor dem Upgrade vergewissern), aber es befindet sich nicht auf Ihren Windows Server 2012/Windows Server 2012 R2-Servern (für Neuinstallationen). Um es hinzuzufügen, benötigen Sie Zugriff auf Ihr Installationslaufwerk oder Medien (den Ort, von dem aus Ihr Windows Server installiert wurde oder wo sich die Installationsdateien jetzt befinden). Installieren Sie es dann als Feature vom Server-Manager, zeigen Sie auf das Installationsmedium (insbesondere den Ordner **\sources\sxs),** wenn Sie dazu aufgefordert werden, und installieren Sie es weiter.  |
-|Media Foundation   |Für Windows Server 2016 Windows Server 2012 und Windows Server 2012 R2 wird die Windows Media Format Runtime mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition server, die für Konferenzen verwendet werden, erfordern Windows Media Format Runtime, um die WMA-Dateien (Windows Media Audio) auszuführen, die von den Anwendungen für das Parken von Anrufen, ankündigungen und Reaktionsgruppen für Ankündigungen und Musik wiedergegeben werden.   |
+|Media Foundation   |Für Windows Server 2016 wird Windows Server 2012 und Windows Server 2012 R2 die Windows Media Format Runtime mit Microsoft Media Foundation installiert.  <br/> Alle Front-End-Server und Standard Edition server, die für Konferenzen verwendet werden, erfordern Windows Media Format Runtime, um die WMA-Dateien (Windows Media Audio) auszuführen, die von den Anwendungen für das Parken von Anrufen, ankündigungen und Reaktionsgruppen für Ankündigungen und Musik wiedergegeben werden.   |
 |Windows Identity Foundation  <br/> |Wir benötigen Windows Identity Foundation 3.5, um Server-zu-Server-Authentifizierungsszenarien für Skype for Business Server 2015 zu unterstützen.  <br/> • Für Windows Server 2012 und Windows Server 2012 R2 müssen Sie nichts herunterladen. Öffnen Sie **den Server-Manager,** und wechseln Sie zum Assistenten zum Hinzufügen von **Rollen und Features.** **Windows Identity Foundation 3.5** ist im Abschnitt **"Features"** aufgeführt. Wenn es aktiviert ist, sind Sie gut. Wählen Sie sie andernfalls aus, und klicken Sie auf "Weiter", um die Schaltfläche **"Installieren"** zu erreichen.  |
 |Remoteserver-Verwaltungstools   |Rollenverwaltungstools: AD DS- und AD LDS-Tools   |
    
- **Front-End-Server und Standard Edition-Server benötigen außerdem Folgendes:**
+ **Front-End-Server und Standard Edition Server benötigen außerdem Folgendes:**
   
 |Software/Rolle|Details|
 |:-----|:-----|
@@ -208,7 +208,7 @@ Add-WindowsFeature NET-Framework-Core, RSAT-ADDS, Windows-Identity-Foundation, W
 ```
 
 > [!NOTE] 
-> Der Befehl sucht in einer bestimmten Reihenfolge nach Quelldateien. Wenn Sie online sind, greift der Befehl auf Windows Update zu. Wenn Sie jedoch offline sind, müssen Sie sicherstellen, dass die Quelldateien für den Befehl verfügbar sind. Weitere Informationen zur Verwendung von PowerShell zum Installieren von Rollen und Features finden Sie unter Installieren oder Deinstallieren von [Rollen, Rollendiensten oder Features.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) Vergessen Sie nicht, Windows Update nach der Installation der erforderlichen Komponenten erneut auszuführen, auch wenn Sie den PowerShell-Befehl verwenden.
+> Der Befehl sucht in einer bestimmten Reihenfolge nach Quelldateien. Wenn Sie online sind, greift der Befehl auf Windows Update zu. Wenn Sie jedoch offline sind, müssen Sie sicherstellen, dass die Quelldateien für den Befehl verfügbar sind. Weitere Informationen zur Verwendung von PowerShell zum Installieren von Rollen und Features finden Sie unter [Installieren oder Deinstallieren von Rollen, Rollendiensten oder Features.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831809(v=ws.11)) Vergessen Sie nicht, Windows Update nach der Installation der erforderlichen Komponenten erneut auszuführen, auch wenn Sie den PowerShell-Befehl verwenden.
 
  **Directors benötigen außerdem:**
   
@@ -256,7 +256,7 @@ IIS, wobei die folgenden Module ausgewählt sind:
     
   - ISAPI-Filter
     
-(Wenn Sie sich fragen, ist es dasselbe Modul wie die Front-End-Server und Standard Edition-Server, wobei die Tools für die Komprimierung dynamischer Inhalte und die Verwaltungstools weggelassen werden.)
+(Wenn Sie sich fragen, ist es dasselbe Modul wie die Front-End-Server und Standard Edition-Server, wobei die Tools für die dynamische Inhaltskomprimierung und -verwaltung weggelassen werden.)
   
 Dafür haben wir auch folgenden PowerShell-Code:
   

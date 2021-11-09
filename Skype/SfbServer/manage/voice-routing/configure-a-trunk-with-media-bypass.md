@@ -1,8 +1,8 @@
 ---
-title: 'Skype for Business Server : Konfigurieren eines Trunks mit Medienumgehung'
+title: 'Skype for Business Server: Konfigurieren eines Trunks mit Medienumgehung'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,14 +11,14 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Konfigurieren eines Trunks mit aktivierter Medienumgehung "
-ms.openlocfilehash: 40a3b991481a8cf9cfb26be8ad45aa97dccf261f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3255aa946cdbec46bf76860d64fe2ca367862a50
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739231"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861252"
 ---
-# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server : Konfigurieren eines Trunks mit Medienumgehung 
+# <a name="skype-for-business-server---configure-a-trunk-with-media-bypass"></a>Skype for Business Server: Konfigurieren eines Trunks mit Medienumgehung 
 
 Führen Sie die folgenden Schritte aus, um einen Trunk mit aktivierter Medienumgehung zu konfigurieren. Informationen zum Konfigurieren eines Trunks mit deaktivierter Medienumgehung finden Sie unter [Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server.](configure-a-trunk-without-media-bypass.md) Die Medienumgehung ist nützlich, wenn Sie die Anzahl von bereitgestellten Vermittlungsservern reduzieren möchten. Üblicherweise wird ein Vermittlungsserverpool an einem zentralen Standort bereitgestellt und steuert die Gateways an den Zweigstellenstandorten. Durch Aktivierung der Medienumgehung können Mediendaten für PSTN-Anrufe (Telefonfestnetz) von Clients an Zweigstellenstandorten direkt durch die Gateways an diesen Standorten geleitet werden. Skype for Business Server Routen für ausgehende Anrufe und Enterprise-VoIP Richtlinien müssen ordnungsgemäß konfiguriert sein, damit PSTN-Anrufe von Clients an einem Zweigstellenstandort an das entsprechende Gateway weitergeleitet werden.
 
@@ -128,4 +128,4 @@ Eine Trunkkonfiguration, wie unten beschrieben, gruppiert einen Satz von Paramet
     > [!Note]
     > Jedes Mal, wenn Sie eine Trunkkonfiguration erstellen oder ändern, müssen Sie den Befehl **Commit für alle** ausführen, um die Konfigurationsänderung zu veröffentlichen. Ausführliche Informationen finden Sie unter [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration.](/previous-versions/office/lync-server-2013/lync-server-2013-publish-pending-changes-to-the-voice-routing-configuration) (BENÖTIGEN SIE EINEN NEUEN LINK?)
 
-Nachdem Sie den Trunk konfiguriert haben, fahren Sie mit der Konfiguration der Medienumgehung fort, indem Sie zwischen globalen Medienumgehungsoptionen wählen, wie unter [Bereitstellen der Medienumgehung in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md)beschrieben.
+Nachdem Sie den Trunk konfiguriert haben, fahren Sie mit der Konfiguration der Medienumgehung fort, indem Sie zwischen globalen Medienumgehungsoptionen wählen, wie unter ["Bereitstellen der Medienumgehung in Skype for Business Server"](../../deploy/deploy-enterprise-voice/deploy-media-bypass.md)beschrieben.

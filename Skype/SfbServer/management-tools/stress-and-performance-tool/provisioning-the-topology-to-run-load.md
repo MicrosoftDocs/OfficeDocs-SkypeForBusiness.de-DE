@@ -2,7 +2,7 @@
 title: Bereitstellen der Topologie zum Ausführen von Last in Stress- und Leistungsszenarien
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 12/17/2015
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 143cf9bd-b935-494d-817c-a8b0ccc61eb8
 description: Skype for Business Server 2015:Topologieänderungen oder Bereitstellung, damit Benutzer das Stress and Performance-Tool erfolgreich ausführen können.
-ms.openlocfilehash: 1967e923bff7ed0321b3b6b59dce763ba4f448bd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 50bd77dd7b3531a150e1e62f6192d32666fa5ba7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771911"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60854259"
 ---
 # <a name="provisioning-the-topology-to-run-load-in-stress-and-performance-scenarios"></a>Bereitstellen der Topologie zum Ausführen von Last in Stress- und Leistungsszenarien
  
@@ -27,7 +27,7 @@ Skype for Business Server 2015:Topologieänderungen oder Bereitstellung, damit B
   
 Je nach den vorhandenen Einstellungen und der Konfiguration für die Bereitstellung von Skype for Business Server 2015 müssen Sie möglicherweise einige Änderungen in Ihrer Umgebung vornehmen. Es folgt eine Liste dieser Änderungen:
   
-1. Legen Sie die Windows PowerShell Ausführungsrichtlinie auf "Uneingeschränkt" fest. Wenn Sie nicht sicher sind, auf welchen Wert sie derzeit festgelegt ist, können Sie die Skype for Business Server Verwaltungsshell öffnen und den folgenden Befehl ausführen:
+1. Legen Sie die Windows PowerShell Ausführungsrichtlinie auf "Uneingeschränkt" fest. Wenn Sie sich nicht sicher sind, worauf sie derzeit festgelegt ist, können Sie die Skype for Business Server Verwaltungsshell öffnen und den folgenden Befehl ausführen:
     
    ```PowerShell
    Get-ExecutionPolicy
@@ -51,7 +51,7 @@ Je nach den vorhandenen Einstellungen und der Konfiguration für die Bereitstell
    PowerShell.exe -file <path to the file>
    ```
 
-4. In der Regel werden die resultierenden Ablaufverfolgungen, nachdem Sie ein Skript aus diesem Paket ausgeführt haben, in einer Datei im selben Pfad gespeichert, von dem aus das Skript ausgeführt wurde. Es gibt auch ein Namensformat, \<scriptname\> $h$m$s.txt. Wenn Sie also die ArchivingPolicy.ps1 um 12:15 Uhr ausgeführt haben, erhalten Sie eine Protokolldatei mit dem Namen ArchivingPolicy121500.txt.
+4. In der Regel werden die resultierenden Ablaufverfolgungen nach dem Ausführen eines Skripts aus diesem Paket in einer Datei im selben Pfad gespeichert, von dem aus das Skript ausgeführt wurde. Es gibt auch ein Namensformat, \<scriptname\> $h$m$s.txt. Wenn Sie also die ArchivingPolicy.ps1 um 12:15 Uhr ausgeführt haben, erhalten Sie eine Protokolldatei mit dem Namen ArchivingPolicy121500.txt.
     
 5. Obwohl wir diese Beispiele für Ihre Serverkonfiguration bereitgestellt haben, liegt es an Ihnen, ihre Konfiguration zu ändern und sie wiederherzustellen oder zurückzustellen, nachdem Sie die Auslastungstests abgeschlossen haben.
     

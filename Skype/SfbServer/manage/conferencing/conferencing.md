@@ -2,7 +2,7 @@
 title: Verwalten von Konferenzen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: ef1afdecaec5ae237020b1681d95b556a37e2ab8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751774"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845458"
 ---
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Verwalten von Konferenzen in Skype for Business Server
  
@@ -167,9 +167,9 @@ Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell ver
 |[Test-CsASConference](/powershell/module/skype/test-csasconference?view=skype-ps) <br/> |Testet, ob ein Benutzerpaar an einer Konferenz zur Anwendungsfreigabe teilnehmen kann.  <br/> |
 |[Test-CsAudioConferencingProvider](/powershell/module/skype/test-csaudioconferencingprovider?view=skype-ps) <br/> |Hiermit wird getestet, ob ein Benutzer eine Verbindung mit seinem Audiokonferenzanbieter herstellen kann. Bei einem Audiokonferenzanbieter handelt es sich um ein Drittanbieterunternehmen, das Konferenzdienste für Organisationen bereitstellt. Audiokonferenzanbieter bieten Benutzern u. a. die Möglichkeit, von außerhalb eines Standorts und ohne Verbindung mit dem Unternehmensnetzwerk oder dem Internet am Audioteil einer Konferenz oder Besprechung teilzunehmen.  <br/> |
 |[Test-CsAVConference](/powershell/module/skype/test-csavconference?view=skype-ps) <br/> |Testet, ob ein Benutzerpaar an einer Audio-/Videokonferenz teilnehmen kann.  <br/> |
-|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Überprüft, ob ein Benutzerpaar an einer Skype for Business Server Webkonferenz teilnehmen kann, die Aktivitäten wie das Freigeben oder Anzeigen PowerPoint Folien, Whiteboards oder Umfragen umfasst. Das Cmdlet überprüft außerdem, ob der Skype for Business Server Webkonferenzdienst Office Web Apps-Server ermitteln kann und ob ein Client eine PowerPoint-Datei zur Übertragung durch Office Web Apps Server hochladen kann.  <br/> |
+|[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Überprüft, ob ein Benutzerpaar an einer Skype for Business Server Webkonferenz teilnehmen kann, die Aktivitäten wie das Freigeben oder Anzeigen PowerPoint Folien, Whiteboards oder Umfragen umfasst. Das Cmdlet überprüft außerdem, ob der Skype for Business Server Webkonferenzdienst Office Web Apps-Server ermitteln kann und ob ein Client eine PowerPoint Datei zur Übertragung durch Office Web Apps Server hochladen kann.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Überprüft, ob ein Benutzer an einer Einwahlkonferenzsitzung teilnehmen kann.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Testet einen Wählplan (ehemals als Standortprofil bezeichnet) für eine Telefonnummer und gibt die Normalisierungsregel, die auf diese Nummer angewendet wird, sowie die übersetzte Nummer nach dem Anwenden der Normalisierungsregel zurück.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet die Fähigkeit von drei Benutzern, an einer Skype for Business Server Mobility Service-Konferenz teilzunehmen. Der Mobilitätsdienst ermöglicht Es Benutzern von Mobiltelefonen wie iPhones und Windows Telefonen, Beispielsweise Chatnachrichten und Anwesenheitsinformationen auszutauschen. Internes Speichern und Abrufen von Voicemail anstelle des Drahtlosanbieters; und nutzen Sie Skype for Business Server Funktionen wie "Anruf über Arbeit" und Ausgehende Konferenzen.  <br/> **Hinweis:** Clients, die MCX verwenden, werden in Skype for Business Server 2019 nicht unterstützt.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet die Fähigkeit von drei Benutzern, an einer Skype for Business Server Mobility Service-Konferenz teilzunehmen. Mit dem Mobilitätsdienst können Benutzer von Mobiltelefonen wie iPhones und Windows Telefonen Beispielsweise Chatnachrichten und Anwesenheitsinformationen austauschen. Internes Speichern und Abrufen von Voicemail anstelle des Drahtlosanbieters; und nutzen Sie Skype for Business Server Funktionen wie "Anruf über Arbeit" und Ausgehende Konferenzen.  <br/> **Hinweis:** Clients, die MCX verwenden, werden in Skype for Business Server 2019 nicht unterstützt.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Testet die Fähigkeit eines Benutzerpaars, eine Onlinekonferenz mithilfe der Unified Communications Web API (UCWA) zu planen, daran teilzunehmen und dann eine Onlinekonferenz durchzuführen.  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Gibt Diagnoseinformationen für die in Skype for Business Server enthaltenen Datenkonferenzfunktionen zurück.  <br/> |

@@ -2,7 +2,7 @@
 title: Verwalten von Standorten für SIP-Trunkdienstanbieter in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,24 +16,24 @@ ms.collection:
 ms.custom: ''
 ms.assetid: d9b33b56-66c2-4dee-b056-faaf98925bf2
 description: Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit SIP-Trunkinganbietern in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: 4bc74933623f1a435288246ac695c9545c8606d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4667ea571fe3bbb022c8dd1ee1483e6195165ec9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751544"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60855292"
 ---
 # <a name="manage-locations-for-sip-trunk-service-providers-in-skype-for-business-server"></a>Verwalten von Standorten für SIP-Trunkdienstanbieter in Skype for Business Server
 
 Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mit SIP-Trunkinganbietern in Skype for Business Server Enterprise-VoIP erforderlich sind.
 
-Um Skype for Business Server so zu konfigurieren, dass Clients automatisch in einem Netzwerk gefunden werden, müssen Sie entweder die Standortinformationsdienstdatenbank mit einer Netzwerk-Wiremap auffüllen und die Speicherorte veröffentlichen oder eine Verknüpfung mit einer externen Datenbank herstellen, die bereits die richtigen Zuordnungen enthält. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Ausführliche Informationen finden Sie unter [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in der Bereitstellungsdokumentation.
+Um Skype for Business Server so zu konfigurieren, dass Clients automatisch in einem Netzwerk gefunden werden, müssen Sie entweder die Standortinformationsdienstdatenbank mit einer Netzwerkzuordnung auffüllen und die Standorte veröffentlichen oder eine Verknüpfung mit einer externen Datenbank herstellen, die bereits die richtigen Zuordnungen enthält. Im Rahmen dieses Vorgangs müssen Sie die Adressen der Standorte mit Ihrem E9-1-1-Dienstanbieter abgleichen. Ausführliche Informationen finden Sie unter [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in der Bereitstellungsdokumentation.
 
 Die Datenbank des Standortinformationsdiensts füllen Sie mit einem Emergency Response Location (ERL) auf, der aus der allgemeinen Adresse und der spezifischen Adresse innerhalb eines Gebäudes besteht. Das **Standortinformationsdienst-Standortfeld,** das den spezifischen Standort in einem Gebäude darstellt, hat eine maximale Länge von 20 Zeichen (einschließlich Leerzeichen). In diesem Feld mit begrenzter Länge sollten Sie Folgendes angeben:
 
 - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Skype for Business-Client den richtigen Standort ausgewählt hat. Der Skype for Business-Client verkettet automatisch und zeigt die ermittelten **Felder "Standort"** und **"Ort"** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes <street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
+- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Skype for Business-Client den richtigen Standort ausgewählt hat. Der Skype for Business-Client verkettet automatisch und zeigt die ermittelten **Felder "Standort"** und **"Ort"** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes \<street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
 
 - Wenn die Position ungefähr ist, da sie von einem Drahtlosen Zugriffspunkt bestimmt wird, können Sie das Wort **[Near]** hinzufügen (z. B. "Near 1st Floor 1234").
 
@@ -54,7 +54,7 @@ Wo befinden sich die Daten, und welche Schritte müssen Sie ausführen, um die D
 
 Mithilfe der Option "Sekundärer Standortinformationsdienst" zum Herstellen einer Verbindung mit einer Drittanbieterdatenbank können Sie Standorte mithilfe einer Offlineplattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Dies bedeutet, dass der Standortinformationsdienst mehrere Adressen, die vom sekundären Standortinformationsdienst stammen, an einen Skype for Business-Client zurückgeben kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
 
-Für die Integration in den Standortinformationsdienst muss die Datenbank des Drittanbieters dem Lync Server-Schema für Standortanforderung/-antwort folgen. Ausführliche Informationen finden Sie unter ["[MS-E911WS]: Webdienst für E911-Unterstützungsprotokollspezifikation".](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie in der Bereitstellungsdokumentation unter [Konfigurieren eines sekundären Standortinformationsdiensts in Skype for Business Server.](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md)
+Für die Integration in den Standortinformationsdienst muss die Datenbank des Drittanbieters dem Lync Server-Schema für Standortanforderung/-antwort folgen. Ausführliche Informationen finden Sie unter ["[MS-E911WS]: Webdienst für E911-Unterstützungsprotokollspezifikation".](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie unter [Konfigurieren eines sekundären Standortinformationsdiensts in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
 
 Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in der Bereitstellungsdokumentation.
 

@@ -2,7 +2,7 @@
 title: Allgemeine Front-End-Einstellungen – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Um die Einstellungen für einen vorhandenen Front-End-Pool oder Standard Edition Server zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 8f65abf2410b6b6f8d4ac7f68787346d0c315ac4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 60e6099cb28ec564abde9506afb1a0ef70274684
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773855"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861452"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
 
@@ -54,11 +54,11 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
 - Bearbeiten Sie in **Zuordnungen** Folgendes, oder geben Sie es an:
 
-  - **SQL-Speicher**. Ändern Sie eine vorhandene SQL Server-Datenbank, oder erstellen Sie eine neue SQL Server-basierte Datenbank für die Front-End-Pooldatenbanken. Sie können eine neue Instanz von SQL Server aus der Liste auswählen oder einen neuen Eintrag erstellen, indem Sie auf **"Neu"** klicken.
+  - **SQL-Speicher**. Ändern Sie eine vorhandene SQL Server Datenbank, oder erstellen Sie eine neue SQL Server-basierte Datenbank, die die Front-End-Pooldatenbanken enthält. Sie können eine neue Instanz von SQL Server aus der Liste auswählen oder einen neuen Eintrag erstellen, indem Sie auf **"Neu"** klicken.
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Dateifreigabe**. Ändern Sie den vom Front-End-Pool verwendeten Dateispeicher. In der Liste können Sie aus den bereits definierten Dateispeichern einen neuen auswählen. Oder Sie können einen neuen Dateispeicher erstellen, indem Sie auf **Neu** klicken.
 
@@ -72,13 +72,13 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Überwachung (KDS- und QoE-Metriken)**. Wählen Sie diese Option aus, um dem Front-End-Pool einen Überwachungs- SQL Server Speicher zuzuordnen. Sie können in der Liste einen bereits definierten Monitoring Server auswählen oder auf **Neu** klicken, um einen neuen Monitoring Server anzugeben.
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Edgepool zuordnen (für Medienkomponenten)**. Ordnen Sie dem Front-End-Pool einen Edgeserver oder -pool zu. Sie können in der Liste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
 
@@ -103,7 +103,7 @@ Zum Bearbeiten oder Angeben weiterer Einstellungen für Webdienste für den Fron
 Geben Sie in **Interne Webdienste** Folgendes an:
 
 > [!CAUTION]
-> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der externe Webdienst-FQDN, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der externe Webdienst-FQDN, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
 
 - Wenn Sie **Vollqualifizierten Domänennamen außer Kraft setzen** auswählen, können Sie einen anderen FQDN für die Identität **Interne Webdienste** im Pool angeben. Standardmäßig ist die Einstellung der aktuelle Poolname entsprechend der Definition für den Front-End-Pool.
 
@@ -121,7 +121,7 @@ Geben Sie in **Vermittlungsserver** Folgendes an:
 
 - Wenn Sie den Vermittlungsserver mit dem Pool verbinden, müssen Sie das Kontrollkästchen **Verbundener Vermittlungsserver aktiviert** aktivieren. Wenn Sie den Vermittlungsserver nicht verbinden möchten, ist keine der Einstellungen in diesem Abschnitt verfügbar.
 
-- Wenn Sie die Kollokation des Vermittlungsservers aktivieren, definieren Sie den Überwachungsportbereich auf den Poolservern für TLS (Transport Layer Security). Standardmäßig ist dieser Port 5067. Wenn Sie **TCP-Port aktivieren** auswählen, müssen Sie einen TCP-Port (Transmission Control Protocol) für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder Ihres PSTN beziehen, um festzustellen, ob Sie dies benötigen. Standardmäßig ist der TCP-Portwert 5068.
+- Wenn Sie die Kollokation des Vermittlungsservers aktivieren, definieren Sie den Überwachungsportbereich auf den Poolservern für TLS (Transport Layer Security). Standardmäßig ist dieser Port 5067. Wenn Sie **TCP-Port aktivieren** auswählen, müssen Sie einen TCP-Port (Transmission Control Protocol) für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder Ihrer PSTN-Anforderungen beziehen, um festzustellen, ob Sie dies benötigen. Standardmäßig ist der TCP-Portwert 5068.
 
 - Trunks, die dem verbundenen Vermittlungsserver zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
 

@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182584(v=OCS.15)
 ms:contentKeyID: 48185391
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Aktivieren oder deaktivieren Sie das Senden eines Archivierungshaftungsausschlusses an Verbundpartner in Skype for Business Server.
-ms.openlocfilehash: 1d3ee9ac1b0f75f9256a16d9ce749fef68736107
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cbdfe6a53df73c5af3ef8d4b07b1bd2a4fc27a0a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754812"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861352"
 ---
 # <a name="enable-or-disable-sending-an-archiving-disclaimer-to-federated-partners-in-skype-for-business-server"></a>Aktivieren oder Deaktivieren des Sendens eines Archivierungshaftungsausschlusses an Verbundpartner in Skype for Business Server
 
@@ -44,12 +44,12 @@ Zu dem Zeitpunkt, zu dem Sie Ihre Edgeserver bereitgestellt und den Partnerverbu
 
 6.  Klicken Sie auf **Commit ausführen**.
 
-Damit Verbundbenutzer mit Benutzern in Ihrer Skype for Business Server Bereitstellung zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfiguriert haben, um den Zugriff von Verbundbenutzern zu unterstützen. Ausführliche Informationen zum Steuern des Zugriffs für bestimmte Verbunddomänen finden Sie unter Konfigurieren der [Unterstützung für zulässige externe Domänen.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
+Damit Verbundbenutzer mit Benutzern in Ihrer Skype for Business Server Bereitstellung zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfiguriert haben, um den Zugriff durch Verbundbenutzer zu unterstützen. Ausführliche Informationen zum Steuern des Zugriffs für bestimmte Verbunddomänen finden Sie unter Konfigurieren der [Unterstützung für zulässige externe Domänen.](../sip-domains/manage-sip-federated-domains-for-your-organization.md#configure-support-for-allowed-external-domains-in-skype-for-business-server)
 
 
 ## <a name="enabling-or-disabling-the-archiving-disclaimer-by-using-windows-powershell-cmdlets"></a>Aktivieren oder Deaktivieren des Archivierungshaftungsausschlusses mithilfe Windows PowerShell Cmdlets
 
-Die Verwendung des Archivierungshaftungsausschlusses kann mithilfe von Windows PowerShell und dem Cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Die Verwendung des Archivierungshaftungsausschlusses kann mit Windows PowerShell und dem cmdlet Set-CsAccessEdgeConfiguration verwaltet werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ## <a name="to-enable-the-archiving-disclaimer"></a>So aktivieren Sie den Archivierungshaftungsausschluss
 

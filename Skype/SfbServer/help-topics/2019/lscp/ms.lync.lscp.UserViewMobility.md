@@ -2,7 +2,7 @@
 title: Benutzer zeigen Mobilitätsrichtlinie an
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: a6df69e2-c374-4a80-8197-5152b7d0b5d2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Ansicht – Mobilitätsrichtlinie werden die Eigenschaften der ausgewählten Mobilitätsrichtlinie angezeigt.
-ms.openlocfilehash: 973844e405f83cbbc1eb4146ec1709e4ddc5d364
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eb4ce4d588f11bdb75cc3fc6b15030d08b8d8a82
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769423"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861642"
 ---
 # <a name="users-view-mobility-policy"></a>Benutzer: Anzeigen der Mobilitätsrichtlinie
 
@@ -28,7 +28,7 @@ Im Dialogfeld **Ansicht – Mobilitätsrichtlinie** werden die Eigenschaften der
 
 Ausführliche Informationen zum Zuweisen von Mobilitätsrichtlinien finden Sie unter [Zuweisen einer Per-User Mobilitätsrichtlinie](/previous-versions/office/lync-server-2013/lync-server-2013-assign-a-per-user-mobility-policy) und [Konfigurieren von Mobilitätsrichtlinien.](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-mobility-policy)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Planung der Mobilität](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-mobility)
 
