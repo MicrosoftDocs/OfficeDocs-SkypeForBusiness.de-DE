@@ -2,7 +2,7 @@
 title: Erstellen oder Löschen einer Ankündigung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
 description: Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: 3a5fdbcb5f9c4e72790f35f73cef791868634ce9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765923"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843518"
 ---
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ankündigung in Skype for Business Server
 
@@ -62,13 +62,13 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
    Import-CsAnnouncementFile -Parent <service of the Application Server running the Announcement application> -FileName <name for file in File Store> -Content Byte [<contents of file in byte array>]
    ```
 
-5. Führen Sie  aus.
+5. Führen Sie Folgendes aus: 
 
    ```powershell
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    Geben Sie für die Übertragung von Anrufen an Voicemail SIPAddress im Format "sip:username@domainname;opaque=app:voicemail" ein (z. B. "sip:bob@contoso.com;opaque=app:voicemail"). Wenn Sie Anrufe an eine Telefonnummer weiterleiten möchten, geben Sie SIPAddress im Format "sip:number@domainname;user=phone" ein (z. B. sip:+ 14255550121@contoso.com;user=phone).
+    Geben Sie für die Übertragung von Anrufen an Voicemail SIPAddress im Format "sip:username@domainname;opaque=app:voicemail" ein (z. B. "sip:bob@contoso.com;opaque=app:voicemail"). Geben Sie für die Übertragung von Anrufen an eine Telefonnummer SIPAddress im Format "sip:number@domainname;user=phone" ein (z. B. sip:+ 14255550121@contoso.com;user=phone).
 
     So geben Sie z. B. eine Audioaufforderung an:
 
@@ -115,7 +115,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
     > [!NOTE]
     > Ausführliche Informationen zu weiteren Optionen finden Sie unter ["Get-CsAnnouncement"](/powershell/module/skype/get-csannouncement?view=skype-ps) und ["Remove-CsAnnouncement".](/powershell/module/skype/remove-csannouncement?view=skype-ps)
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Erstellen oder Löschen einer Ankündigung in Skype for Business Server](create-an-announcement.md)
 

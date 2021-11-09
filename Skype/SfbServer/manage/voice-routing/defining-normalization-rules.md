@@ -2,7 +2,7 @@
 title: Definieren von Normalisierungsregeln in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype for Business Server Normalisierungsregeln verwenden .NET Framework reguläre Ausdrücke, um gewählte Telefonnummern in das E.164-Format zu übersetzen. Mit anderen Worten: Normalisierungsregeln verwenden die von einem Benutzer gewählte Telefonnummer und konvertieren diese Nummer in das intern von Skype for Business Server verwendete Format. Jedem Wählplan muss mindestens eine Normalisierungsregel zugewiesen werden.'
-ms.openlocfilehash: e2cf2deaefa18323dcd69e9f09703d6994f101c4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0319a27dd7a6f0d42fffb4e65fcf71fe152cec18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778285"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859912"
 ---
 # <a name="defining-normalization-rules-in-skype-for-business-server"></a>Definieren von Normalisierungsregeln in Skype for Business Server
 

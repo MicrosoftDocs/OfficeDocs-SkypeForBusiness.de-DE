@@ -1,6 +1,6 @@
 ---
 title: Teams für virtuelle Besuche
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -23,12 +23,12 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
-ms.openlocfilehash: 40772326d2767e7815a73ad9feca2e4853c762fc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743041"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859732"
 ---
 # <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
 
@@ -37,7 +37,7 @@ Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinike
 
 - Starten Teams virtuelle Besuche vom Anbieter-EHR-System mit einem integrierten klinischen Workflow.
 - Ermöglichen Sie Patienten die Teilnahme Teams virtuellen Visiten über das Patientenportal.
-- Schreiben Sie Metadaten in das EHR-System zurück, um Teams besuche zu aufzeichnen, wenn Teilnehmer eine Verbindung herstellen und trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
+- Schreiben Sie Metadaten in das EHR-System zurück, um Teams virtuellen Besuche zu aufzeichnen, wenn Teilnehmer eine Verbindung herstellen und trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
 
   Sehen Sie sich das Video zum Verwalten virtueller Besuche über das EGA-Portal an.
 
@@ -99,7 +99,7 @@ Um diesen Schritt auszuführen, muss der Microsoft 365-Administrator eine gülti
 
 ### <a name="approve-or-view-configuration"></a>[Konfiguration genehmigen oder anzeigen](#approve-or-view-configuration)
 
-Der Epische Kundenanalyst für Ihre Gesundheitswesensorganisation, der als genehmigende Organisation hinzugefügt wurde, muss jetzt dieselbe EHR-Connector-URL aus dem vorherigen Schritt verwenden, um sich mit ihren Anmeldeinformationen für Microsoft 365 anmelden. Nach erfolgreicher Validierung wird der Genehmigende aufgefordert, sich mit seinen Epic-Anmeldeinformationen anzumelden, um die Epic-Organisation zu validieren.
+Der Epische Kundenanalyst für Ihre Gesundheitswesen, der als genehmigende Organisation hinzugefügt wurde, muss jetzt dieselbe EHR-Connector-URL aus dem vorherigen Schritt verwenden, um sich mit ihren Anmeldeinformationen für Microsoft 365 anmelden. Nach erfolgreicher Validierung wird der Genehmigende aufgefordert, sich mit seinen Epic-Anmeldeinformationen anzumelden, um die Epic-Organisation zu validieren.
 
 > [!Note]
 > Der Microsoft 365-Administrator und der Epic-Kundenanalyst in Ihrer Organisation können dieselbe Person sein. Fügen Sie in diesem Fall Ihren eigenen Benutzernamen als Genehmiger hinzu. Sie müssen sich noch bei Epic anmelden, um Ihren Zugriff zu überprüfen. Die Epic-Anmeldung wird nur zur Überprüfung Ihrer FHIR-Basis-URL verwendet. Microsoft speichert mit dieser Anmeldung keine Anmeldeinformationen und greift nicht auf EGA-Daten zu.

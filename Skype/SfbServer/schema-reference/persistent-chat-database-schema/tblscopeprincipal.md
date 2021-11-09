@@ -2,7 +2,7 @@
 title: tblScopePrincipal
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 422d6c7f-7ba7-4dd4-bacc-95ace47959ff
 description: In "tblScopePrincipal" sind Bereiche enthalten, die Knoten zugeordnet sind.
-ms.openlocfilehash: 4f2bcb7734badde8f734c30f074ba6dda82cc7eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 84fa792a6698a474e41c0e623b826fb0b8c48d65
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745711"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844028"
 ---
 # <a name="tblscopeprincipal"></a>tblScopePrincipal
  
@@ -26,7 +26,7 @@ In "tblScopePrincipal" sind Bereiche enthalten, die Knoten zugeordnet sind.
   
 **Columns**
 
-|**Spalte**|**Typ**|**Beschreibung**|
+|**Spalte**|**Type**|**Beschreibung**|
 |:-----|:-----|:-----|
 |scopeNodeID  <br/> |int, nicht NULL  <br/> |Knoten-ID, auf die sich der Bereich bezieht.  <br/> |
 |scopePrinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID  <br/> |

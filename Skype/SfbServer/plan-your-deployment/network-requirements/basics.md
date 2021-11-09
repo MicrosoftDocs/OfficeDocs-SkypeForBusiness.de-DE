@@ -2,7 +2,7 @@
 title: Grundlagen von DNS
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2618cfa1-2e2c-4f1d-a5e5-70a0286591a7
-description: Windows Server 2016 über integrierte Software verfügt, die DNS-Dienste bereitstellen kann. Daher sollten Sie sich die verfügbare Dokumentation wie z. B. den Leitfaden für DNS-Richtlinienszenarien ansehen. Sie können ggf. eine Drittanbieterlösung auswählen.
-ms.openlocfilehash: fe5c38aa22f87e9096d9c887c387938e1cf66ab3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Windows Server 2016 über integrierte Software verfügt, die DNS-Dienste bereitstellen kann. Daher sollten Sie sich die verfügbare Dokumentation wie z. B. den DNS-Richtlinienszenarioleitfaden ansehen. Sie können ggf. eine Drittanbieterlösung auswählen.
+ms.openlocfilehash: ca6bb3a7e7676f7eec5e7b8d384757099f012514
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765233"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835003"
 ---
 # <a name="dns-basics"></a>Grundlagen von DNS
  
@@ -30,7 +30,7 @@ Es wird empfohlen, dass Sie als bewährte Methode einen bestimmten Server in Ihr
 Jede Zuordnung eines Namens zu einer IP-Adresse (die eine IPv4- oder IPv6-Adresse sein kann) wird in einem DNS-Eintrag auf dem DNS-Server gespeichert. Der Name wird im DNS-Bericht speziell als FQDN – ein vollqualifizierte Domänenname – beschrieben. Während *contoso.com* ein gültiger Domänenname ist, ist er kurz für *\* .contoso.com,* sodass er mehrdeutig ist und möglicherweise auf einen beliebigen Server in der Domäne verweisen kann. Ein Beispiel für einen FQDN, der auf einen einzelnen Server in Ihrer Domäne verweisen würde, kann **meeting01.contoso.com** sein.
   
 > [!IMPORTANT]
-> Standardmäßig ist der Computername eines Computers, der keiner Domäne beigetreten ist, ein Hostname und kein vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN). Der Topologie-Generator verwendet FQDNs und keine Hostnamen. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. **Verwenden Sie nur Standardzeichen** (einschließlich A-Z, a-z, 0-9 und Bindestriche), wenn Sie Ihren Servern, auf denen Skype for Business Server ausgeführt wird, FQDNs zuweisen. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
+> Standardmäßig ist der Computername eines Computers, der keiner Domäne beigetreten ist, ein Hostname und kein vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN). Der Topologie-Generator verwendet FQDNs und keine Hostnamen. Daher müssen Sie ein DNS-Suffix für den Namen des Computers konfigurieren, der als Edgeserver bereitgestellt werden soll und nicht Mitglied einer Domäne ist. **Verwenden Sie nur Standardzeichen** (einschließlich A-Z, a-z, 0-9 und Bindestriche), wenn Sie FQDNs ihren Servern zuweisen, auf denen Skype for Business Server ausgeführt wird. Verwenden Sie keine Unicode-Zeichen oder Unterstriche. Andere als die genannten Zeichen in einem FQDN werden von externen DNS und öffentlichen Zertifizierungsstellen (wenn der FQDN dem SN im Zertifikat zugewiesen werden muss) häufig nicht unterstützt.
   
 Zusätzlich zu einer IP-Adresse könnte der FQDN einer **VIP** zugeordnet werden – einer virtuellen IP-Adresse. Eine VIP ist eine IP-Adresse, die keiner tatsächlichen physischen Netzwerkschnittstelle entspricht. Eine VIP verweist häufig auf einen Pool von Servern, die eine Serverrolle ausführen, oder auf ein Serverpaar, das für Redundanz und Fehlertoleranz konfiguriert ist.
   
@@ -51,7 +51,7 @@ Der SIP-Domänenname einer Organisation richtet sich in der Regel nach den E-Mai
   
 ### <a name="multiple-sip-domains"></a>Mehrere SIP-Domänen
 
- Ihre Organisation benötigt möglicherweise in einigen Fällen mehrere SIP-Domänen. Wenn Fabrikam.com beispielsweise von contoso.com erworben wurde, müssen Sie möglicherweise eine neue SIP-Domäne erstellen, von der Skype for Business Server eine Verbindung erkennt und akzeptiert. Wenn Sie dies tun, müssen Sie einen zusätzlichen Satz aller DNS-Einträge erstellen, die contoso.com verwenden, mit neuen FQDNs, die zeigen, wo Anforderungen für Fabrikam gesendet werden sollen.
+ Ihre Organisation benötigt möglicherweise in einigen Fällen mehrere SIP-Domänen. Wenn Fabrikam.com beispielsweise von contoso.com erworben wurde, müssen Sie möglicherweise eine neue SIP-Domäne erstellen, von der Skype for Business Server eine Verbindung erkennt und akzeptiert. Wenn Sie dies tun, müssten Sie einen zusätzlichen Satz aller DNS-Einträge erstellen, die contoso.com verwenden, mit neuen FQDNs, die zeigen, wo Anforderungen für Fabrikam gesendet werden sollen.
   
 ## <a name="dns-load-balancing"></a>DNS-Lastenausgleich
 <a name="BK_NameSIP"> </a>

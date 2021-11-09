@@ -2,7 +2,7 @@
 title: Allgemeine Front-End-Einstellungen – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Um die Einstellungen für einen vorhandenen Front-End-Pool oder Standard Edition Server zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 655ee2e4bd49e63aaeade7b0c0bfab5f244adae9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fa055befc34d0c67f85cfba2125b2189746af9df
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748521"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834413"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
 
@@ -58,27 +58,27 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Dateifreigabe**. Ändern Sie den vom Front-End-Pool verwendeten Dateispeicher. In der Liste können Sie aus den bereits definierten Dateispeichern einen neuen auswählen. Oder Sie können einen neuen Dateispeicher erstellen, indem Sie auf **Neu** klicken.
 
     > [!IMPORTANT]
     > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein.
 
-  - **Archivierung**. Ordnen Sie dem Front-End-Pool einen Archivierungsserverspeicher zu. Sie können aus einem bereits definierten Archivierungsspeicher SQL Server auswählen, indem Sie den Server aus der Liste auswählen oder auf **Neu** klicken, um einen neuen Archivierungsserver anzugeben.
+  - **Archivierung**. Ordnen Sie dem Front-End-Pool einen Archivierungsserverspeicher zu. Sie können aus einem bereits definierten Archivierungsspeicher SQL Server auswählen, indem Sie den Server aus der Liste auswählen, oder auf **Neu** klicken, um einen neuen Archivierungsserver anzugeben.
 
     > [!IMPORTANT]
     > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein.
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Überwachung (KDS- und QoE-Metriken)**. Wählen Sie diese Option aus, um dem Front-End-Pool einen Überwachungs- SQL Server Speicher zuzuordnen. Sie können in der Liste einen bereits definierten Monitoring Server auswählen oder auf **Neu** klicken, um einen neuen Monitoring Server anzugeben.
 
     Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen **Sie "Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
 
   - **Edgepool zuordnen (für Medienkomponenten)**. Ordnen Sie dem Front-End-Pool einen Edgeserver oder -pool zu. Sie können in der Liste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
 
@@ -103,7 +103,7 @@ Zum Bearbeiten oder Angeben weiterer Einstellungen für Webdienste für den Fron
 Geben Sie in **Interne Webdienste** Folgendes an:
 
 > [!CAUTION]
-> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der externe Webdienst-FQDN, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der externe Webdienst-FQDN, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
 
 - Wenn Sie **Vollqualifizierten Domänennamen außer Kraft setzen** auswählen, können Sie einen anderen FQDN für die Identität **Interne Webdienste** im Pool angeben. Standardmäßig ist die Einstellung der aktuelle Poolname entsprechend der Definition für den Front-End-Pool.
 

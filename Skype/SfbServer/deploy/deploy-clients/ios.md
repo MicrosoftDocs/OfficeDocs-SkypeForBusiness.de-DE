@@ -1,7 +1,7 @@
 ---
 title: Installieren und Testen von Skype for Business für iOS
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -12,22 +12,22 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 142abc98-608d-40c7-ab4d-66acc010426b
 description: 'Zusammenfassung: So installieren und testen Sie die Skype for Business für die iOS-App.'
-ms.openlocfilehash: 62b7720efbc24606f63f5df83c9082fb4ebf9611
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b3bcdddbafe5ae0c578f1f5e38f44696ed01dd66
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758157"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843528"
 ---
 # <a name="install-and-test-skype-for-business-for-ios"></a>Installieren und Testen von Skype for Business für iOS
  
-**Zusammenfassung:** Installieren und Testen der Skype for Business für die iOS-App.
+**Zusammenfassung:** So installieren und testen Sie die Skype for Business für die iOS-App.
   
 Die Skype for Business für iOS-Apps bietet Skype for Business Anwesenheits-, Chat- und Sprach- und Videoanrufe auf iOS-Geräten. Benutzer mit Lync 2013 erhalten die aktualisierte App entweder automatisch oder werden je nach Benutzereinstellungen aufgefordert, sie manuell zu aktualisieren. Neue Benutzer können sie aus der Apple-App-Store herunterladen. Die Skype for Business für iOS-Apps ist nur in iOS-Versionen 8.0 und höher verfügbar.
   
 ## <a name="installing-skype-for-business-for-ios"></a>Installieren von Skype for Business für iOS
 
-1. Tippen Sie auf Ihrem iOS-Gerät auf **"App Store",** und suchen Sie nach **Skype for Business für iOS.**
+1. Tippen Sie auf Ihrem iOS-Gerät auf **App-Store,** und suchen Sie nach **Skype for Business für iOS.**
     
 2. Tippen Sie auf   >  **"Herunterladen öffnen".** 
     

@@ -2,7 +2,7 @@
 title: AudioClientEvent-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
 description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
-ms.openlocfilehash: a7e5e481fd9398532212f4bda767bab83815250c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767313"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843648"
 ---
 # <a name="audioclientevent-table"></a>AudioClientEvent-Tabelle
  
@@ -30,7 +30,7 @@ Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioan
 |**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
 |**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
 |**FromCaller** <br/> |Bit  <br/> |Primary  <br/> |0: Daten des Angerufenen  <br/> 1: Anruferdaten  <br/> |
-|**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das NetworkSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der gesendeten Audiodaten aus.  <br/> |
+|**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das NetworkSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der gesendeten Audiodaten aus.  <br/> |
 |**NetworkReceiveQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der empfangenen Audiodaten aus.  <br/> |
 |**NetworkDelayEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das Verzögerungsereignis für den Status "Ungültig" ausgelöst wurde. Die Netzwerklatenz ist schwerwiegend und wirkt sich auf die Benutzererfahrung aus, indem die interaktive Kommunikation verhindert wird.  <br/> |
 |**NetworkBandwidthLowEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das LowBandwidth-Ereignis für den Status "Ungültig" ausgelöst wurde. Die verfügbare Bandbreite reicht für eine akzeptable Spracherfahrung nicht aus.  <br/> |

@@ -1,6 +1,6 @@
 ---
 title: Store für benutzerdefinierte Apps
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: prem
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über den Store für benutzerdefinierte Apps in Microsoft Teams.
-ms.openlocfilehash: 773e2aa7deb0d419ea60e32dc834dee8f730009a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7fd39dc1d2ced74b6153f43c78fdf7557bbd206
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741661"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843588"
 ---
 # <a name="custom-apps-store-in-microsoft-teams"></a>Store für benutzerdefinierte Apps in Microsoft Teams
 
@@ -32,7 +32,7 @@ Jetzt können Sie den App Store Ihrer Organisation in Teams mit Ihrem Unternehme
 > [!Note]
 > Änderungen am Branding benötigen 24 Stunden, bis sie wirksam werden.
 
-Sie können auf den Store zum Anpassen im Admin Center zugreifen, indem Sie Teams  >  **App Customize Store auswählen.**
+Sie können im Admin Center auf den Store zum Anpassen zugreifen, indem Sie Teams  >  **Store anpassen auswählen.**
 
   ![Hervorgehobene Funktion "Store anpassen" der Administratorkonsole.](media/customize-app-store.png)
 
@@ -44,7 +44,7 @@ In diesem Artikel werden die Store-Features von benutzerdefinierten Apps und der
 <a name="orglogo"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Hier können Sie Ihr Organisationslogo hochladen. Das ausgewählte Logo wird auf dem Teams in **"Apps,**  >  **die für Ihren Mandanten erstellt wurden" angezeigt.**
+Hier können Sie Ihr Organisationslogo hochladen. Das ausgewählte Logo wird auf dem Teams in **"Apps,**  >  **die für Ihren Mandanten erstellt wurden"** angezeigt.
 
 Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 240 x 60 Groß sein, oder es wird auf diese Größe skaliert. Er sollte nicht größer als 5 MB sein. Die unterstützten Formate sind:
 
@@ -60,7 +60,7 @@ Das Logo wird in der oberen rechten Ecke des Mandanten-App-Katalogs im Teams ang
 <a name="orglogomark"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Das Logo Ihrer Organisation oder ein kleines Logo ist ein Bild oder Symbol, das Ihre Organisationsmarke darstellt und Ihren Firmennamen nicht enthält. Die Lovemark hilft Teammitgliedern, den App-Store zu identifizieren. Das ausgewählte Logo wird im Teams auf der Seite "Apps" angezeigt.
+Das Logo Ihrer Organisation oder ein kleines Logo ist ein Bild oder Symbol, das Ihre Organisationsmarke darstellt und Ihren Firmennamen nicht enthält. Die Lovemark hilft Teammitgliedern, den App-Store zu identifizieren. Das ausgewählte Logo wird auf der Seite "Teams"-Client angezeigt.
 
 Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die Datei Ihrer Wahl hochladen. Das Logo sollte 32 x 32 Pixel groß sein, oder es wird auf diese Größe skaliert. Er sollte nicht größer als 5 MB sein. Die unterstützten Formate sind:
 
@@ -68,7 +68,7 @@ Wenn Sie die Option **Bild auswählen** auswählen auswählen, können Sie die D
 - .png
 - .jpg
 
-Das kleine Logo wird  neben dem Abschnittstitel Für Mandanten erstellt auf der Startseite des Teams Store angezeigt.
+Das kleine Logo wird  neben dem Abschnittstitel Für Mandanten erstellt auf der Startseite des Teams angezeigt.
 
 ## <a name="customize-the-background-color"></a>Anpassen der Hintergrundfarbe
 
@@ -76,7 +76,7 @@ Das kleine Logo wird  neben dem Abschnittstitel Für Mandanten erstellt auf der 
 <a name="custombackground"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Stellen Sie sicher, dass der Hintergrund genügend Kontrast zum Text hat, damit die Benutzer den Text deutlich lesen können. Der Hintergrund wird im Client Teams in **Apps angezeigt,**  >  **die für Ihren Mandantenkopf erstellt** wurden.
+Stellen Sie sicher, dass der Hintergrund genügend Kontrast zum Text hat, damit die Benutzer den Text deutlich lesen können. Der Hintergrund wird im Teams in **Apps angezeigt,**  >  **die für Ihren Mandantenheader erstellt** wurden.
 
 Sie haben nun die folgenden Optionen:
 
@@ -109,7 +109,7 @@ Wenn Sie eine Vorschau Ihrer Änderungen anzeigen möchten, wählen Sie **App St
 ![Vorschau auf den Store für benutzerdefinierte Apps.](media/PowerAppsInStore650w.png)
 
 > [!Note]
-> Die Darstellung kann sich von der endgültigen Version Ihres angepassten App-Store unterscheiden, da einige Standardfarben auf der Version Ihres Teams basieren.
+> Die Darstellung kann sich von der endgültigen Version Ihres benutzerdefinierten App-Store unterscheiden, da einige Standardfarben auf der Version Ihres Teams basieren.
 
 ## <a name="related-article"></a>Verwandter Artikel
 

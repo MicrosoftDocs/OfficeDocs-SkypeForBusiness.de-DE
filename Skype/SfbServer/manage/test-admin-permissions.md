@@ -2,7 +2,7 @@
 title: Testen von Administratorberechtigungen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: So testen Sie Administratorberechtigungen in Skype for Business Server
-ms.openlocfilehash: 80971dab292252775f9a58cbf822d746326c8abf
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2c4525d83f3a097abfa168b706885a939e3b0663
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760693"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859982"
 ---
 # <a name="testing-admin-permissions-in-skype-for-business-server"></a>Testen von Administratorberechtigungen in Skype for Business Server
 
@@ -24,7 +24,7 @@ ms.locfileid: "60760693"
 |--|--|
 |Überprüfungszeitplan|Nach der ersten Skype for Business Server Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.|
 |Testtool|Windows PowerShell|
-|Erforderliche Berechtigungen|Bei lokaler Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br><br/>Bei Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des cmdlets Test-CsOUPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
+|Erforderliche Berechtigungen|Bei lokaler Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br><br/>Bei Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsOUPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsOUPermission"}|
 |||
 
 ## <a name="description"></a>Beschreibung
@@ -38,7 +38,7 @@ Beachten Sie, dass Grant-CsOUPermission nur Mitgliedern der Gruppe "RTCUniversal
 
 ## <a name="running-the-test"></a>Ausführen des Tests
 
-Um zu überprüfen, ob Die Verwaltungsberechtigungen für einen Container festgelegt sind, führen Sie das Cmdlet Test-CsOUPermission gefolgt vom distinguished Name des Containers und dem Typ der Berechtigungen aus, die Sie überprüfen. Mit diesem Befehl wird beispielsweise überprüft, ob Benutzerberechtigungen für die OU ou=Redmond,dc=litwareinc,dc=com festgelegt sind:
+Um zu überprüfen, ob Verwaltungsberechtigungen für einen Container festgelegt sind, führen Sie das cmdlet Test-CsOUPermission gefolgt vom Distinguished Name des Containers und dem Typ der Berechtigungen aus, die Sie überprüfen. Mit diesem Befehl wird beispielsweise überprüft, ob Benutzerberechtigungen für die OU ou=Redmond,dc=litwareinc,dc=com festgelegt sind:
 
 `Test-CsOUPermission -OU "ou=Redmond,dc=litwareinc,dc=com" -ObjectType "user"`
 

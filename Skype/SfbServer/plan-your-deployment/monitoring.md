@@ -2,7 +2,7 @@
 title: Planen der Überwachung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5d5eb658-7fe0-42e6-acaf-700051d0a823
 description: 'Zusammenfassung: Lesen Sie dieses Thema bei der Planung des Überwachungsdiensts in Skype for Business Server.'
-ms.openlocfilehash: 0a0b1c80498819a6fffc78d02f603950a9169779
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f1bd1dbab35247b17067adaa3b2d06557b8f0292
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744121"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835013"
 ---
 # <a name="plan-for-monitoring-in-skype-for-business-server"></a>Planen der Überwachung in Skype for Business Server
 
@@ -25,7 +25,7 @@ ms.locfileid: "60744121"
 
 Der Überwachungsdienst in Skype for Business Server bietet Administratoren eine Möglichkeit, Nutzungs- und Qualitätsdaten für die Kommunikationssitzungen zu sammeln, die in ihrer Organisation stattfinden, sodass sie Trends und Probleme erkennen können. Die fortlaufende Überwachung Ihrer Bereitstellung ermöglicht es Ihnen, Probleme frühzeitig zu erkennen und die Benutzer Ihrer Organisation zufrieden zu halten.
 
-Für die Überwachung in Skype for Business Server ist keine separate Serverrolle erforderlich (wie in früheren Lync-Versionen). Stattdessen ist der Überwachungsdienst in jeden Front-End-Server integriert. Die Überwachung ist in Skype for Business Server nicht standardmäßig aktiviert. In diesem Artikel erfahren Sie, ob Sie die Überwachung während oder nach ihrer anfänglichen Skype for Business Server-Konfiguration aktivieren und welche SQL Ressourcen Sie benötigen, um Überwachungsaktivitäten zu unterstützen. Wenn Sie nicht genau wissen, was überwacht wird oder nicht und wie die Überwachung hilfreich sein kann, wechseln Sie zu [den Grundlagen zur Überwachung.](monitoring.md#Basics) Wenn Sie Mit dem Planungsprozess beginnen möchten, wechseln Sie zu ["Definieren der Anforderungen für die Überwachung".](monitoring.md#requirements) Weitere Informationen zu den SQL Anforderungen für die Überwachung finden Sie unter [SQL Anforderungen für die Überwachung.](monitoring.md#topologies)
+Für die Überwachung in Skype for Business Server ist keine separate Serverrolle erforderlich (wie in früheren Lync-Versionen). Stattdessen ist der Überwachungsdienst in jeden Front-End-Server integriert. Die Überwachung ist in Skype for Business Server nicht standardmäßig aktiviert. In diesem Artikel erfahren Sie, ob Sie die Überwachung während oder nach ihrer anfänglichen Skype for Business Server-Konfiguration aktivieren und welche SQL Ressourcen Sie benötigen, um Überwachungsaktivitäten zu unterstützen. Wenn Sie nicht genau wissen, was überwacht wird oder nicht und wie die Überwachung hilfreich sein kann, wechseln Sie zu [den Grundlagen zur Überwachung.](monitoring.md#Basics) Um Mit dem Planungsprozess zu beginnen, wechseln Sie zu ["Definieren der Anforderungen für die Überwachung".](monitoring.md#requirements) Weitere Informationen zu den SQL Anforderungen für die Überwachung finden Sie unter [SQL Anforderungen für die Überwachung.](monitoring.md#topologies)
 
 ## <a name="basics-about-monitoring"></a>Grundlagen zur Überwachung
 <a name="Basics"> </a>
@@ -39,7 +39,7 @@ Eine Sitzung ist ein allgemeiner Begriff für die Verbindung eines Benutzers mit
 - Andere Benutzer über eine Peer-zu-Peer-Unterhaltung wie Sofortnachrichten oder Audioanruf
 
 > [!NOTE]
-> Skype for Business Server verfolgt Informationen zu jeder Sitzung: Wer hat wer angerufen; welche Endpunkte in der Sitzung verwendet wurden; Wie lange hat die Sitzung zuletzt gedauert? was war die wahrgenommene Qualität der Sitzung; Und so weiter. Skype for Business Server den tatsächlichen Aufruf selbst nicht aufzeichnen und speichern. Dazu gehören Chatsitzungen: Obwohl Skype for Business Server Informationen zu Chatsitzungen aufzeichnet, wird nicht jede Chatnachricht aufgezeichnet, die während der Sitzung gesendet wurde.
+> Skype for Business Server verfolgt Informationen zu jeder Sitzung: wer wer angerufen hat; welche Endpunkte in der Sitzung verwendet wurden; Wie lange hat die Sitzung zuletzt gedauert? was war die wahrgenommene Qualität der Sitzung; Und so weiter. Skype for Business Server zeichnet den tatsächlichen Aufruf selbst nicht auf und speichert ihn nicht. Dazu gehören Chatsitzungen: Obwohl Skype for Business Server Informationen zu Chatsitzungen aufzeichnet, wird nicht jede Chatnachricht aufgezeichnet, die während der Sitzung gesendet wurde.
 
 Die grundlegenden Anrufdetailinformationen, die von Skype for Business Server für jede Sitzung gesammelt werden, können für Folgendes verwendet werden:
 
@@ -47,7 +47,7 @@ Die grundlegenden Anrufdetailinformationen, die von Skype for Business Server f�
 
 - **Gerätebestandsverwaltung**. Informationen zur Ressourcenverwaltung helfen Administratoren dabei, alte Geräte zu identifizieren, die noch verwendet werden, die ersetzt werden müssen, und teure Geräte zu identifizieren, die nicht verwendet oder nicht verwendet werden.
 
-- **Helpdesk**. Die Problembehandlung von Daten hilft Supporttechnikern zu ermitteln, warum der Anruf eines Benutzers fehlgeschlagen ist, ohne server- oder clientseitige Protokolle erfassen zu müssen. Diese Informationen können von Supportmitarbeitern, die nicht über umfassende technische Kenntnisse des Skype for Business-Clients und Skype for Business Server verfügen, problemlos abgerufen und verstanden werden.
+- **Helpdesk**. Die Problembehandlung von Daten hilft Supporttechnikern zu ermitteln, warum der Anruf eines Benutzers fehlgeschlagen ist, ohne server- oder clientseitige Protokolle erfassen zu müssen. Auf diese Informationen kann sofort zugegriffen und von Supportmitarbeitern verstanden werden, die nicht über umfassende technische Kenntnisse des Skype for Business-Clients und Skype for Business Server verfügen.
 
 - **Systemproblembehandlung**. Ermöglicht Administratoren das Erkennen grundlegender Probleme, die u. U. verhindern, dass Endbenutzer einfache Aufgaben wie das Beitreten zu einer Konferenz, das Tätigen eines Anrufs oder das Senden einer Sofortnachricht ausführen können.
 
@@ -111,7 +111,7 @@ Die einheitlichen Datensammlungs-Agents werden automatisch auf jedem Front-End-S
 
 Mit anderen Worten: Es können nicht zwei Instanzen der LcsCdr-Datenbank in derselben Instanz von SQL Server vorhanden sein. Wenn Sie mehrere Instanzen der LcsCdr-Datenbank benötigen, müssen Sie mehrere Instanzen von SQL Server konfigurieren.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 
 [Bereitstellen des Monitoring Servers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-monitoring)

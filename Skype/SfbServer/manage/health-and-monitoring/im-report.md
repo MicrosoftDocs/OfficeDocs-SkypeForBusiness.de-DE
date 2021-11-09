@@ -2,7 +2,7 @@
 title: Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server.'
-ms.openlocfilehash: 999750f039b2ca57cc31198bcf1599f042763ed3
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767663"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834203"
 ---
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server
  
@@ -27,7 +27,7 @@ Der Bericht über Peer-zu-Peer-Sofortnachrichten enthält Trendinformationen zu 
   
 ## <a name="accessing-the-peer-to-peer-im-report"></a>Zugreifen auf den Bericht über Peer-zu-Peer-Sofortnachrichten
 
-Sie können nur auf den Bericht über Peer-to-Peer-Sofortnachrichten zugreifen, indem Sie den [Zusammenfassenden Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-summary-report.md) öffnen und dann auf eine der folgenden Metriken klicken:
+Sie können nur auf den Bericht über Peer-to-Peer-Sofortnachrichten zugreifen, indem Sie den [zusammenfassenden Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-summary-report.md) öffnen und dann auf eine der folgenden Metriken klicken:
   
 - Gesamtanzahl der Peer-zu-Peer-Sofortnachrichtensitzungen
     

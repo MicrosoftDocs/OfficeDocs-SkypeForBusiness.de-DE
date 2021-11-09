@@ -2,7 +2,7 @@
 title: Einstellungen unter "Nächster Hop" für Edge – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 7bb385b7-18c2-42a3-b8a9-cea7bf0c8fc9
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um den Next-Hoppool festzulegen oder zu ändern, den die Edgeserver für die Kommunikation mit der internen Infrastruktur verwenden, wählen Sie einen Director, Director-Pool, Front-End-Server oder Front-End-Serverpool aus der Liste aus. Nur Directors oder Front-End-Server, die im Topologie-Generator konfiguriert wurden, werden in der Liste angezeigt.
-ms.openlocfilehash: cef9c72da22c70814ad5dc3af07eea076339dde1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a919d50be48066cc5e07c710289200b7d0821db
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771013"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844748"
 ---
 # <a name="edge-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für Edge – Erweiterung
 

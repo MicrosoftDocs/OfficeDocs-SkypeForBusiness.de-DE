@@ -2,7 +2,7 @@
 title: Auswählen von Routen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d136adcd-6659-4113-941c-cca75033318e
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Dialogfeld Routen auswählen suchen Sie nach vorhandenen VoIP-Routen, die Sie verwenden können.
-ms.openlocfilehash: 0a6079fe23f8c546a7056694478951dcd1ced4b5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: d33a8310c507a62b24013520f570bd3c68766928
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752584"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859382"
 ---
 # <a name="select-routes"></a>Auswählen von Routen
  

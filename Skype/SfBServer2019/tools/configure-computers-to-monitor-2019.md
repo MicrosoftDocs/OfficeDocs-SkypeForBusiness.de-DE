@@ -1,8 +1,8 @@
 ---
-title: Konfigurieren der zu überwachenden Skype for Business Server Computer
+title: Konfigurieren der Skype for Business Server Computer, die überwacht werden
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,16 +13,16 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.'
-ms.openlocfilehash: c0ceac289fa9185c38b68a3824faa29a3db7433d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 975c9eaa7d70720fefa52b8adc84b4f17200f972
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777115"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859642"
 ---
 # <a name="configure-the-skype-for-business-server-computers-to-monitore"></a>Konfigurieren der zu überwachenden Skype for Business Server Computer
 
-**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden Skype for Business Server 2019-Computer, und konfigurieren Sie den Computer als System Center Proxy.
+**Zusammenfassung:** Installieren Sie die Operations Manager-Agent-Dateien auf dem zu überwachenden computer Skype for Business Server 2019, und konfigurieren Sie den Computer als System Center Proxy.
 
 Jeder Skype for Business Server 2019-Computer, den Sie überwachen möchten, muss in der Lage sein, sein Vorhandensein selbst an den Verwaltungsserver zu melden. Um diesen Prozess zu aktivieren, müssen Sie die Operations Manager-Agent-Dateien auf jedem der zu überwachenden Computer installieren. Nach der Installation der Agentdateien müssen Sie den Computer so konfigurieren, dass er als System Center Proxy fungiert. Stellen Sie sicher, dass Sie zuerst Skype for Business Server auf diesen Computern installiert und konfiguriert haben, bevor Sie diese Verfahren ausführen.
 

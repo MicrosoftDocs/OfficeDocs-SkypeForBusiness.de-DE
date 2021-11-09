@@ -2,7 +2,7 @@
 title: Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec62b70f-885e-4272-b9d2-a574ea434b64
 description: 'Zusammenfassung: Erfahren Sie mehr über die Verwendung des Anrufqualitäts-Dashboards. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: ad4c1b295b672900b632903fc653691c03cc5193
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a1a2f0c6d4cf07563f0aceb6379a9142930e1699
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739101"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843808"
 ---
 # <a name="use-call-quality-dashboard-for-skype-for-business-server"></a>Verwenden des Anrufqualitäts-Dashboards für Skype for Business Server
 
@@ -53,7 +53,7 @@ Bewegen Sie den Mauszeiger über die Balkendiagramme und Trendlinien, um detaill
 
 Wenn Sie zum ersten Mal auf das Anrufqualitäts-Dashboard-Portal zugreifen, wird automatisch eine Standardgruppe von Berichten erstellt. Diese Berichte werden manchmal als Systemberichte bezeichnet. Sie können diese Berichte frei ändern oder löschen oder erweitern, indem Sie neue gleichgeordnete und untergeordnete Berichte erstellen.
 
-Auf oberster Ebene zeigt der Bericht "Audio Streams Monthly Trend" den monatlichen Trend für alle Audiostreams an. Bewegen Sie den Mauszeiger über die Balken in einem Balkendiagramm, um eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten anzuzeigen. Klicken Sie auf den Titel des Berichts "Audio Streams Monatlicher Trend", um zum Bericht "Verwaltetes und nicht verwaltetes Audio Streams" zu navigieren, in dem die Berichte zwischen verwalteten und nicht verwalteten Anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Nicht verwaltete Anrufe umfassen Anrufe von außerhalb der Unternehmensfirewall und alle Anrufe, die über WLAN getätigt werden.
+Auf oberster Ebene zeigt der Bericht "Audio Streams Monatlicher Trend" den monatlichen Trend für alle Audiostreams an. Bewegen Sie den Mauszeiger über die Balken in einem Balkendiagramm, um eine detailliertere Ansicht der durch das Balkendiagramm dargestellten Daten anzuzeigen. Klicken Sie auf den Titel des Berichts "Audio Streams Monatlicher Trend", um zum Bericht "Verwaltetes und nicht verwaltetes Audio Streams" zu navigieren, in dem die Berichte zwischen verwalteten und nicht verwalteten Anrufen aufgeteilt werden. Verwaltete Anrufe sind Anrufe, die innerhalb der Unternehmensfirewall über kabelgebundene Verbindungen getätigt werden. Nicht verwaltete Anrufe umfassen Anrufe von außerhalb der Unternehmensfirewall und alle Anrufe, die über WLAN getätigt werden.
 
 Der andere Bericht auf oberster Ebene heißt "Vom Benutzer gemeldetes Histogramm zur Anrufqualitätsbewertung". Anrufqualitätsbewertungen sind die Nummern, die von Skype for Business Benutzern am Ende eines Anrufs angegeben werden, um die Qualität des Anrufs anzugeben. Die Bewertungsnummern reichen von 1 bis 5, 1 ist die schlechteste und 5 die beste. Das Histogramm zeigt die Anzahl der Audioanrufe mit der angegebenen Bewertung in einem Monat an.
 
@@ -167,7 +167,7 @@ Standardmäßig enthält diese nächste Tabelle einen Eintrag (0, 'Unknown', 0, 
 |Gebäude |nvarchar(500) |Ja |Der Gebäudename, in dem sich der WLAN-Zugriffspunkt befindet. |
 
 
-## <a name="cqd-streams"></a>CQD Streams
+## <a name="cqd-streams"></a>CQD-Streams
 
 Ein CQD-Datenstrom wird als gut, schlecht oder nicht klassifiziert betrachtet. CQM 1.5 verwendet jetzt die folgende CQD-Definition:
 
@@ -192,7 +192,7 @@ JPDR-Definition = Definition schlechter Anrufe minus RatioConcealedSamplesAvg
 
 ## <a name="where-is-callercallee"></a>Wo befindet sich der Anrufer/Angerufene?
 
-CQD verwendet keine Felder "Anrufer/Angerufener", sondern "First" und "Second", da zwischen dem Aufrufer und dem Angerufenen dazwischen schritte vorhanden sind.
+CQD verwendet keine Felder für Anrufer/Angerufene, sondern "First" und "Second", da zwischen dem Aufrufer und dem Angerufenen dazwischen schritte vorhanden sind.
 
  **Zuerst** Ist immer der Serverendpunkt (z. B. AV MCU oder Vermittlungsserver), wenn ein Server am Datenstrom beteiligt ist.
 

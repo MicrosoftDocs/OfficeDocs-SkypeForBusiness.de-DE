@@ -2,7 +2,7 @@
 title: Trendbericht über Medienqualität des Servers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
 description: 'Zusammenfassung: Erfahren Sie mehr über den Trendbericht zur Medienqualität des Servers in Skype for Business Server.'
-ms.openlocfilehash: d813e6d0935a24652b99beb4da9b854197ba98dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774795"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851018"
 ---
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Trendbericht über Medienqualität des Servers in Skype for Business Server
  
@@ -35,7 +35,7 @@ Auf den Trendbericht über Medienqualität des Servers kann über einen der folg
     
 ## <a name="making-the-best-use-of-server-media-quality-trend-report"></a>Optimale Nutzung des Trendberichts zur Medienqualität des Servers
 
-Wenn Sie [im Serverleistungsbericht in Skype for Business Server](server-performance.md) für einen bestimmten Server auf die Trendmetrik klicken, wird der Trendbericht über Medienqualität des Servers geöffnet. Es wird jedoch nur eine leere Instanz dieses Berichts angezeigt. Der Server, den Sie im Serverleistungsbericht ausgewählt haben, wird nicht auf dem Bildschirm angezeigt. Stattdessen müssen Sie diesen Server aus der Dropdownliste "Server" auswählen. Beachten Sie auch, dass das Dropdownmenü "Server" die Option "Alle auswählen" enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server haben. Der Trendbericht über Medienqualität des Servers kann nur Daten für maximal 5 Server gleichzeitig anzeigen.
+Wenn Sie im [Serverleistungsbericht in Skype for Business Server](server-performance.md) für einen bestimmten Server auf die Trendmetrik klicken, wird der Trendbericht über Medienqualität des Servers geöffnet. Es wird jedoch nur eine leere Instanz dieses Berichts angezeigt. Der Server, den Sie im Serverleistungsbericht ausgewählt haben, wird nicht auf dem Bildschirm angezeigt. Stattdessen müssen Sie diesen Server aus der Dropdownliste "Server" auswählen. Beachten Sie auch, dass das Dropdownmenü "Server" die Option "Alle auswählen" enthält. Diese Option funktioniert nicht, wenn Sie mehr als 5 Server haben. Der Trendbericht über Medienqualität des Servers kann nur Daten für maximal 5 Server gleichzeitig anzeigen.
   
 In den Diagrammen, die im Trendbericht über Medienqualität des Servers angezeigt werden, sind die Punkte mit der Bezeichnung "Anruflautstärke" und "Prozentsatz der Anrufe schlechter Qualität" Hotlinks. Durch Klicken auf einen Punkt im Diagramm wird eine Instanz des [Anruflistenberichts in Skype for Business Server](call-list-report-0.md) geöffnet, in der die Gesamtzahl der Anrufe (oder Anrufe schlechter Qualität) für den angegebenen Zeitraum angezeigt wird.
   

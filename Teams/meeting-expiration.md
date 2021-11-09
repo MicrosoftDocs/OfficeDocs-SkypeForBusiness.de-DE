@@ -1,6 +1,6 @@
 ---
 title: Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -16,24 +16,24 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Erfahren Sie, wie Sie besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in einem Microsoft Teams.
-ms.openlocfilehash: 0fda2344f58a8781749234fb260e847ac0d44aac
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Erfahren Sie, wie Sie besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in Microsoft Teams.
+ms.openlocfilehash: 484a873e319a6af46640f8eb3b17a5edc7c175e2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751514"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843988"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams
 
-[Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams werden verwendet, um zu steuern, ob Benutzer in Ihrer Organisation Besprechungen starten und planen können, sowie die Features, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern geplant werden. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sie verwalten Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell-Cmdlets.
+[Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams werden verwendet, um zu steuern, ob Benutzer in Ihrer Organisation Besprechungen starten und planen können, sowie die Features, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern geplant werden. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sie verwalten Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove,](/powershell/module/skype/remove-csteamsmeetingpolicy) [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell-Cmdlets.
 
 Die Einstellungen der Besprechungsrichtlinie, die steuern, ob Benutzer Besprechungen starten und planen sowie den Ablauf von Besprechungen steuern können, die von Benutzern geplant werden. Wenn ein Teilnahmelink und eine Konferenz-ID für eine Besprechung abläuft, kann niemand an der Besprechung teilnehmen. Die folgenden Einstellungen für Besprechungsrichtlinien bestimmen, ob Benutzer Besprechungen in einer Besprechung starten Teams. Die Besprechungseinstellungen werden in diesem Artikel erläutert.
 
 - [Jetzt besprechungen in Kanälen](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)zulassen: Steuert, ob ein Benutzer eine Besprechung aus dem Ausweg in einem Kanal starten kann.
 - [Planen von Kanal-Besprechungen](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)zulassen: Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
 - [Planen privater Besprechungen](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)zulassen: Steuert, ob ein Benutzer eine private Besprechung in einem Teams. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
-- [Lassen Sie Outlook hinzufügen:](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)Steuert, ob ein Benutzer eine private Besprechung von einem anderen Outlook. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+- [Lassen Sie Outlook hinzufügen:](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)Steuert, ob ein Benutzer eine private Besprechung von einem Outlook. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
 - [Sofortbesprechung in privaten Besprechungen](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)zulassen: Steuert, ob benutzerfreundliche private Besprechungen starten können.
 
 Diese Einstellungen sind standardmäßig aktiviert. Wenn eine dieser Einstellungen deaktiviert ist, kann jeder Benutzer, dem die Richtlinie zugewiesen ist, keine neuen Besprechungen dieses Typs starten oder planen. Gleichzeitig treten der Besprechung Links und Konferenz-IDs aller vorhandenen Besprechungen des Typs bei, die der Benutzer zuvor begonnen oder geplant hat.
@@ -63,7 +63,7 @@ Hier ist eine Zusammenfassung der Funktionsweise des Ablaufs von Besprechungen f
 |Sie möchten...&nbsp;&nbsp; |So geht's&nbsp;&nbsp;&nbsp;&nbsp;  |Besprechungs-Joinverhalten&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
 |Ablaufen von privaten "Jetzt treffen"-Besprechungen, die von einem Benutzer gestartet wurden&nbsp;&nbsp;|Deaktivieren Sie **"Sofortbesprechung in privaten Besprechungen zulassen"**.&nbsp;&nbsp;|Niemand kann an privaten **Besprechungen teilnehmen, die** vom Benutzer gestartet wurden.|
-|Ablauf von privaten Besprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **Die Planung privater Besprechungen** _zulassen,_ und deaktivieren Sie **Outlook-Add-In zulassen.** &nbsp;&nbsp;|Niemand kann an privaten, vom Benutzer geplanten Besprechungen teilnehmen. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Private Besprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Private Besprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von besprechungsserien privaten Besprechungen.</li></ul><br>Sowohl **Das Planen privater Besprechungen** zulassen als auch das **Add-Outlook-Add-In** muss deaktiviert sein, damit private, von einem Benutzer geplante Besprechungen ablaufen. Wenn eine Einstellung deaktiviert und die andere aktiviert ist, bleiben Besprechungslinks und Konferenz-IDs vorhandener Besprechungen aktiv und laufen nicht ab.|
+|Ablauf von privaten Besprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **Die Planung privater Besprechungen** _zulassen,_ und deaktivieren Sie **Outlook-Add-In zulassen.** &nbsp;&nbsp;|Niemand kann an privaten, vom Benutzer geplanten Besprechungen teilnehmen. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Private Besprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Private Besprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von besprechungsserien privaten Besprechungen.</li></ul><br>Sowohl **Das Planen privater Besprechungen** zulassen als auch das **Add-Outlook-Add-Ins** muss deaktiviert sein, damit private, von einem Benutzer geplante Besprechungen ablaufen. Wenn eine Einstellung deaktiviert und die andere aktiviert ist, bleiben Besprechungslinks und Konferenz-IDs vorhandener Besprechungen aktiv und laufen nicht ab.|
 |Kanal läuft ab **Besprechungen jetzt** beginnen von einem Benutzer&nbsp;&nbsp;|Deaktivieren Sie **"Sofort besprechung in Kanälen zulassen"** _und_ deaktivieren Sie **Kanal-Besprechungsplanung zulassen.**&nbsp;&nbsp;|Niemand kann an **Kanalbesprechungen teilnehmen, die** vom Benutzer gestartet wurden.|
 |Ablaufen von Kanalbesprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **Kanal-Besprechungsplanung zulassen.**&nbsp;&nbsp;|Niemand kann an Kanalbesprechungen teilnehmen, die vom Benutzer geplant wurden. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Kanalbesprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Kanalbesprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von Besprechungsserien in Kanälen.</li></ul>|
 

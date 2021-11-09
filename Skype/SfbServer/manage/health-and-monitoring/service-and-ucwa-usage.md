@@ -2,7 +2,7 @@
 title: Überwachen der Mobilitätsdienste- und UCWA-Nutzung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,25 +12,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8389b37a-ca3e-4047-8b51-85bc07da87e8
 description: 'Zusammenfassung: Verwalten des Mobilitätsdiensts (Mcx) und der Unified Communications-Web-API (UCWA) in Skype for Business Server.'
-ms.openlocfilehash: 370e2e2fb8707f7d893747a0ffbcfe85f2612dd8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6139ab53e964bd7c880a83a7af252fe2da71a152
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742141"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835253"
 ---
 # <a name="monitor-mobility-service-and-ucwa-usage-in-skype-for-business-server"></a>Überwachen der Mobilitätsdienste- und UCWA-Nutzung in Skype for Business Server
  
 **Zusammenfassung:** Verwalten Sie den Mobilitätsdienst (Mcx) und die Unified Communications-Web-API (UCWA) in Skype for Business Server.
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 Sie sollten kontinuierlich die CPU und den Arbeitsspeicher überwachen, die vom Skype for Business Server Mobility Service (Mcx) und der Unified Communications Web API (UCWA) verwendet werden. Um die Nutzung zu überwachen, können Sie Folgendes verwenden:
   
  **Für Unified Communications Web API (UCWA):**
   
-- Der **LyncUcwa-Arbeitsprozess** im Internetinformationsdienste(IIS)-Manager. Sehen Sie sich im Bereich **Arbeitsprozesse** die Spalten **CPU %** und **Private Bytes (KB)** an.
+- Der **LyncUcwa-Arbeitsprozess** im Internetinformationsdienste (IIS)-Manager. Sehen Sie sich im Bereich **Arbeitsprozesse** die Spalten **CPU %** und **Private Bytes (KB)** an.
     
 - Die Leistungsindikatoren **CPU** und **Prozessor**.
     
@@ -63,8 +63,8 @@ Neben den Leistungsindikatoren für die CPU- und Speicherauslastung können Sie 
 > Wenn Sie diese Werte erfüllen oder überschreiten, sollten Sie Ihre Kapazitätsplanung für die richtige Größe der CPU, die Anzahl der Kerne und den Arbeitsspeicher für die Computer, die die Webdienste hosten, erneut überprüfen und neu berechnen. 
 
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server](server-memory-capacity-limits.md)

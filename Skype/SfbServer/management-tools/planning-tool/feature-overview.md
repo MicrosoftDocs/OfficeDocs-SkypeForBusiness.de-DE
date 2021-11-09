@@ -2,7 +2,7 @@
 title: Featureübersicht –Planungstool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -14,12 +14,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Das Planungstool Skype for Business Server 2015 wird abbestellen.
-ms.openlocfilehash: 87250dba5df1b7f338f4cb9159a7583f1fd5f4fa
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756936"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850938"
 ---
 # <a name="feature-overview-planning-tool"></a>Featureübersicht –Planungstool
  
@@ -56,7 +56,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Einwahlkonferenzen**
     
-    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Für Einwahlkonferenzen müssen Sie die Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen bereitstellen.
+    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Einwahlkonferenzen erfordern die Bereitstellung der Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen.
     
 - **Webkonferenzen**
     
@@ -127,7 +127,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und deren Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
+    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option zum Integrieren von Skype for Business Server 2015-Speicher in Exchange Speicher auswählen.
     
 - **IPv4**
     
@@ -159,11 +159,11 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Konferenzzentrale**
     
-    Konferenzzentralenanwendung bietet Telefonbenutzern Ohne den Dienst eines Drittanbieters für Audiokonferenzen Audiokonferenzfunktionen.
+    Konferenzzentralenanwendung bietet Audiokonferenzfunktionen für Telefonbenutzer ohne den Dienst eines Drittanbieters für Audiokonferenzen.
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder unveränderlich sind.
     
 - **Anrufsteuerung**
     

@@ -1,7 +1,7 @@
 ---
 title: Verwalten Windows Updates für Microsoft Teams-Räume
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: sohailta
 manager: serdars
 ms.date: 10/10/2018
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: M365-voice
 ms.assetid: ''
 description: Verwalten Windows Updates für Microsoft Teams-Räume
-ms.openlocfilehash: 0aab39e58472d6efac40e3b33abce66fa12b158d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1a5e665546c00525939585f4655fcdf404e5786f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740471"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859992"
 ---
 # <a name="manage-windows-updates"></a>Verwalten Windows Updates
 
@@ -48,6 +48,6 @@ Windows Updates können auf verschiedene Arten verwaltet werden:
 
 Im Gegensatz zu Qualitätsupdates und nicht zurückstellbaren Updates werden Windows 10 "Featureupdates" (hauptversionen des Betriebssystems) erst installiert, nachdem Microsoft eine bestimmte Updatefunktionalität mit Microsoft Teams-Räume getestet und überprüft hat. Selbst wenn es für den Semi-Annual Kanal freigegeben wird (oder gezielt, wenn Sie Systeme zu Testzwecken auf diesen Kanal festgelegt haben) oder sogar manuell von Ihren eigenen Versuchen oder Konfigurationen übertragen wird, wird die Installation erst zugelassen, wenn der Block auf unserem Ende entfernt wird.
 
-Microsoft Teams Der "Out-of-Box"-Raum installiert bei Verwendung des Hands-off-Ansatzes aufgrund eines Windows Updates kein Windows Update oder startet ein Gerät nicht automatisch neu. Systeme können jedoch ein Update herunterladen und auf den nächsten Neustart warten, um es zu installieren. Wenn sie nicht manuell neu gestartet wird, sollte die Installation beim automatischen Neustart in der Nacht erfolgen. Windows Updates sollten im Raum transparent sein, die Benutzeroberfläche sollte niemals durch Windows Updates unterbrochen werden.
+Microsoft Teams "Out-of-Box"-Raum wird bei Verwendung des Hands-off-Ansatzes aufgrund eines Windows Updates kein Windows Update installieren oder ein Gerät automatisch neu starten. Systeme können jedoch ein Update herunterladen und auf den nächsten Neustart warten, um es zu installieren. Wenn sie nicht manuell neu gestartet wird, sollte die Installation beim automatischen Neustart in der Nacht erfolgen. Windows Updates sollten im Raum transparent sein, die Benutzeroberfläche sollte niemals durch Windows Updates unterbrochen werden.
 
 Wenn Sie sich für den Domänenbeitritt entscheiden, verwenden Sie Microsoft Endpoint Configuration Manager oder WSUS, und achten Sie besonders auf Richtlinien oder Aktionen, die dazu führen können, dass das Gerät während der Geschäftszeiten ein Update installiert oder einen Neustart erzwingt. Wenn Während der Verwendung Systeme in Ihrer Bereitstellung neu gestartet werden oder sie über Windows Updates über die Benutzeroberfläche informiert werden, sollten Sie sich ihre Konfiguration ansehen.

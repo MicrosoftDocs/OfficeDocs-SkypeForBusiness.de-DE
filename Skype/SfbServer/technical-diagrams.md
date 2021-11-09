@@ -2,7 +2,7 @@
 title: Poster für Skype for Business Server 2015 | VoIP-PSTN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: hub-page
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 7b6da49b-ac72-4ab0-8957-166e330b38fa
 description: 'Zusammenfassung: Überprüfen Sie diese Poster nach Bedarf, während Sie Skype for Business Server planen, implementieren oder verwalten.'
-ms.openlocfilehash: a5ad11aca26d279be415d558be89505f37e0f7ba
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4042f554c53f18a1cadc25f12bfb7e393b685160
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60754232"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859752"
 ---
 # <a name="technical-diagrams-for-skype-for-business-server"></a>Technische Diagramme für Skype for Business Server
 
@@ -47,7 +47,7 @@ Weitere Informationen zur Verwendung von Microsoft Teams finden Sie auf [den Pos
 |:---|:---|
 |**Skype for Business Server Protokollworkloads** <br/>![SfB Protocol Workloads Poster.](media/0dccf933-eab3-4793-a8a4-4f6b9b0b4fa0.png)<br/>[PDF-Version](https://go.microsoft.com/fwlink/p/?LinkId=550989) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Visio Version](https://go.microsoft.com/fwlink/p/?LinkId=550991) (am besten für Benutzer mit Visio) |Laden Sie dieses Poster herunter, um die Anforderungen von Skype for Business Servern und Clients mit unterschiedlichen Dienstkomplexitätsstufen besser zu verstehen.<br/> <br/> Größe: 11 x 17 Zoll (mehrere Blätter, bequem zum Drucken auf den meisten Office-Druckern angepasst) <br/> <br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
 |**Skype for Business Anrufqualität – Methodik** <br/> ![Poster "Call Quality Methodology". ](media/69d33707-8dc4-446a-8d72-0a77be59a64a.png)[PDF-Version](https://go.microsoft.com/fwlink/p/?LinkId=617899) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Visio Version](https://go.microsoft.com/fwlink/p/?LinkId=617900) (am besten für Benutzer mit Visio) |Laden Sie dieses Poster herunter, um mehr über CQM, die Call Quality Methodology für Skype for Business Server 2015, zu erfahren, mit der Sie Probleme finden und beheben können, die sich auf die Anrufqualität und die Benutzererfahrung für Implementierungen auswirken, die Enterprise-VoIP-Funktionen enthalten. <br/> <br/> Verwenden Sie die [Downloaddetailseite,](https://go.microsoft.com/fwlink/p/?LinkId=617898) um die druckbaren Karten und Regeln abzurufen, wenn Sie sie als Brettspiel spielen möchten. Verwenden Sie dieses Poster mit der [CQM-Scorecard.](https://go.microsoft.com/fwlink/p/?LinkId=617904) <br/><br/> Größe: 34 x 44 Zoll <br/> <br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
-|**Skype for Business VoIP-Lösungen** <br/> ![Poster "Planen von VoIP-Lösungen".](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869123) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Visio Version](https://go.microsoft.com/fwlink/?linkid=869124) (am besten für Benutzer mit Visio) |Microsoft bietet eine Vielzahl von Optionen, mit denen Ihre Benutzer Festnetz- und Mobiltelefone über das Telefonfestnetz anrufen können – unabhängig davon, ob ihre Konten in Microsoft 365 oder Office 365 Skype for Business online oder in Ihrem lokalen Skype for Business Server 2015 vorhanden sind. Einsatz. Dieses Poster beschreibt die verschiedenen Microsoft-Sprachangebote und enthält dann Anleitungen dazu, welche Optionen je nach aktuellem Status und zukünftigen Plänen Für Sie am besten geeignet sind. <br/> <br/> Größe: 34 x 44 Zoll <br/><br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
+|**Skype for Business VoIP-Lösungen** <br/> ![Poster "Planen von VoIP-Lösungen".](media/1d3371f3-d554-4d6b-ac4f-a927bbe50b26.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869123) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Visio Version](https://go.microsoft.com/fwlink/?linkid=869124) (am besten für Benutzer mit Visio) |Microsoft bietet eine Vielzahl von Optionen, mit denen Ihre Benutzer Festnetz- und Mobiltelefone über das Telefonfestnetz (Public Switched Telephone Network, PSTN) anrufen können – unabhängig davon, ob ihre Konten in Microsoft 365 oder Office 365 Skype for Business online oder in Ihrem lokalen Skype for Business Server 2015 vorhanden sind. Einsatz. Dieses Poster beschreibt die verschiedenen Microsoft-Sprachangebote und enthält dann Anleitungen dazu, welche Optionen je nach aktuellem Status und zukünftigen Plänen Für Sie am besten geeignet sind. <br/> <br/> Größe: 34 x 44 Zoll <br/><br/> Dieses Poster wurde mit Visio 2015 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
 |**Skype for Business Architekturmodelle** <br/> ![Skype for Business Architekturmodelle.](media/0734153f-af7b-4cf3-b095-96bdd1de3fb0.png) <br/> [PDF-Version](https://go.microsoft.com/fwlink/?linkid=869125) (am besten für mobile Geräte oder Tablet-Computer) <br/> [Visio Version](https://go.microsoft.com/fwlink/?linkid=869126) (am besten für Benutzer mit Visio) |Diese Posterreihe richtet sich an die IT-Pro Zielgruppe, um das Bewusstsein für die verschiedenen grundlegenden Architekturmodelle zu erhöhen, mit denen Skype for Business Online und Skype for Business Server 2015 lokal genutzt werden können. Beginnen Sie mit der Konfiguration, die am besten den Anforderungen Ihrer Organisation und zukünftigen Plänen entspricht. Bei Bedarf können Sie auf die anderen Konfigurationen zurückgreifen. Sie können beispielsweise die Integration in Exchange und SharePoint oder eine Lösung in Betracht ziehen, die das Cloud PBX-Angebot von Microsoft nutzt. <br/><br/> Größe: 11 x 17 Zoll <br/><br/> Dieses Poster wurde mit Visio 2010 erstellt. Für eine bestimmte Umgebung sollte keine Änderung erforderlich sein. |
 
 ## <a name="visual-assets"></a>Visuelle Ressourcen

@@ -1,6 +1,6 @@
 ---
 title: Zuweisungen für Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
@@ -21,16 +21,16 @@ description: Erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in T
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1c2dbc67fdbc55c9ff2a7b2e16cb0957886de3dd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3a35e092aff4a160a744f3be4193adc5b207b8c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758307"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859742"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
-Die Features "Aufgaben" und "Noten" in Teams für Education Lehrkräften das Zuweisen von Aufgaben, Arbeiten oder Quizzen zu ihren Schülern/Studenten ermöglichen. Lehrkräfte können Zeitpläne für Aufgaben verwalten, Anweisungen, Ressourcen zum Turnen hinzufügen, mit Rubriken benoten und vieles mehr. Auf der Registerkarte "Noten" können sie auch den Fortschritt des Kurs- und des einzelnen Schülers/Studenten nachverfolgen.
+Die Features "Aufgaben" und "Noten" in Teams für Education Lehrkräften das Zuweisen von Aufgaben, Arbeiten oder Quizzen zu ihren Schülern/Studierenden ermöglichen. Lehrkräfte können Zeitpläne für Aufgaben verwalten, Anweisungen, Ressourcen zum Turnen hinzufügen, mit Rubriken benoten und vieles mehr. Auf der Registerkarte "Noten" können sie auch den Fortschritt des Kurs- und des einzelnen Schülers/Studenten nachverfolgen.
 
 [Weitere Informationen zu Aufgaben und Noten finden Sie in Teams für Education.](https://support.office.com/article/microsoft-teams-5aa4431a-8a3c-4aa5-87a6-b6401abea114?ui=en-US&rs=en-IE&ad=IE#ID0EAABAAA=Assignments)
 
@@ -52,7 +52,7 @@ Erziehungsberechtigte E-Mails werden an jedem Wochenende an Eltern oder Erziehun
 2. Aktivieren Sie im Microsoft Teams Admin Center die Einstellung für Erziehungsberechtigte, da die Einstellung standardmäßig deaktiviert ist. Auf diese Weise können Lehrkräfte eine wöchentliche Digest senden.
 
    > [!NOTE]
-   > Lehrkräfte können die Digest-Benachrichtigung deaktivieren, indem sie die Einstellung in ihrem eigenen persönlichen Kursteam deaktivieren (Aufgaben- Einstellungen >-E-Mails für **Eltern/Erziehungsberechtigte).**
+   > Lehrkräfte können die Digest-Benachrichtigung deaktivieren, indem sie die Einstellung innerhalb ihres eigenen persönlichen Kursteams deaktivieren (Aufgaben Einstellungen > E-Mails für **Eltern/Erziehungsberechtigte).**
 
 Um zu überprüfen, ob "Eltern" die E-Mail erhalten wird, müssen die folgenden drei Elemente wahr sein:
 
@@ -73,7 +73,7 @@ MakeCode ist ein Microsoft-Produkt, das den [Nutzungsbedingungen](https://go.mic
 
 Die Standardeinstellung für dieses Feature ist - **Aus.**
 
-Um MakeCode-Aufgaben in Teams zu aktivieren, wechseln Sie zum Teams  **Admin Center,** navigieren Sie zum Abschnitt Aufgaben, und stellen Sie die Umschaltoption MakeCode auf **Ein um.** Klicken Sie auf **Speichern**. Es kann einige Stunden dauern, bis diese Einstellungen wirksam werden.
+Um MakeCode-Aufgaben in Teams zu aktivieren, wechseln Sie zum Teams  **Admin Center**, navigieren Sie zum Abschnitt Aufgaben, und stellen Sie die Umschaltoption MakeCode auf **Ein um.** Klicken Sie auf **Speichern**. Es kann einige Stunden dauern, bis diese Einstellungen wirksam werden.
 
 Weitere Informationen zur Funktionsweise dieses Features finden Sie in dieser [Videodemo.](https://makecode.com/blog/teams/teams-assignments)
 
@@ -111,6 +111,6 @@ Wenn Sie **für** diese Einstellung im Admin Center auf die Schaltfläche Speich
 ### <a name="removing-assignments-and-grades"></a>Entfernen von Aufgaben und Noten
 Mithilfe von Teams können Sie Zuweisungen und Noten für einen bestimmten Benutzer oder für Ihren gesamten Mandanten entfernen. 
 
-Um Aufgaben und Noten für einen einzelnen Benutzer zu entfernen, wechseln Sie zum **Teams Admin Center,** und navigieren Sie zu Teams Apps **> Berechtigungsrichtlinien,** um eine neue Richtliniendefinition für App-Berechtigungsrichtlinien zu erstellen.  Legen Sie beim Erstellen der neuen Richtliniendefinition die **Richtlinie für Microsoft-Apps** auf Bestimmte Apps blockieren und alle anderen Apps blockieren sowie Zuweisungen zur Liste der blockierten Anwendungen hinzu.   Nachdem Sie die neue Richtliniendefinition gespeichert haben, weisen Sie sie den entsprechenden Benutzern zu.
+Wenn Sie Aufgaben und Noten für einen einzelnen Benutzer entfernen möchten, wechseln Sie zum **Teams Admin Center,** und navigieren Sie zu **Teams-Apps >** Berechtigungsrichtlinien, um eine neue Richtliniendefinition für App-Berechtigungsrichtlinien zu erstellen.  Legen Sie beim Erstellen der neuen Richtliniendefinition die **Richtlinie für Microsoft-Apps** auf Bestimmte Apps blockieren und alle anderen Apps blockieren sowie Zuweisungen zur Liste der blockierten Anwendungen hinzu.   Nachdem Sie die neue Richtliniendefinition gespeichert haben, weisen Sie sie den entsprechenden Benutzern zu.
 
-Um Aufgaben und Noten für den gesamten Mandanten zu entfernen, wechseln Sie zum **Teams Admin Center**, navigieren  Sie zu **Teams-Apps >** Apps verwalten , und suchen Sie in der Anwendungsliste nach Aufgaben, und wählen Sie diese aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Aufgabenanwendung in _Blockiert._ 
+Wenn Sie Aufgaben und Noten für den gesamten Mandanten entfernen möchten, wechseln Sie zum **Teams Admin Center**,  navigieren Sie zu **Teams-Apps >** Apps verwalten , und suchen Sie in der Anwendungsliste nach Aufgaben, und wählen Sie diese aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Aufgabenanwendung in _Blockiert._ 

@@ -2,7 +2,7 @@
 title: Verhindern neuer Verbindungen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,17 +11,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: ''
-ms.openlocfilehash: c776c915247533641bc92d1a5458daf671bf6a04
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6fdb3bfdd8e612ccdf61cf639b106baefb60f061
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759727"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851989"
 ---
 # <a name="preventing-new-connections-to-skype-for-business-server-for-server-maintenance"></a>Verhindern neuer Verbindungen mit Skype for Business Server für die Serverwartung
 
 
-Skype for Business Server ermöglicht es Ihnen, einen Server offline zu schalten (z. B. Software- oder Hardwareupgrades) ohne Dienstausfall für Benutzer.
+Skype for Business Server ermöglicht es Ihnen, einen Server offline zu schalten (z. B. software- oder hardwareupgrades) ohne Dienstverlust für Benutzer.
 
 Wenn Sie die Option zum Verhindern neuer Verbindungen oder Anrufe an einen Server innerhalb eines Pools angeben, werden keine neuen Verbindungen hergestellt oder Anrufe angenommen, sobald Sie diese Option aktivieren. Alle neuen Verbindungen und Anrufe werden an andere Server im Pool umgeleitet. Ein Server, der neue Verbindungen verhindert, ermöglicht die Fortsetzung von Sitzungen für bereits hergestellte Verbindungen, bis diese vom Benutzer beendet werden. Sobald alle vorhandenen Sitzungen beendet wurden, kann der Server offline geschaltet werden.
 
@@ -39,7 +39,7 @@ Wenn Sie neue Verbindungen mit einem Front-End-Server verhindern, verwenden eini
 
 Ausführliche Informationen zum DNS-Lastenausgleich finden Sie unter ["Lastenausgleichsanforderungen".](../../plan-your-deployment/network-requirements/load-balancing.md)
 
-Zusätzlich zur Verhinderung neuer Verbindungen für alle Dienste auf einem Server, auf dem Skype for Business Server ausgeführt wird, können Sie auch neue Verbindungen für einzelne Skype for Business Server Dienste verhindern. Diese Methode ist beispielsweise in Situationen nützlich, in denen Sie ein Skype for Business Server Update anwenden müssen, bei dem nicht der gesamte Server heruntergefahren werden muss. Hinweis: Wenn Sie Verbindungen für einen Dienst verhindern, müssen Sie den Dienst basierend auf der Gruppierung und Anzeige in der Windows-Liste von Diensten auswählen. Beispielsweise sind der Skype for Business Server Front-End Dienst und der Datensammlungs-Agent für die Überwachung separate Skype for Business Server Dienste, aber in der Liste der Windows Dienste werden sie konsolidiert und als Skype for Business Server Front-End angezeigt. Service. Sie können neue Verbindungen für den Skype for Business Server Front-End-Dienst verhindern, jedoch keine neuen Verbindungen für diese beiden einzelnen zugrunde liegenden Skype for Business Server Dienste separat.
+Neben der Verhinderung neuer Verbindungen für alle Dienste auf einem Server, auf dem Skype for Business Server ausgeführt wird, können Sie auch neue Verbindungen für einzelne Skype for Business Server Dienste verhindern. Diese Methode ist beispielsweise in Situationen nützlich, in denen Sie ein Skype for Business Server Update anwenden müssen, bei dem nicht der gesamte Server heruntergefahren werden muss. Hinweis: Wenn Sie Verbindungen für einen Dienst verhindern, müssen Sie den Dienst basierend auf der Gruppierung und Anzeige in der Windows-Liste von Diensten auswählen. Beispielsweise sind der Skype for Business Server Front-End dienst und der Datensammlungs-Agent für die Überwachung separate Skype for Business Server Dienste, aber in der Liste der Windows Dienste werden sie konsolidiert und als Skype for Business Server Front-End angezeigt. Service. Sie können neue Verbindungen für den Skype for Business Server Front-End-Dienst verhindern, jedoch keine neuen Verbindungen für diese beiden einzelnen zugrunde liegenden Skype for Business Server Dienste separat.
 
 > [!IMPORTANT]
 > Wenn Sie einen Server so konfigurieren, dass neue Verbindungen verhindert werden, und diesen Server anschließend neu starten, lässt der Server standardmäßig sofort wieder neue Verbindungen zu. Um dies zu verhindern, konfigurieren Sie den Server vor dem Neustart so, dass der Dienst nur manuell angehalten und fortgesetzt wird.

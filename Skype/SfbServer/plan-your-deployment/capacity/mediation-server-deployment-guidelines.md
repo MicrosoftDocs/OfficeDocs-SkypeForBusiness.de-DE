@@ -2,7 +2,7 @@
 title: Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7cc22b87-18d9-45e6-8402-015abd20f2e5
 description: In diesem Thema werden Die Planungsrichtlinien für die Bereitstellung des Vermittlungsservers beschrieben.
-ms.openlocfilehash: b65ff1335c32c17e61da97d90d290cf81b38ca33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 99f975d3dddb8837569c8e8aa1128f7515b2d562
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773555"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60844168"
 ---
 # <a name="deployment-guidelines-for-mediation-server-in-skype-for-business-server"></a>Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server
  
@@ -26,7 +26,7 @@ In diesem Thema werden Die Planungsrichtlinien für die Bereitstellung des Vermi
   
 ## <a name="collocated-or-stand-alone-mediation-server"></a>Verbundener oder eigenständiger Vermittlungsserver?
 
-Der Vermittlungsserver ist standardmäßig auf dem Standard Edition- oder Front-End-Server in einem Front-End-Pool an zentralen Standorten verbunden. Die Anzahl der PsTN-Anrufe (Public Switched Telephone Network), die verarbeitet werden können, und die Anzahl der für den Pool erforderlichen Computer hängt von Folgenden ab:
+Der Vermittlungsserver ist standardmäßig auf dem Standard Edition Server oder dem Front-End-Server in einem Front-End-Pool an zentralen Standorten verbunden. Die Anzahl der PsTN-Anrufe (Public Switched Telephone Network), die verarbeitet werden können, und die Anzahl der für den Pool erforderlichen Computer hängt von Folgenden ab:
   
 - Die Anzahl der Gatewaypeers, die vom Vermittlungsserverpool gesteuert werden.
     
@@ -49,7 +49,7 @@ Sie können das Skype for Business-Planungstool verwenden, um zu bewerten, ob da
  Vermittlungsserver am zentralen Standort können zum Weiterleiten von Anrufen für IP-Nebenstellenanlagen oder PSTN-Gateways an Zweigstellenstandorten verwendet werden. Wenn Sie jedoch SIP-Trunks bereitstellen, müssen Sie einen Vermittlungsserver an dem Standort bereitstellen, an dem jeder Trunk beendet wird. Wenn ein Vermittlungsserver am zentralen Standort Anrufe für eine IP-Nebenstellenanlage oder ein PSTN-Gateway an einem Zweigstellenstandort leitet, ist keine Medienumgehung erforderlich, es wird jedoch eine Medienumgehung empfohlen. Das liegt daran, dass die Medienpfadlatenz reduziert wird, wenn Sie die Medienumgehung aktivieren können, und folglich zu einer verbesserten Medienqualität führt, da der Medienpfad nicht dem Signalpfad folgen muss. Zudem wird durch die Medienumgehung die Verarbeitungslast des Pools verringert.
   
 > [!NOTE]
-> Die Medienumgehung funktioniert nicht mit jedem PSTN-Gateway, jeder IP-Nebenstellenanlage und jedem SBC. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Ip-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur mit Produkten und Versionen unterstützt, die im Unified Communications Open Interoperability-Programm aufgeführt sind – Lync Server bei [Explore getestete Geräte, Infrastruktur und Tools, die Ihre Skype for Business Unterstützen und Erweitern der Benutzeroberfläche unterstützen und erweitern.](http://partnersolutions.skypeforbusiness.com/solutionscatalog) 
+> Die Medienumgehung funktioniert nicht mit jedem PSTN-Gateway, jeder IP-Nebenstellenanlage und jedem SBC. Microsoft hat eine Reihe von PSTN-Gateways und SBCs mit zertifizierten Partnern getestet und einige Tests mit Ip-Nebenstellenanlagen von Cisco durchgeführt. Die Medienumgehung wird nur mit Produkten und Versionen unterstützt, die im Unified Communications Open Interoperability-Programm aufgeführt sind – Lync Server bei [Explore getestete Geräte, Infrastruktur und Tools, die Ihre Skype for Business unterstützen und erweitern.](http://partnersolutions.skypeforbusiness.com/solutionscatalog) 
   
 Wenn Ausfallsicherheit für Zweigstellenstandorte erforderlich ist, muss eine Survivable Branch Appliance oder eine Kombination aus einem Front-End-Server, einem Vermittlungsserver und einem Gateway am Zweigstellenstandort bereitgestellt werden. (Bei der Ausfallsicherheit von Zweigstellenstandorten wird davon ausgegangen, dass Anwesenheits- und Konferenzfunktionen am Standort nicht ausfallsicher sind.) Anleitungen zur Planung von Zweigstellen für VoIP finden Sie unter [Plan for Enterprise-VoIP resiliency in Skype for Business Server](../enterprise-voice-solution/enterprise-voice-resiliency.md).
   

@@ -2,7 +2,7 @@
 title: Allgemeine Sicherheitsbedrohungen im modernen Computing
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/22/2016
 audience: ITPro
@@ -13,17 +13,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56d22197-e8e2-46b8-b3a3-507bd663700e
-description: Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
-ms.openlocfilehash: dcc889ea43c06c2f8166d588b8d7e5eb7075b52c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie sich über häufige Sicherheitsangriffe im Klaren sein, die sich auf die Infrastruktur und Kommunikation auswirken können.
+ms.openlocfilehash: 8f546ff95bec714f9ddd922b4b786d4a6bd5549c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741921"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851809"
 ---
 # <a name="common-security-threats-in-modern-day-computing"></a>Allgemeine Sicherheitsbedrohungen im modernen Computing
  
-Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie allgemeine Sicherheitsangriffe kennen, die sich auf die Infrastruktur und Kommunikation auswirken können.
+Da Skype for Business Server ein Kommunikationssystem der Unternehmensklasse ist, sollten Sie sich über häufige Sicherheitsangriffe im Klaren sein, die sich auf die Infrastruktur und Kommunikation auswirken können.
   
 ## <a name="compromised-key-attack"></a>Angriff mit kompromittierten Schlüsseln
 
@@ -67,13 +67,13 @@ Im Kontext von Skype for Business Server kommt IP-Adressspoofing nur ins Spiel, 
     
 - Die IP-Adressen dieser Verbindungen wurden als vertrauenswürdige Hosts gekennzeichnet.
     
-Dies ist weniger ein Problem für TLS-Verbindungen (Transport Layer Security), da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert, dass ein Angreifer IP-Adressspoofing für eine bestimmte Verbindung durchführt (z. B. gegenseitige TLS-Verbindungen). Ein Angreifer könnte jedoch weiterhin die Adresse des DNS-Servers spoofen, der Skype for Business Server verwendet. Da die Authentifizierung in Skype for Business jedoch mit Zertifikaten durchgeführt wird, verfügt ein Angreifer nicht über ein gültiges Zertifikat, das zum Spoofing einer der Parteien in der Kommunikation erforderlich ist.
+Dies ist weniger ein Problem für TLS-Verbindungen (Transport Layer Security), da TLS alle Parteien authentifiziert und den gesamten Datenverkehr verschlüsselt. Die Verwendung von TLS verhindert, dass ein Angreifer IP-Adressspoofing für eine bestimmte Verbindung durchführt (z. B. gegenseitige TLS-Verbindungen). Ein Angreifer könnte jedoch weiterhin die Adresse des DNS-Servers vortäuschen, der Skype for Business Server verwendet. Da die Authentifizierung in Skype for Business jedoch mit Zertifikaten durchgeführt wird, verfügt ein Angreifer nicht über ein gültiges Zertifikat, das zum Spoofing einer der Parteien in der Kommunikation erforderlich ist.
 
-Andererseits kommt das Spoofing von Anrufer-IDs ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, einem PSTN-Gateway oder einem anderen Nebenstellensystem und Skype for Business Server eingerichtet haben. In diesen Fällen bietet Skype for Business Server keinen Schutz, um Spoofing von Anrufer-IDs zu verhindern. Dies bedeutet, dass ein Skype for Business Benutzer einen Anruf vom SIP-Trunk mit einer gefälschten Anrufer-ID empfangen kann, die die Telefonnummer oder den Anzeigenamen eines anderen Skype for Business Benutzers anzeigt (wenn eine umgekehrte Nummernsuche zutrifft). Der Schutz hierfür sollte auf anbieterseitigem PSTN- oder PBX-Gateway angewendet werden.
+Andererseits kommt das Spoofing von Anrufer-IDs ins Spiel, wenn Sie einen SIP-Trunk zwischen einem Anbieter, einem PSTN-Gateway oder einer anderen Nebenstellenanlage und Skype for Business Server eingerichtet haben. In diesen Fällen bietet Skype for Business Server keinen Schutz, um Spoofing von Anrufer-IDs zu verhindern. Dies bedeutet, dass ein Skype for Business Benutzer einen Anruf vom SIP-Trunk mit einer gefälschten Anrufer-ID empfangen kann, die die Telefonnummer oder den Anzeigenamen eines anderen Skype for Business Benutzers anzeigt (wenn eine umgekehrte Nummernsuche zutrifft). Der Schutz hierfür sollte auf anbieterseitigem PSTN- oder PBX-Gateway angewendet werden.
   
 ## <a name="man-in-the-middle-attack"></a>Man-in-the-Middle-Angriff
 
-Ein Man-in-the-Middle-Angriff tritt auf, wenn ein Angreifer die Kommunikation zwischen zwei Benutzern ohne wissen der beiden kommunizierenden Benutzer über den Computer des Angreifers umleitet. Der Angreifer kann den Datenverkehr überwachen und lesen, bevor er an den gewünschten Empfänger gesendet wird. Jeder Benutzer in der Kommunikation sendet unwissentlich Datenverkehr an den Angreifer und empfängt Datenverkehr vom Angreifer und geht dabei davon aus, dass er nur mit dem beabsichtigten Benutzer kommuniziert. Dies kann passieren, wenn ein Angreifer Active Directory-Domänendienste so ändern kann, dass er seinen Server als vertrauenswürdigen Server hinzufüge, oder domain Name System (DNS) so ändern kann, dass Clients über den Angreifer auf dem Weg zum Server eine Verbindung herstellen können. Ein Man-in-the-Middle-Angriff kann auch bei Mediendatenverkehr zwischen zwei Clients auftreten. In Skype for Business Server Punkt-zu-Punkt-Audio-, Video- und Anwendungsfreigabe werden Datenströme jedoch mit SRTP verschlüsselt, wobei kryptografische Schlüssel verwendet werden, die zwischen den Peers ausgehandelt werden, die SIP (Session Initiation Protocol) über TLS verwenden. Server wie Gruppenchat verwenden HTTPS, um die Sicherheit des Webdatenverkehrs zu erhöhen.
+Ein Man-in-the-Middle-Angriff tritt auf, wenn ein Angreifer die Kommunikation zwischen zwei Benutzern ohne wissen der beiden kommunizierenden Benutzer über den Computer des Angreifers umleitet. Der Angreifer kann den Datenverkehr überwachen und lesen, bevor er an den gewünschten Empfänger gesendet wird. Jeder Benutzer in der Kommunikation sendet unwissentlich Datenverkehr an den Angreifer und empfängt Datenverkehr vom Angreifer, während er nur mit dem beabsichtigten Benutzer kommuniziert. Dies kann passieren, wenn ein Angreifer Active Directory-Domänendienste so ändern kann, dass er seinen Server als vertrauenswürdigen Server hinzufüge, oder domain Name System (DNS) so ändern kann, dass Clients über den Angreifer auf dem Weg zum Server eine Verbindung herstellen können. Ein Man-in-the-Middle-Angriff kann auch bei Mediendatenverkehr zwischen zwei Clients auftreten. In Skype for Business Server Punkt-zu-Punkt-Audio-, Video- und Anwendungsfreigabe werden Datenströme jedoch mit SRTP verschlüsselt, wobei kryptografische Schlüssel verwendet werden, die zwischen den Peers ausgehandelt werden, die SIP (Session Initiation Protocol) über TLS verwenden. Server wie Gruppenchat verwenden HTTPS, um die Sicherheit des Webdatenverkehrs zu erhöhen.
   
 ## <a name="rtp-replay-attack"></a>Angriff mit Aufzeichnungswiederholung (RTP-Datenverkehr)
 

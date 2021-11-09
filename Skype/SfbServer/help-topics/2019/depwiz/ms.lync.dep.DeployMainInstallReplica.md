@@ -2,7 +2,7 @@
 title: Installieren des lokalen Konfigurationsspeichers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9c4bcc2-11a7-4d4d-858d-224db217ad32
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um mit der Installation eines neuen Skype for Business Server Rollenservers zu beginnen, müssen Sie zuerst die lokale SQL Server installieren, die den lokalen Konfigurationsspeicher hosten soll. Der lokale Konfigurationsspeicher fungiert als schreibgeschütztes Replikat des Skype for Business Server zentralen Verwaltungsspeichers (CMS).
-ms.openlocfilehash: 993eaa4e07a1b14e1ddeef11c80a15b4869b7719
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 82e82bc87a20f1bd4c86c4aa7c3e8c6bc8858c1b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738661"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859572"
 ---
 # <a name="install-local-configuration-store"></a>Installieren des lokalen Konfigurationsspeichers
 
@@ -28,11 +28,11 @@ Um mit der Installation eines neuen Skype for Business Server Rollenservers zu b
 
 So starten Sie die Installation
 
-1. Klicken Sie auf der Seite Skype for Business Server neben **Schritt1: Installieren der lokalen Konfiguration Store** auf **"Ausführen".**
+1. Klicken Sie auf der seite Skype for Business Server neben **Schritt1: Installieren der lokalen Konfiguration Store** auf **"Ausführen".**
 
 2. Vergewissern Sie sich auf der Seite **Lokale Serverkonfiguration**, dass die Option **Konfiguration automatisch aus dem zentralen Verwaltungsspeicher abrufen** ausgewählt ist, und klicken Sie dann auf **Weiter**.
 
 3. Klicken Sie nach Abschluss der Installation der lokalen Serverkonfiguration auf **Fertig stellen**.
 
 > [!NOTE]
-> Die Installation der lokalen SQL Server kann einige Zeit in Anspruch nehmen. Während SQL Server installiert wird, werden auf dem Bildschirm mit der Installationszusammenfassung keine Updates angezeigt. Wenn Sie den Fortschritt der Installation überwachen möchten, verwenden Sie den Task-Manager, um das SQL Server Setup zu überwachen.
+> Die Installation der lokalen SQL Server kann einige Zeit in Anspruch nehmen. Während SQL Server installiert wird, werden auf dem Bildschirm mit der Installationszusammenfassung keine Updates zum Fortschritt angezeigt. Wenn Sie den Fortschritt der Installation überwachen möchten, verwenden Sie den Task-Manager, um das SQL Server Setup zu überwachen.

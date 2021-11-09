@@ -2,7 +2,7 @@
 title: Angeben der Aufbewahrung von KDS-Daten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: c0fd6056-87bc-4136-902a-f1b37cd3a1ca
 description: 'Zusammenfassung: Erfahren Sie, wie Sie KDS-Daten (Call Detail Recording, Aufzeichnung von Kommunikationsdatensätzen) für Skype for Business Server verwalten.'
-ms.openlocfilehash: ac021da1c2235256e4b9bffc2f8664a1572d27d1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b232e853e28f2dbdee33c666e65ca89932796941
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742131"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60852009"
 ---
 # <a name="specify-retention-of-cdr-data-in-skype-for-business-server"></a>Angeben der Aufbewahrung von KDS-Daten in Skype for Business Server
  
@@ -32,7 +32,7 @@ Verwenden Sie die folgenden Verfahren, um Bereinigungseinstellungen für KDS-Dat
   
 ### <a name="to-specify-retention-of-cdr-data"></a>So geben Sie die Beibehaltungsdauer für KDS-Daten an
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
@@ -70,6 +70,6 @@ Sie können KDS-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und d
 
 Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsCdrConfiguration".](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server](call-detail-recording-cdr.md)

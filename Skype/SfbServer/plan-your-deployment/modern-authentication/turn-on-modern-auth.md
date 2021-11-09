@@ -2,7 +2,7 @@
 title: Planen der internen und externen Deaktivierung von Legacyauthentifizierungsmethoden für Ihr Netzwerk
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -14,12 +14,12 @@ ms.collection: IT_Skype16
 ms.custom: tracyp
 ms.assetid: ''
 description: In diesem Artikel werden Cmdlets beschrieben, mit denen Administratoren mehr Kontrolle über Authentifizierungsmethoden erhalten, die innerhalb und außerhalb eines Unternehmens verwendet werden. Administratoren können Authentifizierungsmethoden intern oder extern in ihrem Netzwerk aktivieren oder deaktivieren.
-ms.openlocfilehash: 65ec31dcd4a320b42da746eece41009f70e886af
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 845af6891d7da419ffd6fc5a4f663cfc2b61a01a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777955"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835063"
 ---
 # <a name="planning-to-turn-off-legacy-authentication-methods-internally-and-externally-to-your-network"></a>Planen, legacy-Authentifizierungsmethoden intern und extern für Ihr Netzwerk zu deaktivieren.
 
@@ -28,9 +28,9 @@ ms.locfileid: "60777955"
 >  + [https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/modern-authentication/topologies-supported](./topologies-supported.md)
 >  + [https://docs.microsoft.com/skypeforbusiness/manage/authentication/use-adal](/skypeforbusiness/manage/authentication/use-adal)
   
-Moderne Authentifizierung ermöglicht nicht nur sicherere Authentifizierungsmethoden, z. B. Two-Factor Authentifizierung oder zertifikatbasierte Authentifizierung, sie kann die Autorisierung Ihres Benutzers ausführen, ohne dass auch ein Benutzername oder Kennwort erforderlich ist. Es ist ziemlich praktisch.
+Moderne Authentifizierung ermöglicht nicht nur sicherere Authentifizierungsmethoden wie Two-Factor-Authentifizierung oder zertifikatbasierte Authentifizierung, sie kann die Autorisierung Ihres Benutzers ausführen, ohne auch einen Benutzernamen oder ein Kennwort zu benötigen. Es ist ziemlich praktisch.
 
-Dieser Artikel hilft Ihnen beim Schließen von Löchern, die für Denial-of-Service (DOS)-Angriffe auf Skype for Business Server ausgenutzt wurden, indem sie ältere Methoden für die Authentifizierung deaktivieren, extern, intern oder beides, in Ihrem Netzwerk. Eine gute Methode zum Stoppen von DOS-Angriffen wäre beispielsweise das Deaktivieren Windows integrierten Authentifizierung (einschließlich NTLM und Kerberos). Das externe Deaktivieren von NTLM und die Verwendung der zertifikatbasierten Authentifizierung trägt zum Schutz von Kennwörtern vor Gefährdung bei. Dies liegt daran, dass NTLM Kennwortanmeldeinformationen verwendet, um Benutzer zu authentifizieren, die zertifikatbasierte Authentifizierung – durch moderne Authentifizierung aktiviert – jedoch nicht. Dies bedeutet, dass eine ideale Option zum Reduzieren von DOS-Angriffen darin besteht, NTLM extern zu blockieren und stattdessen nur die zertifikatbasierte Authentifizierung zu verwenden.
+Dieser Artikel hilft Ihnen, Löcher zu stopfen, die für Denial-of-Service (DOS)-Angriffe auf Skype for Business Server ausgenutzt wurden, indem Sie ältere Methoden für die Authentifizierung deaktivieren, extern, intern oder beides, in Ihrem Netzwerk. Eine gute Methode zum Beenden von DOS-Angriffen wäre beispielsweise das Deaktivieren Windows integrierten Authentifizierung (einschließlich NTLM und Kerberos). Das externe Deaktivieren von NTLM und die Verwendung der zertifikatbasierten Authentifizierung trägt zum Schutz von Kennwörtern vor Gefährdung bei. Dies liegt daran, dass NTLM Kennwortanmeldeinformationen verwendet, um Benutzer zu authentifizieren, die zertifikatbasierte Authentifizierung – durch moderne Authentifizierung aktiviert – jedoch nicht. Dies bedeutet, dass eine ideale Option zum Reduzieren von DOS-Angriffen darin besteht, NTLM extern zu blockieren und stattdessen nur die zertifikatbasierte Authentifizierung zu verwenden.
 
 Gut, lassen Sie uns loslegen.
 
@@ -76,7 +76,7 @@ Das `Set-CsAuthConfig` Cmdlet wirkt sich auf die Registrierungsstelle und die We
 
 Dieses Cmdlet sollte auf der globalen Ebene ihres Skype for Business Servers ausgeführt werden. Sie *kann* auf Poolebene ausgeführt werden, dies wird jedoch *nicht empfohlen,* da die Installation dadurch komplexer wird. Wenn Sie diese Befehle auf Poolebene ausführen, werden die Einstellungen nur für die Registrierungsstellenrolle festgelegt, wenn in Ihrem Pool nicht alle Rollen enthalten sind (z. B. keine Webdienste). In diesem Fall führen Webdienste Einstellungen auf globaler Ebene aus, was verwirrendes Verhalten sein kann (insbesondere, wenn dies unbeabsichtigt erfolgt).
 
-Wenn ein Client die Registrierungsstelleneinstellungen aus einem Pool und die Webdiensteinstellungen aus einem anderen Pool verwendet und sich die Authentifizierungseinstellungen in einem inkonsistenten Zustand befinden, können sich Die Clients möglicherweise nicht anmelden.
+Wenn ein Client die Registrierungsstelleneinstellungen aus einem Pool und die Webdiensteinstellungen aus einem anderen Pool verwendet und sich die Authentifizierungseinstellungen in einem inkonsistenten Zustand befinden, können sich Ihre Clients möglicherweise nicht anmelden.
 
 Wenn nur eine Rolle für einen Pool vorhanden ist: 
 * Set- legt nur die Einstellungen fest, die der vorhandenen Rolle entsprechen. Es wird keine besondere Warnung ausgegeben, da einige Einstellungen *nicht* festgelegt wurden. 
@@ -98,7 +98,7 @@ Es kann ratsam sein, eine Get- für diese Werte durchzuführen und den Startzust
 > Wenn Sie den Parameter BlockWindowsAuthExternally verwenden, um NTLM extern zu blockieren, beachten Sie, dass dies auch NTLM intern für den SIP-Kanal blockiert. Skype for Business- und Lync-Clients, die neuer als 2010 sind, können sich jedoch weiterhin anmelden, da sie NTLM über HTTP intern für die Anmeldung verwenden und dann ein Zertifikat abrufen, um sich über SIP anzumelden. Clients, die älter als 2010 sind, können sich in diesem Fall jedoch nicht intern anmelden, und Sie sollten ein Upgrade dieser Anwendungen in Betracht ziehen, damit Ihre Benutzer die sichere Funktionalität fortsetzen können.
 
 > [!IMPORTANT] 
-> Einige der Skype for Business-Webanwendungen unterstützen ma nicht. Wenn Sie also das Szenario "BlockWindowsAuthExternallyAndInternally" verwenden, können Sie nicht auf diese Anwendungen zugreifen. Anwendungen ohne MA-Unterstützung sind Web scheduler, Dial-In Page, Skype for Business Control Panel (CSCP) und Response Group Einstellungen Page. 
+> Einige der Skype for Business-Webanwendungen unterstützen MA nicht. Wenn Sie also das Szenario "BlockWindowsAuthExternallyAndInternally" verwenden, können Sie nicht auf diese Anwendungen zugreifen. Anwendungen ohne MA-Unterstützung sind Web scheduler, Dial-In Page, Skype for Business Control Panel (CSCP) und Response Group Einstellungen Page. 
 
 ## <a name="links"></a>Links 
 - Weitere PowerShell-Informationen:

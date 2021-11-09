@@ -2,7 +2,7 @@
 title: Videobasierte Bildschirmübertragung für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
 description: Skype for Business Server Planungs- und Konfigurationsinformationen für die videobasierte Bildschirmübertragung (VbSS)
-ms.openlocfilehash: 2921330887b4e52aee5069d2bd1f97992a015ba9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762333"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859972"
 ---
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Videobasierte Bildschirmübertragung für Skype for Business Server 
  
@@ -50,14 +50,14 @@ Sie sollten auch beachten, dass einige Genauigkeit/Scharfheit Ihrer freigegebene
 
 **Erforderliche Serverports**
 
-|**Serverrolle**|**Dienstname**|**Port oder Portbereich**|**Protocol**|**Hinweise**|
+|**Serverrolle**|**Dienstname**|**Port oder Portbereich**|**Protocol**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
 |Front-End-Server  <br/> |Skype for Business Server Anwendungsfreigabedienst  <br/> |5065  <br/> |TCP  <br/> |Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.  <br/> |
 |Front-End-Server  <br/> |Skype for Business Server Anwendungsfreigabedienst  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Für die Anwendungsfreigabe verwendeter Medienportbereich.  <br/> |
    
 **Erforderliche Clientports**
 
-|**Komponente**|**Portbereich**|**Protocol**|**Hinweise**|
+|**Komponente**|**Portbereich**|**Protocol**|**Notizen**|
 |:-----|:-----|:-----|:-----|
 |Clients  <br/> |1024-65535  <br/> |TCP/UDP  <br/> |Anwendungsfreigabe.  <br/> |
    
@@ -79,7 +79,7 @@ Wenn QoS für die folgenden Medienports aktiviert ist und VbSS auch aktiviert is
    
 ### <a name="capacity-planning"></a>Kapazitätsplanung
 
-Jeder Front-End-Server mit Skype for Business Server kumulativen Update 2 (CU2) 2 (2015) oder höher unterstützt bis zu 375 Teilnehmer für die Bildschirmfreigabe mit RDP (jedoch nur 250 pro Besprechung). Diese Kapazität ändert sich nach CU3 nicht, wenn VbSS eingeführt und verwendet wird.
+Jeder Front-End-Server, auf dem Skype for Business Server kumulatives Update 2 (CU2) von 2015 oder höher ausgeführt wird, unterstützt bis zu 375 Teilnehmer für die Bildschirmfreigabe mit RDP (jedoch nur 250 pro Besprechung). Diese Kapazität ändert sich nach CU3 nicht, wenn VbSS eingeführt und verwendet wird.
   
 Trotzdem haben wir Leistungs- und Stresstests in unserem Labor durchgeführt, und die folgenden Messungen sollten auch im Hinblick auf Ihre eigene Bereitstellung berücksichtigt werden (natürlich abhängig von der Nutzung).
   
@@ -89,7 +89,7 @@ Vorausgesetzt:
     
 - Alle Benutzer in Ihrer Skype for Business Server Umgebung verfügen über Bildschirmauflösungen von mehr als 1920 x 1080.
     
-Bei voller Kapazität (wie oben erwähnt: 375 Bildschirmfreigabeteilnehmer pro Front-End-Server insgesamt, aber nur 250 pro Besprechung), verwendet Ihr Front-End-Server möglicherweise ~89 % der 1 Csv-Netzwerkkarte. Dies liegt daran, dass die vorhandene Bildschirmfreigabetechnologie in Skype for Business Server CU2 (RDP) den Inhalt auf dem Bildschirm in der nativen Auflösung des PCs des Referenten überträgt. Wenn also höhere Bildschirmauflösungen eingerechnet werden, treten möglicherweise bereits Netzwerkengpässe für die Bildschirmfreigabe mit Skype for Business Server 2015 CU2 auf.
+Bei voller Kapazität (wie oben erwähnt: 375 Bildschirmfreigabeteilnehmer pro Front-End-Server insgesamt, aber nur 250 pro Besprechung), verwendet Ihr Front-End-Server möglicherweise ~89 % der 1 Csv-Netzwerkkarte. Dies liegt daran, dass die vorhandene Bildschirmfreigabetechnologie in Skype for Business Server CU2 (RDP) den Inhalt auf dem Bildschirm in der systemeigenen Auflösung des REFERENTEN-PCs überträgt. Wenn höhere Bildschirmauflösungen eingerechnet werden, treten möglicherweise bereits Netzwerkengpässe bei der Bildschirmfreigabe mit Skype for Business Server 2015 CU2 auf.
   
 Um dies zu vermeiden, kann eine oder mehrere der folgenden Optionen hilfreich sein:
   
@@ -117,12 +117,12 @@ Die VbSS-Bandbreite ist:
    
 ## <a name="clients-and-servers-support"></a>Unterstützung für Clients und Server
 
-Für die videobasierte Bildschirmübertragung sind Skype for Business Server 2015 CU3 oder höher sowie eine aktuelle Version der unterstützenden Clients erforderlich, die im Vergleich der [Mobilen Clientfeatures für die](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) Unterstützung von Skype for Business und [Besprechungen](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)aufgeführt sind. 
+Die videobasierte Bildschirmübertragung erfordert Skype for Business Server 2015 CU3 oder höher sowie eine aktuelle Version der unterstützenden Clients, die im Vergleich der [Mobilen Clientfeatures für Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) und [Besprechungsunterstützung](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)aufgeführt sind. 
   
 Es gibt Situationen, in denen die Bildschirmfreigabe auf RDP umgestellt wird, z. B.:
   
 - Wenn Ihr Konto in einer Umgebung gehostet wird, in der ASMCU nicht den Mindestbuild erfüllt, der VbSS unterstützt.
-- Wenn jemand, der eine ältere Version des Skype for Business-Clients verwendet, ihrer Sitzung beitritt, z. B. eine beliebige Windows Clientversion, die niedriger als 16.0.6330.1000 ist, Skype for Business Room System Devices oder Skype for Business Mobile Apps. 
+- Wenn eine Person, die eine ältere Version des Skype for Business-Clients verwendet, ihrer Sitzung beitritt, z. B. eine beliebige Windows Clientversion, die niedriger als 16.0.6330.1000 ist, Skype for Business Raumsystemgeräte oder Skype for Business Mobile Apps. 
 - Wenn ein Benutzer die Freigabe von der Skype for Business-Web-App aus vorgibt.
 - Wenn jemand Skype for Business auf einem Mac verwendet und nicht auf Skype for Business Online oder Skype for Business Server 2015 mit dem kumulativen Update vom Juli 2018 (oder höher) verwaltet wird.
 - Wenn jemand eine Programm-/Windows-Freigabe startet.
@@ -193,7 +193,7 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
 > [!NOTE]
 > In einer Besprechung mit mehreren Teilnehmern Skype for Business berücksichtigen alle Clientendpunkte die Richtlinieneinstellung für den Besprechungsorganisator. 
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Skype for Business Server kumulatives Update 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   

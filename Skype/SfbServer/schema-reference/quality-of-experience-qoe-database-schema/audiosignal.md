@@ -2,7 +2,7 @@
 title: AudioSignal-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
 description: Jeder Datensatz stellt Audiosignalmetriken für einen Endpunkt dar. In der Regel hat jeder Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
-ms.openlocfilehash: 1e4f7bf92448d4f2efefe3bfad4e1ca556ad44b8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ee9029992e925fd43cc55da85bc4a7c127793e54
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761783"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843598"
 ---
 # <a name="audiosignal-table"></a>AudioSignal-Tabelle
  
@@ -41,7 +41,7 @@ Jeder Datensatz stellt Audiosignalmetriken für einen Endpunkt dar. In der Regel
 |**AudioTimestampDriftRateSpk** <br/> |decimal(9,2)  <br/> | <br/> |Taktfrequenz des Lautsprechergeräts, relativ zur CPU-Uhr.  <br/> |
 |**AudioTimestampErrorMicMs** <br/> |decimal(9,2)  <br/> | <br/> |Taktfrequenz des Lautsprechergeräts, relativ zur CPU-Uhr.  <br/> Durchschnittlicher Zeitstempelfehler des Mikrofonaufnahme-Datenstroms in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
 |**AudioTimestampErrorSpkMs** <br/> |decimal(9,2)  <br/> | <br/> |Durchschnittlicher Fehler beim Rendern des Zeitstempels des Lautsprechers in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
-|**VsEntryCauses** <br/> |Smallint  <br/> | <br/> |Bei der Sprachumschaltung handelt es sich um einen Halbduplexmodus mit der Fähigkeit, Unterbrechungen zu reduzieren. Ursachen für die Sprachumschaltung:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> Die Ursache kann eine Kombination dieser einzelnen Ursachen sein. ENTER_VS_FORCEORCONVERGENCE können nur mithilfe eines Registrierungsschlüssels zu Testzwecken aktiviert werden.  <br/> Der Datentyp für diese Spalte wurde in Microsoft Lync Server 2013 geändert.  <br/> |
+|**VsEntryCauses** <br/> |Smallint  <br/> | <br/> |Bei der Sprachumschaltung handelt es sich um einen Halbduplexmodus mit der Fähigkeit, Unterbrechungen zu reduzieren. Ursachen für die Sprachumschaltung:  <br/> ENTER_VS_BADTS 0x01  <br/> ENTER_VS_ECHO 0x02  <br/> ENTER_VS_FORCEORCONVERGENCE 0x04  <br/> ENTER_VS_DNLP 0x08  <br/> Die Ursache kann eine Kombination dieser einzelnen Ursachen sein. ENTER_VS_FORCEORCONVERGENCE können nur mithilfe eines Registrierungsschlüssels für Testzwecken aktiviert werden.  <br/> Der Datentyp für diese Spalte wurde in Microsoft Lync Server 2013 geändert.  <br/> |
 |**EchoEventCauses** <br/> |Tinyint  <br/> | <br/> |Ursachen eines Echoereignisses:  <br/> ECHO_EVENT_BAD_TIMESTAMP 0x01  <br/> ECHO_EVENT_POSTAEC_ECHO 0x02  <br/> ECHO_EVENT_ANLP 0x04  <br/> ECHO_EVENT_DNLP 0x08  <br/> ECHO_EVENT_MIC_CLIPPING 0x10  <br/> ECHO_EVENT_BAD_STATE 0x20  <br/> Die Ursache kann eine Kombination dieser einzelnen Ursachen sein.  <br/> |
 |**EchoPercentMicIn** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Zeit, in der echo im Mikrofonaufnahmedatenstrom erkannt wurde. In der Regel sind die Werte für Headsets oder Handsets niedrig und für Lautsprechertelefone oder eigenständige Lautsprecher höher. Bei Geräten, die die lokale akustische Echounterdrückung unterstützen, deuten hohe Werte auf einen Echoverlust hin. Bei anderen Geräten sollte diese Metrik nicht verwendet werden, um die Gerätequalität zu bewerten.  <br/> |
 |**EchoPercentSend** <br/> |decimal(5,2)  <br/> ||Prozentsatz der Zeit, in der Echo im gesendeten Datenstrom erkannt wird. Ein hoher Echoprozentsatz in gesendeten Datenströmen deutet auf eine Beeinträchtigung durch Echo hin.  <br/> |

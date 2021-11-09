@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
 ms:contentKeyID: 48184455
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Sie können alle Website- oder Benutzerrichtlinien löschen, die in der Skype for Business Server Systemsteuerung auf der Seite "Richtlinie für den externen Zugriff" aufgeführt sind.
-ms.openlocfilehash: 53be2748328211c901a2daeeb0ca84e70cfd6511
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765453"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834223"
 ---
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
 
@@ -31,7 +31,7 @@ Wenn Sie richtlinien für den externen Benutzerzugriff erstellt oder konfigurier
   - Setzen Sie die globale Richtlinie auf die Standardeinstellungen zurück. Die standardmäßigen globalen Richtlinieneinstellungen verweigern externen Benutzern den Zugriff. Die globale Richtlinie kann nicht gelöscht werden.
 
 
-Sie können jede Website- oder Benutzerrichtlinie löschen, die in der Skype for Business Server Systemsteuerung auf der Seite **"Richtlinie für den externen Zugriff"** aufgeführt ist. Durch das Löschen der globalen Richtlinie wird sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für Zugriffsoptionen für externe Benutzer enthalten. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter ["Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff".](reset-the-global-policy-for-external-user-access.md)
+Sie können alle Website- oder Benutzerrichtlinien löschen, die in der Skype for Business Server Systemsteuerung auf der Seite **"Richtlinie für den externen Zugriff"** aufgeführt sind. Durch das Löschen der globalen Richtlinie wird sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für Zugriffsoptionen für externe Benutzer enthalten. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter ["Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff".](reset-the-global-policy-for-external-user-access.md)
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>So löschen Sie eine Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff

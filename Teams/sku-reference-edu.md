@@ -1,6 +1,6 @@
 ---
 title: SKU-Referenz für Bildungseinrichtungen
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: karsmith
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Listet Lizenzierungspläne für Lehrpersonal und Studenten für Bildungseinrichtungen und SKU-IDs auf.
 f1keywords: ''
-ms.openlocfilehash: 8f6c4a1821488b14bd95bdaab670788a880b109f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8fb6077a34f20a694542caae724315868a66a3cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774375"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843568"
 ---
 # <a name="education-sku-reference"></a>SKU-Referenz für Bildungseinrichtungen
 
@@ -64,7 +64,7 @@ In diesem Artikel werden SKUs (Education Faculty and Student Licensing Plans) un
 |Office 365 A3 für Schüler und Studenten     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
 |Office 365 A3 Vorteil für die Nutzung durch Schüler/Studierende     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
 |Office 365 A5 Vorteil für die Nutzung durch Schüler/Studierende    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
-|Office 365 A5 ohne Audiokonferenz für Schüler nutzen Vorteile  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
+|Office 365 A5 ohne Audiokonferenz für Schüler nutzen Vorteil  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
 |Office 365 Education für Homeschool für Schüler und Studenten     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
 |Office 365 A1 für Schüler /Studenten (für Gerät)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Pluszeichen für Schüler und Studenten     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |

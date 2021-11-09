@@ -2,7 +2,7 @@
 title: Referenztopologien für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 0453aeee-c41f-44e6-a6e0-aaace526ca08
 description: Referenztopologien für Skype for Business Server, einschließlich Diagrammen und Entscheidungen für große, mittlere und kleine Organisationen.
-ms.openlocfilehash: 270814a8a4dacccdec8919a0e31c9c6098603493
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 89d04755d31750bb43ab78080e6260e51a5bde60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762103"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851799"
 ---
 # <a name="reference-topologies-for-skype-for-business-server"></a>Referenztopologien für Skype for Business Server
 
@@ -119,7 +119,7 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 
 - **Back-End-Server werden gespiegelt** Um eine höhere Verfügbarkeit für grundlegende Benutzerfeatures bereitzustellen, hat die Organisation ein gespiegeltes Back-End-Serverpaar für jeden Front-End-Pool bereitgestellt. Dies ist eine optionale Topologie, und Sie können stattdessen einen einzelnen Back-End-Server bereitstellen. SQL Clustering- und AlwaysOn-Verfügbarkeitsgruppen werden ebenfalls unterstützt. Weitere Informationen finden Sie unter [Back-End-Server hohe Verfügbarkeit in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 
-- **Verwenden Standard Edition Servers an einem Zweigstellenstandort.** Diese Organisation stuft Standort C als Zweigstellenstandort ein, da er nur 600 Mitarbeiter umfasst. Die dortigen Benutzer halten jedoch untereinander viele A/V-Konferenzen ab. Wenn sie in Skype for Business Server als Zweigstelle bereitgestellt wurde, würden die Medien für diese Konferenzen über das Wan (Wide Area Network) zu und von einem zentralen Standort mit bereitgestellten Front-End-Servern ausgeführt. Um diese potenzielle Bandbreitenlast zu vermeiden, haben sie ein Paar Standard Edition Server an diesem Standort installiert, die diese Konferenzen hosten. Und da Standard Edition Server dort installiert sind, betrachtet Skype for Business Server ihn per Definition als zentralen Standort und wird im Topologie-Generator und im Planungstool als solcher behandelt.
+- **Verwenden Standard Edition Servers an einer Zweigstelle.** Diese Organisation stuft Standort C als Zweigstellenstandort ein, da er nur 600 Mitarbeiter umfasst. Die dortigen Benutzer halten jedoch untereinander viele A/V-Konferenzen ab. Wenn es in Skype for Business Server als Zweigstelle bereitgestellt wurde, würden die Medien für diese Konferenzen über das WAN (Wide Area Network) zu und von einem zentralen Standort mit bereitgestellten Front-End-Servern ausgeführt. Um diese potenzielle Bandbreitenlast zu vermeiden, haben sie ein Paar Standard Edition Server an diesem Standort installiert, die diese Konferenzen hosten. Und da Standard Edition Server dort installiert sind, betrachtet Skype for Business Server es per Definition als zentralen Standort und wird im Topologie-Generator und im Planungstool als solcher behandelt.
 
     Hier reicht nur ein Standard Edition Server für die Leistung aus, aber die Organisation hat zwei bereitgestellt und kombiniert, um eine hohe Verfügbarkeit für den Fall zu gewährleisten, dass ein Server ausfällt.
 
@@ -127,18 +127,18 @@ Diese Topologie wird in mehreren Diagrammen gezeigt. Zunächst sehen Sie einen �
 
 - **Überwachung und Archivierung** Diese Organisation hat sowohl die Überwachung als auch die Archivierung bereitgestellt. Wenn Sie die Überwachung oder Archivierung bereitstellen, wird sie auf jedem Front-End-Server ausgeführt. Die Datenbanken für diese Features können mit der Back-End-Datenbank verbunden werden oder sich auf einem separaten Server befinden. Diese Organisation hat diese Datenbanken auf einem Server getrennt von den Back-End-Servern am zentralen Standort B gespeichert. Die Datenbanken hier empfangen Überwachungs- und Archivierungsdaten von den Front-End-Servern an allen Standorten.
 
-- **Optionen für Bereitstellungen an Zweigstellenstandorten.** Diese Organisation verfügt tatsächlich über mehr als 50 Zweigstellen, von denen nur zwei in den detaillierten Diagrammen dargestellt sind. Zweigstelle 1 verfügt nicht über eine ausfallsichere WAN-Verbindung mit dem zentralen Standort, sodass Survivable Branch Appliances für die Bereitstellung von Telefondiensten bereitgestellt werden, falls die WAN-Verbindung zum zentralen Standort unterbrochen wird. Zweigstelle 2 verfügt jedoch über eine ausfallsichere WAN-Verbindung, sodass nur ein PSTN-Gateway (Public Switched Telephone Network) benötigt wird. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird an Zweigstellenstandort 2 kein Vermittlungsserver benötigt. Ausführliche Informationen zur Entscheidung darüber, was an einer Zweigstelle installiert werden soll, finden Sie unter [Plan for Enterprise-VoIP resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
+- **Optionen für Bereitstellungen an Zweigstellenstandorten.** Diese Organisation verfügt tatsächlich über mehr als 50 Zweigstellen, von denen nur zwei in den detaillierten Diagrammen dargestellt sind. Zweigstelle 1 verfügt nicht über eine ausfallsichere WAN-Verbindung zum zentralen Standort, sodass Survivable Branch Appliances für die Bereitstellung von Telefondiensten bereitgestellt werden, falls die WAN-Verbindung zum zentralen Standort unterbrochen wird. Zweigstelle 2 verfügt jedoch über eine ausfallsichere WAN-Verbindung, sodass nur ein PSTN-Gateway (Public Switched Telephone Network) benötigt wird. Das bereitgestellte PSTN-Gateway unterstützt die Medienumgehung, deshalb wird an Zweigstellenstandort 2 kein Vermittlungsserver benötigt. Ausführliche Informationen zur Entscheidung darüber, was an einer Zweigstelle installiert werden soll, finden Sie unter [Plan for Enterprise-VoIP resiliency in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-resiliency.md).
 
 - **SIP-Trunking und Vermittlungsserver.** Beachten Sie, dass an Standort B der Vermittlungsserver nicht gemeinsam mit den Front-End-Servern ausgeführt wird. Der Grund hierfür liegt darin, dass für Standorte mit SIP-Trunking ein eigenständiger Vermittlungsserver empfohlen wird. In den meisten anderen Fällen empfiehlt sich die gemeinsame Ausführung des Vermittlungsservers mit dem Front-End-Server. Ausführliche Informationen zu den Vermittlungsservertopologien finden Sie unter [Components and Topologies for Mediation Server](/previous-versions/office/lync-server-2013/lync-server-2013-components-and-topologies-for-mediation-server) in der Planungsdokumentation.
 
-- **Beständiger Chat wird bereitgestellt.** Diese Organisation hat die Server bereitgestellt, die zum Aktivieren des beständigen Chats erforderlich sind. Es hat mehrere Front-End-Server für beständigen Chat bereitgestellt, um sowohl die Last für die Anzahl der Benutzer im Pool zu bewältigen als auch um hohe Verfügbarkeit zu gewährleisten. Außerdem wurde compliance für beständigen Chat bereitgestellt und die Store für beständigen Chat und die Kompatibilität für beständigen Chat Store auf separaten Servern gespeichert. Diese Speicher können verbunden sein und sogar mit dem Back-End-Server verbunden werden, aber diese Organisation hat sich entschieden, sie zu trennen, um eine bessere Leistung zu erzielen.
+- **Beständiger Chat wird bereitgestellt.** Diese Organisation hat die Server bereitgestellt, die zum Aktivieren des beständigen Chats erforderlich sind. Es hat mehrere Front-End-Server für beständigen Chat bereitgestellt, um sowohl die Last für die Anzahl der Benutzer im Pool zu bewältigen als auch um hohe Verfügbarkeit zu gewährleisten. Außerdem wurde die Kompatibilität für beständigen Chat bereitgestellt und die Store für beständigen Chat und die Kompatibilität des beständigen Chats Store auf separaten Servern gespeichert. Diese Speicher können verbunden sein und sogar mit dem Back-End-Server verbunden werden, aber diese Organisation hat sich entschieden, sie zu trennen, um eine bessere Leistung zu erzielen.
 
     > [!NOTE]
     > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
 
 - **DNS-Lastenausgleich.** Der Front-End-Pool und der Edgeserverpool verwenden dns-Lastenausgleich. Auf diese Weise sind keine Hardwaregeräte zum Lastenausgleich für die interne Schnittstelle der Edgeserver erforderlich, und der für Setup und Wartung der Hardwaregeräte zum Lastenausgleich für die weiteren Pools erforderliche Zeitraum wird erheblich verringert, da die Hardwaregeräte zum Lastenausgleich nur für HTTP-Datenverkehr benötigt werden. Weitere Informationen finden Sie unter (.. /.. /plan-your-deployment/network-requirements/load-balancing.md#BKMK_DNSLoadBalancing).
 
-- **Exchange UM-Bereitstellung.** Skype for Business Server funktioniert sowohl mit lokalen Bereitstellungen von Exchange Unified Messaging (UM) als auch mit gehosteten Exchange UM. Der zentrale Standort A umfasst einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server und nicht Skype for Business Server ausgeführt wird. Die Exchange UM-Funktionalität für Skype for Business Server wird im Front-End-Pool ausgeführt.
+- **Exchange UM-Bereitstellung.** Skype for Business Server funktioniert sowohl mit lokalen Bereitstellungen von Exchange Unified Messaging (UM) als auch mit gehosteten Exchange UM. Zentraler Standort A enthält einen Exchange Unified Messaging (UM)-Server, der Microsoft Exchange Server und nicht Skype for Business Server ausgeführt wird. Die Exchange UM-Funktion für Skype for Business Server wird im Front-End-Pool ausgeführt.
 
     Am zentralen Standort B wird gehostetes Exchange eingesetzt, daher wird die Exchange UM-Serverfunktionalität ebenfalls gehostet.
 

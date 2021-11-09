@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
 ms:contentKeyID: 48183694
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfigurieren und Quality of Service-Richtlinien in Skype for Business Server für Clients konfigurieren, die auf Windows 10 ausgeführt werden.
-ms.openlocfilehash: b2382a5060d0723f76312a089ab50b0b41314c8e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742111"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860072"
 ---
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server
 
@@ -28,7 +28,7 @@ In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfi
 
 ## <a name="configure-port-ranges"></a>Konfigurieren von Portbereichen
 
-Standardmäßig können Skype for Business Clientanwendungen einen beliebigen Port zwischen den Ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. Dies liegt daran, dass bestimmte Portbereiche nicht automatisch für Clients aktiviert werden. Um Quality of Service zu verwenden, müssen Sie jedoch die verschiedenen Datenverkehrstypen (Audio, Video, Medien, Anwendungsfreigabe und Dateiübertragung) einer Reihe eindeutiger Portbereiche zuweisen. Dies kann mithilfe des Cmdlets Set-CsConferencingConfiguration erfolgen.
+Standardmäßig können Skype for Business Clientanwendungen jeden Port zwischen ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. Dies liegt daran, dass bestimmte Portbereiche nicht automatisch für Clients aktiviert werden. Um Quality of Service zu verwenden, müssen Sie jedoch die verschiedenen Datenverkehrstypen (Audio, Video, Medien, Anwendungsfreigabe und Dateiübertragung) einer Reihe eindeutiger Portbereiche zuweisen. Dies kann mithilfe des Cmdlets Set-CsConferencingConfiguration erfolgen.
 
 > [!NOTE]  
 > Endbenutzer können diese Änderungen nicht selbst vornehmen. Portänderungen können nur von Administratoren mithilfe des Cmdlets Set-CsConferencingConfiguration vorgenommen werden.
@@ -38,7 +38,7 @@ Sie können ermitteln, welche Portbereiche derzeit für Kommunikationssitzungen 
 
 **Get-CsConferencingConfiguration**
 
-Wenn Sie seit der Installation Skype for Business Server keine Änderungen an den Konferenzeinstellungen vorgenommen haben, sollten Sie Informationen abrufen, die diese Eigenschaftswerte enthalten:
+Unter der Annahme, dass Sie seit der Installation Skype for Business Server keine Änderungen an den Konferenzeinstellungen vorgenommen haben, sollten Sie Informationen abrufen, die diese Eigenschaftswerte enthalten:
 
 ClientMediaPortRangeEnabled : False<br/>
 ClientAudioPort : 5350<br/>
@@ -259,6 +259,6 @@ Wenn Sie DSCP-Werte für alle Netzwerkadapter auf einem Computer markieren möch
 
 Nach dem Erstellen und Konfigurieren des neuen Registrierungswerts müssen Sie ihren Computer neu starten, damit die Änderungen wirksam werden.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Erstellen eines Gruppenrichtlinienobjekts in Windows 10](/windows/security/threat-protection/windows-firewall/create-a-group-policy-object)

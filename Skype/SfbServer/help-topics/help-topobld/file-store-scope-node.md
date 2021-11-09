@@ -2,7 +2,7 @@
 title: Dateispeicher – Bereichsknoten
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d723fd8-9c83-4b96-abb6-15b3dc7ce30a
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) und abhängige Pools für diesen Dateispeicher an. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 809816ea175e97943268c7a123484d3519d3a45a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7eac54c9cd300ecabbf8b9fb23c2517cf65ebf42
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762593"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860212"
 ---
 # <a name="file-store-scope-node"></a>Dateispeicher – Bereichsknoten
  

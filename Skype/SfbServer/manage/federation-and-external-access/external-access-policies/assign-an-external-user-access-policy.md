@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398551(v=OCS.15)
 ms:contentKeyID: 48184483
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SIP-Partnerverbund, Remotebenutzerzugriff und Verbindungen mit öffentlichen Chatnachrichten in der Skype for Business Server Systemsteuerung konfigurieren, indem Sie die entsprechenden Richtlinien auf bestimmte Benutzer anwenden.
-ms.openlocfilehash: e0e1fd7c1597200f576ff329433eb106f1c425da
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 400c49dfc7d0c893af98a8da7bc53894a39d6a9a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762463"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843918"
 ---
 # <a name="assign-an-external-user-access-policy-to-a-skype-for-business-enabled-user"></a>Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer zu einem Skype for Business aktivierten Benutzer
 
@@ -28,7 +28,7 @@ Wenn ein Benutzer für Skype for Business Server aktiviert wurde, können Sie SI
 
 
 > [!NOTE]  
-> Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Ausführliche Informationen finden Sie unter [Verwalten des Partnerverbunds und des externen Zugriffs auf Skype for Business Server](../managing-federation-and-external-access.md).
+> Um den Zugriff durch externe Benutzer zu unterstützen, müssen Sie die Unterstützung für jeden Typ des externen Benutzerzugriffs aktivieren, der unterstützt werden soll, sowie die entsprechenden Richtlinien und andere Optionen zur Verwendungssteuerung konfigurieren. Ausführliche Informationen finden Sie unter [Verwalten des Partnerverbunds und des externen Zugriffs auf Skype for Business Server.](../managing-federation-and-external-access.md)
 
 
 Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie für den externen Benutzerzugriff auf ein oder mehrere Benutzerkonten anzuwenden.
@@ -44,7 +44,7 @@ Verwenden Sie das Verfahren in diesem Thema, um eine zuvor erstellte Richtlinie 
 
 4.  Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
 
-5.  Wählen Sie unter **"Bearbeiten Skype for Business Server Benutzer"** unter **"Richtlinie für den externen Zugriff"** die Benutzerrichtlinie aus, die Sie anwenden möchten.
+5.  Wählen Sie unter **"Skype for Business Server Benutzer** bearbeiten" unter **"Richtlinie für den externen Zugriff"** die Benutzerrichtlinie aus, die Sie anwenden möchten.
      
 > [!NOTE]  
 > Die **\<Automatic>** Einstellungen gelten für den Standardserver oder die globalen Richtlinieneinstellungen.

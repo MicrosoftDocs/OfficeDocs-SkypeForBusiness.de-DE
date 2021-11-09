@@ -2,7 +2,7 @@
 title: Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,28 +12,28 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 1697ea71-6fcf-480d-b4e9-cd79f94d247e
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Kapazitätsgrenzen des Serverspeichers in Skype for Business Server überwachen.'
-ms.openlocfilehash: df24f96c8fca1927c1222e2bf42981f5cebf7aac
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e66d1fd318af5848b91110780d325fa78e3d21ce
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768703"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60860082"
 ---
 # <a name="monitor-for-server-memory-capacity-limits-in-skype-for-business-server"></a>Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie, wie Sie die Serverspeicherkapazitätsgrenzen in Skype for Business Server überwachen.
+**Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server auf Kapazitätsgrenzen des Serverspeichers achten.
   
 > [!CAUTION]
 > Die Informationen in diesem Thema, die sich auf die Kapazitätsplanung beziehen, beziehen sich nur auf Lync 2010 Mobile-Clients und den Mobilitätsdienst (Mcx). Capacity Planning for the Unified Communications Web API (UCWA), used by the Lync 2013 Mobile clients, is provided by the Lync Server 2013, Planning Tool. 
 
 > [!NOTE]
-> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 Zwei Leistungsindikatoren für Mobilität können Ihnen helfen, Ihre aktuelle Nutzung zu ermitteln und die Kapazität für den Skype for Business Server Mobility Service (Mcx) zu planen sowie die Speicherauslastung für UCWA zu überwachen. Für UCWA lautet die Zählerkategorie **LS:WEB - UCWA**. Für den Mobilitätsdienst (Mcx) befinden sich die Leistungsindikatoren in der Kategorie **"LS:WEB – Mobiler Kommunikationsdienst".** Die zu überwachenden Indikatoren sind:
   
 - Anzahl der **derzeit aktiven Sitzungen mit Aktiven Anwesenheitsabonnements**( die aktuelle Anzahl von Endpunkten, die über UCWA oder den Mobilitätsdienst (Mcx) registriert wurden und über aktive Anwesenheitsabonnements verfügen (Anzahl der immer verbundenen mobilen Benutzer)
     
-- **Anzahl** der derzeit aktiven Sitzungen , also die aktuelle Anzahl von Endpunkten, die über UCWA oder den Mobilitätsdienst registriert wurden.
+- Anzahl der **derzeit aktiven Sitzungen,** also die aktuelle Anzahl von Endpunkten, die über UCWA oder den Mobilitätsdienst registriert wurden.
     
 Wenn der Unterschied zwischen **der Anzahl der derzeit aktiven Sitzungen mit aktiven Anwesenheitsabonnements** und der Anzahl der derzeit aktiven **Sitzungen** im Laufe der Zeit gering ist, bedeutet dies, dass die meisten Benutzer mobiler Geräte über ein immer verbundenes Gerät verfügen, z. B. ein mobiles Android- oder Nokia-Gerät (nur für Mcx). Zu den immer verbundenen UCWA-Geräten gehören Apple- und Android-Geräte mit Lync 2013 Mobile-Clients). Wenn **die Anzahl der derzeit aktiven Sitzungen** wesentlich höher ist als die Anzahl der derzeit aktiven Sitzungen mit Aktiven **Anwesenheitsabonnements,** bedeutet dies, dass mehr Benutzer ein Hintergrundendpunktgerät verwenden, z. B. ein Apple iOS-Gerät oder Windows Phone unter Mcx. (Windows Phone ist der einzige Lync 2013 Mobile-Client, der sich als dieser registriert).
   
@@ -50,6 +50,6 @@ Der Front-End-Server benötigt genügend verfügbaren Arbeitsspeicher, um den Mo
   
 Wenn der verfügbare Arbeitsspeicher auf dem Front-End-Server niedriger als 1.500 MB ist, wenn Sie die erwartete Anzahl von Mobilitätsbenutzern planen, müssen Sie weitere Hardware hinzufügen, um den Mobilitätsdienst zu unterstützen. Weitere Informationen finden Sie unter Überwachen der [Mobilität für die Leistung in Skype for Business Server](monitor-mobility-performance.md) in der Betriebsdokumentation.
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Überwachen der Mobilität auf Leistung in Skype for Business Server](monitor-mobility-performance.md)

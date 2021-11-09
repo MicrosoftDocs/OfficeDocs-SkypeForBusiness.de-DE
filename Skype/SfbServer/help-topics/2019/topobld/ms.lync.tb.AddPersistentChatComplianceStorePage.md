@@ -2,7 +2,7 @@
 title: Hinzufügen des SQL Server-Speichers für Konformität für den beständigen Chat
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9771b53-e19a-4a12-bf01-24bae6f7e482
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie konfigurieren die Kompatibilität SQL Server Speichern, die Datenbanken für die Kompatibilitätsfunktion für den Server für beständigen Chat oder den Server für beständigen Chat bereitstellen.
-ms.openlocfilehash: b094fcd62a48c1970385b942c21c2f7b467ffd99
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c433a3e1175c94366eba052b49027329099886dc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758717"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859292"
 ---
 # <a name="add-persistent-chat-compliance-sql-server-store"></a>Hinzufügen des SQL Server-Speichers für Compliance für beständigen Chat
 

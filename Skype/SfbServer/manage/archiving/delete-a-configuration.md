@@ -2,7 +2,7 @@
 title: Löschen einer Archivierungskonfiguration in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.'
-ms.openlocfilehash: f0489fb26526a8e68935754a8689e28eca9ef335
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767883"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851028"
 ---
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype for Business Server
 
@@ -35,7 +35,7 @@ So löschen Sie eine Archivierungskonfiguration mithilfe der Systemsteuerung:
     
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.
     
-4. Klicken Sie in der Liste der Archivierungskonfigurationen auf die Zu löschende Standort- oder Poolkonfiguration, klicken Sie auf **Bearbeiten** und dann auf **"Löschen".**
+4. Klicken Sie in der Liste der Archivierungskonfigurationen auf die Zu löschende Standort- oder Poolkonfiguration, klicken Sie auf **"Bearbeiten"** und dann auf **"Löschen".**
     
     > [!NOTE]
     > Sie können auch auf die globale Konfiguration klicken, diese Option jedoch nur auswählen, wenn Sie die globale Konfiguration auf die Standardwerte zurücksetzen möchten. 

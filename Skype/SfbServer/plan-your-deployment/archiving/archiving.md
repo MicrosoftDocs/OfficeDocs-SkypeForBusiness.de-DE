@@ -2,7 +2,7 @@
 title: Planen der Archivierung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e9f0dcf7-66b4-4196-9e8c-b14721b1fb84
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die Archivierung in Skype for Business Server planen.'
-ms.openlocfilehash: d7ed504558274da06d8f49b38a297626ff22f86c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 6d67caa4b196c65282ecb404af747e0a60f435a7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740453"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843698"
 ---
 # <a name="plan-for-archiving-in-skype-for-business-server"></a>Planen der Archivierung in Skype for Business Server
  
@@ -46,7 +46,7 @@ Um die Archivierung zu implementieren, müssen Sie entscheiden, wie die Archivie
     
   - **Skype for Business Server Speicher.** Wenn Sie Benutzer haben, die nicht in Exchange verwaltet werden oder für die ihre Postfächer nicht In-Place Aufbewahrung aktiviert wurden, oder wenn Sie microsoft Exchange Integration für einen oder alle Benutzer in Ihrer Bereitstellung nicht verwenden möchten, können Sie Skype for Business Server Archivierungsdatenbanken mit SQL Server bereitstellen.
     
-- **Wann soll die Archivierung bereitgestellt werden?** Sie können die Archivierung als Teil Ihrer anfänglichen Skype for Business Server Bereitstellung bereitstellen oder sie einer vorhandenen Bereitstellung hinzufügen. Um Skype for Business Server Archivierungsspeicher (SQL Server Datenbanken) zu verwenden, verwenden Sie den Topologie-Generator, um die Datenbanken zu Ihrer Topologie hinzuzufügen und die Topologie dann erneut zu veröffentlichen. Wenn alle Ihre Benutzer in Exchange verwaltet werden und ihre Postfächer in In-Place Haltebereich gesetzt werden, müssen Sie Ihre Topologie nicht aktualisieren, sondern nur microsoft Exchange Integration aktivieren, um archivierte Daten in Exchange zu speichern. 
+- **Wann soll die Archivierung bereitgestellt werden?** Sie können die Archivierung als Teil Ihrer anfänglichen Skype for Business Server Bereitstellung bereitstellen oder sie einer vorhandenen Bereitstellung hinzufügen. Um Skype for Business Server Archivierungsspeicher (SQL Server Datenbanken) zu verwenden, verwenden Sie den Topologie-Generator, um die Datenbanken zu Ihrer Topologie hinzuzufügen und die Topologie dann erneut zu veröffentlichen. Wenn alle Ihre Benutzer in Exchange verwaltet werden und ihre Postfächer in In-Place Haltebereich gesetzt werden, müssen Sie Ihre Topologie nicht aktualisieren, sondern nur die Integration von Microsoft Exchange aktivieren, um archivierte Daten in Exchange zu speichern. 
     
 - **Welche Standorte und Benutzer in der Organisation eine Archivierung benötigen.** Sie können Archivierungseinstellungen für Ihre gesamte Organisation und optional für bestimmte Standorte, Pools, Benutzer und Benutzergruppen konfigurieren.
     
@@ -68,21 +68,21 @@ Um die Archivierung zu implementieren, müssen Sie entscheiden, wie die Archivie
     
   - Desktop- und Anwendungsfreigaben für Peer-zu-Peer-Sofortnachrichten und -konferenzen
     
-    Skype for Business Server archiviert auch keine Unterhaltungen für beständigen Chat. Zum Archivieren von Unterhaltungen für beständigen Chat müssen Sie den Konformitätsdienst aktivieren und konfigurieren, der eine Komponente ist, die mit dem Server für beständigen Chat bereitgestellt werden kann. Ausführliche Informationen finden Sie unter [Plan for Persistent Chat Server in Skype for Business Server 2015.](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+    Skype for Business Server archiviert auch keine Unterhaltungen für beständigen Chat. Zum Archivieren von Unterhaltungen für beständigen Chat müssen Sie den Konformitätsdienst aktivieren und konfigurieren, der eine Komponente ist, die mit dem Server für beständigen Chat bereitgestellt werden kann. Ausführliche Informationen finden Sie unter [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md).
 
     > [!NOTE] 
     > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
     
 - **Wie lange archivierte Materialien aufbewahrt werden sollen.** Die Archivierungsdatenbank ist nicht für die langfristige Aufbewahrung vorgesehen, und Skype for Business Server bietet keine E-Discovery-Lösung (Suche) für archivierte Daten, sodass Daten in einen anderen Speicher verschoben werden müssen. Skype for Business Server stellt ein Sitzungsexporttool bereit, das Sie zum Exportieren archivierter Daten verwenden können und das durchsuchbare Transkripte der archivierten Daten erstellt. 
     
-     Für die globale Richtlinie und für jede Website- und Benutzerrichtlinie, die Sie erstellen, können Sie angeben, wann archivierte und exportierte Daten gelöscht werden sollen. Weitere Informationen zum Löschen von Daten finden Sie unter [Verwalten des Löschens archivierter Daten in Skype for Business Server](../../manage/archiving/purging-of-archived-data.md). Weitere Informationen zur Verwendung des Sitzungsexporttools finden Sie unter [Exportieren archivierter Daten in Skype for Business Server](../../manage/archiving/export-archived-data.md).
+     Für die globale Richtlinie und für jede Website- und Benutzerrichtlinie, die Sie erstellen, können Sie angeben, wann archivierte und exportierte Daten gelöscht werden sollen. Weitere Informationen zum Löschen von Daten finden Sie unter [Verwalten der Bereinigung archivierter Daten in Skype for Business Server](../../manage/archiving/purging-of-archived-data.md). Weitere Informationen zur Verwendung des Sitzungsexporttools finden Sie unter [Exportieren archivierter Daten in Skype for Business Server](../../manage/archiving/export-archived-data.md).
     
 - **Ob die interne oder externe Kommunikation archiviert werden soll**. Sie können die Archivierung für die interne Kommunikation (die Kommunikation zwischen internen Benutzern) und/oder die externe Kommunikation (die Kommunikation, bei der mindestens ein Benutzer außerhalb Ihres internen Netzwerks beteiligt ist) aktivieren. Diese Optionen können für die gesamte Organisation oder nur für bestimmte Standorte und Pools angegeben werden. Standardmäßig ist keine dieser Optionen aktiviert.
     
     > [!NOTE]
     > Die Steuerung der Archivierung für die interne oder externe Kommunikation ist nur für Skype for Business Richtlinie verfügbar. Für Exchange-integrierte Archivierung werden sowohl die interne als auch die externe Kommunikation entweder archiviert oder nicht archiviert. 
   
-- **Gibt an, ob der kritische Modus implementiert werden soll.** Wenn die Archivierung eine Anforderung für Ihre Organisation ist, blockiert das Konfigurieren des kritischen Modus Chat- und Konferenzsitzungen im Falle eines Skype for Business Server Fehlers, der die Archivierung verhindern würde. Beispiel: 
+- **Gibt an, ob der kritische Modus implementiert werden soll.** Wenn die Archivierung eine Anforderung für Ihre Organisation ist, blockiert die Konfiguration des kritischen Modus Chat- und Konferenzsitzungen im Falle eines Skype for Business Server Fehlers, der die Archivierung verhindern würde. Beispiel: 
     
   - Ein Problem mit dem Skype for Business Server-Speicherdienst. In diesem Fall wird Chat für Benutzer blockiert, die für die Archivierung aktiviert sind.
     
@@ -123,7 +123,7 @@ Informationen zum Konfigurieren Exchange In-Place Aufbewahrungsrichtlinien und -
   
 ### <a name="skype-for-business-server-storage"></a>Skype for Business Server Speicher
 
-Wenn Sie Skype for Business Server Speicher auswählen, verwenden Sie Skype for Business Server Archivierungsrichtlinien und -konfigurationen, um zu steuern, wie die Archivierung aktiviert und implementiert wird. Skype for Business Server Speicher SQL Server Datenbanken verwendet. Daher müssen Sie ihrer Topologie die entsprechenden SQL Server Datenbanken hinzufügen und dann Ihre Archivierungsrichtlinien konfigurieren. 
+Wenn Sie Skype for Business Server Speicher auswählen, verwenden Sie Skype for Business Server Archivierungsrichtlinien und -konfigurationen, um zu steuern, wie die Archivierung aktiviert und implementiert wird. Skype for Business Server Speicher SQL Server Datenbanken verwendet, müssen Sie daher die entsprechenden SQL Server Datenbanken zu Ihrer Topologie hinzufügen und dann Ihre Archivierungsrichtlinien konfigurieren. 
   
 ### <a name="add-storage-databases-to-your-topology"></a>Hinzufügen von Speicherdatenbanken zu Ihrer Topologie
 
@@ -138,7 +138,7 @@ Wenn Sie ihrer Topologie SQL Server Speicherdatenbanken hinzufügen, können Sie
   
 Wenn Sie die Archivierungsdatenbank mit der Überwachungsdatenbank, der Back-End-Datenbank oder beiden dieser Datenbanken verbinden, können Sie entweder eine einzelne SQL Instanz für eine oder alle Datenbanken verwenden oder eine separate SQL Instanz für jede Datenbank mit der folgenden Einschränkung verwenden: Jede SQL Instanz kann nur eine einzelne Back-End-Datenbank enthalten.  einzelne Überwachungsdatenbank und einzelne Archivierungsdatenbank.
   
-Ausführliche Informationen zur Kollokation aller Serverrollen und Datenbanken finden Sie unter [Topologiegrundlagen für Skype for Business Server](../../plan-your-deployment/topology-basics/topology-basics.md). Ausführliche Informationen zum Aktualisieren Ihrer Topologie, um Speicherdatenbanken einzuschließen, finden Sie unter [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server.](../../deploy/install/create-and-publish-new-topology.md)
+Ausführliche Informationen zur Kollokation aller Serverrollen und Datenbanken finden Sie unter [Topologiegrundlagen für Skype for Business Server.](../../plan-your-deployment/topology-basics/topology-basics.md) Ausführliche Informationen zum Aktualisieren Ihrer Topologie, um Speicherdatenbanken einzuschließen, finden Sie unter [Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server.](../../deploy/install/create-and-publish-new-topology.md)
   
 ### <a name="determine-archiving-options-and-user-policies"></a>Ermitteln von Archivierungsoptionen und Benutzerrichtlinien
 
@@ -148,13 +148,13 @@ Sie müssen Folgendes ermitteln:
     
 - Ob Chats, Konferenzen oder beides archiviert werden sollen
     
-- Gibt an, ob der kritische Modus implementiert werden soll, der Chat- und Konferenzsitzungen bei einem Skype for Business Server Fehler blockiert. 
+- Gibt an, ob der kritische Modus implementiert werden soll, der Chat- und Konferenzsitzungen bei einem fehler Skype for Business Server blockiert. 
     
 - Gibt an, ob Richtlinien für bestimmte Benutzer und Gruppen aktiviert werden sollen
     
 Skype for Business Server Archivierungsoptionen können auf den folgenden Ebenen angegeben werden. 
   
-- **Option auf globaler Ebene**. Dies ist die Standardarchivierungskonfiguration und gilt für die gesamte Bereitstellung. Sie wird erstellt, wenn Sie Skype for Business Server bereitstellen und standardmäßig die Archivierung für die interne und externe Kommunikation deaktivieren. Sie können diese Option nicht löschen. Wenn Sie die Löschoption auswählen, wird die globale Option auf die Standardeinstellungen zurückgesetzt.
+- **Option auf globaler Ebene**. Dies ist die Standardarchivierungskonfiguration und gilt für die gesamte Bereitstellung. Er wird erstellt, wenn Sie Skype for Business Server bereitstellen, und deaktiviert standardmäßig die Archivierung für die interne und externe Kommunikation. Sie können diese Option nicht löschen. Wenn Sie die Löschoption auswählen, wird die globale Option auf die Standardeinstellungen zurückgesetzt.
     
 - **Optionen auf Websiteebene.** Sie können die Archivierung für einen oder mehrere bestimmte Standorte aktivieren oder deaktivieren, indem Sie eine Archivierungsoption auf Standortebene für den Standort erstellen und konfigurieren. Sie können jede Archivierungsoption auf Standortebene löschen, die Sie erstellen. Eine Archivierungsoption auf Standortebene überschreibt die globale Option, jedoch nur für den in der Option angegebenen Standort. 
     
@@ -164,7 +164,7 @@ Skype for Business Server Archivierungsoptionen können auf den folgenden Ebenen
     
     Angenommen, Sie aktivieren die Archivierung für Chatnachrichten nur in Ihrer globalen Konfiguration, erstellen dann eine Konfiguration auf Standortebene, in der Sie die Archivierung sowohl für Chatnachrichten als auch für Konferenzen aktivieren, und erstellen dann eine Konfiguration auf Poolebene, in der Sie die Archivierung nur für Chatnachrichten aktivieren. Die Kommunikation würde sowohl für Chatnachrichten als auch für Konferenzen für alle Benutzer des Standorts archiviert, mit Ausnahme der Benutzer, die in dem in der Konfiguration auf Poolebene angegebenen Pool verwaltet werden. Für alle anderen Benutzer in Ihrer Organisation wäre die Archivierung nur für Chatnachrichten aktiviert.
     
-- **Benutzerarchivierungsrichtlinien.** Sie können die Archivierung für einen oder mehrere bestimmte Benutzer und Benutzergruppen aktivieren oder deaktivieren, indem Sie eine Archivierungsrichtlinie auf Benutzerebene für die angegebenen Benutzer und Benutzergruppen erstellen, konfigurieren und anwenden. Sie können jede von Ihnen erstellte Archivierungsrichtlinie auf Benutzerebene löschen und ändern, für welche Benutzer und Benutzergruppen die Archivierungsrichtlinie gilt. Eine Archivierungsrichtlinie auf Benutzerebene setzt die globale Richtlinie und alle Standortrichtlinien außer Kraft, jedoch nur für die Benutzer und Benutzergruppen, auf die die Richtlinie angewendet wird. 
+- **Benutzerarchivierungsrichtlinien**. Sie können die Archivierung für einen oder mehrere bestimmte Benutzer und Benutzergruppen aktivieren oder deaktivieren, indem Sie eine Archivierungsrichtlinie auf Benutzerebene für die angegebenen Benutzer und Benutzergruppen erstellen, konfigurieren und anwenden. Sie können jede von Ihnen erstellte Archivierungsrichtlinie auf Benutzerebene löschen und ändern, für welche Benutzer und Benutzergruppen die Archivierungsrichtlinie gilt. Eine Archivierungsrichtlinie auf Benutzerebene setzt die globale Richtlinie und alle Standortrichtlinien außer Kraft, jedoch nur für die Benutzer und Benutzergruppen, auf die die Richtlinie angewendet wird. 
     
     Angenommen, Sie deaktivieren die Archivierung für die interne und externe Kommunikation in Ihrer globalen Konfiguration, erstellen eine Richtlinie auf Standortebene, in der Sie die Archivierung für die interne und externe Kommunikation aktivieren, und erstellen dann eine Richtlinie auf Benutzerebene, in der Sie die Archivierung für die externe Kommunikation deaktivieren. Die Kommunikation würde sowohl für die externe als auch für die interne Kommunikation für alle Websitebenutzer archiviert, mit Ausnahme der Benutzer, auf die Sie die Richtlinie auf Benutzerebene anwenden. Für diese Benutzer würde nur die interne Kommunikation archiviert.
     
@@ -172,7 +172,7 @@ Ausführliche Informationen zum Einrichten anfänglicher Archivierungskonfigurat
   
 ## <a name="archiving-configuration-tools"></a>Archivierungskonfigurationstools
 
- Sie steuern die meisten Archivierungsoptionen mithilfe der Skype for Business Server Systemsteuerung. Es stehen jedoch nur mithilfe der Skype for Business Server Verwaltungsshell einige Optionen zur Verfügung. Zu diesen Optionen gehören das Archivieren doppelter Nachrichten und das Exportieren archivierter Daten. Weitere Informationen zur Verwendung der Skype for Business Server Systemsteuerung und der Skype for Business Server-Verwaltungsshell zum Verwalten von Archivierungsrichtlinien finden Sie unter Verwalten der [Archivierung in Skype for Business Server.](../../manage/archiving/archiving.md)
+ Sie steuern die meisten Archivierungsoptionen mithilfe der Skype for Business Server Systemsteuerung. Es gibt jedoch einige Optionen, die nur mithilfe der Skype for Business Server-Verwaltungsshell verfügbar sind. Zu diesen Optionen gehören das Archivieren doppelter Nachrichten und das Exportieren archivierter Daten. Weitere Informationen zur Verwendung der Skype for Business Server Systemsteuerung und der Skype for Business Server-Verwaltungsshell zum Verwalten von Archivierungsrichtlinien finden Sie unter Verwalten der [Archivierung in Skype for Business Server.](../../manage/archiving/archiving.md)
   
 ## <a name="access-archived-data"></a>Zugreifen auf archivierte Daten
 

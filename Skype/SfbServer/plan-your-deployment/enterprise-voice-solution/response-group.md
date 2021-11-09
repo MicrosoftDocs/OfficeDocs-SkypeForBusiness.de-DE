@@ -2,7 +2,7 @@
 title: Planen der Reaktionsgruppenanwendung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
 description: Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
-ms.openlocfilehash: 3ca8159ca3d6fc37aa5c8f1f3f88f8188929f71f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767553"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859882"
 ---
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planen der Reaktionsgruppenanwendung in Skype for Business Server
 
@@ -110,7 +110,7 @@ Die Reaktionsgruppenanwendung verwendet die folgenden Ports:
 
 Die Reaktionsgruppenanwendung unterstützt das Wav-Dateiformat (Wave) und Windows WMA-Dateiformat (Media Audio) für Reaktionsgruppennachrichten, Wartemusik oder IVR-Fragen (Interactive Voice Response).
 
-Das dateiformat Windows Medienaudio erfordert, dass die Windows Media Format Runtime auf Front-End-Servern installiert ist, auf denen Windows Server 2008 R2 und Windows Server 2008 ausgeführt wird. Weitere Informationen finden Sie weiter oben in diesem Abschnitt unter "Softwareanforderungen".
+Das Windows Medienaudiodateiformat erfordert, dass die Windows Media Format Runtime auf Front-End-Servern installiert ist, auf denen Windows Server 2008 R2 und Windows Server 2008 ausgeführt wird. Weitere Informationen finden Sie weiter oben in diesem Abschnitt unter "Softwareanforderungen".
 
 #### <a name="supported-wave-file-formats"></a>Unterstützte WAV-Dateiformate
 
@@ -128,7 +128,7 @@ Für eine optimale Leistung bei Wavedateien wird eine Mono-WAV-Datei mit 16 kHz
 
 #### <a name="supported-windows-media-audio-file-formats"></a>Unterstützte WMA-Dateiformate
 
-Wenn Sie eine Windows Medienaudiodatei verwenden, erwägen Sie die Verwendung niedriger Bitraten, und überprüfen Sie die Leistung Ihres Systems bei Auslastung.
+Wenn Sie eine Windows Medienaudiodatei verwenden, erwägen Sie die Verwendung niedriger Bitraten, und überprüfen Sie die Leistung Ihres Systems unter Last.
 
 Sie können Microsoft Expression Encoder 4 verwenden, um einen Datei in das WMA-Format zu konvertieren. Informationen zum Herunterladen von Expression Encoder 4 finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) .
 
@@ -172,7 +172,7 @@ Die Agentkonsole unterstützt die Kombinationen aus Betriebssystemen und Webbrow
 
 Die Reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
-- Skype for Business-Desktopclient
+- Skype for Business Desktopclient
 
 - Lync 2013-Desktopclient
 

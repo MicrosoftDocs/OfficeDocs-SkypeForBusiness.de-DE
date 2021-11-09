@@ -1,7 +1,7 @@
 ---
 title: Skype Raumsystem-Setupskripts
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a66067d2-22b0-48f1-a5d0-e0cd0ece2e5a
 description: In diesem Thema finden Sie Beispielskripts für die Bereitstellung Skype Room System-Konten.
-ms.openlocfilehash: 02c356896608987fc52aae8aa613b1b5bff6eb6d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ef70cc0c36cf4a1434b0ca1e120a8d81799d7640
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771687"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859632"
 ---
 # <a name="skype-room-system-room-setup-scripts"></a>Skype Raumsystem-Setupskripts
  
 In diesem Thema finden Sie Beispielskripts für die Bereitstellung Skype Room System-Konten.
   
-In diesem Abschnitt werden Beispielskripts veranschaulicht, die zum Bereitstellen Skype Room System-Konten verwendet werden können. Diese Skripts dienen nur zur Veranschaulichung. Sie sollten nur verwendet werden, nachdem Sie sich an Ihren IT-Experten oder Domänenadministrator wenden.
+In diesem Abschnitt werden Beispielskripts veranschaulicht, die zum Bereitstellen Skype Raumsystemkonten verwendet werden können. Diese Skripts dienen nur zur Veranschaulichung. Sie sollten nur verwendet werden, nachdem Sie sich an Ihren IT-Experten oder Domänenadministrator wenden.
   
 ## <a name="example-setup-script-skype-for-business-and-exchange-server-on-premises"></a>Beispiel-Setupskript: Skype for Business und Exchange Server (lokal)
 

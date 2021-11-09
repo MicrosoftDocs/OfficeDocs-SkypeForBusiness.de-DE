@@ -2,7 +2,7 @@
 title: Bereitstellen des Webportals für die Verwaltung von SRS v1 in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,19 +12,19 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 81822efa-2100-4017-a470-8a5b98c49522
 ms.collection: M365-voice
-description: Das Skype for Business Server Skype Verwaltungswebportal für Raumsysteme v1 (SRS v1, früher Lync Room System) ist ein Webportal, mit dem Organisationen ihre Skype Room Systems-Konferenzräume verwalten können. Administratoren können das Webportal zur Verwaltung von SRS v1 verwenden, um die Geräteintegrität zu überwachen, z. B. durch Überwachen von Audio-/Videogeräten. Mit diesem Portal können Administratoren Diagnoseinformationen remote sammeln, um die Integrität von Konferenzräumen zu überwachen.
-ms.openlocfilehash: aa59b142ee7147772af3c13a7e9bf4dffbbc520c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Das Skype for Business Server Skype Verwaltungswebportal für Raumsysteme v1 (SRS v1, vormals Lync Room System) ist ein Webportal, mit dem Organisationen ihre Skype Room Systems-Konferenzräume verwalten können. Administratoren können das Webportal zur Verwaltung von SRS v1 verwenden, um die Geräteintegrität zu überwachen, z. B. durch Überwachen von Audio-/Videogeräten. Mit diesem Portal können Administratoren Diagnoseinformationen remote sammeln, um die Integrität von Konferenzräumen zu überwachen.
+ms.openlocfilehash: c25671717db51af880bd4b7e2700bb9e795f2790
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751344"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60843968"
 ---
 # <a name="deploy-srs-v1-administrative-web-portal-in-skype-for-business-server"></a>Bereitstellen des Webportals für die Verwaltung von SRS v1 in Skype for Business Server
 
-Das Skype for Business Server Skype Verwaltungswebportal für Raumsysteme v1 (SRS v1, früher Lync Room System) ist ein Webportal, mit dem Organisationen ihre Skype Room Systems-Konferenzräume verwalten können. Administratoren können das Webportal zur Verwaltung von SRS v1 verwenden, um die Geräteintegrität zu überwachen, z. B. durch Überwachen von Audio-/Videogeräten. Mit diesem Portal können Administratoren Diagnoseinformationen remote sammeln, um die Integrität von Konferenzräumen zu überwachen.
+Das Skype for Business Server Skype Verwaltungswebportal für Raumsysteme v1 (SRS v1, vormals Lync Room System) ist ein Webportal, mit dem Organisationen ihre Skype Room Systems-Konferenzräume verwalten können. Administratoren können das Webportal zur Verwaltung von SRS v1 verwenden, um die Geräteintegrität zu überwachen, z. B. durch Überwachen von Audio-/Videogeräten. Mit diesem Portal können Administratoren Diagnoseinformationen remote sammeln, um die Integrität von Konferenzräumen zu überwachen.
 
-Um dieses Feature verwenden zu können, muss das Webportal zur Verwaltung von SRS v1 auf jedem Skype for Business Server Front-End-Server bereitgestellt werden. Dieses Handbuch enthält Anweisungen für Administratoren zum Installieren und Konfigurieren des Webportals für die Verwaltung von SRS. Es richtet sich an Administratoren, die über Kenntnisse in Skype for Business Server Verwaltung verfügen und über Administratorrechte zum Ändern der Skype for Business Server Topologie verfügen.
+Um dieses Feature zu verwenden, muss das Webportal zur Verwaltung von SRS v1 auf jedem Skype for Business Server Front-End-Server bereitgestellt werden. Dieses Handbuch enthält Anweisungen für Administratoren zum Installieren und Konfigurieren des Webportals für die Verwaltung von SRS. Sie richtet sich an Administratoren, die über Kenntnisse in Skype for Business Server Verwaltung verfügen und über Administratorrechte zum Ändern der Skype for Business Server Topologie verfügen.
 
 Nachdem das Webportal zur Verwaltung von SRS v1 auf dem Server bereitgestellt wurde, können Administratoren den Status von SRS v1-Geräten überprüfen, indem sie sich von ihren eigenen Computern oder Laptops an der Website anmelden.
 
@@ -47,7 +47,7 @@ Um das Webportal zur Verwaltung von SRS v1 zu verwenden, müssen Sie die folgend
 > [!IMPORTANT]
 > Wenn der Server mit Kerberos- und NTLM-Authentifizierung konfiguriert ist und SRS auf einem Computer ausgeführt wird, der nicht mit der Domäne verbunden ist, schlägt die Kerberos-Authentifizierung fehl, und der Benutzer sieht den Status von SRS im Verwaltungsportal nicht. Um dieses Problem zu beheben, konfigurieren Sie den Server mit NTLM-Authentifizierung oder ntlm- und TLS-DSK-Authentifizierung (ohne Kerberos), oder verknüpfen Sie den SRS-Computer mit der Domäne.
 
-1. Installieren sie Skype for Business Server kumulativen Updates in der Skype for Business Server Topologie.
+1. Installieren Sie Skype for Business Server kumulativen Updates in der Skype for Business Server Topologie.
 
     Informationen zum Abrufen des Updates oder zum Lieferumfang finden Sie unter [Updates für Skype for Business Server 2015.](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015)
 
@@ -73,7 +73,7 @@ Um das Webportal zur Verwaltung von SRS v1 zu verwenden, müssen Sie die folgend
 
      ![Seite "LRSSupportAdminGroup Properties Members".](../../media/LRS_Add_LRSSupportAdminGroup.png)
 
-7. Erstellen Sie einen SIP-aktivierten Active Directory-Benutzer mit dem Namen "LRSSupport". Fügen Sie diesen Benutzer zu LRSSupportAdminGroup hinzu.
+7. Erstellen Sie einen SIP-aktivierten Active Directory-Benutzer mit dem Namen LRSSupport. Fügen Sie diesen Benutzer zu LRSSupportAdminGroup hinzu.
 
      ![Seite "LRSSupportAdminGroup Properties Members".](../../media/LRS_Add_LRS_SIP_SupportUser.png)
 
@@ -86,25 +86,25 @@ Laden Sie das [Microsoft Skype Room Systems v1 Administrative Web Portal für Sk
 
 Führen Sie die folgenden Schritte aus, um das Webportal für die Verwaltung von SRS v1 zu installieren.
 
-1. Konfigurieren Sie den Port der vertrauenswürdigen Anwendung, indem Sie das folgende Cmdlet in Skype for Business Server Verwaltungsshell ausführen:
+1. Konfigurieren Sie den Port für vertrauenswürdige Anwendungen, indem Sie das folgende Cmdlet in Skype for Business Server Verwaltungsshell ausführen:
 
    ```powershell
    Set-CsWebServer -Identity POOLFQDN -MeetingRoomAdminPortalInternalListeningPort 4456 -MeetingRoomAdminPortalExternalListeningPort 4457
    ```
 
-2. Um das Besprechungsraum Portal zu installieren, laden Sie **MeetingRoomPortalInstaller.msi** herunter, und führen Sie es dann als Administrator aus.
+2. Laden Sie zum Installieren des Besprechungsraum Portals **MeetingRoomPortalInstaller.msi** herunter, und führen Sie es dann als Administrator aus.
 
 3. Öffnen Sie die Web.config-Datei am folgenden Speicherort:
 
     %Program Files%\Skype for Business Server 2015\Web Components\Besprechungsraum Portal\Int\Handler\
 
-4. Ändern Sie in der datei Web.Config den PortalUserName in den Benutzernamen, der in Schritt 2 unter dem Abschnitt " Konfigurieren Ihrer Umgebung für das Webportal zur Verwaltung von[SRS v1"](room-system-v1-administrative-web-portal.md#Config_Env)erstellt wurde (der empfohlene Name im Schritt lautet LRSApp):
+4. Ändern Sie in der Web.Config Datei den PortalUserName in den Benutzernamen, der in Schritt 2 unter dem Abschnitt "[Konfigurieren Ihrer Umgebung für das Webportal für die Verwaltung von SRS v1"](room-system-v1-administrative-web-portal.md#Config_Env)erstellt wurde (der empfohlene Name im Schritt lautet LRSApp):
 
     ```xml
     <add key="PortalUserName" value="sip:LRSApp@domain.com" />
     ```
 
-5. Da das SRS v1-Verwaltungsportal eine vertrauenswürdige Anwendung ist, müssen Sie das Kennwort nicht in der Portalkonfiguration angeben. Wenn dieser Benutzer eine andere Registrierungsstelle als die lokale Registrierungsstelle verwendet, müssen Sie die Registrierungsstelle dafür angeben, indem Sie die folgende Zeile in der Datei Web.Config hinzufügen:
+5. Da das SRS v1-Verwaltungsportal eine vertrauenswürdige Anwendung ist, müssen Sie das Kennwort nicht in der Portalkonfiguration angeben. Wenn dieser Benutzer eine andere Registrierungsstelle als die lokale Registrierungsstelle verwendet, müssen Sie die Registrierungsstelle dafür angeben, indem Sie die folgende Zeile in der datei Web.Config hinzufügen:
 
    ```xml
    <add key="PortalUserRegistrarFQDN" value="pool-xxxx.domain.com" />
@@ -155,7 +155,7 @@ Die Zusammenfassungsseite enthält die folgenden Informationen für alle SRS-Rä
 
 - **Tag** Der benutzerdefinierte Name, den der Administrator dem Raum gibt. Das Tag kann im Portal durch Klicken auf den Raumnamen festgelegt werden.
 
-- **Integrität** Der Integritätsstatus des Chatrooms, der vom Aggregierten Integritätsstatus des Raums abgeleitet wird, der im Abschnitt "Integrität" der Seite "Raum Einstellungen" angezeigt wird.
+- **Integrität** Der Integritätsstatus des Raums, der vom Aggregierten Integritätsstatus des Raums abgeleitet wird, der im Abschnitt "Integrität" der Seite "Raum Einstellungen" angezeigt wird.
 
 - **Nächste Besprechung** Das Datum und die Uhrzeit, zu der die nächste Besprechung geplant ist.
 
@@ -176,7 +176,7 @@ Im Abschnitt "Rauminformationen" des Portals können Sie einzelne SRS-Räume anz
 
 Im Abschnitt Einstellungen können Sie das Kennwort, das Raumtag und die Standardlautstärke für den Raum festlegen. Wenn Sie diese Einstellungen konfigurieren, werden die Änderungen erst repliziert, nachdem Sie die SRS-Konsole neu gestartet haben. Es werden nur Systemupdates-Einstellungen für SRS-Geräte mit Version 15.12 und höher angezeigt.
 
-![Lync Room System Admin Portal Room Einstellungen.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
+![Chatroom Einstellungen des Lync Room System-Verwaltungsportals.](../../media/LRS_AdminPortal_RoomInfoSettings.png)
 
 #### <a name="details"></a>Details
 
@@ -197,7 +197,7 @@ Der Abschnitt "Integrität" gibt einen visuellen Hinweis auf den Zustand der Sky
 ### <a name="additional-notes-about-the-administrative-web-portal"></a>Zusätzliche Hinweise zum Webportal für die Verwaltung
 
 > [!NOTE]
->  Einstellungsänderungen werden erst angewendet, nachdem das SRS-System neu gestartet wurde.> Wenn das LRSApp-Kontokennwort abläuft, können Sie den Status der Räume nicht sehen. Konfigurieren Sie das LRSAppuser-Kontokennwort so, dass es nie abläuft, oder aktualisieren Sie das Kennwort, wenn es bald abläuft.> Das Webportal für die Verwaltung von SRS wird nur für lokale Bereitstellungen unterstützt.
+>  Einstellungsänderungen werden erst angewendet, nachdem das SRS-System neu gestartet wurde.> Wenn das LRSApp-Kontokennwort abläuft, können Sie den Status der Räume nicht sehen. Konfigurieren Sie das LRSAppuser-Kontokennwort so, dass es nie abläuft, oder aktualisieren Sie das Kennwort, wenn es bald abläuft.> Das SRS-Verwaltungswebportal wird nur für lokale Bereitstellungen unterstützt.
 
 ### <a name="bulk-management"></a>Massenverwaltung
 
@@ -219,7 +219,7 @@ Wenn Sie https://localhost/lrs öffnen, können Sie die Anmeldeseite sehen, aber
 
 - Stellen Sie sicher, dass SRS-Konten in Ihrer Bereitstellung vorhanden sind und dass sie gemäß den Bereitstellungsempfehlungen des Webportals für die Verwaltung von SRS erstellt werden. Stellen Sie sicher, dass die SRS-Konten im Skype for Business Server mit "Enable-CsMeetingRoom" und nicht mit "Enable-CsUser" bereitgestellt werden.
 
-- Wenn Sie SRS-Konten erstellt haben und die Konten im Verwaltungswebportal nicht angezeigt werden können, erfassen Sie die Serverprotokolle mithilfe des Tools Skype for Business Server Protokollierung, wobei die **MeetingPortal-Komponente** ausgewählt ist, und senden Sie sie dann an Ihren SRS-Supportkontakt.
+- Wenn Sie SRS-Konten erstellt haben und die Konten im Verwaltungswebportal nicht angezeigt werden können, erfassen Sie die Serverprotokolle mithilfe des Tools für die Skype for Business Server Protokollierung, wobei die **MeetingPortal-Komponente** ausgewählt ist, und senden Sie sie dann an Ihren SRS-Supportkontakt.
 
 - Wenn Sie SRS-Konten erstellt haben und die Konten im Verwaltungswebportal nicht sehen können, erfassen Sie die Clientprotokolle mit Fiddler, kopieren Sie außerdem das Konsolenprotokoll aus den Browserentwicklungstools, und senden Sie sie dann an Ihren SRS-Supportkontakt. Sie können auch den Wert der Ablaufverfolgungsebene im Web.config ändern, um ein detaillierteres Protokoll zu erhalten.
 

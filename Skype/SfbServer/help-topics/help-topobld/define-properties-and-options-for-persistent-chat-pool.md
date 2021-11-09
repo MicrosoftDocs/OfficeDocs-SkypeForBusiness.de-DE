@@ -2,7 +2,7 @@
 title: Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f4914a44-2113-48f1-8299-4645fc7011b6
 description: 'Sie konfigurieren Optionen für den Server für beständigen Chat oder den Serverpool für beständigen Chat, indem Sie die folgenden Eigenschaften definieren:'
-ms.openlocfilehash: 11b4731228f3690ce0fbe2675b5cef35faa3378e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 72afab6d9c74f2347bd14a4d597cf82525c11b48
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760803"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60851309"
 ---
 # <a name="define-properties-and-options-for-persistent-chat-pool"></a>Definieren von Eigenschaften und Optionen für den Pool für beständigen Chat
  
@@ -32,7 +32,7 @@ Sie konfigurieren Optionen für den Server für beständigen Chat oder den Serve
   
  **Compliance aktivieren:** Aktivieren Sie das Kontrollkästchen, wenn Sie die optionale Kompatibilitätsfunktion und Datenbank für beständigen Chat bereitstellen und implementieren möchten.
   
- **Verwenden Sie Sicherungs- SQL Server Speicher, um die Notfallwiederherstellung zu aktivieren:** Aktivieren Sie dieses Kontrollkästchen, wenn Sie die Notfallwiederherstellung des beständigen Chats SQL Server Speichern aus einem konfigurierten Sicherungssatz von Speichern in einem anderen SQL Server bereitstellen und implementieren möchten. Ausführliche Informationen finden Sie unter [Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
+ **Verwenden Sie Sicherungs- SQL Server Speicher, um die Notfallwiederherstellung zu aktivieren:** Aktivieren Sie dieses Kontrollkästchen, wenn Sie die Notfallwiederherstellung des beständigen Chats SQL Server Speichern aus einem konfigurierten Sicherungssatz von Speichern auf einem anderen SQL Server bereitstellen und implementieren möchten. Ausführliche Informationen finden Sie unter [Konfigurieren der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015.](../../deploy/deploy-persistent-chat-server/configure-hadr-for-persistent-chat.md)
   
 > [!NOTE]
 > Diese Option ist nur für Pools mit mehreren Servern verfügbar. 
@@ -50,7 +50,7 @@ Klicken Sie auf **Abbrechen**, um alle Änderungen zu verwerfen und den Assisten
   
 Klicken Sie auf **Hilfe**, um auf die kontextbezogene Hilfe (z. B. diese Seite) zuzugreifen.
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   

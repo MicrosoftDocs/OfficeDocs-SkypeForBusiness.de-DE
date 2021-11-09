@@ -2,7 +2,7 @@
 title: Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 661efa69d7c7a3264872c4d83b94372d8d9951f1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5bf69f06078d45cd12e7f21cffd03ea40028a543
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738921"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859602"
 ---
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business
 
@@ -77,7 +77,7 @@ Die Nummernbereiche der Anrufannahmegruppe müssen die folgenden Regeln erfülle
     > [!IMPORTANT]
     > Verwenden Sie dieses Cmdlet, um den Nummernbereich zugewiesenen Typ nur dann zu ändern, wenn Sie den falschen Typ ursprünglich angegeben haben und der Gruppenbereich noch nicht verwendet wird. Wenn Sie den Nummernbereich von CallPark in GroupPickup oder umgekehrt ändern und der Nummernbereich bereits verwendet wird, funktioniert entweder das Parken von Anrufen oder die Gruppenanrufannahme nicht mehr für diesen Nummernbereich. Wenn Sie beispielsweise einen Nummernbereich von CallPark in GroupPick ändern, kann die Anwendung zum Parken von Anrufen diesen Orbitbereich nicht mehr zum Parken von Anrufen verwenden.
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [New-CsCallParkOrbit](/powershell/module/skype/new-cscallparkorbit?view=skype-ps)
 
