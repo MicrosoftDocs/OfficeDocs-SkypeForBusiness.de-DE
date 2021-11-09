@@ -1,7 +1,7 @@
 ---
-title: Konferenzrichtlinie für Skype Room System-Konten
+title: Konferenzrichtlinie für Skype Raumsystemkonten
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.reviewer: sohailta
 audience: ITPro
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 4dd8be28-5156-411b-8ccd-eff7f75cb897
 description: In diesem Thema erfahren Sie, wie Sie Konferenzrichtlinien für Skype Raumsystemkonten zuweisen.
-ms.openlocfilehash: 9e6bab608ab68b3f0e0d5075ae1caf8cb16d4c0b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97980cb50613fca105af40686a920a8ff9c9b546
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771677"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60838367"
 ---
-# <a name="conferencing-policy-for-skype-room-system-accounts"></a>Konferenzrichtlinie für Skype Room System-Konten
+# <a name="conferencing-policy-for-skype-room-system-accounts"></a>Konferenzrichtlinie für Skype Raumsystemkonten
  
 In diesem Thema erfahren Sie, wie Sie Konferenzrichtlinien für Skype Raumsystemkonten zuweisen.
   
@@ -29,9 +29,9 @@ Die dem Skype Raumsystemkonto zugewiesene Konferenzrichtlinie muss bestimmte Mer
   
 |Feature  <br/> |Wert  <br/> |Kommentar  <br/> |
 |:-----|:-----|:-----|
-|AllowIPAudio  <br/> |TRUE  <br/> |Muss für Skype Raumsystemaudio "true" sein  <br/> |
-|AllowIPVideo  <br/> |TRUE  <br/> |Muss "true" sein, damit Skype Raumsystem-Audio in Ad-hoc-Whiteboardsitzungen in Skype Raumsystem funktioniert  <br/> |
-|AllowMultiView  <br/> |TRUE  <br/> |Ermöglicht Skype Raumsystem das Rendern mehrerer Videostreams mit mehreren Ansichten  <br/> |
+|AllowIPAudio  <br/> |TRUE  <br/> |Muss für Skype Raumsystem-Audio "true" sein  <br/> |
+|AllowIPVideo  <br/> |TRUE  <br/> |Muss "true" sein, damit Skype Room System-Audio in Ad-hoc-Whiteboardsitzungen in Skype Raumsystem funktioniert  <br/> |
+|AllowMultiView  <br/> |TRUE  <br/> |Ermöglicht Skype Room System das Rendern mehrerer Videostreams mit mehreren Ansichten  <br/> |
 |AllowParticipantControl  <br/> |TRUE  <br/> |Wirkt sich auf Besprechungssitzungen (Ad-hoc)-Whiteboardsitzungen in Skype Room System aus.  <br/> |
 |AllowAnnotations  <br/> |TRUE  <br/> |Wirkt sich auf Besprechungssitzungen (Ad-hoc)-Whiteboardsitzungen in Skype Room System aus.  <br/> |
 |DisablePowerPointAnnotations  <br/> |FALSE  <br/> |Wirkt sich auf Besprechungssitzungen (Ad-hoc)-Whiteboardsitzungen in Skype Room System aus.  <br/> |
@@ -48,17 +48,17 @@ Die dem Skype Raumsystemkonto zugewiesene Konferenzrichtlinie muss bestimmte Mer
 |EnableAppDesktopSharing  <br/> |Desktop  <br/> |Wirkt sich auf Besprechungssitzungen (Ad-hoc)-Whiteboardsitzungen in Skype Room System aus.  <br/> |
 |AllowConferenceRecording  <br/> |FALSE  <br/> |Nicht verfügbar für Skype Raumsystem. Wenn TRUE, kann eine Remotepartei aufzeichnen  <br/> |
 |EnableP2PRecording  <br/> |FALSE  <br/> |Nicht verfügbar für Skype Raumsystem. Wenn TRUE, kann eine Remotepartei aufzeichnen  <br/> |
-|EnableFileTransfer  <br/> |TRUE  <br/> |–  <br/> |
-|EnableP2PFileTransfer  <br/> |TRUE  <br/> |–  <br/> |
+|EnableFileTransfer  <br/> |TRUE  <br/> |Nicht zutreffend  <br/> |
+|EnableP2PFileTransfer  <br/> |TRUE  <br/> |Nicht zutreffend  <br/> |
 |EnableP2PVideo  <br/> |TRUE  <br/> |Ermöglicht dem Skype Room System-Client die Teilnahme an Peer-to-Peer-Videositzungen  <br/> |
-|AllowLargeMeetings  <br/> |FALSE  <br/> |–  <br/> |
+|AllowLargeMeetings  <br/> |FALSE  <br/> |Nicht zutreffend  <br/> |
 |EnableDataCollaboration  <br/> |TRUE  <br/> |Wirkt sich auf Besprechungssitzungen (Ad-hoc)-Whiteboardsitzungen in Skype Room System aus.  <br/> |
 |MaxVideoConferenceResolution  <br/> |VGA  <br/> |Von Skype for Business Server ignoriert, verwendet Skype Room System HD1080.  <br/> |
 |MaxMeetingSize  <br/> |250  <br/> |Wirkt sich auf Besprechungssitzungen (Ad-hoc)-Whiteboardsitzungen in Skype Room System aus.  <br/> |
 |AudioBitRateKb  <br/> |200  <br/> |Siehe Hinweis am Ende der Tabelle\*  <br/> |
 |VideoBitRateKb  <br/> |5000  <br/> |Dies ist die maximal zulässige ausgehende Videobitrate. Skype Room System kann einen 1080-Stream zusammen mit Pano (wenn RoundTable verwendet wird) mit dieser Bitrate senden. \*  <br/> |
 |AppSharingBitRateKb  <br/> |5000  <br/> |Siehe Hinweis am Ende der Tabelle\*  <br/> |
-|FileTransferBitRateKb  <br/> |5000  <br/> |–  <br/> |
+|FileTransferBitRateKb  <br/> |5000  <br/> |Nicht zutreffend  <br/> |
 |TotalReceiveVideoBitRateKb  <br/> |20000  <br/> |Es wird empfohlen, dies so hoch wie möglich festzulegen. Die effektive Bandbreite hängt von den Netzwerkbedingungen zum Zeitpunkt der Konferenzen ab.\*  <br/> |
 |EnableMultiViewJoin  <br/> |TRUE  <br/> |Muss TRUE sein, damit Skype Room System Videostreams mit mehreren Ansichten sicherstellen kann.  <br/> |
    
