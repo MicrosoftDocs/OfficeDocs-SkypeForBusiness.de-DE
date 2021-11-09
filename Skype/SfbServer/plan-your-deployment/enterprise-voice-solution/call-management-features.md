@@ -2,7 +2,7 @@
 title: Planen von Anrufverwaltungsfunktionen in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Übersicht über die unterstützten Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: b5cf1b4eab7c0044acdb06b19a888f621e902098
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756532"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846328"
 ---
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen von Anrufverwaltungsfunktionen in Skype for Business
 
@@ -31,7 +31,7 @@ Enterprise-VoIP Anrufverwaltungsfeatures steuern, wie eingehende Anrufe weiterge
 
 - **Parken** von Anrufen: Ermöglicht Sprachbenutzern, einen Anruf vorübergehend zu parken und ihn dann vom selben oder einem anderen Telefon entgegenzunehmen.
 
-- **Gruppenannahme:** Ermöglicht VoIP-Benutzern, Anrufe entgegenzunehmen, die für andere Sprachbenutzer klingeln, die Anrufannahmegruppen zugewiesen sind.
+- **Gruppenannahme:** Ermöglicht VoIP-Benutzern, Anrufe entgegenzunehmen, die für andere VoIP-Benutzer klingeln, die Anrufannahmegruppen zugewiesen sind.
 
 - **Reaktionsgruppe:** Leitet eingehende Anrufe mithilfe von Sammelanschlüssen oder ivr-Antworten (Interactive Voice Response) an Gruppen von Agents weiter.
 

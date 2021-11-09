@@ -2,7 +2,7 @@
 title: Konfigurieren von Einwahlkonferenzen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,18 +12,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 38d9f168-80b8-46f2-a1c0-becd84e58e73
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Einwahlkonferenzen in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 8cc3a27e9051d0fd73bff68cc4213020d6658844
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3e7a91b200eb6211a26b379d866608ff31658488
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761563"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845928"
 ---
 # <a name="configure-dial-in-conferencing-in-skype-for-business-server"></a>Konfigurieren von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server konfigurieren.
   
-Nachdem Sie eine Topologie erstellt haben, die die Konferenzarbeitsauslastung und ausgewählte Einwahlkonferenzen enthält, müssen Sie zusätzliche Schritte zum Konfigurieren von Einwahlkonferenzen ausführen. Bevor Sie dieses Thema lesen, stellen Sie sicher, dass Sie den [Plan für Einwahlkonferenzen in Skype for Business Server,](../../plan-your-deployment/conferencing/dial-in-conferencing.md) [die Hardware- und Softwareanforderungen für Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)sowie das Flussdiagramm und die Prüfliste für die Bereitstellung für [Einwahlkonferenzen](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)gelesen haben. 
+Nachdem Sie eine Topologie erstellt haben, die die Konferenzarbeitsauslastung und ausgewählte Einwahlkonferenzen enthält, müssen Sie zusätzliche Schritte zum Konfigurieren von Einwahlkonferenzen ausführen. Bevor Sie dieses Thema lesen, stellen Sie sicher, dass Sie den [Plan für Einwahlkonferenzen in Skype for Business Server,](../../plan-your-deployment/conferencing/dial-in-conferencing.md) [die Hardware- und Softwareanforderungen für Konferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/hardware-and-software-requirements.md)sowie das Flussdiagramm und die [Prüfliste für die Bereitstellung für Einwahlkonferenzen](deploy-conferencing.md#deployment-flowchart-and-checklist-for-dial-in-conferencing)gelesen haben. 
   
 Zum Konfigurieren von Einwahlkonferenzen müssen Sie die folgenden Aufgaben ausführen:
   
@@ -155,7 +155,7 @@ Vor dem Erstellen von Zugriffsnummern für die Einwahl müssen Sie zunächst die
   
 5. Geben Sie in der **Anzeigenummer** die Telefonnummer ein, die PSTN-Telefonbenutzer wählen, um an einer Konferenz teilzunehmen. Diese Nummer wird in Besprechungseinladungen und auf der Webseite für Einwahlkonferenzen Einstellungen angezeigt.
     
-6. Geben Sie unter **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dies ist der Name, der der Einwahlnummer in Skype for Business Suchergebnissen zugeordnet ist. Dieser Name wird im Client angezeigt, wenn ein Benutzer die Zugriffsnummer aufruft. 
+6. Geben Sie unter **Anzeigename** eine Beschreibung für die Zugriffsnummer für die Einwahl ein. Dies ist der Name, der der Einwahlzugriffsnummer in Skype for Business Suchergebnissen zugeordnet ist. Dieser Name wird im Client angezeigt, wenn ein Benutzer die Zugriffsnummer aufruft. 
     
 7. Geben Sie im **Anschluss-URI** die E.164-Nummer der Einwahlnummer im TEL-URI-Format ein, einschließlich des +-Symbols vor der Nummer und ohne Leerzeichen. Beispiel: `tel:+14255550200`.
     

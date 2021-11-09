@@ -1,6 +1,6 @@
 ---
 title: Zuweisen Teams Add-On-Lizenzen zu Benutzern
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -13,22 +13,22 @@ search.appverid: MET150
 f1.keywords:
 - NOCSH
 ms.reviewer: mikedav
-description: Erfahren Sie, wie sie Teams Add-On-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
+description: Erfahren Sie, wie Teams add-on-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 47d5f5838b382459fe6820f210a29b4809525e18
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766123"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846028"
 ---
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen Teams Add-On-Lizenzen zu Benutzern
 
 Add-On-Lizenzen sind Lizenzen für Teams Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne. In diesem Artikel wird beschrieben, wie Sie einzelnen Benutzern und großen Mengen von Benutzern Add-On-Lizenzen in Massen zuweisen.
 
 > [!NOTE]
-> Unter [Teams-Add-On-Lizenzierung](./microsoft-teams-add-on-licensing.md) finden Teams Features, die mit Add-On-Lizenzen zur Verfügung stehen. Darüber hinaus finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und wie Sie diese (je nach Ihrem Plan) kaufen können, damit Benutzer Funktionen wie Audiokonferenzen, gebührenfreie Telefonnummern und die Möglichkeit erhalten, Telefonnummern außerhalb Ihrer Organisation anrufen zu können. Nachdem Sie sich entschieden haben, welche Features Sie ihren Benutzern zuweisen möchten, weisen Sie ihnen Lizenzen zu.
+> Unter [Teams-Add-On-Lizenzierung](./microsoft-teams-add-on-licensing.md) finden Teams, die mit Add-On-Lizenzen zur Verfügung stehen. Darüber hinaus finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und wie Sie diese (je nach Ihrem Plan) kaufen können, damit Benutzer Funktionen wie Audiokonferenzen, gebührenfreie Telefonnummern und die Möglichkeit erhalten, Telefonnummern außerhalb Ihrer Organisation anrufen zu können. Nachdem Sie sich entschieden haben, welche Features Sie ihren Benutzern zuweisen möchten, weisen Sie ihnen Lizenzen zu.
 
 Sie können die Microsoft 365 Admin Center oder PowerShell verwenden, um Benutzern in Ihrer Organisation Lizenzen zuzuordnen. Sie müssen ein globaler Administrator oder Benutzerverwaltungsadministrator sein, um Lizenzen verwalten zu können.
 
@@ -46,7 +46,7 @@ Bevor Sie beginnen, überprüfen Sie die folgenden Anforderungen:
 
 - Nachdem Sie Ihren Benutzern Lizenzen für Anrufplan- oder Guthaben für Kommunikationen zugewiesen haben, müssen Sie Telefonnummern für Ihre Organisation erhalten und diese Nummern dann Benutzern zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../set-up-calling-plans.md).
 
-## <a name="using-the-microsoft-365-admin-center"></a>Verwenden der Microsoft 365 Admin Center
+## <a name="using-the-microsoft-365-admin-center"></a>Verwenden des Microsoft 365 Admin Center
 
 Verwenden Sie Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie weisen Lizenzen  auf der Seite Lizenzen (für bis zu  20 Benutzer gleichzeitig) oder auf der Seite Aktive Benutzer (für bis zu 40 Benutzer gleichzeitig) zu. Die von Ihnen wählen Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
 
@@ -62,7 +62,7 @@ Mithilfe von PowerShell können Sie Benutzern Lizenzen in Massen zuweisen.  Weit
 
 Hier ist ein Beispiel für die Verwendung eines Skripts zum Zuweisen von Lizenzen zu Ihren Benutzern.
 
-1. Installieren Sie die 64-Bit-Version [des Microsoft Online Services-Anmeldeassistenten für IT-Experten RTW.](/collaborate/connect-redirect?DownloadID=59185)
+1. Installieren Sie die 64-Bit-Version [des Microsoft Online Services Für IT-Experten RTW](/collaborate/connect-redirect?DownloadID=59185).
 2. Installieren Sie Microsoft Azure Active Directory-Modul für Windows PowerShell:
     1. Öffnen Sie eine Eingabeaufforderung Windows PowerShell mit erhöhten Rechten (führen Windows PowerShell als Administrator aus).
     2. Führen Sie den folgenden Befehl aus:
@@ -144,7 +144,7 @@ Weitere Informationen finden Sie unter Anzeigen von Lizenzen und Diensten [mit P
 | Microsoft Business Voice (USA) | BUSINESS_VOICE_MED2  |
 | Microsoft Business Voice (ohne Anrufplan) | BUSINESS_VOICE_DIRECTROUTING  |
 | Microsoft Business Voice (ohne Anrufplan) für die USA| BUSINESS_VOICE_DIRECTROUTING _MED |
-| Audiokonferenz | MCOMEETADV | 
+| Audiokonferenzen | MCOMEETADV | 
 | Audiokonferenzen mit Minutenlohn</br>*Setzt voraus, dass Guthaben für Kommunikationen eingerichtet und aktiviert ist.* | MCOMEETACPEA |
 | Telefonsystem | MCOEV |
 | Anrufplan für In- und Ausland | MCOPSTN2 |

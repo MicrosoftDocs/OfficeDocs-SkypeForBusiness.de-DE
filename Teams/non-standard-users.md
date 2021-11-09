@@ -1,6 +1,6 @@
 ---
 title: Teams von Apps für Nicht-Standardbenutzer
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: joglocke
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4ad7f7c5f92a5bbde4e8a01d8616305bbf06f980
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745541"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846088"
 ---
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
@@ -41,7 +41,7 @@ In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, exte
 
 ### <a name="install-update-and-delete-for-guest-users"></a>Installieren, Aktualisieren und Löschen für Gastbenutzer
 
-Gäste können keine Apps in einem freigegebenen Kontext wie Chat, Kanal oder Besprechung installieren, aktualisieren oder löschen, aber sie können mit Nachrichtenerweiterungen und direkten Links zu ihrem persönlichen Bereich wechseln. Gäste haben keinen Zugriff auf den Teams-App Store aus der Teams-Desktopanwendung, können aber über einen direkten Link darauf zugreifen.
+Gäste können keine Apps in einem freigegebenen Kontext wie Chat, Kanal oder Besprechung installieren, aktualisieren oder löschen, aber sie können mit Nachrichtenerweiterungen und direkten Links zu ihrem persönlichen Bereich wechseln. Gäste haben keinen Zugriff auf den Teams-App-Store aus der Teams-Desktopanwendung, können aber über einen direkten Link darauf zugreifen.
 
 ### <a name="usage-behavior-and-policy-for-guest-users"></a>Nutzungsverhalten und Richtlinie für Gastbenutzer
 
@@ -63,7 +63,7 @@ Bots können Proaktiv Nachrichten für Gastbenutzer senden, aber Gäste können 
 
 ### <a name="install-update-and-delete-for-external-users"></a>Installieren, Aktualisieren und Löschen für externe Benutzer
 
-Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Store der Hostingorganisation.
+Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Der App Store der Hostingorganisation.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Verwendungsverhalten und Richtlinie für externe Benutzer
 

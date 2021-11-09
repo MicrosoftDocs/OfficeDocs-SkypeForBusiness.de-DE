@@ -2,7 +2,7 @@
 title: Sicherheitseinstellungen für die Registrierung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dd3c9b37-607e-445f-9e15-b6c92adcfb87
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 1542aedb161f528ad3ebabc9bf24b63045bb2807
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a44a9b1eff11f791cc87951964060b1eaee2f28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744541"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846538"
 ---
 # <a name="registrar-security-settings"></a>Sicherheitseinstellungen für die Registrierung
 

@@ -1,7 +1,7 @@
 ---
-title: Skype Softwarelizenz für Room System Skype for Business
+title: Skype Softwarelizenz für Raumsystem Skype for Business
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
 description: Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen.
-ms.openlocfilehash: dc605af5bc4f922e1da1669fb471ad46173a7646
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761573"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845968"
 ---
 # <a name="skype-room-system-skype-for-business-software-license"></a>Skype Raumsystem: Skype for Business-Softwarelizenz
  
@@ -31,7 +31,7 @@ Wenn KMS vorhanden sind und Skype for Business Volumenlizenzaktivierungen vertei
   
 Führen Sie an einer Eingabeaufforderung Folgendes aus:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-Informationen zum Einrichten einer KMS finden Sie unter [KMS Aktivierung von Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) und [GVLKs für KMS und Active Directory-Aktivierung von Office 2013](/DeployOffice/vlactivation/gvlks)
+Informationen zum Einrichten einer KMS finden Sie unter [KMS Aktivierung von Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) und [GVLKs für KMS und Active Directory-Aktivierung von Office 2013.](/DeployOffice/vlactivation/gvlks)
   
 Office 2013 Generic Volume License Key for Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (Dieser Schlüssel bewirkt, dass das Skype Raumsystem nach einem KMS im Netzwerk sucht.)
   

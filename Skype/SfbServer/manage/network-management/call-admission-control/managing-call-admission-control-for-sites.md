@@ -2,7 +2,7 @@
 title: Verwalten der Anrufsteuerung für Websites
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Bei Netzwerkstandorten handelt es sich um Büros oder Zweigstellen innerhalb der einzelnen Netzwerkregionen von Bereitstellungen mit Anrufsteuerung, E9-1-1 und Medienumgehung.
-ms.openlocfilehash: 114c8687de3273e09f4cc4ef122a0c584f97237e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 51c026aa9b169b93b6585554613083a480599d60
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745961"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846398"
 ---
 # <a name="managing-call-admission-control-for-sites-in-skype-for-business-server"></a>Verwalten der Anrufsteuerung für Standorte in Skype for Business Server
 
@@ -68,7 +68,7 @@ Ausführliche Parameterbeschreibungen finden Sie unter [Remove-CsNetworkInterSit
 
 ## <a name="view-network-site-information"></a>Anzeigen von Netzwerkstandortinformationen
 
-Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Region einer Bereitstellung für einen Anrufsteuerungsdienst oder Notfalldienst (E9-1-1) konfiguriert sind. Sie können Netzwerkstandortinformationen in der Skype for Business Server Systemsteuerung oder in der Skype for Business Server Verwaltungsshell anzeigen. 
+Netzwerkstandorte sind Büros, Niederlassungen oder Standorte, die in jeder Region einer Bereitstellung für einen Anrufsteuerungsdienst oder Notfalldienst (E9-1-1) konfiguriert sind. Sie können Netzwerkstandortinformationen entweder in der Skype for Business Server Systemsteuerung oder in der Skype for Business Server Verwaltungsshell anzeigen. 
 
 ### <a name="to-view-network-site-information-in-skype-for-business-server-control-panel"></a>So zeigen Sie Netzwerkstandortinformationen in Skype for Business Server Systemsteuerung an
 

@@ -2,7 +2,7 @@
 title: Anrufdiagnoseberichte in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 8d362dd9-a119-4601-a3b4-3e7ed0aaa92e
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anrufdiagnoseberichte mit mehreren Benutzern, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: b98dfdfd6f39893c70297f837355dcccbe0096a1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b83ddad86f006cda82e1ea83cda5f2fb840aed7b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60762453"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846428"
 ---
 # <a name="call-diagnostic-reports-in-skype-for-business-server"></a>Anrufdiagnoseberichte in Skype for Business Server
  
@@ -35,7 +35,7 @@ Die Anrufdiagnoseberichte enthalten zusammenfassende Informationen und Diagnosed
     
 - [Bericht über häufigste Fehler in Skype for Business Server](top-failures-report.md) Enthält eine Liste der häufigsten Fehler und deren Trends im Laufe der Zeit.
     
-- [Bericht über Fehlerverteilung in Skype for Business Server](failure-distribution-report.md) Stellt eine Analyse fehlgeschlagener Sitzungen bereit.
+- [Fehlerverteilungsbericht in Skype for Business Server](failure-distribution-report.md) Stellt eine Analyse fehlgeschlagener Sitzungen bereit.
     
 - [Fehlerlistenbericht in Skype for Business Server](failure-list-report.md) Enthält detaillierte Informationen zu den einzelnen Teilnehmern, die an einer fehlgeschlagenen Konferenz beteiligt sind.
     

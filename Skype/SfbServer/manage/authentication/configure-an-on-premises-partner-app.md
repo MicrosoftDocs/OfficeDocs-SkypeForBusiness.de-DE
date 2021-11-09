@@ -2,7 +2,7 @@
 title: Konfigurieren einer lokalen Partneranwendung für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Zusammenfassung: Konfigurieren einer lokalen Partneranwendung für Skype for Business Server.'
-ms.openlocfilehash: 65e5d32787b13043d30b6cb03a7d9cdbc047c46a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c922765e81c0507e6eca9e81047cce4dfbb6dd6c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772121"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846468"
 ---
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Konfigurieren einer lokalen Partneranwendung für Skype for Business Server
  
@@ -74,7 +74,7 @@ else
 Set-CsOAuthConfiguration -ServiceName 00000004-0000-0ff1-ce00-000000000000
 ```
 
-Speichern Sie das Skript nach dem Kopieren des Codes mit einer .PS1 Dateierweiterung (z. B. C:\Scripts\ServerToServerAuth.ps1). Beachten Sie, dass Sie vor dem Ausführen dieses Skripts die Metadaten-URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` bzw. `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` die Metadaten-URLs ersetzen müssen, die von Ihren Exchange 2013- bzw. SharePoint servern verwendet werden. Informationen dazu, wie Sie die Metadaten-URL des jeweiligen Produkts identifizieren können, finden Sie in der Produktdokumentation für Exchange 2013 und SharePoint.
+Speichern Sie das Skript nach dem Kopieren des Codes mithilfe einer .PS1 Dateierweiterung (z. B. C:\Scripts\ServerToServerAuth.ps1). Beachten Sie, dass Sie vor dem Ausführen dieses Skripts die Metadaten-URLs `https://atl-exchange-001.litwareinc.com/autodiscover/metadata/json/1` bzw. `http://atl-sharepoint-001.litwareinc.com/_layouts/15/metadata/json/1` die Metadaten-URLs ersetzen müssen, die von Ihren Exchange 2013- bzw. SharePoint-Servern verwendet werden. Informationen dazu, wie Sie die Metadaten-URL des jeweiligen Produkts identifizieren können, finden Sie in der Produktdokumentation für Exchange 2013 und SharePoint.
   
 In der letzten Zeile des Skripts werden Sie bemerken, dass dort ein Set-CsOAuthConfiguration-Cmdlet mit der folgenden Syntax aufgerufen wird:
   
@@ -94,7 +94,7 @@ Nachdem Sie diese Änderungen vorgenommen haben, können Sie das Skript ausführ
 C:\Scripts\ServerToServerAuth.ps1
 ```
 
-Beachten Sie, dass Sie dieses Skript auch dann ausführen können, wenn Sie nicht sowohl Exchange 2013 als auch SharePoint Server installiert haben:, treten keine Probleme auf, wenn Sie beispielsweise SharePoint Server als Partneranwendung konfigurieren, obwohl sie SharePoint Server nicht installiert haben.
+Beachten Sie, dass Sie dieses Skript auch dann ausführen können, wenn Sie nicht sowohl Exchange 2013 als auch SharePoint Server installiert haben: Es treten keine Probleme auf, wenn Sie beispielsweise SharePoint Server als Partneranwendung konfigurieren, obwohl sie SharePoint Server nicht installiert haben.
   
 Bei Ausführung des Skripts würden Sie dann eine Fehlermeldung erhalten, die wie folgt aussieht:
   

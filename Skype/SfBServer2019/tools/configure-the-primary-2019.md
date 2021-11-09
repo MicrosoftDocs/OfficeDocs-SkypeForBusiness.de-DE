@@ -2,7 +2,7 @@
 title: Konfigurieren des primären Verwaltungsservers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,18 +13,18 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2019.'
-ms.openlocfilehash: 8dd5b3ff94f393ccce88dd5a27bd8133810b4c1c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 15fecd23a4376eab64d49820da69f8ac0aec6c08
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760343"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60845998"
 ---
 # <a name="skype-for-business-server-configure-the-primary-management-server"></a>Skype for Business Server: Konfigurieren des primären Verwaltungsservers
 
 **Zusammenfassung:** Konfigurieren Sie Ihren primären Verwaltungsserver, installieren Sie System Center Operations Manager, und importieren Sie Management Packs für Skype for Business Server 2019.
 
-Um die neuen Funktionen für die Integritätsüberwachung in Skype for Business Server 2019 voll nutzen zu können, müssen Sie zunächst einen Computer als primären Verwaltungsserver festlegen. Anschließend müssen Sie System Center Operations Manager 2012 SP1 oder R2 oder System Center Operations Manager 2007 R2 auf diesem Computer installieren. Darüber hinaus müssen Sie zuerst eine unterstützte Version von SQL Server installieren, um als Ihre Operations Manager-Back-End-Datenbank zu funktionieren.
+Um die neuen Funktionen für die Integritätsüberwachung in Skype for Business Server 2019 voll nutzen zu können, müssen Sie zunächst einen Computer als primären Verwaltungsserver festlegen. Anschließend müssen Sie System Center Operations Manager 2012 SP1 oder R2 oder System Center Operations Manager 2007 R2 auf diesem Computer installieren. Darüber hinaus müssen Sie zuerst eine unterstützte Version von SQL Server installieren, um als Ihre Operations Manager-Back-End-Datenbank zu fungieren.
 
 Wenn Sie System Center Operations Manager installieren, müssen Sie alle Komponenten dieses Produkts installieren, einschließlich:
 
@@ -38,7 +38,7 @@ Wenn Sie System Center Operations Manager installieren, müssen Sie alle Kompone
 
 - Webkonsole
 
-- Berichterstellung
+- Reporting
 
 - Data Warehouse
 
@@ -47,18 +47,18 @@ Wenn Sie System Center Operations Manager installieren, müssen Sie alle Kompone
 
 Ausführliche Informationen zu diesen Produkten und deren Installation finden Sie unter [System Center Operations Manager 2012](/previous-versions/system-center/system-center-2012-R2/hh205987(v=sc.12))
 
-Denken Sie daran, dass Sie nur einen Stammverwaltungsserver pro Skype for Business Server Bereitstellung haben können.
+Beachten Sie, dass Pro Skype for Business Server Bereitstellung nur ein Stammverwaltungsserver vorhanden sein kann.
 
 ## <a name="importing-the-skype-for-business-server-2019-management-packs"></a>Importieren der Skype for Business Server 2019 Management Packs
 
 Sie können die Funktionen von System Center Operations Manager erweitern, indem Sie Management Packs installieren – Software, die festlegt, welche Elemente System Center Operations Manager überwachen kann, wie diese Elemente überwacht werden sollen und wie Warnungen ausgelöst und gemeldet werden sollen. Skype for Business Server 2019 umfasst zwei System Center Operations Manager-Management Packs, die die folgenden Funktionen bieten:
 
-- **Das Component and User Management Pack** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) verfolgt Skype for Business Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Kommunikationsdatensätzen (KDS) oder in den QoE-Datenbanken (Quality of Experience) protokolliert werden. Bei kritischen Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per E-Mail, Sofortnachricht oder SMS benachrichtigt werden. (SMS oder Kurznachrichtendienst ist die Technologie, die zum Senden von Textnachrichten von einem mobilen Gerät an ein anderes verwendet wird.)
+- **Das Component and User Management Pack** (Microsoft.LS.2019.Monitoring.ComponentAndUser.mp) verfolgt Skype for Business Server Probleme, die in Ereignisprotokollen aufgezeichnet, von Leistungsindikatoren registriert oder in den Kommunikationsdatensätzen (KDS) oder in den QoE-Datenbanken (Quality of Experience) protokolliert werden. Bei schwerwiegenden Problemen kann System Center Operations Manager so konfiguriert werden, dass Administratoren sofort per E-Mail, Sofortnachricht oder SMS benachrichtigt werden. (SMS oder Kurznachrichtendienst ist die Technologie, die zum Senden von Textnachrichten von einem mobilen Gerät an ein anderes verwendet wird.)
 
     > [!NOTE]
     >  Ausführliche Informationen zum Konfigurieren von Operations Manager-Benachrichtigungen finden Sie unter [Konfigurieren von Benachrichtigungen.](/previous-versions/system-center/operations-manager-2007-r2/dd440890(v=technet.10))
 
-- **Das Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) testet proaktiv wichtige Skype for Business Server Komponenten, z. B. die Anmeldung beim System, den Austausch von Chatnachrichten oder das Tätigen von Anrufen an ein Telefon im Telefonfestnetz (Public Switched Telephone Network, PSTN). Diese Tests werden mithilfe der cmdlets für synthetische Transaktionen Skype for Business Server durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
+- **Das Active Monitoring Management Pack** (Microsoft.LS.2019.Monitoring.ActiveMonitoring.mp) testet proaktiv Schlüssel Skype for Business Server Komponenten, z. B. die Anmeldung beim System, den Austausch von Chatnachrichten oder das Tätigen von Anrufen an ein Telefon im Telefonfestnetz (Public Switched Telephone Network, PSTN). Diese Tests werden mithilfe Skype for Business Server Cmdlets für synthetische Transaktionen durchgeführt. Zum Beispiel wird das **Test-CsIM**-Cmdlet verwendet, um eine Sofortnachrichtenunterhaltung zwischen zwei Testbenutzern zu simulieren. Wenn diese simulierte Unterhaltung fehlschlägt, wird eine Warnung generiert.
 
 Das Importieren der Management Packs ist ein wichtiger Schritt. Wenn die Management Packs nicht importiert werden, können Sie Operations Manager nicht verwenden, um Skype for Business Server Ereignisse zu überwachen oder Skype for Business Server synthetische Transaktionen auszuführen.
 

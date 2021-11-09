@@ -2,7 +2,7 @@
 title: Legacyzusammenführung – Hinzufügen eines Computers
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 3dbf1649-3a4f-488b-85b3-70533939fe1c
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Computer zu definieren, die den Edgeserverpool bilden, geben Sie den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) von mindestens einem Computer ein, der Teil des älteren, konsolidierten Edgepools mit Lastenausgleich ist.
-ms.openlocfilehash: 5c70f907ee1e9953cfebe5d1677c6e7c46f3453c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a9bf38a16ae959599c3f99b0489dbb29cba6c37b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775345"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846718"
 ---
 # <a name="legacy-merge-add-machine"></a>Legacyzusammenführung – Hinzufügen eines Computers
  

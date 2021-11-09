@@ -2,7 +2,7 @@
 title: Zusammenfassender Konferenzbericht in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Konferenzbericht in Skype for Business Server.'
-ms.openlocfilehash: 8ad8bc35a014efd1cb84979f7cc05d75c3691673
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751754"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846408"
 ---
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Zusammenfassender Konferenzbericht in Skype for Business Server
  
