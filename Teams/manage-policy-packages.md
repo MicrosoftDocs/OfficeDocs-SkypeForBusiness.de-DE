@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Richtlinienpaketen in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: sekrantz, aaglick
@@ -20,22 +20,22 @@ ms.custom:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: 37e4c54dca61adacf7d573f9effd11563818bc29
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 771b4f2e0e62f9721bcd135e1d01dc4be3ce7285
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60783117"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60868621"
 ---
 # <a name="manage-policy-packages-in-microsoft-teams"></a>Verwalten von Richtlinienpaketen in Microsoft Teams
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Wir haben Richtlinienpakete erstellt, um die Verwaltung von Richtlinien für Benutzergruppen in Ihrer Organisation zu vereinfachen, zu optimieren und für Konsistenz zu sorgen.  
 
-Sie können die in ihrer [Teams](#policy-packages-included-in-teams) enthaltenen Richtlinienpakete verwenden oder eigene [benutzerdefinierte Richtlinienpakete erstellen.](#custom-policy-packages)
+Sie können die [in](#policy-packages-included-in-teams) der Teams enthaltenen Richtlinienpakete verwenden oder eigene [benutzerdefinierte Richtlinienpakete erstellen.](#custom-policy-packages)
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinienpakete" im Admin Center":::
 
-Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Richtlinienpakete werden mithilfe des Microsoft Teams Admin Centers oder von PowerShell verwaltet.
+Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Sie verwalten Richtlinienpakete mithilfe des Microsoft Teams Admin Centers oder von PowerShell.
 
 > [!NOTE]
 > Jeder Benutzer benötigt das Add-On für erweiterte Kommunikation, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
@@ -52,7 +52,7 @@ Richtlinienpakete unterstützen die folgenden Teams Richtlinientypen:
 - Anrufrichtlinie
 - Richtlinie für Liveereignisse
 
-## <a name="policy-packages-included-in-teams"></a>In den Richtlinienpaketen enthaltene Teams
+## <a name="policy-packages-included-in-teams"></a>In der Richtlinie enthaltene Teams
 
 Teams enthält derzeit die folgenden Richtlinienpakete.
 
@@ -74,7 +74,7 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Public Safety Officer   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
 
 > [!NOTE]
-> Wir werden in zukünftigen Versionen von Teams weitere Richtlinienpakete hinzufügen, überprüfen Sie daher die neuesten Informationen.  
+> Wir werden in zukünftigen Versionen von Teams weitere Richtlinienpakete hinzufügen, suchen Sie also nach den neuesten Informationen.  
 
 Jede einzelne Richtlinie erhält den Namen des Richtlinienpakets, sodass Sie die Richtlinien, die mit einem Richtlinienpaket verknüpft sind, leicht identifizieren können.
 Wenn Sie beispielsweise das Richtlinienpaket für Bildungseinrichtungen (Lehrer) Lehrkräften in Ihrer Schule zuweisen, wird für jede Richtlinie im Paket eine Richtlinie mit dem Namen Education_Teacher erstellt.

@@ -2,7 +2,7 @@
 title: VideoMetricsThreshold-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 2e2f4711-35ba-48c6-b15b-5aba61c4eb75
 description: Die Tabelle VideoMetricsThreshold enthält optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.
-ms.openlocfilehash: 08ebc41fd49fc29583059aa03601f9acc384c822
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e0a482a0d89086463585b51e7cd6912a593ef412
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741781"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846998"
 ---
 # <a name="videometricsthreshold-table"></a>VideoMetricsThreshold-Tabelle
  

@@ -2,7 +2,7 @@
 title: Erstellen einer neuen oder Bearbeiten einer vorhandenen Clientversionskonfiguration
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
 description: Clientversionskonfigurationseinstellungen werden verwendet, um die Clientversionskontrolle zu aktivieren oder zu deaktivieren. Die globale Clientversionskonfiguration wird mit Skype for Business Server installiert und wird verwendet, um die Clientversionskontrolle für die gesamte Serverbereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle clientversionsrichtlinien, die Sie eingerichtet haben, wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die globale Clientversionskonfiguration deaktivieren, wenn keine Clientversionskontrolle erfolgen soll.
-ms.openlocfilehash: 5dd3f1297ec618346a35424ca323d236b8527c62
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bbd83279edabaf5f8474e3b07a98bd5fbd676dc1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752314"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847830"
 ---
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Clientversionskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Clientversionskonfiguration
 

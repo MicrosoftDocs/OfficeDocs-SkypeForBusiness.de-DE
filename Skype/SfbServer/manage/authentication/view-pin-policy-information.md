@@ -2,7 +2,7 @@
 title: Anzeigen von PIN-Richtlinieninformationen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Zusammenfassung: Anzeigen der PIN-Richtlinieninformationen eines Benutzers für Skype for Business Server.'
-ms.openlocfilehash: 112eebb72ed1599ca85031653651bcaa1dad41e1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0a0e67d45a89e2c03f45017bfddb1ffaa9bec285
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765523"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862482"
 ---
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Anzeigen von PIN-Richtlinieninformationen in Skype for Business Server
  
 **Zusammenfassung:** Anzeigen der PIN-Richtlinieninformationen eines Benutzers für Skype for Business Server.
   
-Auf der Registerkarte **"PIN-Richtlinie"** können Sie die PIN-Authentifizierung (Persönliche Identifikationsnummer) von Benutzern anzeigen, die eine Verbindung mit Skype for Business mit IP-Telefonen herstellen. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
+Auf der Registerkarte **"PIN-Richtlinie"** können Sie die PIN-Authentifizierung (Persönliche Identifikationsnummer) von Benutzern anzeigen, die sich mit Skype for Business mit IP-Telefonen verbinden. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
   
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu ändern. 
   
@@ -64,6 +64,6 @@ MaximumLogonAttempts :
 
 Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Get-CsPinPolicy".](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Erstellen einer neuen PIN-Richtlinie in Skype for Business Server](create-a-new-pin-policy.md)

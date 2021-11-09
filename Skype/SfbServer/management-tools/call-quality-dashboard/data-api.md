@@ -2,7 +2,7 @@
 title: Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Zusammenfassung: Erfahren Sie mehr über die Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 3a305ce3c6b4a1bbfcc0fbdedbb575477f76d62c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 619a02d776f5eb55c6349d1f123181190bc0299d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742041"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862212"
 ---
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
  
@@ -38,7 +38,7 @@ Die REST-Vorgänge sind in der folgenden Tabelle enthalten.
 |[Abrufen von Cubes](get-cube.md) <br/> |Ruft die Liste der verfügbaren Dimensionen und Maße ab.  <br/> |
 |[Abrufen von Dimensionselementen](get-dimension-members.md) <br/> |Der Vorgang "Dimension-Elemente abrufen" gibt die Liste der Elemente einer bestimmten Dimension zurück. Es bietet auch die Möglichkeit, die Mitgliederliste zu filtern und eine Teilmenge abzurufen, um die Übertragungskosten zu reduzieren.  <br/> |
 |[Ausführen von Abfragen](run-query.md) <br/> |Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem Cube basierend auf angegebenen Dimensionen, Maßen und Filtern auszuführen und die Daten zurückzugeben.  <br/> |
-|[Leeren des Caches](clear-cache.md) <br/> |Der Vorgang "Cache löschen" löscht den Cache auf dem Server für Abfragen und Daten. Dadurch wird der Cache zurückgesetzt, und wir erhalten anschließend für neue Anforderungen neue Daten aus dem QoE-Cube.  <br/> |
+|[Leeren des Caches](clear-cache.md) <br/> |Der Vorgang "Cache löschen" löscht den Cache auf dem Server für Abfragen und Daten. Dadurch wird der Cache zurückgesetzt, und wir erhalten anschließend neue Daten aus QoE Cube für neue Anforderungen.  <br/> |
 |[Abrufen des Integrationsprotokolls](get-integration-log.md) <br/> |Der Vorgang "Integrationsprotokoll abrufen" gibt eine Liste von Protokolleinträgen zurück, die die Aktivitäten in der QoE-Cubeverarbeitung beschreiben.  <br/> |
 |[Abrufen der letzten Integrationsdaten](get-last-integration-data.md) <br/> |Rufen Sie die letzten Integrationsdaten aus dem Cube ab.  <br/> |
    
@@ -48,7 +48,7 @@ Die Daten-API unterstützt cross-origin Resource Sharing (CORS). CORS ist ein HT
   
  **Aktivieren von CORS für die Daten-API**
   
- Es folgt ein Auszug der Daten-API-web.config mit zwei Domänen, die in den CorsTrustedOrigin-Anwendungseinstellungen aufgelistet sind. Alle Anforderungen, die von den von diesen Servern geladenen Skripts gestellt werden, werden von der Daten-API als vertrauenswürdig eingestuft.
+ Es folgt ein Auszug aus der Daten-API-web.config mit zwei Domänen, die in den CorsTrustedOrigin-Anwendungseinstellungen aufgeführt sind. Alle Anforderungen, die von den von diesen Servern geladenen Skripts gestellt werden, werden von der Daten-API als vertrauenswürdig eingestuft.
   
 Denken Sie daran, das genaue Protokoll, den Hostnamen und den Port (falls vorhanden) einzuschließen. Setzen Sie keinen Schrägstrich (/) am Ende. Mehrere Einträge können durch Kommas getrennt angegeben werden.
   

@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in Barbados
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole, fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Für Barbados verfügbare Dienste.
-ms.openlocfilehash: 1f81e5896cf138babe93feaa10c5288675b58af8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2eeb85e27bdcc0f7b41e9e83754a430bca251dd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777605"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848198"
 ---
 # <a name="availability-in-barbados"></a>Verfügbarkeit in Barbados
 
@@ -72,7 +72,7 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar? <br/> |Ja  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams](../getting-service-phone-numbers.md).
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

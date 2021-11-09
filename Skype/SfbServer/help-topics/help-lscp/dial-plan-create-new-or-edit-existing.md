@@ -2,7 +2,7 @@
 title: Erstellen eines neuen Wählplans oder Bearbeiten eines vorhandenen Wählplans
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 98e6372e-90e3-4939-b681-640f00d98ff1
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 6648a9d0180c85c1703e0219de08c166cb146fe9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1d9cfc84b31a98352524a01a933d76019650d321
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748252"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847834"
 ---
 # <a name="dial-plan-create-new-or-edit-existing"></a>Wählplan: Erstellen eines neuen oder Bearbeiten eines vorhandenen Satzes Wählplans
 

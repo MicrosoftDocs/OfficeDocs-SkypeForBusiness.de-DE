@@ -2,7 +2,7 @@
 title: Verwalten des Löschens archivierter Daten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 14c2b4fd-f612-4909-808d-09c655fc9f8a
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Bereinigung archivierter Daten für Skype for Business Server verwalten.'
-ms.openlocfilehash: e5800711756fcccde90ba9907adbe1e9309a677b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4050bc40d72cb8a2b306ab050298bb74b7c96dbd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778355"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847438"
 ---
 # <a name="manage-purging-of-archived-data-in-skype-for-business-server"></a>Verwalten des Löschens archivierter Daten in Skype for Business Server
 
@@ -63,13 +63,13 @@ Beispielsweise ermöglicht der folgende Befehl das Löschen aller archivierten D
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True
 ```
 
-Der folgende Befehl beschränkt das Löschen auf archivierte Datensätze, die in eine Datendatei exportiert wurden (mithilfe des Cmdlets **"Export-CSArchivingData").** Sie müssen auch den Parameter "PurgeExportedArchivesOnly" auf "True" ($True) festlegen:
+Der folgende Befehl beschränkt das Löschen auf archivierte Datensätze, die in eine Datendatei exportiert wurden (mithilfe des Cmdlets **"Export-CSArchivingData").** Sie müssen auch den Parameter PurgeExportedArchivesOnly auf True ($True) festlegen:
   
 ```PowerShell
 Set-CsArchivingConfiguration -Identity "site:Redmond" -EnablePurging $True -PurgeExportedArchivesOnly $True
 ```
 
-Nachdem dieser Befehl ausgeführt wurde, löscht Skype for Business Server nur Archivierungsdatensätze, die zwei Kriterien erfüllen: 1) sie sind älter als der für den Parameter KeepArchivingDataForDays angegebene Wert; und, 2) sie wurden mithilfe des Cmdlets **"Export-CsArchivingData"** exportiert.
+Nachdem dieser Befehl ausgeführt wurde, löschen Skype for Business Server nur Archivierungsdatensätze, die zwei Kriterien erfüllen: 1) sie sind älter als der für den Parameter "KeepArchivingDataForDays" angegebene Wert; und, 2) sie wurden mithilfe des Cmdlets **"Export-CsArchivingData"** exportiert.
   
 Um das automatische Löschen von Archivierungsdatensätzen zu deaktivieren, legen Sie den Parameter "EnablePurging" auf "False" ($False) fest:
   

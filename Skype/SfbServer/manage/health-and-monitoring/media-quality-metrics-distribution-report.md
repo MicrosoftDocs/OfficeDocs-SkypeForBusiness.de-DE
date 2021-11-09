@@ -2,7 +2,7 @@
 title: Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,25 +12,25 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 773dceacfc7ca955a893d740ef4832ee8d94cb0e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746954"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862312"
 ---
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server 
  
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server.
   
-Mit dem Bericht über die Metrikverteilung der Medienqualität können Sie ein Diagramm anzeigen, das die Verteilungswerte für eine QoE-Metrik wie Jitter oder Paketverlust anzeigt. Nehmen wir beispielsweise an, dass Ihre Benutzer insgesamt 10 Telefonanrufe tätigen; Diese 10 Anrufe melden die folgenden Roundtripzeiten:
+Mit dem Bericht über die Metrikverteilung der Medienqualität können Sie ein Diagramm anzeigen, das die Verteilungswerte für eine QoE-Metrik wie Jitter oder Paketverlust anzeigt. Angenommen, Ihre Benutzer tätigen insgesamt 10 Anrufe; Diese 10 Anrufe melden die folgenden Roundtripzeiten:
   
 |**Anrufnummer**|**Roundtripzeit (Millisekunden)**|
 |:-----|:-----|
 |1  <br/> |50  <br/> |
 |2  <br/> |50  <br/> |
 |3  <br/> |50  <br/> |
-|4   <br/> |50  <br/> |
+|4  <br/> |50  <br/> |
 |5  <br/> |50  <br/> |
 |6   <br/> |50  <br/> |
 |7   <br/> |50  <br/> |

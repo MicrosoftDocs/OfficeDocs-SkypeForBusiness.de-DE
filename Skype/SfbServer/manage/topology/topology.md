@@ -2,7 +2,7 @@
 title: Verwalten der Topologie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b2f8ce22-938e-4e22-8a1a-c829a1366b27
 description: 'Zusammenfassung: Erfahren Sie mehr über die Schritte zum Verwalten Ihrer Topologie in Skype for Business Server.'
-ms.openlocfilehash: df27396c16e890fdb52fd74b8bf527450e2bd801
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7d55995727de00b2d8cfcdd4c509e0814c787dd9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742091"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862222"
 ---
 # <a name="manage-your-topology-in-skype-for-business-server"></a>Verwalten der Topologie in Skype for Business Server 
  

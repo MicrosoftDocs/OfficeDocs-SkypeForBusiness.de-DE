@@ -1,7 +1,7 @@
 ---
 title: Skype for Business für Mac-Clientanforderungen
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 790d3e89-2b68-411b-b282-38de5d34dd10
 description: Lesen Sie dieses Thema, um mehr über die Hardware-, Software- und Infrastrukturanforderungen für die Ausführung von Skype for Business auf einem Mac zu erfahren.
-ms.openlocfilehash: 3a4d80bea5bd56f94b5239a537d059c4409d8f33
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b7d3ce484ea3e333e85c2f8473cdcdaaebe44057
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745911"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847218"
 ---
 # <a name="skype-for-business-on-mac-client-requirements"></a>Skype for Business für Mac-Clientanforderungen
  
@@ -42,7 +42,7 @@ Skype for Business Server 2015 unterstützt auch die folgenden Legacyclients auf
   
 - Microsoft Lync für Mac 2011 (siehe [Bereitstellungshandbuch für Lync für Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984275(v=office.14))
     
-- Microsoft Communicator für Mac 2011 (siehe [bereitstellungshandbuch für Communicator für Mac 2011)](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14))
+- Microsoft Communicator für Mac 2011 (siehe [Communicator für Mac 2011 Deployment Guide](/previous-versions/office/office-for-mac-2011/jj984270(v=office.14)))
  
 Diese Clients werden von Skype for Business Server 2019 nicht unterstützt.
    
@@ -58,7 +58,7 @@ Der Client hat die gleichen Anforderungen wie unsere Mobilitätsclients, da ein 
 Der Skype for Business auf dem Mac-Client unterstützt die zertifikatbasierte Authentifizierung, die moderne Authentifizierung von Microsoft und die mehrstufige Authentifizierung, wenn sie bereitgestellt und aktiviert ist.
   
 > [!NOTE]
-> Aufgrund einer aktuellen Einschränkung müssen die Exchange Anmeldeinformationen des Benutzers mit den Skype for Business-Anmeldeinformationen übereinstimmen. 
+> Aufgrund einer aktuellen Einschränkung müssen die Exchange Anmeldeinformationen des Benutzers mit den Skype for Business Anmeldeinformationen übereinstimmen. 
   
 ### <a name="certificates"></a>Zertifikate
 

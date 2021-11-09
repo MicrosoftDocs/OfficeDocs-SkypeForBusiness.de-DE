@@ -2,7 +2,7 @@
 title: Zertifikatanforderung (SIP-Domänen)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1af294a0-5aa1-40a4-b460-231dd4b2f3dc
 description: Wenn Ihre Infrastruktur und Bereitstellung die aufgeführten Kriterien erfüllt, sollten Sie auf der Seite SIP-Domäneneinstellung für alternative Antragstellernamen das Kontrollkästchen für Ihre primäre SIP-Domäne (Session Initiation Protocol) und andere SIP-Domänen aktivieren.
-ms.openlocfilehash: 6fee8a1374ef75797ae208f7f692bc6aab957d3b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5a39c4f32ae613f72efbc0f6b42138d9a1f0e0d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744891"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850168"
 ---
 # <a name="certificate-request-sip-domains"></a>Zertifikatanforderung (SIP-Domänen)
  

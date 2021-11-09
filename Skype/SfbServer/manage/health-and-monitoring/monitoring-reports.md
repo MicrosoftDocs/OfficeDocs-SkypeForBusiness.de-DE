@@ -2,7 +2,7 @@
 title: Verwenden von Überwachungsberichten in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Zusammenfassung: Erfahren Sie mehr über Überwachungsberichte in Skype for Business Server.'
-ms.openlocfilehash: aee3f8b3b53bf0d1273775ddd05f83ec74861904
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774925"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862282"
 ---
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype for Business Server 
  
@@ -41,7 +41,7 @@ Um diese Berichte verwenden zu können, müssen Sie Überwachungsberichte auf ei
     
 ## <a name="locating-records"></a>Suchen von Datensätzen
 
-Überwachungsberichte zeigen immer nur eine begrenzte Anzahl von Datensätzen auf dem Bildschirm an. Die tatsächliche Anzahl der auf einem Bildschirm angezeigten Datensätze variiert je nach Bericht. Um die Datensätze anzuzeigen, die derzeit nicht auf dem Bildschirm angezeigt werden, können Sie das standardmäßige Vorwärts- und Rückwärtssteuerelement (auf der Symbolleiste jedes Berichts) verwenden, mit dem Sie die Daten durchsuchen können. Sie können auch schnell zur ersten oder letzten Seite des Datasets wechseln.
+Überwachungsberichte zeigen immer nur eine begrenzte Anzahl von Datensätzen auf dem Bildschirm an. Die tatsächliche Anzahl der auf einem Bildschirm angezeigten Datensätze variiert je nach Bericht. Um die Datensätze anzuzeigen, die derzeit nicht auf dem Bildschirm angezeigt werden, können Sie das standardmäßige Vorwärts- und Rückwärtssteuerelement (auf der Symbolleiste jedes Berichts) verwenden, mit dem Sie durch die Daten blättern können. Sie können auch schnell zur ersten oder letzten Seite des Datasets wechseln.
   
 Neben der Verwendung der Steuerelemente für die Rückwärts- bzw. Vorwärtsnavigation können Sie auch zu jeder beliebigen Seite im Dataset navigieren, indem Sie einfach in das Feld **Aktuelle Seite** die Seitennummer eingeben und dann die EINGABETASTE drücken.
   

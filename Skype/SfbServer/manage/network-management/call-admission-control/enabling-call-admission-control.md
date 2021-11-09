@@ -2,7 +2,7 @@
 title: Aktivieren der Anrufsteuerung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: " Nachdem Sie das Anrufsteuerungsnetzwerk konfiguriert haben, müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen."
-ms.openlocfilehash: 723578d37d8094e53ed9e4f9505984e43b1f3b3d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750204"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847228"
 ---
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Aktivieren der Anrufsteuerung in Skype for Business Server
 
@@ -34,7 +34,7 @@ Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**.
    
     > [!NOTE]  
-    > Es kann nur ein Netzwerk für jede Skype for Business Server Bereitstellung konfiguriert werden, sodass nie mehr als eine Netzwerkkonfiguration in der Liste vorhanden ist. Die globale Konfiguration kann nicht umbenannt werden.
+    > Für jede Skype for Business Server Bereitstellung kann nur ein Netzwerk konfiguriert werden, sodass in der Liste nie mehr als eine Netzwerkkonfiguration enthalten ist. Die globale Konfiguration kann nicht umbenannt werden.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 

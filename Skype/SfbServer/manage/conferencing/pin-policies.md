@@ -2,7 +2,7 @@
 title: Verwalten von PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Zusammenfassung: Erfahren Sie, wie Sie PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: d82be95a3e6ff6fcfc65c5fd7449f9035ee64635
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60763813"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862472"
 ---
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server
  
@@ -45,7 +45,7 @@ Sie können Informationen zu PIN-Richtlinien mithilfe Skype for Business Server 
     
 4. Klicken Sie auf der Seite **"PIN-Richtlinie"** auf die PIN-Richtlinie, die Sie anzeigen möchten, klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Informationen zu PIN-Richtlinien mithilfe Skype for Business Server Verwaltungsshell
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Informationen zu PIN-Richtlinien mithilfe Skype for Business Server-Verwaltungsshell
 
 Verwenden Sie das Cmdlet **"Get-CsPinPolicy",** um Informationen zu PIN-Richtlinien anzuzeigen. Der folgende Befehl gibt beispielsweise Informationen zu einer einzelnen PIN-Richtlinie mit dem Identitätswert "site:Redmond" zurück:
   
@@ -59,7 +59,7 @@ Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung u
 
 Sie können die globale PIN-Richtlinie mithilfe Skype for Business Server Systemsteuerung oder mithilfe Skype for Business Server Verwaltungsshell ändern.
   
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Ändern der globalen Richtlinie für Einwahlkonferenz-PIN mithilfe Skype for Business Server Systemsteuerung
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-control-panel"></a>Ändern der globalen Pin-Richtlinie für Einwahlkonferenzen mithilfe Skype for Business Server Systemsteuerung
 
 1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     

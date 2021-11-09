@@ -2,7 +2,7 @@
 title: CLS Logger for Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die CLS-Protokollierung (Centralized Logging Service) in Skype for Business Server 2015 verwenden.'
-ms.openlocfilehash: bd468818335125e764dc6094ad32f7c7cad7f72e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739081"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862182"
 ---
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger for Skype for Business Server 2015
  
@@ -29,7 +29,7 @@ Die CLS-Protokollierung ist ein Tool, das Sie beim Verwalten von Protokollen unt
   
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Um cls Logger erfolgreich verwenden zu können, müssen Sie sicherstellen, dass Folgendes zutrifft:
+Um cls Logger erfolgreich zu verwenden, müssen Sie sicherstellen, dass Folgendes zutrifft:
   
 - Sie verwenden das Tool auf einem Computer, der Mitglied der Domäne ist, in der der zentralisierte Protokollierungsdienst (Centralized Logging Service, CLS) ausgeführt wird. Das Tool wird derzeit in Remote-PowerShell-Sitzungen nicht unterstützt.
     

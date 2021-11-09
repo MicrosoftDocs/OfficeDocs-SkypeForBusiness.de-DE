@@ -1,6 +1,6 @@
 ---
 title: Verwalten Skype for Business Einstellungen im Microsoft Teams Admin Center
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: jastark
@@ -22,12 +22,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie die Einstellungen Skype for Business Features im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: 90748d968b2540ea6ee7e5c542623ceb0bc0fbb1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0b16cea1cf29c0ff2c6362bc91e13f2241574d83
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767133"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848168"
 ---
 # <a name="manage-skype-for-business-settings-in-the-microsoft-teams-admin-center"></a>Verwalten Skype for Business Einstellungen im Microsoft Teams Admin Center
 
@@ -35,14 +35,14 @@ ms.locfileid: "60767133"
 <a name="sfb-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Als Administrator verwalten Microsoft Teams Admin Center die Skype for Business für Skype for Business in Ihrer Organisation. Sie können die Einstellungen [für Ihre](#manage-skype-for-business-settings-for-your-organization) Organisation **auf** [](#manage-skype-for-business-settings-for-individual-users) der Seite Skype for Business  und die Einstellungen für einzelne Benutzer auf der Registerkarte Skype for Business Benutzerdetailse seiten verwalten.
+Als Administrator verwalten Sie Microsoft Teams Admin Center die Skype for Business für Skype for Business in Ihrer Organisation. Sie können die Einstellungen [für Ihre](#manage-skype-for-business-settings-for-your-organization) Organisation auf [](#manage-skype-for-business-settings-for-individual-users) der Seite  Skype for Business **und** die Einstellungen für einzelne Benutzer auf der Registerkarte Skype for Business Benutzerdetailse seiten verwalten.
 
-Die Seite "Koexistenz" **wird Skype for Business** angezeigt, wenn der Koexistenzmodus für Ihre Organisation nicht auf **"Teams festgelegt ist.** Ebenso wird die Registerkarte "Skype for Business" für einen Benutzer nur angezeigt, wenn der Koexistenzmodus **des Benutzers nicht Teams ist.**  Weitere Informationen zu Koexistenzmodi finden Sie unter Teams und Skype for Business [Koexistenz](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und Interoperabilität und Festlegen der Einstellungen für [Koexistenz und Upgrade.](setting-your-coexistence-and-upgrade-settings.md)
+Die Seite "Koexistenz" **wird Skype for Business** angezeigt, wenn der Koexistenzmodus für Ihre Organisation nicht auf **"Teams festgelegt ist.** Ebenso wird die Registerkarte "Skype for Business" für einen Benutzer nur angezeigt, wenn der Koexistenzmodus **des Benutzers nicht Teams ist.**  Weitere Informationen zu Koexistenzmodi finden Sie unter Teams und Skype for Business [Koexistenz](teams-and-skypeforbusiness-coexistence-and-interoperability.md) und Interoperabilität und Festlegen der Einstellungen [für Koexistenz und Upgrade.](setting-your-coexistence-and-upgrade-settings.md)
 
 > [!NOTE]
-> Skype for Business Einstellungen waren zuvor im **Legacyportal** im Microsoft Teams Admin Center. Mit der Einstellung des Legacyportals haben wir die Einstellungen an diese neuen Speicherorte im Teams Admin Center für Skype for Business migriert.
+> Skype for Business Einstellungen waren zuvor im **Legacyportal** im Microsoft Teams Admin Center. Mit der Einstellung des Legacyportals haben wir die Einstellungen an diese neuen Speicherorte im Teams Admin Center für die Verwaltung Skype for Business migriert.
 
-Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Oder Skype for Business zugewiesen sein, damit Sie Skype for Business Features im Microsoft Teams Admin Center verwalten können.
+Ihnen muss die [Azure AD-Administratorrolle](/azure/active-directory/roles/permissions-reference) eines globalen Oder Skype for Business zugewiesen sein, damit Sie die Skype for Business im Microsoft Teams Admin Center verwalten können.
 
 ## <a name="manage-skype-for-business-settings-for-your-organization"></a>Verwalten Skype for Business Einstellungen für Ihre Organisation
 
@@ -71,20 +71,20 @@ Verwenden Sie die folgenden Einstellungen, um Skype-Besprechung [Broadcast](http
 <!-- Do not remove the bookmark link above. -->
 
 
-Verwenden Sie die folgenden Einstellungen, um den Skype for Business Anwesenheitsanzeige und mobile Benachrichtigungen in Ihrer Organisation zu verwalten.
+Verwenden Sie die folgenden Einstellungen, um den Skype for Business Anwesenheits-Datenschutz und mobile Benachrichtigungen in Ihrer Organisation zu verwalten.
 
 :::image type="content" source="media/skype-for-business-settings-presence-mobile.png" alt-text="Screenshot der Anwesenheitseinstellungen im Admin Center.":::
 
 #### <a name="presence"></a>Anwesenheit
 
-Standardmäßig können Skype for Business in Ihrer Organisation den Anwesenheitsstatus anderer Benutzer sehen (z. B. "Verfügbar", "Beschäftigt" oder "Skype for Business". Wählen Sie eine der folgenden Optionen aus, um die Personen als Anwesenheitsteilnehmer Skype for Business festlegen.
+Standardmäßig können Skype for Business in Ihrer Organisation den Anwesenheitsstatus (z. B. "Verfügbar", "Beschäftigt" oder "Ab jetzt") anderer Benutzer Skype for Business sehen. Wählen Sie eine der folgenden Optionen aus, um die Personen, die das Anwesenheits ihres Kontos sehen können, Skype for Business festlegen.
 
 - **Anwesenheitsinformationen** automatisch anzeigen: Jeder Skype for Business-Benutzer in Ihrer Organisation, der nicht  zur  Liste Extern oder Blockiert des Benutzers hinzugefügt wurde, kann die Anwesenheit dieses Benutzers sehen.
-- **Anwesenheitsinformationen** nur für die Kontakte eines Benutzers anzeigen: Jeder Skype for Business-Benutzer in der Kontaktliste  des  Benutzers, der nicht zu seiner Liste "Extern" oder "Blockiert" hinzugefügt wurde, kann die Anwesenheit dieses Benutzers sehen. Benutzer können diese Einstellung im Skype for Business über die Optionen **Einstellungen**  >    >  **überschreiben.**
+- Anwesenheitsinformationen nur für die Kontakte eines Benutzers **anzeigen:** Jeder Skype for Business-Benutzer in der Kontaktliste  des  Benutzers, der nicht zu seiner Liste Extern oder Blockiert hinzugefügt wurde, kann die Anwesenheit dieses Benutzers sehen. Benutzer können diese Einstellung im Skype for Business über die Optionen **Einstellungen**  >  **überschreiben.**  >  
 
 #### <a name="mobile-notifications"></a>Mobile Benachrichtigungen
 
-Sie können festlegen, ob Skype for Business Ihrer mobilen Benutzer über einen Pushbenachrichtigungsdienst Benachrichtigungen zu eingehenden und verpassten Chatnachrichten, Voicemailnachrichten und verpassten Anrufen erhalten. Je nach den in Ihrer Organisation verwendeten mobilen Geräten können Sie **den Microsoft-Pushbenachrichtigungsdienst,** den **Apple-Pushbenachrichtigungsdienst** oder beides verwenden.
+Sie können festlegen, ob ihre mobilen Skype for Business Benachrichtigungen über eingehende und verpasste Chatnachrichten, Voicemailnachrichten und verpasste Anrufe über einen Pushbenachrichtigungsdienst erhalten sollen. Je nach den in Ihrer Organisation verwendeten mobilen Geräten können Sie **den Microsoft-Pushbenachrichtigungsdienst,** den **Apple-Pushbenachrichtigungsdienst** oder beides verwenden.
 
 Berücksichtigen Sie dabei Folgendes:
 
@@ -101,7 +101,7 @@ Berücksichtigen Sie dabei Folgendes:
 <a name="sfb-user-settings"> </a>
 <!-- Do not remove the bookmark link above. -->
 
-Um Skype for Business-Einstellungen für einzelne Benutzer zu verwalten, wechseln Sie im linken Navigationsbereich des Teams Admin Centers zu Benutzer **,** klicken Sie auf den Anzeigenamen des Benutzers, um die Seite mit den Benutzerdetails zu öffnen, und wählen Sie dann die Registerkarte **Skype for Business-Einstellungen** aus. Von hier aus können Sie die Einstellungen für den externen Zugriff und die Besprechung für den Benutzer konfigurieren.
+Um Skype for Business-Einstellungen für einzelne Benutzer zu verwalten, wechseln Sie in der linken Navigationsleiste des Teams Admin Centers zu Benutzer **,** klicken Sie auf den Anzeigenamen des Benutzers, um die Seite mit den Benutzerdetails zu öffnen, und wählen Sie dann die Registerkarte **Skype for Business-Einstellungen** aus. Von hier aus können Sie die Einstellungen für den externen Zugriff und die Besprechung für den Benutzer konfigurieren.
 
 :::image type="content" source="media/skype-for-business-settings-user.png" alt-text="Screenshot der Registerkarte Skype for Business auf der Seite mit den Benutzerdetails.":::
 
@@ -109,7 +109,7 @@ Um Skype for Business-Einstellungen für einzelne Benutzer zu verwalten, wechsel
 
 Sie können selektiv zulassen oder blockieren, ob ein Benutzer mit Personen außerhalb Ihrer Organisation kommunizieren kann.
 
-- **Externe Skype for Business:** Aktivieren Sie dies, wenn Sie es dem Benutzer ermöglichen möchten, mit Skype for Business in Verbunddomänen zu kommunizieren.
+- **Externe Skype for Business:** Aktivieren Sie dies, wenn Sie dem Benutzer die Kommunikation mit Skype for Business in Verbunddomänen ermöglichen möchten.
 - **Externe Skype:** Aktivieren Sie dies, wenn Sie dem Benutzer die Kommunikation mit anderen Skype ermöglichen möchten. 
 
 ### <a name="meeting-settings"></a>Besprechungseinstellungen
@@ -123,5 +123,5 @@ Sie können die folgenden Besprechungseinstellungen für den Benutzer konfigurie
     - **Audio und Video:** Benutzer können Audio und Video verwenden.
     - **Audio und Video (HD):** Der Benutzer kann Audio- und HD-Video verwenden.
     
-- **Aufzeichnen von Unterhaltungen &** Besprechungen: Aktivieren Sie diese Wendung, um dem Benutzer das Aufzeichnen von Unterhaltungen und Besprechungen zu ermöglichen.
+- **Aufzeichnen von Unterhaltungen &** Besprechungen: Aktivieren Sie diese Deaktivieren, um dem Benutzer das Aufzeichnen von Unterhaltungen und Besprechungen zu ermöglichen.
 - **Compliance:** Aktivieren Sie dies, wenn Sie rechtlich zur Aufbewahrung elektronisch gespeicherter Informationen verpflichtet sind.

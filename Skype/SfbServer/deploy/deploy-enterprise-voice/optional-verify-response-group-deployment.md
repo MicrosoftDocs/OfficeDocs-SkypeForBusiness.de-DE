@@ -2,7 +2,7 @@
 title: (Optional) Überprüfen der Reaktionsgruppenbereitstellung in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 202ca4ab-8e6d-44a4-b7c8-071133074feb
-description: Überprüfen Sie den Erfolg der Bereitstellung ihrer Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 8e9820a68e06c3cf9ec583c9aad2e86708583ac9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Überprüfen Sie den Erfolg ihrer Reaktionsgruppenbereitstellung in Skype for Business Server Enterprise-VoIP.
+ms.openlocfilehash: 7dd76dad69995d6e54fa4743792248cd046eb041
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753482"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861842"
 ---
 # <a name="optional-verify-response-group-deployment-in-skype-for-business"></a>(Optional) Überprüfen der Reaktionsgruppenbereitstellung in Skype for Business
  
-Überprüfen Sie den Erfolg der Bereitstellung ihrer Reaktionsgruppe in Skype for Business Server Enterprise-VoIP.
+Überprüfen Sie den Erfolg ihrer Reaktionsgruppenbereitstellung in Skype for Business Server Enterprise-VoIP.
   
 Nachdem Sie die Reaktionsgruppe konfiguriert haben, müssen Sie die Konfiguration überprüfen, um sicherzustellen, dass Ihre Reaktionsgruppen wie erwartet funktionieren. Führen Sie mindestens eine Überprüfung der folgenden Szenarien mit den folgenden Benutzertypen durch:
   

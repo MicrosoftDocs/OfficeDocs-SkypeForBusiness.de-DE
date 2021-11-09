@@ -2,7 +2,7 @@
 title: Einwahlkonferenzen (Planungstool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.localizationpriority: medium
 ms.assetid: c1f79a05-165c-47ec-8593-0bb3d43ee16f
 ROBOTS: NOINDEX, NOFOLLOW
 description: Skype for Business Server Einwahlkonferenzen ermöglicht Benutzern die Teilnahme am Audioteil einer Skype for Business Server-Konferenz mithilfe eines PSTN-Telefons (Public Switched Telephone Network), ohne dass ein Drittanbieter für Audiokonferenzen erforderlich ist.
-ms.openlocfilehash: 6857c230852ee99df46f34034c2f333acf19a49d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: eaef9b534078ce03cac6772cbf7bb6bf57cd4091
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748601"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847948"
 ---
 # <a name="dial-in-conferencing-planning-tool"></a>Einwahlkonferenzen (Planungstool)
  

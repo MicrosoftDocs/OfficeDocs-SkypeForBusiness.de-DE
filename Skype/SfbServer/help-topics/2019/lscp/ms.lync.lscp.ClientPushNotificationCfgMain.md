@@ -2,7 +2,7 @@
 title: Konfiguration von Pushbenachrichtigungen für mobile Clients
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
 ROBOTS: NOINDEX, NOFOLLOW
 description: Um die Microsoft-Pushbenachrichtigungen und Apple-Pushbenachrichtigungen zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
-ms.openlocfilehash: 1f52af141ad9ece3a967595039ca69e3cce3ef9e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0f0d5a465abecf9ba0f5fb2b5de594c537801914
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60739951"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847978"
 ---
 # <a name="mobile-client-push-notification-configuration"></a>Mobiler Client: Konfiguration für Pushbenachrichtigung
  

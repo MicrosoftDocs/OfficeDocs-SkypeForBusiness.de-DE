@@ -1,8 +1,8 @@
 ---
-title: Plan for Video Interop Server in Skype for Business Server
+title: Planen des Video-Interoperabilitätsservers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,18 +12,18 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4a8daf23-77ba-428b-bcbc-161f6af52c11
 description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Telekonferenzgeräte von Drittanbietern zu integrieren.'
-ms.openlocfilehash: 34afa051513ea2ebef60213fbc8c1a650bfec199
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b928e432b464e6bf1a5ccb8748ebf75ef8cc596b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749914"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862062"
 ---
-# <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Plan for Video Interop Server in Skype for Business Server
+# <a name="plan-for-video-interop-server-in-skype-for-business-server"></a>Planen des Video-Interoperabilitätsservers in Skype for Business Server
  
 **Zusammenfassung:** Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Telekonferenzgeräte von Drittanbietern zu integrieren.
   
-Skype for Business Server ermöglicht ihnen jetzt die Integration in bestimmte VTC-Lösungen (Video Teleconferencing System) von Drittanbietern. Die neue Serverrolle, die diese Interoperabilität von Videokonferenzen ermöglicht, ist der Video-Interoperabilitätsserver (VIDEO Interop Server, VIS), der derzeit als eigenständige Serverrolle implementiert ist, die nur für lokale Installationen verfügbar ist. Ein VIS fungiert als Vermittler zwischen einem Drittanbieter-Telekonferenzsystem und einer Skype for Business Server Bereitstellung. Für diese Version konzentriert sich vis auf die Interoperabilität mit Cisco/Tandberg-Videosystemen. Lesen Sie diesen Artikel, um zu ermitteln, ob dieses Feature in Ihrer Skype for Business Server-Installation verwendet werden soll.
+Skype for Business Server ermöglicht ihnen jetzt die Integration in bestimmte VTC-Lösungen von Drittanbietern (Video Teleconferencing System). Die neue Serverrolle, die diese Interoperabilität von Videokonferenzen ermöglicht, ist der Video-Interoperabilitätsserver (VIDEO Interop Server, VIS), der derzeit als eigenständige Serverrolle implementiert ist, die nur für lokale Installationen verfügbar ist. Ein VIS fungiert als Vermittler zwischen einem Drittanbieter-Telekonferenzsystem und einer Skype for Business Server Bereitstellung. Für diese Version konzentriert sich vis auf die Interoperabilität mit Cisco/Tandberg-Videosystemen. Lesen Sie diesen Artikel, um festzustellen, ob dieses Feature in Ihrer Skype for Business Server-Installation verwendet werden soll.
   
 ## <a name="device-interoperability"></a>Geräteinteroperabilität
 
@@ -50,11 +50,11 @@ Die derzeit unterstützten VTCs sind:
 - Cisco SX20
     
 > [!NOTE]
->  Die Cisco-Softwareversion TC7.0.0 oder höher ist auf diesen Systemen erforderlich, damit die Integration in Skype for Business Server wie erwartet funktioniert.
+>  Die Cisco-Softwareversion TC7.0.0 oder höher ist auf diesen Systemen erforderlich, damit die Integration mit Skype for Business Server wie erwartet funktioniert.
   
 ## <a name="sip-trunks"></a>SIP-Trunks
 
-Der Video-Interoperabilität-Server funktioniert im SIP-Trunkmodus, in dem sich die VTCs weiterhin bei der vorhandenen Cisco-Infrastruktur registrieren , z. B. Cisco Call Manager (CUCM). Zwischen CUCM und dem VIS wird ein Video-SIP-Trunk definiert, sodass Anrufe zwischen den beiden Systemen weitergeleitet werden können. Es werden nur Anrufe über den SIP-Trunk vom VTC an den VIS unterstützt. Daher können sich VTCs in eine Skype for Business Konferenz einwählen (durch Wählen der Telefonnummer, die der automatischen Telefonzentrale für Anrufe zugeordnet ist), aber nicht gezogen und in die Konferenz abgelegt werden.
+Der Video-Interoperabilität-Server funktioniert im SIP-Trunkmodus, in dem sich die VTCs weiterhin bei der vorhandenen Cisco-Infrastruktur registrieren , z. B. Cisco Call Manager (CUCM). Zwischen CUCM und dem VIS wird ein Video-SIP-Trunk definiert, sodass Anrufe zwischen den beiden Systemen weitergeleitet werden können. Es werden nur Anrufe über den SIP-Trunk vom VTC an den VIS unterstützt. Auf diese Weise können sich VTCs in eine Skype for Business Konferenz einwählen (durch Wählen der Telefonnummer, die der automatischen Telefonzentrale für Anrufe zugeordnet ist), aber nicht gezogen und in die Konferenz abgelegt werden.
   
 ![Diagramm des VIS in SfB.](../media/87753af5-b1d9-4107-9216-fde45a1af197.png)
   
@@ -62,11 +62,11 @@ Der Video-Interoperabilität-Server funktioniert im SIP-Trunkmodus, in dem sich 
 
 Diese Serverrolle bietet Folgendes:
   
-- Konvertierung zwischen den H.264-Formaten, die von Videosystemen von Drittanbietern verwendet werden, und der Skype for Business Server Bereitstellung.
+- Konvertierung zwischen den H.264-Formaten, die von Drittanbieter-Videosystemen verwendet werden, und der Skype for Business Server Bereitstellung.
     
 - Konvertierung eines einzelnen Videostreams mit einer bestimmten Auflösung von einem VTC in mehrere Simulcast-Streams mit unterschiedlichen Auflösungen für die Verwendung in der Skype for Business Server Bereitstellung. Diese Datenströme können an die AVMCU und dann an Skype for Business Server Endpunkte und andere Videosysteme gesendet werden, die unterschiedliche Auflösungen angefordert haben. Diese Konvertierung wird auch verwendet, wenn das Videosystem eines Drittanbieters an einem Skype for Business A/V-Konferenzanruf beteiligt ist. Sobald der Transcodierungsgrenzwert auf einem bestimmten VIS-Server erreicht ist, erhalten alle folgenden Anforderungen für unterschiedliche Auflösungen nur einen Datenstrom mit der niedrigsten Auflösung. 
     
-- Unterstützung für einen Video-SIP-Trunk zwischen dem CUCM-Gateway und einem Skype for Business Server Video-Interoperabilitätsserver; VTCs registrieren sich weiterhin beim Cisco-Gateway und initiieren Anrufe an die Skype for Business-Bereitstellung über das Gateway. Anrufe werden über den Video-SIP-Trunk vom Gateway an den Skype for Business Video-Interoperabilitätsserver weitergeleitet.
+- Unterstützung für einen Video-SIP-Trunk zwischen dem CUCM-Gateway und einem Skype for Business Server Video-Interoperabilitätsserver; VTCs registrieren sich weiterhin beim Cisco-Gateway und initiieren Anrufe an die Skype for Business-Bereitstellung über das Gateway. Anrufe werden vom Gateway an den Skype for Business Video-Interoperabilitätsserver über den Video-SIP-Trunk weitergeleitet.
     
 - Unterstützung für einen Benutzer in einem Konferenzraum mit einem unterstützten Videosystem, um von diesem System aus an einer offenen oder geschlossenen Konferenz teilzunehmen. Dieser Anruf durchläuft den Video-SIP-Trunk.
     
@@ -78,13 +78,13 @@ Diese Serverrolle bietet Folgendes:
 
 Für diese Serverrolle gelten die folgenden Einschränkungen:
   
-- Neue Anrufe von der Skype for Business Bereitstellung an die VTCs über den Video-SIP-Trunk werden nicht unterstützt. . Dies bedeutet, dass nur neue Anrufe von den VTCs in die Skype for Business Bereitstellung über den Video-SIP-Trunk unterstützt werden. Die Anwesenheit für das unterstützte Videosystem steht dem VIS nicht über den Video-SIP-Trunk zur Verfügung. 
+- Neue Anrufe von der Skype for Business-Bereitstellung an die VTCs über den Video-SIP-Trunk werden nicht unterstützt. . Dies bedeutet, dass nur neue Anrufe von den VTCs in die Skype for Business Bereitstellung über den Video-SIP-Trunk unterstützt werden. Die Anwesenheit für das unterstützte Videosystem steht dem VIS nicht über den Video-SIP-Trunk zur Verfügung. 
     
 - Für den Video-SIP-Trunkmodus wird nur ein eigenständiger VIS-Pool unterstützt.
     
 -  TLS + SRTP oder TCP + RTP wird für die Kommunikation zwischen VTC und VIS über den Video-SIP-Trunk unterstützt.
     
-- Die Anwendungsfreigabe wird nicht unterstützt. Ein Skype for Business Benutzer im Konferenzraum muss an der Skype for Business Konferenz teilnehmen (z. B. über einen Laptop) und die Bildschirme für die App-Freigabe auf einem der kostenlosen Monitore im Konferenzraum anzeigen, der nicht dem VTC zugeordnet ist.
+- Die Anwendungsfreigabe wird nicht unterstützt. Ein Skype for Business Benutzer im Konferenzraum muss an der Skype for Business Konferenz teilnehmen (z. B. über einen Laptop) und die Bildschirme für die App-Freigabe auf einem der kostenlosen Monitore im Konferenzraum anzeigen, der nicht mit dem VTC verknüpft ist.
     
 - Die Möglichkeit für einen VTC, über den VIS an einer Verbundbesprechung teilzunehmen, wird nicht unterstützt.
     

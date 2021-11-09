@@ -2,7 +2,7 @@
 title: Allgemeine Einstellungen des Monitoring Servers – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Überwachungsserver bearbeiten, indem Sie entweder mit der rechten Maustaste in der Konsolenstruktur auf den Überwachungsserver klicken und dann auf der Symbolleiste auf Aktion klicken, oder indem Sie im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf "Eigenschaften bearbeiten" klicken und eine der folgenden Optionen ändern:'
-ms.openlocfilehash: 3f4238d253207e2dca28154bc50fc7d806e53c57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c2dbe39debf95917bd0fad98291915d82033d662
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750714"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60850188"
 ---
 # <a name="monitoring-server-general-settings-expander"></a>Allgemeine Einstellungen des Überwachungsservers – Erweiterung
  

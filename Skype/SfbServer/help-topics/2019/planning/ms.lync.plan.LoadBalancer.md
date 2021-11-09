@@ -2,7 +2,7 @@
 title: Lastenausgleichstool (Planning Tool)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -16,18 +16,18 @@ ms.localizationpriority: medium
 ms.assetid: 3bf7f2c7-b79b-4b37-bb32-72324a94ac99
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Wenn Sie über Front-End-Pools, Directorpools oder Edgeserverpools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Weitere Informationen finden Sie unter:'
-ms.openlocfilehash: a1a13140d1f64bd202b5b96ebc3aed58febb0446
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a710bd5119b340f9c57952e7c0557b212b444af2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745141"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847928"
 ---
 # <a name="load-balancer-planning-tool"></a>Lastenausgleichstool (Planning Tool)
  
 Wenn Sie über Front-End-Pools, Directorpools oder Edgeserverpools verfügen, müssen Sie den Lastenausgleich für diese Pools bereitstellen. Beim Lastenausgleich wird der Datenverkehr auf die Server in einem Pool verteilt. Weitere Informationen finden Sie unter:
   
-- [Anforderungen an den Lastenausgleich für Skype for Business](../../../plan-your-deployment/network-requirements/load-balancing.md)
+- [Lastenausgleichsanforderungen für Skype for Business](../../../plan-your-deployment/network-requirements/load-balancing.md)
     
 
     

@@ -2,7 +2,7 @@
 title: Veraltete Skype for Business Server 2019
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype for Business Server 2019 entfernt.'
-ms.openlocfilehash: 65229e091d903ca18fee89224e45aedef8c0ca40
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771724"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60846978"
 ---
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Veraltete Skype for Business Server 2019
 
@@ -31,13 +31,13 @@ Die folgenden Features und Funktionen sind in Skype for Business Server 2019 ver
 
 ### <a name="xmpp-gateways-for-skype-for-business-server"></a>XMPP-Gateways für Skype for Business Server
 
-Skype for Business Server 2015 und seinen Vorgängern ermöglicht es Ihnen, einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool zu konfigurieren. Diese Funktion ist in Skype for Business Server 2019 nicht mehr verfügbar.
+Skype for Business Server 2015 und seinen Vorgängern konnten Sie einen XMPP-Proxy (Extensible Messaging and Presence Protocol) auf dem Edgeserver und ein XMPP-Gateway auf dem Front-End-Server oder Front-End-Pool konfigurieren. Diese Funktion ist in Skype for Business Server 2019 nicht mehr verfügbar.
 
 ### <a name="persistent-chat-for-skype-for-business-server"></a>Beständiger Chat für Skype for Business Server
 
 Der Server für beständigen Chat ist eine optionale Rolle, mit der mehrere Benutzer in Ihrer Organisation an Chatroomunterhaltungen teilnehmen können, die im Laufe der Zeit bestehen bleiben. Beständiger Chat kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Diese Serverrolle wird aus dem Topologie-Generator und aus dem Code entfernt. 
 
-Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here)
+Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here)
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Spiegelung für Skype for Business Server
 
@@ -71,7 +71,7 @@ Die folgenden Tools werden mit Skype for Business Server 2019 nicht unterstützt
 - Skype for Business Server 2015-Planungstool
 - Skype for Business Server 2015 Stress and Performance Tool
 
-### <a name="see-also"></a>Weitere Informationen
+### <a name="see-also"></a>Siehe auch
 
 [Neuigkeiten in Skype for Business Server 2019](whats-new.md)
 

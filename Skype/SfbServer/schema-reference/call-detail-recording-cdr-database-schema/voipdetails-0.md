@@ -2,7 +2,7 @@
 title: VoipDetails-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 74ffbb71-569b-4018-be1f-4db2bbafcf36
 description: Jeder Datensatz steht für einen Anruf mit zwei Teilnehmern, wovon  mindestens einer ein VoIP-Benutzer ist.
-ms.openlocfilehash: 905d972c680c5541e603b3ee3810c1d6d34e008f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ed21e9f66f393d1f5d15314da522a8f7c4bf30d0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768473"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862012"
 ---
 # <a name="voipdetails-table"></a>VoipDetails-Tabelle
  

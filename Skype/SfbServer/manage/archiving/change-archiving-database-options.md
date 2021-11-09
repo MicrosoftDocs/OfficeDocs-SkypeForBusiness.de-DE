@@ -2,7 +2,7 @@
 title: Ändern von Archivierungsdatenbankoptionen in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: dbebaa0a-f3a2-4dbd-b64e-07a62370f899
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Archivierungsdatenbankoptionen für Skype for Business Server ändern.'
-ms.openlocfilehash: 240d590b7f22e4756351939be6ecab55ea108b79
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e07c94530d71c9d31ef9f11eaef6332dbfa32d0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767933"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847458"
 ---
 # <a name="change-archiving-database-options-in-skype-for-business-server"></a>Ändern von Archivierungsdatenbankoptionen in Skype for Business Server
 
@@ -29,7 +29,7 @@ Wenn Sie die Archivierung mit SQL Server Speicher für den Archivierungsspeicher
     
 - Wechseln Sie zur Integration von Microsoft Exchange, um Archivierungsdaten und Dateien auf Exchange Servern zu speichern. Wenn alle Ihre Benutzer auf Ihren Exchange Servern verwaltet werden und Sie Microsoft Exchange Speicher für alle Benutzer in Ihrer Bereitstellung verwenden möchten, sollten Sie die SQL Server-Speicherdatenbanken aus Ihrer Topologie entfernen. 
     
-Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und dann die Topologie erneut veröffentlichen. Geben Sie keine **Archivierung SQL Server Speichers** an oder aktivieren Sie **SQL Server Spiegelungsinformationen,** es sei denn, Sie haben Skype for Business Benutzer, die nicht auf Exchange Servern verwaltet werden.
+Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausführen, die Änderungen vornehmen und dann die Topologie erneut veröffentlichen. Geben Sie keine **Archivierungsinformationen SQL Server Speichers** an, oder aktivieren Sie **SQL Server Spiegelungsinformationen,** es sei denn, Sie haben Skype for Business Benutzer, die nicht auf Exchange Servern verwaltet werden.
   
 ## <a name="change-archiving-database-options"></a>Ändern von Optionen für Archivierungsdatenbanken
 
@@ -60,7 +60,7 @@ Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausf
     
      - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **Neu,** und führen Sie dann im Dialogfeld **"Neuen SQL Server Store definieren"** die folgenden Schritte aus:
     
-       - Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Speicher erstellen möchten.
+       - Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server speicher erstellen möchten.
     
        - Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie verwenden möchten.
     
@@ -70,7 +70,7 @@ Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausf
     
      - Um einen vorhandenen SQL Server Speicher für die Spiegelung zu verwenden, klicken Sie im Dropdown-Listenfeld **"Archivierung SQL Server Speicherspiegel"** auf den Namen des SQL Server Speichers, den Sie für die Spiegelung verwenden möchten.
     
-     - Um einen neuen SQL Server Speicher für die Spiegelung anzugeben, klicken Sie auf **Neu,** und führen Sie dann im Dialogfeld Neue **SQL Server Store definieren** eine der folgenden Aktionen aus:
+     - Um einen neuen SQL Server Speicher für die Spiegelung anzugeben, klicken Sie auf **Neu,** und führen Sie dann im Dialogfeld Neue **SQL Server Store** definieren eine der folgenden Aktionen aus:
     
        a. Geben Sie **in SQL Server FQDN** den FQDN des SQL Server an, in dem Sie den neuen SQL Server Speicher erstellen möchten.
     
@@ -80,13 +80,13 @@ Um eine dieser Änderungen vorzunehmen, müssen Sie den Topologie-Generator ausf
     
    - Wenn Sie SQL Server Spiegelung aktivieren und einen SQL Server Spiegelungszeugen hinzufügen oder ändern möchten (eine dritte, separate SQL Server Instanz, die die Integrität der primären SQL Server Server- und Spiegelinstanzen erkennen kann), aktivieren Sie das Kontrollkästchen **"Automatisches Failover" mithilfe SQL Server Spiegelungszeugen.**  führen Sie eine der folgenden Aktionen aus:
     
-      a. Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Spiegelungszeugen erstellen möchten.
+      a. Geben Sie in **SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Spiegelungszeugen erstellen möchten.
     
       b. Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
     
       c. Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen "Diese SQL Instanz befindet sich **in der Spiegelungsbeziehung",** und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
     
-   - Um zu Microsoft Exchange Integration zu wechseln, um Archivierungsdaten und Dateien auf Exchange Servern zu speichern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange Servern verwaltet werden), löschen Sie alle Informationen für Archivierungsdatenbanken.
+   - Um zur Microsoft Exchange Integration zu wechseln, um Archivierungsdaten und Dateien auf Exchange Servern zu speichern (wenn alle Benutzer in Ihrer Bereitstellung auf Ihren Exchange Servern verwaltet werden), löschen Sie alle Informationen für Archivierungsdatenbanken.
     
      > [!IMPORTANT]
      > Wenn Sie über Skype for Business Benutzer verfügen, die nicht auf Exchange Servern verwaltet werden, löschen Sie nicht die SQL Server Speichern von Informationen. 

@@ -2,7 +2,7 @@
 title: Legacyzusammenführung – Zielseite
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6dd2227a-1fbd-4133-b27f-227b0fe47805
 description: Auf der Seite Edgesetup angeben können Sie Informationen zu Ihrem Legacyedgeserver angeben. Klicken Sie auf Hinzufügen, um die Version des Legacyedgeservers Ihrer Office Communications Server-Bereitstellung anzugeben. Wenn in Ihrer Legacyumgebung keine Edgeserver vorhanden sind, klicken Sie auf Weiter, um fortzufahren.
-ms.openlocfilehash: e86c001cf3e4da6818870b24b57213058f6dd452
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1e09063c32839abaa335d7446e7c75eb0144cf79
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743681"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847638"
 ---
 # <a name="legacy-merge-landing"></a>Legacyzusammenführung – Zielseite
  

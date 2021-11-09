@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines organisationsweiten Teams in Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: phlouie
 manager: serdars
@@ -17,12 +17,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: b266bf4cfef25761ce492cb93090ff3df380994d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8698625cc219b1d343afd43cc8bf44cd9e71dc52
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745611"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60861982"
 ---
 # <a name="create-an-organization-wide-team-in-microsoft-teams"></a>Erstellen eines organisationsweiten Teams in Microsoft Teams
 
@@ -52,7 +52,7 @@ Wenn das Verzeichnis Ihrer Organisation so aktualisiert wird, dass es neue aktiv
 > - Wenn die Option Organisationsweit beim Erstellen eines Teams nicht angezeigt wird und Sie ein globaler Administrator sind, haben Sie möglicherweise das Limit von fünf organisationsweiten Teams erreicht, oder Ihre Organisation hat mehr als die aktuelle Größenbeschränkung von 10.000 Mitgliedern.  Wir arbeiten daran, dieses Limit künftig zu erhöhen. Organisationsweite Teams sind für Microsoft Teams for Education derzeit noch nicht verfügbar.
 > - Räume, die nicht Teil einer Raumliste sind, Geräte- und Ressourcenkonten werden dem organisationsweiten Team möglicherweise hinzugefügt oder synchronisiert. Teambesitzer können diese Konten ganz einfach wieder aus dem Team entfernen.
 > - Alle Aktionen des Systems zum Hinzufügen oder Entfernen von Mitgliedern werden im Kanal "Allgemein" gepostet. Der Kanal wird außerdem im Teams-Client mit „Neue Aktivität“ gekennzeichnet.
-> - Wir erstellen automatisch ein organisationsweites Team für Ihre Organisation, wenn Ihre Organisation noch keine Teams und nicht mehr als 5.000 Benutzer hat. Der Teamname spiegelt den Mandantennamen wider verfügt über einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten.
+> - Wir erstellen automatisch ein organisationsweites Team für Ihre Organisation, wenn Ihre Organisation neu bei Teams ist und nicht mehr als 5.000 Benutzer hat. Der Teamname spiegelt den Mandantennamen wider verfügt über einen allgemeinen Kanal. Globale Administratoren können dieses Team wie jedes andere Team bearbeiten.
 
 ## <a name="best-practices"></a>Bewährte Methoden
 

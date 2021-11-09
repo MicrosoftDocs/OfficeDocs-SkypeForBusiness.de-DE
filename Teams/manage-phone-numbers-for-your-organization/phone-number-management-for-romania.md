@@ -1,6 +1,6 @@
 ---
 title: Telefon der Nummerverwaltung für Rumänien
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: chandra.kilaru, kristen.kutser
@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: In dieser Tabelle finden Sie Informationen zum Erhalten und Verwalten von Telefonnummern in Rumänien für Microsoft Teams.
-ms.openlocfilehash: 176ece5e20ae3e83bcb03b24858d3e9f7b1244ff
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 13322fc4283031dbed0783ac24bc8852ecd54a58
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759297"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848188"
 ---
 # <a name="phone-number-management-for-romania"></a>Telefon der Nummerverwaltung für Rumänien
 

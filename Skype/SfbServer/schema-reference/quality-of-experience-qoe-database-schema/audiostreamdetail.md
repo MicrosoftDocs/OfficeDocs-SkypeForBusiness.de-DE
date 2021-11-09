@@ -2,7 +2,7 @@
 title: AudioStreamDetail-Ansicht
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in der Datenbank. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 3485ac8e8f2f38e7440ef723dfa40b3530589fc8
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741861"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60847018"
 ---
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  
@@ -68,7 +68,7 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |CalleeIPAddr  <br/> |var(50)  <br/> |IP-Adresse des Angerufenen. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
 |CalleePort  <br/> |int  <br/> |Vom Angerufenen verwendeter Port.  <br/> |
 |CalleeInside  <br/> |Bit  <br/> |Gibt an, ob sich der Angerufene innerhalb des Intervallnetzwerks befindet: 1 bedeutet, dass der Angerufene sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Angerufene außerhalb des Netzwerks befindet.  <br/> |
-|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Aufrufers.  <br/> |
+|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Anrufers.  <br/> |
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Anrufers.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Angerufenen.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Angerufenen.  <br/> |

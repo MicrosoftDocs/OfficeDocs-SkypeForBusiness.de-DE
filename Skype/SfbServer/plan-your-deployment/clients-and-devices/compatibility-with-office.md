@@ -1,7 +1,7 @@
 ---
 title: Skype for Business Kompatibilität mit Office Apps
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: ac3a1046-b438-4e21-9d4f-3b0057dd685d
-description: Erfahren Sie, wie Sie über Outlook und andere Microsoft Office-Anwendungen auf Skype for Business Features zugreifen können.
-ms.openlocfilehash: e4b826cf6ba79b8db31ec5dec57c8d6bfca5280f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Verstehen Sie, wie Sie über Outlook und andere Microsoft Office-Anwendungen auf Skype for Business Features zugreifen können.
+ms.openlocfilehash: 06a019416ad8d32b0234b08c01b09630dd07a2ef
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773565"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862132"
 ---
 # <a name="skype-for-business-compatibility-with-office-apps"></a>Skype for Business Kompatibilität mit Office Apps
  
-Erfahren Sie, wie Sie über Outlook und andere Microsoft Office-Anwendungen auf Skype for Business Features zugreifen können.
+Verstehen Sie, wie Sie über Outlook und andere Microsoft Office-Anwendungen auf Skype for Business Features zugreifen können.
   
 In diesem Thema wird die Kompatibilität von Skype for Business mit verschiedenen Versionen von Microsoft Office Suites beschrieben. 
   
 ## <a name="office-and-skype-for-business"></a>Office und Skype for Business
 
-In der folgenden Tabelle werden die Skype for Business Features beschrieben, die von verschiedenen Versionen von Office unterstützt werden, sobald Exchange bereitgestellt und integriert ist, wie in ["Integrieren Skype for Business Server mit Exchange Server"](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)beschrieben.
+In der folgenden Tabelle werden die Skype for Business Features beschrieben, die von verschiedenen Versionen von Office unterstützt werden, sobald Exchange bereitgestellt und integriert wurde, wie in ["Integrieren Skype for Business Server in Exchange Server"](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)beschrieben.
   
 **Skype for Business- und Microsoft Office kompatibilität**
 
@@ -53,22 +53,22 @@ In der folgenden Tabelle werden die Skype for Business Features beschrieben, die
 |Sofortnachrichten und Anwesenheitsinformationen in Microsoft Word- und Microsoft Excel-Dateien (Smarttags aktiviert)    |Nur Microsoft Word    |Nur Microsoft Word    |Nein    |
 |Sofortnachrichten und Anwesenheitsinformationen in Microsoft SharePoint-Websites (Outlook muss installiert sein)    |Ja    |Ja    |Nein    |
    
-&#x2776; : Geht davon aus, dass Sie einen Skype for Business auf dem Mac-Client oder dem Lync 2011 für Mac-Client installiert haben und derzeit ausführen.
+&#x2776; – Geht davon aus, dass Sie einen Skype for Business auf dem Mac-Client oder dem Lync 2011 für Mac-Client installiert haben und derzeit ausführen.
   
 ## <a name="exchange-server-and-skype-for-business"></a>Exchange Server und Skype for Business
 
-In der folgenden Tabelle wird Skype for Business Unterstützung für verschiedene Versionen von Exchange Server beschrieben. Outlook müssen auf dem Clientcomputer installiert sein, um erweiterte MAPI-Aufrufe verarbeiten zu können, und einige Features erfordern die Verwendung von Exchange Webdienste (EWS).
+In der folgenden Tabelle wird Skype for Business Unterstützung für verschiedene Versionen von Exchange Server beschrieben. Outlook muss auf dem Clientcomputer installiert sein, um erweiterte MAPI-Aufrufe verarbeiten zu können, und einige Features erfordern die Verwendung von Exchange Webdienste (EWS).
   
 **Skype for Business- und Exchange Server kompatibilität**
 
-|**Exchange Server-Version**|**Skype for Business-Support**|
+|**Exchange Server-Version**|**Skype for Business-Unterstützung**|
 |:-----|:-----|
-|Exchange Server 2019 (nur Skype for Business Server 2019) |Identisch mit Exchange Server 2013-Unterstützung    |
-|Exchange Server 2016    |Identisch mit Exchange Server 2013-Unterstützung  <br/> |
-|Exchange Server 2013  <br/> |Identisch mit Exchange Server 2010-Unterstützung, mit dem Hinzufügen von  <br/>&bull;&nbsp;&nbsp;Unified Contact Store  <br/>&bull;&nbsp;&nbsp;Bilder mit hoher Auflösung  <br/>&bull;&nbsp;&nbsp;Archivierungsintegration  <br/> **Hinweis:** Ausführliche Informationen finden Sie unter [Integrieren von Skype for Business Server in Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
+|Exchange Server 2019 (nur Skype for Business Server 2019) |Identisch mit Exchange Server 2013-Support    |
+|Exchange Server 2016    |Identisch mit Exchange Server 2013-Support  <br/> |
+|Exchange Server 2013  <br/> |Identisch mit Exchange Server 2010-Unterstützung, mit dem Hinzufügen von  <br/>&bull;&nbsp;&nbsp;Einheitliche Kontakt-Store  <br/>&bull;&nbsp;&nbsp;Bilder mit hoher Auflösung  <br/>&bull;&nbsp;&nbsp;Archivierungsintegration  <br/> **Hinweis:** Ausführliche Informationen finden Sie unter [Integrieren von Skype for Business Server in Exchange Server.](../../deploy/integrate-with-exchange-server/integrate-with-exchange-server.md)  <br/> |
 |Exchange Server 2010  <br/>(nur Skype for Business Server 2015) |Die folgenden Funktionen stehen nur über die EWS zur Verfügung:  <br/>&bull;&nbsp;&nbsp;Lesen oder Löschen von Elementen im Ordner "Aufgezeichnete Unterhaltungen"  <br/>&bull;&nbsp;&nbsp;Lesen oder Löschen von Voicemailelementen  <br/>&bull;&nbsp;&nbsp;Anzeigen erweiterter Frei/Gebucht-Informationen sowie des Besprechungsthemas und -orts  <br/>&bull;&nbsp;&nbsp;Exchange Kontaktsynchronisierung  <br/> Öffentliche Ordner sind in Exchange Server 2010 optional.  <br/> |
    
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
  
 [Windows Clientanforderungen und Softwareunterstützung](windows-requirements.md)
   

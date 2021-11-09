@@ -2,7 +2,7 @@
 title: Abrufen von Dimensionselementen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Dimension-Elemente abrufen". Der Vorgang "Dimension-Elemente abrufen" ist Teil der Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: aaeadf46a2a281669109f960fe8d2532256e9021
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774655"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862202"
 ---
 # <a name="get-dimension-members"></a>Abrufen von Dimensionselementen
  
@@ -58,7 +58,7 @@ Der Vorgang "Dimension-Elemente abrufen" gibt die Liste der Elemente einer besti
   
  **Antwortheader** – keine zusätzlichen Kopfzeilen.
   
- **Antworttext** – Unten sehen Sie eine Beispielantwortnutzlast in JSON als Antwort auf eine Anforderung für "[StartDate]. [Monat]"-Dimension.
+ **Antworttext** : Unten sehen Sie eine Beispielantwortnutzlast in JSON als Antwort auf eine Anforderung für "[StartDate]. [Monat]"-Dimension.
   
 > [!NOTE]
 > Die Liste zeigt nur einen kleinen Teil der Liste an. 
