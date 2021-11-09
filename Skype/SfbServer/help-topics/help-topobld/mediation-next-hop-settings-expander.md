@@ -2,7 +2,7 @@
 title: Einstellungen unter "Nächster Hop" für Vermittlung – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 description: Zum Angeben des nächsten Hops eines Vermittlungsserverpools oder Vermittlungsservers wählen Sie den definierten Front-End-Pool der Enterprise Edition oder den Front-End-Server der Standard Edition aus der Dropdownliste aus. Ein Director oder Director-Pool kann nicht als nächster Hop für einen Vermittlungsserverpool oder Vermittlungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf "OK", um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: 923592fc6e64762c6e8b78b23c754b1c9b6b8cca
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 796e1b8ca4e5b986aaad04512d1ac69fbe8d498d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744181"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830969"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung
  

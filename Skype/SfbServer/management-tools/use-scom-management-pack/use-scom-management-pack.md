@@ -2,7 +2,7 @@
 title: Verwalten von Skype for Business Server 2015 mithilfe des SCOM Management Packs
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ca03f9ab-a227-4903-85a8-427df6a0a5bb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Ihre Skype for Business Server 2015-Infrastruktur für die Arbeit mit System Center Operations Manager konfigurieren.'
-ms.openlocfilehash: 43fba4fa3672621052d51314e1d39ead5f4d568b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4fb6d0c900285b473012d5f9051f25c8c30320f6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766273"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836287"
 ---
 # <a name="manage-skype-for-business-server-2015-using-scom-management-pack"></a>Verwalten von Skype for Business Server 2015 mithilfe des SCOM Management Packs
  
@@ -93,7 +93,7 @@ Die folgenden Features sind neu in Skype for Business Server 2015 Management Pac
     
 - **Benutzerdefinierte Ausführungsintervalle für synthetische Transaktionen** Zur Vereinfachung des Einrichtungsprozesses von Watcher-Knoten können synthetische Transaktionen Benutzerkonten freigeben. Dadurch wird die Häufigkeit verlangsamt, mit der die Tests ausgeführt werden, während die Tests serialisiert werden, um Konflikte zu vermeiden. Standardmäßig werden synthetische Transaktionen alle 15 Minuten ausgeführt, um sicherzustellen, dass alle Tests über genügend Zeit zum Ausführen verfügen. Administratoren, die mehr Benutzer oder weniger Tests pro Benutzer verwenden möchten, können jetzt auch das Ausführungsintervall reduzieren.
     
-- **Synthetische Transaktion für Video-Interoperabilitätsdienste** Kunden, die von Lösungen anderer Anbieter zu Skype for Business Server 2015 migrieren, möchten häufig weiterhin die Videotelekonferenzgeräte (Video Teleconferencing Devices, VTCs) von diesen anderen Anbietern verwenden. Video Interop Server ist eine neue Skype for Business Server 2015-Serverrolle, mit der Kunden weiterhin Cisco-VTCs in ihren Konferenzräumen verwenden können, indem sie eine Verbindung mit Cisco CUCM über einen Video-SIP-Trunk herstellen. Dieses Feature fügt auch eine synthetische Transaktion hinzu, um zu überprüfen, ob der Video-Interoperabilitätsserver aktiv ist und eingehende Verbindungen über einen Video-SIP-Trunk verarbeiten kann.
+- **Synthetische Transaktion für Video-Interoperabilitätsdienste** Kunden, die von Lösungen anderer Anbieter zu Skype for Business Server 2015 migrieren, möchten häufig weiterhin die Videotelekonferenzgeräte (Video Teleconferencing Devices, VTCs) von diesen anderen Anbietern verwenden. Video Interop Server ist eine neue Skype for Business Server 2015-Serverrolle, mit der Kunden weiterhin Cisco-VTCs in ihren Konferenzräumen verwenden können, indem sie sich über einen Video-SIP-Trunk mit Cisco CUCM verbinden. Dieses Feature fügt auch eine synthetische Transaktion hinzu, um zu überprüfen, ob der Video-Interoperabilitätsserver aktiv ist und eingehende Verbindungen über einen Video-SIP-Trunk verarbeiten kann.
     
 - **Synthetische Transaktion für Anwendungsfreigabekonferenzen** Die End-to-End-Szenarioüberprüfung für Anwendungsfreigabekonferenzen wird jetzt unterstützt.
     
@@ -131,7 +131,7 @@ Skype for Business Server 2015 Management Packs bieten eine höhere Abdeckung f�
 |1   |Registrierung (Benutzeranmeldung)   |Verfügbarer Lync Server 2010 und höher   |
 |2   |Adressbuchdienst (Dateidownload)   |Verfügbarer Lync Server 2010 und höher   |
 |3   |Adressbuchwebabfrage   |Verfügbarer Lync Server 2010 und höher   |
-|4    |Anwesenheit   |Verfügbarer Lync Server 2010 und höher   |
+|4   |Anwesenheit   |Verfügbarer Lync Server 2010 und höher   |
 |5   |Einheitlicher Kontaktspeicher   |Verfügbarer Lync Server 2013 und höher   |
 
   
@@ -143,7 +143,7 @@ Skype for Business Server 2015 Management Packs bieten eine höhere Abdeckung f�
 |8    |MCX-Peer-zu-Peer-Chatnachricht (mobil)   |Verfügbar in der Version vom September 2011 von Lync Server 2010 bis Skype for Business 2015   |
  
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
 
 
 |Unterstützte synthetische Transaktionen für Konferenzen und beständigen Chat|&nbsp;|&nbsp;|
@@ -188,9 +188,9 @@ In der folgenden Tabelle sind die Integritätszustände von Objekten aufgeführt
    
 ![SCOM-Rollup.](../../media/de16195d-3aed-412e-9def-07a481d2ff0f.png)
   
-Ein Skype for Business Server Pool kann mehrere einzelne Skype for Business Server Systeme enthalten (mit mehr als einer Skype for Business Server Rolle, Skype for Business Server Dienst und Skype for Business Server-Komponente). Daher ist der Ausfall eines einzelnen Servers oder einer Komponente weniger wichtig für den Gesamtstatus des Skype for Business Server Pools, da andere Server im selben Pool den Anwendungsdienst für den Client bereitstellen können. Die Integrität wird auf prozentualer Ebene für den Skype for Business Server-Pool rollt. 
+Ein Skype for Business Server Pool kann mehrere einzelne Skype for Business Server Systeme enthalten (mit mehr als einer Skype for Business Server Rolle, Skype for Business Server Dienst und Skype for Business Server-Komponente). Daher ist der Ausfall eines einzelnen Servers oder einer Komponente weniger wichtig für den Gesamtzustand des Skype for Business Server-Pools, da andere Server im selben Pool den Anwendungsdienst für den Client bereitstellen können. Die Integrität wird auf prozentualer Ebene auf den Skype for Business Server-Pool aufgerollt. 
   
-Der Skype for Business Server Pool watcher führt synthetische Transaktionen für einen Skype for Business Server Pool aus. Durch aufeinander folgende Fehler einer oder mehrerer synthetischer Transaktionen (ein Prozess, der als aufeinander folgendes Abrufintervall bezeichnet wird) wird der kritische Integritätsstatus auf Poolebene (die schlechteste aller synthetischen Transaktionen) wie im folgenden Diagramm dargestellt. 
+Der Skype for Business Server Pool watcher führt synthetische Transaktionen für einen Skype for Business Server Pool durch. Durch aufeinander folgende Fehler einer oder mehrerer synthetischer Transaktionen (ein Prozess, der als aufeinander folgendes Abrufintervall bezeichnet wird) wird der kritische Integritätsstatus auf Poolebene (die schlechteste aller synthetischen Transaktionen) wie im folgenden Diagramm dargestellt. 
   
 ![Aufeinander folgendeS Abrufen des SCOM-Rollups.](../../media/655de542-cca7-4eda-8052-9a7703ecd0e9.png)
   
@@ -236,9 +236,9 @@ Die folgenden Links verbinden Sie mit Informationen zu allgemeinen Aufgaben, die
     
 - [So entfernen Sie ein Management Pack](/previous-versions/system-center/operations-manager-2007-r2/cc974489(v=technet.10))
     
-Fragen zu Operations Manager und Überwachungspaketen finden Sie im [Community-Forum System Center Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
+Fragen zu Operations Manager und Monitoring Packs finden Sie im [Community-Forum System Center Operations Manager.](https://go.microsoft.com/fwlink/p/?LinkID=179635)
   
-Eine nützliche Ressource ist der [Blog System Center Operations Manager -Entfesselt,](https://opsmgrunleashed.wordpress.com/) der Beiträge "Nach Beispiel" für bestimmte Überwachungspakete enthält.
+Eine hilfreiche Ressource ist der [Blog System Center Operations Manager-Entfesselung,](https://opsmgrunleashed.wordpress.com/) der Beiträge "Nach Beispiel" für bestimmte Überwachungspakete enthält.
   
 Weitere Informationen zu Operations Manager finden Sie in den folgenden Blogs: 
   
@@ -250,6 +250,6 @@ Weitere Informationen zu Operations Manager finden Sie in den folgenden Blogs:
 > [!IMPORTANT]
 > Alle Informationen und Inhalte auf Nicht-Microsoft-Websites werden vom Besitzer oder den Benutzern der Website bereitgestellt. Microsoft übernimmt keine garantiernden, ausdrücklichen, konkludenten oder gesetzlichen Garantien hinsichtlich der Informationen auf dieser Website. 
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Skype for Business Server 2015-Verwaltungstools](../../management-tools/management-tools.md)

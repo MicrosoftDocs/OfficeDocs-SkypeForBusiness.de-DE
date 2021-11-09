@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in den nördlichen Marianen
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: fafan
@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams für nördliche Marianen.
-ms.openlocfilehash: 8be7e802cb399b8e4d874fabddc4c9389fc07627
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 192438f92baf5d905a14664f5a68222ae5354259
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753954"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836073"
 ---
 # <a name="availability-in-northern-mariana-islands"></a>Verfügbarkeit in den nördlichen Marianen
 

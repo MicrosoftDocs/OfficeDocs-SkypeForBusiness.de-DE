@@ -2,7 +2,7 @@
 title: Allgemeine Einstellungen des Archivierungsservers – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 0b820af7-8d00-42e2-979c-dbae17159a08
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Server bearbeiten, auf dem die Archivierung ausgeführt wird, indem Sie entweder mit der rechten Maustaste auf den Server klicken, auf dem die Archivierung in der Konsolenstruktur ausgeführt wird, und auf der Symbolleiste auf Aktion klicken, oder indem Sie im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf "Eigenschaften bearbeiten" klicken und eine der folgenden Optionen ändern:'
-ms.openlocfilehash: f12b43f027ef0a562f8e15aeb265091e3e85d0a9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 331aa14ff8adee17c201c4e1bf71dbe411d97ac8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778565"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836817"
 ---
 # <a name="archiving-server-general-settings-expander"></a>Allgemeine Einstellungen des Archivierungsservers – Erweiterung
  

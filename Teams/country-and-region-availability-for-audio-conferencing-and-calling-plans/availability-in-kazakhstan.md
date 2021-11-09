@@ -1,6 +1,6 @@
 ---
 title: Verfügbarkeit in Kasachstan
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, v-sukade, rcole
@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan.
-ms.openlocfilehash: aeaff9031535df5e7d727f3386ae4264efa62817
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan verfügbar.
+ms.openlocfilehash: b69d4634ee91e002c0f86fbe19d57dc20d3dd582
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60777535"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836083"
 ---
 # <a name="availability-in-kazakhstan"></a>Verfügbarkeit in Kasachstan
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Kasachstan verfügbar.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 

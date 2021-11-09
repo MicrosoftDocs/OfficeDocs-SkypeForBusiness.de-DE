@@ -1,6 +1,6 @@
 ---
 title: Prüfliste für onboarding – Konfigurieren von Cloud-Voice-Workloads – Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 47a9501bcccd867eeef57e1297a273d499ff8abb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7c0c09f2574c3b470e31d3402b45cfadf403626f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775925"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828468"
 ---
 # <a name="configure-cloud-voice-workloads-in-microsoft-teams"></a>Konfigurieren von Cloud-Voice workloads in Microsoft Teams
 
@@ -51,14 +51,14 @@ ms.locfileid: "60775925"
 | 4  | Konfigurieren von Wähleinstellungen | Mit einem Wählplan können Benutzer Telefonnummern auf die gewohnte Weise wählen, z. B. durch Auslassen der Ortswahl für Ortsgespräche, Weglassen der Landesleitzahl für Inlandsgespräche oder sogar durch Verwendung kurzstelliger Nummern, um andere Benutzer während einer Konferenz zu wählen. <br/><br/>Der Wählplan für den Dienst –der Standard – basiert auf dem Wählort Microsoft 365 oder Office 365 des Benutzers und kann nicht geändert werden. <br/><br/>Wenn der Standarddienstplan Nicht Ihren Anforderungen entspricht, können Sie Mandantenwählpläne auf Mandanten- oder Benutzerebene konfigurieren. Überprüfen Sie, ob Sie diesen Schritt für Audiokonferenzen bereits abgeschlossen haben. | | [Microsoft 365-Telefonsystem mit Anrufplänen](calling-plan-landing-page.md) <br/><br/>[Microsoft 365 und Office 365 eines Anrufplans](/SkypeForBusiness/what-are-calling-plans-in-office-365/what-are-dial-plans) |
 | 5  | Konfigurieren von Notfallstandorten | Um einem Sprachbenutzer eine Nummer zuzuordnen, müssen Sie ihm auch einen Notfallstandort für E.911-Zwecke zuweisen. <br/><br/>Wir empfehlen die Verwendung von PowerShell, um die Erstellung von Standortdiensten zu automatisieren.| | [Notfallstandorte, -adressen und Anrufrouting](what-are-emergency-locations-addresses-and-call-routing.md) |
 | 6  | Zuweisen von Lizenzen, Telefonnummern, Mandanten-Benutzer-Wählplan und Notfallstandorten zu Benutzern | Weisen Sie Ihren Benutzern E5-Lizenzen zu. Wenn Sie E3/E4-SKUs verwenden, weisen Sie Telefonsystem-Add-On Endbenutzern zu. <br/><br/>Nachdem Sie Lizenzen zugewiesen haben, fahren Sie mit dem Zuweisen von Telefonnummern, Wählplänen und Notfallstandorten fort. Verwenden Sie Skripts für die Benutzerermöglichung, um mehrere Benutzer auf einfache Weise gleichzeitig zu konfigurieren. | | |
-| 7  | Konfigurieren von Azure Voicemail | Wenn die Postfächer Ihrer Benutzer auf einer Website Exchange Online, werden deren Sprachpostfächer automatisch bereitgestellt. <br/><br/>Für eine lokale Bereitstellung von Exchange Server müssen Sie jedoch sicherstellen, dass Sie über die unterstützte Version und Topologie verfügen. Führen Sie die Schritte in der **Spalte Zusätzliche Informationen** aus. Sie können Voicemail-Transkription für Ihre Organisation aktivieren oder deaktivieren.| | [Unterstützung von Azure PBX Voicemail für Exchange Server](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[Einrichten von Cloud-Voicemail](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
+| 7  | Konfigurieren von Azure Voicemail | Wenn die Postfächer Ihrer Benutzer auf Exchange Online gehostet werden, werden deren Sprachpostfächer automatisch bereitgestellt. <br/><br/>Für eine lokale Bereitstellung von Exchange Server müssen Sie jedoch sicherstellen, dass Sie über die unterstützte Version und Topologie verfügen. Führen Sie die Schritte in der **Spalte Zusätzliche Informationen** aus. Sie können Voicemail-Transkription für Ihre Organisation aktivieren oder deaktivieren.| | [Unterstützung von Azure PBX Voicemail für Exchange Server](https://support.microsoft.com/help/3195158/customer-issues-between-exum-and-azure-voicemail) <br/><br/>[Einrichten von Cloud-Voicemail](/SkypeForBusiness/what-is-phone-system-in-office-365/phone-system-voicemail/set-up-phone-system-voicemail) |
 | 8  | OPTIONAL: Konfigurieren der Anrufer-ID für eingehende und ausgehende Anrufe | Standardmäßig wird für alle ausgehenden Anrufe die zugewiesene Telefonnummer für die Anrufidentität (Anrufer-ID) verwendet. <br/><br/>Optional können Sie die Anrufer-ID für einen Benutzer ändern oder blockieren. <br/><br/>**Hinweis:** Bei Notrufen wird immer die Telefonnummer des Benutzers als Anrufer-ID gesendet. | | [Wie kann die Anrufer-ID in Ihrer Organisation verwendet werden?](./how-can-caller-id-be-used-in-your-organization.md) <br/><br/>[Festlegen der Anrufer-ID für einen Benutzer](./set-the-caller-id-for-a-user.md)|
-| 9  | OPTIONAL: Konfigurieren der Interoperabilität mit Skype for Business | Konfigurieren Von Interoperabilitätsrichtlinien, wenn Ihre Organisation von Skype for Business zu Teams. <br/><br/>Interoperabilität ermöglicht Skype for Business und Teams Benutzern das Chatten und Anrufen miteinander. <br/><br/>Ihre vorhandene Bereitstellung und ihre beabsichtigte Rolloutstrategie für Teams sich auf Ihre Pläne auswirken. Überprüfen Sie interoperabilitätsoptionen, -anforderungen und -beschränkungen, und konfigurieren Sie Richtlinien entsprechend. <br/><br/>**Hinweis:** Diese Schritte gelten nur, wenn Ihre Organisation weiterhin Benutzer auf Ihrer Skype for Business Online hostet. | | [Interoperabilität von Microsoft Teams und Skype for Business](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br/><br/>[Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](./configuring-teams-calling-quickstartguide.md) |
+| 9  | OPTIONAL: Konfigurieren der Interoperabilität mit Skype for Business | Konfigurieren sie Interoperabilitätsrichtlinien, wenn Ihre Organisation von Skype for Business zu Teams. <br/><br/>Interoperabilität ermöglicht Skype for Business und Teams Benutzern das Chatten und Anrufen miteinander. <br/><br/>Ihre vorhandene Bereitstellung und ihre beabsichtigte Rolloutstrategie für Teams sich auf Ihre Pläne auswirken. Überprüfen Sie interoperabilitätsoptionen, -anforderungen und -beschränkungen, und konfigurieren Sie Richtlinien entsprechend. <br/><br/>**Hinweis:** Diese Schritte gelten nur, wenn Ihre Organisation weiterhin Benutzer auf Ihrer Skype for Business Online hostet. | | [Interoperabilität von Microsoft Teams und Skype for Business](./teams-and-skypeforbusiness-coexistence-and-interoperability.md) <br/><br/>[Schnellstarthandbuch: Konfigurieren von Anrufplänen in Microsoft Teams](./configuring-teams-calling-quickstartguide.md) |
 | 10 | Vorbereiten und Ausführen von Benutzerakzeptanztests | Vorbereiten und Ausführen von Benutzerakzeptanztests, einschließlich Einwahl- und Einwahlszenarien. | | [Testplan für Telefonsystem](./cloud-voice-landing-page.md) |
 | 11 | Melden von Verwendung, Integrität, wichtigen Erfolgsindikatoren und Qualität | Melden Sie Nutzung, Integrität, KSIs und Qualität, wie Sie sie während der Zielphase definiert haben. | | [Betriebshandbuch](./1-drive-value-operate-my-service.md) |
 
 ## <a name="next-steps"></a>Nächste Schritte
 
-Nachdem Sie diese Checkliste abgeschlossen haben, haben Sie Ihrer Bereitstellung Ihrer Teams hinzugefügt.
+Nachdem Sie diese Checkliste abgeschlossen haben, haben Sie Ihrer Bereitstellung Sprachfunktionen Teams hinzugefügt.
 
 Im nächsten Schritt verwenden Sie das [Playbook "Site Enablement Playbook for Voice" (Playbook),](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/site-enablement-playbook-for-voice-(playbook).xlsx?raw=true) um Ihnen dabei zu helfen, Ihre Benutzer auf jeder Website zu integrieren, und um sicherzustellen, dass Sie wichtige websitespezifische Aktivitäten planen und ausführen.

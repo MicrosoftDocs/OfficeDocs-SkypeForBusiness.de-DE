@@ -2,7 +2,7 @@
 title: Hinzufügen einfacher URLs
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an.
-ms.openlocfilehash: 6008a57576fbd755643dcb876e67dddc61f1cdbb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7ce88a2d67dd672dbdd02a23d88e5693cc57c4a1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60752114"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862582"
 ---
 # <a name="add-simple-url"></a>Hinzufügen einer einfachen URL
  

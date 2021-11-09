@@ -2,7 +2,7 @@
 title: Zertifikat-Assistent
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
 ROBOTS: NOINDEX, NOFOLLOW
 description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernen und anzeigen. Sie müssen als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Um ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anzufordern, müssen Sie bestätigen, welche zusätzlichen Gruppenmitgliedschaften Erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle Ihrer PKI anzufordern.
-ms.openlocfilehash: 7b5776de91b814b289f28b86c38f29e3a35e54c6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dda1d93544ac1d7ef5599b9b2f5bf9c860a3b303
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60738781"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849338"
 ---
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  

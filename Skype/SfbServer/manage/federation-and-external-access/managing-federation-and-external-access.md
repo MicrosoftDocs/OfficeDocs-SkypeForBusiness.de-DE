@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520966(v=OCS.15)
 ms:contentKeyID: 48183665
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,16 +15,16 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Sie aktivieren und konfigurieren den Zugriff externer Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können.
-ms.openlocfilehash: 2521d3f4d4134c4edb89904e5a7db4e4026b79e6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 42e0644cbad51681f979f83041e4c260788039d1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60743551"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836367"
 ---
 # <a name="managing-federation-and-external-access-to-skype-for-business-server"></a>Verwalten des Partnerverbunds und des externen Zugriffs auf Skype for Business Server
 
-Die Bereitstellung eines Edgeservers oder Edgepools ist der erste Schritt zur Unterstützung externer Benutzer. Ausführliche Informationen zum Bereitstellen von Edgeservern finden Sie unter [Bereitstellen von Edgeservern in Skype for Business Server](../../deploy/deploy-edge-server/deploy-edge-server.md).
+Die Bereitstellung eines Edgeservers oder Edgepools ist der erste Schritt zur Unterstützung externer Benutzer. Ausführliche Informationen zum Bereitstellen von Edgeservern finden Sie unter [Bereitstellen von Edgeservern in Skype for Business Server.](../../deploy/deploy-edge-server/deploy-edge-server.md)
 
 Nach der Installation und Konfiguration ihrer internen Bereitstellung von Skype for Business Server können interne Benutzer in Ihrer Organisation mit anderen internen Benutzern zusammenarbeiten, die ÜBER SIP-Konten in Ihren Active Directory Domain Services (AD DS) verfügen. Die Zusammenarbeit kann das Senden und Empfangen von Chatnachrichten, die Aktualisierung des Anwesenheitsstatus und die Teilnahme an Konferenzen (auch als "Besprechungen" bezeichnet) umfassen. Sie aktivieren und konfigurieren den Zugriff externer Benutzer, um zu steuern, ob unterstützte externe Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können. Externe Benutzer können Remotebenutzer Ihrer Bereitstellung, Verbundbenutzer (einschließlich unterstützter Benutzer von Dienstanbietern für öffentliche Chatnachrichten) und anonyme Teilnehmer an Konferenzen einschließen.
 

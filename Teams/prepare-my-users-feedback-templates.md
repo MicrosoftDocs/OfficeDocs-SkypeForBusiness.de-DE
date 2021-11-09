@@ -1,6 +1,6 @@
 ---
 title: Feedback-Umfragen in Teams oder Skype for Business
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/31/2018
@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e98ec763d93609d0b5b4a37cf6fa02b71c478def
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cebd19b40513ece384112e6fdc3efa1be54155b1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60773435"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836033"
 ---
 # <a name="user-feedback-surveys"></a>Benutzerfeedback-Umfragen 
 
@@ -29,9 +29,9 @@ Verwenden Sie Feedback-Umfragen, um die Benutzererfahrung und -einblicke nach Ih
 
 Passen Sie die nachstehenden Fragen an, und übertragen Sie sie dann zur einfachen Verteilung und Analyse auf ein Umfragetool wie SharePoint Umfragetool.
 
-Zum Zweck dieser Umfragen bezieht sich das neue Telefonsystem auf die Verwendung von Anruffunktionen in Microsoft Teams oder Skype for Business sowie auf Geräten wie einem Medientelefon oder Mobiltelefon.  Alle Verweise auf Microsoft Teams in diesen Umfragen gelten auch für Skype for Business.
+Für diese Umfragen  bezieht sich das neue Telefonsystem auf die Verwendung von Anruffunktionen in Microsoft Teams oder Skype for Business sowie auf Geräte wie einem Medien- oder Mobiltelefon. Alle Verweise auf Microsoft Teams in diesen Umfragen gelten auch für Skype for Business.
 
-Geben Sie Ihr Zustimmungsniveau mit den folgenden Aussagen an, wie es sich auf die Verwendung von Teams als Telefon bezieht. 
+Geben Sie Ihr Zustimmungsniveau mit den folgenden Aussagen an, wie es sich auf die Verwendung Teams Als Telefon bezieht. 
 
 |     &nbsp;                              | Vollständig zustimmen | Teilweise Zustimmung | Neutral | Teilweises Ablehnen | Keine vollständigen Meinung | N/A oder nicht verwendet |
 |--------------------------------------------------------------------------------------------------------------------------|----------------------|--------------------|-------------|-----------------------|-------------------------|------------------------|
@@ -56,7 +56,7 @@ Geben Sie Ihr Maß an Zustimmung mit den folgenden Aussagen an, was sich auf Ihr
 
 Bitte erläutern **Sie,**  wenn Sie für eine der oben aufgeführten Aussagen teilweise nicht oder vollständig ablehnend entschieden haben. (Text öffnen)
 
-Werden Sie die Verwendung von Teams als Telefon einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)
+Wie wahrscheinlich ist es, dass Sie die Verwendung Teams als Telefon einem Freund oder Kollegen empfehlen? (0=Überhaupt nicht wahrscheinlich... 10=Sehr wahrscheinlich)
 
 | 0      | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
 |--------|---|---|---|---|---|---|---|---|---|---|----|

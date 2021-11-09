@@ -2,7 +2,7 @@
 title: Planen der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: d9aa622a-95a3-4d8e-8d49-cbfe183f25bf
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015 planen.'
-ms.openlocfilehash: 55ab4da8fbb5e0ddd6c2eaa3c8912a472d8e112f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 042080aebf57a14554820eea9b5bb9d5c9bb1f71
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740391"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836227"
 ---
 # <a name="plan-for-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Planen der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -30,19 +30,19 @@ Hohe Verfügbarkeit und Notfallwiederherstellung für den Server für beständig
 > Die Verwendung SQL AlwaysOn-Verfügbarkeitsgruppen wird für Datenbanken des Servers für beständigen Chat nicht unterstützt. 
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="resource-requirements"></a>Ressourcenanforderungen
 
 Bevor Sie den Server für beständigen Chat für hohe Verfügbarkeit und Notfallwiederherstellung konfigurieren, stellen Sie sicher, dass Sie über die folgenden zusätzlichen Ressourcen verfügen. 
   
-- Eine dedizierte Datenbankinstanz, die sich im selben physischen Rechenzentrum befindet, in dem sich das Start-Front-End des Servers für beständigen Chat befindet. Diese Datenbank dient als SQL Server Spiegel für die primäre Datenbank für beständigen Chat. Legen Sie optional eine zusätzliche SQL Server fest, die als Spiegelungszeugen dienen soll, wenn Sie ein automatisches Failover auf die Spiegeldatenbank wünschen.
+- Eine dedizierte Datenbankinstanz, die sich im selben physischen Rechenzentrum befindet, in dem sich das Start-Front-End des Servers für beständigen Chat befindet. Diese Datenbank dient als SQL Server Spiegelung für die primäre Datenbank für beständigen Chat. Legen Sie optional eine zusätzliche SQL Server fest, die als Spiegelungszeugen dienen soll, wenn Sie ein automatisches Failover auf die Spiegeldatenbank wünschen.
     
 - Eine dedizierte Datenbankinstanz im anderen physischen Rechenzentrum. Diese Datenbank dient als SQL Server sekundäre Datenbank für den Protokollversand für die Datenbank im primären Rechenzentrum.
     
 - Eine dedizierte Datenbankinstanz, die als SQL Server Spiegelung für die sekundäre Datenbank dient. Legen Sie optional eine zusätzliche SQL Server für den Server als Spiegelungszeugen fest. Beide Instanzen müssen sich im selben physischen Rechenzentrum wie die sekundäre Datenbank befinden.
     
-- Wenn die Kompatibilität des Servers für beständigen Chat aktiviert ist, sind drei zusätzliche dedizierte Datenbankinstanzen erforderlich. Ihre Verteilung ist identisch mit denen, die zuvor für die Datenbank für beständigen Chat beschrieben wurden. Während die Kompatibilitätsdatenbank dieselbe SQL Server Instanz wie die Datenbank für beständigen Chat freigeben kann, werden eigenständige Instanzen für hohe Verfügbarkeit und Notfallwiederherstellung empfohlen.
+- Wenn die Kompatibilität des Servers für beständigen Chat aktiviert ist, sind drei zusätzliche dedizierte Datenbankinstanzen erforderlich. Ihre Verteilung ist identisch mit denen, die zuvor für die Datenbank für beständigen Chat beschrieben wurden. Es ist zwar möglich, dass die Compliancedatenbank dieselbe SQL Server Instanz wie die Datenbank für beständigen Chat gemeinsam verwendet, es werden jedoch eigenständige Instanzen für hohe Verfügbarkeit und Notfallwiederherstellung empfohlen.
     
 - Eine Dateifreigabe muss erstellt und für die SQL Server Protokollversand-Transaktionsprotokolle festgelegt werden. Alle SQL Server in beiden Rechenzentren, auf denen Datenbanken für beständigen Chat ausgeführt werden, müssen Über Lese-/Schreibzugriff auf diese Dateifreigabe verfügen. Diese Freigabe ist nicht als Teil einer FileStore-Rolle definiert.
     
@@ -50,7 +50,7 @@ Bevor Sie den Server für beständigen Chat für hohe Verfügbarkeit und Notfall
     
 ## <a name="disaster-recovery-and-high-availability-solutions"></a>Notfallwiederherstellungs- und Hochverfügbarkeitslösungen
 
-Skype for Business Server unterstützt mehrere Modi mit hoher Verfügbarkeit für Ihre Back-End-Server, einschließlich Datenbankspiegelung. Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md). 
+Skype for Business Server unterstützt mehrere Modi mit hoher Verfügbarkeit für Ihre Back-End-Server, einschließlich Datenbankspiegelung. Weitere Informationen finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server 2015.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md) 
   
 Die in diesem Thema beschriebene Notfallwiederherstellungslösung für den Server für beständigen Chat basiert auf einem gestreckten Serverpool für beständigen Chat. Es ist kein erweitertes virtuelles lokales Netzwerk (VIRTUAL Local Area Network, VLAN) erforderlich. Durch stretching a Persistent Chat Server pool, you configure one pool in the topology logically, but you physically place the servers in the pool in two different data center. Sie konfigurieren SQL Server Spiegelung für die Datenbank auf die gleiche Weise und stellen die Datenbank und den Spiegel im selben Rechenzentrum bereit. Sie müssen im sekundären Rechenzentrum eine Sicherungsdatenbank konfigurieren (mit einem optionalen Spiegel, um eine hohe Verfügbarkeit im Fall einer Notfallwiederherstellung zu gewährleisten). Dies ist die Sicherungsdatenbank, die bei der Notfallwiederherstellung für das Failover verwendet wird. 
   

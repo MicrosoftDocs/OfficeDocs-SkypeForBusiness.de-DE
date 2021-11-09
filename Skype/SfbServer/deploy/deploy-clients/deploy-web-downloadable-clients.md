@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von herunterladbaren Webclients in Skype for Business Server
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6301e98-051c-4e4b-8e10-ec922a8f508a
-description: 'Zusammenfassung: Stellen Sie die Skype for Business-Web-App- und Skype-Besprechungs-App bereit, die mit Skype for Business verwendet wird.'
-ms.openlocfilehash: c262ab4e9180ae9e02bc899793437a86ffe12ead
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Stellen Sie die Skype for Business-Web-App- und Skype Besprechungs-App bereit, die mit Skype for Business verwendet wird.'
+ms.openlocfilehash: abb0a24d234043d793b09a538cbff23d0d549ac0
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761593"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842497"
 ---
 # <a name="deploy-web-downloadable-clients-in-skype-for-business-server"></a>Bereitstellen von herunterladbaren Webclients in Skype for Business Server
 
 **Zusammenfassung:** Stellen Sie die Skype for Business 2015 Web App und Skype Besprechungs-App bereit, die mit Skype for Business Server verwendet wird.
 
-Skype for Business-Web-App ist ein Internetinformationsdienste(IIS)-Webclient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und standardmäßig bei Bedarf für Besprechungsbenutzer bereitgestellt wird, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungsbenutzer stellen in den meisten Fällen eine Verbindung von außerhalb Ihres Netzwerks her. Wenn ein Benutzer auf eine Besprechungs-URL klickt, aber nicht den Skype for Business-Client installiert hat, wird dem Benutzer die Möglichkeit angezeigt, mithilfe der neuesten Version von Skype for Business-Web-App, Skype Besprechungs-App oder Skype for Business für Mac an der Besprechung teilzunehmen.
+Skype for Business-Web-App ist ein Internetinformationsdienste(IIS)-Webclient, der auf dem Server installiert ist, auf dem Skype for Business Server ausgeführt wird, und standardmäßig bei Bedarf für Besprechungsbenutzer bereitgestellt wird, die noch nicht über den Skype for Business-Client verfügen. Diese Besprechungsbenutzer stellen in den meisten Fällen eine Verbindung von außerhalb Ihres Netzwerks her. Wenn ein Benutzer auf eine Besprechungs-URL klickt, der Skype for Business Client jedoch nicht installiert ist, wird dem Benutzer die Möglichkeit angezeigt, mithilfe der neuesten Version von Skype for Business-Web-App, Skype Besprechungs-App oder Skype for Business für Mac an der Besprechung teilzunehmen.
 
 Die Sprach-, Video- und Freigabefunktionen in Skype for Business-Web-App erfordern ein Microsoft ActiveX-Steuerelement, das vom Browser des Benutzers als Plug-In verwendet wird. Sie können entweder das ActiveX-Steuerelement im Voraus installieren oder benutzern die Installation gestatten, wenn Sie dazu aufgefordert werden. Dies geschieht bei der ersten Verwendung Skype for Business-Web-App oder beim ersten Zugriff auf ein Feature, das das ActiveX-Steuerelement erfordert.
 
@@ -33,7 +33,7 @@ Die Sprach-, Video- und Freigabefunktionen in Skype for Business-Web-App erforde
 ## <a name="enable-multi-factor-authentication-for-skype-for-business-web-app"></a>Aktivieren der mehrstufigen Authentifizierung für Skype for Business-Web-App
 <a name="MFA"> </a>
 
-Skype for Business-Web-App, Skype Besprechungs-App und Skype for Business für Mac unterstützen die mehrstufige Authentifizierung. Zusätzlich zu Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder PINs benötigen, um Benutzer zu authentifizieren, die aus externen Netzwerken beitreten, wenn sie sich bei Skype for Business Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Ad FS-Verbundserver (Active Directory Federation Service) bereitstellen und die passive Authentifizierung in Skype for Business Server aktivieren. Nach der Konfiguration von AD FS wird externen Benutzern, die versuchen, an Skype for Business Besprechungen teilzunehmen, eine AD FS-Webseite mit mehrstufiger Authentifizierung mit dem Benutzernamen und der Kennwortherausforderung sowie allen zusätzlichen Authentifizierungsmethoden angezeigt, die Sie konfiguriert haben.
+Skype for Business-Web-App, Skype Besprechungs-App und Skype for Business für Mac unterstützen die mehrstufige Authentifizierung. Zusätzlich zu Benutzername und Kennwort können Sie zusätzliche Authentifizierungsmethoden wie Smartcards oder PINs benötigen, um Benutzer zu authentifizieren, die aus externen Netzwerken beitreten, wenn sie sich bei Skype for Business Besprechungen anmelden. Sie können die mehrstufige Authentifizierung aktivieren, indem Sie den Ad FS-Verbundserver (Active Directory Federation Service) bereitstellen und die passive Authentifizierung in Skype for Business Server aktivieren. Nach der Konfiguration von AD FS wird externen Benutzern, die versuchen, an Skype for Business Besprechungen teilzunehmen, eine AD FS-Webseite mit mehrstufiger Authentifizierung angezeigt, die den Benutzernamen und die Kennwortherausforderung sowie alle zusätzlichen Authentifizierungsmethoden enthält, die Sie konfiguriert haben.
 
 > [!IMPORTANT]
 > Im Folgenden finden Sie wichtige Erwägungen, wenn Sie planen, Active Directory-Verbunddienste für die mehrstufige Authentifizierung zu konfigurieren

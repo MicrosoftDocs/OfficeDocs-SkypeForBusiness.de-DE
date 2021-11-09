@@ -2,7 +2,7 @@
 title: Installieren der erforderlichen Komponenten für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/7/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2ef91a1e-2899-44c8-8e2c-527cb9114a0a
 description: 'Zusammenfassung: Erfahren Sie mehr über die Server und Serverrollen, die Sie konfigurieren müssen, bevor Sie Skype for Business Server installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 8b646ea95b13454d1b025cfbfdae186c927859e4
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 97b348cedef3fe460a26c52672fc856a5eeda98e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751154"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849408"
 ---
 # <a name="install-prerequisites-for-skype-for-business-server"></a>Installieren der erforderlichen Komponenten für Skype for Business Server
  
@@ -55,11 +55,11 @@ Sie können die erforderlichen Rollen und Features mit dem Server-Manager instal
 1. Installieren Sie die erforderlichen Softwarefeatures, die in den [Serveranforderungen für Skype for Business Server](../../../SfBServer2019/plan/system-requirements.md)aufgeführt sind. Die erforderliche Software muss sich auf dem Server befinden, auf dem Skype for Business Server ausgeführt wird.
     
     > [!CAUTION]
-    > Windows Server 2012 R2 installiert nicht standardmäßig alle Quelldateien für die erforderlichen Features. Wenn der Server nicht mit dem Internet verbunden ist, müssen Sie das Windows Server 2012 R2-Medium einfügen und **einen alternativen Quellpfad angeben** auswählen, um die erforderlichen Features zu installieren. Die Quelldateien befinden sich im Verzeichnis "sources\sxs". Wenn sich das Windows Server 2012 R2-Medium beispielsweise auf Laufwerk D befindet, legen Sie den Pfad auf `d:\sources\sxs` fest. Es ist wichtig, dass Sie über die neuesten Updates von Windows Update verfügen. Wenn Sie nicht mit dem Internet verbunden sind, müssen Sie alle relevanten Updates sowie alle erforderlichen Komponenten für die erforderlichen Updates manuell installieren. 
+    > Windows Server 2012 R2 installiert nicht standardmäßig alle Quelldateien für die erforderlichen Features. Wenn der Server nicht mit dem Internet verbunden ist, müssen Sie die Windows Server 2012 R2-Medien einfügen und **einen alternativen Quellpfad angeben** auswählen, um die erforderlichen Features zu installieren. Die Quelldateien befinden sich im Verzeichnis "sources\sxs". Wenn sich das Windows Server 2012 R2-Medium beispielsweise in Laufwerk D befindet, legen Sie den Pfad auf `d:\sources\sxs` fest. Es ist wichtig, dass Sie über die neuesten Updates von Windows Update verfügen. Wenn Sie nicht mit dem Internet verbunden sind, müssen Sie alle relevanten Updates sowie alle erforderlichen Komponenten für die erforderlichen Updates manuell installieren. 
   
 1. Wenn das Dialogfeld angibt, dass die Installation abgeschlossen ist, müssen Sie den Server neu starten, um den Vorgang abzuschließen.
     
-1. Führen Sie **Windows Update** erneut aus, um zu überprüfen, ob Updates für die installierten Rollen und Dienste vorhanden sind.
+1. Führen Sie **Windows Update** erneut aus, um zu überprüfen, ob es Updates für die installierten Rollen und Dienste gibt.
     
 1. Wenn Sie Skype for Business Server Systemsteuerung auf diesem Server verwenden, müssen Sie auch Silverlight installieren. Informationen zum Installieren von Silverlight finden Sie unter [Microsoft Silverlight.](https://www.microsoft.com/silverlight/)
 

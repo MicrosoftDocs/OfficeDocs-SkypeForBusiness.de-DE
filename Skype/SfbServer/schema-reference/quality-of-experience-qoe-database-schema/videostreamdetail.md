@@ -2,7 +2,7 @@
 title: VideoStreamDetail-Ansicht
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 1fc778060163047b80ad7c523e2ca93414a23e25
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60756056"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863232"
 ---
 # <a name="videostreamdetail-view"></a>VideoStreamDetail-Ansicht
  
@@ -65,7 +65,7 @@ In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in de
 |CalleeIPAddr  <br/> |var(50)  <br/> |IP-Adresse des Angerufenen. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
 |CalleePort  <br/> |int  <br/> |Vom Angerufenen verwendeter Port.  <br/> |
 |CalleeInside  <br/> |Bit  <br/> |Gibt an, ob der Angerufene sich innerhalb des Organisationsnetzwerks befindet. 1 bedeutet, der Angerufene befindet sich im Unternehmensnetzwerk, 0 bedeutet, der Angerufene befindet sich außerhalb davon.  <br/> |
-|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Anrufers.  <br/> |
+|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Aufrufers.  <br/> |
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Anrufers.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Angerufenen.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Angerufenen.  <br/> |

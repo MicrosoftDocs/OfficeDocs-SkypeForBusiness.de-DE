@@ -1,6 +1,6 @@
 ---
 title: Erstellen Ihres Champions-Programms für Microsoft Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 10/30/2018
@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie ein Team von Champions schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
+description: Hier erfahren Sie, wie Sie ein Team von Erfahrener schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: aba4c0ffcf13e93c0fd0c39a64a8135e54fa592f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60760403"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842547"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Erstellen Ihres Champions-Programms für Microsoft Teams
 
-Champions sind von wesentlicher Bedeutung, um das Bewusstsein, die Akzeptanz und die Ausbildung in Ihrer Organisation zu fördern. Ein Champion ist eine Person, die in erster Linie motiviert ist, anderen zu helfen, die an neuer Technologie (speziell Teams) interessiert ist und anderen Mitarbeitern hilft, sie in Übereinstimmung mit Ihren bewährten Methoden zu nutzen. Je nach Größe Ihrer Organisation können Sie dies als formalen Teil der Rolle der Person haben, aber häufig übernehmen Mitarbeiter diese Rolle selbst aufgrund ihrer Zentralen Motivation, anderen zu helfen.
+Champions sind von wesentlicher Bedeutung, um das Bewusstsein, die Akzeptanz und die Ausbildung in Ihrer Organisation zu fördern. Ein Champion ist eine Person, die in erster Linie motiviert ist, anderen zu helfen, die an neuer Technologie (insbesondere Teams) interessiert ist und anderen Mitarbeitern hilft, sie in Übereinstimmung mit Ihren bewährten Methoden zu nutzen. Je nach Größe Ihrer Organisation können Sie dies als formalen Teil der Rolle der Person haben, aber häufig übernehmen Mitarbeiter diese Rolle selbst aufgrund ihrer Zentralen Motivation, anderen zu helfen.
 
 Die Champions werden in Ihre allgemeine Planung für die Einführung auf unterschiedliche Weise einpassen, wie unten gezeigt wird.
 
@@ -45,7 +45,7 @@ Champions sollten:
 
 Verwenden Sie unseren [Leitfaden für das Champions-Programm,](https://go.microsoft.com/fwlink/?linkid=854665) um dieses Programm in Ihrer Organisation zu erstellen. Unsere bewährten Methoden für diese Community sind:
 
-- Nehmen Sie am [Champions-Programm teil.](https://aka.ms/O365Champions) Stellen Sie sicher, dass zumindest die Leiter des Champions-Programms (und potenziell alle Unternehmensführer) Mitglieder des Programms sind. Dieser kostenlose monatliche Community-Anruf bietet wertvolle Informationen für die Ausführung eines eigenen Programms und für die beste Ausn nutzen Teams und anderen Microsoft 365 oder Office 365-Diensten. Programmmaterialien können in Ihrem eigenen internen Programm wiederverwendet werden.
+- Nehmen Sie am [Champions-Programm teil.](https://aka.ms/O365Champions) Stellen Sie sicher, dass zumindest die Leiter des Champions-Programms (und potenziell alle Unternehmensführer) Mitglieder des Programms sind. Dieser kostenlose, monatliche Communityanruf bietet wertvolle Informationen für die Ausführung eines eigenen Programms und für die beste Ausn nutzen Teams und anderen Microsoft 365 oder Office 365 Diensten. Programmmaterialien können in Ihrem eigenen internen Programm wiederverwendet werden.
 
 - Verwenden Sie das Team "Teamwork Champion": Ihre Champions sollten das Team, das Sie für sie eingerichtet haben, für die gesamte Programmkommunikation, das Feedback und für die Suche nach Ressourcen verwenden.  Dadurch werden sie sich zunehmend mit dem Produkt und seinen Vorteilen vertraut machen.
 

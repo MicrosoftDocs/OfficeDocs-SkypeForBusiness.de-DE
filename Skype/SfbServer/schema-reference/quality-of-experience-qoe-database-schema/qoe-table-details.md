@@ -2,7 +2,7 @@
 title: Ausführliche Informationen zur QoE-Tabelle
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: In diesen Abschnitten werden die Spalten in den einzelnen QoE-Datenbankschematabellen (Quality of Experience) beschrieben.
-ms.openlocfilehash: e929341780a917d675843347d0332fec326c8f2b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 30fe3a2b3cd54a72939d56a128b60100716b326d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60746491"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856412"
 ---
 # <a name="qoe-table-details"></a>Ausführliche Informationen zur QoE-Tabelle
  

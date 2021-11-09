@@ -2,7 +2,7 @@
 title: Hinzufügen des FQDN des Front-End-Pools
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02ae996c-a1c6-4ff4-b6d6-bdef4ad44d2a
 description: Geben Sie den vollqualifizierten Domänennamen des Front-End-Pools ein, den Sie erstellen. Sie können den vollqualifizierten Domänennamen eines Pools nach Veröffentlichung der Topologie mit dem Front-End-Pool nicht ändern. Wenn Sie den Pool umbenennen müssen, müssen Sie zunächst den Pool löschen und dann einen neuen Pool mit dem neuen vollqualifizierten Domänennamen hinzufügen.
-ms.openlocfilehash: f65b0903f8c64498ce8bd4eddad630e19a46a462
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7f58f0fb410cff185900138a7ea5c112c359c38f
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60776235"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862592"
 ---
 # <a name="add-front-end-pool-fqdn"></a>Hinzufügen des FQDN des Front-End-Pools
  

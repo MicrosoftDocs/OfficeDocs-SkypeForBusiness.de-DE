@@ -2,7 +2,7 @@
 title: Auswählen eines Standorts
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
 ROBOTS: NOINDEX, NOFOLLOW
 description: Verwenden Sie das Dialogfeld "Website auswählen", um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
-ms.openlocfilehash: 35d2042eb11f0171c8f982f0255708b886ce7e7a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5b67542a7848d64db5d76be8c99cddbdee69baf6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60775595"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849228"
 ---
 # <a name="select-a-site"></a>Auswählen eines Standorts
 

@@ -2,7 +2,7 @@
 title: Zuordnen von Überwachungsberichten zu einer Spiegeldatenbank in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Überwachungsberichte einer spiegeldatenbank zuordnen, die von Skype for Business Server verwendet wird.'
-ms.openlocfilehash: a30a107f8a5f5df6bb11bc8c409bf7376438f619
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748851"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60856212"
 ---
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Zuordnen von Überwachungsberichten zu einer Spiegeldatenbank in Skype for Business Server 
  
@@ -25,7 +25,7 @@ ms.locfileid: "60748851"
   
 ## <a name="monitor-reports-with-a-mirror-database"></a>Überwachen von Berichten mit einer Spiegeldatenbank
 
-Wenn Sie einen Spiegel für Die Überwachungsdatenbank konfigurieren, übernimmt diese Spiegeldatenbank als primäre Datenbank, wenn ein Failover auftritt. Wenn Sie jedoch Skype for Business Server Überwachungsberichte verwenden und ein Failover auftritt, stellen Sie möglicherweise fest, dass Ihre Überwachungsberichte keine Verbindung mit der Spiegeldatenbank herstellen. Dies liegt daran, dass Sie bei der Installation von Überwachungsberichten nur den Speicherort der primären Datenbank angeben. Sie geben nicht den Speicherort der Spiegeldatenbank an.
+Wenn Sie einen Spiegel für Ihre Überwachungsdatenbank konfigurieren, übernimmt diese Spiegeldatenbank die primäre Datenbank, wenn ein Failover auftritt. Wenn Sie jedoch Skype for Business Server Überwachungsberichte verwenden und ein Failover auftritt, stellen Sie möglicherweise fest, dass Ihre Überwachungsberichte keine Verbindung mit der Spiegeldatenbank herstellen. Dies liegt daran, dass Sie bei der Installation von Überwachungsberichten nur den Speicherort der primären Datenbank angeben. Sie geben nicht den Speicherort der Spiegeldatenbank an.
   
 Um Überwachungsberichte zum automatischen Failover auf die Spiegeldatenbank zu erhalten, müssen Sie die Spiegeldatenbank als "Failoverpartner" zu den beiden Datenbanken hinzufügen, die von Überwachungsberichten verwendet werden (eine Datenbank für Anrufdetaildaten und die andere für QoE-Daten (Quality of Experience). (Beachten Sie, dass dieser Schritt ausgeführt werden sollte, nachdem Sie Überwachungsberichte installiert haben.) Sie können die Failoverpartnerinformationen hinzufügen, indem Sie die von diesen beiden Datenbanken verwendeten Verbindungszeichenfolgenwerte manuell bearbeiten. Führen Sie hierzu das folgende Verfahren aus:
   
@@ -67,7 +67,7 @@ Um Überwachungsberichte zum automatischen Failover auf die Spiegeldatenbank zu 
     
 8. Klicken Sie auf **Anwenden**.
     
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Installieren von Überwachungsberichten in Skype for Business Server](install-monitoring-reports.md)
   

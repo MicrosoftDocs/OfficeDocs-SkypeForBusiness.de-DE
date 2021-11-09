@@ -1,6 +1,6 @@
 ---
 title: In Teams Besprechungen die Hand heben
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.reviewer: raramaia
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über das Feature „Hand heben“ in Microsoft Teams-Besprechungen.
-ms.openlocfilehash: 6882258c98bca30a329dfe10751ae90380fef6eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 3d86a929d1a5ec1fe8901c79b38042dc965f6166
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761713"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836023"
 ---
 # <a name="raise-your-hand-option-in-teams-meetings"></a>Option „Hand heben“ in Teams-Besprechungen
 

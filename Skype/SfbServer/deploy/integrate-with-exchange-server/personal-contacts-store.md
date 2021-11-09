@@ -2,7 +2,7 @@
 title: Konfigurieren des persönlichen Kontaktspeichers auf Lync 2010-Clientcomputern
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/29/2019
 audience: ITPro
@@ -14,26 +14,26 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ec69a6cb-07f2-4057-9544-55035f83eeae
 description: 'Zusammenfassung: Konfigurieren des persönlichen Kontaktspeichers, der von älteren Clients verwendet wird.'
-ms.openlocfilehash: 9a9b5938d7e97460a6b8582f1563eeeb4c369272
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: de9bc9472f619f7d35bbc4585d806f6cd82c295a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749356"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842367"
 ---
 # <a name="configure-the-personal-contacts-store-on-lync-2010-client-computers"></a>Konfigurieren des persönlichen Kontaktspeichers auf Lync 2010-Clientcomputern
   
 Wenn Sie Skype for Business Server 2015 und Exchange Server 2016 oder Exchange Server 2013 integrieren, sollten Sie den von den Clients verwendeten persönlichen Kontaktspeicher konfigurieren. Insbesondere sollten Sie Skype for Business so konfigurieren, dass sie Exchange als persönlichen Kontaktspeicher verwenden, und gleichzeitig sicherstellen, dass Benutzer diese Entscheidung nicht außer Kraft setzen können. Dies kann durch Erstellen und Konfigurieren eines Registrierungswerts auf jedem Clientcomputer erfolgen.
   
 > [!NOTE]
-> Das folgende Verfahren ist nur für Clients erforderlich, die den Lync 2010-Client oder frühere Versionen verwenden. Der Lync 2013-Client und alle Skype for Business-Clients haben nicht die Möglichkeit, die Kontaktspeichereinstellungen zu überschreiben.
+> Das folgende Verfahren ist nur für Clients erforderlich, die den Lync 2010-Client oder frühere Versionen verwenden. Der Lync 2013-Client und alle Skype for Business-Clients können die Kontaktspeichereinstellungen nicht überschreiben.
   
 Zum Konfigurieren dieses Werts auf einem einzelnen Computer führen Sie die folgenden Schritte aus:
   
 1. Klicken Sie auf dem Clientcomputer auf **"Start"** und dann auf **"Ausführen".**
 2. Geben **Sie** im Dialogfeld Ausführen regedit ein, und drücken Sie dann die EINGABETASTE.
 3. Erweitern Sie im Registrierungs-Editor **HKEY_LOCAL_MACHINE**, erweitern Sie **Software**, erweitern **Sie Richtlinien**, erweitern **Sie Microsoft** und dann **Communicator**.
-4. Klicken Sie mit der rechten Maustaste auf **Communicator**, zeigen Sie auf **"Neu",** und klicken Sie dann auf **den DWORD-Wert (32-Bit).**
+4. Klicken Sie mit der rechten Maustaste **auf Communicator**, zeigen Sie auf **"Neu",** und klicken Sie dann auf **den DWORD-Wert (32-Bit).**
 5. Geben Sie nach dem Erstellen des neuen Werts PersonalContactStoreOverride ein, und drücken Sie die EINGABETASTE, um den Wert umzubenennen.
 6. Stellen Sie sicher, dass der Wert von PersonalContactStoreOverride 0 ist, und schließen Sie dann den Registrierungs-Editor.
 

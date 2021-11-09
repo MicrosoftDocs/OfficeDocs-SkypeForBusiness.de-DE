@@ -2,7 +2,7 @@
 title: Liste von QoE-Tabellen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Das Datenbankschema besteht aus den folgenden Tabellen.
-ms.openlocfilehash: 0532d1574bcbbe80a58195d2c14ea6920375153f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7b97746b3f8a490da7fb06d903ca6f7676f2d6b5
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767293"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849588"
 ---
 # <a name="list-of-qoe-tables"></a>Liste von QoE-Tabellen
  
@@ -34,7 +34,7 @@ Das Datenbankschema besteht aus den folgenden Tabellen.
 |[NetworkConnectionDetail-Tabelle](networkconnectiondetail.md) <br/> |Ordnet Netzwerkverbindungstypen den Netzwerkverbindungs-IDs zu, die anderswo in der QoE (Quality of Experience)-Datenbank verwendet werden.  <br/> |
 |[PurgeSettings-Tabelle (QoE)](purgesettings-qoe.md) <br/> |Speichert Informationen, mit denen angegeben wird, ob (und wann) veraltete QoE-(Quality of Experience)-Kommunikationsdatensätze automatisch aus der QoE-Datenbank gelöscht werden.  <br/> |
 |[TraceRoute-Tabelle](traceroute.md) <br/> |Speichert Routinginformationen für Anrufe.  <br/> |
-|[UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) <br/> |Karten Benutzer-Agent-IDs an die beschreibenden Namen des Agents.  <br/> |
+|[UserAgentDef-Tabelle (QoE)](useragentdef-qoe.md) <br/> |Karten Benutzer-Agent-IDs an die beschreibenden Namen des Agents an.  <br/> |
 |[VideoMetricsThreshold-Tabelle](videometricsthreshold.md) <br/> |Speichert optimale und zulässige Werte für Quality of Experience-Metriken, die bei Videoanrufen verwendet werden.  <br/> |
 |[UserAgent-Tabelle](useragent.md) <br/> |Speichert in Audio- und Videositzungen verwendete Session Initiation-Protokolle (SIP), Benutzer-Agent-Zeichenfolgen (UA) und UA-Typen.  <br/> |
 |[User-Tabelle](user-0.md) <br/> |Speichert in Audio- und Videositzungen verwendete Benutzer-, Konferenz- und Telefon-URIs.  <br/> |

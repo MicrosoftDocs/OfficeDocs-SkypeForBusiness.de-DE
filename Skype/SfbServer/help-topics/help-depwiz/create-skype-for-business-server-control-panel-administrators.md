@@ -2,7 +2,7 @@
 title: Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 'Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server 2015 zu gewähren:'
-ms.openlocfilehash: ef975e064d33473d87e44c4e14725b58b28bce27
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e6b6c705f50df79651eb37ce487ba50000315ffd
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744871"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60862892"
 ---
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
  
@@ -49,7 +49,7 @@ Weitere Rollen sind:
     
 - **CsResponseGroupAdministrator:** Mitglieder können den Reaktionsgruppendienst verwalten und konfigurieren.
     
-- **CsServerAdministrator:** Mitglieder können alle Server verwalten, überwachen und Beheben von Problemen, die Skype for Business Server ausgeführt werden.
+- **CsServerAdministrator:** Mitglieder können alle Server, auf denen Skype for Business Server ausgeführt werden, verwalten, überwachen und Probleme beheben.
     
 - **CsUserAdministrator:** Mitglieder können Benutzer verwalten, aktivieren und deaktivieren sowie vorhandene Richtlinien Benutzern zuweisen.
     
@@ -57,6 +57,6 @@ Weitere Rollen sind:
     
 - **CsVoiceAdministrator:** Mitglieder können voIP-bezogene Einstellungen in Skype for Business Server erstellen, konfigurieren und verwalten.
     
-Um die Integrität der Sicherheits- und rollenbasierten Zugriffssteuerung beizubehalten, fügen Sie Den Gruppen Benutzer hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server Bereitstellung übernimmt.
+Um die Integrität der Sicherheits- und rollenbasierten Zugriffssteuerung beizubehalten, fügen Sie Den Gruppen Benutzer hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server Bereitstellung ausführt.
   
 

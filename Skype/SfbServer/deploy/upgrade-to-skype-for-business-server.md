@@ -2,7 +2,7 @@
 title: Upgrade auf Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 7/14/2016
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 74ce73bc-356b-4705-83b1-341ee010fd19
 description: 'Zusammenfassung: Erfahren Sie, wie Sie ein Upgrade von Lync Server 2013 auf Skype for Business Server 2015 durchführen. Laden Sie eine kostenlose Testversion von Skype for Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 02455d4c013f55363e173f16c9f4de60b71939d9
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4279bb9141d896cb6aaa479f872e1684f2a3e8d3
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740081"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849398"
 ---
 # <a name="upgrade-to-skype-for-business-server-2015"></a>Upgrade auf Skype for Business Server 2015
  
@@ -37,7 +37,7 @@ Verwenden Sie die Verfahren in diesem Dokument, um ein Upgrade von Lync Server 2
 
 Das Upgrade von Lync Server 2013 auf Skype for Business Server 2015 umfasst die Installation der erforderlichen Software, die Verwendung des Skype for Business Server Topologie-Generators zum Aktualisieren von Datenbanken im Pool und die Verwendung des Skype for Business Server In-Place Upgrades auf jedem Server, der dem Pool zugeordnet ist. Führen Sie die acht Schritte in diesem Thema aus, um das Upgrade abzuschließen.
   
-### <a name="before-you-begin"></a>Bevor Sie loslegen
+### <a name="before-you-begin"></a>Vorabinformationen
 
 - Überprüfen Sie [den Plan für das Upgrade auf Skype for Business Server 2015.](../plan-your-deployment/upgrade.md)
     
@@ -241,7 +241,7 @@ Wenn das In-Place Upgrade fehlschlägt, wird möglicherweise eine Meldung ähnli
   
 Wenn das In-Place Upgrade bei der Überprüfung der **Upgradebereitschaft** oder bei der **Installation fehlender Voraussetzungen** fehlschlägt, stellen Sie sicher, dass auf dem Server alle neuesten Windows Server-, Lync Server- und SQL Server Updates angewendet wurden und alle erforderlichen Software und Rollen installiert sind. Eine Liste der erforderlichen Komponenten finden Sie unter [server requirements for Skype for Business Server 2015](../plan-your-deployment/requirements-for-your-environment/server-requirements.md) and Install [prerequisites for Skype for Business Server 2015](install/install-prerequisites.md).
   
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Planen des Upgrades auf Skype for Business Server 2015](../plan-your-deployment/upgrade.md)
   

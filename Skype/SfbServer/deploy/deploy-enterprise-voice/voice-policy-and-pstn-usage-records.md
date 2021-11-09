@@ -2,7 +2,7 @@
 title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,19 +16,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen oder Ändern von VoIP-Richtlinien und Konfigurieren von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server Systemsteuerung.'
-ms.openlocfilehash: 0188881fe91d527c64b95a8cac49ba91ed12bf5f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769603"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828378"
 ---
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
 
 **Zusammenfassung:** Erstellen oder Ändern von VoIP-Richtlinien und Konfigurieren von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server Systemsteuerung.
 
 > [!NOTE]
-> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag (Public Switched Telephone Network) zugeordnet sein. Eine Liste aller PSTN-Verwendungsdatensätze, die in Ihrer Enterprise-VoIP Bereitstellung verfügbar sind, und deren Eigenschaften finden Sie unter Anzeigen von [PSTN-Verwendungsdatensätzen in Skype for Business.](view-pstn-usage-records.md)
+> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag (Public Switched Telephone Network) zugeordnet sein. Eine Liste aller PSTN-Verwendungsdatensätze, die in Ihrer Enterprise-VoIP-Bereitstellung verfügbar sind, und deren Eigenschaften finden Sie unter Anzeigen von [PSTN-Verwendungsdatensätzen in Skype for Business.](view-pstn-usage-records.md)
 
 ### <a name="to-create-a-voice-policy"></a>So erstellen Sie eine VoIP-Richtlinie
 
@@ -280,7 +280,7 @@ ms.locfileid: "60769603"
 
    - Um dieselben PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden wie diese VoIP-Richtlinie, wählen Sie die Option **Mithilfe der gleichen PSTN-Verwendungen weiterleiten** im Dropdownmenü aus.
 
-   - Um die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne Skype for Business Benutzer zuzulassen, wählen Sie nur im Dropdownmenü **"An interne Skype for Business Benutzer** weiterleiten" aus. Die Anrufe werden dann nicht an externe PSTN-Nummern weitergeleitet.
+   - Um die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne Skype for Business Benutzer zuzulassen, wählen Sie nur im Dropdownmenü die Option **"An interne Skype for Business Benutzer** weiterleiten" aus. Die Anrufe werden dann nicht an externe PSTN-Nummern weitergeleitet.
 
    - Um andere PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden, als die für diese VoIP-Richtlinie verwendeten, wählen Sie die Option **Mithilfe benutzerdefinierter PSTN-Verwendungen weiterleiten** im Dropdownmenü aus. Bei Auswahl dieser Option wird ein Steuerelement angezeigt, über das vorhandene PSTN-Verwendungsdatensätze ausgewählt oder neue PSTN-Verwendungsdatensätze erstellt werden können, die speziell auf die Anrufweiterleitung und gleichzeitiges Klingeln ausgerichtet sind.
 
@@ -336,7 +336,7 @@ ms.locfileid: "60769603"
 
 12. (Optional) Voicemail Escape erkennt, dass ein Anruf sofort von der Voicemail des Mobiltelefons des Benutzers angenommen wurde, und trennt den Anruf mit der Voicemail des Mobiltelefons. Dadurch kann der Anruf weiterhin an den anderen Endpunkten des Benutzers klingeln, sodass der Benutzer den Anruf annehmen kann. Ausführliche Informationen zum Konfigurieren einer Voicemailrichtlinie finden Sie unter [Konfigurieren von Voicemail escape in Skype for Business](configure-voice-mail-escape.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business](view-pstn-usage-records.md)
 
@@ -344,4 +344,4 @@ ms.locfileid: "60769603"
 
 [Veröffentlichen ausstehender Änderungen an der VoIP-Routingkonfiguration in Skype for Business](voice-route-config-changes.md)
 
-[Konfigurieren des Voicemail-Escapezeichens in Skype for Business](configure-voice-mail-escape.md)
+[Konfigurieren von Voicemail escape in Skype for Business](configure-voice-mail-escape.md)

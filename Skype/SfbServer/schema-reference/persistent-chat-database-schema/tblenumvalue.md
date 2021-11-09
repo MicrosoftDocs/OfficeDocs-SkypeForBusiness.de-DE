@@ -2,7 +2,7 @@
 title: tblEnumValue
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: a33df20c-d19d-4f5c-b012-29dab8fb9200
 description: "\"tblEnumValue\" ist eine hardkodierte Tabelle mit den Werten \"Visibility\" und \"Behavior\" der Attribute, die in der \"Node\"-Tabelle verwendet werden."
-ms.openlocfilehash: 8482f8f821eba1b595e7758ecca6116e3fd69e63
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 857c9ba916a183708ba2ff13bff2cab1ccfcea11
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741901"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863312"
 ---
 # <a name="tblenumvalue"></a>tblEnumValue
  
@@ -26,7 +26,7 @@ ms.locfileid: "60741901"
   
 **Columns**
 
-|**Spalte**|**Typ**|**Beschreibung**|
+|**Spalte**|**Type**|**Beschreibung**|
 |:-----|:-----|:-----|
 |valueID  <br/> |smallint, nicht NULL  <br/> |ID des Werts.  <br/> |
 |Attributeid  <br/> |smallint, nicht NULL  <br/> |ID des Attributs.  <br/> |
@@ -45,10 +45,10 @@ ms.locfileid: "60741901"
 |:-----|:-----|:-----|
 |2  <br/> |1  <br/> |privat  <br/> |
 |3  <br/> |1  <br/> |Bereich  <br/> |
-|4   <br/> |2  <br/> |Normalen  <br/> |
+|4  <br/> |2  <br/> |Normalen  <br/> |
 |5  <br/> |2  <br/> |Auditorium  <br/> |
 |6   <br/> |1  <br/> |Öffnen  <br/> |
    
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [tblNode](tblnode.md)

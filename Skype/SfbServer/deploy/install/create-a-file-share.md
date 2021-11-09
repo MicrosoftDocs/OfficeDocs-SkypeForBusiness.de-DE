@@ -2,7 +2,7 @@
 title: Erstellen einer Dateifreigabe in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: 053076b0-441c-44d9-8dbc-7a36d8ecafe4
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Windows Serverdateifreigabe im Rahmen der Installation von Skype for Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: c14d7a765a4b55e1fe909f33f4e038062427872b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Windows Serverdateifreigabe als Teil der Installation von Skype for Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
+ms.openlocfilehash: c2b1048d911243987313568acde2bccea068fff9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751174"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60842377"
 ---
 # <a name="create-a-file-share-in-skype-for-business-server"></a>Erstellen einer Dateifreigabe in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Windows Serverdateifreigabe als Teil der Installation von Skype for Business Server erstellen. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server) .
   
-Skype for Business Server erfordert eine Dateifreigabe, damit Computer in der gesamten Topologie Dateien austauschen können. Das Erstellen einer Dateifreigabe ist Schritt 2 von 8 im Installationsvorgang für Skype for Business Server. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der Reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Planungsdetails zur Dateifreigabe finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md)
+Skype for Business Server erfordert eine Dateifreigabe, damit Computer in der gesamten Topologie Dateien austauschen können. Das Erstellen einer Dateifreigabe ist Schritt 2 von 8 im Installationsvorgang für Skype for Business Server. Sie können die Schritte 1 bis 5 in beliebiger Reihenfolge ausführen. Sie müssen jedoch die Schritte 6, 7 und 8 in der Reihenfolge und nach den Schritten 1 bis 5 ausführen, wie im Diagramm beschrieben. Ausführliche Informationen zur Planung der Dateifreigabe finden Sie unter ["Environmental requirements for Skype for Business Server](../../plan-your-deployment/requirements-for-your-environment/environmental-requirements.md) or [Server requirements for Skype for Business Server 2019".](../../../SfBServer2019/plan/system-requirements.md)
   
 ![Übersichtsdiagramm.](../../media/e69de059-3040-45ab-9379-1932f9fbb37f.png)
   
@@ -66,11 +66,11 @@ Sehen Sie sich die Videoschritte zum **Erstellen einer Dateifreigabe** an:
 > [!NOTE]
 >Wenn der Dateispeicher auf einer DFS-Freigabe gehostet wird, wird die folgende Warnung empfangen:
 
-Warnung: Zugriff auf Freigabeberechtigungen für " \\ <domain> \<share> " nicht möglich.
+`Warning: Unable to access share permissions for "\\<domain>\<share>".`
 
 >Dies wird erwartet, wenn Sie kein Administrator auf dem Dateiserver sind oder wenn es sich um eine DFS-Freigabe (Distributed File System) handelt. Wenn die Freigabeberechtigungen bereits konfiguriert wurden, kann diese Warnung ignoriert werden. Wenn es sich um eine neue Freigabe handelt, finden Sie in der Dokumentation Ausführliche Informationen zum manuellen Konfigurieren von Freigabeberechtigungen.
 
->Aufgrund der Unfähigkeit, auf die Freigabeberechtigungen für eine DFS-Freigabe zuzugreifen, können Skype for Business Server keine Gruppen explizit für die Dateifreigabe festlegen. Um sicherzustellen, Skype for Business Server Komponenten mit den entsprechenden Berechtigungen auf die Dateifreigabe zugreifen können, stellen Sie sicher, dass die folgenden RTC-Gruppen zusätzlich zu den lokalen Administratoren mit Vollzugriffsfreigabeberechtigungen mit Lese- und Änderungsebenenfreigabeberechtigungen hinzugefügt werden.
+>Aufgrund der Unfähigkeit, auf die Freigabeberechtigungen für eine DFS-Freigabe zuzugreifen, können Skype for Business Server keine Gruppen explizit für die Dateifreigabe festlegen. Um sicherzustellen, dass Skype for Business Server Komponenten mit den entsprechenden Berechtigungen auf die Dateifreigabe zugreifen können, stellen Sie sicher, dass die folgenden RTC-Gruppen zusätzlich zu den lokalen Administratoren mit Vollzugriffsfreigabeberechtigungen mit Lese- und Änderungsebenenfreigabeberechtigungen hinzugefügt werden.
 * RTCHSUniversalServices
 * RTCComponentUniversalServices
 * RTCUniversalServerAdmins

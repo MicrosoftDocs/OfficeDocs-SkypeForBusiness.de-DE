@@ -1,6 +1,6 @@
 ---
 title: Informationsbarrieren in Microsoft Teams
-description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie diese sich auf Ihre Teams.
+description: In diesem Artikel wird erläutert, was Informationsbarrieren in Microsoft Teams sind und wie sie sich auf Ihre Teams.
 author: robmazz
 ms.author: robmazz
 manager: laurawi
@@ -16,18 +16,18 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2d0452ff05b368e00875f31c365db59ec13d0ec7
-ms.sourcegitcommit: 9033c0c998c95ff37d0afd13c5c3ba598d58feb6
+ms.openlocfilehash: bae5efb39f6d395d96b455df52167ee39ced6da2
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60607399"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828518"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
 Informationsbarrieren (Information Barrieren, IBs) sind Richtlinien, die ein Administrator konfigurieren kann, um zu verhindern, dass Einzelpersonen oder Gruppen miteinander kommunizieren. PSP-Dateien sind z. B. hilfreich, wenn eine Abteilung Informationen verwendet, die nicht für andere Abteilungen freigegeben werden sollten. PSP-Codes sind auch hilfreich, wenn eine Gruppe isoliert werden muss oder die Kommunikation mit Personen außerhalb dieser Gruppe nicht möglich sein muss.
 
-Im Microsoft Teams können Informationsbarrieren die folgenden Arten von nicht autorisierter Zusammenarbeit bestimmen und verhindern:
+Beispielsweise Microsoft Teams Informationsbarrieren die folgenden Arten von nicht autorisierter Zusammenarbeit bestimmen und verhindern:
 
 - Hinzufügen eines Benutzers zu einem Team oder Kanal
 - Benutzerzugriff auf Team- oder Kanalinhalte
@@ -39,7 +39,7 @@ Im Microsoft Teams können Informationsbarrieren die folgenden Arten von nicht a
 >- Gruppen zur Informationsbarriere können nicht mandantenübergreifend erstellt werden.
 >- Die Verwendung von Bots, Azure Active Directory-Apps (Azure AD), APIs zum Senden von Aktivitätsfeedbenachrichtigungen und einige APIs zum Hinzufügen von Benutzern wird in Version 1 nicht unterstützt.
 >- Private Kanäle sind mit von Ihnen konfigurierten Richtlinien für Informationsbarrieren kompatibel.
->- Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit ihren Teams verbunden sind, finden Sie unter Segmente, die Microsoft Teams [sind.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
+>- Informationen zur Unterstützung von Barrieren für SharePoint-Websites, die mit anderen Teams, finden Sie unter Segmente, die Microsoft Teams [sind.](/sharepoint/information-barriers#segments-associated-with-microsoft-teams-sites)
 
 ## <a name="background"></a>Hintergrund
 
@@ -50,7 +50,7 @@ Seit der Einführung von PSP-Codes finden sie jedoch in vielen anderen Bereichen
 - **Bildung:** Schüler in einer Schule können keine Kontaktdetails für Schüler/Studenten anderer Bildungseinrichtungen nachschauen.
 - **Rechtliches:** Die Vertraulichkeit der Daten, die sich ein Kunde von einem Kunden errät, wird gewahrt, und es wird verhindert, dass ein Kunde darauf zugreifen kann, wenn die Firma, die einen anderen Kunden repräsentiert, darauf zu zugegriffen wird.
 - **Behörden:** Der Zugriff auf Informationen und die Steuerung sind auf Abteilungen und Gruppen beschränkt.
-- **Professional:Eine** Gruppe von Personen in einem Unternehmen kann während eines Kundeneinsatzes nur über Gastzugriff mit einem Kunden oder einem bestimmten Kunden chatten.
+- **Professional:** Eine Gruppe von Personen in einem Unternehmen kann während eines Kundeneinsatzes nur über Gastzugriff mit einem Kunden oder einem bestimmten Kunden chatten.
 
 Beispielsweise gehört Enrico zum Segment Banking und Pradeep zum Segment Finanzratgeber. Enrico und Pradeep können nicht miteinander kommunizieren, da die IB-Richtlinie der Organisation die Kommunikation und Zusammenarbeit zwischen diesen beiden Segmenten blockiert. Enrico und Pradeep können jedoch mit Lee in der Personalabteilung kommunizieren.
 
@@ -108,7 +108,7 @@ IB-Richtlinien werden aktiviert, wenn die Teams Ereignisse stattfinden:
 
     ![Screenshot mit Einem Zeichen des Benutzers mit blockierten Einstellungen](media/ib-after-screen-share-policy.png)
 
-- Ein Benutzer platziert einen Telefonanruf **in Teams:** Immer wenn ein Benutzer einen Sprachanruf (über VOIP) für einen anderen Benutzer oder eine Benutzergruppe initiiert, wird der Anruf ausgewertet, um sicherzustellen, dass er nicht gegen die IB-Richtlinien anderer Teammitglieder verstößt. Wenn ein Verstoß vor liegt, wird der Sprachanruf blockiert.
+- Ein Benutzer hält einen Telefonanruf **in Teams:** Immer wenn ein Benutzer einen Sprachanruf (über VOIP) für einen anderen Benutzer oder eine Benutzergruppe initiiert, wird der Anruf ausgewertet, um sicherzustellen, dass er nicht gegen die IB-Richtlinien anderer Teammitglieder verstößt. Wenn ein Verstoß vor liegt, wird der Sprachanruf blockiert.
 
 - **Gäste in Teams:** IB-Richtlinien gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des Gastzugriffs [in Microsoft 365 Gruppen.](/microsoft-365/admin/create-groups/manage-guest-access-in-groups) Sobald Gäste ermittelt werden können, können Sie [IB-Richtlinien definieren.](/office365/securitycompliance/information-barriers-policies)
 
@@ -180,7 +180,7 @@ Derzeit kommt es zu den folgenden Szenarien, wenn eine IB-Richtlinie einen ander
 
 ## <a name="teams-policies-and-sharepoint-sites"></a>Teams von Richtlinien und SharePoint Websites
 
-Beim Erstellen eines Teams wird eine SharePoint-Website bereitgestellt und Microsoft Teams für die Dateierfahrung zugeordnet. Richtlinien zur Informationsbarriere werden auf dieser Website SharePoint Dateien standardmäßig nicht berücksichtigt. Um Informationsbarrieren in SharePoint und OneDrive zu aktivieren, folgen Sie den Anleitungen und Schritten im Artikel Verwenden von Informationsbarrieren [SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) Artikel.
+Wenn ein Team erstellt wird, wird eine SharePoint-Website bereitgestellt und Microsoft Teams für die Dateierfahrung zugeordnet. Richtlinien zur Informationsbarriere werden auf dieser Website SharePoint Dateien standardmäßig nicht berücksichtigt. Um Informationsbarrieren in Ihren SharePoint und OneDrive zu aktivieren, folgen Sie den Anleitungen und Schritten im Artikel Verwenden von Informationsbarrieren [SharePoint](/sharepoint/information-barriers#enable-sharepoint-and-onedrive-information-barriers-in-your-organization) Artikel.
 
 ## <a name="information--barrier-modes-and-teams"></a>Informationsbarrieremodi und Teams
 
@@ -189,7 +189,7 @@ Der Informationsbarrieremodus hilft dabei, die Personen zu stärken, die einem T
 - **Öffnen:** Diese Konfiguration ist der standardmäßige IB-Modus für alle vorhandenen Gruppen, die vor der Aktivierung von Informationsbarrieren bereitgestellt wurden. In diesem Modus gelten keine IB-Richtlinien.
 - **Implizit:** Diese Konfiguration ist der standardmäßige IB-Modus, wenn ein Team bereitgestellt wird, nachdem Informationsbarrieren aktiviert wurden. Im impliziten Modus können Sie alle kompatiblen Benutzer in der Gruppe hinzufügen.
 
-Microsoft 365 Gruppen, die vor der Aktivierung einer Informationsbarriererichtlinie erstellt werden, werden standardmäßig automatisch auf *"Öffnen"* festgelegt. Nachdem Sie die IB-Richtlinien für Ihren Mandanten aktiviert haben, müssten Sie den Modus aktualisieren, der Gruppen und Websites neu bewertet und dazu führt, dass nicht kompatible Benutzer automatisch aus diesen Gruppen und Websites entfernt werden. Wenn Sie die  Open Mode-Konfiguration für vorhandene mit Teams verbundene Gruppen ändern müssen, um die Complianceanforderungen Ihrer Organisation zu erfüllen, müssen Sie die [IB-Modi](/sharepoint/information-barriers.md#view-and-manage-IB-mode-as-an-administrator-with-SharePoint-PowerShell) für SharePoint-Websites aktualisieren, die mit dem Teams-Team verbunden sind.
+Microsoft 365 Gruppen, die vor der Aktivierung einer Informationsbarriererichtlinie erstellt werden, werden standardmäßig automatisch auf *"Öffnen"* festgelegt. Nachdem Sie die IB-Richtlinien für Ihren Mandanten aktiviert haben, müssten Sie den Modus aktualisieren, der Gruppen und Websites neu bewertet und dazu führt, dass nicht kompatible Benutzer automatisch aus diesen Gruppen und Websites entfernt werden. Wenn Sie die  Konfiguration für den offenen Modus für vorhandene mit Teams verbundene Gruppen ändern müssen, um die Complianceanforderungen Ihrer Organisation zu erfüllen, müssen Sie die [IB-Modi](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) für SharePoint-Websites aktualisieren, die mit dem Teams-Team verbunden sind.
 
 Verwenden Sie [das Cmdlet Set-UnifiedGroup](/powershell/module/exchange/set-unifiedgroup) mit dem *Parameter InformationBarrierMode,* der dem Modus entspricht, den Sie für Ihre Segmente verwenden möchten. Zulässige Liste der Werte für den *Parameter InformationBarrierMode* sind *Open* und *Implicit.*
 
@@ -203,7 +203,7 @@ Weitere Informationen dazu, wie Benutzer automatisch aus Gruppen entfernt werden
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
-Weitere Informationen zu Lizenzen und Berechtigungen, Plänen und Microsoft 365 Preisen finden Sie unter Lizenzierungsrichtlinien für & [Compliance.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
+Weitere Informationen zu Lizenzen und Berechtigungen, Microsoft 365 Plänen und Preisen finden Sie unter Lizenzierungsrichtlinien für & [Compliance.](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)
 
 ## <a name="known-issues"></a>Bekannte Probleme
 

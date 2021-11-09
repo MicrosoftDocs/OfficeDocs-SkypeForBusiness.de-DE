@@ -2,7 +2,7 @@
 title: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: aac152bf-80e9-408a-9dbb-60d0843484ab
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite "Neue Gerätekonfiguration" oder "Gerätekonfiguration bearbeiten" können Sie eine Sammlung von Einstellungen erstellen oder ändern, die zum Verwalten Skype for Business Telefon Edition verwendet werden. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: 80063cf2a369b5b6322cc87cc54489ebcd87ea9b
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 377eaeb2be80fbebb402e1d3d2150d39c4ff1baa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742791"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60828238"
 ---
 # <a name="device-configuration-create-new-or-edit-existing"></a>Gerätekonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Gerätekonfiguration
  
@@ -62,7 +62,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
   - **Telefon Timeout sperren** Sie können die minimale Zeitdauer angeben, bevor das Telefon sich selbst sperrt. Der Bereich für das Timeout lautet 0 bis 60 Minuten; der Standardwert liegt bei 10 Minuten. Geben Sie den Wert im Format HH:MM:SS ein.
     
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Gerätekonfiguration](ms.lync.lscp.ClientDeviceCfgMain.md)
 

@@ -2,7 +2,7 @@
 title: Bericht über Peer-to-Peer-Sprach- und -Videoaktivität in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: e17c36b5-5a2f-4673-9696-3b2d31c2bb2f
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Peer-to-Peer-Sprach- und -Videoaktivität in Skype for Business Server.'
-ms.openlocfilehash: 0428f75ada29c13eee9b717326d4c1077b0dece6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 61065578ea67ba3ec5004d517482c8c449216a0c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60757287"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836327"
 ---
 # <a name="peer-to-peer-voice-and-video-report-in-skype-for-business-server"></a>Bericht über Peer-to-Peer-Sprach- und -Videoaktivität in Skype for Business Server
  

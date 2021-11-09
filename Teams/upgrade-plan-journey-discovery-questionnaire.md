@@ -1,13 +1,13 @@
 ---
 title: Microsoft Teams Upgrade | Umgebungsauswertung, Ermittlungsfragen
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: landerl
-description: Verwenden Sie diese Anleitungen, um informationen zu den Anforderungen für eine ordnungsgemäß Bewertung Ihrer aktuellen Umgebung für ein Upgrade auf eine Teams.
+description: Verwenden Sie diese Anleitungen, um Informationen zu den Anforderungen für eine ordnungsgemäß Bewertung Ihrer aktuellen Umgebung für ein Upgrade auf eine Teams.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e190445ed74380bfc3745d34b3e1bb94775e016d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f84b8d580bf7b2c48f57427f73d301e9a2b30b47
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758197"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60835963"
 ---
 # <a name="discovery-questionnaire---evaluate-your-environment"></a>Discovery-Fragebogen – Bewerten Ihrer Umgebung
 
@@ -39,7 +39,7 @@ Die folgenden Tabellen enthalten Fragen, die Ihnen beim Auswerten Ihrer Umgebung
 
 ## <a name="microsoft-365-or-office-365-organization-details"></a>Microsoft 365 oder Office 365 von Organisationsdetails
 
-Wir empfehlen dringend, während des Ausfüllens des Fragebogens eine aktive Microsoft 365 oder Office 365 Organisation zu haben. Wenn Sie eine Organisation noch nicht aktiviert oder Microsoft 365 oder Office 365 haben, lesen Sie Planen Des Setups von [Microsoft 365 Business.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
+Wir empfehlen dringend, während des Ausfüllens des Fragebogens über Microsoft 365 oder Office 365 Organisation zu verfügen. Wenn Sie eine Organisation noch nicht aktiviert oder konfiguriert Microsoft 365 oder Office 365, lesen Sie Planen des Setups von [Microsoft 365 Business.](https://support.office.com/article/plan-your-setup-of-office-365-for-business-eb926624-018b-4486-bf11-5fba6ee4d645)
 
 Verwenden Sie die folgende Tabelle, um Informationen über die Organisation Microsoft 365 oder Office 365 erfassen.
 
@@ -54,7 +54,7 @@ Verwenden Sie die folgende Tabelle, um Informationen über die Organisation Micr
 > | Was verwenden Sie für das Verzeichnis? <br>Synchronisierung heute? |<input type="checkbox"> Keine Synchronisierung (nur Cloud) <br/> <input type="checkbox">Azure Active Directory <br>&nbsp;&nbsp; &nbsp; Verbinden <br/> <input type="checkbox"> Sonstiges (Geben Sie im <br>&nbsp;&nbsp; &nbsp; Spalte Kommentare.)| |
 > | Ist zurzeit eine Partneridentität bereitgestellt? <br/>(Active Directory-Verbunddienste oder <br>Drittanbieter) | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Wenn Sie Verbundidentität verwenden, was ist die <br>Verbundinfrastruktur? | <input type="checkbox">Windows 2008 R2 AD FS <br/> <input type="checkbox">Windows 2012 AD FS <br/> <input type="checkbox">Windows 2012 R2 AD FS <br/> <input type="checkbox">Windows 2016 AD FS <br/> <input type="checkbox"> Drittanbieterverbund <br>&nbsp;&nbsp; &nbsp; Gateway <br>&nbsp;&nbsp; &nbsp; (Details finden Sie im <br>&nbsp;&nbsp; &nbsp; Spalte Kommentare.) | |
-> | Wenn Aktuell ein aktives Microsoft 365 oder eine Office 365 <br>die SMTP/SIP-Domäne Ihres <br>Gezielte Benutzer, die dem Mandanten zugeordnet sind? | <input type="checkbox">N/A – Keine Microsoft 365 oder Office 365 <br>&nbsp;&nbsp; &nbsp; Mandanten an Ort und Stelle <br/> <input type="checkbox"> Nein, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne ist nicht zugeordnet <br>&nbsp;&nbsp; &nbsp; mit beliebigen Mandanten in <br>&nbsp;&nbsp; &nbsp; Microsoft 365 oder Office 365 <br/> <input type="checkbox"> Ja, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne zugeordnet ist <br>&nbsp;&nbsp; &nbsp; mit einem vorhandenen Mandanten <br>&nbsp;&nbsp; &nbsp; in Microsoft 365 oder Office 365 | |
+> | Wenn Sie derzeit ein aktives Microsoft 365 oder eine Office 365 <br>die SMTP/SIP-Domäne Ihres <br>Gezielte Benutzer, die dem Mandanten zugeordnet sind? | <input type="checkbox">N/A – keine Microsoft 365 oder Office 365 <br>&nbsp;&nbsp; &nbsp; Mandanten an Ort und Stelle <br/> <input type="checkbox"> Nein, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne ist nicht zugeordnet <br>&nbsp;&nbsp; &nbsp; mit beliebigen Mandanten in <br>&nbsp;&nbsp; &nbsp; Microsoft 365 oder Office 365 <br/> <input type="checkbox"> Ja, SMTP/SIP der Benutzer <br>&nbsp;&nbsp; &nbsp; Domäne zugeordnet ist <br>&nbsp;&nbsp; &nbsp; mit einem vorhandenen Mandanten <br>&nbsp;&nbsp; &nbsp; in Microsoft 365 oder Office 365 | |
 > | Entsprechen Benutzer-UPNs ihrer primären SMTP-Adresse? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein <br/> <input type="checkbox"> Inkonsistent | |
 
 ## <a name="existing-collaboration-platform-summary"></a>Vorhandene Zusammenfassung der Zusammenarbeitsplattform
@@ -77,7 +77,7 @@ Verwenden Sie die folgende Tabelle, um Informationen zu Ihrer vorhandenen Plattf
 
 ### <a name="microsoft-teams-if-applicable"></a>Microsoft Teams (falls zutreffend)
 
-Erfassen Sie ggf. die Details Ihrer Teams, indem Sie die folgende Beispieltabelle verwenden. Wenn Sie noch keine Bereitstellungs-Teams, überspringen Sie diesen Abschnitt.
+Erfassen Sie ggf. die Details Ihrer Teams mithilfe der folgenden Beispieltabelle. Wenn Sie noch keine Bereitstellungs-Teams, überspringen Sie diesen Abschnitt.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
@@ -91,7 +91,7 @@ Erfassen Sie ggf. die Details Ihrer Teams, indem Sie die folgende Beispieltabell
 
 ### <a name="skype-for-business-online-if-applicable"></a>Skype for Business Online (falls zutreffend)
 
-Erfassen Sie ggf. die Details Ihrer online Skype for Business, indem Sie die nachstehende Beispieltabelle verwenden. Wenn Sie die Onlinebereitstellung nicht Skype for Business haben, überspringen Sie diesen Abschnitt.
+Erfassen Sie ggf. die Details Ihrer online Skype for Business, indem Sie die nachstehende Beispieltabelle verwenden. Wenn Sie die Onlinebereitstellung noch Skype for Business haben, überspringen Sie diesen Abschnitt.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
@@ -103,11 +103,11 @@ Erfassen Sie ggf. die Details Ihrer online Skype for Business, indem Sie die nac
 
 ### <a name="skype-for-business-on-premises-if-applicable"></a>Skype for Business lokal (falls zutreffend)
 
-Erfassen Sie ggf. die Details Ihrer Skype for Business mithilfe der folgenden Beispieltabelle. Wenn Sie die Bereitstellung nicht lokal Skype for Business, überspringen Sie diesen Abschnitt.
+Erfassen Sie ggf. die Details Ihrer Skype for Business, indem Sie die folgende Beispieltabelle verwenden. Wenn Sie ihre Skype for Business lokal bereitgestellt haben, überspringen Sie diesen Abschnitt.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
-> | Welche Lync- oder Lync-Skype for Business installiert sind <br>lokal bereitgestellt werden? | <input type="checkbox">Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">Skype for Business Server 2015 <br/> <input type="checkbox">Skype for Business Server 2019 <br/> <input type="checkbox">Skype for Business Cloud Connector Edition | |
+> | Welche Lync- oder Lync-Skype for Business derzeit <br>lokal bereitgestellt werden? | <input type="checkbox">Office Communications Server 2007 "R1" <br/> <input type="checkbox">Office Communications Server 2007 R2 <br/> <input type="checkbox"> Lync Server 2010 <br/> <input type="checkbox"> Lync Server 2013 <br/> <input type="checkbox">Skype for Business Server 2015 <br/> <input type="checkbox">Skype for Business Server 2019 <br/> <input type="checkbox">Skype for Business Cloud Connector Edition | |
 > | Ist eine hybride Bereitstellung mit Skype for Business Online konfiguriert? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Wird diese Umgebung von einem Drittanbieter gehostet und verwaltet? <br/>Wenn Ja, notieren Sie sich die Details in der Spalte Kommentare. | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Welche Modalitäten und Features werden derzeit verwendet? <br>heute? | <input type="checkbox"> Chatnachrichten und Anwesenheit (Chat/P) <br/> <input type="checkbox"> Besprechungen <br/> <input type="checkbox"> Verbund <br/> <input type="checkbox"> Besprechungsaufzeichnung <br/> <input type="checkbox"> Beständiger Chat/Gruppenchat <br/> <input type="checkbox"> Microsoft Audio Conferencing <br>&nbsp;&nbsp; &nbsp; (ehemals Dial in Conferencing, Einwahlkonferenzen) auf Ihrer <br>&nbsp;&nbsp; &nbsp; lokalen Lync Server oder <br>&nbsp;&nbsp; &nbsp; Skype for Business-Bereitstellung <br/> <input type="checkbox"> Drittanbieter für Audiokonferenzen <br>&nbsp;&nbsp; &nbsp; (Beachten Sie die Details in der Spalte Kommentare.) <br/> <input type="checkbox">Enterprise-VoIP von lokalem PSTN <br>&nbsp;&nbsp; &nbsp; Konnektivität <br/> <input type="checkbox"> Anrufpläne (früher PSTN-Anrufe) über <br>&nbsp;&nbsp; &nbsp; Hybrid mit Skype for Business Online | |
@@ -118,18 +118,18 @@ Erfassen Sie ggf. die Details Ihrer Skype for Business mithilfe der folgenden Be
 
 ## <a name="networking-and-access-to-microsoft-365-or-office-365-services"></a>Netzwerk und Zugriff auf Microsoft 365 oder Office 365 Dienste
 
-Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation sowie die Art und Weise zu erfassen, wie Ihre Benutzer mit Microsoft 365 oder Office 365 sind.
+Verwenden Sie die folgende Tabelle, um die Netzwerkdetails Ihrer Organisation sowie die Art und Weise zu erfassen, wie Ihre Benutzer mit Microsoft 365 oder Office 365 verbunden sind.
 
 > | Frage | Antwort | Kommentare |
 > |---|---|---|
 > | Wie (oder wie) werden die Benutzer im Gültigkeitsbereich der Migration <br>Sie Teams, wenn sie im Büro sind? <br/>Wählen Sie alle anzuwendende Option aus. | <input type="checkbox"> Routed NAT connection <br/> <input type="checkbox"> Proxyserver <br/> <input type="checkbox"> Öffentliche Wi-Fi <br/> <input type="checkbox"> Verwaltete (nicht öffentliche) Wi-Fi <br/> <input type="checkbox"> ExpressRoute (Microsoft-Peering) ||
-> | Wenn der Zugriff auf Microsoft 365 oder Office 365 über einen Proxyserver besteht, gibt es <br>um den Proxy zu umgehen? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
+> | Wenn der Zugriff auf Microsoft 365 oder Office 365 über einen Proxyserver ist, gibt es <br>um den Proxy zu umgehen? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Wird ExpressRoute zurzeit genutzt? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein <br/> <input type="checkbox"> Nein, aber es wird geplant | |
 > | Haben Sie eine Netzwerkbereitschaftsbewertung durchgeführt? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Müssen Benutzer beim Herstellen einer Verbindung ein VPN verwenden? <br>Unternehmensressourcen remote? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
-> | Wenn ein VPN verwendet wird, kann Teams-Datenverkehr von <br>vpn, um direkt auf Microsoft 365 oder Office 365 zu zugreifen? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
+> | Wenn ein VPN verwendet wird, kann Teams-Datenverkehr von <br>VPN für den direkten Zugriff Microsoft 365 oder Office 365 Dienste? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Unterstützt Ihr Netzwerk QoS? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
-> | Können Sie den Audio- Teams- und Videodatenverkehr priorisieren? <br>um ein qualitativ hochwertiges Erlebnis zu ermöglichen? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
+> | Können Sie den Audio- Teams Videodatenverkehr priorisieren? <br>um ein qualitativ hochwertiges Erlebnis zu ermöglichen? | <input type="checkbox"> Ja <br/> <input type="checkbox"> Nein | |
 > | Alle Standorte innerhalb einer Region verfügen über einen Internetanschluss, <br>oder ist der Internet-Ausgangsbereich für die gesamte Region zentralisiert? | <input type="checkbox"> Regionaler Zugriff auf das Internet <br/> <input type="checkbox"> Zentralisierter Zugriff auf das Internet | |
 
 ## <a name="endpoints"></a>Endpunkte

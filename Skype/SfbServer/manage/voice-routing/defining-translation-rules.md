@@ -2,7 +2,7 @@
 title: Definieren von Übersetzungsregeln in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Skype for Business Server Enterprise-VoIP leitet Anrufe basierend auf Telefonnummern weiter, die in das E.164-Format normalisiert sind. Dies bedeutet, dass alle gewählten Zeichenfolgen in das E.164-Format normalisiert werden müssen, um eine umgekehrte Nummernsuche (Reverse Number Lookup, RNL) durchzuführen, damit sie in den entsprechenden SIP-URI übersetzt werden können. Skype for Business Server bietet die Möglichkeit, die aufgerufene ID und die Darstellung der Anrufer-ID zu bearbeiten.
-ms.openlocfilehash: 9dee0e90a9cd06abef43d190cc391861f4ad1438
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f7919707e6999c39dfc9a13b7d6b735a31f5e6a9
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737721"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836297"
 ---
 # <a name="defining-translation-rules-in-skype-for-business-server"></a>Definieren von Übersetzungsregeln in Skype for Business Server
 

@@ -2,7 +2,7 @@
 title: Standortrichtlinie – Erstellen einer neuen oder Bearbeiten einer vorhandenen Standortrichtlinie
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: d9b30b3b-570b-49a6-b2b4-46b0cf490153
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können Standortrichtlinien konfigurieren, um zu bestimmen, ob erweiterte 9-1-1 (E9-1-1) aktiviert ist und wie sie verwendet wird sowie wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: 8f45fefbd13d20e5bdbef2500b17a394f544aad1
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 95f11519421926074201d02a92bcfc64758ed015
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764643"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60863002"
 ---
 # <a name="location-policy-create-new-or-edit-existing"></a>Ortungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Ortungsrichtlinie
 

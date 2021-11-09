@@ -2,7 +2,7 @@
 title: Verwalten der Authentifizierung in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d7b17445-1b01-4b7a-9b7f-f86ad59f1a2b
 description: 'Zusammenfassung: Verwenden Sie die folgenden Verfahren, um Skype for Business Server Sicherheit und Authentifizierung zu verwalten.'
-ms.openlocfilehash: 5f9403adf5d31f3692c4778bb19867279c6767e7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: b66dfe414b8ce4be7ca699c21d672cae785012fa
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772141"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60830939"
 ---
 # <a name="manage-authentication-in-skype-for-business-server"></a>Verwalten der Authentifizierung in Skype for Business Server
  

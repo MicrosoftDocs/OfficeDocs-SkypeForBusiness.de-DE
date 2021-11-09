@@ -2,7 +2,7 @@
 title: Kategorie für beständigen Chat – Hauptseite
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b71c6e6f-681c-4230-954d-3e95ab64ca00
 description: Sie können den Abschnitt Kategorie der Seite für beständigen Chat verwenden, um Kategorien zu konfigurieren. Eine Kategorie für beständigen Chatroom ist eine logische Struktur zum Organisieren von Chatrooms. In einer Kategorie ist eine Standardgruppe von Zugriffssteuerungslisten (Access Control Lists, ACLs) zum Steuern der Benutzer und Benutzergruppen definiert, die zum Erstellen oder zum Beitreten zu Chatrooms berechtigt sind. Sie können Kategorien verwenden, um "Chinesische Mauern" zwischen verschiedenen Unterabteilungen der Organisationen einzurichten.
-ms.openlocfilehash: dd03180802cc8844f2b0a5d43c35f9d78a48bb32
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbbfb0185b463a6f63bb9016b77e4539a003505e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60768953"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60836577"
 ---
 # <a name="persistent-chat-category-main-page"></a>Kategorie für beständigen Chat – Hauptseite
  
@@ -28,7 +28,7 @@ Sie können den Abschnitt **Kategorie** der Seite für **beständigen Chat** ver
   
 Chatroomkategorien können Chatrooms enthalten, jedoch keine anderen Kategorien. Jede Kategorie beschreibt ihre Inhalte mit Metadaten, z. B. _Name_ und _Beschreibung._ Darüber hinaus verfügt die Kategorie über Eigenschaften, die festgelegt werden können, um das Verhalten der zu ihr gehörenden Chatrooms zu steuern, z. B. ob die  _Chatrooms Einladungen_ oder _Dateiuploads_ zulassen oder  _den Chatverlauf_ enthalten.
   
-Informationen zum Erstellen einer neuen Kategorie finden Sie unter [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015.](../../manage/persistent-chat/categories.md) Wenn Sie Administrator für beständigen Chat sind, können Sie Kategorien mithilfe der Systemsteuerung oder Windows PowerShell Cmdlets erstellen.
+Informationen zum Erstellen einer neuen Kategorie finden Sie unter [Verwalten von Kategorien im Server für beständigen Chat in Skype for Business Server 2015.](../../manage/persistent-chat/categories.md) Als Administrator für beständigen Chat können Sie Kategorien mithilfe der Systemsteuerung oder Windows PowerShell Cmdlets erstellen.
   
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
@@ -76,7 +76,7 @@ Auf der Seite **Kategorie** können Sie die folgenden Aufgaben ausführen:
     
 13. Klicken Sie auf **Commit ausführen**.
     
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie unter [Plan for Persistent Chat Server in Skype for Business Server 2015,](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)Deploy Persistent Chat Server in Skype for Business Server [2015,](../../deploy/deploy-persistent-chat-server/deploy-persistent-chat-server.md)and [Manage Persistent Chat Server in Skype for Business Server 2015](../../manage/persistent-chat/persistent-chat.md).
   
