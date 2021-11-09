@@ -2,7 +2,7 @@
 title: MediaLine-Ansicht
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 132eca13-8913-4218-9eff-4960ced8c3dc
 description: Die MediaLine-Ansicht speichert Informationen zu jeder Medienzeile in der Datenbank. Eine Audiositzung enthält in der Regel eine Audiomedienzeile. Eine A/V-Sitzung (Audio und Video) enthält meist eine Audiomedienzeile und eine Videomedienzeile, kann jedoch auch zwei Medienzeilen enthalten, wenn ein Konferenzgerät oder eine Galerieansicht verwendet wird. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 2a8f5ad413bb127e20d82927d804379b5e981636
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cf360f06fa293dc75c33caa2a10ac761ae156e91
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60771871"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858122"
 ---
 # <a name="medialine-view"></a>MediaLine-Ansicht
  
@@ -67,7 +67,7 @@ Die MediaLine-Ansicht speichert Informationen zu jeder Medienzeile in der Datenb
 |CalleeVPN  <br/> |Bit  <br/> |Gibt an, ob der Angerufene über ein virtuelles privates Netzwerk verbunden ist. 1 ist VPN (virtuelles privates Netzwerk), 0 ist Nicht-VPN.  <br/> |
 |ConversationalMOS  <br/> |decimal(3,2)  <br/> |Schmalband-Gesprächs-MOS der Audiositzungen (basierend auf beiden Audiostreams).  <br/> |
 |AppliedBandwidthLimit  <br/> |int  <br/> |Hierbei handelt es sich um die genutzte Bandbreite, die unter verschiedenen Richtlinieneinstellungen (TURN, API, SDP, Richtlinienserver usw.) auf den jeweiligen Stream auf der Seite des Absenders angewendet wird. Dies ist nicht zu verwechseln mit der tatsächlichen Bandbreite, da diese u. U. basierend auf der Bandbreitenschätzung niedriger ist. Dabei handelt es sich um die maximale Bandbreite, die für den Absenderstream möglich ist, abgesehen von den Beschränkungen durch die Bandbreitenschätzung.  <br/> |
-|AppliedBandwidthSource  <br/> |varchar(256)  <br/> |Quelle der Bandbreitenbeschränkung, die auferlegt wird. Es beschreibt, woher die Bandbreiteneinschränkung stammt (z. B. "Richtlinienserver", "TURN Server" oder "Modalität").  <br/> |
+|AppliedBandwidthSource  <br/> |varchar(256)  <br/> |Quelle der Bandbreitenbeschränkung, die angewendet wird. Es beschreibt, woher die Bandbreiteneinschränkung stammt (z. B. "Richtlinienserver", "TURN Server" oder "Modalität").  <br/> |
 |Anrufer  <br/> |Bit  <br/> |Gibt an, ob die Metriken des Anrufers empfangen wurden; 1 ist ja, 0 ist nein.  <br/> |
 |Aufgerufenen  <br/> |Bit  <br/> |Gibt an, ob die Metriken des Angerufenen empfangen wurden; 1 ist ja, 0 ist nein.  <br/> |
 |MidCallReport  <br/> |Bit  <br/> |Gibt an, ob es sich um einen Bericht zu einem Teil des Anrufs oder zum gesamten Anruf handelt.  <br/> |

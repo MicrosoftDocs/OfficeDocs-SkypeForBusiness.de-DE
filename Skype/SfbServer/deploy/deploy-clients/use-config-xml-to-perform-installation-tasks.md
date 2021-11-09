@@ -1,7 +1,7 @@
 ---
 title: Verwenden von Config.xml zum Ausführen von Installationsaufgaben in Skype for Business Clients
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Zusammenfassung: Verwenden der Config.xml-Datei zum Angeben zusätzlicher Installationsanweisungen.'
-ms.openlocfilehash: 76bf5980f7ced3c2e92f53ade8a51eaf3835054d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Verwenden der Config.xml datei zum Angeben zusätzlicher Installationsanweisungen.'
+ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742941"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858672"
 ---
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Verwenden von Config.xml zum Ausführen von Installationsaufgaben in Skype for Business Clients
 
@@ -37,9 +37,9 @@ Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste I
 
 - Hinzufügen oder Entfernen von Sprachen in der Installation
 
-Es wird empfohlen, die Config.xml Datei zu verwenden, um Skype for Business automatische Installation zu konfigurieren. 
+Es wird empfohlen, die Config.xml-Datei zu verwenden, um Skype for Business automatische Installation zu konfigurieren. 
 
-Standardmäßig wird die Config.xml Datei, die im Hauptproduktordner gespeichert ist (z. B. \ _Produkt_. WW) leitet Setup an, dieses Produkt zu installieren. Die Config.xml-Datei im folgenden Ordner wird beispielsweise Skype for Business installiert:
+Standardmäßig Config.xml Datei, die im Hauptproduktordner gespeichert ist (z. B. \ _Produkt_. WW) leitet Setup an, dieses Produkt zu installieren. Beispielsweise wird die Config.xml-Datei im folgenden Ordner Skype for Business installiert:
 
 - \\server\share\Skype15\Skype. WW-\Config.xml
 

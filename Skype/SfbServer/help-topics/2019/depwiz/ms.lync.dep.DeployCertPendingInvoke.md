@@ -2,7 +2,7 @@
 title: Ausstehendes Zertifikat (Aufruf)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: adb5e0f3-17a6-40c2-9c95-c9cd2b558b54
 ROBOTS: NOINDEX, NOFOLLOW
 description: Auf der Seite Befehle ausführen wird eine Zusammenfassung der Befehle angezeigt, die zum Abrufen des ausstehenden Zertifikats ausgeführt wurden. Nach Abschluss der Aufgabe steht die Protokolldatei für Ausstehende Zertifikate abrufen zur Verfügung. Klicken Sie auf Protokoll anzeigen, um den Verarbeitungs- und Aufgabenstatus anzuzeigen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 878995a346ceb149b650c6ac974ef9c29286e47a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 91446802c2060e3a91815965b6ff2f8cc20d19bf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60765773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858622"
 ---
 # <a name="pending-certificate-invoke"></a>Ausstehendes Zertifikat (Aufruf)
  

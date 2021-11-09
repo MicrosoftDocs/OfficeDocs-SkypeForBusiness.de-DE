@@ -2,7 +2,7 @@
 title: Einschließen des Sicherheitsdesks in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4b1d9125-7488-419b-85dd-a8dd3ab5add3
 description: Planen der Einbeziehung des Sicherheitsdesks Ihrer Organisation in eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 7d65fb30fe62441e83386dcfaa0b90a13bb3c32f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4d69d02c985588726df449e749380db5aa728855
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60767543"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831899"
 ---
 # <a name="include-the-security-desk-in-skype-for-business-server"></a>Einschließen des Sicherheitsdesks in Skype for Business Server
  

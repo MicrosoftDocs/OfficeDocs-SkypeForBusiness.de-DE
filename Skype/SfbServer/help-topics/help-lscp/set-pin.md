@@ -2,7 +2,7 @@
 title: Festlegen der PIN
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 611ba182-b25a-468d-b4de-9f0861f58293
 description: Um die PIN des Benutzers zu generieren, wählen Sie "Automatisches Generieren einer gültigen PIN" aus.
-ms.openlocfilehash: 7f031abd3e7733752c839ca8dc41d4e620c88f9c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c5452a58674af1bd5fbb51712a2c77363a1f3296
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742241"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848948"
 ---
 # <a name="set-pin"></a>Festlegen einer PIN
 
@@ -30,6 +30,6 @@ Wählen Sie **Bestimmte PIN manuell eingeben**, und geben Sie anschließend eine
 
 Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der Skype for Business Server Systemsteuerung ausführen können, finden Sie unter [Verwalten Skype for Business Server 2015](../../manage/manage.md).
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Benutzer-PINs](/previous-versions/office/lync-server-2013/lync-server-2013-managing-user-pins)

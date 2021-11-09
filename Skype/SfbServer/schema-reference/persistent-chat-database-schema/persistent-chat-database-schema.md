@@ -2,7 +2,7 @@
 title: Datenbankschema für beständigen Chat
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 58d7d94f-42f5-4c3e-8fe5-901fbe92152e
 description: Dadurch wird das Schema der Datenbank für beständigen Chat in Skype for Business Server dokumentiert.
-ms.openlocfilehash: 6f35e947f1cc0c36d6be743d57934453053f4e5c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 862adace22d04e93b226545247a5d2bd8a89d9cc
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759347"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858152"
 ---
 # <a name="persistent-chat-database-schema"></a>Datenbankschema für beständigen Chat
  
@@ -31,7 +31,7 @@ Die Datenbank für beständigen Chat bezieht sich auf die Datenbank, die den Sky
   
 Halten Sie sich an folgende bewährte Methoden:
   
-- Select \* wird nicht unterstützt, da die Spaltenliste vergrößert werden kann.
+- Es wird keine SELECT \* -Option unterstützt, da die Spaltenliste vergrößert werden kann.
     
 - Es werden keine benutzergenerierten Schemaänderungen unterstützt.
     

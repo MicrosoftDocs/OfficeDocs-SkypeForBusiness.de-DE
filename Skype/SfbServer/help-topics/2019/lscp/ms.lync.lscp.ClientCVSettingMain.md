@@ -2,7 +2,7 @@
 title: Clientversionskonfiguration
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zusätzlich zur Angabe der Version von Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden. Dadurch können Sie die Kosten steuern, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
-ms.openlocfilehash: 57a999b9300947fc74091852f0729aea91739eae
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: fbbe0e6386af8474a621d974faa9936d03d33dbf
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761403"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857912"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
 

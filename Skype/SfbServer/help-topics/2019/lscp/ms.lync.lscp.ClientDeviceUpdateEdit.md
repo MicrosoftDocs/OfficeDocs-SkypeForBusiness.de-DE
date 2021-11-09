@@ -2,7 +2,7 @@
 title: Bearbeiten der Geräteprotokollkonfiguration
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie können der Seite "Protokolleinstellung bearbeiten" eine Geräteprotokollkonfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Größe der Protokolldatei oder die Dauer der Aufbewahrung einer Protokolldatei bestimmt, bevor sie gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.
-ms.openlocfilehash: 93a5d8202d473623741b9c2f0082718bc5f7be82
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: c9e058fc314a2dcc550d4d399fed0b34b8532029
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60758017"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857832"
 ---
 # <a name="device-log-configuration-edit"></a>Geräteprotokollkonfiguration: Bearbeiten
  
@@ -53,6 +53,6 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
     
 - **Tage zum Aufbewahren von Protokolldateien (1-365)** Sie können angeben, wie viele Tage die Protokolldateien aufbewahrt werden, bevor sie gelöscht werden. Der Standardwert beträgt 10 Tage.
     
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Geräteprotokollkonfiguration](ms.lync.lscp.ClientDeviceCfgMain.md)

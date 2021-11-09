@@ -2,7 +2,7 @@
 title: Skype for Business Server Planungstool für Vermittlungskollocation
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
@@ -15,17 +15,17 @@ ms.custom:
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 5ddc2ad3-9275-408a-a0ab-cc7a2c2d2fdc
-description: Standardmäßig ist der Vermittlungsserver mit dem Front-End-Server verbunden. Es kann auch aus Leistungsgründen in einem eigenständigen Pool bereitgestellt werden oder wenn Sie SIP-Trunking bereitstellen. In diesem Fall wird der eigenständige Pool empfohlen. Die Kollokation in Skype for Business Server funktioniert genau wie in Lync Server 2013.
-ms.openlocfilehash: 25174be6952f6339f95ae2460532b0e930442235
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: Standardmäßig ist der Vermittlungsserver mit dem Front-End-Server verbunden. Es kann auch aus Leistungsgründen in einem eigenständigen Pool bereitgestellt werden oder wenn Sie SIP-Trunking bereitstellen. In diesem Fall wird der eigenständige Pool empfohlen. Die Kollokation in Skype for Business Server funktioniert genauso wie in Lync Server 2013.
+ms.openlocfilehash: de327a7abe4278a942058c1e5c3cdced2266d8f6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744341"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833511"
 ---
 # <a name="skype-for-business-server-mediation-collocation-planning-tool"></a>Skype for Business Server Planungstool für Vermittlungskollocation
  
-Der Vermittlungsserver ist standardmäßig mit dem Front-End-Server verbunden. Der Vermittlungsserver kann aus Leistungsgründen auch in einem eigenständigen Pool bereitgestellt werden, oder wenn Sie SIP-Trunking bereitstellen. In diesem Fall wird der eigenständige Pool empfohlen. Die Kollokation in Skype for Business Server funktioniert genau wie in Lync Server 2013. Weitere Informationen finden Sie in den folgenden Themen:
+Der Vermittlungsserver ist standardmäßig mit dem Front-End-Server verbunden. Der Vermittlungsserver kann aus Leistungsgründen auch in einem eigenständigen Pool bereitgestellt werden, oder wenn Sie SIP-Trunking bereitstellen. In diesem Fall wird der eigenständige Pool empfohlen. Die Kollokation in Skype for Business Server funktioniert genauso wie in Lync Server 2013. Weitere Informationen finden Sie in den folgenden Themen:
   
 - [Unterstützte Serverkollocation in Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-supported-server-collocation)
     

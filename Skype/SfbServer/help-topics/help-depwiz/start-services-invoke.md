@@ -2,7 +2,7 @@
 title: Starten von Diensten (Aufruf)
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7992440b-8545-4af9-b3ac-ea200b9de084
 description: Der Zusammenfassungsbereich im Bereich "Befehle ausführen" zeigt den Status der Aufgaben an, die zum Starten der Dienste für den Skype for Business Server 2015-Rollenserver ausgegeben wurden, den Sie bereitstellen. Die Zusammenfassung im Aufgabenbereich stellt keine Angabe zum Dienststart in Echtzeit dar. Einige der Skype for Business Server-Dienste können längere Zeit in Anspruch nehmen, um mit dem ersten Startvorgang zu beginnen. In den Aufgaben wird der Startbefehl aufgerufen, doch es wird nicht bestimmt, ob der Dienst erfolgreich gestartet wurde. Wenn Sie den Start und Status von Diensten überwachen müssen, verwenden Sie die Windows-MMC-Option "Dienste" (Microsoft Management Console).
-ms.openlocfilehash: 109a3e333919162ff244361a101b17616c3bc3d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 714b92d4658112c699c5c8aa42f397130381eb8d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769073"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60833591"
 ---
 # <a name="start-services-invoke"></a>Starten von Diensten (Aufruf)
  

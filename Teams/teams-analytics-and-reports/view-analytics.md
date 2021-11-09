@@ -1,6 +1,6 @@
 ---
 title: Anzeigen von Analysen in Teams
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: Admin
@@ -16,12 +16,12 @@ MS.collection:
 description: Erfahren Sie mehr über teamübergreifende Analysen, Teamanalysen und Analysen pro Kanal in Teams, mit denen Benutzer Nutzungsdaten für Teams oder Kanäle sehen können, zu denen sie gehören.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 86c14b49de7b6ea8175d486aa86e03ceeff068c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 1b682ebe6b6c759be067b98ad99f1d6d8e437480
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60742971"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831719"
 ---
 # <a name="view-analytics-in-teams"></a>Anzeigen von Analysen in Teams
 

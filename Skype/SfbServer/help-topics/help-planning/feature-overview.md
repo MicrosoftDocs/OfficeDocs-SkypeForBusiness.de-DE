@@ -2,7 +2,7 @@
 title: Skype for Business Server Featureübersicht –Planungstool
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
@@ -16,12 +16,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
 description: Informationen zum Planungstool Skype for Business Server Featureübersicht.
-ms.openlocfilehash: 44926f016a9b9aabe9981ec66f32638b3a958da6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac759dab4000ebdbe969b2d7436cbb46c408dc38
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60744401"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60848878"
 ---
 # <a name="skype-for-business-server-feature-overview-planning-tool"></a>Skype for Business Server Featureübersicht –Planungstool
  
@@ -35,7 +35,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 - **Anzahl der Benutzer** Geben Sie die Anzahl der Benutzer ein, einschließlich der Benutzer an Zweigstellen, die am zentralen Standort verwaltet werden.
     
-- **In der Cloud verwalteten Benutzer** Geben Sie die Anzahl der Benutzer ein, die von Skype for Business Online auf der zentralen Website verwaltet werden.
+- **In der Cloud verwalteten Benutzer** Geben Sie die Anzahl der Benutzer ein, die von Skype for Business Online auf dem zentralen Standort verwaltet werden.
     
 ## <a name="ui-elements"></a>UI-Elemente
 
@@ -47,7 +47,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
   
 - **Chat und Anwesenheit**
     
-    Instant Messaging (Chat) ermöglicht Benutzern die Kommunikation miteinander in Echtzeit auf ihren Computern mithilfe von textbasierten Nachrichten. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers stellt Informationen bereit, mit denen andere personen ermitteln können, ob der Benutzer online ist und wie er am besten kontaktiert werden kann. Beispielsweise wird ein Benutzer, der sich in einer Besprechung befindet, am besten per E-Mail kontaktiert.
+    Chatnachrichten ermöglichen Benutzern die Kommunikation miteinander in Echtzeit auf ihren Computern mithilfe von textbasierten Nachrichten. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers stellt Informationen bereit, mit denen andere personen ermitteln können, ob der Benutzer online ist und wie er am besten kontaktiert werden kann. Beispielsweise wird ein Benutzer, der sich in einer Besprechung befindet, am besten per E-Mail kontaktiert.
     
 - **Audio- und Videokonferenzen**
     
@@ -55,7 +55,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Einwahlkonferenzen**
     
-    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Für Einwahlkonferenzen müssen Sie die Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen bereitstellen.
+    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Einwahlkonferenzen erfordern die Bereitstellung der Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen.
     
 - **Webkonferenzen**
     
@@ -85,9 +85,9 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
     Wenn Sie den Skype for Business Server 2015 Mobility Service bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
     
-- **W15 Exchange Postfach**
+- **W15 Exchange-Postfach**
     
-    mit Skype for Business Server 2015 können Sie Voicemailnachrichten in Exchange Unified Messaging (UM) speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
+    Skype for Business Server 2015 können Sie Voicemailnachrichten in Exchange Unified Messaging (UM) speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
     
 ### <a name="voice"></a>VoIP
 
@@ -123,7 +123,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
+    Wenn Sie Benutzer haben, die Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option auswählen, Skype for Business Server 2015-Speicher in Exchange Speicher zu integrieren.
     
 - **IPv4**
     
@@ -147,7 +147,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Ankündigung**
     
-    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Die Verwendung des Ankündigungsdiensts verhindert die Situation, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
+    Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, möchten Sie möglicherweise konfigurieren können, wie Telefonanrufe verarbeitet werden, wenn die gewählte Nummer gültig ist, aber keinem gemeinsamen Benutzerbereich zugewiesen ist. Administratoren können den Ankündigungsdienst so konfigurieren, dass diese Anrufe an ein vordefiniertes Ziel (Telefonnummer oder SIP-URI) übertragen oder eine Audioankündigung oder beides wiedergeben. Durch die Verwendung des Ankündigungsdiensts wird die Situation vermieden, in der ein Anrufer fehlgeleitet und einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Die Funktion des Ankündigungsdiensts ist ein typisches PBX-Feature. 
     
 - **Parken von Anrufen**
     

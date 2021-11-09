@@ -2,7 +2,7 @@
 title: Konfigurieren von Voicemail escape in Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: a1d19e6c-82ff-4768-8ae5-da981368ce40
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Voicemail escape in Skype for Business Server mithilfe der Skype for Business Server-Verwaltungsshell konfigurieren.'
-ms.openlocfilehash: 3414b099587b45918b28ac3e11dcf75924f41dd6
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 7bd18056362fc4ed6ffdede31515b6eb41d8b134
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60740101"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865322"
 ---
 # <a name="configure-voice-mail-escape-in-skype-for-business"></a>Konfigurieren von Voicemail escape in Skype for Business
 
@@ -29,11 +29,11 @@ ms.locfileid: "60740101"
 
 Wenn ein Benutzer das gleichzeitige Klingeln an ein Mobiltelefon konfiguriert, wird ein Anrufer in der Regel an die persönliche Voicemail des Benutzers weitergeleitet, wenn das Mobiltelefon ausgeschaltet, nicht genügend Akku oder außerhalb des Bereichs ist. Mit Skype for Business Server können Benutzer geschäftsbezogene Anrufe an ihr Voicemailsystem des Unternehmens weiterleiten lassen. Insbesondere kann ein Timer konfiguriert werden, und wenn der Anruf von der Voicemail des Netzbetreibers innerhalb des festgelegten Zeitraums angenommen wird, trennt Skype for Business Server die Verbindung mit dem Voicemailsystem des Netzbetreibers (und der persönlichen Voicemail des Benutzers), während die verbleibenden Endpunkte des Benutzers im Unternehmenssystem weiterhin klingeln. Auf diese Weise wird der Anrufer automatisch an die Voicemail des Benutzers weitergeleitet.
 
-Diese Konfiguration wird mithilfe des Cmdlets **"set-CsVoicePolicy"** der Skype for Business Server Verwaltungsshell auf VoIP-Richtlinienebene mit den folgenden Parametern ausgeführt.
+Diese Konfiguration wird mit dem Cmdlet Skype for Business Server Verwaltungsshell, **Set-CsVoicePolicy,** auf VoIP-Richtlinienebene mit den folgenden Parametern ausgeführt.
 
 ### <a name="to-configure-voice-mail-escape"></a>So konfigurieren Sie Voicemail escape
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
 
 2. Geben Sie die folgenden Parameter für **Set-CsVoicePolicy** an:
 

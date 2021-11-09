@@ -2,7 +2,7 @@
 title: Installieren und Erstellen von Datenbanken
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 515754ad-1344-42dc-8219-ee973de2e4c4
 ROBOTS: NOINDEX, NOFOLLOW
 description: Sie wählen die Datenbanken aus, die Sie für die Bereitstellung erstellen möchten. Standardmäßig wird die Datenbank auf der definierten SQL Server am definierten Standort erstellt und stellt die Datenbankdateien automatisch basierend auf dem SQL Server bereit, auf dem Sie die Datenbanken platzieren, und konfiguriert sie.
-ms.openlocfilehash: 86e5b83a32eef00f331b00ea2ca45344f707cb8a
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9dd5e0f0ce800489ab937feae1cda68809540d81
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60761163"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60849108"
 ---
 # <a name="install-and-create-databases"></a>Installieren und Erstellen von Datenbanken
 

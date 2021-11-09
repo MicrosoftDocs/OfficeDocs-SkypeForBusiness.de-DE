@@ -2,7 +2,7 @@
 title: Sucherfassungsprotokolle, die vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellt wurden
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
@@ -14,16 +14,16 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1b75b218-d84f-47a7-8a0a-b7e016b1cc79
 description: 'Zusammenfassung: Erfahren Sie, wie Sie aufzeichnungsprotokolle des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015 durchsuchen und lesen.'
-ms.openlocfilehash: e5a1935b5c2bfcfccd0001adab53d04f6d8a1307
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: a65fac6ffc96088cd1e544ed17914128d040e2b6
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766333"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831919"
 ---
 # <a name="search-capture-logs-created-by-the-centralized-logging-service-in-skype-for-business-server-2015"></a>Sucherfassungsprotokolle, die vom zentralisierten Protokollierungsdienst in Skype for Business Server 2015 erstellt wurden
  
-**Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server 2015 erfasste Protokolle des zentralisierten Protokollierungsdiensts durchsuchen und lesen.
+**Zusammenfassung:** Erfahren Sie, wie Sie aufzeichnungsprotokolle des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015 suchen und lesen.
   
 Die Suchfunktionen im zentralisierten Protokollierungsdienst sind aus den folgenden Gründen nützlich und leistungsfähig: 
   
@@ -39,7 +39,7 @@ Nach der Suche wird das Cmdlet **Sync-CsClsLogging** ausgeführt. Der von den Su
   
 Um den größten Nutzen aus dem zentralisierten Protokollierungsdienst zu ziehen, benötigen Sie ein gutes Verständnis dafür, wie Sie die Suche so konfigurieren, dass nur Ablaufverfolgungsnachrichten von den Computer- und Poolprotokollen zurückgegeben werden, die für das von Ihnen untersuchte Problem relevant sind. Probleme
   
-Um die Suchfunktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype for Business Server Verwaltungsshell auszuführen, müssen Sie Entweder Mitglied der Rollenbasierten Zugriffssteuerungsgruppen (Role-Based Access Control, RBAC) "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl über die Skype for Business Server Verwaltungsshell oder die Windows PowerShell Eingabeaufforderung aus:
+Um die Suchfunktionen des zentralisierten Protokollierungsdiensts mithilfe der Skype for Business Server Verwaltungsshell auszuführen, müssen Sie Mitglied der Rollenbasierten Zugriffssteuerungsgruppen (Role-Based Access Control, RBAC) "CsAdministrator" oder "CsServerAdministrator" oder einer benutzerdefinierten RBAC-Rolle sein, die eine dieser beiden Gruppen enthält. Um eine Liste aller RBAC-Rollen zurückzugeben, denen dieses Cmdlet zugewiesen wurde (einschließlich aller benutzerdefinierten RBAC-Rollen, die Sie selbst erstellt haben), führen Sie den folgenden Befehl über die Skype for Business Server Verwaltungsshell oder die Windows PowerShell Eingabeaufforderung aus:
   
 ```PowerShell
 Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Skype for Business Server 2015 cmdlet"}

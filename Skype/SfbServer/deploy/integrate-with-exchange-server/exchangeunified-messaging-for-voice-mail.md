@@ -2,7 +2,7 @@
 title: Konfigurieren Exchange Server Unified Messaging für Skype for Business Server Voicemail
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/11/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1be9c4f4-fd8e-4d64-9798-f8737b12e2ab
 description: 'Zusammenfassung: Konfigurieren Exchange Server Unified Messaging für Skype for Business Server Voicemail.'
-ms.openlocfilehash: 43a5b34afb2f398ecfd14d884bbb510ffa3631f0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e434309c67469ccaa6994ec90cb3431b9de4f13b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741291"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865282"
 ---
 # <a name="configure-exchange-server-unified-messaging-for-skype-for-business-server-voice-mail"></a>Konfigurieren Exchange Server Unified Messaging für Skype for Business Server Voicemail
  
@@ -30,7 +30,7 @@ mit Skype for Business Server können Sie Voicemailnachrichten in Exchange Serve
 > [!NOTE]
 > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar. Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
   
-Wenn Sie die Server-zu-Server-Authentifizierung zwischen Skype for Business Server und Exchange Server 2016 oder Exchange Server 2013 bereits konfiguriert haben, können Sie Unified Messaging einrichten. Dazu müssen Sie zunächst einen neuen Unified Messaging-Wählplan für Ihre Exchange Server erstellen und zuweisen. Beispielsweise konfigurieren diese beiden Befehle (die in der Exchange Verwaltungsshell ausgeführt werden) einen neuen dreistelligen Wählplan für Exchange:
+Wenn Sie die Server-zu-Server-Authentifizierung zwischen Skype for Business Server und Exchange Server 2016 oder Exchange Server 2013 bereits konfiguriert haben, können Sie Unified Messaging einrichten. Dazu müssen Sie zunächst einen neuen Unified Messaging-Wählplan für Ihre Exchange Server erstellen und zuweisen. Mit diesen beiden Befehlen (die in der Exchange Verwaltungsshell ausgeführt werden) wird beispielsweise ein neuer dreistelliger Wählplan für Exchange konfiguriert:
   
 ```powershell
 New-UMDialPlan -Name "RedmondDialPlan" -VoIPSecurity "Secured" -NumberOfDigitsInExtension 3 -URIType "SipName" -CountryOrRegionCode 1
@@ -52,13 +52,13 @@ Im zweiten Befehl gibt der an den Parameter "ConfiguredInCountryOrRegionGroups" 
 > [!NOTE]
 > Durch das Erstellen eines neuen Wählplans wird auch eine Standardpostfachrichtlinie erstellt. 
   
-Nach dem Erstellen und Konfigurieren des neuen Wählplans müssen Sie den neuen Wählplan zu Ihrem Unified Messaging-Server hinzufügen und dann den Startmodus dieses Servers ändern. Insbesondere müssen Sie den Startmodus auf "Dual" festlegen. Sie können diese beiden Aufgaben in der Exchange-Verwaltungsshell ausführen:
+Nach dem Erstellen und Konfigurieren des neuen Wählplans müssen Sie den neuen Wählplan zu Ihrem Unified Messaging-Server hinzufügen und dann den Startmodus dieses Servers ändern. Insbesondere müssen Sie den Startmodus auf "Dual" festlegen. Sie können beide Aufgaben in der Exchange Verwaltungsshell ausführen:
   
 ```powershell
 Set-UmService -Identity "atl-exchangeum-001.litwareinc.com" -DialPlans "RedmondDialPlan" -UMStartupMode "Dual"
 ```
 
-Nachdem der Unified Messaging-Server konfiguriert wurde, sollten Sie als Nächstes das Cmdlet Enable-ExchangeCertificate ausführen, um sicherzustellen, dass Ihr Exchange Zertifikat auf den Unified Messaging-Dienst angewendet wird:
+Nachdem der Unified Messaging-Server konfiguriert wurde, sollten Sie als Nächstes das cmdlet Enable-ExchangeCertificate ausführen, um sicherzustellen, dass Ihr Exchange Zertifikat auf den Unified Messaging-Dienst angewendet wird:
   
 ```powershell
 Enable-ExchangeCertificate -Server "atl-umserver-001.litwareinc.com" -Thumbprint "EA5A332496CC05DA69B75B66111C0F78A110D22d" -Services "SMTP","IIS","UM"
@@ -89,14 +89,14 @@ Enable-UMMailbox -Extensions 100 -SIPResourceIdentifier "kenmyer@litwareinc.com"
 
 Im vorhergehenden Befehl steht der Parameter "Extensions" für die Durchwahlnummer des Benutzers. In diesem Beispiel besitzt der Benutzer die Durchwahl 100.
   
-Nach dem Aktivieren des Postfachs sollte der Benutzer "kenmyer@litwareinc.com" Exchange Unified Messaging verwenden können. Sie können überprüfen, ob der Benutzer eine Verbindung mit Exchange UM herstellen kann, indem Sie das Cmdlet ["Test-CsExUMConnectivity"](/powershell/module/skype/test-csexumconnectivity?view=skype-ps) in der Skype for Business Server-Verwaltungsshell ausführen:
+Nach dem Aktivieren des Postfachs sollte der Benutzer "kenmyer@litwareinc.com" Exchange Unified Messaging verwenden können. Sie können überprüfen, ob der Benutzer eine Verbindung mit Exchange UM herstellen kann, indem Sie das Cmdlet ["Test-CsExUMConnectivity"](/powershell/module/skype/test-csexumconnectivity) in der Skype for Business Server-Verwaltungsshell ausführen:
   
 ```powershell
 $credential = Get-Credential "litwareinc\kenmyer"
 Test-CsExUMConnectivity -TargetFqdn "atl-cs-001.litwareinc.com" -UserSipAddress "sip:kenmyer@litwareinc.com" -UserCredential $credential
 ```
 
-Wenn ein zweiter Benutzer ist, für den Unified Messaging aktiviert wurde, können Sie mit dem Cmdlet [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail?view=skype-ps) sicherstellen, dass dieser zweite Benutzer eine Voicemailnachricht für den ersten Benutzer hinterlassen kann.
+Wenn ein zweiter Benutzer ist, für den Unified Messaging aktiviert wurde, können Sie mit dem Cmdlet [Test-CsExUMVoiceMail](/powershell/module/skype/test-csexumvoicemail) sicherstellen, dass dieser zweite Benutzer eine Voicemailnachricht für den ersten Benutzer hinterlassen kann.
   
 ```powershell
 $credential = Get-Credential "litwareinc\pilar"
@@ -107,7 +107,7 @@ Test-CsExUMVoiceMail -TargetFqdn "atl-cs-001.litwareinc.com" -ReceiverSipAddress
 
 ## <a name="configuring-unified-messaging-on-microsoft-exchange-server"></a>Konfigurieren von Unified Messaging auf Microsoft Exchange Server 
 > [!IMPORTANT]
-> Wenn Sie Exchange Unified Messaging (UM) verwenden möchten, um Anrufbeantwortungs-, Outlook Voice Access- oder automatische Telefonzentralendienste für Enterprise-VoIP Benutzer bereitzustellen, lesen Sie ["Plan for Exchange Unified Messaging integration in Skype for Business",](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)und folgen Sie den Anweisungen in diesem Abschnitt. 
+> Wenn Sie Exchange Unified Messaging (UM) verwenden möchten, um Anrufbeantwortungsdienste, Outlook VoIP-Zugriff oder dienste für automatische Telefonzentralen für Enterprise-VoIP Benutzer bereitzustellen, lesen Sie ["Plan for Exchange Unified Messaging integration in Skype for Business",](../../plan-your-deployment/integrate-with-exchange/unified-messaging.md)und folgen Sie dann den Anweisungen in diesem Abschnitt. 
 
 Um Exchange Unified Messaging (UM) für die Arbeit mit Enterprise-VoIP zu konfigurieren, müssen Sie die folgenden Aufgaben ausführen:
 
@@ -137,9 +137,9 @@ Beachten Sie auch Folgendes:
 Die folgenden Tools müssen auf jedem Server verfügbar sein, auf dem Exchange UM ausgeführt wird:
 - Exchange-Verwaltungsshell
 - Das Skript exchucutil.ps1, mit dem die folgenden Aufgaben ausgeführt werden:
-    - Erstellt ein UM-IP-Gateway für jeden Skype for Business Server.
+    - Erstellt ein UM-IP-Gateway für jede Skype for Business Server.
     - Erstellen eines Sammelanschlusses für jedes Gateway. Der Pilotbezeichner jeder Sammelanschlüsse gibt den UM-SIP-URI-Wählplan an, der vom Front-End-Pool oder Standard Edition Server verwendet wird, der dem Gateway zugeordnet ist.
-    - Gewährt Skype for Business Server Berechtigung zum Lesen Exchange UM-Objekte in Active Directory Domain Services.
+    - Gewährt Skype for Business Server Berechtigung zum Lesen Exchange UM-Objekten in Active Directory Domain Services.
 
 
 
@@ -155,11 +155,11 @@ Wenn Sie Microsoft Skype for Business Server in Exchange Unified Messaging (UM) 
 - Es erstellt einen UM-Sammelanschluss für jedes UM-IP-Gateway. Der Pilotbezeichner jeder Sammelanschlüsse gibt den UM-SIP-URI-Wählplan an, der vom Skype for Business Server Front-End-Pool oder Standard Edition Servers verwendet wird, der dem UM-IP-Gateway zugeordnet ist.
 - Gewährt Skype for Business Server Berechtigung zum Lesen von Active Directory UM-Containerobjekten wie UM-Wählplänen, automatischen Telefonzentralen, UM-IP-Gateways und UM-Sammelanschlüssen.
   > [!IMPORTANT]
-  > Jede UM-Gesamtstruktur muss so konfiguriert sein, dass sie der Gesamtstruktur vertraut, in der Skype for Business Server bereitgestellt wird, und die Gesamtstruktur, in der Skype for Business Server 2013 bereitgestellt wird, muss so konfiguriert sein, dass sie jeder UM-Gesamtstruktur vertraut. Wenn Exchange UM in mehreren Gesamtstrukturen installiert ist, müssen die Exchange Server Integrationsschritte für jede UM-Gesamtstruktur ausgeführt werden, oder Sie müssen die Skype for Business Server Domäne angeben. Beispiel: ExchUcUtil.ps1 –Forest:<lync-domain-controller-fqdn>. 
+  > Jede UM-Gesamtstruktur muss so konfiguriert sein, dass sie der Gesamtstruktur vertraut, in der Skype for Business Server bereitgestellt wird, und die Gesamtstruktur, in der Skype for Business Server 2013 bereitgestellt wird, muss so konfiguriert werden, dass jeder UM-Gesamtstruktur vertraut wird. Wenn Exchange UM in mehreren Gesamtstrukturen installiert ist, müssen die Exchange Server Integrationsschritte für jede UM-Gesamtstruktur ausgeführt werden, oder Sie müssen die Skype for Business Server Domäne angeben. Beispiel: ExchUcUtil.ps1 –Forest: \<lync-domain-controller-fqdn> . 
 
 ### <a name="use-the-shell-to-run-the-exchucutilps1-script"></a>Ausführen des Skripts "ExchUcUtil.ps1" mithilfe der Shell
 
-Führen Sie das Skript ExchUcUtil.ps1 auf jedem Exchange Server in Ihrer Organisation aus, der sich in derselben Topologie wie Skype for Business Server befindet. Sie können das Skript in der Shell auf einem Postfachserver oder über die Windows Remote-PowerShell auf einem Clientzugriffsserver ausführen. Wenn Sie das Skript auf einem Clientzugriffsserver in Ihrer Organisation ausführen, leitet der Clientzugriffsserver die Windows Remote-PowerShell-Sitzung über einen Proxy an einen Postfachserver in der Organisation weiter.
+Führen Sie das Skript ExchUcUtil.ps1 auf einem beliebigen Exchange-Server in Ihrer Organisation aus, der sich in derselben Topologie wie Skype for Business Server befindet. Sie können das Skript in der Shell auf einem Postfachserver oder über die Windows Remote-PowerShell auf einem Clientzugriffsserver ausführen. Wenn Sie das Skript auf einem Clientzugriffsserver in Ihrer Organisation ausführen, leitet der Clientzugriffsserver die Windows Remote-PowerShell-Sitzung über einen Proxy an einen Postfachserver in der Organisation weiter.
 > [!IMPORTANT]
 > Das ExchUCUtil.ps1-Skript erstellt ein oder mehrere UM-IP-Gateways. Sie müssen ausgehende Anrufe für alle UM-IP-Gateways deaktivieren, außer dem einen Gateway, das durch das Skript erstellt wurde. Dazu gehört auch das Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways, die vor dem Ausführen des Skripts erstellt wurden. Informationen zum Deaktivieren von ausgehenden Anrufen auf UM-IP-Gateways finden Sie unter Deaktivieren Sie ausgehende Anrufe für UM-IP-gateways.[!IMPORTANT]
 > Sie benötigen die Berechtigungen der Rolle "Exchange-Organisationsverwaltung" oder müssen ein Mitglied der Sicherheitsgruppe "Exchange-Organisationsadministratoren" sein, um das Skript auszuführen. 
@@ -178,7 +178,7 @@ Gehen Sie folgendermaßen vor, um zu überprüfen, ob das Skript "ExchUcUtul.ps1
 Wenn Sie Exchange Unified Messaging (UM) bereitgestellt haben, wie unter Planning for Exchange Unified Messaging integration in Skype for Business Server in der Planungsdokumentation beschrieben, und Sie Exchange UM-Features für Enterprise-VoIP Benutzer in Ihrer Organisation bereitstellen möchten, können Sie kann die folgenden Verfahren verwenden, um das Zertifikat auf dem Server zu konfigurieren, auf dem Exchange UM ausgeführt wird.
 
 > [!IMPORTANT]
-> Bei internen Zertifikaten müssen sowohl die Server, auf denen Skype for Business Server ausgeführt wird, als auch die Server, auf denen Microsoft Exchange ausgeführt wird, vertrauenswürdige Stammzertifizierungsstellenzertifikate aufweisen, die sich gegenseitig als vertrauenswürdig eignen. Die Zertifizierungsstelle kann entweder identisch oder eine andere Zertifizierungsstelle sein, solange auf den Servern das Stammzertifikat der Zertifizierungsstelle in ihrem Zertifikatspeicher der vertrauenswürdigen Stammzertifizierungsstelle registriert ist. 
+> Bei internen Zertifikaten müssen sowohl die Server, auf denen Skype for Business Server ausgeführt wird, als auch die Server, auf denen Microsoft Exchange ausgeführt wird, über vertrauenswürdige Stammzertifizierungsstellenzertifikate verfügen, die sich gegenseitig als vertrauenswürdig eignen. Die Zertifizierungsstelle kann entweder identisch oder eine andere Zertifizierungsstelle sein, solange auf den Servern das Stammzertifikat der Zertifizierungsstelle in ihrem Zertifikatspeicher der vertrauenswürdigen Stammzertifizierungsstelle registriert ist. 
 
 Die Exchange Server muss mit einem Serverzertifikat konfiguriert werden, um eine Verbindung mit Skype for Business Server herstellen zu können:
 1. Laden Sie das Zertifizierungsstellenzertifikat für den Exchange Server-Computer herunter.
@@ -190,7 +190,7 @@ Die Exchange Server muss mit einem Serverzertifikat konfiguriert werden, um eine
 
 **So laden Sie das Zertifizierungsstellenzertifikat herunter:**
 
-1. Klicken Sie auf dem Server, auf dem Exchange UM ausgeführt wird, auf **"Start",** auf **"Ausführen",** geben **Sie http:// \<name of your Issuing CA Server> /certsrv** ein, und klicken Sie dann auf **"OK".**
+1. Klicken Sie auf dem Server, auf dem Exchange UM ausgeführt wird, auf **"Start",** klicken Sie auf **"Ausführen",** geben **Sie http:// \<name of your Issuing CA Server> /certsrv** ein, und klicken Sie dann auf **"OK".**
 2. Klicken Sie unter "Aufgabe auswählen" auf **"Zertifizierungsstellenzertifikat, Zertifikatkette oder CRL herunterladen".**
 3. Wählen Sie unter **"Zertifizierungsstellenzertifikat, Zertifikatkette oder CRL herunterladen"** die **Codierungsmethode für Basis 64** aus, und klicken Sie dann auf **"Zertifizierungsstellenzertifikat herunterladen".**
    > [!NOTE]

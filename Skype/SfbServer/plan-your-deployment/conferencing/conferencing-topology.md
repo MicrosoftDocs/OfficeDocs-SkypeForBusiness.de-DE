@@ -2,7 +2,7 @@
 title: Planen der Konferenztopologie für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7392dfa7-791a-4723-88ff-0ef8a9ef11c8
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Planung Ihrer Konferenztopologie in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: a4d458bf7bea512e773a09551e2fa0c72a982592
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0ea242584670c06beaa6462390afc01103c1fd7e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737711"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831909"
 ---
 # <a name="plan-your-conferencing-topology-for-skype-for-business-server"></a>Planen der Konferenztopologie für Skype for Business Server
  
@@ -73,29 +73,29 @@ Webkonferenzen erfordern Folgendes:
   
 - Zugriff auf den Dateispeicher, der zum Speichern von Webkonferenzinhalten verwendet wird.
     
-- Integration in Office Web Apps Server/Office Online Server, was erforderlich ist, um PowerPoint Dateien während einer Konferenz freizugeben.
+- Integration in Office Web Apps-Server/Office Online Server, die erforderlich ist, um PowerPoint Dateien während einer Konferenz freizugeben.
     
 > [!NOTE]
 > Die neueste Iteration von Office Web Apps-Server heißt Office Online Server, die von Skype for Business Server unterstützt wird. Weitere Informationen finden Sie in der [Office Online Server Dokumentation.](/officeonlineserver/office-online-server) 
   
 Skype for Business Server bietet die folgenden Möglichkeiten zum Konfigurieren Office Web Apps-Servers/Office Online Server. Je nach Ihren Anforderungen haben Sie folgende Möglichkeiten:
   
-- **Installieren Sie sowohl Skype for Business Server als auch Office Web Apps Server/Office Online Server lokal hinter der Firewall Ihrer Organisation und in derselben Netzwerkzone.** Bei dieser Topologie wird der externe Zugriff auf Office Web Apps-Server/Office Online Server über den Reverseproxyserver bereitgestellt. Idealerweise sollten Sie Office Web Apps-Server/Office Online Server in derselben Netzwerkzone wie Skype for Business Server installieren.
+- **Installieren Sie sowohl Skype for Business Server als auch Office Web Apps-Server/Office Online Server lokal hinter der Firewall Ihrer Organisation und in derselben Netzwerkzone.** Bei dieser Topologie wird der externe Zugriff auf Office Web Apps-Server/Office Online Server über den Reverseproxyserver bereitgestellt. Idealerweise sollten Sie Office Web Apps-Server/Office Online Server in derselben Netzwerkzone wie Skype for Business Server installieren.
     
-    Externe Skype for Business Clients können eine Verbindung mit Skype for Business Server und Office Web Apps-Server/Office Online Server herstellen, indem sie einen Reverseproxyserver verwenden, bei dem es sich um einen Server handelt, der Anforderungen aus dem Internet entgegennimmt und an das interne Netzwerk weiterleitet. (Interne Clients müssen den Reverseproxyserver nicht verwenden, da sie eine direkte Verbindung mit Office Web Apps-Server/Office Online Server herstellen können.) Diese Topologie funktioniert am besten, wenn Sie einen dedizierten Office Web Apps-Server/Office Online Server farm verwenden möchten, der nur von Skype for Business Server verwendet wird.
+    Externe Skype for Business Clients können eine Verbindung mit Skype for Business Server und Office Web Apps-Server/Office Online Server herstellen, indem sie einen Reverseproxyserver verwenden, bei dem es sich um einen Server handelt, der Anforderungen aus dem Internet entgegennimmt und an das interne Netzwerk weiterleitet. (Interne Clients müssen den Reverseproxyserver nicht verwenden, da sie eine direkte Verbindung mit Office Web Apps-Server/Office Online Server herstellen können.) Diese Topologie funktioniert am besten, wenn Sie eine dedizierte Office Web Apps-Server/Office Online Server farm verwenden möchten, die nur von Skype for Business Server verwendet wird.
     
-- **Verwenden Sie einen extern bereitgestellten Office Web Apps-Server/Office Online Server.** In dieser Topologie wird Skype for Business Server lokal bereitgestellt und verwendet einen Office Web Apps-Server/Office Online Server, der außerhalb der Skype for Business Server Netzwerkzone bereitgestellt wird. Dies kann passieren, wenn Office Web Apps-Server/Office Online Server für mehrere Anwendungen im Unternehmen freigegeben und in einem Netzwerk bereitgestellt wird, das Skype for Business Server zur Verwendung der externen Schnittstelle von Office Web Apps Server/Office Online Server und umgekehrt erfordert.
+- **Verwenden Sie einen extern bereitgestellten Office Web Apps-Server/Office Online Server.** In dieser Topologie wird Skype for Business Server lokal bereitgestellt und verwendet einen Office Web Apps-Server/Office Online Server, der außerhalb der Skype for Business Server Netzwerkzone bereitgestellt wird. Dies kann passieren, wenn Office Web Apps-Server/Office Online Server für mehrere Anwendungen im Unternehmen freigegeben und in einem Netzwerk bereitgestellt wird, in dem Skype for Business Server die externe Schnittstelle von Office Web Apps Server/Office Online Server verwenden müssen und umgekehrt.
     
-    Sie müssen keinen Reverseproxyserver installieren. Stattdessen werden alle Anforderungen vom Office Web Apps-Server/Office Online Server an Skype for Business Server über ihren Edgeserver weitergeleitet. Sowohl die internen als auch die externen Skype for Business Clients stellen über die externe URL eine Verbindung mit Office Web Apps-Server/Office Online Server her.
+    Sie müssen keinen Reverseproxyserver installieren. Stattdessen werden alle Anforderungen vom Office Web Apps-Server/Office Online Server an Skype for Business Server über den Edgeserver weitergeleitet. Sowohl die internen als auch die externen Skype for Business Clients stellen über die externe URL eine Verbindung mit Office Web Apps-Server/Office Online Server her.
     
-    Wenn der Office Web Apps-Server/Office Online Server außerhalb der internen Firewall bereitgestellt wird, wählen Sie die Option **aus, Office Web Apps-Server in einem externen Netzwerk** (d. h. Umkreis/Internet) im Topologie-Generator bereitgestellt wird.
+    Wenn der Office Web Apps-Server/Office Online Server außerhalb Der internen Firewall bereitgestellt wird, wählen Sie die Option **aus, Office Web Apps-Server in einem externen Netzwerk** (d. h. Umkreis/Internet) im Topologie-Generator bereitgestellt wird.
     
 Weitere Informationen finden Sie unter Konfigurieren der [Integration mit Office Web Apps Server in Skype for Business Server.](../../deploy/deploy-conferencing/office-web-app-server.md) 
   
 Unabhängig von der ausgewählten Topologie ist es wichtig, dass die richtigen Firewallports geöffnet werden. Sie müssen sicherstellen, dass DNS-Namen, IP-Adressen und Ports nicht durch Firewalls auf dem Office Web Apps-Server/Office Online Server, dem Lastenausgleich oder Skype for Business Server blockiert werden.
   
 > [!NOTE]
-> Eine weitere Option für den externen Zugriff auf Office Web Apps-Server/Office Online Server ist die Bereitstellung des Servers im Umkreisnetzwerk. Wenn Sie sich dafür entscheiden, denken Sie daran, dass Office Web Apps-Server/Office Online Server Setup erfordert, dass der Servercomputer Mitglied Ihrer Active Directory-Domäne ist. Es wird empfohlen, Office Web Apps Server/Office Online Server nicht im Umkreisnetzwerk zu installieren, es sei denn, ihre Netzwerkrichtlinie erlaubt, dass Computer im Umkreisnetzwerk Active Directory-Domänenmitglieder sind. Stattdessen sollten Sie Office Web Apps-Server/Office Online Server im internen Netzwerk installieren und externen Benutzerzugriff über den Reverseproxyserver gewähren. 
+> Eine weitere Option für den externen Zugriff auf Office Web Apps-Server/Office Online Server ist die Bereitstellung des Servers im Umkreisnetzwerk. Wenn Sie sich dafür entscheiden, denken Sie daran, dass Office Web Apps Server/Office Online Server Setup erfordert, dass der Servercomputer Mitglied Ihrer Active Directory-Domäne ist. Es wird empfohlen, Office Web Apps Server/Office Online Server nicht im Umkreisnetzwerk zu installieren, es sei denn, ihre Netzwerkrichtlinie erlaubt, dass Computer im Umkreisnetzwerk Active Directory-Domänenmitglieder sind. Stattdessen sollten Sie Office Web Apps-Server/Office Online Server im internen Netzwerk installieren und externen Benutzerzugriff über den Reverseproxyserver gewähren. 
   
 ## <a name="topology-requirements-for-large-meetings"></a>Topologieanforderungen für große Besprechungen
 
@@ -117,6 +117,6 @@ Zusätzliche Notizen zur Topologie:
     
 - Ein Office Web Apps-Server/Office Online Server ist erforderlich, um die PowerPoint Präsentationsfunktionalität in großen Besprechungen zu aktivieren. Der Office Web Apps-Server/Office Online Server kann für den großen Besprechungspool vorgesehen sein oder Office Web Apps-Server/Office Online Server, die von anderen Pools am Standort verwendet werden, an dem der dedizierte Pool bereitgestellt wird. Weitere Informationen finden Sie unter Konfigurieren der [Integration mit Office Web Apps Server in Skype for Business Server.](../../deploy/deploy-conferencing/office-web-app-server.md) 
     
-- Für den Lastenausgleich der Front-End-Server ist ein Hardwarelastenausgleich für den HTTP-Datenverkehr (z. B. herunterladen von Besprechungsinhalten) erforderlich. DNS-Lastenausgleich wird für den SIP-Datenverkehr empfohlen. Ausführliche Informationen finden Sie unter [Lastenausgleichsanforderungen für Skype for Business.](../../plan-your-deployment/network-requirements/load-balancing.md) 
+- Für den Lastenausgleich der Front-End-Server ist ein Hardwarelastenausgleich für den HTTP-Datenverkehr (z. B. herunterladen von Besprechungsinhalten) erforderlich. DNS-Lastenausgleich wird für den SIP-Datenverkehr empfohlen. Ausführliche Informationen finden Sie unter [Load balancing requirements for Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md). 
     
 - Wenn Sie den Monitoring Server für den dedizierten Pool für große Besprechungen verwenden möchten, empfehlen wir die Verwendung des Überwachungsservers und seiner Datenbank, die für alle Front-End-Serverpools in Ihrer Skype for Business Server Bereitstellung freigegeben sind. Weitere Informationen finden Sie unter [Plan for monitoring in Skype for Business Server](../../plan-your-deployment/monitoring.md).

@@ -1,6 +1,6 @@
 ---
 title: Lenkungsgruppe für Cloud-Sprachbereitstellung
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 ms.date: 03/13/2018
@@ -16,12 +16,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: b182e3ccc5e650e4ace3535b23bb6828bf2c88b5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60769913"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858872"
 ---
 # <a name="steering-committee"></a>Lenkungsgremium
 
@@ -71,7 +71,7 @@ Jedes Lenkungsgremium benötigt starke Führungskräfte und klar definierte Roll
 | Befürworter aus der Führungsebene | Verfechter des Projekts, stellen Sie sicher, dass seine Richtung der Vision der Organisation weiterhin zusagt. Dienen Sie als letztendliche Autorität, Entscheidungen zu treffen, auf die sich das Komitee nicht einigen kann. | | |
 | Business Decision Maker(en) | Verfechter des Projekts, sicherstellen, dass seine Richtung der Vision der Organisation weiterhin zusagt | | |
 | Architect | Stellen Sie sicher, dass Technologieentscheidungen erreichbar sind und an den vereinbarten Geschäftsergebnissen ausgerichtet sind. | | |
-| Kernteam Project Team | Bereitstellen von Details zu einer bestimmten Komponente, entweder technischer oder nicht technischer Art (z. B. Übernahme- und Änderungsmanagement) | | |
+| Kernteam Project Teams | Bereitstellen von Details zu einer bestimmten Komponente, entweder technischer oder nicht technischer Art (z. B. Übernahme- und Änderungsmanagement) | | |
 | Quality Champion | Gehen Sie für die Berücksichtigung von Qualitätsmetriken ein. | | |
 | Programm-/Project-Manager | Übernehmen Sie die Verantwortung für die Präsentation und das Sammeln von Feedback, um sie in das Projekt zu integrieren. | | |
 | Partnerkontoteam | Feedback aus der Sicht des Partners aus einer breiteren Perspektive geben, auf andere Partneraktivitäten. | | |
@@ -94,7 +94,7 @@ Die folgenden Ressourcen sollten abgeschlossen und in den Präsentationsstapel f
 
 -   Nach verfolgen von Aktionselementen aus früheren Lenkungssitzungen
 
--   Lenkungsgremium PowerPoint, Auf einer hohen Ebene einen Statusbericht erstellen
+-   Lenkungsgremium PowerPoint, Bericht zum Projektstatus auf hoher Ebene
 
     -   Betrachten Sie das Projekt in einer monatlichen/vierteljährlichen/jährlichen Überprüfung.
 
@@ -108,7 +108,7 @@ Die folgenden Ressourcen sollten abgeschlossen und in den Präsentationsstapel f
 
     -   Bericht über die OKRs, die vom Komitee als wichtig identifiziert wurden; achten Sie darauf, nutzungs-, benutzerfreundliche, Qualitäts- und Zuverlässigkeitsmetriken mitzuverlässigen.
 
--   Lenkungsgremium PowerPoint, wöchentlicher Statusbericht für das Projekt
+-   Lenkungsbericht PowerPoint, wöchentlicher Statusbericht für das Projekt
 
     -   Enthält Hervorhebungen und Lowlights, wichtige Probleme und Aktionselemente sowie die nächsten Schritte.
 

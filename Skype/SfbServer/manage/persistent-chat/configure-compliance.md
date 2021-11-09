@@ -2,7 +2,7 @@
 title: Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
 description: 'Zusammenfassung: Erfahren Sie, wie Sie den Kompatibilitätsdienst für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: af574e4b449211f1631c332e7f494fba6c75e750
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60778315"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858242"
 ---
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 
@@ -150,7 +150,7 @@ Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "i
 |:-----|:-----|:-----|
 |Benutzername  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
 |ID  <br/> |Die eindeutige ID des Absenders.  <br/> |Erforderlich  <br/> |
-|E-Mail  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
+|E-Mails  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
 |Uri  <br/> |Der SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
 

@@ -2,7 +2,7 @@
 title: Anpassen der Wartemusik für das Parken von Anrufen inSkype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 3d78e6f9-a4ae-49f4-a89f-4515acb49dac
 description: Passen Sie die Wartemusik für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP an.
-ms.openlocfilehash: 925749819a041ed451df816902dae8b932cffbbd
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 9a17bddf45911974687fb374e9fd5da65b94787c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753616"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60865312"
 ---
 # <a name="customize-call-park-music-on-hold-inskype-for-business"></a>Anpassen der Wartemusik für das Parken von Anrufen inSkype for Business
  
@@ -36,9 +36,9 @@ Sie können ihre eigene Musikdatei für die Wartemusik anstelle der Standardmusi
 
 1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
     
-3. Führen Sie  aus.
+3. Führen Sie Folgendes aus: 
     
    ```powershell
    Set-CsCallParkServiceMusicOnHoldFile -Service <ServiceID where the Call Park application resides> -Content <Byte >
@@ -54,7 +54,7 @@ Sie können ihre eigene Musikdatei für die Wartemusik anstelle der Standardmusi
    Set-CsCallParkServiceMusicOnHoldFile -Service Redmond1-applicationserver-1 -Content $a
    ```
 
-## <a name="see-also"></a>Weitere Informationen
+## <a name="see-also"></a>Siehe auch
 
 [Set-CsCallParkServiceMusicOnHoldFile](/powershell/module/skype/set-cscallparkservicemusiconholdfile?view=skype-ps)
   

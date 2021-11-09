@@ -6,7 +6,7 @@ ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204750(v=OCS.15)
 ms:contentKeyID: 48183661
 mtps_version: v=OCS.15
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie QoS für Geräte in Ihrer Organisation aktivieren, die ein anderes Betriebssystem als Windows verwenden.
-ms.openlocfilehash: 597f2df19ac2379bea3f618280ea1c86b2e1f8eb
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 613f7abfa3e88fb831729498baa8f7f698aa9d0e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60750174"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831999"
 ---
 # <a name="enabling-qos-in-skype-for-business-server-for-devices-that-are-not-based-on-windows"></a>Aktivieren von QoS in Skype for Business Server für Geräte, die nicht auf Windows
 
 
-Wenn Sie Skype for Business Server installieren, wird Quality of Service (QoS) nicht für geräte in Ihrer Organisation aktiviert, die ein anderes Betriebssystem als Windows verwenden. Sie können dies überprüfen, indem Sie den folgenden Befehl in der Skype for Business ServerManagement Shell ausführen:
+Wenn Sie Skype for Business Server installieren, wird QoS (Quality of Service) nicht für geräte in Ihrer Organisation aktiviert, die ein anderes Betriebssystem als Windows verwenden. Sie können dies überprüfen, indem Sie den folgenden Befehl in der Skype for Business ServerManagement Shell ausführen:
 
 **Get-CsMediaConfiguration**
 

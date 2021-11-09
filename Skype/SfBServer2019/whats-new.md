@@ -2,7 +2,7 @@
 title: Neuigkeiten in Skype for Business Server 2019 | Funktionen
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: overview
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features sind neu in Skype for Business Server 2019.'
-ms.openlocfilehash: c701b9397e43744f8673dfb8c6f56cac2c6d56c7
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2acfaef02b140d8e52fce43e0fef9125378047ea
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60748971"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858022"
 ---
 # <a name="whats-in-skype-for-business-server-2019"></a>Neuigkeiten in Skype for Business Server 2019
 
@@ -31,9 +31,9 @@ Zu den neuen Features in Skype for Business Server 2019 gehören:
 
 ## <a name="unified-messaging-services-cloud-voicemail"></a>Unified Messaging-Dienste: Cloud-Voicemail
 
-Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale nicht mehr unterstützt.  
+Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale nicht mehr hervorgehoben.  
 
-Cloud-Voicemail ermöglicht allen Ihren Skype for Business 2019-Benutzern&#x2014;, ob sie lokal oder online verwaltet werden,&#x2014;Zugriff auf denselben Voicemaildienst in der Microsoft Cloud zu haben. Cloud-Voicemail bietet die folgenden Vorteile für Ihre lokalen und Onlinebenutzer:
+Cloud-Voicemail ermöglicht allen Ihren Skype for Business 2019-Benutzern&#x2014;, ob sie lokal oder online verwaltet werden,&#x2014;Zugriff auf denselben Voicemaildienst in der Microsoft Cloud zu haben. Cloud-Voicemail bietet die folgenden Vorteile für ihre lokalen und Onlinebenutzer:
 
 - Zugriff auf Voicemail in ihrem Exchange Postfach mithilfe der Clients Skype for Business Online, Teams oder Outlook
 - Möglichkeit, das webbasierte Portal zum Verwalten ihrer Voicemailoptionen zu verwenden
@@ -46,12 +46,12 @@ Der Anrufdatenkonnektor vereinfacht die Anrufüberwachung in einer Hybridumgebun
 
 Mit dem Anrufdaten-Connector können Sie die folgenden Aufgaben mithilfe eines einzelnen Toolsets ausführen:
 
-- Überwachen Sie Ihre Benutzererfahrung über Microsoft Teams, Skype for Business Online und Skype for Business Server hinweg.
+- Überwachen Sie Die Benutzererfahrung über Microsoft Teams, Skype for Business Online und Skype for Business Server hinweg.
 - Anzeigen und Beheben von Problemen in Ihrem Netzwerk
 - Weisen Sie Helpdesk- und Administratorrollen für die Anrufanalyse zu, damit Sie Helpdesk-Mitarbeitern ermöglichen können, ihre Zuständigkeitsbereiche anzuzeigen und zu beheben.
 
 Weitere Informationen finden Sie unter ["Plan Call Data Connector".](../sfbhybrid/hybrid/plan-call-data-connector.md)
 
-### <a name="see-also"></a>Weitere Informationen
+### <a name="see-also"></a>Siehe auch
 
 [Veraltete Skype for Business Server 2019](deprecated.md)

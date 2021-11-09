@@ -2,7 +2,7 @@
 title: 'Skype for Business Server: Routing zwischen Trunks'
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: 'Skype for Business Server bietet eine grundlegende Sitzungsverwaltung durch die Unterstützung des Routings zwischen Trunks. '
-ms.openlocfilehash: ea21bf8e3697dc4b06b562f709d88903666cf3c5
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 77ee30900592fae17cab5147609096131147d489
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774745"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858202"
 ---
 # <a name="skype-for-business-server-inter-trunk-routing"></a>Skype for Business Server: Routing zwischen Trunks
 

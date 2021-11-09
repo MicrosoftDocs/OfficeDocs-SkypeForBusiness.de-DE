@@ -2,7 +2,7 @@
 title: tblFileToken
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 49e7dd79-1607-443c-818a-88c160e4ed06
 description: TblFileToken enthält temporäre Token für die Dateiübertragung.
-ms.openlocfilehash: 18c9ca4927c8d31f9fb519ce43035003ffd1d286
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 73958e48814a27e5871b2a0af73d77a55531e49b
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60749764"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831779"
 ---
 # <a name="tblfiletoken"></a>tblFileToken
  
@@ -26,7 +26,7 @@ TblFileToken enthält temporäre Token für die Dateiübertragung.
   
 **Columns**
 
-|**Spalte**|**Typ**|**Beschreibung**|
+|**Spalte**|**Type**|**Beschreibung**|
 |:-----|:-----|:-----|
 |fileToken  <br/> |nvarchar (50), nicht NULL  <br/> |Eindeutiges Token (eine GUID).  <br/> |
 |fileTokenUserID  <br/> |int, nicht NULL  <br/> |ID des Prinzipals, der die Datei überträgt.  <br/> |

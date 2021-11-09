@@ -2,7 +2,7 @@
 title: Einstellungen unter "Nächster Hop" für Vermittlung – Erweiterung
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,17 +15,17 @@ ms.localizationpriority: medium
 ms.assetid: 814f5b06-3e5a-4a39-804d-7f7d3fbee54d
 ROBOTS: NOINDEX, NOFOLLOW
 description: Zum Angeben des nächsten Hops eines Vermittlungsserverpools oder Vermittlungsservers wählen Sie den definierten Front-End-Pool der Enterprise Edition oder den Front-End-Server der Standard Edition aus der Dropdownliste aus. Ein Director oder Director-Pool kann nicht als nächster Hop für einen Vermittlungsserverpool oder Vermittlungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf "OK", um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf Abbrechen, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
-ms.openlocfilehash: 51c0ab15d173a7355aa599adae353e14904d70d0
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 688f23bd4b1fecca01458031bd7f93077e74869d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60772795"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60859202"
 ---
 # <a name="mediation-next-hop-settings-expander"></a>Einstellungen unter „Nächster Hop“ für Vermittlung – Erweiterung
  
 Zum Angeben des nächsten Hops eines Vermittlungsserverpools oder Vermittlungsservers wählen Sie den definierten Front-End-Pool der Enterprise Edition oder den Front-End-Server der Standard Edition aus der Dropdownliste aus. Ein Director oder Director-Pool kann nicht als nächster Hop für einen Vermittlungsserverpool oder Vermittlungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt. Klicken Sie auf **"OK",** um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
   
-Ausführliche Informationen zu den Einstellungen für den Vermittlungsserverpool oder Vermittlungsserver finden Sie unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md) in der Bereitstellungsdokumentation.
+Ausführliche Informationen zu den Einstellungen für den Vermittlungsserverpool oder Vermittlungsserver finden Sie in der Bereitstellungsdokumentation unter [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server.](../../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)
   
 

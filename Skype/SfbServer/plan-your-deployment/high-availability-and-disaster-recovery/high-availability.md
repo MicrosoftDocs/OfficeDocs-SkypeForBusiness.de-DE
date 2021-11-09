@@ -2,7 +2,7 @@
 title: Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
 description: Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: 5d9eef2a027131db960b05508ece28cf95b992dc
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737681"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831849"
 ---
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
@@ -47,8 +47,8 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 |:-----|:-----|
 |2  <br/> |1  <br/> |
 |3  <br/> |3  <br/> |
-|4   <br/> |3  <br/> |
-|5  <br/> |4   <br/> |
+|4  <br/> |3  <br/> |
+|5  <br/> |4  <br/> |
 |6   <br/> |5  <br/> |
 |7   <br/> |5  <br/> |
 |8   <br/> |6   <br/> |
@@ -90,7 +90,7 @@ Sie sollten auf einige andere Faktoren achten, um sicherzustellen, dass Ihre Fro
   
 - Wenn Sie das erste Mal Benutzer in den Pool verschieben, stellen Sie sicher, dass mindestens drei der Front-End-Server aktiv sind.
     
-- Wenn Sie eine Kopplungsbeziehung zwischen diesem Pool und einem anderen Pool für Notfallwiederherstellungszwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool zu einem bestimmten Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt hat, um Daten ordnungsgemäß mit dem Sicherungspool zu synchronisieren. Weitere Informationen zu Poolpaaren und Notfallwiederherstellungsfeatures finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server](high-availability-and-disaster-recovery.md). 
+- Wenn Sie eine Kopplungsbeziehung zwischen diesem Pool und einem anderen Pool für Notfallwiederherstellungszwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool zu einem bestimmten Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt hat, um Daten ordnungsgemäß mit dem Sicherungspool zu synchronisieren. Weitere Informationen zu Poolpaaren und Notfallwiederherstellungsfeatures finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server.](high-availability-and-disaster-recovery.md) 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Front-End-Pool mit zwei Front-End-Servern
 

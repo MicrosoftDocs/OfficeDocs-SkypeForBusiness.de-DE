@@ -1,6 +1,6 @@
 ---
-title: Erstellen einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
-author: cichur
+title: Erstellen Einer neuen Vorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
+author: HowlinWolf-92
 ms.author: v-mahoffman
 ms.reviewer: aaglick
 manager: serdars
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 095596684c52615340efa32e7dcfd78eb3e9e823
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: ac461654031507dad1340de7d0e0998aee61b3c1
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60745591"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60831759"
 ---
 # <a name="create-a-new-team-template-from-an-existing-team-template-in-microsoft-teams"></a>Erstellen Sie eine neue Teamvorlage aus einer vorhandenen Teamvorlage in Microsoft Teams
 
@@ -31,7 +31,7 @@ Microsoft Teams stellt vordefinierte Vorlagen bereit, die gespeichert und an Ihr
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
+2. Erweitern Sie im linken Navigationsbereich die **Teams**  >  **Teamvorlagen**.
 
 3. Wählen Sie **im Abschnitt Teamvorlagen** neben einer Teamvorlage, die Sie duplizieren möchten, die Option aus, um sie zu markieren.
 

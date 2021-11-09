@@ -1,7 +1,7 @@
 ---
 title: Vergleich der Mobilen Clientfeatures für Skype for Business
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -16,19 +16,19 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b2c950c9-76a5-400a-b146-9b1a22790c12
-description: 'Zusammenfassung: Überprüfen Sie die Featureunterstützung für den mobilen Client bei der Planung für Skype for Business Server.'
-ms.openlocfilehash: 9b619219666a89e40870caf4cea80a683011775c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Überprüfen Sie die Featureunterstützung für den mobilen Client, während Sie Skype for Business Server planen.'
+ms.openlocfilehash: f1bbb046827ef762f5def1d532089e9621c32b28
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759567"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834123"
 ---
 # <a name="mobile-client-feature-comparison-for-skype-for-business"></a>Vergleich der Mobilen Clientfeatures für Skype for Business
  
 **Zusammenfassung:** Überprüfen Sie die Featureunterstützung für den mobilen Client, während Sie Skype for Business Server planen.
   
-In diesem Artikel werden die Features und Funktionen zwischen Skype for Business mobilen Clients und dem Skype for Business Desktopclient in den folgenden Kategorien verglichen:
+In diesem Artikel werden die Features und Funktionen zwischen Skype for Business mobilen Clients und dem Skype for Business-Desktopclient in den folgenden Kategorien verglichen:
   
 - Anmeldung, Pushbenachrichtigungen und allgemeine Features
     
@@ -38,7 +38,7 @@ In diesem Artikel werden die Features und Funktionen zwischen Skype for Business
     
 - Sofortnachrichten
     
-- Skype for Business zum Skype for Business von Audio und Video
+- Skype for Business zum Skype for Business von Audio- und Videodaten
     
 - Konferenzen
     
@@ -50,7 +50,7 @@ In diesem Artikel werden die Features und Funktionen zwischen Skype for Business
     
 -  Moderne Authentifizierung
     
-In den folgenden Tabellen sind die Features aufgeführt, die Skype for Business Benutzern in einer lokalen Bereitstellung von Skype for Business Server zur Verfügung stehen. Dieselben Features stehen auch Skype for Business Online- und Microsoft 365 oder Office 365 Benutzern zur Verfügung, sofern in den Fußnoten der Tabelle nichts anderes angegeben ist.
+In den folgenden Tabellen sind die Features aufgeführt, die Skype for Business Benutzern in einer lokalen Bereitstellung von Skype for Business Server zur Verfügung stehen. Dieselben Features sind auch für Skype for Business Online- und Microsoft 365- oder Office 365-Benutzer verfügbar, sofern in den Fußnoten der Tabelle nichts anderes angegeben ist.
   
 > [!NOTE]
 > Onlinehilfe und Ressourcen für Endbenutzer finden Sie unter ["Entdecken Skype for Business".](https://go.microsoft.com/fwlink/p/?LinkId=528686) 
@@ -59,12 +59,12 @@ In den folgenden Tabellen sind die Features aufgeführt, die Skype for Business 
 > Informationen zum Vergleichen der Features, die in anderen Skype for Business Clients verfügbar sind, finden Sie unter Vergleich der [Desktopclientfeatures für Skype for Business.](desktop-feature-comparison.md) 
 
 > [!NOTE]
-> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 ## <a name="sign-in-push-notifications-and-general-features"></a>Anmeldung, Pushbenachrichtigungen und allgemeine Features
 
  
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Skype for Business Sitzung bleibt angemeldet  <br/> |&#x2714;|&#x2714; &#x2776; |&#x2714; &#x2776; |&#x2714;|
 |Unterstützung für Pushbenachrichtigungen  <br/> |&#x2714; &#x2778; |&#x2714;|&#x2714; &#x2779; |&#x2714; &#x2779; |
@@ -75,26 +75,26 @@ In den folgenden Tabellen sind die Features aufgeführt, die Skype for Business 
    
  &#x2776; Am Windows Phone meldet sich Skype for Business nach einem Zeitraum der Inaktivität wie folgt automatisch ab:
   
-- Wenn der Benutzer Pushbenachrichtigungen aktiviert hat, Skype for Business sich nach 10 Tagen Inaktivität abmelden.
+- Wenn der Benutzer Pushbenachrichtigungen aktiviert hat, meldet sich Skype for Business nach 10 Tagen Inaktivität ab.
     
-- Wenn der Benutzer keine Pushbenachrichtigungen aktiviert hat, Skype for Business sich abmelden, sobald der Benutzer die App verlässt.
+- Wenn der Benutzer keine Pushbenachrichtigungen aktiviert hat, wird Skype for Business abgemeldet, sobald der Benutzer die App verlässt.
     
 Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mobile Client den Server 10 Tage lang aufgrund eines Ausfalls der Netzwerkkonnektivität oder anderer Probleme nicht kontaktiert hat.
   
- &#x2777; nur in der App.
+ nur in der App &#x2777;.
   
  &#x2778; Benachrichtigungen sind verfügbar, wenn die App im Hintergrund ausgeführt wird.
  
- &#x2779; Sowohl Google/Android/GCNS als auch apple/APNS mobile Benachrichtigungsdienste verwenden https/TLS-Verschlüsselung für die Übermittlung von Benachrichtigungen. Die Benachrichtigungsnutzlast wird im Nur-Text-Format verarbeitet, während sie vom Benachrichtigungsanbieter verarbeitet wird.
+ &#x2779; sowohl Google/Android/GCNS als auch apple/APNS mobile Benachrichtigungsdienste verwenden https/TLS-Verschlüsselung für die Übermittlung von Benachrichtigungen. Die Benachrichtigungsnutzlast wird im Nur-Text-Format verarbeitet, während sie vom Benachrichtigungsanbieter verarbeitet wird.
  
--   Skype for Business für Android empfangen einfache Benachrichtigungen (über GCNS) ohne Kundendaten.
+-   Skype for Business für Android erhält einfache Benachrichtigungen (über GCNS) ohne Kundendaten.
 -   Skype for Business für iOS empfängt Benachrichtigungen (über APNS), die Kundendaten für den Anruf oder die Nachricht enthalten können.
  
   
 ## <a name="enhanced-presence-support"></a>Erweiterte Anwesenheitsunterstützung
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Status veröffentlichen und anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Status basierend auf Kalenderinformationen (frei/gebucht) anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -109,7 +109,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 ## <a name="contacts-and-contact-groups-support"></a>Support für Kontakte und Kontaktgruppen
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Kontaktliste anzeigen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Anzeigen von Kontaktgruppen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -130,7 +130,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 ## <a name="instant-messaging-support"></a>Instant Messaging-Unterstützung
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Chatnachrichten mit einem Kontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |An Sofortnachrichten mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -148,7 +148,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 ## <a name="skype-for-business-to-skype-for-business-audio-and-video"></a>Skype for Business zum Skype for Business von Audio und Video
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Skype for Business-zu-Skype for Business-VoIP  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Skype for Business-zu-Skype for Business-Video  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -159,7 +159,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 ## <a name="conferencing-support"></a>Konferenzunterstützung
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Klicken Sie auf einen Link in der Besprechungserinnerung, um an einem Video oder einer VoIP-Besprechung teilzunehmen.  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |An Sofortnachrichten mit mehreren Teilnehmern teilnehmen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -174,7 +174,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 |Freigeben eines Desktops oder Programms  <br/> |&#x2714;||||
 |Anzeigen des freigegebenen Desktops oder Programms (VbSS oder RDP)  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777; |&#x2714; &#x2777; |
 |Anzeigen freigegebener PowerPoint Dateien  <br/> |&#x2714;|&#x2714; &#x2777; |&#x2714; &#x2777;&#x2778; |&#x2714; &#x2777; &#x2778;|
-|Hochladen und Präsentieren PowerPoint Dateien  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
+|Hochladen und präsentieren PowerPoint Dateien  <br/> |&#x2714;||&#x2714; &#x2777; |&#x2714; &#x2777; |
 |Verwenden von Besprechungstools (Whiteboard verwenden, Umfragen durchführen, Dateien freigeben)  <br/> |&#x2714;||||
 |Navigieren in einer Liste Ihrer Besprechungen  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |An einer Besprechung teilnehmen, auch wenn Sie kein Skype for Business Konto haben  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
@@ -190,7 +190,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 ## <a name="telephony-support"></a>Telefonieunterstützung
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Tippen Sie in Skype for Business auf das Anrufsymbol, um einen Kontakt anzurufen.  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Anruf weiterleiten  <br/> |&#x2714;|&#x2714;|&#x2714;||
@@ -206,7 +206,7 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 |Zugreifen auf Voicemail  <br/> |&#x2714;|&#x2714;|&#x2714;||
 |Verwenden der Tastatur in Skype for Business  <br/> |&#x2714; &#x2776; |&#x2714;|&#x2714;||
    
- &#x2776; für Skype for Business Online- und/oder Office 365 E5-Benutzer sowie für Benutzer verfügbar, die auf Skype for Business Server oder Lync Server 2013 verwaltet werden, wobei Enterprise-VoIP aktiviert ist.
+ &#x2776; verfügbar für Skype for Business Online- und/oder Office 365 E5-Benutzer sowie für Benutzer, die auf Skype for Business Server oder Lync Server 2013 verwaltet werden, mit aktivierter Enterprise-VoIP.
   
  &#x2777; Für Skype for Business Online- und/oder Microsoft 365- oder Office 365-Benutzer wird dieses Feature von Microsoft-Partnern unterstützt.
   
@@ -215,28 +215,28 @@ Auf iOS-Geräten wird Skype for Business automatisch abgemeldet, nachdem der mob
 ## <a name="external-user-support"></a>Unterstützung externer Benutzer
 
 
- | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Sofortnachricht mit öffentlichem Kontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Sofortnachricht mit Partnerkontakt initiieren  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Durchführen von Anrufen mit zwei Teilnehmern mit externen Benutzern  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Durchführen von Anrufen mit mehreren Teilnehmern mit externen Benutzern  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Verwenden Sie "Anruf über Arbeit", um einen Verbundkontakt auf dem Mobiltelefon zu erreichen, indem Sie die veröffentlichte Geschäftliche Nummer &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
+|Use Call via Work to reach a federated contact on their mobile phone by calling their published work number &#x2776;            <br/> ||&#x2714;|&#x2714;|&#x2714;|
    
  &#x2776; Standardmäßig wird Verbundbenutzern die Datenschutzbeziehung für externe Kontakte zugewiesen. Damit Sie einen Verbundkontakt auf dem Mobiltelefon erreichen können, indem er seine veröffentlichte Geschäftliche Nummer aufruft, muss der Verbundkontakt Ihnen manuell die Datenschutzbeziehung "Kollegen" zuweisen.
   
 ## <a name="address-book-integration"></a>Adressbuchintegration
 
 
- | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Adressbuchkontakte des Anrufgeräts  <br/> ||&#x2714;|&#x2714;|&#x2714;|
-|Tätigen Skype for Business von Anrufen an Kontakte direkt aus dem Geräteadressbuch  <br/> ||||&#x2714;|
+|Tätigen von Skype for Business Aufrufen von Kontakten direkt aus dem Geräteadressbuch  <br/> ||||&#x2714;|
    
 ## <a name="archiving-and-compliance-support"></a>Archivierungs- und Complianceunterstützung
 
 
- | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Clientseitige Archivierung bereitstellen  <br/> |&#x2714;||||
 |Clientseitige Aufzeichnung bereitstellen  <br/> |&#x2714; &#x2776; ||||
@@ -250,11 +250,11 @@ Diese Tabelle enthält Features, die Unterstützung für die moderne Authentifiz
 Moderne Authentifizierung erfordert auch eine Topologie, die in Skype for Business Topologien beschrieben ist, [die mit moderner Authentifizierung unterstützt werden.](../../plan-your-deployment/modern-authentication/topologies-supported.md)
   
 
- | Feature/Funktion  | Skype for Business Desktopclient  | Windows Phone  | iOS  | Android |
+ | Feature/Funktion  | Skype for Business-Desktopclient  | Windows Phone  | iOS  | Android |
 |:-----|:-----|:-----|:-----|:-----|
 |Moderne Authentifizierung  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
 |Mehrstufige Authentifizierung  <br/> |&#x2714;|&#x2714;|&#x2714;|&#x2714;|
-|Zertifikatbasierte Authentifizierung  <br/> |&#x2714;(Nur In die Domäne eingebundenes Gerät)  <br/> ||&#x2714;|&#x2714;|
+|Zertifikatbasierte Authentifizierung  <br/> |&#x2714;(nur In die Domäne eingebundenes Gerät)  <br/> ||&#x2714;|&#x2714;|
 |Mobile Anwendungsverwaltung (über Intune)  <br/> |||&#x2714;|&#x2714;|
    
 

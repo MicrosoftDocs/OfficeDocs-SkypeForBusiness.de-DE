@@ -2,7 +2,7 @@
 title: Integration zwischen Skype for Business Online und Exchange Server
 ms.reviewer: cbland
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Das Konfigurieren der OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online ermöglicht die in der Featureunterstützung beschriebenen Skype for Business- und Exchange Integrationsfeatures.
-ms.openlocfilehash: 0e811a7feb713e2c356acdeba5461a212bfff17e
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60764773"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60864232"
 ---
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren der Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
@@ -47,7 +47,7 @@ Führen Sie die Schritte im folgenden Artikel aus:
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 2: Erstellen eines neuen E-Mail-Benutzerkontos für die Skype for Business Online-Partneranwendung
 
-Dieser Schritt erfolgt auf dem Exchange Server. Er erstellt einen E-Mail-Benutzer und weist ihm die entsprechenden Verwaltungsrollenrechte zu. Dieses Konto wird dann im nächsten Schritt verwendet.
+Dieser Schritt wird auf dem Exchange Server ausgeführt. Er erstellt einen E-Mail-Benutzer und weist ihm die entsprechenden Verwaltungsrollenrechte zu. Dieses Konto wird dann im nächsten Schritt verwendet.
 
 Geben Sie eine überprüfte Domäne für Ihre Exchange Organisation an. Diese Domäne sollte dieselbe Sein wie die primäre SMTP-Domäne, die für die lokalen Exchange Konten verwendet wird. Diese Domäne wird \<your Verified Domain\> im folgenden Verfahren bezeichnet. Außerdem sollte es \<DomainControllerFQDN\> sich um den FQDN eines Domänencontrollers handeln.
 
@@ -134,7 +134,7 @@ Verwenden Sie als Nächstes Windows PowerShell, um das lokale Autorisierungszert
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Drücken Sie die EINGABETASTE, wenn Sie zur Eingabe von ReturnKeyValues aufgefordert werden.
-3. Bestätigen Sie, dass ein Schlüssel mit Startdatum und Enddaten aufgeführt ist, die mit Ihrem Exchange Oauth-Zertifikat-Start- und Enddatum übereinstimmen
+3. Vergewissern Sie sich, dass ein Schlüssel mit Start- und Enddaten aufgeführt ist, die mit Ihrem Exchange Oauth-Zertifikat-Start- und -Enddatum übereinstimmen
 
 ### <a name="verify-your-success"></a>Überprüfen Ihres Erfolgs
 

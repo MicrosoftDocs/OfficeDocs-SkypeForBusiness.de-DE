@@ -2,7 +2,7 @@
 title: Planen der modernen Authentifizierung (Modern Authentication, ADAL) mit Skype for Business
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: In diesem Artikel wird erläutert, was moderne Authentifizierung (basierend auf der Active Directory-Authentifizierungsbibliothek (ADAL) und OAuth 2.0) ist.
-ms.openlocfilehash: af2ab64b2719348f2c1bb860ae560ea79509921f
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 40bf87317b68e258fc6576b1ce7be7b8decc6939
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60759497"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60834081"
 ---
 # <a name="how-to-use-modern-authentication-adal-with-skype-for-business"></a>Verwenden der modernen Authentifizierung (Modern Authentication, ADAL) mit Skype for Business
  
@@ -31,7 +31,7 @@ Eine Vielzahl von Apps, die als Clients fungieren, können die moderne Authentif
   
 Moderne Authentifizierungsunterhaltungen (die auf ADAL und OAuth 2.0 basieren) haben einige Elemente gemeinsam.
   
-- Es gibt einen Client, der eine Anforderung für eine Ressource stellt, in diesem Fall ist der Client Skype for Business.
+- Es gibt einen Client, der eine Anforderung für eine Ressource stellt, in diesem Fall wird der Client Skype for Business.
     
 - Es gibt eine Ressource, für die der Client eine bestimmte Zugriffsebene benötigt, und diese Ressource wird durch einen Verzeichnisdienst gesichert, in diesem Fall ist die Ressource Skype for Business Server.
     
@@ -39,10 +39,10 @@ Moderne Authentifizierungsunterhaltungen (die auf ADAL und OAuth 2.0 basieren) h
     
 In Skype for Business Server Unterhaltungen zur modernen Authentifizierung (Modern Authentication, ADAL) kommuniziert Skype for Business Server über ADFS (ADFS 3.0 in Windows Server 2012 R2). Die Authentifizierung kann mit einem anderen Identitätsanbieter (IdP) erfolgen, aber Skype for Business Server muss für die direkte Kommunikation mit ADFS konfiguriert werden. Wenn Sie ADFS nicht für die Arbeit mit Skype for Business Server konfiguriert haben, schließen Sie die [ADFS-Installation](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd727938(v=ws.10))ab.
   
-ADAL ist im kumulativen März 2016-Update für Skype for Business Server 2015 enthalten, und das kumulative Update vom März 2016 für Skype for Business **muss** installiert werden und ist für eine erfolgreiche Konfiguration erforderlich. For Skype for Business Server 2019, it is available from initial release of the product.
+ADAL ist im kumulativen März 2016-Update für Skype for Business Server 2015 enthalten, und das kumulative Update vom März 2016 für Skype for Business **muss** installiert sein und ist für eine erfolgreiche Konfiguration erforderlich. For Skype for Business Server 2019, it is available from initial release of the product.
   
 > [!NOTE]
-> Während der ersten Version wird die moderne Authentifizierung in einer lokalen Umgebung nur unterstützt, wenn keine gemischte Skype Topologie beteiligt ist. Wenn die Umgebung beispielsweise rein Skype for Business Server ist. Diese Anweisung kann geändert werden. 
+> Während der ersten Version wird die moderne Authentifizierung in einer lokalen Umgebung nur unterstützt, wenn keine gemischte Skype Topologie beteiligt ist. Wenn die Umgebung beispielsweise nur Skype for Business Server ist. Diese Anweisung kann geändert werden. 
   
 Ein PowerShell-Paket mit .ps1 Dateien mit den von ADAL verwendeten Befehlen muss für eine erfolgreiche Konfiguration heruntergeladen werden.
 

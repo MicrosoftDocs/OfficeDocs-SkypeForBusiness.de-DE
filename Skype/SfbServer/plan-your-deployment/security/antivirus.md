@@ -2,7 +2,7 @@
 title: Antivirus-Scanausschlüsse für Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 5d742259-ef3b-417a-920b-e1fa0e48f043
 description: Übersicht über die Interoperabilität von Antivirenscannern mit Skype for Business Server.
-ms.openlocfilehash: 105abd3618c5e869681edc31321a07ab0bce9d57
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 8a4ffae692704755753fbdaa2c84207af796d75d
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737651"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858992"
 ---
 # <a name="antivirus-scanning-exclusions-for-skype-for-business-server"></a>Antivirus-Scanausschlüsse für Skype for Business Server
 
@@ -142,4 +142,4 @@ Um sicherzustellen, dass der Antivirenscanner den Betrieb von Skype for Business
 
   - SQL Server Daten und Protokolldateien, einschließlich der Dateien für die Back-End-Datenbank, den Benutzerspeicher, den Archivierungsspeicher, den Überwachungsspeicher und den Anwendungsspeicher. Datenbank- und Protokolldateien können im Topologie-Generator angegeben werden. Ausführliche Informationen zu den Daten und Protokolldateien für jede Datenbank, einschließlich Standardnamen, finden Sie unter SQL Server Platzierung von [Daten und Protokolldateien](/previous-versions/office/lync-server-2013/lync-server-2013-sql-server-data-and-log-file-placement) in der Bereitstellungsdokumentation.
 
-  - SQL Server Daten und Protokolldateien, einschließlich der Daten für die Front-End-Datenbank, Skype for Business speicher und des RtcDatabase-Speichers. Sie befinden sich normalerweise unter %localdrive%\CSData.
+  - SQL Server Daten und Protokolldateien, einschließlich der Für die Front-End-Datenbank, Skype for Business speicher und des RtcDatabase-Speichers. Sie befinden sich normalerweise unter %localdrive%\CSData.

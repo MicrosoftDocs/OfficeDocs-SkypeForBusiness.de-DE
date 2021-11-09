@@ -1,7 +1,7 @@
 ---
 title: Konfigurieren und Überwachen des Sicherungsdiensts
 ms.reviewer: ''
-author: cichur
+author: HowlinWolf-92
 ms.author: v-mahoffman
 manager: serdars
 audience: ITPro
@@ -11,19 +11,19 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Sie können Skype for Business Server Verwaltungsshell-Befehle verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen.
-ms.openlocfilehash: f50f8ab13c2013505beace71f7e35cbc7674777c
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 0881d40ca639edf825b0af104981ceddcab6e87a
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60747043"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60832019"
 ---
 # <a name="configuring-and-monitoring-the-backup-service-in-skype-for-business-server"></a>Konfigurieren und Überwachen des Sicherungsdiensts in Skype for Business Server
 
 Sie können die folgenden Befehle Skype for Business Server Verwaltungsshell verwenden, um den Sicherungsdienst zu konfigurieren und zu überwachen. Informationen zum Wiederherstellen von Konferenzinformationen, die im Dateispeicher eines Front-End-Pools gespeichert sind, finden Sie weiter unten unter ["Wiederherstellen von Konferenzinhalten mithilfe des Sicherungsdiensts".](#restore-conference-contents-using-the-backup-service)
 
 > [!NOTE]  
-> Die Gruppe "RTCUniversalServerAdmins" ist die einzige Gruppe, die über Berechtigungen zum standardmäßigen Ausführen von **"Get-CsBackupServiceStatus"** verfügt. Um dieses Cmdlet zu verwenden, melden Sie sich als Mitglied dieser Gruppe an. Alternativ können Sie anderen Gruppen (z. B. CSAdministrator) mithilfe des Cmdlets **"Set-CsBackupServiceConfiguration"** Zugriff auf diesen Befehl gewähren.
+> Die Gruppe "RTCUniversalServerAdmins" ist die einzige Gruppe, die über Berechtigungen zum standardmäßigen Ausführen von **"Get-CsBackupServiceStatus"** verfügt. Um dieses Cmdlet zu verwenden, melden Sie sich als Mitglied dieser Gruppe an. Sie können diesen Befehl auch anderen Gruppen (z. B. CSAdministrator) mithilfe des Cmdlets **"Set-CsBackupServiceConfiguration"** gewähren.
 
 ## <a name="to-see-the-backup-service-configuration"></a>So zeigen Sie die Konfiguration des Sicherungsdiensts an
 

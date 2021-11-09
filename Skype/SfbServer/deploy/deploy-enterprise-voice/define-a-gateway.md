@@ -2,7 +2,7 @@
 title: Definieren eines Gateways im Topologie-Generator in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,18 +16,18 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 456e5a96-d9f6-42a6-862c-a69464391628
 description: 'Zusammenfassung: Erfahren Sie, wie Sie ein PSTN-Gateway im Topologie-Generator in Skype for Business Server definieren.'
-ms.openlocfilehash: c3ea9b02f39b3ef93c7c725735599a3940f33641
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 2e8a69fb1a884597f4e6ecde1a3811a88982d13e
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60753606"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60857952"
 ---
 # <a name="define-a-gateway-in-topology-builder-in-skype-for-business-server"></a>Definieren eines Gateways im Topologie-Generator in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie ein PSTN-Gateway im Topologie-Generator in Skype for Business Server definieren.
   
-Führen Sie die folgenden Schritte aus, um mithilfe des Topologie-Generators einen Peer zu definieren, dem Sie einen Vermittlungsserver zuordnen können, um Benutzern, die für Enterprise-VoIP aktiviert sind, eine Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) zu ermöglichen. Ein Peer zum Vermittlungsserver kann ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein Session Border Controller (SBC) für einen Internettelefoniedienstanbieter (Internet Telephony Service Provider, ITSP) sein, mit dem Sie eine Verbindung herstellen, indem Sie einen SIP-Trunk konfigurieren.
+Führen Sie die folgenden Schritte aus, um mithilfe des Topologie-Generators einen Peer zu definieren, dem Sie einen Vermittlungsserver zuordnen können, um Benutzern, die für Enterprise-VoIP aktiviert sind, verbindungen mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) bereitzustellen. Ein Peer zum Vermittlungsserver kann ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein Session Border Controller (SBC) für einen Internettelefoniedienstanbieter (Internet Telephony Service Provider, ITSP) sein, mit dem Sie eine Verbindung herstellen, indem Sie einen SIP-Trunk konfigurieren.
   
 ### <a name="to-define-a-peer-for-the-mediation-server"></a>So definieren Sie einen Peer für den Vermittlungsserver
 
@@ -61,7 +61,7 @@ Führen Sie die folgenden Schritte aus, um mithilfe des Topologie-Generators ein
 9. Geben Sie unter **zugeordneter Vermittlungsserverport** den Überwachungsport ein, den der Vermittlungsserver für SIP-Nachrichten vom Gateway verwendet.
     
     > [!NOTE]
-    > Mit unterstützung mehrerer Trunks in Skype for Business Server können Sie mehrere SIP-Signalingports auf dem Vermittlungsserver für die Kommunikation mit mehreren PSTN-Gateways definieren. Beim Definieren eines Trunks muss sich der Port des **zugeordneten Vermittlungsservers** innerhalb des Bereichs der Überwachungsports für das entsprechende Protokoll befinden, das vom Vermittlungsserver zugelassen wird. Dieser Portbereich ist unter Skype for Business Server und Vermittlungspools definiert. Klicken Sie mit der rechten Maustaste auf den gewünschten Vermittlungsserverpool, und wählen Sie **"Eigenschaften bearbeiten"** aus. Geben Sie den Portbereich im Feld **Überwachungsports** an.
+    > Mit mehreren Trunkunterstützungen in Skype for Business Server können Sie mehrere SIP-Signalisierungsports auf dem Vermittlungsserver für die Kommunikation mit mehreren PSTN-Gateways definieren. Beim Definieren eines Trunks muss sich der Port des **zugeordneten Vermittlungsservers** innerhalb des Bereichs der Überwachungsports für das entsprechende Protokoll befinden, das vom Vermittlungsserver zugelassen wird. Dieser Portbereich ist unter Skype for Business Server und Vermittlungspools definiert. Klicken Sie mit der rechten Maustaste auf den gewünschten Vermittlungsserverpool, und wählen Sie **"Eigenschaften bearbeiten"** aus. Geben Sie den Portbereich im Feld **Überwachungsports** an.
   
 10. Stellen Sie sicher, dass der von Ihnen definierte Peer ausgeführt wird und den angegebenen FQDN oder die angegebene IP-Adresse verwendet. Klicken Sie dann auf **Fertig stellen**.
     

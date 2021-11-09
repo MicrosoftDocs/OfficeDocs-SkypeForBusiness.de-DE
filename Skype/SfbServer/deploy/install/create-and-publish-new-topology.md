@@ -2,7 +2,7 @@
 title: Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
@@ -17,12 +17,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 451c41a1-b8c5-4dc3-9e48-0da9ed5381a1
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine neue Topologie erstellen, veröffentlichen und überprüfen, bevor Sie Skype for Business Server installieren. Laden Sie eine kostenlose Testversion von Skype for Business Server aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server .'
-ms.openlocfilehash: 16fad4b920280ba5557dc612031d5abbfad7fe35
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: e224df12ddb680dcec86611f2bce65e377e76c04
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60751164"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60841867"
 ---
 # <a name="create-and-publish-new-topology-in-skype-for-business-server"></a>Erstellen und Veröffentlichen einer neuen Topologie in Skype for Business Server
  
@@ -156,23 +156,23 @@ Sie können Skype for Business Server Topologie-Generator verwenden, um Topologi
     
       ![Webdienste außer Kraft setzen.](../../media/8f95313c-2df4-4885-adc5-9fc9ea775406.png)
   
-11. Wenn Sie **"Konferenzen"** auf der Seite **"Features auswählen"** ausgewählt haben, werden Sie aufgefordert, einen Office Web Apps-Server auszuwählen. Klicken Sie auf **Neu,** um das Dialogfeld zu starten.
+11. Wenn Sie auf der Seite **"Features auswählen"** die Option **"Konferenzen"** ausgewählt haben, werden Sie aufgefordert, einen Office Web Apps-Server auszuwählen. Klicken Sie auf **Neu,** um das Dialogfeld zu starten.
     
-12. Geben Sie im Dialogfeld **"Neuen Office Web Apps-Server definieren"** den FQDN ihres Office Web Apps-Servers in das Feld **Office Web Apps Server-FQDN** ein. Wenn Sie dies tun, sollte ihre Office Web Apps-Serverermittlungs-URL automatisch in das **Feld Office Web Apps-Serverermittlungs-URL** eingegeben werden.
+12. Geben Sie im Dialogfeld **"Neuen Office Web Apps-Server definieren"** den FQDN ihres Office Web Apps-Servers in das **Feld Office Web Apps Server-FQDN** ein. Wenn Sie dies tun, sollte ihre Office Web Apps-Serverermittlungs-URL automatisch in das **Feld Office Web Apps-Serverermittlungs-URL** eingegeben werden.
     
     Wenn der Office Web Apps-Server lokal installiert ist und sich in derselben Netzwerkzone wie Skype for Business Server befindet, wählen Sie nicht die Option **aus, Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird.**
     
-    Wenn der Office Web Apps-Server außerhalb ihrer internen Firewall bereitgestellt wird, wählen Sie die Option **aus, Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird.**
+    Wenn der Office Web Apps-Server außerhalb Ihrer internen Firewall bereitgestellt wird, wählen Sie die Option **aus, Office Web Apps-Server in einem externen Netzwerk (d. h. Umkreis/Internet) bereitgestellt wird.**
     
 13. Klicken Sie auf **Fertig stellen,** um die Konfiguration abzuschließen. Wenn Sie andere Rollenserver auf der Seite **"Serverrollen zuordnen" mit dieser Front-End-Poolseite** definiert haben, werden separate Assistentenseiten für die Rollenkonfiguration geöffnet, auf denen Sie die Serverrollen konfigurieren können. In diesem Beispiel haben wir nur Konferenzen ausgewählt.
     
 ### <a name="configure-simple-urls"></a>Konfigurieren einfacher URLs
 
-1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **Skype for Business Server** obersten Knoten, und klicken Sie dann auf **Eigenschaften bearbeiten**, wie in der Abbildung dargestellt.
+1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **Skype for Business Server** oberen Knoten, und klicken Sie dann auf **"Eigenschaften bearbeiten",** wie in der Abbildung dargestellt.
     
      ![Klicken Sie mit der rechten Maustaste auf Skype for Business Server, und wählen Sie "Eigenschaften bearbeiten" aus.](../../media/692c18dd-8e99-4239-ae7b-5e855d866afa.png)
   
-2. Wählen Sie im Bereich **einfache URLs** entweder **Telefon Zugriffs-URLs:** (Einwahl) oder **Besprechungs-URLs:** (Besprechung) zum Bearbeiten aus, und klicken Sie dann auf **"URL bearbeiten".**
+2. Wählen Sie im Bereich **einfache URLs** entweder **Telefon Zugriff auf URLs:** (Einwahl) oder **Besprechungs-URLs:** (Besprechung) zum Bearbeiten aus, und klicken Sie dann auf **"URL bearbeiten".**
     
 3. Aktualisieren Sie die URL auf den gewünschten Wert, und klicken Sie auf **OK**, um die bearbeitete URL zu speichern. Sie sollten die einfache URL mithilfe der externen SIP-Domäne konfigurieren, damit externe Benutzer z. B. an Besprechungen teilnehmen können, bei denen es sich `contoso.com` um eine externe und nicht um eine interne Domäne `contoso.local` handelt. Daher sollte die SIP-Domäne durch externes DNS aufgelöst werden können.
     
@@ -182,7 +182,7 @@ Sie können Skype for Business Server Topologie-Generator verwenden, um Topologi
 
 1. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf den **knoten Skype for Business Server,** und klicken Sie dann auf **Eigenschaften bearbeiten.**
     
-2. Geben Sie im Feld Administrative **Zugriffs-URL** die einfache URL ein, die Sie für den Administratorzugriff auf Skype for Business Server Systemsteuerung wünschen, und klicken Sie dann auf **OK.**
+2. Geben Sie im Feld Administrative **Zugriffs-URL** die einfache URL ein, die Sie für den administrativen Zugriff auf Skype for Business Server Systemsteuerung wünschen, und klicken Sie dann auf **OK.**
     
     > [!TIP]
     > Es wird empfohlen, eine möglichst einfache URL als Admin-URL zu verwenden. Die einfachste Option ist https://admin . _\<domain\>_ . Die Admin-URL kann z. B. eine interne oder externe Domäne `contoso.local` sein `contoso.com` oder, solange ein Eintrag im internen DNS aufgelöst werden kann. 
@@ -224,7 +224,7 @@ Sie können Skype for Business Server Topologie-Generator verwenden, um Topologi
     
     - **Automatisches Bestimmen** des Speicherorts von Datenbankdateien – Diese Option bestimmt die beste Betriebsleistung basierend auf der Datenträgerkonfiguration auf Ihrem SQL Server-basierten Server, indem die Protokoll- und Datendateien an den besten Speicherort verteilt werden.
     
-    - **Verwenden Sie SQL Server Instanzstandardeinstellungen:** Mit dieser Option werden Protokoll- und Datendateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
+    - **Verwenden Sie SQL Server Instanzstandardeinstellungen.** Mit dieser Option werden Protokolldateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
     
     Klicken Sie auf **OK** und dann auf **Weiter**. 
     
@@ -232,7 +232,7 @@ Sie können Skype for Business Server Topologie-Generator verwenden, um Topologi
     
     - **Automatisches Bestimmen** des Speicherorts von Datenbankdateien – Diese Option bestimmt die beste Betriebsleistung basierend auf der Datenträgerkonfiguration auf Ihrem SQL Server-basierten Server, indem die Protokoll- und Datendateien an den besten Speicherort verteilt werden.
     
-    - **Verwenden Sie SQL Server Instanzstandardeinstellungen:** Mit dieser Option werden Protokoll- und Datendateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
+    - **Verwenden Sie SQL Server Instanzstandardeinstellungen.** Mit dieser Option werden Protokolldateien mithilfe der Instanzeinstellungen auf dem SQL Server-basierten Server abgelegt. Diese Option macht keinen Gebrauch von der Funktion des SQL Server-basierten Servers zum Ermitteln der optimalen Speicherorte für Protokolle und Daten. Der SQL Server-Administrator verschiebt die Protokoll- und Datendateien in der Regel an Speicherorte, die für den SQL Server-basierten Server geeignet sind und den Verwaltungsverfahren für die Organisation entsprechen.
     
     Klicken Sie auf **OK**.
     

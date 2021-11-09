@@ -2,7 +2,7 @@
 title: Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in Skype for Business Server
 ms.reviewer: ''
 ms.author: v-mahoffman
-author: cichur
+author: HowlinWolf-92
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,13 +11,13 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f95f8d3a-e039-484e-97bd-d727db21a12b
-description: 'Zusammenfassung: Erfahren Sie, wie Sie ein Update oder patchen auf einem Back-End-Server in Skype for Business Server installieren.'
-ms.openlocfilehash: 6c2a03358f5fc5f1253f65d1ff2bc202871da678
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+description: 'Zusammenfassung: Erfahren Sie, wie Sie ein Update oder einen Patch auf einem Back-End-Server in Skype for Business Server installieren.'
+ms.openlocfilehash: 55d81e97712abe51544a854bf175348526e9f29c
+ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60737781"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "60858212"
 ---
 # <a name="patch-or-update-a-back-end-server-or-standard-edition-server-in-skype-for-business-server"></a>Patchen oder Aktualisieren eines Back-End-Servers oder Standard Edition-Servers in Skype for Business Server
  
@@ -51,7 +51,7 @@ Wenn ein Back-End-Server während des Upgrades mindestens 30 Minuten ausgefallen
     
 7. Installieren Sie das Update.
     
-8. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business** und dann auf **Skype for Business Server Verwaltungsshell.**
+8. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **Start,** klicken Sie auf **"Alle Programme",** auf **Skype for Business** und dann auf **Skype for Business Server Verwaltungsshell.**
     
 9. Beenden Sie Skype for Business Server Dienste erneut, um GAC-D-Assemblys (Global Assembly Cache) abzufangen. Geben Sie an der Eingabeaufforderung Folgendes ein:
     
