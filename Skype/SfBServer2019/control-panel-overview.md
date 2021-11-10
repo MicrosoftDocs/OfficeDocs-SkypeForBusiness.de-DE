@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Dieser Artikel bietet eine Übersicht über die neue Systemsteuerung.
-ms.openlocfilehash: 77e26b810bfd61effa5d94ec3648c440476a7cbe
-ms.sourcegitcommit: eba9fc680233e9e03773a2942f22afe6247eec41
+ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
+ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60824643"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "60887303"
 ---
 # <a name="control-panel"></a>Systemsteuerung
 
@@ -58,3 +58,10 @@ Die neue Systemsteuerung enthält häufig verwendete Menüelemente, die die meis
 |Registrar         |    [Registrar](use-powershell-security-menu.md#registrar)     |
 |Webdienst      |  [Webdienst](use-powershell-security-menu.md#web-service)       |
 |PIN-Richtlinie    | [PIN-Richtlinie](use-powershell-security-menu.md#pin-policy)        |
+
+## <a name="im-and-presence"></a>Sofortnachrichten und Anwesenheit
+
+|Untermenü  |Informationsquelle für Cmdlet  |
+|---------|---------|
+|Dateifilter         |    [Dateifilter](use-powershell-im-and-presence-menu.md#file-filter)     |
+|URL-Filter      |  [URL-Filter](use-powershell-im-and-presence-menu.md#url-filter)       |
