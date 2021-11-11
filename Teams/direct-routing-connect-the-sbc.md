@@ -1,5 +1,5 @@
 ---
-title: Verbinden Session Border Controller (SBC) auf Direct Routing um
+title: Verbinden Ihres Session Border Controller (SBC) zum direkten Routing
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -15,17 +15,17 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie Ihren SBC konfigurieren und eine Verbindung Telefonsystem Direct-Routing herstellen.
-ms.openlocfilehash: d18ff8a8f0c398979a2c04d3aca1ff69b8bdc8f1
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Hier erfahren Sie, wie Sie Ihren SBC konfigurieren und mit direct Telefonsystem Routing verbinden.
+ms.openlocfilehash: 199573fa2e67f46f8430dba3d9e9d506b7cbb641
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58726124"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909566"
 ---
-# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Verbinden Session Border Controller (SBC) auf Direct Routing um
+# <a name="connect-your-session-border-controller-sbc-to-direct-routing"></a>Verbinden Ihres Session Border Controller (SBC) zum direkten Routing
 
-In diesem Artikel wird beschrieben, wie Sie einen Session Border Controller (SBC) konfigurieren und mit Telefonsystem Direct Routing verbinden.  Dies ist Schritt 1 der folgenden Schritte zum Konfigurieren von Direct-Routing:
+In diesem Artikel wird beschrieben, wie Sie einen Session Border Controller (SBC) konfigurieren und mit Telefonsystem Routing verbinden.  Dies ist Schritt 1 der folgenden Schritte zum Konfigurieren von Direct-Routing:
 
 - **Schritt 1. Verbinden SBC mit Telefonsystem und Überprüfen der Verbindung** (in diesem Artikel)
 - Schritt 2: [Aktivieren von Benutzern für das Direkte Routing](direct-routing-enable-users.md)
@@ -34,14 +34,14 @@ In diesem Artikel wird beschrieben, wie Sie einen Session Border Controller (SBC
 
 Informationen zu allen zum Einrichten von Direct-Routing erforderlichen Schritten finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md)
 
-Sie können das Microsoft Teams [Admin Center](#using-the-microsoft-teams-admin-center) oder [PowerShell](#using-powershell) verwenden, um einen SBC zu konfigurieren und mit Direct Routing zu verbinden.
+Sie können das Microsoft Teams [Admin Center](#using-the-microsoft-teams-admin-center) oder [PowerShell verwenden,](#using-powershell) um einen SBC zu konfigurieren und mit Direct Routing zu verbinden.
 
 ## <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Wechseln Sie in der linken Navigationsleiste zu **Voice**  >  **Direct Routing**, und klicken Sie dann auf die Registerkarte **SBCs.**
 2. Klicken Sie auf **Hinzufügen**.
 3. Geben Sie einen FQDN für den SBC ein. <br><br>Stellen Sie sicher, dass der Domänenname-Teil des FQDNs einer Domäne entspricht, die in Ihrem Mandanten registriert ist, und beachten Sie, dass der Domänenname für den `*.onmicrosoft.com` SBC-FQDN-Domänennamen nicht unterstützt wird. Wenn Sie z. B. zwei Domänennamen haben, `contoso.com` und , verwenden Sie als `contoso.onmicrosoft.com` `sbc.contoso.com` SBC-Namen. Wenn Sie eine Unterdomäne verwenden, stellen Sie sicher, dass diese Unterdomäne auch in Ihrem Mandanten registriert ist. Wenn Sie beispielsweise verwenden `sbc.service.contoso.com` möchten, muss `service.contoso.com` registriert werden.
-4. Konfigurieren Sie die folgenden Einstellungen für SBC basierend auf den Anforderungen Ihrer Organisation. Details zu jeder dieser Einstellungen finden Sie unter [SBC-Einstellungen.](#sbc-settings)
+4. Konfigurieren Sie die folgenden Einstellungen für den SBC basierend auf den Anforderungen Ihrer Organisation. Details zu jeder dieser Einstellungen finden Sie unter [SBC-Einstellungen.](#sbc-settings)
 
     ![Screenshot der Seite "SBC hinzufügen" im Microsoft Teams Admin Center.](media/direct-routing-add-sbc.png)
 
@@ -57,7 +57,7 @@ Um Ihre SBC mit Direct-Routing zu verbinden, müssen Sie:
 
 ### <a name="connect-to-skype-for-business-online-by-using-powershell"></a>Verbinden von Skype for Business online mithilfe von PowerShell
 
-Sie können eine mit dem Mandanten verbundene PowerShell-Sitzung verwenden, um den SBC mit der Direct-Routingschnittstelle zu koppeln. Führen Sie zum Öffnen einer PowerShell-Sitzung die schritte aus, die unter Einrichten [Ihres Computers für Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
+Sie können eine mit dem Mandanten verbundene PowerShell-Sitzung verwenden, um den SBC mit der Direct-Routingschnittstelle zu koppeln. Zum Öffnen einer PowerShell-Sitzung führen Sie die schritte aus, die unter Einrichten Ihres [Computers für Windows PowerShell.](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
  
 Überprüfen Sie nach dem Einrichten einer PowerShell-Remotesitzung, ob die Befehle zum Verwalten des SBC angezeigt werden. Um die Befehle zu überprüfen, geben Sie in der PowerShell-Sitzung den folgenden Befehl ein. Sie können den Befehl auch kopieren und einfügen, und drücken Sie dann die EINGABETASTE: 
 
@@ -86,7 +86,7 @@ New-CsOnlinePSTNGateway -Fqdn <SBC FQDN> -SipSignalingPort <SBC SIP Port> -MaxCo
 
   > [!NOTE]
   > 1. Wir empfehlen, eine maximale Anrufgrenze in SBC mithilfe von Informationen in der SBC-Dokumentation zu setzen. Das Limit löst eine Benachrichtigung aus, wenn sich der SBC auf der Kapazitätsebene befindet.
-  > 2. Sie können nur dann eine Verbindung mit dem SBC herstellen, wenn der Domänenteil seines FQDNs einer der in Ihrem Mandanten registrierten Domänen mit Ausnahme von \* onmicrosoft.com. Die \* Onmicrosoft.com von Domänennamen wird für den SBC-FQDN-Namen nicht unterstützt. Wenn Sie beispielsweise über zwei Domänennamen verfügen, **contoso.com** und **contoso**.onmicrosoft.com, können Sie sbc.contoso.com für den SBC-Namen verwenden. Wenn Sie versuchen, den SBC mit einem Namen wie "sbc.contoso.abc" zu verbinden, lässt das System dies nicht zu, da die Domäne nicht im Besitz dieses Mandanten ist.<br/>
+  > 2. Sie können nur dann eine Verbindung mit dem SBC herstellen, wenn der Domänenteil ihres FQDNs einer der in Ihrem Mandanten registrierten Domänen mit Ausnahme von \* onmicrosoft.com. Die \* Verwendung onmicrosoft.com Domänennamen wird für den SBC-FQDN-Namen nicht unterstützt. Wenn Sie beispielsweise über zwei Domänennamen verfügen, **contoso.com** und **contoso**.onmicrosoft.com, können Sie sbc.contoso.com für den SBC-Namen verwenden. Wenn Sie versuchen, den SBC mit einem Namen wie "sbc.contoso.abc" zu verbinden, lässt das System dies nicht zu, da die Domäne nicht im Besitz dieses Mandanten ist.<br/>
   > Neben der in Ihrem Mandanten registrierten Domäne ist es wichtig, dass es einen Benutzer mit dieser Domäne und einer zugewiesenen E3- oder E5-Lizenz gibt. Andern falls nicht, wird die folgende Fehlermeldung angezeigt:<br/>
   `Can not use the "sbc.contoso.com" domain as it was not configured for this tenant`.
 
@@ -128,7 +128,7 @@ Nachdem Sie eine Verbindung mit dem SBC hergestellt haben, verwenden Sie das [Cm
 Get-CsOnlinePSTNGateway -Identity sbc.contoso.com  
 ```
 
-Das gekoppelte Gateway sollte in der Liste angezeigt werden, wie im folgenden Beispiel gezeigt, und der **Parameter Enabled** sollte den Wert **True anzeigen.**
+Das gekoppelte Gateway sollte in der Liste angezeigt werden, wie es im folgenden Beispiel gezeigt ist, und der **Parameter Enabled** sollte den Wert **True anzeigen.**
 
 Gibt zurück:
 
@@ -166,10 +166,10 @@ In dieser Tabelle sind die Optionen aufgeführt, die Sie für die SBC im Microso
 |Nein|**SIP-Optionen senden**|SendSIPOptions |Definiert, ob der SBC Nachrichten mit SIP-Optionen sendet. Es wird dringend empfohlen, diese Einstellung zu aktivieren. Wenn diese Einstellung deaktiviert ist, wird der SBC aus dem Überwachungs- und Warnungssystem ausgeschlossen.|Wahr|Wahr<br/>Falsch|Boolean|
 |Nein|**Anrufverlauf weiterleiten**|ForwardCallHistory |Gibt an, ob die Anrufverlaufsinformationen über den Trunk weitergeleitet werden. Wenn Sie dies aktivieren, sendet Microsoft 365-Office 365-Proxy eine Verlaufsinfo- und eine "Von"-Kopfzeile. |Falsch|Wahr<br/>Falsch|Boolean|
 |Nein|**Header "Forward P-Asserted-identity" (WERDEN)**|ForwardPAI|Gibt an, ob der IHNEN-Header zusammen mit dem Anruf weitergeleitet wird. Der PAI-Header bietet eine Möglichkeit, die Identität des Anrufers zu überprüfen. Wenn diese Einstellung auf "Privacy:ID" klicken, wird auch der Header "Privacy:ID" gesendet.|Falsch|Wahr<br/>Falsch|Boolean|
-|Nein|**Kapazität gleichzeitiger Anrufe**|MaxConcurrentSessions |Wenn Sie einen Wert festlegen, werden Sie vom Benachrichtigungssystem benachrichtigt, wenn die Anzahl der gleichzeitigen Sitzungen 90 Prozent oder höher als dieser Wert ist. Wenn Sie keinen Wert festlegen, werden keine Warnungen generiert. Das Überwachungssystem gibt jedoch alle 24 Stunden die Anzahl von gleichzeitigen Sitzungen an. |Null|Null<br/>1 bis 100.000 ||
-|Nein|**Failoverantwortcodes**|FailoverResponseCodes<br>|Wenn Direct Routing als Antwort auf eine ausgehende Einladung einen SIP-Fehlercode 4xx oder 6xx erhält, gilt der Anruf standardmäßig als abgeschlossen. Ausgehend bedeutet einen Anruf von einem Teams-Client zum PSTN mit Datenverkehrsfluss: Teams-Client -> Direct Routing -> SBC ->-Telefonienetzwerk). Wenn Sie einen Failoverantwortcode angeben, zwingt dies Direct Routing, einen anderen SBC auszuprobieren (wenn in der Voiceroutingrichtlinie des Benutzers ein anderer SBC vorhanden ist), wenn er die angegebenen Codes empfängt, wenn der SBC aufgrund von Netzwerk- oder anderen Problemen keinen Aufruf durchführen kann. Weitere Informationen finden Sie unter [Failover bestimmter SIP-Codes, die vom Session Border Controller (SBC) empfangen werden.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
+|Nein|**Kapazität gleichzeitiger Anrufe**|MaxConcurrentSessions |Wenn Sie einen Wert festlegen, werden Sie vom Benachrichtigungssystem benachrichtigt, wenn die Anzahl der gleichzeitigen Sitzungen 90 % oder höher als dieser Wert ist. Wenn Sie keinen Wert festlegen, werden keine Warnungen generiert. Das Überwachungssystem gibt jedoch alle 24 Stunden die Anzahl von gleichzeitigen Sitzungen an. |Null|Null<br/>1 bis 100.000 ||
+|Nein|**Failoverantwortcodes**|FailoverResponseCodes<br>|Wenn Direct Routing als Antwort auf eine ausgehende Einladung einen SIP-Fehlercode 4xx oder 6xx erhält, gilt der Anruf standardmäßig als abgeschlossen. Ausgehend bedeutet einen Anruf von einem Teams-Client zum PSTN mit Datenverkehrsfluss: Teams Client -> Direct Routing -> SBC -> Telephony Network). Wenn Sie einen Failoverantwortcode angeben, zwingt dies Direct Routing, einen anderen SBC auszuprobieren (wenn in der Voiceroutingrichtlinie des Benutzers ein anderer SBC vorhanden ist), wenn er die angegebenen Codes empfängt, wenn der SBC aufgrund von Netzwerk- oder anderen Problemen keinen Aufruf durchführen kann. Weitere Informationen finden Sie unter [Failover bestimmter SIP-Codes, die vom Session Border Controller (SBC) empfangen werden.](direct-routing-trunk-failover-on-outbound-call.md)|408, 503, 504||Int|
 |Nein|**Failoverzeiten (Sekunden)**|FailoverTimeSeconds |Wenn Sie einen Wert festlegen, werden ausgehende Anrufe, die vom Gateway nicht innerhalb der festgelegten Zeit beantwortet werden, an den nächsten verfügbaren Trunk geroutet. Wenn es keine zusätzlichen Trunks gibt, wird der Anruf automatisch verworfen. Der Standardwert beträgt 10 Sekunden. In einer Organisation mit langsamen Netzwerken und Gatewayantworten kann dies dazu führen, dass Anrufe unnötig verworfen werden.|10|Zahl|Int|
-|Nein|**Bevorzugtes Land oder eine bevorzugte Region für Medienverkehr**|MediaRelayRoutingLocationOverride |Verwenden Sie , um Ihr bevorzugtes Land oder Ihre bevorzugte Region für den Medienverkehr manuell festlegen. Sie sollten diese Angabe nur festlegen, wenn die Anrufprotokolle eindeutig angeben, dass die Standardzuordnung des Rechenzentrums für den Medienpfad nicht den Pfad verwendet, der dem SBC-Rechenzentrum am nächsten kommt. Standardmäßig weist Direct Routing ein Rechenzentrum basierend auf der öffentlichen IP-Adresse des SBC zu und wählt immer den Pfad aus, der dem SBC-Rechenzentrum am nächsten kommt. In einigen Fällen ist der Standardpfad jedoch möglicherweise nicht der optimale Pfad. Mit diesem Parameter können Sie die bevorzugte Region für den Medienverkehr manuell festlegen. |Keine|Ländercodes im ISO-Format||
+|Nein|**Bevorzugtes Land oder eine bevorzugte Region für Medienverkehr**|MediaRelayRoutingLocationOverride | Nicht für Direct-Routing anwendbar. Dieser Parameter ist für die Verwendung mit verwalteten Netzbetreibern in Anrufplänen reserviert. |Keine|||
 |Nein|**SBC unterstützt PIDF/LO für Notrufe**|PidfloSupported|Geben Sie an, ob der SBC presence Information Data Format Location Object (PIDF/LO) für Notrufe unterstützt.||||
 |Nein| - |MediaBypass|Diese Einstellung gibt an, ob der SBC die Medienumgehung unterstützt und ob Sie ihn für diesen SBC verwenden möchten. |Keine|Wahr<br/>Falsch|Boolean|
 

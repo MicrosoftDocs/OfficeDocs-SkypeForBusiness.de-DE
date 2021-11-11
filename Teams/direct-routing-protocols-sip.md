@@ -17,12 +17,12 @@ f1.keywords:
 description: Direct Routing-Protokolle
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01748c0e344cbadf2d771d2ab4bf6ad1f9b14dfb
-ms.sourcegitcommit: 813f1e44bd094bd997dd7423cda7e685ff61498f
+ms.openlocfilehash: 0a58d40bb59e81376995f4a92421d479f5f4abda
+ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/01/2021
-ms.locfileid: "60633521"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60909576"
 ---
 # <a name="direct-routing---sip-protocol"></a>Direct Routing – SIP-Protokoll
 
@@ -44,6 +44,7 @@ Bevor ein eingehender oder ausgehender Anruf verarbeitet werden kann, werden OPT
 
 > [!NOTE]
 > Die SIP-Header enthalten im verwendeten SIP-URI keine UserInfos. Wie rfc [3261, Abschnitt 19.1.1,](https://tools.ietf.org/html/rfc3261#section-19.1.1)ist der UserInfo-Teil eines URI optional und KANN ABwesend sein, wenn der Zielhost keine Ahnung von Benutzern hat oder der Hosst selbst die zu identifizierende Ressource ist. Wenn das @-Zeichen in einem SIP-URI vorhanden ist, darf das Benutzerfeld NICHT leer sein.
+> Beachten Sie, dass der SIPS-URI nicht mit Direct-Routing verwendet werden sollte, da dieser nicht unterstützt wird.
 
 Bei einem eingehenden Anruf muss der SIP-Proxy den Mandanten suchen, an den der Anruf bestimmt ist, und den bestimmten Benutzer in diesem Mandanten suchen. Der Mandantenadministrator kann Nicht-DID-Nummern, z. B. +1001, in mehreren Mandanten konfigurieren. Daher ist es wichtig, den spezifischen Mandanten zu finden, für den die Zahlen nachschlaget werden soll, da die Nicht-DID-Nummern in mehreren Organisationen Microsoft 365 oder Office 365 sind.  
 
@@ -53,7 +54,7 @@ Nachfolgend finden Sie ein Beispiel für die SIP-Einladungsnachricht bei einem e
 
 | Parametername | Beispiel für den Wert | 
 | :---------------------  |:---------------------- |
-| Request-URI | EINLADEN sip:+18338006777@sip.pstnhub.microsoft.com SIP /2.0 |
+| Request-URI | SIP sip:+18338006777@sip.pstnhub.microsoft.com /2.0 EINLADEN |
 | Über Kopfzeile | Über: SIP/2.0/TLS sbc1.adatum.biz:5058;alias;branch=z9hG4bKac2121518978 | 
 | Max-Forwards Kopfzeile | Max-Forwards:68 |
 | Aus Kopfzeile | Aus Kopfzeile von: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679 |
@@ -67,11 +68,11 @@ Beim Empfang der Einladung führt der SIP-Proxy die folgenden Schritte aus:
 
    - Option 1. Der vollständige FQDN-Name, der in der Kontaktkopfzeile angezeigt wird, muss mit dem Allgemeinen Namen/Betreff Alternativer Name des präsentierten Zertifikats übereinstimmen.  
 
-   - Option 2. Der Domänenteil des im Kontaktheader angezeigten FQDN-Namens (z. B. adatum.biz des FQDN-Namens sbc1.adatum.biz) muss mit dem Platzhalterwert in Gemeinsamer Name/Betreff Alternativer Name (z. B. *.adatum.biz) übereinstimmen.
+   - Option 2. Der Domänenteil des im Kontaktheader angezeigten FQDN-Namens (z. B. adatum.biz des FQDN-Namens sbc1.adatum.biz) muss mit dem Platzhalterwert in Gemeinsamer Name/Subject Alternativer Name (z. B. *.adatum.biz) übereinstimmen.
 
 2. Versuchen Sie, einen Mandanten mit dem vollständigen FQDN-Namen zu finden, der in der Kontaktkopfzeile angezeigt wird.  
 
-   Überprüfen Sie, ob der FQDN-Name aus der Kontaktkopfzeile (sbc1.adatum.biz) als DNS-Name in einer beliebigen Microsoft 365 oder Office 365 registriert ist. Falls gefunden, wird die Suche des Benutzers in dem Mandanten durchgeführt, bei dem der SBC-FQDN als Domänenname registriert ist. Wenn sie nicht gefunden wird, gilt Schritt 3.   
+   Überprüfen Sie, ob der FQDN-Name aus der Kontaktkopfzeile (sbc1.adatum.biz) in einer beliebigen Organisation Microsoft 365 oder Office 365 registriert ist. Falls gefunden, wird die Suche des Benutzers in dem Mandanten durchgeführt, bei dem der SBC-FQDN als Domänenname registriert ist. Wenn sie nicht gefunden wird, gilt Schritt 3.   
 
 3. Schritt 3 gilt nur, wenn fehler bei Schritt 2. 
 
@@ -130,21 +131,21 @@ From: <sip:+17168712781@sbc1.adatum.biz;transport=udp;tag=1c747237679
 
 Der SIP-Proxy muss den FQDN des nächsten Hops für neue Transaktionen im Dialogfeld (z. B. Bye oder Erneut einladen) und beim Antworten auf SIP-Optionen berechnen. Es werden entweder Record-Route Kontakt oder Kontakt verwendet. 
 
-Gemäß [RFC 3261, Abschnitt 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)ist der Kontaktheader in jeder Anforderung erforderlich, die zu einem neuen Dialogfeld führen kann. Die Record-Route ist nur erforderlich, wenn ein Proxy in einem Dialogfeld den Pfad zu zukünftigen Anforderungen aufsuchen möchte. Wenn ein Proxy-SBC mit local media optimization für [Direct-Routing](./direct-routing-media-optimization.md)verwendet wird, muss eine Datensatzroute konfiguriert werden, da der Proxy-SBC in der Route bleiben muss. 
+Gemäß [RFC 3261, Abschnitt 8.1.1.8,](https://tools.ietf.org/html/rfc3261#section-8.1.1.8)ist der Kontaktheader in jeder Anforderung erforderlich, die zu einem neuen Dialogfeld führen kann. Die Record-Route ist nur erforderlich, wenn ein Proxy den Pfad zukünftiger Anforderungen in einem Dialogfeld verwenden möchte. Wenn ein Proxy-SBC mit Local Media Optimization für [Direct-Routing](./direct-routing-media-optimization.md)verwendet wird, muss eine Datensatzroute konfiguriert werden, da der Proxy-SBC in der Route bleiben muss. 
 
 Microsoft empfiehlt, nur Kontaktheader zu verwenden, wenn kein Proxy-SBC verwendet wird:
 
-- Nach [RFC 3261, Abschnitt 20.30,](https://tools.ietf.org/html/rfc3261#section-20.30)wird Record-Route verwendet, wenn ein Proxy in einem Dialogfeld dem Pfad zukünftiger Anforderungen folgen möchte, was nicht von Bedeutung ist, wenn kein Proxy-SBC konfiguriert ist, da der ganze Datenverkehr zwischen dem Microsoft SIP-Proxy und dem gekoppelten SBC fließt. 
+- Nach [RFC 3261, Abschnitt 20.30](https://tools.ietf.org/html/rfc3261#section-20.30), Record-Route wird verwendet, wenn ein Proxy in einem Dialogfeld den Pfad zukünftiger Anforderungen einschlagen möchte. Dies ist nicht von Bedeutung, wenn kein Proxy-SBC konfiguriert ist, da der ganze Datenverkehr zwischen dem Microsoft SIP-Proxy und dem gekoppelten SBC fließt. 
 
 - Der Microsoft SIP-Proxy verwendet nur die Kontaktkopfzeile (nicht Record-Route), um den nächsten Hop beim Senden ausgehender Ping-Optionen zu ermitteln. Das Konfigurieren von nur einem Parameter (Kontakt) anstelle von zwei (Kontakt und Record-Route) vereinfacht die Verwaltung, wenn ein Proxy-SBC nicht verwendet wird. 
 
 Zur Berechnung des nächsten Hops verwendet der SIP-Proxy:
 
-- Priorität 1. Record-Route der obersten Ebene. Wenn das Dialogfeld der obersten Record-Route den FQDN-Namen enthält, wird der FQDN-Name verwendet, um die ausgehende In-Dialog-Verbindung herzustellen.
+- Priorität 1. Record-Route der obersten Ebene. Wenn das Dialogfeld der obersten Record-Route den Namen des FQDN enthält, wird der FQDN-Name verwendet, um die ausgehende In-Dialog-Verbindung herzustellen.
 
 - Priorität 2. Kontaktkopfzeile. Wenn Record-Route vorhanden ist, sucht der SIP-Proxy den Wert des Kontaktkopfs, um die ausgehende Verbindung herzustellen. (Dies ist die empfohlene Konfiguration.)
 
-Wenn sowohl Contact als Record-Route verwendet werden, muss der SBC-Administrator die Werte identisch halten, was zu Verwaltungsaufwand führt. 
+Wenn sowohl Contact als Record-Route verwendet wird, muss der SBC-Administrator die Werte identisch halten, was zu Verwaltungsaufwand führt. 
 
 ### <a name="use-of-fqdn-name-in-contact-or-record-route"></a>Verwenden des FQDN-Namens in Kontakt oder Record-Route
 
@@ -189,7 +190,7 @@ Ein Teams Benutzer kann mehrere Endpunkte gleichzeitig haben. Beispiel: Teams f�
 
 3.  Für jede von den Clients empfangene Anruffortschrittsnachricht konvertiert der SIP-Proxy die Meldung "Anruffortschritt" in die SIP-Nachricht "SIP SIP/2.0 180 Trying". Das Intervall für das Senden solcher Nachrichten wird durch das Intervall der empfangenden Nachrichten vom Anrufcontroller definiert. Im folgenden Diagramm werden vom SIP-Proxy zwei 180 Nachrichten generiert. Diese Nachrichten werden von den Teams Endpunkten des Benutzers gesendet. Die Clients haben jeweils eine eindeutige Tag-ID.  Jede Nachricht, die von einem anderen Endpunkt gesendet wird, wird zu einer separaten Sitzung (der Parameter "tag" im Feld "An" ist anders). Ein Endpunkt generiert aber möglicherweise nicht sofort Nachricht 180 und sendet Nachricht 183, wie in der folgenden Abbildung dargestellt.
 
-4.  Sobald ein Endpunkt eine Media Answer-Nachricht mit den IP-Adressen der Medienkandidaten des Endpunkts generiert hat, konvertiert der SIP-Proxy die empfangene Nachricht in die Nachricht "SIP 183-Sitzungsfortschritt", bei der die SDP vom Client durch die SDP vom Medienprozessor ersetzt wird. Im folgenden Diagramm hat der Endpunkt von Fork 2 den Anruf beantwortet. Wenn der Trunk nicht umgangen wird, wird die 183 SIP-Nachricht nur einmal generiert (entweder "Ring Bot" oder "Clientendpunkt"). Die 183 wird möglicherweise auf einer vorhandenen Verteilergkung bzw. in einer neuen Version gestartet.
+4.  Sobald ein Endpunkt eine Media Answer-Nachricht mit den IP-Adressen der Medienkandidaten des Endpunkts generiert hat, konvertiert der SIP-Proxy die empfangene Nachricht in die Nachricht "SIP 183-Sitzungsfortschritt", bei der die SDP vom Client durch die SDP vom Medienprozessor ersetzt wird. Im folgenden Diagramm hat der Endpunkt von Fork 2 den Anruf beantwortet. Wenn der Trunk nicht umgangen wird, wird die 183 SIP-Nachricht nur einmal generiert (entweder "Ring Bot" oder "Clientendpunkt"). Die 183 wird möglicherweise auf einer vorhandenen Fork gegn, oder sie beginnt eine neue.
 
 5.  Eine Nachricht zur Anrufannahme wird mit den endgültigen Kandidaten des Endpunkts gesendet, der den Anruf angenommen hat. Die Nachricht "Anrufannahme" wird in SIP-Nachricht 200 konvertiert. 
 
@@ -282,7 +283,7 @@ Der Standard wird in Abschnitt 6 von RFC 5589 erläutert. Die zugehörigen RFCs 
 Bei dieser Option wird davon ausgegangen, dass der SIP-Proxy als Transferor fungiert und eine Refer-Nachricht an die SBC sendet. Der SBC fungiert als Transferee und behandelt "Refer" zum Generieren eines neuen Transferangebots. Es gibt zwei mögliche Fälle:
 
 - Der Anruf wird an einen externen PSTN-Teilnehmer übertragen. 
-- Der Anruf wird über SBC von Teams Benutzer an einen Teams Benutzer in demselben Mandanten übertragen. 
+- Der Anruf wird über SBC Teams einen benutzer Teams anderen Benutzer in demselben Mandanten übertragen. 
 
 Wenn der Anruf über SBC von einem Teams-Benutzer an einen anderen übertragen wird, wird erwartet, dass der SBC eine neue Einladung (ein neues Dialogfeld starten) für das Übertragungsziel (den Teams-Benutzer) aus, indem die in der Nachricht "Refer" empfangenen Informationen verwendet werden. 
 
@@ -320,20 +321,20 @@ Microsoft empfiehlt, zur Vereinfachung des Anrufeinrichtungsprozesses immer den 
 
 ## <a name="history-info-header"></a>History-Info Kopfzeile
 
-Der History-Info-Header dient zum Neutargetieren von SIP-Anforderungen und "stellt(en) einen Standardmechanismus zum Erfassen der Informationen zum Anforderungsverlauf zur Verfügung, um eine Vielzahl von Diensten für Netzwerke und Endbenutzer zu ermöglichen". Weitere Informationen finden Sie unter [RFC 4244 – Abschnitt 1.1.](http://www.ietf.org/rfc/rfc4244.txt) Für Microsoft-Telefon System wird dieser Header in Szenarien für simulring und call forwarding verwendet.  
+Der History-Info-Header wird zum Neutargetieren von SIP-Anforderungen verwendet und "stellt einen Standardmechanismus zum Erfassen der Informationen zum Anforderungsverlauf zur Verfügung, um eine Vielzahl von Diensten für Netzwerke und Endbenutzer zu ermöglichen". Weitere Informationen finden Sie unter [RFC 4244 – Abschnitt 1.1.](http://www.ietf.org/rfc/rfc4244.txt) Für Microsoft-Telefon System wird diese Kopfzeile in Szenarien für simulring und Call Forwarding verwendet.  
 
 Beim Senden wird History-Info wie folgt aktiviert:
 
-- Der SIP-Proxy fügt einen Parameter ein, der die zugeordnete Telefonnummer in einzelne History-Info enthält, aus denen der History-Info an den PSTN-Controller gesendet wird.  Der PSTN-Controller erstellt einen neuen History-Info-Header neu und über den SIP-Proxy an den SIP-Trunkanbieter, indem er nur Einträge mit dem Telefonnummerparameter verwendet.
+- Der SIP-Proxy fügt einen Parameter ein, der die zugeordnete Telefonnummer in einzelne History-Info enthält, aus History-Info der PSTN-Controller gesendeten Kopfzeile besteht.  Der PSTN-Controller erstellt einen neuen History-Info-Header neu und über den SIP-Proxy an den SIP-Trunkanbieter, indem er nur Einträge mit dem Telefonnummerparameter verwendet.
 
-- History-Info Kopfzeile wird für gleichzeitiges Anrufen und Anruf-Weiterleitungsfälle hinzugefügt.
+- History-Info Kopfzeile wird für gleichzeitige Anrufe und Anruf weiterleitungsfälle hinzugefügt.
 
 - History-Info Kopfzeile wird für Anrufübertragungsfälle nicht hinzugefügt.
 
-- Bei einem individuellen Verlaufseintrag im nachkonstruierten History-Info-Header wird der Telefonnummerparameter bereitgestellt, der in Kombination mit dem Direct Routing-FQDN (sip.pstnhub.microsoft.com) als Hostteil des URI festgelegt ist. Der Parameter "user=phone" wird als Teil des SIP-URI hinzugefügt.  Alle anderen parameter, die dem ursprünglichen History-Info-Header zugeordnet sind, mit Ausnahme von Kontextparametern für Telefon, werden in der neu erstellten History-Info übergeben.  
+- Bei einem individuellen Verlaufseintrag im nachkonstruierten History-Info-Header wird der Telefonnummerparameter bereitgestellt, der in Kombination mit dem Direct Routing-FQDN (sip.pstnhub.microsoft.com) als Hostteil des URI festgelegt ist. Der Parameter "user=phone" wird als Teil des SIP-URI hinzugefügt.  Alle anderen mit dem ursprünglichen History-Info-Header verknüpften Parameter, mit Ausnahme der Phone-Kontextparameter, werden in der neu erstellten History-Info übergeben.  
 
   > [!NOTE]
-  > Einträge, die privat sind (wie durch die in Abschnitt 3.3 von RFC 4244 definierten Mechanismen definiert), werden wie folgt weitergeleitet: Der SIP-Trunkanbieter ist ein vertrauenswürdiger Peer.
+  > Einträge, die privat sind (wie durch die in Abschnitt 3.3 von RFC 4244 definierten Mechanismen definiert) werden wie folgt weitergeleitet, da der SIP-Trunkanbieter ein vertrauenswürdiger Peer ist.
 
 - Eingehende History-Info werden ignoriert.
 
@@ -375,6 +376,6 @@ Der Neustart in Direct Routing wird gemäß den folgenden Rfc-Absätzen implemen
 
 *Um ICE neu zu starten, MUSS ein Agent sowohl das Eis-Pwd als auch das Eis-Ufrag für den Medienstream in einem Angebot ändern.  Beachten Sie, dass es zulässig ist, in einem Angebot ein Sitzungsattribut zu verwenden, aber das gleiche Eis pwd oder ice-ufrag als Medienattribut in einem nachfolgenden Angebot zu verwenden.  Dies ist keine Kennwortänderung, sondern lediglich eine Änderung an der Darstellung und führt nicht zu einem ICE-Neustart.*
 
-*Ein Agent legt die restlichen Felder in der SDP für diesen Medienstream wie bei einem ersten Angebot dieses Medienstreams fest (siehe Abschnitt 4.3).  Folglich enthält die Gruppe der Kandidaten MÖGLICHERWEISE einige, keine oder alle vorherigen Kandidaten für diesen Datenstrom und KANN eine völlig neue Gruppe von Kandidaten enthalten, wie in Abschnitt 4.1.1 beschrieben.*
+*Ein Agent legt die restlichen Felder in der SDP für diesen Medienstream so fest wie bei einem ersten Angebot dieses Medienstreams (siehe Abschnitt 4.3).  Folglich enthält die Gruppe der Kandidaten MÖGLICHERWEISE einige, keine oder alle vorherigen Kandidaten für diesen Datenstrom und KANN eine völlig neue Gruppe von Kandidaten enthalten, wie in Abschnitt 4.1.1 beschrieben.*
 
 Wenn der Aufruf zunächst mit der Medienumgehung eingerichtet wurde und der Aufruf an einen Skype for Business-Client übertragen wird, muss Direct-Routing einen Medienprozessor einfügen. Dies liegt daran, dass Direct-Routing nicht mit einem Skype for Business-Client mit Medienumgehung verwendet werden kann. Das direkte Routing startet den ICE-Neustartvorgang, indem das Eis-Pwd und das Ice-ufrag geändert und neue Medienkandidaten in einer erneuten Einwahl angeboten werden.
