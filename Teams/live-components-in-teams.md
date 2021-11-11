@@ -18,16 +18,18 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6be8db0fdde7509f5721277b4ee631f7a814171d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
+ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830219"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "60911859"
 ---
 # <a name="manage-live-components-in-teams"></a>Verwalten von Livekomponenten in Teams
 
 Livekomponenten in Teams bieten eine neue Möglichkeit, gemeinsam Ideen zu erstellen und Entscheidungen zu treffen. Senden Sie eine Komponente , z. B. eine Tabelle, Aufgabenliste oder einen Absatz, in der jeder chat inline bearbeiten und die vorgenommenen Änderungen sehen kann. Dies bedeutet, dass Sie Ideen und Feedback von Ihrem Team sammeln können, während Sie weniger Besprechungen halten und gleichzeitig den Bedarf an langen Chatthreads minimieren.
+> [!Note]
+> Livekomponenten sind das erste Feature der [Microsoft Loop-App,](https://www.microsoft.com/en-us/microsoft-loop) das in Ihrer App Teams. Beachten Sie, dass "Livekomponenten" Anfang 2022 in "Schleifenkomponenten" umbenannt wird.
 
 **Erledigen Sie Aufgaben schneller zusammen.** Sie können eine Tagesordnung aus der Menge stammen lassen, die Aktionselemente einer Gruppe nachverfolgen oder gemeinsam Notizen machen. Dies sind nur einige wenige Szenarien, die mit Livekomponenten einfacher gemacht werden.
 
@@ -39,13 +41,11 @@ Livekomponenten in Teams bieten eine neue Möglichkeit, gemeinsam Ideen zu erste
 
 Verfügbar für Teams-Apps Windows, Mac, Linux, iOS und Android.
 
-Ab Anfang September stehen Livekomponenten global zur Verfügung. Ende September wird es für Government Community Cloud Mod (GCC) verfügbar sein.
-
 ## <a name="settings-management"></a>Einstellungen Verwaltung
 
 Live-Komponenten werden mit integrierten Microsoft Fluid Framework in der gesamten Microsoft 365-Suite unterstützt und über SharePoint Online und nicht über das Teams Admin Center gesteuert.
 
-Sie benötigen die neueste Version des [PowerShell SharePoint Online-PowerShell-Moduls,](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) um alle flüssigen Be erfahrungen in Ihrem Mandanten zu aktivieren Office 365 deaktivieren. Microsoft Fluid Framework standardmäßig für alle Mandanten mit Targeted Release auf **EIN** festgelegt. Da Livekomponenten für die Zusammenarbeit entwickelt wurden, werden die Komponenten von anderen Personen immer als bearbeitbar freigegeben, auch wenn Ihr Mandant für andere Dateitypen standardmäßig auf "Nur anzeigen" festgelegt ist. Weitere Details **finden Sie unter** dem Link Weitere Informationen neben der Einstellung.
+Sie benötigen die neueste Version des [PowerShell-SharePoint Online-PowerShell-Moduls,](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) um alle flüssigen Benutzererfahrungen in Ihrem Mandanten zu aktivieren Office 365 deaktivieren. Microsoft Fluid Framework ist für alle **Targeted** Release-Mandanten standardmäßig EIN festgelegt. Da Livekomponenten für die Zusammenarbeit entwickelt wurden, werden die Komponenten von anderen Personen immer als bearbeitbar freigegeben, auch wenn Ihr Mandant für andere Dateitypen standardmäßig auf "Nur anzeigen" festgelegt ist. Weitere Details **finden Sie unter** dem Link Weitere Informationen neben der Einstellung.
 
 ## <a name="checking-if-the-fluid-framework-is-enabled-through-the-sharepoint-online-powershell-cmdlet"></a>Überprüfen, ob die Fluid Framework über das PowerShell-Cmdlet "SharePoint Online" aktiviert ist
 
@@ -55,11 +55,11 @@ Sie benötigen die neueste Version des [PowerShell SharePoint Online-PowerShell-
 
 3. Überprüfen Sie, ob der Wert von IsFluidEnabled wahr **ist.**
 
-## <a name="enabling-the-fluid-framework-through-the-sharepoint-online-powershell-cmdlet"></a>Aktivieren des Fluid Framework über das SharePoint Online-PowerShell-Cmdlet 
+## <a name="enabling-the-fluid-framework-through-the-sharepoint-online-powershell-cmdlet"></a>Aktivieren des Fluid Framework über das PowerShell SharePoint Online-PowerShell-Cmdlet
 
 1. [Verbinden Sie SharePoint Online-PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password) 
 
-2. Aktivieren von Fluid mithilfe des Cmdlets Set-SPOTenant -IsFluidEnabled-$true 
+2. "Fluid aktivieren" mithilfe des Cmdlets "-IsFluidEnabled" Set-SPOTenant"-$true 
    
    Die Änderung dauert ein kurzes Zeit, bis sie für alle Ihre Mandanz zur Anwendung kommt. 
 
@@ -81,21 +81,42 @@ cmdlet Connect-SPOService at command pipeline position 1
 
 Supply values for the following parameters:
 Url: <https://a830edad9050849822e21011208-admin.sharepoint.com/>
-PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $false
+PS C:\\WINDOWS\\system32&gt; set-SPOTenant -isFluidEnabled $true
 PS C:\\WINDOWS\\system32&gt;
 ```
+## <a name="known-issues"></a>Bekannte Probleme
+
+- Livekomponenten in Chats können nicht mithilfe von Office-App unter Android Teams bearbeitet werden.
+
+- Wenn die Standarddateiberechtigungen des Mandanten auf Bestimmte Personen (nur die vom Benutzer angegebenen Personen) festgelegt sind und der Absender beim Erstellen einer Komponente einige Benutzer aus der Liste Bestimmte Personen im **Berechtigungsdialogfeld** entfernt, haben diese Benutzer möglicherweise weiterhin Zugriff auf den Inhalt. Dieses Problem wurde aufgrund der Zugriffsverwaltungsbeschränkung des Berechtigungsdialogfelds behoben und wird in der zukünftigen Version behoben.
+
+- Wenn die Richtlinieneinstellungen des Mandanten für bedingten Zugriff verhindern, dass ein Clientnetzwerk eine Verbindung mit herstellen kann, funktionieren live-Komponenten nicht wie erwartet, um Änderungen am Dienst in Echtzeit `https://pushchannel.1drv.ms` zu speichern.
 
 ## <a name="known-limitations"></a>Bekannte Einschränkungen
 
-- Das Erstellen einer Tabelle oder Aufgabenliste als erste Komponente nach dem Neustart Teams App kann einige Zeit dauern.
+- Die Suche nach Livekomponenten in Teams gibt einen Link zur Komponente in der office.com zurück, nicht die Chatnachricht selbst.
 
-- Andere Chatmitglieder erhalten eine E-Mail-Benachrichtigung, wenn sie mit einem @-Symbol erwähnt werden. (Benachrichtigungen über At-Erwähnungen im Teams-Aktivitätsfeeds werden in Kürze verfügbar sein.)
+- Livekomponenten sind in Partnerchats deaktiviert.
 
-- Bei der Suche nach Livekomponenten innerhalb Teams Suche wird ein Link zur Komponente in der office.com und nicht die Chatnachricht selbst angezeigt.
+- B2B-Gäste können nicht an einer Livekomponente zusammenarbeiten, die über "Company Share Link" für sie freigegeben wird, es sei denn, der Mandant legt die Option für externen Zugriff fest, damit B2B-Gäste dieselbe Zugriffsebene wie Mandantenmitglieder haben.
 
-- Livekomponenten sind in Partnerchats deaktiviert und für normale Chats mit einem Gastkonto aktiviert, das Azure B2B verwendet.
+- Teams Die vollständige Unterstützung von Live-Komponenten wird in Kürze im Webclient verfügbar sein.
 
-- Zwar können Sie eine Komponente in Teams Kanälen und anderen Microsoft 365-Apps freigeben, die Empfänger erhalten derzeit an den meisten Stellen jedoch einen Link. Die Inlinebearbeitung ist in Zukunft für weitere Erfahrungen geplant.
+- Livekomponenten werden in Teams Kanälen noch nicht unterstützt, aber deren Inlinebearbeitung in Kanälen ist für zukünftige mehr Benutzererfahrungen geplant.
+
+- Wenn die Mandanten-Standarddateiberechtigungen auf Bestimmte Personen (nur vom Benutzer **festgelegte Personen)** festgelegt sind, muss der Absender beim Kopieren des Links in die Livekomponente und beim Einfügen in einen anderen Chat das Dialogfeld "Berechtigungen" verwenden und die Empfänger zur Option Bestimmte Personen hinzufügen, um den Zugriff ordnungsgemäß zu gewähren.
+
+- Wenn die Mandanten-Standarddateiberechtigungen auf Bestimmte Personen (nur vom Benutzer **festgelegte Personen)** festgelegt sind, muss der Absender beim Erstellen einer Livekomponente in einem Gruppenchat mit mehr als 20 Mitgliedern die Berechtigungsoptionen für die Komponente manuell auswählen.
+
+- Livekomponenten im Chat werden nicht nur geladen, wenn die Datei in eine andere Bibliothek verschoben wurde. Wenn die Datei in einen anderen Ordner verschoben wird, wird sie weiterhin im Chat geladen.
+
+## <a name="how-to-check-your-tenants-default-file-permissions"></a>Überprüfen der Standarddateiberechtigungen Ihres Mandanten
+
+1. Wechseln Sie zu [Microsoft 365 Admin Center](https://admin.microsoft.com/).
+
+2. Wählen Sie links unter **Admin Center** die Option **SharePoint.**
+
+3. Wählen **Sie Richtlinienfreigabe** aus, und zeigen Sie unter Datei- und Ordnerlinks die  >  Standardmäßigen Dateiberechtigungen Ihres Mandanten an. 
 
 ## <a name="storage-of-fluid-files"></a>Storage von `.fluid` Dateien
 
@@ -103,23 +124,23 @@ PS C:\\WINDOWS\\system32&gt;
 
 In einem -Teams erstellte Livekomponenten werden von einer Datei unterstützt, die in der Datei `.fluid` des Erstellers OneDrive for Business. Als Datei in OneDrive for Business bedeutet dies, dass Benutzer Livekomponenten (Dateien) genauso einfach erstellen, entdecken und verwalten können wie `.fluid` jedes Office Dokument.
 
-Benutzer können über `.fluid` "Office.com" und "OneDrive for Business" nach Inhalten in Dateien OneDrive for Business.
+Benutzer können nach Inhalten in `.fluid` Dateien von "Office.com" und "OneDrive for Business.
 `.fluid` Dateien funktionieren mit Daten-Governance-Features wie eDiscovery, Überwachung, Berichterstellung und gesetzliche Erkung.
 
 `.fluid`Dateien werden jetzt auf Office.com und OneDrive for Business angezeigt, z. B. in den Bereichen Zuletzt verwendet und Empfohlen.
-`.fluid`Dateien können in früheren Versionen von ihrem OneDrive for Business.
+`.fluid`Dateien können aus der Dateiversion in frühere OneDrive for Business.
 
-Chatteilnehmer müssen über ein OneDrive verfügen, um Livekomponenten erstellen zu können. Ohne ein gültiges OneDrive-Konto können die Chatteilnehmer möglicherweise weiterhin an einer Komponente zusammenarbeiten, die von anderen Benutzern erstellt wurde, die über ein gültiges OneDrive-Konto verfügen, aber keine eigene Komponente erstellen können.
+Chatteilnehmer müssen über ein OneDrive verfügen, um Livekomponenten erstellen zu können. Ohne ein gültiges OneDrive-Konto können die Chatteilnehmer möglicherweise weiterhin an einer Komponente zusammenarbeiten, die von anderen Benutzern erstellt wurde, die über ein gültiges OneDrive-Konto verfügen, aber keine eigenen erstellen können.
 
-[Das](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) Verschieben einer Datei von OneDrive auf eine SharePoint-Website führt dazu, dass die Livekomponente `.fluid` im Chat Teams wird.
+[Das](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) Verschieben einer Datei von OneDrive auf eine SharePoint-Website führt dazu, dass die Livekomponente `.fluid` im Chat Teams kann.
 
 **Was geschieht, wenn der Besitzer der Datei das Unternehmen verlässt?**
 
-[OneDrive Aufbewahrungsrichtlinien](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#when-a-user-leaves-the-organization) gelten für Dateien genauso wie für andere vom Benutzer erstellte `.fluid` Inhalte.
+[OneDrive Aufbewahrungsrichtlinien](/microsoft-365/compliance/retention-policies-sharepoint?view=o365-worldwide#when-a-user-leaves-the-organization) gelten genauso für Dateien wie für andere vom Benutzer erstellte `.fluid` Inhalte.
 
 **Wie werden `.fluid` Dateien freigegeben?**
 
-Livekomponenten können in einem Chat Teams eingefügt oder aus einem Chat in einen anderen kopiert werden. (Livekomponenten werden in Kanälen noch nicht unterstützt.) Sie werden standardmäßig auf die vorhandenen Berechtigungen des Mandanten festgelegt, aber benutzer können vor dem Senden Berechtigungen ändern, um sicherzustellen, dass jeder Zugriff hat.
+Livekomponenten können in einen Chat Teams oder aus einem Chat in einen anderen kopiert werden. (Livekomponenten werden in Kanälen noch nicht unterstützt.) Sie werden standardmäßig auf die vorhandenen Berechtigungen des Mandanten festgelegt, aber benutzer können vor dem Senden Berechtigungen ändern, um sicherzustellen, dass jeder Zugriff hat.
 
 Das Öffnen von Komponenten Teams Chats in Office.com bietet am oberen Rand des Fensters Freigabefunktionen, ähnlich wie die Freigabeoptionen, die für andere Office werden.
 
