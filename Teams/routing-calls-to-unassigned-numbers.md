@@ -21,25 +21,22 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation routen.
-ms.openlocfilehash: 2574a0ac734ed6caee1eadf5a5ee006111713055
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 93d9ce289820bdcf9bb4a1e13e78bb8794b77dbd
+ms.sourcegitcommit: bdca3b5eb35a17b27c5a052d83ab229b7c911dd4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536996"
+ms.lasthandoff: 11/12/2021
+ms.locfileid: "60947502"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Weiterleiten von Anrufen an nicht zugewiesene Nummern
 
-> [!NOTE]
-> Dieses Feature steht als Public Preview-Version zur Verfügung.
-
-Als Administrator können Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation weiter routen. Beispielsweise können Sie Anrufe wie folgt an nicht zugewiesene Nummern routen: 
+Als Administrator können Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation weiter routen. Beispielsweise können Sie Anrufe wie folgt an nicht zugewiesene Nummern weiter routen: 
 
 - Alle Anrufe an eine bestimmte nicht zugewiesene Nummer an eine benutzerdefinierte Ankündigung weiter routen.
 
 - Routen aller Anrufe an eine bestimmte nicht zugewiesene Nummer an die Hauptschaltfläche.
 
-Sie können Anrufe an nicht zugewiesene Nummern an einen Benutzer, an ein Ressourcenkonto, das einem automatische Telefonzentrale- oder Anrufwarteschleifen zugeordnet ist, oder an einen Ankündigungsdienst, der dem Anrufer eine benutzerdefinierte Audiodatei wiedergibt, weiter routen.
+Sie können Anrufe an nicht zugewiesene Nummern an einen Benutzer, an ein Ressourcenkonto, das einem automatische Telefonzentrale-Konto oder einer Anrufwarteschleife zugeordnet ist, oder an einen Ankündigungsdienst, der dem Anrufer eine benutzerdefinierte Audiodatei wiedergibt, weiter routen.
 
 ## <a name="configuration"></a>Konfiguration
 
@@ -72,7 +69,7 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Um Anrufe an nicht zugewiesene Abonnentennummern des Microsoft-Anrufplans weiter zu routen, muss Ihr Mandant über Guthaben [für Kommunikationen verfügen.](what-are-communications-credits.md)
 
-- Um Anrufe an nicht zugewiesene Microsoft Calling Plan-Servicenummern weiter zu senden, muss Ihr Mandant über mindestens eine Lizenz Telefonsystem – virtueller Benutzer verfügen.
+- Um Anrufe an nicht zugewiesene Microsoft-Anrufplan-Servicenummern weiter zu senden, muss Ihr Mandant über mindestens eine Lizenz Telefonsystem – virtueller Benutzer verfügen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
