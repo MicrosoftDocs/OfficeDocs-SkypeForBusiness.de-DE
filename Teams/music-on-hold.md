@@ -15,39 +15,36 @@ appliesto:
 ms.localizationpriority: medium
 ms.custom: ''
 description: Erfahren Sie, wie Sie das Feature Musik im Halteraum in einer Telefonsystem.
-ms.openlocfilehash: 7f67e4f26ecac837b93257ca79a757d49daf239b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: e2f2347ca4368a8665d77ff2424a5c0082c1b0d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605561"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960124"
 ---
 # <a name="music-on-hold"></a>Musik im Halteraum
 
 Wenn ein Microsoft Teams einen eingehenden Anruf aus dem öffentlichen Telefonnetz (PSTN) in den Halteraum setzt, kann der PstN-Anrufer ausgewählte Musik hören.
 
-Bei der Abgespielten Musik handelt es sich entweder um die von Microsoft bereitgestellte Standardmusik oder um benutzerdefinierte Musik, die Sie hochladen und konfigurieren. Als Mandantenadministrator konfigurieren Sie, ob die Musik im Halteraum verfügbar ist, indem Sie eine Anrufrichtlinie für Teams erstellen und die Richtlinie dem Benutzer Teams zuweisen.
+Bei der Abgespielten Musik handelt es sich entweder um die von Microsoft bereitgestellte Standardmusik oder um benutzerdefinierte Musik, die Sie hochladen und konfigurieren. Als Mandantenadministrator konfigurieren Sie, ob die Musik im Halteraum verfügbar ist, indem Sie eine Richtlinie für Teams-Aufrufe erstellen und die Richtlinie dem benutzer Teams zuweisen.
 
-Beachten Sie, dass PSTN-Anrufer Musik "Halten" auch in anderen Szenarien hören können. dies kann z. B. der Benutzer sein, wenn er sich in eine Cloud-Anrufwarteschleife anruft oder wenn der Anruf von einem Anderen geparkt Microsoft Teams wird. Diese Szenarien werden nicht von den in diesem Artikel erwähnten Features behandelt oder gesteuert.
+Beachten Sie, dass PSTN-Anrufer Musik-On-Hold auch in anderen Szenarien hören können, z. B. wenn sie sich in eine Cloud-Anrufwarteschleife einrufen oder wenn ihr Anruf von einem Benutzer geparkt Microsoft Teams wird. Diese Szenarien werden nicht von den in diesem Artikel erwähnten Features behandelt oder gesteuert.
 
 ## <a name="configure-music-on-hold"></a>Konfigurieren Musik im Halteraum
 
 So konfigurieren Musik im Halteraum:
 
-1.  Navigieren Sie in der linken Navigationsleiste Teams Admin Center zu Richtlinien **für Sprachanrufe >**.
+1.  Navigieren Sie in der linken Navigationsleiste Teams Admin Center zu **Sprachanrufrichtlinien > Anrufrichtlinien**.
 
 2.  Wählen Sie **auf der Registerkarte** Richtlinien verwalten eine der vorhandenen Richtlinien aus, oder erstellen Sie eine neue.
 
 3.  Wählen Sie **Musik für PSTN-Anrufer** im Wartebereich die Option Aktiviert **im** Dropdownmenü aus.
 
-Sie können die Musik auch mithilfe des PowerShell-Moduls Teams konfigurieren. Ändern Sie in TeamsCallingPolicy den Parameter MusicOnHoldEnabledType in Enabled, und erteilen Sie dann diese Richtlinieninstanz einem oder mehreren Benutzern.
+Sie können auch das Musik im Halteraum mithilfe des PowerShell Teams Moduls konfigurieren. Ändern Sie in TeamsCallingPolicy den Parameter MusicOnHoldEnabledType in Enabled, und erteilen Sie dann diese Richtlinieninstanz einem oder mehreren Benutzern.
 
-Wenn ein Teams-Benutzer über eine Teams-Anrufrichtlinie verfügt, für die der Halte Musik auf Deaktiviert festgelegt ist, wird keine Musik abgespielt, wenn der Teams-Benutzer den Anruf in die Warteschleife setzt.
+Wenn ein Teams-Benutzer über eine Teams-Anrufrichtlinie mit Musik auf "Halten" deaktiviert verfügt, wird keine Musik abgespielt, wenn der Teams-Benutzer den Anruf in die Warteschleife setzt.
 
 ## <a name="configure-custom-music"></a>Konfigurieren benutzerdefinierter Musik
-
-> [!NOTE]
-> Dieses Feature steht als Public Preview-Version zur Verfügung.
 
 Zusätzlich zur Wiedergabe von Standardmusik für PSTN-Anrufer können Sie eine benutzerdefinierte Audiodatei mit Musik oder anderen Audioinhalten hochladen und diese Audiodatei so konfigurieren, dass sie für den PSTN-Anrufer abgespielt wird.
 So möchte beispielsweise eine Abteilung oder Organisation eine benutzerdefinierte Ankündigung oder benutzerdefinierte Musik hören, wenn externe PSTN-Anrufer im Warteschleifen-Speicher halten.  
@@ -55,14 +52,14 @@ So möchte beispielsweise eine Abteilung oder Organisation eine benutzerdefinier
 > [!NOTE]
 > Sie sind für das unabhängige Löschen und Sichern aller erforderlichen Rechte und Berechtigungen für die Verwendung von Musik- oder Audiodateien mit Ihrem Microsoft Teams verantwortlich. Dies kann geistiges Eigentum und andere Rechte an Musik, Soundeffekten, Audio, Marken, Namen und anderen Inhalten in der Audiodatei aller relevanten Rechteinhaber umfassen. Zu den Inhabern gehören möglicherweise Interpreten, Künstler, Künstler, Künstler, Kunst, Interpreten, Autoren, Musikherausgeber, Musikherausgeber, Union, Gilden, Rechteverwaltungsorganisationen und alle anderen Parteien, die die Urheberrechte an Musik, Soundeffekten, Audio und anderen geistigen Eigentumsrechten besitzen, kontrollieren oder lizenzieren.
 
-Zum Konfigurieren von benutzerdefinierten Musik im Halteraum verwenden Sie die PowerShell-Cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy und Import/Get/Remove-CsOnlineAudioFile im Teams PowerShell-Modul 2.5.0 oder höher.
+Zum Konfigurieren von benutzerdefinierten Musik im Halteraum verwenden Sie die PowerShell-Cmdlets New/Get/Set/Grant/Remove-CsTeamsCallHoldPolicy und Import/Get/Remove-CsOnlineAudioFile in Teams PowerShell-Modul 2.5.0 oder höher.
 
 
 1. Stellen Sie sicher, Teams Benutzer die Musik für PSTN-Anrufer in der Richtlinie für Anrufe über das Festnetz auf Aktiviert Teams festgelegt hat. 
 
-2. Hochladen sie die benutzerdefinierte Audiodatei.
+2. Hochladen Sie die benutzerdefinierte Audiodatei.
 
-3. Erstellen Sie Teams Anruf-Hold-Richtlinie, die auf die benutzerdefinierte Audiodatei bezugt, und weisen Sie sie dem Benutzer Teams zu.
+3. Erstellen Sie Teams Anruf-Hold-Richtlinie, die auf die benutzerdefinierte Audiodatei bezugt, und weisen Sie sie dem Teams zu.
 
 ### <a name="upload-the-custom-audio-file"></a>Hochladen der benutzerdefinierten Audiodatei
 
@@ -77,9 +74,9 @@ FileName      : customMoH1.mp3
 ApplicationId : TenantGlobal
 ```
 
-### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>Verweisen auf die Audiodatei in einer Anruf-Teams Anruf-Halterichtlinie
+### <a name="reference-the-audio-file-in-a-teams-call-hold-policy"></a>Verweisen auf die Audiodatei in einer Richtlinie Teams Anruf-Halterichtlinie
 
-Nachdem Sie die Audiodatei hochgeladen haben, müssen Sie in einer Anruf-Halterichtlinie für Teams-Anrufe auf die Datei verweisen, indem Sie beim Erstellen oder Festlegen einer Anruf-Halterichtlinie die ID der Datei Teams festlegen. Zum Beispiel: 
+Nachdem Sie die Audiodatei hochgeladen haben, müssen Sie in einer Anruf-Halterichtlinie für Teams auf die Datei verweisen, indem Sie beim Erstellen oder Festlegen einer Anruf-Halterichtlinie die ID der Datei Teams festlegen. Zum Beispiel: 
 
 ```PowerShell
 C:\> New-CsTeamsCallHoldPolicy -Identity "CustomMoH1" -Description "Custom MoH using CustomMoH1.mp3" -AudioFileId $AudioFile.Id
@@ -109,13 +106,13 @@ In der folgenden Tabelle ist aufgeführt, welche Features auf welchen Clients un
 
 - Musik on Hold ist nur in der kommerziellen Cloud verfügbar.
 
-- Musik im Haltemodus ist nur verfügbar, wenn sich der Benutzer im TeamsOnly-Modus befindet.
+- Musik "Halten" ist nur verfügbar, wenn sich der Benutzer im TeamsOnly-Modus befindet.
 
 - Wenn der aufgerufene Teams für Routing aktiviert Location-Based, Musik anrufer die Option "Halten" nicht abgespielt werden.
 
 - Sie können die Audiodatei nach dem Hochladen nicht exportieren. können Sie sie nur entfernen.
 
-- Benutzerdefinierte Musik "Halten" ist für Benutzer, die für die Darstellung freigegebener Zeilen (Delegierung) konfiguriert sind, und bei Verwendung von Anruf parken nicht verfügbar. Die Standard-Musik im Halteraum wird abgespielt.
+- Benutzerdefinierte Musik "Halten" ist für Benutzer, die für die Darstellung freigegebener Zeilen (Delegierung) und die Verwendung von Anruf parken konfiguriert sind, nicht verfügbar. Die Standard-Musik im Halteraum wird abgespielt.
 
 - In einigen Szenarien wird ein Direct-Routingmedienumgehungsaufruf zur Wiedergabe von Musik im Haltefeld in eine Nicht-Medienumgehung konvertiert, und der Aufruf bleibt als nicht medienfreie Umgehung, bis der Aufruf beendet wird.
 

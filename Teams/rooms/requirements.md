@@ -13,18 +13,18 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
+description: Erfahren Sie mehr über die Anforderungen für die Microsoft Teams-Räume Geräte, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8faa67db5187fb2fa28f1241d969ef4e90b031fd
-ms.sourcegitcommit: ae60b65f866c7ca7556ba5b0cf6f1d902c4454fc
+ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/06/2021
-ms.locfileid: "60798488"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959924"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume können eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und der Nutzung des Raum verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume an Plätzen beliebiger Größe bereitstellen, von kleinen, über große Konferenzräume und Konferenzräumen nach oben umgeknallten Räumen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
+Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume können eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Der Raumnutzung verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, umhingenden Plätzen durch große Konferenzräume und Konferenzräume.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams-Räume melden sich bei Microsoft Teams, Skype für Business Server 2019, Skype für Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in der von 21Vianet Microsoft 365 oder Office 365 oder DoD-Umgebungen betriebenen Umgebung nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in den von 21Vianet Microsoft 365 oder Office 365 oder DoD-Umgebungen betriebenen Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -81,7 +81,7 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
   |Logitech TAP Console mit Lenovo Core Compute |Core i5|8 GB|128 GB|
   |[Logitech Tap und Lenovo Think Smart Tiny](https://www.logitech.com/video-collaboration/partners/lenovo.html)|Core i5|8 GB |128 GB|
   |[Poly G10-T mit Lenovo Think Smart Tiny](https://www.poly.com/us/en/products/video-conferencing/g/g10) |Core i5| 8 GB | 128 GB|
-  |Poly GC10-T mit Lenovo Think smart Core|Core i5|8 GB|128 GB|
+  |Poly GC8-Konsole mit Lenovo Think smart Core|Core i5|8 GB|128 GB|
   |Poly GC8-Konsole mit Dell Denplex 7080|Core i5|8 GB|128 GB|
   |[Yealink MVC300 mit Intel NUC](https://www.yealink.com/products_154.html)|Core i5|8 GB |128 GB |
   |[Yealink MVC500 mit Intel NUC](https://www.yealink.com/products_126.html)|Core i5|8 GB |128 GB |

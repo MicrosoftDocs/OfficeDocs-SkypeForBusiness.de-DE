@@ -18,12 +18,12 @@ description: Erfahren Sie mehr über die öffentliche Vorschau in Microsoft Team
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ea71e9a00b49c498240be0ca876a0f1baeed27eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: e4a223431cef73d1fd9ec0578148b9f9d6f1d6d8
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834733"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959874"
 ---
 # <a name="microsoft-teams-public-preview"></a>Public Preview für Microsoft Teams
 
@@ -38,9 +38,9 @@ Eine Liste der verfügbaren Funktionen in der öffentlichen Vorschau von Microso
 
 Die öffentliche Vorschau wird auf Ebene des einzelnen Benutzers aktiviert, und die Option zum Aktivieren der öffentlichen Vorschau wird über eine Administratorrichtlinie gesteuert. Updaterichtlinien werden zur Verwaltung der Microsoft Teams- und Office-Vorschau-Benutzer verwendet, die Features von Vorabversionen oder Vorschauen in der Microsoft Teams-App sehen. Sie können die globale Richtlinie (organisationsweite Standardrichtlinie) verwenden und anpassen bzw. eine oder mehrere benutzerdefinierte Richtlinien für Ihre Benutzer erstellen. Die Richtlinie muss bestimmten Benutzern zugewiesen werden, da sie die globale Richtlinie nicht außer Kraft setzt.
 
-1. Melden Sie sich beim Admin Center an.
+1. Melden Sie sich beim [Admin Center für Microsoft Teams](https://admin.teams.microsoft.com/) an.
 
-2. Wählen Sie **Microsoft Teams** > **Updaterichtlinien** und dann die Option **Updaterichtlinien** aus.
+2. Wählen **Teams** > **Teams-Updaterichtlinien** aus.
 
 1. Wählen Sie **Hinzufügen** aus, um eine neue Richtlinie zu erstellen, oder bearbeiten Sie eine vorhandene Richtlinie, um **Updaterichtlinie** zu öffnen.
 

@@ -10,7 +10,7 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie mehr über die Strukturierung von Teams und Kanälen in Microsoft Teams und wie Sie mithilfe von Teams organisationsübergreifende Zusammenarbeit fördern.
+description: Erfahren Sie mehr über das Strukturieren von Teams und Kanälen in Microsoft Teams und wie Sie mithilfe von Teams organisationsübergreifende Zusammenarbeit fördern.
 f1.keywords:
 - CSH
 ms.custom:
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 17ae2ae79b35ed0b75347bd7a061ebb6789b4284
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855179"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959814"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
@@ -36,12 +36,12 @@ Die Konzepte von Teams und Kanälen sind von grundlegender Bedeutung für eine g
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in denen die eigentliche Arbeit erledigt wird. 
 
-Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Zur Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365-Gruppen finden Sie unter Microsoft 365 und Gruppen [Microsoft Teams](office-365-groups.md) und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Zur Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365 Gruppen finden [](office-365-groups.md) Sie unter Microsoft 365 und Gruppen Microsoft Teams und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
 
 
 | &nbsp; |&nbsp;  |
 |---------|---------|
-| Dieses kurze Video anzeigen   | <iframe width="350" height="200" src="https://youtu.be/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
+| Dieses kurze Video anzeigen   | <iframe width="350" height="200" src="https://www.youtube.com/embed/WkAVgNKn0hs" frameborder="0" allowfullscreen></iframe>   |
 
 
 
@@ -51,7 +51,7 @@ Teamzugriffstypen bestimmen, wer einem Team beitreten kann:
 
 - *Öffentliche* Teams sind für jeden in der Organisation offen, und die Benutzer können direkt beitreten. Öffentliche Teams sind nützlich für die Zusammenarbeit an Themen, die für Personen in verschiedenen Abteilungen oder für Personen, die an verschiedenen Projekten arbeiten, von allgemeinem Interesse sind. Diese Einstellung eignet sich gut als Standardeinstellung für kleinere Organisationen.
 
-## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Verwenden Teams zum Fördern der organisationsübergreifenden Zusammenarbeit
+## <a name="use-teams-to-drive-cross-organization-collaboration"></a>Verwenden von Teams zum Fördern der organisationsübergreifenden Zusammenarbeit
 
 Es ist eine bewährte Methode, Teams zu verwenden, um die organisationsübergreifende Zusammenarbeit zu verbessern, und viele Projekte werden sich für dieses Modell 365 365 100 100 m 2013 2013 2013 2016 2016 2013 2013 2 Darüber hinaus möchten Führungskräfte oder Abteilungen innerhalb einer Organisation möglicherweise ein dediziertes Team für ihre eigenen Mitarbeiter erstellen. Betrachten Sie die In der folgenden Abbildung dargestellten Organisations- und Projektmodelle.
 

@@ -9,7 +9,7 @@ ms.reviewer: nogaro
 ms.service: msteams
 search.appverid: MET150
 ms.localizationpriority: medium
-description: Erfahren Sie mehr über das Add-On Advanced Communications für Microsoft Teams.
+description: Erfahren Sie mehr über die SKU des Add-Ons Advanced Communications Microsoft Teams.
 f1.keywords:
 - NOCSH
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7eb4708e032f713f85cf6532fe1726d9d8e7a3b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 171bd65dbcedbe71473e6fb3d975ab99696fdf28
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832999"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959824"
 ---
 # <a name="advanced-communications-add-on-for-microsoft-teams"></a>Add-On Advanced Communications für Microsoft Teams
 
@@ -35,17 +35,17 @@ Advanced Communications umfasst erweiterte Besprechungsanpassungen, Tools zum Ve
 - Passen Sie die Vorab-Teilnahme an Besprechungen mit dem Logo Ihres Unternehmens im Wartebereich und im Wartebereich an. 
 - Gestalten Sie Besprechungserfahrungen zusammen mit benutzerdefinierten Szenen im Together Mode, die den Anforderungen Ihres Unternehmens und der Besprechung entsprechen.
 - Überwachen, Nachverfolgen und Analysieren von Daten auf Benutzern und Geräten, um ein reibungsloses Erlebnis mit Echtzeit-Telemetrie zu gewährleisten.
-- Maßgeschneiderte Erfahrungen mit benutzerdefinierten Richtlinienpaketen durch Bündeln eigener Richtlinien für Benutzer mit ähnlichen Rollen in Ihrer Organisation mithilfe des Teams Admin Centers oder von PowerShell. Jeder Benutzer benötigt eine Lizenz, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. 
+- Maßgeschneiderte Erfahrungen mit benutzerdefinierten Richtlinienpaketen durch Bündeln eigener Richtlinien für Benutzer mit ähnlichen Rollen in Ihrer Organisation mithilfe von Teams Admin Center oder PowerShell. Jeder Benutzer benötigt eine Lizenz, um eine benutzerdefinierte Richtlinienpaketzuweisung zu erhalten. 
 
-Advanced Communications ist in allen Microsoft 365 Märkten als Add-On für alle kostenpflichtigen Abonnements Microsoft 365 Office 365 verfügbar. Features, die in Advanced Communications enthalten sind, werden nicht zu anderen Microsoft 365 oder Office 365-Plänen hinzugefügt und können nicht separat erworben werden. Um die Features zu erhalten, müssen Sie das Add-On erwerben.
+Advanced Communications ist in allen Microsoft 365 als Add-On für alle kostenpflichtigen Abonnements Microsoft 365 Office 365 verfügbar. Features, die in Advanced Communications enthalten sind, werden nicht zu anderen Microsoft 365 oder Office 365-Plänen hinzugefügt und können nicht separat erworben werden. Um die Features zu erhalten, müssen Sie das Add-On erwerben.
 
 > [!NOTE]
 > Features werden freigegeben, sobald sie verfügbar sind. Besuchen Sie die [Microsoft 365 Roadmap für](https://www.microsoft.com/microsoft-365/roadmap?filters=Microsoft%20Teams) die neueste Anzeigedauer für Features.
 
 > [!NOTE]
-> Advanced Communications ist für High Microsoft 365 GCC oder DoD-Umgebungen (Department of Defense) noch nicht verfügbar.
+> Advanced Communications ist noch nicht für umgebungen Microsoft 365 GCC High oder Department of Defense (DoD) verfügbar.
 
-Diese Features stehen jetzt in der Vorschau bis zum Ende des Jahres zur Verfügung. Zu diesem Zeitpunkt wird eine Advanced Communications-Lizenz pro Benutzer benötigt, um diese Features weiterhin zu verwenden.
+Diese Features sind jetzt in der Vorschau verfügbar.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

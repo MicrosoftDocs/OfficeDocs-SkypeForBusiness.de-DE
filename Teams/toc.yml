@@ -1464,7 +1464,9 @@ items:
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
           - name: Virtuelle Besuche
             items:
-              - name: Virtuelle Besuche mit Teams – Integration in die EGA
+              - name: Virtuelle Besuche mit Teams – Integration in Cerner EGA
+                href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
+              - name: Virtuelle Besuche mit Teams – Integration in Epic EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EGA-Administratorberichte
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md

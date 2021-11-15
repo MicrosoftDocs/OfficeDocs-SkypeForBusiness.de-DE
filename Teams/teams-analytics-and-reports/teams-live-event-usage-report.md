@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Teams Bericht zur Nutzung von Liveereignissen
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e46c0e55eb4808f3c0b112dae72049649fc7f4a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 504c8822146efa7101ca1435cab961a86068ccaf
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865544"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959894"
 ---
 # <a name="microsoft-teams-live-event-usage-report"></a>Microsoft Teams bericht zur Nutzung von Liveereignisen
 
@@ -30,12 +30,12 @@ Der Teams Bericht zur Nutzung von Liveereignissen im Microsoft Teams Admin Cente
 
 ## <a name="view-the-live-event-usage-report"></a>Anzeigen des Berichts zur Nutzung von Liveereignisen
 
-1. Klicken Sie im linken Navigationsbereich des Microsoft Teams Admin Center auf **Analyseberichte &**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** Nutzung **von Live-Events aus.**
+1. Klicken Sie im linken Navigationsbereich Microsoft Teams Admin Center auf Analyseberichte **&**  >  **Verwendungsberichte**. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter Bericht die Option **Teams** Nutzung **von Live-Events aus.**
 2. Wählen **Sie unter Datumsbereich** einen vordefinierten Bereich aus, oder legen Sie einen benutzerdefinierten Bereich fest. Sie können einen Bereich festlegen, um Daten bis zu einem Jahr, sechs Monate vor und nach dem aktuellen Datum, anzeigen zu können.
 3. (Optional) Unter **Organisator** können Sie auswählen, dass nur Liveereignisse angezeigt werden, die von einem bestimmten Benutzer organisiert wurden.
 4. Klicken **Sie auf Bericht ausführen.**  
 
-    ![Screenshot des Berichts Teams Nutzung von Liveereignisen im Teams Admin Center mit Callouts.](../media/teams-live-event-usage-report-with-callouts.png "Screenshot des Teams zu Liveereignisnutzungsberichten im Teams Admin Center mit Callouts")
+   :::image type="content" alt-text="Screenshot des Teams Bericht zur Nutzung von Liveereignisen im Teams Admin Center mit Callouts." source="../media/teams-live-event-usage-report-with-callouts.png" lightbox="../media/teams-live-event-usage-report-with-callouts.png":::
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
@@ -48,13 +48,15 @@ Der Teams Bericht zur Nutzung von Liveereignissen im Microsoft Teams Admin Cente
 |**5**   |Wählen Sie **Spalten bearbeiten** aus, um Spalten zur Tabelle hinzuzufügen oder daraus zu entfernen.|
 
 ## <a name="notes"></a>Hinweise
-Es werden bis zu 100 Liveereignisse angezeigt, die den Kriterien des aktuellen Berichts entsprechen. Wenn Sie weitere Liveereignisse sehen möchten, wenden Sie Datumsfilter an, um die Listengröße zu verringern.
+Es werden bis zu 100 Liveereignisse gezeigt, die den aktuellen Berichtskriterien entsprechen. Wenn Sie weitere Liveereignisse sehen möchten, wenden Sie Datumsfilter an, um die Listengröße zu verringern. 
+
+Jede Person, die die Aufzeichnung des Ereignisses oder des Ereignisses bei Bedarf ansieht, wird nicht in die Ansichtsanzahl einbezogen. 
 
 ## <a name="view-event-details"></a>Anzeigen von Ereignisdetails
 
 Auf der Detailseite für ein Liveereignis erhalten Sie eine Zusammenfassung der Details eines Live-Ereignisses sowie alle Dateien, einschließlich Aufzeichnungen und Aufzeichnungen, die mit dem Ereignis verknüpft sind. Klicken Sie auf einen Dateinamen, um die Datei anzeigen oder herunterladen zu können.
 
-![Screenshot mit Details eines Live-Ereignisses](../media/teams-live-event-usage-report-event-detail.png)
+:::image type="content" alt-text="Screenshot mit Details eines Live-Ereignisses" source="../media/teams-live-event-usage-report-event-detail.png" lightbox="../media/teams-live-event-usage-report-event-detail.png":::
 
 Wenn Ihre Organisation für [Strukture](https://www.hivestreaming.com/partners/integration-partners/microsoft/) eCDN oder [Kollective](https://kollective.com) eCDN aktiviert ist, können Sie zusätzliche Teilnehmeranalysen erhalten, indem Sie auf den Link für den Partnerbericht klicken.
 

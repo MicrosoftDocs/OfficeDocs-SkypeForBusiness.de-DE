@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3e3a74b5e156817ec9b28608d725800858c3b350
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432537"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960064"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -51,9 +51,9 @@ In der folgenden Tabelle werden die drei Arten von Besprechungen, die Anzahl der
 | Liveereignisse | Bis zu 20.000** |– Übertragung an große Benutzergruppen. <br>– Moderierte Q&A-Runden für die Interaktion mit Benutzergruppen. <br> – Angabe von Produzenten und Referenten möglich, einschließlich externer Referenten.<br>– Unterstützung erweiterter Produktionsfunktionen. | Nein |
 ||||
 
-*Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht.<br>
+*Die üblichen 10.000 werden bis zum 30. Juni 2022 auf 20.000 erhöht.<br>
 
-**Das bisherige Limit von 10.000 wird bis zum 31. Dezember 2021 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
+**Die üblichen 10.000 werden bis zum 30. Juni 2022 auf 20.000 erhöht. In Yammer und/oder Microsoft Stream können Sie Liveereignisse für noch größere Teilnehmerzahlen planen. Weitere Informationen finden Sie unter [Liveereignisse in Microsoft 365](/stream/live-event-m365). Beachten Sie, dass für Ereignisse mit mehr als 20.000 Teilnehmern das [Hilfsprogramm für Liveereignisse](/stream/live-events-assistance) erforderlich ist. 
 
 **Überlegungen zu großen Besprechungen, Webinaren und Liveereignissen** – Berücksichtigen Sie beim Hosten großer Besprechungen Folgendes:
 

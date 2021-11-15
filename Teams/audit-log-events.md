@@ -15,12 +15,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d817a89b60de260529b1e9d4a9891290d9ea404b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: d5c57cc859c3a30040b4874579157a714600156a
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536886"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959834"
 ---
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
@@ -35,7 +35,7 @@ Mithilfe des Überwachungsprotokolls können Sie bestimmte Aktivitäten in allen
 - Kanal gelöscht
 - Kanaleinstellung geändert
 
-Eine vollständige Liste der Teams überwachten Aktivitäten [](#teams-activities) finden Sie unter Teams und Schichten in Teams [Aktivitäten.](#shifts-in-teams-activities)
+Eine vollständige Liste der Teams überwachten Aktivitäten finden [](#teams-activities) Sie unter Teams und Schichten in Teams [Aktivitäten.](#shifts-in-teams-activities)
 
 > [!NOTE]
 > Überwachungsereignisse aus privaten Kanälen werden ebenfalls protokolliert, wenn sie Teams und Standardkanäle betreffen.
@@ -89,6 +89,8 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Bot zum Team hinzugefügt   |BotAddedToTeam        |Ein Benutzer fügt einem Team einen Bot hinzu.        |
 |Kanal hinzugefügt   |ChannelAdded         |Ein Benutzer fügt einem Team einen Kanal hinzu.         |
 |Connector hinzugefügt  |ConnectorAdded          |Ein Benutzer fügt einen Connector zu einem Kanal hinzu.        |
+|Hinzugefügte Details zu Teams Besprechung|MeetingDetail|Teams Informationen zu einer Besprechung hinzugefügt, einschließlich Startzeit, Endzeit und URL zur Teilnahme an der Besprechung.|
+|Informationen zu Besprechungsteilnehmern hinzugefügt|MeetingParticipantDetail|Teams Informationen zu den Teilnehmern einer Besprechung hinzugefügt, einschließlich der Benutzer-ID jedes Teilnehmers, der Zeit, zu der ein Teilnehmer der Besprechung beigetreten ist, und der Zeit, zu der ein Teilnehmer die Besprechung verlassen hat.|
 |Hinzugefügte Mitglieder    |MemberAdded         |Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal- oder Gruppenchat hinzu.         |
 |Registerkarte hinzugefügt    |TabAdded         |Ein Benutzer fügt einem Kanal eine Registerkarte hinzu.        |
 |Kanaleinstellung geändert    |ChannelSettingChanged         |Der Vorgang "ChannelSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt. <ul><li>Ändert den Namen eines Teamkanals (**Kanalname**).</li><li>Ändert die Beschreibung eines Teamkanals (**Kanalbeschreibung**).</li> </ul>      |
@@ -133,7 +135,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter Erweiterte [Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen der Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter [Erweiterte Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen der Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 

@@ -13,19 +13,19 @@ f1.keywords:
 ms.collection:
 - M365-collaboration
 search.appverid: MET150
-description: Hier erhalten Sie Informationen zu von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokollen, wo sie gefunden werden und wie sie bei der Überwachung und Problembehandlung helfen können.
+description: Hier erfahren Sie mehr über die von Microsoft Teams erstellten Debug-, Medien- und Desktopprotokolle, wo sie gefunden werden können und wie sie bei der Überwachung und Problembehandlung helfen können.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 04fe77022a6a74084fce2396a3cba53fb1487dea
-ms.sourcegitcommit: 5f19df90443810e027085f8b38d22218e4123a16
+ms.openlocfilehash: 07eca1235cb695d32da0fdab96490572af6ccecb
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "59482379"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60959964"
 ---
 # <a name="use-log-files-to-monitor-and-troubleshoot-microsoft-teams"></a>Verwenden von Protokolldateien zur Überwachung und Problembehandlung Microsoft Teams
 
-Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, und diese können zur Überwachung und Problembehandlung bei Teams:
+Es gibt drei Arten von Protokolldateien, die vom Client automatisch erstellt werden, und diese können zur Überwachung und Problembehandlung im Teams:
 
 -   [Debugprotokolle](#debug-logs)
 
@@ -42,18 +42,18 @@ In diesem Artikel werden diese Protokolle und ihre Verwendung beschrieben. Infor
 
 Es ist wichtig, Protokolle zu sammeln, sobald ein Problem auftritt. Die Protokolle können mit nur wenigen Klicks erfasst werden.
 
-Windows: Klicken Sie mit der rechten Maustaste auf das Teams in der Taskleiste, und wählen Sie **Supportdateien sammeln aus.** 
+- Windows: Klicken Sie mit der rechten Maustaste auf das Teams in der Taskleiste, und wählen Sie **Supportdateien sammeln aus.** 
 
-Mac: Wählen Sie das Menü Hilfe und dann **Supportdateien sammeln aus.**
+- Mac: Wählen Sie das Menü Hilfe und dann **Supportdateien sammeln aus.**
 
 Debug-, Desktop- und Medienprotokolle werden in einem Ordner mit dem Namen _MSTeams Diagnostics \<local data and time\> Log gesammelt._ Dieser Ordner kann komprimiert und freigegeben werden, wenn Sie eine Supportanfrage beim Microsoft-Support öffnen. Der Ordner enthält Ordner für Desktop, Besprechung (Medien) und Debuggen (Web). Sie können die Dateien mithilfe der folgenden Tastenkombinationen sammeln:
 
-Windows: STRG+ALT+UMSCHALT+1
+- Windows: <kbd></kbd> + <kbd>STRG+UMSCHALT</kbd> + <kbd></kbd> + <kbd>1</kbd>
 
-Mac: WAHL+BEFEHL+UMSCHALT+1
+- Mac: <kbd></kbd> + <kbd>OPTIONSBEFEHL</kbd> + <kbd>UMSCHALT</kbd> + <kbd>1</kbd>
 
 
-Die Medienprotokollierung ist standardmäßig deaktiviert. Um die Medienprotokollierung zu aktivieren, müssen Die Benutzer die Option im Teams aktivieren. Wechseln Sie **zu Einstellungen**  >  **Allgemein**, und wählen Sie Protokollierung für **Besprechungsdiagnose aktivieren (erfordert einen Neustart Teams).** Der Teams muss zum Starten der Protokollierung neu gestartet werden.
+Die Medienprotokollierung ist standardmäßig deaktiviert. Um die Medienprotokollierung zu aktivieren, müssen Benutzer die Option im Teams aktivieren. Wechseln Sie **zu Einstellungen**  >  **Allgemein**, und wählen Sie Protokollierung für **Besprechungsdiagnose aktivieren (erfordert einen Neustart Teams).** Der Teams muss zum Starten der Protokollierung neu gestartet werden.
 
 Wenn ein Problem mit einer bestimmten Besprechung oder einem bestimmten Liveereignis auftritt, ist es hilfreich, die URL der Besprechung zugeordnet zu haben. Dadurch erhalten Sie zusätzliche Informationen, um das genaue Besprechungs- oder Liveereignis in den Protokollen zu erfassen. Diese Informationen können von jedem Teilnehmer für eine Besprechung oder von einem Moderator oder Produzenten für ein Liveereignis gesammelt werden. Diese URL kann erfasst werden, indem Sie auf die Teilnahme-URL zeigen und Link **kopieren auswählen.**
 
@@ -62,10 +62,10 @@ Wenn ein Problem mit einer bestimmten Besprechung oder einem bestimmten Liveerei
   
 > [!NOTE]
 > Die Debugprotokolle wurden zuvor mithilfe der folgenden Tastenkombinationen gesammelt. Diese funktionieren weiterhin und führen die gleiche Protokollerfassung wie die **Option Supportdateien sammeln** aus.
-
-> Windows: STRG+ALT+UMSCHALT+1
-
-> Mac: WAHL+BEFEHL+UMSCHALT+1
+>
+> - Windows: <kbd>CRTL</kbd> + <kbd>ALT</kbd> + <kbd>UMSCHALT</kbd> + <kbd>1</kbd>
+>
+> - Mac: <kbd></kbd> + <kbd>OPTIONSBEFEHL</kbd> + <kbd>UMSCHALT</kbd> + <kbd>1</kbd>
 
 
 In der folgenden Tabelle sind die verschiedenen Clients und die zugehörigen Protokolle aufgeführt. Protokolldateien werden an Speicherorten gespeichert, die für den Client und das Betriebssystem spezifisch sind.
@@ -84,7 +84,7 @@ Eine vollständige Liste der unterstützten Betriebssysteme und Browser finden S
 
 ## <a name="debug-logs"></a>Debugprotokolle
 
-Anweisungen zum _Erfassen und Aktivieren der Protokollierung_ Windows Mac. Debugprotokolle werden von den Windows- und Mac-Desktopclients sowie von browserbasierten Clients erstellt. Die Protokolle sind textbasierte und werden von unten nach oben gelesen. Sie können mit jedem textbasierten Editor gelesen werden, und beim Anmelden beim Client werden neue Protokolle erstellt.
+Anweisungen zu _ihren Informationen finden Sie_ im Abschnitt Windows und Aktivieren der Protokollierung. Debugprotokolle werden von den Windows- und Mac-Desktopclients sowie von browserbasierten Clients erstellt. Die Protokolle sind textbasierte und werden von unten nach oben gelesen. Sie können mit jedem textbasierten Editor gelesen werden, und beim Anmelden beim Client werden neue Protokolle erstellt.
 
 Debugprotokolle zeigen die folgenden Datenflüsse:
 
@@ -94,51 +94,63 @@ Debugprotokolle zeigen die folgenden Datenflüsse:
 
 -   Anruf/Unterhaltung
 
-So sammeln Sie Protokolle für Linux: Tastenkombination: STRG+ALT+UMSCHALT+1  
-      Die Dateien sind unter ~/Downloads verfügbar.
+So sammeln Sie Protokolle für Linux:
+- Tastenkombination: <kbd></kbd>STRG+ALT+1  +  <kbd></kbd>  +  <kbd></kbd>  +  <kbd></kbd>  
+- Die Dateien sind unter `~/Downloads`
 
-So sammeln Sie Protokolle für Browser und Windows: Tastenkombination: STRG+ALT+UMSCHALT+1  
-      Die Dateien sind in "%userprofile%\Downloads" verfügbar.
+So sammeln Sie Protokolle für Browser und Windows:
+- Tastenkombination: <kbd></kbd>STRG+ALT+1  +  <kbd></kbd>  +  <kbd></kbd>  +  <kbd></kbd>  
+- Die Dateien sind unter `%userprofile%\Downloads`
 
 ## <a name="media-logs"></a>Medienprotokolle
 
-Anweisungen zum _Erfassen und Aktivieren der Protokollierung_ Windows Mac. Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe in Teams Besprechungen. Sie sind für Supportfälle erforderlich, die mit anrufbezogenen Problemen verknüpft sind.
+Anweisungen zu _ihren Informationen finden Sie_ im Abschnitt Windows und Aktivieren der Protokollierung. Medienprotokolle enthalten Diagnosedaten zu Audio, Video und Bildschirmfreigabe in Teams Besprechungen. Sie sind für Supportfälle erforderlich, die mit anrufbezogenen Problemen verknüpft sind.
 
-Die Medienprotokollierung ist standardmäßig deaktiviert. Um Diagnosedaten für Besprechungen Teams zu protokollieren, müssen die Benutzer die Option im Client Teams aktivieren. Wechseln Sie **zu Einstellungen** Allgemein, aktivieren Sie das Kontrollkästchen Protokollierung für die  >   **Besprechungsdiagnose aktivieren (erfordert** einen Neustart von Teams ), starten Sie Teams neu, und reproduzieren Sie das Problem. 
+Die Medienprotokollierung ist standardmäßig deaktiviert. Um Diagnosedaten für Teams zu protokollieren, müssen die Benutzer die Option im Client Teams aktivieren. Wechseln Sie **zu Einstellungen** Allgemein, aktivieren Sie das Kontrollkästchen Protokollierung für die  >   **Besprechungsdiagnose aktivieren (erfordert** einen Neustart von Teams ), starten Sie Teams neu, und reproduzieren Sie das Problem. 
 
 Wenn Sie die Protokolldateien an den Microsoft-Support senden, überprüfen Sie bitte den Zeitstempel der Protokolldateien, um sicherzustellen, dass die Protokolle den Zeitrahmen abdecken, in dem das Problem reproduziert wurde.
 
 So sammeln Sie Protokolle für Linux:  
-Die Dateien sind im Blog ~/.config/Microsoft/Microsoft Teams/media-stack/ und im \* \. Blog ~/.config/Microsoft/Microsoft Teams/skylib/ \* \. verfügbar.
+- Die Dateien sind an den folgenden Speicherorten verfügbar:
+  - `~/.config/Microsoft/Microsoft Teams/media-stack/\*\.blog`
+  - `~/.config/Microsoft/Microsoft Teams/skylib/\*\.blog`
 
 So sammeln Sie Protokolle für Windows:  
-Die Dateien sind im Blog %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack und im Blog \\ \* \. %userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib \\ \* \. verfügbar.  
+- Die Dateien sind an den folgenden Speicherorten verfügbar:
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\media-stack\\\*\.blog`
+  - `%userprofile%\Downloads\MSTeams Diagnostics Log\meeting\skylib\\\*\.blog` 
 
 Hier ist eine Liste der generierten Protokolldateien und der Informationen, die sie enthalten.
 
+<br/>
+
 |Protokolldateiname  |Beschreibung  |
 |---------|---------|
-|Teams.msrtc-0-s1039525249.blog     | Enthält Informationen zum Medienstapel. Dies umfasst den Kanalstatus wie Auflösung, verwendete Decoder und Encoder, die Anzahl der gesendeten und empfangenen Frames sowie den Sitzungsstatus der Kamera- und videobasierten Bildschirmfreigabe (VBSS).         |
-|rtmcontrol.msrtc-0-2415069487.blog      |Zeichnet Informationen im Zusammenhang mit Remotesteuerungsaktionen auf, z. B. den Zeitstempel bei Der Steuerung sowie Mauszeigerinformationen.          |
-|Teams_MediaStackETW-2-U-xr-U.etl      |Zeichnet Ereignisse der Medienstapelüberwachung auf.         |
-|Debug-0-s2790420889.blog    | Enthält Informationen zum Medien-Agent, einschließlich der Qualität des Renderns.          |
-|tscalling-0-2061129496.blog   |Zeichnet Ereignisse in der ts-Calling-API auf.       |
+|`Teams.msrtc-0-s1039525249.blog`     | Enthält Informationen zum Medienstapel. Dies umfasst den Kanalstatus, z. B. Auflösung, verwendete Decoder und Encoder, die Anzahl der gesendeten und empfangenen Frames sowie den Sitzungsstatus der Kamera- und videobasierten Bildschirmfreigabe (VBSS).         |
+|`rtmcontrol.msrtc-0-2415069487.blog`      |Zeichnet Informationen im Zusammenhang mit Remotesteuerungsaktionen auf, z. B. den Zeitstempel bei Der Steuerung sowie Mauszeigerinformationen.          |
+|`Teams_MediaStackETW-2-U-xr-U.etl`      |Zeichnet Ereignisse der Medienstapelüberwachung auf.         |
+|`Debug-0-s2790420889.blog`    | Enthält Informationen zum Medien-Agent, einschließlich der Qualität des Renderns.          |
+|`tscalling-0-2061129496.blog`   |Zeichnet Ereignisse in der ts-Calling-API auf.       |
 
 ## <a name="desktop-logs"></a>Desktopprotokolle
 
-Anweisungen zum _Erfassen und Aktivieren der Protokollierung_ Windows Mac. Desktopprotokolle (auch als Bootstrapperprotokolle bezeichnet) enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser auftreten. Wie medienprotokolle werden diese Protokolle nur benötigt, wenn sie von Microsoft angefordert werden. Die Protokolle sind textbasierte und können mit jedem textbasierten Editor in einem Top-down-Format gelesen werden.
+Anweisungen zu _ihren Informationen finden Sie_ im Abschnitt Windows und Aktivieren der Protokollierung. Desktopprotokolle (auch als Bootstrapperprotokolle bezeichnet) enthalten Protokolldaten, die zwischen dem Desktopclient und dem Browser auftreten. Wie medienprotokolle werden diese Protokolle nur benötigt, wenn sie von Microsoft angefordert werden. Die Protokolle sind textbasierte Und können mit jedem textbasierten Editor in einem Top-down-Format gelesen werden.
 
-So sammeln Sie Protokolle für Linux: Klicken Sie auf das symbol Microsoft Teams in der Taskleiste, und wählen Sie **Protokolle erhalten aus.**
-Die Dateien sind in ~/.config/Microsoft/Microsoft Teams/logs.txt.
+So sammeln Sie Protokolle für Linux:
+- Klicken Sie auf das Microsoft Teams in der Taskleiste, und wählen Sie **Protokolle erhalten aus.**
+- Die Dateien sind in `~/.config/Microsoft/Microsoft Teams/logs.txt` verfügbar.
   
-So sammeln Sie Protokolle für Windows: Klicken Sie auf Microsoft Teams Taskleiste auf das Symbol "Protokolle", und wählen Sie **Protokolle erhalten aus.**
-Die logs.txt datei wird automatisch in Editor geöffnet.    
+So sammeln Sie Protokolle für Windows:
+- Klicken Sie Microsoft Teams in der Taskleiste auf das Symbol zum Erfassen von Supportdateien, und wählen **Sie Supportdateien sammeln aus.**
+- Die `logs.txt` Datei wird automatisch in Editor geöffnet.
+
+Wenn Sie Probleme bei der Teams untersuchen, müssen Sie die Desktopprotokolle möglicherweise manuell erfassen. Diese Protokolldateien befinden sich unter %appdata%\Microsoft\Teams in Windows.
 
 ## <a name="browser-trace"></a>Browser-Ablaufverfolgung
 
-Bei einigen Fehlerkategorien müssen Sie vom Microsoft-Support möglicherweise eine Browser ablaufverfolgung erfassen. Diese Informationen können wichtige Details zum Status des Teams Client bereitstellen, wenn der Fehler auftritt.
+Bei einigen Fehlerkategorien müssen Sie vom Microsoft-Support möglicherweise eine Browser ablaufverfolgung erfassen. Diese Informationen können wichtige Details zum Zustand des Teams Client bereitstellen, wenn der Fehler auftritt.
 
-Bevor Sie die Browser-Ablaufverfolgung starten, vergewissern Sie sich, dass Sie bei ihrem Teams. Dies ist vor dem Starten der Ablaufverfolgung wichtig, damit die Ablaufverfolgung keine vertraulichen Anmeldeinformationen enthält.
+Bevor Sie die Browser ablaufverfolgung starten, vergewissern Sie sich, dass Sie bei ihrem Teams. Dies ist vor dem Starten der Ablaufverfolgung wichtig, damit die Ablaufverfolgung keine vertraulichen Anmeldeinformationen enthält.
 
 Nachdem Sie sich angemeldet haben, wählen Sie einen der folgenden Links aus, der für Ihren Browser geeignet ist, und führen Sie die angegebenen Schritte aus. 
 
@@ -157,14 +169,14 @@ Nachdem Sie sich angemeldet haben, wählen Sie einen der folgenden Links aus, de
 WebRTC-Protokolle können den Microsoft-Support unterstützen, indem Sie Verbindungsdetails für Audio- und Videoanrufe bereitstellen. Führen Sie die Schritte für den Zugriff auf die WebRTC-Protokolle in Edge (Chromium) oder Chrome aus: 
   
 1.  Öffnen Sie eine neue Registerkarte, und wechseln Sie zu einer der folgenden URLs:
-    -   Edge (Chromium): "edge://webrtc-internals/"
-    -   Chrome: "chrome://webrtc-internals/"
+    -   Edge (Chromium):`edge://webrtc-internals/`
+    -   Chrome: `chrome://webrtc-internals/`
   
 2.  Öffnen Sie die Teams Webanwendung, und reproduzieren Sie das Problem.
   
 3.  Wechseln Sie zurück zu der Registerkarte, auf die in Schritt 1 zugegriffen wurde, und es werden mindestens zwei Registerkarten angezeigt:
     -   GetUserMedia-Anforderungen
-    -   https://teams.microsoft.com/url
+    -   `https://teams.microsoft.com/url`
 
 4.  Wählen Sie die Registerkarte mit dem Namen der Teams aus, und speichern Sie den Seiteninhalt.
 

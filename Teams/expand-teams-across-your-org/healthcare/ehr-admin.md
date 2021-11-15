@@ -1,8 +1,8 @@
 ---
-title: Teams für virtuelle Besuche
-author: HowlinWolf-92
-ms.author: v-mahoffman
-manager: serdars
+title: Virtuelle Besuche mit Teams - Integration in die epische EHR
+author: LanaChin
+ms.author: v-lanachin
+manager: samanro
 audience: ITPro
 ms.topic: conceptual
 ms.service: msteams
@@ -22,22 +22,22 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
-description: Verwenden Sie Microsoft Teams, um Ihr System für virtuelle Besuche einzurichten
-ms.openlocfilehash: 3ba0ff974f9a8381eab054bb92468762dc1d8cc8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Hier erfahren Sie, wie Sie den Connector Teams EHR integrieren, damit Anbieter im Gesundheitswesen in Ihrer Organisation virtuelle Visiten mit Patienten oder anderen Anbietern in Teams direkt über das Epische EHR-System durchführen können.
+ms.openlocfilehash: 48d2cfd69dd9d5cd8be2fcd5a0c29fca7162d246
+ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859732"
+ms.lasthandoff: 11/15/2021
+ms.locfileid: "60960044"
 ---
-# <a name="virtual-visits-with-teams---integration-into-ehr"></a>Virtuelle Besuche mit Teams – Integration in die EGA
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Virtuelle Besuche mit Teams - Integration in die epische EHR
 
-Microsoft Teams Der Connector für elektronische Krankenakten (Electronic Health Record, EHR) erleichtert Es Kliniken, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
-Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinikern, die Unordnung fragmentierter Systeme zu beseitigen, damit sie Zeit für die bestmögliche Pflege aufwenden können. Microsoft Teams Der EHR-Connector (Electronic Health Record) kann:
+Microsoft Teams Connector für elektronische Krankenakten (Electronic Health Record, EHR) vereinfacht es Klinikbetreibern, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Microsoft Teams basiert auf der Microsoft 365-Cloud und ermöglicht die einfache und sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung der HIPAA- (Health Insurance Portability and Accountability Act), HITECH-Zertifizierung und mehr unterstützt.
+Die Kommunikations- und Kollaborationsplattform von Teams erleichtert es Klinikern, die Unordnung fragmentierter Systeme zu beseitigen, damit sie Zeit für die bestmögliche Pflege aufwenden können. Microsoft Teams EHR-Connector (Electronic Health Record) kann:
 
-- Starten Teams virtuelle Besuche vom Anbieter-EHR-System mit einem integrierten klinischen Workflow.
+- Starten sie Teams virtuelle Besuche vom Anbieter-EHR-System mit einem integrierten klinischen Workflow.
 - Ermöglichen Sie Patienten die Teilnahme Teams virtuellen Visiten über das Patientenportal.
-- Schreiben Sie Metadaten in das EHR-System zurück, um Teams virtuellen Besuche zu aufzeichnen, wenn Teilnehmer eine Verbindung herstellen und trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
+- Schreiben Sie Metadaten in das EHR-System zurück, um Teams besuche zu aufzeichnen, wenn Teilnehmer eine Verbindung herstellen und trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
 
   Sehen Sie sich das Video zum Verwalten virtueller Besuche über das EGA-Portal an.
 
@@ -79,7 +79,7 @@ Das Konnektor-Setup erfordert Folgendes:
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>[Starten des Konfigurationsportals für EHR-Connectors](#launch-the-ehr-connector-configuration-portal)
 
-Die Konfiguration Ihrer Organisation im Gesundheitswesen für die Einführung virtueller Besuche mit Microsoft Teams beginnt mit dem Starten des Konfigurationsportals für den EHR-Connector. Sie konfigurieren eine einzelne oder mehrere Organisationen, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Testen Sie die Integration aus der Testumgebung von Epic, bevor Sie zur Produktion übergehen.
+Die Konfiguration Ihrer Organisation im Gesundheitswesen für die Einführung virtueller Besuche Microsoft Teams damit das Konfigurationsportal für den EHR-Connector gestartet wird. Sie konfigurieren eine einzelne oder mehrere Organisationen, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Testen Sie die Integration aus der Testumgebung von Epic, bevor Sie zur Produktion übergehen.
   
 - Konfigurations-URL für den EGA-Konnektor: [https://ehrconnector.teams.microsoft.com](https://ehrconnector.teams.microsoft.com)
 
@@ -126,7 +126,7 @@ Wenn die Konfigurationsinformationen vom Epic-Administrator genehmigt wurden, we
 
 ## <a name="launch-teams-virtual-visits"></a>Starten von virtuellen Besuchen in Teams
 
-Nach Abschluss der Schritte EHR-Connector und epischer Konfiguration kann Ihre Organisation Videobesuche mit Microsoft Teams.
+Nach Abschluss der Schritte für den EHR-Connector und der Epen-Konfiguration kann Ihre Organisation Videobesuche mit Microsoft Teams.
 
 ### <a name="virtual-visit-prerequisites"></a>Voraussetzungen für einen virtuellen Besuch
 
@@ -179,4 +179,4 @@ Der Microsoft Teams EGA-Konnektor speichert oder überträgt keine identifizierb
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Teams virtueller Besuche](ehr-admin-reports.md)
+[Teams EHR-Connectoradministratorberichte](ehr-admin-reports.md)
