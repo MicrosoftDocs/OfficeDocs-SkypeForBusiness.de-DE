@@ -18,16 +18,16 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
 description: Koexistenzverhalten zwischen Teams & Skype for Business, einschließlich Routingparametern, Chat- & Anrufrouting, Chats & Anrufen aus bereits vorhandenen Threads, & Anwesenheitsinformationen.
-ms.openlocfilehash: 1ed59546d871a7ac375061714ceedd67086818d1
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: 5c32e99ad7cd74966cc7d8f22bd19a2520249b85
+ms.sourcegitcommit: a5b80ad33b4ee9505ea2be1a37f5ec2d8bf5ba76
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911829"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "61042366"
 ---
 # <a name="coexistence-with-skype-for-business"></a>Koexistenz mit Skype for Business
 
-Die Koexistenz und Interoperabilität zwischen Skype for Business und Teams-Clients wird von den Koexistenzmodi gesteuert. Weitere Informationen finden Sie unter [Migrations- und Interoperabilitätsleitfade](migration-interop-guidance-for-teams-with-skype.md)für Organisationen, die Teams mit Skype for Business. Nach dem Ende von Skype for Business Online am 31. Juli 2021 sind in der Cloud gespeicherte Benutzer immer TeamsOnly-Benutzer. Es ist nicht mehr möglich, einem Onlinebenutzer einen anderen Koexistenzmodus als TeamsOnly zuzuordnen. Andere Koexistenzmodi als TeamsOnly sind nur für Organisationen mit lokalen Bereitstellungen von Skype for Business Server oder Lync Server 2013 relevant. In diesem Artikel gilt jeder Verweis auf "Skype for Business Server" auch für Lync Server 2013.
+Die Koexistenz und Interoperabilität zwischen Skype for Business und Teams Clients wird durch Modi für die Koexistenz gesteuert. Weitere Informationen finden Sie unter [Migrations- und Interoperabilitätsleitfade](migration-interop-guidance-for-teams-with-skype.md)für Organisationen, die Teams mit Skype for Business. Nach dem Ende von Skype for Business Online am 31. Juli 2021 sind in der Cloud gespeicherte Benutzer immer TeamsOnly-Benutzer. Es ist nicht mehr möglich, einem Onlinebenutzer einen anderen Koexistenzmodus als TeamsOnly zuzuordnen. Andere Koexistenzmodi als TeamsOnly sind nur für Organisationen mit lokalen Bereitstellungen von Skype for Business Server oder Lync Server 2013 relevant. In diesem Artikel gilt jeder Verweis auf "Skype for Business Server" auch für Lync Server 2013.
 
 
 ## <a name="determining-a-users-coexistence-mode"></a>Ermitteln des Koexistenzmodus eines Benutzers
@@ -54,16 +54,16 @@ In einer Organisation mit einer lokalen Bereitstellung von Skype for Business Se
 
 ## <a name="routing-parameters"></a>Routingparameter
 
-Der Koexistenzmodus des Empfängers bestimmt das Verhalten von Chats, Anrufen und Anwesenheitspräsenzen, und dies sowohl innerhalb eines Mandanten als auch innerhalb der Partner mandantenübergreifend. Wenn der Absender eine Unterhaltung Teams, wird beim Erstellen eines neuen Unterhaltungsthreads die Routingentscheidung getroffen. Sobald ein Unterhaltungsthread erstellt wurde, ändert sich sein Routing nicht, und es wird die Routingmethode beibehalten, die beim Erstellen des Threads bestimmt wurde.
+Der Koexistenzmodus des Empfängers bestimmt das Verhalten von Chats, Anrufen und Anwesenheitspräsenzen, und dies sowohl innerhalb eines Mandanten als auch innerhalb der Partner mandantenübergreifend. Wenn der Absender einen Unterhaltungsthread Teams, wird die Routingentscheidung beim Erstellen eines neuen Unterhaltungsthreads getroffen. Sobald ein Unterhaltungsthread erstellt wurde, ändert sich sein Routing nicht, und es wird die Routingmethode beibehalten, die beim Erstellen des Threads bestimmt wurde.
 
 Threadroutingmethoden sind:
 
-- *systemeigene* für eine Teams, um Teams-Mandant-Unterhaltung zu führen
+- *systemeigene* für eine Teams, um Teams Unterhaltung im Mandanten zu führen
 - *In interop* for a Teams to Skype for Business conversation in-tenant
 - *Nativer Partner partnerated* for a federated conversation across tenants when both users have TeamsOnly mode. 
 - *Zusammenarbeit für eine* Mandanten-Partnerhaltung, die auf Inaktivität zwischen Skype for Business und Teams.
 
-> [! HINWEISE]
+> [!NOTE]
 > - Systemeigene Unterhaltungen (unabhängig davon, ob sie sich im gleichen Mandanten- oder Partnerteamszenario befinden) treten auf, wenn sowohl der Empfänger als auch der Absender über den TeamsOnly-Modus verfügen. Bei der Unterhaltung wird es sich um einen systemeigenen Chat mit sämtlichen Funktionen für Chats und Anrufe. Weitere Informationen finden Sie unter Native Chaterfahrung für [externe Benutzer (Partnerbenutzer) in Teams.](native-chat-for-external-users.md) 
 > - Wenn einer der Unterhaltungsteilnehmer NICHT über den TeamsOnly-Modus verfügen, ist die Unterhaltung eine In interop-Erfahrung mit Nur-Text-Nachrichten.
 > - Verbundkommunikation zwischen TeamsOnly-Benutzer in Cloud-Wolken mit mehreren Mandanten und speziellen Cloudumgebungen (z. B. Government Clouds) werden als Inop-Partnerchats angezeigt.
@@ -74,28 +74,28 @@ Beim Erstellen einer neuen Unterhaltung sind die Faktoren, die bestimmen, wie de
 - Der Koexistenzmodus des Empfängers
 - Der vom Absender verwendete Client
 - Ob es sich um eine Mandanten- oder Partner-Unterhaltung handelt
-- Ob die Unterhaltung möglich ist. Wenn ein Benutzer ein lokales Skype for Business-Konto besitzt, kann dieser Benutzer den Teams-Client nicht für in-Mandant-Interoperabilität oder für einen Verbund verwenden. Dieser Benutzer kann den Skype for Business nur für Interoperabilität und Verbund verwenden. Beachten Sie Teams dass Teams Kommunikation im Mandanten immer möglich ist.
+- Ob die Unterhaltung möglich ist. Wenn ein Benutzer über ein lokal Skype for Business-Konto verfügt, kann dieser Benutzer den Teams-Client nicht für in-Mandant-Interoperabilität oder für einen Verbund verwenden. Dieser Benutzer kann den Skype for Business nur für Interoperabilität und Verbund verwenden. Beachten Sie Teams dass Teams Kommunikation im Mandanten immer möglich ist.
 
 ## <a name="chat-and-call-routing"></a>Weiterleitung von Chats und Anrufen
-Die folgenden Tabellen zeigen, welcher Client in einem bestimmten Modus einen Anruf vom Ermittler erhält (drei Spalten ganz links). Welche Benutzer den Anruf erhalten, hängt vom Modus des Erzählers, vom ausgewählten Client und davon ab, wo das Skype for Business-Konto (lokal oder online) beglichen wird.
+Die folgenden Tabellen zeigen, welcher Client in einem bestimmten Modus einen Anruf vom Ermittler erhält (drei Spalten ganz links). Welche Benutzer den Anruf erhalten, hängt vom Modus des Ermittlers, vom ausgewählten Client und davon ab, wo das Skype for Business-Konto (lokal oder online) privat ist.
 
 In den folgenden Tabellen:
 
 - **Skype for Business** _ stellt einen der folgenden Modi dar: _SfBOnly*, *SfBWithTeamsCollab,* *SfBWithTeamsCollabAndMeetings*.
 - *Der italische Text* hebt eine Inaktivität hervor.
-- **Nicht möglich** steht für eine Situation, in der der Chat oder Anruf nicht möglich ist. Der Erzähler muss stattdessen Skype for Business in diesen Fällen verwenden. Dies ist einer der Gründe, warum die präskriptive Anleitung von Microsoft für lokale und Hybridkunden in der Verwendung eines anderen Modus als Islands (normalerweise SfBWithTeamsCollab) als Ausgangspunkt für ihr Upgrade nach Teams.
+- **Nicht möglich** steht für eine Situation, in der der Chat oder Anruf nicht möglich ist. Der Erzähler muss stattdessen Skype for Business in diesen Fällen verwenden. Dies ist einer der Gründe, warum die von Microsoft für lokale und Hybridkunden bestimmten Anweisungen in der Verwendung eines anderen Modus als Islands (normalerweise SfBWithTeamsCollab) als Ausgangspunkt für ihre Upgrade-Reise zu Teams.
 
 
 ### <a name="in-tenant-routing-for-new-chats-or-calls"></a>Mandanten-Routing für neue Chats oder Anrufe
 
-In den Tabellen unten wird das Routing von In-Mandant-Chats und -Anrufen erfasst. Sie gelten für neue Anrufe oder Chats, die nicht aus einem bereits vorhandenen Thread gestartet werden. Er beschreibt, welcher Client einen neuen Anruf oder Chat erhält (sofern er von einem Benutzer auf der linken Seite stammt) an einen Benutzer im Mandanten auf der rechten Seite.  An Teams Gesendete NachrichtenOnly-Benutzer werden immer an andere Teams. Nachrichten, die an Skype for Business gesendet werden, werden immer an andere Skype for Business. Nachrichten, die an Inseln gesendet werden, werden immer an den Client geroutet, von dem aus sie gesendet wurden.
+In den Tabellen unten wird das Routing von In-Mandant-Chats und -Anrufen erfasst. Sie gelten für neue Anrufe oder Chats, die nicht aus einem bereits vorhandenen Thread gestartet werden. Er beschreibt, welcher Client einen neuen Anruf oder Chat erhält (sofern er von einem Benutzer auf der linken Seite stammt) an einen Benutzer im Mandanten auf der rechten Seite.  An TeamsOnly-Benutzer gesendete Nachrichten werden immer an andere Teams. Nachrichten, die an Skype for Business gesendet werden, werden immer an andere Skype for Business. Nachrichten, die an Inseln gesendet werden, werden immer an den Client geroutet, von dem aus sie gesendet wurden.
 
 
 #### <a name="table-1a-in-tenant-new-chat-or-call-routing-to-a-teamsonly-mode-recipient"></a>Tabelle 1a: Routing neuer Chats oder Anrufe im Mandanten an einen TeamsOnly-Modusempfänger
 
 <br>
 
-|<br><br>Modus|Originator<br><br>Client|<br><br>&nbsp;Skype for Business homed|<br><br>Route-->|TeamsOnly Recipient|
+|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business &nbsp; homed|<br><br>Route -->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Inselmodus|Teams <br> Skype for Business| Lokal <br> Lokal|&boxv;<br>&boxv;|Teams <br> *Microsoft Teams*|
@@ -106,7 +106,7 @@ In den Tabellen unten wird das Routing von In-Mandant-Chats und -Anrufen erfasst
 
 <br>
 
-|<br><br>Modus|Originator<br><br>Client|<br><br>&nbsp;Skype for Business homed|<br><br>Route-->|Islands Recipient|
+|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business &nbsp; homed|<br><br>Route -->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Inselmodus| Teams <br> Skype for Business|Lokal<br>Lokal|&boxv;<br>&boxv;| Teams <br> Skype for Business|
@@ -117,7 +117,7 @@ In den Tabellen unten wird das Routing von In-Mandant-Chats und -Anrufen erfasst
 
 <br>
 
-|<br><br>Modus|Originator<br><br>Client|<br><br>&nbsp;Skype for Business homed|<br><br>Route-->|Skype for Business Empfänger|
+|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business &nbsp; homed|<br><br>Route -->|Skype for Business Empfänger|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Inselmodus|Teams <br> Skype for Business| Lokal <br> Lokal|&boxv;<br>&boxv;| **Nicht möglich** <br> Skype for Business|
@@ -127,7 +127,7 @@ In den Tabellen unten wird das Routing von In-Mandant-Chats und -Anrufen erfasst
 
 ### <a name="federated-routing-for-new-chats-or-calls"></a>Verbundrouting für neue Chats oder Anrufe
 
-In den Tabellen unten wird das Routing von Partneranrufen und Chats erfasst, die für neue Anrufe oder Chats gültig sind. Sie beschreiben, welcher Client einen neuen Anruf oder Chat erhält (falls er von einem Benutzer auf der linken Seite stammt) an einen Partnerzielbenutzer auf der rechten Seite. Zusammenfassung: Wenn die Unterhaltung wie oben beschrieben möglich ist, werden an TeamsOnly-Benutzer gesendete Nachrichten immer Teams; An Benutzer des Skype for Business-Modus gesendete Nachrichten werden immer Skype for Business; An Inseln gesendete Nachrichten landen immer in Skype for Business, unabhängig vom Client, von dem aus sie gesendet wurden. 
+In den Tabellen unten wird das Routing von Partneranrufen und Chats erfasst, die für neue Anrufe oder Chats gültig sind. Sie beschreiben, welcher Client einen neuen Anruf oder Chat erhält (falls er von einem Benutzer auf der linken Seite stammt) an einen Partnerzielbenutzer auf der rechten Seite. Zusammenfassung: Wenn die Unterhaltung wie oben beschrieben möglich ist, landen Nachrichten an TeamsOnly-Benutzer immer im Teams; Nachrichten, die an Benutzer des Skype for Business-Modus gesendet wurden, landen immer im Skype for Business; Nachrichten, die an Islands-Benutzer gesendet wurden, landen immer Skype for Business  unabhängig vom Client, von dem sie gesendet wurden. 
 
 Das Routing für Partnerchats und Anrufe unterscheidet sich von der In-Tenant-Weiterleitung, da Islands-Benutzer in einer Partnerkommunikation immer eine Skype for Business. Der Grund dafür ist, dass der Partnerpartner die Daten möglicherweise noch nicht Teams. Routing to Skype for Business for any islands mode recipeint stellt sicher, dass Nachrichten immer empfangen werden.  Das Routing an Teams kann zu einer verpassten Kommunikation führen, wenn der beabsichtigte Empfänger keine Daten Teams. 
 
@@ -135,7 +135,7 @@ Das Routing für Partnerchats und Anrufe unterscheidet sich von der In-Tenant-We
 
 <br>
 
-|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|TeamsOnly Recipient|
+|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route -->|TeamsOnly Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|Teams|
 |Inselmodus|Teams <br> Skype for Business|Lokal <br> Lokal|&boxv;<br>&boxv;|**Nicht möglich** <br> *Microsoft Teams*|
@@ -147,7 +147,7 @@ Das Routing für Partnerchats und Anrufe unterscheidet sich von der In-Tenant-We
 
 <br>
 
-|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|Islands Recipient|
+|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route -->|Islands Recipient|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Inselmodus|Teams <br> Skype for Business| Lokal <br> Lokal|&boxv;<br>&boxv;| **Nicht möglich** <br> Skype for Business|
@@ -158,7 +158,7 @@ Das Routing für Partnerchats und Anrufe unterscheidet sich von der In-Tenant-We
 
 <br>
 
-|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route-->|Skype for Business Empfänger|
+|<br><br>Modus|Originator<br><br>Client|<br><br>Skype for Business homed|<br><br>Route -->|Skype for Business Empfänger|
 |---|---|---|:---:|---|
 |TeamsOnly|Teams|Online|&boxv;|*Skype for Business*|
 |Inselmodus|Teams <br> Skype for Business| Lokal <br> Lokal|&boxv;<br>&boxv;|**Nicht möglich** <br> Skype for Business|
@@ -174,7 +174,7 @@ Das Routing für Partnerchats und Anrufe unterscheidet sich von der In-Tenant-We
 Anrufe oder Chats, die aus einem bereits vorhandenen Unterhaltungsthread in Teams gestartet werden, werden auf die gleiche Weise wie der Thread geroutet. Wenn der bereits vorhandene Thread in Teams ein systemeigener Thread war (d. h. an Teams geroutet wurde), werden zusätzliche Chatnachrichten und Aufrufe von diesem Thread an Teams. Wenn es sich um einen Inop-Thread handelte (d. h. an Skype for Business geroutet), werden zusätzliche Chatnachrichten und Anrufe an Skype for Business (vorausgesetzt, es sind Routingoptionen verfügbar).
 
 > [!NOTE]
-> Es ist möglich, dass bereits vorhandene Threads in Teams nicht mehr routingfähig sind, z. B. wenn der Thread ein Inopthread für einen Benutzer war, für den inzwischen ein Upgrade auf Teams. Da er als Inopthread erstellt wurde, wird der Thread an Skype for Business geroutet, aber dieser Benutzer kann Skype for Business nicht mehr für Chats und Anrufe verwenden. In diesem Fall wird der Thread deaktiviert, und es ist keine weitere Kommunikation möglich.
+> Es ist möglich, dass bereits vorhandene Threads in Teams nicht mehr routingfähig sind, z. B. wenn der Thread ein Inopthread für einen Benutzer war, für den inzwischen ein Upgrade auf eine Teams. Da er als Inopthread erstellt wurde, wird der Thread an Skype for Business geroutet, aber dieser Benutzer kann Skype for Business nicht mehr für Chats und Anrufe verwenden. In diesem Fall wird der Thread deaktiviert, und es ist keine weitere Kommunikation möglich.
 
 ### <a name="from-skype-for-business"></a>Von Skype for Business
 
@@ -186,24 +186,24 @@ In Situationen, in denen einige Benutzer den Teams-Client und andere den Skype f
 
 Die Anwesenheitsinformationen werden basierend auf dem Koexistenzmodus eines Benutzers freigegeben, wie nachstehend beschrieben:
 
-- Wenn sich ein Benutzer im TeamsOnly-Modus befindet, sieht jeder andere Benutzer (ob in Teams oder Skype for Business) die Anwesenheitsinformationen des TeamsOnly-Teams
-- Wenn sich ein Benutzer in einem der Skype for Business-Modi (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings) befindet, sieht jeder andere Benutzer (ob in Teams oder Skype for Business) die Anwesenheit dieses Skype for Business-Benutzers Skype for Business
+- Wenn sich ein Benutzer im TeamsOnly-Modus befindet, sieht jeder andere Benutzer (ob in Teams oder Skype for Business) die Anwesenheit von TeamsOnly-Teams
+- Wenn sich ein Benutzer in einem der Skype for Business-Modi (SfbOnly, SfbWithTeamsCollab, SfbWithTeamsCollabAndMeetings) befindet, kann jeder andere Benutzer (ob in Teams oder Skype for Business) die Skype for Business-Daten des Skype for Business Anwesenheit
 - Wenn sich ein Benutzer im Islands-Modus befindet, sind die Anwesenheitsinformationen in Teams und die Anwesenheit in Skype for Business unabhängig (die Werte müssen nicht übereinstimmen), und anderen Benutzern wird je nachdem, ob sie sich im gleichen Mandanten oder in einem Partner-Mandanten befinden und welchen Client sie verwenden, das eine oder die andere Anwesenheit des Islands-Benutzers angezeigt.
-  - Auf Teams können alle anderen Benutzer innerhalb desselben Mandanten die Anwesenheitsinformationen des Islands-Teams sehen. dies an der oben angegebenen Routingtabelle im Mandanten ausgerichtet ist
-  - In Teams können alle anderen Benutzer in einem Partner mandanten die Anwesenheitsinformationen des Islands-Skype for Business sehen. dies an der oben angegebenen Verbundroutingtabelle ausgerichtet ist
-  - Von Skype for Business können alle anderen Benutzer die Anwesenheitsinformationen des Benutzers auf den Inseln Skype for Business (sowohl im Mandanten als auch im Partnerland) sehen. dies ist an den oben angegebenen Routingtabellen ausgerichtet.
+  - Von Teams alle anderen Benutzer innerhalb desselben Mandanten sehen die Anwesenheitsinformationen des Islands-Benutzers Teams. Dies ist an der oben angegebenen Routingtabelle für Mandanten ausgerichtet.
+  - Von Teams anderen Benutzern in einem Partner mandant wird die Anwesenheit des Islands-Benutzers Skype for Business angezeigt. Dies ist an der obigen Verbundroutingtabelle ausgerichtet.
+  - Von Skype for Business können alle anderen Benutzer die Anwesenheitsinformationen des Benutzers auf den Inseln Skype for Business sehen (sowohl im Mandanten als auch im Verbund). Dies ist an den oben angegebenen Routingtabellen ausgerichtet.
 
 ### <a name="in-tenant-presence"></a>Anwesenheitspräsenz in Mandanten
 
-Nachrichten, die an TeamsOnly-Benutzer gesendet wurden, werden immer Teams. Nachrichten, die an Skype for Business-Modus gesendet werden, werden immer Skype for Business, wenn die Unterhaltung wie oben beschrieben möglich ist. An Inseln gesendete Nachrichten landen immer in dem Client, aus dem sie stammen.
+An Teams Gesendete NachrichtenOnly-Benutzer landen immer Teams. Nachrichten, die an Skype for Business-Modus gesendet werden, werden immer Skype for Business, wenn die Unterhaltung wie oben beschrieben möglich ist. An Inseln gesendete Nachrichten landen immer in dem Client, aus dem sie stammen.
 
-In der Tabelle Publisher die Anwesenheit der Publisher beschrieben, die von einem Watcher abhängig vom Modus der Publisher und dem Client der Watcher (für einen neuen Thread) angezeigt wird.
+In der Tabelle wird Publisher Anwesenheitsmodus beschrieben, der von einer Watcher abhängig vom Modus der Publisher und dem Client der Watcher (für einen neuen Thread) angezeigt wird.
 
 #### <a name="table-3-in-tenant-presence-new-thread"></a>Tabelle 3: Anwesenheit in Mandanten (neuer Thread)
 
 <br>
 
-|Zusehen<br><br>Client|<br><br>Route-->|<br><br>Inselmodus|Publisher<br><br>Skype for Business|<br>Teams Nur|
+|Zusehen<br><br>Client|<br><br>Route->|<br><br>Inselmodus|Publisher<br><br>Skype for Business|<br>Nur Teams|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Teams|
 |Microsoft Teams|&boxv;|Microsoft Teams|Skype for Business|Teams|
@@ -211,13 +211,13 @@ In der Tabelle Publisher die Anwesenheit der Publisher beschrieben, die von eine
 
 ### <a name="federated-presence"></a>Verbundpräsenz
 
-Die Verbundpräsenz basiert auf der in Tabelle 2 gezeigten Erreichbarkeit im Verbund.  In der folgenden Tabelle wird die Publisher-Anwesenheit beschrieben, die von einem Watcher abhängig vom Modus des Publisher und des Clients der Watcher (für einen neuen Thread) angezeigt wird. In der Praxis macht der Client von Watcher in dieser Phase keinen Unterschied beim Verbund.
+Die Verbundpräsenz basiert auf der in Tabelle 2 gezeigten Erreichbarkeit im Verbund.  In der folgenden Tabelle wird Publisher-Anwesenheitsmodus beschrieben, der von einem Watcher abhängig vom Modus der Publisher und dem Client der Watcher (für einen neuen Thread) angezeigt wird. In der Praxis macht der Client von Watcher in dieser Phase keinen Unterschied beim Verbund.
 
 #### <a name="table-4-federated-presence-new-thread"></a>Tabelle 4: Verbundpräsenz (neuer Thread)
 
 <br>
 
-|Zusehen<br><br>Client|<br><br>Route-->|<br><br>Inselmodus|Publisher<br><br>Skype for Business|<br><br>Teams Nur|
+|Zusehen<br><br>Client|<br><br>Route->|<br><br>Inselmodus|Publisher<br><br>Skype for Business|<br><br>Nur Teams|
 |---|:---:|---|---|---|
 |Skype for Business|&boxv;|Skype for Business|Skype for Business|Teams|
 |Microsoft Teams|&boxv;|Skype for Business|Skype for Business|Teams|
@@ -225,11 +225,11 @@ Die Verbundpräsenz basiert auf der in Tabelle 2 gezeigten Erreichbarkeit im Ver
 
 ### <a name="presence-in-pre-existing-threads"></a>Anwesenheit in bereits vorhandenen Threads
 
-Um die Anwesenheit und Erreichbarkeit in bereits vorhandenen Threads auszurichten, muss die Anwesenheit des Ziels, die in diesem Thread verfügbar gemacht wird, an das Routing des Threads angepasst werden, sofern Routing möglich ist.  Insbesondere wenn ein Empfänger, mit dem Sie zuvor einen dauerhaften Inop-Unterhaltungsthread hatten, auf Teams aktualisiert wurde, spiegelt dieser Thread nicht mehr genau seine Anwesenheit wider und ist nicht mehr routingfähig. Sie sollten einen neuen Thread starten.
+Um die Anwesenheit und Erreichbarkeit in bereits vorhandenen Threads auszurichten, muss die Anwesenheit des Ziels, die in diesem Thread verfügbar gemacht wird, an das Routing des Threads angepasst werden, sofern Routing möglich ist.  Insbesondere wenn ein Empfänger, mit dem Sie zuvor einen dauerhaften Inop-Unterhaltungsthread hatten, auf Teams aktualisiert wurde, spiegelt dieser Thread keine präzise Anwesenheit mehr wider und kann nicht mehr routingfähig sein. Sie sollten einen neuen Thread starten.
 
 ### <a name="federation-and-interop-with-office-365-operated-by-21vianet"></a>Verbund und Inaktivität mit Office 365 21Vianet
 
-Der Verbund und die Inaktivität zwischen mehr mandantenübergreifenden Office 365 und Office 365, betrieben von 21Vianet, werden unterstützt, wenn sich die Office 365-Benutzer mit mehreren Mandanten im Teams-Modus befinden. In einem solchen Szenario können Skype for Business Online-Benutzer in Office 365, betrieben von 21Vianet, mit Teams Nur Benutzer in Mehr-Mandant-Office 365 über Chats und Anrufe kommunizieren. Die folgende Tabelle zeigt die unterstützten Szenarien in dieser Konfiguration:
+Der Verbund und die Inaktivität zwischen mehr mandantenübergreifenden Office 365 und Office 365, betrieben von 21Vianet, werden unterstützt, wenn sich die Office 365-Benutzer mit mehreren Mandanten im Teams-Modus befinden. In einem solchen Szenario können Skype for Business Online-Benutzer in Office 365, betrieben von 21Vianet, über Chats und Anrufe nur mit Teams Nur Benutzer mit mehreren Mandanten Office 365 kommunizieren. Die folgende Tabelle zeigt die unterstützten Szenarien in dieser Konfiguration:
  
 |Szenario|Origin|Empfänger|Unterstützt?|
 |---|---|---|---|
