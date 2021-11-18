@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Administratoren können die Art von Audiokonferenzen und PSTN-Anrufen für Endbenutzer steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: 93f219feea677afe83c1c1dc031d6b878b219a45
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
+ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536876"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61066546"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -42,7 +42,7 @@ Steuerelemente für ausgehende Anrufe können pro Benutzer oder auf Mandantenbas
 Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, lesen Sie Länder- und [Regionszonen für Audiokonferenzen.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > Ein Anruf wird als Inland betrachtet, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung eingerichtet wurde (im Fall von Audiokonferenzen) oder für den Endbenutzer (bei PstN-Anrufen durch Endbenutzer).
+   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung eingerichtet wurde (im Fall von Audiokonferenzen) oder für den Endbenutzer (bei Anrufen über das Festnetz des Endbenutzers).
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -51,7 +51,7 @@ Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, le
 
 **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie dann den Anzeigenamen des Benutzers aus der Liste der verfügbaren Benutzer aus.
+1. Wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie dann in der Liste der verfügbaren Benutzer den Anzeigenamen des Benutzers aus.
 
 3. Wählen Sie **neben Audiokonferenz die** Option **Bearbeiten aus.**
 
@@ -64,7 +64,7 @@ Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, le
 
 Einschränkungen für ausgehende Anrufe werden durch eine einzelne Richtlinie mit dem Namen OnlineDialOutPolicy gesteuert, die jeweils über ein Einschränkungsattribut verfügt. Die Richtlinie kann nicht angepasst werden, sondern es gibt vordefinierte Richtlinieninstanzen für jede Kombination der Einstellungen.
 
-Mit dem cmdlet Get-CSOnlineDialOutPolicy ausgehende Anrufe können Sie die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
+Mit dem cmdlet Get-CSOnlineDialOutPolicy Ausgehende Anrufe können Sie die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
 
 **Legen Sie die Richtlinie auf Benutzerebene mit dem folgenden Cmdlet festgelegt.** (Das Cmdlet "Grant" enthält nicht wie das Cmdlet "Get" das Wort "Online".)
 
@@ -75,7 +75,7 @@ Grant-CsDialoutPolicy -Identity <username> -PolicyName <policy name>
 **Legen Sie die Richtlinie auf Mandantenebene mit dem folgenden Cmdlet festgelegt.**
 
 ```powershell
-Grant-CsDialoutPolicy  -Tenant <guid> -PolicyName <policy name>  -Global 
+Grant-CsDialoutPolicy -PolicyName <policy name>  -Global 
 ```
 
 Alle Benutzer des Mandanten, denen keine Wählrichtlinie zugewiesen ist, erhalten diese Richtlinie. Andere Benutzer bleiben bei ihrer aktuellen Richtlinie.
@@ -85,7 +85,7 @@ Die folgende Tabelle enthält eine Übersicht über die einzelnen Richtlinien.
 |PowerShell-Cmdlet|Beschreibung|
 |:-----|:-----|
 |Identity='tag:DialoutCPCandPSTNInternational'    |    Benutzer in der Konferenz können internationale und inlandsnummern anrufen, und dieser Benutzer kann auch ausgehende Anrufe an internationale nummern und Nummern im Inland anrufe.    |
-|Identity='tag:DialoutCPCDomesticPSTNInternational'  |    Nutzer der Konferenz können nur Inlandsnummern anrufen, und dieser Benutzer kann ausgehende Anrufe an internationale und inlandsnummern abwählen.    |
+|Identity='tag:DialoutCPCDomesticPSTNInternational'  |    Nutzer der Konferenz können nur Inlandsnummern anrufen, und dieser Benutzer kann ausgehende Anrufe an internationale und inlands nummerieren.    |
 |    Identity='tag:DialoutCPCDisabledPSTNInternational'    |    Die Nutzer der Konferenz können keine Verbindungen aus einer Konferenz herausrufen. Dieser Benutzer kann ausgehende Anrufe an internationale und Inlandsnummern anrufe.    |
 |    Identity='tag:DialoutCPCInternationalPSTNDomestic'    |    Benutzer in der Konferenz können internationale und Inlandsnummern anrufen, und dieser Benutzer kann nur ausgehende Anrufe an die PSTN-Nummer im Inland anrufe.    |
 |    Identity='tag:DialoutCPCInternationalPSTNDisabled'    |    Benutzer in der Konferenz können internationale und Inlandsnummern anrufen, und dieser Benutzer kann neben den Notrufnummern auch keine ausgehenden Anrufe an die PSTN-Nummer mehr abwählen.    |
