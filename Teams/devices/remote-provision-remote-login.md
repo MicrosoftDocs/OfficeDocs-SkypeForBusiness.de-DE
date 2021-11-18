@@ -1,9 +1,8 @@
 ---
-title: Remotebereitstellung und Anmeldung bei Teams Android-Geräten
-author: serdarsoysal
-ms.author: serdars
+title: Remotebereitstellung und -anmeldung für Teams Android-Geräte
+author: cazawideh
+ms.author: czawideh
 manager: serdars
-ms.reviewer: prgholve
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
@@ -18,14 +17,14 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Remotebereitstellung und -anmeldung für Teams Android-Geräte verwenden.
-ms.openlocfilehash: 818a6a4fc7941c82a52d63016bbdc338f977be29
-ms.sourcegitcommit: cfc48dc03550c093c4405fb5984648188f523699
+ms.openlocfilehash: e7e5acd491f15d4cc52ce1b898112da868f80594
+ms.sourcegitcommit: a3b3eb85354d62b2a5325ba7c8dda88352c6711a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "60046151"
+ms.lasthandoff: 11/18/2021
+ms.locfileid: "61070149"
 ---
-# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und Anmeldung bei Teams Android-Geräten
+# <a name="remote-provisioning-and-sign-in-for-teams-android-devices"></a>Remotebereitstellung und -anmeldung für Teams Android-Geräte
 
 IT-Administratoren können Remotebereitstellung und -anmeldung auf einem Teams Android-Gerät ausführen. Um ein Gerät remote bereitstellen zu können, muss der Administrator die MAC-IDs der bereitgestellten Geräte hochladen und einen Prüfcode erstellen. Der gesamte Vorgang kann remote über das Teams Admin Center abgeschlossen werden.
 
@@ -76,12 +75,12 @@ Im Fenster **Neue Geräte bereitstellen** können Sie entweder die MAC-Adresse m
 1. Geben Sie einen Standort ein, mit dem Techniker ermitteln können, wo die Geräte installiert werden sollen.
 1. Wenn Sie **fertig sind,** wählen Sie Übernehmen aus.
 
-### <a name="upload-a-file-to-add-a-device-mac-address"></a>Hochladen einer Datei zum Hinzufügen einer MAC-Adresse des Geräts
+### <a name="upload-a-file-to-add-a-device-mac-address"></a>Hochladen einer Datei, um eine MAC-Adresse des Geräts hinzuzufügen
 
 1. Wählen Sie **auf der Registerkarte** Aktivierung aus wartend die Option Hochladen **MAC-IDs aus.**
 2. Laden Sie die Dateivorlage herunter.
 3. Geben Sie die MAC-ID und den Speicherort ein, und speichern Sie dann die Datei.
-4. **Wählen Sie Datei** und dann Hochladen **aus.**
+4. **Wählen Sie Datei** und dann **Hochladen** aus.
 
 ## <a name="generate-a-verification-code"></a>Generieren eines Prüfcodes
 
@@ -90,13 +89,13 @@ Sie benötigen einen Prüfcode für die Geräte. Der Überprüfungscode wird in 
 1. Wählen Sie **auf der Registerkarte Warten auf die** Aktivierung eine vorhandene MAC-ID aus.
    Für die MAC-Adresse wird ein Kennwort erstellt und in der Spalte **Prüfcode** angezeigt.
 
-2. Stellen Sie die Liste der MAC-IDs und Prüfcodes für Die Feldtechniker zur Verfügung. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentlichen Installationsarbeiten überarbeiten soll.
+2. Stellen Sie die Liste der MAC-IDs und Prüfcodes für die Feldtechniker zur Verfügung. Sie können die Details direkt in eine Datei exportieren und die Datei für den Techniker freigeben, der die eigentlichen Installationsarbeiten überarbeiten soll.
 
 ## <a name="provision-the-device"></a>Bereitstellen des Geräts
 
-Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerät vom Techniker bereitgestellt. Diese Schritte werden auf dem Gerät Teams abgeschlossen.
+Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerät vom Techniker bereitgestellt. Diese Schritte werden auf dem Teams durchgeführt.
 
-1. Der Techniker wählt in **der Liste Gerät** bereitstellen **Einstellungen** aus.  
+1. Der Techniker wählt im Der **Techniker Gerät** bereitstellen **aus** Einstellungen aus.  
 
    ![Option "Neues Gerät bereitstellen" auf der Registerkarte "Aktionen".](../media/provision-device1.png)
   
@@ -108,7 +107,7 @@ Wenn das Gerät eingeschaltet und mit dem Netzwerk verbunden ist, wird das Gerä
 
    ![Der Mandantname auf der Anmeldeseite.](../media/provision-code.png)
 
-## <a name="sign-in-remotely"></a>Remote anmelden
+## <a name="first-time-remote-sign-in"></a>Erste Remote anmeldung
 
 Das bereitgestellte Gerät wird auf der Registerkarte **Auf Anmeldung warten** angezeigt. Starten Sie den Remote-Anmeldevorgang, indem Sie das einzelne Gerät auswählen.
 
@@ -120,7 +119,8 @@ Das bereitgestellte Gerät wird auf der Registerkarte **Auf Anmeldung warten** a
 
    ![das Fenster "Anmelden bei einem Benutzer" für ein einzelnes Gerät.](../media/sign-in-user.png)
 
-## <a name="related-article"></a>Verwandter Artikel
+## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verwalten Ihrer Geräte in Teams](device-management.md).
+- [Remote-An- und Abmelden](remote-sign-in-and-sign-out.md)
 - [Remoteupdate für Teams Geräte](remote-update.md)
