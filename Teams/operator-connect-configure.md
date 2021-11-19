@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6c19981f4cc7edb556b245da2aac0b320705cc64
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 2fa7a7c314fe2d31e5306ec96902f8ca87e44355
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275569"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111965"
 ---
 # <a name="configure-operator-connect"></a>Konfigurieren von Telefonieanbieter
 
@@ -34,7 +34,7 @@ In diesem Artikel wird beschrieben, wie diese Einstellungen konfiguriert werden.
 
 ## <a name="enable-an-operator"></a>Einen Anbieter aktivieren
 
-Sie können Operatoren im Admin Center aktivieren, Teams und entfernen. Navigieren Sie im linken Navigationsbereich zu **Voice > Anbieter**.
+Sie können Operatoren im Admin Center Teams bearbeiten und entfernen. Navigieren Sie im linken Navigationsbereich zu **Voice > Anbieter**.
 
 So aktivieren Sie einen Anbieter:
 
@@ -64,9 +64,9 @@ Führen Sie die folgenden Schritte aus, um Nummern für neue Microsoft Teams-Ben
 
 1. **Weisen Sie eine Telefonsystem-Lizenz zu.** Sie können Ihren Benutzern über das Microsoft 365 Admin Center oder mithilfe von PowerShell eine Telefonsystemlizenz zuweisen. Weitere Informationen finden Sie unter [Benutzern Microsoft Teams-Add-On-Lizenzen zuweisen](teams-add-on-licensing/assign-teams-add-on-licenses.md).
 
-2. Benutzer, denen Telefonnummern zugewiesen werden, die über die Operator-Verbinden müssen sich im TeamsOnly-Modus befinden. Wenn Sich Ihre Organisation im TeamsOnly-Modus befindet, befinden sich alle Ihre Benutzer im TeamsOnly-Modus. Um dies zu überprüfen, wechseln Teams Admin Center zu **Organisationsweite Einstellungen für > Teams Upgrade.** Wenn sich Ihre Organisation im Islands-Modus befindet, überprüfen Sie, ob sich bestimmte Benutzer imOnly-Modus befinden. Wechseln Sie zu **Benutzer,** und wählen Sie ein Benutzerkonto aus. Auf der **Registerkarte** Konto **unter Teams sollte** der Koexistenzmodus auf "TeamsOnly" festgelegt werden.
+2. Benutzer, denen Telefonnummern zugewiesen werden, die über die Operator-Verbinden müssen sich im TeamsOnly-Modus befinden. Wenn Ihre Organisation im TeamsOnly-Modus ist, befinden sich alle Ihre Benutzer im TeamsOnly-Modus. Um dies zu überprüfen, wechseln Teams Admin Center zu **Teams > Teams Upgradeeinstellungen**. Wenn sich Ihre Organisation im Islands-Modus befindet, überprüfen Sie, ob sich bestimmte Benutzer imOnly-Modus befinden. Wechseln Sie zu **Benutzer,** und wählen Sie ein Benutzerkonto aus. Auf der **Registerkarte** Konto sollte Teams Koexistenzmodus auf "TeamsOnly" festgelegt sein. 
 
-3. **Beziehen Sie Telefonnummern.** Rufen Sie die Website Ihres Anbieters auf, um Telefonnummern zu bestellen und zu beziehen. Eine Liste der Operatorwebsites finden Sie im Verzeichnis [Microsoft 365 Operator Verbinden .](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Sie müssen Ihre Mandanten-ID angeben. Wenn Sie Ihre Mandanten-ID nicht kennen, lesen Sie [Suchen Ihrer Microsoft 365 Mandanten-ID](/onedrive/find-your-office-365-tenant-id).
+3. **Beziehen Sie Telefonnummern.** Rufen Sie die Website Ihres Anbieters auf, um Telefonnummern zu bestellen und zu beziehen. Eine Liste der Operatorwebsites finden Sie im Verzeichnis [Microsoft 365 Operator Verbinden](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory). Sie müssen Ihre Mandanten-ID angeben. Wenn Sie Ihre Mandanten-ID nicht kennen, lesen Sie [Suchen Ihrer Microsoft 365 Mandanten-ID](/onedrive/find-your-office-365-tenant-id).
 
 4. **Weisen Sie Nummern zu.** Nachdem Ihr Anbieter die Bestellung abgeschlossen hat, lädt er Nummern in Ihren Mandanten hoch. Sie können die Nummern und den Anbieter im Microsoft Teams Admin Center unter **Voice > Telefonnummern** einsehen. Weisen Sie Benutzern Nummern über das Teams Admin Center oder mithilfe von PowerShell zu. Weitere Informationen finden Sie unter [Zuweisen von Telefonnummern](#assign-numbers).
 
@@ -81,7 +81,7 @@ Zum Zuweisen von Nummern zu Notfalladressen implementiert Ihr Netzbetreiber eine
 
 - Der Netzbetreiber weist den Telefonnummern Notfalladressen zu und ermöglicht Ihnen, diese später im Teams Admin Center zu ändern.
 
-- Der Netzbetreiber weist keine Adressen zu und ermöglicht Es Ihnen, den Telefonnummern im Teams Admin Center Notfalladressen zuzuordnen.
+- Der Netzbetreiber weist keine Adressen zu und ermöglicht Ihnen, den Telefonnummern im Teams Notfalladressen zuzuordnen.
 
 - Der Netzbetreiber weist den Telefonnummern Notfalladressen zu und lässt keine Änderung zu. In diesem Szenario müssen Sie sich an Ihren Netzbetreiber wenden, um Änderungen an den Telefonnummern und der zugewiesenen Notfalladresse vorzunehmen.
 
@@ -89,7 +89,7 @@ Weitere Informationen zu Notrufen finden Sie unter Verwalten von [Notrufen](what
 
 ### <a name="move-numbers-from-calling-plans-to-operator-connect"></a>Telefonnummern aus Anrufplänen zu Telefonieanbieter verschieben
 
-1. Wenden Sie sich an Ihren Anbieter, um Ihre Nummern zu Telefonieanbieter zu portieren. Informationen [Microsoft 365 Website des Verbinden finden](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Sie unter Verzeichnis des Netzbetreibers.
+1. Wenden Sie sich an Ihren Anbieter, um Ihre Nummern zu Telefonieanbieter zu portieren. Informationen [Microsoft 365 Der Verbinden finden](https://cloudpartners.transform.microsoft.com/practices/microsoft-365-for-operators/directory) Sie auf der Website Ihres Anbieters.
 
 2. Nachdem Ihr Anbieter den Portierungsauftrag abgeschlossen hat, können Sie die Zuweisung von Anrufplan-Telefonnummern Ihrer Benutzer aufheben und die Anrufplanlizenz entfernen. Anschließend kann Ihr Anbieter die Nummern in Ihren Mandanten hochladen.
 

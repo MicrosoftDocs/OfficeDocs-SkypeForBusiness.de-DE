@@ -1641,6 +1641,8 @@ items:
             href: devices/device-management.md
           - name: Remotebereitstellung und -Anmeldung
             href: devices/remote-provision-remote-login.md
+          - name: Remoteanmeldung und -abmeldung
+            href: devices/remote-sign-in-and-sign-out.md
           - name: Remoteaktualisierung Ihrer Geräte
             href: devices/remote-update.md
           - name: Verwalten von Teams-Gerätetags

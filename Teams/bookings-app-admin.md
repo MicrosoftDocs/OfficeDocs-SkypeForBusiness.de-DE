@@ -19,16 +19,16 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie die Bookings-App in Teams Benutzern in Ihrer Organisation verwalten.
-ms.openlocfilehash: 42e7c4741104f417f7e24a0e6441acb57cac203a
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ae471bfee1901396ee3419380fcd7620e21231fe
+ms.sourcegitcommit: 5c88a07f07f9faad294d614d507e43173efc5f46
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973053"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61111975"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Verwalten der Bookings-App in Microsoft Teams
 
-Die Bookings-App in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlichen und virtuellen Terminen, z. B. Arzttermine, Finanzberatungsgespräche, Bewerbungsgespräche, Kundensupport, Dienststunden für Bildungseinrichtungen und vieles mehr. Weitere Informationen finden Sie unter Virtuelle Besuche mit Teams [und der Bookings-App.](expand-teams-across-your-org/bookings-virtual-visits.md)
+Die Bookings-App in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlichen und virtuellen Terminen, z. B. Arzttermine, Finanzberatungsgespräche, Bewerbungsgespräche, Kundensupport, Dienststunden für Bildungseinrichtungen und vieles mehr. Weitere Informationen finden Sie unter [Virtuelle Besuche mit Teams und der Bookings-App.](expand-teams-across-your-org/bookings-virtual-visits.md)
 
 Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Lösung verwalten. Die virtuellen Termine selbst werden über Microsoft Teams-Besprechungen abgehalten, die stabile Funktionen für die Videokonferenz bieten.
 
@@ -41,7 +41,7 @@ Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie
 
 - Microsoft Bookings muss für die Organisation aktiviert sein.
 
-- Die Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 und E5, Business Standard werden unterstützt.
+- Die Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 und Business Standard werden unterstützt.
 
 - Alle Benutzer der Bookings-App und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die Teams unterstützt.
 
@@ -57,7 +57,7 @@ Es gibt mehrere Möglichkeiten, um zu steuern, wer Zugriff auf die Bookings-App 
 
 Informationen zum Aktivieren oder Deaktivieren von Microsoft Bookings im Microsoft 365 Admin Center und zum Erstellen einer Bookings-App-Richtlinie, mit der ausgewählten Benutzern das Erstellen von Bookings-Kalendern ermöglicht wird, finden Sie unter Zugriff auf [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce)erhalten.
 
-Sie können auch eine Richtlinie zum Teams Ihrer App erstellen, um die [Bookings-App für ausgewählte Benutzer anheften.](teams-app-setup-policies.md)
+Sie können auch eine Einrichtungsrichtlinie Teams Ihrer App erstellen, um die [Bookings-App für ausgewählte Benutzer anheften.](teams-app-setup-policies.md)
 
 ## <a name="recommended-meeting-policy-settings"></a>Empfohlene Besprechungsrichtlinieneinstellungen
 
@@ -88,7 +88,7 @@ Set-Mailbox -identity business@domain.onmicrosoft.com -WindowsEmailAddress busin
 Weitere Informationen finden Sie in der PowerShell-Dokumentation zum Cmdlet [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 > [!NOTE]
-> Wenn Sie eine Exchange-Hybridkonfiguration verwenden, empfehlen wir, den E-Mail-Fluss zwischen lokalen Exchange und Exchange Online beim Ändern der Standarddomäne gründlich zu testen.
+> Wenn Sie eine Exchange-Hybridkonfiguration verwenden, empfehlen wir, den E-Mail-Fluss zwischen lokalen Exchange und Exchange Online gründlich zu testen, wenn Sie die Standarddomäne ändern.
 
 ## <a name="sending-feedback"></a>Senden von Feedback
 
@@ -98,7 +98,7 @@ Wir freuen uns über Ihr Feedback zu:
   - Lücken bei Features oder fehlende Funktionen
   - Fehler oder Probleme
   
-Um Feedback zu  senden, wählen Sie die Schaltfläche Hilfe am unteren Rand der linken Teams und dann Problem **für** **ALLE Probleme melden** aus. Geben Sie am Anfang Ihres Feedbackberichts an, dass Sie Feedback zu "Bookings" senden, damit wir Bookings-Probleme problemlos erkennen können.
+Um Feedback zu  senden, wählen Sie die Schaltfläche Hilfe am unteren Rand der linken Teams und dann Problem **für** **ALLE Probleme** melden aus. Geben Sie am Anfang Ihres Feedbackberichts an, dass Sie Feedback zu "Bookings" senden, damit wir Bookings-Probleme problemlos erkennen können.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
