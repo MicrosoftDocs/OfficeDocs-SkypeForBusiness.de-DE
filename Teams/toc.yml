@@ -369,8 +369,6 @@ items:
                 href: view-guests.md
               - name: Bearbeiten von Gastinformationen
                 href: edit-guests-information.md
-              - name: Problembehandlung beim Gastzugriff
-                href: troubleshoot-guest-access.md
       - name: Überwachen und Verwalten der Anrufqualität
         items:
           - name: Überwachen und Verbessern der Anrufqualität

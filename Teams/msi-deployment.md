@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c2e598a44fade1805824354606229668fb3494d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850578"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124242"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -44,8 +44,6 @@ Hier sind die Links zu den MSI-Dateien:
 **Um eine erfolgreiche Bereitstellung sicherzustellen, beachten Sie Folgendes:**
 
 - Installieren Sie die 64-Bit-Version von Teams auf 64-Bit-Betriebssystemen. Wenn Sie versuchen, die 64-Bit-Version von Teams auf einem 32-Bit-Betriebssystem zu installieren, schlägt die Installation fehl, aber Sie erhalten zurzeit keine Fehlermeldung.
-
-- Wenn sich der Kundenmandant in der GCCH- oder DoD-Cloud befindet, muss der Kunde den anfänglichen Endpunkt in der Registrierung festlegen, indem er den Wert **CloudType** zum Schlüssel **HKEY_CURRENT_USER \software\policies\microsoft\office\16.0\teams** in der Registrierung hinzugefügt. Der Typ für **CloudType** ist **DWORD** und die Werte sind (0 = Unset, 1 = commercial, 2 = GCC, 3 = GCCH, 4 = DOD). Wenn Sie den Endpunkt mit dem Registrierungsschlüssel festlegen, können Teams nur eine Verbindung mit dem korrekten Cloud-Endpunkt für eine Verbindung mit Teams vor der Anmeldung herstellen.
 
 - Teams können auch in eine Bereitstellung von Microsoft 365 Apps for Enterprise einbezogen werden. Weitere Informationen finden Sie unter [Bereitstellen von Microsoft Teams mit Microsoft 365 Apps for Enterprise](/deployoffice/teams-install).
 

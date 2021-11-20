@@ -18,12 +18,12 @@ ms.custom:
 - ms.teamsadmincenter.voice.phonenumbers.porting.overview
 - Calling Plans
 description: Verschaffen Sie sich einen Überblick über Portierungsaufträge und wie Sie Telefonnummern von Ihrem Dienstanbieter an Teams.
-ms.openlocfilehash: a6ff4bffe4602eca7150a9f6c8c1b69782646e7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bb2c81a1c2263e59aee8477679440c7e26748c3a
+ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833029"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "61124272"
 ---
 # <a name="whats-a-port-order"></a>Was ist ein Portierungsauftrag?
 
@@ -67,21 +67,21 @@ Im Allgemeinen können Sie jede Telefonnummer übertragen, die von einem unterst
 
 - Skype for Business hybride Telefonnummern. Wenn Sie diese Nummern übertragen möchten, senden Sie uns eine E-Mail unter <ptn@microsoft.com> .
 
-  **Sie können nicht übertragen:**
+**Sie können nicht übertragen:**
   
-    > [!NOTE]
-    > Derzeit können Sie keine Telefonnummern oder Nummern übertragen, die nicht aus einem unterstützten Land oder einer unterstützten Region kommen, einschließlich Telefonnummern von einem VoIP-Telefonanbieter. Eine Liste der unterstützten Länder/Regionen finden Sie unter Verfügbarkeit von Ländern und Regionen für [Audiokonferenzen und Anrufpläne.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
+> [!NOTE]
+> Derzeit können Sie keine Telefonnummern oder Nummern übertragen, die nicht aus einem unterstützten Land oder einer unterstützten Region kommen, einschließlich Telefonnummern von einem VoIP-Telefonanbieter. Eine Liste der unterstützten Länder/Regionen finden Sie unter Verfügbarkeit von Ländern und Regionen für [Audiokonferenzen und Anrufpläne.](../country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md)
   
 - Telefon, die für Datenverbindungen wie DSL-Leitungen oder Breitband-Internetverbindungen verwendet werden.
 
-- Telefon für Faxübertragungen.
+- Telefon-Nummern für Faxübertragungen.
 
     Wenn Sie bereits über dedizierte Telefonnummern verfügen,  die für Faxübertragungen verwendet werden, können Sie diese Nummern an Teams Ihre Faxdienste funktionieren jedoch nicht wie erwartet. Faxdienste sind für Kunden von Teams nicht verfügbar, auch wenn Sie über Lizenzen für Telefonsystem, einen Plan für Inlandanrufe oder einen Plan für Auslandsanrufe verfügen.
 
     Wenn Sie die Telefonnummer zu Teams portieren, können Sie diese Telefonnummer einem Benutzer in Ihrer Organisation zuweisen, statt sie zum Faxen zu verwenden.
 
-    > [!NOTE]
-    > Derzeit wird in Großbritannien die Übertragung nicht ortsfreier UK-Nummern einschließlich der gemeinsamen Kostennummern für die Vorwahlen 0843, 0844, 0845, 0870, 0871, 0872 derzeit nicht unterstützt.
+> [!NOTE]
+> Derzeit wird in Großbritannien die Übertragung nicht ortsfreier UK-Nummern einschließlich der gemeinsamen Kostennummern für die Vorwahlen 0843, 0844, 0845, 0870, 0871, 0872 derzeit nicht unterstützt.
   
 ## <a name="what-information-do-i-need-to-provide"></a>Welche Informationen muss ich bereitstellen?
 
@@ -89,7 +89,7 @@ Sie benötigen alle Kontoinformationen für Ihren aktuellen Netzbetreiber. Die I
   
 ## <a name="what-are-full-port-and-partial-port-transfers"></a>Was sind Übertragungen mit vollständigem portieren und teilweisem Portieren?
 
-Beim Portieren von Telefonnummern zu Teams haben Sie die Möglichkeit, alle Ihre Telefonnummern oder einige davon zu übertragen.
+Wenn Sie Telefonnummern zu Teams portieren, haben Sie die Möglichkeit, alle Ihre Telefonnummern oder einige davon zu übertragen.
   
 - **Vollständige Portierung** Dabei übertragen Sie alle Telefonnummern von Ihrem aktuellen Dienstanbieter Teams. Wenn Sie nach den Telefonnummern gefragt werden,  die Sie übertragen möchten, müssen Sie die Abrechnungstelefonnummer (Billing Telephone Number, BTN) zusammen mit allen anderen Telefonnummern in Ihrem Konto verwenden.
 
@@ -112,7 +112,7 @@ Sie müssen z. B. für jeden der folgenden Nummerntypen eine eindeutige Anforder
 
 - Mobiltelefonnummern
 
-- Servicenummern, die für Audiokonferenzen in Microsoft 365 oder Office 365.
+- Servicenummern, die für Audiokonferenzen in einer Microsoft 365 oder einer Office 365.
 
 Hier finden Sie weitere Informationen zum Übermitteln von Nummernportierungsanforderungen für jeden dieser Nummerntypen:
   
@@ -131,18 +131,16 @@ Hier finden Sie weitere Informationen zum Übermitteln von Nummernportierungsanf
 
 Nachdem Sie die Anforderung für den Portierungsauftrag abgeschlossen haben, dauert die Verarbeitung zwischen 7 und 14 Tagen. Je nach Dienstanbieter kann dies jedoch bis zu 30 Tage dauern. Nachdem die Telefonnummern portiert wurden, erhalten Sie eine E-Mail von uns, mit der Sie informiert werden, dass Sie losgehen können.
   
-Um den Status Ihres Portierungsauftrags zu überprüfen, wechseln Sie in der linken Navigationsleiste des Microsoft Teams **Admin** Centers zu Voice  >  **Telefon-Nummern**, und klicken Sie dann auf **Bestellverlauf**. Der Status jedes Portierungsauftrags wird in der **Spalte Status** aufgeführt.
+Um den Status Ihres Portierungsauftrags zu überprüfen, navigieren Sie in der linken Navigationsleiste des Microsoft Teams **Admin** Centers zu Voice  >  **Telefon-Nummern**, und klicken Sie dann auf **Bestellverlauf**. Der Status jedes Portierungsauftrags wird in der **Spalte Status** aufgeführt.
   
 ## <a name="can-user-subscriber-phone-numbers-be-converted-to-service-numbers"></a>Können Telefonnummern von Benutzern (Abonnenten) in Servicenummern umgewandelt werden?
 <a name="bkmk_type_1"> </a>
 
 Ja, das können sie. Sie müssen nur eine Serviceanfrage übermitteln, die die Mandanten-GUID Ihrer Organisation und die Telefonnummern enthält, die Sie ändern möchten. Informationen dazu finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation.](../manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
 
-## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Kann ich meine Telefonnummern von Teams einen anderen Telefondienstanbieter oder Netzbetreiber portieren?
+## <a name="can-i-port-out-my-numbers-from-teams-to-a-different-phone-service-provider-or-carrier"></a>Kann ich meine Telefonnummern von Teams zu einem anderen Telefondienstanbieter oder Netzbetreiber portieren?
 
-Wenn Sie Ihre Nummern von Teams zu einem anderen Netzbetreiber portieren möchten, müssen Sie eine Anfrage beim neuen Netzbetreiber übermitteln. Sie müssen auch eine Portierungs-PIN im Microsoft Teams Admin Center festlegen.
-
-Um Ihre Portierungs-PIN zu definieren, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Voice** Telefon-Nummern , wählen Sie in der oberen rechten Ecke der Seite Portierungs-PIN verwalten aus, und geben Sie dann eine  >  10-stellige PIN ein. 
+Wenn Sie Ihre Nummern von einem Teams zu einem anderen Netzbetreiber portieren möchten, müssen Sie eine Anfrage beim neuen Netzbetreiber übermitteln. Sie müssen auch eine Portierungs-PIN festlegen, indem Sie einen Supportfall öffnen. Informationen dazu, wie Sie Support erhalten, finden Sie unter [Support erhalten.](/microsoft-365/business-video/get-help-support) 
 
 Wenn sich Ihr neuer Netzbetreiber mit der Portierungsanfrage in Verbindung stellt, wird er zur Bereitstellung der von Ihnen definierten PIN bitten.
 
