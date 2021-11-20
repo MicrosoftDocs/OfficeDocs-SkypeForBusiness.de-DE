@@ -22,26 +22,31 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 7b12dfacc5b9bd6ebe5bb0e3de17a40bb0148ef0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
+ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839737"
+ms.lasthandoff: 11/20/2021
+ms.locfileid: "61129865"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
 Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, ob anonyme Benutzer an Teams-Besprechungen teilnehmen können und um Besprechungsanfragen anzupassen. Wenn Sie Quality of Service (QoS) aktivieren möchten, können Sie Portbereiche für den Echtzeitdatenverkehr festlegen. Diese Einstellungen gelten für alle Teams-Besprechungen, die Benutzer in Ihrer Organisation planen. Sie verwalten diese Einstellungen über **Besprechungen** > **Besprechungseinstellungen** im Microsoft Teams Admin Center.
 
+Ab November 2021 können Administratoren auch steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzer erlauben können, an den von ihnen organisierten Besprechungen teilzunehmen. Diese Richtlinie pro Organisator ist restriktiver als und überschreibt die nachfolgenden organisationsweiten Einstellungen für anonyme Benutzer, die von Administratoren im Teams Admin Center verwaltet werden.
+
+> [!Important]
+ > **-DisableAnonymousJoin** ist die organisationsweite Richtlinieneinstellung. Sie wird in Zukunft veraltet, und dann wird die Richtlinie pro Organisator die einzige Möglichkeit sein, die anonyme Teilnahme zu steuern.
+
 ## <a name="allow-anonymous-users-to-join-meetings"></a>Anonyme Benutzer dürfen an Besprechungen teilnehmen
 
-Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beitreten, indem er auf den Link in der Besprechungseinladung klickt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508).
+Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beitreten, indem er auf den Link in der Besprechungseinladung klickt. Weitere Informationen hierzu finden Sie unter [Teilnehmen an einer Besprechung ohne ein Teams-Konto](https://support.office.com/article/join-a-meeting-without-a-teams-account-c6efc38f-4e03-4e79-b28f-e65a4c039508). Sie können die Möglichkeit anonymer Benutzer zur Teilnahme an Besprechungen entweder auf Organisationsebene oder pro Besprechungsorganisator steuern, indem Sie zwei verschiedene Richtlinieneinstellungen verwenden.
 
- **Verwenden des Microsoft Teams Admin Centers**
+ ### <a name="using-the-microsoft-teams-admin-center-to-configure-organization-wide-policy"></a>Verwenden des Microsoft Teams Admin Centers zum Konfigurieren einer organisationsweiten Richtlinie
 
-Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
+Sie müssen ein Teams-Administrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
-1. Wechseln Sie zum Admin Center.
+1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.net).
 
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
 
@@ -51,6 +56,22 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 > [!CAUTION]
 > Wenn Sie nicht möchten, dass anonyme Benutzer an von Benutzern in Ihrer Organisation geplanten Besprechungen teilnehmen, deaktivieren Sie diese Einstellung.
+
+### <a name="using-powershell-to-configure-per-organizer-policy"></a>Verwenden von PowerShell zum Konfigurieren einer Richtlinie pro Organisator
+
+Administratoren können jetzt steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzer erlauben können, an den von ihnen organisierten Besprechungen teilzunehmen. Diese neue Richtlinie pro Organisator wird mithilfe des Parameters **-AllowAnonymousUsersToJoinMeeting** in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) gesteuert. Dies ist in der Teams-PowerShell-Version 2.6.0 und höher verfügbar.
+
+Sie können beide Richtlinien – organisationsweit oder pro Organisator – verwenden, um die anonyme Teilnahme zu verwalten. Wir empfehlen, die Richtlinie pro Organisator zu implementieren. Die organisationsweite Richtlinieneinstellung wird in Zukunft veraltet, und die Richtlinie pro Organisator wird die einzige Möglichkeit sein, die anonyme Teilnahme zu steuern.
+
+Da sowohl die organisationsweite Richtlinie als auch die Richtlinien pro Organisator die anonyme Teilnahme steuern, wird die restriktivere Einstellung wirksam sein. Wenn Sie beispielsweise auf Organisationsebene keine anonyme Teilnahme zulassen, ist dies Ihre effektive Richtlinie, unabhängig davon, was Sie für die Richtlinie pro Organisator konfigurieren. Um anonymen Benutzern die Teilnahme an Besprechungen zu ermöglichen, müssen Sie daher beide Richtlinien so konfigurieren, dass die anonyme Teilnahme durch Festlegen der folgenden Werte zulässig ist:
+
+- **-DisableAnonymousJoin** auf **$false** festlegen
+- **-AllowAnonymousUsersToJoinMeeting** auf **$true** festlegen
+
+Alle anderen Wertekombinationen verhindern, dass anonyme Benutzer an Besprechungen teilnehmen können.
+> [!NOTE]
+> Um die Richtlinie pro Organisator für Organisationen zu verwenden, bei denen die anonyme Teilnahme pro Organisation deaktiviert ist, müssen Administratoren eine Richtlinie erstellen und diese dann Benutzern zuweisen. Informationen dazu finden Sie unter [Verwalten von Besprechungsrichtlinien in Microsoft Teams](/microsoftteams/meeting-policies-overview).
+
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Zulassen, dass anonyme Benutzer in Besprechungen mit Apps interagieren
 
