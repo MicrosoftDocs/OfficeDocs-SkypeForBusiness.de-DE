@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a5dd419bab9fbe885d3d361d2fdb19758bd392e3
-ms.sourcegitcommit: 99bf220249723e954cf5295df3418d93fec80db6
+ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
+ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/12/2021
-ms.locfileid: "60275579"
+ms.lasthandoff: 11/22/2021
+ms.locfileid: "61135198"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Für Direct Routing zertifizierte Session Border Controller
 
@@ -37,7 +37,7 @@ Microsoft arbeitet mit jedem Anbieter zusammen, um folgende Schritte zu unterneh
 - Einen gemeinsamen Supportprozess mit den SBC-Anbietern bereitzustellen.
 
   > [!NOTE]
-  > Microsoft unterstützt das Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über Direct Routing verbunden sind. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über Direct Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct Routing-Problem eines Kunden mit dem SBC-Gerät eines Anbieters auftritt, muss der Kunde den SBC-Anbieter um Support bitten.
+  > Microsoft unterstützt das Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über Direct Routing verbunden sind. Bei Problemen muss sich der Kunde zuerst an den Kundensupport von SBC-Lieferanten wenden. Bei Bedarf wird der SBC-Anbieter das Problem über interne Kanäle an Microsoft eskalieren. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über Direct Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct Routing-Problem eines Kunden mit dem SBC-Gerät eines Lieferanten besteht, muss der Kunde den SBC-Anbieter erneut engagieren, um Support zu erhalten.
   >
   > Die Zertifizierung wird für bestimmte SBC-Firmwareversionen gewährt. Jede nachstehend dokumentierte SBC-Firmwareversion ist zertifiziert und wird unterstützt. Höhere Firmwareversionen als jene, die dokumentiert sind, werden unterstützt, solange die Haupt-.Nebenversion gleich ist.
   >
