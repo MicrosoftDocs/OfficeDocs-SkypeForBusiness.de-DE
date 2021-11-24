@@ -22,18 +22,18 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 8e8ecc32d35aac6fb6bc504df1a8d00520b4578c
-ms.sourcegitcommit: e6dc3f6818f7761b6b1e9645769636e991be15c3
+ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
+ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/20/2021
-ms.locfileid: "61129865"
+ms.lasthandoff: 11/24/2021
+ms.locfileid: "61153308"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
 Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, ob anonyme Benutzer an Teams-Besprechungen teilnehmen können und um Besprechungsanfragen anzupassen. Wenn Sie Quality of Service (QoS) aktivieren möchten, können Sie Portbereiche für den Echtzeitdatenverkehr festlegen. Diese Einstellungen gelten für alle Teams-Besprechungen, die Benutzer in Ihrer Organisation planen. Sie verwalten diese Einstellungen über **Besprechungen** > **Besprechungseinstellungen** im Microsoft Teams Admin Center.
 
-Ab November 2021 können Administratoren auch steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzer erlauben können, an den von ihnen organisierten Besprechungen teilzunehmen. Diese Richtlinie pro Organisator ist restriktiver als und überschreibt die nachfolgenden organisationsweiten Einstellungen für anonyme Benutzer, die von Administratoren im Teams Admin Center verwaltet werden.
+Mithilfe einer Richtlinieneinstellung pro Organisator können Administratoren jetzt steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzern die Teilnahme an den von ihnen organisierten Besprechungen gestatten können. Die Einstellungen pro Organisator und organisationsweite Richtlinien steuern die anonyme Teilnahme, und die restriktiveren werden wirksam.
 
 > [!Important]
  > **-DisableAnonymousJoin** ist die organisationsweite Richtlinieneinstellung. Sie wird in Zukunft veraltet, und dann wird die Richtlinie pro Organisator die einzige Möglichkeit sein, die anonyme Teilnahme zu steuern.
