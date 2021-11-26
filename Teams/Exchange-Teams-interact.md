@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01335cce21a4550158f3c87da12c8a23166a39de
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 1fbcadfefffe40bbd7c2919f269185b8116b7237
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58624807"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205275"
 ---
 # <a name="how-exchange-and-microsoft-teams-interact"></a>Interaktion von Exchange und Microsoft Teams
 
@@ -68,9 +68,9 @@ Die folgende Tabelle enthält eine hilfreiche Kurzübersicht über die Verfügba
 
 <sup>8</sup> Sie müssen die Anforderungen erfüllen, die im Abschnitt [Anforderungen für das Erstellen und Anzeigen von Besprechungen für lokal gehostete Postfächer](#requirements-to-create-and-view-meetings-for-mailboxes-hosted-on-premises) aufgeführt sind.
 
-<sup>9</sup> Eine mindestens erforderliche Exchange Online Plan 1-Lizenz ist ebenfalls erforderlich. Weitere Informationen finden Sie unter Suchen [Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
+<sup>9</sup> Mindestens eine Lizenz Exchange Online Plan 1 ist ebenfalls erforderlich. Weitere Informationen finden Sie unter Suchen [Teams von Chatdaten für lokale Benutzer.](/microsoft-365/compliance/search-cloud-based-mailboxes-for-on-premises-users)
 
-<sup>10</sup> Lokale Benutzer können mithilfe von Teams Profilbild aktualisieren, auch wenn die Richtlinie für Outlook `SetPhotoEnabled` Webpostfach auf festgelegt `false` ist.
+<sup>10</sup> Lokale Benutzer können mithilfe von Teams Profilbild aktualisieren, auch wenn die Richtlinie Outlook `SetPhotoEnabled` Webpostfach auf festgelegt `false` ist.
 
 ## <a name="requirements-to-get-the-most-out-of-microsoft-teams"></a>Voraussetzungen für die optimale Nutzung von Microsoft Teams
 
@@ -104,13 +104,13 @@ Wenn Postfächer lokal gehostet werden, müssen zum Erstellen und Anzeigen von B
   > [!NOTE]
   > Exchange vertraut dem OAuth-Token des Teams-Diensts, der als EvoSTS bekannt ist. Schritt 1 sollte ausreichen, aber nur EvoSTS; ACS wird für die Frei/Gebucht-Suche im Kalender verwendet.
 
-- Das Kontrollkästchen für das Feature „Exchange-Hybridbereitstellung“ in Azure AD Connect ist aktiviert. Weitere Informationen finden Sie unter [Exchange- und Hybridrückschreiben.](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)
+- Das Kontrollkästchen für das Feature „Exchange-Hybridbereitstellung“ in Azure AD Connect ist aktiviert. Weitere Informationen finden Sie unter [Exchange.](/azure/active-directory/hybrid/reference-connect-sync-attributes-synchronized#exchange-hybrid-writeback)
 
 - Für die Unterstützung der Kalender-App und für das Teams Outlook Add-In für Mac müssen Exchange-Webdienste-URLs als SPNs in Azure AD auf dem Mandanten für den Exchange-Dienstprinzipal konfiguriert werden. Dieser Schritt wird mit dem Hybridkonfigurations-Assistenten oder den folgenden [manuellen Schritten für die moderne Hybridauthentifizierung](/microsoft-365/enterprise/configure-exchange-server-for-hybrid-modern-authentication#add-on-premises-web-service-urls-as-spns-in-azure-ad) ausgeführt.
 
 So aktivieren Sie die Kalenderdelegation für diese Benutzer
 
-- Sie müssen auch Schritte ausführen, wie unter Konfigurieren der [Integration und OAuth zwischen Skype for Business Online und Exchange Server](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)beschrieben. mit diesen Schritten erhalten Teams Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen.
+- Sie müssen auch Schritte ausführen, wie unter Konfigurieren der Integration und [OAuth](/skypeforbusiness/deploy/integrate-with-exchange-server/oauth-with-online-and-on-premises)zwischen Skype for Business Online und Exchange Server beschrieben. Mit diesen Schritten erhalten die Teams-Planungsanwendung die erforderlichen Berechtigungen zum Bestätigen von Stellvertretungsberechtigungen.
  
   > [!NOTE]
   > Schritt 2 umfasst die Rollenzuweisung für ArchiveApplication, die für die Delegation nicht erforderlich ist.
@@ -125,7 +125,7 @@ Hier sind einige weitere Punkte, die Sie berücksichtigen sollten, wenn Sie Micr
 
 - Sie können die Konfiguration von Konformitätsrichtlinien in Teams und Exchange mithilfe des bedingten Zugriffs Steuern und schützen. Weitere Informationen finden Sie unter [Wie funktionieren Richtlinien für bedingten Zugriff in Verbindung mit Microsoft Teams?](security-compliance-overview.md#how-conditional-access-policies-work-for-teams)
 
-- Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt. Weitere Informationen finden Sie unter [Zulassen der Planung privater Besprechungen](./meeting-policies-in-teams-general.md#allow-scheduling-private-meetings).
+- Wenn Ihre Organisation Compliance-Anforderungen erfüllen muss, um sicherzustellen, dass alle Besprechungsdiskussionen gefunden werden können, sollten Sie private Besprechungen deaktivieren, wenn der Organisator über ein lokales Exchange-Postfach verfügt. Weitere Informationen finden Sie unter [Planen privater Besprechungen.](./meeting-policies-in-teams-general.md#private-meeting-scheduling)
 
 - Bei einer Hybridbereitstellung von Exchange sind Inhalte aus Chatnachrichten unabhängig davon durchsuchbar, ob Chatteilnehmer über ein cloudbasiertes oder ein lokales Postfach verfügen. Weitere Informationen finden Sie unter [Durchsuchen von cloudbasierten Postfächern für lokale Benutzer](/office365/securitycompliance/search-cloud-based-mailboxes-for-on-premises-users). Weitere Informationen zur Suche nach Inhalten in Teams finden Sie unter [Ausführen einer Inhaltssuche im Microsoft 365 Compliance Center](/Office365/SecurityCompliance/content-search#searching-microsoft-teams-and-office-365-groups).
 

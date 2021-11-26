@@ -16,25 +16,25 @@ appliesto:
 f1.keywords:
 - CSH
 ms.custom: ''
-description: Erfahren Sie, wie Sie mithilfe von Besprechungsrichtlinieneinstellungen den Ablauf von Besprechungen in Microsoft Teams.
-ms.openlocfilehash: 7912c57e12de83f112bb1c80b1c44d81d9d6b857
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+description: Erfahren Sie, wie Sie besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in einem Microsoft Teams.
+ms.openlocfilehash: 8768410666d003f12cffb80995981b887059f93a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124262"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61178016"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams
 
-[Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams werden verwendet, um zu steuern, ob Benutzer in Ihrer Organisation Besprechungen starten und planen können, sowie die Features, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern geplant werden. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sie verwalten Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove,](/powershell/module/skype/remove-csteamsmeetingpolicy) [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell-Cmdlets.
+[Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams werden verwendet, um zu steuern, ob Benutzer in Ihrer Organisation Besprechungen starten und planen können, sowie die Features, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern geplant werden. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sie verwalten Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell-Cmdlets.
 
 Die Einstellungen der Besprechungsrichtlinie, die steuern, ob Benutzer Besprechungen starten und planen sowie den Ablauf von Besprechungen steuern können, die von Benutzern geplant werden. Wenn ein Teilnahmelink und eine Konferenz-ID für eine Besprechung abläuft, kann niemand an der Besprechung teilnehmen. Die folgenden Einstellungen für Besprechungsrichtlinien bestimmen, ob Benutzer Besprechungen in einer Besprechung starten Teams. Die Besprechungseinstellungen werden in diesem Artikel erläutert.
 
-- [Jetzt besprechungen in Kanälen](meeting-policies-in-teams-general.md#allow-meet-now-in-channels)zulassen: Steuert, ob ein Benutzer eine Besprechung aus dem Ausweg in einem Kanal starten kann.
-- [Planen von Kanal-Besprechungen](meeting-policies-in-teams-general.md#allow-channel-meeting-scheduling)zulassen: Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
-- [Planen privater Besprechungen](meeting-policies-in-teams-general.md#allow-scheduling-private-meetings)zulassen: Steuert, ob ein Benutzer eine private Besprechung in einem Teams. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
-- [Zulassen, Outlook hinzufügen:](meeting-policies-in-teams-general.md#allow-the-outlook-add-in)Steuert, ob ein Benutzer eine private Besprechung von einem anderen Outlook. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
-- [Sofortbesprechung in privaten Besprechungen](meeting-policies-in-teams-general.md#allow-meet-now-in-private-meetings)zulassen: Steuert, ob benutzerfreundliche private Besprechungen starten können.
+- [Jetzt in Kanälen besprechungen:](meeting-policies-in-teams-general.md#meet-now-in-channels)Steuert, ob ein Benutzer eine Besprechung in einem Kanal vom 1. bis zum 1.
+- [Kanal-Besprechung planen:](meeting-policies-in-teams-general.md#channel-meeting-scheduling)Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
+- [Private Besprechung planen:](meeting-policies-in-teams-general.md#private-meeting-scheduling)Steuert, ob ein Benutzer eine private Besprechung in einem Teams. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+- [Outlook Hinzufügen in:](meeting-policies-in-teams-general.md#outlook-add-in)Steuert, ob ein Benutzer eine private Besprechung von einem Outlook. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+- [Jetzt in privaten Besprechungen besprechungen](meeting-policies-in-teams-general.md#meet-now-in-private-meetings)teilnehmen: Steuert, ob ein Benutzer eine private Besprechung ohne Benutzeroberfläche starten kann.
 
 Diese Einstellungen sind standardmäßig aktiviert. Wenn eine dieser Einstellungen deaktiviert ist, kann jeder Benutzer, dem die Richtlinie zugewiesen ist, keine neuen Besprechungen dieses Typs starten oder planen. Gleichzeitig treten der Besprechung Links und Konferenz-IDs aller vorhandenen Besprechungen des Typs bei, die der Benutzer zuvor begonnen oder geplant hat.
 
@@ -62,10 +62,10 @@ Hier ist eine Zusammenfassung der Funktionsweise des Ablaufs von Besprechungen f
 
 |Sie möchten...&nbsp;&nbsp; |So geht's&nbsp;&nbsp;&nbsp;&nbsp;  |Besprechungs-Joinverhalten&nbsp;&nbsp;&nbsp;&nbsp;  |
 |---------------------------|---------------------|---------|
-|Ablaufen von privaten "Jetzt treffen"-Besprechungen, die von einem Benutzer gestartet wurden&nbsp;&nbsp;|Deaktivieren Sie **"Sofortbesprechung in privaten Besprechungen zulassen"**.&nbsp;&nbsp;|Niemand kann an privaten **Besprechungen teilnehmen, die** vom Benutzer gestartet wurden.|
-|Ablauf von privaten Besprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **Die Planung privater Besprechungen** _zulassen,_ und deaktivieren Sie **Outlook-Add-In zulassen.** &nbsp;&nbsp;|Niemand kann an privaten, vom Benutzer geplanten Besprechungen teilnehmen. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Private Besprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Private Besprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von besprechungsserien privaten Besprechungen.</li></ul><br>Sowohl **Das Planen privater Besprechungen** zulassen als Outlook das **Add-In** muss deaktiviert sein, damit private, von einem Benutzer geplante Besprechungen ablaufen. Wenn eine Einstellung deaktiviert und die andere aktiviert ist, bleiben Besprechungslinks und Konferenz-IDs vorhandener Besprechungen aktiv und laufen nicht ab.|
-|Kanal läuft ab **Besprechungen jetzt** beginnen von einem Benutzer&nbsp;&nbsp;|Deaktivieren Sie **"Sofort besprechung in Kanälen zulassen"** _und_ deaktivieren Sie **Kanal-Besprechungsplanung zulassen.**&nbsp;&nbsp;|Niemand kann an **Kanalbesprechungen teilnehmen, die** vom Benutzer gestartet wurden.|
-|Ablaufen von Kanalbesprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **Kanal-Besprechungsplanung zulassen.**&nbsp;&nbsp;|Niemand kann an Kanalbesprechungen teilnehmen, die vom Benutzer geplant wurden. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Kanalbesprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Kanalbesprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von Besprechungsserien in Kanälen.</li></ul>|
+|Ablaufen von privaten "Jetzt treffen"-Besprechungen, die von einem Benutzer gestartet wurden&nbsp;&nbsp;|Deaktivieren Sie **Jetzt in privaten Besprechungen treffen.**&nbsp;&nbsp;|Niemand kann an privaten **Besprechungen teilnehmen, die** vom Benutzer gestartet wurden.|
+|Ablauf von privaten Besprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **die Private Besprechungsplanung** _und_ deaktivieren **Outlook-Add-In**. &nbsp;&nbsp;|Niemand kann an privaten, vom Benutzer geplanten Besprechungen teilnehmen. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Private Besprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Private Besprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von besprechungsserien privaten Besprechungen.</li></ul><br>Sowohl **die Planung privater Besprechungen** als **Outlook-Add-Ins** müssen deaktiviert sein, um private Besprechungen zu ablaufen, die von einem Benutzer geplant wurden. Wenn eine Einstellung deaktiviert und die andere aktiviert ist, bleiben Besprechungslinks und Konferenz-IDs vorhandener Besprechungen aktiv und laufen nicht ab.|
+|Kanal läuft ab **Besprechungen jetzt** beginnen von einem Benutzer&nbsp;&nbsp;|Deaktivieren Sie **"Jetzt in Kanälen treffen" und** _deaktivieren_ Sie **die Kanal-Besprechungsplanung.**&nbsp;&nbsp;|Niemand kann an **Kanalbesprechungen teilnehmen, die** vom Benutzer gestartet wurden.|
+|Ablaufen von Kanalbesprechungen, die von einem Benutzer geplant wurden&nbsp;&nbsp;|Deaktivieren Sie **die Kanal-Besprechungsplanung.**&nbsp;&nbsp;|Niemand kann an Kanalbesprechungen teilnehmen, die vom Benutzer geplant wurden. Dadurch wird verhindert, dass Personen an folgenden Besprechungen teilnehmen:<ul><li>Kanalbesprechungen, die in der Vergangenheit stattgefunden haben.</li><li>Kanalbesprechungen, die für die Zukunft geplant sind und noch nicht stattgefunden haben.</li><li>Zukünftige Instanzen von Besprechungsserien in Kanälen.</li></ul>|
 
 Wenn Sie Personen den Zugriff auf Besprechungen wünschen, die zuvor von einem bestimmten Benutzer geplant oder gestartet wurden, können Sie:
 
@@ -81,14 +81,14 @@ Alle neu erstellten Teams (TMRs) haben einen Standardablauf von 60 Tagen. Diese 
 
 Der automatische Ablauf von Besprechungen ist ein einfacher Verwahrungsmechanismus, um die von älteren TMRs erstellte Speicher-Clutter zu verringern. Im Durchschnitt werden 99 % aller TMRs nach 60 Tagen nicht beobachtet. Wir sind der Meinung, dass fast alle Kunden von der verringerten Speicherauslastung ihres Mandanten profitieren werden, indem Aufzeichnungen entfernt werden, die nach 60 Tagen wahrscheinlich nicht mehr beobachtet werden. Es ist unser Ziel, standardmäßig für alle Kunden eine möglichst klare Erfahrung zu bieten.
 
-Verwenden Sie besprechungsablauf, um die OneDrive oder SharePoint für die Cloudspeichernutzung zu beschränken, die von Teams Besprechungseinträgen gesteuert wird. Eine typische Besprechungsaufzeichnung verbraucht ca. 400 MB pro Stunde für die Aufzeichnung.
+Verwenden Sie den Ablauf von Besprechungen, um die OneDrive oder SharePoint für die Cloudspeichernutzung zu beschränken, die von Teams Besprechungsdatensätzen gesteuert wird. Eine typische Besprechungsaufzeichnung verbraucht ca. 400 MB pro Stunde für die Aufzeichnung.
 
 > [!NOTE]
 > Das standardmäßige Standardablaufdatum für A1-Benutzer beträgt 30 Tage.
 
 ### <a name="expiration-date"></a>Ablaufdatum
 
-- Das Ablaufdatum wird  als der Tag berechnet, an dem er erstellt wird, sowie als Standardanzahl von Tagen, die vom Administrator in der Teams **festgelegt wird.**
+- Das Ablaufdatum wird  als der Tag berechnet, an dem er erstellt wird, zuzüglich der Standardanzahl von Tagen, die vom Administrator in der Teams **festgelegt wurde.**
 - Die Wiedergabe wirkt sich nicht auf das Ablaufdatum aus.
 
 ### <a name="change-the-default-expiration-date"></a>Ändern des Standardablaufdatums
@@ -124,7 +124,7 @@ Ja, alle richtlinien, die Sie im Compliance Center festgelegt haben, haben die v
 Zum Beispiel: 
 
 - Wenn sie über eine Richtlinie verfügen, die anberaumt, dass alle Dateien auf einer Website 100 Tage aufbewahrt werden müssen und die Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnung für die vollen 100 Tage aufbewahrt.
-- Wenn Sie über eine Löschrichtlinie verfügen, die ankst, dass alle Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden, und Sie eine Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung von 30 Tagen festlegen, wird die Aufzeichnung nach fünf Tagen gelöscht.
+- Wenn Sie über eine Löschrichtlinie verfügen, die ankn, dass alle Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden, und Sie eine Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung von 30 Tagen haben, wird die Aufzeichnung nach fünf Tagen gelöscht.
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Wird durch dieses Feature die Dateiaufbewahrung erzwungen?
 
@@ -139,7 +139,7 @@ Nein, Dateien werden aufgrund dieses Features oder seiner Einstellungen nicht be
 
 Es wird empfohlen, die Aufbewahrungs- und/oder Löschrichtlinien für Sicherheit und Compliance zu verwenden. Dieses Angebot ist auf die Vereinfachung im Zusammenhang mit komplexen Richtlinien und SLA-abhängigen, administrativ-rechtlichen Aspekten ausgerichtet.
 
-Die Automatische Ablauffunktion ist ausschließlich als einfacher Verwahrungsmechanismus gedacht, um die aus alten Besprechungsaufzeichnungen Teams Speicher unübersichtlich zu machen.
+Das Feature für den automatischen Ablauf ist ausschließlich als einfacher Verwahrungsmechanismus gedacht, um die aus alten Besprechungsaufzeichnungen erstellte Speicher-Teams zu reduzieren.
 
 ### <a name="will-future-tmrs-migrated-from-classic-stream-after-this-feature-is-released-have-auto-expiration-applied-to-them-too"></a>Werden zukünftige Microsoft Teams-Besprechungsaufzeichnungen, die nach der Veröffentlichung dieses Features aus dem klassischen Stream migriert werden, ebenfalls automatisch ablaufen?
 
@@ -147,7 +147,7 @@ Nein, für migrierte Microsoft Teams-Besprechungsaufzeichnungen wird kein Ablauf
 
 ### <a name="how-is-this-feature-different-from-the-expiration-message-i-see-when-a-tmr-upload-to-onedrive-and-sharepoint-fails"></a>Inwiefern ist dieses Feature anders als die Ablaufmeldung, die angezeigt wird, wenn ein TMR-Upload auf OneDrive und SharePoint schlägt?
 
-Wenn eine Aufzeichnung nicht auf OneDrive oder SharePoint hochgeladen werden kann, zeigt die Teams-Anwendung im Chat eine Meldung an, dass Benutzer bis zu 21 Tage Zeit haben, die TMR herunterzuladen, bevor sie dauerhaft vom Teams-Server gelöscht wird. Diese vorhandene Ablauferfahrung aufgrund fehlgeschlagener TMR-Uploads steht in keinem Zusammenhang mit OneDrive und SharePoint automatische Ablauffunktion, die im Hilfedokument erläutert wird.
+Wenn eine Aufzeichnung nicht auf OneDrive oder SharePoint hochgeladen werden kann, zeigt die Teams-Anwendung im Chat eine Meldung an, dass Benutzer bis zu 21 Tage Zeit haben, die TMR herunterzuladen, bevor sie endgültig vom Teams-Server gelöscht wird. Diese vorhandene Ablauferfahrung aufgrund fehlgeschlagener TMR-Uploads steht in keinem Zusammenhang mit OneDrive und SharePoint automatische Ablauffunktion, die im Hilfedokument erläutert wird.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

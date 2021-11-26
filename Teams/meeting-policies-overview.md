@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie die Einstellungen für Besprechungsrichtlinien in Microsoft Teams verwalten und verwenden können, um die Features zu steuern, die Besprechungsteilnehmern für von Benutzern geplante Besprechungen zur Verfügung stehen.
-ms.openlocfilehash: dc2a57daccd9f252abe912892f0475a38859007f
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+ms.openlocfilehash: ccfcb15cb5456a25b8bbad0383481f20d4c81e9b
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973043"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205535"
 ---
 # <a name="manage-meeting-policies-in-microsoft-teams"></a>Verwalten von Besprechungsrichtlinien in Microsoft Teams
 
@@ -44,8 +44,8 @@ Sie können Richtlinien, die sich auf die Benutzererfahrung vor, während oder n
 |Implementierungstyp  |Beschreibung  |
 |---------|---------|
 |Organisatorspezifische Richtlinie    |Wenn Sie eine organisatorspezifische Richtlinie implementieren, erben alle Besprechungsteilnehmer die Richtlinie des Organisators. So ist beispielsweise **Personen automatisch zulassen** eine organisatorspezifische Richtlinie, die bei Besprechungen, die vom Nutzer, der die Richtlinie zugewiesen hat, geplant worden sind, steuert, ob Benutzer an der Besprechung direkt teilnehmen oder in der bis zum Beginn Wartebereich bleiben.          |
-|Benutzerspezifische Richtlinie    |Wenn Sie eine benutzerspezifische Richtlinie implementieren, gilt nur diese Richtlinie, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer einzuschränken. So ist beispielsweise **Sofortbesprechung in Kanälen zulassen** eine benutzerspezifische Richtlinie.     |
-|Organisator- und benutzerspezifisch     |Wenn Sie eine Kombination aus einer organisatorspezifischen und einer benutzerspezifischen Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. So ist beispielsweise **Cloud-Aufnahme zulassen** eine organisatorspezifische und benutzerspezifische Richtlinie. Aktivieren Sie diese Einstellung, um es dem Besprechungsorganisator und den Teilnehmern zu ermöglichen, eine Aufnahme zu starten und zu beenden.
+|Benutzerspezifische Richtlinie    |Wenn Sie eine benutzerspezifische Richtlinie implementieren, gilt nur diese Richtlinie, um bestimmte Features für den Organisator und/oder die Besprechungsteilnehmer einzuschränken. Beispielsweise ist **"Jetzt in Kanälen** meet now" eine Benutzerrichtlinie.     |
+|Organisator- und benutzerspezifisch     |Wenn Sie eine Kombination aus einer organisatorspezifischen und einer benutzerspezifischen Richtlinie implementieren, sind bestimmte Features für Besprechungsteilnehmer basierend auf Ihrer Richtlinie und der Richtlinie des Organisators eingeschränkt. Die Cloudaufzeichnung **ist z.** B. eine Richtlinie pro Organisator und pro Benutzer. Aktivieren Sie diese Einstellung, um es dem Besprechungsorganisator und den Teilnehmern zu ermöglichen, eine Aufnahme zu starten und zu beenden.
 
 Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine oder mehrere benutzerdefinierte Richtlinien erstellen und zuweisen. Für Benutzern in Ihrer Organisation gilt die globale Richtlinie, es sei denn, Sie erstellen eine benutzerdefinierte Richtlinie und weisen ihnen diese zu.
 
@@ -56,7 +56,7 @@ Sie können die Einstellungen in der globalen Richtlinie bearbeiten oder eine od
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Besprechungen** > **Besprechungsrichtlinien**.
 2. Klicken Sie auf **Hinzufügen**.
-3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
+3. Geben Sie eine Bezeichnung und eine Beschreibung für die Richtlinie ein. Der Name darf keine Sonderzeichen enthalten und maximal 64 Zeichen lang sein.
 4. Wählen Sie die gewünschten Einstellungen aus.
 5. Klicken Sie auf **Speichern**.
 
@@ -64,14 +64,14 @@ Nehmen wir beispielsweise an, Sie haben eine Gruppe von Nutzern, und Sie möchte
 
 Unter **Audio & Video**:
 
-- Deaktivieren Sie Cloud-Aufzeichnung zulassen.
-- Deaktivieren Sie IP-Video zulassen.
+- Cloudaufzeichnung deaktivieren.
+- Deaktivieren Sie IP-Video.
 
 Unter **Inhaltsfreigabe**:
 
 - Deaktivieren Sie den Bildschirmfreigabemodus.
-- Deaktivieren Sie Whiteboard zulassen.
-- Deaktivieren Sie Freigegebene Notizen zulassen.
+- Deaktivieren Sie Whiteboard.
+- Deaktivieren Sie Freigegebene Notizen.
 
 Weisen Sie dann die Richtlinie den Nutzern zu.
 

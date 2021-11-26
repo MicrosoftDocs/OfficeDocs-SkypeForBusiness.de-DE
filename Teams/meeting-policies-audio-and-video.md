@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.audioandvideo
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Audio und Video verwalten.
-ms.openlocfilehash: 27153896065d3358927755d3cd1b303c2b1141a0
-ms.sourcegitcommit: ab9d27d7ddd1494539ae9424de200c9d0e76a9ec
+ms.openlocfilehash: 9cd2a82c87106e8060d168766915e4249b9193a5
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/28/2021
-ms.locfileid: "59984620"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177996"
 ---
 # <a name="meeting-policy-settings-for-audio--video"></a>Besprechungsrichtlinieneinstellungen für & Video
 
@@ -35,7 +35,7 @@ In diesem Artikel werden die Besprechungsrichtlinieneinstellungen speziell für 
 
 - [Modus für IP-Audio](#mode-for-ip-audio)
 - [Modus für IP-Video](#mode-for-ip-video)
-- [IP-Video zulassen](#allow-ip-video)
+- [IP-Video](#ip-video)
 - [Media-Bitrate (KBs)](#media-bit-rate-kbs)
 - [Videofiltermodus](#video-filters-mode)
 - [Benutzerdefinierte Hintergrundeinstellungen zulassen](#allow-custom-background-settings)
@@ -73,11 +73,11 @@ Diese Einstellung gilt nicht für Konferenzraumgeräte wie Surface Hub und Gerä
 Diese Einstellung ist noch nicht für die Microsoft 365 Government Community Cloud (GCC), GCC High- und DoD-Umgebungen (Department of Defense) verfügbar.
 
 > [!NOTE]
-> Beachten Sie, dass über diese Einstellung sowohl ausgehendes als auch eingehendes Video gesteuert wird, während über die Einstellung **IP-Video zulassen** ausgehendes Video gesteuert wird. Weitere Informationen hierzu finden Sie unter [Welche IP-Videorichtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
+> Beachten Sie, dass diese Einstellung sowohl das ausgehende als auch das eingehende Video steuert, während die **IP-Videoeinstellung** ausgehendes Video steuert. Weitere Informationen hierzu finden Sie unter [Welche IP-Videorichtlinieneinstellung hat Vorrang?](#which-ip-video-policy-setting-takes-precedence) und [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
 Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteilnehmer verwalten](#manage-audiovideo-for-meeting-participants).
 
-### <a name="allow-ip-video"></a>IP-Video zulassen
+### <a name="ip-video"></a>IP-Video
 
 Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Die Videofunktion ist ein Schlüsselelement in Besprechungen. In einigen Organisationen möchten Administratoren möglicherweise mehr Kontrolle darüber haben, in welchen Besprechungen der Benutzer Video genutzt werden kann. Über diese Einstellung wird gesteuert, ob Video in von einem Benutzer gehosteten Besprechungen oder in von einem Benutzer gestarteten Einzel- und Gruppenanrufen eingeschaltet werden kann. Auf Teams mobilen Clients steuert diese Einstellung, ob Benutzer Fotos und Videos in einer Besprechung teilen können.
 
@@ -92,7 +92,7 @@ In Besprechungen, die von einem Benutzer organisiert wurden, für den diese Rich
 
 Sehen Sie sich das folgende Beispiel an.
 
-|Benutzer |Besprechungsrichtlinie  |IP-Video zulassen |
+|Benutzer |Besprechungsrichtlinie  |IP-Video |
 |---------|---------|---------|
 |Daniela   | Global   | Ein       |
 |Amalia    | Location1MeetingPolicy        | Aus      |
@@ -109,22 +109,22 @@ Weitere Informationen hierzu finden Sie unter [Audio/Video für Besprechungsteil
 
 Für einen Benutzer hat die restriktivste Richtlinieneinstellung für Videos Vorrang. Hier sind einige Beispiele.
 
-|IP-Video zulassen|Modus für IP-Video|Auswirkung|
+|IP-Video|Modus für IP-Video|Auswirkung|
 |---------|---------|---------|
 |Organisator: **Aktiviert**<br><br>Teilnehmer: **Aktiviert** |Teilnehmer: **Deaktiviert**        |Die Einstellung für den **Modus für IP-Video** hat Vorrang. Ein Teilnehmer, dem diese Richtlinie zugewiesen ist, kann die von anderen Personen freigegebenen Videos weder aktivieren noch anzeigen.|
 |Organisator: **Aktiviert**<br><br>Teilnehmer: **Aktiviert** |Teilnehmer: **Ausgehendes und eingehendes Video aktiviert**          |Ein Teilnehmer, dem diese Richtlinie zugewiesen ist, kann von anderen Personen freigegebene Videos aktivieren und anzeigen.         |
-|Organisator: **Aktiviert**<br><br>Teilnehmer: **Deaktiviert** |Teilnehmer: **Ausgehendes und eingehendes Video aktiviert**         |Die Einstellung für **IP-Video zulassen** hat Vorrang. Die Teilnehmer können nur eingehende Videos anzeigen und keine ausgehenden Videos senden.         |
+|Organisator: **Aktiviert**<br><br>Teilnehmer: **Deaktiviert** |Teilnehmer: **Ausgehendes und eingehendes Video aktiviert**         |Die **Einstellung IP-Video** hat Vorrang. Die Teilnehmer können nur eingehende Videos anzeigen und keine ausgehenden Videos senden.         |
 |Organisator: **Aktiviert**<br><br>Teilnehmer: **Deaktiviert** |Teilnehmer: **Deaktiviert**         |Die Einstellung für den **Modus für IP-Video** hat Vorrang. Der Teilnehmer kann weder eingehende noch ausgehende Videos anzeigen.|
-|Organisator: **Deaktiviert**    |       |Die Einstellung für **IP-Video zulassen** hat Vorrang, da dies für den Organisator deaktiviert wurde. Niemand kann die Videofunktion in Besprechungen aktivieren, die von dem Benutzer organisiert wurden, dem diese Richtlinie zugewiesen wurde.         |
+|Organisator: **Deaktiviert**    |       |Die **Einstellung IP-Video** hat Vorrang, da sie für den Organisator deaktiviert ist. Niemand kann die Videofunktion in Besprechungen aktivieren, die von dem Benutzer organisiert wurden, dem diese Richtlinie zugewiesen wurde.         |
 
 ### <a name="manage-audiovideo-for-meeting-participants"></a>Audio/Video für Besprechungsteilnehmer verwalten
 
 |Sie möchten ...  |Legen Sie die folgenden Richtlinieneinstellungen fest  |
 |---------|---------|
-|Audio und Video für Teilnehmer in Besprechungen deaktivieren  |Modus für IP-Audio: **Deaktiviert**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video zulassen: -       |
-|Nur eingehendes Video und Audio für Teilnehmer in Besprechungen aktivieren  |Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktiviert**<br> Modus für IP-Video: **Ausgehendes und eingehendes Video aktiviert**<br>IP-Video zulassen: **Deaktiviert**       |
-|Video für Teilnehmer in Besprechungen deaktivieren (für die Teilnehmer ist nur Audio verfügbar)|  Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktivieren**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video zulassen: -
-|Audio und Video für Teilnehmer in Besprechungen aktivieren    |Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktiviert** (Standard)<br> Modus für IP-Video: **Ausgehendes und eingehendes Video aktiviert** (Standard)<br>IP-Video zulassen: **Aktiviert** (Standard)    |
+|Audio und Video für Teilnehmer in Besprechungen deaktivieren  |Modus für IP-Audio: **Deaktiviert**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video: N/A       |
+|Nur eingehendes Video und Audio für Teilnehmer in Besprechungen aktivieren  |Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktiviert**<br> Modus für IP-Video: **Ausgehendes und eingehendes Video aktiviert**<br>IP-Video: **Aus**       |
+|Video für Teilnehmer in Besprechungen deaktivieren (für die Teilnehmer ist nur Audio verfügbar)|  Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktivieren**<br> Modus für IP-Video: **Deaktiviert**<br>IP-Video: N/A
+|Audio und Video für Teilnehmer in Besprechungen aktivieren    |Modus für IP-Audio: **Ausgehendes und eingehendes Audio aktiviert** (Standard)<br> Modus für IP-Video: **Ausgehendes und eingehendes Video aktiviert** (Standard)<br>IP-Video: **Ein** (Standard)    |
 
 Die restriktivste Richtlinie zwischen der Richtlinie des Besprechungsorganisators und jener des Benutzers hat Vorrang. Wenn für den Organisator beispielsweise eine Richtlinie gilt, die Video einschränkt, und die für den Benutzer geltende Richtlinie Video nicht einschränkt, erben Besprechungsteilnehmer die Richtlinie des Besprechungsorganisators und haben in Besprechungen keinen Zugriff auf die Videofunktion. Dies bedeutet, dass sie an der Besprechung nur per Audio teilnehmen können.
 
@@ -133,7 +133,7 @@ Die restriktivste Richtlinie zwischen der Richtlinie des Besprechungsorganisator
 
 #### <a name="teams-mobile-clients"></a>Mobile Microsoft Teams-Clients
 
-Für Benutzer auf mobilen Microsoft Teams-Clients wird die Möglichkeit, Fotos und Videos während einer Besprechung zu teilen, ebenfalls durch die Einstellungen für **IP-Video zulassen** oder **IP-Videomodus** festgelegt. Je nachdem, welche Richtlinieneinstellung Vorrang hat, ist die Option zum Teilen von Videos und Fotos nicht verfügbar. Dies wirkt sich nicht auf die Bildschirmfreigabe aus, die diese über eine eigene Einstellung für den [Bildschirmfreigabemodus](meeting-policies-content-sharing.md#screen-sharing-mode) konfiguriert wird. Darüber hinaus können Sie eine [Microsoft Teams-Richtlinie für Mobilgeräte](/powershell/module/skype/new-csteamsmobilitypolicy) festlegen, um zu verhindern, dass Benutzer von Mobilgeräten die IP-Videofunktion über eine Mobilverbindung verwenden; dies bedeutet, dass sie eine WLAN-Verbindung verwenden müssen.
+Für Benutzer auf Teams mobilen Clients wird die Möglichkeit zur Freigabe von Fotos und Videos während einer Besprechung auch durch die **Einstellung für den IP-Video-** oder **IP-Videomodus** bestimmt. Je nachdem, welche Richtlinieneinstellung Vorrang hat, ist die Option zum Teilen von Videos und Fotos nicht verfügbar. Dies wirkt sich nicht auf die Bildschirmfreigabe aus, die diese über eine eigene Einstellung für den [Bildschirmfreigabemodus](meeting-policies-content-sharing.md#screen-sharing-mode) konfiguriert wird. Darüber hinaus können Sie eine [Microsoft Teams-Richtlinie für Mobilgeräte](/powershell/module/skype/new-csteamsmobilitypolicy) festlegen, um zu verhindern, dass Benutzer von Mobilgeräten die IP-Videofunktion über eine Mobilverbindung verwenden; dies bedeutet, dass sie eine WLAN-Verbindung verwenden müssen.
 
 ### <a name="media-bit-rate-kbs"></a>Media-Bitrate (KBs)
 
@@ -151,7 +151,7 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Eins
 
 Sie können diese Richtlinie Teams Admin Center und PowerShell festlegen. Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie dann Benutzern zuweisen.
 
-Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen können, legen Sie den **Parameter VideoFiltersMode** **(Einstellung** Videofilter auswählen im Teams Admin Center) wie folgt fest:
+Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen können, legen Sie den **Parameter VideoFiltersMode** **(Einstellung** Videofilter im Teams Admin Center auswählen) wie folgt fest:
 
 |Festzulegender Wert in PowerShell|Festlegen eines Werts im Teams Admin Center |Verhalten  |
 |---------|---------|---------|
@@ -165,7 +165,7 @@ Um anzugeben, ob Benutzer ihren Videohintergrund in einer Besprechung anpassen k
 
 ### <a name="allow-custom-background-settings"></a>Benutzerdefinierte Hintergrundeinstellungen zulassen
 
-Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Mit diesem Feature können Unternehmen Unternehmensbranding auf Ihre Teams anwenden.
+Sie können benutzerdefinierte Hintergrundbilder hinzufügen, die pro Mandant verwendet werden sollen. Dieses Feature ermöglicht Unternehmen das Anwenden von Unternehmensbranding auf Teams Besprechungen.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 

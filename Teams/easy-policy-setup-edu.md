@@ -1,5 +1,5 @@
 ---
-title: Teams für Education Richtlinien-Assistent zum einfachen Anwenden von Richtlinien für sicheres Lernen
+title: Teams für Education des Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für sicheres Lernen
 author: serdars
 ms.author: v-mahoffman
 manager: serdars
@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden können, um Ihre Lernumgebung sicher zu halten.
+description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden, um Ihre Lernumgebung sicher zu halten.
 f1keywords: ''
-ms.openlocfilehash: 2d58372af73bd1b0b62ed0d320ac2d0b9097a326
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 4b514d2642ba383ca91aa320f8f89dcb1405b7e2
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741651"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205485"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Teams für Education-Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für eine sichere Lernumgebung
 
@@ -32,7 +32,7 @@ Der Microsoft Teams für Education-Richtlinien-Assistent vereinfacht die Verwalt
 
 Mit Richtlinien in Teams können Sie steuern, Teams verhalten sich in Ihrer Umgebung verhält und welche Features den Benutzern zur Verfügung stehen. Beispielsweise gibt es Anrufrichtlinien, Besprechungsrichtlinien und Messagingrichtlinien, um nur einige zu nennen, und jeder Richtlinienbereich kann an die Anforderungen Ihrer Organisation angepasst werden.
 
-Um eine sichere und fokussierte Lernumgebung zu erhalten, ist es wichtig, Richtlinien zu setzen, um zu steuern, welche Schüler/Studenten in der Gruppe Teams. Beispielsweise können Sie mithilfe von Richtlinien steuern, wer private Chats und private Anrufe verwenden kann, wer Besprechungen planen und welche Inhaltstypen freigegeben werden können. Sie können auch Richtlinien verwenden, um neue Teams aktivieren, die die Lernerfahrung bereichern.
+Um eine sichere und fokussierte Lernumgebung zu erhalten, ist es wichtig, Richtlinien zu festlegen, um zu steuern, was Schüler/Studenten in ihrer Teams. Beispielsweise können Sie mithilfe von Richtlinien steuern, wer private Chats und private Anrufe verwenden kann, wer Besprechungen planen und welche Inhaltstypen freigegeben werden können. Sie können auch Richtlinien verwenden, um Teams zu aktivieren, die die Lernerfahrung bereichern.
 
 Richtlinien müssen sowohl für Schüler/Studierende als auch für Lehrkräfte angepasst werden, um die Lernerfahrung zu schützen. Richtlinien für Schüler/Studierende müssen restriktiver sein, um das Risiko zu verringern, unangemessene Zugriffsebenen zu erhalten. Lehrkräfte und Mitarbeiter benötigen einen separaten Satz von Richtlinien, die möglicherweise ungenügend sind, um erfolgversprechend zu sein. Lassen Sie beispielsweise Lehrkräfte Besprechungen planen und verhindern, dass Schüler/Studierende dies tun.
 
@@ -41,9 +41,9 @@ Richtlinien müssen sowohl für Schüler/Studierende als auch für Lehrkräfte a
 Dieser Artikel führt Sie durch die Ausführung des Assistenten.
 
 > [!IMPORTANT]
-> Die vom Assistenten angewendeten Richtlinien erfüllen die Anforderungen der Mehrzahl Teams für Education Kunden. Der Assistent passt die globale (organisationsweite Standard)-Definition eines Kern-Richtliniensets mit Einstellungen an, die wir für die Sicherheit von Kursteilnehmern empfehlen, und wendet sie auf Schüler/Studierende an. Der Assistent erstellt und weist außerdem einen Satz benutzerdefinierter Richtlinien für Lehrkräfte und Mitarbeiter zu. Die Teams für Education Kunden müssen nach dem Ausführen dieses Assistenten keine anderen Richtlinienzuweisungsmethoden verwenden. Verwenden Sie andere Richtlinienzuweisungsmethoden *nur,* wenn Sie Richtlinien für Ihre Schüler/Studenten, Lehrkräfte und Mitarbeiter manuell erstellen und verwalten möchten.
+> Die vom Assistenten angewendeten Richtlinien entsprechen den Anforderungen der Mehrzahl Teams für Education Kunden. Der Assistent passt die globale (organisationsweite Standard)-Definition eines Kern-Richtliniensets mit Einstellungen an, die wir für die Sicherheit von Kursteilnehmern empfehlen, und wendet sie auf Schüler/Studierende an. Der Assistent erstellt und weist außerdem einen Satz benutzerdefinierter Richtlinien für Lehrkräfte und Mitarbeiter zu. Die Teams für Education Kunden müssen nach der Ausführung dieses Assistenten keine anderen Richtlinienzuweisungsmethoden verwenden. Verwenden Sie andere Richtlinienzuweisungsmethoden *nur,* wenn Sie Richtlinien für Ihre Schüler/Studenten, Lehrkräfte und Mitarbeiter manuell erstellen und verwalten möchten.
 
-## <a name="teams-for-education-policy-wizard"></a>Teams für Education Richtlinien-Assistent
+## <a name="teams-for-education-policy-wizard"></a>Teams für Education-Richtlinien-Assistent
 
 <a name="polwiz_intro"> </a>
 
@@ -56,7 +56,7 @@ Der Assistent richtet Richtlinien basierend auf dem Bildungseinrichtungstyp ( Pr
 
 Sie müssen den Assistenten nur einmal ausführen. Neuen Kursteilnehmern werden automatisch die vom Assistenten angewendeten globalen Richtliniendefinitionen (Organisationsweit) zugewiesen, und neuen Mitarbeitern, die Sie der ausgewählten Gruppe hinzufügen, werden automatisch die benutzerdefinierten Richtlinien zugewiesen.
 
-Außerdem wird immer, wenn ein neues Feature zu Teams hinzugefügt wird, der entsprechende EDU-relevante Standardwert der Richtlinie für dieses Feature automatisch zum globalen (organisationsweiten Standard) hinzugefügt, ohne dass ein Administratoreingriff erforderlich ist. Dadurch wird sichergestellt, dass die richtigen Richtlinien aktiv sind, um die Schüler sicher und engagiert zu halten.
+Außerdem wird bei jedem Hinzufügen eines neuen Features zu Teams der entsprechende edu-relevante Standardwert der Richtlinie für dieses Feature automatisch zum globalen (organisationsweiten Standard) hinzugefügt, ohne dass ein Administratoreingriff erforderlich ist. Dadurch wird sichergestellt, dass die richtigen Richtlinien aktiv sind, um die Schüler sicher und engagiert zu halten.
 
 > [!NOTE]
 > Eine [detaillierte Liste der vom](#policies-applied-by-the-wizard) Assistenten angewendeten Richtliniendefinitionen finden Sie unter Vom Assistenten angewendete Richtlinien.
@@ -139,7 +139,7 @@ Weitere [Sicherheitsempfehlungen](https://support.microsoft.com/office/keeping-s
 
 Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn ausführen. Es ist wichtig zu wissen, dass, sobald neue Richtlinien in Teams verfügbar werden, die globalen (organisationsweiten) Einstellungen für die Sicherheit von Kursteilnehmern vom Assistenten automatisch aktualisiert werden. 
 
-Überprüfen Sie das [Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in der Microsoft 365 Admin Center) aber regelmäßig, um sich über neue Features und deren Richtlinien und Richtlinieneinstellungen in Teams. 
+Überprüfen Sie aber häufig [das](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) Nachrichtencenter (in der Microsoft 365 Admin Center), um sich über neue Features und deren Richtlinien und Richtlinieneinstellungen in Teams. 
 
 ## <a name="make-changes-in-the-wizard"></a>Änderungen im Assistenten vornehmen
 
@@ -147,7 +147,7 @@ Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn aus
 
 Wenn Sie nach dem Ausführen des Assistenten Änderungen vornehmen müssen, können Sie ihn erneut ausführen und Ihre Auswahl ändern.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center  zu **Start,** und wählen Sie dann in der Kachel Einfaches Einrichten einer Richtlinie für eine sichere Lernumgebung die Option **Ändern aus.**
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers  zu **Start,** und wählen Sie dann in der Kachel Einfaches Einrichten einer Richtlinie für eine sichere Lernumgebung die Option **Ändern aus.**
 2. Fahren Sie von hier aus mit den einzelnen Seiten des Assistenten fort, um Ihre Änderungen vorzunehmen. Sie können den Einrichtungstyp, die Gruppe der Lehrkräfte und Mitarbeiter, denen Sie Richtlinien zuweisen möchten, oder beides ändern.
 
 In der folgenden Tabelle ist zusammengefasst, was geschieht, wenn Sie im Assistenten eine Änderung ausführen.
@@ -164,7 +164,7 @@ In der folgenden Tabelle ist zusammengefasst, was geschieht, wenn Sie im Assiste
 
 ### <a name="policy-areas"></a>Richtlinienbereiche
 
-Hier sehen Sie die Richtlinienbereiche und die entsprechenden Richtliniennamen, die vom Assistenten abgedeckt werden. Um diese Richtlinien zu finden, wechseln Sie zum Microsoft Teams Admin Center, und wechseln Sie dann in der linken Navigationsleiste zu jeder Seite des Richtlinienbereichs.
+Hier sehen Sie die Richtlinienbereiche und die entsprechenden Richtliniennamen, die vom Assistenten abgedeckt werden. Um diese Richtlinien zu finden, wechseln Sie zum Microsoft Teams Admin Center, und wechseln Sie dann im linken Navigationsbereich zu jeder Seite des Richtlinienbereichs.
 
 #### <a name="students"></a>[**Schüler/Studenten**](#tab/students/)
 
@@ -182,7 +182,7 @@ Hier sehen Sie die Richtlinienbereiche und die entsprechenden Richtliniennamen, 
 
 |Richtlinienbereich  |Name der primären oder sekundären Richtlinie |Name der Richtlinie für höhere Bildungseinrichtungen |
 |---------|---------|---------|
-|Teams-Richtlinie   |Primäre oder sekundäre Lehrkräfte und Mitarbeiter – Teams         |Lehrkräfte und Mitarbeiter in höheren Bildungseinrichtungen – Teams         |
+|Teams-Richtlinie   |Primäre oder sekundäre Lehrkräfte und Mitarbeiter – Teams         |Lehrkräfte und Mitarbeiter aus höheren Bildungseinrichtungen – Teams         |
 |Besprechungsrichtlinie    |Primäre oder sekundäre Lehrkräfte und Mitarbeiter – Besprechung         |Dozenten und Mitarbeiter aus höheren Bildungseinrichtungen – Besprechung         |
 |Richtlinie für Liveereignisse   | Primäre oder sekundäre Lehrkräfte und Mitarbeiter – Liveereignisse         |Dozenten und Mitarbeiter aus höheren Bildungseinrichtungen – Liveereignisse         |
 |Messagingrichtlinie    |Primäre oder sekundäre Lehrkräfte und Mitarbeiter – Messaging         | Lehrkräfte und Mitarbeiter in höheren Bildungseinrichtungen – Messaging         |
@@ -201,34 +201,34 @@ Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, 
 |Richtlinienbereich |Unterbereich  |Richtlinieneinstellung  |Primär oder Sekundär |Höhere Bildung |
 |---------|---------|---------|---------|---------|
 |Teams-Richtlinie   |         |Erstellen privater Kanäle         |Aus       |Ein|
-|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechungen in Kanälen zulassen         |Aus      |Ein|
-|  |        |Outlook-Add-In zulassen         |Aus       |Ein|
-|  |        |Planung von Kanalbesprechungen zulassen        |Aus      |Ein|
-|  |        |Planung privater Besprechungen zulassen       |Aus      |Ein|
-|  |        |Besprechungsregistrierung zulassen              |Ein       |Ein|
+|Besprechungsrichtlinie    |Allgemein         |Jetzt in Kanälen treffen         |Aus      |Ein|
+|  |        |Outlook-Add-In         |Aus       |Ein|
+|  |        |Planen von Kanal-Besprechungen        |Aus      |Ein|
+|  |        |Private Besprechungsplanung       |Aus      |Ein|
+|  |        |Besprechungsregistrierung              |Ein       |Ein|
 |  |        |Wer kann registriert werden    |Jeder in der Organisation      |Jeder in der Organisation|
-|  |Audio & Video        |Transkription zulassen        |Ein       |Ein|
-|  |        |Cloud-Aufzeichnung zulassen         |Aus      |Ein|
+|  |Audio & Video        |Transkription        |Ein       |Ein|
+|  |        |Cloudaufzeichnung         |Aus      |Ein|
 |  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audio aktiviert        |Ausgehendes und eingehendes Audio aktiviert|
 |  |        |Modus für IP-Video         |Ausgehendes und eingehendes Video aktiviert     |Ausgehendes und eingehendes Video aktiviert|
-|  |       |IP-Video zulassen         |Ein         |Ein|
+|  |       |IP-Video         |Ein         |Ein|
 |  |       |NDI-Streaming zulassen         |Aus         |Aus|
 |  |       |Media-Bitrate (KBs)         |50.000         |50.000|
 |  |Inhaltsfreigabe       |Bildschirmfreigabemodus         |Gesamter Bildschirm         |Gesamter Bildschirm|
 |  |       |Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert         |Ein         |Ein|
 |  |       |Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert         |Ein         |Ein|
-|  |       |PowerPoint-Freigabe zulassen        |Ein         |Ein|
-|  |       |Whiteboard zulassen         |Ein         |Ein|
-|  |       |Geteilte Notizen zulassen         |Ein        |Ein|
+|  |       |PowerPoint Freigeben        |Ein         |Ein|
+|  |       |Whiteboard         |Ein         |Ein|
+|  |       |Freigegebene Notizen         |Ein        |Ein|
 |  |Teilnehmer & Gäste       |Anonymen Personen das Starten einer Besprechung gestatten       |Aus         |Ein|
 |  |       |Rollen mit Presenterrechten in Besprechungen        |EveryoneUserOverride         |EveryoneUserOverride|
 |  |       |Personen automatisch zulassen        |EveryoneInCompany|EveryoneInCompany|
 |  |       |Einwahlbenutzern das Umgehen des Wartebereichs gestatten        |Aus         |Aus|
-|  |       |Sofortbesprechungen in privaten Besprechungen zulassen        |Aus         |Ein|
-|  |       |Liveuntertitel aktivieren       |Deaktiviert, aber Benutzer können außer Kraft setzen         |Deaktiviert, aber Benutzer können außer Kraft setzen|
-|  |       |Chat in Besprechungen zulassen         |Ein         |Ein|
-|Richtlinie für Liveereignisse  |       |Planung erlauben         |Aus         |Aus|
-|  |       |Transkription für Teilnehmer zulassen          |Ein       |Ein|
+|  |       |Sofortbesprechungen in privaten Besprechungen        |Aus         |Ein|
+|  |       |Liveuntertitel       |Deaktiviert, aber Benutzer können außer Kraft setzen         |Deaktiviert, aber Benutzer können außer Kraft setzen|
+|  |       |Chatten in Besprechungen         |Ein         |Ein|
+|Richtlinie für Liveereignisse  |       |Planen von Liveereignissen         |Aus         |Aus|
+|  |       |Transkription für Teilnehmer          |Ein       |Ein|
 |  |       |Wer an geplanten Liveereignissen teilnehmen kann        |Jeder in der Organisation        |Jeder in der Organisation|
 |  |       |Wer können ein Ereignis aufzeichnen         |Immer         |Immer|
 |Messagingrichtlinie  |       |Besitzer können gesendete Nachrichten löschen         |Aus|Ein|
@@ -236,22 +236,22 @@ Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, 
 |  |       |Gesendete Nachrichten bearbeiten         |Aus         |Ein|
 |  |       |Lesebestätigungen         |Vom Benutzer gesteuert         |Vom Benutzer gesteuert|
 |  |       |Chat         |Aus         |Ein|
-|  |       |Giphys in Unterhaltungen verwenden         |Aus         |Ein|
+|  |       |Giphys in Unterhaltungen         |Aus         |Ein|
 |  |       |Giphy-Inhaltsklassifikation         |Streng        |Streng|
-|  |       |Verwenden von Memes in Unterhaltungen         |Ein         |Ein|
-|  |       |Verwenden von Aufklebern in Unterhaltungen         |Ein         |Ein|
-|  |       |URL-Vorschau zulassen        |Ein         |Ein|
+|  |       |Memes in Unterhaltungen         |Ein         |Ein|
+|  |       |Aufkleber in Unterhaltungen         |Ein         |Ein|
+|  |       |URL-Vorschauen        |Ein         |Ein|
 |  |       |Übersetzen von Nachrichten         |Ein         |Ein|
-|  |       |Plastischen Reader zum Anzeigen von Nachrichten zulassen        |Ein      |Ein|
+|  |       |Immersive Reader für Nachrichten        |Ein      |Ein|
 |  |       |Dringende Nachrichten mittels Benachrichtigungen mit hoher Priorität senden  |Aus         |Ein|
 |  |       |Erstellen von Sprachnachrichten         |In Chats und Kanälen zulässig         |In Chats und Kanälen zulässig|
 |  |       |Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen     |Aktiviert         |Aktiviert|
 |  |       |Entfernen von Benutzern aus Gruppenchats         |Aus         |Ein|
-|App-Berechtigungsrichtlinie  |       |Microsoft-Apps         |Blockieren bestimmter Apps und Zulassen, dass alle > Walkie-Talkie blockiert sind         |Alle Apps zulassen|
+|App-Berechtigungsrichtlinie  |       |Microsoft-Apps         |Blockieren bestimmter Apps und Zulassen, dass alle > Walkie-Talkie blockiert werden         |Alle Apps zulassen|
 |  |       |Drittanbieter-Apps         |Alle Apps zulassen         |Alle Apps zulassen|
 |  |       |Benutzerdefinierte Apps         |Alle Apps zulassen         |Alle Apps zulassen|
 |App-Setuprichtlinie  |           |Hochladen von benutzerdefinierten Apps           |Aus         |Aus|
-|  |       |Anheften von Benutzern zulassen |Ein         |Ein|
+|  |       |Anheften durch Benutzer |Ein         |Ein|
 |  |       |Installierte Apps         |Keine         |Keine|
 |  |       |Angeheftete Apps         |Aktivität, Kalender, Teams         |Aktivität, Chats, Teams, Kalender, Anrufe, Datei
 |Anrufrichtlinie  |       |Private Anrufe führen         |Aus        |Ein|
@@ -271,34 +271,34 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Leh
 |Richtlinienbereich |Unterbereich  |Richtlinieneinstellung  |Primär oder Sekundär |Höhere Bildung |
 |---------|---------|---------|---------|---------|
 |Teams-Richtlinie   |         |Erstellen privater Kanäle         |Ein       |Ein|
-|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechungen in Kanälen zulassen         |Ein      |Ein|
-|  |        |Outlook-Add-In zulassen         |Ein       |Ein|
-|  |        |Planung von Kanalbesprechungen zulassen        |Ein      |Ein|
-|  |        |Planung privater Besprechungen zulassen       |Ein      |Ein|
-|  |        |Besprechungsregistrierung zulassen              |Ein       |Ein|
+|Besprechungsrichtlinie    |Allgemein         |Jetzt in Kanälen treffen         |Ein      |Ein|
+|  |        |Outlook-Add-In         |Ein       |Ein|
+|  |        |Planen von Kanal-Besprechungen        |Ein      |Ein|
+|  |        |Private Besprechungsplanung       |Ein      |Ein|
+|  |        |Besprechungsregistrierung              |Ein       |Ein|
 |  |        |Wer kann registriert werden    |Jeder in der Organisation      |Jeder in der Organisation|
-|  |Audio & Video        |Transkription zulassen        |Ein       |Ein|
-|  |        |Cloud-Aufzeichnung zulassen         |Ein      |Ein|
+|  |Audio & Video        |Transkription        |Ein       |Ein|
+|  |        |Cloudaufzeichnung         |Ein      |Ein|
 |  |        |Modus für IP-Audio       |Ausgehendes und eingehendes Audio aktiviert        |Ausgehendes und eingehendes Audio aktiviert|
 |  |        |Modus für IP-Video         |Ausgehendes und eingehendes Video aktiviert     |Ausgehendes und eingehendes Video aktiviert|
-|  |       |IP-Video zulassen         |Ein         |Ein|
+|  |       |IP-Video         |Ein         |Ein|
 |  |       |NDI-Streaming zulassen         |Aus         |Aus|
 |  |       |Media-Bitrate (KBs)         |50.000         |50.000|
 |  |Inhaltsfreigabe       |Bildschirmfreigabemodus         |Gesamter Bildschirm         |Gesamter Bildschirm|
 |  |       |Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert         |Ein         |Ein|
 |  |       |Zulassen, dass ein externer Teilnehmer die Steuerung übergibt oder anfordert         |Ein         |Ein|
-|  |       |PowerPoint-Freigabe zulassen        |Ein         |Ein|
-|  |       |Whiteboard zulassen         |Ein         |Ein|
-|  |       |Geteilte Notizen zulassen         |Ein        |Ein|
+|  |       |PowerPoint Freigeben        |Ein         |Ein|
+|  |       |Whiteboard         |Ein         |Ein|
+|  |       |Freigegebene Notizen         |Ein        |Ein|
 |  |Teilnehmer & Gäste       |Anonymen Personen das Starten einer Besprechung gestatten       |Ein        |Ein|
 |  |       |Rollen mit Presenterrechten in Besprechungen        |OrganizerOnlyUserOverride         |OrganizerOnlyUserOverride|
 |  |       |Personen automatisch zulassen        |OrganizerOnly|OrganizerOnly|
 |  |       |Einwahlbenutzern das Umgehen des Wartebereichs gestatten        |Aus         |Aus|
-|  |       |Sofortbesprechungen in privaten Besprechungen zulassen        |Ein         |Ein|
-|  |       |Liveuntertitel aktivieren       |Deaktiviert, aber Benutzer können außer Kraft setzen         |Deaktiviert, aber Benutzer können außer Kraft setzen|
-|  |       |Chat in Besprechungen zulassen         |Ein         |Ein|
-|Richtlinie für Liveereignisse  |       |Planung erlauben         |Ein         |Ein|
-|  |       |Transkription für Teilnehmer zulassen          |Ein       |Ein|
+|  |       |Sofortbesprechungen in privaten Besprechungen        |Ein         |Ein|
+|  |       |Liveuntertitel       |Deaktiviert, aber Benutzer können außer Kraft setzen         |Deaktiviert, aber Benutzer können außer Kraft setzen|
+|  |       |Chatten in Besprechungen         |Ein         |Ein|
+|Richtlinie für Liveereignisse  |       |Planen von Liveereignissen         |Ein         |Ein|
+|  |       |Transkription für Teilnehmer          |Ein       |Ein|
 |  |       |Wer an geplanten Liveereignissen teilnehmen kann        |Jeder in der Organisation        |Jeder in der Organisation|
 |  |       |Wer können ein Ereignis aufzeichnen         |Immer aufzeichnen         |Immer aufzeichnen|
 |Messagingrichtlinie  |       |Besitzer können gesendete Nachrichten löschen         |Ein|Ein|
@@ -306,13 +306,13 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Leh
 |  |       |Gesendete Nachrichten bearbeiten         |Ein         |Ein|
 |  |       |Lesebestätigungen         |Vom Benutzer gesteuert         |Vom Benutzer gesteuert|
 |  |       |Chat         |Ein         |Ein
-|  |       |Giphys in Unterhaltungen verwenden         |Ein        |Ein|
+|  |       |Giphys in Unterhaltungen         |Ein        |Ein|
 |  |       |Giphy-Inhaltsklassifikation         |Streng        |Streng|
-|  |       |Verwenden von Memes in Unterhaltungen         |Ein         |Ein|
-|  |       |Verwenden von Aufklebern in Unterhaltungen         |Ein         |Ein|
-|  |       |URL-Vorschau zulassen        |Ein         |Ein|
+|  |       |Memes in Unterhaltungen         |Ein         |Ein|
+|  |       |Aufkleber in Unterhaltungen         |Ein         |Ein|
+|  |       |URL-Vorschauen        |Ein         |Ein|
 |  |       |Übersetzen von Nachrichten         |Ein         |Ein|
-|  |       |Plastischen Reader zum Anzeigen von Nachrichten zulassen        |Ein      |Ein|
+|  |       |Immersive Reader für Nachrichten        |Ein      |Ein|
 |  |       |Dringende Nachrichten mittels Benachrichtigungen mit hoher Priorität senden  |Ein         |Ein|
 |  |       |Erstellen von Sprachnachrichten         |In Chats und Kanälen zulässig         |In Chats und Kanälen zulässig|
 |  |       |Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen     |Aktiviert         |Aktiviert|
@@ -333,4 +333,4 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Leh
 
 - [Teams-Richtlinien und Richtlinienpakete für Bildung](policy-packages-edu.md)
 - [Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule](batch-group-policy-assignment-edu.md)
-- [Sicherheit von Kursteilnehmern bei der Nutzung Teams für den Fernunterricht](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Sicherheit von Kursteilnehmern bei der Verwendung Teams für den Fernunterricht](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

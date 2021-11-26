@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für die Inhaltsfreigabe verwalten.
-ms.openlocfilehash: 2bd3a4274a147cad8548d0abf84a312ee7f6f259
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605621"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205315"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
 
@@ -35,9 +35,9 @@ In diesem Artikel werden die folgenden Besprechungsrichtlinieneinstellungen im Z
 - [Bildschirmübertragungsmodus](#screen-sharing-mode)
 - [Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert](#allow-a-participant-to-give-or-request-control)
 - [Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert](#allow-an-external-participant-to-give-or-request-control)
-- [Teilen von PowerPoint zulassen](#allow-powerpoint-sharing)
-- [Whiteboard zulassen](#allow-whiteboard)
-- [Geteilte Notizen zulassen](#allow-shared-notes)
+- [PowerPoint Freigeben](#powerpoint-sharing)
+- [Whiteboard](#whiteboard)
+- [Freigegebene Notizen](#shared-notes)
 
 ## <a name="screen-sharing-mode"></a>Bildschirmfreigabemodus
 
@@ -99,39 +99,39 @@ Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Ob eine Organ
 
 Verwenden Sie das "AllowExternalParticipantGiveRequestControl"-Cmdlet, um mithilfe von PowerShell zu steuern, ob externe Teilnehmer die Steuerung übergeben oder entsprechende Anforderungen annehmen können.
 
-### <a name="allow-powerpoint-sharing"></a>PowerPoint-Freigabe zulassen
+### <a name="powerpoint-sharing"></a>PowerPoint Freigeben
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob der Benutzer PowerPoint-Folien in einer Besprechung übertragen kann. Externe Benutzer, einschließlich anonyme, Gast- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen Sie sich das folgende Beispiel an.
 
-|Benutzer |Besprechungsrichtlinie  |Teilen von PowerPoint zulassen |
+|Benutzer |Besprechungsrichtlinie  |PowerPoint Freigeben |
 |---------|---------|---------|
 |Daniela   | Global   | Ein       |
 |Amalia   | Location1MeetingPolicy        | Aus   |
 
 Amanda kann keine PowerPoint-Folien in Besprechungen teilen, selbst wenn sie die Besprechungsorganisatorin ist. Daniela kann PowerPoint-Folien übertragen, auch wenn die Besprechung von Amanda organisiert wurde. Amanda kann die von anderen Personen in der Besprechung übertragenen PowerPoint-Folien anzeigen, auch wenn Sie selbst keine PowerPoint-Folien übetragen kann.
 
-## <a name="allow-whiteboard"></a>Whiteboard zulassen
+## <a name="whiteboard"></a>Whiteboard
 
 Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung das Whiteboard übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen Sie sich das folgende Beispiel an.
 
-|Benutzer |Besprechungsrichtlinie  |Whiteboard zulassen|
+|Benutzer |Besprechungsrichtlinie  |Whiteboard|
 |---------|---------|---------|
 |Daniela   | Global   | Ein       |
 |Amalia   | Location1MeetingPolicy        | Aus   |
 
 Amanda kann das Whiteboard in einer Besprechung nicht teilen, selbst wenn sie die Besprechungsorganisatorin ist. Daniela kann das Whiteboard auch dann übertragen, wenn eine Besprechung von Amanda organisiert wird.  
 
-## <a name="allow-shared-notes"></a>Geteilte Notizen zulassen
+## <a name="shared-notes"></a>Freigegebene Notizen
 
 Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Mit dieser Einstellung wird gesteuert, ob ein Benutzer in einer Besprechung Notizen erstellen und übertragen kann. Externe Benutzer, einschließlich anonyme, B2B- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators. Die Registerkarte **Besprechungsnotizen** wird derzeit nur in Besprechungen mit weniger als 20 Teilnehmern unterstützt.
 
 Sehen Sie sich das folgende Beispiel an.
 
-|Benutzer |Besprechungsrichtlinie  |Geteilte Notizen zulassen |
+|Benutzer |Besprechungsrichtlinie  |Freigegebene Notizen |
 |---------|---------|---------|
 |Daniela   | Global   | Ein       |
 |Amalia   | Location1MeetingPolicy | Aus |

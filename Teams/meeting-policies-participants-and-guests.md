@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: aab9dda3f0a6bd5674cde2614fbbe0987292d6bf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: 21a5737c51f33d288277f6a6ff5b1ecb27d8c86f
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124232"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205245"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -35,8 +35,8 @@ ms.locfileid: "61124232"
 - [Anonymen Personen das Starten einer Besprechung gestatten](#let-anonymous-people-start-a-meeting)
 - [Personen automatisch zulassen](#automatically-admit-people)
 - [Einwahlbenutzern das Umgehen des Wartebereichs gestatten](#allow-dial-in-users-to-bypass-the-lobby)
-- [Liveuntertitel aktivieren](#enable-live-captions)
-- [Chat in Besprechungen zulassen](#allow-chat-in-meetings)
+- [Liveuntertitel](#live-captions)
+- [Chatten in Besprechungen](#chat-in-meetings)
 
 > [!NOTE]
 >Die Optionen zur Teilnahme an einer Besprechung variieren je nach den Einstellungen für die einzelnen Microsoft Teams-Gruppen und der Verbindungsmethode. Wenn Ihre Gruppe über Audiokonferenzen verfügt und sie für die Verbindung verwendet, sehen Sie sich [Audiokonferenzen](/microsoftteams/audio-conferencing-in-office-365) an. Wenn Ihre Microsoft Teams-Gruppe nicht über Audiokonferenzen verfügt, finden Sie weitere Informationen unter [Teilnehmen an einer Besprechung in Microsoft Teams](https://support.office.com/article/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9).
@@ -76,7 +76,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 > [!NOTE]
 > Wenn ein Einwahlbenutzer einer Besprechung beitritt, bevor ein Benutzer aus der Organisation beitritt, wird er in den Wartebereich gesetzt, bis ein Benutzer aus der Organisation der Besprechung mit einem Microsoft Teams-Client beitritt und ihn zulässt. Wenn Sie die Standardeinstellung für einen Benutzer ändern, gilt diese für alle neuen Besprechungen, die von diesem Benutzer organisiert werden, sowie für alle vorherigen Besprechungen, in denen der Benutzer die Besprechungsoptionen nicht geändert hatte.
 
-## <a name="enable-live-captions"></a>Liveuntertitel aktivieren
+## <a name="live-captions"></a>Liveuntertitel
 
 Diese Einstellung ist eine Benutzerrichtlinie und gilt während einer Besprechung. Über diese Einstellung wird gesteuert, ob die Option zum **Aktivieren von Liveuntertiteln** verfügbar ist, damit die Benutzer die Liveuntertitel während einer Besprechung aktivieren bzw. deaktivieren können.  
 
@@ -89,7 +89,7 @@ Diese Einstellung ist eine Benutzerrichtlinie und gilt während einer Besprechun
 
 <a name="bkcontentsharing"> </a>
 
-## <a name="allow-chat-in-meetings"></a>Chat in Besprechungen zulassen
+## <a name="chat-in-meetings"></a>Chatten in Besprechungen
 
 Bei dieser Einstellung handelt es sich um eine Einstellung pro Teilnehmer. Über diese Einstellung wird gesteuert, ob in der Besprechung des Benutzers das Chatten zulässig ist.
 

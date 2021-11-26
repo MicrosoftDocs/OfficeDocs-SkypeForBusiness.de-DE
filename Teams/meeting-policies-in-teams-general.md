@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie allgemeine Besprechungsrichtlinieneinstellungen in ihrer Teams.
-ms.openlocfilehash: be28acd1a343988fef94546f405a1f7a3684d4ce
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: b7c08799ee9e7c2b1e6239b17abaa66b7d1e3d47
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58731664"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61177936"
 ---
 # <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
 
@@ -32,32 +32,32 @@ ms.locfileid: "58731664"
 
 In diesem Artikel werden die folgenden allgemeinen Richtlinieneinstellungen für Besprechungen Teams beschrieben:
 
-- [Sofortbesprechungen in Kanälen zulassen](#allow-meet-now-in-channels)
-- [Outlook-Add-In zulassen](#allow-the-outlook-add-in)
-- [Planung von Kanalbesprechungen zulassen](#allow-channel-meeting-scheduling)
-- [Planung privater Besprechungen zulassen](#allow-scheduling-private-meetings)
-- [Sofortbesprechungen in privaten Besprechungen zulassen](#allow-meet-now-in-private-meetings)
+- [Jetzt in Kanälen treffen](#meet-now-in-channels)
+- [Outlook-Add-In](#outlook-add-in)
+- [Planen von Kanal-Besprechungen](#channel-meeting-scheduling)
+- [Private Besprechungsplanung](#private-meeting-scheduling)
+- [Sofortbesprechungen in privaten Besprechungen](#meet-now-in-private-meetings)
 - [Designierter Presenter-Rollenmodus](#designated-presenter-role-mode)
-- [Einsatzbericht zulassen](#allow-engagement-report)
-- [Besprechungsregistrierung zulassen](#allow-meeting-registration)
+- [Einsatzbericht](#engagement-report)
+- [Besprechungsregistrierung](#meeting-registration)
 - [Wer kann registriert werden](#who-can-register)
 - [Besprechungsanbieter für den Islands-Modus](#meeting-provider-for-islands-mode)
 
-## <a name="allow-meet-now-in-channels"></a>Sofortbesprechungen in Kanälen zulassen
+## <a name="meet-now-in-channels"></a>Jetzt in Kanälen treffen
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird festgelegt, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams starten kann. Wenn Sie dies aktivieren,  können die Benutzer auf die Schaltfläche Besprechung klicken, um eine Ad-hoc-Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
 
-[![Screenshot des Symbols "Jetzt treffen" unter einer Nachricht ](media/meeting-policies-meet-now.png)](media/meeting-policies-meet-now.png#lightbox)
+[![Screenshot des Symbols "Jetzt treffen" unter einer Nachricht ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
-## <a name="allow-the-outlook-add-in"></a>Outlook-Add-In zulassen
+## <a name="outlook-add-in"></a>Outlook-Add-In
 
-Hierbei handelt es sich um eine benutzerspezifisch Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Microsoft Teams-Besprechungen in Outlook (Windows, Mac, Web und Mobile) geplant werden können.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Microsoft Teams-Besprechungen in Outlook (Windows, Mac, Web und Mobile) geplant werden können.
 
-![Screenshot mit der Möglichkeit zum Planen einer neuen Besprechung](media/meeting-policies-outlook-add-in.png)
+![Screenshot zeigt die Funktion zur Planung einer neuen Besprechung.](media/meeting-policies-outlook-add-in.png)
 
 Wenn Sie dies deaktivieren, können die Benutzer keine Besprechungen Teams planen, wenn sie eine neue Besprechung in einem Outlook. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
-## <a name="allow-channel-meeting-scheduling"></a>Planung von Kanalbesprechungen zulassen
+## <a name="channel-meeting-scheduling"></a>Planen von Kanal-Besprechungen
 
 Verwenden Sie die vorhandene "AllowChannelMeetingScheduling"-Richtlinie, um zu steuern, welche Arten von Ereignissen in den Kalendern des Team-Kanals erstellt werden können. Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Benutzer eine Besprechung in einem Microsoft Teams-Kanal planen können. Diese Einstellung ist standardmäßig aktiviert. 
 
@@ -69,14 +69,14 @@ Die Option zum Planen von Besprechungen ist dann deaktiviert.
 
 Die Option zum Auswählen eines Kanals ist deaktiviert.
 
-[![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten. ](media/meeting-policies-select-a-channel-to-meet-in.png)](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
+[![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten. ](media/meeting-policies-select-a-channel-to-meet-in.png) ](media/meeting-policies-select-a-channel-to-meet-in.png#lightbox)
 
 Auf der Seite Beiträge des Kanals wird Folgendes deaktiviert:
 
 - Die Schaltfläche **Besprechung planen** im Feld zum Verfassen von Kanalantworten
   ![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, in dem Sie eine Besprechung planen möchten.](media/schedule-meeting-disabled-in-chat2.png)
   
-- Die Schaltfläche **Besprechung planen** im Kanal-Header
+- Die Schaltfläche **Besprechung planen** im Kanal-Header.
   ![Screenshot mit der Kalenderoption zum Auswählen eines Kanals, über den Sie eine Besprechung planen möchten.](media/schedule-now-in-header.png)
 
 Im Kanal-Kalender:
@@ -94,13 +94,13 @@ Die Kanalkalender-App wird auf der Seite der App-Berechtigungsrichtlinien im Abs
 
 ![Screenshot der App-Berechtigungsrichtlinie im Teams Admin Center.](media/manage-microsoft-apps-policy.png)
 
-## <a name="allow-scheduling-private-meetings"></a>Planung privater Besprechungen zulassen
+## <a name="private-meeting-scheduling"></a>Private Besprechungsplanung
 
-Hierbei handelt es sich um eine benutzerspezifisch Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer private Besprechungen in einem Teams-Kanal planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird gesteuert, ob ein Benutzer private Besprechungen in einem Teams-Kanal planen kann. Eine Besprechung ist privat, wenn sie nicht in einem Kanal in einem Team veröffentlicht wird.
 
 Beachten Sie, dass durch das Deaktivieren von **Planung privater Besprechungen zulassen** und **Planung von Kanalbesprechungen zulassen** die Optionen **Erforderliche Teilnehmer hinzufügen** und **Kanal hinzufügen** für Benutzer in Microsoft Teams deaktiviert werden. Diese Einstellung ist standardmäßig aktiviert.
 
-## <a name="allow-meet-now-in-private-meetings"></a>Sofortbesprechungen in privaten Besprechungen zulassen
+## <a name="meet-now-in-private-meetings"></a>Sofortbesprechungen in privaten Besprechungen
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird festgelegt, ob ein Benutzer eine private Ad-hoc-Besprechung starten kann.  Diese Einstellung ist standardmäßig aktiviert.
 
@@ -120,7 +120,7 @@ Um den Standardwert für die Einstellung **Wer kann präsentieren?** in Microsof
 
 Bedenken Sie, dass, nachdem Sie den Standardwert festgelegt haben, Besprechungsorganisatoren diese Einstellung in Microsoft Teams weiterhin ändern und auswählen können, wer in den von ihnen geplanten Besprechungen präsentieren kann.
 
-## <a name="allow-engagement-report"></a>Einsatzbericht zulassen
+## <a name="engagement-report"></a>Einsatzbericht
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Besprechungsorganisatoren den [Teilnahmebericht zu einer Besprechung](teams-analytics-and-reports/meeting-attendance-report.md) herunterladen können.
 
@@ -132,7 +132,7 @@ Damit ein Besprechungsorganisator den Bericht zur Besprechungsteilnahme herunter
 
 Um zu verhindern, dass der Bericht vom Besprechungsorganisator heruntergeladen wird, legen Sie den Parameter auf **Deaktiviert** (disabled) fest.
 
-## <a name="allow-meeting-registration"></a>Besprechungsregistrierung zulassen
+## <a name="meeting-registration"></a>Besprechungsregistrierung
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Wenn Sie dies aktivieren, können die Benutzer in Ihrer Organisation Webinare einrichten. Diese Richtlinie ist standardmäßig aktiviert.
 
@@ -140,22 +140,22 @@ Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Si
 
 Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
-Um die Besprechungsregistrierung zu aktivieren, legen Sie **den Parameter AllowMeetingRegistration auf** True **(Wahr) festgelegt.** Diese ist standardmäßig **auf True** festgelegt.
+Um die Besprechungsregistrierung zu aktivieren, legen Sie den **Parameter MeetingRegistration** auf **True (Wahr) festgelegt.** Diese ist standardmäßig **auf True** festgelegt.
 
 Um die Besprechungsregistrierung zu deaktivieren und zu verhindern, dass Benutzer Webinare planen, legen Sie den Parameter auf **False ..**
 
 ## <a name="who-can-register"></a>Wer kann registriert werden
 
-Diese Richtlinie steuert, welche Benutzer Webinare registrieren und teilnehmen können. Diese Richtlinie bietet zwei Optionen, die nur verfügbar sind, wenn **Die Registrierung von** Besprechungen zulassen aktiviert ist.
+Diese Richtlinie steuert, welche Benutzer Webinare registrieren und teilnehmen können. Diese Richtlinie bietet zwei Optionen, die nur verfügbar sind, wenn **die** Besprechungsregistrierung aktiviert ist.
 
-- Legen **Wer kann** sich bei **Jeder** registrieren, wenn Sie zulassen möchten, dass jeder , auch anonyme Benutzer, Webinare registriert und daran teilnehmen kann, die von Benutzern in Ihrer Organisation eingerichtet werden.
+- Legen **Wer** kann sich  für Jeder registrieren, wenn Sie zulassen möchten, dass jeder , auch anonyme Benutzer, Webinare registriert und daran teilnehmen kann, die von Benutzern in Ihrer Organisation eingerichtet werden.
 - Legen **Wer kann sich** für Jeden **in** der Organisation registrieren, wenn Sie zulassen möchten, dass nur die Benutzer in Ihrer Organisation Webinare registrieren und teilnehmen können.
 
 Standardmäßig ist Wer **registriert** werden auf **Jeder festgelegt.** Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu **Besprechungsbesprechungsrichtlinien**  >  .
 
 Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
-Damit jeder, auch anonyme Benutzer, Webinare registrieren und teilnehmen kann, legen Sie den Parameter **WhoCanRegister** auf **Jeder .** Diese ist standardmäßig **auf Jeder** festgelegt.
+Damit jeder, auch anonyme Benutzer, Webinare registrieren und teilnehmen kann, legen Sie den **Parameter WhoCanRegister** auf **Jeder .** Diese ist standardmäßig **auf Jeder** festgelegt.
 
 Damit nur Benutzer in Ihrer Organisation Webinare registrieren und teilnehmen können, legen Sie den Parameter auf **EveryoneInCompany .**
 
