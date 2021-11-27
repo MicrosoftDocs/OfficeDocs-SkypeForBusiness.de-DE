@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 38787b6f3fe11c1dfd8a9883f06bf19206360ec6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840897"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205525"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 
@@ -131,6 +131,9 @@ Erfahren Sie mehr über [Besprechungen und Anrufen in Microsoft Teams](https://s
 
 Führen Sie die folgenden Schritte aus, um Probleme mit dem Microsoft Teams-Besprechungs-Add-In zu beheben.
 
+> [!NOTE]
+> Dieses Szenario kann auch mithilfe der [Befehlszeilenversion von Microsoft Support- und Wiederherstellungs-Assistent](/office365/troubleshoot/administration/sara-command-line-version) mit SaRAcmd.exe -S TeamsAddinScenario -AcceptEula -CloseOutlook verwaltet werden.
+
 ### <a name="teams-meeting-add-in-in-outlook-for-windows-does-not-show"></a>Das Microsoft Teams-Besprechungs-Add-In wird in Outlook für Windows nicht angezeigt
 
 Wenn Sie das Add-In für Microsoft Teams-Besprechungen für Outlook nicht installieren können, versuchen Sie diese Schritte zur Problembehandlung.
@@ -141,7 +144,7 @@ Sie können aber auch die folgenden Schritte manuell ausführen:
 
 - Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für Microsoft Teams-Besprechung funktioniert.
 - Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Microsoft Teams verfügt, die das Planen von Besprechungen in Microsoft Teams ermöglicht. Weitere Informationen hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
-- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Weitere Details finden Sie unter [Einstellungen für Besprechungsrichtlinien – Allgemein](./meeting-policies-in-teams-general.md#allow-the-outlook-add-in).
+- Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Weitere Details finden Sie unter [Einstellungen für Besprechungsrichtlinien – Allgemein](./meeting-policies-in-teams-general.md#outlook-add-in).
 - Stellen Sie sicher, dass der Benutzer den Microsoft Teams-Desktopclient installiert hat. Das Besprechungs-Add-In wird nicht installiert, wenn nur der Microsoft Teams-Webclient verwendet wird.
 - Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
 - Stellen Sie sicher, dass der Benutzer über die Berechtigung zum Ausführen von "regsvr32.exe" verfügt.

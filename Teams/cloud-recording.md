@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a4008aa9f69f525e3fbbeb6fd7596822d7ac9be8
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536896"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205415"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -79,7 +79,7 @@ In diesem Abschnitt wird erläutert, wie die Aufzeichnung von Besprechungen in T
 
 Sie können das Microsoft Teams-Admin Center oder PowerShell dazu verwenden, um eine Teams-Besprechungsrichtlinie festzulegen, um zu steuern, ob Besprechungen zwischen Benutzern aufgezeichnet werden dürfen.
 
-Aktivieren bzw. deaktivieren Sie im Microsoft Teams Admin Center die Einstellung **Zulassen von Cloud-Aufzeichnung** in der Besprechungsrichtlinie. Weitere Informationen finden Sie unter [Einstellungen für Besprechungsrichtlinien für Audio und Video](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
+Aktivieren oder deaktivieren Sie im Microsoft Teams-Admin Center die Einstellung **Zulassen von Cloud-Aufnahmen** in der Besprechungsrichtlinie. Weitere Informationen finden Sie unter [Einstellungen für Besprechungsrichtlinien für Audio und Video](meetings-policies-recording-and-transcription.md#allow-cloud-recording).
 
 Mithilfe von PowerShell konfigurieren Sie die Einstellung „AllowCloudRecording“ in TeamsMeetingPolicy. Weitere Informationen hierzu finden Sie unter [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) und [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy).
 
@@ -431,7 +431,7 @@ Weitere Informationen zu eDiscovery finden Sie im Artikel [eDiscovery-Lösungen 
 
 ### <a name="retention-policies"></a>Aufbewahrungsrichtlinien
 
-Mithilfe der ProgID-Eigenschaft können Sie automatische Aufbewahrungsbezeichnungen nur auf Videodateien von Aufzeichnungen von Teams-Besprechungen anwenden. Weitere Informationen finden Sie unter [Automatisches Anwenden einer Aufbewahrungsbezeichnung für Teams-Besprechungsaufzeichnungen](/microsoft-365/compliance/apply-retention-labels-automatically?view=o365-worldwide#microsoft-teams-meeting-recordings).
+Mithilfe der ProgID-Eigenschaft können Sie automatische Aufbewahrungsbezeichnungen nur auf Videodateien von Aufzeichnungen von Teams-Besprechungen anwenden. Weitere Informationen finden Sie unter [Automatisches Anwenden einer Aufbewahrungsbezeichnung für Teams-Besprechungsaufzeichnungen](/microsoft-365/compliance/apply-retention-labels-automatically#microsoft-teams-meeting-recordings).
 
 ### <a name="data-loss-prevention-dlp-policies"></a>Richtlinien zur Verhinderung von Datenverlust (DLP)
 

@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: a4a2eea55336639925d8c07c00ded4057456e1ff
-ms.sourcegitcommit: 95c7603b47fcd5fba8f762a4590693ee9f026328
+ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
+ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/24/2021
-ms.locfileid: "61153308"
+ms.lasthandoff: 11/25/2021
+ms.locfileid: "61205305"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -59,7 +59,7 @@ Sie müssen ein Teams-Administrator sein, um diese Änderungen machen zu können
 
 ### <a name="using-powershell-to-configure-per-organizer-policy"></a>Verwenden von PowerShell zum Konfigurieren einer Richtlinie pro Organisator
 
-Administratoren können jetzt steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzer erlauben können, an den von ihnen organisierten Besprechungen teilzunehmen. Diese neue Richtlinie pro Organisator wird mithilfe des Parameters **-AllowAnonymousUsersToJoinMeeting** in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) gesteuert. Dies ist in der Teams-PowerShell-Version 2.6.0 und höher verfügbar.
+Administratoren können jetzt steuern, ob bestimmte Benutzer oder Benutzergruppen anonymen Benutzer erlauben können, an den von ihnen organisierten Besprechungen teilzunehmen. Diese neue Richtlinie pro Organisator wird mithilfe des Parameters **-AllowAnonymousUsersToJoinMeeting** in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) gesteuert. Dies ist in der Teams-PowerShell-Version 2.6.0 und höher verfügbar.
 
 Sie können beide Richtlinien – organisationsweit oder pro Organisator – verwenden, um die anonyme Teilnahme zu verwalten. Wir empfehlen, die Richtlinie pro Organisator zu implementieren. Die organisationsweite Richtlinieneinstellung wird in Zukunft veraltet, und die Richtlinie pro Organisator wird die einzige Möglichkeit sein, die anonyme Teilnahme zu steuern.
 
@@ -147,7 +147,7 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
 
     ![Screenshot der Netzwerkeinstellungen für Besprechungen im Admin Center.](media/meeting-settings-network.png "Screenshot der Netzwerkeinstellungen für Teams-Besprechungen im Microsoft Teams Admin Center")
 
-    - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **Markierungen für Quality of Service (QoS) für Mediendatenverkehr in Echtzeit einfügen**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
+    - Um die Verwendung von DSCP-Markierungen für QoS zu ermöglichen, aktivieren Sie **QoS-Markierungen (Quality of Service) für Echtzeitmedienverkehr**. Sie haben nur die Möglichkeit, Markierungen zu verwenden oder nicht; Sie können nicht für jeden Datenverkehrstyp eigene Markierungen festlegen. Weitere Informationen zu DSCP-Markierungen finden Sie unter [Auswählen einer QoS-Implementierungsmethode](QoS-in-Teams.md#select-a-qos-implementation-method).
 
         > [!IMPORTANT]
         > Beachten Sie, dass die Aktivierung von QoS nur für Endpunkte zum Tagging von Paketen ausgeführt wird, die den Client verlassen. Es wird weiterhin empfohlen, für eingehenden Datenverkehr passende QoS-Regeln auf alle internen Netzwerkgeräte zu anwenden.
