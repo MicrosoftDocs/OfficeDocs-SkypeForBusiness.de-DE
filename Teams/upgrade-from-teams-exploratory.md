@@ -18,12 +18,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5f40ddcfdd9e9491fd5d4fc7f82c77d5e5dca66f
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: d4816f3f05c37fe1a690ffea7f48789c41fd2603
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58636989"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216671"
 ---
 # <a name="upgrade-users-from-the-teams-exploratory-trial"></a>Upgraden von Benutzern der Microsoft Teams Exploratory-Testversion
 
@@ -50,7 +50,7 @@ Abhängig von den Abonnements, über die Ihre Organisation derzeit verfügt, gib
 
 - **Upgrade eines vorhandenen Microsoft 365-Abonnements.** Verwenden Sie diese Option, wenn Ihre Organisation Abonnements für andere Office-Produkte hat, die Microsoft Teams nicht enthalten. Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/subscriptions/upgrade-to-different-plan?view=o365-worldwide" target="_blank">Upgrade auf einen anderen Geschäftsplan</a>. Um aktive Benutzer für ein vorhandenes Abonnement anzuzeigen, wechseln Sie im Microsoft 365 Admin Center zu **Benutzer >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Aktive Benutzer</b></a>.
 
-- **Hinzufügen von Benutzern zu einem vorhandenen Microsoft 365-Abonnement.** Verwenden Sie diese Option, wenn Ihre Organisation nicht über genügend kostenpflichtige Microsoft Teams-Lizenzen für alle Microsoft Teams Exploratory-Benutzer verfügt. Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Kaufen oder Entfernen von Lizenzen</a>. Informationen zum Hinzufügen von Benutzern zu einem vorhandenen Abonnement, das über genügend verfügbare Lizenzen verfügt, finden Sie unter <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Verschieben von Benutzern in ein anderes Abonnement</a>. Um aktive Benutzer für ein vorhandenes Abonnement anzuzeigen, wechseln Sie im Microsoft 365 Admin Center zu **Benutzer >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Aktive Benutzer</b></a>.
+- **Hinzufügen von Benutzern zu einem vorhandenen Microsoft 365-Abonnement.** Verwenden Sie diese Option, wenn Ihre Organisation nicht über genügend bezahlte Teams-Lizenzen verfügt, um die Teams Exploratory-Benutzer abzudecken. Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/licenses/buy-licenses?view=o365-worldwide" target="_blank">Kaufen oder Entfernen von Lizenzen</a>. Informationen zum Hinzufügen von Benutzern zu einem vorhandenen Abonnement, das über genügend verfügbare Lizenzen verfügt, finden Sie unter <a href="/microsoft-365/commerce/subscriptions/move-users-different-subscription?view=o365-worldwide" target="_blank">Verschieben von Benutzern in ein anderes Abonnement</a>. Um aktive Benutzer für ein vorhandenes Abonnement anzuzeigen, wechseln Sie im Microsoft 365 Admin Center zu **Benutzer >** <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank"><b>Aktive Benutzer</b></a>.
 
 - **Kaufen eines neuen Microsoft 365-Abonnements.** Verwenden Sie diese Option, wenn Ihre Organisation über keine Abonnements für Office-Produkte verfügt, oder wenn Ihre Organisation ein Abonnement kaufen möchte, das sich vom vorhandenen Abonnement unterscheidet, um Microsoft Teams Exploratory-Benutzer abzudecken.  Weitere Informationen finden Sie unter <a href="/microsoft-365/commerce/try-or-buy-microsoft-365?view=o365-worldwide%22%20\#buy-a-different-subscription" target="_blank">Erwerben eines anderen Microsoft 365 Business-Abonnements</a>.
 
