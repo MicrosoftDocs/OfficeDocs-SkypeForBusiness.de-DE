@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d9c75d531cc2371c8ce5c6baf2eb22924129bbb6
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: c7ff835715bd91e66160817410312734c6949f5c
+ms.sourcegitcommit: 949fbc3215f96e48c01b75b13c400bdb47c37e4b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124242"
+ms.lasthandoff: 11/29/2021
+ms.locfileid: "61216631"
 ---
 # <a name="install-microsoft-teams-using-microsoft-endpoint-configuration-manager"></a>Installieren von Microsoft Teams mit Microsoft Endpoint Configuration Manager
 
@@ -64,7 +64,7 @@ Das MSI-Paket für Microsoft Teams legt ein Installationsprogramm in „Programm
 Sie sollten das MSI-Paket nicht zum Bereitstellen von Updates verwenden, da der Client automatisch aktualisiert wird, wenn er erkennt, dass über den Dienst eine neue Version verfügbar ist. Verwenden Sie zum erneuten Bereitstellen des neuesten Installationsprogramms das unten beschriebene Verfahren für die erneute Bereitstellung von MSI-Paketen. Wenn Sie eine ältere Version des MSI-Pakets bereitstellen, wird der Client automatisch aktualisiert (außer in VDI-Umgebungen), sofern dies für den Benutzer möglich ist. Falls eine sehr alte Version bereitgestellt wird, löst das MSI-Paket ein App-Update aus, bevor der Benutzer Microsoft Teams verwenden kann.
 
 > [!IMPORTANT]
-> Der Standardspeicherort ist "C:\Program Files (x86)\Teams Installer“ auf 64-Bit-Betriebssystemen und "C:\Program Files\Teams Installer" auf 32-Bit-Betriebssystemen.
+> Der Standardspeicherort ist "C:\Programme (x86)\Teams Installer" unter 32-Bit-Betriebssystemen und "C:\Programme\Teams Installer" unter 64-Bit-Betriebssystemen.
 > Sie sollten die standardmäßigen Installationsspeicherorte nicht ändern, da dies den Aktualisierungsablauf behindern kann. Eine zu alte Version führt letztlich dazu, dass die Benutzer nicht auf den Dienst zugreifen können.
 
 #### <a name="target-computer-requirements"></a>Anforderungen an die Zielcomputer
