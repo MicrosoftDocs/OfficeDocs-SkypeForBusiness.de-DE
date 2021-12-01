@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e684f9d64c3a10611b3cd71c9ea711f052050f48
-ms.sourcegitcommit: d9778b925873648213f05e27385255ba66cf8492
+ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
+ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "61055446"
+ms.lasthandoff: 12/01/2021
+ms.locfileid: "61257356"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -58,7 +58,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit ist Teams VDI mit Audio/Video (AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams VDI mit Audio/Video-Optimierung (AV) zertifiziert und mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -72,7 +72,7 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für Teams mit VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -188,7 +188,7 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
 
-        Durch diesen Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
+        Bei diesem Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
@@ -227,7 +227,7 @@ Es gibt eine Vielzahl von virtualisierten Setupkonfigurationen, bei deren Optimi
 
 Zusätzlich zu Chat und Zusammenarbeit ist Teams auf VDI mit Anrufen und Besprechungen mit unterstützten Virtualisierungsanbieter-Plattformen verfügbar. Unterstützte Features basieren auf dem WebRTC-Medienstapel und der Implementierung eines Virtualisierungsanbieters. Das folgende Diagramm bietet einen Überblick über die Architektur.
 
-![Diagramm, das Teams zur VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
+![Diagramm, das Teams VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > Wenn Sie derzeit Teams ohne AV-Optimierung in VDI ausführen und Features verwenden, die noch nicht für die Optimierung unterstützt sind (z. B. das Geben und Übernehmen von Kontrolle beim Freigeben von Apps), müssen Sie Richtlinien für Virtualisierungsanbieter festlegen, um die Teams-Umleitung zu deaktivieren. Dies bedeutet, dass Teams-Mediensitzungen nicht optimiert werden. Schritte zum Festlegen von Richtlinien zum Deaktivieren der Teams-Umleitung erhalten Sie von Ihrem Virtualisierungsanbieter.
@@ -409,7 +409,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
 
-Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung -DisableCallsAndMeetings $true bei Teams mit VDI anmelden müssen, sollten sie nicht in der Lage sein,
+Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung $true DisableCallsAndMeetings bei Teams mit VDI anmelden, sollten sie nicht in der Lage sein, dies zu:
 
 - Anrufe.
 - Nehmen Sie an Besprechungen teil.
@@ -435,7 +435,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-Wenn sich Benutzer mit der VDI-Richtlinieneinstellung "-DisableAudioVideoInCallsAndMeetings$true bei Teams mit VDI anmelden, sollten sie in der Lage sein,
+Wenn sich Benutzer mit der VDI-Richtlinieneinstellung "-DisableAudioVideoInCallsAndMeetings$true bei Teams auf VDI anmelden, sollten sie in der Lage sein, dies zu ermöglichen:
 
 - Bildschirmfreigabe über Chat.
 - Nehmen Sie an einer Besprechung teil, und teilen Sie einen Bildschirm. Audiodaten auf ein Telefon verschieben.
@@ -486,7 +486,6 @@ Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 - PSTN-Rückrufton
 - Audio-/Computersound des freigegebenen Systems
 - Medienumgehung für direkte Weiterleitung
-- Anruf parken
 - Zoomsteuerelement
 
 > [!NOTE]
