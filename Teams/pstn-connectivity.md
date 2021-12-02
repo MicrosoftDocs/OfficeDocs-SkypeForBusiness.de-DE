@@ -24,40 +24,40 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Optionen für Teams-Anrufe (PSTN-Konnektivität) und die Entscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8b87acbaff64efa0323d305c8866a1da1a0e50a2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
-ms.translationtype: HT
+ms.openlocfilehash: 92b588de0041ab6cc1b74734f9a56b1e97f55166
+ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58735342"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61267828"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN-Konnektivitätsoptionen
 
-Microsoft bietet Ihrem Unternehmen über das Telefonsystem umfassende Funktionen für private Nebenstellenanlagen (PBX). Damit Benutzer jedoch Anrufe außerhalb Ihres Unternehmens tätigen können, müssen Sie das Telefonsystem mit dem öffentlichen Telefonnetz (PSTN) verbinden.
+Microsoft stellt für Ihre Organisation Exchange privaten Verzweigungsfunktionen (PBX) über den gesamten Teams Telefon. Um Benutzern das Anrufen außerhalb Ihrer Organisation zu ermöglichen, müssen Sie Teams Telefon mit dem öffentlichen Telefonnetz (PSTN) verbinden.
 
-Dieser Artikel konzentriert sich auf PSTN-Konnektivitätsoptionen. Weitere Informationen zu Microsoft-Sprachlösungen, einschließlich Details zu Telefonsystemfunktionen, finden Sie unter [Planen Sie Ihre Teams-Sprachlösung ](cloud-voice-landing-page.md).
+Dieser Artikel konzentriert sich auf PSTN-Konnektivitätsoptionen. Weitere Informationen zu Microsoft-Sprachlösungen und Details zu Teams Telefon-Features finden Sie unter Planen [Teams Sprachlösung.](cloud-voice-landing-page.md)
 
-Um das Telefonsystem mit dem PSTN zu verbinden, können Sie aus den folgenden Optionen wählen:
+Wenn Sie Teams Telefon PSTN verbinden möchten, können Sie unter den folgenden Optionen wählen:
 
-- [**Anrufplan** ](#phone-system-with-calling-plan). Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Anbieter.
+- [**Anrufplan**](#teams-phone-with-calling-plan). Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Anbieter.
 
-- [**Telefonieanbieter**](#phone-system-with-operator-connect), das derzeit nur in der **öffentlichen Vorschau** verfügbar ist.  Mit Telefonieanbieter kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Telefonieanbieter-Programm teilnimmt, PSTN-Anrufe und Session Border Controller (SBCs) verwalten. 
+- [**Telefonieanbieter**](#teams-phone-with-operator-connect), das derzeit nur in der **öffentlichen Vorschau** verfügbar ist.  Mit Telefonieanbieter kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Telefonieanbieter-Programm teilnimmt, PSTN-Anrufe und Session Border Controller (SBCs) verwalten. 
 
-- [**Direktes Routing**](#phone-system-with-direct-routing), mit dem Sie Ihren eigenen PSTN-Anbieter verwenden können, indem Sie Ihre Session Border Controller(s) (SBC) mit dem Telefonsystem verbinden.
+- [**Direct Routing**](#teams-phone-with-direct-routing), mit dem Sie Ihren eigenen PSTN-Netzbetreiber verwenden können, indem Sie Ihre Session Border Controller (SBC) mit Teams Telefon.
 
 
 Sie können auch eine Kombination von Optionen wählen, mit der Sie eine Lösung für eine komplexe Umgebung entwerfen oder eine mehrstufige Migration verwalten können.
 
-Beachten Sie, dass sich die von Ihnen gewählte(n) Option(en) auf die Konfiguration einiger Telefonsystemfunktionen auswirken. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [ Überlegungen zur Konfiguration ](#configuration-considerations).
+Beachten Sie, dass sich die von Ihnen ausgewählten Optionen darauf auswirken, wie Teams Telefon Features konfiguriert werden. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [ Überlegungen zur Konfiguration ](#configuration-considerations).
 
 
-## <a name="phone-system-with-calling-plan"></a>Telefonsystem mit Anrufplan 
+## <a name="teams-phone-with-calling-plan"></a>Teams Telefon mit Anrufplan 
 
-Telefonsystem mit Anrufplan ist die All-in-the-Cloud-Sprachlösung von Microsoft für Teams-Benutzer. Dies ist die einfachste Option, die das Telefonsystem mit dem PSTN verbindet. Bei dieser Option fungiert Microsoft als Ihr PSTN-Netzbetreiber, wie im folgenden Diagramm dargestellt:
+Teams Telefon Anrufplan ist die All-in-the-Cloud-Sprachlösung von Microsoft für Teams Benutzer. Dies ist die einfachste Option, die eine Verbindung Teams Telefon PSTN herstellt. Bei dieser Option fungiert Microsoft als Ihr PSTN-Netzbetreiber, wie im folgenden Diagramm dargestellt:
 
 ![In Abbildung 1 ist das Microsoft-Telefonsystems mit Anrufplan dargestellt.](media/voice-solutions-simple.png)
 
-Wenn Sie die folgenden Punkte mit "Ja" beantworten können, ist "Telefonsystem mit Anrufplan" die richtige Lösung für Sie:
+Wenn Sie auf Folgendes mit "Ja" antworten, Teams Telefon Anrufplan ist die richtige Lösung für Sie:
 
 - PSTN-Anrufe sind in Ihrem Land oder Ihrer Region nicht verfügbar.
 - Sie müssen nicht bei Ihrem aktuellen Festnetzbetreiber bleiben.
@@ -65,7 +65,7 @@ Wenn Sie die folgenden Punkte mit "Ja" beantworten können, ist "Telefonsystem m
 
 Mit dieser Option geschieht Folgendes: 
 
-- Sie erhalten das Microsoft-Telefonsystem mit zusätzlichen nationalen oder internationalen Anrufplänen, die Telefonanrufe in die ganze Welt ermöglichen (je nach lizenzierter Serviceebene).
+- Sie erhalten Teams Telefon mit zusätzlichen Inlands- oder Auslands anrufplänen, die Anrufe an Telefone auf der ganzen Welt ermöglichen (abhängig von der Art des lizenzierten Diensts).
 
 - Sie benötigen keine Bereitstellung oder Wartung einer lokalen Bereitstellung&mdash;, da der Anrufplan von Microsoft 365 aus ausgeführt wird.
 
@@ -81,7 +81,7 @@ Weitere Informationen zum Anrufplan finden Sie in den folgenden Artikeln:
 - [Anrufplan einrichten](set-up-calling-plans.md)
 
 
-## <a name="phone-system-with-operator-connect"></a>Telefonsystem mit Telefonieanbieter
+## <a name="teams-phone-with-operator-connect"></a>Teams Telefon mit Operator Verbinden
 
 Mit Telefonieanbieter, das sich derzeit in der öffentlichen Vorschau befindet, kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Telefonieanbieter-Programm teilnimmt, den Dienst verwalten, um PSTN-Anrufe an Teams zu übertragen. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
 
@@ -94,28 +94,28 @@ Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
 Informationen zu den Vorteilen und Anforderungen von Telefonieanbieter sowie eine Liste der an diesem Programm teilnehmenden Netzbetreiber finden Sie unter [Plan Telefonieanbieter](operator-connect-plan.md). Informationen zum Konfigurieren von Telefonieanbieter finden Sie unter [Telefonieanbieter konfigurieren](operator-connect-configure.md).
 
 
-## <a name="phone-system-with-direct-routing"></a>Direktes Routing für Telefonsysteme
+## <a name="teams-phone-with-direct-routing"></a>Teams Telefon mit Direct Routing
 
-Diese Option verbindet das Telefonsystem mithilfe von Direct Routing mit Ihrem Telefonnetzwerk, wie in der folgenden Abbildung gezeigt: 
+Diese Option stellt eine Teams Telefon mit Ihrem Telefonienetzwerk mithilfe von Direct Routing fest, wie in der folgenden Abbildung dargestellt: 
 
 ![Abbildung 5 zeigt ein Telefonsystem mit Direct Routing.](media/voice-solution-with-direct-routing.png)
 
-Wenn Sie die folgenden Fragen mit "Ja" beantworten können, ist "Telefonsystem mit Direct Routing" die richtige Lösung für Sie:
+Wenn Sie die folgenden Fragen mit "Ja" beantworten, Teams Telefon Direct-Routing die richtige Lösung für Sie:
 
-- Sie möchten Microsoft Teams mit "Telefonsystem" verwenden.
+- Sie möchten die Teams mit Teams Telefon.
 - Sie müssen bei Ihrem aktuellen Festnetzbetreiber bleiben.
 - Sie möchten verschiedene Routing-Formen nutzen, einige Anrufe laufen über den Anrufplan und andere über Ihren Netzbetreiber.
 - Sie müssen mit Nebenstellenanlagen und/oder Geräten von Drittanbietern wie Overhead-Pagern, analogen Geräten usw. zusammenarbeiten.
 
 Mit dieser Option geschieht Folgendes:
 
-- Sie verbinden Ihren eigenen unterstützten Session Border Controller (SBC) mit dem Telefonsystem, ohne dass zusätzliche lokale Software erforderlich ist.
+- Sie verbinden Ihre eigenen unterstützten Session Border Controller (SBC) mit Teams Telefon, ohne dass zusätzliche lokale Software benötigt wird.
 
-- Sie können praktisch jeden Telefonanbieter mit Phone System verwenden.
+- Sie können praktisch jeden Telefoniebetreiber mit ihrem Teams Telefon.
 
 - Sie können diese Option selbst konfigurieren und verwalten, oder sie kann von Ihrem Netzbetreiber oder Partner konfiguriert und verwaltet werden (fragen Sie Ihren Netzbetreiber oder Partner, ob diese Option zur Auswahl steht).
 
-- Sie können die Interoperabilität zwischen Ihren Telefoniegeräten &mdash;wie einer Nebenstellenanlage eines Drittanbieters und analogen Geräten&mdash; und dem Telefonsystem konfigurieren.
+- Sie können die Interoperabilität zwischen Ihren Telefoniegeräten wie einer Drittanbieter-PBX und analogen Geräten und Geräten &mdash; &mdash; Teams Telefon.
 
 Diese Option setzt Folgendes voraus:
 
@@ -124,7 +124,7 @@ Diese Option setzt Folgendes voraus:
 - Bereitstellen und Verwalten eines unterstützten SBC
 
 - Einen Vertrag mit einem externen Netzbetreiber
-  (Außer wenn sie als Option bereitgestellt wird, um eine Verbindung mit Nebenstellenanlagen, Analoggeräten oder anderen Telefoniegeräten von Drittanbietern für Benutzer zu ermöglichen, die sich in einem Telefonsystem mit Anrufplänen befinden.)
+  (Es sei denn, die Bereitstellung als Option zum Bereitstellen einer Verbindung mit Drittanbieter-PBX, analogen Geräten oder anderen Telefoniegeräten für Benutzer, die mit Anrufplan Teams Telefon sind.)
 
 Weitere Informationen zum direkten Routing finden Sie in den folgenden Artikeln:
 
@@ -138,9 +138,9 @@ Weitere Informationen zum direkten Routing finden Sie in den folgenden Artikeln:
 
 ## <a name="configuration-considerations"></a>Überlegungen zur Konfiguration
 
-Die meisten Funktionen des Microsoft-Telefonsystems sind unabhängig von der gewählten Festnetzanbindungsoption identisch. Beispielsweise stehen Einstellungen für unbeantwortete Anrufe und Weiterleitung, Anrufweiterleitung, benutzerdefinierte Wartemusik, Anrufparken, gemeinsame Leitung und Sprach-Apps zur Verfügung. Eine vollständige Liste der Telefonsystemfunktionen finden Sie unter [Das bietet Ihnen das Telefonsystem](here-s-what-you-get-with-phone-system.md).
+Die Teams Telefon sind unabhängig von der von Ihnen aktivierten PSTN-Konnektivitätsoption identisch. Beispielsweise stehen Einstellungen für unbeantwortete Anrufe und Weiterleitung, Anrufweiterleitung, benutzerdefinierte Wartemusik, Anrufparken, gemeinsame Leitung und Sprach-Apps zur Verfügung. Eine vollständige Liste der Teams Telefon-Features finden Sie unter Dies ist das, was Sie [von ihrer Teams Telefon.](here-s-what-you-get-with-phone-system.md)
 
-Es gibt jedoch einige Funktionsunterschiede, die sich auf die Konfiguration bestimmter Telefonsystemfunktionen auswirken. Direktes Routing erfordert beispielsweise zusätzliche Schritte zum Konfigurieren des Anrufroutings. Als weiteres Beispiel bietet Direct Routing Location-Based-Routing (LBR) – damit Sie die Gebührenumgehung an bestimmten geografischen Standorten einschränken können, an denen dies nicht zulässig ist. 
+Es gibt jedoch einige Funktionsunterschiede, die sich auf die Konfiguration bestimmter Features Teams Telefon auswirken. Direktes Routing erfordert beispielsweise zusätzliche Schritte zum Konfigurieren des Anrufroutings. Als weiteres Beispiel bietet Direct Routing Location-Based-Routing (LBR) – damit Sie die Gebührenumgehung an bestimmten geografischen Standorten einschränken können, an denen dies nicht zulässig ist. 
 
 In der folgenden Tabelle werden die primären Konfigurationsunterschiede hervorgehoben. Die Abschnitte, die der Tabelle folgen, enthalten Links zu weiteren Informationen und Details.
 
@@ -148,7 +148,7 @@ In der folgenden Tabelle werden die primären Konfigurationsunterschiede hervorg
 | :------------| :-------| :-------| :-------| :-------| 
 | Anrufpläne | -Microsoft fungiert als PSTN-Träger.<br>-Sie müssen keine SBCs kaufen oder verwalten.| Von Microsoft bezogen.| -Verwaltet von Microsoft. <br> -Admin konfiguriert Benutzerwählpläne für die Nummernübersetzung. | -Aktiviert von Microsoft. <br> -Admin registriert Adressen. <br> -Dynamische Anrufe werden unterstützt. |
 | Telefonieanbieter | -Netzbetreiber verwaltet PSTN-Konnektivität und SBCs. <br> -Sie müssen keine SBCs kaufen oder verwalten. | -Erhalten durch den Netzbetreiber. <br> - Nummern, die mit Notrufadressen verbunden sind, die vom Netzbetreiber verwaltet werden.  | -Vom Netzbetreiber verwaltet. <br>-Admin konfiguriert Benutzerwählpläne für die Nummernübersetzung. | -Aktiviert durch den Netzbetreiber. <br> -Admin registriert Adressen. <br> -Dynamische Anrufe werden unterstützt. |
-| Direct Routing | -Erfordert zertifizierten SBC, der von einem Drittanbieter erworben wurde.<br>-Verbinden Sie Ihren SBC mit dem Telefonsystem.<br> -Verwenden Sie Ihren bestehenden PSTN-Anbieter. | Über den Netzbetreiber bezogen. | -Erfordert zusätzliche Konfiguration durch den Administrator.<br>-Admin konfiguriert Amtswahlpläne für die Nummernübersetzung. <br>-LBR verfügbar, um die Gebührenumgehung einzuschränken. | -Erfordert zusätzliche Konfiguration durch den Administrator. <br>-Registrierte Adressen werden nicht unterstützt. <br>-Registrierte Adressen werden nicht unterstützt. |
+| Direct Routing | -Erfordert zertifizierten SBC, der von einem Drittanbieter erworben wurde.<br>-Verbinden SBC auf Teams Telefon.<br> -Verwenden Sie Ihren bestehenden PSTN-Anbieter. | Über den Netzbetreiber bezogen. | -Erfordert zusätzliche Konfiguration durch den Administrator.<br>-Admin konfiguriert Amtswahlpläne für die Nummernübersetzung. <br>-LBR verfügbar, um die Gebührenumgehung einzuschränken. | -Erfordert zusätzliche Konfiguration durch den Administrator. <br>-Registrierte Adressen werden nicht unterstützt. <br>-Registrierte Adressen werden nicht unterstützt. |
 |||||
 
 
