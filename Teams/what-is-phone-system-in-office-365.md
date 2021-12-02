@@ -1,6 +1,6 @@
 ---
-title: Was ist Telefonsystem?
-ms.reviewer: ''
+title: Was ist Teams Telefon
+ms.reviewer: roykuntz
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -13,7 +13,6 @@ ms.collection:
 - m365initiative-voice
 audience: Admin
 appliesto:
-- Skype for Business
 - Microsoft Teams
 ms.localizationpriority: medium
 f1.keywords:
@@ -21,60 +20,62 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
-description: In diesem Artikel erfahren Sie mehr über die Telefonsystem Technologie in Microsoft 365 und Office 365.
-ms.openlocfilehash: c247186cb35a3621bb1a8545cd735f6fac7ce07c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: In diesem Artikel erfahren Sie mehr über die Teams Telefonsystem Technologie in Microsoft 365.
+ms.openlocfilehash: a0e1679c580ba6b53af7e43e6e8231a90b636e34
+ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58594347"
+ms.lasthandoff: 12/02/2021
+ms.locfileid: "61262129"
 ---
-# <a name="what-is-phone-system"></a>Was ist Telefonsystem?
+# <a name="what-is-teams-phone"></a>Was ist Teams Telefon
 
-Eine Private Branch Exchange (PBX) ist ein Telefonsystem in einem Unternehmen. Telefonsystem bietet Ihnen PBX-Funktionen, aber ohne die komplizierte und teure Ausrüstung. 
+Teams Telefon microsoft-Technologie zum Aktivieren von Anrufsteuerung und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365-Cloud mit Microsoft Teams.
 
-Telefonsystem können Sie Ihr vorhandenes lokales PBX-System durch eine Reihe von Funktionen von Microsoft 365 oder Office 365 ersetzen, die eng in Ihre Cloud-Erfahrung integriert sind. Weitere Informationen zu den Features finden Sie unter Das bietet [Ihnen die Telefonsystem.](here-s-what-you-get-with-phone-system.md)
+Teams Telefon kann mit Teams und zertifizierten Geräten verwendet werden. Teams Telefon können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem Pc Microsoft 365.
 
-## <a name="phone-system-technology"></a>Telefonsystem Technologie
+Anrufe zwischen Benutzern in Ihrer Organisation werden intern in Teams Telefon behandelt und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen. 
 
-Telefonsystem ermöglicht Anrufsteuerung und PBX-Funktionen in der Cloud mit Microsoft Teams und Skype for Business Online. 
+Für externe Anrufe bietet Teams Telefon Add-On-Optionen zum Herstellen einer Verbindung mit dem PSTN. Weitere Informationen zu Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter Planen ihrer [Teams-Sprachlösung](cloud-voice-landing-page.md) und Verbinden [PSTN.](#connect-to-the-public-switched-telephone-network-pstn)
+
+## <a name="teams-phone-features"></a>Teams Telefon features
+
+Mit Teams Telefon können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Teams Telefon Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams diese Person anrufen. Zum Ein- und Empfangen von Anrufen können Teams Telefon-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
+
+Teams Telefon-Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und andere Dienste verwendet wird.
+
+Weitere Informationen zu den Teams Telefon finden Sie unter Das bietet [Ihnen die Teams Telefon.](here-s-what-you-get-with-phone-system.md)
   
-Mit Telefonsystem können Benutzer Teams oder Skype for Business Online verwenden, um Anrufe zu platzieren und zu empfangen, Anrufe zu übertragen sowie Anrufe stumm zuschalten bzw. die Stummschaltung auf- bzw. auflösen. Telefonsystem Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams person Skype for Business Onlineanrufe an diese Person senden. Zum Platzieren und Empfangen von Anrufen können Telefonsystem-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen verwenden, die mit Teams und Skype for Business Online funktionieren. Telefonsystem-Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und vieles mehr verwendet wird.
-  
-Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb Telefonsystem und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen.
-
-Für Anrufe außerhalb Ihrer Organisation bietet Microsoft mehrere Optionen zum Herstellen Telefonsystem Verbindung zum öffentlichen Telefonnetz (PSTN).
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Verbinden zum öffentlichen Telefonnetz (PSTN)
   
-Telefonsystem kann auf eine von zwei Arten mit dem PSTN verbunden werden:
+Bei externen anrufen können Teams Telefon auf eine von mehreren Arten mit dem PSTN verbunden werden:
   
-- Erwerben Sie einen Microsoft-Anrufplan (in- oder inlands und international). Microsoft Calling Plan ist eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber. Weitere Informationen hierzu finden Sie in [Telefonsystem und Anrufpläne](calling-plan-landing-page.md).
+- Erwerben Sie einen Microsoft-Anrufplan (in- oder inlands und international). Microsoft Calling Plan ist eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber. Weitere Informationen finden Sie unter [Teams Telefon und Anrufpläne.](calling-plan-landing-page.md)
 
 - Verwenden Sie Ihre vorhandene Telefonieinfrastruktur für lokale PSTN-Anbindung.
 
-  Für Ihre Teams können Sie Ihre lokale Telefonieinfrastruktur mithilfe von Direct-Routing Telefonsystem mit der Telefonie verbinden. Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
+  Sie können Ihre lokale Telefonieinfrastruktur mit Ihrem Telefoniedienst Teams Telefon, indem Sie operator Verbinden Calling oder Direct Routing verwenden. 
 
-  Weitere Informationen zu allen Telefonielösungen von Microsoft finden Sie unter [Planen Teams Sprachlösung.](cloud-voice-landing-page.md)
+Weitere Informationen zu allen Optionen für PSTN-Konnektivität finden Sie unter [PstN-Konnektivitätsoptionen.](pstn-connectivity.md)
 
 
-## <a name="phone-system-with-services"></a>Telefonsystem mit Diensten
+## <a name="teams-phone-with-services"></a>Teams Telefon mit Diensten
 
- Telefonsystem kann für Dienste und Voicemail verwendet werden, z. B.:
+Teams Telefon kann für Dienste und Voicemail verwendet werden, z. B.:
 
 - **Automatische Telefonkonferenzen** – Automatische Telefonkonferenzen können verwendet werden, um ein Menüsystem für Ihre Organisation zu erstellen, mit dem externe und interne Anrufer durch das System wechseln können, um Anrufe zu suchen und zu platzieren oder Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu übertragen. Weitere [Informationen finden Sie unter Was sind automatische Cloud-Attendants?](what-are-phone-system-auto-attendants.md).
 
 - **Anrufwarteschleifen** – Anrufwarteschlangen-Begrüßungen können verwendet werden, wenn jemand eine Telefonnummer für Ihre Organisation anruft. Diese Begrüßungen umfassen die Möglichkeit, die Anrufe automatisch zu halten, und die Möglichkeit, nach dem nächsten verfügbaren Telefonmitarbeiter zu suchen, um den Anruf zu behandeln, während die Anrufer musik hören. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. Siehe [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md).
 
-- Voicemail – Wenn Sie eine Telefonsystem-Lizenz für einen Benutzer erhalten, kann dieser Benutzer **Voicemails** erhalten, die von Anrufern zurück gelassen wurden. Cloud Voicemail für Telefonsysteme wird automatisch eingerichtet und für die Benutzer bereitgestellt, nachdem Sie den Benutzern eine Telefonsystemlizenz und eine Telefonnummer zugewiesen haben. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
+- **Voicemail** – Cloud-Voicemail wird automatisch eingerichtet und für alle Benutzer Teams bereitgestellt. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-Weitere Informationen zu Features finden Sie unter Das bietet [Ihnen die Telefonsystem.](here-s-what-you-get-with-phone-system.md) Wenn Sie bereit für die ersten Schritte sind, lesen Sie Einrichten [Telefonsystem in Ihrer Organisation.](setting-up-your-phone-system.md)
+Weitere Informationen zu Features finden Sie unter Das bietet [Ihnen die Teams Telefon.](here-s-what-you-get-with-phone-system.md) Wenn Sie bereit für die ersten Schritte sind, lesen Sie Einrichten [Teams Telefon in Ihrer Organisation.](setting-up-your-phone-system.md)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Telefonsystem features](here-s-what-you-get-with-phone-system.md)
-- [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md)
-- [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
-- [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
-- [Direktes Routing für Telefonsysteme](direct-routing-landing-page.md)
+- [Teams Telefon features](here-s-what-you-get-with-phone-system.md)
+- [Einrichten Teams Telefon](setting-up-your-phone-system.md)
+- [Planen Ihrer Microsoft Teams-Anruflösung](cloud-voice-landing-page.md)
+- [PSTN-Konnektivitätsoptionen](pstn-connectivity.md)
 - [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
