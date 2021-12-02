@@ -675,6 +675,12 @@ items:
             href: audio-conferencing-common-questions.md
           - name: Audiokonferenz-Add-ons in Microsoft 365 testen und kaufen
             href: try-or-purchase-audio-conferencing-in-office-365-for-teams.md
+          - name: Konferenzen per Telefonieanbieter
+            items:
+              - name: Übersicht
+                href: operator-connect-conferencing-plan.md
+              - name: Konfigurieren von Konferenzen per Telefonieanbieter
+                href: operator-connect-conferencing-configure.md
           - name: Erweiterte ausgehende Gesprächsminuten für USA und Kanada
             href: dial-out-minutes-canada-us.md
           - name: Zeitraum für kostenlose ausgehende Anrufe für Audiokonferenzen
