@@ -849,17 +849,17 @@ items:
                 href: rooms/xml-config-file.md
               - name: Verwendung des Wiederherstellungstools
                 href: rooms/recovery-tool.md
-  - name: VoIP – Telefonsystem und PSTN-Konnektivität
+  - name: Voice – Teams Phone und PSTN-Konnektivität
     items:
       - name: Planen der Voice-Lösung ihrer Teams
         href: cloud-voice-landing-page.md
-      - name: Telefonsystem
+      - name: Teams Phone
         items:
-          - name: Was ist das Telefonsystem?
+          - name: Was ist Teams Phone
             href: what-is-phone-system-in-office-365.md
-          - name: 'Hier erfahren Sie, was Ihnen das Telefonsystem bietet'
+          - name: Das erhalten Sie mit Teams Phone
             href: here-s-what-you-get-with-phone-system.md
-          - name: Einrichten des Telefonsystems
+          - name: Einrichten von Teams Phone
             href: setting-up-your-phone-system.md
           - name: Einrichten von Telefonen in öffentlichen Bereichen
             href: set-up-common-area-phones.md
@@ -1093,7 +1093,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams-Upgradeplan
             href: voice-case-study-migration-plan.md
-          - name: Telefonsystem
+          - name: Teams Phone
             href: voice-case-study-phone-system.md
           - name: Standortbasiertes Routing
             href: voice-case-study-location-based-routing.md
@@ -1620,6 +1620,10 @@ items:
             href: teams-add-on-licensing/pri-message.md
           - name: Microsoft 365-Telefonsystem – virtuelle Benutzerlizenz
             href: teams-add-on-licensing/virtual-user.md
+          - name: Erste Schritte mit Teams Essentials
+            href: get-started-with-teams-essentials.md
+          - name: Verbinden Sie Teams Essentials (AAD Identity) mit E-Mail
+            href: connect-teams-essentials-to-email.md
       - name: Interoperabilität mit Microsoft 365 und Office 365
         items:
           - name: Microsoft 365-Gruppen und Teams
