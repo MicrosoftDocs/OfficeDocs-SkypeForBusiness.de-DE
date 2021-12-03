@@ -1543,6 +1543,8 @@ items:
             href: teams-edu-licensing.md
           - name: Education-SKU-Referenz
             href: sku-reference-edu.md
+          - name: Teams-Geräte für Education
+            href: devices-for-education.md
       - name: Teams für Mitarbeiter mit direktem Kundenkontakt
         items:
           - name: Schnellstarthandbuch für Mitarbeiter in Service und Produktion
@@ -1641,8 +1643,6 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
             href: sharepoint-onedrive-interact.md
-      - name: Teams-Geräte für Education
-        href: devices-for-education.md
       - name: Unterstützte Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams
