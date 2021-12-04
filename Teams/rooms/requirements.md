@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen für die Microsoft Teams-Räume Geräte, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
+description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a96fd2ee05b60a8147574678bc2afed89ad5be2d
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 8524f1481c98425e726f902a76ce82ce536ed419
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959924"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306130"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -28,17 +28,16 @@ Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume kö
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
-Ihre Bereitstellung umfasst das Erstellen von Konten, wie in [Bereitstellen von Microsoft Teams-Räume](rooms-deploy.md) beschrieben, und das Einrichten von Besprechungskonsolen laut der Beschreibung unter [Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md).
+Die Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonton Teams-Räume wie unter Bereitstellen [Microsoft Teams-Räume](rooms-deploy.md)beschrieben.
 
 Weitere Informationen finden Sie unter:
 
-- [Lizenzierung des Skype for Business-Add-Ons](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/skype-for-business-and-microsoft-teams-add-on-licensing)
-- [Lizenzoptionen basierend auf Ihrem Plan: Microsoft Teams-Räume](/SkypeForBusiness/skype-for-business-and-microsoft-teams-add-on-licensing/license-options-based-on-your-plan/skype-room-systems-v2)
+- [Lizenzoptionen basierend auf Ihrem Plan: Microsoft Teams-Räume](rooms-licensing.md)
 
 > [!NOTE]
-> Microsoft Teams-Räume melden sich bei Microsoft Teams, Skype für Business Server 2019, Skype für Business Server 2015 oder Skype for Business Online an und können an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
+> Microsoft Teams-Räume sich bei Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 anmelden und an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in den von 21Vianet Microsoft 365 oder Office 365 oder DoD-Umgebungen betriebenen Umgebungen nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in Microsoft 365 oder Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -201,11 +200,11 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 
 #### <a name="usb-extenders"></a>USB-Extender
 
-- USB-Anschlüsse auf Tablet-Docks sind USB 3.0-kompatibel. Sie können einen USB 2.x-Extender verwenden, aber dies beschränkt Sie auf USB 2.x-Geschwindigkeiten auf der Gegenseite. Extender werden für USB 3.0-Peripheriegeräte nicht empfohlen.
+- USB-Anschlüsse auf Tablet-Docks sind USB 3.0-kompatibel. Sie können einen USB 2.x-Extender verwenden, sind aber auf USB 2.x-Geschwindigkeiten am Fernen beschränkt. Extender werden für USB 3.0-Peripheriegeräte nicht empfohlen.
 - Ein Extender muss USB 2.0 oder neuere Spezifikationen erfüllen.
   - Tablet-Docks unterstützen mindestens zwei Phasen der externen USB-Hub-Erweiterung. Wenn Sie mehr als zwei USB-Hubs in Reihe anschließen, erkundigen Sie sich beim Hersteller der Docks, ob diese eine Reihenschaltung unterstützen.
   - Kabelgebundene GbE-Verbindung in den Raum. Ethernet-Kabel mit geeigneter Länge.
-  - Bis zu zwei 1080-p-Displays mit HDMI-Verbindungen. HDMI-Kabel mit geeigneter Länge.
+  - Bis zu zwei 1080p-Displays mit HDMI-Verbindungen. HDMI-Kabel mit geeigneter Länge.
 
 > [!NOTE]
 > Ein Consumer-TV, der als eine Anzeige vorne im Raum verwendet wird, muss das Feature „Consumer Electronics Control (CEC)“ von HDMI unterstützen/aktivieren, sodass ein automatischer Wechsel zu einer aktiven Videoquelle aus dem Standbymodus möglich ist. Dieses Feature wird nicht auf allen TVs unterstützt.
@@ -235,16 +234,8 @@ In den folgenden Tabellen finden Sie Empfehlungen für Peripheriegeräte basiere
  > [!NOTE]
  > Die Auflösung für die Anzeige vorn im Raum sollte auf nicht mehr als 1920 x 1080 p eingestellt werden.
 
-## <a name="required-software-downloads"></a>Erforderliche Software-Downloads
 
-Folgen Sie den Anweisungen unter [Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md), um Ihr eigenes Microsoft Teams-Raum-Image zu erstellen. Diese Anweisungen führen Sie durch das Herunterladen aller für die Installation erforderlichen Software.
-
-> [!NOTE]
-> IT-Experten benötigen über ihre Volumenlizenzvereinbarung Zugriff auf Windows 10 Enterprise ISO-Dateien.
-
-[SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105) ist ein optionaler Download, den Sie zur Bereitstellung von Microsoft Teams-Räume-Konten verwenden können.
-
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Alle Pakete auflisten](https://products.office.com/microsoft-teams/across-devices/devices)
 
@@ -255,5 +246,3 @@ Folgen Sie den Anweisungen unter [Konfigurieren einer Konsole für Microsoft Tea
 [Konfigurieren einer Konsole für Microsoft Teams-Räume](console.md)
 
 [Microsoft Teams-Räume verwalten](rooms-manage.md)
-
-[Lizenzierung des Skype for Business-Add-Ons](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)

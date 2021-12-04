@@ -15,74 +15,72 @@ ms.collection:
 ms.custom: ''
 ms.assetid: ''
 description: In diesem Thema erfahren Sie mehr über das Konfigurieren von Konten Microsoft Teams-Räume Konten in Exchange und Skype for Business.
-ms.openlocfilehash: 2c6a4e369c45bb624e40400339bbc43b7ac20234
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 77e1dbe097bbb75697ec52ef7d472df4707ac9cb
+ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58611524"
+ms.lasthandoff: 12/04/2021
+ms.locfileid: "61306120"
 ---
 # <a name="configure-accounts-for-microsoft-teams-rooms"></a>Konfigurieren von Konten für Microsoft Teams-Räume
  
 In diesem Thema erfahren Sie mehr über Microsoft Teams-Räume und die Integration in Exchange und Skype for Business.
   
-In diesem Thema wird das Erstellen von Konten beschrieben, die von Microsoft Teams-Räume in Microsoft Exchange und Skype for Business. Bereitstellungsanweisungen für Microsoft Teams-Räume-Geräte finden Sie unter [Konfigurieren einer Microsoft Teams-Räume-Konsole.](console.md) Ihre Infrastruktur weist wahrscheinlich eine der folgenden Konfigurationen auf:
+In diesem Thema wird das Erstellen von Konten beschrieben, die von Microsoft Teams-Räume in Microsoft Exchange und Skype for Business. Ihre Infrastruktur weist wahrscheinlich eine der folgenden Konfigurationen auf:
   
-- Onlinebereitstellung: Die Umgebung Ihrer Organisation wird ausschließlich auf der Microsoft 365 Oder Office 365. Weitere Informationen finden Sie unter Bereitstellen [Microsoft Teams-Räume mit Microsoft 365 oder Office 365.](with-office-365.md)
+- Onlinebereitstellung: Die Umgebung Ihrer Organisation wird ausschließlich auf der Microsoft 365 Oder Office 365. Weitere Informationen finden Sie unter [Bereitstellen Microsoft Teams-Räume mit Microsoft 365 oder Office 365.](with-office-365.md)
     
-- Lokale Bereitstellung: Ihre Organisation verfügt über Server, die von ihr kontrolliert werden, wo Active Directory-, Exchange- und Skype for Business Server gehostet werden. Weitere Informationen finden Sie unter [Bereitstellen Microsoft Teams-Räume mit Skype for Business Server](with-skype-for-business-server-2015.md)
+- Lokale Bereitstellung: Ihre Organisation verfügt über Server, die von ihr kontrolliert werden und auf denen Active Directory-, Exchange- Skype for Business Server gehostet werden. Weitere Informationen finden Sie unter [Bereitstellen Microsoft Teams-Räume mit Skype for Business Server](with-skype-for-business-server-2015.md)
     
 - Hybridbereitstellungen: Ihre Organisation verfügt über eine Mischung von Diensten, von den einige lokal gehostet werden und einige online über Microsoft 365 oder Office 365. Im Microsoft Teams-Räume werden die folgenden Hybridszenarien unterstützt:
     
   - Exchange Online mit Skype for Business Server lokal. Weitere Informationen finden Sie unter [Bereitstellen Microsoft Teams-Räume mit Exchange Online (Hybrid).](with-exchange-online.md)
     
-  - Exchange lokal mit ihrem Microsoft Teams oder Skype for Business Online. Weitere Informationen finden Sie unter [Bereitstellen Microsoft Teams-Räume mit Exchange lokal (Hybrid).](with-exchange-on-premises.md)
+  - Exchange lokal mit Microsoft Teams. Weitere Informationen finden Sie unter [Bereitstellen Microsoft Teams-Räume mit Exchange lokal (Hybrid).](with-exchange-on-premises.md)
     
 Ihre vorhandene Konfiguration beeinflusst die Vorbereitung der Geräteinstallation.
   
-Microsoft Teams-Räume muss ein "Gerätekonto" in Active Directory, Exchange und Skype for Business. Das Konto wird verwendet, um auf seinen Besprechungskalender zu zugreifen und eine Microsoft Teams oder Skype for Business herstellen. Benutzer können dieses Konto buchen, indem sie eine Besprechung mit ihm planen. Microsoft Teams-Räume können an dieser Besprechung teilnehmen und den Besprechungsteilnehmern verschiedene Funktionen zur Verfügung stellen.
+Microsoft Teams-Räume muss ein "Ressourcenkonto" in Active Directory, Exchange und Skype for Business. Das Konto wird verwendet, um auf seinen Besprechungskalender zu zugreifen und eine Microsoft Teams oder Skype for Business herstellen. Benutzer können dieses Konto buchen, indem sie eine Besprechung mit ihm planen. Microsoft Teams-Räume können an dieser Besprechung teilnehmen und den Besprechungsteilnehmern verschiedene Funktionen zur Verfügung stellen.
   
 > [!IMPORTANT]
-> Ohne ein Gerätekonto funktioniert keine dieser Features. 
+> Ohne ein Ressourcenkonto funktioniert keine dieser Features. 
   
-Jedes Gerätekonto ist für ein einzelnes Microsoft Teams-Räume Gerät eindeutig und erfordert ein Setup:
+Jedes Ressourcenkonto ist für eine einzelne Microsoft Teams-Räume-Installation eindeutig und erfordert eine gewisse Einrichtung:
   
-- Das Gerätekonto muss ordnungsgemäß konfiguriert sein.
+- Das Ressourcenkonto muss ordnungsgemäß konfiguriert sein.
     
-- Ihre Infrastruktur muss so konfiguriert werden, Microsoft Teams-Räume Benutzer das Überprüfen des Gerätekontos ermöglichen und die entsprechenden Anforderungen Microsoft-Dienste.
-    
-> [!IMPORTANT]
-> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung. 
+- Ihre Infrastruktur muss so konfiguriert werden, Microsoft Teams-Räume Benutzer das Überprüfen des Ressourcenkontos und das Erreichen der entsprechenden Microsoft-Dienste.
 
-In Hybridumgebungen muss für das für Microsoft Teams-Räume verwendete Konto die Kennwortsynchronisierung in der Azure Active Directory(AAD)-Synchronisierung aktiviert sein, da für die Microsoft Teams-Räume-Authentifizierung eine Microsoft 365 oder Office 365 erforderlich ist. Stellen Sie beim Einrichten des Kontos sicher, dass die SIP-Adresse des Kontos dem Benutzerprinzipalnamen (User Principal Name, UPN) in AAD entspricht. 
+> [!NOTE] 
+> Wenn Sie Microsoft Teams-Panels verwenden, meldet Teams-Räume-Ressourcenkonto sich sowohl bei den Teams-Räume als auch den zugeordneten Teams an.
+    
+> [!IMPORTANT]
+> Es wird dringend empfohlen, das Konto rechtzeitig vor der eigentlichen Hardwareinstallation zu erstellen. Im Idealfall beginnen Sie zwei bis drei Wochen vor der Installation mit der Kontovorbereitung.
+> 
+
+In Hybridumgebungen muss für das für Microsoft Teams-Räume verwendete Konto die Kennwortsynchronisierung in Azure Active Directory (AAD) Sync aktiviert sein, da die Microsoft Teams-Räume-Authentifizierung eine Microsoft 365 oder eine Office 365  Authentifizierung. Stellen Sie beim Einrichten des Kontos sicher, dass die SIP-Adresse des Kontos mit dem Benutzerprinzipalnamen (User Principal Name, UPN) in der AAD. 
   
-Sie können sich ein Gerätekonto als Ressourcenkonto auskennen, das von anderen Personen als Konto eines Konferenzraums oder Besprechungsraums erkannt wird. Wenn Sie eine Besprechung in diesem Konferenzraum planen möchten, laden Sie das Konto zu dieser Besprechung ein. Um Dies Microsoft Teams-Räume zu erreichen, gehen Sie genauso mit dem Gerätekonto vor, das jedem Konto zugewiesen ist.
+Sie können sich ein Ressourcenkonto als Ressourcenkonto auskennen, das von anderen Personen als Konto eines Konferenzraums oder eines gemeinsam genutzten Raums erkannt wird. Wenn Sie eine Besprechung an diesem Platz planen möchten, laden Sie das Konto zu dieser Besprechung ein.
   
-Wenn Sie bereits ein Ressourcenpostfachkonto für den Besprechungsraum eingerichtet haben, in dem Sie Microsoft Teams-Räume installieren, können Sie dieses Ressourcenkonto in ein Gerätekonto ändern. Sobald dies erfolgt ist, müssen Sie nur noch das Gerätekonto zu einem Microsoft Teams-Räume hinzufügen. Siehe die nachstehenden Beispiele für die Einrichtung von Gerätekonton.
-  
-Mit einer zusätzlichen Konfiguration ist die Remoteverwaltung mithilfe des Microsoft Azure-Monitors möglich, wie unter Planen der Microsoft Teams-Räume-Verwaltung mit [Azure Monitor,](azure-monitor-plan.md)Bereitstellen der Microsoft Teams-Räume-Verwaltung mit [Azure Monitor](azure-monitor-deploy.md)und Verwalten von [Microsoft Teams-Räume-Geräten](azure-monitor-manage.md)mit Azure Monitor beschrieben. 
+Wenn Sie bereits ein Ressourcenpostfachkonto für den Speicherplatz eingerichtet haben, in dem Sie Microsoft Teams-Räume installieren, können Sie dieses Konto in ein Teams-Räume-Ressourcenkonto ändern. Sobald dies erfolgt ist, müssen Sie sich nur noch bei Microsoft Teams-Räume diesem Konto anmelden.
   
 ## <a name="basic-configuration"></a>Grundlegende Konfiguration
 
-Diese Eigenschaften stellen die Mindestkonfiguration für ein Gerätekonto dar, mit dem sie Microsoft Teams-Räume. Ihr Gerätekonto erfordert möglicherweise eine weitere Einrichtung.
+Diese Eigenschaften stellen die Mindestkonfiguration für ein Ressourcenkonto dar, mit dem sie Microsoft Teams-Räume. Ihr Ressourcenkonto erfordert möglicherweise eine weitere Einrichtung.
   
 |**Eigenschaft**|**Zweck**|
 |:-----|:-----|
-|Exchange Postfach (Exchange 2013 SP1 oder höher oder Exchange Online)  <br/> |Wenn Sie das Konto mit einem Exchange-Postfach aktivieren, kann das Gerätekonto sowohl E-Mail- als auch Besprechungsanfragen empfangen und senden sowie einen Besprechungskalender auf dem Microsoft Teams-Räume anzeigen. Das Microsoft Teams-Räume Postfach muss ein Raumpostfach sein.  <br/> |
-|Skype for Business ist aktiviert  <br/> |Skype for Business müssen aktiviert sein, um verschiedene Konferenzfeatures wie Videoanrufe, Videoanrufe und Bildschirmfreigaben verwenden zu können. Sowohl Skype for Business Online als Skype for Business Server werden unterstützt.  <br/> |
-|Kennwort aktiviert  <br/> |Das Gerätekonto muss mit einem Kennwort aktiviert werden, oder es kann sich nicht mit einem Exchange oder Skype for Business Server.  <br/> |
+|Exchange Postfach (Exchange 2013 SP1 oder höher oder Exchange Online)  <br/> |Wenn Sie das Konto mit einem Exchange-Postfach aktivieren, kann das Ressourcenkonto sowohl E-Mail- als auch Besprechungsanfragen empfangen und senden sowie einen Besprechungskalender auf dem Microsoft Teams-Räume anzeigen. Das Microsoft Teams-Räume Postfach muss ein Raumpostfach sein.  <br/> |
+|Skype for Business ist aktiviert  <br/> |Skype for Business können aktiviert werden, um verschiedene Skype for Business-Konferenzfeatures wie Videoanrufe, Videoanrufe und Bildschirmfreigaben zu verwenden.  <br/> |
+|Kennwort aktiviert  <br/> |Das Ressourcenkonto muss mit einem Kennwort aktiviert werden, oder es kann sich nicht mit anderen Microsoft Teams, Exchange Oder Skype for Business Server. Der Kennwortablauf sollte für alle Teams-Räume deaktiviert werden.   <br/> |
    
 ## <a name="advanced-configuration"></a>Erweiterte Konfiguration
 
-Die Eigenschaften für die grundlegende Konfiguration ermöglichen zwar die Einrichtung des Gerätekontos in einer einfachen Umgebung, es ist jedoch möglich, dass in Ihrer Umgebung weitere Einschränkungen hinsichtlich Verzeichniskonten gelten, die erfüllt werden müssen, damit Microsoft Teams-Räume das Gerätekonto erfolgreich verwenden kann.
+Die Eigenschaften für die Grundlegende Konfiguration ermöglichen zwar das Einrichten des Ressourcenkontos in einer einfachen Umgebung, es ist jedoch möglich, dass in Ihrer Umgebung weitere Einschränkungen für Verzeichniskonten gelten, die erfüllt werden müssen, damit Microsoft Teams-Räume das Ressourcenkonto erfolgreich verwenden kann.
   
 |**Eigenschaft**|**Zweck**|
 |:-----|:-----|
-|Zertifikatbasierte Authentifizierung  <br/> |Zertifikate sind möglicherweise sowohl für die Exchange als Skype for Business Server. Zum Bereitstellen von Zertifikaten können Sie diese laden, wenn Sie als Administrator angemeldet sind.  <br/> |
-   
-Die einfachste Möglichkeit zum Einrichten von Gerätekonten besteht in der Konfiguration der Konten mithilfe von Remotecomputern Windows PowerShell. Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Unterstützung beim Erstellen neuer Gerätekonten oder überprüfen Sie vorhandene Ressourcenkonten, um sie in kompatible Microsoft Teams-Räume-Gerätekonten zu verwandeln.
-  
-Wenn Sie die Benutzeroberfläche des Microsoft 365-Office 365 lieber Windows PowerShell verwenden möchten, können einige Schritte manuell ausgeführt werden. Weitere [Informationen finden Sie unter Erstellen eines Gerätekontos mithilfe Microsoft 365 oder Office 365.](/surface-hub/create-a-device-account-using-office-365)
+|Zertifikatbasierte Authentifizierung  <br/> |Zertifikate sind möglicherweise sowohl für Exchange als Skype for Business Server. Zum Bereitstellen von Zertifikaten können Sie diese laden, wenn Sie als Administrator angemeldet sind.  <br/> |
   
 ## <a name="see-also"></a>Mehr dazu
 
