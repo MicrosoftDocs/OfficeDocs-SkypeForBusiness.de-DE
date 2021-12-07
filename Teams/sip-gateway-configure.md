@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: db828fba03cfa4c05bef16d9f1b3ec2b50dbc4af
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: b245a4f4b0c9d8940943ceacc685bcf99e0df64e
+ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314260"
+ms.lasthandoff: 12/07/2021
+ms.locfileid: "61327303"
 ---
 # <a name="configure-sip-gateway"></a>Konfigurieren des SIP-Gateways
 
@@ -80,7 +80,7 @@ In diesem Artikel wird außerdem beschrieben, wie Sie:
 
 ## <a name="verify-that-sip-gateway-is-available-for-your-organization"></a>Überprüfen, ob das SIP-Gateway für Ihre Organisation verfügbar ist
 
-1. Melden Sie sich beim [Teams Admin Center an.](https://admin-teams.microsoft.net/)
+1. Melden Sie sich beim [Teams Admin Center an.](https://admin-teams.microsoft.com/)
 
 2. Wählen Sie auf der linken **Seite Teams aus,** und sehen Sie, ob die Registerkarte **SIP-Geräte** angezeigt wird. In diesem Falls ist der SIP-Gatewaydienst für Ihre Organisation aktiviert.
 
@@ -92,7 +92,7 @@ Sie können SIP Gateway für Ihre Organisation auf eine von zwei Arten aktiviere
 
 Führen Sie die folgenden Schritte aus, um im Teams Admin Center DAS SIP-Gateway zu aktivieren:
 
-1. Wechseln Sie zum [Teams Admin Center.](https://admin.teams.microsoft.net/)
+1. Wechseln Sie zum [Teams Admin Center.](https://admin.teams.microsoft.com/)
 
 2. Wählen Sie links unter **Sprache** die Option **Anrufrichtlinien aus.**
 
@@ -183,19 +183,19 @@ Um Ihre Aufgaben zu optimieren, können Sie SIP-Geräte im Teams Admin Center en
 
    - **So können Sie viele Geräte bereitstellen:**
 
-     a. Wählen **Sie rechts unter Warten** auf die Aktivierung die Option **Exportieren** aus (Microsoft Excel Symbol ).
+     a. Wählen **Sie rechts unter Warten** auf die Aktivierung die Option **Exportieren** aus (das Microsoft Excel Symbol).
      
      b. Wählen Sie **im Bereich Geräte** bereitstellen unter Hochladen **MAC-Adressen** die Option Vorlage **herunterladen aus.**
      
-     c. Speichern **Template_Provisioning.csv** auf Ihrem Computer, und geben Sie die **Felder MAC-ID und** **Speicherort** ein.
+     c. Speichern **Template_Provisioning.csv** auf Ihrem Computer, und füllen Sie die **Felder MAC-ID** und **Speicherort** aus.
     
      d. Wählen Sie **im Bereich Geräte** bereitstellen die Option Hochladen **MAC-Adressen aus.** 
 
-     e. Wählen Sie rechts im bereich **Hochladen Mac-Adressen** die Option Datei  auswählen **aus,** und wählen Sie dann dieTemplate_Provisioning.csvaus, die Ihre Daten enthält.
+     e. Wählen Sie rechts im Bereich **Hochladen Mac-Adressen** die Option Datei  auswählen **und** dann dieTemplate_Provisioning.csvaus, die Ihre Daten enthält.
 
      f. Wählen Sie **im Bereich** Geräte bereitstellen unter Bei Aktivierung  warten ein Gerät aus, und wählen Sie dann Überprüfungscode generieren aus, um für jedes bereitgestellte Gerät einen einmalverifizierungscode zu generieren.  Notieren Sie sich den Prüfcode für jedes SIP-Gerät.
 
-4. Wählen Sie auf dem SIP-Gerät den Registrierungsfunktionscode gefolgt vom Prüfcode. Wenn der Registrierungsfunktionscode z. B. 55* ist und der Prüfcode 123456 ist, wählen Sie \* 55 123456, um das Gerät \* \* zu registrieren.
+4. Wählen Sie auf dem SIP-Gerät den Registrierungsfunktionscode gefolgt vom Prüfcode. Wenn der Registrierungsfunktionscode beispielsweise "55*" und der Prüfcode \* "55* 123456, wählen Sie 55 123456, um das Gerät \* \* zu registrieren.
 
 5.  Wählen Sie **im Bereich Geräte** bereitstellen unter Auf Anmeldung **warten** die Option **Abmelden aus.**
 
@@ -215,7 +215,7 @@ Für die persönlichen Geräte der Benutzer wird nur die lokale Anmeldung unters
 
 1. Melden Sie sich beim [**Teams Admin Center an.**](https://admin.teams.microsoft.com)
 
-2. Wählen Teams   >  **sip-Geräte aus.**
+2. Wählen Sie   >  **Teams-Geräte SIP-Geräte aus.**
 
 3. Wählen Sie rechts ein SIP-Gerät und dann **Abmelden aus.**
 
@@ -243,7 +243,7 @@ So melden Sie sich auf dem Teams Admin Center ab:
 
 1. Melden Sie sich beim [**Teams Admin Center an.**](https://admin.teams.microsoft.com)
 
-2. Wählen Teams   >  **sip-Geräte aus.**
+2. Wählen Sie   >  **Teams-Geräte SIP-Geräte aus.**
 
 3. Wählen Sie rechts im **Bereich SIP-Geräte** das Gerät aus.
 
@@ -252,17 +252,17 @@ So melden Sie sich auf dem Teams Admin Center ab:
 
 ## <a name="view-and-monitor-sip-devices"></a>Anzeigen und Überwachen von SIP-Geräten
 
-Sie können Ihren SIP-Geräteinventar im Teams Admin Center anzeigen und überwachen, nachdem sich die Benutzer der Geräte mindestens einmal anmelden. Dazu gehen Sie so vor:
+Sie können ihren SIP-Geräteinventar im Teams Admin Center anzeigen und überwachen, nachdem sich die Benutzer der Geräte mindestens einmal anmelden. Dazu gehen Sie so vor:
 
-1. Melden Sie sich beim [Teams Admin Center an.](https://admin.teams.microsoft.net/)
+1. Melden Sie sich beim [Teams Admin Center an.](https://admin.teams.microsoft.com/)
 
-2. Wählen Teams   >  **sip-Geräte aus.** Auf der rechten Seite sind alle angemeldeten SIP-Geräte aufgeführt.
+2. Wählen Sie   >  **Teams-Geräte SIP-Geräte aus.** Auf der rechten Seite sind alle angemeldeten SIP-Geräte aufgeführt.
 
 ## <a name="restart-a-sip-device"></a>Neustarten eines SIP-Geräts
 
 1. Melden Sie sich beim [Teams Admin Center an.](https://admin.teams.microsoft.com)
 
-2. Wählen Teams   >  **sip-Geräte aus.** 
+2. Wählen Sie   >  **Teams-Geräte SIP-Geräte aus.** 
 
 3. Wählen Sie rechts das SIP-Gerät aus, das Sie neu starten möchten, und wählen Sie dann Neu **starten aus.**
 
