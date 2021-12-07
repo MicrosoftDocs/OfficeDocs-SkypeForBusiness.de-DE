@@ -1643,7 +1643,9 @@ items:
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Interaktion von SharePoint Online und OneDrive for Business mit Teams
             href: sharepoint-onedrive-interact.md
-      - name: Unterstützte Geräte
+      - name: Teams-Geräte für Education
+        href: devices-for-education.md
+      - name: Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams
             href: devices/device-management.md
@@ -1681,6 +1683,12 @@ items:
             href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams-zertifizierte Geräte
             href: devices/teams-ip-phones.md
+          - name: SIP Gateway
+            items:
+              - name: SIP Gateway planen
+                href: sip-gateway-plan.md
+              - name: SIP-Gateway konfigurieren
+                href: sip-gateway-configure.md
           - name: Telefone für Skype for Business Online
             href: /SkypeForBusiness/what-is-phone-system-in-office-365/getting-phones-for-skype-for-business-online/deploying-skype-for-business-online-phones?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
           - name: Teams-Alarmierung und -Überwachung
