@@ -759,6 +759,102 @@ items:
                 href: audio-conferencing-zones.md
               - name: Videos – Audiokonferenzen in Teams
                 href: ./audio-conferencing-in-office-365.md
+      - name: Microsoft Teams-Räume
+        items:
+          - name: Übersicht
+            href: rooms/index.md
+          - name: Anleitungen zum Besprechungsraum für Teams
+            href: teams-meeting-room-guidance.md
+          - name: Verwalteter Dienst „Microsoft Teams-Räume“
+            items:
+              - name: Übersicht
+                href: rooms/microsoft-teams-rooms-premium.md
+              - name: Abrufen und Zuweisen einer Lizenz
+                href: rooms/obtaining-assigning-license.md
+              - name: Registrieren beim MTRP-verwaltetem Dienst
+                href: rooms/enrolling-mtrp-managed-service.md
+              - name: Rollenbasierte Zugriffssteuerung
+                href: rooms/microsoft-teams-rooms-premium-rbac.md
+              - name: Konfigurieren von ServiceNow für Teams-Räume
+                href: rooms/microsoft-teams-rooms-configure-servicenow.md
+              - name: Mehrinstanzenfähige Kundenverwaltung für Partner
+                href: rooms/multi-tenant-management-partner.md
+              - name: Partnerverwaltung für Kunden
+                href: rooms/multi-tenant-management-customer.md
+              - name: Überwachungsprotokolle für verwaltete Services für Teams-Räume
+                href: rooms/multi-tenant-auditing.md
+          - name: Plan
+            items:
+              - name: Übersicht über die Planung von Microsoft Teams-Räumen
+                href: rooms/rooms-plan.md
+              - name: Vergleich der Features von Teams-Geräten zwischen Windows und Android
+                href: rooms/teams-devices-feature-comparison.md
+              - name: Versionsunterstützung
+                href: rooms/rooms-lifecycle-support.md
+              - name: Versionshinweise
+                href: rooms/rooms-release-note.md
+              - name: Vorbereiten der Umgebung
+                href: rooms/rooms-prep.md
+              - name: Anforderungen
+                href: rooms/requirements.md
+              - name: Sicherheit
+                href: rooms/security.md
+              - name: Onlinelizenzierung
+                href: rooms/rooms-licensing.md
+              - name: Planen der Verwaltung mit Azure Monitor
+                href: rooms/azure-monitor-plan.md
+          - name: Bereitstellen
+            items:
+              - name: Übersicht über die Bereitstellung
+                href: rooms/rooms-deploy.md
+              - name: Konfigurieren von Konten
+                href: rooms/rooms-configure-accounts.md
+              - name: Surface Hub
+                items:
+                  - name: Koordinierte Besprechungen einrichten
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams-Einstellungen verwalten
+                    href: rooms/surface-hub-manage-config.md
+              - name: Mit Office 365
+                href: rooms/with-office-365.md
+              - name: Mit Skype for Business Server
+                href: rooms/with-skype-for-business-server-2015.md
+              - name: Mit Exchange Online (Hybrid)
+                href: rooms/with-exchange-online.md
+              - name: Mit lokaler Exchange-Bereitstellung (Hybrid)
+                href: rooms/with-exchange-on-premises.md
+              - name: Konfigurieren einer Konsole
+                href: rooms/console.md
+              - name: Manuelle Aktualisierung eines Geräts
+                href: rooms/manual-update.md
+              - name: Konfigurieren einer Authentifizierung
+                href: rooms/rooms-authentication.md
+              - name: Teilnehmen an Besprechungen von Drittanbietern
+                href: rooms/third-party-join.md
+              - name: Mithilfe des Microsoft Endpoint Configuration Manager
+                href: rooms/rooms-scale.md
+              - name: Verwaltung mit Azure Monitor
+                href: rooms/azure-monitor-deploy.md
+              - name: Migrieren von SRS v1 oder LRS
+                href: rooms/lrs-migration.md
+              - name: Inhalts-Kameras
+                href: rooms/content-camera.md
+              - name: Spracherkennungssteuerelemente für intelligente Lautsprecher
+                href: rooms/voice-recognition.md
+          - name: Verwalten
+            items:
+              - name: Verwaltung (Übersicht)
+                href: rooms/rooms-manage.md
+              - name: Wartung und Betrieb
+                href: rooms/rooms-operations.md
+              - name: Bekannte Probleme
+                href: rooms/known-issues.md
+              - name: Geräte mit Azure Monitor
+                href: rooms/azure-monitor-manage.md
+              - name: Einstellungen mit einer XML-Datei
+                href: rooms/xml-config-file.md
+              - name: Verwendung des Wiederherstellungstools
+                href: rooms/recovery-tool.md
   - name: Voice – Teams Phone und PSTN-Konnektivität
     items:
       - name: Planen der Voice-Lösung ihrer Teams
