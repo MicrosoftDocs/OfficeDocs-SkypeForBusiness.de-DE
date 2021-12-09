@@ -22,16 +22,16 @@ ms.custom:
 - Reporting
 - seo-marvel-mar2020
 description: Rufen Sie detaillierte Informationen zu den Abmessungen und Maßen ab, die vom Anrufqualitätsdashboard (Call Quality Dashboard, CQD) für Microsoft Teams und Skype for Business Online verwendet werden.
-ms.openlocfilehash: bd9df17a832b02ad71591daae0b54df9a1b77f0d
-ms.sourcegitcommit: 6aecab65836feaa8da14aad17a3088a18ece3bdf
+ms.openlocfilehash: 4df31782e7f78818df5f9a849d0c814e07c52adb
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61267798"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362552"
 ---
 # <a name="dimensions-and-measurements-available-in-call-quality-dashboard-cqd"></a>Im Anrufqualitätsdashboard (CQD) verfügbare Dimensionen und Maße
 
-Mit dem Anrufqualitätsdashboard (CQD) für Microsoft Teams und Skype for Business Online können Sie die Anrufqualität von Anrufen, die mit diesen Diensten hergestellt werden, besser verstehen. Dieses Thema enthält detaillierte Informationen zu den Abmessungen und Maßen, die über das AQD sichtbar sind. Weitere Informationen zum CQD finden Sie unter Verwenden des [Anruf-](quality-of-experience-review-guide.md)und Besprechungsqualitäts-AQD in Microsoft Teams .
+Das Anrufqualitätsdashboard (CQD) für Microsoft Teams und Skype for Business Online ermöglicht Ihnen ein besseres Verständnis der Anrufqualität von Anrufen, die mit diesen Diensten hergestellt werden. Dieses Thema enthält detaillierte Informationen zu den Abmessungen und Maßen, die über das AQD sichtbar sind. Weitere Informationen zum CQD finden Sie unter Verwenden des Anruf- und Besprechungsqualitätsdqds [in Microsoft Teams.](quality-of-experience-review-guide.md)
 
 ## <a name="first-and-second-endpoint-classification"></a>Klassifizierung des ersten und zweiten Endpunkts
 
@@ -58,7 +58,63 @@ Jede Zeile stellt z. B. ein an einem Datenstrom beteiligtes Benutzer-Agents-Paar
 
 ## <a name="dimensions"></a>Dimensionen
 
-Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochgeladen wurden. Viele Dimensionswerte können auch als Filter verwendet werden. In der folgenden Tabelle sind die aktuell im AQD verfügbaren Dimensionen in der Reihenfolge aufgeführt, in der sie im Abfrage-Editor zum Erstellen von Berichten oder Bearbeiten zuvor definierter Berichte aufgeführt sind.
+Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochgeladen wurden. Viele Dimensionswerte können auch als Filter verwendet werden.
+
+### <a name="dimension-data-types-and-units"></a>Dimensionsdatentypen und -einheiten
+
+#### <a name="boolean"></a>Boolean
+
+Boolesche Werte sind immer entweder True oder False. In einigen Fällen kann True auch als 1 und False als 0 dargestellt werden.
+
+#### <a name="range"></a>Bereich
+
+Dimensionen, die als Bereich oder Gruppe von Werten bereitgestellt werden, werden in folgendem Format angezeigt:
+
+ _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
+
+Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunden an, wobei der Wert als Bereich von Werten erfasst wird.
+
+|Duration (Minutes) |Interpretationsmethode |
+|:--- |:--- |
+|062: [0 - 0) |Dauer des Datenstroms = 0 Minuten |
+|064: [1 - 2) |1 Minute < = Dauer des Datenstroms < 2 Minuten |
+|065: [2 - 3) |2 Minuten < = Dauer des Datenstroms < 3 Minuten |
+|066: [3–4) |3 Minuten < = Dauer des Datenstroms < 4 Minuten |
+|  | |
+
+Das -Steuerelement wird verwendet, um die Sortierreihenfolge beim Präsentieren der Daten zu \<sort order string> steuern, und kann zum Filtern verwendet werden. Ein Filter auf Dauer (Minuten) < "065" würde beispielsweise Datenströme mit einer Dauer von weniger als 2 Minuten anzeigen (die führende "0" ist erforderlich, damit der Filter wie erwartet funktioniert). Der aktuelle Wert der Sortierreihenfolge-Zeichenfolge ist unerheblich.
+
+> [!NOTE]
+> Möglicherweise bemerken Sie Bereiche, die für eine bestimmte Dimension ungültig zu sein scheinen. Beispiel: WLAN-Signalstärke, die Anrufe im Bereich 082: [100 - 110) zeigt, wenn 100 der maximal mögliche Wert für die WLAN-Signalstärke ist. Dies liegt daran, wie Nummern Bereichen im Datenmodell des AQD zugewiesen werden. Wenn ein ganzer Zahlenwert 99 ist, wird er im Bereich 081: [90 - 100) gezählt. Wenn dieser Wert 100 ist, wird er im Bereich 082: [100 - 110) gezählt. Dies bedeutet nicht, dass WLAN-Signalstärkewerte größer als 100 % gemeldet werden.
+
+#### <a name="enumeration-strings"></a>Enumerationszeichenfolgen
+
+Vom AQD verwendete Zeichenfolgen werden häufig aus Datendateien abgeleitet, und dies kann nahezu jede beliebige Kombination von Zeichen innerhalb der zulässigen Länge sein. Einige Dimensionen sehen aus wie Zeichenfolgen, da sie aber nur eine aus einer kurzen Liste vordefinierter Werte sein können, handelt es sich dabei um Enumerationen und nicht um echte Zeichenfolgen. Einige Enumerationszeichenfolgen werden ebenfalls paarweise verwendet.
+
+#### <a name="enumeration-pair"></a>Aufzählungspaar
+
+Dimensionen, die als Aufzählungspaar bereitgestellt werden, werden in folgendem Format angezeigt:
+
+ _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
+
+Die Anordnung der Aufzahlungswerte ist konsistent, gibt jedoch nicht die Anordnung des ersten oder zweiten Endpunkts wieder.
+
+Beispiel: Das Netzwerkverbindungsdetail-Paar zeigt die Netzwerkverbindungsdetail-Werte für die beiden Endpunkte an:
+
+|Network Connection Detail Pair |Interpretationsmethode |
+|:--- |:--- |
+|Verkabelt:Verkabelt |Der erste und der zweite Endpunkt haben verkabelte Ethernet-Verbindungen verwendet. |
+|Verkabelt:WiFi |Der erste Endpunkt hat eine verkabelte Ethernet-Verbindung und der zweite Endpunkt eine WiFi-Verbindung verwendet, oder der zweite Endpunkt hat eine verkabelte Ethernet-Verbindung und der erste Endpunkt eine WiFi-Verbindung verwendet. |
+|:WiFi |Der erste Endpunkt hat eine WiFI-Verbindung verwendet, und die vom zweiten Endpunkt verwendete Netzwerkverbindung ist unbekannt, oder der zweite Endpunkt hat eine WiFI-Verbindung verwendet, und die vom ersten Endpunkt verwendete Netzwerkverbindung ist unbekannt. |
+| | |
+
+#### <a name="blank-values"></a>Leere Werte
+
+In der nachstehenden Tabelle sind die möglichen Gründe für eine leere Dimension aufgelistet. Viele Abmessungen und Maße sind leer, wenn die Dimension "QoE-Eintrag verfügbar" falsch ist. Dies tritt in der Regel auf, wenn der Anruf nicht erfolgreich aufgebaut wurde oder wenn der Client seine Telemetrie nicht an den Dienst senden konnte.
+
+### <a name="available-dimensions"></a>Verfügbare Abmessungen 
+
+In der folgenden Tabelle sind die aktuell im AQD verfügbaren Dimensionen in der Reihenfolge aufgeführt, in der sie im Abfrage-Editor zum Erstellen von Berichten oder Bearbeiten zuvor definierter Berichte aufgeführt sind.
 
 |Name|Datentyp|Beschreibung|Mögliche Gründe für leere Werte|
 |:---|:---|:---|:---|
@@ -135,7 +191,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 |**Deployment**| | | |
 | First Tenant Id  | Zeichenfolge  | Mandanten-ID für den ersten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000 -0000 - 0000 – 00000000000  | <br/>&bull; Die Mandanten-ID für den ersten Endpunkt konnte nicht bestimmt werden. Dies kann darauf hindeten, dass der Endpunkt bei einer lokalen Skype for Business Server angemeldet wurde.  |
 | Second Tenant Id  | Zeichenfolge  | Mandanten-ID für den zweiten Endpunkt. <br/> **Beispielwert:** 00000000 – 0000 - 0000 - 0000 – 00000000000  |  <br/>&bull; Die Mandanten-ID für den zweiten Endpunkt konnte nicht ermittelt werden. Dies kann darauf hindeten, dass der Endpunkt bei einer lokalen Skype for Business Server angemeldet wurde.  |
-| First Pool  | Zeichenfolge  | Zum ersten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** pool1 <span></span> <span></span> .lync.com  | <br/>&bull;Gibt an, dass der Endpunkt bei einer anderen Microsoft Teams-Skype for Business. Dieses Feld wird nur für Datenströme gefüllt, die lokale Skype for Business Server verwenden. |
+| First Pool  | Zeichenfolge  | Zum ersten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** pool1 <span></span> <span></span> .lync.com  | <br/>&bull;Gibt an, dass der Endpunkt bei einer anderen Microsoft Teams-Skype for Business. Dieses Feld wird nur für Datenströme ausgefüllt, die lokale Skype for Business Server verwenden. |
 | Second Pool  | Zeichenfolge  | Zum zweiten Endpunkt zugewiesener FQDN des Skype for Business Online-Pools. <br/> **Beispielwert:** <span>pool1.lync.com</span>   | &bull;Skype for Business Onlinepool konnte für den zweiten Endpunkt nicht bestimmt werden. Dies kann darauf hindeten, dass der Endpunkt bei einer lokalen Skype for Business Server angemeldet wurde.  |
 | Is Federated  | Boolescher Wert  | "True", wenn Datenströme zwischen zwei Partner mandants waren. Andernfalls "False".   | <br/>&bull; Es konnte nicht ermittelt werden, ob es sich um einen Partnerdatenstrom war. <br/>&bull; Einige Signaldaten wurden nicht erfasst   |
 |Region | String   |  Region, in der sich die Bereitstellung basierend auf dem Heimatbereich des Mandanten befand. <br/> **Beispielwert:** Nordamerika | <br/>&bull; Netzwerkdaten nicht gemeldet <br/>&bull; Das Netzwerk befindet sich nicht im Unternehmensnetzwerk <br/>&bull; Für das Netzwerk ist in den Subnetz-Zuordnungsdaten keine Region definiert. |
@@ -159,7 +215,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Duration (Minutes)  | Bereich (Minuten)  | Dauer des Datenstroms in Minuten. Die Werte sind nach Bereich gruppiert.<br/> **Beispielwert:** 065: [3-4) ||
 | Duration (Seconds)  | Bereich (Sekunden) | Dauer des Datenstroms in Sekunden. Die Werte sind nach Bereich gruppiert.<br/> **Beispielwert:** 062: [1 -2)||
 |**Datum**||| |
-|Endzeit|  String| Tageszeit, zu der der Anruf beendet wurde.|&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
+|Endzeit|  String| Tageszeit, zu der der Anruf beendet wurde. Die Werte werden in der UTC-Zeitzone angezeigt. |&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
 | Year  | Ganze Zahl  | Das Jahr des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2018 | |
 | Monat  | Ganze Zahl  | Monat des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2 | |
 | Day  | Ganze Zahl  | Tag des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 1 | |
@@ -173,7 +229,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 |Woche|  String  |Startdatum der Woche, in der der Anruf stattgefunden hat. <br/> **Beispielwert:** 2019-09-01 |&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
 | Month Year  | Zeichenfolge  | Monat und Jahr des Endes des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2017-02 | |
 | Full Month  | Datum/Uhrzeit  | Vollständiger Monat am Ende des Datenstroms. Die Werte werden in der UTC-Zeitzone angezeigt. <br/> **Beispielwert:** 2017-02-01T00:00:00 | |
-|Startzeitpunkt|String  |Tageszeit, zu der der Anruf begonnen hat.|&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
+|Startzeitpunkt|String  |Tageszeit, zu der der Anruf begonnen hat. Die Werte werden in der UTC-Zeitzone angezeigt. |&bull; Anrufeinrichtung fehlgeschlagen oder nicht eingerichtet (siehe CDR-Antwortgrund) |
 |**UserAgent** | | | |
 | First Domain  | Zeichenfolge  | Domäne des Benutzers des ersten Endpunkts. Wenn es sich beim ersten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Besprechungsorganisators verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein.  <br/> **Beispielwert:** <span></span> contoso.com | |
 | Second Domain  | Zeichenfolge  | Domäne des Benutzers des zweiten Endpunkts. Wenn es sich beim zweiten Endpunkt um einen Konferenzserver handelt, wird die Domäne des Besprechungsorganisators verwendet. Es kann aber auch die Domäne des im Szenario verwendeten Dienstkontos sein. <br/> **Beispielwert:** <span></span> contoso.com  | |
@@ -217,12 +273,12 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Second Base Address | String | IP-Adresse der Schnittstelle, die der zweite Endpunkt zum Zuordnen von Media Relay-Kandidaten verwendet hat. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 10.0.0.10 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | First Local Address | String | IP-Adresse, die der erste Endpunkt für den Medienfluss am Ende der Überprüfungen der Medienkonnektivität verwendet hat. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 10.0.0.10 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | Second Local Address | String | IP-Adresse, die der zweite Endpunkt für den Medienfluss am Ende der Überprüfungen der Medienkonnektivität verwendet hat. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 10.0.0.10 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
-| First Local Address Type | Enumeration <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Der Kandidatentyp "Erste lokale Adresse". IceAddrType_Turn zeigt einen Relay-Anruf an. Die restlichen Typen geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
-| Second Local Address Type | Enumeration <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Der Kandidatentyp "Second Local Address". IceAddrType_Turn zeigt einen Relay-Anruf an. Die restlichen Typen geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
+| First Local Address Type | Enumeration <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Der Kandidatentyp "Erste lokale Adresse". IceAddrType_Turn einen Relay-Anruf an. Die restlichen Typen geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
+| Second Local Address Type | Enumeration <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Der Kandidatentyp "Second Local Address". IceAddrType_Turn einen Relay-Anruf an. Die restlichen Typen geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | First Remote Address | String | IP-Adresse des zweiten Endpunkts, an den der erste Endpunkt am Ende der Überprüfungen der Medienkonnektivität Medien sendet. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 10.0.0.10 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | Second Remote Address | String | IP-Adresse des ersten Endpunkts, an den der zweite Endpunkt am Ende der Überprüfungen der Medienkonnektivität Medien sendet. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 10.0.0.10 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
-| First Remote Address Type | Enumeration <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Kandidatentyp "First Remote Address" IceAddrType_Turn zeigt einen Relay-Anruf an. Die restlichen Werte geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
-| Second Remote Address Type | Enumeration  <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Kandidatentyp "Second Remote Address" IceAddrType_Turn zeigt einen Relay-Anruf an. Die restlichen Werte geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
+| First Remote Address Type | Enumeration <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Kandidatentyp "First Remote Address" IceAddrType_Turn einen Relay-Anruf an. Die restlichen Werte geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
+| Second Remote Address Type | Enumeration  <br/>**Mögliche Werte** <br/>&bull;IceAddrType_Os <br/>&bull;IceAddrType_Stun <br/>&bull;IceAddrType_Turn <br/>&bull;IceAddrType_UPnP <br/>&bull;IceAddrType_ISA_Proxy <br/>&bull;IceAddrType_PeerDerived <br/>&bull;IceAddrType_Invalid | Kandidatentyp "Second Remote Address" IceAddrType_Turn einen Relay-Anruf an. Die restlichen Werte geben direkte Verbindungen an. | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | Erste lokale Website | String | IP-Adresse des ersten Endpunkts, wie vom Media Relay-Server gesehen. Dies ist normalerweise die öffentliche Internet-IP-Adresse, die dem ersten Endpunkt für den Datenstrom zugeordnet ist. Wenn die Relays aus einem bestimmten Grund nicht erreichbar sind oder Die Zuordnungen fehlgeschlagen sind, handelt es sich um die IP-Adresse einer lokalen Schnittstelle auf dem ersten Endpunkt. <br/> Dies ist mit First Reflexive Local IP vergleichbar, aber diese Informationen werden vom Transport Diagnostic-Ereignis anstelle von QoE gemeldet. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 104.43.195.251 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | Second Local Site | String | IP-Adresse des zweiten Endpunkts, wie vom Media Relay-Server gesehen. Dies ist normalerweise die öffentliche Internet-IP-Adresse, die dem zweiten Endpunkt für den Datenstrom zugeordnet ist. Wenn die Relays aus einem bestimmten Grund nicht erreichbar sind oder Die Zuordnungen fehlgeschlagen sind, handelt es sich um die IP-Adresse einer lokalen Schnittstelle auf dem ersten Endpunkt. <br/> Dies ähnelt second Reflexive Local IP, aber diese Informationen werden vom Transport Diagnostic-Ereignis anstelle von QoE gemeldet. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 104.43.195.251 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
 | First Remote Site | String | Die vom zweiten Endpunkt gemeldete und mit dem ersten Endpunkt ausgetauschte IP-Adresse der lokalen Website. <br/> Zusätzliche Informationen für den Fall, dass das Transportdiagnoseereignis auf dem zweiten Endpunkt aus irgendeinem Grund nicht verfügbar ist. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. <br/> **Beispielwert:** 104.43.195.251 | &bull; Transport Diagnostic type was not reported <br/>&bull; Der Medienpfad wurde nicht eingerichtet |
@@ -419,7 +475,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Media Relay  | Zeichenfolge  | Die für die Sitzung verwendete IP-Adresse für Mediarelay(s). Dies kann ein durch ein Pluszeichen (+) getrenntes Relaypaar sein, wenn es sich um einen Datenstrom handelt.<br/> **Beispielwert:** "13.107.8.2 + 13.107.8.2"  | &bull; Diese Daten wurden von den Endpunkten nicht gemeldet.  |
 | Is Anonymous Join Session  | Boolescher Wert  | „True", wenn der Benutzer, der der Konferenz beitritt, anonym war. Andernfalls „False".   | &bull; Keine Daten, um zu ermitteln, ob der Benutzer anonym beigetreten ist oder nicht   |
 | Has Media Diagnostic Blob  | Boolean  | „True", wenn die Sitzung über Diagnosedaten verfügt hat. Andernfalls „False".   | &bull; Einige Signalisierungsdaten wurden für diesen Datenstrom nicht erfasst.   |
-| Call Setup Failure Reason  | Enumeration  | Klassifizierung der Ursache dafür, warum die Medienverbindung für einen Anruf nicht hergestellt werden konnte. <br/>**Mögliche Werte:** <br/> **Fehlende Ausnahmeregel für FW-Deep Packet Inspection** – Deutet darauf hin, dass die Netzwerkausrüstung entlang des Pfads wahrscheinlich verhindert hat, dass der Medienpfad aufgrund von Regeln für Deep Packet Inspection nicht eingerichtet wurde. Dies kann auf nicht ordnungsgemäß konfigurierte Proxy- oder Firewallregeln zurückzuführen sein. <br/> **Fehlende Ausnahmeregel für FW-IP-Block** – Deutet darauf hin, dass die Netzwerkausrüstung entlang des Pfads wahrscheinlich verhindert hat, dass der Medienpfad zum Office 365 wurde. Dies kann darauf zurückzuführen sein, dass Proxy- oder Firewallregeln nicht ordnungsgemäß konfiguriert wurden, um den Zugriff auf die für Skype for Business-Datenverkehr verwendeten IP-Adressen und Ports nicht ordnungsgemäß konfiguriert wurden. <br/> **Sonstige** : Gibt an, dass der Medienpfad für den Anruf nicht eingerichtet werden konnte, die Ursache aber nicht klassifiziert werden konnte. <br/> Kein Medienfehler – deutet darauf hin, dass beim Einschlagen des Medienpfads kein Problem erkannt wurde.  | &bull; Die Anruf-Einrichtung ist aufgrund eines unbekannten Medienproblems fehlgeschlagen  |
+| Call Setup Failure Reason  | Enumeration  | Klassifizierung der Ursache dafür, warum die Medienverbindung für einen Anruf nicht hergestellt werden konnte. <br/>**Mögliche Werte:** <br/> **Fehlende Ausnahmeregel für FW-Deep Packet Inspection** – Deutet darauf hin, dass die Netzwerkausrüstung entlang des Pfads wahrscheinlich verhindert hat, dass der Medienpfad aufgrund von Regeln für Deep Packet Inspection nicht eingerichtet wurde. Dies kann auf nicht ordnungsgemäß konfigurierte Proxy- oder Firewallregeln zurückzuführen sein. <br/> **Fehlende Ausnahmeregel für FW-IP-Block** – Deutet darauf hin, dass die Netzwerkausrüstung entlang des Pfads wahrscheinlich verhindert hat, dass der Medienpfad zum Netzwerk Office 365 wurde. Dies kann darauf zurückzuführen sein, dass Proxy- oder Firewallregeln nicht ordnungsgemäß konfiguriert wurden, um den Zugriff auf die für Skype for Business-Datenverkehr verwendeten IP-Adressen und Ports nicht ordnungsgemäß konfiguriert wurden. <br/> **Sonstige** : Gibt an, dass der Medienpfad für den Anruf nicht eingerichtet werden konnte, die Ursache aber nicht klassifiziert werden konnte. <br/> Kein Medienfehler – deutet darauf hin, dass beim Einschlagen des Medienpfads kein Problem erkannt wurde.  | &bull; Die Anruf-Einrichtung ist aufgrund eines unbekannten Medienproblems fehlgeschlagen  |
 | Sitzungstyp  | Enumeration <br/>**Mögliche Werte:** <br/> Conf, P2P  | Gibt an, ob es sich bei dem Typ der Anrufsitzung um ein Besprechungs- (Conf) or Peer-to-Peer Call (P2P)-Szenario (Peer-to-Peer Call) ging. <br/> **Beispielwert:** Conf | |
 | CDR Response Reason  | Enumeration <br/>**Mögliche Werte:** <br/> 0 oder 200 = "OK" <br/> 410 = "MediaConnectivityErrors"<br/> 480 = "UserUnavailable"<br/> 487 = "PickupTimedOut" <br/> 603 = "CallDeclined" <br/> Alle anderen CDR-Codes = "Andere" | Liefert den Grund für den Abschluss einer Anrufsitzung, ob der Anruf erfolgreich war oder nicht, und ermöglicht die Unterscheidung zwischen unvollständigen Anrufen (keine Antwort, Beschäftigt, Abgelehnt) und fehlgeschlagenen Anrufen (Medienkonferenzen). <br/> **Beispielwert:** OKAY | <br/>&bull; Der Wert "Andere" bedeutet, dass der Antwortcode außerhalb der Microsoft-Entwicklungsteams nicht diagnoselich nützlich ist. |
 |**DNS**||||
@@ -429,8 +485,8 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Second User ObjectId|String|Die Active Directory-Objekt-ID des Benutzers des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. | |
 | First MAC Address|String|Die MAC-Adresse (Medienzugriffssteuerung) des Netzwerkgeräts des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| |
 | Second MAC Address|String|Die MAC-Adresse (Medienzugriffssteuerung) des Netzwerkgeräts des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| |
-| First Sip Uri|String|DER SIP-URI (Session Initiation Protocol) des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull;Wird nur für Skype for Business ausgefüllt. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
-| Second Sip Uri|String|Der SIP-URI des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull;Wird nur für Skype for Business ausgefüllt.<br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
+| First Sip Uri|String|DER SIP-URI (Session Initiation Protocol) des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull;Ausgefüllt nur für Skype for Business-Endpunkte. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
+| Second Sip Uri|String|Der SIP-URI des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull;Ausgefüllt nur für Skype for Business-Endpunkte.<br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
 | First Telefon Number|String|Die Telefonnummer des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. Die letzten vier Ziffern von PSTN-Nummern werden im AQD immer verschleiert , unabhängig von den EUII-Anzeigerechten.<br/> **Beispielwert:** +1425555****| &bull; Ausgefüllt nur für PSTN-Endpunkte. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
 | Second Telefon Number|String|Die Telefonnummer des Benutzers des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen. Die letzten vier Ziffern von PSTN-Nummern werden im AQD immer verschleiert , unabhängig von den EUII-Anzeigerechten.<br/> **Beispielwert:** +1425555**** | &bull; Ausgefüllt nur für PSTN-Endpunkte.<br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. |
 | First UPN|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des ersten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull; Nicht alle UserTypes verfügen über UPNs. enthalten die Dimensionen Second UserType oder Second User ObjectId, um weitere Informationen zu diesen Endpunkten zu erhalten. |
@@ -441,11 +497,11 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Second Client Endpoint Name|String|Der Computername des zweiten Endpunkts. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.||
 | First Endpoint Product Name|String|Der Produktname des ersten Endpunkts (entweder Skype for Business oder Microsoft Teams).||
 | Second Endpoint Product Name|String|Der Produktname des zweiten Endpunkts (entweder Skype for Business oder Microsoft Teams).||
-| First UserType|Enumerationszeichenfolge|Der Typ des Benutzers auf dem ersten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, Anonym, Anwendung, PSTN, Voicemail, Unbekannt <br/> <br/>**Unbekannt** : Der Standardwert, wenn UserType nicht anhand der empfangenen Informationen bestimmt werden kann. <br/>**PSTN** – ein Benutzer im öffentlichen Telefonnetz. <br/>**Anonym** – ein Teams oder Skype for Business Besucher. <br/>**Anwendung** – ein Bot. <br/>**Benutzer** – ein AAD Benutzer kann entweder als Skype for Business oder als Teams werden. <br/>**Server** – Für Konferenzen ist mindestens eine Seite ein Server. <br/>**Voicemail** – Der Endpunkt wurde vom Voicemaildienst beantwortet.||
-| Second UserType|Enumerationszeichenfolge|Der Typ des Benutzers am zweiten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, Anonym, Anwendung, PSTN, Voicemail, Unbekannt <br/> <br/>**Unbekannt** : Der Standardwert, wenn UserType nicht anhand der empfangenen Informationen bestimmt werden kann. <br/>**PSTN** – ein Benutzer im öffentlichen Telefonnetz. <br/>**Anonym** – ein Teams oder Skype for Business Besucher. <br/>**Anwendung** – ein Bot. <br/>**Benutzer** – ein AAD Benutzer kann entweder als Skype for Business oder als Teams werden. <br/>**Server** – Für Konferenzen ist mindestens eine Seite Server. <br/>**Voicemail –** Der Endpunkt wurde vom Voicemail-Dienst beantwortet.||
-| Organizer ObjectId|String|Die Active Directory-Objekt-ID des Benutzers des Besprechungsorganisators. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.  | &bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. &bull; Der Datensatz ist älter als 28 Tage. |
-| UPN für Organisator|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des Besprechungsorganisators. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. &bull; Der Datensatz ist älter als 28 Tage. |
-| Sip-URI des Organisators|String|DER SIP-URI (Session Initiation Protocol) des Benutzers des Besprechungsorganisators. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull;Ausgefüllt nur für Skype for Business-Endpunkte. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. &bull; Der Datensatz ist älter als 28 Tage.|
+| First UserType|Enumerationszeichenfolge|Der Typ des Benutzers auf dem ersten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, Anonym, Anwendung, PSTN, Voicemail, Unbekannt <br/> <br/>**Unbekannt** : Der Standardwert, wenn UserType nicht anhand der empfangenen Informationen bestimmt werden kann. <br/>**PSTN** – ein Benutzer im öffentlichen Telefonnetz. <br/>**Anonym** – ein Teams oder Skype for Business Besucher. <br/>**Anwendung** – ein Bot. <br/>**Benutzer** – ein AAD Benutzer kann entweder Skype for Business benutzer oder Teams sein. <br/>**Server** – Für Konferenzen ist mindestens eine Seite ein Server. <br/>**Voicemail** – Der Endpunkt wurde vom Voicemaildienst beantwortet.||
+| Second UserType|Enumerationszeichenfolge|Der Typ des Benutzers am zweiten Endpunkt. <br/> **Mögliche Werte:** Benutzer, Server, Anonym, Anwendung, PSTN, Voicemail, Unbekannt <br/> <br/>**Unbekannt** : Der Standardwert, wenn UserType nicht anhand der empfangenen Informationen bestimmt werden kann. <br/>**PSTN** – ein Benutzer im öffentlichen Telefonnetz. <br/>**Anonym** – ein Teams oder Skype for Business Besucher. <br/>**Anwendung** – ein Bot. <br/>**Benutzer** – ein AAD Benutzer kann entweder Skype for Business benutzer oder Teams sein. <br/>**Server** – Für Konferenzen ist mindestens eine Seite Server. <br/>**Voicemail –** Der Endpunkt wurde vom Voicemail-Dienst beantwortet.||
+| Organizer ObjectId|String|Die Active Directory-Objekt-ID des Benutzers des Besprechungsorganisators. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.  | &bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. <br/>&bull; Der Datensatz ist älter als 28 Tage. |
+| UPN für Organisator|String|Der Benutzerprinzipalname (User Principal Name, UPN) des Benutzers des Besprechungsorganisators. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. <br/>&bull; Der Datensatz ist älter als 28 Tage. |
+| Sip-URI des Organisators|String|DER SIP-URI (Session Initiation Protocol) des Benutzers des Besprechungsorganisators. Nur verfügbar für die letzten 28 Tage an Daten und nur für Benutzer mit Rollen, die EUII-Zugriff zulassen.| &bull;Ausgefüllt nur für Skype for Business-Endpunkte. <br/>&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. <br/>&bull; Der Datensatz ist älter als 28 Tage.|
 |**Geräte**||||
 | First Capture Device Form Factor|Enumerationszeichenfolge|Der Formfaktor des Audioaufnahmegeräts (Mikrofon) am ersten Endpunkt. | &bull; Vom Endpunkt nicht gemeldet. |
 | Second Capture Device Form Factor|Enumerationszeichenfolge|Der Formfaktor des Audioaufnahmegeräts (Mikrofon) am ersten Endpunkt. | &bull; Vom Endpunkt nicht gemeldet. |
@@ -459,7 +515,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 |Second PSTN Country Region|String|Wenn FirstIsCaller falsch ist, ist Second PSTN Country Region das Land des Anrufers. Wenn dies zutrifft, ist die Region First PSTN Country das Land des Anrufers.<br/>**Beispiel:** USA||
 |PSTN Trunk-FQDN|String|FQDN ist der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des Session Border Controller (SBC).<br/>**Beispiel:** sbcgw.contoso.com||
 |PSTN Carrier Name|String|Das Unternehmen, das von Aufsichtsbehörden zum Betreiben eines Telekommunikationssystems autorisiert wird.<br/>**Beispiel:** Durchdingen|Direct Routing verfügt nicht über einen Netzbetreiber. Nur ein Anrufplan verfügt über einen Netzbetreiber.|
-|PSTN-Anruftyp|String|Diese Zeichenfolge kombiniert den Diensttyp und den Aufruftyp.<br/><br/>Diensttyp:<br/>user -> calling plan<br/>byot -> Direct Routing<br/>conf -> Audiokonferenzen<br/>ucap ->-Sprach-App<br/>Notfall->-Notrufnummer<br/><br/>Anruftyp:<br/>In -> eingehendem Anruf<br/>Ausgehender > Anruf<br/>Out_transfer -> ausgehender Anruf wird an dritte Person durchwiesen<br/>Out_forward -> ausgehender Anruf wird an die dritte Person weitergeleitet.<br/>Out_conf -> ausgehenden Anruf mit einem Ad-hoc-PSTN-Teilnehmer<br/><br/>**Beispiel:** ByotIn||
+|PSTN-Anruftyp|String|Diese Zeichenfolge kombiniert den Diensttyp und den Aufruftyp.<br/><br/>Diensttyp:<br/>user -> calling plan<br/>byot -> direct routing<br/>conf -> Audiokonferenzen<br/>ucap ->-Sprach-App<br/>Notfall->-Notrufnummer<br/><br/>Anruftyp:<br/>In -> eingehendem Anruf<br/>Ausgehender > Anruf<br/>Out_transfer -> ausgehender Anruf wird an dritte Person übertragen<br/>Out_forward -> ausgehender Anruf wird an die dritte Person weitergeleitet<br/>Out_conf -> ausgehenden Anruf mit einem Ad-hoc-PSTN-Teilnehmer<br/><br/>**Beispiel:** ByotIn||
 |PSTN-Konnektivitätstyp|String|Der PSTN-Verbindungstyp umfasst direktes Routing, Anrufplan oder Audiokonferenzen. Derzeit ist im Anrufqualitätsdashboard (CQD) nur direktes Routing verfügbar.<br/>**Beispiel:** Direktes Routing||
 |PSTN Final SIP Code Phrase|String|Der Grundbegriff, der dem SIP-Antwortcode und dem Microsoft-Antwortcode entspricht.<br/>**Beispiel:** AUF WIEDERSEHEN||
 |PSTN Call End Sub Reason|Int|Ein von der Microsoft-Komponente gesendeter Antwortcode, der bestimmte aufgetretene Aktionen angibt.<br/>**Beispiel:** 540000||
@@ -467,18 +523,18 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 |PSTN-Ereignisinfozeit|Datum|Die Uhrzeit im UTC-Format, zu der ein ausgehender Anruf aus dem Microsoft-Netzwerk beginnt oder ein eingehender Anruf das Microsoft-Netzwerk erreicht.<br/>**Beispiel:** 2020-02-06 20:57:53.1750000||
 |PSTN MP-Speicherort|String|Der Speicherort des Medienprozessors zeigt den Medienpfad im Nichtumgehungsmodus an.<br/>**Beispiel:** USWE||
 |Endgrund für PSTN-Anrufe|Int|Ein dreistelliger ganzzahliger Antwortcode zeigt den endgültigen Status des Aufrufs an. <br/> Weitere Informationen zur SIP-Erläuterung finden Sie in der Liste [der SIP-Antwortcodes.](https://www.wikipedia.org/wiki/List_of_SIP_response_codes) <br/>**Beispiel:** 404||
-|**Sprach-Apps (Vorschau)**||Weitere Informationen zu dieser Kategorie [finden sie automatische Telefonzentrale & Bericht](aa-cq-cqd-historical-reports.md) zum Verlauf von Anrufen in der Warteschleife.)||
-|automatische Telefonzentrale Identity|String|Der Name des Ressourcenkontos, das dem Konto automatische Telefonzentrale.||
+|**Sprach-Apps (Vorschau)**||Weitere Informationen zu dieser Kategorie [automatische Telefonzentrale & Sie](aa-cq-cqd-historical-reports.md) unter Bericht zum Verlauf von Anrufen in der Warteschleife.)||
+|automatische Telefonzentrale Identity|String|Der Name des Ressourcenkontos, das dem Konto automatische Telefonzentrale.|&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. <br/>&bull; Der Datensatz ist älter als 28 Tage.|
 |automatische Telefonzentrale Chain Index|Ganze Zahl| Die Reihenfolge automatische Telefonzentrale Anrufs.||
-|automatische Telefonzentrale Startzeit der Kette|String|Die automatische Telefonzentrale Startzeit und das Startdatum des Anrufs.||
-|automatische Telefonzentrale Verkettungsdauer (Sekunden)|Ganze Zahl| Die Dauer des Anrufs im automatische Telefonzentrale gemessen in Sekunden.||
+|automatische Telefonzentrale Startzeit der Kette|String|Die automatische Telefonzentrale Startzeit und das Startdatum eines Anrufs.||
+|automatische Telefonzentrale Verkettungsdauer (Sekunden)|Ganze Zahl| Die Dauer des Anrufs im automatische Telefonzentrale in Sekunden gemessen.||
 |automatische Telefonzentrale Caller Action Count|Ganze Zahl|Die Anzahl der aktionen, die vom Anrufer in einer automatische Telefonzentrale während des Anrufs ausgewählt wurden.||
-|automatische Telefonzentrale Flow|String| Kapselt die verschiedenen Zustände des automatische Telefonzentrale Aufrufs.||
+|automatische Telefonzentrale eines Flow|String| Kapselt die verschiedenen Zustände des -automatische Telefonzentrale Aufrufs.||
 |automatische Telefonzentrale Übertragungsaktion|Enumeration| Der Zieltyp für die Anrufübertragung.||
 |automatische Telefonzentrale des Anrufergebniss|Enumeration| End call result with the automatische Telefonzentrale. ||
 |automatische Telefonzentrale -Methode für die Verzeichnissuche|Enumeration|Die zuletzt verwendete Suchmethode für das Adressbuch.||
 |automatische Telefonzentrale Anzahl|Ganze Zahl| Die Anzahl der am Anruf beteiligten automatischen Telefonkonferenzen.||
-|Anrufwarteschleifenidentität|String|Der Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist. ||
+|Anrufwarteschleifenidentität|String|Der Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist. |&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. <br/>&bull; Der Datensatz ist älter als 28 Tage.|
 |Anrufwarteschleife ist Konferenzmodus|Boolean|Ist "True", ist die Anrufwarteschleife für die Verwendung des Konferenzmodus konfiguriert, andernfalls ist die Anrufwarteschleife für den Übertragungsmodus konfiguriert. ||
 |Anzahl der Anrufwarteschleifen-Agenten|Ganze Zahl|Die Anzahl der in der Warteschlange konfigurierten Agents. ||
 |Anzahl der Anrufwarteschleifen-Agenten|Ganze Zahl|Die Anzahl der konfigurierten Agents, die sich für die Warteschlange entschieden haben. ||
@@ -486,6 +542,7 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 |Anrufergebnis der Anrufwarteschleife|Enumeration|Der Endzustand des Anrufs in der Anrufwarteschleife. ||
 |Aktion "Endzustand der Anrufwarteschleife"|Enumeration|Die letzte Aktion der Anrufwarteschleife. ||
 |Zeit für die Zeit in der Anrufwarteschleife|Ganze Zahl|Der konfigurierte Zeit out-Wert für die Anrufwarteschleife. ||
+|Übertragen von der Anrufwarteschlangenidentität|String|Der Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist, von der der Anruf übertragen wurde. |&bull; Der Benutzer hat keine Berechtigungen zum Anzeigen von EUII. <br/>&bull; Der Datensatz ist älter als 28 Tage.|
 |Ist automatische Telefonzentrale?|Boolean| Bei "True" wurde automatische Telefonzentrale an einem bestimmten Anruf oder Stream beteiligt.||
 |Involvierte Anrufwarteschleife|Boolean|Wenn "True", war eine Anrufwarteschleife an einem bestimmten Anruf oder Stream beteiligt. ||
 |**Besprechung**||||
@@ -503,59 +560,6 @@ Dimensionsinformationen basieren zum Teil auf Daten, die in das CQD-Portal hochg
 | Scenario Pair  | Aufgezähltes Paar  | Paar, das basierend auf der Subnetz-Zuordnung und den Netzwerkverbindungsdetails zeigt, ob sich die Endpunkte innerhalb oder außerhalb des Unternehmensnetzwerk befunden haben. Mögliche Werte:       <br/> **Hinweis:** Die Paare werden durch '--' getrennt. <br/> **Beispielwert:** Client-Inside --Client-Inside-Wifi  | &bull; Der Netzwerkverbindungstyp war für einen oder beide Endpunkte unbekannt.  |
 
 
-
-### <a name="notes-on-dimension-data-typeunits"></a>Hinweise zum Datentyp/den Einheiten der Dimension
-
-#### <a name="boolean"></a>Boolean
-
-Boolesche Werte sind immer entweder True oder False. In einigen Fällen kann True auch als 1 und False als 0 dargestellt werden.
-
-#### <a name="range"></a>Bereich
-
-Dimensionen, die als Bereich oder Gruppe von Werten bereitgestellt werden, werden in folgendem Format angezeigt:
-
- _\<sort order string\> [\<lower bound inclusive\> - \<upper bound exclusive\>_
-
-Beispiel: Die Dimension „Dauer (Minuten)" gibt die Dauer des Anrufs in Sekunden an, wobei der Wert als Bereich von Werten erfasst wird.
-
-|Duration (Minutes) |Interpretationsmethode |
-|:--- |:--- |
-|062: [0 - 0) |Dauer des Datenstroms = 0 Minuten |
-|064: [1 - 2) |1 Minute < = Dauer des Datenstroms < 2 Minuten |
-|065: [2 - 3) |2 Minuten < = Dauer des Datenstroms < 3 Minuten |
-|066: [3–4) |3 Minuten < = Dauer des Datenstroms < 4 Minuten |
-|  | |
-
-Das -Steuerelement wird verwendet, um die Sortierreihenfolge beim Präsentieren der Daten zu \<sort order string> steuern, und kann zum Filtern verwendet werden. Ein Filter auf Dauer (Minuten) < "065" würde beispielsweise Datenströme mit einer Dauer von weniger als 2 Minuten anzeigen (die führende "0" wird benötigt, damit der Filter wie erwartet funktioniert). Der aktuelle Wert der Sortierreihenfolge-Zeichenfolge ist unerheblich.
-
-> [!NOTE]
-> Möglicherweise bemerken Sie Bereiche, die für eine bestimmte Dimension ungültig zu sein scheinen. Beispiel: WLAN-Signalstärke, die Anrufe im Bereich 082: [100 - 110) zeigt, wenn 100 der maximal mögliche Wert für die WLAN-Signalstärke ist. Dies liegt daran, wie Nummern Bereichen im Datenmodell des AQD zugewiesen werden. Wenn ein ganzer Zahlenwert 99 ist, wird er im Bereich 081: [90 - 100) gezählt. Wenn dieser Wert 100 ist, wird er im Bereich 082: [100 - 110) gezählt. Dies bedeutet nicht, dass WLAN-Signalstärkewerte größer als 100 % gemeldet werden.
-
-#### <a name="enumeration-strings"></a>Enumerationszeichenfolgen
-
-Vom AQD verwendete Zeichenfolgen werden häufig aus Datendateien abgeleitet, und dies kann nahezu jede beliebige Kombination von Zeichen innerhalb der zulässigen Länge sein. Einige Dimensionen sehen aus wie Zeichenfolgen, da sie aber nur eine aus einer kurzen Liste vordefinierter Werte sein können, handelt es sich dabei um Enumerationen und nicht um echte Zeichenfolgen. Einige Enumerationszeichenfolgen werden ebenfalls paarweise verwendet.
-
-#### <a name="enumeration-pair"></a>Aufzählungspaar
-
-Dimensionen, die als Aufzählungspaar bereitgestellt werden, werden in folgendem Format angezeigt:
-
- _\<enumeration value from one end point\> : \<enumeration value from the other endpoint\>_
-
-Die Anordnung der Aufzahlungswerte ist konsistent, gibt jedoch nicht die Anordnung des ersten oder zweiten Endpunkts wieder.
-
-Beispiel: Das Netzwerkverbindungsdetail-Paar zeigt die Netzwerkverbindungsdetail-Werte für die beiden Endpunkte an:
-
-|Network Connection Detail Pair |Interpretationsmethode |
-|:--- |:--- |
-|Verkabelt:Verkabelt |Der erste und der zweite Endpunkt haben verkabelte Ethernet-Verbindungen verwendet. |
-|Verkabelt:WiFi |Der erste Endpunkt hat eine verkabelte Ethernet-Verbindung und der zweite Endpunkt eine WiFi-Verbindung verwendet, oder der zweite Endpunkt hat eine verkabelte Ethernet-Verbindung und der erste Endpunkt eine WiFi-Verbindung verwendet. |
-|:WiFi |Der erste Endpunkt hat eine WiFI-Verbindung verwendet, und die vom zweiten Endpunkt verwendete Netzwerkverbindung ist unbekannt, oder der zweite Endpunkt hat eine WiFI-Verbindung verwendet, und die vom ersten Endpunkt verwendete Netzwerkverbindung ist unbekannt. |
-| | |
-
-#### <a name="blank-values"></a>Leere Werte
-
-In der Tabelle oben werden die möglichen Ursachen für eine leere Dimension aufgelistet. Viele Abmessungen und Maße sind leer, wenn die Dimension "QoE-Eintrag verfügbar" falsch ist. Dieser Fall tritt gewöhnlich ein, wenn der Anruf nicht erfolgreich aufgebaut wurde.
-
 ## <a name="measurements"></a>Maße
 
 Viele Messwertwerte können auch als Filter verwendet werden. In der folgenden Tabelle sind die im AQD verfügbaren Maße aufgelistet, die in der Reihenfolge im Abfrage-Editor aufgeführt sind.
@@ -563,7 +567,7 @@ Viele Messwertwerte können auch als Filter verwendet werden. In der folgenden T
 |Name der Kennzahl|Einheiten|Beschreibung|
 |:---|:---|:---|
 |Total Stream Count |Anzahl der Datenströme |Anzahl von Mediendatenströmen unabhängig vom Medientyp, einschließlich Zuverlässigkeits-/Diagnosedatenströmen, die möglicherweise keinen Medientyp haben. |
-| Total CDR Available Stream Count | Anzahl der Datenströme |Anzahl der Mediendatenströme mit Informationen zur Zuverlässigkeit/Diagnose. Weitere [Informationen finden Sie unter Anrufdetailseing in Skype for Business Server](/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
+| Total CDR Available Stream Count | Anzahl der Datenströme |Anzahl der Mediendatenströme mit Informationen zur Zuverlässigkeit/Diagnose. Weitere [Informationen finden Sie unter Anrufdetailaufzeichnung in Skype for Business Server](/skypeforbusiness/manage/health-and-monitoring/call-detail-recording-cdr) |
 |Total Media Failed Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad nicht erstellt oder nicht normal beendet werden konnte. |
 |Total Call Setup Failed Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad zwischen den Endpunkten am Anfang des Anrufs nicht erstellt werden konnte. |
 |Total Call Dropped Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, für die der Medienpfad nicht normal beendet wurde. |
@@ -575,10 +579,10 @@ Viele Messwertwerte können auch als Filter verwendet werden. In der folgenden T
 |Total Short Call Percentage |Prozentsatz |Prozentsatz aller Anrufe, die weniger als 1 Minute lang sind. |
 |Total Media Failure Percentage |Prozentsatz |Prozentsatz aller Datenströme, für die der Medienpfad nicht erstellt oder nicht normal beendet werden konnte. |
 |Gesamtdauer des Audiostreams (Minuten) |Minuten |Gesamtdauer des Audiostreams in Minuten im ausgewählten Zeitraum. |
-|Media Failed Due To Firewall DPI Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
-|Firewall DPI Media Failure Percentage |Prozentsatz |Prozentsatz der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
-|Media Failed Due To Firewall IP Blocked Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf Skype for Business-Server durch Netzwerkgeräte nicht erstellt werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
-|Firewall IP Blocked Media Failure Percentage |Prozentsatz |Prozentsatz der Datenströme, die nicht eingerichtet werden konnten, weil die Netzwerkausrüstung den Zugriff auf Skype for Business blockiert hat. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder Office 365 verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert ist. |
+|Media Failed Due To Firewall DPI Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder ihrem Netzwerk verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
+|Firewall DPI Media Failure Percentage |Prozentsatz |Prozentsatz der Datenströme, die aufgrund der Blockierung des Zugriffs auf DPI (Deep Packet Inspection) und der Verweigerung von Skype for Business-Datenverkehr nicht erstellte werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder ihrem Netzwerk verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
+|Media Failed Due To Firewall IP Blocked Stream Count |Anzahl der Datenströme |Anzahl der Datenströme, die aufgrund der Blockierung des Zugriffs auf Skype for Business-Server durch Netzwerkgeräte nicht erstellt werden konnten. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder ihrem Netzwerk verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
+|Firewall IP Blocked Media Failure Percentage |Prozentsatz |Prozentsatz der Datenströme, die nicht eingerichtet werden konnten, weil die Netzwerkausrüstung den Zugriff auf Skype for Business blockiert hat. Diese Fehler deuten normalerweise auf ein Proxy-, Firewall- oder ein anderes Gerät für Netzwerksicherheit hin, das für den Zugriff auf die von Skype for Business in Microsoft 365 oder ihrem Netzwerk verwendete IP-Adresse und die verwendeten Ports nicht ordnungsgemäß konfiguriert Office 365. |
 | Media Failed Due To Other Stream Count|Anzahl der Datenströme| Anzahl der Datenströme, für die der Medienpfad zwischen den Endpunkten aufgrund eines unbestimmten/nicht klassifizierten Grunds nicht eingerichtet werden konnte.|
 | Other Media Failure Percentage|Prozent| Prozentsatz der Datenströme, für die der Medienpfad zwischen den Endpunkten aufgrund eines unbestimmten/nicht klassifizierten Grunds nicht eingerichtet werden konnte. |
 | Total CDR Available Call Count|Anzahl der Datenströme|Gesamtzahl der Mediendatenströme mit Informationen zur Zuverlässigkeit/Diagnose. Bei diesem Measure liegt ein Fehler von bis zu 0,2 %. Details finden Sie unten im Hinweis.|
@@ -595,8 +599,8 @@ Viele Messwertwerte können auch als Filter verwendet werden. In der folgenden T
 |Audio Poor Due To Degradation Count |Anzahl der Datenströme |Anzahl der Audiodatenströme, deren Degradierungsmetrik die hier aufgelisteten Schwellenwerte [überschreitet: Streamklassifizierung im Anrufqualitätsdashboard.](stream-classification-in-call-quality-dashboard.md) |
 |Audio Poor Due To RoundTrip Count |Anzahl der Datenströme |Anzahl der Audiodatenströme, deren Roundtrip die hier aufgelisteten Schwellenwerte [überschreitet: Streamklassifizierung im Anrufqualitätsdashboard.](stream-classification-in-call-quality-dashboard.md) |
 |Audio Poor Due To ConcealedRatio Count |Anzahl der Datenströme |Anzahl der Audiodatenströme, deren Ausrufeverhältnis die hier aufgelisteten Schwellenwerte [überschreitet: Streamklassifizierung im Anrufqualitätsdashboard.](stream-classification-in-call-quality-dashboard.md) |
-|Audio SLA Good Call Count |Anzahl der Anrufe |Die Anzahl der Audioanrufe im Bereich der SLA zur Skype for Business-Sprachqualität[(Volume Licensing for Microsoft Products and Online Services),](https://aka.ms/voicequalitysla)die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung erfüllen. |
-|Audio SLA Poor Call Count |Anzahl der Anrufe |Anzahl der Audioanrufe im Bereich der SLA zur Skype for Business-Sprachqualität[(Volume Licensing for Microsoft Products and Online Services),](https://aka.ms/voicequalitysla)die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung nicht erfüllen. |
+|Audio SLA Good Call Count |Anzahl der Anrufe |Anzahl der Audioanrufe im Bereich der SLA Skype for Business Sprachqualität ([Volume Licensing for Microsoft Products and Online Services),](https://aka.ms/voicequalitysla)die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung erfüllen. |
+|Audio SLA Poor Call Count |Anzahl der Anrufe |Die Anzahl der Audioanrufe im Bereich der SLA zur Skype for Business-Sprachqualität[(Volume Licensing for Microsoft Products and Online Services),](https://aka.ms/voicequalitysla)die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung nicht erfüllen. |
 |Audio SLA Call Count |Anzahl der Anrufe |Anzahl der Audioanrufe im Bereich der SLA Skype for Business Sprachqualität ([Volumenlizenzierung für Microsoft-Produkte und -Onlinedienste).](https://aka.ms/voicequalitysla) |
 |Audio SLA Good Call Percentage |Prozentsatz |Prozentsatz der Audioanrufe im Bereich der SLA zur Sprachqualität in Skype for Business ([Volumenlizenzierung für Microsoft-Produkte und -Onlinedienste](https://aka.ms/voicequalitysla)), die so klassifiziert wurden, dass sie die Ziele für die Netzwerkleistung erfüllen. |
 |Audio Good Call Stream Count |Anzahl der Datenströme |Anzahl der Audiodatenströme, bei denen beide Audiodatenströme im Anruf (Anruf-Leg) basierend auf den hier aufgelisteten Netzwerkmetriken nicht als "schlecht" klassifiziert werden: Streamklassifizierung [im Anrufqualitätsdashboard.](stream-classification-in-call-quality-dashboard.md) |
@@ -766,7 +770,7 @@ Viele Bemaßungs- und Maßwerte können auch als Filter verwendet werden. Sie k�
 
 [Einrichten des Anrufqualitätsdashboards (CQD)](turning-on-and-using-call-quality-dashboard.md)
 
-[Hochladen von Mandanten- und Gebäudedaten](CQD-upload-tenant-building-data.md)
+[Hochladen mandanten- und gebäudedaten](CQD-upload-tenant-building-data.md)
 
 [CQD-Daten und -Berichte](CQD-data-and-reports.md)
 

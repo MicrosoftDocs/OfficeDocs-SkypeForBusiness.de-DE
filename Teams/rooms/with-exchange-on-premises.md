@@ -1,5 +1,5 @@
 ---
-title: Bereitstellen Microsoft Teams-Räume mit Exchange lokal
+title: Bereitstellen Microsoft Teams-Räume mit Exchange lokal (Hybrid)
 ms.author: czawideh
 author: cazawideh
 manager: serdars
@@ -17,26 +17,24 @@ ms.assetid: 24860c05-40a4-436b-a44e-f5fcb9129e98
 ms.collection:
 - M365-collaboration
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung Exchange lokalen Bereitstellungsumgebung.
-ms.openlocfilehash: 96d8a49cd75e3413739d36a3c86a91daa72b22e6
-ms.sourcegitcommit: 115e44f33fc7993f6eb1bc781f83eb02a506e29b
+ms.openlocfilehash: 15936a805e45ce17ec35822bb02980b4d47499b8
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60909536"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355614"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange vor Ort
+# <a name="deploy-microsoft-teams-rooms-with-exchange-on-premises-hybrid"></a>Bereitstellen Microsoft Teams-Räume mit Exchange lokal (Hybrid)
 
 In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume in einer Hybridumgebung Exchange lokalen und lokalen Microsoft Teams.
   
-Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. In diesem Thema werden Hybridbereitstellungen für Microsoft Teams-Räume mit Lokal Exchange Bereitstellung behandelt. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfehlen wir, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, und für andere Bereitstellungsoptionen.
-
-Microsoft stellt [SkypeRoomProvisioningScript.ps1](https://go.microsoft.com/fwlink/?linkid=870105)- ein Skript zur Erstellung neuer Benutzerkonten oder zur Überprüfung ihrer vorhandenen Ressourcenkonten zur Verwendung in kompatible Microsoft Teams-Räume-Benutzerkonten zur Microsoft Teams-Räume zur Verwendung. Wenn Es Ihnen lieber ist, können Sie die folgenden Schritte ausführen, um Konten zu konfigurieren, die von Ihrem Microsoft Teams-Räume verwendet werden.
+Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. In diesem Thema werden Hybridbereitstellungen für Microsoft Teams-Räume mit lokal Exchange lokalen Bereitstellungen behandelt. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfehlen wir, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, sowie für andere Bereitstellungsoptionen.
   
 ## <a name="requirements"></a>Anforderungen
 
 Bevor Sie Ihre Microsoft Teams-Räume mit Exchange lokal bereitstellen, stellen Sie sicher, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
   
-Wenn Sie Ihre E-Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie Active Directory-Verwaltungstools, um eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzuzufügen. Dieses Konto wird mit Ihrem Konto Microsoft 365 Konto Office 365. Sie müssen die folgenden Schritte ausführen:
+Wenn Sie Eine Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwenden Sie Active Directory-Verwaltungstools, um eine E-Mail-Adresse für Ihr lokales Domänenkonto hinzuzufügen. Dieses Konto wird mit Ihrem Konto Microsoft 365 Konto Office 365. Sie müssen die folgenden Schritte ausführen:
   
 - Erstellen Sie ein Konto, und synchronisieren Sie es mit Azure Active Directory.
 
@@ -53,25 +51,25 @@ Wenn Sie Ihre E-Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwend
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
-    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung für Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. Wenn dies derFall ist, müssen Sie für jedes Microsoft Teams-Räume eine Ausnahme erstellen.
+    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung für Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. Wenn dies derFall ist, müssen Sie eine Ausnahme für jedes einzelne Microsoft Teams-Räume erstellen.
   
-4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wechseln Sie nach Abschluss des Vorgangs zur Seite "Benutzer" in Ihrem Microsoft 365 Admin Center und vergewissern Sie sich, dass das in den vorherigen Schritten erstellte Konto mit online zusammengeführt wurde.
+4. Führen Sie nach der Erstellung des Kontos eine Verzeichnissynchronisierung aus. Wechseln Sie nach Abschluss des Vorgangs zur Seite "Benutzer" in Ihrem Microsoft 365 Admin Center und vergewissern Sie sich, dass das in den vorherigen Schritten erstellte Konto mit online synchronisiert wurde.
 
 ### <a name="enable-the-remote-mailbox-and-set-properties"></a>Aktivieren des Remotepostfachs und Festlegen von Eigenschaften
 
 1. [Öffnen Sie die Exchange-Verwaltungsshell,](/powershell/exchange/exchange-server/open-the-exchange-management-shell) oder stellen Sie mithilfe Exchange [PowerShell](/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell)eine Verbindung mit Dem Server herzustellen.
 
-2. Erstellen Exchange PowerShell ein Postfach für das Konto (Postfach aktivieren des Kontos), indem Sie den folgenden Befehl ausführen:
+2. Erstellen Exchange in PowerShell ein Postfach für das Konto (Postfach aktivieren des Kontos), indem Sie den folgenden Befehl ausführen:
 
    ```PowerShell
-   Enable-Mailbox PROJECTRIGEL01@contoso.com -Room
+   Enable-Mailbox ConferenceRoom01@contoso.com -Room
    ```
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Enable-Mailbox.](/powershell/module/exchange/mailboxes/enable-mailbox)
 
 3. Konfigurieren Exchange in PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
 
-   - AutomateProcessing: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen eines Menschen: frei = akzeptieren; Beschäftigt = ablehnen.)
+   - Automatisieren Der Verarbeitung: AutoAccept (Besprechungsorganisatoren erhalten Entscheidungen zur Raumreservierung direkt ohne Eingreifen des Personals.)
 
    - AddOrganizerToSubject: $false (Der Besprechungsorganisator wird dem Betreff der Besprechungsanfrage nicht hinzugefügt.)
 
@@ -85,10 +83,10 @@ Wenn Sie Ihre E-Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwend
 
    - AdditionalResponse: "Dies ist Microsoft Teams Besprechungsraum!" (Der zusätzliche Text, der der Besprechungsanfrage hinzugefügt werden soll.)
 
-   In diesem Beispiel werden diese Einstellungen für das Raumpostfach namens Project-Rigel-01 konfiguriert.
+   In diesem Beispiel werden diese Einstellungen für das Raumpostfach namens ConferenceRoom01 konfiguriert.
 
    ```PowerShell
-   Set-CalendarProcessing -Identity "Project-Rigel-01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
    ```
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
@@ -100,7 +98,7 @@ Wenn Sie Ihre E-Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwend
    > [!NOTE]
    > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
 
-2. Das Gerätekonto muss über eine gültige Microsoft 365 oder Office 365 verfügen, da Exchange und Microsoft Teams nicht funktionieren. Wenn Sie über eine Lizenz verfügen, müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> um eine Liste der verfügbaren SKUs abzurufen.
+2. Das Ressourcenkonto muss über eine gültige Lizenz Microsoft 365 oder Office 365 verfügen, da Exchange und Microsoft Teams nicht funktionieren. Wenn Sie über eine Lizenz verfügen, müssen Sie Ihrem Ressourcenkonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> um eine Liste der verfügbaren SKUs abzurufen.
 
 <!--   ``` Powershell
    Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
@@ -109,9 +107,9 @@ Wenn Sie Ihre E-Microsoft Teams-Räume mit Exchange lokal bereitstellen, verwend
 3. Als Nächstes können Sie eine Lizenz hinzufügen, indem Sie die `Set-MsolUserLicense` <!-- Set-AzureADUserLicense --> cmdlet. In diesem Fall entspricht „$strLicense“ dem angezeigten SKU-Code (zum Beispiel „contoso:STANDARDPACK“).
 
   ``` PowerShell
-  Set-MsolUser -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -UsageLocation 'US'
+  Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
   Get-MsolAccountSku
-  Set-MsolUserLicense -UserPrincipalName 'PROJECTRIGEL01@contoso.com' -AddLicenses $strLicense
+  Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses $strLicense
   ```
 
 <!--   ``` Powershell

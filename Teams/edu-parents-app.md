@@ -17,12 +17,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0d875c6cd753e4c2e97477b3a3a88e0f071b5cbe
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
+ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61322987"
+ms.lasthandoff: 12/08/2021
+ms.locfileid: "61355744"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Bereitstellen der Eltern-App in Microsoft Teams
 
@@ -33,7 +33,7 @@ Die Eltern-App hilft Lehrkräften, sich mithilfe von Teams-Chats sicher mit den 
 ### <a name="school-data-sync"></a>School Data Sync
 
 - Sie benötigen School Data Sync (SDS), um die Kontaktinformationen der Eltern und Erziehungsberechtigten jedes Schülers oder Studenten **zu** füllen.
-  - [Bereitstellen von SDS](/schooldatasync/parent-contact-sync)
+  - [Bereitstellen von SDS](/schooldatasync/parents-and-guardians-in-sds)
 
 - Wenn Sie Unterstützung beim Einrichten von SDS  sowie beim Auffüllen von Kontakten mit Eltern und Erziehungsberechtigten für die Schüler/Studenten in Ihrem Mandanten benötigen, wenden Sie sich über die hier angezeigten Aufgaben an das EDU Customer Success-Team:
   - Abschließen des RFA-Prozesses [am FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)

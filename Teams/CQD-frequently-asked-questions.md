@@ -21,12 +21,12 @@ ms.custom:
 - Reporting
 - seo-marvel-apr2020
 description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams anrufqualitätsdashboard (CQD).
-ms.openlocfilehash: 11b7691596192dbc96cd9deb7a0b64e363f6af4b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
+ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58616301"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "61362542"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ) zum Anrufqualitätsdashboard (CQD)
 
@@ -38,17 +38,19 @@ ms.locfileid: "58616301"
 
 [Warum wird EUII im CQD nicht gefunden?](#why-cant-i-see-euii-in-cqd)
 
-[Warum werden im Skype for Business AQD Informationen angezeigt, wenn ich nur nach einer Teams habe?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Warum werden in Skype for Business AQD Informationen angezeigt, wenn ich nur nach einer Teams habe?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
 [Warum werden Wi-Fi VPN-Verbindungen als "Verkabelt" statt als "WLAN" angezeigt?](#why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi)
 
+[Ich habe in Teams Richtlinienbasierte Aufzeichnung aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen gekennzeichnet – was ist geschehen?](#i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened)
+
 ### <a name="why-does-cqd-mark-a-call-as-good-if-one-or-more-meeting-participants-had-a-poor-experience"></a>Warum wird ein Anruf vom CQD als "Gut" bezeichnet, wenn ein oder mehrere Besprechungsteilnehmer eine schlechte Erfahrung hatten?
 
 Sehen Sie sich die Regeln an, die das AQD für die [Datenstromklassifizierung verwendet.](stream-classification-in-call-quality-dashboard.md)
  
-Für Audiodatenströme kann jede der fünf Klassifizierungen, die basierend auf der Länge des Anrufs für den Mittelwert berechnet werden, innerhalb "guter" Parameter liegen. Dies bedeutet nicht, dass bei den Benutzern keine Probleme auft worden sind, die zu einem Audio-Drop-Out, einer statischen oder einer Störung bei der Audiowiedergabe beigetragen haben. 
+Für Audiodatenströme kann jede der fünf Klassifizierungen, die basierend auf der Länge des Anrufs für den Mittelwert berechnet werden, innerhalb "guter" Parameter liegen. Es bedeutet nicht, dass bei den Benutzern keine Probleme auft worden sind, die zu einem Audio-Drop-Out, einer statischen oder einer Störung bei der Audiowiedergabe beigetragen haben. 
 
 Um festzustellen, ob es sich um ein Netzwerkproblem war, sehen Sie sich das Delta zwischen den Durchschnittswerten für die Sitzung und den Max-Werten an. Max-Werte sind die während der Sitzung maximal erkannten und gemeldeten Werte.
  
@@ -66,7 +68,7 @@ Weitere Informationen zu den in der CQD-Telemetrie verfügbaren Dimensionen und 
 
 Überprüfen Sie für Hintergrundgeräusche das Verhältnis für stummgeschaltete Ereignisse, um die Dauer der Stummschaltung der Teilnehmer zu sehen.
  
-Erstellen Sie detaillierte Berichte im AQD, und filtern Sie nach Besprechungs-ID, um alle Benutzer und Datenströme in einer Besprechung zu sehen und die Felder hinzuzufügen, die Sie interessieren. Ein Benutzer, der das Problem meldet, ist möglicherweise nicht der Benutzer, der das Problem behoben hat. Sie melden lediglich die Erfahrung.
+Erstellen Sie detaillierte Berichte im AQD, und filtern Sie nach Besprechungs-ID, um alle Benutzer und Datenströme in einer Besprechung zu betrachten und die Felder hinzuzufügen, die Sie interessieren. Ein Benutzer, der das Problem meldet, ist möglicherweise nicht der Benutzer, der das Problem behoben hat. Sie melden lediglich die Erfahrung.
  
 Durch die Telemetrie wird das Problem nicht zwangsläufig behoben, aber Sie können besser verstehen, wo Ihre Entscheidungen zu suchen und zu informieren sind. Handelt es sich um Netzwerk-, Geräte-, Treiber- oder Firmwareupdates, die Nutzung oder den Benutzer?
 
@@ -75,34 +77,38 @@ Durch die Telemetrie wird das Problem nicht zwangsläufig behoben, aber Sie kön
 Um Kennzahl- und Benutzeranzahl-Kenndaten zu berechnen, wird für den Aufruf oder die Benutzer-IDs im Datenset ein eindeutiger Zählenwenn-Vorgang ausgeführt. Bei großen Datensätzen liegt der Fehler bei bis zu 0,2 % bei dem eindeutigen ZählenWENN-Vorgang. Für die genaueste Lautstärke sollten Sie sich auf Datenstromzähler-Measures verlassen, da diese nicht von diesem eindeutigen Zählenwenn-Vorgang angewiesen sind. Das Filtern zur Verringerung des Datenvolumens kann den Fehler zwar verringern, diese Fehlerquelle jedoch nicht in eindeutigen Aufrufen und bei der Anzahl der Benutzer beseitigen. Weitere Informationen finden [Sie unter Verfügbare Dimensionen und Maße im Anrufqualitätsdashboard,](dimensions-and-measures-available-in-call-quality-dashboard.md) für die Maße betroffen sind.
 
   
-### <a name="why-cant-i-see-euii-in-cqd"></a>Warum wird EUII im AQD nicht gefunden?
+### <a name="why-cant-i-see-euii-in-cqd"></a>Warum wird EUII im CQD nicht gefunden?
 
-Diese Administratorrollen können auf das CQD zugreifen, sie können jedoch nicht EUII (Identifizierbare Informationen für Endbenutzer) anzeigen:
+Diese Administratorrollen können auf das AQD zugreifen, sie können jedoch nicht EUII (Identifizierbare Informationen für Endbenutzer) anzeigen:
 
-- Microsoft 365 Leser für Berichte
+- Microsoft 365 bericht-Leser
 - Supportfachmann für die Teams-Kommunikation
 
 Weitere Informationen zu Rollen, die auf das AQD zugreifen können (einschließlich EUII), finden Sie unter Zuweisen von Rollen für den Zugriff auf [das AQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
-### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden im AQD Skype for Business angezeigt, wenn ich nur nach einer Teams habe?
+### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden in Skype for Business AQD Informationen angezeigt, wenn ich nur nach Teams gefiltert habe?
 
-Wenn Sie nur Teams AQD-Berichte filtern (istTeams = 1), filtern Sie nach allen Anrufen, bei denen der erste Endpunkt *Teams.* Wenn der *zweite Endpunkt* Skype for Business, werden diese Informationen in Ihrem AQD-Bericht enthalten.
+Wenn Sie nur in Teams AQD-Berichten nach Nachrichten filtern (istTeams = 1), filtern Sie nach allen Anrufen, bei denen der erste Endpunkt Teams.  Wenn der *zweite Endpunkt* Skype for Business, werden diese Informationen in Ihrem AQD-Bericht enthalten sein.
 
 CQDv2 und CQDv3 haben immer unterschiedliche Gesamtanzahlen, da CQDv3 neue Szenarien hat, die CQDv2 nicht haben wird. Aus diesem Grund können sie diese erwarteten Unterschiede zwischen Zusammenfassungssumme und aggregierten Zahlen ohne Filter haben.  
 
-Je nach Kundenszenario enthält das CQDv3 lokale SFB 2019-Anrufe (wenn SFB 2019 mit einem Datenconnector verwendet wird), Skype-Botanrufe (AA, CVI, VDI), Liveereignisse und PSTN-Anrufe. Szenarien/Features, die für Die Kunden zur Verfügung stehen, deren Daten sich jedoch nicht in CQD V2 befinden.
+Je nach Kundenszenario enthält das CQDv3 lokale SFB 2019-Anrufe (wenn SFB 2019 mit einem Datenconnector verwendet wird), Skype-Bot-Anrufe (AA, CVI, VDI), Liveereignisse und PSTN-Anrufe. Szenarien/Features, die für Die Kunden zur Verfügung stehen, deren Daten sich jedoch nicht in CQD V2 befinden.
 
-So wird beispielsweise erwartet, dass Ihre Kunden 200.000 Audiodatenströme mit 5.000 Fehlern im Zusammenfassungsbericht für AQD V2 im Vergleich zu 300.000 Audiostreams mit 5.500 Fehlern (aus 2019-Präm-Anrufen, CVI-Anrufen, PSTN-Anrufen und so weiter) im CQD V3 sehen.
+Es wird beispielsweise erwartet, dass Ihre Kunden 200.000 Audiodatenströme mit 5.000 Fehlern im Zusammenfassungsbericht für AQD V2 im Vergleich zu 300.000 Audiodatenströmen mit 5.500 Fehlern (aus 2019-Präm-Anrufen, CVI-Anrufen, PSTN-Anrufen und so weiter) im CQD V3 sehen.
 
 Um zu ermitteln, ob unerwartete Unterschiede bestehen, müssen Sie sich verschiedene Aufschlüsselungen der Gesamtdaten anschauen.  Vergleichen Sie den Zweck.  Das Auflisten der Daten nach Benutzer-Agent-Kategoriepaar ist einer der ersten empfohlenen Dinge.  *First Product* und *Second Product* sind auch gute Datenschnitte.  
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?
 
-Das CQD ist für zusammengefasste Datenabfragen konzipiert und nicht für den Datenexport. Es wird empfohlen, Ihre Berichte nach Möglichkeit zu verneinen, um zu verhindern, dass das Zeilenlimit von 10.000 Zeilen überschritten wird. Beginnen Sie, indem Sie Ihre KPIs unter Verwendung umfangreicher Dimensionen mit geringerer Kardinalität, z. B. Monat, Jahr, Datum, Region, Land usw., anzeigen. Von dort aus können Sie drilldowns zu zunehmend höheren Kardinalitätsdimensionen führen. Die Helpdesk- und Location-Enhanced-Berichte bieten beide gute Beispiele für diesen Drilldownworkflow.
+Das CQD ist für zusammengefasste Datenabfragen konzipiert und nicht für den Datenexport. Es wird empfohlen, Die Berichte nach Möglichkeit zu verneinen, um zu verhindern, dass das Zeilenlimit von 10.000 Zeilen überschritten wird. Beginnen Sie, indem Sie Ihre KPIs unter Verwendung breiterer Dimensionen mit geringerer Kardinalität, z. B. Monat, Jahr, Datum, Region, Land, und so weiter, anzeigen. Von dort aus können Sie Drilldowns in Dimensionen mit zunehmender Kardinalität führen. Die Helpdesk- und Location-Enhanced-Berichte bieten beide gute Beispiele für diesen Drilldown-Workflow.
 
 ### <a name="why-do-wi-fi-vpn-connections-show-as-wired-instead-of-wi-fi"></a>Warum werden Wi-Fi VPN-Verbindungen als "Verkabelt" statt als "WLAN" angezeigt?
 
-Dies entspricht dem erwarteten Verhalten. Der VPN-Anbieter hat einen virtuellen Ethernetadapter erstellt, der wie eine Kabelverbindung behandelt wird. Da es nicht ordnungsgemäß beschriftet ist, weiß das Betriebssystem nicht, dass es sich um eine WLAN-Verbindung gibt, und meldet es als verkabelt.
+Dies ist ein erwartetes Verhalten. Der VPN-Anbieter hat einen virtuellen Ethernetadapter erstellt, der wie eine Kabelverbindung behandelt wird. Da sie nicht ordnungsgemäß beschriftet ist, weiß das Betriebssystem nicht, dass es sich um eine Wi-Fi Verbindung, und meldet sie als verkabelt.
+
+### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Ich habe in Teams Richtlinienbasierte Aufzeichnung aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen gekennzeichnet – was ist geschehen?
+
+Dies ist ein erwartetes Verhalten, wenn die richtlinienbasierte Aufzeichnung in einem Microsoft Teams. Für die richtlinienbasierte Aufzeichnung wird ein Teams Recorder Bot verwendet, der in Microsoft Azure zum Erfassen von Besprechungsinhalten zu Compliancezwecken bereitgestellt wird. Da ein Recorder Bot selbst eine Gesprächsparty ist, ist der Anruf kein Peer-to-Peer mehr, sondern ein Anruf von mehreren Parteien. Anrufe von mehreren Parteien werden nach Microsoft Teams als Konferenzen klassifiziert und daher als solche angezeigt, wenn Sie diese Anrufe im AQD und anderen Tools zur Anrufqualität anzeigen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
