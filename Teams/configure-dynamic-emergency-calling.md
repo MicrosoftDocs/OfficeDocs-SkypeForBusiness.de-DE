@@ -18,12 +18,12 @@ description: Erfahren Sie, wie Sie die Microsoft-Anrufpläne konfigurieren Telef
 ms.custom: seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45e7b49fcde0dba2a37eb4b08daeed324a9155dc
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+ms.openlocfilehash: c762ccb2aba8c8ccad531573c37f258fa4605a9d
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401919"
+ms.locfileid: "61410716"
 ---
 # <a name="plan-and-configure-dynamic-emergency-calling"></a>Planen und Konfigurieren dynamischer Notrufe 
 
@@ -37,11 +37,11 @@ Bei dynamischen Notrufen muss Folgendes geschehen:
 
 1. Der Netzwerkadministrator konfiguriert Netzwerkeinstellungen und das LIS zum Erstellen einer Netzwerk-/Notfallstandortzuordnung.
 
-2. Während des Startvorgangs und in regelmäßigen Abständen oder bei einer Änderung einer Netzwerkverbindung sendet der Teams-Client eine Standortanforderung, die die Netzwerkverbindungsinformationen enthält, an die Netzwerkeinstellungen und das LIS.
+2. Während des Startvorgangs und in regelmäßigen Abständen oder bei einer Änderung einer Netzwerkverbindung sendet der Teams-Client eine Standortanforderung, die Informationen zur Netzwerkkonnektivität enthält, an die Netzwerkeinstellungen und das LIS.
 
    - Wenn eine Übereinstimmung mit der Website mit den Netzwerkeinstellungen besteht – Richtlinien für Notrufe werden an den Teams von diesem Standort zurückgegeben. (Weitere Informationen zu Richtlinien finden Sie unter [Konfigurieren von Notfallrichtlinien).](#configure-emergency-policies)
 
-   - Liegt eine LIS-Übereinstimmung vor – ein Notfallstandort aus dem Netzwerkelement, mit dem der Teams-Client verbunden ist, wird an den Teams zurückgegeben. Die Übereinstimmung wird in der folgenden Reihenfolge ausgeführt, und das erste übereinstimmende Ergebnis wird zurückgegeben:
+   - Bei einer LIS-Übereinstimmung – ein Notfallstandort aus dem Netzwerkelement, mit dem der Teams-Client verbunden ist, wird an den Teams zurückgegeben. Die Übereinstimmung wird in der folgenden Reihenfolge ausgeführt, und das erste übereinstimmende Ergebnis wird zurückgegeben:
        - WAP
        - Ethernet-Schalter/-port
        - Ethernet-Schalter
@@ -77,9 +77,9 @@ Weitere Informationen dazu, welche Features in den Government Clouds verfügbar 
 
 Die folgenden Clients werden derzeit unterstützt.  Schauen Sie häufig wieder hin, um Aktualisierungen dieser Liste zu sehen.
 
-- Teams Desktopclient für Microsoft Windows
+- Teams-Desktopclient für Microsoft Windows
 - Teams-Desktopclient für Apple macOS
-- Teams mobiler Client für den Apple iOS-Client, Version 1.0.92.2019121004 und App Store Version 1.0.92 und höher
+- Teams mobilen Client für den Apple iOS-Client, Version 1.0.92.2019121004 und App Store Version 1.0.92 und höher
 - Teams mobiler Client für Den Android-Client und Google Play Store, Version 1416/1.0.0.2019121201 und höher
 - Teams 1449/1.0.94.2019110802 und höher
 - Teams-Räume Version 4.4.25.0 und höher
@@ -89,7 +89,7 @@ Die folgenden Clients werden derzeit unterstützt.  Schauen Sie häufig wieder h
 > Ethernet/Switch (LLDP) wird unterstützt unter:
 > - Windows Versionen 8.1 und höher zu diesem Zeitpunkt.<br>
 > - Mac OS, für das [LLDP-Aktivierungssoftware erforderlich ist.](https://www.microsoft.com/download/details.aspx?id=103383)<br>
-> - Teams-Smartphone mit Teams Version 1449/1.0.94.2021110101 und höher.
+> - Teams mit Teams Version 1449/1.0.94.2021110101 und höher.
 
 > [!NOTE]
 > Dynamische Notrufe, einschließlich Benachrichtigungen des Sicherheitsdesks, werden auf dem Webclient Teams nicht unterstützt. Um zu verhindern, dass Benutzer den Teams-Webclient zum Anrufen von PSTN-Nummern verwenden, können Sie eine Richtlinie für Teams-Anrufe festlegen und die Einstellung **Web-PSTN-Anruf** zulassen deaktivieren. Weitere Informationen finden Sie unter [Aufrufen von richtlinien in Teams](teams-calling-policy.md) und [Set-CsTeamsCallingPolicy.](/powershell/module/skype/set-csteamscallingpolicy?view=skype-ps) 
@@ -105,13 +105,13 @@ Notfalladressen können Sie wie folgt zuweisen:
 
 - An Anrufplanbenutzer.
 
-- Mit Operator Verbinden Benutzer abhängig von den Funktionen, die der Nummer zugewiesen sind, wenn der Netzbetreiber sie in den Bestand &mdash; eines Kunden hochlädt.
+- Zur Operator Verbinden Benutzer abhängig von den Funktionen, die der Nummer zugewiesen sind, wenn der Netzbetreiber sie in den Bestand &mdash; eines Kunden hochlädt.
 
 - An die Netzwerk-IDs, die zum dynamischen Abrufen eines Standorts erforderlich sind. 
 
 Um das automatisierte Routing von Notrufen innerhalb der USA zu unterstützen, müssen Sie sicherstellen, dass die Notfallstandorte, die Netzwerk-IDs zugewiesen sind, die zugeordneten Geocodes enthalten. (Notfalladressen ohne Geocodes können den Netzwerkbezeichnern, die für dynamische Standorte erforderlich sind, nicht zugewiesen werden.)
 
-Azure Karten wird für standortbasierte Dienste verwendet. Wenn Sie über das Microsoft Teams Admin Center eine Notfalladresse eingeben, überprüft Teams Azure-Karten auf die Adresse:
+Azure Karten wird für standortbasierte Dienste verwendet. Wenn Sie eine Notfalladresse über das Microsoft Teams Admin Center eingeben, überprüft Teams Azure-Karten auf die Adresse:
 
 - Wenn eine Übereinstimmung gefunden wird, werden die Geocodes automatisch einbezogen.
 
@@ -134,13 +134,13 @@ Weitere Informationen zu IP-Adressen, Netzwerkregionen, Standorten und Subnetzad
 
 Sie konfigurieren Netzwerkeinstellungen im Microsoft Teams Admin Center oder mithilfe von PowerShell. Weitere Informationen finden Sie unter [Verwalten der Netzwerktopologie für Cloud-Sprachfeatures.](manage-your-network-topology.md)
 
-Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis einige Änderungen an den Netzwerkeinstellungen (z. B. neue Adresse, Netzwerk-ID und so weiter) an die Clients weiterverteilt Teams werden.  
+Beachten Sie, dass es einige Zeit (bis zu ein paar Stunden) dauern kann, bis einige Änderungen an den Netzwerkeinstellungen (z. B. neue Adresse, Netzwerk-ID und so weiter) an die Clients weiterverteilt und verfügbar Teams werden.  
 
 > [!Note]
 > Subnetze können auch in LIS definiert und einem Notfallstandort zugeordnet werden.  LIS-Subnetze müssen durch die Netzwerk-ID definiert werden, die mit dem Subnetz-IP-Bereich übereinstimmen, der Clients zugewiesen ist. Beispielsweise ist die Netzwerk-ID für eine Client-IP/Mask von 10.10.10.150/25 10.10.10.128. Weitere Informationen finden Sie unter [Grundlegendes zu TCP/IP-Adressierung und Subnetzing.](/troubleshoot/windows-client/networking/tcpip-addressing-and-subnetting)
 
 > [!Important]
-> Suchups für Netzwerkkonfigurationseinstellungen werden bei Bereitstellungen des Cloudproxydiensts, die die IP-Quelladressen der Clients ändern, Teams unterstützt.
+> Netzwerkkonfigurationseinstellungen werden bei Bereitstellungen von Cloudproxydiensten, die die IP-Quelladressen der Clients ändern, Teams unterstützt.
 
 
 
@@ -248,7 +248,7 @@ Die folgende Tabelle zeigt die Unterstützung für dynamische Notrufe in den Beh
 | :------------|:-------|
 | World Wide Multi Tenant | Verfügbar auf allen Teams Clients |
 | GCC | Verfügbar auf allen Teams Clients |
-| GGCH | Verfügbar auf Teams Desktops |
+| GGCH | -Verfügbar auf Teams Desktop <br> -Verfügbar auf Teams mobilen Clients <br> -Verfügbarkeit auf Telefonen ausstehend Teams |
 | DoD | Ausstehend |
 
  ## <a name="related-topics"></a>Verwandte Themen

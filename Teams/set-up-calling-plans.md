@@ -24,17 +24,17 @@ ms.custom:
 - Calling Plans
 - LIL_Placement
 - seo-marvel-mar2020
-description: Erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren Pläne, kaufen & Lizenzen zuweisen, Telefonnummern erhalten und Notfalladressen für & hinzufügen.
-ms.openlocfilehash: b7593155711597ae94d2db97573c6b6ba7afcc18
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: Hier erfahren Sie, wie Sie Anrufpläne einrichten, einschließlich der in Ihrer Region verfügbaren Pläne anzeigen, Lizenzen & erwerben, Telefonnummern erhalten und Notfalladressen für & hinzufügen.
+ms.openlocfilehash: 594304fdc9aa95d283d6366a27aff48d5e4a1c91
+ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58725724"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61410696"
 ---
 # <a name="set-up-calling-plans"></a>Einrichten von Anrufplänen
 
-Anrufe an andere Teams-Benutzer sind kostenlos. Wenn Sie Ihren Benutzern jedoch ermöglichen möchten, Telefone außerhalb Ihres Unternehmens anrufen zu können, erhalten Sie einen Plan für Inlandanrufe oder einen Plan für Auslandsanrufe in Microsoft 365 oder Office 365. Das Einrichten von Anrufplänen für Ihr Unternehmen ist ganz einfach.  Weitere Informationen zu Anrufplänen finden Sie unter [welcher Anrufplan ist für Sie am geeignetsten?](calling-plan-landing-page.md).
+Anrufe an andere Teams-Benutzer sind kostenlos. Wenn Sie Jedoch möchten, dass Ihre Benutzer Telefone außerhalb Ihres Unternehmens anrufen können, erhalten Sie einen Plan für Inlandanrufe oder einen Plan für Auslandsanrufe in Microsoft 365 oder Office 365. Das Einrichten von Anrufplänen für Ihr Unternehmen ist ganz einfach.  Weitere Informationen zu Anrufplänen finden Sie unter [welcher Anrufplan ist für Sie am geeignetsten?](calling-plan-landing-page.md).
 
 ## <a name="step-1-find-out-if-calling-plans-are-available-in-your-countryregion"></a>Schritt 1: Feststellen, ob Anrufpläne in Ihrem Land/Ihrer Region verfügbar sind
 Gehen Sie auf [Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md) und wählen Sie Ihr Land oder Ihre Region aus, um Informationen zur Verfügbarkeit von Anrufplänen sowie über Audiokonferenzen, Telefonanlage, gebührenfreie Nummern und Guthaben für Kommunikationen zu erhalten.
@@ -42,7 +42,7 @@ Gehen Sie auf [Verfügbarkeit nach Land und Region für Audiokonferenz und Anruf
 Wenn für Ihr Land oder Ihre Region keine Anrufpläne zur Verfügung stehen, erwägen Sie die Verwendung der direkten Weiterleitung, um die lokale Telefonie-Infrastruktur mit dem Telefon System zu verbinden.  Weitere Informationen hierzu finden Sie unter [Telefonsystem mit direktem Routing](direct-routing-landing-page.md).
   
 ## <a name="step-2-buy-and-assign-licenses"></a>Schritt 2: Lizenzen kaufen und zuweisen
-1. Wenn das feature Telefonsystem nicht in Ihrem Microsoft 365- oder Office 365-Plan enthalten ist, müssen Sie möglicherweise Telefonsystem **Add-On-Lizenzen** erwerben. Nachdem Sie über **Telefonsystem** verfügen, kaufen Sie Anrufpläne für [Microsoft 365 oder Office 365.](calling-plans-for-office-365.md) Näheres hierzu erfahren Sie unter [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Erwerben Sie schließlich die Lizenzen und den Plan. 
+1. Wenn das Telefonsystem nicht in Ihrem Microsoft 365- oder Office 365-Plan enthalten ist, müssen Sie möglicherweise Telefonsystem **Add-On-Lizenzen** erwerben. Nachdem Sie über **Telefonsystem** verfügen, kaufen Sie [Anrufpläne](calling-plans-for-office-365.md)für Microsoft 365 oder Office 365 . Näheres hierzu erfahren Sie unter [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md). Erwerben Sie schließlich die Lizenzen und den Plan. 
     
     > [!TIP]
     > **Telefonsystem** Lizenzen und Anrufpläne in Microsoft 365 oder Office 365 zusammen. Wenn Sie also die Option zum Kauf von Anrufplänen sehen möchten, müssen Sie zuerst über Telefonsystem **verfügen.**
@@ -80,6 +80,18 @@ In **Microsoft Teams**, users can see their phone number by clicking **Calls** i
 
 ![Screenshot der nach dem Klicken auf "Anrufe" verfügbaren Optionen.](media/teams-phone-number.png)
 
+## <a name="run-a-self-diagnostics-tool"></a>Ausführen eines Selbstdiagnosetools
+
+Microsoft 365 Haben Administratoren Zugriff auf Diagnosen, die innerhalb des Mandanten ausgeführt werden können, um sicherzustellen, dass ein Benutzer ordnungsgemäß für das Führen oder Empfangen von PSTN-Anrufen konfiguriert ist. 
+
+> [!NOTE]
+>Dieses Feature ist für Microsoft 365 Government, Microsoft 365 21Vianet oder Microsoft 365 Deutschland nicht verfügbar.
+
+Wählen Sie Tests ausführen wie folgt aus. Dadurch wird das Diagnosetool im Microsoft 365 Admin Auffüllen.
+>> [!div class="nextstepaction"]
+>> [Ausführen von Tests: Teams PSTN](https://aka.ms/TeamsPSTNDiag)
+
+Das Diagnosetool führt eine große Anzahl von Überprüfungen durch.
 
 ## <a name="do-you-want-to-automate-assigning-phone-numbers"></a>Möchten Sie die Zuweisung von Telefonnummern automatisieren?
 <a name="bkmk_add_addresses"> </a>
