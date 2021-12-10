@@ -20,13 +20,13 @@ f1.keywords:
 ms.custom:
 - Reporting
 - seo-marvel-apr2020
-description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams anrufqualitätsdashboard (CQD).
-ms.openlocfilehash: 4d0d0bbbc35ac130755e61075408e9de80f1c09c
-ms.sourcegitcommit: d976e49943aedd511bd6a80b02afeac4a6453406
+description: Lesen Sie häufig gestellte Fragen (FAQ) und Antworten Microsoft Teams Anrufqualitätsdashboards.
+ms.openlocfilehash: 81c6478147e0959ca97b67ee0f01632478c0eb38
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "61362542"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401899"
 ---
 # <a name="call-quality-dashboard-cqd-frequently-asked-questions-faq"></a>Häufig gestellte Fragen (FAQ) zum Anrufqualitätsdashboard (CQD)
 
@@ -38,7 +38,9 @@ ms.locfileid: "61362542"
 
 [Warum wird EUII im CQD nicht gefunden?](#why-cant-i-see-euii-in-cqd)
 
-[Warum werden in Skype for Business AQD Informationen angezeigt, wenn ich nur nach einer Teams habe?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
+[Ich versuche, das AQD für Nutzungstypberichte zu verwenden, und finde, dass einige Daten unvollständig sind. Warum ist das der Grund?](#im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that)
+
+[Warum werden in Skype for Business AQD Informationen angezeigt, wenn ich nur nach Teams gefiltert habe?](#why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only)
 
 [Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?](#why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries)
 
@@ -58,8 +60,8 @@ Hier ist ein Beispiel für die Problembehandlung in dieser Situation. Angenommen
  
 Wenn die Netzwerkmetriken bei Mittelwerten und Max-Werten gut aussehen, dann sehen Sie sich andere Telemetriedaten an: 
 - Überprüfen Sie das unzureichende Ereignisverhältnis der CPU, um zu überprüfen, ob die erkannten CPU-Ressourcen nicht ausreichend waren und eine schlechte Qualität verursacht haben. 
-- War das Audiogerät im Halbduplexmodus, um Feedback aufgrund von Mikrofonen zu verhindern, die sich in der Nähe der Lautsprecher befinden? 
-- Überprüfen Sie das Geräte-AEC-Ereignisverhältnis halber Duplex-AEC. War die Geräte-Kopplung oder das Mikrofon aufgrund von USB-Audio-Drop-Outs, die an eine Hub- oder Dockingstation angeschlossen wurden, ein Rauschen oder ein statisches Mikrofon?  
+- War das Audiogerät im Halbduplexmodus, um Feedback aufgrund von Mikrofonen zu nah an den Lautsprechern zu verhindern? 
+- Überprüfen Sie das Geräte-AEC-Ereignisverhältnis halber Duplex-AEC. War die Geräte-Kopplung oder das Mikrofon aufgrund von USB-Audio-Drop-Outs, die an einen Hub oder eine Dockingstation angeschlossen wurden, zu Rauschen oder statischen Geräuschen worden?  
 - Überprüfen Sie die Geräte-Störungen und Mikrofon-Störungen des Ereignisverhältnisses. Funktionierte das Gerät selbst ordnungsgemäß?  
 - Überprüfen Sie die Ereignisverhältnisse des Aufnahme- und Rendergeräts "Not Functioning".
 
@@ -68,13 +70,13 @@ Weitere Informationen zu den in der CQD-Telemetrie verfügbaren Dimensionen und 
 
 Überprüfen Sie für Hintergrundgeräusche das Verhältnis für stummgeschaltete Ereignisse, um die Dauer der Stummschaltung der Teilnehmer zu sehen.
  
-Erstellen Sie detaillierte Berichte im AQD, und filtern Sie nach Besprechungs-ID, um alle Benutzer und Datenströme in einer Besprechung zu betrachten und die Felder hinzuzufügen, die Sie interessieren. Ein Benutzer, der das Problem meldet, ist möglicherweise nicht der Benutzer, der das Problem behoben hat. Sie melden lediglich die Erfahrung.
+Erstellen Sie detaillierte Berichte im AQD, und filtern Sie nach Besprechungs-ID, um alle Benutzer und Datenströme in einer Besprechung zu sehen und die Felder hinzuzufügen, die Sie interessieren. Ein Benutzer, der das Problem meldet, ist möglicherweise nicht der Benutzer, der das Problem behoben hat. Sie melden lediglich die Erfahrung.
  
 Durch die Telemetrie wird das Problem nicht zwangsläufig behoben, aber Sie können besser verstehen, wo Ihre Entscheidungen zu suchen und zu informieren sind. Handelt es sich um Netzwerk-, Geräte-, Treiber- oder Firmwareupdates, die Nutzung oder den Benutzer?
 
 ### <a name="why-do-i-see-up-to-02-difference-in-call-and-user-count-values-on-measures-and-how-to-get-most-accurate-volumes"></a>Warum sehe ich bis zu 0,2 % Differenz bei Anruf- und Benutzeranzahl-Werten für Measures und wie kann ich genaueste Datenmengen erhalten? 
 
-Um Kennzahl- und Benutzeranzahl-Kenndaten zu berechnen, wird für den Aufruf oder die Benutzer-IDs im Datenset ein eindeutiger Zählenwenn-Vorgang ausgeführt. Bei großen Datensätzen liegt der Fehler bei bis zu 0,2 % bei dem eindeutigen ZählenWENN-Vorgang. Für die genaueste Lautstärke sollten Sie sich auf Datenstromzähler-Measures verlassen, da diese nicht von diesem eindeutigen Zählenwenn-Vorgang angewiesen sind. Das Filtern zur Verringerung des Datenvolumens kann den Fehler zwar verringern, diese Fehlerquelle jedoch nicht in eindeutigen Aufrufen und bei der Anzahl der Benutzer beseitigen. Weitere Informationen finden [Sie unter Verfügbare Dimensionen und Maße im Anrufqualitätsdashboard,](dimensions-and-measures-available-in-call-quality-dashboard.md) für die Maße betroffen sind.
+Um Kennzahl- und Benutzeranzahl-Kenndaten zu berechnen, wird für den Aufruf oder die Benutzer-IDs im Datenset ein eindeutiger Zählenwenn-Vorgang ausgeführt. Bei großen Datensätzen liegt der Fehler bei bis zu 0,2 % bei dem eindeutigen ZählenWENN-Vorgang. Für die genaueste Lautstärke sollten Sie sich auf Datenstromzähler-Measures verlassen, da diese nicht von diesem eindeutigen Zählenwenn-Vorgang angewiesen sind. Das Filtern zur Verringerung des Datenvolumens kann den Fehler zwar verringern, diese Fehlerquelle jedoch nicht in eindeutigen Aufrufen und bei der Anzahl der Benutzer beseitigen. Weitere Informationen finden [Sie unter Verfügbare Dimensionen und Maße im Anrufqualitätsdashboard,](dimensions-and-measures-available-in-call-quality-dashboard.md) für die Measures betroffen sind.
 
   
 ### <a name="why-cant-i-see-euii-in-cqd"></a>Warum wird EUII im CQD nicht gefunden?
@@ -86,17 +88,17 @@ Diese Administratorrollen können auf das AQD zugreifen, sie können jedoch nich
 
 Weitere Informationen zu Rollen, die auf das AQD zugreifen können (einschließlich EUII), finden Sie unter Zuweisen von Rollen für den Zugriff auf [das AQD.](turning-on-and-using-call-quality-dashboard.md#assign-admin-roles-for-access-to-cqd)
 
+### <a name="im-trying-to-use-cqd-for-usage-type-reports-and-find-that-some-of-the-data-is-incomplete----why-is-that"></a>Ich versuche, das AQD für Nutzungstypberichte zu verwenden, und finde, dass einige Daten unvollständig sind. Warum ist das der Grund?
+
+Anrufqualitätsverwaltungstools wie CQD, Anrufanalyse, Anrufdatensatz-Graph-API und Echtzeitanalyse basieren auf Diagnose telemetrie. Die Informationen, die in Teams Qualitätsverwaltungstools für Anrufe angezeigt werden, sind nur so vollständig wie die Telemetriedaten, die wir von den an einem Anruf teilnehmenden Clients erhalten. Es gibt mehrere Gründe, warum wir möglicherweise keine vollständige Telemetrie erhalten, z. B. Netzwerkausfälle oder Firewall- oder [Proxy-Falschkonfigurationen.](/microsoft-365/enterprise/urls-and-ip-address-ranges.md) Wir arbeiten kontinuierlich an der Verbesserung der Zuverlässigkeit und Resilienz, mit Teams Die Clients Telemetrie an den Dienst liefern.
+
+Daher wird empfohlen, bei der Verwendungsberichterstattung nicht auf Tools zur Anrufqualitätsverwaltung zu vertrauen. Teams Admin Center bietet eine Reihe von [Verwendungsberichten](teams-analytics-and-reports/teams-reporting-reference.md), und ein Bericht zur Teilnahme an Besprechungen steht direkt im Client Teams zur Verfügung. [](teams-analytics-and-reports/meeting-attendance-report.md)
+
 ### <a name="why-am-i-seeing-skype-for-business-information-in-cqd-when-ive-filtered-for-teams-only"></a>Warum werden in Skype for Business AQD Informationen angezeigt, wenn ich nur nach Teams gefiltert habe?
 
-Wenn Sie nur in Teams AQD-Berichten nach Nachrichten filtern (istTeams = 1), filtern Sie nach allen Anrufen, bei denen der erste Endpunkt Teams.  Wenn der *zweite Endpunkt* Skype for Business, werden diese Informationen in Ihrem AQD-Bericht enthalten sein.
+Wenn Sie nur in Teams AQD-Berichten nach Nachrichten filtern (istTeams = 1), filtern Sie nach allen Anrufen, bei denen der erste Endpunkt Teams.  Wenn der *zweite Endpunkt* Skype for Business, werden diese Informationen in Ihrem AQD-Bericht enthalten sein. Je nach Szenario des Kunden kann das Anruf-AQD Skype for Business Server 2019-Anrufe umfassen, wenn [Der](/skypeforbusiness/hybrid/plan-call-data-connector.md) Connector für Anrufdaten konfiguriert ist. Dies kann auch Skype Bot-Anrufe (AA, CVI, VDI), Liveereignisse und PSTN-Anrufe umfassen.
 
-CQDv2 und CQDv3 haben immer unterschiedliche Gesamtanzahlen, da CQDv3 neue Szenarien hat, die CQDv2 nicht haben wird. Aus diesem Grund können sie diese erwarteten Unterschiede zwischen Zusammenfassungssumme und aggregierten Zahlen ohne Filter haben.  
-
-Je nach Kundenszenario enthält das CQDv3 lokale SFB 2019-Anrufe (wenn SFB 2019 mit einem Datenconnector verwendet wird), Skype-Bot-Anrufe (AA, CVI, VDI), Liveereignisse und PSTN-Anrufe. Szenarien/Features, die für Die Kunden zur Verfügung stehen, deren Daten sich jedoch nicht in CQD V2 befinden.
-
-Es wird beispielsweise erwartet, dass Ihre Kunden 200.000 Audiodatenströme mit 5.000 Fehlern im Zusammenfassungsbericht für AQD V2 im Vergleich zu 300.000 Audiodatenströmen mit 5.500 Fehlern (aus 2019-Präm-Anrufen, CVI-Anrufen, PSTN-Anrufen und so weiter) im CQD V3 sehen.
-
-Um zu ermitteln, ob unerwartete Unterschiede bestehen, müssen Sie sich verschiedene Aufschlüsselungen der Gesamtdaten anschauen.  Vergleichen Sie den Zweck.  Das Auflisten der Daten nach Benutzer-Agent-Kategoriepaar ist einer der ersten empfohlenen Dinge.  *First Product* und *Second Product* sind auch gute Datenschnitte.  
+Es ist möglich, alle Skype for Business aus Ihren Abfragen zu entfernen, indem Sie nach Dimensionen wie First User Agent Category (First *User Agent Category)* und *Second User Agent Category (Zweite Benutzer-Agent-Kategorie) filtern.* Sie können auch das *Benutzer-Agent-Kategoriepaar verwenden,* das die Dimensionen "Erster" und "Zweiter" zu einem einzigen Filter kombiniert.
 
 ### <a name="why-do-my-custom-reports-only-return-a-maximum-of-10000-rows-when-i-know-there-should-be-more-entries"></a>Warum geben meine benutzerdefinierten Berichte nur maximal 10.000 Zeilen zurück, wenn ich weiß, dass es mehr Einträge geben soll?
 
@@ -108,7 +110,7 @@ Dies ist ein erwartetes Verhalten. Der VPN-Anbieter hat einen virtuellen Etherne
 
 ### <a name="i-turned-on-policy-based-recording-in-teams-and-now-peer-to-peer-calls-are-being-marked-as-conferences----what-happened"></a>Ich habe in Teams Richtlinienbasierte Aufzeichnung aktiviert, und jetzt werden Peer-to-Peer-Anrufe als Konferenzen gekennzeichnet – was ist geschehen?
 
-Dies ist ein erwartetes Verhalten, wenn die richtlinienbasierte Aufzeichnung in einem Microsoft Teams. Für die richtlinienbasierte Aufzeichnung wird ein Teams Recorder Bot verwendet, der in Microsoft Azure zum Erfassen von Besprechungsinhalten zu Compliancezwecken bereitgestellt wird. Da ein Recorder Bot selbst eine Gesprächsparty ist, ist der Anruf kein Peer-to-Peer mehr, sondern ein Anruf von mehreren Parteien. Anrufe von mehreren Parteien werden nach Microsoft Teams als Konferenzen klassifiziert und daher als solche angezeigt, wenn Sie diese Anrufe im AQD und anderen Tools zur Anrufqualität anzeigen.
+Dies ist ein erwartetes Verhalten, wenn die richtlinienbasierte Aufzeichnung in einem Microsoft Teams. Für die richtlinienbasierte Aufzeichnung wird ein Teams Recorder Bot verwendet, der in Microsoft Azure zum Erfassen von Besprechungsinhalten zu Compliancezwecken bereitgestellt wird. Bei der Anrufqualitätsverwaltung ist "Peer-zu-Peer" eine Beschreibung des Fluss des Mediendatenverkehrs, nicht die Interaktion zwischen den Benutzern. Da ein Recorder Bot selbst eine Gesprächsparty ist, ist der Anruf kein Peer-to-Peer mehr, sondern ein Anruf von mehreren Parteien. Anrufe von mehreren Parteien werden nach Microsoft Teams als Konferenzen klassifiziert und daher als solche angezeigt, wenn Sie diese Anrufe im AQD und anderen Tools zur Anrufqualität anzeigen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

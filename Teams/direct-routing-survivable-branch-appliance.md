@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8c25299a0f0df6863bcb1fbaa4627b891a6e860a
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: b378ee327f2ba284a348ff7458c617fed71541c6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536756"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401889"
 ---
 # <a name="survivable-branch-appliance-sba-for-direct-routing"></a>Survivable Branch Appliance (SBA) für Direct Routing
 
@@ -58,7 +58,9 @@ Das SBA-Feature wird auf den folgenden Microsoft Teams-Clients unterstützt:
 
 - Microsoft Teams Windows-Desktop 
 
-- Microsoft Teams macOS-Desktop 
+- Microsoft Teams macOS-Desktop
+- Teams für Mobilgeräte 
+- Teams-Telefone
 
 ## <a name="how-it-works"></a>So funktioniert es
 

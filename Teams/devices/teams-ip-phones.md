@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: ea91bb108f109bb58fe36d884f683a1f0e405964
-ms.sourcegitcommit: 70bba31b0ca4615a3c6a90f42d3568450ea51b82
+ms.openlocfilehash: d09e8b449d9e4c058ef3fdc1f9a975c06e3cc1f6
+ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61327263"
+ms.lasthandoff: 12/10/2021
+ms.locfileid: "61401929"
 ---
 # <a name="microsoft-teams-certified-devices"></a>Microsoft Teams zertifizierten Geräten
 
@@ -36,7 +36,7 @@ Microsoft Teams Zertifizierungsprogrammen stellen eine Leiste mit höherer Quali
 
 ## <a name="currently-certified-teams-phones"></a>Zurzeit für Teams zertifiziert
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Geräte zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Telefone zertifiziert:
 
 |Gerätemodell    | Firmwareversion    | Veröffentlichungsdatum
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|
@@ -79,16 +79,16 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 | Poly TC8                | `3.3.2.210441`     | März 2021    | Kompatibel mit Poly Studio X30 und Poly Studio X50 |
 | Yealink VC210           | `118.15.0.14`      | Februar 2020 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |
 
-## <a name="currently-certified-teams-displays"></a>Zurzeit für Teams zertifiziert
+## <a name="currently-certified-teams-displays"></a>Derzeit für Teams zertifiziert
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm Microsoft Teams Android zertifiziert:
+Die folgenden Geräte sind im Rahmen des Microsoft Teams Android-Zertifizierungsprogramms zertifiziert:
 
 | Gerätemodell | Firmwareversion | Veröffentlichungsdatum  |
 |:------------------------|:-----------------|:--------------|
 |Lenovo Think Smart View|`CD-18781Y.201006.099`|Oktober 2020 |
 
-## <a name="currently-certified-teams-panels"></a>Aktuell für Teams zertifiziert
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Zertifiziert:
+## <a name="currently-certified-teams-panels"></a>Derzeit für Teams zertifiziert
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams zertifiziert:
 
 | Gerätemodell| Firmwareversion | Veröffentlichungsdatum  |                                         
 |:------------------------|:-----------------|:--------------|
@@ -120,7 +120,7 @@ Im Folgenden finden Sie die neuesten Teams für Telefon-Apps und Firmwareversion
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden installierten Versionen der Microsoft Teams-App, des Unternehmensportal-Agents ermitteln. Suchen Sie die Produktversion in der Spalte **Enthaltene** Produktversion, und suchen Sie dann die Produktversion in der obigen **App-Versionstabelle.**
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden installierten Versionen der Microsoft Teams-App, des Unternehmensportal und des Administrator-Agents ermitteln. Suchen Sie die Produktversion in der Spalte **Enthaltene** Produktversion, und suchen Sie dann die Produktversion in der obigen **App-Versionstabelle.**
 
 | Gerätemodell        | Firmwareversion     | Enthaltene Produktversion  |
 |:--------------------|:---------------------|:-------------------------|
@@ -227,6 +227,7 @@ Im Folgenden finden Sie die neuesten Microsoft Teams zeigt App- und Firmwarevers
 
 |Produktversion| Veröffentlichungsdatum | Microsoft Teams-App-Version | Unternehmensportal-Version | Version des Administrator-Agenten |
 |:----------------|:-------------|:----------------------------|:-----------------------|:--------------------|
+|Update 2021 #3  |8. Dezember 2021 |`1449/1.0.95.2021111203`    |`5.0.5304.0`            |  `1.0.0.202110130735.product (298)`|
 |Update 2021 #2  |9. Juni 2021 |`1449/1.0.95.2021042103`    |`5.0.5088.0`            |  `1.0.0.202103160138.product (256)`|
 |Update 2021 #1  |18. März 2021 |`1449/1.0.95.2021021104`    |`5.0.5045.0`            | `1.0.0.202101280722.product (253)`|
 
@@ -237,10 +238,11 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
+|Lenovo Think Smart View| `CD-18781Y.211116.114` |2021 Update#3  |
 |Lenovo Think Smart View| `CD-18781Y.210507.111` |Update 2021 #2 |
 |Lenovo Think Smart View| `CD-18781Y.210228.109` |Update 2021 #1 |
 
-### <a name="product-release-information-for-teams-panels"></a>Produktveröffentlichungsinformationen für Teams Panels
+### <a name="product-release-information-for-teams-panels"></a>Produktfreigabeinformationen für Teams Panels
 
 Im Folgenden finden Sie die neuesten Microsoft Teams Panels-App und Firmwareversionen.
 
@@ -274,6 +276,6 @@ Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zu
 
 Wenn Sie ein Lieferant sind, der am [](/skypeforbusiness/certification/how-to-join) Zertifizierungsprogramm teilnehmen möchten, finden Sie unter Teilnehmen an Anforderungen und verfügbaren Programmen weitere Informationen.
 
-[Entdecken Microsoft Teams Mobiltelefonen und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Erkunden Microsoft Teams von Mobiltelefonen und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Interoperabilität von Teams und Skype](../teams-skype-interop.md)
