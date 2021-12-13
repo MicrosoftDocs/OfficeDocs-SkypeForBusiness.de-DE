@@ -33,9 +33,9 @@ Dieser Artikel enthält eine Übersicht über das Verwalten von [Microsoft Power
 > [!NOTE]
 > Dieser Artikel bezieht sich auf benutzerdefinierte Apps, die von Entscheidungsträgern in Ihrer Organisation mithilfe von Power Apps oder Power Virtual Agents. Diese benutzerdefinierten Apps werden automatisch zu Teams. Dieser Artikel gilt nicht für die Power Apps- oder Power Virtual Agents-App, die über die Seite Apps installiert oder über eine App-Setuprichtlinie an Teams angeheftet wurden. Sie verwalten diese Apps wie jede andere [](manage-apps.md) App auf der Seite "Apps verwalten", indem Sie App-Berechtigungsrichtlinien [und](teams-app-permission-policies.md)Richtlinien für die [App-Einrichtung verwenden.](teams-app-setup-policies.md)
 
-[Power Apps](https://powerapps.microsoft.com) ist eine Anwendungsentwicklungsumgebung mit geringem Code/Code, die von Entscheidungsträgern in Ihrer Organisation zum Erstellen benutzerdefinierter Apps verwendet werden kann, die eine Verbindung mit Ihren Geschäftsdaten herstellen. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) ist eine Code-Bot-Erstellungsumgebung für Hersteller zum Erstellen leistungsstarker Bots. Mit der Integration von Microsoft Power Platform-Apps in Teams können Organisationen Geschäftsprozesse optimieren, schneller auf sich ändernde Geschäftsanforderungen reagieren, um eine bessere Zusammenarbeit zu fördern, und benutzerdefinierte Lösungen erstellen und teilen, um produktiver zu sein.  
+[Power Apps](https://powerapps.microsoft.com) ist eine Anwendungsentwicklungsumgebung mit geringem Code bzw. Code, die von Entscheidungsträgern in Ihrer Organisation zum Erstellen benutzerdefinierter Apps verwendet werden kann, die eine Verbindung mit Ihren Geschäftsdaten herstellen. [Power Virtual Agents](/power-virtual-agents/fundamentals-what-is-power-virtual-agents) ist eine Code-Bot-Erstellungsumgebung für Entscheidungsträger zum Erstellen leistungsstarker Bots. Mit der Integration von Microsoft Power Platform-Apps in Teams können Organisationen Geschäftsprozesse optimieren, schneller auf sich ändernde Geschäftsanforderungen reagieren, um eine bessere Zusammenarbeit zu fördern, und benutzerdefinierte Lösungen erstellen und teilen, um produktiver zu sein.  
 
-Microsoft Power Platform-Apps, die von Hersteller in Ihrer Organisation erstellt wurden, werden automatisch Teams. Entscheidungsträger können steuern, wer auf ihre App zugreifen kann, indem sie das Freigabefeature [in](/powerapps/maker/canvas-apps/share-app) Power Apps und das Freigabefeature [in Power Virtual Agents.](/power-virtual-agents/admin-share-bots)
+Microsoft Power Platform-Apps, die von Hersteller in Ihrer Organisation erstellt wurden, werden automatisch Teams. Entscheidungsträger können steuern, wer auf ihre App zugreifen kann, indem sie das [Freigabefeature in](/powerapps/maker/canvas-apps/share-app) Power Apps und das [Freigabefeature in Power Virtual Agents.](/power-virtual-agents/admin-share-bots)
 
 Wenn eine Microsoft Power Platform-App erstellt oder freigegeben wird, können Benutzer **** sie auf der Seite Apps anzeigen und  >  **installieren.** Wechseln Sie dazu zu Für Ihre Organisation erstellter Name Von Ihren Kollegen erstellt . (Nach dem Erstellen oder Teilen einer App kann es einige Minuten dauern, bis die App hier angezeigt wird.)
 
@@ -51,11 +51,11 @@ Benutzer installieren Microsoft Power Platform-Apps auf die gleiche Weise wie al
 
 ## <a name="manage-access-to-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Verwalten des Zugriffs auf Microsoft Power Platform-Apps im Microsoft Teams Admin Center
 
-Als Administrator können Sie steuern, ob Microsoft Power Platform-Apps **unter** Von Ihren Kollegen erstellt auf der Seite Apps in Teams. Sie können alle in Power Apps erstellten Apps oder alle in Power Virtual Agents erstellten Apps auf [](manage-apps.md) Organisationsebene auf der Seite Apps verwalten oder für bestimmte Benutzer mithilfe von App-Berechtigungsrichtlinien gemeinsam blockieren oder [zulassen.](teams-app-permission-policies.md)
+Als Administrator können Sie steuern, ob Microsoft Power Platform-Apps **unter** Von Ihren Kollegen erstellt auf der Seite Apps in Teams. Sie können alle in Power Apps erstellten Apps oder alle in Power Virtual Agents erstellten Apps auf [](manage-apps.md) Organisationsebene auf der Seite "Apps verwalten" oder mithilfe von App-Berechtigungsrichtlinien für bestimmte Benutzer blockieren oder [zulassen.](teams-app-permission-policies.md)
 
-Die **Apps Shared Power Apps** und Shared Power Virtual Agent **Apps** im App Store Ihrer Organisation stellen alle Apps dar, die auf dieser bestimmten Plattform erstellt wurden. Wenn Sie eine oder beide Apps auf Organisationsebene oder für bestimmte Benutzer blockieren, können diese Benutzer **keine** Apps von diesen Plattformen unter Von Ihren Kollegen erstellt sehen und können sie nicht in Teams installieren.  
+Die **Apps Shared Power Apps** und Shared Power Virtual Agent **Apps** im App Store Ihrer Organisation stellen alle Apps dar, die auf dieser bestimmten Plattform erstellt wurden. Wenn Sie eine oder beide Apps auf Organisationsebene oder für bestimmte Benutzer blockieren, können diese Benutzer **keine** Apps von diesen Plattformen unter Von Ihren Kollegen erstellt sehen und können sie nicht in Teams.  
 
-Denken Sie daran, dass Sie den Zugriff auf alle in Power Apps und Power Virtual Agents erstellten Apps steuern können, aber Sie können keine einzelnen Apps zulassen oder blockieren. Entscheidungsträger entscheiden, wer über das Freigabefeature von ihrem Power Apps auf die von ihnen Power Virtual Agents. Wenn ein Ersteller eine app, die er in Power Virtual Agents erstellt hat, für einen Benutzer freigegeben hat und Sie freigegebene **Power Virtual Agents-Apps** für diesen Benutzer blockiert haben, kann der Benutzer in Teams keine Apps auf dieser Plattform sehen oder installieren.
+Denken Sie daran, dass Sie den Zugriff auf alle in Power Apps und Power Virtual Agents erstellten Apps steuern können, aber Sie können keine einzelnen Apps zulassen oder blockieren. Entscheidungsträger entscheiden, wer über das Freigabefeature innerhalb von Apps Power Apps und Power Virtual Agents. Wenn ein Ersteller eine app, die er in Power Virtual Agents erstellt hat, für einen Benutzer freigegeben hat und Sie Freigegebene **Power Virtual Agents-Apps** für diesen Benutzer blockiert haben, kann der Benutzer in Teams keine Apps auf dieser Plattform sehen oder installieren.
 
 Wenn ein Benutzer auf Apps von Power Apps oder Power Virtual Agents zugreifen darf und Sie den Zugriff des Benutzers auf Apps von einer oder beiden Plattformen blockieren, kann der Benutzer weiterhin auf microsoft Power Platforms-Apps zugreifen und diese verwenden, die er installiert hat, bevor Sie die App oder die Apps blockiert haben. Der Benutzer kann jedoch keine Apps von diesen Plattformen mehr unter Von Ihren Kollegen **erstellt sehen oder installieren.**
 
@@ -64,23 +64,23 @@ Wenn ein Benutzer auf Apps von Power Apps oder Power Virtual Agents zugreifen da
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-your-organization"></a>Zulassen oder Blockieren von Microsoft Power Platform-Apps für Ihre Organisation
 
-Standardmäßig sind **freigegebene Power Apps** **und virtuelle Power-Agent-Apps** für alle benutzer Teams in Ihrer Organisation zulässig. Sie können sie auf Organisationsebene auf [](manage-apps.md) der Seite Apps verwalten im Admin Center Microsoft Teams blockieren oder zulassen.  
+Standardmäßig sind **freigegebene Power Apps** **und virtuelle Power-Agent-Apps** für alle benutzer Teams in Ihrer Organisation zulässig. Sie können sie auf Organisationsebene auf [](manage-apps.md) der Seite Apps verwalten im Admin Center Microsoft Teams zulassen.  
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein Dienstadministrator Teams, um auf die Seite zugreifen zu können.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein Dienstadministrator Teams sein, um auf die Seite zugreifen zu können.
 2. Gehen Sie in der Liste der Apps wie folgt vor:
 
     :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot der Seite "Apps verwalten" mit freigegebenen Microsoft Power Platform-Apps":::
 
-    - Um in Power Apps oder Power Virtual Agents erstellte Apps für alle Benutzer in Ihrer Organisation zu blockieren, suchen Sie nach **Freigegebene Power Apps-** oder **virtuelle Power Virtual Agent-Apps,** wählen Sie sie aus, und klicken Sie dann auf **Blockieren.**
+    - Um in Power Apps oder Power Virtual Agents erstellte Apps für alle Benutzer in Ihrer Organisation zu blockieren, suchen Sie nach **Freigegebene Power Apps-** oder **Virtuelle Power Virtual Agent-Apps,** wählen Sie sie aus, und klicken Sie dann auf **Blockieren.**
     - Um apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or Shared Power Virtual **Agent Apps, select** it, and then click **Allow**.
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Zulassen oder Blockieren von Microsoft Power Platform-Apps für bestimmte Benutzer
 
 Wenn Sie bestimmten Benutzern in Ihrer Organisation den Zugriff auf in Power Apps oder Power Virtual Agents erstellte Apps gestatten oder blockieren möchten, erstellen Sie eine oder mehrere benutzerdefinierte [App-Berechtigungsrichtlinien,](teams-app-permission-policies.md)und weisen Sie sie zu. 
 
-Um beispielsweise für bestimmte Benutzer den Zugriff auf in Power Apps erstellte Apps zu blockieren, erstellen Sie eine benutzerdefinierte App-Berechtigungsrichtlinie, um **freigegebene Power Apps** zu blockieren, und weisen Sie die Richtlinie dann diesen Benutzern zu.
+Um beispielsweise für bestimmte Benutzer den Zugriff auf in Power Apps erstellte Apps zu blockieren, erstellen Sie eine benutzerdefinierte App-Berechtigungsrichtlinie, um freigegebene **Power Apps zu** blockieren, und weisen Sie die Richtlinie dann diesen Benutzern zu.
 
-:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot eines Beispiels für eine benutzerdefinierte App-Berechtigungsrichtlinie mit blockierter Power Apps Freigegebene App.":::
+:::image type="content" source="media/manage-power-platform-apps-app-permission-policy.png" alt-text="Screenshot eines Beispiels für eine benutzerdefinierte App-Berechtigungsrichtlinie mit Power Apps Freigabe.":::
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Verwenden von Überwachungsprotokollen zum Untersuchen der Installationsaktivitäten der Microsoft Power Platform
 
@@ -97,4 +97,4 @@ Sie können Mithilfe von Überwachungsprotokollen für Teams Ereignisse untersuc
 - [Freigeben Ihres Bots für andere Benutzer](/power-virtual-agents/admin-share-bots)
 - [Verwalten von Apps im Microsoft Teams Admin Center](manage-apps.md)
 - [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
-- [Veröffentlichen einer benutzerdefinierten App, die über die APP Teams Übermittlungs-API übermittelt wird](submit-approve-custom-apps.md)
+- [Veröffentlichen einer benutzerdefinierten App, die über die API für Teams-Übermittlung übermittelt wird](submit-approve-custom-apps.md)

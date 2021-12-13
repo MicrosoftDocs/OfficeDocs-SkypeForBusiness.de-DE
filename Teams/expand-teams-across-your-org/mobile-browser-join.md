@@ -30,12 +30,12 @@ ms.locfileid: "60960114"
 
 Microsoft Teams erleichtert Personen die Teilnahme an Terminen auf ihren mobilen Geräten, ohne sie herunterladen Teams. Für eine nahtlose Erfahrung können die Teilnehmer über einen mobilen Browser an Terminen teilnehmen, z. B. Arztbesuche, Finanzberatungen, Dozentenbürozeiten und so weiter. Teilnehmer müssen die mobile Teams auf ihren mobilen Android- oder iOS-Geräten nicht installieren.
 
-Bei der Teilnahme über einen mobilen Browser werden Teilnehmer, die über ein Mobilgerät an einem Termin teilnehmen, nicht aufgefordert, ihre Teams. Stattdessen wird Teams mobilen Browser geöffnet, in dem der Teilnehmer Jetzt teilnehmen auswählen kann, **um** bei der Besprechung mitmachen zu können. Beachten Sie bei diesem Feature, dass Teams in einem mobilen Browser und nicht in der App geöffnet wird, wenn Teams Teams bereits auf dem mobilen Gerät eines Teilnehmers installiert ist.
+Bei der Teilnahme über einen mobilen Browser wird ein Teilnehmer, der einem Termin über ein Mobilgerät beitritt, nicht zum Herunterladen Teams. Stattdessen wird Teams in einem mobilen Browser geöffnet, in dem der Teilnehmer Jetzt **teilnehmen** auswählen kann, um bei der Besprechung teilnehmen. Beachten Sie bei diesem Feature, dass Teams in einem mobilen Browser und nicht in der App geöffnet wird, wenn Teams Teams bereits auf dem mobilen Gerät eines Teilnehmers installiert ist.
 
 Derzeit ist die Teilnahme über einen mobilen Browser für Termine verfügbar, die wie folgt geplant werden:
 
 - [Die Bookings-App](https://support.microsoft.com/office/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-us&rs=en-us&ad=us#PickTab=Bookings)
-- Microsoft Teams EHR-Connector (Electronic Health Records)
+- Microsoft Teams Connector für elektronische Krankenakten (Electronic Health Records, EHR)
 
   - Integration in [Cerner EHR](healthcare/ehr-admin-cerner.md)
   - Integration mit [epischer EHR](healthcare/ehr-admin.md)
@@ -60,7 +60,7 @@ Wählen Sie in Bookings **Neue Buchung** aus, und aktivieren Sie dann Teilnehmer
 
 :::image type="content" source="../media/mobile-browser-join-bookings-form.png" alt-text="Screenshot der Einstellung "Teilnehmern die Teilnahme über einen mobilen Browser erlauben" auf dem neuen Buchungsformular in der Bookings-App":::
 
-### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Termine, die über den Teams EHR-Connector geplant sind
+### <a name="appointments-scheduled-through-the-teams-ehr-connector"></a>Termine, die über den EHR Teams geplant wurden
 
 Sie oder Ihre Mitarbeiter müssen nichts einrichten!
 
@@ -76,18 +76,18 @@ Dies sind die mobilen Browser, die derzeit unterstützt werden. Sofern nicht and
 |---------|:---:|:---:|:---:|
 |Android   |   &#x2714;      |         |         |
 |iOS    |         |  &#x2714; &sup1;       |         |
-|macOS     |         |  &#x2714; &Sup2;    |         |
+|macOS     |         |  &#x2714; &sup2;    |         |
 
-&Sup1; iOS-Apps in Safari können keine Mikrofon- und Lautsprechergeräte auswählen. Verwenden Sie beispielsweise Bluetooth Geräte. Dies ist eine Einschränkung des Betriebssystems, das die standardmäßige Geräteauswahl steuert.
+&sup1; iOS-Apps in Safari können keine Mikrofon- und Lautsprechergeräte auswählen. Verwenden Sie beispielsweise Bluetooth Geräte. Dies ist eine Einschränkung des Betriebssystems, das die standardmäßige Geräteauswahl steuert.
 
-&Sup2; Für die Unterstützung ausgehender Videos wird Safari 14+ und macOS 11+ benötigt.
+&sup2; Für die Unterstützung ausgehender Videos wird Safari 14+ und macOS 11+ benötigt.
 
 ## <a name="things-to-consider"></a>Zu berücksichtigende Dinge
 
-Die Mitarbeiter, die den virtuellen Besuch durchführen, können ihren Bildschirm auf ihrem Teams-Desktop, auf einem mobilen Gerät oder im Webclient mit einem Teilnehmer teilen, der über einen mobilen Browser beitritt. Teilnehmer können ihren Bildschirm jedoch nicht über einen mobilen Browser freigeben.
+Die Mitarbeiter, die den virtuellen Besuch durchführen, können ihren Bildschirm auf ihrem Teams-Desktop, auf einem mobilen Gerät oder im Webclient mit einem Teilnehmer teilen, der über einen mobilen Browser teilt. Teilnehmer können ihren Bildschirm jedoch nicht über einen mobilen Browser freigeben.
 
 > [!NOTE]
-> In zukünftigen Versionen von Teams werden weitere Funktionen für die Teilnahme an Besprechungen hinzugefügt, daher sollten Sie sich hier über die neuesten Informationen informieren. Weitere Informationen zu bevorstehenden Features von Microsoft Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
+> Wir fügen der Besprechungs-Teilnahmeerfahrung in zukünftigen Versionen von Teams weitere Funktionen hinzu, daher sollten Sie sich hier immer wieder über die neuesten Informationen informieren. Weitere Informationen zu bevorstehenden Features von Microsoft Teams finden Sie in der [Microsoft 365-Roadmap](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=microsoft%2Cteams).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
@@ -95,4 +95,4 @@ Die Mitarbeiter, die den virtuellen Besuch durchführen, können ihren Bildschir
 - [Erstellen eines Bookings-Termintyps](https://support.microsoft.com/office/create-an-appointment-type-810eac77-6a65-4dc8-964d-c00eadf43887)
 - [Teilnehmen an einem Bookings-Termin als Teilnehmer](https://support.microsoft.com/office/join-a-bookings-appointment-as-an-attendee-95cea12d-2220-421f-a663-6efb20913c7f)
 - [Virtuelle Besuche mit Teams - Integration in Cerner EHR](healthcare/ehr-admin-cerner.md)
-- [Virtuelle Besuche mit Teams - Integration in die epische EHR](healthcare/ehr-admin.md)
+- [Virtuelle Besuche mit Teams - Integration in die Epische EHR](healthcare/ehr-admin.md)

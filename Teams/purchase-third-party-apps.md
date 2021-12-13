@@ -1,5 +1,5 @@
 ---
-title: Erwerben von Drittanbieter-Apps für Teams
+title: Erwerben sie Apps von Drittanbietern für Teams
 author: KarliStites
 ms.author: kastites
 manager: serdars
@@ -12,7 +12,7 @@ ms.collection:
 ms.reviewer: chhavib, vaibhava
 search.appverid: MET150
 f1keywords: ''
-description: Informationen zum Erwerben von Drittanbieter-Apps für Teams Sie im Microsoft Teams Admin Center.
+description: Erfahren Sie, wie Sie im Admin Center Teams von Drittanbietern Microsoft Teams erwerben.
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
@@ -23,9 +23,9 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 10/27/2021
 ms.locfileid: "60600219"
 ---
-# <a name="purchase-third-party-apps-for-teams"></a>Erwerben von Drittanbieter-Apps für Teams
+# <a name="purchase-third-party-apps-for-teams"></a>Erwerben sie Apps von Drittanbietern für Teams
 
-Teams-Apps können kostenlos installiert werden, und einige erfordern möglicherweise den Kauf von Serviceabonnements, um den vollen Funktionsumfang und Umfang der App zu nutzen. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die über [AppSource](https://appsource.microsoft.com/) und jetzt über das Microsoft Teams Admin Center erhältlich sind.
+Teams-Apps können kostenlos installiert werden, und für einige ist möglicherweise der Kauf von Serviceabonnements erforderlich, um den vollen Funktionsumfang und Umfang der App zu nutzen. Diese Dienstabonnements werden als SaaS-Angebote (Software as a Service) bezeichnet, die über [AppSource](https://appsource.microsoft.com/) und jetzt über das Microsoft Teams Admin Center erhältlich sind.
 
 Auf [der Seite Apps](manage-apps.md) verwalten im Microsoft Teams Admin Center können Sie alle Apps Teams Ihrer Organisation anzeigen und verwalten. So können Sie beispielsweise den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps in den App Store Ihrer Organisation hochladen, Apps auf Organisationsebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
 
@@ -36,9 +36,9 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
 ## <a name="purchase-apps-in-the-teams-admin-center"></a>Kaufen von Apps im Teams Admin Center
 
 > [!IMPORTANT]
-> Wenn Sie ihren Benutzern den Kauf einer App über den Teams-App-Store sperren möchten, müssen Sie die App blockieren. Weitere Informationen zum Blockieren einer App finden Sie unter Verwalten von [App-Richtlinien](app-policies.md) oder Informationen zum Blockieren einer App [auf Organisationsebene.](manage-apps.md#allow-and-block-apps)
+> Wenn Sie für Ihre Benutzer den Kauf einer App über den Teams-App-Store blockieren möchten, müssen Sie die App blockieren. Weitere Informationen zum Blockieren einer App finden Sie unter Verwalten von [App-Richtlinien](app-policies.md) oder Informationen zum Blockieren einer App [auf Organisationsebene.](manage-apps.md#allow-and-block-apps)
 
-1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein dienstadministrator Teams sein, um auf die Seite zugreifen zu können.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein Teams dienstadministrator sein, um auf die Seite zugreifen zu können.
 2. Suchen Sie nach der App, die Sie verwenden möchten. Um Apps mit einem kostenpflichtigen SaaS-Abonnement zu identifizieren, sehen Sie in der Spalte **Lizenzen** nach. Jede App hat einen der folgenden Werte:
     - **Kaufen:** Die App bietet ein SaaS-Abonnement und kann zum Kauf angeboten werden.  
     - **Gekauft:** Die App bietet ein SaaS-Abonnement, und Sie haben Lizenzen dafür erworben.
@@ -48,7 +48,7 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
 > [!NOTE]
 > Private Pläne können ebenfalls zum Kauf aufgeführt werden, z. B. Sonderpreise, die Ihre Organisation zuvor mit einem ISV ausgehandelt hat. Diese Pläne haben die Bezeichnung **Privater Plan** unter dem Plannamen.
 
-4. Wenn Sie eine App abonnieren möchten, wählen Sie den plan und dann Kaufen **aus.** Der Auscheckvorgang wird direkt im Teams Admin Center geöffnet.
+4. Wenn Sie eine App abonnieren möchten, wählen Sie den plan und dann Kaufen **aus.** Der Auscheckvorgang wird direkt im Admin Center Teams geöffnet.
 5. Wählen Sie die Anzahl der Benutzerlizenzen aus, die Sie kaufen möchten.
 6. Überprüfen Sie, ob das Abrechnungskonto und die verkaufte Adresse korrekt sind. Wenn Sie noch kein Konto haben, fügen Sie ein neues hinzu, indem Sie **Hinzufügen auswählen.** Weitere Informationen zu Abrechnungskonten finden Sie unter [Verstehen von Abrechnungskonten.](/microsoft-365/commerce/manage-billing-accounts)
 
@@ -61,14 +61,14 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
 
 Nachdem Sie das SaaS-Angebot erworben haben, das der Teams-App zugeordnet ist, können Sie auf der Seite mit den App-Details auf der Registerkarte Pläne und Preise die folgenden Kaufdetails anzeigen. 
 
-- **Datum der Lizenzaktivierung:** Das Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als **Abonnement aktivierung ausstehend angezeigt.**
+- **Datum der Lizenzaktivierung:** Das Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als **Abonnement ausstehende Aktivierung angezeigt.**
 - **Lizenzen:** Anzahl der erworbenen Lizenzen.
 
 :::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details".":::
 
 Wählen **Sie Lizenzen verwalten** aus, um zu den Microsoft 365 Admin Center, um die erworbenen Lizenzen anzeigen und zu verwalten.
 
-Globale Administratoren können weitere Lizenzen hinzufügen, Lizenzen entfernen und Abonnements für Einkäufe von allen Personen in der Organisation stornieren. Teams Dienstadministratoren können für Käufe von sich selbst dieselben Aktionen ausführen. Wenn ein Teams Dienstadministrator aber auch über die Rolle des Abrechnungsadministrators verfügt, kann er Einkäufe von allen Personen in der Organisation verwalten.
+Globale Administratoren können weitere Lizenzen hinzufügen, Lizenzen entfernen und Abonnements für Einkäufe von allen Personen in der Organisation stornieren. Teams Dienstadministratoren können für Käufe von sich selbst dieselben Aktionen ausführen. Wenn ein Administrator Teams Diensts jedoch auch über die Rolle des Abrechnungsadministrators verfügt, kann er Einkäufe von jedem in der Organisation verwalten.
 
 > [!NOTE]
 > Wenn ein globaler Administrator ein Abonnement verwalten möchte, das von einem anderen globalen Administrator erworben wurde, muss er sich im gleichen Abrechnungskonto anmelden. Sie können einem anderen globalen Administrator Zugriff auf ein erworbenes Abonnement geben, indem Sie die App im Microsoft 365 Admin Center. Wechseln Sie von dort aus zu **Abrechnungsprofil anzeigen** Abrechnungskonto auswählen: Rollen  >    >    >  **zuweisen: Weitere globale Administratoren hinzufügen.**
@@ -80,7 +80,7 @@ Globale Administratoren können weitere Lizenzen hinzufügen, Lizenzen entfernen
 - Rechnungsabrechnung ist nur für globale Administratoren oder einen Administrator mit Teams Dienstadministrator- und Abrechnungsadministratorberechtigungen verfügbar.
 - Rechnungsabrechnung ist nicht verfügbar, wenn Sie einen Plan mit einer kostenlosen Testversion von 30 Tage erwerben.
 
-## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Haben Sie ein SaaS-Angebot für Teams-App, die Sie im Microsoft Teams Admin Center und appSource anbieten und verkaufen möchten?
+## <a name="have-a-saas-offer-for-a-teams-app-that-you-want-to-list-and-sell-in-the-microsoft-teams-admin-center-and-appsource"></a>Haben Sie ein SaaS-Angebot für Teams-App, die Sie im Microsoft Teams Admin Center und appSource auflisten und verkaufen möchten?
 
 Entwickler können SaaS-Angebote erstellen, die ihren Apps Teams sind. Diese Angebote werden über [Partner Center veröffentlicht](https://partner.microsoft.com) und stehen Organisationen zum Kauf über [AppSource](https://appsource.microsoft.com/) und Microsoft Teams Admin Center zur Verfügung.
 
@@ -91,4 +91,4 @@ App-Entwickler von Drittanbietern finden weitere Informationen unter Erstellen [
 - [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md)
 - [Erstellen eines SaaS-Angebots](/azure/marketplace/partner-center-portal/create-new-saas-offer)
 - [Azure AD integrierte Rollen](/azure/active-directory/roles/permissions-reference)
-- [Microsoft 365 Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles)
+- [Microsoft 365 von Administratorrollen](/microsoft-365/admin/add-users/about-admin-roles)

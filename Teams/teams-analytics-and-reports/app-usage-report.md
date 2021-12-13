@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams bericht zur App-Verwendung
+title: Microsoft Teams der App-Verwendung
 author: SerdarSoysal
 ms.author: serdars
 manager: serdars
@@ -24,13 +24,13 @@ ms.contentlocale: de-DE
 ms.lasthandoff: 10/27/2021
 ms.locfileid: "60596212"
 ---
-# <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams bericht zur App-Verwendung
+# <a name="microsoft-teams-app-usage-report"></a>Microsoft Teams der App-Verwendung
 
 Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält Informationen darüber, welche Apps Benutzer in einem Teams.  
 
 ## <a name="view-the-app-usage-report"></a>Anzeigen des Berichts "App-Verwendung"
 
-1. Klicken Sie im linken Navigationsbereich des Admin Centers unter <https://admin.teams.microsoft.com> auf **Analyseberichte &**  >  **Verwendungsberichte**.<br><br>![Screenshot des Menüelements "Verwendungsberichte".](media/app-usage-report1.png "Screenshot des Menüelements &quot;Verwendungsberichte&quot;.")
+1. Klicken Sie im linken Navigationsbereich des Admin Centers unter <https://admin.teams.microsoft.com> auf **Analyseberichte &**  >  **Verwendungsberichte**.<br><br>![Screenshot des Menüelements "Verwendungsberichte"](media/app-usage-report1.png "Screenshot des Menüelements &quot;Verwendungsberichte&quot;")
 2. Wählen Sie **auf der Registerkarte** Berichte anzeigen unter **Bericht** die Option **Apps-Verwendung aus.**
 
 3. Wähl Sie unter **Datumsbereich** einen Bereich aus, und klicken Sie dann auf **Bericht ausführen**. Im bericht Teams Apps-Nutzung werden die Trends über die letzten 7, 30 oder 90 Tage angezeigt.<br><br>![Screenshot des Berichts "Apps-Nutzung".](media/app-usage-report2.png "Screenshot des Berichts &quot;Apps-Nutzung&quot;.")
@@ -38,7 +38,7 @@ Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält In
 
 ## <a name="interpret-the-report"></a>Interpretieren des Berichts
 
-:::image type="content" alt-text="Screenshot des Teams-App-Nutzungsberichts im Teams Admin Center mit Callouts." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
+:::image type="content" alt-text="Screenshot des Berichts Teams App-Nutzung im Teams Admin Center mit Callouts." source="media/app-usage-report5.png" lightbox="media/app-usage-report5.png":::
 
 1. Jeder Bericht weist oben links ein Datum auf, das anschaut, wann der Bericht erstellt wurde. Berichte geben in der Regel eine Latenz von 24 Stunden ab dem Zeitpunkt des Öffnens einer App an.
 
@@ -64,11 +64,11 @@ Der Teams Bericht zur App-Verwendung im Microsoft Teams Admin Center enthält In
 
 7. Zum Hinzufügen oder Entfernen von Spalten in der  Tabelle klicken Sie  oben rechts auf das Symbol Spalten bearbeiten, wählen Sie auf der Registerkarte Spalten bearbeiten neue Kriterien aus, und klicken Sie dann auf **Übernehmen**.
 
-8. Wenn Sie den Bericht zur Offlineanalyse in eine CSV-Datei exportieren möchten, wählen Sie oben rechts das Symbol In **Excel** exportieren aus, und klicken Sie dann auf der Registerkarte **Downloads** unter **Status** auf **Herunterladen.**
+8. Um den Bericht für die Offlineanalyse in eine CSV-Datei zu exportieren, wählen Sie oben rechts das Symbol In **Excel** exportieren aus, und klicken Sie dann auf der Registerkarte **Downloads** unter **Status** auf **Herunterladen.**
 
    :::image type="content" alt-text="Screenshot des Downloads-Bereichs." source="media/app-usage-report7.png" lightbox="media/app-usage-report7.png":::
 
-9. Wenn Sie den Bericht in einer Excel, wird auch eine **ID-Spalte** angezeigt, die die App-ID darstellt, in der Regel eine alphanumerische Zeichenfolge. Wenn die **ID** **als**\n, bedeutet dies, dass ein Benutzer um das Löschen seiner Informationen gebeten hat.
+9. Wenn Sie den Bericht in Excel anzeigen, wird auch eine **ID-Spalte** angezeigt, die die App-ID darstellt, in der Regel eine alphanumerische Zeichenfolge. Wenn die **ID** auf **\n** ist, bedeutet dies, dass ein Benutzer um das Löschen seiner Informationen gebeten hat.
 
    ![Screenshot des heruntergeladenen Excel Berichts.](media/app-usage-report8.png "Screenshot des heruntergeladenen Excel Berichts.")
 

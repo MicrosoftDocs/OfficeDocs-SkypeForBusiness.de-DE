@@ -32,17 +32,17 @@ Der Assistent richtet ein Team für Ihre Frontline-Mitarbeiter ein und weist jed
 
 Derzeit unterstützt der Assistent das Hinzufügen von 100 Benutzern bei jeder Ausführung. Wir arbeiten daran, in Kürze die Anzahl der Benutzer pro Ausführung zu erhöhen. Hier finden Sie die neuesten Updates.
 
-Der Assistent steht allen Organisationen zur Verfügung, die über mindestens eine Lizenz Microsoft 365 F verfügen. Sie können den Assistenten so oft ausführen, wie Sie benötigen, um Teams Mitarbeiter an verschiedenen Standorten oder an unterschiedlichen Standorten in Ihrer Organisation an vordersten Front zu stellen.
+Der Assistent steht allen Organisationen zur Verfügung, die über mindestens eine Lizenz Microsoft 365 F verfügen. Sie können den Assistenten so oft ausführen, wie Sie benötigen, um Teams Mitarbeiter an unterschiedlichen Standorten oder an unterschiedlichen Standorten in ihrer Organisation an vordersten Front zu stellen.
 
 > [!NOTE]
 > Mit diesem Assistenten können Sie Ihre Mitarbeiter an vorder frontline schnell integrieren, Teams die Microsoft 365 Admin Center. Informationen zum Bereitstellen von Teams für Ihre Frontline-Workers mithilfe von Skripts finden Sie unter So wird's Teams von Frontline Workers im [Maßstab bereitgestellt.](flw-scripted-deployment.md)
 
 > [!NOTE]
-> Vertraulichkeitsbezeichnungen werden vom [Assistenten noch nicht](sensitivity-labels.md) unterstützt. Wenn Ihre Organisation Vertraulichkeitsbezeichnungen erfordert, um ein Team zu erstellen, wird der Assistent im Assistenten Microsoft 365 Admin Center.
+> Vertraulichkeitsbezeichnungen werden vom [Assistenten noch nicht](sensitivity-labels.md) unterstützt. Wenn Ihre Organisation vertraulichkeitsbeschriftungen erfordert, um ein Team zu erstellen, wird der Assistent nicht in der Microsoft 365 Admin Center.
 
 ## <a name="run-the-wizard"></a>Ausführen des Assistenten
 
-1. Wählen Sie im linken Navigationsbereich [des Microsoft 365 Admin Center](https://admin.microsoft.com/)die Option **Setup aus.** Wechseln Sie zum **Abschnitt Apps und** E-Mail, und wählen Sie dann unter Erste Mitarbeiter an der **Frontline** mit der Ausführung die Option **Anzeigen aus.** Hier erhalten Sie weitere Informationen zu den Funktionen, die Microsoft 365 Mitarbeiter an vorder frontline bieten.
+1. Wählen Sie im linken Navigationsbereich [des Microsoft 365 Admin Center](https://admin.microsoft.com/)die Option **Setup aus.** Wechseln Sie zum **Abschnitt Apps und** E-Mail, und wählen Sie dann unter Erste Mitarbeiter an der **Frontline** mit der Ausführung die Option **Anzeigen aus.** Hier erhalten Sie weitere Informationen zu den Funktionen, die Microsoft 365 Mitarbeitern an vorder frontline bietet.
 
     :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Screenshot der Detailseite für die Onboarding-Erfahrung von Frontline Worker im Microsoft 365 Admin Center":::
 
@@ -62,7 +62,7 @@ Der Assistent steht allen Organisationen zur Verfügung, die über mindestens ei
 
     Durch zuweisen einer Frontline Worker- oder Frontline Manager-Rolle erhält dieser Benutzer ein Richtlinienpaket. Das Richtlinienpaket erstellt eine Benutzererfahrung in Teams, die auf ihre Rolle zugeschnitten ist. Diese Erfahrung umfasst vorinstallierte Apps und Richtlinien für gesunde Frontline-Worker- und Managerkommunikation und -zusammenarbeit.
 
-    Wählen Sie als Nächstes einen Standort aus, und weisen Sie jedem Microsoft 365 F eine Lizenz zu. Wenn Sie nicht über genügend Lizenzen verfügen, können Sie Weitere Lizenzen kaufen auswählen, **um** weitere Lizenzen zu erwerben.  
+    Wählen Sie als Nächstes einen Standort aus, und weisen Sie jedem Microsoft 365 F-Lizenz zu. Wenn Sie nicht über genügend Lizenzen verfügen, können Sie Weitere Lizenzen kaufen auswählen, **um** weitere Lizenzen zu erwerben.  
 
 6. Wählen Sie aus, wer die Status-E-Mail erhält, nachdem der Assistent abgeschlossen wurde. Die E-Mail enthält Erfolgs- und Fehlerinformationen zu den Aktionen, die vom Assistenten zum Erstellen des Teams, Hinzufügen von Teammitgliedern sowie Zuweisen eines Lizenz- und Richtlinienpakets zu jedem &mdash; Teammitglied ausgeführt wurden. Verwenden Sie diese Informationen, um eventuell aufgetretene Fehler zu beheben.
 
@@ -74,16 +74,16 @@ Der Assistent steht allen Organisationen zur Verfügung, die über mindestens ei
 
     Der Assistent erstellt Ihr Team und weist Teammitgliedern Lizenzen und Richtlinienpakete zu. Der Vorgang kann einige Minuten dauern, danach erhalten die von Ihnen gewählten Empfänger eine Status-E-Mail.
 
-8. Sie sind auf dem Weg, aber Sie sind noch nicht fertig! Lesen Sie als Nächstes den [Abschnitt Was nach dem Ausführen](#what-to-do-after-running-the-wizard) des Assistenten zu tun ist in diesem Artikel.
+8. Sie sind auf dem Weg, aber Sie sind noch nicht fertig! Lesen Sie als Nächstes den [Abschnitt Was nach](#what-to-do-after-running-the-wizard) dem Ausführen des Assistenten zu tun ist in diesem Artikel.
 
 ## <a name="what-to-do-after-running-the-wizard"></a>Was nach dem Ausführen des Assistenten zu tun ist
 
 Nachdem Sie den Assistenten ausgeführt haben, ist es wichtig, dass Sie:
 
 - Teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Front mit, dass ihnen Lizenzen Teams sind.
-- Wenn Sie freigegebene Geräte verwenden, stellen Sie sicher, Teams auf diesen Geräten installiert ist. Wenn Ihre Organisation ein Modell "Bring your own device" verwendet, teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Frontline mit, dass sie Teams auf ihre Geräte installieren müssen.
+- Wenn Sie freigegebene Geräte verwenden, stellen Sie sicher, Teams auf diesen Geräten installiert ist. Wenn Ihre Organisation ein Modell "Bring your own device" verwendet, teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Frontline mit, dass sie Die Teams auf ihre Geräte herunterladen und installieren müssen.
 
-Wenn der Mitarbeiter in der Frontlinie Teams zum ersten Mal öffnet, erhält er eine maßgeschneiderte First Run-Erfahrung, die Chats und Kanäle, Anrufe und Aufgabenverwaltung innerhalb der Teams.
+Wenn der Mitarbeiter in der Frontlinie Teams zum ersten Mal öffnet, erhält er eine maßgeschneiderte First Run-Erfahrung, die Chats und Kanäle, Anrufe und Aufgabenmanagement innerhalb der Teams.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

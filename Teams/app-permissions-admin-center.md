@@ -8,7 +8,7 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie von Apps angeforderte Berechtigungen anzeigen und den Apps auf der Seite Apps verwalten im Microsoft Teams Admin Center die Administratorzusberechtigung erteilen.
+description: Erfahren Sie, wie Sie die von Apps angeforderten Berechtigungen anzeigen und den Apps auf der Seite "Apps verwalten" im Microsoft Teams Admin Center die Administratorzusberechtigung erteilen.
 ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
@@ -22,7 +22,7 @@ ms.locfileid: "60846128"
 ---
 # <a name="view-app-permissions-and-grant-admin-consent-in-the-microsoft-teams-admin-center"></a>Anzeigen von App-Berechtigungen und Erteilen der Administratorzusberechtigung im Microsoft Teams Admin Center
 
-Auf [der Seite Apps](manage-apps.md) verwalten im Microsoft Teams Admin Center können Sie alle Ihre Teams für Ihre Organisation anzeigen und verwalten. So können Sie beispielsweise den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf Organisationsebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
+Auf [der Seite Apps](manage-apps.md) verwalten im Microsoft Teams Admin Center können Sie alle Teams für Ihre Organisation anzeigen und verwalten. So können Sie beispielsweise den Status und die Eigenschaften von Apps auf Organisationsebene anzeigen, neue benutzerdefinierte Apps im App Store Ihrer Organisation genehmigen oder hochladen, Apps auf Organisationsebene blockieren oder zulassen sowie organisationsweite App-Einstellungen verwalten.
 
 Hier können Sie auch organisationsweite Administratorzusberechtigungen für Apps erteilen, die Berechtigungen für den Zugriff auf Daten anfordern und ressourcenspezifische Zustimmungsberechtigungen (RSC) für Apps anzeigen.
 
@@ -32,7 +32,7 @@ Wenn Sie ein globaler Administrator sind, können Sie Apps, die Berechtigungen f
 
 Beispiele für von Apps angeforderte Berechtigungen sind die Möglichkeit, in einem Team gespeicherte Informationen zu lesen, das Profil eines Benutzers zu lesen und eine E-Mail im Auftrag von Benutzern zu senden. Weitere Informationen finden Sie unter [Berechtigungen und Zustimmung im Microsoft Identity Platform Endpunkt.](/azure/active-directory/develop/v2-permissions-and-consent) 
 
-In **der Spalte** Berechtigungen wird angegeben, ob eine App Über Berechtigungen verfügt, für die eine Zustimmung erforderlich ist. Es wird ein Link **Details** anzeigen für jede App angezeigt, die in einer App registriert Azure AD, die über Berechtigungen verfügt, die ihre Zustimmung benötigen. Beachten Sie, dass dies nur für benutzerdefinierte Apps und Apps von Drittanbietern gilt. Dieser Link wird nicht angezeigt, oder Sie müssen die Zustimmung des Administrator für Apps erteilen, die von Microsoft veröffentlicht wurden.
+In **der Spalte** Berechtigungen wird angegeben, ob eine App Über Berechtigungen verfügt, für die eine Zustimmung erforderlich ist. Es wird ein Link **Details** anzeigen für jede App angezeigt, die in einer App registriert Azure AD die Berechtigungen besitzen, die ihre Zustimmung benötigen. Beachten Sie, dass dies nur für benutzerdefinierte Apps und Apps von Drittanbietern gilt. Dieser Link wird nicht angezeigt, oder Sie müssen die Zustimmung des Administrator für Apps erteilen, die von Microsoft veröffentlicht wurden.
 
 :::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot der Spalte "Berechtigungen" auf der Seite "Apps verwalten"":::
 
@@ -57,18 +57,18 @@ Führen Sie die folgenden Schritte aus, um einer App organisationsweite Zustimmu
     > Wenn Sie einer App organisationsweite Zustimmung erteilen, kann die App auf die Daten Ihrer Organisation zugreifen. Überprüfen Sie die von der App angeforderten Berechtigungen sorgfältig, bevor Sie ihre Zustimmung erteilen.
 5. Wenn Sie den von der App angeforderten Berechtigungen zustimmen, klicken Sie **auf Zustimmen,** um die Zustimmung zu erteilen. Vorübergehend wird am oberen Rand der Seite ein Banner angezeigt, um Sie darauf hin zu machen, dass die angeforderten Berechtigungen für die App gewährt wurden. Die App hat jetzt Zugriff auf die angegebenen Ressourcen für alle Benutzer in Ihrer Organisation, und niemand wird aufgefordert, die Berechtigungen zu überprüfen.
 
-Nachdem Sie die Berechtigungen akzeptiert haben, wird auf der Seite mit den **App-Details** unter Organisationsweite Berechtigungen eine Meldung angezeigt, mit der Sie wissen, dass die Zustimmung erteilt wurde. Um Details zu den Berechtigungen der App anzuzeigen, klicken Sie auf den **Link Azure Active Directory,** um zur App-Seite im Azure AD zu wechseln.
+Nachdem Sie die Berechtigungen akzeptiert haben, wird auf der Seite mit den **App-Details** unter Organisationsweite Berechtigungen eine Meldung angezeigt, mit der Sie wissen, dass die Zustimmung erteilt wurde. Um Details zu den Berechtigungen der App anzuzeigen, klicken Sie auf den **Link Azure Active Directory,** um zur Seite der App im Azure AD zu wechseln.
 
 :::image type="content" source="media/app-perm-admin-center-org-wide-accepted-new.png" alt-text="Screenshot der Nachricht, die angezeigt wird, wenn die Zustimmung erteilt wurde.":::
 
-Wenn Benutzer in Ihrer Organisation Ihre Zustimmung erteilen dürfen und ein oder mehrere Benutzer einer bestimmten App die Zustimmung erteilt haben, wird ihnen dieselbe Meldung angezeigt, um Sie darüber zu in Verbindung zu halten, dass die Zustimmung erteilt wurde, und der Link Azure Active Directory zur Seite der App im Azure AD-Portal wird angezeigt.
+Wenn Benutzer in Ihrer Organisation ihre Zustimmung erteilen dürfen und ein oder mehrere Benutzer einer bestimmten App die Zustimmung erteilt haben, wird Ihnen dieselbe Meldung angezeigt, um Sie darüber zu in Verbindung zu halten, dass die Zustimmung erteilt wurde, und der Link Azure Active Directory zur Seite der App im Azure AD-Portal wird angezeigt.
 
 > [!NOTE]
 > Obwohl die  Option Berechtigungen und Zustimmung überprüfen für Teams-Dienstadministratoren nicht verfügbar ist und sie Apps keine organisationsweite Administratorzusberechtigung erteilen können,  können Teams-Dienstadministratoren die Inhalte auf der Registerkarte Berechtigungen für eine App anzeigen. Beispielsweise kann ein Teams-Dienstadministrator auf  den Link Azure Active Directory klicken, um Details zu App-Berechtigungen im Azure AD anzuzeigen. 
 
 ## <a name="view-resource-specific-consent-permissions-of-an-app"></a>Anzeigen ressourcenspezifischer Zustimmungsberechtigungen für eine App
 
-Mit RSC-Berechtigungen können Teambesitzer einer App die Zustimmung zum Zugreifen auf und Ändern von Teamdaten erteilen. RSC-Berechtigungen sind präzise und Teams Berechtigungen, die definieren, was eine App in einem bestimmten Team tun kann. Beispiele für RSC-Berechtigungen sind das Erstellen und Löschen von Kanälen, das Erhalten der Einstellungen für ein Team und das Erstellen und Entfernen von Kanalregisterkarten. 
+Mit RSC-Berechtigungen können Teambesitzer einer App die Zustimmung zum Zugreifen auf und Ändern von Teamdaten erteilen. RSC-Berechtigungen sind präzise, Teams Berechtigungen, die definieren, was eine App in einem bestimmten Team tun kann. Beispiele für RSC-Berechtigungen sind das Erstellen und Löschen von Kanälen, das Erhalten der Einstellungen für ein Team und das Erstellen und Entfernen von Kanalregisterkarten. 
 
 RSC-Berechtigungen werden im App-Manifest definiert und nicht in Azure AD. Sie erteilen die Zustimmung zu RSC-Berechtigungen, wenn Sie die App zu einem Team hinzufügen. Weitere Informationen finden Sie unter [Ressourcenspezifische Zustimmung (RSC).](/microsoftteams/platform/graph-api/rsc/resource-specific-consent)
 
@@ -86,7 +86,7 @@ Führen Sie die folgenden Schritte aus, um RSC-Berechtigungen für eine App anze
 
 ### <a name="the-view-details-link-isnt-displayed-in-the-permissions-column-for-some-third-party-apps-that-request-permissions"></a>Der Link "Details anzeigen" wird bei einigen Drittanbieter-Apps, die Berechtigungen anfordern, in der Spalte Berechtigungen nicht angezeigt.
 
-Derzeit ist die Möglichkeit, Berechtigungen zu überprüfen und seine Zustimmung zu erteilen, nicht für alle apps von Drittanbietern verfügbar, die in apps registriert sind, Azure AD die Berechtigungen anfordern. Statt des **Links Details anzeigen** wird die Spalte Berechtigungen **--** angezeigt.  Wir arbeiten mit isVs zusammen, um dieses Feature für ihre Apps zu aktivieren.
+Derzeit ist die Möglichkeit zum Überprüfen von Berechtigungen und Erteilen der Zustimmung nicht für alle in apps von Drittanbietern registrierten Apps verfügbar, Azure AD Berechtigungen anfordern. Statt des **Links Details anzeigen** wird die Spalte Berechtigungen **--** angezeigt.  Wir arbeiten mit isVs zusammen, um dieses Feature für ihre Apps zu aktivieren.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
