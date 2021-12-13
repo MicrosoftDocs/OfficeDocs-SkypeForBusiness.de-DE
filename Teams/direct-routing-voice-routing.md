@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie das Anrufrouting mit Microsoft Direct Routing konfigurieren.
-ms.openlocfilehash: cb8f33d8e5e2ea3e3e14ac47b57d9b5920f2bb2a
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 919b98d6c8c8ee5a1af08967dc55c30748af37f1
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60635044"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420155"
 ---
 # <a name="configure-call-routing-for-direct-routing"></a>Konfigurieren des Anrufroutings für Direct Routing
 
@@ -29,19 +29,19 @@ In diesem Artikel wird beschrieben, wie Sie das Anrufrouting für Direct-Routing
 
 - Schritt 1: [Verbinden des SBC mit Microsoft-Telefon System und Überprüfen der Verbindung](direct-routing-connect-the-sbc.md) 
 - Schritt 2: [Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail](direct-routing-enable-users.md)
-- **Schritt 3. Konfigurieren der Anrufrouting** (in diesem Artikel)
+- **Schritt 3. Konfigurieren der Anrufroutingleitung** (in diesem Artikel)
 - Schritt 4: [Übersetzen von Zahlen in ein alternatives Format](direct-routing-translate-numbers.md) 
 
 Informationen zu allen zum Einrichten von Direct-Routing erforderlichen Schritten finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md)
 
 ## <a name="call-routing-overview"></a>Übersicht über das Anrufrouting
 
-Microsoft-Telefon Das System verfügt über einen Routingmechanismus, der es ermöglicht, einen Anruf basierend auf den hier verwendeten Daten an einen bestimmten Session Border Controller (SBC) zu wenden: 
+Microsoft-Telefon System verfügt über einen Routingmechanismus, mit dem ein Aufruf von basierend auf einem bestimmten Session Border Controller (SBC) gesendet werden kann: 
 
 - Das aufgerufene Zahlenmuster 
 - Das Muster "Aufgerufene Nummer" und der spezifische Benutzer, der den Anruf anruft
  
-SBCs können als aktiv und Sicherungskopien gekennzeichnet werden. Wenn der als aktiv konfigurierte SBC für eine bestimmte Anrufroute nicht verfügbar ist, wird der Anruf an eine Sicherungs-SBC geroutet.
+SBCs können als aktiv und Sicherungskopien gekennzeichnet werden. Wenn der als aktiv konfigurierte SBC für eine bestimmte Anrufroute nicht verfügbar ist, wird der Anruf an einen Sicherungs-SBC geroutet.
  
 Die Anrufrouting besteht aus den folgenden Elementen: 
 
@@ -49,7 +49,7 @@ Die Anrufrouting besteht aus den folgenden Elementen:
 
 - **PSTN-Nutzung:** Ein Container für Sprachrouten und PSTN-Nutzungen, der in verschiedenen Richtlinien für das Voicerouting freigegeben werden kann. 
 
-- **Sprachanrufrouten** – Ein Nummernmuster und eine Reihe von Online-PSTN-Gateways, die für Anrufe verwendet werden können, bei denen die Anrufnummer dem Muster entspricht.
+- **Sprachrouten** – Ein Nummernmuster und eine Reihe von Online-PSTN-Gateways, die für Anrufe verwendet werden können, bei denen die Anrufnummer dem Muster entspricht.
 
 - **Online-PSTN-Gateway** – Ein Zeiger auf einen SBC, in dem auch die Konfiguration gespeichert wird, die angewendet wird, wenn ein Aufruf über die SBC platziert wird, z. B. WEITERLEITUNG (P-Asserted-Identity) oder bevorzugte Codecs; kann zu Sprachrouten hinzugefügt werden.
 
@@ -60,13 +60,13 @@ Wenn ein Benutzer über eine Anrufplanlizenz verfügt, werden die ausgehenden An
 > [!CAUTION]
 > Wenn Sie die globale (organisationsweite Standard-) Online-Voiceroutingrichtlinie konfigurieren und anwenden, erben alle sprachfähigen Benutzer in Ihrer Organisation diese Richtlinie, was dazu führen kann, dass PSTN-Anrufe von Anrufplanbenutzern versehentlich an einen Direct Routing-Trunk geroutet werden. Wenn Sie nicht möchten, dass alle Benutzer die globale Online-Voiceroutingrichtlinie verwenden, konfigurieren Sie eine benutzerdefinierte Online-Voiceroutingrichtlinie, und weisen Sie sie einzelnen sprachfähigen Benutzern zu.
 
-## <a name="example-1-voice-routing-with-one-pstn-usage"></a>Beispiel 1: Sprachrouting mit einer PSTN-Nutzung
+## <a name="example-1-voice-routing-with-one-pstn-usage"></a>Beispiel 1: Sprachrouting mit einer PSTN-Verwendung
 
 Das folgende Diagramm zeigt zwei Beispiele für Voice Routing-Richtlinien in einem Anruffluss.
 
-**Anruf Flow 1 (links):** Wenn ein Benutzer +1 425 XXX XX XX oder +1 206 XXX XX XX anruft, wird der Anruf an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn weder sbc1.contoso.biz noch sbc2.contoso.biz verfügbar sind, wird der Anruf verworfen. 
+**Anruf Flow 1 (links):** Wenn ein Benutzer +1 425 XXX XX oder +1 206 XXX XX XX anruft, wird der Anruf an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn weder sbc1.contoso.biz noch sbc2.contoso.biz verfügbar sind, wird der Anruf verworfen. 
 
-**Anruf Flow 2 (auf der rechten Seite):** Wenn ein Benutzer +1 425 XXX XX XX oder +1 206 XXX XX XX anruft, wird der Anruf zuerst an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn keines der beiden SBC-Daten verfügbar ist, wird die Route mit niedrigerer Priorität ausprobiert (sbc3.contoso.biz und sbc4.contoso.biz). Wenn keine der SBCs verfügbar ist, wird der Anruf verworfen. 
+**Anruf Flow 2 (rechts):** Wenn ein Benutzer +1 425 XXX XX oder +1 206 XXX XX XX anruft, wird der Anruf zuerst an SBC sbc1.contoso.biz oder sbc2.contoso.biz. Wenn keines der beiden SBC-Daten verfügbar ist, wird die Route mit niedrigerer Priorität ausprobiert (sbc3.contoso.biz und sbc4.contoso.biz). Wenn keine der SBCs verfügbar ist, wird der Anruf verworfen. 
 
 ![Zeigt Beispiele für Die Voice Routing-Richtlinie an.](media/ConfigDirectRouting-VoiceRoutingPolicyExamples.png)
 
@@ -109,21 +109,21 @@ Sie können diese Schritte [Microsoft Teams Admin Center](#admincenterexample1) 
 
 #### <a name="step-1-create-the-us-and-canada-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung "USA und Kanada"
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Voice** Direct Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
-2. Klicken **Sie auf** Hinzufügen , geben Sie US und **Canada** ein, und klicken Sie dann auf **Übernehmen.**
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Voice Direct** Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
+2. Klicken **Sie auf** Hinzufügen , geben Sie US und **Canada** ein, und klicken Sie dann auf **Übernehmen**.
 
 #### <a name="step-2-create-three-voice-routes-redmond-1-redmond-2-and-other-1"></a>Schritt 2: Erstellen von drei Sprachrouten (Redmond 1, Redmond 2 und Other +1)
 
 Die folgenden Schritte beschreiben, wie Sie eine Sprachroute erstellen. Verwenden Sie diese Schritte, um die drei Sprachrouten Redmond 1, Redmond 2 und Other +1 für dieses Beispiel mithilfe der in der früheren Tabelle beschriebenen Einstellungen zu erstellen.
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice** Direct Routing , und wählen Sie dann  >  die Registerkarte **Voicerouten** aus.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann die Registerkarte **Voicerouten** aus.
 2. Klicken **Sie auf** Hinzufügen , und geben Sie einen Namen und eine Beschreibung für die Sprachroute ein.
 3. Legen Sie die Priorität fest, und geben Sie das Muster der gewählten Nummer an.
 4. Um einen SBC bei der Sprachroute zu registrieren, klicken Sie unter SBCs registriert **(optional)** auf **Add SBCs**, wählen Sie die SBCs aus, die Sie registrieren möchten, und klicken Sie dann auf **Apply**.
 5. Zum Hinzufügen von PSTN-Nutzungsdatensätzen klicken Sie unter PSTN-Nutzungsdatensätze **(optional)** auf **PSTN-Nutzung** hinzufügen , wählen Sie die PSTN-Einträge aus, die Sie hinzufügen möchten, und klicken Sie dann auf **Übernehmen**.
 6. Klicken Sie auf **Speichern**.
 
-#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Schritt 3: Erstellen einer Sprachroutingrichtlinie namens "Nur US" und Hinzufügen der PSTN-Nutzung "USA und Kanada" zur Richtlinie
+#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Schritt 3: Erstellen einer Sprachroutingrichtlinie namens "Nur USA" und Hinzufügen der PSTN-Nutzung "USA und Kanada" zur Richtlinie
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice Voice** Voice  >  **Routing Policies**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben **Sie nur US als** Namen ein, und fügen Sie eine Beschreibung hinzu.
@@ -259,7 +259,7 @@ Name             : Other +1
 
 Im Beispiel wurde der Route "Sonstige +1" automatisch Priorität 4 zugewiesen. 
 
-#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Schritt 3: Erstellen einer Sprachroutingrichtlinie namens "Nur US" und Hinzufügen der PSTN-Nutzung "USA und Kanada" zur Richtlinie
+#### <a name="step-3-create-a-voice-routing-policy-named-us-only-and-add-the-us-and-canada-pstn-usage-to-the-policy"></a>Schritt 3: Erstellen einer Sprachroutingrichtlinie namens "Nur USA" und Hinzufügen der PSTN-Nutzung "USA und Kanada" zur Richtlinie
 
 Geben Sie in einer PowerShell-Sitzung in Skype for Business Online ein:
 
@@ -308,11 +308,11 @@ In den gezeigten Beispielen wird Dem Benutzer "Nur US Only" und dem Benutzer Joh
 
 - Low-Dollar – Richtlinie nur USA.  Anrufe sind nur an US-amerikanische und kanadische Nummern zulässig. Wenn Sie in den Rufnummernbereich von Redmond anrufen, muss die spezifische Gruppe von SBCs verwendet werden. Nicht-US-Nummern werden nur dann geroutet, wenn dem Benutzer die Lizenz für den Anrufplan zugewiesen wurde.
 
-- John John John – Internationale Richtlinie.  Anrufe sind an beliebige Nummern zulässig. Wenn Sie in den Rufnummernbereich von Redmond anrufen, muss die spezifische Gruppe von SBCs verwendet werden. Nummern, die keine US-amerikanischen Sind, werden mithilfe von sbc2.contoso.biz und sbc5.contoso.biz.
+- John John John – Internationale Richtlinie.  Anrufe sind an beliebige Nummern zulässig. Wenn Sie in den Rufnummernbereich von Redmond anrufen, muss die spezifische Gruppe von SBCs verwendet werden. Nummern, die keine US-amerikanischen Nummern sind, werden mithilfe von sbc2.contoso.biz und sbc5.contoso.biz.
 
 ![Zeigt die Sprachroutingrichtlinie an, die Dem Benutzer " Low" zugewiesen ist.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoSpencerLow.png)
 
-Bei allen anderen Anrufen wird die automatische Route verwendet, wenn ein Benutzer über Microsoft-Telefon (System und Microsoft Calling Plan) verfügt. Wenn keine Übereinstimmung mit den Nummernmustern in den vom Administrator erstellten Online-Sprachrouten besteht, wird der Anruf mithilfe des Microsoft-Anrufplans geroutet.  Wenn der Benutzer nur über Microsoft-Telefon System verfügt, wird der Aufruf verworfen, da keine Abgleichsregeln verfügbar sind.
+Bei allen anderen Anrufen wird die automatische Route verwendet, wenn ein Benutzer über Microsoft-Telefon (System und Microsoft Calling Plan) verfügt. Wenn keine Übereinstimmung mit den Nummernmustern in den vom Administrator erstellten Online-Sprachrouten besteht, wird der Anruf mithilfe des Microsoft-Anrufplans geroutet.  Wenn der Benutzer nur über ein Microsoft-Telefon verfügt, wird der Aufruf verworfen, da keine Abgleichsregeln verfügbar sind.
 
 ![Zeigt die dem Benutzer John Vererb zugewiesene Voice Routing-Richtlinie an.](media/ConfigDirectRouting-VoiceRoutingPolicyAssignedtoJohnWoods.png)
 
@@ -326,7 +326,7 @@ In der folgenden Tabelle sind die Verwendungsbezeichnungen für die Routingricht
 |International|International|\d+|4|sbc2.contoso.biz<br/>sbc5.contoso.biz|Route für ein beliebiges Nummernmuster |
 
   > [!NOTE]
-  > - Die Reihenfolge der PSTN-Verwendungen in den Voice Routing-Richtlinien ist entscheidend. Die Verwendungen werden der Reihenfolge nach angewendet, und wenn bei der ersten Verwendung eine Übereinstimmung gefunden wird, werden keine anderen Verwendungen ausgewertet. Die PSTN-Nutzung "International" muss nach der PSTN-Nutzung "USA und Kanada" platziert werden. Führen Sie den Befehl aus, um die Reihenfolge der PSTN-Verwendungen `Set-CSOnlineVoiceRoutingPolicy` zu ändern. <br/>Wenn Sie z. B. die Reihenfolge von "US and Canada" first und "International" second in die umgekehrte Reihenfolge ändern möchten, führen Sie folgenden Schritt aus:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
+  > - Die Reihenfolge der PSTN-Verwendungen in Den Richtlinien für voice routing ist entscheidend. Die Verwendungen werden der Reihenfolge nach angewendet, und wenn bei der ersten Verwendung eine Übereinstimmung gefunden wird, werden keine anderen Verwendungen ausgewertet. Die PSTN-Nutzung "International" muss nach der PSTN-Nutzung "USA und Kanada" platziert werden. Führen Sie den Befehl aus, um die Reihenfolge der PSTN-Verwendungen `Set-CSOnlineVoiceRoutingPolicy` zu ändern. <br/>Wenn Sie z. B. die Reihenfolge von "US and Canada" first und "International" second in die umgekehrte Reihenfolge ändern möchten, führen Sie folgenden Schritt aus:<br/> `Set-CsOnlineVoiceRoutingPolicy -id tag:"no Restrictions" -OnlinePstnUsages @{Replace="International", "US and Canada"}`
  > - Die Priorität für Die Sprachrouten "Andere +1" und "International" werden automatisch zugewiesen. Sie sind nicht so wichtig, wie sie niedrigere Prioritäten haben als "Redmond 1" und "Redmond 2".
 
 ## <a name="example-2-configuration-steps"></a>Beispiel 2: Konfigurationsschritte
@@ -345,15 +345,15 @@ Sie können diese Schritte [Microsoft Teams Admin Center](#admincenterexample2) 
 
 #### <a name="step-1-create-the-international-pstn-usage"></a>Schritt 1: Erstellen der PSTN-Nutzung "International"
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Voice** Direct Routing , und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Voice Direct** Routing, und wählen Sie dann in der oberen rechten Ecke  >  PSTN-Nutzungsdatensätze **verwalten aus.**
 2. Klicken **Sie auf** Hinzufügen , geben Sie **International** ein, und klicken Sie dann auf **Übernehmen**.
 
 #### <a name="step-2-create-the-international-voice-route"></a>Schritt 2: Erstellen der Sprachroute "International"
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice** Direct Routing , und wählen Sie dann  >  die Registerkarte **Voicerouten** aus.
+1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice**  >  **Direct Routing**, und wählen Sie dann die Registerkarte **Voicerouten** aus.
 2. Klicken **Sie auf** Hinzufügen , geben Sie "International" als Namen ein, und fügen Sie dann die Beschreibung hinzu.
 3. Legen Sie die Priorität auf 4 fest, und legen Sie dann das Nummernmuster auf \d+ fest.
-4. Klicken Sie unter SBCs registriert **(optional)** auf **SBCs** hinzufügen , wählen sbc2.contoso.biz und sbc5.contoso.biz aus, und klicken Sie dann auf **Übernehmen**.
+4. Klicken Sie unter SBCs registriert **(optional)** auf **SBCs** hinzufügen , wählen Sbc2.contoso.biz und sbc5.contoso.biz aus, und klicken Sie dann auf **Übernehmen**.
 5. Klicken **Sie unter PSTN-Nutzungsdatensätze (optional)** auf **PSTN-Nutzung** hinzufügen , wählen Sie den Eintrag "International" PSTN Usage Record aus, und klicken Sie dann auf **Übernehmen**.
 6. Klicken Sie auf **Speichern**.
 
@@ -363,13 +363,13 @@ Die PSTN-Verwendung "USA und Kanada" wird in dieser Voiceroutingrichtlinie wiede
 
 1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Voice Voice** Voice  >  **Routing Policies**, und klicken Sie dann auf **Hinzufügen**.
 2. Geben **Sie Keine Einschränkungen** als Namen ein, und fügen Sie eine Beschreibung hinzu.
-3. Klicken **Sie unter PSTN-Nutzungsdatensätze** auf **PSTN-Nutzung** hinzufügen , wählen Sie den PSTN-Nutzungsdatensatz "USA und Kanada" und dann den PstN-Nutzungsdatensatz "International" aus. Klicken Sie auf **Anwenden**.
+3. Klicken Sie unter **PSTN-Nutzungsdatensätze** auf **PSTN-Nutzung** hinzufügen , wählen Sie den PSTN-Nutzungsdatensatz "USA und Kanada" aus, und wählen Sie dann den PSTN-Nutzungsdatensatz "International" aus. Klicken Sie auf **Anwenden**.
 
     Beachten Sie die Reihenfolge der PSTN-Nutzungen:
 
-    - Wenn ein Anruf an die Nummer "+1 425 XXX XX XX" mit den wie in diesem Beispiel konfigurierten Nutzungen erfolgt, folgt der Anruf der route, die unter Verwendung von "USA und Kanada" festgelegt wurde, und die spezielle Routinglogik wird angewendet. Das heißt, der Anruf wird zuerst mithilfe von sbc1.contoso.biz und sbc2.contoso.biz geroutet und dann sbc3.contoso.biz und sbc4.contoso.biz als Sicherungsrouten verwendet.
+    - Wenn ein Anruf an die Nummer "+1 425 XXX XX XX" mit den wie in diesem Beispiel konfigurierten Nutzungen erfolgt, folgt der Anruf der Route, die unter Verwendung von "USA und Kanada" festgelegt wurde, und die spezielle Routinglogik wird angewendet. Das heißt, der Anruf wird zuerst mithilfe von sbc1.contoso.biz und sbc2.contoso.biz routen und dann sbc3.contoso.biz und sbc4.contoso.biz als Sicherungsrouten verwendet.
 
-    - Wenn die PSTN-Verwendung im Ausland vor "USA und Kanada" liegt, werden Anrufe an +1 425 XXX XX XX als Teil der Routinglogik an sbc2.contoso.biz und sbc5.contoso.biz umleitungslogik.
+    - Wenn die PSTN-Verwendung "International" vor "USA und Kanada" liegt, werden Anrufe an +1 425 XXX XX XX als Teil der Routinglogik an sbc2.contoso.biz und sbc5.contoso.biz umleitungslogik.
 
 4. Klicken Sie auf **Speichern**.
 
@@ -422,9 +422,9 @@ Die PSTN-Nutzung "Redmond 1" und "Redmond" werden in dieser Voice Routing-Richtl
 
 Beachten Sie die Reihenfolge der PSTN-Nutzungen:
 
-  - Wenn ein Anruf an die Nummer "+1 425 XXX XX XX" mit den im folgenden Beispiel konfigurierten Verwendungen erfolgt, folgt der Aufruf der route, die für die Nutzung von "USA und Kanada" festgelegt wurde, und die spezielle Routinglogik wird angewendet. Das heißt, der Anruf wird zuerst mithilfe von sbc1.contoso.biz und sbc2.contoso.biz geroutet und dann sbc3.contoso.biz und sbc4.contoso.biz als Sicherungsrouten verwendet.
+  - Wenn ein Anruf an die Nummer "+1 425 XXX XX XX" mit den im folgenden Beispiel konfigurierten Nutzungen erfolgt, folgt der Aufruf der Route, die für die Nutzung "USA und Kanada" festgelegt wurde, und die spezielle Routinglogik wird angewendet. Das heißt, der Anruf wird zuerst mithilfe von sbc1.contoso.biz und sbc2.contoso.biz routen und dann sbc3.contoso.biz und sbc4.contoso.biz als Sicherungsrouten verwendet.
 
-  - Wenn die PSTN-Verwendung im Ausland vor "USA und Kanada" liegt, werden Anrufe an +1 425 XXX XX XX als Teil der Routinglogik an sbc2.contoso.biz und sbc5.contoso.biz umleitungslogik. Geben Sie den Befehl ein:
+  - Wenn die PSTN-Verwendung "International" vor "USA und Kanada" liegt, werden Anrufe an +1 425 XXX XX XX als Teil der Routinglogik an sbc2.contoso.biz und sbc5.contoso.biz umleitungslogik. Geben Sie den Befehl ein:
 
   ```PowerShell
   New-CsOnlineVoiceRoutingPolicy "No Restrictions" -OnlinePstnUsages "US and Canada", "International"
@@ -459,7 +459,20 @@ OnlineVoiceRoutingPolicy
 No Restrictions
 ```
 
-Dies führt dazu, dass die auf John John Johns Anrufe angewendete Sprachrichtlinie uneingeschränkt bleibt und der Logik des Anrufroutings folgt, die für Anrufe in den USA, Kanada und im Ausland zur Verfügung steht.
+Das Ergebnis ist, dass die Sprachrichtlinie, die auf John John Johns Anrufe angewendet wird, uneingeschränkt ist und der Logik des Anrufroutings folgt, die für Anrufe in den USA, Kanada und im Ausland verfügbar ist.
+
+## <a name="run-a-self-diagnostics-tool"></a>Ausführen eines Selbstdiagnosetools
+
+Microsoft 365 Administratorbenutzer haben Zugriff auf Diagnosen, die innerhalb des Mandanten ausgeführt werden können, um zu überprüfen, ob ein Benutzer für Direct-Routing ordnungsgemäß konfiguriert ist. 
+
+> [!NOTE]
+>Dieses Feature ist für Microsoft 365 Government, Microsoft 365 21Vianet oder Microsoft 365 Deutschland nicht verfügbar.
+
+Wählen Sie Tests ausführen wie folgt aus. Dadurch wird das Diagnosetool im Microsoft 365 Admin auffüllt.
+>> [!div class="nextstepaction"]
+>> [Ausführen von Tests: Teams Direct-Routing](https://aka.ms/TeamsDirectRoutingDiag)
+
+Das Diagnosetool führt eine große Anzahl von Überprüfungen durch.
 
 ## <a name="see-also"></a>Mehr dazu
 

@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Partnerverwaltung für Kunden.
 f1keywords: ''
-ms.openlocfilehash: 84d15f43ff49565dbba915470ea618a69ff74ee8
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: 1379fff905275e9bed94f019dcb556e171683178
+ms.sourcegitcommit: 4095a1d5e507ac5cb23ed17611c1fbd4b744b23f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331234"
+ms.lasthandoff: 12/13/2021
+ms.locfileid: "61420225"
 ---
 # <a name="partner-management-for-customers"></a>Partnerverwaltung für Kunden
 
@@ -39,7 +39,7 @@ Die Partnerverwaltung im Teams-Räume Managed (TRM)-Dienst ermöglicht es Kunden
 **So initiieren Sie die Einladung** 
 
 1. Melden Sie sich als MMR-Administrator Teams-Räume verwalteten Portal an.
-1. Wechseln Sie **Einstellungen >** **Partner**, und wählen Sie dann Partner **hinzufügen aus.**
+1. Wechseln Sie **zu Einstellungen >** **Partner**, und wählen Sie dann Partner **hinzufügen aus.**
 1. Geben Sie in der ersten Zeile den Namen und den UPN der primären Administratoren ein.
 1. Wählen Sie **zur Bestätigung Kontakt** hinzufügen aus.
 1. Führen Sie einen der folgenden Schritte aus:
@@ -124,25 +124,25 @@ Wenn Sie bereits eine Einladung an einen Partner gesendet haben und diesem Admin
 
 |Feature|Berechtigung|**MMR Admin**|**Websiteleiter**|**Site Tech**|**Partneradministrator**|
 | :- | :- | :- | :- | :- | :- |
-|Räume|Anzeigen|||||
-||Ändern|||||
-||Rücksetztaste|||||
-||Downloadschlüssel|||||
-||Registrierung aufenrolln|||||
-|Gruppenverwaltung|Erstellen |||||
-||Anzeigen|||||
-||Ändern|||||
-|Verwaltung von Update-Ringen|Erstellen |||||
-||Anzeigen|||||
-||Ändern|||||
-|Berichte|Anzeigen|||||
-|Ticketverwaltung|Kundenvorfall erstellen|||||
-||Anzeigen|||||
-||Aktualisieren|||||
-|MMR Einstellungen|Anzeigen|||||
-||Ändern|||||
-|Rollenverwaltung|Anzeigen |||||
-||Ändern|||||
+|Räume|Anzeigen| &#10004;|&#10004;|&#10004;|&#10004;|
+||Ändern|&#10004;|&#10004;|&#10004;|&#10004;|
+||Rücksetztaste|&#10004;||||
+||Downloadschlüssel|&#10004;|&#10004;|&#10004;||
+||Registrierung aufenrolln|&#10004;|&#10004;|&#10004;||
+||Erstellen |&#10004;|&#10004;|||
+|Gruppenverwaltung|Anzeigen|&#10004;|&#10004;||&#10004;|
+||Ändern|&#10004;|&#10004;|||
+||Erstellen |&#10004;|&#10004;|||
+|Verwaltung von Update-Ringen|Anzeigen|&#10004;|&#10004;||&#10004;|
+||Ändern|&#10004;|&#10004;||&#10004;|
+|Berichte|Anzeigen|&#10004;|&#10004;||&#10004;|
+||Kundenvorfall erstellen|&#10004;|&#10004;|&#10004;|&#10004;|
+|Ticketsverwaltung|Anzeigen|&#10004;|&#10004;|&#10004;|&#10004;|
+||Aktualisieren|&#10004;|&#10004;|&#10004;|&#10004;|
+|MMR Einstellungen|Anzeigen|&#10004;||||
+||Ändern|&#10004;||||
+|Rollenverwaltung|Anzeigen |&#10004;|||&#10004;|
+||Ändern|&#10004;|||&#10004;|
 
 
 
@@ -152,7 +152,7 @@ Wenn Sie bereits eine Einladung an einen Partner gesendet haben und diesem Admin
 
 Als Endbenutzer behalten Sie die Kontrolle über den Zugriff auf Ihre Daten und können einen Partner jederzeit vollständig entfernen. 
 
-Mit dem Feature für delegierten Zugriff hat ein Partner keine weiteren Rechte außerhalb des TRM-Dienstportals. Alle Daten, die in dem TRM-Dienst enthalten sind, der von anderen Microsoft-Produkten abgeleitet wird, werden jedoch als Daten im TRM-Dienst betrachtet. Während beispielsweise Berichte zur Anrufqualität aus den Teams der Anrufqualität abgeleitet werden, befinden sich alle Daten im TRM-Portal im Berechtigungsbereich. 
+Mit dem Feature für delegierten Zugriff hat ein Partner keine weiteren Rechte außerhalb des TRM-Dienstportals. Alle Daten, die in dem TRM-Dienst enthalten sind, der von anderen Microsoft-Produkten abgeleitet wird, werden jedoch als Daten im TRM-Dienst betrachtet. Während beispielsweise Berichte über die Anrufqualität aus Teams Daten zur Anrufqualität abgeleitet werden, befinden sich alle Daten im TRM-Portal im Berechtigungsbereich. 
 
 Es werden keine Berechtigungen für AAD, das Teams Admin Center oder ein anderes Microsoft-Produkt erteilt. Darüber hinaus haben Partner keinen Zugriff auf das Anzeigen oder Ändern von Räumen, die nicht im Einladungsbereich definiert sind. 
 
