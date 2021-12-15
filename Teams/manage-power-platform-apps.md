@@ -39,7 +39,7 @@ Microsoft Power Platform-Apps, die von Hersteller in Ihrer Organisation erstellt
 
 Wenn eine Microsoft Power Platform-App erstellt oder freigegeben wird, können Benutzer **** sie auf der Seite Apps anzeigen und  >  **installieren.** Wechseln Sie dazu zu Für Ihre Organisation erstellter Name Von Ihren Kollegen erstellt . (Nach dem Erstellen oder Teilen einer App kann es einige Minuten dauern, bis die App hier angezeigt wird.)
 
-:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots der Seite "Apps", auf der microsoft Power Platform-Apps in der Liste "Von Ihren Kollegen erstellt" aufgeführt sind":::
+:::image type="content" source="media/manage-power-platform-apps-apps-page.png" alt-text="Screenshots der Seite Apps, auf der microsoft Power Platform-Apps in der Liste Von Ihren Kollegen erstellt aufgeführt sind":::
 
 Wenn die App eine der folgenden Bedingungen **erfüllt,** wird dem Benutzer eine von Ihren Kollegen selbst erstellten App angezeigt.
 
@@ -69,7 +69,7 @@ Standardmäßig sind **freigegebene Power Apps** **und virtuelle Power-Agent-App
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein Dienstadministrator Teams sein, um auf die Seite zugreifen zu können.
 2. Gehen Sie in der Liste der Apps wie folgt vor:
 
-    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot der Seite "Apps verwalten" mit freigegebenen Microsoft Power Platform-Apps":::
+    :::image type="content" source="media/manage-power-platform-apps-manage-apps.png" alt-text="Screenshot der Seite Apps verwalten mit freigegebenen Microsoft Power Platform-Apps":::
 
     - Um in Power Apps oder Power Virtual Agents erstellte Apps für alle Benutzer in Ihrer Organisation zu blockieren, suchen Sie nach **Freigegebene Power Apps-** oder **Virtuelle Power Virtual Agent-Apps,** wählen Sie sie aus, und klicken Sie dann auf **Blockieren.**
     - Um apps created in Power Apps or Power Virtual Agents for all users in your organization, search for **Shared Power Apps** or Shared Power Virtual **Agent Apps, select** it, and then click **Allow**.
@@ -86,7 +86,7 @@ Um beispielsweise für bestimmte Benutzer den Zugriff auf in Power Apps erstellt
 
 Sie können Mithilfe von Überwachungsprotokollen für Teams Ereignisse untersuchen, bei  denen Benutzer Microsoft Power Platform-Apps im Abschnitt Von Ihren Kollegen erstellt auf der Seite Apps in Teams. Durchsuchen Sie [](./audit-log-events.md) dazu das Überwachungsprotokoll  nach dem Teams-Ereignis der installierten App (unter dem Vorgang **"AppInstalled")** nach einem Benutzer oder einer Gruppe von Benutzern. Um Apps zu finden, die unter Von Ihren Kollegen erstellt installiert **wurden,** suchen Sie in den Details eines bestimmten Datensatzes in der **AppDistributionMode-Eigenschaft** nach dem **TemplatedInstance-Wert.** 
 
-:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Screenshot des TemplatedInstance-Werts in der Eigenschaft "AppDistributionMode".":::
+:::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Screenshot des TemplatedInstance-Werts in der Eigenschaft AppDistributionMode.":::
 
 > [!NOTE]
 > Zur einfacheren Filterung können Sie Überwachungsdatensätze im CSV-Format exportieren.

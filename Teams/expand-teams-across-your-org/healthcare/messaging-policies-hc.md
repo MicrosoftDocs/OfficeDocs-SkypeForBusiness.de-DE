@@ -37,7 +37,7 @@ Sie können die globale (organisationsweite) Standardrichtlinie verwenden oder e
 
 Die Richtlinien können auf einfache Weise im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com) verwaltet werden: Melden Sie sich mit Administratoranmeldeinformationen an, und wählen Sie im linken Navigationsbereich **Messaging-Richtlinien** aus.
 
- :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Screenshot der Seite "Messagingrichtlinien"" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
+ :::image type="content" source="../../media/hc-messaging-policy-admin-center-new.png" alt-text="Screenshot der Seite Messagingrichtlinien" lightbox="../../media/hc-messaging-policy-admin-center-new.png":::
  
  Um die bestehende standardmäßige Messaging-Richtlinie für Ihre Organisation zu bearbeiten, wählen Sie die Zeile **Global (organisationsweit Standard)** aus, und nehmen Sie dann die gewünschten Änderungen vor. Um eine neue benutzerdefinierte Nachrichtenrichtlinie zu erstellen, wählen Sie **Neue Richtlinie** und dann die gewünschten Einstellungen aus. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 

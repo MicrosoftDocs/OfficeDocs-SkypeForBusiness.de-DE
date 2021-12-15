@@ -161,7 +161,7 @@ Beachten Sie die folgenden Einschränkungen:
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Wie kann ich in meiner Organisation ein Upgrade vornehmen?
 
-Klicken Sie für ein Upgrade auf die Microsoft Teams Essentials-Version von Microsoft Teams auf **...** im oberen Navigationsmenü. Klicken Sie dann am unteren Rand des angezeigten Dropdownmenüs auf die Schaltfläche **Upgrade** .   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Screenshot der Schaltfläche "Upgrade""::: 
+Klicken Sie für ein Upgrade auf die Microsoft Teams Essentials-Version von Microsoft Teams auf **...** im oberen Navigationsmenü. Klicken Sie dann am unteren Rand des angezeigten Dropdownmenüs auf die Schaltfläche **Upgrade** .   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Screenshot der Schaltfläche Upgrade"::: 
 
 Nach dem Klicken auf die Schaltfläche **Upgrade** in Microsoft Teams werden Sie auf diese Seite geleitet: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams).
 

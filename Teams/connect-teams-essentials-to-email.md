@@ -45,7 +45,7 @@ So aktivieren Sie die automatische Weiterleitung
 4. Wählen Sie im nun angezeigten  Flyout mit den Richtliniendetails Schutzeinstellungen bearbeiten aus, um die Regel für die automatische Auswahl zu ändern.
 5. Ändern **Sie unter Weiterleitungsregeln** die Bedingung für die automatische Weiterleitung in **Ein –** Weiterleitung ist aktiviert, und speichern Sie Ihre Änderungen.
 
-:::image type="content" source="media/essentials-antispam.png" alt-text="Abbildung des Antispam-Richtlinien-Flyouts "Microsoft Defender Portal" mit der Einstellung "Ein, Weiterleitung ist aktiviert" unter "Weiterleitungsregeln"." :::
+:::image type="content" source="media/essentials-antispam.png" alt-text="Abbildung des Antispam-Richtlinien-Flyouts Microsoft Defender Portal mit der Einstellung Ein, Weiterleitung ist aktiviert unter Weiterleitungsregeln." :::
 
 Weitere Informationen zum Konfigurieren von Richtlinien für ausgehende Spamnachrichten finden Sie unter [Konfigurieren der Filterung für ausgehende Spamnachrichten – Office 365 | Microsoft Docs](/microsoft-365/security/office-365-security/configure-the-outbound-spam-policy?view=o365-worldwide&preserve-view=true).
 

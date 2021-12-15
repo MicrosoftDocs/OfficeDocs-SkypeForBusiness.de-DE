@@ -64,7 +64,7 @@ Nachdem Sie das SaaS-Angebot erworben haben, das der Teams-App zugeordnet ist, k
 - **Datum der Lizenzaktivierung:** Das Datum, an dem Ihre Lizenz aktiviert wurde. Wenn Ihr Konto noch nicht eingerichtet ist, wird dies als **Abonnement ausstehende Aktivierung angezeigt.**
 - **Lizenzen:** Anzahl der erworbenen Lizenzen.
 
-:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte "Pläne und Preise" auf der Seite "App-Details".":::
+:::image type="content" source="media/purchase-third-party-apps-details-page.png" alt-text="Screenshot der Registerkarte Pläne und Preise auf der Seite App-Details.":::
 
 Wählen **Sie Lizenzen verwalten** aus, um zu den Microsoft 365 Admin Center, um die erworbenen Lizenzen anzeigen und zu verwalten.
 

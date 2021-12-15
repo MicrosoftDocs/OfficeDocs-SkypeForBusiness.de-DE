@@ -57,7 +57,7 @@ Um alle Besprechungsinformationen und Daten für einen Benutzer zu sehen, wechse
 
 Um zusätzliche Informationen zu den Teilnehmern einer aktuellen Besprechung zu erhalten, einschließlich Geräte-, Netzwerk- und Audiostatistiken, suchen Sie die Besprechung **unter** Aktuelle Besprechungen, und wählen Sie den Link unter der Spalte **Teilnehmer** aus.
 
-:::image type="content" alt-text="Screenshot der Tabelle "Teilnehmerdetails"." source="media/participant-details.png" lightbox="media/participant-details.png":::
+:::image type="content" alt-text="Screenshot der Tabelle Teilnehmerdetails." source="media/participant-details.png" lightbox="media/participant-details.png":::
 
 Wenn Sie sich die Telemetrie eines bestimmten Benutzers für eine in Bearbeitung befindende Besprechung, einschließlich Informationen zu Gerät, Netzwerk, Audio, Video und Inhaltsfreigabe, anzeigen möchten, wählen Sie die Besprechungs-ID **aus.**
 

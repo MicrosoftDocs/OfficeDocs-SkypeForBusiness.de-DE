@@ -66,7 +66,7 @@ Wie lange ein Überwachungsdatensatz aufbewahrt wird (und nach ihm im Überwachu
 
 Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im Überwachungsprotokoll.
 
-:::image type="content" alt-text="Screenshot der Seite "Überwachungsprotokollsuche" im Compliance Center" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
+:::image type="content" alt-text="Screenshot der Seite Überwachungsprotokollsuche im Compliance Center" source="media/audit-log-search-page.png" lightbox="media/audit-log-search-page.png":::
 
 - Sie können bestimmte Aktivitäten auswählen, nach der gesucht werden soll, indem Sie auf das Kontrollkästchen neben einer oder mehreren Aktivitäten klicken. Wenn eine Aktivität ausgewählt ist, können Sie darauf klicken, um die Auswahl aufzuheben. Sie können auch das Suchfeld verwenden, um die Aktivitäten anzuzeigen, die das von Ihnen eingegebene Schlüsselwort enthalten.
 

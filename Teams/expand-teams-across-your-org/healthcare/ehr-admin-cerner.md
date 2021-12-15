@@ -79,7 +79,7 @@ Ihr Microsoft 365 kann eine einzelne Abteilung oder mehrere Abteilungen konfigur
 
 Als Nächstes fügt Ihr Microsoft 365-Administrator eine Fast Health Interoperability Resources (FBRO)-Basis-URL von Cerner hinzu und gibt die Umgebung an. Konfigurieren Sie je nach Anforderungen Ihrer Organisation und den umgebungen, die Sie testen möchten, so viele F URL-Basis-URLs wie erforderlich.
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot der Seite "Konfigurationsinformationen" im Teams EHR-Connectorkonfigurationsportals." lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot der Seite Konfigurationsinformationen im Teams EHR-Connectorkonfigurationsportals." lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - Die F ZAHL-Basis-URL ist eine statische Adresse, die Ihrem Server-FSTAT-API-Endpunkt entspricht. Eine Beispiel-URL ist `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
@@ -100,7 +100,7 @@ Zum Aktivieren von SMS-Benachrichtigungen geht Microsoft 365 Administrator wie f
     - Erlauben Sie Microsoft, SMS-Benachrichtigungen an Patienten im Namen Ihrer Organisation zu senden.
     - Bestätigen Sie, dass Sie sicherstellen, dass die Teilnehmer dem Senden und Empfangen von SMS-Nachrichten zugestimmt haben.
 
-    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot der Seite "SMS-Benachrichtigungen" mit Kontrollkästchen für die Zustimmung und der Option zum Generieren einer Telefonnummer" lightbox="media/ehr-admin-cerner-sms-notifications.png":::
+    :::image type="content" source="media/ehr-admin-cerner-sms-notifications.png" alt-text="Screenshot der Seite SMS-Benachrichtigungen mit Kontrollkästchen für die Zustimmung und der Option zum Generieren einer Telefonnummer" lightbox="media/ehr-admin-cerner-sms-notifications.png":::
 
 1. Wählen **Sie unter Ihre Telefonnummern** die Option Neue Telefonnummer **generieren** aus, um eine Telefonnummer für Ihre Organisation zu generieren. Dadurch wird der Vorgang zum Anfordern und Generieren einer neuen Telefonnummer gestartet. Dieser Vorgang kann bis zu 2 Minuten dauern.
 

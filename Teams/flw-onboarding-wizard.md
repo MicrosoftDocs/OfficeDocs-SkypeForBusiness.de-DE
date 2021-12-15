@@ -50,15 +50,15 @@ Der Assistent steht allen Organisationen zur Verfügung, die über mindestens ei
 
 3. Geben Sie einen Namen für Ihr Team ein, fügen Sie einen oder mehrere Teambesitzer hinzu, und wählen Sie eine Datenschutzeinstellung aus. Wählen Sie dann aus, ob Sie Ihr Team ganz neu oder aus einer Teamvorlage erstellen möchten. Teamvorlagen enthalten vordefinierte Kanäle und Registerkarten, die das Team für eine bestimmte Geschäftsbedarf oder ein bestimmtes Projekt optimieren.
 
-    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot der Seite "Team einrichten" des Assistenten":::
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot der Seite Team einrichten des Assistenten":::
 
 4. Hinzufügen von Benutzern zum Team Sie können auch Gruppen hinzufügen. Wenn Sie Gruppen hinzufügen, denken Sie daran, dass Lizenzen und Richtlinienpakete jedem Benutzer in der Gruppe direkt zugewiesen werden, nicht die Gruppe selbst.
 
-    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot der Seite "Benutzer hinzufügen" des Assistenten, auf der Sie Ihrem Team Benutzer und Gruppen hinzufügen":::
+    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot der Seite Benutzer hinzufügen des Assistenten, auf der Sie Ihrem Team Benutzer und Gruppen hinzufügen":::
 
 5. Weisen Sie jedem Teammitglied eine der folgenden Rollen zu: Frontline-Worker, Frontline-Manager, Keine. 
   
-    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot der Seite "Stellenrollen zuweisen" des Assistenten, auf der Sie Teammitgliedern Rollen, Speicherorte und Lizenzen zuweisen":::
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot der Seite Stellenrollen zuweisen des Assistenten, auf der Sie Teammitgliedern Rollen, Speicherorte und Lizenzen zuweisen":::
 
     Durch zuweisen einer Frontline Worker- oder Frontline Manager-Rolle erhält dieser Benutzer ein Richtlinienpaket. Das Richtlinienpaket erstellt eine Benutzererfahrung in Teams, die auf ihre Rolle zugeschnitten ist. Diese Erfahrung umfasst vorinstallierte Apps und Richtlinien für gesunde Frontline-Worker- und Managerkommunikation und -zusammenarbeit.
 
@@ -66,11 +66,11 @@ Der Assistent steht allen Organisationen zur Verfügung, die über mindestens ei
 
 6. Wählen Sie aus, wer die Status-E-Mail erhält, nachdem der Assistent abgeschlossen wurde. Die E-Mail enthält Erfolgs- und Fehlerinformationen zu den Aktionen, die vom Assistenten zum Erstellen des Teams, Hinzufügen von Teammitgliedern sowie Zuweisen eines Lizenz- und Richtlinienpakets zu jedem &mdash; Teammitglied ausgeführt wurden. Verwenden Sie diese Informationen, um eventuell aufgetretene Fehler zu beheben.
 
-    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Screenshot der Seite "Status-E-Mail-Empfänger hinzufügen" des Assistenten":::
+    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Screenshot der Seite Status-E-Mail-Empfänger hinzufügen des Assistenten":::
 
 7. Überprüfen Sie Ihre Auswahl, und wählen Sie dann **Bestätigen aus.**
 
-    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot der Seite "Team überprüfen" des Assistenten, auf der Sie Ihre Teameinstellungen überprüfen":::
+    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot der Seite Team überprüfen des Assistenten, auf der Sie Ihre Teameinstellungen überprüfen":::
 
     Der Assistent erstellt Ihr Team und weist Teammitgliedern Lizenzen und Richtlinienpakete zu. Der Vorgang kann einige Minuten dauern, danach erhalten die von Ihnen gewählten Empfänger eine Status-E-Mail.
 

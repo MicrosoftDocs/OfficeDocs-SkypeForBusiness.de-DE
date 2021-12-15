@@ -34,7 +34,7 @@ Beispiele für von Apps angeforderte Berechtigungen sind die Möglichkeit, in ei
 
 In **der Spalte** Berechtigungen wird angegeben, ob eine App Über Berechtigungen verfügt, für die eine Zustimmung erforderlich ist. Es wird ein Link **Details** anzeigen für jede App angezeigt, die in einer App registriert Azure AD die Berechtigungen besitzen, die ihre Zustimmung benötigen. Beachten Sie, dass dies nur für benutzerdefinierte Apps und Apps von Drittanbietern gilt. Dieser Link wird nicht angezeigt, oder Sie müssen die Zustimmung des Administrator für Apps erteilen, die von Microsoft veröffentlicht wurden.
 
-:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot der Spalte "Berechtigungen" auf der Seite "Apps verwalten"":::
+:::image type="content" source="media/app-perm-admin-center-permissions-column.png" alt-text="Screenshot der Spalte Berechtigungen auf der Seite Apps verwalten":::
 
 Führen Sie die folgenden Schritte aus, um einer App organisationsweite Zustimmung zu erteilen:
 
@@ -45,7 +45,7 @@ Führen Sie die folgenden Schritte aus, um einer App organisationsweite Zustimmu
 
 3. Wählen **Sie unter Organisationsweite Berechtigungen** die Option Berechtigungen überprüfen und Zustimmung **aus.**
 
-    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot von organisationsweiten Berechtigungen auf der Registerkarte "Berechtigungen" für eine App":::
+    :::image type="content" source="media/app-perm-admin-center-org-wide.png" alt-text="Screenshot von organisationsweiten Berechtigungen auf der Registerkarte Berechtigungen für eine App":::
 
     Sie müssen ein globaler Administrator sein, um dies zu tun. Diese Option steht für Administratoren Teams Diensts nicht zur Verfügung.
 
