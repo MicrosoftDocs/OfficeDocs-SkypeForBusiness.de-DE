@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ee2492038ac05f54d1846703851846bef95893eb
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634924"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513486"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -141,6 +141,50 @@ Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich 
 
 > [!NOTE]
 > Wenn Sie und ein anderer Benutzer sowohl den externen Zugriff aktivieren als auch die Domänen des anderen zulassen, funktioniert das. Wenn es nicht funktioniert, sollte der andere Benutzer sich vergewissern, dass seine Konfiguration Ihre Domäne nicht blockiert.
+
+## <a name="limit-external-access-to-specific-people"></a>Einschränken des externen Zugriffs auf bestimmte Personen
+
+Sie können den externen Zugriff auf bestimmte Personen mithilfe von PowerShell einschränken.
+
+Sie können das folgende Beispielskript verwenden, indem Sie *PolicyName* durch den Namen ersetzen, den Sie der Richtlinie zuweisen möchten, und *UserName* für jeden Benutzer, den Sie für den externen Zugriff verwenden möchten.
+
+Stellen Sie sicher, dass Sie das [Microsoft Teams PowerShell-Modul](/microsoftteams/teams-powershell-install) installiert haben, bevor Sie das Skript ausführen.
+
+```PowerShell
+Connect-MicrosoftTeams
+
+# Disable external access globally
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+# Create a new external access policy
+New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+
+# Assign users to the policy
+$users_ids = @("<UserName1>", "<UserName2>")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "<PolicyName>" -Identity $users_ids
+
+```
+
+Zum Beispiel: 
+
+```PowerShell
+Connect-MicrosoftTeams
+
+Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+
+New-CsExternalAccessPolicy -Identity ContosoExternalAccess -EnableTeamsConsumerAccess $true
+
+$users_ids = @("MeganB@contoso.com", "AlexW@contoso.com")
+New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyName "ContosoExternalAccess" -Identity $users_ids
+
+```
+
+Weitere Beispiele zum Kompilieren einer Benutzerliste finden Sie unter [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation).
+
+Sie können die neue Richtlinie anzeigen, indem Sie `Get-CsExternalAccessPolicy -Include All` ausführen.
+
+
+Siehe auch [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) und [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
 ## <a name="common-external-access-scenarios"></a>Häufige Szenarien für den externen Zugriff
 

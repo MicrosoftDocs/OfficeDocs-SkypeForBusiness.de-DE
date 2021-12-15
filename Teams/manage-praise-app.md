@@ -9,23 +9,23 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Informationen zu den Administratoreinstellungen in der Lob-App im Microsoft Teams Admin Center
-ms.openlocfilehash: 1d460a785a318723bf8e0d0852132863ef7513f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 044ab5d7fc5aebba1b1245f349e4ed27c61190b6
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858032"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513456"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
 > [!NOTE]
-> Administratoren müssen über eine Lizenz Teams, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Lizenz für Teams auf dieses Feature zu zugreifen, wird eine Fehlermeldung angezeigt.
+> Administratoren müssen über eine Lizenz Teams verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Lizenz für Teams auf dieses Feature zu zugreifen, wird eine Fehlermeldung angezeigt.
 
-Die Lob-App in Microsoft Teams dabei, den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl an Badge-Sätzen, aus der Sie auswählen können, und der Option zum Erstellen eigener Badges soll Lob helfen, den Aufwand zu erkennen, der in die breite Palette an Arbeit fällt, die Teams-Benutzern von Lehrkräften bis zu Frontline Workers geleistet wird. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
+Die Lob-App in Microsoft Teams dabei, den Mitgliedern ihrer Organisation oder ihres Klassenzimmers Anerkennung zu zeigen. Mit einer Auswahl an Badge-Sätzen, aus der Sie auswählen können, und der Option zum Erstellen eigener Badges soll Lob ihnen helfen, den Aufwand zu erkennen, der in die breite Palette an Arbeit fällt, die von Lehrkräften bis zu Frontline Workers von Benutzern Teams wird. Weitere Informationen finden Sie unter [Senden Lob an Personen.](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e)
 
-Administratoren können über das Admin Center steuern, welche Badges für die Organisation verfügbar Microsoft Teams werden. Wechseln Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen.**  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
+Administratoren können über das admin center steuern, welche Badges für Microsoft Teams verfügbar sind. Wechseln Sie im linken Navigationsbereich zu Teams **Apps > Apps verwalten**. Klicken Sie in der Liste der Apps **auf Lob**, und wählen Sie dann **Einstellungen.**  Von hier aus können Sie standard- und integrierte Signalsätze aktivieren und benutzerdefinierte Badges erstellen.
 
-![Screenshot der Einstellungen Für die App "Lob App"](media/manage-praise-app-settings.png)
+![Screenshot der Einstellungen für die App Lob App](media/manage-praise-app-settings.png)
 
 > [!NOTE]
 > Die Lob-App ist für GCC Cloudumgebung, aber nicht für GCC High oder DoD verfügbar.
@@ -38,7 +38,7 @@ Integrierte Gruppen sind Sammlungen von Signalen, die von Microsoft für die App
 
 ### <a name="default-badges"></a>Standardabzeichen
 
-Der Standard-Badgesatz soll es Teams Benutzern zu ermöglichen, ihre Peers zu erkennen, damit sie mit ihrer Arbeit darüber hinaus gehen können.
+Der Standardabzeichensatz soll es benutzern Teams, ihre Peers zu erkennen, damit sie mit ihrer Arbeit darüber hinaus gehen können.
 
 ![Vorschau auf den Standardabzeichensatz.](media/default-set-praise.png)
 
@@ -65,7 +65,7 @@ Wählen **Sie Benutzerdefiniertes Signal erstellen aus.** Hier können Sie im Se
    > [!TIP]
    > Wenn Sie mit Hexadezimalwerten noch [](#hex-colors-intro) nicht aus dem Weg sind, finden Sie in diesem Artikel eine kurze Einführung in deren Verwendung.
 
-3. Hochladen eines Signalbilds. Der akzeptierte Dateityp wird .PNG. Die Bilddatei muss weniger als 40 KB groß sein und maximal 216 x 216 Pixel groß sein.
+3. Hochladen eines Signalbilds. Der akzeptierte Dateityp ist .PNG. Die Bilddatei muss weniger als 40 KB groß sein und maximal 216 x 216 Pixel groß sein.
 ![Signal mit Beschriftungsfeldern für Hintergrund, Text und Bild](media/praise-app-badge-fields.png)
 
 4. Lokalisieren Sie den Signalnamen: Wählen Sie unter **Lokalisierte Signalnamen** die Option **Hinzufügen aus.** Wählen Sie das gewünschte Locale aus der Dropdownliste aus. Geben Sie dann den Badgenamen in der festgelegten Sprache ein.
@@ -110,7 +110,7 @@ Im Folgenden finden Sie eine Liste mit Beispielfarben für die ersten Schritte:
 
 **Behalten Sie beim Auswählen eines Bilds die Signalabmessungen im Auge.** Für eine optimale Qualität empfehlen wir, eine Bilddatei mit einer Größe von 216 x 216 Pixel hochzuladen (dies sind die maximalen Abmessungen). Vermeiden Sie es, das Bild zu dehnen oder zu verzerren, damit es in diese Abmessungen passt.
 
-**Wenn das Signalbild nicht rechteckig ist, machen Sie das Bild transparent.** Sie müssen dies tun, bevor Sie die Bilddatei auf Lob.
+**Wenn das Signalbild nicht rechteckig ist, machen Sie das Bild transparent.** Sie müssen dies tun, bevor Sie die Bilddatei in das Lob.
 
 ![Links: Signal mit nicht transparentem Bild, rechts: Signal mit transparentem Bild.](media/praise-app-best-practices.png)
 
@@ -157,3 +157,11 @@ Integrierte Signalsätze können nicht geändert werden. Wenn ein integrierter S
 |Selbsterklingung    |[PNG-Datei mit Selbsterwahrde](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-awareness-badge.png)|#FFFFFF    |#1680E5|
 |Selbstverwaltung   |[PNG-Datei zur Selbstverwaltung](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/self-management-badge.png)|#FFFFFF    |#4C144D|
 |Thought vermeinen    |[Thought vermeinen PNG](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/raw/live/Teams/downloads/praise-app/sel-edu-set/thoughtfulness-badge.png)|#FFFFFF    |#EE4086|
+
+## <a name="upcoming-changes"></a>Anstehende Änderungen
+
+Ab Januar 2022 ändern sich die derzeit für Badges verfügbaren Informationen. Soziale und emotionale Lernabzeichen für Bildungseinrichtungen, einschließlich Selbsterfähigkeit und Selbstverwaltung, sind nicht mehr verfügbar.
+
+Die **Option Benutzerdefiniertes** Signal erstellen steht ab Januar   2022 ebenfalls nicht mehr zur Verfügung.
+
+Darüber hinaus  wirkt sich die Umschaltfunktion Status im Teams Admin Center, die Lob zulässt oder blockiert, sowohl auf die Lob-App als auch auf das Lob-Feature in der Viva Insights-App in Teams aus.

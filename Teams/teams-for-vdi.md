@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ce78cfa86dfe562b33a892fbcc85a3946097eca6
-ms.sourcegitcommit: be8b820caf4b5a1a91ad444ba93da1df20bf63ae
+ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
+ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/01/2021
-ms.locfileid: "61257356"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "61513497"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -58,7 +58,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit sind Teams VDI mit Audio/Video-Optimierung (AV) zertifiziert und mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams VDI mit Audio/Video-Optimierung (AV) mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -66,13 +66,17 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 |Plattform|Lösung|
 |----|---|
-|![Das Logo von Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Azure-Desktop</a> |
+|![Das Logo von Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Azure-Desktop,</a> <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![Das Logo, das Citrix darstellt.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-Apps und -Desktops</a> |
 |![Das Logo von VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu den Anforderungen und zur Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
+Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden [von Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
+
+### <a name="windows-365"></a>Windows 365
+
+Windows 365 verwendet die von Azure Virtual Desktop bereitgestellte AV-Optimierung, um optimale Benutzererfahrungen Teams Cloud-PCs zu gewährleisten. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden [Teams auf Cloud-PCs.](/windows-365/enterprise/teams-on-cloud-pc)
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -409,7 +413,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
 
-Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung $true DisableCallsAndMeetings bei Teams mit VDI anmelden, sollten sie nicht in der Lage sein, dies zu:
+Wenn benutzer mit dieser VDI-Richtlinieneinstellung -DisableCallsAndMeetings $true, sich bei Teams mit VDI anmelden, sollten sie nicht in der Lage sein,
 
 - Anrufe.
 - Nehmen Sie an Besprechungen teil.
@@ -435,7 +439,7 @@ Get-CsTeamsVdiPolicy | FT Iden*, Disable*
 <#
 ```
 
-Wenn sich Benutzer mit der VDI-Richtlinieneinstellung "-DisableAudioVideoInCallsAndMeetings$true bei Teams auf VDI anmelden, sollten sie in der Lage sein, dies zu ermöglichen:
+Wenn sich Benutzer mit der VDI-Richtlinieneinstellung -DisableAudioVideoInCallsAndMeetings $true bei Teams auf VDI anmelden, sollten sie in der Lage sein, dies zu ermöglichen:
 
 - Bildschirmfreigabe über Chat.
 - Nehmen Sie an einer Besprechung teil, und teilen Sie einen Bildschirm. Audiodaten auf ein Telefon verschieben.
