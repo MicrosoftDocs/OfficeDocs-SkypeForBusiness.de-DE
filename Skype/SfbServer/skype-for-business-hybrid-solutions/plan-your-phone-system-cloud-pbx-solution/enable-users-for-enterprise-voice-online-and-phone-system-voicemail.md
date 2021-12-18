@@ -19,31 +19,31 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 28daebcb-c2dc-4338-b2d1-04345ece9c19
 description: Erfahren Sie, wie Sie Telefonsystem VoIP-Dienste für Ihre Skype for Business Benutzer aktivieren.
-ms.openlocfilehash: b82121dff3c7a82827d6e19fdb0b78bfeee263f2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9c9123b79a1fd5557d0d31db7b4b150bcda80af3
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58602310"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563438"
 ---
 # <a name="enable-users-for-enterprise-voice-online-and-phone-system-voicemail"></a>Aktivieren von Benutzern für Enterprise-VoIP online und für Telefonsystem-Voicemail
  
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
+> Skype for Business Online wurde am 31. Juli 2021 eingestellt, und die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung , ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online, wird nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
 
 Erfahren Sie, wie Sie Telefonsystem VoIP-Dienste für Ihre Skype for Business Benutzer aktivieren.
   
-Der letzte Schritt bei der Bereitstellung von Telefonsystem mit lokaler PSTN-Konnektivität besteht darin, Ihren Benutzern Telefonsystem und Voicemail zu ermöglichen. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "Globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, für die noch nicht Enterprise-VoIP für Skype for Business Online aktiviert ist.
+Der letzte Schritt bei der Bereitstellung von Telefonsystem mit lokaler PSTN-Konnektivität besteht darin, Ihren Benutzern Telefonsystem und Voicemail zu ermöglichen. Um diese Funktionen zu aktivieren, müssen Sie ein Benutzer mit der Rolle "Globaler Administrator" sein und Remote-PowerShell ausführen können. Sie müssen die Schritte in diesem Thema für alle Benutzerkonten ausführen, die noch nicht Enterprise-VoIP für Skype for Business Online aktiviert haben.
   
 ## <a name="enable-phone-system-voice-services"></a>Aktivieren Telefonsystem VoIP-Dienste
 
-Um einen Benutzer für Telefonsystem VoIP und Voicemail zu aktivieren, müssen Sie einige erste Schritte ausführen, z. B. überprüfen, ob der Skype for Business Online Connector auf Ihren Servern bereitgestellt wird, und Ihre Benutzer für gehostete Voicemail aktivieren.
+Um einen Benutzer für Telefonsystem VoIP und Voicemail zu aktivieren, müssen Sie einige erste Schritte ausführen, z. B. überprüfen, ob der Skype for Business Online Connector auf Ihren Servern bereitgestellt ist, und Ihre Benutzer für gehostete Voicemail aktivieren.
   
 ### <a name="to-enable-your-users-for-phone-system-voice-and-voicemail"></a>So aktivieren Sie Ihre Benutzer für Telefonsystem Voice- und Voicemail
 
 > [!NOTE]
-> Skype for Business Online Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
-> Wenn Sie die neueste [Teams PowerShell-Veröffentlichung](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
+> Skype for Business Online-Connector ist derzeit Teil des neuesten Teams PowerShell-Moduls.
+> Wenn Sie die neueste [Teams öffentliche PowerShell-Version](https://www.powershellgallery.com/packages/MicrosoftTeams/)verwenden, müssen Sie den Skype for Business Online Connector nicht installieren.
 
 1. Bevor Sie beginnen, überprüfen Sie, ob das Teams PowerShell-Modul auf Ihren Front-End-Servern installiert ist. Wenn dies nicht der Fall ist, installieren Sie die Installation mithilfe der Anweisungen in [Teams Installation des PowerShell-Moduls.](/microsoftteams/teams-powershell-install)
     
@@ -60,13 +60,13 @@ Um einen Benutzer für Telefonsystem VoIP und Voicemail zu aktivieren, müssen S
 ```
 
   
-4. Verwenden Sie das Cmdlet Set-CsUser, um dem Benutzer die Eigenschaften $EnterpriseVoiceEnabled und $HostedVoiceMail wie folgt zuzuweisen:
+4. Verwenden Sie das Cmdlet Set-CsUser, um dem Benutzer die eigenschaften $EnterpriseVoiceEnabled und $HostedVoiceMail wie folgt zuzuweisen:
     
    ```powershell
    Set-CsUser -Identity "<User name>" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
    ```
 
-    Zum Beispiel:
+    Beispiel:
     
    ```powershell
    Set-CsUser -Identity "Bob Kelly" -EnterpriseVoiceEnabled $true -HostedVoiceMail $true
@@ -96,7 +96,7 @@ In diesem Abschnitt wird beschrieben, wie Sie den Anschluss-URI und den Wählpla
     
 6. Klicken Sie auf **den Anschluss-URI,** und geben Sie eine eindeutige, normalisierte Telefonnummer ein (z. B. tel:+14255550200). Klicken Sie dann auf **"Commit ausführen".**
     
-## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren des Wählplans mithilfe lokaler Windows PowerShell Cmdlets
+## <a name="update-the-dial-plan-using-on-premises-windows-powershell-cmdlets"></a>Aktualisieren des Wählplans mit lokalen Windows PowerShell Cmdlets
 
 Sie können benutzerspezifische Wählpläne mit Windows PowerShell und dem Cmdlet [Grant-CsDialPlan](/powershell/module/skype/grant-csdialplan?view=skype-ps) zuweisen. Sie können dieses Cmdlet entweder im Skype for Business Server 2015 oder in einer Remotesitzung von Windows PowerShell ausführen.
   
@@ -134,7 +134,7 @@ In diesem Abschnitt wird beschrieben, wie Sie die VoIP-Routingrichtlinien für B
 Telefonsystem Benutzern muss eine VoIP-Routingrichtlinie zugewiesen sein, damit Anrufe erfolgreich weitergeleitet werden können. Dies unterscheidet sich von lokalen Business Voice-Benutzern, denen eine VoIP-Richtlinie zugewiesen werden muss, damit Anrufe erfolgreich weitergeleitet werden können. Die VoIP-Routingrichtlinie sollte PSTN-Verwendungen enthalten, die autorisierte Anrufe und Routen für Telefonsystem Benutzer definieren. Sie können diese PSTN-Verwendungen aus vorhandenen VoIP-Richtlinien in neue VoIP-Routingrichtlinien kopieren. Weitere Informationen finden Sie unter [New-CsVoiceRoutingPolicy](/powershell/module/skype/new-csvoiceroutingpolicy?view=skype-ps).
   
 > [!NOTE]
-> Allen Telefonsystem Benutzern wird dieselbe Online-VoIP-Richtlinie mit dem Namen "BusinessVoice" zugewiesen, die die zulässigen Anruffunktionen definiert. Beispielsweise "Gleichzeitiges Klingeln zulassen". 
+> Allen Telefonsystem Benutzern wird dieselbe Online-VoIP-Richtlinie mit dem Namen "BusinessVoice" zugewiesen, die die zulässigen Anruffunktionen definiert, z. B. "Gleichzeitiges Klingeln zulassen". 
   
 ### <a name="to-assign-a-per-user-voice-routing-policy-to-a-single-user"></a>So weisen Sie einem einzelnen Benutzer eine benutzerbasierte VoIP-Routingrichtlinie zu
 

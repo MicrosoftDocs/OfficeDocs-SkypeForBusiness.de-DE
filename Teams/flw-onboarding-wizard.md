@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 056c82b1f2c7a1872693cc9f4298cee6eea1eefb
-ms.sourcegitcommit: 11882e93618b8d69d21586c7b1f6a4460b96dd7d
+ms.openlocfilehash: 25508b3224ab7eab28157cbff268bb6b164686d5
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "60283029"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563652"
 ---
 # <a name="use-the-frontline-worker-onboarding-wizard-to-get-your-frontline-workforce-up-and-running"></a>Verwenden sie den Onboarding-Assistenten für Frontline Worker, um Die Mitarbeiter an der Frontline mit der Arbeit zu starten
 
@@ -32,45 +32,45 @@ Der Assistent richtet ein Team für Ihre Frontline-Mitarbeiter ein und weist jed
 
 Derzeit unterstützt der Assistent das Hinzufügen von 100 Benutzern bei jeder Ausführung. Wir arbeiten daran, in Kürze die Anzahl der Benutzer pro Ausführung zu erhöhen. Hier finden Sie die neuesten Updates.
 
-Der Assistent steht allen Organisationen zur Verfügung, die über mindestens eine Lizenz Microsoft 365 F verfügen. Sie können den Assistenten so oft ausführen, wie Sie benötigen, um Teams Mitarbeiter an unterschiedlichen Standorten oder an unterschiedlichen Standorten in ihrer Organisation an vordersten Front zu stellen.
+Der Assistent steht allen Organisationen zur Verfügung, die über mindestens eine [F-Lizenz verfügen.](https://www.microsoft.com/microsoft-365/enterprise/frontline) Sie können den Assistenten so oft ausführen, wie Sie benötigen, um Teams Mitarbeiter an unterschiedlichen Standorten oder an unterschiedlichen Standorten in Ihrer Organisation an vordersten Front zu stellen.
 
 > [!NOTE]
 > Mit diesem Assistenten können Sie Ihre Mitarbeiter an vorder frontline schnell integrieren, Teams die Microsoft 365 Admin Center. Informationen zum Bereitstellen von Teams für Ihre Frontline-Workers mithilfe von Skripts finden Sie unter So wird's Teams von Frontline Workers im [Maßstab bereitgestellt.](flw-scripted-deployment.md)
 
 > [!NOTE]
-> Vertraulichkeitsbezeichnungen werden vom [Assistenten noch nicht](sensitivity-labels.md) unterstützt. Wenn Ihre Organisation vertraulichkeitsbeschriftungen erfordert, um ein Team zu erstellen, wird der Assistent nicht in der Microsoft 365 Admin Center.
+> Vertraulichkeitsbezeichnungen werden vom [Assistenten noch nicht](sensitivity-labels.md) unterstützt. Wenn Ihre Organisation vertraulichkeitsbeschriftungen erfordert, um ein Team zu erstellen, wird der Assistent im Assistenten Microsoft 365 Admin Center.
 
 ## <a name="run-the-wizard"></a>Ausführen des Assistenten
 
-1. Wählen Sie im linken Navigationsbereich [des Microsoft 365 Admin Center](https://admin.microsoft.com/)die Option **Setup aus.** Wechseln Sie zum **Abschnitt Apps und** E-Mail, und wählen Sie dann unter Erste Mitarbeiter an der **Frontline** mit der Ausführung die Option **Anzeigen aus.** Hier erhalten Sie weitere Informationen zu den Funktionen, die Microsoft 365 Mitarbeitern an vorder frontline bietet.
+1. Wählen Sie im linken Navigationsbereich des [Microsoft 365 Admin Center](https://admin.microsoft.com/)die Option **Setup aus.** Wechseln Sie zum **Abschnitt Apps und** E-Mail, und wählen Sie dann unter Erste Mitarbeiter an der **Frontline** mit der Ausführung die Option **Anzeigen aus.** Hier erfahren Sie mehr über die Funktionen, die Microsoft 365 Mitarbeiter an vorder frontline bieten.
 
-    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Screenshot der Detailseite für die Onboarding-Erfahrung von Frontline Worker im Microsoft 365 Admin Center":::
+    :::image type="content" source="media/flw-onboarding-wizard-get-started.png" alt-text="Screenshot der Detailseite für die Onboarding-Erfahrung von Frontline Worker im Microsoft 365 Admin Center" lightbox="media/flw-onboarding-wizard-get-started.png":::
 
 2. Wenn Sie fertig sind, wählen Sie **Erste Schritte** aus, um den Assistenten zu starten.
 
 3. Geben Sie einen Namen für Ihr Team ein, fügen Sie einen oder mehrere Teambesitzer hinzu, und wählen Sie eine Datenschutzeinstellung aus. Wählen Sie dann aus, ob Sie Ihr Team ganz neu oder aus einer Teamvorlage erstellen möchten. Teamvorlagen enthalten vordefinierte Kanäle und Registerkarten, die das Team für eine bestimmte Geschäftsbedarf oder ein bestimmtes Projekt optimieren.
 
-    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot der Seite Team einrichten des Assistenten":::
+    :::image type="content" source="media/flw-onboarding-wizard-set-up-team.png" alt-text="Screenshot der Seite "Team einrichten" des Assistenten" lightbox="media/flw-onboarding-wizard-set-up-team.png":::
 
 4. Hinzufügen von Benutzern zum Team Sie können auch Gruppen hinzufügen. Wenn Sie Gruppen hinzufügen, denken Sie daran, dass Lizenzen und Richtlinienpakete jedem Benutzer in der Gruppe direkt zugewiesen werden, nicht die Gruppe selbst.
 
-    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot der Seite Benutzer hinzufügen des Assistenten, auf der Sie Ihrem Team Benutzer und Gruppen hinzufügen":::
+    :::image type="content" source="media/flw-onboarding-wizard-add-users.png" alt-text="Screenshot der Seite "Benutzer hinzufügen" des Assistenten, auf der Sie Ihrem Team Benutzer und Gruppen hinzufügen" lightbox="media/flw-onboarding-wizard-add-users.png":::
 
 5. Weisen Sie jedem Teammitglied eine der folgenden Rollen zu: Frontline-Worker, Frontline-Manager, Keine. 
   
-    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot der Seite Stellenrollen zuweisen des Assistenten, auf der Sie Teammitgliedern Rollen, Speicherorte und Lizenzen zuweisen":::
+    :::image type="content" source="media/flw-onboarding-wizard-assign-roles.png" alt-text="Screenshot der Seite "Stellenrollen zuweisen" des Assistenten, auf der Sie Teammitgliedern Rollen, Speicherorte und Lizenzen zuweisen" lightbox="media/flw-onboarding-wizard-assign-roles.png":::
 
     Durch zuweisen einer Frontline Worker- oder Frontline Manager-Rolle erhält dieser Benutzer ein Richtlinienpaket. Das Richtlinienpaket erstellt eine Benutzererfahrung in Teams, die auf ihre Rolle zugeschnitten ist. Diese Erfahrung umfasst vorinstallierte Apps und Richtlinien für gesunde Frontline-Worker- und Managerkommunikation und -zusammenarbeit.
 
-    Wählen Sie als Nächstes einen Standort aus, und weisen Sie jedem Microsoft 365 F-Lizenz zu. Wenn Sie nicht über genügend Lizenzen verfügen, können Sie Weitere Lizenzen kaufen auswählen, **um** weitere Lizenzen zu erwerben.  
+    Wählen Sie als Nächstes einen Standort aus, und weisen Sie jedem Microsoft 365 eine Lizenz für F zu. Wenn Sie nicht über genügend Lizenzen verfügen, können Sie Weitere Lizenzen kaufen auswählen, **um** weitere Lizenzen zu erwerben.  
 
 6. Wählen Sie aus, wer die Status-E-Mail erhält, nachdem der Assistent abgeschlossen wurde. Die E-Mail enthält Erfolgs- und Fehlerinformationen zu den Aktionen, die vom Assistenten zum Erstellen des Teams, Hinzufügen von Teammitgliedern sowie Zuweisen eines Lizenz- und Richtlinienpakets zu jedem &mdash; Teammitglied ausgeführt wurden. Verwenden Sie diese Informationen, um eventuell aufgetretene Fehler zu beheben.
 
-    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Screenshot der Seite Status-E-Mail-Empfänger hinzufügen des Assistenten":::
+    :::image type="content" source="media/flw-onboarding-wizard-email-recipients.png" alt-text="Screenshot der Seite "Status-E-Mail-Empfänger hinzufügen" des Assistenten" lightbox="media/flw-onboarding-wizard-email-recipients.png":::
 
 7. Überprüfen Sie Ihre Auswahl, und wählen Sie dann **Bestätigen aus.**
 
-    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot der Seite Team überprüfen des Assistenten, auf der Sie Ihre Teameinstellungen überprüfen":::
+    :::image type="content" source="media/flw-onboarding-wizard-review-team.png" alt-text="Screenshot der Seite "Team überprüfen" des Assistenten, auf der Sie Ihre Teameinstellungen überprüfen" lightbox="media/flw-onboarding-wizard-review-team.png":::
 
     Der Assistent erstellt Ihr Team und weist Teammitgliedern Lizenzen und Richtlinienpakete zu. Der Vorgang kann einige Minuten dauern, danach erhalten die von Ihnen gewählten Empfänger eine Status-E-Mail.
 
@@ -80,10 +80,10 @@ Der Assistent steht allen Organisationen zur Verfügung, die über mindestens ei
 
 Nachdem Sie den Assistenten ausgeführt haben, ist es wichtig, dass Sie:
 
-- Teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Front mit, dass ihnen Lizenzen Teams sind.
-- Wenn Sie freigegebene Geräte verwenden, stellen Sie sicher, Teams auf diesen Geräten installiert ist. Wenn Ihre Organisation ein Modell "Bring your own device" verwendet, teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Frontline mit, dass sie Die Teams auf ihre Geräte herunterladen und installieren müssen.
+- Teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Frontline mit, dass ihnen Lizenzen Teams sind.
+- Wenn Sie freigegebene Geräte verwenden, stellen Sie sicher, Teams auf diesen Geräten installiert ist. Wenn Ihre Organisation ein Modell "Bring your own device" verwendet, teilen Sie Ihren Mitarbeitern und Vorgesetzten in der Frontline mit, dass sie Die Teams auf ihre Geräte installieren müssen.
 
-Wenn der Mitarbeiter in der Frontlinie Teams zum ersten Mal öffnet, erhält er eine maßgeschneiderte First Run-Erfahrung, die Chats und Kanäle, Anrufe und Aufgabenmanagement innerhalb der Teams.
+Wenn der Mitarbeiter in der Frontlinie Teams zum ersten Mal öffnet, erhält er eine maßgeschneiderte First Run-Erfahrung, die Chats und Kanäle, Anrufe und Aufgabenverwaltung innerhalb der Teams.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

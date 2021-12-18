@@ -1,5 +1,5 @@
 ---
-title: Aktivieren der Benutzer für lokale Enterprise-VoIP
+title: Aktivieren der Benutzer für die lokale Enterprise-VoIP
 ms.reviewer: ''
 ms.author: crowe
 author: CarolynRowe
@@ -19,19 +19,19 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 4598565a-c228-4265-ad03-d2aef95b31a0
 description: Damit ein Benutzer Telefonsystem (Cloud PBX) verwenden kann, müssen Sie diese zuerst für Enterprise-VoIP aktivieren und ihm eine Telefonnummer zuweisen. Dazu verwenden Sie Ihre lokale Bereitstellung, während der Benutzer noch in der lokalen Bereitstellung verwaltet wird.
-ms.openlocfilehash: 29fd1eff47a73c7e3469ab7967a1f7cb0a006a75
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: a71b47b5b7b5ec7ca7328bbe9b0ee864b87f36ac
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60012509"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563714"
 ---
-# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Aktivieren der Benutzer für lokale Enterprise-VoIP
+# <a name="enable-the-users-for-enterprise-voice-on-premises"></a>Aktivieren der Benutzer für die lokale Enterprise-VoIP
  
 Damit ein Benutzer Telefonsystem (Cloud PBX) verwenden kann, müssen Sie diese zuerst für Enterprise-VoIP aktivieren und ihm eine Telefonnummer zuweisen. Dazu verwenden Sie Ihre lokale Bereitstellung, während der Benutzer noch in der lokalen Bereitstellung verwaltet wird.
 
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
+> Skype for Business Online wurde am 31. Juli 2021 eingestellt, und die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung , sei es über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online, wird nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
   
 ### <a name="to-enable-a-user-for-enterprise-voice-on-premises-and-assign-a-phone-number"></a>So aktivieren Sie einen Benutzer für Enterprise-VoIP lokal und weisen eine Telefonnummer zu
 
@@ -55,9 +55,9 @@ Damit ein Benutzer Telefonsystem (Cloud PBX) verwenden kann, müssen Sie diese z
     
 ## <a name="special-considerations-when-enabling-users-for-enterprise-voice-on-premises"></a>Besondere Überlegungen beim Aktivieren von Benutzern für lokale Enterprise-VoIP
 
-In einigen Fällen müssen Sie möglicherweise die Art und Weise ändern, wie Sie Benutzern Enterprise-VoIP ermöglichen, um sicherzustellen, dass sie erfolgreich Anrufe tätigen und empfangen können. Wenn Sie Benutzer in Ihrer Bereitstellung haben, die die folgenden Bedingungen erfüllen, führen Sie die enthaltenen Schritte aus, um den Benutzer für Enterprise-VoIP zu aktivieren.
+In einigen Fällen müssen Sie möglicherweise die Art und Weise ändern, wie Benutzer für Enterprise-VoIP aktiviert werden, um sicherzustellen, dass sie erfolgreich Anrufe tätigen und empfangen können. Wenn Sie Benutzer in Ihrer Bereitstellung haben, die die folgenden Bedingungen erfüllen, führen Sie die enthaltenen Schritte aus, um den Benutzer für Enterprise-VoIP zu aktivieren.
   
-- Wenn ein Benutzer in Ihrem lokalen AD erstellt und dann mit Skype for Business Online synchronisiert wird, ohne für Skype for Business oder für Enterprise-VoIP aktiviert zu sein und keinen LineURI-Satz hat, führen Sie die folgenden Cmdlets für jeden betroffenen Benutzer aus, und ersetzen Sie die Werte durch \< \> tatsächliche Werte für Ihre Umgebung:
+- Wenn ein Benutzer in Ihrem lokalen AD erstellt und dann mit Skype for Business Online synchronisiert wird, ohne für Skype for Business oder für Enterprise-VoIP aktiviert zu sein und kein LineURI festgelegt ist, führen Sie die folgenden Cmdlets für jeden betroffenen Benutzer aus, und ersetzen Sie die Werte durch \< \> tatsächliche Werte für Ihre Umgebung:
     
   ```powershell
   Enable-CsUser $username -HostingProvider sipfed.online.lync.com -SipAddress sip:<UserName>@<SIP Domain>
@@ -73,7 +73,7 @@ In einigen Fällen müssen Sie möglicherweise die Art und Weise ändern, wie Si
   Set-CsUser $username -EnterpriseVoiceEnabled $true -LineUri "tel:+<Telephone Number>"
   ```
 
-- Wenn ein Benutzer bereits in Skype for Business lokalen Umgebungen, aber nicht für Enterprise-VoIP aktiviert ist, führen Sie das folgende Cmdlet für jeden betroffenen Benutzer aus, selbst wenn ihm bereits ein LineURI zugewiesen wurde:
+- Wenn ein Benutzer bereits in Skype for Business lokal, aber nicht für Enterprise-VoIP aktiviert ist, führen Sie das folgende Cmdlet für jeden betroffenen Benutzer aus, auch wenn ihm bereits ein LineURI zugewiesen wurde:
     
   ```powershell
   Set-CsUser $username -EnterpriseVoiceEnabled $true

@@ -19,23 +19,23 @@ ms.collection:
 ms.custom: ''
 ms.assetid: c7f78f23-b74f-402f-bedb-4cc308718f5b
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie eine VoIP-Richtlinie für Benutzer zuweisen, die Telefonsystem mit lokaler PSTN-Konnektivität verwenden.'
-ms.openlocfilehash: aa31624921aefd1065b0719966af1df9d2b38793
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 158cd8e7bcd996297077adfb2c812febf4dc491b
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60013169"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563356"
 ---
 # <a name="assign-a-voice-routing-policy"></a>Zuweisen einer VoIP-Routingrichtlinie
  
 > [!Important]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt, danach ist der Dienst nicht mehr verfügbar.  Darüber hinaus wird die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk mit Teams über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)verbinden.
+> Skype for Business Online wurde am 31. Juli 2021 eingestellt, und die PSTN-Konnektivität zwischen Ihrer lokalen Umgebung , ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online, wird nicht mehr unterstützt.  Erfahren Sie, wie Sie Ihr lokales Telefonienetzwerk über [Direct Routing](/MicrosoftTeams/direct-routing-landing-page)mit Teams verbinden.
 
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie eine VoIP-Richtlinie für Benutzer zuweisen, die Telefonsystem mit lokaler PSTN-Konnektivität verwenden. 
   
 Sobald ein Benutzer Skype for Business Online ist und Telefonsystem mit lokaler PSTN-Konnektivität verwendet, gelten zwei VoIP-Richtlinien für sie. Eine ist eine lokale VoIP-Routingrichtlinie, die Sie lokal zuweisen. Diese Richtlinie kann global oder benutzerspezifisch sein und definiert, welche PSTN-Verwendungsdatensätze dem Benutzer zugeordnet sind. In diesem Thema wird erläutert, wie Diese Richtlinie zugewiesen wird.
   
-Die andere VoIP-Richtlinie definiert, welche Anruffunktionen für den Benutzer verfügbar sind. Diese VoIP-Richtlinie wird von Microsoft definiert und ist für alle Telefonsystem mit lokalen PsTN-Konnektivitätsbenutzern identisch. Es wird automatisch Telefonsystem Benutzern zugewiesen.
+Die andere VoIP-Richtlinie definiert, welche Anruffunktionen für den Benutzer verfügbar sind. Diese VoIP-Richtlinie wird von Microsoft definiert und ist für alle Telefonsystem mit lokalen PSTN-Verbindungsbenutzern identisch. Es wird automatisch Telefonsystem Benutzern zugewiesen.
   
 |&nbsp;|Lokaler Benutzer|Telefonsystem mit lokalen PSTN-Verbindungsbenutzern|
 |:-----|:-----|:-----|
@@ -60,7 +60,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihre Telefonsystem mit lokale
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages <PSTNUsagesId> 
    ```
 
-    Zum Beispiel: 
+    Beispiel:
     
    ```powershell
    Set-CSVoiceRoutingPolicy -Identity Global -PSTNUsages "Local", "Long Distance" 
@@ -80,7 +80,7 @@ Bevor Sie eine globale VoIP-Routingrichtlinie für Ihre Telefonsystem mit lokale
    New-CSVoiceRoutingPolicy -Identity <String> -Name <String> -PSTNUsages <PSTNUsagesId>
    ```
 
-    Zum Beispiel: 
+    Beispiel:
     
    ```powershell
    New-CSVoiceRoutingPolicy -Identity HybridVoice -Name Hybrid -PSTNUsages "Local", "Long Distance"
@@ -104,7 +104,7 @@ Unabhängig davon, ob Sie die globale VoIP-Routingrichtlinie oder benutzerspezif
    Grant-CsVoiceRoutingPolicy -Identity <UserIdParameter> -PolicyName <String>
    ```
 
-    Zum Beispiel: 
+    Beispiel:
     
    ```powershell
    Grant-CsVoiceRoutingPolicy -Identity "Bob Kelly" -PolicyName HybridVoice

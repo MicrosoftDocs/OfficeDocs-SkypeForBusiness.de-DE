@@ -7,7 +7,7 @@ ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Folgen Sie diesem beschleunigten Zehn-Schritt-Aktionsplan für den Übergang von einer grundlegenden Skype for Business Einrichtung in die Microsoft Teams Einrichtung.
+description: Folgen Sie diesem beschleunigten Zehn-Schritt-Aktionsplan für den Übergang von einer grundlegenden Skype for Business-Einrichtung zum Microsoft Teams-Einrichtung.
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
@@ -23,12 +23,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 1a06c4783e9ee4f42473e6b08f0d9bd51c142ddf
-ms.sourcegitcommit: 32ba2ed0343e19f56e62fb3c507923c95f11b1bd
+ms.openlocfilehash: a3d7ef1ae0375b7cdec373450135e5eed148f776
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/19/2021
-ms.locfileid: "61124252"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61562797"
 ---
 # <a name="upgrade-basic"></a>Upgrade Basic
 
@@ -39,7 +39,7 @@ Die Upgrade Basic-Checkliste ist für kleinere Organisationen oder diejenigen ge
 Diese zehn einfachen Schritte decken alles ab, was Sie für ein erfolgreiches Upgrade benötigen. Sie sind für den Abschluss in etwa 30 bis 45 Tagen ausgelegt, sie sollten jedoch basierend auf dem Upgradezeitplan Ihrer Organisation angepasst werden.
 
 > [!IMPORTANT]
-> Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen.
+> Skype for Business Online wurde am 31. Juli 2021 eingestellt. Um den maximalen Nutzen zu erzielen und sicherzustellen, dass Ihre Organisation genügend Zeit hat, Ihr Upgrade durchzuführen, empfehlen wir Ihnen, den Wechsel zu Microsoft Teams bereits heute zu planen.
 
 Was geschieht mit Skype for Business nach dem Upgrade? Nach dem Upgrade der Benutzer auf Microsoft Teams (Modus **Teams only** (Nur Microsoft Teams)) gilt Folgendes:
 
@@ -50,7 +50,7 @@ Was geschieht mit Skype for Business nach dem Upgrade? Nach dem Upgrade der Benu
 
 Lesen Sie die diesbezüglichen [häufig gestellten Fragen (FAQ)](./faq-journey.yml), wenn Sie weitere Fragen zu Ihrem Upgrade haben.
 
-Sie sind mit Teams noch nicht vertraut? Erfahren [Sie, wie Teams](https://products.office.com/microsoft-teams/group-chat-software) Unterhaltungen, Besprechungen, Dateien, Office-Apps und Integrationen von Drittanbietern vereint – und dabei einen einzigen Hub für Teamarbeit in Microsoft 365 und Office 365.
+Sie sind mit Teams noch nicht vertraut? Erfahren Sie, [wie Teams](https://products.office.com/microsoft-teams/group-chat-software) Unterhaltungen, Besprechungen, Dateien, Office-Apps und Integrationen von Drittanbietern vereint – und bietet so einen einzigen Hub für Teamarbeit in Microsoft 365 und Office 365.
 
 <!--ENDOFSECTION-->
 
@@ -115,7 +115,7 @@ Benutzer, die Skype for Business intensiv verwendet haben, benötigen möglicher
 Wenn Sie Ihre Benutzer zeitig darüber informieren, haben diese ausreichend Zeit, sich mit Teams vertraut zu machen, ohne dass sich dies negativ auf ihre Produktivität auswirkt. Auf diese Weise wird eine positivere Benutzererfahrung erzielt. Senden Sie eine Kommunikation, um ihnen zu sagen, was sich ändert, warum sie sich ändert und wie sie sich darauf vorbereiten können.
 
 > [!Note]
-> Bei Bedarf können Sie die Teams Benutzer derzeit über die Microsoft 365 Admin Center aktivieren.
+> Bei Bedarf können Sie Teams Benutzer derzeit über die Microsoft 365 Admin Center aktivieren.
 
 **Ressourcen:**
 

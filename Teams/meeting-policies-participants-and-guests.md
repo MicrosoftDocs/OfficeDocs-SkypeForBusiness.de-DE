@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: ebbb13d4d0430aee6fadba10b825a6c0cb8ec3b0
-ms.sourcegitcommit: 3e724a57e946550f2f61002c8e2de1ec20c9755a
+ms.openlocfilehash: bd8146ce27f76bd03d7ef991f51dbe1dda3c08ab
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/30/2021
-ms.locfileid: "61234303"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563121"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -67,7 +67,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 |**Personen in meiner Organisation oder vertrauenswürdigen Organisationen und Gäste**     |Authentifizierte Benutzer innerhalb der Organisation, einschließlich Gastbenutzer und Benutzer aus vertrauenswürdigen Organisationen, nehmen an der Besprechung direkt teil, ohne im Wartebereich warten zu müssen.  Anonyme Benutzer müssen im Wartebereich warten.   |
 |**Personen in meiner Organisation**    |Authentifizierte Benutzer innerhalb der Organisation nehmen direkt an der Besprechung teil, ohne im Wartebereich zu warten.  Benutzer von vertrauenswürdigen Organisationen, Gastbenutzern und anonymen Benutzern warten im Wartebereich.          |
 |**Nur Organisatoren**    |Alle Besprechungsorganisatoren nehmen direkt an der Besprechung teil und müssen nicht im Wartebereich warten. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten. Auf der Teams für Client-Besprechungsoptionen wird sie als "Nur ich" angezeigt.          |
-|**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich warten zu müssen. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten. Auf der Teams optionen für Client-Besprechungen wird sie als "Personen, die ich lade" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchgehen.      |
+|**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich warten zu müssen. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten. Auf der Teams Optionen für Client-Besprechungen wird sie als "Personen, die ich lade" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchgehen.      |
 
  > [!NOTE]
 > Bei vertrauenswürdigen Organisationen handelt es sich um Domänen, mit denen Sie Verbundkommunikation in Teams. Wenn Sie **Alle** externen Domänen für externen Zugriff zulassen im Teams Admin Center aktivieren, werden alle authentifizierten Benutzer innerhalb einer Teams Organisation als vertrauenswürdig eingestuft. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
@@ -98,6 +98,17 @@ Bei dieser Einstellung handelt es sich um eine Einstellung pro Teilnehmer. Über
 
 <a name="bkparticipantsandguests"> </a>
 
+## <a name="enable-meeting-policy-settings"></a>Aktivieren von Besprechungsrichtlinieneinstellungen
+
+Zum Aktivieren von Besprechungsrichtlinieneinstellungen können Sie das [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) (Besprechungsrichtlinien Bearbeiten einer Richtlinie Teilnehmer & Gäste) oder das  >    >   [Set-CsTeamsMeetingPolicy-Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) in Teams PowerShell verwenden. 
+
+In diesem Beispiel verwenden wir PowerShell, um die globale Besprechungsrichtlinie so zu ändern, dass jeder Besprechung beginnen oder teilnehmen kann.
+
+```powershell
+Set-CsTeamsMeetingPolicy -Identity Global -AutoAdmittedUsers "Everyone" -AllowAnonymousUsersToStartMeeting $True -AllowPSTNUsersToBypassLobby $True
+```
+
+Nachdem Sie eine Richtlinie eingerichtet haben, müssen Sie diese auf Benutzer anwenden. Wenn Sie die Globale (organisationsweite Standardrichtlinie) geändert haben, gilt sie automatisch für Benutzer. Sie müssen mindestens 4 Stunden warten, bis Richtlinienänderungen wirksam werden, es kann jedoch bis zu 24 Stunden dauern.
 
 
 ## <a name="related-topics"></a>Verwandte Themen

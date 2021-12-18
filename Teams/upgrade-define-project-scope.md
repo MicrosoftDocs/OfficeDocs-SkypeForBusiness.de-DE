@@ -20,18 +20,18 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49ca0fb50f6e78f8c9ee3cd37aaba21c0929e014
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 39ba6728db7a9146b07104fec82bbd83554ed088
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58732784"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563215"
 ---
 # <a name="define-your-project-scope"></a>Definieren des Projektumfangs
 
 ![Upgrade journey diagram, highlighting the Project Definition stage.](media/upgrade-banner-project-definition.png "Phasen des Upgradeschritts, mit Betonung auf der Stufe Project Definition")
 
-Dieser Artikel ist Teil der Phase Project Definition Ihres Upgrades. Eine Aktivität, die Sie durchführen, nachdem Sie eine Unterstützung durch ein Sponsoringteam von den von Ihnen identifizierten Projektbeteiligten erstellt haben, ist von wesentlicher Bedeutung für den Erfolg Ihres Projekts. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
+Dieser Artikel ist Teil der Phase Project Definition Ihres Upgrades. Eine Aktivität, die Sie durchführen, nachdem Sie ein Sponsoringteam von den von Ihnen identifizierten Projektbeteiligten erstellt haben, sind von wesentlicher Bedeutung für den Erfolg Ihres Projekts. Bevor Sie fortfahren, vergewissern Sie sich, dass Sie die folgenden Aktivitäten abgeschlossen haben:
 
 - [Aufgelistete Projektbeteiligten](upgrade-enlist-stakeholders.md)
 
@@ -39,15 +39,15 @@ Wenn Sie sich Zeit nehmen, um Ihre Projektvision, Ihren Umfang, Ihre Ziele und I
 
 | &nbsp;| &nbsp;|
 |---|---|
-| ![Symbol mit Entscheidungspunkten](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (mit anderen Worten, warum tun Sie es?)</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken abzumildern?</li></ul> |
-| ![Ein Symbol, das die nächsten Schritte zeigt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Besprechen Sie die folgenden Abschnitte mit Ihrem Projektteam und Sponsoren.</li><li>Dokumentieren Sie Ihre Vision, Ihren Umfang, Ihre Ziele und Risiken für dieses Projekt.</li><li>Überprüfen Sie erneut, ob Sie das richtige Team engagiert haben.</li></ul>|
+| ![Ein Symbol, das Entscheidungspunkte darstellt.](media/audio_conferencing_image7.png) <br/>Entscheidungspunkte|<ul><li>Was möchten Sie mit diesem Projekt erreichen (mit anderen Worten, warum tun Sie es?)</li><li>Wie sieht der Erfolg aus?</li><li>Was sind die Risiken, und was ist Ihr Plan, um diese Risiken abzumildern?</li></ul> |
+| ![Ein Symbol, das die nächsten Schritte darstellt.](media/audio_conferencing_image9.png)<br/>Nächste Schritte|<ul><li>Besprechen Sie die folgenden Abschnitte mit Ihrem Projektteam und Sponsoren.</li><li>Dokumentieren Sie Ihre Vision, Ihren Umfang, Ihre Ziele und Risiken für dieses Projekt.</li><li>Überprüfen Sie erneut, ob Sie das richtige Team engagiert haben.</li></ul>|
 
 ## <a name="project-vision"></a>Project Sehvermögen
 
 Ihre Vision ist das "Gesamtbild" oder schließlich der Endzustand, der die Frage "Warum machen wir dieses Projekt?" beantwortet. Eine ideale Vision befasst sich mit den Geschäftstreibern Ihrer Organisation und der Perspektive des Benutzerwerts, wie in den folgenden Beispielen gezeigt:
 
-- **Unternehmenstreiber der** Organisation: Die Standardisierung auf Microsoft Teams entspricht unserer Transformation für den digitalen Arbeitsplatz und ermöglicht es uns, die betriebliche Effizienz zu steigern, redundante Lösungen zu beseitigen und 5 Mio. USD zu sparen.
-- **Benutzerwert hinzufügen:** Microsoft Teams (1) spart Zeit, indem ein einziger Speicherort für Projektnotizen, Office Dokumente, Teammitglieder, Unterhaltungen und Besprechungen zur Verfügung steht. (2) vereinfacht die Kommunikation durch die Verwendung einer zentralen Kontaktliste und der beständige Chat-Nachverfolgung für schnellen Zugriff auf Ihre Unterhaltungen und (3) entschärfungiert den Frust, diesen verloren gegangenen E-Mail-Anhang zu finden, indem die Dateien an einem zentralen Ort gespeichert und darauf zugegriffen wird.
+- **Unternehmenstreiber der** Organisation: Die Standardisierung Microsoft Teams entspricht unserer Transformation für den digitalen Arbeitsplatz und ermöglicht es uns, die betriebliche Effizienz zu steigern, redundante Lösungen zu beseitigen und 5 Millionen US-Dollar zu sparen.
+- **Benutzerwert-Hinzufügen:** Microsoft Teams (1) spart Zeit, indem ein einziger Speicherort für Projektnotizen, Office Dokumente, Teammitglieder, Unterhaltungen und Besprechungen hinzugefügt wird. (2) vereinfacht die Kommunikation durch die Verwendung einer zentralen Kontaktliste und der permanenten Chat-Nachverfolgung für schnellen Zugriff auf Ihre Unterhaltungen und (3) entschärfungiert den Frust, diesen verloren gegangenen E-Mail-Anhang zu finden, indem dateien an einem zentralen Ort gespeichert und darauf zugegriffen wird.
 
 Beachten Sie die folgenden Diskussionspunkte, um Ihre Vision weiter zu verfeinern:
 
@@ -64,13 +64,13 @@ Beachten Sie die folgenden Diskussionspunkte, um Ihre Vision weiter zu verfeiner
 
 ## <a name="project-scope"></a>Project-Bereich
 
-Ihre Vision kann nur im Laufe der Zeit, in verschiedenen Phasen, realisiert werden. Der Projektumfang definiert den Fokus  Ihres Projekts zu diesem Zeitpunkt und dient dazu, das Projektteam auf die aktuellen Aufgaben zu konzentrieren, sodass Sie Ihre langfristige Vision in die Welt setzen können. Ihr Umfang kann z. B. die Ausführung eines Pilotprojekts, das Bereitstellen einer bestimmten Arbeitsauslastung wie Sprache oder Besprechungen oder das Aktivieren von Teams Skype for Business während der Planung des Upgrades im Laufe der Zeit erforderlich sein. Im Rahmen des Projektumfangs sollten Sie dies bewerten:
+Ihre Vision kann nur im Laufe der Zeit, in verschiedenen Phasen, realisiert werden. Der Projektumfang definiert den Fokus  Ihres Projekts zu diesem Zeitpunkt und dient dazu, das Projektteam auf die aktuellen Aufgaben zu konzentrieren, sodass Sie Ihre langfristige Vision in die Welt setzen können. Ihr Umfang kann z. B. die Ausführung eines Pilotprojekts, das Bereitstellen einer bestimmten Arbeitsauslastung wie Sprache oder Besprechungen oder das Aktivieren von Teams Skype for Business während der Planung des Upgrades im Laufe der Zeit aufrufen. Im Rahmen des Projektumfangs sollten Sie dies bewerten:
 
 - [Die verschiedenen Koexistenzmodi](./teams-and-skypeforbusiness-coexistence-and-interoperability.md), und die für Ihre Organisation optimal sind.
 - Die beste Methode zum Skype for Business und Teams, bevor Sie zu einer anderen Teams.
 - Durchführen eines [Pilotprojekts](./pilot-essentials.md) zur Überprüfung der technischen und Benutzerbereitschaft in Ihrer Organisation.
 
-## <a name="project-goals"></a>Project der Ziele
+## <a name="project-goals"></a>Project-Ziele
 
 Ihre Ziele definieren das Ergebnis, das Sie wünschen, und ermöglichen Es Ihnen, den Erfolg des Projekts zu messen. Ziele können als _Ziele_ und Wichtige Ergebnisse definiert werden, und die Measures für den Projekterfolg können als Key _Success Indicators_ (KSIs) definiert werden. Es ist wichtig, dass Sie die vollständigen Beteiligung der Projektbeteiligten an der Definition von OKRs und KSIs erhalten, um sicherzustellen, dass sie das Gefühl der Besitzrechte haben und diese Erfolgsmaßnahmen an den definierten Projektaufgaben ausrichten können. Die Ziele sollten eine Mischung aus technischem und benutzerorientiertem Erfolg umfassen.
 
@@ -94,7 +94,7 @@ Die folgende Tabelle enthält Beispiele für OKRs und KSIs für die Anfangsphase
 | **Netzwerk und Qualität** | Der Prozentsatz schlechter Audioanrufe sollte minimal sein. | [Anrufqualitätsdashboard (CQD)](https://aka.ms/sof-cqd) | \<3 % der anrufe mit Teams | Wöchentlich, dann monatlich |
 | **Nutzung und Bewusstsein** | Die Chat-, Besprechungs- und Anruferfahrung entspricht oder ist besser als Skype for Business | Umfrage | 80 % stimmen zu oder stimmen voll und ganz zu | Wöchentlich bis pilot, nach dem Rollout |
 | **Nutzung und Verbreitung** | Aktive Verwendung der Lösung durch die Benutzer | Microsoft 365-Berichte oder AQD | 90 % Teilnahme der Pilotbenutzer, besser als die aktuelle Lösung | Wöchentlich, dann monatlich |
-| **Nutzung und Schulungen** | Ich hatte ausreichend Schulungs-/Hilferessourcen, um meine Teams | Umfrage nach der Pilotphase | 80 % stimmen zu oder stimmen voll und ganz zu | Post-pilot, post-rollout |
+| **Nutzung und Schulungen** | Ich hatte entsprechende Schulungs-/Hilferessourcen, um meine Teams | Umfrage nach der Pilotphase | 80 % stimmen zu oder stimmen voll und ganz zu | Post-pilot, post-rollout |
 | **Benutzerzufriedenheit** | Ich würde anderen Teams empfehlen | [NET Promoter Score (NPS) über](http://www.npscalculator.com/en) eine nach der Pilotphase durchgeführte Umfrage | NPS \> 0 | Post-pilot, post-rollout |
 | **Business-Treiber** | Kosteneinsparungen | Verbindlichkeiten | \$X Mio. Kostenausgaben in Drittanbieterlösungen | Sechs Monate, dann ein Jahr, dann fünf Jahre nach dem Rollout |
 
@@ -103,7 +103,7 @@ Die folgende Tabelle enthält Beispiele für OKRs und KSIs für die Anfangsphase
 
 ## <a name="risks-and-mitigation"></a>Risiken und Entschärfung
 
- Bei jedem Projekt können unvorhergesehene Ereignisse oder andere Faktoren auftreten und Ihr Projekt aus der Spur bringen. Es ist wichtig, potenzielle Risiken proaktiv zu bewerten und einen Entschärfungsplan zu definieren, um mögliche Probleme zu beheben, damit Ihr Projekt Ihre Ziele erreichen kann. Ein _Risikoregister_ ist ein hervorragendes Tool zum Nachverfolgen von Projektrisiken – zusammen mit der Wahrscheinlichkeit und den potenziellen Auswirkungen – und zum Erfassen Ihres Entschärfungsplans. Die folgende Tabelle enthält ein Beispiel für ein Risikoregister.
+ Bei jedem Projekt können unvorhergesehene Ereignisse oder andere Faktoren auftreten und Ihr Projekt aus der Spur bringen. Es ist wichtig, potenzielle Risiken proaktiv zu bewerten und einen Entschärfungsplan zu definieren, um die eventuellen Probleme zu beheben, damit Ihr Projekt Ihre Ziele erreichen kann. Ein _Risikoregister_ ist ein hervorragendes Tool zum Nachverfolgen von Projektrisiken – zusammen mit der Wahrscheinlichkeit und den potenziellen Auswirkungen – und zum Erfassen Ihres Entschärfungsplans. Die folgende Tabelle enthält ein Beispiel für ein Risikoregister.
 
 | Risiko | Wahrscheinlichkeit | Auswirkungen | Gesamt | Risikominderungsplan |
 |---|---|---|---|-------|
@@ -116,7 +116,7 @@ Die folgende Tabelle enthält Beispiele für OKRs und KSIs für die Anfangsphase
 Stellen Sie beim Festlegen des Upgradeumfangs sicher, dass Sie neben dem Abschlussdatum auch eine Zeitachse für wichtige Meilensteine festlegen (z. B. Teams neben Skype for Business für alle Benutzer aktivieren). Eine definierte Zeitachse hilft Ihrem Projektteam, zu einem konsistenten Endzustand zu kommen, und informiert den richtigen Zurückarbeitszeitplan, um sicherzustellen, dass Ihr Projekt planmäßig bleibt. Ziehen Sie eine Zeitachse in Erwägung, die nicht zu beschleunigt ist (bei der Vorgänge übersehen werden) oder zu weit entfernt ist (wo die Dynamik verloren gehen könnte). Die ideale Zeitachse für:
 
 - **Produktbereitschaft für Compliance-** und Benutzerszenarioanforderungen: In der Produkt-Roadmap können Sie messen, wann Teams für Ihre Organisation bereit sind. [](https://aka.ms/O365Roadmap)
-- **Upgradegruppen:** Bestimmen Sie, ob Sie Benutzer Teams durch Upgradegruppen aktivieren oder aktualisieren werden, was sich auf die Zeitachse Ihres Gesamtupgrades auswirken kann.
+- **Upgradegruppen:** Bestimmen Sie, ob Sie Benutzer Teams aktivieren oder aktualisieren möchten, indem Sie Upgradegruppen verwenden, was sich auf den Zeitplan des Gesamtupgrades auswirken kann.
 - **Organisationsfaktoren wie Änderungsstopp, Ende des Geschäftsjahrs, Bereitstellungslebenszyklus:** Diskutieren und berücksichtigen Sie alle internen Prozesse, die sich auf die Upgradezeitachse einflussen können.
 - **Andere Änderungen, die** zur oder um die gleiche Zeit auftreten: Erwägen Sie die Bündelung oder Abstände, um eine positive Benutzererfahrung zu ermöglichen und jegliche Auswirkungen auf die Produktivität zu minimieren.
 - **Ressourcenverwaltung:** Bestätigen Sie die Ressourcenzuordnung mit den Projektbeteiligten, um sicherzustellen, dass das von Ihnen zusammengebrachte Projektteam über genügend Bandbreite verfügt, um alle erforderlichen Aufgaben auszuführen.
@@ -125,4 +125,4 @@ Als Referenzpunkt wird eine Beispielzeitachse für die Phasen vor dem Upgrade, [
 
 Nachdem Sie die oben beschriebenen Aktivitäten abgeschlossen haben, sollten Sie über eine solide Grundlage für Ihr Projekt verfügen. Fahren Sie mit [Ihren Aktivitäten zur Planung technischer](./upgrade-prepare-environment.md) Bereitschaft und der [Organisationsbereitschaft](./upgrade-prepare-organization.md) fort.
 
-Bitte beachten: Skype for Business Online wird am 31. Juli 2021 eingestellt. Ab diesem Zeitpunkt kann nicht mehr darauf zugegriffen werden, und es wird nicht mehr unterstützt. Um die Vorteile zu maximieren und sicherzustellen, dass Ihre Organisation über die richtige Zeit zum Abschließen des Upgrades verfügt, empfehlen wir Ihnen, ihre ersten Microsoft Teams zu unternehmen.
+Skype for Business Online wurde am 31. Juli 2021 eingestellt. Um die Vorteile zu maximieren und sicherzustellen, dass Ihre Organisation über die richtige Zeit zum Abschließen des Upgrades verfügt, empfehlen wir Ihnen, noch heute mit Microsoft Teams beginnen.
