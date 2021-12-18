@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: e0036218312d04a409b6699998ec6b84cddae79c
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
+ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513486"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "61563562"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -144,7 +144,7 @@ Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich 
 
 ## <a name="limit-external-access-to-specific-people"></a>Einschränken des externen Zugriffs auf bestimmte Personen
 
-Sie können den externen Zugriff auf bestimmte Personen mithilfe von PowerShell einschränken.
+Wenn Sie die Option **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** aktivieren, können Sie den externen Zugriff auf bestimmte Personen mithilfe von PowerShell einschränken.
 
 Sie können das folgende Beispielskript verwenden, indem Sie *PolicyName* durch den Namen ersetzen, den Sie der Richtlinie zuweisen möchten, und *UserName* für jeden Benutzer, den Sie für den externen Zugriff verwenden möchten.
 
