@@ -1514,6 +1514,8 @@ items:
             items:
               - name: Verwalten der Schichten-App
                 href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Verwalten von Zeitplanbesitzern für die Schichtverwaltung
+                href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
           - name: Bookings in Teams
             items:
               - name: Virtuelle Besuche mit Teams und Bookings
