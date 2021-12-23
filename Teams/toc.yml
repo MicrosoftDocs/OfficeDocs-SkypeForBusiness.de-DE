@@ -1461,7 +1461,7 @@ items:
             href: purchase-third-party-apps.md
       - name: App-Vorlagen für Teams
         href: /microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json
-      - name: Erstellen und Anpassen eigener Apps
+      - name: Erstellen und Anpassen von Apps
         items:
           - name: Integrieren mit Power Platform
             href: teams-power-platfom-integration.md
@@ -1471,14 +1471,26 @@ items:
             href: submit-approve-custom-apps.md
           - name: 'Eine benutzerdefinierte App veröffentlichen, indem Sie ein App-Paket hochladen'
             href: upload-custom-apps.md
+          - name: Apps in Teams anpassen
+            href: customize-apps.md
           - name: Store für benutzerdefinierte Apps
             href: customize-your-app-store.md
+          - name: Verwenden integrierter und benutzerdefinierter Registerkarten
+            href: built-in-custom-tabs.md
       - name: Verwalten von Apps für Teams
         items:
           - name: Übersicht
             href: manage-apps.md
-          - name: Verwalten von App-Richtlinien in Teams
-            href: app-policies.md
+          - name: App-Richtlinien
+            items:
+              - name: Verwalten von App-Richtlinien in Teams
+                href: app-policies.md
+              - name: Verwalten von Richtlinien für App-Berechtigungen in Teams
+                href: teams-app-permission-policies.md
+              - name: Verwalten von Richtlinien für App-Setup in Teams
+                href: teams-app-setup-policies.md
+              - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
+                href: teams-custom-app-policies-and-settings.md
           - name: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung
             href: app-permissions-admin-center.md
           - name: Ressourcenspezifische Zustimmung
@@ -1487,20 +1499,10 @@ items:
             href: app-permissions.md
           - name: Administratoreinstellungen für Apps in Teams
             href: admin-settings.md
-          - name: Verwenden integrierter und benutzerdefinierter Registerkarten
-            href: built-in-custom-tabs.md
           - name: Verwenden von Microsoft 365 oder Office 365 und benutzerdefinierten Connectors
             href: Office-365-custom-connectors.md
           - name: Teams-Apps-Verhalten für nicht standardmäßige Benutzer
             href: non-standard-users.md
-          - name: Verwalten von Richtlinien für App-Berechtigungen in Teams
-            href: teams-app-permission-policies.md
-          - name: Verwalten von Richtlinien für App-Setup in Teams
-            href: teams-app-setup-policies.md
-          - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
-            href: teams-custom-app-policies-and-settings.md
-          - name: Apps in Teams anpassen
-            href: customize-apps.md
           - name: Aktualisieren der Benutzererfahrung von Apps
             href: apps-update-experience.md
   - name: Branchen- und Regierungsrichtlinien
