@@ -22,12 +22,12 @@ ms.collection:
 - M365-collaboration
 - m365initiative-meetings
 description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: 4ff1118818ac22040e9bf9f8c44288991e24d8b0
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205305"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625916"
 ---
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
@@ -46,7 +46,7 @@ Bei der anonymen Teilnahme kann jeder der Besprechung als anonymer Benutzer beit
 
 Sie müssen ein Teams-Administrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
-1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.net).
+1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.com).
 
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
 
@@ -84,7 +84,7 @@ Anonyme Benutzer erben jetzt die globale Standardberechtigungsrichtlinie auf Ben
 
 Sie müssen ein Teams-Dienstadministrator sein, um auf diese Einstellung zugreifen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
-1. Wechseln Sie zum Admin Center.
+1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.com).
 
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
 
@@ -109,7 +109,7 @@ Sie können Einladungen zu Teams-Besprechung personalisieren, um die Anforderung
 
  **Verwenden des Microsoft Teams Admin Centers**
 
-1. Wechseln Sie zum Admin Center.
+1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.com).
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
 3. Gehen Sie unter **E-Mail-Einladung** wie folgt vor:
 
@@ -141,7 +141,7 @@ Wenn Sie Quality of Service (QoS) zur Priorisierung des Netzwerkverkehrs verwend
 > Wenn Sie QoS aktivieren oder Einstellungen im Microsoft Teams Admin Center für den Teams-Dienst ändern, müssen Sie außerdem [übereinstimmende Einstellungen auf alle Benutzergeräte anwenden](QoS-in-Teams-clients.md) und auf alle internen Netzwerkgeräte, um die Änderungen an QoS in Teams vollständig zu implementieren.
 
   **Verwenden des Microsoft Teams Admin Centers**
-1. Wechseln Sie zum Admin Center.
+1. Navigieren Sie zum [Teams Admin Center](https://admin.teams.microsoft.com).
 2. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Besprechungseinstellungen**.
 3. Gehen Sie unter **Netzwerk** wie folgt vor:
 

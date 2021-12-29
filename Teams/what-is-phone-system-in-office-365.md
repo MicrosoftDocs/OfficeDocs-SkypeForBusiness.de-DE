@@ -20,29 +20,30 @@ f1.keywords:
 ms.custom:
 - Phone System
 - seo-marvel-apr2020
+- intro-overview
 description: In diesem Artikel erfahren Sie mehr über die Teams Telefonsystem Technologie in Microsoft 365.
-ms.openlocfilehash: a0e1679c580ba6b53af7e43e6e8231a90b636e34
-ms.sourcegitcommit: 7cbcfd63161ce88067ce2d2548685c3746cd7f69
+ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/02/2021
-ms.locfileid: "61262129"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625806"
 ---
 # <a name="what-is-teams-phone"></a>Was ist Teams Telefon
 
 Teams Telefon microsoft-Technologie zum Aktivieren von Anrufsteuerung und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365-Cloud mit Microsoft Teams.
 
-Teams Telefon kann mit Teams und zertifizierten Geräten verwendet werden. Teams Telefon können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem Pc Microsoft 365.
+Teams Telefon kann mit Teams und zertifizierten Geräten verwendet werden. Teams Telefon können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem PC Microsoft 365.
 
-Anrufe zwischen Benutzern in Ihrer Organisation werden intern in Teams Telefon behandelt und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen. 
+Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb Teams Telefon und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen. 
 
 Für externe Anrufe bietet Teams Telefon Add-On-Optionen zum Herstellen einer Verbindung mit dem PSTN. Weitere Informationen zu Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter Planen ihrer [Teams-Sprachlösung](cloud-voice-landing-page.md) und Verbinden [PSTN.](#connect-to-the-public-switched-telephone-network-pstn)
 
 ## <a name="teams-phone-features"></a>Teams Telefon features
 
-Mit Teams Telefon können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Teams Telefon Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams diese Person anrufen. Zum Ein- und Empfangen von Anrufen können Teams Telefon-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
+Mit Teams Telefon können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Teams Telefon Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams person anrufen. Zum Ein- und Empfangen von Anrufen können Teams Telefon-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
 
-Teams Telefon-Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und andere Dienste verwendet wird.
+Teams Telefon Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und andere Dienste verwendet wird.
 
 Weitere Informationen zu den Teams Telefon finden Sie unter Das bietet [Ihnen die Teams Telefon.](here-s-what-you-get-with-phone-system.md)
   
@@ -55,7 +56,7 @@ Bei externen anrufen können Teams Telefon auf eine von mehreren Arten mit dem P
 
 - Verwenden Sie Ihre vorhandene Telefonieinfrastruktur für lokale PSTN-Anbindung.
 
-  Sie können Ihre lokale Telefonieinfrastruktur mit Ihrem Telefoniedienst Teams Telefon, indem Sie operator Verbinden Calling oder Direct Routing verwenden. 
+  Sie können Ihre lokale Telefonieinfrastruktur mithilfe Teams Telefon Operator Verbinden Oder Direct Routing verbinden. 
 
 Weitere Informationen zu allen Optionen für PSTN-Konnektivität finden Sie unter [PstN-Konnektivitätsoptionen.](pstn-connectivity.md)
 

@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: Dieser Artikel bietet eine Übersicht über die neue Systemsteuerung.
-ms.openlocfilehash: 355a8b93e428b860a775ad01cf31df726c644654
-ms.sourcegitcommit: 11a803d569a57410e7e648f53b28df80a53337b6
+ms.openlocfilehash: 7def5267b88260b66b6aa345c9585b83659f6ea3
+ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/10/2021
-ms.locfileid: "60887303"
+ms.lasthandoff: 12/29/2021
+ms.locfileid: "61625936"
 ---
 # <a name="control-panel"></a>Systemsteuerung
 
@@ -65,3 +65,33 @@ Die neue Systemsteuerung enthält häufig verwendete Menüelemente, die die meis
 |---------|---------|
 |Dateifilter         |    [Dateifilter](use-powershell-im-and-presence-menu.md#file-filter)     |
 |URL-Filter      |  [URL-Filter](use-powershell-im-and-presence-menu.md#url-filter)       |
+
+## <a name="monitoring-and-archiving"></a>Überwachen und Archivieren
+
+|Untermenü  |Informationsquelle für Cmdlet  |
+|---------|---------|
+|Aufzeichnung von Kommunikationsdatensätzen       |    [Aufzeichnung von Kommunikationsdatensätzen](use-powershell-monitoring-and-archiving-menu.md#call-detail-recording)     |
+|Quality of Experience-Daten      |  [Quality of Experience-Daten](use-powershell-monitoring-and-archiving-menu.md#quality-of-experience-data)       |
+|Archivierungsrichtlinie       |    [Archivierungsrichtlinie](use-powershell-monitoring-and-archiving-menu.md#archiving-policy)     |
+|Archivierungskonfiguration      |  [Archivierungskonfiguration](use-powershell-monitoring-and-archiving-menu.md#archiving-configuration)       |
+
+## <a name="network-configuration"></a>Netzwerkkonfiguration
+
+|Untermenü  |Informationsquelle für Cmdlet  |
+|---------|---------|
+|Ortungsrichtlinie       |    [Standortrichtlinie](use-powershell-network-configuration-menu.md#location-policy)     |
+|Bandbreitenrichtlinie      |  [Bandbreitenrichtlinie](use-powershell-network-configuration-menu.md#bandwidth-policy)       |
+|Region       |    [Region](use-powershell-network-configuration-menu.md#region)     |
+|Website      |  [Site](use-powershell-network-configuration-menu.md#site)       |
+|Subnetz      |  [Subnetz](use-powershell-network-configuration-menu.md#subnet)       |
+|Regionslink       |    [Regionslink](use-powershell-network-configuration-menu.md#region-link)     |
+|Regionsroute      |  [Regionsroute](use-powershell-network-configuration-menu.md#region-route)       |
+
+## <a name="topology"></a>Topologie
+
+|Untermenü  |Informationsquelle für Cmdlet  |
+|---------|---------|
+|Status       |    [Status](use-powershell-topology-menu.md#status)     |
+|Serveranwendung      |  [Serveranwendung](use-powershell-topology-menu.md#server-application)       |
+|Einfache URL       |    [Einfache URL](use-powershell-topology-menu.md#simple-url)     |
+|Vertrauenswürdige Anwendung       |    [Vertrauenswürdige Anwendung](use-powershell-topology-menu.md#trusted-application)     |
