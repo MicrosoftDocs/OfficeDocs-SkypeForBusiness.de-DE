@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Erfahren Sie, wie Sie die Schichten-App in Ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Hier erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,12 +22,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: d474198bc644563007428ac50a85f8f839a9e1dc
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
+ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562928"
+ms.lasthandoff: 12/30/2021
+ms.locfileid: "61639689"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -61,14 +61,11 @@ Daten der Schichten-App werden aktuell in Azure in Rechenzentren in Nordamerika,
 "Schichten" ist standardmäßig für alle Microsoft Teams-Benutzer in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](../../manage-apps.md) deaktivieren oder aktivieren.
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
-2. Führen Sie in der Liste der Apps eine der folgenden Aktionen aus:
-
-    - Um Schichten für Ihre Organisation zu deaktivieren, suchen Sie nach der Schicht-App, wählen Sie sie aus und wählen Sie dann **Blockieren**.
-    - Um Schichten für Ihre Organisation zu aktivieren, suchen Sie nach der Schicht-App, wählen Sie sie aus und wählen Sie dann **Zulassen**.
+2. Suchen Sie in der Liste der Apps nach der App Schichten, wählen Sie sie aus, und ändern Sie dann die Umschaltfunktion **Status** auf **Blockiert** oder **Zulässig.**
 
 ### <a name="enable-or-disable-shifts-for-specific-users-in-your-organization"></a>Aktivieren oder Deaktivieren von "Schichten" für bestimmte Benutzer in Ihrer Organisation
 
-Wenn Sie zulassen oder blockieren möchten, dass bestimmte Benutzer in Ihrer Organisation Schichten verwenden können, stellen Sie sicher, dass Schichten für Ihre Organisation auf der Seite Apps [verwalten aktiviert](../../manage-apps.md) sind. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](../../teams-app-permission-policies.md).
+Wenn Sie zulassen oder blockieren möchten, dass bestimmte Benutzer in Ihrer Organisation Schichten verwenden können, stellen Sie sicher, dass Schichten für Ihre Organisation auf der Seite Apps [verwalten aktiviert](../../manage-apps.md) ist. Erstellen Sie dann eine benutzerdefinierte App-Berechtigungsrichtlinie, und weisen Sie sie diesen Benutzern zu. Weitere Informationen finden Sie unter [Verwalten von Richtlinien für App-Berechtigungen in Microsoft Teams](../../teams-app-permission-policies.md).
 
 ### <a name="use-an-app-setup-policy-to-pin-shifts-to-teams"></a>Verwenden einer App-Setuprichtlinie zum Anheften von Schichten an Teams
 
@@ -76,7 +73,7 @@ Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass
 
 Sie können eine benutzerdefinierte [App-Setuprichtlinie erstellen,](../../teams-app-setup-policies.md) indem Sie die Schichten-App hinzufügen und die Richtlinie dann [Ihren](../../assign-policies-users-and-groups.md) Benutzern zuweisen. Sie können auch die App-Setuprichtlinie verwenden, die in den Richtlinienpaketen "Frontline Worker" und "Frontline-Manager" enthalten ist.
 
-Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
+Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
 
 Es wird empfohlen, die Richtlinienpakete für Frontline Worker und Frontline Manager zu verwenden, um sie zu vereinfachen, zu optimieren und für Konsistenz beim Verwalten von Richtlinien für Mitarbeiter an vorderer Front zu sorgen.
 
