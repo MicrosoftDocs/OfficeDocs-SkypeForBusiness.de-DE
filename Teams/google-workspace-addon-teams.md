@@ -18,30 +18,30 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 6116567a14aa55a5295b995336b49b30c7bb56ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c5b3d873dd327be4cbc28d4d979ad06cb6f9c9ea
+ms.sourcegitcommit: 9ed5aecbf671accae93ac5084ad7875e82e3858b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846108"
+ms.lasthandoff: 12/31/2021
+ms.locfileid: "61648883"
 ---
 # <a name="set-up-microsoft-teams-meeting-add-on-for-google-workspace"></a>Einrichten Microsoft Teams Besprechungs-Add-Ons für Google Workspace
 
-Mithilfe des Microsoft Teams-Add-Ons können Benutzer von Google-Kalendern Besprechungen planen und Microsoft Teams direkt aus Google Workspace teilnehmen. Benutzer erhalten Zugriff auf Teams Besprechungsfunktionen wie Video- und Audiokonferenzen, Bildschirmfreigabe, Besprechungschat, digitale Whiteboards und vieles mehr. Bleiben Sie in Verbindung und organisiert, um am Arbeitsplatz, in der Schule und im Leben mehr zusammen zu tun.
+Wenn Sie das Microsoft Teams Besprechungs-Add-On verwenden, können Google-Kalenderbenutzer eine Microsoft Teams Besprechung direkt aus Google Workspace planen und an ihr teilnehmen. Benutzer erhalten Zugriff auf Teams Besprechungsfunktionen wie Video- und Audiokonferenzen, Bildschirmfreigabe, Besprechungschat, digitale Whiteboards und vieles mehr. Bleiben Sie in Verbindung und organisiert, um am Arbeitsplatz, in der Schule und im Leben mehr zusammen zu tun.
 
 Das Microsoft Teams Besprechungs-Add-On für Google Workspace muss von einem Teams-Administrator aktiviert werden, bevor Mandantenbenutzer auf die App zugreifen können.
 
 ## <a name="enable-or-disable-microsoft-teams-meeting-add-on-for-google-workspace-in-the-azure-portal"></a>Aktivieren oder Deaktivieren Microsoft Teams Besprechungs-Add-Ons für Google Workspace im Azure-Portal
 
-Als Mandantenadministrator können Sie über das Azure-Portal ein Microsoft Teams-Besprechungs-Add-On für Google Workspace aus dem Administratorkonto Ihrer Organisation aktivieren oder deaktivieren.
+Als Mandantenadministrator können Sie ein Microsoft Teams-Besprechungs-Add-On für Google Workspace über das Administratorkonto Ihrer Organisation über das Azure-Portal aktivieren oder deaktivieren.
 
 Das Add-On ist standardmäßig aktiviert.
 
 1. Melden Sie sich beim Azure-Portal an.
 
-2. Wählen **Enterprise Alle** Anwendungen  >  **aus.**
+2. Wählen **Enterprise Anwendungen Alle** Anwendungen  >  **aus.**
 
-3. Suchen Sie Microsoft Teams Für Google Workspace nach **dem Add-On für Besprechungen.**
+3. Suchen Sie **nach Microsoft Teams Besprechungs-Add-On für Google Workspace.**
 
    ![Azure-Portal mit allen Anwendungen.](media/aad-add-google-workspace.png)
 
@@ -68,7 +68,7 @@ if ($servicePrincipal) {
 } else {
     # Service principal does not yet exist, create it and disable it at the same time
     New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
-    $servicePrincipal = New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName -AccountEnabled $false
+    Get-AzureADServicePrincipal -Filter "appId eq '$appId'" | Set-AzureADServicePrincipal -AccountEnabled:$false
     Write-Host "Created and disabled the Service Principal \n"
 }
 ```
@@ -78,3 +78,25 @@ Weitere Informationen finden Sie unter [Erstellen eines Azure-Dienstprinzipals m
 ## <a name="delete-the-microsoft-teams-meeting-add-on-for-google-workspace"></a>Löschen des Microsoft Teams Besprechungs-Add-Ons für Google Workspace
 
 Anweisungen dazu finden Sie in der Google-Dokumentation Löschen einer [Google Workspace Marketplace-App.](https://support.google.com/a/answer/6216211?hl=en)
+
+## <a name="create-the-microsoft-teams-meeting-add-on-for-google-workspace-using-powershell"></a>Erstellen des Microsoft Teams Besprechungs-Add-Ons für Google Workspace mithilfe von PowerShell
+
+Falls das Microsoft Teams Besprechungs-Add-On in Ihrem Mandanten nicht vorhanden ist, können Sie es mit PowerShell erstellen: 
+
+```powershell
+Connect-AzureAD
+
+$displayName = 'Microsoft Teams meeting add-on for Google Workspace'
+$appId = '7969c887-ba98-48bb-8832-6c9239929d7c'
+
+# Check if a service principal already exists for the app
+$servicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$appId'"
+if ($servicePrincipal) {
+    # Service principal exists already
+    Write-Host "The Service principal already exists"
+} else {
+    # Service principal does not yet exist, create it
+    New-AzureADServicePrincipal -AppId $appId -DisplayName $displayName
+    Write-Host "Created the Service Principal"
+}
+```
