@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97f8ffbf6613ca4106a68284c8e889375a7b0feb
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
+ms.openlocfilehash: 9fef14aa5d6e58bea3a33fbd8c86a3044b0ab778
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135198"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766978"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Für Direct Routing zertifizierte Session Border Controller
 
@@ -122,13 +122,13 @@ In der folgenden Tabelle wird beschrieben, welche SBC-Anbieter [Lokale Medienopt
 | Anbieter | Produkt |    Softwareversion |
 |:------------|:-------|:-------|
 | [AudioCodes](https://www.audiocodes.com/media/13253/connecting-audiocodes-sbc-to-microsoft-teams-direct-routing-enterprise-model-configuration-note.pdf) |    Mediant 500 SBC |   7.20A.256 | 
-|            |  Mediant 800 SBC |   7.20A.258 | 
-|            |  Mediant 2600 SBC |  7.20A.258 | 
-|            |  Mediant 4000 SBC |  7.20A.258 | 
-|            |  Mediant 1000B SBC | 7.20A.256 | 
-|            |  Mediant 9000 SBC |  7.20A.258 | 
-|            |  Mediant Virtual Edition SBC |   7.20A.258 | 
-|            |  Mediant Cloud Edition SBC | 7.20A.258 |
+|            |  Mediant 800 SBC |   Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |  
+|            |  Mediant 2600 SBC |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |  
+|            |  Mediant 4000 SBC |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |  
+|            |  Mediant 1000B SBC | Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |  
+|            |  Mediant 9000 SBC |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |  
+|            |  Mediant Virtual Edition SBC |   Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |  
+|            |  Mediant Cloud Edition SBC | Unterstützt 7.20A.258 (empfohlen 7.40A.100)  |
 | [Ribbon SBC Core](https://support.sonus.net/display/ALLDOC/SBC+8.2+-+Configure+Local+Media+Optimization)  |  SBC 5110         | 8.2  |
 |            |  SBC 5210         | 8.2  |
 |            |  SBC 5400         | 8.2  |

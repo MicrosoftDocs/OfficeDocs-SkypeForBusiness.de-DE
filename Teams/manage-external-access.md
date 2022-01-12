@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 16a30b9e4ce9ed86516cfcf7fb0cbdb22e6c2141
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 5a52e479b7dd813af786c33e494675fe7b8e9743
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563562"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766608"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -181,7 +181,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 Weitere Beispiele zum Kompilieren einer Benutzerliste finden Sie unter [New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation).
 
-Sie können die neue Richtlinie anzeigen, indem Sie `Get-CsExternalAccessPolicy -Include All` ausführen.
+Sie können die neue Richtlinie anzeigen, indem Sie `Get-CsExternalAccessPolicy` ausführen.
 
 
 Siehe auch [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) und [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).

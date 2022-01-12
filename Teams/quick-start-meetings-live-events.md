@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: caabea3e1310ad704953171836dcdfb35506609a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960064"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766218"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -113,7 +113,7 @@ In der folgenden Tabelle sind die verfügbaren Schulungen für Endbenutzern in I
 | Schulung | Beschreibung | 
 |----------|--------|
 | [Erste Schritte mit Microsoft Teams-Webinaren](https://support.microsoft.com/office/get-started-with-teams-webinars-42f3f874-22dc-4289-b53f-bbc1a69013e3) | Ein kurzes Schulungsvideo für Benutzer, die noch keine Erfahrung mit Microsoft Teams-Webinaren haben. |
-| [Visuelles Schnellstarthandbuch](https://teamworktools.azurewebsites.net/assets/TeamsWebinarsGetStartedGuide.pdf) | Ein herunterladbarer visueller Leitfaden zur Planung von Webinaren.  |
+| [Visuelles Schnellstarthandbuch](https://adoption.microsoft.com/files/assets/TeamsWebinarsGetStartedGuide.pdf) | Ein herunterladbarer visueller Leitfaden zur Planung von Webinaren.  |
 ||
 
 

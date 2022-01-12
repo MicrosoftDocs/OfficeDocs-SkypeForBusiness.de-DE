@@ -1,5 +1,5 @@
 ---
-title: Einrichten Microsoft 365 Business Voice
+title: Einrichten Microsoft 365 Teams Telefon Anrufplans für kleine bis mittelständische Unternehmen
 author: dstrome
 ms.author: dstrome
 manager: serdars
@@ -15,51 +15,38 @@ MS.collection:
 - Teams_Business_Voice
 ms.custom: intro-get-started
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Microsoft 365 Business Voice in Ihrem kleinen bis mittleren Unternehmen oder Ihrer Organisation einrichten.
+description: Erfahren Sie, wie Sie Microsoft 365 Teams Telefon Anrufplan in Ihrem kleinen bis mittleren Unternehmen oder Ihrer Organisation einrichten.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 58c740a16a1ebb36ad886614b90f02c76167e695
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+ms.openlocfilehash: d7b8b400cbd2388470459f623d51715546116356
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625776"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766258"
 ---
-# <a name="set-up-microsoft-365-business-voice"></a>Einrichten Microsoft 365 Business Voice
+# <a name="set-up-microsoft-365-teams-phone-with-calling-plan-for-small-to-medium-businesses"></a>Einrichten Microsoft 365 Teams Telefon Anrufplans für kleine bis mittelständische Unternehmen
 
-</br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWEu8R]  
-
-</br>
-
-Business Voice ist ein vollständiges Telefonsystem, das Ihren vorhandenen Telefonieanbieter ersetzen kann. Ganz gleich, ob Sie zum ersten Mal Telefonnummern einrichten oder ein etabliertes Unternehmen sind und von einem älteren lokalen Telefonieanbieter wechseln – die Schritte in diesen Artikeln können Ihnen bei den ersten Schritten mit Business Voice helfen. Wenn Sie mit dem Einrichten von Business Voice fertig sind:
+Das Teams Telefon Mit Anrufplanpaket ist ein vollständiges Telefonsystem, das Ihren vorhandenen Telefonieanbieter ersetzen kann. Ganz gleich, ob Sie zum ersten Mal Telefonnummern einrichten oder ein etabliertes Unternehmen von einem alten lokalen Telefonieanbieter wechseln – die Schritte in diesen Artikeln können Ihnen bei den ersten Schritten mit dem Teams Telefon mit dem Anrufplanpaket helfen. Wenn Sie mit der Einrichtung fertig sind:
 
 * Sie können gebührenpflichtige oder gebührenfreie Telefonanrufe über eine Haupttelefonleitung des Unternehmens erhalten. Sie können sogar ein Anrufmenü einrichten, wenn Sie möchten.
-* Benutzer, die mit Business Voice eingerichtet sind, verfügen über eigene Direktwahltelefonnummern, die sie verwenden können, um Telefonanrufe von jedem Gerät aus zu erstellen und zu empfangen, auf dem Teams können.
+* Benutzer, die über eine Teams Telefon mit einer Anrufplan-Bündellizenz verfügen, verfügen über eigene Direktwahltelefonnummern, die sie verwenden können, um Telefonanrufe von jedem Gerät aus zu erhalten, auf dem Teams können.
 * Besprechungsteilnehmer können sich über ein normales Telefon in Besprechungen einrufen, wenn sie nicht über einen bestimmten Kunden Teams können.
-* Wenn Sie über vorhandene Telefonnummern verfügen, können Sie diese auch nach dem Umstieg auf Business Voice weiterhin verwenden.
+* Wenn Sie über vorhandene Telefonnummern verfügen, können Sie diese auch nach dem Umzug in den Anrufplan Teams Telefon verwenden.
 
-Weitere Informationen zu Business Voice finden Sie unter Was [ist Microsoft 365 Business Voice?.](whats-business-voice.md)
+Weitere Informationen zu den Bündeln Teams Telefon Anrufplanpaket für kleine und mittelständische Unternehmen finden Sie Teams Telefon Anleitungen für kleine und [mittelständische Unternehmen.](whats-business-voice.md)
 
 > [!IMPORTANT]
-> Die Informationen in diesen Artikeln gelten nur für Business Voice **with** Calling Plan. Business Voice mit Anrufplan steht nur in ausgewählten Ländern und Regionen zur Verfügung. Bevor Sie mit der Einrichtung von Business Voice beginnen, überprüfen Sie die Verfügbarkeit von Land und Region für [Business-Voice,](country-region-availability.md) um festzustellen, ob Ihr Land oder Ihre Region Business-Voice mit Anrufplan unterstützt.
->
-> Wenn sich Ihr Mandant in einem Land oder einer Region befindet, das bzw. die Business Voice mit Anrufplan nicht unterstützt, ziehen Sie [Hilfe von einem Microsoft-Vertriebspartner oder Partner erhalten](reseller-partner-support.md) zurate.
->
-> Microsoft Teams und Business Voice funktionieren nur, wenn sich die Postfächer Ihrer Benutzer in Microsoft 365 befinden.  Postfächer, die sich auf einem lokalen Exchange-Server befinden, werden nicht unterstützt.
->
-> Dieser Einrichtungsvorgang unterstützt keine Skype for Business Hybridbereitstellungen. Wenn Sie über eine Hybridbereitstellung für Skype for Business verfügen und Business Voice einrichten möchten, lesen Sie [Einrichten des Telefonsystems in Ihrer Organisation](../setting-up-your-phone-system.md).
+> Microsoft Teams und Teams Telefon funktionieren nur, wenn sich die Postfächer Ihrer Benutzer in Microsoft 365 (mit Ausnahme von Microsoft 365 Teams Essentials-Abonnenten) befinden. Postfächer, die sich auf einem lokalen Exchange-Server befinden, werden nicht unterstützt.
 
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
-Bevor Sie Business Voice einrichten, müssen Sie ein paar Dinge tun. Mit den folgenden Aufgaben wird sichergestellt, dass Ihre Organisation für Business Voice bereit ist.
+Bevor Sie den Anrufplan Teams Telefon, müssen Sie ein paar Dinge tun. Mit den folgenden Aufgaben wird sichergestellt, dass Ihre Organisation bereit ist.
 
-* **Kaufen Sie Business-Voice-Lizenzen,** und wenn Sie eine gebührenfreie Nummer erhalten oder Anrufe im Fernverkehr telefonieren möchten, erhalten Sie Guthaben für Kommunikationen. Weitere Informationen finden Sie unter [Was muss ich kaufen, um die Microsoft 365 Business Voice?](what-to-buy.md)
-* **Stellen Sie sicher, dass Ihre Internetverbindung Business Voice unterstützen kann.** Weitere Informationen finden Sie unter [Überprüfen Ihrer Internetverbindung für Business-Sprachanrufe.](get-ready-internet.md)
-* **Richten Sie Teams auf den Geräten Ihrer** Benutzer ein, richten Sie Voicemail-Begrüßungen ein und helfen Sie Ihren Benutzern, mehr über Ihre Teams. Weitere Informationen finden Sie unter Wie kann ich meine Benutzer für die [Microsoft 365 Business Voice?](prepare-users.md)
+* **Kaufen Teams Telefon** mit Lizenzen für das Anrufplan-Bündel und, wenn Sie eine gebührenfreie Nummer erhalten oder Ferngespräche mit Anderen telefonieren möchten, Guthaben für Kommunikationen. Weitere Informationen finden Sie unter Was muss ich kaufen, um Sprachfunktionen für mein kleines oder mittleres [Unternehmen zu erhalten?](whats-business-voice.md).
+* **Stellen Sie sicher, dass Ihre Internetverbindung die Teams Telefon.** Weitere Informationen finden Sie unter [Überprüfen der Internetverbindung auf Teams Telefon.](get-ready-internet.md)
 
-Nachdem Sie Ihre Organisation für Business Voice vorbereitet haben, wählen Sie **Nächster Schritt: Einrichten von Business Voice aus.**
+Nachdem Sie Ihre Organisation auf die Zusammenarbeit mit Teams Telefon Anrufplan vorbereitet haben, wählen Sie Nächster Schritt: Einrichten Teams Telefon **mit Anrufplan aus.**
 
 > [!div class="nextstepaction"]
-> [Nächster Schritt: Einrichten von Business Voice](set-up-emergency-locations.md)
+> [Nächster Schritt: Einrichten von Teams Telefon mit Anrufplan](set-up-emergency-locations.md)

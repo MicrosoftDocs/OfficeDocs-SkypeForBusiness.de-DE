@@ -21,45 +21,45 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: e59f219d24f6441615d794f23e73274e817f6a3b
-ms.sourcegitcommit: 2aae13454178dc2e2cbc8cca967cd181c5f9d044
+ms.openlocfilehash: 4c5f178c5b8da9bf2ed62b06b9c499d676c076e2
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/06/2021
-ms.locfileid: "61314253"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767718"
 ---
 # <a name="plan-for-sip-gateway"></a>Planen für das SIP-Gateway
 
-Mit dem SIP-Gateway kann Ihre Organisation jedes kompatible SIP-Gerät Microsoft Teams, um Ihre Investitionen in SIP-Geräte zu erhalten. Jetzt können Sie sich mit Ihren Unternehmensanmeldeinformationen Teams Und Anrufe mit einem kompatiblen SIP-Gerät senden und empfangen. Kompatible Geräte können Skype for Business IP-Telefone mit Standard-SIP-Firmware, Cisco IP-Telefone mit Multiplatform-SIP-Firmware oder SIP-Geräte von Anbietern wie Poly, Yealink und AudioCodes sein. Informationen zum Konfigurieren Ihrer SIP-Geräte für das SIP-Gateway finden Sie unter [Konfigurieren des SIP-Gateways.](sip-gateway-configure.md)
+Mit dem SIP-Gateway kann Ihre Organisation jedes kompatible SIP-Gerät Microsoft Teams, um Ihre Investitionen in SIP-Geräte zu erhalten. Jetzt können Sie sich mit Ihren unternehmens Teams bei ihrem Konto anmelden und Anrufe mit einem kompatiblen SIP-Gerät senden und empfangen. Kompatible Geräte können Skype for Business IP-Telefone mit Standard-SIP-Firmware, Cisco IP-Telefone mit Multiplatform-SIP-Firmware oder SIP-Geräte von Anbietern wie Poly, Yealink und AudioCodes sein. Informationen zum Konfigurieren Ihrer SIP-Geräte für das SIP-Gateway finden Sie unter [Konfigurieren des SIP-Gateways.](sip-gateway-configure.md)
 
 ## <a name="benefits-of-sip-gateway"></a>Vorteile des SIP-Gateways
 
-Das SIP-Gateway verbindet kompatible SIP-Teams Geräte, damit Ihre Benutzer nahtlos zur Telefonie Teams migrieren können. Wenn Sie das SIP-Gateway verwenden, können die Benutzer folgende Aufgaben wie folgt tun:
+Sip Gateway verbindet kompatible SIP-Geräte Teams, damit Ihre Benutzer nahtlos zur Telefonie Teams migrieren können. Wenn Sie das SIP-Gateway verwenden, können die Benutzer folgende Aufgaben wie folgt tun:
 
-- **Anrufe:** Benutzer von SIP-Geräten können Anrufe an das Public Switched Telephone Network (PSTN), an andere SIP-Geräte sowie an Teams und Skype for Business senden. Sip-Gerätebenutzer können nur Benutzer anrufen, die Telefonnummern haben.
+- **Anrufe:** Benutzer von SIP-Geräten können anrufe an das Public Switched Telephone Network (PSTN), an andere SIP-Geräte sowie an Teams und Skype for Business telefonieren. Sip-Gerätebenutzer können nur Benutzer anrufen, die Telefonnummern haben.
 - **Anrufe empfangen:** Benutzer von SIP-Geräten können einen Anruf über das PSTN, von Teams- oder Skype for Business-Benutzern mit SIP-Geräten sowie von Teams- und Skype for Business-Clientanwendungen erhalten. Das SIP-Gerät fungiert als Teams Endpunkt. Eingehende Anrufe werden auch auf das SIP-Gerät des Benutzers gerundet.
 - **Mehrere gleichzeitige Anrufe:** Ein Sip-Gerätebenutzer kann den Anruf halten, um andere Anrufe zu führen oder zu empfangen. Ein Benutzer eines SIP-Geräts kann auch zwei Anrufe telefonieren.
 - **Nicht stören:** Ein SIP-Gerätebenutzer kann "Nicht stören" auf dem Gerät festlegen, damit das Gerät nicht für eingehende Anrufe klingelt. Dies hat keine Auswirkungen auf den Status des Benutzers auf allen anderen Teams Endpunkten.
 - **Halten/Fortsetzen und Stummschalten/Stummschaltung wieder aufschalten:** Benutzer eines SIP-Geräts können einen Anruf halten und fortsetzen oder stummschalten und die Stummschaltung wieder aufnehmen, indem er die Features für diese Aktionen auf dem Gerät verwendet.
 - **Voicemail:** Benutzer von SIP-Geräten können elektronisch gespeicherte Sprachnachrichten anhören, die Anrufer für sie verlassen.
 - **Indikator für Meldungswartezeichen:** Sip-Gerätebenutzer können Benachrichtigungen erhalten, die sie bei neuen Voicemailnachrichten warnen.
-- **An- und Abmelden:** SIP-Geräte Benutzer können sich an- und abmelden, Teams auf dem Gerät installiert sind.
+- **An- und Abmelden:** SIP-Geräte: Benutzer können sich auf dem Teams an- und abmelden.
 - **Doppelton-Multihäufigkeit:** Benutzer von SIP-Geräten können Nummerntasten drücken, um während interaktiver Sprachantworten Eingaben zu ermöglichen.
-- **Teams Besprechungen: Ein** SIP-Gerätebenutzer kann an einer Besprechung Teams, indem er die Nummer des Besprechungszugriffs wählt. Das Anrufen der Telefonnummer eines Benutzers aus einer Organisation wird derzeit nicht unterstützt. Gastbenutzer aus einer anderen Organisation können jedoch von einem Teilnehmer, der die Nummer eines Gastbenutzers auswählt und diesen Gast einwählt, einer Teams-Besprechung hinzugefügt werden. **HINWEIS:** Durch das Teams eines Besprechungsteilnehmers über "Teilnahmeanforderung" wird ein SIP-Gerät derzeit nicht alarmiert.
+- **Teams Besprechungen: Ein** SIP-Gerätebenutzer kann an einer Besprechung Teams, indem er die Nummer des Besprechungszugriffs wählt. Das Anrufen der Telefonnummer eines Benutzers aus einer Organisation wird derzeit nicht unterstützt. Gastbenutzer aus einer anderen Organisation können jedoch einer Teams-Besprechung von einem Teilnehmer hinzugefügt werden, der die Nummer eines Gastbenutzers auswählt, um diesen Gast mit in die Besprechung mit einzukommen. **HINWEIS:** Wenn Sie Teams "Teilnahmeanforderung" hinzufügen, wird ein SIP-Gerät derzeit nicht alarmiert.
 - **Anrufübertragungen:** Benutzer von SIP-Geräten können Anrufe durch übertragen. Das SIP-Gateway unterstützt blinde und weisungsbehinderte Übertragungen.
 - **Lokale Anruf weiterleitung:** Benutzer eines SIP-Geräts können Weiterleitungsregeln (immer, timeout und beschäftigt) für das Gerät festlegen. Wenn das Gerät mit dem SIP-Gateway verbunden ist, wird der Anruf basierend auf der vom Gerätebenutzer festgelegten Regel an die Zieladresse umgeleitet. Damit die lokale Anruf weiterleitung funktioniert, muss der Administrator das `AllowCallRedirect` -Attribut in auf `Set-CsTeamsCallingPolicy` `Enabled` festlegen. 
 
 
 ## <a name="requirements-to-use-sip-gateway"></a>Anforderungen für die Verwendung des SIP-Gateways
 
-Teams Benutzer müssen über eine Telefonnummer verfügen, für die PTSN-Anrufe aktiviert sind, damit sie das SIP-Gateway verwenden können.
+Teams Benutzer müssen eine Telefonnummer haben, für die PSTN-Anrufe aktiviert sind, damit sie das SIP-Gateway verwenden können.
 
 ### <a name="hardware-software-and-licenses"></a>Hardware, Software und Lizenzen
 
 Wenn Sie über ein 3PIP- oder SIP-Gerät verfügen, müssen Sie über: 
 - Eine Lizenz für Telefonsystem (über E5 oder eine eigenständige Lizenz)
-- PTSN-Aktivierung (d. h. eine Telefonnummer) über Microsoft Teams-Anrufplan-, Direct Routing- oder Operator-Verbinden
-- A Common Area Telefon license for any common area devices
+- PstN-Aktivierung (d. h. eine Telefonnummer) über einen Microsoft Teams-Anrufplan, Direct Routing oder operator Verbinden
+- Eine common area Telefon-Lizenz für alle gängigen Geräte
 
 ## <a name="compatible-devices"></a>Kompatible Geräte
 

@@ -15,21 +15,21 @@ appliesto:
 - Microsoft Teams
 f1.keywords:
 - NOCSH
-description: In diesem Artikel erfahren Sie, wie Sie analoge Geräte mit System Direct Microsoft-Telefon Routing verwenden.
-ms.openlocfilehash: 083c5dd5b577e319a9e5308a4ec3630614254628
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+description: In diesem Artikel erfahren Sie, wie Sie analoge Geräte mit system direct Microsoft-Telefon Routing verwenden.
+ms.openlocfilehash: 86875f7c4cf3206f673c652487e896adf91b1ce5
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733494"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766408"
 ---
-# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Verwenden analoger Geräte mit Telefonsystem Direct Routing
+# <a name="how-to-use-analog-devices-with-phone-system-direct-routing"></a>Verwenden analoger Geräte mit Telefonsystem Direct-Routing
 
 In diesem Artikel wird beschrieben, wie Sie analoge Geräte mit Telefonsystem Direct-Routing verwenden. Um analoge Geräte mit Direct Routing zu verbinden, müssen Sie einen ANALOGen Telefonieadapter (ANALOG Telephony Adapter, ATA) verwenden, und dieser Adapter muss vom SBC-Anbieter (Session Border Controller) unterstützt werden. 
 
-Wenn ein Benutzer von einem analogen Gerät aus anruft, werden die Signalisierung und der Medienfluss über den Analog Telephony Adapter (ATA) zum SBC übertragen.  Der SBC sendet den Anruf basierend auf der internen Routingtabelle an einen Microsoft Teams-Endpunkt oder an das Public Switched Telephone Network (PSTN).  Wenn ein Gerät einen Anruf abnimmt, hängt die Route, die es verwendet, von den für das Gerät erstellten Routingrichtlinien ab.
+Wenn ein Benutzer von einem analogen Gerät aus anruft, werden die Signalisierung und der Medienfluss über den Analog Telephony Adapter (ATA) an den SBC übertragen.  Der SBC sendet den Anruf basierend auf der internen Routingtabelle an einen Microsoft Teams-Endpunkt oder an das Public Switched Telephone Network (PSTN).  Wenn ein Gerät einen Anruf anruft, hängt die Route, die es verwendet, von den für das Gerät erstellten Routingrichtlinien ab.
 
-Im folgenden Diagramm ist Direct Routing so konfiguriert, dass alle Teams-Anrufe an und von den Nummern zwischen +1425 4XX XX XX und +1425 5XX XX xx die rote Route (gepunktete Linie) und alle PSTN-Anrufe an und von Nummern zwischen +1425 4XX XX und jeder anderen Zahl mit Ausnahme des Zahlenbereichs +1425 5XX XX die blaue Route (durchfarbige Linie) verwenden müssen. 
+Im folgenden Diagramm ist Direct Routing so konfiguriert, dass alle Teams-Anrufe an und von den Nummern zwischen +1425 4XX XX XX und +1425 5XX XX xx die rote Route (gepunktete Linie) und alle PSTN-Anrufe an und von Nummern zwischen +1425 4XX XX und allen anderen Nummern außer dem Zahlenbereich +1425 5XX XX die blaue Route (durchfarbige Linie) verwenden müssen. 
 
 > [!div class="mx-imgBorder"]
 > ![Diagramm, das die Konfiguration des direkten Routings zeigt.](media/direct-routing-analog-device.png)
@@ -79,7 +79,7 @@ PS C:\> Set-CsOnlinePstnUsage -Identity global -Usage @{add="Interop"}
 
 ## <a name="step-3--create-a-voice-route-and-associate-it-with-the-pstn-usage"></a>Schritt 3: Erstellen einer Sprachroute und Zuordnen der Route zur PSTN-Nutzung:
 
-Mit diesem Befehl wird eine neue Online-Sprachroute mit der Identität "Analog-Inop" für den Zahlenbereich +1425 XXX XX XX erstellt.  Die Sprachroute gilt für eine Liste der Onlinegateways, sbc.contoso.com die Route der Online-PSTN-Nutzung "Inop" zu ordnet. Eine Sprachroute enthält einen regulären Ausdruck, der annennt, welche Telefonnummern über eine bestimmte Sprachroute geroutet werden:
+Mit diesem Befehl wird eine neue Online-Sprachroute mit der Identität "Analog-Inop" für den Zahlenbereich +1425 XXX XX XX erstellt.  Die Sprachroute gilt für eine Liste der Onlinegateways sbc.contoso.com und ordnet die Route der Online-PSTN-Nutzung "Inop" zu. Eine Sprachroute enthält einen regulären Ausdruck, der annennt, welche Telefonnummern über eine bestimmte Sprachroute geroutet werden:
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425)(\d{7})$" -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
@@ -90,12 +90,12 @@ PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(425
 Mit diesem Befehl wird eine neue Online-Voiceroutingrichtlinie für Benutzer mit der Identität "AnalogInteropPolicy" erstellt. Dieser Richtlinie wird eine einzige Online-PSTN-Nutzung zugewiesen: "Inop".
 
 ```powershell
-PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -Name "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
+PS C:\> New-CsOnlineVoiceRoutingPolicy -Identity "AnalogInteropPolicy" -OnlinePstnUsages "Interop"
 ```
 
 ## <a name="step-5-enable-the-online-user"></a>Schritt 5: Aktivieren des Onlinebenutzers
 
-Mit diesem Befehl wird das Benutzerkonto mit dem Identitätskonto exampleuser@contoso.com. In diesem Fall wird das Konto so geändert, dass Enterprise-VoIP, die Microsoft-Implementierung von VoIP, mit aktivierter Voicemail aktiviert wird und diesem Benutzer die Nummer +14255000000 zugewiesen wird.  Dieser Befehl sollte für jeden benutzer Teams (mit Ausnahme von ATA-Gerätebenutzern) im Mandanten Des Unternehmens ausgeführt werden.
+Mit diesem Befehl wird das Benutzerkonto mit dem Identitätskonto exampleuser@contoso.com. In diesem Fall wird das Konto so geändert, dass Enterprise-VoIP, die Microsoft-Implementierung von VoIP, mit aktivierter Voicemail aktiviert wird und diesem Benutzer die Nummer +14255000000 zugewiesen wird.  Dieser Befehl sollte für jeden benutzer Teams (mit Ausnahme von ATA-Gerätebenutzern) im Mandanten Ihres Unternehmens ausgeführt werden.
 
 ```powershell
 PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $True -HostedVoiceMail $True -OnPremLineUri "tel:+14255000000"
@@ -103,7 +103,7 @@ PS C:\> Set-CsUser -Identity "exampleuser@contoso.com" -EnterpriseVoiceEnabled $
 
 ## <a name="step-6-assign-the-voice-route-policy-to-a-user"></a>Schritt 6: Zuweisen der Sprachroutenrichtlinie zu einem Benutzer
 
-Dieser Befehl weist dem Benutzer mit der Identitätssteuerung die Online-Voiceroutingrichtlinie AnalogInteropPolicy exampleuser@contoso.com.  Dieser Befehl sollte für jeden benutzer Teams (mit Ausnahme von ATA-Gerätebenutzern) im Mandanten Des Unternehmens ausgeführt werden.
+Mit diesem Befehl wird dem Benutzer die Online-Voiceroutingrichtlinie AnalogInteropPolicy mit der Identität zugewiesen, exampleuser@contoso.com.  Dieser Befehl sollte für jeden benutzer Teams (mit Ausnahme von ATA-Gerätebenutzern) im Mandanten Ihres Unternehmens ausgeführt werden.
 
 ```powershell
 PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -PolicyName "AnalogInteropPolicy" 
@@ -111,13 +111,13 @@ PS C:\> Grant-CsOnlineVoiceRoutingPolicy -Identity "exampleuser@contoso.com" -Po
 
 ## <a name="step-7--create-a-voice-route-for-an-analog-device"></a>Schritt 7: Erstellen einer Sprachroute für ein analoges Gerät
 
-Dieser Befehl erstellt eine Online-Sprachroute mit der Identität "Analog-Inop" für den Zahlenbereich +1425 4XX XX, die auf eine Liste von Onlinegateways sbc.contoso.com anwendbar ist, und ordnet ihn der Online-PSTN-Verwendung "Inop" zu.  Dieser Befehl sollte für jedes analoge Gerät mit dem entsprechenden Telefonnummernmuster ausgeführt werden. Alternativ kann ein geeignetes Zahlenmuster für analoge Geräte verwendet werden, während die Online-Voiceroute in einem der vorherigen Schritte konfiguriert wird.
+Dieser Befehl erstellt eine Online-Sprachroute mit der Identität "analog-interop" für den Zahlenbereich +1425 4XX XX, der auf eine Liste von Onlinegateways sbc.contoso.com anwendbar ist, und ordnet ihn der Online-PSTN-Verwendung "Inop" zu.  Dieser Befehl sollte für jedes analoge Gerät mit dem entsprechenden Telefonnummernmuster ausgeführt werden. Alternativ kann ein geeignetes Zahlenmuster für analoge Geräte verwendet werden, während die Online-Voiceroute in einem der vorherigen Schritte konfiguriert wird.
 
 ```powershell
 PS C:\> New-CsOnlineVoiceRoute -Identity analog-interop -NumberPattern "^\+1(4254)(\d{6})$"  -OnlinePstnGatewayList sbc.contoso.com -Priority 1 -OnlinePstnUsages "Interop"
 ```
 
-## <a name="considerations"></a>Erwägungen
+## <a name="considerations"></a>Überlegungen
 
 - Sofern nicht anders angegeben, ist ein analoges Gerät ein Gerät, das DTMF-Ziffern senden kann, um einen Anruf zu starten. Zum Beispiel analoge Telefone, Faxgeräte und Mehrseiten.
 

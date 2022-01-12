@@ -16,12 +16,12 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Microsoft-Telefon System Direct Routing konfigurieren.
-ms.openlocfilehash: d6b767ace4f00e581e99ec73585b0b596029b17e
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 2e94da39c23c10a912f4b3f0433467439b5ecf77
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58619461"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766368"
 ---
 # <a name="translate-phone-numbers-to-an-alternate-format"></a>Übersetzen von Telefonnummern in ein alternatives Format
 
@@ -48,7 +48,7 @@ Verwenden Sie zum Erstellen, Ändern, Anzeigen und Löschen von Regeln zur Bearb
 Zum Zuweisen, Konfigurieren und Auflisten von Manipulationsregeln für Rufnummern auf SBCs verwenden Sie die Cmdlets [New-CSOnlinePSTNGateway](/powershell/module/skype/new-csonlinepstngateway) und [Set-CSOnlinePSTNGateway](/powershell/module/skype/set-csonlinepstngateway) zusammen mit den Parametern InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules, OutboundPSTNNumberTranslationRules, InboundTeamsNumberTranslationRules, InboundPSTNNumberTranslationRules, OutboundTeamsNumberTranslationRules.
 
 > [!NOTE]
-> Die maximale Gesamtanzahl an Übersetzungsregeln beträgt 400, die maximale Länge des Übersetzungsparameters 100 Symbole, die maximale Länge des Übersetzungsparametermusters 1024 Symbole und die maximale Länge der Übersetzungsparameter die Länge 256 Symbole.
+> Die maximale Gesamtanzahl an Übersetzungsregeln beträgt 400, die maximale Länge von Übersetzungsparameternamen 100 Symbole, die maximale Länge des Übersetzungsparametermusters beträgt 1024 Symbole und die maximale Länge der Übersetzungsparameter von 256 Symbolen.
 
 
 ## <a name="example-sbc-configuration"></a>SBC-Beispielkonfiguration
@@ -56,7 +56,7 @@ Zum Zuweisen, Konfigurieren und Auflisten von Manipulationsregeln für Rufnummer
 In diesem Szenario wird das ```New-CsOnlinePSTNGateway``` Cmdlet ausgeführt, um die folgende SBC-Konfiguration zu erstellen:
 
 ```PowerShell
-New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
+New-CSOnlinePSTNGateway -Identity sbc1.contoso.com -SipSignalingPort 5061 –InboundTeamsNumberTranslationRules ‘AddPlus1’, ‘AddE164SeattleAreaCode’ -InboundPSTNNumberTranslationRules ‘AddPlus1’ -OutboundPSTNNumberTranslationRules ‘AddSeattleAreaCode’,‘StripPlus1’  -OutboundTeamsNumberTranslationRules ‘StripPlus1’
 ```
 
 Die dem SBC zugewiesenen Übersetzungsregeln sind in der folgenden Tabelle zusammengefasst:
@@ -68,38 +68,38 @@ Die dem SBC zugewiesenen Übersetzungsregeln sind in der folgenden Tabelle zusam
 |AddSeattleAreaCode    |^(\d {4} )$          | 425555$1         |
 |StripPlus1    |^+1(\d {10} )$          | $1         |
 
-In den folgenden Beispielen gibt es zwei Benutzer: Andrea und Robert. Andrea ist eine Teams, deren Zahl +1 206 555 0100 ist. Bob ist ein PstN-Benutzer, dessen Telefonnummer +1 425 555 0100 ist.
+In den folgenden Beispielen gibt es zwei Benutzer: Andrea und Robert. Andrea ist ein Teams Benutzer, dessen Zahl +1 206 555 0100 ist. Bob ist ein PstN-Benutzer, dessen Telefonnummer +1 425 555 0100 ist.
 
 ## <a name="example-1-inbound-call-to-a-ten-digit-number"></a>Beispiel 1: Eingehender Anruf an eine zehnstellige Nummer
 
-Bob ruft Andrea mit einer nicht E.164-zehnstelligen Nummer an. Bob wählt einen 2065550100, um Andrea zu erreichen.
+Robert ruft Andrea mit einer nicht E,164-stelligen zehnstelligen Nummer an. Bob wählt einen 2065550100, um Andrea zu erreichen.
 SBC verwendet 2065550100 in den Headern RequestURI und To und 4255550100 in der From-Kopfzeile.
 
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |
 |---------|---------|---------|---------|
-|RequestURI  |EINLADEN sip:2065550100@sbc.contoso.com|EINLADEN sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
+|RequestURI  |Einladen sip:2065550100@sbc.contoso.com|EINLADEN sip:+12065550100@sbc.contoso.com|InboundTeamsNumberTranslationRules 'AddPlus1'|
 |AN    |AN: \<sip:2065550100@sbc.contoso.com>|AN: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddPlus1'|
 |VON   |VON: \<sip:4255550100@sbc.contoso.com>|VON: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranslationRules 'AddPlus1'|
 
 ## <a name="example-2-inbound-call-to-a-four-digit-number"></a>Beispiel 2: Eingehender Anruf an eine vierstellige Nummer
 
 Bob ruft Andrea mit einer vierstelligen Nummer an. Bob wählt 0100, um Andrea zu erreichen.
-SBC verwendet 0100 in den Headern RequestURI und To 4255550100 in der From-Kopfzeile.
+SBC verwendet 0100 in den Headern RequestURI und To, 4255550100 in der From-Kopfzeile.
 
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |
 |---------|---------|---------|---------|
-|RequestURI  |EINLADEN sip:0100@sbc.contoso.com          |EINLADEN sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
+|RequestURI  |Einladen sip:0100@sbc.contoso.com          |EINLADEN sip:+12065550100@sbc.contoso.com           |InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'        |
 |AN    |AN: \<sip:0100@sbc.contoso.com>|AN: \<sip:+12065550100@sbc.contoso.com>|InboundTeamsNumberTranlationRules 'AddE164SeattleAreaCode'         |
 |VON   |VON: \<sip:4255550100@sbc.contoso.com>|VON: \<sip:+14255550100@sbc.contoso.com>|InboundPSTNNumberTranlationRules 'AddPlus1'        |
 
 ## <a name="example-3-outbound-call-using-a-ten-digit-non-e164-number"></a>Beispiel 3: Ausgehender Anruf mit einer zehnstelligen Nicht-E.164-Nummer
 
 Andrea ruft Bob mit einer zehnstelligen Nummer an. Andrea wählt 425 555 0100, um Bob zu erreichen.
-SBC ist so konfiguriert, dass nicht-E.164-Nummern mit zehn Ziffern sowohl für Teams als Teams PSTN-Benutzer verwendet werden.
+SBC ist für die Verwendung von nicht E.164 zehnstelligen Nummern sowohl für Teams als Teams PSTN-Benutzer konfiguriert.
 
-In diesem Szenario übersetzt ein Wählplan die Nummer vor dem Senden an die Direct Routing-Schnittstelle. Wenn Andrea 425 555 0100 in den Teams-Client ein gibt, wird die Nummer vom Wählplan des Landes in +14255550100 übersetzt. Die resultierenden Zahlen sind eine kumulierte Normalisierung der Wählplanregeln und Teams Übersetzungsregeln. Die Teams Übersetzungsregeln entfernen die "+1", die dem Wählplan hinzugefügt wurde.
+In diesem Szenario übersetzt ein Wählplan die Nummer vor dem Senden an die Direct Routing-Schnittstelle. Wenn Andrea 425 555 0100 in den Teams-Client ein gibt, wird die Nummer vom Wählplan des Landes in +14255550100 übersetzt. Die resultierenden Zahlen sind eine kumulierte Normalisierung der Wählplanregeln und Teams Übersetzungsregeln. Durch Teams Übersetzungsregeln wird das vom Wählplan hinzugefügte "+1" entfernt.
 
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |
@@ -116,7 +116,7 @@ SBC ist so konfiguriert, dass für Teams-Benutzer nicht E.164-Nummern und für B
 
 |Kopfzeile  |Original |Übersetzte Kopfzeile |Angewendete Parameter und Regeln  |
 |---------|---------|---------|---------|
-|RequestURI  |EINLADEN sip:0100@sbc.contoso.com           |EINLADEN sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
+|RequestURI  |Einladen sip:0100@sbc.contoso.com           |EINLADEN sip:4255550100@sbc.contoso.com       |InboundTeamsNumberTranlationRules 'AddSeattleAreaCode'         |
 |AN    |AN: \<sip:0100@sbc.contoso.com>|AN: \<sip:4255555555@sbc.contoso.com>|InboundTeamsNumberTranlationRulesList 'AddSeattleAreaCode'       |
 |VON   |VON: \<sip:+12065550100@sbc.contoso.com>|VON: \<sip:2065550100@sbc.contoso.com>| InboundPSTNNumberTranlationRules 'StripPlus1' |
 

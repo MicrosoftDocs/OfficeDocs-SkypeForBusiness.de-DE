@@ -22,12 +22,12 @@ ms.custom:
 - ms.lync.lac.ToolsCallQualityDashboard
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Daten und Berichte, die im Microsoft-Anrufqualitätsdashboard (CQD) verfügbar sind.
-ms.openlocfilehash: 04edfbcbdcfc8cc5a51a08bccd7c0dfc6c511e58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d3030377a286103e6801855e3540239006fded47
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833079"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766208"
 ---
 # <a name="data-and-reports-in-call-quality-dashboard-cqd"></a>Daten und Berichte im Anrufqualitätsdashboard (CQD)
 
@@ -40,9 +40,9 @@ Sie können auf CQD-Daten über verschiedene Möglichkeiten zugreifen. Wählen S
 
 |&nbsp;|&nbsp;|
 |---------|---------|
-|Teams Admin Center [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD-Daten sind  auf der Seite Benutzer im Teams Admin Center enthalten, auf der die am häufigsten benötigten Daten in einem einfach lesbaren Format angezeigt werden. Sie können keine AQD-Daten anpassen, die Sie unter Benutzer **finden.**  |
+|Teams Admin Center [( https://admin.teams.microsoft.com) ](https://admin.teams.microsoft.com)    | CQD-Daten sind  auf der Seite Benutzer im Teams Admin Center enthalten, auf der die am häufigsten benötigten Daten in einem einfach zu lesenen Format angezeigt werden. Sie können keine AQD-Daten anpassen, die Sie unter Benutzer **finden.**  |
 |CQD-Portal [( https://cqd.teams.microsoft.com) ](https://cqd.teams.microsoft.com)     | Stabile Zusammenfassung und detaillierte Berichte, die die meisten Anforderungen erfüllen, mit Drillthroughfiltern. Sie können Berichte auch im CQD-Portal anpassen. <br><br>Holen Sie sich [zwei Vorlagen für CQD-Berichte,](#import-the-cqd-report-templates) die Ihnen beim Analysieren von Daten im CQD-Portal helfen sollen.       |
-|Power BI     | Verwenden Sie direkte Abfragen zum Anzeigen Ihrer AQD-Daten in Power BI mithilfe [von anpassbaren Power BI Vorlagen.](CQD-Power-BI-query-templates.md) [Laden Power BI Abfragevorlagen für das AQD herunter.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Sie können auch [die REST-API verwenden, um über eine E-Mail auf](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) AQD-Power BI. Verwenden Sie diese Methode, wenn Sie Ihre AQD-Daten herunterladen möchten, damit Sie offline damit arbeiten können. Der Vorteil dieser Methode ist eine bessere Leistung, besonders hilfreich bei großen Datenmengen, die sich in ihrer Power BI, wenn Sie online sind.       |
+|Power BI     | Verwenden Sie direkte Abfragen zum Anzeigen Ihrer AQD-Daten in Power BI mithilfe [von anpassbaren Power BI Vorlagen](CQD-Power-BI-query-templates.md). [Laden Power BI Abfragevorlagen für das AQD herunter.](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/CQD-Power-BI-query-templates.zip?raw=true)<br><br>Sie können auch [die REST-API verwenden, um über eine Datenbank](/skypeforbusiness/management-tools/call-quality-dashboard/data-api) auf AQD-Power BI. Verwenden Sie diese Methode, wenn Sie Ihre AQD-Daten herunterladen möchten, damit Sie offline damit arbeiten können. Der Vorteil dieser Methode ist eine bessere Leistung, besonders nützlich für große Datenmengen, die sich in ihrer Power BI, wenn Sie online sind.       |
 |Graph-API     | Greifen Sie mithilfe der -API auf die Graph [zu.](/graph/api/resources/callrecords-api-overview) Dies ist die komplexeste Methode, bietet Ihnen aber die größte Kontrolle und Flexibilität bei der Analyse der Daten zur Anrufqualität. Wenn Sie sie beispielsweise mit anderen Daten für Ihre Organisation verbinden müssen, können Sie die Graph-API verwenden, um ein Datenmodell zu erstellen und Daten zur Anrufqualität zu integrieren.        |
 
 ## <a name="import-the-cqd-report-templates"></a>Importieren der Vorlagen für CQD-Berichte
@@ -76,13 +76,14 @@ Aus Konformitätsgründen werden Endbenutzerdaten (EUII) (auch als personenbezog
 - Name des Computerendpunkts
 - Feedback zur Ausführlichkeit der Benutzer
 - Objekt-ID (die Active Directory-Objekt-ID des Benutzers des Endpunkts)
+- Telefon Nummer
 
 ### <a name="admin-roles-with-and-without-euii-access"></a>Administratorrollen mit und ohne EUII-Zugriff
 
 Diese [RBAC-Rollen](/azure/role-based-access-control/overview) **haben** EUII-Zugriff:
 - Globaler Administrator
-- Teams Dienstadministrator
-- Teams Kommunikationsadministrator
+- Teams-Dienstadministrator
+- Teams Communications Admin
 - Teams-Kommunikationssupporttechniker
 - Global Reader
 - Skype for Business Administrator
@@ -118,7 +119,7 @@ Standardmäßig wird der aktuelle Tag des Monats als letzter Tag des Rolltage-Tr
 
 Die standardmäßigen Zusammenfassungs- und detaillierten CQD-Berichte sind möglicherweise alles, was Sie zum Verwalten der Anrufqualität für Ihre Organisation benötigen. Bei Bedarf können Sie benutzerdefinierte [Berichte erstellen.](#create-custom-detailed-reports) 
 
-Wenn Sie Ihre AQD-Power BI analysieren möchten, lesen Sie verwenden Power BI zum Analysieren von [AQD-Daten](CQD-Power-BI-query-templates.md)für Teams.
+Wenn Sie Ihre AQD-Power BI analysieren möchten, lesen Sie verwenden Power BI zum Analysieren von [AQD-Daten für Teams.](CQD-Power-BI-query-templates.md)
 
 |Feature|Zusammenfassungsberichte|Detaillierte Berichte|
 |:--- |:--- |:--- |
@@ -141,7 +142,7 @@ Wenn Sie Ihre AQD-Power BI analysieren möchten, lesen Sie verwenden Power BI zu
  
 ### <a name="select-product-data-to-see-in-reports"></a>Auswählen von Produktdaten, die in Berichten zu sehen sind
 
-In den Zusammenfassungs- und Location-Enhanced-Berichten  können Sie die Dropdownliste Produktfilter verwenden, um alle Produktdaten, nur Microsoft Teams oder nur Skype for Business Onlinedaten zu zeigen.
+In den Zusammenfassungs- und Location-Enhanced-Berichten  können Sie die Dropdownliste Produktfilter verwenden, um alle Produktdaten, nur Microsoft Teams oder nur Onlinedaten Skype for Business anzeigen.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot: Zeigt die Optionen des Produktfilter-Steuerelements.](media/206ad818-0f72-4c8e-b25e-3cc8fcfbef05.png)
@@ -221,7 +222,7 @@ Wie die Namen bereits angeben, basieren die Klassifizierungskriterien auf dem Ty
   
 ## <a name="tenant-data-information"></a>Informationen zu Mandantendaten
 
-Das Dashboard für AQD-Zusammenfassungsberichte enthält eine Seite Mit Mandantendaten **Hochladen,** auf die Sie zugreifen können, indem Sie in der oberen rechten Ecke im Menü Einstellungen die Option Mandantendaten **Hochladen** auswählen. Diese Seite wird für Administratoren verwendet, um ihre eigenen Informationen hochzuladen, z. B.:
+Das Dashboard für AQD-Zusammenfassungsberichte enthält eine Seite Mandantendaten **Hochladen,** auf die Sie zugreifen, indem Sie in der oberen rechten Ecke im Menü Einstellungen die Option Mandantendaten **Hochladen** auswählen. Diese Seite wird für Administratoren verwendet, um ihre eigenen Informationen hochzuladen, z. B.:
 
 - Eine Karte mit IP-Adressen und geografischen Informationen.
 - Eine Karte der einzelnen Drahtlos-AP und ihrer MAC-Adresse.
@@ -363,7 +364,7 @@ Zum Anwenden von URL-Filtern mit Mehrfachauswahlwerten trennen Sie jeden Wert du
 Wenn Sie einen ungültigen Namen oder Wert angeben, wird der URL-Filter nicht angewendet.
 
 
-Sie können einen URL-Filter verwenden, um jeden Bericht für eine bestimmte Dimension zu filtern. Die am häufigsten verwendeten URL-Filter werden verwendet, um Berichte zu filtern, um Telemetriedaten von Partnerteilnehmern auszuschließen oder sich nur auf Teams oder Skype for Business Online zu konzentrieren. Das Ausschließen von Verbunddaten aus AQD-Berichten ist nützlich, wenn Sie verwaltete Gebäude oder Netzwerke sanieren, in denen Verbundendpunkte Sich auf Ihre Berichte möglicherweise beeinflussen können.
+Sie können einen URL-Filter verwenden, um jeden Bericht für eine bestimmte Dimension zu filtern. Die am häufigsten verwendeten URL-Filter werden verwendet, um Berichte zu filtern, um Telemetriedaten von Partnerteilnehmern auszuschließen oder sich auf Teams oder Skype for Business Online zu konzentrieren. Das Ausschließen von Verbunddaten aus AQD-Berichten ist nützlich, wenn Sie verwaltete Gebäude oder Netzwerke sanieren, in denen Verbundendpunkte Sich auf Ihre Berichte möglicherweise beeinflussen können.
 
 | Filter         | Beschreibung          | Beispiel für CQD-Abfragefilter      |
 |----------------|----------------------|-------------------------------|
@@ -388,7 +389,7 @@ Sie können Ihre Mandanten-ID auch mithilfe von PowerShell finden:
 Login-AzureRmAccount
 ```
 
-## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleichen Teams und Skype for Business AQD-Daten
+## <a name="comparing-teams-and-skype-for-business-cqd-data"></a>Vergleich Teams und Skype for Business AQD-Daten
 
 Beim Überprüfen Ihrer Daten können Unterschiede bei den Daten zwischen Teams und Skype for Business. Dafür gibt es einige Gründe:
 - Unterschiede bei den Mechanismen zur Sicherstellung von Leistung und Zuverlässigkeit:

@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Administratoren können die Art von Audiokonferenzen und PSTN-Anrufen für Endbenutzer steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: 43fda0e088cc0b7c29bd270d20f0701f0391f8ce
-ms.sourcegitcommit: 47f537a81659ec5ecb7dfdb57589fa133199ec57
+ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/18/2021
-ms.locfileid: "61066546"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766238"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -42,7 +42,7 @@ Steuerelemente für ausgehende Anrufe können pro Benutzer oder auf Mandantenbas
 Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, lesen Sie Länder- und [Regionszonen für Audiokonferenzen.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung eingerichtet wurde (im Fall von Audiokonferenzen) oder für den Endbenutzer (bei Anrufen über das Festnetz des Endbenutzers).
+   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung (bei Audiokonferenzen) oder für den Endbenutzer (bei PstN-Anrufen durch Endbenutzer) eingerichtet wurde.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -64,7 +64,7 @@ Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, le
 
 Einschränkungen für ausgehende Anrufe werden durch eine einzelne Richtlinie mit dem Namen OnlineDialOutPolicy gesteuert, die jeweils über ein Einschränkungsattribut verfügt. Die Richtlinie kann nicht angepasst werden, sondern es gibt vordefinierte Richtlinieninstanzen für jede Kombination der Einstellungen.
 
-Mit dem cmdlet Get-CSOnlineDialOutPolicy Ausgehende Anrufe können Sie die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
+Sie können das cmdlet Get-CSOnlineDialOutPolicy, um die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
 
 **Legen Sie die Richtlinie auf Benutzerebene mit dem folgenden Cmdlet festgelegt.** (Das Cmdlet "Grant" enthält nicht wie das Cmdlet "Get" das Wort "Online".)
 
@@ -79,6 +79,12 @@ Grant-CsDialoutPolicy -PolicyName <policy name>  -Global
 ```
 
 Alle Benutzer des Mandanten, denen keine Wählrichtlinie zugewiesen ist, erhalten diese Richtlinie. Andere Benutzer bleiben bei ihrer aktuellen Richtlinie.
+
+**Überprüfen Sie die aktuelle Richtlinie auf Mandantenebene mit dem folgenden Cmdlet**.
+
+```powershell
+Get-CSOnlineDialOutPolicy -Identity Global
+```
 
 Die folgende Tabelle enthält eine Übersicht über die einzelnen Richtlinien.
 

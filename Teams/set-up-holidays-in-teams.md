@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.orgwidesettings.holidays.overview
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Feiertage in Microsoft Teams für die Verwendung mit Ihren automatischen Attendants einrichten.
-ms.openlocfilehash: b9c86f28b855b7f92d7e4f5d850c2d97baa2a106
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+ms.openlocfilehash: f7e6d5a3d305afedd732fe20fb7ab22a97b12c21
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249497"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766588"
 ---
 # <a name="set-up-holidays-in-microsoft-teams"></a>Einrichten von Feiertagen in Microsoft Teams
 
@@ -37,7 +37,7 @@ Die Feiertage, die Sie hier erstellen, sind verfügbar, wenn Sie eine automatisc
 
 So erstellen Sie einen Feiertag
 
-1. Wechseln Sie Microsoft Teams Admin Center zu **Organisationsweite Einstellungen**  >  **Feiertage**.
+1. Wechseln Sie Microsoft Teams Admin Center zu **Voice**  >  **Holidays**.
 
 2. Wählen Sie **Neuer Feiertag aus.**
 
@@ -60,13 +60,13 @@ So erstellen Sie einen Feiertag
 
 10. Klicken Sie auf **Speichern**.
 
-    ![Screenshot der Benutzeroberfläche "Feiertage" mit datumsangaben, die für drei Jahre eingerichtet sind.](media/holidays-set-up.png)
+    ![Screenshot der Benutzeroberfläche "Feiertage" mit Drei-Jahre-Datumsangaben](media/holidays-set-up.png)
 
 ## <a name="change-a-holiday"></a>Ändern eines Feiertags
 
 So ändern Sie einen Feiertag
 
-1. Wechseln Sie Microsoft Teams Admin Center zu **Organisationsweite Einstellungen**  >  **Feiertage**.
+1. Wechseln Sie Microsoft Teams Admin Center zu **Voice**  >  **Holidays**.
 
 2. Wählen Sie den Feiertag aus der Liste aus.
 

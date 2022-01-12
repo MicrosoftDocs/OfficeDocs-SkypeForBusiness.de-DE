@@ -1,5 +1,5 @@
 ---
-title: Einrichten einer automatischen Attendant für Microsoft Teams – Kleinunternehmen (Lernprogramm)
+title: Lernprogramm zum Einrichten einer automatischen Microsoft Teams – Kleinunternehmen
 author: CarolynRowe
 ms.author: crowe
 manager: serdars
@@ -20,16 +20,16 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Erfahren Sie, wie Sie automatische Attendants für kleine Unternehmen in ihrer Microsoft 365 Business Voice.
-ms.openlocfilehash: 176dc3c742ea60dbf5bf9b7bf0e6ce077957ace1
-ms.sourcegitcommit: e7f6125d348b6f14eeba28e09d5f1975ad4fde69
+description: Erfahren Sie, wie Sie automatische Telefon telefonieren für kleine Unternehmen einrichten und Microsoft 365 Teams Telefon Anrufplan einrichten.
+ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/09/2021
-ms.locfileid: "60249477"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767348"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Einrichten einer automatischen Attendant – Lernprogramm für Kleinunternehmen
 
-Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, anrufwarteschlangen, Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center erstellen.
+Mit automatischen Telefonkonferenzen können Personen Ihre Organisation anrufen und in einem Menüsystem navigieren, um mit der richtigen Abteilung, der richtigen Anrufwarteschleife, einer Person oder einem Operator zu sprechen. Sie können automatische Attendants für Ihre Organisation mit dem Microsoft Teams Admin Center erstellen.
 
 [!INCLUDE [business-voice-create-auto-attendant](../includes/business-voice-create-auto-attendant.md)]

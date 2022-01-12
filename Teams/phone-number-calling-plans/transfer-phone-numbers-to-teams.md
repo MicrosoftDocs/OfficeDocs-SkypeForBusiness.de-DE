@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie mithilfe des Portierungs-Assistenten Ihre Telefonnummer von Ihrem aktuellen Dienstanbieter zu Microsoft Teams.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39be72edfa013a42fec6dcc60a8555d98be87b57
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
+ms.openlocfilehash: 7650ccf8bee05fec6688e77c0fb9d68f94d18a0f
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513476"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766578"
 ---
 # <a name="transfer-phone-numbers-to-microsoft-teams"></a>Übertragen von Telefonnummern an Microsoft Teams
 
@@ -70,7 +70,7 @@ Bevor Sie beginnen, empfiehlt es sich, die Informationen unter Was [ist ein Port
     > [!NOTE]
     > Die CSV-Datei darf nur eine Spalte mit der Überschrift "PhoneNumber" enthalten. Jede Telefonnummer muss in einer separaten Zeile stehen und kann nur Ziffern oder im E.164-Format sein.
 
-6. Klicken Sie **auf der Seite** Bestellung abschließen auf **Hochladen** signierten Genehmigungsschreiben, um eine gescannte Kopie der signierten Genehmigungsschreiben hochzuladen.
+6. Klicken Sie **auf der** Seite Bestellung abschließen auf **Hochladen** signierte Genehmigungsschreiben, um eine gescannte Kopie der signierten Genehmigungsschreiben hochzuladen.
 
     Wenn Sie den LOA noch nicht heruntergeladen und signiert haben, gehen Sie wie folgt vor:
     
@@ -93,7 +93,7 @@ Um den Status Ihres Portierungsauftrags zu sehen, wechseln Sie in der linken Nav
 
 
 ## <a name="reporting-telephone-number-issues"></a>Probleme mit der Meldetelefonnummer?
-Wenn Sie ein Problem mit den portierten Nummern innerhalb der ersten 24-48 Std. feststellen. nachdem die Portierung abgeschlossen wurde, wenden Sie sich an [den TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Bei einem Problem außerhalb von 48 Std. wenden Sie sich an das MS-Supportteam.
+Wenn Sie innerhalb der ersten 24-48 Stunden nach Abschluss der Portierung ein Problem mit den portierten Nummern feststellen, wenden Sie sich an [den TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) Bei einem Problem, das über 48 Stunden hinausgeht, wenden Sie sich an das Microsoft-Supportteam.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

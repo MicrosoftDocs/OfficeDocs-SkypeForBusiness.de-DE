@@ -19,13 +19,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Optimization
-description: Erfahren Sie, wie die Qualität der Datenstromdaten im Anrufqualitätsdashboard für Datenstrom Microsoft Teams und Skype for Business online klassifiziert wird.
-ms.openlocfilehash: f4c4fb72d15ce79c60c2400b068898ad463f1b07
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+description: Erfahren Sie, wie die Datenstromqualität im Anrufqualitätsdashboard (Anrufqualitätsdashboard) für Microsoft Teams und Skype for Business Online klassifiziert wird.
+ms.openlocfilehash: 21de07e2b590bafcb7de65495e6b7d68faa381cc
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58598339"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767198"
 ---
 # <a name="stream-classification-in-call-quality-dashboard-cqd"></a>Stream Classification in Call Quality Dashboard (CQD)
 
@@ -33,7 +33,7 @@ Mit dem Anrufqualitäts-Dashboard (AQD) für Microsoft Teams und Skype for Busin
 
 ## <a name="classifier-definitions"></a>Klassifizierungsdefinitionen
 
-Streams im CQD werden basierend auf den Werten der verfügbaren Schlüsselqualitätsmetriken als "Gut", _"Schlecht"_ oder _"Nicht_ klassifiziert" klassifiziert. Die Metriken und Bedingungen, die zum Klassifizieren von Datenstrom verwendet werden, werden in den folgenden Tabellen angezeigt. Die Dimensionen "Schlecht fällig an" des CQD können verwendet werden, um zu verstehen, welche Metrik für die Klassifizierung _"Schlecht"_ verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie unter Im Anrufqualitätsdashboard verfügbare [Dimensionen und Measures.](dimensions-and-measures-available-in-call-quality-dashboard.md)
+Streams im CQD werden basierend auf den Werten der verfügbaren Schlüsselqualitätsmetriken als "Gut", "Schlecht" oder _"Nicht_ klassifiziert" klassifiziert. Die Metriken und Bedingungen, die zum Klassifizieren von Datenstrom verwendet werden, werden in den folgenden Tabellen angezeigt. Die Dimensionen "Schlecht fällig an" des CQD können verwendet werden, um zu verstehen, welche Metrik für die Klassifizierung _"Schlecht"_ verantwortlich ist. Weitere Informationen zu diesen Dimensionen finden Sie unter Im Anrufqualitätsdashboard verfügbare [Dimensionen und Measures.](dimensions-and-measures-available-in-call-quality-dashboard.md)
 
 ### <a name="audio-classifier"></a>Audio-Klassifizierung
 
@@ -41,7 +41,7 @@ Wenn eine oder mehrere der folgenden Bedingungen erfüllt sind, wird ein Audioda
 
 |Metrik|Szenario|Bedingung|Erklärung|
 |:-----|:-----|:-----|:-----|
-|Round Trip|ALL|> 500|Durchschnittliche in Millisekunden berechnete Roundtrip-Netzwerkverteilungszeit. Details, die in [RFC3550 verfügbar sind.](https://tools.ietf.org/html/rfc3550)|
+|Round Trip|ALL|> 500|Durchschnittliche In Millisekunden berechnete Roundtrip-Netzwerkverteilungszeit. Details, die in [RFC3550 verfügbar sind.](https://tools.ietf.org/html/rfc3550)|
 |Packet Loss Rate|ALL|> 0,1|Durchschnittlich Paketverlustrate für Datenstrom.|
 |Jitter|ALL|> 30|Durchschnittliche Anzahl an Jitter-Daten für Datenstrom in Millisekunden.|
 ||||
@@ -72,10 +72,10 @@ Ein VBSS-Datenstrom  wird  basierend auf dem Wert der ersten verfügbaren Metrik
 
 |Schritt # |Metrik |Bedingung |Klassifizierung, wenn die Bedingung wahr ist |Klassifizierung, wenn die Bedingung falsch ist |Klassifizierung, wenn die Metrik nicht verfügbar ist |Erklärung |
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-|1|Video Local Frame Loss Percentage Avg|> 50 % |_Poor_|_Good_|Mit Schritt 2 fortfahren|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Der Durchschnitt umfasst die aus Netzwerkverlusten wiederhergestellten Frames.|
-|2|Video Frame Rate Avg|< 2|_Poor_|_Good_|Mit Schritt 3 fortfahren|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden.|
-|3|Video Post FECPLR|> 0,15|_Poor_|_Good_|_Unclassified_|Paketverlustrate nach der Anwendung von FEC auf alle Videodatenströme und -codecs.|
+|1|Video Local Frame Loss Percentage Avg|Codec ist NICHT H264S</br>Und</br>StreamDirection ist eingehenden</br></br>Wenn FrameLoss > 50 % beträgt|_Poor_|_Good_|_Unclassified_|Durchschnittlicher Prozentsatz der dem Benutzer angezeigten verlorenen Videodatenströme. Der Durchschnitt umfasst die aus Netzwerkverlusten wiederhergestellten Frames. FrameLoss wird nur zum Klassifizieren eingehender Nicht-H264S-Datenströme verwendet.|
+|2|Video Frame Rate Avg|< 1|_Poor_|_Good_|_Unclassified_|Die Durchschnittliche Anzahl der pro Sekunde empfangenen Frames für einen Videodatenstrom, die für die Dauer einer Sitzung verarbeitet wurden. Gilt für alle ausgehenden Datenströme und für StreamDirection für H264S.|
 | |  | | | |  ||
+
 
 ### <a name="application-sharing-classifier"></a>Anwendungsfreigabe-Klassifizierung
 
@@ -106,7 +106,7 @@ Wenn die ICE-Konnektivität für einen _nicht klassifizierten_ Datenstrom erfolg
   > [!TIP]
   > Die Dimensionen "Dauer (Sekunden)", "Dauer (Minuten)", "Dauer 5 Sekunden oder weniger" und "Dauer 60 Sekunden oder mehr" können zur Bestimmung der Dauer eines Datenstrom verwendet werden. Mithilfe der Messung "Durchschnittliche Anrufdauer" können Sie die durchschnittliche Dauer eines Satzes von Datenströmen berechnen.
 
-- **Geringe Paketauslastung –** Wie beim Szenario "Kurzanruf" ist für die Berechnung von Keystreammetriken eine ausreichende Paketverwendung erforderlich. Ohne diese Metriken ist AQD nicht in der Lage, den Datenstrom zu klassifizieren.
+- **Geringe Paketauslastung –** Wie beim Szenario "Kurzer Anruf" ist für die Berechnung von Keystreammetriken eine ausreichende Paketverwendung erforderlich. Ohne diese Metriken ist AQD nicht in der Lage, den Datenstrom zu klassifizieren.
   - Ein häufiges Szenario mit geringer Paketverwendung tritt auf, wenn ein Teilnehmer einer Besprechung beitritt, um dem Sprechteilnehmer zuzuhören, aber nie spricht (das Mikrofon ist für den größten Teil des Anrufs stummgeschaltet). Hier hat der an den Client eingehende Audiodatenstrom eine hohe Paketauslastung, während der vom Client ausgehende Audiodatenstrom nur eine geringe bis gar keine Paketverwendung hat. Die Dauer des Datenstroms kann eine Stunde oder länger dauern, aber die Paketverwendung des Datenstroms vom Client zum Server ist niedrig, da das Mikrofon stummgeschaltet wurde und ein _Nicht klassifizierter_ Datenstrom ergebnisset.
 
   > [!TIP]

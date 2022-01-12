@@ -24,14 +24,14 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Microsoft Teams Cloud Voice-Features und die Entscheidungen, die für die Bereitstellung in Ihrer Organisation zu treffen sind.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 939c31477454828484c88fea0a8f34e19b640a8b
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 2d463034109e39920254e3f230546efe7f336af1
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61563600"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61766448"
 ---
-# <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Microsoft Teams-Anruflösung 
+# <a name="plan-your-teams-voice-solution"></a>Planen Ihrer Microsoft Teams-Anruflösung
 
 Dieser Artikel hilft Ihnen bei der Entscheidung, welche Microsoft-Voice-Lösung für Ihr Unternehmen am besten geeignet ist. Nachdem Sie sich entschieden haben, können Sie die im Artikel enthaltenen Verweise zu Inhalten nutzen, um die ausgewählte Lösung zu implementieren.
 
@@ -39,29 +39,31 @@ Die einfachste Lösung finden Sie, &mdash; wenn Teams Telefon Anrufplan erstelle
 
 ![Diagramm 1 zeigt Teams Telefon mit Anrufplan.](media/voice-solutions-simple.png)
 
-Wenn Sie mit Ja antworten, ist Teams Telefon Anrufplan die richtige Lösung für Sie:
+Wenn Sie auf Folgendes mit "Ja" antworten, Teams Telefon Anrufplan zu erstellen, die richtige Lösung für Sie:
 
 - PSTN-Anrufe sind in Ihrem Land oder Ihrer Region nicht verfügbar.
 - Sie müssen nicht bei Ihrem aktuellen Festnetzbetreiber bleiben.
 - Sie möchten von Microsoft verwalteten Zugriff auf das Telefonfestnetz nutzen.
 
-Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Geschäftsstellen an Standorten haben, an denen keine Microsoft-Anrufpläne verfügbar sind. Oder Sie benötigen eine Kombilösung, die für eine komplexe, multinationale Bereitstellung mit unterschiedlichen Anforderungen an unterschiedlichen geografischen Standorten geeignet ist. Microsoft ermöglicht Kombilösungen: 
+Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Geschäftsstellen an Standorten haben, an denen keine Microsoft-Anrufpläne verfügbar sind. Oder Sie benötigen eine Kombilösung, die für eine komplexe, multinationale Bereitstellung mit unterschiedlichen Anforderungen an unterschiedlichen geografischen Standorten geeignet ist. Microsoft ermöglicht Kombilösungen:
 
 - Teams Telefon mit Anrufplan
 - Teams Telefon bei Ihrem eigenen Netzbetreiber mit Netzbetreiber Verbinden
-- Teams Telefon mit Ihrem eigenen PSTN-Netzbetreiber mit Direct Routing
-- Eine Kombinationslösung, die Teams Telefon Anrufplan, Teams Telefon mit Operator Verbinden und/oder Teams Telefon mit Direct-Routing verwendet
+- Teams Telefon mit Ihrem eigenen PSTN-Netzbetreiber mit Direct-Routing
+- Eine Kombinationslösung, die Teams Telefon Anrufplan, Teams Telefon mit Operator Verbinden und/oder Teams Telefon Direct-Routing verwendet
 
+>[!NOTE]
+>Wenn Sie ein kleines bis mittleres Unternehmen (300 oder weniger Personen) sind, bündelt Microsoft Telefonsystem mit einem Plan für Inlandsrufe. Weitere Informationen finden Sie [Teams Telefon Anleitungen](/microsoftteams/business-voice/whats-business-voice) für kleine und mittelständische Unternehmen, die Ihnen beim Planen, Einrichten und Verwalten Ihrer Sprachlösung helfen sollen.
 
 ## <a name="what-do-you-need-to-read"></a>Was müssen Sie lesen?
 
-**Für alle erforderlich.** Einige Abschnitte in diesem Artikel betreffen alle Organisationen. So sollte sich beispielsweise jeder über den Teams Telefon über die Optionen zum Herstellen einer Verbindung mit dem öffentlichen Telefonnetz (PSTN) im öffentlichen Telefonnetz im Verständnis der Informationen machen. 
+**Für alle erforderlich.** Einige Abschnitte in diesem Artikel betreffen alle Organisationen. So sollte sich beispielsweise jeder über die Informationen Teams Telefon und die Optionen für die Verbindung zum öffentlichen Telefonnetz (PSTN) verstehen.
 
 
 | Für alle erforderlich | Beschreibung |
 | :------------|:-------|
 | [**Teams Telefon**](#teams-phone) | Microsoft-Technologie, die mit Microsoft Teams Anrufsteuerung und Funktionen von Nebenstellenanlagen in der Microsoft 365-Cloud ermöglicht. |
-| [**Optionen für die Verbindung mit dem Telefonfestnetz**](#public-switched-telephone-network-connectivity-options) | Die Wahlmöglichkeit zwischen der Verwendung von Microsoft als Telefonieanbieter oder der Verbindung Ihres eigenen Telefonieanbieters mit Microsoft Teams mittels Telefonieanbieter oder Direct Routing. In Kombination Teams Telefon Verbindungsoptionen für das Festnetz ermöglichen es Ihren Benutzern, weltweit Telefonanrufe zu telefonieren.|
+| [**Optionen für die Verbindung mit dem Telefonfestnetz**](#public-switched-telephone-network-connectivity-options) | Die Wahlmöglichkeit zwischen der Verwendung von Microsoft als Telefonieanbieter oder der Verbindung Ihres eigenen Telefonieanbieters mit Microsoft Teams mittels Telefonieanbieter oder Direct Routing. In Kombination Teams Telefon Konnektivitätsoptionen für das Festnetz ermöglichen es Ihren Benutzern, weltweit Telefonanrufe zu telefonieren.|
 
 **Je nach Ihren Anforderungen.** Einige Abschnitte in diesem und verwandten Artikeln sind je nach Ihren vorhandenen Bereitstellung und Ihren Anforderungen für Sie relevant. Beispielsweise ist standortbasiertes Routing nur für Direct Routing-Kunden an geografischen Standorten erforderlich, die das Umgehen von Gebühren nicht erlauben.
 
@@ -79,16 +81,16 @@ Ihre Situation könnte jedoch komplexer sein. So könnten Sie beispielsweise Ges
 | [**Migrieren Ihrer bestehenden Anruflösung**](#migrate-your-existing-voice-solution-to-teams) | Was Sie bei der Migration Ihrer Anruflösung zu Microsoft Teams bedenken müssen.  Lesen Sie diesen Abschnitt, wenn Sie von einer bestehenden Anruflösung zu Microsoft Teams wechseln. 
 
 > [!Important]
-> Den Schwerpunkt dieses Artikels bilden Anruflösungen mit Microsoft Teams. Aufgrund der Rente von Skype for Business Online am 31. Juli 2021 wird die PSTN-Anbindung zwischen Ihrer lokalen Umgebung über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online nicht mehr &mdash; &mdash; unterstützt. In diesem Artikel werden die Teams und erläutert, wie Sie bei Bedarf Ihr lokales Telefonienetzwerk mit Teams mit dem Netzbetreiber Verbinden Direct Routing verbinden können.
+> Den Schwerpunkt dieses Artikels bilden Anruflösungen mit Microsoft Teams. Aufgrund der Ende von Skype for Business Online am 31. Juli 2021 wird die PSTN-Anbindung zwischen Ihrer lokalen Umgebung, unabhängig davon, ob über Skype for Business Server oder Cloud Connector Edition und Skype for Business Online unterstützt wird, nicht mehr &mdash; &mdash; unterstützt. In diesem Artikel werden Teams Sprachlösungen und erläutert, wie Sie bei Bedarf Ihr lokales Telefonienetzwerk mit Teams mithilfe von Operator Verbinden Direct Routing verbinden können.
 
 
 ## <a name="teams-phone"></a>Teams Telefon
 
-Teams Telefon microsoft-Technologie zum Aktivieren von Anrufsteuerung und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365-Cloud mit Microsoft Teams.
+Teams Telefon microsoft-Technologie zum Aktivieren von Anrufsteuerungs- und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365-Cloud Microsoft Teams.
 
 Teams Telefon kann mit Teams und zertifizierten Geräten verwendet werden. Teams Telefon können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem Pc Microsoft 365. 
 
-Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb Teams Telefon und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen.
+Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb Teams Telefon behandelt und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen.
 
 In diesem Artikel werden die Teams Telefon wichtigsten Features und Funktionen sowie die Bereitstellungsentscheidungen beschrieben, die Sie berücksichtigen müssen:
 
@@ -100,7 +102,7 @@ In diesem Artikel werden die Teams Telefon wichtigsten Features und Funktionen s
 
 Informationen zu allen Features Teams Telefon und zum Einrichten von Teams Telefon finden Sie in den folgenden Artikeln:
 
-- [Dies ist das, was Sie mit ihrer Teams Telefon](here-s-what-you-get-with-phone-system.md)
+- [Dies ist das, was Sie mit ihren Teams Telefon](here-s-what-you-get-with-phone-system.md)
 - [Einrichten Teams Telefon in Ihrer Organisation](setting-up-your-phone-system.md)<br>
   Enthält Informationen dazu, wie Sie Telefonsystemlizenzen kaufen und zuweisen, Telefonnummern verwalten und Kommunikationsguthaben für gebührenfreie Nummern einrichten. 
 
@@ -125,7 +127,7 @@ Cloud-Voicemail basiert auf Azure Voicemail-Diensten und unterstützt die Ablage
 
 Cloud-Voicemail umfasst die Voicemail-Transkription. Diese Funktion ist standardmäßig für alle Benutzer in Ihrer Organisation aktiviert. Ihr Unternehmen muss aufgrund geschäftlicher Anforderungen eventuell die Voicemail-Transkription für bestimmte oder alle Benutzer in der gesamten Organisation deaktivieren.
 
-Cloud-Voicemail wird automatisch für alle Benutzer Teams eingerichtet und bereitgestellt.  
+Cloud-Voicemail wird automatisch für alle Benutzer eingerichtet Teams bereitgestellt.  
 
 Weitere Informationen zu Cloud-Voicemail und dessen Konfiguration finden Sie in den folgenden Artikeln:
 
@@ -149,7 +151,7 @@ Teams Telefon stellt umfassende PBX-Funktionen für Ihre Organisation bereit. Um
 
 Sie können auch eine Kombination von Optionen auswählen, die es Ihnen ermöglichen, eine Lösung für eine komplexe Umgebung zu entwerfen oder eine mehrstufige Migration zu verwalten (weitere Informationen zur Migration später).
 
-Die Teams Telefon sind unabhängig von der von Ihnen aktivierten PSTN-Konnektivitätsoption identisch. Es gibt jedoch einige Funktionsunterschiede, die sich darauf auswirken, wie Sie bestimmte Features Teams Telefon konfigurieren, z. B. Anrufrouting und Notrufe. Weitere Informationen zu Festnetzanbindungsoptionen und diese Überlegungen zur Konfiguration finden Sie unter [Festnetzanbindungsoptionen](pstn-connectivity.md).
+Die Teams Telefon sind unabhängig von der von Ihnen aktivierten PSTN-Konnektivitätsoption identisch. Es gibt jedoch einige Funktionsunterschiede, die sich auf die Konfiguration bestimmter Features Teams Telefon, z. B. Anrufrouting und Notrufe, auswirken. Weitere Informationen zu Festnetzanbindungsoptionen und diese Überlegungen zur Konfiguration finden Sie unter [Festnetzanbindungsoptionen](pstn-connectivity.md).
 
 
 ## <a name="migrate-your-existing-voice-solution-to-teams"></a>Migrieren Ihrer bestehenden Anruflösung zu Microsoft Teams
