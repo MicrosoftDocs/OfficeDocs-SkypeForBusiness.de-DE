@@ -17,12 +17,12 @@ description: Hier erfahren Sie, was zu tun ist, wenn Sie eDiscovery ausführen m
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: ca4e85be70ce85d8e35c743275c9f3689061bcda
-ms.sourcegitcommit: c8951fe3504c1776d7aec14b79605aaf5d317e7f
+ms.openlocfilehash: c1d45ea392048e0152f6433c6434db641d8530e4
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61331126"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993089"
 ---
 # <a name="conduct-an-ediscovery-investigation-of-content-in-microsoft-teams"></a>Durchführen einer eDiscovery-Untersuchung von Inhalt in Microsoft Teams
 
@@ -34,7 +34,7 @@ Alle Microsoft Teams 1:1- oder Gruppenchats werden in den Postfächern der jewei
 
 eDiscovery von Nachrichten und Dateien in [privaten Kanälen](private-channels.md) funktioniert anders als in Standardkanälen. Weitere Informationen finden Sie unter [eDiscovery privater Kanäle.](#ediscovery-of-private-channels)
 
-Nicht alle Teams inhalte sind eDiscoverable. Die folgende Tabelle enthält die Inhaltstypen, nach der Sie mithilfe der Microsoft eDiscovery-Tools suchen können:
+Nicht alle Teams sind eDiscoverable. Die folgende Tabelle enthält die Inhaltstypen, nach der Sie mithilfe der Microsoft eDiscovery-Tools suchen können:
 
 | Inhaltstyp | eDiscoverable | Hinweise |
 |:--- | :--- |:--- |
@@ -80,9 +80,9 @@ Hier ist ein Beispiel für eine Unterhaltung im Zusammenhang mit einer Unterhalt
 
 Weitere Informationen zum Durchführen einer eDiscovery-Untersuchung finden Sie unter [Erste Schritte mit Core eDiscovery.](/microsoft-365/compliance/get-started-core-ediscovery)
 
-Microsoft Teams Daten werden als Chat oder Unterhaltungen in der eDiscovery-Excel angezeigt. Sie können die Datei in Outlook, um diese Nachrichten nach dem `.pst` Export anzeigen.
+Microsoft Teams Daten werden als Chat oder Unterhaltungen in der eDiscovery-Excel angezeigt. Sie können die Datei `.pst` in Outlook, um diese Nachrichten nach dem Export anzeigen.
 
-Wenn Sie die PST-Datei für das Team anzeigen, befinden sich alle Unterhaltungen im Ordner Teamchat unter Unterhaltungsverlauf. Der Titel der Nachricht enthält den Teamnamen und den Kanalnamen. Die folgende Abbildung zeigt beispielsweise eine Nachricht von Bob, der den Standardkanal Project "Fertigungsspezifikationen" an das Team gesendet hat.
+Wenn Sie die PST-Datei für das Team anzeigen, befinden sich alle Unterhaltungen im Ordner Teamchat unter Unterhaltungsverlauf. Der Titel der Nachricht enthält den Teamnamen und den Kanalnamen. Die folgende Abbildung zeigt beispielsweise eine Nachricht von Bob, der den Standardkanal Project Produktionsspezifikationen an das Team gesendet hat.
 
 ![Screenshot eines Teamchatordners im Postfach eines Benutzers in Outlook.](media/Conduct_an_eDiscovery_investigation_of_content_in_Microsoft_Teams_image1.png)
 
@@ -100,7 +100,7 @@ Verwenden Sie die folgenden Schritte, um Dateien und Nachrichten in einem privat
 
 ### <a name="include-private-channel-files-in-an-ediscovery-search"></a>Schließen Sie Dateien privater Kanäle in eine eDiscovery-Suche ein
 
-Bevor Sie diese Schritte ausführen, installieren Sie [die SharePoint Online-Verwaltungsshell,](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)und stellen Sie eine Verbindung mit SharePoint Online herzustellen.
+Bevor Sie diese Schritte ausführen, installieren Sie die SharePoint Online-Verwaltungsshell, und stellen Sie [eine Verbindung mit SharePoint Online herzustellen.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)
 
 1. Führen Sie die folgenden Schritte aus, um eine Liste aller SharePoint, die privaten Kanälen im Team zugeordnet sind, zu erhalten.
 
@@ -108,7 +108,7 @@ Bevor Sie diese Schritte ausführen, installieren Sie [die SharePoint Online-Ver
     Get-SPOSite
     ```
 
-2. Führen Sie das folgende PowerShell-Skript aus, um eine Liste aller SharePoint-Websitesammlungs-URLs zu erhalten, die privaten Kanälen im Team und der ID der übergeordneten Teamgruppe zugeordnet sind.
+2. Führen Sie das folgende PowerShell-Skript aus, um eine Liste aller SharePoint-WEBSITEsammlungs-URLs zu erhalten, die privaten Kanälen im Team und der id der übergeordneten Teamgruppe zugeordnet sind.
 
     ```PowerShell
     $sites = get-sposite -template "teamchannel#0"
@@ -123,33 +123,42 @@ Bevor Sie diese Schritte ausführen, installieren Sie [die SharePoint Online-Ver
     foreach ($site in $sites) {$x= Get-SpoSite -Identity $site.url -Detail; if ($x.RelatedGroupId -eq $groupID) {$x.RelatedGroupId;$x.url}}
     ```
 > [!NOTE]
-> SharePoint Für Websites privater Kanäle, die nach dem 28. Juni 2021 erstellt wurden, wird der Wert für die benutzerdefinierte `teamchannel#1` Vorlagen-ID verwendet. Verwenden Sie also für private Kanäle, die nach diesem Datum erstellt wurden, den -Wert, `teamchannel#1` wenn Sie die beiden vorherigen Skripts ausführen.
+> SharePoint Für Websites privater Kanäle, die nach dem 28. Juni 2021 erstellt wurden, wird der Wert für `teamchannel#1` die benutzerdefinierte Vorlagen-ID verwendet. Verwenden Sie also für private Kanäle, die nach diesem Datum erstellt wurden, den -Wert, `teamchannel#1` wenn Sie die beiden vorherigen Skripts ausführen.
 
 ### <a name="include-private-channel-messages-in-an-ediscovery-search"></a>Schließen Sie Nachrichten privater Kanäle in eine eDiscovery-Suche ein
 
 Stellen Sie vor dem Ausführen dieser Schritte sicher, dass Sie die neueste Version des Teams [PowerShell-Moduls installiert](teams-powershell-overview.md) haben.
 
-1. Führen Sie den folgenden Befehl aus, um eine Liste der privaten Kanäle im Team zu erhalten.
+1. Führen Sie den folgenden Befehl aus, um die Gruppen-ID des Teams zu erhalten, das die privaten Kanäle enthält, die Sie durchsuchen möchten.
+
+   ```powershell
+   Get-Team -MailNickName <mail alias of the associated Office 365 Group>
+   ```
+
+   > [!TIP]
+   > Führen Sie **das Cmdlet Get-Team** ohne Parameter aus, um eine Liste aller Teams in Ihrer Organisation anzeigen. Die Liste enthält die Gruppen-ID und "MailNickName" für jedes Team.
+
+2. Führen Sie den folgenden Befehl aus, um eine Liste der privaten Kanäle im Team zu erhalten. Verwenden Sie die Gruppen-ID für das Team, das Sie in Schritt 1 erhalten haben.
 
     ```PowerShell
-    Get-TeamChannel -GroupId <GroupID> -MembershipType Private
+    Get-TeamChannel -GroupId <GroupId> -MembershipType Private
     ```
 
-2. Führen Sie den folgenden Befehl aus, um eine Liste der Mitglieder privater Kanäle zu erhalten.
+3. Führen Sie den folgenden Befehl aus, um eine Liste der Besitzer und Mitglieder privater Kanäle zu erhalten.
 
     ```PowerShell
-    Get-TeamChannelUser -GroupId <GroupID> -DisplayName "Engineering" -Role Member
+    Get-TeamChannelUser -GroupId <GroupId> -DisplayName "Engineering" 
     ```
 
-3. Fügen Sie die Postfächer aller Mitglieder aus jedem privaten Kanal im Team als Teil Ihrer [eDiscovery-Suchabfrage ein.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
+4. Fügen Sie die Postfächer aller Besitzer und Mitglieder aus jedem privaten Kanal im Team als Teil Ihrer [eDiscovery-Suchabfrage ein.](/microsoft-365/compliance/search-for-content-in-core-ediscovery)
 
 ## <a name="search-for-content-for-guest-users"></a>Suchen nach Inhalten für Gastbenutzer
 
-Sie können eDiscovery-Tools verwenden, um nach Inhalten Teams, die mit Gastbenutzern in Ihrer Organisation in Zusammenhang stehen. Teams Chatinhalt, der einem Gastbenutzer zugeordnet ist, wird an einem cloudbasierten Speicherort beibehalten und kann mithilfe von eDiscovery durchsucht werden. Dies schließt die Suche nach Inhalten in 1:1- und 1:N-Chatunterhaltungen ein, bei denen ein Gastbenutzer mit anderen Benutzern in Ihrer Organisation Teilnehmer ist. Sie können auch nach Nachrichten in privaten Kanälen suchen, bei denen ein Gastbenutzer Teilnehmer ist, und in Unterhaltungen mit *Gastchats* nach Inhalten suchen, bei denen nur Gastbenutzer die Teilnehmer sind.
+Sie können mithilfe von eDiscovery-Tools nach Inhalten Teams, die mit Gastbenutzern in Ihrer Organisation in Zusammenhang stehen. Teams Chatinhalt, der einem Gastbenutzer zugeordnet ist, wird in einem cloudbasierten Speicherort beibehalten und kann mithilfe von eDiscovery durchsucht werden. Dies schließt die Suche nach Inhalten in 1:1- und 1:N-Chatunterhaltungen ein, bei denen ein Gastbenutzer mit anderen Benutzern in Ihrer Organisation Teilnehmer ist. Sie können auch nach Nachrichten in privaten Kanälen suchen, bei denen ein Gastbenutzer Teilnehmer ist, und in Unterhaltungen mit *Gastchats* nach Inhalten suchen, bei denen nur Gastbenutzer die Teilnehmer sind.
 
 So suchen Sie nach Inhalten für Gastbenutzer:
 
-1. Verbinden Sie Azure AD PowerShell. Anweisungen finden Sie im Abschnitt "Verbinden dem Azure Active Directory PowerShell" in Verbinden, Microsoft 365 [PowerShell zu finden.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Stellen Sie sicher, dass Sie die Schritte 1 und 2 im vorherigen Thema abgeschlossen haben.
+1. Verbinden Sie Azure AD PowerShell. Anweisungen finden Sie im Abschnitt "Verbinden dem Azure Active Directory PowerShell" in Verbinden, Microsoft 365 [mit PowerShell zu finden.](/microsoft-365/enterprise/connect-to-microsoft-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) Stellen Sie sicher, dass Sie die Schritte 1 und 2 im vorherigen Thema abgeschlossen haben.
 
 2. Nachdem Sie erfolgreich eine Verbindung mit Azure AD PowerShell hergestellt haben, führen Sie den folgenden Befehl aus, um den Benutzerprinzipalnamen (User Principal Name, UPN) für alle Gastbenutzer in Ihrer Organisation anzeigen. Sie müssen den UPN des Gastbenutzers verwenden, wenn Sie die Suche in Schritt 4 erstellen.
 
@@ -160,7 +169,7 @@ So suchen Sie nach Inhalten für Gastbenutzer:
    > [!TIP]
    > Anstatt eine Liste der Benutzerprinzipalnamen auf dem Computerbildschirm anzuzeigen, können Sie die Ausgabe des Befehls an eine Textdatei umleiten. Sie können dies durch Anfügen `> filename.txt` an den vorherigen Befehl tun. Die Textdatei mit den Benutzerprinzipalnamen wird im aktuellen Ordner gespeichert.
 
-3. Stellen Sie in einem Windows PowerShell Fenster eine Verbindung mit Security & Compliance Center-PowerShell herstellen. Anweisungen finden Sie unter [Verbinden security & Compliance Center-PowerShell.](/powershell/exchange/connect-to-scc-powershell) Sie können eine Verbindung mit oder ohne mehrstufige Authentifizierung herstellen.
+3. Stellen Sie in einem Windows PowerShell Fenster eine Verbindung mit Security & Compliance Center-PowerShell herstellen. Anweisungen finden Sie [unter Verbinden Security & Compliance Center in PowerShell.](/powershell/exchange/connect-to-scc-powershell) Sie können eine Verbindung mit oder ohne mehrstufige Authentifizierung herstellen.
 
 4. Erstellen Sie eine Inhaltssuche, die nach allen Inhalten (wie Chatnachrichten und E-Mail-Nachrichten) sucht, an denen der angegebene Gastbenutzer Teilnehmer war, indem Sie den folgenden Befehl ausführen.
 
@@ -196,13 +205,13 @@ So suchen Sie nach Inhalten für Gastbenutzer:
 
 ## <a name="search-for-card-content"></a>Suchen nach Karteninhalten
 
-Karteninhalte, die von Apps in Teams-Kanälen, 1:1-Chats und 1xN-Chats generiert werden, werden in Postfächern gespeichert und können durchsucht werden. Eine *Karte* ist ein UI-Container für kurze Inhalte. Karten können mehrere Eigenschaften und Anlagen aufweisen, und sie können Schaltflächen enthalten, die Kartenaktionen auslösen können. Weitere Informationen finden Sie unter [Karten](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
+Karteninhalte, die von Apps in Teams Kanälen, 1:1-Chats und 1xN-Chats generiert werden, werden in Postfächern gespeichert und können durchsucht werden. Eine *Karte* ist ein UI-Container für kurze Inhalte. Karten können mehrere Eigenschaften und Anlagen aufweisen, und sie können Schaltflächen enthalten, die Kartenaktionen auslösen können. Weitere Informationen finden Sie unter [Karten](/microsoftteams/platform/task-modules-and-cards/what-are-cards)
 
 Wie bei Teams Inhalten, in denen Karteninhalte gespeichert werden, basierend auf dem Ort, an dem die Karte verwendet wurde. Der Inhalt für Karten, die in einem Teams Kanal verwendet werden, wird im Postfach Teams Gruppe gespeichert. Karteninhalte für 1:1- und 1xN-Chats werden in den Postfächern der Chatteilnehmer gespeichert.
 
 Um nach Karteninhalten zu suchen, können Sie die `kind:microsoftteams` `itemclass:IPM.SkypeTeams.Message` Suchbedingungen oder verwenden. Bei der Überprüfung von Suchergebnissen haben Karteninhalte, die von Bots in einem Teams-Kanal generiert werden, die E-Mail-Eigenschaft **Absender/Autor** als . Dabei steht für den Namen der App, die den Karteninhalt `<appname>@teams.microsoft.com` `appname` generiert hat. Wenn Karteninhalte von einem Benutzer generiert wurden, wird der Benutzer durch den Wert **Absender/Autor** identifiziert.
 
-Beim Anzeigen von Karteninhalten in den Ergebnissen der Inhaltssuche wird der Inhalt als Anlage der Nachricht angezeigt. Die Anlage hat den Namen `appname.html` . Dabei steht für den Namen der `appname` App, die den Karteninhalt generiert hat. Die folgenden Screenshots zeigen, wie der Karteninhalt (für eine App namens Asana) in Teams und in den Ergebnissen einer Suche angezeigt wird.
+Beim Anzeigen von Karteninhalten in den Ergebnissen der Inhaltssuche wird der Inhalt als Anlage der Nachricht angezeigt. Die Anlage hat den Namen `appname.html` . Dabei steht für den Namen der `appname` App, die den Karteninhalt generiert hat. Die folgenden Screenshots zeigen, wie Karteninhalte (für eine App mit dem Namen Asana) in Teams und in den Ergebnissen einer Suche angezeigt werden.
 
 **Karteninhalt in Teams**
 
@@ -213,7 +222,7 @@ Beim Anzeigen von Karteninhalten in den Ergebnissen der Inhaltssuche wird der In
 ![Gleicher Karteninhalt in den Ergebnissen einer Inhaltssuche.](media/CardContentEdiscoverySearchResults.png)
 
 > [!NOTE]
-> Um bilder aus dem Karteninhalt in den Suchergebnissen zu diesem Zeitpunkt anzuzeigen (z. B. die Häkchen im vorherigen Screenshot), müssen Sie bei Teams angemeldet sein (auf einer anderen Registerkarte in derselben Browsersitzung, die Sie zum Anzeigen der Suchergebnisse https://teams.microsoft.com) verwenden. Andernfalls werden Bildplatzhalter angezeigt.
+> Zum Anzeigen von Bildern aus Karteninhalten in den Suchergebnissen (z. B. die Häkchen im vorherigen Screenshot) müssen Sie bei Teams angemeldet sein (auf einer anderen Registerkarte in derselben Browsersitzung, die Sie zum Anzeigen der Suchergebnisse https://teams.microsoft.com) verwenden. Andernfalls werden Bildplatzhalter angezeigt.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

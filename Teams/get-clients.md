@@ -1,7 +1,7 @@
 ---
 title: Beziehen von Clients für Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: dstrome
+ms.author: dstrome
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -12,30 +12,26 @@ ms.collection:
 ms.reviewer: harij, rafarhi
 ms.localizationpriority: high
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die verschiedenen verfügbaren Microsoft Teams-Clients für Web, Desktop (Windows und Mac) und mobile Betriebssysteme (Android und iOS) verwenden.
+description: Erfahren Sie, wie Sie die verschiedenen Clients installieren, die für Microsoft Teams auf PCs, Macs und mobilen Geräten verfügbar sind.
 f1.keywords:
 - CSH
-ms.custom:
-- NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: c47285a8a759ccdade5fc6e95b90d75ede77bfc3
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 31bafc1c112d8b50990cc6e92c863c7e242aa5fb
+ms.sourcegitcommit: efea3b3b9dceb1a1d82eb7a09a5104dcd6df8abf
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60014689"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61993009"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams
 
-Microsoft Teams-Clients sind für Desktop (Windows, Mac und Linux), Web und mobile Betriebssysteme (Android und iOS) verfügbar. Alle diese Clients erfordern eine aktive Internetverbindung und unterstützen den Offlinemodus nicht.
+> [!TIP]
+> **Möchten Sie Teams auf Ihrem PC, Mac oder mobilen Gerät installieren?** Sehen Sie sich [Installieren des Teams-Clients](https://www.microsoft.com/microsoft-teams/download-app) an.
 
-> [!NOTE]
-> Mehr über die Funktionen jedes Clients auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
->
-> Ab dem 29. November 2018 können Sie die Microsoft Teams for Windows 10 S-App (Vorschau), die im Microsoft Store verfügbar ist, nicht mehr verwenden. Stattdessen können Sie nun den Teams-Desktopclient auf Geräte herunterladen und installieren, die mit Windows 10 S-Modus betrieben werden. Den Desktopclient zum Herunterladen finden Sie unter [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/p/?linkid=855754). MSI-Builds des Teams-Desktopclients stehen für Geräte, die mit Windows 10 S-Modus betrieben werden, derzeit noch nicht zur Verfügung.
->
-> Weitere Informationen zum Windows 10 S-Modus finden Sie unter [Einführung in den Windows 10-Modus](https://www.microsoft.com/windows/s-mode).
+Dieser Artikel enthält Informationen zum Installieren von Microsoft Teams auf Geräten in Ihrem Unternehmen.
+
+Mehr über die Funktionen jedes Clients auf verschiedenen Plattformen erfahren Sie unter [Teams-Funktionen nach Plattform](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3).
 
 ## <a name="desktop-client"></a>Desktopclient
 

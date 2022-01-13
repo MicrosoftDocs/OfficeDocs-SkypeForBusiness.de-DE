@@ -18,16 +18,16 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: a7e15a8a327d40ea11412229205fca6e856e9f7b
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: bdf55403f807ddb8929da71d082adffcbcb7877d
+ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58596319"
+ms.lasthandoff: 01/12/2022
+ms.locfileid: "61767148"
 ---
 # <a name="set-up-microsoft-teams-in-your-small-business"></a>Einrichten von Microsoft Teams in Ihrem Kleinunternehmen
 
-Es gibt viele Möglichkeiten zum Anpassen von Teams. In den folgenden Abschnitten wird gezeigt, wie Sie die einzelnen Teams-Workloads einrichten: **Chats, Teams und Kanäle**; **Besprechungen und Konferenzen**; und **Cloud Voice**. Die Reihenfolge, in der Sie die einzelnen Arbeitslasten einrichten, liegt bei Ihnen. Zwar empfehlen wir ihnen, zuerst die Chats, Teams und Kanäle für die Arbeitsauslastung eingerichtet zu haben, sie können aber mit Besprechungen und Konferenzen oder sogar mit Cloud Voice beginnen. Sie haben die Wahl.
+Es gibt viele Möglichkeiten zum Anpassen von Teams. In den folgenden Abschnitten wird gezeigt, wie Sie die einzelnen Teams-Workloads einrichten: **Chats, Teams und Kanäle**; **Besprechungen und Konferenzen**; und **Sprachlösungen**. Die Reihenfolge, in der Sie die einzelnen Arbeitslasten einrichten, liegt bei Ihnen. Zwar empfehlen wir ihnen, zuerst die Chats, Teams und Kanäle für die Arbeitsauslastung eingerichtet zu haben, sie können aber mit Besprechungen und Konferenzen oder sogar mit Cloud Voice beginnen. Sie haben die Wahl.
 
 > [!NOTE]
 > Wenn dies noch nicht geschehen ist, wird dringend empfohlen, die Bereitstellung von Teams mit einem Pilotprojekt zu beginnen. Ein Pilotprojekt ermöglicht es Ihnen und einigen Early Adoptern, sich vor der Planung und dem möglichen Rollout mit Teams und dessen Funktionen vertraut zu machen. Weitere Informationen zum Starten Ihres Pilotprojekts finden Sie unter [Erste Schritte mit Microsoft Teams](get-started-with-teams-quick-start.md).
@@ -39,7 +39,7 @@ Springen Sie zu dem Abschnitt, der Sie interessiert:
 - [Workloads](#workloads)
   - [Chat, Teams und Kanäle](#chat-teams-and-channels)
   - [Besprechungen und Konferenzen](#meetings-and-conferencing)
-  - [Business Voice](#business-voice)
+  - [Teams Telefon mit Anrufplan](#teams-phone-with-calling-plan)
 - [Bereitstellen von Clients](#deploy-clients)
 - [Schulung](#training)
 
@@ -78,15 +78,11 @@ Besprechungen sind in Teams standardmäßig aktiviert, Sie können jedoch die Be
 - [Schnellstart für Administratoren – Besprechungen und Liveereignisse in Microsoft Teams](quick-start-meetings-live-events.md)
 - [Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen](audio-conferencing-smb.md)
 
-### <a name="business-voice"></a>Business Voice
+### <a name="teams-phone-with-calling-plan"></a>Teams Telefon mit Anrufplan
 
-[Microsoft 365 Business Voice](business-voice/whats-business-voice.md) ist eine großartige Lösung für Unternehmen mit weniger als 300 Benutzern, die ihnen alle Funktionen einer Office-Telefonanlage bietet. Business Voice umfasst Voicemail, Anrufer-ID, Menüs für das Telefonsystem, gebührenfreie Nummern und mehr, ohne eine komplexe und kostenaufwendige lokale Telefonanlage verwalten zu müssen.
+Microsoft 365 Teams Telefon mit Anrufplan ist eine hervorragende Lösung für Unternehmen mit weniger als 300 Benutzern, die Ihnen alle Funktionen eines Bürotelefonsystems bietet. Teams Telefon umfasst Voicemail, Anrufer-ID, Menüs für das Telefonsystem, gebührenfreie Nummern und mehr, ohne eine komplexe und kostenaufwendige lokale Telefonanlage verwalten zu müssen.
 
-Business Voice basiert auf Microsoft 365 Phone System und vereinfacht das Hinzufügen von VoIP zu Ihrer Organisation durch die Bündelung von Telefonsystemfunktionen und -add-Ons sowie durch einen einfach zu bedienenden Assistenten, der Ihnen beim Einrichten Ihrer Telefonanlage hilft. Wenn Sich Ihre Organisation in einem [Land oder einer Region befindet, das/die Business Voice](business-voice/country-region-availability.md)unterstützt, können Sie Ihre Telefonnummern zu Microsoft 365 übertragen und uns die Verwaltung Ihres Telefonsystems für Sie gestatten.
-
-Mit Microsoft 365 als Telefonanlage können Sie jedes Gerät in ein Smartphone verwandeln, indem Sie den Teams-Client darauf installieren. Wenn Sie aber lieber über ein herkömmliches Tischtelefon oder Konferenztelefon verfügen möchten, stehen viele für Teams zertifizierte Geräte zur Auswahl. In beiden Richtungen werden Anrufe immer an ihren eigenen Ort weiter geroutet, und Anrufe, die Sie tätigen, verfügen stets über Ihre Telefonnummer im Büro.
-
-Wenn Sie An der Nutzung von Business Voice interessiert sind, lesen Sie [Was muss ich kaufen, um Microsoft 365 Business Voice verwenden zu können?](business-voice/what-to-buy.md).
+Weitere Informationen zu Teams Telefon mit Anrufplan für kleine und mittelständische Unternehmen finden Sie unter [Teams Telefon-Leitfaden für kleine und mittelständische Unternehmen](/microsoftteams/business-voice/whats-business-voice).
 
 ## <a name="deploy-clients"></a>Bereitstellen von Clients
 
