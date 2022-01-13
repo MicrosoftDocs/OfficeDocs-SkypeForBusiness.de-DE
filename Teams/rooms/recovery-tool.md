@@ -13,12 +13,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: In diesem Artikel wird beschrieben, wie Sie das Wiederherstellungstool für Microsoft Teams-Räume verwenden, mit dem Sie ein veraltetes System in einen unterstützten Zustand bringen.
-ms.openlocfilehash: 8b5f61ef3ebfc1ef08a1db6667159ff97c2cdd78
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 6f78f78ab17620a3466da713d813f8320b163a84
+ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58597579"
+ms.lasthandoff: 01/13/2022
+ms.locfileid: "62015065"
 ---
 # <a name="use-the-microsoft-teams-rooms-recovery-tool"></a>Verwenden Sie das Wiederherstellungstools für Microsoft Teams Rooms
 
@@ -26,15 +26,15 @@ In diesem Artikel wird beschrieben, wie Sie das Wiederherstellungstool für Micr
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Laden Sie das neueste [Microsoft Teams-Räume-Installationspaket herunter,](https://go.microsoft.com/fwlink/?linkid=851168) und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf den das Gerät Microsoft Teams-Räume kann.
+Laden Sie das neueste [Microsoft Teams-Räume herunter,](https://go.microsoft.com/fwlink/?linkid=851168) und extrahieren Sie es auf einen USB-Speicherstick oder eine Netzwerkfreigabe, auf den Microsoft Teams-Räume.
 
 > [!NOTE]
-> Das Extrahieren der Dateien aus der MSI kann auf viele verschiedene Mittel durchgeführt werden. Jeder Mechanismus, mit dem alle Dateien extrahiert und die Verzeichnisstruktur erhalten wird, ist akzeptabel. So können Sie beispielsweise den Befehl verwenden, der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket darstellt, und der den vollständigen Pfad zu dem Ordner darstellt, in dem die Dateien extrahiert `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` werden `PathToTarget` sollen.
+> Das Extrahieren der Dateien aus der MSI kann auf viele verschiedene Mittel durchgeführt werden. Jeder Mechanismus, mit dem alle Dateien extrahiert und die Verzeichnisstruktur erhalten wird, ist akzeptabel. So können Sie beispielsweise den Befehl verwenden, der den vollständigen Pfad zum Microsoft Teams Room-Installationspaket darstellt, und der den vollständigen Pfad zu dem Ordner darstellt, in den die Dateien `msiexec /a PathToMsi /qb TARGETDIR=PathToTarget` `PathToMsi` extrahiert werden `PathToTarget` sollen.
 
 ## <a name="running-the-tool"></a>Ausführen des Tools
 
 1) Melden Sie sich bei dem Administratorkonto auf Ihrem Microsoft Teams-Räume an, und starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
-2) Vergewissern Sie sich Microsoft Teams-Räume ihrem Gerät, dass Sie auf den zugreifen können, der in den Dateien enthalten ist, die aus dem `RecoveryTool.ps1 file` Microsoft Teams-Räume-Installationspaket extrahiert wurden. Das Kit finden Sie auf der Netzwerkfreigabe oder auf dem USB-Laufwerk, das bei der Vorbereitung der Voraussetzungen verwendet wird.
+2) Vergewissern Sie sich Microsoft Teams-Räume Ihrem Gerät, dass Sie auf die Datei zugreifen können, die in den Dateien enthalten ist, die aus dem `RecoveryTool.ps1` Microsoft Teams-Räume-Installationspaket extrahiert wurden. Das Kit finden Sie auf der Netzwerkfreigabe oder auf dem USB-Laufwerk, das bei der Vorbereitung der Voraussetzungen verwendet wird.
 3) Führen Sie `powershell.exe -ExecutionPolicy Unrestricted -File "<path to RecoveryTool.ps1>"` aus.
 4) So führen Sie eine Factorywiederherstellung durch:
    1. Wenn Sie vom Skript dazu aufgefordert werden, wählen Sie Option 2: **Zurücksetzen aus.**
@@ -50,7 +50,7 @@ Laden Sie das neueste [Microsoft Teams-Räume-Installationspaket herunter,](http
 
 
 
-## <a name="see-also"></a>Siehe auch
+## <a name="see-also"></a>Mehr dazu
 
 [Microsoft Teams Rooms-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2)
 
