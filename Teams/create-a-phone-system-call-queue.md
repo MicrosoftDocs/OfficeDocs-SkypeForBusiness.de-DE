@@ -23,13 +23,13 @@ ms.custom:
 - ms.teamsadmincenter.callqueues.overview"
 - Phone System
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, das eine Begrüßungsnachricht, einen Warteschleifentext, die Anrufumleitung und weitere Funktionen enthält.
-ms.openlocfilehash: 40dd229a94a92dde70cf50c0a2a3018dab19a9a0
-ms.sourcegitcommit: 279ab5236431961c5181e2c01a69e5aa4290d381
+description: Hier erfahren Sie, wie Sie Anrufwarteschleifen für große Organisationen in Microsoft Teams einrichten, die eine Begrüßungsnachricht, Musik halten, Anrufumleitung und weitere Funktionen bieten.
+ms.openlocfilehash: ab5a99802ea9170ece7c1cd8d043b84c2cee452d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/18/2021
-ms.locfileid: "60462351"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039898"
 ---
 # <a name="create-a-call-queue"></a>Erstellen einer Anrufwarteschleife
 
@@ -48,7 +48,7 @@ Für Anrufwarteschleifen gibt es die folgenden Optionen:
 
 - Optionen für das Vorgehen bei überzähligen Anrufen und Erreichen des Zeitlimits.
 
-Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatische [](plan-auto-attendant-call-queue.md#getting-started) Telefonkonferenzen und Anrufwarteschleifen gelesen und die ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen. [](plan-auto-attendant-call-queue.md)
+Vergewissern Sie sich, dass Sie den Artikel Planen Teams automatischer Telefonkonferenzen und Anrufwarteschleifen gelesen und die Ersten Schritte befolgt haben, bevor Sie die In diesem Artikel erläuterten Schritte ausführen. [](plan-auto-attendant-call-queue.md) [](plan-auto-attendant-call-queue.md#getting-started)
 
 ## <a name="video-demonstration"></a>Videodemo
 
@@ -68,7 +68,7 @@ Geben Sie einen Namen für die Anrufwarteschleife ein.
 
 Klicken Sie auf **Konten hinzufügen**, suchen Sie nach dem Ressourcenkonto, das Sie für diese Anrufwarteschleife verwenden möchten, klicken Sie auf **Hinzufügen** und dann nochmals auf **Hinzufügen**. (Agents sehen den Namen des Ressourcenkontos, wenn sie einen eingehenden Anruf erhalten.)
 
-Weitere [Informationen finden Teams unter Verwalten von Ressourcenkonten.](manage-resource-accounts.md)
+Weitere [Informationen finden Teams Verwalten von Ressourcenkonten.](manage-resource-accounts.md)
 
 ### <a name="assign-calling-id"></a>Zuweisen einer Anruf-ID
 
@@ -79,6 +79,14 @@ Wenn Sie einen Teams-Kanal für Ihre Anrufer-Agents verwenden möchten, können 
 Klicken **Sie auf** Hinzufügen , suchen Sie nach den Ressourcenkonten, die Agents für Aufruf-ID-Zwecke bei ausgehenden Anrufen erlauben möchten, klicken Sie auf Hinzufügen , und klicken Sie dann auf **Hinzufügen**. 
 
 Wenn Sie keinen Teams-Kanal verwenden, um die Agent-Mitgliedschaft zu steuern, sollten Sie die Anrufer-ID für Mitglieder der Anrufwarteschleife direkt auf die Servicenummer der Anrufwarteschleife oder die entsprechende automatische Telefon attendant festlegen. Weitere Informationen finden Sie unter [Verwalten von Anrufer-ID-Richtlinien in Microsoft Teams](caller-id-policies.md).
+
+> [!NOTE]
+> Das ressourcenkonto, das zum Aufrufen von ID-Zwecken verwendet wird, muss eine Microsoft 365 Telefonsystem Virtual User-Lizenz und eine der folgenden zugewiesen sein:
+>
+> - Eine Anrufplanlizenz und eine zugewiesene Telefonnummer
+> - Einem Netzbetreiber Verbinden Zugewiesene Telefonnummer
+> - Eine Online-Voiceroutingrichtlinie (bei Verwendung von Direct Routing ist die Zuweisung von Telefonnummern optional)
+
 
 ## <a name="language"></a>Sprache
 
@@ -95,7 +103,7 @@ Legen Sie fest, ob eine Begrüßung abgespielt werden soll, wenn Anrufer in der 
 In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiedergegeben. Für die in Microsoft Teams-Anrufwarteschleifen wiedergegebene Standardmusik muss Ihre Organisation keine Lizenzgebühren zahlen. Wenn Sie möchten, dass eine bestimmte Audiodatei wiedergegeben wird, klicken Sie auf **Audiodatei wiedergeben**, und laden Sie eine MP3-, WAV- oder WMA-Datei hoch.
 
 > [!NOTE]
-> Sie sind für das unabhängige Löschen und Sichern aller erforderlichen Rechte und Berechtigungen für die Nutzung von Musik- oder Audiodateien mit Ihrem Microsoft Teams-Dienst verantwortlich, die geistiges Eigentum und andere Rechte an Musik, Soundeffekten, Audio, Marken, Namen und anderen Inhalten in der Audiodatei aller relevanten Rechteinhaber umfassen können, zu denen auch Interpreten gehören können.  Und: Personen, Interpreten, Künstler, Autoren, Musikherausgeber, Musikherausgeber, Vereine, Gilden, Rechteverwaltungsorganisationen und alle anderen Parteien, die die Urheberrechte an der Musik, Soundeffekte, Audio und andere rechte an geistigem Eigentum besitzen, kontrollieren oder lizenzieren.
+> Sie sind für das unabhängige Löschen und Sichern aller erforderlichen Rechte und Berechtigungen für die Nutzung von Musik oder Audiodateien mit Ihrem Microsoft Teams-Dienst verantwortlich, die geistiges Eigentum und andere Rechte an Musik, Soundeffekten, Audio, Marken, Namen und anderen Inhalten in der Audiodatei aller relevanten Rechteinhaber umfassen können, u. a. Interpreten, Nehmer,  Interpreten, Künstler, Kompositionen, Autoren, Musikherausgeber, Vereine, Gilden, Rechteinhaber, kollektive Managementorganisationen und alle anderen Parteien, die die Urheberrechte an musik, Soundeffekten, Audio und anderen geistigen Eigentumsrechten besitzen, kontrollieren oder lizenzieren.
 
 ## <a name="call-agents"></a>Telefonberater
 
@@ -105,9 +113,9 @@ In Microsoft Teams wird für Anrufer in der Warteschleife Standardmusik wiederge
 
 ##### <a name="teams-channel"></a>Teams Kanal
 
-Sie können bis zu 200 Agents über einen Teams hinzufügen. Beachten Sie, dass Sie Mitglied des Teams oder der Ersteller oder ein Besitzer des Kanals sein müssen, um der Warteschlange einen Kanal hinzufügen zu können.
+Sie können über einen Kanal bis zu 200 Agents Teams hinzufügen. Beachten Sie, dass Sie Mitglied des Teams oder der Ersteller oder ein Besitzer des Kanals sein müssen, um der Warteschlange einen Kanal hinzufügen zu können.
 
-Wenn Sie zum Verwalten der Warteschlange einen [Teams verwenden](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf **Kanal hinzufügen.** Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten (nur Standardkanäle werden unterstützt), und klicken Sie auf **Übernehmen**. 
+Wenn Sie zum Verwalten der Warteschlange einen [Teams verwenden](https://support.microsoft.com/office/9f07dabe-91c6-4a9b-a545-8ffdddd2504e)möchten, wählen Sie die Option **Team auswählen** aus, und klicken Sie auf **Kanal hinzufügen**. Suchen Sie nach dem Team, das Sie verwenden möchten, wählen Sie es aus, und klicken Sie auf **Hinzufügen**. Wählen Sie den Kanal aus, den Sie verwenden möchten (nur Standardkanäle werden unterstützt), und klicken Sie auf **Übernehmen**. 
 
 Die folgenden Clients werden unterstützt, wenn Sie einen Teams für Anrufwarteschleifen verwenden: 
 
@@ -161,7 +169,7 @@ Die **Routingmethode** bestimmt die Reihenfolge, in der Anrufe aus der Warteschl
 > Die **Einstellung Routingmethode auf** Round **oder** Longest **idle** ist die empfohlene Einstellung.
 
 > [!NOTE]
-> Wenn [die Complianceaufzeichnung](teams-recording-policy.md) auf den Agents aktiviert ist, wird die Kombination **aus** Konferenzmodus und **Attendant-Routing** nicht unterstützt. Wenn Sie den Konferenzmodus **verwenden müssen,** wählen Sie **als Routingmethode** Serial Routing , **Round round round oder** Longest **idle** **aus.** Wenn Sie **Attendant-Routing** verwenden müssen, legen Sie **Konferenzmodus auf** **Aus .**
+> Wenn [die Complianceaufzeichnung](teams-recording-policy.md) auf den Agents  aktiviert ist, wird die Kombination aus Konferenzmodus und **Attendant-Routing** nicht unterstützt. Wenn Sie den Konferenzmodus **verwenden müssen,** wählen Sie **als Routingmethode** Serial Routing , **Round round round oder** Longest **idle** **aus.** Wenn Sie **Attendant-Routing** verwenden müssen, legen Sie **Konferenzmodus auf** Aus **.**
 > 
 > Bei Verwendung des **Längsten** Leerlaufs kann es zeiten sein, dass ein Agent kurz nach dem Nicht verfügbar werden einen Anruf aus der Warteschlange erhält oder wenn es eine kurze Verzögerung beim Empfang eines Anrufs aus der Warteschlange gibt, nachdem er verfügbar wurde.
 
@@ -236,7 +244,7 @@ Die folgenden Clients werden für Telefonberater in einer Anrufwarteschleife unt
   - Microsoft Teams Android-App
 
     > [!NOTE]
-    > Anrufwarteschleifen, denen eine direkte Routingnummer zugewiesen ist, unterstützen keine Skype for Business-Clients, Lync-Clients oder Skype for Business-IP-Telefone als Telefonberater. Der Teams-Client wird nur mit dem [Koexistenzmodus Teams unterstützt.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
+    > Anrufwarteschleifen, denen eine direkte Routingnummer zugewiesen ist, unterstützen keine Skype for Business-Clients, Lync-Clients oder Skype for Business-IP-Telefone als Telefonberater. Der Teams-Client wird nur mit dem Koexistenzmodus [Teams unterstützt.](/microsoftteams/setting-your-coexistence-and-upgrade-settings)
 
 ## <a name="call-queue-cmdlets"></a>Cmdlets für Anrufwarteschleifen
 
@@ -254,7 +262,7 @@ Sie können auch Windows PowerShell verwenden, um Anrufwarteschleifen zu erstell
 
 Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool überprüfen, ob eine Anrufwarteschleife Anrufe empfangen kann:
 
-1. Wählen **Sie unten Tests** ausführen aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
+1. Wählen Sie unten **Tests ausführen** aus, um das Diagnosetool im Microsoft 365 Admin füllen. 
 
    > [!div class="nextstepaction"]
    > [Ausführen von Tests: Teams Anrufwarteschleife](https://aka.ms/TeamsCallQueueDiag)
@@ -265,7 +273,7 @@ Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool übe
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Dies ist das, was Sie mit ihren Microsoft Teams Telefon](here-s-what-you-get-with-phone-system.md)
+[Dies ist das, was Sie mit ihrer Microsoft Teams Telefon](here-s-what-you-get-with-phone-system.md)
 
 [Servicetelefonnummern erhalten](getting-service-phone-numbers.md)
 

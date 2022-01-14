@@ -1571,6 +1571,10 @@ items:
             href: devices-for-education.md
       - name: Teams für Mitarbeiter mit direktem Kundenkontakt
         items:
+          - name: Erste Schritte mit Teams für Mitarbeiter in Service und Produktion
+            href: flw-landing-page.md
+          - name: Lizenzierungsoptionen für Mitarbeiter in Service und Produktion
+            href: flw-licensing-options.md
           - name: Schnellstarthandbuch für Mitarbeiter in Service und Produktion
             href: flw-quickstart.yml
           - name: Onboarding-Assistent für Mitarbeiter in Service und Produktion

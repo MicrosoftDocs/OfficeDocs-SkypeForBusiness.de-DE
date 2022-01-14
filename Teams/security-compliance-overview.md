@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 61a6cba9ff05e6ee088c96231e8eb947e5d56fed
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: e653e10dbaa0d8211fd10ca6b0f4b8507e748f7d
+ms.sourcegitcommit: c7904086e6956ad8d0e5544530bcc90d608b6e6a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58733164"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "62039918"
 ---
 # <a name="security-and-compliance-in-microsoft-teams"></a>Sicherheit und Compliance in Microsoft Teams
 
@@ -37,10 +37,10 @@ ms.locfileid: "58733164"
 >  - Aktualisiert am 2. April 2020: [Teams Sicherheitshandbuch](teams-security-guide.md)
 
 
-Microsoft Teams ist auf der Microsoft 365 und Office 365 Hyper-Scale-Cloud auf Unternehmensklasse aufgebaut und bietet so die erweiterten Sicherheits- und Compliancefunktionen, die unsere Kunden erwarten. Wenn Sie weitere Informationen zur Planung der Sicherheit in Microsoft 365 oder Office 365, ist die [Sicherheits-Roadmap](/microsoft-365/security/office-365-security/security-roadmap) ein guter Einstiegsort. Weitere Informationen zur Planung der Compliance in Microsoft 365 oder Office 365 finden Sie unter Planen von & [Compliance.](/microsoft-365/compliance/plan-for-security-and-compliance)
+Microsoft Teams-Cloud Microsoft 365 und Office 365 Hyper-Scale-Cloud auf Unternehmensklasse aufgebaut, die die erweiterten Sicherheits- und Compliancefunktionen bietet, die unsere Kunden erwarten. Wenn Sie weitere Informationen zur Planung der Sicherheit in Microsoft 365 oder Office 365, ist die [Sicherheits-Roadmap](/microsoft-365/security/office-365-security/security-roadmap) ein guter Einstiegsort. Weitere Informationen zur Planung der Compliance in Microsoft 365 oder Office 365 finden Sie unter Planen von & [Compliance.](/microsoft-365/compliance/plan-for-security-and-compliance)
 
 
-Dieser Artikel enthält weitere Informationen Teams spezifische Sicherheit und Compliance. Verpassen Sie nicht diese Microsoft Mechanics-Videos zu Sicherheit und Compliance:
+Dieser Artikel enthält weitere Informationen zu Teams Sicherheits- und Compliance-spezifisch sind. Verpassen Sie nicht diese Microsoft Mechanics-Videos zu Sicherheit und Compliance:
 
 - [Microsoft Teams Essentials für IT: Sicherheit und Compliance](https://youtu.be/91lHNKVVvQ4) (12:42 Min.)
 - [Microsoft Teams steuerelemente für Sicherheit und Compliance](https://www.youtube.com/watch?v=Km4T4hMM__k) (10:54 Min.)
@@ -50,11 +50,11 @@ Dieser Artikel enthält weitere Informationen Teams spezifische Sicherheit und C
 
 ## <a name="security"></a>Sicherheit
 
-Teams erzwingt teamweite und organisationsweite zweistufige Authentifizierung, einmaliges Anmelden über Active Directory und Verschlüsselung der übertragenen Daten und der ruhenden Daten. Dateien werden in SharePoint gespeichert und mit dem entsprechenden SharePoint-Mechanismus verschlüsselt. Notizen werden in OneNote gespeichert und mit dem entsprechenden OneNote-Mechanismus verschlüsselt. Die OneNote-Daten werden auf der SharePoint-Website des Teams gespeichert. Die Registerkarte Wiki kann auch zum Erstellen von Notizen verwendet werden, und ihr Inhalt wird auch auf der Teamwebsite SharePoint gespeichert.
+Teams erzwingt teamweite und organisationsweite zweistufige Authentifizierung, einmaliges Anmelden über Active Directory sowie Verschlüsselung der übertragenen Daten und der ruhenden Daten. Dateien werden in SharePoint gespeichert und mit dem entsprechenden SharePoint-Mechanismus verschlüsselt. Notizen werden in OneNote gespeichert und mit dem entsprechenden OneNote-Mechanismus verschlüsselt. Die OneNote-Daten werden auf der SharePoint-Website des Teams gespeichert. Die Registerkarte Wiki kann auch zum Erstellen von Notizen verwendet werden, und ihr Inhalt wird auch auf der Teamwebsite SharePoint gespeichert.
 
-Lesen [Sie Identitätsmodelle und Authentifizierung,](identify-models-authentication.md) um mehr [](sign-in-teams.md) Einblicke in die Authentifizierung und Teams und die Funktionsweise der modernen Authentifizierung insbesondere bei der modernen Authentifizierung zu erhalten.
+Lesen [Sie Identitätsmodelle und Authentifizierung,](identify-models-authentication.md) um weitere [](sign-in-teams.md) Einblicke in die Authentifizierung und Teams und die Funktionsweise der modernen Authentifizierung insbesondere bei der modernen Authentifizierung zu erhalten.
 
-Da Teams zusammenarbeiten mit SharePoint, OneNote, Exchange und mehr, sollten Sie sich mit der Verwaltung der Sicherheit in Microsoft 365 oder Office 365 all-up-Sicherheit aus Office 365 machen. Weitere Informationen finden Sie unter Konfigurieren Ihrer Organisation Microsoft 365 oder Office 365 [für erhöhte Sicherheit.](/office365/securitycompliance/tenant-wide-setup-for-increased-security)
+Da Teams in Partnerschaft mit SharePoint, OneNote, Exchange und mehr arbeiten, sollten Sie mit der Verwaltung der Sicherheit in Microsoft 365 oder Office 365-up arbeiten. Weitere Informationen finden Sie unter Konfigurieren Ihrer Organisation [Microsoft 365 oder Office 365 für erhöhte Sicherheit.](/office365/securitycompliance/tenant-wide-setup-for-increased-security)
 
 > [!NOTE]
 > Derzeit unterstützen [private Kanäle](private-channels.md) eingeschränkte Sicherheits- und Compliancefeatures. Unterstützung für den vollständigen Satz von Sicherheits- und Compliancefeatures in privaten Kanälen wird in Kürze folgen.
@@ -63,13 +63,13 @@ Da Teams zusammenarbeiten mit SharePoint, OneNote, Exchange und mehr, sollten Si
 
 ATP (Advanced Threat Protection) ist für Microsoft Teams sowie für SharePoint- und OneDrive-Anwendungen verfügbar, die in Teams für Inhaltsverwaltung integriert sind. MIT ATP können Sie feststellen, ob Inhalte in diesen Anwendungen schädlich sind, und den Benutzerzugriff blockieren.
 
-Wie der betroffene Inhalt nach Der Erkennung verwaltet wird, ist bis zu den Einstellungen, die Sie in Microsoft 365 oder Office 365. Es wird dringend empfohlen, alle Anwendungen in Erwägung zu ziehen, wenn es um die Konfiguration von ATP geht. Zur weiteren Lektüre verfügen ATP für [SharePoint, OneDrive](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) und Microsoft Teams über detaillierte Informationen zu den ersten Schritte.
+Wie der betroffene Inhalt nach Erkennung verwaltet wird, ist bis zu den Einstellungen, die Sie in Microsoft 365 oder Office 365. Es wird dringend empfohlen, alle Anwendungen in Erwägung zu ziehen, wenn es um die Konfiguration von ATP geht. Zur weiteren Lektüre erhalten ATP für [SharePoint, OneDrive](/microsoft-365/security/office-365-security/atp-for-spo-odb-and-teams) und Microsoft Teams detaillierte Informationen zu den ersten Schritte.
 
 ### <a name="safe-links"></a>Tresor Links
 
-Derzeit stehen sichere ATP-Links (Advanced Threat Protection) in Microsoft Teams zwar nicht zur [](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) Verfügung, sie sind jetzt über unser Technology Adoption Program (TAP) in der öffentlichen Vorschau verfügbar, und während kein Veröffentlichungsdatum für die allgemeine Verfügbarkeit festgelegt ist, wird dieser Artikel zu diesem Zeitpunkt aktualisiert. Informationen zu den Links Microsoft 365 oder Office 365 Tresor finden Sie in der Zwischenzeit unter [ATP- Tresor Links.](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP Tresor-Links sind sowohl in ATP Plan 1 als auch [in ATP Plan 2 verfügbar.](/microsoft-365/security/office-365-security/office-365-atp)
+Derzeit stehen sichere ATP-Links (Advanced Threat Protection) in Microsoft Teams zwar nicht zur Verfügung, sie werden aber jetzt [über](/microsoft-365/security/office-365-security/atp-safe-links-for-teams) unser Programm zur Einführung von Technologie (Technology Adoption Program, TAP) in der öffentlichen Vorschau angezeigt, und während ein Veröffentlichungsdatum für die allgemeine Verfügbarkeit nicht festgelegt ist, wird dieser Artikel zu diesem Zeitpunkt aktualisiert. Informationen zu den Links Microsoft 365 oder Office 365 Tresor finden Sie in der Zwischenzeit unter [ATP- Tresor Links.](/office365/securitycompliance/atp-safe-links#how-to-get-atp-safe-links-protection) ATP Tresor-Links sind sowohl in ATP Plan 1 als auch [in ATP Plan 2 verfügbar.](/microsoft-365/security/office-365-security/office-365-atp)
 
-### <a name="safe-attachments"></a>Tresor Anlagen
+### <a name="safe-attachments"></a>Tresor Von Anlagen
 
 Tresor von Anlagen ist ein Feature, mit dem die Sicherheit von Benutzern erhöht werden soll, indem auf schädliche Anlagen überprüft und diese erkannt werden. Globale oder Sicherheitsadministratoren erstellen Richtlinien für die Behandlung dieser verdächtigen bösartigen Anlagen, um zu verhindern, dass sie an Benutzer gesendet, darauf geklickt und auf sie reagiert werden. [](/microsoft-365/security/office-365-security/set-up-atp-safe-attachments-policies) Tresor ist für SharePoint, OneDrive und Microsoft Teams verfügbar, und Microsoft 365 oder Office 365 Advanced Threat Protection Plan [1](/microsoft-365/security/office-365-security/office-365-atp) und 2 verfügen über diese Funktion. Weitere Informationen zum Tresor von Anlagen und dazu, wie diese zum Schutz Ihrer Organisation beitragen können, finden Sie Tresor [Anlagen in Microsoft Defender für Office 365.](/microsoft-365/security/office-365-security/atp-safe-attachments)
 
@@ -82,12 +82,11 @@ Secure Score hilft Organisationen bei:
 - Verbessern Sie ihre Sicherheitshaltung, indem Sie Aufblick, Sichtbarkeit, Anleitungen und Kontrolle bereitstellen.
 - Vergleichen Sie sich mit Benchmarks, und richten Sie Key Performance Indicators (KPIs) ein.
 
-
 ### <a name="how-conditional-access-policies-work-for-teams"></a>Funktionsweise von Richtlinien für den bedingten Teams
 
 Microsoft Teams basiert in den wichtigsten Produktivitätsszenarien wie Besprechungen, Kalendern, Inop-Chats und Dateifreigaben in hohem Maße auf Exchange Online, SharePoint und Skype for Business Online. Richtlinien für bedingten Zugriff, die für diese Cloud-Apps festgelegt wurden, gelten auch für Microsoft Teams, wenn sich Benutzer direkt bei Microsoft Teams anmelden – unabhängig vom Client.
 
-Microsoft Teams wird separat als Cloud-App in Azure Active Directory-Richtlinien für bedingten Zugriff unterstützt. Richtlinien für bedingten Zugriff, die für die Microsoft Teams-Cloud-App festgelegt wurden, gelten auch für Microsoft Teams, wenn sich Benutzer anmelden. Ohne die richtigen Richtlinien für andere Apps wie Exchange Online und SharePoint können Benutzer jedoch möglicherweise direkt auf diese Ressourcen zugreifen. Weitere Informationen zum Einrichten einer Richtlinie für bedingten Zugriff im Azure-Portal finden Sie unter [Azure Active Directory Schnellstart.](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
+Microsoft Teams wird separat als Cloud-App in Azure Active Directory-Richtlinien für bedingten Zugriff unterstützt. Richtlinien für bedingten Zugriff, die für die Microsoft Teams-Cloud-App festgelegt wurden, gelten auch für Microsoft Teams, wenn sich Benutzer anmelden. Ohne die richtigen Richtlinien für andere Apps wie Exchange Online und SharePoint können Benutzer jedoch möglicherweise direkt auf diese Ressourcen zugreifen. Weitere Informationen zum Einrichten einer Richtlinie für bedingten Zugriff im Azure-Portal finden Sie unter [Azure Active Directory.](/azure/active-directory/active-directory-conditional-access-azure-portal-get-started)
 
 Microsoft Teams-Desktopclients für Windows und Mac unterstützen moderne Authentifizierung. Moderne Authentifizierung ermöglicht plattformübergreifend die Anmeldung auf der Grundlage von ADAL (Azure Active Directory Authentication Library, Active Directory-Authentifizierungsbibliothek) in Microsoft Office-Clientanwendungen.
 
@@ -95,23 +94,19 @@ Die Microsoft Teams-Desktopanwendung unterstützt AppLocker.  Weitere Informatio
 
 ## <a name="compliance"></a>Compliance
 
-Teams bietet eine breite Palette von Informationen, die Ihnen bei Compliancebereichen helfen, einschließlich Kommunikationskonformität für Kanäle, Chats und Anlagen, Aufbewahrungsrichtlinien, Schutz vor Datenverlust (Data Loss Protection, DLP), eDiscovery und gesetzliche Aufbewahrung für Kanäle, Chats und Dateien, Überwachungsprotokollsuche und Verwaltung mobiler Anwendungen mit Microsoft Intune. Wir haben einige Informationen zu allen diesen Themen weiter unten bereitgestellt, und Sie können zu der Liste wechseln, Microsoft 365 Compliance Center [Einstellungen](https://compliance.microsoft.com) verwalten können.
+Teams bietet eine breite Palette von Informationen, die Ihnen bei Compliancebereichen helfen, einschließlich Kommunikationskonformität für Kanäle, Chats und Anlagen, Aufbewahrungsrichtlinien, Schutz vor Datenverlust (Data Loss Protection, DLP), eDiscovery und gesetzliche Aufbewahrung für Kanäle, Chats und Dateien, Überwachungsprotokollsuche und Verwaltung mobiler Anwendungen mit Microsoft Intune. Wir haben einige Informationen zu allen diesen Themen weiter unten bereitgestellt, und Sie können zu der Liste [Microsoft 365 Compliance Center,](https://compliance.microsoft.com) um diese Einstellungen zu verwalten.
 
 ### <a name="information-barriers"></a>Informationsbarrieren
 
-Informationsbarrieren sind Richtlinien, die von Teams-Administratoren eingerichtet werden, um beispielsweise dafür zu sorgt, dass Personen oder Gruppen nicht miteinander kommunizieren können (wenn dies nicht vom Unternehmen benötigt wird, oder wenn dies aus gesetzlichen Gründen nicht möglich ist), und ermöglicht ihnen außerdem das Festlegen von Richtlinien für Dinge wie Nachschlage- und eDiscovery (siehe unten). Diese Richtlinien können sich auf Benutzer in 1:1-Chats, Gruppenchats oder auf Teamebene auswirken. Das Feature Informationsbarriere ist in der öffentlichen Cloud verfügbar und ab Januar 2021 in der Cloud GCC verfügbar.
+Informationsbarrieren sind Richtlinien, die von Teams-Administratoren eingerichtet werden, um beispielsweise dafür zu sorgt, dass Personen oder Gruppen nicht miteinander kommunizieren können (wenn dies nicht vom Unternehmen benötigt wird oder wenn dies aus gesetzlichen Gründen nicht möglich ist), und ermöglicht Ihnen außerdem das Festlegen von Richtlinien für Dinge wie Nachschlage- und eDiscovery (siehe unten). Diese Richtlinien können sich auf Benutzer in 1:1-Chats, Gruppenchats oder auf Teamebene auswirken. Das Feature Informationsbarriere ist in der öffentlichen Cloud verfügbar und ab Januar 2021 in der Cloud GCC verfügbar.
 
 Weitere Informationen zu diesem Thema finden Sie unter [Informationsbarrieren in Microsoft Teams.](information-barriers-in-teams.md)
 
 ### <a name="communication-compliance"></a>Kommunikationscompliance
 
-Kommunikationskonformität in Microsoft 365 ermöglicht Es Ihnen, Benutzer zu Richtlinien für den Bereich hinzuzufügen, die so konfiguriert werden können, dass Microsoft Teams-Kommunikation auf anstößige Sprache, vertrauliche Informationen und Informationen im Zusammenhang mit internen und behördlichen Standards untersucht wird. Chatkommunikationen und zugehörige Anlagen in öffentlichen und privaten Teams-Kanälen, einzelnen Chats und Anlagen können überprüft werden, um die Kommunikationsrisiken in Ihrer Organisation zu minimieren. Weitere Informationen dazu, wie Sie Richtlinien konfigurieren können, mit deren Hilfe Sie unangemessene Datenübertragungen erkennen, erfassen und Maßnahmen ergreifen können, Teams Sie unter Kommunikationskonformität [in Microsoft 365.](/microsoft-365/compliance/communication-compliance)
+Kommunikationskonformität in Microsoft 365 ermöglicht es Ihnen, Benutzer zu Richtlinien für den Bereich hinzuzufügen, die so konfiguriert werden können, dass Microsoft Teams-Kommunikation auf anstößige Sprache, vertrauliche Informationen und Informationen im Zusammenhang mit internen und behördlichen Standards untersucht wird. Chatkommunikationen und zugehörige Anlagen sowohl in öffentlichen als auch in privaten Teams-Kanälen, einzelnen Chats und Anlagen können überprüft werden, um Kommunikationsrisiken in Ihrer Organisation zu minimieren. Weitere Informationen dazu, wie Sie Richtlinien konfigurieren können, mit deren Hilfe Sie unangemessene Kommunikationen erkennen, erfassen Teams und Maßnahmen ergreifen können, finden Sie unter Kommunikationskonformität [in Microsoft 365.](/microsoft-365/compliance/communication-compliance)
 
-### <a name="retention-policies"></a>Aufbewahrungsrichtlinien
-
-Aufbewahrungsrichtlinien in Microsoft Teams ermöglichen ihnen sowohl die Aufbewahrung von Daten, die für Ihre Organisation wichtig sind, aus gesetzlichen, rechtlichen, geschäftlichen oder anderen Gründen als auch das Entfernen von Inhalten und Kommunikationen, die für die Beibehaltung nicht relevant sind. Mithilfe von Aufbewahrungsrichtlinien können Sie Daten auch für einen bestimmten Zeitraum behalten und dann löschen. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien in Microsoft Teams.](retention-policies.md)
-
-## <a name="sensitivity-labels"></a>Vertraulichkeitsbezeichnungen
+### <a name="sensitivity-labels"></a>Vertraulichkeitsbezeichnungen
 
 Wenden Sie [Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/sensitivity-labels) an, um den Zugriff auf vertrauliche Organisationsinhalte zu schützen und zu regulieren, die während der Zusammenarbeit innerhalb von Teams erstellt wurden. So können Sie beispielsweise Bezeichnungen anwenden, die den Datenschutz (öffentlich oder privat) von Teams konfigurieren, den Gastzugriff und die externe Freigabe steuern sowie den Zugriff von nicht verwalteten Geräten verwalten. Weitere Informationen finden Sie unter [Vertraulichkeitsbeschriftungen in Microsoft Teams.](sensitivity-labels.md)
 
@@ -121,19 +116,35 @@ Die Verhinderung von Datenverlust (Data Loss Prevention, DLP) in Microsoft Teams
 
 Informationen zur Verhinderung von Datenverlust in Teams finden Sie unter [DLP für Microsoft Teams.](/microsoft-365/compliance/dlp-microsoft-teams) Ein guter Artikel für O365 DLP-Probleme ist [Die Übersicht über die Verhinderung von Datenverlust.](/microsoft-365/compliance/data-loss-prevention-policies)
 
+### <a name="customer-key"></a>Kundenschlüssel
+
+Microsoft 365 bietet zusätzlich zur Dienstverschlüsselung für Ihre Inhalte eine zusätzliche Verschlüsselungsebene. Mithilfe von Schlüsseln, die Sie bereitstellen, verschlüsselt der Kundenschlüssel verschiedene Arten von Daten in Microsoft Teams. Mit Kundenschlüssel auf Anwendungsebene verschlüsselt der Kundenschlüssel alle Teams, die in SharePoint Online gespeichert sind. Weitere Informationen finden Sie unter [Dienstverschlüsselung mit Dem Kundenschlüssel.](/microsoft-365/compliance/customer-key-overview) 
+
+Mit dem Kundenschlüssel auf Mandantenebene wird mit dem Kundenschlüssel verschlüsselt:
+- Teams (1:1-Chats, Gruppenchats, Besprechungschats und Kanalunterhaltungen)
+- Teams (Bilder, Codeausschnitte, Videos und Wiki-Bilder)
+- Teams von Anruf- und Besprechungsaufzeichnungen, die im Teams sind
+- Teams von Chatbenachrichtigungen
+- Teams Chatvorschläge nach Cortana
+- Teams-Statusmeldungen Weitere Informationen finden Sie unter Übersicht über den Kundenschlüssel für [Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level) auf Mandantenebene und den Microsoft Teams-Blog, der den Kundenschlüsselsupport für Microsoft Teams jetzt in Public [Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)behandelt. Informationen zur Version Microsoft Information Protection, in der Kundenschlüssel auf Mandantenebene enthalten waren, finden Sie unter Ankündigung neuer Microsoft Information Protection Funktionen zum Wissen und Schützen [Ihrer vertraulichen Daten.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
+
+### <a name="retention-policies"></a>Aufbewahrungsrichtlinien
+
+Aufbewahrungsrichtlinien in Microsoft Teams ermöglichen ihnen das Beibehalten von Daten, die für Ihre Organisation wichtig sind, und zwar sowohl aus gesetzlichen, rechtlichen, geschäftlichen oder anderen Gründen als auch zum Entfernen von Inhalten und Kommunikationen, die für die Beibehaltung nicht relevant sind. Mithilfe von Aufbewahrungsrichtlinien können Sie Daten auch für einen bestimmten Zeitraum behalten und dann löschen. Weitere Informationen finden Sie unter [Aufbewahrungsrichtlinien in Microsoft Teams.](retention-policies.md)
+
 ### <a name="ediscovery"></a>eDiscovery
 
 Electronic Discovery oder eDiscovery ist der elektronische Aspekt der Identifizierung, Erfassung und Erstellung elektronisch gespeicherter Informationen als Reaktion auf eine Produktionsanforderung in einer Rechtsklage oder -untersuchung. Zu den Funktionen gehören Fallmanagement, Erhaltung, Suche, Analyse und Export von Microsoft Teams-Daten. Dies schließt Zusammenfassungen für Chats, Nachrichten und Dateien sowie Besprechungen und Anrufe ein. Für Microsoft Teams-Besprechungen und -Anrufe wird eine Zusammenfassung der Ereignisse in Besprechungen und Anrufen erstellt und in der eDiscovery verfügbar gemacht.
 
-Weitere Details zur Ausführung von Microsoft 365- oder Office 365-eDiscovery im Security Center und Compliance Center und zum Ausführen von Complianceinhaltssuchen nach Teams-Inhalten finden Sie unter den folgenden Links:
+Weitere Details zur Verwendung der eDiscovery-Tools in Microsoft 365 Compliance Center zum Suchen nach Teams Inhalten finden Sie unter den folgenden Links:
 
- - [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
+- [eDiscovery](/microsoft-365/compliance/manage-legal-investigations)
 
- - [Inhaltssuche](/microsoft-365/compliance/search-for-content)
+- [Inhaltssuche](/microsoft-365/compliance/search-for-content)
 
-Wir haben einen Teams Artikel für weitere Informationen, [eDiscovery von Gast-zu-Gast-Chats.](eDiscovery-investigation.md)
+Wir haben einen Teams Artikel für weitere Informationen unter Durchführen einer [eDiscovery-Untersuchung von Inhalten in Microsoft Teams.](eDiscovery-investigation.md)
 
-Kunden können eDiscovery [oder](/microsoft-365/compliance/office-365-advanced-ediscovery) Advanced eDiscovery ihrer Anforderungen nutzen. In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
+Kunden können eDiscovery [oder](/microsoft-365/compliance/office-365-advanced-ediscovery) Advanced eDiscovery nach ihren Anforderungen nutzen. In der folgenden Tabelle sind die Unterschiede zwischen den beiden Funktionen aufgeführt:
 
 |&nbsp; |eDiscovery  |Advanced eDiscovery  |
 |---------|---------|---------|
@@ -148,39 +159,27 @@ Kunden können eDiscovery [oder](/microsoft-365/compliance/office-365-advanced-e
 
 ### <a name="legal-hold"></a>Gesetzliche Aufbewahrungspflicht
 
-Während eines Rechtsstreits müssen möglicherweise alle mit einem Benutzer (Bzw. Bzw. einem Team) verbundenen Daten als unveränderlich beibehalten werden, damit sie als Nachweise für den Fall verwendet werden können. Sie können dies tun, indem Sie entweder einen Benutzer (Benutzerpostfach) oder ein Team in einen gesetzlichen Halteraum setzen. Für einen gesetzlichen In-Halteraum für ein Team kann das Postfach des Teams in die folgenden Halteschleifen verschoben werden:
+Während eines Rechtsstreits müssen möglicherweise alle mit einem Benutzer (Bzw. einem Team) verbundenen Daten als unveränderlich aufbewahrt werden, damit sie als Nachweise für den Fall verwendet werden können. Sie können dies tun, indem Sie entweder einen Benutzer (Benutzerpostfach) oder ein Team in einen gesetzlichen Halteraum setzen. Für einen gesetzlichen In-Halteraum für ein Team kann das Postfach des Teams in die folgenden Halteschleifen verschoben werden:
 
-- In-Place (eine Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder gefilterte Inhalte wird im Haltebereich gespeichert) oder
+- In-Place (eine Teilmenge des Postfachs oder der Websitesammlung durch gezielte Abfragen oder gefilterte Inhalte wird im Haltebereich archiviert) oder
 - Halteverfahren für ein Rechtsstreitigkeiten (das gesamte Postfach oder die gesamte Websitesammlung wird in den Halteraum gesetzt).
 
 In beiden Fällen wird sichergestellt, dass nach dem Festlegen des Halteraums unveränderliche Kopien dieses Inhalts beibehalten und über die eDiscovery-Suche verfügbar werden, auch wenn Endbenutzer Kanalnachrichten im Gruppenpostfach löschen oder bearbeiten. Gesetzliche Halte gilt im Allgemeinen im Kontext eines eDiscovery-Falls.
 
 Unter Übersicht [über Aufbewahrungsrichtlinien finden](/microsoft-365/compliance/retention-policies) Sie weitere Informationen zur Erhaltung und Aufbewahrung in den Microsoft 365 Compliance Center. Für weitere Teams im gesetzlichen Halteraum steht [](legal-hold.md) Ihnen auch die gesetzliche In-Halte-Microsoft Teams für einen Benutzer oder ein Team zur Verfügung, um weitere Informationen zu erhalten.
 
-### <a name="compliance-content-search"></a>Compliancesuche in Inhalten
+### <a name="content-search"></a>Inhaltssuche
 
-Mit der Inhaltssuche können Sie mithilfe von Rich-Filterfunktionen nach Teams Daten suchen. Die resultierenden Daten können zur Unterstützung von Compliance- und Rechtsstreitigkeiten in einen bestimmten Container exportiert werden. Dies kann mit oder ohne eDiscovery-Fall geschehen. Auf diese Weise können Complianceadministratoren Microsoft Teams-Daten für alle Benutzer sammeln, überprüfen und zur weiteren Verarbeitung exportieren. Unter Inhaltssuche finden Sie weitere Informationen zum Durchführen einer Complianceinhaltssuche nach Microsoft Teams und anderen Microsoft 365 oder Office 365 Inhalten in der Microsoft 365 Compliance Center. [](/microsoft-365/compliance/content-search)
+Die Inhaltssuche kann verwendet werden, um mithilfe von rich Teams Filterfunktionen nach allen Daten zu suchen. Die resultierenden Daten können zur Unterstützung von Compliance- und Rechtsstreitigkeiten in einen bestimmten Container exportiert werden. Dies kann mit oder ohne eDiscovery-Fall geschehen. Auf diese Weise können Complianceadministratoren Microsoft Teams-Daten für alle Benutzer sammeln, überprüfen und zur weiteren Verarbeitung exportieren. Unter Inhaltssuche finden Sie weitere Informationen zum Durchführen einer Complianceinhaltssuche für Microsoft Teams und andere Microsoft 365 oder Office 365-Inhalte im Microsoft 365 Compliance Center. [](/microsoft-365/compliance/content-search)
 
 > [!TIP]
-> Mithilfe der Inhaltssuche können Sie bei Bedarf nach Microsoft Teams Inhalte filtern, z. B. Chats und Kanalnachrichten, Besprechungen und Anrufe.
+> Mithilfe der Inhaltssuche können Sie nach unten filtern, Microsoft Teams nur Inhalte wie Chats und Kanalnachrichten, Besprechungen und Anrufe zu finden, falls erforderlich.
 
-Wenn Sie weitere spezifische Informationen Teams zum Konfigurieren der Inhaltssuche erhalten möchten, überprüfen Sie die [Inhaltssuche in Microsoft Teams.](content-search.md)
+Wenn Sie weitere spezielle Teams zum Konfigurieren der Inhaltssuche erhalten möchten, überprüfen Sie die [Inhaltssuche in Microsoft Teams.](content-search.md)
 
-### <a name="auditing-and-reporting"></a>Überwachung und Berichterstellung
+### <a name="auditing"></a>Überwachung
 
-Die Überwachungsprotokollsuche ist direkt in die Microsoft 365 Compliance Center eingesteckt und bietet Ihnen die Möglichkeit, Benachrichtigungen zu setzen sowie Berichte zu Überwachungsereignissen zu erstellen, indem der Export von arbeitslastspezifischen oder generischen Ereignissätzen für Die Verwendung und Untersuchung durch Administratoren über eine unbegrenzte Überwachungszeitachse ermöglicht wird. Sie können Benachrichtigungen für alle Überwachungsprotokolldaten innerhalb des Microsoft 365 Compliance Center einrichten und diese Daten zur weiteren Analyse filtern und exportieren. Unter Durchsuchen [des Überwachungsprotokolls finden](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance) Sie weitere Informationen zum Durchführen einer Überwachungsprotokollsuche nach Microsoft 365 Überwachungsprotokollen Office 365. Weitere Informationen zum Suchen nach Microsoft Teams-Ereignissen in der Microsoft 365 Compliance Center finden Sie auch unter Aktivieren der Überwachung [in](audit-log-events.md) Teams, die Sie überprüfen können.
-
-## <a name="customer-key"></a>Kundenschlüssel
-
-Microsoft 365 bietet zusätzlich zur Dienstverschlüsselung für Ihre Inhalte eine zusätzliche Verschlüsselungsebene. Mithilfe von Schlüsseln, die Sie bereitstellen, verschlüsselt der Kundenschlüssel verschiedene Arten von Daten in Microsoft Teams. Mit Dem Kundenschlüssel auf Anwendungsebene verschlüsselt der Kundenschlüssel alle Teams, die in SharePoint Online gespeichert sind. Weitere Informationen finden Sie unter [Dienstverschlüsselung mit Dem Kundenschlüssel.](/microsoft-365/compliance/customer-key-overview) 
-
-Mit dem Kundenschlüssel auf Mandantenebene wird mit dem Kundenschlüssel verschlüsselt:
-- Teams (1:1-Chats, Gruppenchats, Besprechungschats und Kanalunterhaltungen)
-- Teams (Bilder, Codeausschnitte, Videos und Wiki-Bilder)
-- Teams von Anruf- und Besprechungsaufzeichnungen, die im Teams sind
-- Teams von Chatbenachrichtigungen
-- Teams Chatvorschläge durch Cortana
-- Teams-Statusmeldungen Weitere Informationen finden Sie unter Übersicht über den Kundenschlüssel für [Microsoft 365](/microsoft-365/compliance/customer-key-tenant-level) auf Mandantenebene und den Microsoft Teams-Blog, der den Kundenschlüsselsupport für Microsoft Teams jetzt in Public [Preview](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/customer-key-support-for-microsoft-teams-now-in-public-preview/ba-p/1999893)behandelt. Informationen zur Version Microsoft Information Protection, in der Kundenschlüssel auf Mandantenebene enthalten war, finden Sie unter Ankündigung neuer Microsoft Information Protection Funktionen zum Wissen und Schützen [Ihrer vertraulichen Daten.](https://techcommunity.microsoft.com/t5/microsoft-security-and/announcing-new-microsoft-information-protection-capabilities-to/ba-p/1999692)
+Die Überwachungsprotokollsuche ist direkt in die Microsoft 365 Compliance Center eingesteckt und bietet Ihnen die Möglichkeit, Benachrichtigungen zu setzen sowie Berichte zu Überwachungsereignissen zu erstellen, indem der Export von arbeitsspezifischen oder generischen Ereignissätzen für Die Verwendung und Untersuchung durch Administratoren über eine unbegrenzte Überwachungszeitachse ermöglicht wird. Sie können Benachrichtigungen für alle Überwachungsprotokolldaten innerhalb der Liste Microsoft 365 Compliance Center und diese Daten zur weiteren Analyse filtern und exportieren. Weitere Informationen zum Suchen nach Microsoft Teams Ereignissen in der Microsoft 365 Compliance Center finden Sie unter Durchsuchen des Überwachungsprotokolls nach Ereignissen [in Microsoft Teams.](audit-log-events.md)
 
 ## <a name="privacy"></a>Datenschutz
 
@@ -195,12 +194,12 @@ Bei Microsoft hat der Schutz Ihrer Daten oberste Priorität. Weitere Information
 Die folgende Abbildung zeigt den Ablauf der Erfassung von Microsoft Teams-Daten (Microsoft Teams-Dateien und -Nachrichten) in Exchange und SharePoint.
 
 > [!div class="mx-imgBorder"]
-> ![Diagramm des Workflows Teams zu Exchange und SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
+> ![Diagramm des Workflows der Teams daten, die Exchange und SharePoint.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1.png)
 
 Die folgende Abbildung zeigt den Ablauf der Erfassung von Daten aus Microsoft Teams-Besprechungen und -Anrufen in Exchange.
 
 > [!div class="mx-imgBorder"]
-> ![Diagramm des Workflows der Teams besprechungs- und anrufdaten für Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
+> ![Diagramm des Workflows der Teams Besprechungen und Anrufen von Daten Exchange.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image1a.png)
 
 > [!IMPORTANT]
 > Beim Ermitteln von Microsoft Teams-Inhalten ist eine Verzögerung von bis zu 24 Stunden möglich.
@@ -212,13 +211,13 @@ Wenn es um Funktionen zum Schutz von Informationen geht, bestimmen Microsoft 365
 Informationen zur Ermittlung der Lizenzierungsanforderungen für die Implementierung von Features für Sicherheit und Compliance finden Sie unter den [Lizenzierungsanforderungen](/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance) für Sicherheits- und Compliancefunktionen.
 
 > [!NOTE]
-> Inhaltssuche und eDiscovery müssen im Security & Compliance Center nicht aktiviert sein, damit sie funktionieren.
+> Inhaltssuche, Core eDiscovery und Advanced eDiscovery müssen in der Inhaltssuche nicht aktiviert Microsoft 365 Compliance Center funktionieren. Weitere Informationen finden Sie unter [Microsoft 365 eDiscovery-Lösungen.](/microsoft-365/compliance/ediscovery)
 
 ## <a name="location-of-data-in-teams"></a>Speicherort von Daten in Microsoft Teams
 
-Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365- oder Office 365-Organisation zugeordnet ist. Um zu sehen, welche Regionen derzeit unterstützt werden, lesen Sie Speicherort [der Daten in Microsoft Teams.](location-of-data-in-teams.md)
+Daten in Teams befinden sich in der geografischen Region, die Ihrer Microsoft 365- oder Office 365-Organisation zugeordnet ist. Um zu sehen, welche Regionen derzeit unterstützt werden, lesen Sie Speicherort [der Daten in Microsoft Teams](location-of-data-in-teams.md).
 
-Wenn Sie sehen möchten, welche Gebietshausdaten für Ihren Mandanten verwendet werden, wechseln Sie zum Profil [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)  >  **Einstellungen**  >  **Organisation.** Blättern Sie nach unten zu **Datenspeicherort**.
+Wenn Sie sehen möchten, in welcher Region Häuserdaten für Ihren Mandanten gespeichert werden sollen, wechseln Sie zum Profil [Microsoft 365 Admin Center](https://portal.office.com/adminportal/home)  >  **Einstellungen**  >  **Organisation.** Blättern Sie nach unten zu **Datenspeicherort**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot der Tabelle "Datenspeicherort" Teams im Admin Center.](media/Overview_of_security_and_compliance_in_Microsoft_Teams_image5.png)
