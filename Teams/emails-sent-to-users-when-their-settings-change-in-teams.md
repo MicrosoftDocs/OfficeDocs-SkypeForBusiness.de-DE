@@ -1,7 +1,7 @@
 ---
 title: E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen ändern
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -20,30 +20,30 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich deren Einwahlkonferenzeinstellungen in einer Microsoft Teams. '
-ms.openlocfilehash: ad61f7886d5a71fb8753b887ebfd6cd90f4f6a82
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: 'Erfahren Sie, welche Informationen automatisch per E-Mail an Benutzer gesendet werden, wenn sich ihre Einwahlkonferenzeinstellungen in einer Microsoft Teams. '
+ms.openlocfilehash: 81faefb3bfe2fd6c93584c5a9f48fd99a6040c99
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536476"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055475"
 ---
 # <a name="emails-sent-to-users-when-their-settings-change-in-microsoft-teams"></a>E-Mails, die an Benutzer gesendet werden, wenn sich ihre Einstellungen in Microsoft Teams ändern
 
 E-Mails werden automatisch an Benutzer gesendet, die für [Audiokonferenzen](set-up-audio-conferencing-in-teams.md) aktiviert sind und Microsoft als Audiokonferenzanbieter verwenden.
 
-Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet werden, die für Audiokonferenzen aktiviert sind. Wenn Sie die Anzahl von E-Mails, die an die Benutzer gesendet werden, einschränken möchten, können Sie diese Einstellung deaktivieren. Audiokonferenzen in Microsoft 365 oder Office 365 senden E-Mails an die E-Mail-Adresse Ihrer Benutzer, wenn:
+Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet werden, die für Audiokonferenzen aktiviert sind. Wenn Sie die Anzahl von E-Mails, die an die Benutzer gesendet werden, einschränken möchten, können Sie diese Einstellung deaktivieren. Audiokonferenzen in Microsoft 365 oder Office 365 E-Mails an die E-Mail-Adresse Ihrer Benutzer senden, wenn:
 
 - **Ihnen wird eine Lizenz für Audiokonferenzen zugewiesen, oder Sie ändern den Audiokonferenzanbieter zu Microsoft.**
 
-     Diese E-Mail enthält die Konferenz-ID, die Standardeinwahlnummer für Besprechungen, die PIN für Audiokonferenzen für den Benutzer sowie Anweisungen und den Link zur Verwendung des Skype for Business Online Meeting Update Tool, das zum Aktualisieren vorhandener Besprechungen für den Benutzer verwendet wird. Weitere Informationen finden Microsoft Teams Zuweisen [von Add-On-Lizenzen oder](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) Zuweisen von [Microsoft als Audiokonferenzanbieter.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
+     Diese E-Mail enthält die Konferenz-ID, die Standardeinwahlnummer für Besprechungen, die PIN für Audiokonferenzen für den Benutzer sowie Anweisungen und den Link zur Verwendung des Skype for Business Online Meeting Update Tool, das zum Aktualisieren vorhandener Besprechungen für den Benutzer verwendet wird. Weitere Informationen finden Microsoft Teams Zuweisen [von Add-On-Lizenzen](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md) oder Zuweisen von [Microsoft als Audiokonferenzanbieter.](/SkypeForBusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider)
 
     > [!NOTE]
-    > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können dynamische [IDs für Audiokonferenzen in Ihrer Organisation einrichten.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user) 
+    > Wenn Ihre Organisation für dynamische Konferenz-IDs aktiviert wurde, weisen alle geplanten Besprechungen eines Benutzers eine eindeutige Konferenz-ID auf. Sie können dynamische [IDs für Audiokonferenzen in Ihrer Organisation einrichten.](/skypeforbusiness/audio-conferencing-in-office-365/reset-a-conference-id-for-a-user)
 
     So kann diese E-Mail aussehen:
 
-     ![Skype for Business Lizenz überprüfen.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+     ![Skype for Business Lizenz überprüfen aus.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
 
     Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams- und Add-On-Lizenzierung.](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 
@@ -58,16 +58,16 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet wer
 - **Die AUDIOKONFERENZ-PIN eines Benutzers wird zurückgesetzt.**
 
     Diese E-Mail enthält die AUDIOKONFERENZ-PIN des Organisators, die vorhandene Konferenz-ID und die Standardeinwahlnummer für den Benutzer. Weitere [Informationen finden Sie unter Zurücksetzen der Audiokonferenz-PIN.](reset-the-audio-conferencing-pin-in-teams.md)
-    
+
      So kann diese E-Mail aussehen:
-    
+
      ![Die PIN für die Dial-In-Konferenz wurde geändert.](media/teams-emails-sent-to-users-when-settings-change-image3.png)
   
 - **Die Lizenz eines Benutzers wird entfernt, oder wenn der Audiokonferenzanbieter von Microsoft zu einem anderen Anbieter wechselt oder Keine.**
 
     Dies geschieht, wenn die Lizenz für **Audiokonferenzen** von einem Benutzer entfernt wird oder wenn sie den Audiokonferenzanbieter auf **Keine setzt.**
 
-    Weitere Informationen finden Sie unter Zuweisen oder Entfernen von [Microsoft 365 für Unternehmen.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
+    Weitere Informationen finden Sie unter Zuweisen oder [Entfernen von Microsoft 365 für Unternehmen.](https://support.office.com/article/997596b5-4173-4627-b915-36abac6786dc)
 
     So kann diese E-Mail aussehen:
 
@@ -78,19 +78,19 @@ Standardmäßig gibt es vier Arten von E-Mails, die an die Benutzer gesendet wer
 
 ## <a name="make-changes-to-the-email-messages-that-are-sent-to-them"></a>Änderungen an den E-Mail-Nachrichten, die ihnen geschickt werden
 
-Sie können Änderungen an der E-Mail vornehmen, die automatisch an die Benutzer gesendet wird. Standardmäßig stammt der Absender der E-Mails aus Microsoft 365 E-Office 365, aber Sie können den Anzeigenamen mithilfe der Windows PowerShell. Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
+Sie können Änderungen an der E-Mail vornehmen, die automatisch an die Benutzer gesendet wird. Standardmäßig stammt der Absender der E-Mails von Microsoft 365 E-Office 365, aber Sie können den Anzeigenamen mithilfe der Windows PowerShell. Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
 
 ## <a name="what-if-you-dont-want-email-to-be-sent-to-them"></a>Wie gehen Sie vor, wenn Sie Benutzern keine E-Mails senden möchten?
 
 Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails an die Benutzer gesendet, auch nicht, wenn ihnen eine Lizenz zugewiesen wird. In diesem Fall werden die Konferenz-ID, die Standardtelefonnummer für Konferenzen und, noch wichtiger, die PIN für Audiokonferenzen nicht an den Benutzer gesendet. Wenn dies geschieht, müssen Sie dem Benutzer eine separate E-Mail schreiben oder ihn anrufen, um ihm diese Mitteilung zu machen.
 
-Standardmäßig werden E-Mails an Ihre Benutzer gesendet. Wenn Sie jedoch verhindern möchten, dass diese E-Mails für Audiokonferenzen erhalten, können Sie die Microsoft Teams oder Windows PowerShell. 
+Standardmäßig werden E-Mails an Ihre Benutzer gesendet. Wenn Sie jedoch verhindern möchten, dass diese E-Mails für Audiokonferenzen erhalten, können Sie die E-Microsoft Teams oder Windows PowerShell.
 
- **Verwenden des Microsoft Teams Admin Centers**
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
+1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.** 
+2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.**
 
 3. Aktivieren oder **deaktivieren Sie im Bereich** Einstellungen der Brücke die Option Automatisches Senden von E-Mails an Benutzer, wenn sich **deren Einwahleinstellungen ändern.**
 
@@ -99,7 +99,7 @@ Standardmäßig werden E-Mails an Ihre Benutzer gesendet. Wenn Sie jedoch verhin
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Verwenden von Windows PowerShell**
+### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
 
 Sie können auch das Microsoft Teams PowerShell-Modul verwenden und ausführen:
 
@@ -113,16 +113,15 @@ Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powersh
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365, aber Sie können die E-Mail-Adresse und den Anzeigenamen mithilfe der Windows PowerShell. 
+Standardmäßig stammt der Absender der E-Mails von Microsoft 365 oder Office 365, Sie können jedoch die E-Mail-Adresse und den Anzeigenamen mithilfe der Windows PowerShell.
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
-  - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+- [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+- [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](/previous-versions//dn568025(v=technet.10))
 
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
-
 
 ## <a name="related-topics"></a>Verwandte Themen
 

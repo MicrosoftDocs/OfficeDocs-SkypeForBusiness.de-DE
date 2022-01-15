@@ -1,7 +1,7 @@
 ---
 title: Allgemeine Fragen zu Audiokonferenz
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: conceptual
@@ -22,38 +22,38 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten.
-ms.openlocfilehash: ec0af1c51775b564553d37e64a0f2afa5964f04a
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 9ab6e8b752dd0a1e60af3b971007217bcf1355c2
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58626387"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055715"
 ---
 # <a name="audio-conferencing-common-questions"></a>Allgemeine Fragen zu Audiokonferenz
 
-Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten. 
+Im Folgenden finden Sie einige der häufigsten Fragen, die wir von unseren Kunden erhalten, die Audiokonferenz nutzen möchten.
   
 ## <a name="what-are-the-benefits-of-audio-conferencing"></a>Was sind die Vorteile von Audiokonferenz?
 
 Die telefonische Teilnahme an Besprechungen ist beispielsweise dann von Vorteil, wenn Mitarbeiter unterwegs sind, und nicht über die Skype for Business- oder Microsoft Teams-App auf ihrem Laptop oder Mobilgerät an einer Besprechung teilnehmen können. Aber es gibt auch andere Szenarien, in denen die Teilnahme an einer Skype for Business- oder Microsoft Teams-Besprechung per Telefon eine bessere Option sein kann als die Verwendung einer App auf einem Computer:
   
 - Die Internetverbindung ist begrenzt.
-    
+
 - Eine Besprechung ist eine reine Audiobesprechung.
-    
+
 - Die Person hat erfolglos versucht, an einer Skype for Business-Besprechung teilzunehmen.
-    
+
 - Die Anrufqualität ist besser, wenn sie sich einwählen.
-    
+
 - Man kann mithilfe von Bluetooth-Geräten "freihändig" an einer Besprechung teilnehmen.
-    
+
 - Benutzer finden es einfacher und praktischer in ihrer jeweiligen Situation.
-    
+
 ## <a name="who-can-attend-an-audio-conferencing-meeting-and-who-can-i-hear"></a>Wer kann an einer Audiokonferenz-Besprechung teilnehmen? Und wen kann ich hören?
 
 Jeder, der die Einwahlnummer und die Konferenz-ID hat, kann an einer Skype for Business- oder Microsoft Teams-Besprechung teilnehmen, es sei denn, der Organisator der Besprechung hat die Besprechung gesperrt.
   
-Unabhängig davon, ob Sie über ein Telefon oder über die Skype for Business- oder Microsoft Teams-Apps anrufen, können Sie alle anderen Teilnehmer des Anrufs hören, und diese können Sie hören. Der Besprechungsorganisator hat die Möglichkeit, Teilnehmer an der Besprechung „stumm“ zu schalten, wenn er sie nicht hören will. 
+Unabhängig davon, ob Sie über ein Telefon oder über die Skype for Business- oder Microsoft Teams-Apps anrufen, können Sie alle anderen Teilnehmer des Anrufs hören, und diese können Sie hören. Der Besprechungsorganisator hat die Möglichkeit, Teilnehmer an der Besprechung „stumm“ zu schalten, wenn er sie nicht hören will.
   
 ## <a name="can-i-add-a-toll-free-number-for-my-audio-conferencing-users"></a>Kann ich für meine Audiokonferenz-Benutzer eine gebührenfreie Telefonnummer hinzufügen?
 
@@ -82,7 +82,7 @@ Die maximale Dauer hängt davon ab, wer sich in der Besprechung befindet, und de
 |Benutzer sind über die Skype for Business- oder Microsoft Teams-App beigetreten, oder sie haben sich in die Besprechung eingewählt.  <br/> |Die Besprechung endet, wenn nach Ablauf von 24 Stunden keine Änderungen an der Teilnehmerliste vorgenommen werden.  <br/> |
 |Alle Benutzer haben sich in die Besprechung eingewählt, aber jemand hat eine PIN zum Teilnehmen an der Besprechung verwendet.  <br/> |Die Besprechung endet nach 24 Stunden.  <br/> |
 |Alle Benutzer haben sich in die Besprechung eingewählt, aber niemand hat eine PIN zum Teilnehmen an der Besprechung verwendet.  <br/> | Wenn anonyme Benutzer Besprechungen starten dürfen, dann endet die Besprechung nach vier Stunden. Wenn anonyme Benutzer keine Besprechungen starten dürfen, und wenn all authentifizierten Teilnehmer die Besprechung verlassen haben, dann endet die Besprechung 90 Minuten nachdem der letzte authentifizierte Benutzer ausgetreten ist. <br/> |
-   
+
 ## <a name="how-many-total-phone-participants-can-i-have-in-meetings"></a>Wie viele Telefonteilnehmer kann ich insgesamt in Besprechungen haben?
 
 Die Gesamtzahl der erlaubten Teilnehmer in Besprechungen finden Sie unter [Beschränkungen und Spezifikationen](limits-specifications-teams.md).
@@ -95,11 +95,11 @@ Wir haben ein neues Feature hinzugefügt, das Ihnen – dem [Administrator](http
   
 ## <a name="can-audio-conferencing-be-used-by-the-users-who-are-part-of-an-on-premises-deployment-of-skype-for-business-server"></a>Kann die Audiokonferenz von den Benutzern verwendet werden, die Teil einer lokalen Bereitstellung von Skype for Business Server sind?
 
-Mit [Meetings First](meetings-first.md) können Benutzer von Skype for Business Server von Teams-Besprechungen und Teams-Audiokonferenz profitieren. 
+Mit [Meetings First](meetings-first.md) können Benutzer von Skype for Business Server von Teams-Besprechungen und Teams-Audiokonferenz profitieren.
   
 ## <a name="can-a-user-get-a-personal-conference-id"></a>Kann ein Benutzer eine persönliche Konferenz-ID erhalten?
 
-Skype for Business- und Microsoft Teams-Benutzer erhalten eine zufällige Konferenz-ID zugewiesen. Benutzer können keine statische Konferenz-ID reservieren oder festlegen, die nur sie benutzen können. 
+Skype for Business- und Microsoft Teams-Benutzer erhalten eine zufällige Konferenz-ID zugewiesen. Benutzer können keine statische Konferenz-ID reservieren oder festlegen, die nur sie benutzen können.
   
 ## <a name="can-i-use-audio-conferencing-with-skype-meeting-broadcast"></a>Kann ich Audiokonferenz mit Skype Meeting Broadcast verwenden?
 
@@ -114,7 +114,7 @@ Nein, ein Benutzer kann durch Drücken von *0 während der Besprechung keine Ope
 Skype for Business- oder Microsoft Teams-Benutzer finden die ihnen zugewiesene Konferenz-ID, indem Sie in Outlook und Outlook im Web eine Besprechung planen. Benutzer können die Konferenz-ID auch im E-Mail finden, das ihnen nach dem Einrichten zugesandt wird.
   
 > [!NOTE]
-> Benutzer können ihre Konferenz-ID nicht zurücksetzen. Die Konferenz-ID kann nur durch Sie – den [Administrator](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504) für die Organisation – zurückgesetzt werden. 
+> Benutzer können ihre Konferenz-ID nicht zurücksetzen. Die Konferenz-ID kann nur durch Sie – den [Administrator](https://support.office.com/article/admin-eac4d046-1afd-4f1a-85fc-8219c79e1504) für die Organisation – zurückgesetzt werden.
   
 Wir arbeiten an einer Lösung, die es dem Benutzer ermöglicht, auf eine Konferenz-ID zuzugreifen und diese ohne Hilfe von einem Administrator einer Organisation zurücksetzen kann.
   
@@ -123,7 +123,7 @@ Wir arbeiten an einer Lösung, die es dem Benutzer ermöglicht, auf eine Konfere
 Skype for Business- oder Microsoft Teams- Benutzer finden die PIN ein einer E-Mail, die ihnen nach dem Einrichten zugesandt wird.
   
 > [!NOTE]
-> Teams-Benutzer können ihre PIN ändern. Unten in der Besprechungseinladung befindet sich ein Link zum Zurücksetzen ihrer PIN. 
+> Teams-Benutzer können ihre PIN ändern. Unten in der Besprechungseinladung befindet sich ein Link zum Zurücksetzen ihrer PIN.
   
 Wir arbeiten an einer Lösung, die es dem Benutzer ermöglicht, auf eine PIN zuzugreifen und diese ohne Hilfe von einem Administrator einer Organisation zurücksetzen kann.
   

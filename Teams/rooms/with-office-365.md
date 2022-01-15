@@ -1,7 +1,7 @@
 ---
-title: Bereitstellen Microsoft Teams-Räume mit Microsoft 365 oder Office 365
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Bereitstellen von Microsoft Teams-Räumen mit Office 365
+ms.author: v-lanac
+author: lanachin
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -9,50 +9,51 @@ ms.topic: quickstart
 ms.service: msteams
 f1.keywords:
 - NOCSH
-ms.localizationpriority: medium
+localization_priority: Normal
 ms.collection:
 - M365-collaboration
-ms.custom: seo-marvel-apr2020
+ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
-description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Microsoft 365 oder Office 365, wobei Teams oder Skype for Business und Exchange online sind.
-ms.openlocfilehash: e3f72c86f88ab449b48b80d6bef06d0858c44b53
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+description: In diesem Thema finden Sie Informationen zum Bereitstellen Microsoft Teams-Räume mit Office 365.
+ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355644"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056025"
 ---
-# <a name="deploy-microsoft-teams-rooms-with-microsoft-365-or-office-365"></a>Bereitstellen Microsoft Teams-Räume mit Microsoft 365 oder Office 365
+# <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Office 365
 
-In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Microsoft 365 oder Office 365, wobei Microsoft Teams und Exchange online sind.
+In diesem Thema finden Sie Informationen zum Bereitstellen Microsoft Teams-Räume mit Office 365.
 
 ## <a name="requirements"></a>Anforderungen
 
-Bevor Sie Ihre Microsoft Teams-Räume mit Microsoft 365 oder Office 365 bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
+Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
 
 ### <a name="add-a-resource-account"></a>Hinzufügen eines Ressourcenkontos
 
-1. Verbinden Sie Exchange Online PowerShell. Anweisungen finden Sie [unter Verbinden zum Exchange Online von PowerShell.](/powershell/exchange/connect-to-exchange-online-powershell)
+1. Verbinden Sie Exchange Online PowerShell. Anweisungen finden Sie [unter Verbinden zum Exchange Online von PowerShell.](https://go.microsoft.com/fwlink/p/?linkid=396554)
 
-2. Erstellen Exchange Online in PowerShell ein neues Raumpostfach, oder ändern Sie ein vorhandenes Raumpostfach. Raumpostfächer verfügen standardmäßig nicht über zugeordnete Konten, daher müssen Sie ein Konto hinzufügen, wenn Sie ein Raumpostfach erstellen oder ändern, das es ermöglicht, sich bei anderen Benutzern zu Microsoft Teams.
+2. Erstellen Exchange Online in PowerShell ein neues Raumpostfach, oder ändern Sie ein vorhandenes Raumpostfach. Raumpostfächern sind standardmäßig keine Konten zugeordnet. Sie müssen ein Konto hinzufügen, wenn Sie ein Raumpostfach erstellen oder ändern, das seine Authentifizierung ermöglicht.
 
    - Zum Erstellen eines neuen Raumpostfachs verwenden Sie die folgende Syntax:
 
      ``` PowerShell
-     New-Mailbox -MicrosoftOnlineServicesID <Office365 ID> -Name <String> -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
+     New-Mailbox -Name '<Unique Name>' -Alias <Alias> -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID <Account> -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
+
      In diesem Beispiel wird ein neues Raumpostfach mit den folgenden Einstellungen erstellt:
 
-     - Konto: ConferenceRoom01@contoso.com
-  
-     - Name: ConferenceRoom01
+     - Name: Konferenzraum 01
 
      - Alias: ConferenceRoom01
+
+     - Konto: ConferenceRoom01@contoso.com
 
      - Kontokennwort: P@$$W 0rd5959
 
      ``` PowerShell
-     New-Mailbox -MicrosoftOnlineServicesID ConferenceRoom01@contoso.com -Name "ConferenceRoom01" -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true  -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
+     New-Mailbox -Name 'Conference Room 01' -Alias ConferenceRoom01 -Room -EnableRoomMailboxAccount $true -MicrosoftOnlineServicesID 'ConferenceRoom01@contoso.com' -RoomMailboxPassword (ConvertTo-SecureString -String 'P@$$W0rd5959' -AsPlainText -Force)
      ```
 
    - Verwenden Sie zum Ändern eines vorhandenen Raumpostfachs die folgende Syntax:
@@ -61,17 +62,18 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Microsoft 365 oder Office 365 bereitst
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, das den Aliaswert ConferenceRoom02 hat, und das Kennwort auf 9898P@$$W 0rd. Beachten Sie, dass das Konto aufgrund ConferenceRoom02@contoso.com vorhandenen Aliaswerts nicht mehr verwendet wird.
+     In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, das den Aliaswert ConferenceRoom02 hat, und das Kennwort auf 9898P@$$W 0rd.
 
      ``` PowerShell
-     Set-Mailbox -Identity ConferenceRoom02 -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
+     Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) und [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
 
-3. Konfigurieren Exchange Online in PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
 
-   - Automatisieren Der Verarbeitung: AutoAccept (Besprechungsorganisatoren erhalten die Entscheidung über die Raumreservierung direkt ohne Eingreifen des Personals.)
+3. Konfigurieren Exchange Online PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
+
+   - Automatisieren Der Verarbeitung: AutoAccept (Das Postfach macht automatisch eine Raumreservierungsentscheidung direkt ohne Eingreifen des Benutzers.)
 
    - AddOrganizerToSubject: $false (Der Besprechungsorganisator wird dem Betreff der Besprechungsanfrage nicht hinzugefügt.)
 
@@ -85,86 +87,38 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Microsoft 365 oder Office 365 bereitst
 
    - AdditionalResponse: "Dies ist Microsoft Teams Besprechungsraum!" (Der zusätzliche Text, der der Besprechungsanfrage hinzugefügt werden soll.)
 
-   In diesem Beispiel werden diese Einstellungen für das Raumpostfach namens ConferenceRoom01 konfiguriert.
+   In diesem Beispiel werden diese Einstellungen für das Raumpostfach namens Project-Rigel-01 konfiguriert.
 
    ``` PowerShell
-   Set-CalendarProcessing -Identity "ConferenceRoom01" -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse "This is a Microsoft Teams Meeting room!"
+   Set-CalendarProcessing -Identity 'ConferenceRoom01' -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -DeleteComments $false -DeleteSubject $false -RemovePrivateProperty $false -AddAdditionalResponse $true -AdditionalResponse 'This is a Microsoft Teams meeting room!'
    ```
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
-
-4. Verbinden sie sich an MS Online PowerShell, um Active Directory-Einstellungen durch Ausführen der `Connect-MsolService` PowerShell-Cmdlet. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+   
+4. Verbinden MS Online PowerShell active Directory-Werte festlegen, indem Sie das PowerShell-Cmdlet "Verbinden-MsolService -Credential $cred" ausführen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
 
    > [!NOTE]
-   > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt.
+   > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
 
-5. Legen Sie mithilfe der folgenden Syntax das Kennwort so ein, dass es nie abläuft:
+5. Es wird dringend empfohlen, den Kennwortablauf für Konten zu Teams-Räume deaktivieren. Im Folgenden finden Sie ein Beispiel zum Deaktivieren des Kennwortablaufs für das Konto ConferenceRoom01:
 
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName <UPN> -PasswordNeverExpires $true
-   ```
+    ``` PowerShell
+    Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -PasswordNeverExpires $true
+    ```
 
-   <!--
-   ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName <Account> -EnforceChangePasswordPolicy $false
-   ```  -->
 
-   In diesem Beispiel wird das Kennwort für das Konto so ConferenceRoom01@contoso.onmicrosoft.com, dass es nie abläuft.
+1. Das Ressourcenkonto muss über eine gültige Lizenz Office 365 verfügen, um eine Verbindung mit Microsoft Teams. Außerdem müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Mit können `Get-MsolAccountSku` Sie eine Liste der verfügbaren SKUs für Ihren Mandanten Office 365 abrufen. Sie können eine Lizenz mit dem `Set-MsolUserLicense` Cmdlet hinzufügen.
 
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -PasswordNeverExpires $true
-   ```
+   In diesem Beispiel wird die Besprechungsraum einem Benutzer in den USA zugewiesen.
 
-   <!-- 
-   ```PowerShell
-   Set-AzureADUserPassword -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -EnforceChangePasswordPolicy $false
-   ``` -->
-
-   Sie können auch eine Telefonnummer für das Konto festlegen, indem Sie den folgenden Befehl ausführen:
-
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName <UPN> -PhoneNumber <phone number>
-   ```
-
-   <!-- 
-   ```PowerShell
-   Set-AzureADUser -UserPrincipalName <Account> -PhoneNumber "<PhoneNumber>"
-   ```  -->
-
-    > [!NOTE]
-    > Wenn das Kennwort nicht auf Nie abläuft festgelegt ist, wird das Konto nicht mehr auf dem Gerät anmelden, wenn das Konto den Ablaufzeitraum erreicht. Das Kennwort muss dann für das Konto geändert und auch lokal auf dem Computer Teams-Räume. Benutzer können nicht an Besprechungen auf einem Teams-Räume, während das Kennwort abgelaufen ist.
-
-6. Das Ressourcenkonto muss über eine gültige Lizenz Microsoft 365 oder Office 365 verfügen, da Exchange und Microsoft Teams nicht funktionieren. Wenn Sie über eine Lizenz verfügen, müssen Sie Ihrem Ressourcenkonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Sie können `Get-MsolAccountSku` <!-- Get-AzureADSubscribedSku --> um eine Liste der verfügbaren SKUs für Ihre Microsoft 365 oder Office 365 Organisation wie folgt abzurufen:
-
-   ```Powershell
+  ``` PowerShell
+   Set-MsolUser -UserPrincipalName 'ConferenceRoom01@contoso.com' -UsageLocation 'US'
    Get-MsolAccountSku
-   ```
+   Set-MsolUserLicense -UserPrincipalName 'ConferenceRoom01@contoso.com' -AddLicenses 'contoso:MEETING_ROOM'
+  ``` 
 
-   <!--
-   ```Powershell
-   Get-AzureADSubscribedSku | Select -Property Sku*,ConsumedUnits -ExpandProperty PrepaidUnits
-   ```  -->
-
-   Als Nächstes können Sie eine Lizenz hinzufügen, indem Sie die `Set-MsolUserLicense` <!--Set-AzureADUserLicense --> cmdlet. In diesem Beispiel wird Besprechungsraum-Lizenz dem Konto hinzufügt:
-
-   ```PowerShell
-   Set-MsolUser -UserPrincipalName "ConferenceRoom01@contoso.com" -UsageLocation "US"
-   Set-MsolUserLicense -UserPrincipalName "ConferenceRoom01@contoso.com" -AddLicenses "Contoso:MEETING_ROOM"
-   ```
-
-   <!-- 
-   ```Powershell
-   Set-AzureADUser -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -UsageLocation "US"
-   Set-AzureADUserLicense -UserPrincipalName "Rigel1@contoso.onmicrosoft.com" -AddLicenses "Contoso:MEETING_ROOM"
-   ```   -->
 
    Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
-
-   Sie können diesem Konto Telefonsystem Funktionen hinzufügen, sie müssen sie aber zuerst konfigurieren. Weitere [Informationen finden Sie Telefonsystem Unter](../what-is-phone-system-in-office-365.md) Was ist eine E-Telefonsystem?. In diesem Beispiel wird der PSTN-Anrufplan für Inlands- und Auslandsrufe hinzufügt:
-
-   ```PowerShell
-   Set-MsolUserLicense -UserPrincipalName ConferenceRoom01@contoso.com -AddLicenses "Contoso:MCOPSTN2"
-   ```
 
 
 ## <a name="validate"></a>Überprüfen
@@ -172,6 +126,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Microsoft 365 oder Office 365 bereitst
 Zur Überprüfung sollten Sie in der Lage sein, sich mit einem beliebigen Microsoft Teams-Client bei dem von Ihnen erstellten Konto anmelden.
 
 ## <a name="see-also"></a>Mehr dazu
+[Aktualisieren von Raumpostfächern mit zusätzlichen Metadaten, um eine bessere Erfahrung mit Such- und Raumvorschlägen zu ermöglichen](/powershell/module/exchange/set-place)
 
 [Konfigurieren von Konten für Microsoft Teams-Räume](rooms-configure-accounts.md)
 

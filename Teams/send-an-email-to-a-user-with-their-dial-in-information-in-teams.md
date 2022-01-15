@@ -1,7 +1,7 @@
 ---
 title: Senden der Audiokonferenzinformationen per E-Mail an einen Benutzer
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -22,24 +22,23 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Ihren Benutzern eine E-Mail mit ihren Audiokonferenzinformationen in einer Microsoft Teams.
-ms.openlocfilehash: c268c475e254bcac9a4eb579bc971705d68698aa
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 6dbd0f0001472e49bd0940cc18440550972a2c5c
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536676"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056035"
 ---
 # <a name="send-an-email-to-a-user-with-their-audio-conferencing-information-in-microsoft-teams"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer in Microsoft Teams
 
-Manchmal Microsoft Teams, dass Sie ihren Benutzern ihre Audiokonferenzinformationen senden müssen. Klicken Sie dazu unter  den Eigenschaften für einen Benutzer auf Konferenzinformationen per E-Mail senden. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
+Manchmal Microsoft Teams, dass Sie den Benutzern möglicherweise ihre Audiokonferenzinformationen senden müssen. Klicken Sie dazu unter  den Eigenschaften für einen Benutzer auf Konferenzinformationen per E-Mail senden. Wenn Sie diese E-Mail senden, enthält sie alle Audiokonferenzinformationen, einschließlich:
   
 - Die Konferenztelefon- oder Einwahltelefonnummer für den Benutzer.
-    
+
 - Die Konferenz-ID des Benutzers.
-    
-   
+
 Hier ist ein Beispiel für die gesendete E-Mail:
-  
+
 ![Beispiel für eine E-Mail-Nachricht mit einer Einwahlkonferenz.](media/teams-send-email-to-user-with-audio-conferencing-image1.png)
 
 > [!NOTE]
@@ -47,9 +46,9 @@ Hier ist ein Beispiel für die gesendete E-Mail:
   
 ## <a name="send-an-email-with-audio-conferencing-information-to-a-user"></a>Senden einer E-Mail mit Audiokonferenzinformationen an einen Benutzer
 
-###  <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
+### <a name="sending-an-email-using-the-microsoft-teams-admin-center"></a>Senden einer E-Mail über Microsoft Teams Admin Center
 
-1. Klicken Sie im linken Navigationsbereich **auf Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
+1. Klicken Sie im linken Navigationsbereich auf **Benutzer**, und wählen Sie den Benutzer aus der Liste der verfügbaren Benutzer aus.
 
 2. Klicken Sie oben auf der Seite auf **Bearbeiten**.
 
@@ -58,17 +57,17 @@ Hier ist ein Beispiel für die gesendete E-Mail:
 ## <a name="what-else-should-you-know-about-this-email"></a>Was sollten Sie sonst über diese E-Mails wissen?
 
 - Es gibt mehrere E-Mails, die nach der Aktivierung für Audiokonferenzen an Benutzer in Ihrer Organisation gesendet werden:
-    
+
   - Wenn ihnen **eine Lizenz für Audiokonferenzen** zugewiesen wird.
-    
+
   - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
-    
+
   - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
-    
+
   - Wenn eine **Lizenz für Audiokonferenzen** entfernt wird.
-    
+
   - Wenn der Audiokonferenzanbieter für einen Benutzer von Microsoft auf einen anderen Anbieter oder Kein geändert **wird.**
-    
+
   - Wenn sich der Audiokonferenzanbieter für einen Benutzer in Microsoft ändert.
   
 ## <a name="related-topics"></a>Verwandte Themen

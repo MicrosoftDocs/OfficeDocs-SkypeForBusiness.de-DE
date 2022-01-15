@@ -1,7 +1,7 @@
 ---
 title: Maskieren von Telefonnummern in Microsoft Teams Besprechungen
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: heidip
+ms.author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: moakram
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Telefonnummern in Besprechungen Microsoft Teams maskieren.
-ms.openlocfilehash: afdbaa4f2f437728aad14e3731ab3e26ba90f36d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a40f1a7144298c6106183eb45fe80a8958227b1a
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828428"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055095"
 ---
 # <a name="mask-phone-numbers-in-microsoft-teams-meetings"></a>Maskieren von Telefonnummern in Microsoft Teams Besprechungen
 

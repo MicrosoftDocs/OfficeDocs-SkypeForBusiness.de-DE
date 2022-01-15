@@ -1,7 +1,7 @@
 ---
 title: Festlegen der in Einladungen enthaltenen Telefonnummern
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: Führen Sie die folgenden Schritte aus, um eine Standardtelefonnummer für Anrufer zu erstellen, die an einer Besprechung Microsoft Teams können.
-ms.openlocfilehash: bef8575e1e799c63159bec5cbfb06c80f4af6c83
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: Führen Sie die folgenden Schritte aus, um eine Standardtelefonnummer für Anrufer zu erstellen, um an einer Besprechung Microsoft Teams teilnehmen.
+ms.openlocfilehash: d1bce310424fb30ef8e76dde60003e97973630ec
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536746"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055445"
 ---
 # <a name="set-the-phone-numbers-included-on-invites-in-microsoft-teams"></a>Festlegen der in Einladungen in Microsoft Teams enthaltenen Telefonnummern
 
@@ -45,13 +45,11 @@ Eine Konferenzbrücke bietet Ihnen eine Reihe von Einwahlnummern für Ihre Organ
 
 Die Telefonnummern, die in den Besprechungseinrufen von Benutzern enthalten sind, die für Audiokonferenzen aktiviert sind, sind durch die gebührenpflichtige Standardtelefonnummer für Konferenzen und die Einstellungen des Benutzers für die gebührenfreie Standardtelefonnummer für Konferenzen definiert. Jede Einstellung gibt an, welche gebührenpflichtige und gebührenfreie Nummer in der Besprechungseinstellung eines bestimmten Benutzers enthalten sein soll. Wie oben erwähnt, enthält jede Besprechungs-Einladung eine gebührenpflichtige Nummer, eine optionale gebührenfreie Nummer und einen Link, über den eine vollständige Liste aller Einwahltelefonnummern geöffnet wird, die für die Teilnahme an einer bestimmten Besprechung verwendet werden können.
 
-Für einen neuen Benutzer werden die gebührenpflichtigen Standardkonferenznummern basierend auf dem Verwendungsstandort zugewiesen, der im Microsoft 365 Administration Center des Benutzers festgelegt wird, wenn der Benutzer für den Audiokonferenzdienst aktiviert ist. Wenn die Konferenzbrücke eine gebührenpflichtige Nummer enthält, die dem Land des Benutzers entspricht, wird diese Nummer automatisch als gebührenpflichtige Standardnummer des Benutzers zugewiesen. Wenn es keine Telefonnummer gibt, wird die Nummer, die als gebührenpflichtige Standardnummer der Konferenzbrücke definiert ist, als gebührenpflichtige Standardnummer des Benutzers zugewiesen.  
+Für einen neuen Benutzer werden die gebührenpflichtigen Standardkonferenznummern basierend auf dem Verwendungsstandort zugewiesen, der im Microsoft 365-Verwaltungscenter des Benutzers festgelegt wird, wenn der Benutzer für den Audiokonferenzdienst aktiviert ist. Wenn die Konferenzbrücke eine gebührenpflichtige Nummer enthält, die dem Land des Benutzers entspricht, wird diese Nummer automatisch als gebührenpflichtige Standardnummer des Benutzers zugewiesen. Wenn es keine Telefonnummer gibt, wird die Nummer, die als gebührenpflichtige Standardnummer der Konferenzbrücke definiert ist, als gebührenpflichtige Standardnummer des Benutzers zugewiesen.  
 
 Nachdem der Benutzer für den Audiokonferenzdienst aktiviert wurde, können die gebührenpflichtigen und gebührenfreien Standardtelefonnummern des Benutzers jederzeit vom Mandantenadministrator von den ursprünglichen Werten geändert werden.
 
 ## <a name="set-or-change-the-default-audio-conferencing-phone-number-for-a-meeting-organizer-or-user"></a>Festlegen oder Ändern der Standardtelefonnummer für Audiokonferenzen für einen Besprechungsorganisator oder -benutzer
-
- **Verwenden des Microsoft Teams Admin Centers**
 
 Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu können. Informationen zum Erhalten von Administratorrollen und -Berechtigungen finden Sie unter [Teams-Administratorrollen verwenden, um Teams zu verwalten](./using-admin-roles.md).
 
@@ -59,7 +57,7 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 
 2. Klicken Sie im linken Navigationsbereich auf **Benutzer**.
 
-    ![Zeigt die Auswahl von Benutzern im Microsoft Teams Admin Center.](media/Admin-users.png)
+    ![Zeigt die Auswahl von Benutzern im Microsoft Teams Admin Center an.](media/Admin-users.png)
 
 3. Klicken Sie in der Liste der verfügbaren Benutzer auf den Benutzernamen.
 
@@ -70,11 +68,11 @@ Sie müssen ein Teams-Dienstadministrator sein, um diese Änderungen machen zu k
 5. Geben Sie **in den Feldern** **Gebührenpflichtige** Nummer oder Gebührenfreie Nummer die Nummern für den Benutzer ein.
 
 > [!IMPORTANT]
-> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und zukünftige Microsoft Teams müssen aktualisiert und an die Teilnehmer gesendet werden.
+> Wenn Sie die Audiokonferenzeinstellungen eines Benutzers ändern, müssen Besprechungsserien und Microsoft Teams Besprechungen aktualisiert und an die Teilnehmer gesendet werden.
 
 ## <a name="want-to-use-windows-powershell"></a>Verwenden von Windows PowerShell
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
 
 - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
 

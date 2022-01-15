@@ -1,8 +1,8 @@
 ---
 title: Einschränkungen für ausgehende Anrufe – Audiokonferenzen & PSTN-Anrufe
 ms.reviewer: ''
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: Administratoren können die Art von Audiokonferenzen und PSTN-Anrufen für Endbenutzer steuern, die von Benutzern vorgenommen werden können.
-ms.openlocfilehash: 7f1ec4886c1e1ede22c280091f2ebce9965b6d3b
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 39a51c1fdf6bbb7597b255fc5879a4d7a77be2db
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766238"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055175"
 ---
 # <a name="outbound-calling-restriction-policies-for-audio-conferencing-and-user-pstn-calls"></a>Einschränkungsrichtlinien für ausgehende Anrufe für Audiokonferenzen und PSTN-Anrufe
 
@@ -42,29 +42,28 @@ Steuerelemente für ausgehende Anrufe können pro Benutzer oder auf Mandantenbas
 Wenn Sie herausfinden müssen, welche Länder und Regionen als Zone A gelten, lesen Sie Länder- und [Regionszonen für Audiokonferenzen.](audio-conferencing-zones.md)
 
    > [!NOTE]
-   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung (bei Audiokonferenzen) oder für den Endbenutzer (bei PstN-Anrufen durch Endbenutzer) eingerichtet wurde.
+   > Ein Anruf gilt als Inlandsnummer, wenn sich die gewählte Nummer in demselben Land befindet, in dem Microsoft 365 oder Office 365 für den Organisator der Besprechung (bei Audiokonferenzen) oder für den Endbenutzer (bei PstN-Anrufen des Endbenutzers) eingerichtet wurde.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
 ## <a name="restrict-audio-conferencing-outbound-calls"></a>Einschränken ausgehender Anrufe bei Audiokonferenzen
 
-**Verwenden des Microsoft Teams Admin Centers**
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
 1. Wählen Sie im linken Navigationsbereich **Benutzer** aus, und wählen Sie dann in der Liste der verfügbaren Benutzer den Anzeigenamen des Benutzers aus.
 
-3. Wählen Sie **neben Audiokonferenz die** Option **Bearbeiten aus.**
+2. Wechseln Sie als **Nächstes zu Audiokonferenz , und** wählen Sie Bearbeiten **aus.**
 
-4. Wählen **Sie unter Auswahl aus Besprechungen** die Option zum Einwählen aus, die Sie verwenden möchten.
+3. Wählen **Sie unter Auswahl aus Besprechungen** die Option zum Einwählen aus, die Sie verwenden möchten.
 
-5. Klicken Sie auf **Speichern**.
+4. Klicken Sie auf **Speichern**.
 
-
-**Verwendung von PowerShell**
+### <a name="using-powershell"></a>Verwendung von PowerShell
 
 Einschränkungen für ausgehende Anrufe werden durch eine einzelne Richtlinie mit dem Namen OnlineDialOutPolicy gesteuert, die jeweils über ein Einschränkungsattribut verfügt. Die Richtlinie kann nicht angepasst werden, sondern es gibt vordefinierte Richtlinieninstanzen für jede Kombination der Einstellungen.
 
-Sie können das cmdlet Get-CSOnlineDialOutPolicy, um die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
+Sie können das cmdlet Get-CSOnlineDialOutPolicy für ausgehende Anrufe verwenden, um die Richtlinien für ausgehende Anrufe anzeigen und den folgenden Befehl für das Setup verwenden.
 
 **Legen Sie die Richtlinie auf Benutzerebene mit dem folgenden Cmdlet festgelegt.** (Das Cmdlet "Grant" enthält nicht wie das Cmdlet "Get" das Wort "Online".)
 

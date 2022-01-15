@@ -1,7 +1,7 @@
 ---
 title: E-Mail-Optionen, wenn sich die Audiokonferenzeinstellungen ändern
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,12 +21,12 @@ ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
 description: 'Erfahren Sie, wie Sie das Senden Skype E-Mails an Benutzer aktivieren oder deaktivieren, wenn sich Einstellungen wie Änderungen an der Pin oder die Standardkonferenznummer in ihrer Microsoft Teams. '
-ms.openlocfilehash: fa52306afbee534b52e9bfdbd304a22cda395704
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 568a42badd375314ee5b29529a53b52b1f6267eb
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537226"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055295"
 ---
 # <a name="enable-or-disable-sending-emails-when-audio-conferencing-settings-change-in-microsoft-teams"></a>Aktivieren und Deaktivieren der bei geänderten Audiokonferenzeinstellungen gesendeten E-Mails in Microsoft Teams
 
@@ -36,45 +36,43 @@ Wenn Sie das Senden von E-Mails deaktivieren, werden keine E-Mails für Audiokon
   
 Hier ist ein Beispiel für eine E-Mail, die an Benutzer gesendet wird, wenn sie für Audiokonferenzen aktiviert sind:
   
-![Beispiel für eine E-Mail-Nachricht für Audiokonferenzen](media/teams-emails-sent-to-users-when-settings-change-image1.png)
+![Beispiel für eine E-Mail-Nachricht mit einer Audiokonferenz.](media/teams-emails-sent-to-users-when-settings-change-image1.png)
   
 ## <a name="when-are-emails-being-sent-to-your-users"></a>Wann werden E-Mails an Benutzer gesendet?
 
 - Es gibt mehrere E-Mails, die nach der Aktivierung für Audiokonferenzen an Benutzer in Ihrer Organisation gesendet werden:
-    
-  - Wenn ihnen **eine Lizenz für Audiokonferenzen** zugewiesen wird.
-    
-  - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
-    
-  - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
-    
-  - Wenn die **Lizenz für Audiokonferenzen** entfernt wird.
-    
-  - Wenn sich der Audiokonferenzanbieter eines Benutzers von Microsoft auf einen anderen Anbieter oder Kein **ändert.**
-    
-  - Wenn sich der Audiokonferenzanbieter eines Benutzers in Microsoft ändert.
 
+  - Wenn ihnen **eine Lizenz für Audiokonferenzen** zugewiesen wird.
+
+  - Wenn Sie die PIN für Audiokonferenzen des Benutzers manuell zurücksetzen.
+
+  - Wenn Sie die Konferenz-ID des Benutzers manuell zurücksetzen.
+
+  - Wenn die **Lizenz für Audiokonferenzen** entfernt wird.
+
+  - Wenn sich der Audiokonferenzanbieter eines Benutzers von Microsoft auf einen anderen Anbieter oder Kein **ändert.**
+
+  - Wenn sich der Audiokonferenzanbieter eines Benutzers in Microsoft ändert.
 
 ## <a name="enable-or-disable-email-from-being-sent-to-users"></a>Aktivieren oder Deaktivieren des Sendens von E-Mails an Benutzer
 
 Sie können E-Microsoft Teams oder Windows PowerShell, um an Benutzer gesendete E-Mails zu aktivieren oder zu deaktivieren.
 
- **Verwenden des Microsoft Teams Admin Centers**
+### <a name="using-the-microsoft-teams-admin-center"></a>Verwenden des Microsoft Teams Admin Centers
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken). 
+1. Navigieren Sie in der linken Navigationsleiste zu **Besprechungen** > **Conference Bridges** (Konferenzbrücken).
 
-2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.** 
+2. Klicken Sie oben auf der **Seite Konferenzbrücken** auf **Einstellungen für Brücke.**
 
 3. Aktivieren oder **deaktivieren Sie im Bereich** Einstellungen der Brücke die Option Automatisches Senden von E-Mails an Benutzer, wenn sich **deren Einwahleinstellungen ändern.**
 
 4. Klicken Sie auf **Speichern**.
 
-  
 > [!Note]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
 
-**Verwenden von Windows PowerShell**
-  
+### <a name="using-windows-powershell"></a>Verwenden von Windows PowerShell
+
 Sie können auch das Microsoft Teams PowerShell-Modul verwenden und ausführen:
 
 ```PowerShell
@@ -85,18 +83,16 @@ Mit dem Cmdlet [Set-CsOnlineDialInConferencingTenantSettings](/powershell/module
 
 Weitere Informationen Microsoft Teams Sie in der [PowerShell-Referenz.](/powershell/module/teams/?view=teams-ps)
 
-    
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
-    
-  - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie ihre Microsoft 365 oder Office 365 über einen einzigen Administrationspunkt verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+
+- [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Beste Möglichkeiten zum Verwalten von Office 365 mit der Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
-    
-  
+
 ## <a name="related-topics"></a>Verwandte Themen
 
 [E-Mails, die an Benutzer gesendet werden, wenn sich ihre Audiokonferenzeinstellungen ändern](emails-sent-to-users-when-their-settings-change-in-teams.md)

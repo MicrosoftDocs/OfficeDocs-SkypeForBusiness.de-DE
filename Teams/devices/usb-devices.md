@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für die Microsoft Teams.
-ms.openlocfilehash: 97299120992cf6500822c452386a9f402cb6cf55
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: e23ffc5b4369cba27d7a405614df27099f2b2959
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766698"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055165"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-Audio- und Videogeräte, die für Microsoft Teams
 
-Das Peripheriegeräte-Zertifizierungsprogramm stellt sicher, dass USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) eine reichhaltige Audio- oder Videoqualität bieten. Zertifizierte Geräte funktionieren (mit & angeschlossen), ohne dass eine zusätzliche Konfiguration erforderlich ist, und bieten Anrufsteuerung mit Microsoft Teams und Skype for Business. Die Produkte bieten eine großartige Benutzererfahrung für Endbenutzer und Administratoren.
+Das Peripheriegeräte-Zertifizierungsprogramm stellt sicher, dass USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) eine reichhaltige Audio- oder Videoqualität bieten. Zertifizierte Geräte funktionieren (& spielen), ohne dass eine zusätzliche Konfiguration erforderlich ist, und bieten Anrufsteuerung mit Microsoft Teams und Skype for Business. Die Produkte bieten eine großartige Benutzererfahrung für Endbenutzer und Administratoren.
 
-Um Geräte zu erkunden, die für die Microsoft Teams zertifiziert sind, finden Sie im [Teams Store](https://products.office.com/microsoft-teams/across-devices/devices).
+Informationen zu Geräten, die für die Microsoft Teams getestet und zertifiziert sind, finden Sie [im Teams Store.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 Weitere Informationen zur Unterstützung der Anrufsteuerung mit Teams finden Sie unter Steuern von Anrufen mit einem Headset [in Teams.](https://support.office.com/article/Control-calls-using-a-headset-in-Teams-65d6e104-444d-4013-b8c2-f11317dd69a8)
 
@@ -35,17 +35,17 @@ Weitere Informationen zur Unterstützung der Anrufsteuerung mit Teams finden Sie
 
 ## <a name="understanding-certification-categories"></a>Grundlegendes zu Zertifizierungskategorien
 
-Benutzer müssen zuvor zertifizierte Geräte nicht ersetzen, wenn sie ein Upgrade auf Teams Von Skype for Business.  Alle zertifizierten Geräte werden von Microsoft Teams und Skype for Business, mit nur wenigen Unterschieden, unterstützt.  Durch die Zertifizierung werden auch bestimmte Gerätekategorien weiter bezeichnet.
+Benutzer müssen zuvor zertifizierte Geräte nicht ersetzen, wenn sie ein Upgrade auf Teams Von Skype for Business.  Alle zertifizierten Geräte werden von Microsoft Teams und Skype for Business Unterstützt, mit nur wenigen Unterschieden.  Durch die Zertifizierung werden auch bestimmte Gerätekategorien weiter bezeichnet.
 
-- **Skype for Business zertifiziert mit Teams Geräte,** die auf dieser Ebene zertifiziert wurden, wurden anfänglich für Skype for Business. Microsoft arbeitet mit Geräteherstellern zusammen, um die bestmögliche Benutzererfahrung Teams Integration ohne Änderungen an der ursprünglichen Hardware zu bieten. Die *Hookswitch-Schaltfläche* fungiert als Teams Schaltfläche, wenn sie nicht in einem Aufruf ist, und enthält im Laufe der Zeit möglicherweise weitere Funktionen.  Geräte in dieser Kategorie können das Zertifizierungsabzeichen Teams auf Marketingmaterialien übertragen.
-- **Zertifiziert für Microsoft Teams** Geräte, die auf dieser Ebene zertifiziert wurden, geben die neuesten geräte zertifizierten Geräte an, um die Benutzererfahrung Teams verbessern. Diese Geräte bieten alle Vorteile der vorherigen Zertifizierung und verfügen außerdem über eine dedizierte Schaltfläche Teams LED-Anzeige. Bei den meisten Formfaktoren ist Teams Schaltfläche eine leicht zu findende fühlbare Schaltfläche mit dem Teams Logo. Microsoft arbeitet mit Geräteherstellern zusammen, um im Laufe der Zeit über Firmwareupdates neue Werte zu bieten.
+- **Skype for Business geräte mit Teams dieser** Ebene zertifizierten Geräte wurden anfänglich für Skype for Business. Microsoft arbeitet mit Geräteherstellern zusammen, um die bestmögliche Benutzererfahrung Teams Integration ohne Änderungen an der ursprünglichen Hardware zu bieten. Die *Hookswitch-Schaltfläche* fungiert als Teams Schaltfläche, wenn sie nicht in einem Aufruf ist, und enthält im Laufe der Zeit möglicherweise weitere Funktionen.  Geräte in dieser Kategorie können das Zertifizierungsabzeichen Teams auf Marketingmaterialien übertragen.
+- **Zertifiziert für Microsoft Teams** Geräte, die auf dieser Ebene zertifiziert sind, geben die neuesten Geräte zertifiziert an, um die Benutzererfahrung Teams verbessern. Diese Geräte bieten alle Vorteile der vorherigen Zertifizierung und verfügen außerdem über eine dedizierte Schaltfläche Teams LED-Anzeige. Bei den meisten Formfaktoren ist Teams Schaltfläche eine leicht zu findende fühlbare Schaltfläche mit dem Teams Logo. Microsoft arbeitet mit Geräteherstellern zusammen, um im Laufe der Zeit über Firmwareupdates neue Werte zu bieten.
 
 ### <a name="special-usage-designations"></a>Besondere Nutzungsbezeichnungen
 
-- **Premium Mikrofon für das Öffnen Office** Alle Headsets werden getestet, um klare Audioqualität zu bieten, aber offene Büros und andere laute Umgebungen stellen eine größere Herausforderung dar. Headsets mit dieser Bezeichnung nehmen die Stimme des Headsetbenutzers auf, übertragen aber nicht den Klang der benachbarten Benutzer.
+- **Premium Mikrofon** für das Öffnen Office Alle Headsets werden getestet, um klare Audioqualität zu bieten, aber offene Büros und andere laute Umgebungen stellen eine größere Herausforderung dar. Headsets mit dieser Bezeichnung nehmen die Stimme des Headsetbenutzers auf, übertragen aber nicht den Klang der benachbarten Benutzer.
 - **Besprechungsraumgröße** Gemeinsam genutzte Geräte wie Freisprecheinrichtungen und Kameras verfügen über eine unterstützte Nutzungsdistanz. Empfohlene Entfernungen können je nach Hersteller unterschiedlich sein. Um Kunden eine klare Orientierung zu geben, werden alle gemeinsam genutzten Geräte bei der Zertifizierung für klar definierte Räume und Rauschumgebungen getestet.
 
-Durchsuchen [Sie Geräte, die für die Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
+Durchsuchen [Sie Geräte, die für Microsoft Teams.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 ## <a name="end-user-experience"></a>Endbenutzererfahrung
 
@@ -78,6 +78,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Zertifiziert für Microsoft Teams                           |
 |Lenovo               |Freisprechen mit Kabel                                      |1/10/2022       |Zertifiziert für Microsoft Teams                           |
 |DEN 8.                 |IMPACT SDW 5066T                                           |12/1/2021       |Zertifiziert für Microsoft Teams                           |
 |DEN 8.                 |IMPACT SDW 5063T                                           |12/1/2021       |Zertifiziert für Microsoft Teams                           |
@@ -87,7 +88,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 |DEN 8.                 |IMPACT SDW 5013T                                           |12/1/2021       |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Enthencast 20                                                |11/26/2021      |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Fokus "Reise" 2 und "Reise" Office Basis                    |10/20/2021      |Zertifiziert für Microsoft Teams                           |
-|Poly                 |Reisereise 4320 und Reisereise Office Base                       |10/20/2021      |Zertifiziert für Microsoft Teams                           |
+|Poly                 |Reiser 4320 und Reisereise Office Base                       |10/20/2021      |Zertifiziert für Microsoft Teams                           |
 |Poly                 |Reisereise 4310 und Reisereise Office Base                       |10/20/2021      |Zertifiziert für Microsoft Teams                           |
 |Jabra                |Evolve 2 75 Headset                                        |10/8/2021       |Zertifiziert für Microsoft Teams                           |
 |Logitech             |Zone Wired Earbuds                                         |9/2/2021        |Zertifiziert für Microsoft Teams                           |
@@ -196,7 +197,7 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 | Poly                | Reisereise 4245 Office                                       | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Blackwire 8225 Headset                                    | 3/23/2020      | Zertifiziert für Microsoft Teams                          |
 | Poly                | Calisto 5300-M                                            | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
-| Poly                | Reisereise 4210 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
+| Poly                | Reise 4210 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 4210 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |
 | Poly                | Reisereise 4220 Office                                       | 03/05/2020     | Zertifiziert für Microsoft Teams                          |
 | Poly                | Reiser 4220 UC                                           | 03/05/2020     | Skype for Business mit Upgrade auf Microsoft Teams     |

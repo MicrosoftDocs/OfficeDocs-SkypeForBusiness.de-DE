@@ -1,7 +1,7 @@
 ---
 title: Verfügbarkeit von Ländern/Regionen – Audiokonferenzen, Anrufpläne
-ms.author: czawideh
-author: czawideh
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: mikedav, jastark, oscarr, LolaJacobsen
 ms.topic: reference
@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie, ob Audiokonferenzen, Telefonsystem, Anrufpläne, Guthaben für Kommunikationen sowie gebührenpflichtige und gebührenfreie Telefonnummern in einem Land oder einer Region verfügbar sind.
-ms.openlocfilehash: 8480fcbe512ed53bf7a94753b22214b50b8f3f85
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: ab534a020e91caaa6f9608857d6de76f5505b899
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579525"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056075"
 ---
 # <a name="country-and-region-availability-for-audio-conferencing-and-calling-plans"></a>Verfügbarkeit nach Land und Region für Audiokonferenz und Anrufpläne
 
@@ -171,7 +171,7 @@ Nachdem Sie überprüft haben, ob einer der Skype for Business- oder Microsoft T
 
 ### <a name="audio-conferencing"></a>Audiokonferenzen
 
-In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams für genau diese Situation die Audiokonferenzfunktion. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Wenn Sie sich für Audiokonferenzen für Ihre Organisation entschieden haben, kaufen Sie eine Lizenz für **Audiokonferenzen** für jede Person in Ihrer Organisation, die Audiokonferenzen planen/hosten möchte.
+In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Skype for Business und Microsoft Teams für genau diese Situation ist die Audiokonferenzfunktion enthalten. Personen können sich mit einem Telefon anstatt mit der Skype for Business- und Microsoft Teams-App auf einem mobilen Gerät oder PC in Besprechungen einwählen. Wenn Sie sich für Audiokonferenzen für Ihre Organisation entschieden haben, kaufen Sie eine Lizenz für **Audiokonferenzen** für jede Person in Ihrer Organisation, die Audiokonferenzen planen/hosten möchte.
   
 Bei Audiokonferenzen gibt es gebührenpflichtige und gebührenfreie Telefonnummern, die Ihre Benutzer für die Einwahl in Besprechungen verwenden können. Gebührenpflichtige Telefonnummern für die folgenden Länder oder Regionen werden automatisch als freigegebene Audiokonferenznummern in Organisationen zugewiesen, wenn diese für Audiokonferenz aktiviert sind. Dedizierte gebührenpflichtige und gebührenfreie Nummern können Ihrer Organisation aus weiteren Städten zugewiesen werden.
 
@@ -193,9 +193,9 @@ Das Abwählen aus einer Besprechung in ein anderes Land bzw. eine andere Region 
   
 ### <a name="phone-system"></a>Telefonsystem
 
-Mit Telefonsystem erstellen Sie automatische Telefonkonferenzen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben der Anrufsteuerung zu erledigen, z. B. das Platzieren und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Die Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken und Skype for Business dann einen Anruf an diese Person ab. Zum Ein- und Empfangen von Anrufen **verwenden Telefonsystem-Benutzer** ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone, die mit ihrem Gerät Skype for Business.
+Mit Telefonsystem erstellen Sie automatische Telefonkonferenzen und Anrufwarteschleifen (mit einer gebührenpflichtigen oder gebührenfreien Nummer), um eingehende Anrufe für Ihre Organisation zu beantworten. Wenn Sie einen Anrufplan für Benutzer hinzufügen, können diese Skype for Business verwenden, um grundlegende Aufgaben der Anrufsteuerung zu erledigen, z. B. das Platzieren und Empfangen von Anrufen, das Durchstellen von Anrufen sowie das Stummschalten und Die Stummschaltung von Anrufen. **Telefonsystem** Benutzer auf einen Namen in ihrem Adressbuch klicken und Skype for Business dann einen Anruf an diese Person ab. Zum Ein- und Empfangen von Anrufen **verwenden Telefonsystem-Benutzer** ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines von vielen IP-Telefonen, die mit anderen Geräten Skype for Business.
 
-Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden als Dienstnummern bezeichnet. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
+Abhängig vom Bestand an gebührenpflichtigen Telefonnummern kann deren Verfügbarkeit an einigen dieser Standorte zu bestimmten Zeitpunkten variieren. Zusätzlich zum Abrufen von Telefonnummern für einzelne Benutzer ist es auch möglich, gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie Audiokonferenzen (für Konferenzbrücken), automatische Telefonkonferenzen und Anrufwarteschleifen zu suchen und zu erwerben. Diese werden Servicenummern genannt. Informationen zum Anfordern von Telefonnummern finden Sie unter [Anfordern von Diensttelefonnummern](../getting-service-phone-numbers.md). Für Ihre Benutzer können Sie jedoch nach dem Zuweisen eines Anrufplans eine Telefonnummer zuweisen, sodass die Benutzer Telefonanrufe tätigen und annehmen können. Um diese Telefonnummern zu finden, gehen Sie zu [Telefonnummern für Ihre Nutzer anfordern](../getting-phone-numbers-for-your-users.md). Weitere Informationen finden Sie zudem unter [Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer](../assign-change-or-remove-a-phone-number-for-a-user.md).
 
 [Preise für das Telefonsystem](https://www.microsoft.com/microsoft-teams/voice-calling?#office-StandaloneSKU-pkdogb9)
 

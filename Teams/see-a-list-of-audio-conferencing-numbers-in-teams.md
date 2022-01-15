@@ -1,7 +1,7 @@
 ---
 title: Anzeigen einer Liste mit Audiokonferenz-Telefonnummern
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,13 +21,13 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-apr2020
-description: Hier erfahren Sie, wie Sie die Nummern für Einwahlkonferenzen, die für Audiokonferenzen verfügbar sind, innerhalb eines Microsoft Teams.
-ms.openlocfilehash: 09eef2b2aac4bd6bd0b1eb7ea3d4f9cb3296008c
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+description: Hier erfahren Sie, wie Sie innerhalb einer Konferenz die für Audiokonferenzen verfügbaren Einwahlkonferenznummern Microsoft Teams.
+ms.openlocfilehash: 233b9817ca2c7d065af360b6aa3a2767159a7c49
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60536686"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055905"
 ---
 # <a name="see-a-list-of-audio-conferencing-numbers-in-microsoft-teams"></a>Anzeigen einer Liste mit Audiokonferenz-Telefonnummern in Microsoft Teams
 
@@ -44,21 +44,21 @@ Informationen zum [Ändern der Einwahltelefonnummer](set-the-phone-numbers-inclu
 
 ## <a name="to-view-your-audio-conferencing-phone-numbers"></a>So zeigen Sie Ihre Audiokonferenz-Telefonnummern an
 
- **Verwenden des Microsoft Teams Admin Centers**
+Verwenden des Microsoft Teams Admin Centers:
 
-1. Navigieren Sie in der linken Navigationsleiste zu **Konferenzbrücken**  >  **für Besprechungen.** 
+1. Navigieren Sie in der linken Navigationsleiste zu **Konferenzbrücken**  >  **für Besprechungen.**
 2. Zeigen Sie die für Audiokonferenzen verfügbaren Telefonnummern an.
 
 - Sie können auch den Standort und die primäre Sprache anzeigen, die von der automatischen Telefonkonferenz-Telefonkonferenz verwendet werden.
 
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
-Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Themen über die Verwendung von Windows PowerShell:
-    
-  - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
+
+- [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps).
   
 ## <a name="related-topics"></a>Verwandte Themen

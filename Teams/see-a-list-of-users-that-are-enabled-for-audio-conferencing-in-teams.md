@@ -1,7 +1,7 @@
 ---
 title: Eine Liste der für Audiokonferenzen aktivierten Benutzer
-ms.author: tonysmit
-author: tonysmit
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: oscarr
 ms.topic: article
@@ -21,17 +21,17 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 - seo-marvel-mar2020
-description: 'Hier erfahren Sie, wie Sie eine Liste der Benutzer in Ihrer Organisation anzeigen können, die innerhalb ihrer Organisation für Einwahlkonferenzen Microsoft Teams. '
-ms.openlocfilehash: ff63ca0b34bcdf86b3c261a018911f42a34dcb5c
-ms.sourcegitcommit: 12044ab8b2e79a7b23bf9a0918ae070925d21f3d
+description: 'Hier erfahren Sie, wie Sie eine Liste der Benutzer in Ihrer Organisation anzeigen, die innerhalb eines Microsoft Teams. '
+ms.openlocfilehash: 02fedbccff81b096b4bf1f7d9290978fd499fc5c
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61401909"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055695"
 ---
 # <a name="see-a-list-of-users-that-are-enabled-for-audio-conferencing-in-microsoft-teams"></a>Anzeigen einer Liste der für Audiokonferenzen aktivierten Benutzer in Microsoft Teams
 
-Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden. 
+Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen aktiviert haben, können Sie die Liste der Benutzer anzeigen, die aktiviert wurden.
 
 > [!NOTE]
 > [!INCLUDE [updating-admin-interfaces](includes/updating-admin-interfaces.md)]
@@ -43,34 +43,34 @@ Nachdem Sie die Microsoft Teams in Ihrer Organisation für Audiokonferenzen akti
 ## <a name="what-else-should-i-know"></a>Was sollte ich noch wissen?
 
 - Wenn Sie die Liste der aktivierten Benutzer anzeigen, können Sie einen Benutzer aus der Liste auswählen, um die Audiokonferenzeinstellungen für diesen Benutzer zu bearbeiten.
-    
-- Wenn Sie einen einzelnen Benutzer auswählen, können Sie die Dem Benutzer zugewiesene Standardtelefonnummer sowie alle anderen relevanten Audiokonferenzeinstellungen anzeigen.    
-   
+
+- Wenn Sie einen einzelnen Benutzer auswählen, können Sie die Dem Benutzer zugewiesene Standardtelefonnummer sowie alle anderen relevanten Audiokonferenzeinstellungen anzeigen.
+
 - Über die Schaltfläche „Suchen" können Sie Benutzer in der Liste suchen.
-    
+
 ## <a name="run-a-self-diagnostics-tool"></a>Ausführen eines Selbstdiagnosetools
 
-Microsoft 365 Administratorbenutzern Zugriff auf Diagnosen, die innerhalb des Mandanten ausgeführt werden können, um sicherzustellen, dass ein Benutzer eine PSTN-Telefonkonferenz erstellen kann. 
+Microsoft 365 Haben Administratoren Zugriff auf Diagnosen, die innerhalb des Mandanten ausgeführt werden können, um sicherzustellen, dass ein Benutzer eine PSTN-Telefonkonferenz erstellen kann.
 
 > [!NOTE]
->Dieses Feature ist für Behörden Microsoft 365, Microsoft 365 von 21Vianet oder Microsoft 365 Deutschland nicht verfügbar.
+>Dieses Feature ist für Behörden, Microsoft 365 Microsoft 365 21Vianet oder Microsoft 365 Deutschland nicht verfügbar.
 
 Wählen Sie Tests ausführen wie folgt aus. Dadurch wird das Diagnosetool im Microsoft 365 Admin auffüllt.
 >> [!div class="nextstepaction"]
 >> [Ausführen von Tests: Teams Conference](https://aka.ms/TeasConfDiag)
 
 Das Diagnosetool führt eine große Anzahl von Überprüfungen durch.
- 
+
 ## <a name="want-to-know-more-about-windows-powershell"></a>Möchten Sie mehr über Windows PowerShell erfahren?
 
 Bei Windows PowerShell dreht sich alles um das Verwalten von Benutzern und Funktionen, die Benutzer verwenden oder nicht verwenden können. Mit Windows PowerShell können Sie Microsoft 365 oder Office 365 mithilfe eines einzigen Administrationspunkts verwalten, der Ihre tägliche Arbeit vereinfachen kann, wenn Sie mehrere Aufgaben ausführen müssen. Informieren Sie sich in den folgenden Artikeln über die Verwendung von Windows PowerShell:
-    
-  - [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
-    
-  - [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
-    
+
+- [Warum Sie Office 365 PowerShell verwenden müssen](/microsoft-365/enterprise/why-you-need-to-use-microsoft-365-powershell)
+
+- [Beste Möglichkeiten zum Verwalten von Microsoft 365 oder Office 365 mit Windows PowerShell](/previous-versions//dn568025(v=technet.10))
+
 Weitere Informationen zu Windows PowerShell finden Sie in der [PowerShell-Referenz für Microsoft Teams](/powershell/module/teams/?view=teams-ps&preserve-view=true).
-    
+
 ## <a name="related-topics"></a>Verwandte Themen
 
 [Testen oder Kaufen des Audiokonferenz-Add-Ons in Microsoft 365 oder Office 365](/SkypeForBusiness/audio-conferencing-in-office-365/try-or-purchase-audio-conferencing-in-office-365)

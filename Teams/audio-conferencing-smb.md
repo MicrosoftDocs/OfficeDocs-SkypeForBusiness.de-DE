@@ -1,7 +1,7 @@
 ---
 title: Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: heidip
+author: MicrosoftHeidi
 manager: serdars
 ms.reviewer: jonorton, tonysmit
 ms.topic: article
@@ -21,16 +21,16 @@ f1.keywords:
 ms.custom:
 - Audio Conferencing
 description: 'Erfahren Sie, wie Sie Audiokonferenzen in Ihrem kleinen oder mittleren Unternehmen für Personen festlegen, die sich per Telefon in Besprechungen einrufen müssen. '
-ms.openlocfilehash: cd11d5c3c348b64717cb092a523ee857639712c6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fc9a87c2e516dc97fae5c71f72b5a7ef82c75c8d
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827408"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62055625"
 ---
 # <a name="set-up-audio-conferencing-for-small-and-medium-businesses"></a>Einrichten von Audiokonferenzen für kleine und mittelständische Unternehmen
 
-Mit Audiokonferenzen können sich Personen mit einem Telefon in Teams-Besprechungen einrufen, anstatt die Teams-App auf dem Mobilgerät oder vom Computer aus zu verwenden.  
+Mit Audiokonferenzen können sich Personen mit einem Telefon in Teams-Besprechungen einrufen, statt die Teams-App auf ihrem Mobilgerät oder vom Computer aus zu verwenden.  
 
 Wenn Sie ein kleines oder mittelgroßes Unternehmen mit bis zu 300 Benutzern sind und aktuell über keine Lizenzen für Audiokonferenzen verfügen, können Sie Audiokonferenzen ein Jahr kostenlos erhalten. Dieses kostenlose Angebot ist ab dem 1. Oktober 2020 verfügbar.
 
@@ -52,7 +52,7 @@ Wenn Sie Audiokonferenzen einrichten, wird Ihrer Konferenzbrücke automatisch ei
 
 Erhalten Sie eine Lizenz für Audiokonferenzen für jede Person, die Besprechungen führt. Verwenden Sie Microsoft 365 Admin Center zu diesem Thema.
 
-1. Wechseln Sie Microsoft 365 Admin Center Seite zu **Dienste** für den Abrechnungskauf, und wählen Sie dann unten auf der Seite  >   **Add-Ons aus.**
+1. Wechseln Sie Microsoft 365 Admin Center Dienste zum Kauf von Abrechnungen , und wählen Sie dann unten auf der Seite  >   **Add-Ons aus.**
 2. Wählen **Microsoft 365 audio conferencing adoption promo**  >  **details** aus, und wählen Sie dann Jetzt erhalten **aus.**
 3. Geben Sie die Anzahl der Lizenzen ein, die Sie für Ihre Besprechungsorganisatoren benötigen, und füllen Sie dann Ihre Bestellung aus.
 
@@ -69,18 +69,18 @@ Weisen Sie jeder Person, die Besprechungen führen soll, eine Lizenz zu. Verwend
 
 1. Wechseln Sie Microsoft 365 Admin Center Der Benutzer zu  >  **Aktive Benutzer.**  
 2. Wählen Sie die Zeile des Benutzers aus, dem Sie die Lizenz zuweisen möchten, und wählen Sie dann im Bereich Lizenzen **und Apps aus.**
-3. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz,** und wählen Sie dann **Änderungen speichern aus.**
+3. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz aktivieren,** und wählen Sie dann **Änderungen speichern aus.**
 
 #### <a name="assign-a-license-to-multiple-users"></a>Zuweisen einer Lizenz für mehrere Benutzer
 
 1. Wechseln Sie Microsoft 365 Admin Center Der Benutzer zu  >  **Aktive Benutzer.**  
 2. Wählen Sie die Kreise neben den Benutzern aus, den Sie die Lizenz zuweisen möchten, und wählen Sie dann **Produktlizenzen verwalten aus.**
 3. Wählen Sie **im Bereich Produktlizenzen** verwalten die Option **Weitere zuweisen aus.**
-4. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz,** und wählen Sie dann **Änderungen speichern aus.**  
+4. Aktivieren Sie **Microsoft 365 Kontrollkästchen Audiokonferenz aktivieren,** und wählen Sie dann **Änderungen speichern aus.**  
 
 ## <a name="schedule-teams-meetings-in-outlook"></a>Planen Teams Besprechungen in Outlook
 
-Ihre Besprechungsorganisatoren können jetzt Besprechungen in einem Outlook. Wechseln Outlook Kalender, und wählen Sie dann die Schaltfläche Teams **Besprechung** aus. Die Einwahlnummern der Besprechung und die Konferenz-ID werden automatisch der Besprechungseinladung hinzugefügt, die an die Besprechungsteilnehmer gesendet wird. Weitere Informationen finden Sie unter [Planen Teams Besprechung in Outlook.](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
+Ihre Besprechungsorganisatoren können jetzt Besprechungen in einem Outlook. Wechseln Outlook Kalender, und wählen Sie dann die Schaltfläche Neues Teams **aus.** Die Einwahlnummern der Besprechung und die Konferenz-ID werden automatisch der Besprechungseinladung hinzugefügt, die an die Besprechungsteilnehmer gesendet wird. Weitere Informationen finden Sie unter [Planen Teams Besprechung in Outlook.](https://support.microsoft.com/office/schedule-a-teams-meeting-from-outlook-883cc15c-580f-441a-92ea-0992c00a9b0f)
 
 > [!NOTE]
 > Wenn Sie möchten, können Sie Besprechungseinladungen anpassen, um Ihr Firmenlogo, Links zur Supportwebsite und einen Haftungsausschluss sowie eine Fußzeile als Text hinzuzufügen. Weitere Informationen finden Sie unter [Anpassen von Besprechungseinladungen.](meeting-settings-in-teams.md#customize-meeting-invitations)
@@ -93,7 +93,7 @@ Es gibt zwei Arten von Nummern, die Sie für Ihre Konferenzbrücke verwenden kö
 
 Eine freigegebene Nummer ist eine Nummer, die von allen Organisationen gemeinsam genutzt wird. Freigegebene Nummern sind gebührenpflichtige Nummern und werden automatisch zugewiesen, wenn Sie Audiokonferenzen einrichten.
 
-Wenn Sie die Standardnummer sehen möchten, die Ihrer Konferenzbrücke zugewiesen ist, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu Konferenzbrücken für Besprechungen, und suchen Sie dann die Nummer für den  >  nächstgelegenen Ort.
+Wenn Sie die Standardnummer sehen möchten, die Ihrer Konferenzbrücke zugewiesen ist, wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu Konferenzbrücken für Besprechungen , und suchen Sie dann die Nummer für den  >  nächstgelegenen Ort.
 
 ### <a name="dedicated-numbers"></a>Dedizierte Nummern
 
