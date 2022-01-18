@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 37d7c3999986373e7ad72176cfc0182f09144e3a
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
+ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205415"
+ms.lasthandoff: 01/15/2022
+ms.locfileid: "62056085"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -255,18 +255,12 @@ Die Aufzeichnung wird in diesem Fall im temporären Speicher aufbewahrt und sie 
 Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher, dass Sie die für aufgezeichnete Dateien erforderliche Kapazität kennen und über genügend Speicherplatz in Microsoft OneDrive for Business und SharePoint Online verfügen.  Lesen Sie [Festlegen des Standardspeicherplatzes für OneDrive for Business](/onedrive/set-default-storage-space) und [Verwalten von Speicherlimiten für SharePoint Online-Websites](/sharepoint/manage-site-collection-storage-limits), um den im Abonnement enthaltenen Basisspeicher zu verstehen und zu erfahren, wie Sie zusätzlichen Speicher erwerben können.
 
  <a name="auto-expiration"></a>
-### <a name="auto-expiration-of-teams-meeting-recordings"></a>Automatisches Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen: 
+### <a name="auto-expiration-of-teams-meeting-recordings"></a>Automatisches Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen
 
-> [!IMPORTANT]
->
-> Das in diesem Artikel beschriebene Feature für das automatische Ablaufen wurde noch nicht veröffentlicht. Nähere Informationen zum Veröffentlichungstermin finden Sie in der [Roadmap (Feature-ID: 84580)](https://www.microsoft.com/microsoft-365/roadmap?searchterms=82057&filters=&searchterms=84580).
-> 
-> Wir bieten Ihnen Informationen dazu, wie dieses Feature in Zukunft funktionieren wird, damit Sie sich auf diese Änderung vorbereiten und die Microsoft Teams-Richtlinieneinstellungen im Voraus entsprechend ändern können.
->
-> Der Befehl zum präventiven Ändern der Standardablaufeinstellung in Teams befindet sich zurzeit in der Bereitstellung, aber möglicherweise wird das Attribut in PowerShell bereits angezeigt. Die Einstellung ist in den Teams Admin Centern zurzeit nicht verfügbar. Diese Einstellungen werden mindestens 30 Tage, bevor wir das Feature starten, verfügbar sein und in einem Beitrag im Nachrichtencenter mitgeteilt.
->
->
+Weitere Informationen zu administratorspezifischen Änderungen [finden Sie hier](meeting-expiration.md#changes-to-meeting-expiration).
 
+Weitere Informationen darüber, wie Endbenutzer den Ablauf von Besprechungen verwalten können [finden Sie hier](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+  
 Lesen Sie Antworten auf häufig gestellte Fragen für Administratoren und Endbenutzer, um Erkenntnisse darüber zu erhalten, wie das automatische Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen funktionieren wird, welche Maßnahmen Sie jetzt ergreifen können und welche nach Veröffentlichung des Features.
   
 ## <a name="frequently-asked-questions"></a>Häufig gestellte Fragen
