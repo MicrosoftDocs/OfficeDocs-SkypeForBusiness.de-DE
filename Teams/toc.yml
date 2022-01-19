@@ -1435,6 +1435,8 @@ items:
             href: alerts/device-health-status.md
           - name: Teams- und Peripheriegeräte
             href: teams-device-health.md
+          - name: Verwenden von Verwaltungseinheiten zum Verwalten von Geräten
+            href: administrative-unit.md
   - name: 'Apps, Bots und Connectors'
     items:
       - name: Übersicht
@@ -1489,10 +1491,10 @@ items:
                 href: teams-app-permission-policies.md
               - name: Verwalten von Richtlinien für App-Setup in Teams
                 href: teams-app-setup-policies.md
-              - name: Anpassen von Teams-Apps basierend auf der Lizenz
-                href: pin-teams-apps-based-on-license.md
               - name: Verwalten von benutzerdefinierten App-Richtlinien und Einstellungen in Teams
                 href: teams-custom-app-policies-and-settings.md
+          - name: Anpassen von Teams-Apps basierend auf der Lizenz
+            href: pin-teams-apps-based-on-license.md
           - name: Anzeigen von App-Berechtigungen und Erteilen der Administratorzustimmung
             href: app-permissions-admin-center.md
           - name: Ressourcenspezifische Zustimmung

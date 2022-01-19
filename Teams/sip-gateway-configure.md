@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-jun2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a4548ab9abfd96b3945c19c07e08baf1ede05983
-ms.sourcegitcommit: 1e83f2c1ed12bcb611eb4eb0a5f1f58496c63147
+ms.openlocfilehash: 1af44c5e3962f89346cae166bf40efa6a8622338
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/13/2021
-ms.locfileid: "61426107"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62065181"
 ---
 # <a name="configure-sip-gateway"></a>Konfigurieren des SIP-Gateways
 
@@ -36,11 +36,11 @@ Bevor Sie das SIP-Gateway konfigurieren können, gehen Sie wie folgt vor:
 
 - **Setzen Sie SIP-Geräte auf die Werkseinstellungen zurück.** Die Benutzer Ihrer Organisation müssen jedes sip-Gerät, das mit dem SIP-Gateway verwendet wird, auf die Werkseinstellungen zurücksetzen. Anweisungen dazu finden Sie in den Anweisungen des Herstellers.
 
-- **Öffnen Sie Ihre Firewall, um Microsoft 365 und Teams.** Öffnen Sie die Firewall Ihres Netzwerks, Microsoft 365 und Teams Datenverkehr zu senden, wie in den folgenden Office 365 URLs und [IP-Adressbereichen beschrieben.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
+- **Öffnen Sie Ihre Firewall, um Microsoft 365 und Teams.** Öffnen Sie die Firewall Ihres Netzwerks, um Microsoft 365 und Teams zu senden, wie in den Office 365 URLs und [IP-Adressbereichen beschrieben.](/microsoft-365/enterprise/urls-and-ip-address-ranges)
 
 - **Stellen Sie sicher, dass sich die SIP-Geräte nicht hinter einem Proxy befinden.** Stellen Sie sicher, dass http/s-Datenverkehr jeden http/s-Proxy des Unternehmens umgeht.
 
-- **Öffnen Sie den UDP-Port.** Öffnen Sie den UDP-Port im Bereich 49152 bis 53247.
+- **Öffnen Sie den UDP-Port.** Öffnen Sie den UDP-Port im Bereich 49152 bis 53247 für die IP-Bereiche 52.112.0.0/14 bis 52.120.0.0/14.
 
 - **Öffnen Sie den TCP-Port.** Öffnen Sie TCP-Port 5061 für IP-Bereiche 52.112.0.0/14 bis 52.120.0.0/14.
 
@@ -82,15 +82,15 @@ In diesem Artikel wird außerdem beschrieben, wie Sie:
 
 1. Melden Sie sich beim [Teams Admin Center an.](https://admin-teams.microsoft.com/)
 
-2. Wählen Sie links die Option Teams **aus,** und sehen Sie, ob die Registerkarte **SIP-Geräte** angezeigt wird. In diesem Falls ist der SIP-Gatewaydienst für Ihre Organisation aktiviert.
+2. Wählen Sie auf der linken **Seite Teams aus,** und sehen Sie, ob die Registerkarte **SIP-Geräte** angezeigt wird. In diesem Falls ist der SIP-Gatewaydienst für Ihre Organisation aktiviert.
 
 ## <a name="enable-sip-gateway-for-the-users-in-your-organization"></a>Aktivieren des SIP-Gateways für die Benutzer in Ihrer Organisation
 
-Sie können SIP Gateway für Ihre Organisation auf eine von zwei Arten aktivieren: mithilfe des Teams Admin Centers oder eines PowerShell-Cmdlets.
+Sie können SIP Gateway für Ihre Organisation auf eine von zwei Arten aktivieren: mithilfe des Teams Admin Centers oder mithilfe eines PowerShell-Cmdlets.
 
 ### <a name="by-using-teams-admin-center"></a>Verwenden des Teams Admin Centers
 
-Führen Sie die folgenden Schritte aus, um im Teams Admin Center DAS SIP-Gateway zu aktivieren:
+Führen Sie die folgenden Schritte aus, Teams SIP-Gateway im Admin Center zu aktivieren:
 
 1. Wechseln Sie zum [Teams Admin Center.](https://admin.teams.microsoft.com/)
 
@@ -123,7 +123,7 @@ Legen Sie für jedes SIP-Gerät eine der folgenden SIP-Gatewaybereitstellungsser
 - Amerika: `http://noam.ipp.sdg.teams.microsoft.com`
 - APAC: `http://apac.ipp.sdg.teams.microsoft.com`
 
-Fügen Sie SIP-Geräte zu Ihrer Teams hinzu, indem Sie die oben aufgeführte SIP-Gatewaybereitstellungsserver-URL in Ihrem DHCP-Server konfigurieren. Weitere Informationen zum DHCP-Server finden Sie unter [Bereitstellen und Verwalten von DHCP.](/learn/modules/deploy-manage-dynamic-host-configuration-protocol) Außerdem können Sie DHCP-Option 42 verwenden, um den NTP-Server (Network Time Protocol) anzugeben, und DHCP-Option 2, um den Offset von UTC (Coordinated Universal Time) in Sekunden anzugeben. Die Geräte in Ihrer Organisation werden an den SIP-Gatewaybereitstellungsserver geroutet. Bei einer erfolgreich bereitgestellten SIP-Telefone werden das Teams und eine weiche Schaltfläche für die Anmeldung angezeigt.
+Fügen Sie SIP-Geräte zu Ihrer Teams hinzu, indem Sie die oben aufgeführte SIP-Gatewaybereitstellungsserver-URL in Ihrem DHCP-Server konfigurieren. Weitere Informationen zum DHCP-Server finden Sie unter [Bereitstellen und Verwalten von DHCP.](/learn/modules/deploy-manage-dynamic-host-configuration-protocol) Außerdem können Sie DHCP-Option 42 verwenden, um den NTP-Server (Network Time Protocol) anzugeben, und DHCP-Option 2, um den Offset von UTC (Coordinated Universal Time) in Sekunden anzugeben. Die Geräte in Ihrer Organisation werden an den SIP-Gatewaybereitstellungsserver geroutet. Erfolgreich bereitgestellte SIP-Telefone zeigen das Teams und eine weiche Schaltfläche für die Anmeldung an.
 
 Stellen Sie sicher, dass für SIP-Geräte die mindestens unterstützte Firmwareversion für onboarding verwendet wird. Während des Onboardings über das SIP-Gateway wird die Standardkonfigurations- und Authentifizierungs-Benutzeroberfläche an das Gerät übertragen. Informationen zur erforderlichen Firmwareversion für SIP-Geräte finden Sie unter [Planen für das SIP-Gateway.](sip-gateway-plan.md)
 
@@ -135,7 +135,7 @@ Benutzer, die remote arbeiten, müssen die Bereitstellungsserver-URL manuell in 
 
 2. Öffnen Sie ein Browserfenster, geben Sie die IP-Adresse des Geräts ein, melden Sie sich gegebenenfalls an, und konfigurieren Sie die URL des Bereitstellungsservers im Webdienstprogramm des Geräts.
 
-3. Geben **Einstellungen** Unter erweiterte Einstellungen **für** das Web-Hilfsprogramm die oben gezeigte BEREITSTELLUNGsserver-URL ein.
+3. Geben **Einstellungen** unter erweiterte **Einstellungen für** das Web-Hilfsprogramm die oben gezeigte BEREITSTELLUNGsserver-URL ein.
 
 > [!NOTE]
 > - Nur kompatible SIP-Geräte können in das SIP-Gateway onboarded werden. 
@@ -147,7 +147,7 @@ Benutzer, die remote arbeiten, müssen die Bereitstellungsserver-URL manuell in 
 
 ## <a name="configure-conditional-access"></a>Konfigurieren des bedingten Zugriffs
 
-Der bedingte Zugriff ist Azure Active Directory (Azure AD) Funktion, mit der sichergestellt wird, dass Geräte, die auf Ihre Microsoft 365 zugreifen, ordnungsgemäß verwaltet und sicher sind. SIP Gateway authentifiziert SIP-Geräte bei Azure AD. Wenn Ihre Organisation bedingten Zugriff für Geräte im Unternehmensnetzwerk verwendet, sollten die folgenden IP-Adressen ausgeschlossen werden:
+Der bedingte Zugriff ist ein Azure Active Directory (Azure AD), mit dem sichergestellt wird, dass Geräte, die auf Ihre Microsoft 365-Ressourcen zugreifen, ordnungsgemäß verwaltet und sicher sind. SIP Gateway authentifiziert SIP-Geräte bei Azure AD. Wenn Ihre Organisation bedingten Zugriff für Geräte im Unternehmensnetzwerk verwendet, sollten die folgenden IP-Adressen ausgeschlossen werden:
 
 - Nordamerika:
     - USA, Osten: 52.170.38.140
@@ -170,7 +170,7 @@ Um Ihre Aufgaben zu optimieren, können Sie SIP-Geräte im Teams Admin Center en
 
 1. Melden Sie sich beim [**Teams Admin Center an.**](https://admin.teams.microsoft.com)
 
-2. Wählen Sie   >  **Teams-Geräte SIP-Geräte aus.**
+2. Wählen Sie **Teams**  >  **SIP-Geräte aus.**
 
 3. Wählen Sie oben rechts Geräte **für** Aktionen bereitstellen aus,  >   und führen Sie einen der folgenden Schritte aus:
 
@@ -186,19 +186,19 @@ Um Ihre Aufgaben zu optimieren, können Sie SIP-Geräte im Teams Admin Center en
 
    - **So können Sie viele Geräte bereitstellen:**
 
-     a. Wählen **Sie rechts unter** Warten auf die Aktivierung die Option **Exportieren** aus (das Microsoft Excel Symbol).
+     a. Wählen **Sie rechts unter Warten** auf die Aktivierung die Option **Exportieren** aus (das Microsoft Excel Symbol).
      
      b. Wählen Sie **im Bereich Geräte** bereitstellen unter Hochladen **MAC-Adressen** die Option Vorlage **herunterladen aus.**
      
-     c. Speichern **Template_Provisioning.csv** auf Ihrem Computer, und geben Sie die **Felder MAC-ID und** **Speicherort** ein.
+     c. Speichern **Template_Provisioning.csv** auf Ihrem Computer, und füllen Sie die **Felder MAC-ID** und **Speicherort** aus.
     
      d. Wählen Sie **im Bereich Geräte** bereitstellen die Option Hochladen **MAC-Adressen aus.** 
 
-     e. Wählen Sie rechts im Bereich **Hochladen Mac-Adressen** die Option Datei auswählen **aus,** und wählen Sie dann dieTemplate_Provisioning.csv **aus,** die Ihre Daten enthält.
+     e. Wählen Sie rechts im bereich **Hochladen Mac-Adressen** die Option Datei auswählen **aus,** und wählen Sie dann dieTemplate_Provisioning.csv **aus,** die Ihre Daten enthält.
 
      f. Wählen Sie **im Bereich** Geräte bereitstellen unter Bei Aktivierung  warten ein Gerät aus, und wählen Sie dann Überprüfungscode generieren aus, um für jedes bereitgestellte Gerät einen einmalverifizierungscode zu generieren.  Notieren Sie sich den Prüfcode für jedes SIP-Gerät.
 
-4. Wählen Sie auf dem SIP-Gerät den Registrierungsfunktionscode gefolgt vom Prüfcode. Wählen Sie auf dem SIP-Gerät den Registrierungsfunktionscode 55* (wird vom SIP-Gateway für die Überprüfung des Codes zur einmalüberprüfung verwendet), gefolgt vom Prüfcode, der im Teams Admin Center für dieses bestimmte Gerät generiert \* wird. Wenn beispielsweise der Prüfcode installiert ist, wählen 123456 \* 55 \* 123456, um das Gerät zu registrieren.
+4. Wählen Sie auf dem SIP-Gerät den Registrierungsfunktionscode gefolgt vom Prüfcode. Wählen Sie auf dem SIP-Gerät den Registrierungsfunktionscode 55* (wird vom SIP-Gateway für die Überprüfung des Codes zur einmalüberprüfung verwendet), gefolgt vom Prüfcode, der im Teams Admin Center für dieses bestimmte Gerät generiert \* wird. Wenn der Prüfcode beispielsweise als Prüfcode 123456, wählen Sie \* 55 \* 123456, um das Gerät zu registrieren.
 
 5.  Wählen Sie **im Bereich Geräte** bereitstellen unter Auf Anmeldung **warten** die Option **Abmelden aus.**
 
@@ -210,7 +210,7 @@ Um Ihre Aufgaben zu optimieren, können Sie SIP-Geräte im Teams Admin Center en
 
 9. Geben Sie **auf der** Seite Kennwort das Kennwort für die E-Mail-Adresse für das SIP-Gerät ein, und wählen Sie **anmelden aus.**
 
-10. Wählen Sie auf der Seite Versuchen Sie, sich bei einem **SIP Teams Gerät-Gateway** anmelden die Option **Weiter aus.**
+10. Wählen Sie auf der Seite Are **you trying to sign in to Teams SIP devices gateway** die Option Continue **aus.**
 
 ## <a name="how-to-sign-in-and-sign-out"></a>Anmelden und Abmelden
 
@@ -234,7 +234,7 @@ Um ein SIP-Gerät zu koppeln, nachdem sich der Benutzer mit Unternehmensanmeldei
 3. Geben Sie den auf dem SIP-Telefon angezeigten Kopplungscode in die Webauthentifizierungs-App ein, um das SIP-Telefon mit dem Konto des Benutzers zu koppeln. Bei einer erfolgreichen Anmeldung, die eine Weile dauern kann, zeigt das SIP-Telefon die Telefonnummer und den Benutzernamen an, sofern das Gerät dies unterstützt.
 
 > [!NOTE]
-> Der Standort des in der Webauthentifizierungs-App Azure Active Directory angezeigten Geräts ist das SIP-Gateway-Rechenzentrum, mit dem das Gerät verbunden ist. SIP-Telefone im Bereich sind nicht OAuth-fähig, daher authentifiziert das SIP-Gateway den Benutzer über die Webauthentifizierungs-App und paart das Gerät dann mit den Anmeldeinformationen des Benutzers. Weitere Informationen finden Sie [hier: Microsoft Identity Platform und den Autorisierungserteilungsablauf für OAuth 2.0-Geräte.](/azure/active-directory/develop/v2-oauth2-device-code)
+> Der Standort des Geräts, das in der Webauthentifizierungs-App Azure Active Directory wird, ist das SIP-Gateway-Rechenzentrum, mit dem das Gerät verbunden ist. SIP-Telefone im Bereich sind nicht OAuth-fähig, daher authentifiziert das SIP-Gateway den Benutzer über die Webauthentifizierungs-App und paart das Gerät dann mit den Anmeldeinformationen des Benutzers. Weitere Informationen finden Sie [hier: Microsoft Identity Platform und den Autorisierungserteilungsablauf für OAuth 2.0-Geräte.](/azure/active-directory/develop/v2-oauth2-device-code)
 
 ### <a name="sign-out"></a>Abmelden
 
@@ -242,7 +242,7 @@ Ein Gerätebenutzer kann sich abmelden:
 
 - Drücken **Sie auf dem SIP-Gerät** die Abmelde-Taste, und führen Sie die auf dem Gerät beschriebenen Schritte aus. 
 
-So melden Sie sich über das Teams Admin Center ab:
+So melden Sie sich auf dem Teams Admin Center ab:
 
 1. Melden Sie sich beim [**Teams Admin Center an.**](https://admin.teams.microsoft.com)
 
@@ -255,7 +255,7 @@ So melden Sie sich über das Teams Admin Center ab:
 
 ## <a name="view-and-monitor-sip-devices"></a>Anzeigen und Überwachen von SIP-Geräten
 
-Sie können ihren SIP-Geräteinventar im Teams Admin Center anzeigen und überwachen, nachdem sich die Benutzer der Geräte mindestens einmal anmelden. Dazu gehen Sie so vor:
+Sie können Ihren SIP-Geräteinventar im Teams Admin Center anzeigen und überwachen, nachdem sich die Benutzer der Geräte mindestens einmal anmelden. Dazu gehen Sie so vor:
 
 1. Melden Sie sich beim [Teams Admin Center an.](https://admin.teams.microsoft.com/)
 
@@ -307,7 +307,7 @@ So legen Sie Japanisch für Cisco Phones fest:
 
 ## <a name="microsoft-teams-and-ipv6"></a>Microsoft Teams und IPv6
 
-SIP-Gateway unterstützt nur IPv4. Microsoft Teams-Dienst und Client unterstützen sowohl IPv4 als auch IPv6. Wenn Sie die Kommunikation mit E-Mail-Microsoft Teams möchten, verwenden Sie die IP-Adressbereiche in Microsoft 365 [URLs und IP-Adressbereichen](/microsoft-365/enterprise/urls-and-ip-address-ranges).
+SIP-Gateway unterstützt nur IPv4. Microsoft Teams-Dienst und -Client unterstützen IPv4 und IPv6. Wenn Sie die Kommunikation mit E-Mail-Microsoft Teams möchten, verwenden Sie die IP-Adressbereiche in Microsoft 365 [URLs und IP-Adressbereichen](/microsoft-365/enterprise/urls-and-ip-address-ranges).
 
 ## <a name="emergency-calling"></a>Notrufe
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Teams-Räume Softwareinstallation
+title: Microsoft Teams-Räume Software-Installation
 author: donnah007
 ms.author: v-donnahill
 manager: serdars
@@ -17,16 +17,16 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Onboarding Teams-Räume zu verwalteten Diensten
 f1keywords: ''
-ms.openlocfilehash: 70209bcd60740f1d1e19b45b215b921396a6f0fd
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a02f47970392d5c428eb2cd76387678c1c2a5ed6
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767497"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62071053"
 ---
 # <a name="monitor-device-software-installation"></a>Überwachen der Installation von Gerätesoftware
 
-Die Bereitstellung setzt das Onboarding Microsoft Teams-Räume von Geräten in die Microsoft Teams-Räume verwalteten Dienste voraus. Der Überwachungsdienst-Agent ist für die Verwendung mit zertifizierten MICROSOFT TEAMS(MTR)-Systemen und Peripheriegeräten verwendet.
+Die Bereitstellung erfordert onboarding Microsoft Teams-Räume geräte in die Microsoft Teams-Räume verwalteten Dienste. Der Überwachungsdienst-Agent ist für die Verwendung mit zertifizierten MICROSOFT TEAMS(MTR)-Systemen und Peripheriegeräten.
 
 ## <a name="performing-operations-as-the-admin-user-of-the-mtr-device"></a>Ausführen von Vorgängen als Administratorbenutzer des MTR-Geräts
 
@@ -35,17 +35,17 @@ Bei einigen Konfigurations-/Installationsprozeduren müssen Sie sich als Adminis
 So melden Sie sich als Administrator (lokaler Administrator) beim Gerät an:
 
 1. Stellen Sie sicher, dass Sie bei laufenden Anrufen auflegen und zum Startbildschirm zurückkehren.
-1. Wählen Sie auf der Microsoft Teams Room-Benutzeroberfläche mehr **und** dann **Einstellungen** aus. Dort werden Sie auf dem Gerät zur Eingabe des lokalen Administratorkennworts aufgefordert (das Standardkennwort ist **_sFB)._**
-1. Wählen **Einstellungen** aus, und wählen Sie dann Windows Einstellungen **aus,** um auf Windows als lokalen Administrator zu zugreifen.  
+1. Wählen Sie auf der Microsoft Teams Room-Benutzeroberfläche mehr **und** dann **Einstellungen** aus. Dort werden Sie auf dem Gerät zur Eingabe des lokalen Administratorkennworts aufgefordert (das Standardkennwort ist **_sfb_**).
+1. Wählen **Einstellungen** aus, und wählen Sie dann **Windows Einstellungen** aus, Windows Sie als lokaler Administrator auf die Liste zugreifen.  
 
-1. Wählen Sie in der Liste der Benutzer, die im Anmeldebildschirm Windows angezeigt werden, **Administrator** (oder den jeweiligen lokalen Administrator Ihres Geräts) aus.
+1. Wählen Sie in der Liste der Benutzer, die auf dem Windows angezeigt werden, **Administrator** (oder den jeweiligen lokalen Administrator Ihres Geräts) aus.
 
 > [!NOTE]
 > Wenn der Computer Mitglied einer Domäne *ist,* wählen Sie Anderer **Benutzer** aus, und verwenden Sie dann **.\admin** oder den Benutzernamen des lokalen Administrators, der auf dem Gerät als Benutzername konfiguriert wurde.  
 
 So kehren Sie zur App Microsoft Teams Raum" zurück, nachdem Sie die erforderlichen Verwaltungsaufgaben ausgeführt haben:
 
-1. Melden Sie sich im Windows ***Startmenü***-Konto beim Administratorkonto ab.
+1. Melden Sie Windows ***Startmenü*** Konto vom Administratorkonto ab.
 1. Kehren Sie Microsoft Teams zu Ihrem Raum zurück, indem Sie das Benutzerkontosymbol ganz links auf dem Bildschirm und dann auf **Skype.**
 
 > [!NOTE]
@@ -58,7 +58,7 @@ Führen Sie die folgenden Verfahren aus, um Ihre Hardware vor dem Registrierungs
 ### <a name="adding-proxy-settings-optional"></a>Hinzufügen von Proxyeinstellungen (optional)
 
 1. Melden Sie sich als Administrator an, indem Sie Ausführen von Vorgängen als Administrator [des MTR-Geräts ausführen.](#performing-operations-as-the-admin-user-of-the-mtr-device)
-1. Geben Sie im Windows ***** Suchen _ (Abschnitt unten links auf dem Bildschirm) _ *cmd** ein (drücken Sie entweder lange auf den Bildschirm, oder wählen Sie nach rechts aus, und wählen Sie Als Administrator **_ausführen aus)._**  
+1. Geben Sie im Windows ***** Suchen _ (Abschnitt unten links auf dem Bildschirm) die Option _ *cmd** ein (drücken Sie entweder lange auf den Bildschirm, oder wählen Sie nach rechts aus, und wählen Sie Als Administrator **_ausführen aus)._**  
 1. Führen Sie den folgenden Befehl aus (doppelte Anführungszeichen am Ende des Befehls sind wichtig):
    - Bei Verwendung eines einzelnen ***Proxyservers:*** bitsadmin /Util /SetIEProxy LOCALSYSTEM MANUAL \_ PROXY : <proxyserver> <port> ""
 
@@ -87,7 +87,7 @@ Wenn TPM auf einem Intel NUC-Gerät deaktiviert ist, aktivieren Sie TPM auf dies
 ## <a name="urls-required-for-communication"></a>Für Kommunikation erforderliche URLs
 
  > [!NOTE]
- > Der sämtliche Netzwerkdatenverkehr zwischen dem MTR-Geräte-Agent und dem Microsoft Teams-Räume – Managed Services-Dienstportal ist SSL über Port 443.  Weitere [Office 365 finden Sie unter UrLs und IP-Adressbereiche – Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
+ > Der sämtliche Netzwerkdatenverkehr zwischen dem MTR-Geräte-Agent und dem Dienstportal Microsoft Teams-Räume – Verwaltete Dienste ist SSL über Port 443.  Siehe [Office 365 von URLs und IP-Adressbereichen – Microsoft 365 Enterprise | Microsoft Docs](/microsoft-365/enterprise/urls-and-ip-address-ranges?view=o365-worldwide&preserve-view=true).
 
 Die folgenden Hosts müssen zulässig sein, wenn Sie die **AllowList** für Datenverkehr in Ihrer Unternehmensumgebung aktiviert haben:
 
@@ -116,7 +116,7 @@ Der Registrierungsvorgang umfasst einige Schritte:
 1. Installieren Sie das Agent-Installationsprogramm (heruntergeladen in Schritt 2) auf MTR-Einheiten, entweder durch lokales Ausführen der MSI auf einem MTR-Gerät oder über Ihr normales Veröffentlichungsmittel für MSI-Anwendungen auf Geräten in Ihrer Umgebung (Gruppenrichtlinien usw.)  
 1. Der Raum wird innerhalb von 5 bis 10 Minuten im Portal angezeigt. Wenn nicht, wenden Sie sich an managedroomsupport@microsoft.com.  
 
-![Abbildung 5](../media/software-installation-005.jpg)
+![Screenshot von Einstellungen und Schlüsseln zur Selbstregistrierung](../media/software-installation-005.jpg)
 
 ## <a name="installation"></a>Installation
 
@@ -140,7 +140,7 @@ Aufgrund der vielen verschiedenen Möglichkeiten, wie Kunden MSI-Anwendungen im 
 
 1. Wenn Sie das ***ManagedRoomsInstaller.msi** _ ausführen, wird ein Bildschirm Lizenzvertrag angezeigt. Nachdem Sie den Vertrag gelesen haben, überprüfen _*_Sie, ob ich_*_ den Bedingungen im Lizenzvertrag akzeptiere, und drücken Sie die Schaltfläche _ *Installieren**.  
 
-    Damit wird die Installation Microsoft Teams-Räume Überwachungssoftware Microsoft Teams-Räume Managed Services gestartet. Eine Eingabeaufforderung zur Erhöhung (als Administrator ausführen) wird angezeigt.
+    Damit beginnt die Microsoft Teams-Räume – Managed Services Monitoring Softwareinstallation. Eine Eingabeaufforderung zur Erhöhung (als Administrator ausführen) wird angezeigt.
  1. Wählen Sie ***Ja aus.***
 
     Die Installation wird fortgesetzt. Während des Installationsvorgang wird ein Konsolenfenster geöffnet und beginnt die letzte Phase des Microsoft Teams-Räume – Managed Services monitoring software installation.  
@@ -176,7 +176,7 @@ Um die Registrierung des Geräts aufzingen, entfernen Sie den Überwachungs-Agen
 
    Dadurch wird das Gerät auf Standard-MTR-Updates des Benutzers zurückgesetzt, und der MTRP-Überwachungs-Agent und die Dateien werden entfernt.
 
-1. Wählen Sie im Menü auf der linken Seite des Microsoft Teams-Räume – Verwaltete Dienste die Option **Räume aus.**  
+1. Wählen Sie im Menü auf der linken Seite im Microsoft Teams-Räume – Verwaltete Dienste die Option **Räume aus.**  
 1. Wählen Sie in der Liste der bereitgestellten Räume den  Raum aus, den Sie registrieren möchten, und wählen Sie Registrierung entfernen aus, um keine Vorfallbenachrichtigungen oder Untersuchungstickets mehr zu erhalten, oder melden Sie einen Vorfall für den Raum.
 
 ## <a name="troubleshooting-table"></a>Problembehandlung in einer Tabelle
@@ -196,4 +196,4 @@ C:\Windows\ServiceProfiles\LocalService\AppData\Local\ServicePortalAgent\ app-x.
 |  |  |
 |<p>Sie erhalten eine Fehlermeldung  </p><p>` `***FEHLER: Das lokale Benutzerkonto "Administrator" oder "Skype" wurde nicht gefunden***  </p>|Stellen Sie sicher, dass die Benutzerkonten auf dem zertifizierten Gerät Microsoft Teams Raumsysteme vorhanden sind.  |
 |  |  |
-|Sie erhalten alle Fehlermeldungen, die oben nicht behandelt werden.  |Geben Sie eine Kopie Ihres Installationsprotokolls an Ihren Microsoft Teams-Supportmitarbeiter an. |
+|Sie erhalten alle Fehlermeldungen, die oben nicht behandelt werden.  |Bitte geben Sie eine Kopie Ihres Installationsprotokolls an Ihren Microsoft Teams-Supportmitarbeiter an. |

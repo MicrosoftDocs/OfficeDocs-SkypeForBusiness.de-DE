@@ -15,20 +15,20 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 56ca188db185e16aa2d85aa88d4e0c00fa4e3d8c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 83e4984ea9cdb689310ec673134b9831bb0c0f00
+ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767358"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "62070923"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume sie eine Breite von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Nutzung des Raum. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, über große Konferenzräume und Konferenzräumen nach oben umgeknallten Plätzen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
+Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume sie eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Verwendung des Raum verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, über große Konferenzräume und Konferenzräumen nach oben umgeknallten Plätzen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
-Die Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonton Teams-Räume wie unter Bereitstellen [von Microsoft Teams-Räume](rooms-deploy.md)beschrieben.
+Die Bereitstellung umfasst die Erstellung und Einrichtung des Ressourcenkontos Teams-Räume wie unter Bereitstellen [von Microsoft Teams-Räume](rooms-deploy.md)beschrieben.
 
 Weitere Informationen finden Sie unter:
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams-Räume sich bei Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 anmelden und an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in Microsoft 365 oder Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in Microsoft 365 oder in Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -172,7 +172,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[SPDS SP30T](https://www.eposaudio.com/en/us/enterprise/products/sp-30t-b949fe9a-bluetooth-speakerphone-1000225)  |3.2.63  |
 |[IMMERS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Freisprechtelefon – 4.6.55 <br/> Erweiterungsmikrofon – 0.2.314|
 |[PATENTS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
-|[Exron DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Ex stamp DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |

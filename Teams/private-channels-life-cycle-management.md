@@ -17,17 +17,17 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe einer Graph verwalten.
-ms.openlocfilehash: 25065401216a29e28e0d4aa3f1ad02d071215188
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Erfahren Sie, wie Sie private Kanäle in Ihrer Organisation mithilfe einer Graph-API verwalten.
+ms.openlocfilehash: b0b915529d9d4bc780215afceead61ebf31e5259
+ms.sourcegitcommit: eddc03f777ce78bd5273708da9b1ab609ee20099
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766378"
+ms.lasthandoff: 01/18/2022
+ms.locfileid: "62064871"
 ---
 # <a name="manage-the-life-cycle-of-private-channels-in-microsoft-teams"></a>Verwalten des Lebenszyklus von privaten Kanälen in Microsoft Teams
 
-Hier finden Sie die Anleitungen, die Sie benötigen, um die Graph-API zum Verwalten privater Teams [Kanäle](./private-channels.md) in Ihrer Organisation zu verwenden.
+Hier finden Sie die Anleitungen, die Sie benötigen, um die Graph-API zum Verwalten von Teams [Kanälen](./private-channels.md) in Ihrer Organisation zu verwenden.
 
 ## <a name="set-whether-team-members-can-create-private-channels"></a>Festlegen, ob Teammitglieder private Kanäle erstellen können
 
@@ -48,13 +48,20 @@ Als Administrator können Sie die Graph-API verwenden, um im Namen eines Teambes
 
 ```Graph API
 POST /teams/{id}/channels
-{ "membershipType": "Private",
-  "displayName": "<Channel_Name>",
-  "members":[{    
-           "@odata.type":"#microsoft.graph.aadUserConversationMember",
-           "user@odata.bind":"https://graph.microsoft.com/users('<user_id>')",
-           "roles":["owner"]
-            }]
+{
+    "membershipType": "Private",
+    "displayName": "<Channel_Name>",
+    "members": [
+        {
+            "@odata.type": "#microsoft.graph.aadUserConversationMember",
+            "user@odata.bind": "https://graph.microsoft.com/v1.0/users('<user_id>')",
+            "roles": [
+                "owner"
+            ]
+        }
+    ]
+}
+            
 ```
 
 ## <a name="get-a-list-of-all-private-channel-messages"></a>Abrufen einer Liste aller privaten Kanalnachrichten
