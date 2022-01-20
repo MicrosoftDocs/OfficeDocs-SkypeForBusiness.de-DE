@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-apr2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 45918358ac6e0419b65a0359bdcc8e500a1187bc
-ms.sourcegitcommit: c7a6079c9592c28d8b082ff92004ae4706cea76e
+ms.openlocfilehash: c975abb16b8c131b21733d57463435aa7e643639
+ms.sourcegitcommit: 6e7af2e556526bd8b2bcc8f689192e254d8cb4a3
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/27/2021
-ms.locfileid: "60600229"
+ms.lasthandoff: 01/20/2022
+ms.locfileid: "62146252"
 ---
 # <a name="hardware-requirements-for-microsoft-teams"></a>Hardwareanforderungen für Microsoft Teams
 
@@ -36,7 +36,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 | Komponente | Anforderung |
 |---------|---------|
 |Computer und Prozessor    | Mindestens 1,1 GHz (oder schneller), 2-Core-Prozessor<br><br>Bei Intel-Prozessoren muss die mit der Intel Turbo Boost-Technologie erreichte maximale Geschwindigkeit (max. Turbo-Frequenz) berücksichtigt werden         |
-|Arbeitsspeicher     |    4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)    |
+|Arbeitsspeicher     |  4,0 GB RAM |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
 |Grafikhardware |  Windows-Betriebssystem: Grafikhardwarebeschleunigung erfordert DirectX 9 oder höher, mit WDDM 2.0 oder höher für Windows 10 (oder WDDM 1.3 oder höher für Windows 10 Fall Creators Update)
@@ -52,7 +52,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 | Komponente | Anforderung |
 |---------|---------|
 |Computer und Prozessor    | Intel Core Duo-Prozessor |
-|Arbeitsspeicher     |   4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)     |
+|Arbeitsspeicher     |   4,0 GB RAM|
 |Festplatte    |   1,5 GB verfügbarer Speicherplatz      |
 |Anzeige    | Bildschirmauflösung 1280x800 oder höher    |
 |Betriebssystem  |    Eine der drei neuesten Versionen von macOS. [Hier](https://support.apple.com/en-us/HT201260) finden Sie Informationen zu den neuesten Versionen von macOS sowie zum Upgrade Ihrer macOS-Version. Wenn beispielsweise eine neue macOS-Version veröffentlicht wird, werden die neue Version und die beiden unmittelbar davor die unterstützten Versionen.      |
@@ -66,7 +66,7 @@ Alle Voraussetzungen in den folgenden Abschnitten gelten sowohl für die Microso
 | Komponente | Anforderung |
 |---------|---------|
 |Computer und Prozessor    | Mindestens 1,6 GHz (oder höher) (32-Bit oder 64-Bit), 2-Core-Prozessor        |
-|Arbeitsspeicher     |    4.0 GB RAM (Teams benötigt zusätzlich zu allen anderen Systemanforderungen eine dedizierte 4 GB RAM.)   |
+|Arbeitsspeicher     |    4,0 GB RAM |
 |Festplatte    | PC: 3,0 GB verfügbarer Speicherplatz        |
 |Anzeige    |   Bildschirmauflösung von 1024 x 768 Pixel |
 |Grafikhardware |  Mindestens 128 MB Grafikspeicher
