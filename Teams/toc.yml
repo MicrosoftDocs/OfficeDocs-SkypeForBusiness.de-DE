@@ -1365,14 +1365,20 @@ items:
                 href: rooms/recovery-tool.md
       - name: Verwalteter Dienst „Microsoft Teams-Räume“
         items:
-          - name: Plan-Verwaltung
+          - name: Übersicht
             href: rooms/microsoft-teams-rooms-premium.md
-          - name: Rollenbasierte Zugriffssteuerung
-            href: rooms/microsoft-teams-rooms-premium-rbac.md
           - name: Abrufen und Zuweisen einer Lizenz
             href: rooms/obtaining-assigning-license.md
           - name: Registrieren beim MTRP-verwaltetem Dienst
             href: rooms/enrolling-mtrp-managed-service.md
+          - name: Installation
+            href: rooms/monitor-software-installation-guide.md
+          - name: Rollenbasierte Zugriffssteuerung
+            href: rooms/microsoft-teams-rooms-premium-rbac.md
+          - name: Überwachen und Warten von Rooms
+            href: rooms/managed-meeting-rooms-portal.md
+          - name: Verwaltete Updates
+            href: rooms/update-management.md
           - name: Konfigurieren von ServiceNow für Teams-Räume
             href: rooms/microsoft-teams-rooms-configure-servicenow.md
           - name: Mehrinstanzenfähige Verwaltung für Partner
