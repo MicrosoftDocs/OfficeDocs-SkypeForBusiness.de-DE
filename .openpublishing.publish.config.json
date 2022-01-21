@@ -54,8 +54,13 @@
       "version": 0
     }
   ],
-  "notification_subscribers": ["v-jijaku@microsoft.com","v-mipop@microsoft.com"],
-  "branches_to_filter": ["live-sxs"],
+  "notification_subscribers": [
+    "v-jijaku@microsoft.com",
+    "v-mipop@microsoft.com"
+  ],
+  "branches_to_filter": [
+    "live-sxs"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness.de-de",
   "git_repository_branch_open_to_public_contributors": "live",
   "skip_source_output_uploading": false,
@@ -69,18 +74,6 @@
       "branch_mapping": {}
     },
     {
-      "path_to_root": "_themes.pdf",
-      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
-      "branch": "master",
-      "branch_mapping": {}
-    },
-    {
-      "path_to_root": "Skype/common",
-      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr.de-de",
-      "branch": "live",
-      "branch_mapping": {}
-    },
-    {
       "path_to_root": "_repo.en-us",
       "url": "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness-pr",
       "branch": "live",
@@ -88,6 +81,18 @@
         "live": "live",
         "master": "master"
       }
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
+    },
+    {
+      "path_to_root": "Skype/common",
+      "url": "https://github.com/MicrosoftDocs/OfficeDocs-pr",
+      "branch": "live",
+      "branch_mapping": {}
     }
   ],
   "branch_target_mapping": {
