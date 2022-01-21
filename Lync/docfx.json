@@ -76,20 +76,18 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "ocv-translation-feedback": true,
       "breadcrumb_path": "/LyncServer/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "uhfHeaderId": "MSDocsHeader-M365-IT",
-      "hide_comments": true,
       "searchScope": [
         "Lync Server"
       ],
       "contributors_to_exclude": [
         "dstrome",
-        "rjagiewich", 
-        "traya1", 
-        "rmca14", 
-        "claydetels19", 
+        "rjagiewich",
+        "traya1",
+        "rmca14",
+        "claydetels19",
         "jborsecnik",
         "tiburd",
         "garycentric"
@@ -101,7 +99,8 @@
       "audience": "ITPro",
       "ms.collection": "LyncServer",
       "ms.manager": "serdars",
-      "titleSuffix": "Lync Server"
+      "titleSuffix": "Lync Server",
+      "hide_comments": true
     },
     "fileMetadata": {},
     "template": [],
