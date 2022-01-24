@@ -20,12 +20,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie Ihren Teams-Benutzern eine geschäftliche Telefonnummer zuweisen oder diese ändern oder entfernen können, damit Unternehmen und Kunden von außerhalb anrufen können.
-ms.openlocfilehash: 40d8f2d12cb824b57b2c01da4880cc35afb0a663
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 1836de6997f2e917e599efc091b689877856c4c7
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766568"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181078"
 ---
 # <a name="assign-change-or-remove-a-phone-number-for-a-user"></a>Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer
 
@@ -33,14 +33,14 @@ Wenn Sie Anrufpläne oder Anbieter Verbinden, weisen Sie Ihren Benutzern Telefon
 
 Dieser Artikel bezieht sich auf Anrufpläne und Verbinden. Informationen zum Zuweisen, Ändern oder Entfernen einer Telefonnummer für einen Benutzer in einem Direct Routing-Szenario finden Sie unter Aktivieren von Benutzern für [Direct-Routing,](./direct-routing-enable-users.md)Sprache und Voicemail.
 
-Bevor Sie eine Nummer für einen Anrufplan- oder Netzbetreiber-Benutzer Verbinden, müssen Sie Telefonnummern für Ihre Benutzer erhalten. Weitere Informationen finden Sie unter Erhalten von Telefonnummern für [Anrufplanbenutzer](getting-phone-numbers-for-your-users.md) oder Einrichten von Nummern für Verbinden [Benutzer.](operator-connect-configure.md#set-up-phone-numbers)
+Bevor Sie eine Nummer für einen Anrufplan- oder Netzbetreiber Verbinden, müssen Sie Telefonnummern für Ihre Benutzer erhalten. Weitere Informationen finden Sie unter [Erhalten von Nummern für Anrufplanbenutzer](getting-phone-numbers-for-your-users.md) oder Einrichten von Nummern für Verbinden [Benutzer.](operator-connect-configure.md#set-up-phone-numbers)
 
   
 > [!NOTE]
 > Eine Möglichkeit, um festzustellen, ob einem Benutzer eine Lizenz zugewiesen wurde, besteht darin, im Microsoft Teams Admin Center **Benutzer** aufzurufen. Wenn eine Lizenz zugewiesen ist, wird es auf der Seite angezeigt.  Sie können auch das Microsoft 365 Admin Center verwenden.
 
 > [!NOTE]
-> Diese Notiz gilt für Kunden, die über eine Hybridbereitstellung mit einem lokalen Active Directory verfügen. Wenn Sie einem Benutzer- oder Ressourcenkonto eine Anrufplan- oder Netzbetreiber-Verbinden-Telefonnummer zuweisen möchten, müssen Sie sicherstellen, dass die Telefonnummer im lokalen Active Directory entfernt und die Änderung mit Microsoft 365.
+> Diese Notiz gilt für Kunden, die über eine Hybridbereitstellung mit einem lokalen Active Directory verfügen. Wenn Sie einem Benutzer- oder Ressourcenkonto eine Anrufplan- oder Operator-Verbinden-Telefonnummer zuordnen möchten, müssen Sie sicherstellen, dass die Telefonnummer im lokalen Active Directory entfernt und die Änderung mit Microsoft 365 synchronisiert wurde.
   
 ## <a name="assign-a-phone-number-to-a-user"></a>Einem Benutzer eine Telefonnummer zuweisen
 
@@ -63,17 +63,23 @@ So weisen Sie eine Nummer über das Teams Admin Center zu:
 
 6. Klicken Sie auf **Speichern**.
 
-Verwenden Sie zum Zuweisen von Nummern mithilfe von PowerShell das [Cmdlet Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser) wie folgt:
+Verwenden Sie zum Zuweisen von Zahlen mithilfe von PowerShell das [Cmdlet Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment) wie folgt:
 
-
+Anrufplannummern
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity <user>  -TelephoneNumber <phone number> 
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType CallingPlan
+```
+
+Operatoren Verbinden Zahlen
+```PowerShell
+Set-CsPhoneNumberAssignment -Identity <user>  -PhoneNumber <phone number> -PhoneNumberType OperatorConnect
 ```
 
 Zum Beispiel: 
 
 ```PowerShell
-Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
+Set-CsPhoneNumberAssignment -Identity john@contoso.com -PhoneNumber "+14255550101" -PhoneNumberType CallingPlan
+Set-CsPhoneNumberAssignment -Identity jack@contoso.com -PhoneNumber "+14255550102" -PhoneNumberType OperatorConnect
 ```
 
 > [!NOTE]
@@ -82,7 +88,7 @@ Set-CsOnlineVoiceUser -Identity john@contoso.com -TelephoneNumber +14255550101
   
 ## <a name="change-a-phone-number-for-a-user"></a>Ändern der Telefonnummer für einen Benutzer
 
-So ändern Sie eine Telefonnummer für einen Benutzer mithilfe des Teams Admin Centers:
+So ändern Sie eine Telefonnummer für einen Benutzer über das Teams Admin Center:
     
 1. Klicken Sie in der linken Navigationsleiste auf **Benutzer**, suchen und doppelklicken Sie den gewünschten Benutzer, klicken Sie auf **Konto** und dann erstellen Sie unter **Allgemeine Informationen** eine Notiz mit der dem Benutzer zugewiesenen Telefonnummer.
 
@@ -101,11 +107,11 @@ So ändern Sie eine Telefonnummer für einen Benutzer mithilfe des Teams Admin C
 8. Um den zugehörigen Notfallstandort zuzuweisen oder zu ändern, suchen Sie unter **Notfallstandort** nach dem Standort und wählen Sie ihn aus.
 
       > [!NOTE]
-      > Wenn Sie die Nummern von Netzbetreibern und Benutzern Verbinden ändern, können Sie den zugeordneten Notfallstandort möglicherweise zuweisen oder ändern. Diese Funktionalität hängt von Ihrem Operator ab. Wenden Sie sich an Ihren Netzbetreiber, um weitere Informationen zu erhalten.
+      > Wenn Sie Die Nummern der Netzbetreiber und Verbinden ändern, können Sie den zugeordneten Notfallstandort möglicherweise zuweisen oder ändern. Diese Funktionalität hängt von Ihrem Operator ab. Wenden Sie sich an Ihren Netzbetreiber, um weitere Informationen zu erhalten.
 
 9. Klicken Sie auf **Speichern**.
 
-Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+Ein PowerShell-Beispiel finden Sie unter [Set-CsPhoneNumberAssignment.](/powershell/module/teams/set-csphonenumberassignment)
 
 ## <a name="remove-a-phone-number-from-a-user"></a>Entfernen einer Telefonnummer von einem Benutzer
 
@@ -121,7 +127,7 @@ So entfernen Sie eine Telefonnummer über das Teams Admin Center:
 
 5. Klicken Sie auf **Speichern**.
 
-Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser).
+Ein PowerShell-Beispiel finden Sie unter [Remove-CsPhoneNumberAssignment.](/powershell/module/teams/remove-csphonenumberassignment)
 
 ## <a name="related-topics"></a>Verwandte Themen
 
@@ -133,5 +139,7 @@ Ein PowerShell-Beispiel finden Sie unter [Set-CsOnlineVoiceUser](/powershell/mod
 
 [Haftungsausschlussbezeichnung für Notrufe](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/emergency-calling/emergency-calling-label-(en-us)-(v.1.0).zip?raw=true)
 
-[Set-CsOnlineVoiceUser](/powershell/module/skype/set-csonlinevoiceuser)
+[Set-CsPhoneNumberAssignment](/powershell/module/teams/set-csphonenumberassignment)
+
+[Remove-CsPhoneNumberAssignment](/powershell/module/teams/remove-csphonenumberassignment)
 

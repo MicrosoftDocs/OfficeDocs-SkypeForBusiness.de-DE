@@ -2,7 +2,7 @@
 title: Verwalten Sie die Schicht-App für Ihre Organisation
 author: LanaChin
 ms.author: v-lanachin
-ms.reviewer: lisawu,gumariam
+ms.reviewer: aaku
 manager: samanro
 ms.topic: article
 audience: admin
@@ -11,7 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
-description: Hier erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontline einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -22,17 +22,14 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: c4b1550ca90515714e509017f4fb13b83414fbf0
-ms.sourcegitcommit: 293d1b8a591d2284029632874067471f8d5bb0ff
+ms.openlocfilehash: c6e50d92dfb296bcf67402cdbd14a65fba490125
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/30/2021
-ms.locfileid: "61639689"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180928"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
-
-> [!IMPORTANT]
-> Mit Wirkung zum 30. Juni 2020 wurde Microsoft StaffHub eingestellt. StaffHub-Funktionen werden in Microsoft Teams integriert. Heute umfasst Microsoft Teams die App "Schichten" für die Zeitplanverwaltung, und im Laufe der Zeit werden zusätzliche Funktionen bereit stehen. StaffHub wurde am 30. Juni 2020 für alle Benutzer eingestellt. Jedem, der versucht, StaffHub zu öffnen, wird eine Meldung angezeigt, in der er aufgefordert wird, Teams herunterzuladen. Weitere Informationen finden Sie unter [Microsoft StaffHub wurde eingestellt](microsoft-staffhub-to-be-retired.md).  
 
 ## <a name="overview-of-shifts"></a>Übersicht über "Schichten"
 
@@ -73,7 +70,7 @@ Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass
 
 Sie können eine benutzerdefinierte [App-Setuprichtlinie erstellen,](../../teams-app-setup-policies.md) indem Sie die Schichten-App hinzufügen und die Richtlinie dann [Ihren](../../assign-policies-users-and-groups.md) Benutzern zuweisen. Sie können auch die App-Setuprichtlinie verwenden, die in den Richtlinienpaketen "Frontline Worker" und "Frontline-Manager" enthalten ist.
 
-Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
+Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
 
 Es wird empfohlen, die Richtlinienpakete für Frontline Worker und Frontline Manager zu verwenden, um sie zu vereinfachen, zu optimieren und für Konsistenz beim Verwalten von Richtlinien für Mitarbeiter an vorderer Front zu sorgen.
 

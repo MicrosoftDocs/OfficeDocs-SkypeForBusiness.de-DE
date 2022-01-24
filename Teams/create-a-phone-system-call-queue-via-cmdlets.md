@@ -24,18 +24,18 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen über Cmdlets konfigurieren.
-ms.openlocfilehash: 8ffbef5541a230755bb7439507e3002a5cb92462
-ms.sourcegitcommit: 268660f101609852f02f3f9d1a8436f2a99dade7
+ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "62071110"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62181108"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Erstellen einer Anrufwarteschleife über Cmdlets
 
 ## <a name="assumptions"></a>Annahmen
 1)  PowerShell ist auf dem Computer installiert
-- Einrichten Ihres Computers für [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell.md)
+- Einrichten Ihres Computers für [Windows PowerShell](/SkypeForBusiness/set-up-your-computer-for-windows-powershell/set-up-your-computer-for-windows-powershell)
 - MSTeams-Modul installiert ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - MSOnline-Modul installiert ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Sie verfügen über Mandantenverwaltungsrechte
@@ -97,7 +97,7 @@ Support-Informationen zur Anrufwarteschleife:
 
 
 Informationen zur Anrufwarteschleife für die Zusammenarbeit:
-- Vor den automatische Telefonzentrale: Nein
+- Fronted by automatische Telefonzentrale: No
 - Direkte Anrufe über das Festnetz: Nein (nur interne Anrufe)
 -   Sprache: Französisch FR
 -   Begrüßung: Keine
@@ -156,10 +156,12 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Erstellen und Zuordnen eines Ressourcenkontos
-Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife durch eine Anrufwarteschleife vorne automatische Telefonzentrale
+Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife per Telefonwarteschleife automatische Telefonzentrale
 - ApplicationID
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp handelt, der oben im cmdlet Get-MsolAccountSku aufgeführt ist.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -215,6 +217,9 @@ Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschle
 - ApplicationID
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp handelt, der oben im cmdlet Get-MsolAccountSku aufgeführt ist.
+
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Support" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
@@ -271,8 +276,11 @@ Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschle
 - ApplicationID
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
+
+Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp handelt, der oben im cmdlet Get-MsolAccountSku aufgeführt ist.
+
 ````
-New-CsOnlineApplicationInstance -UserPrincipalName Support-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
+New-CsOnlineApplicationInstance -UserPrincipalName Facilities-RA@contoso.com -DisplayName "Facilities" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
 
 Set-MsolUser -UserPrincipalName "Facilities-RA@contoso.com" -UsageLocation US
 

@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: In diesem Artikel erfahren Sie, wie Sie einen Notfallstandort für Benutzer in Ihrer Organisation zuweisen oder ändern.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: efe6b81961a4f7ca4eeb39e3f10b0c117cba7d6e
-ms.sourcegitcommit: 197debacdcd1f7902f6e16940ef9bec8b07641af
+ms.openlocfilehash: 004635be112bb8d38b88277e89c24d263b21ec37
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/02/2021
-ms.locfileid: "60634904"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180898"
 ---
 # <a name="assign-or-change-an-emergency-location-for-a-user"></a>Zuweisen oder Ändern eines Notfallstandorts für einen Benutzer
 
@@ -41,7 +41,7 @@ Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin C
 
 1. Klicken Sie in der linken Navigationsleiste Microsoft Teams Admin Center **auf**  >  **Sprachanrufnummern Telefon .**
 
-2. Klicken Sie **Telefon Seite** Zahlen bearbeiten  auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**.
+2. Klicken Sie **Telefon Der** Telefonnummern-Seite auf die Registerkarte Zahlen, wählen Sie eine Benutzernummer in der Liste aus, und klicken Sie dann auf **Bearbeiten**. 
 
 3. Gehen Sie **im** Bereich Bearbeiten **unter Notfallstandort** wie folgt vor:
 
@@ -55,7 +55,7 @@ Sie können einen Notfallstandort für einen Benutzer im Microsoft Teams Admin C
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
 
-Weitere [Informationen finden Sie unter Set-CsOnlineVoiceUser.](/powershell/module/skype/set-csonlinevoiceuser) 
+Weitere [Informationen finden Sie unter Set-CsPhoneNumberAssignment.](/powershell/module/teams/set-csphonenumberassignment) 
 
     
 ## <a name="related-topics"></a>Verwandte Themen
