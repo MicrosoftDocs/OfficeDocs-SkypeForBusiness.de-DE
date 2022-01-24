@@ -21,26 +21,26 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: 'Erfahren Sie mehr über die Features, die Verfügbarkeit und wie Sie Ihre Microsoft Teams Telefonsystem planen und einrichten. '
-ms.openlocfilehash: f396d8fc3dd1e26a2969b825c360054db91071fa
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+description: 'Hier erhalten Sie Informationen zu den Features, der Verfügbarkeit und erfahren, wie Sie Microsoft Teams Telefonsystem für Ihr Unternehmen planen und einrichten. '
+ms.openlocfilehash: 1643e0fe9bd877f627ec186e405bb155635f9f74
+ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015255"
+ms.lasthandoff: 01/24/2022
+ms.locfileid: "62180938"
 ---
 # <a name="heres-what-you-get-with-teams-phone"></a>Dies ist das, was Sie mit ihrer Teams Telefon
 
-In diesem Artikel werden Teams Telefon beschrieben. Weitere Informationen zur Verwendung von Teams Telefon als Ersatz für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung mit dem öffentlichen Telefonnetz finden Sie unter Was ist [Teams Telefon.](what-is-phone-system-in-office-365.md)
+In diesem Artikel werden Teams Telefon beschrieben. Weitere Informationen zur Verwendung von Teams Telefon als Ersatz für Private Branch Exchange (PBX) und Optionen zum Herstellen einer Verbindung zum öffentlichen Telefonnetz finden Sie unter Was ist [Teams Telefon.](what-is-phone-system-in-office-365.md)
 
 Clients sind für PC, Mac und mobile Geräte verfügbar, die Features auf Geräten von Tablets und Mobiltelefonen bis zu PCs und IP-Desktoptelefonen bieten. Weitere Informationen finden Sie unter [Kunden für Microsoft Teams.](get-clients.md)
 
  > [!Note]
-> Details zu Teams Telefonsystemen auf unterschiedlichen Plattformen finden Sie unter Teams [von Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
+> Details zu telefon Teams auf unterschiedlichen Plattformen finden Sie unter Teams [von Features nach Plattform.](https://support.microsoft.com/office/teams-features-by-platform-debe7ff4-7db4-4138-b7d0-fcc276f392d3)
 
-Damit Sie Teams Telefon verwenden können, muss Ihre Organisation über eine Lizenz Telefonsystem verfügen. Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+Wenn Sie Teams Telefon verwenden möchten, muss Ihre Organisation über eine Lizenz Telefonsystem verfügen. Weitere Informationen zur Lizenzierung finden Sie unter [Microsoft Teams-Add-On-Lizensierung](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
-Beachten Sie, dass für die meisten Features die Zuweisung der Telefonsystem-Lizenz und die Sicherstellung erforderlich sind, dass Benutzer "sprachfähig" sind. Verwenden Sie zum Zuweisen der Lizenz das [Cmdlet Set-CsUser,](/powershell/module/skype/set-csuser?view=skype-ps) und legen Sie den **Parameter enterprisevoiceenabled** auf $true. Einige Features, z. B. die automatische Telefon attendant in der Cloud, erfordern nicht, dass ein Benutzer sprachfähig ist. Ausnahmen werden in der folgenden Tabelle genannt.
+Beachten Sie, dass für die meisten Features die Zuweisung der Telefonsystem und die Sicherstellung erforderlich ist, dass Benutzer "sprachfähig" sind. Verwenden Sie zum Zuweisen der Lizenz das [Cmdlet Set-CsPhoneNumberAssignment,](/powershell/module/teams/set-csphonenumberassignment?view=teams-ps) und legen Sie den **Parameter EnterpriseVoiceEnabled** auf $true. Einige Features, z. B. die automatische Telefon attendant in der Cloud, erfordern nicht, dass ein Benutzer sprachfähig ist. Ausnahmen werden in der folgenden Tabelle genannt.
   
 ## <a name="teams-phone-features"></a>Teams Telefon features
 
@@ -64,7 +64,7 @@ Teams Telefon bietet die folgenden Features.
 |[Integrierte Wählta pad](https://support.office.com/article/use-the-dial-pad-in-teams-27bc60b5-74c0-4e9c-808b-da4db9514d89)  | Ermöglicht Benutzern das Anrufen nach Name oder Nummer an einer beliebigen Stelle in der Suchleiste und auf der Wähltaste, wodurch ausgehende Anrufe beschleunigt werden.  |
 |Verbundrufe   |Ermöglicht Benutzern sichere Verbindungen, Kommunikation und Zusammenarbeit mit Benutzern in Partner mandants.   |
 |[Anrufen und Empfangen eines Videoanrufs](https://support.office.com/article/abf62493-670f-4b0d-b2cf-fe03b49caf42)  | Wenn das Konto des Benutzers für Videoanrufe aktiviert ist, kann der Benutzer Videoanrufe mit seinen Kontakten telefonieren. Alles, was sie benötigen, ist eine Kamera, die Lautsprecher und das Mikrofon ihres Computers. Benutzer können auch ein Headset verwenden, wenn ihr Computer nicht über ein integriertes Audiogerät verfügt. |
-|[Cloud-Voicemail](set-up-phone-system-voicemail.md)  | Wenn ein Benutzer eine Voicemail erhält, wird sie als E-Mail Exchange das Postfach des Benutzers zugestellt, und die Voicemail-Nachricht wird als Anlage gesendet. Benutzer können ihre Nachrichten auf ihrem zertifizierten Desktoptelefon und auf allen ihren Teams oder Skype for Business hören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. <br> Beachten Sie, dass Benutzer *weder* eine  Telefonsystem-Lizenz benötigen noch über Sprachfunktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.    |
+|[Cloud-Voicemail](set-up-phone-system-voicemail.md)  | Wenn ein Benutzer eine Voicemail erhält, wird sie als E-Mail an Exchange Postfach zugestellt, und die Voicemail-Nachricht wird als Anlage gesendet. Benutzer können ihre Nachrichten auf ihrem zertifizierten Desktoptelefon und auf allen Teams oder Skype for Business hören. Seit März 2017 ist die Unterstützung für Voicemailtranskription standardmäßig für alle Organisationen und Benutzer aktiviert. <br> Beachten Sie, dass Benutzer *weder* eine  Telefonsystem-Lizenz benötigen noch über Sprachfunktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.    |
 |[Cloud-Voicemail von Benutzereinstellungen](https://support.office.com/article/manage-your-call-settings-in-teams-456cb611-3477-496f-b31a-6ab752a7595f?ui=en-US&rs=en-US&ad=US)  | Ermöglicht Benutzern die Konfiguration ihrer Clienteinstellungen für Voicemail-Begrüßungen, Anrufbeantwortungsregeln und die Begrüßungssprache, einschließlich Außer-Office-Begrüßungen. <br> Beachten Sie, dass Benutzer *weder* eine  Telefonsystem-Lizenz benötigen noch über Sprachfunktionen verfügen müssen, um Cloud-Voicemail verwenden zu können.  |
 |[Sekundärer Klingelton](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)  | Benutzer mit mehreren an ihren PC angeschlossenen Lautsprechern können festlegen, dass zusätzlich zum Standardlautsprecher ein sekundäres Gerät klingelt. Beispielsweise kann ein Benutzer mit einem an den PC und den Schreibtischlautsprechern angeschlossenen Headset und Schreibtischlautsprecher wählen, dass beim Ein-/Ein-Anruf sowohl Headset als auch Lautsprecher klingeln, damit er keinen Anruf verpasst.  |
 |[Benachrichtigungen bei unterschiedlichen](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f) Klingeln (Teams) |Ermöglicht Benutzern die Auswahl separater Klingeltöne für normale, weitergeleitete und delegierte Anrufe, um die Art des Anrufs unterscheiden zu können.   |
@@ -78,21 +78,21 @@ Teams Telefon bietet die folgenden Features.
 ## <a name="availability-in-gcc-high-and-dod-clouds"></a>Verfügbarkeit in GCC Hoch- und DoD-Wolken
 <a name="bkmk_setup"> </a>
 
-Die folgenden Funktionen stehen in den Cloud-Cloudn GCC und DoD Clouds noch nicht zur Verfügung. 
+Die folgenden Funktionen sind in GCC und DoD Clouds noch nicht verfügbar. 
 
 - [Anrufeinstellungen für sekundären Rufton, Voicemail und erweiterte Delegierung](https://support.office.com/article/Manage-your-call-settings-in-Teams-456cb611-3477-496f-b31a-6ab752a7595f)
 - [Übertragung an Voicemail im Gespräch](https://support.office.com/article/Transfer-a-call-in-Teams-b7f40f14-e083-46b9-b739-68038c8f73a0)
 - Telefonnummer über Suchleiste anrufen
 - Wartemusik
-- Azure AD umgekehrter Zahlen-Suche
+- Azure AD umgekehrter Zahlen suchen
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Was ist Teams Telefon](what-is-phone-system-in-office-365.md)
 - [Cloud Voice in Microsoft Teams](cloud-voice-landing-page.md)
-- [Einrichten Teams Telefon](setting-up-your-phone-system.md)
+- [Einrichten von Teams Telefon](setting-up-your-phone-system.md)
 - [Welcher Anrufplan ist für Sie am besten geeignet?](calling-plan-landing-page.md)
 - [Überwachen und Verwalten der Anrufqualität](monitor-call-quality-qos.md)
 - [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)
 - [Preise für Teams Telefon](https://products.office.com/microsoft-teams/voice-calling#requirements)
-- [Teams virtualisierte Desktopinfrastruktur mit Anrufen und Besprechungen](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
+- [Teams Virtualized Desktop Infrastructure mit Anrufen und Besprechungen](teams-for-vdi.md#teams-on-vdi-with-calling-and-meetings)
