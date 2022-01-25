@@ -18,19 +18,19 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - NOCSH
-description: Hier erfahren Sie, wie Sie ein Team von Erfahrener schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
+description: Erfahren Sie, wie Sie ein Team von Champions schulen, um die Akzeptanz Teams fördern, indem Sie das Bewusstsein für Die Akzeptanz und Ausbildung in Ihrer Organisation fördern.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b4b79cd1d9e00441681cad77a621f382d4238341
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 989525f627a4d8c6ef18f1e17cab9446d85a0a88
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842547"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190886"
 ---
 # <a name="create-your-champions-program-for-microsoft-teams"></a>Erstellen Ihres Champions-Programms für Microsoft Teams
 
-Champions sind von wesentlicher Bedeutung, um das Bewusstsein, die Akzeptanz und die Ausbildung in Ihrer Organisation zu fördern. Ein Champion ist eine Person, die in erster Linie motiviert ist, anderen zu helfen, die an neuer Technologie (insbesondere Teams) interessiert ist und anderen Mitarbeitern hilft, sie in Übereinstimmung mit Ihren bewährten Methoden zu nutzen. Je nach Größe Ihrer Organisation können Sie dies als formalen Teil der Rolle der Person haben, aber häufig übernehmen Mitarbeiter diese Rolle selbst aufgrund ihrer Zentralen Motivation, anderen zu helfen.
+Champions sind von wesentlicher Bedeutung, um das Bewusstsein, die Akzeptanz und die Ausbildung in Ihrer Organisation zu fördern. Ein Champion ist eine Person, die in erster Linie motiviert ist, anderen zu helfen, die an neuer Technologie (speziell Teams) interessiert ist und anderen Mitarbeitern hilft, sie in Übereinstimmung mit Ihren bewährten Methoden zu nutzen. Je nach Größe Ihrer Organisation können Sie dies als formalen Teil der Rolle der Person haben, aber häufig übernehmen Mitarbeiter diese Rolle selbst aufgrund ihrer Zentralen Motivation, anderen zu helfen.
 
 Die Champions werden in Ihre allgemeine Planung für die Einführung auf unterschiedliche Weise einpassen, wie unten gezeigt wird.
 
@@ -43,9 +43,9 @@ Champions sollten:
 - Haben Sie konsistente und positive Positives zu ihrer Bestätigung der Auswirkungen ihrer Bemühungen.
 - Haben Sie einen klaren Plan für die Ausführung
 
-Verwenden Sie unseren [Leitfaden für das Champions-Programm,](https://go.microsoft.com/fwlink/?linkid=854665) um dieses Programm in Ihrer Organisation zu erstellen. Unsere bewährten Methoden für diese Community sind:
+Verwenden Sie unseren [Leitfaden für das Champions-Programm,](https://aka.ms/M365Champions) um dieses Programm in Ihrer Organisation zu erstellen. Unsere bewährten Methoden für diese Community sind:
 
-- Nehmen Sie am [Champions-Programm teil.](https://aka.ms/O365Champions) Stellen Sie sicher, dass zumindest die Leiter des Champions-Programms (und potenziell alle Unternehmensführer) Mitglieder des Programms sind. Dieser kostenlose, monatliche Communityanruf bietet wertvolle Informationen für die Ausführung eines eigenen Programms und für die beste Ausn nutzen Teams und anderen Microsoft 365 oder Office 365 Diensten. Programmmaterialien können in Ihrem eigenen internen Programm wiederverwendet werden.
+- Nehmen Sie am [Champions-Programm teil.](https://aka.ms/O365Champions) Stellen Sie sicher, dass zumindest die Leiter des Champions-Programms (und potenziell alle Unternehmensführer) Mitglieder des Programms sind. Dieser kostenlose monatliche Communityanruf bietet wertvolle Informationen für die Ausführung eines eigenen Programms und für die beste Ausn nutzen Teams und anderen Microsoft 365 oder Office 365-Diensten. Programmmaterialien können in Ihrem eigenen internen Programm wiederverwendet werden.
 
 - Verwenden Sie das Team "Teamwork Champion": Ihre Champions sollten das Team, das Sie für sie eingerichtet haben, für die gesamte Programmkommunikation, das Feedback und für die Suche nach Ressourcen verwenden.  Dadurch werden sie sich zunehmend mit dem Produkt und seinen Vorteilen vertraut machen.
 

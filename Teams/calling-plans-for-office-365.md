@@ -26,12 +26,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-apr2020
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
-ms.openlocfilehash: dfb36cd78923257d76ebe33069e6e4cc642e7e40
-ms.sourcegitcommit: d23185cf6caeeeb055c36609e7c788a2b2e8d07d
+ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/15/2021
-ms.locfileid: "60367527"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190676"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
@@ -67,9 +67,7 @@ Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen e
     > Je nach Ihrem Plan müssen Sie möglicherweise weitere Add-Ons erwerben, bevor Sie Telefonsystem-Lizenzen kaufen können. Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 2. Nachdem Sie Telefonsystem-Lizenzen gekauft haben, können Sie den Anrufplan erwerben, indem Sie sich beim **Microsoft 365 Admin Center** anmelden, **Abrechnung** > **Dienste erwerben** > **Add-On-Abonnements** auswählen und dann auf **Jetzt kaufen** klicken. Dort sehen Sie die Anrufpläne.
-    
-    ![Screenshot, der die Optionen für den Kauf eines VoIP-Anrufplans zeigt.](media/ab2d6dce-56eb-4bbc-ac1a-430b0c065d18.png)
-  
+      
 Sie können unterschiedliche Anrufpläne für verschiedene Benutzer abhängig von den Anforderungen Ihrer Organisation kaufen und zuweisen. Nachdem Sie die benötigten Anrufpläne ausgewählt haben, gehen Sie zur Kasse. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Um Näheres zur Vorgehensweise zu erfahren, lesen Sie [Zuweisen von Microsoft Teams-Add-On-Lizenzen](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
 ## <a name="do-you-have-a-service-provider-that-provides-on-premises-pstn-connectivity-for-hybrid-users"></a>Verfügen Sie über einen Dienstanbieter, der lokale PSTN-Konnektivität für Hybridbenutzer bietet?

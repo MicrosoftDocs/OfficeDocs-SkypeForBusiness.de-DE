@@ -23,19 +23,19 @@ ms.custom:
 - Audio Conferencing
 - Phone System
 - Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Nicaragua verfügbare Dienste.
-ms.openlocfilehash: 9ff8d2a0a6051a68dfb13bf5905aa5ed0a90f303
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Nicaragua verfügbare Dienste.
+ms.openlocfilehash: 5b67b46fec221f9fdaa921de81d9e7adbe1bdc6a
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852789"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190646"
 ---
 # <a name="availability-in-nicaragua"></a>Verfügbarkeit in Nicaragua
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Microsoft Teams für Nicaragua verfügbare Dienste.
+Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Nicaragua verfügbare Dienste.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -62,7 +62,7 @@ Hier finden Sie die Microsoft 365 und Office 365 Für Skype for Business und Mic
 |Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
 |Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
 
-Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [direkten Routings für Telefonsysteme](../direct-routing-landing-page.md) in Betracht. Mit dem direkten Routing können Sie die Telefonsysteme mit praktisch jedem Telefonieanbieter nutzen.
+Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) alle verfügbaren Optionen.
    
 ## <a name="toll-and-toll-free-numbers-for-services"></a>Gebührenpflichtige und gebührenfreie Telefonnummern für Dienste
 

@@ -18,12 +18,12 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7c05888191c98e2b7fe11637ad8fe5ba8a8c1132
-ms.sourcegitcommit: 2ce417430b2aac770997daaf5ef5d844aa97fd84
+ms.openlocfilehash: b54ccf83aadcec724d8e54a791770578ef147bbd
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "60911859"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191856"
 ---
 # <a name="manage-live-components-in-teams"></a>Verwalten von Livekomponenten in Teams
 
@@ -45,21 +45,21 @@ Verfügbar für Teams-Apps Windows, Mac, Linux, iOS und Android.
 
 Live-Komponenten werden mit integrierten Microsoft Fluid Framework in der gesamten Microsoft 365-Suite unterstützt und über SharePoint Online und nicht über das Teams Admin Center gesteuert.
 
-Sie benötigen die neueste Version des [PowerShell-SharePoint Online-PowerShell-Moduls,](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) um alle flüssigen Benutzererfahrungen in Ihrem Mandanten zu aktivieren Office 365 deaktivieren. Microsoft Fluid Framework ist für alle **Targeted** Release-Mandanten standardmäßig EIN festgelegt. Da Livekomponenten für die Zusammenarbeit entwickelt wurden, werden die Komponenten von anderen Personen immer als bearbeitbar freigegeben, auch wenn Ihr Mandant für andere Dateitypen standardmäßig auf "Nur anzeigen" festgelegt ist. Weitere Details **finden Sie unter** dem Link Weitere Informationen neben der Einstellung.
+Sie benötigen die neueste Version des [PowerShell-SharePoint Online-PowerShell-Moduls,](/office365/enterprise/powershell/manage-sharepoint-online-with-office-365-powershell) um alle flüssigen Be erfahrungen in Ihrem Mandanten zu aktivieren Office 365 deaktivieren. Microsoft Fluid Framework ist für alle **Targeted Release-Mandanten** standardmäßig EIN festgelegt. Da Livekomponenten für die Zusammenarbeit entwickelt wurden, werden die Komponenten von anderen Personen immer als bearbeitbar freigegeben, auch wenn Ihr Mandant für andere Dateitypen standardmäßig auf "Nur anzeigen" festgelegt ist. Weitere Details **finden Sie unter** dem Link Weitere Informationen neben der Einstellung.
 
 ## <a name="checking-if-the-fluid-framework-is-enabled-through-the-sharepoint-online-powershell-cmdlet"></a>Überprüfen, ob die Fluid Framework über das PowerShell-Cmdlet "SharePoint Online" aktiviert ist
 
-1. [Verbinden Sie SharePoint Online-PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password) 
+1. [Verbinden Sie SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password) 
 
-2. Überprüfen Sie, Fluid Framework aktiviert ist, indem Sie das Get-SPOTenant-Cmdlet ohne Argumente ausführen.
+2. Überprüfen Sie, Fluid Framework aktiviert ist, indem Sie Get-SPOTenant-Cmdlet ohne Argumente ausführen.
 
 3. Überprüfen Sie, ob der Wert von IsFluidEnabled wahr **ist.**
 
 ## <a name="enabling-the-fluid-framework-through-the-sharepoint-online-powershell-cmdlet"></a>Aktivieren des Fluid Framework über das PowerShell SharePoint Online-PowerShell-Cmdlet
 
-1. [Verbinden Sie SharePoint Online-PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password) 
+1. [Verbinden Sie SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps#to-connect-with-a-user-name-and-password) 
 
-2. "Fluid aktivieren" mithilfe des Cmdlets "-IsFluidEnabled" Set-SPOTenant"-$true 
+2. "Fluid aktivieren" mithilfe des Cmdlets Set-SPOTenant -IsFluidEnabled-$true 
    
    Die Änderung dauert ein kurzes Zeit, bis sie für alle Ihre Mandanz zur Anwendung kommt. 
 
@@ -67,7 +67,7 @@ Das Feature ist für Teams Windows, Mac, iOS und Android verfügbar. Wenn die Op
 
 ## <a name="disabling-fluid-framework-through-sharepoint-online-powershell-cmdlet"></a>Deaktivieren von Fluid Framework über SharePoint Online-PowerShell-Cmdlet
 
-1. [Verbinden Sie SharePoint Online-PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
+1. [Verbinden Sie SharePoint Online PowerShell.](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)
 
 2. Deaktivieren Sie "Fluid" Set-SPOTenant das Set-SPOTenant -IsFluidEnabled-$false. 
 
@@ -86,7 +86,7 @@ PS C:\\WINDOWS\\system32&gt;
 ```
 ## <a name="known-issues"></a>Bekannte Probleme
 
-- Livekomponenten in Chats können nicht mithilfe von Office-App unter Android Teams bearbeitet werden.
+- Livekomponenten im Chat können nicht mithilfe von Office-App unter Android Teams bearbeitet werden.
 
 - Wenn die Standarddateiberechtigungen des Mandanten auf Bestimmte Personen (nur die vom Benutzer angegebenen Personen) festgelegt sind und der Absender beim Erstellen einer Komponente einige Benutzer aus der Liste Bestimmte Personen im **Berechtigungsdialogfeld** entfernt, haben diese Benutzer möglicherweise weiterhin Zugriff auf den Inhalt. Dieses Problem wurde aufgrund der Zugriffsverwaltungsbeschränkung des Berechtigungsdialogfelds behoben und wird in der zukünftigen Version behoben.
 
@@ -94,13 +94,13 @@ PS C:\\WINDOWS\\system32&gt;
 
 ## <a name="known-limitations"></a>Bekannte Einschränkungen
 
-- Die Suche nach Livekomponenten in Teams gibt einen Link zur Komponente in der office.com zurück, nicht die Chatnachricht selbst.
+- Die Suche nach Livekomponenten in Teams gibt einen Link zur Komponente in office.com zurück, nicht die Chatnachricht selbst.
 
 - Livekomponenten sind in Partnerchats deaktiviert.
 
-- B2B-Gäste können nicht an einer Livekomponente zusammenarbeiten, die über "Company Share Link" für sie freigegeben wird, es sei denn, der Mandant legt die Option für externen Zugriff fest, damit B2B-Gäste dieselbe Zugriffsebene wie Mandantenmitglieder haben.
+- B2B-Gäste können nicht an einer Livekomponente zusammenarbeiten, die über "Company Share Link" für sie freigegeben wird, es sei denn, der Mandant legt eine Option für externen Zugriff fest, damit B2B-Gäste dieselbe Zugriffsebene wie Mandantenmitglieder erhalten. Weitere Informationen finden Sie unter [Konfigurieren von B2B-Einstellungen für die externe Zusammenarbeit.](/azure/active-directory/external-identities/delegate-invitations#configure-b2b-external-collaboration-settings)
 
-- Teams Die vollständige Unterstützung von Live-Komponenten wird in Kürze im Webclient verfügbar sein.
+- Teams-Webclient wird in Kürze die vollständige Unterstützung von Live-Komponenten zur Verfügung stehen.
 
 - Livekomponenten werden in Teams Kanälen noch nicht unterstützt, aber deren Inlinebearbeitung in Kanälen ist für zukünftige mehr Benutzererfahrungen geplant.
 
@@ -122,17 +122,17 @@ PS C:\\WINDOWS\\system32&gt;
 
 **Wie `.fluid` werden gespeichert?**
 
-In einem -Teams erstellte Livekomponenten werden von einer Datei unterstützt, die in der Datei `.fluid` des Erstellers OneDrive for Business. Als Datei in OneDrive for Business bedeutet dies, dass Benutzer Livekomponenten (Dateien) genauso einfach erstellen, entdecken und verwalten können wie `.fluid` jedes Office Dokument.
+In einem -Teams erstellte Livekomponenten werden von einer Datei unterstützt, die in der Datei `.fluid` des Erstellers gespeichert OneDrive for Business. Als Datei in OneDrive for Business bedeutet dies, dass Benutzer Livekomponenten (Dateien) genauso einfach erstellen, entdecken und verwalten können wie `.fluid` jedes Office Dokument.
 
-Benutzer können nach Inhalten in `.fluid` Dateien von "Office.com" und "OneDrive for Business.
+Benutzer können über `.fluid` "Office.com" und "OneDrive for Business" nach Inhalten in OneDrive for Business.
 `.fluid` Dateien funktionieren mit Daten-Governance-Features wie eDiscovery, Überwachung, Berichterstellung und gesetzliche Erkung.
 
 `.fluid`Dateien werden jetzt auf Office.com und OneDrive for Business angezeigt, z. B. in den Bereichen Zuletzt verwendet und Empfohlen.
-`.fluid`Dateien können aus der Dateiversion in frühere OneDrive for Business.
+`.fluid`Dateien können aus der Dateiversion in früheren OneDrive for Business.
 
 Chatteilnehmer müssen über ein OneDrive verfügen, um Livekomponenten erstellen zu können. Ohne ein gültiges OneDrive-Konto können die Chatteilnehmer möglicherweise weiterhin an einer Komponente zusammenarbeiten, die von anderen Benutzern erstellt wurde, die über ein gültiges OneDrive-Konto verfügen, aber keine eigenen erstellen können.
 
-[Das](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) Verschieben einer Datei von OneDrive auf eine SharePoint-Website führt dazu, dass die Livekomponente `.fluid` im Chat Teams kann.
+[Das](https://support.microsoft.com/en-us/office/move-files-and-folders-between-onedrive-and-sharepoint-5916f90d-f58a-4bf9-b135-10853f516d0b) Verschieben einer Datei von OneDrive auf eine SharePoint-Website führt dazu, dass die Livekomponente `.fluid` im Chat Teams wird.
 
 **Was geschieht, wenn der Besitzer der Datei das Unternehmen verlässt?**
 
@@ -140,9 +140,9 @@ Chatteilnehmer müssen über ein OneDrive verfügen, um Livekomponenten erstelle
 
 **Wie werden `.fluid` Dateien freigegeben?**
 
-Livekomponenten können in einen Chat Teams oder aus einem Chat in einen anderen kopiert werden. (Livekomponenten werden in Kanälen noch nicht unterstützt.) Sie werden standardmäßig auf die vorhandenen Berechtigungen des Mandanten festgelegt, aber benutzer können vor dem Senden Berechtigungen ändern, um sicherzustellen, dass jeder Zugriff hat.
+Livekomponenten können in einem Chat Teams oder aus einem Chat in einen anderen kopiert werden. (Livekomponenten werden in Kanälen noch nicht unterstützt.) Sie werden standardmäßig auf die vorhandenen Berechtigungen des Mandanten festgelegt, aber benutzer können vor dem Senden Berechtigungen ändern, um sicherzustellen, dass jeder Zugriff hat.
 
-Das Öffnen von Komponenten Teams Chats in Office.com bietet am oberen Rand des Fensters Freigabefunktionen, ähnlich wie die Freigabeoptionen, die für andere Office werden.
+Das Öffnen von Komponenten aus Teams-Chats in Office.com bietet am oberen Rand des Fensters Freigabefunktionen, ähnlich wie die Freigabeoptionen, die für andere Office werden.
 
 **Was `.fluid` passiert, wenn eine Datei beschädigt oder beschädigt wird?**
 
@@ -150,4 +150,4 @@ Der Versionsverlauf ermöglicht es Ihnen, frühere Versionen der Datei zu überp
 
 **Welche Apps können Dateien öffnen und `.fluid` bearbeiten?**
 
-`.fluid`Dateien können nur als Links in Ihrem Browser, z. B. Office.com, und als Livekomponenten in Teams geöffnet werden. Wenn sie heruntergeladen werden, können sie nicht erneut geöffnet werden, ohne sie zuerst wieder in den OneDrive for Business oder SharePoint Online hochzuladen.
+`.fluid`Dateien können nur als Links in Ihrem Browser, z. B. Office.com, und als Livekomponenten in Teams geöffnet werden. Wenn sie heruntergeladen werden, können sie nicht erneut geöffnet werden, ohne sie zuerst wieder in den Online OneDrive for Business oder SharePoint hochzuladen.

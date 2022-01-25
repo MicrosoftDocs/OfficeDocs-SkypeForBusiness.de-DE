@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
-ms.openlocfilehash: c58e70896c14719e9aa0289ef0cf6d636393d09d
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60774575"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62190691"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
@@ -37,8 +37,8 @@ Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die
 ![Screenshot mit einer Markierung, die die Anzahl der Gäste im Team angibt.](media/guest-experience-image2.png)
 
 Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
-- [Teilnehmen an einem Team als Gast](https://support.office.com/article/join-a-team-as-a-guest-928d1eef-61e2-49ec-b754-c2fe86b34824)
-- [Teilnehmen an einer Teambesprechung](https://support.office.com/article/join-a-company-meeting-a120c282-063d-46b8-b973-851197ab75d8)
+- [Teilnehmen an Teams Besprechung als Gast](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Zusammenarbeiten mit externen Gästen in einer Teams Besprechung](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich der Funktionen für Team-Mitglieder und -Gäste
 
@@ -46,7 +46,7 @@ In der folgenden Tabelle werden die Microsoft Teams-Funktionen verglichen, die j
 
 | Funktionen in Teams | Teams-Benutzer in der Organisation | Gast |
 |:-----|:-----|:-----|
-|Erstellen eines Kanals  <br/>  *Diese Einstellung wird von Team-Besitzern gesteuert.*  <br/> |&#x2713;|&#x2713;|
+|Erstellen eines Kanals  <br/>  *Teambesitzer steuern diese Einstellung.*  <br/> |&#x2713;|&#x2713;|
 |Teilnehmen an einem privaten Chat  <br/> |&#x2713;|&#x2713;|
 |Teilnehmen an einer Kanalunterhaltung  <br/> |&#x2713;|&#x2713;|
 |Posten, Löschen und Bearbeiten von Nachrichten  <br/> |&#x2713;|&#x2713;|

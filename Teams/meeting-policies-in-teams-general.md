@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.general
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie allgemeine Besprechungsrichtlinieneinstellungen in ihrer Teams.
-ms.openlocfilehash: db1515b016aec47190c26305656b205a56e13b23
-ms.sourcegitcommit: b0bb7db41856ee377dbe4ca8c9dff56385bf120d
+ms.openlocfilehash: 1bf4958f74a95775d6d34c87ea6d7d65262530e4
+ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "61562873"
+ms.lasthandoff: 01/25/2022
+ms.locfileid: "62191476"
 ---
 # <a name="meeting-policy-settings---general"></a>Besprechungsrichtlinien – Allgemeine Einstellungen
 
@@ -45,7 +45,7 @@ In diesem Artikel werden die folgenden allgemeinen Richtlinieneinstellungen für
 
 ## <a name="meet-now-in-channels"></a>Jetzt in Kanälen treffen
 
-Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird festgelegt, ob ein Benutzer eine Ad-hoc-Besprechung in einem kanal Teams kann. Wenn Sie dies aktivieren,  können die Benutzer auf die Schaltfläche Besprechung klicken, um eine Ad-hoc-Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
+Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Mit dieser Einstellung wird festgelegt, ob ein Benutzer eine Ad-hoc-Besprechung in einem Teams starten kann. Wenn Sie dies aktivieren,  können die Benutzer auf die Schaltfläche Besprechung klicken, um eine Ad-hoc-Besprechung zu starten oder eine Besprechung im Kanal zu planen. Der Standardwert lautet "True".
 
 [![Screenshot des Symbols "Jetzt treffen" unter einer Nachricht ](media/meeting-policies-meet-now.png) ](media/meeting-policies-meet-now.png#lightbox)
 
@@ -55,11 +55,11 @@ Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet w
 
 ![Screenshot zeigt die Funktion zur Planung einer neuen Besprechung.](media/meeting-policies-outlook-add-in.png)
 
-Wenn Sie dies deaktivieren, können die Benutzer keine Besprechungen Teams, wenn sie eine neue Besprechung in ihrem Outlook. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
+Wenn Sie dies deaktivieren, können die Benutzer keine Besprechungen Teams planen, wenn sie eine neue Besprechung in Outlook. In Outlook unter Windows wird beispielsweise die Option **Neue Teams-Besprechung** nicht im Menüband angezeigt.
 
 ## <a name="channel-meeting-scheduling"></a>Planen von Kanal-Besprechungen
 
-Verwenden Sie die vorhandene "AllowChannelMeetingScheduling"-Richtlinie, um zu steuern, welche Arten von Ereignissen in den Kalendern des Team-Kanals erstellt werden können. Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Benutzer eine Besprechung in einem Microsoft Teams-Kanal planen können. Diese Einstellung ist standardmäßig aktiviert. 
+Verwenden Sie die vorhandene "AllowChannelMeetingScheduling"-Richtlinie, um zu steuern, welche Arten von Ereignissen in den Kalendern des Team-Kanals erstellt werden können. Hierbei handelt es sich um eine benutzerspezifische Richtlinie, die angewendet wird, bevor eine Besprechung beginnt. Über diese Einstellung wird gesteuert, ob Benutzer eine Besprechung in einem Microsoft Teams-Kanal planen können. Diese Einstellung ist standardmäßig aktiviert.
 
 Wenn diese Richtlinie deaktiviert ist, können die Benutzer keine neuen Kanalbesprechungen erstellen. Bereits vorhandene Kanalbesprechungen können jedoch vom Organisator der Veranstaltung bearbeitet werden.
 
@@ -124,25 +124,24 @@ Bedenken Sie, dass, nachdem Sie den Standardwert festgelegt haben, Besprechungso
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Über diese Einstellung wird gesteuert, ob Besprechungsorganisatoren den [Teilnahmebericht zu einer Besprechung](teams-analytics-and-reports/meeting-attendance-report.md) herunterladen können.
 
-Diese Richtlinie ist standardmäßig deaktiviert und ermöglicht Es Ihren Organisatoren zu sehen, wer sich registriert hat und an den von ihnen eingerichteten Besprechungen und Webinaren teilgenommen hat. Um dies im Teams Admin Center zu aktivieren, wechseln Sie zu Besprechungsbesprechungsrichtlinien , und legen Sie die Einstellung Einsatzbericht  >  auf **Aktiviert .** 
+Diese Richtlinie ist standardmäßig aktiviert und ermöglicht Es Ihren Organisatoren zu sehen, wer sich registriert hat und an den von ihnen eingerichteten Besprechungen und Webinaren teilgenommen hat. Um sie im Teams Admin Center zu deaktivieren, wechseln Sie zu Besprechungsbesprechungsrichtlinien , und legen Sie die Einstellung Einsatzbericht   >  auf **Aus .** 
 
 Sie können eine vorhandene Besprechungsrichtlinie Teams mithilfe des [Cmdlets Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
-Damit ein Besprechungsorganisator den Bericht zur Besprechungsteilnahme herunterladen kann, legen Sie den Parameter **AllowEngagementReport** auf **Enabled (Aktiviert) festgelegt.** Wenn diese Option aktiviert ist, wird die Option zum Herunterladen des Berichts im Bereich **Teilnehmer** angezeigt. Diese Einstellung ist standardmäßig nicht aktiviert.
+Standardmäßig ist der **Parameter AllowEngagementReport** in PowerShell **auf Enabled** festgelegt. Um zu verhindern, dass ein Besprechungsorganisator den Bericht "Besprechungsteilnahme" herunterbeschriften kann, legen Sie **den Parameter AllowEngagementReport** auf **Disabled (Deaktiviert) festgelegt.**
 
-Um zu verhindern, dass der Bericht vom Besprechungsorganisator heruntergeladen wird, legen Sie den Parameter auf **Deaktiviert** (disabled) fest.
+Wenn diese Richtlinie aktiviert ist, wird die Option zum Herunterladen des Berichts zur Teilnahme an Besprechungen im Bereich **Teilnehmer** angezeigt.
 
 > [!NOTE]
-> Als Administrator können Sie den Anwesenheitsbericht für Besprechungen, die Sie nicht organisieren, nicht anzeigen. Sie können jedoch die Teilnehmerdetails für eine bestimmte Besprechung innerhalb von 24 Stunden nach dieser Besprechung anzeigen. Wechseln Sie Teams Admin Center zu Benutzer  >  **verwalten**. Wählen Sie den Anzeigenamen für den Besprechungsorganisator aus. Wählen Sie **die & Besprechungen und** dann die geeignete Besprechungs-ID oder Anruf-ID aus. Wählen Sie dann **Teilnehmerdetails aus.**
+> Als Administrator können Sie den Anwesenheitsbericht für Besprechungen, die Sie nicht organisieren, nicht anzeigen. Sie können jedoch die Teilnehmerdetails für eine bestimmte Besprechung innerhalb von 24 Stunden nach dieser Besprechung anzeigen. Wechseln Sie Teams Admin Center zu Benutzer  >  **verwalten.** Wählen Sie den Anzeigenamen für den Besprechungsorganisator aus. Wählen Sie **die & Besprechungen und** Anrufe und dann die entsprechende Besprechungs-ID oder Anruf-ID aus. Wählen Sie dann **Teilnehmerdetails aus.**
 
 Weitere Informationen, einschließlich Beschränkungen des Einsatzberichts, finden Sie unter Anzeigen und Herunterladen von Berichten zur Teilnahme [an Besprechungen in Teams.](https://support.microsoft.com/office/view-and-download-meeting-attendance-reports-in-teams-ae7cf170-530c-47d3-84c1-3aedac74d310)
-
 
 ## <a name="meeting-registration"></a>Besprechungsregistrierung
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Wenn Sie dies aktivieren, können die Benutzer in Ihrer Organisation Webinare einrichten. Diese Richtlinie ist standardmäßig aktiviert.
 
-Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu  >  **Besprechungsbesprechungsrichtlinien**. Um die Besprechungsregistrierung zu deaktivieren, legen Sie die Richtlinie auf **Aus .**
+Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu **Besprechungsbesprechungsrichtlinien**  >  . Um die Besprechungsregistrierung zu deaktivieren, legen Sie die Richtlinie auf **Aus .**
 
 Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
@@ -154,10 +153,10 @@ Um die Besprechungsregistrierung zu deaktivieren und zu verhindern, dass Benutze
 
 Diese Richtlinie steuert, welche Benutzer Webinare registrieren und teilnehmen können. Diese Richtlinie bietet zwei Optionen, die nur verfügbar sind, wenn **die** Besprechungsregistrierung aktiviert ist.
 
-- Legen **Wer** kann sich  für Jeder registrieren, wenn Sie zulassen möchten, dass jeder , auch anonyme Benutzer, Webinare registriert und daran teilnehmen kann, die von Benutzern in Ihrer Organisation eingerichtet werden.
-- Legen **Wer registriert** werden kann bei Jeder **in** der Organisation, wenn Sie zulassen möchten, dass nur die Benutzer in Ihrer Organisation Webinare registrieren und teilnehmen können.
+- Legen **Wer kann** sich  für Jeder registrieren, wenn Sie zulassen möchten, dass jeder , auch anonyme Benutzer, Webinare registriert und daran teilnehmen kann, die von Benutzern in Ihrer Organisation eingerichtet wurden.
+- Legen **Wer kann sich** für Jeden **in** der Organisation registrieren, wenn Sie zulassen möchten, dass nur die Benutzer in Ihrer Organisation Webinare registrieren und teilnehmen können.
 
-Standardmäßig ist Wer **registriert** werden auf **Jeder festgelegt.** Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu  >  **Besprechungsbesprechungsrichtlinien**.
+Standardmäßig ist Wer **registriert** werden auf **Jeder festgelegt.** Wenn Sie diese Richtlinie im Teams Admin Center bearbeiten möchten, wechseln Sie zu **Besprechungsbesprechungsrichtlinien**  >  .
 
 Sie können eine vorhandene Microsoft Teams-Besprechungsrichtlinie mithilfe des Cmdlets [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) bearbeiten. Sie können aber auch eine neue Besprechungsrichtlinie für Microsoft Teams mithilfe des Cmdlets [New-CsTeamsMeetingPolicy](/powershell/module/skype/new-csteamsmeetingpolicy) erstellen und sie Benutzern zuweisen.
 
