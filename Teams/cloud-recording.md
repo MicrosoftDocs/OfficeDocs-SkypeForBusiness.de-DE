@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: e9f10a35e3be27b446fa7f55b5c9d97e3418fe36
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056085"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224012"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -143,8 +143,9 @@ Set-CsTeamsMeetingPolicy -Identity Global -ChannelRecordingDownload Block
 >```
 
 ### <a name="turn-on-or-turn-off-recording-transcription"></a>Aufzeichnungstranskription ein- oder ausschalten
-
-Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Option deaktivieren, stehen die Optionen **Suche** und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
+Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit diese Features mit der Aufzeichnung funktionieren können.
+  
+Wenn Sie diese Einstellung aktivieren, wird eine Kopie des Transkripts erstellt, das mit der Besprechungsaufzeichnung gespeichert wird. Dadurch werden für die Besprechungsaufzeichnung **"Suchen"**, **"Cc"** und **"Transkripte"** aktiviert.
 
 > [!NOTE]
 > Die Transkription für aufgezeichnete Besprechungen wird derzeit nur für Englisch (USA), Englisch (Kanada), Englisch (Indien), Englisch (Vereinigtes Königreich), Englisch (Australien), Englisch (Neuseeland), Deutsch (Deutschland), Portugiesisch (Brasilien), Niederländisch (Niederlande), Niederländisch (Belgien), Französisch (Frankreich), Spanisch (Spanien), Japanisch (Japan), Französisch (Kanada), Chinesisch (Kantonesisch, traditionell), Chinesisch (Mandarin, vereinfacht), Hindi (Indien), Italienisch (Italien), Koreanisch (Korea), Spanisch (Mexiko), Schwedisch (Schweden), Polnisch (Polen), Arabisch (Vereinigte Arabische Emirate), Arabisch (Saudi-Arabien), Dänisch (Dänemark), Finnisch (Finnland), Norwegisch (Norwegen) und Russisch (Russland) unterstützt. Sie werden zusammen mit den Besprechungsaufzeichnungen in OneDrive for Business und SharePoint Online-Cloudspeicher gespeichert.
@@ -259,7 +260,7 @@ Die Größe einer einstündigen Aufzeichnung beträgt 400 MB. Stellen Sie sicher
 
 Weitere Informationen zu administratorspezifischen Änderungen [finden Sie hier](meeting-expiration.md#changes-to-meeting-expiration).
 
-Weitere Informationen darüber, wie Endbenutzer den Ablauf von Besprechungen verwalten können [finden Sie hier](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
+Weitere Informationen dazu, wie Endbenutzer das Ablaufen von Besprechungen verwalten können, finden Sie [hier](https://support.microsoft.com/office/record-a-meeting-in-teams-34dfbe7f-b07d-4a27-b4c6-de62f1348c24#bkmk_view_change_expiration_date).
   
 Lesen Sie Antworten auf häufig gestellte Fragen für Administratoren und Endbenutzer, um Erkenntnisse darüber zu erhalten, wie das automatische Ablaufen von Microsoft Teams-Besprechungsaufzeichnungen funktionieren wird, welche Maßnahmen Sie jetzt ergreifen können und welche nach Veröffentlichung des Features.
   
@@ -408,7 +409,7 @@ Untertitel helfen dabei, inklusive Inhalte für Zuschauer aller Fähigkeiten zu 
 
 Heute sind Untertitel für die Videoaufzeichnungsdatei mit dem Teams-Besprechungstranskript verknüpft. Dieser Link bleibt in den meisten Fällen für die Lebensdauer der Datei erhalten, kann jedoch unterbrochen werden, wenn die Videodatei innerhalb derselben OneDrive for Business- oder SharePoint Online-Website kopiert wird, was dazu führen würde, dass Untertitel in der kopierten Videodatei nicht verfügbar sind.
 
-Zukünftige Änderungen an dem Link zwischen dem Transkript in Teams und der Aufzeichnung werden hier und in den Benachrichtigungen im Nachrichtencenter klargestellt. Wenn wir in Zukunft Änderungen vornehmen, stellen wir sicher, dass Aufzeichnungsdateien, die älter als 60 Tage sind, das Transkript aus der Besprechung als Beschriftungen anzeigen.
+Zukünftige Änderungen an dem Link zwischen dem Transkript in Teams und der Aufzeichnung werden hier und in den Benachrichtigungen im Nachrichtencenter klargestellt. Sollten wir in Zukunft Änderungen vornehmen, werden wir sicherstellen, dass bei Aufzeichnungsdateien, die weniger als 60 Tage alt sind, das Transkript der Besprechung als Untertitel angezeigt wird.
 
 > [!NOTE]
 > Die Transkription von Besprechungen ist in GCC noch nicht verfügbar.
