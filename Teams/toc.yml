@@ -1539,7 +1539,7 @@ items:
                 href: expand-teams-across-your-org/shifts/schedule-owner-for-shift-management.md
               - name: Schichten-Connectors
                 items:
-                  - name: Übersicht über Schichten-Connectors
+                  - name: Übersicht
                     href: expand-teams-across-your-org/shifts/shifts-connectors.md
       - name: Teams für Education
         href: expand-teams-across-your-org/teams-for-education-landing-page.md

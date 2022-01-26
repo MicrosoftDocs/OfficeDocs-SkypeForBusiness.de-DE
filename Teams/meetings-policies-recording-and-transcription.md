@@ -17,13 +17,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.meetingpolicies.recordingandtranscription
-description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams Aufzeichnung und Transkription verwalten.
-ms.openlocfilehash: c89fc88c46ae8b614021417ab2aa02832f64fce1
-ms.sourcegitcommit: 69a5d4994ef75b9c16efa99554fb7f2ee1ccf52a
+description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Aufzeichnungen und Transkriptionen verwalten.
+ms.openlocfilehash: ee558ae87d7bea781cae3d2bc267f82bc1fdb18a
+ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/10/2021
-ms.locfileid: "58973222"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "62224072"
 ---
 # <a name="meeting-policy-settings-for-recording--transcription"></a>Besprechungsrichtlinieneinstellungen zum Aufzeichnen & Transkription
 
@@ -35,9 +35,11 @@ In diesem Artikel werden die Besprechungsrichtlinieneinstellungen speziell für 
 
 ## <a name="allow-transcription"></a>Transkription zulassen
 
-Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Wenn Sie diese Einstellung deaktivieren, **stehen** die Optionen Suchen und **CC** während der Wiedergabe einer Besprechungsaufzeichnung nicht zur Verfügung. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktivieren, damit die Aufzeichnung auch eine Transkription enthält.
+Hierbei handelt es sich um eine Kombination aus einer benutzerspezifischen und einer organisatorspezifischen Richtlinie. Mit dieser Einstellung wird gesteuert, ob Untertitel- und Transkriptionsfeatures während der Wiedergabe von Besprechungsaufzeichnungen verfügbar sind. Die Person, die die Aufzeichnung gestartet hat, muss diese Einstellung aktiviert haben, damit diese Funktionen mit der Aufzeichnung arbeiten können.
 
-Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, die ihre Sprache in Besprechungen auf Englisch festlegen Teams sprechen.
+Wenn Sie diese Einstellung aktivieren, wird eine Kopie des Transkripts erstellt, das mit der **Besprechungsaufzeichnung** gespeichert wird. Dadurch werden die Aufzeichnungen "Suchen",  **"Cc"** und "Aufzeichnungen" aktiviert.
+
+Transkription für aufgezeichnete Besprechungen wird derzeit nur für Benutzer unterstützt, die in einer Besprechung die Sprache auf Englisch festlegen Teams sprechen.
 
 ## <a name="allow-cloud-recording"></a>Cloud-Aufzeichnung zulassen
 
