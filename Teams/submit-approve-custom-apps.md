@@ -1,7 +1,7 @@
 ---
 title: Verwenden der API Teams Zur Übermittlung von Apps zum Übermitteln und Genehmigen Ihrer benutzerdefinierten Apps
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: KarliStites
+ms.author: kastites
 manager: serdars
 ms.reviewer: joglocke, vaibhava
 ms.topic: article
@@ -16,25 +16,25 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Ihre benutzerdefinierten Apps genehmigen, die mithilfe der API Teams Übermittlung von Apps in Microsoft Teams.
-ms.openlocfilehash: d0a49ffa07ec7b3a506d99d32c5fee1b43308af4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Hier erfahren Sie, wie Sie Ihre benutzerdefinierten Apps genehmigen, die mit der API Teams Übermittlung von Apps im Microsoft Teams.
+ms.openlocfilehash: 41a6fe61269159da7af32ac8d0392752ffdf087d
+ms.sourcegitcommit: 9f1f5cd828c24676c20df727b2c67daf56ff884c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848158"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "62248706"
 ---
-# <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten App, die über die APP Teams Übermittlungs-API übermittelt wird
+# <a name="publish-a-custom-app-submitted-through-the-teams-app-submission-api"></a>Veröffentlichen einer benutzerdefinierten App, die über die API für Teams-Übermittlung von Apps übermittelt wird
 
 ## <a name="overview"></a>Übersicht
 
 > [!NOTE]
-> Wenn Sie eine benutzerdefinierte Teams veröffentlichen, steht sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten zum Veröffentlichen einer benutzerdefinierten App, und die Art der Verwendung hängt davon ab, wie Sie die App erhalten. Dieser Artikel befasst sich mit dem Genehmigen und Veröffentlichen einer benutzerdefinierten App, die ein Entwickler über die API **Teams-Übermittlung von Apps übermittelt.** Die andere Methode, das Hochladen einer benutzerdefinierten App, wird verwendet, wenn Ihnen ein Entwickler ein App-Paket im Format .zip sendet. Weitere Informationen zu dieser Methode finden Sie unter <a href="/microsoftteams/upload-custom-apps" target="_blank">Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets.</a> Das Widget zum Genehmigen von Apps ist in GCC nicht verfügbar. 
+> Wenn Sie eine benutzerdefinierte Teams veröffentlichen, steht sie Benutzern im App Store Ihrer Organisation zur Verfügung. Es gibt zwei Möglichkeiten zum Veröffentlichen einer benutzerdefinierten App, und die Art der Verwendung hängt davon ab, wie Sie die App erhalten. Dieser Artikel befasst sich mit dem Genehmigen und Veröffentlichen einer benutzerdefinierten App, die ein Entwickler über die API für **Teams-Übermittlung übermittelt.** Die andere Methode, das Hochladen einer benutzerdefinierten App, wird verwendet, wenn Ihnen ein Entwickler ein App-Paket im Format .zip sendet. Weitere Informationen zu dieser Methode finden Sie unter <a href="/microsoftteams/upload-custom-apps" target="_blank">Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets.</a> Das Widget zum Genehmigen von Apps ist in GCC nicht verfügbar. 
 
 > [!IMPORTANT]
 > Diese Methode ist derzeit für andere GCC verfügbar. Sie müssen die Methode *zum Hochladen einer benutzerdefinierten App* verwenden.
 
-Dieser Artikel enthält eine End-to-End-Anleitung, wie Sie Ihre Teams von der Entwicklung über die Bereitstellung bis zur Ermittlung weiterverhilfen können. Sie erhalten einen Überblick über die verbundenen Benutzererfahrungen, die von Teams während des gesamten App-Lebenszyklus bereitgestellt werden, um die Entwicklung, Bereitstellung und Verwaltung von benutzerdefinierten Apps im App Store Ihrer Organisation zu optimieren.
+Dieser Artikel enthält eine End-to-End-Anleitung, wie Sie Ihre Teams-App von der Entwicklung über die Bereitstellung bis zur Erkennung verwenden können. Sie erhalten einen Überblick über die verbundenen Benutzererfahrungen, die von Teams während des gesamten App-Lebenszyklus bereitgestellt werden, um die Entwicklung, Bereitstellung und Verwaltung von benutzerdefinierten Apps im App Store Ihrer Organisation zu optimieren.
 
 Wir gehen auf jeden Schritt des Lebenszyklus ein, einschließlich der Art und Weise, wie Entwickler die API für die Übermittlung von Teams-Apps verwenden können, um benutzerdefinierte Apps direkt an das Microsoft Teams Admin Center zu übermitteln, damit Sie diese überprüfen und genehmigen können, wie Richtlinien zum Verwalten von Apps für Benutzer in Ihrer Organisation festgelegt werden und wie Ihre Benutzer sie in Teams entdecken.
 
@@ -46,15 +46,15 @@ Dieser Leitfaden befasst sich Teams Aspekte der App und richtet sich an Administ
 
 ### <a name="create-the-app"></a>Erstellen der App
 
-Die Microsoft Teams-Entwicklerplattform erleichtert Entwicklern die Integration Ihrer eigenen Apps und Dienste, um die Produktivität zu steigern, Entscheidungen schneller zu treffen und die Zusammenarbeit an vorhandenen Inhalten und Workflows zu fördern. Apps, die auf der Teams-Plattform erstellt wurden, sind Brücken zwischen dem Teams-Client und Ihren Diensten und Workflows und bringen sie direkt in den Kontext Ihrer Zusammenarbeitsplattform. Weitere Informationen finden Sie in der Dokumentation <a href="/microsoftteams/platform" target="_blank">Teams Entwickler .</a>
+Die Microsoft Teams-Entwicklerplattform erleichtert Entwicklern die Integration Ihrer eigenen Apps und Dienste, um die Produktivität zu steigern, Entscheidungen schneller zu treffen und die Zusammenarbeit an vorhandenen Inhalten und Workflows zu fördern. Apps, die auf der Teams-Plattform erstellt wurden, sind Brücken zwischen dem Teams-Client und Ihren Diensten und Workflows und bringen sie direkt in den Kontext Ihrer Zusammenarbeitsplattform. Weitere Informationen finden Sie in der Dokumentation <a href="/microsoftteams/platform" target="_blank">Teams Entwickler.</a>
 
 ### <a name="submit-the-app"></a>Übermitteln der App
 
-Wenn die App für die Produktion verwendet werden kann, kann der Entwickler die App mithilfe der API für die Teams-App-Übermittlung übermitteln, die von [der Graph-API,](/graph/api/teamsapp-publish)einer integrierten Entwicklungsumgebung (Integrated Development Environment, IDE) wie Visual Studio Code oder einer Plattform wie Power Apps und Power Virtual Agents aufgerufen werden kann. Dadurch steht die App <a href="/microsoftteams/manage-apps" target="_blank"></a> auf der Seite Apps verwalten im Microsoft Teams Admin Center zur Verfügung, auf der Sie, der Administrator, sie überprüfen und genehmigen können.dies
+Wenn die App bereit für die Produktion ist, kann der Entwickler die App mithilfe der Teams App-Übermittlungs-API einreichen, die von [der Graph-API,](/graph/api/teamsapp-publish)einer integrierten Entwicklungsumgebung (Integrated Development Environment, IDE) wie Visual Studio Code oder einer Plattform wie Power Apps und Power Virtual Agents aufgerufen werden kann. Dadurch steht die App <a href="/microsoftteams/manage-apps" target="_blank"></a> auf der Seite Apps verwalten im Microsoft Teams Admin Center zur Verfügung, auf der Sie, der Administrator, sie überprüfen und genehmigen können.dies
 
-Die Teams-API für die Übermittlung von Apps, die auf <a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>aufgebaut ist, ermöglicht Es Ihrer Organisation, auf der Plattform Ihrer Wahl zu entwickeln und den Übermittlungs-zu-Genehmigungsprozess für benutzerdefinierte Apps auf Teams.
+Die Teams-API für die Übermittlung von Apps, die auf <a href="/graph/api/teamsapp-publish" target="_blank">Microsoft Graph</a>aufgebaut ist, ermöglicht Es Ihrer Organisation, auf der Plattform Ihrer Wahl zu entwickeln und den Übermittlungs-zu-Genehmigungsprozess für benutzerdefinierte Apps auf ihrem Teams.
 
-Hier sehen Sie ein Beispiel dafür, wie dieser App-Einreichungsschritt in diesem Visual Studio Code:
+Im Folgenden finden Sie ein Beispiel dafür, wie dieser App-Einreichungsschritt in diesem Visual Studio Code:
 
 ![eine App in einem Visual Studio Code.](media/custom-app-lifecycle-submit-app.png)
 
@@ -64,11 +64,11 @@ Weitere Informationen zur Verwendung der -API Graph zum Übermitteln von Apps fi
 
 ## <a name="validate"></a>Überprüfen
 
-Auf der Seite <a href="/microsoftteams/manage-apps" target="_blank">"Apps</a> verwalten" im Microsoft Teams Admin Center (wechseln Sie in der linken Navigationsleiste zu **Teams** Apps verwalten), erhalten Sie einen Einblick in alle Teams-Apps für  >  Ihre Organisation. Mit **dem Widget Zur** Genehmigung ausstehend am oberen Rand der Seite können Sie sehen, wann eine benutzerdefinierte App zur Genehmigung eingereicht wird.
+Auf <a href="/microsoftteams/manage-apps" target="_blank">der</a> Seite "Apps verwalten" im Microsoft Teams Admin Center (wechseln Sie in der linken Navigationsleiste zu **Teams-Apps** verwalten), erhalten Sie einen Einblick in alle Teams-Apps für Ihre  >  Organisation. Mit **dem Widget Zur** Genehmigung ausstehend am oberen Rand der Seite können Sie sehen, wann eine benutzerdefinierte App zur Genehmigung eingereicht wird.
 
 In der Tabelle zeigt eine neu übermittelte  App automatisch den **Veröffentlichungsstatus** Übermittelt und **den Status blockiert** **an.** Sie können die Spalte **Veröffentlichungsstatus** in absteigender Reihenfolge sortieren, um die App schnell zu finden.
 
-![Veröffentlichungsstatus .](media/custom-app-lifecycle-validate-app.png)
+![Veröffentlichungsstatus.](media/custom-app-lifecycle-validate-app.png)
 
 Klicken Sie auf den App-Namen, um zur Seite mit den App-Details zu wechseln. Auf der **Registerkarte** "Informationen" können Sie Details zur App anzeigen, einschließlich Beschreibung, Status, Einreichungs- und App-ID.
 
@@ -83,7 +83,9 @@ Wenn Sie bereit sind, die App benutzern zur Verfügung zu stellen, veröffentlic
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
 2. Klicken Sie auf den App-Namen, um zur  Seite mit den App-Details zu wechseln, und wählen Sie dann im Feld Veröffentlichungsstatus die Option Veröffentlichen **aus.**
 
-    Nachdem Sie die App veröffentlicht haben, ändert sich der **Veröffentlichungsstatus** **in** Veröffentlicht, und **der Status** ändert sich automatisch in **Zulässig.**
+    ![Schaltfläche "Veröffentlichen" auf der App-Detailseite.](media/submitted-app-pending-action.png)
+
+Nachdem Sie die App veröffentlicht haben, ändert sich der **Veröffentlichungsstatus** **in** Veröffentlicht, und **der Status** ändert sich automatisch in **Zulässig.**
 
 ## <a name="set-up-and-manage"></a>Einrichten und Verwalten
 
