@@ -16,14 +16,14 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b8ec92d734a62b0bfe7416a0aa83f46151ca95ab
-ms.sourcegitcommit: 7eb66cb2955b17e89e1c162b6ca1b9bdb18189b2
+ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
+ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/04/2021
-ms.locfileid: "61306430"
+ms.lasthandoff: 01/30/2022
+ms.locfileid: "62279373"
 ---
-# <a name="teams-essentials-quickstart-guide-for-small-businesses"></a>Microsoft Teams Essentials: Schnellstarthandbuch für kleine Unternehmen
+# <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Microsoft Teams Essentials: Schnellstarthandbuch für kleine Unternehmen
 
 Microsoft Teams Essentials ist ein eigenständiges Microsoft Teams-Abonnement, das eine Komplettlösung für Besprechungen, Chats und Zusammenarbeit für kleine Unternehmen bietet. Während sich Ihr Unternehmen dem zunehmenden Bedarf an Remotearbeit und virtuellen Verbindungen anpasst, suchen Sie möglicherweise nach einer Lösung für die sichere Zusammenarbeit mit Mitarbeitern, Partnern, Lieferanten und Kunden. Ganz gleich, ob Großstadt-Bäckerei oder Event-Agentur mit neun Beschäftigten, Microsoft Teams Essentials kann alle in Ihrem Unternehmen über eine einheitliche Lösung zusammenbringen.
 
@@ -31,11 +31,11 @@ Microsoft Teams Essentials ist ein eigenständiges Microsoft Teams-Abonnement, d
 
 Microsoft Teams Essentials können Sie direkt über die entsprechende Website von Microsoft erwerben sowie über ausgewählte Microsoft Cloud-Partner. Über Partner und direkt erworbene Abonnements unterscheiden sich in einigen Punkten, da sie unterschiedliche Identitätssysteme nutzen. Weitere Details finden Sie in der Tabelle weiter unten in diesem Artikel: [Microsoft Teams Essentials-Pläne](#how-does-microsoft-teams-essentials-compare-to-other-microsoft-teams-plans).
 
-Ein Abonnement, das direkt über die Microsoft-Website erworben wurde, nutzt die Microsoft-Kontoidentität, wodurch Sie Ihre bestehende E-Mail-Adresse (z. B. MeganB@outlook.com, MeganB@gmail.com oder MeganB@ContosoLandscaping.com) für die Registrierung verwenden können.
+Ein Abonnement, das direkt über die Microsoft-Website erworben wird, verwendet die Microsoft-Kontoidentität. So können Sie für die Anmeldung Ihre bestehende E-Mail Adresse wie TomislavK@outlook.com, TomislavK@gmail.com oder TomislavK@ContosoLandscaping.com verwenden.
 
 Wenn Microsoft Teams Essentials über ausgewählte Microsoft Certified Partner erworben wurde, nutzt das Abonnement hingegen Azure Active Directory (AAD), weshalb Sie zum Erstellen einer neuen Anmeldung/Identität aufgefordert werden. Partner können Microsoft Teams Essentials so konfigurieren, dass eine Verknüpfung mit Ihrer bestehenden E-Mail-Adresse erstellt wird, damit Sie sich mit dieser anmelden können.  
 
-## <a name="what-teams-essentials-subscription-do-i-have"></a>Welches Microsoft Teams Essentials-Abonnement habe ich?  
+## <a name="what-microsoft-teams-essentials-subscription-do-i-have"></a>Welches Abonnement von Microsoft Teams Essentials habe ich?  
 
 Wenn Sie Microsoft Teams Essentials direkt über die Microsoft-Website erworben haben, verfügen Sie über **Microsoft Teams Essentials**.
 
@@ -93,7 +93,7 @@ In der folgenden Tabelle sind die wichtigsten Microsoft Teams-Funktionen aufgef�
 
 <sup>1</sup> Stellt eine Verbindung mit Google Kalender und anderen Kalendern von Drittanbietern mit der folgenden Konfiguration bereit: [Microsoft Teams Essentials (AAD-Identität) – Konfigurationshandbuch](connect-teams-essentials-to-email.md).
 
-<sup>2</sup> Microsoft Teams Essentials (AAD-Identität) über Partner umfasst ein 2 GB Exchange-Postfach und keine Archivierung, sodass eine Synchronisierung mit E-Mail-Drittanbietern möglich ist.
+<sup>2</sup> Teams Essentials (AAD Identity) über Partner beinhaltet 2 GB Exchange Postfach und keine Archivierung, so dass Nutzer*innen ihre E-Mail von Drittanbietern synchronisieren können.
 
 
 > [!IMPORTANT] 
@@ -103,7 +103,7 @@ In der folgenden Tabelle sind die wichtigsten Microsoft Teams-Funktionen aufgef�
 
 Nachstehend sind einige wichtige Beschränkungen und Spezifikationen für Microsoft Teams Essentials aufgeführt, die Sie als Administrator berücksichtigen sollten:
 
-  - **Verwaltung:** Ein Microsoft Teams Essentials-Abonnement bietet **keinen** Zugriff auf das Microsoft Teams Admin Center. Microsoft Teams Essentials-Benutzer können über eine vereinfachte Ansicht des Microsoft 365 Admin Centers wichtige Aufgaben wie das Verwalten von Abonnements und Konfigurieren neuer Benutzer erledigen.
+  - **Verwaltung:** Ein Microsoft Teams Essentials-Abonnement bietet **keinen** Zugriff auf das Microsoft Teams Admin Center. Nutzer*innen von Teams Essentials können eine vereinfachte Ansicht des Microsoft 365 Admin Centers nutzen, um wichtige Aufgaben wie beispielsweise die Verwaltung von Abos und die Konfiguration neuer Nutzer*innen durchzuführen.
 
   - **Microsoft Teams PowerShell:** Sie können Microsoft Teams Essentials **nicht** direkt über die PowerShell-Befehlszeile verwalten, da keine PowerShell-Unterstützung gegeben ist.
 
@@ -131,7 +131,7 @@ Führen Sie dazu die folgenden drei Schritte aus:
 
 3. **Planen Sie die Einführung.** Für kleine Unternehmen kann die Planung der Benutzereinführung sehr einfach ablaufen, z.B. indem den Nutzern die Verwendung von Microsoft Teams individuell demonstriert wird. Oft ziehen Kleinunternehmen diesen Schritt bei der Einführung neuer Anwendungen nicht in Erwägung, was sich negativ auf den Erfolg und die Akzeptanz der Anwendung auswirken kann.
 
-3.  **Verwalten von Microsoft Teams Essentials.** Ähnlich wie bei der kostenlosen Version von Microsoft Teams verfügen Sie als erste Person, die sich in Ihrer Organisation bei Microsoft Teams Essentials registriert, über eine eingeschränkte Administratorrolle. Sie können Teammitglieder hinzufügen und entfernen sowie angeben, ob jemand andere Mitglieder mit dieser Rolle einladen kann, Sie verfügen jedoch nicht über erweiterte Verwaltungsmöglichkeiten oder Zugriff auf das Microsoft Teams Admin Center.
+3.  **Microsoft Teams Essentials verwalten.** Ähnlich wie bei der kostenlosen Version von Microsoft Teams verfügen Sie als erste Person, die sich in Ihrer Organisation bei Microsoft Teams Essentials registriert, über eine eingeschränkte Administratorrolle. Sie können Teammitglieder hinzufügen und entfernen sowie angeben, ob jemand andere Mitglieder mit dieser Rolle einladen kann, Sie verfügen jedoch nicht über erweiterte Verwaltungsmöglichkeiten oder Zugriff auf das Microsoft Teams Admin Center.
 
 ## <a name="upgrade-from-a-free-version-of-microsoft-teams-to-microsoft-teams-essentials"></a>Upgrade von einer kostenlosen Version von Microsoft Teams auf Microsoft Teams Essentials
 
@@ -161,7 +161,7 @@ Beachten Sie die folgenden Einschränkungen:
 
 #### <a name="how-do-i-upgrade-my-organization"></a>Wie kann ich in meiner Organisation ein Upgrade vornehmen?
 
-Klicken Sie für ein Upgrade auf die Microsoft Teams Essentials-Version von Microsoft Teams auf **...** im oberen Navigationsmenü. Klicken Sie dann am unteren Rand des angezeigten Dropdownmenüs auf die Schaltfläche **Upgrade** .   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Screenshot der Schaltfläche Upgrade"::: 
+Klicken Sie für ein Upgrade auf die Microsoft Teams Essentials-Version von Microsoft Teams auf **...** im oberen Navigationsmenü. Wählen Sie dann die Schaltfläche **Upgrade**  am unteren Ende des erscheinenden Dropdown-Menüs.   :::image type="content" source="media/teams-free-upgrade-essentials.png" alt-text="Screenshot der Schaltfläche "Upgrade""::: 
 
 Nach dem Klicken auf die Schaltfläche **Upgrade** in Microsoft Teams werden Sie auf diese Seite geleitet: [Microsoft Teams for Small Business](https://www.microsoft.com/microsoft-teams/upgrade-teams).
 
@@ -172,7 +172,7 @@ Geben Sie die E-Mail-Adresse ein, mit der Sie sich aktuell bei Microsoft Teams a
 
 Nein. Microsoft Teams Essentials mit AAD-Identität ist nur über ausgewählten Microsoft Cloud-Partnern erhältlich. Wenn Sie an der Zusammenarbeit mit einem Partner interessiert sind, besuchen Sie die Seite [Einen Microsoft Partner Cloud Solution Provider finden.](https://partner.microsoft.com/membership/cloud-solution-provider/find-a-provider)
 
-### <a name="can-i-use-an-existing-email-system-with-teams-essentials"></a>Kann ich ein bestehendes E-Mail-System mit Microsoft Teams Essentials verwenden?  
+### <a name="can-i-use-an-existing-email-system-with-microsoft-teams-essentials"></a>Kann ich ein vorhandenes E-Mail-System mit Microsoft Teams Essentials verwenden?  
 
 Ja. Sie können Ihr bestehendes E-Mail-System beibehalten und Microsoft Teams Essentials nutzen, um Besprechungen abzuhalten, zu chatten und zusammenzuarbeiten.  
 
