@@ -1675,8 +1675,36 @@ items:
       - name: Teams für den Einzelhandel
         href: expand-teams-across-your-org/teams-for-retail-landing-page.md
         items:
+          - name: Zusammenarbeit im Einzelhandelsteam
+            href: expand-teams-across-your-org/retail-team-collaboration.md
+          - name: Vereinfachen von Geschäftsprozessen im Einzelhandel
+            href: expand-teams-across-your-org/retail-business-processes.md
           - name: Verwenden der Teamvorlagen für den Einzelhandel
             href: get-started-with-retail-teams-templates.md
+          - name: Onboarding-Assistent für Mitarbeiter in Service und Produktion
+            href: flw-onboarding-wizard.md
+          - name: Skriptgestützte Bereitstellung für Mitarbeiter in Service und Produktion
+            href: flw-scripted-deployment.md
+          - name: Schichten für Teams
+            items:
+              - name: Schichten für Teams
+                href: expand-teams-across-your-org/shifts-for-teams-landing-page.md
+              - name: Verwalten der Schichten-App
+                href: expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md
+              - name: Verwalten des schichtenbasierten Zugriffs
+                href: expand-teams-across-your-org/shifts/manage-shift-based-access-flw.md
+          - name: Walkie Talkie
+            href: walkie-talkie.md
+          - name: RealWear
+            href: flw-realwear.md
+          - name: Verwalten der Praise-App
+            href: manage-praise-app.md
+          - name: Verwalten der Aufgaben-App
+            href: manage-tasks-app.md
+          - name: Verwalten der Listen-App
+            href: manage-lists-app.md
+          - name: Verwalten der Genehmigungen-App
+            href: approval-admin.md
   - name: Referenz
     items:
       - name: Grenzwerte und Daten für Teams
