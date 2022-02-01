@@ -17,18 +17,18 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Erfahren Sie, wie Sie besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in einem Microsoft Teams.
-ms.openlocfilehash: 8c8a5603aea6ac65a2cd35b12eca9250debc7c51
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: d12c0ca4a0b838f66cfac142102b6e4b8efc3e03
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279172"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288333"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams
 
 [Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams werden verwendet, um zu steuern, ob Benutzer in Ihrer Organisation Besprechungen starten und planen können, sowie die Features, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern geplant werden. Sie können die globale (organisationsweite Standard-) Richtlinie verwenden oder benutzerdefinierte Richtlinien erstellen und zuweisen. Sie verwalten Besprechungsrichtlinien im Microsoft Teams Admin Center oder mithilfe von [Get](/powershell/module/skype/get-csteamsmeetingpolicy), [New](/powershell/module/skype/new-csteamsmeetingpolicy), [Set](/powershell/module/skype/set-csteamsmeetingpolicy), [Remove](/powershell/module/skype/remove-csteamsmeetingpolicy), [Grant](/powershell/module/skype/grant-csteamsmeetingpolicy) -CsTeamsMeetingPolicy PowerShell-Cmdlets.
 
-Die Einstellungen der Besprechungsrichtlinie, die steuern, ob Benutzer Besprechungen starten und planen sowie den Ablauf von Besprechungen steuern können, die von Benutzern geplant werden. Wenn ein Teilnahmelink und eine Konferenz-ID für eine Besprechung abläuft, kann niemand an der Besprechung teilnehmen. Die folgenden Einstellungen für Besprechungsrichtlinien bestimmen, ob Benutzer Besprechungen in einer Besprechung starten Teams. Die Besprechungseinstellungen werden in diesem Artikel erläutert.
+Die Einstellungen der Besprechungsrichtlinie, die steuern, ob Benutzer Besprechungen starten und planen sowie den Ablauf von Besprechungen steuern können, die von Benutzern geplant werden. Wenn ein Teilnahmelink und eine Konferenz-ID für eine Besprechung abläuft, kann niemand an der Besprechung teilnehmen. Die folgenden Einstellungen für Besprechungsrichtlinien bestimmen, ob Benutzer Besprechungen in einem Teams. Die Besprechungseinstellungen werden in diesem Artikel erläutert.
 
 - [Jetzt in Kanälen besprechungen](meeting-policies-in-teams-general.md#meet-now-in-channels): Steuert, ob ein Benutzer eine Besprechung aus dem Ausweg in einem Kanal starten kann.
 - [Planen von Kanal-Besprechungen](meeting-policies-in-teams-general.md#channel-meeting-scheduling): Steuert, ob ein Benutzer eine Besprechung in einem Kanal planen kann.
@@ -80,7 +80,7 @@ Wenn Sie Personen den Zugriff auf Besprechungen wünschen, die zuvor von einem b
 > [!IMPORTANT]
 > Wenn Sie für Ihren Mandanten Teams Ablauf der Besprechung aktivieren möchten, wenden Sie sich an das [Early Adopter-Programm Microsoft Teams](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u) Ablauf der Besprechung.
 
-Alle neu erstellten Teams (TMRs) haben einen Standardablauf von 60 Tagen. Diese ist standardmäßig für alle Mandanten aktiviert. Dies bedeutet, dass alle TMRs, die  nach dem Aktivieren dieses Features erstellt wurden, standardmäßig 60 Tage nach dem Erstellungsdatum gelöscht werden. Administratoren können Besprechungen auch so einrichten, dass **sie nie automatisch ablaufen**. Das OneDrive und SharePoint-System überwacht das für alle TMRs festgelegte Ablaufdatum und verschiebt TMRs automatisch am Ablaufdatum in den Papierkorb.
+Alle neu erstellten Teams (TMRs) haben einen Standardablauf von 120 Tagen. Diese ist standardmäßig für alle Mandanten aktiviert. Dies bedeutet, dass alle TMRs, die  nach dem Aktivieren dieses Features erstellt wurden, standardmäßig 120 Tage nach dem Erstellungsdatum gelöscht werden. Administratoren können Besprechungen auch so einrichten, dass **sie nie automatisch ablaufen**. Das OneDrive und SharePoint-System überwacht das für alle TMRs festgelegte Ablaufdatum und verschiebt TMRs automatisch an ihrem Ablaufdatum in den Papierkorb.
 
 Der automatische Ablauf von Besprechungen ist ein einfacher Verwahrungsmechanismus, um die von älteren TMRs erstellte Speicher-Clutter zu verringern. Im Durchschnitt werden 96 % der TMRs nach 60 Tagen und 99 % nach 110 Tagen nicht beobachtet. Wir sind der Meinung, dass fast alle Kunden von der verringerten Speicherauslastung ihres Mandanten profitieren werden, indem Aufzeichnungen entfernt werden, die nach 60 Tagen wahrscheinlich nicht mehr beobachtet werden. Es ist unser Ziel, standardmäßig für alle Kunden eine möglichst klare Erfahrung zu bieten.
 
@@ -127,7 +127,7 @@ Ja, alle richtlinien, die Sie im Compliance Center festgelegt haben, haben die v
 Zum Beispiel: 
 
 - Wenn Sie über eine Richtlinie verfügen, die anberaumt, dass alle Dateien auf einer Website 100 Tage aufbewahrt werden müssen und die Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung 30 Tage beträgt, wird die Aufzeichnung für die vollen 100 Tage aufbewahrt.
-- Wenn sie über eine Löschrichtlinie verfügen, die ankst, dass alle Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden, und Sie eine Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung von 30 Tagen festlegen, wird die Aufzeichnung nach fünf Tagen gelöscht.
+- Wenn sie über eine Löschrichtlinie verfügen, die darauf hindeh, dass alle Teams-Besprechungsaufzeichnungen nach fünf Tagen gelöscht werden, und Sie eine Ablaufeinstellung für eine Teams-Besprechungsaufzeichnung von 30 Tagen haben, wird die Aufzeichnung nach fünf Tagen gelöscht.
 
 ### <a name="will-this-feature-enforce-file-retention"></a>Wird durch dieses Feature die Dateiaufbewahrung erzwungen?
 

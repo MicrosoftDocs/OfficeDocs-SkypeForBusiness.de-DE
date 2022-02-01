@@ -11,6 +11,7 @@ search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 description: Erfahren Sie, wie Sie Schichtbesitzer für die Zeitplanverwaltung verwalten. Sie können eine Richtlinie festlegen, um die Berechtigung eines Teammitglieds auf einen Zeitplanbesitzer zu erhöhen.
 f1.keywords:
 - NOCSH
@@ -19,21 +20,22 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 702ca0fd5b392755b1966d16024d5ecf10cdacab
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 12cf33f193e7f1d1a976e5cde8612df19108cb69
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58627537"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288633"
 ---
 # <a name="schedule-owner-for-shift-management"></a>Zeitplanbesitzer für Schichtverwaltung
 
 ## <a name="overview"></a>Übersicht
 
-Terminplanungsbesitzer ist ein Feature, mit dem Sie die Berechtigungen eines Teammitglieds zu einem Zeitplanbesitzer höher machen können, ohne den Mitarbeiter zum Teambesitzer zu machen. Dies bedeutet, dass der Mitarbeiter berechtigt ist, den Zeitplan des Teams zu verwalten, ohne andere Teameigenschaften wie das Aktualisieren, Bearbeiten oder Löschen von Teamkanälen ändern zu können.
+Mit dem Feature "Terminplanbesitzer" können Sie die Berechtigungen eines Teammitglieds erhöhen, sodass es Zeitpläne verwalten kann, ohne den Mitarbeiter zum Teambesitzer zu machen. Mit der Berechtigung "Terminplanbesitzer" kann ein Mitarbeiter den Zeitplan des Teams verwalten, ohne andere Teameigenschaften wie das Aktualisieren, Bearbeiten oder Löschen von Teamkanälen ändern zu können.
 
 Was kann ein Benutzer mit Terminplanbesitzerberechtigungen tun?
 
@@ -44,7 +46,7 @@ Was kann ein Benutzer mit Terminplanbesitzerberechtigungen tun?
 
 ## <a name="why-schedule-owner"></a>Warum der Besitzer des Terminplans?
 
-Ohne das Feature "Besitzer planen" könnten die täglichen Geschäftsfunktionen unterbrochen werden. Während der Teambesitzer hilft, das Team zu führen, ist er möglicherweise nicht unbedingt die Person, die für die Tagesplanung zuständig ist. In diesem Fall wird durch die Übertragung der Verantwortlichkeit für die Zeitplanverwaltung auf ein anderes Teammitglied der tägliche Betrieb innerhalb des Teams optimiert, und die Verwirrung zwischen zwei Teammitgliedern, die über die gleichen Zugriffsrechte verfügen, wird beseitigt.
+Ohne das Feature "Besitzer planen" könnten die täglichen Geschäftsfunktionen unterbrochen werden. Während der Teambesitzer hilft, das Team zu führen, ist er möglicherweise nicht unbedingt die Person, die für die Tagesplanung zuständig ist. In diesem Fall wird durch die Übertragung der Verantwortlichkeit für die Zeitplanverwaltung auf ein anderes Teammitglied der tägliche Betrieb innerhalb des Teams optimiert, und es wird verhindert, dass zwei Teammitglieder über die gleichen Zugriffsrechte verfügen.
 
 ## <a name="scenario"></a>Szenario
 
@@ -52,9 +54,9 @@ Hier ist ein Beispiel dafür, wie Die Funktion "Besitzer planen" in Ihrer Organi
 
 Sie arbeiten in einer großen Organisation, in der Abteilungsleiter Direktbericht an den Geschäftsführer des Ladengeschäfts erstellen. Der Geschäftsführer des Ladengeschäfts verfügt innerhalb Ihres Unternehmens über mehr Autorität und ist der Teambesitzer in Schichten. Abteilungsleiter hingegen werden Schichten nur einmal als Teammitglieder hinzugefügt. Zwar verfügen Ladenmanager über mehr Seniority als Abteilungsleiter, für Abteilungsmanager ist es aber sinnvoller, die Tagesplanung der Mitarbeiter ihres Teams zu übernehmen.
 
-*Ohne Zeitplanbesitzer* müssen Abteilungsleiter genau die gleichen Berechtigungen wie der Teambesitzer erhalten. Kürzlich haben Abteilungsleiter Informationen verschieben und den Namen von Kanälen geändert, was zu Komplikationen bei der Arbeit des Ladenleiters führte. Der Geschäftsführer des Ladengeschäfts möchte, dass die Abteilungsleiter in der Lage sind, ihre Zeitpläne zu organisieren, möchte aber nicht, dass sie weitere Änderungen im Team außerhalb von Schichten möglich machen.
+*Ohne Zeitplanbesitzer* müssen Abteilungsmanager genau die gleichen Berechtigungen wie der Teambesitzer erhalten. Kürzlich haben Abteilungsleiter Informationen verschieben und den Namen von Kanälen geändert, was zu Komplikationen bei der Arbeit des Ladenleiters führte. Der Geschäftsführer des Ladengeschäfts möchte, dass die Abteilungsleiter in der Lage sind, ihre Zeitpläne zu organisieren, möchte aber nicht, dass sie weitere Änderungen im Team außerhalb von Schichten möglich machen.
 
-*Bei der Berechtigung*"Terminplanungsbesitzer" können abteilungsmanagern Planungsberechtigungen ohne weitere Berechtigungen des Teambesitzers gegeben werden.
+*Bei "Terminplanbesitzer*" können abteilungsmanagern Planungsberechtigungen ohne weitere Berechtigungen des Teambesitzers gegeben werden.
 
 ## <a name="manage-schedule-ownership"></a>Verwalten des Besitzers des Zeitplans
 
@@ -76,7 +78,7 @@ New-CsTeamsShiftsPolicy –Identity ScheduleOwnerPolicy  -EnableScheduleOwnerPer
 
 ### <a name="example-2"></a>Beispiel 2
 
-In diesem Beispiel weisen wir einem Benutzer mit dem Namen "ScheduleOwnerPolicy" eine Richtlinie namens "remy@contoso.com.
+In diesem Beispiel weisen wir einem Benutzer mit dem Namen "ScheduleOwnerPolicy" eine Richtlinie namens remy@contoso.com.
 
 ```powershell
 Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName ScheduleOwnerPolicy
@@ -85,4 +87,4 @@ Grant-CsTeamsShiftsPolicy -Identity remy@contoso.com -PolicyName ScheduleOwnerPo
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verwalten der "Schichten"-App für Ihre Organisation in Microsoft Teams](manage-the-shifts-app-for-your-organization-in-teams.md)
-- [Verwalten Sie den schichtbasierten Zugriff für Mitarbeiter an vorder frontline in Teams](manage-shift-based-access-flw.md) 
+- [Verwalten Sie den schichtbasierten Zugriff für Mitarbeiter an vorderangestellten Mitarbeitern in Teams](manage-shift-based-access-flw.md) 

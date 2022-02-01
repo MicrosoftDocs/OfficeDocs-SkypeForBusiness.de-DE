@@ -13,23 +13,25 @@ ms.collection:
 - M365-collaboration
 - Teams_ITAdmin_FLW
 - microsoftcloud-healthcare
+- microsoftcloud-retail
 search.appverid: MET150
 searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-jun2020
-ms.openlocfilehash: 905e846537e40178eba55f1a4ccd9a0d1fd1f993
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 4c3ed73b3238be2795c30fa7d162ed201cd77afd
+ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279182"
+ms.lasthandoff: 02/01/2022
+ms.locfileid: "62288503"
 ---
 # <a name="shifts-for-teams"></a>Schichten für Teams
 
-Schichten, das Zeitplanverwaltungstool in Teams, sorgt dafür, dass Ihre Mitarbeiter in der Frontlinie verbunden und synchronisiert bleiben. Es wurde zuerst für die schnelle und effektive Verwaltung von Terminplänen und die Kommunikation auf mobilen Geräten erstellt. Mit Schichten können Frontlinienmanager und -mitarbeiter Zeitpläne nahtlos verwalten und in Kontakt bleiben.
+Schichten, das Zeitplanverwaltungstool in Teams, sorgt dafür, dass die Mitarbeiter an der Frontlinie verbunden und synchronisiert sind. Es wurde zuerst für die schnelle und effektive Verwaltung von Terminplänen und die Kommunikation auf mobilen Geräten erstellt. Mit Schichten können Frontlinienmanager und -mitarbeiter Zeitpläne nahtlos verwalten und in Kontakt bleiben.
 
 Manager können Schichtzeitpläne für ihre Teams erstellen, aktualisieren und verwalten. Sie können Schichten zuweisen, offene Schichten hinzufügen und Zeitplananforderungen von Mitarbeitern genehmigen. Mitarbeiter können ihre eigenen Zeitpläne und die Zeitpläne ihres Teams anzeigen, ihre Verfügbarkeit festlegen, einen Schichttausch anfordern oder anbieten, freizeit anfragen sowie ein- und aussuhren.
 
@@ -51,15 +53,15 @@ Wenn Sie ein WFM-System (Personalverwaltung) von Drittanbietern für die Planung
 |&nbsp;  |&nbsp;  |
 |---------|---------|
 |<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Übersicht über Verbinder "Schichten"](shifts/shifts-connectors.md)** Verschaffen Sie sich einen Überblick über Verbinder für Schichten und deren Funktionsweise. Hier finden Sie Informationen zu den verwalteten und Open-Source-Connectors, die verfügbar sind, sowie zu den unterstützten WFM-Systemen.   |
-|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Connectors für verwaltete Schichten](shifts/shifts-connectors.md#managed-shifts-connectors)** Connectors für verwaltete Schichten, die in Zusammenarbeit mit unseren Partnern entwickelt wurden, werden entweder von uns oder von unseren Partnern gehostet und verwaltet. Wenn Sie das Reflexis WFM-System verwenden, finden Sie [unter Reflexis Shifts connector weitere Microsoft Teams](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) weitere Informationen.    |
+|<img src="/office/media/icons/connector-teams.png" alt="Connector symbol.">     | **[Connectors für verwaltete Schichten](shifts/shifts-connectors.md#managed-shifts-connectors)** Connectors für verwaltete Schichten, die in Zusammenarbeit mit unseren Partnern entwickelt wurden, werden entweder von uns oder von unseren Partnern gehostet und verwaltet. Wenn Sie das Reflexis WFM-System verwenden, finden Sie [unter Reflexis Shifts connector](shifts/shifts-connectors.md#reflexis-shifts-connector-for-microsoft-teams) weitere Microsoft Teams weitere Informationen.    |
 |<img src="/office/media/icons/api.png" alt="Three gears - API.">    | **[Open-Source-Verbinder "Schichten"](/microsoftteams/platform/samples/shifts-wfm-connectors)** Hier erfahren Sie, wie [Sie Community-gesteuerte Open-Source-Connectors](https://github.com/OfficeDev/Microsoft-Teams-Shifts-WFM-Connectors) verwenden, um Ihr Kroneos- oder JDA-WFM-System über Schichten Graph APIs und SDK zu integrieren.    |
 
 ## <a name="shifts-extensions"></a>Schichten-Erweiterungen
 
 |&nbsp;|&nbsp;|
 | ------------- | ------------- |
-| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Schichten Graph-APIs](/graph/api/resources/shift)** Schichten Graph-APIs ermöglichen Ihnen die Integration von Schichtdaten in WFM-Systeme (Externe Personalverwaltung). Sie haben die Flexibilität, benutzerdefinierte Schichten-Erfahrungen im Back-End zu erstellen, während Sie Benutzern gleichzeitig eine umfassende Front-End-Erfahrung im Hintergrund Teams.             |
-|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Mit Schichten + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Schichten + Power Automate können Sie Informationen aus Schichten übernehmen und benutzerdefinierte Workflows mit anderen Apps erstellen und Vorgänge im Maßstab durchführen. Automatisieren Sie wichtige Prozesse mit wenig bis gar keinem Code. Die Trigger und Vorlagen unterstützen verschiedene Szenarien, z. B. das Aktivieren der automatischen Genehmigung für Schichtanforderungen, wenn keine Genehmigung eines Vorgesetzten erforderlich ist. |
+| <img src="/office/media/icons/api.png" alt="Three gears - API."> | **[Schicht Graph-APIs](/graph/api/resources/shift)** Schichten Graph-APIs ermöglichen Ihnen die Integration von Schichtdaten in WFM-Systeme (Externe Mitarbeiterverwaltung). Sie haben die Flexibilität, benutzerdefinierte Schichten-Erfahrungen im Back-End zu erstellen, während Sie Benutzern gleichzeitig eine umfassende Front-End-Erfahrung im Hintergrund Teams.             |
+|<img src="/office/media/icons/process-flow-teams.png" alt="Process/flow chart symbol."> | **[Schichten + Power Automate](https://github.com/OfficeDev/Microsoft-Teams-Shifts-Power-Automate-Templates)** Schichten + Power Automate ermöglicht Ihnen, Informationen aus Schichten zu übernehmen und benutzerdefinierte Workflows mit anderen Apps zu erstellen und Vorgänge im Maßstab durchzuführen. Automatisieren Sie wichtige Prozesse mit wenig bis gar keinem Code. Die Trigger und Vorlagen unterstützen verschiedene Szenarien, z. B. das Aktivieren der automatischen Genehmigung für Schichtanforderungen, wenn keine Genehmigung eines Vorgesetzten erforderlich ist. |
 
 ## <a name="featured-training"></a>Empfohlene Schulung
 
