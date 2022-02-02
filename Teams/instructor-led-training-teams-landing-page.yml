@@ -4,7 +4,7 @@ summary: 'Microsoft freut sich, eine Reihe kostenloser Live-Onlineschulungskurse
 brand: teams
 metadata:
   title: Endbenutzerschulung für Microsoft Teams
-  description: 'Microsoft ist von der Bereitstellung kostenloser, virtueller Schulungskurse begeistert, die Ihnen bei den ersten Dreierklassen Teams. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und mit unseren Live-Kursleitern zu interagieren. Klicken Sie unten auf eine Sitzung, um sich zu registrieren, und schauen Sie sich weitere Kurse weiter unten an.'
+  description: 'Microsoft freuen sich darauf, kostenlose, virtuelle Live-Schulungskurse bereitstellen zu können, die Ihnen bei den ersten Teams. Ob Sie Entscheidungsträger, Admin, IT-Experte oder Endbenutzer sind, Sie finden bestimmt genau den richtigen Kurs für Sie. Treten Sie uns bei, um Microsoft Teams in Aktion zu sehen, Antworten auf Ihre Fragen zu erhalten und mit unseren Live-Kursleitern zu interagieren. Klicken Sie unten auf eine Sitzung, um sich zu registrieren, und schauen Sie sich weitere Kurse weiter unten an.'
   ms.topic: hub-page
   author: SerdarSoysal
   ms.author: serdars
@@ -46,10 +46,10 @@ productDirectory:
       imageSrc: 'https://docs.microsoft.com/office/media/icons/lightbulb-idea-capture-teams.svg'
       summary: 'Erfahren Sie, wie Teams Ihnen helfen kann, Ihren Arbeitstag zu organisieren und leichter mit Kollegen in Verbindung zu bleiben. (Publikum: Jeder)'
       url: 'https://aka.ms/TeamsProTips'
-    - title: Heimarbeiten mit Teams meistern
-      imageSrc: 'https://docs.microsoft.com/office/media/icons/headset-teams.svg'
-      summary: 'Lernen Sie bewährte Methoden kennen, wie Sie mit Ihrem Team in Verbindung bleiben und die Produktivität aufrechterhalten. (Publikum: Jeder)'
-      url: 'https://aka.ms/WFHTeams'
+    - title: Microsoft Teams auf YouTube
+      imageSrc: 'https://docs.microsoft.com/office/media/icons/video-play.svg'
+      summary: 'Abonnieren Sie diese, und informieren Sie sich als Erster über die neuesten Features, Tipps und Tricks und vieles mehr. (Publikum: Jeder)'
+      url: 'https://www.youtube.com/MicrosoftTeams'
     - title: Microsoft Teams Education – Webinare
       imageSrc: 'https://docs.microsoft.com/office/media/icons/education-tutorial-teams.svg'
       summary: 'Erfahren Sie, wie Sie Teams in Hochschulen verwenden. (Zielgruppe: Mitarbeiter, Studenten, Akademiker, Forschungsmitarbeiter, IT-Experten)'
