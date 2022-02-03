@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 88723107679314d5f30a26e1b3b41675e1454c81
-ms.sourcegitcommit: cd9fbda4ea85a83cb22e241a94d0825ff8186cca
+ms.openlocfilehash: db14472992880b17ee5fd68a0b0e426b3b8f497d
+ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62228992"
+ms.lasthandoff: 02/02/2022
+ms.locfileid: "62312278"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Für Direct Routing zertifizierte Session Border Controller
 
@@ -58,12 +58,12 @@ Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wen
 |                                                       Anbieter                                                        |       Produkt       | Nicht-Medienumgehung | Medienumgehung | Softwareversion | Notruf-Dienstanbieterfähig* | ELIN-fähig |  
 |---------------------------------------------------------------------------------------------------------------------|---------------------|------------------|--------------|------------------|-----------------|------------------|  
 | [AudioCodes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-microsoft-teams) |   Mediant 500 SBC   |     &#10004;     |   &#10004;    |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)   | &#10004;   |  &#10004;  |  
-|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)   |   &#10004;   |  &#10004;  |
-|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)   |  &#10004;   |  &#10004;  |
+|                                                                                                                     |   Mediant 800 SBC   |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (Empfohlen 7.40A.250)   | &#10004;   |  &#10004;  |  
+|                                                                                                                     |  Mediant 2600 SBC   |     &#10004;     |   &#10004;    |  Unterstützt 7.20A.258 (Empfohlen 7.40A.250)   |   &#10004;   |  &#10004;  |
+|                                                                                                                     |  Mediant 4000 SBC   |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (Empfohlen 7.40A.250)   |  &#10004;   |  &#10004;  |
 |                                                                                                                     | Mediant 1000B SBC  |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.250 (empfohlen 7.20A.258)  |  &#10004;   |  &#10004;  |
-|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (empfohlen 7.40A.100)   | &#10004;     |  &#10004;  |
-|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (empfohlen 7.40A.100) |  &#10004;    |  &#10004;  |   
+|                                                                                                                     | Mediant 9000  SBC  |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (Empfohlen 7.40A.250)   | &#10004;     |  &#10004;  |
+|                                                                                                                     | Virtual Edition SBC |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (Empfohlen 7.40A.250) |  &#10004;    |  &#10004;  |   
 |                                                                                                                     | Mediant Cloud Edition SBC  |     &#10004;     |   &#10004;     |  Unterstützt 7.20A.258 (empfohlen 7.40A.100) |  &#10004;    |  &#10004;  |
 |  [Menübandkommunikation](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-skype-business)  |      SBC 5100/5110       |     &#10004;     |   &#10004;    |       Unterstützt 9.2, 8.2 und 7.2 (Empfohlen 10.1)       | &#10004;   |     |
 |                                                                                                                     |      SBC 5200/5210       |     &#10004;     |  &#10004;    |       Unterstützt 9.2, 8.2 und 7.2 (Empfohlen 10.1)       |   &#10004; |    |
@@ -88,7 +88,7 @@ Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wen
 |                                   |     Cisco Unified Border Element (CUBE) für Cloud Services Router der 1000V-Serie       |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam- und 17.2.1r-Versionen (Empfohlen: 17.3.3)         |    &#10004;     |    |  
 |                                 |     Cisco Unified Border Element (CUBE) für Aggregation Services-Router der 1000-Serie      |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.2.1r (Empfohlen: 17.6.1a)         |    &#10004;     |    |
 |                                 |     Cisco Unified Border Element (CUBE) für 8000 Edge Platforms      |     &#10004;   | &#10004; |      Unterstützte IOS XE Amsterdam 17.3.2-Version (Empfohlen 17.6.1a)      |    &#10004;     |    |
-|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya-Sitzungsrahmencontroller für Unternehmen (ASBCE)    |     &#10004;     |       &#10004;     |       Release 8.1.1 (8.1.2 für Medienumgehung)      |     |    |
+|                     [Avaya](https://support.avaya.com/products/P0997/avaya-session-border-controller-for-enterprise/8.1.x)|    Avaya Session Border Controller for Enterprise (ASBCE)    |     &#10004;     |       &#10004;     |       Release 8.1.1 (8.1.2 für Medienumgehung)      |     |    |
 |                     [Nokia](https://documentation.nokia.com/aces/cgi-bin/chk_access.cgi/3TB30222GBAAACZZA.zip)|    Nokia Session Border Controller    |     &#10004;     |           |       19.5 (1908)       |     |    |
 |                     |    Nokia Session Border Controller    |     &#10004;     |           |       20.8       |      &#10004;        |    |
 |                     [Italtel](https://www.italtel.com/italtel-provides-direct-routing-sbc-for-microsoft-teams/)|    NetMatch-S CI     |     &#10004;     |      &#10004;     |       Unterstützt 5.0, 5.1 (Empfohlen 5.3)     |     |    |

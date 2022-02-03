@@ -495,8 +495,8 @@ items:
         href: turn-off-teams-native-file-upload-policy.md
       - name: Einrichten von Kanalmoderation in Teams
         href: manage-channel-moderation-in-teams.md
-      - name: Verwalten von Livekomponenten
-        href: live-components-in-teams.md
+      - name: Schleifenkomponenten verwalten
+        href: loop-components-in-teams.md
       - name: Teams und Outlook-E-Mail-Integration
         href: teams-outlook-email-integration.md
       - name: Von Outlook nach Teams freigeben
@@ -1755,9 +1755,9 @@ items:
               - name: Verwenden von Nachrichtenflussregeln mit Exchange
                 href: /microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365
           - name: Übersicht über die Integration von Teams und SharePoint
-            href: /sharepoint/teams-connected-sites?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/teams-connected-sites?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
           - name: Verwalten von SharePoint- und Teams-Integrationseinstellungen
-            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fteamss%2fbreadcrumb%2ftoc.json&toc=%2fteams%2ftoc.json
+            href: /sharepoint/manage-teams-sharepoint-experiences?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fmicrosoftteams%2ftoc.json
       - name: Teams PowerShell
         items:
           - name: Übersicht
