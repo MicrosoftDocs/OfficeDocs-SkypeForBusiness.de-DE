@@ -19,29 +19,29 @@ f1.keywords:
 - NOCSH
 ms.custom:
 - Calling Plans
-description: In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der tschechischen Microsoft Teams.
-ms.openlocfilehash: 679e411fa28b18139cc6cdebf9572c46023007f9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in der tschechischen Republik für Microsoft Teams.
+ms.openlocfilehash: 348dda3ef21d06bf1511f18bb509ff7ede0c90f5
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853909"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353360"
 ---
 # <a name="phone-number-management-for-the-czech-republic"></a>Telefon der Nummerverwaltung für die Tschechische Republik
 
 [!INCLUDE [preview-feature](../includes/preview-feature.md)]
 
-In dieser Tabelle finden Sie Informationen zum Abrufen und Verwalten von Telefonnummern in der tschechischen Microsoft Teams.
-  
+Verwenden Sie diese Tabelle, um Informationen zum Erhalten und Verwalten von Telefonnummern in der tschechischen Republik für Microsoft Teams.
+
 Weitere Informationen finden Sie unter [Verwalten von Telefonnummern für Ihre Organisation](manage-phone-numbers-for-your-organization.md).
-  
+
 |**Was möchten Sie tun?**|**Laden Sie die richtigen Formulare herunter.**|
 |:-----|:-----|
-|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In der Tschechischen Republik können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an [den TNS Service Desk wenden, um Anweisungen zu erhalten.](contact-tns-service-desk.md)<br/><br/>[Neue Telefonnummernanforderung für die Tschechische Republik (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf ). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen.  |
-|Lassen Sie Telefonnummern an uns übertragen. | Laden Sie dieses Formular herunter. <br/><br/>[Genehmigungsschreiben für die Tschechische Republik (alle Nummern) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Füllen Sie das Feld aus, und wenden Sie sich [an den TNS Service Desk, um Anweisungen zu erhalten.](contact-tns-service-desk.md) Sie müssen auch eine Rechnung für das Hilfsprogramm von der Geschäftsadresse angeben, für die Sie Nummern übertragen möchten.<br/><br/>Die Übertragung von Nummern kann in diesem Markt zwei bis drei Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden. |
-|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
-|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk,](contact-tns-service-desk.md) um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
-|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern von Rufnummern in der Anrufwarteschleife oder der automatischen Telefonwarteschleife erhalten Sie [beim TNS Service Desk.](contact-tns-service-desk.md) |
+|Rufen Sie neue Benutzer- oder Diensttelefonnummern ab, die nicht im Microsoft Teams Admin Center aufgeführt sind. |In der Tschechischen Republik können Sie Telefonnummern für Ihre Organisation über das Admin Center Microsoft Teams erhalten. Sie können auch eine Anforderung für eine neue Telefonnummer übermitteln, indem Sie das Formular herunterladen und sich an [den TNS Service Desk wenden, um Anweisungen zu erhalten](contact-tns-service-desk.md).<br/><br/>[Anforderung einer neuen Telefonnummer für die Tschechische Republik (v.1.0) cs-CZ](https://download.microsoft.com/download/2/f/0/2f015d86-3136-4d81-b323-e5b8cac3c272/new-phone-number-request-for-the-czech-republic-(v1.0)-(cs-CZ).pdf ). <br/><br/> Bevor Ihnen Telefonnummern zugewiesen werden können, müssen Sie das Formular Wissen Sie Ihren Kunden kennen herunterladen, es vollständig ausfüllen und an uns senden.<br/><br/>Für neue Bestellungen kann es zwei bis drei Wochen dauern, bis sie in diesem Markt einfüllen.  |
+|Lassen Sie Telefonnummern an uns übertragen. | Laden Sie dieses Formular herunter. <br/><br/>[Genehmigungsschreiben für die Tschechische Republik (alle Nummern) (v.1.0) (cz-cz)](https://download.microsoft.com/download/6/f/6/6f66c134-5ad4-42d8-b7f9-f857fb5fd4ca/letter-of-authorization-(loa)-for-czech-republic-(all-numbers)-(v1.0)-(cz-cz).pdf)<br/><br/>Füllen Sie sie aus, [und wenden Sie sich an den TNS Service Desk, um Anweisungen zu erhalten](contact-tns-service-desk.md). Sie müssen auch eine Rechnung für das Hilfsprogramm von der Geschäftsadresse angeben, für die Sie Nummern übertragen möchten.<br/><br/>Die Übertragung von Nummern kann in diesem Markt zwei bis drei Wochen dauern. <br/><br/>Diese Nummern können derzeit nicht für Konferenzen verwendet werden. |
+|Sie möchten Telefonnummern im nationalen Telefonverzeichnis veröffentlichen bzw. nicht mehr veröffentlichen.  <br/> |[Wenden Sie sich an den TNS Service Desk](contact-tns-service-desk.md) , um Anweisungen zu der Liste der Telefonnummern zu erhalten, die Sie veröffentlichen bzw. deren Veröffentlichung aufheben möchten. <br/> |
+|Sie möchten die Telefonnummer eines Benutzers in eine Dienstnummer ändern.  <br/> |[Wenden Sie sich an den TNS Service Desk](contact-tns-service-desk.md) , um Anweisungen zu der Liste der Benutzernummern zu erhalten, die Sie in Servicenummern umwandeln möchten. <br/> |
+|Durchführen von Verzeichnisdienstupdates für Nummern von Anrufwarteschleifen oder automatischen Telefonzentralen|Anweisungen zum Hinzufügen oder Ändern der Rufnummern von Anrufwarteschleifen oder automatischen Telefonanbietern erhalten Sie beim [TNS Service Desk](contact-tns-service-desk.md). |
    
 ## <a name="related-topics"></a>Verwandte Themen
 

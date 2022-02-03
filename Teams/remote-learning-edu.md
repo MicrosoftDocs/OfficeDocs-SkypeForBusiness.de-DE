@@ -18,12 +18,12 @@ ms.collection:
 - remotework
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 3a2772fe0f190bf7280dc4bb11625aedb3d0157b
-ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+ms.openlocfilehash: bbcafdef989d3154ba99e557f0632e1a6bd6e665
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/28/2021
-ms.locfileid: "60605841"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353410"
 ---
 # <a name="get-started-with-microsoft-teams-for-remote-learning"></a>Erste Schritte mit Microsoft Teams für Fernunterricht
 
@@ -67,7 +67,7 @@ Teams nutzt die Möglichkeiten von Microsoft 365, um Benutzer zu authentifiziere
 
 [Lizenzen müssen den Benutzern zugewiesen werden](teams-edu-licensing.md), bevor sie die Teams-Funktionen nutzen können. Teams setzt weitere Microsoft 365-Funktionen wie [Microsoft 365 Gruppen](Office-365-groups.md), [Exchange](Exchange-Teams-interact.md), [SharePoint und OneDrive](SharePoint-OneDrive-interact.md) ein, um Szenarien für die Zusammenarbeit bereitzustellen. Die Benutzer erzielen die besten Erfahrungen mit Teams, wenn alle diese Dienste ebenfalls aktiviert sind. [Teams wird für Benutzer unterstützt, deren E-Mails bei Google gehostet werden](/microsoft-365/education/deploy/enabling-teams-for-education-for-google-users).
 
-Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Microsoft Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](/microsoft-365/education/intune-edu-trial/set-up-office365-edu-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
+Microsoft Teams ist Bestandteil von Office 365 A1, das für Bildungseinrichtungen kostenlos ist. Informationen zur Bereitstellung von Office 365 und zum Starten von Microsoft Teams in der gesamten Bildungseinrichtung finden Sie [auf dieser Seite](/microsoft-365/education/deploy/create-your-office-365-tenant). Um Unterstützung zu erhalten, können Sie [hier](https://signup.microsoft.com/Signup?OfferId=03ee83a5-5cb4-4545-aca9-33ead43f222a,d764709a-7763-45ef-a2a8-db5b8b6ae704&DL=ENTERPRISEPREMIUM_FACULTY&ali=1) ein Ticket erstellen, und für Schulungen in Teams besuchen Sie Ihren lokalen Microsoft Store, um mit einem Fachmann zu sprechen.
 
 > [!NOTE]
 > Bitte lesen Sie [Aktualisierte Anleitungen für die M365 EDU-Bereitstellung während COVID-19](/microsoft-365/education/deploy/guidance-for-m365-edu-deployment-during-covid19), um die neuesten Informationen zu EDU-Bereitstellungen zu erhalten.

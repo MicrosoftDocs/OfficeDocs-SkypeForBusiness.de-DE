@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fc7a387f7dcd6ef8a3ed728b8aa59db64ccefb31
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: 756f9a8092fea24eb6690baa0768f295bd84e2c1
+ms.sourcegitcommit: 8ddafd0901b6b4f4109f3b6e687ae7fae667d61c
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205525"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62353400"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 
@@ -143,7 +143,7 @@ Wenn Sie das Add-In für Microsoft Teams-Besprechungen für Outlook nicht instal
 Sie können aber auch die folgenden Schritte manuell ausführen:
 
 - Benutzer von Windows 7 müssen das [Update für Universal C Runtime in Windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows) installieren, damit das Add-In für Microsoft Teams-Besprechung funktioniert.
-- Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Microsoft Teams verfügt, die das Planen von Besprechungen in Microsoft Teams ermöglicht. Weitere Informationen hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](/microsoftteams/upgrade-to-teams-on-prem-overview#meetings).
+- Überprüfen Sie, ob der Benutzer über eine Upgrade-Richtlinie für Microsoft Teams verfügt, die das Planen von Besprechungen in Microsoft Teams ermöglicht. Weitere Informationen hierzu finden Sie unter [Upgrade von Skype for Business auf Microsoft Teams](/microsoftteams/meeting-policies-in-teams-general).
 - Überprüfen Sie, ob der Benutzer über eine Microsoft Teams-Besprechungsrichtlinie verfügt, die das Outlook-Add-In zulässt. Weitere Details finden Sie unter [Einstellungen für Besprechungsrichtlinien – Allgemein](./meeting-policies-in-teams-general.md#outlook-add-in).
 - Stellen Sie sicher, dass der Benutzer den Microsoft Teams-Desktopclient installiert hat. Das Besprechungs-Add-In wird nicht installiert, wenn nur der Microsoft Teams-Webclient verwendet wird.
 - Stellen Sie sicher, dass der Benutzer Outlook 2013 oder höher installiert hat.
