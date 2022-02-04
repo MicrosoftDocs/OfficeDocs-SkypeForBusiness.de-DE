@@ -1,7 +1,7 @@
 ---
 title: Installieren von Moodle-Integration in Microsoft Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: article
 ms.service: msteams
@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 061978876e9e8c092f19049ca5f44dd81a9b1012
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 95b368bab33818332ca9c2d0eafcb1966fffb3af
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58592301"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363041"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation der Moodle-Integration in Microsoft Teams
 
@@ -41,7 +41,7 @@ Um IT-Administratoren bei der einfachen Einrichtung dieser Integration zu unters
 * Automatische Installation der Moodle-Registerkarte und des Moodle Assistant-Bots in jedem synchronisierten Team. (Bald verfügbar)
 * Veröffentlichung der Moodle-App in Ihrem privaten Teams App Store mit einem Klick. (Bald verfügbar)
 
-Weitere Informationen zu den Funktionen, die diese Integration bietet, finden Sie unter [Installieren der Moodle-Integration mit Microsoft Teams.](/microsoftteams/platform/resources/moodleinstructions)
+Weitere Informationen zu den Funktionen, die diese Integration bietet, finden Sie unter [Installieren der Moodle-Integration mit Microsoft Teams](/microsoftteams/platform/resources/moodleinstructions).
 
 ## <a name="prerequisites"></a>Voraussetzungen
 
@@ -59,10 +59,10 @@ Die Moodle-Integration in Microsoft Teams wird vom Open-Source [Moodle-Plug-In-S
 
 1. Laden Sie zuerst das [Moodle-Plug-In-Set](https://moodle.org/plugins/pluginversions.php?plugin=local_o365) herunter und speichern Sie es auf Ihrem lokalen Computer. Sie müssen Version 3.5 oder höher verwenden.
     * Wenn Sie das Plug-In local_o365 installieren, werden auch die Plug-Ins [auth_oidc](https://moodle.org/plugins/auth_oidc) und [boost_o365Teams](https://moodle.org/plugins/pluginversions.php?plugin=theme_boost_o365teams) installiert.
-1. Melden Sie sich bei Ihrem Moodle-Server als Administrator an, und wählen **Sie** im linken Navigationsbereich Websiteverwaltung aus.
+1. Melden Sie sich bei Ihrem Moodle-Server als Administrator an, und **wählen Sie im** linken Navigationsbereich Websiteverwaltung aus.
 1. Wählen Sie die Registerkarte **Plug-Ins** und klicken Sie dann auf **Plug-Ins installieren**.
 1. Klicken Sie unter dem Abschnitt **Plug-In aus ZIP-Datei installieren** auf die Schaltfläche **Datei auswählen**.
-1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, suchen Sie nach der oben heruntergeladenen Datei, und klicken Sie **Hochladen datei .**
+1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, suchen Sie nach der oben heruntergeladenen Datei, und klicken Sie **Hochladen diese Datei.**
 1. Wählen Sie im linken Navigationsbereich die Option **Websiteverwaltung** erneut aus, um zu Ihrem Administrator-Dashboard zurückzukehren. Scrollen Sie nach unten zu **Lokale Plug-Ins** und klicken Sie auf den Link **Microsoft Office 365-Integration**. Lassen Sie diese Konfigurationsseite in einer separaten Browser-Registerkarte geöffnet, da Sie diese während des gesamten weiteren Verlaufs dieses Vorgangs verwenden werden.
 
 Weitere Informationen über die Installation von Moodle-Plug-Ins finden Sie in der [Moodle-Dokumentation](https://docs.moodle.org/34/en/Installing_plugins).
@@ -117,7 +117,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Aktivieren Sie im Abschnitt **Benutzer mit Azure AD synchronisieren** die Kontrollkästchen, die für Ihre Umgebung gelten. In der Regel würden Sie mindestens Folgendes auswählen:
         * Erstellen von Konten in Moodle für Benutzer in Azure AD
         * Aktualisieren aller Konten in Moodle für Benutzer in Azure AD
-    * Im Abschnitt **Benutzererstellungseinschränkung** können Sie einen Filter einrichten, um die Azure AD-Benutzer zu beschränken, die mit Moodle synchronisiert werden.
+    * Im Abschnitt **Benutzererstellungseinschränkung** können Sie einen Filter einrichten, um die Anzahl Azure AD Benutzer zu beschränken, die mit Moodle synchronisiert werden.
     * Im Abschnitt **Benutzer-Feldzuordnung** können Sie Azure AD auf die Benutzerprofil-Feldzuordnung von Moodle anpassen.
     * Im Abschnitt **Teams synchronisieren** können Sie festlegen, dass Gruppen (d. h. Teams) für einige oder alle der vorhandenen Moodle-Kurse automatisch erstellt werden.
 1. Um die CRON-Aufträge zu validieren (und sie manuell auszuführen, wenn Sie dies für den ersten Durchlauf wünschen), klicken Sie auf den Link **Verwaltungsseite für geplante Aufgaben** im Abschnitt **Benutzer mit Azure AD synchronisieren**. Dadurch gelangen Sie zur Seite **Geplante Aufgaben**.
@@ -127,7 +127,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Um "OpenID Connect" zu aktivieren, klicken Sie auf den Link **Authentifizierung verwalten** und klicken Sie auf das Augensymbol in der Zeile **OpenId Connect**, wenn es abgeblendet ist.
     * Als nächstes müssen Sie die Frame-Einbettung aktivieren. Klicken Sie auf den Link **HTTP-Sicherheit** und dann auf das Kontrollkästchen neben **Frame-Einbettung zulassen**.
     * Der nächste Schritt besteht darin, Webdienste zu aktivieren, welche die Features der Moodle-API aktivieren. Klicken Sie auf den Link **Erweiterte Features**, und stellen Sie sicher, dass das Kontrollkästchen neben **Webdienste aktivieren** aktiviert ist.
-    * Schließlich müssen Sie die externen Dienste für ihre Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
+    * Schließlich müssen Sie die externen Dienste für die Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
         * Klicken Sie auf **Bearbeiten** in der Zeile **Moodle Office 365-Webdienste**.
         * Aktivieren Sie das Kontrollkästchen neben **Aktiviert**, und klicken Sie dann auf **Änderungen speichern**
     * Als nächstes müssen Sie die Berechtigungen für authentifizierte Benutzer bearbeiten, damit Sie Webdienst-Token erstellen können. Klicken Sie auf den Link **Bearbeitungsrolle "Authentifizierter Benutzer"**. Scrollen Sie nach unten und suchen Sie die Funktion **Webdienst-Token erstellen** und aktivieren Sie das Kontrollkästchen **Zulassen**.
@@ -153,7 +153,7 @@ Um den Bot zu installieren, müssen Sie ihn zuerst auf der [Microsoft Identity P
 1. Klicken Sie auf den Link **Registrierungsportal für Microsoft-Anwendungen** und melden Sie sich mit Ihrer Microsoft-ID an.
 1. Geben Sie einen Namen für Ihre App ein (z. B. MoodleBot), und klicken Sie auf die Schaltfläche **Erstellen**.
 1. Kopieren Sie die **Anwendungs-ID**, und fügen Sie diese in das Feld **Bot-Anwendungs-ID** auf der Seite **Teams-Einstellungen** ein.
-1. Klicken Sie auf die Schaltfläche **Neues Kennwort generieren**. Kopieren Sie das generierte Kennwort, und fügen Sie es in das Feld **"Bot Application Password"** auf der **Teamseite Einstellungen** ein.
+1. Klicken Sie auf die Schaltfläche **Neues Kennwort generieren**. Kopieren Sie das generierte Kennwort, und fügen Sie es in **das Feld "Bot Application Password**" auf der **Teamseite Einstellungen** ein.
 1. Scrollen Sie zum Ende des Formulars, und klicken Sie auf **Änderungen speichern**.
 
 Nachdem Sie Ihre Anwendungs-ID und das Kennwort generiert haben, ist es an der Zeit, den Bot in Azure bereitzustellen. Klicken Sie auf die Schaltfläche **Auf Azure bereitstellen** und füllen Sie das Formular mit den notwendigen Informationen aus (die Bot-Anwendungs-ID, das Bot-Anwendungs-Kennwort und das Moodle Secret befinden sich auf der Seite **Teams-Einstellungen**, und die Azure-Informationen befinden sich auf der Seite **Setup**). Sobald Sie das Formular ausgefüllt haben, klicken Sie auf das Kontrollkästchen, um den Bedingungen zuzustimmen, und klicken Sie dann auf die Schaltfläche **Kaufen** (alle Azure-Ressourcen werden auf den Free-Tarif bereitgestellt).

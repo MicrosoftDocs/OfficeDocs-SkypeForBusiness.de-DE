@@ -1,7 +1,7 @@
 ---
 title: Einrichtung durch Administratoren für die Microsoft EDU Parents-App in Teams
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -17,26 +17,26 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4865372f442160734fec980428c6f6309cc0ad7f
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: f35d4f3037735f2122d26a2b9b24cf3a38f3bc99
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355744"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363231"
 ---
 # <a name="deploying-the-parents-app-in-microsoft-teams"></a>Bereitstellen der Eltern-App in Microsoft Teams
 
-Die Eltern-App hilft Lehrkräften, sich mithilfe von Teams-Chats sicher mit den Eltern und Erziehungsberechtigten der Kursteilnehmer in ihren Kursteams zu verbinden und sich damit zu verbinden. Dieser wird auf die Organisation des Lehrers verteilt. Alle Daten zu Eltern und Erziehungsberechtigten werden mithilfe von School Data Sync bereitgestellt, sodass it-Mitarbeiter alles reibungslos einrichten können.
+Die Eltern-App hilft Lehrkräften, sich mithilfe eines Teams-Chats sicher mit den Eltern und Erziehungsberechtigten der Kursteilnehmer in ihren Klassenteams zu verbinden und sich damit zu verbinden, der sich auf die Organisation des Lehrers verteilt. Alle Daten zu Eltern und Erziehungsberechtigten werden mithilfe von School Data Sync bereitgestellt, sodass it-Mitarbeiter alles reibungslos einrichten können.
 
 ## <a name="requirements"></a>Anforderungen
 
 ### <a name="school-data-sync"></a>School Data Sync
 
-- Sie benötigen School Data Sync (SDS), um die Kontaktinformationen der Eltern und Erziehungsberechtigten jedes Schülers oder Studenten **zu** füllen.
+- Sie benötigen School Data Sync (SDS), um die Kontaktinformationen für Eltern und Erziehungsberechtigte jedes Schülers oder **Studenten zu** füllen.
   - [Bereitstellen von SDS](/schooldatasync/parents-and-guardians-in-sds)
 
-- Wenn Sie Unterstützung beim Einrichten von SDS  sowie beim Auffüllen von Kontakten mit Eltern und Erziehungsberechtigten für die Schüler/Studenten in Ihrem Mandanten benötigen, wenden Sie sich über die hier angezeigten Aufgaben an das EDU Customer Success-Team:
-  - Abschließen des RFA-Prozesses [am FastTrack.](https://www.microsoft.com/fasttrack?rtc=1)
+- Wenn Sie Unterstützung beim Einrichten von SDS sowie beim Auffüllen von Kontakten mit Eltern und Erziehungsberechtigten für die Schüler/Studenten in Ihrem Mandanten benötigen, wenden Sie sich über die hier angezeigten Aufgaben an das EDU Customer Success-Team:
+  - Abschließen des RFA-Prozesses [FastTrack](https://www.microsoft.com/fasttrack?rtc=1).
   - Öffnen eines Tickets beim [Support](https://aka.ms/sdssupport)
 
 ### <a name="teams-admin-center---policies"></a>Teams Admin Center – Richtlinien
@@ -61,7 +61,7 @@ Die Eltern-App hilft Lehrkräften, sich mithilfe von Teams-Chats sicher mit den 
     Connect-MicrosoftTeams -Credential $credential
     ```
 
-Die Richtlinieneinstellung, die externen Zugriff mit Teams-Konten ermöglicht, die nicht von einer Organisation auf Benutzerebene verwaltet werden (), ist standardmäßig für alle Richtlinien für externen Zugriff auf `EnableTeamsConsumerAccess` Benutzerebene aktiviert. Sowohl die Einstellung auf Mandantenebene als auch die Richtlinieneinstellung auf Benutzerebene müssen aktiviert sein, damit ein Benutzer über externen Zugriff mit Teams Konten verfügen kann, die nicht von einer Organisation verwaltet werden. Wenn dieser Zugriff nicht für jeden Benutzer in Ihrem Mandanten aktiviert sein soll, sollten Sie sicherstellen, dass die Einstellung auf Mandantenebene deaktiviert ist, die den Benutzern zugewiesenen Richtlinien für externen Zugriff auf Benutzerebene aktualisieren und dann die Einstellung auf Mandantenebene aktivieren.
+Die Richtlinieneinstellung, die externen Zugriff mit Teams-Konten ermöglicht, die nicht von einer Organisation auf Benutzerebene (`EnableTeamsConsumerAccess`) verwaltet werden, ist standardmäßig für alle Richtlinien für externen Zugriff auf Benutzerebene aktiviert. Sowohl die Einstellung auf Mandantenebene als auch die Richtlinieneinstellung auf Benutzerebene müssen aktiviert sein, damit ein Benutzer über externen Zugriff mit Teams Konten verfügen kann, die nicht von einer Organisation verwaltet werden. Wenn dieser Zugriff nicht für jeden Benutzer in Ihrem Mandanten aktiviert sein soll, sollten Sie sicherstellen, dass die Einstellung auf Mandantenebene deaktiviert ist, die den Benutzern zugewiesenen Richtlinien für externen Zugriff auf Benutzerebene aktualisieren und dann die Einstellung auf Mandantenebene aktivieren.
 
 Um zu überprüfen, welche Richtlinien für externen Zugriff auf Benutzerebene vorhanden sind und wem sie zugewiesen sind, können Sie die folgenden Schritte ausführen:
     
@@ -80,7 +80,7 @@ Um zu überprüfen, welche Richtlinien für externen Zugriff auf Benutzerebene v
     Get-CsOnlineUser -Filter {ExternalAccessPolicy -eq "<PolicyName>"} | Select-Object DisplayName,ObjectId,UserPrincipalName
     ```
 
-Da alle Richtlinien für externen Zugriff auf Benutzerebene standardmäßig auf "true" festgelegt sind, können Sie vorhandene Richtlinien für externen Zugriff mit angepassten Einstellungen erstellen/ändern und/oder Benutzer mithilfe der folgenden `EnableTeamsConsumerAccess` PowerShell-Cmdlets neuen oder vorhandenen Richtlinien erneut `EnableTeamsConsumerAccess` zuweisen:
+Da alle Richtlinien für externen Zugriff auf Benutzerebene standardmäßig auf "true" festgelegt sind, `EnableTeamsConsumerAccess` können Sie vorhandene Richtlinien für externen Zugriff mit angepassten Einstellungen erstellen/ändern und/oder Benutzer mithilfe der folgenden PowerShell-Cmdlets `EnableTeamsConsumerAccess` neuen oder vorhandenen Richtlinien erneut zuweisen:
 
 - Erstellen einer neuen Richtlinie für externen Zugriff: [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy)
 
@@ -93,17 +93,17 @@ Da alle Richtlinien für externen Zugriff auf Benutzerebene standardmäßig auf 
 
 - Zuweisen einer Richtlinie zu einer Gruppe von Benutzern: [New-CsBatchPolicyAssignmentOperation](/powershell/module/skype/new-csbatchpolicyassignmentoperation)
 
-Nachdem die Richtlinien für externen Zugriff auf Benutzerebene für die Benutzer in Ihrem Mandanten ordnungsgemäß festgelegt wurden, können Sie die Einstellung auf Mandantenebene ( ) für den Mandanten mit dem folgenden `AllowTeamsConsumer` Cmdlet aktivieren:
+Nachdem die Richtlinien für externen Zugriff auf Benutzerebene für die Benutzer in Ihrem Mandanten ordnungsgemäß festgelegt wurden, können Sie die Einstellung auf Mandantenebene (`AllowTeamsConsumer`) für den Mandanten mit dem folgenden Cmdlet aktivieren:
 
 - Festlegen der Verbundkonfigurationseinstellungen für Ihren Mandanten: [Set-CsTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration)
 
 ## <a name="enabling-the-parents-app"></a>Aktivieren der Eltern-App
 
-Da die Eltern-App standardmäßig deaktiviert ist, können Kursteambesitzer die App erst dann in ihren Kursteams sehen, wenn die App über das Teams Admin Center zugelassen wird. Die App kann über das Teams Admin Center zugelassen werden, indem Sie [Von Herausgebern blockierte Apps zulassen verwenden.](manage-apps.md#apps-blocked-by-publishers)
+Da die Eltern-App standardmäßig deaktiviert ist, können Kursteambesitzer die App erst dann in ihren Kursteams sehen, wenn die App über das Teams Admin Center zugelassen wird. Die App kann über das Teams Admin Center mithilfe von Von [Herausgebern blockierten Apps zugelassen werden](manage-apps.md#apps-blocked-by-publishers).
 
 Sie können die App jederzeit auf Mandantenebene mithilfe von Zulassen und Blockieren von [Apps](manage-apps.md#allow-and-block-apps) im Teams Admin Center deaktivieren. Wenn die App auf Mandantenebene deaktiviert ist, wird sie für alle Benutzer blockiert, auch wenn Berechtigungen auf Benutzerebene aktiviert sind.
 
-Die App kann auch auf Benutzerebene mithilfe von Richtlinien für [App-Berechtigungen verwalten in Microsoft Teams.](teams-app-permission-policies.md)
+Die App kann auch auf Benutzerebene mithilfe von Richtlinien zum Verwalten von [App-Berechtigungen im](teams-app-permission-policies.md) Microsoft Teams.
 
 ## <a name="more-information"></a>Weitere Informationen
 

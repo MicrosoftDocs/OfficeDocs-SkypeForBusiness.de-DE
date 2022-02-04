@@ -24,20 +24,20 @@ search.appverid: MET150
 description: Erfahren Sie mehr über die Optionen für Teams-Anrufe (PSTN-Konnektivität) und die Entscheidungen, die Sie für Ihre Organisation treffen werden.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 49c836687d7652c18b5932bd662d8ee935638d8a
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: b82404e23a2443efb06582664a206a6a43cad770
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62015275"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363241"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN-Konnektivitätsoptionen
 
-Microsoft stellt für Ihre Organisation Exchange(PBX)-Funktionen (Private Branch Teams Telefon) Teams Telefon. Um Benutzern das Anrufen außerhalb Ihrer Organisation zu ermöglichen, müssen Sie Teams Telefon das Public Switched Telephone Network (PSTN) verbinden.
+Microsoft stellt für Ihre Organisation Exchange privaten Verzweigungsfunktionen (PBX) über den gesamten Teams Telefon. Um Benutzern das Anrufen außerhalb Ihrer Organisation zu ermöglichen, müssen Sie Teams Telefon mit dem öffentlichen Telefonnetz (PSTN) verbinden.
 
-Dieser Artikel konzentriert sich auf PSTN-Konnektivitätsoptionen. Weitere Informationen zu Microsoft-Sprachlösungen, einschließlich Details zu Teams Telefon-Features, finden Sie unter Planen [Teams Sprachlösung.](cloud-voice-landing-page.md)
+Dieser Artikel konzentriert sich auf PSTN-Konnektivitätsoptionen. Weitere Informationen zu Microsoft-Sprachlösungen, einschließlich Details zu Teams Telefon-Features, finden Sie unter Planen [Teams Sprachlösung](cloud-voice-landing-page.md).
 
-Um eine Teams Telefon mit dem PSTN herzustellen, können Sie unter den folgenden Optionen wählen:
+Wenn Sie Teams Telefon PSTN verbinden möchten, können Sie unter den folgenden Optionen wählen:
 
 - [**Anrufplan**](#teams-phone-with-calling-plan). Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Anbieter.
 
@@ -53,11 +53,11 @@ Beachten Sie, dass sich die von Ihnen ausgewählten Optionen darauf auswirken, w
 
 ## <a name="teams-phone-with-calling-plan"></a>Teams Telefon mit Anrufplan 
 
-Teams Telefon Anrufplan ist die Cloud-basierten Sprachlösung von Microsoft für Teams Benutzer. Dies ist die einfachste Option, mit der eine Verbindung Teams Telefon PSTN hergestellt wird. Bei dieser Option fungiert Microsoft als Ihr PSTN-Netzbetreiber, wie im folgenden Diagramm dargestellt:
+Teams Telefon Anrufplan ist die Cloud-basierten Sprachlösung von Microsoft für Teams Benutzer. Dies ist die einfachste Option, mit der eine verbindung Teams Telefon PSTN hergestellt wird. Bei dieser Option fungiert Microsoft als Ihr PSTN-Netzbetreiber, wie im folgenden Diagramm dargestellt:
 
 ![In Abbildung 1 ist das Microsoft-Telefonsystems mit Anrufplan dargestellt.](media/voice-solutions-simple.png)
 
-Wenn Sie auf Folgendes mit "Ja" antworten, ist Teams Telefon Anrufplan die richtige Lösung für Sie:
+Wenn Sie mit Ja antworten, ist Teams Telefon Anrufplan die richtige Lösung für Sie:
 
 - PSTN-Anrufe sind in Ihrem Land oder Ihrer Region nicht verfügbar.
 - Sie müssen nicht bei Ihrem aktuellen Festnetzbetreiber bleiben.
@@ -65,7 +65,7 @@ Wenn Sie auf Folgendes mit "Ja" antworten, ist Teams Telefon Anrufplan die richt
 
 Mit dieser Option geschieht Folgendes: 
 
-- Sie erhalten Teams Telefon mit zusätzlichen Inlands- oder Auslands anrufplänen, die Anrufe an Telefone auf der ganzen Welt ermöglichen (abhängig von der Stufe des lizenzierten Diensts).
+- Sie erhalten Teams Telefon zusätzlichen Inlands- oder Auslandsrufpläne, mit denen Telefone auf der ganzen Welt telefoniert werden können (abhängig von der Art des lizenzierten Diensts).
 
 - Sie benötigen keine Bereitstellung oder Wartung einer lokalen Bereitstellung&mdash;, da der Anrufplan von Microsoft 365 aus ausgeführt wird.
 
@@ -83,7 +83,7 @@ Weitere Informationen zum Anrufplan finden Sie in den folgenden Artikeln:
 
 ## <a name="teams-phone-with-operator-connect"></a>Teams Telefon mit Operator Verbinden
 
-Mit Telefonieanbieter, das sich derzeit in der öffentlichen Vorschau befindet, kann Ihr bestehender Netzbetreiber, wenn er am Microsoft Telefonieanbieter-Programm teilnimmt, den Dienst verwalten, um PSTN-Anrufe an Teams zu übertragen. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
+Wenn Ihr Verbinden Teilnehmer am Microsoft Operator Verbinden-Programm ist, kann er den Dienst verwalten, um PSTN-Anrufe an Teams. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
 
 Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
 
@@ -100,7 +100,7 @@ Diese Option stellt eine Teams Telefon mit Ihrem Telefonienetzwerk mithilfe von 
 
 ![Abbildung 5 zeigt ein Telefonsystem mit Direct Routing.](media/voice-solution-with-direct-routing.png)
 
-Wenn Sie die folgenden Fragen mit "Ja" beantworten, Teams Telefon Direct-Routing die richtige Lösung für Sie:
+Wenn Sie auf die folgenden Fragen mit "Ja" antworten, Teams Telefon Sie direkt mit Direct-Routing zurecht finden:
 
 - Sie möchten die Teams mit Teams Telefon.
 - Sie müssen bei Ihrem aktuellen Festnetzbetreiber bleiben.
@@ -109,13 +109,13 @@ Wenn Sie die folgenden Fragen mit "Ja" beantworten, Teams Telefon Direct-Routing
 
 Mit dieser Option geschieht Folgendes:
 
-- Sie verbinden Ihre eigenen unterstützten Session Border Controller (SBC)-Daten mit Teams Telefon ohne dass zusätzliche lokale Software benötigt wird.
+- Sie verbinden Ihre eigenen unterstützten Session Border Controller (SBC)-Teams Telefon, ohne dass zusätzliche lokale Software benötigt wird.
 
-- Sie können praktisch jeden Telefonieanbieter mit Ihrem Teams Telefon.
+- Sie können praktisch jeden Telefonie-Netzbetreiber mit Teams Telefon.
 
 - Sie können diese Option selbst konfigurieren und verwalten, oder sie kann von Ihrem Netzbetreiber oder Partner konfiguriert und verwaltet werden (fragen Sie Ihren Netzbetreiber oder Partner, ob diese Option zur Auswahl steht).
 
-- Sie können die Interoperabilität zwischen Ihren Telefoniegeräten wie einer Drittanbieter-PBX und analogen Geräten und Geräten &mdash; &mdash; Teams Telefon.
+- Sie können die Interoperabilität zwischen Ihren Telefoniegeräten&mdash; – z. B. einem Drittanbieter für Festnetztelefonanlagen und analogen&mdash; Geräten – Teams Telefon.
 
 Diese Option setzt Folgendes voraus:
 
@@ -124,7 +124,7 @@ Diese Option setzt Folgendes voraus:
 - Bereitstellen und Verwalten eines unterstützten SBC
 
 - Einen Vertrag mit einem externen Netzbetreiber
-  (Es sei denn, die Bereitstellung als Option zum Bereitstellen einer Verbindung mit Drittanbieter-PBX, analogen Geräten oder anderen Telefoniegeräten für Benutzer, die mit Anrufplan Teams Telefon sind.)
+  (Sofern sie nicht als Option bereitgestellt werden, um Verbindungen mit Drittanbieter-PBX, analogen Geräten oder anderen Telefoniegeräten für Benutzer mit Anrufplan Teams Telefon telefonieren.)
 
 Weitere Informationen zum direkten Routing finden Sie in den folgenden Artikeln:
 
@@ -138,7 +138,7 @@ Weitere Informationen zum direkten Routing finden Sie in den folgenden Artikeln:
 
 ## <a name="configuration-considerations"></a>Überlegungen zur Konfiguration
 
-Die Teams Telefon sind unabhängig von der von Ihnen aktivierten PSTN-Konnektivitätsoption identisch. Beispielsweise stehen Einstellungen für unbeantwortete Anrufe und Weiterleitung, Anrufweiterleitung, benutzerdefinierte Wartemusik, Anrufparken, gemeinsame Leitung und Sprach-Apps zur Verfügung. Eine vollständige Liste der Teams Telefon finden Sie unter Dies ist das, was Sie [von ihrer Teams Telefon.](here-s-what-you-get-with-phone-system.md)
+Die Teams Telefon sind unabhängig von der von Ihnen aktivierten PSTN-Konnektivitätsoption identisch. Beispielsweise stehen Einstellungen für unbeantwortete Anrufe und Weiterleitung, Anrufweiterleitung, benutzerdefinierte Wartemusik, Anrufparken, gemeinsame Leitung und Sprach-Apps zur Verfügung. Eine vollständige Liste der Teams Telefon finden Sie unter Dies ist das, was Sie [von Ihren Teams Telefon](here-s-what-you-get-with-phone-system.md).
 
 Es gibt jedoch einige Funktionsunterschiede, die sich auf die Konfiguration bestimmter Features Teams Telefon auswirken. Direktes Routing erfordert beispielsweise zusätzliche Schritte zum Konfigurieren des Anrufroutings. Als weiteres Beispiel bietet Direct Routing Location-Based-Routing (LBR) – damit Sie die Gebührenumgehung an bestimmten geografischen Standorten einschränken können, an denen dies nicht zulässig ist. 
 

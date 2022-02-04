@@ -1,7 +1,7 @@
 ---
 title: Verwalten des Benutzerzugriffs auf Education Insights
-author: MicrosoftHeidi
-ms.author: heidip
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 ms.topic: reference
 ms.service: msteams
@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b69f885eee0b96b87b5f22d04abbd16d0389b904
-ms.sourcegitcommit: e5e6c6c99296db8005451bcb08d727469f0ac984
+ms.openlocfilehash: f97b2aea15fe626c7780f022e2d024729ad02589
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/02/2021
-ms.locfileid: "58864195"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363181"
 ---
 # <a name="manage-user-access-to-education-insights"></a>Verwalten des Benutzerzugriffs auf Education Insights
 
@@ -103,6 +103,6 @@ Verwenden Sie individuelle Berechtigungen, um die Berechtigung für einen Benutz
   * **Bestimmte Organisation** bedeutet, dass der Benutzer die ausgewählte Organisationseinheit und alle darunter liegenden Organisationseinheiten sieht. Beginnen Sie mit der Eingabe, und wählen Sie die Organisationseinheit aus der Liste aus.
   * **Keine** bedeutet, dass der Benutzer nur die Organisationseinheiten sieht, die automatisch durch seine Rolle zugewiesen werden (sofern vorhanden).
   
-  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich Individuelle Berechtigungen.":::
+  :::image type="content" source="media/insights-individual-permissions-panel.png" alt-text="Bereich "Individuelle Berechtigungen".":::
 
 * Klicken Sie auf **Änderungen speichern**, um zu speichern.

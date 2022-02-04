@@ -2,8 +2,8 @@
 title: Microsoft Teams für Bildungseinrichtungen
 description: Erfahren Sie mehr über die verfügbaren Administratorressourcen, die Ihnen bei der erfolgreichen Bereitstellung, Einführung und Verwaltung von Teams in Ihrer Bildungseinrichtung helfen.
 ms.topic: conceptual
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: DaniEASmith
+ms.author: danismith
 manager: serdars
 audience: admin
 f1.keywords:
@@ -19,16 +19,16 @@ appliesto:
 ms.custom:
 - seo-marvel-apr2020
 - ms.teamsadmincenter.assignments.overview
-ms.openlocfilehash: 563cf727031ebad6f27c7989499a95040e8fa104
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 15c79d06ce16ea0ee3a75753aade487d40468131
+ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863142"
+ms.lasthandoff: 02/03/2022
+ms.locfileid: "62363011"
 ---
 # <a name="teams-for-education"></a>Microsoft Teams für Bildungseinrichtungen
 
-Mit Teams Lehrkräften können Lehrkräfte gemeinsame Kursräume erstellen, sich in professionellen Lerngemeinschaften verbinden und mit Kursteilnehmern und Lehrkräften kommunizieren. Verwenden Sie die hier bereitgestellten Administratorressourcen als Hilfe bei der erfolgreichen Bereitstellung, Einführung und Verwaltung Teams Ihrer Bildungseinrichtung. 
+Mit Teams Lehrkräften können Lehrkräfte gemeinsame Kursräume erstellen, sich in professionellen Lerngemeinschaften verbinden und mit Kursteilnehmern und Lehrkräften kommunizieren. Verwenden Sie die hier bereitgestellten Administratorressourcen, um Ihnen bei der erfolgreichen Bereitstellung, Einführung und Verwaltung ihrer Teams in Ihrer Bildungseinrichtung zu helfen. 
 
 
 |&nbsp;|&nbsp;|
