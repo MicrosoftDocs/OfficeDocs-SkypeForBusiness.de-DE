@@ -1,7 +1,7 @@
 ---
 title: Planen von Skype for Business in VDI-Umgebungen
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: krishra
 manager: serdars
 ms.date: 1/9/2018
@@ -9,31 +9,26 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Admin
-ms.custom: ''
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ea68414b-bb7e-483a-b731-b6b5a44372b1
 description: In diesem Thema werden Planungsüberlegungen für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert.
-ms.openlocfilehash: 63dbdb11abf6188cb11d5f96b54ddeb541f1b9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864722"
 ---
+
 # <a name="plan-for-skype-for-business-in-vdi-environments"></a>Planen von Skype for Business in VDI-Umgebungen
  
 In diesem Thema werden Planungsüberlegungen für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert. 
   
-Eine Virtual Desktop Infrastructure (VDI)-Umgebung wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Ihre Benutzer erledigen ihre Arbeit auf einem virtuellen Desktop mit all ihren Desktopanwendungen und -dateien über Remotedesktopdienste oder eine ähnliche Remoteverbindung. Die Verwendung von Skype for Business mit vollständigem Audio und Video in einer solchen Verbindung erfordert eine hohe Audio- und Videoverarbeitung auf dem Client, der auf einem virtuellen Desktop verwaltet wird. Es steht zusätzliche VDI-Plug-In-Software zur Verfügung, die diese Verarbeitung auf den lokalen Computer des Endbenutzers auslädt und die Last auf dem virtuellen Desktop reduziert.
+Eine Virtual Desktop Infrastructure (VDI)-Umgebung wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Ihre Benutzer erledigen ihre Arbeit auf einem virtuellen Desktop mit all ihren Desktopanwendungen und -dateien über Remotedesktopdienste oder eine ähnliche Remoteverbindung. Die Verwendung von Skype for Business mit vollständigem Audio und Video auf einer solchen Verbindung erfordert eine hohe Audio- und Videoverarbeitung auf dem Client, der auf einem virtuellen Desktop verwaltet wird. Es steht zusätzliche VDI-Plug-In-Software zur Verfügung, die diese Verarbeitung auf den lokalen Computer des Endbenutzers auslädt und die Last auf dem virtuellen Desktop reduziert.
   
 Für die VDI-Plug-In-Komponente stehen drei Lösungen zur Verfügung, die von Microsoft, Citrix oder VMWare angeboten werden. Für neue Bereitstellungen empfiehlt Microsoft die Verwendung der Citrix HDX RealTime Optimization Pack-Lösung oder des VMWare Horizon Virtualization Pack. Das ursprüngliche Lync VDI-Plug-In wird für den restlichen Lebenszyklus weiterhin unterstützt.
   
-- Das **Lync VDI-Plug-In** wurde für Lync 2013 entwickelt und ist entweder mit dem Lync 2013- oder Skype for Business 2015-Client kompatibel, der auf einem virtuellen Desktop ausgeführt wird. Es handelt sich um eine eigenständige Anwendung, die auf dem lokalen Computer installiert wird und die Verwendung lokaler Audio- und Videogeräte mit einem Client auf einem virtuellen Desktop ermöglicht. Für das Plug-In muss kein Skype for Business Client auf dem lokalen Computer oder dem Thin Client installiert werden, der Windows 7-, Windows 8- oder Windows Server 2008-Betriebssystemen ausführen muss. (Thin Client-Geräte, die diese Betriebssysteme verwenden und von Microsoft unterstützt werden, umfassen: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP t610 und HP t5740e.) Dieses Plug-In wird weiterhin unterstützt, zukünftige Updates sind jedoch nicht geplant. Für Citrix-basierte virtuelle Umgebungen wird das Citrix RealTime Optimization Pack empfohlen.
+- Das **Lync VDI-Plug-In** wurde für Lync 2013 entwickelt und ist entweder mit dem Lync 2013- oder Skype for Business 2015-Client kompatibel, der auf einem virtuellen Desktop ausgeführt wird. Es handelt sich um eine eigenständige Anwendung, die auf dem lokalen Computer installiert wird und die Verwendung lokaler Audio- und Videogeräte mit einem Client auf einem virtuellen Desktop ermöglicht. Für das Plug-In muss kein Skype for Business-Client auf dem lokalen Computer oder dem Thin Client installiert werden, der Windows 7-, Windows 8- oder Windows Server 2008-Betriebssystemen ausführen muss. (Thin Client-Geräte, die diese Betriebssysteme verwenden und von Microsoft unterstützt werden, umfassen: Dell Wyse Z90D7, Dell Wyse R90L7, Dell Wyse X90m7, HP t610 und HP t5740e.) Dieses Plug-In wird weiterhin unterstützt, zukünftige Updates sind jedoch nicht geplant. Für Citrix-basierte virtuelle Umgebungen wird das Citrix RealTime Optimization Pack empfohlen.
     
-- Citrix **RealTime Optimization Pack** basiert auf dem Lync VDI-Plug-In und funktioniert mit Lync 2013- oder Skype for Business 2016-Clients auf einem virtuellen Desktop. Es wurde von Citrix und Microsoft gemeinsam entwickelt, um das ursprüngliche VDI-Plug-In zu verbessern. Es kann auf Clients mit Windows und nicht Windows Betriebssystemen installiert werden (einschließlich Windows 10, Mac und Linux). Es besteht aus zwei Komponenten: dem RealTime Connector (der auf dem virtuellen Desktop installiert ist) und dem RealTime Media Engine (das auf dem lokalen Computer des Endbenutzers installiert ist). Diese beiden Komponenten ermöglichen es dem lokalen Computer des Benutzers, den Skype for Business Client zu verwenden, der auf dem virtuellen Desktop ausgeführt wird, wobei die A/V-Verarbeitung auf den lokalen Computer verschoben wird. Für Citrix-basierte virtuelle Desktopumgebungen wird das Citrix RealTime Optimization Pack empfohlen, und weitere Unterstützung ist geplant.
+- Citrix **RealTime Optimization Pack** basiert auf dem Lync VDI-Plug-In und funktioniert mit Lync 2013- oder Skype for Business 2016-Clients auf einem virtuellen Desktop. Es wurde von Citrix und Microsoft gemeinsam entwickelt, um das ursprüngliche VDI-Plug-In zu verbessern. Es kann auf Clients mit Windows und nicht Windows Betriebssystemen installiert werden (einschließlich Windows 10, Mac und Linux). Es besteht aus zwei Komponenten: dem RealTime Connector (der auf dem virtuellen Desktop installiert ist) und dem RealTime Media Engine (das auf dem lokalen Computer des Endbenutzers installiert ist). Diese beiden Komponenten ermöglichen es dem lokalen Computer des Benutzers, den Skype for Business Client zu verwenden, der auf dem virtuellen Desktop ausgeführt wird, wobei die A/V-Verarbeitung auf den lokalen Computer verschoben wurde. Für Citrix-basierte virtuelle Desktopumgebungen wird das Citrix RealTime Optimization Pack empfohlen, und weitere Unterstützung ist geplant.
     
 - Mit dem **VMWare Horizon Virtualization Pack** für Skype for Business, das in Zusammenarbeit mit VMWare entwickelt wurde, können Sie Skype for Business auf einem virtuellen Desktop bereitstellen und gleichzeitig eine hervorragende Benutzererfahrung bereitstellen. Die Lösung verwendet ein Medienmodul auf dem Client, um eine optimierte Lösung zu erstellen, wobei der Clientendpunkt Medien-Offload-Funktionen für Audio- und Videoanrufe bereitstellt. Diese Lösung kann Audio- und Videodaten entweder direkt zwischen Endpunkten für die Einzelzusammenarbeit bereitstellen oder an eine zentrale Multipoint Control Unit (MCU) für Konferenzanrufe oder Besprechungen mit mehreren Teilnehmern auslagern.
     
@@ -43,9 +38,9 @@ Für die VDI-Plug-In-Komponente stehen drei Lösungen zur Verfügung, die von Mi
 ## <a name="citrix-hdx-realtime-optimization-pack"></a>Citrix HDX RealTime Optimization Pack
 <a name="Citrix_RT"> </a>
 
-Citrixs VDI-Umgebungs-Plug-In (ein Feature von XenApp und XenDesktop) ist kompatibel mit Lync 2013- und Skype for Business 2015- und 2016-Clients (Vollständige Clients mit einem klick zum Ausführen des Installationsprogramms oder MSI-Installationsprogramme, die nach dem PU vom Januar 2017 veröffentlicht wurden), die auf einem virtuellen Desktop installiert sind. Die allgemeine Funktionsweise basiert auf dem Microsoft Lync VDI-Plug-In, funktioniert jedoch auf einer größeren Vielfalt von Clientbetriebssystemen, einschließlich Windows 10, Macintosh und Linux.
+Citrixs VDI-Umgebungs-Plug-In (ein Feature von XenApp und XenDesktop) ist kompatibel mit Lync 2013- und Skype for Business 2015- und 2016-Clients (vollständige Clients mit einem klick zum Ausführen des Installationsprogramms oder MSI-Installationsprogramme, die nach dem PU-Update vom Januar 2017 veröffentlicht wurden), die auf einem virtuellen Desktop installiert sind. Die allgemeine Funktionsweise basiert auf dem Microsoft Lync VDI-Plug-In, funktioniert jedoch auf einer größeren Vielfalt von Clientbetriebssystemen, einschließlich Windows 10, Macintosh und Linux.
   
-Eine vollständige Liste der Features und unterstützten Technologien finden Sie auf der Citrix-Website unter [Delivering Microsoft Skype for Business to XenApp and XenDesktop Users.](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf)
+Eine vollständige Liste der Features und unterstützten Technologien finden Sie auf der Citrix-Website unter [Delivering Microsoft Skype for Business to XenApp and XenDesktop Users](https://www.citrix.com/content/dam/citrix/en_us/documents/products-solutions/delivering-microsoft-lync-to-xenapp-and-xendesktop-users.pdf).
   
 Weitere Informationen finden Sie unter den folgenden Links:
   
@@ -58,7 +53,7 @@ Weitere Informationen finden Sie unter den folgenden Links:
 ## <a name="vmware-horizon-virtualization-pack"></a>VMWare Horizon Virtualization Pack
 <a name="Citrix_RT"> </a>
 
-Die VDI-Umgebungslösung von VMWare ist kompatibel mit Skype for Business 2015- und 2016 Full-Clients, die auf einem virtuellen Desktop installiert sind. Die allgemeine Funktionsweise basiert auf dem Microsoft Lync VDI-Plug-In, funktioniert jedoch auf einer größeren Vielfalt von Clientbetriebssystemen, einschließlich Windows 10, Macintosh und Linux. 
+Die VDI-Umgebungslösung von VMWare ist mit Skype for Business 2015- und 2016 Full-Clients kompatibel, die auf einem virtuellen Desktop installiert sind. Die allgemeine Funktionsweise basiert auf dem Microsoft Lync VDI-Plug-In, funktioniert jedoch auf einer größeren Vielfalt von Clientbetriebssystemen, einschließlich Windows 10, Macintosh und Linux. 
   
 Eine vollständige Erläuterung der Features und unterstützten Technologien finden Sie auf der VMWare-Website unter den folgenden Links:
   
@@ -83,7 +78,7 @@ Mit der Microsoft Lync VDI-Plug-In-Lösung muss sich der Benutzer auf einem Wind
     
 Nachdem eine Verbindung hergestellt wurde, kann der Benutzer Audio- und Videoanrufe tätigen und empfangen. Der Datenverkehr im Netzwerk und die Last auf dem virtuellen Desktop werden minimiert, da der lokale Computer die Audio-/Videoverarbeitung verarbeitet.
   
-Das Lync VDI-Plug-In von Microsoft wird nur auf bestimmten Windows Betriebssystemen unterstützt und unterstützt nur Lync 2013- oder Skype for Business 2015-Clients. Weitere Informationen zu unterstützten Technologien und Einschränkungen finden Sie unter ["Unterstützte Virtualisierungstechnologien" und bekannte Einschränkungen.](vdi-environments.md#Supported_virt)
+Das Lync VDI-Plug-In von Microsoft wird nur auf bestimmten Windows Betriebssystemen unterstützt und unterstützt nur Lync 2013- oder Skype for Business 2015-Clients. Weitere Informationen zu [unterstützten Technologien und Einschränkungen finden Sie unter "Unterstützte Virtualisierungstechnologien" und bekannte Einschränkungen](vdi-environments.md#Supported_virt) .
   
 Weitere Informationen finden Sie unter den folgenden Links:
   
@@ -95,7 +90,7 @@ Weitere Informationen finden Sie unter den folgenden Links:
     
 - Citrix Knowledge Center-Artikel [CTX138408](https://support.citrix.com/article/CTX138408)
     
-Das Microsoft VDI-Plug-In ist im [Microsoft Lync VDI 2013-Plug-In (32 Bit)](https://www.microsoft.com/download/details.aspx?id=35457) oder [im Microsoft Lync VDI 2013-Plug-In (64 Bit)](https://www.microsoft.com/download/details.aspx?id=35454)verfügbar. Dieses Plug-In wird trotz des Namens mit dem Skype for Business 2015-Client unterstützt.
+Das Microsoft VDI-Plug-In ist im [Microsoft Lync VDI 2013-Plug-In (32 Bit)](https://www.microsoft.com/download/details.aspx?id=35457) oder im [Microsoft Lync VDI 2013-Plug-In (64 Bit)](https://www.microsoft.com/download/details.aspx?id=35454) verfügbar. Dieses Plug-In wird trotz des Namens mit dem Skype for Business 2015-Client unterstützt.
   
 ### <a name="supported-virtualization-technologies-and-known-limitations"></a>Unterstützte Virtualisierungstechnologien und bekannte Einschränkungen
 <a name="Supported_virt"> </a>
@@ -106,7 +101,7 @@ Das Lync VDI-Plug-In ermöglicht Audio- und Videoanrufe für unterstützte Virtu
 
 Das Lync VDI-Plug-In unterstützt vollständige Desktop-Remotesitzungen im persönlichen virtuellen Desktopszenario, jedoch nicht im Remotedesktop-Sitzungsszenario. Diese Szenarien können wie folgt beschrieben werden:
   
-- **Unterstützt: Personalisierte virtuelle Desktops oder virtuelle Desktopinfrastruktur (Virtual Desktop Infrastructure, VDI).** In diesem Szenario meldet sich jeder Benutzer bei einem anpassbaren virtuellen Desktop an und kann Dateien auf dem Desktop speichern, die sitzungsübergreifend bestehen bleiben. Microsoft-Remotedesktop Dienste und VMware Horizon View sind Beispielimplementierungen, die für die Verwendung mit Skype for Business 2015 getestet wurden. Weitere Implementierungen, die einer Überprüfung unterzogen werden, sind Citrix XenDesktop. Informationen zu anbieterspezifischen VDI-Umgebungen und Clienthardware, die von Microsoft getestet wurden, finden Sie unter ["Für Microsoft Lync qualifizierte Infrastruktur".](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+- **Unterstützt: Personalisierte virtuelle Desktops oder virtuelle Desktopinfrastruktur (Virtual Desktop Infrastructure, VDI).** In diesem Szenario meldet sich jeder Benutzer bei einem anpassbaren virtuellen Desktop an und kann Dateien auf dem Desktop speichern, die sitzungsübergreifend bestehen bleiben. Microsoft-Remotedesktop Services und VMware Horizon View sind Beispielimplementierungen, die für die Verwendung mit Skype for Business 2015 getestet wurden. Weitere Implementierungen, die einer Überprüfung unterzogen werden, sind Citrix XenDesktop. Informationen zu anbieterspezifischen VDI-Umgebungen und Clienthardware, die von Microsoft getestet wurden, finden Sie unter ["Für Microsoft Lync qualifizierte Infrastruktur](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)".
     
 - **Nicht unterstützt: Remotedesktopsitzungen.** In diesem Szenario meldet sich jeder Benutzer bei einer generischen virtuellen Desktopsitzung an, die nicht angepasst werden kann. Beispiele sind Microsoft-Remotedesktop Sitzungen (RDSH) und Citrix XenApp in Kombination mit Citrix Receiver.
     
@@ -120,7 +115,7 @@ Das Lync VDI-Plug-In wurde für die Verwendung plattformunabhängiger APIs entwi
 In einer VDI-Umgebung müssen die virtuellen Computer und der lokale Computer des Benutzers die in diesem Abschnitt beschriebenen Anforderungen erfüllen.
   
 > [!NOTE]
->  Ihr Virtualisierungslösungsanbieter kann Details zur Installation und Bereitstellung seiner Umgebung bereitstellen. Allgemeine Informationen zum Bereitstellen einer virtualisierten Umgebung basierend auf Hyper-V und Remotedesktopdiensten finden Sie in den folgenden Artikeln in der Microsoft Library: [Hyper-V,](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)) [Remotedesktopdienste in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
+>  Ihr Virtualisierungslösungsanbieter kann Details zur Installation und Bereitstellung seiner Umgebung bereitstellen. Allgemeine Informationen zum Bereitstellen einer virtualisierten Umgebung basierend auf Hyper-V und Remotedesktopdiensten finden Sie in den folgenden Artikeln in der Microsoft Library: [Hyper-V](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753637(v=ws.10)), [Remotedesktopdienste in Windows Server 2008 R2](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/dd736539(v=ws.10)) 
   
 Virtuelle Computer müssen mit Windows 8, Windows 7 oder Windows Server 2008 R2 mit den neuesten Service Packs konfiguriert werden.
   
@@ -132,16 +127,16 @@ Der lokale Computer des Benutzers muss die folgenden Anforderungen erfüllen:
     
 - Wenn Sie Remotedesktopdienste verwenden, wählen Sie das 32-Bit- oder 64-Bit-Lync VDI-Plug-In aus, um es mit dem Betriebssystem des lokalen Computers abzugleichen. Es ist nicht erforderlich, dass sowohl der lokale als auch der virtuelle Computer über 32-Bit- oder 64-Bit-Betriebssysteme verfügen. Wenn Sie eine andere Virtualisierungslösung oder Plattform verwenden, lesen Sie die Anforderungen Ihres Anbieters.
     
-- Auf dem lokalen Computer muss die [neueste Version des Remotedesktopclients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)ausgeführt werden. Installieren Sie die neuesten Updates des Remotedesktopdienste-Clients von Microsoft oder die neueste Remotedesktopclientsoftware von Ihrem Virtualisierungslösungsanbieter. 
+- Auf dem lokalen Computer muss die [neueste Version des Remotedesktopclients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients) ausgeführt werden. Installieren Sie die neuesten Updates des Remotedesktopdienste-Clients von Microsoft oder die neueste Remotedesktopclientsoftware von Ihrem Virtualisierungslösungsanbieter. 
     
 - Auf dem lokalen Computer müssen die Einstellungen für den Remotedesktopclient so konfiguriert sein, dass die Audiowiedergabe auf dem lokalen Computer aktiviert und die Remoteaufzeichnung deaktiviert ist. Informationen zum Konfigurieren dieser Einstellungen für die Remotedesktopverbindung in Windows finden Sie im nächsten Abschnitt "So konfigurieren Sie Einstellungen für die Remotedesktopverbindung". 
     
-Das Microsoft VDI-Plug-In ist im [Microsoft Lync VDI 2013-Plug-In (32 Bit)](https://www.microsoft.com/download/details.aspx?id=35457) oder [im Microsoft Lync VDI 2013-Plug-In (64 Bit)](https://www.microsoft.com/download/details.aspx?id=35454)verfügbar.
+Das Microsoft VDI-Plug-In ist im [Microsoft Lync VDI 2013-Plug-In (32 Bit)](https://www.microsoft.com/download/details.aspx?id=35457) oder im [Microsoft Lync VDI 2013-Plug-In (64 Bit)](https://www.microsoft.com/download/details.aspx?id=35454) verfügbar.
   
 #### <a name="known-feature-limitations"></a>Bekannte Featureeinschränkungen
 <a name="VDI_prereq"> </a>
 
-Folgende Einschränkungen sind bekannt, wenn Sie den Skype for Business 2015-Client in einer VDI-Umgebung verwenden:
+Die folgenden Einschränkungen sind bekannt, wenn Sie den Skype for Business 2015-Client in einer VDI-Umgebung verwenden:
   
 Es gibt eingeschränkte Unterstützung für Die Anonymisierungsfeatures für Anrufdelegierung und Reaktionsgruppen-Agent.
   
@@ -153,7 +148,7 @@ Folgende Features werden nicht unterstützt:
     
 - Aufzeichnen von Konversationen
     
-- Anonym an Besprechungen teilnehmen (d. b. Skype for Business Besprechungen teilnehmen, die von einer Organisation gehostet werden, die nicht mit Ihrer Organisation verbunden ist).
+- Anonyme Teilnahme an Besprechungen (d. b. Teilnahme an Skype for Business Besprechungen, die von einer Organisation gehostet werden, die nicht mit Ihrer Organisation verbunden ist).
     
 - Verwenden des Lync VDI-Plug-Ins zusammen mit einem Lync Telefon Edition-Gerät.
     

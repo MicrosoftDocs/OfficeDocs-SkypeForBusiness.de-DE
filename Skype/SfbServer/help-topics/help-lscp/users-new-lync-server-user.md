@@ -1,27 +1,22 @@
 ---
 title: Neue Lync Server-Benutzerbenutzer für Benutzer
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.UserNew
+  - ms.lync.lscp.UserNew
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 23408002-f83c-4b8a-ac65-6fb0e6bc414e
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 86e0fae5eeaab3715a08a3331b9591585bc701e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852309"
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="users-new-lync-server-user"></a>Benutzer: Neuer Lync Server-Benutzer
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

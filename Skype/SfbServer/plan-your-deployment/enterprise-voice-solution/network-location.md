@@ -1,33 +1,28 @@
 ---
-title: Definieren sie die Netzwerkelemente, die verwendet werden, um den Standort in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Definieren sie die Netzwerkelemente, die zum Bestimmen des Standorts in Skype for Business Server'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 7538779d-055d-44ed-8dd7-11c45fc1b9f5
-description: Entscheidungen, die für die Planung der Netzwerkkomponenten erforderlich sind, mit denen Anrufer Standorten für die E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP zugeordnet werden.
-ms.openlocfilehash: 6de3d960dd68dfc0f34ce0e67fef569c36e44612
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861112"
+description: 'Entscheidungen, die für die Planung der Netzwerkkomponenten erforderlich sind, mit denen Anrufer Standorten für die E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP zugeordnet werden.'
 ---
-# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definieren sie die Netzwerkelemente, die verwendet werden, um den Standort in Skype for Business Server
+
+# <a name="define-the-network-elements-used-to-determine-location-in-skype-for-business-server"></a>Definieren sie die Netzwerkelemente, die zum Bestimmen des Standorts in Skype for Business Server
  
 Entscheidungen, die für die Planung der Netzwerkkomponenten erforderlich sind, mit denen Anrufer Standorten für die E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP zugeordnet werden.
   
-Wenn Sie Ihre Skype for Business Server-Infrastruktur einrichten, um die automatische Erkennung von Clientstandorten zu unterstützen, müssen Sie zunächst entscheiden, welche Netzwerkelemente Sie zum Zuordnen von Anrufern zu Standorten verwenden möchten. In Skype for Business Server können Sie die folgenden Layer 2- und Layer 3-Netzwerkelemente Speicherorten zuordnen:
+Wenn Sie Ihre Skype for Business Server-Infrastruktur zur Unterstützung der automatischen Erkennung von Clientstandorten einrichten, müssen Sie zunächst entscheiden, welche Netzwerkelemente Sie zum Zuordnen von Anrufern zu Standorten verwenden möchten. In Skype for Business Server können Sie die folgenden Layer 2- und Layer 3-Netzwerkelemente Speicherorten zuordnen:
   
 - Adressen für drahtlosen Zugriffspunk (BSSID, Basic Service Set Identification) (Layer 2)
     
@@ -48,7 +43,7 @@ Die folgenden Abschnitte enthalten weitere Einzelheiten zur Verwendung der einze
   
 ## <a name="wireless-access-point"></a>Drahtloser Zugriffspunkt
 
-Wenn ein Client drahtlos eine Verbindung mit dem Netzwerk herstellt, verwendet die Standortanforderung die BSSID-Adresse des WAP, um seinen Standort zu bestimmen. Wenn der Client roamingt, ist die angegebene WAP möglicherweise nicht die nächstgelegene, und es ist sogar möglich, einen WAP auf einer anderen Ebene des Gebäudes zu verwenden. Um anzugeben, dass es sich um eine ungefähre Position handelt, können Sie dem Standortwert einen **[Near]-** oder **[Closeto]-Deskriptor** voranstellen.
+Wenn ein Client drahtlos eine Verbindung mit dem Netzwerk herstellt, verwendet die Standortanforderung die BSSID-Adresse des WAP, um seinen Standort zu bestimmen. Wenn der Client roamingt, ist die angegebene WAP möglicherweise nicht die nächstgelegene, und es ist sogar möglich, einen WAP auf einer anderen Ebene des Gebäudes zu verwenden. Um anzugeben, dass es sich um eine ungefähre Position handelt, können Sie dem Standortwert einen **[Near]-** oder **[Closeto]** -Deskriptor voranstellen.
   
 Bei dieser Standortmethode wird davon ausgegangen, dass die BSSID der einzelnen Zugriffspunkte statisch ist. Wenn Ihr WAP-Anbieter jedoch dynamisch zugewiesene BSSIDs verwendet, kann sich die BSSID, die von einem WAP abgerufen wird, ändern (dies kann nach einer ÄNDERUNG der WAP-Konfiguration passieren), und Drahtlose Clients könnten in einer Situation bleiben, in der sie keinen Standort erhalten. Um diese Möglichkeit zu verhindern, müssen Sie die Standortinformationsdienstdatenbank mit ERLs für alle möglichen BSSID-Adressen auffüllen, die von jedem WAP verwendet werden. 
   
@@ -73,7 +68,7 @@ Wenn das Subnetz einen zu großen Bereich umfasst, müssen Sie möglicherweise e
   
 ## <a name="client-mac-address"></a>Client-MAC-Adresse
 
-Um die MAC-Adresse eines Clientcomputers zu verwenden, um einen Anrufer zu finden, benötigen Sie verwaltete Ethernet-Switches, und Sie müssen eine SNMP-Lösung eines Drittanbieters bereitstellen, die die MAC-Adressen Skype for Business Clients ermitteln kann, die mit diesen Switches verbunden sind (oder über diese Switches) sind. Die SNMP-Lösung fragt kontinuierlich die verwalteten Switches ab, um die aktuellen Zuordnungen der Mac-Endpunktadressen abzurufen, die mit jedem Port verbunden sind, und ruft die entsprechenden Port-IDs ab. Während einer Skype for Business Clientanforderung an den Standortinformationsdienst fragt der Standortinformationsdienst die Drittanbieteranwendung mithilfe der MAC-Adresse des Clients ab und gibt dann alle übereinstimmenden Switch-IP-Adressen und Port-IDs zurück. Der Standortinformationsdienst verwendet diese Informationen, um die veröffentlichte Layer 2-Wiremap nach einem übereinstimmenden Datensatz abfragt, und gibt den Speicherort an den Client zurück. Wenn Sie diese Option verwenden, stellen Sie sicher, dass die Switchport-IDs zwischen der SNMP-Anwendung und den veröffentlichten Speicherortdatenbankdatensätzen konsistent sind.
+Um die MAC-Adresse eines Clientcomputers zu verwenden, um einen Anrufer zu finden, benötigen Sie verwaltete Ethernet-Switches, und Sie müssen eine SNMP-Lösung eines Drittanbieters bereitstellen, die die MAC-Adressen von Skype for Business Clients ermitteln kann, die mit diesen Switches verbunden (oder über diese Switches) verbunden sind. Die SNMP-Lösung fragt kontinuierlich die verwalteten Switches ab, um die aktuellen Zuordnungen der Mac-Endpunktadressen abzurufen, die mit jedem Port verbunden sind, und ruft die entsprechenden Port-IDs ab. Während einer Skype for Business Clientanforderung an den Standortinformationsdienst fragt der Standortinformationsdienst die Drittanbieteranwendung mithilfe der MAC-Adresse des Clients ab und gibt dann alle übereinstimmenden Switch-IP-Adressen und Port-IDs zurück. Der Standortinformationsdienst verwendet diese Informationen, um die veröffentlichte Layer 2-Wiremap nach einem übereinstimmenden Datensatz abfragt, und gibt den Speicherort an den Client zurück. Wenn Sie diese Option verwenden, stellen Sie sicher, dass die Switchport-IDs zwischen der SNMP-Anwendung und den veröffentlichten Speicherortdatenbankdatensätzen konsistent sind.
   
 > [!NOTE]
 > Einige SNMP-Lösungen von Drittanbietern können nicht verwaltete Zugriffsoptionen unterstützen. Wenn der Switch, der den Skype for Business Client bedient, nicht verwaltet wird, aber einen Uplink zu einem verwalteten Verteilungsschalter aufweist, kann der verwaltete Switch der SNMP-Anwendung die MAC-Adressen der Clients melden, die mit dem Zugriffsschalter verbunden sind. Diese Informationen ermöglichen es dem Standortinformationsdienst, den Standort des Benutzers zu identifizieren. Es ist jedoch möglich, allen Ports des nicht verwalteten Switches nur eine einzige ERL zuzuweisen, sodass die Standortspezifität nur auf der Gehäuseebene des Zugriffsschalters und nicht auf der Portebene verfügbar ist. 

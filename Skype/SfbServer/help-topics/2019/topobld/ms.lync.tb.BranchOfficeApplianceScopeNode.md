@@ -1,32 +1,27 @@
 ---
 title: Branch Office Appliance – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.BranchOfficeApplianceScopeNode
+  - ms.lync.tb.BranchOfficeApplianceScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8632ddaa-9572-4129-9db4-de0f13438d43
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 6a48424e57f43aa6d942aa53c5e1bb94579eacb9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834443"
 ---
+
 # <a name="branch-office-appliance-scope-node"></a>Filialanwendung – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN), zugeordnete Pools und Server sowie Resilienzinformationen zu dieser Survivable Branch Appliance. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für diese Survivable Branch Appliance, auf der Sie den FQDN (falls die Topologie noch nicht veröffentlicht wurde), die Zuordnungen und die Resilienzeinstellungen ändern können.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten** " für diese Survivable Branch Appliance, auf der Sie den FQDN (falls die Topologie noch nicht veröffentlicht wurde), die Zuordnungen und die Resilienzeinstellungen ändern können.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     

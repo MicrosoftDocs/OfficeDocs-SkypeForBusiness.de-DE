@@ -1,7 +1,7 @@
 ---
 title: Windows Clientanforderungen und Softwareunterstützung
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.reviewer: PhillipGarding
 manager: serdars
 ms.date: 2/16/2018
@@ -9,31 +9,26 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6851e38-ba9a-4f19-9aa7-d8accf4d62b3
-description: 'Zusammenfassung: Überprüfen Sie die Supportanforderungen für Windows Clients, während Sie Skype for Business Server planen.'
-ms.openlocfilehash: b38c1d7a3565fbc2250766dbed3a0413b914388f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859902"
+description: 'Zusammenfassung: Überprüfen Sie die Supportanforderungen für Windows Clients während der Planung Skype for Business Server.'
 ---
+
 # <a name="windows-client-requirements-and-software-support"></a>Windows Clientanforderungen und Softwareunterstützung
  
-**Zusammenfassung:** Überprüfen Sie die Supportanforderungen für Windows Clients, während Sie Skype for Business Server planen.
+**Zusammenfassung:** Überprüfen Sie die Supportanforderungen für Windows Clients bei der Planung Skype for Business Server.
   
-In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung der Skype for Business Windows Clients erforderlich ist. Diese Clients werden installiert, wenn Microsoft 365 oder Office 365 installiert werden, und stehen auch unter [Download Skype for Business auf allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)zur Verfügung.
+In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung der Skype for Business Windows-Clients erforderlich ist. Diese Clients werden installiert, wenn Microsoft 365 oder Office 365 installiert werden, und stehen auch auf [allen Ihren Geräten unter Download Skype for Business](https://products.office.com/skype-for-business/download-app?tab=tabs-3) zur Verfügung.
   
 > [!NOTE]
 > Das Onlinebesprechungs-Add-In für Skype for Business, das die Besprechungsverwaltung innerhalb des Outlook Messaging- und Zusammenarbeitsclients unterstützt, wird automatisch mit Skype for Business installiert. 
   
-**Erforderliche Software für Skype for Business Client und das Onlinebesprechungs-Add-In**
+**Erforderliche Software für Skype for Business-Client und das Onlinebesprechungs-Add-In**
 
 |**Systemkomponente**|**Unterstützte Versionen**|
 |:-----|:-----|
@@ -45,28 +40,28 @@ In diesem Abschnitt wird die Software zusammengefasst, die zur Unterstützung de
    
 ## <a name="hardware"></a>Hardware
 
-Lesen Sie die [Systemanforderungen](https://products.office.com/office-system-requirements) Microsoft 365 und Office für die Hardware, die zum Ausführen des Skype for Business-Clients erforderlich ist.
+Weitere Informationen finden Sie in den [Systemanforderungen](https://products.office.com/office-system-requirements) Microsoft 365 und Office für die Hardware, die zum Ausführen des Skype for Business-Clients erforderlich ist.
   
-## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype Besprechungs-App und Skype for Business-Web-App 
+## <a name="skype-meetings-app-and-skype-for-business-web-app"></a>Skype-Besprechungs-App und Skype for Business-Web-App 
 
-Die Skype-Besprechungs-App und Skype for Business-Web-App bestimmte Kombinationen von Betriebssystemen und Browsern unterstützen. Ausführliche Informationen finden Sie unter [Plan for Meetings clients (Web App and Meetings App)](meetings-clients.md). 
+Die Skype-Besprechungs-App und Skype for Business-Web-App unterstützen bestimmte Kombinationen von Betriebssystemen und Browsern. Ausführliche Informationen finden Sie unter ["Plan for Meetings clients (Web App and Meetings App)"](meetings-clients.md). 
   
 ## <a name="using-mandatory-profiles"></a>Verwenden von verbindlichen Profilen
 
-Wenn Sie die Skype for Business Konferenzfunktionen verwenden möchten, vermeiden Sie die Verwendung von obligatorischen Active Directory Domain Services-Profilen, um sich beim Skype for Business-Client anzumelden. Da es sich bei obligatorischen Profilen um schreibgeschützte Benutzerprofile handelt, können die PKI-Schlüssel (Public Key Infrastructure), die für Skype for Business Konferenzen erforderlich sind, nicht im Profil gespeichert werden. 
+Wenn Sie die Skype for Business Konferenzfeatures verwenden möchten, vermeiden Sie die Verwendung von obligatorischen Active Directory Domain Services-Profilen, um sich beim Skype for Business Client anzumelden. Da es sich bei obligatorischen Profilen um schreibgeschützte Benutzerprofile handelt, können die PKI-Schlüssel (Public Key Infrastructure), die für Skype for Business Konferenzen erforderlich sind, nicht im Profil gespeichert werden. 
   
 ## <a name="system-requirements-for-skype-for-business-for-windows-phone"></a>Systemanforderungen für Skype for Business für Windows Phone
  
  
 Microsoft Skype for Business für Windows Phone bietet Chatnachrichten, erweiterte Anwesenheit und Telefonie für Benutzer in Ihrer Organisation, die sich über ein Smartphone oder ein Windows Professional mobile Gerät verbinden. Mit mobilen Geräten können Benutzer die Reichweite von Skype for Business erweitern. In diesem Thema werden Planungsüberlegungen für Skype for Business für Windows Phone beschrieben, die die Ermittlung von Voraussetzungen und technischen Anforderungen, erforderlichen Komponenten und Bereitstellungsanleitungen umfassen.
   
-### <a name="skype-for-business-for-windows-phone-prerequisites"></a>Skype for Business für Windows Phone Voraussetzungen
+### <a name="skype-for-business-for-windows-phone-prerequisites"></a>voraussetzungen für Skype for Business für Windows Phone
 
 Nachfolgend sind die Skype for Business für Windows Phone Voraussetzungen beschrieben.
   
 - Windows Phone 8.1 oder höher.
     
-- Das Windows Phone Gerät muss über die neuesten Updates verfügen, die von Microsoft zur Verfügung stehen. Ausführliche Informationen finden Sie im Abschnitt Windows Phone 8.1 unter [Windows Phone 8 Updateverlauf.](https://go.microsoft.com/fwlink/p/?LinkID=281961)
+- Das Windows Phone Gerät muss über die neuesten Updates verfügen, die von Microsoft zur Verfügung stehen. Ausführliche Informationen finden Sie im Abschnitt Windows Phone 8.1 unter [Windows Phone 8 Updateverlauf](https://go.microsoft.com/fwlink/p/?LinkID=281961).
     
 - Das Gerät muss über 22 MB verfügbaren Speicherplatz verfügen.
     
@@ -81,4 +76,4 @@ Nachfolgend sind die Skype for Business für Windows Phone Voraussetzungen besch
 
 [Herunterladen von Skype for Business auf allen Ihren Geräten](https://products.office.com/skype-for-business/download-app?tab=tabs-3)
   
-[Microsoft 365 und Office Systemanforderungen](https://products.office.com/office-system-requirements)
+[systemanforderungen Microsoft 365 und Office](https://products.office.com/office-system-requirements)

@@ -1,27 +1,21 @@
 ---
 title: Anzeigen von Analysen in Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rahulmi
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 MS.collection:
-- M365-collaboration
-description: Erfahren Sie mehr über teamübergreifende Analysen, Teamanalysen und Analysen pro Kanal in Teams, mit denen Benutzer Nutzungsdaten für Teams oder Kanäle sehen können, zu denen sie gehören.
+  - M365-collaboration
+description: 'Erfahren Sie mehr über teamübergreifende Analysen, Teamanalysen und Analysen pro Kanal in Teams, mit denen Benutzer Nutzungsdaten für Teams oder Kanäle sehen können, zu denen sie gehören.'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 1b682ebe6b6c759be067b98ad99f1d6d8e437480
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831719"
+  - Microsoft Teams
 ---
 # <a name="view-analytics-in-teams"></a>Anzeigen von Analysen in Teams
 
@@ -35,7 +29,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 
 ## <a name="view-cross-team-analytics"></a>Anzeigen teamübergreifender Analysen
 
-1. Klicken Teams der Liste der Teams unten neben Einem Team beitreten oder ein Team erstellen auf **Teams verwalten**.
+1. Klicken Teams Teams unten in der Teamliste neben Einem Team beitreten oder ein Team erstellen auf **Teams verwalten**.
 2. Klicken Sie auf **die Registerkarte** Analyse.
 3. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für alle Teams anzeigen, deren Mitglied oder Besitzer Sie sind.
 
@@ -53,7 +47,7 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 
 ## <a name="view-per-team-analytics"></a>Anzeigen von Analysen pro Team
 
-1. Wechseln Teams Zu dem Team, das Sie verwenden möchten, klicken Sie auf Weitere Optionen **(...)** und dann auf **Team verwalten.**
+1. Wechseln Teams Zu dem Team, das Sie verwenden möchten, klicken Sie auf Weitere Optionen **(...)**, und klicken Sie dann auf **Team verwalten**.
 2. Klicken Sie auf **die Registerkarte** Analyse.
 4. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für das Team anzeigen.  
 
@@ -61,18 +55,18 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 
     |Element |Beschreibung  |
     |--------|-------------|
-    |**Zusammenfassung**   |Zusammenfassung der Teamaktivität, einschließlich der folgenden:<ul><li>**Benutzer:** Gesamtzahl der Benutzer im angegebenen Zeitraum. Dies umfasst Teambesitzer, Teammitglieder und Gäste.</li> <li>**Beiträge:** Die Anzahl der neuen Nachrichten, die im Teamchat während des angegebenen Zeitraums gepostet wurden.</li><li>**Antworten:** Anzahl von Antworten in Teamchats während des angegebenen Zeitraums.</li> <li>**Apps:** Die Anzahl der Apps, die dem Team hinzugefügt wurden.</li><li>**Besprechungen:** Die Anzahl Teams Besprechungen, die auf Teamebene organisiert wurden.</li> </ul> |
+    |**Zusammenfassung**   |Zusammenfassung der Teamaktivität, einschließlich der folgenden:<ul><li>**Benutzer**: Gesamtzahl der Benutzer im angegebenen Zeitraum. Dies umfasst Teambesitzer, Teammitglieder und Gäste.</li> <li>**Beiträge**: Die Anzahl der neuen Nachrichten, die im Teamchat während des angegebenen Zeitraums gepostet wurden.</li><li>**Antworten**: Die Anzahl von Antworten im Teamchat während des angegebenen Zeitraums.</li> <li>**Apps**: Die Anzahl der Apps, die dem Team hinzugefügt wurden.</li><li>**Besprechungen**: Die Anzahl Teams Besprechungen, die auf Teamebene organisiert wurden.</li> </ul> |
     |**Aktive Benutzer**   |Anzahl aktiver und inaktiver Benutzer.|
     |**Rolle**   |Anzahl der Benutzer nach Rolle, einschließlich Teambesitzer, Teammitglieder und Gäste.|
-    |**Diagramm "Aktive Benutzer"**  |Die Anzahl der täglich aktiven Zahlen. Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der aktiven Benutzer an diesem Datum zu sehen.|
-    |**Diagramm "Nachrichten"**  |Gesamtzahl der im Teamchat veröffentlichten Nachrichten nach Datum. Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der neuen Beiträge und Antworten zu sehen, die an diesem Datum gepostet wurden.|
+    |**Diagramm "Aktive Benutzer** "  |Die Anzahl der täglich aktiven Zahlen. Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der aktiven Benutzer an diesem Datum zu sehen.|
+    |**Diagramm "Nachrichten** "  |Gesamtzahl der im Teamchat veröffentlichten Nachrichten nach Datum. Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der neuen Beiträge und Antworten zu sehen, die an diesem Datum gepostet wurden.|
 
 > [!TIP]
-> Sie können auch teamübergreifende Analysen anzeigen, indem Sie in der teamübergreifenden Analyseansicht auf ein Team in [der Liste klicken.](#view-cross-team-analytics)
+> Sie können auch Teamanalysen pro Team anzeigen, indem Sie in der teamübergreifenden Analyseansicht auf ein [Team in einer Liste klicken](#view-cross-team-analytics).
 
 ## <a name="view-per-channel-analytics"></a>Anzeigen von Analysen pro Kanal
 
-1. Wechseln Teams Zu dem Kanal, den Sie verwenden möchten, klicken Sie auf Weitere Optionen **(...)** und dann auf **Kanal verwalten.**
+1. Wechseln Teams Zu dem Kanal, den Sie verwenden möchten, klicken Sie auf Weitere Optionen **(...)**, und klicken Sie dann auf **Kanal verwalten**.
 2. Klicken Sie auf **die Registerkarte** Analyse.
 3. Wählen Sie einen Datumsbereich aus, um Nutzungsdaten für den Kanal anzeigen.  
 
@@ -80,11 +74,11 @@ Benutzer können jede dieser Ansichten filtern, um Daten für einen bestimmten Z
 
     |Element |Beschreibung  |
     |--------|-------------|
-    |**Zusammenfassung**   |Zusammenfassung der Kanalaktivitäten, einschließlich der folgenden:<ul><li>**Benutzer:** Gesamtzahl der Benutzer im angegebenen Zeitraum. Dies umfasst Teambesitzer, Teammitglieder und Gäste.</li> <li>**Beiträge:** Die Anzahl der neuen Nachrichten, die während des angegebenen Zeitraums im Kanal gepostet wurden.</li><li>**Antworten:** Die Anzahl von Antworten im Kanal während des angegebenen Zeitraums.</li> <li>**Apps:** Die Anzahl der Apps, die dem Kanal hinzugefügt wurden.</li> </ul> |
-    |**Diagramm "Nachrichten"**  |Gesamtzahl der Nachrichten, die nach Datum im Kanalchat gepostet wurden. Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der neuen Beiträge und Antworten zu sehen, die an diesem Datum gepostet wurden.|
+    |**Zusammenfassung**   |Zusammenfassung der Kanalaktivitäten, einschließlich der folgenden:<ul><li>**Benutzer**: Gesamtzahl der Benutzer im angegebenen Zeitraum. Dies umfasst Teambesitzer, Teammitglieder und Gäste.</li> <li>**Beiträge**: Die Anzahl der neuen Nachrichten, die während des angegebenen Zeitraums im Kanal gepostet wurden.</li><li>**Antworten**: Die Anzahl von Antworten im Kanal während des angegebenen Zeitraums.</li> <li>**Apps**: Die Anzahl von Apps, die dem Kanal hinzugefügt wurden.</li> </ul> |
+    |**Diagramm "Nachrichten** "  |Gesamtzahl der Nachrichten, die nach Datum im Kanalchat gepostet wurden. Zeigen Sie an einem bestimmten Datum auf den Punkt, um die Anzahl der neuen Beiträge und Antworten zu sehen, die an diesem Datum gepostet wurden.|
 
 > [!TIP]
-> Sie können auch Analysen pro Kanal anzeigen, indem Sie in der Analyseansicht pro Team im [Dropdown-Listenfeld einen Kanal auswählen.](#view-per-team-analytics)
+> Sie können auch Analysen pro Kanal anzeigen, indem Sie in der Analyseansicht pro [Team im Dropdown-Listenfeld einen Kanal auswählen](#view-per-team-analytics).
     
 > [!NOTE]
 > Wir definieren aktive Benutzer als Benutzer, die eine beabsichtigte Aktion im Desktopclient, mobilen Client und Webclient ausführen. Beispiele für eine beabsichtigte Aktion sind das Starten eines Chats, das Starten eines Anrufs, das Freigeben einer Datei, das Bearbeiten eines Dokuments innerhalb von Teams, die Teilnahme an einer Besprechung und so weiter. Passive Aktionen wie der automatische Start, das Minimieren eines Bildschirms oder das Schließen der App werden weg gestreift. Außerdem werden alle Aktionen für eine einzelne Benutzer-ID entpgruppen.

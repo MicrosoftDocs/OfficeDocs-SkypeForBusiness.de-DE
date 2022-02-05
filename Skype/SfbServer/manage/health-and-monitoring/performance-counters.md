@@ -1,24 +1,19 @@
 ---
 title: Leistungsindikatoren für Mobilität in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d18ed85a-673d-4695-aa3f-ac83a38ab90a
 description: 'Zusammenfassung: Erfahren Sie mehr über die Leistungsindikatoren, mit denen Sie Server überwachen können, auf denen die Unified Communications-Web-API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden.'
-ms.openlocfilehash: e89ffdb590a7028bd1fa9a9594b6ba0bcce9be11
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827578"
 ---
+
 # <a name="mobility-performance-counters-in-skype-for-business-server"></a>Leistungsindikatoren für Mobilität in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Leistungsindikatoren, mit denen Sie Server überwachen können, auf denen die Unified Communications-Web-API (UCWA) und der Skype for Business Server Mcx Mobility Service ausgeführt werden.
@@ -30,7 +25,7 @@ Der Kategoriename für die Leistungsindikatoren in der UCWA-Tabelle lautet **LS:
 Der Kategoriename für die Leistungsindikatoren in der Mcx Mobility Service-Tabelle lautet **LS:WEB – Mobile Communication Service**.
 
 > [!NOTE]
-> MCX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 ## <a name="performance-counters-for-ucwa"></a>Leistungsindikatoren für UCWA
 
@@ -55,7 +50,7 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx Mobility Service-Tabe
 |Durchschnittliche Lebensdauer für Sitzung (ms)  <br/> |Die durchschnittliche Dauer einer Sitzung in Millisekunden.  <br/> |
 |Fehler bei der Daten-MCU-Verknüpfung  <br/> |Die Anzahl der Fehler bei der Daten-MCU-Verknüpfung  <br/> |
 |Exchange Kontaktsuchlatenz (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Durchsuchen des Kontakts in Exchange  <br/> |
-|Exchange Hd Photo Get Latency (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Abrufen eines Fotos aus Exchange  <br/> |
+|Exchange HD Photo Get Latency (ms)  <br/> |Dieser Indikator zeigt die durchschnittliche Zeit (in Millisekunden) zum Abrufen eines Fotos aus Exchange  <br/> |
 |HTTP 4xx-Antworten/Sekunde  <br/> |Die Pro-Sekunde-Antwortrate mit HTTP 4xx-Code  <br/> |
 |HTTP 5xx-Antworten/Sekunde  <br/> |Die Anzahl der Antworten pro Sekunde mit HTTP 5xx-Code  <br/> |
 |IM MCU-Teilnahmefehler  <br/> |Die Anzahl der McU-Verbindungsfehler bei Chatnachrichten  <br/> |
@@ -117,4 +112,4 @@ Der Kategoriename für die Leistungsindikatoren in der Mcx Mobility Service-Tabe
 |Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe  <br/> |Die Gesamtzahl der erfolgreichen ausgehenden Sprachanrufe.  <br/> |
    
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.

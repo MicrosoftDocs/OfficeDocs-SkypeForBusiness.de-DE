@@ -1,27 +1,22 @@
 ---
 title: Topology View Computer Detail
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.TopoStatusCompEdit
+  - ms.lync.lscp.TopoStatusCompEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 3e99f497f7ec7736fa288c976723a91aa5e038a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846518"
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="topology-view-computer-detail"></a>Topologie: Anzeigen von Computerdetails
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

@@ -1,26 +1,21 @@
 ---
 title: Verbundplanungstool
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.Federation
-- ms.lync.plan.Federation
+  - ms.lync.plan.Federation
+  - ms.lync.plan.Federation
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 63ea8a5e-a040-4892-9440-0fdbeef66fc0
-description: Sie können Edgeserver so konfigurieren, dass Ihre internen und externen Benutzer auf Kontakte in Partnerorganisationen oder -diensten zugreifen können.
-ms.openlocfilehash: 8c4256a5aace2b48357520950481d44c6189de73
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850918"
+description: 'Sie können Edgeserver so konfigurieren, dass Ihre internen und externen Benutzer auf Kontakte in Partnerorganisationen oder -diensten zugreifen können.'
 ---
+
 # <a name="federation-planning-tool"></a>Verbundplanungstool
  
 Edgeserver können so konfiguriert werden, dass Ihre internen und externen Benutzer auf Kontakte in Partnerorganisationen oder -diensten zugreifen können.

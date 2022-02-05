@@ -1,27 +1,22 @@
 ---
 title: Reaktionsgruppen erstellen eine neue oder bearbeiten eine vorhandene Agentgruppe
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsGroupEdit
+  - ms.lync.lscp.RgsGroupEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 79eaaf6c-6928-4925-8220-c7ada6b37205
-ROBOTS: NOINDEX, NOFOLLOW
-description: Mithilfe von Agentgruppen wird definiert, wer Anrufe bei einer Reaktionsgruppe (so genannte Agents) entgegennehmen kann. Außerdem werden damit die Einstellungen festgelegt, die für alle Agents der Gruppe gelten.
-ms.openlocfilehash: 6c386f47e2448e7e508d9c9dd46c737f7de9e18a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833781"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Mithilfe von Agentgruppen wird definiert, wer Anrufe bei einer Reaktionsgruppe (so genannte Agents) entgegennehmen kann. Außerdem werden damit die Einstellungen festgelegt, die für alle Agents der Gruppe gelten.'
 ---
+
 # <a name="response-groups-create-new-or-edit-existing-agent-group"></a>Reaktionsgruppen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Reaktionsgruppe
 
 Mithilfe von Agentgruppen wird definiert, wer Anrufe bei einer Reaktionsgruppe (so genannte Agents) entgegennehmen kann. Außerdem werden damit die Einstellungen festgelegt, die für alle Agents der Gruppe gelten.
@@ -30,7 +25,7 @@ Mithilfe von Agentgruppen wird definiert, wer Anrufe bei einer Reaktionsgruppe (
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Jede Agentgruppe erfordert einen eindeutigen Namen. Verwenden Sie einen beschreibenden Namen, mit dem die Funktion der Gruppe verdeutlicht wird. Beispiel: Helpdesk.
+- **Namen** Jede Agentgruppe erfordert einen eindeutigen Namen. Verwenden Sie einen beschreibenden Namen, mit dem die Funktion der Gruppe verdeutlicht wird. Beispiel: Helpdesk.
 
 - **Beschreibung** Dieses Feld ist optional. Geben Sie darin zusätzliche Details zur Gruppe an.
 
@@ -65,7 +60,7 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
     > Die Reihenfolge, in der Agents in der Verteilerliste aufgeführt sind, wirkt sich auf die Reihenfolge aus, in der Agents Anrufe beim Roundrobin- und seriellen Routing angeboten bekommen.
 
     > [!NOTE]
-    > Ausgeblendete Mitgliedschaften oder ausgeblendete Listen werden möglicherweise für Reaktionsgruppenadministratoren oder -benutzer sichtbar. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer Agentgruppe in Skype for Business.](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md)
+    > Ausgeblendete Mitgliedschaften oder ausgeblendete Listen werden möglicherweise für Reaktionsgruppenadministratoren oder -benutzer sichtbar. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer Agentgruppe in Skype for Business](../../../deploy/deploy-enterprise-voice/create-or-modify-an-agent-group.md).
 
   - Wählen Sie **Benutzerdefinierte Gruppe von Agents definieren**, um die Benutzer auszuwählen, die Sie als Agents für die Reaktionsgruppe zuweisen möchten. Klicken Sie auf **Auswählen**, um einen Agent der Liste hinzuzufügen. Klicken Sie auf **Entfernen**, um einen ausgewählten Agent aus der Liste zu löschen.
 

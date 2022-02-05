@@ -1,31 +1,26 @@
 ---
 title: Aktivieren des Parkens von Anrufen für Benutzer in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 9430763f-3394-467c-9c6d-426bf761604e
-description: Aktivieren Sie Benutzer für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 87ac29c8f9b6c893149db8fb91561ee4b3cf1166
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843508"
+description: Aktivieren sie Benutzer für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
 ---
+
 # <a name="enable-call-park-for-users-in-skype-for-business"></a>Aktivieren des Parkens von Anrufen für Benutzer in Skype for Business
  
-Aktivieren Sie Benutzer für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
+Aktivieren sie Benutzer für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
   
 Standardmäßig ist das Parken von Anrufen für alle Benutzer deaktiviert. Benutzer können Anrufe nicht parken oder geparkte Anrufe abrufen, bis sie in der VoIP-Richtlinie für das Parken von Anrufen aktiviert sind.
   
@@ -51,9 +46,9 @@ Sie können das Parken von Anrufen auf globaler Oder Standort- oder Benutzereben
 
 1. Melden Sie sich auf dem Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der administrativen Rolle "CsVoiceAdministrator", "CsServerAdministrator" oder "CsAdministrator" an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
-3. Führen Sie Folgendes aus: 
+3. Ausführen:
     
    ```powershell
    Set-CsVoicePolicy -Identity <VoicePolicy> -EnableCallPark $true

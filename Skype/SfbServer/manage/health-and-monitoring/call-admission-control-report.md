@@ -1,24 +1,19 @@
 ---
 title: Anrufsteuerungsbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ea4b0c9f-7f93-4b8a-b901-01e1636c44fb
 description: 'Zusammenfassung: Erfahren Sie mehr über die Anrufsteuerungsberichte, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: bb980dfa132778e1507e26359beca3679a94893a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849898"
 ---
+
 # <a name="call-admission-control-report-in-skype-for-business-server"></a>Anrufsteuerungsbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Anrufsteuerungsberichte, die in Skype for Business Server verwendet werden.

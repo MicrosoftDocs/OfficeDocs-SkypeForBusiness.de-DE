@@ -1,29 +1,24 @@
 ---
 title: Verwalten von Besprechungskonfigurationseinstellungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2e6c4f48-464e-4b8e-b7f4-68cdc1ae4ad9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server verwalten.'
-ms.openlocfilehash: ccbb1a43364ddd5507fb01c59000397130a9c22e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832099"
 ---
+
 # <a name="manage-meeting-configuration-settings-in-skype-for-business-server"></a>Verwalten von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server verwalten.
   
-In diesem Thema wird beschrieben, wie Sie Besprechungskonfigurationseinstellungen verwalten. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+In diesem Thema wird beschrieben, wie Sie Besprechungskonfigurationseinstellungen verwalten. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 Besprechungskonfigurationseinstellungen bestimmen die Art der Besprechungen, die Benutzer erstellen können, und steuern, wie (oder auch wenn) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Besprechungen teilnehmen können. Beachten Sie, dass sich diese Einstellungen nur auf geplante Besprechungen auswirken. Sie wirken sich nicht auf Ad-hoc-Besprechungen aus, die durch Klicken auf die Option "Jetzt besprechen" in Skype for Business erstellt wurden.
   
@@ -49,7 +44,7 @@ So verwalten Sie Besprechungseinstellungen mithilfe Skype for Business Server Sy
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen",** und klicken Sie dann auf **"Besprechungskonfiguration".**
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen**", und klicken Sie dann auf **"Besprechungskonfiguration"**.
     
 ## <a name="manage-meeting-settings-by-using-skype-for-business-server-management-shell"></a>Verwalten von Besprechungseinstellungen mithilfe Skype for Business Server Verwaltungsshell
 

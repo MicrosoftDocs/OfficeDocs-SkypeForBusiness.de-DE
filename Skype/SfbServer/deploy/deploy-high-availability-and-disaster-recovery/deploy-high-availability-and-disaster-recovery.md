@@ -1,34 +1,29 @@
 ---
 title: Bereitstellen der hohen Verfügbarkeit und Notfallwiederherstellung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 21007bad-62ce-4553-98e0-02aaa1345781
-description: Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der Hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering.
-ms.openlocfilehash: 897bd52d265a123d3eebec2bc16d71d95ba6185e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865302"
+description: 'Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der Hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering.'
 ---
+
 # <a name="deploy-high-availability-and-disaster-recovery"></a>Bereitstellen der hohen Verfügbarkeit und Notfallwiederherstellung
  
 Skype for Business Server bietet hohe Verfügbarkeit mit Serverpooling, Notfallwiederherstellung mit Poolkopplung und verschiedene Modi der Hohen Verfügbarkeit von Back-End-Servern, einschließlich AlwaysOn-Verfügbarkeitsgruppen, Datenbankspiegelung und SQL Failoverclustering. 
   
-Hohe Verfügbarkeit bedeutet, sicherzustellen, dass Skype for Business Server Dienste auch dann verfügbar sind, wenn mindestens ein Server ausgefallen ist. Die Notfallwiederherstellung bezieht sich auf die Beibehaltung von Diensten im Falle einer natürlichen oder vom Menschen verursachten Notfalls und die Beibehaltung so vieler Daten vor dem Notfall wie möglich.
+Hohe Verfügbarkeit bedeutet, sicherzustellen, dass Skype for Business Server Dienste auch dann verfügbar sind, wenn mindestens ein Server ausfällt. Die Notfallwiederherstellung bezieht sich auf die Beibehaltung von Diensten im Falle einer natürlichen oder vom Menschen verursachten Notfalls und die Beibehaltung so vieler Daten vor dem Notfall wie möglich.
   
 In diesem Abschnitt wird erläutert, wie diese Features bereitgestellt werden, und es wird erläutert, welche Schritte Sie für hohe Verfügbarkeit und Notfallwiederherstellung für einige Ihrer anderen Serverrollen ausführen können.
 
 > [!NOTE]
-> SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclusteringmethoden werden mit Skype for Business Server 2019 bevorzugt.
+> SQL Spiegelung ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die Methoden AlwaysOn-Verfügbarkeitsgruppen, AlwaysOn-Failoverclusterinstanzen (FCI) und SQL Failoverclustering werden mit Skype for Business Server 2019 bevorzugt.
   
 ## <a name="related-sections"></a>Verwandte Abschnitte
 

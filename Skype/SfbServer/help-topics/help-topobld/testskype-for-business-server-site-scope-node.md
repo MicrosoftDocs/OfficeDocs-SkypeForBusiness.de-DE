@@ -1,27 +1,22 @@
 ---
 title: Testen – Skype for Business Server – Standortbereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SiteScopeNode
+  - ms.lync.tb.SiteScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 64392c68-998d-4fb7-9286-4b0c0364dab2
 description: 'Dieser Knoten enthält einen der für Ihre Topologie definierten Standorte. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: fcbdaf12cb38cc60cb00d3ee70bb83fdf2a3080f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830029"
 ---
+
 # <a name="test---skype-for-business-server-site-scope-node"></a>Testen – Skype for Business Server – Standortbereichsknoten
  
 Dieser Knoten enthält einen der für Ihre Topologie definierten Standorte. Folgende Möglichkeiten stehen zur Verfügung: 

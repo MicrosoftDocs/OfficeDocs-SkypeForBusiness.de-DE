@@ -1,32 +1,27 @@
 ---
 title: tblPrincipalType
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 32e1c1d6-80f4-4624-bf4e-b4c77d3982fa
 description: tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
-ms.openlocfilehash: cf55ba04afe3688d3ecfd397dc4ffcbe50da2c19
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844068"
 ---
+
 # <a name="tblprincipaltype"></a>tblPrincipalType
  
 tblPrincipalType enthält Prinzipaltypen zur Kategorisierung des Inhalts der tblPrincipal-Tabelle.
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |ptypeID  <br/> |smallint, nicht NULL  <br/> |Prinzipaltyp-ID  <br/> |
 |ptypeDesc  <br/> |nvarchar (256), nicht NULL  <br/> |Beschreibung des Typs.  <br/> |

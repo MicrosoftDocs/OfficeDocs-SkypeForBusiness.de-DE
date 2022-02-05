@@ -1,23 +1,18 @@
 ---
 title: Verwalten von Netzwerkregionenrouten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: Eine Netzwerkregionsroute definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine Netzwerkregionsroute erforderlich.
-ms.openlocfilehash: 18bee9a28eed10affae1b0dab855c379709b37bb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864752"
 ---
+
 # <a name="managing-network-region-routes-in-skype-for-business-server"></a>Verwalten von Netzwerkregionsrouten in Skype for Business Server
 
 Eine *Netzwerkregionsroute* definiert die Route zwischen zwei Netzwerkregionen. Für jedes Netzwerkregionenpaar in Ihrer Anrufsteuerungsbereitstellung ist eine Netzwerkregionsroute erforderlich. So kann jede Netzwerkregion innerhalb der Bereitstellung auf alle anderen Regionen zugreifen. Verwenden Sie die Verfahren in dieser Artilce, um Netzwerkregionenrouten anzuzeigen, zu erstellen, zu ändern oder zu löschen.
@@ -32,7 +27,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenroute".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Regionenroute**".
 
 4.  Klicken Sie auf der Seite **Regionsroute** auf die Regionsroute, die Sie anzeigen möchten.
 
@@ -44,9 +39,9 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
 
-### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionenrouteninformationen mithilfe Windows PowerShell Cmdlets
+### <a name="viewing-network-region-route-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionen-Routeninformationen mithilfe Windows PowerShell Cmdlets
 
-Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterRegionRoute angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ### <a name="to-view-network-region-route-information"></a>So zeigen Sie Informationen zur Netzwerkregionsroute an
 
@@ -59,7 +54,7 @@ Informationen zur Netzwerkregionenroute können mithilfe von Windows PowerShell 
     Identität: TransAmericaRoute<br/>
     NetworkRegionLinks : {NorthwestToNortheast}<br/>
     InterNetworkRegionRouteID : TransAmericaRoute<br/>
-    NetworkRegionID1 : Pacific Northwest<br/>
+    NetworkRegionID1          : Pacific Northwest<br/>
     NetworkRegionID2 : Nordost<br/>
 
 For more information, see the help topic for the [Get-CsNetworkInterRegionRoute](/powershell/module/skype/Get-CsNetworkInterRegionRoute) cmdlet.
@@ -75,7 +70,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenroute".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Regionenroute**".
 
 4.  Klicken Sie auf der Seite **Regionenroute** auf **Neu**.
 
@@ -84,9 +79,9 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
     > [!NOTE]  
     > Dieser Wert muss innerhalb Ihrer Skype for Business Server Bereitstellung eindeutig sein.
 
-6.  Wählen Sie in der Dropdownliste **"Netzwerkregion \# 1"** eine der beiden Regionen aus, die über diese Route verbunden werden sollen.
+6.  Wählen Sie in der Dropdownliste " **Netzwerkregion \#1** " eine der beiden Regionen aus, die über diese Route verbunden werden sollen.
 
-7.  Wählen Sie in der Dropdownliste **"Netzwerkregion \# 2"** die andere Region für diese Route aus. Diese Region muss sich von der Region unterscheiden, die für die Netzwerkregion 1 ausgewählt \# wurde.
+7.  Wählen Sie in der Dropdownliste **"Netzwerkregion \#2** " die andere Region für diese Route aus. Diese Region muss sich von der Region unterscheiden, die für die Netzwerkregion \#1 ausgewählt wurde.
 
 8.  Fügen Sie der Route über das Listenfeld **Netzwerkregionenverbindungen** Regionenverbindungen hinzu. Klicken Sie auf die Schaltfläche **Hinzufügen**, um die Seite **Regionenverbindung** anzuzeigen. Klicken Sie auf eine Regionenverbindung, die Sie dieser Route hinzufügen möchten, und klicken Sie anschließend auf **OK**.
     
@@ -102,7 +97,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenroute".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Regionenroute**".
 
 4.  Klicken Sie auf der Seite **Regionenroute** auf die Regionenroute, die Sie ändern möchten.
 
@@ -123,7 +118,7 @@ Jede Region mit konfiguriertem Anrufsteuerungsdienst muss über eine Möglichkei
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionenroute".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Regionenroute**".
 
 4.  Klicken Sie auf der Seite **Regionenroute** auf die Regionenroute, die Sie löschen möchten.
 

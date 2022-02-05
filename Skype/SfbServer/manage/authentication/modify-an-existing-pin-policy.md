@@ -1,30 +1,25 @@
 ---
 title: Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 517caaee-3349-4fa6-8d86-e4da3258a445
 description: 'Zusammenfassung: Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server.'
-ms.openlocfilehash: a03e192b5dd9b11de17e6c920baee6613312fc84
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848578"
 ---
+
 # <a name="modify-an-existing-pin-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server
  
 **Zusammenfassung:** Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server.
   
-Sie können die Registerkarte **"PIN-Richtlinie"** verwenden, um Benutzern, die eine Verbindung mit Skype for Business mit IP-Telefonen herstellen, eine PIN-Authentifizierung (Persönliche Identifikationsnummer) bereitzustellen. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
+Sie können die Registerkarte **"PIN-Richtlinie**" verwenden, um Benutzern, die eine Verbindung mit Skype for Business mit IP-Telefonen herstellen, eine PIN-Authentifizierung (Persönliche Identifikationsnummer) bereitzustellen. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
   
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu ändern. 
   

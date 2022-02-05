@@ -1,29 +1,24 @@
 ---
 title: Überprüfen der Administratorberichte in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 22d480ea-cd64-4d09-99fe-96e997570844
-description: Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden basierend auf den in "Designwebsites" markierten Auswahlen generiert. Der für den Entwurf verantwortlicher Benutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.
-ms.openlocfilehash: fd48494a603b6e279790a92e38040c3e26b01668
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845298"
+description: 'Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden basierend auf den in "Designwebsites" markierten Auswahlen generiert. Der für den Entwurf verantwortlicher Benutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.'
 ---
+
 # <a name="review-the-administrator-reports-in-skype-for-business-server-2015"></a>Überprüfen der Administratorberichte in Skype for Business Server 2015
 
-Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden basierend auf den in **Designwebsites** markierten Auswahlen generiert. Der für den Entwurf verantwortlicher Benutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.
+Die Administratorberichte stellen detaillierte Informationen zu Bereitstellung und Betrieb bereit. Die Berichte werden basierend auf den in **"Designwebsites**" markierten Auswahlen generiert. Der für den Entwurf verantwortlicher Benutzer kann die Administratorberichte durch Bearbeiten der Netzwerkdiagramme und Definieren der vollständigen IP-Adressen und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) für Server, Pools und Lastenausgleich ergänzen.
 
 Das Feature "Administratorberichte" ermöglicht Folgendes:
 
@@ -38,7 +33,7 @@ Das Feature "Administratorberichte" ermöglicht Folgendes:
 ## <a name="review-the-summary-report"></a>Überprüfen des Zusammenfassungsberichts
 <a name="Summary_report"> </a>
 
-Der Skype for Business Administratorbericht ist der erste von vier wertvollen Berichten, die Ihren Entwurf detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind für Ihre informationstechnologie Teams hilfreich:
+Der Skype for Business Administratorbericht ist der erste von vier wertvollen Berichten, die Ihr Design detailliert dokumentieren. Die Informationen in diesem Bericht und die anderen drei zugehörigen Berichte sind für Ihre informationstechnologie Teams hilfreich:
 
 ![Allgemeiner zusammenfassender Administratorbericht.](../../media/General_Summary_Report_Admin_Report.png)
 

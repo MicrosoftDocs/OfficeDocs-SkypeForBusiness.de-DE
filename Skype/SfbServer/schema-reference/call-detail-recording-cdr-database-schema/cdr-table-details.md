@@ -1,25 +1,20 @@
 ---
 title: Ausführliche Informationen zur KDS-Tabelle in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 896198f5-672b-48ea-852f-0211c0c90857
-description: In den folgenden Themen werden die Spalten in den einzelnen KDS-Datenbankschematabellen (Call Detail Records, Kommunikationsdatensätze) detailliert beschrieben.
-ms.openlocfilehash: 6a88bbb0f76e8bb222de8f4dce665c2177ac9e56
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845078"
+description: 'In den folgenden Themen werden die Spalten in den einzelnen KDS-Datenbankschematabellen (Call Detail Records, Kommunikationsdatensätze) detailliert beschrieben.'
 ---
+
 # <a name="cdr-table-details-in-skype-for-business-server-2015"></a>Ausführliche Informationen zur KDS-Tabelle in Skype for Business Server 2015
  
 In den folgenden Themen werden die Spalten in den einzelnen KDS-Datenbankschematabellen (Call Detail Records, Kommunikationsdatensätze) detailliert beschrieben.

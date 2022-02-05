@@ -1,24 +1,19 @@
 ---
 title: Konfigurieren der Besprechungsteilnahmeseite in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6537765e-4384-416f-92f1-a7f3b39ebe56
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Besprechungsteilnahmeseite in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: a1f30d2c9bf803b4c41ed4053709b4869f163757
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832089"
 ---
+
 # <a name="configure-the-meeting-join-page-in-skype-for-business-server"></a>Konfigurieren der Besprechungsteilnahmeseite in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die Besprechungsteilnahmeseite in Skype for Business Server konfigurieren.
@@ -29,11 +24,11 @@ Wenn ein Benutzer in einer Besprechungsanfrage auf einen Besprechungslink klickt
 
 Sie können das Verhalten der Seite für den Besprechungsbeitritt ändern, wenn Sie Benutzern die Teilnahme an Besprechungen mit anderen Versionen des Clients gestatten möchten. Diese Konfigurationsoptionen wurden aus der Skype for Business Server Systemsteuerung entfernt, aber Sie konfigurieren sie mithilfe des Cmdlets Set-CsWebServiceConfiguration.
   
-**Parameter für die Besprechungsteilnahmeseite Set-CsWebServiceConfiguration**
+**Parameter für Set-CsWebServiceConfiguration Seite "Besprechungsteilnahme"**
 
 |**Set-CsWebServiceConfiguration-Parameter**|**Beschreibung**|
 |:-----|:-----|
-|ShowJoinUsingLegacyClientLink  <br/> |Dieser Parameter ist für die Verwendung mit der lokalen Version von Skype for Business Server veraltet.  <br/> Bei Festlegung auf "True" erhalten Benutzer, die mit einer anderen Clientanwendung als Skype for Business an einer Besprechung teilnehmen, die Möglichkeit, mithilfe ihrer aktuellen Clientanwendung an der Besprechung teilzunehmen. Der Standardwert lautet "False".  <br/> |
+|ShowJoinUsingLegacyClientLink  <br/> |Dieser Parameter ist für die Verwendung mit der lokalen Version von Skype for Business Server veraltet.  <br/> Bei Festlegung auf "True" erhalten Benutzer, die mithilfe einer anderen Clientanwendung als Skype for Business an einer Besprechung teilnehmen, die Möglichkeit, mithilfe ihrer aktuellen Clientanwendung an der Besprechung teilzunehmen. Der Standardwert lautet "False".  <br/> |
 |ShowAlternateJoinOptionsExpanded  <br/> |Dieser Parameter ist für die Verwendung mit der lokalen Version von Skype for Business Server veraltet.  <br/>  Bei Festlegung auf "True" werden alternative Optionen für die Teilnahme an einer Onlinekonferenz automatisch erweitert und Benutzern angezeigt. Bei Festlegung auf "False" (Standardwert) sind diese Optionen verfügbar, aber der Benutzer muss die Liste der Optionen für sich selbst anzeigen.  <br/> |
    
 

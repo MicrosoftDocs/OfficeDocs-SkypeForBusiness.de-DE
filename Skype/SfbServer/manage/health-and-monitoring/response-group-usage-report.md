@@ -1,24 +1,19 @@
 ---
 title: Nutzungsbericht über Reaktionsgruppen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3248b320-a552-400a-8485-6891af4eb0f3
 description: 'Zusammenfassung: Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.'
-ms.openlocfilehash: e6628e9d1602cc89b04b0970baa502be7e8548a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845448"
 ---
+
 # <a name="response-group-usage-report-in-skype-for-business-server"></a>Nutzungsbericht über Reaktionsgruppen in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.
@@ -47,7 +42,7 @@ Mit einem Nutzungsbericht über Reaktionsgruppe können Sie nach einem Workflow-
 
 ## <a name="accessing-the-response-group-usage-report"></a>Zugreifen auf den Nutzungsbericht über die Reaktionsgruppe
 
-Der Zugriff auf den Nutzungsbericht für Reaktionsgruppen erfolgt über die Startseite für Überwachungsberichte. Sie können einen Drilldown zum [Anruflistenbericht](call-list-report.md) für Reaktionsgruppen in Skype for Business Server ausführen, indem Sie auf eine der folgenden Metriken klicken:
+Der Zugriff auf den Nutzungsbericht für Reaktionsgruppen erfolgt über die Startseite für Überwachungsberichte. Sie können einen Drilldown zum [Anruflistenbericht für Reaktionsgruppen in Skype for Business Server](call-list-report.md) ausführen, indem Sie auf eine der folgenden Metriken klicken:
 
 - Empfangene Anrufe
 

@@ -1,27 +1,22 @@
 ---
 title: A/V MCU – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AvMcuScopeNode
+  - ms.lync.tb.AvMcuScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 45e90203-2da3-44c3-beaf-02456fa970a1
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 957758dd6b28517e7effd61490ceb04a8e34c31b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855952"
 ---
+
 # <a name="av-mcu-scope-node"></a>AV MCU – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools und diesem A/V-Konferenzpool zugeordnete Front-End-Pools. Folgende Möglichkeiten stehen zur Verfügung:

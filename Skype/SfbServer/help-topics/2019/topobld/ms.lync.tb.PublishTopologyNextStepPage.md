@@ -1,27 +1,22 @@
 ---
 title: Veröffentlichen der Topologie – Nächster Schritt
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PublishTopologyNextStepPage
+  - ms.lync.tb.PublishTopologyNextStepPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 29e4a215-80f9-4ac8-8069-b220f3ac251d
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Nach Abschluss der Veröffentlichung der Topologie wird die Seite Veröffentlichungs-Assistent abgeschlossen angezeigt.
-ms.openlocfilehash: 561ae48101a4106ab22e39956d8dfc2ebff0a020
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829289"
 ---
+
 # <a name="publish-topology-next-step"></a>Veröffentlichen der Topologie – Nächster Schritt
 
 Nach Abschluss der Veröffentlichung der Topologie wird die Seite **Veröffentlichungs-Assistent abgeschlossen** angezeigt.
@@ -31,7 +26,7 @@ Beim Fertigstellen der Schritte während der Topologieveröffentlichung werden P
 > [!NOTE]
 > Nicht zu allen Schritten im Topologieveröffentlichungsprozess sind Protokolldateien vorhanden. Wenn Sie einen Schritt auswählen und **Protokolle anzeigen** verfügbar ist, wurde zu diesem Schritt eine Protokolldatei erstellt. Wenn die Schaltfläche **Protokolle anzeigen** nicht verfügbar (abgeblendet) ist, wurde für diesen Schritt keine Protokolldatei erstellt.
 
-Klicken Sie auf den Link Klicken Sie hier, um die empfohlenen nächsten Schritte zum Abschließen der Topologie **zu überprüfen, um die Aufgabenliste zu öffnen.** Die Textdatei, die durch Klicken auf diesen Link geöffnet wird, gibt die Server an, die Sie lokal einrichten müssen, sowie alle zusätzlichen Schritte, die Sie ausführen müssen, um die Bereitstellung abzuschließen. Informationen zu den aufgeführten Aufgaben finden Sie im entsprechenden Abschnitt in der Bereitstellungsdokumentation.
+Klicken Sie auf den Link " **Klicken Sie hier, um die Aufgabenliste zu öffnen**", um die empfohlenen nächsten Schritte zum Abschließen der Topologie zu überprüfen. Die Textdatei, die durch Klicken auf diesen Link geöffnet wird, gibt die Server an, die Sie lokal einrichten müssen, sowie alle zusätzlichen Schritte, die Sie ausführen müssen, um die Bereitstellung abzuschließen. Informationen zu den aufgeführten Aufgaben finden Sie im entsprechenden Abschnitt in der Bereitstellungsdokumentation.
 
 Klicken Sie auf **Fertig stellen**.
 

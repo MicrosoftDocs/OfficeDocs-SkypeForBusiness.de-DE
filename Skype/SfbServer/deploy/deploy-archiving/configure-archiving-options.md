@@ -1,24 +1,19 @@
 ---
 title: Konfigurieren von Archivierungsoptionen für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f534697-ac7f-45b7-8cdc-ba67f052223b
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie die anfänglichen Archivierungsoptionen für Skype for Business Server konfigurieren. Sie richten die Archivierungskonfigurationen zunächst ein, wenn Sie die Archivierung bereitstellen. Sie können konfigurationen jedoch nach der Bereitstellung ändern, hinzufügen und löschen.'
-ms.openlocfilehash: 413347a76c23f680215e4f9d80e4327b3e8fed22
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864462"
 ---
+
 # <a name="configure-archiving-options-for-skype-for-business-server"></a>Konfigurieren von Archivierungsoptionen für Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie anfängliche Archivierungsoptionen für Skype for Business Server konfigurieren. Sie richten die Archivierungskonfigurationen zunächst ein, wenn Sie die Archivierung bereitstellen. Sie können konfigurationen jedoch nach der Bereitstellung ändern, hinzufügen und löschen.
@@ -48,7 +43,7 @@ Sie müssen Optionen für Folgendes konfigurieren:
 > [!NOTE]
 > Sie sollten alle geeigneten Optionen angeben, bevor Sie die Archivierung aktivieren. 
   
-Ausführliche Informationen zur Implementierung von Archivierungskonfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungskonfigurationen finden Sie unter [Plan for archiving in Skype for Business Server.](../../plan-your-deployment/archiving/archiving.md) Ausführliche Informationen zum Verwalten von Konfigurationen nach der Bereitstellung mithilfe der Systemsteuerung oder mithilfe von Windows PowerShell finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server.](../../manage/archiving/options.md)
+Ausführliche Informationen zur Implementierung von Archivierungskonfigurationen, einschließlich der Optionen, die Sie angeben können, und der Hierarchie der Archivierungskonfigurationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md). Ausführliche Informationen zum Verwalten von Konfigurationen nach der Bereitstellung mithilfe der Systemsteuerung oder mithilfe von Windows PowerShell finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server](../../manage/archiving/options.md).
   
 ## <a name="configure-global-level-archiving-options"></a>Konfigurieren von Archivierungsoptionen auf globaler Ebene
 
@@ -72,11 +67,11 @@ So konfigurieren Sie Archivierungsoptionen auf globaler Ebene:
     
    - **IM- und Webkonferenzsitzungen archivieren**
     
-6. Führen Sie außerdem auf der Seite **"Archivierung bearbeiten** – Global" die folgenden Schritte aus:
+6. Führen Sie außerdem auf der Seite " **Archivierung bearbeiten – Global** " die folgenden Schritte aus:
     
    - Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.
     
-   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange.**
+   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange**.
     
    - Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:
     
@@ -112,7 +107,7 @@ Sie können Archivierungsoptionen für einen bestimmten Standort angeben. Eine S
     
    - Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um die Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.
     
-   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange.**
+   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange**.
     
    - Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:
     
@@ -148,7 +143,7 @@ Sie können Archivierungsoptionen für einen bestimmten Pool angeben. Eine Pool-
     
    - Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.
     
-   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange.**
+   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange**.
     
    - Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:
     

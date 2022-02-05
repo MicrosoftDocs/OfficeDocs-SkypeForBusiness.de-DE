@@ -1,29 +1,24 @@
 ---
-title: Bericht über Serverleistung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Serverleistungsbericht in Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 942bb39a-1790-498e-9d99-8f6ce2d155c3
 description: 'Zusammenfassung: Erfahren Sie mehr über den Serverleistungsbericht in Skype for Business Server.'
-ms.openlocfilehash: 6e13a12452fbdbf650a7e307340269803a2301b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836337"
 ---
-# <a name="server-performance-report-in-skype-for-business-server"></a>Bericht über Serverleistung in Skype for Business Server
+
+# <a name="server-performance-report-in-skype-for-business-server"></a>Serverleistungsbericht in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den Bericht über Serverleistung in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Serverleistungsbericht in Skype for Business Server.
   
-Der Bericht über Serverleistung enthält eine Liste der Skype for Business Server Server, bei denen der Prozentsatz der Anrufe schlechter Qualität am höchsten war. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
+Der Bericht über Serverleistung enthält eine Liste der Skype for Business Server Server mit dem höchsten Prozentsatz schlechter Anrufe. Der Bericht führt die Server nach Servertyp auf und bietet separate Statistiken für folgende Typen:
   
 - Vermittlungsserver
     

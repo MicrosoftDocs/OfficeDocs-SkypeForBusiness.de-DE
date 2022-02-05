@@ -1,35 +1,30 @@
 ---
 title: Topologiegrundlagen für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 113e8c3f-71de-435c-bc4a-918ac7b50008
 description: 'Zusammenfassung: Wählen Sie Ihre Topologie für Skype for Business Server aus. Erfahren Sie mehr über die Serverkollokation für Skype for Business Server.'
-ms.openlocfilehash: 9f28857d6fa8ddbbd77713e113f73314e8f9d3c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856532"
 ---
+
 # <a name="topology-basics-for-skype-for-business-server"></a>Topologiegrundlagen für Skype for Business Server
 
-**Zusammenfassung:** Wählen Sie Ihre Topologie für Skype for Business Server aus. Erfahren Sie mehr über die Serverkollokation für Skype for Business Server.
+**Zusammenfassung:** Wählen Sie ihre Topologie für Skype for Business Server aus. Erfahren Sie mehr über die Serverkollokation für Skype for Business Server.
 
 Bevor Sie etwas anderes vorbereiten, sollten Sie wissen, dass Sie die richtige Topologie für die Bereitstellung von Skype for Business Server planen. Als Erstes müssen Sie entscheiden, ob Sie über eine lokale Bereitstellung von Skype for Business Server verfügen oder ob Sie dies mit einer Skype for Business Server Onlinebereitstellung in einer Hybridbereitstellung kombinieren möchten. In beiden Fällen möchten Sie weiterlesen, da wir die lokalen Topologien hier detailliert beschreiben, aber die Hybriddetails sind in ihrem eigenen Abschnitt dokumentiert.
 
-Sie können auch einige Beispieltopologien in [Referenztopologien für Skype for Business Server](reference-topologies.md)sehen.
+Sie können auch einige Beispieltopologien in [Referenztopologien für Skype for Business Server](reference-topologies.md) sehen.
 
 ## <a name="sites"></a>Websites
 
@@ -39,9 +34,9 @@ Skype for Business Server unterstützt die lokale Bereitstellung eines oder mehr
 
 Ihre Bereitstellung verfügt über mindestens einen zentralen Standort (auch als Rechenzentrum bezeichnet, d. h. ein Rechenzentrum für alle darin befindlichen Server), und jeder zentrale Standort in Ihrer Bereitstellung verfügt über einen Standard Edition Server oder mindestens einen Enterprise Edition Front-End-Pool. Sie können die Unterschiede in den einzelnen Optionen unten sehen:
 
-- Standard Edition Server enthält eine SQL Server Express-Datenbank.
+- Standard Edition Server enthält eine verbundenen SQL Server Express Datenbank.
 
-- Enterprise Edition Der Front-End-Pool umfasst:
+- Enterprise Edition Front-End-Pool umfasst:
 
   - Ein oder mehrere Front-End-Server (idealerweise mindestens drei, zur Skalierbarkeit), mit maximal zwölf. Für mehrere Server wäre ein Lastenausgleich erforderlich.
 
@@ -97,13 +92,13 @@ Möglicherweise planen Sie mehrere zentrale Standorte, und wenn dies der Fall is
 |Eigenständiger Vermittlungsserver oder Vermittlungsserverpool   |Edgeserver oder Edgepool   |
 |Server für beständigen Chat oder Serverpool für beständigen Chat   |Überwachung   |
 
-Genau wie die letzte Liste fügen wir den Exchange UM-Server hier nicht ein, da er nicht Teil der Skype for Business Server Bereitstellung ist, aber auch hier in die gleiche Kategorie fällt.
+Genau wie in der letzten Liste fügen wir den Exchange UM-Server hier nicht ein, da er nicht Teil der Skype for Business Server Bereitstellung ist, aber auch hier in die gleiche Kategorie fällt.
 
 Es gibt natürlich einige andere Komponenten und Optionen, die in Bereitstellungen einbezogen werden.
 
 |&nbsp;|&nbsp;|&nbsp;|&nbsp;|
 |:-----|:-----|:-----|:-----|
-|Firewalls   |PSTN-Gateways (wenn Sie Enterprise-VoIP bereitstellen   |Exchange UM-Server (wenn Sie Exchange UM integrieren möchten)   |DNS-Lastenausgleich   |
+|Firewalls   |PSTN-Gateways (wenn Sie Enterprise-VoIP   |Exchange UM-Server (wenn Sie eine Integration in Exchange UM wünschen)   |DNS-Lastenausgleich   |
 |Hardwaregeräte zum Lastenausgleich   |SQL Server-Datenbanken   |Dateifreigaben   ||
 
 ## <a name="server-roles"></a>Serverrollen
@@ -114,7 +109,7 @@ Um Skalierbarkeit und hohe Verfügbarkeit zu bieten, können Sie für die meiste
 
 ### <a name="front-end-server-and-back-end-server"></a>Front-End-Server und Back-End-Server
 
-In Skype for Business Server Enterprise Edition ist der Front-End-Server die Zentrale Serverrolle und führt viele grundlegende Skype for Business Server Funktionen aus. Der Front-End-Server und die Back-End-Server sind die einzigen Serverrollen, die in einer Skype for Business Server Enterprise Edition Bereitstellung erforderlich sind.
+In Skype for Business Server Enterprise Edition ist der Front-End-Server die Zentrale Serverrolle und führt viele grundlegende Skype for Business Server Funktionen aus. Der Front-End-Server und die Back-End-Server sind die einzigen Serverrollen, die für Skype for Business Server Enterprise Edition Bereitstellung erforderlich sind.
 
 Bei einem Front-End-Pool handelt es sich um einen Satz von Front-End-Servern mit identischer Konfiguration, die gemeinsam zur Bereitstellung von Diensten für eine gemeinsame Benutzergruppe eingesetzt werden. Ein Pool mit mehreren Servern, auf denen dieselbe Rolle ausgeführt wird, bietet Skalierbarkeit und Failoverfunktionen.
 
@@ -132,7 +127,7 @@ Der Front-End-Server bietet u. a. die folgenden Funktionen:
 
 - Anwendungshosting für anwendungen, die in Skype for Business Server enthalten sind (z. B. Konferenzzentrale und Reaktionsgruppenanwendung) und Anwendungen von Drittanbietern.
 
-- Optional eine Überwachungsfunktion, um Nutzungsinformationen in Form von Kommunikationsdatensätzen und Daten zu Anruffehlern zu erfassen. Diese Informationen enthalten Metriken zur Qualität der Medien (Audio und Video), die Ihr Netzwerk sowohl für Enterprise-VoIP Anrufe als auch für A/V-Konferenzen durchlaufen.
+- Optional eine Überwachungsfunktion, um Nutzungsinformationen in Form von Kommunikationsdatensätzen und Daten zu Anruffehlern zu erfassen. Diese Informationen enthalten Metriken zur Qualität der Medien (Audio und Video), die Ihr Netzwerk für Enterprise-VoIP Anrufe und A/V-Konferenzen durchlaufen.
 
 - Webkomponenten zu unterstützten webbasierten Aufgaben wie Webplaner und Join Launcher.
 
@@ -146,7 +141,7 @@ Front-End-Pools bilden außerdem den primären Speicher für Benutzer- und Konfe
 
 Darüber hinaus führt ein Front-End-Server in der Bereitstellung auch den zentralen Verwaltungsserver aus, der grundlegende Konfigurationsdaten verwaltet und auf allen Servern bereitstellt, auf denen Skype for Business Server ausgeführt wird. Der zentrale Verwaltungsserver bietet auch Lync Server-Verwaltungsshell und Dateiübertragungsfunktionen.
 
-Die Back-End-Server sind Datenbankserver, auf denen Microsoft SQL Server ausgeführt werden, die die Datenbankdienste für den Front-End-Pool bereitstellen. Die Back-End-Server dienen als Sicherungsspeicher für die Benutzer- und Konferenzdaten des Pools und sind die primären Speicher für andere Datenbanken, z. B. die Reaktionsgruppendatenbank. Sie können über einen einzelnen Back-End-Server verfügen, die hohe Verfügbarkeit des [Back-End-Servers in Skype for Business Server](../high-availability-and-disaster-recovery/back-end-server.md) wird jedoch für Failover empfohlen. Back-End-Server führen keine Skype for Business Server Software aus.
+Die Back-End-Server sind Datenbankserver, die Microsoft SQL Server ausgeführt werden, die die Datenbankdienste für den Front-End-Pool bereitstellen. Die Back-End-Server dienen als Sicherungsspeicher für die Benutzer- und Konferenzdaten des Pools und sind die primären Speicher für andere Datenbanken, z. B. die Reaktionsgruppendatenbank. Sie können über einen einzelnen Back-End-Server verfügen, die [hohe Verfügbarkeit des Back-End-Servers in Skype for Business Server](../high-availability-and-disaster-recovery/back-end-server.md) wird jedoch für failover empfohlen. Back-End-Server führen keine Skype for Business Server Software aus.
 
 > [!IMPORTANT]
 > Es wird nicht empfohlen, Skype for Business Server Datenbanken mit anderen Datenbanken zu verbinden. Andernfalls können Verfügbarkeit und Leistung beeinträchtigt werden.
@@ -165,13 +160,13 @@ Bei der Bereitstellung des Edgeservers werden außerdem die Mobilitätsdienste a
 Die Edgeserver umfassen außerdem einen vollständig integrierten XMPP-Proxy (Extensible Messaging and Presence Protocol), wobei das XMPP-Gateway auf den Front-End-Servern integriert ist. Sie können diese XMPP-Komponenten so konfigurieren, dass Ihre Skype for Business Server Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
 
 > [!NOTE]
-> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
 
 ### <a name="mediation-server"></a>Vermittlungsserver
 
 Der Vermittlungsserver ist eine erforderliche Komponente für die Implementierung von Enterprise-VoIP, Anruf über Arbeit und Einwahlkonferenzen. Der Vermittlungsserver übersetzt Signalisierung und in einigen Konfigurationen Medien zwischen Ihrer internen Skype for Business Server-Infrastruktur und einem PSTN-Gateway, einer IP-Nebenstellenanlage oder einem SIP-Trunk (Session Initiation Protocol). Sie können den Vermittlungsserver gemeinsam mit dem Front-End-Sever auf demselben Server oder getrennt in einem eigenständigen Vermittlungsserverpool ausführen.
 
-Ausführliche Informationen finden Sie [unter "Vermittlungsserverkomponente" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)
+Ausführliche Informationen finden Sie unter ["Vermittlungsserverkomponente" in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md).
 
 ### <a name="video-interop-server"></a>Video-Interoperabilitätsserver
 
@@ -186,7 +181,7 @@ Directors können Skype for Business Server Benutzeranforderungen authentifizier
 ### <a name="persistent-chat-server-roles"></a>Serverrollen für beständigen Chat
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade](/microsoftteams/upgrade-start-here)". Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
 
 Durch den beständigen Chat können Benutzer an themenbasierten Unterhaltungen mit mehreren Teilnehmern teilnehmen, die langfristig erhalten bleiben. Auf dem Front-End-Server für beständigen Chat wird der beständige Chatdienst ausgeführt. Auf dem Back-End-Server für beständigen Chat werden die Chatverlaufsdaten sowie Informationen zu Kategorien und Chatrooms gespeichert. Auf dem optionalen Back-End-Server zur Kompatibilität für den beständigen Chat können Chatinhalte sowie Kompatibilitätsereignisse zum Zweck der Einhaltung von Bestimmungen gespeichert werden.
 
@@ -210,7 +205,7 @@ Skype for Business Server unterstützt auch mehrere Optionen für die hohe Verf�
 
 - SQL Failoverclustering
 
-Ausführliche Informationen zur Poolpaarung und zur hohen Verfügbarkeit von Back-End-Servern finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server.](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+Ausführliche Informationen zur Poolpaarung und zur hohen Verfügbarkeit von Back-End-Servern finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 ## <a name="server-collocation-in-skype-for-business-server"></a>Serverkollocation in Skype for Business Server
 
@@ -238,12 +233,12 @@ Hierbei handelt es sich um den Bereich mit echten Unterschieden zwischen Standar
 
 #### <a name="standard"></a>Standard
 
-Da SQL Server Express auf dem Standard Edition Server verbunden ist und nicht verschoben werden kann, ist dies ziemlich einfach. Wenn Sie den Server für beständigen Chat auf einem Standard Edition Server bereitstellen, können Sie auch die Kompatibilitätsdatenbank für beständigen Chat und den beständigen Chat auf dem Standard Edition Server verbinden, dies ist jedoch nicht erforderlich.
+Da SQL Server Express auf dem Standard Edition Server verbunden ist und nicht verschoben werden kann, ist dies ziemlich einfach. Wenn Sie den Server für beständigen Chat auf einem Standard Edition Server bereitstellen, können Sie außerdem auch die Kompatibilitätsdatenbank für beständigen Chat und den beständigen Chat auf dem Standard Edition Server verbinden, dies ist jedoch nicht erforderlich.
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade](/microsoftteams/upgrade-start-here)". Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
 
-Diese können nicht auf dem Standard Edition Server verbunden werden, sondern können auf einem einzigen Datenbankserver ausgeführt werden:
+Diese können nicht auf dem Standard Edition Server verbunden werden, sondern können sich auf einem einzigen Datenbankserver befinden:
 
 - Überwachungsdatenbank
 
@@ -251,7 +246,7 @@ Diese können nicht auf dem Standard Edition Server verbunden werden, sondern k�
 
 - Jede Back-End-Datenbank für einen Enterprise Edition Front-End-Pool
 
-#### <a name="enterprise"></a>Enterprise
+#### <a name="enterprise"></a>Unternehmen
 
 Die folgenden Datenbanken können auf demselben Back-End-SQL Server verbunden werden:
 
@@ -271,10 +266,10 @@ Nun sind einige zusätzliche Regeln zu beachten, wenn Sie Skype for Business Ser
 
 - Jede SQL Instanz kann nur eine einzelne Back-End-Datenbank für einen Enterprise Edition Front-End-Pool, eine einzelne Überwachungsdatenbank, eine einzelne Archivierungsdatenbank, eine einzelne Datenbank für beständigen Chat und eine einzelne Konformitätsdatenbank für beständigen Chat enthalten.
 
-- Der Datenbankserver kann nicht mehr als einen Enterprise Edition Front-End-Pool, einen Server, auf dem die Archivierung ausgeführt wird, einen Server mit Überwachung, eine einzelne Datenbank für beständigen Chat und eine einzelne Konformitätsdatenbank für beständigen Chat unterstützen. Er kann jedoch einen der beiden Server unterstützen, unabhängig davon, ob die Datenbanken dieselbe Instanz von SQL Server oder separate Instanzen von SQL Server verwenden.
+- Der Datenbankserver kann nicht mehr als einen Enterprise Edition Front-End-Pool, einen Server, auf dem die Archivierung ausgeführt wird, einen Server mit Überwachung, eine einzelne Datenbank für beständigen Chat und eine einzelne Konformitätsdatenbank für beständigen Chat unterstützen, kann jedoch jeweils einen unterstützen, unabhängig davon, ob die Datenbanken dieselbe Instanz von SQL Server oder separate Instanzen von SQL Server verwenden.
 
     > [!NOTE]
-    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
+    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade](/microsoftteams/upgrade-start-here)". Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden.
 
 ### <a name="file-shares"></a>Dateifreigaben
 
@@ -295,7 +290,7 @@ Die Dateifreigabe kann sich auf einem separaten Server befinden, oder Sie könne
 
 ### <a name="keep-in-mind"></a>Beachten Sie
 
-- Sie können keinen Reverseproxyserver verbinden, bei dem es sich nicht um eine Skype for Business Server Komponente handelt und sich möglicherweise nicht einmal in Ihrer Topologie befinden. Sie benötigen einen Reverseproxy, wenn Sie unter anderem die Freigabe von Webinhalten für Verbundbenutzer unterstützen möchten. Falls erforderlich, setzen Sie die Unterstützung für Reverseproxys für Skype for Business Server um, indem Sie einen vorhandenen Reverseproxyserver konfigurieren, der sich bereits in Ihrer Organisation befindet und von anderen Anwendungen verwendet wird.
+- Sie können keinen Reverseproxyserver verbinden, bei dem es sich nicht um eine Skype for Business Server-Komponente handelt und sich möglicherweise nicht einmal in Ihrer Topologie befinden. Sie benötigen einen Reverseproxy, wenn Sie unter anderem die Freigabe von Webinhalten für Verbundbenutzer unterstützen möchten. Falls erforderlich, implementieren Sie reverseproxyunterstützung für Skype for Business Server, indem Sie einen vorhandenen Reverseproxyserver konfigurieren, der sich bereits in Ihrer Organisation befindet und von anderen Anwendungen verwendet wird.
 
 - Sie können keine Exchange UM-Komponente oder SharePoint Serverkomponente mit einer Skype for Business Server Rolle verbinden.
 

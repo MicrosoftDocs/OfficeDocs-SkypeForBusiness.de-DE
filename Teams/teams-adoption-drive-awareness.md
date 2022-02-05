@@ -1,7 +1,7 @@
 ---
 title: Fördern des Bewusstseins und Implementieren der Schulung
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/09/2018
 audience: Admin
@@ -10,27 +10,22 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie das Bewusstsein steigern und ein Schulungsprogramm für die Microsoft Teams implementieren.
+description: 'Erfahren Sie, wie Sie das Bewusstsein steigern und ein Schulungsprogramm für die Microsoft Teams implementieren können.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: e1832ca945edab2560a5a604fe85c01c0c9f53f0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842527"
+  - Microsoft Teams
 ---
+
 # <a name="drive-awareness-and-implement-training-for-microsoft-teams"></a>Fördern des Bewusstseins und Implementieren der Schulung für Microsoft Teams
 
-Bewusstsein und Schulung sind das Segment für Marketing und Kommunikation Ihrer allgemeinen Einführungsstrategie. Dadurch wird sichergestellt, dass Ihre Mitarbeiter die neuen Funktionen von Microsoft Teams und den zugrunde liegenden Microsoft 365 oder Office 365-Apps kennen.
+Bewusstsein und Schulung sind das Segment für Marketing und Kommunikation Ihrer allgemeinen Einführungsstrategie. Dadurch wird sichergestellt, dass Ihre Mitarbeiter die neuen Funktionen von Microsoft Teams und die zugrunde liegenden Microsoft 365 oder Office 365-Apps kennen.
    
 Sowohl bei Ihren anfänglichen Pilotprojekten als auch bei der eventuellen unternehmensweiten Einführung sollte Ihre interne Kommunikation Priorität haben. Sie sollten Folgendes enthalten:
 
@@ -49,9 +44,9 @@ Wenn Ihr Unternehmen über ein zentrales Intranetportal für Nachrichten, Inform
 
 ## <a name="implement-end-user-training"></a>Implementieren von Endbenutzerschulungen
 
-Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer abliefern zu können, sobald die Benutzer damit beginnen, Microsoft Teams und andere Microsoft 365 oder Office 365 zu nutzen. Besuchen Sie unsere Ressourcenseiten, um weitere Informationen zu erhalten:
+Verwenden Sie unsere Ressourcen, um Schulungen für Endbenutzer abliefern zu können, sobald die Benutzer mit der Nutzung Microsoft Teams anderen Diensten Microsoft 365 oder Office 365 beginnen. Besuchen Sie unsere Ressourcenseiten, um weitere Informationen zu erhalten:
 
-- [Kursleiterleiterleiter-Schulung für Teams](instructor-led-training-teams-landing-page.yml)
+- [Kursleiterleiterleiter-Endbenutzerschulung für Teams](instructor-led-training-teams-landing-page.yml)
 - [Administratorschulung für Teams](itadmin-readiness.md)
 - [Videoschulung für Onlineendbenutzer](https://support.office.com/article/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7)
 - [Schulung "Kaffee in der Cloud online" für & IT-Profis](https://aka.ms/CoffeeintheCloud) 
@@ -67,7 +62,7 @@ Wie bei jeder Kommunikations- und Einführungskampagne sollten Sie Ihre Erfolgsm
 - Zugriffe auf Ihre Schulungsvideos
 - Teilnahme an Schulungsveranstaltungen
 
-Teilen Sie die Erkenntnisse, die Sie aus Ihren Feedbackkanälen erhalten, mit dem Hashtag-#TeamsStories für einfaches Abrufen. Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern. Teilen Sie sie uns auch in unserem Forum für die Einführung von "Treibende Kraft" auf der technischen Website von Microsoft Community. Die Weitergabe dieser Beispiele aus der Praxis innerhalb Ihres eigenen Unternehmens ist äußerst hilfreich, um mit Ihrer Benutzergemeinschaft im Laufe der Zeit dauerhaften Wandel zu erreichen.
+Teilen Sie die Erkenntnisse, die Sie aus Ihren Feedbackkanälen erhalten, mit dem Hashtag-#TeamsStories für einen einfachen Abruf. Machen Sie jeden Monat mit #TeamsStories in Ihrem Intranet auf Mitarbeiter aufmerksam, die die Veränderungen annehmen, um die Produktivität und Zusammenarbeit in Ihrer Umgebung zu verbessern. Teilen Sie sie uns auch in unserem Forum für die Einführung von "Treibende Kraft" auf der technischen Website von Microsoft Community. Die Weitergabe dieser Beispiele aus der Praxis innerhalb Ihres eigenen Unternehmens ist äußerst hilfreich, um mit Ihrer Benutzergemeinschaft im Laufe der Zeit dauerhaften Wandel zu erreichen.
 
 [Weitere Informationen zu den Microsoft Teams Nutzungsberichten in der Microsoft 365 Admin Center.](teams-activity-reports.md)
 

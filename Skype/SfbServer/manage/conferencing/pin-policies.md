@@ -1,24 +1,19 @@
 ---
 title: Verwalten von PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 459e80bf-5791-49f8-878d-4a5178b3a210
 description: 'Zusammenfassung: Erfahren Sie, wie Sie PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: bf78a565cefb38a9a6e747c2b22b74a640a9e706
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862472"
 ---
+
 # <a name="manage-pin-policies-for-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie PIN-Richtlinien für Einwahlkonferenzen in Skype for Business Server verwalten.
@@ -43,17 +38,17 @@ Sie können Informationen zu PIN-Richtlinien mithilfe Skype for Business Server 
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **PIN-Richtlinie**.
     
-4. Klicken Sie auf der Seite **"PIN-Richtlinie"** auf die PIN-Richtlinie, die Sie anzeigen möchten, klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
+4. Klicken Sie auf der Seite " **PIN-Richtlinie** " auf die PIN-Richtlinie, die Sie anzeigen möchten, klicken Sie auf **"Bearbeiten**" und dann auf " **Details anzeigen"**.
     
-### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Informationen zu PIN-Richtlinien mithilfe Skype for Business Server-Verwaltungsshell
+### <a name="view-information-about-pin-policies-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Informationen zu PIN-Richtlinien mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie das Cmdlet **"Get-CsPinPolicy",** um Informationen zu PIN-Richtlinien anzuzeigen. Der folgende Befehl gibt beispielsweise Informationen zu einer einzelnen PIN-Richtlinie mit dem Identitätswert "site:Redmond" zurück:
+Verwenden Sie das Cmdlet **"Get-CsPinPolicy** ", um Informationen zu PIN-Richtlinien anzuzeigen. Der folgende Befehl gibt beispielsweise Informationen zu einer einzelnen PIN-Richtlinie mit dem Identitätswert "site:Redmond" zurück:
   
 ```PowerShell
 Get-CsPinPolicy -Identity "site:Redmond"
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter ["Get-CsPinPolicy".](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden [Sie unter "Get-CsPinPolicy"](/powershell/module/skype/get-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-the-global-pin-policy"></a>Ändern der globalen PIN-Richtlinie
 
@@ -67,7 +62,7 @@ Sie können die globale PIN-Richtlinie mithilfe Skype for Business Server System
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **PIN-Richtlinie**.
     
-4. Klicken Sie auf der Seite **"PIN-Richtlinie"** auf die **globale** Richtlinie, klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
+4. Klicken Sie auf der Seite **"PIN-Richtlinie** " auf die **globale** Richtlinie, klicken Sie auf **"Bearbeiten**" und dann auf " **Details anzeigen"**.
     
 5. Geben Sie unter **PIN-Richtlinie bearbeiten** im Feld **PIN-Mindestlänge** die gewünschte Mindestlänge für die PIN ein, oder wählen Sie sie aus. In der Standardeinstellung beträgt die Mindestlänge fünf Ziffern.
     
@@ -88,17 +83,17 @@ Sie können die globale PIN-Richtlinie mithilfe Skype for Business Server System
   
 12. Klicken Sie auf **Commit ausführen**.
     
-### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Ändern der globalen Pin-Richtlinie für Einwahlkonferenzen mithilfe Skype for Business Server Verwaltungsshell
+### <a name="modify-the-global-dial-in-conferencing-pin-policy-by-using-skype-for-business-server-management-shell"></a>Ändern der globalen PIN-Richtlinie für Einwahlkonferenzen mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie das Cmdlet **"Set-CsPinPolicy",** um die globale Pin-Richtlinie für Einwahlkonferenzen zu ändern.
+Verwenden Sie das Cmdlet **"Set-CsPinPolicy** ", um die globale Pin-Richtlinie für Einwahlkonferenzen zu ändern.
   
-Der folgende Befehl ändert den Wert von MinPasswordLength für alle PIN-Richtlinien, die für die Verwendung in der Organisation konfiguriert sind. Hierzu ruft der Befehl zunächst das Cmdlet **"Get-CsPinPolicy"** ohne Parameter auf, um eine Auflistung aller vorhandenen PIN-Richtlinien abzurufen. Diese Auflistung wird dann an das Cmdlet **"Set-CsPinPolicy"** weitergeleitet, das den Wert der MinPasswordLength-Eigenschaft für jede Richtlinie in der Auflistung ändert:
+Der folgende Befehl ändert den Wert von MinPasswordLength für alle PIN-Richtlinien, die für die Verwendung in der Organisation konfiguriert sind. Hierzu ruft der Befehl zunächst das Cmdlet **"Get-CsPinPolicy** " ohne Parameter auf, um eine Auflistung aller vorhandenen PIN-Richtlinien abzurufen. Diese Auflistung wird dann an das Cmdlet **"Set-CsPinPolicy** " weitergeleitet, das den Wert der MinPasswordLength-Eigenschaft für jede Richtlinie in der Auflistung ändert:
   
 ```PowerShell
 Get-CsPinPolicy | Set-CsPinPolicy -MinPasswordLength 10
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy".](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy"](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="create-a-user-or-site-pin-policy"></a>Erstellen einer Benutzer- oder Standort-PIN-Richtlinie
 
@@ -141,7 +136,7 @@ Sie können eine Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Busin
     
 ### <a name="create-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Erstellen einer Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie das Cmdlet **"New-CsPinPolicy",** um eine Pin-Richtlinie für Benutzer oder Websites zu erstellen.
+Verwenden Sie das Cmdlet **"New-CsPinPolicy** ", um eine Pin-Richtlinie für Benutzer oder Websites zu erstellen.
   
 Mit dem folgenden Befehl wird eine neue PIN-Richtlinie mit dem Identitätswert "site:Redmond" erstellt. Dieser Befehl enthält nur einen optionalen Parameter, MinPasswordLength, der verwendet wird, um die MinPasswordLength-Eigenschaft auf 7 festzulegen. Alle übrigen Richtlinieneigenschaften werden mit den Standardwerten konfiguriert.
   
@@ -149,7 +144,7 @@ Mit dem folgenden Befehl wird eine neue PIN-Richtlinie mit dem Identitätswert "
 New-CsPinPolicy -Identity "site:Redmond" -MinPasswordLength 7
 ```
 
- Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter [New-CsPinPolicy.](/powershell/module/skype/new-cspinpolicy?view=skype-ps)
+ Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter [New-CsPinPolicy](/powershell/module/skype/new-cspinpolicy?view=skype-ps).
   
 ## <a name="modify-a-user-or-site-pin-policy"></a>Ändern einer Benutzer- oder Standort-PIN-Richtlinie
 
@@ -171,7 +166,7 @@ Sie können eine PIN-Richtlinie für Benutzer oder Standorte mithilfe Skype for 
     
 ### <a name="modify-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Ändern einer Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie zum Ändern der PIN-Richtlinie für Einwahlkonferenzen das Cmdlet **"Set-CsPinPolicy".**
+Verwenden Sie zum Ändern der PIN-Richtlinie für Einwahlkonferenzen das Cmdlet **"Set-CsPinPolicy** ".
   
 Mit dem folgenden Befehl wird die PIN-Richtlinie geändert, die dem Standort Redmond zugewiesen ist. In diesem Fall ändert der Befehl den Wert der MinPasswordLength-Eigenschaft in 10; das bedeutet, dass neue PINs mindestens 10 Ziffern enthalten müssen:
   
@@ -179,7 +174,7 @@ Mit dem folgenden Befehl wird die PIN-Richtlinie geändert, die dem Standort Red
 Set-CsPinPolicy -Identity site:Redmond -MinPasswordLength 10
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy".](/powershell/module/skype/set-cspinpolicy?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und Einer Liste von Parametern, finden Sie unter ["Set-CsPinPolicy"](/powershell/module/skype/set-cspinpolicy?view=skype-ps).
   
 ## <a name="delete-a-user-or-site-pin-policy"></a>Löschen einer Benutzer- oder Standort-PIN-Richtlinie
 
@@ -193,16 +188,16 @@ Sie können eine Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Busin
     
 3. Klicken Sie in der linken Navigationsleiste auf **Konferenzen** und dann auf **PIN-Richtlinie**.
     
-4. Klicken Sie auf der Seite **"PIN-Richtlinie"** auf die PIN-Richtlinie, die Sie ändern möchten, klicken Sie auf **"Bearbeiten"** und dann auf **"Löschen".**
+4. Klicken Sie auf der Seite " **PIN-Richtlinie** " auf die PIN-Richtlinie, die Sie ändern möchten, klicken Sie auf **"Bearbeiten**" und dann auf " **Löschen**".
     
 ### <a name="delete-a-user-or-site-pin-policy-by-using-skype-for-business-server-management-shell"></a>Löschen einer Benutzer- oder Standort-PIN-Richtlinie mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie das Cmdlet **"Remove-CsPinPolicy",** um eine Pin-Richtlinie eines Benutzers oder einer Website zu löschen.
+Verwenden Sie das Cmdlet **"Remove-CsPinPolicy** ", um eine Pin-Richtlinie eines Benutzers oder einer Website zu löschen.
   
-Mit dem folgenden Befehl werden alle PIN-Richtlinien entfernt, die auf Standortebene konfiguriert wurden. Verwenden Sie dazu das Cmdlet **"Get-CsPinPolicy"** zusammen mit dem Parameter "Filter", um eine Auflistung aller Richtlinien zurückzugeben, deren Identität mit den Zeichen "site:" beginnt. Diese Auflistung wird dann an das Cmdlet **"Remove-CsPinPolicy"** weitergeleitet, das jede Richtlinie in der Auflistung löscht:
+Mit dem folgenden Befehl werden alle PIN-Richtlinien entfernt, die auf Standortebene konfiguriert wurden. Verwenden Sie dazu das Cmdlet **"Get-CsPinPolicy** " zusammen mit dem Parameter "Filter", um eine Auflistung aller Richtlinien zurückzugeben, deren Identität mit den Zeichen "site:" beginnt. Diese Auflistung wird dann an das Cmdlet **"Remove-CsPinPolicy** " weitergeleitet, das jede Richtlinie in der Auflistung löscht:
   
 ```PowerShell
 Get-CsPinPolicy -Filter "site:*" | Remove-CsPinPolicy
 ```
 
-Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter [Remove-CsPinPolicy.](/powershell/module/skype/remove-cspinpolicy?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Syntaxbeschreibung und einer Liste von Parametern, finden Sie unter [Remove-CsPinPolicy](/powershell/module/skype/remove-cspinpolicy?view=skype-ps).

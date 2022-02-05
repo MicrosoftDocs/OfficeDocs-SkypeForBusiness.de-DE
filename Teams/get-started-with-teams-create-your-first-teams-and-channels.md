@@ -1,30 +1,25 @@
 ---
 title: Erstellen Sie Ihre ersten Teams und Kanäle
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 ms.reviewer: serdars
-description: Erfahren Sie, wie Sie Ihre ersten Teams und Kanäle im Microsoft Teams-Client oder im Microsoft Teams Admin Center erstellen.
+description: 'Erfahren Sie, wie Sie Ihre ersten Teams und Kanäle im Microsoft Teams-Client oder im Microsoft Teams Admin Center erstellen.'
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: fa8fe0934bbd607289dc370ede57cd5eac539207
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846118"
 ---
+
 # <a name="create-your-first-teams-and-channels-in-microsoft-teams"></a>Erstellen Ihrer ersten Teams und Kanäle in Microsoft Teams
 
 Durch das Einrichten und Verwenden Ihrer ersten Reihe von Teams und Kanälen bauen Sie Ihre Erfahrung mit Teams aus und erkennen die Talente, die bei der Einführung von Teams in Ihrem gesamten Unternehmen helfen können. Wenn Sie Teams noch nicht installiert haben, lesen Sie [Beziehen von Clients für Microsoft Teams](get-clients.md) und [Anmelden bei Teams mit moderner Authentifizierung](sign-in-teams.md).

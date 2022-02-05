@@ -1,25 +1,20 @@
 ---
 title: Abrufen von Cubes
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c8eeb387-dc1e-44e0-bbf9-a566f8bda551
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Cube abrufen", der Teil der Daten-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 961453404d4abe4f026f240cd03e59a3b4c82993
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827498"
 ---
+
 # <a name="get-cube"></a>Abrufen von Cubes
  
 **Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Cube abrufen", der Teil der Daten-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -33,7 +28,7 @@ Der Vorgang "Cube abrufen" gibt die Liste der verfügbaren Dimensionen und Maße
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/CubeStructure  <br/> |HTTP/1.1  <br/> |
    
  **URI-Parameter** : Keine.
   
@@ -43,7 +38,7 @@ Der Vorgang "Cube abrufen" gibt die Liste der verfügbaren Dimensionen und Maße
   
  **Antwort** : Die Antwort enthält einen HTTP-Statuscode und eine Reihe von Antwortheadern.
   
- **Statuscode:** Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
+ **Statuscode** : Ein erfolgreicher Vorgang gibt den Statuscode 200 (OK) zurück.
   
  **Antwortheader** – keine zusätzlichen Kopfzeilen.
   
@@ -95,7 +90,7 @@ Der Vorgang "Cube abrufen" gibt die Liste der verfügbaren Dimensionen und Maße
 
  *KPIs*  – Reserviert. Der KPIs-Abschnitt einer Anforderungsnutzlast ermöglicht es dem Ausführen eines Abfragevorgangs, Werte für die im Cube definierten KPIs zurückzugeben. Im QoE-Cube sind noch keine KPIs vorhanden.
   
- *Dimensionen*  – Die Liste der Dimensionen, die in Abschnitten "Filter" und "Dimensionen" einer Anforderungsnutzlast für den Vorgang "Abfrage ausführen" verwendet werden können. Um eine Dimension in einem Filterausdruck zu verwenden, müssen Sie ein Dimensionselement angeben, das mithilfe des Vorgangs "Dimension-Elemente abrufen" abgerufen werden kann.
+ *Dimensions*  - The list of dimensions that may be used in Filters and Dimensions sections of a request payload for Run Query operation. Um eine Dimension in einem Filterausdruck zu verwenden, müssen Sie ein Dimensionselement angeben, das mithilfe des Vorgangs "Dimension-Elemente abrufen" abgerufen werden kann.
   
  *Maßangaben*  – Die Liste der Messungen, die im Abschnitt "Messungen" einer Anforderungsnutzlast für den Vorgang "Abfrage ausführen" verwendet werden kann.
   

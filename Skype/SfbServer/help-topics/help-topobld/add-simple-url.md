@@ -1,30 +1,25 @@
 ---
 title: Hinzufügen einfacher URLs
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddSimpleUrlPage
+  - ms.lync.tb.AddSimpleUrlPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 202b9fa2-41ab-4c86-a283-ebc8dece7ddf
 description: Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an.
-ms.openlocfilehash: 7ce88a2d67dd672dbdd02a23d88e5693cc57c4a1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862582"
 ---
+
 # <a name="add-simple-url"></a>Hinzufügen einer einfachen URL
  
-Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an. Das Format der URL ist _http:// \<simple URL type\> . \<domain name\>_ oder _http://, \<domain name\> / \<simple URL type\>_ wobei der einfache URL-Typ einer der folgenden ist:
+Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereitstellung die URL der neuen einfachen URL an. Das Format der URL ist  _http://\<simple URL type\>.\<domain name\>_ oder _http://\<domain name\>/\<simple URL type\>_, wobei der einfache URL-Typ einer der folgenden ist:
   
 - Treffen
     
@@ -33,6 +28,6 @@ Geben Sie zum Hinzufügen zusätzlicher einfacher URLs zur Definition der Bereit
 > [!IMPORTANT]
 > Gleichzeitig kann jeweils eine einfache URL vom Typ "Dialin" und eine einfache URL vom Typ "Meet" aktiv sein. Wenn Sie eine neue einfache URL hinzufügen und aktivieren, wird für alle künftigen Anforderungen die neue einfache URL verwendet. Sie können die inaktive einfache URL zum Abwickeln von Konferenzen und anderen Anforderungen beibehalten, die erfolgt sind, als die ältere einfache URL aktiv war. 
   
-Weitere Informationen zum Hinzufügen einer einfachen URL finden Sie unter [DNS-Anforderungen für einfache URLs in Skype for Business Server 2015.](../../plan-your-deployment/network-requirements/simple-urls.md)
+Weitere Informationen zum Hinzufügen einer einfachen URL finden Sie unter [DNS-Anforderungen für einfache URLs in Skype for Business Server 2015](../../plan-your-deployment/network-requirements/simple-urls.md).
   
 

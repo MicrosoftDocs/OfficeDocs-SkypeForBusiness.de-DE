@@ -1,31 +1,26 @@
 ---
 title: Planen von Einwahlkonferenzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ea024a26-37b3-410e-961b-83ab85c07540
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Planung von Einwahlkonferenzen in Skype for Business Server zu erfahren.'
-ms.openlocfilehash: 84d034ba358213a0f79548df6cc1ca027098633b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841087"
 ---
+
 # <a name="plan-for-dial-in-conferencing-in-skype-for-business-server"></a>Planen von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** Lesen Sie dieses Thema, um mehr über die Planung von Einwahlkonferenzen in Skype for Business Server zu erfahren.
   
 Einwahlkonferenzen sind ein optionales Feature von Skype for Business Server, mit dem Besprechungsteilnehmer am Audioteil einer Besprechung teilnehmen können, indem sie sich über ein Telefon in die Besprechung einwählen. Einwahlkonferenzen sind ein Teil von Audiokonferenzen und erfordern zusätzliche Konfiguration. In diesem Thema wird beschrieben, was Sie bedenken müssen, bevor Sie Einwahlkonferenzen für Ihre Organisation bereitstellen. 
   
-Einige der für Einwahlkonferenzen erforderlichen Komponenten sind spezifisch für Einwahlkonferenzen, andere Enterprise-VoIP Komponenten. Obwohl Einwahlkonferenzen einige der gleichen Komponenten verwenden, die Enterprise-VoIP verwenden, können Sie Einwahlkonferenzen auch dann bereitstellen, wenn Sie Enterprise-VoIP nicht bereitstellen. In diesem Abschnitt werden die Komponenten beschrieben, die für Einwahlkonferenzen benötigt werden. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP Lösung in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md)
+Einige der für Einwahlkonferenzen erforderlichen Komponenten sind spezifisch für Einwahlkonferenzen, andere Enterprise-VoIP Komponenten. Obwohl Einwahlkonferenzen einige der gleichen Komponenten verwenden, die Enterprise-VoIP verwendet, können Sie Einwahlkonferenzen auch dann bereitstellen, wenn Sie Enterprise-VoIP nicht bereitstellen. In diesem Abschnitt werden die Komponenten beschrieben, die für Einwahlkonferenzen benötigt werden. Weitere Informationen zum Planen einer vollständigen Enterprise-VoIP Lösung finden Sie unter [Planen Ihrer Enterprise-VoIP Lösung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/enterprise-voice-solution.md).
   
 Einwahlkonferenzen erfordern, dass Sie eine Verbindung mit dem Telefonfestnetz (Public Switched Telephone Network, PSTN) herstellen, indem Sie einen Vermittlungsserver bereitstellen. Zusätzlich zur Bereitstellung eines Vermittlungsservers müssen Sie Folgendes berücksichtigen, um Einwahlkonferenzen für Ihre Organisation zuzulassen:
   
@@ -46,11 +41,11 @@ Einwahlkonferenzen erfordern, dass Sie eine Verbindung mit dem Telefonfestnetz (
 
 Einwahlkonferenzen erfordern mindestens einen Vermittlungsserver und mindestens ein PSTN-Gateway (Public Switched Telephone Network). 
   
-Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort können Sie einen Vermittlungsserver in einem Front-End-Pool oder Standard Edition-Server verbinden oder auf einem eigenständigen Server oder Pool bereitstellen. An einem Zweigstellenstandort können Sie einen Vermittlungsserver auf einem eigenständigen Server oder als Komponente der Survivable Branch Appliance bereitstellen.
+Sie können einen Vermittlungsserver an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem zentralen Standort können Sie einen Vermittlungsserver in einem Front-End-Pool oder Standard Edition Server oder auf einem eigenständigen Server oder Pool bereitstellen. An einem Zweigstellenstandort können Sie einen Vermittlungsserver auf einem eigenständigen Server oder als Komponente der Survivable Branch Appliance bereitstellen.
   
 Sie können ein PSTN-Gateway an einem zentralen Standort oder an einem Zweigstellenstandort bereitstellen. An einem Zweigstellenstandort kann das PSTN-Gateway eigenständig oder eine Komponente der Survivable Branch Appliance sein.
   
-Ausführliche Informationen zu den Anforderungen für Vermittlungsserver und PSTN-Gateways finden Sie [unter Vermittlungsserverkomponente in Skype for Business Server,](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md) [Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)und Definieren eines [Gateways im Topologie-Generator in Skype for Business Server.](../../deploy/deploy-enterprise-voice/define-a-gateway.md)
+Ausführliche Informationen zu den Anforderungen für Vermittlungsserver und PSTN-Gateways finden Sie unter ["Vermittlungsserverkomponente in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/mediation-server.md)[", "Bereitstellen eines Vermittlungsservers im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/deploy-a-mediation-server.md)" und ["Definieren eines Gateways im Topologie-Generator in Skype for Business Server](../../deploy/deploy-enterprise-voice/define-a-gateway.md).
   
 ## <a name="plan-for-dial-plans-access-numbers-and-conferencing-regions"></a>Planen von Wählplänen, Zugriffsnummern und Konferenzregionen
 
@@ -86,7 +81,7 @@ Bevor Sie die Wähleinstellungen konfigurieren, ist es wichtig zu planen, wie di
     
 - Jeder Benutzer kann an jedem beliebigen Standort eine beliebige Einwahlnummer wählen, um an einer Konferenz teilzunehmen.
     
-Weitere Informationen zum Erstellen eines Wählplans finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) und Erstellen oder Ändern einer [Normalisierungsregel in Skype for Business.](../../deploy/deploy-enterprise-voice/normalization-rules.md) 
+Weitere Informationen zum Erstellen eines Wählplans finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md) und [Erstellen oder Ändern einer Normalisierungsregel in Skype for Business](../../deploy/deploy-enterprise-voice/normalization-rules.md). 
   
 ## <a name="plan-for-conference-directories"></a>Planen von Konferenzverzeichnissen
 
@@ -106,9 +101,9 @@ Konferenzen müssen für den Einwahlzugriff aktiviert sein, wenn Sie Konferenzri
     
 - Eine oder mehrere PSTN-Zugriffsnummern
     
-- Ein Link zu einer Einstellungen Seite für Einwahlkonferenzen, die eine vollständige Liste der Zugriffsnummern mit den zugehörigen Sprachen enthält. einen Ort zum Erstellen, Zurücksetzen oder Aufheben der Blockierung von persönlichen Identifikationsnummern (PINs); und andere Informationen, z. B. DTMF-Steuerelemente (Dual-Tone Multi-Frequency)
+- Ein Link zu einer Einstellungen Seite für Einwahlkonferenzen, die eine vollständige Liste der Zugriffsnummern mit den zugehörigen Sprachen, einen Ort zum Erstellen, Zurücksetzen oder Aufheben der Blockierung von persönlichen Identifikationsnummern (PINs) und andere Informationen wie DTMF-Steuerelemente (Dual-Tone Multi-Frequency) enthält
     
-Weitere Informationen zu Konferenzrichtlinien finden Sie unter [Konfigurieren von Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) und Verwalten von [Konferenzrichtlinien in Skype for Business Server.](../../manage/conferencing/conferencing-policies.md)  
+Weitere Informationen zu Konferenzrichtlinien finden Sie unter [Konfigurieren von Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md) und [Verwalten von Konferenzrichtlinien in Skype for Business Server](../../manage/conferencing/conferencing-policies.md).  
 
 ## <a name="support-for-enterprise-and-anonymous-users"></a>Unterstützung für Unternehmensbenutzer und anonyme Benutzer
 
@@ -117,7 +112,7 @@ Einwahlkonferenzen können sowohl für Unternehmensbenutzer als auch für anonym
 Unternehmensbenutzer oder Konferenzleiter, die einer für den Zugriff per Einwahl aktivierten Konferenz beitreten, wählen eine der Zugriffsnummern für die Konferenz und werden anschließend zur Eingabe der Konferenz-ID aufgefordert. Wenn der Konferenzleiter der Besprechung noch nicht beigetreten ist, können Benutzer entweder ihre Unified Communications-Durchwahl (UC) (oder die vollständige Telefonnummer) und PIN eingeben oder warten, bis der Konferenzleiter bestätigt, dass sie zur Konferenz zugelassen werden. Besprechungsorganisatoren können der Besprechung als Konferenzleiter beitreten, indem sie lediglich ihre PIN eingeben. Der Front-End-Server verwendet die Kombination aus vollständiger Telefonnummer oder Erweiterung und PIN, um Unternehmensbenutzer eindeutig ihren Active Directory-Anmeldeinformationen zuzuordnen. So werden Unternehmensbenutzer anhand ihres Namens in der Konferenz authentifiziert und identifiziert. Unternehmensbenutzer können auch eine Konferenzrolle übernehmen, die vom Organisator vorgegeben ist.
   
 > [!NOTE]
-> Enterprise Benutzer, die sich von einem Office-IP-Telefon oder von Skype for Business Server Telefonzentrale einwählen, werden nicht zur Eingabe ihrer Telefonnummer aufgefordert, da sie bereits authentifiziert sind. 
+> Enterprise Benutzer, die sich über ein Office-IP-Telefon oder über Skype for Business Server Telefonzentrale einwählen, werden nicht zur Eingabe ihrer Telefonnummer aufgefordert, da sie bereits authentifiziert sind. 
   
 Anonyme Benutzer, die einer Einwahlkonferenz beitreten möchten, wählen eine der Zugriffsnummern für die Konferenz und werden zur Eingabe der Konferenz-ID aufgefordert. Nicht authentifizierte anonyme Benutzer werden zudem zur Aufzeichnung ihres Namens aufgefordert. Der aufgezeichnete Name identifiziert nicht authentifizierte Benutzer in der Konferenz. Anonyme Benutzer werden erst zur Konferenz zugelassen, wenn mindestens ein Konferenzleiter oder authentifizierter Benutzer beigetreten ist. Das Zuweisen einer vordefinierten Rolle zu anonymen Benutzern ist nicht möglich.
   

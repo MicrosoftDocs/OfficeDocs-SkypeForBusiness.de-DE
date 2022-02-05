@@ -1,43 +1,38 @@
 ---
 title: Registrierungsansicht
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8a42bc7d-3d4f-43c1-9e15-89b2ee419ade
 description: In der Registrierungsansicht werden Informationen zur Benutzerregistrierung gespeichert. Diese Ansicht wurde in Lync Server 2013 eingeführt.
-ms.openlocfilehash: 62cfed96994f11ec7393bacc1e0b77edbe3374e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842667"
 ---
+
 # <a name="registration-view"></a>Registrierungsansicht
  
 In der Registrierungsansicht werden Informationen zur Benutzerregistrierung gespeichert. Diese Ansicht wurde in Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
 |**RegisterTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt, zu dem die Registrierung erfolgte.  <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, der sich registriert hat.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des registrierten Benutzers. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der sich registriert hat. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des registrierten Benutzers. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der sich registriert hat. Weitere Informationen finden Sie in der [Tabelle "Mandanten](tenants.md) ". <br/> |
 |**EndpointId** <br/> |Uniqueidentifier  <br/> |Eindeutiger Bezeichner des Endpunkts des registrierten Benutzers.  <br/> |
 |**EndpointEra** <br/> |Uniqueidentifier  <br/> |Eindeutiger Bezeichner, der verwendet wird, um Registrierungen zu unterscheiden, die denselben Benutzer und denselben Endpunkt betreffen.  <br/> |
 |**DeRegisterType** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt, zu dem die Dereferenzierung erfolgte.  <br/> |
 |**DeRegisterReason** <br/> |nvarchar(256)  <br/> |Grund für die Dereferenzierung.  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |Version des Clients, die von dem Benutzer verwendet wird, der sich registriert hat.  <br/> |
-|**ClientType** <br/> |int  <br/> |Client, der von dem Benutzer verwendet wird, der sich registriert hat. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle.](useragentdef.md) <br/> |
+|**ClientType** <br/> |int  <br/> |Client, der von dem Benutzer verwendet wird, der sich registriert hat. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Kategorie des Clients, der vom registrierten Benutzer verwendet wird.  <br/> |
 |**Ipaddress** <br/> |nvarchar(256)  <br/> |IP-Adresse, mit der der Benutzer registriert wurde. Dies kann eine IPv4- oder IPv6-Adresse sein.  <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |SIP-Dialog-ID. Das Format von "the" lautet wie folgt:  <br/> dialog;from-tag;to-tag  <br/> |
@@ -50,7 +45,7 @@ In der Registrierungsansicht werden Informationen zur Benutzerregistrierung gesp
 |**IsUserServiceAvailable** <br/> |Bit  <br/> |Gibt an, ob userService zur Registrierungszeit verfügbar war.  <br/> |
 |**IsPrimaryRegistrar** <br/> |Bit  <br/> |Gibt an, ob die Registrierung bei der primären Registrierungsstelle erfolgt ist.  <br/> |
 |**DeviceMacAddress** <br/> |Bigint  <br/> |MAC-Adresse des registrierten Geräts.  <br/> |
-|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Hersteller des registrierten Geräts. Weitere Informationen finden Sie in der [Tabelle "Hersteller" in Skype for Business Server 2015.](manufacturers.md) <br/> |
-|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Hardwareversion des registrierten Geräts. Weitere Informationen finden Sie in der [HardwareVersions-Tabelle in Skype for Business Server 2015.](hardwareversions.md) <br/> |
+|**DeviceManufacturer** <br/> |nvarchar(256)  <br/> |Hersteller des registrierten Geräts. Weitere Informationen finden Sie [in der Tabelle "Hersteller" in Skype for Business Server 2015](manufacturers.md). <br/> |
+|**DeviceHardwareVersion** <br/> |nvarchar(256)  <br/> |Hardwareversion des registrierten Geräts. Weitere Informationen finden Sie [in der Tabelle "HardwareVersions" in Skype for Business Server 2015](hardwareversions.md). <br/> |
    
 

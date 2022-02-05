@@ -1,25 +1,20 @@
 ---
-title: Repository-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Repository-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: d53e990f-1c5f-46d1-9eb1-8396782c2753
 description: 'Zusammenfassung: Erfahren Sie mehr über die Repository-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: e050ecd4367f2d63febf376e42f435c5ec6850f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849888"
 ---
+
 # <a name="repository-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Repository-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Repository-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -40,7 +35,7 @@ Die Repository-API besteht aus drei allgemeinen Diensten:
     
 Das Anrufqualitätsdashboard verwendet die Repository-API, um die folgenden Informationen zu verwalten: 
   
-- **Benutzer** – Darstellung der Benutzer, die Zugriff auf das Repository haben.
+- **User** - representation of Users who have access to the repository.
     
 - **Bericht** – enthält eine Liste von Abfragen, die als Inhalt in Repositoryelementen gespeichert sind.
     
@@ -50,7 +45,7 @@ Das Anrufqualitätsdashboard verwendet die Repository-API, um die folgenden Info
     
   **Cross-Origin Resource Sharing (CORS)-Unterstützung für Repository-API**
   
-Die Repository-API unterstützt cross-origin Resource Sharing (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung, die unter einer Domäne ausgeführt wird, auf Ressourcen in einer anderen Domäne zugreifen kann. Webbrowser implementieren eine Sicherheitseinschränkung, die als [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) Same-Origin Policy same-origin policy bezeichnet wird und verhindert, dass eine Webseite APIs in einer anderen Domäne aufruft. CORS bietet eine sichere Möglichkeit, einer Domäne (der Ursprungsdomäne) das Aufrufen von APIs in einer anderen Domäne zu ermöglichen. Details zu CORS finden Sie in der [CORS-Spezifikation.](https://www.w3.org/TR/cors/)
+Die Repository-API unterstützt cross-origin Resource Sharing (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung, die unter einer Domäne ausgeführt wird, auf Ressourcen in einer anderen Domäne zugreifen kann. Webbrowser implementieren eine Sicherheitseinschränkung, die als [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) Same-Origin Policy same-origin policy bezeichnet wird und verhindert, dass eine Webseite APIs in einer anderen Domäne aufruft. CORS bietet eine sichere Möglichkeit, einer Domäne (der Ursprungsdomäne) das Aufrufen von APIs in einer anderen Domäne zu ermöglichen. Details zu CORS finden Sie in der [CORS-Spezifikation](https://www.w3.org/TR/cors/) .
   
  **Aktivieren von CORS für die Repository-API**
   

@@ -1,32 +1,27 @@
 ---
 title: Videobasierte Bildschirmübertragung für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/20/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50755399-2228-4324-81db-c2bfc824c299
-description: Skype for Business Server Planungs- und Konfigurationsinformationen für die videobasierte Bildschirmübertragung (VbSS)
-ms.openlocfilehash: ff8dc9e21ab4b00741acca5dcc4ac972e5d13e68
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859972"
+description: Skype for Business Server Planungs- und Konfigurationsinformationen für die videobasierte Bildschirmfreigabe (VbSS)
 ---
+
 # <a name="video-based-screen-sharing-for-skype-for-business-server"></a>Videobasierte Bildschirmübertragung für Skype for Business Server 
  
-Videobasierte Bildschirmübertragung (VbSS) in Skype For Business Server 2015 steht jetzt zum Download zur Verfügung: [Skype for Business Server kumulatives Update 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS ist in Skype for Business Server 2019 enthalten.
+Die videobasierte Bildschirmübertragung (VbSS) in Skype For Business Server 2015 steht jetzt zum Download zur Verfügung: [Skype for Business Server kumulatives Update 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690). VbSS ist in Skype for Business Server 2019 enthalten.
   
 Videobasierte Bildschirmfreigabe (VbSS) verhindert die Lync-Bildschirmfreigabe. Der Unterschied zwischen VbSS und der herkömmlichen Bildschirmfreigabe hängt mit den zugrunde liegenden Protokollen zusammen, die verwendet werden und wozu sie besonders gut sind. Für die Bildschirmfreigabe wird das Remotedesktopprotokoll (RDP) verwendet, das sich hervorragend eignet, um Tausende von 1:1-Sitzungen zwischen den Computern der Benutzer zu erstellen. Neuere Technologie, VbSS, verwendet das User Datagram-Protokoll (UDP).
   
-Skype for Business Server wollten die 1:1-Unterhaltungen und Besprechungserfahrungen von 1:n (mehreren Teilnehmern) verbessern. VbSS nutzt die Medienplattform (die UDP als zugrunde liegendes Protokoll verwendet) mit dem Ziel, ihre Videostartzeiten zu verbessern, die Anzeigequalität ihrer Überwachung (insbesondere, wenn sich das, was Sie gerade beobachten, schnell bewegt) und die Zuverlässigkeit insgesamt zu verbessern.
+Skype for Business Server wollten die 1:1-Unterhaltungen und Besprechungserfahrungen von Personen mit 1:n (mehreren Teilnehmern) verbessern. VbSS nutzt die Medienplattform (die UDP als zugrunde liegendes Protokoll verwendet) mit dem Ziel, ihre Videostartzeiten zu verbessern, die Anzeigequalität ihrer Überwachung (insbesondere, wenn sich das, was Sie gerade beobachten, schnell bewegt) und die Zuverlässigkeit insgesamt zu verbessern.
   
 Ein Teil des Ziels der Verbesserung der Bildschirmfreigabe besteht darin, dass Übergänge zwischen VbSS und RDP so nahtlos wie möglich sind, wenn sie auftreten. Da VbSS ein Update der zugrunde liegenden Technologie ist, die bei der Bildschirmfreigabe für Skype for Business Server verwendet wird, ist es möglicherweise schwierig zu erkennen, welche Technologie Sie nutzen, es sei denn, Sie sehen sich SIP-Details im Netzwerkdatenverkehr an oder teilen Inhalte, die sich schnell bewegen, oder 3D. Wenn Ihr Arbeitsplatz beispielsweise über viele ältere Clients verfügt, ist RDP weiterhin als Failsafe für Ihre Besprechungen und Unterhaltungen verfügbar. Skype for Business Server verwendet interne Logik, um zu entscheiden, welche der beiden Methoden (VbSS oder herkömmliche Bildschirmfreigabe) angewendet werden soll, wenn Clients eine Verbindung herstellen. RDP kann und wird durch VbSS ersetzt, wenn die Situation dies aufruft, sodass die Anzeige nicht unterbrochen wird.
   
@@ -52,8 +47,8 @@ Sie sollten auch beachten, dass einige Genauigkeit/Scharfheit Ihrer freigegebene
 
 |**Serverrolle**|**Dienstname**|**Port oder Portbereich**|**Protocol**|**Notizen**|
 |:-----|:-----|:-----|:-----|:-----|
-|Front-End-Server  <br/> |Skype for Business Server Anwendungsfreigabedienst  <br/> |5065  <br/> |TCP  <br/> |Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.  <br/> |
-|Front-End-Server  <br/> |Skype for Business Server Anwendungsfreigabedienst  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Für die Anwendungsfreigabe verwendeter Medienportbereich.  <br/> |
+|Front-End-Server  <br/> |Skype for Business Server-Anwendungsfreigabedienst  <br/> |5065  <br/> |TCP  <br/> |Wird für eingehende SIP-Überwachungsanforderungen für die Anwendungsfreigabe verwendet.  <br/> |
+|Front-End-Server  <br/> |Skype for Business Server-Anwendungsfreigabedienst  <br/> |49152-65535  <br/> |TCP/UDP  <br/> |Für die Anwendungsfreigabe verwendeter Medienportbereich.  <br/> |
    
 **Erforderliche Clientports**
 
@@ -64,7 +59,7 @@ Sie sollten auch beachten, dass einige Genauigkeit/Scharfheit Ihrer freigegebene
 Wenn QoS für die folgenden Medienports aktiviert ist und VbSS auch aktiviert ist, verwendet die AS MCU während einer Konferenz, die die Desktopfreigabe umfasst, die unten fett dargestellten Videoporteinstellungen für den Datenverkehr der Bildschirmfreigabe. 
   
 > [!IMPORTANT]
-> Diese Einstellungen sind ein Sonderfall, und diese genauen Einstellungen müssen bei der Implementierung dieser beiden Features verwendet werden. Dadurch werden andere empfohlene Einstellungen in der [Dokumentation für QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos)überschrieben. Für die Anwendungsfreigabe müssen Sie zusätzlich zum Definieren dieser Portwerte auch ASMCUSVC.exe im QoS-Gruppenrichtlinienobjekt angeben. 
+> Diese Einstellungen sind ein Sonderfall, und diese genauen Einstellungen müssen bei der Implementierung dieser beiden Features verwendet werden. Dadurch werden andere empfohlene Einstellungen in der [Dokumentation für QoS](/previous-versions/office/lync-server-2013/lync-server-2013-managing-quality-of-service-qos) außer Kraft gesetzt. Für die Anwendungsfreigabe müssen Sie zusätzlich zum Definieren dieser Portwerte auch ASMCUSVC.exe im QoS-Gruppenrichtlinienobjekt angeben. 
   
 **Erforderliche Einstellungen für Application Server QoS/VbSS**
 
@@ -89,7 +84,7 @@ Vorausgesetzt:
     
 - Alle Benutzer in Ihrer Skype for Business Server Umgebung verfügen über Bildschirmauflösungen von mehr als 1920 x 1080.
     
-Bei voller Kapazität (wie oben erwähnt: 375 Bildschirmfreigabeteilnehmer pro Front-End-Server insgesamt, aber nur 250 pro Besprechung), verwendet Ihr Front-End-Server möglicherweise ~89 % der 1 Csv-Netzwerkkarte. Dies liegt daran, dass die vorhandene Bildschirmfreigabetechnologie in Skype for Business Server CU2 (RDP) den Inhalt auf dem Bildschirm in der systemeigenen Auflösung des REFERENTEN-PCs überträgt. Wenn höhere Bildschirmauflösungen eingerechnet werden, treten möglicherweise bereits Netzwerkengpässe bei der Bildschirmfreigabe mit Skype for Business Server 2015 CU2 auf.
+Bei voller Kapazität (wie oben erwähnt: 375 Bildschirmfreigabeteilnehmer pro Front-End-Server insgesamt, aber nur 250 pro Besprechung), verwendet Ihr Front-End-Server möglicherweise ~89 % der 1 Csv-Netzwerkkarte. Dies liegt daran, dass die vorhandene Bildschirmfreigabetechnologie in Skype for Business Server CU2 (RDP) den Inhalt auf dem Bildschirm in der systemeigenen Auflösung des PCs des Referenten überträgt. Wenn höhere Bildschirmauflösungen eingerechnet werden, treten möglicherweise bereits Netzwerkengpässe für die Bildschirmfreigabe mit Skype for Business Server 2015 CU2 auf.
   
 Um dies zu vermeiden, kann eine oder mehrere der folgenden Optionen hilfreich sein:
   
@@ -117,7 +112,7 @@ Die VbSS-Bandbreite ist:
    
 ## <a name="clients-and-servers-support"></a>Unterstützung für Clients und Server
 
-Die videobasierte Bildschirmübertragung erfordert Skype for Business Server 2015 CU3 oder höher sowie eine aktuelle Version der unterstützenden Clients, die im Vergleich der [Mobilen Clientfeatures für Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md) und [Besprechungsunterstützung](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing)aufgeführt sind. 
+Die videobasierte Bildschirmübertragung erfordert Skype for Business Server 2015 CU3 oder höher sowie eine aktuelle Version der unterstützenden Clients, die im [Vergleich der Mobilen Clientfeatures für Skype for Business](../plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)- und [Besprechungsunterstützung](../plan-your-deployment/clients-and-devices/desktop-feature-comparison.md#BKMK_Conferencing) aufgeführt sind. 
   
 Es gibt Situationen, in denen die Bildschirmfreigabe auf RDP umgestellt wird, z. B.:
   
@@ -141,7 +136,7 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
   
 ### <a name="how-to-disable-users-from-using-vbss"></a>So deaktivieren Sie die Verwendung von VbSS durch Benutzer
 
-- Sie können eine Benutzerrichtlinie zuweisen, die VbSS keinem Benutzer zulässt, der vbSS nicht verwenden sollte, indem Sie dieses Cmdlet in der Skype for Business Verwaltungskonsole ausführen (ersetzen Sie [PolicyName] durch die Richtlinie, für die Sie dies tun):
+- Sie können eine Benutzerrichtlinie zuweisen, die VbSS keinem Benutzer zulässt, der vbSS nicht verwenden sollte, indem Sie dieses Cmdlet in der Skype for Business Management Console ausführen (ersetzen Sie [PolicyName] durch die Richtlinie, für die Sie dies tun):
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode RDP
@@ -153,7 +148,7 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
   Set-CsConferencingPolicy -ApplicationSharingMode RDP
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsConferencingPolicy".](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsConferencingPolicy"](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Wenn Sie VbSS vollständig deaktivieren müssen, können Sie diesen Befehl ausführen:
     
@@ -161,14 +156,14 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
   Set-CsMediaConfiguration -EnableVideoBasedSharing $false
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsMediaConfiguration".](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)
+    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsMediaConfiguration"](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
-> In einer Besprechung mit mehreren Teilnehmern Skype for Business alle Clientendpunkte die Richtlinieneinstellung für den Besprechungsorganisator berücksichtigen. 
+> In einer Besprechung mit mehreren Teilnehmern Skype for Business berücksichtigen alle Clientendpunkte die Richtlinieneinstellung für den Besprechungsorganisator. 
   
 ### <a name="how-to-enable-users-to-use-vbss"></a>So ermöglichen Sie Benutzern die Verwendung von VbSS
 
-- Sie können eine bestimmte Benutzerrichtlinie zuweisen, die VbSS allen Benutzern zulässt, die VbSS verwenden müssen, indem Sie dieses Cmdlet in der Skype for Business Verwaltungskonsole ausführen (ersetzen Sie [PolicyName] durch die Richtlinie, für die Sie dies tun):
+- Sie können eine bestimmte Benutzerrichtlinie zuweisen, die VbSS allen Benutzern zulässt, die VbSS verwenden müssen, indem Sie dieses Cmdlet in der Skype for Business Management Console ausführen (ersetzen Sie [PolicyName] durch die Richtlinie, für die Sie dies tun):
     
   ```PowerShell
   Set-CsConferencingPolicy -Identity [PolicyName] -ApplicationSharingMode VideoWithFallback
@@ -180,7 +175,7 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
   Set-CsConferencingPolicy -ApplicationSharingMode VideoWithFallback
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsConferencingPolicy".](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsConferencingPolicy"](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).
     
 - Wenn Sie VbSS nach dem Deaktivieren wieder aktivieren müssen (standardmäßig aktiviert), können Sie diesen Befehl ausführen:
     
@@ -188,7 +183,7 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
   Set-CsMediaConfiguration -EnableVideoBasedSharing $true
   ```
 
-    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsMediaConfiguration".](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps)
+    Weitere Informationen zu diesem Befehl finden Sie unter ["Set-CsMediaConfiguration"](/powershell/module/skype/set-csmediaconfiguration?view=skype-ps).
     
 > [!NOTE]
 > In einer Besprechung mit mehreren Teilnehmern Skype for Business berücksichtigen alle Clientendpunkte die Richtlinieneinstellung für den Besprechungsorganisator. 
@@ -197,4 +192,4 @@ Das Tolle ist: Nachdem Sie das kumulative Update 3 (CU3) Skype for Business Serv
 
 [Skype for Business Server kumulatives Update 2015 KB3061064](https://www.microsoft.com/download/details.aspx?id=47690)
   
-[Videobasierte Bildschirmfreigabe (VBSS) ist in Skype for Business Server 2015 verfügbar](https://support.microsoft.com/kb/3170163)
+[Videobasierte Bildschirmfreigabe (VBSS) ist in Skype for Business Server 2015 verfügbar.](https://support.microsoft.com/kb/3170163)

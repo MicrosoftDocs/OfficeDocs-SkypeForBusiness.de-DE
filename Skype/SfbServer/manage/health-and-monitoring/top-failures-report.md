@@ -1,24 +1,19 @@
 ---
 title: Bericht über häufigste Fehler in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 438942e2-580a-4b67-9d42-f116111fb26a
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über häufigste Fehler in Skype for Business Server.'
-ms.openlocfilehash: 3e752ad2f15e6739fb6f1a34aa9f30e86767041d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853029"
 ---
+
 # <a name="top-failures-report-in-skype-for-business-server"></a>Bericht über häufigste Fehler in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über häufigste Fehler in Skype for Business Server.

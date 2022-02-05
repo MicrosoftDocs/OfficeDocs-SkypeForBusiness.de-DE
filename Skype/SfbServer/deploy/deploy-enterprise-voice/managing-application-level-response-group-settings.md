@@ -1,28 +1,23 @@
 ---
 title: Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: aab749a1-fa2d-4ce8-a6c6-ebcfa37ce02a
-description: Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene, z. B. Wartemusik und Ringbackeinstellungen, in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 7ac6b9e03f8a738baa5bb41bac858da1ce057c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839667"
+description: 'Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene, z. B. Wartemusik und Ringbackeinstellungen, in Skype for Business Server Enterprise-VoIP.'
 ---
+
 # <a name="managing-application-level-response-group-settings-in-skype-for-business"></a>Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene in Skype for Business
  
 Verwalten von Reaktionsgruppeneinstellungen auf Anwendungsebene, z. B. Wartemusik und Ringbackeinstellungen, in Skype for Business Server Enterprise-VoIP.
@@ -35,7 +30,7 @@ Die Standard-Wartemusik wird wiedergegeben, wenn ein Anruf in der Warteschleife 
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie an der Eingabeaufforderung Folgendes aus:
     

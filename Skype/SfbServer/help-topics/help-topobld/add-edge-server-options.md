@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen von Edgeserveroptionen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeServerOptionsPage
+  - ms.lync.tb.AddEdgeServerOptionsPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2405f227-4297-40d0-a117-55427a9e4052
 description: 'Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Standardmäßig unterstützt der Edgepool Remotebenutzer in Ihrer Organisation, die sich über ein virtuelles privates Netzwerk (VPN) von außerhalb der Firewall anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar:'
-ms.openlocfilehash: e9da9c45335cf023dc7da99656fe8a266164efc9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862622"
 ---
+
 # <a name="add-edge-server-options"></a>Hinzufügen von Edgeserveroptionen
 
 Wählen Sie die Funktionen aus, die für den Edgepool aktiviert werden sollen. Standardmäßig unterstützt der Edgepool Remotebenutzer in Ihrer Organisation, die sich über ein virtuelles privates Netzwerk (VPN) von außerhalb der Firewall anmelden. Zudem sind die folgenden Optionen für die Edgepoolfunktionen verfügbar:

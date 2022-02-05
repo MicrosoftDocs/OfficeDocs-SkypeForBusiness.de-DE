@@ -1,35 +1,30 @@
 ---
 title: Testen von Einwahlkonferenzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f4ccbfd4-6075-466f-b459-20561318803d
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server testen.'
-ms.openlocfilehash: 4c4e56c846cd6c4f522abdfc0a4a9cc76b5fe979
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847358"
 ---
+
 # <a name="test-dial-in-conferencing-in-skype-for-business-server"></a>Testen von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server testen.
   
-Als letzte Überprüfung Ihrer Konfiguration für Einwahlkonferenzen können Sie nach Wählplänen suchen, die über eine Region für Einwahlkonferenzen verfügen, die von keiner Zugriffsnummer verwendet wird, und nach Zugriffsnummern, die keine Einwahlkonferenzregion angegeben haben. Sie sollten auch überprüfen, ob die Einwahlkonferenz-Einstellungen Webseite und die Zugriffsnummern für die Einwahl ordnungsgemäß funktionieren.
+Als letzte Überprüfung Ihrer Konfiguration für Einwahlkonferenzen können Sie nach Wählplänen suchen, die über eine Region für Einwahlkonferenzen verfügen, die von keiner Zugriffsnummer verwendet wird, und nach Zugriffsnummern, die keine Einwahlkonferenzregion angegeben haben. Sie sollten auch überprüfen, ob die Einwahlkonferenzen Einstellungen Webseite und die Zugriffsnummern für die Einwahl ordnungsgemäß funktionieren.
   
 ## <a name="find-dial-plans-with-a-dial-in-conferencing-region-that-is-not-used-by-an-access-number"></a>Suchen von Wählplänen mit einer Region für Einwahlkonferenzen, die nicht von einer Zugriffsnummer verwendet wird
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle Cs-ServerAdministrator oder CsAdministrator an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -39,13 +34,13 @@ Als letzte Überprüfung Ihrer Konfiguration für Einwahlkonferenzen können Sie
 
     Dieses Cmdlet gibt alle Wählpläne zurück, die über eine Region für Einwahlkonferenzen verfügen, die nicht von einer Zugriffsnummer verwendet wird.
     
-Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Weitere Informationen finden Sie unter ["Get-CsDialInConferencingAccessNumber"](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="find-access-numbers-without-assigned-regions"></a>Suchen von Zugriffsnummern ohne zugewiesene Regionen
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle Cs-ServerAdministrator oder CsAdministrator an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -55,7 +50,7 @@ Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](/p
 
     Dieses Cmdlet gibt alle Zugriffsnummern für Einwahlkonferenzen zurück, die keiner Region zugeordnet sind.
     
-Weitere Informationen finden Sie unter [Get-CsDialInConferencingAccessNumber](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
+Weitere Informationen finden Sie unter ["Get-CsDialInConferencingAccessNumber"](/powershell/module/skype/get-csdialinconferencingaccessnumber?view=skype-ps).
   
 ## <a name="test-webpage-and-access-numbers"></a>Testen von Webseiten- und Zugriffsnummern
 
@@ -69,7 +64,7 @@ Sie müssen die folgenden Aufgaben ausführen, um sicherzustellen, dass die Webs
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle Cs-ServerAdministrator oder CsAdministrator an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -82,4 +77,4 @@ Sie müssen die folgenden Aufgaben ausführen, um sicherzustellen, dass die Webs
 
     In den Berichtergebnissen wird der Test entweder als erfolgreich oder mit Fehlern angezeigt, zusammen mit spezifischen Diagnoseinformationen. Das Flag "-Verbose" enthält ausführlichere Informationen darüber, wie viele Zugriffsnummern gefunden wurden, und Details dazu.
     
-Weitere Informationen finden Sie unter [Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps).
+Weitere Informationen finden Sie unter ["Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps)".

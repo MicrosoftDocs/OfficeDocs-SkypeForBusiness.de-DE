@@ -1,37 +1,32 @@
 ---
 title: Gebührenfreie Wähleinschränkungen in Österreich
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
-ms.reviewer: davlick, krkilaru
+ms.reviewer: 'davlick, krkilaru'
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Calling Plans
-description: So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.
-ms.openlocfilehash: 635459bd0c3ebd2016a317c9fd50fc1311d801d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853809"
+  - Calling Plans
+description: 'So können Sie herausfinden, wie Sie in den einzelnen Ländern/Regionen gebührenfreie Nummern wählen. Nachdem Sie das Land/die Region ausgewählt haben, gelangen Sie zu einer länderspezifischen Seite mit spezifischen Details, Einschränkungen und Grenzwerten für die Verfügbarkeit gebührenfreier Dienste, auf der gebührenfreie Dienste verfügbar sind. Das Wählformat oder die Wählformate zeigen Ihnen die erforderlichen Zugriffscodes innerhalb der einzelnen Länder oder Regionen zum Wählen der gebührenfreien Nummer an.'
 ---
+
 # <a name="toll-free-dialing-restrictions-in-austria"></a>Gebührenfreie Wähleinschränkungen in Österreich
 
-[Suchen Sie ein anderes Land oder eine andere Region,](../toll-free-dialing-limitations-and-restrictions.md)oder erfahren Sie mehr über die Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
+[Suchen Sie ein anderes Land oder eine andere Region](../toll-free-dialing-limitations-and-restrictions.md), oder informieren Sie sich zu den Einschränkungen und Einschränkungen für gebührenfreie Wählscheibe.
 
 
 |**Details**|**Beschreibung**|

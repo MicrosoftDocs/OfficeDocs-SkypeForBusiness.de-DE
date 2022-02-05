@@ -1,24 +1,19 @@
 ---
 title: Konfigurieren der PIN-losen Besprechungsteilnahme in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c21e8861-bb75-45e8-8485-38daa3b8121c
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die PIN-lose Besprechungsteilnahmeoption in Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 13af671edaa9ab8853e0390d43c62b6576bed4e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861362"
 ---
+
 # <a name="configure-pin-less-meeting-join-in-skype-for-business-server"></a>Konfigurieren der PIN-losen Besprechungsteilnahme in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die PIN-lose Besprechungsteilnahmeoption in Skype for Business Server konfigurieren.
@@ -45,7 +40,7 @@ Beachten Sie beim Konfigurieren dieses Features Folgendes:
     
 ## <a name="configure-pin-less-meeting-join"></a>Konfigurieren der PIN-losen Besprechungsteilnahme
 
-Verwenden Sie zum Aktivieren der PIN-losen Besprechungsteilnahme für Ihre Benutzer das Cmdlet ["Set-CsDialInConferencingConfiguration"](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) mit dem Parameter "AllowAnonymousPstnActivation" wie folgt:
+Verwenden Sie zum Aktivieren der PIN-losen Besprechungsteilnahme für Ihre Benutzer das Cmdlet ["Set-CsDialInConferencingConfiguration](/powershell/module/skype/set-csdialinconferencingconfiguration?view=skype-ps) " mit dem Parameter "AllowAnonymousPstnActivation" wie folgt:
   
 ```PowerShell
 Set-CsDialInConferencingConfiguration -Identity  < global or site:sitename>  -AllowAnonymousPstnActivation $True
@@ -63,4 +58,4 @@ Wenn die PIN-lose Besprechungsteilnahme aktiviert ist, empfiehlt es sich aus Sic
 Set-CsConferencingPolicy [-Identity <XdsIdentity>] -AllowAnonymousUsersToDialOut $False
 ```
 
-Weitere Informationen finden Sie unter ["Set-CsConferencingPolicy".](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps)
+Weitere Informationen finden Sie unter ["Set-CsConferencingPolicy"](/powershell/module/skype/set-csconferencingpolicy?view=skype-ps).

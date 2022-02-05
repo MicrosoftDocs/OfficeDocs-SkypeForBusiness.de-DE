@@ -1,27 +1,22 @@
 ---
 title: Verbunddomänen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ExtDomainMain
+  - ms.lync.lscp.ExtDomainMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: f48ba3dd-9ced-4d3e-b75a-be81cee69d6b
-ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 9413565d389fb0d035b753837fa66fe34d21984a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846868"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="federated-domains"></a>Verbunddomänen
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

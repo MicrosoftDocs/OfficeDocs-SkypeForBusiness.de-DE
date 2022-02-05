@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen von SQL-Speichern
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddSqlStorePage
+  - ms.lync.tb.AddSqlStorePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8ec39dfc-c58d-4fdb-b61e-f71dd691cef8
-description: Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.
-ms.openlocfilehash: 367d0bb57d673bdb062b5a1f99ead7cb426995c6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844508"
+description: 'Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.'
 ---
+
 # <a name="add-sql-store"></a>Hinzufügen eines SQL-Speichers
 
 Um eine neue SQL Store zu definieren, was bedeutet, dass Sie eine SQL Server-basierte Datenbank und eine Instanz von SQL Server angeben – entweder eine Standardinstanz oder eine benannte Instanz – geben Sie Folgendes an.

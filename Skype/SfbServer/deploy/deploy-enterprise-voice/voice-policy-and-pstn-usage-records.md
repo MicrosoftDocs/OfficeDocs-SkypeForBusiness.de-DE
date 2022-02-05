@@ -1,34 +1,29 @@
 ---
 title: Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: e6ff27e0-e2d1-4445-840f-08f738200c20
 description: 'Zusammenfassung: Erstellen oder Ändern von VoIP-Richtlinien und Konfigurieren von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server Systemsteuerung.'
-ms.openlocfilehash: 5dedb504a6d2d3e75b168bf32ff1f0ccb7ed94f8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828378"
 ---
+
 # <a name="create-or-modify-a-voice-policy-and-configure-pstn-usage-records-in-skype-for-business"></a>Erstellen oder Ändern einer VoIP-Richtlinie und Konfigurieren von PSTN-Verwendungsdatensätzen in Skype for Business
 
 **Zusammenfassung:** Erstellen oder Ändern von VoIP-Richtlinien und Konfigurieren von PSTN-Verwendungsdatensätzen mithilfe der Skype for Business Server Systemsteuerung.
 
 > [!NOTE]
-> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag (Public Switched Telephone Network) zugeordnet sein. Eine Liste aller PSTN-Verwendungsdatensätze, die in Ihrer Enterprise-VoIP-Bereitstellung verfügbar sind, und deren Eigenschaften finden Sie unter Anzeigen von [PSTN-Verwendungsdatensätzen in Skype for Business.](view-pstn-usage-records.md)
+> Jeder VoIP-Richtlinie muss mindestens ein PSTN-Verwendungseintrag (Public Switched Telephone Network) zugeordnet sein. Eine Liste aller PSTN-Verwendungsdatensätze, die in Ihrer Enterprise-VoIP Bereitstellung verfügbar sind, und deren Eigenschaften finden Sie unter [Anzeigen von PSTN-Verwendungsdatensätzen in Skype for Business](view-pstn-usage-records.md).
 
 ### <a name="to-create-a-voice-policy"></a>So erstellen Sie eine VoIP-Richtlinie
 
@@ -58,7 +53,7 @@ ms.locfileid: "60828378"
 
    - **Anrufweiterleitung** ermöglicht Benutzern das Weiterleiten von Anrufen an andere Telefone und Clientgeräte. Skype for Business Server bietet eine deutlich größere Palette von Konfigurationsoptionen für die Anrufweiterleitung. Wenn beispielsweise eine Organisation nicht möchte, dass eingehende Anrufe extern an das PSTN weitergeleitet werden, kann ein Administrator eine spezielle VoIP-Richtlinie geltend machen, um diese Einschränkung bereitzustellen. Diese Option ist standardmäßig aktiviert.
 
-   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype for Business Server kann ein Delegat das gleichzeitige Klingeln konfigurieren, sodass eingehende Anrufe an seinen Vorgesetzten alle Ziele für das gleichzeitige Klingeln der Stellvertretung anrufen können. Auf diese Weise kann der Stellvertreter flexibler auf die für seinen Manager bestimmten Anrufe reagieren. Diese Option ist standardmäßig aktiviert.
+   - **Delegierung** ermöglicht Benutzern die Angabe anderer Benutzer, die in ihrem Namen Anrufe tätigen und empfangen können. In Skype for Business Server kann ein Delegat das gleichzeitige Klingeln konfigurieren, sodass eingehende Anrufe an seinen Vorgesetzten alle Ziele für das gleichzeitige Klingeln des Delegaten klingeln können. Auf diese Weise kann der Stellvertreter flexibler auf die für seinen Manager bestimmten Anrufe reagieren. Diese Option ist standardmäßig aktiviert.
 
    - **Anrufdurchstellung** ermöglicht es, Anrufe an andere Benutzer durchzustellen. Diese Option ist standardmäßig aktiviert.
 
@@ -68,16 +63,16 @@ ms.locfileid: "60828378"
 
    - **Teamanruf** ermöglicht Benutzern in einem definierten Team die Annahme von Anrufen für andere Teammitglieder. Diese Option ist standardmäßig aktiviert.
 
-   - **Die PSTN-Umleitung** ermöglicht das Umleiten von Anrufen von Benutzern, denen diese Richtlinie zugewiesen ist, an andere Unternehmensbenutzer im PSTN, wenn das WAN überlastet oder nicht verfügbar ist. Diese Option ist standardmäßig aktiviert.
+   - **Die PSTN-Umleitung ermöglicht das Umleiten** von Anrufen von Benutzern, denen diese Richtlinie zugewiesen ist, an andere Unternehmensbenutzer im PSTN, wenn das WAN überlastet oder nicht verfügbar ist. Diese Option ist standardmäßig aktiviert.
 
    - **Außerkraftsetzung der Bandbreitenrichtlinie** ermöglicht es Administratoren, Richtlinienentscheidungen im Rahmen der Anrufsteuerung für einen bestimmten Benutzer außer Kraft zu setzen. Diese Option ist standardmäßig deaktiviert.
 
      > [!NOTE]
      > Die Richtlinie wird nur für eingehende Anrufe an den Benutzer, nicht jedoch für ausgehende Anrufe außer Kraft gesetzt, die vom Benutzer getätigt werden. Nachdem die Sitzung hergestellt wurde, wird die Bandbreitenauslastung genau aufgezeichnet. Diese Einstellung sollte sparsam verwendet und für angemessene Entscheidungen der Anrufsteuerung reserviert werden.
 
-   - **Mithilfe** der Clientbenutzeroberfläche, die wiederum die Aufrufe in den Kommunikationsdatensätzen (KDS) kennzeichnet, können Benutzer bösartige Anrufe (z. B. Bedrohungen) melden. Diese ist standardmäßig deaktiviert.
+   - **Mithilfe der Clientbenutzeroberfläche** , die wiederum die Aufrufe in den Kommunikationsdatensätzen (KDS) kennzeichnet, können Benutzer bösartige Anrufe (z. B. Bedrohungen) melden. Diese ist standardmäßig deaktiviert.
 
-   - **Beschäftigt-Optionen** aktivieren oder deaktivieren Beschäftigt-Optionen für die angegebene VoIP-Richtlinie. Mit den Beschäftigt-Optionen können eingehende Anrufe an Voicemail weitergeleitet oder mit einem Besetztsignal abgelehnt werden, wenn sich der Zielbenutzer des Anrufs auf dem Telefon befindet. Beschäftigt-Optionen ist eine neue VoIP-Richtlinie, die im kumulativen Update vom Juli 2016 eingeführt wurde. Wenn Sie diesen Parameter aktivieren, werden beschäftigt-Optionen aktiviert, und wenn Sie ihn deaktivieren, werden die Beschäftigt-Optionen deaktiviert. Weitere Informationen finden Sie unter [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and Install and configure Busy Options for [Skype for Business Server](install-and-configure-busy-options.md).
+   - **Beschäftigt-Optionen** aktivieren oder deaktivieren Beschäftigt-Optionen für die angegebene VoIP-Richtlinie. Mit den Beschäftigt-Optionen können eingehende Anrufe an Voicemail weitergeleitet oder mit einem Besetztsignal abgelehnt werden, wenn sich der Zielbenutzer des Anrufs auf dem Telefon befindet. Beschäftigt-Optionen ist eine neue VoIP-Richtlinie, die im kumulativen Update vom Juli 2016 eingeführt wurde. Wenn Sie diesen Parameter aktivieren, werden beschäftigt-Optionen aktiviert, und wenn Sie ihn deaktivieren, werden die Beschäftigt-Optionen deaktiviert. Weitere Informationen finden Sie unter [Plan for Busy Options for Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/busy-options.md) and [Install and configure Busy Options for Skype for Business Server](install-and-configure-busy-options.md).
 
 7. Führen Sie eine der folgenden Aktionen aus, um PSTN-Verwendungsdatensätze für diese VoIP-Richtlinie zuzuordnen und zu konfigurieren:
 
@@ -100,7 +95,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungseintrag markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde.
 
@@ -116,7 +111,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungseintrag markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungseintrag zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie auf **Details einblenden**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungseintrag bereits zugeordnet wurde.
 
@@ -131,7 +126,7 @@ ms.locfileid: "60828378"
 
    - Um dieselben PSTN-Verwendungsdatensätze für die Anrufweiterleitung und gleichzeitiges Klingeln zu verwenden wie diese VoIP-Richtlinie, wählen Sie die Option **Mithilfe der gleichen PSTN-Verwendungen weiterleiten** im Dropdownmenü aus.
 
-   - Um die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne Skype for Business Benutzer zuzulassen, wählen Sie im Dropdownmenü die Option **"An interne Skype for Business Benutzer** weiterleiten" aus. Anrufe werden nicht an externe PSTN-Nummern weitergeleitet.
+   - Um die Anrufweiterleitung und das gleichzeitige Klingeln nur für interne Skype for Business Benutzer zuzulassen, wählen Sie im Dropdownmenü die Option **"An interne Skype for Business Benutzer weiterleiten**" aus. Anrufe werden nicht an externe PSTN-Nummern weitergeleitet.
 
    - Um andere PSTN-Verwendungseinträge für die Anrufweiterleitung und für das gleichzeitige Klingeln wie für diese VoIP-Richtlinie anzugeben, wählen Sie aus dem Dropdownmenü die Option **Mithilfe benutzerdefinierter PSTN-Verwendung weiterleiten** aus. Mit dieser Option wird ein Steuerelement angezeigt, um vorhandene PSTN-Verwendungseinträge auszuwählen oder um neue PSTN-Verwendungseinträge speziell für die Anrufweiterleitung und für das gleichzeitige Klingeln zu erstellen.
 
@@ -154,7 +149,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde.
 
@@ -170,7 +165,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungsdatensatz markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde.
 
@@ -219,7 +214,7 @@ ms.locfileid: "60828378"
 
    - **Teamanruf** ermöglicht Benutzern in einem definierten Team die Annahme von Anrufen für andere Teammitglieder. Diese Option ist standardmäßig aktiviert.
 
-   - **Die PSTN-Umleitung** ermöglicht das Umleiten von Anrufen von Benutzern, denen diese Richtlinie zugewiesen ist, an andere Unternehmensbenutzer im PSTN, wenn das WAN überlastet oder nicht verfügbar ist. Diese Option ist standardmäßig aktiviert.
+   - **Die PSTN-Umleitung ermöglicht das Umleiten** von Anrufen von Benutzern, denen diese Richtlinie zugewiesen ist, an andere Unternehmensbenutzer im PSTN, wenn das WAN überlastet oder nicht verfügbar ist. Diese Option ist standardmäßig aktiviert.
 
    - **Die Außerkraftsetzung von Bandbreitenrichtlinien** ermöglicht Administratoren das Außerkraftsetzen von Cac-Richtlinienentscheidungen für einen bestimmten Benutzer. Diese Option ist standardmäßig deaktiviert.
 
@@ -249,7 +244,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde.
 
@@ -265,7 +260,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus diesem PSTN-Verwendungsdatensatz markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde.
 
@@ -303,7 +298,7 @@ ms.locfileid: "60828378"
 
    - Zum Entfernen einer Route aus dem PSTN-Verwendungsdatensatz markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+   - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
    - Markieren Sie die Route, und klicken Sie anschließend auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Ausführliche Informationen erhalten Sie im Abschnitt [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 
@@ -319,7 +314,7 @@ ms.locfileid: "60828378"
 
      - Zum Entfernen einer Route aus diesem PSTN-Verwendungsdatensatz markieren Sie die Route, und klicken Sie auf **Entfernen**.
 
-     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden Sie unter [Erstellen oder Ändern einer VoIP-Route in Skype for Business.](create-or-modify-a-voice-route.md)
+     - Klicken Sie auf **Neu**, um eine neue Route zu definieren und sie diesem PSTN-Verwendungsdatensatz zuzuordnen. Ausführliche Informationen finden [Sie unter Erstellen oder Ändern einer VoIP-Route in Skype for Business](create-or-modify-a-voice-route.md).
 
      - Markieren Sie die Route, und klicken Sie auf **Details anzeigen**, um eine Route zu bearbeiten, die diesem PSTN-Verwendungsdatensatz bereits zugeordnet wurde. Ausführliche Informationen finden Sie unter [Modify a Voice Route](/previous-versions/office/lync-server-2013/lync-server-2013-modify-a-voice-route).
 

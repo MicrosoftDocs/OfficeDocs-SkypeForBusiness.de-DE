@@ -1,25 +1,20 @@
 ---
 title: Sicherheitsframework für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01131e28-b38e-40d9-8524-06725b9c6608
-description: Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zum Sichern Ihrer bestimmten Skype for Business Server Bereitstellung zu treffen.
-ms.openlocfilehash: 9b0947e488987df7e0250bef7ba0c59d1980c5a3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834041"
+description: 'Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zum Sichern Ihrer bestimmten Skype for Business Server Bereitstellung zu treffen.'
 ---
+
 # <a name="security-framework-for-skype-for-business-server"></a>Sicherheitsframework für Skype for Business Server
  
 Dieser Abschnitt bietet eine Übersicht über die grundlegenden Elemente, die das Sicherheitsframework für Skype for Business Server bilden. Das Verständnis, wie diese Elemente zusammenarbeiten, ist wichtig, um fundierte Entscheidungen zum Sichern Ihrer bestimmten Skype for Business Server Bereitstellung zu treffen.
@@ -28,7 +23,7 @@ Folgende Komponenten sind beteiligt:
   
 - Die Active Directory-Domänendienste (AD DS) bieten ein zentrales vertrauenswürdiges Back-End-Repository für Benutzerkonten und Netzwerkressourcen.
     
-- Role-Based Zugriffssteuerung (Access Control, RBAC) ermöglicht es Ihnen, administrative Aufgaben zu delegieren und gleichzeitig hohe Sicherheitsstandards zu gewährleisten.
+- Role-Based Zugriffssteuerung (Access Control, RBAC) können Sie administrative Aufgaben delegieren und gleichzeitig hohe Sicherheitsstandards beibehalten.
     
 - Public Key Infrastructure (PKI) verwendet Zertifikate, die von vertrauenswürdigen Zertifizierungsstellen (CAs) ausgestellt wurden, um Server zu authentifizieren und die Datenintegrität sicherzustellen.
     

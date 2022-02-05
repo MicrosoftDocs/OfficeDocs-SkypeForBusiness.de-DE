@@ -1,26 +1,21 @@
 ---
 title: Anzeigen von Netzwerkschnittstelleninformationen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Sie können Informationen zur Netzwerkschnittstelle mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkInterface anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen.
-ms.openlocfilehash: 6031b1548b5c6d4fb83f9392a59f742bed98d9a4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838577"
+description: 'Sie können Informationen zur Netzwerkschnittstelle anzeigen, indem Sie Windows PowerShell und das Cmdlet Get-CsNetworkInterface verwenden. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen.'
 ---
+
 # <a name="viewing-network-interface-information-in-skype-for-business-server"></a>Anzeigen von Netzwerkschnittstelleninformationen in Skype for Business Server
 
-Sie können Informationen zur Netzwerkschnittstelle anzeigen, indem Sie Windows PowerShell und das Cmdlet **"Get-CsNetworkInterface"** verwenden. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen.
+Sie können Informationen zur Netzwerkschnittstelle anzeigen, indem Sie Windows PowerShell und das Cmdlet **"Get-CsNetworkInterface**" verwenden. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen.
 
 ## <a name="to-view-network-interface-information"></a>So zeigen Sie Netzwerkschnittstelleninformationen an
 
@@ -42,4 +37,4 @@ ConfiguredIPAddress   :
 ConfiguredIPv6Address :
 ```
 
-Ausführliche Informationen finden Sie unter ["Get-CsNetworkInterface".](/powershell/module/skype/Get-CsNetworkInterface)
+Ausführliche Informationen finden Sie unter ["Get-CsNetworkInterface"](/powershell/module/skype/Get-CsNetworkInterface).

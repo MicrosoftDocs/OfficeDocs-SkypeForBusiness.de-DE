@@ -1,31 +1,26 @@
 ---
 title: VoIP-Komponenten des Front-End-Servers für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 310e81a7-da45-47d4-95d0-92837e386502
-description: Erfahren Sie mehr über die Enterprise-VoIP Komponenten, die sich auf Front-End-Servern in Skype for Business Server befinden, einschließlich Übersetzungsdienst und verschiedener Routingkomponenten.
-ms.openlocfilehash: d649185ccc83da925cc7341087d373d67523b5b6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850728"
+description: 'Erfahren Sie mehr über die Enterprise-VoIP Komponenten, die sich auf Front-End-Servern in Skype for Business Server befinden, einschließlich des Übersetzungsdiensts und verschiedener Routingkomponenten.'
 ---
+
 # <a name="front-end-server-voip-components-for-skype-for-business-server"></a>VoIP-Komponenten des Front-End-Servers für Skype for Business Server
 
-Erfahren Sie mehr über die Enterprise-VoIP Komponenten, die sich auf Front-End-Servern in Skype for Business Server befinden, einschließlich Übersetzungsdienst und verschiedener Routingkomponenten.
+Erfahren Sie mehr über die Enterprise-VoIP Komponenten, die sich auf Front-End-Servern in Skype for Business Server befinden, einschließlich des Übersetzungsdiensts und verschiedener Routingkomponenten.
 
 Die VoIP-Komponenten, die sich auf Front-End-Servern befinden, sind wie folgt:
 
@@ -59,7 +54,7 @@ Die Ausgangsroutingkomponente verwendet eine Routinglogik, die größtenteils vo
 
 Die Exchange UM-Routingkomponente übernimmt das Routing zwischen Skype for Business Server und Servern, auf denen Exchange Unified Messaging (UM) ausgeführt wird, um Skype for Business Server in Unified Messaging-Features zu integrieren.
 
-Die Exchange UM-Routingkomponente übernimmt auch das Umleiten von Voicemail über das PSTN, wenn Exchange UM-Server nicht verfügbar sind. Wenn Sie über Enterprise-VoIP Benutzer an Zweigstellenstandorten verfügen, die keine ausfallsichere WAN-Verbindung mit einem zentralen Standort haben, bietet die Survivable Branch Appliance, die Sie am Zweigstellenstandort bereitstellen, während eines WAN-Ausfalls eine Voicemail-Survivability für Zweigstellenbenutzer. Wenn die WAN-Verbindung nicht verfügbar ist, führt die Survivable Branch Appliance folgende Aufgaben aus:
+Die Exchange UM-Routingkomponente übernimmt auch das Umleiten von Voicemail über das PSTN, wenn Exchange UM-Server nicht verfügbar sind. Wenn Sie über Enterprise-VoIP Benutzer an Zweigstellenstandorten verfügen, die nicht über eine ausfallsichere WAN-Verbindung zu einem zentralen Standort verfügen, bietet die Survivable Branch Appliance, die Sie am Zweigstellenstandort bereitstellen, während eines WAN-Ausfalls eine Voicemail-Survivability für Zweigstellenbenutzer. Wenn die WAN-Verbindung nicht verfügbar ist, führt die Survivable Branch Appliance folgende Aufgaben aus:
 
 - Nicht beantwortete Anrufe werden über das Telefonfestnetz an den Exchange Unified Messaging-Server am zentralen Standort weitergeleitet
 
@@ -67,7 +62,7 @@ Die Exchange UM-Routingkomponente übernimmt auch das Umleiten von Voicemail üb
 
 - Benachrichtigungen zu verpassten Anrufen werden in einer Warteschlange platziert und auf den Exchange UM-Server hochgeladen, wenn die WAN-Verbindung wieder verfügbar ist
 
-Um die Voicemailumrouting zu aktivieren, empfehlen wir, dass Ihr Exchange-Administrator Exchange automatische UM-Telefonzentrale (AA) so konfiguriert, dass nur Nachrichten akzeptiert werden.
+Um voicemailumrouting zu aktivieren, empfehlen wir, dass Ihr Exchange-Administrator Exchange automatische UM-Telefonzentrale (AA) so konfiguriert, dass nur Nachrichten akzeptiert werden.
 
 Ausführliche Informationen zu diesen Features finden Sie unter [On-Premises Exchange Unified Messaging Integration](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-exchange-unified-messaging-integration) bzw. [Planning for Enterprise Voice Resiliency](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-enterprise-voice-resiliency).
 

@@ -1,24 +1,19 @@
 ---
-title: Skype for Business ServerModify-SIP-Trunkkonfigurationseinstellungen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype for Business ServerModify SIP-Trunkkonfigurationseinstellungen
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'SIP-Trunkkonfigurationseinstellungen definieren die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem Telefonnetzwerkgateway, einer IP-Nebenstellenanlage (Public Branch Exchange, PBX) oder einem Session Border Controller (SBC) beim Dienstanbieter. '
-ms.openlocfilehash: 0f856c83d6f521308343b626addc0ab2c5e16792
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829929"
 ---
-# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business ServerModify-SIP-Trunkkonfigurationseinstellungen
+
+# <a name="skype-for-business-servermodify-sip-trunk-configuration-settings"></a>Skype for Business ServerModify SIP-Trunkkonfigurationseinstellungen
 
 Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert. Mit diesen Einstellungen kann Folgendes angegeben werden:
 
@@ -35,7 +30,7 @@ Beim Ändern der SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Bus
 |Name|Identität|Eindeutige ID für die Sammlung. Diese Eigenschaft ist schreibgeschützt. Sie können die Identität einer Sammlung an Trunkkonfigurationseinstellungen nicht ändern.|
 |Beschreibung|Beschreibung|Bietet Administratoren eine Möglichkeit, zusätzliche Informationen zu den Einstellungen zu speichern (z. B. Zweck der Trunkkonfiguration).|
 |Maximal unterstützte frühe Dialoge|MaxEarlyDialogs|Die maximale Anzahl von gegabelten Antworten, die ein PSTN-Gateway, eine IP-Nebenstellenanlage oder ein SBC (Session Border Controller) des Dienstanbieters auf an den Vermittlungsserver gesendete Einladungen empfangen kann.|
-|Unterstützte Verschlüsselungsstufe|SRTPMode|Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung "EncryptionLevel" in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mithilfe der Cmdlets New-CsMediaConfiguration und Set-CsMediaConfiguration festgelegt.<br/>Gültige Werte sind:<br/><br/>**Erforderlich:** DIE SRTP-Verschlüsselung muss verwendet werden.<br/>**Optional:** SRTP wird verwendet, wenn es vom Gateway unterstützt wird.<br/>**Nicht unterstützt:** DIE SRTP-Verschlüsselung wird nicht unterstützt und wird daher nicht verwendet.<br/><br/>"SRTPMode" wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird "SRTPMode" intern auf "Not Supported" festgelegt.|
+|Unterstützte Verschlüsselungsstufe|SRTPMode|Legt den Umfang der Unterstützung zum Schutz von Mediendatenverkehr zwischen dem Vermittlungsserver und dem PSTN-Gateway, der IP-Nebenstellenanlage oder dem SBC (Session Border Controller) des Dienstanbieters fest. Bei der Medienumgehung muss dieser Wert mit der Einstellung "EncryptionLevel" in der Medienkonfiguration kompatibel sein. Die Medienkonfiguration wird mithilfe der Cmdlets New-CsMediaConfiguration und Set-CsMediaConfiguration festgelegt.<br/>Gültige Werte sind:<br/><br/>**Erforderlich**: Die SRTP-Verschlüsselung muss verwendet werden.<br/>**Optional**: SRTP wird verwendet, wenn es vom Gateway unterstützt wird.<br/>**Nicht unterstützt**: Die SRTP-Verschlüsselung wird nicht unterstützt und wird daher nicht verwendet.<br/><br/>"SRTPMode" wird nur verwendet, wenn das Gateway zur Verwendung von TLS (Transport Layer Security) konfiguriert ist. Wenn das Gateway mit dem Transportprotokoll TCP (Transmission Control Protocol) konfiguriert ist, wird "SRTPMode" intern auf "Not Supported" festgelegt.|
 |Support melden|Enable3pccRefer<br/>EnableReferSupport|Mit der Einstellung **Refer-Anforderungen an das Gateway senden** unterstützt der Trunk den Empfang von Refer-Anforderungen vom Vermittlungsserver.<br/>Mit der Einstellung **Refer-Anforderungen mit 3pcc senden** kann das 3pcc-Protokoll verwendet werden, damit weitergeleitete Anrufe den gehosteten Standort umgehen können. 3pcc ist auch unter dem Namen "Third Party Call Control" bekannt und tritt auf, wenn ein Drittanbieter verwendet wird, um zwei Anrufer miteinander zu verbinden (z. B. wenn ein Anruf von Person A an Person B über eine Telefonzentrale durchgestellt wird).|
 |Medienumgehung aktivieren|EnableBypass|Gibt an, ob die Medienumgehung für diesen Trunk aktiviert ist. Die Medienumgehung kann nur aktiviert werden, wenn auch **Zentrale Medienverarbeitung** aktiviert ist.|
 |Zentrale Medienverarbeitung|1000000000|Gibt an, ob ein bekannter Medienendpunkt vorhanden ist. (Ein Beispiel für einen bekannten Medienendpunkt ist ein PSTN-Gateway, bei dem der Medienendpunkt die gleiche IP-Adresse hat wie der Signaldatenverkehr-Endpunkt.)|
@@ -49,17 +44,17 @@ Beim Ändern der SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Bus
 |Übersetzungsregeln für angerufene Nummern|OutboundCallingNumberTranslationRulesList|Sammlung an Regeln für die Nummernübersetzung für ausgehende Anrufe, die dem Trunk zugewiesen sind.|
 |Testtelefonnummer|Nicht zutreffend|Eine Telefonnummer, die für Ad-hoc-Tests der Übersetzungsregeln verwendet werden kann.|
 |Anrufende Nummer|Nicht zutreffend|Gibt an, dass die zu testende Telefonnummer die Telefonnummer des Anrufers ist.|
-|Angerufene Nummer|Nicht zutreffend|Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.|
+|Angerufene Nummer|N/V|Gibt an, dass die zu testende Telefonnummer die Telefonnummer der Person ist, die angerufen wird.|
 |||
 
 > [!Note]
-> Die cmdlets Skype for Business Server CsTrunkConfiguration unterstützen zusätzliche Eigenschaften, die nicht in der Skype for Business Server Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsTrunkConfiguration".](/powershell/module/skype/Set-CsTrunkConfiguration) 
+> Die Skype for Business Server CsTrunkConfiguration-Cmdlets unterstützen zusätzliche Eigenschaften, die nicht in der Skype for Business Server Systemsteuerung angezeigt werden. Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsTrunkConfiguration](/powershell/module/skype/Set-CsTrunkConfiguration) ". 
 
 **So ändern Sie die SIP-Trunkkonfigurationseinstellungen mithilfe der Skype for Business Server Systemsteuerung**
 
-1. Klicken Sie in der Skype for Business Server Systemsteuerung auf **VoIP-Routing** und dann auf **Trunkkonfiguration.**
+1. Klicken Sie in der Skype for Business Server Systemsteuerung auf **VoIP-Routing** und dann auf **Trunkkonfiguration**.
 2. Doppelklicken Sie auf der Registerkarte **Trunkkonfiguration** auf die Trunkkonfigurationseinstellungen, die Sie ändern möchten. Beachten Sie, dass Sie immer nur eine Einstellung bearbeiten können. Wenn Sie die gleichen Änderungen an mehreren Sammlungen vornehmen möchten, verwenden Sie Windows PowerShell.
-3. Treffen Sie im Dialogfeld **Trunkkonfiguration bearbeiten** die entsprechende Auswahl, und klicken Sie dann auf **"OK".**
-4. Die Eigenschaft State für die Auflistung wird in Commit nicht ausgeführt aktualisiert. Klicken Sie zum Übernehmen der Änderungen und zum Löschen der Auflistung auf **"Commit ausführen"** und dann auf **"Commit für alle"**.
-5. Klicken Sie im Dialogfeld **"VoIP-Konfigurationseinstellung ohne Commit"** auf **"OK".**
-6. Klicken Sie im Dialogfeld **Skype for Business Server Systemsteuerung** auf **OK.**
+3. **Treffen Sie im Dialogfeld Trunkkonfiguration bearbeiten** die entsprechende Auswahl, und klicken Sie dann auf **"OK**".
+4. Die Eigenschaft State für die Auflistung wird in Commit nicht ausgeführt aktualisiert. Um die Änderungen zu übernehmen und die Sammlung zu löschen, klicken Sie auf **"Commit ausführen**" und dann auf **"Alle übernehmen"**.
+5. Klicken Sie im Dialogfeld " **VoIP-Konfigurationseinstellungen ohne Commit**" auf **"OK**".
+6. Klicken Sie im Dialogfeld **Skype for Business Server Systemsteuerung** auf **OK**.

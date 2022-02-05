@@ -1,27 +1,22 @@
 ---
 title: Verwalten von SIP-Partnerdomänen für eine Organisation
-ms.reviewer: ''
-ms:assetid: abc48829-e5cf-4651-bc38-899192f5c3bc
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)
-ms:contentKeyID: 48679565
+ms.reviewer: null
+'ms:assetid': abc48829-e5cf-4651-bc38-899192f5c3bc
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ552454(v=OCS.15)'
+'ms:contentKeyID': 48679565
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Erfahren Sie, wie Sie SIP-Domänen verwalten und konfigurieren, mit denen Sie einen Verbund herstellen können,
-ms.openlocfilehash: b50da7b95bab938a3b5026ce859f423f8a2718a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836357"
+description: 'Erfahren Sie, wie Sie SIP-Domänen verwalten und konfigurieren, mit denen Sie einen Verbund herstellen können,'
 ---
+
 # <a name="manage-sip-federated-domains-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Verbunddomänen für Ihre Organisation in Skype for Business Server
 
 
@@ -36,7 +31,7 @@ Wenn Sie SIP-Domänen verwalten und konfigurieren möchten, mit denen Sie einen 
 Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche spezifischen Domänen einen Partnerverbund mit Ihrer Organisation eingehen können. Konfigurieren Sie eine oder mehrere spezifische externe Domänen als zulässige Partnerdomänen. Fügen Sie hierzu jede Domäne der Liste zulässiger Domänen hinzu. Selbst wenn die Suche von Verbundpartnern für Ihre Organisation aktiviert ist, führen Sie diesen Schritt aus, wenn es sich bei der Domäne um einen Verbundpartner handelt, der mit mehr als 1.000 Ihrer Benutzer kommunizieren oder mehr als 20 Nachrichten pro Sekunde senden muss. Ist die Suche von Verbundpartnern für Ihre Organisation nicht aktiviert, können nur Benutzer aus externen Domänen am Instant Messaging und an Konferenzen mit Benutzern Ihrer Organisation teilnehmen, die Sie der Liste zulässiger Domänen hinzugefügt haben. Wenn Sie den Zugriff einer Partnerdomäne auf einen bestimmten Server beschränken möchten, auf dem der Zugriffs-Edgedienst des Verbundpartners ausgeführt wird, können Sie für jede Domäne in der Liste zulässiger Domänen den Domänennamen des Servers angeben, auf dem der Zugriffs-Edgedienst ausgeführt wird.
 
 > [!NOTE]  
-> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren. Die Implementierung der Unterstützung für Verbundbenutzer erfordert jedoch auch, dass Sie die Unterstützung für Verbundbenutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer mit Verbundbenutzern zusammenarbeiten können. Ausführliche Informationen zum Aktivieren der Unterstützung für Verbundbenutzer finden Sie unter Aktivieren oder Deaktivieren des [Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md) Ausführliche Informationen zum Konfigurieren von Richtlinien zum Steuern des Partnerverbunds finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
+> In diesem Verfahren wird beschrieben, wie Sie die Unterstützung für bestimmte Domänen konfigurieren. Die Implementierung der Unterstützung für Verbundbenutzer erfordert jedoch auch, dass Sie die Unterstützung für Verbundbenutzer für Ihre Organisation aktivieren und Richtlinien konfigurieren und anwenden, um zu steuern, welche Benutzer mit Verbundbenutzern zusammenarbeiten können. Ausführliche Informationen zum Aktivieren der Unterstützung für Verbundbenutzer finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md). Ausführliche Informationen zum Konfigurieren von Richtlinien zum Steuern des Partnerverbunds finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Benutzerzugriffs mit Verbundbenutzern](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 ### <a name="to-add-an-external-domain-to-the-list-of-allowed-domains"></a>So fügen Sie eine externe Domäne der Liste zulässiger Domänen hinzu
 
@@ -57,13 +52,13 @@ Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie 
 6.  Klicken Sie auf **Commit**.
 7.  Wiederholen Sie die Schritte 4 bis 6 für jede Verbundpartnerdomäne, die Sie zulassen möchten.
 
-Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerbenutzerzugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md)
+Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerbenutzerzugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md).
 
-Zusätzlich müssen Sie die Richtlinie konfigurieren und auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
+Zusätzlich müssen Sie die Richtlinie konfigurieren und auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 ## <a name="configure-support-for-blocked-external-domains-in-skype-for-business-server"></a>Konfigurieren der Unterstützung für blockierte externe Domänen in Skype for Business Server 
 
-Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche Domänen am Verbund mit Ihrer Organisation gehindert werden. Die Liste der blockierten Domänen fungiert als Sperrliste (Liste der expliziten Einträge, die nicht zulässig sind) und wird in der Partnerdomänenermittlung angewendet, wenn Sie diese Option aktiviert haben. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern.](../access-edge/enable-or-disable-discovery-of-federation-partners.md)
+Wenn Sie die Unterstützung für Verbundpartner konfiguriert haben, können Sie verwalten, welche Domänen am Verbund mit Ihrer Organisation gehindert werden. Die Liste der blockierten Domänen fungiert als Sperrliste (Liste der expliziten Einträge, die nicht zulässig sind) und wird in der Partnerdomänenermittlung angewendet, wenn Sie diese Option aktiviert haben. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren der Ermittlung von Verbundpartnern](../access-edge/enable-or-disable-discovery-of-federation-partners.md).
 
 Blockieren Sie eine oder mehrere externe Domänen vom Herstellen einer Verbindung mit Ihrer Organisation. Fügen Sie hierzu die Domäne der Liste blockierter Domänen hinzu.
 
@@ -86,9 +81,9 @@ Blockieren Sie eine oder mehrere externe Domänen vom Herstellen einer Verbindun
 6.  Klicken Sie auf **Commit**.
 7.  Wiederholen Sie die Schritte 4 bis 6 für jeden Verbundpartner, den Sie blockieren möchten.
 
-Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerbenutzerzugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md)
+Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerbenutzerzugriff in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md).
 
-Zusätzlich müssen Sie die Richtlinie konfigurieren und auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs.](../external-access-policies/configure-policies-to-control-federated-user-access.md)
+Zusätzlich müssen Sie die Richtlinie konfigurieren und auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs](../external-access-policies/configure-policies-to-control-federated-user-access.md).
 
 
 ## <a name="see-also"></a>Siehe auch

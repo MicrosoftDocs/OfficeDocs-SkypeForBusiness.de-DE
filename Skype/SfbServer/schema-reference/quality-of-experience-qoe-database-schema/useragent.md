@@ -1,25 +1,20 @@
 ---
 title: UserAgent-Tabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d6bda1c0-b053-457a-9ffa-2ae859788775
-description: Die UserAgent-Tabelle ist eine Unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.
-ms.openlocfilehash: 128d1c397376da7667b244e73efa2f1b77b56d37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834813"
+description: 'Die UserAgent-Tabelle ist eine Unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.'
 ---
+
 # <a name="useragent-table"></a>UserAgent-Tabelle
  
 Die UserAgent-Tabelle ist eine Unterstützende Tabelle, in der eine Liste der verschiedenen Benutzer-Agents gespeichert wird, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Benutzer-Agent dar.

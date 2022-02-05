@@ -1,27 +1,22 @@
 ---
 title: PSTN-Gatewayeinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewaySettingsExpander
+  - ms.lync.tb.PstnGatewaySettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0fd103df-150d-4ea8-b522-18dbc50f5061
 description: 'Um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern, ändern Sie die folgenden Felder:'
-ms.openlocfilehash: ce3b7801182659062f1c623b0266160af8de88c5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832189"
 ---
+
 # <a name="pstn-gateway-settings-expander"></a>PSTN-Gatewayeinstellungen – Erweiterung
  
 Um die Einstellungen für ein PSTN-Gateway (Public Switched Telephone Network) zu bearbeiten oder zu ändern, ändern Sie die folgenden Felder:

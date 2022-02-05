@@ -1,30 +1,25 @@
 ---
 title: Trunks – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunksScopeNode
+  - ms.lync.tb.TrunksScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4ee527fa-ebec-40a9-a6bf-0cabd098aaa9
 description: 'Klicken Sie im Topologie-Generator mit der rechten Maustaste auf Trunks, um Folgendes auszuführen:'
-ms.openlocfilehash: 2f7e4ba699f127a4eedd08ce9e364a210588fb1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848698"
 ---
+
 # <a name="trunks-scope-node"></a>Trunks – Bereichsknoten
  
-Klicken Sie im Topologie-Generator mit der rechten Maustaste auf **Trunks,** um Folgendes auszuführen:
+Klicken Sie im Topologie-Generator mit der rechten Maustaste auf **Trunks, um Folgendes** auszuführen:
   
 - **Neuer Trunk**: Starten den Assistenten **Neuen Trunk definieren**, um einen neuen SIP-Trunk zu definieren.
     

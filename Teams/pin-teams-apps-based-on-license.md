@@ -8,20 +8,15 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Teams-Apps für Benutzer in Ihrer Organisation basierend auf einer Lizenz anheften.
+description: 'Erfahren Sie, wie Teams-Apps für Benutzer in Ihrer Organisation basierend auf einer Lizenz anheften.'
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_FLW
+  - M365-collaboration
+  - Teams_ITAdmin_FLW
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 0486ca906fc7f66460e54e400541e5d5cbfc6dde
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/21/2022
-ms.locfileid: "62161034"
+  - Microsoft Teams
 ---
+
 # <a name="tailor-your-teams-apps-based-on-license"></a>Anpassen Ihrer Teams basierend auf einer Lizenz
 
 > [!NOTE]
@@ -32,7 +27,7 @@ ms.locfileid: "62161034"
 
 ## <a name="overview"></a>Übersicht
 
-Teams bietet eine Möglichkeit zum Anheften von Apps basierend auf einer Lizenz. Wenn sich ein Benutzer mit aktivierter Teams App-Erfahrung bei einem Konto an meldet, erhält der Benutzer eine App-Erfahrung, die auf seine Lizenz zugeschnitten ist.
+Teams bietet eine Möglichkeit zum Anheften von Apps basierend auf einer Lizenz. Wenn sich ein Benutzer mit aktivierter Teams App-Erfahrung bei einem Konto anknappt, erhält der Benutzer eine App-Erfahrung, die auf seine Lizenz zugeschnitten ist.
 
 Mit diesem Feature erhalten Benutzer die relevantesten Apps in Teams ohne eine vom Administrator benötigte Aktion.
 
@@ -51,16 +46,16 @@ Angeheftete Apps für Benutzer mit einer F-Lizenz:
 ## <a name="admin-controls"></a>Administratorsteuerelemente
 
 > [!NOTE]
-> Das Anheften von Benutzern muss in der globalen [](teams-app-setup-policies.md) (organisationsweiten Standard-)App-Setuprichtlinie aktiviert sein, damit dieses Feature wirksam wird.
+> Das Anheften von Benutzern muss in der globalen (organisationsweiten Standard [-)](teams-app-setup-policies.md) App-Setuprichtlinie aktiviert sein, damit dieses Feature wirksam wird.
 
-Das Feature "Maßgeschneiderte App  Teams-Erfahrung" wird im Admin Center [](manage-apps.md#manage-org-wide-app-settings) auf der Seite Apps verwalten durch die Einstellung Maßgeschneiderte Apps basierend auf Lizenzen anzeigen gesteuert. Wenn das Feature aktivieren, erhalten alle Benutzer in Ihrer Organisation, die über eine F-Lizenz verfügen, die maßgeschneiderte App-Erfahrung.
+Das Feature "Maßgeschneiderte App Teams-Erfahrung"  wird im Admin Center auf der Seite Apps verwalten durch die Einstellung Maßgeschneiderte [](manage-apps.md#manage-org-wide-app-settings) Apps basierend auf Lizenzen anzeigen gesteuert. Wenn das Feature aktivieren, erhalten alle Benutzer in Ihrer Organisation, die über eine F-Lizenz verfügen, die maßgeschneiderte App-Erfahrung.
 
-Beachten Sie, dass alle Benutzerdefinierten Richtlinien für die App-Einrichtung, die Benutzern zugewiesen sind, Vorrang haben. Wenn einem Benutzer also bereits eine benutzerdefinierte App-Setuprichtlinie zugewiesen ist, erhält der Benutzer die Konfiguration, die in der Benutzerdefinierten App-Setuprichtlinie definiert ist. Weitere Informationen zur Funktionsweise des Features mit vorhandenen App-Setuprichtlinien, die [](#scenarios) Sie in Ihrer Organisation angewendet haben, finden Sie im Abschnitt Szenarien in diesem Artikel.
+Beachten Sie, dass alle Benutzerdefinierten Richtlinien für die App-Einrichtung, die Benutzern zugewiesen sind, Vorrang haben. Wenn einem Benutzer also bereits eine benutzerdefinierte App-Setuprichtlinie zugewiesen ist, erhält der Benutzer die Konfiguration, die in der Benutzerdefinierten App-Setuprichtlinie definiert ist. Weitere Informationen zur Funktionsweise des Features mit vorhandenen App-Setuprichtlinien, die Sie in Ihrer Organisation angewendet haben, finden Sie [](#scenarios) im Abschnitt Szenarien in diesem Artikel.
 
 Diese Funktion ist standardmäßig aktiviert. Wenn Sie jedoch nicht möchten, dass die maßgeschneiderte App-Erfahrung von Microsoft bereitgestellt wird, können Sie das Feature deaktivieren. So aktivieren oder deaktivieren Sie das Feature:
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams Apps** Apps verwalten , und wählen Sie dann  >   **Organisationsweite App-Einstellungen aus.**
-2. Wechseln **Sie unter** Maßgeschneiderte Apps auf die Umschalte Maßgeschneiderte Apps basierend **auf** Lizenzen anzeigen auf **Aus** oder **Ein.**
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams AppsVer** >  dient zum Verwalten von Apps, und wählen Sie **dann Organisationsweite App-Einstellungen aus**.
+2. Schalten **Sie unter** Maßgeschneiderte Apps den Schalter Maßgeschneiderte Apps **basierend auf** Lizenzen anzeigen auf **Aus** oder **Ein**.
 
     :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Screenshot der Seite "Apps verwalten" mit der Einstellung "Maßgeschneiderte Apps basierend auf einer organisationsweiten Lizenz anzeigen"" lightbox="media/pin-teams-apps-based-on-license.png":::
 
@@ -79,7 +74,7 @@ Verwenden Sie die Informationen in dieser Tabelle, um zu erfahren, wie das Featu
 |Eine App für die angepasste App-Erfahrung ist bereits in einer App-Setuprichtlinie definiert, und das Feature ist ein. |Die App wird basierend auf der durch die angepasste App-Erfahrung definierten Reihenfolge angeheftet.        |
 
 > [!NOTE]
-> Sie können die Apps oder die Reihenfolge von Apps nicht in der angepassten App-Erfahrung ändern. Wenn Sie Änderungen vornehmen möchten, können Sie vorerst eine eigene benutzerdefinierte Benutzerdefinierte Einrichten. Deaktivieren Sie dazu zuerst das Feature. Erstellen Sie dann [eine benutzerdefinierte App-Setuprichtlinie](teams-app-setup-policies.md), und weisen [Sie sie Benutzern oder Gruppen zu.](assign-policies-users-and-groups.md)
+> Sie können die Apps oder die Reihenfolge von Apps nicht in der angepassten App-Erfahrung ändern. Wenn Sie Änderungen vornehmen möchten, können Sie vorerst eine eigene benutzerdefinierte Benutzerdefinierte Einrichten. Deaktivieren Sie dazu zuerst das Feature. Erstellen Sie dann [eine benutzerdefinierte App-Setuprichtlinie](teams-app-setup-policies.md), und weisen [Sie sie Benutzern oder Gruppen zu](assign-policies-users-and-groups.md).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

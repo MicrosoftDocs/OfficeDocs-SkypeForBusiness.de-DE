@@ -1,27 +1,22 @@
 ---
 title: Trendbericht über Medienqualität des Servers in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8a51fd13-1487-4632-b5ec-f7ae2abe8ed4
-description: 'Zusammenfassung: Erfahren Sie mehr über den Trendbericht zur Medienqualität des Servers in Skype for Business Server.'
-ms.openlocfilehash: 03091deedf502c4a6d9d65dc5e9f14532a9147ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851018"
+description: 'Zusammenfassung: Erfahren Sie mehr über den Trendbericht über Medienqualität des Servers in Skype for Business Server.'
 ---
+
 # <a name="server-media-quality-trend-report-in-skype-for-business-server"></a>Trendbericht über Medienqualität des Servers in Skype for Business Server
  
-**Zusammenfassung:** Erfahren Sie mehr über den Trendbericht zur Medienqualität des Servers in Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Trendbericht über Medienqualität des Servers in Skype for Business Server.
   
 Der Trendbericht über Medienqualität des Servers bietet Ihnen die Möglichkeit, bis zu fünf Server mit QoE-Metriken wie Anrufvolumen, Prozentsatz schlechter Anrufe, Paketverlust und Jitter grafisch zu vergleichen. Dies erleichtert die Identifizierung von Servern mit schlechter Leistung, die Identifizierung von Servern, die nicht ausgelastet sind, oder die Identifizierung von Servern, die überlastet sind.
   
@@ -53,7 +48,7 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 |**Servertyp** <br/> | Typ des Servers, der an dem Anruf beteiligt ist. Gültige Werte sind: <br/>  Vermittlungsserver <br/>  A/V-Konferenzserver <br/>  A/V-Edgeserver <br/>  Gateway (Vermittlungsserver) <br/>  Gateway (Umgehung des Vermittlungsservers) <br/>  AS-Konferenzserver <br/> |
 |**Server** <br/> |Name des servers, der an der Sitzung beteiligt ist; Diese Dropdownliste wird basierend auf dem Wert des Servertypfilters automatisch ausgefüllt. Sie können beim Kompilieren eines Berichts bis zu 5 verschiedene Server auswählen.  <br/> |
 |**Zugriffstyp** <br/> | Gibt an, ob der Teilnehmer am internen oder am externen Netzwerk angemeldet war. Gültige Werte sind: <br/>  [Alle] <br/>  Intern <br/>  Extern <br/> |
-|**Netzwerktyp** <br/> | Gibt den Netzwerktyp an, mit dem der Teilnehmer verbunden war. Gültige Werte sind: <br/>  [Alle] <br/>  Wired <br/>  Wireless <br/> |
+|**Netzwerktyp** <br/> | Gibt den Netzwerktyp an, mit dem der Teilnehmer verbunden war. Gültige Werte sind: <br/>  [Alle] <br/>  Wired <br/>  Drahtlos <br/> |
 |**VPN** <br/> | Gibt an, ob ein externer Teilnehmer während der Sitzung eine VPN-Verbindung (Virtual Private Network) verwendet hat. Gültige Werte sind: <br/>  [Alle] <br/>  VPN <br/>  Nicht-VPN <br/> |
    
 ## <a name="metrics"></a>Metriken

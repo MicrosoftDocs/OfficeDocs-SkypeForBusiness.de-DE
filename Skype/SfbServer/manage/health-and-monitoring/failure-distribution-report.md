@@ -1,25 +1,20 @@
 ---
-title: Fehlerverteilungsbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Bericht über Fehlerverteilung in Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 365c7beb-24d4-40f5-92e7-4978b9688916
-description: 'Zusammenfassung: Erfahren Sie mehr über den Fehlerverteilungsbericht in Skype for Business Server.'
-ms.openlocfilehash: e8ebf3ccbb14b46c862d03f328fdbb327af51992
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847238"
+description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Fehlerverteilung in Skype for Business Server.'
 ---
-# <a name="failure-distribution-report-in-skype-for-business-server"></a>Fehlerverteilungsbericht in Skype for Business Server
+
+# <a name="failure-distribution-report-in-skype-for-business-server"></a>Bericht über Fehlerverteilung in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über Fehlerverteilung in Skype for Business Server.
   
@@ -53,7 +48,7 @@ Sie können auf den Bericht über Fehlerverteilung von einem beliebigen der folg
     
 - [Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)
     
-Im Bericht über Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [Fehlerlistenbericht in Skype for Business Server](failure-list-report.md)anzuzeigen:
+Im Bericht über Fehlerverteilung können Sie auf eine der folgenden Metriken klicken, um den [Fehlerlistenbericht in Skype for Business Server](failure-list-report.md) anzuzeigen:
   
 - Häufigste Diagnosegründe (Sitzungen)
     

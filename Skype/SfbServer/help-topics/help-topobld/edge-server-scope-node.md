@@ -1,27 +1,22 @@
 ---
 title: Edgeserver – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeServerScopeNode
+  - ms.lync.tb.EdgeServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f597f6f-c55c-4290-a1cf-3efcc0adfb99
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 95c3e14b0e927859f5421a9f01cfe6b3da781b7a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827648"
 ---
+
 # <a name="edge-server-scope-node"></a>Edgeserver – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und andere grundlegende Einstellungen dieses Edgepools. Folgende Möglichkeiten stehen zur Verfügung:

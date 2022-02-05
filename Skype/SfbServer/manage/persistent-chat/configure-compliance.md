@@ -1,25 +1,20 @@
 ---
 title: Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 1/31/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 24e36ea3-fb8a-45a4-b6b7-38c2e256b218
-description: 'Zusammenfassung: Erfahren Sie, wie Sie den Kompatibilitätsdienst für den Server für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
-ms.openlocfilehash: 23f28c2071063e2729deb54eea9703a7699e3e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858242"
+description: 'Zusammenfassung: Erfahren Sie, wie Sie den Serverkompatibilitätsdienst für beständigen Chat in Skype for Business Server 2015 konfigurieren.'
 ---
+
 # <a name="configure-the-compliance-service-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Konfigurieren des Kompatibilitätsdiensts für den Server für beständigen Chat in Skype for Business Server 2015
 
 **Zusammenfassung:** Erfahren Sie, wie Sie den Serverkompatibilitätsdienst für beständigen Chat in Skype for Business Server 2015 konfigurieren.
@@ -41,11 +36,11 @@ Mit der Kompatibilität für beständigen Chat können Administratoren ein Archi
 Diese Informationen können bei Bedarf aus der Compliance-SQL-Datenbank abgerufen werden. 
 
 > [!NOTE]
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade](/microsoftteams/upgrade-start-here)". Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
 
 ## <a name="configure-the-compliance-service-by-using-windows-powershell"></a>Konfigurieren des Compliancediensts mithilfe von Windows PowerShell
 
-Nachdem der Kompatibilitätsdienst mithilfe des Topologie-Generators aktiviert wurde, können Sie den Dienst mithilfe des Cmdlets **"Set-CsPersistenChatComplianceConfiguration"** konfigurieren:
+Nachdem der Kompatibilitätsdienst mithilfe des Topologie-Generators aktiviert wurde, können Sie den Dienst mithilfe des Cmdlets **"Set-CsPersistenChatComplianceConfiguration** " konfigurieren:
 
 ```PowerShell
 Set-CsPersistentChatComplianceConfiguration [-Identity <XdsIdentity>] <COMMON PARAMETERS>
@@ -75,7 +70,7 @@ Sie können die folgenden Parameter festlegen:
 
 Sie können einen benutzerdefinierten Adapter schreiben, anstatt den XmlAdapter zu verwenden, der mit dem Server für beständigen Chat installiert ist. Hierzu müssen Sie eine .NET Framework-Assembly bereitstellen, die eine öffentliche Klasse enthält, die die **IComplianceAdapter**-Schnittstelle implementiert. Sie müssen diese Assembly im Installationsordner des Servers für beständigen Chat auf jedem Server in Ihrem Serverpool für beständigen Chat platzieren. Jeder der Konformitätsserver kann Konformitätsdaten für Ihren Adapter bereitstellen, aber die Konformitätsserver stellen keine doppelten Konformitätsdaten für mehrere Instanzen des Adapters bereit.
 
-Die Schnittstelle wird in der Compliance.dll Assembly im Namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance` definiert. Die Schnittstelle definiert zwei Methoden, die der benutzerdefinierte Adapter implementieren muss.
+Die Schnittstelle wird in der Compliance.dll Assembly im Namespace  `Microsoft.Rtc.Internal.Chat.Server.Compliance`definiert. Die Schnittstelle definiert zwei Methoden, die der benutzerdefinierte Adapter implementieren muss.
 
 Der Kompatibilitätsserver für beständigen Chat ruft beim ersten Laden des Adapters die folgende Methode auf. Enthält  `AdapterConfig` die Kompatibilitätskonfiguration für beständigen Chat, die für den Kompatibilitätsadapter relevant ist:
 
@@ -150,7 +145,7 @@ Jedes "Sender"-Element enthält fünf Attribute: "user name", "ID", "email", "i
 |:-----|:-----|:-----|
 |Benutzername  <br/> |Der Name des Absenders.  <br/> |Optional  <br/> |
 |ID  <br/> |Die eindeutige ID des Absenders.  <br/> |Erforderlich  <br/> |
-|E-Mails  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
+|E-Mail  <br/> |Die E-Mail-Adresse des Absenders.  <br/> |Optional  <br/> |
 |Intern  <br/> |Gibt an, ob es sich um einen internen Benutzer oder einen Verbundbenutzer handelt. Bei Festlegung des Werts auf "true"  (wahr) ist der Benutzer intern.  <br/> |Optional  <br/> |
 |Uri  <br/> |Der SIP-URI des Benutzers.  <br/> |Erforderlich  <br/> |
 

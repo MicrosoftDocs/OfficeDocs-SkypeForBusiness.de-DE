@@ -7,21 +7,16 @@ ms.topic: article
 audience: admin
 ms.service: msteams
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.reviewer: anwara
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.
+description: 'Erfahren Sie, wie Sie Microsoft Teams-Daten aus dem Überwachungsprotokoll im Microsoft 365 Compliance Center abrufen können.'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 7eec47d0ed2d2a299c930edee2e849c8eb20b8db
-ms.sourcegitcommit: 848e462c4f0c94548d3f90f28fb1c69a9bce64be
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/28/2021
-ms.locfileid: "61620489"
+  - Microsoft Teams
 ---
+
 # <a name="search-the-audit-log-for-events-in-microsoft-teams"></a>Durchsuchen des Überwachungsprotokolls nach Ereignissen in Microsoft Teams
 
 > [!IMPORTANT]
@@ -35,27 +30,27 @@ Mithilfe des Überwachungsprotokolls können Sie bestimmte Aktivitäten in allen
 - Kanal gelöscht
 - Kanaleinstellung geändert
 
-Eine vollständige Liste der Teams überwachten Aktivitäten finden [](#teams-activities) Sie unter Teams und Schichten in Teams [Aktivitäten.](#shifts-in-teams-activities)
+Eine vollständige Liste der Teams überwachten Aktivitäten finden Sie unter Teams und Schichten in Teams [](#teams-activities) [Aktivitäten](#shifts-in-teams-activities).
 
 > [!NOTE]
 > Überwachungsereignisse aus privaten Kanälen werden ebenfalls protokolliert, wenn sie Teams und Standardkanäle betreffen.
 
 ## <a name="turn-on-auditing-in-teams"></a>Aktivieren der Überwachung in Microsoft Teams
 
-Bevor Sie sich Überwachungsdaten anschauen können, müssen Sie zuerst die Überwachung im Microsoft 365 Compliance Center. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Überwachung.](/microsoft-365/compliance/turn-audit-log-search-on-or-off)
+Bevor Sie sich die Überwachungsdaten anschauen können, müssen Sie zuerst die Überwachung im Microsoft 365 Compliance Center. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren der Überwachung](/microsoft-365/compliance/turn-audit-log-search-on-or-off).
 
 > [!IMPORTANT]
 > Überwachungsdaten sind erst ab dem Zeitpunkt verfügbar, an dem Sie die Überwachung aktiviert haben.
 
 ## <a name="retrieve-teams-data-from-the-audit-log"></a>Abrufen von Microsoft Teams-Daten aus dem Überwachungsprotokoll
 
-1. Um Überwachungsprotokolle für Teams abzurufen, wechseln Sie zu <https://compliance.microsoft.com> , und wählen Sie Überwachung **aus.**
+1. Um Überwachungsprotokolle für Teams abzurufen, wechseln Sie zu <https://compliance.microsoft.com> , und wählen Sie **Überwachung aus**.
 
 2. Filtern Sie **auf der** Seite Suche die Aktivitäten, Daten und Benutzer, die überwacht werden soll.
 
 3. Exportieren Sie die Ergebnisse zur weiteren Analyse nach Excel.
 
-Eine schrittweise Anleitung finden Sie unter [Durchsuchen des Überwachungsprotokolls im Compliance Center.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log)
+Eine schrittweise Anleitung finden Sie unter [Durchsuchen des Überwachungsprotokolls im Compliance Center](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#search-the-audit-log).
 
 > [!IMPORTANT]
 > Überwachungsdaten sind nur dann im Überwachungsprotokoll sichtbar, wenn die Überwachung aktiviert ist.
@@ -74,9 +69,9 @@ Nachstehend finden Sie Tipps für die Suche nach Microsoft Teams-Aktivitäten im
 
 - Zum Anzeigen von Ereignissen für Aktivitäten, die mit Cmdlets ausgeführt werden, wählen Sie in der Liste **Aktivitäten** die Option **Ergebnisse für alle Aktivitäten anzeigen** aus. Wenn Sie den Namen des Vorgangs für diese Aktivitäten kennen, geben Sie ihn in das Suchfeld ein, um die Aktivität anzeigen, und wählen Sie sie dann aus.
 
-- Klicken Sie auf Alle löschen, um die aktuellen **Suchkriterien zu löschen.** Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt.
+- Um die aktuellen Suchkriterien zu löschen, klicken Sie **auf Alle löschen**. Der Datumsbereich wird auf die Standardeinstellung für die letzten sieben Tage zurückgesetzt.
 
-- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzukehren, oder Sie können alle Suchergebnisse exportieren, indem Sie  >  **Alle Ergebnisse herunterladen auswählen.** Schrittweise Anleitungen zum Exportieren von Überwachungsprotokollen finden Sie unter [Exportieren der Suchergebnisse in eine Datei.](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file)
+- Wenn 5.000 Ergebnisse gefunden werden, ist es wahrscheinlich, dass mehr als 5.000 Ereignisse die Suchkriterien erfüllen. Sie können die Suchkriterien verfeinern und die Suche erneut ausführen, um weniger Ergebnisse zurückzukehren, oder Sie können alle Suchergebnisse exportieren, indem Sie **Alle** >  Ergebnisse **exportieren auswählen**. Schrittweise Anleitungen zum Exportieren von Überwachungsprotokollen finden Sie unter [Exportieren der Suchergebnisse in eine Datei](/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance#step-3-export-the-search-results-to-a-file).
 
 Sehen Sie sich [dieses Video](https://www.youtube.com/embed/UBxaRySAxyE) zur Verwendung der Überwachungsprotokollsuche an. Ansuman Acharya, Programm-Manager für Microsoft Teams, veranschaulicht, wie eine Überwachungsprotokollsuche für Microsoft Teams durchgeführt wird.
 
@@ -89,8 +84,8 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Bot zum Team hinzugefügt   |BotAddedToTeam        |Ein Benutzer fügt einem Team einen Bot hinzu.        |
 |Kanal hinzugefügt   |ChannelAdded         |Ein Benutzer fügt einem Team einen Kanal hinzu.         |
 |Connector hinzugefügt  |ConnectorAdded          |Ein Benutzer fügt einen Connector zu einem Kanal hinzu.        |
-|Hinzugefügte Details zu Teams <sup>Besprechung 2</sup>|MeetingDetail|Teams Informationen zu einer Besprechung hinzugefügt, einschließlich Startzeit, Endzeit und URL zur Teilnahme an der Besprechung.|
-|Hinzugefügte Informationen zu Besprechungsteilnehmern <sup>2</sup>|MeetingParticipantDetail|Teams Informationen zu den Teilnehmern einer Besprechung hinzugefügt, einschließlich der Benutzer-ID jedes Teilnehmers, der Uhrzeit, zu der ein Teilnehmer der Besprechung beigetreten ist, und der Zeit, zu der ein Teilnehmer die Besprechung verlassen hat.|
+|Hinzugefügte Details zu Teams <sup>2</sup>|MeetingDetail|Teams Informationen zu einer Besprechung hinzugefügt, einschließlich Startzeit, Endzeit und URL zur Teilnahme an der Besprechung.|
+|Hinzugefügte Informationen zu <sup>Besprechungsteilnehmern 2</sup>|MeetingParticipantDetail|Teams Informationen zu den Teilnehmern einer Besprechung hinzugefügt, einschließlich der Benutzer-ID jedes Teilnehmers, der Zeit, zu der ein Teilnehmer der Besprechung beigetreten ist, und der Zeit, zu der ein Teilnehmer die Besprechung verlassen hat.|
 |Hinzugefügte Mitglieder    |MemberAdded         |Ein Teambesitzer fügt Mitglieder zu einem Team-, Kanal- oder Gruppenchat hinzu.         |
 |Registerkarte hinzugefügt    |TabAdded         |Ein Benutzer fügt einem Kanal eine Registerkarte hinzu.        |
 |Kanaleinstellung geändert    |ChannelSettingChanged         |Der Vorgang "ChannelSettingChanged" wird protokolliert, wenn die folgenden Aktivitäten von einem Teammitglied ausgeführt werden. Für jede dieser Aktivitäten wird in den Suchergebnissen für das Überwachungsprotokoll in der Spalte **Element** eine Beschreibung der geänderten Einstellung (in Klammern gesetzt) angezeigt. <ul><li>Ändert den Namen eines Teamkanals (**Kanalname**).</li><li>Ändert die Beschreibung eines Teamkanals (**Kanalbeschreibung**).</li> </ul>      |
@@ -104,10 +99,10 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |App gelöscht |AppDeletedFromCatalog           |Eine App wurde aus dem Katalog gelöscht.     |
 |Kanal gelöscht     |ChannelDeleted         |Ein Benutzer löscht einen Kanal aus einem Team.         |
 |Team gelöscht  |TeamDeleted            |Ein Teambesitzer löscht ein Team.      |
-|Eine Nachricht mit einem URL-Link in der Datei Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt ihr einen URL-Link in Teams.         |
+|Eine Nachricht mit einem URL-Link in der Datei Teams     |MessageEditedHasLink         |Ein Benutzer bearbeitet eine Nachricht und fügt einen URL-Link zur Nachricht in Teams.         |
 |Exportierte Nachrichten <sup>1, </sup> <sup>2</sup> |    MessagesExported |Chat- oder Kanalnachrichten wurden exportiert.|
-|Abgerufener Chat <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Ein Microsoft Teams wurde abgerufen.|
-|Abrufen aller gehosteten Inhalte einer Nachricht<sup>1, </sup> <sup>2</sup> |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
+|Abgerufener Chat <sup>1, </sup> <sup>2</sup>   |ChatRetrieved  |Ein Microsoft Teams Chat wurde abgerufen.|
+|Abrufen aller gehosteten Inhalte einer <sup>Nachricht1, </sup> <sup>2</sup> |MessageHostedContentsListed    |Alle gehosteten Inhalte in einer Nachricht, z. B. Bilder oder Codeausschnitte, wurden abgerufen.|
 |App installiert |AppInstalled         |Eine App wurde installiert.   |
 |Aktion auf Karte ausgeführt|PerformedCardAction|Ein Benutzer hat in einem Chat eine Aktion auf einer adaptiven Karte ausgeführt. Adaptive Karten werden in der Regel von Bots verwendet, um die Anzeige umfassender Informationen und die Interaktion in Chats zu ermöglichen. <br/><br/>**Hinweis:** Nur Inline-Eingabeaktionen auf einer adaptiven Karte innerhalb eines Chats sind im Überwachungsprotokoll verfügbar. Beispielsweise wenn ein Benutzer eine Antwort zu einer Umfrage in einer Kanalunterhaltung über eine adaptive Karte übermittelt, die von einem Umfrage-Bot generiert wurde. Benutzeraktionen wie "Ergebnis anzeigen", wodurch ein Dialogfeld geöffnet wird, oder Benutzeraktionen in Dialogfeldern sind im Überwachungsprotokoll nicht verfügbar.|
 |Neue Nachricht gepostet <sup>1, </sup> <sup>2</sup>   |MessageSent|   Eine neue Nachricht wurde in einem Chat oder Kanal gepostet.|
@@ -119,7 +114,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 |Mitglieder entfernt    |MemberRemoved        |Ein Teambesitzer entfernt Mitglieder aus einem Team-, Kanal- oder Gruppenchat.         |
 |Registerkarte entfernt    |TabRemoved         |Ein Benutzer entfernt eine Registerkarte aus einem Kanal.         |
 |Abgerufene Nachrichten <sup>1, </sup> <sup>2</sup> |MessagesListed |Nachrichten aus einem Chat oder Kanal wurden abgerufen.|
-|Eine Nachricht mit einem URL-Link in der Nachricht Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
+|Senden einer Nachricht mit einem URL-Link in Teams |MessageCreatedHasLink|Ein Benutzer sendet eine Nachricht mit einem URL-Link in Teams.|
 |Benachrichtigung über gesendete Änderung beim Erstellen <sup>von Nachrichten 1, </sup> <sup>2</sup>  |MessageCreatedNotification |Eine Änderungsbenachrichtigung wurde gesendet, um einen abonnierten Listener über eine neue Nachricht zu informieren.|
 |Benachrichtigung über gesendete Änderungen zum Löschen <sup>von Nachrichten 1, </sup> <sup>2</sup>  |MessageDeletedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine gelöschte Nachricht zu informieren.|
 |Benachrichtigung über gesendete Änderung für <sup>Nachrichtenaktualisierung 1, </sup> <sup>2</sup>    |MessageUpdatedNotification |Es wurde eine Änderungsbenachrichtigung gesendet, um einen abonnierten Listener über eine aktualisierte Nachricht zu informieren.|
@@ -135,7 +130,7 @@ Nachstehend finden Sie eine Liste aller Ereignisse, die im Hinblick auf Benutzer
 
 
 > [!NOTE]
-> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter Erweiterte [Überwachung in Microsoft 365.](/microsoft-365/compliance/advanced-audit#advanced-audit-events) Informationen zu den Anforderungen der Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365.](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements)
+> <sup>1</sup> Ein Überwachungsdatensatz für dieses Ereignis wird nur protokolliert, wenn der Vorgang durch Aufrufen einer Microsoft Graph-API ausgeführt wird. Wenn der Vorgang im Teams ausgeführt wird, wird kein Überwachungsdatensatz protokolliert.<br/><br/><sup>2</sup> Dieses Ereignis ist nur in der erweiterten Überwachung verfügbar. Dies bedeutet, dass Benutzern die entsprechende Lizenz zugewiesen werden muss, bevor diese Ereignisse im Überwachungsprotokoll protokolliert werden. Weitere Informationen zu Aktivitäten, die nur in der erweiterten Überwachung verfügbar sind, finden Sie unter [Erweiterte Überwachung in Microsoft 365](/microsoft-365/compliance/advanced-audit#advanced-audit-events). Informationen zu den Anforderungen für die Advanced Audit-Lizenzierung finden Sie unter [Überwachungslösungen in Microsoft 365](/microsoft-365/compliance/auditing-solutions-overview#licensing-requirements).
 
 ## <a name="shifts-in-teams-activities"></a>"Schichten"-Aktivitäten in Microsoft Teams
 
@@ -183,7 +178,7 @@ Mitgliedschaftsänderungen in Microsoft Teams (z. B. hinzugefügte oder gelösch
 
 ## <a name="use-defender-for-cloud-apps-to-set-activity-policies"></a>Verwenden von Defender für Cloud-Apps zum Festlegen von Aktivitätsrichtlinien
 
-Mithilfe der Integration von Microsoft Defender [](/cloud-app-security/user-activity-policies) [für Cloud-Apps](/cloud-app-security/what-is-cloud-app-security) können Sie Aktivitätsrichtlinien festlegen, um eine Vielzahl automatisierter Prozesse mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
+Mithilfe [der Integration von Microsoft Defender für Cloud-Apps](/cloud-app-security/what-is-cloud-app-security) können [](/cloud-app-security/user-activity-policies) Sie Aktivitätsrichtlinien festlegen, um eine Vielzahl automatisierter Prozesse mithilfe der APIs des App-Anbieters zu erzwingen. Mit diesen Richtlinien können Sie bestimmte Aktivitäten überwachen, die von verschiedenen Benutzern ausgeführt werden, oder das unerwartet häufige Auftreten einer bestimmten Aktivitätsart untersuchen.
 
 Nachdem Sie eine Aktivitätserkennungsrichtlinie festgelegt haben, beginnt diese mit dem Generieren von Warnungen. Warnungen werden nur zu Aktivitäten generiert, die nach dem Erstellen der Richtlinie auftreten. Im Folgenden finden Sie einige Beispielszenarien, wie Sie Aktivitätsrichtlinien in Defender für Cloud-Apps verwenden können, um Ihre Teams überwachen.
 
@@ -223,7 +218,7 @@ Sie können Warnungen und das Senden von E-Mails an Administratoren und andere B
 
 ## <a name="use-defender-for-cloud-apps-to-set-anomaly-detection-policies"></a>Verwenden von Defender für Cloud-Apps zum Festlegen von Anomalieerkennungsrichtlinien
 
-[Anomalieerkennungsrichtlinien](/cloud-app-security/anomaly-detection-policy) in Defender für Cloud-Apps bieten sofort ausgeführte Analysen für Benutzer- und Entitätsverhalten (UEBA) und Machine Learning (ML), sodass Sie die erweiterte Bedrohungserkennung sofort in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus machen die neuen Richtlinien mehr Daten aus dem Erkennungsmodul Defender for Cloud Apps verfügbar, um den Untersuchungsprozess zu beschleunigen und laufende Bedrohungen zu enthalten.
+[Anomalieerkennungsrichtlinien](/cloud-app-security/anomaly-detection-policy) in Defender für Cloud-Apps bieten sofort sofort eine Analyse von Benutzer- und Entitätsverhalten (UEBA) und Machine Learning (ML), sodass Sie die erweiterte Bedrohungserkennung sofort in Ihrer Cloudumgebung ausführen können. Da sie automatisch aktiviert werden, bieten die neuen Anomalieerkennungsrichtlinien sofortige Ergebnisse durch sofortige Erkennung, indem sie zahlreiche Verhaltensanomalien bei allen Benutzer sowie den mit Ihrem Netzwerk verbundenen Computern und Geräten berücksichtigen. Darüber hinaus machen die neuen Richtlinien mehr Daten aus dem Erkennungsmodul Defender for Cloud Apps verfügbar, um den Untersuchungsprozess zu beschleunigen und laufende Bedrohungen zu enthalten.
 
 Wir arbeiten an der Einbindung von Microsoft Teams-Ereignissen in Anomalieerkennungsrichtlinien. Derzeit können Sie Anomalieerkennungsrichtlinien für andere Office-Produkte einrichten und Maßnahmen für Benutzer festlegen, die diesen Richtlinien übereinstimmen.
 

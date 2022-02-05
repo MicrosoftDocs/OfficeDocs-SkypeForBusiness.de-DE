@@ -1,31 +1,26 @@
 ---
 title: Featureübersicht –Planungstool
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.FeatureOverview
-- ms.lync.plan.FeatureOverview
+  - ms.lync.plan.FeatureOverview
+  - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-description: Das Planungstool Skype for Business Server 2015 wird abbestellen.
-ms.openlocfilehash: 7351ef19480f4153ee98db58ab2ba70b34e3df06
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850938"
+description: Beschreibt das Planungstool Skype for Business Server 2015.
 ---
+
 # <a name="feature-overview-planning-tool"></a>Featureübersicht –Planungstool
  
 Skype for Business Server 2015-Planungstool
   
-Sie können die Seite **"Zentrale Standorte"** des Planungstools verwenden, um die Skype for Business Server Bereitstellung zu entwerfen. Sie können zwei entweder eine zentrale oder eine verteilte Bereitstellung erstellen. Eine zentrale Bereitstellung verfügt nur über einen zentralen Standort, an dem alle Skype for Business Benutzer in Ihrer Organisation gespeichert sind. Eine verteilte Bereitstellung verfügt über mehr als einen zentralen Standort. Wenn Sie Skype for Business Server an mehreren zentralen Standorten bereitstellen, geben Sie die Anzahl der Benutzer an jedem zentralen Standort im Planungstool ein.
+Sie können die Seite "**Zentrale Standorte**" des Planungstools verwenden, um die Skype for Business Server Bereitstellung zu entwerfen. Sie können zwei entweder eine zentrale oder eine verteilte Bereitstellung erstellen. Eine zentrale Bereitstellung verfügt nur über einen zentralen Standort, an dem alle Skype for Business Benutzer in Ihrer Organisation gespeichert sind. Eine verteilte Bereitstellung verfügt über mehr als einen zentralen Standort. Wenn Sie Skype for Business Server an mehreren zentralen Standorten bereitstellen, geben Sie die Anzahl der Benutzer an jedem zentralen Standort im Planungstool ein.
   
 Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die folgenden Informationen angeben:
   
@@ -40,7 +35,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
 
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Sie auf die im **Assistenten Erste Schritte** gestellten Fragen bereitgestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste Schritte** Assistenten gestellten Fragen aufgefüllt oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -80,10 +75,10 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Partnerverbund mit XMPP-basiertem Dienstanbieter**
     
-    Skype for Business Server 2015 führt einen vollständig integrierten XMPP-Proxy (bereitgestellt auf den Edgeservern) und ein XMPP-Gateway ein, das auf Ihren Front-End-Servern bereitgestellt wird. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways bereitstellen, damit Ihre Skype for Business Server 2015-Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
+    Skype for Business Server 2015 führt einen vollständig integrierten XMPP-Proxy (auf den Edgeservern bereitgestellt) und ein XMPP-Gateway ein, das auf Ihren Front-End-Servern bereitgestellt wird. Sie können das Hinzufügen und Konfigurieren des XMPP-Proxys und des XMPP-Gateways bereitstellen, damit Ihre Skype for Business Server 2015-Benutzer Kontakte von XMPP-basierten Partnern für Chatnachrichten und Anwesenheitsinformationen hinzufügen können.
 
 > [!NOTE]
-> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md)
+> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds](../../../SfBServer2019/migration/migrating-xmpp-federation.md) .
     
 - **Mobilität**
     
@@ -91,7 +86,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **W15 Exchange Postfach**
     
-    mit Skype for Business Server 2015 können Sie Voicemailnachrichten in Exchange Unified Messaging (UM) speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
+    Skype for Business Server 2015 können Sie Voicemailnachrichten in Exchange Unified Messaging (UM) speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten im Posteingang Ihrer Benutzer angezeigt.
     
 ### <a name="voice"></a>VoIP
 
@@ -103,7 +98,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Anrufbeantwortung, Abonnentenzugriff, Anrufbenachrichtigung und automatische Telefonzentralendienste bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
+    Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Dienste für die Anrufannahme, den Abonnentenzugriff, die Anrufbenachrichtigung und die automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
     
 ### <a name="additional-deployment-options"></a>Zusätzliche Bereitstellungsoptionen
 
@@ -127,7 +122,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Exchange Archivierungsintegration**
     
-    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich versetzt wurden, können Sie die Option zum Integrieren von Skype for Business Server 2015-Speicher in Exchange Speicher auswählen.
+    Wenn Sie Benutzer haben, die in Exchange 2013 verwaltet werden und ihre Postfächer in In-Place Haltebereich gesetzt wurden, können Sie die Option zum Integrieren von Skype for Business Server 2015-Speicher in Exchange Speicher auswählen.
     
 - **IPv4**
     
@@ -159,11 +154,11 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Konferenzzentrale**
     
-    Konferenzzentralenanwendung bietet Audiokonferenzfunktionen für Telefonbenutzer ohne den Dienst eines Drittanbieters für Audiokonferenzen.
+    Konferenzzentralenanwendung bietet Telefonbenutzern Ohne den Dienst eines Drittanbieters für Audiokonferenzen Audiokonferenzfunktionen.
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder unveränderlich sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
     
 - **Anrufsteuerung**
     
