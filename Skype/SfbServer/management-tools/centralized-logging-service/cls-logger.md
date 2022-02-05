@@ -1,26 +1,21 @@
 ---
 title: CLS Logger for Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/25/2017
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1eaf8cdf-3dcd-4d6e-ae68-b6f6f9431ad8
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die CLS-Protokollierung (Centralized Logging Service) in Skype for Business Server 2015 verwenden.'
-ms.openlocfilehash: dbe8ef417eb702943c76214be492151ee4d1dac7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862182"
 ---
+
 # <a name="cls-logger-for-skype-for-business-server-2015"></a>CLS Logger for Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die CLS-Protokollierung (Centralized Logging Service) in Skype for Business Server 2015 verwenden.
@@ -29,7 +24,7 @@ Die CLS-Protokollierung ist ein Tool, das Sie beim Verwalten von Protokollen unt
   
 ## <a name="prerequisites"></a>Voraussetzungen
 
-Um cls Logger erfolgreich zu verwenden, müssen Sie sicherstellen, dass Folgendes zutrifft:
+Um cls Logger erfolgreich verwenden zu können, müssen Sie sicherstellen, dass Folgendes zutrifft:
   
 - Sie verwenden das Tool auf einem Computer, der Mitglied der Domäne ist, in der der zentralisierte Protokollierungsdienst (Centralized Logging Service, CLS) ausgeführt wird. Das Tool wird derzeit in Remote-PowerShell-Sitzungen nicht unterstützt.
     
@@ -99,7 +94,7 @@ Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle dur
 > 
 > **Korrelations-IDs** Ablaufverfolgungsanweisungen, die logisch durch diese ID miteinander verknüpft sind. (Optional)
 > 
-> **Telefon Zahl** Filtern nach Telefonnummer. (Optional)
+> **Telefon Nummernfilter** nach Telefonnummer. (Optional)
 > 
 > **SIP-URI** Filtern nach SIP-URI. (Optional)
 > 
@@ -113,10 +108,10 @@ Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle dur
   
 ## <a name="create-a-scenario"></a>Erstellen eines Szenarios
 
-1. Klicken Sie auf der Registerkarte **"Szenarien bearbeiten"** auf die Schaltfläche **"Szenario erstellen".**
+1. Klicken Sie auf der Registerkarte " **Szenarien bearbeiten** " auf die Schaltfläche " **Szenario erstellen** ".
     
     > [!NOTE]
-    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor dem Erstellen eines neuen Szenarios **auf Einstellungen** löschen klicken, werden keine Komponenten und Flags ausgewählt.
+    > Beim Erstellen eines neuen Szenarios wird die Konfiguration des aktuell ausgewählten Szenarios geklont. Wenn Sie vor dem Erstellen eines neuen Szenarios **auf "Einstellungen löschen**" klicken, werden keine Komponenten und Flags ausgewählt.
   
 2. Geben Sie den Namen des Szenarios ein, das Sie erstellen möchten, und drücken Sie die EINGABETASTE, oder klicken Sie auf die Schaltfläche "Ok".
     
@@ -126,19 +121,19 @@ Um nach Protokollen zu suchen, wählen Sie die Registerkarte "CLS-Protokolle dur
 
 ![CLS Logger Screen shot, edit scenarios.](../../media/abbbcac0-8a2e-48af-a22f-4fee0283a29f.png)
   
-1. Suchen Sie auf der Registerkarte **"Szenarien bearbeiten"** das gewünschte Szenario, das Sie ändern möchten.
+1. Suchen Sie auf der Registerkarte " **Szenarien bearbeiten"** das gewünschte Szenario, das Sie ändern möchten.
     
 2. Nehmen Sie die gewünschten Änderungen an den Komponenten, Ebenen und Flags vor.
     
-3. Klicken Sie auf die Schaltfläche **"Szenario speichern".**
+3. Klicken Sie auf die Schaltfläche " **Szenario speichern** ".
     
 4. Nach dem erfolgreichen Speichern des Szenarios wird der Bereich mit den Szenarioinformationen mit der aktualisierten Konfiguration aktualisiert.
     
 ## <a name="delete-a-scenario"></a>Löschen eines Szenarios
 
-1. Wählen Sie auf der Registerkarte **"Szenarien bearbeiten"** im Dropdownmenü "Szenarien" ein vorhandenes Szenario aus.
+1. Wählen Sie auf der Registerkarte " **Szenarien bearbeiten"** im Dropdownmenü "Szenarien" ein vorhandenes Szenario aus.
     
-2. Klicken Sie auf **"Szenario löschen",** um das Szenario zu löschen.
+2. Klicken Sie auf **"Szenario löschen** ", um das Szenario zu löschen.
     
 3. Nachdem Sie die Aktion bestätigt haben, wird das Szenario gelöscht.
     

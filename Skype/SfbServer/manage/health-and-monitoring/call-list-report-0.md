@@ -1,29 +1,24 @@
 ---
 title: Anruflistenbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9739f9f0-7a37-4844-91d5-f089d2011013
 description: 'Zusammenfassung: Erfahren Sie mehr über den Anruflistenbericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: d56374fa317f6c7b132a9d33dcf9fef966c55625
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864842"
 ---
+
 # <a name="call-list-report-in-skype-for-business-server"></a>Anruflistenbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Anruflistenbericht, der in Skype for Business Server verwendet wird.
   
-Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt und empfangen wurden. Beachten Sie, dass die tatsächlich gemeldeten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Wenn Sie beispielsweise den Bericht aus dem [Gerätebericht in Skype for Business Server](device-report.md)öffnen, werden Metriken wie die folgenden angezeigt, Metriken, die auch im Gerätebericht gemeldet werden:
+Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzelne Anrufe, die in Ihrer Organisation getätigt und empfangen wurden. Beachten Sie, dass die tatsächlich gemeldeten Metriken davon abhängen, wie Sie auf den Anruflistenbericht zugreifen. Wenn Sie z. B. den Bericht aus dem [Gerätebericht in Skype for Business Server](device-report.md) öffnen, werden Metriken wie die folgenden angezeigt, Metriken, die auch im Gerätebericht gemeldet werden:
   
 - Mikrofon des Anrufers
     
@@ -35,7 +30,7 @@ Der Anruflistenbericht enthält QoE-Metriken (Quality of Experience) für einzel
     
 - Verhältnis der Sprachumschaltzeit 
     
-Wenn Sie jedoch den Anruflistenbericht aus dem [Standortbericht in Skype for Business Server](location-report.md)öffnen, werden keine dieser Metriken angezeigt. Stattdessen werden Metriken wie die folgenden angezeigt:
+Wenn Sie jedoch den Anruflistenbericht aus dem [Standortbericht in Skype for Business Server](location-report.md) öffnen, werden keine dieser Metriken angezeigt. Stattdessen werden Metriken wie die folgenden angezeigt:
   
 - Roundtrip (ms)
     
@@ -55,7 +50,7 @@ Auf den Anruflistenbericht kann über einen der folgenden Berichte zugegriffen w
     
 - Der [Gerätebericht in Skype for Business Server](device-report.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
-- Der Zusammenfassende Bericht über [Medienqualität in Skype for Business Server](summary.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
+- Der [Zusammenfassende Bericht über Medienqualität in Skype for Business Server](summary.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     
 - Der [Serverleistungsbericht in Skype for Business Server](server-performance.md) (durch Klicken auf die Metrik "Anruflautstärke" oder "Prozentsatz der Anrufe schlechter Qualität")
     

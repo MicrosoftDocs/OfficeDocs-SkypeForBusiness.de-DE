@@ -1,43 +1,38 @@
 ---
 title: Planen von Anrufverwaltungsfunktionen in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5f557345-5a04-45d6-b274-c02dbfe41b33
 description: Übersicht über die unterstützten Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 459ec4558e39f01c87679227face57232f08ce41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846328"
 ---
+
 # <a name="plan-for-call-management-features-in-skype-for-business"></a>Planen von Anrufverwaltungsfunktionen in Skype for Business
 
 Übersicht über die unterstützten Anrufverwaltungsfunktionen in Skype for Business Server Enterprise-VoIP.
 
 Enterprise-VoIP Anrufverwaltungsfeatures steuern, wie eingehende Anrufe weitergeleitet und beantwortet werden. Skype for Business Server bietet die folgenden Anrufverwaltungsfunktionen:
 
-- **Parken** von Anrufen: Ermöglicht Sprachbenutzern, einen Anruf vorübergehend zu parken und ihn dann vom selben oder einem anderen Telefon entgegenzunehmen.
+- **Parken von Anrufen**: Ermöglicht VoIP-Benutzern, einen Anruf vorübergehend zu parken und ihn dann vom selben oder einem anderen Telefon entgegenzunehmen.
 
-- **Gruppenannahme:** Ermöglicht VoIP-Benutzern, Anrufe entgegenzunehmen, die für andere VoIP-Benutzer klingeln, die Anrufannahmegruppen zugewiesen sind.
+- **Gruppenannahme**: Ermöglicht VoIP-Benutzern, Anrufe entgegenzunehmen, die für andere VoIP-Benutzer klingeln, die Anrufannahmegruppen zugewiesen sind.
 
-- **Reaktionsgruppe:** Leitet eingehende Anrufe mithilfe von Sammelanschlüssen oder ivr-Antworten (Interactive Voice Response) an Gruppen von Agents weiter.
+- **Reaktionsgruppe**: Leitet eingehende Anrufe mithilfe von Sammelanschlüssen oder interaktiven Sprachantworten (Interactive Voice Response, IVR) an Gruppen von Agents weiter.
 
 - **Ansage**: Zur Wiedergabe einer Nachricht für Anrufe, die über eine nicht zugewiesene Nummer eingehen, zur Weiterleitung des Anrufs oder beides.
 
-Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, können Sie eine oder alle dieser Anrufverwaltungsfunktionen implementieren.
+Wenn Sie beabsichtigen, Enterprise-VoIP bereitzustellen, können Sie eine oder alle dieser Anrufverwaltungsfeatures implementieren.
 
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

@@ -1,31 +1,26 @@
 ---
 title: Planen der Ankündigungsanwendung in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 2abee804-2599-48bb-90b2-15df0bae5e20
-description: Planung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP, die konfiguriert, was mit Telefonanrufen an nicht zugewiesene Telefonnummern in Ihren Organisationen geschieht. Umfasst Audiodateianforderungen.
-ms.openlocfilehash: 6dc2317c170585c6688e04b191182cf7ae500b12
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838497"
+description: 'Planung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP, die konfiguriert, was mit Telefonanrufen für nicht zugewiesene Telefonnummern in Ihren Organisationen geschieht. Umfasst Audiodateianforderungen.'
 ---
+
 # <a name="plan-for-the-announcement-application-in-skype-for-business"></a>Planen der Ankündigungsanwendung in Skype for Business
 
-Planung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP, die konfiguriert, was mit Telefonanrufen an nicht zugewiesene Telefonnummern in Ihren Organisationen geschieht. Umfasst Audiodateianforderungen.
+Planung der Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP, die konfiguriert, was mit Telefonanrufen für nicht zugewiesene Telefonnummern in Ihren Organisationen geschieht. Umfasst Audiodateianforderungen.
 
 Mit der Skype for Business Server Ankündigungsanwendung können Sie die Behandlung eingehender Telefonanrufe konfigurieren, wenn die gewählte Nummer für Ihre Organisation gültig ist, aber keinem Benutzer oder Telefon zugewiesen ist. Sie können diese Anrufe an ein vordefiniertes Ziel (Telefonnummer, SIP-URI oder Voicemail) übertragen oder eine Audioankündigung wiedergeben oder beides. Die Ansageanwendung hilft Ihnen, Situationen zu vermeiden, in denen ein Anrufer einen besetzten Ton hört oder der SIP-Client eine Fehlermeldung empfängt. Dieser Abschnitt enthält Planungsinformationen, die für die Ankündigungsanwendung spezifisch sind.
 
@@ -39,15 +34,15 @@ Die Ankündigungsanwendung wird automatisch mit der Reaktionsgruppenanwendung in
 
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-Auf allen Front-End-Servern oder Standard Edition Servern, auf denen die Ankündigungsanwendung ausgeführt wird, muss die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. For Windows Server 2008 R2, the Windows Media Format Runtime is installed as part of Windows Desktop Experience. Windows Die Medienformatlaufzeit oder Microsoft Media Foundation ist für Windows WMA-Dateien (Media Audio) erforderlich, die von der Ankündigungsanwendung für Ankündigungen und Musik wiedergegeben werden.
+Auf allen Front-End-Servern oder Standard Edition Servern, auf denen die Ankündigungsanwendung ausgeführt wird, muss die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012  R2. For Windows Server 2008 R2, the Windows Media Format Runtime is installed as part of Windows Desktop Experience. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows WMA-Dateien (Media Audio) erforderlich, die von der Ankündigungsanwendung für Ankündigungen und Musik wiedergegeben werden.
 
 ### <a name="port-requirements"></a>Portanforderungen
 
 Die Ankündigungsanwendung verwendet **Port 5071** für SIP-Überwachungsanforderungen.
 
 > [!NOTE]
-> Dieser Port ist die Standardeinstellung, die Sie mit dem Cmdlet **"Set-CsApplicationServer"** ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie in der Dokumentation zur Skype for Business Server Verwaltungsshell.
+> Dieser Port ist die Standardeinstellung, die Sie mit dem Cmdlet **"Set-CsApplicationServer** " ändern können. Ausführliche Informationen zu diesem Cmdlet finden Sie in der Dokumentation zur Skype for Business Server Verwaltungsshell.
 
 ### <a name="audio-file-requirements"></a>Anforderungen für Audiodateien
 
-Die Ankündigungsanwendung unterstützt das Wav-Dateiformat (Wave) und Windows WMA-Dateiformat (Media Audio) für Musik und Ankündigungen. Audiodateianforderungen für die Ansageanwendung sind die gleichen wie für die Reaktionsgruppenanwendung. Ausführliche Informationen finden Sie unter ["Technische Anforderungen für Reaktionsgruppen".](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group)
+Die Ankündigungsanwendung unterstützt das Wav-Dateiformat (Wave) und Windows WMA-Dateiformat (Media Audio) für Musik und Ankündigungen. Audiodateianforderungen für die Ansageanwendung sind die gleichen wie für die Reaktionsgruppenanwendung. Ausführliche Informationen finden Sie unter ["Technische Anforderungen für Reaktionsgruppen"](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).

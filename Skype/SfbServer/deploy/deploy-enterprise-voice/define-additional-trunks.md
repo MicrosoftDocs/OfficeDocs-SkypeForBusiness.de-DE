@@ -1,28 +1,23 @@
 ---
 title: Definieren zusätzlicher Trunks im Topologie-Generator in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: e68b8377-50a2-452a-bf5c-910929e34236
 description: 'Zusammenfassung: Erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem Gatewaypeer im Topologie-Generator in Skype for Business Server definieren.'
-ms.openlocfilehash: 9e9927e4e62590ae9e901ed090ecfd80cc64533b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857942"
 ---
+
 # <a name="define-additional-trunks-in-topology-builder-in-skype-for-business-server"></a>Definieren zusätzlicher Trunks im Topologie-Generator in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem Gatewaypeer im Topologie-Generator in Skype for Business Server definieren.
@@ -36,16 +31,16 @@ Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und ein
   
 ### <a name="to-define-an-additional-trunk-between-a-mediation-server-and-a-gateway-peer"></a>So definieren Sie einen zusätzlichen Trunk zwischen einem Vermittlungsserver und einem Gatewaypeer
 
-1. Topologie-Generator starten: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business Server 2015** und dann auf **Skype for Business Server 2015Topology Builder.**
+1. Topologie-Generator starten: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business Server 2015** und dann auf **Skype for Business Server 2015Topology Builder**.
     
-2. Klicken Sie unter Skype for Business Server mit der rechten Maustaste auf den Knoten **Trunks,** und klicken Sie dann auf **"Neuer Trunk".**
+2. Klicken Sie unter Skype for Business Server mit der rechten Maustaste auf den Knoten "**Trunks**" und dann auf "**Neuer Trunk**".
    1. Geben Sie in **Neuen Trunk definieren** einen Anzeigenamen ein, um den Trunk eindeutig zu identifizieren. Zwei Trunks mit demselben Namen sind nicht zulässig.
     
       > [!NOTE]
       > Wenn Sie Tls (Transport Layer Security) als Transporttyp angeben, müssen Sie den FQDN anstelle der IP-Adresse des Peers des Vermittlungsservers angeben. 
   
 3. Wählen Sie unter **Zugeordnetes PSTN-Gateway** den PSTN-Gatewaypeer aus, der diesem Trunk zugeordnet werden soll.
-    5. Geben Sie unter **"Überwachungsport für PSTN-Gateway"** den Überwachungsport ein, den der Peer (PSTN-Gateway, IP-Nebenstellenanlage oder SBC) SIP-Nachrichten vom Vermittlungsserver empfängt, die diesem Trunk zugeordnet werden sollen. Die Standardpeerports sind 5066 für TCP (Transmission Control Protocol) und 5067 für Transport Layer Security (TLS). Die Standardmäßigen Survivable Branch Appliance-Ports sind 5081 für TCP und 5082 für TLS.
+    5. Geben Sie unter **"Überwachungsport für PSTN-Gateway**" den Überwachungsport ein, den der Peer (PSTN-Gateway, IP-Nebenstellenanlage oder SBC) SIP-Nachrichten vom Vermittlungsserver empfängt, der diesem Trunk zugeordnet werden soll. Die Standardpeerports sind 5066 für TCP (Transmission Control Protocol) und 5067 für Transport Layer Security (TLS). Die Standardmäßigen Survivable Branch Appliance-Ports sind 5081 für TCP und 5082 für TLS.
     
 4. Klicken Sie unter **SIP-Transportprotokoll** auf den vom Peer verwendeten Transporttyp.
     
@@ -54,13 +49,13 @@ Ein Trunk ist eine logische Verbindung zwischen einem Vermittlungsserver und ein
   
 5. Wählen Sie unter **Zugeordneter Vermittlungsserver** den Vermittlungsserverpool aus, der dem Stammtrunk dieses Peers zugeordnet werden soll.
     
-6. Geben Sie unter **"Zugeordneter Vermittlungsserverport"** den Überwachungsport ein, den der Vermittlungsserver SIP-Nachrichten vom Peer empfängt.
+6. Geben Sie unter **zugeordneter Vermittlungsserverport** den Überwachungsport ein, den der Vermittlungsserver SIP-Nachrichten vom Peer empfängt.
     
     > [!NOTE]
-    > Bei unterstützung mehrerer Trunks in Skype for Business Server können zwei Trunks mit unterschiedlichen Trunknamen nicht mit demselben Port des **zugeordneten Vermittlungsservers** und dem **gleichen Überwachungsport für IP/PSTN-Gateway** konfiguriert werden.
+    > Bei unterstützung mehrerer Trunks in Skype for Business Server können zwei Trunks mit unterschiedlichen Trunknamen nicht mit demselben **Zugeordneten Vermittlungsserverport** und **Überwachungsport für IP/PSTN-Gateway** konfiguriert werden.
   
     > [!NOTE]
-    > Mit mehreren Trunkunterstützung in Skype for Business Server können mehrere SIP-Signalports auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Beim Definieren eines Trunks muss sich die Portnummer des **zugeordneten Vermittlungsservers** innerhalb des Bereichs der Überwachungsports für das entsprechende Protokoll befinden, das vom Vermittlungsserver zugelassen wird. Dieser Portbereich wird unter Skype for Business Server und Vermittlungsserverpools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungsserverpool, und wählen Sie **"Eigenschaften bearbeiten"** aus. Geben Sie den Portbereich im Feld **Überwachungsports** an.
+    > Mit mehreren Trunkunterstützungen in Skype for Business Server können mehrere SIP-Signalports auf dem Vermittlungsserver für die Kommunikation mit mehreren Peers definiert werden. Beim Definieren eines Trunks muss sich die **Portnummer des zugeordneten Vermittlungsservers** innerhalb des Bereichs der Überwachungsports für das entsprechende Protokoll befinden, das vom Vermittlungsserver zugelassen wird. Dieser Portbereich ist unter Skype for Business Server und Vermittlungsserverpools definiert. Klicken Sie mit der rechten Maustaste auf den entsprechenden Vermittlungsserverpool, und wählen Sie **"Eigenschaften bearbeiten" aus**. Geben Sie den Portbereich im Feld **Überwachungsports** an.
   
 7. Klicken Sie auf **OK**. 
     

@@ -1,32 +1,27 @@
 ---
 title: tblPrincipalMeta
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 808490d4-7d6d-47a2-b8af-b5940d47073b
-description: tblPrincipalMeta enthält die Prinzipale, die von Active Directory Domain Services aktualisiert werden müssen.
-ms.openlocfilehash: 7922d25d62561f9e9d3236962b1083a670474af2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857202"
+description: 'tblPrincipalMeta enthält die Prinzipale, die von Active Directory Domain Services aktualisiert werden müssen.'
 ---
+
 # <a name="tblprincipalmeta"></a>tblPrincipalMeta
  
 tblPrincipalMeta enthält die Prinzipale, die von Active Directory Domain Services aktualisiert werden müssen.
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |prinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID  <br/> |
 |prinAffiliationsDirty  <br/> |bit, nicht NULL  <br/> |TRUE, wenn Prinzipalzuordnungen aktualisiert werden müssen.  <br/> |

@@ -1,25 +1,20 @@
 ---
-title: Skype Softwarelizenz für Raumsystem Skype for Business
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: softwarelizenz für Skype Room System Skype for Business
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 78a664ba-fefc-4423-ac8f-b58e6fbc2e55
-description: Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen.
-ms.openlocfilehash: 805a9abb6d4d49e653e779edc1d9e1cfb8d2a6ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845968"
+description: 'Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen.'
 ---
-# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Raumsystem: Skype for Business-Softwarelizenz
+
+# <a name="skype-room-system-skype-for-business-software-license"></a>Skype Room System: Skype for Business-Softwarelizenz
  
 Lesen Sie dieses Thema, um zu erfahren, wie Sie überprüfen, ob Sie über eine Skype for Business Softwarevolumelizenz verfügen. 
   
@@ -31,9 +26,9 @@ Wenn KMS vorhanden sind und Skype for Business Volumenlizenzaktivierungen vertei
   
 Führen Sie an einer Eingabeaufforderung Folgendes aus:  `nslookup -type=srv _vlmcs._tcp >%temp%\kms.txt`
   
-Informationen zum Einrichten einer KMS finden Sie unter [KMS Aktivierung von Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) und [GVLKs für KMS und Active Directory-Aktivierung von Office 2013.](/DeployOffice/vlactivation/gvlks)
+Informationen zum Einrichten einer KMS finden Sie unter [KMS Aktivierung von Office 2013](/previous-versions/office/office-2013-resource-kit/ee624357(v=office.15)) und [GVLKs für KMS und Active Directory-Aktivierung von Office 2013](/DeployOffice/vlactivation/gvlks)
   
-Office 2013 Generic Volume License Key for Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (Dieser Schlüssel bewirkt, dass das Skype Raumsystem nach einem KMS im Netzwerk sucht.)
+Office 2013 Generic Volume License Key for Lync: 2MG3G-3BNTT-3MFW9-KDQW3-TCK7R (Dieser Schlüssel bewirkt, dass das Skype Room System nach einem KMS im Netzwerk sucht.)
   
 ## <a name="multiple-activation-keys-mak-from-the-volume-license-service-center-vlsc"></a>Mehrere Aktivierungsschlüssel (MAK) aus dem Volume License Service Center (VLSC)
 
@@ -41,7 +36,7 @@ Wenn der Kunde eine andere Volumenlizenzsoftware verwendet, verwaltet die IT-Abt
   
 Ein Kunde mit einem VLA muss seine VLSC-Anmeldeinformationen kennen, die verwendet werden, um den Vertrag zu verwalten und MAK zu erhalten. Wenn unsicher, sollte die Finanzabteilung des Kunden bestätigen können, ob der Kunde ein VLA bezahlt hat.
   
-Um einen MAK zu erhalten, greifen Sie auf das Volume Licensing Service Center zu, um Vereinbarungen anzuzeigen und Product Keys (MAK) herunterzuladen. Weitere Informationen hierzu können Sie im [Volume Licensing Service Center abrufen.](https://www.microsoft.com/Licensing/servicecenter/default.aspx) 
+Um einen MAK zu erhalten, greifen Sie auf das Volume Licensing Service Center zu, um Vereinbarungen anzuzeigen und Product Keys (MAK) herunterzuladen. Weitere Informationen hierzu können Sie im [Volume Licensing Service Center abrufen](https://www.microsoft.com/Licensing/servicecenter/default.aspx). 
   
 ## <a name="mak-for-microsoft-365-or-office-365-without-vlsc-access"></a>MAK für Microsoft 365 oder Office 365 ohne VLSC-Zugriff
 

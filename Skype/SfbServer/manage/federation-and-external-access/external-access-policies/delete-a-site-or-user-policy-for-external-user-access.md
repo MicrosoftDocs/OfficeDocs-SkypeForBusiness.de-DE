@@ -1,27 +1,23 @@
 ---
 title: Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
-ms.reviewer: ''
-ms:assetid: 6d907507-825b-4354-9c03-337a459f72de
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)
-ms:contentKeyID: 48184455
+ms.reviewer: null
+'ms:assetid': 6d907507-825b-4354-9c03-337a459f72de
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg521013(v=OCS.15)'
+'ms:contentKeyID': 48184455
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Sie können alle Website- oder Benutzerrichtlinien löschen, die in der Skype for Business Server Systemsteuerung auf der Seite "Richtlinie für den externen Zugriff" aufgeführt sind.
-ms.openlocfilehash: 136b7f612dc2dcc0625e7f844ecf6ad38aba0c37
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834223"
+description: 'Sie können jede Website- oder Benutzerrichtlinie löschen, die in der Skype for Business Server Systemsteuerung auf der Seite "Richtlinie für den externen Zugriff" aufgeführt ist.'
 ---
+
+
 # <a name="delete-a-site-or-user-policy-for-external-user-access"></a>Löschen einer Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
 
 Wenn Sie richtlinien für den externen Benutzerzugriff erstellt oder konfiguriert haben, die Sie nicht mehr verwenden möchten, können Sie die folgende Methode ausführen:
@@ -31,7 +27,7 @@ Wenn Sie richtlinien für den externen Benutzerzugriff erstellt oder konfigurier
   - Setzen Sie die globale Richtlinie auf die Standardeinstellungen zurück. Die standardmäßigen globalen Richtlinieneinstellungen verweigern externen Benutzern den Zugriff. Die globale Richtlinie kann nicht gelöscht werden.
 
 
-Sie können alle Website- oder Benutzerrichtlinien löschen, die in der Skype for Business Server Systemsteuerung auf der Seite **"Richtlinie für den externen Zugriff"** aufgeführt sind. Durch das Löschen der globalen Richtlinie wird sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für Zugriffsoptionen für externe Benutzer enthalten. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter ["Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff".](reset-the-global-policy-for-external-user-access.md)
+Sie können jede Website- oder Benutzerrichtlinie löschen, die in der Systemsteuerung Skype for Business Server auf der Seite "**Richtlinie für den externen Zugriff**" aufgeführt ist. Durch das Löschen der globalen Richtlinie wird sie nicht tatsächlich gelöscht, sondern nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für Zugriffsoptionen für externe Benutzer enthalten. Ausführliche Informationen zum Zurücksetzen der globalen Richtlinie finden Sie unter ["Zurücksetzen der globalen Richtlinie für den zugriff durch externe Benutzer"](reset-the-global-policy-for-external-user-access.md).
 
 
 ## <a name="to-delete-a-site-or-user-policy-for-external-user-access"></a>So löschen Sie eine Standort- oder Benutzerrichtlinie für den externen Benutzerzugriff
@@ -49,7 +45,7 @@ Sie können alle Website- oder Benutzerrichtlinien löschen, die in der Skype fo
 
 ## <a name="removing-pin-policies-by-using-windows-powershell-cmdlets"></a>Entfernen von PIN-Richtlinien mithilfe Windows PowerShell Cmdlets
 
-Richtlinien für den externen Zugriff können mithilfe von Windows PowerShell und dem Cmdlet Remove-CsExternalAccessPolicy gelöscht werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Richtlinien für den externen Zugriff können mithilfe von Windows PowerShell und dem Cmdlet Remove-CsExternalAccessPolicy gelöscht werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 
 ## <a name="to-remove-a-specific-external-access-policy"></a>So entfernen Sie eine bestimmte Richtlinie für den externen Zugriff
@@ -67,4 +63,4 @@ Richtlinien für den externen Zugriff können mithilfe von Windows PowerShell un
   - Dieser Befehl löscht alle Richtlinien für den externen Zugriff, für die der externe Benutzerzugriff deaktiviert ist:<br/><br/>Get-CsExternalAccessPolicy | Where-Object {$_. EnableOutsideAccess -eq $False}-| Remove-CsExternalAccessPolicy
 
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsExternalAccessPolicy".](/powershell/module/skype/Remove-CsExternalAccessPolicy)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) ".

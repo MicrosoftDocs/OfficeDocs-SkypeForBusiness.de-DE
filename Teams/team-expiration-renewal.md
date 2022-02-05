@@ -1,7 +1,7 @@
 ---
 title: Ablauf und Verlängerung des Teams in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
@@ -10,26 +10,20 @@ ms.reviewer: abgupta
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
-description: Erfahren Sie mehr über Ablauf und Verlängerung von Teams und darüber, wie Sie Microsoft 365-Ablaufrichtlinie für Gruppen verwenden, um nicht verwendete Teams automatisch in einem Microsoft Teams.
+  - M365-collaboration
+description: 'Erfahren Sie mehr über Ablauf und Verlängerung von Teams und darüber, wie Sie Microsoft 365-Ablaufrichtlinie für Gruppen verwenden, um nicht verwendete Teams automatisch in Einem Microsoft Teams.'
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 543678baf7604b4c7ea80a4c913ba8713ed841b2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828438"
+  - Microsoft Teams
 ---
 # <a name="team-expiration-and-renewal-in-microsoft-teams"></a>Ablauf und Verlängerung des Teams in Microsoft Teams
 
 Organisationen mit einer großen Anzahl von Teams verfügen häufig über Teams, die tatsächlich nie verwendet werden. Dies kann aus verschiedenen Gründen geschehen, z. B. aus Produkt experimentieren, aus einer kurzen Teamzusammenarbeit oder aus Teambesitzern, die das Unternehmen verlassen. Im Laufe der Zeit können sich solche Teams ansammeln und Mandantenressourcen belasten.  
 
-Um die Anzahl der nicht verwendeten Teams einzudämmen, können Sie als Administrator eine Microsoft 365 Gruppenablaufrichtlinie verwenden, um nicht verwendete Teams automatisch zu bereinigen. [](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) Da Teams von Gruppen unterstützt werden, gelten Ablaufrichtlinien für Gruppen automatisch auch für Teams.
+Um die Anzahl der nicht verwendeten Teams einzudämmen, können Sie [](/microsoft-365/admin/create-groups/office-365-groups-expiration-policy) als Administrator eine Microsoft 365-Gruppenablaufrichtlinie verwenden, um nicht verwendete Teams automatisch zu bereinigen. Da Teams von Gruppen unterstützt werden, gelten Ablaufrichtlinien für Gruppen automatisch auch für Teams.
 
-Wenn Sie eine Ablaufrichtlinie auf ein Team anwenden, erhält ein Teambesitzer 30 Tage, 15 Tage und 1 Tag vor dem Ablaufdatum des Teams eine Benachrichtigung zur Teamverlängerung. Wenn der Teambesitzer die Benachrichtigung erhält, kann er **in** den Teameinstellungen auf Jetzt verlängern klicken, um das Team zu verlängern.
+Wenn Sie eine Ablaufrichtlinie auf ein Team anwenden, erhält ein Teambesitzer 30 Tage, 15 Tage und 1 Tag vor dem Ablaufdatum des Teams eine Benachrichtigung zur Teamverlängerung. Wenn der Teambesitzer die Benachrichtigung erhält, kann **er in den** Teameinstellungen auf Jetzt verlängern klicken, um das Team zu verlängern.
 
 ![Screenshot der Schaltfläche "Jetzt verlängern" zum Verlängern eines Teams in den Teameinstellungen](media/team-expiration.png "Screenshot der Schaltfläche &quot;Jetzt verlängern&quot; zum Verlängern eines Teams in den Teameinstellungen")
 
@@ -45,4 +39,4 @@ Um ein versehentliches Löschen zu verhindern, wird die automatische Verlängeru
 
 **Ablaufdatum der Team- und zugrunde liegenden Gruppe nicht übereinstimmen**
 
-Bevor ein Team erneuert wird, wird zuerst die Gruppe, die das Team zurückseniert, erneuert. Im Rahmen der Verlängerung wird für die Gruppe ein neues Ablaufdatum für ein zukünftiges Datum festgelegt. Dieses neue Datum wird in der aktuellen Version möglicherweise nicht Teams. Die Synchronisierung kann bis zu 24 Stunden dauern. Wenn zwischen dem Ablaufdatum eines Teams und seiner zugrunde liegenden Gruppe ein Unterschied zu erkennen ist, warten Sie 24 Stunden, bevor Sie weitere Unterstützung suchen.
+Bevor ein Team erneuert wird, wird zuerst die Gruppe, die das Team zurückseniert, erneuert. Im Rahmen der Verlängerung wird für die Gruppe ein neues Ablaufdatum für ein zukünftiges Datum festgelegt. Dieses neue Datum ist in der aktuellen Version möglicherweise Teams. Die Synchronisierung kann bis zu 24 Stunden dauern. Wenn zwischen dem Ablaufdatum eines Teams und seiner zugrunde liegenden Gruppe ein Unterschied zu erkennen ist, warten Sie 24 Stunden, bevor Sie weitere Unterstützung suchen.

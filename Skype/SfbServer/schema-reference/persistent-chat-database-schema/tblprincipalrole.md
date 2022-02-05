@@ -1,32 +1,27 @@
 ---
 title: tblPrincipalRole
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dcd16dc1-a66c-4720-a48f-ec8b28337383
-description: tblPrincipalRole enthält explizite Rollen, die Knoten zugeordnet sind.
-ms.openlocfilehash: 6c9960c4eafc2d28a4710a8e4dded6bea19c841a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828528"
+description: 'tblPrincipalRole enthält explizite Rollen, die Knoten zugeordnet sind.'
 ---
+
 # <a name="tblprincipalrole"></a>tblPrincipalRole
  
 tblPrincipalRole enthält explizite Rollen, die Knoten zugeordnet sind.
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |prinRoleNodeID  <br/> |int, nicht NULL  <br/> |Knoten-ID, auf die sich die Rolle bezieht.  <br/> |
 |prinRolePrinID  <br/> |int, nicht NULL  <br/> |Prinzipal-ID  <br/> |

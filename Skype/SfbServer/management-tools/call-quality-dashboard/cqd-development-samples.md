@@ -1,25 +1,20 @@
 ---
 title: CQD-Entwicklungsbeispiele
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8ca9bf7a-2d6f-48d5-a821-531009726525
 description: 'Zusammenfassung: Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 91e6f15f167000904626dc5a90d3766283396d7c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837507"
 ---
+
 # <a name="cqd-development-samples"></a>CQD-Entwicklungsbeispiele
 
 **Zusammenfassung:** Sehen Sie sich ein Lernprogramm und Entwicklungsbeispiele für das Anrufqualitäts-Dashboard an. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -34,9 +29,9 @@ Tutorial: Building Customized Report Presentation using the CQD Data Service and
 
 CQD bietet schnellen und einfachen Zugriff auf aggregierte Anrufqualitätsinformationen für lokale Skype for Business Server Bereitstellungen. CQD besteht aus drei Komponenten: der QoE-Archivdatenbank, dem Cube und dem Portal. Das Portal ist die Hauptpräsentationsschicht und kann weiter in die folgenden drei Komponenten unterteilt werden:
 
-1. Data Service, der für authentifizierte Benutzer über die [Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server](data-api.md)zugänglich ist.
+1. Datendienst, auf den authentifizierte Benutzer über die [Daten-API für das Anrufqualitätsdashboard (Call Quality Dashboard, CQD) in Skype for Business Server](data-api.md) zugegriffen werden können.
 
-2. Repository service, which is accessible for authenticated users through the [Repository API for Call Quality Dashboard (CQD) in Skype for Business Server](repository-api.md).
+2. Repository-Dienst, auf den authentifizierte Benutzer über die [Repository-API für das Anrufqualitätsdashboard (Call Quality Dashboard, CQD) in Skype for Business Server](repository-api.md) zugegriffen werden können.
 
 3. Webportal, die HTML5-basierte Schnittstelle, die CQD-Benutzern angezeigt wird und mit der sie interagieren. Dies ist für authentifizierte Benutzer zugänglich.
 
@@ -48,7 +43,7 @@ CQD wird nach der Call Quality Methodology (CQM) erstellt, sodass der Standardsa
 
 ### <a name="how-the-dashboard-consumes-the-data-service"></a>Nutzung des Datendiensts durch das Dashboard
 
-Beim Navigieren zur CQD-Homepage (z. B. http://localhost/cqd) werden der Berichtssatz und die entsprechenden Berichte für einen authentifizierten und autorisierten Benutzer aus dem Repositorydienst abgerufen. Eine vollständige URL wird aus der Berichtssatz-ID und dem Jahr-Monat erstellt (Berichtssatz-ID ist die ganzzahlige Zahl nach dem Abschnitt "/#/" in der URL, und standardmäßig wird der aktuelle Jahresmonat am Ende der Berichtssatz-ID nach dem Schrägstrich angefügt). Die Berichtsdefinitionen werden im JSON-Format gespeichert und beim Abrufen aus dem Repositorydienst als Eingabe für den Datendienst verwendet. Der Datendienst generiert MDX-Abfragen (Multi-Dimension Expressions) basierend auf der Eingabe und führt dann diese MDX-Abfragen für den Cube aus, um Daten für jeden Bericht abzurufen. 
+Beim Navigieren zur CQD-Homepage (z. B. http://localhost/cqd)werden der Berichtssatz und die entsprechenden Berichte für einen authentifizierten und autorisierten Benutzer aus dem Repositorydienst abgerufen. Eine vollständige URL wird aus der Berichtssatz-ID und dem Jahr-Monat erstellt (Berichtssatz-ID ist die ganzzahlige Zahl nach dem Abschnitt "/#/" in der URL, und standardmäßig wird der aktuelle Jahresmonat am Ende der Berichtssatz-ID nach dem Schrägstrich angefügt). Die Berichtsdefinitionen werden im JSON-Format gespeichert und beim Abrufen aus dem Repositorydienst als Eingabe für den Datendienst verwendet. Der Datendienst generiert MDX-Abfragen (Multi-Dimension Expressions) basierend auf der Eingabe und führt dann diese MDX-Abfragen für den Cube aus, um Daten für jeden Bericht abzurufen. 
 
 ### <a name="building-customized-reports"></a>Erstellen benutzerdefinierter Berichte
 
@@ -203,7 +198,7 @@ In diesem Beispiel erstellen wir eine Webseite wie in der Abbildung, auf der ein
 
 Um das Tool zum Anzeigen der Berichtsdefinition zu erstellen, müssen wir Aufrufe an den Repositorydienst senden, um die JSON-Zeichenfolgendarstellungen der Definitionen jedes gewünschten Berichtssatzes abzurufen. Die Repository-API gibt die Berichtssatzdefinition basierend auf einer bestimmten Berichtssatz-ID zurück. 
 
-Ein kurzes Beispiel ist wie folgt: Der Code enthält einen Block, der ein einfaches Beispiel zum Senden einer Abfrage an den Repository-Dienst ist, um den Inhalt eines Repositoryelements basierend auf seinem Bezeichner abzurufen. Und der nächste Codeteil (processReportSetData-Methode) sendet AJAX-Aufrufe, um die Definition der einzelnen Berichte innerhalb dieses Berichtssatzes abzurufen. Da die ID im CQD-Webportal die ID eines Berichtssatzes ist, gibt der AJAX-Aufruf ein Berichtssatzelement zurück. Weitere Details zur Repository-API und insbesondere zu GetItems finden Sie unter ["Elemente abrufen".](get-items.md) 
+Ein kurzes Beispiel ist wie folgt: Der Code enthält einen Block, der ein einfaches Beispiel zum Senden einer Abfrage an den Repository-Dienst ist, um den Inhalt eines Repositoryelements basierend auf seinem Bezeichner abzurufen. Und der nächste Codeteil (processReportSetData-Methode) sendet AJAX-Aufrufe, um die Definition der einzelnen Berichte innerhalb dieses Berichtssatzes abzurufen. Da die ID im CQD-Webportal die ID eines Berichtssatzes ist, gibt der AJAX-Aufruf ein Berichtssatzelement zurück. Weitere Details zur Repository-API und insbesondere zu GetItems finden Sie unter " [Elemente abrufen"](get-items.md). 
 
 ```html
 <!DOCTYPE html>
@@ -330,9 +325,9 @@ In diesem Fall müssen wir die Mess- und Dimensionsliste aktualisieren. Sie kön
 
 Hier sind die detaillierten Schritte, um zur Scorecardseite in der Abbildung aus dem Beispiel in Beispiel 1 zu gelangen:
 
-1. Aktualisieren Sie Die Messungen in der Variablen "Abfrage" von  `[Measures].[Audio Good Streams JPDR Count]` und `[Measures].[Audio Poor Streams JPDR Count]` nach `[Measures].[AudioPoorJPDRPercentage]` . 
+1. Aktualisieren Sie Die Messungen in der Variablen "Abfrage" von  `[Measures].[Audio Good Streams JPDR Count]` und `[Measures].[Audio Poor Streams JPDR Count]` nach `[Measures].[AudioPoorJPDRPercentage]`. 
 
-2. Aktualisieren Sie die Filter. Die JSON-Daten für Filter in Beispiel 1 haben einen Filter, der für die Dimension festgelegt  `[StartDate].[Month]` ist. Da Filter ein JSON-Array sind, können der Liste der Filter zusätzliche Dimensionen hinzugefügt werden. Um z. B. den Server-Client innerhalb von kabelgebundenen Aufrufen für "currentMonth" abzurufen, sollten die folgenden Filter vorhanden sein:
+2. Aktualisieren Sie die Filter. Die JSON-Daten für Filter in Beispiel 1 haben einen Filter, der für die Dimension  `[StartDate].[Month]`festgelegt ist. Da Filter ein JSON-Array sind, können der Liste der Filter zusätzliche Dimensionen hinzugefügt werden. Um z. B. den Server-Client innerhalb von kabelgebundenen Aufrufen für "currentMonth" abzurufen, sollten die folgenden Filter vorhanden sein:
 
    ```javascript
    Filters: [
@@ -349,14 +344,14 @@ Hier sind die detaillierten Schritte, um zur Scorecardseite in der Abbildung aus
    ],
    ```
 
-   Hier wird die Dimension  `[Scenarios].[ScenarioPair]` auf "gleich" `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` festgelegt. Dies  `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die erstellt wurde, um die Erstellung von Berichten zu vereinfachen. Es hat sechs Werte, die entsprechen `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]` . Anstatt also eine Kombination aus 6 Filtern zum Definieren eines Szenarios zu verwenden, müssen wir nur 1 Filter verwenden. In unserem Beispiel wird der Wert  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` in das Szenario übersetzt, in dem: der erste Server, der zweite nicht der Server, der erste ist innerhalb, der erste Verbindungstyp verkabelt und der zweite Verbindungstyp verkabelt ist, was die genaue Definition von "Server-Client-Inside Wired" ist.
+   Hier wird die Dimension  `[Scenarios].[ScenarioPair]` auf "gleich" `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]`festgelegt. Dies  `[Scenario.][ScenarioPair]` ist eine spezielle Dimension, die erstellt wurde, um die Erstellung von Berichten zu vereinfachen. Es hat sechs Werte, die `[FirstIsServer], [SecondIsServer], [FirstInside], [SecondIsServer], [FirstConnectionType], [SecondConnectionType]`entsprechen . Anstatt also eine Kombination aus 6 Filtern zum Definieren eines Szenarios zu verwenden, müssen wir nur 1 Filter verwenden. In unserem Beispiel wird der Wert  `[1]&amp;[0]&amp;[1]&amp;[1]&amp;[Wired]&amp;[Wired]` in das Szenario übersetzt, in dem: der erste Server, der zweite nicht der Server, der erste ist innerhalb, der erste Verbindungstyp verkabelt und der zweite Verbindungstyp verkabelt ist, was die genaue Definition von "Server-Client-Inside Wired" ist.
 
 3. Erstellen Sie einen Filtersatz pro Szenario. Jede Zeile in der Scorecard in der Abbildung stellt ein anderes Szenario dar, bei dem es sich um einen anderen Filter handelt (während die Abmessungen und Maßangaben gleich bleiben). 
 
 4. Analysieren Sie die Ergebnisse der AJAX-Aufrufe, und platzieren Sie sie an der richtigen Position der Tabelle. Da dies hauptsächlich HTML- und JavaScript-Manipulation ist, werden wir hier nicht auf details eingehen. Stattdessen wird der Code in Anhang A bereitgestellt.
 
     > [!NOTE]
-    >  Wenn cross-origin Resource Sharing (CORS) aktiviert ist, können Benutzer Fehler wie "Kein "Access-Control-Allow-Origin"-Header ist in der angeforderten Ressource vorhanden sein. Origin 'null' is therefore not allowed access". Um das Problem zu beheben, platzieren Sie die HTML-Datei unter dem Ordner, in dem das Portal installiert ist (standardmäßig sollte sie `%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` . Greifen Sie dann über einen beliebigen Browser mit der URL auf den HTML-Code  `http://<servername>/cqd/<html_file_name>` zu. (Die Standard-URL für das lokale CQD-Dashboard lautet  `http://<servername>/cqd.` ) 
+    >  Wenn cross-origin Resource Sharing (CORS) aktiviert ist, können Benutzer Fehler wie "Kein "Access-Control-Allow-Origin"-Header ist in der angeforderten Ressource vorhanden sein. Origin 'null' is therefore not allowed access". Um das Problem zu beheben, platzieren Sie die HTML-Datei unter dem Ordner, in dem das Portal installiert ist (standardmäßig sollte sie .`%SystemDrive%\Program Files\Skype for Business 2015 CQD\CQD)` Greifen Sie dann über einen beliebigen Browser mit der URL  `http://<servername>/cqd/<html_file_name>`auf den HTML-Code zu. (Die Standard-URL für das lokale CQD-Dashboard lautet  `http://<servername>/cqd.`) 
 
 ### <a name="appendix-a"></a>Anhang A
 

@@ -1,30 +1,25 @@
 ---
 title: Benutzer zeigen beständigen Chat an
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.UserViewPersistentChat
+  - ms.lync.lscp.UserViewPersistentChat
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c66c6689-28a2-4758-add1-0d0dff0d3eee
 description: Mitglieder der Rolle "CsPersistentChatAdministrator" (Administratoren für beständigen Chat) können anderen Benutzern und sich selbst Rechte und Berechtigungen für den Chatroom-Manager erteilen.
-ms.openlocfilehash: 53c18ac8a9c04720b5eb2d9c53fb41f955cc263d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854549"
 ---
+
 # <a name="users-view-persistent-chat"></a>Benutzer: Anzeigen des beständigen Chats
 
-Mitglieder der **Rolle "CsPersistentChatAdministrator"** (Administratoren für beständigen Chat) können anderen Benutzern und sich selbst Rechte und Berechtigungen für den Chatroom-Manager erteilen.
+Mitglieder der **Rolle "CsPersistentChatAdministrator** " (Administratoren für beständigen Chat) können anderen Benutzern und sich selbst Rechte und Berechtigungen für den Chatroom-Manager erteilen.
 
 Ein Administrator für beständigen Chat kann folgendeRmaßen vorgehen:
 
@@ -42,7 +37,7 @@ Ausführliche Informationen finden Sie im Abschnitt [Adding a Persistent Chat Ad
 
 ## <a name="tasks-that-you-can-perform"></a>Mögliche Aufgaben
 
-Sie können die folgenden Aufgaben auf der Seite **"Benutzer: Anzeigen des beständigen Chats"** ausführen:
+Sie können die folgenden Aufgaben auf der Seite **"Benutzer: Anzeigen des beständigen Chats** " ausführen:
 
 - [Aktivieren eines Benutzers für die Verwaltung von Kategorien, Chatrooms, Benutzerrechten und Berechtigungen](/previous-versions/office/lync-server-2013/lync-server-2013-enabling-a-user-to-manage-categories-chat-rooms-and-user-rights-and-permissions)
 

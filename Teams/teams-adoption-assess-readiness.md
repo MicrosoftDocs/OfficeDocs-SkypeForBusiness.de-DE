@@ -1,7 +1,7 @@
 ---
 title: Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 11/01/2018
 audience: Admin
@@ -10,24 +10,20 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Beurteilen Sie die Projektbeteiligten, identifizieren Sie Early Adopter, und beurteilen Sie, ob Ihre Organisation für den Umstieg auf Microsoft Teams bereit ist.
+description: 'Beurteilen Sie die Projektbeteiligten, identifizieren Sie Early Adopter, und beurteilen Sie, ob Ihre Organisation für den Umstieg auf Microsoft Teams bereit ist.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 105df2024ad67710b1de1e92208deeab6c7b9226
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865624"
+  - Microsoft Teams
 ---
+
+
 # <a name="how-ready-is-your-organization-for-microsoft-teams"></a>Wie gut ist Ihre Organisation auf Microsoft Teams vorbereitet?
 
 Nachdem Ihr Projektteam erstellt ist und Sie beginnen zu sehen, welche Vorteile Microsoft Teams für Ihre Organisation mit sich bringt, ist es wichtig, die Bereitschaft Ihrer Organisation für den Übergang zu Microsoft Teams zu beurteilen. Für die Einschätzung der Bereitschaft müssen Sie Folgendes tun:

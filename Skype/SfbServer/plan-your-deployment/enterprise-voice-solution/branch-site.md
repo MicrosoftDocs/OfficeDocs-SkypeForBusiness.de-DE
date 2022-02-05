@@ -1,33 +1,28 @@
 ---
 title: SIP-Trunking an Zweigstellenstandorten in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c4d9dfcd-8baa-41ea-9677-48b0e429429d
 description: Erfahren Sie mehr über SIP-Trunking an Zweigstellenstandorten in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: b8c1c930bb2500ca9330b14cce7fd5b341db60a9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829899"
 ---
+
 # <a name="branch-site-sip-trunking-in-skype-for-business-server"></a>SIP-Trunking an Zweigstellenstandorten in Skype for Business Server
  
 Erfahren Sie mehr über SIP-Trunking an Zweigstellenstandorten in Skype for Business Server Enterprise-VoIP.
   
-In einigen Fällen müssen Sie möglicherweise verteiltes SIP-Trunking an ausgewählten Zweigstellenstandorten implementieren. Informationen dazu, ob ein SIP-Trunk für einen Zweigstellenstandort benötigt wird, und ausführliche Informationen zu den unterstützten Topologieoptionen für die Bereitstellung von SIP-Trunks an Zweigstellenstandorten finden Sie [unter SIP-Trunking in Skype for Business Server.](sip-trunking.md)
+In einigen Fällen müssen Sie möglicherweise verteiltes SIP-Trunking an ausgewählten Zweigstellenstandorten implementieren. Informationen dazu, ob ein SIP-Trunk für einen Zweigstellenstandort benötigt wird, und ausführliche Informationen zu den unterstützten Topologieoptionen für die Bereitstellung von SIP-Trunks an Zweigstellenstandorten finden Sie [unter SIP-Trunking in Skype for Business Server](sip-trunking.md).
   
 ## <a name="example-branch-site-sip-trunk-requirements-analysis"></a>Beispielanalyse für die SIP-Trunkanforderungen an einer Zweigniederlassung
 

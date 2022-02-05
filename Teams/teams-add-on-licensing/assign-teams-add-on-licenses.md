@@ -1,34 +1,29 @@
 ---
 title: Zuweisen Teams Add-On-Lizenzen zu Benutzern
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
+  - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.reviewer: mikedav
-description: Erfahren Sie, wie Teams add-on-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.
+description: 'Erfahren Sie, wie Teams add-on-Lizenzen für Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne zuweisen.'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 200e2bb36940bb4b447c4a46856c4e3ffa07f588
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846028"
+  - Microsoft Teams
 ---
+
 # <a name="assign-teams-add-on-licenses-to-users"></a>Zuweisen Teams Add-On-Lizenzen zu Benutzern
 
 Add-On-Lizenzen sind Lizenzen für Teams Funktionen wie Audiokonferenzen, Telefonsystem und Anrufpläne. In diesem Artikel wird beschrieben, wie Sie einzelnen Benutzern und großen Mengen von Benutzern Add-On-Lizenzen in Massen zuweisen.
 
 > [!NOTE]
-> Unter [Teams-Add-On-Lizenzierung](./microsoft-teams-add-on-licensing.md) finden Teams, die mit Add-On-Lizenzen zur Verfügung stehen. Darüber hinaus finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und wie Sie diese (je nach Ihrem Plan) kaufen können, damit Benutzer Funktionen wie Audiokonferenzen, gebührenfreie Telefonnummern und die Möglichkeit erhalten, Telefonnummern außerhalb Ihrer Organisation anrufen zu können. Nachdem Sie sich entschieden haben, welche Features Sie ihren Benutzern zuweisen möchten, weisen Sie ihnen Lizenzen zu.
+> Unter [Teams-Add-On-Lizenzierung](./microsoft-teams-add-on-licensing.md) finden Teams Features, die mit Add-On-Lizenzen zur Verfügung stehen. Darüber hinaus finden Sie Informationen dazu, welche Lizenzen Sie kaufen müssen und wie Sie diese (je nach Ihrem Plan) kaufen können, damit Benutzer Funktionen wie Audiokonferenzen, gebührenfreie Telefonnummern und die Möglichkeit erhalten, Telefonnummern außerhalb Ihrer Organisation anrufen zu können. Nachdem Sie sich entschieden haben, welche Features Sie ihren Benutzern zuweisen möchten, weisen Sie ihnen Lizenzen zu.
 
 Sie können die Microsoft 365 Admin Center oder PowerShell verwenden, um Benutzern in Ihrer Organisation Lizenzen zuzuordnen. Sie müssen ein globaler Administrator oder Benutzerverwaltungsadministrator sein, um Lizenzen verwalten zu können.
 
@@ -42,21 +37,21 @@ Bevor Sie beginnen, überprüfen Sie die folgenden Anforderungen:
 
 - Wenn Sie nicht die richtige Anzahl von Lizenzen erworben haben, wird eine Fehlermeldung angezeigt. Wenn Sie weitere Anrufplanlizenzen erwerben müssen, wählen Sie die Option zum Kauf von weiteren aus.
 
-- Auch wenn Ihren Enterprise Benutzern E5-Lizenzen zugewiesen sind, [](../what-are-communications-credits.md) müssen Sie ihnen weiterhin Lizenzen für Guthaben für Kommunikationen zuweisen, wenn sie Anrufe über das PSTN machen oder empfangen möchten.
+- Auch wenn Ihren Enterprise Benutzern E5-Lizenzen zugewiesen sind, müssen Sie ihnen weiterhin Lizenzen für Guthaben [](../what-are-communications-credits.md) für Kommunikationen zuweisen, wenn sie Anrufe über das PSTN machen oder empfangen möchten.
 
 - Nachdem Sie Ihren Benutzern Lizenzen für Anrufplan- oder Guthaben für Kommunikationen zugewiesen haben, müssen Sie Telefonnummern für Ihre Organisation erhalten und diese Nummern dann Benutzern zuweisen. Eine schrittweise Anleitung finden Sie unter [Einrichten von Anrufplänen](../set-up-calling-plans.md).
 
-## <a name="using-the-microsoft-365-admin-center"></a>Verwenden des Microsoft 365 Admin Center
+## <a name="using-the-microsoft-365-admin-center"></a>Verwenden der Microsoft 365 Admin Center
 
-Verwenden Sie Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie weisen Lizenzen  auf der Seite Lizenzen (für bis zu  20 Benutzer gleichzeitig) oder auf der Seite Aktive Benutzer (für bis zu 40 Benutzer gleichzeitig) zu. Die von Ihnen wählen Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
+Verwenden Sie Microsoft 365 Admin Center, um einzelnen Benutzern oder kleinen Gruppen von Benutzern gleichzeitig Lizenzen zuzuordnen. Sie weisen Lizenzen auf der  Seite Lizenzen (für bis zu 20 Benutzer gleichzeitig) oder auf der Seite Aktive  Benutzer (für bis zu 40 Benutzer gleichzeitig) zu. Die von Ihnen wählen Methode hängt davon ab, ob Sie Produktlizenzen für bestimmte Benutzer oder Benutzerlizenzen für bestimmte Produkte verwalten möchten.
 
-Eine schrittweise Anleitung finden Sie unter [Zuweisen von Lizenzen zu Benutzern.](/microsoft-365/admin/manage/assign-licenses-to-users)
+Eine schrittweise Anleitung finden Sie unter Zuweisen [von Lizenzen zu Benutzern](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 Wenn Sie Lizenzen für eine große Anzahl von Benutzern, z. B. Hunderte oder Tausende von Benutzern, zuweisen müssen, verwenden Sie Powershell oder eine gruppenbasierte Lizenzierung [in Azure Active Directory (Azure AD).](/azure/active-directory/users-groups-roles/licensing-groups-assign)  
 
 ## <a name="using-powershell"></a>Verwendung von PowerShell
 
-Mithilfe von PowerShell können Sie Benutzern Lizenzen in Massen zuweisen.  Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell)
+Mithilfe von PowerShell können Sie Benutzern Lizenzen in Massen zuweisen.  Weitere Informationen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell).
 
 ### <a name="example-script"></a>Beispielskript
 
@@ -69,11 +64,11 @@ Hier ist ein Beispiel für die Verwendung eines Skripts zum Zuweisen von Lizenze
         ```powershell
         Install-Module MSOnline
         ```
-    3. Wenn Sie aufgefordert werden, den Anbieter NuGet, geben Sie **Y** ein, und drücken Sie dann die EINGABETASTE.
+    3. Wenn Sie aufgefordert werden, den Anbieter NuGet, geben Sie **Y ein**, und drücken Sie dann die EINGABETASTE.
     4. Wenn Sie aufgefordert werden, das Modul von PSGallery zu installieren, geben Sie **Y** ein, und drücken Sie dann die EINGABETASTE.
-3. Führen Sie Windows PowerShell Eingabeaufforderung zuweisen das folgende Skript aus, um Ihren Benutzern Lizenzen zuzuordnen. Dabei handelt es sich um den Namen Ihrer Organisation und den Bezeichner für die Lizenz, die \<CompanyName:License> Sie zuweisen möchten. Beispiel: litwareinc:MCOMEETADV.
+3. Führen Sie Windows PowerShell Eingabeaufforderung zuweisen das folgende Skript aus, um Ihren Benutzern Lizenzen zuzuordnen. \<CompanyName:License> Dabei handelt es sich um den Namen Ihrer Organisation und den Bezeichner für die Lizenz, die Sie zuweisen möchten. Beispiel: litwareinc:MCOMEETADV.
 
-    Der Bezeichner ist anders als der Anzeigename der Lizenz. Der Bezeichner für Audiokonferenzen ist z. B. MCOMEETADV. Weitere Informationen finden Sie unter [Produktnamen und SKU-IDs für die Lizenzierung.](#product-names-and-sku-identifiers-for-licensing)
+    Der Bezeichner ist anders als der Anzeigename der Lizenz. Der Bezeichner für Audiokonferenzen ist z. B. MCOMEETADV. Weitere Informationen finden Sie unter [Produktnamen und SKU-IDs für die Lizenzierung](#product-names-and-sku-identifiers-for-licensing).
 
     ```powershell
     #Create a text file with a single column that lists the user principal names (UPNs) of users to assign licenses to. The MSOL service uses the UPN to license user accounts.
@@ -127,7 +122,7 @@ Hier ist ein Beispiel für die Verwendung eines Skripts zum Zuweisen von Lizenze
 
 Hier sehen Sie eine teilweise Liste der Produktnamen und der entsprechenden SKU-Teilenamen, die Sie als Referenz verwenden können, wenn Sie PowerShell zum Verwalten von Lizenzen in Teams.
 
-Weitere Informationen finden Sie unter Anzeigen von Lizenzen und Diensten [mit PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), Produktnamen und [Serviceplan-IDs](/azure/active-directory/users-groups-roles/licensing-service-plan-reference)für Lizenzierung und [Education-SKU-Referenz](../sku-reference-edu.md).
+Weitere Informationen finden Sie unter Anzeigen von Lizenzen und Diensten [mit PowerShell](/office365/enterprise/powershell/view-licenses-and-services-with-office-365-powershell), Produktnamen und [Serviceplan-IDs](/azure/active-directory/users-groups-roles/licensing-service-plan-reference) für lizenzierung und [SKU-Referenz für Bildungseinrichtungen](../sku-reference-edu.md).
 
 | Produktname| SKU-Teilename |
 |--------------|---------------|

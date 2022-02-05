@@ -1,27 +1,22 @@
 ---
 title: Einstellungen für Lync Server-Standort – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SiteSettingsExpander
+  - ms.lync.tb.SiteSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 940bd9c0-bfcf-4d15-a5c1-a09f1cd692b6
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: So ändern Sie die Eigenschaften eines vorhandenen Standorts
-ms.openlocfilehash: e848f66b82c85975ef399cc9277e22c631a4649f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839257"
 ---
+
 # <a name="lync-server-site-settings-expander"></a>Einstellungen für Lync Server-Standort – Erweiterung
 
 So ändern Sie die Eigenschaften eines vorhandenen Standorts

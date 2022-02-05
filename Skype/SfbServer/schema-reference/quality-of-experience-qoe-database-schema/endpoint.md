@@ -1,25 +1,20 @@
 ---
 title: Endpunkttabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 500f330d-4d7d-4e88-b1cc-fef9a9de6b5c
-description: Die Endpunkttabelle ist eine Unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Endpunkt dar.
-ms.openlocfilehash: 7e892d0e913f8b06fc78f00fbbb348774b9548d3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834001"
+description: 'Die Endpunkttabelle ist eine Unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Endpunkt dar.'
 ---
+
 # <a name="endpoint-table"></a>Endpunkttabelle
  
 Die Endpunkttabelle ist eine Unterstützende Tabelle, in der Informationen zu den Endpunkten gespeichert werden, die an in der Datenbank aufgezeichneten Sitzungen teilgenommen haben. Jeder Datensatz in der Tabelle stellt einen Endpunkt dar.

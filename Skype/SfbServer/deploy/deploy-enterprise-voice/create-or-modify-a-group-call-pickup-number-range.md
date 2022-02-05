@@ -1,28 +1,23 @@
 ---
 title: Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4b442b98-df6b-4e50-8254-b3be9cde21dd
 description: Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 5bf69f06078d45cd12e7f21cffd03ea40028a543
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859602"
 ---
+
 # <a name="create-or-modify-a-group-call-pickup-number-range-in-skype-for-business"></a>Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business
 
 Erstellen oder Ändern eines Nummernbereichs für die Gruppenanrufannahme in Skype for Business Server Enterprise-VoIP.
@@ -46,15 +41,15 @@ Die Nummernbereiche der Anrufannahmegruppe müssen die folgenden Regeln erfülle
 
 - Wenn der Zahlenbereich mit dem Zeichen \* oder #beginnt, muss der Bereich größer als 100 sein.
 
-- Gültige Werte: Muss mit der Zeichenfolge des regulären Ausdrucks übereinstimmen ([ \\ *|#]?[ 1-9]\d {0,7} )| ([1-9]\d {0,8} ). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die entweder mit dem Zeichen \* oder der Zahl 1 bis 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen \* oder #ist, muss das folgende Zeichen eine Zahl 1 bis 9 sein (es darf keine Null sein). Nachfolgende Zeichen können eine beliebige Zahl zwischen 0 und 9 bis zu sieben zusätzlichen Zeichen sein (z. B. "#6000", " \* 92000", " \* 95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder #ist, muss das erste Zeichen eine Zahl zwischen 1 und 9 sein (es kann nicht null sein), gefolgt von bis zu acht Zeichen, jeweils eine Zahl 0 bis 9 (z. B. "915551212", "41212", "300").
+- Gültige Werte: Muss mit der Zeichenfolge des regulären Ausdrucks übereinstimmen ([\\*|#]?[ 1-9]\d{0,7})| ([1-9]\d{0,8}). Dies bedeutet, dass der Wert eine Zeichenfolge sein muss, die entweder mit dem Zeichen \* oder der Zahl 1 bis 9 beginnt (das erste Zeichen darf keine Null sein). Wenn das erste Zeichen oder #ist \* , muss das folgende Zeichen eine Zahl 1 bis 9 sein (es darf keine Null sein). Nachfolgende Zeichen können eine beliebige Zahl zwischen 0 und 9 bis zu sieben zusätzlichen Zeichen sein (z. B. "#6000", "\*92000", "\*95551212" und "915551212"). Wenn das erste Zeichen nicht \* oder #ist, muss das erste Zeichen eine Zahl 1 bis 9 sein (es kann nicht null sein), gefolgt von bis zu acht Zeichen, jeweils eine Zahl 0 bis 9 (z. B. "915551212", "41212", "300").
 
 ### <a name="to-create-or-modify-a-call-pickup-group-range"></a>So erstellen oder ändern Sie einen Gruppenbereich für die Anrufannahme
 
-1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
+1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen**" beschrieben.
 
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
 
-3. Verwenden Sie **New-CsCallParkOrbit,** um einen neuen Bereich von Nummern für die Anrufannahmegruppe zu erstellen. Verwenden Sie **"Set-CsCallParkOrbit",** um einen vorhandenen Bereich von Anrufannahmenummern zu ändern.
+3. Verwenden Sie **New-CsCallParkOrbit** , um einen neuen Bereich von Nummern für die Anrufannahmegruppe zu erstellen. Verwenden Sie **"Set-CsCallParkOrbit** ", um einen vorhandenen Bereich von Anrufannahmenummern zu ändern.
 
     Führen Sie an der Eingabeaufforderung Folgendes aus:
 

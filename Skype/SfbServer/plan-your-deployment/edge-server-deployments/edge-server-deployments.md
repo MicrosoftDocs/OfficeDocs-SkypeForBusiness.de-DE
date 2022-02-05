@@ -1,28 +1,23 @@
 ---
 title: Planen von Edgeserverbereitstellungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Hybrid
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 9cdc3e23-3f6a-4e4d-9e04-f038596b6700
 description: 'Zusammenfassung: Planen Ihrer Skype for Business Server Edgeumgebung. In diesem Thema werden Die Edge-Konzepte vorgestellt, und Sie können sich mit unseren ausführlicheren Themen organisieren.'
-ms.openlocfilehash: ae6dd672e3da6568d41898a4bc2ae022b23ad3f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834113"
 ---
+
 # <a name="plan-for-edge-server-deployments-in-skype-for-business-server"></a>Planen von Edgeserverbereitstellungen in Skype for Business Server
  
 **Zusammenfassung:** Planen Sie ihre Skype for Business Server Edgeumgebung. In diesem Thema werden Die Edge-Konzepte vorgestellt, und Sie können sich mit unseren ausführlicheren Themen organisieren.
@@ -37,7 +32,7 @@ Wenn Sie über eine Skype for Business Server Umgebung verfügen, die intern gut
     
 - Potenzielle Kunden, Partner und sogar anonyme Benutzer, die Sie zu Besprechungen und Präsentationen einladen möchten.
     
-Der externe Benutzerzugriff, der von Edgeservern bereitgestellt wird, lässt all dies zu. Ihre internen Benutzer können die folgenden Dienste nutzen, die von Ihrer Skype for Business Server-Bereitstellung gehostet werden:
+Der externe Benutzerzugriff, der von Edgeservern bereitgestellt wird, lässt all dies zu. Ihre internen Benutzer können die folgenden Dienste nutzen, die von Ihrer Skype for Business Server Bereitstellung gehostet werden:
   
 - Chat und Anwesenheit für die Kommunikation: Autorisierte externe Benutzer können an Chatunterhaltungen und Konferenzen teilnehmen. Sie können Anwesenheitsinformationen für andere Benutzer abrufen (die auch ihre Anwesenheitsinformationen erhalten). Wenn Sie einen öffentlichen Chatanbieter verwenden, ist dies reine Peer-to-Peer-Kommunikation. Es werden jedoch sowohl SIP- als auch XMPP-Protokolle unterstützt.
     
@@ -47,10 +42,10 @@ Der externe Benutzerzugriff, der von Edgeservern bereitgestellt wird, lässt all
     
 Der Zugriff auf mobile Geräte wird ebenso wie Enterprise-VoIP unterstützt. Sie können externe Benutzer zu diesen Besprechungen einladen, an denen sie teilnehmen sollen, auch anonyme Benutzer, wenn Sie ihnen Berechtigungen erteilen möchten.
   
-Wenn dies nach etwas klingt, das Ihre Organisation benötigt, wird die Planung für eine Edgeumgebung eine große Hilfe bei der Bereitstellung sein. Weitere Informationen finden Sie in den unten aufgeführten Themen.
+Wenn dies nach etwas klingt, das Ihre Organisation benötigt, ist die Planung für eine Edgeumgebung eine große Hilfe bei der Bereitstellung. Weitere Informationen finden Sie in den unten aufgeführten Themen.
 
 > [!NOTE]
-> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds.](../../../SfBServer2019/migration/migrating-xmpp-federation.md) 
+> XMPP-Gateways und Proxys sind in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Weitere Informationen finden Sie unter [Migrieren des XMPP-Partnerverbunds](../../../SfBServer2019/migration/migrating-xmpp-federation.md) . 
   
 ## <a name="planning-topics"></a>Planungsthemen:
 

@@ -1,24 +1,19 @@
 ---
 title: Anruflistenbericht für Reaktionsgruppen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a2d3e08b-511b-4507-abba-8ff71aa27c8e
 description: 'Zusammenfassung: Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.'
-ms.openlocfilehash: df1ff0cb6e7eb4fcae8a506cf62bf075734f97eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837597"
 ---
+
 # <a name="response-group-call-list-report-in-skype-for-business-server"></a>Anruflistenbericht für Reaktionsgruppen in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie mehr über die Reaktionsgruppenanwendung in Skype for Business Server.
@@ -41,7 +36,7 @@ Der  Anruflistenbericht für Reaktionsgruppen stellt eine Sammlung von Anrufen d
 
 ## <a name="accessing-the-response-group-call-list-report"></a>Zugreifen auf den Anruflistenbericht für Reaktionsgruppen
 
-Auf den Anruflistenbericht für Reaktionsgruppen kann nur zugegriffen werden, indem Sie auf eine der folgenden Metriken klicken, die im Nutzungsbericht über [Reaktionsgruppen in Skype for Business Server](response-group-usage-report.md)zu finden sind:
+Auf den Anruflistenbericht für Reaktionsgruppen kann nur zugegriffen werden, indem Sie auf eine der folgenden Metriken im [Nutzungsbericht für Reaktionsgruppen in Skype for Business Server](response-group-usage-report.md) klicken:
 
 - Empfangene Anrufe
 
@@ -57,7 +52,7 @@ Auf den Anruflistenbericht für Reaktionsgruppen kann nur zugegriffen werden, in
 
 Mithilfe des Anruflistenberichts für Reaktionsgruppen können Sie die angezeigten Daten auf Anfrufe mit einem bestimmten Reaktionsgruppenworkflow beschränken. Dazu müssen Sie im Feld "Workflow-URI" den Workflow-URI (die SIP-Adresse des Workflows) eingeben. Bevor Sie dies tun können, muss das Feld "Workflow-URI" tatsächlich angezeigt werden. Wenn Sie die Filteroptionen für den Anruflistenbericht für Reaktionsgruppen anzeigen möchten, klicken Sie im oberen linken Teil des Berichtsfensters auf die Schaltfläche "Parameter ein-/ausblenden".
 
-Beachten Sie, dass im Anruflistenbericht für Reaktionsgruppen keine Informationen zum Antwortcode oder zur Diagnose-ID angezeigt werden, wenn Sie die Maus über eine dieser Metriken halten. Wenn Sie weitere Informationen benötigen, notieren Sie sich möglicherweise den Antwortcode und/oder die Diagnose-ID, und suchen Sie dann im [Bericht über häufigste Fehler in Skype for Business Server](top-failures-report.md)nach diesen Werten.
+Beachten Sie, dass im Anruflistenbericht für Reaktionsgruppen keine Informationen zum Antwortcode oder zur Diagnose-ID angezeigt werden, wenn Sie die Maus über eine dieser Metriken halten. Wenn Sie weitere Informationen benötigen, notieren Sie sich möglicherweise den Antwortcode und/oder die Diagnose-ID, und suchen Sie dann im [Bericht über häufigste Fehler in Skype for Business Server](top-failures-report.md) nach diesen Werten.
 
 Bei einer Frage wie "Welcher Einzelworkflow hat die meisten Anrufe empfangen?" können Sie die folgenden Aktionen ausführen:
 

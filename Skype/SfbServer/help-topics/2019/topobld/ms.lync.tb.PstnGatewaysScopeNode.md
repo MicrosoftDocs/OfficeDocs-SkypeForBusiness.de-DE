@@ -1,27 +1,22 @@
 ---
 title: PSTN-Gateways – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewaysScopeNode
+  - ms.lync.tb.PstnGatewaysScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7a11bae5-9c0e-4eea-9754-2e918e19eeff
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Im Knoten PSTN-Gateways werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 2cd65b5b0a7f7796ed80b6babe2c7f816c2d5001
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835703"
 ---
+
 # <a name="pstn-gateways-scope-node"></a>PSTN-Gateways – Bereichsknoten
  
 Im Knoten **PSTN-Gateways** werden die PSTN-Gateways (Public Switched Telephone Network) der Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:

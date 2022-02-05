@@ -1,28 +1,23 @@
 ---
 title: Edgeserverszenarien in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 ms.topic: conceptual
 manager: serdars
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Hybrid
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 7b9c211b-deb0-479d-b184-973f08b96d07
 description: 'Zusammenfassung: Überprüfen Sie diese Szenarien, um Ihre Edgeservertopologie in Skype for Business Server zu planen.'
-ms.openlocfilehash: f70dbf858757469d21ebb8b2e6d1ae5192ed0118
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838527"
 ---
+
 # <a name="edge-server-scenarios-in-skype-for-business-server"></a>Edgeserverszenarien in Skype for Business Server
  
 **Zusammenfassung:** Überprüfen Sie diese Szenarien, um Ihre Edgeservertopologie in Skype for Business Server zu planen.
@@ -35,7 +30,7 @@ Die Diagramme zeigen .com für die externe Schnittstelle und .net für die inter
   
 Wir schließen den Director (eine optionale Komponente) in keinem der Diagramme ein, aber Sie können dies separat lesen (dies wird in anderen Planungsthemen erwähnt).
   
-Wie oben erwähnt, sind beispiel-IPv6-Daten in den Diagrammen enthalten. Der Großteil der Dokumentation in ["Plan for Edge Server deployments in Skype for Business Server"](edge-server-deployments.md) bezieht sich auf IPv4, aber Sie werden mit Sicherheit unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und diese mit interner und externer Adressierung wie bei IPv4-IPs arbeiten müssen. Dank Windows können Sie die Funktion "Dualer Stapel" verwenden, bei der es sich um einen separaten und eindeutigen Netzwerkstapel für IPv4 und IPv6 handelt. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
+Wie oben erwähnt, sind beispiel-IPv6-Daten in den Diagrammen enthalten. Der Großteil der Dokumentation in [Plan for Edge Server deployments in Skype for Business Server](edge-server-deployments.md) bezieht sich auf IPv4, aber Sie werden durchaus unterstützt, wenn Sie IPv6 verwenden möchten. Beachten Sie, dass Sie IPv6-Adressen in Ihrem zugewiesenen Adressraum benötigen und diese mit interner und externer Adressierung wie bei IPv4-IPs arbeiten müssen. Dank Windows können Sie das Feature "Dualer Stapel" verwenden, bei dem es sich um einen separaten und eindeutigen Netzwerkstapel für IPv4 und IPv6 handelt. Auf diese Weise können Sie bei Bedarf IPv4- und IPv6-Adressen gleichzeitig zuweisen.
   
 Es gibt NAT-Geräte, die NAT64 (IPv6 zu IPv4) und NAT66 (IPv6 zu IPv6) zulassen. Dies gilt für die Verwendung mit Skype for Business Server.
   

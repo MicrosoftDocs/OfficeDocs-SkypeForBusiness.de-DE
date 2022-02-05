@@ -1,27 +1,22 @@
 ---
 title: Besprechungskonfiguration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ConfMeetingSettingMain
+  - ms.lync.lscp.ConfMeetingSettingMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 24e8f749-d54c-4315-a8fe-bb9303b356ef
-ROBOTS: NOINDEX, NOFOLLOW
-description: Besprechungskonfigurationseinstellungen definieren die Art von Konferenzen (auch alsMeetings bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.
-ms.openlocfilehash: 4eb66e999cfc8c3682e0c1f5b54004bf57efa1e7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831529"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Besprechungskonfigurationseinstellungen definieren die Art von Konferenzen (auch alsMeetings bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.'
 ---
+
 # <a name="meeting-configuration"></a>Besprechungskonfiguration
 
 Besprechungskonfigurationseinstellungen definieren die Art von Konferenzen (auch als "Besprechungen" bezeichnet), die Benutzer erstellen können, und steuern, wie (oder ob) anonyme Benutzer und Benutzer von Einwahlkonferenzen an diesen Konferenzen teilnehmen können. Diese Einstellungen gelten nur für geplante Besprechungen. Sie gelten nicht für Ad-hoc-Besprechungen, die durch Klicken auf die Option "Jetzt besprechen" im Client erstellt wurden.
@@ -61,8 +56,8 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Identifiziert die Besprechungskonfiguration.
+- **Namen** Identifiziert die Besprechungskonfiguration.
 
-- **Bereich** Gibt den Umfang der Besprechungskonfiguration an: global, standort oder pool.
+- **Umfang** Gibt den Umfang der Besprechungskonfiguration an: global, standort oder pool.
 
 Ausführliche Informationen zur Verwendung von Besprechungskonfigurationen finden Sie unter [Create a or modify a Collection of Meeting Configuration Settings](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-collection-of-meeting-configuration-settings) in der Betriebsdokumentation.

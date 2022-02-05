@@ -1,39 +1,34 @@
 ---
 title: Seite "Datenbank installieren" – Optionen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.InstallDatabaseOptionPage
+  - ms.lync.tb.InstallDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 926c47a0-3957-4892-b61a-7a4b569552c3
 description: 'Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank- und Protokolldateien in Ihrem SQL Server. Die verfügbaren Optionen lauten:'
-ms.openlocfilehash: 15b5d0caa859a6622f5b91644fb18117a1b2f8c5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857592"
 ---
+
 # <a name="install-database-options-page"></a>Seite „Datenbank installieren“ – Optionen
 
 Sie konfigurieren erweiterte Optionen für die Platzierung von Datenbank- und Protokolldateien in Ihrem SQL Server. Die verfügbaren Optionen lauten:
 
 > [!IMPORTANT]
-> Wählen Sie die Option aus, die Ihren Anforderungen und Richtlinien bezüglich der Platzierung von Daten und Protokolldateien auf Ihren SQL Server Computern am besten entspricht.
+> Wählen Sie die Option aus, die ihren Anforderungen und Richtlinien bezüglich der Platzierung von Daten und Protokolldateien auf Ihren SQL Server Computern am besten entspricht.
 
- Automatisches Bestimmen des Speicherorts der **Datenbankdatei:** Die Standardoption verwendet einen Algorithmus, der den verfügbaren Speicherplatz auf dem SQL Server bestimmt und die Datenbank und Protokolldateien für eine optimale Leistung verteilt.
+ **Automatisches Bestimmen des Speicherorts der Datenbankdatei**: Die Standardoption verwendet einen Algorithmus, der den verfügbaren Speicherplatz auf dem SQL Server bestimmt und die Datenbank und Protokolldateien für eine optimale Leistung verteilt.
 
- **Verwenden Sie SQL Server Instanzstandardeinstellungen:** Wählen Sie diese Option aus, um Datenbankdateien und Protokolldateien basierend auf den Instanzeinstellungen in SQL Server zu platzieren. Die Optionen werden normalerweise von Ihrem Datenbankadministrator verwaltet und konfiguriert.
+ **Verwenden Sie SQL Server Instanzstandardeinstellungen**: Wählen Sie diese Option aus, um Datenbankdateien und Protokolldateien basierend auf den Instanzeinstellungen in SQL Server zu platzieren. Die Optionen werden normalerweise von Ihrem Datenbankadministrator verwaltet und konfiguriert.
 
- **Wir verwenden diesen Pfad auf ziel SQL Server:** Wählen Sie diese Option aus, um Ihre eigenen Pfade für SQL Server Datenbank und Protokolldateien zu definieren, indem Sie den vollständigen Pfad zum Laufwerk und Ordner eingeben, in dem die Datenbank und die Protokolldateien abgelegt werden.
+ **Wir haben diesen Pfad auf ziel SQL Server**: Wählen Sie diese Option aus, um Ihre eigenen Pfade für SQL Server Datenbank und Protokolldateien zu definieren, indem Sie den vollständigen Pfad zum Laufwerk und Ordner eingeben, in dem die Datenbank und die Protokolldateien abgelegt werden.
 
 > [!IMPORTANT]
 > Möglicherweise werden die eingegebenen Pfade während der Installation mithilfe von Algorithmen zur Leistungsoptimierung geändert. Ausführliche Informationen finden Sie unter [Database Installation Using Lync Server Management Shell](/previous-versions/office/lync-server-2013/lync-server-2013-database-installation-using-lync-server-management-shell).

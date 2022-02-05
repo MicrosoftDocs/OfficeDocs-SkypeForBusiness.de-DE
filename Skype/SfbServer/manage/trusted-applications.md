@@ -1,26 +1,21 @@
 ---
 title: Verwalten vertrauenswürdiger Anwendungen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Eine vertrauenswürdige Anwendung ist eine Anwendung, die auf der Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK basiert, die von Skype for Business Server als vertrauenswürdig eingestuft wird.
-ms.openlocfilehash: d328eab38e44915998d05f3c16c2b1e4e2f1dc33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857472"
+description: 'Eine vertrauenswürdige Anwendung ist eine Anwendung, die auf der Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK basiert, die von Skype for Business Server als vertrauenswürdig eingestuft wird.'
 ---
+
 # <a name="manage-trusted-applications-in-skype-for-business-server"></a>Verwalten vertrauenswürdiger Anwendungen in Skype for Business Server
 
-Eine *vertrauenswürdige Anwendung* ist eine Anwendung, die auf der Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK basiert, die von Skype for Business Server als vertrauenswürdig eingestuft wird. Ausführliche Informationen zu UCMA-Anwendungen finden Sie unter "Unified Communications Managed API 3.0 Core SDK Documentation" unter https://go.microsoft.com/fwlink/p/?linkId=210320 .
+Eine *vertrauenswürdige Anwendung* ist eine Anwendung, die auf der Microsoft Unified Communications Managed API (UCMA) 3.0 Core SDK basiert, die von Skype for Business Server als vertrauenswürdig eingestuft wird. Ausführliche Informationen zu UCMA-Anwendungen finden Sie unter "Unified Communications Managed API 3.0 Core SDK Documentation" unter https://go.microsoft.com/fwlink/p/?linkId=210320.
 
 Für eine erfolgreiche Veröffentlichung, Aktivierung oder Deaktivierung einer Topologie beim Hinzufügen oder Entfernen einer Serverrolle müssen Sie als Mitglied der Gruppen "RTCUniversalServerAdmins" und "Domänen-Admins" angemeldet sein. 
 
@@ -30,21 +25,21 @@ In diesem Artikel erfahren Sie, wie Sie einen neuen vertrauenswürdigen Anwendun
 
 1.  Melden Sie sich auf dem Computer, auf dem der Topologie-Generator installiert ist, als Mitglied der Gruppe "Domänen-Admins" oder "RTCUniversalServerAdmins" an.
 
-2.  Topologie-Generator starten: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business Server"** und dann auf **Skype for Business Server Topologie-Generator.**
+2.  Topologie-Generator starten: Klicken Sie auf **"Start**", "**Alle Programme**", auf **"Skype for Business Server**" und dann auf **Skype for Business Server Topologie-Generator**.
 
 3.  Wählen Sie **Topologie aus einer vorhandenen Bereitstellung herunterladen**, und klicken Sie dann auf **OK**.
 
-4.  Klicken **Sie** im Dialogfeld Topologie speichern unter auf die Topologie-Generator-Datei, die Sie verwenden möchten, und klicken Sie dann auf **Speichern**.
+4.  Klicken Sie im Dialogfeld Topologie **speichern unter** auf die Topologie-Generator-Datei, die Sie verwenden möchten, und klicken Sie dann auf **"Speichern**".
 
-5.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **"Vertrauenswürdige Anwendungsserver",** und klicken Sie dann auf **"Neuer vertrauenswürdiger Anwendungspool".**
+5.  Klicken Sie im linken Bereich mit der rechten Maustaste auf **"Vertrauenswürdige Anwendungsserver**", und klicken Sie dann auf **"Neuer vertrauenswürdiger Anwendungspool"**.
 
-6.  Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools ein, wählen Sie aus, ob es sich um einen einzelnen oder mehrere Server handelt, und klicken Sie dann auf **"Weiter".**
+6.  Geben Sie den **Pool-FQDN** des vertrauenswürdigen Anwendungspools ein, wählen Sie aus, ob es sich um einen einzelnen oder mehrere Server handelt, und klicken Sie dann auf **"Weiter**".
 
-7.  Wählen Sie auf der Seite **"Nächsten Hop auswählen"** in der Liste den Skype for Business Server Front-End-Pool aus.
+7.  Wählen **Sie auf der Seite "Nächsten Hop auswählen**" in der Liste den Skype for Business Server Front-End-Pool aus.
 
 8.  Klicken Sie auf **Fertig stellen**.
 
-9.  Wählen Sie den oberen Knoten **Skype for Business Server** aus, und klicken Sie dann im Menü **"Aktionen"** auf **"Topologie veröffentlichen".**
+9.  Wählen Sie den oberen Knoten **Skype for Business Server** aus, und klicken Sie dann im Menü **"Aktionen**" auf "**Topologie veröffentlichen**".
     
     Der **vertrauenswürdige Anwendungspool** sollte erfolgreich erstellt und dem richtigen Front-End-Pool zugeordnet worden sein.
 
@@ -70,14 +65,14 @@ In der Skype for Business Server Systemsteuerung können Sie den Namen der Anwen
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.
 
-3.  Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **"Vertrauenswürdige Anwendung".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Topologie**" und dann auf **"Vertrauenswürdige Anwendung**".
 
 4.  Klicken Sie auf der Seite **Vertrauenswürdige Anwendung** auf eine Spaltenüberschrift, um die Anwendungen bei Bedarf zu sortieren.
 
 
 ## <a name="view-trusted-application-information"></a>Anzeigen von Informationen zu vertrauenswürdigen Anwendungen
 
-Mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsTrustedApplication"** können Sie Informationen zu Ihren vertrauenswürdigen Anwendungen anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsTrustedApplication**" können Sie Informationen zu Ihren vertrauenswürdigen Anwendungen anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 
 ### <a name="to-view-trusted-applications"></a>So zeigen Sie vertrauenswürdige Anwendungen an

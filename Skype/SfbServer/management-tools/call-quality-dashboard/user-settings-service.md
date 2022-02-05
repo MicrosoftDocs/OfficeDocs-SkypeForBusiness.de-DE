@@ -1,28 +1,23 @@
 ---
 title: User Einstellungen Service for Call Quality Dashboard (CQD)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eafeb54a-2574-415b-b991-a0ff0470d8c3
 description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzer-Einstellungen-Dienst, der Teil der Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 81abbc31a82fc696a5bcb45faf4120b71fc26f74
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856582"
 ---
+
 # <a name="user-settings-service-for-call-quality-dashboard-cqd"></a>User Einstellungen Service for Call Quality Dashboard (CQD)
  
-**Zusammenfassung:** Erfahren Sie mehr über den Benutzer-Einstellungen-Dienst, der Teil der Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
+**Zusammenfassung:** Erfahren Sie mehr über den Benutzer-Einstellungen-Dienst, der Teil der Repository-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
   
 Der Benutzer-Einstellungen-Dienst ist Teil der Repository-API für das Anrufqualitäts-Dashboard.
   

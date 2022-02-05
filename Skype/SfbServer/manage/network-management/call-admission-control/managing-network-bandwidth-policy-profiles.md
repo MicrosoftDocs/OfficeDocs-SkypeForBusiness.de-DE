@@ -1,23 +1,19 @@
 ---
 title: Verwalten von Netzwerkbandbreite-Richtlinienprofilen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Verwenden Sie die Verfahren in diesem Artikel, um Richtlinienprofile für die Netzwerkbandbreite anzuzeigen, zu erstellen, zu ändern oder zu löschen.
-ms.openlocfilehash: fee0d4f57847747b0e25c98bc99183daa22a9996
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850998"
+description: 'Verwenden Sie die Verfahren in diesem Artikel, um Richtlinienprofile für die Netzwerkbandbreite anzuzeigen, zu erstellen, zu ändern oder zu löschen.'
 ---
+
+
 # <a name="managing-network-bandwidth-policy-profiles-in-skype-for-business-server"></a>Verwalten von Richtlinienprofilen für die Netzwerkbandbreite in Skype for Business Server
 
 Verwenden Sie die Verfahren in diesem Artikel, um Richtlinienprofile für die Netzwerkbandbreite anzuzeigen, zu erstellen, zu ändern oder zu löschen.
@@ -34,17 +30,17 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 
 3.  Klicken Sie auf der linken Navigationsleiste auf **Netzwerkkonfiguration** und dann auf **Bandbreitenrichtlinie**.
 
-4.  Klicken Sie auf der Seite **"Bandbreitenrichtlinie"** auf das Bandbreitenrichtlinienprofil, das Sie anzeigen möchten.
+4.  Klicken Sie auf der Seite **"Bandbreitenrichtlinie** " auf das Bandbreitenrichtlinienprofil, das Sie anzeigen möchten.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details einblenden**.
 
 
 ### <a name="viewing-network-bandwidth-policy-profile-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkbandbreitenrichtlinienprofilinformationen mithilfe Windows PowerShell Cmdlets
 
-Netzwerkbandbreitenprofile können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkBandwidthPolicyProfile angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Netzwerkbandbreitenprofile können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkBandwidthPolicyProfile angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 
-### <a name="to-view-network-bandwidth-policy-profile-information"></a>So zeigen Sie Netzwerkbandbreiten-Richtlinienprofilinformationen an
+### <a name="to-view-network-bandwidth-policy-profile-information"></a>So zeigen Sie Informationen zum Netzwerkbandbreiten-Richtlinienprofil an
 
   - Um Informationen zu allen Netzwerkbandbreitenrichtlinienprofilen anzuzeigen, geben Sie den folgenden Befehl in die Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
     
@@ -73,7 +69,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Bandbreitenrichtlinie".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Bandbreitenrichtlinie**".
 
 4.  Klicken Sie auf der Seite **Bandbreitenrichtlinie** auf **Neu**.
 
@@ -101,13 +97,13 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Bandbreitenrichtlinie".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Bandbreitenrichtlinie**".
 
 4.  Klicken Sie auf der Seite **Bandbreitenrichtlinie** auf das Bandbreitenrichtlinienprofil, das geändert werden soll.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 
-6.  Ändern Sie auf der Seite **"Bandbreitenrichtlinienprofil bearbeiten"** die Felder nach Bedarf (Ausführliche Informationen finden Sie unter ["So erstellen Sie ein neues Bandbreitenrichtlinienprofil").](#to-create-a-new-bandwidth-policy-profile)
+6.  Ändern Sie auf der Seite **"Bandbreitenrichtlinienprofil bearbeiten** " die Felder nach Bedarf (Ausführliche Informationen finden Sie unter ["So erstellen Sie ein neues Bandbreitenrichtlinienprofil](#to-create-a-new-bandwidth-policy-profile)").
 
 7.  Klicken Sie auf **Commit**.
 
@@ -125,7 +121,7 @@ Im Rahmen der Anrufsteuerung wird eine Bandbreitenrichtlinie dazu verwendet, Ban
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Bandbreitenrichtlinie".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Bandbreitenrichtlinie**".
 
 4.  Klicken Sie auf der Seite **Bandbreitenrichtlinie** auf das Richtlinienprofil der Bandbreite, das Sie löschen möchten.
 

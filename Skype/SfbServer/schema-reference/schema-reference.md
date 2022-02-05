@@ -1,24 +1,19 @@
 ---
 title: Schemareferenz für Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 565e3675-a30a-4962-9e12-738ba8c0a19a
-ms.openlocfilehash: f49cc3a681a6b7adaa08232145decbe4d2e58540
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863222"
 ---
+
 # <a name="schema-reference-for-skype-for-business-server-2015"></a>Schemareferenz für Skype for Business Server 2015
  
 

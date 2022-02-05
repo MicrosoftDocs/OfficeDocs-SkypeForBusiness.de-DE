@@ -1,7 +1,7 @@
 ---
 title: Eingehende Anrufe in Skype for Business Online blockieren
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
@@ -10,16 +10,11 @@ ms.collection: Adm_Skype4B_Online
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-- Skype for Business
+  - Skype for Business
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking in Skype for Business Online.
-ms.openlocfilehash: 0c40bea45d569a8887f23c38a62efe03977ad461
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840627"
 ---
+
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
 [!INCLUDE [sfbo-retirement](../../Hub/includes/sfbo-retirement.md)]

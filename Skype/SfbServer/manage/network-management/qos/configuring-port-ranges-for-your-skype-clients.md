@@ -1,27 +1,22 @@
 ---
 title: Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients
-ms.reviewer: ''
-ms:assetid: 287d5cea-7ada-461c-9b4a-9da2af315e71
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)
-ms:contentKeyID: 48183694
+ms.reviewer: null
+'ms:assetid': 287d5cea-7ada-461c-9b4a-9da2af315e71
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ204760(v=OCS.15)'
+'ms:contentKeyID': 48183694
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfigurieren und Quality of Service-Richtlinien in Skype for Business Server für Clients konfigurieren, die auf Windows 10 ausgeführt werden.
-ms.openlocfilehash: 5fa7a425bbb734307b487f63aa7fdf809f627661
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860072"
+description: 'In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfigurieren und Quality of Service-Richtlinien in Skype for Business Server für Clients konfigurieren, die auf Windows 10 ausgeführt werden.'
 ---
+
 # <a name="configuring-port-ranges-and-a-quality-of-service-policy-for-your-clients-in-skype-for-business-server"></a>Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server
 
 In diesem Artikel wird beschrieben, wie Sie Portbereiche für Ihre Clients konfigurieren und Quality of Service-Richtlinien in Skype for Business Server für Clients konfigurieren, die auf Windows 10 ausgeführt werden.
@@ -54,7 +49,7 @@ Wenn Sie sich die vorherige Ausgabe genauer ansehen, werden Sie zwei wichtige As
 
 **ClientMediaPortRangeEnabled : False**
 
-Dies ist wichtig, da bei Festlegung dieser Eigenschaft auf "False" Skype for Business Clients einen beliebigen verfügbaren Port zwischen ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. dies gilt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf einen bestimmten Satz von Ports beschränken möchten (und dies ist etwas, was Sie tun möchten, wenn Sie quality of Service implementieren möchten), müssen Sie zuerst Clientmedienportbereiche aktivieren. Dies kann mit dem folgenden befehl Windows PowerShell erfolgen:
+Dies ist wichtig, da Skype for Business Clients, wenn diese Eigenschaft auf "False" festgelegt ist, einen beliebigen verfügbaren Port zwischen den Ports 1024 und 65535 verwenden, wenn sie an einer Kommunikationssitzung beteiligt sind. Dies gilt unabhängig von anderen Porteinstellungen (z. B. ClientMediaPort oder ClientVideoPort). Wenn Sie die Verwendung auf einen bestimmten Satz von Ports beschränken möchten (und dies ist etwas, was Sie tun möchten, wenn Sie quality of Service implementieren möchten), müssen Sie zuerst Clientmedienportbereiche aktivieren. Dies kann mit dem folgenden Befehl Windows PowerShell erfolgen:
 
 **Set-CsConferencingConfiguration -ClientMediaPortRangeEnabled $True**
 
@@ -169,27 +164,27 @@ Im folgenden Beispiel werden diese Portbereiche verwendet, um eine Audio- und ei
 </tbody>
 </table>
 
-Um eine Quality of Service-Audiorichtlinie für Windows 10 Computer zu erstellen, melden Sie sich zunächst bei einem Computer an, auf dem die Gruppenrichtlinienverwaltung installiert wurde. Öffnen Sie die Gruppenrichtlinienverwaltung (klicken Sie auf **"Start",** zeigen Sie auf **"Verwaltungstools",** und klicken Sie dann auf **"Gruppenrichtlinienverwaltung"),** und führen Sie dann das folgende Verfahren aus:
+Um eine Quality of Service-Audiorichtlinie für Windows 10 Computer zu erstellen, melden Sie sich zunächst bei einem Computer an, auf dem die Gruppenrichtlinienverwaltung installiert wurde. Öffnen Sie die Gruppenrichtlinienverwaltung (klicken Sie auf **"Start**", zeigen Sie auf **"Verwaltungstools**", und klicken Sie dann auf **"Gruppenrichtlinienverwaltung**"), und führen Sie dann das folgende Verfahren aus:
 
 1.  Suchen Sie in der Gruppenrichtlinienverwaltung nach dem Container, in dem die neue Richtlinie erstellt werden soll. Wenn sich beispielsweise alle Clientcomputer in einer OE namens "Clients" befinden, sollte die neue Richtlinie in der Client-OU erstellt werden.
 
-2.  Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf **"Gruppenrichtlinienobjekt in dieser Domäne erstellen", und verknüpfen Sie es hier.**
+2.  Klicken Sie mit der rechten Maustaste auf den entsprechenden Container, und klicken Sie dann auf " **Gruppenrichtlinienobjekt in dieser Domäne erstellen", und verknüpfen Sie es hier**.
 
-3.  Geben Sie im Dialogfeld **Neues Gruppenrichtlinienobjekt** im **Feld "Name"** einen Namen für das neue Gruppenrichtlinienobjekt ein, und klicken Sie dann auf **"OK".**
+3.  Geben Sie im Dialogfeld **Neues Gruppenrichtlinienobjekt** im Feld " **Name** " einen Namen für das neue Gruppenrichtlinienobjekt ein, und klicken Sie dann auf **"OK**".
 
-4.  Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **"Bearbeiten".**
+4.  Klicken Sie mit der rechten Maustaste auf die neu erstellte Richtlinie, und klicken Sie dann auf **"Bearbeiten**".
 
-5.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor die **Computerkonfiguration,** erweitern Sie **Windows Einstellungen,** klicken Sie mit der rechten Maustaste auf **richtlinienbasiertes QoS,** und klicken Sie dann auf **"Neue Richtlinie erstellen".**
+5.  Erweitern Sie im Gruppenrichtlinienverwaltungs-Editor die **Computerkonfiguration**, erweitern Sie **Windows Einstellungen**, klicken Sie mit der rechten Maustaste auf **richtlinienbasiertes QoS**, und klicken Sie dann auf **"Neue Richtlinie erstellen**".
 
-6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS"** auf der ersten Seite einen Namen für die neue Richtlinie in das **Feld "Name"** ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
+6.  Geben Sie im Dialogfeld **"Richtlinienbasierter QoS** " auf der ersten Seite einen Namen für die neue Richtlinie in das **Feld "Name** " ein. Klicken Sie auf **DSCP-Wert angeben** und legen Sie den Wert auf **46** fest. Lassen Sie das Kontrollkästchen **Ausgehende Drosselungsrate angeben** deaktiviert, und klicken Sie dann auf **Weiter**.
 
-7.  Wählen Sie auf der nächsten Seite **"Nur Anwendungen mit diesem ausführbaren Namen"** aus, geben **SieLync.exe** als Namen ein, und klicken Sie dann auf **"Weiter".** Diese Einstellung weist die Richtlinie an, nur übereinstimmenden Datenverkehr vom Skype for Business-Client zu priorisieren.
+7.  Wählen Sie auf der nächsten Seite **"Nur Anwendungen mit diesem ausführbaren Namen**" aus, geben **SieLync.exe** als Namen ein, und klicken Sie dann auf **"Weiter**". Diese Einstellung weist die Richtlinie an, nur den übereinstimmenden Datenverkehr vom Skype for Business-Client zu priorisieren.
 
-8.  Stellen Sie auf der dritten Seite sicher, dass sowohl **eine Beliebige Quell-IP-Adresse** als auch **eine beliebige Ziel-IP-Adresse** ausgewählt sind, und klicken Sie dann auf **"Weiter".** Durch diese beiden Einstellungen wird sichergestellt, dass Pakete unabhängig davon verwaltet werden, welcher Computer (IP-Adresse) diese Pakete gesendet hat und welcher Computer (IP-Adresse) sie empfangen wird.
+8.  Stellen Sie auf der dritten Seite sicher, dass sowohl **eine beliebige Quell-IP-Adresse** als auch **eine beliebige Ziel-IP-Adresse** ausgewählt sind, und klicken Sie dann auf **"Weiter**". Durch diese beiden Einstellungen wird sichergestellt, dass Pakete unabhängig davon verwaltet werden, welcher Computer (IP-Adresse) diese Pakete gesendet hat und welcher Computer (IP-Adresse) sie empfangen wird.
 
 9.  Wählen Sie auf der vierten Seite in der Dropdownliste **Wählen Sie das Protokoll aus, auf das diese QoS-Richtlinie angewendet wird** die Option **TCP und UDP** aus. TCP (Transmission Control Protocol) und UDP (User Datagram Protocol) sind die beiden Netzwerkprotokolle, die am häufigsten von Skype for Business Server und seinen Clientanwendungen verwendet werden.
 
-10. Wählen Sie unter der Überschrift **"Quellportnummer angeben"** die Option **"Von diesem Quellport oder -bereich" aus.** Geben Sie im zugehörigen Textfeld den Portbereich ein, der für Audioübertragungen reserviert ist. Wenn Sie beispielsweise die Ports 50020 bis Ports 50039 für Audiodatenverkehr reserviert haben, geben Sie den Portbereich in folgendem Format ein: **50020:50039**. Klicken Sie auf **Fertig stellen**.
+10. Wählen Sie unter der Überschrift **"Quellportnummer angeben**" **die Option "Von diesem Quellport oder -bereich" aus**. Geben Sie im zugehörigen Textfeld den Portbereich ein, der für Audioübertragungen reserviert ist. Wenn Sie beispielsweise die Ports 50020 bis Ports 50039 für Audiodatenverkehr reserviert haben, geben Sie den Portbereich in folgendem Format ein: **50020:50039**. Klicken Sie auf **Fertig stellen**.
 
 Nachdem Sie die QoS-Richtlinie für Audio erstellt haben, sollten Sie eine zweite Richtlinie für Video erstellen. Zum Erstellen einer Richtlinie für Video wenden Sie dasselbe Grundverfahren wie beim Erstellen der Audiorichtlinie an und ändern dabei Folgendes:
 
@@ -201,19 +196,19 @@ Nachdem Sie die QoS-Richtlinie für Audio erstellt haben, sollten Sie eine zweit
 
 Wenn Sie eine Richtlinie für die Verwaltung des Datenverkehrs für die Anwendungsfreigabe erstellen möchten, nehmen Sie diese Ersetzungen vor:
 
-  - Verwenden Sie einen anderen (und eindeutigen) Richtliniennamen (z. **B. Skype for Business Server Anwendungsfreigabe).**
+  - Verwenden Sie einen anderen (und eindeutigen) Richtliniennamen (z. **B. Skype for Business Server Anwendungsfreigabe**).
 
   - Legen Sie den DSCP-Wert auf **24** anstelle von 46 fest. (Auch hier muss dieser Wert nicht 24 sein; er muss einfach von den DSCP-Werten für Audio und Video abweichen.)
 
-  - Verwenden Sie den zuvor konfigurierten Portbereich für Videodatenverkehr. Wenn Sie beispielsweise die Ports 42000 bis 42019 für die Anwendungsfreigabe reserviert haben, legen Sie den Portbereich auf folgendes fest: **42000:42019**.
+  - Verwenden Sie den zuvor konfigurierten Portbereich für Videodatenverkehr. Wenn Sie beispielsweise die Ports 42000 bis 42019 für die Anwendungsfreigabe reserviert haben, legen Sie den Portbereich auf **42000:42019** fest.
 
 Für eine Dateiübertragungsrichtlinie:
 
-  - Verwenden Sie einen anderen (und eindeutigen) Richtliniennamen (z. **B. Skype for Business Server Dateiübertragungen).**
+  - Verwenden Sie einen anderen (und eindeutigen) Richtliniennamen (z. **B. Skype for Business Server Dateiübertragungen**).
 
   - Legen Sie den DSCP-Wert auf **14** fest. (Auch hier muss dieser Wert nicht 14 sein; er muss einfach ein eindeutiger DSCP-Code sein.)
 
-  - Verwenden Sie den zuvor konfigurierten Portbereich für die Anwendung. Wenn Sie beispielsweise die Ports 42020 bis 42039 für die Anwendungsfreigabe reserviert haben, legen Sie den Portbereich auf folgendes fest: **42020:42039**.
+  - Verwenden Sie den zuvor konfigurierten Portbereich für die Anwendung. Wenn Sie beispielsweise die Ports 42020 bis 42039 für die Anwendungsfreigabe reserviert haben, legen Sie den Portbereich auf **42020:42039** fest.
 
 Die neuen Richtlinien, die Sie erstellt haben, werden erst wirksam, wenn die Gruppenrichtlinie auf Ihren Clientcomputern aktualisiert wurde. Gruppenrichtlinien werden zwar regelmäßig automatisch aktualisiert, Sie können jedoch eine sofortige Aktualisierung erzwingen, indem Sie den folgenden Befehl auf jedem Computer ausführen, auf dem die Gruppenrichtlinien aktualisiert werden müssen:
 
@@ -227,15 +222,15 @@ Um sicherzustellen, dass Netzwerkpakete mit dem richtigen DSCP-Wert markiert sin
 
 1.  Klicken Sie auf **Start** und anschließend auf **Ausführen**.
 
-2.  Geben **Sie** im Dialogfeld Ausführen **regedit ein,** und drücken Sie dann die EINGABETASTE.
+2.  Geben Sie im Dialogfeld **Ausführen** **regedit** ein, und drücken Sie dann die EINGABETASTE.
 
-3.  Erweitern Sie im Registrierungs-Editor **"HKEY \_ LOCAL \_ MACHINE",** **"SYSTEM",** **"CurrentControlSet",** **"Dienste"** und dann **"Tcpip".**
+3.  Erweitern Sie im Registrierungs-Editor **"HKEYLOCALMACHINE\_\_**", "**SYSTEM**", "**CurrentControlSet**", "**Dienste**" und dann "**Tcpip**".
 
 4.  Klicken Sie mit der rechten Maustaste auf **Tcpip** zeigen Sie auf **Neu**, und klicken Sie dann auf **Schlüssel**. Geben Sie nach dem Erstellen des neuen **Registrierungsschlüssels QoS** ein, und drücken Sie dann die EINGABETASTE, um die Taste umzubenennen.
 
 5.  Klicken Sie mit der rechten Maustaste auf **QoS**, zeigen Sie auf **Neu**, und klicken Sie dann auf **Zeichenfolgenwert**. Geben Sie nach dem Erstellen des neuen Registrierungswerts **"NLA nicht verwenden"** ein, und drücken Sie dann die EINGABETASTE, um den Wert umzubenennen.
 
-6.  Doppelklicken Sie nicht auf **"NLA verwenden".** Geben **Sie** im Dialogfeld Zeichenfolge bearbeiten im **Feld Wert** den Wert **1** ein, und klicken Sie dann auf **OK.**
+6.  Doppelklicken **Sie auf "NLA nicht verwenden"**. In the **Edit String** dialog box, type **1** in the **Value data** box, and then click **OK**.
 
 7.  Schließen Sie den Registrierungs-Editor, und starten Sie Ihren Computer.
 
@@ -247,15 +242,15 @@ Wenn Sie DSCP-Werte für alle Netzwerkadapter auf einem Computer markieren möch
 
 1.  Klicken Sie auf **Start** und anschließend auf **Ausführen**.
 
-2.  Geben **Sie** im Dialogfeld Ausführen **regedit ein,** und drücken Sie dann die EINGABETASTE.
+2.  Geben Sie im Dialogfeld **Ausführen** **regedit** ein, und drücken Sie dann die EINGABETASTE.
 
-3.  Erweitern Sie im Registrierungs-Editor **"HKEY \_ LOCAL \_ MACHINE",** **"SYSTEM",** **"CurrentControlSet",** **"Dienste"** und dann **"Tcpip".**
+3.  Erweitern Sie im Registrierungs-Editor **"HKEYLOCALMACHINE\_\_**", "**SYSTEM**", "**CurrentControlSet**", "**Dienste**" und dann "**Tcpip**".
 
-4.  Wenn kein Registrierungsschlüssel mit der Bezeichnung **QoS** angezeigt wird, klicken Sie mit der rechten Maustaste auf **Tcpip,** zeigen Sie auf **"Neu",** und klicken Sie dann auf **"Schlüssel".** Geben Sie nach dem Erstellen der neuen Taste **QoS** ein, und drücken Sie dann die EINGABETASTE, um die Taste umzubenennen.
+4.  Wenn kein Registrierungsschlüssel mit der Bezeichnung **QoS** angezeigt wird, klicken Sie mit der rechten Maustaste auf **Tcpip**, zeigen Sie auf **"Neu"**, und klicken Sie dann auf **"Schlüssel**". Geben Sie nach dem Erstellen der neuen Taste **QoS** ein, und drücken Sie die EINGABETASTE, um die Taste umzubenennen.
 
 5.  Klicken Sie mit der rechten Maustaste auf **QoS**, zeigen Sie auf **Neu**, und klicken Sie dann auf **Zeichenfolgenwert**. Geben Sie nach dem Erstellen des neuen Registrierungswerts **"NLA nicht verwenden"** ein, und drücken Sie dann die EINGABETASTE, um den Wert umzubenennen.
 
-6.  Doppelklicken Sie nicht auf **"NLA verwenden".** Geben **Sie** im Dialogfeld Zeichenfolge bearbeiten im **Feld Wert** den Wert **1** ein, und klicken Sie dann auf **OK.**
+6.  Doppelklicken **Sie auf "NLA nicht verwenden"**. In the **Edit String** dialog box, type **1** in the **Value data** box, and then click **OK**.
 
 Nach dem Erstellen und Konfigurieren des neuen Registrierungswerts müssen Sie ihren Computer neu starten, damit die Änderungen wirksam werden.
 

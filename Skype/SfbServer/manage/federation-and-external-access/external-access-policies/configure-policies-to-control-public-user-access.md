@@ -1,27 +1,23 @@
 ---
 title: Konfigurieren von Richtlinien zur Steuerung des öffentlichen Benutzerzugriffs
-ms.reviewer: ''
-ms:assetid: 090aea0f-ef0b-49da-9c80-02d9279f2fa6
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)
-ms:contentKeyID: 48183343
+ms.reviewer: null
+'ms:assetid': 090aea0f-ef0b-49da-9c80-02d9279f2fa6
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg520946(v=OCS.15)'
+'ms:contentKeyID': 48183343
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Die chatbasierte Chatkonnektivität ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chatnachrichten, um mit Benutzern von Chatdiensten zu kommunizieren, die von öffentlichen Chatdienstanbietern bereitgestellt werden.
-ms.openlocfilehash: b5c7d75a6048a584fcb872ed8eb3cd82dfe2076f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847308"
+description: 'Die chatbasierte Chatkonnektivität ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chatnachrichten, um mit Benutzern von Chatdiensten zu kommunizieren, die von öffentlichen Chatdienstanbietern bereitgestellt werden.'
 ---
+
+
 # <a name="configure-policies-to-control-public-user-access-in-skype-for-business-server"></a>Konfigurieren von Richtlinien zum Steuern des öffentlichen Benutzerzugriffs in Skype for Business Server
 
 Die Verbindung mit öffentlichen Chatnachrichten ermöglicht Benutzern in Ihrer Organisation die Verwendung von Chatnachrichten, um mit Benutzern von Chatdiensten zu kommunizieren, die von öffentlichen Chatdienstanbietern bereitgestellt werden. Sie konfigurieren eine oder mehrere Zugriffsrichtlinien für externe Benutzer, um zu steuern, ob öffentliche Benutzer mit internen Skype for Business Server Benutzern zusammenarbeiten können. Die Verbindung mit öffentlichen Chatnachrichten ist ein zusätzliches Feature, das auf der Konfiguration Ihrer Bereitstellung und der Benutzer basiert. Es hängt auch von der Bereitstellung des Diensts beim öffentlichen Chatanbieter ab. 
@@ -33,7 +29,7 @@ Im Fall von Sofortnachrichten-Einladungen hängt die Antwort von der Clientsoftw
 
 
 > [!NOTE]  
-> Sie können auch dann Richtlinien zur Steuerung des Zugriffs durch öffentliche Benutzer konfigurieren, wenn Sie den Partnerverbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien treten jedoch erst dann in Kraft, wenn der Partnerverbund für Ihre Organisation aktiviert ist. Ausführliche Informationen zum Aktivieren des Partnerverbunds finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md) Wenn Sie außerdem eine Benutzerrichtlinie zum Steuern des öffentlichen Benutzerzugriffs angeben, gilt die Richtlinie nur für Benutzer, die für Skype for Business Server aktiviert und für die Verwendung der Richtlinie konfiguriert sind. Ausführliche Informationen zum Angeben öffentlicher Benutzer, die sich bei Skype for Business Server anmelden können, finden Sie unter [Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer.](assign-an-external-user-access-policy.md)
+> Sie können auch dann Richtlinien zur Steuerung des Zugriffs durch öffentliche Benutzer konfigurieren, wenn Sie den Partnerverbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien treten jedoch erst dann in Kraft, wenn der Partnerverbund für Ihre Organisation aktiviert ist. Ausführliche Informationen zum Aktivieren des Partnerverbunds finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md). Wenn Sie außerdem eine Benutzerrichtlinie zum Steuern des öffentlichen Benutzerzugriffs angeben, gilt die Richtlinie nur für Benutzer, die für Skype for Business Server aktiviert und für die Verwendung der Richtlinie konfiguriert sind. Ausführliche Informationen zum Angeben öffentlicher Benutzer, die sich bei Skype for Business Server anmelden können, finden Sie unter [Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer](assign-an-external-user-access-policy.md).
 
 
 Gehen Sie folgendermaßen vor, um eine Richtlinie zur Unterstützung des Zugriffs durch Benutzer eines oder mehrerer öffentlicher Sofortnachrichtenanbieter zu konfigurieren.
@@ -66,7 +62,7 @@ Gehen Sie folgendermaßen vor, um eine Richtlinie zur Unterstützung des Zugriff
 
 7.  Klicken Sie auf **Commit**.
 
-Um den Zugriff durch öffentliche Benutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerverbund in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs in Skype for Business Server.](configure-policies-to-control-federated-user-access.md)
+Um den Zugriff durch öffentliche Benutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerverbund in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs in Skype for Business Server](configure-policies-to-control-federated-user-access.md).
 
 Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf öffentliche Benutzer anwenden, die mit öffentlichen Benutzern zusammenarbeiten sollen. 
 

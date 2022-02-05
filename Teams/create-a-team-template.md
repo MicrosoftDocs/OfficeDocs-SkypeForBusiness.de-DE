@@ -1,28 +1,23 @@
 ---
 title: Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: aaglick
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einer Microsoft Teams.
+description: 'Erfahren Sie, wie Sie eine benutzerdefinierte Teamvorlage in einer Microsoft Teams.'
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: a7bb0805705797587f9475fe7a6ee759165e884b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864482"
+  - Microsoft Teams
 ---
+
 # <a name="create-a-custom-team-template-in-microsoft-teams"></a>Erstellen einer benutzerdefinierten Teamvorlage in Microsoft Teams
 
 **Benutzerdefinierte Vorlagen werden für EDU-Kunden noch nicht unterstützt.**
@@ -38,24 +33,24 @@ Erste Schritte:
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern Sie im linken Navigationsbereich das **Teams**  >  **Teamvorlagen**.
+2. Erweitern Sie im linken Navigationsbereich die **Teams** >  **teamvorlagen**.
 
 3. Klicken Sie auf **Hinzufügen**.
 
     ![Abbildung des Dialogfelds "Teamvorlagen" mit hervorgehobener Hervorhebung "Hinzufügen".](media/team-templates-new.png)
 
-4. Wählen Sie **im Abschnitt Teamvorlagen** die Option **Neue Vorlage erstellen aus.**
+4. Wählen Sie **im Abschnitt Teamvorlagen** die Option **Neue Vorlage erstellen aus**.
 
-5. Füllen Sie **im Abschnitt Vorlageneinstellungen** die folgenden Felder aus, und wählen Sie dann Weiter **aus:**
+5. Füllen Sie **im Abschnitt Vorlageneinstellungen** die folgenden Felder aus, und wählen Sie dann Weiter **aus**:
     - Vorlagenname
     - Kurze und lange Beschreibungen von Vorlagen
     - Sichtbarkeit des Locale  
 
     ![Abbildung des Einstellungsdialogfelds für Teamvorlagen](media/template-add-a-name.png)
 
-6. Fügen Sie **im Abschnitt Kanäle, Registerkarten** und Apps alle Kanäle und Apps hinzu, die Ihr Team benötigt.
+6. Fügen Sie **im Abschnitt Kanäle, Registerkarten und Apps** alle Kanäle und Apps hinzu, die Ihr Team benötigt.
 
-    1. Wählen Sie **im Abschnitt** Kanäle die Option **Hinzufügen aus.**
+    1. Wählen Sie **im Abschnitt** Kanäle die Option **Hinzufügen aus**.
     2. Geben Sie **dem Kanal** im Dialogfeld Hinzufügen einen Namen.
     3. Fügen Sie eine Beschreibung hinzu.
     4. Entscheiden Sie, ob der Kanal standardmäßig angezeigt werden soll.
@@ -82,7 +77,7 @@ Erste Schritte:
 
 1. Erstellen Sie eine neue Teamvorlage, oder bearbeiten Sie eine vorhandene Teamvorlage.
 
-2. Fügen Sie im Abschnitt Kanäle einen neuen Kanal hinzu, oder wählen Sie einen vorhandenen Kanal und dann **Bearbeiten aus.**
+2. Fügen Sie im Abschnitt Kanäle einen neuen Kanal hinzu, oder wählen Sie einen vorhandenen Kanal und dann **Bearbeiten aus**.
 
 3. Fügen Sie **im Abschnitt App für diese Vorlage hinzufügen** eine Website-App hinzu.
 
@@ -92,21 +87,21 @@ Erste Schritte:
 
     ![fügen Sie eine App-URL hinzu.](media/add-url-app-template.png)
 
-5. Wählen **Sie speichern** aus, um Änderungen an Ihrer Registerkarten-App vorzunehmen, und wählen Sie dann Übernehmen **aus,** um Ihre Änderungen zu speichern.
+5. Wählen **Sie speichern** aus, um Änderungen an Ihrer Registerkarten-App vorzunehmen, und wählen Sie dann **Übernehmen aus** , um Ihre Änderungen zu speichern.
 
 ## <a name="known-issues"></a>Bekannte Probleme
 
-**Problem:** Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthielt, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. **B. Beiträge,** **Dateien** und **Wiki)** werden wie erwartet angezeigt.
+**Problem**: Wenn Sie ein Team aus einer benutzerdefinierten Vorlage erstellt haben, die zusätzliche benutzerdefinierte Registerkarten enthielt, werden möglicherweise leere Registerkarten statt Ihrer benutzerdefinierten Registerkarten-Apps angezeigt. Ihre Standardregisterkarten (z. B **. Beiträge**, **Dateien** und **Wiki**) werden wie erwartet angezeigt.
 
-**Lösung:** Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigungen zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, bitten Sie den Teambesitzer um Unterstützung.
+**Lösung**: Um dieses Problem zu beheben, entfernen Sie die benutzerdefinierte Registerkarte, und fügen Sie eine neue Registerkarte mit derselben App hinzu. Wenn Sie nicht über die Berechtigungen zum Entfernen der benutzerdefinierten Registerkarte und zum Hinzufügen einer neuen Registerkarte verfügen, bitten Sie den Teambesitzer um Unterstützung.
 
 Wir arbeiten derzeit an einer Lösung für zukünftige Teams, die aus benutzerdefinierten Vorlagen erstellt wurden.
 
-**Problem:** Bei verwendung Teams-Apps im Browser wird das Rendern auf einer Registerkarte "Teams" auf einigen Websites nicht unterstützt.
+**Problem**: Wenn Sie Teams Browser verwenden, wird das Rendern auf einer Registerkarte mit Teams nicht unterstützt.
 
 ![browser-Fehlermeldung angezeigt.](media/browser-error-message.png)
 
-**Lösung:** Wenn Sie Probleme beim Anzeigen der Inhalte der Registerkarte "Website" haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Teams stattdessen in der Desktop-App, um ihre App für Websiteregisterkarten anzuzeigen.
+**Lösung**: Wenn Sie Probleme beim Anzeigen der Inhalte der Websiteregisterkarte haben, werden Sie umgeleitet, um die Registerkarte entweder auf einer separaten Webseite zu öffnen, oder öffnen Sie Teams stattdessen in der Desktop-App, um ihre App für Websiteregisterkarten anzuzeigen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

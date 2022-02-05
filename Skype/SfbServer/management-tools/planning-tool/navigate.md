@@ -1,35 +1,30 @@
 ---
 title: Navigieren im Planungstool in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/5/2016
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 01d28e07-7fdc-41f9-9b6d-75dad8c14f6a
-description: Sie navigieren im Skype for Business Server 2015-Planungstool mithilfe einer Kombination aus Symbolleiste, seitenspezifischen Schaltflächen und Links und kontextspezifischen Bereichen. Die kontextspezifischen Bereiche enthalten Entwurfsinformationen für Planung und Kapazität, die für die Auswahloptionen auf einer bestimmten Seite relevant sind.
-ms.openlocfilehash: 6485d23d8f7aa6bfafd039ab1832be7a06f65449
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845378"
+description: 'Sie navigieren im Skype for Business Server 2015-Planungstool, indem Sie eine Kombination aus einer Symbolleiste, seitenspezifischen Schaltflächen und Links und kontextspezifischen Bereichen verwenden. Die kontextspezifischen Bereiche enthalten Entwurfsinformationen für Planung und Kapazität, die für die Auswahloptionen auf einer bestimmten Seite relevant sind.'
 ---
+
 # <a name="navigate-the-planning-tool-in-skype-for-business-server-2015"></a>Navigieren im Planungstool in Skype for Business Server 2015
 
-Sie navigieren im Skype for Business Server 2015-Planungstool mithilfe einer Kombination aus Symbolleiste, seitenspezifischen Schaltflächen und Links und kontextspezifischen Bereichen. Die kontextspezifischen Bereiche enthalten Entwurfsinformationen für Planung und Kapazität, die für die Auswahloptionen auf einer bestimmten Seite relevant sind.
+Sie navigieren im Skype for Business Server 2015-Planungstool, indem Sie eine Kombination aus einer Symbolleiste, seitenspezifischen Schaltflächen und Links und kontextspezifischen Bereichen verwenden. Die kontextspezifischen Bereiche enthalten Entwurfsinformationen für Planung und Kapazität, die für die Auswahloptionen auf einer bestimmten Seite relevant sind.
 
-Beim Starten des Planungstools wird einem Designer zunächst die Seite **"Willkommen beim Planungstool für Skype for Business Server 2015"** angezeigt.
+Beim Starten des Planungstools wird einem Designer zunächst die Seite **"Willkommen beim Planungstool für Skype for Business Server 2015**" angezeigt.
 
 ![Willkommensseite des Planungstools.](../../media/Planning_Tool_Welcome.png)
 
-Auf der Willkommensseite wählt der Designer **Erste Schritte,** **Websites entwerfen** oder **anzeigen** aus. Ausführliche Informationen finden Sie unter [Erstellen des anfänglichen Topologiedesigns für Skype for Business Server 2015.](create-the-initial-design.md)
+Auf der Willkommensseite wählt der Designer **Erste Schritte**, **Websites entwerfen** oder **anzeigen** aus. Ausführliche Informationen finden [Sie unter Erstellen des anfänglichen Topologiedesigns für Skype for Business Server 2015](create-the-initial-design.md).
 
 Oben im Planungstool befindet sich eine Symbolleiste, die einfachen Zugriff auf häufig verwendete Funktionen bietet. Die Symbolleiste wird hier als Referenz angezeigt, und jede Funktion wird in verwandten Themen erläutert.
 

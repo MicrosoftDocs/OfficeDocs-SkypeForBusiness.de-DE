@@ -1,25 +1,20 @@
 ---
 title: Public Key-Infrastruktur für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 737c8a25-23e9-4494-ab76-5a7b729b44ca
-description: Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellt die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
-ms.openlocfilehash: 61381840d6c82ce26f0b8e7e5210ebd37c3532c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840957"
+description: 'Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellt die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.'
 ---
+
 # <a name="public-key-infrastructure-for-skype-for-business-server"></a>Public Key-Infrastruktur für Skype for Business Server
  
 Skype for Business Server basiert auf Zertifikaten für die Serverauthentifizierung und zum Einrichten einer Vertrauenskette zwischen Clients und Servern sowie zwischen den verschiedenen Serverrollen. Die Windows Server 2012 R2, Windows Server 2012, Windows Server 2008 R2 und Windows Server 2008 Public Key Infrastructure (PKI) stellt die Infrastruktur zum Einrichten und Überprüfen dieser Vertrauenskette bereit.
