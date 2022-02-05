@@ -1,25 +1,20 @@
 ---
 title: Abrufen von Elementen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 9e189a48-4944-4f93-88d7-9d56b56770a6
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Elemente abrufen", der Teil des Elementdiensts ist. Der Elementdienst ist Teil der Repository-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 3c4db6558f0cdbc6403c71a8dc1dc46fb5d4d64c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851979"
 ---
+
 # <a name="get-items"></a>Abrufen von Elementen
  
 **Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Elemente abrufen", der Teil des Elementdiensts ist. Der Elementdienst ist Teil der Repository-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -32,7 +27,7 @@ Abrufen von Elementen gibt alle Elemente im Repository zurück.
   
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoERepositoryService/repository/item  <br/> |HTTP/1.1  <br/> |
    
  **URI-Parameter** : Keine.
   

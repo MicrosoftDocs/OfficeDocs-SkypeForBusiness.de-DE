@@ -1,27 +1,22 @@
 ---
 title: Servereinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MachineSettingsExpander
+  - ms.lync.tb.MachineSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bef91d55-a75c-495f-a523-4930797192f6
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 6776f03c93b5880a864c9ab4bdb0daa998b569e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845488"
 ---
+
 # <a name="server-settings-expander"></a>Servereinstellungen – Erweiterung
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und die IP-Adresskonfiguration dieses Servers. Folgende Möglichkeiten stehen zur Verfügung:

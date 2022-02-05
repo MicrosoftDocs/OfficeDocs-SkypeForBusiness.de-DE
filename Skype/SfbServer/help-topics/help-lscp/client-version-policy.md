@@ -1,27 +1,22 @@
 ---
 title: Clientversionsrichtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientCVPolicyMain
+  - ms.lync.lscp.ClientCVPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 4f84bc0f-e1df-4acb-b8ef-57f165b0153b
-description: Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features am besten zu nutzen und die allgemeine Benutzererfahrung zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
-ms.openlocfilehash: 89547442d432f25cc132a296328fe27f734be402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846648"
+description: 'Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features am besten zu nutzen und die allgemeine Benutzererfahrung zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.'
 ---
+
 # <a name="client-version-policy"></a>Clientversionsrichtlinie
 
 Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt werden. Wenn zwei Clients unterschiedlicher Versionen interagieren, können die für einen der Clients verfügbaren Funktionen durch die Funktionen des anderen Clients eingeschränkt werden. Um die in Skype for Business Server 2015 enthaltenen Features am besten zu nutzen und die allgemeine Benutzererfahrung zu verbessern, können Sie den Clientversionsfilter verwenden, um die in Ihrer Umgebung verwendeten Clientversionen einzuschränken. Mit dem Clientversionsfilter können Sie außerdem die Kosten senken, die aufgrund der Unterstützung mehrerer Clientversionen anfallen.
@@ -30,7 +25,7 @@ Sie können die Version von Clients angeben, die in Ihrer Umgebung unterstützt 
 
 Auf der Seite **Clientversionsrichtlinie** können Sie die folgenden Aufgaben ausführen:
 
-- Bearbeiten Sie die Standardmäßige Clientversionsrichtlinie **(global).**
+- Bearbeiten Sie die Standardmäßige Clientversionsrichtlinie ( **global**).
 
 - Erstellen von Clientversionsrichtlinien für einen bestimmten Standort oder Pool
 

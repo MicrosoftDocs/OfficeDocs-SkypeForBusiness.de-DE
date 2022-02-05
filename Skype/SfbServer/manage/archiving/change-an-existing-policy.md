@@ -1,24 +1,19 @@
 ---
 title: Ändern einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4cf600be-ba3d-4bce-aa22-e158b9ccf8a9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzerarchivierungsrichtlinien für Skype for Business Server ändern.'
-ms.openlocfilehash: b6ddc379f2b5652311be051d47d644a8e2923c1c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854389"
 ---
+
 # <a name="change-an-existing-archiving-policy-in-skype-for-business-server"></a>Ändern einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Benutzerarchivierungsrichtlinien für Skype for Business Server ändern.
@@ -50,7 +45,7 @@ Wenn Sie Skype for Business Server zum ersten Mal bereitstellen, richten Sie anf
 6. Klicken Sie auf **Commit**.
     
     > [!IMPORTANT]
-    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Ausführliche Informationen finden Sie unter [Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server.](apply-a-policy-to-users.md) 
+    > Die Einstellungen einer Benutzerrichtlinie gelten nur für bestimmte Benutzer und Benutzergruppen, auf die Sie die Richtlinie anwenden. Ausführliche Informationen finden [Sie unter Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server](apply-a-policy-to-users.md). 
   
 ## <a name="change-archiving-policies-by-using-windows-powershell"></a>Ändern von Archivierungsrichtlinien mithilfe von Windows PowerShell
 

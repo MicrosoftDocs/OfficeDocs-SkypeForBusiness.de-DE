@@ -1,35 +1,30 @@
 ---
 title: Verwalten von Einwahlkonferenzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 85644a2d-7694-4573-8301-aa6490b43ff4
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: e2b836cf45bf3e9253ea6161c4bd634864337e5f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830859"
 ---
+
 # <a name="manage-dial-in-conferencing-in-skype-for-business-server"></a>Verwalten von Einwahlkonferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Einwahlkonferenzen in Skype for Business Server verwalten.
   
-In diesem Thema wird die Verwaltung von Einwahlkonferenzen beschrieben. Weitere Informationen zum Planen und Konfigurieren von Einwahlkonferenzen bei der Bereitstellung finden Sie unter ["Planen von Einwahlkonferenzen in Skype for Business Server"](../../plan-your-deployment/conferencing/dial-in-conferencing.md) und ["Konfigurieren von Einwahlkonferenzen in Skype for Business Server".](../../deploy/deploy-conferencing/dial-in-conferencing.md)
+In diesem Thema wird die Verwaltung von Einwahlkonferenzen beschrieben. Weitere Informationen zum Planen und Konfigurieren von Einwahlkonferenzen bei der Bereitstellung finden Sie unter ["Planen von Einwahlkonferenzen in Skype for Business Server](../../plan-your-deployment/conferencing/dial-in-conferencing.md)" und ["Konfigurieren von Einwahlkonferenzen in Skype for Business Server](../../deploy/deploy-conferencing/dial-in-conferencing.md)".
   
 Sie können die folgenden Aufgaben zum Verwalten von Einwahlkonferenzen ausführen: Aktivieren oder Deaktivieren von Einwahlkonferenzen, Verwalten von Zugriffsnummern, Verwalten von PIN-Richtlinien für Einwahlkonferenzen, Verwalten von Ankündigungen für den Konferenzbeitritt und -verlassen, Ändern von Tastenzuordnungen für DTMF-Befehle und Einladen von Benutzern zu Einwahlkonferenzen. 
   
-Weitere Informationen zum Verwalten von Wählplänen finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server.](../../deploy/deploy-enterprise-voice/dial-plans.md)
+Weitere Informationen zum Verwalten von Wählplänen finden Sie unter [Erstellen oder Ändern eines Wählplans in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md).
   
-Weitere Informationen zur PSTN-Verwendung finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Skype for Business.](../../deploy/deploy-enterprise-voice/voice-and-pstn.md)
+Weitere Informationen zur PSTN-Verwendung finden Sie unter [Konfigurieren von VoIP-Richtlinien, PSTN-Verwendungsdatensätzen und VoIP-Routen in Skype for Business](../../deploy/deploy-enterprise-voice/voice-and-pstn.md).
   
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-control-panel"></a>Verwalten von Einwahlkonferenzen mithilfe Skype for Business Server Systemsteuerung
 
@@ -47,7 +42,7 @@ So verwalten Sie Informationen zu Wählplänen und pstn-Verwendung:
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing.**
+3. Klicken Sie in der linken Navigationsleiste auf **VoIP-Routing**.
     
 ## <a name="manage-dial-in-conferencing-by-using-skype-for-business-server-management-shell"></a>Verwalten von Einwahlkonferenzen mithilfe Skype for Business Server Verwaltungsshell
 

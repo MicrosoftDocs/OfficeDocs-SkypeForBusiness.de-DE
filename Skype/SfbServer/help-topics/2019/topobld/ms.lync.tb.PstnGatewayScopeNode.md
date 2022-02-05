@@ -1,27 +1,22 @@
 ---
 title: PSTN-Gateway – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PstnGatewayScopeNode
+  - ms.lync.tb.PstnGatewayScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 85a52bf7-98cb-4dd4-892e-2d1ba5669593
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN), zugeordneten Vermittlungsserver und andere grundlegende Informationen zu diesem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz). Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: cfa3bf2c2ed4b3986204baa9b685ab8313d1595e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855822"
 ---
+
 # <a name="pstn-gateway-scope-node"></a>PSTN-Gateway – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN), zugeordneten Vermittlungsserver und andere grundlegende Informationen zu diesem PSTN-Gateway (Public Switched Telephone Network, Telefonfestnetz). Folgende Möglichkeiten stehen zur Verfügung:

@@ -1,24 +1,19 @@
 ---
 title: Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 67726075-c77c-4191-a64f-a1cf5c7bcbb2
 description: 'Zusammenfassung: Erfahren Sie mehr über die Aufzeichnung von Kommunikationsdatensätzen (KDS), die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 4b699b382443d0820845856bebd83604374bf236
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858332"
 ---
+
 # <a name="call-detail-recording-cdr-in-skype-for-business-server"></a>Aufzeichnung von Kommunikationsdatensätzen (KDS) in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Aufzeichnung von Kommunikationsdatensätzen (KDS), die in Skype for Business Server verwendet werden.

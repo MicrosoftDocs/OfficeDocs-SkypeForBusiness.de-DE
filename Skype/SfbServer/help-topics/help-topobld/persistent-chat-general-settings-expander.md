@@ -1,34 +1,29 @@
 ---
 title: Allgemeine Einstellungen für den beständigen Chat – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.PersistentChatGeneralSettingsExpander
+  - ms.lync.tb.PersistentChatGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 275ee1ae-ca58-4963-bc95-523319f90d96
 description: 'Sie bearbeiten die allgemeinen Einstellungen für den Server für beständigen Chat oder den Serverpool für beständigen Chat, indem Sie diese Eigenschaften konfigurieren oder definieren:'
-ms.openlocfilehash: 8047b6a3d8e4f81056af20feb2d5a36416bac2b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854419"
 ---
+
 # <a name="persistent-chat-general-settings-expander"></a>Allgemeine Einstellungen für beständigen Chat – Erweiterung
  
 Sie bearbeiten die **allgemeinen** Einstellungen für den Server für beständigen Chat oder den Serverpool für beständigen Chat, indem Sie diese Eigenschaften konfigurieren oder definieren:
   
  **Allgemein**
   
-- **FQDN:** Bearbeiten Sie diese Einstellung, um den vollqualifizierten Domänennamen des Servers für beständigen Chat oder den Serverpool für beständigen Chat zu definieren.
+- **FQDN**: Bearbeiten Sie diese Einstellung, um den vollqualifizierten Domänennamen des Servers für beständigen Chat oder den Serverpool für beständigen Chat zu definieren.
     
 - **Anzeigename des Pools für den beständigen Chat**: Definieren Sie diese Einstellung, um eine benutzerfreundliche und aussagekräftige Einstellung für den Server oder Pool bereitzustellen. Diese Einstellung erleichtert Es Ihren Benutzern, einen bestimmten Pool für den Server für beständigen Chat oder den Server für beständigen Chat basierend auf dem Anzeigenamen anstatt eines schwieriger zu verstehenden vollqualifizierten Domänennamens zuzuordnen.
     
@@ -38,23 +33,23 @@ Sie bearbeiten die **Zuordnungseinstellungen** für den Server für beständigen
   
  **Verbände**
   
-- **SQL Server Speicher:** Wählen Sie den SQL Server Speicher und die optionale benannte Instanz aus der Liste aus.
+- **SQL Server Speicher**: Wählen Sie den SQL Server Speicher und die optionale benannte Instanz aus der Liste aus.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz zu definieren.
     
-- Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung** aktivieren, wenn Sie die Spiegelung für den primären SQL Server Speicher aktivieren möchten.
+- Aktivieren Sie das Kontrollkästchen **"SQL Server Speicherspiegelung** aktivieren", wenn Sie die Spiegelung für den primären SQL Server Speicher aktivieren möchten.
     
-    Wenn Sie SQL Server Speicherspiegelung aktivieren möchten, wählen Sie den Speicher und die Instanz aus der Liste **Spiegelung SQL Server Speicher** aus.
+    Wenn Sie SQL Server Speicherspiegelung aktivieren möchten, wählen Sie den Speicher und die Instanz aus der Liste **"Spiegelung SQL Server Speicher**" aus.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz zu definieren.
     
-- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um** das automatische Failover zu aktivieren, wenn Sie das automatische Failover des primären SQL Server Speichers wünschen.
+- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um das automatische Failover zu aktivieren**, wenn Sie das automatische Failover des primären SQL Server Speichers wünschen.
     
-    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktivieren, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
+    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktiviert haben, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz für den Zeugenspeicher zu definieren.
     
-- Aktivieren Sie das Kontrollkästchen **"Sicherung SQL Server Speichern verwenden", um die Notfallwiederherstellung zu aktivieren,** wenn Sie die Verwendung von SQL Server Notfallwiederherstellung aktivieren möchten.
+- Aktivieren Sie das Kontrollkästchen **"Sicherung SQL Server Speichern verwenden", um das Kontrollkästchen "Notfallwiederherstellung" zu aktivieren**, wenn Sie die Verwendung von SQL Server Notfallwiederherstellung aktivieren möchten.
     
     Wenn Sie die Notfallwiederherstellung aktiviert haben, wählen Sie den Speicher und die Instanz in der Liste **SQL Server-Speicher für Sicherung** aus.
     
@@ -66,9 +61,9 @@ Sie bearbeiten die **Zuordnungseinstellungen** für den Server für beständigen
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz zu definieren.
     
-- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um** das automatische Failover zu aktivieren, wenn Sie das automatische Failover des Sicherungs- SQL Server Speichers wünschen.
+- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um das automatische Failover zu aktivieren**, wenn Sie das automatische Failover des Sicherungs-SQL Server-Speichers wünschen.
     
-    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktivieren, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
+    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktiviert haben, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz für den Zeugenspeicher zu definieren.
     
@@ -80,13 +75,13 @@ Sie bearbeiten die **Zuordnungseinstellungen** für den Server für beständigen
     
 - Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung** aktivieren, wenn Sie die Spiegelung für den Compliance-SQL Server Speicher aktivieren möchten.
     
-    Wenn Sie die Compliance SQL Server Speicherspiegelung aktiviert haben, wählen Sie den Speicher und die Instanz aus der Liste **Compliance SQL Server Speicherspiegel aus.**
+    Wenn Sie die Compliance SQL Server Speicherspiegelung aktiviert haben, wählen Sie den Speicher und die Instanz aus der Liste **Compliance SQL Server Speicherspiegel aus**.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz zu definieren.
     
-- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um** das automatische Failover zu aktivieren, wenn Sie das automatische Failover des Compliance-SQL Server Speichers wünschen.
+- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um das automatische Failover zu aktivieren**, wenn Sie das automatische Failover des Compliance-SQL Server Speichers wünschen.
     
-    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktivieren, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
+    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktiviert haben, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz für den Zeugenspeicher zu definieren.
     
@@ -96,17 +91,17 @@ Sie bearbeiten die **Zuordnungseinstellungen** für den Server für beständigen
     
 - Aktivieren Sie das Kontrollkästchen **SQL Server Speicherspiegelung** aktivieren, wenn Sie die Spiegelung für den Compliance-SQL Server Speicher aktivieren möchten.
     
-    Wenn Sie die Compliance SQL Server Speicherspiegelung aktiviert haben, wählen Sie den Speicher und die Instanz aus der Liste **Sicherungscompliance SQL Server Speicherspiegel** aus.
+    Wenn Sie die Compliance SQL Server Speicherspiegelung aktiviert haben, wählen Sie den Speicher und die Instanz aus der Liste **Sicherungscompliance SQL Server Speicherspiegel aus**.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz zu definieren.
     
-- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um das Kontrollkästchen "Automatisches Failover" zu aktivieren,** wenn Sie das automatische Failover der Sicherungscompliance SQL Server Speichers wünschen.
+- Aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um das automatische Failover zu aktivieren**, wenn Sie das automatische Failover der Sicherungscompliance SQL Server Speichern wünschen.
     
-    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktivieren, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
+    Wenn Sie SQL Server Spiegelungszeugen für den Speicher aktiviert haben, um das automatische Failover zu aktivieren, wählen Sie den Speicher und die Instanz aus der Liste aus.
     
     Klicken Sie auf **Neu**, um einen neuen SQL Server-Speicher und optional eine Instanz für den Zeugenspeicher zu definieren.
     
-- **Dateispeicher** Wählen Sie einen Speicherort für den Dateispeicher aus der Liste aus, oder klicken Sie auf **Neu,** um einen neuen Dateispeicher zu erstellen.
+- **Dateispeicher** Wählen Sie einen Speicherort für den Dateispeicher aus der Liste aus, oder klicken Sie auf **Neu** , um einen neuen Dateispeicher zu erstellen.
     
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   
@@ -116,7 +111,7 @@ Sie bearbeiten die **Zuordnungseinstellungen** für den Server für beständigen
   
 ## <a name="see-also"></a>Siehe auch
 
-[Plan for Persistent Chat Server in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
+[Planen des Servers für beständigen Chat in Skype for Business Server 2015](../../plan-your-deployment/persistent-chat-server/persistent-chat-server.md)
   
 [Hinzufügen des Servers für beständigen Chat zu Ihrer Skype for Business Server 2015-Topologie](../../deploy/deploy-persistent-chat-server/add-persistent-chat-server.md)
   

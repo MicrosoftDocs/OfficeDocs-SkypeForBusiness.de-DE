@@ -1,29 +1,24 @@
 ---
 title: Teams von Apps für Nicht-Standardbenutzer
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: Hier erfahren Sie, wie Microsoft Teams sich für Nicht-Standardbenutzer verhalten.
+description: 'Hier erfahren Sie, wie Microsoft Teams sich für Nicht-Standardbenutzer verhalten.'
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
+  - M365-collaboration
+  - m365initiative-meetings
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 957574b112c0fbb8fc7efc4fedf726fa7395f4b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846088"
+  - Microsoft Teams
 ---
+
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
 In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, externe Benutzer (Partnerbenutzer) und anonyme Benutzer in einem Teams sind.
@@ -33,7 +28,7 @@ In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, exte
 - Ein **externer Benutzer (Partnerbenutzer)** gehört zu einer anderen Domäne und hat keinen Zugriff auf die Teams oder Teamressourcen Ihrer Organisation.
 
   > [!Note]
-  > Einen detaillierten Vergleich zwischen Gastbenutzern und externen Benutzern finden Sie unter [Kommunizieren mit Benutzern aus anderen Organisationen.](./communicate-with-users-from-other-organizations.md)
+  > Einen detaillierten Vergleich zwischen Gastbenutzern und externen Benutzern finden Sie unter [Kommunizieren mit Benutzern aus anderen Organisationen](./communicate-with-users-from-other-organizations.md).
 
 - Ein **anonymer Benutzer** ist ein Konzept in Teams Besprechungen, bei denen der Benutzer über einen Link an der Besprechung teilgetreten ist. Der Benutzer hat sich nicht mit seinem Microsoft- oder Organisationskonto angemeldet.
 
@@ -63,7 +58,7 @@ Bots können Proaktiv Nachrichten für Gastbenutzer senden, aber Gäste können 
 
 ### <a name="install-update-and-delete-for-external-users"></a>Installieren, Aktualisieren und Löschen für externe Benutzer
 
-Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Der App Store der Hostingorganisation.
+Externe Benutzer können in keinem Kontext wie einer persönlichen, einem Chat, einem Kanal oder einer Besprechung Apps installieren, aktualisieren oder löschen. Sie haben keinen Zugriff auf den Teams Store der Hostingorganisation.
 
 ### <a name="usage-behavior-and-policy-for-external-users"></a>Verwendungsverhalten und Richtlinie für externe Benutzer
 
@@ -80,7 +75,7 @@ Anonyme Benutzer können in Besprechungen keine Apps installieren, aktualisieren
 
 ### <a name="usage-behavior-and-policy-for-anonymous-users"></a>Nutzungsverhalten und Richtlinie für anonyme Benutzer
 
-Anonyme Benutzer können Apps in Besprechungen nicht direkt verwenden. Native Benutzer können Besprechungs-Apps weiterhin verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen.](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings)
+Anonyme Benutzer können Apps in Besprechungen nicht direkt verwenden. Native Benutzer können Besprechungs-Apps weiterhin verwenden, wenn anonyme Benutzer anwesend sind. Wenn eine App eine adaptive Karte im Chat sendet, können anonyme Benutzer mit der Karte interagieren. Weitere Informationen finden Sie unter Zulassen, [dass anonyme Benutzer an Besprechungen teilnehmen](meeting-settings-in-teams.md#allow-anonymous-users-to-join-meetings).
 
 Anonyme Benutzer erben die globale Standardberechtigungsrichtlinie auf Benutzerebene. Sie können in Besprechungen in Teams mit Apps interagieren, wenn die App durch die Berechtigungsrichtlinie auf Benutzerebene aktiviert wurde. Anonyme Benutzer können nur mit Apps interagieren, die bereits in einer Besprechung verfügbar sind und diese Apps nicht erwerben und/oder verwalten können.
 

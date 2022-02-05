@@ -1,27 +1,22 @@
 ---
 title: Trunk – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkScopdeNode
+  - ms.lync.tb.TrunkScopdeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6561236d-fe30-451d-ac74-7545eb98267a
 description: 'Klicken Sie mit der rechten Maustaste auf einen vorhandenen SIP-Trunk im Topologie-Generator, um Folgendes auszuführen:'
-ms.openlocfilehash: 083780d318de69f1fe817e9863dc669220afbee5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846488"
 ---
+
 # <a name="trunk-scope-node"></a>Trunk – Bereichsknoten
  
 Klicken Sie mit der rechten Maustaste auf einen vorhandenen SIP-Trunk im Topologie-Generator, um Folgendes auszuführen:

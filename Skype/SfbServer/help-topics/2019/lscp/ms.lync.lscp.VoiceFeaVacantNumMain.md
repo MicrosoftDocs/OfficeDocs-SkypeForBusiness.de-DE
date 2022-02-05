@@ -1,31 +1,26 @@
 ---
 title: Nicht zugewiesene Telefonnummer
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumMain
+  - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
-ROBOTS: NOINDEX, NOFOLLOW
-description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
-ms.openlocfilehash: fa7fd55f0c0fae22643d0dde66cae32c2610bdcd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834523"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.'
 ---
+
 # <a name="unassigned-phone-number"></a>Nicht zugewiesene Telefonnummer
 
 > [!NOTE]
-> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale nicht mehr unterstützt.
+> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale deaktiviert.
 
 Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
 
@@ -56,14 +51,14 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 - **Bearbeiten** Öffnet den ausgewählten Bereich nicht zugewiesener Nummern zur Bearbeitung, wählt alle Bereiche nicht zugewiesener Nummern in der Liste aus oder löscht den ausgewählten Bereich nicht zugewiesener Nummern.
 
-- **Nach oben** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern in der Liste nach oben, sodass Skype for Business Server ihn früher findet und die angegebene Aktion anwendet, bevor aktionen angewendet werden, die für andere Bereiche in der Liste angegeben sind.
+- **Nach oben** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern in der Liste nach oben, sodass Skype for Business Server ihn schneller findet und die angegebene Aktion anwendet, bevor aktionen angewendet werden, die für andere Bereiche in der Liste angegeben sind.
 
     > [!NOTE]
     > Skype for Business Server durchsucht die Tabelle nicht zugewiesener Nummern von oben nach unten und verwendet den ersten Bereich, der der nicht zugewiesenen Nummer entspricht. Wenn Sie z. B. über einen Bereich verfügen, auf den als letzte Aktion zurückgegriffen werden soll, platzieren Sie diesen Bereich ganz unten in der Liste.
 
 - **Nach unten** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern in der Liste nach unten.
 
-- **Commit für alle Ausführen** eines Commits Speichert alle Änderungen, die Sie an bereichen nicht zugewiesener Nummern vorgenommen haben.
+- **Commit für alle Ausführen eines Commits** Speichert alle Änderungen, die Sie an bereichen nicht zugewiesener Nummern vorgenommen haben.
 
     > [!IMPORTANT]
     > Mit diesem Befehl werden alle Änderungen gespeichert, die Sie auf der Seite **Neue nicht zugewiesene Nummer** und der Seite **Nicht zugewiesene Nummer bearbeiten** vorgenommen haben.
@@ -72,9 +67,9 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Der eindeutige Name, der den Bereich nicht zugewiesener Nummern identifiziert.
+- **Namen** Der eindeutige Name, der den Bereich nicht zugewiesener Nummern identifiziert.
 
-- **Status** Zeigt an, welche Nummernbereiche in der Datenbank gespeichert wurden und welche nicht.
+- **Staat** Zeigt an, welche Nummernbereiche in der Datenbank gespeichert wurden und welche nicht.
 
 - **Startbereich** Die Anfangsnummer des Bereichs nicht zugewiesener Nummern.
 
@@ -84,4 +79,4 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **Ankündigung** Die Ankündigung, die für diesen Bereich nicht zugewiesener Nummern wiedergegeben wird.
 
-Ausführliche Informationen zu Ankündigungsfeatures und -funktionen finden Sie [unter "Plan for the Announcement application" in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie unter [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) in der Betriebsdokumentation.
+Ausführliche Informationen zu ankündigungsfeatures und -funktionen finden Sie unter [Plan for the Announcement application in Skype for Business](../../../plan-your-deployment/enterprise-voice-solution/announcement.md) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Bereichen nicht zugewiesener Nummern finden Sie unter [Configure Routing of Unassigned Phone Numbers](/previous-versions/office/lync-server-2013/lync-server-2013-configure-unassigned-phone-numbers) in der Betriebsdokumentation.

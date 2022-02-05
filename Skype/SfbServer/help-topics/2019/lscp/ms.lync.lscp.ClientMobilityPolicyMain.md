@@ -1,30 +1,25 @@
 ---
 title: Clients-Mobilitätsrichtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientMobilityPolicyMain
+  - ms.lync.lscp.ClientMobilityPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 6ab53530-143d-4f1e-90cd-a92685f98a20
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Auf der Seite Mobilitätsrichtlinie von Clients werden die unter der Bereitstellung verfügbaren Mobilitätsrichtlinien angezeigt.
-ms.openlocfilehash: e4b030ac2665c833f19844d1f792be874d2324bd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840487"
 ---
+
 # <a name="clients-mobility-policy"></a>Clients: Mobilitätsrichtlinie
 
-Auf der Seite **"Clients** **Mobility Policy"** werden die mobilitätsrichtlinien angezeigt, die in Ihrer Bereitstellung verfügbar sind.
+Auf der Seite " **Clients** **Mobility Policy** " werden die mobilitätsrichtlinien angezeigt, die in Ihrer Bereitstellung verfügbar sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
@@ -44,9 +39,9 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 - **Suchfeld** Geben Sie eine Zeichenfolge in das Textfeld ein, um die angezeigten Richtlinien zu filtern.
 
-- **Neu** Klicken Sie auf **"Neu",** und wählen Sie **"Standort"** oder **"Benutzer"** aus, um eine neue Mobilitätsrichtlinie zu erstellen.
+- **Neu** Klicken Sie auf **"Neu**", und wählen Sie " **Standort** " oder **"Benutzer** " aus, um eine neue Mobilitätsrichtlinie zu erstellen.
 
-- **Bearbeiten** Wählen Sie eine Richtlinie aus, und klicken Sie dann auf **Bearbeiten,** um die Eigenschaften der ausgewählten Richtlinie zu bearbeiten.
+- **Bearbeiten** Wählen Sie eine Richtlinie aus, und klicken Sie dann auf **Bearbeiten** , um die Eigenschaften der ausgewählten Richtlinie zu bearbeiten.
 
 - **Aktualisieren** Aktualisiert die Liste der angezeigten Richtlinien. Wenn Sie auf **Aktualisieren** klicken, wird die Suchfilter-Zeichenfolge gelöscht, und es werden alle vorhandenen Richtlinien angezeigt.
 

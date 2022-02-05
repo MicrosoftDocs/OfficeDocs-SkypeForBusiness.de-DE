@@ -1,27 +1,22 @@
 ---
 title: Aufzeichnung von Kommunikationsdatensätzen – Erstellen einer neuen oder Bearbeiten einer vorhandenen Aufzeichnung von Kommunikationsdatensätzen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchCdrEdit
+  - ms.lync.lscp.MonArchCdrEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d0e9b4d0-7110-4a29-b5e5-0e116ea6fa9c
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: ca869c292e4cad458d6e920339fac75f828da9f5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828018"
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="call-detail-recording-create-new-or-edit-existing"></a>Aufzeichnung von Kommunikationsdatensätzen: Erstellen einer neuen oder Bearbeiten einer vorhandenen Aufzeichnung von Kommunikationsdatensätzen
  
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

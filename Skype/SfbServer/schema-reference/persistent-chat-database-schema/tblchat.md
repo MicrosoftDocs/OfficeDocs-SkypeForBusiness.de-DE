@@ -1,32 +1,27 @@
 ---
 title: tblChat
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b7fcf1b4-7a3f-4585-a6d9-95e7f030c7dc
 description: tblChat enthält alle Chatnachrichten.
-ms.openlocfilehash: e8a07c0c8ff8b3b473855ee86f6fc0c276e959f6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839817"
 ---
+
 # <a name="tblchat"></a>tblChat
  
 tblChat enthält alle Chatnachrichten.
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |channelId  <br/> |int, nicht NULL  <br/> |Knoten-ID  <br/> |
 |chatId  <br/> |bigint, nicht NULL  <br/> |Eindeutige fortlaufende Zahl (pro Knoten-ID), die die Reihenfolge der Chatrooms identifiziert, generiert von der tblLastChatId-Tabelle.  <br/> |

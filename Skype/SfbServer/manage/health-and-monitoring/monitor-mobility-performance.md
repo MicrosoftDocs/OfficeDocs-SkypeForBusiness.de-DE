@@ -1,24 +1,19 @@
 ---
 title: Überwachen der Mobilität auf Leistung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9c831c63-9a7d-48ec-9118-f8a7e80ddd04
 description: 'Zusammenfassung: Erfahren Sie mehr über den Mobilitätsdienst (Mcx) und die Unified Communications-Web-API (UCWA) in Skype for Business Server.'
-ms.openlocfilehash: 5560e869a4b3313cf63ef4466aa9f8ce394766d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863562"
 ---
+
 # <a name="monitor-mobility-for-performance-in-skype-for-business-server"></a>Überwachen der Mobilität auf Leistung in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Mobilitätsdienst (Mcx) und die Unified Communications-Web-API (UCWA) in Skype for Business Server.
@@ -42,7 +37,7 @@ Weitere Grenzwerte für Server, die die Mobilitätsleistung beeinflussen können
   
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
-- [Überwachen von Kapazitätslimits für den Serverspeicher in Skype for Business Server](server-memory-capacity-limits.md)
+- [Überwachen von Serverspeicherkapazitätslimits in Skype for Business Server](server-memory-capacity-limits.md)
     
 - [Überwachen der Mobilitätsdienste- und UCWA-Nutzung in Skype for Business Server](service-and-ucwa-usage.md)
     

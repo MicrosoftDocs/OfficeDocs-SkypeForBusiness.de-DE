@@ -1,7 +1,7 @@
 ---
-title: PowerShell-Skriptbeispiel– Erstellen & Zuweisen einer Messagingrichtlinie
+title: 'PowerShell-Skriptbeispiel: Erstellen & Zuweisen einer Messagingrichtlinie'
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: ritikag
@@ -9,35 +9,30 @@ ms.service: msteams
 audience: admin
 description: Verwenden Sie dieses PowerShell-Skript zum Erstellen einer Messagingrichtlinie in Teams und weisen Sie sie Benutzern in Ihrer Organisation zu.
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 922bbd88f8a470a19edf799b737a349043ebfeed
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60741551"
 ---
+
 # <a name="powershell-script-sample---create-and-assign-a-messaging-policy"></a>PowerShell-Skriptbeispiel – Erstellen und Zuweisen einer Messagingrichtlinie
 
 Verwenden Sie dieses PowerShell-Skript zum Erstellen einer Messagingrichtlinie in Microsoft Teams und weisen Sie sie Benutzern zu. 
 
-Weitere Informationen zur Verwendung dieses PowerShell-Skripts finden Sie unter [Schnellstart – Teams für Education.](../teams-quick-start-edu.yml)
+Weitere Informationen zur Verwendung dieses PowerShell-Skripts finden Sie unter [Schnellstart – Teams für Education](../teams-quick-start-edu.yml).
 
-Dieses Skript verwendet das [Grant-CsTeamsMessagingPolicy-Cmdlet,](/powershell/module/skype/grant-csteamsmessagingpolicy) das sich im PowerShell-Skype for Business Online-PowerShell-Modul befindet. Unter [Teams PowerShell finden](../teams-powershell-overview.md) Sie weitere Informationen zum Verwalten von Teams mithilfe von PowerShell.
+Dieses Skript verwendet das [Grant-CsTeamsMessagingPolicy-Cmdlet](/powershell/module/skype/grant-csteamsmessagingpolicy), das sich im Skype for Business Online PowerShell-Modul befindet. Unter [Teams PowerShell finden](../teams-powershell-overview.md) Sie weitere Informationen zum Verwalten von Teams mithilfe von PowerShell.
 
 
 ## <a name="before-you-start"></a>Bevor Sie beginnen
 
-Laden Sie das Skype for Business [PowerShell-Modul herunter,](https://www.microsoft.com/download/details.aspx?id=39366)installieren Sie es, und starten Sie den Computer neu, wenn Sie dazu aufgefordert werden.
+Laden Sie das [PowerShell Skype for Business Online-Modul](https://www.microsoft.com/download/details.aspx?id=39366) herunter, installieren Sie es, und starten Sie den Computer neu, wenn Sie dazu aufgefordert werden.
 
-Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="sample-script"></a>Beispielskript
 
@@ -61,4 +56,4 @@ $dataSetFilePath = "<csv file with user ids for newly provisioned students> "
 ```
 
 > [!NOTE]
-> Sie können eine Messagingrichtlinie auch Benutzern im Maßstab einer Batchrichtlinienzuweisung oder einer Gruppe, der die Benutzer gehören, direkt zuweisen. Weitere Informationen finden Sie unter Zuweisen von Richtlinien zu großen Gruppen von Benutzern [in](../batch-group-policy-assignment-edu.md) Ihrer Schule und Zuweisen von Richtlinien zu Ihren [Benutzern in Teams.](../policy-assignment-overview.md)
+> Sie können eine Messagingrichtlinie auch Benutzern im Maßstab einer Batchrichtlinienzuweisung oder einer Gruppe, der die Benutzer gehören, direkt zuweisen. Weitere Informationen finden Sie unter Zuweisen von Richtlinien zu großen Gruppen von Benutzern [in](../batch-group-policy-assignment-edu.md) Ihrer Schule und Zuweisen von Richtlinien zu Benutzern [in Teams](../policy-assignment-overview.md).

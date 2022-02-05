@@ -1,28 +1,23 @@
 ---
 title: Konfigurieren der globalen Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regionsinformationen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0a21cdf1-f350-49da-b346-70806f256bea
-description: Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP verwendet wird.
-ms.openlocfilehash: 7ec292f768633d64959704599269c0fb9cedd4fd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829499"
+description: 'Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP verwendet wird.'
 ---
+
 # <a name="configure-media-bypass-global-settings-in-skype-for-business-server-to-use-site-and-region-information"></a>Konfigurieren der globalen Einstellungen für die Medienumgehung in Skype for Business Server für die Verwendung von Standort- und Regionsinformationen
  
 Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte und Regionen in Skype for Business Server Enterprise-VoIP verwendet wird. 
@@ -32,7 +27,7 @@ Konfigurieren Sie die Medienumgehung so, dass sie nur für bestimmte Standorte u
 > [!NOTE]
 > Die Informationen zu Netzwerkregionen und Netzwerkstandorten werden sowohl für die Anrufsteuerung als auch für die Medienumgehung verwendet, wenn beide der erweiterten Enterprise-VoIP-Funktionen aktiviert sind. Wenn Sie daher die Anrufsteuerung bereits konfiguriert haben, müssen Sie das folgende Verfahren zum Bearbeiten von Standort- und Regioneninformationen nicht speziell für die Medienumgehung ausführen. Führen Sie die Schritte des folgenden Verfahrens aus, wenn Sie noch keine Netzwerkregionen und Standorte für die Anrufsteuerung konfiguriert haben und die Einstellungen für die Medienumgehung ändern möchten. 
   
-Damit die Medienumgehung ordnungsgemäß funktioniert, muss eine Konsistenz zwischen einem Standort bestehen, der im Topologie-Generator definiert ist, und der Definition beim Konfigurieren von Netzwerkregionen und Netzwerkstandorten. Wenn Sie beispielsweise über einen Zweigstellenstandort verfügen, den Sie im Topologie-Generator so definiert haben, dass nur ein PSTN-Gateway bereitgestellt wird, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP Richtlinie konfiguriert werden, die es Benutzern von Zweigstellenstandorten ermöglicht, ihre PSTN-Anrufe über das PSTN-Gateway am Zweigstellenstandort weiterzuleiten.
+Damit die Medienumgehung ordnungsgemäß funktioniert, muss eine Konsistenz zwischen einem Standort bestehen, der im Topologie-Generator definiert ist, und der Definition beim Konfigurieren von Netzwerkregionen und Netzwerkstandorten. Wenn Sie beispielsweise über einen Zweigstellenstandort verfügen, den Sie im Topologie-Generator so definiert haben, dass nur ein PSTN-Gateway bereitgestellt wird, muss dieser Zweigstellenstandort mit einer Enterprise-VoIP Richtlinie konfiguriert werden, mit der Zweigstellenbenutzer ihre PSTN-Anrufe über das PSTN-Gateway am Zweigstellenstandort weiterleiten können.
   
 ### <a name="to-configure-site-and-region-information-for-media-bypass"></a>So konfigurieren Sie Informationen zu Standorten und Regionen für die Medienumgehung
 
@@ -53,9 +48,9 @@ Damit die Medienumgehung ordnungsgemäß funktioniert, muss eine Konsistenz zwis
   
 7. Klicken Sie auf **Commit**.
     
-Fügen Sie als Nächstes Subnetze zum Netzwerkstandort hinzu, wie unter ["Zuordnen eines Subnetzes zu einem Netzwerkstandort"](deploy-network.md#BKMK_AssociateSubnets)beschrieben. Nachdem Sie alle Subnetze zu Netzwerkstandorten zugeordnet haben, ist die Bereitstellung der Medienumgehung abgeschlossen.
+Fügen Sie als Nächstes Subnetze zum Netzwerkstandort hinzu, wie unter ["Zuordnen eines Subnetzes zu einem Netzwerkstandort](deploy-network.md#BKMK_AssociateSubnets)" beschrieben. Nachdem Sie alle Subnetze zu Netzwerkstandorten zugeordnet haben, ist die Bereitstellung der Medienumgehung abgeschlossen.
 > [!IMPORTANT]
-> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Ausführliche Informationen finden Sie unter [Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business.](deploy-network.md) 
+> Wenn Sie noch keine Netzwerkregionen und Netzwerkstandorte erstellt haben, müssen Sie dies nachholen, bevor Sie mit der Bereitstellung der Medienumgehung fortfahren können. Ausführliche Informationen finden [Sie unter Bereitstellen von Netzwerkregionen, Standorten und Subnetzen in Skype for Business](deploy-network.md). 
   
 ## <a name="see-also"></a>Siehe auch
 

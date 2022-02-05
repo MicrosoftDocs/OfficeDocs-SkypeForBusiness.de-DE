@@ -1,27 +1,22 @@
 ---
 title: Front-End-Server – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FrontEndServerScopeNode
+  - ms.lync.tb.FrontEndServerScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16f6382d-1cbd-4656-b9cb-1adda13b97ae
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Pool oder Standard Edition-Server. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 0874f5a5cbcef12b45ba1659e3c522d98301bd57
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834403"
 ---
+
 # <a name="front-end-server-scope-node"></a>Front-End-Server – Bereichsknoten
  
 Dieser Knoten enthält die Konfigurationsinformationen für diesen Front-End-Pool oder Standard Edition-Server. Folgende Möglichkeiten stehen zur Verfügung:

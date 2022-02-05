@@ -1,27 +1,22 @@
 ---
 title: Seite "Spiegeldatenbank installieren" – Optionen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.InstallMirrorDatabaseOptionPage
+  - ms.lync.tb.InstallMirrorDatabaseOptionPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7500896a-14ea-4b11-aaee-be3d81314536
 description: 'Sie konfigurieren die Einstellungen der Spiegeldatenbank, indem Sie Folgendes definieren:'
-ms.openlocfilehash: 2869af0b7ca4d455fc2fe1aea973e8764cbe0be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847708"
 ---
+
 # <a name="install-mirror-database-option-page"></a>Seite „Spiegeldatenbank installieren“ – Optionen
  
 Sie konfigurieren die **Einstellungen der Spiegeldatenbank**, indem Sie Folgendes definieren:
@@ -29,7 +24,7 @@ Sie konfigurieren die **Einstellungen der Spiegeldatenbank**, indem Sie Folgende
 - Geben Sie den **Pfad zur Dateifreigabe** ein, um den Speicherort für die Sicherung SQL Server Dateien für die gespiegelte Datenbank zu definieren.
     
     > [!NOTE]
-    > Die primäre SQL Server Instanz (entweder benannte Instanz oder Standardinstanz) muss über Schreibberechtigungen für die hier definierten Dateifreigabe verfügen. Die Spiegelinstanz SQL Server (benannte Instanz oder Standardinstanz) muss über Leseberechtigungen für dieselbe Dateifreigabe verfügen. 
+    > Die primäre SQL Server Instanz (benannte Instanz oder Standardinstanz) muss über Schreibberechtigungen für die hier definierten Dateifreigabe verfügen. Die Spiegelung SQL Server Instanz (benannte Instanz oder Standardinstanz) muss über Leseberechtigungen für dieselbe Dateifreigabe verfügen. 
   
   **OK**: Mit dieser Option werden die Änderungen am Dialogfeld akzeptiert und übernommen.
   

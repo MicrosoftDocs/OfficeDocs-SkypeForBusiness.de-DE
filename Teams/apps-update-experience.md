@@ -1,7 +1,7 @@
 ---
 title: App-Updateerfahrung in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: v-tbasra
 ms.topic: article
@@ -9,25 +9,20 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_Help
+  - M365-collaboration
+  - Teams_ITAdmin_Help
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: feb1cdf7c8b528b7d773978375d1d16a20fae631
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850588"
+description: 'Hier erfahren Sie, wie Sie Apps in Microsoft Teams.'
 ---
+
 # <a name="update-apps-in-microsoft-teams"></a>Aktualisieren von Apps in Microsoft Teams
 
-In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Updates des Manifests Microsoft Teams, <a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">die</a> die Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
+In den meisten Fällen wird die neue Version automatisch für Benutzer angezeigt, nachdem App-Entwickler ein App-Update veröffentlicht haben. Es gibt jedoch einige Updates des Manifests Microsoft Teams<a href="/microsoftteams/platform/resources/schema/manifest-schema" target="_blank">, die die</a> Benutzerakzeptanz erfordern, um abgeschlossen zu werden:
 
 * Ein Bot wurde hinzugefügt oder entfernt
 * Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert

@@ -1,30 +1,25 @@
 ---
 title: Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 4252b5a5-4267-4513-b18e-0253a8d66f72
 description: 'Zusammenfassung: Legen Sie die Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server fest.'
-ms.openlocfilehash: 45ee99a0e9ab1b10c429fae470e528ffdd2c3326
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856682"
 ---
+
 # <a name="set-a-users-dial-in-conferencing-pin-in-skype-for-business-server"></a>Festlegen der Einwahlkonferenz-PIN eines Benutzers in Skype for Business Server
  
 **Zusammenfassung:** Legen Sie die Einwahlkonferenz-PIN eines Benutzers für Skype for Business Server fest.
   
-Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Skype for Business Server Benutzer mit Active Directory Domain Services (AD DS)-Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die PIN für Einwahlkonferenzen vergessen hat oder die PIN nicht mit Skype for Business Server festgelegt hat, können Sie die PIN des Benutzers über Skype for Business Server Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
+Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt ein Skype for Business Server Benutzer mit Active Directory Domain Services (AD DS)-Anmeldeinformationen eine persönliche Identifikationsnummer (PIN). Wenn ein Benutzer die PIN für Einwahlkonferenzen vergessen hat oder die PIN nicht mithilfe von Skype for Business Server festgelegt hat, können Sie die PIN des Benutzers über Skype for Business Server Systemsteuerung festlegen. Die PIN kann entweder automatisch generiert oder manuell erstellt werden.
   
 > [!NOTE]
 > Bestimmte Eigenschaften der PIN, beispielsweise die Mindestlänge, können als Richtlinie konfiguriert werden. Zusätzlich zur globalen Richtlinie können Sie eine PIN-Richtlinie für einzelne Standorte oder Benutzer konfigurieren. 
@@ -65,7 +60,7 @@ Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt 
     
 7. Führen Sie im Dialogfeld **PIN festlegen** einen der folgenden Schritte aus:
     
-   - Damit Skype for Business Server die PIN des Benutzers generieren können, wählen Sie **"Automatisches Generieren einer gültigen PIN"** (Standardeinstellung) aus.
+   - Um zuzulassen, dass Skype for Business Server die PIN des Benutzers generieren, wählen Sie **"Automatisches Generieren einer gültigen PIN**" (Standardeinstellung) aus.
     
    - Zum Erstellen einer eigenen PIN klicken Sie auf **Bestimmte PIN manuell eingeben**, klicken Sie auf das Textfeld, und geben Sie anschließend eine PIN ein, welche die in Ihren PIN-Richtlinieneinstellungen angegebenen PIN-Anforderungen erfüllt.
     
@@ -81,7 +76,7 @@ Um einer Einwahlkonferenz als authentifizierter Benutzer beizutreten, benötigt 
     
 ## <a name="assigning-a-user-pin-by-using-windows-powershell-cmdlets"></a>Zuweisen einer Benutzer-PIN mithilfe Windows PowerShell Cmdlets
 
-Sie können PIN-Nummern auch mithilfe des Cmdlets Set-CsClientPin zuweisen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) 
+Sie können PIN-Nummern auch mithilfe des Cmdlets Set-CsClientPin zuweisen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). 
   
 ### <a name="to-auto-assign-a-pin-number-to-a-user"></a>So weisen Sie einem Benutzer automatisch eine PIN-Nummer zu
 
@@ -99,4 +94,4 @@ Der folgende Befehl verwendet den PIN-Parameter, um dem Benutzer Ken Myer die PI
   Set-CsClientPin -Identity "Ken Myer" -Pin 121989
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsClientPin".](/powershell/module/skype/set-csclientpin?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsClientPin](/powershell/module/skype/set-csclientpin?view=skype-ps) ".

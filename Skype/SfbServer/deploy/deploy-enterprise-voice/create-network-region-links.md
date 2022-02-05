@@ -1,39 +1,34 @@
 ---
 title: Erstellen von Netzwerkregionenverbindungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: f8163910-8935-475d-88a2-3aa44feb9dbe
-description: Erstellen oder Ändern von Netzwerkregionenverbindungen, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: 0d6d3fd1c3f432135352477051cab157e5979d33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860892"
+description: 'Erstellen oder Ändern von Netzwerkregionenverbindungen, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.'
 ---
+
 # <a name="create-network-region-links-in-skype-for-business-server"></a>Erstellen von Netzwerkregionenverbindungen in Skype for Business Server
  
 Erstellen oder Ändern von Netzwerkregionenverbindungen, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden. 
   
 Regionen in einem Netzwerk sind über eine physische WAN-Verbindung verbunden. Eine Netzwerkregionenverbindung erstellt eine Verbindung zwischen zwei Regionen, die für die Anrufsteuerung (Call Admission Control, CAC) konfiguriert sind, und legt die Bandbreiteneinschränkungen für Audio- und Videodatenverkehr zwischen diesen Regionen fest.
   
-Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika und APAC sowie eine Verbindung zwischen den Regionen EMEA und APAC auf. Jede dieser Regionenverbindungen ist durch die WAN-Bandbreite eingeschränkt, wie in der Tabelle "Informationen zur Regionsverbindungsbandbreite" im [Beispiel beschrieben: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)
+Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika und APAC sowie eine Verbindung zwischen den Regionen EMEA und APAC auf. Jede dieser Regionenverbindungen ist durch die WAN-Bandbreite eingeschränkt, wie in der Tabelle "Informationen zur Regionsverbindungsbandbreite" in ["Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/example-gathering-requirements.md)" beschrieben.
   
 ### <a name="to-create-network-region-links-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie Netzwerkregionenverbindungen mithilfe Skype for Business Server Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Führen Sie das Cmdlet New-CsNetworkRegionLink aus, um die Regionsverbindungen zu erstellen und geeignete Bandbreitenrichtlinienprofile anzuwenden. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -51,17 +46,17 @@ Die Beispieltopologie weist eine Verbindung zwischen den Regionen Nordamerika un
     
 2. Klicken Sie in der linken Navigationsleiste auf **Netzwerkkonfiguration**.
     
-3. Klicken Sie auf die Navigationsschaltfläche **"Regionslink".**
+3. Klicken Sie auf die Navigationsschaltfläche " **Regionslink** ".
     
 4. Klicken Sie auf **Neu**.
     
-5. Klicken Sie auf der Seite **"Neue Regionenverbindung"** auf **"Name",** und geben Sie dann einen Namen für die Netzwerkregionenverbindung ein.
+5. Klicken Sie auf der Seite **"Neue Regionenverbindung** " auf **"Name** ", und geben Sie dann einen Namen für die Netzwerkregionenverbindung ein.
     
-6. Klicken Sie auf **Netzwerkregion Nr. 1** und dann auf die Netzwerkregion in der Liste, die Sie mit Netzwerkregion Nr. 2 verknüpfen möchten.
+6. Klicken Sie auf **Netzwerkregion 1** und dann auf die Netzwerkregion in der Liste, die Sie mit Netzwerkregion Nr. 2 verknüpfen möchten.
     
 7. Klicken Sie auf **Netzwerkregion Nr. 2** und dann auf eine Netzwerkregion in der Liste, die Sie mit Netzwerkregion Nr. 1 verknüpfen möchten.
     
-8. Klicken Sie optional auf **Bandbreitenrichtlinie,** und wählen Sie dann das Bandbreitenrichtlinienprofil aus, das Sie auf die Netzwerkregionenverbindung anwenden möchten.
+8. Klicken Sie optional auf " **Bandbreitenrichtlinie**", und wählen Sie dann das Bandbreitenrichtlinienprofil aus, das Sie auf die Netzwerkregionenverbindung anwenden möchten.
     
     > [!NOTE]
     > Wenden Sie eine Bandbreitenrichtlinie nur an, wenn die Netzwerkregionenverbindung bandbreitenbeschränkt ist und Sie die Anrufsteuerung verwenden möchten, um den Mediendatenverkehr für diese Verbindung zu steuern. 

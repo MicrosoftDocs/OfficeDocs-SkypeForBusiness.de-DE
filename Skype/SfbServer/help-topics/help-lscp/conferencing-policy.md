@@ -1,27 +1,22 @@
 ---
 title: Konferenzrichtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ConfMeetingPolicyMain
+  - ms.lync.lscp.ConfMeetingPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 90eaa64e-369e-448d-bac4-2574c7c598b8
-description: Eine Konferenzrichtlinie definiert die Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
-ms.openlocfilehash: 5d5b5be8f25d359ec4d0c5b3b76448cc4446e325
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853349"
+description: 'Eine Konferenzrichtlinie definiert die Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.'
 ---
+
 # <a name="conferencing-policy"></a>Konferenzrichtlinie
 
 Eine Konferenzrichtlinie definiert die Funktionen, die Benutzern während einer Konferenz (auch als Besprechung bezeichnet) zur Verfügung stehen.
@@ -61,9 +56,9 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Identifiziert die Konferenzrichtlinie.
+- **Namen** Identifiziert die Konferenzrichtlinie.
 
-- **Bereich** Gibt den Bereich der Konferenzrichtlinie an: global, Standort oder Benutzer.
+- **Umfang** Gibt den Bereich der Konferenzrichtlinie an: global, Standort oder Benutzer.
 
 - **Datenzusammenarbeit** Überprüft, ob die Konferenzrichtlinie angibt, dass die Datenzusammenarbeit in Konferenzen zulässig ist.
 
@@ -75,6 +70,6 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **PSTN** Wird überprüft, ob die Konferenzrichtlinie angibt, dass PSTN-Einwahlkonferenzen zulässig sind.
 
-- **Aufzeichnung** Wird überprüft, wenn die Konferenzrichtlinie angibt, dass die Aufzeichnung in Konferenzen zulässig ist.
+- **Aufnahme** Wird überprüft, wenn die Konferenzrichtlinie angibt, dass die Aufzeichnung in Konferenzen zulässig ist.
 
 Ausführliche Informationen zu den Konferenzfunktionen finden Sie unter [Overview of Conferencing](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-conferencing) in der Planungsdokumentation. Ausführliche Informationen zur Verwendung von Konferenzrichtlinien finden Sie unter [Conferencing Policies](/previous-versions/office/lync-server-2013/lync-server-2013-conferencing-policies) in der Betriebsdokumentation.

@@ -1,27 +1,22 @@
 ---
 title: Edgeserver – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeServersScopeNode
+  - ms.lync.tb.EdgeServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0d49587e-5079-4fe0-a9b9-fb0853811fca
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Im Knoten Edgepools werden die Edgepools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: aefca966a9816986fe37fc6e9515d8815a9034af
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849148"
 ---
+
 # <a name="edge-servers-scope-node"></a>Edgeserver – Bereichsknoten
  
 Im Knoten **Edgepools** werden die Edgepools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:

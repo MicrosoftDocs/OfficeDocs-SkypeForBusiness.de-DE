@@ -1,25 +1,20 @@
 ---
 title: Abrufen von Dimensionselementen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: bd89bbf7-cb98-4cd8-bbfa-0484663d14db
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Dimension-Elemente abrufen". Der Vorgang "Dimension-Elemente abrufen" ist Teil der Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: e8f3cfcfcc11a7c7e7834cf4043f610bb0606931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862202"
 ---
+
 # <a name="get-dimension-members"></a>Abrufen von Dimensionselementen
  
 **Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Dimension-Elemente abrufen". Der Vorgang "Dimension-Elemente abrufen" ist Teil der Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -33,7 +28,7 @@ Der Vorgang "Dimension-Elemente abrufen" gibt die Liste der Elemente einer besti
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/DimensionMembers  <br/> |HTTP/1.1  <br/> |
    
  **URI-Parameter** : Keine.
   

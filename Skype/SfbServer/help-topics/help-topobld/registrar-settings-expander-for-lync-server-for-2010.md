@@ -1,27 +1,22 @@
 ---
 title: Registrierungseinstellungen für Lync Server für 2010 – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RegistrarSettingsExpander2010
+  - ms.lync.tb.RegistrarSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 17dcd75c-bd9a-407e-af9b-c61cb1201c07
 description: 'Sie bearbeiten die Einstellungen für Flexibilität und konfigurieren die folgenden Eigenschaften:'
-ms.openlocfilehash: fbdd6f63ac46aa6ca2c00b75466d192be939f642
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830949"
 ---
+
 # <a name="registrar-settings-expander-for-lync-server-for-2010"></a>Einstellungen der Registrierungsstelle für Lync Server 2010 – Erweiterung
  
 Sie bearbeiten die Einstellungen für **Flexibilität** und konfigurieren die folgenden Eigenschaften:

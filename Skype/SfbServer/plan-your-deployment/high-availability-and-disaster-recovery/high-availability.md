@@ -1,25 +1,20 @@
 ---
 title: Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 965041b7-3136-49f2-89c1-8b30417cb8ea
-description: Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.
-ms.openlocfilehash: f8ad22c7728fc4fb62980a81fa659558aaba4be7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831849"
+description: 'Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.'
 ---
+
 # <a name="front-end-pool-high-availability-and-management"></a>Hohe Verfügbarkeit und Verwaltung von Front-End-Pools
  
 Erfahren Sie mehr über die Front-End-Poolverwaltung in Skype for Business Server, einschließlich der Verwaltung von Pools, Quorumverlust und spezieller Schritte für Pools mit nur zwei Front-End-Servern.
@@ -31,7 +26,7 @@ In Skype for Business Server verwendet die Architektur von Front-End-Pools ein M
   
 ## <a name="planning-for-the-management-of-front-end-pools"></a>Planen der Verwaltung von Front-End-Pools
 
- Skype for Business Server verwendet ein verteiltes Systemmodell, das auf Windows Fabric basiert. In diesem Modell werden wichtige Daten für jeden Benutzer und jede Konferenz auf drei Front-End-Servern in einem Front-End-Pool gespeichert. Diese drei Server, die einen bestimmten Satz von Daten speichern, werden als "replicas" bezeichnet.
+ Skype for Business Server verwendet ein verteiltes Systemmodell basierend auf Windows Fabric. In diesem Modell werden wichtige Daten für jeden Benutzer und jede Konferenz auf drei Front-End-Servern in einem Front-End-Pool gespeichert. Diese drei Server, die einen bestimmten Satz von Daten speichern, werden als "replicas" bezeichnet.
   
 Mit dem verteilten Modell für Front-End-Pools muss eine bestimmte Anzahl von Servern eines Pools ausgeführt werden, damit der Pool funktioniert. Es gibt zwei Verlustmodi für einen Pool.
   
@@ -60,10 +55,10 @@ Wenn Sie einen neuen Front-End-Pool zum ersten Mal starten, ist es wichtig, dass
 
 
    
-Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorherigen Tabelle dargestellt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit kein Quorumverlust auf Poolebene besteht), können Sie das Cmdlet verwenden,  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` um dem Pool zu ermöglichen, nach diesem Quorumverlust auf Routinggruppenebene wiederherzustellen und Fortschritte zu machen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
+Bei jedem nachfolgenden Start des Pools sollten 85 % der Server gestartet werden (wie in der vorherigen Tabelle dargestellt). Wenn diese Anzahl von Servern nicht gestartet werden kann (aber genügend Server gestartet werden können, damit kein Quorumverlust auf Poolebene besteht), können Sie das  `Reset-CsPoolRegistrarState -ResetType QuorumLossRecovery` Cmdlet verwenden, um dem Pool zu ermöglichen, nach diesem Quorumverlust auf Routinggruppenebene wiederherzustellen und Fortschritte zu machen. Weitere Informationen zur Verwendung dieses Cmdlets finden Sie unter [Reset-CsPoolRegistrarState](/powershell/module/skype/reset-cspoolregistrarstate?view=skype-ps). 
   
 > [!NOTE]
-> In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren und zur Spiegelkopie wechseln und genügend Front-End-Server herunterfahren, sodass gemäß der vorherigen Tabelle nicht genügend Ausgeführt werden, wird der gesamte Pool heruntergefahren. Weitere Informationen finden Sie unter [Datenbankspiegelungszeugen.](/sql/database-engine/database-mirroring/database-mirroring-witness) 
+> In Pools mit einer geraden Anzahl von Servern verwendet Skype for Business Server die primäre SQL-Datenbank als Zeuge. Wenn Sie in einem solchen Pool die primäre Datenbank herunterfahren und zur Spiegelkopie wechseln und genügend Front-End-Server herunterfahren, sodass gemäß der vorherigen Tabelle nicht genügend Ausgeführt werden, wird der gesamte Pool heruntergefahren. Weitere Informationen finden Sie unter [Datenbankspiegelungszeugen](/sql/database-engine/database-mirroring/database-mirroring-witness). 
   
 #### <a name="pool-level-quorum-loss"></a>Quorumverlust auf Poolebene
 
@@ -79,7 +74,7 @@ Damit ein Front-End-Pool überhaupt funktioniert, kann der Quorumverlust auf Poo
 |10-12  <br/> |Jeder 5 der ersten 9 Server  <br/> |
 |12-16 **For Skype for Business Server 2019**  <br/> |Alle 7 der ersten 12 Server  <br/> |
    
-In der obigen Tabelle sind die "ersten Server" die Server, die beim ersten Start des Pools chronologisch zuerst gestartet wurden. Um diese Server zu ermitteln, können Sie das  `Get-CsComputer` Cmdlet mit der Option `-PoolFqdn` verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der sie in der Topologie angezeigt werden, und die Server am Anfang der Liste sind die ersten Server.
+In der obigen Tabelle sind die "ersten Server" die Server, die beim ersten Start des Pools chronologisch zuerst gestartet wurden. Um diese Server zu ermitteln, können Sie das  `Get-CsComputer` Cmdlet mit der `-PoolFqdn` Option verwenden. Dieses Cmdlet zeigt die Server in der Reihenfolge an, in der sie in der Topologie angezeigt werden, und die Server am Anfang der Liste sind die ersten Server.
   
 > [!IMPORTANT]
 > Die maximale Anzahl von Front-End-Servern wurde Skype for Business Server [2019 auf 16](../../../SfBServer2019/plan/user-model-2019.md) erhöht.
@@ -90,7 +85,7 @@ Sie sollten auf einige andere Faktoren achten, um sicherzustellen, dass Ihre Fro
   
 - Wenn Sie das erste Mal Benutzer in den Pool verschieben, stellen Sie sicher, dass mindestens drei der Front-End-Server aktiv sind.
     
-- Wenn Sie eine Kopplungsbeziehung zwischen diesem Pool und einem anderen Pool für Notfallwiederherstellungszwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool zu einem bestimmten Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt hat, um Daten ordnungsgemäß mit dem Sicherungspool zu synchronisieren. Weitere Informationen zu Poolpaaren und Notfallwiederherstellungsfeatures finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server.](high-availability-and-disaster-recovery.md) 
+- Wenn Sie eine Kopplungsbeziehung zwischen diesem Pool und einem anderen Pool für Notfallwiederherstellungszwecke einrichten, müssen Sie nach dem Einrichten dieser Beziehung sicherstellen, dass dieser Pool zu einem bestimmten Zeitpunkt drei Front-End-Server gleichzeitig ausgeführt hat, um Daten ordnungsgemäß mit dem Sicherungspool zu synchronisieren. Weitere Informationen zu Poolpaaren und Notfallwiederherstellungsfeatures finden Sie unter [Plan for high availability and disaster recovery in Skype for Business Server](high-availability-and-disaster-recovery.md). 
     
 ## <a name="front-end-pool-with-two-front-end-servers"></a>Front-End-Pool mit zwei Front-End-Servern
 

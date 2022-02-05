@@ -1,41 +1,36 @@
 ---
 title: Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeSettingsExpander2010
+  - ms.lync.tb.EdgeSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 74a66817-7092-4b2f-a2af-bc1a2c9e5fed
 description: 'Sie bearbeiten die Einstellungen für den Edgeserver oder Edgepool, indem Sie die folgenden Eigenschaften konfigurieren:'
-ms.openlocfilehash: b1ffc038a8995663c3a080e29fa4322928a7b214
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828898"
 ---
+
 # <a name="edit-edge-settings-expander-for-lync-server-2010"></a>Bearbeiten der Edgeeinstellungen für Lync Server 2010 – Erweiterung
  
 Sie bearbeiten die Einstellungen für den Edgeserver oder Edgepool, indem Sie die folgenden Eigenschaften konfigurieren: 
   
  **Allgemein**
   
-- **Interner Pool-FQDN:** Der vollqualifizierte Domänenname des internen Pools ist die Identität des Edgeservers oder Edgepools gemäß definition im DNS-Hosteintrag (Domain Name System, DNS) (A oder AAAA für IPv6).
+- **Interner Pool-FQDN**: Der vollqualifizierte Domänenname des internen Pools ist die Identität des Edgeservers oder Edgepools gemäß definition im DNS-Hosteintrag (A oder AAAA für IPv6).
     
-- Wählen Sie **"Partnerverbund für diesen Edgepool aktivieren" (Port 5061) aus,** wenn Sie den Edgeserver oder Edgepool für den Partnerverbund mit anderen Sitzungsinitiierungsprotokollpartnern aktivieren möchten.
+- Wählen Sie **"Partnerverbund für diesen Edgepool aktivieren" (Port 5061) aus** , wenn Sie den Edgeserver oder Edgepool für den Partnerverbund mit anderen Sitzungsinitiierungsprotokollpartnern aktivieren möchten.
     
     > [!IMPORTANT]
-    > Sie können nur einen Edgeserver oder Edgepool aktiv für einen Partnerverbund definieren. Die im zugehörigen Screenshot gezeigte Konfiguration weist darauf hin, dass ein anderer Edgeserver oder Edgepool bereits für den Partnerverbund konfiguriert ist. Der externe DNS-SRV-Eintrag für den Partnerverbund (_sipfederationtls._tcp. \<external domain name\> ) verweist auf den Edgeserver oder Edgepool für den Partnerverbund. 
+    > Sie können nur einen Edgeserver oder Edgepool aktiv für einen Partnerverbund definieren. Die im zugehörigen Screenshot gezeigte Konfiguration weist darauf hin, dass ein anderer Edgeserver oder Edgepool bereits für den Partnerverbund konfiguriert ist. Der externe DNS-SRV-Eintrag für den Partnerverbund (_sipfederationtls._tcp.\<external domain name\>) verweist auf den Edgeserver oder Edgepool für den Partnerverbund. 
   
-- Der **interne Configuration Replication Port (HTTPS)** ist standardmäßig bei TCP-Port 4443 der Port, über den die lokale Kopie (d. h. lokal auf den Edgeservern) des zentralen Verwaltungsspeichers repliziert wird. Die lokale Kopie des zentralen Verwaltungsspeichers befindet sich in der **RTCLOCAL-Datenbank** in der SQL Server auf jedem Computer. Die Replikation erfolgt unidirektional, wird vom zentralen Verwaltungsserver (oder dem Front-End-Server oder Front-End-Pool mit der Rolle des zentralen Verwaltungsservers) zu den Edgeservern initiiert und ist ein interner Schnittstellenport.
+- Der **interne Configuration Replication Port (HTTPS)** ist standardmäßig bei TCP-Port 4443 der Port, über den die lokale Kopie (d. h. lokal auf den Edgeservern) des zentralen Verwaltungsspeichers repliziert wird. Die lokale Kopie des zentralen Verwaltungsspeichers befindet sich in der **RTCLOCAL-Datenbank** im SQL Server auf jedem Computer. Die Replikation erfolgt unidirektional, wird vom zentralen Verwaltungsserver (oder dem Front-End-Server oder Front-End-Pool mit der Rolle des zentralen Verwaltungsservers) zu den Edgeservern initiiert und ist ein interner Schnittstellenport.
     
   **Auswahl für nächsten Hop**
   

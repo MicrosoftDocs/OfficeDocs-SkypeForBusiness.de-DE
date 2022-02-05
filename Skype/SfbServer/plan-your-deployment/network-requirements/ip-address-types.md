@@ -1,28 +1,23 @@
 ---
 title: Konfigurieren von IP-Adresstypen in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 17e756c0-6652-4cd5-b185-4b25929e3a42
 description: 'Zusammenfassung: Überprüfen Sie die nachstehenden Überlegungen zum IP-Adresstyp, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 936857f79cf71328303e3a0a842b230694cf86c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834993"
 ---
+
 # <a name="configure-ip-address-types-in-skype-for-business"></a>Konfigurieren von IP-Adresstypen in Skype for Business
 
 **Zusammenfassung:** Überprüfen Sie die nachstehenden Überlegungen zum IP-Adresstyp, bevor Sie Skype for Business Server implementieren.
@@ -37,7 +32,7 @@ Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahre
 
 1. Klicken Sie unter **Enterprise Edition-Front-End-Pools** mit der rechten Maustaste auf den Server in einem Pool und wählen Sie anschließend **Eigenschaften bearbeiten**. (Wählen Sie alternativ den Server und klicken Sie auf **Eigenschaften bearbeiten** im Menü **Aktion**.)
 
-2. Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Konfiguration mit dualen Stapeln **IPv4** und **IPv6 aktivieren** aus.
+2. Wählen Sie im Dialogfeld **Eigenschaften bearbeiten** den IP-Adressentyp, den Sie konfigurieren möchten. Wählen Sie für eine Konfiguration mit zwei Stapeln **"IPv4 aktivieren"** und **"IPv6 aktivieren**" aus.
 
    **Dialogfeld "Eigenschaften bearbeiten" für den Front-End-Server-Pool**
 
@@ -53,7 +48,7 @@ Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahre
    - **PSTN-IP-Adresse**. Geben Sie eine PSTN-IP-Adresse an, wenn auf dem Front-End-Server ein Vermittlungsserver gemeinsam ausgeführt wird. Diese Adresse muss mit dem Format des ausgewählten Adressentyps übereinstimmen.
 
 > [!NOTE]
-> Die Installation zusätzlicher Netzwerkschnittstellenkarten (NiCs) zur Unterstützung der PSTN-IP-Adresskonfiguration (oder aus einem anderen Grund) auf Front-End-Servern wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server finden Sie unter [Serverhardwareplattformen für Lync Server 2013.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+> Die Installation zusätzlicher Netzwerkschnittstellenkarten (NiCs) zur Unterstützung der PSTN-IP-Adresskonfiguration (oder aus einem anderen Grund) auf Front-End-Servern wird nicht unterstützt. Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server finden Sie unter [Server-Hardwareplattformen für Lync Server 2013](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 ## <a name="deploy-ip-address-types-on-a-mediation-server"></a>Bereitstellen von IP-Adresstypen auf einem Vermittlungsserver
 
@@ -81,8 +76,8 @@ Führen Sie mithilfe des Topologie-Generators die Schritte im folgenden Verfahre
 > Wir unterstützen nur zwei Netzwerkkarten auf *dedizierten* Vermittlungsservern. Wenn die Vermittlungs-Sserverrolle im Front-End verbunden ist, werden duale Netzwerkkarten nicht unterstützt. 
 
 > [!NOTE]
-> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2015 finden Sie unter [Hardware für Skype for Business Server 2015.](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
-> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2019 finden Sie unter [Hardware für Skype for Business Server 2019.](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
+> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2015 finden Sie unter [Hardware für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md#hardware-for-skype-for-business-server-2015)
+> - Weitere Informationen zu unterstützten NIC-Konfigurationen für Skype for Business Server 2019 finden Sie unter [Hardware für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md#hardware-for-skype-for-business-server-2019)
 
 
 

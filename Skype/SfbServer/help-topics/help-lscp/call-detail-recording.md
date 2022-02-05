@@ -1,27 +1,22 @@
 ---
 title: Aufzeichnung von Kommunikationsdatensätzen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchCdrMain
+  - ms.lync.lscp.MonArchCdrMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e3daddf8-ac49-4b96-bf05-44b5a01d7aab
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 98ffec58ddc348350e38eb710e754e909dddc352
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860522"
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="call-detail-recording"></a>Aufzeichnung von Kommunikationsdatensätzen
  
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

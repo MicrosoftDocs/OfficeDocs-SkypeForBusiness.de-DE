@@ -1,32 +1,27 @@
 ---
 title: SQL-Speichereinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.SqlStoreSettingsExpander
+  - ms.lync.tb.SqlStoreSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: bd269d52-6f87-4433-b9b0-2b543fea845d
-ROBOTS: NOINDEX, NOFOLLOW
-description: Um die Eigenschaften einer SQL Server Datenbank zu bearbeiten, müssen Sie die SQL Server Datenbankinstanz ändern. Sie können das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um Aufgaben auszuführen, z. B. das Verschieben der Archivierungsserverdatenbank von einem Computer auf einen anderen. Darüber hinaus können Sie das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
-ms.openlocfilehash: f77eeb2f397b02231b7d1b004c243f218967c040
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864102"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Um die Eigenschaften einer SQL Server Datenbank zu bearbeiten, müssen Sie die SQL Server Datenbankinstanz ändern. Sie können das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um Aufgaben auszuführen, z. B. das Verschieben der Archivierungsserverdatenbank von einem Computer auf einen anderen. Darüber hinaus können Sie das Dialogfeld Eigenschaften bearbeiten nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.'
 ---
+
 # <a name="sql-store-settings-expander"></a>SQL-Speichereinstellungen – Erweiterung
  
 Um die Eigenschaften einer SQL Server Datenbank zu bearbeiten, müssen Sie die SQL Server Datenbankinstanz ändern. Sie können das Dialogfeld **Eigenschaften bearbeiten** nicht verwenden, um Aufgaben auszuführen, z. B. das Verschieben der Archivierungsserverdatenbank von einem Computer auf einen anderen. Darüber hinaus können Sie das Dialogfeld **Eigenschaften bearbeiten** nicht verwenden, um die Instanz von SQL Server zu ändern, die den zentralen Verwaltungsspeicher hostet.
   
-## <a name="editing-the-properties-of-a-sql-server-database"></a>Bearbeiten der Eigenschaften einer SQL Server Datenbank
+## <a name="editing-the-properties-of-a-sql-server-database"></a>Bearbeiten der Eigenschaften einer SQL Server-Datenbank
 
 Führen Sie das folgende Verfahren im Topologie-Generator aus, um die Instanz von SQL Server zu ändern, die von einer anderen Datenbank als dem zentralen Verwaltungsspeicher verwendet wird:
   
@@ -36,10 +31,10 @@ Führen Sie das folgende Verfahren im Topologie-Generator aus, um die Instanz vo
     
 2. Führen Sie im Dialogfeld **Eigenschaften bearbeiten** einen der folgenden Schritte aus:
     
-   - Wenn Sie die Standardinstanz SQL Server verwenden möchten, wählen Sie **"Standardinstanz" aus,** und klicken Sie dann auf **"OK".**
+   - Wenn Sie die Standardinstanz SQL Server verwenden möchten, wählen Sie **"Standardinstanz" aus**, und klicken Sie dann auf **"OK**".
     
    - Wählen Sie zum Verwenden einer benannten Datenbankinstanz die Option **Benannte Instanz** aus, geben Sie den Instanznamen in das Textfeld ein, und klicken Sie auf **OK**. Sie sollten nur den Instanznamen (z. B. ArchivingInstance) und nicht den gesamten SQL Server Pfad eingeben.
     
-Wenn Sie im Dialogfeld **Eigenschaften bearbeiten** arbeiten, überprüft der Topologie-Generator nicht, ob es sich bei der eingegebenen Datenbankinstanz um eine gültige Instanz handelt. Wenn Sie z. B. versehentlich "ArchivingInstanec" als Instanznamen eingeben und dann auf **"OK"** klicken, akzeptiert der Topologie-Generator diese ungültige Instanz. Bevor Sie diese Topologie veröffentlichen können, müssen Sie diesen Fehler beheben: Wenn eine SQL Server Instanz nicht gefunden werden kann, erstellt der Topologie-Generator diese Instanz nicht für Sie.
+Wenn Sie im Dialogfeld **Eigenschaften bearbeiten** arbeiten, überprüft der Topologie-Generator nicht, ob es sich bei der eingegebenen Datenbankinstanz um eine gültige Instanz handelt. Wenn Sie z. B. versehentlich "ArchivingInstanec" als Instanznamen eingeben und dann auf **"OK**" klicken, akzeptiert der Topologie-Generator diese ungültige Instanz. Bevor Sie diese Topologie veröffentlichen können, müssen Sie diesen Fehler beheben: Wenn eine SQL Server Instanz nicht gefunden werden kann, erstellt der Topologie-Generator diese Instanz nicht für Sie.
   
 

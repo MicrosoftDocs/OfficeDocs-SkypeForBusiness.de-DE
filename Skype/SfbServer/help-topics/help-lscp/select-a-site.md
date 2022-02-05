@@ -1,30 +1,25 @@
 ---
 title: Auswählen eines Standorts
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.SelectSite
+  - ms.lync.lscp.SelectSite
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 09472310-a40f-4360-b6f1-1a9ac8888965
-description: Verwenden Sie das Dialogfeld "Website auswählen", um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.
-ms.openlocfilehash: f0fffc815a8a2cd5237b07c80aee1122006f5186
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837987"
+description: 'Verwenden Sie das Dialogfeld "Website auswählen", um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf OK, um einen vorhandenen Standort zu verwenden.'
 ---
+
 # <a name="select-a-site"></a>Auswählen eines Standorts
 
-Verwenden Sie das Dialogfeld **"Website auswählen",** um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf **OK**, um einen vorhandenen Standort zu verwenden.
+Verwenden Sie das Dialogfeld **"Website auswählen** ", um in Ihrer Umgebung verfügbare Websites zu suchen. Klicken Sie auf einen Standort in der Liste und anschließend auf **OK**, um einen vorhandenen Standort zu verwenden.
 
 > [!NOTE]
 > Zum Abrufen aller verfügbaren Standorte geben Sie im Suchfeld keine Suchzeichenfolge ein, und klicken Sie dann auf das Suchsymbol.
@@ -43,10 +38,10 @@ Ausführliche Informationen zu den verschiedenen Verfahren, die Sie mithilfe der
 
 ## <a name="to-configure-persistent-chat-options-globally"></a>So konfigurieren Sie Optionen für beständigen Chat global
 
-Wählen Sie in **"Standort auswählen"** den Standort aus, der für die Standortkonfiguration des Servers für beständigen Chat konfiguriert werden soll.
+Wählen **Sie in "Standort auswählen**" den Standort aus, der für die Standortkonfiguration des Servers für beständigen Chat konfiguriert werden soll.
 
 ## <a name="to-create-a-persistent-chat-policy-for-a-site"></a>So erstellen Sie eine Richtlinie für beständigen Chat für eine Website
 
 Klicken Sie im Dialogfeld **Standort auswählen** auf den Standort, auf den die Richtlinie angewendet werden soll.
 
-Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie in der Planungsdokumentation unter "Übersicht über den [Server für beständigen Chat".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter ["Konfigurieren des Servers für beständigen Chat"](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) in der Bereitstellungsdokumentation und [verwalten von Lync Server 2013, Server für beständigen Chat](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.
+Ausführliche Informationen zu den Features und Funktionen des Servers für beständigen Chat finden Sie in der Planungsdokumentation [unter "Übersicht über den Server für beständigen Chat](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-persistent-chat-server) ". Ausführliche Informationen zum Arbeiten mit Konfigurationen des Servers für beständigen Chat finden Sie unter ["Konfigurieren des Servers für beständigen Chat](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-persistent-chat-server) " in der Bereitstellungsdokumentation und [verwalten von Lync Server 2013, Server für beständigen Chat](/previous-versions/office/lync-server-2013/managing-lync-server-2013-persistent-chat-server) in der Betriebsdokumentation.

@@ -1,41 +1,36 @@
 ---
 title: Planen Ihrer Enterprise-VoIP Lösung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: f9c6fd1d-c379-47d1-8447-19274ace9951
 description: 'Zusammenfassung: Erfahren Sie mehr über Ihre Optionen für die Planung einer einheitlichen Sprach- und Kommunikationslösung in Skype for Business Server.'
-ms.openlocfilehash: 71fc511d6c435ab6b1cd5f553d668acd2fb606a7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829859"
 ---
+
 # <a name="plan-your-enterprise-voice-solution-in-skype-for-business-server"></a>Planen Ihrer Enterprise-VoIP Lösung in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über Ihre Optionen für die Planung einer einheitlichen Sprach- und Kommunikationslösung in Skype for Business Server.
   
-Skype for Business Server bietet zwei lokale Enterprise-VoIP -optionen – Enterprise-VoIP und Anruf über Arbeit – für Sie, um das Telefonsystem Ihrer Organisation in Ihre Skype for Business Server Bereitstellung zu integrieren und so eine echte einheitliche Bereitstellung zu ermöglichen. Kommunikationslösung. Mit beiden Optionen können Benutzer ihren Skype for Business-Client verwenden, um Sprachanrufe mit anderen Benutzern sowohl innerhalb als auch außerhalb Ihrer Organisation zu initiieren.
+Skype for Business Server bietet zwei lokale Enterprise-VoIP –Enterprise-VoIP und Anruf über Arbeit – für Die Integration des Telefonsystems Ihrer Organisation in Ihre Skype for Business Server Bereitstellung, sodass eine echte einheitliche Telefonanlage entsteht. Kommunikationslösung. Mit beiden Optionen können Benutzer ihren Skype for Business-Client verwenden, um Sprachanrufe mit anderen Benutzern sowohl innerhalb als auch außerhalb Ihrer Organisation zu initiieren.
   
 Sie können auch sowohl Enterprise-VoIP als auch "Über Arbeit anrufen" verwenden.
   
-- Enterprise-VoIP ist das umfassendste VoIP-Angebot. Es handelt sich um eine softwaregestützte VoIP-Lösung (Voice over IP), die einen sehr umfangreichen Featuresatz bietet, einschließlich umfassender Integration in Outlook und Exchange sowie viele leistungsstarke Funktionen wie Reaktionsgruppen, Parken von Anrufen, Teamanrufe, Gruppenanrufannahme und erweiterte Unterstützung von E9-1-1 für Notrufe. Bei Enterprise-VoIP verwenden Benutzer ein Audiogerät wie ein Headset mit ihrem Computer oder ein VoIP-fähiges Telefon anstelle eines herkömmlichen PSTN- oder PBX-Telefons.
+- Enterprise-VoIP ist das umfassendste VoIP-Angebot. Es handelt sich um eine softwaregestützte VoIP-Lösung (Voice over IP), die einen sehr umfangreichen Featuresatz bietet, einschließlich umfassender Integration in Outlook und Exchange sowie viele leistungsstarke Features wie Reaktionsgruppen, Parken von Anrufen, Teamanrufe, Gruppenanrufannahme und erweiterte Unterstützung für E9-1-1 für Notrufe. Bei Enterprise-VoIP verwenden Benutzer ein Audiogerät wie ein Headset mit ihrem Computer oder ein VoIP-fähiges Telefon anstelle eines herkömmlichen PSTN- oder PBX-Telefons.
     
-- Call Via Work bietet Ihnen eine Möglichkeit, Ihre Skype for Business Lösung in Ihre vorhandenen PBX-Telefonsysteme zu integrieren. Ein Benutzer, der für "Über Arbeit anrufen" aktiviert ist, kann auf Skype for Business klicken, um einen anderen Benutzer anzurufen, entweder innerhalb Ihrer Bereitstellung oder eines externen Benutzers. Der Anruf wird über das PbX-Telefon des Benutzers abgeschlossen. Darüber hinaus können diese Benutzer auf Skype for Business klicken, um an Konferenzen teilzunehmen.
+- Call Via Work bietet Ihnen eine Möglichkeit, Ihre Skype for Business-Lösung in Ihre vorhandenen PBX-Telefonsysteme zu integrieren. Ein Benutzer, der für "Über Arbeit anrufen" aktiviert ist, kann auf Skype for Business klicken, um einen anderen Benutzer anzurufen, entweder innerhalb Ihrer Bereitstellung oder eines externen Benutzers. Der Anruf wird über das PbX-Telefon des Benutzers abgeschlossen. Darüber hinaus können diese Benutzer auf Skype for Business klicken, um an Konferenzen teilzunehmen.
     
-    Die Bereitstellung von "Anruf über Arbeit" ist auch ein Vorteil für Benutzer, die noch über Festnetztelefone verfügen, aber auf Enterprise-VoIP umgestellt werden, da diese Benutzer ihren Skype for Business Client verwenden können, um ihre Telefonanrufe zu steuern.
+    Die Bereitstellung von "Anruf über Arbeit" ist auch ein Vorteil für Benutzer, die noch über PbX-Telefone verfügen, aber auf Enterprise-VoIP umgestellt werden, da diese Benutzer ihren Skype for Business Client verwenden können, um ihre Telefonanrufe zu steuern.
     
      Call Via Work bietet eine begrenzte Anzahl von VoIP-Funktionen als "Enterprise Voice". Beispielsweise werden delegierung, Teamanruf, Reaktionsgruppe oder Erweiterte E9-1-1 nicht unterstützt.
     

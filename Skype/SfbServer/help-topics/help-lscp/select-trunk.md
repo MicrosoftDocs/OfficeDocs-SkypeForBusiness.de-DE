@@ -1,27 +1,22 @@
 ---
 title: Auswählen eines Trunks
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceRouteSelGateway
+  - ms.lync.lscp.VoiceRouteSelGateway
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b513864-15c0-4afb-b934-bb050d5d2dcd
-description: Suchen Sie im Dialogfeld Trunk auswählen nach einem vorhandenen Trunk, den Sie verwenden können.
-ms.openlocfilehash: 98b7252df3efeb44576f4c1d7d11874bea325c18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862702"
+description: 'Suchen Sie im Dialogfeld Trunk auswählen nach einem vorhandenen Trunk, den Sie verwenden können.'
 ---
+
 # <a name="select-trunk"></a>Auswählen eines Trunks
  
 Suchen Sie im Dialogfeld **Trunk auswählen** nach einem vorhandenen Trunk, den Sie verwenden können.

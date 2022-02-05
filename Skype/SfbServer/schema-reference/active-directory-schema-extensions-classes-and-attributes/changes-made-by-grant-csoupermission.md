@@ -1,25 +1,20 @@
 ---
 title: Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d744d352-1ad9-4447-8e2b-28e768d2ed1b
-description: Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (OUs) hinzufügen, damit Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein.
-ms.openlocfilehash: c8b7841fc6754c5f852945807a68089c922f6497
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838467"
+description: 'Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (OUs) hinzufügen, damit Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein.'
 ---
+
 # <a name="changes-made-by-grant-csoupermission-in-skype-for-business-server"></a>Von Grant-CsOUPermission in Skype for Business Server vorgenommene Änderungen
  
 Um Skype for Business Server Verwaltung zu delegieren, können Sie Berechtigungen zu bestimmten Organisationseinheiten (OUs) hinzufügen, damit Mitglieder der durch die Gesamtstrukturvorbereitung erstellten universellen RTC-Gruppen auf die Organisationseinheiten zugreifen können, ohne Mitglieder der Gruppe "Domänenadministratoren" zu sein. 

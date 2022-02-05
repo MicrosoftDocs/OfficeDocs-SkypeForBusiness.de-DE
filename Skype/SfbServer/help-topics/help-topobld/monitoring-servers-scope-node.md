@@ -1,27 +1,22 @@
 ---
 title: Monitoring Server – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MonitoringServersScopeNode
+  - ms.lync.tb.MonitoringServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16fa839b-8eb5-4b81-82c5-65fe9a00614b
 description: 'Im Knoten Monitoring Server werden die Monitoring Server in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: e8d3fb51a789c74a98330b1753e874174035b0c1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847518"
 ---
+
 # <a name="monitoring-servers-scope-node"></a>Überwachungsserver – Bereichsknoten
  
 Im Knoten **Monitoring Server** werden die Monitoring Server in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:

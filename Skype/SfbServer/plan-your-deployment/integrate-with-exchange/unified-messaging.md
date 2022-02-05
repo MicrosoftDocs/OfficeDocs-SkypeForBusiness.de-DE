@@ -1,36 +1,31 @@
 ---
 title: Planen der integration von Exchange Unified Messaging in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/16/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7b22002b-7e6a-4d3f-b600-a733a7e3778a
 description: 'Zusammenfassung: Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Exchange 2013 oder 2016 zu integrieren.'
-ms.openlocfilehash: 7fcd5ea6f573fe40aacabebb1d8b974b2bf1e264
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850688"
 ---
+
 # <a name="plan-for-exchange-unified-messaging-integration-in-skype-for-business"></a>Planen der integration von Exchange Unified Messaging in Skype for Business
 
 **Zusammenfassung:** Lesen Sie dieses Thema, während Sie planen, Skype for Business Server in Exchange 2013 oder 2016 zu integrieren.
 
 Skype for Business Server unterstützt die Integration in Exchange Unified Messaging (UM) zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur. In Exchange ist Exchange Unified Messaging (UM) eine von mehreren Exchange Serverrollen, die Sie installieren und konfigurieren können.
 
-In Microsoft Exchange Server 2013 und 2016 wird Exchange UM als Dienst auf einem Exchange Postfachserver ausgeführt. Bei Skype for Business Server Enterprise-VoIP Bereitstellungen kombiniert Unified Messaging Sprachnachrichten und E-Mail-Nachrichten in einem einzigen Speicher, auf den Benutzer über ein Telefon (Outlook Voice Access) oder einen Computer zugreifen können. Unified Messaging und Skype for Business Server zusammenarbeiten, um Benutzern von Enterprise-VoIP Dienste für die Anrufbeantwortung, Outlook VoIP-Zugriff und automatische Telefonzentralen bereitzustellen.
+In Microsoft Exchange Server 2013 und 2016 wird Exchange UM als Dienst auf einem Exchange Postfachserver ausgeführt. Für Skype for Business Server Enterprise-VoIP Bereitstellungen kombiniert Unified Messaging Sprachnachrichten und E-Mail-Nachrichten in einem einzigen Speicher, auf den Benutzer über ein Telefon (Outlook Voice Access) oder einen Computer zugreifen können. Unified Messaging und Skype for Business Server zusammenarbeiten, um Benutzern von Enterprise-VoIP Dienste für die Anrufbeantwortung, Outlook VoIP-Zugriff und automatische Telefonzentralen bereitzustellen.
 
 > [!NOTE]
-> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen an der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale nicht mehr hervorgehoben.  Weitere Informationen finden Sie unter [Plan Cloud-Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) and Plan for Skype for Business Server and Exchange Server [migration.](../../../sfbhybrid/hybrid/plan-um-migration.md)
+> Exchange UM bleibt in Skype for Business Server 2019 verfügbar, wenn Sie Skype for Business 2019 mit Exchange 2013 oder Exchange 2016 integrieren. Aufgrund von Änderungen bei der Unterstützung in Exchange 2019 wird Exchange UM-Integration zugunsten Cloud-Voicemail- und Cloud-Funktionen für die automatische Telefonzentrale deaktiviert.  Weitere Informationen finden Sie unter [Plan Cloud-Voicemail service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) and [Plan for Skype for Business Server and Exchange Server migration](../../../sfbhybrid/hybrid/plan-um-migration.md).
 
 
 Damit diese Features in einer lokalen Exchange UM-Bereitstellung unterstützt werden können, müssen Sie eine der folgenden Funktionen ausführen:
@@ -40,7 +35,7 @@ Damit diese Features in einer lokalen Exchange UM-Bereitstellung unterstützt we
 - Microsoft Exchange Server 2016
 
 > [!NOTE]
-> Exchange Unified Messaging wie zuvor bekannt ist in Skype for Business Server 2019 nicht mehr verfügbar, das Telefonsystem verwendet, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+> Exchange unified messaging as previously known is no longer available in Skype for Business Server 2019, which uses Telefonsystem to record voicemail messages and then leave the recording in a user's Exchange mailbox. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 ## <a name="features-of-integrated-unified-messaging-and-skype-for-business-server"></a>Features von integriertem Unified Messaging und Skype for Business Server
 
@@ -54,30 +49,30 @@ Skype for Business Server verwendet Enterprise-VoIP die Exchange Unified Messagi
 
 - **Automatische Telefonzentrale** Die automatische Telefonzentrale ist eine Exchange UM-Funktion, die verwendet werden kann, um eine Telefonnummer zu konfigurieren, die externe Benutzer wählen können, um Unternehmensvertreter zu erreichen. Diese Funktion stellt ferner verschiedene Ansagen bereit, die einem externen Anrufer die Navigation in einem Menüsystem ermöglichen. Die Liste der verfügbaren Optionen wird vom Exchange UM-Administrator auf dem Exchange UM-Server konfiguriert.
 
-- **Faxdienste** Exchange UM enthält Faxfunktionen, mit denen Benutzer eingehende Faxe in ihren Exchange Postfächern empfangen können. Ausführliche Informationen finden Sie in der Dokumentation zu [Unified Messaging](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) in der Microsoft Exchange Server.
+- **Faxdienste** Exchange UM umfasst Faxfunktionen, mit denen Benutzer eingehende Faxe in ihren Exchange Postfächern empfangen können. Ausführliche Informationen finden Sie in der Dokumentation zu [Unified Messaging](/previous-versions/office/exchange-server-2007/bb123911(v=exchg.80)) in der Microsoft Exchange Server.
 
     > [!NOTE]
-    > Vom Exchange UM-Server bereitgestellte Faxdienste sind in Skype for Business Server Bereitstellungen, die in Microsoft Exchange Server 2010 Exchange 2010 mit dem neuesten Service Pack, Exchange 2013 oder Exchange 2016 integriert sind, nicht verfügbar.
+    > Vom Exchange UM-Server bereitgestellte Faxdienste sind in Skype for Business Server Bereitstellungen, die in Microsoft Exchange Server 2010 integriert sind, Exchange 2010 mit dem neuesten Service Pack, Exchange 2013 oder Exchange  2016.
 
 ## <a name="components-and-topologies-for-on-premises-unified-messaging-in-skype-for-business-server"></a>Komponenten und Topologien für lokales Unified Messaging in Skype for Business Server
 
 ### <a name="exchange-server-components"></a>Exchange Server-Komponenten
 
-Um die unter [Features von integriertem Unified Messaging](#features-of-integrated-unified-messaging-and-skype-for-business-server) beschriebenen Exchange UM-Features und -Dienste bereitzustellen und Skype for Business Server für Enterprise-VoIP Benutzer in Ihrer Organisation bereitzustellen, müssen Sie einen Microsoft Exchange Postfachserver und einen Clientzugriffsserver bereitstellen, der Benutzerpostfächer hostet und eine Einzelner Speicherort für E-Mails und Voicemail. Exchange UM wird als Dienst auf Exchange Postfach- und Clientzugriffsservern ausgeführt.
+Um die unter [Features von integriertem Unified Messaging](#features-of-integrated-unified-messaging-and-skype-for-business-server) beschriebenen Exchange UM-Features und -Dienste bereitzustellen und Skype for Business Server für Enterprise-VoIP Benutzer in Ihrer Organisation bereitzustellen, müssen Sie eine Microsoft-Exchange  Postfachserver und Clientzugriffsserver, der Benutzerpostfächer hostet und einen zentralen Speicherort für E-Mails und Voicemail bereitstellt. Exchange UM wird als Dienst auf Exchange Postfach- und Clientzugriffsservern ausgeführt.
 
 Ausführliche Informationen zu Exchange UM-Komponenten in Microsoft Exchange Server 2010 finden Sie unter [Deploying On-Premises Exchange UM to Provide Lync Server 2013 Preview Voice Mail](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-on-premises-exchange-um-to-provide-lync-server-2013-voice-mail) .
 
 ### <a name="supported-topologies"></a>Unterstützte Topologien
 
-Sie können Skype for Business Server und Exchange Unified Messaging (UM) in derselben Gesamtstruktur oder in mehreren Gesamtstrukturen bereitstellen. Wenn die Bereitstellung mehrere Gesamtstrukturen umfasst, müssen Sie die Exchange Integrationsschritte für jede Exchange UM-Gesamtstruktur ausführen. Darüber hinaus müssen Sie jede Microsoft Exchange-Gesamtstruktur so konfigurieren, dass sie der Skype for Business Server Gesamtstruktur und der Skype for Business Server Gesamtstruktur vertraut, damit jeder Exchange UM-Gesamtstruktur vertraut wird. Zusätzlich zu dieser Gesamtstrukturvertrauensstellung müssen die Exchange UM-Einstellungen für alle Benutzer für die Benutzerobjekte in der Skype for Business Server Gesamtstruktur festgelegt werden.
+Sie können Skype for Business Server und Exchange Unified Messaging (UM) in derselben Gesamtstruktur oder in mehreren Gesamtstrukturen bereitstellen. Wenn die Bereitstellung mehrere Gesamtstrukturen umfasst, müssen Sie die Exchange Integrationsschritte für jede Exchange UM-Gesamtstruktur ausführen. Darüber hinaus müssen Sie jede Microsoft Exchange-Gesamtstruktur so konfigurieren, dass sie der Skype for Business Server Gesamtstruktur und der Skype for Business Server Gesamtstruktur vertraut, um jeder Exchange UM-Gesamtstruktur zu vertrauen. Zusätzlich zu dieser Gesamtstrukturvertrauensstellung müssen die Exchange UM-Einstellungen für alle Benutzer für die Benutzerobjekte in der Skype for Business Server Gesamtstruktur festgelegt werden.
 
-Skype for Business Server unterstützt die folgenden Topologien für die Exchange UM-Integration:
+Skype for Business Server unterstützt die folgenden Topologien für Exchange UM-Integration:
 
 - Einzelne Gesamtstruktur
 
 - Einzelne Domäne (also eine einzelne Gesamtstruktur mit einer einzigen Domäne). Skype for Business Server, Microsoft Exchange und Benutzer befinden sich alle in derselben Domäne.
 
-- Mehrere Domänen (also eine Stammdomäne mit einer oder mehreren untergeordneten Domänen). Skype for Business Server und Microsoft Exchange-Server werden in verschiedenen Domänen bereitgestellt als in der Domäne, in der Sie Benutzer erstellen. Exchange UM-Server können in verschiedenen Domänen bereitgestellt werden als der Skype for Business Server-Pool, den sie unterstützen.
+- Mehrere Domänen (also eine Stammdomäne mit einer oder mehreren untergeordneten Domänen). Skype for Business Server und Microsoft Exchange-Server werden in verschiedenen Domänen bereitgestellt als in der Domäne, in der Sie Benutzer erstellen. Exchange UM-Server können in unterschiedlichen Domänen als der Skype for Business Server unterstützten Pool bereitgestellt werden.
 
 - Mehrere Gesamtstrukturen (also Ressourcengesamtstruktur). Skype for Business Server wird in einer einzigen Gesamtstruktur bereitgestellt, und die Benutzer werden dann über mehrere Gesamtstrukturen verteilt. Die Exchange UM-Attribute der Benutzer müssen in die Skype for Business Server Gesamtstruktur repliziert werden.
 
@@ -100,7 +95,7 @@ Es folgen Richtlinien und bewährte Methoden, die Sie bei der Bereitstellung von
     > [!IMPORTANT]
     > Wenn Exchange Unified Messaging (UM) installiert ist, ist es für die Verwendung eines selbstsignierten Zertifikats konfiguriert. Das selbstsignate Zertifikat ermöglicht Skype for Business Server und Exchange UM nicht, sich gegenseitig zu vertrauen. Aus diesem Grund ist es erforderlich, ein separates Zertifikat von einer Zertifizierungsstelle anzufordern, der beide Server vertrauen.
 
-- Wenn Skype for Business Server und Exchange UM in unterschiedlichen Gesamtstrukturen installiert sind, konfigurieren Sie jede Exchange Gesamtstruktur so, dass der Skype for Business Server Gesamtstruktur vertraut wird, und die Skype for Business Server Gesamtstruktur jeder Gesamtstruktur zu vertrauen. Exchange Gesamtstruktur. Legen Sie außerdem die Exchange UM-Einstellungen der Benutzer für die Benutzerobjekte in der Skype for Business Server Gesamtstruktur fest, in der Regel mithilfe eines Skripts oder eines gesamtstrukturübergreifenden Tools, z. B. Identity Lifecycle Manager (ILM).
+- Wenn Skype for Business Server und Exchange UM in unterschiedlichen Gesamtstrukturen installiert sind, konfigurieren Sie jede Exchange Gesamtstruktur so, dass sie der Skype for Business Server Gesamtstruktur und der Skype for Business Server Gesamtstruktur vertraut. jede Exchange Gesamtstruktur. Legen Sie außerdem die EXCHANGE UM-Einstellungen der Benutzer für die Benutzerobjekte in der Skype for Business Server Gesamtstruktur fest, in der Regel mithilfe eines Skripts oder eines gesamtstrukturübergreifenden Tools, z. B. Identity Lifecycle Manager (ILM).
 
 - Installieren Sie bei Bedarf die Exchange-Verwaltungskonsole zur Verwaltung Ihrer Unified Messaging-Server.
 
@@ -111,36 +106,36 @@ Es folgen Richtlinien und bewährte Methoden, die Sie bei der Bereitstellung von
 ### <a name="deploying-redundant-exchange-um-servers"></a>Bereitstellen redundanter Exchange UM-Server
 
 > [!IMPORTANT]
-> Es wird empfohlen, mindestens zwei Server bereitzustellen, auf denen Exchange UM-Dienste für jeden Exchange UM-SIP-URI-Wählplan ausgeführt werden, den Sie für Ihre Organisation konfigurieren. Zusätzlich zur Bereitstellung erweiterter Kapazität bietet die Bereitstellung redundanter Server eine hohe Verfügbarkeit. Im Falle eines Serverfehlers kann Skype for Business Server so konfiguriert werden, dass ein Failover auf einen anderen Server ausgeführt wird.
+> Es wird empfohlen, mindestens zwei Server bereitzustellen, auf denen Exchange UM-Dienste für jeden Exchange UM-SIP-URI-Wählplan ausgeführt werden, den Sie für Ihre Organisation konfigurieren. Zusätzlich zur Bereitstellung erweiterter Kapazität bietet die Bereitstellung redundanter Server eine hohe Verfügbarkeit. Im Falle eines Serverfehlers können Skype for Business Server so konfiguriert werden, dass ein Failover auf einen anderen Server ausgeführt wird.
 
 Die folgenden Beispielkonfigurationen bieten Ausfallsicherheit für Exchange UM.
 
 **Beispiel 1: Exchange UM-Ausfallsicherheit**
 
-![Exchange UM-Resilienzdiagramm.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
+![Exchange UM-Ausfallsicherheitsdiagramm.](../../media/d8381ecc-0e4e-47ea-9bf7-e54fec9414e7.png)
 
-In Beispiel 1 sind Exchange UM-Server 1 und 2 im Rechenzentrum von Dublin aktiviert, und Exchange UM-Server 3 und 4 sind im Rechenzentrum Dublin aktiviert. Im Falle eines Exchange UM-Ausfalls in Cortanawila sollten die DNS-Einträge (Domain Name System) für die Server 1 und 2 so konfiguriert werden, dass sie auf die Server 3 bzw. 4 verweisen. Im Falle eines Exchange UM-Ausfalls in Dublin sollten die DNS A-Einträge für die Server 3 und 4 so konfiguriert werden, dass sie auf die Server 1 bzw. 2 verweisen.
+In Beispiel 1 sind Exchange UM-Server 1 und 2 im Rechenzentrum VonZwila aktiviert, und Exchange UM-Server 3 und 4 sind im Rechenzentrum Dublin aktiviert. Im Falle eines Exchange UM-Ausfalls in Cortanawila sollten die DNS-Einträge (Domain Name System) für die Server 1 und 2 so konfiguriert werden, dass sie auf die Server 3 bzw. 4 verweisen. Im Falle eines Exchange UM-Ausfalls in Dublin sollten die DNS A-Einträge für die Server 3 und 4 so konfiguriert werden, dass sie auf die Server 1 bzw. 2 verweisen.
 
 > [!NOTE]
 > For Example 1, you should also assign one of following certificates on each Exchange UM server: either use a certificate with a wildcard in the Subject Alternative Name (SAN) or Put the fully qualified domain name (FQDN) of each of the four Exchange UM servers in the SAN.
 
 **Beispiel 2: Exchange UM-Ausfallsicherheit**
 
-![Exchange UM-Resilienzdiagramm.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
+![Exchange UM-Ausfallsicherheitsdiagramm.](../../media/4ad101c3-f318-4fc0-b4da-c05f2e92a943.png)
 
 In Beispiel 2 sind die Exchange UM-Server 1 und 2 bei normalen Betriebsbedingungen im Rechenzentrum "Tukwila" aktiviert, die Exchange UM-Server 3 und 4 im Rechenzentrum "Dublin". Alle vier Server sind in den SIP-URI-Wähleinstellungen der Benutzer in Tukwila enthalten, die Server 3 und 4 sind deaktiviert. Wenn Exchange UM z. B. in Tukwila ausfällt, sollten die Exchange UM-Server 1 und 2 deaktiviert und die Exchange UM-Server 3 und 4 aktiviert werden, damit der Exchange UM-Datenverkehr in Tukwila an die Server in Dublin geroutet wird.
 
-Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging in Exchange 2013 finden Sie unter [Integrieren von Exchange 2013 UM in Lync Server.](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help) Die bereitgestellten Informationen gelten gleichermaßen für Skype for Business Server.
+Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging in Exchange 2013 finden Sie unter [Integrieren von Exchange 2013 UM in Lync Server](/exchange/checklist-integrate-exchange-2013-um-with-lync-server-exchange-2013-help). Die bereitgestellten Informationen gelten gleichermaßen für Skype for Business Server.
 
 Ausführliche Informationen zum Aktivieren oder Deaktivieren von Unified Messaging in Microsoft Exchange Server 2010 finden Sie unter:
 
-- [Aktivieren von Unified Messaging auf Exchange 2010](/previous-versions/office/exchange-server-2010/aa997908(v=exchg.141))
+- [Aktivieren von Unified Messaging in Exchange 2010](/previous-versions/office/exchange-server-2010/aa997908(v=exchg.141))
 
 - [Deaktivieren von Unified Messaging in Exchange 2010](/previous-versions/office/exchange-server-2010/bb123529(v=exchg.141))
 
 ### <a name="exchange-server-2019"></a>Exchange Server 2019
 
-Exchange Unified Messaging ist in Exchange 2019 nicht mehr vorhanden, wenn Sie über Exchange 2019 verfügen und entsprechende Funktionen benötigen, müssen Sie den in [Plan Cloud-Voicemail Service](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)beschriebenen Cloud-Voicemail Dienst verwenden.
+Exchange Unified Messaging ist in Exchange 2019 nicht mehr vorhanden, wenn Sie über Exchange 2019 verfügen und entsprechende Funktionen benötigen, müssen Sie den in [Plan Cloud-Voicemail-Dienst](../../../sfbhybrid/hybrid/plan-cloud-voicemail.md) beschriebenen Cloud-Voicemail Dienst verwenden.
 
 
 ## <a name="see-also"></a>Siehe auch

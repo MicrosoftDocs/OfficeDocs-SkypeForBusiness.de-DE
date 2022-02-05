@@ -1,27 +1,22 @@
 ---
 title: Director – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorScopeNode
+  - ms.lync.tb.DirectorScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 790396f1-9821-45cd-906d-80c1f170f5ef
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: d5f2f9e8883157b77faa7c01ef109d0499202eaf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846788"
 ---
+
 # <a name="director-scope-node"></a>Director – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) und zugeordneten Dateispeicher für diesen Director-Pool. Folgende Möglichkeiten stehen zur Verfügung:

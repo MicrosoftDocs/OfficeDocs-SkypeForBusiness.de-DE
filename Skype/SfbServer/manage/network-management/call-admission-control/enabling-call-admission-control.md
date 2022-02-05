@@ -1,23 +1,18 @@
 ---
 title: Aktivieren der Anrufsteuerung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: " Nachdem Sie das Anrufsteuerungsnetzwerk konfiguriert haben, müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen."
-ms.openlocfilehash: 401580bbc893bff2081aa59b7458e831db2f8775
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847228"
+description: ' Nachdem Sie das Anrufsteuerungsnetzwerk konfiguriert haben, müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen.'
 ---
+
 # <a name="enabling-call-admission-control-in-skype-for-business-server"></a>Aktivieren der Anrufsteuerung in Skype for Business Server
 
 Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten und Subnetzen, mit dem Sie basierend auf der verfügbaren Bandbreite Einschränkungen für Audio- und Videoübertragungen festlegen können. Nach der Konfiguration des Anrufsteuerungsnetzwerks müssen Sie die Anrufsteuerung aktivieren, um die Bandbreiteneinschränkungen zu erzwingen. Dazu können Sie die Skype for Business Server Systemsteuerung verwenden.
@@ -29,12 +24,12 @@ Bei der Anrufsteuerung handelt es sich um ein Netzwerk aus Regionen, Standorten 
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Global".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Global**".
 
 4.  Klicken Sie auf der Seite **Global** auf die Konfiguration **Global**.
    
     > [!NOTE]  
-    > Für jede Skype for Business Server Bereitstellung kann nur ein Netzwerk konfiguriert werden, sodass in der Liste nie mehr als eine Netzwerkkonfiguration enthalten ist. Die globale Konfiguration kann nicht umbenannt werden.
+    > Es kann nur ein Netzwerk für jede Skype for Business Server Bereitstellung konfiguriert werden, sodass nie mehr als eine Netzwerkkonfiguration in der Liste vorhanden ist. Die globale Konfiguration kann nicht umbenannt werden.
 
 5.  Klicken Sie im Menü **Bearbeiten** auf **Details anzeigen**.
 

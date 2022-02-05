@@ -1,41 +1,36 @@
 ---
 title: Verfügbarkeit in Turks- und Caicosinseln
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Turks- und Caicosinseln.
-ms.openlocfilehash: edff99dceae6be7ca5a00a57bbe101f77717e4a1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191416"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Turks- und Caicosinseln.
 ---
+
 # <a name="availability-in-turks-and-caicos-islands"></a>Verfügbarkeit in Turks- und Caicosinseln
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams Turks- und Caicosinseln.
+Hier finden Sie die Microsoft 365 und Office 365-Dienste für Skype for Business und Microsoft Teams für Turks- und Caicosinseln.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -72,7 +67,7 @@ Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätso
 |Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Nein<br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Ja  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

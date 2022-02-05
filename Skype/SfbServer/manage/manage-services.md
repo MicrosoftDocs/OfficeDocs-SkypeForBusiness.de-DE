@@ -1,24 +1,19 @@
 ---
 title: Verwalten von Diensten für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c99ee134-8294-4481-bb4e-710fe85a39ca
-description: In diesem Artikel wird beschrieben, wie Dienste verwaltet werden, die in einer Skype for Business Server-Topologie ausgeführt werden.
-ms.openlocfilehash: 3bb4092d2538bc994de3f71467cb03aedf8dc302
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856672"
+description: 'In diesem Artikel wird beschrieben, wie Dienste verwaltet werden, die in einer Skype for Business Server-Topologie ausgeführt werden.'
 ---
+
 # <a name="manage-services-for-skype-for-business-server"></a>Verwalten von Diensten für Skype for Business Server
 
 In diesem Artikel wird beschrieben, wie Dienste verwaltet werden, die in einer Skype for Business Server-Topologie ausgeführt werden.
@@ -48,14 +43,14 @@ Sie können Skype for Business Server Systemsteuerung verwenden, um alle Dienste
 1. Melden Sie sich mit einem Benutzerkonto, dem die Rolle CsUserAdministrator oder CsAdministrator zugewiesen ist, an einem beliebigen Computer in Ihrer internen Bereitstellung an.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 3. Klicken Sie auf der linken Navigationsleiste auf **Topologie**. 
-4. Sortieren oder durchsuchen Sie die Liste auf **der** Statusseite nach Bedarf, um den gewünschten Computer zu finden, und klicken Sie dann auf den Computernamen.
+4. Sortieren oder durchsuchen Sie die Liste **auf der** Statusseite nach Bedarf, um den gewünschten Computer zu finden, und klicken Sie dann auf den Computernamen.
 5. Führen Sie einen der folgenden Schritte aus:
-   - Klicken Sie auf **"Dienststatus** abrufen", um den neuesten Status der auf dem Computer ausgeführten Dienste anzuzeigen.
-   - Um eine Liste der auf dem Computer ausgeführten Dienste und den Status der einzelnen Dienste anzuzeigen, klicken Sie auf **"Eigenschaften"** und dann auf **"Schließen",** um zur Liste zurückzukehren.
+   - Klicken Sie auf " **Dienststatus** abrufen", um den neuesten Status der auf dem Computer ausgeführten Dienste anzuzeigen.
+   - Um eine Liste der auf dem Computer ausgeführten Dienste und den Status der einzelnen Dienste anzuzeigen, klicken Sie auf **"Eigenschaften**" und dann auf **"Schließen** ", um zur Liste zurückzukehren.
     
 ### <a name="viewing-service-status-with-windows-powershell-cmdlets"></a>Anzeigen des Dienststatus mit Windows PowerShell-Cmdlets
 
-Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsWindowsService"** anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
+Sie können den Dienststatus auch mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsWindowsService**" anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-view-service-status"></a>So zeigen Sie den Dienststatus an
 
@@ -77,7 +72,7 @@ Es werden etwa folgende Informationen zurückgegeben:
 |{ConferencingServer}  <br/> |Wird ausgeführt  <br/> |
 |{MediationServer}  <br/> |Wird ausgeführt  <br/> |
    
-Ausführliche Informationen finden Sie unter ["Get-CsWindowsService".](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps)
+Ausführliche Informationen finden Sie unter ["Get-CsWindowsService"](/powershell/module/skype/get-cswindowsservice.md?view=skype-ps).
   
 ## <a name="view-details-about-a-service"></a>Anzeigen von Details zu einem Dienst
 <a name="view_details"> </a>
@@ -89,13 +84,13 @@ Sie können Skype for Business Server Systemsteuerung verwenden, um Details zu j
 1. Melden Sie sich über ein Benutzerkonto, das einer der vordefinierten Administratorrollen für Skype for Business Server zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an. Ausführliche Informationen zu den vordefinierten Administratorrollen, die in Skype for Business Server verfügbar sind, finden Sie unter **Planning for Role-Based Access Control**.
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 3. Klicken Sie in der linken Navigationsleiste auf **Topologie** und dann auf **Status**.
-4. Sortieren oder durchsuchen Sie auf **der** Statusseite die Liste, und klicken Sie dann auf den Computer, den Sie anzeigen möchten.
+4. Sortieren oder durchsuchen Sie **auf der** Statusseite die Liste, und klicken Sie dann auf den Computer, den Sie anzeigen möchten.
 5. Klicken Sie auf **Eigenschaften**.
-6. Sortieren Sie im Fenster **"Computerdetails anzeigen"** die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, den Sie anzeigen möchten.
+6. Sortieren Sie im Fenster **"Computerdetails anzeigen** " die Liste der Dienste, falls erforderlich, und klicken Sie auf den Dienst, den Sie anzeigen möchten.
 7. Führen Sie bei Bedarf eine der folgenden Aktionen aus:
-   - Klicken Sie auf **Dienststatus** abrufen, um den neuesten Status dieses bestimmten Diensts anzuzeigen.
-   - Klicken Sie zum Anzeigen der Details für diesen bestimmten Dienst auf **"Eigenschaften"** und dann auf **"Schließen".**
-   - Klicken Sie auf **Schließen,** um zur Liste aller Computer in Ihrer Topologie zurückzukehren.
+   - Klicken Sie auf "Dienststatus abrufen", um den aktuellen Status dieses bestimmten **Diensts** anzuzeigen.
+   - Klicken Sie zum Anzeigen der Details für diesen bestimmten Dienst auf **"Eigenschaften** " und dann auf " **Schließen**".
+   - Klicken Sie auf **"Schließen**", um zur Liste aller Computer in Ihrer Topologie zurückzukehren.
     
 ## <a name="start-or-stop-skype-for-business-server-services"></a>Starten oder Beenden Skype for Business Server Dienste
 <a name="StartStop"> </a>

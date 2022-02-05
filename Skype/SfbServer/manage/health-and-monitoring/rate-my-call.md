@@ -1,24 +1,19 @@
 ---
 title: Meinen Anruf in Skype for Business Server bewerten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c4e0c905-33a1-49d8-9276-1b338f94d085
 description: 'Zusammenfassung: Erfahren Sie mehr über die Funktion "Meinen Anruf bewerten" in Skype for Business Server.'
-ms.openlocfilehash: f19424edfb4169a27e10a8b5ac1624065e6288dd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864832"
 ---
+
 # <a name="rate-my-call-in-skype-for-business-server"></a>Meinen Anruf in Skype for Business Server bewerten
 
 **Zusammenfassung:** Erfahren Sie mehr über die Funktion "Meinen Anruf bewerten" in Skype for Business Server.
@@ -35,11 +30,11 @@ Bevor die Benutzer in Ihrer Skype for Business Server Bereitstellung auf die Fun
 
 -  Sie müssen Skype for Business Server installiert haben (Version 9160 oder höher).
 
-- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren und bitten Sie sie auch, die Skype for Business Ui zu verwenden.
+- Lassen Sie Ihre Benutzer die neueste Version von Skype for Business installieren und aktualisieren und bitten Sie sie auch, die Skype for Business Benutzeroberfläche zu verwenden.
 
 - Benutzer müssen im Skype for Business Server Front-End-Pool verwaltet werden.
 
-- Es muss eine Skype for Business Server Überwachungsdatenbank bereitgestellt und Ihren Skype for Business Server Pools zugeordnet sein.
+- Sie benötigen eine Skype for Business Server Überwachungsdatenbank, die Ihren Skype for Business Server Pools zugeordnet ist.
 
 - Es wird empfohlen, das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) bereitzustellen.
 
@@ -51,7 +46,7 @@ Die Funktion "Meinen Anruf bewerten" ist in der Clientrichtlinie mit den folgend
 
 - "Meinen Anruf bewerten" benutzerdefiniertes Benutzerfeedback zulassen – deaktiviert
 
-Es ist keine Aktion erforderlich, um das Basisfeature zu aktivieren, aber wenn Sie benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Das folgende Windows PowerShell Cmdlet ist ein Beispiel für das Aktivieren von benutzerdefiniertem Endbenutzerfeedback und das Ändern des Intervalls von 10 % auf 80 %.
+Es ist keine Aktion erforderlich, um das Basisfeature zu aktivieren, aber wenn Sie benutzerdefiniertes Feedback wünschen, müssen Sie es separat aktivieren. Die folgende Windows PowerShell Cmdlet ist ein Beispiel für das Aktivieren von benutzerdefiniertem Endbenutzerfeedback und das Ändern des Intervalls von 10 % auf 80 %.
 
 ```PowerShell
 Set-CSClientPolicy -Identity <PolicyIdentity> -RateMyCallDisplayPercentage 80 -RateMyCallAllowCustomUserFeedback $true 
@@ -110,7 +105,7 @@ Tokendefinitionen sind wie folgt codiert:
 
  **[QoeMetrics]. [dbo]. [CallQualityFeedback]** Diese Tabelle enthält Abrufergebnisse aus der "Star"-Abstimmung und ggf. aktiviertes Kundenfeedback.
 
-Daten aus Tabellen können mithilfe einer **\* Auswahlabfrage aus [Table.Name]** oder mithilfe Microsoft SQL Server Management Studio aufgerufen werden.
+Daten aus Tabellen können mithilfe einer **Auswahlabfrage \* aus [Table.Name]** oder mithilfe von Microsoft SQL Server Management Studio aufgerufen werden.
 
 Die folgenden SQL Abfragen können verwendet werden:
 
@@ -190,7 +185,7 @@ SELECT
 
 ## <a name="updating-token-definitions"></a>Aktualisieren von Tokendefinitionen
 
-Die neuesten Skype for Business-Clients melden neue Problemtoken-IDs ( \> 100), die möglicherweise nicht in [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Tokendefinitionen zu aktualisieren, kann der folgende SQL Befehl mit Microsoft SQL Server Management Studio auf der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge in [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
+Die neuesten Skype for Business-Clients melden neue Problemtoken-IDs (\> 100), die möglicherweise nicht in [QoeMetrics].[ dbo]. [CallQualityFeedbackTokenDef]-Tabelle. Um die Datenbanktabelle mit den neuesten Tokendefinitionen zu aktualisieren, kann der folgende SQL Befehl mithilfe von Microsoft SQL Server Management Studio in der Überwachungsdatenbank ausgeführt werden. Mit diesem Befehl werden alle Einträge in [QoeMetrics] ersetzt. [dbo]. [CallQualityFeedbackTokenDef]-Tabelle.
 
 ```SQL
 DELETE FROM [CallQualityFeedbackTokenDef];

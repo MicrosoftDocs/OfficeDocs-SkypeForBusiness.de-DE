@@ -1,35 +1,30 @@
 ---
 title: Bereitstellen von Enterprise-VoIP in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b5b593a6-ac30-461c-8c8c-0041e2c9ab04
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Enterprise-VoIP für Skype for Business Server an einem zentralen Standort bereitstellen.'
-ms.openlocfilehash: 4073850d9583e5bd28d573ad73b0acdaaca0943f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833821"
 ---
+
 # <a name="deploy-enterprise-voice-in-skype-for-business-server"></a>Bereitstellen von Enterprise-VoIP in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie Enterprise-VoIP für Skype for Business Server an einem zentralen Standort bereitstellen.
 
-Verwenden Sie dieses Thema, um Enterprise-VoIP an einem zentralen Standort bereitzustellen. Um Enterprise-VoIP an einem Zweigstellenstandort bereitzustellen, fahren Sie mit [der Bereitstellung von Zweigstellen über.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites)
+Verwenden Sie dieses Thema, um Enterprise-VoIP an einem zentralen Standort bereitzustellen. Um Enterprise-VoIP an einem Zweigstellenstandort bereitzustellen, fahren [Sie mit der Bereitstellung von Zweigstellen über](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-branch-sites).
 
-Dieser Abschnitt enthält Verfahren für Bereitstellungen, bei denen ein Vermittlungsserver wie empfohlen auf jedem Front-End-Server oder Standard Edition-Server verbunden ist, sowie für Bereitstellungen mit einem eigenständigen Vermittlungsserverpool. Sie können den folgenden Inhalt überspringen, wenn Sie den Topologie-Generator zum Definieren und Veröffentlichen einer Topologie verwendet haben, die einen Vermittlungsserver auf jedem Front-End-Server oder Standard Edition Server gemeinsam verwendet, da der Bereitstellungs-Assistent die Dateien für den Vermittlungsserver bereits automatisch installiert hat, wenn Sie Dateien für Ihren Front-End-Serverpool oder Standard Edition Server installiert haben:
+Dieser Abschnitt enthält Verfahren für Bereitstellungen, bei denen ein Vermittlungsserver wie empfohlen auf jedem Front-End-Server oder Standard Edition-Server verbunden ist, sowie für Bereitstellungen mit einem eigenständigen Vermittlungsserverpool. Sie können den folgenden Inhalt überspringen, wenn Sie den Topologie-Generator zum Definieren und Veröffentlichen einer Topologie verwendet haben, die einen Vermittlungsserver auf jedem Front-End-Server oder Standard Edition-Server angebunden, da der Bereitstellungs-Assistent die Dateien für den Vermittlungsserver bereits automatisch installiert hat, wenn Sie Dateien für Ihren Front-End-Serverpool oder Standard Edition Server installiert haben:
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 
 - [Sicherheits- und Konfigurationsvoraussetzungen für Enterprise-VoIP in Skype for Business Server](enterprise-voice-security.md)
@@ -46,7 +41,7 @@ Dieser Abschnitt enthält Verfahren für Bereitstellungen, bei denen ein Vermitt
 
 - [Erstellen oder Ändern einer Übersetzungsregel für die Darstellung der Anrufer-ID in Skype for Business Server](caller-id-presentation-rules.md)
 
-- [Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der Bezeichnung "ID" in Skype for Business Server](called-id-presentation-rules.md)
+- [Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der bezeichnungsgesteuerten ID in Skype for Business Server](called-id-presentation-rules.md)
 
 - [Erstellen oder Ändern einer Normalisierungsregel in Skype for Business](normalization-rules.md)
 
@@ -56,7 +51,7 @@ Dieser Abschnitt enthält Verfahren für Bereitstellungen, bei denen ein Vermitt
 
 - [Aktivieren von Benutzern für Enterprise-VoIP in Skype for Business Server](enable-users-for-enterprise-voice.md)
 
-- [Bereitstellen erweiterter Enterprise-VoIP Features in Skype for Business Server](deploy-advanced-enterprise-voice-features.md)
+- [Bereitstellen erweiterter Enterprise-VoIP-Features in Skype for Business Server](deploy-advanced-enterprise-voice-features.md)
 
 - [Bereitstellen von Anrufverwaltungsfunktionen in Skype for Business](deploy-call-management-features.md)
 

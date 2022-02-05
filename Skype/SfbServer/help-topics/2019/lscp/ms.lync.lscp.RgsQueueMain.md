@@ -1,36 +1,31 @@
 ---
 title: Reaktionsgruppenwarteschleife
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.RgsQueueMain
+  - ms.lync.lscp.RgsQueueMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 29bde940-6107-494f-9bee-b6ebfa135e41
-ROBOTS: NOINDEX, NOFOLLOW
-description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.
-ms.openlocfilehash: f33df7df7a0c129bbe522c39d9612377e85774ef
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831389"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.'
 ---
+
 # <a name="response-groups-queue"></a>Reaktionsgruppenwarteschleife
 
 Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Reaktionsgruppenwarteschlangen halten Anrufe an eine Reaktionsgruppe, bis ein Agent den Anruf entgegennimmt.
 
-Auf der Seite **"Reaktionsgruppenwarteschlange"**  -   wird eine Liste aller Reaktionsgruppenwarteschlangen angezeigt, die für Ihre Organisation definiert sind.
+Auf der Seite **"Reaktionsgruppenqueue** - " wird eine Liste aller Reaktionsgruppenwarteschlangen angezeigt, die für Ihre Organisation definiert sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **"Reaktionsgruppenwarteschlange"** können Sie die folgenden Aufgaben  -   ausführen:
+Auf der Seite **"Reaktionsgruppenqueue** - " können Sie die folgenden Aufgaben ausführen:
 
 - Erstellen einer neuen Warteschleife
 
@@ -50,9 +45,9 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Der eindeutige Name, der die Warteschlange identifiziert.
+- **Namen** Der eindeutige Name, der die Warteschlange identifiziert.
 
-- **Dienst** Der **ApplicationServer-Dienst,** der die Warteschlange hostet.
+- **Service** Der **ApplicationServer-Dienst** , der die Warteschlange hostet.
 
 - **Beschreibung** Die Beschreibung für die Warteschlange.
 

@@ -1,30 +1,25 @@
 ---
-title: Microsoft Teams Umstellen von E-Mails und | Grundlegendes Upgrade
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: Microsoft Teams E-Mails und Umfragen | Grundlegendes Upgrade
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 ms.reviewer: landerl
 audience: admin
-description: Beispiel-E-Mails und Umfragen, die in Konjunkton mit dem beschleunigten Zehn-Schritt-Aktionsplan für das Upgrade von Skype for Business auf Teams
+description: 'Beispiel-E-Mails und Umfragen, die in Konjunkton mit dem beschleunigten Zehn-Schritt-Aktionsplan für das Upgrade von Skype for Business auf Teams'
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: Teams-upgrade-guidance
 ms.collection:
-- Teams_ITAdmin_JourneyFromSfB
-- M365-collaboration
+  - Teams_ITAdmin_JourneyFromSfB
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6b88a8030b2e808f95e8601147acce9cfa31da33
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841997"
+  - Microsoft Teams
 ---
+
 # <a name="sample-emails-and-surveys-for-upgrade-basic-communications"></a>Beispiel-E-Mails und Umfragen für Upgrade Basic Communications
 
 ## <a name="sample-emails"></a>Beispiel-E-Mails
@@ -201,9 +196,9 @@ Should you have questions, contact <<insert alias or contact info>>.
 
 ## <a name="sample-surveys"></a>Beispielumfragen
 
-Geben Sie an, wie gut Sie mit der Durchführung der folgenden Aktivitäten in Teams und ob es Aktivitäten gibt, über die Sie mehr erfahren möchten.
+Geben Sie an, wie gut Sie in der Durchführung der folgenden Aktivitäten in Teams sind und ob es Aktivitäten gibt, über die Sie mehr erfahren möchten.
 
-| &nbsp; | Sehr gut ausgebildet | Gut ausgebildet | Überhaupt nicht gut qualifiziert | Weitere Informationen | Nicht zutreffend | Unsicher/nicht vertraut |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
+| &nbsp; | Sehr gut ausgebildet | Gut ausgebildet | Überhaupt nicht gut qualifiziert | Weitere Informationen | – | Unsicher/nicht vertraut |&nbsp; | &nbsp;|&nbsp; |&nbsp; |
 |---|---|---|---|---|---|---|---|---|---|---|
 | Verwenden Teams für Chats mit anderen Personen | | | | | | | | | | |
 | Verwenden von Teams für Onlinebesprechungen | | | | | | | | | | |

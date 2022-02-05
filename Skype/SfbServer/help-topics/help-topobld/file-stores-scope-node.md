@@ -1,27 +1,22 @@
 ---
 title: Dateispeicher – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.FileStoresScopeNode
+  - ms.lync.tb.FileStoresScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9d88f69d-8641-4405-a26d-99414af679a5
 description: 'Unterhalb des Knotens Dateispeicher werden die Dateispeicher in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: e11dcef3a5e52c092c384146fa9943b0c9464159
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860112"
 ---
+
 # <a name="file-stores-scope-node"></a>Dateispeicher – Bereichsknoten
  
 Unterhalb des Knotens **Dateispeicher** werden die Dateispeicher in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:

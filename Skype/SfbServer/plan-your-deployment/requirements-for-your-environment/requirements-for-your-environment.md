@@ -1,29 +1,24 @@
 ---
 title: Anforderungen für Ihre Skype for Business Umgebung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 8/17/2015
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 306d3397-f305-4919-bdb1-aa7bb7b5c534
 description: 'Zusammenfassung: Gliederung der Themen für Systemanforderungen und Netzwerk- oder Infrastrukturanforderungen für Skype for Business Server 2015. Wenn Sie etwas als Voraussetzung für die Installation und Bereitstellung von Skype for Business Server 2015 installieren oder konfigurieren müssen, ist dies hier.'
-ms.openlocfilehash: 0bc44108a256e54a180b14293f37fc15510c97e5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836203"
 ---
+
 # <a name="requirements-for-your-skype-for-business-2015-environment"></a>Anforderungen für Ihre Skype for Business 2015-Umgebung
  
 **Zusammenfassung:** Gliederung der Themen für Systemanforderungen und Netzwerk- oder Infrastrukturanforderungen für Skype for Business Server 2015. Wenn Sie etwas als Voraussetzung für die Installation und Bereitstellung von Skype for Business Server 2015 installieren oder konfigurieren müssen, ist dies hier.

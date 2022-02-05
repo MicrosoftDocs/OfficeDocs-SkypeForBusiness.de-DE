@@ -1,29 +1,24 @@
 ---
 title: Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d07996e6-b0a5-4ff8-9512-ab707762b4e2
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 00899681190e532af971c719c2e81f655facf7ab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862312"
 ---
+
 # <a name="the-media-quality-metrics-distribution-report-in-skype-for-business-server"></a>Der Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server 
  
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über die Metrikverteilung der Medienqualität in Skype for Business Server.
   
-Mit dem Bericht über die Metrikverteilung der Medienqualität können Sie ein Diagramm anzeigen, das die Verteilungswerte für eine QoE-Metrik wie Jitter oder Paketverlust anzeigt. Angenommen, Ihre Benutzer tätigen insgesamt 10 Anrufe; Diese 10 Anrufe melden die folgenden Roundtripzeiten:
+Mit dem Bericht über die Metrikverteilung der Medienqualität können Sie ein Diagramm anzeigen, das die Verteilungswerte für eine QoE-Metrik wie Jitter oder Paketverlust anzeigt. Nehmen wir beispielsweise an, dass Ihre Benutzer insgesamt 10 Telefonanrufe tätigen; Diese 10 Anrufe melden die folgenden Roundtripzeiten:
   
 |**Anrufnummer**|**Roundtripzeit (Millisekunden)**|
 |:-----|:-----|
@@ -58,6 +53,6 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl zurückgeben oder 
 |**Maximum in x-Achse** <br/> |Der höchste Wert, der auf der X-Achse des Diagramms angezeigt werden soll.  <br/> |
 |**Zugriffstyp** <br/> | Gibt an, ob der Client am internen oder am externen Netzwerk angemeldet wurde, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Intern <br/>  Extern <br/> |
 |**VPN** <br/> | Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  VPN <br/>  Nicht-VPN <br/> |
-|**Netzwerktyp** <br/> | Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Wired <br/>  Wireless <br/> |
+|**Netzwerktyp** <br/> | Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Wired <br/>  Drahtlos <br/> |
    
 

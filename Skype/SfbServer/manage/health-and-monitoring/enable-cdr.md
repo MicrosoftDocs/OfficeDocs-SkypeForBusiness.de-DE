@@ -1,27 +1,22 @@
 ---
 title: Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3b28e432-596f-45a5-a070-577d6fa748d9
-description: 'Zusammenfassung: Erfahren Sie, wie Sie Kommunikationsdatensätze (KDS) in Skype for Business Server aktivieren.'
-ms.openlocfilehash: 7c987eccb9e75d1dc71f98e3cebea4003432523c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863582"
+description: 'Zusammenfassung: Erfahren Sie, wie Sie Aufzeichnungen von Kommunikationsdatensätzen (KDS) in Skype for Business Server aktivieren.'
 ---
+
 # <a name="enable-call-detail-recording-in-skype-for-business-server"></a>Aktivieren der Aufzeichnung von Kommunikationsdatensätzen in Skype for Business Server
 
-**Zusammenfassung:** Erfahren Sie, wie Sie Aufzeichnungen von Kommunikationsdatensätzen (KDS) in Skype for Business Server aktivieren.
+**Zusammenfassung:** Erfahren Sie, wie Sie Kommunikationsdatensätze (KDS) in Skype for Business Server aktivieren.
 
 Bei der Aufzeichnung von Kommunikationsdatensätzen werden Nutzungs- und Diagnoseinformationen über Peer-zu-Peer-Aktivitäten aufgezeichnet, z. B. Chat, VoIP-Anrufe (Voice over Internet Protocol), Anwendungsfreigabe, Dateiübertragung und Besprechungen. Anhand der Nutzungsdaten kann die Rendite berechnet werden, und die Diagnosedaten können zur Problembehandlung bei Peer-zu-Peer-Aktivitäten und Besprechungen eingesetzt werden.
 
@@ -45,7 +40,7 @@ Verwenden Sie das folgende Verfahren, um die Aufzeichnung von Kommunikationsdate
 
 ## <a name="enabling-cdr-by-using-windows-powershell-cmdlets"></a>Aktivieren von KDS mithilfe Windows PowerShell Cmdlets
 
-Sie können KDS mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsCdrConfiguration"** aktivieren. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
+Sie können KDS mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsCdrConfiguration**" aktivieren. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Der Vorgang ist in Skype for Business Server identisch.
 
 ### <a name="to-enable-cdr-for-a-single-location"></a>So aktivieren Sie KDS für einen einzelnen Standort
 
@@ -71,7 +66,7 @@ Sie können KDS mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsCdrConfi
   Get-CsCdrConfiguration | Set-CsCdrConfiguration -EnableCDR $True
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsCdrConfiguration".](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsCdrConfiguration](/powershell/module/skype/set-cscdrconfiguration?view=skype-ps) ".
 
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,24 +1,19 @@
 ---
 title: Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: bebd45d1-93c3-4e80-8933-755b699b2209
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzern in Skype for Business Server eine Archivierungsrichtlinie zuweisen.'
-ms.openlocfilehash: 9be6f37f6c84e089a387eec4e3ad982ec2ae9e14
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856802"
 ---
+
 # <a name="apply-an-archiving-policy-to-users-in-skype-for-business-server"></a>Anwenden einer Archivierungsrichtlinie auf Benutzer in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie Benutzern in Skype for Business Server eine Archivierungsrichtlinie zuweisen.
@@ -26,7 +21,7 @@ ms.locfileid: "60856802"
 Wenn Sie eine oder mehrere Benutzerrichtlinien für die Archivierung für Benutzer erstellt haben, die auf Skype for Business Server verwaltet werden, können Sie archivierungsunterstützung für bestimmte Benutzer implementieren, indem Sie die entsprechenden Richtlinien auf diese Benutzer oder Benutzergruppen anwenden. Wenn Sie beispielsweise eine Richtlinie zur Unterstützung der Archivierung der internen Kommunikation erstellen, können Sie sie auf mindestens einen Benutzer oder eine Benutzergruppe anwenden, um die Archivierung der Skype for Business Server Kommunikation des Benutzers zu unterstützen.
   
 > [!NOTE]
-> Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung aktiviert haben, steuern Exchange In-Place Aufbewahrungsrichtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange verwaltet werden und deren Postfächer In-Place Haltebereich haben. Ausführliche Informationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> Wenn Sie Microsoft Exchange Integration für Ihre Bereitstellung aktiviert haben, steuern Exchange In-Place Aufbewahrungsrichtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange verwaltet werden und deren Postfächer In-Place Haltebereich haben. Ausführliche Informationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="apply-a-user-policy-by-using-the-control-panel"></a>Anwenden einer Benutzerrichtlinie mithilfe der Systemsteuerung
 
@@ -40,7 +35,7 @@ So wenden Sie eine Benutzerrichtlinie mithilfe der Systemsteuerung an:
     
 4. Klicken Sie in der Tabelle mit den Suchergebnissen auf das Benutzerkonto, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**.
     
-5. Wählen Sie unter **"Lync Server-Benutzer** bearbeiten" unter **"Archivierungsrichtlinie"** die Archivierungsbenutzerrichtlinie aus, die Sie anwenden möchten.
+5. Wählen Sie unter " **Lync Server-Benutzer** bearbeiten" unter **"Archivierungsrichtlinie**" die Archivierungsbenutzerrichtlinie aus, die Sie anwenden möchten.
     
     > [!NOTE]
     > Die **\<Automatic\>** Einstellungen gelten für die Standardeinstellungen für die Serverinstallation. Diese Einstellungen werden automatisch vom Server angewendet.
@@ -57,7 +52,7 @@ Mit dem folgenden Befehl wird die benutzerbezogene Archivierungsrichtlinie "Redm
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName "RedmondArchivingPolicy"
 ```
 
-Mit diesem Befehl wird die benutzerbasierte Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zugewiesen, deren Konten im Registrierungsstellenpool verwaltet werden atl-cs-001.contoso.com. Ausführliche Informationen zum in diesem Befehl verwendeten Parameter "Filter" finden Sie in der Dokumentation zum [Cmdlet "Get-CsUser".](/powershell/module/skype/get-csuser?view=skype-ps)
+Mit diesem Befehl wird die benutzerbasierte Archivierungsrichtlinie "RedmondArchivingPolicy" allen Benutzern zugewiesen, deren Konten im Registrierungsstellenpool verwaltet werden atl-cs-001.contoso.com. Ausführliche Informationen zum in diesem Befehl verwendeten Parameter "Filter" finden Sie in der Dokumentation zum [Cmdlet "Get-CsUser](/powershell/module/skype/get-csuser?view=skype-ps) ".
   
 ```PowerShell
 Get-CsUser -Filter {RegistrarPool -eq "atl-cs-001.contoso.com"} | Grant-CsArchivingPolicy -PolicyName "RedmondArchivingPolicy"
@@ -69,4 +64,4 @@ Mit dem folgenden Befehl werden alle benutzerbezogenen Archivierungsrichtlinien 
 Grant-CsArchivingPolicy -Identity "Ken Myer" -PolicyName $Null
 ```
 
-Ausführliche Informationen finden Sie in der Dokumentation zum [Cmdlet "Grant-CsArchivingPolicy".](/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps)
+Ausführliche Informationen finden Sie in der Dokumentation zum [Cmdlet "Grant-CsArchivingPolicy](/powershell/module/skype/grant-csarchivingpolicy?view=skype-ps) ".

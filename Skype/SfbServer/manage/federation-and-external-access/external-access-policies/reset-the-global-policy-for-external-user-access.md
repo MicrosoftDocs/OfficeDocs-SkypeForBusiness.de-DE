@@ -1,28 +1,24 @@
 ---
 title: Zurücksetzen der globalen Richtlinie für den externen Benutzerzugriff
-ms.reviewer: ''
-ms:assetid: 8207e1b1-de9e-461f-975f-fcc5c526849a
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)
-ms:contentKeyID: 48184675
+ms.reviewer: null
+'ms:assetid': 8207e1b1-de9e-461f-975f-fcc5c526849a
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg182545(v=OCS.15)'
+'ms:contentKeyID': 48184675
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Sie können eine globale Richtlinie nicht vollständig löschen. Wenn Sie die Option **"Löschen"** in der globalen Richtlinie verwenden, wird die globale Richtlinie nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für externe Benutzerzugriffsoptionen enthalten.
-ms.openlocfilehash: e55107de4aec5832b8c04dcf679fd9d5f5555c53
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849988"
+description: 'Sie können eine globale Richtlinie nicht vollständig löschen. Wenn Sie die Option **"Löschen"** in der globalen Richtlinie verwenden, wird die globale Richtlinie nur auf die Standardeinstellungen zurückgesetzt, die keine Unterstützung für externe Benutzerzugriffsoptionen enthalten.'
 ---
-# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Zurücksetzen der globalen Richtlinie für den Zugriff durch externe Benutzer in Skype for Business Server 
+
+
+# <a name="reset-the-global-policy-for-external-user-access-in-skype-for-business-server"></a>Zurücksetzen der globalen Richtlinie für den Externen Benutzerzugriff in Skype for Business Server 
 
 Wenn Sie richtlinien für den externen Benutzerzugriff erstellt oder konfiguriert haben, die Sie nicht mehr verwenden möchten, können Sie die folgenden Methoden verwenden:
 
@@ -53,4 +49,4 @@ Die globale Richtlinie für den externen Zugriff kann mithilfe von Windows Power
 
   - Verwenden Sie den folgenden Befehl, um die globale Richtlinie für den externen Zugriff zurückzusetzen:<br/><br/>Remove-CsExternalAccessPolicy -Identity "global"
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsExternalAccessPolicy".](/powershell/module/skype/Remove-CsExternalAccessPolicy)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsExternalAccessPolicy](/powershell/module/skype/Remove-CsExternalAccessPolicy) ".

@@ -1,27 +1,22 @@
 ---
 title: Allgemeine Einstellungen der A/V MCU – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AvMcuGeneralSettingsExpander
+  - ms.lync.tb.AvMcuGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 16449f7c-dd2c-4b51-b428-8fba42f93f83
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:'
-ms.openlocfilehash: ae553e0e52648ebafe122b32e13140eda02d6731
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846808"
 ---
+
 # <a name="av-mcu-general-settings-expander"></a>Allgemeine Einstellungen der AV MCU – Erweiterung
  
 Gehen Sie zum Bearbeiten der Eigenschaften eines bereits definierten A/V-Konferenzserverpools wie folgt vor:

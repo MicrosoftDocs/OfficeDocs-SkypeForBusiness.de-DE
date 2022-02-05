@@ -1,27 +1,22 @@
 ---
 title: Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.dep.DeployMainCreateCSCPAdmin
+  - ms.lync.dep.DeployMainCreateCSCPAdmin
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
 description: 'Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server 2015 zu gewähren:'
-ms.openlocfilehash: e6b6c705f50df79651eb37ce487ba50000315ffd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862892"
 ---
+
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
  
 Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server 2015 zu gewähren:
@@ -37,7 +32,7 @@ Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server 2015
 5. Überprüfen Sie auf der Registerkarte "Mitglieder", ob die ausgewählten Benutzer bzw. Gruppen vorhanden sind. Klicken Sie auf **OK**.
     
 > [!TIP]
-> Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, vollzugriff auf alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Benutzer müssen nicht für Skype for Business Server aktiviert sein, um Mitglieder der Verwaltungsgruppen werden zu können. 
+> Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, vollzugriff auf alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Benutzer müssen nicht für Skype for Business Server aktiviert werden, um Mitglieder der Verwaltungsgruppen werden zu können. 
   
 Weitere Rollen sind:
   
@@ -49,7 +44,7 @@ Weitere Rollen sind:
     
 - **CsResponseGroupAdministrator:** Mitglieder können den Reaktionsgruppendienst verwalten und konfigurieren.
     
-- **CsServerAdministrator:** Mitglieder können alle Server, auf denen Skype for Business Server ausgeführt werden, verwalten, überwachen und Probleme beheben.
+- **CsServerAdministrator:** Mitglieder können alle Server verwalten, überwachen und Beheben von Problemen, die Skype for Business Server ausgeführt werden.
     
 - **CsUserAdministrator:** Mitglieder können Benutzer verwalten, aktivieren und deaktivieren sowie vorhandene Richtlinien Benutzern zuweisen.
     
@@ -57,6 +52,6 @@ Weitere Rollen sind:
     
 - **CsVoiceAdministrator:** Mitglieder können voIP-bezogene Einstellungen in Skype for Business Server erstellen, konfigurieren und verwalten.
     
-Um die Integrität der Sicherheits- und rollenbasierten Zugriffssteuerung beizubehalten, fügen Sie Den Gruppen Benutzer hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server Bereitstellung ausführt.
+Um die Integrität der Sicherheit und der rollenbasierten Zugriffssteuerung beizubehalten, fügen Sie Den Gruppen Benutzer hinzu, die definieren, welche Rolle der Benutzer bei der Verwaltung der Skype for Business Server Bereitstellung ausführt.
   
 

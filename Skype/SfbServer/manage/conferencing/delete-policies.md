@@ -1,24 +1,19 @@
 ---
 title: Löschen von Konferenzrichtlinien in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 497e6ca0-7a49-4f3e-9804-14414cf87b57
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server löschen.'
-ms.openlocfilehash: 47138386812ddd401b7aa9edb54f5a619914f6fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847378"
 ---
+
 # <a name="delete-conferencing-policies-in-skype-for-business-server"></a>Löschen von Konferenzrichtlinien in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Konferenzrichtlinien in Skype for Business Server löschen.
@@ -31,13 +26,13 @@ Sie können Konferenzrichtlinien mithilfe Skype for Business Server Systemsteuer
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen"** und dann auf **"Konferenzrichtlinie".**
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen**" und dann auf **"Konferenzrichtlinie**".
     
-4. Klicken Sie in der Liste der Konferenzrichtlinien auf die Website- oder Benutzerrichtlinie, die Sie löschen möchten, klicken Sie auf **Bearbeiten** und dann auf **"Löschen".**
+4. Klicken Sie in der Liste der Konferenzrichtlinien auf die Website- oder Benutzerrichtlinie, die Sie löschen möchten, klicken Sie auf **"Bearbeiten"** und dann auf " **Löschen**".
     
 ## <a name="delete-conferencing-policies-by-using-skype-for-business-server-management-shell"></a>Löschen von Konferenzrichtlinien mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie das Cmdlet **"Remove-CsConferencingPolicy",** um Konferenzrichtlinien zu löschen.
+Verwenden Sie das Cmdlet **"Remove-CsConferencingPolicy** ", um Konferenzrichtlinien zu löschen.
   
 Mit dem folgenden Befehl wird die Konferenzrichtlinie mit dem Identitätswert "RedmondConferencingPolicy" entfernt:
   
