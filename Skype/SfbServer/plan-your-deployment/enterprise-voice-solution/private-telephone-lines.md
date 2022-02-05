@@ -1,28 +1,23 @@
 ---
 title: Planen von Privatleitungen mit Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 9cc4f9e1-7b7a-4699-bd05-f16669ef2d21
 description: Planen privater (sekundärer) Telefonleitungen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: a9054266cc5092f77e0fecd66b71b7180c89018c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861082"
 ---
+
 # <a name="plan-for-private-telephone-lines-with-skype-for-business"></a>Planen von Privatleitungen mit Skype for Business
  
 Planen privater (sekundärer) Telefonleitungen in Skype for Business Server Enterprise-VoIP.
@@ -88,7 +83,7 @@ Neben den technischen Aspekten der Erstellung und Verwaltung von Privatleitungen
 
  Konten für neue Benutzer, die Privatleitungen benötigen, werden auf die gleiche Weise wie Konten ohne Privatleitungen mithilfe Skype for Business Server Systemsteuerung oder Skype for Business Server Verwaltungsshell erstellt.
   
-Verwenden Sie das Cmdlet **"Set-CsUser"** in der Skype for Business Server Verwaltungsshell, um einer Privatleitung für einen Benutzer eine Telefonnummer zuzuweisen, z. B. **Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212".**
+Verwenden Sie das Cmdlet **"Set-CsUser**" in der Skype for Business Server-Verwaltungsshell, um einer Privatleitung für einen Benutzer eine Telefonnummer zuzuweisen, z. B. **Set-CsUser -Identity "sip:joe@contoso.com" -PrivateLine "Tel:+14255551212"**.
   
 Telefonnummern für Privatleitungen können zwischen 3 und 15 Nummern lang sein und müssen das Präfix "TEL:" aufweisen. Sie können eine beliebige Ortsvorwahl und eine beliebige Landes-/Regionsvorwahl besitzen, sofern Ihre Organisation für die betreffende Orts- und Landes-/Regionsvorwahl DID-Nummern (Direct Inward Dialing) verwendet. 
   

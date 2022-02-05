@@ -1,7 +1,7 @@
 ---
 title: Verwenden von PowerShell zum Festlegen von Richtlinien für Liveereignisse
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 07/10/2019
 ms.topic: article
@@ -10,24 +10,19 @@ ms.reviewer: sonua
 audience: admin
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-description: Beispiele für die Verwendung von PowerShell zum Festlegen von Richtlinien in Teams, um zu steuern, wer in Ihrer Organisation Liveereignisse halten kann, und die Features, die in den Ereignissen verfügbar sind.
+  - M365-collaboration
+description: 'Beispiele für die Verwendung von PowerShell zum Festlegen von Richtlinien in Teams, um zu steuern, wer Liveereignisse in Ihrer Organisation halten kann, sowie die Features, die in den Ereignissen verfügbar sind.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cda9da872d8464064c137713e8eb16ceede7941e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851729"
 ---
+
 # <a name="use-powershell-to-set-live-events-policies-in-microsoft-teams"></a>Verwenden von PowerShell zum Festlegen von Richtlinien für Live-Ereignisse in Microsoft Teams
 
-Sie können die folgenden Windows PowerShell verwenden, um Richtlinieneinstellungen für Liveereignisse in einem Teams: 
+Sie können die folgenden Windows PowerShell zum Festlegen und Zuweisen von Richtlinieneinstellungen für Liveereignisse in Teams: 
 - [Get-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/get-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [Set-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/set-csteamsmeetingbroadcastpolicy?view=skype-ps)
 - [New-CsTeamsMeetingBroadcastPolicy](/powershell/module/skype/new-csteamsmeetingbroadcastpolicy?view=skype-ps)
@@ -37,16 +32,16 @@ Sie können die folgenden Windows PowerShell verwenden, um Richtlinieneinstellun
 Hier sind einige Beispiele:
 
 > [!NOTE]
-> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit ihrer Skype for Business PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell.](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell)
+> Bevor Sie diese Cmdlets ausführen können, müssen Sie mit Ihrer Skype for Business PowerShell verbunden sein. Weitere Informationen finden Sie unter [Verwalten von Skype for Business Online mit Microsoft 365 oder Office 365 PowerShell](/office365/enterprise/powershell/manage-skype-for-business-online-with-office-365-powershell).
 
 ## <a name="allow-users-to-schedule-live-events"></a>Zulassen, dass Benutzer Liveereignisse planen 
 
 > [!NOTE]
-> Diese Beispiele sind für ereignisse, die in einer Teams. Für Ereignisse, die mit einer externen App oder einem externen Gerät erstellt werden, müssen Sie zusätzliche Schritte ausführen. Weitere Informationen finden Sie unter Ermöglichen der Planung von Ereignissen, die mit einer externen App oder einem externen [Gerät erstellt wurden.](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device)
+> Diese Beispiele sind für ereignisse, die in einer Teams. Für Ereignisse, die mit einer externen App oder einem externen Gerät erstellt werden, müssen Sie zusätzliche Schritte ausführen. Weitere Informationen finden Sie unter Ermöglichen der Planung von Ereignissen, [die mit einer externen App oder einem externen Gerät erstellt wurden](set-up-for-teams-live-events.md#enable-users-to-schedule-events-that-were-produced-with-an-external-app-or-device).
 
 **Zulassen, dass ein Benutzer Liveereignisse plant**
 
-Wenn dem Benutzer die globale Richtlinie zugewiesen ist, führen Sie aus, und überprüfen Sie, ob der *Parameter AllowBroadcastScheduling* auf True festgelegt *ist:*
+Wenn dem Benutzer die globale Richtlinie zugewiesen ist, führen Sie aus, und überprüfen Sie, ob der *Parameter AllowBroadcastScheduling* auf *True festgelegt ist*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
@@ -58,11 +53,11 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 ### <a name="user-scenarios"></a>Benutzerszenarien
 **Sie möchten, dass alle Benutzer in Ihrer Organisation Liveereignisse planen können**
 
-Wenn Benutzern die globale Richtlinie zugewiesen ist, führen Sie aus, und überprüfen Sie, ob *AllowBroadcastScheduling* * auf True festgelegt *ist:*
+Wenn Benutzern die globale Richtlinie zugewiesen ist, führen Sie aus, und vergewissern Sie sich, dass *AllowBroadcastScheduling* * auf *True festgelegt ist*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity Global
 ```
-Wenn Benutzern eine andere Richtlinie als die globale Richtlinie zugewiesen ist, führen Sie -AllowBroadcastScheduling aus, und vergewissern Sie sich, dass *-AllowBroadcastScheduling* auf *True festgelegt ist:*
+Wenn Benutzern eine andere Richtlinie als die globale Richtlinie zugewiesen ist, führen Sie *-AllowBroadcastScheduling aus, und vergewissern Sie sich, dass "-AllowBroadcastScheduling* " auf *"True" festgelegt ist*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -identity {policy name}
 ```
@@ -79,7 +74,7 @@ Grant-CsTeamsMeetingBroadcastPolicy -Identity {user} -PolicyName $null -Verbose
 
 **Sie möchten, dass eine große Anzahl von Benutzern Liveereignisse planen und verhindern kann, dass eine Gruppe von Benutzern sie plant**
 
-Führen Sie aus, und überprüfen Sie, *ob AllowBroadcastScheduling* auf *True festgelegt ist:*
+Führen Sie aus, und überprüfen Sie, *ob AllowBroadcastScheduling* auf *True festgelegt ist*:
 ```PowerShell
 Get-CsTeamsMeetingBroadcastPolicy -Identity Global
 ```
@@ -130,7 +125,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastAttendeeVisibility 
 ```
 ## <a name="set-the-recording-option-for-live-events"></a>Festlegen der Aufzeichnungsoption für Liveereignisse
 > [!NOTE]
-> Diese Einstellung gilt nur für in einer Anwendung erzeugte Teams.
+> Diese Einstellung gilt nur für in der Anwendung erzeugte Teams.
 
 Legen Sie die globale Richtlinie so ein, dass die Aufzeichnung für Liveereignisse deaktiviert wird:
 ```PowerShell
@@ -138,7 +133,7 @@ Set-CsTeamsMeetingBroadcastPolicy -Identity Global -BroadcastRecordingMode Alway
 ```
 ## <a name="set-live-captions-and-subtitles-in-live-events"></a>Festlegen von Liveuntertiteln in Liveereignissen
 > [!NOTE]
-> Diese Einstellung gilt nur für in einer Anwendung erzeugte Teams. 
+> Diese Einstellung gilt nur für in der Anwendung erzeugte Teams. 
 
 Legen Sie die globale Richtlinie fest, um Liveuntertitel und Untertitel (Transkription) für Ereignisteilnehmer zu aktivieren:
 ```PowerShell

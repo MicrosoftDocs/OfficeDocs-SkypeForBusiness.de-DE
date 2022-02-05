@@ -1,37 +1,32 @@
 ---
 title: Integrieren von Skype for Business Server in Exchange Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 795dc1c6-524f-4012-8b66-103b55198044
-description: 'Zusammenfassung: Überprüfen Sie die Integrationsschritte für Exchange Server 2016 oder Exchange Server 2013 und Skype for Business Server.'
-ms.openlocfilehash: d93c56278948c01ae47a19128896031de027d95a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838297"
+description: 'Zusammenfassung: Überprüfen der Integrationsschritte für Exchange Server 2016 oder Exchange Server 2013 und Skype for Business Server.'
 ---
+
 # <a name="integrate-skype-for-business-server-with-exchange-server"></a>Integrieren von Skype for Business Server in Exchange Server
 
 **Zusammenfassung:** Überprüfen Sie die Integrationsschritte für Exchange Server 2013 oder höher und Skype for Business Server.
 
-Exchange Server 2013 oder höher und Skype for Business Server sind kompatibel und werden gut integriert. Beispielsweise können Skype for Business Anwesenheitsinformationen von Benutzern in Microsoft Outlook gemeldet werden. ebenso können Skype for Business auf die Outlook Kalender eines Benutzers zugreifen, beachten, dass eine Besprechung geplant ist, und die Anwesenheit des Benutzers während der Besprechung als beschäftigt anzeigen. Obwohl Sie keine Exchange Server ausführen müssen, um Skype for Business Server (oder umgekehrt) ausführen zu können, verbessern die beiden Produkte zusammen die Benutzererfahrung.
+Exchange Server 2013 oder höher und Skype for Business Server sind kompatibel und werden gut integriert. Beispielsweise können Skype for Business Anwesenheitsinformationen des Benutzers in Microsoft Outlook gemeldet werden. Ebenso können Skype for Business auf den Outlook Kalender eines Benutzers zugreifen, feststellen, dass der Benutzer eine Besprechung geplant hat, und die Anwesenheit des Benutzers während der Besprechung als beschäftigt anzeigen. Obwohl Sie keine Exchange Server ausführen müssen, um Skype for Business Server (oder umgekehrt) ausführen zu können, verbessern die beiden Produkte zusammen die Benutzererfahrung.
 
-Diese Dokumentation enthält Informationen zum Integrieren von Skype for Business Server und Exchange Server 2016 oder Exchange Server 2013, geht jedoch davon aus, dass die ersteinrichtung und Konfiguration dieser beiden Produkte bereits erfolgt ist. Ausführliche Informationen zur Bereitstellung Skype for Business Server finden Sie im [Skype for Business Server Tech Center.](../../../Hub/index.yml) Ausführliche Informationen zur Bereitstellung von Exchange Server finden Sie in der Bereitstellungsdokumentation für Ihre Version von Exchange.
+Diese Dokumentation enthält Informationen zum Integrieren von Skype for Business Server und Exchange Server 2016 oder Exchange Server 2013, geht jedoch davon aus, dass die ersteinrichtung und Konfiguration dieser beiden Produkte bereits erfolgt ist. Ausführliche Informationen zur Bereitstellung von Skype for Business Server finden Sie im [Skype for Business Server Tech Center](../../../Hub/index.yml). Ausführliche Informationen zur Bereitstellung von Exchange Server finden Sie in der Bereitstellungsdokumentation für Ihre Version von Exchange.
 
-Wenn Sie eine lokale Installation von Skype for Business Server mit Microsoft Exchange Online integrieren, finden Sie weitere Informationen unter Konfigurieren der [Integration zwischen lokalen Skype for Business Server und Outlook Web App.](outlook-web-app.md)
+Wenn Sie eine lokale Installation von Skype for Business Server in Microsoft Exchange Online integrieren, lesen Sie "[Konfigurieren der Integration zwischen lokalen Skype for Business Server und Outlook Web App](outlook-web-app.md)".
 
-Wenn Sie Skype for Business Online mit Exchange Server lokal integrieren, finden Sie weitere Informationen unter [Konfigurieren von OAuth zwischen Skype for Business Online und Exchange lokal.](oauth-with-online-and-on-premises.md)
+Wenn Sie Skype for Business Online mit Exchange Server lokal integrieren, lesen Sie ["Konfigurieren von OAuth zwischen Skype for Business Online und Exchange lokal](oauth-with-online-and-on-premises.md)".
 
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
 

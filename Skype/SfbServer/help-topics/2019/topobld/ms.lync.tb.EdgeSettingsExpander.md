@@ -1,27 +1,22 @@
 ---
 title: Edgeeinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeSettingsExpander
+  - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 1f67b701e97b02a5b801d93e2d5757cdff287aa3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855942"
 ---
+
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
 Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:
@@ -37,9 +32,9 @@ Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Ser
 
 Der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools des Edgeserverpools. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
 
-Aktivieren Sie das **Kontrollkästchen Partnerverbund für diesen Edgepool aktivieren (Port 5061),** wenn Sie den Partnerverbund mit einem Skype for Business Server 2015-Server einrichten.
+Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061),** wenn Sie einen Partnerverbund mit einem Skype for Business Server 2015-Server einrichten.
 
-Geben Sie die Portnummer für **den internen Konfigurationsreplikationsport (HTTPS)** an.
+Geben Sie die Portnummer für den **internen Konfigurationsreplikationsport (HTTPS)** an.
 
 ## <a name="next-hop-selection-settings"></a>Einstellungen für die Auswahl des nächsten Hops
 
@@ -47,7 +42,7 @@ Um den **Next-Hoppool** festzulegen oder zu ändern, den die Edgeserver für die
 
 ## <a name="edge-server-configuration"></a>Edgeserverkonfiguration
 
-Um Einstellungen für die **externen Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zuerst ermitteln, ob Sie separate IP-Adressen für SIP-Zugriff, Webkonferenzen und den Audio-/Videodienst verwenden.
+Um Einstellungen für die **externen Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für SIP-Zugriff, Webkonferenzen und den Audio-/Videodienst verwenden.
 
 Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein entsprechender DNS-Hosteintrag (A) erstellt werden.
 
@@ -63,4 +58,4 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 
 ## <a name="see-also"></a>Siehe auch
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter ["Definieren der Edgetopologie".](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter ["Definieren der Edgetopologie](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)".

@@ -1,7 +1,7 @@
 ---
 title: Definieren von Verwendungsszenarios für Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/31/2018
 audience: Admin
@@ -10,24 +10,19 @@ ms.service: msteams
 ms.reviewer: karuanag
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie die am besten geeigneten Verwendungsszenarien für die Experimentphase Ihrer Einführung Teams können.
+description: 'Hier erfahren Sie, wie Sie die am besten geeigneten Verwendungsszenarien für die Experimentphase Ihrer einführung Teams können.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- Adopt
-- seo-marvel-apr2020
+  - Adopt
+  - seo-marvel-apr2020
 ms.collection:
-- Teams_ITAdmin_Adopt
-- M365-collaboration
+  - Teams_ITAdmin_Adopt
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 55b25ab0367909da0136a7761b7e763965c5804d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842557"
+  - Microsoft Teams
 ---
+
 # <a name="define-usage-scenarios-for-microsoft-teams"></a>Definieren von Verwendungsszenarios für Microsoft Teams
 
 Stellen Sie sicher, dass Sie die Geschäftsprojekte (Szenarien) verstehen, die für diese Phase Ihrer Implementierung im Bereich sind. Sehen Sie sich diese Liste mit Beispielszenarien an, die für ein Early Adopter-Programm geeignet sind. Sie können mit einfachen Gewinnen beginnen, z. B.:
@@ -47,7 +42,7 @@ Weitere mögliche Szenarien sind:
 
 ![Eine Abbildung der Teams Szenarien für jedes Szenario.](media/teams-adoption-use-cases.png)
 
-Stellen Sie sich diese Szenario-Bewegung als kumulierten Prozess vor – bringen Sie Dinge mit grundlegenderen Szenarien in Gang, um Begeisterung, Bekanntheit und Glaubwürdigkeit für diese neue Arbeitsweise zu erzeugen. Wechseln Sie dann zu den anspruchsvolleren Einflussbereichen. Wenn sich die Microsoft Teams für Ihre Geschäftskollegen noch stärker ausdingt, werden sich mehr von ihnen engagieren und Dynamik entwickeln. Für viele unserer Kunden stellen sie nach dem Erreichen dieses Prozesses fest, dass sich die Projektbeteiligten an sie herangehensweisen, nachdem sie erfahren haben, wie ihre Kollegen von Ihren Microsoft Teams.
+Stellen Sie sich diese Szenario-Bewegung als kumulierten Prozess vor – bringen Sie Dinge mit grundlegenderen Szenarien in Gang, um Begeisterung, Bekanntheit und Glaubwürdigkeit für diese neue Arbeitsweise zu erzeugen. Wechseln Sie dann zu den anspruchsvolleren Einflussbereichen. Wenn die Auswirkungen von Microsoft Teams ihren Geschäftskollegen gezeigt werden, werden sich mehr von ihnen engagieren und Dynamik entwickeln. Für viele unserer Kunden stellen sie nach dem Prozess fest, dass sie feststellen, dass sie von den Projektbeteiligten auf sie zu herangehensweisen sind, nachdem sie erfahren haben, wie ihre Kollegen den Nutzen aus Ihren Microsoft Teams.
 
 ## <a name="interview-business-stakeholders"></a>Vorstellungsgespräch mit projektbeteiligten Unternehmen
 
@@ -70,6 +65,6 @@ Nachdem Sie mit einem oder mehreren Projektbeteiligten gesprochen haben, können
 ![Eine Abbildung, die die Auswirkungen auf Das Szenario im Vergleich zu Schwierigkeiten zeigt.](media/teams-adoption-impact-difficulty.png)
 
 > [!Note]
-> Wir freuen uns immer darauf zu erfahren, wie unsere Kunden ihre Teams auf neue und innovative Weise verwenden. Teilen Sie #TeamsStories Ihre Erfahrungen mit uns in unserem [Diskussionsforum zur treibenden Einführung mit uns.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Fügen Sie Ihrem Beitrag **#TeamsStories** Hashtag-Hashtag bei. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
+> Wir freuen uns immer darauf zu erfahren, wie unsere Kunden ihre Teams auf neue und innovative Weise verwenden. Teilen Sie #TeamsStories Informationen in unserem [Diskussionsforum zur treibenden Einführung mit uns.](https://techcommunity.microsoft.com/t5/driving-adoption/ct-p/DrivingAdoption) Fügen Sie Ihrem **Beitrag #TeamsStories** Hashtag-Hashtag bei. Wir sind immer daran interessiert, wie Sie Teams in Ihrer Organisation verwenden.
 
-![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Integrieren Sie Early Adopters, und sammeln Sie Feedback.](teams-adoption-onboard-early-adopters.md)
+![Ein Symbol, das den nächsten Schritt darstellt.](media/teams-adoption-next-icon.png) Nächstes: [Integrieren Sie Early Adopters, und sammeln Sie Feedback](teams-adoption-onboard-early-adopters.md).

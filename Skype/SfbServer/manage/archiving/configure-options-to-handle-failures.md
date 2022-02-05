@@ -1,24 +1,19 @@
 ---
 title: Konfigurieren von Archivierungsoptionen zur Behandlung von Fehlern in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 31fd4e7c-3c68-48dd-9fad-8863831accd7
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Chat- und Konferenzsitzungen bei einem Skype for Business Server Fehler blockieren, der die Archivierung verhindern würde.'
-ms.openlocfilehash: f3f20bf53a784972c720ce5578d78462cbb222c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836467"
 ---
+
 # <a name="configure-archiving-options-to-handle-failures-in-skype-for-business-server"></a>Konfigurieren von Archivierungsoptionen zur Behandlung von Fehlern in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie Chat- und Konferenzsitzungen bei einem Skype for Business Server Fehler blockieren, der die Archivierung verhindern würde.
@@ -35,15 +30,15 @@ So geben Sie an, ob Kommunikationssitzungen im Falle eines Fehlers zulässig sei
     
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.
     
-4. Klicken Sie in der Liste der Archivierungskonfigurationen auf den Namen der entsprechenden globalen, Standort- oder Poolkonfiguration, klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
+4. Klicken Sie in der Liste der Archivierungskonfigurationen auf den Namen der entsprechenden globalen, Standort- oder Poolkonfiguration, klicken Sie auf **"Bearbeiten**" und dann auf " **Details anzeigen"**.
     
-5. Um festzulegen, wie sich die Archivierung verhält, wenn ein Fehler auftritt, aktivieren oder deaktivieren Sie das Kontrollkästchen Chat- **oder Webkonferenzsitzungen blockieren, wenn die Archivierung fehlschlägt.**
+5. Um festzulegen, wie sich die Archivierung verhält, wenn ein Fehler auftritt, aktivieren oder deaktivieren Sie das Kontrollkästchen Chat- **oder Webkonferenzsitzungen blockieren, wenn die Archivierung fehlschlägt** .
     
 6. Klicken Sie auf **Commit ausführen**.
     
 ## <a name="configure-critical-mode-by-using-windows-powershell"></a>Konfigurieren des kritischen Modus mithilfe von Windows PowerShell
 
-Mit dem Cmdlet **"Set-CsArchivingConfiguration"** mit dem Parameter "BlockOnArchiveFailure" können Sie auch angeben, ob Kommunikationssitzungen bei einem Fehler zugelassen werden sollen, der die Archivierung verhindern würde.
+Mit dem Cmdlet **"Set-CsArchivingConfiguration** " mit dem Parameter "BlockOnArchiveFailure" können Sie auch angeben, ob Kommunikationssitzungen bei einem Fehler zugelassen werden sollen, der die Archivierung verhindern würde.
   
 Beispielsweise deaktiviert der folgende Befehl die Kommunikation im Falle eines Archivierungsfehlers:
   
@@ -57,4 +52,4 @@ Der nächste Befehl aktiviert die Kommunikation im Falle eines Archivierungsfehl
 Set-CsArchivingConfiguration -Identity "site:Redmond" -BlockOnArchiveFailure $False
 ```
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Set-CsArchivingConfiguration".](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Set-CsArchivingConfiguration](/powershell/module/skype/set-csarchivingconfiguration?view=skype-ps) ".

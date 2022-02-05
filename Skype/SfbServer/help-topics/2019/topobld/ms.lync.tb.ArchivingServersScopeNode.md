@@ -1,27 +1,22 @@
 ---
 title: Archivierungsserver – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ArchivingServersScopeNode
+  - ms.lync.tb.ArchivingServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c5f46c7-67bf-4daa-b7a9-4b59fd7792a0
-ROBOTS: NOINDEX, NOFOLLOW
-description: Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Archivierungsserver ausführen, indem Sie entweder mit der rechten Maustaste auf den Archivierungsserver in der Konsolenstruktur klicken, auf der Symbolleiste auf Aktion klicken oder im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf die folgende Option für den Archivierungsserver klicken.
-ms.openlocfilehash: 6a169d15dbbe9a3dc1cf8c4b958be9c97fc18a4e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60836777"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Archivierungsserver ausführen, indem Sie entweder mit der rechten Maustaste auf den Archivierungsserver in der Konsolenstruktur klicken, auf der Symbolleiste auf Aktion klicken oder im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf die folgende Option für den Archivierungsserver klicken.'
 ---
+
 # <a name="archiving-servers-scope-node"></a>Archivierungsserver – Bereichsknoten
  
 Im Topologie-Generator können Sie Aufgaben im Zusammenhang mit einem einzelnen Archivierungsserver ausführen, indem Sie entweder mit der rechten Maustaste auf den **Archivierungsserver** in der Konsolenstruktur klicken, auf der Symbolleiste auf **Aktion** klicken oder im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf die folgende Option für den Archivierungsserver klicken.

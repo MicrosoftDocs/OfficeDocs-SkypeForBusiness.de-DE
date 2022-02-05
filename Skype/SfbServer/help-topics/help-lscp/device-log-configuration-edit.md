@@ -1,30 +1,25 @@
 ---
 title: Bearbeiten der Geräteprotokollkonfiguration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientDeviceUpdateEdit
+  - ms.lync.lscp.ClientDeviceUpdateEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e534e6a5-fb3e-40b1-a189-fce64c42f512
-description: Sie können der Seite "Protokolleinstellung bearbeiten" eine Geräteprotokollkonfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Größe der Protokolldatei oder die Dauer der Aufbewahrung einer Protokolldatei bestimmt, bevor sie gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.
-ms.openlocfilehash: 6e6278fb44344b99f018f297ecdd1494df846730
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835543"
+description: 'Sie können der Seite "Protokolleinstellung bearbeiten" eine Geräteprotokollkonfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Größe der Protokolldatei oder die Dauer der Aufbewahrung einer Protokolldatei bestimmt, bevor sie gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.'
 ---
+
 # <a name="device-log-configuration-edit"></a>Geräteprotokollkonfiguration: Bearbeiten
  
-Sie können der Seite **"Protokolleinstellung bearbeiten"** eine Geräteprotokollkonfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Größe der Protokolldatei oder die Dauer der Aufbewahrung einer Protokolldatei bestimmt, bevor sie gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.
+Sie können der Seite " **Protokolleinstellung bearbeiten** " eine Geräteprotokollkonfiguration hinzufügen, die die maximale Größe des Protokollcaches, die maximale Größe der Protokolldatei oder die Dauer der Aufbewahrung einer Protokolldatei bestimmt, bevor sie gelöscht wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern.
   
 > [!CAUTION]
 > Durch das dauerhafte Löschen von Dateien werden diese aus dem Dateisystem entfernt. Nach dem Löschen einer Datei kann diese nicht mehr wiederhergestellt werden. 
@@ -41,9 +36,9 @@ Auf der Seite **"Protokolleinstellung bearbeiten"** können Sie die folgenden Au
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
   
-- **Bereich** Gibt den Bereich (global oder Standort) der Geräteprotokollkonfiguration an.
+- **Umfang** Gibt den Bereich (global oder Standort) der Geräteprotokollkonfiguration an.
     
-- **Name** Sie können den Namen der Geräteprotokollkonfiguration hinzufügen oder ändern.
+- **Namen** Sie können den Namen der Geräteprotokollkonfiguration hinzufügen oder ändern.
     
 - **Maximale Dateigröße (Bytes)** Sie können die maximale Größe einer Protokolldatei angeben, bevor sie gelöscht wird. Der Standardwert beträgt 1.024.000 (1 MB).
     

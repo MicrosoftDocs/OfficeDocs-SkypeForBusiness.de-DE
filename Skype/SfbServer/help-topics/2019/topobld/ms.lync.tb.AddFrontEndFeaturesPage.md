@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen von Front-End-Funktionen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddFrontEndFeaturesPage
+  - ms.lync.tb.AddFrontEndFeaturesPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 97441ec2-573a-4ba4-ab4c-df4cf6baf321
-ROBOTS: NOINDEX, NOFOLLOW
-description: Wählen Sie die Funktionen aus, die für den Front-End-Pool aktiviert werden sollen. Sie müssen mindestens die Chatfunktion (Instant Messaging) bereitstellen, die immer aktiviert ist und nicht deaktiviert werden kann. Sie haben auch die Möglichkeit, andere Features wie Konferenzen, Enterprise-VoIP und Anrufsteuerung (Call Admission Control, CAC) bereitzustellen. Einige Funktionen sind von Ihrer Topologie abhängig.
-ms.openlocfilehash: 6989234d12c4e6a415eb9949550a6ad1c187b25a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832599"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Wählen Sie die Funktionen aus, die für den Front-End-Pool aktiviert werden sollen. Sie müssen mindestens die Chatfunktion (Instant Messaging) bereitstellen, die immer aktiviert ist und nicht deaktiviert werden kann. Sie haben auch die Möglichkeit, andere Features wie Konferenzen, Enterprise-VoIP und Anrufsteuerung (Call Admission Control, CAC) bereitzustellen. Einige Funktionen sind von Ihrer Topologie abhängig.'
 ---
+
 # <a name="add-front-end-features"></a>Hinzufügen von Front-End-Funktionen
 
 Wählen Sie die Funktionen aus, die für den Front-End-Pool aktiviert werden sollen. Sie müssen mindestens die Chatfunktion (Instant Messaging) bereitstellen, die immer aktiviert ist und nicht deaktiviert werden kann. Sie haben auch die Möglichkeit, andere Features wie Konferenzen, Enterprise-VoIP und Anrufsteuerung (Call Admission Control, CAC) bereitzustellen. Einige Funktionen sind von Ihrer Topologie abhängig.

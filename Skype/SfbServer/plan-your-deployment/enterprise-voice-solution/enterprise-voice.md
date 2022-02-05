@@ -1,31 +1,26 @@
 ---
 title: Planen der Enterprise-VoIP in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: fd8d5867-0ac9-47f8-94f0-1c3ee5e25575
-description: Enterprise-VoIP die Grundlagen der Planung in Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und der Schätzung des VoIP-Nutzungsdatenverkehrs.
-ms.openlocfilehash: 51c197979c5faaf587f63320b4a2dc6c5dc6a06f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829839"
+description: 'Enterprise-VoIP Grundlegendes zur Planung von Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und Der Schätzung des VoIP-Nutzungsdatenverkehrs.'
 ---
+
 # <a name="plan-for-enterprise-voice-in-skype-for-business-server"></a>Planen der Enterprise-VoIP in Skype for Business Server
  
-Enterprise-VoIP die Grundlagen der Planung in Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und der Schätzung des VoIP-Nutzungsdatenverkehrs.
+Enterprise-VoIP Grundlegendes zur Planung von Skype for Business Server, einschließlich Standorten, Regionen, Netzwerkverbindungen zwischen Standorten und Der Schätzung des VoIP-Nutzungsdatenverkehrs.
   
 Der Bereitstellungsprozess für Enterprise-VoIP hängt von Ihrer vorhandenen Topologie, Infrastruktur und der Enterprise-VoIP Funktionalität ab, die Sie unterstützen möchten. Die erforderlichen Verfahren hängen davon ab, welche Features Sie auswählen, aber es gibt andere Planungsüberlegungen, die Sie auf hoher Ebene vornehmen müssen.
   
@@ -33,11 +28,11 @@ Betrachten Sie im Allgemeinen den Typ und die Anzahl der Standorte, die Sie bere
   
 ## <a name="sites-and-regions"></a>Websites und Regionen
 
-Identifizieren Sie zunächst die Standorte in Ihrer Topologie, an denen Sie Enterprise-VoIP bereitstellen werden, und die Netzwerkregionen, zu denen diese Standorte gehören. Insbesondere müssen Sie überlegen, wie die PSTN-Anbindung (Public Switched Telephone Network) für jeden Standort implementiert wird. Die Zuweisung von Standorten zu Regionen kann aus verwaltungstechnischer und logistischer Sicht ein entscheidender Faktor sein. Entscheiden Sie, wo Gateways lokal bereitgestellt werden, wo Survivable Branch Appliances (SBAs) bereitgestellt werden und wo Sie SIP-Trunks (lokal oder am zentralen Standort) für einen Anbieter von Internettelefoniediensten (Internet Telephony Service Provider, ITSP) konfigurieren können.
+Identifizieren Sie zunächst die Standorte in Ihrer Topologie, an denen Sie Enterprise-VoIP bereitstellen werden, und die Netzwerkregionen, zu denen diese Standorte gehören. Insbesondere müssen Sie überlegen, wie die PSTN-Anbindung (Public Switched Telephone Network) für jeden Standort implementiert wird. Die Zuweisung von Standorten zu Regionen kann aus verwaltungstechnischer und logistischer Sicht ein entscheidender Faktor sein. Entscheiden Sie, wo Gateways lokal bereitgestellt werden, wo Survivable Branch Appliances (SBAs) bereitgestellt werden und wo Sie SIP-Trunks (lokal oder am zentralen Standort) für einen Internettelefoniedienstanbieter (Internet Telephony Service Provider, ITSP) konfigurieren können.
   
 ## <a name="network-links-between-sites"></a>Netzwerkverbindungen zwischen Standorten
 
-Sie müssen auch die Bandbreitennutzung berücksichtigen, die Sie für die Netzwerkverbindungen zwischen Ihrem zentralen Standort und den Zweigstellen erwarten. Wenn Sie über ausfallsichere WAN-Verbindungen zwischen Standorten verfügen oder diese bereitstellen möchten, empfehlen wir, dass Sie an jedem Zweigstellenstandort ein Gateway bereitstellen, um benutzern an diesen Standorten eine lokale DID-Beendigung (Direct Inward Dial) bereitzustellen. Wenn Sie über ausfallsichere WAN-Verbindungen verfügen, die Bandbreite einer WAN-Verbindung jedoch wahrscheinlich eingeschränkt ist, konfigurieren Sie die Anrufsteuerung für diese Verbindung. Wenn Sie keine ausfallsicheren WAN-Verbindungen haben, weniger als 1.000 Benutzer an Ihrem Zweigstellenstandort hosten und keine lokal geschulten Skype for Business Server Administratoren verfügbar sind, wird empfohlen, eine Survivable Branch Appliance am Zweigstellenstandort bereitzustellen. Wenn Sie zwischen 1000 und 5000 Benutzer an Ihrem Zweigstellenstandort hosten, keine ausfallsichere WAN-Verbindung haben und Skype for Business Server Administratoren geschult sind, empfehlen wir, dass Sie einen Survivable Branch Server mit einem kleinen Gateway am Zweigstellenstandort bereitstellen. Erwägen Sie auch die Aktivierung der Medienumgehung für Verbindungen mit eingeschränkter Bandbreite, wenn Sie über ein Gatewaypeer mit Unterstützung der Medienumgehung verfügen.
+Sie müssen auch die Bandbreitennutzung berücksichtigen, die Sie für die Netzwerkverbindungen zwischen Ihrem zentralen Standort und den Zweigstellen erwarten. Wenn Sie über ausfallsichere WAN-Verbindungen zwischen Standorten verfügen oder diese bereitstellen möchten, empfehlen wir, dass Sie an jedem Zweigstellenstandort ein Gateway bereitstellen, um benutzern an diesen Standorten eine lokale DID-Beendigung (Direct Inward Dial) bereitzustellen. Wenn Sie über ausfallsichere WAN-Verbindungen verfügen, die Bandbreite einer WAN-Verbindung jedoch wahrscheinlich eingeschränkt ist, konfigurieren Sie die Anrufsteuerung für diese Verbindung. Wenn Sie keine ausfallsicheren WAN-Verbindungen haben, weniger als 1.000 Benutzer an Ihrem Zweigstellenstandort hosten und keine lokal geschulten Skype for Business Server Administratoren verfügbar sind, empfehlen wir, dass Sie eine Survivable Branch Appliance am Zweigstellenstandort bereitstellen. Wenn Sie zwischen 1000 und 5000 Benutzer an Ihrem Zweigstellenstandort hosten, keine ausfallsichere WAN-Verbindung haben und Skype for Business Server Administratoren geschult sind, empfehlen wir, dass Sie einen Survivable Branch Server mit einem kleinen Gateway am Zweigstellenstandort bereitstellen. Erwägen Sie auch die Aktivierung der Medienumgehung für Verbindungen mit eingeschränkter Bandbreite, wenn Sie über ein Gatewaypeer mit Unterstützung der Medienumgehung verfügen.
   
 ## <a name="estimating-voice-usage-and-traffic"></a>Schätzen der VoIP-Nutzung und des Datenverkehrs
 

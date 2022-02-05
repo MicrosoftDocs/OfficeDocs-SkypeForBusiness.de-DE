@@ -1,24 +1,19 @@
 ---
 title: Zusammenfassender Anrufdiagnosebericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9091de56-13e6-440e-9353-f57c10c906fe
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Anrufdiagnosebericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: ef50ecde07fdd7354bd97c40bddfe4fb5e762d08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827568"
 ---
+
 # <a name="call-diagnostic-summary-report-in-skype-for-business-server"></a>Zusammenfassender Anrufdiagnosebericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Anrufdiagnosebericht, der in Skype for Business Server verwendet wird.
@@ -37,7 +32,7 @@ Der zusammenfassende Anrufdiagnosebericht bietet eine Gesamtübersicht zu fehlge
     
 ## <a name="accessing-the-call-diagnostic-summary-report"></a>Zugriff auf den zusammenfassenden Anrufdiagnosebericht
 
-Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie auf den [Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt "Peer-to-Peer-Sitzungszusammenfassung" des Berichts auf die Metrik "Fehlerrate" klicken. Sie können auch auf den Diagnosebericht über [Konferenzen in Skype for Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Konferenzmetriken klicken:
+Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Startseite für Überwachungsberichte. Über den zusammenfassenden Anrufdiagnosebericht können Sie auf den [Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) zugreifen, indem Sie im Abschnitt "Peer-to-Peer-Sitzungszusammenfassung" des Berichts auf die Metrik "Fehlerrate" klicken. Sie können auch auf den [Diagnosebericht über Konferenzen in Skype for Business Server](conference-diagnostic-report.md) zugreifen, indem Sie auf eine der folgenden Konferenzmetriken klicken:
   
 - Sitzungsfehlerrate insgesamt
     
@@ -47,7 +42,7 @@ Der Zugriff auf den zusammenfassenden Anrufdiagnosebericht erfolgt auf der Start
     
 ## <a name="making-the-best-use-of-the-call-diagnostic-summary-report"></a>Optimale Verwendung des zusammenfassenden Anrufdiagnoseberichts
 
-Der zusammenfassende Anrufdiagnosebericht enthält Diagramme, in denen fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten verglichen werden. Die Spalten in diesen Diagrammen sind eigentlich Hotlinks. Wenn Sie beispielsweise auf die Chatspalte für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md)durch, einem Bericht, der zusätzliche Details zu allen Chatsitzungen enthält, die im zusammenfassenden Anrufdiagnosebericht enthalten sind.
+Der zusammenfassende Anrufdiagnosebericht enthält Diagramme, in denen fehlerraten für die verschiedenen in Skype for Business Server verwendeten Modalitäten verglichen werden. Die Spalten in diesen Diagrammen sind eigentlich Hotlinks. Wenn Sie beispielsweise auf die Chatspalte für Peer-to-Peer-Sitzungen klicken, führen Sie einen Drilldown zu einer Instanz des [Diagnoseberichts über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-diagnostic-report.md) durch, einem Bericht, der zusätzliche Details zu allen Chatsitzungen enthält, die im zusammenfassenden Anrufdiagnosebericht enthalten sind.
   
 ## <a name="filters"></a>Filter
 

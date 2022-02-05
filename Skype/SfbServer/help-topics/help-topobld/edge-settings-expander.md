@@ -1,27 +1,22 @@
 ---
 title: Edgeeinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeSettingsExpander
+  - ms.lync.tb.EdgeSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: c73780cd-0033-4287-9ecd-ecf65ca61e62
 description: 'Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: e0ad220836bb1a72ebf762e866ab6d3e4a7cd2fb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852169"
 ---
+
 # <a name="edge-settings-expander"></a>Edgeeinstellungen – Erweiterung
 
 Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Servern zu bearbeiten, werden die folgenden Abschnitte angezeigt:
@@ -38,11 +33,11 @@ Um die Einstellungen für einen vorhandenen Edgepool mit einem oder mehreren Ser
 
 Der vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des internen Pools des Edgeserverpools. Bearbeiten Sie den FQDN des Pools, um diese Einstellung zu ändern.
 
-Aktivieren Sie das **Kontrollkästchen Partnerverbund für diesen Edgepool aktivieren (Port 5061),** wenn Sie einen Partnerverbund mit einem vertrauenswürdigen Partner für Lync Server 2013, Microsoft Lync Server 2010 oder Microsoft Office Communications Server 2007 R2 einrichten.
+Aktivieren Sie das Kontrollkästchen **Partnerverbund für diesen Edgepool aktivieren (Port 5061),** wenn Sie einen Partnerverbund mit einem vertrauenswürdigen Partner für Lync Server 2013, Microsoft Lync Server 2010 oder Microsoft Office Communications Server 2007 R2 einrichten.
 
 Wählen Sie **"XMPP-Partnerverbund für diesen Edgepool** aktivieren" aus, um den XMPP-Partnerverbund zu aktivieren.
 
-Geben Sie die Portnummer für **den internen Konfigurationsreplikationsport (HTTPS)** an.
+Geben Sie die Portnummer für den **internen Konfigurationsreplikationsport (HTTPS)** an.
 
 ## <a name="next-hop-selection-settings"></a>Einstellungen für die Auswahl des nächsten Hops
 
@@ -66,4 +61,4 @@ Wenn Sie festlegen, dass Ihre Organisation einen einzigen FQDN und eine einzige 
 
 ## <a name="see-also"></a>Siehe auch
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter ["Definieren der Edgetopologie".](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für die Edgedienste finden Sie unter ["Definieren der Edgetopologie](/previous-versions/office/lync-server-2013/lync-server-2013-define-your-edge-topology)".

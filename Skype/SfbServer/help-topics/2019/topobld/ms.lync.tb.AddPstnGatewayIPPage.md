@@ -1,27 +1,22 @@
 ---
 title: Definieren der IP-Adresse des IP- oder PSTN-Gateways
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddPstnGatewayIPPage
+  - ms.lync.tb.AddPstnGatewayIPPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 319fdc9f-7ed6-4ed3-8f3f-b78758a0eb42
-ROBOTS: NOINDEX, NOFOLLOW
-description: Sie definieren die IPv4- oder IPv6-Adressen für das IP- oder PSTN-Gateway (Phone Switched Telephone Network), indem Sie entweder die Option IPv4 aktivieren oder IPv6 aktivieren wählen. Sie können entweder Alle konfigurierten IP-Adressen verwenden oder Dienstnutzung auf die ausgewählten IP-Adressen beschränken wählen.
-ms.openlocfilehash: f6cceeba24106f4dea82e6f5c42832313ea6c533
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837037"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Sie definieren die IPv4- oder IPv6-Adressen für das IP- oder PSTN-Gateway (Phone Switched Telephone Network), indem Sie entweder die Option IPv4 aktivieren oder IPv6 aktivieren wählen. Sie können entweder Alle konfigurierten IP-Adressen verwenden oder Dienstnutzung auf die ausgewählten IP-Adressen beschränken wählen.'
 ---
+
 # <a name="define-the-ip-address-of-the-ip-or-pstn-gateway"></a>Definieren der IP-Adresse des IP- oder PSTN-Gateways
 
 Sie definieren die IPv4- oder IPv6-Adressen für das IP- oder PSTN-Gateway (Phone Switched Telephone Network), indem Sie entweder die Option **IPv4 aktivieren** oder **IPv6 aktivieren** wählen. Sie können entweder **Alle konfigurierten IP-Adressen verwenden** oder **Dienstnutzung auf die ausgewählten IP-Adressen beschränken** wählen.

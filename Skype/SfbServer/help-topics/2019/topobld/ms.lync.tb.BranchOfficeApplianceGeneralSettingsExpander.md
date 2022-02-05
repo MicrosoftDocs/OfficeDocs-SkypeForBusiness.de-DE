@@ -1,27 +1,22 @@
 ---
 title: Allgemeine Einstellungen für Branch Office Appliance – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
+  - ms.lync.tb.BranchOfficeApplianceGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 86860416-7c9b-49af-b9d2-658c172852de
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Die Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:'
-ms.openlocfilehash: f6222f3925289b441d985a8ba07032a0ae6951df
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831239"
 ---
+
 # <a name="branch-office-appliance-general-settings-expander"></a>Allgemeine Einstellungen für die Filialanwendung – Erweiterung
 
 Die Einstellungen für eine vorhandene Survivable Branch Appliance oder einen Survivable Branch Server werden in den folgenden Abschnitten bearbeitet:
@@ -59,7 +54,7 @@ Dank der Flexibilität (Ausfallsicherheit) ist die hohe Verfügbarkeit des Regis
 Wählen Sie in der Dropdownliste den Enterprise Edition Front-End-Pool oder Standard Edition Front-End-Server aus, der als Sicherungsregistrierungsstelle für die Survivable Branch Appliance oder den Survivable Branch Server fungiert. Sie können außerdem Zeitintervalle für Failover und Fallback auswählen. Die (in Sekunden angegebenen) Zeiteinstellungen für Failover und Fallback ermöglichen die automatische Erkennung einer ausgefallenen Registrierung und eines Zeitpuffers zur automatischen Bestimmung, dass die primäre Registrierung wieder betriebsbereit ist und den Registrierungsprozess übernehmen kann.
 
 > [!IMPORTANT]
-> Achten Sie beim Definieren der Fehlererkennung und des Fallbackintervalls darauf, kein Intervall einzugeben, das zu einem Failover und Fallback führt, wenn die Registrierung für einen kurzen Zeitraum nicht reagiert. Es ist möglich, dass die primäre Registrierungsstelle basierend auf dem Laden des Pools oder der Server möglicherweise nicht für kurze Zeit reagiert. Die Standardwerte für eine Survivable Branch Appliance oder einen Survivable Branch Server an einem Standort in einem Pool oder Standard Edition Front-End-Server sind 120 Sekunden für Failover und 240 Sekunden für Fallback.
+> Achten Sie beim Definieren der Fehlererkennung und des Fallbackintervalls darauf, kein Intervall einzugeben, das zu einem Failover und Fallback führt, wenn die Registrierung für einen kurzen Zeitraum nicht reagiert. Es ist möglich, dass die primäre Registrierungsstelle basierend auf dem Laden des Pools oder der Server möglicherweise nicht für kurze Zeit reagiert. Die Standardwerte für eine Survivable Branch Appliance oder einen Survivable Branch Server an einem Standort für einen Pool oder Standard Edition Front-End-Server sind 120 Sekunden für Failover und 240 Sekunden für Fallback.
 
 ### <a name="mediation-server"></a>Vermittlungsserver
 

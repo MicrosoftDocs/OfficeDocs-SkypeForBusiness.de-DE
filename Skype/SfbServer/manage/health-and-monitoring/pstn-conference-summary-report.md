@@ -1,24 +1,19 @@
 ---
 title: Zusammenfassender Bericht über PSTN-Konferenzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8e2f0862-4dfa-4c2b-bf8d-ad71419f15d2
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Bericht über PSTN-Konferenzen in Skype for Business Server.'
-ms.openlocfilehash: 19038b29f46e33026e3ef865226aa4d087b0a0da
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862292"
 ---
+
 # <a name="pstn-conference-summary-report-in-skype-for-business-server"></a>Zusammenfassender Bericht über PSTN-Konferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Bericht über PSTN-Konferenzen in Skype for Business Server.
@@ -33,7 +28,7 @@ Auf der Startseite "Überwachungsberichte" können Sie auf den "Zusammenfassende
   
 ## <a name="making-the-best-use-of-the-pstn-conference-summary-report"></a>Optimale Nutzung des "Zusammenfassenden Berichts über PSTN-Konferenzen"
 
-Um den Prozentsatz aller Konferenzen zu ermitteln, die Einwahlbenutzer enthalten, vergleichen Sie den Wert der Metrik "PsTN-Konferenzen insgesamt" mit der Metrik "Konferenzen insgesamt", die [im zusammenfassenden Konferenzbericht in Skype for Business Server](conference-summary-report.md)enthalten ist.
+Um den Prozentsatz aller Konferenzen zu ermitteln, die Einwahlbenutzer enthalten, vergleichen Sie den Wert der Metrik "PsTN-Konferenzen insgesamt" mit der Metrik "Konferenzanzahl insgesamt", die [im zusammenfassenden Konferenzbericht in Skype for Business Server](conference-summary-report.md) enthalten ist.
   
 Wenn Sie nicht so viele PSTN-Konferenzen sehen, wie Sie möglicherweise erwartet haben, denken Sie daran, dass die Möglichkeit, eine Konferenz zu organisieren, die Einwahlbenutzer ermöglicht, von der Konferenzrichtlinie abhängt, die einem Benutzer zugewiesen wurde: Wenn nur wenige Ihrer Benutzer PSTN-Konferenzen abhalten dürfen, werden ihnen offensichtlich nur sehr wenige PSTN-Konferenzen angezeigt. Sie können schnell überprüfen, welche Ihrer Konferenzrichtlinien Benutzern das Planen von PSTN-Konferenzen ermöglicht, indem Sie den folgenden Befehl in der Skype for Business Server Verwaltungsshell ausführen:
   

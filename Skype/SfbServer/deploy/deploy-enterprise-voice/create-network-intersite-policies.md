@@ -1,28 +1,23 @@
 ---
 title: Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: b0714aae-55dc-4587-b718-34a03f596b22
-description: Erstellen Sie standortübergreifende Netzwerkrichtlinien, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: 3510a80935bd19fc6ac36904003f744fd7e65cf5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841887"
+description: 'Erstellen Sie standortübergreifende Netzwerkrichtlinien, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.'
 ---
+
 # <a name="create-network-intersite-policies-in-skype-for-business-server"></a>Erstellen von standortübergreifenden Netzwerkrichtlinien in Skype for Business Server
  
 Erstellen Sie standortübergreifende Netzwerkrichtlinien, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden. 
@@ -36,7 +31,7 @@ In der Region "Nordamerika" der Beispieltopologie besteht eine direkte Verbindun
   
 ### <a name="to-create-a-network-inter-site-policy"></a>So erstellen Sie eine standortübergreifende Netzwerkrichtlinie
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Führen Sie das Cmdlet New-CsNetworkInterSitePolicy aus, um standortübergreifende Netzwerkrichtlinien zu erstellen und ein geeignetes Bandbreitenrichtlinienprofil für zwei Standorte anzuwenden, die über eine direkte standortübergreifende Verbindung verfügen. Führen Sie beispielsweise den folgenden Befehl aus:
     

@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddExternalApplicationNextHopPage
+  - ms.lync.tb.AddExternalApplicationNextHopPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49c9e65a-ae2d-46fa-a6a2-fff47ed0f3de
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Führen Sie zum Festlegen des nächsten Hops für den vertrauenswürdigen Anwendungsserver oder -pool die folgenden Schritte aus:'
-ms.openlocfilehash: 7f0523d8764bc2b595a9c41773d03f87196f03ec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837112"
 ---
+
 # <a name="add-nexthop-trusted-application-server"></a>Hinzufügen eines vertrauenswürdigen NextHop-Anwendungsservers
  
 Führen Sie zum Festlegen des nächsten Hops für den vertrauenswürdigen Anwendungsserver oder -pool die folgenden Schritte aus:
