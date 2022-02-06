@@ -1,24 +1,19 @@
 ---
 title: Bericht über Benutzeraktivität in Skype for Business Server 25
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3aa6fef2-ea02-4f0f-93e8-fa2e0a953d79
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Benutzeraktivität in Skype for Business Server.'
-ms.openlocfilehash: c78718e55740afdd42ceff11e1ab62d6198c15ec
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828738"
 ---
+
 # <a name="user-activity-report-in-skype-for-business-server"></a>Bericht über Benutzeraktivität in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über Benutzeraktivität in Skype for Business Server.
@@ -27,13 +22,13 @@ Der Bericht über Benutzeraktivität stellt eine detaillierte Liste der Peer-zu-
 
 Der Bericht über Benutzeraktivität wird auch als "Helpdesk"-Bericht bezeichnet. Der Grund ist, dass der Bericht häufig vom Helpdeskpersonal verwendet wird, um Sitzungsinformationen für einen bestimmten Benutzer abzurufen. Sie können den Bericht nach Anrufen filtern, die von einem bestimmten Benutzer entgegengenommen oder initiiert wurden, indem Sie einfach den SIP-URI dieses Benutzers in das Feld Präfix des Benutzer-URI eingeben.
 
-Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden Benutzer zurück, dessen SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie z. **B. ken** in das URI-Feld eingeben, **wird** ken im Bericht über Benutzeraktivität gesucht. Myer@litwareinc.com. Es werden jedoch auch die folgenden Benutzer gefunden:
+Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden Benutzer zurück, dessen SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie z. B **. ken** in das URI-Feld eingeben, sucht der Benutzeraktivitätsbericht **nach "Ken.Myer@litwareinc.com**". Es werden jedoch auch die folgenden Benutzer gefunden:
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
@@ -43,7 +38,7 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>So greifen Sie auf den Bericht über Benutzeraktivität zu
 
-Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie in Skype for Business Server auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht](ip-phone-inventory-report.md)klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server.](peer-to-peer-session-detail-report.md)
+Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht in Skype for Business Server](ip-phone-inventory-report.md) klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum [Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md).
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Optimale Nutzung des Berichts über Benutzeraktivität
 

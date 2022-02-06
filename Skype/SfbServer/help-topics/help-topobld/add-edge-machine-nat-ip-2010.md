@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen der NAT-IP des Edgecomputers – 2010
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeMachineNatIpPage2010
+  - ms.lync.tb.AddEdgeMachineNatIpPage2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 592496a5-4e03-496e-9b54-2ce3e4ce6733
-description: Wenn die öffentliche IP-Adresse dieses Edgepools von der Netzwerkadressenübersetzung (NAT) übersetzt wird, müssen Sie die zu übersetzende öffentliche IP-Adresse angeben. Dies muss die externe IP-Adresse des A/V-Edgediensts sein.
-ms.openlocfilehash: 66120b3d8d570c4c879d76684344863537bb9293
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830209"
+description: 'Wenn die öffentliche IP-Adresse dieses Edgepools von der Netzwerkadressenübersetzung (NAT) übersetzt wird, müssen Sie die zu übersetzende öffentliche IP-Adresse angeben. Dies muss die externe IP-Adresse des A/V-Edgediensts sein.'
 ---
+
 # <a name="add-edge-machine-nat-ip-2010"></a>Hinzufügen der NAT-IP des Edgecomputers – 2010
  
 Wenn die öffentliche IP-Adresse dieses Edgepools von der Netzwerkadressenübersetzung (NAT) übersetzt wird, müssen Sie die zu übersetzende öffentliche IP-Adresse angeben. Dies muss die externe IP-Adresse des A/V-Edgediensts sein.

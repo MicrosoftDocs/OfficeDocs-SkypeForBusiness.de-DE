@@ -1,25 +1,20 @@
 ---
 title: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Zusammenfassung: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats für Skype for Business Server.'
-ms.openlocfilehash: 30d62351d92a53c107e858ce1e0f88239f615208
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839947"
 ---
+
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
 **Zusammenfassung:** Weisen Sie ein Server-zu-Server-Authentifizierungszertifikat für Skype for Business Server zu.
   
@@ -62,21 +57,21 @@ Am 1. Juli 2015 wird das neue Zertifikat als aktuelles OAuthTokenIssuer-Zertifik
 Wenn Sie Windows PowerShell nicht verwenden möchten, können Sie auch die MMC-Konsole "Zertifikate" verwenden, um ein Zertifikat von einem Front-End-Server zu exportieren und dann dasselbe Zertifikat auf allen anderen Front-End-Servern zu importieren. Wenn Sie dies tun, stellen Sie sicher, dass Sie den privaten Schlüssel zusammen mit dem Zertifikat selbst exportieren.
   
 > [!CAUTION]
-> In diesem Fall muss die Prozedur auf jedem Front-End-Server ausgeführt werden. Beim Exportieren und Importieren von Zertifikaten auf diese Weise wird Skype for Business Server dieses Zertifikat nicht auf jeden Front-End-Server replizieren. 
+> In diesem Fall muss die Prozedur auf jedem Front-End-Server ausgeführt werden. Beim Exportieren und Importieren von Zertifikaten auf diese Weise repliziert Skype for Business Server dieses Zertifikat nicht auf jedem Front-End-Server. 
   
 Nachdem das Zertifikat auf alle Front-End-Server importiert wurde, kann dieses Zertifikat mithilfe des Skype for Business Server Bereitstellungs-Assistenten anstelle von Windows PowerShell zugewiesen werden. Führen Sie zum Zuweisen eines Zertifikats mithilfe des Bereitstellungs-Assistenten die folgenden Schritte auf einem Computer aus, auf dem der Bereitstellungs-Assistent installiert wurde:
   
-1. Klicken Sie auf "Start", auf "Alle Programme", auf **Skype for Business Server** und dann auf **Skype for Business Server Bereitstellungs-Assistenten.**
+1. Klicken Sie auf "Start", auf "Alle Programme", auf **Skype for Business Server** und dann auf **Skype for Business Server Bereitstellungs-Assistenten**.
     
-2. Klicken Sie im Bereitstellungs-Assistenten auf **Skype for Business Server System installieren oder aktualisieren.**
+2. Klicken Sie im Bereitstellungs-Assistenten auf **"Skype for Business Server System installieren oder aktualisieren**".
     
-3. Klicken Sie auf der Seite Skype for Business Server unter der Überschrift **Schritt 3: Anfordern, Installieren oder Zuweisen** von Zertifikaten auf die Schaltfläche **"Ausführen".** (Hinweis: Wenn Sie bereits Zertifikate auf diesem Computer installiert haben, wird die Schaltfläche **"Ausführen"** mit der Bezeichnung **"Erneut ausführen"** bezeichnet.)
+3. Klicken Sie auf der seite Skype for Business Server unter der Überschrift **"Schritt 3: Anfordern, Installieren oder Zuweisen von Zertifikaten**" auf die Schaltfläche "**Ausführen**". (Hinweis: Wenn Sie bereits Zertifikate auf diesem Computer installiert haben, wird die Schaltfläche " **Ausführen** " mit der Bezeichnung " **Erneut ausführen**" bezeichnet.)
     
-4. Wählen Sie im Zertifikat-Assistenten das **OAuthTokenIssuer-Zertifikat** aus, und klicken Sie dann auf **"Zuweisen".**
+4. Wählen Sie im Zertifikat-Assistenten das **OAuthTokenIssuer-Zertifikat** aus, und klicken Sie dann auf **"Zuweisen**".
     
-5. Klicken Sie im Zertifikatzuweisungs-Assistenten auf der Seite **"Zertifikatzuweisung"** auf **"Weiter".**
+5. Klicken Sie im Zertifikatzuweisungs-Assistenten auf der Seite **"Zertifikatzuweisung** " auf **"Weiter"**.
     
-6. Wählen Sie auf der Seite **"Zertifikat Store"** das Zertifikat aus, das für die Server-zu-Server-Authentifizierung verwendet werden soll, und klicken Sie dann auf **"Weiter".**
+6. Wählen Sie auf der Seite **"Zertifikat Store**" das Zertifikat aus, das für die Server-zu-Server-Authentifizierung verwendet werden soll, und klicken Sie dann auf **"Weiter**".
     
 7. Klicken Sie auf der Seite Zusammenfassung der Zertifikatzuweisung auf **Weiter**.
     

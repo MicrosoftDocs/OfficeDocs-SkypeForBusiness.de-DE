@@ -1,27 +1,22 @@
 ---
 title: Veraltete Skype for Business Server 2019
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: overview
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Diese Features wurden aus Skype for Business Server 2019 entfernt.'
-ms.openlocfilehash: 7f956aed60a65d074776756e0c6254e2aa3d9629
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846978"
 ---
+
 # <a name="whats-deprecated-from-skype-for-business-server-2019"></a>Veraltete Skype for Business Server 2019
 
-Erfahren Sie mehr über die Features und Funktionen, die in Skype for Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype for Business Server 2019 finden Sie [unter What's in Skype for Business Server 2019.](whats-new.md)
+Erfahren Sie mehr über die Features und Funktionen, die in Skype for Business Server 2019 veraltet sind. Informationen zu neuen Features in Skype for Business Server 2019 finden Sie unter [What's in Skype for Business Server 2019](whats-new.md).
 
 Einige features de-emphasized sind in Skype for Business Server 2019 aus Gründen der Kompatibilität mit früheren Produktversionen enthalten.
 
@@ -37,28 +32,28 @@ Skype for Business Server 2015 und seinen Vorgängern konnten Sie einen XMPP-Pro
 
 Der Server für beständigen Chat ist eine optionale Rolle, mit der mehrere Benutzer in Ihrer Organisation an Chatroomunterhaltungen teilnehmen können, die im Laufe der Zeit bestehen bleiben. Beständiger Chat kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Diese Serverrolle wird aus dem Topologie-Generator und aus dem Code entfernt. 
 
-Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here)
+Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade](/microsoftteams/upgrade-start-here).
 
 ### <a name="sql-mirroring-for-skype-for-business-server"></a>SQL Spiegelung für Skype for Business Server
 
-SQL Spiegelung kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Andere Optionen für die Bereitstellung von Hoher Verfügbarkeit und Notfallwiederherstellung werden weiterhin unterstützt, und Sie sollten zwischen diesen optionen auswählen. Informationen zu den Optionen finden Sie [unter Plan for high availability and disaster recovery in Skype for Business Server.](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)
+SQL Spiegelung kann nicht mit Skype for Business Server 2019 bereitgestellt werden. Andere Optionen für die Bereitstellung von Hoher Verfügbarkeit und Notfallwiederherstellung werden weiterhin unterstützt, und Sie sollten zwischen diesen optionen auswählen. Informationen zu den Optionen finden Sie [unter Plan for high availability and disaster recovery in Skype for Business Server](../SfbServer/plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md).
 
 ### <a name="in-place-upgrades"></a>Direkte Upgrades 
 
-Direkte Upgrades waren in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Paralleles Upgrade und Koexistenz werden unterstützt. Weitere Informationen finden Sie unter [Migration zu Skype for Business Server 2019.](migration/migration-to-skype-for-business-server-2019.md)
+Direkte Upgrades waren in Skype for Business Server 2015 verfügbar, werden jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Paralleles Upgrade und Koexistenz werden unterstützt. Weitere Informationen finden Sie unter [Migration zu Skype for Business Server 2019](migration/migration-to-skype-for-business-server-2019.md).
 
 ### <a name="mobility-service-mcx"></a>Mobilitätsdienst (Mcx)
 
-Alle aktuellen Skype for Business mobile Clients verwenden bereits Unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die Mcx verwenden, müssen auf einen aktuellen Client aktualisieren.
+Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die Mcx verwenden, müssen auf einen aktuellen Client aktualisieren.
 
-Weitere Informationen finden Sie unter [Plan for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and Mobile client feature comparison for [Skype for Business.](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md)
+Weitere Informationen finden Sie unter [Plan for Mobility for Skype for Business Server](../SfbServer/plan-your-deployment/mobility.md) and [Mobile client feature comparison for Skype for Business](../SfbServer/plan-your-deployment/clients-and-devices/mobile-feature-comparison.md).
 
 ## <a name="tools"></a>Tools
 
 Die folgenden Tools stehen in der ersten Version von Skype for Business Server 2019 nicht zur Verfügung:
 
 - Skype for Business Server: Rechner zur Kapazitätsplanung
-- Skype for Business Server Debugtools
+- Debugtools für Skype for Business Server
 - Skype for Business Server Resource Kit-Tools (einige Tools werden entfernt)
     - Call Parkometer
     - Benutzerkonsole nachschlagen

@@ -1,30 +1,25 @@
 ---
 title: Vorbereiten des Schemas
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainSchemaPrep
+  - ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-ROBOTS: NOINDEX, NOFOLLOW
-description: Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Skype for Business Server Bereitstellungs-Assistenten aus. Klicken Sie auf Ausführen, um die Schemavorbereitung zu beginnen.
-ms.openlocfilehash: 88a9ca5f93263b4d8a514db3c987bcd3a63d87a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842347"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Bereitstellungs-Assistenten für Skype for Business Server aus. Klicken Sie auf Ausführen, um die Schemavorbereitung zu beginnen.'
 ---
+
 # <a name="prepare-schema"></a>Vorbereiten des Schemas
  
-Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Skype for Business Server Bereitstellungs-Assistenten aus. Klicken Sie auf **Ausführen**, um die Schemavorbereitung zu beginnen. Im Schritt "Schema vorbereiten" werden die bereitgestellten Schemadefinitionsdateien im Verzeichnis "\Programme\Skype for Business Server 2019\Deployment\Setup" auf dem System gelesen, auf dem der Bereitstellungs-Assistent ausgeführt wird. Diese Dateien stehen auch auf den Installationsmedien im Verzeichnis "\Support\Schema" zur Verfügung. Der Schritt "Schema vorbereiten" dient zum Erweitern des Schemas und Melden des Prozessstatus. Ferner wird in diesem Schritt der Abschluss des Prozesses gemeldet. Auf dem Zusammenfassungsbildschirm können Sie die Protokolle des Prozesses überprüfen. Vergewissern Sie sich mithilfe der Protokolle, dass die Vorbereitung erfolgreich abgeschlossen wurde.
+Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Bereitstellungs-Assistenten für Skype for Business Server aus. Klicken Sie auf **Ausführen**, um die Schemavorbereitung zu beginnen. Im Schritt "Schema vorbereiten" werden die bereitgestellten Schemadefinitionsdateien im Verzeichnis "\Programme\Skype for Business Server 2019\Bereitstellung\Setup" auf dem System gelesen, auf dem der Bereitstellungs-Assistent ausgeführt wird. Diese Dateien stehen auch auf den Installationsmedien im Verzeichnis "\Support\Schema" zur Verfügung. Der Schritt "Schema vorbereiten" dient zum Erweitern des Schemas und Melden des Prozessstatus. Ferner wird in diesem Schritt der Abschluss des Prozesses gemeldet. Auf dem Zusammenfassungsbildschirm können Sie die Protokolle des Prozesses überprüfen. Vergewissern Sie sich mithilfe der Protokolle, dass die Vorbereitung erfolgreich abgeschlossen wurde.
   
 > [!IMPORTANT]
 > Zum Erweitern des Schemas müssen Sie bei der Domäne als Mitglied der Gruppen "Schema-Admins" und "Organisations-Admins" angemeldet sein. 

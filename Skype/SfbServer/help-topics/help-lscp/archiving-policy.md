@@ -1,30 +1,25 @@
 ---
 title: Archivierungsrichtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchPolicyMain
+  - ms.lync.lscp.MonArchPolicyMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9b69f1fa-8f3b-450e-aa89-91fd462f198d
-description: 'Mithilfe von Archivierungsrichtlinien können Sie die Archivierung für Benutzer aktivieren und deaktivieren, die auf Skype for Business Server verwaltet werden. In einer Archivierungsrichtlinie können Sie die Archivierung jeweils für eine oder beide der folgenden Kommunikationsarten aktivieren oder deaktivieren:'
-ms.openlocfilehash: 85842f6722300dfe4b169a443eef512720a997cb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860532"
+description: 'Sie verwenden Archivierungsrichtlinien, um die Archivierung für Benutzer zu aktivieren und zu deaktivieren, die auf Skype for Business Server verwaltet werden. In einer Archivierungsrichtlinie können Sie die Archivierung jeweils für eine oder beide der folgenden Kommunikationsarten aktivieren oder deaktivieren:'
 ---
+
 # <a name="archiving-policy"></a>Archivierungsrichtlinie
  
-Mithilfe von Archivierungsrichtlinien können Sie die Archivierung für Benutzer aktivieren und deaktivieren, die auf Skype for Business Server verwaltet werden. In einer Archivierungsrichtlinie können Sie die Archivierung jeweils für eine oder beide der folgenden Kommunikationsarten aktivieren oder deaktivieren:
+Sie verwenden Archivierungsrichtlinien, um die Archivierung für Benutzer zu aktivieren und zu deaktivieren, die auf Skype for Business Server verwaltet werden. In einer Archivierungsrichtlinie können Sie die Archivierung jeweils für eine oder beide der folgenden Kommunikationsarten aktivieren oder deaktivieren:
   
 - Interne Kommunikation
     
@@ -66,7 +61,7 @@ Auf der Seite **Archivierungsrichtlinie** sind die einzelnen Archivierungsrichtl
     
   - **Archivierung externer Kommunikation deaktivieren**
     
-- **Aktualisieren** Sie können die Seite **"Archivierungsrichtlinie"** aktualisieren, um den Status der Optionen aller Archivierungsrichtlinien zu überprüfen.
+- **Aktualisieren** Sie können die Seite **"Archivierungsrichtlinie** " aktualisieren, um den Status der Optionen aller Archivierungsrichtlinien zu überprüfen.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server 2015,](../../plan-your-deployment/archiving/archiving.md)Deploy archiving for Skype for Business Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)und [Manage archiving in Skype for Business Server 2015.](../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

@@ -1,24 +1,19 @@
 ---
 title: Verwenden von Config.xml zum Ausführen von Installationsaufgaben in Skype for Business Clients
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: PhillipGarding
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0813184a-ab40-417c-b3a3-c2090766b831
-description: 'Zusammenfassung: Verwenden der Config.xml datei zum Angeben zusätzlicher Installationsanweisungen.'
-ms.openlocfilehash: e0dcc16a09540965346ea014a8c39be0470e4f09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858672"
+description: 'Zusammenfassung: So verwenden Sie die Config.xml-Datei, um zusätzliche Installationsanweisungen anzugeben.'
 ---
+
 # <a name="use-configxml-to-perform-installation-tasks-in-skype-for-business-clients"></a>Verwenden von Config.xml zum Ausführen von Installationsaufgaben in Skype for Business Clients
 
 **Zusammenfassung:** So verwenden Sie die Config.xml-Datei, um zusätzliche Installationsanweisungen anzugeben.
@@ -37,9 +32,9 @@ Das Office-Anpassungstool (OAT) ist zwar das primäre Tool für die angepasste I
 
 - Hinzufügen oder Entfernen von Sprachen in der Installation
 
-Es wird empfohlen, die Config.xml-Datei zu verwenden, um Skype for Business automatische Installation zu konfigurieren. 
+Es wird empfohlen, die datei Config.xml zu verwenden, um Skype for Business automatische Installation zu konfigurieren. 
 
-Standardmäßig Config.xml Datei, die im Hauptproduktordner gespeichert ist (z. B. \ _Produkt_. WW) leitet Setup an, dieses Produkt zu installieren. Beispielsweise wird die Config.xml-Datei im folgenden Ordner Skype for Business installiert:
+Standardmäßig Config.xml Datei, die im Hauptproduktordner gespeichert ist (z. B. \ _product_. WW) leitet Setup an, dieses Produkt zu installieren. Beispielsweise wird die Config.xml-Datei im folgenden Ordner Skype for Business installiert:
 
 - \\server\share\Skype15\Skype. WW-\Config.xml
 
@@ -69,7 +64,7 @@ Das folgende Beispiel zeigt eine Config.xml-Datei für eine typische automatisch
 </Configuration>
 ```
 
-Ausführliche Informationen zur Verwendung der Config.xml-Datei zum Ausführen Office Installations- und Wartungsaufgaben finden Sie unter [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)) .
+Ausführliche Informationen zur Verwendung der Config.xml-Datei zum Ausführen Office Installations- und Wartungsaufgaben finden Sie unter [https://go.microsoft.com/fwlink/p/?linkid=267514](/previous-versions/office/office-2013-resource-kit/cc179195(v=office.15)).
 
 ## <a name="to-customize-the-configxml-file"></a>So passen Sie die Datei "Config.xml" an
 
@@ -77,7 +72,7 @@ Ausführliche Informationen zur Verwendung der Config.xml-Datei zum Ausführen O
 
 2. Suchen Sie die Zeilen, die die zu ändernden Elemente enthalten.
 
-3. Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen " " \<!--" and "--\> entfernen. Verwenden Sie z. B. die folgende Syntax:
+3. Ändern Sie den Elementeintrag mit den gewünschten Optionen für eine automatische Installation. Stellen Sie sicher, dass Sie die Kommentartrennzeichen "\<!--" and "--\>" entfernen. Verwenden Sie z. B. die folgende Syntax:
 
    <pre>
    < DistributionPoint Location="\\server\share\Skype15" />

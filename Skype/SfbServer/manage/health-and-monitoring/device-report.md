@@ -1,29 +1,24 @@
 ---
 title: Gerätebericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Zusammenfassung: Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.'
-ms.openlocfilehash: 29ea62f7578b491a940a47663668d0bc83ec5402
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835263"
 ---
+
 # <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.
   
-Der Gerätebericht ist möglicherweise besser mit dem Bericht "Mikrofon und Lautsprecher" beschriftet. Dies liegt daran, dass der Gerätebericht anrufbezogene Metriken (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) abruft, die nach den im Anruf verwendeten Mikrofonen und Lautsprechern gruppiert sind. Wenn Sie sich für IP-Telefone (auch als "Geräte" bezeichnet) interessieren, verwenden Sie stattdessen den [IP-Telefon-Bestandsbericht in Skype for Business Server.](ip-phone-inventory-report.md)
+Der Gerätebericht ist möglicherweise besser mit dem Bericht "Mikrofon und Lautsprecher" beschriftet. Dies liegt daran, dass der Gerätebericht anrufbezogene Metriken (z. B. Prozentsatz der Anrufe schlechter Qualität, Echo und Sprachumschaltzeit) abruft, die nach den im Anruf verwendeten Mikrofonen und Lautsprechern gruppiert sind. Wenn Sie sich für IP-Telefone (auch als "Geräte" bezeichnet) interessieren, verwenden Sie stattdessen den [IP-Telefon-Bestandsbericht in Skype for Business Server](ip-phone-inventory-report.md).
   
 Der Gerätebericht ist äußerst hilfreich für Administratoren, um festzustellen, ob bei einem bestimmten Gerätetyp eine große Anzahl von Anrufen schlechter Qualität auftritt als bei anderen. Dies kann wiederum alle Entscheidungen beeinflussen, die Sie treffen müssen, wenn es an der Zeit ist, neue Geräte zu kaufen oder vorhandene Geräte zu ersetzen.
   
@@ -109,7 +104,7 @@ Wenn es um Gerätenamen geht, ist der Gerätebericht äußerst detailliert. Ange
 > [!NOTE]
 > Beachten Sie, dass die Namen von Aufnahmegeräten möglicherweise nicht identisch sind, wenn Sie lokalisierte Versionen von Skype for Business Server ausführen. Ein Gerät mit dem Namen Aastra 6725ip Microphone (Aastra 6725ip)-V0 in US-Englisch könnte einen anderen Namen auf Französisch oder Spanisch haben. 
   
-Häufig benötigen Sie diese Detailebene. In anderen Fällen sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit, informationen wie diese abzurufen, besteht darin, die Geräteberichtsdaten in Microsoft Excel zu exportieren und diese Daten dann in einer durch Trennzeichen getrennten Wertedatei zu speichern (z. B. C:\Data\Devices_Report.csv). Anschließend können Sie eine Reihe von Ähnlichen Befehlen verwenden, um die .CSV-Datei in Windows PowerShell zu importieren und die Gesamtzahl der Anrufe zu melden, die mit einem Aastra-Aufnahmegerät getätigt wurden:
+Häufig benötigen Sie diese Detailebene. In anderen Fällen sind Sie jedoch möglicherweise nur daran interessiert, wie viele Anrufe ein Aastra-Mikrofon verwenden, unabhängig von der Modellnummer. Eine Möglichkeit zum Abrufen dieser Informationen besteht darin, die Geräteberichtsdaten in Microsoft Excel zu exportieren und diese Daten dann in einer durch Trennzeichen getrennten Wertedatei zu speichern (z. B. C:\Data\Devices_Report.csv). Anschließend können Sie eine Reihe von Ähnlichen Befehlen verwenden, um die .CSV-Datei in Windows PowerShell zu importieren und die Gesamtzahl der Anrufe zu melden, die mit einem Aastra-Aufnahmegerät getätigt wurden:
   
 ```PowerShell
 $devices = Import-Csv "C:\Data\Device_Report.csv

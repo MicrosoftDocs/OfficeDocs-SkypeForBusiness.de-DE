@@ -1,31 +1,26 @@
 ---
 title: Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Archivierungshaftungsausschluss für Skype for Business Server konfigurieren.'
-ms.openlocfilehash: 05eaec40556b383525331405463ee6d0a10e0a13
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834713"
 ---
+
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie einen Archivierungshaftungsausschluss für Skype for Business Server konfigurieren.
   
 Wenn Ihre Organisation mit externen Partnern kommuniziert, müssen Sie sie darüber informieren, dass Sie die Kommunikation mit ihnen archivieren. Wenn Sie einen Edgeserver bereitstellen und den Partnerverbund für Ihre Organisation aktivieren, werden Sie gefragt, ob Sie automatisch einen Archivierungshaftungsausschluss an externe Partner senden möchten. 
   
-Wenn Sie diese Konfiguration ändern müssen, können Sie die Skype for Business Server Systemsteuerung oder das Cmdlet Windows PowerShell **Set-CsAccessEdgeConfiguration** verwenden. Cmdlets können entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
+Wenn Sie diese Konfiguration ändern müssen, können Sie die Skype for Business Server Systemsteuerung oder das Cmdlet Windows PowerShell **Set-CsAccessEdgeConfiguration** verwenden. Cmdlets können entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden.
   
 Damit externe Benutzer in Ihrer Skype for Business Server Bereitstellung mit Benutzern zusammenarbeiten können, müssen Sie auch mindestens eine Richtlinie für den externen Zugriff konfigurieren, um den Zugriff externer Benutzer zu unterstützen. Ausführliche Informationen finden Sie unter Verwalten von XMPP-Verbundpartnern für Ihre Organisation. Ausführliche Informationen zum Steuern des Zugriffs für bestimmte Verbunddomänen finden Sie unter Steuern des Zugriffs durch einzelne Verbunddomänen.
   
@@ -35,23 +30,23 @@ Damit externe Benutzer in Ihrer Skype for Business Server Bereitstellung mit Ben
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Partnerverbund" und "Externer Zugriff"** und dann auf **"Zugriffs-Edgekonfiguration".**
+3. Klicken Sie in der linken Navigationsleiste auf **"Partnerverbund" und "Externer Zugriff**", und klicken Sie dann auf **"Zugriffs-Edgekonfiguration"**.
     
-4. Klicken Sie auf der Registerkarte **"Zugriffs-Edgekonfiguration"** auf **"Global",** klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
+4. Klicken Sie auf der Registerkarte **"Zugriffs-Edgekonfiguration** " auf **"Global**", klicken Sie auf **"Bearbeiten**" und dann auf " **Details anzeigen"**.
     
-5. Aktivieren oder deaktivieren Sie unter **"Partnerverbund und Verbindung mit öffentlichen Chatdiensten aktivieren"** das Kontrollkästchen **Archivierungshaftungsausschluss an Verbundpartner** senden, um das automatische Senden des Archivierungshaftungsausschlusses zu aktivieren oder zu deaktivieren. 
+5. Aktivieren oder deaktivieren Sie unter "**Partnerverbund und Verbindung mit öffentlichen Chatdiensten aktivieren**" in der **Edgekonfiguration für den Bearbeitungszugriff** das Kontrollkästchen **"Archivierungshaftungsausschluss an Verbundpartner** senden", um das automatische Senden des Archivierungshaftungsausschlusses zu aktivieren oder zu deaktivieren.
     
 6. Klicken Sie auf **Commit ausführen**.
     
 ## <a name="enable-or-disable-archiving-disclaimer-using-windows-powershell"></a>Aktivieren oder Deaktivieren des Archivierungshaftungsausschlusses mit Windows PowerShell
 
-Um den Archivierungshaftungsausschluss zu aktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer"** auf "True" ($True) fest:
+Um den Archivierungshaftungsausschluss zu aktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer** " auf "True" ($True) fest:
   
 ```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $True
 ```
 
-Um den Archivierungshaftungsausschluss zu deaktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer"** auf "False" ($False) fest:
+Um den Archivierungshaftungsausschluss zu deaktivieren, legen Sie den Wert der **Eigenschaft "EnableArchivingDisclaimer** " auf "False" ($False) fest:
   
 ```powershell
 Set-CsAccessEdgeConfiguration -EnableArchivingDisclaimer $False

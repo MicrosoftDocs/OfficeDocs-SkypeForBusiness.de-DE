@@ -1,28 +1,23 @@
 ---
 title: Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3bed9d09-8363-4fff-a220-f0f6d3a81241
 description: Ändern der Einstellungen für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 686484fd42982f2b64623b652851482b85d3e1b8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833931"
 ---
+
 # <a name="configure-call-park-settings-in-skype-for-business"></a>Konfigurieren von Einstellungen für das Parken von Anrufen in Skype for Business
 
 Ändern der Einstellungen für das Parken von Anrufen in Skype for Business Server Enterprise-VoIP.
@@ -44,7 +39,7 @@ Verwenden Sie das Cmdlet **New-CsCpsConfiguration** oder das Cmdlet **Set-CsCpsC
 
 ### <a name="to-configure-call-park-settings"></a>So konfigurieren Sie Einstellungen für das Parken von Anrufen
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
 
 2. Führen Sie Folgendes aus: 
 

@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen der internen IP-Adresse des Edgecomputers
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeMachineInternalIpPage
+  - ms.lync.tb.AddEdgeMachineInternalIpPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 34717d03-5ece-4be3-9d05-25497250dc16
 description: Auf dieser Seite können Sie die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) des Edgeservers angeben.
-ms.openlocfilehash: c0d08bf0fb4b197b32a79172c3df2c494173faa5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842077"
 ---
+
 # <a name="add-edge-machine-internal-ip"></a>Hinzufügen der internen IP-Adresse des Edgecomputers
 
 Auf dieser Seite können Sie die interne IP-Adresse und den internen vollqualifizierten Domänennamen (FQDN) des Edgeservers angeben.

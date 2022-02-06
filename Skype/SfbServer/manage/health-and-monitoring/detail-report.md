@@ -1,24 +1,19 @@
 ---
 title: Detaillierter Konferenzbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1d61cd81-dcfe-40b4-9a41-a73b038bc216
 description: 'Zusammenfassung: Erfahren Sie mehr über den in Skype for Business Server verwendeten Konferenzdetailbericht.'
-ms.openlocfilehash: a86124c05e0d35caef3f92c4ec43b561eb54938c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829989"
 ---
+
 # <a name="conference-detail-report-in-skype-for-business-server"></a>Detaillierter Konferenzbericht in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie mehr über den in Skype for Business Server verwendeten Konferenzdetailbericht.

@@ -1,31 +1,26 @@
 ---
 title: Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 025e8ab4-2e64-4a6b-8f52-caf756a5cac3
 description: 'Zusammenfassung: Erfahren Sie mehr über den Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server.'
-ms.openlocfilehash: c0c568a75cddb8ea9f8165a196ee8cef1e03eaab
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858232"
 ---
+
 # <a name="peer-to-peer-activity-diagnostic-report-in-skype-for-business-server"></a>Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Diagnosebericht über Peer-to-Peer-Aktivitäten in Skype for Business Server.
   
 Der Diagnosebericht über Peer-zu-Peer-Aktivitäten enthält Informationen dazu, ob die Peer-zu-Peer-Sitzungen erfolgreich waren oder ob Fehler aufgetreten sind. Beachten Sie, dass Skype for Business Server zwischen verschiedenen Arten von Fehlern unterscheidet:
   
-- **Fehler erwartet.** Ein erwarteter Fehler ist in der Regel nur im technischsten Sinne ein Fehler. Angenommen, Sie rufen jemanden an, aber er ist nicht im Büro und kann das Telefon nicht beantworten. Da der Anruf nicht beantwortet wurde, wird der Anruf technisch als Fehler betrachtet. Andererseits war dies ein erwarteter Fehler: Skype for Business Server erwartet nicht, dass Sie das Telefon beantworten, wenn Sie das Telefon nicht beantworten können. Ebenso tritt ein erwarteter Fehler auf, wenn Sie versuchen, eine Chatnachricht an einen Benutzer zu senden, der offline ist oder nur an einem Telefon angemeldet ist, das Chatnachrichten nicht unterstützt.
+- **Fehler erwartet**. Ein erwarteter Fehler ist in der Regel nur im technischsten Sinne ein Fehler. Angenommen, Sie rufen jemanden an, aber er ist nicht im Büro und kann das Telefon nicht beantworten. Da der Anruf nicht beantwortet wurde, wird der Anruf technisch als Fehler betrachtet. Andererseits war dies ein erwarteter Fehler: Skype for Business Server erwartet nicht, dass Sie das Telefon beantworten, wenn Sie das Telefon nicht beantworten können. Ebenso tritt ein erwarteter Fehler auf, wenn Sie versuchen, eine Chatnachricht an einen Benutzer zu senden, der offline ist oder nur an einem Telefon angemeldet ist, das Chatnachrichten nicht unterstützt.
     
 - **Unerwarteter Fehler**: Ein unerwarteter Fehler ist genau das, was der Name aussagt: Ein Fehler, der gemessen an den Umständen nicht zu erwarten ist. Angenommen, Sie rufen eine Person an, und die Person kann den Anruf annehmen. Angenommen, Sie rufen jemanden an, und diese Person steht zur Annahme des Anrufs zur Verfügung. Wenn Skype for Business Server jedoch versucht, Ihren Anruf an Voicemail weiterzuleiten, schlägt der Anruf fehl, da die Verbindung zu Exchange Unified Messaging verloren gegangen ist. Dies ist ein unerwarteter Fehler: Sie würden erwarten, dass Anrufe immer an Voicemail weitergeleitet werden können. Allgemein gilt die Regel, dass unerwartete Fehler richtige Fehler sind: Es handelt sich dabei um Probleme, die durch Schulung der Benutzer oder ähnliche Maßnahmen nicht behoben werden können.
     
@@ -35,7 +30,7 @@ Beachten Sie, dass die Metriken für "Erfolg", "Erwarteter Fehler" und "Unerwart
 |:-----|:-----|:-----|:-----|
 |2024  <br/> |469  <br/> |16  <br/> |2521  <br/> |
    
-Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, die Spalte "Sitzungen insgesamt" zeigt jedoch insgesamt 2.521 Sitzungen an. Die "fehlenden" 12 Sitzungen sind Sitzungen, die das System nicht als erfolgreich oder nicht erfolgreich kategorisieren konnte. Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der Skype for Business Server nicht bekannt ist. Wenn dies geschieht, können Aufrufe, die mit diesem Produkt getätigt werden und diesen Diagnosecode melden, nicht immer als "Erfolgreich", "Erwarteter Fehler" oder "Unerwarteter Fehler" kategorisiert werden.
+Wenn Sie 2024 + 469 + 16 hinzufügen, erhalten Sie insgesamt 2.509 Sitzungen, die Spalte "Sitzungen insgesamt" zeigt jedoch insgesamt 2.521 Sitzungen an. Die "fehlenden" 12 Sitzungen sind Sitzungen, die das System nicht als erfolgreich oder nicht erfolgreich kategorisieren konnte. Dies ist manchmal der Fall, wenn ein Drittanbieterprodukt einen neuen Diagnosecode einführt, der Skype for Business Server nicht vertraut ist. Wenn dies geschieht, können Aufrufe, die mit diesem Produkt getätigt werden und diesen Diagnosecode melden, nicht immer als "Erfolgreich", "Erwarteter Fehler" oder "Unerwarteter Fehler" kategorisiert werden.
   
 ## <a name="accessing-the-peer-to-peer-activity-diagnostic-report"></a>Zugreifen auf den Diagnosebericht über Peer-zu-Peer-Aktivitäten
 

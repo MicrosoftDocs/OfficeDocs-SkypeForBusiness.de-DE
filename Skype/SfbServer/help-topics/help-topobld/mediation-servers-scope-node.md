@@ -1,27 +1,22 @@
 ---
 title: Vermittlungsserver – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MediationServersScopeNode
+  - ms.lync.tb.MediationServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e6da97ad-1546-4af8-b8e8-5a0053a1abea
 description: 'Unterhalb des Knotens Vermittlungspools werden die Vermittlungspools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 2385da68e33c0f0adebbcc8b352e7d2496fb12c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839977"
 ---
+
 # <a name="mediation-servers-scope-node"></a>Vermittlungsserver – Bereichsknoten
  
 Unterhalb des Knotens **Vermittlungspools** werden die Vermittlungspools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:

@@ -1,24 +1,19 @@
 ---
 title: Bereitstellen Skype Raumsystemkonten in Microsoft 365 und Office 365
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.
-ms.openlocfilehash: 77416d34c3b478f0013cf41c63dcebd52e52f3ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60853769"
+description: 'Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.'
 ---
+
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Bereitstellen Skype Raumsystemkonten in Microsoft 365 und Office 365
  
 Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.
@@ -29,7 +24,7 @@ Der folgende Abschnitt behandelt Skype Bereitstellung von Raumsystemkonten.
 
 Ihr Onlinemandant muss die folgenden Anforderungen erfüllen:
   
-- Der Microsoft 365- oder Office 365-Plan muss Skype for Business Onlineplan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in der [Skype for Business Onlinedienstbeschreibung.](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description)
+- Der Microsoft 365- oder Office 365-Plan muss Skype for Business Onlineplan 2 oder Office 365 E1, E3 oder E5 enthalten. <br/>Ausführliche Informationen zu Skype for Business Onlineplänen finden Sie in der [Skype for Business Onlinedienstbeschreibung](/office365/servicedescriptions/skype-for-business-online-service-description/skype-for-business-online-service-description).
     
 - Für Ihren Mandanten muss die Konferenzfunktion Skype for Business aktiviert sein.
     
@@ -45,9 +40,9 @@ Ihr Onlinemandant muss die folgenden Anforderungen erfüllen:
     
 Für das Skype Room-Konto ist die folgende Lizenzierung erforderlich:
   
-- Zum Aktivieren Skype Besprechungen ist eine Lizenz für Skype for Business Onlineplan 2 oder Office 365 E1 oder E3 erforderlich.
+- Zum Aktivieren Skype Besprechungen ist eine Skype for Business Onlineplan 2- oder Office 365 E1- oder E3-Lizenz erforderlich.
     
-- Um den Raum mit der Enterprise-VoIP Funktion zu befähigen, damit der Raum mit einer Telefonnummer aktiviert werden kann, ist ein Skype for Business Onlineplan 2 mit der Telefonsystem-Lizenz oder Office 365 E5 erforderlich (1).
+- Um den Raum mit der Enterprise-VoIP Funktion zu berechtigen, damit der Raum mit einer Telefonnummer aktiviert werden kann, ist ein Skype for Business Onlineplan 2 mit der Telefonsystem-Lizenz oder Office 365 E5 erforderlich (1).
     
 - Wenn Sie Einwahlfunktionen aus einer Besprechung benötigen, benötigen Sie eine Audiokonferenz und Telefonsystem Lizenz.  Wenn Sie Ausgehende Funktionen aus einer Besprechung benötigen, benötigen Sie einen Anrufplan für Inland oder Inland und Ausland. 
     
@@ -57,7 +52,7 @@ Für das Skype Room-Konto ist die folgende Lizenzierung erforderlich:
 
 Das folgende Diagramm enthält eine Übersicht über den Bereitstellungsfluss Skype Raumsystemkontos.
   
-![Skype Schritte zur Raumsystembereitstellung.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
+![Skype Schritte zur Bereitstellung des Raumsystems.](../../media/354c5659-317b-4e85-a1bc-c60c07f305a4.png)
   
 ## <a name="identify-a-new-conference-room"></a>Identifizieren eines neuen Konferenzraums
 
@@ -67,9 +62,9 @@ Möglicherweise verfügen Sie bereits über ein Ressourcenraumpostfach in Exchan
     
 - Neues Ressourcenpostfachkonto: confrm2@contoso.onmicrosoft.com
     
-## <a name="exchange-online-provisioning"></a>Exchange Online Bereitstellung
+## <a name="exchange-online-provisioning"></a>Exchange Online-Bereitstellung
 
-Stellen Sie zunächst eine Verbindung mit Exchange Online PowerShell her, indem Sie die Anweisungen im Thema [Verbinden Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell)befolgen.
+Stellen Sie zunächst eine Verbindung mit Exchange Online PowerShell her, indem Sie die Anweisungen im Thema [Verbinden Exchange Online PowerShell](/powershell/exchange/connect-to-exchange-online-powershell) befolgen.
   
 Führen Sie die folgenden Befehle in Exchange Online PowerShell aus, um ein vorhandenes Ressourcenraumpostfachkonto für Skype Raumsystem festzulegen:
   
@@ -93,15 +88,15 @@ Nach dem Erstellen des Postfachs können Sie das Cmdlet Set-CalendarProcessing i
 
 ## <a name="assigning-a-skype-for-business-online-license"></a>Zuweisen einer Skype for Business Onlinelizenz
 
-Jetzt können Sie eine Lizenz für Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) zuweisen, indem Sie das Microsoft 365 Verwaltungsportal verwenden, wie unter Zuweisen oder Entfernen von [Lizenzen für Microsoft 365 business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in Skype for Business [Add-On-Lizenzierung](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7)beschrieben. 
+Jetzt können Sie eine lizenz Skype for Business Online (Plan 2) oder Skype for Business Online (Plan 3) zuweisen, indem Sie das Microsoft 365 Verwaltungsportal verwenden, wie unter [Zuweisen oder Entfernen von Lizenzen für Microsoft 365 business](https://support.office.com/article/Assign-or-remove-licenses-for-Office-365-for-business-997596b5-4173-4627-b915-36abac6786dc?ui=en-US&amp;rs=en-US&amp;ad=US) oder in [ Skype for Business Add-On-Lizenzierung](https://support.office.com/article/Skype-for-Business-add-on-licensing-3ed752b1-5983-43f9-bcfd-760619ab40a7). 
   
-Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können Sie sich anmelden und überprüfen, ob das Konto mit einem beliebigen Skype for Business-Client aktiv ist.
+Nachdem Sie eine Lizenz für Skype for Business Online zugewiesen haben, können Sie sich anmelden und überprüfen, ob das Konto mit einem beliebigen Skype for Business Client aktiv ist.
   
 ## <a name="skype-for-business-online-provisioning"></a>Skype for Business Onlinebereitstellung
 
-Nachdem ein Ressourcenraumpostfachkonto erstellt und wie zuvor gezeigt aktiviert wurde und Sie das Konto für Skype For Business Online lizenziert haben, wird das Konto mithilfe der Windows Azure Active Directory Gesamtstruktur von der Exchange Online Gesamtstruktur mit Skype for Business Onlinegesamtstruktur synchronisiert. Die folgenden Schritte sind erforderlich, um das Skype Raumsystemkonto im Skype for Business Onlinepool bereitzustellen. Diese Schritte sind für ein vorhandenes Ressourcenpostfachkonto oder ein neu erstelltes Konto (confrm1 oder confrm2) identisch, da nach der Aktivierung in Exchange Online beide Konten auf die gleiche Weise mit Skype for Business Online synchronisiert werden:
+Nachdem ein Ressourcenraumpostfachkonto erstellt und wie zuvor gezeigt aktiviert wurde und Sie das Konto für Skype For Business Online lizenziert haben, wird das Konto von der Exchange Online Gesamtstruktur mit Skype for Business Onlinegesamtstruktur mithilfe der Windows Azure Active Directory Gesamtstruktur. Die folgenden Schritte sind erforderlich, um das Skype Raumsystemkonto im Skype for Business Onlinepool bereitzustellen. Diese Schritte sind für ein vorhandenes Ressourcenpostfachkonto oder ein neu erstelltes Konto (confrm1 oder confrm2) identisch, da nach der Aktivierung in Exchange Online beide Konten auf die gleiche Weise mit Skype for Business Online synchronisiert werden:
   
-1. Erstellen Sie eine Remote-PowerShell-Sitzung. Beachten Sie, dass Sie [Teams PowerShell-Modul](/microsoftteams/teams-powershell-install)herunterladen müssen.
+1. Erstellen Sie eine Remote-PowerShell-Sitzung. Beachten Sie, dass Sie [Teams PowerShell-Modul](/microsoftteams/teams-powershell-install) herunterladen müssen.
     
   ```powershell
   # When using Teams PowerShell Module
@@ -117,7 +112,7 @@ Nachdem ein Ressourcenraumpostfachkonto erstellt und wie zuvor gezeigt aktiviert
    Enable-CsMeetingRoom -Identity $rm -RegistrarPool "sippoolbl20a04.infra.lync.com" -SipAddressType EmailAddress
    ```
 
-    Mit dem folgenden Befehl können Sie die RegistrarPool-Adresse abrufen, unter der Ihre Skype for Business Benutzer von einem Ihrer vorhandenen Konten verwaltet werden, um diese Eigenschaft zu zurückgeben:
+    Mithilfe des folgenden Befehls können Sie die RegistrarPool-Adresse abrufen, unter der Ihre Skype for Business Benutzer von einem Ihrer vorhandenen Konten verwaltet werden, um diese Eigenschaft zu zurückgeben:
     
    ```powershell
    Get-CsOnlineUser -Identity 'alice@contoso.onmicrosoft.com'| fl *registrarpool*

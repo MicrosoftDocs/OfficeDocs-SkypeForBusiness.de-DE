@@ -1,48 +1,43 @@
 ---
 title: Planen mehrerer Notrufnummern in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5ed45a22-ddf0-419f-84da-895a73df855f
-description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
-ms.openlocfilehash: fbff70b3772b9d941d615f3d1aaf2ad668177e30
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861132"
+description: 'In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.'
 ---
+
 # <a name="plan-for-multiple-emergency-numbers-in-skype-for-business-server"></a>Planen mehrerer Notrufnummern in Skype for Business Server
  
 In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server planen.
   
 Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Während die Vereinigten Staaten über eine einzige Notrufnummer( 911) verfügen, unterstützen viele Länder mehrere Notrufnummern. Das Vereinigte Königreich unterstützt beispielsweise sowohl 999, die für das Vereinigte Königreich spezifische Notrufnummer als auch 112, die Notrufnummer für die Europäische Union. 
   
-Dieses Feature ist auch für Gesundheitsdienstleister in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern mit Code wünschen.
+Dieses Feature ist auch für Gesundheitsdienstleister in den VEREINIGTEn Staaten nützlich, die Roamingunterstützung für mehrere blaue Notrufnummern (Code) erhalten möchten.
   
 ## <a name="multiple-emergency-numbers-and-location-policies"></a>Mehrere Notrufnummern und Standortrichtlinien
 
 Sie konfigurieren Notrufe, indem Sie Standortrichtlinien erstellen, die definieren, wie Notrufe implementiert werden. Sie verwenden die Standortrichtlinie, um zu definieren, welche Nummer einen Notruf darstellt, z. B. 911 in den VEREINIGTEn Staaten; 999 und 112 im Vereinigten Königreich. Die Standortrichtlinie bestimmt, ob ein Benutzer für Notrufe aktiviert ist und wenn ja, was das Verhalten eines Notrufs ist. Sie können auch festlegen, ob die Unternehmenssicherheit automatisch benachrichtigt und wie der Anruf weitergeleitet werden soll.
   
-Weitere Informationen zum Definieren und Ändern einer Standortrichtlinie finden Sie unter Planen von [Standortrichtlinien für Skype for Business Server](location-policies.md) und [Erstellen von Standortrichtlinien in Skype for Business Server.](../../deploy/deploy-enterprise-voice/create-location-policies.md) In diesen Themen werden Konzepte zu Standortrichtlinien beschrieben. Sie müssen jedoch die Anweisungen unter [Konfigurieren mehrerer Notrufnummern in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) befolgen, um mehrere Notrufnummern zu konfigurieren.
+Weitere Informationen zum Definieren und Ändern einer Standortrichtlinie finden Sie unter [Planen von Standortrichtlinien für Skype for Business Server](location-policies.md) und [Erstellen von Standortrichtlinien in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md). In diesen Themen werden Konzepte zu Standortrichtlinien beschrieben. Sie müssen jedoch die Anweisungen unter [Konfigurieren mehrerer Notrufnummern in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) befolgen, um mehrere Notrufnummern zu konfigurieren.
   
 Beachten Sie bei der Planung mehrerer Notrufnummern Folgendes:
   
 - Mit dem kumulativen Update vom Juni 2016 können Sie bis zu 5 Notrufnummern für eine bestimmte Standortrichtlinie definieren. Mit dem kumulativen Update vom November 2016 erhöht sich diese Zahl auf 100.
     
     > [!NOTE]
-    > Wenn Sie noch kein Upgrade auf das kumulative Update vom November 2016 durchgeführt haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
+    > Wenn Sie noch nicht auf das kumulative Update vom November 2016 aktualisiert haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). 
   
 - Für jede Notrufnummer können Sie null oder mehr Notfallwählmasken angeben, die für eine bestimmte Standortrichtlinie eindeutig sind.
     
@@ -52,24 +47,24 @@ Beachten Sie bei der Planung mehrerer Notrufnummern Folgendes:
     
 - Wenn für eine Standortrichtlinie die Parameter "EmergencyNumbers" und "DialString" definiert sind und der Client mehrere Notrufnummern unterstützt, hat die Notrufnummer Vorrang. Wenn der Client mehrere Notrufnummern nicht unterstützt, wird die Notrufwählzeichenfolge verwendet.
     
-- Informationen dazu, welche Skype for Business und Lync-Clients den Empfang mehrerer Notrufnummern, Wählmasken und PSTN-Verwendungen unterstützen, finden Sie unter [Clientunterstützung.](multiple-emergency-numbers.md#BKMK_Clients)
+- Informationen dazu, welche Skype for Business und Lync-Clients den Empfang mehrerer Notrufnummern, Wählmasken und PSTN-Verwendungen unterstützen, finden Sie unter [Clientunterstützung](multiple-emergency-numbers.md#BKMK_Clients).
     
 > [!NOTE]
 > Mithilfe der Skype for Business Systemsteuerung können Sie nicht mehrere Notrufnummern konfigurieren. Sie müssen PowerShell verwenden, um mehrere Notrufnummern zu konfigurieren. 
   
 Beachten Sie vor dem Konfigurieren mehrerer Notrufnummern Folgendes:
   
-- Um mehrere Notrufnummern zu konfigurieren, müssen Sie das Cmdlet New-CsEmergencyNumber verwenden und Standortrichtlinien definieren, die mehrere Notrufnummern unterstützen, indem Sie den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy"](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und ["Set-CsLocationPolicy"](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) angeben.
+- Um mehrere Notrufnummern zu konfigurieren, müssen Sie das Cmdlet New-CsEmergencyNumber verwenden und Standortrichtlinien definieren, die mehrere Notrufnummern unterstützen, indem Sie den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) " und " [Set-CsLocationPolicy](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) " angeben.
     
 - Wenn Sie vorhandene Nummern mithilfe des Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben, haben die mit dem Parameter EmergencyNumbers angegebenen Werte Vorrang vor den alten Werten. Das heißt, die Werte für die Parameter EmergencyDialString und EmergencyDialMask werden ignoriert.
     
-- Wenn Sie vorhandene Nummern mithilfe des Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben  *und keine neuen Notrufnummern konfigurieren,*  werden die vorhandenen Nummern weiterhin verwendet.
+- Wenn Sie vorhandene Nummern mithilfe des Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask definiert haben  *und keine neuen Notrufnummern konfigurieren*  , werden die vorhandenen Nummern weiterhin verwendet.
     
 - Damit das Feature für mehrere Notrufnummern funktioniert, müssen die ausgeführten Clientversionen in der Lage sein, das neue Feature zu unterstützen. Ältere Clients verwenden weiterhin die alten Werte, die in den Cmdlets Set-CsLocationPolicy oder New-CsLocationPolicy mit den Parametern EmergencyDialString und EmergencyDialMask angegeben sind. 
     
 - Wenn die Benutzer eine Nummer wählen, die der Wählzeichenfolge entspricht, ist keine Wählmaske erforderlich. Wenn beispielsweise die Nummer, die ein Benutzer wählt, 911 ist, lautet die Wählzeichenfolge 911, und es ist keine Maske erforderlich. 
     
-Weitere Informationen zum Konfigurieren mehrerer Notrufnummern finden Sie unter [Konfigurieren mehrerer Notrufnummern in Skype for Business.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md)
+Weitere Informationen zum Konfigurieren mehrerer Notrufnummern finden Sie unter [Konfigurieren mehrerer Notrufnummern in Skype for Business](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md).
   
 Die folgende Tabelle zeigt Beispielspeicherortrichtlinien (im Beispiel werden nicht alle Attribute angezeigt):
   
@@ -101,9 +96,9 @@ Die folgende Tabelle zeigt die Clientunterstützung für mehrere Notrufnummern. 
 ||DC (Deferred Channel) veröffentlicht am 11. Oktober 2016 – Version 1605 (Build 6965.2092)  <br/> |
 |**MSI** <br/> |Update vom 7. Juni – [https://support.microsoft.com/kb/3115087](https://support.microsoft.com/kb/3115087) <br/> |
 |**Mac und iOS** <br/> |**Version** <br/> |
-||Skype for Business Mac-Clientversion 16.9  <br/> Skype for Business iOS-Client version 6.16  <br/> |
+||Skype for Business Mac-Clientversion 16.9  <br/> Skype for Business iOS-Client, Version 6.16  <br/> |
 |**Android** <br/> |**Version** <br/> |
-||Skype for Business Android-Clientversion 6.17  <br/> |
+||Skype for Business Android-Client, Version 6.17  <br/> |
 |**Lync Phone Edition** <br/> |**Version** <br/> |
 || Aastra 6721ip- und Aastra 6725ip-Telefone – kumulatives Update vom September 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194831](https://support.microsoft.com/kb/3194831) <br/> |
 || HP 4110- und HP 4120-Telefone – kumulatives Update vom September 2016 (Build 7577.4512) -[https://support.microsoft.com/kb/3194832](https://support.microsoft.com/kb/3194832) <br/> |

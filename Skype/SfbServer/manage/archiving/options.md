@@ -1,24 +1,19 @@
 ---
 title: Verwalten von Archivierungsoptionen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50399f26-58a3-4ce2-8229-32a8cafc7733
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Archivierungsoptionen für Skype for Business Server konfigurieren.'
-ms.openlocfilehash: d382cd829a9db8472df286580f6bd5d4b3baf036
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856772"
 ---
+
 # <a name="manage-archiving-options-in-skype-for-business-server"></a>Verwalten von Archivierungsoptionen in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie Archivierungsoptionen für Skype for Business Server konfigurieren.
@@ -45,7 +40,7 @@ Sie können Konfigurationsoptionen auf den folgenden Ebenen angeben:
     
 - Optionale Konfigurationen auf Poolebene, die angeben, wie die Archivierung für einen bestimmten Pool implementiert wird
     
-Sie können eine Standort- oder Poolkonfiguration löschen, die globale Konfiguration jedoch nicht. Wenn Sie die globale Konfiguration löschen, werden automatisch die Standardwerte wieder hergestellt. Ausführliche Informationen zur Implementierung von Archivierungskonfigurationen und zur Hierarchie der Archivierungskonfigurationen finden Sie unter [Plan for archiving in Skype for Business Server.](../../plan-your-deployment/archiving/archiving.md)
+Sie können eine Standort- oder Poolkonfiguration löschen, die globale Konfiguration jedoch nicht. Wenn Sie die globale Konfiguration löschen, werden automatisch die Standardwerte wieder hergestellt. Ausführliche Informationen zur Implementierung von Archivierungskonfigurationen und zur Hierarchie der Archivierungskonfigurationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md).
   
 ## <a name="configure-archiving-options-by-using-the-control-panel"></a>Konfigurieren von Archivierungsoptionen mithilfe der Systemsteuerung
 
@@ -55,11 +50,11 @@ Sie können Archivierungsoptionen mithilfe der Systemsteuerung wie folgt konfigu
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Archivierungskonfiguration".**
+3. Klicken Sie in der linken Navigationsleiste auf **"Archivierungskonfiguration**".
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Konfigurieren von Archivierungsoptionen mithilfe von Windows PowerShell
 
-Sie können Archivierungsoptionen auch mithilfe der in der folgenden Tabelle aufgeführten cmdlets Windows PowerShell konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md)
+Sie können Archivierungsoptionen auch mithilfe der in der folgenden Tabelle aufgeführten cmdlets Windows PowerShell konfigurieren. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell](../management-shell.md).
   
 
 |**Cmdlet**|**Beschreibung**|

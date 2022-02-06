@@ -1,33 +1,28 @@
 ---
-title: Bericht über Benutzerregistrierung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Benutzerregistrierungsbericht in Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 151d5cc9-cc1b-4cfa-be9c-55ebe321f7a4
 description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzerregistrierungsbericht in Skype for Business Server.'
-ms.openlocfilehash: 52927330e00ae1400aceb7db0e935ce1cb5ecff0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834193"
 ---
-# <a name="user-registration-report-in-skype-for-business-server"></a>Bericht über Benutzerregistrierung in Skype for Business Server
+
+# <a name="user-registration-report-in-skype-for-business-server"></a>Benutzerregistrierungsbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Benutzerregistrierungsbericht in Skype for Business Server.
   
-Der Benutzerregistrierungsbericht enthält eine Übersicht über die Benutzeranmeldungsaktivitäten, insbesondere Informationen zur Anzahl der Benutzer, die sich während eines bestimmten Zeitraums bei Skype for Business Server angemeldet haben (stündlich, täglich, wöchentlich, monatlich). Beachten Sie, dass der Bericht nur die Anzahl der angemeldeten Personen enthält. Er enthält keine Informationen dazu, welche Personen sich angemeldet haben. Überwachungsberichte liefern keine Informationen darüber, welche bestimmten Benutzer Skype for Business Server verwenden (und welche nicht). Der Bericht über Benutzeraktivität bietet jedoch eine grobe Schätzung in Bezug auf Benutzerinformationen.
+Der Benutzerregistrierungsbericht enthält eine Übersicht über die Benutzeranmeldungsaktivitäten, insbesondere Informationen zur Anzahl der Benutzer, die sich während eines bestimmten Zeitraums bei Skype for Business Server angemeldet haben (stündlich, täglich, wöchentlich, monatlich). Beachten Sie, dass der Bericht nur die Anzahl der angemeldeten Personen enthält. Er enthält keine Informationen dazu, welche Personen sich angemeldet haben. Überwachungsberichte enthalten keine Informationen darüber, welche bestimmten Benutzer Skype for Business Server verwenden (und welche nicht). Der Bericht über Benutzeraktivität bietet jedoch eine grobe Schätzung in Bezug auf Benutzerinformationen.
   
 Bei der Bereitstellung von Informationen zu Benutzeranmeldungen werden vom Bericht über Benutzerregistrierung zwei erhebliche Unterschiede hervorgehoben. Zunächst werden die Anmeldungen in zwei Hauptkategorien unterteilt: interne Anmeldungen und externe Anmeldungen. Bei internen Anmeldungen handelt es sich um Benutzer, die sich innerhalb der Fierwall Ihrer Organisation anmelden (d. h. während Sie mit dem Unternehmensnetzwerk verbunden sind). Externe Anmeldungen stellen Benutzer dar, die sich von außerhalb der Firewall über einen Edgeserver angemeldet haben (z. B. zählt ein Benutzer, der sich über ein Internetcafé angemeldet hat, als externe Anmeldung). Wenn Sie wissen möchten, wie viele Ihrer Benutzer sich außerhalb der Firewall anmelden, finden Sie diese Information im Bericht über Benutzerregistrierung.
   
-Der Bericht über Benutzerregistrierung enthält zudem Informationen darüber, wie viele aktive Benutzer in einem bestimmten Zeitraum anwesend waren. Ein aktiver Benutzer ist ein Benutzer, der an einer Chatsitzung teilnimmt, an einer Skype for Business Server Besprechung teilnimmt, einen Telefonanruf getätigt oder empfangen hat oder Skype for Business Server in diesem Zeitraum anderweitig verwendet hat. Dadurch unterscheiden sich aktive Benutzer von Benutzern, die sich zwar angemeldet, das System aber nicht tatsächlich genutzt haben.
+Der Bericht über Benutzerregistrierung enthält zudem Informationen darüber, wie viele aktive Benutzer in einem bestimmten Zeitraum anwesend waren. Ein aktiver Benutzer ist ein Benutzer, der an einer Chatsitzung teilgenommen, an einer Skype for Business Server Besprechung teilgenommen, einen Telefonanruf getätigt oder empfangen hat oder während dieses Zeitraums anderweitig Skype for Business Server verwendet hat. Dadurch unterscheiden sich aktive Benutzer von Benutzern, die sich zwar angemeldet, das System aber nicht tatsächlich genutzt haben.
   
 ## <a name="accessing-the-user-registration-report"></a>Zugreifen auf den Bericht über Benutzerregistrierung
 
@@ -35,9 +30,9 @@ Sie können nur über die Homepage für Überwachungsberichte auf den Bericht ü
   
 ## <a name="making-the-best-use-of-the-user-registration-report"></a>Optimale Nutzung des Berichts über Benutzerregistrierung
 
-Nachdem Sie Skype for Business Server eine häufig gestellte Frage bereitgestellt haben, lautet die folgende: Wie kann ich feststellen, ob meine Benutzer diese neue Technologie tatsächlich verwenden? Der Bericht über Benutzerregistrierung weist in dieser Hinsicht zwar einige Einschränkungen auf, kann Ihnen aber dennoch bei der Beantwortung dieser Frage helfen. Um festzustellen, ob Benutzer Skype for Business Server verwenden, müssen Sie zwei Dinge tun. Rufen Sie zunächst den Wert der Metrik "Eindeutige angemeldete Benutzer" im Bericht über Benutzerregistrierung ab. Dieser Wert gibt an, wie viele verschiedene Personen bei Skype for Business Server angemeldet sind.
+Nachdem Sie Skype for Business Server ist eine häufig gestellte Frage folgende: Wie kann ich feststellen, ob meine Benutzer diese neue Technologie tatsächlich verwenden? Der Bericht über Benutzerregistrierung weist in dieser Hinsicht zwar einige Einschränkungen auf, kann Ihnen aber dennoch bei der Beantwortung dieser Frage helfen. Um festzustellen, ob Benutzer Skype for Business Server verwenden, müssen Sie zwei Dinge tun. Rufen Sie zunächst den Wert der Metrik "Eindeutige angemeldete Benutzer" im Bericht über Benutzerregistrierung ab. Dieser Wert gibt an, wie viele unterschiedliche Personen sich bei Skype for Business Server angemeldet haben.
   
-Im Vergleich dazu zeigt die Metrik Gesamtanzahl der Anmeldungen an, wie oft sich alle Benutzer bei Skype for Business Server angemeldet haben. Angenommen, Ken Myer hat sich bei Skype for Business Server fünf verschiedenen Mal an einem einzigen Tag angemeldet. In diesem Fall zählt Ken Myer als fünf separate Anmeldesitzungen für die Metrik "Anmeldungen insgesamt", aber nur als ein angemeldeter Benutzer für die Metrik "Eindeutige angemeldete Benutzer". Häufig melden sich Benutzer auch auf verschiedenen Geräten oder an verschiedenen Standorten an. Beispielsweise kann sich ein Benutzer mit seinem Desktopcomputer, seinem Laptopcomputer anmelden und über ein IP-Telefon verfügen, das sich automatisch bei Skype for Business Server anmeldet. In diesem Beispiel ist ein eindeutiger Benutzer mit drei Anmeldungen vorhanden.
+Im Vergleich dazu zeigt die Metrik Gesamtanzahl der Anmeldungen an, wie oft sich alle Benutzer bei Skype for Business Server angemeldet haben. Angenommen, Ken Myer hat sich an einem einzigen Tag fünf mal bei Skype for Business Server angemeldet. In diesem Fall zählt Ken Myer als fünf separate Anmeldesitzungen für die Metrik "Anmeldungen insgesamt", aber nur als ein angemeldeter Benutzer für die Metrik "Eindeutige angemeldete Benutzer". Häufig melden sich Benutzer auch auf verschiedenen Geräten oder an verschiedenen Standorten an. Beispielsweise kann sich ein Benutzer mit seinem Desktopcomputer, seinem Laptopcomputer anmelden und über ein IP-Telefon verfügen, das sich automatisch bei Skype for Business Server anmeldet. In diesem Beispiel ist ein eindeutiger Benutzer mit drei Anmeldungen vorhanden.
   
 Sehen Sie sich in der folgenden Tabelle mit Anmeldungen in einem bestimmten Zeitraum an, in der der Unterschied zwischen Anmeldungen insgesamt und eindeutigen Anmeldungen näher erklärt ist.
   
@@ -64,7 +59,7 @@ Wenn der vorherige Befehl den Wert 1.236 zurückgibt und die Metrik "Eindeutige 
   
 Vergleichen Sie auch den Wert "Eindeutige angemeldete Benutzer" mit dem Wert der Metrik "Eindeutige aktive Benutzer". Die Metrik "Eindeutige aktive Benutzer" gibt an, wie viele eindeutige Benutzer Skype for Business Server tatsächlich verwendet haben: sie haben einen Telefonanruf getätigt, an einer Skype for Business Server Besprechung teilgenommen oder an einer Chatsitzung teilgenommen. Dies sind nützliche Informationen, da Skype for Business Server so konfiguriert werden kann, dass sie jedes Mal automatisch gestartet wird, wenn ein Benutzer Windows startet. Aus diesem Grund haben Sie möglicherweise eine große Anzahl von Benutzern, die sich automatisch bei Skype for Business anmelden, wenn sie sich jeden Tag bei Windows anmelden, während dieses Zeitraums jedoch niemals tatsächlich Skype for Business Server verwenden.
   
-Die Metrik "Eindeutige aktive Benutzer" bietet auch aussagekräftige daten in einer Organisation, in der sich Benutzer in der Regel nicht am Ende des Tages Windows abmelden. Stattdessen sperren sie einfach ihre Computer und lassen Windows und Skype for Business ausgeführt werden. In einer solchen Situation erfolgen sehr wenige Anmeldungen pro Tag, da sich Benutzer vor einigen Tagen angemeldet und seitdem nicht mehr abgemeldet haben. Eindeutige aktive Benutzer sagen Ihnen jedoch, ob Benutzer aktiv Skype for Business oder einen anderen Skype for Business Server-Client verwenden.
+Die Metrik "Eindeutige aktive Benutzer" bietet auch aussagekräftige daten in einer Organisation, in der sich Benutzer in der Regel nicht am Ende des Tages Windows abmelden. Stattdessen sperren sie einfach ihre Computer und lassen Windows und Skype for Business ausgeführt werden. In einer solchen Situation erfolgen sehr wenige Anmeldungen pro Tag, da sich Benutzer vor einigen Tagen angemeldet und seitdem nicht mehr abgemeldet haben. Eindeutige aktive Benutzer sagen Ihnen jedoch, ob Benutzer aktiv Skype for Business oder einen anderen Skype for Business Server Client verwenden.
   
 ## <a name="filters"></a>Filter
 

@@ -1,33 +1,28 @@
 ---
 title: Verwalten von Standorten für ELIN-Gateways in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ced79c13-4e7e-4034-95cd-6fc913f4f222
-description: Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mithilfe von ELIN-Gateways in Skype for Business Server Enterprise-VoIP erforderlich sind.
-ms.openlocfilehash: d958b9d533245e7071cb8c1f030e91a13a44925f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845168"
+description: 'Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mithilfe von ELIN-Gateways in Skype for Business Server Enterprise-VoIP erforderlich sind.'
 ---
+
 # <a name="manage-locations-for-elin-gateways-in-skype-for-business-server"></a>Verwalten von Standorten für ELIN-Gateways in Skype for Business Server
 
 Entscheidungen, die für die Planung einer Standortinformationsdatenbank oder einer ähnlichen externen Datenbank für eine E9-1-1-Bereitstellung mithilfe von ELIN-Gateways in Skype for Business Server Enterprise-VoIP erforderlich sind.
 
-Damit Skype for Business Server automatisch Speicherorte für Clients in einem Netzwerk bereitstellen, müssen Sie die folgenden Aufgaben ausführen:
+Damit Skype for Business Server automatisch Speicherorte für Clients innerhalb eines Netzwerks bereitstellen, müssen Sie die folgenden Aufgaben ausführen:
 
 - Füllen Sie die Standortinformationsdienst-Datenbank mit einer Netzwerkkarte auf, und schließen Sie die Notrufnummern (Emergency Location Identification Numbers, ELINs) in das Feld "CompanyName" ein.
 
@@ -52,7 +47,7 @@ Das **Standortfeld** des Standortinformationsdiensts, das die spezifische Positi
 
 - Einen leicht verständlichen Namen für den Standort des Notfallanrufers, um sicherzustellen, dass Notrufempfänger den Standort unverzüglich auffinden, wenn sie an der durchgegebenen Adresse eintreffen. Dieser Standortname kann die Hausnummer, das Stockwerk, den Gebäudetrakt, die Zimmernummer usw. beinhalten. Vermeiden Sie Spitznamen, die nur Mitarbeiter kennen und dazu führen könnten, dass sich Notrufempfänger zur falschen Adresse begeben.
 
-- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Client den richtigen Standort ausgewählt hat. Der Skype for Business-Client verkettet automatisch und zeigt die ermittelten **Felder "Standort"** und **"Ort"** in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock") die Straßenadresse des Gebäudes \<street number> hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
+- Ein Standortbezeichner, mit dem Benutzer leicht erkennen können, dass ihr Client den richtigen Standort ausgewählt hat. Der Skype for Business Client verkettet automatisch und zeigt die ermittelten **Felder "Standort**" und "**Ort**" in der Kopfzeile an. Eine bewährte Methode besteht darin, jedem Standortbezeichner (z. B. "1. Stock \<street number>") die Straßenadresse des Gebäudes hinzuzufügen. Ohne die Straßenadresse kann ein generischer Standortbezeichner wie "1. Stock" für jedes Gebäude in der Stadt gelten.
 
 - Wenn der Standort ungefähr ist, da er von einem drahtlosen Zugriffspunkt bestimmt wird, können Sie das Wort **[Near]** hinzufügen (z. B. "Near 1st Floor 1234").
 
@@ -86,7 +81,7 @@ Wo befinden sich die Daten, und welche Schritte müssen Sie ausführen, um die D
 
 Mithilfe der Option "Sekundärer Standortinformationsdienst" zum Herstellen einer Verbindung mit einer Drittanbieterdatenbank können Sie Standorte mithilfe einer Offlineplattform gruppieren und verwalten. Der Vorteil dieses Ansatzes ist, dass Sie Standorte nicht nur Netzwerk-IDs, sondern auch einem Benutzer zuordnen können. Dies bedeutet, dass der Standortinformationsdienst mehrere Adressen, die vom sekundären Standortinformationsdienst stammen, an einen Skype for Business-Client zurückgeben kann. Der Benutzer kann dann den am besten geeigneten Standort wählen.
 
-Zur Integration in den Standortinformationsdienst muss die Drittanbieterdatenbank dem Skype for Business Server Standortanforderungs-/Antwortschema folgen. Ausführliche Informationen finden Sie unter [Webdienst für E911-Supportprotokoll.](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd) Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie unter [Konfigurieren eines sekundären Standortinformationsdiensts in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
+Zur Integration in den Standortinformationsdienst muss die Datenbank des Drittanbieters dem Skype for Business Server Standortanforderungs-/Antwortschema folgen. Ausführliche Informationen finden Sie unter [Webdienst für E911-Supportprotokoll](/openspecs/office_protocols/ms-e911ws/ab5d7449-2c15-434b-bf65-fdf38b8ffabd). Ausführliche Informationen zum Bereitstellen eines sekundären Standortinformationsdiensts finden Sie unter [Konfigurieren eines sekundären Standortinformationsdiensts in Skype for Business Server](../../deploy/deploy-enterprise-voice/secondary-location-information-service.md) in der Bereitstellungsdokumentation.
 
 Ausführliche Informationen zum Auffüllen der Standortdatenbank finden Sie unter [Configure the Location Database](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-location-database) in der Bereitstellungsdokumentation.
 
@@ -98,6 +93,6 @@ Nach dem Auffüllen der Standortdatenbank müssen Sie eine Strategie zum Aktuali
 
 Eine Aktualisierung der Standortdatenbank kann in verschiedenen Situationen notwendig sein, etwa beim Hinzufügen von Funkzugriffspunkten, bei einer Neuverkabelung des Büros (mit neuen Switchzuordnungen) und bei einer Subnetzerweiterung. Aktualisieren Sie jeden Standort sofort, oder führen Sie mithilfe einer CSV-Datei eine Aktualisierung aller Standorte per Massenvorgang durch?
 
- **Verwenden Sie eine SNMP-Anwendung, um Skype for Business Client-MAC-Adressen mit Port- und Switch-IDs zuzuordnen?**
+ **Verwenden Sie eine SNMP-Anwendung, um Skype for Business Client-MAC-Adressen an Port- und Switch-IDs zuzuordnen?**
 
 Wenn Sie eine SNMP-Anwendung verwenden, müssen Sie ein manuelles Verfahren ausarbeiten, um die Konsistenz der Switch- und Portinformationen zwischen der SNMP-Anwendung und der Standortdatenbank sicherzustellen. Wenn die SNMP-Anwendung eine Chassis-IP-Adresse oder Port-ID zurückgibt, die nicht in der Datenbank enthalten ist, kann der Standortinformationsdienst keinen Speicherort an den Client zurückgeben.

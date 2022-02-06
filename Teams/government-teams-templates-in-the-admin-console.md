@@ -1,31 +1,26 @@
 ---
 title: Verwenden von Vorlagen für Government-Teams im Admin Center
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 ms.reviewer: phecda louie
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie teamvorlagen verwenden, um Teamstrukturen für Behördenanforderungen zu erstellen, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.
+description: 'Erfahren Sie, wie Sie teamvorlagen verwenden, um Teamstrukturen für Behördenanforderungen zu erstellen, indem Sie vordefinierte Einstellungen, Kanäle und vorinstallierte Apps über das Admin Center bereitstellen.'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- NewAdminCenter_Update
-- seo-marvel-apr2020
+  - NewAdminCenter_Update
+  - seo-marvel-apr2020
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 819eb3297ae3b486e7c9d93053911c5090cfae29
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840747"
+  - Microsoft Teams
 ---
+
 # <a name="use-government-team-templates-in-the-admin-center"></a>Verwenden von Vorlagen für Government-Teams im Admin Center
 
 Teamvorlagen ermöglichen es Ihnen, Teams schnell und einfach zu erstellen, indem Sie eine vordefinierte Vorlage für Einstellungen, Kanäle und vorinstallierte Apps bereitstellen.
@@ -36,7 +31,7 @@ In diesem Artikel stellen wir die einzelnen Teamvorlagen vor und empfehlen, sie 
 
 Dieser Artikel ist für Sie da, wenn Sie für die Planung, Bereitstellung und Verwaltung mehrerer Teams in der gesamten Regierung zuständig sind. Sie haben den Teams-Dienst bereits in Ihrer Organisation bereitgestellt. Wenn Sie Teams noch nicht eingeführt haben, lesen Sie zunächst die Anleitung zum [Einführen von Microsoft Teams](./deploy-overview.md).
 
-Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen.](get-started-with-teams-templates-in-the-admin-console.md)
+Weitere allgemeine Informationen zu Teamvorlagen finden Sie unter Erste Schritte [mit Teamvorlagen](get-started-with-teams-templates-in-the-admin-console.md).
 
 ## <a name="coordinate-incident-response"></a>Koordinieren der Reaktion auf Vorfälle
 

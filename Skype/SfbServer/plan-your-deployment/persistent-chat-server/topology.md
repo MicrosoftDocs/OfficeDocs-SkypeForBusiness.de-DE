@@ -1,33 +1,28 @@
 ---
 title: Planen der Topologie des Servers für beständigen Chat
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 5/17/2016
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6a0a14a0-baad-44e9-b26e-4d192c0a0e70
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Komponenten und Topologien des Servers für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 1b57d9d9ace6e51001acfa39101eb185a8e00939
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862072"
 ---
+
 # <a name="plan-persistent-chat-server-topology"></a>Planen der Topologie des Servers für beständigen Chat
  
 **Zusammenfassung:** In diesem Thema erfahren Sie mehr über Komponenten und Topologien des Servers für beständigen Chat in Skype for Business Server 2015.
   
-Der Server für beständigen Chat unterstützt Konfigurationen mit einem server und mehreren Servern. Sie können den Server für beständigen Chat auf einem Skype for Business Server 2015-Enterprise Edition oder Standard Edition Server installieren. 
+Der Server für beständigen Chat unterstützt Konfigurationen mit einem server und mehreren Servern. Sie können den Server für beständigen Chat entweder auf einem Skype for Business Server 2015-Enterprise Edition oder Standard Edition Server installieren. 
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade".](/microsoftteams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter ["Erste Schritte mit Ihrem Microsoft Teams Upgrade](/microsoftteams/upgrade-start-here)". Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="persistent-chat-server-components"></a>Komponenten des Servers für beständigen Chat
 
@@ -44,9 +39,9 @@ Der Server für beständigen Chat besteht aus den folgenden Komponenten:
     > [!NOTE]
     > In der Back-End-Datenbank werden Chatverlaufsdaten gespeichert, einschließlich Informationen zu Kategorien und erstellten Chatrooms für beständige Chatrooms. 
   
-- Wenn die Kompatibilität aktiviert ist, führt ein oder mehrere Server (mehrere, wenn spiegelung verwendet wird) die SQL Server Back-End-Datenbank zum Hosten der Konformitätsdatenbank für beständigen Chat aus, auf dem Complianceereignisse und Chatinhalte zum Zweck der Compliance gespeichert werden.
+- Wenn die Kompatibilität aktiviert ist, führt ein oder mehrere Server (mehr als ein Server, wenn spiegelung verwendet wird) die SQL Server Back-End-Datenbank zum Hosten der Compliancedatenbank für beständigen Chat aus, auf dem Complianceereignisse und Chatinhalte zum Zweck der Compliance gespeichert werden.
     
-Ausführliche Informationen zu den Hardware- und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Hardware- und Softwareanforderungen für den Server für beständigen Chat in Skype for Business Server 2015.](hardware-and-software-requirements.md) 
+Ausführliche Informationen zu den Hardware- und Softwareanforderungen für den Server für beständigen Chat finden Sie unter [Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) und [Hardware- und Softwareanforderungen für den Server für beständigen Chat in Skype for Business Server 2015](hardware-and-software-requirements.md). 
   
 ## <a name="persistent-chat-server-topologies"></a>Topologien für den Server für beständigen Chat
 
@@ -60,11 +55,11 @@ Sie können den Server für beständigen Chat in Einem- oder Mehrere-Server-Pool
     
 -  Enterprise Edition Server mit mehr als einem Server für beständigen Chat auf separaten Servern
     
-Obwohl Sie den Server für beständigen Chat auf einem Standard Edition Server bereitstellen können, sollten Sie beachten, dass Leistung und Skalierung beeinträchtigt werden und hohe Verfügbarkeit keine Option ist. Daher wird empfohlen, den beständigen Chat auf einem Standard Edition Server in erster Linie für Machbarkeitsstudien und Evaluierungszwecke bereitzustellen. 
+Obwohl Sie den Server für beständigen Chat auf einem Standard Edition Server bereitstellen können, beachten Sie, dass leistung und Skalierung beeinträchtigt werden und hohe Verfügbarkeit keine Option ist. Daher wird empfohlen, den beständigen Chat auf einem Standard Edition Server in erster Linie für Machbarkeitsstudien und Evaluierungszwecke bereitzustellen. 
   
-Skype for Business Server 2015 unterstützt eine Vielzahl von Kollokationsszenarien und bietet Ihnen die Flexibilität, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie über eine kleine Organisation verfügen) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung erfordert). Sie sollten Skalierbarkeitsfaktoren berücksichtigen, bevor Sie entscheiden, ob Komponenten gemeinsam verwendet werden sollen. Kollokationsszenarien unterscheiden sich für Skype for Business Server 2015-Enterprise Edition- und Standard Edition-Server. 
+Skype for Business Server 2015 unterstützt eine Vielzahl von Kollokationsszenarien und bietet Ihnen die Flexibilität, Hardwarekosten zu sparen, indem Sie mehrere Komponenten auf einem Server ausführen (wenn Sie eine kleine Organisation haben) oder einzelne Komponenten auf verschiedenen Servern ausführen (wenn Sie über eine größere Organisation verfügen, die Skalierbarkeit und Leistung erfordert). Sie sollten Skalierbarkeitsfaktoren berücksichtigen, bevor Sie entscheiden, ob Komponenten gemeinsam verwendet werden sollen. Kollokationsszenarien unterscheiden sich für Skype for Business Server 2015-Enterprise Edition und Standard Edition-Server. 
   
-In den folgenden Abschnitten werden die Topologien ausführlicher beschrieben, einschließlich Kollokationsszenarien und Optionen für die Back-End-Datenbankserver. Ausführliche Informationen zur Kollokation aller Serverrollen und Datenbanken finden Sie unter [Topologiegrundlagen für Skype for Business Server 2015.](../../plan-your-deployment/topology-basics/topology-basics.md)
+In den folgenden Abschnitten werden die Topologien ausführlicher beschrieben, einschließlich Kollokationsszenarien und Optionen für die Back-End-Datenbankserver. Ausführliche Informationen zur Kollokation aller Serverrollen und Datenbanken finden Sie unter [Topologiegrundlagen für Skype for Business Server 2015](../../plan-your-deployment/topology-basics/topology-basics.md).
   
 ### <a name="standard-edition-server-with-persistent-chat-server-collocated-on-the-front-end-server"></a>Standard Edition Server mit Server für beständigen Chat, der auf dem Front-End-Server verbunden ist
 
@@ -75,7 +70,7 @@ Darüber hinaus können Sie den Back-End-Server für den Server für beständige
 > [!IMPORTANT]
 > Sie können einem Serverpool für beständigen Chat keine zusätzlichen Server hinzufügen, wenn der erste Server für beständigen Chat mit einem Standard Edition Front-End-Server verbunden ist. Es wird empfohlen, den ersten Server als eigenständige Instanz zu installieren, damit Sie später bei Bedarf weitere Server hinzufügen können. 
   
-### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Standard Edition Server mit Server für beständigen Chat, der auf einem separaten Server installiert ist
+### <a name="standard-edition-server-with-persistent-chat-server-installed-on-a-separate-server"></a>Standard Edition Server mit Server für beständigen Chat auf einem separaten Server installiert
 
 Mit Standard Edition können Sie den Server für beständigen Chat als eigenständige Instanz installieren und später bei Bedarf weitere Server hinzufügen. 
   

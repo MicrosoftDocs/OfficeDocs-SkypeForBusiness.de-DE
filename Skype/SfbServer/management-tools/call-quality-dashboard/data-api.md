@@ -1,25 +1,20 @@
 ---
-title: Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: 'Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server'
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Zusammenfassung: Erfahren Sie mehr über die Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 619a02d776f5eb55c6349d1f123181190bc0299d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862212"
 ---
+
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -28,7 +23,7 @@ Die Daten-API bietet programmgesteuerten Zugriff für das Anrufqualitäts-Dashbo
   
 ## <a name="data-api-for-call-quality-dashboard"></a>Daten-API für das Anrufqualitäts-Dashboard
 
-Die Daten-API bietet eine Abfrageschnittstelle zum QoE-Cube. Die Daten-API ist eine REST-API für die Arbeit mit mehrdimensionalen Datenbanken, die aggregierte QoE-Metriken basierend auf angegebenen Dimensionen und Filtern bereitstellt.
+Die Daten-API bietet eine Abfrageschnittstelle zum QoE-Cube. Die Daten-API ist eine REST-API zum Arbeiten mit mehrdimensionalen Datenbanken, die aggregierte QoE-Metriken basierend auf angegebenen Dimensionen und Filtern bereitstellt.
   
 Die REST-Vorgänge sind in der folgenden Tabelle enthalten.
   
@@ -44,11 +39,11 @@ Die REST-Vorgänge sind in der folgenden Tabelle enthalten.
    
  **Cross-Origin Resource Sharing (CORS)-Unterstützung für die Daten-API**
   
-Die Daten-API unterstützt cross-origin Resource Sharing (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung, die unter einer Domäne ausgeführt wird, auf Ressourcen in einer anderen Domäne zugreifen kann. Webbrowser implementieren eine Sicherheitseinschränkung, die als [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) Same-Origin Policy same-origin policy bezeichnet wird und verhindert, dass eine Webseite APIs in einer anderen Domäne aufruft. CORS bietet eine sichere Möglichkeit, einer Domäne (der Ursprungsdomäne) das Aufrufen von APIs in einer anderen Domäne zu ermöglichen. Details zu CORS finden Sie in der [CORS-Spezifikation.](https://www.w3.org/TR/cors/)
+Die Daten-API unterstützt cross-origin Resource Sharing (CORS). CORS ist ein HTTP-Feature, mit dem eine Webanwendung, die unter einer Domäne ausgeführt wird, auf Ressourcen in einer anderen Domäne zugreifen kann. Webbrowser implementieren eine Sicherheitseinschränkung, die als [Same-Origin Policy](https://www.w3.org/Security/wiki/Same_Origin_Policy) Same-Origin Policy same-origin policy bezeichnet wird und verhindert, dass eine Webseite APIs in einer anderen Domäne aufruft. CORS bietet eine sichere Möglichkeit, einer Domäne (der Ursprungsdomäne) das Aufrufen von APIs in einer anderen Domäne zu ermöglichen. Details zu CORS finden Sie in der [CORS-Spezifikation](https://www.w3.org/TR/cors/) .
   
  **Aktivieren von CORS für die Daten-API**
   
- Es folgt ein Auszug aus der Daten-API-web.config mit zwei Domänen, die in den CorsTrustedOrigin-Anwendungseinstellungen aufgeführt sind. Alle Anforderungen, die von den von diesen Servern geladenen Skripts gestellt werden, werden von der Daten-API als vertrauenswürdig eingestuft.
+ Es folgt ein Auszug aus der Daten-API-web.config mit zwei Domänen, die in den CorsTrustedOrigin-Anwendungseinstellungen aufgelistet sind. Alle Anforderungen, die von den von diesen Servern geladenen Skripts gestellt werden, werden von der Daten-API als vertrauenswürdig eingestuft.
   
 Denken Sie daran, das genaue Protokoll, den Hostnamen und den Port (falls vorhanden) einzuschließen. Setzen Sie keinen Schrägstrich (/) am Ende. Mehrere Einträge können durch Kommas getrennt angegeben werden.
   

@@ -1,27 +1,22 @@
 ---
 title: Bereitstellungseinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DeploymentSettingsExpander
+  - ms.lync.tb.DeploymentSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 7220ec1f-38cb-4297-870e-591a832cd2f2
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Sie können die Eigenschaften für eine vorhandene Bereitstellung in den folgenden Abschnitten bearbeiten:'
-ms.openlocfilehash: fa5e519a43a2fefaab99a9349ca32239702d42d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864092"
 ---
+
 # <a name="deployment-settings-expander"></a>Bereitstellungseinstellungen – Erweiterung
 
 Sie können die Eigenschaften für eine vorhandene Bereitstellung in den folgenden Abschnitten bearbeiten:
@@ -73,7 +68,7 @@ Der zentrale Verwaltungsserver kann aus einem definierten Front-End-Pool in eine
 > [!IMPORTANT]
 > Nachdem Sie den zentralen Verwaltungsspeicher für die Infrastruktur definiert, veröffentlicht und bereitgestellt haben, kann der Speicherort des zentralen Verwaltungsspeichers nur über einen externen Vorgang in einen anderen Front-End-Pool verschoben werden.
 
-Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer](/powershell/module/skype/move-csmanagementserver?view=skype-ps) in der Cmdlet-Referenz Windows PowerShell.
+Ausführliche Informationen zum Verschieben des zentralen Verwaltungsspeichers finden Sie unter [Move-CsManagementServer in der Cmdlet-Referenz](/powershell/module/skype/move-csmanagementserver?view=skype-ps) Windows PowerShell.
 
 
 Weitere Informationen zum Definieren und Konfigurieren dieser Einstellungen finden Sie unter [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology).

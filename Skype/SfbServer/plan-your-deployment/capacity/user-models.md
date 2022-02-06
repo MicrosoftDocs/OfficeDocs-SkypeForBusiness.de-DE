@@ -1,30 +1,25 @@
 ---
 title: Benutzermodelle in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c551371c-d740-4372-bada-f0d713ec0d33
-description: Die hier beschriebenen Benutzermodelle bieten die Grundlage für die Kapazitätsplanungsmessungen und Empfehlungen, die in der Kapazitätsplanung der Benutzermodellnutzung für Skype for Business Server beschrieben werden.
-ms.openlocfilehash: 22f5d45c5b8c5f75979e061814c03a5b9ffc3e8d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846348"
+description: 'Die hier beschriebenen Benutzermodelle bieten die Grundlage für die Kapazitätsplanungsmessungen und Empfehlungen, die in der Kapazitätsplanung der Benutzermodellnutzung für Skype for Business Server beschrieben werden.'
 ---
+
 # <a name="user-models-in-skype-for-business-server"></a>Benutzermodelle in Skype for Business Server
  
-Die hier beschriebenen Benutzermodelle bieten die Grundlage für die Kapazitätsplanungsmessungen und Empfehlungen, die in der Nutzung des [Benutzermodells für die Kapazitätsplanung für Skype for Business Server](user-model.md)beschrieben werden.
+Die hier beschriebenen Benutzermodelle bieten die Grundlage für die Kapazitätsplanungsmessungen und Empfehlungen, die in der [Kapazitätsplanung der Benutzermodellnutzung für Skype for Business Server](user-model.md) beschrieben werden.
   
-## <a name="skype-for-business-server-user-models"></a>Skype for Business Server Benutzermodelle
+## <a name="skype-for-business-server-user-models"></a>Skype for Business Server-Benutzermodelle
 
 In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, Chat und Anwesenheit für Skype for Business Server beschrieben.
   
@@ -34,7 +29,7 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 |:-----|:-----|
 |Bereitstellungsgröße und Verteilung  <br/> |Es wird eine große Bereitstellung mit drei zentralen Standorten und einem Front-End-Pool pro Standort modelliert.  <br/> |
 |Prozentsatz an Active Directory-Benutzern  <br/> |Es wird davon ausgegangen, dass 70 % aller Active Directory-Benutzer in der Organisation für Skype for Business Server aktiviert sind. 80 % dieser aktivierten Benutzer sind täglich bei Skype for Business Server angemeldet (80 % Parallelität). Die gleichzeitigen Benutzer sind die Grundlage für die weiteren Zahlenangaben in diesem Abschnitt.  <br/> |
-|Active Directory-Änderungen  <br/> |Es wird davon ausgegangen, dass jede Woche 0,5 % der Gesamtbenutzer für Skype for Business in Active Directory erstellt und aktiviert werden und dass 0,5 % der Gesamtzahl der Benutzer aus Active Directory und aus Skype for Business pro Woche deaktiviert sind. Für 5 % der Benutzer wird jede Woche mindestens ein Active Directory-Attribut geändert.  <br/> |
+|Active Directory-Änderungen  <br/> |Es wird davon ausgegangen, dass jede Woche 0,5 % der Gesamtbenutzer für Skype for Business in Active Directory erstellt und aktiviert werden und dass 0,5 % der Gesamtbenutzer aus Active Directory und Skype for Business pro Woche deaktiviert sind. Für 5 % der Benutzer wird jede Woche mindestens ein Active Directory-Attribut geändert.  <br/> |
 |Active Directory-Verteilergruppen  <br/> |Es wird davon ausgegangen, dass die Anzahl der Active Directory-Verteilergruppen in der Organisation dreimal die Anzahl aller Benutzer in Active Directory ist. Die Verteilergruppen haben folgende Größe:  <br/> • 64 % haben 2 bis 30 Benutzer  <br/> • 13 % haben 31-50 Benutzer  <br/> • 10 % haben 51-100 Benutzer  <br/> • 13 % haben 101-500 Benutzer  <br/> |
 |VoIP-Benutzer (Voice over IP)  <br/> |60 % der Skype for Business Server Benutzer sind für Unified Communications (UC) aktiviert (d. h. ihre Telefonnummern gehören Skype for Business Server).  <br/> |
 |Verteilung registrierter Clients  <br/> |65 % der Clients führen Skype for Business Software aus, einschließlich Skype for Business und Lync Telefon Edition.  <br/> 30 % der Clients, auf denen Clientsoftware aus einer früheren Version von Lync ausgeführt wird.  <br/> 5 % der Clients, die Skype for Business-Web-App verwenden.  <br/> Wenn die Mobilität aktiviert ist, wird davon ausgegangen, dass 40 % der Benutzer die Mobilität gleichzeitig mit den anderen zuvor erwähnten registrierten Clientoptionen nutzen. In diesem Fall beträgt das Client-MPOP-Verhältnis (Multiple Point of Presence) 1:1,9. Wenn die Mobilität deaktiviert ist, beträgt das MPOP-Verhältnis 1:1,5.  <br/> |
@@ -46,7 +41,7 @@ In der folgenden Tabelle wird das Benutzermodell für Registrierung, Kontakte, C
 
 |**Kategorie**|**Beschreibung**|
 |:-----|:-----|
-|Peer-zu-Peer-Chatsitzungen  <br/> |Jeder Benutzer verfügt über durchschnittlich sechs Peer-zu-Peer-Chatsitzungen pro Tag.  <br/> 10 Chatnachrichten pro Sitzung.  <br/> Jede Nachricht wird von zwei SIP-INFO-Nachrichten und 2 SIP 200 OK-Nachrichten abgeglichen (für statusindikatoren wie \<Name\> "ist Eingabe")  <br/> |
+|Peer-zu-Peer-Chatsitzungen  <br/> |Jeder Benutzer verfügt über durchschnittlich sechs Peer-zu-Peer-Chatsitzungen pro Tag.  <br/> 10 Chatnachrichten pro Sitzung.  <br/> Jede Nachricht wird von zwei SIP-INFO-Nachrichten und 2 SIP 200 OK-Nachrichten abgeglichen (für statusindikatoren wie "\<Name\> ist Eingabe")  <br/> |
 |Gruppensitzungen für Chatnachrichten  <br/> |Die durchschnittliche Anzahl von Nachrichten, die in einer Nur-Gruppen-Chatsitzung gesendet werden, beträgt 5 pro Benutzer.  <br/> Die durchschnittliche Anzahl von Nachrichten, die im Chatteil einer AV-Konferenz gesendet werden, beträgt 2 pro Benutzer.  <br/> |
 |Abfrage von Anwesenheitsinformationen  <br/> |Insgesamt wird von durchschnittlich 60 Abfragen von Anwesenheitsinformationen pro Benutzer und Stunde ausgegangen. Für jeden Benutzer wird von folgenden Durchschnittswerten ausgegangen:  <br/> • Eine Abfrage pro Tag über die Anwesenheit von Benutzern auf der Registerkarte "Organisation" des Benutzers (jedoch nicht in der Kontaktliste). Die durchschnittliche Anzahl der Nicht-Kontakte auf der Registerkarte "Organisation" des Benutzers beträgt 15 Benutzer. Zwei Anzeigevorgänge für Visitenkarten pro Tag.  <br/> • Eine Anwesenheitsumfrage jedes Mal, wenn der Benutzer auf einen anderen Benutzer klickt, um eine Unterhaltung zu starten, die auf einmal pro Stunde geschätzt wird.  <br/> • Sechs Benutzersuchen pro Stunde. Jedes Mal, wenn eine Suche durchgeführt wird, wird eine Batchabfrage für alle Benutzer in der Suchergebnisliste gesendet. Wir gehen davon aus, dass die durchschnittliche Größe der Suchergebnisse 20 beträgt. Wenn die Suchergebnisse auf dem Bildschirm bleiben, wird die Batchabfrage alle 5 Minuten aktualisiert. wir gehen davon aus, dass es zwei solcher Aktualisierungen pro Stunde geben wird.  <br/> • Wenn der Benutzer eine E-Mail in Outlook öffnet oder in der Vorschau anzeigt, eine Umfrage über die Anwesenheit von Benutzern in den Feldern An: und CC: der E-Mail, geschätzt auf fünf E-Mails pro Stunde und vier Benutzer pro E-Mail.  <br/> |
 |Anwesenheitsabonnements  <br/> |Wenn ein Benutzer einen anderen Benutzer als Kontakt hinzufügt, abonniert der erste Benutzer fünf Kategorien von Informationen zum zweiten Benutzer. Aktualisierungen dieser Informationskategorien werden automatisch an den ersten Benutzer gesendet. <br/> Für jeden Client wird eine einzige Stapelabonnementanforderung gesendet, um den Anwesenheitsstatus von durchschnittlich 40 Kontakten abzurufen, mit zusätzlich 40 Dialogen zum Abrufen von Anwesenheitsinformationen für Partnerkontakte.  <br/> Die Anwesenheitsinformationen für Mitglieder einer erweiterten Verteilergruppe werden über beständige Anwesenheitsabonnements ermittelt, nicht über Abrufe, und werden als 1 Erweiterung pro Benutzer für jeweils 2 Stunden modelliert.  <br/> Kurze Abonnements erfolgen, wenn sich ein Benutzer anmeldet, ein Batchabonnement für alle Kontakte des Benutzers vorhanden ist und der Benutzer sich dann bald abmeldet. Es wird von 6 kurzen Abonnements pro Benutzer und Stunde ausgegangen, wobei jedes Abonnement 10 Minuten dauert. <br/> |
@@ -76,7 +71,7 @@ In der folgenden Tabelle ist das Konferenzmodell beschrieben.
 |Verteilung der Konferenzteilnehmer  <br/> |50 % interne, authentifizierte Benutzer.  <br/> 25 % authentifizierte Benutzer mit Remotezugriff.  <br/> 15 % anonyme Benutzer.  <br/> 10 % Partnerbenutzer.  <br/> |
 |Verteilung für den Besprechungsbeitritt  <br/> |Für die Benutzer wird simuliert, dass sie der Besprechung innerhalb der ersten 5 Minuten beitreten.  <br/> |
    
-In normalen Front-End-Pools verfügt Skype for Business Server über eine maximal unterstützte Besprechungsgröße von 250 Benutzern. Jeder Pool kann zu einem bestimmten Zeitpunkt eine Besprechung mit 250 Benutzern hosten. Während eine Besprechung dieser Größe stattfindet, kann der Pool zusätzlich weitere kleinere Konferenzen hosten. Darüber hinaus können Sie Besprechungen mit bis zu 1000 Benutzern unterstützen, indem Sie einen Pool speziell zum Hosten dieser Besprechungen einrichten. Ausführliche Informationen finden Sie unter [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).
+In normalen Front-End-Pools verfügt Skype for Business Server über eine maximal unterstützte Besprechungsgröße von 250 Benutzern. Jeder Pool kann zu einem bestimmten Zeitpunkt eine Besprechung mit 250 Benutzern hosten. Während eine Besprechung dieser Größe stattfindet, kann der Pool zusätzlich weitere kleinere Konferenzen hosten. Darüber hinaus können Sie Besprechungen mit bis zu 1000 Benutzern unterstützen, indem Sie einen Pool speziell zum Hosten dieser Besprechungen einrichten. Ausführliche Informationen finden Sie unter ["Planen großer Besprechungen in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md)".
   
 Konferenzen wurden wie folgt simuliert:
   

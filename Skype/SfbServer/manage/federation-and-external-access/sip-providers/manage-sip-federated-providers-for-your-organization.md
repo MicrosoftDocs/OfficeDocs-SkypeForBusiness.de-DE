@@ -1,27 +1,22 @@
 ---
 title: Verwalten von SIP-Partnerverbundanbietern für eine Organisation
-ms.reviewer: ''
-ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
-ms:contentKeyID: 48679566
+ms.reviewer: null
+'ms:assetid': c78d7e9b-c496-40c6-9249-06ced9cb87f3
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)'
+'ms:contentKeyID': 48679566
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Erfahren Sie, wie Sie die Unterstützung für Benutzer von SIP-Partnerverbundanbietern konfigurieren.
-ms.openlocfilehash: a5812eafc92e466306d7047d2adb48338bef783d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837577"
+description: 'Erfahren Sie, wie Sie die Unterstützung für Benutzer von SIP-Partnerverbundanbietern konfigurieren.'
 ---
+
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Partnerverbundanbietern für Ihre Organisation in Skype for Business Server
 
 Um die Unterstützung für Benutzer von SIP-Verbundanbietern zu konfigurieren, müssen Sie folgendermaßen vorgehen:
@@ -38,7 +33,7 @@ Die Konnektivität mit öffentlichen Chatnachrichten ermöglicht Benutzern in Ih
 
 Skype for Business Server verfügt über Konfigurationen öffentlicher Anbieter für Chatnachrichten. Jeder öffentliche Anbieter ist mit dem vollqualifizierten Domänennamen des Edgeservers für den jeweiligen Anbieter sowie mit der Standardüberprüfungsstufe **Benutzer können nur mit Personen in ihrer Liste 'Kontakte' kommunizieren, die diesen Anbieter verwenden** konfiguriert.
 
-In der Standardeinstellung ist kein öffentlicher Anbieter aktiviert. Bevor Sie die öffentlichen Anbieter aktivieren, sollten Sie zunächst die Lizenzvereinbarung und die Bereitstellungsmaßnahmen abschließen. Es ist möglich, die Anbieter vor Abschluss der Lizenzvereinbarung und der Bereitstellungsmaßnahmen zu aktivieren. Benutzer können jedoch nicht mit Kontakten dieser Anbieter kommunizieren, bevor die Vorbereitungsmaßnahmen nicht abgeschlossen sind. Ausführliche Informationen zur Lizenzierung und Bereitstellung von öffentlichen Anbietern finden Sie unter [Konfigurieren von Richtlinien zum Steuern der öffentlichen Benutzerzugriffe.](../external-access-policies/configure-policies-to-control-public-user-access.md)
+In der Standardeinstellung ist kein öffentlicher Anbieter aktiviert. Bevor Sie die öffentlichen Anbieter aktivieren, sollten Sie zunächst die Lizenzvereinbarung und die Bereitstellungsmaßnahmen abschließen. Es ist möglich, die Anbieter vor Abschluss der Lizenzvereinbarung und der Bereitstellungsmaßnahmen zu aktivieren. Benutzer können jedoch nicht mit Kontakten dieser Anbieter kommunizieren, bevor die Vorbereitungsmaßnahmen nicht abgeschlossen sind. Ausführliche Informationen zur Lizenzierung und Bereitstellung öffentlicher Anbieter finden Sie unter ["Konfigurieren von Richtlinien zum Steuern des öffentlichen Benutzerzugriffs"](../external-access-policies/configure-policies-to-control-public-user-access.md).
 
 Verwenden Sie das folgende Verfahren, um öffentliche Anbieter zu erstellen oder zu bearbeiten.
 
@@ -69,7 +64,7 @@ Verwenden Sie das folgende Verfahren, um öffentliche Anbieter zu erstellen oder
 
 7.  Wenn Sie die Konfiguration der Einstellungen abgeschlossen haben, klicken Sie auf **Commit**, um die Änderungen zu speichern, oder auf **Abbrechen**, um die Änderungen zu verwerfen.
 
-## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten gehosteter SIP-Partnerverbundanbieter in Skype for Business Server
+## <a name="create-or-edit-hosted-sip-federated-providers-in-skype-for-business-server"></a>Erstellen oder Bearbeiten gehosteter SIP-Verbundanbieter in Skype for Business Server
 
 Die Chatkonnektivität eines gehosteten Anbieters ermöglicht Es Benutzern in Ihrer Organisation, Chatnachrichten zu verwenden, um mit Benutzern von Chatdiensten zu kommunizieren, die von gehosteten Anbietern bereitgestellt werden.
 

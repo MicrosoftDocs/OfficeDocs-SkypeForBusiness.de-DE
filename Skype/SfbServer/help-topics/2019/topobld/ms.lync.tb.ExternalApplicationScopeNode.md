@@ -1,27 +1,22 @@
 ---
 title: Externe Anwendung – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ExternalApplicationScopeNode
+  - ms.lync.tb.ExternalApplicationScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: dfd21945-331a-4058-97b6-d17690353702
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools, Replikationseinstellungen und den nächsten Hoppool für diesen vertrauenswürdigen Anwendungspool. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 6886c835f309487a95e6f757d2ccd16e28a5809c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838147"
 ---
+
 # <a name="external-application-scope-node"></a>Externe Anwendung – Bereichsknoten
  
 Dieser Knoten enthält den vollqualifizierten Domänennamen (FQDN) des Pools, Replikationseinstellungen und den nächsten Hoppool für diesen vertrauenswürdigen Anwendungspool. Folgende Möglichkeiten stehen zur Verfügung:

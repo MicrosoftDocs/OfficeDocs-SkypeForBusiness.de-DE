@@ -1,24 +1,19 @@
 ---
 title: Referenz zur Benutzeroberfläche des Planungstools
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 12/20/2018
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 52d44a51-f79b-4d27-9541-21737b798027
-ms.openlocfilehash: 516ecfc5433455af8813ecc1c66917e77f4c6677
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845268"
 ---
+
 # <a name="planning-tool-ui-reference"></a>Referenz zur Benutzeroberfläche des Planungstools
  
 ## <a name="in-this-section"></a>Inhalt dieses Abschnitts
@@ -31,7 +26,7 @@ In diesen Themen wird die Schnittstelle für das Planungstool dokumentiert.
     
 - [Webkonferenzen (Planungstool)](../../help-topics/help-planning/web-conferencing.md)
     
-- [Enterprise-VoIP (Planning Tool)](../../help-topics/help-planning/enterprise-voice.md)
+- [Enterprise-VoIP (Planungstool)](../../help-topics/help-planning/enterprise-voice.md)
     
 - [Exchange Unified Messaging Einstellungen (Planning Tool)](../../help-topics/help-planning/exchange-unified-messaging-settings.md)
     

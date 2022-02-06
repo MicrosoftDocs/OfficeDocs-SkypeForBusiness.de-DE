@@ -1,35 +1,30 @@
 ---
 title: Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 02ce922d-9ca8-4513-b09f-9de51f5c5bdc
-description: 'Zusammenfassung: Erfahren Sie, wie Sie eine VoIP-Routing-Konfigurationsdatei in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.'
-ms.openlocfilehash: cb9f5acde66c006945c873b24f53f58d35d14ac2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832899"
+description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Konfigurationsdatei für das VoIP-Routing in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.'
 ---
+
 # <a name="export-or-import-a-voice-route-configuration-file-in-skype-for-business"></a>Exportieren oder Importieren einer VoIP-Routenkonfigurationsdatei in Skype for Business
  
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Konfigurationsdatei für das VoIP-Routing in Skype for Business Server mithilfe der Skype for Business Server Systemsteuerung exportieren oder importieren.
   
 Wenn Sie Ihre VoIP-Routingkonfiguration speichern möchten, ohne sie zu veröffentlichen, führen Sie die folgenden Schritte aus, um eine Momentaufnahme Ihrer VoIP-Routingkonfiguration zu speichern und abzurufen. 
   
-Wenn Sie eine VoIP-Routingkonfigurationsdatei (VCFG) importieren, aber in der Zwischenzeit Änderungen an der VoIP-Routingkonfiguration auf dem Server vorgenommen wurden, weisen die Seiten in der **VoIP-Routinggruppe** in Skype for Business Server Systemsteuerung darauf hin, dass änderungen am VoIP-Routing nicht übernommen wurden. Diese noch nicht übernommenen Änderungen stellen die Unterschiede zwischen den zwei Konfigurationen dar, die einer Zusammenführung bedürfen.
+Wenn Sie eine VoIP-Routingkonfigurationsdatei (VCFG) importieren, aber in der Zwischenzeit Änderungen an der VoIP-Routingkonfiguration auf dem Server vorgenommen wurden, weisen die Seiten in der **VoIP-Routinggruppe** in Skype for Business Server Systemsteuerung darauf hin, dass keine Änderungen am VoIP-Routing vorgenommen wurden. Diese noch nicht übernommenen Änderungen stellen die Unterschiede zwischen den zwei Konfigurationen dar, die einer Zusammenführung bedürfen.
   
 Wenn Sie nicht übernommene Änderungen an den Einstellungen auf einer beliebigen Seite innerhalb der Gruppe vorgenommen haben, werden die Änderungen in der exportierten VoIP-Konfigurationsdatei (VCFG) gespeichert. Auf diese Weise können Sie während mehrerer Sitzungen Änderungen an der VoIP-Routingkonfiguration vornehmen, bevor Sie die Änderungen veröffentlichen. 
   

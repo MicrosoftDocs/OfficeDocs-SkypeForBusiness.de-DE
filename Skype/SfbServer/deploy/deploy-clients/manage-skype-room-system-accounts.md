@@ -1,35 +1,30 @@
 ---
 title: Verwalten von Skype Room Systems-Konten
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7b389efc-9685-42e9-9504-be437d20ff57
 ms.collection: M365-voice
-description: In diesem Thema erfahren Sie, wie Sie Skype Room System-Konten verwalten.
-ms.openlocfilehash: 2ae91a977a837e2b1b54db8d127551b5f53bb1a8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864452"
+description: 'In diesem Thema erfahren Sie, wie Sie Skype Raumsystemkonten verwalten.'
 ---
+
 # <a name="manage-skype-room-system-accounts"></a>Verwalten von Skype Room Systems-Konten
  
-In diesem Thema erfahren Sie, wie Sie Skype Room System-Konten verwalten. 
+In diesem Thema erfahren Sie, wie Sie Skype Raumsystemkonten verwalten. 
 
 > [!NOTE]
-> Microsoft Teams-Räume ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams-Räume finden Sie in der Übersicht über die [Microsoft Teams-Räume-Verwaltung.](/microsoftteams/rooms/rooms-manage)
+> Microsoft Teams-Räume ist ein anderes Produkt mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren. Informationen zu Microsoft Teams-Räume finden Sie in der [Microsoft Teams-Räume Verwaltungsübersicht](/microsoftteams/rooms/rooms-manage).
   
 ## <a name="move-the-skype-room-system-account-between-pools"></a>Verschieben des Skype Raumsystemkontos zwischen Pools
 
-Wenn Sie das Skype Raumsystemkonto von einem Skype for Business Server Pool in einen anderen verschieben müssen (z. B. während Upgrades), verwenden Sie den folgenden Befehl, um den Skype Raumsystem-Kontopool zu verschieben: 
+Wenn Sie das Skype Room System-Konto von einem Skype for Business Server-Pool in einen anderen verschieben müssen (z. B. während Upgrades), verwenden Sie den folgenden Befehl, um den Skype Raumsystem-Kontopool zu verschieben: 
   
 ```powershell
 Move-CsMeetingRoom -Identity LRS01 -Target "LYNCPool15-2.contoso.com"
@@ -45,4 +40,4 @@ Disable-CsMeetingRoom LRS01 -domaincontroller DC-ND-001.contoso.com
 
 ## <a name="optional-create-a-skype-room-system-administrator-group-in-active-directory"></a>Optional: Erstellen einer Skype Raumsystemadministratorgruppe in Active Directory
 
-Jeder Skype Raumsystemclient, der der Domäne beitritt, kann vollständig von einem Domänenbenutzer mit lokalen Administratorrechten auf dem Skype Raumsystemanwendungs-PC verwaltet werden. Daher können Sie eine dedizierte Administratorgruppe in Active Directory erstellen und dieser Gruppe während der Einrichtung des neuen Skype Raumsystemcomputers Administratorrechte erteilen.
+Jeder Skype Raumsystemclient, der der Domäne beitritt, kann vollständig von einem Domänenbenutzer mit lokalen Administratorrechten auf dem Skype Room System-Anwendungs-PC verwaltet werden. Daher können Sie eine dedizierte Administratorgruppe in Active Directory erstellen und dieser Gruppe während der Einrichtung des neuen Skype Raumsystemcomputers Administratorrechte erteilen.

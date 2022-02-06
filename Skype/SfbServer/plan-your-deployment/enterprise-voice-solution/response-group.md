@@ -1,37 +1,32 @@
 ---
 title: Planen der Reaktionsgruppenanwendung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
-ms.openlocfilehash: 3b208b5f18b4b14a35985144b2b96cbabbf39dfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859882"
+description: 'Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.'
 ---
+
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planen der Reaktionsgruppenanwendung in Skype for Business Server
 
 Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
 
-Wenn Ihre Organisation über Gruppen von Personen verfügt, die bestimmte Arten von Anrufen annehmen und verwalten, z. B. für den Kundendienst, ein internes Helpdesk oder allgemeinen Telefonsupport für eine Abteilung, können Sie die Reaktionsgruppenanwendung bereitstellen, um diese Anruftypen zu verwalten. Die Reaktionsgruppenanwendung leitet eingehende Anrufe an bestimmte Personen, die als Agents bezeichnet werden, weiter und stellt sie in die Warteschlange. Sie können die Verwendung von Telefonsupportdiensten erhöhen und den Mehraufwand für die Ausführung dieser Dienste mithilfe von Reaktionsgruppen reduzieren.
+Wenn Ihre Organisation über Gruppen von Personen verfügt, die bestimmte Arten von Anrufen annehmen und verwalten, z. B. für den Kundendienst, ein internes Helpdesk oder allgemeine Telefonunterstützung für eine Abteilung, können Sie die Reaktionsgruppenanwendung bereitstellen, um diese Arten von Anrufen zu verwalten. Die Reaktionsgruppenanwendung leitet eingehende Anrufe an bestimmte Personen, die als Agents bezeichnet werden, weiter und stellt sie in die Warteschlange. Sie können die Verwendung von Telefonsupportdiensten erhöhen und den Mehraufwand für die Ausführung dieser Dienste mithilfe von Reaktionsgruppen reduzieren.
 
 Wenn ein Anrufer eine Reaktionsgruppe anruft, wird der Anruf basierend auf einem Sammelanschluss oder den interaktiven Sprachantworten des Anrufers an einen Agent weitergeleitet. Die Reaktionsgruppenanwendung verwendet standardmäßige Routingmethoden für Reaktionsgruppen, um den Anruf an den nächsten verfügbaren Agent weiterzuleiten. Zu den unterstützten Anrufweiterleitungsmethoden gehören serielles, längstes Leerlauf-, Parallel-, Roundrobin- und Attendant-Routing (das heißt, alle Agents werden für jeden eingehenden Anruf gleichzeitig aufgerufen, unabhängig von ihrer aktuellen Anwesenheit).
 
-Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Wenn die Warteschleife voll ist oder wenn der Anruf in der Warteschleife ein Zeitüberschreitung aufweist, hört der Anrufer möglicherweise eine Nachricht und wird dann entweder getrennt oder an ein anderes Ziel weitergeleitet, z. B. eine andere Telefonnummer oder Voicemail. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
+Wenn keine Agents verfügbar sind, wird der Anruf in einer Warteschleife platziert, bis ein Agent verfügbar ist. Wenn sich ein Anrufer in der Warteschleife befindet, wird Musik wiedergegeben, bis ein verfügbarer Agent den Anruf entgegennimmt. Wenn die Warteschleife voll ist oder wenn der Anruf in der Warteschleife einen Zeitüberschreitung aufweist, hört der Anrufer möglicherweise eine Nachricht und wird entweder getrennt oder an ein anderes Ziel weitergeleitet, z. B. eine andere Telefonnummer oder Voicemail. Wenn ein Agent den Anruf entgegennimmt, kann dem Anrufer abhängig davon, wie der Administrator die Reaktionsgruppe konfiguriert, die Identität des Agents angezeigt werden. Bei Agents kann es sich um formelle Agents handeln, die sich bei der Gruppe anmelden müssen, bevor Sie Anrufe an die Gruppe entgegennehmen können, oder um informelle Agents, die sich nicht bei der Gruppe an- und abmelden müssen, um Anrufe zu beantworten.
 
 > [!NOTE]
 > Nur lokale Benutzer können Agents sein. Wenn ein Agent von einer lokalen zu einer Onlinebereitstellung verschoben wird, werden Reaktionsgruppenanrufe nicht an diesen Agent weitergeleitet.
@@ -48,7 +43,7 @@ Ein Workflow definiert, wie mit einem Anruf ab dem Läuten des Telefons bis zur 
 
 ## <a name="management-of-response-groups"></a>Verwaltung von Reaktionsgruppen
 
-In Skype for Business Server stehen zwei Verwaltungsrollen für die Verwaltung von Reaktionsgruppen zur Verfügung: Reaktionsgruppen-Manager und Reaktionsgruppenadministrator. Reaktionsgruppenadministratoren können jeden Aspekt jeder Reaktionsgruppe verwalten. Reaktionsgruppenmanager können nur bestimmte Aspekte und nur für die Reaktionsgruppen verwalten, die sie besitzen. Die Rolle "Manager" kann Ihnen helfen, Ihre Verwaltungskosten zu senken, da Sie begrenzte Zuständigkeiten für bestimmte Reaktionsgruppen an jeden Benutzer delegieren können, der für Enterprise-VoIP aktiviert ist. Beachten Sie, dass ein Benutzer sowohl ein Reaktionsgruppen-Manager als auch ein Reaktionsgruppenadministrator sein kann.
+In Skype for Business Server stehen zwei Verwaltungsrollen für die Verwaltung von Reaktionsgruppen zur Verfügung: Reaktionsgruppen-Manager und Reaktionsgruppenadministrator. Reaktionsgruppenadministratoren können jeden Aspekt jeder Reaktionsgruppe verwalten. Reaktionsgruppenmanager können nur bestimmte Aspekte und nur für die Reaktionsgruppen verwalten, die sie besitzen. Die Managerrolle kann Ihnen helfen, Ihre Verwaltungskosten zu senken, da Sie begrenzte Zuständigkeiten für bestimmte Reaktionsgruppen an jeden Benutzer delegieren können, der für Enterprise-VoIP aktiviert ist. Beachten Sie, dass ein Benutzer sowohl ein Reaktionsgruppen-Manager als auch ein Reaktionsgruppenadministrator sein kann.
 
 Um der Managerrolle gerecht zu werden, verwendet die Reaktionsgruppenanwendung einen **Workflowtyp** "Verwaltet" oder "Nicht verwaltet". In der folgenden Tabelle werden die verwalteten und nicht verwalteten Reaktionsgruppen beschrieben.
 
@@ -78,7 +73,7 @@ Reaktionsgruppenmanager können die folgenden Tools verwenden, um ihre festgeleg
 
 - Skype for Business Server-Verwaltungsshell
 
-Reaktionsgruppen können gut auf Abteilungs- oder Arbeitsgruppenumgebungen skaliert werden (ausführliche Informationen finden Sie unter [Kapazitätsplanung für Reaktionsgruppen)](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)und können in völlig neuen Telefonieinstallationen bereitgestellt werden. Es unterstützt eingehende Anrufe aus der Enterprise-VoIP-Bereitstellung und aus dem lokalen Netzbetreibernetzwerk. Agents können Skype for Business, Lync 2013, Lync 2010, Lync 2010 Attendant oder Lync Telefon Edition verwenden, um die an sie weitergeleiteten Anrufe zu tätigen.
+Reaktionsgruppen können gut auf Abteilungs- oder Arbeitsgruppenumgebungen skaliert werden (ausführliche Informationen finden Sie unter [Kapazitätsplanung für Reaktionsgruppen](/previous-versions/office/lync-server-2013/lync-server-2013-capacity-planning-for-response-group)) und können in völlig neuen Telefonieinstallationen bereitgestellt werden. Es unterstützt eingehende Anrufe aus der Enterprise-VoIP-Bereitstellung und aus dem lokalen Netzbetreibernetzwerk. Agents können Skype for Business, Lync 2013, Lync 2010, Lync 2010 Attendant oder Lync Telefon Edition verwenden, um die an sie weitergeleiteten Anrufe zu tätigen.
 
 ## <a name="deployment-and-requirements"></a>Bereitstellung und Anforderungen
 
@@ -130,7 +125,7 @@ Für eine optimale Leistung bei Wavedateien wird eine Mono-WAV-Datei mit 16 kHz
 
 Wenn Sie eine Windows Medienaudiodatei verwenden, erwägen Sie die Verwendung niedriger Bitraten, und überprüfen Sie die Leistung Ihres Systems unter Last.
 
-Sie können Microsoft Expression Encoder 4 verwenden, um einen Datei in das WMA-Format zu konvertieren. Informationen zum Herunterladen von Expression Encoder 4 finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843) .
+Sie können Microsoft Expression Encoder 4 verwenden, um einen Datei in das WMA-Format zu konvertieren. Informationen zum Herunterladen von Expression Encoder 4 finden Sie unter [https://go.microsoft.com/fwlink/p/?linkId=202843](https://go.microsoft.com/fwlink/p/?linkId=202843).
 
 ### <a name="response-group-configuration-tool-requirements"></a>Konfigurationstoolanforderungen für Reaktionsgruppen
 
@@ -144,7 +139,7 @@ Das Konfigurationstool für Reaktionsgruppen unterstützt die Kombinationen aus 
 |**Betriebssystem**|**Webbrowser**|
 |:-----|:-----|
 |Windows Vista mit Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
-|Windows 7  <br/> Windows 7 mit Service Pack 1  <br/> |Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
+|Windows 7  <br/> Windows 7 mit Service Pack 1  <br/> |Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
 |Windows Server 2008 mit Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 mit Service Pack 1  <br/> |Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
 |Windows Server 2012  <br/> ||
@@ -162,7 +157,7 @@ Die Agentkonsole unterstützt die Kombinationen aus Betriebssystemen und Webbrow
 |**Betriebssystem**|**Webbrowser**|
 |:-----|:-----|
 |Windows Vista mit Service Pack (SP) 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
-|Windows 7  <br/> Windows 7 mit Service Pack 1  <br/> |Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
+|Windows 7  <br/> Windows 7 mit Service Pack 1  <br/> |Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2008 mit Service Pack 2  <br/> |Internet Explorer 7  <br/> Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> |
 |Windows Server 2008 R2  <br/> Windows Server 2008 R2 mit Service Pack 1  <br/> |Internet Explorer 8 (nativer Modus)  <br/> Internet Explorer 9 (nativer Modus)  <br/> Firefox 10.0  <br/> Chrome 18.0  <br/> |
 |Windows Server 2012  <br/> |
@@ -172,7 +167,7 @@ Die Agentkonsole unterstützt die Kombinationen aus Betriebssystemen und Webbrow
 
 Die Reaktionsgruppenanwendung unterstützt die folgenden Clients:
 
-- Skype for Business Desktopclient
+- Skype for Business-Desktopclient
 
 - Lync 2013-Desktopclient
 

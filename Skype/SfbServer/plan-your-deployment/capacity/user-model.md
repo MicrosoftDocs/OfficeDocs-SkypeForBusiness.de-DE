@@ -1,28 +1,23 @@
 ---
 title: Nutzung des Benutzermodells für die Kapazitätsplanung für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 902ab23e-94d6-482a-9d6e-c0b28dc3e03d
-description: Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, entsprechend der verwendung, die in Benutzermodellen in Skype for Business Server beschrieben ist.
-ms.openlocfilehash: 145e790c0f6c7ceeaa7330c0cd48ad68bc15b331
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846358"
+description: 'Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, entsprechend der in den Benutzermodellen in Skype for Business Server beschriebenen Verwendung.'
 ---
+
 # <a name="capacity-planning-user-model-usage-for-skype-for-business-server"></a>Nutzung des Benutzermodells für die Kapazitätsplanung für Skype for Business Server
 
-Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, gemäß der verwendung, die in [Benutzermodellen in Skype for Business Server](user-models.md)beschrieben ist.
+Dieser Artikel enthält Anleitungen dazu, wie viele Server Sie an einem Standort für die Anzahl der Benutzer an diesem Standort benötigen, entsprechend der in [den Benutzermodellen in Skype for Business Server](user-models.md) beschriebenen Verwendung.
 
 > [!NOTE]
 > Bei allen Empfehlungen in diesem Artikel wird davon ausgegangen, dass Sie Skype for Business kumulative Update vom November 2015 oder höher auf Ihren Servern installiert haben.
@@ -46,20 +41,20 @@ In der folgenden Tabelle sind unsere Empfehlungen zusammengefasst.
 
 |Serverrolle|Maximale Anzahl von unterstützten Benutzern|
 |:-----|:-----|
-|Front-End-Pool mit zwölf Front-End-Servern und einem Back-End-Server oder einem gespiegelten Back-End-Serverpaar.   |80.000 eindeutige Benutzer gleichzeitig angemeldet, plus 50 % mehrfache Anwesenheitspunkte (Multiple Points of Presence, MPOP), die nicht mobile Instanzen darstellen, plus 40 % der Benutzer, die für Mobilität aktiviert sind, insgesamt 152.000 Endpunkte.   |
-|A/V-Konferenzen   |Der von einem Front-End-Pool bereitgestellte A/V-Konferenzdienst unterstützt die Konferenzen des Pools mit einer maximalen Konferenzgröße von 250 Benutzern, und es wird jeweils nur eine derart große Konferenz ausgeführt.  <br/> **Hinweis:** Darüber hinaus können Sie große Konferenzen mit 250 bis 1.000 Benutzern unterstützen, indem Sie einen separaten Front-End-Pool mit zwei Front-End-Servern zum Hosten der großen Konferenzen bereitstellen. Ausführliche Informationen finden Sie unter [Plan for large meetings in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md).   |
+|Front-End-Pool mit zwölf Front-End-Servern und einem Back-End-Server oder einem gespiegelten Back-End-Serverpaar.   |80.000 eindeutige Benutzer gleichzeitig angemeldet, plus 50 % mehrfache Anwesenheitspunkte (Multiple Points of Presence, MPOP), die nicht mobile Instanzen darstellen, plus 40 % der Benutzer, die für Mobilität für insgesamt 152.000 Endpunkte aktiviert sind.   |
+|A/V-Konferenzen   |Der von einem Front-End-Pool bereitgestellte A/V-Konferenzdienst unterstützt die Konferenzen des Pools mit einer maximalen Konferenzgröße von 250 Benutzern, und es wird jeweils nur eine derart große Konferenz ausgeführt.  <br/> **Hinweis:** Darüber hinaus können Sie große Konferenzen mit 250 bis 1.000 Benutzern unterstützen, indem Sie einen separaten Front-End-Pool mit zwei Front-End-Servern zum Hosten der großen Konferenzen bereitstellen. Ausführliche Informationen finden Sie unter ["Planen großer Besprechungen in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md)".   |
 |Ein Edgeserver   |12.000 gleichzeitige Remotebenutzer.   |
 |Ein Director   |12.000 gleichzeitige Remotebenutzer.   |
 |Überwachen und Archivieren   |Die Front-End-Dienste für die Überwachung und Archivierung werden auf jedem Front-End-Server und nicht auf separaten Serverrollen ausgeführt.  <br/> Für die Überwachung und Archivierung sind weiterhin eigene Datenbankspeicher erforderlich. Wenn Sie auch Exchange 2013 oder höher ausführen, können Sie Ihre Archivierungsdaten in Exchange und nicht in einer dedizierten SQL-Datenbank speichern.   |
 |Ein Vermittlungsserver   |Der Vermittlungsserver, der mit dem Front-End-Server verbunden ist, wird auf jedem Front-End-Server in einem Pool ausgeführt und sollte genügend Kapazität für die Benutzer im Pool bereitstellen. Informationen zum eigenständigen Vermittlungsserver finden Sie im Abschnitt "Vermittlungsserver" weiter unten in diesem Thema.   |
-|Ein Standard Edition-Server   |Wenn Sie Standard Edition Server zum Hosten von Benutzern verwenden, wird dringend empfohlen, dass Sie immer zwei Server verwenden, gepaart mit den Empfehlungen in [der Planung für hohe Verfügbarkeit und Notfallwiederherstellung.](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery) Jeder Server im Paar kann bis zu 2.500 Benutzer hosten, und wenn ein Server ausfällt, kann der verbleibende Server 5.000 Benutzer in einem Failoverszenario unterstützen.  <br/>  Wenn Ihre Bereitstellung einen erheblichen Anteil an Audio- oder Videodatenverkehr umfasst, kann die Serverleistung mit mehr als 2.500 Benutzern pro Server beeinträchtigt werden. In diesem Fall sollten Sie weitere Standard Edition Server hinzufügen oder zu Skype for Business Server Enterprise Edition wechseln.  |
+|Ein Standard Edition-Server   |Es wird dringend empfohlen, dass Sie, wenn Sie Standard Edition Server zum Hosten von Benutzern verwenden, immer zwei Server verwenden, gepaart mit den Empfehlungen in [der Planung für hohe Verfügbarkeit und Notfallwiederherstellung](/previous-versions/office/lync-server-2013/lync-server-2013-planning-for-high-availability-and-disaster-recovery). Jeder Server im Paar kann bis zu 2.500 Benutzer hosten, und wenn ein Server ausfällt, kann der verbleibende Server 5.000 Benutzer in einem Failoverszenario unterstützen.  <br/>  Wenn Ihre Bereitstellung einen erheblichen Anteil an Audio- oder Videodatenverkehr umfasst, kann die Serverleistung mit mehr als 2.500 Benutzern pro Server beeinträchtigt werden. In diesem Fall sollten Sie weitere Standard Edition Server hinzufügen oder zu Skype for Business Server Enterprise Edition wechseln.  |
 
 ## <a name="front-end-server"></a>Front-End-Server
 
 > [!NOTE]
 > Gestreckte Pools werden für diese Serverrolle nicht unterstützt.
 
-In einem Front-End-Pool sollten Sie einen Front-End-Server für alle 6.660 Benutzer haben, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyperthreading auf allen Servern im Pool aktiviert ist und die Serverhardware die Empfehlungen in den [Serveranforderungen für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) oder [systemanforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md)erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 80.000. Dabei wird erneut vorausgesetzt, dass Hyperthreading auf allen Servern in Ihrem Pool aktiviert ist. Wenn Sie mehr als 80.000 Benutzer an einem Standort haben, können Sie mehr als einen Front-End-Pool bereitstellen.
+In einem Front-End-Pool sollten Sie einen Front-End-Server für alle 6.660 Benutzer haben, die in Ihrem Pool verwaltet werden, vorausgesetzt, dass Hyperthreading auf allen Servern im Pool aktiviert ist und dass die Serverhardware die Empfehlungen in den [Serveranforderungen für Skype for Business Server 2015](../requirements-for-your-environment/server-requirements.md) oder [die Systemanforderungen für Skype for Business Server 2019](../../../SfBServer2019/plan/system-requirements.md) erfüllt. Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 80.000. Dabei wird erneut vorausgesetzt, dass Hyperthreading auf allen Servern in Ihrem Pool aktiviert ist. Wenn Sie mehr als 80.000 Benutzer an einem Standort haben, können Sie mehr als einen Front-End-Pool bereitstellen.
 
 Wenn Sie die Anzahl der Benutzer in einem Front-End-Pool berücksichtigen, schließen Sie alle Benutzer ein, die in Survivable Branch Appliances und Survivable Branch-Servern in Zweigstellen verwaltet werden, die diesem Front-End-Pool zugeordnet sind.
 
@@ -69,7 +64,7 @@ Wenn Sie stattdessen mit sechs Front-End-Servern für Ihre 30.000 Benutzer begon
 
 Die maximale Anzahl von Benutzern in einem Front-End-Pool beträgt 80.000. Die maximale Anzahl von Front-End-Servern in einem Pool beträgt 12.
 
-Bei einem Front-End-Pool mit 80.000 Benutzern sind zwölf Front-End-Server in typischen Bereitstellungen, die den [Benutzermodellen in Skype for Business Server](user-models.md)folgen, leistungsbereit. Bei Bereitstellungen zur Unterstützung des Failovers für die Notfallwiederherstellung wird davon ausgegangen, dass maximal 40.000 Benutzer in jedem von zwei front-End-Paarpools gehostet werden können, in denen jeder Pool über genügend Front-End-Server verfügt, um die Benutzer in beiden Pools zu enthalten, wenn ein Pool zu einem anderen Pool übergegangen werden muss.
+Bei einem Front-End-Pool mit 80.000 Benutzern sind zwölf Front-End-Server in typischen Bereitstellungen, die den [Benutzermodellen in Skype for Business Server](user-models.md) folgen, leistungsbereit. Bei Bereitstellungen zur Unterstützung des Failovers für die Notfallwiederherstellung wird davon ausgegangen, dass maximal 40.000 Benutzer in jedem von zwei front-End-Paarpools gehostet werden können, in denen jeder Pool über genügend Front-End-Server verfügt, um die Benutzer in beiden Pools zu enthalten, wenn ein Pool zu einem anderen Pool übergegangen werden muss.
 
 Die Anzahl der Benutzer, die von einem bestimmten Front-End-Pool mit einer guten Leistung unterstützt werden, kann aus den folgenden Gründen von diesen Zahlen abweichen:
 
@@ -77,14 +72,14 @@ Die Anzahl der Benutzer, die von einem bestimmten Front-End-Pool mit einer guten
 
 - Die Nutzung Ihrer Organisation unterscheidet sich stark von den Benutzermodellen, z. B. wenn Sie viel mehr Konferenzdatenverkehr haben.
 
-Die folgende Tabelle zeigt die durchschnittliche Bandbreite für Chatnachrichten und Anwesenheitsinformationen, wenn das Benutzermodell angegeben ist, wie in [Benutzermodellen in Skype for Business Server](user-models.md)definiert.
+In der folgenden Tabelle ist die durchschnittliche Bandbreite für Chatnachrichten und Anwesenheitsinformationen im Rahmen des Benutzermodells dargestellt, wie in [Benutzermodellen in Skype for Business Server](user-models.md) definiert.
 
 |Durchschnittliche Bandbreite pro Benutzer|Bandbreitenanforderungen pro Front-End-Server mit 6.660 Benutzern|
 |:-----|:-----|
 |1,3 KBit/s   |13 MBit/s   |
 
 > [!NOTE]
-> Um die Medienleistung der gemeinsam installierten A/V-Konferenz- und Vermittlungsserverfunktionen auf Ihren Front-End-Servern zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter [Receive Side Scaling (RSS) in der dokumentation Windows Server 2012.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Medienleistung der gemeinsam installierten A/V-Konferenz- und Vermittlungsserverfunktionen auf Ihren Front-End-Servern zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf Ihren Front-End-Servern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie [unter Rss (Receive Side Scaling) in der Dokumentation Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)). Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="conferencing-maximums"></a>Maximale Anzahl von Benutzern für Konferenzen
 
@@ -94,7 +89,7 @@ Die maximal unterstützte Konferenzgröße, die von einem regulären Skype for B
 
 Unabhängig von der Anzahl der Benutzer, die im Front-End-Pool oder Standard Edition Server verwaltet werden, unterstützt Skype for Business Server mindestens 125 andere Benutzer, die an kleineren Konferenzen im selben Pool oder Server teilnehmen, auf dem eine Konferenz mit 250 Benutzern gehostet wird.
 
-Um Konferenzen mit 250 bis 1.000 Benutzern zu aktivieren, können Sie einen separaten Front-End-Pool einrichten, nur um diese Konferenzen zu hosten. In diesem Front-End-Pool werden keine Benutzer gehostet. Ausführliche Informationen finden Sie unter [Planen großer Besprechungen in Skype for Business Server.](../../plan-your-deployment/conferencing/large-meetings.md)
+Um Konferenzen mit 250 bis 1.000 Benutzern zu aktivieren, können Sie einen separaten Front-End-Pool einrichten, nur um diese Konferenzen zu hosten. In diesem Front-End-Pool werden keine Benutzer gehostet. Ausführliche Informationen finden Sie unter ["Planen großer Besprechungen in Skype for Business Server](../../plan-your-deployment/conferencing/large-meetings.md)".
 
 Wenn Ihre Organisation viel mehr Konferenzen im gemischten Modus hat, als im Benutzermodell angenommen werden, müssen Sie möglicherweise mehr Front-End-Server bereitstellen, als in diesem Dokument empfohlen wird (bis zu einem Grenzwert von 12 Front-End-Servern). Ausführliche Informationen zu den Annahmen im Benutzermodell finden Sie unter [Benutzermodelle in Skype for Business Server](user-models.md).
 
@@ -103,19 +98,19 @@ Wenn Ihre Organisation viel mehr Konferenzen im gemischten Modus hat, als im Ben
 > [!NOTE]
 > Gestreckte Pools werden für diese Serverrolle nicht unterstützt.
 
-Sie sollten einen Edgeserver für alle 12.000 Remotebenutzer bereitstellen, die gleichzeitig auf einen Standort zugreifen. Um hohe Verfügbarkeit zu bieten, wird die Bereitstellung von mindestens zwei Edgeservern empfohlen. Bei diesen Empfehlungen wird davon ausgegangen, dass die Hardware für Ihre Edgeserver den Empfehlungen auf [Serverhardwareplattformen entspricht.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Sie sollten einen Edgeserver für alle 12.000 Remotebenutzer bereitstellen, die gleichzeitig auf einen Standort zugreifen. Um hohe Verfügbarkeit zu bieten, wird die Bereitstellung von mindestens zwei Edgeservern empfohlen. Bei diesen Empfehlungen wird davon ausgegangen, dass die Hardware für Ihre Edgeserver den Empfehlungen auf [Serverhardwareplattformen entspricht](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Wenn Sie die Anzahl von Benutzern für die Edgeserver berechnen, berücksichtigen Sie auch die Benutzer in Survivable Branch Appliances und auf Survivable Branch Servern in Zweigstellen, die diesem Front-End-Pool an diesem Standort zugeordnet sind.
 
 > [!NOTE]
-> Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Weitere Informationen finden Sie unter["RSS (Receive Side Scaling) in Windows Server 2012".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Zum Verbessern der Leistung des A/V-Konferenzedgediensts auf Ihren Edgeservern sollten Sie RSS (Receive-Side Scaling) für die Netzwerkadapter Ihrer Edgeserver aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Weitere Informationen finden Sie [unter "Receive Side Scaling (RSS) in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="director"></a>Director
 
 > [!NOTE]
 > Gestreckte Pools werden für diese Serverrolle nicht unterstützt.
 
-Wenn Sie die Director-Serverrolle bereitstellen, wird empfohlen, einen Director für alle 12.000 Remotebenutzer bereitzustellen, die gleichzeitig auf eine Website zugreifen. Um hohe Verfügbarkeit zu bieten, wird die Bereitstellung von mindestens zwei Directors empfohlen. Bei diesen Empfehlungen wird davon ausgegangen, dass die Hardware für Ihre Edgeserver den Empfehlungen auf [Serverhardwareplattformen entspricht.](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)
+Wenn Sie die Director-Serverrolle bereitstellen, wird empfohlen, einen Director für alle 12.000 Remotebenutzer bereitzustellen, die gleichzeitig auf eine Website zugreifen. Um hohe Verfügbarkeit zu bieten, wird die Bereitstellung von mindestens zwei Directors empfohlen. Bei diesen Empfehlungen wird davon ausgegangen, dass die Hardware für Ihre Edgeserver den Empfehlungen auf [Serverhardwareplattformen entspricht](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms).
 
 Wenn Sie die Anzahl von Benutzern für die Director-Server berechnen, berücksichtigen Sie auch die Benutzer in Survivable Branch Appliances und auf Survivable Branch Servern in Zweigstellen, die diesem Front-End-Pool an diesem Standort zugeordnet sind.
 
@@ -126,17 +121,17 @@ Wenn Sie die Anzahl von Benutzern für die Director-Server berechnen, berücksic
 
 Wenn Sie den Vermittlungsserver mit dem Front-End-Server verbinden, wird der Vermittlungsserver auf jedem Front-End-Server im Pool ausgeführt und sollte genügend Kapazität für die Benutzer im Pool bereitstellen.
 
-Wenn Sie einen eigenständigen Vermittlungsserverpool bereitstellen, hängt die Anzahl der bereitzustellenden Vermittlungsserver von vielen Faktoren ab, einschließlich der für den Vermittlungsserver verwendeten Hardware, der Anzahl der voIP-Benutzer, die Sie haben, der Anzahl der Gatewaypeers, die jeder Vermittlungsserverpool steuert, des Datenverkehrs zur Nutzungsstunde über diese Gateways und des Prozentsatzes der Anrufe mit Medien, die den Vermittlungsserver umgehen.
+Wenn Sie einen eigenständigen Vermittlungsserverpool bereitstellen, hängt die Anzahl der bereitzustellenden Vermittlungsserver von vielen Faktoren ab, einschließlich der für den Vermittlungsserver verwendeten Hardware, der Anzahl der voIP-Benutzer, die Sie haben, der Anzahl der Gatewaypeers, die von jedem Vermittlungsserverpool gesteuert werden, dem Datenverkehr zur Nutzungsstunde über diese Gateways und dem Prozentsatz der Anrufe mit Medien, die den Vermittlungsserver umgehen.
 
-Die folgenden Tabellen enthalten eine Richtlinie für die Anzahl gleichzeitiger Anrufe, die ein Vermittlungsserver verarbeiten kann, vorausgesetzt, dass die Hardware für die Vermittlungsserver die Anforderungen in [Serverhardwareplattformen](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) erfüllt und Hyperthreading aktiviert ist. Ausführliche Informationen zur Skalierbarkeit des Vermittlungsservers finden Sie unter ["Bewerten der VoIP-Nutzung und](estimating-voice-traffic.md) des Datenverkehrs für Skype for Business Server und [Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server".](mediation-server-deployment-guidelines.md)
+Die folgenden Tabellen enthalten eine Richtlinie für die Anzahl gleichzeitiger Anrufe, die ein Vermittlungsserver verarbeiten kann, vorausgesetzt, dass die Hardware für die [Vermittlungsserver die Anforderungen in Serverhardwareplattformen](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) erfüllt und Hyperthreading aktiviert ist. Ausführliche Informationen zur Skalierbarkeit des Vermittlungsservers finden Sie unter ["Bewerten der VoIP-Nutzung und des Datenverkehrs für Skype for Business Server](estimating-voice-traffic.md) und [Bereitstellungsrichtlinien für den Vermittlungsserver in Skype for Business Server](mediation-server-deployment-guidelines.md)".
 
-Alle folgenden Tabellen gehen davon aus, dass die Verwendung in [Benutzermodellen in Skype for Business Server](user-models.md)zusammengefasst ist.
+In allen folgenden Tabellen wird davon ausgegangen, dass die Verwendung in [Benutzermodellen in Skype for Business Server](user-models.md) zusammengefasst ist.
 
 **Kapazität des eigenständigen Vermittlungsservers: 70 % interne Benutzer, 30 % externe Benutzer mit Anrufkapazität ohne Umgehung (Medientranscodierung durch vermittlungsserver)**
 
 |Serverhardware|Maximale Anzahl von Anrufen|Maximale Anzahl von T1-Leitungen|Maximale Anzahl von E1-Leitungen|
 |:-----|:-----|:-----|:-----|
-|Dualprozessor, Hex-Core, 2,26-GHz-Hyperthread-CPU **mit deaktiviertem Hyperthreading,** mit 32 GB Arbeitsspeicher und einer Netzwerkadapterkarte mit dualem Port.   |1100   |46   |35   |
+|Dualprozessor, Hexadezimalkern, 2,26 GHz Hyperthread-CPU **mit deaktiviertem Hyperthreading**, 32 GB Arbeitsspeicher und einer Netzwerkadapterkarte mit dualem Port.   |1100   |46   |35   |
 |Dualprozessor, Hexadezimalkern, 2,26 GHz Hyperthread-CPU, mit 32 GB Arbeitsspeicher und einer Dualport-Netzwerkadapterkarte.   |1500   |63   |47   |
 
 > [!NOTE]
@@ -152,11 +147,11 @@ Alle folgenden Tabellen gehen davon aus, dass die Verwendung in [Benutzermodelle
 > Diese Zahl ist viel kleiner als die Zahlen für den eigenständigen Vermittlungsserver. Der Grund dafür ist, dass der Front-End-Server neben der für Sprachanrufe erforderlichen Transcodierung auch andere Features und Funktionen für die 6600 Benutzer verarbeiten muss, die darauf verwaltet werden.
 
 > [!NOTE]
-> Um die Leistung des Vermittlungsservers zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf Ihren Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter["Receive-Side Scaling in Windows Server 2012".](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11)) Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
+> Um die Leistung des Vermittlungsservers zu verbessern, sollten Sie RSS (Receive-Side Scaling) auf den Netzwerkadaptern auf Ihren Vermittlungsservern aktivieren. Mit RSS können eingehende Pakete gleichzeitig von mehreren Prozessoren auf dem Server verarbeitet werden. Ausführliche Informationen finden Sie unter "[Empfangsseitige Skalierung in Windows Server 2012](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh997036(v=ws.11))". Ausführliche Informationen zum Aktivieren von RSS finden Sie in der Dokumentation zu Ihrem Netzwerkadapter.
 
 ## <a name="back-end-server"></a>Back-End-Server
 
-Obwohl ein Großteil der Datenbankinformationen hauptsächlich auf den Front-End-Servern gespeichert wird, sollten Sie sicherstellen, dass Ihre Back-End-Server die weiter oben in diesem Abschnitt und in [den Serverhardwareplattformen aufgeführten](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms)Hardwareempfehlungen erfüllen.
+Obwohl ein Großteil der Datenbankinformationen in erster Linie auf den Front-End-Servern gespeichert wird, sollten Sie sicherstellen, dass Ihre Back-End-Server die weiter oben in diesem Abschnitt und in [den Serverhardwareplattformen aufgeführten](/previous-versions/office/lync-server-2013/lync-server-2013-server-hardware-platforms) Hardwareempfehlungen erfüllen.
 
 Um eine hohe Verfügbarkeit ihres Back-End-Servers zu gewährleisten, empfehlen wir die Bereitstellung von AlwaysOn-Verfügbarkeitsgruppen oder Serverspiegelung. Weitere Informationen finden Sie unter [Back-End-Server hohe Verfügbarkeit in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/back-end-server.md).
 

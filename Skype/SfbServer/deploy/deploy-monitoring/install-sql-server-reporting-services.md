@@ -1,24 +1,19 @@
 ---
 title: Installieren von SQL Server Reporting Services in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 638a1d0c-1ac7-4735-83f2-4df3d03c7cf9
-description: 'Zusammenfassung: Erfahren Sie, wo Sie Informationen zu SQL Server Reporting Services finden können, die von Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 7fb22af9ec580b2d4086702330d9a5835751ce1d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845898"
+description: 'Zusammenfassung: Erfahren Sie, wo Sie Informationen zu SQL Server Reporting Services finden, die von Skype for Business Server verwendet werden.'
 ---
+
 # <a name="install-sql-server-reporting-services-in-skype-for-business-server"></a>Installieren von SQL Server Reporting Services in Skype for Business Server 
  
 **Zusammenfassung:** Erfahren Sie, wo Sie Informationen zu SQL Server Reporting Services finden, die von Skype for Business Server verwendet werden.

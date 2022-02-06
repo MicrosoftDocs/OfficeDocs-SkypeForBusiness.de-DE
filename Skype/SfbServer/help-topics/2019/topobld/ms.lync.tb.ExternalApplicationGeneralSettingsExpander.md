@@ -1,27 +1,22 @@
 ---
 title: Allgemeine Einstellungen für externe Anwendungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.ExternalApplicationGeneralSettingsExpander
+  - ms.lync.tb.ExternalApplicationGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: aa7268ac-b9e3-4d25-bff4-e59d305120f2
-ROBOTS: NOINDEX, NOFOLLOW
-description: Befolgen Sie diese Anweisungen, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.
-ms.openlocfilehash: 1941b32b24138ba87877f0bb262928e1d0b972dc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843178"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Befolgen Sie diese Anweisungen, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.'
 ---
+
 # <a name="external-application-general-settings-expander"></a>Allgemeine Einstellungen für externe Anwendungen – Erweiterung
  
 Befolgen Sie diese Anweisungen, um die Eigenschaften für einen vertrauenswürdigen Anwendungsserver zu bearbeiten, der bereits definiert wurde.
@@ -43,6 +38,6 @@ Wählen Sie **Replikation von Konfigurationsdaten in diesen Pool aktivieren** au
 Sie können den nächsten Hopserver des vertrauenswürdigen Anwendungsserverpools angeben, indem Sie in der Dropdownliste den definierten Enterprise Edition Front-End-Pool oder Standard Edition Front-End-Server auswählen. Ein Director oder Director-Pool kann nicht als nächster Hop für einen vertrauenswürdigen Anwendungsserver ausgewählt werden und wird daher nicht in der Liste aufgeführt.
   
 
-Klicken Sie auf **"OK",** um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
+Klicken Sie auf **"OK** ", um die Änderungen zu akzeptieren und zu speichern. Klicken Sie auf **Abbrechen**, um Ihre Änderungen zu verwerfen und die Eigenschaftenseite zu schließen.
   
 

@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen der internen IP-Adresse des Edgeservers
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddEdgeServerInternalIpPage
+  - ms.lync.tb.AddEdgeServerInternalIpPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 13485e9d-190e-4ece-b997-1cbf45aae77c
 description: Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des A/V-Edgeservers.
-ms.openlocfilehash: 40e01dee6c4377eda5392974ef9ffb9288fc8383
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846498"
 ---
+
 # <a name="add-edge-server-internal-ip"></a>Hinzufügen der internen IP-Adresse des Edgeservers
 
 Die interne IP-Adresse ist die IP-Adresse der internen Schnittstelle des A/V-Edgeservers.

@@ -1,34 +1,29 @@
 ---
 title: Verwalten der Archivierung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 63fd56cf-6d40-4db5-96fc-32d813930bcf
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Archivierung für Skype for Business Server verwalten.'
-ms.openlocfilehash: bdb373bf723e586cbc7222cd2559b87f4c72381e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856792"
 ---
+
 # <a name="manage-archiving-in-skype-for-business-server"></a>Verwalten der Archivierung in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie die Archivierung für Skype for Business Server verwalten.
   
 Wenn Sie die Archivierung für Ihre Organisation bereitstellen, geben Sie die anfängliche Konfiguration während der Bereitstellung an. Es kann jedoch vorkommen, dass Sie die Implementierung der Archivierungsunterstützung für die tägliche Verwaltung ändern oder neue Anforderungen für Ihre Organisation erfüllen möchten. Beispielsweise müssen Sie die Archivierungsunterstützung für einen bestimmten Standort, einen bestimmten Pool oder bestimmte Benutzer in Ihrer Organisation möglicherweise anders einrichten. Für Benutzer, die auf Skype for Business Server verwaltet werden, erstellen und passen Sie Archivierungskonfigurationsoptionen und Benutzerrichtlinien an. 
   
-Bevor Sie dieses Thema lesen, sollten Sie mit den Informationen in [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Deploy archiving for [Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md)vertraut sein.
+Bevor Sie dieses Thema lesen, stellen Sie sicher, dass Sie mit den Informationen unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Deploy archiving for Skype for Business Server](../../deploy/deploy-archiving/deploy-archiving.md) vertraut sind.
   
 > [!NOTE]
-> Wenn Sie die Integration von Microsoft Exchange für Ihre Bereitstellung aktivieren, steuern Exchange Richtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange verwaltet werden und deren Postfächer In-Place Haltebereich haben. Ausführliche Informationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and Configure integration with Exchange storage for [Skype for Business Server.](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md) 
+> Wenn Sie die Integration von Microsoft Exchange für Ihre Bereitstellung aktivieren, steuern Exchange Richtlinien, ob die Archivierung für die Benutzer aktiviert ist, die in Exchange verwaltet werden und ihre Postfächer In-Place Haltebereich haben. Ausführliche Informationen finden Sie unter [Plan for archiving in Skype for Business Server](../../plan-your-deployment/archiving/archiving.md) and [Configure integration with Exchange storage for Skype for Business Server](../../deploy/deploy-archiving/configure-integration-with-exchange-storage.md). 
   
 ## <a name="archiving-configuration-options"></a>Archivierungskonfigurationsoptionen
 
@@ -46,7 +41,7 @@ Archivierungskonfigurationsoptionen geben an, ob:
     
 - Einrichten des Löschens und Exportierens von Daten
     
-Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server.](options.md)
+Diese Optionen können auf globaler, Standort- oder Poolebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsoptionen in Skype for Business Server](options.md).
   
 ## <a name="archiving-policies"></a>Archivierungsrichtlinien
 
@@ -56,11 +51,11 @@ Archivierungsrichtlinien bestimmen, ob Folgendes archiviert werden soll:
     
 - Externe Kommunikation
     
-Diese Richtlinien können auf globaler, Standort- oder Benutzerebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsrichtlinien in Skype for Business Server.](policies.md)
+Diese Richtlinien können auf globaler, Standort- oder Benutzerebene festgelegt werden. Weitere Informationen finden Sie unter [Verwalten von Archivierungsrichtlinien in Skype for Business Server](policies.md).
   
 ## <a name="manage-archiving-by-using-the-control-panel-or-by-using-windows-powershell"></a>Verwalten der Archivierung mithilfe der Systemsteuerung oder mit Windows PowerShell
 
-Sie können die Archivierung mithilfe der Systemsteuerung oder mit Windows PowerShell verwalten. In der folgenden Tabelle sind die cmdlets zusammengefasst, die Ihnen bei der Verwaltung der Archivierung zur Verfügung stehen. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell.](../management-shell.md) 
+Sie können die Archivierung mithilfe der Systemsteuerung oder mit Windows PowerShell verwalten. In der folgenden Tabelle sind die cmdlets zusammengefasst, die Ihnen bei der Verwaltung der Archivierung zur Verfügung stehen. Ausführliche Informationen zur Syntax, einschließlich aller verfügbaren Parameter, finden Sie unter [Skype for Business Server Verwaltungsshell](../management-shell.md). 
 
 
 |**Cmdlet**|**Beschreibung**|

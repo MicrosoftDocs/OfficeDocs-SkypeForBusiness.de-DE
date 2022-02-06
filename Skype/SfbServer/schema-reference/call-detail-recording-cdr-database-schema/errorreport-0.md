@@ -1,25 +1,20 @@
 ---
 title: ErrorReport-Ansicht
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ca873f7e-b18b-4eaf-8db0-5f9d5a9b60a1
-description: In der ErrorReport-Ansicht werden Informationen zu gemeldeten Fehlern gespeichert. Jeder Datensatz ist ein Fehler. Die Fehler werden entweder vom KDS-Agent erfasst, der auf dem Front-End-Server ausgeführt wird, oder vom Client gesendet. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 5a35cc8b3a726549be7de10259c7e59a67ca5500
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852929"
+description: 'In der ErrorReport-Ansicht werden Informationen zu gemeldeten Fehlern gespeichert. Jeder Datensatz ist ein Fehler. Die Fehler werden entweder vom KDS-Agent erfasst, der auf dem Front-End-Server ausgeführt wird, oder vom Client gesendet. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.'
 ---
+
 # <a name="errorreport-view"></a>ErrorReport-Ansicht
  
 In der ErrorReport-Ansicht werden Informationen zu gemeldeten Fehlern gespeichert. Jeder Datensatz ist ein Fehler. Die Fehler werden entweder vom KDS-Agent erfasst, der auf dem Front-End-Server ausgeführt wird, oder vom Client gesendet. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
@@ -30,25 +25,25 @@ In der ErrorReport-Ansicht werden Informationen zu gemeldeten Fehlern gespeicher
 |**ErrorReportSeq** <br/> |int  <br/> |ID-Nummer zum Bestimmen des Fehlers. Wird zusammen mit "ErrorTime" verwendet, um einen Fehler eindeutig zu bestimmen.  <br/> |
 |**MsDiagId** <br/> |int  <br/> |Diagnose-ID für den Fehlerbericht.  <br/> |
 |**FromUri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, der den Fehler verursacht hat.  <br/> |
-|**FromUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des Benutzers, der den Fehler verursacht hat. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
-|**FromTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der den Fehler verursacht hat. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|**FromUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des Benutzers, der den Fehler verursacht hat. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**FromTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der den Fehler verursacht hat. Weitere Informationen finden Sie in der [Tabelle "Mandanten](tenants.md) ". <br/> |
 |**Touri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, der das Ziel des Fehlerberichts war.  <br/> |
 |**ToUriType** <br/> |nvarchar(256)  <br/> |URI-Typ des Benutzers, der auf den Fehlerbericht ausgerichtet ist. Weitere Informationen finden Sie in der UriTypes Table.  <br/> |
-|**ToTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der auf den Fehlerbericht ausgerichtet ist. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|**ToTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der auf den Fehlerbericht ausgerichtet ist. Weitere Informationen finden Sie in der [Tabelle "Mandanten](tenants.md) ". <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |URI der Konferenz, die das Ziel des Fehlerberichts war.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |URI-Typ der Konferenz, die das Ziel des Fehlerberichts war. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
-|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung, die den Fehlerbericht ausgelöst hat. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID-Nummer zum Identifizieren der Sitzungsanforderung, die den Fehlerbericht ausgelöst hat. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |URI-Typ der Konferenz, die das Ziel des Fehlerberichts war. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung, die den Fehlerbericht ausgelöst hat. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |ID-Nummer zum Identifizieren der Sitzungsanforderung, die den Fehlerbericht ausgelöst hat. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |SIP-Dialog-ID der Sitzung, die den Fehler verursacht hat. Das Format lautet wie folgt:  <br/> dialog;from-tag;to-tag  <br/> Diese Daten können mithilfe der folgenden Syntax in das Textformat konvertiert werden:  <br/> cast(cast(ExternalId as varbinary(max)) as varchar(max))  <br/> |
 |**ClientVersion** <br/> |nvarchar(256)  <br/> |Version des Clients, die vom Benutzer verwendet wird, der den Fehler verursacht hat.  <br/> |
-|**ClientType** <br/> |int  <br/> |Client, der vom Benutzer verwendet wird, der den Fehler verursacht hat. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle.](useragentdef.md) <br/> |
+|**ClientType** <br/> |int  <br/> |Client, der vom Benutzer verwendet wird, der den Fehler verursacht hat. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
 |**ClientCategory** <br/> |nvarchar(64)  <br/> |Name der Kategorie des Clients, der vom Benutzer verwendet wird, der den Fehler verursacht hat.  <br/> |
 |**Source** <br/> |nvarchar(256)  <br/> |Name des Servers, von dem der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
-|**Anwendung** <br/> |nvarchar(256)  <br/> |Name der Anwendung, von der der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
+|**Application** <br/> |nvarchar(256)  <br/> |Name der Anwendung, von der der Fehler stammt (wenn der Bericht von einer Serverkomponente gesendet wurde).  <br/> |
 |**ResponseCode** <br/> |int  <br/> |SIP-Antwortcode für die Sitzung der SIP-Nachricht, die den Fehlerbericht enthält.  <br/> |
 |**RequestType** <br/> |varchar(max)  <br/> |Typ der fehlgeschlagenen Anforderung.  <br/> |
 |**ContentType** <br/> |varchar(max)  <br/> |Inhaltstyp der fehlgeschlagenen Anforderung.  <br/> |
-|**CallType** <br/> |nvarchar(256)  <br/> |Der Sitzungstyp. Weitere Informationen finden Sie in der [CallType-Tabelle in Skype for Business Server 2015.](calltype.md) <br/> |
+|**CallType** <br/> |nvarchar(256)  <br/> |Der Sitzungstyp. Weitere Informationen finden Sie [in der CallType-Tabelle in Skype for Business Server 2015](calltype.md). <br/> |
 |**Telemetrie-ID** <br/> |Uniqueidentifier  <br/> |Eindeutiger Bezeichner, der die Informationen über den Zeitpunkt des Beitritts für verschiedene in einer Konferenz beteiligten Komponenten korreliert.  <br/> |
 |**SetupTime** <br/> |int  <br/> |Für eine bestimmte Komponente erforderliche Zeit (in Millisekunden), um an einer Konferenz teilzunehmen.  <br/> |
 |**IsCapturedByServer** <br/> |Bit  <br/> |Gibt an, ob der Fehlerbericht vom KDS-Agent auf dem Front-End-Server erfasst oder vom Client gesendet wurde.  <br/> |

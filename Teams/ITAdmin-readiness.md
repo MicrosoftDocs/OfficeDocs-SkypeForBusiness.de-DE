@@ -1,30 +1,24 @@
 ---
 title: Ressourcen für Administrator-Schulung – Microsoft Teams
 ms.reviewer: jhwang
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.collection:
-- M365-collaboration
-- Teams_ITAdmin_RemoteWorkers
+  - M365-collaboration
+  - Teams_ITAdmin_RemoteWorkers
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
-- seo-marvel-mar2020
-description: Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.
+  - ms.teamsadmincenter.dashboard.trainingvideos.admintrainingteams
+  - seo-marvel-mar2020
+description: 'Schulungskurse, PowerPoint-Präsentationen, Lernprogramme und weitere Ressourcen für Administratoren zum Planen, Bereitstellen und Ausführen von Microsoft Teams.'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: d85d4a3efd158cb9cc972ef7d7f059e8b3c6fbec
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766648"
+  - Microsoft Teams
 ---
 # <a name="getting-started-with-admin-training-for-microsoft-teams"></a>Schneller Einstieg mit der Administrator-Schulung für Microsoft Teams
 
@@ -40,8 +34,8 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 
 |&nbsp; |&nbsp; |&nbsp;  |
 |---------|---------|---------|
-|Teams für [**die IT–**](https://aka.ms/MicrosoftTeamsforIT) Die Videoreihe "Teams for IT" von Microsoft Mechanics zeigt Ihnen – dem Administrator – das Rollout, die Konfiguration und die Verwaltung Teams.     |[**Unterstützen Sie Remotemitarbeiter mithilfe Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Erhalten Sie die benötigten Anleitungen – einschließlich Links zu Schulungen –, um Ihre Benutzer zu unterstützen, die von zu Hause aus arbeiten.         |[**Verwalten der Teamzusammenarbeit für die IT**](/learn/paths/m365-manage-team-collaboration) – Erfahren Sie, wie Sie mithilfe Teams, um Teamarbeit und die Kommunikation in Ihrer Organisation anwendungs- und geräteübergreifend zu vereinfachen.         |
-|[**Zertifizierung für Experten zur**](/learn/paths/m365-service-adoption) Dienstan adoption – Die Funktionen des Zertifizierungskurss Microsoft Service Adoption Specialist Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.     |[**Einführung in die Teamarbeit in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) – Die Funktionen des Kurses für die Zertifizierung von Microsoft-Dienstanbietern Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.        |[**Microsoft 365 zertifiziert:**](/learn/certifications/m365-teamwork-administrator) Teamadministratoren zuordnen – Microsoft 365 Teamadministratoren konfigurieren, bereitstellen und verwalten Microsoft 365- oder Office 365-Workloads, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams.        |
+|[**Teams für die IT**](https://aka.ms/MicrosoftTeamsforIT)– Die Microsoft Mechanics-Videoreihe "Teams for IT" zeigt Ihnen – dem Administrator – das Rollout, die Konfiguration und die Verwaltung Teams.     |[**Unterstützen Sie Remotemitarbeiter mithilfe Microsoft Teams**](support-remote-work-with-teams.md#support-remote-workers-using-microsoft-teams) - Erhalten Sie die benötigten Anleitungen – einschließlich Links zu Schulungen –, um Ihre Benutzer zu unterstützen, die von zu Hause aus arbeiten.         |[**Verwalten der Teamzusammenarbeit für die IT**](/learn/paths/m365-manage-team-collaboration) – Erfahren Sie, wie Sie mithilfe Teams, um Teamarbeit und Die Kommunikation in Ihrer Organisation anwendungs- und geräteübergreifend zu vereinfachen.         |
+|[**Zertifizierung für Experten zur**](/learn/paths/m365-service-adoption) Service-Einführung – Die Funktionen des Zertifizierungskurss Microsoft Service Adoption Specialist Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.     |[**Einführung in die Teamarbeit in Microsoft 365**](/learn/modules/intro-to-teamwork-in-m365/index) – Die Funktionen des Kurses für die Zertifizierung von Microsoft-Dienstanbietern Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Diensten in Ihrer Organisation fördern.        |[**Microsoft 365 zertifiziert:**](/learn/certifications/m365-teamwork-administrator) Teamadministratoren zuordnen – Microsoft 365 Teamadministratoren konfigurieren, bereitstellen und verwalten Microsoft 365- oder Office 365-Workloads, z. B. SharePoint (online, lokal und hybrid), OneDrive und Teams.        |
 
 <h2>Technische Schulung</h2>
 
@@ -75,13 +69,13 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Modul 5: Konfigurieren und erste Schritte mit Microsoft Teams-Räumen (32:27 Min.) | [Video](https://www.youtube.com/watch?v=Q_6F6CNcpxI) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-5-starting-and-configuring-teams-rooms.pdf?raw=true) |
 | Modul 6: Verwalten von Microsoft Teams-Räumen, Teil 1 (18:31 Min.) | [Video](https://www.youtube.com/watch?v=XMoZa9XGQfw) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-6-managing-teams-rooms-part-1.pdf?raw=true) |
 | Modul 7: Verwalten von Microsoft Teams-Räumen, Teil 2 (41:06 Min.) | [Video](https://www.youtube.com/watch?v=vDCYM5sKylc) | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-7-managing-teams-rooms-part-2.pdf?raw=true) |
-| Modul 8: Microsoft Teams-Räume - Tipps, Tricks und Problembehandlung (18:14 Min.)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
+| Modul 8: Microsoft Teams-Räume-Tipps, Tricks und Problembehandlung (18:14 Min.)|[Video](https://www.youtube.com/watch?v=W3b-iRrFECA)  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8a-tips-tricks-troubleshooting.pdf?raw=true)|
 | Ein-Kick-Beitrittsanleitungen |  | [Foliensatz](https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness/blob/live/Teams/downloads/rooms/module-8b-one-touch-join-instructions.pdf?raw=true)  |
 | Einführung in Microsoft Teams-Räume Verwaltete Dienste |  | [Foliensatz](https://download.microsoft.com/download/c/e/a/cead2658-d64d-43b7-a728-b4512b325fb8/module-7b-Teams-Managed-Rooms-intro.pdf)  |
 
 <h2>Teams Android-Geräte</h2>
 
-<p>Die folgende Tabelle enthält Links zu umfassenden Schulungen mit PowerPoint-Gruppen (im PDF-Format) auf Microsoft Teams Android-Geräten, die Teams Displays, Teams Phones, Teams-Räume für Android und Teams Panels enthalten.  
+<p>Die folgende Tabelle enthält Links zu umfassenden Schulungen mit PowerPoint-Bildschirmen (im PDF-Format) auf Microsoft Teams Android-Geräten, die Teams Displays, Teams Phones, Teams-Räume für Android und Teams Panels enthalten.  
 
 | Modul | PowerPoint-Foliensatz (PDF)  |
 | ------------| -------------------- |
@@ -89,16 +83,16 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Modul 2: Planen Microsoft Teams Android-Geräten|[Foliensatz](https://download.microsoft.com/download/f/8/f/f8f94605-9545-449b-b5d3-f24efc55f966/Planning%20Microsoft%20Teams%20Android%20Devices.pdf) |
 |Modul 3: Features von Microsoft Teams Android-Geräten |[Foliensatz](https://download.microsoft.com/download/c/9/9/c9922544-7e27-40af-bf19-dbdc8516f0c1/Module%203-%20Features%20of%20Microsoft%20Teams%20Android%20Devices.pdf)|
 |Modul 4: Verwalten Microsoft Teams Android-Geräten|[Foliensatz](https://download.microsoft.com/download/c/e/b/ceb686ff-9be2-495c-9e2e-80047765e5b4/(4)%20Managing%20Microsoft%20Teams%20Android%20Devices.pdf)|
-|Modul 5: Microsoft Teams von Android-Geräten – Problembehandlung |[Foliensatz](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
+|Modul 5: Microsoft Teams android-Geräte – Problembehandlung |[Foliensatz](https://download.microsoft.com/download/d/3/7/d3728209-5caa-4bfb-b46a-3b840e80142a/Microsoft%20Teams%20Android%20Devices%20-%20Troubleshooting.pdf)|
 
 <h2>Interaktive Handbücher</h2>
 
 | Titel                                                                       | Kurzbeschreibung                                                                                                                                                                                                               |  Link zum Handbuch                             |
 |-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
 | Identität, Zugriffsverwaltung und Bedrohungsschutz für Teams                   | Erfahren Sie, wie Sie Microsoft Admin Center und PowerShell verwenden, um Zugriffs- und Identitätsrichtlinien zu konfigurieren und den erweiterten Bedrohungsschutz von Office 365 (Office 365 ATP) für Teams zu aktivieren                                                            | [Sicherheitshandbuch für Microsoft Teams](https://aka.ms/teamsesecurityinteractiveguide)         |
-| DLP-Richtlinien (Data Loss Prevention) für Microsoft Teams                     | Erfahren Sie, Microsoft Teams einer vorhandenen DLP-Richtlinie Richtlinien hinzufügen und eine neue Richtlinie erstellen, ganz gleich, ob diese auf einer Vorlage basiert oder vollständig an die Anforderungen Ihrer Organisation an den Datenschutz angepasst ist.                        | [Teams DLP-Leitfaden](https://aka.ms/teamsdlpguide)         |
+| Richtlinien zur Verhinderung von Datenverlust (Data Loss Prevention, DLP) für Microsoft Teams                     | Erfahren Sie, wie sie Microsoft Teams DLP-Richtlinie hinzufügen und eine neue Richtlinie erstellen, ganz gleich, ob diese auf einer Vorlage basiert oder vollständig an die Anforderungen Ihrer Organisation an den Datenschutz angepasst ist.                        | [Teams DLP-Leitfaden](https://aka.ms/teamsdlpguide)         |
 | Verwaltung der Compliance in Teams                                                | Verwenden Sie die Verwaltungszentren von Microsoft 365 Security, Microsoft 365 Compliance und Microsoft Teams sowie Windows PowerShell, um die Microsoft Teams-Richtlinien und -Einstellungen einer Office 365-Organisation zu verwalten und zu konfigurieren. | [Handbuch für die Verwaltung der Compliance in Teams](https://aka.ms/complianceinteamsinteractiveguide)      |
-| Advisor für Teams: Chats, Teams, Kanäle und Apps in Microsoft Teams bereitstellen | Erfahren Sie, wie sie Teams verwenden, um Ihre Umgebung zu bewerten und einen Plan für die Bereitstellung von Chats, Teams, Kanälen und Apps zu erstellen.                                                                                         |  [Handbuch für den Advisor für Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
+| Advisor für Teams: Chats, Teams, Kanäle und Apps in Microsoft Teams bereitstellen | Erfahren Sie, wie Sie Teams-Berater verwenden, um Ihre Umgebung zu bewerten und einen Plan für die Bereitstellung von Chats, Teams, Kanälen und Apps zu erstellen.                                                                                         |  [Handbuch für den Advisor für Teams](https://aka.ms/MicrosoftTeamsAdvisorInteractiveguide)  |
 | Optimierung der Teams-Verwaltung mit PowerShell und dynamischen Gruppen        | Konvertieren Sie eine Office 365-Gruppe von einer statischen Mitgliedschaft in eine dynamische und verwenden Sie Windows PowerShell, um allen Mitgliedern eine neue App-Berechtigungsrichtlinie zuzuweisen.                                                                         |  [Handbuch für die Optimierung der Teams-Verwaltung](https://aka.ms/StreamliningTeamsadminInteractiveGuide) |
 | Verwalten von Teams und Gastzugriffen im Microsoft Teams Admin Center         | Erfahren Sie, wie Sie Microsoft Teams und Gastzugriffe für Ihr Unternehmen konfigurieren und verwalten.                                                                                                                              | [Handbuch für die Verwaltung von Teams und Gastzugriffen](https://aka.ms/TeamsandGuestAccessInteractiveGuide)    |
 | Konfigurieren des Teams-Telefonsystems: Automatische Telefonzentrale und Anrufwarteschleife                   | Gehen Sie Schritt für Schritt durch den Prozess des Erstellens und Bereitstellens einer Anrufwarteschleife und einer automatischen Telefonzentrale als Teil von Microsoft Teams-Anrufen mit dem Microsoft Teams Admin Center.                                                          |  [Handbuch für das Konfigurieren des Teams-Telefonsystems](https://aka.ms/TeamsPhoneInteractiveGuide)             |
@@ -108,7 +102,7 @@ Verwenden Sie die Schulungsressourcen, um sich selbst über Teams zu informieren
 | Konfigurieren von Audiokonferenzen für Microsoft Teams                            | Entdecken Sie die Funktionalitäten von Audiokonferenzen in Teams und erfahren Sie, wie Sie Konferenzbrücken und Einwahlrufnummern zuweisen.                                                                                          |  [Handbuch für das Konfigurieren von Audiokonferenzen für Microsoft Teams](https://aka.ms/AudioConferencingInteractiveGuide)      |
 | Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion                           | Erfahren Sie, wie Sie die richtige Microsoft Teams-Umgebung für Ihre Mitarbeiter in Service und Produktion konfigurieren und bereitstellen.                                                                                                                  | [Handbuch für das Konfigurieren von Microsoft Teams für Mitarbeiter in Service und Produktion](https://aka.ms/ConfigFLWInteractiveGuide)              |
 | Identität für die Mitarbeiter an vorder frontline: Mehr Personal für IT, Manager und Mitarbeiter an vorderer Front                    | Erfahren Sie, wie Sie Microsoft Teams vorhandene HR-Systeme integrieren, einfache delegierte Identitätsverwaltung konfigurieren sowie vereinfachte Anmeldung und nahtlose Übergänge für Benutzer mit gemeinsam genutzten Geräten konfigurieren.                                                                                                                  | [Leitfaden zur Identität von Frontline-Workern](https://aka.ms/FLWIdentityIG)              |
-| Bereitstellen Microsoft Teams-Räume                           | Erfahren Sie, wie Sie im Admin Center ein Konto Microsoft Teams-Räume und das Gerät verwalten, das Sie Microsoft Teams können.                                                                                                                  | [Bereitstellen Microsoft Teams-Räume](https://aka.ms/teamsroomslab)              |
+| Bereitstellen Microsoft Teams-Räume                           | Hier erfahren Sie, wie Sie ein Konto für die Verwendung mit Microsoft Teams-Räume und das Verwalten des Geräts im Microsoft Teams Admin Center erstellen und konfigurieren.                                                                                                                  | [Bereitstellen Microsoft Teams-Räume](https://aka.ms/teamsroomslab)              |
 |Arbeiten mit Teams zertifizierten Android-Geräten|Hier erfahren Sie, wie Sie Microsoft Teams Telefone, Microsoft Teams Anzeigen, Microsoft Teams-Räume und Microsoft Teams verwalten und aktualisieren.|[Arbeiten mit Microsoft Teams zertifizierten Android-Geräten](https://aka.ms/teamsandroiddeviceslab)|
 
 <h2>Schnellstarthandbücher</h2>
