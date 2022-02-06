@@ -1,25 +1,20 @@
 ---
 title: Verwalten von Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 603ccdfd-9985-41d8-a526-8570ba9b1b76
-description: 'Zusammenfassung: Erkunden Sie diese Links, um zu erfahren, wie Sie Skype for Business Server verwalten und verwalten.'
-ms.openlocfilehash: 899d0b3b36c3ce7950f2a87bf7e3bc8027a35a08
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841187"
+description: 'Zusammenfassung: Sehen Sie sich diese Links an, um zu erfahren, wie Sie Skype for Business Server verwalten und verwalten.'
 ---
+
 # <a name="manage-skype-for-business-server"></a>Verwalten von Skype for Business Server 
 
 **Zusammenfassung:** Erkunden Sie diese Links, um zu erfahren, wie Sie Skype for Business Server verwalten und verwalten.
@@ -51,11 +46,11 @@ Die folgenden Artikel zum Konfigurieren, Überwachen und Verwalten von Skype for
    
 ## <a name="additional-resources-about-planning-for-skype-for-business-server"></a>Weitere Ressourcen zur Planung von Skype for Business Server
 
-Die folgenden Ressourcen zur Planung von Skype for Business Server stehen von anderen Fachexperten zur Verfügung. 
+Die folgenden Ressourcen zur Planung von Skype for Business Server stehen von anderen Experten zur Verfügung. 
   
 |&nbsp;|**Inhalt**|**Beschreibung**|
 |:-----|:-----|:-----|
 |![Symbol für Dokumente.](../media/4eff581b-890b-46cb-8224-a4122137d27e.png)|[Skype for Business Server für IT-Spezialisten](../../Hub/index.yml)  |Besuchen Sie das Ressourcencenter, um auf Videos, Communitywebsites, Dokumentationen, Downloads und vieles mehr zuzugreifen. |
 |![Symbol für Entwicklerinhalte.](../media/3626138a-2778-407e-911f-a0dcbdc36684.png)|Skype for Business Server für Entwickler   |Hier finden Sie Entwicklerressourcen für Skype for Business Server, einschließlich Codebeispielen, Schulungen und SDKs. |
-|![Symbol für Nachrichten, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change Management und Einführung](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [blog Skype Team](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Halten Sie sich über Neuigkeiten aus den Teams auf dem Laufenden, die Skype for Business Server erstellen und dokumentieren.  |
+|![Symbol für Nachrichten, Blogs usw.](../media/ac692cb8-7db8-4810-b53f-1bc88b1e4cac.png)|[Change Management und Einführung](https://go.microsoft.com/fwlink/p/?LinkId=532796) <br/> [Office-Blogs](https://go.microsoft.com/fwlink/p/?LinkId=528899) <br/> [Skype-Teamblog](https://go.microsoft.com/fwlink/p/?LinkId=532818)  |Halten Sie sich über Neuigkeiten aus den Teams auf, die Skype for Business Server erstellen und dokumentieren.  |
 

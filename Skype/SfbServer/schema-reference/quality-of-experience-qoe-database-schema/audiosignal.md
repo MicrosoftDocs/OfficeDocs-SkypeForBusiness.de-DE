@@ -1,34 +1,29 @@
 ---
 title: AudioSignal-Tabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0013c8c6-cdf9-4d70-bc2a-cddd1560f66b
-description: Jeder Datensatz stellt Audiosignalmetriken für einen Endpunkt dar. In der Regel hat jeder Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
-ms.openlocfilehash: ee9029992e925fd43cc55da85bc4a7c127793e54
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843598"
+description: 'Jeder Datensatz stellt Audiosignalmetriken für einen Endpunkt dar. In der Regel hat jeder Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.'
 ---
+
 # <a name="audiosignal-table"></a>AudioSignal-Tabelle
  
 Jeder Datensatz stellt Audiosignalmetriken für einen Endpunkt dar. In der Regel hat jeder Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen. 
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |**FromCaller** <br/> |Bit  <br/> |Primary  <br/> |0: Daten des Angerufenen  <br/> 1: Anruferdaten  <br/> |
 |**SendSignalLevel** <br/> |int  <br/> | <br/> |Stellt die Post-Analog Gain Control-Audiosignalstufe dar. Die Einheit für diese Metrik ist dBmo. Zum Erzielen einer akzeptablen Qualität sind mindestens 30 dBmo erforderlich. Diese Metrik wird nicht vom A/V-Konferenzserver oder von IP-Telefonen berichtet.  <br/> |
 |**RecvSignalLevel** <br/> |int  <br/> | <br/> |Siehe SendSignalLevel.  <br/> |

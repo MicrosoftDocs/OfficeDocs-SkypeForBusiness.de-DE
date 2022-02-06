@@ -1,27 +1,22 @@
 ---
 title: Allgemeine Einstellungen für Director – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorGeneralSettingsExpander
+  - ms.lync.tb.DirectorGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 2026d0dd-6745-4e53-8b44-acdc378b47d1
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 13c86f57084724511044d32db98b41988f3e48c0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861602"
 ---
+
 # <a name="director-general-settings-expander"></a>Allgemeine Einstellungen für Director – Erweiterung
  
 Zum Bearbeiten der Einstellungen für einen vorhandenen Director werden die folgenden Abschnitte angezeigt:
@@ -37,7 +32,7 @@ Vollqualifizierter Domänenname (FQDN) des Director-Pools. Bearbeiten Sie den FQ
   
 In **Zuordnungen** können Sie Folgendes bearbeiten oder angeben:
   
-Dateifreigabe für den zu verwendenden Director-Pool. Wählen Sie eine vorhandene Dateifreigabe aus, die bereits im Topologie-Generator definiert wurde, oder klicken Sie auf **Neu,** um eine neue Dateifreigabedefinition zu erstellen.
+Dateifreigabe für den zu verwendenden Director-Pool. Wählen Sie eine vorhandene Dateifreigabe aus, die bereits im Topologie-Generator definiert wurde, oder klicken Sie auf **Neu** , um eine neue Dateifreigabedefinition zu erstellen.
   
 SQL Server-Speicher für Überwachung.
   
@@ -51,7 +46,7 @@ Wenn Sie zusätzliche Einstellungen für die Webdienste im Director-Pool bearbei
 Für **Interne Webdienste** können Sie Folgendes angeben:
   
 > [!CAUTION]
-> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der FQDN der externen Webdienste eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der FQDN der externen Webdienste, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
   
 Wenn Sie die Außerkraftsetzung des FQDN wählen, können Sie einen anderen FQDN für die Identität der internen Webdienste im Pool angeben. In der Standardeinstellung entspricht die Einstellung dem aktuellen Poolnamen, der für den Director-Pool definiert ist.
   

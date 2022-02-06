@@ -1,27 +1,22 @@
 ---
 title: Systemsteuerung – aktualisierte Benutzersuche
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.UserMain
+  - ms.lync.lscp.UserMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 50feb75f-92a1-4916-b92e-c039e1290c52
-ROBOTS: NOINDEX, NOFOLLOW
-description: Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für Skype for Business Server zu konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URIs (Uniform Resource Identifier) nach Benutzern suchen. Sie können auch über die Lync Server-Systemsteuerung oder das Snap-In "Active Directory-Benutzer und -Computer" nach Benutzern suchen.
-ms.openlocfilehash: 3c5bdc9de490adbc022f00342d291d012da78d4b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854929"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für Skype for Business Server zu konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URIs (Uniform Resource Identifier) nach Benutzern suchen. Sie können auch über die Lync Server-Systemsteuerung oder das Snap-In "Active Directory-Benutzer und -Computer" nach Benutzern suchen.'
 ---
+
 # <a name="control-panel---updated-user-search"></a>Systemsteuerung – aktualisiert: Benutzersuche
 
 Sie können die Ergebnisse einer Suchabfrage verwenden, um Benutzer für Skype for Business Server zu konfigurieren. Sie können anhand des Anzeigenamens, des Vornamens, des Nachnamens, des SAM-Kontonamens (Security Accounts Manager), der SIP-Adresse oder des Anschluss-URIs (Uniform Resource Identifier) nach Benutzern suchen. Sie können auch über die Lync Server-Systemsteuerung oder das Snap-In "Active Directory-Benutzer und -Computer" nach Benutzern suchen.
@@ -60,7 +55,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 - **Feld "Benutzer durchsuchen"** Geben Sie die Benutzerdaten oder den LDAP-Ausdruck ein, für den sie verwendet werden sollen.
 
-- **Suchen** Klicken Sie hier, um die Benutzer anzuzeigen, die den von Ihnen im Suchbenutzer **und** -feld eingegebenen Suchwerten entsprechen.
+- **Finden** Klicken Sie hier, um die Benutzer anzuzeigen, die den von Ihnen im **Suchbenutzer und -** feld eingegebenen Suchwerten entsprechen.
 
 - **Abfrage öffnen** Klicken Sie, um eine gespeicherte Suchabfrage zu öffnen.
 
@@ -76,23 +71,23 @@ Fügen Sie je nach Bedarf weiteren Beschreibungstext hinzu.
 
 ### <a name="search-results-menus"></a>Suchergebnismenüs
 
-- **Aktivieren von Benutzern** Klicken Sie hier, um das Dialogfeld ["Benutzer: Neuer Lync Server-Benutzer"](ms.lync.lscp.UserNew.md) zu öffnen, in dem Sie Skype for Business Server einen neuen Benutzer hinzufügen können.
+- **Aktivieren von Benutzern** Klicken Sie hier, um das Dialogfeld ["Benutzer: Neuer Lync Server-Benutzer](ms.lync.lscp.UserNew.md)" zu öffnen, in dem Sie Skype for Business Server einen neuen Benutzer hinzufügen können.
 
     Klicken Sie zum Hinzufügen eines neuen Kontakts auf den Pfeil nach unten, und wählen Sie dann die Option **Kontakte aktivieren**, um das Dialogfeld [Users: New Contact Objects](ms.lync.lscp.UserNewContact.md) zu öffnen.
 
-- **Bearbeiten** Klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen",** um die Details des ausgewählten Benutzers anzuzeigen, oder klicken Sie auf **"Alle Suchergebnisse auswählen",** um alle Benutzer auszuwählen, die in der Ergebnistabelle angezeigt werden.
+- **Bearbeiten** Klicken Sie auf **"Bearbeiten** " und dann auf **"Details anzeigen** ", um die Details des ausgewählten Benutzers anzuzeigen, oder klicken Sie auf **"Alle Suchergebnisse auswählen** ", um alle Benutzer auszuwählen, die in der Ergebnistabelle angezeigt werden.
 
-- **Aktion** Klicken Sie auf **"Aktion",** und wählen Sie dann die Aktion aus, die Sie für die ausgewählten Benutzer in den Suchergebnissen ausführen möchten. Die folgenden Aktionen sind verfügbar:
+- **Aktion** Klicken Sie auf **"Aktion**", und wählen Sie dann die Aktion aus, die Sie für die ausgewählten Benutzer in den Suchergebnissen ausführen möchten. Die folgenden Aktionen sind verfügbar:
 
   - **Erneutes Aktivieren für Lync Server** Aktiviert das ausgewählte Benutzerkonto, nachdem es vorübergehend deaktiviert wurde.
 
   - **Vorübergehende Deaktivierung für Lync Server** Deaktiviert das Benutzerkonto in Skype for Business Server, bis Sie es erneut aktivieren, ohne das Benutzerkonto zu entfernen.
 
-  - **Zuweisen von Richtlinien** Öffnet das Dialogfeld ["Benutzer: Richtlinien zuweisen",](ms.lync.lscp.UserAssignPolicy.md) in dem Sie die dem Benutzer zugewiesenen Richtlinien konfigurieren können.
+  - **Zuweisen von Richtlinien** Öffnet das Dialogfeld ["Benutzer: Richtlinien zuweisen](ms.lync.lscp.UserAssignPolicy.md) ", in dem Sie die dem Benutzer zugewiesenen Richtlinien konfigurieren können.
 
-  - **Anzeigen des PIN-Status** Öffnet das Dialogfeld ["Benutzer: PIN-Status anzeigen",](ms.lync.lscp.UserViewPin.md) in dem die PIN-Daten für den ausgewählten Benutzer angezeigt werden.
+  - **Anzeigen des PIN-Status** Öffnet das Dialogfeld ["Benutzer: PIN-Status anzeigen](ms.lync.lscp.UserViewPin.md) ", in dem die PIN-Daten für den ausgewählten Benutzer angezeigt werden.
 
-  - **Pin festlegen** Öffnet das Dialogfeld [PIN festlegen,](ms.lync.lscp.UserSetPin.md) in dem Sie die PIN für den ausgewählten Benutzer festlegen können.
+  - **Pin festlegen** Öffnet das Dialogfeld [PIN festlegen](ms.lync.lscp.UserSetPin.md) , in dem Sie die PIN für den ausgewählten Benutzer festlegen können.
 
   - **PIN sperren** Sperrt die PIN für den Benutzer.
 
@@ -102,6 +97,6 @@ Fügen Sie je nach Bedarf weiteren Beschreibungstext hinzu.
 
   - **Entfernen des Benutzerzertifikats** Entfernt alle Zertifikate, die dem Benutzer erteilt wurden.
 
-  - **Verschieben ausgewählter Benutzer in den Pool** Öffnet das Dialogfeld ["Benutzer verschieben",](ms.lync.lscp.UserMove.md) in dem Sie einen Pool auswählen können, in den der ausgewählte Benutzer verschoben werden soll.
+  - **Verschieben ausgewählter Benutzer in den Pool** Öffnet das Dialogfeld ["Benutzer verschieben](ms.lync.lscp.UserMove.md) ", in dem Sie einen Pool auswählen können, in den der ausgewählte Benutzer verschoben werden soll.
 
-  - **Verschieben aller Benutzer in den Pool** Öffnet das Dialogfeld ["Benutzer verschieben",](ms.lync.lscp.UserMove.md) in dem Sie einen Pool auswählen können, in den alle ausgewählten Benutzer verschoben werden sollen.
+  - **Verschieben aller Benutzer in den Pool** Öffnet das Dialogfeld ["Benutzer verschieben](ms.lync.lscp.UserMove.md) ", in dem Sie einen Pool auswählen können, in den alle ausgewählten Benutzer verschoben werden sollen.

@@ -1,27 +1,22 @@
 ---
 title: Trunkeinstellungen – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.TrunkSettingsExpander
+  - ms.lync.tb.TrunkSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3d00e8f4-e599-4094-a4a1-34fd6e8a5580
 description: 'Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:'
-ms.openlocfilehash: ce5b7a82dbba580c96894cfdf51b4ca66dba7cbe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847468"
 ---
+
 # <a name="trunk-settings-expander"></a>Trunkeinstellungen – Erweiterung
 
 Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk die folgenden Aufgaben aus:
@@ -34,12 +29,12 @@ Führen Sie zum Bearbeiten oder Ändern der Einstellungen für einen SIP-Trunk d
 
  **SIP-Transportprotokoll**: Als Protokoll wird entweder TCP oder TLS verwendet. Als Standardeinstellung ist TLS festgelegt. In der Dokumentation des Gatewayherstellers finden Sie die von Ihrem Gateway unterstützten Protokolle. Wenn das Gateway TLS unterstützt, ist die Standardeinstellung "TLS" die Option mit höherer Sicherheit.
 
- **Zugeordneter Vermittlungsserver:** Wählen Sie einen vorhandenen Vermittlungsserver aus der Bereitstellung aus, der dem SIP-Trunk zugeordnet werden soll.
+ **Zugeordneter Vermittlungsserver**: Wählen Sie einen vorhandenen Vermittlungsserver aus der Bereitstellung aus, der dem SIP-Trunk zugeordnet werden soll.
 
 > [!NOTE]
 > Nur der Stammtrunk kann einem Lync Server 2010- oder Lync Server 2013-Vermittlungsserver zugeordnet werden.
 
- **Zugeordneter Vermittlungsserverport:** Ein erforderlicher Wert, der auf den Wert festgelegt ist, den der Vermittlungsserver für das Überwachen konfiguriert hat.
+ **Zugeordneter Vermittlungsserverport**: Ein erforderlicher Wert, der auf den Wert festgelegt ist, für den der Vermittlungsserver zum Überwachen konfiguriert ist.
 
 ![Trunk Einstellungen Expander.](../../media/Trunk_Settings_Expander.jpg)
 

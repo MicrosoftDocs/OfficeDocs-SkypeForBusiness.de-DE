@@ -1,31 +1,26 @@
 ---
 title: Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f91e80ee-a587-4a1b-ac8f-12fa102c098c
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Tastenzuordnung von DTMF-Befehlen (Dual-Tone Multi-Frequency) in Skype for Business Server verwalten.'
-ms.openlocfilehash: f4b380bddb9a0bc244887c44c85f02157f75b0e6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837637"
 ---
+
 # <a name="manage-key-mapping-for-dtmf-commands-in-skype-for-business-server"></a>Verwalten der Tastenzuordnung für DTMF-Befehle in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die Tastenzuordnung von DTMF-Befehlen (Dual-Tone Multi-Frequency) in Skype for Business Server verwalten.
   
 Benutzer von Einwahlkonferenzen können Tasten auf der Telefontastatur drücken, um DTMF-Befehle (Dual-Tone Multi-Frequency) auszuführen. MIT DTMF-Befehlen können Benutzer, die sich in eine Konferenz einwählen, Konferenzeinstellungen (z. B. Stummschalten und Aufheben der Stummschaltung selbst oder Sperren und Entsperren der Konferenz) mithilfe der Tastatur auf ihrem Telefon steuern. 
   
-Um die für die DTMF-Befehle verwendeten Schlüssel zu verwalten, verwenden Sie die Skype for Business Server Verwaltungsshell mit den Cmdlets **"Get-CsDialinConferencingDtmfConfiguration",** **"Set-CsDialinConferencingDtmfConfiguration"** und **"New-CsDialinConferencingDtmfConfiguration".**
+Um die für die DTMF-Befehle verwendeten Schlüssel zu verwalten, verwenden Sie die Skype for Business Server Verwaltungsshell mit den Cmdlets **"Get-CsDialinConferencingDtmfConfiguration**", "**Set-CsDialinConferencingDtmfConfiguration**" und "**New-CsDialinConferencingDtmfConfiguration**".
   
 Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstellungen Vorrang vor den globalen Einstellungen. 
 
@@ -33,7 +28,7 @@ Beim Erstellen neuer DTMF-Einstellungen für Standorte haben die Standorteinstel
 
 1. Melden Sie sich beim Computer als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Benutzer mit der Rolle Cs-ServerAdministrator oder CsAdministrator an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus, um die für Einwahlkonferenzen verwendeten DTMF-Einstellungen anzuzeigen:
     
@@ -59,4 +54,4 @@ Im folgenden Beispiel wird die taste, die gedrückt wird, um Ankündigungen zu a
 Set-CsDialinConferencingDtmfConfiguration -EnableDisableAnnouncementsCommand 4 -AudienceMuteCommand 9
 ```
 
-Weitere Informationen finden Sie unter ["Get-CsDialInConferencingDtmfConfiguration",](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps) ["Set-CsDialInConferencingDtmfConfiguration"](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)und ["New-CsDialInConferencingDtmfConfiguration".](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps)
+Weitere Informationen finden Sie unter ["Get-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/get-csdialinconferencingdtmfconfiguration?view=skype-ps)[", "Set-CsDialInConferencingDtmfConfiguration](/powershell/module/skype/set-csdialinconferencingdtmfconfiguration?view=skype-ps)" und "[New-CsDialInConferencingDtmfConfiguration"](/powershell/module/skype/new-csdialinconferencingdtmfconfiguration?view=skype-ps).

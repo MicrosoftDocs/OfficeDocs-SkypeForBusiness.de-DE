@@ -1,30 +1,25 @@
 ---
 title: Office Web Apps-Server – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.OfficeWebAppsServersScopeNode
+  - ms.lync.tb.OfficeWebAppsServersScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 087ca1f2-2329-4fa1-b6bb-685f2f4ba296
-description: Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie "Neu Office Web Apps-Server" aus, um den Assistenten zu öffnen.
-ms.openlocfilehash: 862767cc78732b41be4325807599e9b1e89b1eb4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854429"
+description: 'Klicken Sie mit der rechten Maustaste auf Office Web Apps-Server, und wählen Sie "New Office Web Apps Server" aus, um den Assistenten zu öffnen.'
 ---
+
 # <a name="office-web-apps-servers-scope-node"></a>Office Web Apps-Server – Bereichsknoten
 
-Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server,** und wählen Sie **"New Office Web Apps Server" aus,** um den Assistenten zu öffnen.
+Klicken Sie mit der rechten Maustaste auf **Office Web Apps-Server**, und wählen Sie **"New Office Web Apps Server" aus**, um den Assistenten zu öffnen.
 
 ![OfficeWebApps-Server – Bereichsknoten.](../../media/OfficeWebApps_Servers_Scope_Node.jpg)
 

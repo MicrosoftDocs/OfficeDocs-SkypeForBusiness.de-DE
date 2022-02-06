@@ -1,27 +1,22 @@
 ---
 title: Skype for Business Server – Stammbereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RootScopeNode
+  - ms.lync.tb.RootScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d190f1f0-7741-432a-84ac-9530bb00abef
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Der Lync Server-Knoten listet die zentralen Standorte in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 32f57f091179decf1b19812cddc34aaae32bdb50
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828068"
 ---
+
 # <a name="skype-for-business-server-root-scope-node"></a>Skype for Business Server – Stammbereichsknoten
  
 Der **Lync Server-Knoten** listet die zentralen Standorte in Ihrer Topologie auf. Folgende Möglichkeiten stehen zur Verfügung:
@@ -42,7 +37,7 @@ Der **Lync Server-Knoten** listet die zentralen Standorte in Ihrer Topologie auf
     
 - **Datenbank installieren**. Ermöglicht ihnen das Erstellen der für Ihre Bereitstellung erforderlichen Datenbanken.
     
-- **Zusammenführen Office Communications Server 2007 R2-Topologie.** Startet den Zusammenführungs-Assistenten des Topologie-Generators. Dieses Tool sammelt Informationen zu Ihrer vorherigen Office Communications Server-Umgebung, einschließlich Edgeserverinformationen, und veröffentlicht diese Informationen in einer freigegebenen Datenbank. 
+- **Zusammenführen Office Communications Server 2007 R2-Topologie**. Startet den Zusammenführungs-Assistenten des Topologie-Generators. Dieses Tool sammelt Informationen zu Ihrer vorherigen Office Communications Server-Umgebung, einschließlich Edgeserverinformationen, und veröffentlicht diese Informationen in einer freigegebenen Datenbank. 
     
 - **Bereitstellung entfernen** Startet den Assistenten zum Entfernen der Bereitstellung, mit dem Sie mit dem Entfernen der gesamten Bereitstellung beginnen können.
     

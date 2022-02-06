@@ -1,24 +1,19 @@
 ---
 title: Verwenden von Überwachungsberichten in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 733577d0-c70f-4c70-ab7b-59b89fb495a8
 description: 'Zusammenfassung: Erfahren Sie mehr über Überwachungsberichte in Skype for Business Server.'
-ms.openlocfilehash: 0088bb5a83de7f1f22e14461bb841a6011810444
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862282"
 ---
+
 # <a name="using-monitoring-reports-in-skype-for-business-server"></a>Verwenden von Überwachungsberichten in Skype for Business Server 
  
 **Zusammenfassung:** Erfahren Sie mehr über Überwachungsberichte in Skype for Business Server.
@@ -29,15 +24,15 @@ Um diese Berichte verwenden zu können, müssen Sie Überwachungsberichte auf ei
   
 ## <a name="in-this-section"></a>In diesem Abschnitt
 
-- [Verwenden des Monitoring-Dashboards in Skype for Business Server](monitoring-dashboard.md) Bietet Administratoren einen schnellen Überblick über ihre Systemintegrität und Systemnutzung.
+- [Die Verwendung des Monitoring-Dashboards in Skype for Business Server](monitoring-dashboard.md) bietet Administratoren einen schnellen Überblick über ihre Systemintegrität und Systemnutzung.
     
-- [Systemverwendungsberichte in Skype for Business Server](system-usage-reports.md) Stellt Systemnutzungsinformationen basierend auf KDS-Daten bereit, die von Skype for Business Server gesammelt werden.
+- [Systemnutzungsberichte in Skype for Business Server](system-usage-reports.md) Enthält Systemnutzungsinformationen basierend auf KDS-Daten, die von Skype for Business Server gesammelt wurden.
     
-- [Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server](call-diagnostic-reports-per-user.md) Stellt benutzerspezifische Informationen zu fehlgeschlagenen Peer-to-Peer- und Konferenzsitzungen bereit.
+- [Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server](call-diagnostic-reports-per-user.md) enthält benutzerspezifische Informationen zu fehlgeschlagenen Peer-to-Peer- und Konferenzsitzungen.
     
-- [Anrufdiagnoseberichte in Skype for Business Server](call-diagnostic-reports.md) Enthält zusammenfassende Informationen und Diagnosedaten für fehlerhafte Peer-to-Peer- und Konferenzsitzungen.
+- [Anrufdiagnoseberichte in Skype for Business Server](call-diagnostic-reports.md) enthält zusammenfassende Informationen und Diagnosedaten für fehlerhafte Peer-to-Peer- und Konferenzsitzungen.
     
-- [Diagnoseberichte zur Medienqualität in Skype for Business Server](media-quality-diagnostic-reports.md) Stellt Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlgeschlagene Anrufe bereit.
+- [Diagnoseberichte zur Medienqualität in Skype for Business Server](media-quality-diagnostic-reports.md) Enthält Informationen zur Anrufqualität sowie Diagnose- und Problembehandlungsinformationen für fehlgeschlagene Anrufe.
     
 ## <a name="locating-records"></a>Suchen von Datensätzen
 

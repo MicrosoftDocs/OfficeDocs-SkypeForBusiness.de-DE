@@ -1,23 +1,18 @@
 ---
 title: Anzeigen von Trunkkonfigurationsinformationen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert.
-ms.openlocfilehash: b7623765f8d1341066fd127e82c89ab1fa14c79c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843828"
+description: 'Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert.'
 ---
+
 # <a name="view-trunk-configuration-information-in-skype-for-business-server"></a>Anzeigen von Trunkkonfigurationsinformationen in Skype for Business Server
 
 Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktionen zwischen einem Vermittlungsserver und dem PSTN-Gateway (Public Switched Telephone Network), einer IP-Nebenstellenanlage (Private Branch Exchange, PBX) oder einem SBC (Session Border Controller) des Dienstanbieters definiert.
@@ -28,19 +23,19 @@ Mit SIP-Trunk-Konfigurationseinstellungen werden die Beziehung und die Funktione
 
 Wenn Sie Skype for Business Server installieren, wird eine globale Auflistung von SIP-Trunkkonfigurationseinstellungen für Sie erstellt. Außerdem können Administratoren benutzerdefinierte Einstellungssammlungen auf Standortebene oder Dienstebene erstellen (nur für den PSTN-Gatewaydienst).
 
-**So zeigen Sie siptrunkkonfigurationsinformationen mithilfe Skype for Business Server Systemsteuerung an**
+**So zeigen Sie SIP-Trunkkonfigurationsinformationen mithilfe Skype for Business Server Systemsteuerung an**
 
-1. Klicken Sie in der Skype for Business Server Systemsteuerung auf **VoIP-Routing** und dann auf **Trunkkonfiguration.**
-2. Auf der Registerkarte **"Trunkkonfiguration"** wird eine Liste aller Sammlungen der Trunkkonfigurationseinstellungen angezeigt. Für jede Auflistung werden Werte für die Eigenschaften **Name,** **Bereich,** **Status** und **Medienumgehung** zusammen mit der Anzahl der **PSTN-Verwendungen,** **Anrufnummernregeln** und Der Auflistung zugeordneten Regeln für **angerufene Nummern** angezeigt. Um weitere Details zu einer Sammlung von Trunkkonfigurationseinstellungen anzuzeigen, klicken Sie auf die sammlung von Interesse, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen.** Beachten Sie, dass Sie detaillierte Informationen jeweils nur für eine Sammlung von Trunkkonfigurationseinstellungen anzeigen können.
+1. Klicken Sie in der Skype for Business Server Systemsteuerung auf **VoIP-Routing** und dann auf **Trunkkonfiguration**.
+2. Auf der Registerkarte " **Trunkkonfiguration** " wird eine Liste aller Sammlungen der Trunkkonfigurationseinstellungen angezeigt. Für jede Auflistung werden Werte für die Eigenschaften **Name**, **Bereich**, **Status** und **Medienumgehung** zusammen mit der Anzahl der **PSTN-Verwendungen**, **Anrufnummernregeln** und Der Auflistung zugeordneten **Regeln für angerufene Nummern** angezeigt. Um weitere Details zu einer Sammlung von Trunkkonfigurationseinstellungen anzuzeigen, klicken Sie auf die sammlung von Interesse, klicken Sie auf **Bearbeiten** und dann auf **Details anzeigen**. Beachten Sie, dass Sie detaillierte Informationen jeweils nur für eine Sammlung von Trunkkonfigurationseinstellungen anzeigen können.
 
-## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von SIP-Trunkkonfigurationsinformationen mithilfe Windows PowerShell Cmdlets
+## <a name="viewing-sip-trunk-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zur SIP-Trunkkonfiguration mithilfe Windows PowerShell Cmdlets
 
-SIP-Trunkkonfigurationseinstellungen können mit Skype for Business Server PowerShell und dem Cmdlet Get-CsTrunkConfiguration angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Blogartikel "Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell" unter "Lync Server https://go.microsoft.com/fwlink/p/?linkId=255876 Windows PowerShell". ERSETZEN ODER ENTFERNEN SIE DIESEN LINK.
+SIP-Trunkkonfigurationseinstellungen können mit Skype for Business Server PowerShell und dem cmdlet Get-CsTrunkConfiguration angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie im Lync Server Windows PowerShell Blogartikel "Schnellstart: Verwalten von Microsoft Lync Server 2010 mithilfe von Remote PowerShell" unter https://go.microsoft.com/fwlink/p/?linkId=255876. ERSETZEN ODER ENTFERNEN SIE DIESEN LINK.
 
 
 **So zeigen Sie SIP-Trunkkonfigurationsinformationen an**
 
-Um Informationen zu allen Sip-Trunkkonfigurationseinstellungen anzuzeigen, geben Sie den folgenden Befehl in die Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
+Geben Sie zum Anzeigen von Informationen zu allen SIP-Trunkkonfigurationseinstellungen den folgenden Befehl in die Skype for Business Server Verwaltungsshell ein, und drücken Sie dann die EINGABETASTE:
 
 ```powershell
 Get-CsTrunkConfiguration
@@ -74,4 +69,4 @@ Enable3pccRefer                           : False
 ForwardPAI                                : False
 EnableFastFailoverTimer                   : True
 ```
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Get-CsTrunkConfiguration".](/powershell/module/skype/Get-CsTrunkConfiguration)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Get-CsTrunkConfiguration](/powershell/module/skype/Get-CsTrunkConfiguration) ".

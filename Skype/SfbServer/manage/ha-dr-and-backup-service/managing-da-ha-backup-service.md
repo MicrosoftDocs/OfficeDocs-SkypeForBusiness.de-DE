@@ -1,24 +1,20 @@
 ---
-title: Verwalten von Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst
-ms.reviewer: ''
-author: HowlinWolf-92
-ms.author: v-mahoffman
+title: 'Verwalten von Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst'
+ms.reviewer: null
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: Erfahren Sie mehr über die Verfahren für Notfallwiederherstellungsvorgänge sowie für die Wartung des Sicherungsdiensts, der die Daten in gepaarten Front-End-Pools synchronisiert.
-ms.openlocfilehash: 6d3eb3356c48a99974390f43bc0114d7d6507353
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849938"
+description: 'Erfahren Sie mehr über die Verfahren für Notfallwiederherstellungsvorgänge sowie für die Wartung des Sicherungsdiensts, der die Daten in gepaarten Front-End-Pools synchronisiert.'
 ---
-# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten Skype for Business Server Notfallwiederherstellung, hohe Verfügbarkeit und Sicherungsdienst
+
+
+# <a name="managing-skype-for-business-server-disaster-recovery-high-availability-and-backup-service"></a>Verwalten von Skype for Business Server Notfallwiederherstellung, hoher Verfügbarkeit und Sicherungsdienst
 
 Dieser Abschnitt enthält Verfahren für Notfallwiederherstellungsvorgänge sowie für die Wartung des Sicherungsdiensts, der die Daten in gepaarten Front-End-Pools synchronisiert.
 
@@ -26,7 +22,7 @@ Notfallwiederherstellungsprozeduren, sowohl Failover als auch Failback, sind man
 
 Bei den Verfahren für die Notfallwiederherstellung in diesem Abschnitt wird Folgendes vorausgesetzt:
 
-  - Sie verfügen über eine Bereitstellung mit gepaarten Front-End-Pools, die sich an verschiedenen Standorten befinden, wie unter ["Plan for high availability and disaster recovery"](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)beschrieben. Der Sicherungsdienst wurde in diesen gekoppelten Pools ausgeführt, um sie synchronisiert zu halten.
+  - Sie verfügen über eine Bereitstellung mit gepaarten Front-End-Pools, die sich an verschiedenen Standorten befinden, wie unter ["Plan for high availability and disaster recovery](../../plan-your-deployment/high-availability-and-disaster-recovery/high-availability-and-disaster-recovery.md)" beschrieben. Der Sicherungsdienst wurde in diesen gekoppelten Pools ausgeführt, um sie synchronisiert zu halten.
 
   - Wenn der zentrale Verwaltungsspeicher in einem der Pools gehostet wird, wird er installiert und in beiden poolpaaren ausgeführt, wobei einer dieser Pools den aktiven Master und den anderen Pool hostet, der den Standbymodus hostet.
 

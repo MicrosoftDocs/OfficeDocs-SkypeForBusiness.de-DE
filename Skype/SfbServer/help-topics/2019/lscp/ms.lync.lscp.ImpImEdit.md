@@ -1,27 +1,22 @@
 ---
 title: URL-Filter Erstellen eines neuen oder Bearbeiten eines vorhandenen URL-Filters
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ImpImEdit
+  - ms.lync.lscp.ImpImEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 1406c7c5-eb55-4b6a-8d74-d625ea9e9922
-ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: e3e1bb47cb83387373280533afaa1564351ad638
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850328"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="url-filter-create-new-or-edit-existing"></a>URL-Filter: Erstellen eines neuen oder Bearbeiten eines vorhandenen URL-Filters
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

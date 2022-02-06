@@ -1,32 +1,27 @@
 ---
 title: Exchange Unified Messaging (Planning Tool)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.ExchagneUM
-- ms.lync.plan.ExchagneUM
+  - ms.lync.plan.ExchagneUM
+  - ms.lync.plan.ExchagneUM
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb767f83-2684-4006-a1f2-c6f0adf50f62
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur.
-ms.openlocfilehash: 6c96ab8a791bf95f8a53c99c8c4ae7977c739c09
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842247"
 ---
+
 # <a name="exchange-unified-messaging-planning-tool-in-skype-for-business-2015"></a>Exchange Unified Messaging (Planning Tool) in Skype for Business 2015
 
 > [!NOTE]
-> Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar, Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+> Exchange unified messaging as previously known is no longer available in Exchange 2019, but you can still use Telefonsystem to record voicemail messages and then leave the recording in a user's Exchange mailbox. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
 
 Skype for Business Server 2015 unterstützt die Integration in Exchange Unified Messaging (UM) zum Kombinieren von Sprachnachrichten und E-Mail-Nachrichten in einer einzigen Messaginginfrastruktur.
 
@@ -36,4 +31,4 @@ Weitere Informationen finden Sie unter:
 
 - "Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285341](/exchange/unified-messaging-exchange-2013-help)
 
-- "Planning for Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help) .
+- "Planning for Unified Messaging" unter [https://go.microsoft.com/fwlink/?LinkId=285344](/exchange/planning-for-unified-messaging-exchange-2013-help).

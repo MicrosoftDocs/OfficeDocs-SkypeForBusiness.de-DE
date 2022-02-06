@@ -1,26 +1,21 @@
 ---
 title: Eingehende Anrufe in Microsoft Teams blockieren
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-voice
+  - M365-voice
 audience: Admin
 ms.reviewer: roykuntz
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 ms.custom: Learn how to use PowerShell to manage inbound call blocking.
-ms.openlocfilehash: d1b5b19189ea301eab5d2c06dfa85be7d4ddb6eb
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827388"
 ---
+
 # <a name="block-inbound-calls"></a>Blockieren eingehender Anrufe
 
 Microsoft-Anrufpläne, Direct Routing und Telefonieanbieter unterstützen alle das Blockieren eingehender Anrufe aus dem öffentlichen Telefonnetz (PSTN). Mit dieser Funktion kann ein Administrator eine Liste von Nummernmustern auf globaler Ebene des Mandanten definieren, sodass die Anrufer-ID jedes eingehenden PSTN-Anrufs an den Mandanten mit der Liste auf Übereinstimmung geprüft werden kann. Wenn eine Übereinstimmung erfolgt, wird ein eingehender Anruf abgelehnt.

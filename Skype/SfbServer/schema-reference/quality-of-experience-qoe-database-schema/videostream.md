@@ -1,36 +1,31 @@
 ---
 title: VideoStream-Tabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4275ede7-5467-4a97-b8c8-a4b00917bf32
 description: Jeder Datensatz stellt einen Videostream dar. Eine Videomedienzeile enthält in der Regel zwei Videostreams.
-ms.openlocfilehash: 5e1b566db7ee3f79219835055d6e617beeea6da6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863252"
 ---
+
 # <a name="videostream-table"></a>VideoStream-Tabelle
  
 Jeder Datensatz stellt einen Videostream dar. Eine Videomedienzeile enthält in der Regel zwei Videostreams.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R, auf das aus der [MediaLine-Tabelle](medialine-0.md)verwiesen wird.  <br/> |
-|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |R, auf das aus der [MediaLine-Tabelle](medialine-0.md) verwiesen wird.  <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID innerhalb einer Medienzeile.  <br/> |
-|**VideoPayloadDescription** <br/> |Smallint  <br/> |Fremd, Primär  <br/> |Nutzlastbeschreibung. Weitere Informationen finden Sie in der [PayloadDescription-Tabelle.](payloaddescription.md) <br/> |
+|**VideoPayloadDescription** <br/> |Smallint  <br/> |Fremd, Primär  <br/> |Nutzlastbeschreibung. Weitere Informationen finden Sie in der [PayloadDescription-Tabelle](payloaddescription.md) . <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Durchschnittlicher Netzwerkjitter aus RTCP-Statistik (Real Time Control Protocol).  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Maximale Netzwerk-Jitter während der Videositzung.  <br/> |
 |**Roundtrip** <br/> |int  <br/> | <br/> |Roundtripzeit aus RTCP-Statistik.  <br/> |
@@ -77,14 +72,14 @@ Jeder Datensatz stellt einen Videostream dar. Eine Videomedienzeile enthält in 
 |**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamtdauer der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**VideoPacketLossRate** <br/> |decimal(9,4)  <br/> ||Videpaketverlustrate.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**VideoAllocateBWAvg** <br/> |int  <br/> ||Durchschnittliche für Video reservierte Bandbreite.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**SendCodecTypes** <br/> |Smallint  <br/> |Ausländisch  <br/> |Typ der vom Absender verwendeten Videocodecs. Weitere Informationen finden Sie in der [CodecDescription-Tabelle.](codecdescription.md) <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**SendCodecTypes** <br/> |Smallint  <br/> |Ausländisch  <br/> |Typ der vom Absender verwendeten Videocodecs. Weitere Informationen finden Sie in der [CodecDescription-Tabelle](codecdescription.md) . <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendResolutionWidth** <br/> |int  <br/> ||Vom Absender verwendete Auflösungsbreite.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendResolutionHeight** <br/> |int  <br/> ||Vom Absender verwendete Auflösungshöhe.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendFrameRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche Übertragung der Videoframerate, die vom Absender verwendet wird.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendBitRateMaximum** <br/> |int  <br/> ||Maximale Bitrate für den Absender.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**SendBitRateAverage** <br/> |int  <br/> ||Durchschnittliche Bitrate für den Absender.  <br/> |
 |**SendVideoStreamsMax** <br/> |int  <br/> ||Maximale Anzahl von Videostreams, die vom Absender verwendet werden.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RecvCodecTypes** <br/> |Smallint  <br/> |Ausländisch  <br/> |Vom Empfänger verwendete Videocodes. Weitere Informationen finden Sie in der [CodecDescription-Tabelle.](codecdescription.md) <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RecvCodecTypes** <br/> |Smallint  <br/> |Ausländisch  <br/> |Vom Empfänger verwendete Videocodes. Weitere Informationen finden Sie in der [CodecDescription-Tabelle](codecdescription.md) . <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RecvResolutionWidth** <br/> |int  <br/> ||Vom Empfänger verwendete Auflösungsbreite.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RecvResolutionHeight** <br/> |int  <br/> ||Vom Empfänger verwendete Auflösungshöhe.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RecvFrameRateAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittliche vom Empfänger verwendete Videoframerate.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |

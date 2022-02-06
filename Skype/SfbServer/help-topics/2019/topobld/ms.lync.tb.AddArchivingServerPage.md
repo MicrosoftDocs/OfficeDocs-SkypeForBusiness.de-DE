@@ -1,27 +1,22 @@
 ---
 title: Hinzufügen des Archivierungsservers
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AddArchivingServerPage
+  - ms.lync.tb.AddArchivingServerPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6a7106eb-8fd3-492a-a45c-f099496b11a2
-ROBOTS: NOINDEX, NOFOLLOW
-description: Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Bevor Sie eine Topologie veröffentlichen, die die Archivierung und die Installation Skype for Business Server umfasst, sollten Sie alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt haben.
-ms.openlocfilehash: 4afb41d76ae8a8307dba24e5c90cd970d0958d02
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854859"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Bevor Sie eine Topologie veröffentlichen, die die Archivierung und die Installation Skype for Business Server umfasst, sollten Sie alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt haben.'
 ---
+
 # <a name="add-archiving-server"></a>Hinzufügen des Archivierungsservers
  
 Zum Bereitstellen eines Archivierungsservers innerhalb des Topologieentwurfs müssen Sie den vollqualifizierten Domänennamen des Servers angeben, auf dem Sie die Archivierung bereitstellen möchten. Bevor Sie eine Topologie veröffentlichen, die die Archivierung und die Installation Skype for Business Server umfasst, sollten Sie alle Voraussetzungen für die Bereitstellung der Archivierung erfüllt haben. 

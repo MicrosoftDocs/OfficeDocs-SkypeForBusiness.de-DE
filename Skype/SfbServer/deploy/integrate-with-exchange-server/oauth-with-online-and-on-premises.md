@@ -1,29 +1,24 @@
 ---
 title: Integration zwischen Skype for Business Online und Exchange Server
 ms.reviewer: cbland
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/2/2019
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: ffe4c3ba-7bab-49f1-b229-5142a87f94e6
 description: Das Konfigurieren der OAuth-Authentifizierung zwischen Exchange lokal und Skype for Business Online ermöglicht die in der Featureunterstützung beschriebenen Skype for Business- und Exchange Integrationsfeatures.
-ms.openlocfilehash: dfc1bf25b19779b6a568a70e2cf18287d2f95d18
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864232"
 ---
+
 # <a name="configure-integration-and-oauth-between-skype-for-business-online-and-exchange-server"></a>Konfigurieren der Integration und OAuth zwischen Skype for Business Online und Exchange Server 
 
-Das Konfigurieren der Integration zwischen Exchange Server und Skype for Business Online ermöglicht die in der [Featureunterstützung](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support)beschriebenen Skype for Business- und Exchange Integrationsfeatures.
+Das Konfigurieren der Integration zwischen Exchange Server und Skype for Business Online ermöglicht die in der [Featureunterstützung](../../plan-your-deployment/integrate-with-exchange/integrate-with-exchange.md#feature_support) beschriebenen Skype for Business- und Exchange Integrationsfeatures.
 
 Dieses Thema bezieht sich auf die Integration in Exchange Server 2013 bis 2019.
 
@@ -31,11 +26,11 @@ Dieses Thema bezieht sich auf die Integration in Exchange Server 2013 bis 2019.
 
 - Geschätzte Zeit bis zum Abschließen dieser Aufgabe: 15 Minuten
 
--  Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den benötigten Berechtigungen finden Sie im Thema [Exchange und Shell-Infrastrukturberechtigungen.](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help)
+-  Bevor Sie diese Verfahren ausführen können, müssen Ihnen die entsprechenden Berechtigungen zugewiesen werden. Informationen zu den benötigten Berechtigungen finden Sie im Thema [Exchange und Shell-Infrastrukturberechtigungen](/exchange/exchange-and-shell-infrastructure-permissions-exchange-2013-help).
 
 - Informationen zu Tastenkombinationen für die Verfahren in diesem Thema finden Sie unter [Tastenkombinationen in der Exchange-Verwaltungskonsole]( https://go.microsoft.com/fwlink/p/?LinkId=746512).
 
-- Informationen zur Kompatibilität finden Sie unter [Skype for Business Kompatibilität mit Office-Apps.](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md)
+- Informationen zur Kompatibilität finden Sie unter [Skype for Business Kompatibilität mit Office-Apps](../../plan-your-deployment/clients-and-devices/compatibility-with-office.md).
 
 ## <a name="configure-integration-between-exchange-server-and-o365"></a>Konfigurieren der Integration zwischen Exchange Server und O365
 
@@ -47,9 +42,9 @@ Führen Sie die Schritte im folgenden Artikel aus:
 
 ### <a name="step-2-create-a-new-mail-user-account-for-the-skype-for-business-online-partner-application"></a>Schritt 2: Erstellen eines neuen E-Mail-Benutzerkontos für die Skype for Business Online-Partneranwendung
 
-Dieser Schritt wird auf dem Exchange Server ausgeführt. Er erstellt einen E-Mail-Benutzer und weist ihm die entsprechenden Verwaltungsrollenrechte zu. Dieses Konto wird dann im nächsten Schritt verwendet.
+Dieser Schritt erfolgt auf dem Exchange Server. Er erstellt einen E-Mail-Benutzer und weist ihm die entsprechenden Verwaltungsrollenrechte zu. Dieses Konto wird dann im nächsten Schritt verwendet.
 
-Geben Sie eine überprüfte Domäne für Ihre Exchange Organisation an. Diese Domäne sollte dieselbe Sein wie die primäre SMTP-Domäne, die für die lokalen Exchange Konten verwendet wird. Diese Domäne wird \<your Verified Domain\> im folgenden Verfahren bezeichnet. Außerdem sollte es \<DomainControllerFQDN\> sich um den FQDN eines Domänencontrollers handeln.
+Geben Sie eine überprüfte Domäne für Ihre Exchange Organisation an. Diese Domäne sollte dieselbe Sein wie die primäre SMTP-Domäne, die für die lokalen Exchange Konten verwendet wird. Diese Domäne wird im \<your Verified Domain\> folgenden Verfahren bezeichnet. Außerdem sollte es \<DomainControllerFQDN\> sich um den FQDN eines Domänencontrollers handeln.
 
 ```powershell
 $user = New-MailUser -Name SfBOnline-ApplicationAccount -ExternalEmailAddress SfBOnline-ApplicationAccount@<your Verified Domain> -DomainController <DomainControllerFQDN>
@@ -107,7 +102,7 @@ Verwenden Sie als Nächstes Windows PowerShell, um das lokale Autorisierungszert
 
 1. Klicken Sie auf die Verknüpfung **Azure Active Directory-Modul für Windows PowerShell**, um einen Windows PowerShell-Arbeitsbereich zu öffnen, in dem die Azure AD-Cmdlets installiert sind. Alle Befehle in diesem Schritt werden unter Verwendung der Windows PowerShell für die Azure Active Directory-Konsole ausgeführt.
 
-2. Speichern Sie den folgenden Text in einer PowerShell-Skriptdatei mit dem Namen,  `UploadAuthCert.ps1` z. B. .
+2. Speichern Sie den folgenden Text in einer PowerShell-Skriptdatei mit dem Namen, z. B  `UploadAuthCert.ps1`. .
 
    ```powershell
    Connect-MsolService;
@@ -134,7 +129,7 @@ Verwenden Sie als Nächstes Windows PowerShell, um das lokale Autorisierungszert
 Get-MsolServicePrincipalCredential -AppPrincipalId 00000004-0000-0ff1-ce00-000000000000
 ```
 2. Drücken Sie die EINGABETASTE, wenn Sie zur Eingabe von ReturnKeyValues aufgefordert werden.
-3. Vergewissern Sie sich, dass ein Schlüssel mit Start- und Enddaten aufgeführt ist, die mit Ihrem Exchange Oauth-Zertifikat-Start- und -Enddatum übereinstimmen
+3. Vergewissern Sie sich, dass ein Schlüssel mit Start- und Enddaten aufgeführt ist, die ihrem Exchange Oauth-Zertifikat-Start- und -Enddatum entsprechen.
 
 ### <a name="verify-your-success"></a>Überprüfen Ihres Erfolgs
 
@@ -144,13 +139,13 @@ Stellen Sie sicher, dass die Konfiguration korrekt ist, indem Sie überprüfen, 
 
 2. Bestätigen Sie, dass der Unterhaltungsverlauf für mobile Clients im Ordner Outlook Unterhaltungsverlauf angezeigt wird.
 
-3. Vergewissern Sie sich, dass archivierte Chatnachrichten im lokalen Postfach des Benutzers im Ordner "Löschvorgänge" mithilfe von [EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor)abgelegt werden.
+3. Vergewissern Sie sich, dass archivierte Chatnachrichten mit dem [EWSEditor](/archive/blogs/webdav_101/where-to-get-ewseditor) im lokalen Postfach des Benutzers im Ordner "Löschvorgänge" abgelegt werden.
 
 Sehen Sie sich alternativ Ihren Datenverkehr an. Der Datenverkehr in einem OAuth-Handshake ist wirklich charakteristisch (und sieht nicht wie die Standardauthentifizierung aus), insbesondere in Bereichen, in denen Der Ausstellerdatenverkehr wie folgt aussieht: 000000004-0000-0ff1-ce00-000000000000@ (manchmal mit einem / vor dem @-Zeichen) in den übergebenen Token. Es wird kein Benutzername oder Kennwort angezeigt, was der Punkt von OAuth ist. Sie sehen jedoch den Aussteller "Office" – in diesem Fall ist "4" Skype for Business – und den Bereich Ihres Abonnements.
 
-Wenn Sie sicherstellen möchten, dass Sie OAuth erfolgreich verwenden, stellen Sie sicher, dass Sie wissen, was Sie erwarten sollten und wie der Datenverkehr aussehen sollte. Hier [sehen](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34)Sie also ein ziemlich standardmäßiges [Beispiel für OAuth-Datenverkehr in einer Microsoft-Anwendung](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  (sehr hilfreich zum Lesen, obwohl es keine Aktualisierungstoken verwendet), und es gibt Fiddler-Erweiterungen, mit denen Sie ihre OAuth-JWT (JSON Web Token) untersuchen können.
+Wenn Sie sicherstellen möchten, dass Sie OAuth erfolgreich verwenden, stellen Sie sicher, dass Sie wissen, was Sie erwarten sollten und wie der Datenverkehr aussehen sollte. Hier [sehen](https://tools.ietf.org/html/draft-ietf-oauth-v2-23#page-34) Sie also ein ziemlich standardmäßiges [Beispiel für OAuth-Datenverkehr in einer Microsoft-Anwendung](https://download.microsoft.com/download/8/5/8/858F2155-D48D-4C68-9205-29460FD7698F/[MS-SPS2SAUTH].pdf)  (sehr hilfreich zum Lesen, obwohl es keine Aktualisierungstoken verwendet), und es gibt Fiddler-Erweiterungen, mit denen Sie ihre OAuth-JWT (JSON Web Token) untersuchen können.
 
-Hier ist ein [Beispiel für die Einrichtung,](/archive/blogs/kaevans/updated-fiddler-oauth-inspector)sie können jedoch ein beliebiges Netzwerkablaufverfolgungstool verwenden, das Sie für diesen Vorgang verwenden möchten.
+Hier ist ein [Beispiel für die Einrichtung](/archive/blogs/kaevans/updated-fiddler-oauth-inspector), Sie können jedoch jedes beliebige Netzwerkablaufverfolgungstool verwenden, um diesen Vorgang durchzuführen.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

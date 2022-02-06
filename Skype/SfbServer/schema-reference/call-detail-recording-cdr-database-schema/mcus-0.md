@@ -1,25 +1,20 @@
 ---
 title: Mcus-Ansicht
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8e8bbb1b-993b-4b66-862b-7e7654777203
-description: In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferenzsitzungen teilgenommen haben. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 20545418c0eabc2e97ed3d2fa3f6b9a211e9879c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831789"
+description: 'In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferenzsitzungen teilgenommen haben. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.'
 ---
+
 # <a name="mcus-view"></a>Mcus-Ansicht
  
 In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferenzsitzungen teilgenommen haben. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
@@ -28,6 +23,6 @@ In der MCU-Ansicht werden Informationen zu den MCUs gespeichert, die an Konferen
 |:-----|:-----|:-----|
 |**McuId** <br/> |int  <br/> |Eindeutige Zahl, die die MCU identifiziert.  <br/> |
 |**McuUri** <br/> |nvarchar(450)  <br/> |URI der MCU.  <br/> |
-|**McuUriType** <br/> |nvarchar(256)  <br/> |MCU-URI-Typ. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
+|**McuUriType** <br/> |nvarchar(256)  <br/> |MCU-URI-Typ. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
    
 

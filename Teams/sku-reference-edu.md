@@ -1,7 +1,7 @@
 ---
 title: SKU-Referenz für Bildungseinrichtungen
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: karsmith
 ms.topic: article
@@ -9,20 +9,15 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Listet Lizenzierungspläne für Lehrpersonal und Studenten für Bildungseinrichtungen und SKU-IDs auf.
-f1keywords: ''
-ms.openlocfilehash: 8fb6077a34f20a694542caae724315868a66a3cc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843568"
+f1keywords: null
 ---
+
 # <a name="education-sku-reference"></a>SKU-Referenz für Bildungseinrichtungen
 
 In diesem Artikel werden SKUs (Education Faculty and Student Licensing Plans) und SKU-IDs aufgeführt, die Sie als Referenz verwenden können, wenn Sie PowerShell verwenden, um Benutzer in Ihrer Organisation nach Lizenztyp zu identifizieren.
@@ -52,19 +47,19 @@ In diesem Artikel werden SKUs (Education Faculty and Student Licensing Plans) un
 |Office 365 Education E3 für Schüler und Studenten       |ENTERPRISEPACK_STUDENT         |8fc2205d-4e51-4401-97f0-5c89ef1aafbb         |
 |Office 365 Education für Schüler und Studenten     |STANDARDWOFFPACK_IW_STUDENT         |314c4481-f395-4525-be8b-2ec4bb1e9d91         |
 |Office 365 Education E5 für Schüler und Studenten      |ENTERPRISEPREMIUM_STUDENT         |ee656612-49fa-43e5-b67e-cb1fdf7699df         |
-|Office 365 Education E5 ohne PSTN-Konferenz für Schüler und Studenten     |ENTERPRISEPREMIUM_NOPSTNCONF_STUDENT         |1164451b-e2e5-4c9e-8fa6-e5122d90dbdc         |
+|Office 365 Education E5 ohne PSTN Conferencing für Schüler und Studenten     |ENTERPRISEPREMIUM_NOPSTNCONF_STUDENT         |1164451b-e2e5-4c9e-8fa6-e5122d90dbdc         |
 |Office 365 Education E1 für Schüler und Studenten       |STANDARDPACK_STUDENT         |d37ba356-38c5-4c82-90da-3d714f72a382         |
 |Office 365 Education E4 für Schüler und Studenten      |ENTERPRISEWITHSCAL_STUDENT         |05e8cabf-68b5-480f-a930-2143d472d959         |
 |Microsoft 365 Education A3 für Schüler und Studenten      |M365EDU_A3_STUDENT         |7cfd9a2b-e110-4c39-bf20-c6a3f36a3121         |
-|Microsoft 365 Education A3 für Schüler nutzen Vorteile       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
+|Microsoft 365 Education A3 für Schüler nutzen die Vorteile       |M365EDU_A3_STUUSEBNFT         |18250162-5d87-4436-a834-d795c15c80f3         |
 |Microsoft 365 Education A5 für Schüler und Studenten        |M365EDU_A5_STUDENT       |46c119d4-0379-4a9d-85e4-97c66d3f909e        |
-|Microsoft 365 A5 Vorteile der Nutzung durch Schüler und Studenten     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
+|Microsoft 365 A5 der Vorteile der Nutzung durch Schüler und Studenten     |M365EDU_A5_STUUSEBNFT         |31d57bc7-3a05-4867-ab53-97a17835a411         |
 |Microsoft 365 A5 ohne Audiokonferenz für Kursteilnehmer      |M365EDU_A5_NOPSTNCONF_STUDENT         |a25c01ce-bab1-47e9-a6d0-ebe939b99ff9         |
 |Microsoft 365 A5 ohne Audiokonferenz für Schüler nutzen Vorteil    |M365EDU_A5_NOPSTNCONF_STUUSEBNFT         |81441ae1-0b31-4185-a6c0-32b6b84d419f         |
 |Office 365 A3 für Schüler und Studenten     |ENTERPRISEPACKPLUS_STUDENT         |98b6e773-24d4-4c0d-a968-6e787a1f8204         |
-|Office 365 A3 Vorteil für die Nutzung durch Schüler/Studierende     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
-|Office 365 A5 Vorteil für die Nutzung durch Schüler/Studierende    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
-|Office 365 A5 ohne Audiokonferenz für Schüler nutzen Vorteil  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
+|Office 365 A3 Student use benefit     |ENTERPRISEPACKPLUS_STUUSEBNFT         |476aad1e-7a7f-473c-9d20-35665a5cbd4f         |
+|Office 365 A5 studentische Nutzungsleistung    |ENTERPRISEPREMIUM_STUUSEBNFT         |f6e603f1-1a6d-4d32-a730-34b809cb9731         |
+|Office 365 A5 ohne Audiokonferenz für Schüler nutzen Vorteile  |ENTERPRISEPREMIUM_NOPSTNCONF_STUUSEBNFT         |bc86c9cd-3058-43ba-9972-141678675ac1         |
 |Office 365 Education für Homeschool für Schüler und Studenten     |STANDARDWOFFPACK_HOMESCHOOL_STU         |afbb89a7-db5f-45fb-8af0-1bc5c5015709         |
 |Office 365 A1 für Schüler /Studenten (für Gerät)     |STANDARDWOFFPACK_STUDENT_DEVICE         |160d609e-ab08-4fce-bc1c-ea13321942ac         |
 |Office 365 A1 Pluszeichen für Schüler und Studenten     |STANDARDWOFFPACK_IW_STUDENT         |e82ae690-a2d5-4d76-8d30-7c6e01e6022e         |

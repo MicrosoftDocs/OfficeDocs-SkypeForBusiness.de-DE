@@ -1,25 +1,20 @@
 ---
 title: Liste der KDS-Tabellen in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 031843fd-c7ff-4534-9b02-8847aad70807
 description: Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) besteht aus den folgenden Tabellen.
-ms.openlocfilehash: a8b89664482d05c60e00b10f64f7e2e853280d94
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847078"
 ---
+
 # <a name="list-of-cdr-tables-in-skype-for-business-server-2015"></a>Liste der KDS-Tabellen in Skype for Business Server 2015
  
 Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) besteht aus den folgenden Tabellen. 
@@ -40,7 +35,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 
 |**Table**|**Beschreibung**|
 |:-----|:-----|
-|[ClientVersions-Tabelle in Skype for Business Server 2015](clientversions.md) <br/> |Speichert die Clients (sowohl Clienttyp als auch Versionsnummer) aller an einem Anruf beteiligten Clients, wobei die Informationen in dieser Datenbank erfasst werden.  <br/> |
+|[Tabelle "ClientVersions" in Skype for Business Server 2015](clientversions.md) <br/> |Speichert die Clients (sowohl Clienttyp als auch Versionsnummer) aller an einem Anruf beteiligten Clients, wobei die Informationen in dieser Datenbank erfasst werden.  <br/> |
 |[ConferenceUris-Tabelle in Skype for Business Server 2015](conferenceuris.md) <br/> |Speichert eine Liste der ConferenceURI-Werte, die bei Telefonkonferenzen verwendet werden.  <br/> |
 |[ContentTypes-Tabelle in Skype for Business Server 2015](contenttypes.md) <br/> |Speichert eine Liste der SIP-Inhaltstypen (Session Initiation-Protokoll), die bei Peer-zu-Peer-Anrufen und Telefonkonferenzen verwendet werden.  <br/> |
 |[Tabelle "Geräte" in Skype for Business Server 2015](devices.md) <br/> |Speichert eine Liste der Geräte, einschließlich Hersteller, Hardwareversion und MAC-Adresse.  <br/> |
@@ -90,7 +85,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 |[VoipDetails-Tabelle](voipdetails-0.md) <br/> |Speichert für jeden VoIP/PSTN-Anruf mit zwei Parteien Informationen zum Anruf, wie z. B. die Telefon-ID des VoIP-Telefons, das verwendete Gateway und welche Partei getrennt wurde. Verweist auf die [SessionDetails-Tabelle](sessiondetails.md) für die Start-/Endzeiten von Anrufen und den Antwortcode. <br/> |
    
 > [!NOTE]
-> Wenn eine Anrufpartei ein VoIP-Benutzer ist oder wenn ein Vermittlungsserver am Anruf beteiligt war, wird in dieser Tabelle ein Datensatz erstellt. Informationen zu VoIP/VoIP-Anrufen, die kein PSTN-Telefon (Public Switched Telephone Network) betreffen, werden in der [SessionDetails-Tabelle](sessiondetails.md)erfasst. 
+> Wenn eine Anrufpartei ein VoIP-Benutzer ist oder wenn ein Vermittlungsserver am Anruf beteiligt war, wird in dieser Tabelle ein Datensatz erstellt. Informationen zu VoIP-/VoIP-Anrufen, die kein PSTN-Telefon (Public Switched Telephone Network) betreffen, werden in der [SessionDetails-Tabelle](sessiondetails.md) erfasst. 
   
 ## <a name="table-for-e9-1-1-call-auditing"></a>Tabelle für die E9-1-1-Anrufüberwachung
 
@@ -112,7 +107,7 @@ Das Datenbankschema für die Aufzeichnung von Kommunikationsdatensätzen (KDS) b
 |[ErrorReport-Tabelle in Skype for Business Server 2015](errorreport.md) <br/> |Speichert Informationen zu aufgetretenen Fehlern.  <br/> |
 |[ProgressReport-Tabelle](progressreport.md) <br/> |Speichert Informationen zu den Statusberichten verschiedener Schritte, die an Skype for Business Server 2015-Prozessen beteiligt sind.  <br/> |
    
-Die Tabellen in der folgenden Liste werden intern von Skype for Business Server 2015 verwendet. Die zugehörigen Details werden in diesem Dokument nicht beschrieben.
+Die Tabellen in der folgenden Liste werden intern bis Skype for Business Server 2015 verwendet. Die zugehörigen Details werden in diesem Dokument nicht beschrieben.
   
 ## <a name="tables-for-internal-use-by-lync-server"></a>Tabellen für die interne Verwendung durch Lync Server
 

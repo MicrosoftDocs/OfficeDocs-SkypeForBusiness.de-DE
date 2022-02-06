@@ -1,25 +1,20 @@
 ---
 title: Schemaklassen und Beschreibungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 7d43b920-ac37-40cc-adfe-be289bda6e9e
-description: In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Business Server verwendet werden.
-ms.openlocfilehash: fbd3e3293cef72ba6592b86932639bd499464858
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829769"
+description: 'In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Business Server verwendet werden.'
 ---
+
 # <a name="schema-classes-and-descriptions-in-skype-for-business-server"></a>Schemaklassen und Beschreibungen in Skype for Business Server
  
 In diesem Abschnitt werden alle Schemaklassen beschrieben, die von Skype for Business Server verwendet werden. 

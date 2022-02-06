@@ -1,28 +1,23 @@
 ---
 title: Erstellen oder Löschen einer Ankündigung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: a6fd5922-fe46-41ba-94e3-c76b1101a31b
-description: Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
-ms.openlocfilehash: 26882070c566eba57925b5eddc43cd11d0e9ea7d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843518"
+description: 'Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.'
 ---
+
 # <a name="create-or-delete-an-announcement-in-skype-for-business-server"></a>Erstellen oder Löschen einer Ankündigung in Skype for Business Server
 
 Erstellen oder Löschen von Ankündigungen für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP. Dies wirkt sich darauf aus, wie Anrufe an nicht zugewiesene Nummern verarbeitet werden.
@@ -31,7 +26,7 @@ Wenn Sie Ankündigungen konfigurieren, konfigurieren Sie tatsächlich, wie Anruf
 
 Sie müssen Ankündigungen erstellen, bevor Sie die Tabelle nicht zugewiesener Nummern definieren. Sie müssen diesen Schritt für alle Ankündigungen ausführen, die eine Audioaufforderung, eine TTS-Eingabeaufforderung oder keine Eingabeaufforderung verwenden.
 
-In diesem Thema wird beschrieben, wie Ankündigungen importiert und erstellt werden. Ausführliche Informationen zum Zuweisen von Ankündigungen in der Tabelle nicht zugewiesener Nummern finden Sie unter [Configure the Unassigned Number Table](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
+In diesem Thema wird beschrieben, wie Ankündigungen importiert und erstellt werden. Ausführliche Informationen zum Zuweisen von Ankündigungen in der Tabelle nicht zugewiesener Nummern finden Sie unter [Konfigurieren der Tabelle nicht zugewiesener Nummern](/previous-versions/office/lync-server-2013/lync-server-2013-configure-the-unassigned-number-table).
 
 ## <a name="create-a-new-announcement-for-unassigned-numbers"></a>Erstellen einer neuen Ankündigung für nicht zugewiesene Nummern
 
@@ -52,9 +47,9 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
 
 1. Erstellen Sie für Audioansagen die Audiodatei.
 
-2. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
+2. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen**" beschrieben.
 
-3. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+3. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
 
 4. Führen Sie für Audioansagen Folgendes aus:
 
@@ -68,7 +63,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
    New-CsAnnouncement -Parent <service of Application Server running the Announcement application, in the form: service:ApplicationServer:<fqdn>> -Name <unique name to be used as destination in unassigned number table> [-AudioFilePrompt <FileName specified in Import-CsAnnouncementFile>] [-TextToSpeechPrompt <text string to be converted to speech>] [-Language <Language for playing the TTS prompt (required for PromptTts)>] [-TargetUri sip:SIPAddress for transferring caller after announcement]
    ```
 
-    Geben Sie für die Übertragung von Anrufen an Voicemail SIPAddress im Format "sip:username@domainname;opaque=app:voicemail" ein (z. B. "sip:bob@contoso.com;opaque=app:voicemail"). Geben Sie für die Übertragung von Anrufen an eine Telefonnummer SIPAddress im Format "sip:number@domainname;user=phone" ein (z. B. sip:+ 14255550121@contoso.com;user=phone).
+    Geben Sie für die Übertragung von Anrufen an Voicemail SIPAddress im Format "sip:username@domainname;opaque=app:voicemail" ein (z. B. "sip:bob@contoso.com;opaque=app:voicemail"). Geben Sie für die Weiterleitung von Anrufen an eine Telefonnummer SIPAddress in das Format "sip:number@domainname;user=phone" ein (z. B. sip:+ 14255550121@contoso.com;user=phone).
 
     So geben Sie z. B. eine Audioaufforderung an:
 
@@ -84,15 +79,15 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
    New-CsAnnouncement -Parent service:ApplicationServer:pool0.contoso.com -Name "Help Desk Announcement" -TextToSpeechPrompt "The Help Desk number has changed. Please dial 5550100." -Language "en-US"
    ```
 
-   Weitere Informationen zu diesen Cmdlets und eine Liste der Sprachcodes, die im **TextToSpeechPrompt-Parameter** verwendet werden sollen, finden Sie unter [New-CsAnnouncement.](/powershell/module/skype/new-csannouncement?view=skype-ps)
+   Weitere Informationen zu diesen Cmdlets und eine Liste der Sprachcodes, die im **TextToSpeechPrompt-Parameter** verwendet werden sollen, finden Sie unter [New-CsAnnouncement](/powershell/module/skype/new-csannouncement?view=skype-ps).
 
 ## <a name="delete-an-announcement-for-unassigned-numbers"></a>Löschen einer Ansage für nicht zugewiesene Nummern
 
 ### <a name="to-delete-an-announcement"></a>So löschen Sie eine Ankündigung
 
-1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen"** beschrieben.
+1. Melden Sie sich bei dem Computer an, auf dem Skype for Business Server Verwaltungsshell als Mitglied der Gruppe "RTCUniversalServerAdmins" oder mit den erforderlichen Benutzerrechten installiert ist, wie unter **"Stellvertretungs-Setupberechtigungen**" beschrieben.
 
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
 
 3. Listen Sie alle Ankündigungen in Ihrer Organisation auf. Führen Sie an der Eingabeaufforderung Folgendes aus:
 
@@ -113,7 +108,7 @@ Um eine neue Ankündigung zu erstellen, müssen Sie die folgenden Schritte ausf�
    ```
 
     > [!NOTE]
-    > Ausführliche Informationen zu weiteren Optionen finden Sie unter ["Get-CsAnnouncement"](/powershell/module/skype/get-csannouncement?view=skype-ps) und ["Remove-CsAnnouncement".](/powershell/module/skype/remove-csannouncement?view=skype-ps)
+    > Ausführliche Informationen zu weiteren Optionen finden [Sie unter "Get-CsAnnouncement](/powershell/module/skype/get-csannouncement?view=skype-ps) " und ["Remove-CsAnnouncement](/powershell/module/skype/remove-csannouncement?view=skype-ps)".
 
 ## <a name="see-also"></a>Siehe auch
 

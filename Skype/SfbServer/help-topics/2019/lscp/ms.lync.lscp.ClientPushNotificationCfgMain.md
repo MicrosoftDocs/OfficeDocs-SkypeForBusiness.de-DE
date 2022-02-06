@@ -1,27 +1,22 @@
 ---
 title: Konfiguration von Pushbenachrichtigungen für mobile Clients
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientPushNotificationCfgMain
+  - ms.lync.lscp.ClientPushNotificationCfgMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: b7a85d75-9d36-4980-b669-2a009799d905
-ROBOTS: NOINDEX, NOFOLLOW
-description: Um die Microsoft-Pushbenachrichtigungen und Apple-Pushbenachrichtigungen zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
-ms.openlocfilehash: 0f0d5a465abecf9ba0f5fb2b5de594c537801914
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847978"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Um die Microsoft-Pushbenachrichtigungen und Apple-Pushbenachrichtigungen zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.'
 ---
+
 # <a name="mobile-client-push-notification-configuration"></a>Mobiler Client: Konfiguration für Pushbenachrichtigung
  
 Um die **Microsoft-Pushbenachrichtigungen** und **Apple-Pushbenachrichtigungen** zu konfigurieren, müssen Sie eine Richtlinie erstellen und darin definieren, welche Arten von Pushbenachrichtigungen Sie benötigen.
@@ -48,7 +43,7 @@ Für die Erstellung und Bearbeitung von Richtlinien sind zwei Auswahlmöglichkei
   
 Die Erstellung einer neuen Richtlinie bzw. die Bearbeitung einer vorhandenen Richtlinie ist mit zwei Aktionen verbunden:
   
-- **Commit ausführen** Die Commitaktion erstellt oder aktualisiert die Richtlinie und speichert die Änderungen.
+- **Begehen** Die Commitaktion erstellt oder aktualisiert die Richtlinie und speichert die Änderungen.
     
 - **Abbrechen** Die Abbruchaktion verwirft alle Änderungen, die seit der letzten Commitaktion vorgenommen wurden. Alle vorgenommenen Änderungen gehen verloren.
     

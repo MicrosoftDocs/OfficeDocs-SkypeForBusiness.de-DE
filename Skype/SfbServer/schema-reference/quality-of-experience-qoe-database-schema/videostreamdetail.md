@@ -1,34 +1,29 @@
 ---
 title: VideoStreamDetail-Ansicht
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: ec8c45e1-307d-40ec-a75e-6083306105f2
 description: In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 38f97d5cd97d6a92961a377129cb533fd96ccd6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863232"
 ---
+
 # <a name="videostreamdetail-view"></a>VideoStreamDetail-Ansicht
  
 In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in der Datenbank gespeichert. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Beschreibung**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |Datum/Uhrzeit  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|SessionSeq  <br/> |int  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|MediaLineLabel  <br/> |Tinyint  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|SessionTime  <br/> |Datum/Uhrzeit  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|SessionSeq  <br/> |int  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|MediaLineLabel  <br/> |Tinyint  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |Eindeutige ID innerhalb einer Medienzeile.  <br/> |
 |StartTime  <br/> |Datum/Uhrzeit  <br/> |Startzeitpunkt der Sitzung.  <br/> |
 |EndTime  <br/> |Datum/Uhrzeit  <br/> |Endzeitpunkt der Sitzung.  <br/> |
@@ -38,11 +33,11 @@ In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in de
 |Anrufer  <br/> |nvarchar(450)  <br/> |Der URI des Aufrufers.  <br/> |
 |Aufgerufenen  <br/> |nvarchar(450)  <br/> |Der URI des Angerufenen.  <br/> |
 |CallerUserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge des Aufrufers.  <br/> |
-|CallerUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgent-Tabelle.](useragent.md) <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE).](useragentdef-qoe.md) <br/> |
+|CallerUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgent-Tabelle](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE](useragentdef-qoe.md) ). <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge des Angerufenen.  <br/> |
-|CalleeUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie in der [UserAgent-Tabelle.](useragent.md) <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE).](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie [in der UserAgent-Tabelle](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE](useragentdef-qoe.md) ). <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des Anrufers.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des Angerufenen.  <br/> |
 |CallerOS  <br/> |nvarchar(128)  <br/> |Betriebssystem des Endpunkts des Aufrufers.  <br/> |
@@ -53,9 +48,9 @@ In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in de
 |CalleeCPUNumberOfCores  <br/> |Smallint  <br/> |Anzahl der CPU-Kerne des Endpunkts des Angerufenen.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |CPU-Prozessorgeschwindigkeit des Endpunkts des Anrufers.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |CPU-Prozessorgeschwindigkeit des Endpunkts des Angerufenen.  <br/> |
-|CallerVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Aufrufers in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle.](endpoint.md) <br/> |
-|CalleeVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Angerufenen in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle.](endpoint.md) <br/> |
-|ConnectivityIce  <br/> |Tinyint  <br/> |Informationen zum Medienpfad, z. B. direkt oder Relay. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
+|CallerVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Aufrufers in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle](endpoint.md) . <br/> |
+|CalleeVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Angerufenen in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle](endpoint.md) . <br/> |
+|ConnectivityIce  <br/> |Tinyint  <br/> |Informationen zum Medienpfad, z. B. direkt oder Relay. Weitere Informationen finden Sie in der [MediaLine-Tabelle](medialine-0.md) . <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informationen zur interaktiven Verbindungsherstellung (Interactive Connectivity Establishment, ICE) für den Anrufer, in Bitflags beschrieben. Ausführliche Informationen finden Sie im Artikel "[MS-QoE]: Spezifikation für das Quality of Experience Monitoring Server-Protokoll".  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informationen zur interaktiven Verbindungsherstellung (Interactive Connectivity Establishment, ICE) für den Angerufenen, in Bitflags beschrieben. Ausführliche Informationen finden Sie im Artikel "[MS-QoE]: Spezifikation für das Quality of Experience Monitoring Server-Protokoll".  <br/> |
 |Transport  <br/> |int  <br/> |Transporttyp: 0 ist UDP, 1 ist TCP.  <br/> |
@@ -69,9 +64,9 @@ In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in de
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Anrufers.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Angerufenen.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Angerufenen.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP-Adresse des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie in der [IPAddress-Tabelle.](ipaddress.md) <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP-Adresse des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie [in der IPAddress-Tabelle](ipaddress.md) . <br/> |
 |CallerRelayPort  <br/> |int  <br/> |Port auf dem vom Anrufer verwendeten A/V-Edgedienst.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP-Adressschlüssel des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie in der [IPAddress-Tabelle.](ipaddress.md) <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP-Adressschlüssel des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie [in der IPAddress-Tabelle](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Port auf dem vom Angerufenen verwendeten A/V-Edgedienst.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |Name des Aufnahmegeräts des Anrufers.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |Der Name des Rendergeräts des Aufrufers.  <br/> |
@@ -97,7 +92,7 @@ In der VideoStreamDetail-Ansicht werden Informationen zu jedem Videostream in de
 |PacketLossRateMax  <br/> |decimal(5,4)  <br/> |Maximale Paketverlustrate während des Anrufs.  <br/> |
 |PacketUtilization  <br/> |int  <br/> |Paketwert für den Videostream (Real Time Transport Protocol, RTP).  <br/> |
 |BandwidthEst  <br/> |int  <br/> |Bandbreitenschätzungen für den Audiostream.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |Für den Anruf verwendeter Audiocodec, auf den aus der [PayloadDescription-Tabelle](payloaddescription.md)verwiesen wird.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |Für den Anruf verwendeter Audiocodec, auf den in der [PayloadDescription-Tabelle](payloaddescription.md) verwiesen wird.  <br/> |
 |VideoResolution  <br/> |char(9)  <br/> |Auflösung des Videos in Pixel Breite x Höhe. Gemeldet als Zeichenfolge.  <br/> |
 |VideoBitRateAvg  <br/> |int  <br/> |Durchschnittliche Bitrate des Videostreams.  <br/> |
 |InboundVideoFrameRateAvg  <br/> |decimal(9,4)  <br/> |Empfangene Framerate des Videostreams.  <br/> |

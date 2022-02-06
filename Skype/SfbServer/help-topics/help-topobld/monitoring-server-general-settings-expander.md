@@ -1,27 +1,22 @@
 ---
 title: Allgemeine Einstellungen des Monitoring Servers – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MonitoringServerGeneralSettingsExpander
+  - ms.lync.tb.MonitoringServerGeneralSettingsExpander
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: b45e4b2f-a6e8-4919-979e-1ba74fd46028
 description: 'Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Überwachungsserver bearbeiten, indem Sie entweder mit der rechten Maustaste in der Konsolenstruktur auf den Überwachungsserver klicken und dann auf der Symbolleiste auf Aktion klicken, oder indem Sie im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf "Eigenschaften bearbeiten" klicken und eine der folgenden Optionen ändern:'
-ms.openlocfilehash: 594bf9178c9a12518cdcd2b41fc6e609eca18f07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862492"
 ---
+
 # <a name="monitoring-server-general-settings-expander"></a>Allgemeine Einstellungen des Überwachungsservers – Erweiterung
  
 Im Topologie-Generator können Sie die Eigenschaften für einen einzelnen Überwachungsserver bearbeiten, indem Sie entweder mit der rechten Maustaste in der Konsolenstruktur auf den Überwachungsserver klicken und dann auf der Symbolleiste auf **Aktion** klicken, oder indem Sie im Bereich "Aktionen" auf eine Aufgabe klicken und dann auf **"Eigenschaften bearbeiten"** klicken und eine der folgenden Optionen ändern:

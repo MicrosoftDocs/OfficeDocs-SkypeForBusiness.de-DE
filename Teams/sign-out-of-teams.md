@@ -1,29 +1,24 @@
 ---
 title: Melden Sie sich von Microsoft Teams ab
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 audience: Admin
 ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: sbhatta
-description: Erfahren Sie, wie Sie sich von Microsoft Teams abmelden.
+description: 'Erfahren Sie, wie Sie sich von Microsoft Teams abmelden.'
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: ba5789dac9d54de153c6d4c712a2d68367ad79c0
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513596"
+  - Microsoft Teams
 ---
+
 # <a name="sign-out-of-microsoft-teams"></a>Melden Sie sich von Microsoft Teams ab
 
 Es wird empfohlen, dass Benutzer bei der Microsoft Teams-App angemeldet bleiben, um weiterhin Chats, eingehende Anrufe und andere Aktivitäten zu empfangen. Uns ist klar, dass Benutzer sich manchmal aus verschiedenen Gründen von Teams abmelden möchten:

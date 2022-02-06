@@ -1,33 +1,28 @@
 ---
 title: Featureübersicht (Planungstool)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.FeatureOverview
-- ms.lync.plan.FeatureOverview
+  - ms.lync.plan.FeatureOverview
+  - ms.lync.plan.FeatureOverview
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 44783b37-c87f-41f2-9de1-39176f1856ab
-ROBOTS: NOINDEX, NOFOLLOW
-description: Skype for Business Server Planungstool
-ms.openlocfilehash: ee6578aeb51aa0cf9f6a4066c78d6038a057763b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832689"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: Skype for Business Server-Planungstool
 ---
+
 # <a name="feature-overview-planning-tool"></a>Featureübersicht (Planungstool)
  
-Skype for Business Server Planungstool
+Skype for Business Server-Planungstool
   
-Sie können die Seite **"Zentrale Standorte"** des Planungstools verwenden, um die Skype for Business Server Bereitstellung zu entwerfen. Sie können zwei entweder eine zentrale oder eine verteilte Bereitstellung erstellen. Eine zentrale Bereitstellung verfügt nur über einen zentralen Standort, an dem alle Skype for Business Benutzer in Ihrer Organisation gespeichert sind. Eine verteilte Bereitstellung verfügt über mehr als einen zentralen Standort. Wenn Sie Skype for Business Server an mehreren zentralen Standorten bereitstellen, geben Sie die Anzahl der Benutzer an jedem zentralen Standort im Planungstool ein.
+Sie können die Seite "**Zentrale Standorte**" des Planungstools verwenden, um die Skype for Business Server Bereitstellung zu entwerfen. Sie können zwei entweder eine zentrale oder eine verteilte Bereitstellung erstellen. Eine zentrale Bereitstellung verfügt nur über einen zentralen Standort, an dem alle Skype for Business Benutzer in Ihrer Organisation gespeichert sind. Eine verteilte Bereitstellung verfügt über mehr als einen zentralen Standort. Wenn Sie Skype for Business Server an mehreren zentralen Standorten bereitstellen, geben Sie die Anzahl der Benutzer an jedem zentralen Standort im Planungstool ein.
   
 Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die folgenden Informationen angeben:
   
@@ -39,7 +34,7 @@ Um die Definition des zentralen Standorts abzuschließen, müssen Sie zuerst die
     
 ## <a name="ui-elements"></a>UI-Elemente
 
-Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Sie auf die im **Assistenten Erste Schritte** gestellten Fragen bereitgestellt haben, oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
+Die verbleibenden Elemente wurden entweder mit den Antworten auf die Im **Erste Schritte** Assistenten gestellten Fragen aufgefüllt oder, wenn Sie den Assistenten übersprungen haben, automatisch vom Planungstool ausgefüllt.
   
 ### <a name="online-collaboration"></a>Onlinezusammenarbeit
 
@@ -47,7 +42,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
   
 - **Chat und Anwesenheit**
     
-    Instant Messaging (Chat) ermöglicht Benutzern die Kommunikation miteinander in Echtzeit auf ihren Computern mithilfe von textbasierten Nachrichten. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers stellt Informationen bereit, mit denen andere personen ermitteln können, ob der Benutzer online ist und wie er am besten kontaktiert werden kann. Beispielsweise wird ein Benutzer, der sich in einer Besprechung befindet, am besten per E-Mail kontaktiert.
+    Chatnachrichten ermöglichen Benutzern die Kommunikation miteinander in Echtzeit auf ihren Computern mithilfe von textbasierten Nachrichten. Es werden sowohl Sofortnachrichtensitzungen mit zwei Teilnehmern als auch Sitzungen mit mehreren Teilnehmern unterstützt. Anwesenheit stellt Benutzern Informationen über den Status anderer Personen im Netzwerk bereit. Der Anwesenheitsstatus eines Benutzers stellt Informationen bereit, mit denen andere personen ermitteln können, ob der Benutzer online ist und wie er am besten kontaktiert werden kann. Beispielsweise wird ein Benutzer, der sich in einer Besprechung befindet, am besten per E-Mail kontaktiert.
     
 - **Audio- und Videokonferenzen**
     
@@ -55,7 +50,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Einwahlkonferenzen**
     
-    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Einwahlkonferenzen erfordern, dass Sie die Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen bereitstellen.
+    Einwahlkonferenzen ermöglichen Benutzern den Beitritt zu einem A/V über ein Telefon im PsTN. Für Einwahlkonferenzen müssen Sie die Konferenzzentrale- und Konferenzankündigung-Dienstanwendungen bereitstellen.
     
 - **Webkonferenzen**
     
@@ -66,7 +61,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     Der beständige Chat ermöglicht es mehreren Benutzern, an Unterhaltungen teilzunehmen, in denen sie Inhalte zu bestimmten Themen veröffentlichen und darauf zugreifen, einschließlich Text, Links und Dateien. Benutzer können zwar während einer Sitzung in Echtzeit kommunizieren, der Inhalt der einzelnen Sitzungen kann jedoch dauerhaft sein, was bedeutet, dass er auch nach Beendigung einer Sitzung weiterhin verfügbar ist.
 
     > [!NOTE] 
-    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Skype for Business zum Microsoft Teams Upgrade.](/MicrosoftTeams/upgrade-start-here) Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, Teams oder Skype for Business Server 2015 weiterhin verwenden.
+    > Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Skype for Business zum Microsoft Teams Upgrade](/MicrosoftTeams/upgrade-start-here). Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität benötigen, Teams oder Skype for Business Server 2015 weiterhin verwenden.
     
 ### <a name="users"></a>Benutzer
 
@@ -88,12 +83,12 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
     Wenn Sie den Skype for Business Server Mobilitätsdienst bereitstellen, können Benutzer unterstützte mobile Geräte von Apple iOS, Android, Windows Phone oder Nokia verwenden, um Aktivitäten wie das Senden und Empfangen von Chatnachrichten, das Anzeigen von Kontakten und das Anzeigen von Anwesenheitsinformationen auszuführen.
     
-- **W15 Exchange-Postfach**
+- **W15 Exchange Postfach**
     
-    Skype for Business Server ermöglicht es Ihnen, Voicemailnachrichten in Exchange Unified Messaging (UM) zu speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten in den Postfächern Ihrer Benutzer angezeigt.
+    Skype for Business Server ermöglicht es Ihnen, Voicemailnachrichten in Exchange Unified Messaging (UM) zu speichern. Diese Voicemailnachrichten werden dann als E-Mail-Nachrichten im Posteingang Ihrer Benutzer angezeigt.
 
     > [!NOTE]
-    > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar, Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+    > Exchange unified messaging as previously known is no longer available in Exchange 2019, but you can still use Telefonsystem to record voicemail messages and then leave the recording in a user's Exchange mailbox. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
     
 ### <a name="voice"></a>VoIP
 
@@ -105,10 +100,10 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Exchange Unified Messaging**
     
-    Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Anrufbeantwortung, Abonnentenzugriff, Anrufbenachrichtigung und automatische Telefonzentralendienste bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
+    Exchange Unified Messaging (UM) kombiniert Voicemail und E-Mail in einer einzigen Messaginginfrastruktur. Skype for Business Server 2015 verwendet Exchange UM, um Dienste für die Anrufannahme, den Abonnentenzugriff, die Anrufbenachrichtigung und die automatische Telefonzentrale bereitzustellen. Wenn Sie diese Dienste verwenden, müssen Sie Exchange UM und Skype for Business Server in eine freigegebene Active Directory-Topologie integrieren.
 
     > [!NOTE]
-    > Exchange Unified Messaging wie zuvor bekannt ist in Exchange 2019 nicht mehr verfügbar, Sie können jedoch weiterhin Telefonsystem verwenden, um Voicemailnachrichten aufzuzeichnen und die Aufzeichnung dann im Exchange Postfach eines Benutzers zu belassen. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service.](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md)
+    > Exchange unified messaging as previously known is no longer available in Exchange 2019, but you can still use Telefonsystem to record voicemail messages and then leave the recording in a user's Exchange mailbox. Weitere Informationen finden Sie [unter Plan Cloud-Voicemail Service](../../../../sfbhybrid/hybrid/plan-cloud-voicemail.md).
     
 ### <a name="additional-deployment-options"></a>Zusätzliche Bereitstellungsoptionen
 
@@ -168,7 +163,7 @@ Die verbleibenden Elemente wurden entweder mit den Antworten ausgefüllt, die Si
     
 - **Konferenzankündigung**
     
-    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder unveränderlich sind.
+    Konferenzankündigungsanwendung erzeugt Töne, die signalisieren, wenn Benutzer eine Konferenz betreten oder verlassen, sowie Benachrichtigungen an Telefonbenutzer, wenn sie stumm oder stumm geschaltet sind.
     
 - **Anrufsteuerung**
     

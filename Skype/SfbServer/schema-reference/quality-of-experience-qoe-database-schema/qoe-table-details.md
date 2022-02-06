@@ -1,25 +1,20 @@
 ---
 title: Ausführliche Informationen zur QoE-Tabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: f10f0796-3c09-4cb8-bd0d-15f783835f03
 description: In diesen Abschnitten werden die Spalten in den einzelnen QoE-Datenbankschematabellen (Quality of Experience) beschrieben.
-ms.openlocfilehash: 30fe3a2b3cd54a72939d56a128b60100716b326d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856412"
 ---
+
 # <a name="qoe-table-details"></a>Ausführliche Informationen zur QoE-Tabelle
  
 In diesen Abschnitten werden die Spalten in den einzelnen QoE-Datenbankschematabellen (Quality of Experience) beschrieben.

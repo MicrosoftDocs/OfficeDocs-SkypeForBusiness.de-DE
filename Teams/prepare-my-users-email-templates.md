@@ -1,28 +1,24 @@
 ---
 title: E-Mail-Vorlagen für Benutzerbenachrichtigungen für das Rollout des Onlinetelefonsystems
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/31/2018
 ms.topic: article
 ms.service: msteams
 ms.reviewer: rowille
 audience: admin
-description: Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in ihren Teams oder Skype for Business.
+description: 'Verwenden Sie Vorlagen, um E-Mails an Benutzer zu senden, während Sie Cloud-Sprachfunktionen in Teams oder Skype for Business.'
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 975097e9772fbb804f47ac984207d92ec39d46ed
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834783"
 ---
+
+
 # <a name="facilitate-user-adoption-of-your-new-online-phone-system"></a>Vereinfachen der Benutzeradzeptanz Ihres neuen Onlinetelefonsystems
 
 Ein Telefon kann die Lebenslinie eines Benutzers sein. Der Wechsel von einem herkömmlichen Telefonsystem zu einem Onlinetelefonsystem stellt eine erhebliche Änderung in der Art und Weise dar, in der Benutzer arbeiten, und kann die Produktivität beeinträchtigen. Wenn Sie sich Zeit nehmen, die Benutzer durch diese Änderung zu informieren, zu leiten und zu unterstützen, können Sie eine positive Benutzererfahrung sicherstellen und Ihre Kapitalrendite maximieren.

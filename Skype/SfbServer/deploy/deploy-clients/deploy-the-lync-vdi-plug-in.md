@@ -1,27 +1,22 @@
 ---
 title: Bereitstellen des Lync VDI-Plug-Ins mit Skype for Business Server
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: krishra
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 11d3bd5d-6dd3-471c-b842-b072fa197714
 description: In diesem Thema werden Bereitstellungsverfahren für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert.
-ms.openlocfilehash: 853bcfcc41d058983c0aabb2868351f1f59de08e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840567"
 ---
+
 # <a name="deploy-the-lync-vdi-plug-in-with-skype-for-business-server"></a>Bereitstellen des Lync VDI-Plug-Ins mit Skype for Business Server
  
-In diesem Thema werden Bereitstellungsverfahren für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert. Planungsüberlegungen sind beim [Plan für Skype for Business in VDI-Umgebungen.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+In diesem Thema werden Bereitstellungsverfahren für die Verwendung von Skype for Business beim Herstellen einer Verbindung mit einem virtuellen Remotedesktop erläutert. Planungsüberlegungen sind im [Plan für Skype for Business in VDI-Umgebungen.](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
   
 Eine Virtual Desktop Infrastructure (VDI)-Umgebung wird in einigen Organisationen verwendet, in denen Sicherheits- und Complianceprobleme besonders sensibel sind. Ihre Benutzer befinden sich auf lokalen Windows Computern und verwenden Clients auf einem virtuellen Desktop. Die Verwendung von Skype for Business auf einer solchen Verbindung erfordert zusätzliche VDI-Plug-In-Software.
   
@@ -32,7 +27,7 @@ Dieses Thema enthält Ausführliche Informationen zur Bereitstellung des Microso
 ## <a name="prepare-your-environment-for-the-lync-vdi-plug-in"></a>Vorbereiten der Umgebung für das Lync VDI-Plug-In
 <a name="Prepare_vdi"> </a>
 
-1. Stellen Sie in Skype for Business Server sicher, dass EnableMediaRedirection für alle Lync VDI-Plug-In-Benutzer auf TRUE festgelegt ist. Ausführliche Informationen finden Sie in den Hilfethemen für das Cmdlet ["New-CsClientPolicy"](/powershell/module/skype/new-csclientpolicy?view=skype-ps) und das Cmdlet ["Set-CsClientPolicy".](/powershell/module/skype/set-csclientpolicy?view=skype-ps)
+1. Stellen Sie in Skype for Business Server sicher, dass EnableMediaRedirection für alle Lync VDI-Plug-In-Benutzer auf TRUE festgelegt ist. Ausführliche Informationen finden Sie in den Hilfethemen für das Cmdlet ["New-CsClientPolicy](/powershell/module/skype/new-csclientpolicy?view=skype-ps) " und das Cmdlet ["Set-CsClientPolicy](/powershell/module/skype/set-csclientpolicy?view=skype-ps) ".
     
 2. Installieren Sie auf dem Rechenzentrumsserver den Skype for Business-Client auf allen virtuellen Desktops.
     
@@ -45,7 +40,7 @@ Dieses Thema enthält Ausführliche Informationen zur Bereitstellung des Microso
 
 Führen Sie die folgenden Schritte auf dem lokalen Computer aus, um die Remotedesktopverbindung für das Lync VDI-Plug-In vorzubereiten:
   
-1. Wenn auf dem lokalen Computer Windows 8 ausgeführt wird, überspringen Sie diesen Schritt. Wenn auf dem lokalen Computer Windows 7 mit SP1 ausgeführt wird, installieren Sie die neueste Windows 8-Version des [Remotedesktopdienste-Clients.](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients)
+1. Wenn auf dem lokalen Computer Windows 8 ausgeführt wird, überspringen Sie diesen Schritt. Wenn auf dem lokalen Computer Windows 7 mit SP1 ausgeführt wird, installieren Sie die neueste Windows 8-Version des [Remotedesktopdienste-Clients](/windows-server/remote/remote-desktop-services/clients/remote-desktop-clients).
     
 2. Starten Sie den Remotedesktopdienste-Client, indem Sie auf **Start** und dann auf **Remotedesktopverbindung** klicken.
     
@@ -61,7 +56,7 @@ Führen Sie die folgenden Schritte auf dem lokalen Computer aus, um die Remotede
     
 5. Klicken Sie auf die Registerkarte **Erweitert**. Deaktivieren Sie unter **Leistung** das Kontrollkästchen **Dauerhafte Bitmapzwischenspeicherung**.
     
-6. Klicken Sie auf die Registerkarte **"Allgemein".** Geben Sie in **Computer** den Namen des virtuellen Desktops ein, und klicken Sie dann auf **Verbinden**. 
+6. Klicken Sie auf die Registerkarte "**Allgemein**". Geben Sie in **Computer** den Namen des virtuellen Desktops ein, und klicken Sie dann auf **Verbinden**. 
     
 ## <a name="sign-in-and-use-skype-for-business-on-the-virtual-desktop"></a>Anmelden und Verwenden von Skype for Business auf dem virtuellen Desktop
 <a name="SfB_signin"> </a>
@@ -124,4 +119,4 @@ Nachfolgend finden Sie die möglichen Gründe für Fehler und die Aktionen, die 
 ## <a name="see-also"></a>Siehe auch
 <a name="tshoot_VDI"> </a>
 
-[Planen von Skype for Business in VDI-Umgebungen](../../plan-your-deployment/clients-and-devices/vdi-environments.md)
+[Planen der Skype for Business in VDI-Umgebungen](../../plan-your-deployment/clients-and-devices/vdi-environments.md)

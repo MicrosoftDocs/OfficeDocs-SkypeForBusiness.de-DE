@@ -1,27 +1,22 @@
 ---
 title: Entfernen der Bereitstellung – Einführung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.RemoveDeploymentStartPage
+  - ms.lync.tb.RemoveDeploymentStartPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8659fefa-97f1-4d4a-9628-5c6dae86b244
-description: Führen Sie den Assistenten zum Entfernen einer Bereitstellung nur dann aus, wenn Sie Ihre gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie mit einem einzigen Front-End-Server. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, kann die ursprüngliche Topologie nicht wiederhergestellt werden.
-ms.openlocfilehash: 46fa8aabb248bceddeb2ff71acc3531be7771b99
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848748"
+description: 'Führen Sie den Assistenten zum Entfernen einer Bereitstellung nur dann aus, wenn Sie Ihre gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie mit einem einzigen Front-End-Server. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, kann die ursprüngliche Topologie nicht wiederhergestellt werden.'
 ---
+
 # <a name="remove-deployment-introduction"></a>Entfernen der Bereitstellung – Einführung
  
 Führen Sie den Assistenten zum Entfernen einer Bereitstellung nur dann aus, wenn Sie Ihre gesamte Bereitstellung außer Betrieb nehmen möchten. Dieser Assistent erstellt eine leere Topologie mit einem einzigen Front-End-Server. Nachdem Sie diesen Assistenten ausgeführt und die leere Topologie veröffentlicht haben, kann die ursprüngliche Topologie nicht wiederhergestellt werden.

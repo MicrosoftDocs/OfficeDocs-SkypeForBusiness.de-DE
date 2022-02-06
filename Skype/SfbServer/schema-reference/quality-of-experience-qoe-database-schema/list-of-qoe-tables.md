@@ -1,25 +1,20 @@
 ---
 title: Liste von QoE-Tabellen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/13/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 176194d7-d184-4e23-94bb-cb62b4db47f5
 description: Das Datenbankschema besteht aus den folgenden Tabellen.
-ms.openlocfilehash: 7b97746b3f8a490da7fb06d903ca6f7676f2d6b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849588"
 ---
+
 # <a name="list-of-qoe-tables"></a>Liste von QoE-Tabellen
  
 Das Datenbankschema besteht aus den folgenden Tabellen. 

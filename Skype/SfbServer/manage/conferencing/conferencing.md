@@ -1,35 +1,30 @@
 ---
 title: Verwalten von Konferenzen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 825e051c-83a5-420d-a5ef-f77afa368e2e
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Konferenzen in Skype for Business Server verwalten.'
-ms.openlocfilehash: 122b7d797983df9bb3ef6252234099869650a66e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845458"
 ---
+
 # <a name="manage-conferencing-in-skype-for-business-server"></a>Verwalten von Konferenzen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Konferenzen in Skype for Business Server verwalten.
   
-In diesem Thema wird beschrieben, wie Sie Konferenzen verwalten. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and Deploy [conferencing in Skype for Business Server.](../../deploy/deploy-conferencing/deploy-conferencing.md)
+In diesem Thema wird beschrieben, wie Sie Konferenzen verwalten. Weitere Informationen zum Planen und Bereitstellen von Konferenzen finden Sie unter [Plan for conferencing in Skype for Business Server](../../plan-your-deployment/conferencing/conferencing.md) and [Deploy conferencing in Skype for Business Server](../../deploy/deploy-conferencing/deploy-conferencing.md).
   
 In Skype for Business Server verwalten Sie die Details von Konferenzen, indem Sie die Konfigurations- und Richtlinieneinstellungen wie folgt angeben. Beachten Sie, dass die Begriffe "Konferenzen" und "Besprechung" manchmal synonym verwendet werden. Aber im Allgemeinen können Sie sich eine Besprechung als eine bestimmte Instanz von Konferenzen vorstellen.
   
 - **Die Konferenzrichtlinieneinstellungen** umfassen eine Vielzahl von Planungs- und Teilnahmeoptionen, von der Frage, ob eine Besprechung IP-Audio und -Video enthalten kann, bis hin zur maximalen Anzahl von Personen, die teilnehmen können. Sie können Konferenzrichtlinien verwenden, um Sicherheit, Bandbreite und rechtliche Aspekte von Besprechungen zu verwalten.
     
-    Beachten Sie, dass Konferenzrichtlinien auf den Benutzer oder Standort angewendet werden und nicht auf eine bestimmte Besprechung angewendet werden können. Daher kann die Besprechungseinladung für die Konferenz einige Wochen im Voraus erstellt werden, aber die restriktive Konferenzrichtlinie sollte auf das Skype for Business Konto des Besprechungsorganisators unmittelbar vor Beginn der Konferenz angewendet werden. 
+    Beachten Sie, dass Konferenzrichtlinien auf den Benutzer oder Standort angewendet werden und nicht auf eine bestimmte Besprechung angewendet werden können. Daher kann die Besprechungseinladung für die Konferenz einige Wochen im Voraus erstellt werden, aber die restriktive Konferenzrichtlinie sollte auf das Skype for Business Konto des Besprechungsorganisators angewendet werden, kurz bevor die Konferenz beginnt. 
     
     Wenn ein dediziertes Konto für die Rolle "Besprechungsorganisator" verwendet wird, kann die Konferenzrichtlinie diesem Konto zugewiesen bleiben. Wenn der Besprechungsorganisator ein allgemeines Skype for Business Konto verwendet, muss die Richtlinie nach Abschluss der Konferenz entfernt werden.
     
@@ -39,7 +34,7 @@ In Skype for Business Server verwalten Sie die Details von Konferenzen, indem Si
     
     Mit diesen Einstellungen können Sie die eigentlichen Server selbst verwalten. Diese Einstellungen können nur mithilfe Skype for Business Server Verwaltungsshell festgelegt werden. 
     
-- Mit den Zugriffseinstellungen für **die Einwahl** können Sie Informationen darüber definieren, ob und wie sich Benutzer über ein Telefon einwählen. Auf der Registerkarte "VoIP-Routing" der Systemsteuerung geben Sie auf der Registerkarte "Systemsteuerungskonferenzen" einige Informationen zum Einwahlzugriff an, z. B. Die Zugriffsnummer und einige Einwahlinformationen wie Wählplan, VoIP-Richtlinie, Route und PSTN-Verwendung.
+- Mit **den Zugriffseinstellungen für die Einwahl** können Sie Informationen darüber definieren, ob und wie sich Benutzer über ein Telefon einwählen. Auf der Registerkarte "VoIP-Routing" der Systemsteuerung geben Sie auf der Registerkarte "Systemsteuerungskonferenzen" einige Informationen zum Einwahlzugriff an, z. B. Die Zugriffsnummer und einige Einwahlinformationen wie Wählplan, VoIP-Richtlinie, Route und PSTN-Verwendung.
     
 - Mithilfe von **PIN-Richtlinieneinstellungen** können Sie die PIN benennen und definieren, die Teilnehmer für den Einwahlzugriff verwenden.
     
@@ -51,35 +46,35 @@ Sie können die meisten Konferenzrichtlinien und Konfigurationseinstellungen mit
     
   - Wählen Sie in der Systemsteuerung **"Konferenzen | Konferenzrichtlinie**.
     
-  - Suchen Sie in PowerShell nach den Cmdlets **"-CsConferencingPolicy".**
+  - Suchen Sie in PowerShell nach den Cmdlets **"-CsConferencingPolicy** ".
     
 - So verwalten Sie Besprechungskonfigurationseinstellungen:
     
   - Wählen Sie in der Systemsteuerung **"Konferenzen | Besprechungskonfiguration**.
     
-  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den **-CsMeetingConfiguration-Cmdlets.**
+  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den -**CsMeetingConfiguration-Cmdlets**.
     
 - So verwalten Sie Die Einstellungen für die Zugriffsnummer für die Einwahl:
     
-  - Wählen Sie in der Systemsteuerung **"Konferenzen | Zugriffsnummer für Einwahl.**
+  - Wählen Sie in der Systemsteuerung **"Konferenzen | Zugriffsnummer für die Einwahl**.
     
-  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den **-CsDialInConferencing-Cmdlets.**
+  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den -**CsDialInConferencing-Cmdlets**.
     
 - So verwalten Sie Einwahlzugriffsinformationen wie Wählplan, VoIP-Richtlinie, Route und PSTN-Verwendung: 
     
   - Wählen Sie in der Systemsteuerung **"Konferenzen | VoIP-Routing**.
     
-  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den Cmdlets **"-CsDialPlan"** und **"-CsVoice".**
+  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den Cmdlets **"-CsDialPlan**" und **"-CsVoice**".
     
 - So verwalten Sie PIN-Richtlinieneinstellungen:
     
   - Wählen Sie in der Systemsteuerung **"Konferenzen | PIN-Richtlinie**.
     
-  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den Cmdlets **"-CsPinPolicy".**
+  - Suchen Sie in Skype for Business Server Verwaltungsshell nach den Cmdlets **"-CsPinPolicy**".
     
-- Zum Verwalten von Konferenzkonfigurationseinstellungen müssen Sie die Skype for Business Server-Verwaltungsshell verwenden. Suchen Sie nach **-CsConferencingConfiguration-Cmdlets.**
+- Zum Verwalten von Konferenzkonfigurationseinstellungen müssen Sie die Skype for Business Server-Verwaltungsshell verwenden. Suchen Sie nach **-CsConferencingConfiguration-Cmdlets** .
     
-## <a name="skype-for-business-server-management-shell-cmdlets"></a>Skype for Business Server Cmdlets der Verwaltungsshell
+## <a name="skype-for-business-server-management-shell-cmdlets"></a>Cmdlets der Skype for Business Server-Verwaltungsshell
 
 Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell verwenden, um Konferenzen zu verwalten: 
   
@@ -170,6 +165,6 @@ Sie können die folgenden Cmdlets Skype for Business Server Verwaltungsshell ver
 |[Test-CsDataConference](/powershell/module/skype/test-csdataconference?view=skype-ps) <br/> |Überprüft, ob ein Benutzerpaar an einer Skype for Business Server Webkonferenz teilnehmen kann, die Aktivitäten wie das Freigeben oder Anzeigen PowerPoint Folien, Whiteboards oder Umfragen umfasst. Das Cmdlet überprüft außerdem, ob der Skype for Business Server Webkonferenzdienst Office Web Apps-Server ermitteln kann und ob ein Client eine PowerPoint Datei zur Übertragung durch Office Web Apps Server hochladen kann.  <br/> |
 |[Test-CsDialInConferencing](/powershell/module/skype/test-csdialinconferencing?view=skype-ps) <br/> |Überprüft, ob ein Benutzer an einer Einwahlkonferenzsitzung teilnehmen kann.  <br/> |
 |[Test-CsDialPlan](/powershell/module/skype/test-csdialplan?view=skype-ps) <br/> |Testet einen Wählplan (ehemals als Standortprofil bezeichnet) für eine Telefonnummer und gibt die Normalisierungsregel, die auf diese Nummer angewendet wird, sowie die übersetzte Nummer nach dem Anwenden der Normalisierungsregel zurück.  <br/> |
-|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet die Fähigkeit von drei Benutzern, an einer Skype for Business Server Mobility Service-Konferenz teilzunehmen. Mit dem Mobilitätsdienst können Benutzer von Mobiltelefonen wie iPhones und Windows Telefonen Beispielsweise Chatnachrichten und Anwesenheitsinformationen austauschen. Internes Speichern und Abrufen von Voicemail anstelle des Drahtlosanbieters; und nutzen Sie Skype for Business Server Funktionen wie "Anruf über Arbeit" und Ausgehende Konferenzen.  <br/> **Hinweis:** Clients, die MCX verwenden, werden in Skype for Business Server 2019 nicht unterstützt.|
+|[Test-CsMcxConference](/powershell/module/skype/test-csmcxconference?view=skype-ps) <br/> |Testet die Fähigkeit von drei Benutzern, an einer Skype for Business Server Mobility Service-Konferenz teilzunehmen. Mit dem Mobilitätsdienst können Benutzer von Mobiltelefonen wie iPhones und Windows Telefonen Chatnachrichten und Anwesenheitsinformationen austauschen, Voicemail intern statt mit ihrem Drahtlosanbieter speichern und abrufen und Skype for Business Server Funktionen wie "Geschäftlich anrufen" und Ausgehende Konferenzen nutzen.  <br/> **Hinweis:** Clients, die MCX verwenden, werden in Skype for Business Server 2019 nicht unterstützt.|
 |[Test-CsUcwaConference](/powershell/module/skype/test-csucwaconference?view=skype-ps) <br/> |Testet die Fähigkeit eines Benutzerpaars, eine Onlinekonferenz mithilfe der Unified Communications Web API (UCWA) zu planen, daran teilzunehmen und dann eine Onlinekonferenz durchzuführen.  <br/> |
 |[Debug-CsDataConference](/powershell/module/skype/debug-csdataconference?view=skype-ps) <br/> |Gibt Diagnoseinformationen für die in Skype for Business Server enthaltenen Datenkonferenzfunktionen zurück.  <br/> |

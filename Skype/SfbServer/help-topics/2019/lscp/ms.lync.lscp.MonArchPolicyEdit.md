@@ -1,27 +1,22 @@
 ---
 title: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchPolicyEdit
+  - ms.lync.lscp.MonArchPolicyEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: a4f948e7-e8f6-449a-8907-f61c5b143c05
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Sie verwenden Archivierungsrichtlinien, um die Archivierung der internen und externen Kommunikation in Ihrer Bereitstellung für Benutzer zu steuern, die auf Skype for Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:'
-ms.openlocfilehash: 0cf89285cd1549a1d84c7ab5ef3c553ca829c770
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861652"
 ---
+
 # <a name="archiving-policy-create-new-or-edit-existing"></a>Archivierungsrichtlinie: Erstellen einer neuen oder Bearbeiten einer vorhandenen Archivierungsrichtlinie
  
 Sie verwenden Archivierungsrichtlinien, um die Archivierung der internen und externen Kommunikation in Ihrer Bereitstellung für Benutzer zu steuern, die auf Skype for Business Server verwaltet werden. Zu den Archivierungsrichtlinien gehören die globale Richtlinie und optional eine oder mehrere Richtlinien für Standorte und Benutzer:
@@ -36,7 +31,7 @@ Sie verwenden Archivierungsrichtlinien, um die Archivierung der internen und ext
 > Wenn Sie Exchange Integration zum Speichern von Archivierungsdaten in Microsoft Exchange verwenden, steuern Exchange Richtlinien die Archivierung für Benutzer, die auf Exchange verwaltet werden. Um die Archivierung für diese Benutzer zu aktivieren, muss das Postfach des Benutzers in In-Place Haltebereich gesetzt werden. 
   
 Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vorhandene Archivierungsrichtlinie zu konfigurieren:
-- **Name** Jede Archivierungsrichtlinie erfordert einen Namen. Der Name wird anhand des Typs der Richtlinie bestimmt, die Sie hinzufügen oder bearbeiten:
+- **Namen** Jede Archivierungsrichtlinie erfordert einen Namen. Der Name wird anhand des Typs der Richtlinie bestimmt, die Sie hinzufügen oder bearbeiten:
     
   - **Globale Richtlinie** Der Standardname lautet "Global". Sie können ihn in einen aussagekräftigeren Namen ändern. Beispiel: Contoso North American Organization.
     
@@ -50,5 +45,5 @@ Geben Sie die folgenden Optionen an, um die Einstellungen für eine neue oder vo
     
 - **Archivieren der externen Kommunikation** Aktivieren Sie dieses Kontrollkästchen, um die Archivierung von Kommunikationen zu aktivieren, die externe Benutzer, z. B. Remotebenutzer (einschließlich anonyme Benutzer und Pic-Einstellungsbenutzer), sowie Verbundpartner umfassen. Diese Option ist in keiner Richtlinie standardmäßig aktiviert.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter ["Plan for archiving in Skype for Business Server",](../../../plan-your-deployment/archiving/archiving.md) ["Deploy archiving for Skype for Business Server"](../../../deploy/deploy-archiving/deploy-archiving.md)und ["Manage archiving in Skype for Business Server".](../../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md) und [Manage archiving in Skype for Business Server ](../../../manage/archiving/archiving.md).
 
