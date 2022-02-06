@@ -1,25 +1,20 @@
 ---
 title: Benutzerdienst für CQD
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: abd5c828-42dd-4f48-bf87-29993193cb3a
 description: 'Zusammenfassung: Erfahren Sie mehr über den Benutzerdienst, der Teil der Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: e8be18304cad02e1ed39cf84327a58f84d134c6d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851008"
 ---
+
 # <a name="user-service-for-cqd"></a>Benutzerdienst für CQD
  
 **Zusammenfassung:** Erfahren Sie mehr über den Benutzerdienst, der Teil der Repository-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -37,7 +32,7 @@ Das Anrufqualitätsdashboard erstellt auch automatisch dedizierte Elemente für 
   
  **Spezielle Benutzer-IDs**
   
-Die Repository-API enthält REST-API-URIs, die einen ganzzahligen Wert zur Angabe eines bestimmten Benutzers erwarten. Beispiel:  `https://<portal>/QoERepositoryService/repository/user/{userId}` . Hier sollte {userId} durch einen ganzzahligen Wert wie 0, 1 usw. ersetzt werden.
+Die Repository-API enthält REST-API-URIs, die einen ganzzahligen Wert zur Angabe eines bestimmten Benutzers erwarten. Beispiel:  `https://<portal>/QoERepositoryService/repository/user/{userId}`. Hier sollte {userId} durch einen ganzzahligen Wert wie 0, 1 usw. ersetzt werden.
   
 Darüber hinaus akzeptiert die Repository-API zwei spezielle Benutzer-IDs unter {userId} in URIs.
   

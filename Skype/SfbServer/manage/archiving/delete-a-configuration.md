@@ -1,24 +1,19 @@
 ---
 title: Löschen einer Archivierungskonfiguration in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fed12cb5-2c80-476a-af3b-d55b450c5fbc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.'
-ms.openlocfilehash: defd9377453234e400dbf75a7d0261c52904adda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851028"
 ---
+
 # <a name="delete-an-archiving-configuration-in-skype-for-business-server"></a>Löschen einer Archivierungskonfiguration in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Archivierungskonfiguration in Skype for Business Server löschen.
@@ -35,7 +30,7 @@ So löschen Sie eine Archivierungskonfiguration mithilfe der Systemsteuerung:
     
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.
     
-4. Klicken Sie in der Liste der Archivierungskonfigurationen auf die Zu löschende Standort- oder Poolkonfiguration, klicken Sie auf **"Bearbeiten"** und dann auf **"Löschen".**
+4. Klicken Sie in der Liste der Archivierungskonfigurationen auf die Zu löschende Standort- oder Poolkonfiguration, klicken Sie auf **Bearbeiten** und dann auf **"Löschen**".
     
     > [!NOTE]
     > Sie können auch auf die globale Konfiguration klicken, diese Option jedoch nur auswählen, wenn Sie die globale Konfiguration auf die Standardwerte zurücksetzen möchten. 
@@ -44,7 +39,7 @@ So löschen Sie eine Archivierungskonfiguration mithilfe der Systemsteuerung:
     
 ## <a name="delete-an-archiving-configuration-by-using-windows-powershell"></a>Löschen einer Archivierungskonfiguration mithilfe von Windows PowerShell
 
-Sie können eine Archivierungskonfiguration auch mithilfe des Cmdlets **"Remove-CsArchivingConfiguration"** löschen.
+Sie können eine Archivierungskonfiguration auch mithilfe des Cmdlets **"Remove-CsArchivingConfiguration** " löschen.
   
 Mit dem folgenden Befehl werden beispielsweise die Archivierungskonfigurationseinstellungen entfernt, die auf den Standort "Redmond" angewendet wurden. Wenn eine auf Standortebene konfigurierte Richtlinie gelöscht wird, werden Benutzer, die zuvor von der Standortrichtlinie verwaltet wurden, stattdessen automatisch von der globalen Archivierungsrichtlinie gesteuert:
   
@@ -64,10 +59,10 @@ Mit dem nächsten Befehl werden alle Archivierungskonfigurationseinstellungen en
 Get-CsArchivingConfiguration | Where-Object {$_.EnableExchangeArchiving -eq $False} | Remove-CsArchivingConfiguration
 ```
 
-Sie können auch das Cmdlet **"Remove-CsArchivingConfiguration"** verwenden, um die globalen Einstellungen auf Standardwerte zurückzusetzen. Angenommen, Sie haben die Chatsitzungsarchivierung auf globaler Ebene aktiviert. Mit dem folgenden Befehl wird der Wert auf den Standardwert "None" zurückgesetzt, wodurch die Archivierung auf globaler Ebene deaktiviert wird:
+Sie können auch das Cmdlet **"Remove-CsArchivingConfiguration** " verwenden, um die globalen Einstellungen auf Standardwerte zurückzusetzen. Angenommen, Sie haben die Chatsitzungsarchivierung auf globaler Ebene aktiviert. Mit dem folgenden Befehl wird der Wert auf den Standardwert "None" zurückgesetzt, wodurch die Archivierung auf globaler Ebene deaktiviert wird:
   
 ```PowerShell
 Remove-CsArchivingConfiguration -Identity global
 ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsArchivingConfiguration".](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Remove-CsArchivingConfiguration](/powershell/module/skype/remove-csarchivingconfiguration?view=skype-ps) ".

@@ -1,24 +1,19 @@
 ---
 title: Bereitstellen von front-End-Paarpools für die Notfallwiederherstellung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f12467c-8b90-43e6-831b-a0b096427f17
-description: Sie können sich dafür entscheiden, gepaarte Front-End-Pools für den Notfallwiederherstellungsschutz zu verwenden, dies ist jedoch keine Voraussetzung.
-ms.openlocfilehash: 27909f44f0d86cac3100437f7df094b5f72ba1be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855099"
+description: 'Sie können sich dafür entscheiden, gepaarte Front-End-Pools für den Notfallwiederherstellungsschutz zu verwenden, dies ist jedoch keine Voraussetzung.'
 ---
+
 # <a name="deploy-paired-front-end-pools-for-disaster-recovery-in-skype-for-business-server"></a>Bereitstellen von front-End-Paarpools für die Notfallwiederherstellung in Skype for Business Server
  
 Sie können sich dafür entscheiden, gepaarte Front-End-Pools für den Notfallwiederherstellungsschutz zu verwenden, dies ist jedoch keine Voraussetzung.
@@ -29,7 +24,7 @@ Sie können die Notfallwiederherstellungstopologie von gepaarten Front-End-Pools
 
 1. Wenn die Pools neu und noch nicht definiert sind, verwenden Sie den Topologie-Generator, um die Pools zu erstellen.
     
-2. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **"Eigenschaften bearbeiten".**
+2. Klicken Sie im Topologie-Generator mit der rechten Maustaste auf einen der beiden Pools, und klicken Sie dann auf **"Eigenschaften bearbeiten**".
     
 3. Klicken Sie im linken Bereich auf **Flexibilität**, und wählen Sie dann im rechten Bereich **Zugeordneter Sicherungspool** aus.
     
@@ -82,8 +77,8 @@ Sie können die Notfallwiederherstellungstopologie von gepaarten Front-End-Pools
     ```
 
 > [!NOTE]
-> Die Option **"Automatisches Failover und Failback für VoIP"** und die zugeordneten Zeitintervalle im Topologie-Generator gelten nur für die In Lync Server eingeführten VoIP-Resilienzfeatures. Wenn Sie diese Option auswählen, bedeutet dies nicht, dass das in diesem Dokument beschriebene Poolfailover automatisch erfolgt. Poolfailover und Failback erfordern immer, dass ein Administrator die Failover- bzw. Failback-Cmdlets manuell aufruft.
+> Die Option **"Automatisches Failover und Failback für VoIP** " und die zugeordneten Zeitintervalle im Topologie-Generator gelten nur für die In Lync Server eingeführten VoIP-Resilienzfeatures. Wenn Sie diese Option auswählen, bedeutet dies nicht, dass das in diesem Dokument beschriebene Poolfailover automatisch erfolgt. Poolfailover und Failback erfordern immer, dass ein Administrator die Failover- bzw. Failback-Cmdlets manuell aufruft.
   
 ## <a name="see-also"></a>Siehe auch
 
-[Notfallwiederherstellung von Front-End-Pools in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)
+[Notfallwiederherstellung des Front-End-Pools in Skype for Business Server](../../plan-your-deployment/high-availability-and-disaster-recovery/disaster-recovery.md)

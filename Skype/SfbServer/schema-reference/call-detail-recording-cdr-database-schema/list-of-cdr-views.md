@@ -1,25 +1,20 @@
 ---
 title: Liste von KDS-Ansichten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 7/15/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 2f72aead-d1da-4185-b75c-f6c31d76a6b3
-description: Ansichten bieten eine einfache Möglichkeit, auf Informationen zu den gängigsten Szenarien zuzugreifen, die zum Zurückgeben von Daten aus der KDS-Datenbank verwendet werden. Es wird empfohlen, Ansichten zum Erstellen von benutzerdefinierten Berichten zu verwenden, anstatt die tatsächlichen KDS-Datenbanktabellen zu verwenden. Dies liegt daran, dass die Datenbankansichten mit größerer Wahrscheinlichkeit die Abwärtskompatibilität mit zukünftigen Versionen aufrechterhalten.
-ms.openlocfilehash: 713e9bef620f36901031024395cc3b51898e433d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847058"
+description: 'Ansichten bieten eine einfache Möglichkeit, auf Informationen zu den gängigsten Szenarien zuzugreifen, die zum Zurückgeben von Daten aus der KDS-Datenbank verwendet werden. Es wird empfohlen, Ansichten zum Erstellen von benutzerdefinierten Berichten zu verwenden, anstatt die tatsächlichen KDS-Datenbanktabellen zu verwenden. Dies liegt daran, dass die Datenbankansichten mit größerer Wahrscheinlichkeit die Abwärtskompatibilität mit zukünftigen Versionen aufrechterhalten.'
 ---
+
 # <a name="list-of-cdr-views"></a>Liste von KDS-Ansichten
  
 Ansichten bieten eine einfache Möglichkeit, auf Informationen zu den gängigsten Szenarien zuzugreifen, die zum Zurückgeben von Daten aus der KDS-Datenbank verwendet werden. Es wird empfohlen, Ansichten zum Erstellen von benutzerdefinierten Berichten zu verwenden, anstatt die tatsächlichen KDS-Datenbanktabellen zu verwenden. Dies liegt daran, dass die Datenbankansichten mit größerer Wahrscheinlichkeit die Abwärtskompatibilität mit zukünftigen Versionen aufrechterhalten.

@@ -1,45 +1,40 @@
 ---
 title: Planen des standortbasierten Routings in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4aa494bd-0d66-4335-b9e8-f758d44a7202
-description: Planung des standortbasierten Routings in Skype for Business Server Enterprise-VoIP, einschließlich Interaktion mit gleichzeitiges Klingeln und Delegierung sowie unterstützte Szenarien für standortbasiertes Routing.
-ms.openlocfilehash: aada1db39d4dacbd5a6ec7f5dec1ede08468c50e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855332"
+description: 'Planung des standortbasierten Routings in Skype for Business Server Enterprise-VoIP, einschließlich Interaktion mit gleichzeitiges Klingeln und Delegierung sowie unterstützte Szenarien für standortbasiertes Routing.'
 ---
+
 # <a name="plan-for-location-based-routing-in-skype-for-business"></a>Planen des standortbasierten Routings in Skype for Business
 
 Planung des standortbasierten Routings in Skype for Business Server Enterprise-VoIP, einschließlich Interaktion mit gleichzeitiges Klingeln und Delegierung sowie unterstützte Szenarien für standortbasiertes Routing.
 
 Location-Based Routing ermöglicht es, das Routing von Anrufen zwischen VoIP-Endpunkten und PSTN-Endpunkten basierend auf dem Standort der Anrufbeteiligten einzuschränken. Location-Based Routing ist ein Anrufverwaltungsfeature, das steuert, wie Anrufe von Skype for Business Server weitergeleitet werden. Es erzwingt Anrufautorisierungsregeln, ob Anrufe basierend auf dem geografischen Standort des Skype for Business Anrufers an Nebenstellen- oder PSTN-Endpunkte weitergeleitet werden können.
 
-Location-Based Routing führt einen neuen Satz von Regeln ein, mit denen das Routing von nationalen und internationalen PSTN-Anrufen geändert wird, um die Gebührenumgehung zu verhindern. Location-Based Routing bietet die Flexibilität, diese Regeln auf bestimmte Regionen, bestimmte Gateways oder nur auf bestimmte Benutzergruppen zu beschränken.
+Location-Based Routing führt einen neuen Satz von Regeln ein, mit denen das Routing von nationalen und internationalen PSTN-Anrufen geändert wird, um eine Gebührenumgehung zu verhindern. Location-Based Routing bietet die Flexibilität, diese Regeln auf bestimmte Regionen, bestimmte Gateways oder nur auf bestimmte Benutzergruppen zu beschränken.
 
 Die folgenden Szenarien veranschaulichen die wichtigsten Arten von Einschränkungen, die Location-Based Routing erzwingen kann:
 
 - Egress Anrufe : Location-Based Routing kann ausgehende Anrufe erzwingen, um an ein PSTN-Gateway zu gehen, das sich in derselben Region befindet, in der sich der Anrufer befindet, um eine gebührenpflichtige PsTN-Umgehung zu verhindern. Dadurch wird verhindert, dass Anrufe an ein PSTN-Gateway in einer anderen Region als der Anrufer gesendet werden.
 
-- Eingehende Anrufe – Location-Based Routing kann verhindern, dass eingehende PSTN-Anrufe Skype for Business Endpunkten klingeln, wenn sich das PSTN-Gateway, das den eingehenden Anruf weiterleitet, nicht in derselben Region befindet wie der angerufene Skype for Business Benutzer.
+- Eingehende Anrufe – Location-Based Routing kann verhindern, dass eingehende PSTN-Anrufe Skype for Business Endpunkte klingeln, wenn sich das PSTN-Gateway, das den eingehenden Anruf weiterleitet, nicht in derselben Region wie der angerufene Skype for Business-Benutzer befindet.
 
 - Unbekannte Regionen – Location-Based Routing schränkt eingehende und ausgehende PSTN-Anrufe an und von Benutzern ein, die sich an unbestimmten Standorten befinden (d. h. Remotebenutzer, die über das Internet eine Verbindung herstellen oder sich in unbekannten Regionen befinden).
 
-- Internationale Regionen – Location-Based Routing erzwingt das Routing ausgehender Anrufe über internationale PSTN-Gateways, wenn ein lokales Gateway am Standort des Benutzers nicht gefunden werden kann.
+- Internationale Regionen – Location-Based Routing erzwingt das Routing ausgehender Anrufe über internationale PSTN-Gateways, wenn kein lokales Gateway am Standort des Benutzers gefunden werden kann.
 
 ## <a name="guidance-for-where-to-apply-location-based-routing"></a>Anleitung zum Anwenden von Location-Based Routing
 
@@ -49,33 +44,33 @@ Location-Based Routing kann je nach Situation am Endpunkt-Netzwerkstandort des B
 
 Location-Based Routing nutzt die gleichen Netzwerkregionen, Standorte und Subnetze wie in Skype for Business Server definiert, die von E9-1-1, Anrufsteuerung und Medienumgehung verwendet werden, um Einschränkungen für die Anrufweiterleitung anzuwenden, um die Gebührenumgehung im öffentlichen Telefonnetz zu verhindern. Der Standort eines Benutzers wird durch das IP-Subnetz der Skype for Business Endpunkte des Benutzers bestimmt, von denen eine Verbindung hergestellt wird. Jedes IP-Subnetz ist einem Netzwerkstandort zugeordnet, der in vom Administrator definierte Netzwerkregionen aggregiert wird. Location-Based Routing wird basierend auf dem Netzwerkstandort des Benutzers erzwungen.
 
-Location-Based Routingregeln werden pro Netzwerkstandort angewendet, was bedeutet, dass ein bestimmter Satz von Regeln auf alle Endpunkte angewendet wird, die für Location-Based Routing aktiviert sind, die sich am gleichen Netzwerkstandort befinden. Administratoren können Location-Based Routing auf Netzwerkstandorte anwenden, die dies erfordern.
+Location-Based Routingregeln werden pro Netzwerkstandort angewendet, was bedeutet, dass ein bestimmter Satz von Regeln auf alle Endpunkte angewendet wird, die für Location-Based Routing aktiviert sind, die sich am selben Netzwerkstandort befinden. Administratoren können Location-Based Routing auf Netzwerkstandorte anwenden, die dies erfordern.
 
 VoIP-Routingrichtlinien können pro Netzwerkstandort definiert werden, um ein bestimmtes PSTN-Gateway zu definieren, das von allen Benutzern am Netzwerkstandort zum Anrufen von PSTN-Telefonnummern verwendet werden soll. Diese VoIP-Routingrichtlinien haben Vorrang vor dem von der VoIP-Richtlinie des Benutzers definierten Routing, wenn sich der Benutzer an einem Netzwerkstandort befindet, der für Location-Based Routing aktiviert ist, und verhindert das Routing von Anrufen über andere PSTN-Gateways, die für Location-Based Routing aktiviert sind. Wenn ein Skype for Business Benutzer einen PSTN-Anruf abgibt, bestimmt die VoIP-Richtlinie des Benutzers, ob der Benutzer zum Tätigen des Anrufs autorisiert werden kann. Wenn die VoIP-Richtlinie des Benutzers es dem Benutzer ermöglicht, den Anruf zu tätigen, bestimmt Location-Based Routing, von welchem PSTN-Gateway der Anruf ausgehend werden soll. Location-Based Routing legt diese Entscheidung basierend auf dem Standort des Benutzers fest.
 
 Ein Benutzerstandort kann wie folgt kategorisiert werden:
 
-- Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der für Location-Based Routing aktiviert ist, und seine DID-Nummer (Direct Inward Dial) wird an einem PSTN-Gateway am selben Netzwerkstandort (z. B. Office) beendet. Das Routing ausgehender Anrufe erfolgt über die VoIP-Routingrichtlinie des Netzwerkstandorts, an dem sich der Benutzer befindet. Eingehende PSTN-Anrufe an den Benutzer werden an Endpunkte weitergeleitet, die sich am selben Netzwerkstandort wie das PSTN-Gateway befinden.
+- Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der für Location-Based Routing aktiviert ist, und seine DID-Nummer (Direct Inward Dial) wird an einem PSTN-Gateway am selben Netzwerkstandort (d. h. büro) beendet. Das Routing ausgehender Anrufe erfolgt über die VoIP-Routingrichtlinie des Netzwerkstandorts, an dem sich der Benutzer befindet. Eingehende PSTN-Anrufe an den Benutzer werden an Endpunkte weitergeleitet, die sich am selben Netzwerkstandort wie das PSTN-Gateway befinden.
 
-- Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der sich von dem Netzwerkstandort unterscheidet, an dem sich das PSTN-Gateway befindet. (d. h. der Benutzer ist zu einem anderen Unternehmensbüro gefahren). Für das Routing ausgehender Anrufe wird die VoIP-Routingrichtlinie des Netzwerkstandorts verwendet, an dem sich der Benutzer befindet. Eingehende PSTN-Anrufe an den Benutzer werden nicht an Endpunkte weitergeleitet, die sich an anderen Standorten als das PSTN-Gateway befinden, um die Umgehung von Gebühren für das Festnetz zu verhindern.
+- Der Benutzer befindet sich an einem bekannten Netzwerkstandort, der sich von dem Netzwerkstandort unterscheidet, an dem sich das PSTN-Gateway befindet. (d. h. der Benutzer ist zu einem anderen Unternehmensbüro  gefahren). Für das Routing ausgehender Anrufe wird die VoIP-Routingrichtlinie des Netzwerkstandorts verwendet, an dem sich der Benutzer befindet. Eingehende PSTN-Anrufe an den Benutzer werden nicht an Endpunkte weitergeleitet, die sich an anderen Standorten als das PSTN-Gateway befinden, um eine Umgehung der Gebühren im öffentlichen Telefonnetz zu verhindern.
 
 - Wenn sich ein Benutzer an einem Netzwerkstandort befindet, der der Skype for Business Server Bereitstellung unbekannt ist, basiert das Routing ausgehender Anrufe auf der VoIP-Richtlinie, die dem Benutzer an PSTN-Gateways zugewiesen ist, die nicht an Location-Based Routingeinschränkungen gebunden sind. Eingehende PSTN-Anrufe werden nicht an Endpunkte weitergeleitet, die sich an unbekannten Netzwerkstandorten befinden, um die Umgehung der Gebühren für das Festnetz zu verhindern.
 
 ### <a name="applying-location-based-routing-at-the-pstn-gateways-location"></a>Anwenden Location-Based Routing am Standort des PSTN-Gateways
 
-Anrufe, die über PSTN-Gateways und Nebenstellenanlagen weitergeleitet werden, erfordern je nach Standort dieser Systeme möglicherweise Location-Based Routingeinschränkungen. Location-Based Routing kann mit granularer Genauigkeit pro Trunk aktiviert werden.
+Anrufe, die über PSTN-Gateways und Nebenstellenanlagen weitergeleitet werden, erfordern je nach Standort dieser Systeme möglicherweise Location-Based Routingeinschränkungen. Location-Based Routing kann auf granularer Basis pro Trunk aktiviert werden.
 
 Location-Based Routing führt die folgenden Regeln ein, wenn es für einen Trunk aktiviert ist:
 
 - Wenn Location-Based Routing pro Trunk aktiviert ist, werden die für diesen Trunk definierten Regeln nur auf Anrufe angewendet, die über diesen Trunk weitergeleitet werden.
 
-- Um zu verhindern, dass gebührenpflichtige PsTN-Anrufe umgangen werden, wenn Anrufe von einem Netzwerkstandort ausgehen, der sich vom Netzwerkstandort unterscheidet, an dem sich das PSTN-Gateway befindet, führt Location-Based Routing die Zuordnung eines Netzwerkstandorts zu einem bestimmten Trunk ein. Dadurch wird der Netzwerkstandort definiert, an dem Anrufe an einen bestimmten Trunk weitergeleitet werden können.
+- Um zu verhindern, dass gebührenpflichtige Festnetzanrufe umgangen werden, wenn Anrufe von einem Netzwerkstandort ausgehen, der sich vom Netzwerkstandort unterscheidet, an dem sich das PSTN-Gateway befindet, führt Location-Based Routing die Zuordnung eines Netzwerkstandorts zu einem bestimmten Trunk ein. Dadurch wird der Netzwerkstandort definiert, an dem Anrufe an einen bestimmten Trunk weitergeleitet werden können.
 
-Trunks können für Location-Based Routing auf zwei Arten aktiviert werden:
+Trunks können auf zwei Arten für Location-Based Routing aktiviert werden:
 
 - Der Trunk ist für ein PSTN-Gateway definiert, das Anrufe an das PSTN übergibt. Eingehende Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, werden nur an Endpunkte weitergeleitet, die sich am selben Netzwerkstandort wie der Trunk befinden.
 
-- Der Trunk ist für einen Vermittlungsserverpeer definiert, der keine Anrufe an das Telefonfestnetz und Benutzer von Diensten mit älteren Telefonen an statischen Standorten (z. B. Nebenstellentelefone) ausgibt. Für diese spezielle Konfiguration werden alle eingehenden Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, als vom gleichen Netzwerkstandort wie der Trunk ausgehend betrachtet. Anrufe von Pbx-Benutzern haben die gleiche Location-Based Routingerzwingung wie Skype for Business Benutzer, die sich am selben Netzwerkstandort wie der Trunk befinden. Wenn zwei Nebenstellenanlagen, die sich an separaten Netzwerkstandorten befinden, über Skype for Business Server verbunden sind, ermöglicht Location-Based Routing das Routing von einem Nebenstellenanlagenendpunkt an einem Netzwerkstandort zu einem anderen Nebenstellenanlagenendpunkt am anderen Netzwerkstandort. Dieses Szenario wird nicht durch Location-Based Routing blockiert. Zusätzlich zu diesem Szenario und auf ähnliche Weise wie ein Skype for Business Benutzer am selben Standort können Endpunkte, die mit einem Vermittlungsserverpeer mit dieser Konfiguration verbunden sind, Anrufe an und von einem anderen Vermittlungsserverpeer tätigen oder empfangen, die keine Anrufe an das PSTN weiterleiten (d. h. einen Endpunkt, der mit einer anderen Nebenstellenanlage verbunden ist), unabhängig vom Netzwerkstandort, dem der Vermittlungsserverpeer zugeordnet ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anrufübertragungen und Anrufweiterleitungen, an denen PSTN-Endpunkte beteiligt sind, unterliegen dem standortbasierten Routing, um nur PSTN-Gateways zu verwenden, die als lokal für einen solchen Vermittlungsserverpeer definiert sind.
+- Der Trunk ist für einen Vermittlungsserverpeer definiert, der keine Anrufe an das Telefonfestnetz und Benutzer von Diensten mit älteren Telefonen an statischen Standorten (z. B. Nebenstellentelefone) ausgibt. Für diese spezielle Konfiguration werden alle eingehenden Anrufe, die von einem Trunk dieses Typs weitergeleitet werden, als vom selben Netzwerkstandort wie der Trunk ausgehend betrachtet. Anrufe von Pbx-Benutzern haben die gleiche Location-Based Routingerzwingung wie Skype for Business Benutzer, die sich am selben Netzwerkstandort wie der Trunk befinden. Wenn zwei Nebenstellenanlagen, die sich an separaten Netzwerkstandorten befinden, über Skype for Business Server verbunden sind, ermöglicht Location-Based Routing das Routing von einem Nebenstellenanlagenendpunkt an einem Netzwerkstandort zu einem anderen Nebenstellenanlagenendpunkt am anderen Netzwerkstandort. Dieses Szenario wird nicht durch Location-Based Routing blockiert. Zusätzlich zu diesem Szenario und auf ähnliche Weise wie ein Skype for Business Benutzer am selben Standort können Endpunkte, die mit einem Vermittlungsserverpeer mit dieser Konfiguration verbunden sind, Anrufe an und von einem anderen Vermittlungsserverpeer tätigen oder empfangen, die keine Anrufe an das PSTN weiterleiten (d. h. einen Endpunkt, der mit einer anderen Nebenstellenanlage verbunden ist), unabhängig vom Netzwerkstandort, dem der Vermittlungsserverpeer zugeordnet ist. Alle eingehenden Anrufe, ausgehenden Anrufe, Anrufübertragungen und Anrufweiterleitungen, an denen PSTN-Endpunkte beteiligt sind, unterliegen dem standortbasierten Routing, um nur PSTN-Gateways zu verwenden, die als lokal für einen solchen Vermittlungsserverpeer definiert sind.
 
 ## <a name="scenarios-for-location-based-routing"></a>Szenarien für Location-Based Routing
 
@@ -94,15 +89,15 @@ Das Routing ausgehender Anrufe von Benutzern, die für Location-Based Routing ak
 
 ### <a name="incoming-calls"></a>Eingehende Anrufe
 
-Das Routing eingehender Anrufe an Benutzer, die für Location-Based Routing aktiviert sind, hängt vom Standort des Endpunkts des Benutzers ab. Das Routing eingehender Anrufe wird wie folgt beeinflusst. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt an einem Location-Based Routing-aktivierten Netzwerkstandort hat und sich der Endpunkt am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, wird der Anruf weitergeleitet. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem Location-Based Routing-aktivierten Netzwerkstandort befindet und sich der Endpunkt an einem anderen Netzwerkstandort befindet als das PSTN-Gateway, wird der Anruf nicht weitergeleitet. Wenn sich ein Benutzer nicht am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, von dem der eingehende Anruf stammt, wird der eingehende Anruf direkt an die Voicemail des Benutzers weitergeleitet, und eine Benachrichtigung über verpasste Anrufe wird an die angerufene Partei gesendet.
+Das Routing eingehender Anrufe an Benutzer, die für Location-Based Routing aktiviert sind, hängt vom Standort des Endpunkts des Benutzers ab. Das Routing eingehender Anrufe wird wie folgt beeinflusst. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem Location-Based Routing-aktivierten Netzwerkstandort befindet und sich der Endpunkt am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, wird der Anruf weitergeleitet. Wenn ein Benutzer einen eingehenden Anruf an einen Endpunkt hat, der sich an einem Location-Based Routing-aktivierten Netzwerkstandort befindet und sich der Endpunkt an einem anderen Netzwerkstandort als das PSTN-Gateway befindet, wird der Anruf nicht weitergeleitet. Wenn sich ein Benutzer nicht am gleichen Netzwerkstandort wie das PSTN-Gateway befindet, von dem der eingehende Anruf stammt, wird der eingehende Anruf direkt an die Voicemail des Benutzers weitergeleitet, und eine Benachrichtigung über verpasste Anrufe wird an die angerufene Partei gesendet.
 
-Die Anrufweiterleitungseinstellungen eines Benutzers, der für Location-Based Routing aktiviert ist, werden weiterhin erzwungen, weitergeleitete Anrufe unterliegen jedoch Location-Based Routingeinschränkungen des Benutzers.
+Die Anrufweiterleitungseinstellungen eines Benutzers, der für Location-Based Routing aktiviert ist, werden weiterhin erzwungen. Weitergeleitete Anrufe unterliegen jedoch Location-Based Routingeinschränkungen des Benutzers.
 
-Die folgende Tabelle zeigt, wie sich Location-Based Routing abhängig vom Standort des Endpunkts des Angerufenen auf das Routing eingehender Anrufe auswirkt. Der Netzwerkstandort des PSTN-Gateways ist für Location-Based Routing aktiviert, und Location-Based Routing erlaubt nur das Routing von PSTN-Anrufen an Endpunkte am gleichen Netzwerkstandort.
+In der folgenden Tabelle wird veranschaulicht, wie sich Location-Based Routing abhängig vom Standort des Endpunkts des Angerufenen auf das Routing eingehender Anrufe auswirkt. Der Netzwerkstandort des PSTN-Gateways ist für Location-Based Routing aktiviert, und Location-Based Routing erlaubt nur das Routing von PSTN-Anrufen an Endpunkte am gleichen Netzwerkstandort.
 
 **Anrufer, der einen eingehenden Anruf aus dem PSTN empfängt**
 
-|&nbsp;|Der Endpunkt des Angerufenen befindet sich am selben Netzwerkstandort wie das PSTN-Gateway|Der Endpunkt des Angerufenen befindet sich nicht am gleichen Netzwerkstandort wie das PSTN-Gateway|Endpunkt des Angerufenen, der sich an einem unbekannten Netzwerkstandort befindet oder nicht für Location-Based Routing aktiviert ist|
+|&nbsp;|Der Endpunkt des Angerufenen befindet sich am selben Netzwerkstandort wie das PSTN-Gateway|Der Endpunkt des Angerufenen befindet sich nicht am selben Netzwerkstandort wie das PSTN-Gateway|Endpunkt des Angerufenen, der sich an einem unbekannten Netzwerkstandort befindet oder nicht für Location-Based Routing aktiviert ist|
 |:-----|:-----|:-----|:-----|
 |Routing eines eingehenden PSTN-Anrufs   |Eingehender Anruf wird an die Endpunkte des Angerufenen weitergeleitet   |Eingehender Anruf wird nicht an die Endpunkte des Angerufenen weitergeleitet   |Eingehender Anruf wird nicht an die Endpunkte des Angerufenen weitergeleitet   |
 
@@ -114,9 +109,9 @@ Die folgende Tabelle veranschaulicht das Szenario eines Skype for Business Benut
 
 **Initiieren der Anrufübertragung oder -weiterleitung**
 
-|Benutzer, der die Anrufweiterleitung initiiert|Der Zielendpunkt befindet sich am selben Netzwerkstandort wie der Benutzer, der die Anrufübertragung oder -weiterleitung initiiert.|Der Zielendpunkt befindet sich an einem anderen Netzwerkstandort als Benutzer, der die Anrufübertragung oder -weiterleitung initiiert.|Der Zielendpunkt befindet sich an einem unbekannten Netzwerkstandort oder Netzwerkstandort, der nicht für Location-Based Routing aktiviert ist
+|Benutzer, der die Anrufweiterleitung initiiert|Der Zielendpunkt befindet sich am selben Netzwerkstandort wie der Benutzer, der die Anrufübertragung oder -weiterleitung initiiert.|Der Zielendpunkt befindet sich an einem anderen Netzwerkstandort als Benutzer, der die Anrufübertragung oder -weiterleitung initiiert.|Der Zielendpunkt befindet sich an einem unbekannten Netzwerkstandort oder Netzwerkstandort, der nicht für Location-Based Routing aktiviert ist.
 |:-----|:-----|:-----|:-----|
-|Skype for Business Benutzer   |Anrufweiterleitung oder -übertragung ist zulässig   |Anrufweiterleitung oder -übertragung ist nicht zulässig   |Anrufweiterleitung oder -übertragung ist nicht zulässig   |
+|Skype for Business-Benutzer   |Anrufweiterleitung oder -übertragung ist zulässig   |Anrufweiterleitung oder -übertragung ist nicht zulässig   |Anrufweiterleitung oder -übertragung ist nicht zulässig   |
 
 Beispiel: Ein Skype for Business Benutzer in einem Anruf mit einem PSTN-Endpunkt überträgt den Anruf an einen anderen Skype for Business Benutzer, der sich am selben Netzwerkstandort befindet. In diesem Fall ist die Anrufübertragung zulässig.
 
@@ -128,7 +123,7 @@ Die folgende Tabelle veranschaulicht das Szenario eines Skype for Business Benut
 |:-----|:-----|:-----|:-----|
 |PSTN-Endpunkt   |Anrufweiterleitung oder -übertragung, die von der VoIP-Routingrichtlinie des übertragenen Benutzers zugelassen ist   |Anrufweiterleitung oder -übertragung, die von der VoIP-Routingrichtlinie des übertragenen Benutzers zugelassen ist   |Anrufweiterleitung oder -übertragung, die von der VoIP-Richtlinie des übertragenen Benutzers nur über Trunks zulässig ist, die nicht für Location-Based Routing aktiviert sind   |
 
-Beispiel: Ein Skype for Business Benutzer in einem Anruf mit einem anderen Skype for Business Benutzer, der sich am selben Netzwerkstandort befindet, überträgt den Anruf an einen PSTN-Endpunkt, und die Anrufübertragung ist zulässig.
+Beispiel: Ein Skype for Business Benutzer in einem Anruf mit einem anderen Skype for Business Benutzer, der sich am gleichen Netzwerkstandort befindet, überträgt den Anruf an einen PSTN-Endpunkt, und die Anrufübertragung ist zulässig.
 
 ### <a name="simultaneous-ringing"></a>Gleichzeitiges Klingeln
 
@@ -140,7 +135,7 @@ Die folgende Tabelle zeigt einen Benutzer, der mit gleichzeitigem Klingeln konfi
 
 |Eingehender PSTN-Anruf für|Befindet sich am gleichen Netzwerkstandort wie der Angerufene.|Befindet sich an einem anderen Netzwerkstandort als der Angerufene|Befindet sich an einem unbekannten Netzwerkstandort oder ist nicht für Location-Based Routing aktiviert|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Benutzer   |Gleichzeitiges Klingeln zulässig   |Gleichzeitiges Klingeln nicht zulässig   |Gleichzeitiges Klingeln nicht zulässig   |
+|Skype for Business-Benutzer   |Gleichzeitiges Klingeln zulässig   |Gleichzeitiges Klingeln nicht zulässig   |Gleichzeitiges Klingeln nicht zulässig   |
 
 Die folgende Tabelle zeigt einen Anruf von einem Skype for Business Benutzer (d. h. Skype for Business Anrufer) am gleichen Netzwerkstandort, an einem anderen Netzwerkstandort oder von einem unbekannten Netzwerkstandort aus. Der Angerufene verfügt über einen PSTN-Endpunkt (d. h. ein Mobiltelefon), der als Ziel für gleichzeitiges Klingeln konfiguriert ist. In diesem Szenario bestimmt Location-Based Routing, ob der Anruf an das Ziel des gleichzeitigen Anrufs (z. B. das Mobiltelefon) des Angerufenen weitergeleitet werden soll oder nicht.
 
@@ -150,7 +145,7 @@ Die folgende Tabelle zeigt einen Anruf von einem Skype for Business Benutzer (d.
 |:-----|:-----|:-----|:-----|
 |PSTN-Endpunkt   |Gleichzeitiges Klingeln über die VoIP-Routingrichtlinie des Anrufers   |Gleichzeitiges Klingeln über die VoIP-Routingrichtlinie des Anrufers   |Gleichzeitiges Klingeln über die VoIP-Richtlinie des Anrufers für Trunks zulässig, die nicht für Location-Based Routing aktiviert sind   |
 
-### <a name="skype-for-business-cumulative-update-4"></a>Skype for Business Kumulatives Update 4
+### <a name="skype-for-business-cumulative-update-4"></a>Skype for Business kumulatives Update 4
 
 Mit kumulativem Update 4 sehen Sie Folgendes:
 
@@ -164,23 +159,23 @@ Die folgende Tabelle führt Sie durch einige der Szenarien nach dem kumulativen 
 
 |Location-Based Routingbenutzer|Andere Partei|Aktion|Result|
 |:-----|:-----|:-----|:-----|
-|Skype for Business Mobil   |Telefonfestnetz (Public Switched Telephone Network, PSTN)   |Skype for Business Mobile empfängt einen eingehenden PSTN-Anruf.   |Der Anruf wird über "Anruf über Arbeit" (Call via Work, CvW) und nicht über VoIP weitergeleitet.   |
-|Skype for Business Mobil   |Telefonfestnetz (Public Switched Telephone Network, PSTN)   |Skype for Business Mobile führt einen ausgehenden PSTN-Anruf durch.   |Der Anruf wird über CvW und nicht über VoIP weitergeleitet.   |
-|Skype for Business Mobil   |Telefonfestnetz (Public Switched Telephone Network, PSTN)   |Skype for Business Mobile befindet sich in einem PSTN-Anruf. Skype for Business Mobile eskaliert den Anruf dann an einen anderen Benutzer oder Kontakt.   |Der Anruf wird über VoIP weitergeleitet, wenn sich der Benutzer oder Kontakt lokal im PSTN-Gateway befindet.  <br/> Wenn sich der Benutzer oder Kontakt remote vom PSTN-Gateway befindet, wird der Anruf über CvW weitergeleitet.  <br/> Wenn der Zielbenutzer über das PSTN nicht erreichbar ist, schlägt der Anruf fehl.  <br/> Wenn der Zielkontakt eine automatische Telefonzentrale (Conference Auto Attendant, CAA) ist, wird der Anruf blockiert.   |
-|Skype for Business Mobil   |Skype for Business Client- oder Verbundbenutzer   |Ein Skype for Business Mobile initiiert einen Sprachanruf an einen anderen Skype for Business Client- oder Verbundbenutzer.   |Der Anruf wird über VoIP abgeschlossen.   |
-|Skype for Business Mobil   |Skype for Business Client- oder Verbundbenutzer   | Ein Skype for Business Client- oder Verbundbenutzer initiiert einen Sprachanruf an einen Benutzer Skype for Business Mobile Location-Based Routing.  |Der Anruf wird über VoIP abgeschlossen.   |
-|Skype for Business Mobil   |Skype for Business Client- oder Verbundbenutzer   |Ein Skype for Business Client- oder Verbundbenutzer befindet sich in einem VoIP-Anruf an einen Skype for Business Mobile-Benutzer. Beide Parteien eskalieren an einen zusätzlichen Skype for Business oder Verbundbenutzer.   |Der Anruf wird über VoIP abgeschlossen.   |
-|Skype for Business Mobil   |Partnerbenutzer   |Ein Verbundbenutzer hat einen Sprachanruf an einen Benutzer Skype for Business Mobile Location-Based Routing; eine Skype for Business Mobile-Partei wird an einen PSTN-Benutzer eskaliert.   |Der Anruf wird blockiert.   |
-|Skype for Business Mobil   |Partnerbenutzer   |Ein Verbundbenutzer hat einen VoIP-Anruf an einen Benutzer Skype for Business Mobile Location-Based Routing; Beide Parteien eskalieren an einen CAA-Kontakt.   |Der eskalierte Anruf wird mit einer entsprechenden Fehlermeldung blockiert.   |
-|Skype for Business Mobil   |Partnerbenutzer   |Ein Verbundbenutzer hat einen VoIP-Anruf an einen Benutzer Skype for Business Mobile Location-Based Routing, und der Verbundbenutzer wird an einen PSTN-Benutzer eskaliert.   |Die Eskalation ist basierend auf dem Location-Based Routing des Verbundbenutzers zulässig oder nicht zulässig. Die Anwendung des Skype for Business Mobile-Location-Based Routingbenutzers ergreift keine Aktion.   |
+|Skype for Business Mobile   |Telefonfestnetz (Public Switched Telephone Network, PSTN)   |Skype for Business Mobile erhält einen eingehenden PSTN-Anruf.   |Der Anruf wird über "Anruf über Arbeit" (Call via Work, CvW) und nicht über VoIP weitergeleitet.   |
+|Skype for Business Mobile   |Telefonfestnetz (Public Switched Telephone Network, PSTN)   |Skype for Business Mobile führt einen ausgehenden PSTN-Anruf durch.   |Der Anruf wird über CvW und nicht über VoIP weitergeleitet.   |
+|Skype for Business Mobile   |Telefonfestnetz (Public Switched Telephone Network, PSTN)   |Skype for Business Mobile befindet sich in einem PSTN-Anruf. Skype for Business Mobile eskaliert dann den Anruf an einen anderen Benutzer oder Kontakt.   |Der Anruf wird über VoIP weitergeleitet, wenn sich der Benutzer oder Kontakt lokal im PSTN-Gateway befindet.  <br/> Wenn sich der Benutzer oder Kontakt remote vom PSTN-Gateway befindet, wird der Anruf über CvW weitergeleitet.  <br/> Wenn der Zielbenutzer über das PSTN nicht erreichbar ist, schlägt der Anruf fehl.  <br/> Wenn der Zielkontakt eine automatische Telefonzentrale (Conference Auto Attendant, CAA) ist, wird der Anruf blockiert.   |
+|Skype for Business Mobile   |Skype for Business Client oder Verbundbenutzer   |Ein Skype for Business Mobile initiiert einen Sprachanruf an einen anderen Skype for Business Client- oder Verbundbenutzer.   |Der Anruf wird über VoIP abgeschlossen.   |
+|Skype for Business Mobile   |Skype for Business Client oder Verbundbenutzer   | Ein Skype for Business Client- oder Verbundbenutzer initiiert einen Sprachanruf an einen Benutzer Skype for Business Mobile Location-Based Routing.  |Der Anruf wird über VoIP abgeschlossen.   |
+|Skype for Business Mobile   |Skype for Business Client oder Verbundbenutzer   |Ein Skype for Business Client- oder Verbundbenutzer befindet sich in einem VoIP-Anruf an einen Skype for Business Mobile-Benutzer. Beide Parteien eskalieren an einen zusätzlichen Skype for Business oder Verbundbenutzer.   |Der Anruf wird über VoIP abgeschlossen.   |
+|Skype for Business Mobile   |Partnerbenutzer   |Ein Verbundbenutzer ist sprachanrufend für einen benutzer Skype for Business Mobile Location-Based Routing; eine Skype for Business Mobile-Partei wird an einen PSTN-Benutzer eskaliert.   |Der Anruf wird blockiert.   |
+|Skype for Business Mobile   |Partnerbenutzer   |Ein Verbundbenutzer befindet sich in einem VoIP-Anruf bei einem Skype for Business Mobile Location-Based Routingbenutzer; eine der Beiden Teilnehmer eskaliert an einen CAA-Kontakt.   |Der eskalierte Anruf wird mit einer entsprechenden Fehlermeldung blockiert.   |
+|Skype for Business Mobile   |Partnerbenutzer   |Ein Verbundbenutzer befindet sich in einem VoIP-Anruf bei einem Skype for Business Mobile Location-Based Routingbenutzer, und der Verbundbenutzer wird an einen PSTN-Benutzer eskaliert.   |Die Eskalation ist basierend auf dem Location-Based Routing des Verbundbenutzers zulässig oder nicht zulässig. Die Anwendung des Skype for Business Mobile-Location-Based Routingbenutzers ergreift keine Aktion.   |
 
 ### <a name="delegation"></a>Delegierung
 
-Die Delegierungsfunktionen in Skype for Business sind von Location-Based Routing auf folgende Weise betroffen:
+Die Delegierungsfunktionen in Skype for Business werden durch Location-Based Routing auf folgende Weise beeinflusst:
 
-- Wenn eine Stellvertretung für Location-Based Routing einen Anruf im Auftrag eines Vorgesetzten tätigt, wird die VoIP-Richtlinie der Stellvertretung verwendet, um den Anruf zu autorisieren, und die VoIP-Routingrichtlinie des Delegaten wird zum Weiterleiten des Anrufs verwendet.
+- Wenn eine für Location-Based Routing aktivierte Stellvertretung einen Anruf im Auftrag eines Vorgesetzten tätigt, wird die VoIP-Richtlinie der Stellvertretung verwendet, um den Anruf zu autorisieren, und die VoIP-Routingrichtlinie des Delegaten wird zum Weiterleiten des Anrufs verwendet.
 
-- Für eingehende PSTN-Anrufe an einen Vorgesetzten gelten die gleichen Regeln für die Anrufweiterleitung oder das gleichzeitige Klingeln, wie in den Themen "Anrufweiterleitung und -weiterleitung" und "Gleichzeitiges Klingeln" beschrieben.
+- Für eingehende PSTN-Anrufe an einen Vorgesetzten gelten die gleichen Regeln für die Anrufweiterleitung oder das gleichzeitige Klingeln, wie in den Themen "Anrufweiterleitung und -weiterleitung und gleichzeitiges Klingeln" beschrieben.
 
 - Wenn ein Delegat einen PSTN-Endpunkt als Ziel für gleichzeitiges Klingeln für einen eingehenden Anruf an den Vorgesetzten festlegt, wird die VoIP-Routingrichtlinie des Standorts, der dem eingehenden Trunk zugeordnet ist, verwendet, um den Anruf an den PSTN-Endpunkt des Delegaten weiterzuleiten.
 
@@ -192,7 +187,7 @@ Bei der Planung Location-Based Routing sollten Sie die Auswirkungen auf die folg
 
 ### <a name="disaster-recovery"></a>Notfallwiederherstellung
 
-Während eines Failovers vom primären Pool zu einem Sicherungspool und beim Wiederherstellen des normalen Betriebs im primären Pool bleibt Location-Based Routing während eines Notfall- und Wiederherstellungsvorgangs jederzeit erzwungen.
+Während eines Failovers vom primären Pool zu einem Sicherungspool und beim Wiederherstellen normaler Vorgänge im primären Pool bleibt Location-Based Routing während eines Notfall- und Wiederherstellungsvorgangs jederzeit erzwungen.
 
 ### <a name="survivable-branch-appliance"></a>Survivable Branch Appliance
 
@@ -243,7 +238,7 @@ In der folgenden Tabelle sind die Clients aufgeführt, die Location-Based Routin
 
 ## <a name="capabilities-not-supported-by-location-based-routing"></a>Vom Location-Based Routing nicht unterstützte Funktionen
 
-Location-Based Routing gilt nicht für die folgenden Arten von Interaktionen. Location-Based Routing wird nicht erzwungen, wenn Skype for Business Endpunkte mit PSTN-Endpunkten mit diesen Funktionen interagieren.
+Location-Based Routing gilt nicht für die folgenden Arten von Interaktionen. Location-Based Routing wird nicht erzwungen, wenn Skype for Business Endpunkte mit PSTN-Endpunkten über diese Funktionen interagieren.
 
 - PSTN-Einwahl in Konferenzen
 
@@ -263,4 +258,4 @@ Um Location-Based Routingregeln für die Arten von Interaktionen in der folgende
 
 - Beratungsübertragungen, an denen PSTN-Endpunkte beteiligt sind
 
-Informationen zum Aktivieren Location-Based Routing für Konferenzen finden Sie unter [standortbasiertes Routing für Konferenzen.](/previous-versions/office/lync-server-2013/lync-server-2013-location-based-routing-for-conferencing)
+Informationen zum Aktivieren Location-Based Routing für Konferenzen finden Sie unter ["Standortbasiertes Routing für Konferenzen"](/previous-versions/office/lync-server-2013/lync-server-2013-location-based-routing-for-conferencing).

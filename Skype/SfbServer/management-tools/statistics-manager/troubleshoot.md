@@ -1,25 +1,20 @@
 ---
 title: Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 946189fa-521f-455c-9762-904e7e41b791
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu beheben.'
-ms.openlocfilehash: 6e6edefe8d6070a917f817b3b6d79bf35ff36599
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857342"
 ---
+
 # <a name="troubleshoot-statistics-manager-for-skype-for-business-server"></a>Behandeln von Problemen im Zusammenhang mit Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** Lesen Sie dieses Thema, um Probleme bei der Bereitstellung von Statistics Manager für Skype for Business Server zu behandeln.
@@ -52,11 +47,11 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
   ```
 
     > [!NOTE]
-    > Wenn diese Änderung vorgenommen wird, verbraucht der Agent in der Regel immer noch \< 100 MB Arbeitsspeicher. Er wird jedoch nicht erzwungen auf 300 MB beschränkt, wie es der Standardwert ist. Wenn diese Änderung vorgenommen wird, wird empfohlen, die Speichernutzung genau zu überwachen, um sicherzustellen, dass der Agent auf seinem Hostcomputer keine große Menge Arbeitsspeicher verbraucht. 
+    > Wenn diese Änderung vorgenommen wird, verbraucht \< der Agent in der Regel immer noch 100 MB Arbeitsspeicher. Er wird jedoch nicht erzwungen auf 300 MB beschränkt, wie es der Standardwert ist. Wenn diese Änderung vorgenommen wird, wird empfohlen, die Speichernutzung genau zu überwachen, um sicherzustellen, dass der Agent auf seinem Hostcomputer keine große Menge Arbeitsspeicher verbraucht. 
   
 - **2000** – Clientinitialisierungsfehler
     
-- **2001**: Es konnte keine Verbindung mit dem Dienst in einer Quell-IP hergestellt werden.
+- **2001**: Es konnte keine Verbindung mit dem Dienst auf einer Quell-IP hergestellt werden.
     
     Wenn der Agent keine Verbindung mit dem Listener-Computer herstellen kann, überprüfen Sie Folgendes:
     
@@ -74,9 +69,9 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
     Dieser Fehler tritt auf, wenn der Server erfolgreich eine Verbindung mit dem Listener herstellt, der Server jedoch nicht zur Topologie im Cache des Listeners hinzugefügt wurde. Lösungsoptionen:
     
-  - Stellen Sie sicher, dass Sie die Anweisungen zum Importieren der Topologie befolgt haben. Weitere Informationen finden Sie unter [Importieren der Topologie.](deploy.md#BKMK_ImportTopology) 
+  - Stellen Sie sicher, dass Sie die Anweisungen zum Importieren der Topologie befolgt haben. Siehe ["Importieren der Topologie](deploy.md#BKMK_ImportTopology)". 
     
-  - Wenn sich der Agent auf einem Server befindet, der nicht in der Topologie aufgeführt ist (z. B. die Knoten in einem SQL AlwaysOn-Cluster), müssen Sie den Agent manuell hinzufügen, indem Sie die Anweisungen unter [Importieren der Topologie](deploy.md#BKMK_ImportTopology)befolgen.
+  - Wenn sich der Agent auf einem Server befindet, der nicht in der Topologie aufgeführt ist (z. B. die Knoten in einem SQL AlwaysOn-Cluster), müssen Sie den Agent manuell hinzufügen, indem Sie die Anweisungen unter [Importieren der Topologie](deploy.md#BKMK_ImportTopology) befolgen.
     
   - **4002** - Ungültiges Listener-Kennwort
     
@@ -101,7 +96,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
 ## <a name="listener-events"></a>Listener-Ereignisse
 <a name="BKMK_Listener"> </a>
 
-- **10000** – Startfehler Unbekannter Grund (diese sind nicht behebbar, und der Dienst wird daraufhin beendet/abstürzt)
+- **10000** – Startfehler Unbekannter Grund (diese können nicht wiederhergestellt werden, und der Dienst wird daraufhin beendet/abgestürzt)
     
   - **10001** – Konfigurationsproblem
     
@@ -109,7 +104,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10002** - HTTP-Listener-Initialisierungsfehler
     
-    Dieses Ereignis wird in der Regel protokolliert, wenn die URL-ACL während der Installation nicht ordnungsgemäß festgelegt wurde oder das SSL-Zertifikat ungültig ist. Stellen Sie sicher, dass das Zertifikat in Ihrer Konfiguration gültig ist. Falls ja, installieren Sie den Listener gemäß den Anweisungen in [Deploy Statistics Manager](deploy.md#BKMK_Deploy)neu.
+    Dieses Ereignis wird in der Regel protokolliert, wenn die URL-ACL während der Installation nicht ordnungsgemäß festgelegt wurde oder das SSL-Zertifikat ungültig ist. Stellen Sie sicher, dass das Zertifikat in Ihrer Konfiguration gültig ist. Falls ja, installieren Sie den Listener gemäß den Anweisungen in [Deploy Statistics Manager](deploy.md#BKMK_Deploy) neu.
     
   - **10003** – Redis-Fehler
     
@@ -121,7 +116,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - **10005** – Abrufen/Analysieren von Serverinformationen
     
-    Die Topologieinformationen im Redis-Cache sind ungültig. Versuchen Sie zunächst, Redis und den Listener neu zu starten. Wenn der Fehler weiterhin besteht, lesen [Sie "Importieren der Topologie",](deploy.md#BKMK_ImportTopology) um die Topologiedaten neu zu erstellen.
+    Die Topologieinformationen im Redis-Cache sind ungültig. Versuchen Sie zunächst, Redis und den Listener neu zu starten. Wenn der Fehler weiterhin besteht, lesen [Sie "Importieren der Topologie](deploy.md#BKMK_ImportTopology) ", um die Topologiedaten neu zu erstellen.
     
 - **10100** – Redis PING-Ausfall
     
@@ -166,7 +161,7 @@ In diesem Thema wird beschrieben, wie Sie Ihre Statistics Manager-Bereitstellung
     
   - Klicken Sie mit der rechten Maustaste auf StatsManHubWebSite.dll, und zeigen Sie dessen Eigenschaften an.
     
-  - Wenn ein Computer in der KHI-Querformatansicht oder in der Ansicht "Zählerdetails" nicht gefunden werden kann, stellen Sie sicher, dass er Mitglied einer Website und eines Pools ist. Ist dies nicht der Typ, wird er in diesen Ansichten nicht angezeigt. Informationen zum Definieren eines Standorts und Pools für einen Server in der Topologie finden Sie unter [Importieren der Topologie.](deploy.md#BKMK_ImportTopology)
+  - Wenn ein Computer in der KHI-Querformatansicht oder in der Ansicht "Zählerdetails" nicht gefunden werden kann, stellen Sie sicher, dass er Mitglied einer Website und eines Pools ist. Ist dies nicht der Typ, wird er in diesen Ansichten nicht angezeigt. Informationen zum Definieren eines Standorts und Pools für einen Server in der Topologie finden Sie unter [Importieren der Topologie](deploy.md#BKMK_ImportTopology).
     
   - Die Produktversion wird in den Beschreibungsdetails angezeigt.
     

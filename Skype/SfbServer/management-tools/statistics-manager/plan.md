@@ -1,25 +1,20 @@
 ---
 title: Planen von Statistics Manager für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: f0ec68e1-de01-4a92-b67d-703149b05caf
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über Statistics Manager für Skype for Business Server zu erfahren.'
-ms.openlocfilehash: 166390fe0f034c907e21a3d3147b516d9f502954
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857402"
 ---
+
 # <a name="plan-for-statistics-manager-for-skype-for-business-server"></a>Planen von Statistics Manager für Skype for Business Server
 
 **Zusammenfassung:** Lesen Sie dieses Thema, um mehr über Statistics Manager für Skype for Business Server zu erfahren.
@@ -28,7 +23,7 @@ ms.locfileid: "60857402"
 
 Sie können Statistics Manager verwenden, um fortlaufende Leistungsprobleme zu identifizieren, die Ergebnisse einer geplanten Änderung Ihrer Umgebung anzuzeigen, die Behebung von Ausfällen nachzuverfolgen und vieles mehr. Standardmäßig ist Statistics Manager mit KHI-Schwellenwerten (Key Health Indicator) konfiguriert und kann an die individuellen Anforderungen Ihrer Bereitstellung angepasst werden.
 
-Sie können Statistics Manager in einer lokalen Bereitstellung bereitstellen, in der ein einzelner Server alle serverseitigen Statistics Manager-Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistics Manager finden Sie unter [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistics Manager verfügen, aber noch kein Upgrade auf Version 2.0 durchgeführt haben, finden Sie weitere Informationen [unter Neuigkeiten in Version 2.0](plan.md#BKMK_WhatsNew) und Upgrade Statistics Manager für [Skype for Business Server.](upgrade.md)
+Sie können Statistics Manager in einer lokalen Bereitstellung bereitstellen, in der ein einzelner Server alle serverseitigen Statistics Manager-Komponenten hostet. Weitere Informationen zum Bereitstellen von Statistics Manager finden Sie unter [Bereitstellen von Statistics Manager für Skype for Business Server](deploy.md). Wenn Sie bereits über eine vorhandene Bereitstellung von Statistics Manager verfügen, aber noch kein Upgrade auf Version 2.0 durchgeführt haben, finden Sie weitere Informationen [zu den Neuerungen in Version 2.0](plan.md#BKMK_WhatsNew) und [zum Upgrade von Statistics Manager für Skype for Business Server](upgrade.md).
 
 Dieses Thema enthält die folgenden Abschnitte:
 
@@ -82,7 +77,7 @@ Statistics Manager ermöglicht Folgendes:
 ## <a name="whats-new-in-release-20"></a>Neuigkeiten in Version 2.0
 <a name="BKMK_WhatsNew"> </a>
 
-Im Folgenden wird beschrieben, was in Version 2.0 neu ist. Wenn Sie über eine vorhandene Bereitstellung von Statistics Manager verfügen und noch kein Upgrade durchgeführt haben, finden Sie unter [Upgrade Statistics Manager Skype for Business Server](upgrade.md).
+Im Folgenden wird beschrieben, was in Version 2.0 neu ist. Wenn Sie über eine vorhandene Bereitstellung von Statistics Manager verfügen und noch kein Upgrade durchgeführt haben, finden Sie informationen zum [Upgrade von Statistics Manager für Skype for Business Server](upgrade.md).
 
 - Szenarioansichten wurden für Edgemedien-, Fabric Health-, Poolfailover- und Registrierungsszenarien hinzugefügt.
 
@@ -113,7 +108,7 @@ Statistics Manager besteht aus den folgenden Komponenten:
 
 - **Website.** Eine Benutzeroberfläche, die alle im System verfügbaren Features zusammenzieht.
 
-Darüber hinaus erfordert Statistics Manager **Redis**, einen Open Source-Datenstrukturserver für die Zwischenspeicherung im Arbeitsspeicher. Weitere Informationen zum Herunterladen von Redis finden Sie unter [Bereitstellen von Statistics Manager.](deploy.md#BKMK_Deploy)
+Darüber hinaus erfordert Statistics Manager **Redis**, einen Open Source-Datenstrukturserver für die Zwischenspeicherung im Arbeitsspeicher. Weitere Informationen zum Herunterladen von Redis finden Sie unter [Bereitstellen von Statistics Manager](deploy.md#BKMK_Deploy) .
 
 ## <a name="on-premises-deployment"></a>Lokale Bereitstellung
 <a name="BKMK_DeploymentOptions"> </a>
@@ -159,7 +154,7 @@ Während der Installation werden Firewallports für listener und die Website aut
 
 In einer lokalen Bereitstellung, in der ein einzelner Server alle serverseitigen Statistics Manager-Komponenten hostet, sollte ein Server mit 16 GB RAM und 4 CPU durchschnittlich ca. 150 Beispiele pro Sekunde unterstützen können. Verwenden Sie die folgende Berechnung, um zu ermitteln, wie viele Indikatoren/Agents Sie unterstützen können:
 
-100 Server \* 80 Zähler \* 1 Beispiel pro Minute von jedem Agent / 60 Sekunden = ~ 133 Beispiele pro Sekunde.
+100 Server \*80 Zähler \* 1 Beispiel pro Minute von jedem Agent / 60 Sekunden = ~ 133 Beispiele pro Sekunde.
 
 ## <a name="security-considerations"></a>Überlegungen zur Sicherheit
 <a name="BKMK_Security"> </a>

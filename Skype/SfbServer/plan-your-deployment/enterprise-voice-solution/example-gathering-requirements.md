@@ -1,41 +1,36 @@
 ---
 title: Beispiel für die Erfassung von Anforderungen für die Anrufsteuerung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 3363ac53-b7c4-4a59-aea1-b2f3ee016ae1
-description: Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu Standorten, Regionen und Bandbreite Ihres Netzwerks.
-ms.openlocfilehash: 0af3072cfd0e248d2811c0aee78f7351b9513249
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850748"
+description: 'Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu den Standorten, Regionen und der Bandbreite Ihres Netzwerks.'
 ---
+
 # <a name="example-gathering-requirements-for-call-admission-control-in-skype-for-business-server"></a>Beispiel: Erfassen von Anforderungen für die Anrufsteuerung in Skype for Business Server
 
-Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu Standorten, Regionen und Bandbreite Ihres Netzwerks.
+Enthält ein detailliertes Beispiel für die Planung der Anrufsteuerung in Skype for Business Server Enterprise-VoIP, einschließlich des Sammelns von Informationen zu den Standorten, Regionen und der Bandbreite Ihres Netzwerks.
 
 Dieses Beispiel führt Sie Schritt für Schritt durch die Planung und Implementierung der Anrufsteuerungsdiensts (Call Admission Control, CAC). Bei diesem Verfahren werden die folgenden allgemeinen Aufgaben ausgeführt:
 
 1. Identifizieren aller Netzwerkhubs und Backbones (als Netzwerkregionen bezeichnet).
 
-2. Identifizieren Sie den Skype for Business Server zentralen Standort, der die Anrufsteuerung für jede Netzwerkregion verwaltet.
+2. Identifizieren Sie den Skype for Business Server zentralen Standorts, der die Anrufsteuerung für jede Netzwerkregion verwaltet.
 
 3. Identifizieren und Definieren der Netzwerkstandorte, die mit jeder Netzwerkregion verbunden sind.
 
-4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN mit Bandbreiteneinschränkungen verbunden ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
+4. Beschreiben Sie für jeden Netzwerkstandort, dessen Verbindung mit dem WAN bandbreiteneinschränkungen ist, die Bandbreitenkapazität der WAN-Verbindung und die Bandbreiteneinschränkungen, die der Netzwerkadministrator für Skype for Business Server Mediendatenverkehr festgelegt hat, falls zutreffend. Standorte mit WAN-Verbindungen ohne Bandbreiteneinschränkung müssen nicht einbezogen werden.
 
 5. Zuordnen der einzelnen Subnetze in Ihrem Netzwerk zu einem Netzwerkstandort.
 
@@ -60,11 +55,11 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
      ![Netzwerktopologie (Beispiel) mit 3 Netzwerkregionen.](../../media/Plan_CS_VoiceCAC_example3networkregions.jpg)
 
     > [!NOTE]
-    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie unter [Komponenten und Topologien für die Anrufsteuerung in Skype for Business.](components-and-topologies.md) 
+    > Ein MPLS-Netzwerk (Multiprotocol Label Switching) sollte als Netzwerkregion abgebildet werden, bei der jeder geografische Standort über einen entsprechenden Netzwerkstandort verfügt. Ausführliche Informationen finden Sie unter [Komponenten und Topologien für die Anrufsteuerung in Skype for Business](components-and-topologies.md). 
 
     Im vorherigen Beispiel für die Netzwerktopologie gibt es drei Netzwerkregionen mit jeweils einem Skype for Business Server zentralen Standort, der die Anrufsteuerung verwaltet. Der geeignete zentrale Standort für eine Netzwerkregion wird nach geografischer Nähe ausgewählt. Da innerhalb der Netzwerkregionen das Aufkommen an Mediendatenverkehr am höchsten ist, führt die Festlegung nach geografischer Nähe zu einer eigenständigen Konfiguration, die auch dann noch funktionsfähig ist, wenn andere zentrale Standorte ausfallen. 
 
-    In diesem Beispiel ist eine Skype for Business-Bereitstellung mit dem Namen "Chicago" der zentrale Standort für die Region "Nordamerika".
+    In diesem Beispiel ist eine Skype for Business Bereitstellung mit dem Namen "Chicago" der zentrale Standort für die Region "Nordamerika".
 
     Alle Skype for Business Benutzer in Nordamerika werden auf Servern in der Bereitstellung von Chicago verwaltet. Die folgende Tabelle zeigt die zentralen Standorte für alle drei Netzwerkregionen.
 
@@ -140,7 +135,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
     > Jedes Subnetz in Ihrem Netzwerk muss einem Netzwerkstandort zugeordnet sein – selbst dann, wenn für den Netzwerkstandort keine Bandbreiteneinschränkungen gelten. Diese Anforderung gilt, da die Anrufsteuerung mithilfe von Subnetzinformationen ermittelt, an welchem Netzwerkstandort sich ein Endpunkt befindet. Wenn die Standorte beider Sitzungsteilnehmer ermittelt wurden, kann über die Anrufsteuerung festgestellt werden, ob genügend Bandbreite für einen Anruf vorhanden ist. Wird eine Sitzung über eine Verbindung ohne Bandbreiteneinschränkungen hergestellt, wird eine Warnung generiert. 
 
     > [!IMPORTANT]
-    > Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und Netzwerkstandort "Chicago" diesen Subnetzen zuordnen. Ausführliche Informationen zu öffentlichen IP-Adressen finden Sie unter Planen der [Netzwerkanforderungen für Skype for Business.](../../plan-your-deployment/network-requirements/network-requirements.md) 
+    > Wenn Sie A/V-Edgeserver (Audio/Video) bereitstellen, müssen die öffentlichen IP-Adressen der jeweiligen Edgeserver dem Netzwerkstandort zugeordnet werden, in dem der Edgeserver bereitgestellt wurde. Jede öffentliche IP-Adresse des A/V-Edgeservers muss in den Netzwerkkonfigurationseinstellungen als Subnetz mit der Subnetzmaske 32 hinzugefügt werden. Wenn Sie beispielsweise A/V-Edgeserver in Chicago bereitstellen, müssen Sie für jede externe IP-Adresse dieser Server ein Subnetz mit der Subnetzmaske 32 erstellen und Netzwerkstandort "Chicago" diesen Subnetzen zuordnen. Ausführliche Informationen zu öffentlichen IP-Adressen finden Sie unter [Planen der Netzwerkanforderungen für Skype for Business](../../plan-your-deployment/network-requirements/network-requirements.md). 
 
     Es wird eine KHI-Warnung (Key Health Indicator) ausgegeben. Diese enthält eine Liste der IP-Adressen, die in Ihrem Netzwerk vorhanden, aber keinem Subnetz zugeordnet sind, oder gibt das Subnetz an, das die IP-Adressen enthält, jedoch keinem Netzwerkstandort zugeordnet ist. Diese Warnung wird innerhalb von 8 Stunden nur einmal angezeigt. Nachfolgend finden Sie die relevanten Warnungsinformationen und ein Beispiel:
 
@@ -150,7 +145,7 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 
     **Ebene**: 2
 
-    **Beschreibung:** Die Subnetze für die folgenden IP-Adressen: \<List of IP Addresses\> sind entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet. 
+    **Beschreibung**: Die Subnetze für die folgenden IP-Adressen: \<List of IP Addresses\> sind entweder nicht konfiguriert oder die Subnetze sind keinem Netzwerkstandort zugeordnet. 
 
     **Ursache**: Die Subnetze für die zugehörigen IP-Adressen fehlen in den Netzwerkkonfigurationseinstellungen, oder die Subnetze sind keinem Netzwerkstandort zugeordnet. 
 
@@ -238,4 +233,4 @@ Zur Vorbereitung der Anrufsteuerung müssen Sie die in den folgenden Schritten b
 Nachdem Sie die erforderlichen Informationen gesammelt haben, können Sie die Cac-Bereitstellung entweder mithilfe der Skype for Business Server Verwaltungsshell oder Skype for Business Server Systemsteuerung durchführen.
 
 > [!NOTE]
-> Obwohl Sie die meisten Netzwerkkonfigurationsaufgaben mithilfe Skype for Business Server Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und Standortverknüpfungen Skype for Business Server Verwaltungsshell verwenden. Ausführliche Informationen finden Sie unter ["New-CsNetworkSubnet"](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) und ["New-CsNetworkInterSitePolicy".](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps)
+> Obwohl Sie die meisten Netzwerkkonfigurationsaufgaben mithilfe Skype for Business Server Systemsteuerung ausführen können, müssen Sie zum Erstellen von Subnetzen und Standortverknüpfungen Skype for Business Server Verwaltungsshell verwenden. Ausführliche Informationen finden Sie unter ["New-CsNetworkSubnet](/powershell/module/skype/new-csnetworksubnet?view=skype-ps) " und " [New-CsNetworkInterSitePolicy"](/powershell/module/skype/new-csnetworkintersitepolicy?view=skype-ps).

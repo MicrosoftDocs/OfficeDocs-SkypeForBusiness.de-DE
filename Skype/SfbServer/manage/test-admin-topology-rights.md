@@ -1,30 +1,25 @@
 ---
 title: Testen von Administratortopologierechten in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: So testen Sie Topologierechte in Skype for Business Server
-ms.openlocfilehash: 6f4eed0271d9dd6d099d19287f7caa37148f6026
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861312"
 ---
+
 # <a name="testing-admin-topology-rights-in-skype-for-business-server"></a>Testen von Administratortopologierechten in Skype for Business Server
 
 |&nbsp; |&nbsp; |
 |--|--|
 |Überprüfungszeitplan|Nach der ersten Skype for Business Server Bereitstellung. Bei Bedarf, wenn berechtigungsbezogene Probleme auftreten.|
 |Testtool|Windows PowerShell|
-|Erforderliche Berechtigungen|Bei lokaler Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br/><br/>Bei Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des Cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>Get-CsAdminRole Where-Object \| {$_. Cmdlets -match "Test-CsSetupPermission"}|
+|Erforderliche Berechtigungen|Bei der lokalen Ausführung mithilfe der Skype for Business Server-Verwaltungsshell müssen Benutzer Mitglieder der Sicherheitsgruppe "RTCUniversalServerAdmins" sein.<br/><br/>Bei Ausführung mit einer Remoteinstanz von Windows PowerShell müssen Benutzern eine RBAC-Rolle zugewiesen werden, die über die Berechtigung zum Ausführen des cmdlets Test-CsSetupPermission verfügt. Um eine Liste aller RBAC-Rollen anzuzeigen, die dieses Cmdlet verwenden können, führen Sie den folgenden Befehl an der Windows PowerShell Eingabeaufforderung aus:<br/><br/>\| Get-CsAdminRole Where-Object {$_. Cmdlets -match "Test-CsSetupPermission"}|
 |||
 
 ## <a name="description"></a>Beschreibung
@@ -39,7 +34,7 @@ Rufen Sie das Cmdlet Test-CsSetupPermission auf, um zu bestimmen, ob Setupberech
 
 `Test-CsSetupPermission -ComputerOU "ou=CsServers,dc=litwareinc,dc=com"`
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Test-CsSetupPermission".](/powershell/module/skype/Test-CsSetupPermission)
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Test-CsSetupPermission](/powershell/module/skype/Test-CsSetupPermission) ".
 
 ## <a name="determining-success-or-failure"></a>Ermitteln von Erfolg oder Fehler
 
@@ -65,4 +60,4 @@ Es gibt zwar selten Ausnahmen, wenn Test-CsSetupPermission fehlschlägt, bedeute
 
 `Grant-CsSetupPermission -ComputerOU "cn=Computers,dc=litwareinc,dc=com"`
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Test-CsSetupPermission".](/powershell/module/skype/Test-CsSetupPermission)
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Test-CsSetupPermission](/powershell/module/skype/Test-CsSetupPermission) ".

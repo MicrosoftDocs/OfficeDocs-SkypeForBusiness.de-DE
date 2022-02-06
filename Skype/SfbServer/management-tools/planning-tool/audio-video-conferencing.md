@@ -1,26 +1,21 @@
 ---
 title: Planungstool für Audiovideokonferenzen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/6/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.AV
-- ms.lync.plan.AV
+  - ms.lync.plan.AV
+  - ms.lync.plan.AV
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 466f5d2e-0e70-434c-8318-dfdefe679a31
 description: Skype for Business Server 2015 Audio-/Videokonferenzen (A/V) ermöglichen Benutzern die Teilnahme an Audio- oder Videokonferenzen in Echtzeit.
-ms.openlocfilehash: 6ebb9c93edef168c35fe95bce450accd5c577981
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843758"
 ---
+
 # <a name="audio-video-conferencing-planning-tool"></a>Planungstool für Audiovideokonferenzen
  
 Skype for Business Server 2015 Audio-/Videokonferenzen (A/V) ermöglichen Benutzern die Teilnahme an Audio- oder Videokonferenzen in Echtzeit.

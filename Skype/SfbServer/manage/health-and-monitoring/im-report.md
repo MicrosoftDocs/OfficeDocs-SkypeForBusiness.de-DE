@@ -1,24 +1,19 @@
 ---
 title: Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 19ec0145-2398-437b-8989-f780c179b798
 description: 'Zusammenfassung: Erfahren Sie mehr über den Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server.'
-ms.openlocfilehash: f72200547ca8af3fa2ebde0e44c4707c82a1596b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834203"
 ---
+
 # <a name="peer-to-peer-im-report-in-skype-for-business-server"></a>Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Bericht über Peer-to-Peer-Chatnachrichten in Skype for Business Server.
@@ -70,7 +65,7 @@ In der folgenden Tabelle werden die Metriken aufgelistet, die im Bericht über P
 
 |**Name**|**Kann nach dieser Metrik sortiert werden?**|**Beschreibung**|
 |:-----|:-----|:-----|
-|**Authentifizierungstyp** <br/> |Nein  <br/> | Der von den Sitzungsteilnehmern verwendete Authentifizierungstyp. Folgende Werte sind möglich: <br/>  Enterprise <br/>  Federated <br/>  PIC <br/> |
+|**Authentifizierungstyp** <br/> |Nein  <br/> | Der von den Sitzungsteilnehmern verwendete Authentifizierungstyp. Folgende Werte sind möglich: <br/>  Unternehmen <br/>  Federated <br/>  PIC <br/> |
 |**Datum/Uhrzeit** <br/> |Nein  <br/> |Zeitpunkt (Datum und Uhrzeit), zu dem die Sitzungen stattfanden.  <br/> |
 |**Total** <br/> |Nein  <br/> |Gesamtzahl der Sitzungen bzw. Gesamtzahl der Nachrichten.  <br/> |
    

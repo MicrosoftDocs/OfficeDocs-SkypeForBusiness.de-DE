@@ -1,26 +1,21 @@
 ---
 title: Director-Planungstool
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/8/2016
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- ms.lync.plan.Director
-- ms.lync.plan.Director
+  - ms.lync.plan.Director
+  - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-description: Ein Director ist ein Server mit Skype for Business Server 2015-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet.
-ms.openlocfilehash: 535cac849a4fed5a1af3882af4223adec08c8639
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830839"
+description: 'Ein Director ist ein Server mit Skype for Business Server 2015-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet.'
 ---
+
 # <a name="director-planning-tool"></a>Director-Planungstool
  
 Ein Director ist ein Server mit Skype for Business Server 2015-Kommunikationssoftware, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet. 

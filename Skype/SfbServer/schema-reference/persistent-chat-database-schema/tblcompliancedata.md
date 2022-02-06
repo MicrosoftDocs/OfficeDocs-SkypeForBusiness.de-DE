@@ -1,32 +1,27 @@
 ---
 title: tblComplianceData
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 05b28f9b-4aba-4b69-ba8d-2ceeb6cbfaac
-description: "\"tblComplianceData\" enthält die Kompatibilitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden."
-ms.openlocfilehash: 50972cb721fe2e96e8fb5bb87b05b2fe01584e34
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60854109"
+description: '"tblComplianceData" enthält die Kompatibilitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.'
 ---
+
 # <a name="tblcompliancedata"></a>tblComplianceData
  
 "tblComplianceData" enthält die Kompatibilitätsereignisse, die noch nicht vom Kompatibilitätsadapter verarbeitet wurden.
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |cmplEventID  <br/> |bigint, nicht NULL  <br/> |Ereignis-ID  <br/> |
 |entryDate  <br/> |smalldatetime, nicht NULL  <br/> |Zeitpunkt des Einfügevorgangs (kann für "cmplType=9" in ferner Zukunft liegen, da der Eintrag in diesem Fall nur ein Platzhalter ist).  <br/> |

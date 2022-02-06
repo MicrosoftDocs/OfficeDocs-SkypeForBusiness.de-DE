@@ -1,50 +1,45 @@
 ---
 title: AudioStreamDetail-Ansicht
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 10/20/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: b6a435b3-103c-41c4-96ed-33c3784534c0
 description: Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in der Datenbank. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 2b75d803c75b0d936bf54e5b543ee39e18ee1896
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847018"
 ---
+
 # <a name="audiostreamdetail-view"></a>AudioStreamDetail-Ansicht
  
 Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in der Datenbank. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|SessionTime  <br/> |Datum/Uhrzeit  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|SessionSeq  <br/> |int  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|SessionTime  <br/> |Datum/Uhrzeit  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|SessionSeq  <br/> |int  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |StreamId  <br/> |int  <br/> |Eindeutige ID innerhalb einer Medienzeile.  <br/> |
 |StartTime  <br/> |Datum/Uhrzeit  <br/> |Startzeitpunkt der Sitzung.  <br/> |
 |EndTime  <br/> |Datum/Uhrzeit  <br/> |Endzeit der Sitzung.  <br/> |
-|DialogCategory  <br/> |Bit  <br/> |Dialogkategorie: 0 ist die Skype for Business Server zum Vermittlungsserver. 1 ist der Vermittlungsserver zum PSTN-Gateway.  <br/> |
+|DialogCategory  <br/> |Bit  <br/> |Dialogkategorie: "0" ist die Skype for Business Server zum Vermittlungsserver. 1 ist der Abschnitt "Vermittlungsserver zu PSTN-Gateway".  <br/> |
 |MediationServerBypassFlag  <br/> |Bit  <br/> |Flag, das angibt, ob der Anruf umgangen wurde oder nicht.  <br/> |
-|MediaBypassWarningFlag  <br/> |int  <br/> |Gibt an (falls vorhanden), warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmten. Es ist nur ein Wert definiert:  <br/> 0x0001: Unbekannte Umgehungs-ID für Standardnetzwerkadapter.  <br/> |
+|MediaBypassWarningFlag  <br/> |int  <br/> |Gibt an (falls vorhanden), warum ein Anruf nicht umgangen wurde, auch wenn die Umgehungs-IDs übereinstimmten. Es ist nur ein Wert definiert:  <br/> 0x0001 : Unbekannte Umgehungs-ID für Standardnetzwerkadapter.  <br/> |
 |CallPriority  <br/> |int  <br/> |Priorität des Anrufs.  <br/> |
 |CallerPool  <br/> |nvarchar(256)  <br/> |FQDN des Anruferpools.  <br/> |
 |CalleePool  <br/> |nvarchar(256)  <br/> |FQDN des Angerufenenpools.  <br/> |
 |Anrufer  <br/> |nvarchar(450)  <br/> |Der URI des Aufrufers.  <br/> |
 |Aufgerufenen  <br/> |nvarchar(450)  <br/> |Der URI des Angerufenen.  <br/> |
 |CallerUserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge des Aufrufers.  <br/> |
-|CallerUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgent-Tabelle.](useragent.md) <br/> |
-|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE).](useragentdef-qoe.md) <br/> |
+|CallerUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgent-Tabelle](useragent.md) . <br/> |
+|CallerUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Anrufers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE](useragentdef-qoe.md) ). <br/> |
 |CalleeUserAgent  <br/> |nvarchar(256)  <br/> |Benutzer-Agent-Zeichenfolge des Angerufenen.  <br/> |
-|CalleeUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie in der [UserAgent-Tabelle.](useragent.md) <br/> |
-|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE).](useragentdef-qoe.md) <br/> |
+|CalleeUserAgentType  <br/> |Smallint  <br/> |Typ des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie [in der UserAgent-Tabelle](useragent.md) . <br/> |
+|CalleeUserAgentCategory  <br/> |nvarchar(64)  <br/> |Kategorie des Benutzer-Agenten des Angerufenen. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle (QoE](useragentdef-qoe.md) ). <br/> |
 |CallerEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des Anrufers.  <br/> |
 |CalleeEndpoint  <br/> |nvarchar(256)  <br/> |Endpunktname des Angerufenen.  <br/> |
 |CallerOS  <br/> |nvarchar(128)  <br/> |Betriebssystem des Endpunkts des Aufrufers.  <br/> |
@@ -55,10 +50,10 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |CalleeCPUNumberOfCores  <br/> |Smallint  <br/> |Anzahl der CPU-Kerne im Endpunkt des Angerufenen.  <br/> |
 |CallerCPUProcessorSpeed  <br/> |int  <br/> |CPU-Prozessorgeschwindigkeit des Endpunkts des Anrufers.  <br/> |
 |CalleeCPUProcessorSpeed  <br/> |int  <br/> |CPU-Prozessorgeschwindigkeit des Endpunkts des Angerufenen.  <br/> |
-|CallerVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Aufrufers in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle.](endpoint.md) <br/> |
-|CalleeVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Angerufenen in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle.](endpoint.md) <br/> |
-|CorrelationKey  <br/> ||Korrelationsschlüssel. Referenziert aus der [SessionCorrelation-Tabelle.](sessioncorrelation.md)  <br/> |
-|ConnectivityIce  <br/> |Tinyint  <br/> |Informationen zum Medienpfad, z. B. direkt oder Relay. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
+|CallerVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Aufrufers in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle](endpoint.md) . <br/> |
+|CalleeVirtualizationFlag  <br/> |Tinyint  <br/> |Gibt an, ob das System des Angerufenen in einer virtualisierten Umgebung ausgeführt wird. Weitere Informationen finden Sie in der [Endpunkttabelle](endpoint.md) . <br/> |
+|CorrelationKey  <br/> ||Korrelationsschlüssel. Referenziert aus der [SessionCorrelation-Tabelle](sessioncorrelation.md).  <br/> |
+|ConnectivityIce  <br/> |Tinyint  <br/> |Informationen zum Medienpfad, z. B. direkt oder Relay. Weitere Informationen finden Sie in der [MediaLine-Tabelle](medialine-0.md) . <br/> |
 |CallerIceWarningFlags  <br/> |int  <br/> |Informationen zur interaktiven Verbindungsherstellung (Interactive Connectivity Establishment, ICE) für den Anrufer, in Bitflags beschrieben. Ausführliche Informationen finden Sie im Artikel "[MS-QoE]: Spezifikation für das Quality of Experience Monitoring Server-Protokoll".  <br/> |
 |CalleeIceWarningFlags  <br/> |int  <br/> |Informationen zur interaktiven Verbindungsherstellung (Interactive Connectivity Establishment, ICE) für den Angerufenen, in Bitflags beschrieben. Ausführliche Informationen finden Sie im Artikel "[MS-QoE]: Spezifikation für das Quality of Experience Monitoring Server-Protokoll".  <br/> |
 |Transport  <br/> |Tinyint  <br/> |Transporttyp: 0 ist UDP, 1 ist TCP.  <br/> |
@@ -68,13 +63,13 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |CalleeIPAddr  <br/> |var(50)  <br/> |IP-Adresse des Angerufenen. Dies kann eine IPv4- oder eine IPv6-Adresse sein.  <br/> |
 |CalleePort  <br/> |int  <br/> |Vom Angerufenen verwendeter Port.  <br/> |
 |CalleeInside  <br/> |Bit  <br/> |Gibt an, ob sich der Angerufene innerhalb des Intervallnetzwerks befindet: 1 bedeutet, dass der Angerufene sich innerhalb des Unternehmensnetzwerks befindet, 0 bedeutet, dass sich der Angerufene außerhalb des Netzwerks befindet.  <br/> |
-|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Anrufers.  <br/> |
+|CallerUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Aufrufers.  <br/> |
 |CallerRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Anrufers.  <br/> |
 |CalleeUserSite  <br/> |nvarchar(128)  <br/> |Name der Website des Angerufenen.  <br/> |
 |CalleeRegion  <br/> |nvarchar(128)  <br/> |Name des Landes/der Region der Website des Angerufenen.  <br/> |
-|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP-Adresse des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie in der [IPAddress-Tabelle.](ipaddress.md) <br/> |
+|CallerRelayIPAddr  <br/> |var(50)  <br/> |IP-Adresse des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie [in der IPAddress-Tabelle](ipaddress.md) . <br/> |
 |CallerRelayPort  <br/> |int  <br/> |Der durch den A/V-Edgedienst des Anrufers verwendete Port.  <br/> |
-|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP-Adressschlüssel des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie in der [IPAddress-Tabelle.](ipaddress.md) <br/> |
+|CalleeRelayIPAddr  <br/> |var(50)  <br/> |IP-Adressschlüssel des vom Anrufer verwendeten A/V-Edgedienstes. Weitere Informationen finden Sie [in der IPAddress-Tabelle](ipaddress.md) . <br/> |
 |CalleeRelayPort  <br/> |int  <br/> |Der durch den A/V-Edgedienst des Angerufenen verwendete Port.  <br/> |
 |CallerCaptureDev  <br/> |varchar(256)  <br/> |Name des Aufnahmegeräts des Anrufers.  <br/> |
 |CallerRenderDev  <br/> |varchar(256)  <br/> |Der Name des Rendergeräts des Aufrufers.  <br/> |
@@ -106,7 +101,7 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |DegradationMax  <br/> |decimal(3,2)  <br/> |Maximale Netzwerk-MOS-Beeinträchtigung während des Anrufs.  <br/> |
 |DegradationJitterAvg  <br/> |decimal(3,2)  <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Jitter.  <br/> |
 |DegradationPacketLossAvg  <br/> |decimal(3,2)  <br/> |Netzwerk-MOS-Beeinträchtigung aufgrund von Paketverlust.  <br/> |
-|PayloadDescription  <br/> |int  <br/> |Der für den Anruf verwendete Audiocodec, auf den in der [PayloadDescription-Tabelle](payloaddescription.md)verwiesen wird.  <br/> |
+|PayloadDescription  <br/> |int  <br/> |Der für den Anruf verwendete Audiocodec, auf den aus der [PayloadDescription-Tabelle](payloaddescription.md) verwiesen wird.  <br/> |
 |AudioSampleRate  <br/> |int  <br/> |Samplingrate für den Audiostream.  <br/> |
 |CallerSendSignalLevel  <br/> |int  <br/> |Stärke des Audiosignals der postanalogen Verstärkung für das vom Anrufer gesendete Audio. Die Einheit für diese Metrik ist dBmo. Zum Erzielen einer akzeptablen Qualität sind mindestens 30 dBmo erforderlich. Diese Metrik wird nicht vom A/V-Konferenzserver oder IP-Telefonen berichtet.  <br/> |
 |CallerRecvSignalLevel  <br/> |int  <br/> |Stärke des Audiosignals für das vom Anrufer empfangene Audio. Die Einheit für diese Metrik ist dBmo. Zum Erzielen einer akzeptablen Qualität sind mindestens 30 dBmo erforderlich. Diese Metrik wird nicht vom A/V-Konferenzserver oder IP-Telefonen berichtet.  <br/> |
@@ -119,8 +114,8 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |CallerTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Die Taktfrequenz des Lautsprechergeräts des Anrufers, relativ zur CPU-Uhr.  <br/> |
 |CallerTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |Durchschnittlicher Zeitstempelfehler des Mikrofonaufnahme-Datenstroms in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
 |CallerTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |Durchschnittlicher Renderzeitstempelfehler des Lautsprechers des Anrufers in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
-|CallerVsEntryCauses  <br/> |Smallint  <br/> |Bei der Sprachumschaltung handelt es sich um einen Halbduplexmodus mit der Fähigkeit, Unterbrechungen zu reduzieren. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
-|CallerEchoEventCauses  <br/> |Tinyint  <br/> |Ursachen von Echoereignissen für den Anrufer. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
+|CallerVsEntryCauses  <br/> |Smallint  <br/> |Bei der Sprachumschaltung handelt es sich um einen Halbduplexmodus mit der Fähigkeit, Unterbrechungen zu reduzieren. Weitere Informationen finden Sie in der [MediaLine-Tabelle](medialine-0.md) . <br/> |
+|CallerEchoEventCauses  <br/> |Tinyint  <br/> |Ursachen von Echoereignissen für den Anrufer. Weitere Informationen finden Sie in der [MediaLine-Tabelle](medialine-0.md) . <br/> |
 |CallerechoPercentMicIn  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, in der echo im Mikrofonaufnahmedatenstrom des Anrufers erkannt wird. Bei der Verwendung eines Headsets ist der Wert in der Regel niedrig.  <br/> |
 |CallerEchoPercentSend  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, in der echo im gesendeten Stream des Anrufers erkannt wird. Ein hoher Echoprozentsatz in gesendeten Datenströmen deutet auf eine Beeinträchtigung durch Echo hin.  <br/> |
 |CallerRxAGCSignalLevel  <br/> |int  <br/> |Empfangene Signalstufe auf dem Vermittlungsserver vom Gateway für die Audiodaten des Anrufers; dies gilt nur für den Vermittlungsserver. Die Einheit dieser Metrik ist dBoV. Zum Erzielen einer guten Qualität sollte der akzeptable Bereich zwischen [-30 und -18] dBoV liegen.  <br/> |
@@ -138,8 +133,8 @@ Die AudioStreamDetail-Ansicht speichert Informationen über jeden Audiostream in
 |CalleeTimestampDriftRateSpk  <br/> |decimal(9,2)  <br/> |Die Taktfrequenz des Lautsprechergeräts des Angerufenen, relativ zur CPU-Uhr.  <br/> |
 |CalleeTimestampErrorMicMs  <br/> |decimal(9,2)  <br/> |Durchschnittlicher Zeitstempelfehler des Mikrofonaufnahme-Datenstroms in Millisekunden, in den letzten 20 Sekunden des Anrufs.  <br/> |
 |CalleeTimestampErrorSpkMs  <br/> |decimal(9,2)  <br/> |Durchschnittlicher Renderfehler des Lautsprechers des Angerufenen in Millisekunden in den letzten 20 Sekunden des Anrufs.  <br/> |
-|CalleeVsEntryCauses  <br/> |Smallint  <br/> |Bei der Sprachumschaltung handelt es sich um einen Halbduplexmodus mit der Fähigkeit, Unterbrechungen zu reduzieren. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
-|CalleeEchoEventCauses  <br/> |Tinyint  <br/> |Ursachen von Echoereignissen für den Angerufenen. Weitere Informationen finden Sie in der [MediaLine-Tabelle.](medialine-0.md) <br/> |
+|CalleeVsEntryCauses  <br/> |Smallint  <br/> |Bei der Sprachumschaltung handelt es sich um einen Halbduplexmodus mit der Fähigkeit, Unterbrechungen zu reduzieren. Weitere Informationen finden Sie in der [MediaLine-Tabelle](medialine-0.md) . <br/> |
+|CalleeEchoEventCauses  <br/> |Tinyint  <br/> |Ursachen von Echoereignissen für den Angerufenen. Weitere Informationen finden Sie in der [MediaLine-Tabelle](medialine-0.md) . <br/> |
 |CalleeEchoPercentMicIn  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, in der echo im Mikrofonaufnahmedatenstrom des Angerufenen erkannt wird. Bei der Verwendung eines Headsets ist der Wert in der Regel niedrig.  <br/> |
 |CalleeEchoPercentSend  <br/> |decimal(5,2)  <br/> |Prozentsatz der Zeit, in der echo im gesendeten Datenstrom des Angerufenen erkannt wird. Ein hoher Echoprozentsatz in gesendeten Datenströmen deutet auf eine Beeinträchtigung durch Echo hin.  <br/> |
 |CalleeRxAGCSignalLevel  <br/> |int  <br/> |Empfangene Signalstufe auf dem Vermittlungsserver vom Gateway für die Audiodaten des Angerufenen; dies gilt nur für den Vermittlungsserver. Die Einheit dieser Metrik ist dBoV. Zum Erzielen einer guten Qualität sollte der akzeptable Bereich zwischen [-30 und -18] dBoV liegen.  <br/> |

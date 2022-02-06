@@ -1,65 +1,60 @@
 ---
-title: Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der Bezeichnung "ID" in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der bezeichnungsgesteuerten ID in Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: ba112df8-3bb4-48e4-a353-4bf9110ccd71
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel in Skype for Business Server definieren.'
-ms.openlocfilehash: 82e737ddcd7ed7c17de3cdd968d31996e50074be
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864432"
 ---
-# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der Bezeichnung "ID" in Skype for Business Server
+
+# <a name="create-or-modify-a-translation-rule-for-called-id-presentation-in-skype-for-business-server"></a>Erstellen oder Ändern einer Übersetzungsregel für die Präsentation mit der bezeichnungsgesteuerten ID in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Übersetzungsregel mithilfe des Tools zum Erstellen einer Übersetzungsregel in Skype for Business Server definieren.
 
-Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definieren möchten, indem Sie einen Satz von Werten in das Tool **"Übersetzungsregel** erstellen" eingeben und Skype for Business Server Systemsteuerung aktivieren, um das entsprechende Übereinstimmungsmuster und die Übersetzungsregel für Sie zu generieren. Alternativ können Sie einen regulären Ausdruck manuell schreiben, um das Übereinstimmungsmuster und die Übersetzungsregel zu definieren. Ausführliche Informationen finden Sie unter ["Manuelles Erstellen oder Ändern einer Übersetzungsregel".](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)
+Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definieren möchten, indem Sie einen Satz von Werten in das Tool "**Übersetzungsregel** erstellen" eingeben und Skype for Business Server Systemsteuerung aktivieren, um das entsprechende Übereinstimmungsmuster und die Übersetzungsregel für Sie zu generieren. Alternativ können Sie einen regulären Ausdruck manuell schreiben, um das Übereinstimmungsmuster und die Übersetzungsregel zu definieren. Ausführliche Informationen finden [Sie unter "Manuelles Erstellen oder Ändern einer Übersetzungsregel](/previous-versions/office/lync-server-2013/lync-server-2013-create-or-modify-a-translation-rule-manually)".
 
 ### <a name="to-define-a-rule-by-using-the-build-a-translation-rule-tool"></a>So definieren Sie eine Regel mithilfe des Tools zum Erstellen einer Übersetzungsregel
 
 1. Öffnen Sie Skype for Business Server Systemsteuerung.
 
-2. Um mit dem Definieren einer Übersetzungsregel zu beginnen, führen Sie die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder Konfigurieren eines [Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
+2. Um mit dem Definieren einer Übersetzungsregel zu beginnen, führen Sie die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder [Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
 
-3. Geben Sie unter **"Name"** auf der Seite **"Neue Übersetzungsregel"** oder **"Übersetzungsregel bearbeiten"** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
+3. Geben Sie unter **"Name** " auf der Seite **"Neue Übersetzungsregel** " oder " **Übersetzungsregel bearbeiten** " einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
 
-4. (Optional) Geben Sie unter **"Beschreibung"** eine Beschreibung der Übersetzungsregel ein, z. B. US International-Ferngespräche.
+4. (Optional) Geben Sie unter **"Beschreibung**" eine Beschreibung der Übersetzungsregel ein, z. B. US International-Ferngespräche.
 
-5. Geben Sie im Abschnitt **"Übersetzungsregel** erstellen" des Dialogfelds Werte in die folgenden Felder ein:
+5. Geben Sie im Abschnitt " **Übersetzungsregel** erstellen" des Dialogfelds Werte in die folgenden Felder ein:
 
-   - **Anfangsziffern:**(Optional) Geben Sie die führenden Ziffern von Zahlen an, mit denen das Muster übereinstimmen soll. Geben Sie z. B. in diesem Feld +ein, um Zahlen im E.164-Format zuzuordnen (die mit +beginnen).
+   - **Anfangsziffern**: (Optional) Geben Sie die führenden Ziffern von Zahlen an, mit denen das Muster übereinstimmen soll. Geben Sie z. B. in diesem Feld +ein, um Zahlen im E.164-Format zuzuordnen (die mit +beginnen).
 
-   - **Länge:** Geben Sie die Anzahl der Ziffern im Vergleichsmuster an, und wählen Sie aus, ob das Muster Zahlen mit dieser Länge, mindestens dieser Länge oder einer beliebigen Länge entsprechen soll. Geben Sie beispielsweise "11" ein, und wählen Sie "Mindestens" in der Dropdownliste aus, um Nummern mit einer Länge von mindestens 11 Ziffern zuzuordnen.
+   - **Länge**: Geben Sie die Anzahl der Ziffern im Vergleichsmuster an, und wählen Sie aus, ob das Muster Zahlen mit dieser Länge genau, mindestens dieser Länge oder einer beliebigen Länge entsprechen soll. Geben Sie beispielsweise "11" ein, und wählen Sie "Mindestens" in der Dropdownliste aus, um Nummern mit einer Länge von mindestens 11 Ziffern zuzuordnen.
 
-   - **Zu entfernende Ziffern:**(Optional) Geben Sie die Anzahl der zu entfernenden Anfangsziffern an. Geben Sie beispielsweise 1 ein, um das Pluszeichen vom Anfang der Zahl zu entfernen.
+   - **Zu entfernende Ziffern**: (Optional) Geben Sie die Anzahl der zu entfernenden Anfangsziffern an. Geben Sie beispielsweise 1 ein, um das Pluszeichen vom Anfang der Zahl zu entfernen.
 
-   - **Hinzuzufügende Ziffern:**(Optional) Geben Sie Ziffern an, die den übersetzten Nummern vorangestellt werden sollen. Geben Sie z. B. 011 ein, wenn 011 den übersetzten Zahlen vorangestellt werden soll, wenn die Regel angewendet wird.
+   - **Hinzuzufügende Ziffern**: (Optional) Geben Sie Ziffern an, die den übersetzten Nummern vorangestellt werden sollen. Geben Sie z. B. 011 ein, wenn 011 den übersetzten Zahlen vorangestellt werden soll, wenn die Regel angewendet wird.
 
-     Die Werte, die Sie in diese Felder eingeben, werden in den Feldern **Muster für** Übereinstimmung und **Übersetzungsregel** widergespiegelt. Wenn Sie beispielsweise die vorherigen Beispielwerte angeben, lautet der resultierende reguläre Ausdruck im Feld **"Muster zum Abgleichen"** wie folgt:
+     The values you enter in these fields are reflected in the **Pattern to match** and **Translation rule** fields. Wenn Sie beispielsweise die vorherigen Beispielwerte angeben, lautet der resultierende reguläre Ausdruck im Feld **"Muster zum Abgleichen** " wie folgt:
 
-     ^\+(\d {9} \d+)$
+     ^\+(\d{9}\d+)$
 
-     Das **Feld "Übersetzungsregel"** gibt ein Muster für das Format übersetzter Zahlen an. Dieses Muster hat zwei Teile:
+     Das **Feld "Übersetzungsregel** " gibt ein Muster für das Format übersetzter Zahlen an. Dieses Muster hat zwei Teile:
 
    - Ein Wert (z. B. $1), der die Anzahl der Ziffern im Vergleichsmuster darstellt
 
    - (Optional) Ein Wert, dem Sie voranstellen können, indem Sie ihn in die **Ziffern eingeben, um** ein Feld hinzuzufügen.
 
-     Unter Verwendung der vorstehenden Beispielwerte wird 011 $1 im **Feld "Übersetzungsregel"** angezeigt.
+     Unter Verwendung der vorstehenden Beispielwerte wird 011 $1 im **Feld "Übersetzungsregel** " angezeigt.
 
      Wenn diese Übersetzungsregel angewendet wird, wird +441235551010 011441235551010.
 
@@ -76,11 +71,11 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
 1. Öffnen Skype for Business Server Systemsteuerung
 
-2. Um mit dem Definieren einer Übersetzungsregel zu beginnen, führen Sie die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder Konfigurieren eines [Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
+2. Um mit dem Definieren einer Übersetzungsregel zu beginnen, führen Sie die Schritte unter [Konfigurieren eines Trunks mit Medienumgehung in Skype for Business Server](configure-trunk-with-media-bypass.md) bis Schritt 10 oder [Konfigurieren eines Trunks ohne Medienumgehung in Skype for Business Server](configure-trunk-without-media-bypass.md) bis Schritt 9 aus.
 
 3. Geben Sie im Feld **Name** auf der Seite **Neue Übersetzungsregel** oder **Übersetzungsregel bearbeiten** einen Namen ein, der das zu übersetzende Nummernmuster beschreibt.
 
-4. (Optional) Geben Sie in Beschreibung eine Beschreibung der Übersetzungsregel ein, z. B. US International-Ferngespräche.
+4. (Optional) Geben Sie in **Beschreibung** eine Beschreibung der Übersetzungsregel ein, z. B. US International-Ferngespräche.
 
 5. Klicken Sie im unteren Bereich des Abschnitts **Übersetzungsregel erstellen** auf **Bearbeiten**.
 
@@ -90,7 +85,7 @@ Führen Sie die folgenden Schritte aus, wenn Sie eine Übersetzungsregel definie
 
    - Geben Sie unter **Übersetzungsregel** ein Muster für das Format der übersetzten Nummern an.
 
-     Wenn Sie z. B. ^ \+ (\d {9} \d+)$ in **Übereinstimmung mit diesem Muster** und 011 $1 in der **Übersetzungsregel** eingeben, übersetzt die Regel +441235551010 in 011441235551010.
+     Wenn Sie beispielsweise ^\+(\d\d{9}\d+)$ in **Übereinstimmung mit diesem Muster** und 011 $1 in der **Übersetzungsregel** eingeben, übersetzt die Regel +441235551010 in 011441235551010.
 
 7. Klicken Sie auf **OK**, um die Übersetzungsregel zu speichern.
 

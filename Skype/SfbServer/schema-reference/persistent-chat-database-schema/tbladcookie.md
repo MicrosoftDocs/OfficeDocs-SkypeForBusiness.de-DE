@@ -1,32 +1,27 @@
 ---
 title: tblADCookie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 0a9102c4-47aa-40ea-8a0d-20e72ab09848
-description: "\"tblADCookie\" enthält die aktuellen Cookies für die LDAP-Synchronisierung (Lightweight Directory Access Protocol)."
-ms.openlocfilehash: 4d8604699eac26ce599a081069c85c57095f4fda
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852849"
+description: '"tblADCookie" enthält die aktuellen Cookies für die LDAP-Synchronisierung (Lightweight Directory Access Protocol).'
 ---
+
 # <a name="tbladcookie"></a>tblADCookie
  
 "tblADCookie" enthält die aktuellen Cookies für die LDAP-Synchronisierung (Lightweight Directory Access Protocol).
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |prinGuid  <br/> |GUID, nicht NULL  <br/> |Prinzipal-GUID der überwachten Domäne.  <br/> |
 |prinDCHost  <br/> |nvarchar (255)  <br/> |Vollqualifizierte Domänenname (Fully Qualified Domain Name, FQDN) des aktuellen Domänencontrollers, der für die Active Directory Domain Services-Synchronisierung verwendet wird. Weist einen Informationswert auf.  <br/> |

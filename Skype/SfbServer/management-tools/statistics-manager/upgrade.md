@@ -1,32 +1,27 @@
 ---
 title: Aktualisieren von Statistics Manager für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 71f5d0a0-ca81-4ac1-b590-8f854504f21f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Statistics Manager für Skype for Business Server aktualisieren.'
-ms.openlocfilehash: 297da8efc1259c1128fd0d60584e1db761465217
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857332"
 ---
+
 # <a name="upgrade-statistics-manager-for-skype-for-business-server"></a>Aktualisieren von Statistics Manager für Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie Statistics Manager für Skype for Business Server aktualisieren.
   
 In diesem Thema wird beschrieben, wie Sie eine vorhandene Installation von Statistics Manager für Skype for Business Server aktualisieren– ein leistungsstarkes Tool, mit dem Sie Skype for Business Server Integritäts- und Leistungsdaten in Echtzeit anzeigen können. Sie können alle paar Sekunden Leistungsdaten über Hunderte von Servern abrufen und die Ergebnisse sofort auf der Statistics Manager-Website anzeigen. 
   
-Weitere Informationen zu Statistics Manager und den neuen Features in Version 2.0 finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md) and Deploy Statistics Manager for [Skype for Business Server.](deploy.md)
+Weitere Informationen zu Statistics Manager und den neuen Features in Version 2.0 finden Sie unter [Plan for Statistics Manager for Skype for Business Server](plan.md) and [Deploy Statistics Manager for Skype for Business Server](deploy.md).
   
 Es gibt zwei Methoden für das Upgrade:
   

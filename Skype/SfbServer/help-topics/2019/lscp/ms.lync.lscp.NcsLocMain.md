@@ -1,27 +1,22 @@
 ---
 title: Ortungsrichtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.NcsLocMain
+  - ms.lync.lscp.NcsLocMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 5530cf17-4520-40b5-ba70-c62692685048
-ROBOTS: NOINDEX, NOFOLLOW
-description: Anhand von Standortrichtlinien wird bestimmt, ob die erweiterten Notfalldienste aktiviert sind und wie sie verwendet werden und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
-ms.openlocfilehash: 3226a166ee9389501d9c63c71b933601de633f38
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831509"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Anhand von Standortrichtlinien wird bestimmt, ob die erweiterten Notfalldienste aktiviert sind und wie sie verwendet werden und wie Standortinformationen für Benutzer und Kontakte verwendet werden.'
 ---
+
 # <a name="location-policy"></a>Ortungsrichtlinie
 
 Anhand von Standortrichtlinien wird bestimmt, ob die erweiterten Notfalldienste aktiviert sind und wie sie verwendet werden und wie Standortinformationen für Benutzer und Kontakte verwendet werden.
@@ -35,7 +30,7 @@ Zu den Standortrichtlinien gehören die globale Richtlinie und optional eine ode
 - **Benutzerrichtlinien (optional):** Sie können eine oder mehrere Standortrichtlinien für Benutzer erstellen, die jeweils für einen bestimmten Benutzer oder eine Benutzergruppe gelten. Benutzerrichtlinien setzen die globale Richtlinie und Standortrichtlinien außer Kraft.
 
 > [!NOTE]
-> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Ausführliche Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden Sie unter [Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server.](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md) Ausführliche Informationen zur Verwendung Skype for Business Server Systemsteuerung zum Zuweisen einer Standortrichtlinie zu einem Netzwerkstandort finden Sie unter ["Konfigurieren von Netzwerkstandorten".](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites)
+> Außerdem können Sie Standortrichtlinien Netzwerkstandorten hinzufügen, wobei es sich um Gruppen von Subnetzen handelt. Netzwerkstandorten zugewiesene Standortrichtlinien haben Vorrang vor allen anderen Benutzerrichtlinien. Ausführliche Informationen zum Zuweisen von Standortrichtlinien zu Netzwerkstandorten mithilfe von Cmdlets finden [Sie unter Hinzufügen einer Standortrichtlinie zu einem Netzwerkstandort in Skype for Business Server](../../../deploy/deploy-enterprise-voice/add-a-location-policy-to-a-network-site.md). Ausführliche Informationen zur Verwendung Skype for Business Server Systemsteuerung zum Zuweisen einer Standortrichtlinie zu einem Netzwerkstandort finden Sie unter ["Konfigurieren von Netzwerkstandorten"](/previous-versions/office/lync-server-2013/lync-server-2013-creating-or-modifying-network-sites).
 
 Auf der Seite **Standortrichtlinie** wird eine Liste mit allen Standortrichtlinien angezeigt, die für Ihre Organisation definiert sind.
 
@@ -64,13 +59,13 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Identifiziert die Standortrichtlinie.
+- **Namen** Identifiziert die Standortrichtlinie.
 
-- **Bereich** Gibt den Bereich der Standortrichtlinie an: global, Standort oder Benutzer.
+- **Umfang** Gibt den Bereich der Standortrichtlinie an: global, Standort oder Benutzer.
 
 - **E9-1-1** Überprüft, ob Benutzer, denen diese Standortrichtlinie zugewiesen ist, für E9-1-1 aktiviert sind.
 
-- **Speicherort** Gibt an, ob Benutzer aufgefordert werden, Standortinformationen einzugeben, wenn sich ihr Client bei Skype for Business Server an einem neuen Standort registriert, und ob ein Haftungsausschluss angezeigt wird, wenn die Eingabeaufforderung ohne Eingabe von Standortinformationen geschlossen wird.
+- **Lage** Gibt an, ob Benutzer aufgefordert werden, Standortinformationen einzugeben, wenn sich ihr Client bei Skype for Business Server an einem neuen Standort registriert, und ob ein Haftungsausschluss angezeigt wird, wenn die Eingabeaufforderung ohne Eingabe von Standortinformationen geschlossen wird.
 
 - **PSTN-Verwendung** Gibt die PSTN-Verwendung (Public Switched Telephone Network) an, die verwendet wird, um die VoIP-Route zu bestimmen, die zum Weiterleiten von Notrufen von Clients mit diesem Profil verwendet wird.
 
@@ -78,4 +73,4 @@ In der folgenden Liste sind die Felder der Seite beschrieben.
 
 - **E9-1-1-Maske** Gibt eine Nummer an, die ein Benutzer wählt, die dann in die Notrufnummer übersetzt wird.
 
-Ausführliche Informationen zu Enterprise-VoIP Funktionen und Funktionen des Notfalldienstes finden Sie in der Planungsdokumentation [unter "Übersicht über E9-1-1".](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1) Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie unter [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information) in der Betriebsdokumentation.
+Ausführliche Informationen zu Enterprise-VoIP Funktionen und Funktionen des Notfalldienstes finden Sie in der Planungsdokumentation [unter "Übersicht über E9-1-1](/previous-versions/office/lync-server-2013/lync-server-2013-overview-of-e9-1-1)". Ausführliche Informationen zur Verwendung von Standortrichtlinien finden Sie unter [Configuring Location Policy](/previous-versions/office/lync-server-2013/lync-server-2013-viewing-location-policy-information) in der Betriebsdokumentation.

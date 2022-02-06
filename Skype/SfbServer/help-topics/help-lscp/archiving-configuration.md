@@ -1,27 +1,22 @@
 ---
 title: Archivierungskonfiguration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/27/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
 description: 'Sie verwenden Archivierungskonfigurationen, um die Archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:'
-ms.openlocfilehash: b2babf5e5fdc5c1a0f7b01bb0a22c516fde062d5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838807"
 ---
+
 # <a name="archiving-configuration"></a>Archivierungskonfiguration
  
 Sie verwenden Archivierungskonfigurationen, um die Archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:
@@ -41,7 +36,7 @@ Zu den Archivierungskonfigurationen gehören die globale Konfiguration und optio
 - **Poolkonfiguration (optional)** Sie können eine oder mehrere Archivierungskonfigurationen des Pools angeben, um die Archivierungsoptionen für einen bestimmten Pool zu steuern. Eine Poolkonfiguration setzt die globale Konfiguration und Standortkonfiguration außer Kraft, jedoch nur für die in den Archivierungspoolkonfigurationen angegebenen Pools. Sie können Poolkonfigurationen bearbeiten oder löschen.
     
 > [!NOTE]
-> Archivierungskonfigurationen gelten für Benutzer, die auf Skype for Business Server verwaltet werden, und, wenn Sie Exchange zum Speichern von Archivierungsdaten in Microsoft Exchange verwenden, für Benutzer, die am Exchange 2013 verwaltet werden, aber für Benutzer, die am Exchange 2013 verwaltet werden, etwas anders implementiert werden. Die Unterschiede werden im nächsten Abschnitt beschrieben. 
+> Archivierungskonfigurationen gelten für Benutzer, die auf Skype for Business Server verwaltet werden, und, wenn Sie Exchange zum Speichern von Archivierungsdaten in Microsoft Exchange verwenden, für Benutzer, die auf Exchange 2013 verwaltet werden, aber für Benutzer, die am Exchange 2013 verwaltet werden, etwas anders implementiert werden. Die Unterschiede werden im nächsten Abschnitt beschrieben. 
   
 Auf der Seite **Archivierungskonfiguration** sind die einzelnen Archivierungsrichtlinien aufgeführt, die für die Bereitstellung konfiguriert sind. Außerdem werden der Richtlinienname und -bereich (global, Standort oder Pool) sowie die für eine Archivierungskonfiguration aktivierten Archivierungsoptionen angezeigt. Auf der Seite **Archivierungskonfiguration** haben Sie die folgenden Möglichkeiten:
 - **Neu** Sie können eine oder mehrere der folgenden optionalen Archivierungskonfigurationen hinzufügen.
@@ -66,7 +61,7 @@ Auf der Seite **Archivierungskonfiguration** sind die einzelnen Archivierungsric
     
   - **Archivierung deaktivieren**
     
-- **Aktualisieren** Sie können die Seite **"Archivierungskonfiguration"** aktualisieren, um den Status der Optionen aller Archivierungskonfigurationen zu überprüfen.
+- **Aktualisieren** Sie können die Seite **"Archivierungskonfiguration** " aktualisieren, um den Status der Optionen aller Archivierungskonfigurationen zu überprüfen.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server 2015,](../../plan-your-deployment/archiving/archiving.md)Deploy archiving for Skype for Business Server [2015](../../deploy/deploy-archiving/deploy-archiving.md)und [Manage archiving in Skype for Business Server 2015.](../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server 2015](../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server 2015](../../deploy/deploy-archiving/deploy-archiving.md), and [Manage archiving in Skype for Business Server 2015](../../manage/archiving/archiving.md).
 

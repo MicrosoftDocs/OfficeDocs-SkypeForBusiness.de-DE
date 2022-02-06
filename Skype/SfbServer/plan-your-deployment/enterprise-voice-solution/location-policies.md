@@ -1,36 +1,31 @@
 ---
 title: Planen von Standortrichtlinien für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: da3cca7f-f6e5-4b6f-90a1-2008e3dd1ebd
-description: In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für eine erweiterte Bereitstellung von Notrufdiensten (E9-1-1) in Skype for Business Server Enterprise-VoIP planen.
-ms.openlocfilehash: 661706aa9ae60f87dc60814d71c2b0b8c8dcc2ce
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855322"
+description: 'In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für eine erweiterte Bereitstellung von Notrufdiensten (E9-1-1) in Skype for Business Server Enterprise-VoIP planen.'
 ---
+
 # <a name="plan-location-policies-for-skype-for-business-server"></a>Planen von Standortrichtlinien für Skype for Business Server
  
 In diesem Thema erfahren Sie, wie Sie Standortrichtlinien für eine erweiterte Bereitstellung von Notrufdiensten (E9-1-1) in Skype for Business Server Enterprise-VoIP planen. 
   
 > [!NOTE]
-> Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Wenn Sie mehrere Notrufnummern konfigurieren möchten, müssen Sie die Informationen in ["Plan for multiple emergency numbers in Skype for Business Server"](multiple-emergency-numbers.md) befolgen und [mehrere Notrufnummern in Skype for Business konfigurieren.](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md) 
+> Skype for Business Server unterstützt jetzt die Konfiguration mehrerer Notrufnummern für einen Client. Wenn Sie mehrere Notrufnummern konfigurieren möchten, müssen Sie die Informationen in ["Plan for multiple emergency numbers in Skype for Business Server](multiple-emergency-numbers.md)" befolgen und [mehrere Notrufnummern in Skype for Business konfigurieren](../../deploy/deploy-enterprise-voice/configure-multiple-emergency-numbers.md). 
   
-Sie erstellen Standortrichtlinien mithilfe der Skype for Business Systemsteuerung oder mit dem Cmdlet ["New-CsLocationPolicy".](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) Weitere Informationen finden Sie unter [Erstellen von Standortrichtlinien in Skype for Business Server.](../../deploy/deploy-enterprise-voice/create-location-policies.md)
+Sie erstellen Standortrichtlinien mithilfe der Skype for Business Systemsteuerung oder mit dem Cmdlet ["New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps)". Weitere Informationen finden Sie unter [Erstellen von Standortrichtlinien in Skype for Business Server](../../deploy/deploy-enterprise-voice/create-location-policies.md).
   
 Jede Standortrichtlinie enthält die folgenden Informationen:
   
@@ -40,29 +35,29 @@ Wenn dieser Wert aktiviert ist, ist der Client für erweiterte Notrufdienste (E9
   
  **Ort**
   
-Diese Einstellung wird nur verwendet, wenn **"Erweitert 9-1-1 aktivieren"** aktiviert ist.
+Diese Einstellung wird nur verwendet, wenn **"Erweitert 9-1-1 aktivieren** " aktiviert ist.
   
-Sie können die **Einstellung "Speicherort"** so konfigurieren, dass das Clientverhalten wie folgt definiert wird:
+Sie können die **Einstellung "Speicherort** " so konfigurieren, dass das Clientverhalten wie folgt definiert wird:
   
-- Das Festlegen des Werts auf **"Nein"** bedeutet, dass der Benutzer nicht zur Eingabe eines Speicherorts aufgefordert wird.
+- Das Festlegen des Werts auf **"Nein** " bedeutet, dass der Benutzer nicht zur Eingabe eines Speicherorts aufgefordert wird.
     
-- Das Festlegen des Werts auf **"Ja"** bedeutet, dass der Benutzer zur Eingabe eines Speicherorts aufgefordert wird, die Eingabeaufforderung jedoch geschlossen werden kann.
+- Das Festlegen des Werts auf **"Ja** " bedeutet, dass der Benutzer zur Eingabe eines Speicherorts aufgefordert wird, die Eingabeaufforderung jedoch geschlossen werden kann.
     
-- Das Festlegen des Werts auf **"Haftungsausschluss"** bedeutet, dass der Benutzer zur Eingabe eines Speicherorts aufgefordert wird und auch ein Haftungsausschluss angezeigt wird, wenn er versucht, die Eingabeaufforderung zu schließen. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
+- Das Festlegen des Werts auf **"Haftungsausschluss** " bedeutet, dass der Benutzer zur Eingabe eines Speicherorts aufgefordert wird und auch ein Haftungsausschluss angezeigt wird, wenn er versucht, die Eingabeaufforderung zu schließen. In allen Fällen kann der Benutzer den Client weiterhin verwenden.
     
 > [!NOTE]
 > Der Haftungsausschluss wird nicht angezeigt, wenn der Benutzer vor der Aktivierung für E9-1-1 bereits manuell einen Standort eingegeben hat. Aktualisierte Versionen des Haftungsausschlusses werden Benutzern nicht angezeigt, die den Haftungsausschluss bereits angezeigt haben. 
   
  **Haftungsausschluss der erweiterten Notrufdienste**
   
-Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Skype for Business Server können Sie mithilfe der Standortrichtlinie unterschiedliche Haftungsausschlüsse für unterschiedliche Gebietsschemas oder unterschiedliche Benutzergruppen festlegen.
+Diese Einstellung gibt den Haftungsausschluss an, der Benutzern angezeigt wird, wenn sie die Eingabeaufforderung für einen Standort verwerfen. In Skype for Business Server können Sie standortrichtlinien verwenden, um unterschiedliche Haftungsausschlüsse für unterschiedliche Gebietsschemas oder unterschiedliche Benutzergruppen festzulegen.
   
  **Notrufwählzeichenfolge (E9-1-1-Wählnummer)**
   
 Diese Wählzeichenfolge (weniger das führende "+", aber einschließlich aller Normalisierungen durch den Wählplan des Benutzers) bedeutet, dass ein Anruf ein Notruf ist. Die **Notrufwählzeichenfolge** veranlasst den Client, Standort- und Rückrufinformationen mit dem Anruf zu übermitteln.
   
 > [!NOTE]
-> Wenn Ihre Organisation kein Präfix für den externen Leitungszugriff verwendet, müssen Sie keine entsprechende Normalisierungsregel für Wählpläne erstellen, die der 911-Zeichenfolge ein "+" hinzufügt, bevor der Anruf an das ausgehende Routing auf einem Server gesendet wird, auf dem Skype for Business Server ausgeführt wird. das "+" wird automatisch vom Skype for Business Client als Ergebnis der Standortrichtlinie vorangestellt. Wenn Ihre Website jedoch ein Präfix für den externen Zugriff verwendet, müssen Sie der entsprechenden Wählplanrichtlinie eine Normalisierungsregel hinzufügen, die das Präfix für den externen Zugriff entfernt und das "+" hinzufügt. Wenn Ihr Standort beispielsweise ein externes Zugriffspräfix 9 verwendet und ein Benutzer 9 911 wählt, um einen Notruf zu tätigen, verwendet der Client seine Wählplanrichtlinie, um dies auf +911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird. 
+> Wenn Ihre Organisation kein Präfix für den externen Leitungszugriff verwendet, müssen Sie keine entsprechende Normalisierungsregel für den Wählplan erstellen, die der 911-Zeichenfolge ein "+" hinzufügt, bevor der Anruf an das ausgehende Routing auf einem Server gesendet wird, auf dem Skype for Business Server ausgeführt wird. Das "+" wird dem Skype for Business Client aufgrund der Standortrichtlinie automatisch vorangestellt. Wenn Ihre Website jedoch ein Präfix für den externen Zugriff verwendet, müssen Sie der entsprechenden Wählplanrichtlinie eine Normalisierungsregel hinzufügen, die das Präfix für den externen Zugriff entfernt und das "+" hinzufügt. Wenn Ihr Standort beispielsweise ein externes Zugriffspräfix 9 verwendet und ein Benutzer 9 911 wählt, um einen Notruf zu tätigen, verwendet der Client seine Wählplanrichtlinie, um dies auf +911 zu normalisieren, bevor die gewählte Nummer von den Routen im Standortprofil des Anrufers ausgewertet wird. 
   
  **Notfall-Wählzeichenfolgenmasken (E9-1-1-Wählmaske)**
   

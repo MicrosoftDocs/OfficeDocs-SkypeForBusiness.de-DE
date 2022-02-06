@@ -1,27 +1,22 @@
 ---
 title: Testen von Testfällen für das VoIP-Routing
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.VoiceTestCaseMain
+  - ms.lync.lscp.VoiceTestCaseMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: d683c9e6-a2e4-4c6c-89d3-b60ed26de592
-ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 9922c47b4bc7115e71ecc7c74229f3abcd48ff47
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843198"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="test-voice-routing-test-cases"></a>Testen des VoIP-Routings: Testfälle
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

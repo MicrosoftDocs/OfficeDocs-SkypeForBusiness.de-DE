@@ -1,42 +1,37 @@
 ---
 title: Überprüfen der Edgebereitstellung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 audience: ITPro
 manager: serdars
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- Strat_SB_Hybrid
-ms.custom: ''
+  - Strat_SB_Hybrid
+ms.custom: null
 ms.assetid: 69837f86-d141-4884-a4ca-c7e7463afaad
 description: 'Zusammenfassung: Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung des Edgeservers oder Edgeserverpools in Skype for Business Server funktioniert.'
-ms.openlocfilehash: b8a538d457c2f785d2bdff96dd379524c2df1a28
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841927"
 ---
+
 # <a name="validate-your-edge-deployment-in-skype-for-business-server"></a>Überprüfen der Edgebereitstellung in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie überprüfen, ob Ihre Bereitstellung des Edgeservers oder Edgeserverpools in Skype for Business Server funktioniert.
   
-Nachdem Sie Ihren Edgeserver oder Edgeserverpool bereitgestellt haben, müssen Sie wissen, ob er ordnungsgemäß funktioniert. Hier sind einige Dinge, die Ihnen dabei helfen können, zu bestätigen, dass Ihre Edgeumgebung mit Ihren internen Servern verbunden ist, und dass Ihre externen Benutzer über Ihren Edge eine Verbindung mit Ihrer Skype for Business Server Umgebung herstellen können.
+Nachdem Sie Ihren Edgeserver oder Edgeserverpool bereitgestellt haben, müssen Sie wissen, ob er ordnungsgemäß funktioniert. Hier sind einige Dinge, die Ihnen dabei helfen können, zu bestätigen, dass Ihre Edgeumgebung mit Ihren internen Servern verbunden ist, und dass Ihre externen Benutzer über Ihren Edge eine Verbindung zu Ihrer Skype for Business Server Umgebung herstellen können.
   
 ## <a name="verify-connectivity-between-your-internal-servers-and-your-edge-servers"></a>Überprüfen der Konnektivität zwischen Ihren internen Servern und Ihren Edgeservern
 
-Während die Überprüfung der Konnektivität automatisch im Edgeserver oder Edgeserverpool erfolgt, wenn die Edgeserver installiert werden, können Sie dies dennoch selbst mit Windows PowerShell bestätigen. Führen Sie das Cmdlet Get-CsManagementStoreReplicationStatus auf dem internen Server aus, der über den zentralen Verwaltungsspeicher verfügt, oder auf einem beliebigen Computer, auf dem Skype for Business Server Core Components (OcsCore.msi) installiert sind.
+Während die Überprüfung der Konnektivität automatisch im Edgeserver oder Edgeserverpool erfolgt, wenn die Edgeserver installiert sind, können Sie dies dennoch selbst mit Windows PowerShell bestätigen. Führen Sie das Cmdlet Get-CsManagementStoreReplicationStatus auf dem internen Server aus, der über den zentralen Verwaltungsspeicher verfügt, oder auf einem beliebigen Computer, auf dem Skype for Business Server Core Components (OcsCore.msi) installiert sind.
   
-Das anfängliche Ergebnis der Ausführung dieses Befehls gibt für die Replikation möglicherweise den Status "False" und nicht "True" aus. Führen Sie in diesem Fall das Cmdlet Invoke-CsManagementStoreReplication aus. Geben Sie ihr etwas Zeit, um die Replikation abzuschließen, und führen Sie dann das Cmdlet Get-CsManagementStoreReplicationStatus erneut aus.
+Das anfängliche Ergebnis der Ausführung dieses Befehls gibt für die Replikation möglicherweise den Status "False" und nicht "True" aus. Führen Sie in diesem Fall das Cmdlet Invoke-CsManagementStoreReplication aus. Geben Sie ihr Etwas Zeit, um die Replikation abzuschließen, und führen Sie dann das Cmdlet Get-CsManagementStoreReplicationStatus erneut aus.
   
 ## <a name="verify-connectivity-for-your-external-users"></a>Überprüfen der Konnektivität für Ihre externen Benutzer
 
-Wir verfügen über ein hervorragendes Tool für die Bestätigung Ihrer Edgeserverkonfiguration und die Möglichkeit, die richtigen Nachrichten für Edgeserverszenarien zu verbinden, zu senden und zu empfangen. Dies ist der [Anaylzer-Standort für Remotekonnektivität.](https://testconnectivity.microsoft.com/) Dies ist eine Website, die vom Microsoft-Support verwaltet und verwaltet wird. Um dieses Tool zu verwenden, navigieren Sie zur Website, und folgen Sie den Anweisungen, um das richtige Szenario für Sie auszuwählen.
+Wir verfügen über ein hervorragendes Tool für die Bestätigung Ihrer Edgeserverkonfiguration und die Möglichkeit, die richtigen Nachrichten für Edgeserverszenarien zu verbinden, zu senden und zu empfangen. Dies ist die [Remoteverbindungs-Anaylzer-Website](https://testconnectivity.microsoft.com/). Dies ist eine Website, die vom Microsoft-Support verwaltet und verwaltet wird. Um dieses Tool zu verwenden, navigieren Sie zur Website, und folgen Sie den Anweisungen, um das richtige Szenario für Sie auszuwählen.
   
 ### <a name="things-to-consider-when-testing-external-user-connectivity"></a>Zu berücksichtigende Punkte beim Testen der Konnektivität externer Benutzer
 

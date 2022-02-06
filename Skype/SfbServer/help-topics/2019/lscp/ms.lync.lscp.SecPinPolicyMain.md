@@ -1,32 +1,27 @@
 ---
 title: PIN-Richtlinie
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.SecPinPolicyMain
+  - ms.lync.lscp.SecPinPolicyMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 16e5b03c-c313-4792-9353-65f33b5e775a
-ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 88f07f2986d063aef5af63f981bc89f3652587fc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865172"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="pin-policy"></a>PIN-Richtlinie
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
 
- **Arbeiten mit PIN-Richtlinien für IP-Telefone** Diese PIN-Richtlinie (Persönliche Identifikationsnummer) unterstützt die Authentifizierung für Benutzer, die über ein IP-Telefon eine Verbindung mit Skype for Business Server herstellen.
+ **Arbeiten mit PIN-Richtlinien für IP-Telefone** Diese PIN-Richtlinie (Personal Identification Number) unterstützt die Authentifizierung für Benutzer, die über ein IP-Telefon eine Verbindung mit Skype for Business Server herstellen.
 - [Erstellen einer neuen PIN-Richtlinie in Skype for Business Server](../../../manage/authentication/create-a-new-pin-policy.md)
 
 - [Ändern einer vorhandenen PIN-Richtlinie in Skype for Business Server](../../../manage/authentication/modify-an-existing-pin-policy.md)

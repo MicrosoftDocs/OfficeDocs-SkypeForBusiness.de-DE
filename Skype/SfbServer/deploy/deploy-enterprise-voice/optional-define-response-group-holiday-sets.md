@@ -1,25 +1,20 @@
 ---
 title: (Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 56c37b3b-6517-49b9-86b7-ae48cc349119
 description: Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 307dfefb42f31102755bd4469ed8c24129e41767
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852719"
 ---
+
 # <a name="optional-define-response-group-holiday-sets-in-skype-for-business"></a>(Optional) Definieren von Feiertagssätzen für Reaktionsgruppen in Skype for Business
  
 Erstellen oder Ändern von Feiertagssätzen für Reaktionsgruppen in Skype for Business Server Enterprise-VoIP.
@@ -33,7 +28,7 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie für jeden zu definierenden Feiertag folgenden Befehl aus:
     
@@ -57,7 +52,7 @@ Feiertage sind als Tage definiert, an denen die Reaktionsgruppe geschlossen ist.
 
 ## <a name="see-also"></a>Siehe auch
 
-[Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business](designing-and-creating-response-group-workflows.md)
+[Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business](designing-and-creating-response-group-workflows.md)
 
 [New-CsRgsHoliday](/powershell/module/skype/new-csrgsholiday?view=skype-ps)
 

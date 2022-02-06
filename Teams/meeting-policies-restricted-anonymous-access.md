@@ -1,43 +1,37 @@
 ---
 title: Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: cebulnes, anyada
+ms.reviewer: 'cebulnes, anyada'
 audience: admin
 ms.localizationpriority: medium
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-f1.keywords: ''
-ms.custom: ''
-description: Erfahren Sie, wie Sie die Besprechungsrichtlinie RestrictedAnonymousAccess Teams Von Benutzern in Ihrer Organisation entfernen.
-ms.openlocfilehash: e1b5cc0f72419bc17fcca34e3a586ef781f93c93
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766134"
+  - Microsoft Teams
+f1.keywords: null
+ms.custom: null
+description: 'Erfahren Sie, wie Sie die Besprechungsrichtlinie RestrictedAnonymousAccess Teams Benutzern in Ihrer Organisation entfernen.'
 ---
 # <a name="remove-the-restrictedanonymousaccess-teams-meeting-policy-from-users"></a>Entfernen der Microsoft Teams-Besprechungsrichtlinie "RestrictedAnonymousAccess" von Benutzern
 
-[Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams werden verwendet, um die Features zu steuern, die für Besprechungsteilnehmer verfügbar sind, die von Benutzern in Ihrer Organisation geplant werden. 
+[Besprechungsrichtlinien](meeting-policies-overview.md) in Microsoft Teams verwendet, um die Features zu steuern, die für Besprechungsteilnehmer für Besprechungen zur Verfügung stehen, die von Benutzern in Ihrer Organisation geplant werden. 
 
-Teams enthält eine integrierte Richtlinie namens RestrictedAnonymousAccess, die vordefinierte Einstellungen enthält, mit denen anonyme Benutzer am Starten einer Besprechung eingeschränkt werden können. (Anonyme Benutzer sind Benutzer, die nicht authentifiziert wurden.) Die vordefinierten Einstellungen in der Besprechungsrichtlinie können von Administratoren nicht bearbeitet oder geändert werden.
+Teams enthält eine integrierte Richtlinie namens RestrictedAnonymousAccess, die vordefinierte Einstellungen enthält, die das Starten einer Besprechung für anonyme Benutzer einschränken. (Anonyme Benutzer sind Benutzer, die nicht authentifiziert wurden.) Die vordefinierten Einstellungen in der Besprechungsrichtlinie können von Administratoren nicht bearbeitet oder geändert werden.
 
-In diesem Artikel wird erläutert, wie Sie mithilfe von PowerShell die Besprechungsrichtlinie RestrictedAnonymousAccess von Benutzern entfernen, denen diese Richtlinie zugewiesen ist. Weitere Informationen zum Verwalten von Teams mit PowerShell finden Sie unter [Übersicht Teams PowerShell.](teams-powershell-overview.md)
+In diesem Artikel wird erläutert, wie Sie mithilfe von PowerShell die Besprechungsrichtlinie RestrictedAnonymousAccess von Benutzern entfernen, denen diese Richtlinie zugewiesen ist. Weitere Informationen zum Verwalten von Teams mit PowerShell finden Sie unter [Übersicht Teams PowerShell](teams-powershell-overview.md).
 
 ## <a name="before-you-start"></a>Bevor Sie beginnen
 
-Installieren Sie das [PowerShell Skype for Business Und stellen Sie eine Verbindung mit dem PowerShell-Modul auf.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Eine Schritt-für-Schritt-Anleitung finden Sie unter [Installieren Microsoft Teams PowerShell.](teams-powershell-install.md)
+Installieren Sie das [PowerShell Skype for Business Und stellen Sie eine Verbindung mit dem PowerShell-Modul auf.](/microsoft-365/enterprise/manage-skype-for-business-online-with-microsoft-365-powershell) Eine schrittweise Anleitung finden Sie unter Installieren [Microsoft Teams PowerShell](teams-powershell-install.md).
 
 ## <a name="get-the-teams-meeting-policy-assignments-for-your-organization"></a>Erhalten der Teams Besprechungsrichtlinienzuweisungen für Ihre Organisation
 
-Führen Sie die folgenden Schritte aus, um Teams Besprechungsrichtlinienzuweisungen für Ihre Organisation zu erhalten.
+Führen Sie die folgenden Schritte aus, Teams Besprechungsrichtlinienzuweisungen für Ihre Organisation zu erhalten.
 
 ```powershell
 Get-CsOnlineUser | Select-Object objectid, TeamsMeetingPolicy | Group-Object TeamsMeetingPolicy
@@ -67,10 +61,10 @@ Get-CsOnlineUser |? TeamsMeetingPolicy -eq "RestrictedAnonymousAccess" | Select-
 
 ### <a name="use-the-new-csbatchpolicyassignmentoperation-cmdlet"></a>Verwenden des New-CsBatchPolicyAssignmentOperation-Cmdlets
 
-Bei [der Batchrichtlinienzuweisung](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users)beträgt die maximale Anzahl von Benutzern, für die Sie Richtlinien entfernen oder aktualisieren können, 5.000 gleichzeitig. Wenn Sie beispielsweise mehr als 5.000 Benutzer haben, müssen Sie mehrere Batches übermitteln. Um optimale Ergebnisse zu erzielen, übermitteln Sie nicht mehrere Batches gleichzeitig. Lassen Sie die Verarbeitung von Batches abschließen, bevor Sie weitere Batches übermitteln.
+Bei [der Batchrichtlinienzuweisung](assign-policies-users-and-groups.md#assign-a-policy-to-a-batch-of-users) beträgt die maximale Anzahl von Benutzern, für die Sie Richtlinien entfernen oder aktualisieren können, 5.000 gleichzeitig. Wenn Sie beispielsweise mehr als 5.000 Benutzer haben, müssen Sie mehrere Batches übermitteln. Um optimale Ergebnisse zu erzielen, übermitteln Sie nicht mehrere Batches gleichzeitig. Lassen Sie die Verarbeitung von Batches abschließen, bevor Sie weitere Batches übermitteln.
 
 > [!NOTE]
-> Das [Cmdlet New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) befindet sich im Teams PowerShell-Modul. Bevor Sie diese Schritte ausführen, installieren Sie das [PowerShell-Modul Teams, und](https://www.powershellgallery.com/packages/MicrosoftTeams)stellen Sie eine Verbindung mit dem Modul herzustellen. Eine Schritt-für-Schritt-Anleitung finden Sie unter [Installieren Microsoft Teams PowerShell.](teams-powershell-install.md)
+> Das [Cmdlet New-CsBatchPolicyAssignmentOperation](/powershell/module/teams/new-csbatchpolicyassignmentoperation) befindet sich im Teams PowerShell-Modul. Bevor Sie diese Schritte ausführen, installieren Sie das [PowerShell-Modul Teams und stellen Sie eine Verbindung mit dem Modul auf](https://www.powershellgallery.com/packages/MicrosoftTeams). Eine schrittweise Anleitung finden Sie unter Installieren [Microsoft Teams PowerShell](teams-powershell-install.md).
 
 Führen Sie die folgenden Befehle aus, um die Besprechungsrichtlinie RestrictedAnonymousAccess aus einer Gruppe von Benutzern zu entfernen.
 
@@ -90,7 +84,7 @@ Jede Batchzuordnung gibt eine Vorgangs-ID zurück, mit der Sie den Fortschritt u
 Get-CsBatchPolicyAssignmentOperation -OperationId 62557b78-e734-42d6-952f-41a454ed6115
 ```
 
-Stellen Sie sicher, **dass "ErrorCount"** **gleich 0** (Null) und **OverallStatus** **"Completed" ist.**
+Stellen Sie sicher, **dass fehleranzahl** **gleich 0** (null) und **OverallStatus** abgeschlossen **ist**.
 
 ## <a name="related-topics"></a>Verwandte Themen
 
