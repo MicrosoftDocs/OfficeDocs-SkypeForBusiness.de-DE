@@ -1,24 +1,19 @@
 ---
 title: Manuelles Löschen der Datenbanken "Aufzeichnung von Kommunikationsdatensätzen" und "Quality of Experience" in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 3a3a965b-b861-41a4-b9a8-27184d622c17
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Datensätze aus den KDS- und QoE-Datenbanken, die von Skype for Business Server verwendet werden, manuell löschen.'
-ms.openlocfilehash: edaeb5d34fefe1ea8f50da4d7bb4bb31c94c62b5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851599"
 ---
+
 # <a name="manually-purge-the-call-detail-recording-and-quality-of-experience-databases-in-skype-for-business-server"></a>Manuelles Löschen der Datenbanken "Aufzeichnung von Kommunikationsdatensätzen" und "Quality of Experience" in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Datensätze aus dem KDS und den von Skype for Business Server verwendeten QoE-Datenbanken manuell löschen.
@@ -29,7 +24,7 @@ Die KDS- und QoE-Datenbanken können manuell oder automatisch aus Datensätzen g
 
 Administratoren können die Datenbanken für die Aufzeichnung von Kommunikationsdatensätzen (KDS) und/oder die QoE-Datenbanken (Quality of Experience) so konfigurieren, dass alte Datensätze automatisch aus der Datenbank gelöscht werden. dies tritt auf, wenn die Bereinigung für die angegebene Datenbank (KDS oder QoE) aktiviert wurde und datensätze vorhanden sind, die länger als die angegebene Zeitspanne in der Datenbank vorhanden sind. Beispielsweise können Administratoren das System jeden Tag um 1:00 Uhr so konfigurieren, dass QoE-Einträge, die älter als 60 Tage sind, aus der QoE-Datenbank gelöscht werden.
   
-Zusätzlich zu dieser automatischen Bereinigung wurden zwei neue Cmdlets &#x2014; Invoke-CsCdrDatabasePurge und Invoke-CsQoEDatbasePurge &#x2014; zu Skype for Business Server hinzugefügt. Mit diesen Cmdlets können Administratoren Datensätze aus den KDS- und QoE-Datenbanken jederzeit manuell löschen. Um beispielsweise alle Datensätze, die älter als 10 Tage sind, manuell aus der KDS-Datenbank zu löschen, können Sie einen Befehl wie den folgenden verwenden:
+Zusätzlich zu dieser automatischen Bereinigung wurden zwei neue Cmdlets &#x2014; Invoke-CsCdrDatabasePurge und Invoke-CsQoEDatbasePurge &#x2014; zu Skype for Business Server hinzugefügt. Mit diesen Cmdlets können Administratoren Datensätze aus dem KDS und den QoE-Datenbanken jederzeit manuell löschen. Um beispielsweise alle Datensätze, die älter als 10 Tage sind, manuell aus der KDS-Datenbank zu löschen, können Sie einen Befehl wie den folgenden verwenden:
   
 ```powershell
 Invoke-CsCdrDatabasePurge -Identity service:MonitoringDatabase:atl-sql-001.litwareinc.com -PurgeCallDetailDataOlderThanDays 10 -PurgeDiagnosticDataOlderThanDays 10

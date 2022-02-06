@@ -1,27 +1,22 @@
 ---
 title: Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainCreateCSCPAdmin
+  - ms.lync.dep.DeployMainCreateCSCPAdmin
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 3312926a-4671-4030-bb92-90ac24c778dd
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server zu gewähren:'
-ms.openlocfilehash: 42163cf1df7ae13b918f592b512d3f5fd89169de
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839017"
 ---
+
 # <a name="create-skype-for-business-server-control-panel-administrators"></a>Erstellen von Administratoren für die Skype for Business Server-Systemsteuerung
  
 Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server zu gewähren:
@@ -37,7 +32,7 @@ Gehen Sie folgendermaßen vor, um Zugriff auf die Skype for Business Server zu g
 5. Überprüfen Sie auf der Registerkarte "Mitglieder", ob die ausgewählten Benutzer bzw. Gruppen vorhanden sind. Klicken Sie auf **OK**.
     
 > [!TIP]
-> Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" bietet einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, vollzugriff auf alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Benutzer müssen nicht für Skype for Business Server aktiviert sein, um Mitglieder der Verwaltungsgruppen werden zu können. 
+> Die Skype for Business Server Systemsteuerung ist ein rollenbasiertes Zugriffssteuerungstool. Die Mitgliedschaft in der Gruppe "CsAdministrator" gibt einem Benutzer, der die Skype for Business Server Systemsteuerung verwendet, Vollzugriff für alle verfügbaren Konfigurationsfunktionen. Es sind weitere Rollen verfügbar, die für spezifische Funktionen konzipiert sind. Benutzer müssen nicht für Skype for Business Server aktiviert werden, um Mitglieder der Verwaltungsgruppen werden zu können. 
   
 Weitere Rollen sind:
   

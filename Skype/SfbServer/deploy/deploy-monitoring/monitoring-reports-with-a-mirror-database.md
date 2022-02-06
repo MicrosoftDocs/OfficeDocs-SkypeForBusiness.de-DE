@@ -1,24 +1,19 @@
 ---
 title: Zuordnen von Überwachungsberichten zu einer Spiegeldatenbank in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 42b797c6-8db8-4ad7-886e-8ddf8deb06f9
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Überwachungsberichte einer spiegeldatenbank zuordnen, die von Skype for Business Server verwendet wird.'
-ms.openlocfilehash: 29992c9b37ea4160c2696bdeb7296ab83e1eb198
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856212"
 ---
+
 # <a name="associate-monitoring-reports-with-a-mirror-database-in-skype-for-business-server"></a>Zuordnen von Überwachungsberichten zu einer Spiegeldatenbank in Skype for Business Server 
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Überwachungsberichte einer spiegeldatenbank zuordnen, die von Skype for Business Server verwendet wird.
@@ -31,23 +26,23 @@ Um Überwachungsberichte zum automatischen Failover auf die Spiegeldatenbank zu 
   
 1. Verwenden Sie Internet Explorer, um die **SQL Server Reporting Services** Startseite zu öffnen. Die Homepage-URL für Reporting Services umfasst Folgendes:
     
-   - Das **Präfix "http:".**
+   - Das **Präfix "http:** ".
     
-   - Der vollqualifizierte Domänenname (FQDN) des Computers, auf dem die Reporting Services installiert sind (z. B. `atl-sql-001.litwareinc.com` ).
+   - Der vollqualifizierte Domänenname (FQDN) des Computers, `atl-sql-001.litwareinc.com`auf dem die Reporting Services installiert sind (z. B. ).
     
    - Die Zeichenfolge **/Reports_**.
     
-   - Der Name der Datenbankinstanz, in der die Überwachungsberichte installiert sind (z. B. **"archinst").**
+   - Der Name der Datenbankinstanz, in der die Überwachungsberichte installiert sind (z. B. **archinst**).
     
-     Wenn beispielsweise SQL Server Reporting Services auf dem Computer installiert wurde `atl-sql-001.litwareinc.com` und die Überwachungsberichte die Datenbankinstanz "archinst" verwenden, würde die URL der Startseite wie folgt aussehen:
+     Wenn beispielsweise SQL Server Reporting Services auf dem Computer `atl-sql-001.litwareinc.com` installiert wurde und die Überwachungsberichte die Datenbankinstanz "archinst" verwenden, würde die URL der Startseite wie folgt aussehen:
     
      `http://atl-sql-001.litwareinc.com/Reports_archinst`
     
-2. Nachdem Sie auf die Reporting Services-Startseite zugegriffen haben, klicken Sie auf **"ServerReports"** und dann auf **Reports_Content**. Dadurch gelangen Sie zur **Reports_Content** Seite für die Skype for Business Server Überwachungsberichte.
+2. Nachdem Sie auf die Reporting Services-Startseite zugegriffen haben, klicken Sie auf **"ServerReports**", und klicken Sie dann auf **Reports_Content**. Dadurch gelangen Sie zur **Reports_Content** Seite für die Skype for Business Server Überwachungsberichte.
     
-3. Klicken Sie auf der **Reports_Content** Seite auf die **CDRDB-Datenquelle.**
+3. Klicken Sie **auf der Reports_Content** Seite auf die **CDRDB-Datenquelle** .
     
-4. Suchen Sie auf der **CdRDB-Seite** auf der Registerkarte **"Eigenschaften"** nach dem Textfeld mit der Bezeichnung **Verbindungszeichenfolge.** Die aktuelle Verbindungszeichenfolge sieht etwa wie folgt aus:
+4. Suchen Sie auf der **CdRDB-Seite** auf der Registerkarte **"Eigenschaften** " nach dem Textfeld mit der Bezeichnung **"Verbindungszeichenfolge"**. Die aktuelle Verbindungszeichenfolge sieht etwa wie folgt aus:
     
     Data source=(local)\archinst;initial catalog=LcsCDR
     
@@ -59,9 +54,9 @@ Um Überwachungsberichte zum automatischen Failover auf die Spiegeldatenbank zu 
     
     Data source=(local)\archinst; Failover partner=atl-mirror-001\archinst;initial catalog=LcsCDR
     
-6. Klicken Sie nach dem Aktualisieren der Verbindungszeichenfolge auf **"Übernehmen".**
+6. Klicken Sie nach dem Aktualisieren der Verbindungszeichenfolge auf **"Übernehmen"**.
     
-7. Klicken Sie auf der **CDRDB-Seite** auf den Link **Reports_Content.** Klicken Sie auf die **QMSDB-Datenquelle,** und bearbeiten Sie dann die Verbindungszeichenfolge für die QoE-Datenbank. Beispiel:
+7. Klicken Sie auf der **CDRDB-Seite** auf den Link **Reports_Content** . Klicken Sie auf die **QMSDB-Datenquelle** , und bearbeiten Sie dann die Verbindungszeichenfolge für die QoE-Datenbank. Beispiel:
     
     `Data source=(local)\archinst;Failover Partner=atl-mirror-001\archinst;initial catalog=QoEMetrics`
     

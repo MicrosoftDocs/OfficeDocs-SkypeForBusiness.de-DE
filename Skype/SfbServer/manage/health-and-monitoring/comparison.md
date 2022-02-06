@@ -1,24 +1,19 @@
 ---
 title: Vergleichsbericht über Medienqualität in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: c1d0b5a8-98ff-455a-b78b-a05a21cf066d
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vergleichsbericht über Medienqualität in Skype for Business Server.'
-ms.openlocfilehash: 8c492e75e124b7529e229ddc353bf89b3830fb93
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847268"
 ---
+
 # <a name="media-quality-comparison-report-in-skype-for-business-server"></a>Vergleichsbericht über Medienqualität in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Vergleichsbericht über Medienqualität in Skype for Business Server.
@@ -39,8 +34,8 @@ Mithilfe von Filtern können Sie eine gezieltere Datenauswahl erreichen oder die
 |:-----|:-----|
 |**From** <br/> |Anfangsdatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Anfangsdatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Anfangszeitpunkt eingeben, beginnt der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
-|**Aufrufe** <br/> | Der Anruftyp, der als primäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Wired <br/>  Wireless <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
-|**Mit Anrufen vergleichen** <br/> | Der Anruftyp, der als sekundäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Wired <br/>  Wireless <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
+|**Aufrufe** <br/> | Der Anruftyp, der als primäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Wired <br/>  Drahtlos <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
+|**Mit Anrufen vergleichen** <br/> | Der Anruftyp, der als sekundäres Vergleichselement verwendet werden soll. Gültige Werte sind: <br/>  [Alle] <br/>  Extern <br/>  Intern <br/>  VPN <br/>  Nicht-VPN <br/>  Wired <br/>  Drahtlos <br/>  Extern und verkabelt <br/>  Extern und Funk <br/>  Extern und VPN <br/>  Extern und Nicht-VPN <br/>  Intern und verkabelt <br/>  Intern und Funk <br/> |
 |**Intervall** <br/> | Zeitintervall. Wählen Sie eine der folgenden Optionen aus: <br/>  Stündlich (maximal 25 Stunden können angezeigt werden) <br/>  Täglich (maximal 31 Tage können angezeigt werden) <br/>  Wöchentlich (maximal 12 Wochen können angezeigt werden) <br/>  Wenn mit dem angegebenen Start- und Endzeitpunkt die maximale Anzahl der zulässigen Werte für das ausgewählte Intervall überschritten wird, wird nur die maximale Anzahl an Werten (beginnend mit dem Startzeitpunkt) angezeigt. Wenn Sie z. B. das Intervall "Täglich" mit dem Startdatum 7.07.2015 und dem Enddatum 28.02.2015 auswählen, werden Daten für die Tage 07.08.2015 12:00 Uhr bis 07.09.2015 12:00 Uhr angezeigt (d. s. Daten insgesamt 31 Tage). <br/> |
    
 ## <a name="metrics"></a>Metriken

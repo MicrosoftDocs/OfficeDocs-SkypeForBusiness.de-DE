@@ -1,30 +1,25 @@
 ---
 title: Anzeigen von PIN-Richtlinieninformationen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 1d48b060-d77f-44ee-b70f-3ce128aedac4
 description: 'Zusammenfassung: Anzeigen der PIN-Richtlinieninformationen eines Benutzers für Skype for Business Server.'
-ms.openlocfilehash: 0a0e67d45a89e2c03f45017bfddb1ffaa9bec285
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862482"
 ---
+
 # <a name="view-pin-policy-information-in-skype-for-business-server"></a>Anzeigen von PIN-Richtlinieninformationen in Skype for Business Server
  
 **Zusammenfassung:** Anzeigen der PIN-Richtlinieninformationen eines Benutzers für Skype for Business Server.
   
-Auf der Registerkarte **"PIN-Richtlinie"** können Sie die PIN-Authentifizierung (Persönliche Identifikationsnummer) von Benutzern anzeigen, die sich mit Skype for Business mit IP-Telefonen verbinden. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
+Auf der Registerkarte "**PIN-Richtlinie**" können Sie die PIN-Authentifizierung (Persönliche Identifikationsnummer) von Benutzern anzeigen, die sich mit Skype for Business mit IP-Telefonen verbinden. Stellen Sie zur Verwendung der PIN-Authentifizierung sicher, dass in den Webdiensteinstellungen die Option **PIN-Authentifizierung aktivieren** ausgewählt ist.
   
 Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- oder Standortebene zu ändern. 
   
@@ -40,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- ode
     
 ## <a name="viewing-pin-policies-by-using-windows-powershell-cmdlets"></a>Anzeigen von PIN-Richtlinien mithilfe Windows PowerShell Cmdlets
 
-Sie können PIN-Richtlinien auch mithilfe von Windows PowerShell und dem Cmdlet Get-CsPinPolicy anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
+Sie können PIN-Richtlinien auch mithilfe von Windows PowerShell und dem cmdlet Get-CsPinPolicy anzeigen. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Der Vorgang ist in Skype for Business Server identisch.
   
 ### <a name="to-view-pin-policies"></a>So zeigen Sie PIN-Richtlinien an
 
@@ -62,7 +57,7 @@ PINLifetime          : 0
 MaximumLogonAttempts :
 </pre>
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Get-CsPinPolicy".](/powershell/module/skype/get-cspinpolicy?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Get-CsPinPolicy](/powershell/module/skype/get-cspinpolicy?view=skype-ps) ".
   
 ## <a name="see-also"></a>Siehe auch
 

@@ -1,24 +1,19 @@
 ---
 title: Anzeigen von Besprechungskonfigurationseinstellungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 932c7e2d-6de3-4176-ac6e-ec230f8230f2
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server anzeigen.'
-ms.openlocfilehash: 4d55d4213b0eb7cbd89045960d87c05340520cbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837627"
 ---
+
 # <a name="view-meeting-configuration-settings-in-skype-for-business-server"></a>Anzeigen von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server anzeigen.
@@ -32,20 +27,20 @@ Sie können Besprechungskonfigurationseinstellungen mithilfe Skype for Business 
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen",** und klicken Sie dann auf **"Besprechungskonfiguration".**
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen**", und klicken Sie dann auf **"Besprechungskonfiguration"**.
     
-4. Klicken Sie auf der Seite **"Besprechungskonfiguration"** auf die Besprechungskonfiguration, die Sie anzeigen möchten.
+4. Klicken Sie auf der Seite **"Besprechungskonfiguration** " auf die Besprechungskonfiguration, die Sie anzeigen möchten.
     
-5. Aktivieren Sie im **Filter "Datei bearbeiten"** das Kontrollkästchen **"Details anzeigen".**
+5. Aktivieren **Sie im Dateifilter bearbeiten** das Kontrollkästchen **Details anzeigen** .
     
-    **Besprechungskonfiguration \<policy\> bearbeiten –** öffnet die Anzeige der Einstellungen für die ausgewählte Richtlinie.
+    **Besprechungskonfiguration bearbeiten – \<policy\>** öffnet die Anzeige der Einstellungen für die ausgewählte Richtlinie.
     
-    Ausführliche Informationen zum Konfigurieren der Einstellungen finden Sie unter [Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server.](create-settings.md)
+    Ausführliche Informationen zum Konfigurieren der Einstellungen finden Sie unter [Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server](create-settings.md).
     
 ## <a name="view-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Anzeigen von Besprechungskonfigurationseinstellungen mithilfe Skype for Business Server Verwaltungsshell
 <a name="BKMK_ViewJoinSettings"> </a>
 
-Verwenden Sie das Cmdlet **"Get-CsMeetingConfiguration",** um Informationen zu allen Besprechungskonfigurationseinstellungen anzuzeigen:
+Verwenden Sie das Cmdlet **"Get-CsMeetingConfiguration** ", um Informationen zu allen Besprechungskonfigurationseinstellungen anzuzeigen:
   
 ```
 Get-CsMeetingConfiguration
@@ -68,4 +63,4 @@ CustomFooterText                :
 AllowConferenceRecording        : True
 </pre>
 
-Weitere Informationen, einschließlich einer vollständigen Liste von Parametern, finden Sie unter ["Get-CsMeetingConfiguration".](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)
+Weitere Informationen, einschließlich einer vollständigen Liste von Parametern, finden Sie unter ["Get-CsMeetingConfiguration](/powershell/module/skype/get-csmeetingconfiguration?view=skype-ps)".

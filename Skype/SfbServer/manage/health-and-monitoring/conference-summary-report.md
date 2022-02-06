@@ -1,29 +1,24 @@
 ---
 title: Zusammenfassender Konferenzbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 62f54812-5700-45a3-8526-8f58b0f77fbc
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Konferenzbericht in Skype for Business Server.'
-ms.openlocfilehash: 029dac40c7bc52602f0403bdfd52559db662b0ca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60846408"
 ---
+
 # <a name="conference-summary-report-in-skype-for-business-server"></a>Zusammenfassender Konferenzbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Konferenzbericht in Skype for Business Server.
   
-Der "Zusammenfassende Konferenzbericht" gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst in der Regel mehr als zwei Benutzer und erfordert die Verwendung von Konferenzdiensten. Im Vergleich dazu umfasst eine Peer-to-Peer-Sitzung in der Regel nur zwei Benutzer und erfordert nicht die Verwendung von Skype for Business Server Konferenzdiensten. Peer-to-Peer-Aktivitäten werden [im zusammenfassenden Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-summary-report.md)gemeldet.
+Der "Zusammenfassende Konferenzbericht" gibt Ihnen einen Überblick über Ihre Onlinekonferenzsitzungen. Eine Konferenz umfasst in der Regel mehr als zwei Benutzer und erfordert die Verwendung von Konferenzdiensten. Im Vergleich dazu umfasst eine Peer-to-Peer-Sitzung in der Regel nur zwei Benutzer und erfordert nicht die Verwendung von Skype for Business Server Konferenzdiensten. Peer-to-Peer-Aktivitäten werden [im zusammenfassenden Bericht über Peer-to-Peer-Aktivitäten in Skype for Business Server](peer-to-peer-activity-summary-report.md) gemeldet.
   
 Der zusammenfassende Konferenzbericht gibt nicht nur an, wie viele Konferenzen während eines bestimmten Zeitraums (stündlich, täglich, wöchentlich, monatlich) abgehalten wurden, sondern auch die Gesamtzahl der Personen, die an diesen Konferenzen teilgenommen haben, und die Gesamtzahl der eindeutigen Konferenzorganisatoren.
   

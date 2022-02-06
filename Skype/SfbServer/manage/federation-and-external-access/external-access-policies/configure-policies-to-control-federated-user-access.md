@@ -1,34 +1,30 @@
 ---
 title: Konfigurieren von Richtlinien zum Steuern des Zugriffs durch Verbundbenutzer
-ms.reviewer: ''
-ms:assetid: 5485e208-81e4-4e59-9aeb-1232c11dd8a2
-ms:mtpsurl: https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)
-ms:contentKeyID: 48184180
+ms.reviewer: null
+'ms:assetid': 5485e208-81e4-4e59-9aeb-1232c11dd8a2
+'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/Gg398359(v=OCS.15)'
+'ms:contentKeyID': 48184180
 mtps_version: v=OCS.15
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Wenn Sie Richtlinien zur Unterstützung der Kommunikation mit Verbundpartnern konfigurieren, gelten die Richtlinien für Benutzer von Partnerdomänen. '
-ms.openlocfilehash: 020135e26b2a989d6ef0225825cb2597d15687d4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833401"
 ---
+
+
 # <a name="configure-policies-to-control-federated-user-access-in-skype-for-business-server"></a>Konfigurieren von Richtlinien zum Steuern des Verbundbenutzerzugriffs in Skype for Business Server
 
 Wenn Sie Richtlinien zur Unterstützung der Kommunikation mit Verbundpartnern konfigurieren, gelten die Richtlinien für Benutzer von Partnerdomänen. Sie können eine oder mehrere Zugriffsrichtlinien für externe Benutzer konfigurieren, um zu steuern, ob Benutzer von Verbunddomänen mit Ihren Skype for Business Server Benutzern zusammenarbeiten können. Zum Steuern des Zugriffs durch Partnerbenutzer können Sie Richtlinien auf globaler Ebene sowie Standort- und Benutzerebene konfigurieren. Skype for Business Server Richtlinieneinstellungen, die auf einer Richtlinienebene angewendet werden, können Einstellungen außer Kraft setzen, die auf einer anderen Richtlinienebene angewendet werden. Prioritätenreihenfolge für Skype for Business Server-Richtlinien: Eine Benutzerrichtlinie (größter Einfluss) hat Vorrang vor einer Standortrichtlinie, und eine Standortrichtlinie wiederum hat Vorrang vor einer globalen Richtlinie (geringster Einfluss). Dies bedeutet Folgendes: Je näher sich die Richtlinieneinstellung am betroffenen Objekt befindet, umso mehr Einfluss auf das Objekt hat sie.
 
 
 > [!NOTE]  
-> Sie können auch dann Richtlinien zur Steuerung des Zugriffs durch Partnerbenutzer konfigurieren, wenn Sie den Partnerverbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien treten jedoch erst dann in Kraft, wenn der Partnerverbund für Ihre Organisation aktiviert ist. Ausführliche Informationen zum Aktivieren des Partnerverbunds finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs.](../access-edge/enable-or-disable-remote-user-access.md)  Wenn Sie außerdem eine Benutzerrichtlinie zum Steuern des Verbundbenutzerzugriffs angeben, gilt die Richtlinie nur für Benutzer, die für Skype for Business Server aktiviert und für die Verwendung der Richtlinie konfiguriert sind.
+> Sie können auch dann Richtlinien zur Steuerung des Zugriffs durch Partnerbenutzer konfigurieren, wenn Sie den Partnerverbund für Ihre Organisation nicht aktiviert haben. Die von Ihnen konfigurierten Richtlinien treten jedoch erst dann in Kraft, wenn der Partnerverbund für Ihre Organisation aktiviert ist. Ausführliche Informationen zum Aktivieren des Partnerverbunds finden Sie unter [Aktivieren oder Deaktivieren des Remotebenutzerzugriffs](../access-edge/enable-or-disable-remote-user-access.md).  Wenn Sie außerdem eine Benutzerrichtlinie zum Steuern des Verbundbenutzerzugriffs angeben, gilt die Richtlinie nur für Benutzer, die für Skype for Business Server aktiviert und für die Verwendung der Richtlinie konfiguriert sind.
 
 
 ## <a name="to-configure-a-policy-to-support-access-by-users-of-federated-domains"></a>So konfigurieren Sie eine Richtlinie zur Unterstützung des Zugriffs durch Benutzer von Partnerdomänen
@@ -59,15 +55,15 @@ Wenn Sie Richtlinien zur Unterstützung der Kommunikation mit Verbundpartnern ko
 
 7.  Klicken Sie auf **Commit**.
 
-Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerverbund in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter Aktivieren oder Deaktivieren des [Partnerverbunds und der Verbindung mit öffentlichen Chatdiensten.](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md)
+Um den Zugriff durch Partnerbenutzer zu ermöglichen, müssen Sie auch die Unterstützung für den Partnerverbund in Ihrer Organisation aktivieren. Ausführliche Informationen finden Sie unter [Aktivieren oder Deaktivieren des Partnerverbunds und der Verbindung mit öffentlichen Chatdiensten](../access-edge/enable-or-disable-federation-and-public-im-connectivity.md).
 
-Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer.](assign-an-external-user-access-policy.md)
+Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf Benutzer anwenden, die mit Partnerbenutzern zusammenarbeiten sollen. Ausführliche Informationen finden Sie unter [Zuweisen einer Richtlinie für den Zugriff durch externe Benutzer](assign-an-external-user-access-policy.md).
 
 ## <a name="to-configure-an-existing-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>So konfigurieren Sie eine vorhandene Richtlinie mithilfe von Windows PowerShell, um den Zugriff durch Benutzer von Verbunddomänen zu unterstützen
 
 1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Starten Sie die Skype für die Busines Server-Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business Server** und dann auf **Skype for Business Server Verwaltungsshell.**
+2.  Starten Sie die Skype für die Busines Server-Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business Server** und dann auf **Skype for Business Server Verwaltungsshell**.
 
 3.  Geben Sie Folgendes in die Skype for Business Server-Verwaltungsshell ein:
     
@@ -80,11 +76,11 @@ Handelt es sich um eine Benutzerrichtlinie, müssen Sie die Richtlinie auch auf 
     > Der Parameter "EnablePublicCloudAudioVideoAccess" weist keine entsprechende Auswahl in der Skype for Business Server Systemsteuerung auf.
 
 
-## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>So erstellen Sie eine neue Richtlinie mit Windows PowerShell zur Unterstützung des Zugriffs durch Benutzer von Verbunddomänen
+## <a name="to-create-a-new-policy-using-windows-powershell-to-support-access-by-users-of-federated-domains"></a>So erstellen Sie eine neue Richtlinie mithilfe von Windows PowerShell zur Unterstützung des Zugriffs durch Benutzer von Verbunddomänen
 
 1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsAdministrator" zugewiesen ist, bei einem beliebigen Computer in Ihrer internen Bereitstellung an.
 
-2.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **"Microsoft Skype for Business Server"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **"Microsoft Skype for Business Server**" und dann auf **Skype for Business Server Verwaltungsshell**.
 
 3.  Geben Sie Folgendes in die Skype for Business Server-Verwaltungsshell ein:
     

@@ -1,24 +1,19 @@
 ---
 title: Konferenzaktivitätsbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 22ddb509-af16-4fc8-9b98-6f58caa6f37e
 description: 'Zusammenfassung: Erfahren Sie mehr über den Konferenzaktivitätsbericht, der in Skype for Business Server verwendet wird.'
-ms.openlocfilehash: c136bfaeb40a9b84c2861332636916353856855f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849928"
 ---
+
 # <a name="conference-activity-report-in-skype-for-business-server"></a>Konferenzaktivitätsbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Konferenzaktivitätsbericht, der in Skype for Business Server verwendet wird.
@@ -29,7 +24,7 @@ Verursacht das langsame Netzwerk Probleme, können Sie Benutzern empfehlen, Konf
   
 ## <a name="accessing-the-conference-activity-report"></a>Zugreifen auf den Konferenzaktivitätsbericht
 
-Der Zugriff auf den Konferenzaktivitätsbericht erfolgt über den [Zusammenfassenden Konferenzbericht in Skype for Business Server,](conference-summary-report.md) indem Sie auf eine der folgenden Metriken klicken:
+Der Zugriff auf den Konferenzaktivitätsbericht erfolgt über den [zusammenfassenden Konferenzbericht in Skype for Business Server](conference-summary-report.md), indem Sie auf eine der folgenden Metriken klicken:
   
 - Konferenzen insgesamt
     

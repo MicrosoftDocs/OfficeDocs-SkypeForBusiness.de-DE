@@ -1,28 +1,23 @@
 ---
 title: Erstellen von regionenübergreifenden Netzwerkrouten in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 5555262a-a502-4b01-9593-836dd30064f5
-description: Erstellen oder Ändern von regionenübergreifenden Netzwerkrouten, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.
-ms.openlocfilehash: 4aa831c33049e2e77a298f96de80d9bad2d296e4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833871"
+description: 'Erstellen oder Ändern von regionenübergreifenden Netzwerkrouten, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden.'
 ---
+
 # <a name="create-network-interregional-routes-in-skype-for-business-server"></a>Erstellen von regionenübergreifenden Netzwerkrouten in Skype for Business Server
  
 Erstellen oder Ändern von regionenübergreifenden Netzwerkrouten, die von Enterprise-VoIP Anrufsteuerung in Skype for Business Server verwendet werden. 
@@ -35,7 +30,7 @@ In der Beispieltopologie müssen regionenübergreifende Netzwerkrouten für jede
   
 ### <a name="to-create-network-interregional-routes-by-using-skype-for-business-server-management-shell"></a>So erstellen Sie regionenübergreifende Netzwerkrouten mithilfe Skype for Business Server Verwaltungsshell
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Führen Sie das Cmdlet **New-CsNetworkInterRegionRoute** aus, um die erforderlichen Routen zu definieren. Führen Sie beispielsweise den folgenden Befehl aus:
     
@@ -64,13 +59,13 @@ In der Beispieltopologie müssen regionenübergreifende Netzwerkrouten für jede
     
 4. Klicken Sie auf **Neu**.
     
-5. Klicken Sie auf der Seite **"Neue Regionenroute"** auf **"Name",** und geben Sie dann einen Namen für die regionenübergreifende Netzwerkroute ein.
+5. Klicken Sie auf der Seite **"Neue Regionenroute** " auf **"Name** ", und geben Sie dann einen Namen für die regionenübergreifende Netzwerkroute ein.
     
 6. Klicken Sie auf **Netzwerkregion 1** und anschließend auf eine Netzwerkregion in der Liste, für die eine Route zu Netzwerkregion 2 erstellt werden soll.
     
 7. Klicken Sie auf **Netzwerkregion 2** und anschließend auf eine Netzwerkregion in der Liste, für die eine Route zu Netzwerkregion 1 erstellt werden soll.
     
-8. Klicken Sie neben dem Feld **"Netzwerkregionenverbindungen"** auf **"Hinzufügen",** und fügen Sie dann eine Netzwerkregionenverbindung hinzu, die in der regionenübergreifenden Netzwerkroute verwendet wird.
+8. Klicken Sie neben dem Feld **"Netzwerkregionenverbindungen**" auf "**Hinzufügen**", und fügen Sie dann eine Netzwerkregionenverbindung hinzu, die in der regionenübergreifenden Netzwerkroute verwendet wird.
     
     > [!NOTE]
     > Wenn Sie eine Route für zwei Netzwerkregionen erstellen, die nicht über eine direkte Netzwerkregionenverbindung verbunden sind, müssen alle erforderlichen Verbindungen zum Vervollständigen der Route hinzugefügt werden. Beispielsweise erfordert die regionenübergreifende Netzwerkroute "Nordamerika/APAC" zwei Netzwerkregionenverbindungen, da zwischen ihnen keine direkte Netzwerkregionenverbindung besteht. 

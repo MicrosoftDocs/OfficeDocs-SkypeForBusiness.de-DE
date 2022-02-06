@@ -1,31 +1,26 @@
 ---
-title: Senden einer Willkommens-E-Mail an Einwahlbenutzer in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Senden von Willkommens-E-Mails an Einwahlbenutzer in Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 5507827b-6f8d-4ea4-94e6-1cf72c1d38eb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Benutzer bei Einwahlkonferenzen in Skype for Business Server willkommen heißen.'
-ms.openlocfilehash: 672e386c223e2b5b9f872334634ac315c9e900e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848538"
 ---
-# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden einer Willkommens-E-Mail an Einwahlbenutzer in Skype for Business Server
+
+# <a name="send-welcome-email-to-dial-in-users-in-skype-for-business-server"></a>Senden von Willkommens-E-Mails an Einwahlbenutzer in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Benutzer bei Einwahlkonferenzen in Skype for Business Server willkommen heißen.
   
 Nachdem Sie Einwahlkonferenzen konfiguriert und getestet haben, ob sie ordnungsgemäß funktionieren, sollten Sie die anfänglichen persönlichen Identifikationsnummern (PINs) für Benutzer festlegen und die Benutzer über die Verfügbarkeit des Features informieren. Sie können einführende Anweisungen wie die anfängliche PIN und den Link zur Webseite für Einwahlkonferenzen Einstellungen hinzufügen. 
   
-In der Regel verwenden Sie das Cmdlet **"Set-CsClientPin",** um PINs zurückzusetzen, aber Sie können das Verfahren in diesem Thema verwenden, wenn Sie eine Einführungs-Willkommens-E-Mail mit den PIN-Informationen senden möchten. Wenn Sie die E-Mail nicht senden möchten, können Sie stattdessen **Set-CsClientPin** verwenden.
+In der Regel verwenden Sie das Cmdlet **"Set-CsClientPin** ", um PINs zurückzusetzen, aber Sie können das Verfahren in diesem Thema verwenden, wenn Sie eine Einführungs-Willkommens-E-Mail mit den PIN-Informationen senden möchten. Wenn Sie die E-Mail nicht senden möchten, können Sie stattdessen **Set-CsClientPin** verwenden.
   
 Sie können das **Set-CsPinSendCAWelcomeMail-Skript** verwenden, um die PIN festzulegen und eine Willkommens-E-Mail an einen einzelnen Benutzer zu senden. Standardmäßig setzt das Skript eine PIN nicht zurück, wenn sie bereits festgelegt ist. Sie können jedoch den Parameter "Force" verwenden, um das Zurücksetzen einer PIN zu erzwingen. Die E-Mail-Nachricht wird mithilfe von SMTP (Simple Mail Transfer Protocol) gesendet.
   
@@ -37,7 +32,7 @@ Sie können ein Skript erstellen, das das **Set-CsPinSendCAWelcomeMail-Skript** 
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" an.
     
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 3. Führen Sie den folgenden Befehl an der Eingabeaufforderung aus:
     
@@ -54,7 +49,7 @@ Sie können ein Skript erstellen, das das **Set-CsPinSendCAWelcomeMail-Skript** 
    [-Credential <SMTP server credentials used to send email with the specified From address>]
    ```
 
-**SmtpServer** Standardmäßig verwendet das Skript den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die **variable $PSEmailServer** nicht festgelegt ist, müssen Sie diesen Parameter angeben.
+**Smtpserver** Standardmäßig verwendet das Skript den Wert der reservierten Umgebungsvariablen **$PSEmailServer** für diesen Parameter. Wenn die **variable $PSEmailServer** nicht festgelegt ist, müssen Sie diesen Parameter angeben.
     
 **Anmeldeinformationen** Standardmäßig verwendet das Skript die Anmeldeinformationen des aktuellen Benutzers. Wenn der aktuelle Benutzer nicht über die Berechtigung zum Senden von E-Mails im Namen der angegebenen Absenderadresse verfügt, müssen Sie diesen Parameter angeben. Als allgemeine Regel geben Sie diesen Parameter an, wenn Sie Ihre E-Mail-Adresse nicht als Absenderadresse angeben.
     

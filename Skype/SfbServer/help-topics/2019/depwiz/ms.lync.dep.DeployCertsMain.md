@@ -1,27 +1,22 @@
 ---
 title: Zertifikat-Assistent
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertsMain
+  - ms.lync.dep.DeployCertsMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 6ab661d7-5741-4cad-bbe4-62cf862ded85
-ROBOTS: NOINDEX, NOFOLLOW
-description: Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernen und anzeigen. Sie müssen als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Um ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anzufordern, müssen Sie bestätigen, welche zusätzlichen Gruppenmitgliedschaften Erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle Ihrer PKI anzufordern.
-ms.openlocfilehash: dda1d93544ac1d7ef5599b9b2f5bf9c860a3b303
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849338"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernen und anzeigen. Sie müssen als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Um ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anzufordern, müssen Sie bestätigen, welche zusätzlichen Gruppenmitgliedschaften Erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle Ihrer PKI anzufordern.'
 ---
+
 # <a name="certificate-wizard"></a>Zertifikat-Assistent
  
 Im Zertifikat-Assistenten können Sie Zertifikate anfordern, zuweisen, entfernen und anzeigen. Sie müssen als Mitglied der Gruppe "RTCUniversalServerAdmins" angemeldet sein. Zum Anfordern eines Zertifikats von einer öffentlichen Zertifizierungsstelle sind keine besonderen Gruppenmitgliedschaften erforderlich. Um ein Zertifikat von der Public Key-Infrastruktur (PKI) Ihrer Organisation anzufordern, müssen Sie bestätigen, welche zusätzlichen Gruppenmitgliedschaften Erforderlich sind. Während der Anforderungsaufgabe können Sie alternative Anmeldeinformationen eingeben, die verwendet werden, um das Zertifikat von der ausstellenden Zertifizierungsstelle Ihrer PKI anzufordern.
