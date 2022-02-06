@@ -1,24 +1,19 @@
 ---
 title: Anpassen der Mac-Clientumgebung in Skype for Business
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.reviewer: PhillipGarding
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: d1d9cfec-e923-4d02-a306-ee40a9114cb8
-description: In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie sie von außerhalb der App bearbeitet werden.
-ms.openlocfilehash: 909756b25f9ad3ee17536f24a4143b5b72180918
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838347"
+description: 'In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie sie von außerhalb der App bearbeitet werden.'
 ---
+
 # <a name="customize-the-mac-client-experience-in-skype-for-business"></a>Anpassen der Mac-Clientumgebung in Skype for Business
  
 In diesem Artikel werden die Clienteinstellungen und -standardwerte beschrieben, die für die Skype for Business auf dem Mac-Client verfügbar sind, und wie sie von außerhalb der App bearbeitet werden.
@@ -37,10 +32,10 @@ Um diese Einstellungen festzulegen, rufen Sie eine Terminalaufforderung auf dem 
 | Key | Typ | Wert | Beschreibung |
 |:-----|:-----|:-----|:-----|
 |autoDetectAutoDicoveryURLs    |Boolescher Wert    |0 = manuelle Serverkonfiguration  <br/> 1 = automatische Servererkennung (Standard)    |Geben Sie an, wie Skype for Business den Transport und server identifiziert, der während der Anmeldung verwendet werden soll. Wenn Sie diese Richtlinieneinstellung aktivieren, müssen Sie **internalAutoDiscoveryURL** und **externalAutoDiscoveryURL** angeben.   |
-|internalAutoDiscoveryURL    |Zeichenfolge    |Vollständige AutoErmittlungs-URL    |Interne AutoErmittlungs-URL    |
+|internalAutoDiscoveryURL    |String    |Vollständige AutoErmittlungs-URL    |Interne AutoErmittlungs-URL    |
 |externalAutoDiscoveryURL    |Zeichenfolge    |Vollständige AutoErmittlungs-URL    |Externe AutoErmittlungs-URL    |
 |httpProxyDomain    |Zeichenfolge    ||HTTP-Proxydomäne    |
-|httpProxyUserName    |String    ||HTTP-Proxybenutzername    |
+|httpProxyUserName    |Zeichenfolge    ||HTTP-Proxybenutzername    |
 |httpProxyPassword    |Zeichenfolge    ||HTTP-Proxykennwort    |
 |trustedDomainList    |Array    ||Liste der vertrauenswürdigen Domänen für HTTP-Umleitungen.    |
 |autoAcceptTimeout    |Zahl    |300 (Standard)    |Timeout für automatisches Annehmen für Benutzer ohne serverseitigen Unterhaltungsverlauf.    |
@@ -51,7 +46,7 @@ Um diese Einstellungen festzulegen, rufen Sie eine Terminalaufforderung auf dem 
    
 ### <a name="usage-examples"></a>Verwendungsbeispiele
 
-Um der Liste der vertrauenswürdigen Domänen eine einzelne Domäne (Contoso.com) hinzuzufügen, verwenden Sie den Schlüssel "trustedDomainList" wie dargestellt:
+Um der Liste der vertrauenswürdigen Domänen eine einzelne Domäne (Contoso.com) hinzuzufügen, verwenden Sie den Schlüssel "trustedDomainList" wie folgt:
   
 Defaults write com.microsoft.SkypeForBusiness trustedDomainList -array-add "Contoso.com"
   

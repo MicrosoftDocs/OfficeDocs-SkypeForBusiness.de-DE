@@ -1,42 +1,37 @@
 ---
 title: Weitere Informationen zum Portieren
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: tonysmit,jastark
+ms.reviewer: 'tonysmit,jastark'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-voice
+  - M365-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- CSH
+  - CSH
 ms.custom: ms.teamsadmincenter.voice.phonenumbers.porting.moreinfo
-description: Hier erhalten Sie die Anleitungen, die Sie zum Portieren Ihrer Telefonnummern zu Microsoft Teams.
-ms.openlocfilehash: 362f7865f820e91e911791685293b7ca9c1786cd
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848178"
+description: 'Hier erhalten Sie die Anleitungen, die Sie zum Portieren Ihrer Telefonnummern zu Microsoft Teams.'
 ---
+
 # <a name="more-information-about-porting"></a>Weitere Informationen zum Portieren
 
 Hier finden Sie weitere Informationen zum Portieren Ihrer Telefonnummern zu Microsoft Teams.
 
-Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams.](transfer-phone-numbers-to-teams.md)
+Eine vollständige schrittweise Anleitung finden Sie unter [Übertragen von Telefonnummern an Teams](transfer-phone-numbers-to-teams.md).
 
-Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an den [TNS Service Desk.](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)
+Wenn Sie Hilfe benötigen oder weitere Telefonnummern benötigen, wenden Sie sich an den [TNS Service Desk](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md).
 
 ## <a name="port-order-account-information"></a>Kontoinformationen für Portierungsauftrag
 
-Wenn Sie sich  auf der Seite Kontoinformationen hinzufügen des Portierungs-Assistenten zum Übermitteln eines Portierungsauftrags begnen, geben Sie fast alle Informationen ein, die Sie im LOA bereitstellen würden, darunter:
+Wenn Sie sich auf der Seite  Kontoinformationen hinzufügen des Portierungs-Assistenten zum Übermitteln eines Portierungsauftrags begnen, geben Sie fast alle Informationen ein, die Sie im LOA bereitstellen würden, darunter:
   
 - Kontonummer für den Dienstanbieter oder Netzbetreiber
     

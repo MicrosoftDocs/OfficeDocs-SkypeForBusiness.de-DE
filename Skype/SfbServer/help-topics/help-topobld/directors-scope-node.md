@@ -1,27 +1,22 @@
 ---
 title: Director – Bereichsknoten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.DirectorsScopeNode
+  - ms.lync.tb.DirectorsScopeNode
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0c725237-2e43-4ba2-a7ad-dce0057d265f
 description: 'Unterhalb des Knotens Director-Pools werden die Director-Pools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 48a5db029258a2c2d3ce74672fc63ac127c47931
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829069"
 ---
+
 # <a name="directors-scope-node"></a>Directors – Bereichsknoten
  
 Unterhalb des Knotens **Director-Pools** werden die Director-Pools in Ihrer Topologie aufgeführt. Folgende Möglichkeiten stehen zur Verfügung:

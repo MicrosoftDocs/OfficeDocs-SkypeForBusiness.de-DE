@@ -1,29 +1,24 @@
 ---
 title: Umweltanforderungen für Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/15/2018
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 4812c444-2546-48d7-9ca7-b71fce508ed8
 description: 'Zusammenfassung: Konfigurieren Sie Ihre Nicht-Serveranforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Funktionen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, Zertifikaten und Dateifreigaben.'
-ms.openlocfilehash: 1d6e43e9ca65af85c37f262900805d9e0d3b8bfe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834983"
 ---
+
 # <a name="environmental-requirements-for-skype-for-business-server-2015"></a>Umweltanforderungen für Skype for Business Server 2015
  
 **Zusammenfassung:** Konfigurieren Sie Ihre Nicht-Serveranforderungen für Skype for Business Server 2015. Es gibt eine Vielzahl von Funktionen, die Sie vor der Bereitstellung konfigurieren möchten, einschließlich Active Directory, DNS, Zertifikaten und Dateifreigaben.
@@ -57,7 +52,7 @@ Während viele Konfigurationsdaten für Server und Dienste im zentralen Verwaltu
 
 Welches Domänencontroller-Betriebssystem kann also verwendet werden? Wir haben die folgende Liste:
 
-- Windows Server 2019 (You must have Skype for Business Server 2015 Cumulative Update 5 or later)
+- Windows Server 2019 (Sie müssen über das kumulative Update 5 oder höher Skype for Business Server 2015 verfügen)
   
 - Windows Server 2016
     
@@ -71,7 +66,7 @@ Welches Domänencontroller-Betriebssystem kann also verwendet werden? Wir haben 
     
 Die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2015 bereitstellen, und die Gesamtstrukturfunktionsebene jeder Gesamtstruktur, in der Sie Skype for Business Server 2015 bereitstellen, müssen eine der folgenden Sein:
 
-- Windows Server 2019 (You must have Skype for Business Server 2015 Cumulative Update 5 or later)
+- Windows Server 2019 (Sie müssen über das kumulative Update 5 oder höher Skype for Business Server 2015 verfügen)
   
 - Windows Server 2016
     
@@ -85,9 +80,9 @@ Die Domänenfunktionsebene jeder Domäne, in der Sie Skype for Business Server 2
     
 - Windows Server 2003
     
-Können Sie in diesen Umgebungen schreibgeschützte Domänencontroller verwenden? Stellen Sie sicher, solange auch beschreibbare Domänencontroller am gleichen Standort wie die Skype for Business Server verfügbar sind.
+Können Sie in diesen Umgebungen schreibgeschützte Domänencontroller verwenden? Sicher, solange auch beschreibbare Domänencontroller am gleichen Standort wie die Skype for Business Server verfügbar sind.
   
-Nun ist es wichtig zu wissen, dass Skype for Business Server 2015 keine Domänen mit einzelnen Bezeichnungen unterstützt. Welche sind das? Wenn Sie eine Stammdomäne mit der Bezeichnung "contoso.local" haben, ist dies in Ordnung. Wenn Sie über eine Stammdomäne verfügen, die nur als lokal bezeichnet wird, funktioniert dies nicht und wird daher nicht unterstützt. Etwas mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us)geschrieben.
+Jetzt ist es wichtig zu wissen, dass Skype for Business Server 2015 keine Domänen mit nur einer Bezeichnung unterstützt. Welche sind das? Wenn Sie eine Stammdomäne mit der Bezeichnung "contoso.local" haben, ist dies in Ordnung. Wenn Sie über eine Stammdomäne verfügen, die nur als lokal bezeichnet wird, funktioniert dies nicht und wird daher nicht unterstützt. Etwas mehr dazu wurde [in diesem Knowledge Base-Artikel](https://support.microsoft.com/kb/300684/en-us) geschrieben.
   
 Skype for Business Server 2015 unterstützt auch das Umbenennen von Domänen nicht. Wenn Sie dies wirklich tun müssen, müssen Sie Skype for Business Server 2015 deinstallieren, die Domäne umbenennen und dann Skype for Business Server 2015 neu installieren.
   
@@ -95,7 +90,7 @@ Schließlich können Sie es mit einer Domäne mit einer gesperrten AD DS-Umgebun
   
 ### <a name="ad-topologies"></a>AD-Topologien
 
-Skype for Business Server 2015 werden folgende Topologien unterstützt:
+Skype for Business Server 2015 unterstützten Topologien sind:
   
 - Einzelne Gesamtstruktur mit einzelner Domäne
     
@@ -111,7 +106,7 @@ Skype for Business Server 2015 werden folgende Topologien unterstützt:
     
 - Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit Skype for Business Online und Azure Active Directory Verbinden
     
-Es gibt Diagramme und Beschreibungen, mit denen Sie ermitteln können, welche Topologie Sie in Ihrer Umgebung haben oder was Sie vor der Installation von Skype for Business Server 2015 einrichten müssen. Um dies einfach zu halten, schließen wir auch einen Schlüssel ein:
+Wir haben Diagramme und Beschreibungen, die Ihnen helfen, zu bestimmen, welche Topologie Sie in Ihrer Umgebung haben oder was Sie vor der Installation von Skype for Business Server 2015 einrichten müssen. Um dies einfach zu halten, schließen wir auch einen Schlüssel ein:
   
 ![Dies ist ein Schlüssel für die Symbole, die für Skype for Business Topologiediagramme verwendet werden.](../../media/cc0dbc17-cf81-4b79-bf99-4614cc6828a0.png)
   
@@ -125,7 +120,7 @@ Es wird nicht einfacher als dies, es ist eine einzelne Domänengesamtstruktur, d
 
 ![Eine einzelne Gesamtstruktur, eine einzelne Struktur und ein Stummschaltungsdomänendiagramm.](../../media/63b9f0dd-6bac-4ba9-ae68-8be032d09dcb.png)
   
-Dieses Diagramm zeigt erneut eine einzelne Gesamtstruktur, hat aber auch eine oder mehrere untergeordnete Domänen (in diesem spezifischen Beispiel gibt es drei). Die Domäne, in der die Benutzer erstellt werden, unterscheidet sich möglicherweise von der Domäne, in der 2015 bereitgestellt wird Skype for Business Server. Warum machen Sie sich Gedanken darüber? Es ist wichtig zu beachten, dass bei der Bereitstellung eines Skype for Business Server Front-End-Pools alle Server in diesem Pool in einer einzigen Domäne sein müssen. Sie können domänenübergreifende Verwaltung über Skype for Business Server unterstützung von Windows universellen Administratorgruppen haben.
+Dieses Diagramm zeigt erneut eine einzelne Gesamtstruktur, hat aber auch eine oder mehrere untergeordnete Domänen (in diesem spezifischen Beispiel gibt es drei). Die Domäne, in der die Benutzer erstellt werden, unterscheidet sich möglicherweise von der Domäne Skype for Business Server, in der 2015 bereitgestellt wird. Warum machen Sie sich Gedanken darüber? Beachten Sie, dass bei der Bereitstellung eines Skype for Business Server Front-End-Pools alle Server in diesem Pool in einer einzigen Domäne sein müssen. Sie können domänenübergreifende Verwaltung über Skype for Business Server unterstützung von Windows universellen Administratorgruppen haben.
   
 Zurück zum obigen Diagramm können Sie sehen, dass Benutzer aus einer Domäne auf Skype for Business Server Pools aus derselben Domäne oder aus verschiedenen Domänen zugreifen können, auch wenn sich diese Benutzer in einer untergeordneten Domäne befinden.
   
@@ -141,11 +136,11 @@ Wie Sie sehen können, können Benutzer in derselben Domäne, derselben Struktur
 
 ![Mehrere Gesamtstrukturen in einem Topologiediagramm der zentralen Gesamtstruktur.](../../media/fec40746-4254-4c84-86b9-aad4a616ea2f.png)
   
-Skype for Business Server 2015 unterstützt mehrere Gesamtstrukturen, die in einer Topologie mit zentraler Gesamtstruktur konfiguriert sind. Wenn Sie nicht sicher sind, was Sie haben, verwendet die zentrale Gesamtstruktur in der Topologie Objekte darin, um Benutzer in den anderen Gesamtstrukturen darzustellen, und hostet Benutzerkonten für alle Benutzer in der Gesamtstruktur.
+Skype for Business Server 2015 unterstützt mehrere Gesamtstrukturen, die in einer zentralen Gesamtstrukturtopologie konfiguriert sind. Wenn Sie nicht sicher sind, was Sie haben, verwendet die zentrale Gesamtstruktur in der Topologie Objekte darin, um Benutzer in den anderen Gesamtstrukturen darzustellen, und hostet Benutzerkonten für alle Benutzer in der Gesamtstruktur.
   
 Wie funktioniert dies? Nun, ein Verzeichnissynchronisierungsprodukt (z. B. Forefront Identity Manager oder FIM) verwaltet die Benutzerkonten Ihrer Organisation während ihres bestehens. Wenn ein Konto erstellt oder aus einer Gesamtstruktur gelöscht wird, wird diese Änderung mit dem entsprechenden Kontakt in der zentralen Gesamtstruktur synchronisiert.
   
-Wenn Ihre AD-Infrastruktur direkt auf diese Topologie umstellen kann, ist dies möglicherweise nicht einfach, aber wenn Sie bereits dort sind oder ihre Gesamtstrukturinfrastruktur planen, kann dies eine gute Wahl sein. Sie können ihre Skype for Business Server 2015-Bereitstellung in einer einzigen Gesamtstruktur zentralisieren, während Benutzer das Vorhandensein anderer Benutzer in einer beliebigen Gesamtstruktur suchen, kommunizieren und anzeigen können. Alle Benutzerkontaktupdates werden automatisch mit Synchronisierungssoftware behandelt.
+Wenn Ihre AD-Infrastruktur direkt auf diese Topologie umstellen kann, ist dies möglicherweise nicht einfach, aber wenn Sie bereits dort sind oder ihre Gesamtstrukturinfrastruktur planen, kann dies eine gute Wahl sein. Sie können Ihre Skype for Business Server 2015-Bereitstellung in einer einzigen Gesamtstruktur zentralisieren, während Benutzer das Vorhandensein anderer Benutzer in einer beliebigen Gesamtstruktur suchen, kommunizieren und anzeigen können. Alle Benutzerkontaktupdates werden automatisch mit Synchronisierungssoftware behandelt.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology"></a>Mehrere Gesamtstrukturen in einer Skype for Business Ressourcengesamtstrukturtopologie
 <a name="BKMK_multipleforestopology"> </a>
@@ -156,34 +151,34 @@ Eine Topologie der Ressourcengesamtstruktur wird ebenfalls unterstützt. Hier is
   
 Beachten Sie, dass Exchange Server in derselben Ressourcengesamtstruktur wie Skype for Business Server oder in einer anderen Gesamtstruktur bereitgestellt werden können.
   
-Um Skype for Business Server 2015 in diesem Topologietyp bereitzustellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen (wenn sich Microsoft Exchange Server bereits in der Umgebung befindet, ist dies möglicherweise für Sie der Fall). Anschließend benötigen Sie ein Verzeichnissynchronisierungstool (z. B. Forefront Identity Manager oder FIM), um Benutzerkonten während ihres Lebenszyklus zu verwalten.
+Um Skype for Business Server 2015 in dieser Topologie bereitzustellen, erstellen Sie ein deaktiviertes Benutzerobjekt in der Ressourcengesamtstruktur für jedes Benutzerkonto in den Benutzergesamtstrukturen (wenn sich Microsoft Exchange Server bereits in der Umgebung befindet, ist dies möglicherweise für Sie der Fall). Anschließend benötigen Sie ein Verzeichnissynchronisierungstool (z. B. Forefront Identity Manager oder FIM), um Benutzerkonten während ihres Lebenszyklus zu verwalten.
   
 #### <a name="multiple-forests-in-a-skype-for-business-resource-forest-topology-with-exchange-online"></a>Mehrere Gesamtstrukturen in einer Skype for Business Ressourcengesamtstrukturtopologie mit Exchange Online
 <a name="BKMK_multipleforestopology"> </a>
 
-Diese Topologie ähnelt der Topologie, die in [mehreren Gesamtstrukturen in einer Skype for Business Topologie der Ressourcengesamtstruktur](environmental-requirements.md#BKMK_multipleforestopology)beschrieben ist.
+Diese Topologie ähnelt der Topologie, die in [mehreren Gesamtstrukturen in einer Skype for Business Topologie der Ressourcengesamtstruktur](environmental-requirements.md#BKMK_multipleforestopology) beschrieben ist.
   
-In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skype for Business Server wird in einer dedizierten Ressourcengesamtstruktur bereitgestellt. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder in einer anderen Gesamtstruktur bereitgestellt und für eine Hybridbereitstellung mit Exchange Online konfiguriert werden, oder E-Mail-Dienste können ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden. Für diese Topologie ist kein Diagramm verfügbar.
+In dieser Topologie gibt es eine oder mehrere Benutzergesamtstrukturen, und Skype for Business Server in einer dedizierten Ressourcengesamtstruktur bereitgestellt wird. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder einer anderen Gesamtstruktur bereitgestellt und für eine Hybridbereitstellung mit Exchange Online konfiguriert werden, oder E-Mail-Dienste können ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden. Für diese Topologie ist kein Diagramm verfügbar.
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-skype-for-business-online-and-azure-active-directory-connect"></a>Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit Skype for Business Online und Azure Active Directory Verbinden
 <a name="BKMK_multipleforestopology"> </a>
 
-![Zeigt zwei AD-Gesamtstrukturen, eine Benutzergesamtstruktur und eine Ressourcengesamtstruktur an. Die beiden Gesamtstrukturen haben eine Vertrauensstellung. Sie werden mit Microsoft 365 oder Office 365 mithilfe von Azure AD Verbinden synchronisiert. Alle Benutzer sind für Skype for Business über Microsoft 365 oder Office 365 aktiviert.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
+![Zeigt zwei AD-Gesamtstrukturen, eine Benutzergesamtstruktur und eine Ressourcengesamtstruktur an. Die beiden Gesamtstrukturen haben eine Vertrauensstellung. Sie werden mit Microsoft 365 oder Office 365 mit Azure AD Verbinden synchronisiert. Alle Benutzer sind für Skype for Business über Microsoft 365 oder Office 365 aktiviert.](../../media/6d54558d-8786-4ebf-90f6-55ae3fdb5ae7.jpg)
   
 In diesem Szenario gibt es mehrere lokale Gesamtstrukturen mit einer Ressourcengesamtstrukturtopologie. Es besteht eine voll vertrauenswürdige Beziehung zwischen den Active Directory-Gesamtstrukturen. Das Azure Active Directory Verbinden Tool wird verwendet, um Konten zwischen den lokalen Benutzergesamtstrukturen und Microsoft 365 oder Office 365 zu synchronisieren.
   
- Die Organisation verfügt auch über Microsoft 365 oder Office 365 und verwendet [Azure Active Directory Verbinden,](/previous-versions/azure/azure-services/dn832695(v=azure.100)) um ihre lokalen Konten mit Microsoft 365 oder Office 365 zu synchronisieren. Benutzer, die für Skype for Business aktiviert sind, werden über Microsoft 365 oder Office 365 und Skype for Business Online aktiviert. Skype for Business Server wird nicht lokal bereitgestellt.
+ Die Organisation verfügt auch über Microsoft 365 oder Office 365 und verwendet [Azure Active Directory Verbinden](/previous-versions/azure/azure-services/dn832695(v=azure.100)), um ihre lokalen Konten mit Microsoft 365 oder Office 365 zu synchronisieren. Benutzer, die für Skype for Business aktiviert sind, werden über Microsoft 365 oder Office 365 und Skype for Business Online aktiviert. Skype for Business Server wird nicht lokal bereitgestellt.
   
 Die Single Sign-On-Authentifizierung wird von einer Active Directory-Verbunddienste-Farm in der Benutzergesamtstruktur bereitgestellt.
   
-In diesem Szenario wird die Bereitstellung Exchange lokalen Exchange Online, einer Hybridlösung Exchange oder die Bereitstellung Exchange unterstützt. (Das Diagramm zeigt nur Exchange lokalen, aber die anderen Exchange Lösungen werden ebenfalls vollständig unterstützt.)
+In diesem Szenario wird die Bereitstellung Exchange lokalen, Exchange Online, einer hybriden Exchange-Lösung oder die Bereitstellung Exchange unterstützt. (Das Diagramm zeigt nur Exchange lokal, aber die anderen Exchange Lösungen werden ebenfalls vollständig unterstützt.)
   
 #### <a name="multiple-forests-in-a-resource-forest-topology-with-hybrid-skype-for-business"></a>Mehrere Gesamtstrukturen in einer Ressourcengesamtstrukturtopologie mit hybrider Skype for Business
 <a name="BKMK_multipleforestopology"> </a>
 
 In diesem Szenario gibt es eine oder mehrere lokale Benutzergesamtstrukturen, und Skype for Business wird in einer dedizierten Ressourcengesamtstruktur bereitgestellt und für den Hybridmodus mit Skype for Business Online konfiguriert. Exchange Server können lokal in derselben Ressourcengesamtstruktur oder in einer anderen Gesamtstruktur bereitgestellt und für hybride Exchange Online konfiguriert werden. Alternativ können E-Mail-Dienste ausschließlich von Exchange Online für die lokalen Konten bereitgestellt werden.
   
-Weitere Informationen finden Sie unter Konfigurieren einer Umgebung mit [mehreren Gesamtstrukturen für hybride Skype for Business.](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json)
+Weitere Informationen finden Sie unter [Konfigurieren einer Umgebung mit mehreren Gesamtstrukturen für hybride Skype for Business](../../../SfbHybrid/hybrid/configure-a-multi-forest-environment-for-hybrid.md?bc=%2fSkypeForBusiness%2fbreadcrumb%2ftoc.json&toc=%2fSkypeForBusiness%2ftoc.json).
   
 ## <a name="domain-name-system-dns"></a>Domain Name System (DNS)
 <a name="DNS"> </a>
@@ -212,14 +207,14 @@ Dies scheint für jeden Computer logisch zu sein, der bereits einer Domäne beig
   
 Und verwenden Sie auf jeden Fall keine Unicode-Zeichen oder Unterstriche. Standardzeichen (A-Z, a-z, 0-9 und Bindestriche) sind die Zeichen, die von externem DNS und öffentlichen Zertifizierungsstellen unterstützt werden (Sie müssen dem SN im Zertifikat FQDNs zuweisen, vergessen Sie nicht), daher sparen Sie sich eine Menge Mühe, wenn Sie den Namen in diesem Sinne verwenden.
   
-Weitere Informationen zu DNS-Anforderungen für Netzwerke finden Sie im Abschnitt ["Networking"](../../plan-your-deployment/network-requirements/network-requirements.md) in unserer Planungsdokumentation.
+Weitere Informationen zu DNS-Anforderungen für Netzwerke finden Sie im Abschnitt ["Networking](../../plan-your-deployment/network-requirements/network-requirements.md) " in unserer Planungsdokumentation.
   
 ## <a name="certificates"></a>Zertifikate
 <a name="Certs"> </a>
 
-Eines der wichtigsten Dinge, die Sie vor der Bereitstellung tun können, ist sicherzustellen, dass Ihre Zertifikate in ordnung sind. Skype for Business Server 2015 benötigt eine Public Key-Infrastruktur (PKI) für TLS-Verbindungen (Transport Layer Security) und MTLS-Verbindungen (Mutual Transport Layer Security). Um auf standardisierte Weise sicher zu kommunizieren, verwendet Skype for Business Server Zertifikate, die von Zertifizierungsstellen ausgestellt wurden.
+Eines der wichtigsten Dinge, die Sie vor der Bereitstellung tun können, ist sicherzustellen, dass Ihre Zertifikate in ordnung sind. Skype for Business Server 2015 benötigt eine Public Key-Infrastruktur (PKI) für TLS-Verbindungen (Transport Layer Security) und MTLS-Verbindungen (Mutual Transport Layer Security). Um auf standardisierte Weise sicher zu kommunizieren, verwendet Skype for Business Server Zertifikate, die von Zertifizierungsstellen (Certificate Authorities, CAs) ausgestellt wurden.
   
-Dies sind einige der Dinge, für die Skype for Business Server 2015 Zertifikate verwendet:
+Dies sind einige der Elemente, für die Skype for Business Server 2015 Zertifikate verwendet:
   
 - TLS-Verbindungen zwischen Clients und Servern
     
@@ -239,7 +234,7 @@ Die Zertifikatplanung ist daher ein Muss. Sehen wir uns nun eine Liste einiger D
     
 - Alle Serverzertifikate müssen einen Zertifikatsperrlisten-Verteilungspunkt unterstützen.
     
-- Alle Zertifikate müssen mithilfe eines Signaturalgorithmus signiert werden, der vom Betriebssystem unterstützt wird. Skype for Business Server 2015 unterstützt die SUITE SHA-1 und SHA-2 der Digestgrößen (224, 256, 384 und 512 Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen.
+- Alle Zertifikate müssen mithilfe eines Signaturalgorithmus signiert werden, der vom Betriebssystem unterstützt wird. Skype for Business Server 2015 unterstützt die Sha-1- und SHA-2-Suite von Digestgrößen (224, 256, 384 und 512-Bit) und erfüllt oder überschreitet die Betriebssystemanforderungen.
     
 - Die automatische Registrierung wird für interne Server unterstützt, die Skype for Business Server 2015 ausgeführt werden.
     
@@ -283,24 +278,24 @@ Zertifikate für Standard Edition Server:
 |**Zertifikat**|**Antragstellername/allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|**Kommentare**|
 |:-----|:-----|:-----|:-----|:-----|
 |Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |Auf einem Standard Edition-Server entspricht der Server-FQDN dem Pool-FQDN.  <br/> Der Assistent erkennt alle SIP-Domänen, die Sie während des Setups angegeben haben, und fügt sie automatisch als alternative Antragstellernamen hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
-|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner Web-FQDN (identisch mit dem FQDN des Servers)  <br/> AND  <br/> • Erfüllen einfacher URLs  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN= \* .contoso.com  <br/> |Sie können den internen Web-FQDN im Topologie-Generator nicht überschreiben.  <br/> Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als SANs einschließen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
-|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer Web-FQDN  <br/> AND  <br/> • Einfache EINWAHL-URL  <br/> • Besprechung einfacher URLs pro SIP-Domäne  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als alternative Antragstellernamen angeben.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner Web-FQDN (identisch mit dem FQDN des Servers)  <br/> AND  <br/> • Erfüllen einfacher URLs  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=se01.contoso.com; SAN=se01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=se01.contoso.com; SAN=se01.contoso.com; SAN=\*.contoso.com  <br/> |Sie können den internen Web-FQDN im Topologie-Generator nicht überschreiben.  <br/> Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als SANs einschließen.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer Web-FQDN  <br/> AND  <br/> • Einfache EINWAHL-URL  <br/> • Besprechung einfacher URLs pro SIP-Domäne  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=se01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als alternative Antragstellernamen angeben.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
    
 Zertifikate für Front-End-Server in einem Enterprise Edition Front-End-Pool:
   
 |**Zertifikat**|**Antragstellername/allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|**Kommentare**|
 |:-----|:-----|:-----|:-----|:-----|
 |Standard  <br/> |FQDN des Pools  <br/> |FQDN des Pools und FQDN des Servers  <br/> Wenn mehrere SIP-Domänen vorhanden sind und die automatische Clientkonfiguration aktiviert wurde, erkennt der Zertifikat-Assistent die unterstützten FQDNs für SIP-Domänen und fügt diese hinzu.  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich (Domain Name System) festgelegt ist, benötigen Sie auch Einträge für "sip.sipDomäne" (für jede vorhandene SIP-Domäne).  <br/> |SN=eepool.contoso.com; SAN=eepool.contoso.com; SAN=ee01.contoso.com  <br/> Wenn es sich bei diesem Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |Der Assistent erkennt alle SIP-Domänen, die Sie während der Installation angegeben haben, und fügt sie dem alternativen Antragstellernamen (SAN) automatisch hinzu.  <br/> Sie können dieses Zertifikat auch für die Server-zu-Server-Authentifizierung verwenden.  <br/> |
-|Web, intern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Interner Web-FQDN (der NICHT mit dem FQDN des Servers identisch ist)  <br/> • Server-FQDN  <br/> • Skype for Business Pool-FQDN  <br/> AND  <br/> • Erfüllen einfacher URLs  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN= \* .contoso.com  <br/> |Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als alternative Antragstellernamen angeben.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
-|Web, extern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Externer Web-FQDN  <br/> AND  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN= \* .contoso.com  <br/> |Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als alternative Antragstellernamen angeben.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, intern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Interner Web-FQDN (der NICHT mit dem FQDN des Servers identisch ist)  <br/> • Server-FQDN  <br/> • Skype for Business Pool-FQDN  <br/> AND  <br/> • Erfüllen einfacher URLs  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=ee01.contoso.com; SAN=ee01.contoso.com; SAN=\*.contoso.com  <br/> |Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als alternative Antragstellernamen angeben.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
+|Web, extern  <br/> |FQDN des Pools  <br/> |Jeder der folgenden:  <br/> • Externer Web-FQDN  <br/> AND  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=ee01.contoso.com; SAN=webcon01.contoso.com; SAN=\*.contoso.com  <br/> |Wenn Sie über mehrere einfache Besprechungs-URLs verfügen, müssen Sie alle als alternative Antragstellernamen angeben.  <br/> Platzhaltereinträge werden für die Einträge für einfache URLs unterstützt.  <br/> |
    
 Zertifikate für den Director:
   
 |**Zertifikat**|**Antragstellername/allgemeiner Name**|**Alternativer Antragstellername**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
 |Standard  <br/> |Directorpool  <br/> |FQDN des Director, FQDN des Directorpools.  <br/> Wenn dieser Pool der Server für die automatische Anmeldung für Clients ist und in der Gruppenrichtlinie ein strenger DNS-Abgleich erforderlich ist, benötigen Sie auch Einträge für sip.sipdomain (für jede SIP-Domäne, die Sie haben).  <br/> |pool.contoso.com; SAN=dir01.contoso.com  <br/> Wenn es sich bei diesem Director-Pool um den Server für die automatische Anmeldung für Clients handelt und in den Gruppenrichtlinien der exakte DNS-Abgleich festgelegt ist, benötigen Sie auch "SAN=sip.contoso.com; SAN=sip.fabrikam.com".  <br/> |
-|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner Web-FQDN (identisch mit dem FQDN des Servers)  <br/> • Server-FQDN  <br/> • Skype for Business Pool-FQDN  <br/> AND  <br/> • Erfüllen einfacher URLs  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN= \* .contoso.com  <br/> |
-|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer Web-FQDN  <br/> AND  <br/> • Besprechung einfacher URLs pro SIP-Domäne  <br/> • Einfache EINWAHL-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |Der externe Web-FQDN des Director muss sich vom Front-End-Pool oder Front-End-Server unterscheiden.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN= \* .contoso.com  <br/> |
+|Web, intern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Interner Web-FQDN (identisch mit dem FQDN des Servers)  <br/> • Server-FQDN  <br/> • Skype for Business Pool-FQDN  <br/> AND  <br/> • Erfüllen einfacher URLs  <br/> • Einfache EINWAHL-URL  <br/> • Einfache ADMIN-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |SN=dir01.contoso.com; SAN=dir01.contoso.com; SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com; SAN=admin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=dir01.contoso.com; SAN=dir01.contoso.com SAN=\*.contoso.com  <br/> |
+|Web, extern  <br/> |FQDN des Servers  <br/> |Jeder der folgenden:  <br/> • Externer Web-FQDN  <br/> AND  <br/> • Besprechung einfacher URLs pro SIP-Domäne  <br/> • Einfache EINWAHL-URL  <br/> OR  <br/> • Ein Platzhaltereintrag für die einfachen URLs  <br/> |Der externe Web-FQDN des Director muss sich vom Front-End-Pool oder Front-End-Server unterscheiden.  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=meet.contoso.com; SAN=meet.fabrikam.com; SAN=dialin.contoso.com  <br/> Mit einem Platzhalterzertifikat:  <br/> SN=dir01.contoso.com; SAN=directorwebcon01.contoso.com SAN=\*.contoso.com  <br/> |
    
 Zertifikate für eigenständigen Vermittlungsserver:
   
@@ -316,7 +311,7 @@ Zertifikate für Survivable Branch Appliance:
    
 ### <a name="certificates-for-your-persistent-chat-server"></a>Zertifikate für Ihren Server für beständigen Chat
 
-Bei der Installation des Servers für beständigen Chat benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wurde wie das von Ihren internen Servern Skype for Business Server 2015. Dies muss für jeden Server ausgeführt werden, auf dem Webdienste für beständigen Chat für Datei Hochladen/Herunterladen ausgeführt werden. Es wird dringend empfohlen, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, und wenn Es sich bei Ihrer Zertifizierungsstelle um externe Zertifikate handelt (dies kann etwas Zeit in Anspruch nehmen, bis sie ausgestellt wurde).
+Bei der Installation des Servers für beständigen Chat benötigen Sie ein Zertifikat, das von derselben Zertifizierungsstelle ausgestellt wurde wie das von Ihren Skype for Business Server 2015-internen Servern. Dies muss für jeden Server ausgeführt werden, auf dem Webdienste für beständigen Chat für Datei Hochladen/Herunterladen ausgeführt werden. Es wird dringend empfohlen, dass Sie über die erforderlichen Zertifikate verfügen, bevor Sie mit der Installation des beständigen Chats beginnen, und wenn Es sich bei Ihrer Zertifizierungsstelle um externe Zertifikate handelt (dies kann etwas Zeit in Anspruch nehmen, bis sie ausgestellt wurde).
   
 ### <a name="certificates-for-external-user-access-edge"></a>Zertifikate für externen Benutzerzugriff (Edge)
 
@@ -338,7 +333,7 @@ Welche Zertifikate? Hier benötigen Sie SAN-Namen für die automatische Erkennun
     
 Wir werden die Einzelheiten in jeder tabelle unten auflisten.
   
-Jetzt ist hier eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2015 bereitgestellt, ohne Mobilität bereitstellen zu wollen, und dies kommt in die Reihe, wenn Sie bereits Zertifikate in Ihrer Umgebung haben. Die erneute Bereitstellung über eine interne Zertifizierungsstelle ist in der Regel ziemlich einfach, aber mit öffentlichen Zertifikaten von einer öffentlichen Zertifizierungsstelle kann dies etwas teurer sein.
+An dieser Stelle ist eine kleine Vorplanung gut, aber manchmal haben Sie Skype for Business Server 2015 bereitgestellt, ohne Mobilität bereitstellen zu wollen, und dies kommt in die Reihe, wenn Sie bereits Zertifikate in Ihrer Umgebung haben. Die erneute Bereitstellung über eine interne Zertifizierungsstelle ist in der Regel ziemlich einfach, aber mit öffentlichen Zertifikaten von einer öffentlichen Zertifizierungsstelle kann dies etwas teurer sein.
   
 Wenn Sie sich dies ansehen und viele SIP-Domänen haben (was das Hinzufügen von SANS teurer machen würde), können Sie Ihren Reverseproxy so konfigurieren, dass er HTTP für die ursprüngliche AutoErmittlungsdienstanforderung verwendet, anstatt HTTPS (die Standardkonfiguration) zu verwenden. Weitere Informationen hierzu finden Sie im Thema "Planung für Mobilität".
   
@@ -349,7 +344,7 @@ Zertifikatanforderungen für Directorpool und Front-End-Pool:
 |Url des internen AutoErmittlungsdiensts  <br/> |SAN=lyncdiscoverinternal.\<sipdomain\>  <br/> |
 |URL des externen AutoErmittlungsdiensts  <br/> |SAN=lyncdiscover.\<sipdomain\>  <br/> |
    
-Alternativ können Sie SAN= \* verwenden.\<sipdomain\>
+Alternativ können Sie SAN=\*verwenden.\<sipdomain\>
   
 Zertifikatanforderungen für Reverseproxys (öffentliche Zertifizierungsstelle):
   
@@ -367,9 +362,9 @@ Dieser SAN muss dem Zertifikat zugewiesen werden, das dem SSL-Listener auf Ihrem
 
 Skype for Business Server 2015 kann die gleiche Dateifreigabe für den gesamten Dateispeicher verwenden. Beachten Sie Dabei Folgendes:
   
-- Eine Dateifreigabe muss sich entweder auf direct Attached Storage (DAS) oder einem Speicherbereichsnetzwerk (SAN) befinden. Dazu gehören das dfs (Distributed File System) und ein redundantes Array unabhängiger Datenträger (RAID) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite.](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11))
+- Eine Dateifreigabe muss sich entweder auf direct Attached Storage (DAS) oder einem Speicherbereichsnetzwerk (SAN) befinden. Dazu gehören das dfs (Distributed File System) und ein redundantes Array unabhängiger Datenträger (RAID) für Dateispeicher. Weitere Informationen zu DFS für Windows Server 2012 finden Sie auf [dieser DFS-Seite](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127250(v=ws.11)).
     
-- Wir empfehlen einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 clustern. Windows Server 2008 R2 ist auch akzeptabel. Warum die neuesten Windows? Ältere Versionen verfügen möglicherweise nicht über die richtigen Berechtigungen, um alle Features zu aktivieren. Sie können den Clusteradministrator zum Erstellen der Dateifreigaben verwenden. Dieser Artikel zum Erstellen von [Dateifreigaben in einem Clusterartikel](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) hilft Ihnen bei diesen Details.
+- Wir empfehlen einen freigegebenen Cluster für die Dateifreigabe. Wenn Sie eine verwenden, sollten Sie Windows Server 2012 oder Windows Server 2012 R2 clustern. Windows Server 2008 R2 ist auch akzeptabel. Warum die neuesten Windows? Ältere Versionen verfügen möglicherweise nicht über die richtigen Berechtigungen, um alle Features zu aktivieren. Sie können den Clusteradministrator zum Erstellen der Dateifreigaben verwenden. Dieser Artikel [zum Erstellen von Dateifreigaben in einem Clusterartikel](https://support.microsoft.com/help/224967/how-to-create-file-shares-on-a-cluster) hilft Ihnen bei diesen Details.
     
 > [!CAUTION] 
 > You should know that using network attached storage (NAS) as a file share isn't supported, so use one of the options listed above. 

@@ -1,33 +1,28 @@
 ---
 title: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 995da78a-dc44-45a3-908d-16fe36cfa0d9
 description: 'Zusammenfassung: Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.'
-ms.openlocfilehash: 8a28e151d99440b1ec682eab2a473f3cffac7ac4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856992"
 ---
+
 # <a name="configure-the-use-of-high-resolution-photos-in-skype-for-business-server"></a>Konfigurieren der Verwendung von Fotos mit hoher Auflösung in Skype for Business Server
  
-**Zusammenfassung:** Konfigurieren Sie die Verwendung von Hochauflösenden Fotos in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.
+**Zusammenfassung:** Konfigurieren Sie die Verwendung von Fotos mit hoher Auflösung in Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online und Skype for Business Server.
   
-In Skype for Business Server können Fotos im Postfach Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online eines Benutzers gespeichert werden, wodurch Fotogrößen von bis zu 648 x 648 Pixeln möglich sind. Darüber hinaus können Exchange Server die Größe dieser Fotos für die Verwendung in verschiedenen Produkten nach Bedarf automatisch ändern. Dies bedeutet in der Regel drei verschiedene Fotogrößen und Auflösungen:
+In Skype for Business Server können Fotos im postfach Exchange Server 2019, Exchange Server 2016, Exchange Server 2013 oder Exchange Online eines Benutzers gespeichert werden, das Fotogrößen von bis zu 648 x 648 Pixeln ermöglicht. Darüber hinaus können Exchange Server die Größe dieser Fotos für die Verwendung in verschiedenen Produkten bei Bedarf automatisch ändern. Dies bedeutet in der Regel drei verschiedene Fotogrößen und Auflösungen:
   
-- 64 x 64 Pixel, die Für das Active Directory thumbnailPhoto-Attribut verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, erstellt Exchange automatisch eine Version dieses Fotos mit 64 x 64 Pixeln und aktualisiert das thumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass der Umgekehrte nicht zutrifft: Wenn Sie das ThumbnailPhoto-Attribut in Active Directory manuell aktualisieren, wird das Foto im Exchange Postfach des Benutzers nicht automatisch aktualisiert.
+- 64 x 64 Pixel, die Für das Active Directory thumbnailPhoto-Attribut verwendete Größe. Wenn Sie ein Foto in Exchange Server hochladen, erstellt Exchange automatisch eine Version dieses Fotos mit 64 x 64 Pixeln und aktualisiert das ThumbnailPhoto-Attribut des Benutzers. Beachten Sie jedoch, dass der Umgekehrte nicht zutrifft: Wenn Sie das ThumbnailPhoto-Attribut in Active Directory manuell aktualisieren, wird das Foto im Exchange Postfach des Benutzers nicht automatisch aktualisiert.
     
 - 96 x 96 Pixel für die Verwendung in Microsoft Outlook 2013 Web App, Microsoft Outlook 2013, Skype for Business-Web-App und Skype for Business.
     
@@ -44,7 +39,7 @@ Set-UserPhoto -Identity "Ken Myer" -PictureData $photo -Preview -Confirm:$False
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-Der erste Befehl im vorherigen Beispiel verwendet das `Get-Content` Cmdlet, um den Inhalt der Datei C:\Photos\Kenmyer.jpg zu lesen und diese Daten in einer Variablen mit dem Namen $photo zu speichern. Im zweiten Befehl wird das Cmdlet Exchange `Set-UserPhoto` verwendet, um das Foto hochzuladen und an das Benutzerkonto von Ken Myer anzufügen.
+Der erste Befehl im vorherigen Beispiel verwendet das `Get-Content` Cmdlet, um den Inhalt der Datei C:\Photos\Kenmyer.jpg zu lesen und diese Daten in einer Variablen mit dem Namen $photo zu speichern. Im zweiten Befehl wird das Cmdlet `Set-UserPhoto` Exchange verwendet, um das Foto hochzuladen und das Foto an das Benutzerkonto von Ken Myer anzufügen.
   
 > [!NOTE]
 > In diesem Beispiel wird der Active Directory-Anzeigename von Ken Myer als Benutzerkontoidentität verwendet. Sie können ein Benutzerkonto auch über andere IDs referenzieren, wie die SMTP-Adresse des Benutzers oder dessen Benutzerprinzipalnamen. Weitere Informationen finden Sie in der Dokumentation zum cmdlet Set-UserPhoto unter [https://go.microsoft.com/fwlink/p/?LinkId=268536](/powershell/module/exchange/set-userphoto)
@@ -55,7 +50,7 @@ Das Hochladen des Fotos entspricht keiner Zuweisung des Fotos zu Ken Myers Benut
 Set-UserPhoto -Identity "Ken Myer" -Save -Confirm:$False
 ```
 
-Um zu überprüfen, ob das neue Foto dem Benutzerkonto zugewiesen wurde, kann sich Ken Myer bei Skype for Business anmelden, **Optionen** auswählen und dann **"Mein Bild"** auswählen. Das neu hochgeladene Foto sollte dann als Kens persönliches Foto angezeigt werden. Alternativ können Administratoren die Fotos aller Benutzer prüfen, indem sie den Internet Explorer starten und zu einer URL der folgenden Art navigieren:
+Um zu überprüfen, ob das neue Foto dem Benutzerkonto zugewiesen wurde, kann sich Ken Myer bei Skype for Business anmelden, **Optionen** auswählen und dann **"Mein Bild**" auswählen. Das neu hochgeladene Foto sollte dann als Kens persönliches Foto angezeigt werden. Alternativ können Administratoren die Fotos aller Benutzer prüfen, indem sie den Internet Explorer starten und zu einer URL der folgenden Art navigieren:
   
 ```console
 https://atl-mail-001.litwareinc.com/ews/Exchange.asmx/s/GetUserPhoto?email=kenmyer@litwareinc.com&size=HR648x648

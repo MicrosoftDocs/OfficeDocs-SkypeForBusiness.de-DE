@@ -1,28 +1,23 @@
 ---
 title: Definieren der Anforderungen für Notrufe in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: d891a212-8ad9-4bfa-9ca7-04921c46fb45
-description: Fasst die erforderlichen Schritte zum Aktivieren von E9-1-1 in Skype for Business Server Enterprise-VoIP zusammen, je nachdem, ob Sie über einen SIP-Trunk-E9-1-1-Dienstanbieter oder ein ELIN-Gateway verfügen.
-ms.openlocfilehash: 5bb4d4ba27d48118ed28c4a687105dbf5c685013
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857282"
+description: 'Fasst die erforderlichen Schritte zum Aktivieren von E9-1-1 in Skype for Business Server Enterprise-VoIP zusammen, je nachdem, ob Sie über einen SIP-Trunk-E9-1-1-Dienstanbieter oder ein ELIN-Gateway verfügen.'
 ---
+
 # <a name="define-your-requirements-for-emergency-calls-in-skype-for-business-server"></a>Definieren der Anforderungen für Notrufe in Skype for Business Server
  
 Fasst die erforderlichen Schritte zum Aktivieren von E9-1-1 in Skype for Business Server Enterprise-VoIP zusammen, je nachdem, ob Sie über einen SIP-Trunk-E9-1-1-Dienstanbieter oder ein ELIN-Gateway verfügen.
@@ -34,7 +29,7 @@ Bevor Sie mit einer Skype for Business Server E9-1-1-Bereitstellung beginnen, so
 |**SIP-Trunk-Dienstanbieter**|**ELIN-Gateway**|
 |:-----|:-----|
 |[Definieren des Umfangs der E9-1-1-Bereitstellung in Skype for Business Server](scope.md) <br/> |[Definieren des Umfangs der E9-1-1-Bereitstellung in Skype for Business Server](scope.md) <br/> |
-|[Definieren sie die Netzwerkelemente, die verwendet werden, um den Standort in Skype for Business Server](network-location.md) <br/> |[Definieren sie die Netzwerkelemente, die verwendet werden, um den Standort in Skype for Business Server](network-location.md) <br/> |
+|[Definieren der Netzwerkelemente, die zum Bestimmen des Standorts in Skype for Business Server](network-location.md) <br/> |[Definieren der Netzwerkelemente, die zum Bestimmen des Standorts in Skype for Business Server](network-location.md) <br/> |
 |[Aktivieren von Benutzern für E9-1-1 in Skype for Business Server](enable-users.md) <br/> |[Aktivieren von Benutzern für E9-1-1 in Skype for Business Server](enable-users.md) <br/> |
 |[Verwalten von Standorten für SIP-Trunkdienstanbieter in Skype for Business Server](manage-locations.md) <br/> |[Verwalten von Standorten für ELIN-Gateways in Skype for Business Server](elin-gateways.md) <br/> |
 |[Definieren der Benutzeroberfläche für den manuellen Erwerb eines Standorts in Skype for Business Server](manually-acquiring-a-location.md) <br/> |[Definieren der Benutzeroberfläche für den manuellen Erwerb eines Standorts in Skype for Business Server](manually-acquiring-a-location.md) <br/> |
