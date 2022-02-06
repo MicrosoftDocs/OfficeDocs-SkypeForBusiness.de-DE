@@ -1,31 +1,26 @@
 ---
 title: Director (Planning Tool)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.plan.Director
-- ms.lync.plan.Director
+  - ms.lync.plan.Director
+  - ms.lync.plan.Director
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 02795b46-21ec-4a85-9890-959c91d97df3
-ROBOTS: NOINDEX, NOFOLLOW
-description: Ein Director ist ein Server, auf dem Skype for Business Server Kommunikationssoftware ausgeführt wird, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet.
-ms.openlocfilehash: 1d7d65502e6c306a1ed709dbd3c1f6a66370f14a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833661"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Ein Director ist ein Server, auf dem Skype for Business Server Kommunikationssoftware ausgeführt wird, die Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet.'
 ---
+
 # <a name="director-planning-tool"></a>Director (Planning Tool)
  
-Ein Director ist ein Server, auf dem Skype for Business Server Kommunikationssoftware ausgeführt wird, der Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet. 
+Ein Director ist ein Server, auf dem Skype for Business Server Kommunikationssoftware ausgeführt wird, die Benutzeranforderungen authentifizieren kann, aber keine Benutzerkonten verwaltet. 
   
 Diese Rolle ist optional. In den folgenden beiden Szenarien würden Sie einen Director bereitstellen:
   

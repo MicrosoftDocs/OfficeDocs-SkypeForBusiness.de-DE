@@ -1,30 +1,25 @@
 ---
 title: Zertifikatanforderung (Grundlagen)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployCertRequestBasics
+  - ms.lync.dep.DeployCertRequestBasics
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 2c6b40d5-207a-4ca9-a090-e43350f4968f
-ROBOTS: NOINDEX, NOFOLLOW
-description: Die Seite "Name und Sicherheit" Einstellungen enthält ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bitlänge des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen können.
-ms.openlocfilehash: da3125456a97408dd9f3e694a16238d5657fc1d6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861752"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Die Seite "Name und Sicherheit" Einstellungen bietet ein Textfeld zum Definieren eines Anzeigenamens, eine Dropdownliste für die Bitlänge des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen können.'
 ---
+
 # <a name="certificate-request-basic"></a>Zertifikatanforderung (Grundlagen)
  
-Die Seite **"Name und Sicherheit" Einstellungen** bietet ein Textfeld zum Definieren eines **Anzeigenamens,** eine Dropdownliste für die **Bitlänge** des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit dem Sie **den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen** können.
+Die Seite **"Name und Sicherheit" Einstellungen** enthält ein Textfeld zum Definieren eines **Anzeigenamens**, eine Dropdownliste für die **Bitlänge** des privaten und öffentlichen Schlüsselpaars sowie ein Kontrollkästchen, mit **dem Sie den privaten Schlüssel des Zertifikats als exportierbar kennzeichnen** können.
   
 Beim Anzeigenamen (oder einfachen Namen) eines Zertifikats handelt es sich um einen benutzerfreundlichen und problemlos identifizierbaren Namen für den Benutzer, der das Zertifikat anzeigt.
   

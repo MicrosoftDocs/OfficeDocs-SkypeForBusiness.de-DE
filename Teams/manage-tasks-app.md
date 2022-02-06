@@ -1,33 +1,28 @@
 ---
 title: Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
 audience: admin
-description: Hier erfahren Sie, wie Sie die Tasks-App für Mitarbeiter in Ihrer Organisation verwalten können.
+description: 'Hier erfahren Sie, wie Sie die Tasks-App für Mitarbeiter in Ihrer Organisation verwalten können.'
 ms.localizationpriority: medium
 MS.collection:
-- Teams_ITAdmin_Help
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
+  - Teams_ITAdmin_Help
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 6412da5bdce345c1d187fd150b3877a63602b40b
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288353"
+  - Microsoft Teams
 ---
+
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 
 ## <a name="overview-of-tasks"></a>Übersicht über Tasks
@@ -43,11 +38,11 @@ Für Organisationen, die das Aufgabenmanagement für Mitarbeiter in Service und 
 
 ## <a name="what-you-need-to-know-about-tasks"></a>Wissenswertes über Tasks
 
-Tasks ist als App und als Registerkarte in einem Kanal verfügbar. Die App zeigt sowohl einzelne Aufgaben aus Planner To Do Teamaufgaben an. Auf der Registerkarte werden nur Teamaufgaben angezeigt.
+Tasks ist als App und als Registerkarte in einem Kanal verfügbar. In der App werden sowohl einzelne Aufgaben aus To Do als auch Teamaufgaben aus Planner angezeigt. Auf der Registerkarte werden nur Teamaufgaben angezeigt.
 
 Mit Tasks erhalten die Benutzer eine Desktop-, Web- und mobile Erfahrung. Wenn Tasks auf dem Teams-Desktopclient installiert ist, wird es den Benutzern auch in ihren Web- und mobilen Clients von Teams angezeigt. Eine Ausnahme bilden Gäste. Es ist wichtig zu wissen, dass Gäste nur über den mobilen Teams-Client als App auf Aufgaben zugreifen können. Gästen werden die Tasks-Registerkarten sowohl auf dem Teams-Desktop als auch auf Webclients angezeigt.
 
-**Meine Aufgaben** zeigt die individuellen Aufgaben eines Benutzers an. **Freigegebene Pläne** zeigen Aufgaben an, an denen das gesamte Team arbeitet, und enthält alle Aufgabenlisten, die einem Kanal als Tasks-Registerkarte hinzugefügt wurden. Beachten Sie die folgenden Beziehungen zwischen Aufgaben in "Aufgaben", "To Do" und "Planner":
+**Meine Aufgaben** zeigt die individuellen Aufgaben eines Benutzers an. **Freigegebene Pläne** zeigen Aufgaben an, an denen das gesamte Team arbeitet, und enthält alle Aufgabenlisten, die einem Kanal als Tasks-Registerkarte hinzugefügt wurden. Beachten Sie die folgenden Beziehungen zwischen Vorgängen in "Aufgaben", "To Do" und "Planner":
 
 - Aufgabenlisten, die ein Benutzer in der Tasks-App erstellt, werden auch in den Aufgabenclients für diesen Benutzer angezeigt. Ähnlich dazu werden Aufgabenlisten, die ein Benutzer in der To Do-App erstellt, auch in **Meine Aufgaben** in Tasks für diesen Benutzer angezeigt. Das Gleiche gilt für individuelle Aufgaben.
 
@@ -77,7 +72,7 @@ Wenn Sie die Nutzung von Tasks für bestimmte Benutzer in Ihrer Organisation zul
 
 ### <a name="use-an-app-setup-policy-to-pin-tasks-to-teams"></a>Verwenden einer App-Setuprichtlinie, um Tasks an Teams anzuheften
 
-Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die Apps, die Sie in einer Richtlinie festlegen, werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients, wo Benutzer schnell und einfach darauf zugreifen können.
+Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass die Apps, die für die Benutzer in Ihrer Organisation am wichtigsten sind, hervorgehoben werden. Die apps, die Sie in einer Richtlinie festlegen, werden an die App-Leiste angeheftet – die Leiste auf der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients, wo Benutzer schnell und einfach darauf zugreifen können.
 
 Wenn Sie die Tasks-App für Ihre Benutzer anheften möchten, können Sie die globale Richtlinie (organisationsweite Standardrichtlinie) bearbeiten oder eine benutzerdefinierte App-Setuprichtlinie erstellen und zuweisen. Weitere Informationen finden Sie unter [Verwalten von App-Einrichtungsrichtlinien in Microsoft Teams](teams-app-setup-policies.md).
 
@@ -85,7 +80,7 @@ Wenn Sie die Tasks-App für Ihre Benutzer anheften möchten, können Sie die glo
 
 Wenn ein Benutzer **Meine Aufgaben** nicht sehen soll, können Sie es ausblenden. Um Meine **Aufgaben auszublenden**, [entfernen Sie die Lizenz Exchange Online Benutzers](/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert. Danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in [In-Situ-Aufbewahrung oder Aufbewahrung für juristische Zwecke](/exchange/security-and-compliance/in-place-and-litigation-holds) gestellt.
 
-Wir raten davon ab, eine Exchange Online-Lizenz für Information-Workers zu entfernen, aber es gibt einige Szenarien, in denen Sie  Meine Aufgaben auf diese Weise ausblenden können, z. B. für Frontline-Mitarbeiter, die nicht auf E-Mails angewiesen sind.
+Wir raten davon ab, eine Exchange Online-Lizenz für Information-Workers zu entfernen. Es kann jedoch einige Szenarien geben, in denen  Sie Meine Aufgaben auf diese Weise ausblenden können, z. B. für Frontline-Mitarbeiter, die nicht von E-Mails abhängig sind.
 
 ## <a name="task-publishing"></a>Aufgabenveröffentlichung
 

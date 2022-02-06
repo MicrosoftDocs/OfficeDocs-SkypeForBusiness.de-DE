@@ -1,27 +1,22 @@
 ---
 title: Überprüfen der Replikation der Gesamtstrukturvorbereitung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifyForestPrep
+  - ms.lync.dep.DeployMainVerifyForestPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 94e87632-7c28-43df-9238-f5a47c1c43c0
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Führen Sie die folgenden Aktionen aus, um die Replikation des globalen Katalogs und der bei der Vorbereitung der Gesamtstruktur erstellten Objekte zu überprüfen:'
-ms.openlocfilehash: f56b2d81029a5518e01eea62a47690081318ac3c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838997"
 ---
+
 # <a name="verify-replication-of-forest-preparation"></a>Überprüfen der Replikation der Gesamtstrukturvorbereitung
  
 Führen Sie die folgenden Aktionen aus, um die Replikation des globalen Katalogs und der bei der Vorbereitung der Gesamtstruktur erstellten Objekte zu überprüfen:
@@ -30,7 +25,7 @@ Führen Sie die folgenden Aktionen aus, um die Replikation des globalen Katalogs
     
 2. Erweitern Sie in **Active Directory-Benutzer und -Computer** den Domänennamen Ihrer Gesamtstruktur oder einer untergeordneten Domäne.
     
-3. Klicken Sie im linken Bereich auf den Container **"Benutzer",** und suchen Sie im rechten Seitenbereich nach der universellen Gruppe "CsAdministrator". Wenn CsAdministrator (unter acht anderen neuen universellen Gruppen, die mit Cs beginnen) vorhanden ist, war die Replikation der Gesamtstrukturvorbereitung erfolgreich.
+3. Klicken Sie im linken Bereich auf den Container **"Benutzer** ", und suchen Sie im rechten Seitenbereich nach der universellen Gruppe "CsAdministrator". Wenn CsAdministrator (unter acht anderen neuen universellen Gruppen, die mit Cs beginnen) vorhanden ist, war die Replikation der Gesamtstrukturvorbereitung erfolgreich.
     
 4. Wenn die Gruppe nicht vorhanden ist, können Sie die Replikation erzwingen oder 15 Minuten warten und den rechten Fensterbereich aktualisieren. Die Replikation ist abgeschlossen, wenn die Gruppen vorhanden sind.
     

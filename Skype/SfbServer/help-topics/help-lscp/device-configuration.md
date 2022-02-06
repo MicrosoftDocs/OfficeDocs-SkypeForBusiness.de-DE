@@ -1,27 +1,22 @@
 ---
 title: Gerätekonfiguration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.ClientPhoneCfgMain
+  - ms.lync.lscp.ClientPhoneCfgMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: e1148124-e04a-4ae6-b601-ed48df69d194
-description: Eine Gerätekonfiguration ist eine Sammlung von Einstellungen, die verwendet werden, um Skype for Business Telefon Edition-Geräte global oder innerhalb einer Website zu verwalten. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.
-ms.openlocfilehash: c8de4b310b5c02dbf760b12e478d7166a7d6a745
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840317"
+description: 'Eine Gerätekonfiguration ist eine Sammlung von Einstellungen, die verwendet werden, um Skype for Business Telefon Edition-Geräte global oder innerhalb einer Website zu verwalten. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen.'
 ---
+
 # <a name="device-configuration"></a>Gerätekonfiguration
  
 Eine Gerätekonfiguration ist eine Sammlung von Einstellungen, die verwendet werden, um Skype for Business Telefon Edition-Geräte global oder innerhalb einer Website zu verwalten. Diese Einstellungen ermöglichen beispielsweise das Konfigurieren des erforderlichen Sicherheitsmodus, des Protokolliergrads für Geräte, der Einstellungen für die VoIP-Dienstqualität (QoS) und das Angeben, ob Telefone nach einem bestimmten inaktiven Zeitraum automatisch gesperrt werden sollen. 

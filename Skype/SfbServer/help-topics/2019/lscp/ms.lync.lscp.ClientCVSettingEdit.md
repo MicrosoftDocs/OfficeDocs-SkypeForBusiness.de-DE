@@ -1,27 +1,22 @@
 ---
 title: Erstellen einer neuen oder Bearbeiten einer vorhandenen Clientversionskonfiguration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.ClientCVSettingEdit
+  - ms.lync.lscp.ClientCVSettingEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 07fec57c-5cd3-422a-829a-0b62cb0092c4
-ROBOTS: NOINDEX, NOFOLLOW
-description: Clientversionskonfigurationseinstellungen werden verwendet, um die Clientversionskontrolle zu aktivieren oder zu deaktivieren. Die globale Clientversionskonfiguration wird mit Skype for Business Server installiert und wird verwendet, um die Clientversionskontrolle für die gesamte Serverbereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle clientversionsrichtlinien, die Sie eingerichtet haben, wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die globale Clientversionskonfiguration deaktivieren, wenn keine Clientversionskontrolle erfolgen soll.
-ms.openlocfilehash: c66306de18434cbec72e57af0e062841eb2a663c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60859552"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Clientversionskonfigurationseinstellungen werden verwendet, um die Clientversionskontrolle zu aktivieren oder zu deaktivieren. Die globale Clientversionskonfiguration wird mit Skype for Business Server installiert und wird verwendet, um die Clientversionskontrolle für die gesamte Serverbereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle clientversionsrichtlinien, die Sie eingerichtet haben, wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die globale Clientversionskonfiguration deaktivieren, wenn keine Clientversionskontrolle erfolgen soll.'
 ---
+
 # <a name="client-version-configuration-create-new-or-edit-existing"></a>Clientversionskonfiguration: Erstellen einer neuen oder Bearbeiten einer vorhandenen Clientversionskonfiguration
 
 Clientversionskonfigurationseinstellungen werden verwendet, um die Clientversionskontrolle zu aktivieren oder zu deaktivieren. Die globale Clientversionskonfiguration wird mit Skype for Business Server installiert und wird verwendet, um die Clientversionskontrolle für die gesamte Serverbereitstellung zu aktivieren oder zu deaktivieren. Wenn die globale Konfiguration aktiviert ist, werden alle clientversionsrichtlinien, die Sie eingerichtet haben, wirksam, wenn Benutzer versuchen, sich anzumelden. Sie können die globale Clientversionskonfiguration deaktivieren, wenn keine Clientversionskontrolle erfolgen soll.
@@ -42,22 +37,22 @@ Auf der Seite **Neue Clientversionskonfiguration erstellen** oder **Clientversio
 
 In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der Seite beschrieben.
 
-- **Bereich** Gibt den Bereich (global oder Standort) der Clientversionskonfiguration an.
+- **Umfang** Gibt den Bereich (global oder Standort) der Clientversionskonfiguration an.
 
-- **Name** Sie können den Namen der Clientversionskonfiguration hinzufügen oder ändern.
+- **Namen** Sie können den Namen der Clientversionskonfiguration hinzufügen oder ändern.
 
 - **Aktivieren der Versionskontrolle** Sie können die Clientversionskontrolle je nach Konfigurationsumfang global oder für den Standort aktivieren oder deaktivieren.
 
 - **Standardaktion** Sie können die Standardaktion auswählen, die angewendet wird, wenn ein Benutzer versucht, sich mit einer Clientanwendung anzumelden, für die keine bestimmte Clientversionsrichtlinie vorhanden ist. Sie haben folgende Optionen:
 
-  - **Zulassen** Ermöglicht dem Client die Anmeldung, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entspricht.
+  - **Ermöglichen** Ermöglicht dem Client die Anmeldung, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entspricht.
 
-  - **Blockieren** Verhindert, dass sich der Client anmeldet, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entspricht.
+  - **Block** Verhindert, dass sich der Client anmeldet, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entspricht.
 
   - **Blockieren mit URL** Verhindert, dass sich der Client anmeldet, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entspricht, und enthält eine Fehlermeldung mit einer URL, unter der ein neuerer Client heruntergeladen werden kann.
 
   - **Zulassen mit URL** Ermöglicht dem Client die Anmeldung, wenn die Clientversion keinem Filter in der Liste der Clientversionsrichtlinien entspricht, und enthält eine Fehlermeldung mit einer URL, unter der ein neuerer Client heruntergeladen werden kann.
 
-  - **URL** Wenn Sie **"Mit URL blockieren"** oder **"Mit URL zulassen"** ausgewählt haben, können Sie die Url für den Clientdownload angeben, die in die Fehlermeldung eingeschlossen werden soll.
+  - **URL** Wenn Sie **"Mit URL blockieren** " oder " **Mit URL zulassen**" ausgewählt haben, können Sie die URL für den Clientdownload angeben, die in die Fehlermeldung eingeschlossen werden soll.
 
-Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie in der Planungsdokumentation unter ["Clientinteroperabilität".](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) in der Betriebsdokumentation.
+Ausführliche Informationen zur Interoperabilität zwischen Clients und Clientversionen finden Sie in der Planungsdokumentation unter ["Clientinteroperabilität](/previous-versions/office/lync-server-2013/lync-server-2013-client-interoperability-in-lync-2013) ". Ausführliche Informationen zur Verwendung von Clientversionskonfigurationen finden Sie unter [Modify the Default Action for Clients Not Explicitly Supported or Restricted](/previous-versions/office/lync-server-2013/lync-server-2013-modify-the-default-action-for-clients-not-explicitly-supported-or-restricted) in der Betriebsdokumentation.

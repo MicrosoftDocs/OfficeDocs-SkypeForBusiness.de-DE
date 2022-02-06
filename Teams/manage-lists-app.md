@@ -1,36 +1,31 @@
 ---
 title: Verwalten der Listen-App für Ihre Organisation
-author: HowlinWolf-92
-ms.author: v-mahoffman
-ms.reviewer: anach,v-jasuk
+author: SerdarSoysal
+ms.author: serdars
+ms.reviewer: 'anach,v-jasuk'
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-- Microsoft Teams
-- Microsoft Cloud for Healthcare
-- Microsoft Cloud for Retail
-description: Hier erfahren Sie, wie Sie die Listen-App in Microsoft Teams für Benutzer in Ihrer Organisation verwalten können.
+  - Microsoft Teams
+  - Microsoft Cloud for Healthcare
+  - Microsoft Cloud for Retail
+description: 'Hier erfahren Sie, wie Sie die Listen-App in Microsoft Teams für Benutzer in Ihrer Organisation verwalten können.'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- M365-collaboration
-- microsoftcloud-healthcare
-- microsoftcloud-retail
-- m365initiative-lists
+  - M365-collaboration
+  - microsoftcloud-healthcare
+  - microsoftcloud-retail
+  - m365initiative-lists
 appliesto:
-- Microsoft Teams
-ms.custom: ''
-ms.openlocfilehash: bd70e5fbca82637299e6adef745bccc725525311
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288483"
+  - Microsoft Teams
+ms.custom: null
 ---
+
 # <a name="manage-the-lists-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Listen-App für Ihre Organisation in Microsoft Teams
 
 ## <a name="overview-of-lists"></a>Übersicht über Listen
@@ -60,7 +55,7 @@ Eine lokale Poststelle ist für das Sortieren und Zustellen von Briefen in ihrem
 
 Nach dem Treffen machen sich die Postboten auf den Weg, um die Briefe zuzustellen. Unterwegs kann es zu Zwischenfällen wie einem Verkehrsunfall, einem Problem mit Hunden oder sozialen Unruhen kommen. Wenn Postboten auf ein Problem stoßen, verwenden sie Microsoft Teams auf ihren Mobilgeräten, um die Details dazu zu erfassen, die in einer Liste im Teamkanal nachverfolgt werden. Jeder im Team, einschließlich der Postboten vor Ort, kann diese Informationen sehen und darüber auf dem Laufenden bleiben.
 
-Vor dem Wechsel zu Teams mussten die Postbetreiber wieder zur Post gehen, um ein Hard Copy-Formular zu erstellen, um einen Vorfall zu melden, der dann in ein Arbeitsblatt Excel wurde. Microsoft Teams stellt eine mobile Lösung für Postboten dar, über die sie mithilfe der Listen-App Vorfälle im Außendienst melden, Vorfalldetails mit Teammitgliedern teilen, sich im Kanal darüber unterhalten und Vorfälle einer Lösung zuführen können.
+Vor dem Wechsel zu Teams mussten die Postbetreiber wieder zur Post gehen, um ein Hard Copy-Formular zu erstellen, um einen Vorfall zu melden, der dann in eine Tabelle Excel wurde. Microsoft Teams stellt eine mobile Lösung für Postboten dar, über die sie mithilfe der Listen-App Vorfälle im Außendienst melden, Vorfalldetails mit Teammitgliedern teilen, sich im Kanal darüber unterhalten und Vorfälle einer Lösung zuführen können.
 
 ## <a name="what-you-need-to-know-about-lists"></a>Wissenswertes über die Listen-App
 
@@ -119,7 +114,7 @@ Die Listen-App unterstützt [Power Automate](/power-automate/flow-types) für Wo
 
 ## <a name="give-feedback-or-report-an-issue"></a>Feedback senden oder Problem melden
   
-Um uns Feedback zu senden oder ein Problem zu melden, wählen Sie hilfe unten im linken Navigationsbereich in Teams und dann **Problem melden aus**. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder die Details zu dem aufgetretenen Problem ein.
+Um uns Feedback zu senden oder ein Problem zu melden, wählen Sie am unteren Rand der linken Navigationsleiste in Teams und dann Problem **melden aus**. Wählen Sie **Listen** aus, und geben Sie dann Ihr Feedback oder die Details zu dem aufgetretenen Problem ein.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

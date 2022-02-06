@@ -1,27 +1,22 @@
 ---
 title: Topologieansicht – Details zu einfachen URLs
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.TopoSimpleUrlEdit
+  - ms.lync.lscp.TopoSimpleUrlEdit
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: bf357591-6efd-41a7-8d19-014b684b84f4
-ROBOTS: NOINDEX, NOFOLLOW
-description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 4af1a0d155526e399c79d8596662b1f656f41f24
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833771"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.'
 ---
+
 # <a name="topology-view-simple-url-detail"></a>Topologie: Anzeigen der Details einer einfachen URL
 
 Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.

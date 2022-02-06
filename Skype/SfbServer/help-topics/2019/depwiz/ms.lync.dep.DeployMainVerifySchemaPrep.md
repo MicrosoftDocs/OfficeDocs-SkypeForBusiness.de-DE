@@ -1,32 +1,27 @@
 ---
 title: Überprüfen der Replikation der Schemapartition
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.dep.DeployMainVerifySchemaPrep
+  - ms.lync.dep.DeployMainVerifySchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 0357f230-6d0c-41f1-942c-e14f76e55d31
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in der Active Directory Domain Services-Gesamtstruktur repliziert wurde:'
-ms.openlocfilehash: ad48543f6b14e3e65750582caa42d050b0c2cd58
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60847998"
 ---
+
 # <a name="verify-replication-of-schema-partition"></a>Überprüfen der Replikation der Schemapartition
  
 Gehen Sie wie folgt vor, um zu überprüfen, ob die Schemaerweiterung erfolgreich in der Active Directory Domain Services-Gesamtstruktur repliziert wurde:
   
-1. Melden Sie sich bei einem Domänencontroller (mit Ausnahme des Domänencontrollers, der die Schemamasterrolle enthält) in der Active Directory Domain Services-Gesamtstruktur an, wobei die Schemaerweiterungen als Mitglied der Gruppe "Enterprise Administratoren" angewendet wurden.
+1. Melden Sie sich bei einem Domänencontroller (außer dem Domänencontroller mit der Schemamasterrolle) in der Active Directory Domain Services-Gesamtstruktur an, auf den die Schemaerweiterungen als Mitglied der Gruppe Enterprise Administratoren angewendet wurden.
     
 2. Öffnen Sie den ADSI-Editor: Klicken Sie nacheinander auf **Start**, **Verwaltung** und **ADSI-Editor**.
     

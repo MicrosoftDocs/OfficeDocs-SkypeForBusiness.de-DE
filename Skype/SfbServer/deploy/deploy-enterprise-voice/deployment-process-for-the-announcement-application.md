@@ -1,28 +1,23 @@
 ---
 title: Bereitstellungsprozess für die Ankündigungsanwendung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 72c66249-c4ce-48ce-b1b9-90ebf77d7805
 description: Bereitstellungsprozess und Schritte für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 7ea0024bfda4846bc02d32d70d37f0ec91250cd5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60830669"
 ---
+
 # <a name="deployment-process-for-the-announcement-application-in-skype-for-business-server"></a>Bereitstellungsprozess für die Ankündigungsanwendung in Skype for Business Server
  
 Bereitstellungsprozess und Schritte für die Ankündigungsanwendung in Skype for Business Server Enterprise-VoIP.

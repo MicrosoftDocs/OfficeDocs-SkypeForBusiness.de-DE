@@ -1,44 +1,39 @@
 ---
 title: Verwalten von Richtlinienpaketen in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
-ms.reviewer: sekrantz, aaglick
+ms.reviewer: 'sekrantz, aaglick'
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.policypackages.overview
-- seo-marvel-apr2020
+  - ms.teamsadmincenter.policypackages.overview
+  - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: de008f2a662280b173acce6b69157e3b8725798f
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61992232"
+description: 'Hier erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.'
 ---
+
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Verwalten von Richtlinienpaketen für Microsoft Teams
 
 Ein Richtlinienpaket in Microsoft Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Wir haben Richtlinienpakete erstellt, um die Verwaltung von Richtlinien für Benutzergruppen in Ihrer Organisation zu vereinfachen, zu optimieren und für Konsistenz zu sorgen.  
 
-Sie können die [in](#policy-packages-included-in-teams) der Teams enthaltenen Richtlinienpakete verwenden oder eigene [benutzerdefinierte Richtlinienpakete erstellen.](#custom-policy-packages)
+Sie können die in den [Richtlinienpaketen enthaltenen Teams](#policy-packages-included-in-teams) oder eigene benutzerdefinierte [Richtlinienpakete erstellen](#custom-policy-packages).
 
 :::image type="content" source="media/policy-packages-admin-center.png" alt-text="Screenshot der Seite "Richtlinienpakete" im Admin Center":::
 
-Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Sie verwalten Richtlinienpakete mithilfe des Microsoft Teams Admin Centers oder von PowerShell.
+Sie können die Einstellungen der Richtlinien in einem Richtlinienpaket an die Anforderungen Ihrer Benutzer anpassen. Wenn Sie die Einstellungen der Richtlinien in einem Paket ändern, erhalten alle diesem Paket zugewiesenen Benutzer die aktualisierten Einstellungen. Richtlinienpakete werden mithilfe des Microsoft Teams Admin Centers oder von PowerShell verwaltet.
 
 > [!NOTE]
-> Dieses Feature steht vorübergehend in der öffentlichen Vorschau für alle Microsoft Teams zur Verfügung. Um dieses Feature nach der Vorschau zu erhalten, benötigt jeder Benutzer die Add-On-Lizenz für Advanced Communications. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
+> Dieses Feature ist vorübergehend in der öffentlichen Vorschau für alle Microsoft Teams verfügbar. Um dieses Feature nach der Vorschau zu erhalten, benötigt jeder Benutzer die Add-On-Lizenz für Advanced Communications. Weitere Informationen finden Sie unter [Add-On für erweiterte Kommunikation für Microsoft Teams](/microsoftteams/teams-add-on-licensing/advanced-communications).
 
 ## <a name="what-is-a-policy-package"></a>Was ist ein Richtlinienpaket?
 
@@ -52,7 +47,7 @@ Richtlinienpakete unterstützen die folgenden Teams Richtlinientypen:
 - Anrufrichtlinie
 - Richtlinie für Liveereignisse
 
-## <a name="policy-packages-included-in-teams"></a>In den Richtlinienpaketen enthaltene Teams
+## <a name="policy-packages-included-in-teams"></a>In der Richtlinie enthaltene Teams
 
 Teams enthält derzeit die folgenden Richtlinienpakete.
 
@@ -69,8 +64,8 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen klinische Mitarbeiter wie Krankenschwestern, Krankenschwestern, Ärzte und Sozialarbeiter uneingeschränkten Zugriff auf Chat, Anrufe, Schichtmanagement und Besprechungen erhalten. |
 |Informationsbeauftragter für das Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen Informationsbeauftragte wie IT-Personal, Informatikpersonal, Finanzpersonal und Compliance-Beauftragte uneingeschränkten Zugriff auf Chat, Anrufe und Besprechungen erhalten.|
 |Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten.|
-|Benutzer für kleine und mittelständische Unternehmen (Teams Telefon Anrufplan) |Erstellt eine App-Setuprichtlinie, die die Apps für einen Anrufplan Teams Telefon Anrufplanerfahrung enthält.|
-|Benutzer von kleinen und mittleren Unternehmen (Teams Telefon Anrufplan) |Erstellt eine App-Setuprichtlinie, die für kleine und mittelständische Unternehmen und Teams (nicht für Teams Telefon Anrufplanerfahrung) relevant ist.
+|Benutzer von kleinen und mittleren Unternehmen (Teams Telefon Anrufplans) |Erstellt eine App-Setuprichtlinie, die die Apps für einen Anrufplan Teams Telefon Anrufplanerfahrung enthält.|
+|Benutzer für kleine und mittelständische Unternehmen (Teams Telefon Anrufplan) |Erstellt eine App-Setuprichtlinie, die für kleine und mittelständische Unternehmen relevant Teams (nicht für Benutzer Teams Telefon Anrufplanerfahrung).
 |Public Safety Officer   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
 
 > [!NOTE]
@@ -105,13 +100,13 @@ Im Folgenden wird die Verwendung von Richtlinienpaketen in Ihrer Organisation er
 
 ![Übersicht über die Verwendung von Richtlinienpaketen.](media/manage-policy-packages-overview.png)
 
-- **[Ansicht:](#view-the-settings-of-a-policy-in-a-policy-package)** Zeigen Sie die Richtlinien in einem Richtlinienpaket an. Zeigen Sie dann die Einstellungen jeder Richtlinie in einem Paket an, bevor Sie das Paket zuweisen. Stellen Sie sicher, dass Sie die einzelnen Einstellungen verstehen. Entscheiden Sie, ob die vordefinierten Werte für Ihre Organisation geeignet sind oder ob sie je nach Anforderungen Ihrer Organisation restriktiver oder lenienter sein müssen.
+- **[Ansicht](#view-the-settings-of-a-policy-in-a-policy-package)**: Anzeigen der Richtlinien in einem Richtlinienpaket. Zeigen Sie dann die Einstellungen jeder Richtlinie in einem Paket an, bevor Sie das Paket zuweisen. Stellen Sie sicher, dass Sie die einzelnen Einstellungen verstehen. Entscheiden Sie, ob die vordefinierten Werte für Ihre Organisation geeignet sind oder ob sie je nach Anforderungen Ihrer Organisation restriktiver oder lenienter sein müssen.
 
     Wenn eine Richtlinie gelöscht wurde, können Sie die Einstellungen zwar weiterhin anzeigen, jedoch keine Einstellungen ändern. Beim Zuweisen des Richtlinienpakets wird eine gelöschte Richtlinie mit den vordefinierten Einstellungen neu erstellt.
 
-- **[Anpassen:](#customize-policies-in-a-policy-package)** Passen Sie die Einstellungen der Richtlinien im Richtlinienpaket an die Anforderungen Ihrer Organisation an.
+- **[Anpassen](#customize-policies-in-a-policy-package)**: Passen Sie die Einstellungen der Richtlinien im Richtlinienpaket an die Anforderungen Ihrer Organisation an.
 
-- **[Zuweisen:](#assign-a-policy-package)** Weisen Sie das Richtlinienpaket Benutzern zu.  
+- **[Zuweisen](#assign-a-policy-package)**: Weisen Sie das Richtlinienpaket Benutzern zu.  
 
 > [!NOTE]
 > Sie können die Einstellungen von Richtlinien in einem Richtlinienpaket auch ändern, nachdem Sie ein Paket zugewiesen haben. Alle Änderungen, die Sie an den Richtlinieneinstellungen vornehmen, werden automatisch auf Benutzer angewendet, denen das Paket zugewiesen wird.
@@ -120,29 +115,29 @@ Hier sind die Schritte zum Anzeigen, Zuweisen und Anpassen von Richtlinienpakete
 
 ### <a name="view-the-settings-of-a-policy-in-a-policy-package"></a>Anzeigen der Einstellungen einer Richtlinie in einem Richtlinienpaket
 
-1. Wählen Sie im linken Navigationsbereich des Microsoft Teams Admin Center Richtlinienpakete **aus,** und wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
+1. Wählen Sie im linken Navigationsbereich Microsoft Teams Admin Center Richtlinienpakete **aus, und** wählen Sie dann ein Richtlinienpaket aus, indem Sie links neben dem Paketnamen klicken.
 
 2. Klicken Sie auf die Richtlinie, die Sie anzeigen möchten.
 
 ### <a name="customize-policies-in-a-policy-package"></a>Anpassen von Richtlinien in einem Richtlinienpaket
 
-Sie können die Einstellungen einer  Richtlinie über die Seite "Richtlinienpakete" oder direkt zur Richtlinienseite im Microsoft Teams Admin Center ändern.
+Sie können die Einstellungen einer Richtlinie über die Seite "Richtlinienpakete" oder direkt zur Richtlinienseite im Microsoft Teams Admin Center ändern.
 
-1. Gehen Sie im linken Navigationsbereich Microsoft Teams Admin Center wie folgt vor:
+1. Gehen Sie in der linken Navigationsleiste Microsoft Teams Admin Center wie folgt vor:
     - Klicken **Sie auf Richtlinienpakete**, und wählen Sie dann das Richtlinienpaket aus, indem Sie links des Paketnamens klicken.
     - Klicken Sie auf den Richtlinientyp.  Klicken Sie beispielsweise auf **Messagingrichtlinien**.
 
 2. Wählen Sie die Richtlinie aus, die Sie bearbeiten möchten. Richtlinien, die mit einem Richtlinienpaket verknüpft sind, haben denselben Namen wie das Richtlinienpaket.
 
-3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern.**
+3. Nehmen Sie die von Ihnen vorgenommenen Änderungen vor, und klicken Sie dann auf **Speichern**.
 
 ### <a name="assign-a-policy-package"></a>Zuweisen eines Richtlinienpakets
 
-Sie können ein Richtlinienpaket einem einzelnen Benutzer, einer Gruppe oder einer Gruppe von Benutzern zuweisen. Weitere Informationen zum Zuweisen von Richtlinienpaketen finden Sie unter Zuweisen von [Richtlinienpaketen zu Benutzern und Gruppen.](assign-policy-packages.md)
+Sie können ein Richtlinienpaket einem einzelnen Benutzer, einer Gruppe oder einer Gruppe von Benutzern zuweisen. Weitere Informationen zum Zuweisen von Richtlinienpaketen finden Sie unter Zuweisen von [Richtlinienpaketen zu Benutzern und Gruppen](assign-policy-packages.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Zuweisen von Richtlinienpaketen](assign-policy-packages.md)
-- [Teams richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
+- [Teams Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
 - [Teams Richtlinienpakete-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
 - [Teams von Richtlinienpaketen für Behörden](policy-packages-gov.md)
