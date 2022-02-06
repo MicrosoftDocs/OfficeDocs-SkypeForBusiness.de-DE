@@ -1,27 +1,22 @@
 ---
 title: Zuordnen der Branch Office Appliance zur Edgekomponente
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 4/14/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
+  - ms.lync.tb.AssociateBranchOfficeApplianceWithEdgePage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3f02e4bd-f86f-4a84-9c04-28d2a53b10b1
-description: Wenn Sie Edgeserver bereitgestellt haben und Mediendienste für die externe Verwendung bereitstellen müssen, wählen Sie den Edgeserver oder -pool aus, der der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet wird, indem Sie ihn in der Dropdownliste auswählen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
-ms.openlocfilehash: 50dcfd6aaa04ba2d7167fe5228be5382d9085ccf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842868"
+description: 'Wenn Sie Edgeserver bereitgestellt haben und Mediendienste für die externe Verwendung bereitstellen müssen, wählen Sie den Edgeserver oder -pool aus, der der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet wird, indem Sie ihn in der Dropdownliste auswählen. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.'
 ---
+
 # <a name="associate-branch-office-appliance-with-edge"></a>Zuordnen der Branch Office Appliance zur Edgekomponente
  
 Wenn Sie Edgeserver bereitgestellt haben und Mediendienste für die externe Verwendung bereitstellen müssen, wählen Sie den Edgeserver oder -pool aus, der der Survivable Branch Appliance oder dem Survivable Branch Server zugeordnet wird, indem Sie ihn in der Dropdownliste auswählen. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.
