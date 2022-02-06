@@ -1,25 +1,20 @@
 ---
 title: Liste der Kompatibilitätstabellen für den Server für beständigen Chat in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8563446e-90cc-47cc-8a8e-4883decfe195
 description: Das Datenbankschema für die Kompatibilität des beständigen Chats besteht aus den folgenden Tabellen.
-ms.openlocfilehash: cc4a40d5c2fa80559ddb2ba2cb713c078b4af357
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833249"
 ---
+
 # <a name="list-of-persistent-chat-server-compliance-tables-in-skype-for-business-server"></a>Liste der Kompatibilitätstabellen für den Server für beständigen Chat in Skype for Business Server
  
 Das Datenbankschema für die Kompatibilität des beständigen Chats besteht aus den folgenden Tabellen.

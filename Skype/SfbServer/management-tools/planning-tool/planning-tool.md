@@ -1,26 +1,21 @@
 ---
 title: Skype for Business Server 2015-Planungstool
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 12/20/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 2a352f62-c5cb-4ef1-9aa9-7f0c1ab47455
 description: Anleitung zur Verwendung des Skype for Business Server 2015-Planungstools.
-ms.openlocfilehash: d88504af2935ad0143c7f7c1ca85f17e3f9c7c8b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845318"
 ---
+
 # <a name="skype-for-business-server-2015-planning-tool"></a>Skype for Business Server 2015-Planungstool
  
 Anleitung zur Verwendung des Skype for Business Server 2015-Planungstools.
@@ -31,11 +26,11 @@ Das Ziel des Planungstools besteht letztlich darin, die potenzielle Komplexität
   
 Nach dem Anpassen der Topologie mit den TCP/IP-Adressen der Infrastruktur und vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) stellt das Planungstool eine Reihe von Berichten zur Verfügung, die sich auf dns-Benennungen (Domain Name System), Firewallregeln, Zertifikate und vieles mehr beziehen. 
   
-Die Verwendung dieses Tools ist der erste Schritt bei der Planung Ihrer Implementierung. Der nächste Schritt wäre, Ihre Websiteinformationen in den [Skype for Business Server 2015-Kapazitätsrechner](https://www.microsoft.com/download/details.aspx?id=51196)einzugeben, nach Bedarf anzupassen und dann das [Skype for Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367) zu verwenden, um zu simulieren und zu überprüfen, ob die Implementierung Ihren Anforderungen entspricht.
+Die Verwendung dieses Tools ist der erste Schritt bei der Planung Ihrer Implementierung. Der nächste Schritt wäre, Ihre Websiteinformationen im [Skype for Business Server 2015 Capacity Calculator](https://www.microsoft.com/download/details.aspx?id=51196) einzugeben, bei Bedarf anzupassen und dann das [Skype for Business Server 2015 Stress and Performance Tool](https://www.microsoft.com/download/details.aspx?id=50367) zu verwenden, um zu simulieren und zu überprüfen, ob die Implementierung Ihren Anforderungen entspricht.
   
 Das Planungstool bietet außerdem die Möglichkeit, Informationen in zwei Formaten zu exportieren:
   
-- Microsoft Excel (.xml Tabellenkalkulation)
+- Microsoft Excel (.xml-Tabellenkalkulation)
     
 - Microsoft Visio (VDX)
     

@@ -1,25 +1,20 @@
 ---
 title: Ausführen einer Abfrage
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 45a77f7e-b137-462b-9146-3a0f43d8e0c7
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Abfrage ausführen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 00060baabff5bdcc4e930f56f7885de273060597
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849808"
 ---
+
 # <a name="run-query"></a>Ausführen einer Abfrage
 
 **Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Abfrage ausführen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -33,7 +28,7 @@ Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem C
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|POST  <br/> |https:// \<portal\> /QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
+|POST  <br/> |\<portal\>https:///QoEDataService/RunQuery  <br/> |HTTP/1.1  <br/> |
 
  **URI-Parameter** : Keine.
 
@@ -74,9 +69,9 @@ Der Vorgang "Abfrage ausführen" bietet die Möglichkeit, eine Abfrage auf dem C
 }
 ```
 
- *Filter*  – Eine Liste der anzuwendenden Filterausdrücke, sodass der resultierende Datensatz nur die Teilmenge der daten wiedergibt, die von Interesse sind.
+ *Filters*  - A list of filter expressions to be applied such that the resulting data set will reflect only the subset of the data that are of interest.
 
- *Dimensionen*  – Eine Liste der Dimensionen, die zum Aggregieren der Daten verwendet werden. Mindestens eine Dimension ist erforderlich, es können jedoch mehrere Dimensionen angegeben werden, um zusätzliche Unteraggregationenebenen zu erhalten.
+ *Dimensions*  - A list of dimensions that will be used for aggregating the data. Mindestens eine Dimension ist erforderlich, es können jedoch mehrere Dimensionen angegeben werden, um zusätzliche Unteraggregationenebenen zu erhalten.
 
  *Maßangaben*  – eine Liste von Messungen, auch als Fakten bezeichnet, bei denen es sich um die gewünschten Metriken handelt, die basierend auf den angegebenen Dimensionen aggregiert werden sollen.
 

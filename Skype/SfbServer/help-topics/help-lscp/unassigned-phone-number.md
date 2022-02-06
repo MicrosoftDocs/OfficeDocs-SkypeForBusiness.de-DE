@@ -1,27 +1,22 @@
 ---
 title: Nicht zugewiesene Telefonnummer
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/24/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.lscp.VoiceFeaVacantNumMain
+  - ms.lync.lscp.VoiceFeaVacantNumMain
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 24eca749-a9f3-40e7-839b-d21c3ef7d533
-description: Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
-ms.openlocfilehash: 7b09083238f034a7f087ed8aadfa9169c644ceb1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864002"
+description: 'Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.'
 ---
+
 # <a name="unassigned-phone-number"></a>Nicht zugewiesene Telefonnummer
 
 Nicht zugewiesene Nummern sind Rufnummern, die für Ihre Organisation gültig sind, jedoch keinem Benutzer oder Telefon zugewiesen sind. In der Tabelle mit den nicht zugewiesenen Nummern ist angegeben, wie Anrufe bei nicht zugewiesenen Nummern behandelt werden sollen.
@@ -60,7 +55,7 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 - **Nach unten** Verschiebt den ausgewählten Bereich nicht zugewiesener Nummern in der Liste nach unten.
 
-- **Commit für alle Ausführen** eines Commits Speichert alle Änderungen, die Sie an bereichen nicht zugewiesener Nummern vorgenommen haben.
+- **Commit für alle Ausführen eines Commits** Speichert alle Änderungen, die Sie an bereichen nicht zugewiesener Nummern vorgenommen haben.
 
     > [!IMPORTANT]
     > Mit diesem Befehl werden alle Änderungen gespeichert, die Sie auf der Seite **Neue nicht zugewiesene Nummer** und der Seite **Nicht zugewiesene Nummer bearbeiten** vorgenommen haben.
@@ -69,9 +64,9 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Der eindeutige Name, der den Bereich nicht zugewiesener Nummern identifiziert.
+- **Namen** Der eindeutige Name, der den Bereich nicht zugewiesener Nummern identifiziert.
 
-- **Status** Zeigt an, welche Nummernbereiche in der Datenbank gespeichert wurden und welche nicht.
+- **Staat** Zeigt an, welche Nummernbereiche in der Datenbank gespeichert wurden und welche nicht.
 
 - **Startbereich** Die Anfangsnummer des Bereichs nicht zugewiesener Nummern.
 

@@ -1,27 +1,22 @@
 ---
 title: Legacyzusammenführung – FQDN
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.LegacyMergeFqdnPage
+  - ms.lync.tb.LegacyMergeFqdnPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: d72841ff-3c4d-4233-a933-f3a95d75d89b
-ROBOTS: NOINDEX, NOFOLLOW
-description: Der interne FQDN des Zugriffs-Edgepools wird für eine Vielzahl von Szenarien verwendet, in denen interne Benutzer mit externen Benutzern für Partnerverbund, Remotebenutzerzugriff und Verbindungen mit öffentlichen Chatdiensten kommunizieren. Wenn der Edgeserver mit Lastenausgleich in Ihrer Legacyumgebung bereitgestellt war, geben Sie den vollqualifizierten Domänennamen des internen Lastenausgleichsgeräts an.
-ms.openlocfilehash: 749452c5fcf697bd0fc52a2b2c7276777620b1e8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849098"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Der interne FQDN des Zugriffs-Edgepools wird für eine Vielzahl von Szenarien verwendet, in denen interne Benutzer mit externen Benutzern für Partnerverbund, Remotebenutzerzugriff und Verbindungen mit öffentlichen Chatdiensten kommunizieren. Wenn der Edgeserver mit Lastenausgleich in Ihrer Legacyumgebung bereitgestellt war, geben Sie den vollqualifizierten Domänennamen des internen Lastenausgleichsgeräts an.'
 ---
+
 # <a name="legacy-merge-fqdn"></a>Legacyzusammenführung – FQDN
  
 Der interne vollqualifizierte Domänenname des Zugriffs-Edgepools wird für eine Vielzahl von Szenarien verwendet, bei denen interne Benutzer mit externen Benutzern im Rahmen einer Verbundpartnerschaft, zum Zwecke des Remotebenutzerzugriffs und über Verbindungen mit öffentlichen Instant Messaging-Diensten kommunizieren. Wenn der Edgeserver mit Lastenausgleich in Ihrer Legacyumgebung bereitgestellt wurde, geben Sie den vollqualifizierten Domänennamen des internen Lastenausgleichsgeräts an.

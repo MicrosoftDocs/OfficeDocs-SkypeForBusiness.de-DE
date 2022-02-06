@@ -1,29 +1,24 @@
 ---
 title: Microsoft Teams für Virtualized Desktop Infrastructure
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
-ms.reviewer: rafarhi, jmorrow
+ms.reviewer: 'rafarhi, jmorrow'
 audience: admin
-description: Erfahren Sie, wie Sie Microsoft Teams in einer VDI-Umgebung (Virtualized Desktop Infrastructure) ausführen.
+description: 'Erfahren Sie, wie Sie Microsoft Teams in einer VDI-Umgebung (Virtualized Desktop Infrastructure) ausführen.'
 ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-collaboration
-- m365initiative-deployteams
+  - M365-collaboration
+  - m365initiative-deployteams
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: b499a11d057f376f09ad101b043f8ac60f112ade
-ms.sourcegitcommit: 8d728ca42dc917a28b94e2de84ce4f5b2515d485
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/15/2021
-ms.locfileid: "61513497"
+  - Microsoft Teams
 ---
+
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
 In diesem Artikel werden die Anforderungen und Einschränkungen für die Verwendung von Microsoft Teams in einer virtualisierten Umgebung beschrieben.
@@ -58,7 +53,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit sind Teams VDI mit Audio/Video-Optimierung (AV) mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit ist Teams VDI mit Audio/Video (AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -66,17 +61,17 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 |Plattform|Lösung|
 |----|---|
-|![Das Logo von Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Virtueller Azure-Desktop,</a> <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
+|![Das Logo von Microsoft.](media/microsoft-logo.png)| <a href="/azure/virtual-desktop/teams-on-wvd" target="_blank">Azure Virtual Desktop</a>, <a href="/windows-365/enterprise/teams-on-cloud-pc" target="_blank">Windows 365</a> |
 |![Das Logo, das Citrix darstellt.](media/citrix-logo.png)| <a href="https://www.citrix.com/products/citrix-virtual-apps-and-desktops/" target="_blank">Virtuelle Citrix-Apps und -Desktops</a> |
 |![Das Logo von VMware.](media/vmware-logo.png)| <a href="https://www.vmware.com/products/horizon.html" target="_blank">VMware Horizon</a> |
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden [von Teams auf dem virtuellen Azure-Desktop.](/azure/virtual-desktop/teams-on-wvd)
+Der virtuelle Azure-Desktop bietet AV-Optimierung für Teams mit VDI. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden Teams [Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="windows-365"></a>Windows 365
 
-Windows 365 verwendet die von Azure Virtual Desktop bereitgestellte AV-Optimierung, um optimale Benutzererfahrungen Teams Cloud-PCs zu gewährleisten. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden [Teams auf Cloud-PCs.](/windows-365/enterprise/teams-on-cloud-pc)
+Windows 365 verwendet die von Azure Virtual Desktop bereitgestellte AV-Optimierung, um optimale Ergebnisse Teams Cloud-PCs zu gewährleisten. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden Teams [auf Cloud-PCs](/windows-365/enterprise/teams-on-cloud-pc).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -231,7 +226,7 @@ Es gibt eine Vielzahl von virtualisierten Setupkonfigurationen, bei deren Optimi
 
 Zusätzlich zu Chat und Zusammenarbeit ist Teams auf VDI mit Anrufen und Besprechungen mit unterstützten Virtualisierungsanbieter-Plattformen verfügbar. Unterstützte Features basieren auf dem WebRTC-Medienstapel und der Implementierung eines Virtualisierungsanbieters. Das folgende Diagramm bietet einen Überblick über die Architektur.
 
-![Diagramm, das Teams VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
+![Diagramm, das Teams zur VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > Wenn Sie derzeit Teams ohne AV-Optimierung in VDI ausführen und Features verwenden, die noch nicht für die Optimierung unterstützt sind (z. B. das Geben und Übernehmen von Kontrolle beim Freigeben von Apps), müssen Sie Richtlinien für Virtualisierungsanbieter festlegen, um die Teams-Umleitung zu deaktivieren. Dies bedeutet, dass Teams-Mediensitzungen nicht optimiert werden. Schritte zum Festlegen von Richtlinien zum Deaktivieren der Teams-Umleitung erhalten Sie von Ihrem Virtualisierungsanbieter.
@@ -413,7 +408,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
 
-Wenn benutzer mit dieser VDI-Richtlinieneinstellung -DisableCallsAndMeetings $true, sich bei Teams mit VDI anmelden, sollten sie nicht in der Lage sein,
+Wenn sich Benutzer mit dieser VDI-Richtlinieneinstellung -DisableCallsAndMeetings $true bei Teams mit VDI anmelden müssen, sollten sie nicht in der Lage sein,
 
 - Anrufe.
 - Nehmen Sie an Besprechungen teil.
@@ -472,7 +467,7 @@ if($cleanup){
 ### <a name="client-deployment-installation-and-setup"></a>Clientbereitstellung, -installation und -setup
 
 - Bei einer computerbasierten Installation wird Teams auf VDI nicht automatisch aktualisiert, wie es bei Nicht-VDI-Teams-Clients der Fall ist. Sie müssen das VM-Image aktualisieren, indem Sie eine neue MSI installieren, wie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi) beschrieben. Sie müssen zum Aktualisieren der Teams-App die aktuelle Version deinstallieren, um auf eine neuere Version aktualisieren zu können.
-- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung zum virtuellen Citrix-Computer trennen.
+- Wenn der Benutzer in Citrix-Umgebungen die Verbindung zum virtuellen Computer trennt, während Teams ausgeführt wird, können Teams-Updates dazu führen, dass sich der Benutzer beim erneuten Verbinden in einem nicht optimierten Zustand für AV befindet. Um dieses Szenario zu vermeiden, sollten Benutzer die Teams beenden, bevor sie die Verbindung mit Citrix Virtual Machine trennen.
 - Teams sollten entweder auf Benutzer- oder Computerbasis bereitgestellt werden. Die Bereitstellung von Teams für parallele Bereitstellung auf Benutzer- und Computerbasis wird nicht unterstützt. Um entweder von der Computerbasis oder Benutzerbasis auf einen dieser Modi zu migrieren, führen Sie das Deinstallationsverfahren aus, und stellen Sie einen der beiden Modi erneut bereit.
 - Azure Virtual Desktop unterstützt zurzeit keine macOS- und Linux-basierten Clients.
 - Ein schneller Mandantenwechsel kann zu Problemen mit Anrufen bei VDI führen, z. B. dass die Bildschirmfreigabe nicht verfügbar ist. Durch einen Neustart des Clients werden diese Probleme minimiert.

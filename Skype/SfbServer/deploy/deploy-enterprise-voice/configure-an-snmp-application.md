@@ -1,28 +1,23 @@
 ---
 title: Konfigurieren einer SNMP-Anwendung in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: c4b4a736-3b2e-45b9-a965-19d22161ad57
 description: Konfigurieren Sie eine SNMP-Anwendung für die Arbeit mit E9-1-1 in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 9d173bf38f3462ce056b1517e4a5fa6f1a522212
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833941"
 ---
+
 # <a name="configure-an-snmp-application-in-skype-for-business-server"></a>Konfigurieren einer SNMP-Anwendung in Skype for Business Server
  
 Konfigurieren Sie eine SNMP-Anwendung für die Arbeit mit E9-1-1 in Skype for Business Server Enterprise-VoIP. 
@@ -36,7 +31,7 @@ Wenn eine SNMP-Anwendung installiert ist und der Standortinformationsdienst kein
   
 ### <a name="to-configure-the-snmp-application-url"></a>So konfigurieren Sie die URL für die SNMP-Anwendung
 
-1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Führen Sie das folgende Cmdlet aus, um die URL für die SNMP-Anwendung zu konfigurieren. 
     

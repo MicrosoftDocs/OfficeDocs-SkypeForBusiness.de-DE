@@ -1,27 +1,22 @@
 ---
 title: Topologie-Generator – Startdialogfeld
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.StartupDialog
+  - ms.lync.tb.StartupDialog
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8761008f-b239-4b95-bcd8-1011198dd070
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 description: 'Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung zu konfigurieren. Beim Start zeigt der Topologie-Generator ein Dialogfeld an, in dem die Quelle des Topologiedokuments gefragt wird. Sie wählen eine von drei Optionen aus:'
-ms.openlocfilehash: 3474fae9694fe3b2ba5fd2d82c36f63b9ce6c903
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865032"
 ---
+
 # <a name="topology-builder-startup-dialog"></a>Topologie-Generator – Startdialogfeld
  
 Sie starten den Topologie-Generator, um die Eigenschaften und die Konfiguration Ihrer Bereitstellung zu konfigurieren. Beim Start zeigt der Topologie-Generator ein Dialogfeld an, in dem die Quelle des Topologiedokuments gefragt wird. Sie wählen eine von drei Optionen aus:

@@ -1,30 +1,25 @@
 ---
 title: Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateFrontEndWithWacPage
+  - ms.lync.tb.AssociateFrontEndWithWacPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 49dc1a92-970b-4372-a3a2-2c714a52b1c3
-ROBOTS: NOINDEX, NOFOLLOW
-description: Der Office Web Apps-Server bietet Dienste ähnlich wie ein Referent, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht aber zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
-ms.openlocfilehash: 0f0686326a7150bd87037e758b678b219542f3a0
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831259"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Der Office Web Apps-Server bietet Dienste, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, bietet aber zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.'
 ---
+
 # <a name="associate-front-end-with-office-web-apps-server-page"></a>Zuordnen des Front-Ends zum Office Web Apps-Server – Seite
 
-Der Office Web Apps-Server bietet Dienste ähnlich wie ein Referent, der ein Dokument zur Verwendung in einer Besprechung hochlädt, ermöglicht aber zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
+Der Office Web Apps-Server bietet Dienste, die einem Referenten ähneln, der ein Dokument zur Verwendung in einer Besprechung hochlädt, bietet aber zusätzliche Features, die in den vorherigen Versionen nicht verfügbar waren.
 
 Sie wählen einen Office Web Apps-Server für Ihre Bereitstellung aus, wenn Sie Konferenzen als eine der Featureoptionen für Ihre Skype for Business Server-Konfiguration ausgewählt haben.
 

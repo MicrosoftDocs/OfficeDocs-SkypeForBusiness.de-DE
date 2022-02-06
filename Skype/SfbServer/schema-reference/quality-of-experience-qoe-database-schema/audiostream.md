@@ -1,34 +1,29 @@
 ---
 title: AudioStream-Tabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 49ccbbc3-2f73-45fc-80a6-e612535cbc10
 description: Jeder Datensatz stellt einen Audiodatenstrom dar. Eine Audiomedienzeile enthält in der Regel zwei Audiodatenströme.
-ms.openlocfilehash: b9a5e184a258115934d3583e4f6cde8f659fb9fe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60856422"
 ---
+
 # <a name="audiostream-table"></a>AudioStream-Tabelle
  
 Jeder Datensatz stellt einen Audiodatenstrom dar. Eine Audiomedienzeile enthält in der Regel zwei Audiodatenströme.
   
 |Spalte|Datentyp|Schlüssel/Index|Details|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |**StreamID** <br/> |int  <br/> |Primary  <br/> |Eindeutige ID innerhalb einer Medienzeile.  <br/> |
 |**JitterInterArrival** <br/> |int  <br/> | <br/> |Durchschnittlicher Netzwerkjitter aus RTCP-Statistik (Real Time Control Protocol).  <br/> |
 |**JitterInterArrivalMax** <br/> |int  <br/> | <br/> |Maximaler Netzwerkjitter während des Anrufs.  <br/> |
@@ -77,9 +72,9 @@ Jeder Datensatz stellt einen Audiodatenstrom dar. Eine Audiomedienzeile enthält
 |**RelativeOneWayTotal** <br/> |Gleitkommazahl  <br/> ||Gesamter Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayAverage** <br/> |Gleitkommazahl  <br/> ||Durchschnittlicher Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayMax** <br/> |Gleitkommazahl  <br/> ||Maximaler Umfang der unidirektionalen Latenz. Die relative unidirektionale Latenz misst die Verzögerung zwischen Client und Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
-|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbare Brüche anstatt in einen beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RelativeOneWayBurstOccurrences** <br/> |int  <br/> ||Undirektionale Burstvorkommen insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RelativeOneWayBurstDensity** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdichte insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
+|**RelativeOneWayBurstDuration** <br/> |Gleitkommazahl  <br/> ||Undirektionale Burstdauer insgesamt. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen und nicht in einem beständigen Datenstrom fließen. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayGapOccurrences** <br/> |int  <br/> ||Gesamtzahl der vorkommende unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayGapDensity** <br/> |Gleitkommazahl  <br/> ||Gesamtdichte der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |
 |**RelativeOneWayGapDuration** <br/> |Gleitkommazahl  <br/> ||Gesamtdauer der unidirektionale Lücke. Eine "stürmige" Übertragung ist eine Übertragung, bei der Daten in unvorhersehbaren Brüchen im Gegensatz zu einem beständigen Datenstrom fließen. Lücken deuten auf Verzögerungen zwischen diesen Datenspitzen hin. Diese Metrik misst den Datenfluss zwischen dem Client und dem Server.  <br/> Diese Spalte wurde in Microsoft Lync Server 2013 eingeführt.  <br/> |

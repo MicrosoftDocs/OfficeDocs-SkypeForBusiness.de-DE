@@ -1,35 +1,30 @@
 ---
-title: Planen von Netzwerkanforderungen für Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Planen der Netzwerkanforderungen für Skype for Business
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 35c7bb3f-8e0f-48b7-8a2c-857d4b42a4c4
-description: 'Zusammenfassung: Überprüfen Sie die unten aufgeführten Überlegungen zur Netzwerkkomponente, bevor Sie Skype for Business Server implementieren.'
-ms.openlocfilehash: 3e5912cb00bb704afdfc5d568b66711a1ddf472f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864702"
+description: 'Zusammenfassung: Überprüfen Sie die nachstehenden Überlegungen zur Netzwerkkomponente, bevor Sie Skype for Business Server implementieren.'
 ---
-# <a name="plan-network-requirements-for-skype-for-business"></a>Planen von Netzwerkanforderungen für Skype for Business
+
+# <a name="plan-network-requirements-for-skype-for-business"></a>Planen der Netzwerkanforderungen für Skype for Business
 
 **Zusammenfassung:** Überprüfen Sie die nachstehenden Überlegungen zur Netzwerkkomponente, bevor Sie Skype for Business Server implementieren.
 
 Die Informationen in diesen Themen werden auch im Whitepaper ["Netzwerkplanung, Überwachung und Problembehandlung mit Lync Server" mit](https://www.microsoft.com/download/details.aspx?id=39084) zusätzlichen Details und Tiefe erläutert. Während sich der Inhalt explizit auf Lync 2010 und Lync 2013 bezieht, sind die Überlegungen für Skype for Business Server unverändert.
 
-Ebenso ist das Whitepaper ["Delivering Lync 2013 Real-Time Communications over WI-Fi"](https://www.microsoft.com/download/details.aspx?id=36494) eine gute Referenz und gilt auch für Skype for Business Server, wenn Ihr Netzwerk wlan- und kabelgebundenen Zugriff umfasst.
+Ebenso ist das Whitepaper ["Delivering Lync 2013 Real-Time Communications over WI-Fi](https://www.microsoft.com/download/details.aspx?id=36494)" eine gute Referenz und gilt auch für Skype for Business Server, wenn Ihr Netzwerk WLAN und kabelgebundenen Zugriff umfasst.
 
 <!-- Deprecated tools
 Network performance and needs are directly linked to the traffic load placed on them. When planning your network and server implementations we recommend making use of the [Skype for Business Server 2015 Planning Tool](../../management-tools/planning-tool/planning-tool.md), the [Skype for Business Server 2015 Capacity Planning Calculator](../../management-tools/capacity-planning-calculator.md), and the [Skype for Business Server 2015 Stress and Performance Tool](../../management-tools/stress-and-performance-tool/stress-and-performance-tool.md).    -->
@@ -39,7 +34,7 @@ Network performance and needs are directly linked to the traffic load placed on 
 
 Der Netzwerkadapter jedes Servers in der Skype for Business Server Topologie muss mindestens 1 Gigabit pro Sekunde (GBit/s) unterstützen. Im Allgemeinen sollten Sie alle Serverrollen innerhalb der Skype for Business Server-Topologie mit einer geringen Latenz und einem LAN (Local Area Network) mit hoher Bandbreite verbinden. Die Größe des LAN hängt von der Größe der Topologie ab:
 
-- In Standard Edition Topologien sollten sich Die Server in einem Netzwerk befinden, das 1 GBit/s Ethernet oder eine entspreche unterstützt.
+- In Standard Edition Topologien sollten sich Server in einem Netzwerk befinden, das 1 GBit/s Ethernet oder ein entsprechendes Netzwerk unterstützt.
 
 - In Enterprise Edition Topologien sollten sich die meisten Server in einem Netzwerk befinden, das mehr als 1 GBit/s unterstützt, insbesondere bei der Unterstützung von Audio-/Videokonferenzen (A/V) und Anwendungsfreigabe.
 
@@ -48,30 +43,30 @@ Zur Integration in das Telefonfestnetz (Public Switched Telephone Network, PSTN)
 ## <a name="audiovideo-network-requirements"></a>Netzwerkanforderungen für Audio/Video
 <a name="AV_req"> </a>
 
-Die Netzwerkanforderungen für Audio/Video (A/V) in einer Skype for Business Server Bereitstellung umfassen Folgendes:
+Zu den Netzwerkanforderungen für Audio/Video (A/V) in einer Skype for Business Server Bereitstellung gehören:
 
-- Wenn Sie einen einzelnen Edgeserver oder einen Edgepool mithilfe des DNS-Lastenausgleichs bereitstellen, können Sie die  _externe_ Firewall für die Netzwerkadressübersetzung (Network Address Translation, NAT) konfigurieren. Sie können die _interne_ Firewall nicht so konfigurieren, dass NAT ausgeführt wird. Ausführliche Informationen finden Sie unter [Port- und Firewallplanung.](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning)
+- Wenn Sie einen einzelnen Edgeserver oder einen Edgepool mithilfe des DNS-Lastenausgleichs bereitstellen, können Sie die  _externe_ Firewall für die Netzwerkadressübersetzung (Network Address Translation, NAT) konfigurieren. Sie können die _interne_ Firewall nicht so konfigurieren, dass NAT ausgeführt wird. Ausführliche Informationen finden Sie unter [Port- und Firewallplanung](../edge-server-deployments/edge-environmental-requirements.md#port-and-firewall-planning).
 
     > [!IMPORTANT]
-    > Wenn Sie über einen Edgepool verfügen und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen auf den Edgeservern und keine NAT für die Server oder den Pool auf Ihrem NAT-fähigen Gerät (z. B. eine Firewall-Appliance oder einen LAN-Switch) verwenden. Ausführliche Informationen finden Sie [unter Edgeserverszenarien in Skype for Business Server.](../edge-server-deployments/scenarios.md)
+    > Wenn Sie über einen Edgepool verfügen und ein Hardwaregerät zum Lastenausgleich verwenden, müssen Sie öffentliche IP-Adressen auf den Edgeservern und keine NAT für die Server oder den Pool auf Ihrem NAT-fähigen Gerät (z. B. eine Firewall-Appliance oder einen LAN-Switch) verwenden. Ausführliche Informationen finden Sie [unter Edgeserverszenarien in Skype for Business Server](../edge-server-deployments/scenarios.md).
 
 - Wenn Ihre Organisation eine QoS-Infrastruktur (Quality of Service) verwendet, wird das Mediensubsystem auf den Betrieb innerhalb der vorhandenen Infrastruktur ausgelegt.
 
-- Wenn Sie IPsec (Internet Protocol Security) verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von A/V-Datenverkehr verwendet werden. Ausführliche Informationen finden Sie unter [IPsec-Ausnahmen.](#ipsec-exceptions)
+- Wenn Sie IPsec (Internet Protocol Security) verwenden, wird empfohlen, IPsec für die Portbereiche zu deaktivieren, die für die Übertragung von A/V-Datenverkehr verwendet werden. Ausführliche Informationen finden Sie unter [IPsec-Ausnahmen](#ipsec-exceptions).
 
 Führen Sie die folgenden Schritte aus, um eine optimale Medienqualität bereitzustellen:
 
 - Stellen Sie die Netzwerkverbindungen bereit, um den Durchsatz von 65 Kilobit pro Sekunde (KBit/s) pro Audiodatenstrom und 500 KBit/s pro Videostream zu unterstützen, sofern diese aktiviert sind, während Spitzenauslastungszeiten. Eine bidirektionale Audio- oder Videositzung verwendet zwei Datenströme, sodass für eine einfache Audio-/Telefonverbindung 130 KBit/s erforderlich sind, um jeden Stream abzudecken. Video verwendet ebenfalls insgesamt 1000 KBit/s, um eine upstream- und downstream-Verbindung zu übertragen.
 
-- Um unerwartete Datenverkehrsspitzen und eine höhere Nutzung im Laufe der Zeit zu bewältigen, können sich Skype for Business Server Medienendpunkte an unterschiedliche Netzwerkbedingungen anpassen und den dreifachen Durchsatz für Audio und Video unterstützen und gleichzeitig eine akzeptable Qualität beibehalten. Gehen Sie nicht davon aus, dass diese Anpassungsfähigkeit das Problem überdecken wird, wenn ein Netzwerk nicht bereitgestellt wird. In einem nicht bereitgestellten Netzwerk wird die Fähigkeit der Skype for Business Server Medienendpunkte, dynamisch mit variierenden Netzwerkbedingungen umzugehen (z. B. temporärer hoher Paketverlust), verringert.
+- Um unerwartete Spitzen beim Datenverkehr und eine höhere Nutzung im Laufe der Zeit zu bewältigen, können sich Skype for Business Server Medienendpunkte an unterschiedliche Netzwerkbedingungen anpassen und den dreifachen Durchsatz für Audio und Video unterstützen und gleichzeitig eine akzeptable Qualität beibehalten. Gehen Sie nicht davon aus, dass diese Anpassungsfähigkeit das Problem überdecken wird, wenn ein Netzwerk nicht bereitgestellt wird. In einem nicht bereitgestellten Netzwerk verringert sich die Fähigkeit der Skype for Business Server Medienendpunkte, dynamisch mit variierenden Netzwerkbedingungen umzugehen (z. B. temporärer hoher Paketverlust).
 
-- Bei Netzwerkverbindungen, bei denen die Bereitstellung sehr kostspielig und schwierig ist, müssen Sie möglicherweise die Bereitstellung für ein geringeres Datenverkehrsvolumen in Betracht ziehen. Lassen Sie in diesem Szenario die Auslastung der Skype for Business Server Medienendpunkte den Unterschied zwischen dem Datenverkehrsvolumen und dem Spitzendatenverkehr auffangen, und dies zu Lasten einer gewissen Reduzierung der VoIP-Qualität. Außerdem wird der Headroom verringert, da andernfalls plötzliche Spitzen im Datenverkehr aufgefangen werden können.
+- Bei Netzwerkverbindungen, bei denen die Bereitstellung sehr kostspielig und schwierig ist, müssen Sie möglicherweise die Bereitstellung für ein geringeres Datenverkehrsvolumen in Betracht ziehen. Lassen Sie in diesem Szenario die Ausfallsicherheit der Skype for Business Server Medienendpunkte den Unterschied zwischen dem Datenverkehrsvolumen und der Spitzendatenverkehrsebene auffangen, was zu einer gewissen Reduzierung der VoIP-Qualität führen kann. Außerdem wird der Headroom verringert, da andernfalls plötzliche Spitzen im Datenverkehr aufgefangen werden können.
 
 - Für Links, die kurzfristig nicht ordnungsgemäß bereitgestellt werden können (z. B. ein Standort, der sehr schlechte WAN-Verbindungen verwendet), sollten Sie die Videofunktion für bestimmte Benutzer deaktivieren.
 
 - Stellen Sie das Netzwerk bereit, um eine maximale End-to-End-Verzögerung (Latenz) von 150 Millisekunden (ms) unter Spitzenlast zu gewährleisten. Latenz ist die einzige Netzwerkbeeinträchtigung, die Skype for Business Server Medienkomponenten nicht reduzieren können, und es ist wichtig, die Schwachstellen zu finden und zu beseitigen.
 
-- Schließen Sie für Server, auf denen Antivirensoftware ausgeführt wird, alle Server, auf denen Skype for Business Server ausgeführt wird, in die Ausnahmeliste ein, um eine optimale Leistung und Audioqualität zu gewährleisten.
+- Fügen Sie für Server, auf denen Antivirensoftware ausgeführt wird, alle Server, auf denen Skype for Business Server ausgeführt werden, in die Ausnahmeliste ein, um eine optimale Leistung und Audioqualität bereitzustellen.
 
 ## <a name="ipsec-exceptions"></a>IPsec-Ausnahmen
 
@@ -154,15 +149,15 @@ Die Stereoversion des G.722-Codecs wird von Systemen verwendet, die auf dem Lync
 |H.264  <br/> |1280 x 192 (20:3)  <br/> |1000  <br/> |250  <br/> |
 |H.264  <br/> |1920 x 288 (20:3)  <br/> |2000  <br/> |500  <br/> |
 
-Der Standardcodec für Video ist der Standard H.264/MPEG-4 Part 10 Advanced Video Coding, zusammen mit den skalierbaren Videocodierungserweiterungen für die zeitliche Skalierbarkeit. Um die Interoperabilität mit Legacyclients aufrechtzuerhalten, wird der RTVideo-Codec weiterhin für Peer-to-Peer-Anrufe zwischen Skype for Business Server und Legacyclients verwendet. In Konferenzsitzungen mit Skype for Business Server und älteren Clients kann der Skype for Business Server Endpunkt das Video mit beiden Videocodecs codieren und den H.264-Bitstream an die Skype for Business Server-Clients und den RTVideo-Bitstream an Legacyclients senden.
+Der Standardcodec für Video ist der Standard H.264/MPEG-4 Part 10 Advanced Video Coding, zusammen mit den skalierbaren Videocodierungserweiterungen für die zeitliche Skalierbarkeit. Um die Interoperabilität mit Legacyclients aufrechtzuerhalten, wird der RTVideo-Codec weiterhin für Peer-to-Peer-Anrufe zwischen Skype for Business Server und Legacyclients verwendet. In Konferenzsitzungen mit Skype for Business Server- und Legacyclients kann der Skype for Business Server-Endpunkt das Video mit beiden Videocodecs codieren und den H.264-Bitstream an die Skype for Business Server-Clients und den RTVideo-Bitstream an Legacyclients senden.
 
 Die erforderliche Bandbreite hängt von der Auflösung, Qualität, Bildfrequenz und der Menge der Bewegung oder Änderung im Bild ab. Für jede Auflösung gibt es zwei relevante Bitraten:
 
 - **Bitrate mit maximaler Nutzlast** Dies ist die Bitrate, die ein Endpunkt für die Auflösung mit der maximalen Framerate verwendet. Dies ist der Wert, der die höchste Video- und Tonqualität zulässt.
 
-- **Minimale Nutzlastbitrate** Dies ist die Bitrate, unter der ein Skype for Business Server Endpunkt zur nächsten niedrigeren Auflösung wechselt. Um eine bestimmte Auflösung zu gewährleisten, darf die verfügbare Bitrate der Videonutzlast nicht unter diese minimale Bitrate für diese Auflösung fallen. Dieser Wert hilft Ihnen, den niedrigsten wert zu verstehen, der möglich ist, wenn die maximale Bitrate nicht verfügbar oder praktisch ist. Für einige Benutzer kann ein solches Video mit niedriger Bitrate eine inakzeptable Videoumgebung bieten. Seien Sie daher mit diesen Mindest-Videonutzlastbitraten vorsichtig. Beachten Sie, dass bei statischen, sich nicht ändernden Videoszenen die tatsächliche Bitrate vorübergehend unter die minimale Bitrate fällt.
+- **Minimale Nutzlastbitrate** Dies ist die Bitrate, unter der ein Skype for Business Server Endpunkt zur nächst niedrigeren Auflösung wechselt. Um eine bestimmte Auflösung zu gewährleisten, darf die verfügbare Bitrate der Videonutzlast nicht unter diese minimale Bitrate für diese Auflösung fallen. Dieser Wert hilft Ihnen, den niedrigsten wert zu verstehen, der möglich ist, wenn die maximale Bitrate nicht verfügbar oder praktisch ist. Für einige Benutzer kann ein solches Video mit niedriger Bitrate eine inakzeptable Videoumgebung bieten. Seien Sie daher mit diesen Mindest-Videonutzlastbitraten vorsichtig. Beachten Sie, dass bei statischen, sich nicht ändernden Videoszenen die tatsächliche Bitrate vorübergehend unter die minimale Bitrate fällt.
 
-Skype for Business Server unterstützt viele Auflösungen. Dadurch können Skype for Business Server sich an die unterschiedliche Netzwerkbandbreite und empfangende Clientfunktionen anpassen. Das Standardseitenverhältnis für Skype for Business Server ist 16:9. Das alte 4:3-Seitenverhältnis wird weiterhin für Webcams unterstützt, die keine Erfassung im 16:9-Seitenverhältnis zulassen.
+Skype for Business Server unterstützt viele Auflösungen. Auf diese Weise können Skype for Business Server sich an die unterschiedliche Netzwerkbandbreite und empfangende Clientfunktionen anpassen. Das Standardseitenverhältnis für Skype for Business Server ist 16:9. Das alte 4:3-Seitenverhältnis wird weiterhin für Webcams unterstützt, die keine Erfassung im 16:9-Seitenverhältnis zulassen.
 
 Video FEC ist immer in der Videonutzlast-Bitrate enthalten, wenn es verwendet wird, sodass es keine separaten Werte für Video-FEC und ohne Video-FEC gibt.
 
@@ -202,7 +197,7 @@ Für die Kapazitätsplanung sind die folgenden beiden Statistiken von Interesse:
 
 - **Maximale Bandbreite mit FEC** Die maximale Bandbreite, die ein Datenstrom verbraucht. Dazu gehören die typische Aktivität des Datenstroms und der typische Codec, der im Szenario mit FEC verwendet wird. Hierbei handelt es sich um die Bandbreite, die benötigt wird, wenn die Streamaktivität bei 100 % liegt und ein Paketverlust auftritt, der eine Vorwärtsfehlerkorrektur zur Verbesserung der Qualität auslöst. Dies ist nützlich, um zu berechnen, wie viel Bandbreite zugewiesen werden muss, damit der Codec in einem bestimmten Szenario verwendet werden kann, und die Verwendung von FEC, um die Qualität unter Paketverlustbedingungen zu erhalten.
 
-Die folgenden Tabellen enthalten auch einen zusätzlichen Bandbreitenwert, **typische Bandbreite.** Dies ist die durchschnittliche Bandbreite, die ein Datenstrom verbraucht. Dazu gehören die typische Aktivität des Datenstroms und der typische Codec, der in dem Szenario verwendet wird. Diese Bandbreite kann verwendet werden, um zu ermitteln, wie viel Bandbreite von Mediendatenverkehr zu einem bestimmten Zeitpunkt verbraucht wird, sollte jedoch nicht für die Kapazitätsplanung verwendet werden, da einzelne Anrufe diesen Wert überschreiten, wenn die Aktivitätsstufe größer als der Durchschnitt ist. Die typische Bandbreite des Videodatenstroms in den folgenden Tabellen basiert auf einer Mischung verschiedener Videoauflösungen, wie in gemessenen Kundendaten beobachtet, und kleinere Installationen weisen wahrscheinlich tatsächliche Zahlen auf, die sich von den Tabellendaten unterscheiden. Beispielsweise würden die meisten Benutzer in Peer-zu-Peer-Sitzungen das Standardfenster für das Videorendering verwenden, während einige Prozent der Benutzer die Skype for Business Server Anwendung erhöhen oder maximieren würden, um bessere Videoauflösungen zu ermöglichen.
+In den folgenden Tabellen ist auch ein zusätzlicher Bandbreitenwert aufgeführt, **die typische Bandbreite**. Dies ist die durchschnittliche Bandbreite, die ein Datenstrom verbraucht. Dazu gehören die typische Aktivität des Datenstroms und der typische Codec, der in dem Szenario verwendet wird. Diese Bandbreite kann verwendet werden, um zu ermitteln, wie viel Bandbreite von Mediendatenverkehr zu einem bestimmten Zeitpunkt verbraucht wird, sollte jedoch nicht für die Kapazitätsplanung verwendet werden, da einzelne Anrufe diesen Wert überschreiten, wenn die Aktivitätsstufe größer als der Durchschnitt ist. Die typische Bandbreite des Videodatenstroms in den folgenden Tabellen basiert auf einer Mischung verschiedener Videoauflösungen, wie in gemessenen Kundendaten beobachtet, und kleinere Installationen weisen wahrscheinlich tatsächliche Zahlen auf, die sich von den Tabellendaten unterscheiden. In Peer-to-Peer-Sitzungen würden die meisten Benutzer beispielsweise das Standardfenster für das Videorendering verwenden, während einige Prozent der Benutzer die Skype for Business Server Anwendung erhöhen oder maximieren würden, um bessere Videoauflösungen zu ermöglichen.
 
 Die folgenden Tabellen enthalten Werte für die verschiedenen Szenarien.
 
@@ -227,7 +222,7 @@ Die folgenden Tabellen enthalten Werte für die verschiedenen Szenarien.
 |Hauptvideo, Empfang  <br/> |H.264 und RTVideo  <br/> |260  <br/> |8015  <br/> |Nicht zutreffend  <br/> |
 |Hauptvideo, Senden  <br/> |H.264 und RTVideo  <br/> |270  <br/> |8015  <br/> |Nicht zutreffend  <br/> |
 |Panoramavideo, Empfang  <br/> |H.264 und RTVideo  <br/> |190  <br/> |2010 (für eine maximale Auflösung von 1920x288)  <br/> |Nicht zutreffend  <br/> |
-|Panoramavideo, Senden  <br/> |H.264 und RTVideo  <br/> |190  <br/> |2515 ²  <br/> |Nicht anwendbar  <br/> |
+|Panoramavideo, Senden  <br/> |H.264 und RTVideo  <br/> |190  <br/> |2515 ²  <br/> |Nicht zutreffend  <br/> |
 
 1. RT Video wird zusätzlich zu H.264 gesendet, wenn Lync 2010-Clients mit der Konferenz verbunden sind.
 
@@ -266,13 +261,13 @@ Skype for Business Server erfordert keine QoS, wird jedoch dringend empfohlen. W
 
 Skype for Business Server bietet vollständige Unterstützung für QoS: Das bedeutet, dass Organisationen, die QoS bereits verwenden, Skype for Business Server problemlos in ihre vorhandene Netzwerkinfrastruktur integrieren können. Dazu müssen Sie die folgenden Schritte ausführen:
 
-- [Aktivieren von QoS in Skype for Business Server für Geräte, die nicht auf Windows basieren.](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md) Standardmäßig ist QoS für Computer und andere Geräte (z. B. iPhones), auf denen andere Betriebssysteme ausgeführt werden, deaktiviert. Obwohl Sie Skype for Business Server verwenden können, um Quality of Service für Geräte zu aktivieren und zu deaktivieren, können Sie das Produkt in der Regel nicht verwenden, um die von diesen Geräten verwendeten DSCP-Codes zu ändern.
+- [Aktivieren von QoS in Skype for Business Server für Geräte, die nicht auf Windows basieren](../../manage/network-management/qos/enabling-qos-for-devices-that-are-not-based-on-windows.md). Standardmäßig ist QoS für Computer und andere Geräte (z. B. iPhones), auf denen andere Betriebssysteme ausgeführt werden, deaktiviert. Obwohl Sie Skype for Business Server verwenden können, um Quality of Service für Geräte zu aktivieren und zu deaktivieren, können Sie das Produkt in der Regel nicht verwenden, um die von diesen Geräten verwendeten DSCP-Codes zu ändern.
 
-- [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver.](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md) Sie müssen eine eindeutige Gruppe von Ports für unterschiedliche Pakettypen reservieren, beispielsweise für Audio und Video. Mit Skype for Business Server können Sie QoS nicht aktivieren oder deaktivieren, indem Sie einen Eigenschaftswert auf "True" oder "False" festlegen. Stattdessen aktivieren Sie QoS, indem Sie Portbereiche konfigurieren und dann Gruppenrichtlinien erstellen und anwenden. Wenn Sie später entscheiden, QoS nicht zu verwenden, können Sie QoS "deaktivieren", indem Sie die entsprechenden Gruppenrichtlinienobjekte entfernen.
+- [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Konferenz-, Anwendungs- und Vermittlungsserver](../../manage/network-management/qos/configuring-port-ranges-for-your-conferencing-application-and-mediation-servers.md). Sie müssen eine eindeutige Gruppe von Ports für unterschiedliche Pakettypen reservieren, beispielsweise für Audio und Video. Mithilfe von Skype for Business Server können Sie QoS nicht aktivieren oder deaktivieren, indem Sie einen Eigenschaftswert auf "True" oder "False" festlegen. Stattdessen aktivieren Sie QoS, indem Sie Portbereiche konfigurieren und dann Gruppenrichtlinien erstellen und anwenden. Wenn Sie später entscheiden, QoS nicht zu verwenden, können Sie QoS "deaktivieren", indem Sie die entsprechenden Gruppenrichtlinienobjekte entfernen.
 
-- [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver.](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md) Obwohl dies nicht erforderlich ist, können Sie Ihre Edgeserver für die Verwendung derselben Portbereiche wie die anderen Server konfigurieren. Das Konfigurieren einer QoS-Richtlinie erfolgt nur für die interne Seite Ihrer Edgeserver. Der Grund dafür ist, dass QoS für die Verwendung in Ihrem internen Netzwerk und nicht im Internet entwickelt wurde.
+- [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Edgeserver](../../manage/network-management/qos/configuring-port-ranges-for-your-edge-servers.md). Obwohl dies nicht erforderlich ist, können Sie Ihre Edgeserver für die Verwendung derselben Portbereiche wie die anderen Server konfigurieren. Das Konfigurieren einer QoS-Richtlinie erfolgt nur für die interne Seite Ihrer Edgeserver. Der Grund dafür ist, dass QoS für die Verwendung in Ihrem internen Netzwerk und nicht im Internet entwickelt wurde.
 
-- [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Diese Portbereiche gelten nur für Clientcomputer und unterscheiden sich in der Regel von den auf Ihren Servern konfigurierten Portbereichen. Beachten Sie, dass Skype for Business Server QoS nur für Windows 10 für Windows Betriebssysteme unterstützt.
+- [Konfigurieren von Portbereichen und einer Quality of Service-Richtlinie für Ihre Clients in Skype for Business Server](../../manage/network-management/qos/configuring-port-ranges-for-your-skype-clients.md). Diese Portbereiche gelten nur für Clientcomputer und unterscheiden sich in der Regel von den auf Ihren Servern konfigurierten Portbereichen. Beachten Sie, dass Skype for Business Server QoS nicht für andere Windows betriebssysteme als Windows 10 unterstützt.
 
 
 > [!NOTE]
@@ -285,6 +280,6 @@ QoS wird auch im Whitepaper ["Netzwerkplanung, Überwachung und Problembehandlun
 
 [Planen von IPv6 in Skype for Business](ipv6.md)
 
-[Lastenausgleichsanforderungen für Skype for Business](load-balancing.md)
+[Anforderungen an den Lastenausgleich für Skype for Business](load-balancing.md)
 
 [DNS-Anforderungen für Skype for Business Server](dns.md)

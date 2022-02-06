@@ -1,29 +1,24 @@
 ---
 title: Benutzer- und Clientauthentifizierung für Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 77f4b62a-f75c-424d-8f02-a6519090015d
-description: Ein vertrauenswürdiger Benutzer ist ein Benutzer, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition Server, Enterprise Edition Front-End-Server oder Director. Skype for Business Server nutzt Active Directory Domain Services als einziges, vertrauenswürdiges Back-End-Repository von Benutzeranmeldeinformationen.
-ms.openlocfilehash: c0c64bb269a80ca4241ec9f2d338817b05f1ff9d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60831829"
+description: 'Ein vertrauenswürdiger Benutzer ist ein Benutzer, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition Server, Enterprise Edition Front-End-Server oder Director. Skype for Business Server nutzt Active Directory Domain Services als einziges, vertrauenswürdiges Back-End-Repository von Benutzeranmeldeinformationen.'
 ---
+
 # <a name="user-and-client-authentication-for-skype-for-business-server"></a>Benutzer- und Clientauthentifizierung für Skype for Business Server
  
 Ein vertrauenswürdiger Benutzer ist ein Benutzer, dessen Anmeldeinformationen von einem vertrauenswürdigen Server in Skype for Business Server authentifiziert wurden. Dieser Server ist in der Regel ein Standard Edition Server, Enterprise Edition Front-End-Server oder Director. Skype for Business Server nutzt Active Directory Domain Services als einziges, vertrauenswürdiges Back-End-Repository von Benutzeranmeldeinformationen.
   
-Die Authentifizierung ist die Bereitstellung von Benutzerinformationen für einen vertrauenswürdigen Server. Skype for Business Server verwendet je nach Status und Speicherort des Benutzers die folgenden Authentifizierungsprotokolle.
+Die Authentifizierung ist die Bereitstellung von Benutzerinformationen für einen vertrauenswürdigen Server. Skype for Business Server verwendet je nach Status und Standort des Benutzers die folgenden Authentifizierungsprotokolle.
   
 - **Sicherheitsprotokoll MIT Kerberos Version 5** für interne Benutzer mit Active Directory-Anmeldeinformationen. Kerberos erfordert eine Clientverbindung zu den Active Directory-Domänendiensten. Aus diesem Grund kann es nicht zur Authentifizierung von Clients außerhalb der Unternehmensfirewall verwendet werden.
     
@@ -46,11 +41,11 @@ Benutzer mit gültigen Anmeldeinformationen, die von einem Verbundpartner ausges
   
 Die ICE- und TURN-Protokolle verwenden ebenfalls Digestabfrage wie in IETF TURN RFC beschrieben.
   
-Clientzertifikate bieten benutzern eine alternative Möglichkeit, von Skype for Business Server authentifiziert zu werden. Anstatt einen Benutzernamen und ein Kennwort anzugeben, verfügen Benutzer über ein Zertifikat und den privaten Schlüssel, der dem Zertifikat entspricht, das zum Beheben einer kryptografischen Herausforderung erforderlich ist. (Dieses Zertifikat muss einen Antragstellernamen oder einen alternativen Antragstellernamen aufweisen, der den Benutzer identifiziert und von einer Stammzertifizierungsstelle ausgestellt werden muss, die von Servern mit Skype for Business Server als vertrauenswürdig eingestuft wird, sich innerhalb des Gültigkeitszeitraums des Zertifikats befindet und nicht widerrufen wurde.) Um authentifiziert zu werden, müssen Benutzer nur eine persönliche Identifikationsnummer (PIN) eingeben. Zertifikate sind besonders nützlich für Telefone, Mobiltelefone und andere Geräte, auf denen es schwierig ist, einen Benutzernamen und ein Kennwort einzugeben.
+Clientzertifikate bieten eine alternative Möglichkeit für Benutzer, von Skype for Business Server authentifiziert zu werden. Anstatt einen Benutzernamen und ein Kennwort anzugeben, verfügen Benutzer über ein Zertifikat und den privaten Schlüssel, der dem Zertifikat entspricht, das zum Beheben einer kryptografischen Herausforderung erforderlich ist. (Dieses Zertifikat muss über einen Antragstellernamen oder einen alternativen Antragstellernamen verfügen, der den Benutzer identifiziert und von einer Stammzertifizierungsstelle ausgestellt werden muss, die von Servern, auf denen Skype for Business Server ausgeführt wird, vertrauenswürdig ist, innerhalb des Gültigkeitszeitraums des Zertifikats liegt und nicht widerrufen wurde.) Um authentifiziert zu werden, müssen Benutzer nur eine persönliche Identifikationsnummer (PIN) eingeben. Zertifikate sind besonders nützlich für Telefone, Mobiltelefone und andere Geräte, auf denen es schwierig ist, einen Benutzernamen und ein Kennwort einzugeben.
   
 ### <a name="cryptographic-requirements-due-to-asp-net-45"></a>Kryptografische Anforderungen aufgrund von ASP .NET 4.5 
 
-Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4.6 nicht unterstützt, was dazu führen kann, dass Skype Besprechungs-App nicht gestartet werden kann. Wenn ein Client AES als Computerschlüsselüberprüfungswert verwendet, müssen Sie den Computerschlüsselwert auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene Skype Besprechungs-App auf IIS zurücksetzen. Anweisungen finden Sie bei Bedarf unter [IIS 8.0 ASP.NET Configuration Management.](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management)
+Ab Skype for Business Server 2015 CU5 wird AES für ASP.NET 4.6 nicht unterstützt, was dazu führen kann, dass Skype Besprechungs-App nicht gestartet werden kann. Wenn ein Client AES als Computerschlüsselüberprüfungswert verwendet, müssen Sie den Computerschlüsselwert auf SHA-1 oder einen anderen unterstützten Algorithmus auf der Websiteebene Skype Besprechungs-App auf IIS zurücksetzen. Anweisungen finden Sie bei Bedarf unter [IIS 8.0 ASP.NET Configuration Management](/iis/get-started/whats-new-in-iis-8/iis-80-aspnet-configuration-management).
   
 Weitere unterstützte Werte sind:
   
@@ -60,4 +55,4 @@ Weitere unterstützte Werte sind:
     
 - HMACSHA512
     
-  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, da sie sich einmal in ASP.NET 4 befanden. [Kryptografieverbesserungen in ASP.NET 4.5, Pt. 2,](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/) enthält weitere Details.
+  Die Werte AES, 3DES und MD5 sind nicht mehr zulässig, da sie sich einmal in ASP.NET 4 befanden. [Kryptografieverbesserungen in ASP.NET 4.5, Pt. 2](https://blogs.msdn.microsoft.com/webdev/2012/10/23/cryptographic-improvements-in-asp-net-4-5-pt-2/), enthält weitere Details.

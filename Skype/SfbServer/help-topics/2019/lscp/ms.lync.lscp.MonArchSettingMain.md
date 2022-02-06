@@ -1,30 +1,25 @@
 ---
 title: Archivierungskonfiguration
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-- ms.lync.lscp.MonArchSettingMain
+  - ms.lync.lscp.MonArchSettingMain
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- CSH
+  - CSH
 ms.localizationpriority: medium
 ms.assetid: 9c2fd164-a9b8-40e6-a1c4-423a7fe34aba
-ROBOTS: NOINDEX, NOFOLLOW
-description: 'Sie verwenden Archivierungskonfigurationen, um die Archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:'
-ms.openlocfilehash: 8eba27c2fc132e97b6b9857a72f029b567890947
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828228"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'Sie verwenden Archivierungskonfigurationen, um archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:'
 ---
+
 # <a name="archiving-configuration"></a>Archivierungskonfiguration
  
-Sie verwenden Archivierungskonfigurationen, um die Archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:
+Sie verwenden Archivierungskonfigurationen, um archivierungsoptionen für Ihre Skype for Business Server Bereitstellung zu steuern, einschließlich der Aktivierung und Deaktivierung der folgenden Optionen:
   
 - Blockieren von Chat- und Konferenzsitzungen bei Archivierungsfehlern
     
@@ -66,7 +61,7 @@ Auf der Seite **Archivierungskonfiguration** sind die einzelnen Archivierungsric
     
   - **Archivierung deaktivieren**
     
-- **Aktualisieren** Sie können die Seite **"Archivierungskonfiguration"** aktualisieren, um den Status der Optionen aller Archivierungskonfigurationen zu überprüfen.
+- **Aktualisieren** Sie können die Seite **"Archivierungskonfiguration** " aktualisieren, um den Status der Optionen aller Archivierungskonfigurationen zu überprüfen.
     
-Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter ["Plan for archiving in Skype for Business Server",](../../../plan-your-deployment/archiving/archiving.md) ["Deploy archiving for Skype for Business Server"](../../../deploy/deploy-archiving/deploy-archiving.md)und ["Manage archiving in Skype for Business Server".](../../../manage/archiving/archiving.md)
+Ausführliche Informationen zu den Archivierungsfeatures und -funktionen, einschließlich Exchange Integration, finden Sie unter [Plan for archiving in Skype for Business Server](../../../plan-your-deployment/archiving/archiving.md), [Deploy archiving for Skype for Business Server](../../../deploy/deploy-archiving/deploy-archiving.md) und [Manage archiving in Skype for Business Server ](../../../manage/archiving/archiving.md).
 

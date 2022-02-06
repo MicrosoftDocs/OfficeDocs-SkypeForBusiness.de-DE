@@ -1,32 +1,27 @@
 ---
 title: tblRoleType
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1eac3a54-656a-40ac-b771-edfc64d6e34b
 description: tblRoleType ist eine statische Nachschlagetabelle mit Rollentypen und den zugehörigen Berechtigungssätzen.
-ms.openlocfilehash: 9771d18dda2f10b1e75aa3ea4058f60ed2b5cc76
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844048"
 ---
+
 # <a name="tblroletype"></a>tblRoleType
  
 tblRoleType ist eine statische Nachschlagetabelle mit Rollentypen und den zugehörigen Berechtigungssätzen.
   
 **Columns**
 
-|**Spalte**|**Type**|**Beschreibung**|
+|**Spalte**|**Typ**|**Beschreibung**|
 |:-----|:-----|:-----|
 |rtypeID  <br/> |int, nicht NULL  <br/> |Rollentyp-ID.  <br/> |
 |rtypeDesc  <br/> |nvarchar (256), not null  <br/> | Beschreibung des Rollentyps. Es gibt vier verfügbare Rollen: <br/>  Mitglied: Chatroommitglied <br/>  Manager: Chatroom-Manager <br/>  Sprachausgabe: Referent für einen Auditorium-Chatroom <br/>  Creator: Kann Chatrooms erstellen <br/> |

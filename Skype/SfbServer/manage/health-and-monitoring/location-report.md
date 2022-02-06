@@ -1,24 +1,19 @@
 ---
 title: Standortbericht in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: cb2f1551-1e21-4f13-a39d-91f5f9010ccf
 description: 'Zusammenfassung: Erfahren Sie mehr über den Standortbericht in Skype for Business Server.'
-ms.openlocfilehash: afbbf54e913146326ee49e6db051869fa2ac7aca
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862402"
 ---
+
 # <a name="location-report-in-skype-for-business-server"></a>Standortbericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Standortbericht in Skype for Business Server.
@@ -47,7 +42,7 @@ In der folgenden Tabelle sind die Filter aufgeführt, die Sie mit dem Standortbe
 |**Bis** <br/> |Enddatum und -uhrzeit für den Zeitraum. Wenn die Daten nach Stunden angezeigt werden sollen, geben Sie Enddatum und -uhrzeit wie folgt ein:  <br/> 7.07.2015 13:00 Uhr  <br/> Wenn Sie keinen Endzeitpunkt eingeben, endet der Bericht automatisch am angegebenen Tag um 12:00 Uhr. Zum Anzeigen der Daten nach Tag geben Sie nur das Datum ein:  <br/> 7/7/2015  <br/> Sollen die Daten nach Woche oder Monat angezeigt werden, geben Sie irgendein Datum ein, das in die anzuzeigende Woche oder den anzuzeigenden Monat fällt (Sie müssen nicht den ersten Tag der Woche oder des Monats eingeben):  <br/> 7/3/2015  <br/> Eine Woche läuft immer von Sonntag bis einschließlich Samstag.  <br/> |
 |**Standort des Anrufers** <br/> |IP-Subnetz des Benutzers, der den Anruf getätigt hat. Sie können nur **[Alle]** auswählen, um alle Subnetze anzugeben. <br/> |
 |**Standort des Angerufenen** <br/> |IP-Subnetz des Benutzers, der den Anruf empfangen hat. Sie können nur **[Alle]** auswählen, um alle Subnetze anzugeben. <br/> |
-|**Netzwerktyp** <br/> | Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Wired <br/>  Wireless <br/> |
+|**Netzwerktyp** <br/> | Gibt den Typ des Netzwerks an, mit dem der Client verbunden wurde, als der Anruf erfolgte. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  Wired <br/>  Drahtlos <br/> |
 |**VPN** <br/> | Gibt an, ob ein externer Client eine VPN-Verbindung (Virtual Private Network) verwendete, als der Anruf getätigt wurde. Wählen Sie eine der folgenden Optionen aus: <br/>  [Alle] <br/>  VPN <br/>  Nicht-VPN <br/> |
    
 ## <a name="metrics"></a>Metriken

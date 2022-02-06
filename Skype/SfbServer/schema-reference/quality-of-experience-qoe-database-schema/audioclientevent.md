@@ -1,34 +1,29 @@
 ---
 title: AudioClientEvent-Tabelle
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fef73d8f-7261-4e5b-9769-82435b007979
-description: Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
-ms.openlocfilehash: e51146211567af3abfe68fdc415814d433e84884
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843648"
+description: 'Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.'
 ---
+
 # <a name="audioclientevent-table"></a>AudioClientEvent-Tabelle
  
 Jeder Datensatz enthält ein Clientereignis für einen Endpunkt in einem Audioanruf. In der Regel hat ein Anruf zwei Datensätze, einen für den Anrufer und einen für den Angerufenen.
   
 |**Spalte**|**Datentyp**|**Schlüssel/Index**|**Details**|
 |:-----|:-----|:-----|:-----|
-|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
-|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle.](medialine-0.md)  <br/> |
+|**ConferenceDateTime** <br/> |Datum/Uhrzeit  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**SessionSeq** <br/> |int  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
+|**MediaLineLabel** <br/> |Tinyint  <br/> |Primary  <br/> |Referenziert aus der [MediaLine-Tabelle](medialine-0.md).  <br/> |
 |**FromCaller** <br/> |Bit  <br/> |Primary  <br/> |0: Daten des Angerufenen  <br/> 1: Anruferdaten  <br/> |
 |**NetworkSendQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, in der das NetworkSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der gesendeten Audiodaten aus.  <br/> |
 |**NetworkReceiveQualityEventRatio** <br/> |decimal(5,2)  <br/> | <br/> |Prozentsatz der Sitzung, für die das ReceiveSendQuality-Ereignis für den Status "Ungültig" ausgelöst wurde.  <br/> Die Netzwerkqualität im Hinblick auf Jitter oder Paketverlust ist schwerwiegend und wirkt sich auf die Qualität der empfangenen Audiodaten aus.  <br/> |

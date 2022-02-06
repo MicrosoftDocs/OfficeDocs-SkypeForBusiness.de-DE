@@ -1,26 +1,21 @@
 ---
 title: Verwalten von Netzwerksubnetzen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
-description: In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren.
-ms.openlocfilehash: 73a0f99fa35cd1b92194ce5b09d85a30d30b72e2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60843858"
+description: 'In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server Verwaltungsshell zu konfigurieren.'
 ---
+
 # <a name="managing-network-subnets-in-skype-for-business-server"></a>Verwalten von Netzwerksubnetzen in Skype for Business Server
 
-Sie können entweder die Skype for Business Server Systemsteuerung oder die Skype for Business Server Verwaltungsshell verwenden, um Netzwerksubnetze zu verwalten. In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren.
+Sie können entweder die Skype for Business Server Systemsteuerung oder die Skype for Business Server-Verwaltungsshell verwenden, um Netzwerksubnetze zu verwalten. In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server Verwaltungsshell zu konfigurieren.
 
 Verwenden Sie die Abschnitte in diesem Artikel, um Netzwerksubnetzinformationen anzuzeigen oder Netzwerksubnetze zu erstellen, zu ändern oder zu löschen. 
 
@@ -34,7 +29,7 @@ Mit dem folgenden Verfahren können Sie ein Netzwerksubnetz anzeigen. In der Sky
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Subnetz".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Subnetz"**.
 
 4.  Klicken Sie auf der Seite **Subnetz** auf das Subnetz, das Sie anzeigen möchten.
  
@@ -45,7 +40,7 @@ Mit dem folgenden Verfahren können Sie ein Netzwerksubnetz anzeigen. In der Sky
 
 ### <a name="view-network-subnet-configuration-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Informationen zur Netzwerksubnetzkonfiguration mithilfe Windows PowerShell Cmdlets
 
-Netzwerksubnetzinformationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSubnet angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
+Netzwerksubnetzinformationen können mithilfe von Windows PowerShell und dem Cmdlet Get-CsNetworkSubnet angezeigt werden. Dieses Cmdlet kann entweder über die Skype for Business Server Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausgeführt werden. 
 
 ### <a name="to-view-network-subnet-information"></a>So zeigen Sie Netzwerksubnetzinformationen an
 
@@ -69,7 +64,7 @@ Weitere Informationen finden Sie im Hilfethema für das Cmdlet [Get-CsNetworkSub
 
 Ein Netzwerksubnetz muss einem Netzwerkstandort zugeordnet sein, damit der geografische Standort und der zu diesem Subnetz gehörende Host ermittelt werden können. Sie können die Skype for Business Server Systemsteuerung verwenden, um Subnetze zu konfigurieren. In der Skype for Business Server Systemsteuerung können Sie ein Netzwerksubnetz erstellen, ändern oder löschen. 
 
-In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren. Von dort aus können Sie **New-CsNetworkSubnet** in Verbindung mit dem Windows PowerShell Cmdlet **Import-CSV** aufrufen. Wenn Sie diese beiden Cmdlets zusammen verwenden, können Sie die Subnetzeinstellungen aus einer durch Trennzeichen getrennten Datei (Comma-Separated Values, CSV) abrufen und mehrere Subnetze gleichzeitig erstellen. Beispiele für die Erstellung von Subnetzen aus einer CSV-Datei finden Sie unter [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
+In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server Verwaltungsshell zu konfigurieren. Von dort aus können Sie **New-CsNetworkSubnet** in Verbindung mit dem Windows PowerShell Cmdlet **Import-CSV** aufrufen. Wenn Sie diese beiden Cmdlets zusammen verwenden, können Sie die Subnetzeinstellungen aus einer durch Trennzeichen getrennten Datei (Comma-Separated Values, CSV) abrufen und mehrere Subnetze gleichzeitig erstellen. Beispiele für die Erstellung von Subnetzen aus einer CSV-Datei finden Sie unter [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-create-a-network-subnet"></a>So erstellen Sie ein Netzwerksubnetz
@@ -78,7 +73,7 @@ In den meisten Bereitstellungen von Skype for Business Server, in denen die Anru
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Subnetz".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Subnetz"**.
 
 4.  Klicken Sie auf der Seite **Subnetz** auf **Neu**.
 
@@ -102,7 +97,7 @@ In den meisten Bereitstellungen von Skype for Business Server, in denen die Anru
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Subnetz".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Subnetz"**.
 
 4.  Klicken Sie auf der Seite **Subnetz** auf das Subnetz, das Sie ändern möchten.
 
@@ -116,7 +111,7 @@ In den meisten Bereitstellungen von Skype for Business Server, in denen die Anru
 
 Mithilfe des folgenden Verfahrens können Sie ein Subnetz löschen. In der Skype for Business Server Systemsteuerung können Sie ein Netzwerksubnetz erstellen, ändern oder löschen. 
 
-In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server-Verwaltungsshell zu konfigurieren. Von dort aus können Sie **New-CsNetworkSubnet** in Verbindung mit dem Windows PowerShell Cmdlet **Import-CSV** aufrufen. Wenn Sie diese beiden Cmdlets zusammen verwenden, können Sie die Subnetzeinstellungen aus einer durch Trennzeichen getrennten Datei (Comma-Separated Values, CSV) abrufen und mehrere Subnetze gleichzeitig erstellen. Beispiele für die Erstellung von Subnetzen aus einer CSV-Datei finden Sie unter [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
+In den meisten Bereitstellungen von Skype for Business Server, in denen die Anrufsteuerung (Call Admission Control, CAC) implementiert ist, gibt es in der Regel eine große Anzahl von Subnetzen. Aus diesem Grund empfiehlt es sich häufig, Subnetze über die Skype for Business Server Verwaltungsshell zu konfigurieren. Von dort aus können Sie **New-CsNetworkSubnet** in Verbindung mit dem Windows PowerShell Cmdlet **Import-CSV** aufrufen. Wenn Sie diese beiden Cmdlets zusammen verwenden, können Sie die Subnetzeinstellungen aus einer durch Trennzeichen getrennten Datei (Comma-Separated Values, CSV) abrufen und mehrere Subnetze gleichzeitig erstellen. Beispiele für die Erstellung von Subnetzen aus einer CSV-Datei finden Sie unter [New-CsNetworkSubnet](/powershell/module/skype/New-CsNetworkSubnet).
 
 
 ### <a name="to-delete-a-network-subnet"></a>So löschen Sie ein Netzwerksubnetz
@@ -125,7 +120,7 @@ In den meisten Bereitstellungen von Skype for Business Server, in denen die Anru
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Subnetz".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf **"Subnetz"**.
 
 4.  Klicken Sie auf der Seite **Subnetz** auf das Subnetz, das Sie löschen möchten.
  

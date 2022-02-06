@@ -1,23 +1,19 @@
 ---
 title: Verknüpfen von Netzwerkregionen
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 description: 'Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. '
-ms.openlocfilehash: 718f9223749c86fdff5ce98d1d652a0a3f1a9fbc
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841177"
 ---
+
+
 # <a name="linking-network-regions-in-skype-for-business-server"></a>Verknüpfen von Netzwerkregionen in Skype for Business Server
 
 Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregionen konfigurieren. Verwenden Sie die Abschnitte in diesem Artikel, um Verknüpfungsinformationen zu neuen Regionen anzuzeigen oder Netwrok-Regionslinks zu konfigurieren oder zu löschen. 
@@ -33,7 +29,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionslink".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Regionslink**".
 
 4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie anzeigen möchten.
     
@@ -44,7 +40,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 
 ### <a name="view-network-region-link-information-by-using-windows-powershell-cmdlets"></a>Anzeigen von Netzwerkregionenverbindungsinformationen mithilfe Windows PowerShell Cmdlets
 
-Sie können Netzwerkregionenverbindungen mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsNetworkRegionLink"** anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. 
+Sie können Netzwerkregionenverbindungen mithilfe von Windows PowerShell und dem Cmdlet **"Get-CsNetworkRegionLink**" anzeigen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. 
 
 
 ### <a name="to-view-network-region-link-information"></a>So zeigen Sie die Informationen zu einer Netzwerkregionenverbindung an
@@ -55,7 +51,7 @@ Sie können Netzwerkregionenverbindungen mithilfe von Windows PowerShell und dem
     
     Es werden etwa folgende Informationen zurückgegeben:
     
-       Identity : NorthwestToCalifornia BWPolicyProfileID : NetworkRegionLinkID : NorthwestToCalifornia NetworkRegionID1 : Pacific Northwest NetworkRegionID2 : California
+       Identity            : NorthwestToCalifornia    BWPolicyProfileID   :    NetworkRegionLinkID : NorthwestToCalifornia    NetworkRegionID1    : Pacific Northwest    NetworkRegionID2    : California
 
 
 Für weitere Informationen, siehe [Get-CsNetworkRegionLink](/powershell/module/skype/Get-CsNetworkRegionLink).
@@ -71,7 +67,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionslink".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Regionslink**".
 
 4.  Klicken Sie auf der Seite **Regionenverbindung** auf **Neu**.
 
@@ -80,9 +76,9 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
     > [!NOTE]  
     > Dieser Wert muss innerhalb Ihrer Skype for Business Server Bereitstellung eindeutig sein.
 
-6.  Wählen Sie in der Dropdownliste **"Netzwerkregion \# 1"** eine der beiden zu verknüpfenden Regionen aus.
+6.  Wählen Sie in der Dropdownliste **"Netzwerkregion \#1** " eine der beiden zu verknüpfenden Regionen aus.
 
-7.  Wählen Sie in der Dropdownliste **"Netzwerkregion \# 2"** die andere Region aus, die verknüpft werden soll. Diese Region muss sich von der Region unterscheiden, die für die Netzwerkregion 1 ausgewählt \# wurde.
+7.  Wählen Sie in der Dropdownliste **"Netzwerkregion \#2** " die andere Region aus, die verknüpft werden soll. Diese Region muss sich von der Region unterscheiden, die für die Netzwerkregion \#1 ausgewählt wurde.
 
 8.  (Optional) Wenn Sie Bandbreitenbeschränkungen für Audio- oder Videoanrufe zwischen diesen Regionen festlegen möchten, wählen Sie ein Bandbreitenrichtlinienprofil in der Dropdownliste **Bandbreitenrichtlinie** aus.
 
@@ -94,7 +90,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionslink".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Regionslink**".
 
 4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie ändern möchten.
 
@@ -115,7 +111,7 @@ Sie können im Rahmen der Anrufsteuerung Verbindungen zwischen zwei Netzwerkregi
 
 2.  Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
 
-3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration"** und dann auf **"Regionslink".**
+3.  Klicken Sie in der linken Navigationsleiste auf **"Netzwerkkonfiguration**" und dann auf " **Regionslink**".
 
 4.  Klicken Sie auf der Seite **Regionenverbindung** auf die Regionenverbindung, die Sie löschen möchten.
  

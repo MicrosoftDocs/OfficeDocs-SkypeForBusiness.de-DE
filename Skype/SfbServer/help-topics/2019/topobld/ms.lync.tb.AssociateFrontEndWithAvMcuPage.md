@@ -1,27 +1,22 @@
 ---
 title: Zuordnen des Front-Ends zur A/V MCU
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.AssociateFrontEndWithAvMcuPage
+  - ms.lync.tb.AssociateFrontEndWithAvMcuPage
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 314e3b0b-9ca7-423b-9c8e-80eb6013d36f
-ROBOTS: NOINDEX, NOFOLLOW
-description: A/V-Konferenzen ermöglichen die Audio- und Videokommunikation zwischen Benutzern, sofern sie über die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen. Wenn Ihre Bereitstellung Konferenzen unterstützt und Sie sowohl Web- als auch A/V-Konferenzen aktivieren, können Sie den A/V-Konferenzserver mit dem Front-End-Server verbinden oder einen oder mehrere eigenständige A/V-Konferenzserver bereitstellen (A/V-Konferenzpool). Wenn Sie die Option zum Bereitstellen eines eigenständigen A/V-Konferenzservers auswählen, müssen Sie ihn im Topologie-Generator definieren.
-ms.openlocfilehash: 216df20b6dc3498c78301242c6c38aa0261936d7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60845658"
+ROBOTS: 'NOINDEX, NOFOLLOW'
+description: 'A/V-Konferenzen ermöglichen die Audio- und Videokommunikation zwischen Benutzern, sofern sie über die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen. Wenn Ihre Bereitstellung Konferenzen unterstützt und Sie sowohl Web- als auch A/V-Konferenzen aktivieren, können Sie den A/V-Konferenzserver mit dem Front-End-Server verbinden oder einen oder mehrere eigenständige A/V-Konferenzserver bereitstellen (A/V-Konferenzpool). Wenn Sie die Option zum Bereitstellen eines eigenständigen A/V-Konferenzservers auswählen, müssen Sie ihn im Topologie-Generator definieren.'
 ---
+
 # <a name="associate-front-end-with-av-mcu"></a>Zuordnen des Front-Ends zur AV MCU
  
 A/V-Konferenzen ermöglichen die Audio- und Videokommunikation zwischen Benutzern, sofern sie über die entsprechenden Clientgeräte wie Headsets für Audiokonferenzen und Webcams für Videokonferenzen verfügen. Wenn Ihre Bereitstellung Konferenzen unterstützt und Sie sowohl Web- als auch A/V-Konferenzen aktivieren, können Sie den A/V-Konferenzserver mit dem Front-End-Server verbinden oder einen oder mehrere eigenständige A/V-Konferenzserver bereitstellen (A/V-Konferenzpool). Wenn Sie die Option zum Bereitstellen eines eigenständigen A/V-Konferenzservers auswählen, müssen Sie ihn im Topologie-Generator definieren.

@@ -1,28 +1,23 @@
 ---
 title: Microsoft Teams-Besprechungen mit nicht unterstützten Browsern
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
 MS.collection:
-- M365-collaboration
+  - M365-collaboration
 ms.reviewer: nakulm
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Teams Audio und Video in nicht unterstützten Browsern funktioniert.
+description: 'Erfahren Sie, wie Teams Audio und Video in nicht unterstützten Browsern funktioniert.'
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: 51ba0ede8df0548288b2519d76220f50f28e4abe
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837447"
+  - Microsoft Teams
 ---
+
 # <a name="microsoft-teams-meetings-on-unsupported-browsers"></a>Microsoft Teams-Besprechungen mit nicht unterstützten Browsern
 
 Einige Browser, z. B. Internet Explorer 11, Safari und Firefox, unterstützen die Microsoft Teams Web App, jedoch nicht alle Anruf- und Besprechungsfunktionen von Teams. Um diese Einschränkung zu umgehen, ermöglicht die Teams Web App Benutzern das Empfangen von Audio über eine PSTN-Verbindung und das Anzeigen präsentierter Inhalte (bei Bildschirmfreigabe) mit reduzierter Anzeigerate.

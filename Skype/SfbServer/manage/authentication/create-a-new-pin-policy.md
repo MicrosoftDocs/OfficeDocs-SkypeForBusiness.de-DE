@@ -1,25 +1,20 @@
 ---
 title: Erstellen einer neuen PIN-Richtlinie in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 8bdf0478-fe9f-4371-93ff-db39381a25db
 description: 'Zusammenfassung: Erstellen einer neuen PIN-Richtlinie in Skype for Business Server.'
-ms.openlocfilehash: cf9a35c634c9b53b557601009fa131c3c24e7db2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60844208"
 ---
+
 # <a name="create-a-new-pin-policy-in-skype-for-business-server"></a>Erstellen einer neuen PIN-Richtlinie in Skype for Business Server
  
 **Zusammenfassung:** Erstellen Sie eine neue PIN-Richtlinie in Skype for Business Server.
@@ -30,7 +25,7 @@ Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- ode
   
 ### <a name="to-create-a-user-or-site-pin-policy"></a>So erstellen Sie eine PIN-Richtlinie auf Benutzer- oder Standortebene
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
@@ -56,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um eine PIN-Richtlinie auf Benutzer- ode
     
 11. Geben Sie unter **PIN-Verlaufszähler** die Anzahl von PINs ein, die ein Benutzer erstellen muss, bevor eine PIN erneut verwendet werden kann. In der Standardeinstellung können Benutzer ihre PINs erneut verwenden.
     
-12. Aktivieren Sie das Kontrollkästchen **"Allgemeine Muster** zulassen", um allgemeine Ziffernmuster in PINs zuzulassen, z. B. "1234" und "8888". Wenn Sie diese Option nicht aktivieren, sind nur komplexe Ziffernmuster zulässig. In der Standardeinstellung dürfen nur komplexe Ziffernmuster verwendet werden.
+12. Aktivieren Sie das Kontrollkästchen " **Allgemeine Muster** zulassen", um allgemeine Ziffernmuster in PINs zuzulassen, z. B. "1234" und "8888". Wenn Sie diese Option nicht aktivieren, sind nur komplexe Ziffernmuster zulässig. In der Standardeinstellung dürfen nur komplexe Ziffernmuster verwendet werden.
     
     > [!IMPORTANT]
     > Es wird empfohlen, die Verwendung gängiger Muster nicht zuzulassen. 

@@ -1,27 +1,22 @@
 ---
 title: Einstellungen für den Vermittlungsdienst für Lync Server 2010 – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/26/2015
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.MediationServiceSettingsExpander2010
+  - ms.lync.tb.MediationServiceSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 230e0a08-9e16-4bbd-b550-1f04bad8ddbc
 description: 'Sie bearbeiten die Eigenschaften des Vermittlungsdiensts, indem Sie die folgenden Eigenschaften definieren:'
-ms.openlocfilehash: 982d75a63818b3c548bcdea0e26504adfc5ff2e1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862562"
 ---
+
 # <a name="mediation-service-settings-expander-for-lync-server-2010"></a>Einstellungen für den Vermittlungsdienst für Lync Server 2010 – Erweiterung
  
 Sie bearbeiten die Eigenschaften des Vermittlungsdiensts, indem Sie die folgenden Eigenschaften definieren:

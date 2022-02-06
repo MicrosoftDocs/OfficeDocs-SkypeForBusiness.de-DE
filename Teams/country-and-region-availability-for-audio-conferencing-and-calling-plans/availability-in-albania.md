@@ -1,41 +1,36 @@
 ---
 title: Verfügbarkeit in Albanien
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: fafan
 ms.topic: reference
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 ms.collection:
-- M365-collaboration
-- M365-voice
+  - M365-collaboration
+  - M365-voice
 search.appverid: MET150
 audience: Admin
 appliesto:
-- Skype for Business
-- Microsoft Teams
+  - Skype for Business
+  - Microsoft Teams
 ms.localizationpriority: medium
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.custom:
-- Audio Conferencing
-- Phone System
-- Calling Plans
-description: Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams für Albanien.
-ms.openlocfilehash: b618c288f06c01a037a3c386d3d65baa7a0c25c3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858912"
+  - Audio Conferencing
+  - Phone System
+  - Calling Plans
+description: Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Albanien.
 ---
+
 # <a name="availability-in-albania"></a>Verfügbarkeit in Albanien
 
 [Suchen Sie nach einem anderen Land oder einer anderen Region](country-and-region-availability-for-audio-conferencing-and-calling-plans.md), oder erfahren Sie mehr über die Verfügbarkeit von Audiokonferenz und Anrufpläne in Ländern und Regionen.
 
-Hier finden Sie die Microsoft 365 und Office 365 Dienste für Skype for Business und Microsoft Teams für Albanien.
+Hier finden Sie die Microsoft 365 und Office 365 dienste für Skype for Business und Microsoft Teams für Albanien.
   
 ## <a name="audio-conferencing"></a>Audiokonferenzen
 
@@ -69,10 +64,10 @@ Wenn keine Anrufpläne zum Kauf verfügbar sind, ziehen Sie die Verwendung des [
 |**Feature**|**Details**|
 |:-----|:-----|
 |Für welche Haupt- oder Großstädte können gebührenpflichtige Telefonnummern bezogen werden?   | Guadana <br/> |
-|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage)](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md) <br/> |
+|Sind gebührenpflichtige Telefonnummern verfügbar?  <br/> |Ja ([auf Anfrage](../manage-phone-numbers-for-your-organization/contact-tns-service-desk.md)) <br/> |
 |Sind gebührenfreie Telefonnummern verfügbar?  <br/> |Nein  <br/> |
    
- Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für [Skype for Business und Microsoft Teams.](../getting-service-phone-numbers.md)
+ Wenn Sie gebührenpflichtige und gebührenfreie Telefonnummern für Audiokonferenzen, automatische Telefonkonferenzen und Anrufwarteschleifen erhalten möchten, lesen Sie Abrufen von Servicetelefonnummern für Skype for Business [und Microsoft Teams](../getting-service-phone-numbers.md).
   
 ## <a name="communications-credits"></a>Guthaben für Kommunikationen
 

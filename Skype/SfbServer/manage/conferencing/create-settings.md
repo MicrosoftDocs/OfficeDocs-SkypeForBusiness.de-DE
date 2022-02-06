@@ -1,24 +1,19 @@
 ---
 title: Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 6d8f9ff8-2a04-4175-9bf0-1ec5d78fd015
 description: 'Zusammenfassung: Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server erstellen.'
-ms.openlocfilehash: 1b0ba956e467f5b03036d8ef1d1629b4fc4dc517
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850028"
 ---
+
 # <a name="create-meeting-configuration-settings-in-skype-for-business-server"></a>Erstellen von Besprechungskonfigurationseinstellungen in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie, wie Sie Besprechungskonfigurationseinstellungen in Skype for Business Server erstellen.
@@ -31,13 +26,13 @@ Sie können Besprechungskonfigurationseinstellungen mithilfe Skype for Business 
     
 2.  Öffnen Sie Skype for Business Server Systemsteuerung.
     
-3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen",** und klicken Sie dann auf **"Besprechungskonfiguration".**
+3. Klicken Sie in der linken Navigationsleiste auf **"Konferenzen**", und klicken Sie dann auf **"Besprechungskonfiguration"**.
     
-4. Klicken Sie auf der Seite **"Besprechungskonfiguration"** auf **"Neu"** und führen Sie dann eine der folgenden Aktionen aus:
+4. Klicken Sie auf der Seite **"Besprechungskonfiguration** " auf **"Neu**", und führen Sie dann eine der folgenden Aktionen aus:
     
-    - Klicken Sie auf **"Standortkonfiguration",** um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Feld **"Websitesuche auswählen"** den Namen der Website, für die Sie Einstellungen für den Besprechungsbeitritt definieren möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
+    - Klicken Sie auf " **Standortkonfiguration**", um eine Richtlinie auf Standortebene zu erstellen. Geben Sie im Feld **"Websitesuche auswählen** " den Namen der Website, für die Sie Einstellungen für den Besprechungsbeitritt definieren möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Standorte auf den gewünschten Standort, und klicken Sie auf **OK**.
     
-    - Klicken Sie auf **"Poolkonfiguration",** um eine Richtlinie auf Poolebene zu erstellen. Geben Sie im Suchfeld **"Dienst auswählen"** den Namen des Pooldiensts, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Dienste auf den gewünschten Pool, und klicken Sie dann auf **OK.**
+    - Klicken Sie auf " **Poolkonfiguration**", um eine Richtlinie auf Poolebene zu erstellen. Geben Sie im Suchfeld " **Dienst auswählen** " den Namen des Pooldiensts, für den Sie Einstellungen für den Besprechungsbeitritt definieren möchten, ganz oder teilweise ein. Klicken Sie in der resultierenden Liste der Dienste auf den gewünschten Pool, und klicken Sie dann auf **OK**.
     
 5. Deaktivieren Sie das Kontrollkästchen **PSTN-Anrufer umgehen Lobby**, um Teilnehmer, die sich über das Festnetz einwählen, zunächst an die Lobby weiterzuleiten. In der Standardeinstellung gelangen Anrufer, die sich über das Festnetz einwählen, direkt zur Besprechung.
     
@@ -59,7 +54,7 @@ Sie können Besprechungskonfigurationseinstellungen mithilfe Skype for Business 
     
    - Um den Hilfetext anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in der **Hilfe-URL** den Speicherort des Hilfetexts ein.
     
-   - Um den rechtlichen Text anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in der URL des **Rechtstexts** den Speicherort des Rechtstexts ein.
+   - Um den rechtlichen Text anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in der **URL des Rechtstexts** den Speicherort des Rechtstexts ein.
     
    - Um den Fußzeilentext anzupassen, der in der Besprechungseinladung angezeigt wird, geben Sie in **benutzerdefiniertem Fußzeilentext** Text ein.
     
@@ -67,7 +62,7 @@ Sie können Besprechungskonfigurationseinstellungen mithilfe Skype for Business 
     
 ## <a name="create-meeting-configuration-settings-by-using-skype-for-business-server-management-shell"></a>Erstellen von Besprechungskonfigurationseinstellungen mithilfe Skype for Business Server Verwaltungsshell
 
-Verwenden Sie zum Erstellen von Besprechungskonfigurationseinstellungen das Cmdlet **"New-CsMeetingConfiguration".**
+Verwenden Sie zum Erstellen von Besprechungskonfigurationseinstellungen das Cmdlet **"New-CsMeetingConfiguration** ".
   
 Der folgende Befehl erstellt einen neuen Satz von Besprechungskonfigurationseinstellungen für den Standort Redmond:
   

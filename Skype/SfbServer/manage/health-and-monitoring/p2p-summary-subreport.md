@@ -1,25 +1,20 @@
 ---
-title: Zusammenfassender Unterbericht über P2P in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Zusammenfassender Unterbericht zu P2P in Skype for Business Server
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: fc36185a-3cc5-4167-8c93-8a755fa75ac7
 description: 'Zusammenfassung: Erfahren Sie mehr über den zusammenfassenden Unterbericht über P2P in Skype for Business Server.'
-ms.openlocfilehash: e8296604626b143bb143ea2acbdf8e6875e1acf6
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861322"
 ---
-# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Zusammenfassender Unterbericht über P2P in Skype for Business Server
+
+# <a name="p2p-summary-subreport-in-skype-for-business-server"></a>Zusammenfassender Unterbericht zu P2P in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den zusammenfassenden Unterbericht über P2P in Skype for Business Server.
   

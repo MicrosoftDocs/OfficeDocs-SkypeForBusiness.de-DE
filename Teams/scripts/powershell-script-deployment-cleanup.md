@@ -1,32 +1,27 @@
 ---
 title: PowerShell-Skriptbeispiel – Teams-Bereitstellungsbereinigung
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.reviewer: amitsri
 ms.service: msteams
 audience: admin
-description: Verwenden Sie dieses PowerShell-Skript, um Teams zu deinstallieren und Teams Ordner für Benutzer zu entfernen.
+description: 'Verwenden Sie dieses PowerShell-Skript, um Teams zu deinstallieren und Teams Ordner für Benutzer zu entfernen.'
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 search.appverid: MET150
-ROBOTS: NOINDEX, NOFOLLOW
+ROBOTS: 'NOINDEX, NOFOLLOW'
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
-ms.openlocfilehash: af5e5fe4c52030add0e60be0cedb5edc54b9c833
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60837497"
+  - Microsoft Teams
 ---
-# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell-Skriptbeispiel – bereinigen Teams der Bereitstellung
 
-Verwenden Sie dieses Skript zum Entfernen Teams. Dieses Skript deinstalliert Teams und entfernt Teams Ordner für einen Benutzer. Führen Sie dieses Skript für jedes Benutzerprofil aus, in Teams auf einem Computer installiert wurde.
+# <a name="powershell-script-sample---teams-deployment-clean-up"></a>PowerShell-Skriptbeispiel – Teams bereinigen der Bereitstellung
+
+Verwenden Sie dieses Skript zum Entfernen Teams. Dieses Skript deinstalliert Teams und entfernt den Teams Ordner für einen Benutzer. Führen Sie dieses Skript für jedes Benutzerprofil aus, in Teams auf einem Computer installiert wurde.
 
 
 ## <a name="sample-script"></a>Beispielskript

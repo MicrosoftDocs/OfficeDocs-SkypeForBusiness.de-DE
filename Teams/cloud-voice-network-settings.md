@@ -1,35 +1,30 @@
 ---
 title: Netzwerkeinstellungen für Cloud Voice-Features
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: conceptual
 ms.reviewer: roykuntz
 ms.service: msteams
 audience: admin
 search.appverid: MET150
-description: Erfahren Sie mehr über die Netzwerkeinstellungen, die Sie für das Routing Location-Based Direct-Routing und erweiterte Notfalldienste konfigurieren müssen.
+description: 'Erfahren Sie mehr über die Netzwerkeinstellungen, die Sie für das Routing Location-Based Direct-Routing und erweiterte Notfalldienste konfigurieren müssen.'
 ms.localizationpriority: medium
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.collection:
-- M365-voice
-- m365initiative-voice
+  - M365-voice
+  - m365initiative-voice
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 862d696024baa75feefbbae7e4458caad22b5566
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833981"
 ---
+
 # <a name="network-settings-for-cloud-voice-features-in-microsoft-teams"></a>Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams
 
-Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen. Diese Begriffe und Konzepte werden in der gesamten Cloud-Sprachdokumentation für standortbasiertes Routing für [Direct-Routing](location-based-routing-plan.md) und [dynamische Notrufe verwendet.](configure-dynamic-emergency-calling.md) Wenn Sie diese Cloudfeatures in Ihrer Organisation bereitstellen, müssen Sie netzwerkeinstellungen für die Verwendung mit diesen Features in ihrer Microsoft Teams.
+Erfahren Sie mehr über Netzwerkregionen, Netzwerkstandorte, Netzwerk-Subnetze und vertrauenswürdige IP-Adressen. Diese Begriffe und Konzepte werden in der gesamten Cloud-Sprachdokumentation für standortbasiertes [Routing für Direct-Routing](location-based-routing-plan.md) und [dynamische Notrufe verwendet](configure-dynamic-emergency-calling.md). Wenn Sie diese Cloudfeatures in Ihrer Organisation bereitstellen, müssen Sie netzwerkeinstellungen für die Verwendung mit diesen Features in ihrer Microsoft Teams.
 
-Dieser Artikel bietet ihnen einen Überblick über die Netzwerkeinstellungen, die für Das Routing und dynamische Location-Based Notrufe üblich sind. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Die Schritte zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten der Netzwerktopologie für Cloudfeatures in Teams.](manage-your-network-topology.md)
+Dieser Artikel bietet ihnen einen Überblick über die Netzwerkeinstellungen, die für Das Routing und dynamische Location-Based Notrufe üblich sind. Je nach Cloud-Sprachfunktion und -funktion, die Sie bereitstellen, konfigurieren Sie einige oder alle diese Einstellungen. Die Schritte zum Konfigurieren dieser Einstellungen finden Sie unter [Verwalten der Netzwerktopologie für Cloudfeatures in Teams](manage-your-network-topology.md).
 
 > [!NOTE]
 > Alle featurespezifischen Anforderungen für Netzwerkeinstellungen sind in den Konfigurationsthemen für dieses Feature dokumentiert.

@@ -1,25 +1,20 @@
 ---
 title: Item Service for Call Quality Dashboard (CQD)
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b6d7b02a-a34e-4fef-986c-ca442e18fa0c
 description: 'Zusammenfassung: Erfahren Sie mehr über den Elementdienst, der Teil der Repository-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 58d141930d98704eac101feb5d0fe8994284b587
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848438"
 ---
+
 # <a name="item-service-for-call-quality-dashboard-cqd"></a>Item Service for Call Quality Dashboard (CQD)
  
 **Zusammenfassung:** Erfahren Sie mehr über den Elementdienst, der Teil der Repository-API für das Anrufqualitäts-Dashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -43,7 +38,7 @@ Der Elementdienst umfasst die folgenden Konzepte:
     
 - **Unterelement** – die grundlegende Organisationsmechanismen des Repositorys. Das Element kann null, ein oder mehrere untergeordnete Elemente aufweisen.
     
-- **"Item Ancestors"** – die Liste der Elemente, beginnend mit dem Element am häufigsten, das das Standardelement des Benutzers ist und zu einem bestimmten Element führt.
+- **"Item Ancestors** " – die Liste der Elemente, beginnend mit dem Element am häufigsten, das das Standardelement des Benutzers ist und zu einem bestimmten Element führt.
     
 - **Elementinhalt** – der anwendungsspezifische Inhalt, der in Elementen gespeichert ist. Das Anrufqualitätsdashboard speichert JSON-Darstellungen von Berichten und Abfragen in Inhalten.
     

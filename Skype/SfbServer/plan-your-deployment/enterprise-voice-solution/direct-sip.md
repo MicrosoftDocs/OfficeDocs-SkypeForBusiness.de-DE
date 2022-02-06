@@ -1,28 +1,23 @@
 ---
 title: Direkte SIP-Verbindungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 0a37737d-9628-4e36-b27b-c134fa5a3882
 description: Direkte SIP-Verbindungen werden zwischen Skype for Business Server und PSTN-Gateways und IP-Nebenstellenanlagen in Enterprise-VoIP unterstützt.
-ms.openlocfilehash: 8a615197a01fafbdf29c838b28a6d12e06f37d00
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848398"
 ---
+
 # <a name="direct-sip-connections-in-skype-for-business-server"></a>Direkte SIP-Verbindungen in Skype for Business Server
 
 Direkte SIP-Verbindungen werden zwischen Skype for Business Server und PSTN-Gateways und IP-Nebenstellenanlagen in Enterprise-VoIP unterstützt.
@@ -42,9 +37,9 @@ Um eine direkte SIP-Verbindung zu implementieren, führen Sie im Wesentlichen di
 
 Wenn Ihre Organisation eine der in diesem Abschnitt beschriebenen Bereitstellungen verwendet, können Sie Skype for Business Server als einzige Telefonielösung für einen Teil oder die gesamte Organisation verwenden. In diesem Abschnitt werden die folgenden Bereitstellungen ausführlich beschrieben:
 
-- **Inkrementelle Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie über eine vorhandene PbX-Infrastruktur (Private Branch Exchange) verfügen und Sie beabsichtigen, Enterprise-VoIP inkrementell für kleinere Gruppen oder Teams innerhalb Ihrer Organisation einzuführen.
+- **Inkrementelle Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie über eine vorhandene PbX-Infrastruktur (Private Branch Exchange) verfügen und sie beabsichtigen, Enterprise-VoIP inkrementell für kleinere Gruppen oder Teams innerhalb Ihrer Organisation einzuführen.
 
-- **Nur VoIP-Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie die Bereitstellung von Enterprise-VoIP an einem Standort erwägen, der keine herkömmliche Telefonieinfrastruktur besitzt.
+- **Nur VoIP-Bereitstellung:** Bei dieser Option wird davon ausgegangen, dass Sie erwägen, Enterprise-VoIP an einem Standort bereitzustellen, der nicht über eine herkömmliche Telefonieinfrastruktur verfügt.
 
 #### <a name="incremental-deployment"></a>Inkrementelle Bereitstellung
 
@@ -59,12 +54,12 @@ Die folgende Abbildung zeigt die generische Topologie für die Bereitstellung vo
 ![Diagramm "Abteilungsmigrationsoption".](../../media/Fig28_Departmental_migration_option.jpg)
 
 > [!NOTE]
-> Wenn Sie Ihre Skype for Business Server Bereitstellung mit einem zertifizierten Direct SIP-Partner verbinden, ist kein PSTN-Gateway (Public Switched Telephone Network) zwischen dem Vermittlungsserver und der Nebenstellenanlage erforderlich. Eine Liste der zertifizierten Direct SIP-Partner finden Sie im [Microsoft Unified Communications Open Interoperability-Programm.](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md)
+> Wenn Sie Ihre Skype for Business Server Bereitstellung mit einem zertifizierten Direct SIP-Partner verbinden, ist kein PSTN-Gateway (Public Switched Telephone Network) zwischen dem Vermittlungsserver und der Nebenstellenanlage erforderlich. Eine Liste der zertifizierten direkten SIP-Partner finden Sie im  [Microsoft Unified Communications Open Interoperability-Programm](../../../SfbPartnerCertification/lync-cert/qualified-ip-pbx-gateway.md).
 
 > [!NOTE]
 > Für den in dieser Abbildung dargestellten Medienpfad ist die Medienumgehung aktiviert (die empfohlene Konfiguration). Wenn Sie die Medienumgehung deaktivieren, wird der Medienpfad über den Vermittlungsserver weitergeleitet.
 
-In dieser Topologie sind ausgewählte Abteilungen oder Arbeitsgruppen für Enterprise-VoIP aktiviert. Ein PSTN-Gateway verbindet die VoIP-fähige Arbeitsgruppe (Voice over Internet Protocol) mit der Nebenstellenanlage. Benutzer, die für Enterprise-VoIP aktiviert sind, einschließlich Remotemitarbeiter, kommunizieren über das IP-Netzwerk. Anrufe von Enterprise-VoIP Benutzern an das PSTN und an Kollegen, die nicht für Enterprise-VoIP aktiviert sind, werden an das entsprechende PSTN-Gateway weitergeleitet. Anrufe von Kollegen, die sich noch im Nebenstellensystem befinden, oder von Anrufern im PSTN werden an das PSTN-Gateway weitergeleitet, das die Anrufe zum Weiterleiten an Skype for Business Server weiterleitet.
+In dieser Topologie sind ausgewählte Abteilungen oder Arbeitsgruppen für Enterprise-VoIP aktiviert. Ein PSTN-Gateway verbindet die VoIP-fähige Arbeitsgruppe (Voice over Internet Protocol) mit der Nebenstellenanlage. Benutzer, die für Enterprise-VoIP aktiviert sind, einschließlich Remotemitarbeiter, kommunizieren über das IP-Netzwerk. Anrufe von Enterprise-VoIP Benutzern an das PSTN und an Kollegen, die nicht für Enterprise-VoIP aktiviert sind, werden an das entsprechende PSTN-Gateway weitergeleitet. Anrufe von Kollegen, die sich noch im Nebenstellensystem befinden, oder von Anrufern im PSTN werden an das PSTN-Gateway weitergeleitet, das die Anrufe zur Weiterleitung an Skype for Business Server weiterleitet.
 
 Es gibt zwei empfohlene Konfigurationen zum Verbinden von Enterprise-VoIP mit einer vorhandenen Pbx-Infrastruktur für die Interoperabilität: Enterprise-VoIP hinter der Nebenstellenanlage und Enterprise-VoIP vor der Nebenstellenanlage.
 
@@ -74,19 +69,19 @@ Wenn Enterprise-VoIP hinter der Nebenstellenanlage bereitgestellt wird, gelangen
 
 #### <a name="enterprise-voice-in-front-of-the-pbx"></a>Enterprise-VoIP vor der Nebenstellenanlage
 
-Wenn Enterprise-VoIP vor der Nebenstellenanlage bereitgestellt wird, gelangen alle Anrufe an das PSTN-Gateway, das Anrufe für Enterprise-VoIP Benutzer an Skype for Business Server und Anrufe für Pbx-Benutzer an die Nebenstellenanlage weitergibt. Anrufe an das PSTN von Enterprise-VoIP- und Nebenstellenanlagenbenutzern werden über das IP-Netzwerk an das kostengünstigste PSTN-Gateway weitergeleitet. Die folgende Tabelle zeigt die Vor- und Nachteile dieser Konfiguration.
+Wenn Enterprise-VoIP vor der Nebenstellenanlage bereitgestellt wird, gelangen alle Anrufe an das PSTN-Gateway, das Anrufe für Enterprise-VoIP Benutzer an Skype for Business Server und Anrufe für Nebenstellenanlagenbenutzer an die Nebenstellenanlage weitergibt. Anrufe an das PSTN von Enterprise-VoIP- und Nebenstellenanlagenbenutzern werden über das IP-Netzwerk an das kostengünstigste PSTN-Gateway weitergeleitet. Die folgende Tabelle zeigt die Vor- und Nachteile dieser Konfiguration.
 
 **Vor- und Nachteile der Bereitstellung von Enterprise-VoIP vor Nebenstellenanlagen**
 
 |**Vorteile**|**Nachteile**|
 |:-----|:-----|
-|PBX stellt weiterhin Benutzer bereit, die nicht für Enterprise-VoIP aktiviert sind.  <br/> |Vorhandene Gateways unterstützen möglicherweise nicht die gewünschten Features oder Kapazität.  <br/> |
+|PbX bedient weiterhin Benutzer, die nicht für Enterprise-VoIP aktiviert sind.  <br/> |Vorhandene Gateways unterstützen möglicherweise nicht die gewünschten Features oder Kapazität.  <br/> |
 |PBX behandelt alle früheren Geräte.  <br/> |Erfordert einen Trunk vom Gateway zur Nebenstellenanlage und vom Gateway zum Vermittlungsserver. Möglicherweise benötigen Sie weitere Trunks vom Dienstanbieter.  <br/> |
 |Enterprise-VoIP Benutzer behalten die gleichen Telefonnummern.  <br/> | <br/> |
 
 #### <a name="voip-only-deployment"></a>VoIP-Only-Bereitstellung
 
-Enterprise-VoIP bietet neuen Unternehmen und auch neuen Bürostandorten für bestehende Unternehmen die Möglichkeit, eine VoIP-Lösung mit vollem Funktionsumfang zu implementieren, ohne sich Gedanken über die PbX-Integration machen zu müssen oder die erheblichen Bereitstellungs- und Wartungskosten einer IP-NEBENSTELLEN-Infrastruktur zu tragen. Diese Lösung unterstützt sowohl lokale als auch Remotemitarbeiter.
+Enterprise-VoIP bietet neuen Unternehmen und auch neuen Bürostandorten für bestehende Unternehmen die Möglichkeit, eine VoIP-Lösung mit vollem Funktionsumfang zu implementieren, ohne sich gedanken über die PBX-Integration machen zu müssen oder die erheblichen Bereitstellungs- und Wartungskosten einer IP-NEBENSTELLEN-Infrastruktur zu tragen. Diese Lösung unterstützt sowohl lokale als auch Remotemitarbeiter.
 
 In dieser Bereitstellung werden alle Anrufe über das IP-Netzwerk weitergeleitet. Anrufe an das PSTN werden an das entsprechende PSTN-Gateway weitergeleitet. Skype for Business oder Lync Telefon Edition dient als Softphone. Die Remoteanrufsteuerung ist nicht verfügbar und unnötig, da es keine PBX-Telefone gibt, die Benutzer steuern können. Voicemail- und automatische Telefonzentralendienste sind über die optionale Bereitstellung von Exchange Unified Messaging (UM) verfügbar.
 
@@ -126,7 +121,7 @@ Sie müssen folgende wichtige Fragen bedenken. Keine dieser Fragen kann unabhän
 
 Die Vermittlungsserver können Anrufe über mehrere Gateways, Session Border Controller (SBCs) von Internettelefoniedienstanbietern oder eine Kombination der beiden weiterleiten. Darüber hinaus können mehrere Vermittlungsserver im Pool mit mehreren Gateways interagieren. Die logische Route, die zwischen einem Vermittlungsserver und einem Gateway definiert ist, wird als Trunk bezeichnet. Wenn ein interner Benutzer einen PSTN-Anruf abgibt, wählt die Logik für das ausgehende Routing im Front-End-Pool den Trunk aus, der aus allen möglichen Kombinationen weitergeleitet werden soll, die für die Weiterleitung dieses bestimmten Anrufs verfügbar sein können. Wenn beim DNS-Lastenausgleich aufgrund eines Problems mit einem bestimmten Vermittlungsserver im Pool ein Gateway nicht erreicht wird, wird der Anruf an einen alternativen Vermittlungsserver im Pool wiederholt.
 
-Ausführliche Informationen zur Planung mehrerer Gateways finden Sie unter [M:N-Trunk in Skype for Business Server.](m-n-trunk.md)
+Ausführliche Informationen zur Planung mehrerer Gateways finden Sie unter [M:N-Trunk in Skype for Business Server](m-n-trunk.md).
 
 Ausführliche Informationen zu weiteren Verbesserungen beim Ausgangsrouting finden Sie unter [Call Routes](/previous-versions/office/lync-server-2013/lync-server-2013-voice-routes).
 

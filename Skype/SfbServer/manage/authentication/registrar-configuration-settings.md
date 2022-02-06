@@ -1,25 +1,20 @@
 ---
 title: Verwalten von Registrierungsstellenkonfigurationseinstellungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: eddfbdd2-cfd0-4c03-986e-443d6728db7d
 description: 'Zusammenfassung: Verwalten von Registrierungsstellenkonfigurationseinstellungen für Skype for Business Server.'
-ms.openlocfilehash: 9e5eddde712180820579840587abb18bc9809fe4
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60832129"
 ---
+
 # <a name="manage-registrar-configuration-settings-in-skype-for-business-server"></a>Verwalten von Registrierungsstellenkonfigurationseinstellungen in Skype for Business Server
  
 **Zusammenfassung:** Verwalten von Registrierungsstellenkonfigurationseinstellungen für Skype for Business Server.
@@ -30,7 +25,7 @@ Mithilfe der Registrierung können Sie Proxyserver-Authentifizierungsmethoden ko
     
 - **NTLM** Dies ist die kennwortbasierte Authentifizierung, die Clients zur Verfügung steht, die ein Abfrageantwort-Hashingschema für das Kennwort verwenden. Für Clients ohne Verbindung mit einem Schlüsselverteilungscenter (Kerberos-Domänencontroller), beispielsweise für Remotebenutzer, steht nur diese Form der Authentifizierung zur Verfügung. Wenn ein Server ausschließlich Remotebenutzer authentifiziert, sollten Sie NTLM auswählen.
     
-- **Zertifikatauthentifizierung** Dies ist die neue Authentifizierungsmethode, wenn der Server Zertifikate von Lync Telefon Edition-Clients, Telefonen für gemeinsame Bereiche, Skype for Business und der Lync Windows Store-App abrufen muss. Auf Lync Telefon Edition-Clients stellt Skype for Business Server nach der Anmeldung eines Benutzers und einer erfolgreichen Authentifizierung durch Angabe einer persönlichen Identifikationsnummer (PIN) den SIP-URI für das Telefon bereit und stellt ein Skype for Business Server signiertes Zertifikat oder ein Benutzerzertifikat bereit, das Joe identifiziert (Beispiel: SN=joe@contoso.com ) auf das Telefon. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
+- **Zertifikatauthentifizierung** Dies ist die neue Authentifizierungsmethode, wenn der Server Zertifikate von Lync Telefon Edition-Clients, Telefonen für gemeinsame Bereiche, Skype for Business und der Lync Windows Store-App abrufen muss. Auf Lync Telefon Edition-Clients stellt Skype for Business Server nach der Anmeldung eines Benutzers und einer erfolgreichen Authentifizierung durch Angabe einer persönlichen Identifikationsnummer (PIN) den SIP-URI für das Telefon bereit und stellt eine Skype for Business Server  signiertes Zertifikat oder ein Benutzerzertifikat, das Joe (z. B. SN=joe@contoso.com) auf dem Telefon identifiziert. Dieses Zertifikat wird für die Authentifizierung beim Registrierungsdienst und den Webdiensten verwendet.
     
 > [!NOTE]
 > Es wird empfohlen, sowohl Kerberos als auch NTLM zu aktivieren, wenn ein Server die Authentifizierung von Remote- und Unternehmensclients unterstützt. Durch eine Kommunikation des Edgeservers mit den internen Servern wird gewährleistet, dass Remoteclients nur die NTLM-Authentifizierung verwenden können. Wenn auf diesen Servern nur Kerberos verwendet wird, ist eine Authentifizierung von Remotebenutzern nicht möglich. Wenn Unternehmensbenutzer sich ebenfalls über den Server authentifizieren, wird Kerberos verwendet. 
@@ -39,7 +34,7 @@ Wenn Sie Lync Windows Store App-Clients verwenden, müssen Sie die Zertifikataut
   
 ### <a name="to-create-new-registrar-configuration-settings"></a>So erstellen Sie neue Registrierungsstellenkonfigurationseinstellungen
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
@@ -70,15 +65,15 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle 
   
 ### <a name="to-modify-existing-registrar-configuration-settings"></a>So ändern Sie vorhandene Registrierungsstellenkonfigurationseinstellungen
 
-1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1.  Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen.  
     
 3. Klicken Sie in der linken Navigationsleiste auf **Sicherheit** und dann auf **Registrierung**.
     
-4. Klicken Sie auf der **Registrierungsstellenseite** auf einen Dienst, klicken Sie auf **"Bearbeiten"** und dann auf **"Details anzeigen".**
+4. Klicken Sie auf der **Registrierungsstellenseite** auf einen Dienst, klicken Sie auf **"Bearbeiten**" und dann auf " **Details anzeigen"**.
     
-5. Wählen Sie in der **Einstellung "Registrierungsstelle bearbeiten"** eine oder mehrere der folgenden Optionen aus, je nach den Funktionen der Clients und dem Support in Ihrer Umgebung:
+5. Wählen Sie unter **Registrierungsstelleneinstellung bearbeiten** eine oder mehrere der folgenden Optionen aus, je nach den Funktionen der Clients und dem Support in Ihrer Umgebung:
     
    - **Kerberos-Authentifizierung aktivieren** – Die Server im Pool verwenden für Authentifizierungsanforderungen das Kerberos-Protokoll.
     
@@ -90,7 +85,7 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle 
     
 ### <a name="to-delete-registrar-configuration-settings"></a>So löschen Sie Registrierungsstellenkonfigurationseinstellungen
 
-1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über gleichwertige Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
+1. Melden Sie sich über ein Benutzerkonto, das Mitglied der Gruppe "RTCUniversalServerAdmins" ist (oder über entsprechende Benutzerrechte verfügt) oder der Rolle "CsServerAdministrator" oder "CsAdministrator" zugewiesen ist, bei jedem Computer an, der sich im Netzwerk befindet, in dem Sie Skype for Business Server bereitgestellt haben.
     
 2. Öffnen Sie ein Browserfenster, und geben Sie dann die Admin-URL ein, um die Skype for Business Server Systemsteuerung zu öffnen. 
     
@@ -104,7 +99,7 @@ Führen Sie die folgenden Schritte aus, um eine vorhandene Registrierungsstelle 
     
 ## <a name="removing-registrar-configuration-settings-by-using-windows-powershell-cmdlets"></a>Entfernen der Registrierungsstellenkonfiguration Einstellungen mithilfe Windows PowerShell Cmdlets
 
-Sie können die Konfigurationseinstellungen für die Registrierungsstelle mithilfe von Windows PowerShell und dem Cmdlet **"Remove-CsProxyConfiguration"** löschen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/)
+Sie können die Konfigurationseinstellungen der Registrierungsstelle mithilfe von Windows PowerShell und dem Cmdlet **"Remove-CsProxyConfiguration**" löschen. Sie können dieses Cmdlet aus der Skype for Business Server-Verwaltungsshell oder aus einer Remotesitzung mit Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/).
   
 ### <a name="to-remove-a-specific-set-of-registrar-security-settings"></a>So entfernen Sie eine bestimmte Gruppe mit Registrierungssicherheitseinstellungen
 
@@ -130,4 +125,4 @@ Sie können die Konfigurationseinstellungen für die Registrierungsstelle mithil
   Get-CsProxyConfiguration | Where-Object {$_.UseNtlmForClientToProxyAuth -eq $True}| Remove-CsProxyConfiguration
   ```
 
-Ausführliche Informationen finden Sie unter [Remove-CsProxyConfiguration](/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps).
+Ausführliche Informationen finden Sie unter ["Remove-CsProxyConfiguration"](/powershell/module/skype/remove-csproxyconfiguration?view=skype-ps).

@@ -1,33 +1,28 @@
 ---
 title: Planen des Parkens von Anrufen in Skype for Business
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection:
-- IT_Skype16
-- Strat_SB_Admin
-ms.custom: ''
+  - IT_Skype16
+  - Strat_SB_Admin
+ms.custom: null
 ms.assetid: 985dc326-0aef-4308-b98b-c1d0069311e7
-description: Planung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe gehalten und an Abteilungen übertragen werden können. Umfasst Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
-ms.openlocfilehash: 29ca14f85aeccaa8394ede4420c66af77e5c66c8
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839837"
+description: 'Planung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe gehalten und an Abteilungen übertragen werden können. Umfasst Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.'
 ---
+
 # <a name="plan-for-call-park-in-skype-for-business"></a>Planen des Parkens von Anrufen in Skype for Business
  
 Planung des Parkens von Anrufen in Skype for Business Server Enterprise-VoIP, wodurch Anrufe gehalten und an Abteilungen übertragen werden können. Umfasst Kapazitätsplanung, unterstützte Anrufe und unterstützte Clients.
   
-Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern Folgendes:
+Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern folgende Aktionen:
   
 - Halten Sie einen Anruf an, und rufen Sie den Anruf dann vom gleichen telefon oder einem anderen Telefon ab.
     
@@ -35,7 +30,7 @@ Die Anwendung zum Parken von Anrufen ermöglicht Enterprise-VoIP Benutzern Folge
     
 - Halten Sie einen Anruf in die Warteschleife, und lassen Sie das ursprüngliche Telefon für andere Anrufe kostenlos.
     
-Wenn ein Benutzer einen Anruf anruft, überträgt Skype for Business Server den Anruf an eine temporäre Nummer, die als Orbit bezeichnet wird, an der der Anruf gehalten wird, bis er entgegennimmt oder ein Zeitüberschreitung aufgetreten ist. Skype for Business Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Um den geparkten Anruf abzurufen, kann der Benutzer die Orbitnummer wählen oder auf die Orbitverbindung oder -schaltfläche im Unterhaltungsfenster klicken. 
+Wenn ein Benutzer einen Anruf anruft, überträgt Skype for Business Server den Anruf an eine temporäre Nummer, die als Orbit bezeichnet wird, wo der Anruf gehalten wird, bis er entgegennimmt oder ein Zeitüberschreitung aufgetreten ist. Skype for Business Server sendet den Orbit an den Benutzer, der den Anruf geparkt hat. Um den geparkten Anruf abzurufen, kann der Benutzer die Orbitnummer wählen oder auf die Orbitverbindung oder -schaltfläche im Unterhaltungsfenster klicken. 
   
 Der Benutzer, der einen Anruf geparkt hat, kann jemanden über einen externen Mechanismus, z. B. Chatnachrichten oder ein Auslagerungssystem, benachrichtigen, um die Orbitnummer an eine andere Person zu kommunizieren. Der Benutzer, der den Anruf geparkt hat, kann das Unterhaltungsfenster geöffnet lassen, um eine Benachrichtigung zu erhalten, wenn der Anruf abgerufen wird.
   
@@ -48,7 +43,7 @@ Sie konfigurieren auch andere Einstellungen für das Parken von Anrufen, z. B. w
 > [!NOTE]
 > Angepasste Wartemusikdateien für das Parken von Anrufen werden nicht als Teil des Skype for Business Server Notfallwiederherstellungsprozesses gesichert und gehen verloren, wenn die in den Pool hochgeladenen Dateien beschädigt, beschädigt oder gelöscht werden. Behalten Sie immer eine separate Sicherungskopie der angepassten Wartemusikdateien bei, die Sie für das Parken von Anrufen hochgeladen haben. 
   
-Die Anwendung zum Parken von Anrufen ist eine Komponente von Enterprise-VoIP. Wenn Sie Enterprise-VoIP bereitstellen, wird die Anwendung zum Parken von Anrufen automatisch installiert und aktiviert. Bevor Sie das Parken von Anrufen verwenden können, muss der Enterprise-VoIP-Administrator sie jedoch konfigurieren und für Benutzer über eine VoIP-Richtlinie aktivieren.
+Die Anwendung zum Parken von Anrufen ist eine Komponente von Enterprise-VoIP. Wenn Sie Enterprise-VoIP bereitstellen, wird die Anwendung zum Parken von Anrufen automatisch installiert und aktiviert. Bevor Sie jedoch das Parken von Anrufen verwenden können, muss der Enterprise-VoIP Administrator ihn konfigurieren und für Benutzer über eine VoIP-Richtlinie aktivieren.
   
 ## <a name="deployment-and-requirements"></a>Bereitstellung und Anforderungen
 
@@ -56,7 +51,7 @@ Die Anwendung zum Parken von Anrufen wird automatisch installiert, wenn Sie Ente
   
 ### <a name="software-requirements"></a>Softwareanforderungen
 
-Auf allen Front-End-Servern und Standard Edition Servern, auf denen das Parken von Anrufen bereitgestellt wird, muss die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2 installiert sein. . For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience. Windows Die Medienformatlaufzeit oder Microsoft Media Foundation ist für Windows WMA-Dateien (Media Audio) erforderlich, die für die Wartemusik wiedergegeben werden.
+Auf allen Front-End-Servern und Standard Edition Servern, auf denen das Parken von Anrufen bereitgestellt wird, muss die Windows Media Format Runtime für Server mit Windows Server 2008 R2 oder Microsoft Media Foundation für Server mit Windows Server 2012 oder Windows Server 2012 R2. For Windows Server 2008 R2, Windows Media Format Runtime is installed as part of Windows Desktop Experience. Windows Media Format Runtime oder Microsoft Media Foundation ist für Windows WMA-Dateien (Media Audio) erforderlich, die das Parken von Anrufen für Wartemusik wiedergeben.
   
 ### <a name="port-requirements"></a>Portanforderungen
 
@@ -67,7 +62,7 @@ Die Anwendung zum Parken von Anrufen verwendet **Port 5075**  für SIP-Überwach
   
 ### <a name="audio-file-requirements"></a>Audiodateianforderungen
 
-Die Anwendung zum Parken von Anrufen unterstützt nur Windows WMA-Dateien (Media Audio) für Wartemusik. Sie können Dateien für Wartemusik mit Microsoft Expression Encoder 4 anpassen. Informationen zum Herunterladen von Expression Encoder 4 finden Sie unter ["Expression Encoder 4".](https://go.microsoft.com/fwlink/p/?linkId=202843) Verwenden Sie das Tool, um die Datei in ein WMA-Format zu konvertieren. Das empfohlene Format für Wartemusikdateien für die Anwendung zum Parken von Anrufen ist Media Audio 9, 44 kHz, 16 Bit, Mono, CBR oder 32 KBit/s.
+Die Anwendung zum Parken von Anrufen unterstützt nur Windows WMA-Dateien (Media Audio) für Wartemusik. Sie können Dateien für Wartemusik mit Microsoft Expression Encoder 4 anpassen. Informationen zum Herunterladen von Expression Encoder 4 finden Sie unter   ["Expression Encoder 4"](https://go.microsoft.com/fwlink/p/?linkId=202843). Verwenden Sie das Tool, um die Datei in ein WMA-Format zu konvertieren. Das empfohlene Format für Wartemusikdateien für die Anwendung zum Parken von Anrufen ist Media Audio 9, 44 kHz, 16 Bit, Mono, CBR oder 32 KBit/s.
   
 > [!NOTE]
 > Die konvertierte Datei wird über das Telefon nur mit 16 kHz abgespielt, auch wenn diese mit 44 kHz aufgezeichnet wurde. 

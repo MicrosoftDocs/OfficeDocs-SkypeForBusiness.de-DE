@@ -1,24 +1,19 @@
 ---
 title: Ändern von Quality of Experience-Einstellungen in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: a6b41de2-1466-4240-8a70-14ce6f0f3ddc
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die Aufbewahrung von QoE-Daten in Skype for Business Server angeben.'
-ms.openlocfilehash: 7960f7c89ce16a7105cf24cc89d5efd660fe260b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60855522"
 ---
+
 # <a name="modify-quality-of-experience-settings-in-skype-for-business-server"></a>Ändern von Quality of Experience-Einstellungen in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie die Aufbewahrung von QoE-Daten in Skype for Business Server angeben.
@@ -48,7 +43,7 @@ Das nachfolgende Verfahren beschreibt, wie Sie die Löscheinstellungen für QoE-
 
 ## <a name="specifying-qoe-retention-by-using-windows-powershell-cmdlets"></a>Angeben der QoE-Aufbewahrung mithilfe Windows PowerShell Cmdlets
 
-Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsQoEConfiguration"** erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration.](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/) Der Vorgang ist in Skype for Business Server identisch.
+Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und dem Cmdlet **"Set-CsQoEConfiguration**" erstellen. Sie können dieses Cmdlet entweder über die Skype for Business Server-Verwaltungsshell oder über eine Remotesitzung von Windows PowerShell ausführen. Ausführliche Informationen zur Verwendung von Remote-Windows PowerShell zum Herstellen einer Verbindung mit Skype for Business Server finden Sie unter [Microsoft Lync Remote PowerShell Administration](https://blog.insideo365.com/2011/08/remote-lync-powershell-administration/). Der Vorgang ist in Skype for Business Server identisch.
 
 ### <a name="to-specify-qoe-retention-for-a-specific-location"></a>So geben Sie die QoE-Aufbewahrung für einen speziellen Standort an
 
@@ -66,7 +61,7 @@ Sie können QoE-Aufbewahrungseinstellungen mithilfe von Windows PowerShell und d
   Get-CsQoEConfiguration | Set-CsQoEConfiguration-EnablePurging -KeepQoEDataForDays 20
   ```
 
-Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsQoEConfiguration".](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum [Cmdlet "Set-CsQoEConfiguration](/powershell/module/skype/set-csqoeconfiguration?view=skype-ps) ".
 
 ## <a name="see-also"></a>Siehe auch
 

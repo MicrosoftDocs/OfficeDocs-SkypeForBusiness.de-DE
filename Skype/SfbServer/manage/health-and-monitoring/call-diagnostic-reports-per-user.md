@@ -1,39 +1,34 @@
 ---
 title: Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 9da13470-001e-415f-b8c5-29b1f3b531ba
 description: 'Zusammenfassung: Erfahren Sie mehr über die benutzerbezogenen Anrufdiagnoseberichte, die in Skype for Business Server verwendet werden.'
-ms.openlocfilehash: 03b3afba9a9177bc1628c100ca5083f1be96b48e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864852"
 ---
+
 # <a name="call-diagnostic-reports-per-user-in-skype-for-business-server"></a>Anrufdiagnoseberichte (pro Benutzer) in Skype for Business Server
   
-Die Anrufdiagnoseberichte bieten Informationen für einzelne Benutzer über fehlerhafte Peer-zu-Peer- und Konferenzsitzungen. Zu diesem Zeitpunkt gibt es nur einen Bericht, den **Bericht über Benutzeraktivität.**
+Die Anrufdiagnoseberichte bieten Informationen für einzelne Benutzer über fehlerhafte Peer-zu-Peer- und Konferenzsitzungen. Zu diesem Zeitpunkt gibt es nur einen Bericht, den **Bericht über Benutzeraktivität**.
 
 Der Bericht über Benutzeraktivität stellt eine detaillierte Liste der Peer-zu-Peer- und Konferenzsitzungen bereit, die von Benutzern in einem bestimmten Zeitraum durchgeführt werden. Anders als bei vielen der Überwachungsberichte ist im Bericht über Benutzeraktivität jeder Anruf mit einzelnen Benutzern verknüpft. Für Peer-zu-Peer-Sitzungen ist im Bericht beispielsweise der SIP-URI der Person angegeben, die den Anruf initiiert hat (der Absenderbenutzer), und der Person, die angerufen wurde (der Empfängerbenutzer). Wenn Sie die Informationen zu einer Konferenz erweitern, sehen Sie eine Liste aller Konferenzteilnehmer einschließlich der Rolle, die die bei dieser Konferenz hatten.
 
 Der Bericht über Benutzeraktivität wird auch als "Helpdesk"-Bericht bezeichnet. Der Grund ist, dass der Bericht häufig vom Helpdeskpersonal verwendet wird, um Sitzungsinformationen für einen bestimmten Benutzer abzurufen. Sie können den Bericht nach Anrufen filtern, die von einem bestimmten Benutzer entgegengenommen oder initiiert wurden, indem Sie einfach den SIP-URI dieses Benutzers in das Feld Präfix des Benutzer-URI eingeben.
 
-Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden Benutzer zurück, dessen SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie z. **B. ken** in das URI-Feld eingeben, **wird** ken im Bericht über Benutzeraktivität gesucht. Myer@litwareinc.com. Es werden jedoch auch die folgenden Benutzer gefunden:
+Wenn Sie dies tun, gibt der Benutzeraktivitätsbericht Informationen für jeden Benutzer zurück, dessen SIP-URI mit der angegebenen Zeichenfolge beginnt. Wenn Sie z. B **. ken** in das URI-Feld eingeben, sucht der Benutzeraktivitätsbericht **nach "Ken.Myer@litwareinc.com**". Es werden jedoch auch die folgenden Benutzer gefunden:
 
 - **ken** azi@litwareinc.com
 
 - **ken** burg@litwareinc.com
 
-- **Ken**. Sanchez@litwareinc.com
+- **Ken.Sanchez@litwareinc.com**
 
 - **Ken** nedy@litwareinc.com
 
@@ -43,11 +38,11 @@ Ken.my
 
 ## <a name="to-access-the-user-activity-report"></a>So greifen Sie auf den Bericht über Benutzeraktivität zu
 
-Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie in Skype for Business Server auf die Metrik ["Benutzer-URI" im IP-Telefon-Bestandsbericht](ip-phone-inventory-report.md)klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum Detailbericht über [Peer-to-Peer-Sitzungen in Skype for Business Server.](peer-to-peer-session-detail-report.md)
+Der Zugriff auf den Bericht über Benutzeraktivität erfolgt über die Startseite für Überwachungsberichte. Sie können auch den Bericht über Benutzeraktivität erreichen, indem Sie auf die Metrik "Benutzer-URI" [im IP-Telefon-Bestandsbericht in Skype for Business Server](ip-phone-inventory-report.md) klicken. Wenn Sie im Bericht über Benutzeraktivität auf den Konferenz-URI (für eine Konferenz) klicken, gelangen Sie zum Detaillierten Konferenzbericht. Entsprechend gelangen Sie durch Klicken auf die Detailmetrik für einen Peer-to-Peer-Anruf zum [Detailbericht über Peer-to-Peer-Sitzungen in Skype for Business Server](peer-to-peer-session-detail-report.md).
 
 ## <a name="making-the-best-use-of-the-user-activity-report"></a>Optimale Nutzung des Berichts über Benutzeraktivität
 
-Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. dies bedeutet, dass innerhalb des Berichts informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
+Obwohl der Bericht über Benutzeraktivität viele gute Informationen enthält, können diese Informationen manchmal schwierig zu finden sein. Beispielsweise sind alle Benutzeraktivitäten, die in Ihrer Organisation während eines bestimmten Zeitraums stattfinden, im Bericht über Benutzeraktivität enthalten. dies bedeutet, dass innerhalb des Berichts Informationen darüber enthalten sind, welche Benutzer tatsächlich Skype for Business Server verwendet haben.
 
 > [!NOTE]
 > Technisch gesehen ist es möglich, dass einige Benutzeraktivitäten nicht erfasst werden: Während Skype for Business Server versucht, Informationen zu allen Telefonanrufen beizubehalten, ist es möglich, dass ein Anruf getätigt wurde, ohne dass die Informationen zu diesem Anruf in die Datenbank geschrieben wurden. Skype for Business Server wurde entwickelt, um einen äußerst genauen, aber nicht unbedingt perfekten Blick darauf zu geben, wie Skype for Business Server verwendet wird. (Die Tatsache, dass nicht garantiert wird, dass 100 % aller Anrufe aufgezeichnet werden, erklärt, warum Skype for Business Server Überwachung nicht als Abrechnungssystem verwendet werden sollte.) Zweitens kann ein Überwachungsbericht nur maximal 1.000 Datensätze anzeigen. Je nach Umfang der Benutzeraktivität und des Zeitraums, den Sie auswählen, werden bei der Abfrage möglicherweise nicht alle Daten zurückgegeben, die tatsächlich in der Datenbank gespeichert sind. 

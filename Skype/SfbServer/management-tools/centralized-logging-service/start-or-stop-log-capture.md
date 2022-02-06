@@ -1,41 +1,36 @@
 ---
 title: Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2018
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0512b9ce-7f5b-48eb-a79e-f3498bacf2de
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Protokollerfassungssitzung des zentralisierten Protokollierungsdiensts in Skype for Business Server 2015 starten oder beenden.'
-ms.openlocfilehash: 79210bffbf21046d1aaa5359761dbfcdeb1e6959
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848428"
 ---
+
 # <a name="start-or-stop-cls-log-capture-in-skype-for-business-server-2015"></a>Starten oder Beenden der CLS-Protokollerfassung in Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie in Skype for Business Server 2015 eine Protokollerfassungssitzung für den zentralisierten Protokollierungsdienst starten oder beenden.
   
-Um Ablaufverfolgungsprotokolle mithilfe des zentralisierten Protokollierungsdiensts zu erfassen, geben Sie einen Befehl aus, um mit der Protokollierung auf einem oder mehreren Computern und Pools zu beginnen. Außerdem geben Sie Parameter aus, die definieren, welche Computer oder Pools ausgeführt werden sollen (z. B. AlwaysOn, ein anderes vordefiniertes Szenario oder ein erstelltes Szenario), Skype for Business Server welche Komponenten (z. B. S4, SipStack) nachverfolgt werden sollen.
+Um Ablaufverfolgungsprotokolle mithilfe des zentralisierten Protokollierungsdiensts zu erfassen, geben Sie einen Befehl aus, um mit der Protokollierung auf einem oder mehreren Computern und Pools zu beginnen. Außerdem geben Sie Parameter aus, die definieren, welche Computer oder Pools ausgeführt werden sollen (z. B. AlwaysOn, ein anderes vordefiniertes Szenario oder ein erstelltes Szenario), welche Komponenten (z. B. S4, SipStack) nachverfolgt Skype for Business Server werden sollen.
   
 Um die richtigen Informationen zu erfassen, müssen Sie sicherstellen, dass Sie das richtige Szenario verwenden, um Informationen zu sammeln, die für das Problem relevant sind. Im zentralisierten Protokollierungsdienst besteht ein Szenario darin, die Protokollierung basierend auf einer Sammlung von Serverkomponenten, Protokollierungsebenen und Flags zu aktivieren, was viel effizienter und nützlicher ist, als diese Elemente pro Server zu definieren. Sie definieren und geben ein Szenario an, das ausgeführt werden soll, und das Szenario wird konsistent auf allen Servern und Pools im Bereich der Infrastruktur ausgeführt.
   
 Das Standardszenario heißt **AlwaysOn**. AlwaysOn soll dazu dienen, das Szenario ständig auszuführen, wie der Name des Szenarios bereits impliziert. Das Szenario AlwaysOn erfasst Informationen auf der Ebene "Info" (zum Protokolliergrad "Info" zählen zusätzlich zu den Infomeldungen Meldungen der Ebenen "Schwerwiegend", "Fehler" und "Warnung") für viele der häufigsten Serverkomponenten. Von AlwaysOn werden Informationen vor und nach einem Problem sowie während eines Problems erfasst. Daher unterscheidet es sich gravierend vom typischen Verhalten früherer Protokollierungstools wie OCSLogger. OCSLogger wurde ausgeführt, nachdem das Problem bereits aufgetreten war. Dadurch wurde die Problembehandlung erschwert, da die erfassten Daten nicht proaktiv, sondern rückwirkend waren. Falls AlwaysOn nicht die gewünschten Informationen zum Ermitteln der fehlerhaften Komponente und keine Vorgehensweise zur Behebung enthält (was aufgrund des Umfangs der Anbieter in AlwaysOn unwahrscheinlich ist), erhalten Sie immerhin angemessene Informationen, mit denen die erforderlichen Schritte (z. B. Erstellen eines neuen Szenarios, Erfassen weiterer Informationen, Ausführen einer anderen Suche zum Sammeln genauerer Einzelheiten usw.) ermittelt werden können.
   
-Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgeben von Befehlen. Eine Reihe von Themen konzentriert sich auf die Verwendung von Windows PowerShell über die Skype for Business Server-Verwaltungsshell. Die Möglichkeit, eine Reihe komplexer Konfigurationen und Befehle zu verwenden, bevorzugt Windows PowerShell für die Verwendung des zentralisierten Protokollierungsdiensts. Da Windows PowerShell über die Skype for Business Server Verwaltungsshell nahezu für alle Funktionen in Skype for Business Server vorhanden ist, werden nur die Windows PowerShell Befehle behandelt. 
+Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgeben von Befehlen. Eine Reihe von Themen konzentriert sich auf die Verwendung von Windows PowerShell über die Skype for Business Server-Verwaltungsshell. Die Möglichkeit, eine Reihe komplexer Konfigurationen und Befehle zu verwenden, bevorzugt Windows PowerShell für die Verwendung des zentralisierten Protokollierungsdiensts. Da Windows PowerShell über die Skype for Business Server-Verwaltungsshell nahezu für alle Funktionen in Skype for Business Server vorhanden ist, werden nur die Windows PowerShell Befehle behandelt. 
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-basic-commands"></a>So führen Sie Start-CsClsLogging mit Windows PowerShell mit einfachen Befehlen aus
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Starten Sie ein Protokollierungsszenario mit dem zentralisierten Protokollierungsdienst, indem Sie Folgendes eingeben:
     
@@ -70,7 +65,7 @@ Der zentralisierte Protokollierungsdienst bietet zwei Möglichkeiten zum Ausgebe
   
 ### <a name="to-run-start-csclslogging-with-windows-powershell-using-advanced-commands"></a>So führen Sie Start-CsClsLogging mit Windows PowerShell mithilfe erweiterter Befehle aus
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Zur Verwaltung der Protokollierungsbefehle stehen zusätzliche Parameter zur Verfügung. Sie können "-Duration" verwenden, um die Zeitdauer für die Ausführung des Szenarios anzupassen. Sie können auch "-Computers", eine Durch Komma getrennte Liste der vollqualifizierten Domänennamen (Fully Qualified Domain Names, FQDNs) des Computers oder "-Pools", eine durch Kommas getrennte Liste der FQDNs für Pools definieren, auf denen Sie die Protokollierung ausführen möchten.
     
@@ -92,7 +87,7 @@ Beachten Sie, dass in diesem Beispiel die Szenarien "AlwaysOn" und "UserReplicat
 Eine derzeit ausgeführte Protokollierungssitzung können Sie mit dem Cmdlet "Stop-CsClsLogging" anhalten. Im Allgemeinen gibt es nicht viele Situationen, in denen Sie eine Protokollierungssitzung beenden müssen. Beispielsweise können Sie Protokolle durchsuchen und Konfigurationen ändern, ohne die Protokollierung zuvor anzuhalten. Wenn Sie zwei Szenarien ausführen, z. B. "AlwaysOn" und "UserReplicator" und Informationen zur Authentifizierung sammeln müssen, so müssen Sie eines der anderen Szenarien anhalten (auf globaler Ebene oder auf Standort-, Pool- oder Computerebene), bevor Sie die Ausführung des Authentifizierungsszenarios starten können. Ausführliche Informationen finden Sie unter [Stop-CsClsLogging](/powershell/module/skype/stop-csclslogging?view=skype-ps).
   
 > [!NOTE]
-> Wenn Sie ermitteln, welche Szenarien Sie in einer bestimmten Bereitstellung, einem Pool oder einem bestimmten Computer ausführen können, müssen Sie bedenken, dass Sie auf die Ausführung von zwei Szenarien **pro Computer** beschränkt sind: AlwaysOn und ein benutzerdefiniertes Szenario. Wenn Sie in einem Pool Aktivitäten protokollieren, sollten Sie den Pool als einzelne Entität behandeln. In den meisten Fällen wäre das Ausführen verschiedener Szenarien auf jedem Computer in einem Pool nicht sinnvoll. Sinnvoll ist es dagegen, sich mit dem Problem zu befassen, zu dem Sie Daten sammeln und zu ermitteln, welches Szenario auf einem bestimmten Computer in der gesamten Bereitstellung am sinnvollsten ist. Wenn Sie z. B. das Szenario "UserReplicator" in Betracht ziehen, wäre die Ausführung von UserReplicator auf einem Edgeserver oder Edgepool sehr wenig sinnvoll. 
+> Wenn Sie bestimmen, welche Szenarien sie in einer bestimmten Bereitstellung, einem Pool oder computer ausführen können, müssen Sie bedenken, dass Sie auf die Ausführung von zwei Szenarien **pro Computer** beschränkt sind: AlwaysOn und ein benutzerdefiniertes Szenario. Wenn Sie in einem Pool Aktivitäten protokollieren, sollten Sie den Pool als einzelne Entität behandeln. In den meisten Fällen wäre das Ausführen verschiedener Szenarien auf jedem Computer in einem Pool nicht sinnvoll. Sinnvoll ist es dagegen, sich mit dem Problem zu befassen, zu dem Sie Daten sammeln und zu ermitteln, welches Szenario auf einem bestimmten Computer in der gesamten Bereitstellung am sinnvollsten ist. Wenn Sie z. B. das Szenario "UserReplicator" in Betracht ziehen, wäre die Ausführung von UserReplicator auf einem Edgeserver oder Edgepool sehr wenig sinnvoll. 
   
 Nachdem Sie das Problem und den Umfang der Auswirkungen analysiert haben, sollten Sie sorgfältig auswählen, welche Szenarien auf welchen Computern und in welchen Pools ausgeführt werden sollen. Während das AlwaysOn-Szenario für eine Anwendung mit weitem Bereich sinnvoll ist, da dabei Informationen zu einer Vielfalt von Anbietern gesammelt werden, haben bestimmte Szenarien nur Anwendungswert auf bestimmten Computern bzw. in bestimmten Pools. Seien Sie außerdem vorsichtig beim willkürlichen Starten einer Protokollierungssitzung, ohne den Wert eines bestimmten Szenarios zu kennen. Wenn Sie das falsche Szenario verwenden – oder ein für die Aufgabe zwar geeignetes Szenario verwenden, jedoch auf der falschen Ebene (global, Standort, Pool oder Computer) anwenden – erhalten Sie fragwürdige und wenig nützliche Daten, so als ob Sie das Szenario überhaupt nicht ausgeführt hätten.
   
@@ -109,11 +104,11 @@ Get-CsAdminRole | Where-Object {$_.Cmdlets -match "Set-CsClsConfiguration"}
 ```
 
 > [!NOTE]
-> Sie fragen sich vielleicht: Wo werden die Protokolle aufbewahrt, nachdem Sie die Protokollierung aktiviert haben? Da Sie mithilfe von Verwaltungsshellabfragen, die an die CLS-Agents gesendet werden, auf die in den Protokollen gespeicherten Informationen zugreifen, können Sie die Ergebnisse in mehreren möglichen Dateiformaten ausgeben, wobei auf jedem Server ein CLS-Agent seine Datensätze aufbewahrt, was eigentlich nicht wichtig ist.  Die Protokolldateien können an einem Speicherort gespeichert werden, den Sie mithilfe einer Vielzahl von Tools angeben und lesen und analysieren, einschließlich **Snooper.exe** und jedes Tool, das eine Textdatei lesen kann, z. **B.Notepad.exe**. Snooper.exe ist Teil der Skype for Business Server 2015-Debugtools und steht als [Webdownload](https://go.microsoft.com/fwlink/p/?LinkId=285257)zur Verfügung.
+> Sie fragen sich vielleicht: Wo werden die Protokolle aufbewahrt, nachdem Sie die Protokollierung aktiviert haben? Da Sie mithilfe von Verwaltungsshellabfragen, die an die CLS-Agents gesendet werden, auf die in den Protokollen gespeicherten Informationen zugreifen, können Sie die Ergebnisse in mehreren möglichen Dateiformaten ausgeben, wobei auf jedem Server ein CLS-Agent seine Datensätze aufbewahrt, was eigentlich nicht wichtig ist.  Die Protokolldateien können an einem Speicherort gespeichert werden, den Sie mithilfe einer Vielzahl von Tools angeben und lesen und analysieren, einschließlich **Snooper.exe** und jedes Tool, das eine Textdatei lesen kann, z. **B.Notepad.exe**. Snooper.exe ist Teil der Skype for Business Server 2015-Debugtools und steht als [Webdownload](https://go.microsoft.com/fwlink/p/?LinkId=285257) zur Verfügung.
 
 ### <a name="to-stop-a-currently-running-centralized-logging-service-session"></a>So beenden Sie eine derzeit ausgeführte sitzung des zentralisierten Protokollierungsdiensts
 
-1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+1. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Fragen Sie den zentralisierten Protokollierungsdienst ab, um herauszufinden, welche Szenarien derzeit ausgeführt werden, indem Sie Folgendes eingeben:
     
@@ -145,4 +140,4 @@ Das Cmdlet "Stop-CsClsLogging" fungiert als Begleitbefehl zu "Start-CsClsLogging
 ## <a name="see-also"></a>Siehe auch
 <a name="stop"> </a>
 
-[Zentralisierter Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)
+[Zentraler Protokollierungsdienst in Skype for Business 2015](centralized-logging-service.md)

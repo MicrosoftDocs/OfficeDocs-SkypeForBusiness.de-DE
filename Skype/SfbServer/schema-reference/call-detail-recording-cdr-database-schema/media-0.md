@@ -1,25 +1,20 @@
 ---
 title: Medienansicht
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 1a7b2e59-082e-4188-98ae-48ae9bd3494a
-description: In der Medienansicht werden Informationen zu einem in einer Peer-zu-Peer-Sitzung verwendeten Medientyp gespeichert. Eine Sitzung wird durch mehrere Datensätze in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: 2ed8d66bf55594e3524a43b35df3bfa6d859055a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828558"
+description: 'In der Medienansicht werden Informationen zu einem in einer Peer-zu-Peer-Sitzung verwendeten Medientyp gespeichert. Eine Sitzung wird durch mehrere Datensätze in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.'
 ---
+
 # <a name="media-view"></a>Medienansicht
  
 In der Medienansicht werden Informationen zu einem in einer Peer-zu-Peer-Sitzung verwendeten Medientyp gespeichert. Eine Sitzung wird durch mehrere Datensätze in der Tabelle dargestellt, wenn mehr als ein Medientyp verwendet wird. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
@@ -31,7 +26,7 @@ Die Medienansicht enthält alle Spalten in der [SessionDetails-Ansicht](sessiond
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**Medien** <br/> |nvarchar(256)  <br/> |Medientyp. Weitere Informationen finden Sie in der [MediaList-Tabelle.](medialist.md) <br/> |
+|**Medien** <br/> |nvarchar(256)  <br/> |Medientyp. Weitere Informationen finden Sie in der [MediaList-Tabelle](medialist.md) . <br/> |
 |**MediaStartTime** <br/> |Datum/Uhrzeit  <br/> |Uhrzeit, zu der eine Medienanforderung gesendet wurde.  <br/> |
 |**MediaEndTime** <br/> |Datum/Uhrzeit  <br/> |Sitzungsende.  <br/> |
    

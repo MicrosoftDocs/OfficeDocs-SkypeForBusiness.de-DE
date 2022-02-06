@@ -1,24 +1,19 @@
 ---
 title: Löschen einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: 8b88bed9-2b37-4caf-b119-48688076e06a
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype for Business Server löschen.'
-ms.openlocfilehash: f475eb3ea70eea98c2bfa67b1dea02e30a0b977c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852089"
 ---
+
 # <a name="delete-an-existing-archiving-policy-in-skype-for-business-server"></a>Löschen einer vorhandenen Archivierungsrichtlinie in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Archivierungsrichtlinie für Skype for Business Server löschen.
@@ -39,7 +34,7 @@ Sie können eine Benutzer- oder Standortrichtlinie löschen, jedoch nicht die gl
     
 ## <a name="delete-a-policy-by-using-windows-powershell"></a>Löschen einer Richtlinie mithilfe von Windows PowerShell
 
-Sie können Archivierungsrichtlinien auch mithilfe des Cmdlets **"Remove-CsArchivingPolicy"** löschen.
+Sie können Archivierungsrichtlinien auch mithilfe des Cmdlets **"Remove-CsArchivingPolicy** " löschen.
   
 Mit dem folgenden Befehl wird beispielsweise die Richtlinie mit dem Identitätswert "site:Redmond" gelöscht. Wenn eine auf Standortebene konfigurierte Richtlinie gelöscht wird, werden Benutzer, die zuvor von der Standortrichtlinie verwaltet wurden, stattdessen automatisch von der globalen Archivierungsrichtlinie gesteuert:
   
@@ -59,4 +54,4 @@ Mit diesem Befehl werden alle Archivierungsrichtlinien entfernt, bei denen die i
 Get-CsArchivingPolicy | Where-Object {$_.ArchiveInternal -eq $False} | Remove-CsArchivingPolicy
 ```
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Remove-CsArchivingPolicy".](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["Remove-CsArchivingPolicy](/powershell/module/skype/remove-csarchivingpolicy?view=skype-ps) ".

@@ -1,25 +1,20 @@
 ---
 title: Abrufen der letzten Integrationsdaten
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: e7967dd9-0d6a-4a80-8b59-b8fc2e5615f8
 description: 'Zusammenfassung: Erfahren Sie mehr über den Vorgang "Letzte Integrationsdaten abrufen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
-ms.openlocfilehash: 7bc9323c4a2d3933706be0a39a2ff4b86b11eb42
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851969"
 ---
+
 # <a name="get-last-integration-data"></a>Abrufen der letzten Integrationsdaten
  
 **Zusammenfassung:** Erfahren Sie mehr über den Vorgang "Letzte Integrationsdaten abrufen", der Teil der Daten-API für das Anrufqualitätsdashboard ist. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.
@@ -35,7 +30,7 @@ Dieses Feature ist standardmäßig deaktiviert und muss durch Konfigurieren der 
 
 |**Methode**|**Anforderungs-URI**|**HTTP-Version**|
 |:-----|:-----|:-----|
-|GET  <br/> |https:// \<portal\> /QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
+|GET  <br/> |\<portal\>https:///QoEDataService/IntegrationLog/Status  <br/> |HTTP/1.1  <br/> |
    
  **URI-Parameter** : Keine.
   
