@@ -1,24 +1,19 @@
 ---
 title: Erstellen einer Archivierungskonfiguration in Skype for Business Server
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: medium
 ms.assetid: dc574afa-0b7d-404f-99b3-c812430b7c70
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine Archivierungskonfiguration für Skype for Business Server erstellen.'
-ms.openlocfilehash: 76fd2785f172cc9dd4b76df97d3c29a78e831e46
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850038"
 ---
+
 # <a name="create-an-archiving-configuration-in-skype-for-business-server"></a>Erstellen einer Archivierungskonfiguration in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine Archivierungskonfiguration für Skype for Business Server erstellen.
@@ -33,25 +28,25 @@ So konfigurieren Sie Archivierungsoptionen für einen bestimmten Standort oder P
     
 3. Klicken Sie in der linken Navigationsleiste auf **Überwachung und Archivierung** und dann auf **Archivierungskonfiguration**.
     
-4. Klicken Sie auf der Seite **"Archivierungskonfiguration"** auf **"Neu"** und führen Sie dann eine der folgenden Aktionen aus: 
+4. Klicken Sie auf der Seite **"Archivierungskonfiguration** " auf **"Neu**", und führen Sie dann eine der folgenden Aktionen aus: 
     
-   - Klicken Sie zum Erstellen einer Standortarchivierungskonfiguration auf **"Standortkonfiguration",** und wählen Sie dann in **"Standort auswählen"** den Standort aus, der für die Archivierung konfiguriert werden soll.
+   - Klicken Sie zum Erstellen einer Standortarchivierungskonfiguration auf **"Standortkonfiguration**", und wählen Sie dann unter **"Standort auswählen**" den Standort aus, der für die Archivierung konfiguriert werden soll.
     
-   - Klicken Sie zum Erstellen einer Poolarchivierungskonfiguration auf **"Poolkonfiguration",** und wählen Sie dann in **"Pool auswählen"** den Pool aus, der für die Archivierung konfiguriert werden soll.
+   - Klicken Sie zum Erstellen einer Poolarchivierungskonfiguration auf **"Poolkonfiguration**", und wählen Sie dann in " **Pool auswählen**" den Pool aus, der für die Archivierung konfiguriert werden soll.
     
 5. Führen Sie unter **Neue Archivierungseinstellung** im Dropdown-Listenfeld **Archivierungseinstellung** eine der folgenden Aktionen aus:
     
    - Um nur Sofortnachrichtensitzungen zu archivieren, klicken Sie auf **Sofortnachrichtensitzungen archivieren**.
     
-   - Klicken Sie zum Aktivieren der Archivierung für Chat- und Webkonferenzen auf **Chat- und Webkonferenzsitzungen archivieren.**
+   - Klicken Sie zum Aktivieren der Archivierung für Chat- und Webkonferenzen auf **Chat- und Webkonferenzsitzungen archivieren**.
     
-   - Klicken Sie zum Deaktivieren der Archivierung für diese Konfiguration auf **"Archivierung deaktivieren".**
+   - Klicken Sie auf **"Archivierung deaktivieren**", um die Archivierung für diese Konfiguration zu deaktivieren.
     
 6. Gehen Sie unter **Neue Archivierungseinstellung** wie folgt vor:
     
    - Aktivieren Sie das Kontrollkästchen **Instant Messaging- oder Webkonferenzsitzungen bei Archivierungsfehlern blockieren**, um die Aktivität zu blockieren, wenn die Archivierung nicht verfügbar ist.
     
-   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das **Integrationskontrollkästchen von Microsoft Exchange.**
+   - Um Microsoft Exchange Server zum Speichern von Archivierungsdaten zu verwenden, klicken Sie auf das Kontrollkästchen **"Microsoft Exchange Integration**".
     
    - Zum Aktivieren des Löschvorgangs aktivieren Sie das Kontrollkästchen **Löschen von Archivierungsdaten aktivieren**, und führen Sie einen der folgenden Schritte aus:
     
@@ -63,7 +58,7 @@ So konfigurieren Sie Archivierungsoptionen für einen bestimmten Standort oder P
     
 ## <a name="configure-archiving-options-by-using-windows-powershell"></a>Konfigurieren von Archivierungsoptionen mithilfe von Windows PowerShell
 
-Mit dem Cmdlet **"New-CsArchivingConfiguration"** können Sie auch Archivierungsoptionen für einen bestimmten Standort oder Pool konfigurieren.
+Mit dem Cmdlet **"New-CsArchivingConfiguration** " können Sie auch Archivierungsoptionen für einen bestimmten Standort oder Pool konfigurieren.
   
 Mit dem folgenden Befehl wird eine neue Auflistung von Archivierungskonfigurationseinstellungen für den Standort Redmond erstellt:
   
@@ -85,4 +80,4 @@ Mehrere Eigenschaftswerte können durch die Angabe mehrerer Parameter geändert 
 New-CsArchivingConfiguration -Identity "site:Redmond" -EnableArchiving "ImOnly" -BlockOnArchiveFailure $True
 ```
 
-Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["New-CsArchivingConfiguration".](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps)
+Weitere Informationen finden Sie im Hilfethema zum Cmdlet ["New-CsArchivingConfiguration](/powershell/module/skype/new-csarchivingconfiguration?view=skype-ps) ".

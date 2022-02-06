@@ -1,43 +1,38 @@
 ---
 title: Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
-ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.reviewer: null
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.lync.tb.EdgeMachineSettingsExpander2010
+  - ms.lync.tb.EdgeMachineSettingsExpander2010
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: fb72a5b5-70f4-44af-8dfd-c5d32e563882
 description: 'Um die Eigenschaften für Edgeservercomputer als einzelne Edgeserver oder als Mitgliedscomputer in einem Edgepool zu bearbeiten, konfigurieren Sie die Konfigurationseinstellungen für Servername und IP-Adresse:'
-ms.openlocfilehash: 667d0736e3a964d95842f5d7b8551c7fd0be5e07
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829039"
 ---
+
 # <a name="edge-machine-settings-expander-for-lync-server-2010"></a>Edgecomputereinstellungen für Lync Server 2010 – Erweiterung
  
-Um die Eigenschaften für Edgeservercomputer als einzelne Edgeserver oder als Mitgliedscomputer in einem Edgepool zu bearbeiten, konfigurieren Sie die Konfigurationseinstellungen für **Servername und IP-Adresse:**
+Um die Eigenschaften für Edgeservercomputer als einzelne Edgeserver oder als Mitgliedscomputer in einem Edgepool zu bearbeiten, konfigurieren Sie **die Konfigurationseinstellungen für Servername und IP-Adresse** :
   
-- **Interner Name oder FQDN:** Geben Sie den Namen des Computers ein, auf den im Dns (Domain Name System) verwiesen wird. 
+- **Interner Name oder FQDN**: Geben Sie den Namen des Computers ein, auf den im Dns (Domain Name System) verwiesen wird. 
     
-- **Interne IPv4-Adresse:** Geben Sie die IPv4-Adresse der internen Netzwerkschnittstellenkarte (NIC) für diesen Computer ein.
+- **Interne IPv4-Adresse**: Geben Sie die IPv4-Adresse der internen Netzwerkschnittstellenkarte (NIC) für diesen Computer ein.
     
-- Sie konfigurieren die diesem Computer zugeordnete **externe IPv4-Adresse** des **Zugriffs-Edgediensts.**
+- Sie konfigurieren die diesem Computer zugeordnete **externe IPv4-Adresse** des **Zugriffs-Edgediensts**.
     
     > [!IMPORTANT]
     > Wenn Sie eine einzelne IP-Adresse für die Edgeserverkonfiguration verwendet haben, können Sie nur die externe IPv4-Adresse für den Zugriffs-Edgedienst bearbeiten. Die anderen Edgedienste verwenden dieselbe IPv4-Adresse wie der Zugriffs-Edgedienst. 
   
-- Falls zur Bearbeitung verfügbar, konfigurieren Sie die diesem Computer zugeordnete **externe IPv4-Adresse** des **Webkonferenzdiensts.**
+- Falls zur Bearbeitung verfügbar, konfigurieren Sie die diesem Computer zugeordnete **externe IPv4-Adresse** des **Webkonferenzdiensts**.
     
-- Falls zur Bearbeitung verfügbar, konfigurieren Sie die diesem Computer zugeordnete **externe IPv4-Adresse** des **A/V-Edgediensts.**
+- Falls zur Bearbeitung verfügbar, konfigurieren Sie die diesem Computer zugeordnete **externe IPv4-Adresse** des **A/V-Edgediensts**.
     
 - Wenn für die Bearbeitung verfügbar, konfigurieren Sie die **NAT-aktivierte öffentliche IPv4-Adresse, die** diesem Computer zugeordnet ist.
     
