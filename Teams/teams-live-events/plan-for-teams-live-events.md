@@ -1,32 +1,27 @@
 ---
 title: Planen von Liveereignissen in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-- NOCSH
+  - NOCSH
 ms.localizationpriority: high
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-- m365initiative-meetings-enabler
-- enabler-strategic
+  - M365-collaboration
+  - m365initiative-meetings
+  - m365initiative-meetings-enabler
+  - enabler-strategic
 search.appverid: MET150
-description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.
+description: 'In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.'
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: c8d15111af3815cbf111d7c1d0e2e77298b7d3d5
-ms.sourcegitcommit: b3b295557d494f77a7ebd9f49ec55f2507da956c
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 11/22/2021
-ms.locfileid: "61135188"
 ---
+
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
 Wenn Sie Live Events in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, gibt es mehrere Faktoren, die Sie vor Beginn der Einrichtung berücksichtigen müssen.

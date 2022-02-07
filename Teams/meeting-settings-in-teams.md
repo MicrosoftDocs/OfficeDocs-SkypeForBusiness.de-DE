@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Besprechungseinstellungen
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: sonua
 ms.topic: article
@@ -9,26 +9,21 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-- CSH
+  - CSH
 ms.custom:
-- ms.teamsadmincenter.meetingsettings.invitationurls
-- ms.teamsadmincenter.meetingsettings.network.ports
-- ms.teamsadmincenter.meetingsettings.overview
+  - ms.teamsadmincenter.meetingsettings.invitationurls
+  - ms.teamsadmincenter.meetingsettings.network.ports
+  - ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-- M365-collaboration
-- m365initiative-meetings
-description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
-ms.openlocfilehash: ed042552ea6057c8184b4dad444afa543550b052
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
-ms.translationtype: HT
-ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625916"
+  - M365-collaboration
+  - m365initiative-meetings
+description: 'Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.'
 ---
+
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
 Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, ob anonyme Benutzer an Teams-Besprechungen teilnehmen können und um Besprechungsanfragen anzupassen. Wenn Sie Quality of Service (QoS) aktivieren möchten, können Sie Portbereiche für den Echtzeitdatenverkehr festlegen. Diese Einstellungen gelten für alle Teams-Besprechungen, die Benutzer in Ihrer Organisation planen. Sie verwalten diese Einstellungen über **Besprechungen** > **Besprechungseinstellungen** im Microsoft Teams Admin Center.
