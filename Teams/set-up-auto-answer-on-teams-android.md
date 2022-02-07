@@ -10,27 +10,22 @@ audience: admin
 localization_priority: Normal
 search.appverid: MET150
 ms.collection:
-- M365-collaboration
+  - M365-collaboration
 appliesto:
-- Microsoft Teams
+  - Microsoft Teams
 f1.keywords:
-- CSH
-ms.custom: ''
-description: Erfahren Sie, wie Sie das Feature für die automatische Antwort für Android Teams mit PowerShell einrichten.
-ms.openlocfilehash: e25b0694b54d1047c64ecaba026380ac9c4a9949
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329100"
+  - CSH
+ms.custom: null
+description: 'Erfahren Sie, wie Sie das Feature für die automatische Antwort für Ihren Anruf Microsoft Teams-Räume Android- und Teams mit PowerShell auf Videotelefonen einrichten.'
 ---
-# <a name="set-up-auto-answer-for-teams-android-devices"></a>Einrichten der automatischen Antwort für Teams Android-Geräte
 
-Dieser Artikel hilft Ihnen beim Einrichten der Funktion für die automatische Antwort auf Teams Android-Geräten. Mit der automatischen Antwort können Personen in Ihrer Organisation mit Administratorrechten ihre Geräteeinstellungen ändern, um eingehende Besprechungs-Einladungen automatisch zu akzeptieren und Anrufe automatisch mit Videoanrufen zu akzeptieren.
+# <a name="set-up-auto-answer-for-microsoft-teams-rooms-on-android-and-teams-video-phone-devices"></a>Einrichten der automatischen Antwort für Microsoft Teams-Räume auf Android- und Teams-Videotelefongeräten
+
+Dieser Artikel hilft Ihnen beim Einrichten der Funktion für die automatische Antwort auf Geräten Microsoft Teams-Räume Android- und Teams Videotelefonen. Mit der automatischen Antwort können Personen in Ihrer Organisation mit Administratorrechten ihre Geräteeinstellungen ändern, um eingehende Besprechungs-Einladungen automatisch zu akzeptieren und Anrufe automatisch mit Videoanrufen zu akzeptieren.
 
 ## <a name="enable-auto-answer-with-powershell"></a>Aktivieren der automatischen Antwort mit PowerShell
 
-Verwenden Sie die folgenden Attribute, um die automatische Antwort auf Teams Android-Geräten zu aktivieren:
+Verwenden Sie die folgenden Attribute, um die automatische Antwort auf Microsoft Teams-Räume Android- und Teams Videotelefonen zu aktivieren:
 
 - **Set-CsTeamsCallingPolicy -AutoAnswerEnabledType**
 - **Set-CsTeamsIPPhonePolicy -SignInMode**
