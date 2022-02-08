@@ -1,8 +1,8 @@
 ---
 title: SQL-Instanz – Bereichsknoten
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,18 +15,18 @@ ms.localizationpriority: medium
 ms.assetid: bd270488-ceb9-4920-bef3-ed9fe8eff36c
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz der SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:'
-ms.openlocfilehash: 4aa3b1b69cac7d61d1faa706e7a9a1fbe6565087
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 526644620e48947a5e18b0b117bf0686fc186f1d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858452"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62394087"
 ---
 # <a name="sql-instance-scope-node"></a>SQL-Instanz – Bereichsknoten
  
 Dieser Knoten zeigt den vollqualifizierten Domänennamen (FQDN) dieses Microsoft SQL Server und die Instanz der SQL Server auf diesem Server sowie die Pools oder Server, die diese SQL Server verwenden. Folgende Möglichkeiten stehen zur Verfügung:
   
-- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten"** für diesen Server, auf der Sie den FQDN des Servers ändern können (wenn die Topologie noch nicht veröffentlicht wurde) und die Instanz der zu verwendenden SQL Server.
+- **Eigenschaften bearbeiten**. Öffnet die Seite **"Eigenschaften bearbeiten**" für diesen Server, auf der Sie den FQDN des Servers ändern können (wenn die Topologie noch nicht veröffentlicht wurde) und die Instanz der zu verwendenden SQL Server.
     
 - **Löschen**: Dient zum Löschen des Servers aus der Topologie.
     

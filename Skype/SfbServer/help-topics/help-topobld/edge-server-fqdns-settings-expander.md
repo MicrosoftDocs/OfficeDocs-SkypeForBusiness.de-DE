@@ -1,8 +1,8 @@
 ---
 title: Einstellungen für Edgeserver-FQDNs – Erweiterung
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,16 +15,16 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 9e4e9445-0147-4dd6-84f0-b41de142b332
 description: Um externe Einstellungen für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für den SIP-Zugriff (Session Initiation Protocol), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
-ms.openlocfilehash: 361a543f8a8f9d8e3d08d30156af65b7475ed6ac
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fedca0dada8bc0e53f200968f07da28fb5b3dda4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60827658"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62393837"
 ---
 # <a name="edge-server-fqdns-settings-expander"></a>Einstellungen für Edgeserver-FQDNs – Erweiterung
 
-Um externe **Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für den SIP-Zugriff (Session Initiation Protocol), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
+Um **externe Einstellungen** für die Edgeserver zu bearbeiten oder anzugeben, müssen Sie zunächst ermitteln, ob Sie separate IP-Adressen für den SIP-Zugriff (Session Initiation Protocol), den Webkonferenz-Edgedienst und den Audio-/Video-Edgedienst verwenden.
 
 Wenn separate IP-Adressen verwendet werden sollen, aktivieren Sie das Kontrollkästchen **Separate FQDNs und IP-Adressen für Webkonferenzen und A/V aktivieren**. Für jeden Dienst muss ein DNS-A-Eintrag (Host) erstellt werden.
 
