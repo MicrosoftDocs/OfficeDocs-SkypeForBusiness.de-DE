@@ -1,8 +1,8 @@
 ---
 title: Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/23/2018
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 7a850cd5-c789-4795-a8ff-083be21ae784
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um mehr über die Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015 zu erfahren.'
-ms.openlocfilehash: 4b84d06a7b6c7f20f26d22ed5718da9abf8108d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 48df53528b31babe6419bc42ac303b810abdf197
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60834061"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389997"
 ---
 # <a name="capacity-planning-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Kapazitätsplanung für den Server für beständigen Chat in Skype for Business Server 2015
  
@@ -28,10 +28,10 @@ Der Server für beständigen Chat kann Chats mit mehreren Benutzern in Echtzeit 
   
 Die Kapazitätsplanung ist ein wichtiger Bestandteil der Vorbereitung auf die Bereitstellung des Servers für beständigen Chat. Dieses Thema enthält Tabellen zur Kapazitätsplanung, die Sie verwenden können, um die beste Konfiguration für Ihre Bereitstellung zu ermitteln. Außerdem wird beschrieben, wie Sie Bereitstellungen des Servers für beständigen Chat am besten verwalten, die zu Spitzenzeiten eine höhere Kapazität erfordern.
   
-Bevor Sie diesen Abschnitt lesen, sollten Sie mit Topologien für beständigen Chat vertraut sein. Weitere Informationen finden Sie unter Planen der Topologie des [Servers für beständigen Chat.](topology.md)
+Bevor Sie diesen Abschnitt lesen, sollten Sie mit Topologien für beständigen Chat vertraut sein. Weitere Informationen finden Sie unter [Planen der Topologie des Servers für beständigen Chat](topology.md).
 
 > [!NOTE] 
-> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams Upgrade.](/microsoftteams/upgrade-start-here) Wenn Sie den beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
+> Beständiger Chat ist in Skype for Business Server 2015 verfügbar, wird jedoch in Skype for Business Server 2019 nicht mehr unterstützt. Die gleiche Funktionalität ist in Teams verfügbar. Weitere Informationen finden Sie unter [Erste Schritte mit Ihrem Microsoft Teams-Upgrade](/microsoftteams/upgrade-start-here). Wenn Sie beständigen Chat verwenden müssen, können Sie entweder Benutzer migrieren, die diese Funktionalität zum Teams benötigen, oder Skype for Business Server 2015 weiterhin verwenden. 
   
 ## <a name="persistent-chat-server-capacity-planning"></a>Kapazitätsplanung für den Server für beständigen Chat
 
@@ -113,9 +113,9 @@ Für jeden Chatroom gibt die vorherige Tabelle zur Kapazitätsplanung die Anzahl
   
 ### <a name="plan-capacity-for-managing-chat-room-access-by-invitation"></a>Planen der Kapazität für die Verwaltung des Chatroomzugriffs nach Einladung
 
-Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um die Anzahl der Einladungen zu verstehen, die der Server für beständigen Chat erstellt und in der Datenbank für beständigen Chat speichert, wenn er für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen in der Kategorie mithilfe der Einstellungsseite **"Chatroomkategorie"** in der Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets "set-csPersistentChatCategory" Windows PowerShell.  Sie können Einladungen in einem Chatroom (in Übereinstimmung mit dem, was die Kategorie zulässt) verwalten, indem Sie die Seite **"Raumverwaltung"** verwenden, die vom Skype for Business-Client gestartet wurde, oder mithilfe eines Windows PowerShell Cmdlets, **set-csPersistentChatRoom.**
+Sie können die folgende Tabelle zur Kapazitätsplanung verwenden, um die Anzahl der Einladungen zu verstehen, die der Server für beständigen Chat erstellt und in der Datenbank für beständigen Chat speichert, wenn er für das Senden von Einladungen konfiguriert ist. Sie verwalten Einladungen in der Kategorie mithilfe der Einstellungsseite "**Chatroomkategorie"** in der systemsteuerung Skype for Business Server oder mit dem Cmdlet "**set-csPersistentChatCategory**" Windows PowerShell Cmdlet. Sie können Einladungen in einem Chatroom (in Übereinstimmung mit dem, was die Kategorie zulässt) verwalten, indem Sie die Seite "**Raumverwaltung**" verwenden, die vom Skype for Business-Client gestartet wurde, oder mithilfe eines Windows PowerShell Cmdlets, **"set-csPersistentChatRoom"**.
   
-Die Beispieldaten in der folgenden Tabelle gehen davon aus, dass auf der Seite **"Chatroomeinstellungen"** für 50 Prozent aller Chatrooms die Option **"Einladungen"** auf **"Ja"** festgelegt ist.
+Die Beispieldaten in der folgenden Tabelle gehen davon aus, dass auf der Seite **"Chatroomeinstellungen** " für 50 Prozent aller **Chatrooms die Option "Einladungen** " auf **"Ja**" festgelegt ist.
   
 > [!IMPORTANT]
 > Wenn der berechnete Wert für die Anzahl der vom Server generierten Einladungen 1 Million überschreitet, kann die Serverleistung erheblich beeinträchtigt werden. Um dieses Problem zu vermeiden, minimieren Sie die Anzahl der Chatrooms, die für das Senden von Einladungen konfiguriert sind, oder beschränken Sie die Anzahl der Benutzer, die chatrooms beitreten können, die für das Senden von Einladungen konfiguriert wurden. 
@@ -134,7 +134,7 @@ Die Beispieldaten in der folgenden Tabelle gehen davon aus, dass auf der Seite *
 |Chatrate pro Chatroom (pro Tag)   |50   |500   |100   |650   |
 |Chatrate (pro Sekunde) in allen Chatrooms   |55.56   |18.52   |0.03   |74   |
 |Modell 2 – Start mit der Anzahl der Nachrichten, die pro Benutzer und Tag gepostet werden   |||||
-|Chatrate pro Benutzer und Tag   |15    |5   |0.1   |20   |
+|Chatrate pro Benutzer und Tag   |15    |5   |0,1   |20   |
 |Chatrate pro Chatroom (pro Tag)   |38   |375   |800   |1,213   |
 |Chatrate (pro Sekunde) in allen Chatrooms   |41.67   |13.89   |0.28   |56   |
    

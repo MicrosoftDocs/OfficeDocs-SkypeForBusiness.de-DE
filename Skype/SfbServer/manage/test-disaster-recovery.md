@@ -1,8 +1,8 @@
 ---
 title: Notfallwiederherstellungstests in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -11,12 +11,12 @@ f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
 description: Durchführen einer Systemwiederherstellung für einen Skype for Business Server Poolserver zum Testen des dokumentierten Notfallwiederherstellungsprozesses
-ms.openlocfilehash: 2d6fa097061b470814887f1e13eaf4748de6e4f3
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 87b76e958ed35896921791406759e58ce2ee1635
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863502"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390107"
 ---
 # <a name="disaster-recovery-testing-in-skype-for-business-server"></a>Notfallwiederherstellungstests in Skype for Business Server
 
@@ -34,7 +34,7 @@ Importieren Sie Ihre Skype for Business Server Topologie, Richtlinien und Konfig
 
 So sichern Sie Produktionsdaten:
 
-- Sichern Sie die RTC- und LCSLog-Datenbanken mithilfe des standardmäßigen SQL Server Sicherungsvorgangs, um die Datenbank auf einem Datei- oder Bandsicherungsgerät zu sichern.
+- Sichern Sie die RTC- und LCSLog-Datenbanken mithilfe des standardmäßigen SQL Server Sicherungsprozesses, um die Datenbank auf einem Datei- oder Bandsicherungsgerät zu sichern.
 - Verwenden Sie die Sicherungsanwendung von Drittanbietern, um die Daten in einer Datei oder auf einem Band zu sichern.
 - Verwenden Sie das Cmdlet Export-CsUserData, um einen XML-Export der gesamten RTC-Datenbank zu erstellen.
 - Verwenden Sie die Dateisystemsicherung oder Drittanbietersicherung, um Besprechungsinhalte und Complianceprotokolle zu sichern.
@@ -42,11 +42,11 @@ So sichern Sie Produktionsdaten:
 
 Der erste Schritt im Failoververfahren umfasst die erzwungene Verschiebung von Benutzern aus dem Produktionspool in den Notfallwiederherstellungspool. Dies ist eine erzwungene Verschiebung, da der Produktionspool nicht verfügbar ist, um die Verschiebung des Benutzers zu akzeptieren.
 
-Der Skype for Business Server Verschieben des Benutzerprozesses ist im Grunde eine Änderung an einem Attribut des Benutzerkontoobjekts sowie eine Datensatzaktualisierung in der RTC-SQL-Datenbank. Diese Daten können vom ursprünglichen Sicherungssicherungsgerät aus der Produktions-SQL Server mithilfe des Standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungsprogramms eines Drittanbieters wiederhergestellt werden.
+Der Skype for Business Server Verschieben des Benutzerprozesses ist im Grunde eine Änderung an einem Attribut des Benutzerkontoobjekts zusätzlich zu einer Datensatzaktualisierung in der RTC-SQL-Datenbank. Diese Daten können vom ursprünglichen Sicherungssicherungsgerät aus der Produktions-SQL Server mithilfe des Standardmäßigen SQL Server Wiederherstellungsprozesses oder mithilfe eines Sicherungs-/Wiederherstellungsprogramms eines Drittanbieters wiederhergestellt werden.
 
 Nachdem diese Daten wiederhergestellt wurden, können Benutzer effektiv eine Verbindung mit dem Notfallwiederherstellungspool herstellen und wie gewohnt arbeiten. Damit Benutzer eine Verbindung mit dem Notfallwiederherstellungspool herstellen können, ist eine DNS-Eintragsänderung erforderlich.
 
-Auf den Produktions-Skype for Business-Pool wird von Clients verwiesen, die die Autokonfigurations- und DNS-SRV-Einträge von:
+Auf den Produktions-Skype for Business-Pool wird von Clients verwiesen, die die Autokonfigurations- und DNS-SRV-Einträge verwenden von:
 
 - SRV: _sip._tls.\<domain> /CNAME: SIP.\<domain>
 - CNAME: SIP.\<domain> /cvc-pool-1.\<domain>

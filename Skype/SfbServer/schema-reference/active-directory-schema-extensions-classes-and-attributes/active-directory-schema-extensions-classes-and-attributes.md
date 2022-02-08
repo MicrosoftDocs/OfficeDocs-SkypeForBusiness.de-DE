@@ -1,8 +1,8 @@
 ---
 title: Active Directory-Schemaerweiterungen, -Klassen und -Attribute
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 2/1/2016
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 579bfa5a-9443-46dd-9a8e-07d00ba2824d
 description: 'Dieser Referenzbereich enthält die folgenden Informationen:'
-ms.openlocfilehash: a2e304a59970e775940d0a95480259cfa8fb5814
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b47ed234a9b69b6642488686b94d738de57e81ca
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60828658"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389927"
 ---
 # <a name="active-directory-schema-extensions-classes-and-attributes"></a>Active Directory-Schemaerweiterungen, -Klassen und -Attribute
  
@@ -32,7 +32,7 @@ Dieser Referenzbereich enthält die folgenden Informationen:
     
 - Alle von Skype for Business Server verwendeten Attribute mit jeweils einer Beschreibung
     
-- Eine Liste der von Skype for Business Server verwendeten Klassen mit den Attributen, die jeweils
+- Eine Liste der von Skype for Business Server verwendeten Klassen mit den attributen, die jeweils enthalten sein können
     
 - Globale Einstellungen und Objekte, die zusätzlich zu den universellen Dienst- und Administrationsgruppen verfügbar sind, die während der Vorbereitung der Gesamtstruktur erstellt werden.
     
@@ -54,7 +54,7 @@ Dieser Referenzbereich enthält die folgenden Informationen:
     
 - [Änderungen, die durch die Gesamtstrukturvorbereitung in Skype for Business Server](changes-made-by-forest-preparation.md)
     
-- [Änderungen, die von der Domänenvorbereitung in Skype for Business Server vorgenommen wurden](changes-made-by-domain-preparation.md)
+- [Änderungen, die durch die Domänenvorbereitung in Skype for Business Server](changes-made-by-domain-preparation.md)
     
 - [Von Grant-CsSetupPermission in Skype for Business Server vorgenommene Änderungen](changes-made-by-grant-cssetuppermission.md)
     

@@ -1,8 +1,8 @@
 ---
 title: Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,17 +12,17 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: b224b0d0-87e3-4cac-ae87-f45f54fabb49
-description: Erfahren Sie, welche Erfahrungen Benutzer haben, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder zurückfällt.
-ms.openlocfilehash: 4fb48423d09a1d891e3eb5ae209059cb6722bf81
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Erfahren Sie, welche Benutzer auftreten, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt.
+ms.openlocfilehash: 19533d855c8aeee453808873746609e2508b0b2f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835143"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62390007"
 ---
 # <a name="user-experience-during-pool-failure-in-skype-for-business-server"></a>Benutzerfreundlichkeit bei Poolfehlern in Skype for Business Server
  
-Erfahren Sie, welche Erfahrungen Benutzer haben, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt oder zurückfällt.
+Erfahren Sie, welche Benutzer auftreten, wenn ein Front-End-Pool während der Notfallwiederherstellung in Skype for Business Server ausfällt.
   
 Wenn ein Pool fehlgeschlagen ist, werden alle Benutzer im betroffenen Pool gezwungen, sich ab- und dann beim Sicherungspool anzumelden. Für einen kurzen Zeitraum befinden sich die Benutzer, die sich am Sicherungspool anmelden, möglicherweise im Ausfallsicherheitsmodus. Im Ausfallsicherheitsmodus können Benutzer keine Aufgaben ausführen, die eine dauerhafte Änderung an Skype for Business Server verursachen würden, z. B. das Hinzufügen eines Kontakts. Nachdem das Failover abgeschlossen wurde, können alle Benutzer alle Dienste vom Sicherungspool beziehen.
   

@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -13,28 +13,28 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 0fde142b-70b1-46c6-b1f9-f9d70115371d
 description: 'Zusammenfassung: Konfigurieren der Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.'
-ms.openlocfilehash: 4148cf404fba4718f56c3c8db7ffe180881b3ae7
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: c6122e27f3b462a69a365259827a394b9b379012
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60835813"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62389617"
 ---
 # <a name="configure-the-video-interop-server-in-skype-for-business-server"></a>Konfigurieren des Video-Interoperabilitätsservers in Skype for Business Server
  
 **Zusammenfassung:** Konfigurieren Sie die Rolle des Video-Interoperabilität-Servers (VIS) in Skype for Business Server.
   
- Konfigurieren Sie die Einstellungen, die der VIS mit Videotrunks zuordnen wird, mithilfe Windows PowerShell. Nach der Installation des VIS-Diensts wird eine Videotrunkkonfiguration mit globaler Reichweite erstellt. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einem spezifischeren Bereich haben. Beachten Sie, dass die Videotrunkkonfiguration eine Sammlung von Einstellungen ist, die für Videotrunks gelten.
+ Konfigurieren Sie die Einstellungen, die der VIS videotrunks mithilfe von Windows PowerShell zuordnen wird. Nach der Installation des VIS-Diensts wird eine Videotrunkkonfiguration mit globaler Reichweite erstellt. Diese Videotrunkkonfiguration wird vom VIS auf alle Trunks angewendet, die keine Videotrunkkonfiguration mit einem spezifischeren Bereich haben. Beachten Sie, dass die Videotrunkkonfiguration eine Sammlung von Einstellungen ist, die für Videotrunks gelten.
   
 ## <a name="configure-video-trunk-and-dial-plan"></a>Konfigurieren von Videotrunk und Wählplan
 
 Verwenden Sie die folgenden Windows PowerShell Befehle, um die Konfiguration des Videotrunks und den Wählplan anzugeben, die den neu definierten Trunks zugeordnet werden sollen, die im Topologiedokument zwischen dem VIS und allen Videogateways definiert sind. Alle diese Einstellungen können auf globaler, Standort- oder Dienstebene (Videogateway) festgelegt werden. 
   
-Pro Skype for Business Server Bereitstellung wird ein Wählplan mit globaler Reichweite erstellt. Dieser Wählplan wird vom VIS auf alle Trunks angewendet, die keinen Wählplan mit einem spezifischeren Bereich haben. 
+Pro Skype for Business Server Bereitstellung wird ein Wählplan mit globaler Gültigkeitsbereich erstellt. Dieser Wählplan wird vom VIS auf alle Trunks angewendet, die keinen Wählplan mit einem spezifischeren Bereich haben. 
   
-### <a name="configure-the-vis-using-windows-powershell"></a>Konfigurieren des VIS mit Windows PowerShell
+### <a name="configure-the-vis-using-windows-powershell"></a>Konfigurieren des VIS mithilfe von Windows PowerShell
 
-1. Erstellen Sie eine neue Videotrunkkonfiguration (eine Sammlung von Einstellungen), die auf dem Trunk zwischen dem VIS und Cisco Unified Communications Manager (CallManager oder CUCM) mithilfe des folgenden cmdlets Windows PowerShell verwendet werden soll:
+1. Erstellen Sie eine neue Videotrunkkonfiguration (eine Sammlung von Einstellungen), die auf dem Trunk zwischen dem VIS und Cisco Unified Communications Manager (CallManager oder CUCM) verwendet werden soll, mithilfe des folgenden Windows PowerShell Cmdlets:
     
    ```powershell
    New-CsVideoTrunkConfiguration -Identity "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com" -GatewaySendsRtcpForActiveCalls $false -GatewaySendsRtcpForCallsOnHold $false -EnableMediaEncryptionForSipOverTls $true(or $false)
@@ -67,7 +67,7 @@ Pro Skype for Business Server Bereitstellung wird ein Wählplan mit globaler Rei
    Remove-CsVoiceNormalizationRule -Identity  "Service:VideoGateway:CUCMVIS1.CUCMInterop.contoso.com/Keep All"
    ```
 
-Der Befehl **"Remove-CsVoiceNormalizationRule"** ist erforderlich, um eine Standardregel außer Kraft zu setzen, die die erwartete VIS- und CUCM-Interaktion beeinträchtigt.
+Der Befehl **"Remove-CsVoiceNormalizationRule** " ist erforderlich, um eine Standardregel außer Kraft zu setzen, die die erwartete VIS- und CUCM-Interaktion beeinträchtigt.
 > [!NOTE]
 > [Remove-CsDialPlan](/powershell/module/skype/remove-csdialplan?view=skype-ps) kann zum Entfernen eines Wählplans verwendet werden.
   
