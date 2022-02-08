@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren einer lokalen Partneranwendung für Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,13 +8,18 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 696f2b26-e5d0-42b5-9785-a26c2ce25bb7
 description: 'Zusammenfassung: Konfigurieren einer lokalen Partneranwendung für Skype for Business Server.'
+ms.openlocfilehash: c3ad8184d7a63afa5b481c62901be13a7c5915e2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392607"
 ---
-
 # <a name="configure-an-on-premises-partner-application-for-skype-for-business-server"></a>Konfigurieren einer lokalen Partneranwendung für Skype for Business Server
  
 **Zusammenfassung:** Konfigurieren Sie eine lokale Partneranwendung für Skype for Business Server.

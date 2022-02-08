@@ -1,9 +1,9 @@
 ---
 title: Verwalten von SIP-Partnerverbundanbietern für eine Organisation
-ms.reviewer: null
-'ms:assetid': c78d7e9b-c496-40c6-9249-06ced9cb87f3
-'ms:mtpsurl': 'https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)'
-'ms:contentKeyID': 48679566
+ms.reviewer: ''
+ms:assetid: c78d7e9b-c496-40c6-9249-06ced9cb87f3
+ms:mtpsurl: https://technet.microsoft.com/en-us/library/JJ552455(v=OCS.15)
+ms:contentKeyID: 48679566
 mtps_version: v=OCS.15
 ms.author: serdars
 author: SerdarSoysal
@@ -12,11 +12,16 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
-description: 'Erfahren Sie, wie Sie die Unterstützung für Benutzer von SIP-Partnerverbundanbietern konfigurieren.'
+description: Erfahren Sie, wie Sie die Unterstützung für Benutzer von SIP-Partnerverbundanbietern konfigurieren.
+ms.openlocfilehash: b6a28714ec3ad81470f362f49605d0be4805dbe2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392557"
 ---
-
 # <a name="manage-sip-federated-providers-for-your-organization-in-skype-for-business-server"></a>Verwalten von SIP-Partnerverbundanbietern für Ihre Organisation in Skype for Business Server
 
 Um die Unterstützung für Benutzer von SIP-Verbundanbietern zu konfigurieren, müssen Sie folgendermaßen vorgehen:

@@ -1,6 +1,6 @@
 ---
-title: 'Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server'
-ms.reviewer: null
+title: Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,13 +8,18 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 25c2450a-f7b3-4dd2-987d-64f4246dd019
 description: 'Zusammenfassung: Erfahren Sie mehr über die Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.'
+ms.openlocfilehash: 4ed1c4716e88fcfe47200b97f2f9cd329e8c56a1
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392467"
 ---
-
 # <a name="data-api-for-call-quality-dashboard-cqd-in-skype-for-business-server"></a>Daten-API für das Anrufqualitäts-Dashboard (Call Quality Dashboard, CQD) in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über die Daten-API für das Anrufqualitäts-Dashboard. Das Anrufqualitäts-Dashboard ist ein Tool für Skype for Business Server.

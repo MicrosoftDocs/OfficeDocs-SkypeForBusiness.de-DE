@@ -9,12 +9,17 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 description: 'Zusammenfassung: Erfahren Sie mehr über die Virtualisierungsunterstützung für Skype for Business Server 2019.'
+ms.openlocfilehash: 87263c4204cddbcd5e64cfeb6709b88bb94c2a60
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392257"
 ---
-
 # <a name="virtualization-support-for-skype-for-business-server-2019"></a>Virtualisierungsunterstützung für Skype for Business Server 2019
 
 Skype for Business Server 2019 wird für die Virtualisierung unterstützt.

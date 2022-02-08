@@ -1,6 +1,6 @@
 ---
 title: Aktivieren von Benutzern für E9-1-1 in Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,16 +8,21 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 3cc64f5b-492e-4c47-9713-3c376f2aad02
-description: 'Entscheidungen, die für die Standortrichtlinie für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind, einschließlich der zu aktivierenden Benutzer und der Unterstützung von Roamingbenutzern.'
+description: Entscheidungen, die für die Standortrichtlinie für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind, einschließlich der zu aktivierenden Benutzer und der Unterstützung von Roamingbenutzern.
+ms.openlocfilehash: 877e813df4d1ace9084586702836db96dbb149a5
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392427"
 ---
-
 # <a name="enable-users-for-e9-1-1-in-skype-for-business-server"></a>Aktivieren von Benutzern für E9-1-1 in Skype for Business Server
  
 Entscheidungen, die für die Standortrichtlinie für eine E9-1-1-Bereitstellung in Skype for Business Server Enterprise-VoIP erforderlich sind, einschließlich der zu aktivierenden Benutzer und der Unterstützung von Roamingbenutzern.

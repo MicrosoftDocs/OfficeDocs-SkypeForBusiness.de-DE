@@ -1,6 +1,6 @@
 ---
 title: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,13 +8,18 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: c7413954-2504-47f4-a073-44548aff1c0c
 description: 'Zusammenfassung: Zuweisen eines Server-zu-Server-Authentifizierungszertifikats für Skype for Business Server.'
+ms.openlocfilehash: fdbfcf7e5708b1992c4e7bb10108a35085607477
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392617"
 ---
-
 # <a name="assign-a-server-to-server-authentication-certificate-to-skype-for-business-server"></a>Zuweisen eines Server-zu-Server-Authentifizierungszertifikats zu Skype for Business Server
 **Zusammenfassung:** Weisen Sie ein Server-zu-Server-Authentifizierungszertifikat für Skype for Business Server zu.
   

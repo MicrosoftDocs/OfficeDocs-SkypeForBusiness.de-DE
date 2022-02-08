@@ -1,6 +1,6 @@
 ---
 title: Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,12 +9,17 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: 4346e70b-ac48-4ab9-853e-3cdd6dcfe678
 description: 'Zusammenfassung: Erfahren Sie, wie Sie die hohe Verfügbarkeit und Notfallwiederherstellung des Servers für beständigen Chat in Skype for Business Server 2015 verwalten.'
+ms.openlocfilehash: 5823d4aa9df744c8a7e0b133f7e4798ddcf712c8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392477"
 ---
-
 # <a name="manage-high-availability-and-disaster-recovery-for-persistent-chat-server-in-skype-for-business-server-2015"></a>Verwalten der hohen Verfügbarkeit und Notfallwiederherstellung für den Server für beständigen Chat in Skype for Business Server 2015
  
 **Zusammenfassung:** Erfahren Sie, wie Sie die hohe Verfügbarkeit und Notfallwiederherstellung des Servers für beständigen Chat in Skype for Business Server 2015 verwalten.

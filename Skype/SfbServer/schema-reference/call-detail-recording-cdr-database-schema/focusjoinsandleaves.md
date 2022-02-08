@@ -1,6 +1,6 @@
 ---
 title: FocusJoinsAndLeaves-Tabelle in Skype for Business Server 2015
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,12 +9,17 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: e6f0212c-67e9-4061-8720-d0296e855991
-description: 'Jeder Datensatz in dieser Tabelle enthält die KDS-Informationen über die Teilnahme- und Leave-Informationen eines Benutzers für eine Konferenz. Jede Konferenz wird in dieser Tabelle jeweils durch einen Datensatz dargestellt, wenn ein Benutzer der Konferenz beitritt und diese verlässt.'
+description: Jeder Datensatz in dieser Tabelle enthält die KDS-Informationen über die Teilnahme- und Leave-Informationen eines Benutzers für eine Konferenz. Jede Konferenz wird in dieser Tabelle jeweils durch einen Datensatz dargestellt, wenn ein Benutzer der Konferenz beitritt und diese verlässt.
+ms.openlocfilehash: 607101a4bbcc5909ab8c9271a878a0b59164552d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392287"
 ---
-
 # <a name="focusjoinsandleaves-table-in-skype-for-business-server-2015"></a>FocusJoinsAndLeaves-Tabelle in Skype for Business Server 2015
  
 Jeder Datensatz in dieser Tabelle enthält die KDS-Informationen über die Teilnahme- und Leave-Informationen eines Benutzers für eine Konferenz. Jede Konferenz wird in dieser Tabelle jeweils durch einen Datensatz dargestellt, wenn ein Benutzer der Konferenz beitritt und diese verlässt.

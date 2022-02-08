@@ -1,6 +1,6 @@
 ---
 title: Erstellen eines neuen PSTN-Verwendungsdatensatzes durch VoIP-Richtlinie oder Bearbeiten eines vorhandenen PSTN-Verwendungsdatensatzes
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,15 +8,20 @@ ms.date: 2/8/2018
 audience: ITPro
 ms.topic: article
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.lync.lscp.VoicePolicyUsageEdit
+- ms.lync.lscp.VoicePolicyUsageEdit
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 1f9b1f38-3255-43d0-8db6-e5790d4cfda9
 description: UNRESOLVED_TOKEN_VAL(...bigfin_UI_help_intro)
+ms.openlocfilehash: 78f639b3a11469fc767ede416cdadc39c3f7fcce
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392737"
 ---
-
 # <a name="voice-policy-create-new-or-edit-existing-pstn-usage-record"></a>VoIP-Richtlinie: Erstellen eines neuen oder Bearbeiten eines vorhandenen PSTN-Verwendungsdatensatzes
 
 UNRESOLVED_TOKEN_VAL(...bigfin_UI_help_intro)

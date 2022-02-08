@@ -1,6 +1,6 @@
 ---
 title: Planen des Upgrades auf Skype for Business Server 2015
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -9,16 +9,21 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: c62b5f6a-bdbe-4ac1-aabf-89e560e64a26
 description: 'Zusammenfassung: Erfahren Sie mehr über die Dinge, die Sie berücksichtigen sollten, wenn Sie ein Upgrade auf Skype for Business Server 2015 planen. Laden Sie eine kostenlose Testversion von Skype for Business Server 2015 aus dem Microsoft Evaluation Center herunter: https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server.'
+ms.openlocfilehash: ac78b3868713e3502ac3646a731b92695bd9c926
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392317"
 ---
-
 # <a name="plan-to-upgrade-to-skype-for-business-server-2015"></a>Planen des Upgrades auf Skype for Business Server 2015
  
 Zusammenfassung: Erfahren Sie mehr über die Dinge, die Sie berücksichtigen sollten, wenn Sie ein Upgrade auf Skype for Business Server 2015 planen. Laden Sie eine kostenlose Testversion von Skype for Business Server 2015 aus dem Microsoft Evaluation Center herunter: [https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server](https://www.microsoft.com/evalcenter/evaluate-skype-for-business-server).

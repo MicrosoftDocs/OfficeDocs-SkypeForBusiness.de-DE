@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,12 +8,17 @@ audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: 394ac291-05cd-4fa1-acb3-714af538b47f
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie einen Archivierungshaftungsausschluss für Skype for Business Server konfigurieren.'
+ms.openlocfilehash: d607bf05d1aca413194a793ed08f84ca57c16f96
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392277"
 ---
-
 # <a name="configure-archiving-disclaimers-for-external-users-in-skype-for-business-server"></a>Konfigurieren von Archivierungshaftungsausschlüssen für externe Benutzer in Skype for Business Server
  
 **Zusammenfassung:** In diesem Thema erfahren Sie, wie Sie einen Archivierungshaftungsausschluss für Skype for Business Server konfigurieren.

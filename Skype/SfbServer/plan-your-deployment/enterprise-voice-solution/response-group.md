@@ -1,6 +1,6 @@
 ---
 title: Planen der Reaktionsgruppenanwendung in Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,16 +8,21 @@ audience: ITPro
 ms.topic: conceptual
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 6cc333e7-4029-4372-86b2-016040c415fb
-description: 'Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.'
+description: Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.
+ms.openlocfilehash: c7a34b63cfd01e8958c85f459415e3830d0eb235
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392407"
 ---
-
 # <a name="plan-for-the-response-group-application-in-skype-for-business-server"></a>Planen der Reaktionsgruppenanwendung in Skype for Business Server
 
 Planung von Reaktionsgruppen in Skype for Business Server Enterprise-VoIP, mit der Sie Anrufweiterleitung für Benutzergruppen einrichten können. Umfasst Audiodateianforderungen.

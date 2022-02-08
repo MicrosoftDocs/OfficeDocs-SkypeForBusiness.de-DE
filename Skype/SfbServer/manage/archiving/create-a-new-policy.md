@@ -1,6 +1,6 @@
 ---
 title: Erstellen einer neuen Archivierungsrichtlinie in Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,12 +8,17 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: 50c39731-ba2f-49c2-a571-6dc373f6aaeb
 description: 'Zusammenfassung: Erfahren Sie, wie Sie eine neue Archivierungsrichtlinie für Skype for Business Server erstellen.'
+ms.openlocfilehash: ffa2821ca4871a0e05d0afe2f162512a60df3897
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392637"
 ---
-
 # <a name="create-a-new-archiving-policy-in-skype-for-business-server"></a>Erstellen einer neuen Archivierungsrichtlinie in Skype for Business Server
 
 **Zusammenfassung:** Erfahren Sie, wie Sie eine neue Archivierungsrichtlinie für Skype for Business Server erstellen.

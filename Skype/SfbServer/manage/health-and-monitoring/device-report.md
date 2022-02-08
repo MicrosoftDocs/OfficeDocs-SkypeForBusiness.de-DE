@@ -1,6 +1,6 @@
 ---
 title: Gerätebericht in Skype for Business Server
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,12 +8,17 @@ audience: ITPro
 ms.topic: article
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: f42e4d60-699b-4870-8bb5-13b51bb6eb2b
 description: 'Zusammenfassung: Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.'
+ms.openlocfilehash: 211dc69423f8f5b2edb9d5508a78c48297d3917c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62392527"
 ---
-
 # <a name="device-report-in-skype-for-business-server"></a>Gerätebericht in Skype for Business Server
  
 **Zusammenfassung:** Erfahren Sie mehr über den Gerätebericht in Skype for Business Server.
