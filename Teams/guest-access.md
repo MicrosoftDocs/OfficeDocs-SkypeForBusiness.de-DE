@@ -19,12 +19,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 description: Gastzugriff in Microsoft Teams ermöglicht Teams in Ihrer Organisation, mit Personen außerhalb Ihrer Organisation zusammenzuarbeiten, indem ihnen Zugriff auf Teams und Kanäle gewährt wird.
-ms.openlocfilehash: 80c1fcb9012efbc1809b1d1d4252c9801d148ba9
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: 8ea0ae05823a1f7402d6a41f51794d0a169faf43
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537086"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457255"
 ---
 # <a name="guest-access-in-microsoft-teams"></a>Gastzugriff in Microsoft Teams
 
@@ -33,11 +33,11 @@ Mit Gastzugriff können Sie Personen, die nicht Ihrer Organisation angehören, Z
 > [!NOTE]
 > Wenn Sie nur Personen in anderen Organisationen suchen, anrufen, mit ihnen chatten und Besprechungen mit ihnen einrichten möchten, verwenden Sie den [externen Zugriff](manage-external-access.md).
 
-Ein Gast ist kein Mitarbeiter, Schüler/Student oder Mitglied Ihrer Organisation Er verfügt über kein Geschäfts-, Schul- oder Unikonto bei Ihrer Organisation. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jede Person, die nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einem Business-Konto (d. h. ein Azure Active Directory-Konto) oder E-Mail-Heimanwender-Konto (mit Outlook.com, Gmail.com oder einer sonstigen Adresse) als Gast in Microsoft Teams teilnehmen kann – mit vollständigem Zugriff auf Team- und Kanalfunktionen.
+Ein Gast ist eine Person, die nicht über ein Schul/Uni- oder Geschäftskonto in Ihrer Organisation verfügt. Gäste können beispielsweise Partner, Hersteller, Lieferanten oder Berater sein. Jede Person, die nicht Teil Ihrer Organisation ist, kann als Gast in Teams hinzugefügt werden. Dies bedeutet, dass jeder Benutzer mit einem Business-Konto (d. h. ein Azure Active Directory-Konto) oder E-Mail-Heimanwender-Konto (mit Outlook.com, Gmail.com oder einer sonstigen Adresse) als Gast in Microsoft Teams teilnehmen kann – mit vollständigem Zugriff auf Team- und Kanalfunktionen.
 
 Für alle Gäste in Microsoft Teams gelten dieselben Compliance- und Überwachungsmaßnahmen wie überall in Microsoft 365, und die Gäste können in Azure AD verwaltet werden. Der Gastzugriff unterliegt Azure AD- und Microsoft 365- oder Office 365-Dienstbegrenzungen.
 
-Die Gastumgebung weist beabsichtigte Einschränkungen auf. Eine vollständige Liste dessen, was ein Gast in Teams tun kann und was nicht, finden Sie unter [Vergleich der Funktionen für Teammitglieder und Gäste](guest-experience.md#comparison-of-team-member-and-guest-capabilities).
+Die Gastumgebung hat Beschränkungen, die beabsichtigt sind. Eine vollständige Liste der Aktionen, die ein Gast in Teams ausführen kann und welche nicht, finden Sie unter [Gastzugriff in Microsoft Teams](guest-experience.md).
 
 > [!IMPORTANT]
 > Gäste folgen den organisationsweiten Einstellungen von Teams für den Koexistenz-Upgrademodus. Dies kann nicht geändert werden.
@@ -60,14 +60,14 @@ Der Gastzugriff in Microsoft Teams erfordert das Konfigurieren anderer Einstellu
 
 ### <a name="turning-guest-access-off"></a>Gastzugriff deaktivieren
 
-Wenn Sie den Gastzugriff in Microsoft Teams deaktivieren, verlieren vorhandene Gäste den Zugriff auf ihr Team. Sie werden jedoch nicht aus dem Team entfernt. Sie sind weiterhin für die Teammitglieder sichtbar und können @erwähnt werden. Wenn Sie den Microsoft Teams-Gastzugriff wieder aktivieren, erhalten die Gäste den Zugriff wieder.
+Wenn Sie den Gastzugriff in Microsoft Teams deaktivieren, verlieren vorhandene Gäste den Zugriff auf ihr Team. Sie werden jedoch nicht aus dem Team entfernt. Sie sind weiterhin für Personen im Team sichtbar und können @erwähnt werden. Wenn Sie den Microsoft Teams-Gastzugriff wieder aktivieren, erhalten die Gäste den Zugriff wieder.
 
-Wenn Sie den Gastzugriff deaktivieren möchten, sollten Sie Ihren Teambesitzern empfehlen, die Gastkonten manuell aus ihren Teams zu entfernen. Wenn diese Gäste keinen Zugriff haben, aber ihre Konten weiterhin im Team angezeigt werden, kann dies zu Verwirrung für andere Teammitglieder führen.
+Wenn Sie den Gastzugriff deaktivieren möchten, sollten Sie Ihren Teambesitzern empfehlen, die Gastkonten manuell aus ihren Teams zu entfernen. Diese Gäste haben zwar keinen Zugriff, aber wenn ihre Konten weiterhin im Team angezeigt werden, kann dies zu Verwirrung bei anderen Personen im Team führen.
 
-## <a name="how-a-guest-becomes-a-member-of-a-team"></a>So wird ein Gast Mitglied eines Teams
+## <a name="how-a-guest-gets-added-to-a-team"></a>So wird ein Gast einem Team hinzugefügt
 
 1. Ein Teambesitzer oder ein Microsoft 365-Administrator [fügt einen Gast zu einem Team hinzu](https://support.office.com/article/add-guests-to-a-team-fccb4fa6-f864-4508-bdde-256e7384a14f).
-2. Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit Informationen über das Team und darüber, was ihn als Mitglied nun erwartet.
+2. Der Gast empfängt eine Willkommens-E-Mail vom Teambesitzer mit Informationen über das Team und darüber, was ihn erwartet, nachdem er jetzt hinzugefügt wurde.
 3. Der Gast akzeptiert die Einladung.
   Gäste, die ein Geschäfts-, Schul- oder Unikonto in Azure Active Directory verwenden, können die Einladung annehmen und sich direkt authentifizieren. Andere Benutzer erhalten einen einmaligen Zugangscode, um ihre Identität zu überprüfen ([Authentifizierung durch Einmalkennung](/azure/active-directory/external-identities/one-time-passcode) erforderlich).
 4. Nach dem Akzeptieren der Einladung kann der Gast [an Teams und Kanälen teilnehmen](https://support.office.com/article/df38ae23-8f85-46d3-b071-cb11b9de5499), Kanalnachrichten empfangen und darauf reagieren, [auf Dateien in Kanälen zugreifen](https://support.office.com/article/access-files-in-channels-c593c78a-27c4-4661-a598-682baa30ca7e), an Besprechungen und Chats teilnehmen, an Dokumenten zusammenarbeiten und mehr. 
@@ -83,11 +83,14 @@ Gäste können das Team jederzeit von Teams aus verlassen. Einzelheiten finden S
 
 Der Gastzugang ist in allen Abonnements von Microsoft 365 Business Standard, Microsoft 365 Enterprise und Microsoft 365 Education enthalten. Eine zusätzliche Microsoft 365-Lizenz ist nicht erforderlich. Das [Abrechnungsmodell für Azure AD External Identities](/azure/active-directory/b2b/licensing-guidance) gilt für Gäste in Microsoft 365. Nur Personen von außerhalb Ihrer Organisation können als Gäste eingeladen werden.
 
+> [!NOTE]
+> Das Umwandeln eines Gastkontos in ein Azure AD-Mitgliederkonto oder das Umwandeln eines Azure AD-Mitgliederkontos in ein Gastkonto wird von Teams nicht unterstützt.
+
 ## <a name="guest-access-reviews"></a>Gast-Zugriffsüberprüfungen
 
-Mit Azure AD können Sie eine Zugriffsüberprüfung für Mitglieder einer Gruppe oder Benutzer, die einer Anwendung zugewiesen sind, erstellen. Das Erstellen regelmäßiger Zugriffsüberprüfungen kann Zeit sparen. Wenn Sie Benutzer, die Zugriff auf eine Anwendung oder ein Team haben oder Mitglied einer Gruppe sind, routinemäßig überprüfen müssen, können Sie die Häufigkeit dieser Überprüfungen definieren. 
+Sie können Azure AD verwenden, um eine Zugriffsüberprüfung für Benutzer zu erstellen, die sich in Gruppen befinden oder einer Anwendung zugewiesen wurden. Das Erstellen regelmäßiger Zugriffsüberprüfungen kann Zeit sparen. Wenn Sie Benutzer, die Zugriff auf eine Anwendung, ein Team oder eine Gruppe haben, routinemäßig überprüfen müssen, können Sie die Häufigkeit dieser Überprüfungen definieren. 
 
-Sie können selbst eine Überprüfung des Gastzugriffs durchführen, Gäste bitten, ihre eigene Mitgliedschaft zu überprüfen oder den Besitzer einer Anwendung bzw. einen Entscheidungsträger bitten, die Zugriffsüberprüfung durchzuführen. Verwenden Sie das Azure-Portal, um Überprüfungen des Gastzugriffs durchzuführen. Weitere Informationen finden Sie unter [Verwalten des Gastzugriffs mit Azure AD-Zugriffsüberprüfungen](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
+Sie können selbst eine Gastzugriffsüberprüfung durchführen, Gäste bitten, ihren eigenen Zugriff zu überprüfen, oder den Besitzer einer Anwendung oder einen Entscheidungsträger bitten, die Zugriffsüberprüfung durchzuführen. Verwenden Sie das Azure-Portal, um Überprüfungen des Gastzugriffs durchzuführen. Weitere Informationen finden Sie unter [Verwalten des Gastzugriffs mit Azure AD-Zugriffsüberprüfungen](/azure/active-directory/governance/manage-guest-access-with-access-reviews).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
