@@ -24,12 +24,12 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Anrufwarteschleifen über Cmdlets konfigurieren.
-ms.openlocfilehash: a8f24f11cb19f448fc897043c7cb046a08c32341
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: aa3330af2a47c87fc71f63396b84f8ad017e19b5
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181108"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457445"
 ---
 # <a name="create-a-call-queue-via-cmdlets"></a>Erstellen einer Anrufwarteschleife über Cmdlets
 
@@ -39,12 +39,12 @@ ms.locfileid: "62181108"
 - MSTeams-Modul installiert ````  (Install-Module -Name MicrosoftTeams -Force -AllowClobber) ````
 - MSOnline-Modul installiert ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Sie verfügen über Mandantenverwaltungsrechte
-3)  Sie haben Ihr Microsoft Teams Telefon
+3)  Sie haben Ihre Microsoft Teams Telefon
 4)  Die agents, Verteilerlisten und Teams weiter unten genannten Kanäle wurden bereits erstellt.
 
-Hinweis: Das unten Teams Kanal-Cmdlet ist Teil der öffentlichen Preview-Version Teams PowerShell-Moduls.  Weitere Informationen finden Sie unter [Installieren Teams PowerShell Public Preview](teams-powershell-install.md) und Microsoft Teams [PowerShell-Versionshinweise.](teams-powershell-release-notes.md)
+Hinweis: Das unten Teams Kanal-Cmdlet ist Teil der öffentlichen Preview-Version Teams PowerShell-Moduls.  Weitere Informationen finden Sie unter [Installieren Teams PowerShell Public Preview](teams-powershell-install.md) und Microsoft Teams [PowerShell-Versionshinweise](teams-powershell-release-notes.md).
 
-Benutzer, die das MicrosoftTeams-Modul bereits installiert haben, sollten sicherstellen, dass die neueste ````Update-Module MicrosoftTeams```` Version installiert ist.
+Benutzer, die das MicrosoftTeams-Modul ````Update-Module MicrosoftTeams```` bereits installiert haben, sollten sicherstellen, dass die neueste Version installiert ist.
 
 
 ## <a name="scenario"></a>Szenario
@@ -52,7 +52,7 @@ Benutzer, die das MicrosoftTeams-Modul bereits installiert haben, sollten sicher
 Die folgenden drei Anrufwarteschleifen werden erstellt:
 
 Informationen zur Anrufwarteschleife für Verkaufsanrufe:
-- Von vorn automatische Telefonzentrale: Ja
+- Fronted by automatische Telefonzentrale: Yes
 - Direkte Anrufe über das Festnetz: Nein
 - Sprache: Englisch USA
 - Begrüßung: Keine
@@ -72,7 +72,7 @@ Informationen zur Anrufwarteschleife für Verkaufsanrufe:
 - - Redirect to: Adele@contoso.com
 
 Support-Informationen zur Anrufwarteschleife:
-- Von vorn automatische Telefonzentrale: Ja
+- Fronted by automatische Telefonzentrale: Yes
 - Direkte Anrufe über das Festnetz: Nein
 -   Sprache: Englisch (Großbritannien)
 -   Begrüßung: Wiedergabe einer Audiodatei
@@ -97,7 +97,7 @@ Support-Informationen zur Anrufwarteschleife:
 
 
 Informationen zur Anrufwarteschleife für die Zusammenarbeit:
-- Fronted by automatische Telefonzentrale: No
+- Vor den automatische Telefonzentrale: Nein
 - Direkte Anrufe über das Festnetz: Nein (nur interne Anrufe)
 -   Sprache: Französisch FR
 -   Begrüßung: Keine
@@ -126,7 +126,7 @@ Connect-MsolService -Credential $credential
 
 ## <a name="sales-queue"></a>Verkaufswarteschlange
 ### <a name="create-audio-files"></a>Erstellen von Audiodateien
-Ersetzen Sie "d: \\ " durch den Pfad, in dem die WAV-Dateien auf Ihrem Computer gespeichert sind.
+Ersetzen Sie "d:\\" durch den Pfad, in dem die WAV-Dateien auf Ihrem Computer gespeichert sind.
 
 ````
 $content = Get-Content “d:\sales-hold-in-queue-music.wav” -Encoding byte -ReadCount 0
@@ -156,12 +156,12 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Erstellen und Zuordnen eines Ressourcenkontos
-Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife per Telefonwarteschleife automatische Telefonzentrale
+Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife per Telefonwarteschleife an den Front-End durch eine automatische Telefonzentrale
 - ApplicationID
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
 
-Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp handelt, der oben im cmdlet Get-MsolAccountSku aufgeführt ist.
+Hinweis: Bei dem unten gezeigten Lizenztyp (PHONESYSTEM_VIRTUALUSER) muss es sich um einen Lizenztyp Get-MsolAccountSku oben handelt.
 
 ````
 New-CsOnlineApplicationInstance -UserPrincipalName Sales-RA@contoso.com -DisplayName "Sales" -ApplicationID "11cd3e2e-fccb-42ad-ad00-878b93575e07"
@@ -179,7 +179,7 @@ New-CsOnlineApplicationInstanceAssociation -Identities @($applicationInstanceID)
 
 ## <a name="support-queue"></a>Supportwarteschlange
 ### <a name="create-audio-files"></a>Erstellen von Audiodateien
-Ersetzen Sie "d: \\ " durch den Pfad, in dem die WAV-Dateien auf Ihrem Computer gespeichert sind.
+Ersetzen Sie "d:\\" durch den Pfad, in dem die WAV-Dateien auf Ihrem Computer gespeichert sind.
 
 ````
 $content = Get-Content “d:\support-greeting.wav” -Encoding byte -ReadCount 0
@@ -246,7 +246,7 @@ Get-TeamChannel -GroupId $teamFacilitiesGroupID
 $teamFacilitiesHelpDeskChannelID = "{assign ID from output of above command}"
 ````
 
-### <a name="get-facilities-help-desk-channel-ower-user-id"></a>Get Facilities Help Desk channel ower user ID
+### <a name="get-facilities-help-desk-channel-owner-user-id"></a>Erhalten der Benutzer-ID des Helpdesk-Kanals "Einrichtungen"
 ````
 $teamFacilitiesHelpDeskChannelUserID = (Get-TeamChannelUser -GroupId $teamFacilitiesGroupID -DisplayName "Help Desk" -Role Owner).UserId
 ````

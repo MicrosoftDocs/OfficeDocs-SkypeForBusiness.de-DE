@@ -1,23 +1,28 @@
 ---
 title: Hochverfügbarkeit (Planungstool)
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.lync.plan.HighAvailability
-  - ms.lync.plan.HighAvailability
+- ms.lync.plan.HighAvailability
+- ms.lync.plan.HighAvailability
 ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 14a897b3-2406-46c7-b08f-490085b3d048
-ROBOTS: 'NOINDEX, NOFOLLOW'
-description: 'Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server basiert auf Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers.'
+ROBOTS: NOINDEX, NOFOLLOW
+description: Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server basiert auf Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers.
+ms.openlocfilehash: 0d19099e156b5c67bb443cb0ca81566d3771e465
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411228"
 ---
-
 # <a name="high-availability-planning-tool"></a>Hochverfügbarkeit (Planungstool)
  
 Das Hauptschema für hohe Verfügbarkeit für die meisten Serverrollen in Skype for Business Server basiert auf Serverredundanz über Pooling. Wenn ein Server ausfällt, auf dem eine bestimmte Serverrolle ausgeführt wird, übernehmen die anderen Server im Pool, auf denen dieselbe Rolle ausgeführt wird, die Arbeitslast dieses Servers.

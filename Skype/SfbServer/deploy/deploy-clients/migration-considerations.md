@@ -8,12 +8,17 @@ ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: df9f33b6-0360-4354-b651-bd35da533e33
-description: 'In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Umgebung mit mehreren Versionen von Skype for Business Server und Lync Server bereitstellen.'
+description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Umgebung mit mehreren Versionen von Skype for Business Server und Lync Server bereitstellen.
+ms.openlocfilehash: 1183270ced8c1e5347fc65787a46bf0b2eb2cf2e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411418"
 ---
-
 # <a name="skype-room-system-migration-considerations"></a>Überlegungen zur Migration von Skype Raumsystem
  
 In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Umgebung mit mehreren Versionen von Skype for Business Server und Lync Server bereitstellen.

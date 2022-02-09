@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Telefon attendants über Cmdlets konfigurieren.
-ms.openlocfilehash: 1a8a105da3cfeaad0b6bc4069d877d2d8ad95796
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: 3911010b201e2b19376c24c6c4b84ae8dbcc5db8
+ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62181167"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "62457465"
 ---
 # <a name="create-an-auto-attendant-via-cmdlets"></a>Erstellen einer automatischen Telefon attendant über Cmdlets
 
@@ -38,11 +38,11 @@ ms.locfileid: "62181167"
 - MSOnline-Modul installiert ```` Install-Module -Name MSOnline -Force -AllowClobber ````
 2)  Sie verfügen über Mandantenverwaltungsrechte
 3)  Sie haben Ihre Microsoft Teams Telefon
-4)  Die nachstehend genannten Anrufwarteschleifen wurden nach dem Leitfaden Erstellen von Anrufwarteschleifen mit [PowerShell-Cmdlets bereits eingerichtet.](create-a-phone-system-call-queue-via-cmdlets.md)
+4)  Die nachstehend genannten Anrufwarteschleifen wurden nach dem Leitfaden Erstellen von [Anrufwarteschleifen mit PowerShell-Cmdlets bereits eingerichtet](create-a-phone-system-call-queue-via-cmdlets.md) .
                                                                                                
-Hinweis: Einige der unten aufgeführten Cmdlets sind möglicherweise Teil der öffentlichen Preview-Version Teams PowerShell-Moduls.  Weitere Informationen finden Sie unter [Installieren Teams PowerShell Public Preview](teams-powershell-install.md) und Microsoft Teams [PowerShell-Versionshinweise.](teams-powershell-release-notes.md)
+Hinweis: Einige der unten aufgeführten Cmdlets sind möglicherweise Teil der öffentlichen Preview-Version Teams PowerShell-Moduls.  Weitere Informationen finden Sie unter [Installieren Teams PowerShell Public Preview](teams-powershell-install.md) und Microsoft Teams [PowerShell-Versionshinweise](teams-powershell-release-notes.md).
 
-Benutzer, die das MicrosoftTeams-Modul bereits installiert haben, sollten sicherstellen, dass die neueste ````Update-Module MicrosoftTeams```` Version installiert ist.
+Benutzer, die das MicrosoftTeams-Modul ````Update-Module MicrosoftTeams```` bereits installiert haben, sollten sicherstellen, dass die neueste Version installiert ist.
 
 ## <a name="scenario"></a>Szenario
 
@@ -86,7 +86,7 @@ $operatorID = (Get-CsOnlineUser -Identity “sip:adele@contoso.com”).ObjectID
 $operatorEntity = New-CsAutoAttendantCallableEntity -Identity $operatorID -Type User
 ````
 
-## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>Namenswahl automatische Telefonzentrale – Erstellung eines Ressourcenkontos
+## <a name="dial-by-name-auto-attendant---resource-account-creation"></a>Namens-automatische Telefonzentrale – Erstellung eines Ressourcenkontos
 Hinweis: Hier wird ein Ressourcenkonto erstellt, damit in der automatischen Hauptverteiler darauf verwiesen werden kann.  Die tatsächliche automatische Telefon attendant für Namensanwahl wird später erstellt.
 
 ### <a name="get-license-types"></a>Lizenztypen erhalten
@@ -235,7 +235,6 @@ Get-MsolAccountSku
 ````
 
 ### <a name="create-and-assign-resource-account"></a>Erstellen und Zuordnen von Ressourcenkonto
-Hinweis: Telefon nummer, die hier nicht erforderlich ist, da die Anrufwarteschleife per Telefonwarteschleife automatische Telefonzentrale
 - ApplicationID
 - - Automatische Telefonzentrale: ce933385-9390-45d1-9512-c8d228074e07
 - - Anrufwarteschleife: 11cd3e2e-fccb-42ad-ad00-878b93575e07
@@ -265,7 +264,7 @@ Hinweis: Der der Telefonnummer zugewiesene Verwendungsstandort muss mit dem dem 
 Set-CsPhoneNumberAssignment -Identity ContosoMainAA-RA@contoso.com -PhoneNumber +{spare number from output of above command} -PhoneNumberType CallingPlan
 ````
 
-## <a name="dial-by-name-auto-attendant---completion"></a>Namenswahl– automatische Telefonzentrale – Fertigstellung
+## <a name="dial-by-name-auto-attendant---completion"></a>Namenswahl- automatische Telefonzentrale – Fertigstellung
 ### <a name="create-dial-scope"></a>Erstellen des Wählbereichs
 ````
 $salesGroupID = Find-CsGroup -SearchQuery "Sales" | % { $_.Id }

@@ -1,6 +1,6 @@
 ---
 title: 'Skype for Business Server: Konfigurieren eines Trunks mit Medienumgehung'
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
@@ -8,16 +8,21 @@ audience: ITPro
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - IT_Skype16
-  - Strat_SB_Admin
-ms.custom: null
+- IT_Skype16
+- Strat_SB_Admin
+ms.custom: ''
 ms.assetid: 99d729ea-5a4c-4ff2-a4a3-93a24368da6d
 description: 'Zusammenfassung: Konfigurieren eines Trunks mit aktivierter Medienumgehung für Skype for Business Server. Auf diese Weise können Sie die Anzahl der Vermittlungsserver minimieren, wobei davon aus wird, dass ihr SIP-Trunkanbieter dies unterstützt.'
+ms.openlocfilehash: 7ffaec5e01bb216a186580d13b414a009d969ae6
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62411408"
 ---
-
 # <a name="skype-for-business-server-configure-a-trunk-with-media-bypass"></a>Skype for Business Server: Konfigurieren eines Trunks mit Medienumgehung
 
 **Zusammenfassung:** Konfigurieren Sie einen Trunk mit aktivierter Medienumgehung für Skype for Business Server. Auf diese Weise können Sie die Anzahl der Vermittlungsserver minimieren, wobei davon aus wird, dass ihr SIP-Trunkanbieter dies unterstützt.
