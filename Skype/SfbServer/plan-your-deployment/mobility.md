@@ -1,8 +1,8 @@
 ---
 title: Planen der Mobilität für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 ms.date: 2/17/2018
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 7117eff5-6860-4673-b366-afe0756c4bb2
 description: Planen Sie ihre Implementierung von Mobilität für Skype for Business Server.
-ms.openlocfilehash: a323e9e68ee78af1ea80979c12eb6b0a66906041
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: a86f9ed4c3c41a1afa60a3f8181307589b0ce678
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852939"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400279"
 ---
 # <a name="plan-for-mobility-for-skype-for-business-server"></a>Planen der Mobilität für Skype for Business Server
  
@@ -27,7 +27,7 @@ Planen Sie ihre Implementierung von Mobilität für Skype for Business Server.
   
 Mit Skype for Business Server können Sie das Mobilitätsfeature bereitstellen, um Skype for Business Server Funktionen auf mobilen Geräten bereitzustellen. Dieser Artikel enthält Details zum Mobilitätsfeature und hilft Ihnen bei der Planung Ihrer Bereitstellung.
   
-Das Mobilitätsfeature für Skype for Business Server kann mobile Clients für Skype for Business sowie Lync-Clients bis 2010 unterstützen. Nach der Bereitstellung können Ihre Benutzer eine Verbindung mit Ihrer Skype for Business Server-Bereitstellung herstellen, indem sie unterstützte mobile iOS-, Android- und Windows Phone-Geräte verwenden, um verschiedene Features zu nutzen, einschließlich Enterprise-VoIP Features. Wir haben unten eine partielle Liste eingefügt, und Sie können auch den Vergleich der [Desktopclientfeatures auf Skype for Business](clients-and-devices/desktop-feature-comparison.md) überprüfen, um weitere Informationen zu erhalten:
+Das Mobilitätsfeature für Skype for Business Server kann mobile Clients für Skype for Business sowie Lync-Clients bis 2010 unterstützen. Nach der Bereitstellung können Ihre Benutzer mithilfe von unterstützten iOS-, Android- und Windows Phone mobilen Geräten eine Verbindung zu Ihrer Skype for Business Server Bereitstellung herstellen, um verschiedene Features zu nutzen, einschließlich Enterprise-VoIP Features. Wir haben unten eine partielle Liste eingefügt, und Sie können auch den [Vergleich der Desktopclientfeatures auf Skype for Business](clients-and-devices/desktop-feature-comparison.md) überprüfen, um weitere Informationen zu erhalten:
   
 - Senden und Empfangen von Nachrichten
     
@@ -51,16 +51,16 @@ Das Mobilitätsfeature für Skype for Business Server kann mobile Clients für S
     
 - Anzeigen von Besprechungsinhalten (PowerPoint und Desktop-/Anwendungsfreigabe)
     
-All dies geschieht über die Unified Communications-Web-API oder UCWA. UCWA wurde erstmals in Lync Server 2013 eingeführt und wird weiterhin für Skype for Business Server verwendet. Es gibt eine zusätzliche Funktionalität für die Kommunikation mit Lync 2010-Clients, und das ist Mobility Service (MCX). Dies sind kostenlose Dienste, die es Lync Server 2010- und 2013-Clients sowie Skype for Business-Clients ermöglichen, erfolgreich auf Skype for Business Server Bereitstellungen zuzugreifen.
+All dies geschieht über die Unified Communications-Web-API oder UCWA. UCWA wurde erstmals in Lync Server 2013 eingeführt und wird weiterhin für Skype for Business Server verwendet. Es gibt eine zusätzliche Funktionalität für die Kommunikation mit Lync 2010-Clients, und das ist Mobility Service (MCX). Dies sind kostenlose Dienste, die es Lync Server 2010- und 2013-Clients sowie Skype for Business Clients ermöglichen, erfolgreich auf Skype for Business Server Bereitstellungen zuzugreifen.
   
 > [!NOTE]
-> McX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+> McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
-Es ist wichtig zu beachten, dass alle diese Features zwar verfügbar sind, nachdem Mobilität implementiert wurde, aber auf einigen Geräten möglicherweise etwas anders funktionieren. Wir haben eine Website, die erläutert, welche Features auf welchen Geräten funktionieren, beim Vergleich der [Mobilen Clientfeatures für Skype for Business.](clients-and-devices/mobile-feature-comparison.md) Wir haben auch einige hervorragende Geräte- und Betriebssysteminformationen bei [Plan für Clients und Geräte.](clients-and-devices/clients-and-devices.md)
+Es ist wichtig zu beachten, dass alle diese Features zwar verfügbar sind, nachdem Mobilität implementiert wurde, aber auf einigen Geräten möglicherweise etwas anders funktionieren. Wir haben eine Website, auf der erläutert wird, welche Features auf welchen Geräten funktionieren, beim [Vergleich der Mobilen Clientfeatures für Skype for Business](clients-and-devices/mobile-feature-comparison.md). Wir haben auch einige hervorragende Geräte- und Betriebssysteminformationen bei [Plan für Clients und Geräte](clients-and-devices/clients-and-devices.md).
   
 Mobilität nutzt die AutoErmittlungsfunktion, mit der Clients Skype for Business Server Webdienste automatisch suchen können, ohne dass Benutzer URLs eingeben müssen (sie müssen sie nicht einmal kennen). Wenn Sie eine Problembehandlung durchführen müssen, wird die manuelle Eingabe von URLs weiterhin unterstützt.
   
-Pushbenachrichtigungen werden auch unterstützt, wenn die Skype for Business App nicht im Hintergrund ausgeführt wird (oder für mobile Geräte, die keine Anwendungen unterstützen, die im Hintergrund ausgeführt werden). Eine Pushbenachrichtigung wird an ein mobiles Gerät über ein Ereignis gesendet, das eintritt, wenn das Gerät oder die App inaktiv ist. Ein gutes Beispiel ist das Fehlen einer Chatnachricht, wenn Ihr Telefon nicht aktiv ist. Dies würde dazu führen, dass eine Pushbenachrichtigung gesendet wird (dies wird als Popup oder Benachrichtigung angezeigt, z. B. wenn die App im Hintergrund ausgeführt wird). Bei Pushbenachrichtigungen verpassen Benutzer keine Chat- oder Sprachanrufe.
+Pushbenachrichtigungen werden auch unterstützt, wenn die Skype for Business App nicht im Hintergrund ausgeführt wird (oder für mobile Geräte, die anwendungen nicht unterstützen, die im Hintergrund ausgeführt werden). Eine Pushbenachrichtigung wird an ein mobiles Gerät über ein Ereignis gesendet, das eintritt, wenn das Gerät oder die App inaktiv ist. Ein gutes Beispiel ist das Fehlen einer Chatnachricht, wenn Ihr Telefon nicht aktiv ist. Dies würde dazu führen, dass eine Pushbenachrichtigung gesendet wird (dies wird als Popup oder Benachrichtigung angezeigt, z. B. wenn die App im Hintergrund ausgeführt wird). Bei Pushbenachrichtigungen verpassen Benutzer keine Chat- oder Sprachanrufe.
   
 Weitere Informationen finden Sie in den folgenden Abschnitten:
   
@@ -97,10 +97,10 @@ Es gibt vier Dienste, die Mobilität für Skype for Business Server umfassen:
     
 - **Mobilitätsdienst (MCX)**
     
-    Unterstützt Skype for Business Server Funktionen wie Chatnachrichten, Anwesenheitsinformationen und Kontakte auf mobilen Geräten. Der Mobilitätsdienst wird auf jedem Front-End-Server in jedem Pool installiert, der Skype for Business Server Funktionen auf mobilen Geräten unterstützen soll. Wenn Sie Skype for Business Server 2015 installieren, wird unter den internen und externen Websites auf Ihren Front-End-Servern ein neues virtuelles Verzeichnis (Mcx) erstellt.
+    Unterstützt Skype for Business Server Funktionen wie Chatnachrichten, Anwesenheitsinformationen und Kontakte auf mobilen Geräten. Der Mobilitätsdienst wird auf jedem Front-End-Server in jedem Pool installiert, der Skype for Business Server Funktionen auf mobilen Geräten unterstützen soll. Wenn Sie Skype for Business Server 2015 installieren, wird ein neues virtuelles Verzeichnis (Mcx) unter den internen und externen Websites auf Ihren Front-End-Servern erstellt.
     
     > [!NOTE]
-    > McX(Mobility Service)-Unterstützung für ältere mobile Clients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
+    > McX(Mobility Service)-Unterstützung für mobile Legacyclients ist in Skype for Business Server 2019 nicht mehr verfügbar. Alle aktuellen Skype for Business mobile Clients verwenden bereits unified Communications Web API (UCWA), um Chatnachrichten, Anwesenheitsinformationen und Kontakte zu unterstützen. Benutzer mit Legacyclients, die MCX verwenden, müssen auf einen aktuellen Client aktualisieren.
   
 - **AutoErmittlungsdienst**
     
@@ -117,27 +117,27 @@ Es gibt vier Dienste, die Mobilität für Skype for Business Server umfassen:
 
 Wir haben die folgenden unterstützten Skype for Business Server Anwendungen für Ihre Topologieplanung:
   
-- Mobilitäts-Standard Edition
+- Mobilität Standard Edition
     
-- Mobilitäts-Enterprise Edition
+- Mobilität Enterprise Edition
     
 Sie sollten diese Funktionalität mit Skype for Business Server Edgeservern oder Lync Server 2013-Edgeservern verwenden können.
   
-Der Mobilitätsdienst wird auf Front-End-Servern unterstützt, wenn er mit der Vermittlungsserverrolle mit zwei Netzwerkschnittstellen verbunden ist. Sie müssen jedoch die entsprechenden Schritte zum Konfigurieren dieser Schnittstellen ausführen. Sie müssen der spezifischen Schnittstelle, die als Vermittlungsserver kommunizieren wird, UND der Netzwerk-IP-Schnittstelle, die als Front-End-Server kommunizieren wird, IP-Adressen zuweisen. Sie können dies im Topologie-Generator tun, indem Sie die richtige IP-Adresse für jeden Dienst auswählen, anstatt die Standardauswahl **"Alle konfigurierten IP-Adressen verwenden"** zu verwenden.
+Der Mobilitätsdienst wird auf Front-End-Servern unterstützt, wenn er mit der Vermittlungsserverrolle mit zwei Netzwerkschnittstellen verbunden ist. Sie müssen jedoch die entsprechenden Schritte zum Konfigurieren dieser Schnittstellen ausführen. Sie müssen der spezifischen Schnittstelle, die als Vermittlungsserver kommunizieren wird, UND der Netzwerk-IP-Schnittstelle, die als Front-End-Server kommunizieren wird, IP-Adressen zuweisen. Sie können dies im Topologie-Generator tun, indem Sie die richtige IP-Adresse für jeden Dienst auswählen, anstatt die Standardauswahl **"Alle konfigurierten IP-Adressen verwenden** " zu verwenden.
   
 ## <a name="technical-requirements"></a>Technische Anforderungen
 <a name="TechRequirements"> </a>
 
-Es ist wichtig, die verschiedenen Szenarien für mobile Anwendungen zu planen, auf die Ihre mobilen Benutzer stoßen können. Beispielsweise kann jemand eine mobile App außerhalb der Arbeit verwenden, indem er eine Verbindung über ein 3G Netzwerk herstellt und dann zum Unternehmens-Wi-Fi-Netzwerk wechselt, wenn er die Arbeit erreicht. Sie können zu 4G wechseln, wenn sie ihr Gebäude verlassen. Mit der Planung können Sie diese Netzwerkübergänge unterstützen und eine konsistente Benutzererfahrung gewährleisten.
+Es ist wichtig, die verschiedenen Szenarien für mobile Anwendungen zu planen, auf die Ihre mobilen Benutzer stoßen können. Beispielsweise kann jemand außerhalb der Arbeit mit der Verwendung einer mobilen App beginnen, indem er eine Verbindung über ein 3G Netzwerk herstellt und dann zum Unternehmens-Wi-Fi-Netzwerk wechselt, wenn er die Arbeit erreicht. Sie können zu 4G wechseln, wenn sie ihr Gebäude verlassen. Mit der Planung können Sie diese Netzwerkübergänge unterstützen und eine konsistente Benutzererfahrung gewährleisten.
   
 ### <a name="dns-configuration"></a>DNS-Konfiguration
 
 Die Mobilitätsdienste Mcx und UCWA verwenden DNS auf die gleiche Weise. Bei der automatischen Ermittlung verwenden mobile Geräte DNS, um Ressourcen zu suchen. Während der DNS-Suche wird versucht, eine Verbindung mit dem FQDN herzustellen, der dem internen DNS-Eintrag (lyncdiscoverinternal.[ interner Domänenname]). Wenn der interne DNS-Eintrag nicht verwendet werden kann, um diese Verbindung herzustellen, wird versucht, eine zweite Verbindung herzustellen, dieses Mal mit dem externen DNS-Eintrag (lyncdiscover.[ sipdomain]). Warum also zwei? Ein mobiles Gerät, das in Ihrem Netzwerk intern ist, kann die interne AutoErmittlungs-URL verwenden. Externe mobile Geräte verwenden die externe AutoErmittlungs-URL. In beiden Fällen gibt der AutoErmittlungsdienst alle Webdienst-URLs für den Startpool des Benutzers zurück, der den Mobilitätsdienst (Mcx und UCWA) enthält.
   
-Es wird erwartet, dass die externen AutoErmittlungsanforderungen den Reverseproxy durchlaufen, den Sie für Skype for Business Server konfiguriert haben. Allerdings sind sowohl die interne Mobilitätsdienst-URL als auch die URL des externen Mobilitätsdiensts dem externen Webdienst-FQDN zugeordnet. Unabhängig davon, ob es sich bei einem mobilen Gerät um ein internes oder ein externes Gerät handelt, stellt das Gerät daher immer eine externe Verbindung mit dem Skype for Business Server Mobilitätsdienst über Ihren Reverseproxy her.
+Es wird erwartet, dass die externen AutoErmittlungsanforderungen den Reverseproxy durchlaufen, den Sie für Skype for Business Server konfiguriert haben. Allerdings sind sowohl die interne Mobilitätsdienst-URL als auch die URL des externen Mobilitätsdiensts dem externen Webdienst-FQDN zugeordnet. Unabhängig davon, ob es sich bei einem mobilen Gerät um ein internes oder externes Gerät handelt, stellt das Gerät daher immer eine externe Verbindung mit dem Skype for Business Server Mobilitätsdienst über Ihren Reverseproxy her.
   
 > [!NOTE]
-> Wie bereits erwähnt, wird der gesamte Mobilitätsdienstdatenverkehr (intern und extern) über Ihren Reverseproxy geleitet. Manchmal tritt jedoch ein Problem auf, wenn der interne Datenverkehr eine Schnittstelle verlässt, nur um dann zu versuchen, auf derselben Schnittstelle wieder einzukommen. Dies kann gegen Ihre Spoofingsicherheitsregeln (formell als TCP-Paketspoofing bezeichnet) verstoßen. Sie müssen die Mobilitätsfunktion für **das Anheften** von Haaren zulassen.
+> Wie bereits erwähnt, wird der gesamte Mobilitätsdienstdatenverkehr (intern und extern) über Ihren Reverseproxy geleitet. Manchmal tritt jedoch ein Problem auf, wenn der interne Datenverkehr eine Schnittstelle verlässt, nur um dann zu versuchen, auf derselben Schnittstelle wieder einzukommen. Dies kann gegen Ihre Spoofingsicherheitsregeln (formell als TCP-Paketspoofing bezeichnet) verstoßen. Sie müssen die **Mobilitätsfunktion für das Anheften von Haaren** zulassen.
   
 > [!NOTE]
 > Wenn Sie dazu bereit sind, können Sie auch einen Reverseproxy verwenden, der von Ihrer Firewall getrennt ist (aus Sicherheitsgründen sollte spoofing prevention immer in Ihrer Firewall erzwungen werden). Auf diese Weise kann die Spitzkehren an der externen Schnittstelle Ihres Reverseproxys statt an der externen Schnittstelle Ihrer Firewall erfolgen. Auf diese Weise können Sie spoofing ordnungsgemäß in Ihrer Firewall erkennen, während Sie die Regel am Reverseproxy lockern und Ihre Mobilitätsfunktionalität abrufen. 
@@ -187,9 +187,9 @@ Wir haben dies größtenteils in unserer anderen Dokumentation behandelt, aber s
     
 ### <a name="certificate-requirements"></a>Anforderungen für Zertifikate
 
-Wenn Sie die automatische Ermittlung für Ihre Skype for Business mobilen Clients verwenden, müssen Sie die SAN-Listen (alternative Antragstellernamen) auf Ihren Zertifikaten ändern, um sichere Verbindungen von Ihren mobilen Clients zu unterstützen. Wenn Sie bereits über Zertifikate verfügen, müssen Sie neue Zertifikate mit den hier beschriebenen SAN-Einträgen anfordern und zuweisen. Dies muss für jeden Front-End-Server und Director (falls in Ihrer Umgebung) erfolgen, auf dem der AutoErmittlungsdienst ausgeführt wird. Wir empfehlen außerdem, die SAN-Listen für Ihre Reverseproxyzertifikate zu ändern und SAN-Einträge für jede SIP-Domäne in Ihrer Organisation hinzuzufügen.
+Wenn Sie die automatische Ermittlung für Ihre Skype for Business mobilen Clients verwenden, müssen Sie die SAN-Listen (alternative Antragstellernamen) auf Ihren Zertifikaten ändern, um sichere Verbindungen von Ihren mobilen Clients zu unterstützen. Wenn Sie bereits über Zertifikate verfügen, müssen Sie neue Zertifikate mit den hier beschriebenen SAN-Einträgen anfordern und zuweisen. Dies muss für jeden Front-End-Server und Director (falls in Ihrer Umgebung) ausgeführt werden, auf dem der AutoErmittlungsdienst ausgeführt wird. Wir empfehlen außerdem, die SAN-Listen für Ihre Reverseproxyzertifikate zu ändern und SAN-Einträge für jede SIP-Domäne in Ihrer Organisation hinzuzufügen.
   
-Dies sollte ein einfacher Prozess sein, wenn Sie die neuen Zertifikate von einer internen Zertifizierungsstelle (Zertifizierungsstelle) anfordern. Öffentliche Zertifikate sind jedoch komplexer und möglicherweise wesentlich aufwendiger für die erneute Anforderung, ganz zu erwähnen, dass es kostspielig sein kann, viele SIP-Domänen zu einem neuen öffentlichen Zertifikat hinzuzufügen. In dieser Situation gibt es einen Ansatz, der unterstützt, aber **nicht empfohlen wird.** Sie können Ihren Reverseproxy so konfigurieren, dass die ursprüngliche AutoErmittlungsdienstanforderung über Port 80 ausgeführt wird, der HTTP anstelle von Port 443 verwendet, der HTTPS ist (und 443 die Standardkonfiguration ist). Diese eingehende Anforderung wird an Port 8080 in Ihrem Front-End-Pool oder Director umgeleitet. Dadurch müssen Sie keine Zertifikatänderungen vornehmen, da für diesen Datenverkehr kein HTTPS für Anforderungen verwendet wird. Dies wird jedoch nicht empfohlen, auch wenn es für Sie funktioniert.
+Dies sollte ein einfacher Prozess sein, wenn Sie die neuen Zertifikate von einer internen Zertifizierungsstelle (Zertifizierungsstelle) anfordern. Öffentliche Zertifikate sind jedoch komplexer und möglicherweise wesentlich aufwendiger für die erneute Anforderung, ganz zu erwähnen, dass es kostspielig sein kann, viele SIP-Domänen zu einem neuen öffentlichen Zertifikat hinzuzufügen. In dieser Situation gibt es einen Ansatz, der unterstützt, aber **nicht empfohlen wird**. Sie können Ihren Reverseproxy so konfigurieren, dass die ursprüngliche AutoErmittlungsdienstanforderung über Port 80 ausgeführt wird, der HTTP anstelle von Port 443 verwendet, der HTTPS ist (und 443 die Standardkonfiguration ist). Diese eingehende Anforderung wird an Port 8080 in Ihrem Front-End-Pool oder Director umgeleitet. Dadurch müssen Sie keine Zertifikatänderungen vornehmen, da für diesen Datenverkehr kein HTTPS für Anforderungen verwendet wird. Dies wird jedoch nicht empfohlen, auch wenn es für Sie funktioniert.
   
 ### <a name="windows-and-iis-requirements"></a>Windows- und IIS-Anforderungen
 
@@ -197,17 +197,17 @@ Sie sollten über eine unterstützte Windows Serverversion für Ihre Skype for B
   
 ### <a name="hlb-requirements"></a>HLB-Anforderungen
 
-Wenn Sie eine Topologie für Skype for Business Server verwenden, die einen HLB für Ihren Front-End-Pool enthält (bei der es sich um eine Topologie handelt, die mehr als einen Front-End-Server enthält), müssen die externen virtuellen Webdienst-IPs (VIPs) für Webdienstdatenverkehr für die Quelle konfiguriert werden. Die Quellaffinität trägt dazu bei, sicherzustellen, dass mehrere Verbindungen von einem einzelnen Client an denselben Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
+Wenn Sie eine Topologie für Skype for Business Server verwenden, die einen HLB für Ihren Front-End-Pool enthält (bei der es sich um eine Topologie mit mehr als einem Front-End-Server handeln würde), müssen die externen virtuellen Webdienst-IPs (VIPs) für Webdienstdatenverkehr für die Quelle konfiguriert werden. Die Quellaffinität trägt dazu bei, sicherzustellen, dass mehrere Verbindungen von einem einzelnen Client an denselben Server gesendet werden, um den Sitzungsstatus aufrechtzuerhalten.
   
 Wenn Sie beabsichtigen, Skype for Business mobile Clients nur über Ihr internes Wi-Fi Netzwerk zu unterstützen, sollten Sie die internen Webdienst-VIPs für die Quelle konfigurieren, wie für externe Webdienste VIPs beschrieben. In diesem Fall sollten Sie source_addr (oder TCP)-Affinität für die internen Webdienst-VIPs auf dem HLB verwenden.
   
-Ausführliche Informationen hierzu finden Sie in den Anforderungen für den [Lastenausgleich für Skype for Business](network-requirements/load-balancing.md) Dokumentation.
+Ausführliche Informationen hierzu finden Sie in den [Lastenausgleichsanforderungen für Skype for Business](network-requirements/load-balancing.md) Dokumentation.
   
 ### <a name="reverse-proxy-requirements"></a>Reverseproxyanforderungen
 
 Um die automatische Ermittlung für Skype for Business mobile Clients zu unterstützen, müssen Sie die aktuelle Veröffentlichungsregel wie folgt aktualisieren:
   
-- Wenn Sie die SAN-Listen für Ihre Reverseproxyzertifikate aktualisieren möchten und HTTPS für die ursprüngliche AutoErmittlungsdienstanforderung verwenden, müssen Sie die Webveröffentlichungsregel für lyncdiscover \<sipdomain\> aktualisieren. Dies wird in der Regel mit dem Veröffentlichungs-Rul für die URL der externen Webdienste im Front-End-Pool kombiniert.
+- Wenn Sie die SAN-Listen für Ihre Reverseproxyzertifikate aktualisieren möchten und HTTPS für die ursprüngliche AutoErmittlungsdienstanforderung verwenden, müssen Sie die Webveröffentlichungsregel für lyncdiscover\<sipdomain\> aktualisieren. Dies wird in der Regel mit dem Veröffentlichungs-Rul für die URL der externen Webdienste im Front-End-Pool kombiniert.
     
 - Wenn Sie sich entschieden haben, HTTP für die ursprüngliche AutoErmittlungsdienstanforderung zu verwenden, um zu vermeiden, dass die SAN-Liste für Ihre Reverseproxyzertifikate aktualisiert werden muss (was nicht empfohlen wird), müssen Sie eine neue Webveröffentlichungsregel für Port HTTP/TCP 80 erstellen, falls noch keine vorhanden ist. Wenn diese Regel vorhanden ist, aktualisieren Sie sie, um eine LyncDiscover einzuschließen.\<sipdomain\> Eintrag.
     
@@ -222,9 +222,9 @@ Es wird dringend empfohlen, die automatische Ermittlung zu verwenden. Es ist die
   
 Sie können bei Bedarf manuelle Einstellungen verwenden. Diese URLs müssen von Benutzern auf ihren mobilen Geräten eingegeben werden:
   
-- **https:// \<ExtPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** für externen Zugriff.
+- **\<ExtPoolFQDN\>https:///AutoErmittlung/autodiscoverservice.svc/Root** für externen Zugriff.
     
-- **https:// \<IntPoolFQDN\> /Autodiscover/autodiscoverservice.svc/Root** für internen Zugriff.
+- **\<IntPoolFQDN\>https:///AutoErmittlung/autodiscoverservice.svc/Root** für internen Zugriff.
     
 Auch hier empfehlen wir die Verwendung der automatischen Ermittlung. Möglicherweise sind manuelle Einstellungen für Problembehandlungszwecke hilfreich.
   
@@ -237,12 +237,12 @@ Pushbenachrichtigungen werden für mobile Anwendungen verwendet, die diese Funkt
   
 ### <a name="do-you-want-all-your-users-accessing-all-mobility-features-or-do-you-want-to-specify-the-users-who-can-access-these-features-instead"></a>Möchten Sie, dass alle Ihre Benutzer auf alle Mobilitätsfeatures zugreifen, oder möchten Sie die Benutzer angeben, die stattdessen auf diese Features zugreifen können?
 
-Wir haben eine Tabelle, die Ihnen bei einigen der Features hilft, die für alle Benutzer verfügbar sind, und ob sie standardmäßig auf diese Weise festgelegt sind oder nicht. Eine vollständige Liste finden Sie unter [New-CsMobilityPolicy](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
+Wir haben eine Tabelle, die Ihnen bei einigen der Features hilft, die für alle Benutzer verfügbar sind, und ob sie standardmäßig auf diese Weise festgelegt sind oder nicht. Eine vollständige Liste finden Sie unter ["New-CsMobilityPolicy"](/powershell/module/skype/new-csmobilitypolicy?view=skype-ps).
   
 > [!NOTE]
 > Die Bereiche für alle diese Features sind global/Website/Benutzer. 
   
-|**Funktion**|**Parametername**|**Beschreibung**|**Standardeinstellung**|
+|**Feature**|**Parametername**|**Beschreibung**|**Standardeinstellung**|
 |:-----|:-----|:-----|:-----|
 |Aktivieren der Mobilität  <br/> |EnableMobility  <br/> |Steuert Benutzer in einem bestimmten Bereich, die Skype for Business mobilen Client installiert haben. Wenn die Richtlinie auf "False" festgelegt ist, können sich Ihre Benutzer nicht mit ihrem Client anmelden.  <br/> |Wahr  <br/> |
 |Externe Sprachausgabe  <br/> |EnableOutsideVoice  <br/> |Ermöglicht benutzern die Verwendung von "Anruf über Arbeit", wodurch Benutzer Anrufe mithilfe ihrer Geschäftlichen Nummer anstelle ihrer Mobiltelefonnummer senden und empfangen können. Wenn der Wert auf "False" festgelegt ist, können Ihre Benutzer keine Anrufe auf ihrem Mobiltelefon tätigen oder empfangen, wenn sie ihre geschäftliche Telefonnummer verwenden.  <br/> |Wahr  <br/> |
@@ -250,9 +250,9 @@ Wir haben eine Tabelle, die Ihnen bei einigen der Features hilft, die für alle 
 |WLAN für IP-Audio anfordern  <br/> |RequireWiFiForIPAudio  <br/> |Definiert, ob ein Client Anrufe über VoIP über WLAN und nicht über ein Mobilfunknetz tätigen und empfangen muss. Wenn der Wert auf "True" festgelegt ist, können Ihre Benutzer nur VoIP-Anrufe tätigen und empfangen, wenn sie über WLAN verbunden sind.  <br/> |Falsch  <br/> |
 |WLAN für IP-Video anfordern  <br/> |RequireWiFiForIPVideo  <br/> |Definiert, ob ein Client Videoanrufe über WLAN und nicht über ein Mobilfunknetz tätigen und empfangen muss. Wenn der Wert auf "True" festgelegt ist, können Ihre Benutzer nur VoIP-Anrufe tätigen und empfangen, wenn sie über WLAN verbunden sind.  <br/> |Falsch  <br/> |
    
-### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>Sollten Benutzer, die nicht für Enterprise-VoIP aktiviert sind, die Verwendung von Click to Join für die Teilnahme an Konferenzen ermöglichen?
+### <a name="should-users-who-arent-enabled-for-enterprise-voice-be-able-to-use-click-to-join-to-join-conferences"></a>Sollten Benutzer, die nicht für Enterprise-VoIP aktiviert sind, mit "Click to Join" an Konferenzen teilnehmen können?
 
-Damit Benutzer Zugriff auf Mobilitätsfeatures und Anruf über Die Arbeit haben, müssen sie für Enterprise-VoIP aktiviert sein. Aber auch wenn sie nicht aktiviert sind, können sie weiterhin an Konferenzen teilnehmen, indem sie auf einen Link auf ihrem mobilen Gerät klicken, aber nur, wenn ihnen eine entsprechende VoIP-Richtlinie zugewiesen ist. Sie können eine der folgenden Aktionen ausführen:
+Damit Benutzer Zugriff auf Mobilitätsfeatures und "Anruf über Arbeit" haben, müssen sie für Enterprise-VoIP aktiviert sein. Aber auch wenn sie nicht aktiviert sind, können sie weiterhin an Konferenzen teilnehmen, indem sie auf einen Link auf ihrem mobilen Gerät klicken, aber nur, wenn ihnen eine entsprechende VoIP-Richtlinie zugewiesen ist. Sie können eine der folgenden Aktionen ausführen:
   
 - diesen Benutzern eine bestimmte VoIP-Richtlinie zuweisen oder
     

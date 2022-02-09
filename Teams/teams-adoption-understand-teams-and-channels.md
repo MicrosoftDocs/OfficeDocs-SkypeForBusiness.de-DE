@@ -1,7 +1,7 @@
 ---
 title: Vertrautmachen mit Teams und Kanälen in Microsoft Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 10/29/2018
 audience: Admin
@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: d3d71e8c542b5f39ab979ae876e0c82868ca380a
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 09aba3d8f6bcdb06d75bf0563a437a87197cb254
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959814"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400839"
 ---
 # <a name="understand-teams-and-channels-in-microsoft-teams"></a>Vertrautmachen mit Teams und Kanälen in Microsoft Teams
 
@@ -36,7 +36,7 @@ Die Konzepte von Teams und Kanälen sind von grundlegender Bedeutung für eine g
 
 - Kanäle sind die Bereiche für die Zusammenarbeit innerhalb eines Teams, in denen die eigentliche Arbeit erledigt wird. 
 
-Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht über Teams und Kanäle [in Microsoft Teams.](teams-channels-overview.md) Umfassende Anleitungen Teams Zur Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Teams und Microsoft 365 Gruppen finden [](office-365-groups.md) Sie unter Microsoft 365 und Gruppen Microsoft Teams und Weitere Informationen zu [Microsoft 365 Gruppen.](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)
+Weitere Informationen zu Teams und Kanälen finden Sie unter Übersicht [über Teams und Kanäle in Microsoft Teams](teams-channels-overview.md). Umfassende Anleitungen Teams Richtlinien zur Einführung finden Sie im Teams [Einführungsleitfaden](https://aka.ms/teamstoolkit). Weitere Informationen zu Gruppen Teams Microsoft 365 Gruppen finden Sie unter Microsoft 365 gruppen und Microsoft Teams [](office-365-groups.md) und weitere Informationen zu [Microsoft 365 Gruppen](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2).
 
 
 | &nbsp; |&nbsp;  |

@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Edgeserverzuordnungen
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: a58b6ba8-f491-4c37-ad45-aa46206fac51
 description: Auf dieser Seite können auswählen, welche Front-End-Pools und Standard Edition-Server diesen Edgepool für A/V-Datenverkehr nutzen.
-ms.openlocfilehash: de4be41ba3d7dc764982aa9c021b2876bc9e8610
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 7d9df02f6f887aa6841dbf7adb0c5153f931d8be
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60863952"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400349"
 ---
 # <a name="add-edge-server-associations"></a>Hinzufügen von Edgeserverzuordnungen
  

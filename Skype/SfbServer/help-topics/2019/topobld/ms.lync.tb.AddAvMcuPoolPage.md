@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen des A/V-MCU-Pools
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: e201875e-1e81-4756-942f-c17d177e997b
 ROBOTS: NOINDEX, NOFOLLOW
 description: Alle Enterprise Edition Front-End-Server eines zentralen Standorts, die nicht über einen verbundenen A/V-Konferenzdienst verfügen, können den gleichen eigenständigen A/V-Konferenzpool verwenden. Für jeden A/V-Konferenzpool müssen Sie einen vollqualifizierten Domänennamen (Fully Qualified Domain Name, FQDN) für den Pool angeben und angeben, ob er nur über einen einzelnen A/V-Konferenzserver oder mehrere A/V-Konferenzserver mit Lastenausgleich verfügt.
-ms.openlocfilehash: feb97e668ff2baf115b41295a5a798b856683ec2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 89c253d5f05255060650e1e7efe1acea9c58e784
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60839417"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401029"
 ---
 # <a name="add-av-mcu-pool"></a>Hinzufügen des A/V-MCU-Pools
  
@@ -30,6 +30,6 @@ Alle Enterprise Edition Front-End-Server eines zentralen Standorts, die nicht ü
 > Sie können einen Pool mit einem Server nicht in einen Pool mit mehreren Servern konvertieren. Wenn Sie später entscheiden, dass Ihre Organisation einen Pool mit mehreren Servern benötigt, müssen Sie den Einzelserverpool löschen und dann den Pool mit mehreren Servern hinzufügen. 
   
 > [!TIP]
-> Wenn Sie beabsichtigen, in Zukunft einen A/V-Konferenzpool zu implementieren, wählen Sie **"Pool mit mehreren Computern"** aus. Wenngleich ein Pool per Definition mindestens zwei Computer mit Lastenausgleich umfasst, können Sie einen Pool mit einem einzigen Computer sowie einen Pool-FQDN für diesen einzelnen Computer erstellen. Wenn Sie bereit sind, dem Pool später weitere Computer hinzuzufügen, müssen Sie den Topologie-Generator erneut erstellen, um das neue Poolmitglied zu definieren, die neue Topologie zu veröffentlichen und dann das neue A/V-Konferenzpoolmitglied über den Skype for Business Server Bereitstellungs-Assistenten einzurichten. A/V-Konferenzserverpools sind einzigartig, da sie zum Erstellen eines Pools keine Lastenausgleichsmodule benötigen. A/V-Konferenzpools lasten intern und benötigen keine zusätzliche Hardware. 
+> Wenn Sie beabsichtigen, in Zukunft einen A/V-Konferenzpool zu implementieren, wählen Sie **"Pool mit mehreren Computern**" aus. Wenngleich ein Pool per Definition mindestens zwei Computer mit Lastenausgleich umfasst, können Sie einen Pool mit einem einzigen Computer sowie einen Pool-FQDN für diesen einzelnen Computer erstellen. Wenn Sie bereit sind, dem Pool später weitere Computer hinzuzufügen, müssen Sie den Topologie-Generator erneut erstellen, um das neue Poolmitglied zu definieren, die neue Topologie zu veröffentlichen und dann das neue A/V-Konferenzpoolmitglied über den Skype for Business Server Bereitstellungs-Assistenten einzurichten. A/V-Konferenzserverpools sind einzigartig, da sie zum Erstellen eines Pools keine Lastenausgleichsmodule benötigen. A/V-Konferenzpools lasten intern und benötigen keine zusätzliche Hardware. 
   
 

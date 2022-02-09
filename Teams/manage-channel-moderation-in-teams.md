@@ -1,7 +1,7 @@
 ---
 title: Einrichten und Verwalten der Kanalmoderation
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: jotaing
 ms.topic: article
@@ -16,14 +16,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten, und erfahren Sie, wie Sie Teammitglieder als Kanalmoderatoren hinzufügen.
+description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten und Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dbfdec9af83bda6c0b14a6371e0694d68e25d1d1
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 9fd15b6d7eeecf0f1b7e6ec25e33236f50fd83b3
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829559"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400849"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
@@ -44,7 +44,7 @@ Kanalmoderatoren können:
 
 ## <a name="scenarios"></a>Szenarien
 
-Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in Ihrer Teams.
+Im Folgenden finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in ihrer Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Verwenden eines Kanals als Ankündigungskanal
 
@@ -60,9 +60,9 @@ In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal
 
 ## <a name="manage-channel-moderation"></a>Verwalten der Kanalmoderation
 
-Wechseln Teams zum Kanal, und klicken Sie auf **Weitere Optionen...**  >  **Kanal verwalten.** Hier können Sie die Moderation aktivieren und deaktivieren, Teammitglieder als Moderatoren hinzufügen und Einstellungen festlegen.
+Wechseln Teams zum Kanal, und klicken Sie auf **Weitere Optionen...** >  **Kanal verwalten.** Hier können Sie die Moderation aktivieren und deaktivieren, Teammitglieder als Moderatoren hinzufügen und Einstellungen festlegen.
 
-Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung auf Mandantenebene für die Kanalmoderation. Wenn Sie möchten, dass wir eine Einstellung für die Kanalmoderation auf Mandantenebene hinzufügen, fordern Sie sie auf [Teams UserVoice an.](https://microsoftteams.uservoice.com/)
+Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung auf Mandantenebene für die Kanalmoderation. Wenn Sie möchten, dass wir eine Einstellung für die Kanalmoderation auf Mandantenebene hinzufügen, fordern Sie sie auf [Teams UserVoice an](https://microsoftteams.uservoice.com/).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 
@@ -72,15 +72,15 @@ Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung au
 
 Die Moderation ist standardmäßig deaktiviert, d. h., dass die üblichen Kanaleinstellungen für Teambesitzer und Teammitglieder gelten. So können Sie beispielsweise neue Beiträge auf Teammitglieder beschränken oder allen, einschließlich Gästen, erlauben, neue Beiträge zu beginnen.
 
-Um die Moderation für einen Kanal zu aktivieren, klicken Sie **unter Kanalmoderation** auf **Am**. Wenn die Kanalmoderation ein ist, können nur Moderatoren neue Beiträge beginnen. 
+Um die Moderation für einen Kanal zu aktivieren, klicken Sie **unter Kanalmoderation** auf **Ein**. Wenn die Kanalmoderation ein ist, können nur Moderatoren neue Beiträge beginnen. 
 
 ### <a name="add-or-remove-channel-moderators"></a>Hinzufügen oder Entfernen von Kanalmoderatoren
 
-Klicken **Wer unter Moderatoren?** auf **Verwalten,** und fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
+Klicken **Wer moderatoren?** auf **Verwalten, und** fügen Sie dann Teammitglieder als Moderatoren hinzu oder entfernen Sie sie. Teambesitzer und Moderatoren können weitere Moderatoren hinzufügen und entfernen.  
 
 ### <a name="set-team-member-permissions"></a>Festlegen von Teammitgliedsberechtigungen
 
-Aktivieren **Sie unter Teammitgliedsberechtigungen** die Kontrollkästchen neben den Aktivitäten, die Sie zulassen möchten.
+Aktivieren **Sie unter** Teammitgliedsberechtigungen die Kontrollkästchen neben den Aktivitäten, die Sie zulassen möchten.
 
 ## <a name="related-topics"></a>Verwandte Themen
 

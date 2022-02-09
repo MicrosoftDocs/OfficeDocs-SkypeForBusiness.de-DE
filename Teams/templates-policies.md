@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Teamvorlagen im Admin Center
 author: serdars
-ms.author: v-mahoffman
+ms.author: serdars
 manager: serdars
 ms.reviewer: yinchang
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Teamvorlagen im Admin Center verwalten.
-ms.openlocfilehash: 0ab167cc66a897c0f89679cd2a403a385b2b1b01
-ms.sourcegitcommit: 65a10f80e5dfd67b2778e09f5f92c21ef09ce36a
+ms.openlocfilehash: 470194c8a31236e5bed000fa2837c9b1fa05003e
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "60766063"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401179"
 ---
 # <a name="manage-team-templates-in-the-admin-center"></a>Verwalten von Teamvorlagen im Admin Center
 
@@ -38,7 +38,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern **Teams**  >  **Richtlinien für Vorlagen**.
+2. Erweitern **Teams** >  **Templates-Richtlinien**.
 
 3. Klicken Sie auf **Hinzufügen**.
 
@@ -50,7 +50,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
     - Kurzbeschreibung der Vorlagenrichtlinie
 
-2. Wählen Sie in **der Tabelle Ansichtsvorlagen** die Vorlagen aus, die Sie ausblenden möchten, und dann **Ausblenden aus.**
+2. Wählen Sie in **der Tabelle Ansichtsvorlagen** die Vorlagen aus, die Sie ausblenden möchten, und wählen Sie dann **Ausblenden aus**.
 
     ![Die ausgewählten Vorlagen mit hervorgehobener Option "Ausblenden"](media/template-policies-2.png)
 
@@ -58,7 +58,7 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 1. Wenn Sie bestimmte Vorlagen ein- oder ein- engen, scrollen Sie zur **Tabelle Ausgeblendete** Vorlagen.
 
-2. Wählen Sie die Vorlagen aus, die Sie ein- oder ein- en wieder einwählen, und wählen Sie dann **Anzeigen aus.**
+2. Wählen Sie die Vorlagen aus, die Sie ein- oder auswählen, und wählen Sie dann **Anzeigen aus**.
 
    ![Die ausgewählten Vorlagen, die nicht ausgeblendet sind.](media/template-policies-3.png)
 
@@ -71,13 +71,13 @@ In diesem kurzen Video erfahren Sie, wie Sie Vorlagenrichtlinien verwalten.
 
 Benutzer, die einer Richtlinie zugewiesen sind, können nur die anzeigebaren Vorlagen innerhalb dieser Richtlinie anzeigen.
 
-1. Wählen **Sie in Vorlagenrichtlinien** eine Richtlinie aus, und wählen Sie dann **Benutzer verwalten aus.**
+1. Wählen **Sie in Vorlagenrichtlinien** eine Richtlinie aus, und wählen Sie dann **Benutzer verwalten aus**.
 
 2. Geben Sie die Benutzer ein, die dieser Richtlinie zugewiesen werden soll.
 
    ![Benutzer einer Vorlagenrichtlinie zuweisen.](media/template-policies-4.png)
 
-3. Wählen Sie **Übernehmen aus.**
+3. Wählen Sie **Übernehmen aus**.
 
 > [!Note]
 > Es kann bis zu 24 Stunden dauern, bis die neue Richtlinie für Endbenutzer wirksam wird.
@@ -119,7 +119,7 @@ A: Im Admin Center:
 
 1. Wechseln Sie zum **Abschnitt** Benutzer.
 2. Wählen Sie den Filter in der Liste Benutzer aus, und filtern Sie nach der Teamvorlagenrichtlinie.
-3. Wählen Sie **Übernehmen aus.**
+3. Wählen Sie **Übernehmen aus**.
 
 ![Die ausgewählte Vorlagenrichtlinie und Ansichtsbenutzer.](media/template-policies-5.png)
 

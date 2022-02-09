@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 f1.keywords:
@@ -12,12 +12,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 3b67df85-181d-45ca-ba48-bb74a439f242
 description: 'Zusammenfassung: Lesen Sie dieses Thema, um zu erfahren, wie Sie Ihrer Skype for Business Server Bereitstellung Archivierungsdatenbanken hinzufügen.'
-ms.openlocfilehash: d9434ffaf2141ea176b99825571ad2a17d0d5601
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3bc4e14998e45803518436bb180906e9c79e14f4
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864472"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401579"
 ---
 # <a name="add-archiving-databases-to-an-existing-deployment-in-skype-for-business-server"></a>Hinzufügen von Archivierungsdatenbanken zu einer vorhandenen Bereitstellung in Skype for Business Server
  
@@ -30,11 +30,11 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
 - Veröffentlichen Sie die aktualisierte Topologie, um ihrer Skype for Business Server Bereitstellung die Archivierungsdatenbank hinzuzufügen.
     
 > [!NOTE]
-> Wenn Sie Microsoft Exchange Integration verwenden möchten, um Archivierungsdaten und Dateien für alle Benutzer in Ihrer Bereitstellung auf Exchange Servern zu speichern, geben Sie weder **archivierungs- SQL Server speichern** noch **SQL Server Store Spiegelungsinformationen verwenden.**
+> Wenn Sie Microsoft Exchange Integration zum Speichern von Archivierungsdaten und Dateien auf Exchange Servern für alle Ihre Benutzer in Ihrer Bereitstellung verwenden möchten, geben Sie weder **archivierungs- SQL Server speichern** noch **SQL Server Store Spiegelungsinformationen verwenden**.
   
 ### <a name="add-an-archiving-database-to-your-topology"></a>Hinzufügen einer Archivierungsdatenbank zu Ihrer Topologie
 
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mithilfe eines Kontos an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
 2. Starten Sie den Topologie-Generator.
     
@@ -48,50 +48,50 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
     
 7. Aktivieren Sie das Kontrollkästchen **Archivierung**.
     
-8. Führen Sie unter **Archivierung SQL Server Speicher** eine der folgenden Aktionen aus:
+8. Führen **Sie unter Archivierung SQL Server Speicher** eine der folgenden Aktionen aus:
     
    - Zum Verwenden eines vorhandenen SQL Server-Speichers klicken Sie im Dropdown-Listenfeld auf den Namen des SQL Server-Speichers, den Sie verwenden möchten. Wenn alle Ihre Benutzer am Microsoft Exchange Server 2013 oder höher verwaltet werden, können Sie Skype for Business Kommunikation für alle Ihre Benutzer in Exchange archivieren. In diesem Fall müssen Sie SQL Server Archivierungsspeicher nicht konfigurieren.
     
-   - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **Neu,** und führen Sie dann im Dialogfeld **"Neuen SQL Server Store definieren"** die folgenden Schritte aus:
+   - Klicken Sie zum Angeben eines neuen SQL Server Speichers auf **Neu**, und führen Sie dann im Dialogfeld "**Neuen SQL Server Store definieren**" die folgenden Schritte aus:
     
    - Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server speicher erstellen möchten.
     
    - Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie verwenden möchten.
     
-   - Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen "Diese SQL Instanz befindet sich **in der Spiegelungsbeziehung",** und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
+   - Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **"Diese SQL Instanz befindet sich in der Spiegelungsbeziehung**", und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
     
 9. Wenn Sie SQL Server Speicherspiegelung verwenden möchten, wählen **Sie SQL Server Store Spiegelung aktivieren** aus, und gehen Sie dann wie folgt vor:
     
-   - Um einen vorhandenen SQL Server Speicher für die Spiegelung zu verwenden, klicken Sie im Dropdown-Listenfeld **"Archivierung SQL Server Speicherspiegel"** auf den Namen des SQL Server Speichers, den Sie für die Spiegelung verwenden möchten.
+   - Um einen vorhandenen SQL Server Speicher für die Spiegelung zu verwenden, klicken Sie im Dropdown-Listenfeld "**Archivierung SQL Server Speicherspiegel"** auf den Namen des SQL Server Speichers, den Sie für die Spiegelung verwenden möchten.
     
-   - Um einen neuen SQL Server Speicher für die Spiegelung anzugeben, klicken Sie auf **Neu,** und führen Sie dann im Dialogfeld Neue **SQL Server Store** definieren eine der folgenden Aktionen aus:
+   - Um einen neuen SQL Server Speicher für die Spiegelung anzugeben, klicken Sie auf **Neu**, und führen Sie dann im Dialogfeld "**Neuen SQL Server Store definieren**" eine der folgenden Aktionen aus:
     
-     a. Geben Sie in **SQL Server FQDN** den FQDN des SQL Server an, in dem Sie den neuen SQL Server Speicher erstellen möchten.
+     a. Geben Sie **in SQL Server FQDN** den FQDN des SQL Server an, auf dem Sie den neuen SQL Server Speicher erstellen möchten.
     
      b. Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie verwenden möchten.
     
-     c. Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen "Diese SQL Instanz befindet sich **in der Spiegelungsbeziehung",** und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
+     c. Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **"Diese SQL Instanz befindet sich in der Spiegelungsbeziehung**", und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
     
-   - Wenn Sie SQL Server Spiegelung aktivieren und einen SQL Server Spiegelungszeugen einschließen möchten (eine dritte, separate SQL Server Instanz, die die Integrität der primären SQL Server- und Spiegelinstanzen erkennen kann), aktivieren Sie das Kontrollkästchen **"SQL Server Spiegelungszeugen verwenden", um das automatische Failoverkontrollkästchen zu aktivieren,** und führen Sie dann eine der folgenden Aktionen aus: e following:
+   - Wenn Sie SQL Server Spiegelung aktivieren und einen SQL Server Spiegelungszeugen einschließen möchten (eine dritte, separate SQL Server Instanz, die die Integrität der primären SQL Server und Spiegelungsinstanzen erkennen kann), wählen Sie den **Spiegelungszeugen "Verwenden SQL Server" aus, um das automatische Failover zu aktivieren**.  aktivieren Sie das Kontrollkästchen, und führen Sie dann eine der folgenden Aktionen aus:
     
-     a. Geben Sie **in SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Spiegelungszeugen erstellen möchten.
+     a. Geben Sie in **SQL Server FQDN** den FQDN des Servers an, auf dem Sie den neuen SQL Server Spiegelungszeugen erstellen möchten.
     
      b. Klicken Sie entweder auf **Standardinstanz**, um die Standardinstanz zu verwenden. Wenn Sie eine andere Instanz verwenden möchten, klicken Sie auf **Benannte Instanz**, und geben Sie die Instanz an, die Sie für den Spiegelungszeugen verwenden möchten.
     
-     c. Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen "Diese SQL Instanz befindet sich **in der Spiegelungsbeziehung",** und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
+     c. Wenn sich die angegebene SQL Server Instanz in einer Spiegelungsbeziehung befindet, aktivieren Sie das Kontrollkästchen **"Diese SQL Instanz befindet sich in der Spiegelungsbeziehung**", und geben Sie dann in der **Spiegelportnummer** die Portnummer an.
     
 10. Klicken Sie zum Speichern der Konfiguration auf **OK**.
     
 ### <a name="publish-the-updated-topology-to-add-an-archiving-database-to-your-deployment"></a>Veröffentlichen der aktualisierten Topologie zum Hinzufügen einer Archivierungsdatenbank zu Ihrer Bereitstellung
 
-1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
+1. Melden Sie sich auf einem Computer, auf dem Skype for Business Server ausgeführt wird, oder auf dem die Skype for Business Server-Verwaltungstools installiert sind, mit einem Konto an, das Mitglied der lokalen Benutzergruppe ist (oder mit einem Konto mit entsprechenden Benutzerrechten).
     
     > [!NOTE]
-    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber um eine Topologie zu veröffentlichen, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe **"Domänenadministratoren"** und der Gruppe **"RTCUniversalServerAdmins"** ist und über Vollzugriffsberechtigungen verfügt (Lesen,  schreiben und ändern) für die Dateifreigabe, die Sie für den Skype for Business Server Dateispeicher verwenden (damit der Topologie-Generator die erforderliche freie Zugriffssteuerungsliste (Discretionary Access Control List, DACLs) oder ein Konto mit entsprechenden Rechten konfigurieren kann.
+    > Sie können eine Topologie mithilfe eines Kontos definieren, das Mitglied der lokalen Benutzergruppe ist, aber um eine Topologie zu veröffentlichen, die zum Hinzufügen eines Servers zur Topologie erforderlich ist, müssen Sie ein Konto verwenden, das Mitglied der Gruppe "**Domänenadministratoren**" und der Gruppe **"RTCUniversalServerAdmins**" ist und über Vollzugriffsberechtigungen verfügt (Lesen,  Schreiben und Ändern) der Dateifreigabe, die Sie für den Skype for Business Server Dateispeicher verwenden (sodass der Topologie-Generator die erforderliche freie Zugriffssteuerungsliste (Discretionary Access Control List, DACLs) oder ein Konto mit entsprechenden Rechten konfigurieren kann.
   
 2. Öffnen Sie die Topologie, die Sie im vorherigen Abschnitt mithilfe des Topologie-Generators erstellt haben.
     
-3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **Skype for Business Server,** und klicken Sie dann auf **"Topologie veröffentlichen".**
+3. Klicken Sie in der Konsolenstruktur mit der rechten Maustaste auf **Skype for Business Server**, und klicken Sie dann auf "**Topologie veröffentlichen**".
     
 4. Klicken Sie auf der Seite **Topologie veröffentlichen** auf **Weiter**.
     
@@ -103,6 +103,6 @@ Sie müssen die Archivierung in Ihre Topologie aufnehmen, bevor Sie Ihre Bereits
 6. Überprüfen Sie auf der Seite **Veröffentlichungs-Assistent abgeschlossen**, ob die Topologie erfolgreich veröffentlicht wurde, und klicken Sie anschließend auf **Fertig stellen**.
     
     > [!IMPORTANT]
-    > Nach Veröffentlichung der Topologie müssen Sie Optionen und Richtlinien für die Archivierung konfigurieren, bevor Inhalte archiviert werden können. Ausführliche Informationen finden Sie unter [Konfigurieren von Archivierungsoptionen für Skype for Business Server](configure-archiving-options.md) und Konfigurieren von [Archivierungsrichtlinien für Skype for Business Server.](configure-archiving-policies.md) 
+    > Nach Veröffentlichung der Topologie müssen Sie Optionen und Richtlinien für die Archivierung konfigurieren, bevor Inhalte archiviert werden können. Ausführliche Informationen finden [Sie unter Konfigurieren von Archivierungsoptionen für Skype for Business Server](configure-archiving-options.md) und [Konfigurieren von Archivierungsrichtlinien für Skype for Business Server](configure-archiving-policies.md). 
   
 

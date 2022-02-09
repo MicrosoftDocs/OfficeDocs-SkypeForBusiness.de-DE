@@ -1,8 +1,8 @@
 ---
 title: Schätzen der VoIP-Nutzung und des Datenverkehrs für Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: IT_Skype16
 ms.assetid: 621b08fb-f894-4d91-ac38-e443401b098b
 description: Sie können die folgende Metrik verwenden, um den Benutzerdatenverkehr an jedem Standort und die Anzahl der Ports zu schätzen, die zur Unterstützung dieses Datenverkehrs erforderlich sind.
-ms.openlocfilehash: 6c9dd60c2610e1c0a93e193f48b6363a0120255c
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d12ed7bcb19ab7399b15767a99ac6b13301e0c21
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60848408"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402809"
 ---
 # <a name="estimating-voice-usage-and-traffic-for-skype-for-business-server"></a>Schätzen der VoIP-Nutzung und des Datenverkehrs für Skype for Business Server
  

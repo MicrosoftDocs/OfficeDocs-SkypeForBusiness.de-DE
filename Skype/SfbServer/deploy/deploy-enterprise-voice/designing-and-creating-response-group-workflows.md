@@ -1,8 +1,8 @@
 ---
 title: Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: dcb9effb-5d12-4dee-80fc-ab9654222d5a
 description: Entwerfen und Erstellen von Reaktionsgruppenworkflows in Skype for Business Server Enterprise-VoIP. Es werden sowohl Sammelanschlüsse als auch interaktive Workflows behandelt.
-ms.openlocfilehash: ec92a0dfa378746db98a6377b2ebd51df0e77813
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 06ca815eb973fdf26106a0c0c082f4c146d2b590
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60864382"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401559"
 ---
 # <a name="designing-and-creating-response-group-workflows-in-skype-for-business"></a>Entwerfen und Erstellen von Workflows für Reaktionsgruppen in Skype for Business
 
@@ -49,7 +49,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 5. Geben Sie im Suchfeld **Dienst auswählen** einen Teil oder den vollständigen Namen des **ApplicationServer**-Diensts ein, von dem der Workflow gehostet wird, den Sie erstellen oder ändern möchten. Klicken Sie dann in der Liste mit den Diensten auf den gewünschten Dienst, und klicken Sie auf **OK**.
 
     > [!NOTE]
-    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können das Konfigurationstool für Reaktionsgruppen auch direkt in einem Webbrowser öffnen, indem Sie die folgende URL eingeben: https:// \<webPoolFqdn\> /RgsConfig.
+    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können das Konfigurationstool für Reaktionsgruppen auch direkt in einem Webbrowser öffnen, indem Sie die folgende URL eingeben: https://\<webPoolFqdn\>/RgsConfig.
 
 6. Führen Sie einen der folgenden Schritte aus:
 
@@ -65,7 +65,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 8. Aktivieren Sie das Kontrollkästchen **Für Partnerverbund aktivieren**, um Partnerbenutzern Anrufe bei der Gruppe zu ermöglichen. Sie müssen auch über eine Richtlinie für den externen Zugriff verfügen, die für die Reaktionsgruppenanwendung gilt, die für den Partnerverbund konfiguriert ist.
 
     > [!NOTE]
-    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets **"Set-CsExternalAccessPolicy"** konfigurieren, um den Parameter "EnableOutsideAccess" auf "True" festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Verbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen dazu, wie Richtlinien auf Benutzer angewendet werden, finden Sie unter [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Ausführliche Informationen zur Verbundeinstellung finden Sie unter ["Set-CsExternalAccessPolicy".](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps)
+    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets **"Set-CsExternalAccessPolicy**" konfigurieren, um den Parameter "EnableOutsideAccess" auf "True" festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Verbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen dazu, wie Richtlinien auf Benutzer angewendet werden, finden Sie unter [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Ausführliche Informationen zur Verbundeinstellung finden Sie unter ["Set-CsExternalAccessPolicy"](/powershell/module/skype/set-csexternalaccesspolicy?view=skype-ps).
 
     > [!NOTE]
     > Benutzer, die in Skype for Business Online gehostet werden, können keine Anrufe an Reaktionsgruppen tätigen, die in einer lokalen Bereitstellung gehostet werden. Dies gilt sowohl für Hybridbereitstellungen als auch für Fälle, in denen eine lokale Bereitstellung mit einer Skype for Business Onlinebereitstellung verbunden ist.
@@ -133,7 +133,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 20. Wenn Sie einen benutzerdefinierten Zeitplan für diesen Workflow erstellen, aktivieren Sie die Kontrollkästchen für die Wochentage, an denen die Reaktionsgruppe verfügbar ist.
 
-21. Wenn Sie einen benutzerdefinierten Zeitplan erstellen, geben Sie die **Öffnungs-** und **Schließzeiten** für jeden Wochentag ein, an dem die Reaktionsgruppe verfügbar ist.
+21. Wenn Sie einen benutzerdefinierten Zeitplan erstellen, geben Sie die **Öffnungs** - und **Schließzeiten** für jeden Wochentag ein, an dem die Reaktionsgruppe verfügbar ist.
 
     > [!NOTE]
     > Die Werte für **Öffnen** und **Schließen** müssen im 24-Stunden-Format angegeben werden. Wenn Ihr Büro z. B. von 9 Uhr bis 17 Uhr geöffnet und mittags geschlossen ist, können Sie die Geschäftszeiten als **Öffnen** 9:00, **Schließen** 12:00, **Öffnen** 13:00 und **Schließen** 17:00 angeben.
@@ -154,11 +154,11 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist *\<username\>* @ *\<domainName\>* (z. B. bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist  *\<username\>*@*\<domainName\>* (z. B. bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet _\<username\>_ @ _\<domainName\>_ .
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet  _\<username\>_@_\<domainName\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist *\<number\>* @ *\<domainName\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist  *\<number\>*@*\<domainName\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
 
@@ -181,11 +181,11 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist *\<username\>* @ *\<domainName\>* (z. B. bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist  *\<username\>*@*\<domainName\>* (z. B. bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet _\<username\>_ @ _\<domainName\>_ .
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet  _\<username\>_@_\<domainName\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist *\<number\>* @ *\<domainName\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist  *\<number\>*@*\<domainName\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 27. Wählen Sie unter **Schritt 6: Warteschleife konfigurieren** im Feld **Warteschleife für Anrufe auswählen** die Warteschleife aus, in der die Anrufer gehalten werden, bis ein Agent verfügbar wird.
 
@@ -200,11 +200,11 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
 
 29. Klicken Sie auf **Bereitstellen**.
 
-### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>So verwenden Sie Skype for Business Server Verwaltungsshell, um einen Sammelanschlüssen-Workflow zu erstellen oder zu ändern
+### <a name="to-use-skype-for-business-server-management-shell-to-create-or-modify-a-hunt-group-workflow"></a>So verwenden Sie Skype for Business Server Verwaltungsshell zum Erstellen oder Ändern eines Sammelanschlüssen-Workflows
 
 1. Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
 
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** **"Alle Programme",** **"Skype for Business 2015"** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
 
 3. Erstellen Sie die Ansage, die als Willkommensnachricht abgespielt werden soll, und speichern Sie sie in einer Variablen. Führen Sie an der Befehlszeile folgenden Befehl aus:
 
@@ -219,7 +219,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    ```
 
      > [!NOTE]
-     > Verwenden Sie das Cmdlet **Import-CsRgsAudioFile**, um eine Audiodatei für die Ansage zu verwenden. Ausführliche Informationen finden Sie unter [Import-CsRgsAudioFile](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
+     > Verwenden Sie das Cmdlet **Import-CsRgsAudioFile**, um eine Audiodatei für die Ansage zu verwenden. Ausführliche Informationen finden Sie unter ["Import-CsRgsAudioFile"](/powershell/module/skype/import-csrgsaudiofile?view=skype-ps).
 
 4. Rufen Sie die Identität der Warteschleife oder Frage ab, an die die Anrufe weitergeleitet werden. Führen Sie an der Befehlszeile folgenden Befehl aus:
 
@@ -244,9 +244,9 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
    $actionWM = New-CsRgsCallAction -Prompt $promptWM -Action TransferToQueue -QueueID $qid.Identity
    ```
 
-6. Wenn Sie Geschäftszeiten und Feiertage definieren möchten, müssen Sie diese erstellen, bevor Sie den Workflow erstellen oder ändern. Ausführliche Informationen finden Sie unter [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Skype for Business.](optional-define-response-group-holiday-sets.md)
+6. Wenn Sie Geschäftszeiten und Feiertage definieren möchten, müssen Sie diese erstellen, bevor Sie den Workflow erstellen oder ändern. Ausführliche Informationen finden Sie unter [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md) and [(Optional) Define Response Group holiday sets in Skype for Business](optional-define-response-group-holiday-sets.md).
 
-7. Wenn Sie Ansagen für Anrufe wünschen, die außerhalb der Geschäftszeiten oder an Feiertagen empfangen werden, definieren Sie die Ansage mithilfe des **New-CsRgsPrompt**-Cmdlets, und definieren Sie mithilfe des **New-CsRgsCallAction**-Cmdlets die Aktion, die im Anschluss an die Ansage ausgeführt werden soll. Ausführliche Informationen finden Sie unter ["New-CsRgsPrompt"](/powershell/module/skype/new-csrgsprompt?view=skype-ps) und ["New-CsRgsCallAction".](/powershell/module/skype/new-csrgscallaction?view=skype-ps)
+7. Wenn Sie Ansagen für Anrufe wünschen, die außerhalb der Geschäftszeiten oder an Feiertagen empfangen werden, definieren Sie die Ansage mithilfe des **New-CsRgsPrompt**-Cmdlets, und definieren Sie mithilfe des **New-CsRgsCallAction**-Cmdlets die Aktion, die im Anschluss an die Ansage ausgeführt werden soll. Ausführliche Informationen finden Sie unter ["New-CsRgsPrompt](/powershell/module/skype/new-csrgsprompt?view=skype-ps) " und " [New-CsRgsCallAction"](/powershell/module/skype/new-csrgscallaction?view=skype-ps).
 
 8. Rufen Sie den Dienstnamen für den Lync Server-Reaktionsgruppendienst ab, und weisen Sie ihn einer Variablen zu. Führen Sie an der Befehlszeile folgenden Befehl aus:
 
@@ -270,7 +270,7 @@ Ein Workflow definiert außerdem Einstellungen wie die Willkommensnachricht, War
      > Allen Benutzer, die designierte Workflowmanager sind, muss die Rolle CsResponseGroupManager zugewiesen werden.
 
      > [!NOTE]
-     > Ausführliche Informationen zu zusätzlichen optionalen Parametern finden Sie unter [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) oder [Set-CsRgsWorkflow.](/powershell/module/skype/set-csrgsworkflow?view=skype-ps)
+     > Ausführliche Informationen zu zusätzlichen optionalen Parametern finden Sie unter [New-CsRgsWorkflow](/powershell/module/skype/new-csrgsworkflow?view=skype-ps) oder [Set-CsRgsWorkflow](/powershell/module/skype/set-csrgsworkflow?view=skype-ps).
 
 ## <a name="designing-an-interactive-workflow"></a>Entwerfen eines interaktiven Workflows
 
@@ -379,14 +379,14 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 
 4. Klicken Sie auf der Seite **Workflow** auf **Workflow erstellen oder bearbeiten**.
 
-5. Geben Sie im Suchfeld **"Dienst auswählen"** den vollständigen oder teilweisen Namen des **ApplicationServer-Diensts** ein, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie in der Dienstliste auf den gewünschten Dienst, und klicken Sie dann auf **OK**.
+5. Geben Sie im Suchfeld " **Dienst auswählen** " den vollständigen oder teilweisen Namen des **ApplicationServer-Diensts** ein, der den Workflow hostet, den Sie erstellen oder ändern möchten. Klicken Sie in der Dienstliste auf den gewünschten Dienst, und klicken Sie dann auf **OK**.
 
     > [!NOTE]
-    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können das Konfigurationstool für Reaktionsgruppen auch direkt in einem Webbrowser öffnen, indem Sie die folgende URL eingeben: https:// \<webPoolFqdn\> /RgsConfig.
+    > Das Konfigurationstool für Reaktionsgruppen wird geöffnet. Sie können das Konfigurationstool für Reaktionsgruppen auch direkt in einem Webbrowser öffnen, indem Sie die folgende URL eingeben: https://\<webPoolFqdn\>/RgsConfig.
 
 6. Führen Sie einen der folgenden Schritte aus:
 
-   - Klicken Sie unter **"Neuen Workflow erstellen"** neben **"Interaktiv"** auf **"Erstellen".**
+   - Klicken **Sie unter "Neuen Workflow erstellen**" neben **"Interaktiv**" auf " **Erstellen**".
 
    - Suchen Sie unter **Vorhandenen Workflow verwalten** nach dem Workflow, den Sie ändern möchten, und klicken Sie anschließend unter **Aktion** auf **Bearbeiten**.
 
@@ -398,7 +398,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 8. Aktivieren Sie das Kontrollkästchen **Für Partnerverbund aktivieren**, um Partnerbenutzern Anrufe bei der Gruppe zu ermöglichen. Sie müssen auch über eine Richtlinie für den externen Zugriff verfügen, die für die Reaktionsgruppenanwendung gilt, die für den Partnerverbund konfiguriert ist.
 
     > [!NOTE]
-    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets **"Set-CsExternalAccessPolicy"** konfigurieren, um den Parameter "EnableOutsideAccess" auf "True" festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Verbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen dazu, wie Richtlinien auf Benutzer angewendet werden, finden Sie unter [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Ausführliche Informationen zur Verbundeinstellung finden Sie in der Dokumentation unter **"Set-CsExternalAccessPolicy".**
+    > Die globale Richtlinie für den externen Zugriff gilt für die Reaktionsgruppenanwendung. Sie können die globale Richtlinie für den Reaktionsgruppenverbund mithilfe Skype for Business Server Systemsteuerung oder mithilfe des Cmdlets **"Set-CsExternalAccessPolicy**" konfigurieren, um den Parameter "EnableOutsideAccess" auf "True" festzulegen. Bedenken Sie, dass globale Richtlinieneinstellungen für alle Benutzer gelten, es sei denn, sie sind einer standort- oder benutzerspezifischen Richtlinie zugeordnet. Stellen Sie daher vor dem Ändern dieser Einstellung für Reaktionsgruppen sicher, dass die Verbundeinstellung die Anforderungen Ihrer Organisation erfüllt. Ausführliche Informationen dazu, wie Richtlinien auf Benutzer angewendet werden, finden Sie unter [Manage External Access Policy for Your Organization](/previous-versions/office/lync-server-2013/lync-server-2013-manage-external-access-policy-for-your-organization). Ausführliche Informationen zur Verbundeinstellung finden Sie in der Dokumentation unter **"Set-CsExternalAccessPolicy** ".
 
     > [!NOTE]
     > Benutzer, die in Skype for Business Online gehostet werden, können keine Anrufe an Reaktionsgruppen tätigen, die in einer lokalen Bereitstellung gehostet werden. Dies gilt sowohl für Hybridbereitstellungen als auch für Fälle, in denen eine lokale Bereitstellung mit einer Skype for Business Onlinebereitstellung verbunden ist.
@@ -413,7 +413,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 11. Geben Sie im **Anzeigenamen** den Namen ein, den Sie für den Workflow anzeigen möchten (z. B. Sales IVR Response Group).
 
     > [!NOTE]
-    > Schließen Sie die \<" or "\> Zeichen " nicht in den Anzeigenamen ein. Die folgenden Anzeigenamen sind reserviert und dürfen nicht verwendet werden: **RGS-Anwesenheitsmonitor** oder **Ankündigungsdienst**.
+    > Schließen Sie die "\<" or "\>" Zeichen nicht in den Anzeigenamen ein. Die folgenden Anzeigenamen sind reserviert und dürfen nicht verwendet werden: **RGS-Anwesenheitsmonitor** oder **Ankündigungsdienst**.
 
 12. Geben Sie unter **Telefonnummer** den Anschluss-URI für die Reaktionsgruppe ein (beispielsweise +14255550165).
 
@@ -454,13 +454,13 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
     - Wenn Sie einen vordefinierten Zeitplan für die Geschäftszeiten verwenden möchten, klicken Sie auf **Verwenden eines vordefinierten Zeitplans**, und wählen Sie den gewünschten Zeitplan in der Dropdownliste aus.
 
       > [!NOTE]
-      > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie definieren voreingestellte Zeitpläne mithilfe des **Cmdlets New-CsRgsHoursOfBusiness.** Ausführliche Informationen finden Sie unter [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, an denen die Reaktionsgruppe verfügbar ist, automatisch eingetragen.
+      > Sie müssen mindestens einen vordefinierten Zeitplan erstellt haben, um diese Option auswählen zu können. Sie definieren voreingestellte Zeitpläne mithilfe des **Cmdlets New-CsRgsHoursOfBusiness** . Ausführliche Informationen finden Sie unter [(Optional) Define Response Group business hours in Skype for Business](optional-define-response-group-business-hours.md). Wenn Sie einen vordefinierten Zeitplan verwenden, werden die Werte für **Tag**, **Öffnen** und **Schließen**, an denen die Reaktionsgruppe verfügbar ist, automatisch eingetragen.
 
     - Klicken Sie auf **Verwenden eines benutzerdefinierten Zeitplans**, um einen benutzerdefinierten Zeitplan zu erstellen, der nur für diesen Workflow gilt.
 
 20. Wenn Sie einen benutzerdefinierten Zeitplan für diesen Workflow erstellen, aktivieren Sie die Kontrollkästchen für die Wochentage, an denen die Reaktionsgruppe verfügbar ist.
 
-21. Wenn Sie einen benutzerdefinierten Zeitplan erstellen, geben Sie die **Öffnungs-** und **Schließzeiten** ein, wenn die Reaktionsgruppe verfügbar ist.
+21. Wenn Sie einen benutzerdefinierten Zeitplan erstellen, geben Sie die **Öffnungs** - und **Schließzeiten** ein, wenn die Reaktionsgruppe verfügbar ist.
 
      > [!NOTE]
      > Die Werte für **Öffnen** und **Schließen** müssen im 24-Stunden-Format angegeben werden. Wenn Ihr Büro z. B. von 9 Uhr bis 17 Uhr geöffnet und mittags geschlossen ist, können Sie die Geschäftszeiten als **Öffnen** 9:00, **Schließen** 12:00, **Öffnen** 13:00 und **Schließen** 17:00 angeben.
@@ -481,11 +481,11 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist *\<username\>* @ *\<domainname\>* (z. B. bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist  *\<username\>*@*\<domainname\>* (z. B. bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet _\<username\>_ @ _\<domainname\>_ .
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet  _\<username\>_@_\<domainname\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist *\<number\>* @ *\<domainname\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist  *\<number\>*@*\<domainname\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 24. Aktivieren Sie unter **Schritt 5: Feiertage angeben** die Kontrollkästchen für einen oder mehrere Feiertagssätze, mit denen die Tage definiert werden, an denen die Reaktionsgruppe aufgrund eines Feiertags nicht verfügbar ist.
 
@@ -508,11 +508,11 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 
     - Klicken Sie auf **Verbindung trennen**, um die Verbindung zu trennen.
 
-    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist *\<username\>* @ *\<domainname\>* (z. B. bob@contoso.com).
+    - Um den Anruf an ein Voicemailsystem weiterzuleiten, klicken Sie auf **An Voicemail weiterleiten** und geben die Voicemailadresse ein. Das Format für die Voicemailadresse ist  *\<username\>*@*\<domainname\>* (z. B. bob@contoso.com).
 
-    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet _\<username\>_ @ _\<domainname\>_ .
+    - Um den Anruf an einen anderen Benutzer weiterzuleiten, klicken Sie auf **An SIP-URI weiterleiten** und geben die Adresse eines Benutzers ein. Das Format für die Benutzeradresse lautet  _\<username\>_@_\<domainname\>_.
 
-    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist *\<number\>* @ *\<domainname\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
+    - Um den Anruf an eine andere Telefonnummer weiterzuleiten, klicken Sie auf **An Telefonnummer weiterleiten** und geben die Telefonnummer ein. Das Format für die Telefonnummer ist  *\<number\>*@*\<domainname\>* (z. B. +14255550121@contoso.com). Der Domänenname wird verwendet, um den Anrufer an das richtige Ziel weiterzuleiten.
 
 27. Wählen Sie unter **Schritt 6: Wartemusik konfigurieren** aus, was Anrufer beim Warten auf einen Agent hören sollen, indem Sie eine der folgenden Aktionen ausführen:
 
@@ -533,7 +533,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
     > [!NOTE]
     > Das Symbol "#" wird vom Text-zu-Sprache-Modul als das Wort "Nummer" übersetzt. Wenn Sie auf die Taste # verweisen möchten, sollten Sie bei der Eingabe anstelle des Symbols den Tastennamen verwenden. For example, "To talk to sales, press the pound key."
 
-    - Um eine aufgezeichnete Audiodatei mit der Frage zu verwenden, klicken Sie auf **Auswählen einer Aufzeichnung** und dann auf den Link **Aufzeichnung**, um die Datei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Audiodatei, und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen,** um die Datei zu laden, und geben Sie optional die Frage in das Textfeld ein (dadurch können die Frage und die Antwort des Anrufers an den antwortenden Agent weitergeleitet werden).
+    - Um eine aufgezeichnete Audiodatei mit der Frage zu verwenden, klicken Sie auf **Auswählen einer Aufzeichnung** und dann auf den Link **Aufzeichnung**, um die Datei hochzuladen. Klicken Sie im neuen Browserfenster auf **Durchsuchen**, markieren Sie die gewünschte Audiodatei, und klicken Sie auf **Öffnen**. Klicken Sie auf **Hochladen**, um die Datei zu laden, und geben Sie optional die Frage in das Textfeld ein (dadurch können die Frage und die Antwort des Anrufers an den antwortenden Agent weitergeleitet werden).
 
       > [!NOTE]
       > Alle von Benutzern bereitgestellten Audiodateien müssen bestimmte Anforderungen erfüllen. Ausführliche Informationen zu den unterstützten Dateiformaten finden Sie unter [Technical Requirements for Response Groups](/previous-versions/office/lync-server-2013/lync-server-2013-technical-requirements-for-response-group).
@@ -556,7 +556,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 
     - Wenn eine weitere Frage gestellt werden soll, klicken Sie auf **Eine weitere Frage stellen**, klicken Sie dann auf **Text-zu-Sprache verwenden**, und geben Sie die Frage ein, oder klicken Sie auf **Auswählen einer Aufzeichnung**. Verwenden Sie die Einstellungen in diesem Abschnitt, um bis zu vier mögliche Antworten auf die zusätzliche Frage sowie die Warteschleife für jede Antwort anzugeben. Um eine dritte oder vierte mögliche Antwort anzugeben, aktivieren Sie das Kontrollkästchen **Antwort 3** oder das Kontrollkästchen **Antwort 4**.
 
-31. Geben Sie bis zu drei weitere mögliche Antworten auf die ursprüngliche Frage ein, indem Sie die Schritte 28 und 29 wiederholen, um mögliche Antworten und die Aktion für jede Antwort anzugeben. Um eine dritte oder vierte mögliche Antwort anzugeben, klicken Sie auf das **Kontrollkästchen "Antwort 3"** oder auf das **Kontrollkästchen "Antwort 4".**
+31. Geben Sie bis zu drei weitere mögliche Antworten auf die ursprüngliche Frage ein, indem Sie die Schritte 28 und 29 wiederholen, um mögliche Antworten und die Aktion für jede Antwort anzugeben. Um eine dritte oder vierte mögliche Antwort anzugeben, klicken Sie auf das Kontrollkästchen **"Antwort 3** " oder auf das Kontrollkästchen **"Antwort 4** ".
 
 32. Klicken Sie auf **Bereitstellen**.
 
@@ -564,7 +564,7 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
 
 1.  Melden Sie sich als Mitglied der Gruppe "RTCUniversalServerAdmins" oder als Mitglied einer der vordefinierten Administratorrollen an, die Reaktionsgruppen unterstützen.
 
-2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+2. Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
 
 3. Dienstnamen für den Reaktionsgruppendienst abrufen und diesen einer Variable zuweisen. Führen Sie an der Eingabeaufforderung Folgendes aus:
 
@@ -572,21 +572,21 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
    $serviceId = "service:" + (Get-CsService | ?{$_.Applications -like "*RGS*"}).ServiceId;
    ```
 
-4. Ein interaktiver Workflow erfordert zwei oder mehr Warteschleifen und mindestens zwei Agentgruppen. Erstellen Sie zunächst die Agentgruppen. Führen Sie Folgendes aus: 
+4. Ein interaktiver Workflow erfordert zwei oder mehr Warteschleifen und mindestens zwei Agentgruppen. Erstellen Sie zunächst die Agentgruppen. Ausführen:
 
    ```powershell
    $AGSupport = New-CsRgsAgentGroup -Parent $serviceId -Name "Technical Support" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:agent1@contoso.com", "sip:agent2@contoso.com")]
    $AGSales = New-CsRgsAgentGroup -Parent $serviceId -Name "Sales Team" [-AgentAlertTime "20"] [-ParticipationPolicy "Informal"] [-RoutingMethod LongestIdle] [-AgentsByUri("sip:bob@contoso.com", "sip:alice@contoso.com")]
    ```
 
-5. Erstellen Sie die Warteschlangen. Führen Sie Folgendes aus: 
+5. Erstellen Sie die Warteschlangen. Ausführen:
 
    ```powershell
    $QSupport = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Support" -AgentGroupIDList($AG-Support.Identity)
    $QSales = New-CsRgsQueue -Parent $ServiceId -Name "Contoso Sales" -AgentGroupIDList($AG-Sales.Identity)
    ```
 
-6. Erstellen Sie die erste Eingabeaufforderung für Reaktionsgruppen. Führen Sie Folgendes aus: 
+6. Erstellen Sie die erste Eingabeaufforderung für Reaktionsgruppen. Ausführen:
 
    ```powershell
    $SupportPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please be patient while we connect you with Contoso Technical Support."
@@ -598,19 +598,19 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
    $SupportAction = New-CsRgsCallAction -Prompt $SupportPrompt -Action TransferToQueue -QueueID $QSupport.Identity
    ```
 
-8. Erstellen Sie die erste Antwortgruppenantwort. Führen Sie Folgendes aus: 
+8. Erstellen Sie die erste Antwortgruppenantwort. Ausführen:
 
    ```powershell
    $SupportAnswer = New-CsRgsAnswer -Action $SupportAction [-DtmfResponse 1]
    ```
 
-9. Erstellen Sie nun die zweite Eingabeaufforderung, die zweite Anrufaktion und die zweite Antwort. Erstellen Sie zunächst die Eingabeaufforderung. Führen Sie Folgendes aus: 
+9. Erstellen Sie nun die zweite Eingabeaufforderung, die zweite Anrufaktion und die zweite Antwort. Erstellen Sie zunächst die Eingabeaufforderung. Ausführen:
 
    ```powershell
    $SalesPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Please hold while we connect you with Contoso Sales."
    ```
 
-10. Erstellen Sie die zweite Anrufaktion. Führen Sie Folgendes aus: 
+10. Erstellen Sie die zweite Anrufaktion. Ausführen:
 
     ```powershell
     $SalesAction = New-CsRgsCallAction -Prompt $SalesPrompt -Action TransferToQueue -QueueID $QSales.Identity
@@ -622,13 +622,13 @@ In der folgenden Liste werden einige bewährte Methoden für das Entwerfen Ihrer
     $SalesAnswer = New-CsRgsAnswer -Action $SalesAction [-DtmfResponse 2]
     ```
 
-12. Erstellen Sie die Eingabeaufforderung auf oberster Ebene. Führen Sie Folgendes aus: 
+12. Erstellen Sie die Eingabeaufforderung auf oberster Ebene. Ausführen:
 
     ```powershell
     $TopLevelPrompt = New-CsRgsPrompt -TextToSpeechPrompt "Thank you for calling Contoso. For Technical Support, press 1. For a Sales Representative, press 2."
     ```
 
-13. Erstellen Sie die Frage auf oberster Ebene. Führen Sie Folgendes aus: 
+13. Erstellen Sie die Frage auf oberster Ebene. Ausführen:
 
     ```powershell
     $TopLevelQuestion = New-CsRgsQuestion -Prompt $TopLevelPrompt [-AnswerList ($SupportAnswer, $SalesAnswer)]

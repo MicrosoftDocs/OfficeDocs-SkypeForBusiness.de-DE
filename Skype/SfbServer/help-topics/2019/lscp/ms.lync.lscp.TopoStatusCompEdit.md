@@ -1,8 +1,8 @@
 ---
 title: Topology View Computer Detail
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 482d8d7b-d674-46b5-b8b7-19bc0f20e9b2
 ROBOTS: NOINDEX, NOFOLLOW
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: ce5bc3073eeb60a7e9b6dc685b7d74f40dc05373
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: bdacd8aefd5b082da5c5f54e9a0edf4455481eac
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833751"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402339"
 ---
 # <a name="topology-view-computer-detail"></a>Topologie: Anzeigen von Computerdetails
 

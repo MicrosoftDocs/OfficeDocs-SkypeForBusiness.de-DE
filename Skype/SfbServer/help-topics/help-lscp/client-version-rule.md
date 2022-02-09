@@ -1,8 +1,8 @@
 ---
 title: Clientversionsregel
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/23/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 6e7e94c2-1475-4334-b8da-716b24a4c255
 description: Eine Clientversionsrichtlinie besteht aus einer Gruppe von Clientversionsregeln. Mit diesen Regeln werden die Aktionen definiert, die ausgeführt werden sollen, wenn Benutzer sich mit bestimmten Clients und Clientversionen anmelden möchten.
-ms.openlocfilehash: 4575155cba6608e4a8f4425f7fc2d38042e62ad2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3a2aa4712fdbe6d4c59a8ce72c67c2603f00cf57
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60862822"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404107"
 ---
 # <a name="client-version-rule"></a>Clientversionsregel
 
@@ -65,7 +65,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
   - **Nebenversion** Gibt die Nummer an, die der Nebenversion des Clients entspricht.
 
-  - **Erstellen** Gibt die Buildnummer an, die der Haupt- und Nebenversion des Clients entspricht.
+  - **Bauen** Gibt die Buildnummer an, die der Haupt- und Nebenversion des Clients entspricht.
 
   - **Aktualisieren** Gibt die Nummer an, die der aktualisierten Version des Clients entspricht.
 
@@ -85,7 +85,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
 - **Aktion** Sie können die auszuführende Aktion angeben, wenn die Kriterien in den vorherigen Schritten erfüllt sind. Die folgenden Aktionen sind verfügbar:
 
-  - **Zulassen** Ermöglicht dem Client die Anmeldung.
+  - **Ermöglichen** Ermöglicht dem Client die Anmeldung.
 
   - **Zulassen und Aktualisieren** Ermöglicht dem Client, sich anzumelden und Updates von Windows Server Update Service oder Microsoft Update zu erhalten. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
 
@@ -94,7 +94,7 @@ In den folgenden Listen werden die Menüs, Befehle, Felder und Eigenschaften der
 
   - **Zulassen mit URL** Ermöglicht es dem Client, sich anzumelden, und zeigt eine Meldung an, wo eine andere Clientversion heruntergeladen werden soll. Sie geben die URL im Feld **URL** an.
 
-  - **Blockieren** Verhindert, dass sich der Client anmeldet.
+  - **Block** Verhindert, dass sich der Client anmeldet.
 
   - **Blockieren und Aktualisieren** Verhindert, dass sich der Client anmeldet, und ermöglicht dem Client den Empfang von Updates von Windows Server Update Service oder Microsoft Update. Diese Aktion ist nur verfügbar, wenn der Benutzer-Agent **OC** ausgewählt ist.
 

@@ -1,7 +1,7 @@
 ---
-title: Skype Lokale Bereitstellungen mit mehreren Gesamtstrukturen für Das Raumsystem
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Skype lokalen Bereitstellungen mit mehreren Gesamtstrukturen für Das Raumsystem
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,21 +12,21 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 6793fca0-3970-44e4-8703-1925428c1967
 description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer lokalen Umgebung mit mehreren Gesamtstrukturen bereitstellen.
-ms.openlocfilehash: 34b52f32ec3f1c611d8560c8f053e7fbe16b53bf
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 45eef34f575144f720225a74d07efa0da2db30cd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60857043"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400739"
 ---
-# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype Lokale Bereitstellungen mit mehreren Gesamtstrukturen für Das Raumsystem
+# <a name="skype-room-system-multiple-forest-on-premises-deployments"></a>Skype lokalen Bereitstellungen mit mehreren Gesamtstrukturen für Das Raumsystem
  
 In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer lokalen Umgebung mit mehreren Gesamtstrukturen bereitstellen.
   
 > [!NOTE]
-> Für die Bereitstellung in mehreren Gesamtstrukturen erfordert Skype Room System Exchange Server 2013 CU6, das am 26. August 2014 veröffentlicht wurde. Vermeiden Sie die erneute Verwendung eines vorhandenen Postfachs für Skype Raumsystem. Verwenden Sie ein neues Ressourcenpostfach (altes Postfach löschen und neu erstellen) für Skype Raumsystem. Informationen zum Wiederherstellen der verlorenen Besprechungen durch Löschen des Postfachs finden Sie unter [Verbinden oder Wiederherstellen eines gelöschten Postfachs.](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help) 
+> Für die Bereitstellung in mehreren Gesamtstrukturen erfordert Skype Room System Exchange Server 2013 CU6, das am 26. August 2014 veröffentlicht wurde. Vermeiden Sie die erneute Verwendung eines vorhandenen Postfachs für Skype Raumsystem. Verwenden Sie ein neues Ressourcenpostfach (altes Postfach löschen und neu erstellen) für Skype Raumsystem. Informationen zum Wiederherstellen der verlorenen Besprechungen durch Löschen des Postfachs finden Sie unter [Verbinden oder Wiederherstellen eines gelöschten Postfachs](/exchange/connect-or-restore-a-deleted-mailbox-exchange-2013-help). 
   
-Nach dem Erstellen des Postfachs können Sie Set-CalendarProcessing verwenden, um das Postfach zu konfigurieren. Weitere Informationen finden Sie in den Schritten 3 bis 6 unter lokale Bereitstellungen mit einzelner Gesamtstruktur. Aktivieren Sie nach dem Erstellen eines Exchange Ressourcenpostfachs für Skype Raumsystem das Konto für Skype for Business, indem Sie die Schritte unter Aktivieren Skype Raumsystemkonten für Skype for Business unter lokalen Bereitstellungen mit einzelner Gesamtstruktur ausführen.
+Nach dem Erstellen des Postfachs können Sie Set-CalendarProcessing verwenden, um das Postfach zu konfigurieren. Weitere Informationen finden Sie in den Schritten 3 bis 6 unter lokale Bereitstellungen mit einzelner Gesamtstruktur. Nachdem Sie ein Exchange Ressourcenpostfach für Skype Raumsystem erstellt haben, aktivieren Sie das Konto für Skype for Business, indem Sie die Schritte unter Aktivieren Skype Raumsystemkonten für Skype for Business unter lokalen Bereitstellungen mit einzelner Gesamtstruktur ausführen.
   
 ## <a name="option-1-create-a-new-resource-mailbox"></a>Option 1: Erstellen eines neuen Ressourcenpostfachs
 

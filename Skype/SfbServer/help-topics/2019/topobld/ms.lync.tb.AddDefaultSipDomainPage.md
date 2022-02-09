@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen der Standard-SIP-Domäne
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: b9dd496e-d43b-42e4-9e70-a70abb79cdc3
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie die primäre SIP-Domäne (Session Initiation Protocol) an, die Ihre Bereitstellung unterstützen soll. Die primäre SIP-Domäne kann mit ihrer Active Directory Domain Services-Domäne identisch oder von dieser abweichen. Ihre Active Directory-Domäne kann beispielsweise "fabrikam.net" lauten, und als primäre SIP-Domäne kann "contoso.net" angegeben sein.
-ms.openlocfilehash: bf7d01b96dd3d720c26549640111c572bee69975
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 90976b802fa10c3026becffa3de006c391b3c08d
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858492"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400979"
 ---
 # <a name="add-default-sip-domain"></a>Hinzufügen der Standard-SIP-Domäne
  

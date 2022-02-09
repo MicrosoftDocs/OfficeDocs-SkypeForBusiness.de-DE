@@ -1,8 +1,8 @@
 ---
 title: ConferenceSessionDetails-Ansicht
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/9/2015
 audience: ITPro
@@ -13,12 +13,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 5858c84d-baed-421d-ad1d-3726e150e256
 description: In der ConferenceSessionDetails-Ansicht werden Informationen zu Sitzungen mit mehreren Teilnehmern gespeichert. Jeder Datensatz steht für eine Konferenzsitzung, bei der es sich entweder um die Sitzung mit Konferenzzustandsobjekt oder die Sitzung mit einem spezifischen Konferenzserver handelt. Diese Ansicht wurde in Microsoft Lync Server 2013 eingeführt.
-ms.openlocfilehash: f35a815743dcfb8dba3d2a69943c9c5c42344a86
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 902cf40a042d51d6765a0653da439b1bc1a86478
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60849668"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400859"
 ---
 # <a name="conferencesessiondetails-view"></a>ConferenceSessionDetails-Ansicht
  
@@ -26,34 +26,34 @@ In der ConferenceSessionDetails-Ansicht werden Informationen zu Sitzungen mit me
   
 |**Spalte**|**Datentyp**|**Details**|
 |:-----|:-----|:-----|
-|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
-|**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**SessionIdTime** <br/> |Datum/Uhrzeit  <br/> |Zeitpunkt der Sitzungsanforderung. Wird zusammen mit SessionIdSeq verwendet, um eine Sitzung eindeutig zu identifizieren.. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
+|**SessionIdSeq** <br/> |int  <br/> |ID zur Identifikation der Sitzung. Wird zusammen mit SessionIdTime verwendet, um eine Konferenzinstanz eindeutig zu identifizieren. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
 |**InviteTime** <br/> |Datum/Uhrzeit  <br/> |Der Zeitpunkt der ersten INVITE-Anforderung. Dieses Feld wird i. d. R. mit Daten aus der ersten INVITE-Nachricht in der Sitzung gefüllt. Wenn keine INVITE-Nachricht vorhanden ist, wird das Feld mit dem Datum und der Uhrzeit der ersten relevanten SIP-Nachricht (BYE, CANCEL, MESSAGE oder INFO) gefüllt.  <br/> |
 |**ConferenceUri** <br/> |nvarchar(450)  <br/> |Die URI der Konferenz.  <br/> |
-|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Typ des URI. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
+|**ConferenceUriType** <br/> |nvarchar(256)  <br/> |Typ des URI. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
 |**ConfInstance** <br/> |Uniqueidentifier  <br/> |ID zur Unterscheidung zwischen einzelnen Instanzen wiederkehrender Konferenzen. Jede wiederkehrende Konferenz weist denselben ConferenceURI, jedoch einen eigenen ConfInstance-Wert auf.  <br/> |
 |**McuConferenceUri** <br/> |nvarchar(450)  <br/> |Der URI des Konferenz-Servers.  <br/> |
-|**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Der Typ der Konferenz-Server-URIs. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
+|**McuConferenceUriType** <br/> |nvarchar(256)  <br/> |Der Typ der Konferenz-Server-URIs. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
 |**UserUri** <br/> |nvarchar(450)  <br/> |Der URI des Benutzers aus der Sitzung.  <br/> |
-|**UserUriType** <br/> |nvarchar(256)  <br/> |Der URI-Typ des Benutzers aus der Sitzung. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
-|**UserTenant** <br/> |nvarchar(256)  <br/> |Der Mandant des Benutzers aus der Sitzung. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|**UserUriType** <br/> |nvarchar(256)  <br/> |Der URI-Typ des Benutzers aus der Sitzung. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**UserTenant** <br/> |nvarchar(256)  <br/> |Der Mandant des Benutzers aus der Sitzung. Weitere Informationen finden Sie in der [Tabelle "Mandanten](tenants.md) ". <br/> |
 |**UserEndpointId** <br/> |Uniqueidentifier  <br/> |Die eindeutige ID des Benutzers aus der Sitzung.  <br/> |
 |**EndTime** <br/> |Datum/Uhrzeit  <br/> |Die Endzeit der Sitzung.  <br/> |
 |**ConferenceClientVersion** <br/> |nvarchar(256)  <br/> |Die Version des Konferenzservers.  <br/> |
-|**ConferenceClientType** <br/> |int  <br/> |Der Typ des Konferenzservers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle.](useragentdef.md) <br/> |
+|**ConferenceClientType** <br/> |int  <br/> |Der Typ des Konferenzservers. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
 |**ConferenceCategory** <br/> |nvarchar(64)  <br/> |Die Kategorie des Konferenzservers.  <br/> |
 |**UserClientVersion** <br/> |nvarchar(256)  <br/> |Die Version des Clients für den Benutzer aus der Sitzung.  <br/> |
-|**UserClientType** <br/> |int  <br/> |Der Client des Benutzers aus der Sitzung. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle.](useragentdef.md) <br/> |
+|**UserClientType** <br/> |int  <br/> |Der Client des Benutzers aus der Sitzung. Weitere Informationen finden Sie in der [UserAgentDef-Tabelle](useragentdef.md) . <br/> |
 |**UserClientCategory** <br/> |nvarchar(64)  <br/> |Der Name der Kategorie für den Client des Benutzers aus der Sitzung.  <br/> |
 |**OnBehalfOfUri** <br/> |nvarchar(450)  <br/> |Der URI des Benutzers, in dessen Namen die Sitzung gestartet wurde.  <br/> |
-|**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Typ des URI des Benutzers, in dessen Namen die Sitzung gestartet worden ist. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
-|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, in dessen Namen die Sitzung gestartet worden ist. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|**OnBehalfOfUriType** <br/> |nvarchar(256)  <br/> |Typ des URI des Benutzers, in dessen Namen die Sitzung gestartet worden ist. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**OnBehalfOfTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, in dessen Namen die Sitzung gestartet worden ist. Weitere Informationen finden Sie in der [Tabelle "Mandanten](tenants.md) ". <br/> |
 |**ReferredByUri** <br/> |nvarchar(450)  <br/> |URI des Benutzers, der die Sitzung weitergeleitet hat.  <br/> |
-|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Typ des URI des Benutzers, der die Sitzung weitergeleitet hat. Weitere Informationen finden Sie in der [UriTypes-Tabelle.](uritypes.md) <br/> |
-|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der die Sitzung weitergeleitet hat. Weitere Informationen finden Sie in der [Tabelle "Mandanten".](tenants.md) <br/> |
+|**ReferredByUriType** <br/> |nvarchar(256)  <br/> |Typ des URI des Benutzers, der die Sitzung weitergeleitet hat. Weitere Informationen finden Sie in der [UriTypes-Tabelle](uritypes.md) . <br/> |
+|**ReferredByUriTenant** <br/> |nvarchar(256)  <br/> |Mandant des Benutzers, der die Sitzung weitergeleitet hat. Weitere Informationen finden Sie in der [Tabelle "Mandanten](tenants.md) ". <br/> |
 |**DialogId** <br/> |varstring(775)  <br/> |Die ID des SIP-Dialogs im Format  <br/> :d ialog;from-tag;to-tag  <br/> |
-|**ReplaceDialogIdTime** <br/> |Datum/Uhrzeit  <br/> |Die ID-Nummer zum Identifizieren des Dialogs, der durch die aktuelle Sitzung ersetzt wurde. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
-|**ReplaceDialogIdSeq** <br/> |int  <br/> |Die ID zur Identifizierung der Sitzung. Wird zusammen mit ReplaceDialogIdTime verwendet, um eine Sitzung eindeutig zu identifizieren, die durch diese Sitzung ersetzt wurde. Weitere Informationen finden Sie in der [Dialogs-Tabelle in Skype for Business Server 2015.](dialogs.md) <br/> |
+|**ReplaceDialogIdTime** <br/> |Datum/Uhrzeit  <br/> |Die ID-Nummer zum Identifizieren des Dialogs, der durch die aktuelle Sitzung ersetzt wurde. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
+|**ReplaceDialogIdSeq** <br/> |int  <br/> |Die ID zur Identifizierung der Sitzung. Wird zusammen mit ReplaceDialogIdTime verwendet, um eine Sitzung eindeutig zu identifizieren, die durch diese Sitzung ersetzt wurde. Weitere Informationen finden Sie [in der Dialogs-Tabelle in Skype for Business Server 2015](dialogs.md). <br/> |
 |**ReplacesDialogId** <br/> |varchar(775)  <br/> |Die ID des SIP-Dialogs, der durch die Sitzung ersetzt wird im Format:  <br/> dialog;from-tag;to-tag  <br/> |
 |**IsStartedByConfServer** <br/> |Bit  <br/> |Gibt an, ob die Sitzung vom Konferenzserver gestartet wurde.  <br/> |
 |**IsEndedByConfServer** <br/> |Bit  <br/> |Gibt an, ob die Sitzung vom Konferenzserver beendet wurde.  <br/> |

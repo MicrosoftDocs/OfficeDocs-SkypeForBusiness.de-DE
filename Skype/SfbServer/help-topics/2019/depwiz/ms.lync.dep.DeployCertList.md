@@ -1,22 +1,27 @@
 ---
 title: Zertifikatliste
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-  - ms.lync.dep.DeployCertList
+- ms.lync.dep.DeployCertList
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - CSH
+- CSH
 ms.localizationpriority: medium
 ms.assetid: aaa6b123-b8cd-4b22-846b-8e02beb428b9
-ROBOTS: 'NOINDEX, NOFOLLOW'
-description: 'Um ein Zertifikat zuzuweisen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.'
+ROBOTS: NOINDEX, NOFOLLOW
+description: Um ein Zertifikat zuzuweisen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf Weiter, um den Vorgang fortzusetzen.
+ms.openlocfilehash: 48f6266e39c615e88c533624753a146303472741
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404347"
 ---
-
 # <a name="certificate-list"></a>Zertifikatliste
  
 Um ein Zertifikat zuzuweisen, wählen Sie ein Zertifikat aus dem lokalen Zertifikatspeicher aus. Klicken Sie auf **Weiter**, um den Vorgang fortzusetzen.

@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren der Standortdatenbank in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: fb84f5b6-c991-4893-bdbf-f195b4b7d28e
 description: Konfigurieren, Auffüllen und Veröffentlichen der E9-1-1-Standortdatenbank in Skype for Business Server Enterprise-VoIP.
-ms.openlocfilehash: 8cd4f10a383d279421af6f9152a31f637ee47474
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5ebace7eabe0db04f06611bc9c11263021733367
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851609"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400719"
 ---
 # <a name="configure-the-location-database-in-skype-for-business-server"></a>Konfigurieren der Standortdatenbank in Skype for Business Server
  
@@ -33,7 +33,7 @@ Führen Sie die folgenden Aufgaben aus, um die Standortdatenbank zu konfiguriere
   
 - Füllen Sie die Datenbank mit einer Zuordnung von Netzwerkelementen zu Standorten auf. Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, müssen Sie die ELIN in das \<CompanyName\> Feld einschließen.
     
-    Wenn Sie die Standortdatenbank nicht auffüllen und der in der Standortrichtlinie **erforderliche Speicherort** auf **"Ja"** oder **"Haftungsausschluss"** festgelegt ist, fordert der Client den Benutzer auf, einen Standort manuell einzugeben.
+    Wenn Sie die Standortdatenbank nicht auffüllen und der in der Standortrichtlinie **erforderliche Speicherort** auf **"Ja** " oder " **Haftungsausschluss**" festgelegt ist, fordert der Client den Benutzer auf, einen Standort manuell einzugeben.
     
 - Überprüfen Sie die Adressen anhand der MSAG-Daten (Master Street Address Guide), die vom Dienstanbieter für E9-1-1 verwaltet werden.
     
@@ -45,7 +45,7 @@ Um Clients in einem Netzwerk automatisch zu finden, müssen Sie zuerst die Stand
   
 Sie können der Standortdatenbank einzeln oder in großen Mengen Adressen hinzufügen, indem Sie eine CSV-Datei verwenden, die die in der folgenden Tabelle beschriebenen Spaltenformate enthält.
   
-Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, schließen Sie die ELIN in das **Feld "CompanyName"** für jeden Standort ein. Sie können für jeden Standort mehrere ELINs einschließen, die jeweils durch ein Semikolon voneinander getrennt sind.
+Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, schließen Sie die ELIN in das **Feld "CompanyName** " für jeden Standort ein. Sie können für jeden Standort mehrere ELINs einschließen, die jeweils durch ein Semikolon voneinander getrennt sind.
   
 |**Network-Element**|**Erforderliche Spalten**|
 |:-----|:-----|
@@ -120,7 +120,7 @@ Wenn Sie ein ELIN-Gateway (Emergency Location Identification Number) verwenden, 
 
 ### <a name="to-validate-addresses-located-in-the-location-database"></a>So überprüfen Sie Adressen in der Standortdatenbank auf Gültigkeit
 
-1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+1.  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 2. Führen Sie die folgenden Cmdlets zum Konfigurieren der Verbindung mit dem Anbieter für die Notrufunterstützung aus.
     
@@ -145,7 +145,7 @@ Wenn Sie ELIN-Gateways (Emergency Location Identification Number) verwenden, mü
   
 ### <a name="to-publish-the-location-database"></a>So veröffentlichen Sie die Standortdatenbank
 
--  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start",** auf **"Alle Programme",** auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell.**
+-  Starten Sie die Skype for Business Server Verwaltungsshell: Klicken Sie auf **"Start**", auf **"Alle Programme**", auf **Skype for Business 2015** und dann auf **Skype for Business Server Verwaltungsshell**.
     
 - Führen Sie das folgende Cmdlet aus, um die Standortdatenbank zu veröffentlichen.
     

@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen zusätzlicher SIP-Domänen
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: ece37fc3-365a-439e-ad03-800f8e7a33eb
 ROBOTS: NOINDEX, NOFOLLOW
 description: Geben Sie die Domänennamen der zusätzlichen Domänen an, die in Ihrer Bereitstellung unterstützt werden sollen. Wenn Sie beispielsweise "contoso.net" als primäre SIP-Domäne (Session Initiation Protocol) angegeben haben und zusätzlich "fabrikam.net" für SIP-Datenverkehr in Ihrer Bereitstellung unterstützen möchten, geben Sie "fabrikam.net" als zusätzliche unterstützte Domäne an.
-ms.openlocfilehash: 43946cdb48fc49460fb9314ec5a454af04090a6f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 5e58a8d7543de3bd2c911c029f94d75ffc0dfc23
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60865152"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401049"
 ---
 # <a name="add-additional-sip-domains"></a>Hinzufügen zusätzlicher SIP-Domänen
  

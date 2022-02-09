@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren mehrerer Notrufnummern in Skype for Business
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: quickstart
@@ -15,25 +15,25 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 2e869df0-5fdb-4e70-bd81-cb012556eb1a
 description: In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server konfigurieren.
-ms.openlocfilehash: d79a57e64d52bfc6b0f1d8ee9a9bd9c3c1509658
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 318cf1f5f2fce443f939a9603f395573209959e0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833911"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401569"
 ---
 # <a name="configure-multiple-emergency-numbers-in-skype-for-business"></a>Konfigurieren mehrerer Notrufnummern in Skype for Business
 
 In diesem Thema erfahren Sie, wie Sie mehrere Notrufnummern in Skype for Business Server konfigurieren.
 
-Skype for Business Server unterstützt jetzt mehrere Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Bevor Sie Ihre Umgebung so konfigurieren, dass mehrere Notrufnummern unterstützt werden, lesen Sie ["Plan for multiple emergency numbers" in Skype for Business Server.](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md)
+Skype for Business Server unterstützt jetzt mehrere Notrufnummern für einen Client. Mehrere Notrufnummern sind ein neues Feature, das im kumulativen Update vom Juni 2016 eingeführt wurde. Bevor Sie Ihre Umgebung so konfigurieren, dass mehrere Notrufnummern unterstützt werden, lesen Sie "[Plan for multiple emergency numbers" in Skype for Business Server](../../plan-your-deployment/enterprise-voice-solution/multiple-emergency-numbers.md).
 
 > [!NOTE]
-> Wenn Sie noch kein Upgrade auf das kumulative Update vom November 2016 durchgeführt haben, lesen Sie [updates to Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Mit dem kumulativen Update vom November 2016 erhöht sich die Anzahl der Support-Notrufnummern von 5 auf 100.
+> Wenn Sie noch kein Upgrade auf das kumulative Update vom November 2016 durchgeführt haben, lesen Sie [die Informationen unter Updates für Skype for Business Server 2015](https://support.microsoft.com/help/3061064/updates-for-skype-for-business-server-2015). Mit dem kumulativen Update vom November 2016 erhöht sich die Anzahl der Support-Notrufnummern von 5 auf 100.
 
 ## <a name="configure-multiple-emergency-numbers"></a>Konfigurieren mehrerer Notrufnummern
 
-Um mehrere Notrufnummern zu konfigurieren, verwenden Sie das Cmdlet New-CsEmergencyNumber und geben dann den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy"](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) und ["Set-CsLocationPolicy" an.](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) Eine vollständige Beschreibung aller Standortrichtlinienparameter, z. B. PSTN-Verwendung und erforderlicher Standort, finden Sie unter ["Set-CsLocationPolicy".](/powershell/module/skype/set-cslocationpolicy?view=skype-ps)
+Um mehrere Notrufnummern zu konfigurieren, verwenden Sie das Cmdlet New-CsEmergencyNumber und geben dann den Parameter "EmergencyNumbers" mit den Cmdlets ["New-CsLocationPolicy](/powershell/module/skype/new-cslocationpolicy?view=skype-ps) " und " [Set-CsLocationPolicy" an](/powershell/module/skype/set-cslocationpolicy?view=skype-ps) . Eine vollständige Beschreibung aller Standortrichtlinienparameter, z. B. PSTN-Verwendung und erforderlicher Standort, finden Sie unter ["Set-CsLocationPolicy"](/powershell/module/skype/set-cslocationpolicy?view=skype-ps).
 
 Mit dem folgenden Befehl wird mithilfe des Cmdlets New-CsEmergency eine neue Notrufnummer mit der Wählzeichenfolge 911 erstellt:
 

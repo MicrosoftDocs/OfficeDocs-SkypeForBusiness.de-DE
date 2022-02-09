@@ -1,8 +1,8 @@
 ---
 title: Clientversionskonfiguration
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: cb17314e-b89e-4821-8855-12f8fd2edc9b
 description: Zusätzlich zur Angabe der Version von Clients, die Sie in Ihrer Umgebung unterstützen möchten, können Sie auch eine Standardaktion für Clients angeben, für die noch keine Versionsrichtlinie definiert ist. Auf diese Weise können Sie einschränken, welche Clientversionen in Ihrer Umgebung verwendet werden. Dadurch können Sie die Kosten steuern, die mit der Unterstützung mehrerer Clientversionen verbunden sind.
-ms.openlocfilehash: 8a4d9b4212e2e8aeac7a9bfacb4b13dc413146d9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 018b138c54dcc5d9d9fde68342f71e40b06494d7
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60842107"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401369"
 ---
 # <a name="client-version-configuration"></a>Clientversionskonfiguration
 
@@ -28,9 +28,9 @@ Zusätzlich zur Angabe der Version von Clients, die Sie in Ihrer Umgebung unters
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **"Clientversionskonfiguration"** können Sie die folgenden Aufgaben ausführen:
+Auf der Seite " **Clientversionskonfiguration** " können Sie die folgenden Aufgaben ausführen:
 
-- Bearbeiten Sie die Standardmäßige Clientversionskonfiguration **(global).**
+- Bearbeiten Sie die Standardmäßige Clientversionskonfiguration ( **global**).
 
 - Erstellen sie die Clientversionskonfiguration für einen bestimmten Standort.
 

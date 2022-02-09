@@ -1,8 +1,8 @@
 ---
 title: Konfigurieren einer Netzwerkregion – Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregion
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 0277b988-e12e-4786-9001-9c212495cb89
 description: Was möchten Sie machen? Klicken Sie auf den Link zu der Aufgabe, die Sie ausführen möchten.
-ms.openlocfilehash: 4f783eaa2ab958e8ce41715940422b7758eedd41
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb7f7ea2bb1e1a99513286ca337100324953b57c
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833561"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400457"
 ---
 # <a name="configure-a-network-region-create-new-or-edit-existing"></a>Konfigurieren einer Netzwerkregion: Erstellen einer neuen oder Bearbeiten einer vorhandenen Netzwerkregion
 

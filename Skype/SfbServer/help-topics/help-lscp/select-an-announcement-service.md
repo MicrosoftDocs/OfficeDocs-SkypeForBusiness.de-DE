@@ -1,8 +1,8 @@
 ---
 title: Auswählen eines Ankündigungsdiensts
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 676f4d80-6826-4fa0-9430-4ebdb4b5a03e
 description: Verwenden Sie das Dialogfeld Ankündigungsdienst auswählen zum Auswählen eines Ankündigungsdiensts, mit dem eingehende Anrufe für einen Bereich nicht zugewiesener Nummern behandelt werden sollen.
-ms.openlocfilehash: ba6dac3880f769d4b02619dc86b1c65b66239182
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 93ae230a76669871db74b1272418abb44676aba2
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852319"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401309"
 ---
 # <a name="select-an-announcement-service"></a>Auswählen eines Ankündigungsdiensts
  

@@ -1,7 +1,7 @@
 ---
-title: Skype Raumsystemhybridbereitstellungen
-ms.author: v-mahoffman
-author: HowlinWolf-92
+title: Hybridbereitstellungen für Skype Raumsystem
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -12,14 +12,14 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: eba70d88-13b3-4598-95d5-8a343c9e7d26
 description: In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Hybridumgebung bereitstellen.
-ms.openlocfilehash: caebf77f0ef5abb2b56c64446ad04a052d8f98f9
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 0592d2cb22eb0a8f34e93dc812f011d13b31a53f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60841947"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400761"
 ---
-# <a name="skype-room-system-hybrid-deployments"></a>Skype Raumsystemhybridbereitstellungen
+# <a name="skype-room-system-hybrid-deployments"></a>Hybridbereitstellungen für Skype Raumsystem
 
 In diesem Thema erfahren Sie, wie Sie Skype Raumsystem in einer Hybridumgebung bereitstellen.
   
@@ -35,24 +35,24 @@ Zur Veranschaulichung verwenden wir LyncSample.com für die lokale Domäne und L
    New-Mailbox -room -name "LRS Test 5" -RoomMailboxPassword (ConvertTo-SecureString <password> -AsPlainText -Force) -EnableRoomMailboxAccount $true 
    ```
 
-    Sie können die OWA-Konnektivität mit lrstest5@LyncSample.ccsctp.net für die Anmeldung überprüfen.
+    Sie können die OWA-Konnektivität überprüfen, indem Sie lrstest5@LyncSample.ccsctp.net zum Anmelden verwenden.
     
 2. Fügen Sie im Microsoft 365 oder Office 365 Exchange Admin Center eine E-Mail-Adresse lrstest5@LyncSample.com (lokale Domäne) hinzu, und legen Sie sie als Antwortadresse fest.
     
 3. Erstellen Sie einen lokalen Active Directory-Benutzer lrstest5@LyncSample.com, legen Sie die E-Mail-Adresse auf lrstest5@LyncSample.com fest, und legen Sie die Zieladresse auf lrstest5@LyncSample.com fest.
     
-4. Trigger directory synchronization, and, after synchronization is complete, verify that users merge in AAD and that you are not able to change properties in recipient's resources in the Microsoft 365 or Office 365 Exchange admin center.
+4. Lösen Sie die Verzeichnissynchronisierung aus, und vergewissern Sie sich nach Abschluss der Synchronisierung, dass Benutzer in AAD zusammengeführt werden und dass Sie die Eigenschaften der Empfängerressourcen im Microsoft 365 oder Office 365 Exchange Admin Center nicht ändern können.
     
 5. Überprüfen Sie die OWA-Konnektivität mit lrstest5@LyncSample.com. (Zuvor haben Sie die OWA-Konnektivität mithilfe der Onlinedomäne überprüft.)
     
-    Nach dem Erstellen des Postfachs können Sie Set-CalendarProcessing in der Exchange Online Verwaltungsshell verwenden, um das Postfach zu konfigurieren. Weitere Informationen finden Sie in den Schritten 3 bis 6 unter Lokale Bereitstellungen mit einzelner Gesamtstruktur.
+    Nach dem Erstellen des Postfachs können Sie Set-CalendarProcessing in der Exchange Online-Verwaltungsshell verwenden, um das Postfach zu konfigurieren. Weitere Informationen finden Sie in den Schritten 3 bis 6 unter Lokale Bereitstellungen mit einzelner Gesamtstruktur.
     
    > [!NOTE]
    > Wenn Sie über eine Hybridumgebung mit Exchange Server und Exchange Online verfügen, wechseln Sie zur Exchange Verwaltungsshell und Enable-RemoteMailbox lrstest5@LyncSample.com -RemoteRoutingAddress lrstest5@LyncSample.mail.ccsctp.net -Room. Lösen Sie dann die Verzeichnissynchronisierung aus. 
   
     Wenn Sie das Skype Raumsystempostfach in Exchange Online hosten möchten, sind diese Exchange Verwaltungsshell-Schritte nicht erforderlich, und Sie können mit Schritt 6 fortfahren.
     
-6. Aktivieren Sie das Skype Room System-Konto für Skype for Business, indem Sie das folgende Cmdlet in Skype for Business Verwaltungsshell ausführen:
+6. Aktivieren Sie das Skype Raumsystemkonto für Skype for Business, indem Sie das folgende Cmdlet in Skype for Business Verwaltungsshell ausführen:
     
    ```powershell
    Enable-CsMeetingRoom -SipAddress 'sip: lrstest5@LyncSample.com' -RegistrarPool pool1.child.corp.LyncSample.com -Identity lrstest5@LyncSample.com
@@ -60,6 +60,6 @@ Zur Veranschaulichung verwenden wir LyncSample.com für die lokale Domäne und L
    ```
 
 > [!NOTE]
-> Wenn Sie im obigen Szenario Skype for Business Online anstelle von Skype for Business Server haben, stellen Sie nach der Bereitstellung des Exchange Ressourcenpostfachs ein Skype for Business Konto bereit, wie in Skype for Business Onlinebereitstellung. 
+> Wenn Sie im obigen Szenario Skype for Business Online anstelle von Skype for Business Server haben, stellen Sie nach der Bereitstellung des Exchange Ressourcenpostfachs ein Skype for Business Konto bereit, wie in Skype for Business  Onlinebereitstellung. 
   
 

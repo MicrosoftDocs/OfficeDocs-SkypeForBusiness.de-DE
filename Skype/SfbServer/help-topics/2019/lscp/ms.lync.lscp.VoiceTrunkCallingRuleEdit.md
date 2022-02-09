@@ -1,8 +1,8 @@
 ---
 title: Neue Übersetzungsregel für die wählende Nummer
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 ms.assetid: 2b6493f1-1be5-45b4-841a-09425cb302e1
 ROBOTS: NOINDEX, NOFOLLOW
 description: 'Sie können die Option Neue Trunkkonfiguration: Neue Übersetzungsregel für die wählende Nummer verwenden, um eine neue Übersetzungsregel zu erstellen. Ausführliche Informationen zu Übersetzungsregeln finden Sie in den folgenden Themen:'
-ms.openlocfilehash: 95ae70146c89c9f1bc40edb9b01f8724357ae10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 37be36b1241a96d3975e46366b888d93a6838a1f
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60833681"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62402289"
 ---
 # <a name="new-calling-number-translation-rule"></a>Neue Übersetzungsregel für die wählende Nummer
 

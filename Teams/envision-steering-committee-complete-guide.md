@@ -1,7 +1,7 @@
 ---
 title: Lenkungsgruppe für Cloud-Sprachbereitstellung
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.date: 03/13/2018
 ms.topic: article
@@ -16,18 +16,18 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: cd588928f71926981c42f7c909e00c544243279e
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: fb615c326b5d9cbf0fc293b96541f768e48947d8
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60858872"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401659"
 ---
 # <a name="steering-committee"></a>Lenkungsgremium
 
 ## <a name="steering-committee-overview"></a>Übersicht über Lenkungssitzungen
 
-Ein Lenkungskreis ist eine Führungsgruppe wichtiger Projektbeteiligten und Projektleiter, die zusammengebracht wurden, um ein Projekt oder Programm auf dem Weg zu seinen definierten Geschäftsergebnissen zu leiten. Der Lenkungsrat ist nicht  direkt dafür verantwortlich, wie  das Projekt geliefert wird, sondern was das Projekt für das Unternehmen liefert.
+Ein Lenkungskreis ist eine Führungsgruppe wichtiger Projektbeteiligten und Projektleiter, die zusammengebracht wurden, um ein Projekt oder Programm auf dem Weg zu seinen definierten Geschäftsergebnissen zu leiten. Der Lenkungsrat ist nicht direkt dafür verantwortlich, wie  das Projekt geliefert wird, sondern was das  Projekt für das Unternehmen liefert.
 
 Für jedes Projekt ist eine vereinbarte Vision und Einarbeitung erforderlich. Um die gewünschten Ergebnisse für die Projekte zu erzielen, muss die Vision klar definiert und überwacht und verwaltet werden. Dies wird die Aufgabe des Lenkungsgremiums: Entscheidungen zu treffen, zu beraten, strategische Aufsicht zu geben, als Fürsprecher der Organisation für Projektinitiativen zu dienen und – falls erforderlich – Blockierer zu entfernen.
 
@@ -71,7 +71,7 @@ Jedes Lenkungsgremium benötigt starke Führungskräfte und klar definierte Roll
 | Befürworter aus der Führungsebene | Verfechter des Projekts, stellen Sie sicher, dass seine Richtung der Vision der Organisation weiterhin zusagt. Dienen Sie als letztendliche Autorität, Entscheidungen zu treffen, auf die sich das Komitee nicht einigen kann. | | |
 | Business Decision Maker(en) | Verfechter des Projekts, sicherstellen, dass seine Richtung der Vision der Organisation weiterhin zusagt | | |
 | Architect | Stellen Sie sicher, dass Technologieentscheidungen erreichbar sind und an den vereinbarten Geschäftsergebnissen ausgerichtet sind. | | |
-| Kernteam Project Teams | Bereitstellen von Details zu einer bestimmten Komponente, entweder technischer oder nicht technischer Art (z. B. Übernahme- und Änderungsmanagement) | | |
+| Kernteam Project Team | Bereitstellen von Details zu einer bestimmten Komponente, entweder technischer oder nicht technischer Art (z. B. Übernahme- und Änderungsmanagement) | | |
 | Quality Champion | Gehen Sie für die Berücksichtigung von Qualitätsmetriken ein. | | |
 | Programm-/Project-Manager | Übernehmen Sie die Verantwortung für die Präsentation und das Sammeln von Feedback, um sie in das Projekt zu integrieren. | | |
 | Partnerkontoteam | Feedback aus der Sicht des Partners aus einer breiteren Perspektive geben, auf andere Partneraktivitäten. | | |
@@ -108,7 +108,7 @@ Die folgenden Ressourcen sollten abgeschlossen und in den Präsentationsstapel f
 
     -   Bericht über die OKRs, die vom Komitee als wichtig identifiziert wurden; achten Sie darauf, nutzungs-, benutzerfreundliche, Qualitäts- und Zuverlässigkeitsmetriken mitzuverlässigen.
 
--   Lenkungsbericht PowerPoint, wöchentlicher Statusbericht für das Projekt
+-   Lenkungsgremium PowerPoint, wöchentlicher Statusbericht für das Projekt
 
     -   Enthält Hervorhebungen und Lowlights, wichtige Probleme und Aktionselemente sowie die nächsten Schritte.
 
@@ -128,7 +128,7 @@ Die folgenden Ressourcen sollten abgeschlossen und in den Präsentationsstapel f
 
         -   Identifizieren Sie die nächsten Schritte, und geben Sie an, welche Unterstützung von den Mitgliedern des Komitees erforderlich sein könnte.
 
--   Qualitätsübersicht: Verwenden Sie den Leitfaden [unter Vorbereiten Ihres Netzwerks für Teams.](prepare-network.md)
+-   Qualitätsübersicht: Verwenden Sie den Leitfaden [unter Vorbereiten Ihres Netzwerks für Teams](prepare-network.md).
 
     -   Seien Sie darauf vorbereitet, die Ergebnisse dieser Qualitätsberichte detaillierter zu erläutern und Empfehlungen zur Behebung notierter Probleme mit auf den Markt zu geben.
 

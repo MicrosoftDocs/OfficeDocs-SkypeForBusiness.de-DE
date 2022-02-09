@@ -1,8 +1,8 @@
 ---
 title: Bewährte Methoden für Ihre Kerninfrastruktur in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -12,12 +12,12 @@ f1.keywords:
 ms.localizationpriority: medium
 ms.assetid: 44aff88d-536c-4613-a81e-5398c9c6a648
 description: Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihrem System zu entwerfen, indem Sie Methoden wie die Gewährleistung von Hardwareredundanz, schutz vor Energieverlust, die routinemäßige Installation von Sicherheitsupdates und Antivirenmaßnahmen und Monitoring Server-Aktivitäten verwenden. Diese Methoden profitieren nicht nur von Ihrer Skype for Business Server Infrastruktur, sondern auch von Ihrem gesamten Netzwerk. Wenn Sie diese Methoden nicht implementiert haben, empfehlen wir, dies zu tun, bevor Sie Skype for Business Server bereitstellen.
-ms.openlocfilehash: 352541cf2dfa91eef24f09c4aebd2788c589a10f
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 3cd9afbba6014536d146454144456edc91fbf9c0
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60860942"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400236"
 ---
 # <a name="best-practices-for-your-core-infrastructure-in-skype-for-business-server"></a>Bewährte Methoden für Ihre Kerninfrastruktur in Skype for Business Server
  
@@ -25,7 +25,7 @@ Sie haben wahrscheinlich bereits Schritte unternommen, um Fehlertoleranz in Ihre
   
 Um die Server in Ihrer Skype for Business Server Bereitstellung vor versehentlichen oder absichtlichen Schäden zu schützen, die zu Ausfallzeiten führen können, treffen Sie die folgenden Vorsichtsmaßnahmen:
   
-- Halten Sie Ihre Server mit Sicherheitsupdates auf dem neuesten Stand. Das Abonnieren des Microsoft-Sicherheitsbenachrichtigungsdiensts trägt dazu bei, dass Sie sofortige Benachrichtigungen über Die Veröffentlichung von Sicherheitsbulletins für jedes Microsoft-Produkt erhalten. To subscribe, go to the [Microsoft Technical Security Notifications website](https://go.microsoft.com/fwlink/p/?LinkId=145202).
+- Halten Sie Ihre Server mit Sicherheitsupdates auf dem neuesten Stand. Das Abonnieren des Microsoft-Sicherheitsbenachrichtigungsdiensts trägt dazu bei, dass Sie sofortige Benachrichtigungen über Die Veröffentlichung von Sicherheitsbulletins für jedes Microsoft-Produkt erhalten. Zum Abonnieren wechseln Sie zur [Microsoft Technical Security Notifications-Website](https://go.microsoft.com/fwlink/p/?LinkId=145202).
     
 - Stellen Sie sicher, dass die Zugriffsrechte ordnungsgemäß eingerichtet sind.
     

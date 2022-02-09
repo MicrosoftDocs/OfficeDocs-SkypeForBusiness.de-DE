@@ -8,12 +8,17 @@ ms.reviewer: sohailta
 ms.topic: quickstart
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.assetid: c36150bb-461c-4f1c-877b-fac7fb232f7c
-description: 'Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.'
+description: Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.
+ms.openlocfilehash: 157e55232f0f2341a6420b54ece6faf9ee28f9fd
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404467"
 ---
-
 # <a name="provisioning-skype-room-system-accounts-in-microsoft-365-and-office-365"></a>Bereitstellen Skype Raumsystemkonten in Microsoft 365 und Office 365
  
 Lesen Sie dieses Thema, um mehr über die Bereitstellung Skype Raumsystemkonten in Microsoft 365 oder Office 365 zu erfahren.

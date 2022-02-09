@@ -1,8 +1,8 @@
 ---
 title: Hinzufügen der IP-Adresse des Edgeservers – Optionen
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 11/17/2018
 audience: ITPro
@@ -15,24 +15,24 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: f458287f-e7a5-45f2-8393-3e1377be81d9
 description: 'Mit Microsoft Lync Server 2013 können Sie IPv4- und IPv6-Adressen für jede Schnittstelle für den Edgeserver und den Edgepool konfigurieren. Gehen Sie hierzu folgendermaßen vor:'
-ms.openlocfilehash: 7cac0c12014e1b4b83ca186fe20adfa67469d8a2
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b0a7483b7d9f8c19b045611ebcbc6c9b2d6e8237
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60852179"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401249"
 ---
 # <a name="add-edge-server-ip-options"></a>Hinzufügen der IP-Adresse des Edgeservers – Optionen
  
 Mit Microsoft Lync Server 2013 können Sie IPv4- und IPv6-Adressen für jede Schnittstelle für den Edgeserver und den Edgepool konfigurieren. Gehen Sie hierzu folgendermaßen vor:
   
-- **Aktivieren von IPv4 auf der internen Schnittstelle:** Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf den Edgeserver oder die interne Schnittstelle des Edgepools anwenden möchten.
+- **Aktivieren von IPv4 auf der internen Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf den Edgeserver oder die interne Schnittstelle des Edgepools anwenden möchten.
     
-- **Aktivieren von IPv6 auf der internen Schnittstelle:** Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf den Edgeserver oder die interne Schnittstelle des Edgepools anwenden möchten.
+- **Aktivieren von IPv6 auf der internen Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf den Edgeserver oder die interne Schnittstelle des Edgepools anwenden möchten.
     
-- **Aktivieren von IPv4 auf der externen Schnittstelle:** Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf die externe Edgeserver- oder Edgepoolschnittstelle anwenden möchten.
+- **Aktivieren von IPv4 auf der externen Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv4-Adresse auf die externe Edgeserver- oder Edgepoolschnittstelle anwenden möchten.
     
-- **Aktivieren von IPv6 auf der externen Schnittstelle:** Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf die externe Edgeserver- oder Edgepoolschnittstelle anwenden möchten.
+- **Aktivieren von IPv6 auf der externen Schnittstelle**: Aktivieren Sie das Kontrollkästchen, wenn Sie eine IPv6-Adresse auf die externe Edgeserver- oder Edgepoolschnittstelle anwenden möchten.
     
 Sie können auch den Edgeserver oder Edgepool so konfigurieren, dass eine Netzwerkadressenübersetzungsadresse für die externen IP-Adressen verwendet wird. Dazu aktivieren Sie einfach das Kontrollkästchen **Die externe IP-Adresse dieses Edgepools wird von der Netzwerkadressenübersetzung übersetzt**.
   

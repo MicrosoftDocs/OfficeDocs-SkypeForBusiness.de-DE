@@ -1,8 +1,8 @@
 ---
 title: Geräteprotokollkonfiguration
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,26 +15,26 @@ ms.localizationpriority: medium
 ms.assetid: c9b81f20-ce8c-40f1-8bed-50775cc35e58
 ROBOTS: NOINDEX, NOFOLLOW
 description: Der Geräteaktualisierungswebdienst erstellt automatisch Protokolldateien, die Geräteaktualisierungsaktivitäten aufzeichnen. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation sollten Sie Schwellenwerte für die Größe des Protokolldatencaches, die Größe der Protokolldatei oder die Dauer festlegen, die eine Protokolldatei vor dem Löschen aufbewahrt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Wenn Sie nicht möchten, dass der Geräteaktualisierungswebdienst Protokolldateien automatisch löscht, können Sie sie bei Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
-ms.openlocfilehash: d1a628c9d1fd7604345d7c6fee723accb936084a
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d62265e382d87b3d20f0c9ac0fe2a5dca869bfef
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60838247"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401489"
 ---
 # <a name="device-log-configuration"></a>Geräteprotokollkonfiguration
 
 Der Geräteaktualisierungswebdienst erstellt automatisch Protokolldateien, die Geräteaktualisierungsaktivitäten aufzeichnen. Im Rahmen der Datenverwaltungsstrategie Ihrer Organisation sollten Sie Schwellenwerte für die Größe des Protokolldatencaches, die Größe der Protokolldatei oder die Dauer festlegen, die eine Protokolldatei vor dem Löschen aufbewahrt wird. Sie können diese Einstellungen entsprechend den Anforderungen Ihrer Organisation ändern. Wenn Sie nicht möchten, dass der Geräteaktualisierungswebdienst Protokolldateien automatisch löscht, können Sie sie bei Bedarf manuell löschen. Protokolleinstellungen können global oder auf Standortebene geändert werden.
 
 > [!NOTE]
-> Sie können auch eine Uhrzeit konfigurieren, zu der der Geräteaktualisierungswebdienst Protokolldateien automatisch löschen soll, die älter als die Anzahl der Tage sind, die Sie für den Dienst konfiguriert haben, um Protokolldateien beizubehalten (standardmäßig also Protokolldateien, die älter als 10 Tage sind). Diese Einstellung kann nicht mit Skype for Business Server Systemsteuerung geändert werden. Stattdessen müssen Sie Skype for Business Server Verwaltungsshell verwenden. Verwenden Sie das Cmdlet **"New-CsDeviceUpdateConfiguration"** mit dem Parameter "-LogCleanUpTimeOfDay", um die Uhrzeit anzugeben, zu der abgelaufene Protokolldateien gelöscht werden sollen. Ausführliche Informationen finden Sie unter ["New-CsDeviceUpdateConfiguration".](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps)
+> Sie können auch eine Uhrzeit konfigurieren, zu der der Geräteaktualisierungswebdienst Protokolldateien automatisch löschen soll, die älter als die Anzahl der Tage sind, die Sie für den Dienst konfiguriert haben, um Protokolldateien beizubehalten (standardmäßig also Protokolldateien, die älter als 10 Tage sind). Diese Einstellung kann nicht mit Skype for Business Server Systemsteuerung geändert werden. Stattdessen müssen Sie Skype for Business Server Verwaltungsshell verwenden. Verwenden Sie das Cmdlet **"New-CsDeviceUpdateConfiguration** " mit dem Parameter "-LogCleanUpTimeOfDay", um die Uhrzeit anzugeben, zu der abgelaufene Protokolldateien gelöscht werden sollen. Ausführliche Informationen finden Sie unter ["New-CsDeviceUpdateConfiguration"](/powershell/module/skype/new-csdeviceupdateconfiguration?view=skype-ps).
 
 > [!CAUTION]
 > Durch das dauerhafte Löschen von Dateien werden diese aus dem Dateisystem entfernt. Nach dem Löschen einer Datei kann diese nicht mehr wiederhergestellt werden.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **"Geräteprotokollkonfiguration"** können Sie die folgenden Aufgaben ausführen:
+Auf der Seite " **Geräteprotokollkonfiguration** " können Sie die folgenden Aufgaben ausführen:
 
 - Fügen Sie eine Geräteprotokollkonfiguration global oder für einen bestimmten Standort oder Pool hinzu.
 

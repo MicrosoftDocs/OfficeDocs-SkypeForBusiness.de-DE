@@ -1,8 +1,8 @@
 ---
 title: Allgemeine Front-End-Einstellungen – Erweiterung
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 ms.date: 3/25/2015
 audience: ITPro
@@ -15,12 +15,12 @@ ms.prod: skype-for-business-itpro
 ms.localizationpriority: medium
 ms.assetid: 8a5f21d0-f6c8-4907-9958-5ca36f702542
 description: 'Um die Einstellungen für einen vorhandenen Front-End-Pool oder Standard Edition Server zu bearbeiten, werden die folgenden Abschnitte angezeigt:'
-ms.openlocfilehash: 60e6099cb28ec564abde9506afb1a0ef70274684
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: d005587106fec6819bf1f18c1b07b9de7d8fc216
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60861452"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62403059"
 ---
 # <a name="front-end-general-settings-expander"></a>Allgemeine Front-End-Einstellungen – Erweiterung
 
@@ -36,7 +36,7 @@ Um die Einstellungen für einen vorhandenen Front-End-Pool oder Standard Edition
 
 ## <a name="front-end-pool"></a>Front-End-Pool
 
-Für einen Front-End-Pool können Sie allgemeine Einstellungen sowie Einstellungen zu Ausfallsicherheit, Webdiensten und Vermittlungsservern konfigurieren. Ausführliche Informationen finden Sie in den folgenden Unterabschnitten. Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)
+Für einen Front-End-Pool können Sie allgemeine Einstellungen sowie Einstellungen zu Ausfallsicherheit, Webdiensten und Vermittlungsservern konfigurieren. Ausführliche Informationen finden Sie in den folgenden Unterabschnitten. Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ### <a name="general-settings"></a>Allgemeine Einstellungen
 
@@ -44,7 +44,7 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
 - **FQDN**. Bearbeiten Sie den vollqualifizierten Domänennamen des Pools, um ihn zu ändern.
 
-- Aktivieren Sie den Überwachungsport des **Hardwaregeräts zum Lastenausgleich.** Aktivieren Sie das Kontrollkästchen, und geben Sie die Portnummer ein, die Ihr Hardwaregerät für den Lastenausgleich zum Überwachen des Status der Poolserver verwendet.
+- **Aktivieren Sie den Port für die Überwachung des Hardwaregeräts zum Lastenausgleich**. Aktivieren Sie das Kontrollkästchen, und geben Sie die Portnummer ein, die Ihr Hardwaregerät für den Lastenausgleich zum Überwachen des Status der Poolserver verwendet.
 
 - Definieren Sie in **Funktionen und Funktionalität** die zusätzlichen Rollen, die Sie mit diesem Pool verbinden möchten. Sie können die folgenden Einstellungen konfigurieren:
 
@@ -54,35 +54,35 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
 
 - Bearbeiten Sie in **Zuordnungen** Folgendes, oder geben Sie es an:
 
-  - **SQL-Speicher**. Ändern Sie eine vorhandene SQL Server Datenbank, oder erstellen Sie eine neue SQL Server-basierte Datenbank, die die Front-End-Pooldatenbanken enthält. Sie können eine neue Instanz von SQL Server aus der Liste auswählen oder einen neuen Eintrag erstellen, indem Sie auf **"Neu"** klicken.
+  - **SQL-Speicher**. Ändern Sie eine vorhandene SQL Server-Datenbank, oder erstellen Sie eine neue SQL Server-basierte Datenbank für die Front-End-Pooldatenbanken. Sie können eine neue Instanz von SQL Server aus der Liste auswählen oder einen neuen Eintrag erstellen, indem Sie auf **"Neu**" klicken.
 
-    Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"SQL Server Speicherspiegelung aktivieren**" aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu**, um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover zu aktivieren**, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu**, um einen neuen SQL Server Speicher zu erstellen.
 
   - **Dateifreigabe**. Ändern Sie den vom Front-End-Pool verwendeten Dateispeicher. In der Liste können Sie aus den bereits definierten Dateispeichern einen neuen auswählen. Oder Sie können einen neuen Dateispeicher erstellen, indem Sie auf **Neu** klicken.
 
     > [!IMPORTANT]
     > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein.
 
-  - **Archivierung**. Ordnen Sie dem Front-End-Pool einen Archivierungsserverspeicher zu. Sie können aus einem bereits definierten Archivierungsspeicher SQL Server auswählen, indem Sie den Server aus der Liste auswählen, oder auf **Neu** klicken, um einen neuen Archivierungsserver anzugeben.
+  - **Archivierung**. Ordnen Sie dem Front-End-Pool einen Archivierungsserverspeicher zu. Sie können aus einem bereits definierten Archivierungsspeicher SQL Server auswählen, indem Sie den Server aus der Liste auswählen oder auf **Neu** klicken, um einen neuen Archivierungsserver anzugeben.
 
     > [!IMPORTANT]
     > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein.
 
-    Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"SQL Server Speicherspiegelung aktivieren**" aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu**, um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover zu aktivieren**, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu**, um einen neuen SQL Server Speicher zu erstellen.
 
   - **Überwachung (KDS- und QoE-Metriken)**. Wählen Sie diese Option aus, um dem Front-End-Pool einen Überwachungs- SQL Server Speicher zuzuordnen. Sie können in der Liste einen bereits definierten Monitoring Server auswählen oder auf **Neu** klicken, um einen neuen Monitoring Server anzugeben.
 
-    Wählen Sie **"SQL Server Speicherspiegelung aktivieren"** aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"SQL Server Speicherspiegelung aktivieren**" aus, und wählen Sie dann den Server aus, der für die Spiegelung verwendet werden soll. Klicken Sie auf **Neu**, um einen neuen SQL Server Speicher zu erstellen.
 
-    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover** zu aktivieren, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu,** um einen neuen SQL Server Speicher zu erstellen.
+    Wählen Sie **"Verwenden SQL Server Spiegelungszeugen" aus, um das automatische Failover zu aktivieren**, um einen Server auszuwählen, der als Spiegelungszeugen verwendet werden soll. Klicken Sie auf **Neu**, um einen neuen SQL Server Speicher zu erstellen.
 
   - **Edgepool zuordnen (für Medienkomponenten)**. Ordnen Sie dem Front-End-Pool einen Edgeserver oder -pool zu. Sie können in der Liste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
 
-  - **Zuordnen eines Pools zu einem Office Web Apps-Server.** Wählen Sie diese Option aus, um dem Front-End-Pool einen Office Web Apps-Server zuzuordnen. Wählen Sie einen vorhandenen Server aus der Liste aus, oder klicken Sie auf **Neu,** um einen neuen Office Web Apps-Server zu erstellen.
+  - **Zuordnen eines Pools zu einem Office Web Apps-Server**. Wählen Sie diese Option aus, um dem Front-End-Pool einen Office Web Apps-Server zuzuordnen. Wählen Sie einen vorhandenen Server aus der Liste aus, oder klicken Sie auf **Neu**, um einen neuen Office Web Apps-Server zu erstellen.
 
 ### <a name="resiliency"></a>Ausfallsicherheit
 
@@ -91,7 +91,7 @@ Ausfallsicherheit bietet Notfallwiederherstellung und hohe Verfügbarkeit für d
 Wählen Sie in der Liste den Front-End-Pool oder Standard Edition Server aus, der als Sicherungsserver für den Pool fungiert. Sie können außerdem Zeitintervalle für Failover und Fallback auswählen. Das Aktivieren der Failover- und Fallbackzeiteinstellungen (in Sekunden angegeben) ermöglicht die automatische Erkennung eines ausgefallenen Servers und eine Fallbackzeit, um automatisch zu bestimmen, dass die primäre Instanz gesichert ist.
 
 > [!IMPORTANT]
-> Beim Definieren der Fehlererkennung und des Fallbackintervalls sollten Sie darauf achten, kein Intervall einzugeben, das dazu führt, dass das Failover und fallback auftreten, wenn der Server für einen kurzen Zeitraum nicht reagiert. Es ist möglich, dass der primäre Server je nach Laden des Pools oder der Server möglicherweise für kurze Zeit nicht reagiert. Die Standardwerte für Failover und Fallback sind 300 Sekunden und 600 Sekunden für Pool zu Pool oder Pool für Standard Edition Server. Bei einer Survivable Branch Appliance oder einem Survivable Branch Server an einem Standort für einen Pool oder Standard Edition Server sind die Standardwerte 120 Sekunden für Failover und 240 Sekunden für Fallback.
+> Beim Definieren der Fehlererkennung und des Fallbackintervalls sollten Sie darauf achten, kein Intervall einzugeben, das dazu führt, dass das Failover und fallback auftreten, wenn der Server für einen kurzen Zeitraum nicht reagiert. Es ist möglich, dass der primäre Server je nach Laden des Pools oder der Server möglicherweise für kurze Zeit nicht reagiert. Die Standardwerte für Failover und Fallback sind 300 Sekunden und 600 Sekunden für Pool-zu-Pool- oder Pool-zu-Standard Edition-Server. Bei einer Survivable Branch Appliance oder einem Survivable Branch Server an einem Standort für einen Pool oder Standard Edition Server sind die Standardwerte 120 Sekunden für Failover und 240 Sekunden für Fallback.
 
 > [!CAUTION]
 > Der Mindestwert für das **Failoverintervall** sollte nicht unter 90 Sekunden festgelegt werden. Wenn Sie den Wert auf weniger als 90 Sekunden festlegen, wird der Wert von 90 Sekunden verwendet. Die Pingzeit für Die Kopplung beträgt 30 Sekunden, und eine Einstellung unter 90 Sekunden kann dazu führen, dass die primären und Sicherungsserver nach oben und unten fahren, was zu unerwünschten Auswirkungen auf die Produktion führt, da die Server versuchen, den geeigneten Status des anderen zu beheben. Weniger als 90 Sekunden lassen nicht genügend Zeit zu, um festzustellen, ob der primäre Server tatsächlich nicht verfügbar ist oder nicht.
@@ -103,7 +103,7 @@ Zum Bearbeiten oder Angeben weiterer Einstellungen für Webdienste für den Fron
 Geben Sie in **Interne Webdienste** Folgendes an:
 
 > [!CAUTION]
-> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den externen Webdienst-FQDN eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der externe Webdienst-FQDN, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
+> Wenn Sie über mehrere Front-End-Pools oder Front-End-Server verfügen, muss der externe Webdienst-FQDN eindeutig sein. Wenn Sie beispielsweise den FQDN für externe Webdienste eines Front-End-Servers als **pool01.contoso.com** definieren, können Sie **pool01.contoso.com** nicht für einen anderen Front-End-Pool oder Front-End-Server verwenden. Wenn Sie auch Directors bereitstellen, muss der externe Webdienst-FQDN, der für einen Director- oder Director-Pool definiert ist, von jedem anderen Director- oder Directorpool sowie von jedem Front-End-Pool oder Front-End-Server eindeutig sein. Wenn Sie die internen Webdienste mit einem selbst definierten FQDN überschreiben möchten, muss jeder FQDN für jeden anderen Front-End-Pool, Director oder Director-Pool eindeutig sein.
 
 - Wenn Sie **Vollqualifizierten Domänennamen außer Kraft setzen** auswählen, können Sie einen anderen FQDN für die Identität **Interne Webdienste** im Pool angeben. Standardmäßig ist die Einstellung der aktuelle Poolname entsprechend der Definition für den Front-End-Pool.
 
@@ -121,13 +121,13 @@ Geben Sie in **Vermittlungsserver** Folgendes an:
 
 - Wenn Sie den Vermittlungsserver mit dem Pool verbinden, müssen Sie das Kontrollkästchen **Verbundener Vermittlungsserver aktiviert** aktivieren. Wenn Sie den Vermittlungsserver nicht verbinden möchten, ist keine der Einstellungen in diesem Abschnitt verfügbar.
 
-- Wenn Sie die Kollokation des Vermittlungsservers aktivieren, definieren Sie den Überwachungsportbereich auf den Poolservern für TLS (Transport Layer Security). Standardmäßig ist dieser Port 5067. Wenn Sie **TCP-Port aktivieren** auswählen, müssen Sie einen TCP-Port (Transmission Control Protocol) für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder Ihrer PSTN-Anforderungen beziehen, um festzustellen, ob Sie dies benötigen. Standardmäßig ist der TCP-Portwert 5068.
+- Wenn Sie die Kollokation des Vermittlungsservers aktivieren, definieren Sie den Überwachungsportbereich auf den Poolservern für TLS (Transport Layer Security). Standardmäßig ist dieser Port 5067. Wenn Sie **"TCP-Port aktivieren"** auswählen, müssen Sie einen TCP-Port (Transmission Control Protocol) für den verbundenen Vermittlungsserver definieren. Dies ist eine optionale Einstellung, und Sie sollten sich auf die Anforderungen Ihres Gateways oder Ihrer PSTN-Anforderungen beziehen, um festzustellen, ob Sie dies benötigen. Standardmäßig ist der TCP-Portwert 5068.
 
 - Trunks, die dem verbundenen Vermittlungsserver zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
 
-- Wenn einem Vermittlungsserver mehrere Trunks zugeordnet sind, können Sie einen Standardtrunk angeben, indem Sie das Gateway auswählen und dann auf **"Als Standard** festlegen" klicken. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
+- Wenn einem Vermittlungsserver mehrere Trunks zugeordnet sind, können Sie einen Standardtrunk angeben, indem Sie das Gateway auswählen und dann auf " **Als Standard festlegen**" klicken. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
 
-Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers.](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers)
+Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Front-End-Pool finden Sie unter [Bereitstellen von Vermittlungsservern und Definieren von Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).
 
 ## <a name="standard-edition-server"></a>Standard Edition-Server
 
@@ -163,9 +163,9 @@ Die folgenden allgemeinen Einstellungen können konfiguriert werden:
     > [!IMPORTANT]
     > Vor Veröffentlichung der neu definierten Topologie muss der angegebene Server bereits vorhanden und der Domäne beigetreten sein.
 
-  - **Überwachung (KDS- und QoE-Metriken).** Ordnen Sie dem Standard Edition Server einen Überwachungs- SQL Server Speicher zu. Sie können in der Liste einen bereits definierten Monitoring Server auswählen oder auf **Neu** klicken, um einen neuen Monitoring Server anzugeben.
+  - **Überwachung (KDS- und QoE-Metriken**. Ordnen Sie dem Standard Edition Server einen Überwachungs- SQL Server Speicher zu. Sie können in der Liste einen bereits definierten Monitoring Server auswählen oder auf **Neu** klicken, um einen neuen Monitoring Server anzugeben.
 
-  - **Zuordnen eines Pools zu einem Office Web Apps-Server.** Wählen Sie diese Option aus, um dem Front-End-Pool einen Office Web Apps-Server zuzuordnen. Wählen Sie einen vorhandenen Server aus der Liste aus, oder klicken Sie auf **Neu,** um einen neuen Office Web Apps-Server zu erstellen.
+  - **Zuordnen eines Pools zu einem Office Web Apps-Server**. Wählen Sie diese Option aus, um dem Front-End-Pool einen Office Web Apps-Server zuzuordnen. Wählen Sie einen vorhandenen Server aus der Liste aus, oder klicken Sie auf **Neu**, um einen neuen Office Web Apps-Server zu erstellen.
 
   - **Edgepool zuordnen**. Ordnen Sie dem Standard Edition-Server einen Edgeserver oder -pool zu. Sie können in der Liste einen bereits definierten Edgeserver oder -pool auswählen oder auf **Neu** klicken, um einen neuen Edgeserver oder -pool anzugeben.
 
@@ -204,6 +204,6 @@ Für **Vermittlungsserver** können Sie Folgendes angeben:
 
 - Trunks, die dem verbundenen Vermittlungsserver zugeordnet sind. Wenn bereits Trunks definiert wurden, stehen sie für eine Zuordnung zum Vermittlungsserver zur Verfügung.
 
-- Wenn einem Vermittlungsserver mehrere Gateways zugeordnet sind, können Sie ein Standardgateway angeben, indem Sie das Gateway auswählen und dann auf **"Als Standard festlegen"** klicken. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
+- Wenn einem Vermittlungsserver mehrere Gateways zugeordnet sind, können Sie ein Standardgateway angeben, indem Sie das Gateway auswählen und dann auf " **Standard festlegen**" klicken. Klicken Sie auf **Festlegung als Standardeinstellung aufheben**, um die Festlegung als Standardeinstellung aufzuheben.
 
 Ausführliche Informationen zum Definieren und Konfigurieren der Einstellungen für den Standard Edition-Server finden Sie unter [Defining and Configuring the Topology](/previous-versions/office/lync-server-2013/lync-server-2013-defining-and-configuring-the-topology) und [Deploying Mediation Servers and Defining Peers](/previous-versions/office/lync-server-2013/lync-server-2013-deploying-mediation-servers-and-defining-peers).

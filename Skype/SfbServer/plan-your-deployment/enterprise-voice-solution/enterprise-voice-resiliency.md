@@ -1,8 +1,8 @@
 ---
 title: Planen Enterprise-VoIP Resilienz in Skype for Business Server
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: conceptual
@@ -15,23 +15,23 @@ ms.collection:
 - Strat_SB_Admin
 ms.custom: ''
 ms.assetid: b3671dcb-6a8b-4a06-84da-0c8837b35099
-description: Erfahren Sie, wie Sie die Sprachresilienz in Skype for Business Server Enterprise-VoIP an zentralen Standorten und Zweigstellen unterstützen. Zweigstellenoptionen umfassen die Bereitstellung von Survivable Branch Appliances oder Survivable Branch Servers.
-ms.openlocfilehash: a2dc18817f28595cdfdf65be35df85d0ad93239b
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+description: Erfahren Sie, wie Sie die Sprachresilienz in Skype for Business Server Enterprise-VoIP sowohl an zentralen Standorten als auch an Zweigstellen unterstützen. Zweigstellenoptionen umfassen die Bereitstellung von Survivable Branch Appliances oder Survivable Branch Servers.
+ms.openlocfilehash: fa68fda07e104477bf0e8a089b45adf641ef4ed9
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60851879"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62400289"
 ---
 # <a name="plan-for-enterprise-voice-resiliency-in-skype-for-business-server"></a>Planen Enterprise-VoIP Resilienz in Skype for Business Server
 
-Erfahren Sie, wie Sie die Sprachresilienz in Skype for Business Server Enterprise-VoIP an zentralen Standorten und Zweigstellen unterstützen. Zweigstellenoptionen umfassen die Bereitstellung von Survivable Branch Appliances oder Survivable Branch Servers.
+Erfahren Sie, wie Sie die Sprachresilienz in Skype for Business Server Enterprise-VoIP sowohl an zentralen Standorten als auch an Zweigstellen unterstützen. Zweigstellenoptionen umfassen die Bereitstellung von Survivable Branch Appliances oder Survivable Branch Servers.
 
-Die Sprachresilienz bezieht sich auf die Möglichkeit von Benutzern, weiterhin Anrufe zu tätigen und zu empfangen, wenn ein zentraler Standort, an dem Skype for Business Server gehostet wird, nicht verfügbar ist, sei es durch einen WAN-Fehler (Wide Area Network) oder eine andere Ursache. Wenn ein zentraler Standort ausfällt, muss Enterprise-VoIP Dienst unterbrechungsfrei durch nahtloses Failover auf einen Sicherungsstandort fortgesetzt werden. Im Falle eines WAN-Ausfalls müssen Zweigstellenanrufe an ein lokales PSTN-Gateway umgeleitet werden. In diesem Abschnitt wird die Planung der VoIP-Resilienz im Falle eines Ausfalls am zentralen Standort oder wan erläutert.
+Die Sprachresilienz bezieht sich auf die Möglichkeit von Benutzern, weiterhin Anrufe zu tätigen und zu empfangen, wenn ein zentraler Standort, der Skype for Business Server hostet, nicht verfügbar ist, sei es durch einen WAN-Fehler (Wide Area Network) oder eine andere Ursache. Wenn ein zentraler Standort ausfällt, muss Enterprise-VoIP Dienst unterbrechungsfrei durch nahtloses Failover auf einen Sicherungsstandort fortgesetzt werden. Im Falle eines WAN-Ausfalls müssen Zweigstellenanrufe an ein lokales PSTN-Gateway umgeleitet werden. In diesem Abschnitt wird die Planung der VoIP-Resilienz im Falle eines Ausfalls am zentralen Standort oder wan erläutert.
 
 ## <a name="central-site-resiliency"></a>Ausfallsicherheit des zentralen Standorts
 
-Immer mehr Unternehmen verfügen über mehrere Standorte, die weltweit verteilt sind. Die Wartung von Notrufdiensten, der Zugriff auf den Helpdesk und die Möglichkeit, wichtige Geschäftsaufgaben auszuführen, wenn ein zentraler Standort nicht mehr in Betrieb ist, ist für jede Enterprise-VoIP Ausfallsicherheitslösung unerlässlich. Wenn ein zentraler Standort nicht länger verfügbar ist, muss Folgendes sichergestellt werden:
+Immer mehr Unternehmen verfügen über mehrere Standorte, die weltweit verteilt sind. Die Wartung von Notfalldiensten, der Zugriff auf den Helpdesk und die Möglichkeit, wichtige Geschäftsaufgaben auszuführen, wenn ein zentraler Standort nicht mehr bedient wird, ist für jede Enterprise-VoIP Ausfallsicherheitslösung unerlässlich. Wenn ein zentraler Standort nicht länger verfügbar ist, muss Folgendes sichergestellt werden:
 
 - Bereitstellung von VoIP-Failover.
 
@@ -43,7 +43,7 @@ In diesem Thema wird die empfohlene Lösung zum Sicherstellen der VoIP-Ausfallsi
 
 ### <a name="architecture-and-topology"></a>Architektur und Topologie
 
-Die Planung der VoIP-Ausfallsicherheit an einem zentralen Standort erfordert ein grundlegendes Verständnis der zentralen Rolle der Skype for Business Server-Registrierungsstelle bei der Aktivierung des VoIP-Failovers. Die Skype for Business Server-Registrierungsstelle ist ein Dienst, der die Clientregistrierung und -authentifizierung ermöglicht und Routingdienste bereitstellt. Es wird auf allen Standard Edition Server, Front-End-Server, Director oder Survivable Branch Appliance ausgeführt. Ein Registrierungsstellenpool besteht aus Registrierungsstellendiensten, die im Front-End-Pool ausgeführt werden und sich am selben Standort befinden. Ein Skype for Business-Client ermittelt den Front-End-Pool über den folgenden Ermittlungsmechanismus:
+Die Planung der VoIP-Ausfallsicherheit an einem zentralen Standort erfordert ein grundlegendes Verständnis der zentralen Rolle der Skype for Business Server-Registrierungsstelle bei der Aktivierung des VoIP-Failovers. Die Skype for Business Server Registrierungsstelle ist ein Dienst, der die Clientregistrierung und -authentifizierung ermöglicht und Routingdienste bereitstellt. Es wird auf allen Standard Edition Server, Front-End-Server, Director oder Survivable Branch Appliance ausgeführt. Ein Registrierungsstellenpool besteht aus Registrierungsstellendiensten, die im Front-End-Pool ausgeführt werden und sich am selben Standort befinden. Ein Skype for Business Client ermittelt den Front-End-Pool über den folgenden Ermittlungsmechanismus:
 
 1. DNS-SRV-Eintrag
 
@@ -51,7 +51,7 @@ Die Planung der VoIP-Ausfallsicherheit an einem zentralen Standort erfordert ein
 
 3. DHCP-Option 120
 
-Nachdem der Skype for Business Client eine Verbindung mit dem Front-End-Pool hergestellt hat, wird er vom Lastenausgleich an einen der Front-End-Server im Pool weitergeleitet. Dieser Front-End-Server leitet den Client wiederum zu einer bevorzugten Registrierungsstelle im Pool um.
+Nachdem der Skype for Business-Client eine Verbindung mit dem Front-End-Pool hergestellt hat, wird er vom Lastenausgleichsmodul an einen der Front-End-Server im Pool weitergeleitet. Dieser Front-End-Server leitet den Client wiederum zu einer bevorzugten Registrierungsstelle im Pool um.
 
 Jeder für Enterprise-VoIP aktivierte Benutzer wird einem bestimmten Registrierungsstellenpool zugewiesen, der zum primären Registrierungsstellenpool dieses Benutzers wird. Typischerweise verwenden Hunderte oder Tausende Benutzer an einem Standort einen einzigen primären Registrierungspool gemeinsam. Um den Verbrauch der Ressourcen eines zentralen Standorts durch Zweigstellenbenutzer zu ermitteln, die für Anwesenheits-, Konferenz- oder Failoverfunktionen vom zentralen Standort abhängen, sollten Sie jeden Zweigstellenbenutzer als Benutzer betrachten, der für den zentralen Standort registriert ist. Es gibt derzeit keine Beschränkungen für die Anzahl der Zweigstellenbenutzer, einschließlich der Benutzer, die bei einer Survivable Branch Appliance registriert sind.
 
@@ -64,7 +64,7 @@ Der Such- und Registrierungsprozess des Clients umfasst die folgenden Schritte:
     > [!NOTE]
     > Die Verwendung eines Director-Pools ist optional. Stattdessen kann ein Front-End-Pool verwendet werden.
 
-2. Der Director-Pool informiert den Skype for Business Client über den primären Registrierungsstellenpool und den Sicherungsregistrierungsstellenpool des Benutzers.
+2. Der Director-Pool informiert den Skype for Business-Client über den primären Registrierungsstellenpool und den Sicherungsregistrierungsstellenpool des Benutzers.
 
 3. Der Skype for Business-Client versucht zuerst, eine Verbindung mit dem primären Registrierungsstellenpool des Benutzers herzustellen. Wenn der primäre Registrierungspool verfügbar ist, wird die Registrierung akzeptiert. Wenn der primäre Registrierungsstellenpool nicht verfügbar ist, versucht der Skype for Business-Client, eine Verbindung mit dem Sicherungsregistrierungsstellenpool herzustellen. Wenn der Sicherungsregistrierungsstellenpool verfügbar ist und festgestellt hat, dass der primäre Registrierungsstellenpool des Benutzers nicht verfügbar ist (durch Erkennen eines fehlenden Takts für ein angegebenes Failoverintervall), akzeptiert der Sicherungsregistrierungsstellenpool die Registrierung des Benutzers. Nachdem die Sicherungsregistrierungsstelle festgestellt hat, dass die primäre Registrierungsstelle wieder verfügbar ist, leitet der Sicherungsregistrierungsstellenpool Failoverclients an ihren primären Pool um.
 
@@ -76,9 +76,9 @@ Die folgenden Anforderungen und Empfehlungen für die Implementierung von VoIP-A
 
 - Jeder zentrale Standort muss über einen Registrierungspool mit mindestens einer Registrierung verfügen.
 
-- Jeder Registrierungsstellenpool muss mithilfe des DNS-Lastenausgleichs, des Hardwarelastenausgleichs oder mit beiden Lastenausgleichsgeräten ausgeglichen werden. Ausführliche Informationen zum Planen der Lastenausgleichskonfiguration finden Sie unter ["Load balancing requirements for Skype for Business".](../../plan-your-deployment/network-requirements/load-balancing.md)
+- Jeder Registrierungsstellenpool muss mithilfe des DNS-Lastenausgleichs, hardwarebasierten Lastenausgleichs oder beider Lastenausgleichsgeräte lastenausgleicht werden. Ausführliche Informationen zum Planen der Lastenausgleichskonfiguration finden Sie unter [Lastenausgleichsanforderungen für Skype for Business](../../plan-your-deployment/network-requirements/load-balancing.md).
 
-- Jeder Benutzer muss einem primären Registrierungsstellenpool zugewiesen werden, indem entweder das Cmdlet Skype for Business Server Verwaltungsshell **set-CsUser** oder die Skype for Business Server Systemsteuerung verwendet wird.
+- Jeder Benutzer muss einem primären Registrierungsstellenpool zugewiesen werden, indem entweder das cmdlet Skype for Business Server Management Shell **set-CsUser** oder die Skype for Business Server Systemsteuerung verwendet wird.
 
 - Der primäre Registrierungspool muss über einen einzelnen Sicherungsregistrierungspool an einem anderen zentralen Standort verfügen.
 
@@ -129,7 +129,7 @@ Abhängig von ihrer Konfiguration können die folgenden VoIP-Funktionen beim Aus
 
   - Ändern Sie DNS-SRV-Einträge so, dass die Exchange UM-Server am zentralen Standort auf Exchange UM-Sicherungsserver an einem anderen Standort verweisen.
 
-  - Konfigurieren Sie den Exchange UM-Wählplan jedes Benutzers so, dass er Exchange UM-Server am zentralen Standort und am Sicherungsstandort enthält, aber legen Sie die Sicherung Exchange UM-Server als deaktiviert an. Wenn der primäre Standort nicht mehr verfügbar ist, muss der Exchange Administrator die Exchange UM-Server am Sicherungsstandort als aktiviert markieren.
+  - Konfigurieren Sie den Exchange UM-Wählplan jedes Benutzers so, dass er Exchange UM-Server sowohl am zentralen Standort als auch am Sicherungsstandort enthält, aber legen Sie die Sicherung Exchange UM-Server als deaktiviert an. Wenn der primäre Standort nicht mehr verfügbar ist, muss der Exchange Administrator die Exchange UM-Server am Sicherungsstandort als aktiviert markieren.
 
     Wenn keine der vorherigen Lösungen möglich ist, ist Exchange UM für den Fall, dass der zentrale Standort nicht mehr verfügbar ist, nicht verfügbar.
 
@@ -159,7 +159,7 @@ Wenn Sie Ausfallsicherheit für Zweigstellen bereitstellen möchten, d. b. hohe 
 
 - Survivable Branch Server
 
-- Eine vollständige Skype for Business Server Bereitstellung am Zweigstellenstandort
+- Vollständige Skype for Business Server Bereitstellung am Zweigstellenstandort
 
 Dieses Handbuch unterstützt Sie bei der Auswertung, welche Ausfallsicherheitslösung am besten für Ihre Organisation geeignet ist. Zudem erfahren Sie, welche PSTN-Anbindung für Ihre Ausfallsicherheitslösung verwendet werden sollte. Darüber hinaus erhalten Sie Unterstützung bei der Vorbereitung auf die Bereitstellung der gewählten Lösung, indem die Voraussetzungen und andere Planungsaspekte erläutert werden.
 
@@ -213,8 +213,8 @@ Wenn Sie sich zur Bereitstellung von Ausfallsicherheit für Zweigstellenstandort
 |**Wenn Sie...**|**Empfehlung**|
 |:-----|:-----|
 |Host mit 25 bis 1.000 Benutzern am Zweigstellenstandort, wobei eine vollständige Bereitstellung nicht rentabel ist oder kein administrativer Support zur Verfügung steht  <br/> |Survivable Branch Appliance  <br/> Die Survivable Branch Appliance ist ein Branchenstandard-Blattserver mit einer Skype for Business Server-Registrierungsstelle und einem Vermittlungsserver, der auf Windows Server 2008 R2 ausgeführt wird. Die Survivable Branch Appliance enthält auch ein PSTN-Gateway (Public Switched Telephone Network). Qualifizierte Drittanbietergeräte (entwickelt von Microsoft-Partnern im Programm zur SBA-Qualifizierung/-Zertifizierung) bieten bei einem WAN-Ausfall eine dauerhafte PSTN-Verbindung (Public Switched Telephone Network, Telefonfestnetz), es werden jedoch keine ausfallsicheren Anwesenheits- und Konferenzfeatures bereitgestellt, da diese Features von den Front-End-Servern am zentralen Standort abhängen.  <br/> Ausführliche Informationen zu Survivable Branch Appliances finden Sie weiter unten in diesem Thema unter "Survivable Branch Appliance Details".  <br/> **Hinweis:** Wenn Sie auch einen SIP-Trunk mit Ihrer Survivable Branch Appliance verwenden möchten, wenden Sie sich an den Survivable Branch Appliance-Anbieter, um zu erfahren, welcher Dienstanbieter für Ihre Organisation am besten geeignet ist. <br/> |
-|Hosten sie zwischen 1000 und 2000 Benutzern an Ihrem Zweigstellenstandort, verfügen über keine ausfallsichere WAN-Verbindung und verfügen über geschulte Skype for Business Server Administratoren.  <br/> |Survivable Branch Server oder zwei Survivable Branch Appliances.  <br/> Der Survivable Branch Server ist ein Windows Server, der bestimmte Hardwareanforderungen erfüllt, auf dem Skype for Business Server Registrierungsstellen- und Vermittlungsserversoftware installiert ist. Der Server muss entweder über ein PSTN-Gateway oder einen SIP-Trunk mit einem Telefoniedienstanbieter verbunden sein.  <br/> Ausführliche Informationen zu Survivable Branch Server finden Sie weiter unten in diesem Thema unter "Survivable Branch Server Details".  <br/> |
-|Wenn Sie Anwesenheits- und Konferenzfunktionen zusätzlich zu VoIP-Funktionen für bis zu 5000 Benutzer benötigen und Skype for Business Server Administratoren geschult haben  <br/> |Führen Sie statt einer Zweigstellenbereitstellung eine Bereitstellung als zentraler Standort mit einem Standard Edition-Server durch.  <br/> Eine umfassende Skype for Business Server-Bereitstellung bietet eine kontinuierliche PSTN-Verbindung sowie ausfallsichere Anwesenheits- und Konferenzfunktionen im Falle eines WAN-Ausfalls.  <br/> |
+|Hosten sie zwischen 1000 und 2000 Benutzern an Ihrem Zweigstellenstandort, verfügen über keine ausfallsichere WAN-Verbindung und haben geschulte Skype for Business Server Administratoren zur Verfügung  <br/> |Survivable Branch Server oder zwei Survivable Branch Appliances.  <br/> Der Survivable Branch Server ist ein Windows Server, der bestimmte Hardwareanforderungen erfüllt, auf dem Skype for Business Server Registrierungsstellen- und Vermittlungsserversoftware installiert ist. Der Server muss entweder über ein PSTN-Gateway oder einen SIP-Trunk mit einem Telefoniedienstanbieter verbunden sein.  <br/> Ausführliche Informationen zu Survivable Branch Server finden Sie weiter unten in diesem Thema unter "Survivable Branch Server Details".  <br/> |
+|Wenn Sie Anwesenheits- und Konferenzfunktionen zusätzlich zu VoIP-Funktionen für bis zu 5.000 Benutzer benötigen und Skype for Business Server Administratoren geschult haben  <br/> |Führen Sie statt einer Zweigstellenbereitstellung eine Bereitstellung als zentraler Standort mit einem Standard Edition-Server durch.  <br/> Eine umfassende Skype for Business Server-Bereitstellung bietet eine kontinuierliche PSTN-Verbindung sowie ausfallsichere Anwesenheits- und Konferenzfunktionen im Falle eines WAN-Ausfalls.  <br/> |
 
 #### <a name="resiliency-topologies"></a>Topologien zur Bereitstellung von Ausfallsicherheit
 
@@ -282,12 +282,12 @@ Es wird empfohlen, eine separate VoIP-Richtlinie (Voice over Internet Protocol) 
 > [!IMPORTANT]
 > Beim Erstellen einer Alternativroute für eine Zweigstelle empfiehlt es sich, der Zweigstellenbenutzerrichtlinie zwei PSTN-Verwendungsdatensätze hinzuzufügen und ihnen jeweils separate Routen zuzuweisen. Die erste oder primäre Route leitet Anrufe an das Gateway weiter, das der Survivable Branch Appliance (SBA) oder dem Branch-Server zugeordnet ist. Die zweite oder Sicherungsroute leitet Anrufe an das Gateway am zentralen Standort weiter. Beim Leiten von Anrufen probiert die SBA oder der Zweigstellenserver alle dem ersten PSTN-Verwendungsdatensatz zugewiesenen Routen aus, bevor der zweite Verwendungsdatensatz verwendet wird.
 
-Um sicherzustellen, dass eingehende Anrufe an Zweigstellenbenutzer diese Benutzer erreichen, wenn das Zweigstellengateway oder die Windows Komponente des Survivable Branch Appliance-Standorts nicht verfügbar ist (z. B. wenn die Survivable Branch Appliance oder das Zweigstellengateway zur Wartung ausgefallen sind), erstellen Sie eine Failoverroute auf dem Gateway (oder arbeiten Sie mit Ihrem DID-Anbieter (Direct Inward Dialing) zusammen, um eingehende Anrufe an den Sicherungsregistrierungsstellenpool im zentralen Registrierungsstellenpool umzuleiten. Website. Von dort aus werden die Anrufe über die WAN-Verbindung an Zweigstellenbenutzer weitergeleitet. Stellen Sie sicher, dass die Route Nummern übersetzt, um die zulässigen Telefonnummernformate des PSTN-Gateways oder eines anderen Trunkpeers zu erfüllen. Ausführliche Informationen zum Erstellen einer Failoverroute finden Sie unter [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). Erstellen Sie außerdem Wählpläne auf Dienstebene für den Trunkt, der dem Gateway an der Zweigstelle zugeordnet ist, damit eingehende Anrufe normalisiert werden. Wenn Sie zwei Survivable Branch Appliances an einem Zweigstellenstandort haben, können Sie für beide einen Wählplan auf Standortebene erstellen, es sei denn, es ist ein separater Plan auf Serviceebene für jeden erforderlich.
+Um sicherzustellen, dass eingehende Anrufe an Zweigstellenbenutzer diese Benutzer erreichen, wenn das Zweigstellengateway oder die Windows Komponente des Survivable Branch Appliance-Standorts nicht verfügbar ist (was z. B. passieren würde, wenn die Survivable Branch Appliance oder das Zweigstellengateway zur Wartung ausgefallen wäre), erstellen Sie eine Failoverroute auf dem Gateway (oder arbeiten Sie mit Ihrem DID-Anbieter (Direct Inward Dialing) zusammen, um eingehende Anrufe an den Sicherungsregistrierungspool am zentralen Standort umzuleiten. Von dort aus werden die Anrufe über die WAN-Verbindung an Zweigstellenbenutzer weitergeleitet. Stellen Sie sicher, dass die Route Nummern übersetzt, um die zulässigen Telefonnummernformate des PSTN-Gateways oder eines anderen Trunkpeers zu erfüllen. Ausführliche Informationen zum Erstellen einer Failoverroute finden Sie unter [Configuring a Failover Route](/previous-versions/office/lync-server-2013/lync-server-2013-configuring-a-failover-route). Erstellen Sie außerdem Wählpläne auf Dienstebene für den Trunkt, der dem Gateway an der Zweigstelle zugeordnet ist, damit eingehende Anrufe normalisiert werden. Wenn Sie zwei Survivable Branch Appliances an einem Zweigstellenstandort haben, können Sie für beide einen Wählplan auf Standortebene erstellen, es sei denn, es ist ein separater Plan auf Serviceebene für jeden erforderlich.
 
 > [!NOTE]
 > Um den Verbrauch der Ressourcen eines zentralen Standorts durch Zweigstellenbenutzer zu ermitteln, die für Anwesenheits-, Konferenz- oder Failoverfunktionen vom zentralen Standort abhängen, sollten Sie jeden Zweigstellenbenutzer so betrachten, als wäre er für den zentralen Standort registriert. Es gibt derzeit keine Beschränkungen für die Anzahl der Zweigstellenbenutzer, einschließlich der Benutzer, die bei einer Survivable Branch Appliance registriert sind.
 
-Es empfiehlt sich außerdem, einen Wählplan und eine VoIP-Richtlinie auf Benutzerebene zu erstellen und diese dann den Zweigstellenbenutzern zuzuweisen. Ausführliche Informationen finden Sie unter ["Erstellen oder Ändern eines Wählplans in Skype for Business Server"](../../deploy/deploy-enterprise-voice/dial-plans.md) und ["Erstellen der VoIP-Routingrichtlinie für Zweigstellenbenutzer"](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users) in der Bereitstellungsdokumentation.
+Es empfiehlt sich außerdem, einen Wählplan und eine VoIP-Richtlinie auf Benutzerebene zu erstellen und diese dann den Zweigstellenbenutzern zuzuweisen. Ausführliche Informationen finden [Sie unter "Erstellen oder Ändern eines Wählplans in Skype for Business Server](../../deploy/deploy-enterprise-voice/dial-plans.md)" und ["Erstellen der VoIP-Routingrichtlinie für Zweigstellenbenutzer](/previous-versions/office/lync-server-2013/lync-server-2013-create-the-voip-routing-policy-for-branch-users)" in der Bereitstellungsdokumentation.
 
 #### <a name="routing-extension-numbers"></a>Weiterleiten von Durchwahlnummern
 
@@ -314,13 +314,13 @@ In diesem Szenario muss die ausgehende Übersetzungsregel, wenn der Trunkpeer, d
 
 |**Beschreibung**|**Vergleichsmuster**|**Übersetzung**|**Beispiel**|
 |:-----|:-----|:-----|:-----|
-|Entfernt die Durchwahl von Telefonnummern mit Durchwahlnummern  <br/> |^\+(\d \* ); ext=(\d \* )$  <br/> |+1 USD  <br/> |+14255550123;ext=10001 wird in +14255550123 übersetzt  <br/> |
+|Entfernt die Durchwahl von Telefonnummern mit Durchwahlnummern  <br/> |^\+(\d\*); ext=(\d\*)$  <br/> |+1 USD  <br/> |+14255550123;ext=10001 wird in +14255550123 übersetzt  <br/> |
 
 Unabhängig davon, ob eine WAN-Verbindung verfügbar ist oder nicht, wenn Ihre Organisation keine DID-Nummern für einzelne Benutzer konfiguriert hat und der Anschluss-URI für einen Benutzer die Telefonnummer Ihrer Organisation und die eindeutige Durchwahlnummer des Benutzers enthält, müssen Sie den Telefonnummern-Anschluss-URI Ihrer Organisation mit einer Nummer konfigurieren, die vom Trunkpeer oder PSTN-Gateway am Zweigstellenstandort erreichbar ist. Sie müssen auch den Telefonnummern-Anschluss-URI Ihrer Organisation so konfigurieren, dass er eine eigene eindeutige Erweiterung für Anrufe enthält, die an diese Nummer weitergeleitet werden.
 
 #### <a name="preparing-for-voice-mail-survivability"></a>Vorbereiten der Ausfallsicherheit für VoIP-Funktionen
 
-Exchange Unified Messaging (UM) wird in der Regel nur an einem zentralen Standort und nicht an Zweigstellen installiert. Ein Anrufer sollte auch dann eine Voicemailnachricht hinterlassen können, wenn die WAN-Verbindung zwischen Zweigstelle und zentralem Standort nicht verfügbar ist. Daher müssen beim Konfigurieren des Anschluss-URI für die Exchange Um-Telefonnummer für die automatische Telefonzentrale, die Voicemail für Zweigstellenbenutzer bereitstellt, neben der VoIP-Richtlinie, dem Wählplan und den Normalisierungsregeln, die für diese Voicemailnummer gelten, besondere Überlegungen berücksichtigt werden.
+Exchange Unified Messaging (UM) wird in der Regel nur an einem zentralen Standort und nicht an Zweigstellen installiert. Ein Anrufer sollte auch dann eine Voicemailnachricht hinterlassen können, wenn die WAN-Verbindung zwischen Zweigstelle und zentralem Standort nicht verfügbar ist. Daher sind beim Konfigurieren des Anschluss-URI für die Exchange Um-Telefonzentrale, die Voicemail für Zweigstellenbenutzer bereitstellt, besondere Überlegungen erforderlich, zusätzlich zur VoIP-Richtlinie, dem Wählplan und den Normalisierungsregeln, die für diese Voicemailnummer gelten.
 
 Survivable Branch Appliances (SBAs) und Survivable Branch Server bieten Branch-Benutzern während eines WAN-Ausfalls eine Voicemail-Survivability. Insbesondere wenn Sie eine Survivable Branch Appliance oder einen Survivable Branch Server verwenden und das WAN nicht mehr verfügbar ist, leitet der SBA- oder Survivable Branch Server unbeantwortete Anrufe über das PSTN an Exchange UM am zentralen Standort um. Mit einem SBA- oder Survivable Branch-Server können Benutzer während eines WAN-Ausfalls auch Voicemailnachrichten über das PSTN abrufen. Schließlich warteschlangen die Survivable Branch Appliance oder der Survivable Branch Server während eines WAN-Ausfalls Benachrichtigungen über verpasste Anrufe in die Warteschlange und laden sie dann auf den Exchange UM-Server hoch, wenn das WAN wiederhergestellt wird. Um sicherzustellen, dass die Voicemailumrouting ausfallsicher ist, müssen Sie der Hostdatei auf dem Survivable Branch Server einen Eintrag für den FQDN des zentralen Standortpools und einen Eintrag für den Edgeserver-FQDN hinzufügen. Andernfalls kann es bei der DNS-Auflösung zu einem Timeout kommen, wenn an der Zweigstelle kein DNS-Server vorhanden ist.
 
@@ -347,13 +347,13 @@ Erforderliche Hardware und Software ist in die Survivable Branch Appliance integ
 Wenn sich die DNS-Server des Unternehmens nur an zentralen Standorten befinden, können Zweigstellenbenutzer während eines WAN-Ausfalls keine Verbindung mit ihnen herstellen, und daher schlägt Skype for Business Server Ermittlung fehl, die den DNS-SRV-Ressourceneintrag (Service (SRV) verwendet. Damit eine sofortige Umleitung während eines WAN-Ausfalls gewährleistet ist, müssen DNS-Einträge am Zweigstellenstandort zwischengespeichert werden. Wenn der Zweigstellenrouter die DNS-Zwischenspeicherung unterstützt, aktivieren Sie sie. Sie können auch einen DNS-Server in der Zweigstelle bereitstellen. Dies kann ein eigenständiger Server oder eine Version der Survivable Branch Appliance sein, die DNS-Funktionen unterstützt. Weitere Informationen erhalten Sie von Ihrem Survivable Branch Appliance-Anbieter.
 
 > [!NOTE]
-> Es ist nicht erforderlich, an jedem Zweigstellenstandort einen Domänencontroller zu verwenden. Die Survivable Branch Appliance authentifiziert Clients mithilfe eines speziellen Zertifikats, das der Client als Antwort auf die Zertifikatanforderung des Clients sendet, wenn er sich anmeldet.
+> Es ist nicht erforderlich, an jedem Zweigstellenstandort einen Domänencontroller zu verwenden. Die Survivable Branch Appliance authentifiziert Clients mithilfe eines speziellen Zertifikats, das der Client als Reaktion auf die Zertifikatanforderung des Clients sendet, wenn er sich anmeldet.
 
 Skype for Business clients can discover the Skype for Business Server by using DHCP Option 120 (SIP Registrar Option). Dies ist mit einer von zwei Konfigurationen möglich:
 
 - Konfigurieren Sie den DHCP-Server am Zweigstellenstandort so, dass er auf DHCP 120-Abfragen antwortet, die den FQDN der Registrierungsstelle auf der Survivable Branch Appliance oder dem Survivable Branch Server zurückgeben.
 
-- Aktivieren Sie Skype for Business Server DHCP. Wenn dies aktiviert ist, antwortet die Skype for Business Server-Registrierungsstelle auf DHCP Option 120-Abfragen. Beachten Sie, dass die Registrierung nicht auf andere DHCP-Abfragen als DHCP-Option 120 reagiert.
+- Aktivieren Sie Skype for Business Server DHCP. Wenn dies aktiviert ist, antwortet die Skype for Business Server Registrierungsstelle auf DHCP-Option 120-Abfragen. Beachten Sie, dass die Registrierung nicht auf andere DHCP-Abfragen als DHCP-Option 120 reagiert.
 
 Zusätzlich sollten für größere Zweigstellenstandorte mit mehreren Subnetzen DHCP-Relay-Agents aktiviert werden, um Abfragen der DHCP-Option 120 an den DHCP Server (Konfiguration 1) oder die Registrierung (Konfiguration 2) weiterzuleiten.
 
@@ -361,11 +361,11 @@ Schließlich müssen Zweigstellenbenutzer für Enterprise-VoIP konfiguriert und 
 
 #### <a name="requirements-for-survivable-branch-servers"></a>Anforderungen für Survivable Branch Server
 
-Die Anforderungen für Survivable Branch-Server sind identisch mit den Anforderungen für einen Front-End-Server. Ausführliche Informationen finden Sie unter [Serveranforderungen für Skype for Business Server 2015.](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)
+Die Anforderungen für Survivable Branch-Server sind identisch mit den Anforderungen für einen Front-End-Server. Ausführliche Informationen finden Sie unter ["Server requirements for Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)".
 
-#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Anforderungen für Full-Scale Skype for Business Server Branch-Site-Bereitstellungen
+#### <a name="requirements-for-full-scale-skype-for-business-server-branch-site-deployments"></a>Anforderungen für Full-Scale Skype for Business Server Branch-Site Bereitstellungen
 
-Ausführliche Informationen finden Sie unter ["Serveranforderungen für Skype for Business Server 2015"](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md) in der Planungsdokumentation.
+Ausführliche Informationen finden Sie unter ["Serveranforderungen für Skype for Business Server 2015](../../plan-your-deployment/requirements-for-your-environment/server-requirements.md)" in der Planungsdokumentation.
 
 ### <a name="example-configuring-a-failover-route"></a>Beispiel: Konfigurieren einer Failoverroute
 
@@ -384,9 +384,9 @@ Ausführliche Informationen finden Sie unter ["Serveranforderungen für Skype fo
 
 | **Name der Route**             | **Nummernmuster** | **Telefonverwendung**         | **Kofferraum**                                 | **Gateway**                                     |
 |:---------------------------|:-------------------|:------------------------|:------------------------------------------|:------------------------------------------------|
-| Route für Ortsgespräche am Standort Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d {7} )$  <br/>                       | Lokal  <br/> RedmondLocal  <br/>                |
-| Route für Ortsgespräche am Standort Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d {7} )$  <br/>                       | Lokal  <br/>                                    |
-| Universalroute  <br/>     | ^\+? (\d \* ) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Seattle-GW1  <br/> |
-| Route für Benutzer in Dallas  <br/>  | ^\+? (\d \* ) $  <br/> | SeattleUsers  <br/>      | Trunk3  <br/>                             | Seattle-GW1  <br/>                               |
+| Route für Ortsgespräche am Standort Redmond  <br/> | ^\+1(425           | 206                     | 253)(\d{7})$  <br/>                       | Lokal  <br/> RedmondLocal  <br/>                |
+| Route für Ortsgespräche am Standort Dallas  <br/>  | ^\+1(972           | 214                     | 469)(\d{7})$  <br/>                       | Lokal  <br/>                                    |
+| Universalroute  <br/>     | ^\+? (\d\*) $  <br/> | GlobalPSTNHopoff  <br/> | Trunk1  <br/> Trunk2  <br/> Trunk3  <br/> | Red-GW1  <br/> Red-GW2  <br/> Seattle-GW1  <br/> |
+| Route für Benutzer in Dallas  <br/>  | ^\+? (\d\*) $  <br/> | SeattleUsers  <br/>      | Trunk3  <br/>                             | Seattle-GW1  <br/>                               |
 
 In Tabelle 1 wird die Telefonverwendung „GlobalPSTNHopoff“ nach der Telefonverwendung „DallasUsers“ zur Anrufrichtlinie für Dallas hinzugefügt. Daher können für Anrufe, für die die Anrufrichtlinie für Dallas gilt, Routen verwendet werden, die für „GlobalPSTNHopoff“ konfiguriert sind, wenn eine Route für die Telefonverwendung „DallasUsers“ nicht verfügbar ist.

@@ -1,8 +1,8 @@
 ---
 title: Reaktionsgruppengruppe
 ms.reviewer: ''
-ms.author: v-mahoffman
-author: HowlinWolf-92
+ms.author: serdars
+author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
@@ -15,22 +15,22 @@ ms.localizationpriority: medium
 ms.assetid: b8bd4c3f-3d32-42b2-9712-2d0f159577d8
 ROBOTS: NOINDEX, NOFOLLOW
 description: Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppenanrufen bestimmt sind.
-ms.openlocfilehash: 276bdd91edc34e20b47429ae9364c5068ddb8ce5
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 52184e7a3c9d95d8aa7d2121ebe5741047d81374
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60840437"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401069"
 ---
 # <a name="response-groups-group"></a>Reaktionsgruppen: Gruppe
 
 Reaktionsgruppen bestehen aus Agentgruppen, Warteschleifen und Workflows. Eine Agentgruppe ist eine Gruppe von Personen, die für die Beantwortung von Reaktionsgruppenanrufen bestimmt sind.
 
-Auf der Seite **"Reaktionsgruppengruppe"**  -   wird eine Liste aller Agentgruppen angezeigt, die für Ihre Organisation definiert sind.
+Auf der Seite **"Reaktionsgruppengruppe** - **"** wird eine Liste aller Agentgruppen angezeigt, die für Ihre Organisation definiert sind.
 
 ## <a name="tasks-you-can-perform"></a>Mögliche Aufgaben
 
-Auf der Seite **"Reaktionsgruppengruppe"** können Sie die folgenden Aufgaben  -   ausführen:
+Auf der Seite **"Reaktionsgruppengruppe** - " können Sie die folgenden Aufgaben ausführen:
 
 - Erstellen einer neuen Agentgruppe
 
@@ -50,9 +50,9 @@ In der folgenden Liste sind die Befehle der Seite beschrieben.
 
 In der folgenden Liste sind die Felder der Seite beschrieben.
 
-- **Name** Der eindeutige Name, der die Agentgruppe identifiziert.
+- **Namen** Der eindeutige Name, der die Agentgruppe identifiziert.
 
-- **Dienst** Der **ApplicationServer-Dienst,** der die Agentgruppe hostet.
+- **Service** Der **ApplicationServer-Dienst** , der die Agentgruppe hostet.
 
 - **Beschreibung** Die Beschreibung für die Agentgruppe.
 

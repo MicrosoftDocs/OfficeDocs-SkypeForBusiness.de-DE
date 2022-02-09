@@ -1,22 +1,27 @@
 ---
 title: Vorbereiten des Schemas
-ms.reviewer: null
+ms.reviewer: ''
 ms.author: serdars
 author: SerdarSoysal
 manager: serdars
 audience: ITPro
 ms.topic: article
 ms.custom:
-  - ms.lync.dep.DeployMainSchemaPrep
+- ms.lync.dep.DeployMainSchemaPrep
 ms.prod: skype-for-business-itpro
 f1.keywords:
-  - CSH
+- CSH
 ms.localizationpriority: medium
 ms.assetid: 337aa234-c5f3-4468-a047-2023848e942c
-ROBOTS: 'NOINDEX, NOFOLLOW'
-description: 'Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Bereitstellungs-Assistenten für Skype for Business Server aus. Klicken Sie auf Ausführen, um die Schemavorbereitung zu beginnen.'
+ROBOTS: NOINDEX, NOFOLLOW
+description: Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Bereitstellungs-Assistenten für Skype for Business Server aus. Klicken Sie auf Ausführen, um die Schemavorbereitung zu beginnen.
+ms.openlocfilehash: 43496aa2b9d3ec40f4c79aed0e20824ee7ef1494
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62404327"
 ---
-
 # <a name="prepare-schema"></a>Vorbereiten des Schemas
  
 Um das Schema für Active Directory Domain Services vorzubereiten, führen Sie den Schritt "Schema vorbereiten" im Bereitstellungs-Assistenten für Skype for Business Server aus. Klicken Sie auf **Ausführen**, um die Schemavorbereitung zu beginnen. Im Schritt "Schema vorbereiten" werden die bereitgestellten Schemadefinitionsdateien im Verzeichnis "\Programme\Skype for Business Server 2019\Bereitstellung\Setup" auf dem System gelesen, auf dem der Bereitstellungs-Assistent ausgeführt wird. Diese Dateien stehen auch auf den Installationsmedien im Verzeichnis "\Support\Schema" zur Verfügung. Der Schritt "Schema vorbereiten" dient zum Erweitern des Schemas und Melden des Prozessstatus. Ferner wird in diesem Schritt der Abschluss des Prozesses gemeldet. Auf dem Zusammenfassungsbildschirm können Sie die Protokolle des Prozesses überprüfen. Vergewissern Sie sich mithilfe der Protokolle, dass die Vorbereitung erfolgreich abgeschlossen wurde.
