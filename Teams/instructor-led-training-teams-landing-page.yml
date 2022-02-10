@@ -62,9 +62,9 @@ additionalContent:
   sections:
     - title: Kurse
       items:
-        - title: Zertifizierung für Teamspezialisten
+        - title: Teamspezialisten Learning Pfad
           summary: 'Zusammenarbeit ist eine unerlässliche Fähigkeit für die heutigen Arbeitskraft. Erfahren Sie, wie die robusten Features in Microsoft Teams Ihnen ermöglichen, in Verbindung zu bleiben und effizienter mit Ihrem Team zusammen zu arbeiten.'
           url: /learn/paths/teamwork-specialist
-        - title: Zertifizierung von Service Adoption Specialist
-          summary: 'Im Zertifizierungskurs Microsoft Service Adoption Specialist finden Sie Teams. Erfahren Sie, wie Sie die Einführung von Microsoft-Dienste in Ihrer Organisation vordingen.'
+        - title: Service Adoption Specialist Learning Path
+          summary: 'Der Microsoft Service Adoption Specialist Learning Path bietet Teams und andere Microsoft 365 Dienste. Erfahren Sie, wie Sie die Einführung von Microsoft-Dienste in Ihrer Organisation vordrangen.'
           url: /learn/paths/m365-service-adoption

@@ -1,6 +1,6 @@
 ---
 title: Aktivieren von Benutzern für das Direkte Routing
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -16,46 +16,45 @@ appliesto:
 f1.keywords:
 - NOCSH
 description: Hier erfahren Sie, wie Sie Benutzer für das direkte Microsoft Teams Telefon aktivieren.
-ms.openlocfilehash: 1fc45484dfe2c0b78674f5a6631fd3f1001196dd
-ms.sourcegitcommit: bc686eedb37e565148d0c7a61ffa865aaca37d20
+ms.openlocfilehash: f3e5d4a83850c7f934bd5cf299822916656db7d6
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/24/2022
-ms.locfileid: "62180948"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518627"
 ---
 # <a name="enable-users-for-direct-routing-voice-and-voicemail"></a>Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail
 
 In diesem Artikel wird beschrieben, wie Sie Benutzer für Direct-Routing aktivieren. Dies ist Schritt 2 der folgenden Schritte zum Konfigurieren von Direct-Routing:
 
-- Schritt 1: [Verbinden des SBC mit Microsoft-Telefon System und Überprüfen der Verbindung](direct-routing-connect-the-sbc.md) 
-- **Schritt 2. Aktivieren von Benutzern für Direct Routing, Voicemail**   und Voicemail (dieser Artikel)
+- Schritt 1: [Verbinden des SBC mit Telefonsystem und Überprüfen der Verbindung](direct-routing-connect-the-sbc.md) 
+- **Schritt 2. Aktivieren von Benutzern für Direct Routing, Voicemail und Voicemail**   (dieser Artikel)
 - Schritt 3: [Konfigurieren von Voice Routing](direct-routing-voice-routing.md)
 - Schritt 4: [Übersetzen von Zahlen in ein alternatives Format](direct-routing-translate-numbers.md) 
 
 
-Informationen zu allen zum Einrichten von Direct-Routing erforderlichen Schritten finden Sie unter [Konfigurieren von Direct-Routing.](direct-routing-configure.md)
+Informationen zu allen erforderlichen Schritten zum Einrichten von Direct-Routing finden Sie unter [Konfigurieren von Direct-Routing](direct-routing-configure.md).
 
 Wenn Sie bereit sind, Benutzer für Direct-Routing zu aktivieren, führen Sie die folgenden Schritte aus: 
 
-1. Erstellen Sie einen Benutzer in Microsoft 365 oder Office 365, und weisen Sie eine Telefonsystem zu. 
-2. Stellen Sie sicher, dass der Benutzer in Skype for Business Online zu Hause ist. 
-3. Konfigurieren Sie die Telefonnummer, und aktivieren Sie Enterprise-Voicemail. 
-4. Weisen Teams nur den Benutzer den Modus "Nur" zu.
+1. Erstellen Sie einen Benutzer in Microsoft 365, und weisen Sie eine Telefonsystem zu.  
+2. Konfigurieren Sie die Telefonnummer, und aktivieren Sie Enterprise-Voicemail. 
+3. Weisen Teams nur den Benutzer den Modus "Nur" zu.
 
 ## <a name="create-a-user-and-assign-the-license"></a>Erstellen eines Benutzers und Zuweisen der Lizenz
 
-Es gibt zwei Optionen zum Erstellen eines neuen Benutzers in Microsoft 365 oder Office 365. Microsoft empfiehlt Ihrer Organisation jedoch, eine Option zur Vermeidung von Routingproblemen zu wählen: 
+Es gibt zwei Optionen zum Erstellen eines neuen Benutzers in Microsoft 365. Microsoft empfiehlt Ihrer Organisation jedoch, eine Option zur Vermeidung von Routingproblemen zu wählen: 
 
-- Erstellen Sie den Benutzer im lokalen Active Directory, und synchronisieren Sie den Benutzer mit der Cloud. Weitere [Informationen finden Sie unter Integrieren Ihrer lokalen Verzeichnisse Azure Active Directory.](/azure/active-directory/connect/active-directory-aadconnect)
-- Erstellen Sie den Benutzer direkt in Microsoft 365 Admin Center. Weitere Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massen [hinzufügen Microsoft 365 - Office 365 – Administratorhilfe](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
+- Erstellen Sie den Benutzer im lokalen Active Directory, und synchronisieren Sie den Benutzer mit der Cloud. Weitere [Informationen finden Sie unter Integrieren Ihrer lokalen Verzeichnisse Azure Active Directory](/azure/active-directory/connect/active-directory-aadconnect).
+- Erstellen Sie den Benutzer direkt in Microsoft 365 Admin Center. Weitere [Informationen finden Sie unter Hinzufügen von einzelnen Benutzern oder Massen hinzufügen Microsoft 365 Oder Office 365 – Administratorhilfe](https://support.office.com/article/Add-users-individually-or-in-bulk-to-Office-365-Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec). 
 
-Wenn Ihre Skype for Business Online-Bereitstellung koexistent mit Skype for Business 2015 oder Lync 2010 oder 2013 lokal ist, besteht die einzige unterstützte Option in der Erstellung des Benutzers im lokalen Active Directory und dem Synchronisieren des Benutzers mit der Cloud (Option 1). 
+Wenn Ihre Skype for Business Online-Bereitstellung mit Skype for Business 2015 oder Lync 2010 oder 2013 lokal vorhanden ist, besteht die einzige unterstützte Option in der Erstellung des Benutzers im lokalen Active Directory und dem Synchronisieren des Benutzers mit der Cloud (Option 1). 
 
-Informationen zu den Lizenzanforderungen finden Sie unter [Lizenzierungs- und andere Anforderungen](direct-routing-plan.md#licensing-and-other-requirements) in [Planen von Direct Routing.](direct-routing-plan.md)
+Informationen zu den Lizenzanforderungen finden Sie unter [Lizenzierungs- und andere Anforderungen](direct-routing-plan.md#licensing-and-other-requirements) in [Planen von Direct Routing](direct-routing-plan.md).
 
 ## <a name="ensure-that-the-user-is-homed-online"></a>Sicherstellen, dass der Benutzer online zu Hause ist 
 
-Dieser Schritt bezieht sich auf Skype for Business Server Enterprise-VoIP Benutzer, die über Direct-Routing Teams werden.
+Dieser Schritt bezieht sich auf Skype for Business Server Enterprise-VoIP, die aktivierte Benutzer zu Direct-Routing Teams werden.
 
 Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie können dies überprüfen, indem Sie sich den Parameter RegistrarPool anschauen, der einen Wert in der Domäne "infra.lync.com muss. Microsoft empfiehlt (aber erfordert nicht), dass Sie den LineURI bei der Migration von Benutzern zu Direct-Routing von lokal in online Teams ändern. 
 
@@ -66,9 +65,9 @@ Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie kö
     ```PowerShell
     Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri
     ``` 
-    Wenn OnPremLineUriManuallySet auf False festgelegt ist und LineUri mit einer <E.164-Telefonnummer> ausgefüllt wird, wurde die Telefonnummer lokal zugewiesen und mit Microsoft 365 synchronisiert. Wenn Sie die Telefonnummer online verwalten möchten, bereinigen Sie den Parameter mit der lokalen Skype for Business-Verwaltungsshell, und synchronisieren Sie sie mit Microsoft 365, bevor Sie die Telefonnummer mithilfe von Skype for Business Online PowerShell konfigurieren. 
+    Wenn "OnPremLineUriManuallySet" auf False festgelegt ist und "LineUri" mit einer <E.164-Telefonnummer> ausgefüllt wird, wurde die Telefonnummer lokal zugewiesen und mit Microsoft 365 synchronisiert. Wenn Sie die Telefonnummer online verwalten möchten, bereinigen Sie den Parameter mit der lokalen Skype for Business-Verwaltungsshell, und synchronisieren Sie sie mit Microsoft 365, bevor Sie die Telefonnummer mithilfe von Teams PowerShell konfigurieren. 
 
-1. Aus Skype for Business der Verwaltungsshell den folgenden Befehl aus: 
+1. Aus Skype for Business-Verwaltungsshell den Folgenden aus: 
 
    ```PowerShell
    Set-CsUser -Identity "<User name>" -LineUri $null
@@ -76,7 +75,7 @@ Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie kö
  > [!NOTE]
  > Legen Sie EnterpriseVoiceEnabled nicht auf False fest, da dies nicht erforderlich ist. Dies kann zu Normalisierungsproblemen des Wählplans führen, wenn ältere Skype for Business-Telefone verwendet werden und die Mandanten-Hybridkonfiguration mit "UseOnPremDialPlan $True" festgelegt ist. 
     
-   Nachdem die Änderungen mit den änderungen synchronisiert Office 365 würde die erwartete Ausgabe von `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` wie hier sein:
+   Nachdem die Änderungen mit den änderungen synchronisiert Microsoft 365 würde die erwartete Ausgabe von `Get-CsOnlineUser -Identity "<User name>" | fl RegistrarPool,OnPremLineUriManuallySet,OnPremLineUri,LineUri` wie erwartet sein:
 
    ```console
    RegistrarPool                        : pool.infra.lync.com
@@ -85,13 +84,12 @@ Das direkte Routing setzt voraus, dass der Benutzer online zu Hause ist. Sie kö
    LineURI                              : 
    ```
  > [!NOTE]
- > Die Telefonattribute aller Benutzer müssen online verwaltet werden, bevor Sie die lokale Umgebung Skype for Business [werden.](/skypeforbusiness/hybrid/decommission-on-prem-overview) 
+ > Die Telefonattribute aller Benutzer müssen online verwaltet werden, bevor Sie ihre lokale [Umgebung Skype for Business werden](/skypeforbusiness/hybrid/decommission-on-prem-overview). 
 
 ## <a name="configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online"></a>Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voicemail und Online-Voicemail 
 
 Nachdem Sie den Benutzer erstellt und eine Lizenz zugewiesen haben, müssen Sie die Onlinetelefoneinstellungen des Benutzers konfigurieren. 
 
- 
 1. Verbinden einer Microsoft Teams PowerShell-Sitzung. 
 
 2. Wenn Sie die Telefonnummer des Benutzers lokal verwalten, lösen Sie den Befehl aus: 
@@ -118,6 +116,7 @@ Nachdem Sie den Benutzer erstellt und eine Lizenz zugewiesen haben, müssen Sie 
     ```
 
     Microsoft empfiehlt ,aber erfordert nicht, dass die Telefonnummer als vollständige E.164-Telefonnummer mit Landescode konfiguriert ist. Sie können Telefonnummern mit Erweiterungen konfigurieren. Diese Erweiterungen werden verwendet, um Benutzer zu suchen, wenn der Nachschlage nach der Basisnummer mehr als ein Ergebnis zurückgibt. Diese Funktion ermöglicht Es Unternehmen, Telefonnummern mit derselben Basisnummer und eindeutigen Erweiterungen zu konfigurieren. Damit die Suche erfolgreich ist, muss die Einladung die vollständige Anzahl mit der folgenden Erweiterung enthalten:
+    
     ```PowerShell
     To: <sip:+14255388701;ext=1001@sbc1.adatum.biz
     ```
@@ -128,11 +127,11 @@ Nachdem Sie den Benutzer erstellt und eine Lizenz zugewiesen haben, müssen Sie 
 
 ## <a name="configure-sending-calls-directly-to-voicemail"></a>Konfigurieren des direkten Sendens von Anrufen an Voicemail
 
-Mit Direct Routing können Sie den Anruf an einen Benutzer beenden und direkt an die Voicemail des Benutzers senden. Wenn Sie den Anruf direkt an die Voicemail senden möchten, fügen Sie undurchsichtig =app:voicemail an den URI-Header anfordern an. Beispiel: "sip:user@yourdomain.com;opaque=app:voicemail". Der Teams empfangen die Anrufbenachrichtigung nicht. Der Anruf wird direkt mit der Voicemail des Benutzers verbunden.
+Mit Direct Routing können Sie den Anruf an einen Benutzer beenden und direkt an die Voicemail des Benutzers senden. Wenn Sie den Anruf direkt an die Voicemail senden möchten, fügen Sie undurchsichtig =app:voicemail an den URI-Header anfordern an. Beispiel: "sip:user@yourdomain.com;opaque=app:voicemail". Der Teams empfangen die Anrufbenachrichtigung nicht, der Anruf wird direkt mit der Voicemail des Benutzers verbunden.
 
-## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Weisen Teams nur den Benutzern den Modus "Nur" zu, um sicherzustellen, dass Anrufe bei Microsoft Teams
+## <a name="assign-teams-only-mode-to-users-to-ensure-calls-land-in-microsoft-teams"></a>Weisen Teams nur dem Benutzer den Modus "Nur" zu, um sicherzustellen, dass Anrufe bei der Microsoft Teams
 
-Direct Routing setzt voraus, dass sich Benutzer im Teams-Modus befinden, um sicherzustellen, dass eingehende Anrufe im Client Teams werden. Um Benutzer in den Teams modus zu setzen, weisen Sie ihnen die Instanz "UpgradeToTeams" von TeamsUpgradePolicy zu. Weitere Informationen finden Sie unter [Upgradestrategien für IT-Administratoren.](upgrade-to-teams-on-prem-implement.md) Wenn Ihre Organisation Skype for Business Server oder Skype for Business Online verwendet, finden Sie im folgenden Artikel Informationen zur Interoperabilität zwischen Skype und Teams: Migration und Interoperabilität mit [Skype for Business.](migration-interop-guidance-for-teams-with-skype.md)
+Direct Routing setzt voraus, dass sich Benutzer im Teams-Modus befinden, um sicherzustellen, dass eingehende Anrufe im Client Teams werden. Um Benutzer in den Teams modus zu setzen, weisen Sie ihnen die Instanz "UpgradeToTeams" von TeamsUpgradePolicy zu. Weitere Informationen finden Sie unter [Upgradestrategien für IT-Administratoren](upgrade-to-teams-on-prem-implement.md). Wenn Ihre Organisation Skype for Business Server verwendet, finden Sie im folgenden Artikel Informationen zur Interoperabilität zwischen Skype und Teams: Migration und Interoperabilität mit [Skype for Business](migration-interop-guidance-for-teams-with-skype.md).
 
 ## <a name="see-also"></a>Mehr dazu
 

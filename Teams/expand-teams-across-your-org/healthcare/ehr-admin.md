@@ -1,5 +1,5 @@
 ---
-title: Virtuelle Besuche mit Teams - Integration in epische EHR
+title: Virtuelle Besuche mit Teams - Integration in die Epische EHR
 author: LanaChin
 ms.author: v-lanachin
 manager: samanro
@@ -8,40 +8,45 @@ ms.topic: conceptual
 ms.service: msteams
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: medium
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Healthcare
-  - microsoftcloud-healthcare
-  - m365solution-healthcare
-  - m365solution-scenario
+- M365-collaboration
+- Teams_ITAdmin_Healthcare
+- microsoftcloud-healthcare
+- m365solution-healthcare
+- m365solution-scenario
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.reviewer: ansantam
-description: 'Hier erfahren Sie, wie Sie den Connector Teams EHR integrieren, um es Anbietern im Gesundheitswesen in Ihrer Organisation zu ermöglichen, virtuelle Visiten mit Patienten oder anderen Anbietern in Teams direkt über das Epische EHR-System durchführen zu können.'
+description: Hier erfahren Sie, wie Sie den Connector Teams EHR integrieren, um es Anbietern im Gesundheitswesen in Ihrer Organisation zu ermöglichen, virtuelle Visiten mit Patienten oder anderen Anbietern in Teams direkt über das Epische EHR-System durchführen zu können.
+ms.openlocfilehash: 90a4b51fa1855fa7d680af80d4a47f9bf407d789
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518607"
 ---
+# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Virtuelle Besuche mit Teams - Integration in die Epische EHR
 
-# <a name="virtual-visits-with-teams---integration-into-epic-ehr"></a>Virtuelle Besuche mit Teams - Integration in epische EHR
-
-Der Microsoft Teams Connector für elektronische Krankenakten (EHR) erleichtert Klinikbetreibern die Einführung eines virtuellen Patientenbesuchs oder die Abstimmung mit einem anderen Anbieter in Microsoft Teams direkt aus dem Epischen EHR-System. Das auf der Microsoft 365-Cloud Teams-Programm ermöglicht einfache, sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung von HIPAA, HITECH-Zertifizierung und mehr unterstützt.
+Der Connector Microsoft Teams Electronic Health Record (EHR) erleichtert Klinik ihren Kliniken die Einführung eines virtuellen Patientenbesuchs oder die Abstimmung mit einem anderen Anbieter in Microsoft Teams direkt aus dem Epischen EHR-System. Das auf der Microsoft 365-Cloud Teams-Programm ermöglicht einfache, sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung von HIPAA, HITECH-Zertifizierung und mehr unterstützt.
 
 Die Kommunikations- und Zusammenarbeitsplattform von Teams macht es für Klinikisten einfach, die Unübersichtlichkeit fragmentierter Systeme zu durchschneiden, sodass sie sich auf die Bereitstellung der bestmöglichen Behandlung konzentrieren können. Mit dem Teams EHR-Verbinder können Sie:
 
-- Starten Teams virtuelle Besuche mit Ihrem Epischen EHR-System mit einem integrierten klinischen Workflow.
+- Starten Teams virtuelle Besuche aus Ihrem Epischen EHR-System mit einem integrierten klinischen Workflow.
 - Ermöglichen Sie es Patienten, an Teams Visiten über das Patientenportal oder per SMS teil zu nehmen.
 - Unterstützen Sie andere Szenarien für virtuelle Visite, z. B. Für mehrere Teilnehmer, Gruppenbesuche und Kundendienstdienste.
-- Schreiben Sie Metadaten über virtuelle Besuche Teams an das EHR-System zurück, um zu zeichnen, wenn Teilnehmer eine Verbindung herstellen, die Verbindung trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
+- Schreiben Sie Metadaten über virtuelle Besuche im EHR-System Teams, um zu aufzeichnen, wann Teilnehmer eine Verbindung herstellen, die Verbindung trennen und die automatische Überwachung und Aufbewahrung von Aufzeichnungen aktivieren.
 - Zeigen Sie Verbrauchsdatenberichte und anpassbare Informationen zur Anrufqualität für mit EHR verbundene Besuche an.
 
 Schauen Sie sich dieses Video an, um einen Überblick über das Verwalten virtueller Besuche über das EHR-Portal zu erhalten.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HAtn]
 
-In diesem Artikel wird beschrieben, wie Sie den Connector Teams EHR für die Integration in die Epische Plattform in Ihrer Gesundheitsorganisation einrichten und konfigurieren. Darüber hinaus erhalten Sie einen Überblick über Teams Erfahrung mit virtuellen Besuchen aus dem Epischen EHR-System.
+In diesem Artikel wird beschrieben, wie Sie den Connector Teams EHR für die Integration mit der epischen Plattform in Ihrer Organisation im Gesundheitswesen einrichten und konfigurieren. Außerdem erhalten Sie einen Überblick über die Erfahrung Teams virtuellen Besuche aus dem Epischen EHR-System.
 
 ## <a name="before-you-begin"></a>Bevor Sie beginnen
 
@@ -61,8 +66,8 @@ Lesen Sie die folgenden Informationen, um einen Überblick über den gesamten In
 
 Sie müssen den Zugriff auf die App Teams anfordern.
 
-1. Fordern Sie das Herunterladen der Teams-App im [Marketplace "Epische App-Obstplantage" an](https://apporchard.epic.com/Gallery?id=6153). Dadurch wird eine Anforderung von Epe an das Microsoft EHR-Connectorteam ausgelöst.
-1. Nachdem Sie Ihre Anforderung gestellt haben, senden Sie eine E-Mail an [TeamsForHealthcare@microsoft.com](mailto:TeamsForHealthcare@microsoft.com) mit dem Namen Ihrer Organisation, der Mandanten-ID und der E-Mail-Adresse Ihres epischen technischen Kontakts.
+1. Fordern Sie das Herunterladen der Teams-App im [Marketplace für epische App-Obstplantage an](https://apporchard.epic.com/Gallery?id=6153). Dadurch wird eine Anforderung von Epe an das Microsoft EHR-Connectorteam ausgelöst.
+1. Nachdem Sie Ihre Anforderung gestellt haben, senden Sie eine E-Mail [an TeamsForHealthcare@service.microsoft.com](mailto:teamsforhealthcare@service.microsoft.com) mit dem Namen Ihrer Organisation, der Mandanten-ID und der E-Mail-Adresse Ihres epischen technischen Kontakts.
 1. Das Microsoft EHR-Connectorteam antwortet auf Ihre E-Mail mit der Bestätigung der Aktivierung.
 
 ### <a name="review-the-epic-microsoft-teams-telehealth-integration-guide"></a>Lesen des Epic-Microsoft Teams zur Telehealth-Integration
@@ -87,7 +92,7 @@ Die Integrationsschritte werden von den folgenden Personen in Ihrer Organisation
 
 Der Microsoft 365 und Epischer Kundenanalyst können dieselbe Person sein.
 
-## <a name="set-up-the-teams-ehr-connector"></a>Einrichten des EHR Teams Verbinders
+## <a name="set-up-the-teams-ehr-connector"></a>Einrichten des Teams EHR-Verbinders
 
 Das Konnektor-Setup erfordert Folgendes:
 
@@ -99,7 +104,7 @@ Das Konnektor-Setup erfordert Folgendes:
 
 ### <a name="launch-the-ehr-connector-configuration-portal"></a>Starten des Konfigurationsportals für EHR-Connectors
 
-Um zu beginnen, startet Microsoft 365 Administrator das [Konfigurationsportal für den EHR-Connector](https://ehrconnector.teams.microsoft.com) und meldet sich mit seinen Anmeldeinformationen Microsoft 365 an.
+Um zu beginnen, startet ihr Microsoft 365-Administrator das [Konfigurationsportal für EHR-Connectors](https://ehrconnector.teams.microsoft.com) und meldet sich mit seinen Anmeldeinformationen Microsoft 365 an.
 
 Ihr Microsoft 365 kann eine einzelne Organisation oder mehrere Organisationen konfigurieren, um die Integration zu testen. Konfigurieren Sie die Test- und Produktions-URL im Konfigurationsportal. Stellen Sie sicher, dass Sie die Integration aus der Epe-Testumgebung testen, bevor Sie in die Produktion um stellen.
 
@@ -123,7 +128,7 @@ Als Nächstes führt Der Administrator Ihres Microsoft 365 die folgenden Schritt
 ### <a name="enable-sms-notifications-optional"></a>Aktivieren von SMS-Benachrichtigungen (optional)
 
 > [!NOTE]
-> SMS-Benachrichtigungen sind derzeit nur in den USA verfügbar. Wir arbeiten daran, dieses Feature in zukünftigen Versionen von Teams auch in anderen Regionen zur Verfügung zu stellen und werden diesen Artikel aktualisieren, wenn er verfügbar ist. 
+> SMS-Benachrichtigungen sind derzeit nur in den USA verfügbar. Wir arbeiten daran, dieses Feature in zukünftigen Versionen der Version Teams verfügbar zu machen und diesen Artikel zu aktualisieren. 
 
 Führen Sie diesen Schritt aus, wenn Ihre Organisation möchte, dass Microsoft SMS-Benachrichtigungen für Ihre Patienten verwaltet. Wenn Sie SMS-Benachrichtigungen aktivieren, erhalten Ihre Patienten Bestätigungs- und Erinnerungsmeldungen für geplante virtuelle Besuche.
 
@@ -144,7 +149,7 @@ Zum Aktivieren von SMS-Benachrichtigungen geht Microsoft 365 Administrator wie f
 
     Wählen **Sie Fertig** und dann Weiter **aus**.
 
-1. Wählen Sie zum Verknüpfen der Telefonnummer mit einer F ZAHL-Basis-URL **unter** Telefon SMS-Konfiguration  die Nummer aus. Verwenden Sie diese Option für jede F NICHT-Benachrichtigungsbasis-URL, für die Sie SMS-Benachrichtigungen aktivieren möchten.
+1. Zum Verknüpfen der Telefonnummer mit einer F ZAHL-Basis-URL wählen Sie **im Abschnitt SMS-Konfiguration unter** Telefon-Nummer die Nummer aus. Verwenden Sie diese Option für jede F NICHT-Benachrichtigungsbasis-URL, für die Sie SMS-Benachrichtigungen aktivieren möchten.
 
     :::image type="content" source="media/ehr-connector-epic-link-phone-number.png" alt-text="Screenshot, der zeigt, wie eine Telefonnummer mit einer F ZAHL-Basis-URL linkiert wird." lightbox="media/ehr-connector-epic-link-phone-number.png":::
 
@@ -159,11 +164,11 @@ Zum Aktivieren von SMS-Benachrichtigungen geht Microsoft 365 Administrator wie f
 
     Klicken Sie auf **Speichern**.
 
-1. Wählen Hochladen **Zertifikat aus,** um ein Zertifikat für einen öffentlichen Schlüssel hochzuladen. Sie müssen für jede Umgebung ein codiertes CER-Zertifikat von Base64 (nur öffentlichem Schlüssel) hochladen.
+1. Wählen **Hochladen Zertifikat aus,** um ein Zertifikat für einen öffentlichen Schlüssel hochzuladen. Sie müssen für jede Umgebung ein codiertes CER-Zertifikat von Base64 (nur öffentlichem Schlüssel) hochladen.
 
     Für den Empfang von Termininformationen zum Senden von SMS-Benachrichtigungen ist ein Zertifikat mit öffentlichem Schlüssel erforderlich. Das Zertifikat wird benötigt, um zu überprüfen, ob die eingehenden Informationen von einer gültigen Quelle stammen.
 
-    Wenn der Connector zum Senden von SMS-Erinnerungen verwendet wird, wird die Telefonnummer des Patienten von Episch in einer HL7v2-Nutzlast gesendet, wenn Termine in Episch erstellt werden. Diese Nummern werden für jeden Termin in der Geografie Ihrer Organisation gespeichert und bleiben erhalten, bis der Termin stattfindet. Weitere Informationen zum Konfigurieren von HL7v2-Nachrichten finden Sie im [Handbuch zur Epen-Microsoft Teams-Integration](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+    Wenn der Connector zum Senden von SMS-Erinnerungen verwendet wird, wird die Telefonnummer des Patienten von Episch in einer HL7v2-Nutzlast gesendet, wenn Termine in Episch erstellt werden. Diese Nummern werden für jeden Termin in der Geografie Ihrer Organisation gespeichert und bleiben erhalten, bis der Termin stattfindet. Weitere Informationen zum Konfigurieren von HL7v2-Nachrichten finden Sie im [Handbuch episch-Microsoft Teams der Telehealthintegration](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
     Wählen Sie **Weiter aus**.
 
@@ -175,7 +180,7 @@ Zum Aktivieren von SMS-Benachrichtigungen geht Microsoft 365 Administrator wie f
 Der Epische Kundenanalyst in Ihrer Organisation, der als genehmigende Benutzer hinzugefügt wurde, startet das [Konfigurationsportal für EHR-Connectors](https://ehrconnector.teams.microsoft.com) und meldet sich mit Microsoft 365 Anmeldeinformationen an. Nach erfolgreicher Überprüfung wird die genehmigende Benutzerin aufgefordert, sich mit ihren epischen Anmeldeinformationen zur Überprüfung der Epen-Organisation anmelden.
 
 > [!Note]
-> Wenn der Microsoft 365 und Epischer Kundenanalyst dieselbe Person sind, müssen Sie sich noch bei Epe anmelden, um Ihren Zugriff zu überprüfen. Die epische Anmeldung wird nur zum Überprüfen der F IMMER-Basis-URL verwendet. Mit dieser Anmeldung wird Microsoft keine Anmeldeinformationen speichern oder auf EHR-Daten zugreifen.
+> Wenn der Microsoft 365 und Epischer Kundenanalyst dieselbe Person sind, müssen Sie sich zur Überprüfung Ihres Zugriffs bei Epe anmelden. Die epische Anmeldung wird nur zum Überprüfen der F IMMER-Basis-URL verwendet. Mit dieser Anmeldung wird Microsoft keine Anmeldeinformationen speichern oder auf EHR-Daten zugreifen.
 
 :::image type="content" source="media/ehr-connector-epic-login-approve.png" alt-text="Screenshot der Seite "Konfiguration genehmigen oder anzeigen" mit der Option "Anmelden und genehmigen"" lightbox="media/ehr-connector-epic-login-approve.png":::
 
@@ -192,10 +197,10 @@ Wenn die Konfigurationsinformationen vom Epic-Administrator genehmigt wurden, we
 - SMS-Konfigurationsdatensatz
 - Konfigurationsdatensatz für Gerätetest
 
-Der Epische Kundenanalyst muss diese Einträge für "Episch" bereitstellen, um die Konfiguration für virtuelle Visite in Epe abschließen zu können. Weitere Informationen finden Sie im [Leitfaden zur epischen Microsoft Teams der Telehealth-Integration](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
+Der Epische Kundenanalyst muss diese Einträge für "Episch" bereitstellen, um die Konfiguration für virtuelle Visite in Epe abschließen zu können. Weitere Informationen finden Sie im [Handbuch epische Microsoft Teams zur Telehealth-Integration](https://galaxy.epic.com/Search/GetFile?Url=1!68!100!100100357).
 
 > [!Note]  
-> Der Kundenanalyst Microsoft 365 Epe kann sich jederzeit beim Konfigurationsportal anmelden, um Integrationseinträge anzeigen und die Organisationskonfiguration bei Bedarf ändern.
+> Der Kundenanalyst Microsoft 365 epischer Kunde kann sich jederzeit beim Konfigurationsportal anmelden, um Die Integrationseinträge anzeigen und die Organisationskonfiguration bei Bedarf ändern.
 
 :::image type="content" source="media/ehr-connector-epic-finish.png" alt-text="Screenshot der Seite "Überprüfen und fertig stellen" mit Integrationsinformationen" lightbox="media/ehr-connector-epic-finish.png":::
 
@@ -208,13 +213,13 @@ Nach Abschluss der Schritte EHR-Connector und epischer Konfiguration kann Ihre O
 
 ### <a name="virtual-visit-prerequisites"></a>Voraussetzungen für einen virtuellen Besuch
 
-- Ihre Systeme müssen alle Software- [und Browseranforderungen für die](../../hardware-requirements-for-the-teams-app.md) Teams.
+- Ihre Systeme müssen alle Software- [und Browseranforderungen für Teams](../../hardware-requirements-for-the-teams-app.md).
 
-- Sie haben die Integrationseinrichtung zwischen der Epe-Organisation und Ihrer Microsoft 365 abgeschlossen.
+- Sie haben das Integrations-Setup zwischen der Epe-Organisation und Ihrer Microsoft 365 abgeschlossen.
 
 ### <a name="provider-experience"></a>Anbietererfahrung
 
-Anbieter im Gesundheitswesen in Ihrer Organisation können mit Ihren epischen Teams (Hyperspace, Cyberku, Canto) an virtuellen Besuchen teilnehmen. Die Schaltfläche **Virtuellen Besuch beginnen** ist in den Fluss des Providers eingebettet.
+Anbieter im Gesundheitswesen aus Ihrer Organisation können mithilfe von Teams aus ihren Epe-Anbieter-Apps (Hyperspace, Cyberku, Canto) an virtuellen Besuchen teilnehmen. Die Schaltfläche **Virtuellen Besuch beginnen** ist in den Fluss des Providers eingebettet.
 
 Hauptmerkmale der Anbietererfahrung:
 
@@ -229,7 +234,7 @@ Hauptmerkmale der Anbietererfahrung:
   ![Anbietererfahrung eines virtuellen Besuchs mit Patienten.](media/ehc-provider-experience-6.png)
 
 > [!NOTE]
-> Alle im Besprechungschat eingegebenen Informationen, die für die Kontinuität oder Aufbewahrung von Krankenakten erforderlich sind, sollten vom Gesundheitswesen heruntergeladen, kopiert und notiert werden. Der Chat stellt weder eine juristische Kranken- noch eine festgelegte Datensatzsatz dar. Nachrichten aus dem Chat werden basierend auf einstellungen gespeichert, die vom Administrator Microsoft Teams wurden.
+> Alle im Besprechungschat eingegebenen Informationen, die für die Kontinuität oder Aufbewahrung von Krankenakten erforderlich sind, sollten vom Gesundheitswesen heruntergeladen, kopiert und notiert werden. Der Chat stellt weder eine juristische Kranken- noch eine festgelegte Datensatzsatz dar. Nachrichten aus dem Chat werden basierend auf den einstellungen gespeichert, die vom Administrator Microsoft Teams wurden.
 
 ### <a name="patient-experience"></a>Patientenerfahrung
 
@@ -237,7 +242,7 @@ Der Konnektor unterstützt Patienten, die über MyChart Web und Mobile an virtue
 
 Hauptmerkmale der Patientenerfahrung:
 
-- Patienten können an virtuellen Visiten in modernen Webbrowsern auf dem Desktop und mobilen Gerät teilnehmen, ohne die App Teams [installieren zu müssen](../mobile-browser-join.md).
+- Patienten können an virtuellen Visiten in modernen Webbrowsern auf dem Desktop und mobilen Gerät teilnehmen, ohne [die App Teams installieren zu müssen](../mobile-browser-join.md).
 
 - Die Patienten können mit einem einzigen Klick an virtuellen Visiten teilnehmen, und es ist kein anderes Konto oder keine Anmeldung erforderlich.
 
@@ -258,7 +263,7 @@ Teams Integration in EHR-Systeme wird die Datenmenge optimiert, die während der
 
 Der Teams EHR-Connector enthält keine identifizierbaren persönlichen Daten oder Krankenakten von Patienten oder Gesundheitswesensanbietern vom EHR-System. Die einzigen Daten, die vom EGA-Konnektor gespeichert werden, sind die eindeutigen IDs des EGA-Benutzers, die beim Einrichten der Teambesprechungen verwendet werden.
 
-Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations) beschrieben sind. Alle Chats, Aufzeichnungen und anderen von Teams freigegebenen Daten werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in einer Teams Sie unter [Speicherort der Daten in Teams](../../location-of-data-in-teams.md).
+Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations) beschrieben sind. Alle Chats, Aufzeichnungen und anderen daten, die von Teams Besprechungsteilnehmern freigegeben werden, werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Teams finden Sie unter Speicherort [von Daten in Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

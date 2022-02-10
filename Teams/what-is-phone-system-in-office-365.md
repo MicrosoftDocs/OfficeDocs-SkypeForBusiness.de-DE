@@ -1,5 +1,5 @@
 ---
-title: Was ist Teams Telefon
+title: Was ist das Telefonsystem?
 ms.reviewer: roykuntz
 author: CarolynRowe
 ms.author: crowe
@@ -21,62 +21,62 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 - intro-overview
-description: In diesem Artikel erfahren Sie mehr über die Teams Telefonsystem Technologie in Microsoft 365.
-ms.openlocfilehash: 7d873ac9ec3b4d31eea8d5a002ba0b5ba752f7cb
-ms.sourcegitcommit: 3b5ae6ebf4384166c628f66a4f17e6fe4455b708
+description: In diesem Artikel erfahren Sie mehr über die Telefonsystem Technologie in Microsoft 365.
+ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/29/2021
-ms.locfileid: "61625806"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518597"
 ---
-# <a name="what-is-teams-phone"></a>Was ist Teams Telefon
+# <a name="what-is-phone-system"></a>Was ist das Telefonsystem?
 
-Teams Telefon microsoft-Technologie zum Aktivieren von Anrufsteuerung und PBX-Funktionen (Private Branch Exchange) in der Microsoft 365-Cloud mit Microsoft Teams.
+"Telefonsystem" ist die Technologie von Microsoft, die Anrufsteuerung und Funktionen von Nebenstellenanlagen in der Microsoft 365-Cloud mit Microsoft Teams bereitstellt.
 
-Teams Telefon kann mit Teams und zertifizierten Geräten verwendet werden. Teams Telefon können Sie Ihr vorhandenes PBX-System durch eine Reihe von Funktionen ersetzen, die direkt von Ihrem PC Microsoft 365.
+Telefonsystem kann mit Teams und zertifizierten Geräten verwendet werden. Mit dem Telefonsystem können Sie Ihr bestehendes Nebenstellensystem durch eine Reihe von Funktionen ersetzen, die direkt über Microsoft 365 bereitgestellt werden.
 
-Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb Teams Telefon und niemals an das Public Switched Telephone Network (PSTN) umgestellt. Dies gilt für Anrufe zwischen Benutzern in Ihrer Organisation, die sich in unterschiedlichen geographischen Regionen befinden, wodurch Kosten für Ferngespräche für diese internen Anrufe entfallen. 
+Anrufe zwischen Benutzern in Ihrer Organisation werden intern in Telefonsystem verarbeitet und niemals an das Public Switched Telephone Network (PSTN) umgestellt, wodurch die Kosten für die Ferngesprächsweite bei internen Anrufen entfernt werden. 
 
-Für externe Anrufe bietet Teams Telefon Add-On-Optionen zum Herstellen einer Verbindung mit dem PSTN. Weitere Informationen zu Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter Planen ihrer [Teams-Sprachlösung](cloud-voice-landing-page.md) und Verbinden [PSTN.](#connect-to-the-public-switched-telephone-network-pstn)
+Für externe Anrufe bietet Telefonsystem Add-On-Optionen zum Herstellen einer Verbindung mit dem PSTN. Weitere Informationen zu Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter [Planen ihrer Teams-Sprachlösung](cloud-voice-landing-page.md) und Verbinden [PSTN](#connect-to-the-public-switched-telephone-network-pstn).
 
-## <a name="teams-phone-features"></a>Teams Telefon features
+## <a name="phone-system-features"></a>Telefonsystem features
 
-Mit Teams Telefon können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Teams Telefon Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams person anrufen. Zum Ein- und Empfangen von Anrufen können Teams Telefon-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
+Mit Telefonsystem können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Telefonsystem Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams person anrufen. Zum Ein- und Empfangen von Anrufen können Telefonsystem-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
 
-Teams Telefon Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und andere Dienste verwendet wird.
+Telefonsystem-Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und andere Dienste verwendet wird.
 
-Weitere Informationen zu den Teams Telefon finden Sie unter Das bietet [Ihnen die Teams Telefon.](here-s-what-you-get-with-phone-system.md)
+Weitere Informationen zu den Telefonsystem finden Sie unter Dies ist das, [was Sie von Ihren Telefonsystem](here-s-what-you-get-with-phone-system.md).
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Verbinden zum öffentlichen Telefonnetz (PSTN)
   
-Bei externen anrufen können Teams Telefon auf eine von mehreren Arten mit dem PSTN verbunden werden:
+Bei externen Anrufen können Telefonsystem auf eine von mehreren Arten mit dem PSTN verbunden werden:
   
-- Erwerben Sie einen Microsoft-Anrufplan (in- oder inlands und international). Microsoft Calling Plan ist eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber. Weitere Informationen finden Sie unter [Teams Telefon und Anrufpläne.](calling-plan-landing-page.md)
+- Erwerben Sie einen Microsoft-Anrufplan (in- oder inlands und international). Microsoft Calling Plan ist eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber. Weitere Informationen hierzu finden Sie in [Telefonsystem und Anrufpläne](calling-plan-landing-page.md).
 
 - Verwenden Sie Ihre vorhandene Telefonieinfrastruktur für lokale PSTN-Anbindung.
 
-  Sie können Ihre lokale Telefonieinfrastruktur mithilfe Teams Telefon Operator Verbinden Oder Direct Routing verbinden. 
+  Sie können Ihre lokale Telefonie-Infrastruktur mit anderen Telefonsystem verbinden, indem Sie operator Verbinden Calling oder Direct Routing verwenden. 
 
-Weitere Informationen zu allen Optionen für PSTN-Konnektivität finden Sie unter [PstN-Konnektivitätsoptionen.](pstn-connectivity.md)
+Weitere Informationen zu allen PstN-Konnektivitätsoptionen finden Sie unter [PstN-Konnektivitätsoptionen](pstn-connectivity.md).
 
 
-## <a name="teams-phone-with-services"></a>Teams Telefon mit Diensten
+## <a name="phone-system-with-services"></a>Telefonsystem mit Diensten
 
-Teams Telefon kann für Dienste und Voicemail verwendet werden, z. B.:
+Telefonsystem kann für Dienste und Voicemail verwendet werden, z. B.:
 
 - **Automatische Telefonkonferenzen** – Automatische Telefonkonferenzen können verwendet werden, um ein Menüsystem für Ihre Organisation zu erstellen, mit dem externe und interne Anrufer durch das System wechseln können, um Anrufe zu suchen und zu platzieren oder Anrufe an Unternehmensbenutzer oder Abteilungen in Ihrer Organisation zu übertragen. Weitere [Informationen finden Sie unter Was sind automatische Cloud-Attendants?](what-are-phone-system-auto-attendants.md).
 
-- **Anrufwarteschleifen** – Anrufwarteschlangen-Begrüßungen können verwendet werden, wenn jemand eine Telefonnummer für Ihre Organisation anruft. Diese Begrüßungen umfassen die Möglichkeit, die Anrufe automatisch zu halten, und die Möglichkeit, nach dem nächsten verfügbaren Telefonmitarbeiter zu suchen, um den Anruf zu behandeln, während die Anrufer musik hören. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. Siehe [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md).
+- **Anrufwarteschleifen** – Anrufwarteschlangen-Begrüßungen können verwendet werden, wenn jemand eine Telefonnummer für Ihre Organisation anruft. Diese Begrüßungen enthalten die Möglichkeit, die Anrufe automatisch zu halten und nach dem nächsten verfügbaren Telefonmitarbeiter für die Verarbeitung des Anrufs zu suchen. Die Warteschleifen können auch Musik hören, während sie in der Warteschleife sind. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. Siehe [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md).
 
 - **Voicemail** – Cloud-Voicemail wird automatisch eingerichtet und für alle Benutzer Teams bereitgestellt. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-Weitere Informationen zu Features finden Sie unter Das bietet [Ihnen die Teams Telefon.](here-s-what-you-get-with-phone-system.md) Wenn Sie bereit für die ersten Schritte sind, lesen Sie Einrichten [Teams Telefon in Ihrer Organisation.](setting-up-your-phone-system.md)
+Weitere Informationen zu Features finden Sie unter [Dies ist das, was Sie mit Ihrer Telefonsystem](here-s-what-you-get-with-phone-system.md). Wenn Sie bereit für die ersten Schritte sind, lesen Sie einrichten [Telefonsystem in Ihrer Organisation](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Teams Telefon features](here-s-what-you-get-with-phone-system.md)
-- [Einrichten Teams Telefon](setting-up-your-phone-system.md)
+- [Telefonsystem features](here-s-what-you-get-with-phone-system.md)
+- [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
 - [Planen Ihrer Microsoft Teams-Anruflösung](cloud-voice-landing-page.md)
 - [PSTN-Konnektivitätsoptionen](pstn-connectivity.md)
 - [Lizenzierung für Microsoft Teams-Add-Ons](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md)

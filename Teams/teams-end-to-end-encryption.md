@@ -19,12 +19,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bdc626510a180185cae699106c1420880ea55e73
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579699"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518937"
 ---
 # <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Verwenden der End-to-End-Verschlüsselung für 1:1-Anrufe in Microsoft Teams (öffentliche Vorschau)
 
@@ -77,7 +77,7 @@ Führen Sie diese Aufgaben aus, damit Ihre Benutzer verschlüsselte End-to-End-A
 
 Die globale, organisationsweite Standardrichtlinie gibt an, dass die End-to-End-Verschlüsselung deaktiviert ist. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Um die End-to-End-Verschlüsselung zu aktivieren, erstellen Sie eine neue Verschlüsselungsrichtlinie, oder passen Sie die globale Standardrichtlinie an. Führen Sie die folgenden Schritte aus, um die End-to-End-Verschlüsselung mithilfe des Teams Admin Centers zu aktivieren.
 
-1. Melden Sie sich mit einem Geschäfts-, Schul- oder Unikonto, dem die Teams- oder globale Administratorrolle zugewiesen wurde, beim [Teams Admin Center](https://go.microsoft.com/fwlink/p/?linkid=2024339) an.
+1. Melden Sie sich mit einem Geschäfts-, Schul- oder Unikonto, dem die Teams- oder globale Administratorrolle zugewiesen wurde, beim [Teams Admin Center](https://admin.teams.microsoft.com/) an.
 
 2. Wechseln Sie zu **Andere Einstellungen** > **Erweiterte Verschlüsselungsrichtlinien**.
 
