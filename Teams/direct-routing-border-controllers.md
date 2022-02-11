@@ -18,12 +18,12 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche Session Border Controller (SBCs) für Direct Routing zertifiziert wurden.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 71ba2fc6856b57a2619122b1c7341404651d4e8f
-ms.sourcegitcommit: b1d1a2b27c9dbc73a306bd69696fceda77688b26
+ms.openlocfilehash: 69add2b195da03dee69b2a33583b5dbed8f614e8
+ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/07/2022
-ms.locfileid: "62432854"
+ms.lasthandoff: 02/10/2022
+ms.locfileid: "62518927"
 ---
 # <a name="session-border-controllers-certified-for-direct-routing"></a>Für Direct Routing zertifizierte Session Border Controller
 
@@ -37,20 +37,20 @@ Microsoft arbeitet mit jedem Anbieter zusammen, um folgende Schritte zu unterneh
 - Einen gemeinsamen Supportprozess mit den SBC-Anbietern bereitzustellen.
 
   > [!NOTE]
-  > Microsoft unterstützt das Telefonsystem nur, wenn ein zertifiziertes Gerät oder Geräte über Direct Routing verbunden sind. Bei Problemen muss sich der Kunde zuerst an den Kundensupport von SBC-Lieferanten wenden. Bei Bedarf wird der SBC-Anbieter das Problem über interne Kanäle an Microsoft eskalieren. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über Direct Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct Routing-Problem eines Kunden mit dem SBC-Gerät eines Lieferanten besteht, muss der Kunde den SBC-Anbieter erneut engagieren, um Support zu erhalten.
+  > Microsoft unterstützt das Telefonsystem mit Direct Routing nur, wenn es mit zertifizierten Geräten verwendet wird. Bei Problemen müssen Sie sich zuerst an den Kundensupport Ihres SBC-Lieferanten wenden. Bei Bedarf wird der SBC-Lieferant das Problem über interne Kanäle an Microsoft eskalieren. Microsoft behält sich das Recht vor, Supportfälle abzulehnen, in denen ein nicht zertifiziertes Gerät über Direct Routing mit dem Telefonsystem verbunden ist. Wenn Microsoft feststellt, dass das Direct Routing-Problem eines Kunden mit dem SBC-Gerät eines Lieferanten besteht, muss der Kunde den SBC-Anbieter erneut engagieren, um Support zu erhalten.
   >
   > Die Zertifizierung wird für bestimmte SBC-Firmwareversionen gewährt. Jede nachstehend dokumentierte SBC-Firmwareversion ist zertifiziert und wird unterstützt. Höhere Firmwareversionen als jene, die dokumentiert sind, werden unterstützt, solange die Haupt-.Nebenversion gleich ist.
   >
   > Beispiel:
   >
-  > - Unterstützt 6.10.258 – in diesem Fall unterstützen wir auch die Firmwareversionen 6.10.(258 oder höher).
-  > - Empfohlen 6.20.100 – in diesem Fall empfehlen wir auch die Firmwareversion 6.20.(100 oder höher).
+  > - Unterstützt 6.10.258 – In diesem Fall unterstützt Microsoft die Firmwareversionen 6.10.(258 oder höher).
+  > - Empfohlen 6.20.100 – In diesem Fall empfiehlt Microsoft die Firmwareversionen 6.20.(100 oder höher).
   > - Wenn Sie Fragen zur Unterstützung einer bestimmten Version haben, wenden Sie sich an Ihren SBC-Anbieter.
 
 Die folgende Tabelle enthält eine Liste der für direktes Routing zertifizierten Geräte. (Informationen dazu, welche SBC-Anbieter die Lokale Medienoptimierung unterstützen, finden Sie unter [Optimierung lokaler Medien für Direktes Routing konfigurieren](direct-routing-media-optimization-configure.md).)
 
 [Hier finden Sie weitere Informationen zu direktem Routing](https://aka.ms/dr).
-Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wenden Sie sich per E-Mail an drsbccertification@microsoft.com. Bitte beachten Sie: Bis auf weiteres akzeptieren wir keine neuen Nominierungen für Zertifikationen.
+Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für Direct Routing haben, wenden Sie sich per E-Mail an drsbccertification@microsoft.com. Bitte beachten Sie: Bis auf weiteres akzeptieren wir keine neuen Nominierungen für Zertifikationen.
 <br/>
 
 ## <a name="certified-sbc-vendors"></a>Zertifizierte SBC-Anbieter
@@ -95,7 +95,7 @@ Wenn Sie Fragen zum SBC-Zertifizierungsprogramm für direktes Routing haben, wen
 |                     [Ericsson](https://www.ericsson.com/en/portfolio/digital-services/cloud-communication/enterprise-communication/business-communication-services-and-enablers/sip-trunking)|    vSBC 2.16     |     &#10004;     |           |              |     |    |
 |                     [Cataleya](https://cataleya.com/orchidplatforms/)|    Orchid-Link    |     &#10004;     |           |      3.1        |     |    |
 |                     [ULTATEL](https://www.ultatel.com/services/direct-routing-teams-sbc)|    Teams-SBC    |     &#10004;     |     &#10004;      |      1.6        |     |    |
-|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape-Sitzungsrahmencontroller   |     &#10004;     |   &#10004;        |     Unterstützt ohne Media Bypass V10R1.2 (empfohlen für Media Bypass V10R2.2.0)     |     |    |
+|                     [Atos](https://unify.com/en/solutions/voice-platforms/session-border-controller)|    Atos Unify OpenScape-Sitzungsrahmencontroller   |     &#10004;     |   &#10004;        |     V10R2.2.0     |     |    |
 |                     [Sansay Inc.](https://www.sansay.com/solutions/microsoft-teams/)|    vmVSXi   |     &#10004;     |     &#10004;     |      10.5.1.354-vm-S-x64      |     |    |
 |                     [Enghouse-Netzwerke](https://www.enghousenetworks.com/portfolio/network-infrastructure/cloud-native-session-border-controller-sbc/)|    Dialogischer BorderNet-SBC   |     &#10004;     |     &#10004;     |      3.9.0-786      |     |    |
 |                     [Patton Electronics Co.](https://www.patton.com/microsoft/)|    Patton SmartNode eSBC   |     &#10004;     |         |      3.19.x      |     |    |
@@ -173,7 +173,7 @@ In der folgenden Tabelle sind Geräte aufgeführt, die für Interoperabilität z
 | [Ribbon](https://ribboncommunications.com/solutions/enterprise-solutions/microsoft-solutions) |   [EdgeMarc 6000. Softwareversion: 16.1.1](https://ribboncommunications.com/products/service-provider-products/cloud-and-edge/session-border-controllers/session-border-controllers-edge-appliances)   |     &#10004;     |
 | [TE-SYSTEMS](https://www.anynode.de/anynode-and-microsoft-teams/) |  anynode mit Grandstream GXW42xx (V1.0.7.10) |     &#10004;     |
   
-Um uns Produktfeedback zu Teams zu geben, z. B. Ideen für neue Features, gehen Sie auf [Uservoice](https://microsoftteams.uservoice.com).
+Um uns Feedback zu Teams zu geben, z. B. Ideen für neue Features, gehen Sie auf [Uservoice](https://microsoftteams.uservoice.com).
 
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]

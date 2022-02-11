@@ -775,17 +775,17 @@ items:
                 href: audio-conferencing-zones.md
               - name: Videos – Audiokonferenzen in Teams
                 href: ./audio-conferencing-in-office-365.md
-  - name: Voice – Teams Phone und PSTN-Konnektivität
+  - name: VoIP – Telefonsystem und PSTN-Konnektivität
     items:
       - name: Planen der Voice-Lösung ihrer Teams
         href: cloud-voice-landing-page.md
-      - name: Teams Phone
+      - name: Telefonsystem
         items:
-          - name: Was ist Teams Phone
+          - name: Was ist das Telefonsystem?
             href: what-is-phone-system-in-office-365.md
-          - name: Das erhalten Sie mit Teams Phone
+          - name: 'Hier erfahren Sie, was Ihnen das Telefonsystem bietet'
             href: here-s-what-you-get-with-phone-system.md
-          - name: Einrichten von Teams Phone
+          - name: Einrichten des Telefonsystems
             href: setting-up-your-phone-system.md
           - name: Einrichten von Telefonen in öffentlichen Bereichen
             href: set-up-common-area-phones.md
@@ -1021,7 +1021,7 @@ items:
             href: voice-case-study-overview.md
           - name: Teams-Upgradeplan
             href: voice-case-study-migration-plan.md
-          - name: Teams Phone
+          - name: Telefonsystem
             href: voice-case-study-phone-system.md
           - name: Standortbasiertes Routing
             href: voice-case-study-location-based-routing.md
@@ -1033,7 +1033,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Leitfaden für kleine und mittelständische Unternehmen
         items:
-          - name: Teams Telefon-Leitfaden für kleine und mittelständische Unternehmen
+          - name: Telefonsystem-Leitfaden für kleine und mittelständische Unternehmen
             href: business-voice/whats-business-voice.md
           - name: Regionale Verfügbarkeit
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1041,7 +1041,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Hilfe von einem Wiederverkäufer oder Partner erhalten
             href: business-voice/reseller-partner-support.md
-          - name: Einrichten von Teams Telefon für kleine und mittelständische Unternehmen
+          - name: Telefonsystem für kleine und mittlere Unternehmen einrichten
             items:
               - name: Übersicht
                 href: business-voice/set-up-overview.md
@@ -1061,7 +1061,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Ressourcen nach der Einrichtung
                 href: business-voice/set-up-finish.md
-          - name: Anpassen Ihres Teams Telefon-Setups für kleine und mittelständische Unternehmen
+          - name: Anpassen Ihres Telefonsystem-Setups für kleine und mittelständische Unternehmen
             items:
               - name: Anpassungsoptionen
                 href: business-voice/customize-business-voice.md
@@ -1075,7 +1075,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Einrichten einer automatischen Telefonzentrale
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Verwalten Ihres Teams Telefon-Setups für kleine und mittelständische Unternehmen
+          - name: Verwalten Ihres Telefonsystem-Setups für kleine und mittelständische Unternehmen
             items:
               - name: Erstellen eines oder mehrerer Benutzer
                 href: business-voice/create-users.md
