@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren des Session Border Controllers – mehrere Mandanten
-ms.reviewer: ''
+ms.reviewer: filippse
 ms.author: crowe
 author: CarolynRowe
 manager: serdars
@@ -17,28 +17,28 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Sie einen Session Border Controller (SBC) für die Verwendung mehrerer Mandanten für Microsoft-Partner und/oder PSTN-Netzbetreiber konfigurieren.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 97995b2da79f7e3ddd781615ccddfc0dd64ae0b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: 59a17da1a1fb77bbe30c79831480014fe1278bae
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457225"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763360"
 ---
 # <a name="configure-a-session-border-controller-for-multiple-tenants"></a>Konfigurieren eines Session Border Controllers für mehrere Mandanten
 
 Direct Routing unterstützt die Konfiguration eines Session Border Controllers (SBC), um mehrere Mandanten zu unterstützen.
 
 > [!NOTE]
-> Dieses Szenario ist für Microsoft-Partner und/oder PSTN-Netzbetreiber ausgelegt, die weiter später in diesem Dokument als Netzbetreiber bezeichnet werden. Ein Netzbetreiber verkauft Telefoniedienste, die an Microsoft Teams kunden geliefert werden. 
+> Dieses Szenario ist für Microsoft-Partner und/oder PSTN-Netzbetreiber ausgelegt, die weiter später in diesem Dokument als Netzbetreiber bezeichnet werden. Ein Netzbetreiber verkauft Telefoniedienste, die an Kunden Microsoft Teams werden. 
 
 Ein Netzbetreiber:
-- Stellt einen SBC in seinen Rechenzentren und verwaltet diesen (Kunden müssen keinen SBC implementieren und empfangen Telefoniedienste vom Netzbetreiber im Teams-Client).
+- Stellt einen SBC in seinen Rechenzentren und verwaltet diesen (Kunden müssen keinen SBC implementieren und empfangen Telefoniedienste vom Netzbetreiber im Teams Client).
 - Verbindet den SBC mit mehreren Mandanten.
 - Stellt Kunden PSTN-Dienste (Public Switched Telephone Network) zur Verfügung.
 - Verwaltet die End-to-End-Verwaltung der Anrufqualität.
 - Gebühren separat für PSTN-Dienste.
 
-Microsoft verwaltet keine Netzbetreiber. Microsoft bietet Teams Telefon Private Branch-Exchange (PBX) und einen Teams an. Microsoft zertifiziert außerdem Telefone und Certifizieren von SBCs, die mit der Teams Telefonsystem. Stellen Sie vor der Auswahl eines Netzbetreibers sicher, dass Ihre Wahl über einen zertifizierten SBC verfügt und die End-to-End-Sprachqualität verwalten kann.
+Microsoft verwaltet keine Netzbetreiber. Microsoft bietet Telefonsystem - eine Private Branch-Exchange (PBX) – und einen Teams an. Microsoft zertifiziert außerdem Telefone und bescheinigt SBCs, die für die Verwendung mit Telefonsystem. Stellen Sie vor der Auswahl eines Netzbetreibers sicher, dass Ihre Wahl über einen zertifizierten SBC verfügt und die End-to-End-Sprachqualität verwalten kann.
 
 Im Folgenden werden die technischen Implementierungsschritte zum Konfigurieren des Szenarios beschrieben.
 
@@ -58,11 +58,11 @@ Im Folgenden werden die technischen Implementierungsschritte zum Konfigurieren d
 
 Ausführliche Schritte zum Bereitstellen und Konfigurieren von SBCs für ein SBC-Hostingszenario finden Sie in der Dokumentation des SBC-Anbieters.
 
-- **AudioCodes:** [Direct Routing Configuration notes](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams), the configuration of the SBC hosting scenario described in "Connecting AudioCodes SBC to Microsoft Teams Direct Routing Hosting Model Configuration Note". 
-- **Oracle:** [Hinweise zur Direct Routing-Konfiguration](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html). Die Konfiguration des SBC-Hostingszenarios wird im Abschnitt "Microsoft" beschrieben. 
-- **Menübandkommunikation:**  Im Konfigurationshandbuch für Ribbon [Communications SBC Core Microsoft Teams](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) finden Sie eine Dokumentation zum Konfigurieren von Ribbon Core Series SBCs und auf dieser Seite bewährte Methode des Menübands – Konfigurieren von Netzbetreibern für [Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier).
-- **TE-Systems (anynode):**  Bitte registrieren Sie sich [auf der Te-Systems-Community für](https://community.te-systems.de/) Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten.
-- **Metaswitch:**  Bitte registrieren Sie sich auf Community [Metaswitch-Seite,](https://manuals.metaswitch.com/MAN39555) um Dokumentation zum Aktivieren von Perimeta SBC für mehrere Mandanten zu erhalten.
+- **AudioCodes:** – Siehe Hinweise zur [Direct Routing-Konfiguration](https://www.audiocodes.com/solutions-products/products/products-for-microsoft-365/direct-routing-for-Microsoft-Teams) für die Konfiguration des SBC-Hostingszenarios, wie unter "Verbinden von AudioCodes SBC mit Microsoft Teams Direct Routing Hosting Model Configuration Note" beschrieben. 
+- **Oracle: Informationen zur** Konfiguration des SBC-Hostingszenarios finden Sie unter Hinweise zur Direct-Routingkonfiguration, wie im Abschnitt "Microsoft" beschrieben.[](https://www.oracle.com/technetwork/indexes/documentation/acme-packet-2228107.html) 
+- **Menübandkommunikation:** Eine [Dokumentation zum Konfigurieren von Ribbon Core Series SBCs finden Sie Microsoft Teams Konfigurationshandbuch](https://support.sonus.net/display/IOT/PBXs+-+SBC+5k7kSWe) für Ribbon Core Core. Siehe auch bewährte [Methode des Menübands – Konfigurieren von Netzbetreibern für Microsoft Teams Direct Routing SBC Edge](https://support.sonus.net/display/UXDOC81/Connect+SBC+Edge+to+Microsoft+Teams+Direct+Routing+to+Support+Direct+Routing+Carrier)
+- **TE-Systems (anynode):** – Registrieren Sie sich auf der [TE-Systems Community-Seitenwebsite](https://community.te-systems.de/) für Dokumentationen und Beispiele zum Konfigurieren von anynode SBC für mehrere Mandanten.
+- **Metaswitch:** – Register on the [Metaswitch Community page](https://manuals.metaswitch.com/MAN39555) site for documentation on how to enable Perimeta SBC for multiple tenants.
 
 > [!NOTE]
 > Stellen Sie sicher, dass Sie wissen, wie die Kopfzeile "Kontakt" konfiguriert wird. Die Kontaktkopfzeile wird verwendet, um den Kunden-Mandanten in der eingehenden Einladungsnachricht zu finden. 
@@ -77,13 +77,13 @@ Für das Hostingszenario müssen Sie:
 Im folgenden Beispiel:
 
 - Adatum ist ein Netzbetreiber, der mehrere Kunden durch die Bereitstellung von Internet- und Telefoniediensten bedient.
-- Die Woodgrove Bank, Contoso und Adventure Works sind drei Kunden, die über Microsoft 365 Domänen verfügen, aber die Telefoniedienste von Adatum erhalten.
+- Die Woodgrove Bank, Contoso und Adventure Works sind drei Kunden, die Microsoft 365 haben, aber die Telefoniedienste von Adatum erhalten.
 
 Unterdomänen **MÜSSEN** dem FQDN-Namen des Trunks entsprechen, der für den Kunden konfiguriert wird, und dem FQDN im Kontaktheader beim Senden der Einladung zu Microsoft 365. 
 
 Wenn ein Anruf bei der Microsoft 365 Direct Routing-Schnittstelle eintrifft, verwendet die Schnittstelle den Kontaktheader, um den Mandanten zu finden, in dem der Benutzer gesucht werden soll. Direct Routing verwendet für die Einladung keine Telefonnummern-Suche, da einige Kunden möglicherweise Nicht-DID-Nummern haben, die sich in mehreren Mandanten überschneiden können. Daher ist der FQDN-Name im Kontaktheader erforderlich, um den genauen Mandanten zu identifizieren, um den Benutzer nach der Telefonnummer zu suchen.
 
-*Weitere Informationen zum Erstellen von Domänennamen in Microsoft 365 finden Sie unter [Hilfe zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Weitere Informationen zum Erstellen von Domänennamen in Microsoft 365 finden Sie unter Hilfe [zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
 
 Das folgende Diagramm fasst die Anforderungen für die Basis von Domäne, Unterdomänen und Kontaktheadern zusammen.
 
@@ -115,38 +115,32 @@ Führen Sie die folgenden Schritte aus, um die Basis- und Unterdomänen zu konfi
 
 Sie können neue Domänen nur hinzufügen, wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben. 
 
-Um Ihre Rolle zu überprüfen, melden Sie sich beim Microsoft 365 Admin Center an (https://portal.office.com),  >  wechseln Sie zu **BenutzerAktive** Benutzer, und vergewissern Sie sich dann, dass Sie über eine globale Administratorrolle verfügen. 
+Um Ihre Rolle zu überprüfen, melden Sie sich beim Microsoft 365 Admin Center an (https://portal.office.com), wechseln Sie zu **BenutzerAktive** >  Benutzer, und vergewissern Sie sich dann, dass Sie über eine globale Administratorrolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Microsoft 365 finden Sie unter Informationen [zu Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-base-domain-to-the-tenant-and-verify-it"></a>Hinzufügen einer Basisdomäne zum Mandanten und Überprüfen der Domäne
 
-1. Wechseln Sie Microsoft 365 Admin Center Zu **SetupDomainsAdd-Domäne** >  > .
+1. Wechseln Sie Microsoft 365 Admin Center Domäne **SetupDomainsAdd** >  > .
 
 2. Geben Sie **im Feld Geben Sie eine Domäne** ein, die Sie besitzen den FQDN der Basisdomäne ein. Im folgenden Beispiel ist die Basisdomäne *customers.adatum.biz*.
 
-    ![Screenshot der Seite "Domäne hinzufügen"](media/direct-routing-2-sbc-add-domain.png)
-
 3. Klicken Sie auf **Weiter**.
 
-4. In diesem Beispiel verfügt der Mandant adatum.biz als überprüften Domänennamen. Der Assistent fordert keine zusätzliche Überprüfung an, da customers.adatum.biz eine Unterdomäne für den bereits registrierten Namen ist. Wenn Sie jedoch einen FQDN hinzufügen, der noch nicht überprüft wurde, müssen Sie den Überprüfungsprozess durchgehen. Der Überprüfungsprozess wird [nachfolgend beschrieben](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
+4. In diesem Beispiel verfügt der Mandant adatum.biz als überprüften Domänennamen. Der Assistent fordert keine zusätzliche Überprüfung an, da customers.adatum.biz eine Unterdomäne für den bereits registrierten Namen ist. Wenn Sie jedoch einen FQDN hinzufügen, der noch nicht überprüft wurde, müssen Sie den Überprüfungsvorgang durchgehen. Der Überprüfungsprozess wird [nachfolgend beschrieben](#add-a-subdomain-to-the-customer-tenant-and-verify-it).
 
-    ![Screenshot, der die Bestätigung eines bestätigten Domänennamens zeigt.](media/direct-routing-3-sbc-verify-domain.png)
+5. Wählen **Sie Weiter** und dann auf der Seite **DNS Einstellungen** aktualisieren die Option Ich füge die **DNS-Einträge** selbst hinzu und dann Weiter **aus**.
 
-5. Klicken **Sie auf** Weiter, und wählen Sie auf der Seite **DNS Einstellungen** aktualisieren die Option Ich füge die **DNS-Einträge** selbst hinzu aus, und klicken Sie auf **Weiter**.
-
-6. Löschen Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint, Teams oder Skype for Business verwenden), klicken Sie auf **Weiter und dann** auf **Fertig** stellen. Stellen Sie sicher, dass ihre neue Domäne den Status Setup abgeschlossen hat.
-
-    ![Screenshot mit Domänen mit dem Status "Setup abgeschlossen"](media/direct-routing-14-sbc-setup-complete.png)
+6. Löschen Sie auf der nächsten Seite alle Werte (es sei denn, Sie möchten den Domänennamen für Exchange, SharePoint, Teams oder Skype for Business verwenden), wählen Sie Weiter und dann Fertig stellen **aus**. Stellen Sie sicher, dass ihre neue Domäne den Status Setup abgeschlossen hat.
 
 ### <a name="activate-the-domain-name"></a>Aktivieren des Domänennamens
 
-Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer mit Telefonsystem-Lizenz hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, der der erstellten Basisdomäne zusaiert ist.
+Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer mit einer Telefonsystem-Lizenz hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, der mit der erstellten Basisdomäne übereinstimmen.
 
 > [!NOTE]
-> Der Carrier-Mandant muss mindestens eine dem Mandanten zugewiesene Telefonsystem behalten, um das Entfernen des Mandanten Skype for Business vermeiden. 
+> Der Carrier-Mandant muss mindestens eine dem Mandanten Telefonsystem Zugewiesene Lizenz behalten, um das Entfernen des Mandanten Skype for Business vermeiden. 
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 finden Sie unter Hilfe [zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 finden Sie unter [Hilfe zu Microsoft 365 Domänen](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
 
 Beispiel: test@customers.adatum.biz
 
@@ -160,48 +154,37 @@ Sie müssen für jeden Kunden einen eindeutigen Unterdomänennamen erstellen. In
 
 ### <a name="ensure-that-you-have-appropriate-rights-in-the-customer-tenant"></a>Sicherstellen, dass Sie über geeignete Rechte im Kunden-Mandanten verfügen
 
-Sie können neue Domänen nur hinzufügen, wenn Sie sich bei der Microsoft 365 Admin Center als globaler Administrator angemeldet haben. 
+Sie können neue Domänen nur hinzufügen, wenn Sie sich beim Microsoft 365 Admin Center als globaler Administrator angemeldet haben. 
 
 Um Ihre Rolle zu überprüfen, melden Sie sich beim Microsoft 365 Admin Center an (https://portal.office.com), wechseln Sie zu **BenutzerAktive** >  Benutzer, und vergewissern Sie sich dann, dass Sie über eine globale Administratorrolle verfügen. 
 
 Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Microsoft 365 finden Sie unter Informationen [zu Administratorrollen](https://support.office.com/article/About-Office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d).
 
 ### <a name="add-a-subdomain-to-the-customer-tenant-and-verify-it"></a>Hinzufügen einer Unterdomäne zum Kunden-Mandanten und Überprüfen der Unterdomäne
+
 1. Wechseln Sie Microsoft 365 Admin Center Domäne **SetupDomainsAdd** >  > .
 
 2. Geben Sie **im Feld Geben Sie eine** Domäne ein, die Sie besitzen den FQDN der Unterdomäne für diesen Mandanten ein. Im folgenden Beispiel ist die Unterdomäne sbc1.customers.adatum.biz.
 
-    ![Screenshot der Seite "Domäne hinzufügen"](media/direct-routing-5-sbc-add-customer-domain.png)
-
-3. Klicken Sie auf **Weiter**.
+3. Wählen Sie **Weiter aus**.
 
 4. Der FQDN wurde noch nie im Mandanten registriert. Im nächsten Schritt müssen Sie die Domäne überprüfen. Wählen **Sie Stattdessen TXT-Eintrag hinzufügen aus**. 
 
-    ![Screenshot der Seite "Domäne überprüfen"](media/direct-routing-6-sbc-verify-customer-domain.png)
-
-5. Klicken **Sie auf** Weiter, und notieren Sie sich den zum Überprüfen des Domänennamens generierten TXT-Wert.
+5. Wählen Sie **Weiter** aus, und notieren Sie sich den zur Überprüfung des Domänennamens generierten TXT-Wert.
 
     ![Screenshot von Texteinträgen auf der Seite "Domäne überprüfen"](media/direct-routing-7-sbc-verify-domain-txt.png)
 
 6. Erstellen Sie den TXT-Eintrag mit dem Wert aus dem vorherigen Schritt beim DNS-Hostinganbieter des Netzbetreibers.
 
-    ![Screenshot, der zeigt, wie der TXT-Eintrag erstellt wird.](media/direct-routing-8-sbc-txt-record.png)
-
     Weitere Informationen finden Sie unter [Erstellen von DNS-Einträgen bei einem beliebigen DNS-Hostinganbieter](https://support.office.com/article/create-dns-records-at-any-dns-hosting-provider-for-office-365-7b7b075d-79f9-4e37-8a9e-fb60c1d95166).
 
-7. Wechseln Sie zum Konto des Kunden Microsoft 365 Admin Center und klicken Sie **auf Überprüfen**. 
+7. Wechseln Sie zum Konto des Kunden Microsoft 365 Admin Center und wählen Sie **Überprüfen aus**. 
 
-8. Wählen Sie auf der nächsten Seite **Ich füge die DNS-Einträge selbst hinzu aus** , und klicken Sie auf **Weiter**.
+8. Wählen Sie auf der nächsten Seite **Ich füge die DNS-Einträge selbst hinzu** und dann Weiter **aus**.
 
-    ![Screenshot der Optionen auf der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-9-sbc-update-dns.png)
+9. Löschen Sie auf **der Seite Onlinedienste auswählen** alle Optionen, und wählen Sie Weiter **aus**.
 
-9. Löschen Sie auf **der Seite Onlinedienste auswählen** alle Optionen, und klicken Sie auf **Weiter**.
-
-    ![Screenshot der Seite "Onlinedienste auswählen"](media/direct-routing-10-sbc-choose-services.png)
-
-10. Klicken **Sie auf** der Seite **DNS-Einstellungen aktualisieren auf** Fertig stellen.
-
-    ![Screenshot der Seite "DNS-Einstellungen aktualisieren"](media/direct-routing-11-sbc-update-dns-finish.png)
+10. Wählen **Sie auf der** Seite **DNS-Einstellungen aktualisieren die Option Fertig** stellen aus.
 
 11. Stellen Sie sicher, dass der Status **Setup abgeschlossen ist**. 
     
@@ -214,7 +197,7 @@ Weitere Informationen zu Administratorrollen und zum Zuweisen einer Rolle in Mic
 
 Nachdem Sie einen Domänennamen registriert haben, müssen Sie ihn aktivieren, indem Sie mindestens einen Benutzer hinzufügen und eine SIP-Adresse mit dem FQDN-Teil der SIP-Adresse zuweisen, die der erstellten Unterdomäne im Kunden-Mandanten zusagt. 
 
-*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 finden Sie unter [Hilfe zu Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
+*Weitere Informationen zum Hinzufügen von Benutzern in Microsoft 365 Organisationen finden Sie unter [Hilfe zu Microsoft 365](https://support.office.com/article/Get-help-with-Office-365-domains-28343f3a-dcee-41b6-9b97-5b0f4999b7ef).*
 
 Beispiel: test@sbc1.customers.adatum.biz
 
@@ -240,7 +223,7 @@ Es wurden zwei neue Entitäten eingeführt:
    New-CSOnlinePSTNGateway -FQDN customers.adatum.biz -SIPSignalingport 5068 -ForwardPAI $true
     ```
 
--  Ein abgeleiteter Trunk, für den keine Registrierung erforderlich ist. Dies ist einfach ein gewünschter Hostname, der aus dem Netzbetreiberstamm hinzugefügt wird. Sie leitet alle Konfigurationsparameter vom Carrier Trunk ab. Der abgeleitete Trunk muss nicht in PowerShell erstellt werden, und die Zuordnung mit dem Carrier Trunk basiert auf dem FQDN-Namen (siehe unten).
+- Ein abgeleiteter Trunk, für den keine Registrierung erforderlich ist. Dies ist einfach ein gewünschter Hostname, der aus dem Netzbetreiberstamm hinzugefügt wird. Sie leitet alle Konfigurationsparameter vom Carrier Trunk ab. Der abgeleitete Trunk muss nicht in PowerShell erstellt werden, und die Zuordnung mit dem Carrier Trunk basiert auf dem FQDN-Namen (siehe unten).
 
 **Bereitstellungslogik und Beispiel**
 
@@ -251,11 +234,11 @@ Es wurden zwei neue Entitäten eingeführt:
 - Der abgeleitete Trunk erbt oder leitet, wie der Name vermuten lässt, alle Konfigurationsparameter vom Carrier Trunk ab. 
 
 Beispiele:
-- Customers.adatum.biz : der Carrier Trunk, der im Mandanten des Netzbetreibers erstellt werden muss.
+- Customers.adatum.biz: der Carrier Trunk, der im Mandanten des Netzbetreibers erstellt werden muss.
 
-- Sbc1.customers.adatum.biz: der abgeleitete Trunk in einem Kunden-Mandanten, der nicht in PowerShell erstellt werden muss.  Sie können einfach den Namen des abgeleiteten Trunks im Kundenmandant in der Online-Voiceroutingrichtlinie hinzufügen, ohne ihn zu erstellen (verwenden Sie den abgeleiteten Trunk-FQDN beim Einrichten der Voice Routing-Richtlinie in TAC unter Teams-Voice-Direct Routing-Voice Routingfeld SBCs registriert).
+- Sbc1.customers.adatum.biz: der von abgeleitete Trunk in einem Kunden-Mandanten, der nicht in PowerShell erstellt werden muss. Sie können den Namen des abgeleiteten Trunks im Kundenmandant in der Online-Voiceroutingrichtlinie hinzufügen, ohne ihn zu erstellen (verwenden Sie den abgeleiteten Trunk-FQDN beim Einrichten der Voice Routing-Richtlinie in TAC unter Teams-Voice-Direct Routing-Voice Routes-Feld SBCs registriert).
 
-- Der Netzbetreiber muss einen DNS-Eintrag einrichten, mit dem der abgeleitete Trunk-FQDN mit der IP-Adresse des Netzbetreibers SBC aufgelöst wird.
+- Der Netzbetreiber muss einen DNS-Eintrag einrichten, mit dem der abgeleitete Trunk-FQDN zur IP-Adresse des Netzbetreibers SBC aufgelöst wird.
 
 - Alle Änderungen, die an einem Carrier Trunk (beim Mandanten des Netzbetreibers) vorgenommen werden, werden automatisch auf abgeleitete Trunks angewendet. Beispielsweise können Netzbetreiber einen SIP-Port auf dem Carrier Trunk ändern, und diese Änderung gilt für alle abgeleiteten Trunks. Neue Logik zum Konfigurieren der Trunks vereinfacht die Verwaltung, da Sie nicht zu jedem Mandanten wechseln und den Parameter auf jedem Trunk ändern müssen.
 
@@ -264,11 +247,11 @@ Beispiele:
 - Der Netzbetreiber kann den Trunk des Netzbetreibers entleeren, und alle abgeleiteten Trunks werden ebenfalls entleert. 
  
 > [!NOTE]
-> Auf den Netzbetreiberstamm angewendete Regeln für die Nummernübersetzung gelten nicht für abgeleitete Trunks. Dies ist ein bekanntes Problem. Als Alternative müssen Für die Mandanten jedes Kunden Regeln für die Nummernübersetzung erstellt werden.
+> Die auf den Carrier Trunk angewendeten Regeln für die Nummernübersetzung gelten nicht für abgeleitete Trunks. Dies ist ein bekanntes Problem. Als Alternative müssen Für die Mandanten jedes Kunden Regeln für die Nummernübersetzung erstellt werden.
 
 **Migration vom vorherigen Modell zum Carrier Trunk**
  
-Für die Migration von der aktuellen Implementierung des gehosteten Modells des Netzbetreibers auf das neue Modell müssen die Netzbetreiber die Trunks für Kunden-Mandanten neu konfigurieren. Entfernen Sie die Trunks von den Kunden mandanten mithilfe Remove-CSOnlinePSTNGateway (der Trunk wird im Mandanten des Netzbetreibers verlassen)-
+Für die Migration von der aktuellen Implementierung des gehosteten Modells des Netzbetreibers auf das neue Modell müssen die Netzbetreiber die Trunks für Kunden-Mandanten neu konfigurieren. Entfernen Sie die Trunks von den Kunden mandanten mithilfe Remove-CSOnlinePSTNGateway (der Trunk wird im Mandanten des Netzbetreibers belässt)-
 
 Wir empfehlen dringend, so bald wie möglich zur neuen Lösung zu migrieren, da wir die Überwachung und Bereitstellung mit dem Netzbetreiber und abgeleiteten Trunkmodell verbessern werden.
  

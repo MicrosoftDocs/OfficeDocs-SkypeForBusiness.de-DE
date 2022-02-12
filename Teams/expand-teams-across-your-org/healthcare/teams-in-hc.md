@@ -26,18 +26,18 @@ description: Informieren Sie sich zu den Gesundheitsfunktionen wie Microsoft Tea
 ms.custom:
 - seo-marvel-apr2020
 - seo-marvel-jun2020
-ms.openlocfilehash: 665cb047bf19a14c88d0c84c3276aaec305bb2d6
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: f257dbf999a333cb9b40d391cf15758631a4ffa6
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60960014"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763350"
 ---
 # <a name="get-started-with-teams-for-healthcare-organizations"></a>Erste Schritte mit Teams für Organisationen im Gesundheitswesen
 
 Microsoft Teams bietet eine Reihe von Telemedizin-Funktionen, die für Krankenhäuser und andere Organisationen im Gesundheitswesen nützlich sind. Teams-Funktionen werden derzeit entwickelt, um Krankenhäuser mit Folgendem zu unterstützen:
 
-- Virtuelle Besuche und Integration von elektronischen Gesundheitsakten (EGA)
+- Integration virtueller Besuche und elektronischer Datensatz im Gesundheitswesen (Electronic Healthcare Record, EHR)
 - Teams-Richtlinienpakete
 - Sicheres Messaging
 - Teams-Vorlagen
@@ -56,8 +56,8 @@ Die folgenden Szenarien sind für Organisationen im Gesundheitswesen verfügbar:
 
 | Szenario | Beschreibung | Anforderungen |
 | -------- | -------- | -------- |
-| [Virtuelle Besuche mit Integration von elektronischen Gesundheitsakten (EGA)](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Planen, verwalten und führen Sie virtuelle Besuche bei den Patienten durch. In diesem Szenario werden Teams Cerner- oder Epo-Plattform verbunden, um virtuelle Besuche zu unterstützen. | Aktives Abonnement Microsoft Cloud für das Gesundheitswesen Abonnement für den eigenständigen EHR Microsoft Teams EHR-Connector. <br> Benutzer müssen über eine geeignete Lizenz Microsoft 365 oder Office 365 verfügen, die Teams enthält*. <br> Organisationen müssen über cerner-Version November 2018 oder höher oder epische Version November 2018 oder höher verfügen. <br>Details für [Cerner EHR-](ehr-admin-cerner.md#before-you-begin) und [Epische EHR-Anforderungen](ehr-admin.md#before-you-begin) |
-| [Virtuelle Besuche mit Microsoft Bookings und der Bookings-App](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Planen, verwalten und führen Sie virtuelle Besuche bei den Patienten durch. Dieses Szenario basiert auf Microsoft Bookings, um virtuelle Besuche zu unterstützen. | Microsoft Bookings muss für die Organisation aktiviert sein. <br> Alle Benutzer der Bookings-App und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die die Planung von Teams-Besprechungen unterstützt*. <br>[Details zu den Anforderungen für Bookings](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
+| [Virtuelle Besuche mit Integration des elektronischen Gesundheitswesens (Electronic Healthcare Record, EHR)](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Planen, verwalten und durchführen Sie virtuelle Termine mit Patienten. In diesem Szenario werden Teams Cerner- oder Epo-Plattform verbunden, um virtuelle Besuche zu unterstützen. | Aktives Abonnement für Microsoft Cloud für das Gesundheitswesen Abonnement des eigenständigen Microsoft Teams EHR Connector. <br> Benutzer müssen über eine geeignete Lizenz Microsoft 365 oder Office 365 verfügen, die Teams enthält*. <br> Organisationen müssen über cerner-Version November 2018 oder höher oder epische Version November 2018 oder höher verfügen. <br>Details für [Cerner EHR-](ehr-admin-cerner.md#before-you-begin) und [Epische EHR-Anforderungen](ehr-admin.md#before-you-begin) |
+| [Virtuelle Besuche mit Microsoft Bookings und der Bookings-App](#virtual-visits-and-electronic-healthcare-record-ehr-integration) | Planen, verwalten und durchführen Sie virtuelle Termine mit Patienten. Dieses Szenario basiert auf Microsoft Bookings zur Unterstützung virtueller Besuche. | Microsoft Bookings muss für die Organisation aktiviert sein. <br> Alle Benutzer der Bookings-App und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die die Planung von Teams-Besprechungen unterstützt*. <br>[Details zu den Anforderungen für Bookings](../../bookings-app-admin.md#prerequisites-for-using-the-bookings-app-in-teams)|
 | [Microsoft Teams-Richtlinienpakete](#teams-policy-packages)| Stellen Sie sicher, dass Geräte von Klinikmitarbeitern, von Information-Workers und in den Patientenzimmern über den entsprechenden Zugriff auf Teamfunktionen verfügen.| Benutzer müssen über eine entsprechende Lizenz* verfügen. |
 | [Sicheres Messaging](#secure-messaging) | Erhalten Sie schnellere Aufmerksamkeit für dringende Nachrichten und haben Sie die Gewissheit, dass die Nachricht empfangen und gelesen wurde. | Benutzer müssen über eine entsprechende Lizenz* verfügen.  |
 | [Teams-Vorlagen](#teams-templates-for-healthcare-organizations) | Erstellen Sie Teams, die eine vordefinierte Vorlage mit Einstellungen, Kanälen und vorinstallierten Apps für die Kommunikation und Zusammenarbeit in einer Station, eines Pods, einer Abteilung oder zwischen mehreren Stationen, Pods oder Abteilungen innerhalb eines Krankenhauses enthalten. | Benutzer müssen über eine entsprechende Lizenz* verfügen.  |
@@ -65,12 +65,12 @@ Die folgenden Szenarien sind für Organisationen im Gesundheitswesen verfügbar:
 
 *Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3 und E5, Business Standard werden unterstützt. Weitere Informationen zur allgemeinen Teams-Lizenzierung finden Sie unter [Verwalten des Benutzerzugriffs auf Teams](../../user-access.md).
 
-## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Virtuelle Besuche und Integration von elektronischen Gesundheitsakten (EGA)
+## <a name="virtual-visits-and-electronic-healthcare-record-ehr-integration"></a>Integration virtueller Besuche und elektronischer Datensatz im Gesundheitswesen (Electronic Healthcare Record, EHR)
 
-Verwenden Sie die vollständige Besprechungsplattform in Teams, um virtuelle Visite mit Patienten zu planen, zu verwalten und durchführen.
+Verwenden Sie die vollständige Besprechungsplattform in Teams zum Planen, Verwalten und Durchführen virtueller Termine mit Patienten.
 
-- Wenn Ihre Organisation bereits elektronische Krankenakten (Electronic Health Records, EHR) verwendet, können Sie die Teams nahtloser integrieren. Teams Connector für elektronische Krankenakten (Electronic Health Record, EHR) vereinfacht es Klinikbetreibern, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Weitere Informationen finden Sie unter Virtuelle Besuche mit [Teams - Integration in Cerner EHR](ehr-admin-cerner.md) und Virtuelle Besuche mit Teams - Integration in die [Epische EHR.](ehr-admin.md)
-- Wenn Sie keine unterstützte EGA verwenden, können Sie Microsoft Bookings und die Bookings-App in Teams verwenden. Weitere Informationen finden Sie unter Virtuelle Besuche mit Teams [und der Bookings-App.](../bookings-virtual-visits.md)
+- Wenn Ihre Organisation bereits elektronische Krankenakten (Electronic Health Records, EHR) verwendet, können Sie die Teams nahtloser integrieren. Teams Connector für elektronische Krankenakten (Electronic Health Record, EHR) vereinfacht es Klinikbetreibern, direkt vom EHR-System aus einen virtuellen Patientenbesuch zu starten oder mit einem anderen Anbieter in Teams zu beraten. Weitere Informationen finden Sie unter Virtuelle Besuche mit [Teams - Integration in Cerner EHR](ehr-admin-cerner.md) und Virtuelle Besuche mit [Teams - Integration in die Epische EHR](ehr-admin.md).
+- Wenn Sie keine unterstützte EGA verwenden, können Sie Microsoft Bookings und die Bookings-App in Teams verwenden. Weitere Informationen finden Sie unter [Virtuelle Besuche mit Teams und der Bookings-App](../bookings-virtual-visits.md).
 
 ![Virtuelle Besuche mit Microsoft Teams.](../../media/virtual-visits-teams.png)
 
@@ -103,11 +103,11 @@ Neue Vorlagen zum Erstellen von Teams wurden entwickelt, um sie auf eine Kranken
 
 ## <a name="care-coordination-and-collaboration"></a>Pflegekoordination und Zusammenarbeit
 
-Bringen Sie Ihr Gesundheitsteam zusammen, um die Pflege zu koordinieren und mit ihren Teams.
+Bringen Sie Ihr Gesundheitsteam zusammen, um die Pflege zu koordinieren und mit Teams.
 
 ![Gesundheitswesen: Arbeiten Sie mit Ihrem Gesundheitsteam in Teams.](../../media/teams-healthcare-collaborate-in-teams.png)
 
-Teams können Ärzte, Klinikangestellte, Krankenschwesteren und andere Mitarbeiter effizient zusammenarbeiten und funktionen für die Zusammenarbeit in Teams, z. B.:
+Teams ermöglicht es Ärzten, Klinikikern, Krankenschwesteren und anderen Mitarbeitern, effizient zusammenzuarbeiten und die Funktionen für die Zusammenarbeit in Teams, z. B.:
 
 - Einrichten von Teams und Kanälen für Ihre Gesundheitsteams und Information Worker. Verwenden von Kanälen mit Registerkarten als eine Möglichkeit zur Strukturierung ihrer Arbeit, mit zusätzlicher Hilfe von Registerkarten, an die sie Informationsquellen anheften können.
 - Chatten Sie, schreiben Sie Nachrichten und kommunizieren Sie. Ihr Team kann anhaltende Gespräche über verschiedenen Patienten führen, die Aufmerksamkeit benötigen.
@@ -152,7 +152,7 @@ Sie können die Genehmigungs-App für Ihre Organisation zulassen und ihren Teams
 
 ### <a name="create-manage-and-share-schedules-with-the-shifts-app-and-frontline-worker-integration"></a>Erstellen, Verwalten und Freigeben von Zeitplänen mit der App „Schichten“ und der Integration von Mitarbeitern in Service und Produktion
 
-Teams in die App Schichten und den Frontline Worker integriert, die zum Koordinieren der Funktionen für die Schichtmitarbeiter und vieles mehr verwendet werden können. So können Pflegemanager beispielsweise in Schichten Zeitpläne für ihre Mitarbeiter einrichten und koordinieren, und Pflegekräfte können Zeitpläne überprüfen und Schichten tauschen. Microsoft Teams umfasst eine integrierte App-Setup-Richtlinie für Mitarbeiter in Service und Produktion, die Sie ihnen in Ihrem Unternehmen zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe. Diese Richtlinie steuert das Verhalten für diese Apps, z. B. das Anheften der Schichten-App an die App-Leiste, damit das Team schnell darauf zugreifen kann.
+Teams ist mit der App „Schichten“ in arbeitsplatzungebundene Mitarbeiter integriert, was unter anderem zum Koordinieren von Schichtbesetzungsfeatures verwendet werden kann. So können Pflegemanager beispielsweise in Schichten Zeitpläne für ihre Mitarbeiter einrichten und koordinieren, und Pflegekräfte können Zeitpläne überprüfen und Schichten tauschen. Microsoft Teams umfasst eine integrierte App-Setup-Richtlinie für Mitarbeiter in Service und Produktion, die Sie ihnen in Ihrem Unternehmen zuweisen können. Standardmäßig beinhaltet diese Richtlinie die Apps für Aktivität, Schichten, Chat und Anrufe. Diese Richtlinie steuert das Verhalten für diese Apps, z. B. das Anheften der Schichten-App an die App-Leiste, damit das Team schnell darauf zugreifen kann.
 
 Weitere Informationen finden Sie unter [Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams](../shifts/manage-the-shifts-app-for-your-organization-in-teams.md).
 
@@ -162,4 +162,4 @@ Es stehen viele Ressourcen zur Verfügung, die allen Benutzern in Ihrer Organisa
 
 - Im [Teams Adoption Center](https://adoption.microsoft.com/microsoft-teams/) finden Sie Tipps zur Einführung von Teams, wenn Sie gerade erst mit der Einführung von Teams in Ihrem Unternehmen beginnen, oder um Teams auf weitere Bereiche Ihres Unternehmens auszuweiten.
 - Erwägen Sie die Einrichtung benutzerdefinierter [Lernpfade](https://adoption.microsoft.com/microsoft-365-learning-pathways/), damit ihre Benutzer nur die notwendigen Aufgaben durchlaufen müssen.
-- Erhalten Sie Hilfe und Schulungen für Ihre Benutzer zum Ausführen grundlegender Aufgaben in Teams auf der [Teams-Supportwebsite](https://support.microsoft.com/teams), einschließlich [kurzen Schulungsvideos.](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7) Diese Website bietet auch Hilfe und Schulungen für die Teams-Apps, einschließlich [Listen](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [Genehmigungen](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) und [-Schichten](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).
+- Erhalten Sie Hilfe und Schulungen für Ihre Benutzer zum Ausführen grundlegender Aufgaben in Teams auf der [Teams Support-Website](https://support.microsoft.com/teams), einschließlich [schneller Schulungsvideos](https://support.microsoft.com/office/microsoft-teams-video-training-4f108e54-240b-4351-8084-b1089f0d21d7). Diese Website bietet auch Hilfe und Schulungen für die Teams-Apps, einschließlich [Listen](https://support.microsoft.com/office/get-started-with-lists-in-teams-c971e46b-b36c-491b-9c35-efeddd0297db), [Tasks](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070), [Genehmigungen](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3), [Bookings](https://support.microsoft.com/office/overview-of-the-bookings-app-in-teams-7b8569e1-0c8a-444e-b712-d9968b05110b) und [-Schichten](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821).

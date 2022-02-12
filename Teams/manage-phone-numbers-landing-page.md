@@ -27,12 +27,12 @@ ms.custom:
 - Calling Plans
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Telefonnummern für Benutzer (Abonnent) und Dienste (gebührenpflichtige und gebührenfreie) Für Microsoft Teams Organisation erhalten und verwalten.
-ms.openlocfilehash: d29781e16c881c9b0e00e39c6e57314c6696d8bb
-ms.sourcegitcommit: 9364f4fdf3dcd5ab6805360ff913d4e2e7ca9cfb
+ms.openlocfilehash: c4ea749e98097765d302c334f5d8bd75e8dc0d21
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/17/2021
-ms.locfileid: "59432796"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763809"
 ---
 # <a name="manage-telephone-numbers-for-your-organization"></a>Verwalten von Telefonnummern für Ihre Organisation
 
@@ -40,23 +40,23 @@ Derzeit unterstützt Microsoft zwei Arten von Telefonnummern:
 
 - [**Benutzernummern**](#user-telephone-numbers), auch als Abonnentennummern bezeichnet, die Benutzern in Ihrer Organisation zugewiesen werden können.
 
-- [**Servicenummern**](#service-telephone-numbers), die Diensten wie [Audiokonferenzen,](deploy-audio-conferencing-teams-landing-page.md) [automatischen](plan-auto-attendant-call-queue.md)Telefonkonferenzen oder [Anrufwarteschleifen zugewiesen sind.](plan-auto-attendant-call-queue.md)
+- [**Servicenummern**](#service-telephone-numbers), die Diensten wie [Audiokonferenzen, automatischen Telefonkonferenzen](deploy-audio-conferencing-teams-landing-page.md) oder [](plan-auto-attendant-call-queue.md)Anrufwarteschleifen [zugewiesen sind](plan-auto-attendant-call-queue.md).
 
 Microsoft arbeitet an der Vereinfachung von Zahlentypen, doch vorerst müssen Sie sich entscheiden:
 
 - An welchen Benutzerstandorten benötigen Sie neue Telefonnummern von Microsoft?
-- Welche Art von Telefonnummer (Abonnent oder Dienst) brauche ich?
+- Welche Art von Telefonnummer (Abonnenten oder Dienst) benötige ich?
 - Wie portiert ich vorhandene Telefonnummern zu Teams?
 
 Die Art und Weise, wie Sie Telefonnummern erwerben und verwalten, hängt von der PstN-Konnektivitätsoption ab.
 
-- Informationen zum Verwalten von Telefonnummern für den Microsoft-Anrufplan finden Sie unter [Verwalten von Telefonnummern für Anrufpläne.](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md)
+- Informationen zum Verwalten von Telefonnummern für den Microsoft-Anrufplan finden Sie unter [Verwalten von Telefonnummern für Anrufpläne](manage-phone-numbers-for-your-organization/manage-phone-numbers-for-your-organization.md).
 
-- Informationen zum Verwalten von Telefonnummern für Verbinden Operatoren finden Sie unter Einrichten von [Telefonnummern mit Verbinden.](operator-connect-configure.md#set-up-phone-numbers)
+- Informationen zum Verwalten von Telefonnummern für Operatoren Verbinden Sie unter Einrichten von [Telefonnummern mit operator Verbinden](operator-connect-configure.md#set-up-phone-numbers).
 
-- Informationen zum Verwalten von Telefonnummern für Direct Routing finden Sie unter Konfigurieren der Telefonnummer [und Aktivieren von Enterprise-Voicemail und -Voicemail.](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online)
+- Informationen zum Verwalten von Telefonnummern für Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
-Wenn Sie zusätzliche oder andere Nummerntypen benötigen, die nicht mit den im Microsoft Teams Admin Center zu sehen sind, können Sie eine Telefonnummernanforderung an [das Telefon Number Service Center senden.](https://pstnsd.powerappsportals.com/)
+Wenn Sie zusätzliche oder andere Nummerntypen benötigen, die nicht mit den nummern im Microsoft Teams Admin Center zu sehen sind, können Sie eine Telefonnummernanfrage an [das Telefon Number Service Center senden](https://pstnsd.powerappsportals.com/).
 
 ## <a name="user-telephone-numbers"></a>Telefonnummern von Benutzern
 
@@ -71,7 +71,7 @@ Es gibt zwei Arten von Benutzertelefonnummern, die Benutzern in Ihrer Organisati
 
 In diesem Abschnitt werden die von Microsoft verfügbaren Leistungsnummern beschrieben, die in Ihrer Lizenzierung enthalten sind. Wenn Sie Informationen zu den von der Netzbetreiber-Verbinden oder Direct Routing bereitgestellten Leistungsnummern erhalten, wenden Sie sich an Ihren Anbieter. 
 
-Es gibt zwei Arten von Servicetelefonnummern, die von Microsoft bereitgestellt werden: gebührenpflichtig und gebührenfrei, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschleifen zugewiesen werden können. Leistungsnummern haben eine höhere Kapazität für gleichzeitige Anrufe als Benutzernummern. Die Verfügbarkeit von Servicenummer ist je nach Land/Region und Art der Nummer (gebührenpflichtige oder gebührenfreie Nummer) unterschiedlich. Die Telefonielizenzen von Microsoft in jedem Land/jeder Region bestimmen, wofür die Nummer verwendet werden kann.
+Es gibt zwei Arten von Servicetelefonnummern, die von Microsoft bereitgestellt werden: gebührenpflichtig und gebührenfrei, die Diensten wie Audiokonferenzen, automatischen Telefonkonferenzen oder Anrufwarteschleifen zugewiesen werden können. Leistungsnummern haben eine höhere Kapazität für gleichzeitige Anrufe als Benutzernummern. Die Verfügbarkeit der Servicenummer ist je nach Land/Region und Art der Nummer (gebührenpflichtige oder gebührenfreie Nummer) unterschiedlich. Die Telefonielizenzen von Microsoft in jedem Land/jeder Region bestimmen, wofür die Nummer verwendet werden kann.
     
  - **Gebührenpflichtige Leistungsnummern** – Es gibt zwei Arten von gebührenpflichtigen Leistungsnummern, die für den Anrufer zu gebührenpflichtigen Kosten werden können:
     
@@ -88,4 +88,4 @@ Es gibt zwei Arten von Servicetelefonnummern, die von Microsoft bereitgestellt w
     
   
 > [!NOTE]
-> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie sich an das Telefon [Number Service Center.](https://pstnsd.powerappsportals.com/)
+> Wenn Sie mehr als diese Telefonnummern benötigen, wenden Sie sich an das Telefon [Number Service Center](https://pstnsd.powerappsportals.com/).

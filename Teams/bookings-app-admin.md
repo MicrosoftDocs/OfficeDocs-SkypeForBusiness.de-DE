@@ -21,29 +21,29 @@ ms.collection:
 - m365solution-scenario
 ms.reviewer: ''
 description: Erfahren Sie, wie Sie die Bookings-App in Teams Benutzern in Ihrer Organisation verwalten.
-ms.openlocfilehash: 2bbc671b1054cfa4340abf7656e17939d147dea2
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: 147089c51ebc6d3e5eb6bf567579c9aa7fc5f2ce
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288343"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763729"
 ---
 # <a name="manage-the-bookings-app-in-microsoft-teams"></a>Verwalten der Bookings-App in Microsoft Teams
 
 Die Bookings-App in Microsoft Teams bietet eine einfache Möglichkeit zum Planen von persönlichen und virtuellen Terminen, z. B. Arzttermine, Finanzberatungsgespräche, Bewerbungsgespräche, Kundensupport, Dienststunden für Bildungseinrichtungen und vieles mehr. Weitere Informationen finden Sie unter [Virtuelle Besuche mit Teams und der Bookings-App](expand-teams-across-your-org/bookings-virtual-visits.md).
 
-Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Lösung verwalten. Die virtuellen Termine selbst werden über Microsoft Teams-Besprechungen abgehalten, die stabile Videokonferenzfunktionen bieten.
+Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Lösung verwalten. Die virtuellen Termine selbst werden über Microsoft Teams-Besprechungen abgehalten, die stabile Funktionen für die Videokonferenz bieten.
 
 > [!NOTE]
-> Nur planende Personen müssen die Bookings-App in Microsoft Teams installiert haben. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie können einfach über ihren eigenen Kalender oder Outlook über Teams Oder über den Link Teams Besprechung in der Buchungsbestätigungs-E-Mail teilnehmen.
+> Nur planende Personen müssen die Bookings-App in Microsoft Teams installiert haben. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie können termine einfach über ihren eigenen Outlook oder Teams oder über den Link Teams Besprechung in der Buchungsbestätigungs-E-Mail beitreten.
 
 ## <a name="prerequisites-for-using-the-bookings-app-in-teams"></a>Voraussetzungen für die Verwendung der Bookings-App in Microsoft Teams
 
-- Das Exchange-Postfach muss sich in Exchange Online befinden. Lokale Exchange Server Postfächer werden nicht unterstützt.
+- Das Exchange-Postfach muss sich in Exchange Online befinden. Lokale Exchange Server postfächer werden nicht unterstützt.
 
 - Microsoft Bookings muss für die Organisation aktiviert sein.
 
-- Die Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3, A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 und Business Standard werden unterstützt.
+- Die Benutzer müssen über eine entsprechende Lizenz verfügen. Office 365 A3 werden A5, E3, E5, F1, F3, Microsoft 365 A3, A5, E3, E5, F1, F3 und Business Standard unterstützt.
 
 - Alle Benutzer der Bookings-App und alle an Besprechungen teilnehmenden Mitarbeiter müssen über eine Lizenz verfügen, die Teams unterstützt.
 
@@ -51,15 +51,15 @@ Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie
 
 ## <a name="availability-of-bookings-in-teams"></a>Verfügbarkeit von Bookings in Microsoft Teams
 
-Die Microsoft Bookings-Teams ist auf dem Desktop und im Web verfügbar. Sie finden sie unter [Apps in Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) und unter **Apps verwalten** im Teams Admin Center.
+Die Microsoft Bookings-App Teams steht auf dem Desktop und im Web zur Verfügung. Sie finden sie unter [Apps in Teams](https://teams.microsoft.com/l/app/4c4ec2e8-4a2c-4bce-8d8f-00fc664a4e5b?source=store-copy-link) und unter **Apps verwalten** im Teams Admin Center.
 
 ### <a name="control-access-to-bookings-within-your-organization"></a>Steuern des Zugriffs auf die Bookings-App innerhalb Ihrer Organisation
 
 Es gibt mehrere Möglichkeiten, um zu steuern, wer Zugriff auf die Bookings-App und auf bestimmte Features der App hat.
 
-Informationen zum Aktivieren oder Deaktivieren von Microsoft Bookings im Microsoft 365 Admin Center und zum Erstellen einer Bookings-App-Richtlinie, die ausgewählten Benutzern das Erstellen von Bookings-Kalendern erlaubt, finden Sie unter Zugriff auf [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) erhalten.
+Informationen zum Aktivieren oder Deaktivieren von Microsoft Bookings im Microsoft 365 Admin Center und zum Erstellen einer Bookings-App-Richtlinie, mit der ausgewählten Benutzern das Erstellen von Bookings-Kalendern ermöglicht wird, finden Sie unter Zugriff auf [Microsoft Bookings](https://support.microsoft.com/en-us/office/get-access-to-microsoft-bookings-5382dc07-aaa5-45c9-8767-502333b214ce) erhalten.
 
-Sie können auch [eine Richtlinie für die Teams Ihrer App erstellen, um die Bookings-App für ausgewählte Benutzer anheften](teams-app-setup-policies.md).
+Sie können auch [eine Setuprichtlinie Teams Ihrer App erstellen, um die Bookings-App für ausgewählte Benutzer anheften](teams-app-setup-policies.md).
 
 ## <a name="recommended-meeting-policy-settings"></a>Empfohlene Besprechungsrichtlinieneinstellungen
 
@@ -100,11 +100,11 @@ Wir freuen uns über Ihr Feedback zu:
   - Lücken bei Features oder fehlende Funktionen
   - Fehler oder Probleme
   
-Um Feedback zu senden, wählen  Sie die Schaltfläche Hilfe am unteren Rand der linken Teams und dann Problem **für** **ALLE Probleme** melden aus. Geben Sie am Anfang Ihres Feedbackberichts an, dass Sie Feedback zu "Bookings" senden, damit wir Bookings-Probleme problemlos erkennen können.
+Um Feedback zu senden, wählen  Sie die Schaltfläche Hilfe am unteren Rand der linken Navigationsleiste Teams und dann Problem **für** **ALLE Probleme melden** aus. Geben Sie am Anfang Ihres Feedbackberichts an, dass Sie Feedback zu "Bookings" senden, damit wir Bookings-Probleme problemlos erkennen können.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-[Verwalten der Teilnahmeerfahrung für virtuelle Teams in mobilen Browsern](expand-teams-across-your-org/mobile-browser-join.md)
+[Verwalten der Teilnahmeerfahrung für Teams virtuelle Besuche in mobilen Browsern](expand-teams-across-your-org/mobile-browser-join.md)
 
 
   [Bookings-Dokumentation für Endbenutzer](https://support.office.com/en-us/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b?ui=en-US&rs=en-US&ad=US#PickTab=Bookings)

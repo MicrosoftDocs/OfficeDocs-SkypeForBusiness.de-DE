@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: msteams
 ms.localizationpriority: medium
 description: Erfahren Sie, wie Sie die Lob-App im Microsoft Teams Admin Center verwalten.
-ms.openlocfilehash: 064a1b90db44971e2fd796ea96de2a3523f7f380
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 24ddbc66018056360e226f13669ee3dae1e78db5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62401609"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763310"
 ---
 # <a name="manage-the-praise-app-in-the-microsoft-teams-admin-center"></a>Verwalten der Lob-App im Microsoft Teams Admin Center
 
-Die Lob-App in Microsoft Teams hilft Benutzern, Den Mitgliedern Ihrer Organisation oder Ihres Klassenzimmers Anerkennung zu zeigen. Die Badges in Lob sollen Ihnen helfen, die Anstrengungen zu erkennen, die in die breite Palette an Arbeit eingeht, die Teams Benutzer tun, von Lehrkräften bis zu Mitarbeitern an vorderer Front. Weitere Informationen finden Sie unter [Senden Lob an Personen](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
+Die Lob-App in Microsoft Teams hilft Benutzern, Mitgliedern Ihrer Organisation oder Ihres Klassenzimmers Anerkennung zu zeigen. Die Badges in Lob sollen Ihnen helfen, die Anstrengungen zu erkennen, die in die breite Palette an Arbeit eingeht, die Teams Benutzer tun, von Lehrkräften bis zu Mitarbeitern an vorderer Front. Weitere Informationen finden Sie unter [Senden Lob an Personen](https://support.microsoft.com/office/send-praise-to-people-50f26b47-565f-40fe-8642-5ca2a5ed261e).
 
 Administratoren müssen über eine Lizenz Teams verfügen, um auf dieses Feature zugreifen zu können. Wenn Sie versuchen, ohne eine Lizenz für Teams auf dieses Feature zu zugreifen, wird eine Fehlermeldung angezeigt.
 
@@ -29,10 +29,10 @@ Administratoren müssen über eine Lizenz Teams verfügen, um auf dieses Feature
 
 Lob ist standardmäßig für alle Benutzer Teams in Ihrer Organisation aktiviert. Sie können die App auf Organisationsebene im Microsoft Teams Admin Center auf der Seite [Apps verwalten](manage-apps.md) deaktivieren oder aktivieren.
 
-:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot der Seite "Lob"-App-Details" im Teams Admin Center mit der Umschaltleiste "Status".":::
+:::image type="content" source="media/manage-praise-app-admin-center.png" alt-text="Screenshot der Seite "Lob"-Details der App im Teams Admin Center mit der Umschaltleiste "Status".":::
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**.
-2. Suchen Sie in der Liste der Apps nach der Lob-App, wählen Sie sie aus, und wechseln Sie dann zur Umschaltfunktion **Status** in **Blockiert** oder **Zulässig**.
+2. Suchen Sie in der Liste der Apps nach der Lob-App, wählen Sie sie aus, und ändern Sie dann die Umschaltfunktion **Status** auf **Blockiert** oder **Zulässig**.
 
 Beachten Sie, dass sich diese Einstellung sowohl auf die Lob-App als auch Lob Feature in der App "Viva Insights" in Teams.
 
@@ -47,7 +47,7 @@ Dies ist der Standardsatz von Signalen in Lob. Teams Benutzer in Ihrer Organisat
 :::image type="content" source="media/default-set-praise.png" alt-text="Abbildung von Signalen im Standardabzeichensatz.":::
 
 > [!NOTE]
-> Ab Februar 2022 können Personen nur Standardabzeichen senden und empfangen. Benutzerdefinierte Badges sind nicht mehr verfügbar, und Optionen für benutzerdefinierte Badges werden bald von der Einstellungen-Seite der App im Teams Admin Center entfernt.
+> Ab Februar 2022 können Personen nur Standardabzeichen senden und empfangen. Benutzerdefinierte Badges sind nicht mehr verfügbar, und Optionen für benutzerdefinierte Badges wurden aus Teams Admin Center entfernt.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 

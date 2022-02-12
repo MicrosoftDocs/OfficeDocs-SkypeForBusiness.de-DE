@@ -24,12 +24,12 @@ search.appverid: MET150
 description: Erfahren Sie mehr Teams Optionen für Anrufe über das Festnetz und die Entscheidungen, die Sie für Ihre Organisation treffen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 409f5a1f8872b8e3bd3b1999a0024fa28583024d
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 28cb740146fc23f3dfdda35c35f280cba8a950c4
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518827"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763749"
 ---
 # <a name="pstn-connectivity-options"></a>PSTN-Konnektivitätsoptionen
 
@@ -48,12 +48,12 @@ Um das Telefonsystem mit dem PSTN zu verbinden, können Sie aus den folgenden Op
 
 Sie können auch eine Kombination von Optionen wählen, mit der Sie eine Lösung für eine komplexe Umgebung entwerfen oder eine mehrstufige Migration verwalten können.
 
-Die von Ihnen ausgewählten Optionen wirken sich auf die Telefonsystem Konfiguration einiger Features aus. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [ Überlegungen zur Konfiguration ](#configuration-considerations).
+Die von Ihnen auswählen Optionen haben Einfluss darauf, wie Telefonsystem Features konfiguriert werden. Weitere Informationen finden Sie weiter unten in diesem Artikel unter [ Überlegungen zur Konfiguration ](#configuration-considerations).
 
 
 ## <a name="phone-system-with-calling-plan"></a>Telefonsystem mit Anrufplan 
 
-Telefonsystem mit Anrufplan ist die All-in-the-Cloud-Sprachlösung von Microsoft für Teams-Benutzer. Diese Lösung ist die einfachste Option, bei der eine Verbindung Telefonsystem PSTN hergestellt wird. Bei dieser Option fungiert Microsoft als Ihr PSTN-Netzbetreiber, wie im folgenden Diagramm dargestellt:
+Telefonsystem mit Anrufplan ist die All-in-the-Cloud-Sprachlösung von Microsoft für Teams-Benutzer. Diese Lösung ist die einfachste Option, mit der eine Verbindung Telefonsystem PSTN hergestellt wird. Bei dieser Option fungiert Microsoft als Ihr PSTN-Netzbetreiber, wie im folgenden Diagramm dargestellt:
 
 ![In Abbildung 1 ist das Microsoft-Telefonsystems mit Anrufplan dargestellt.](media/voice-solutions-simple.png)
 
@@ -83,7 +83,7 @@ Weitere Informationen zum Anrufplan finden Sie in den folgenden Artikeln:
 
 ## <a name="phone-system-with-operator-connect"></a>Telefonsystem mit Telefonieanbieter
 
-Wenn Ihr Verbinden dem Operator-Verbinden-Programm teil nimmt, kann er den Dienst verwalten, mit dem PSTN-Anrufe an Teams. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
+Wenn Ihr Verbinden am Microsoft Operator Verbinden-Programm teil nimmt, können diese den Dienst verwalten, mit dem PSTN-Anrufe an Teams. Ihr Netzbetreiber verwaltet die PSTN-Anrufdienste und Session Border Controller (SBCs), sodass Sie beim Kauf und der Verwaltung von Hardware sparen können.
 
 Telefonieanbieter könnte die richtige Lösung für Ihr Unternehmen sein, wenn:
 
@@ -168,7 +168,7 @@ Wie Sie Telefonnummern erwerben und verwalten, hängt von Ihrer PSTN-Konnektivit
 
 - Informationen zum Verwalten von Telefonnummern mit Telefonieanbieter finden Sie unter [Telefonnummern mit Telefonieanbieter einrichten](operator-connect-configure.md#set-up-phone-numbers).
 
-- Informationen zum Verwalten von Telefonnummern für Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voice und -Voicemail](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online).
+- Informationen zum Verwalten von Telefonnummern für Direct Routing finden Sie unter [Konfigurieren der Telefonnummer und Aktivieren von Enterprise-Voice](direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice).
 
 
 ### <a name="call-routing-and-dial-plans"></a>Anrufweiterleitung und Wählpläne
@@ -201,7 +201,7 @@ Wie Sie Notrufe konfigurieren, hängt von Ihrer PSTN-Konnektivitätsoption ab.
 
 - Für die Verbinden wird jeder Benutzer automatisch für Notrufe aktiviert. Der Benutzer muss über eine registrierte Notfalladresse verfügen, die seiner zugewiesenen Telefonnummer zugeordnet ist.r. Die Adresse kann jedoch nur vom Netzbetreiberpartner festgelegt werden. Dynamische Notrufe (basierend auf dem Standort des Teams-Clients) werden unterstützt.
 
-- Für Direct Routing müssen Sie Richtlinien für Notrufe für Benutzer definieren, indem Sie eine Richtlinie Teams Notfallanruf (TeamsEmergencyCallRoutingPolicy) verwenden. Die Richtlinie definiert Notfallnummern und ihr zugeordnetes Routingziel. Registrierte Notfallstandorte werden für Direct Routing-Benutzer nicht unterstützt. Für dynamische Notrufe ist eine zusätzliche Konfiguration für das Routing von Notrufen und möglicherweise für die Partnerkonnektivität erforderlich.
+- Für direct Routing müssen Sie Richtlinien für Notrufe für Benutzer definieren, indem Sie eine Richtlinie Teams (TeamsEmergencyCallRoutingPolicy) zum Routing von Notrufen verwenden. Die Richtlinie definiert Notfallnummern und ihr zugeordnetes Routingziel. Registrierte Notfallstandorte werden für Direct Routing-Benutzer nicht unterstützt. Für dynamische Notrufe ist eine zusätzliche Konfiguration für das Routing von Notrufen und möglicherweise für die Partnerkonnektivität erforderlich.
 
 Weitere Informationen zu Notrufkonzepten und -terminologie sowie zum Konfigurieren von Notrufen und dynamischen Notrufen finden Sie in den folgenden Artikeln:
 
@@ -215,7 +215,7 @@ Weitere Informationen zu Notrufkonzepten und -terminologie sowie zum Konfigurier
 
 ### <a name="network-topology-for-voice-features"></a>Netzwerkeinstellungen für Cloud Voice-Features
 
-Wenn Sie dynamische Notrufe oder Routing für DirectLocation-Based Routing bereitstellen, müssen Sie die Netzwerkeinstellungen für diese Features in diesem Microsoft Teams. Informationen zum Konfigurieren von Netzwerkeinstellungen für Netzwerkregionen, Netzwerkstandorte, Netzwerksubnetze und vertrauenswürdige IP-Adressen finden Sie in den folgenden Artikeln:
+Wenn Sie dynamische Notrufe oder Location-Based-Routing für Direct-Routing bereitstellen, müssen Sie die Netzwerkeinstellungen für diese Features in diesem Microsoft Teams. Informationen zum Konfigurieren von Netzwerkeinstellungen für Netzwerkregionen, Netzwerkstandorte, Netzwerksubnetze und vertrauenswürdige IP-Adressen finden Sie in den folgenden Artikeln:
 
 - [Netzwerkeinstellungen für Cloud-Sprachfeatures in Microsoft Teams – Konzepte und Terminologie](cloud-voice-network-settings.md)
 - [Verwalten Ihrer Netzwerktopologie für Cloud Voice-Features in Microsoft Teams](manage-your-network-topology.md)
