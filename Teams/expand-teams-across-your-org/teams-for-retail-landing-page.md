@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 74b3f81456b8d0acdff0c41678c04713b5cf967a
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288413"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763400"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Erste Schritte mit Teams für den Einzelhandel
 
@@ -167,7 +167,7 @@ Für Einzelhandelsumgebungen können Ihnen die folgenden Apps und Dienste dabei 
 
 | Weitere Apps und Dienste von Microsoft | Beschreibung | Verwalten | Hilfe |
 | ----- | ----- | ----- | ----- |
-| Bookings | Aktivieren von virtuellen Anproben und Beratungsgesprächen. | [Virtuelle Visiten und Termine mit Microsoft Teams und der Bookings-App](bookings-virtual-visits.md) | [Verwenden von Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
+| Bookings | Aktivieren von virtuellen Anproben und Beratungsgesprächen. | [Virtuelle Untersuchung mit Microsoft Teams und der Bookings-App](bookings-virtual-visits.md) | [Verwenden von Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
 | Power Apps und die Power Platform | Ermöglichen die Integration von Geschäftsprozessen, und die schnelle Aktualisierungen von Daten, z. B. Lagerbestand, Verkaufszahlen, Schadensberichte und mehr. | [Integration von Teams in die Microsoft Power Platform](../teams-power-platfom-integration.md) und [Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center](../manage-power-platform-apps.md) | -  |
 | SharePoint | Wenn Sie ein neues Team erstellen, wird eine neue SharePoint-Site erstellt und mit dem Team verbunden. Viele der oben genannten Szenarien basieren auf bereits in Teams integrierten SharePoint-Features, z. B. das Freigeben von Dokumenten für die Zusammenarbeit im Team. | [Integration von Teams und SharePoint](/sharepoint/teams-connected-sites) | [Einfügen einer SharePoint-Seite, -Liste oder -Dokumentbibliothek als Registerkarte in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections erstellt einen Hub in Teams, in dem Ihre Einzelhandelsmitarbeiter einen maßgeschneiderten Newsfeed von Ihrer Organisation und ein personalisiertes Dashboard mit benötigten Ressourcen anzeigen können. | [Übersicht über Viva Connections](/sharepoint/viva-connections-overview) | [Viva Connections in Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
@@ -194,8 +194,8 @@ Da Sie nun wissen, welche Szenarien Sie implementieren möchten und was Sie ben�
 
 | Bild | Rolle | Responsibilities | Abteilung |
 | ---- | ---- | ----- | ----- |
-| ![Symbol für Administrator.](https://docs.microsoft.com/office/media/icons/administrator.png) | IT-Administrator | Arbeiten mit dem Personal von Operations und der Einzelhandelsverwaltung zusammen, um Szenarien und deren Funktionsweise für die Organisation zu definieren. <br><br>Konfigurieren Einstellungen im Teams Admin Center, z. B. Richtlinien und Vorlagen, und aktivieren Apps. <br><br>Richten App-Einstellungen (z. B. globale Schichteneinstellungen) für die Organisation ein. <br><br>Hinzufügen und Lizenzieren von Benutzern.  | IT-Abteilung |
-| ![Symbol für Benutzermonitor.](https://docs.microsoft.com/office/media/icons/user-monitor.png) | Operations-Personal | Arbeiten mit den Administratoren zusammen, um Szenarien zu definieren und zu bestimmen, welche Einstellungen, Richtlinien, Vorlagen und Apps für Teams benötigt werden. <br><br>Erstellen regionale oder Abteilungsteams aus Vorlagen. <br><br>Richten Aufgaben, Listen und Genehmigungsflüsse für die Abstimmung zwischen Filialen innerhalb einer Region oder zwischen Filialen und Zentrale ein. <br><br>Richten ein Learning-Framework für Mitarbeiter ein. | Central Operations |
-| ![Symbol für Referent.](https://docs.microsoft.com/office/media/icons/presenter-teams.png) | Filialleiter | Arbeiten mit Administratoren und Operations-Personal zusammen, um Szenarien zu definieren. <br><br>Erstellen Teams aus Vorlagen für die Filiale. <br><br>Richten nach Bedarf Kanäle und Apps für die Teams ein. Beispiel: ein Kanal für Schichtübergaben. <br><br>Richten in Schichten Filialzeitpläne ein. <br><br>Richten für die Filiale spezifische Aufgaben-, Listen- und Genehmigungsflüsse ein. <br><br>Richten Learning-Aufgaben für Mitarbeiter ein. | Filialsteuerung |
+|<img src="/office/media/icons/administrator.png" alt="Administrator symbol."> | IT-Administrator | Arbeiten mit dem Personal von Operations und der Einzelhandelsverwaltung zusammen, um Szenarien und deren Funktionsweise für die Organisation zu definieren. <br><br>Konfigurieren Einstellungen im Teams Admin Center, z. B. Richtlinien und Vorlagen, und aktivieren Apps. <br><br>Richten App-Einstellungen (z. B. globale Schichteneinstellungen) für die Organisation ein. <br><br>Hinzufügen und Lizenzieren von Benutzern.  | IT-Abteilung |
+|<img src="/office/media/icons/user-monitor.png" alt="User monitor symbol.">| Operations-Personal | Arbeiten mit den Administratoren zusammen, um Szenarien zu definieren und zu bestimmen, welche Einstellungen, Richtlinien, Vorlagen und Apps für Teams benötigt werden. <br><br>Erstellen regionale oder Abteilungsteams aus Vorlagen. <br><br>Richten Aufgaben, Listen und Genehmigungsflüsse für die Abstimmung zwischen Filialen innerhalb einer Region oder zwischen Filialen und Zentrale ein. <br><br>Richten ein Learning-Framework für Mitarbeiter ein. | Central Operations |
+|<img src="/office/media/icons/presenter-teams.png" alt="Presenter symbol."> | Filialleiter | Arbeiten mit Administratoren und Operations-Personal zusammen, um Szenarien zu definieren. <br><br>Erstellen Teams aus Vorlagen für die Filiale. <br><br>Richten nach Bedarf Kanäle und Apps für die Teams ein. Beispiel: ein Kanal für Schichtübergaben. <br><br>Richten in Schichten Filialzeitpläne ein. <br><br>Richten für die Filiale spezifische Aufgaben-, Listen- und Genehmigungsflüsse ein. <br><br>Richten Learning-Aufgaben für Mitarbeiter ein. | Filialsteuerung |
 
 Weitere Informationen zur erfolgreichen Implementierung und Einführung von Teams finden Sie unter [Einführen von Microsoft Teams](../adopt-microsoft-teams-landing-page.md).

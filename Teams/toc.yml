@@ -249,18 +249,6 @@ items:
                 href: /SkypeForBusiness/hybrid/cloud-consolidation-aad-connect
           - name: Integration mit Exchange und Microsoft Office SharePoint Online
             href: /SkypeForBusiness/skype-for-business-hybrid-solutions/integration-with-exchange-and-sharepoint
-  - name: Upgrade von Kaizala
-    items:
-      - name: Erste Schritte
-        href: get-started-kaizala-teams.md
-      - name: Vorbereiten des Upgrades
-        href: prepare-for-teams-kaizala.md
-      - name: Planen der Upgrade-Strategie
-        href: plan-your-move-kaizala.md
-      - name: Microsoft Teams navigieren
-        href: navigate-teams.md
-      - name: Machen Sie sich mit Microsoft Teams vertraut
-        href: drive-adoption-optimize-kaizala.md
   - name: 'Sicherheit, Compliance und Datenschutz'
     items:
       - name: Übersicht
@@ -909,10 +897,6 @@ items:
                     href: direct-routing-media-optimization.md
                   - name: Konfiguration der Optimierung lokaler Medien
                     href: direct-routing-media-optimization-configure.md
-              - name: Benutzerkonten in einer hybriden Umgebung mit PSTN-Konnektivität
-                href: direct-routing-user-accounts-in-a-hybrid-environment.md
-              - name: Migration zu Direct Routing
-                href: direct-routing-migrating.md
               - name: Überwachung und Problembehandlung von Direct Routing
                 items:
                   - name: Übersicht
@@ -972,7 +956,7 @@ items:
           - name: Telefonnummern für Telefonieanbieter verwalten
             href: operator-connect-configure.md#set-up-phone-numbers
           - name: Telefonnummern für Direct Routing verwalten
-            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice-and-voicemail-online
+            href: direct-routing-enable-users.md#configure-the-phone-number-and-enable-enterprise-voice
       - name: VoIP-Routing
         items:
           - name: Was sind Wählpläne?
@@ -1541,7 +1525,7 @@ items:
         items:
           - name: Bookings in Teams
             items:
-              - name: Virtuelle Besuche mit Teams und Bookings
+              - name: Virtuelle Untersuchung mit Teams und Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Verwalten der Microsoft Bookings-App
                 href: bookings-app-admin.md
@@ -1651,15 +1635,15 @@ items:
         items:
           - name: Erste Schritte mit Teams für Organisationen im Gesundheitswesen
             href: expand-teams-across-your-org/healthcare/teams-in-hc.md
-          - name: Virtuelle Besuche
+          - name: Virtuelle Untersuchung
             items:
-              - name: Virtuelle Besuche mit Teams – Integration in Cerner EGA
+              - name: Virtuelle Untersuchung mit Teams – Integration in die Cerner-EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin-cerner.md
-              - name: Virtuelle Besuche mit Teams – Integration in Epic EGA
+              - name: Virtuelle Untersuchung mit Teams – Integration in die Epic-EGA
                 href: expand-teams-across-your-org/healthcare/ehr-admin.md
               - name: EGA-Administratorberichte
                 href: expand-teams-across-your-org/healthcare/ehr-admin-reports.md
-              - name: Virtuelle Besuche mit Teams und Bookings
+              - name: Virtuelle Untersuchung mit Teams und Bookings
                 href: expand-teams-across-your-org/bookings-virtual-visits.md
               - name: Verwalten der Beitrittserfahrung auf mobilen Browsern
                 href: expand-teams-across-your-org/mobile-browser-join.md
@@ -1753,6 +1737,18 @@ items:
             href: get-started-with-teams-essentials.md
           - name: Verbinden Sie Teams Essentials (AAD Identity) mit E-Mail
             href: connect-teams-essentials-to-email.md
+      - name: Upgrade von Kaizala
+        items:
+          - name: Erste Schritte
+            href: get-started-kaizala-teams.md
+          - name: Vorbereiten des Upgrades
+            href: prepare-for-teams-kaizala.md
+          - name: Planen der Upgrade-Strategie
+            href: plan-your-move-kaizala.md
+          - name: Microsoft Teams navigieren
+            href: navigate-teams.md
+          - name: Machen Sie sich mit Microsoft Teams vertraut
+            href: drive-adoption-optimize-kaizala.md
       - name: Interoperabilität mit Microsoft 365 und Office 365
         items:
           - name: Microsoft 365-Gruppen und Teams
@@ -1762,8 +1758,9 @@ items:
           - name: Erweitern von vorhandenen Microsoft 365-Gruppen mit Teams
             href: enhance-office-365-groups.md
           - name: Interaktion von Exchange und Teams
-            href: exchange-teams-interact.md
             items:
+              - name: Interaktion von Exchange und Teams
+                href: exchange-teams-interact.md
               - name: Konfigurieren einer hybriden Exchange-Organisation zur Verwendung in Teams
                 href: exchange-hybrid-organization.md
               - name: Verwenden von Nachrichtenflussregeln mit Exchange

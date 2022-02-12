@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0146c77fc5727a1dc57a7062eeb62cebaba46034
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
+ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766218"
+ms.lasthandoff: 02/11/2022
+ms.locfileid: "62763648"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -86,7 +86,8 @@ In der folgenden Tabelle sind die wichtigsten Artikel aufgeführt, die Sie lesen
 | [Besprechungsrichtlinien](meeting-policies-overview.md)  | In diesem Artikel finden Sie Details dazu, wie die Richtlinien erstellt und verwaltet werden, über die festgelegt wird, welche Features für die Besprechungsteilnehmer verfügbar sind. | 
 | [Verwalten der Aufzeichnung von Microsoft Teams-Cloudbesprechungen](cloud-recording.md) | Hier finden Sie Informationen dazu, wie Besprechungsaufzeichnungen verwaltet werden. |
 | [Verwalten der Geräte Ihrer Organisation](device-management.md)| In diesem Artikel wird erläutert, wie Sie die Geräte Ihrer Organisation verwalten können, z. B. Telefone und Microsoft Teams-Räume. |
-||
+| [Verwenden von Echtzeit-Telemetrie zur Problembehandlung bei schlechter Besprechungsqualität](use-real-time-telemetry-to-troubleshoot-poor-meeting-quality.md) | Beschreibt, wie Sie Echtzeit-Analysen (Real-Time Analytics, RTA) verwenden, um Probleme mit der Microsoft Teams-Besprechungsqualität für einzelne Benutzer zu beheben. 
+|||
 
 #### <a name="key-training-for-end-users"></a>Wichtige Schulungen für Endbenutzer
 
