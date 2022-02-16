@@ -11,14 +11,20 @@ description: Anleitung zur Verwendung von Skripts zur Bereitstellung von Microso
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_RemoteWorkers
-  - remotework
-  - Teams_ITAdmin_FLW
+- M365-collaboration
+- Teams_ITAdmin_RemoteWorkers
+- remotework
+- Teams_ITAdmin_FLW
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 4f37e364450104b07adfe6a48c8cc29bab607470
+ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "61545006"
 ---
 # <a name="how-to-provision-teams-at-scale-for-frontline-workers"></a>Bereitstellen von Teams im großen Maßstab für Mitarbeiter in Service und Produktion
 
@@ -202,7 +208,7 @@ Apps werden an die App-Leiste angeheftet. Hierbei handelt es sich um die Leiste 
 |---------|---------|---------|
 |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die App-Leiste angeheftet sind.](media/flw-teams-desktop-client.png)         |         |![Screenshot des Microsoft Teams-Desktopclients mit Apps, die an die untere Leiste angeheftet sind.](media/flw-teams-mobile-client.png) |
 
-*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter in Service und Produktion und deren Vorgesetzte, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche den Anforderungen Ihres Unternehmens entsprechend anpassen.
+*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter in Service und Produktion und deren Vorgesetzte, um ihnen eine einfachere und effizientere Benutzeroberfläche zur Verfügung zu stellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
 #### <a name="create-the-frontline-manager-app-setup-policy"></a>Erstellen der App-Einrichtungsrichtlinie für Vorgesetzte in Service und Produktion
 
@@ -261,7 +267,7 @@ Die folgenden Einstellungen können so angepasst werden, dass sie den Anforderun
 
 Als Administrator können Sie App-Berechtigungsrichtlinien verwenden, um zu steuern, welche Apps Microsoft Teams-Benutzern in Ihrer Organisation zur Verfügung stehen. Sie können alle oder nur bestimmte Apps, die von Microsoft, Drittanbietern und Ihrer Organisation veröffentlicht wurden, zulassen oder blockieren. Wenn Sie eine App blockieren, kann sie von Benutzern, die unter die Richtlinie fallen, nicht aus dem App-Shop für Microsoft Teams installiert werden. Sie müssen ein globaler Administrator oder Teams-Dienstadministrator sein, um diese Richtlinien verwalten zu können.
 
-*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale Standardrichtlinie (Org-wide default) verwenden oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um eine sichere und effizientere Benutzeroberfläche bereitzustellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche natürlich den Anforderungen Ihres Unternehmens entsprechend anpassen.
+*Bewährte Methoden*: Richtlinien für das App-Setup werden im Microsoft Teams Admin Center verwaltet. Sie können nicht mit PowerShell erstellt werden. Sie können die globale organisationsweite Standardrichtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese Benutzern zuweisen. Sofern Sie keine benutzerdefinierte Richtlinie erstellen und zuweisen, wird Benutzern in Ihrer Organisation automatisch die globale Standardrichtlinie zugewiesen. Für unsere Zwecke erstellen wir zwei neue Richtlinien für jeweils Mitarbeiter und Vorgesetzte in Service und Produktion, um eine sichere und effizientere Benutzeroberfläche bereitzustellen. Dies erleichtert das gleichzeitige Onboarding einer großen Anzahl von Benutzern. Sie können die Benutzeroberfläche natürlich den Anforderungen Ihres Unternehmens entsprechend anpassen.
 
 #### <a name="create-the-frontline-manager-app-permission-policy"></a>Erstellen der App-Berechtigungsrichtlinie für Vorgesetzte in Service und Produktion
 
