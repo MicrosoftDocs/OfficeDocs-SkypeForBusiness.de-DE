@@ -21,18 +21,18 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 192d56972c0d26484be773cf40fe0d1c59b69136
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: 809f69383f73346f7964926e689739016b155705
+ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763668"
+ms.lasthandoff: 02/16/2022
+ms.locfileid: "62856683"
 ---
-# <a name="microsoft-teams-certified-devices"></a>Microsoft Teams zertifizierten Geräten
+# <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams für Android-Geräte
 
-Mit Microsoft Teams Zertifizierungsprogramm für Microsoft Teams-Geräte wird sichergestellt, dass zertifizierte Geräte einen hohen Standard erfüllen, mit höheren Leistungszielen und Qualitätsmetriken für die gesamte Teams-Oberfläche (Audio, Video, Benutzeroberfläche). Microsoft- und OEM-Partner arbeiten aktiv zusammen, um sicherzustellen, dass Geräte alle Zertifizierungsanforderungen erfüllen, einschließlich Sicherheit, Audio- und Videoqualität, Teams und Barrierefreiheit.
+Das Microsoft Teams-Zertifizierungsprogramm für Geräte stellt sicher, dass zertifizierte Geräte einen hohen Standard erfüllen, mit höheren Leistungszielen und Qualitätsmetriken für die gesamte Teams-Oberfläche (Audio, Video, Benutzeroberfläche). Microsoft- und OEM-Partner arbeiten aktiv zusammen, um sicherzustellen, dass Geräte alle Zertifizierungsanforderungen erfüllen, einschließlich Sicherheit, Audio- und Videoqualität, Teams Und Barrierefreiheit.
 
-Zertifizierungsprogramme sollen sicherstellen, dass auf allen zertifizierten Geräten eine Android-Version mit dem erforderlichen Featuresatz für Teams und Teams Admin Center ausgeführt wird. Die Zertifizierungsenddaten basieren auf der Android OS-Version, die auf dem Gerät ausgeführt wird, wenn sie in das Zertifizierungsprogramm aufgenommen wird. Unsere OEM-Partner arbeiten daran, die Lebensdauer der Zertifizierung zu verlängern, indem sie die Version des Android-Betriebssystems aktualisieren und erneut zertifizieren oder neue Modelle veröffentlichen, die auf dem aktuellen Stand sind.
+Zertifizierungsprogramme sollen sicherstellen, dass auf allen zertifizierten Geräten eine Android-Version mit den erforderlichen Features für Teams und Teams Admin Center ausgeführt wird. Die Zertifizierungsenddaten basieren auf der Android OS-Version, die auf dem Gerät ausgeführt wird, wenn sie in das Zertifizierungsprogramm aufgenommen wird. Unsere OEM-Partner arbeiten daran, die Lebensdauer der Zertifizierung zu verlängern, indem sie die Version des Android-Betriebssystems aktualisieren und erneut zertifizieren oder neue Modelle veröffentlichen, die auf dem aktuellen Stand sind.
 
 Über den Zertifizierungszeitraum hinaus ist Microsoft bestrebt, zwei Jahre nach Ende des Zertifizierungszeitraums die neueste Version des Teams-Clients auf solchen Geräten zu unterstützen.
 
@@ -73,17 +73,17 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm Microsoft Teams-Rä
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
 | EXPAND 80T | `1.2.2.21182.10` | 5. August 2023 | Gebündelt mit THENS Vision 3T | 9 |
 | Logitech Tap Device     | `1.2.982`     |   3. September 2024  | Kompatibel mit Logitech Logitech Bar and Bar Mini | 10 |
-| Logitech Rally Bar Mini | `1.2.982`     |   3. September 2024  |    Kleine Besprechungsraum (4,5 x 4,5 m) | 10 |
-| Logitech Rally Bar      | `1.2.788`     |   3. September 2024  |    Mittlerer Raum (4,5 x 6 m)       | 10 |
+| Logitech Rally Bar Mini | `1.2.982`     |   3. September 2024  |    Kleine Besprechungsraum (4,5 m x 4,5 m) | 10 |
+| Logitech Rally Bar      | `1.2.788`     |   3. September 2024  |    Mittlerer Raum (4,5 m x 6 m)       | 10 |
 | AudioCodes RECEIVERV80 | `1.9.155`        |   5. August 2023  | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 9 |
 | EXPAND Vision 3T       | `1.2.0.21102.03`    | 5. August 2023 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 9 |
-| Yealink MeetingBar A30       | `133.15.0.52`    | 5. August 2023   | Mittlerer Raum (4,5 x 6 m) | 9 |
+| Yealink MeetingBar A30       | `133.15.0.52`    | 5. August 2023   | Mittlerer Raum (4,5 m x 6 m) | 9 |
 | Yealink CTP18-Touchkonsole  | `137.15.0.28`    | 5. August 2023   | Kompatibel mit Yealink MeetingBar A20 und Yealink MeetingBar A30 | 9 |
-| Yealink MeetingBar A20  | `133.15.0.19`      | 5. August 2023 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 9 |
-| Poly Studio X30         | `3.1.1.216109`     | 5. Dezember 2022  | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 8.1 |
-| Poly Studio X50         | `3.1.1.216109`     | 5. Dezember 2022   | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 8.1 |
+| Yealink MeetingBar A20  | `133.15.0.19`      | 5. August 2023 | Fokusraum (3 m x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 9 |
+| Poly Studio X30         | `3.1.1.216109`     | 5. Dezember 2022  | Fokusraum (3 m x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 8.1 |
+| Poly Studio X50         | `3.1.1.216109`     | 5. Dezember 2022   | Fokusraum (3 m x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) | 8.1 |
 | Poly TC8                | `3.3.2.210441`     | 5. August 2023 | Kompatibel mit Poly Studio X30 und Poly Studio X50  |  9  |
-| Yealink VC210           | `118.15.0.14`      | 5. August 2023 | Fokusraum (3 x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |  9  |
+| Yealink VC210           | `118.15.0.14`      | 5. August 2023 | Fokusraum (3 m x 3 m) </br> Kleiner Besprechungsraum (4,5 x 4,5 m) |  9  |
 
 ## <a name="certified-teams-displays"></a>Zertifizierte Teams Anzeigen
 
@@ -113,7 +113,7 @@ Im Folgenden finden Sie die neuesten Teams für Telefon-Apps und Firmwareversion
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | Update 2022 #1   | 7. Februar 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
 | 2022-Update #1B  | 7. Februar 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
-| 2021-Update #3B | 6. Dez. 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
+| 2021 Update #3B | 6. Dez. 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3A | 22. Nov 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | Update 2021 #3  | 3. Nov. 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
 | 2021 Update #2A | 10. Juni 2021  |`1449/1.0.94.2021052803`|  `5.0.5088.0` |  `1.0.0.202103160138.product (256)` |
@@ -128,7 +128,7 @@ Im Folgenden finden Sie die neuesten Teams für Telefon-Apps und Firmwareversion
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden installierten Versionen der Microsoft Teams-App, des Unternehmensportal und des Administrator-Agents ermitteln. Suchen Sie die Produktversion in der Spalte **Enthaltene** Produktversion, und suchen Sie dann die Produktversion in der obigen **App-Versionstabelle** .
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden installierten Versionen der Microsoft Teams-App, des Unternehmensportal-Agents ermitteln. Suchen Sie die Produktversion in der Spalte **Enthaltene** Produktversion, und suchen Sie dann die Produktversion in der obigen **App-Versionstabelle** .
 
 | Gerätemodell  | Firmwareversion  | Enthaltene Produktversion  |
 |:----------------|:--------------|:----------------------------|
@@ -144,8 +144,8 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 | Yealink VP59   | `91.15.0.87`  | Update 2022 #1     |
 | Yealink CP960  | `73.15.0.150`  | Update 2022 #1         |
 | Yealink MP52 | `145.15.0.25`  | Update 2022 #1         |
-| Poly Trio C60   | `7.1.4.0201`  | 2021-Update #3B                        |
-| Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021-Update #3B                 |
+| Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
+| Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | Update 2021 #3  |
 |Audiocodes C450HD  | `1.14.449` | Update 2021 #3  |
 |Audiocodes C470HD  | `1.14.449` | Update 2021 #3  |
@@ -187,11 +187,11 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 | Yealink VP59        | `91.15.0.54`         | Update 2020 #7           |
 | Yealink CP960       | `73.15.0.115`      | Update 2020 #7           |
 
-Informationen [Microsoft Teams von diesen Geräten](phones-for-teams.md) unterstützten Features finden Sie unter Featuresatz für Mobiltelefone.
+Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Mobiltelefone.
 
-Siehe [Microsoft Teams Anzeigen](teams-displays.md).
+Siehe [Microsoft Teams anzeigen](teams-displays.md).
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams-Räume unter Android
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams-Räume Android
 
 Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware-Versionen.
 
@@ -209,7 +209,7 @@ Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach  der Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen** .
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agenten ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach der  Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen** .
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
@@ -219,6 +219,10 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 | Poly Studio X30 | `3.8.0`          | Update 2021 #2    |
 | Poly Studio X50 | `3.8.0`          | Update 2021 #2    |
 | Poly TC8        | `3.8.0`          | Update 2021 #2    |
+| Logi Chasbar    | 1.3.538         | 2021 Update #2B    |
+| Logi-Leiste Mini | 1.3.538       | 2021 Update #2B    |
+| Logi Chasbar    | 1.4.228         | 2021 Update #2B    |
+| Logi-Leiste Mini | 1.4.228       | 2021 Update #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
 | Poly TC8        | `3.7.0`          | 2021 Update #2A    |
