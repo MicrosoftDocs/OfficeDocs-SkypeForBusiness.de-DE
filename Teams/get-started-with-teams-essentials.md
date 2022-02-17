@@ -16,12 +16,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a779d094e7a1f266a19aaecf6bbb86732f75f66b
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: 3c80b93ef457048d006fb7a7eb6085b3ed5d8eb4
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279373"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864028"
 ---
 # <a name="microsoft-teams-essentials-quickstart-guide-for-small-businesses"></a>Microsoft Teams Essentials: Schnellstarthandbuch für kleine Unternehmen
 
@@ -100,14 +100,6 @@ In der folgenden Tabelle sind die wichtigsten Microsoft Teams-Funktionen aufgef�
 > Um erweiterte Verwaltung und alle Microsoft Teams-Features zu erhalten, müssen Sie ein Upgrade auf die Vollversion von Microsoft Teams vornehmen, indem Sie einen geeigneten [Microsoft 365- oder Office 365-Abonnementplan](https://www.microsoft.com/en-us/microsoft-teams/compare-microsoft-teams-options) für Ihre Benutzer erwerben. Dies wird empfohlen, da es mehr Flexibilität bei der Wahl der Art und Weise bietet, wie in Ihrer Organisation zusammengearbeitet wird.
 
 ## <a name="administration-limits-and-specifications-for-microsoft-teams-essentials"></a>Verwaltungsbeschränkungen und Spezifikationen für Microsoft Teams Essentials
-
-Nachstehend sind einige wichtige Beschränkungen und Spezifikationen für Microsoft Teams Essentials aufgeführt, die Sie als Administrator berücksichtigen sollten:
-
-  - **Verwaltung:** Ein Microsoft Teams Essentials-Abonnement bietet **keinen** Zugriff auf das Microsoft Teams Admin Center. Nutzer*innen von Teams Essentials können eine vereinfachte Ansicht des Microsoft 365 Admin Centers nutzen, um wichtige Aufgaben wie beispielsweise die Verwaltung von Abos und die Konfiguration neuer Nutzer*innen durchzuführen.
-
-  - **Microsoft Teams PowerShell:** Sie können Microsoft Teams Essentials **nicht** direkt über die PowerShell-Befehlszeile verwalten, da keine PowerShell-Unterstützung gegeben ist.
-
-  - **Speicher:** Microsoft Teams Essentials nutzt den persönlichen OneDrive-Cloudspeicher für die Dateispeicherung.
 
 Unter [Beschränkungen und Spezifikationen für Microsoft Teams Essentials](/microsoftteams/limits-specifications-teams) finden Sie weitere Informationen zu den Beschränkungen, Spezifikationen und anderen Anforderungen, die für Microsoft Teams gelten.
 

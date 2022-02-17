@@ -1,5 +1,5 @@
 ---
-title: Teams-Kontaktcenter
+title: Teams Contact Center
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -13,20 +13,20 @@ f1.keywords:
 description: Eine Übersicht über die integrierte CCaaS-Lösung (Contact Center as a Service) für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9c31ed6194dbf3cf7cf4169983b7292699cce918
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805446"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62863908"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrationen von Kontaktcentern für Microsoft Teams
 
   Dieser Artikel bietet eine Übersicht über die Integration von Contact Center-Lösungen in Microsoft Teams und die lösungsanbieter, die am Microsoft Teams Connected Contact Center-Zertifizierungsprogramm teilnehmen.
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Was ist die Integration von Kontaktcentern Microsoft Teams?
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Was ist die Integration von Kontaktcentern für Microsoft Teams?
 
-Microsoft Teams unterstützt Arbeitsstreams für die Kundeninteraktion, indem er als Hub für interne und externe Kundenverbindung über seine Kommunikationsmodi hinweg– einschließlich Chats, Videobesprechungen und Anrufen – agiert. Einige Organisationen Microsoft Teams [Cloud-Sprachfunktionen](./cloud-voice-landing-page.md), einschließlich [automatischer](./what-are-phone-system-auto-attendants.md) Telefonant und Anrufwarteschleifen[,](./create-a-phone-system-call-queue.md) ihren Anforderungen entsprechen.
+Microsoft Teams unterstützt Arbeitsstreams für die Kundeninteraktion, indem er als Hub für interne und externe Kundenverbindung über ihre Kommunikationsmodi hinweg– einschließlich Chat, Videobesprechungen und Anrufen – agiert. Einige Organisationen erfüllen Microsoft Teams [Cloud-Sprachfunktionen](./cloud-voice-landing-page.md), einschließlich automatischer Telefonant [und](./what-are-phone-system-auto-attendants.md) Anrufwarteschleifen[, ihre](./create-a-phone-system-call-queue.md) Anforderungen.
 
 Für Organisationen, die Lösungen mit Geschäftstools und Workflows für den Kunden ein fördern möchten, ermöglicht die Integration von Kontaktcentern für Microsoft Teams CCaaS-Lösungsanbieter (Contact Center as a Service) die Integration ihrer Lösungen in Teams.
 
@@ -35,7 +35,7 @@ Für Organisationen, die Lösungen mit Geschäftstools und Workflows für den Ku
 
 Das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm überprüft, ob die Lösung jedes teilnehmenden Anbieters die Qualität, Kompatibilität und Zuverlässigkeit bietet, die von Microsoft-Lösungen erwartet wird.
 
-Wenn Sie als Organisation nach einer integrierten Contact Center-Lösung suchen, finden Sie unter Zertifizierte [Microsoft Teams-Lösungen](https://cloudpartners.transform.microsoft.com/contact-center-solutions) für Kontaktcenter eine Liste mit zertifizierten Lösungsanbietern und unter Verbundene [Kontaktcenter-Lösungen](#connected-contact-center-solutions) für eine Liste der Anbieter im Zertifizierungsprozess.
+Wenn Sie als Organisation nach einer integrierten Contact Center-Lösung suchen, finden Sie unter Zertifizierte [Microsoft Teams-Lösungen](https://cloudpartners.transform.microsoft.com/contact-center-solutions) für Kontaktcenter eine Liste mit zertifizierten Lösungsanbietern und unter Verbundene [Kontaktcenter-Lösungen](#connected-contact-center-solutions) eine Liste der Anbieter im Zertifizierungsprozess.
 
 Wenn Sie als Anbieter am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine E-Mail an <Teamscategorypartner@microsoft.com>.
 
@@ -70,7 +70,7 @@ Die folgenden Anbieter bieten Contact Center-Lösungen, die mithilfe eines Teams
 | `Cirrus` | https://www.cirrusresponse.com/cloud-contact-centre/microsoft-teams/ |
 | `FrontStage` | https://www.frontstage.cc                                                                                        |
 | `Geomant` | https://www.geomant.com/buzzeasy-contact-centre-for-microsoft-teams                                                  |
-| "Heedify" | https://heedify.io/call-center/                                                 |
+| `Heedify` | https://heedify.io/call-center/                                                 |
 | `Intermedia` | https://www.intermedia.com/products/contact-center                          |
 | `Landis Technologies` | https://landistechnologies.com/microsoft-teams-contact-center/                                          |
 | `Luware` | https://luware.com/en/solutions/                                                                                       |

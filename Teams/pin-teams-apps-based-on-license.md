@@ -1,5 +1,5 @@
 ---
-title: Anpassen Ihrer Teams basierend auf einer Lizenz
+title: Anpassen Ihrer Teams-Apps basierend auf einer Lizenz
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 659cfd90e2fb5f498c00ea4b48039f9493357309
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
+ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62161034"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62864038"
 ---
-# <a name="tailor-your-teams-apps-based-on-license"></a>Anpassen Ihrer Teams basierend auf einer Lizenz
+# <a name="tailor-your-teams-apps-based-on-license"></a>Anpassen Ihrer Teams-Apps basierend auf einer Lizenz
 
 > [!NOTE]
 > [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
@@ -32,13 +32,13 @@ ms.locfileid: "62161034"
 
 ## <a name="overview"></a>Übersicht
 
-Teams bietet eine Möglichkeit zum Anheften von Apps basierend auf einer Lizenz. Wenn sich ein Benutzer bei einem Teams aktivierten maßgeschneiderte App-Erfahrung meldet, erhält der Benutzer eine App-Erfahrung, die auf seine Lizenz zugeschnitten ist.
+Teams bietet eine Möglichkeit zum Anheften von Apps basierend auf einer Lizenz. Wenn sich ein Benutzer mit aktivierter Teams App-Erfahrung bei einem Konto anknappt, erhält der Benutzer eine App-Erfahrung, die auf seine Lizenz zugeschnitten ist.
 
 Mit diesem Feature erhalten Benutzer die relevantesten Apps in Teams ohne eine vom Administrator benötigte Aktion.
 
 ## <a name="tailored-app-experience"></a>Maßgeschneiderte App-Erfahrung
 
-Apps werden an die App-Leiste angeheftet, bei der es sich um die Leiste an der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients (iOS und Android) handelt.
+Apps werden an die App-Leiste angeheftet. Dabei handelt es sich um die Leiste an der Seite des Teams-Desktopclients und am unteren Rand der mobilen Teams-Clients (iOS und Android).
 
 Angeheftete Apps für Benutzer mit einer F-Lizenz:
 
@@ -59,10 +59,8 @@ Beachten Sie, dass alle Benutzerdefinierten Richtlinien für die App-Einrichtung
 
 Diese Funktion ist standardmäßig aktiviert. Wenn Sie jedoch nicht möchten, dass die maßgeschneiderte App-Erfahrung von Microsoft bereitgestellt wird, können Sie das Feature deaktivieren. So aktivieren oder deaktivieren Sie das Feature:
 
-1. Navigieren Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams AppsVer** >  dient zum Verwalten von Apps, und wählen Sie dann **Organisationsweite App-Einstellungen aus**.
+1. Wechseln Sie in der linken Navigationsleiste Microsoft Teams Admin Center zu **Teams AppsVer** >  dient zum Verwalten von Apps, und wählen Sie **dann Organisationsweite App-Einstellungen aus**.
 2. Schalten **Sie unter** Maßgeschneiderte Apps den Schalter Maßgeschneiderte Apps **basierend auf** Lizenzen anzeigen auf **Aus** oder **Ein**.
-
-    :::image type="content" source="media/pin-teams-apps-based-on-license.png" alt-text="Screenshot der Seite "Apps verwalten" mit der Einstellung "Maßgeschneiderte Apps basierend auf einer organisationsweiten Lizenz anzeigen"" lightbox="media/pin-teams-apps-based-on-license.png":::
 
 ## <a name="scenarios"></a>Szenarien
 
