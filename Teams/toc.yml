@@ -475,8 +475,6 @@ items:
         href: teams-channels-overview.md
       - name: Übersicht über private Kanäle
         href: private-channels.md
-      - name: Verwalten des Lebenszyklus von privaten Kanälen
-        href: private-channels-life-cycle-management.md
       - name: Zuweisen von Teambesitzern und -mitgliedern in Teams
         href: assign-roles-permissions.md
       - name: Übersicht über dynamische Mitgliedschaft für Teams

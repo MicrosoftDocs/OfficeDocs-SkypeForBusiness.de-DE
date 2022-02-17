@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.participantandguests
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für Teilnehmer und Gäste verwalten.
-ms.openlocfilehash: ac77ab8b032fa792b0b137c84679912768e3b1b6
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bdff1880104f80e7a5073900087a855202a9a137
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457375"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881530"
 ---
 # <a name="meeting-policy-settings---participants--guests"></a>Besprechungsrichtlinieneinstellungen – Teilnehmer und Gäste
 
@@ -70,7 +70,7 @@ Hierbei handelt es sich um eine organisatorspezifische Richtlinie. Über diese E
 |**Nur eingeladene Benutzer**    |Nur eingeladene Benutzer und Besprechungsorganisatoren können direkt an der Besprechung teilnehmen, ohne im Wartebereich warten zu müssen. Alle anderen Benutzer, einschließlich authentifizierter Benutzer innerhalb der Organisation, Gastbenutzer, Benutzer aus vertrauenswürdigen Organisationen und anonyme Benutzer, müssen im Wartebereich warten. Auf der Teams optionen für Client-Besprechungen wird sie als "Personen, die ich lade" angezeigt. Benutzer, die als Teil einer Verteilergruppe hinzugefügt wurden, müssen den Wartebereich durchgehen.      |
 
  > [!NOTE]
-> Bei vertrauenswürdigen Organisationen handelt es sich um Domänen, mit denen Sie Verbundkommunikation in Teams. Wenn **Sie Alle externen** Domänen für externen Zugriff zulassen im Teams Admin Center aktivieren, werden alle authentifizierten Benutzer innerhalb einer Teams Organisation als vertrauenswürdig eingestuft. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
+> Vertrauenswürdige Organisationen sind Domänen, mit denen Sie Verbundkommunikation in Teams. Wenn **Sie Alle externen** Domänen für externen Zugriff zulassen im Teams Admin Center aktivieren, werden alle authentifizierten Benutzer innerhalb einer Teams Organisation als vertrauenswürdig eingestuft. Wenn Sie externe Domänen angeben, die zulässig sind, und alle anderen blockieren, werden die zulässigen Domänen zu vertrauenswürdigen Organisationen. Jede blockierte Domäne wird als keine vertrauenswürdige Organisation betrachtet.
 
 ## <a name="allow-dial-in-users-to-bypass-the-lobby"></a>Einwahlbenutzern das Umgehen des Wartebereichs gestatten
 
@@ -98,15 +98,14 @@ Bei dieser Einstellung handelt es sich um eine Einstellung pro Teilnehmer. Über
 
 |Einstellungswert |Verhalten  |
 |---------|---------|
-|**Für jeden aktivieren**     | Alle Teilnehmer können Chatnachrichten schreiben und anzeigen. |
-|**Für jeden deaktivieren**     | Der Besprechungschat ist für alle Teilnehmer deaktiviert.  |
-|**Aktivieren Sie dies für alle Benutzer, jedoch für anonyme Benutzer.**| Anonyme Benutzer können in Besprechungen nicht chatten, aber Nachrichten lesen. |
+|**Aktiviert**     | Alle Teilnehmer können Chatnachrichten schreiben und anzeigen. |
+|**Nicht aktiviert**     | Der Besprechungschat ist für alle Teilnehmer deaktiviert.  |
 
 <a name="bkparticipantsandguests"> </a>
 
 ## <a name="enable-meeting-policy-settings"></a>Aktivieren von Besprechungsrichtlinieneinstellungen
 
-Zum Aktivieren von Besprechungsrichtlinieneinstellungen können Sie das [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) **(** > BesprechungsrichtlinienBearbeiten einer **RichtlinieTeilipants** >  & Gäste) oder das [Set-CsTeamsMeetingPolicy-Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy?view=skype-ps) in Teams PowerShell verwenden. 
+Zum Aktivieren von Besprechungsrichtlinieneinstellungen können Sie das [Teams Admin Center](https://admin.teams.microsoft.com/policies/meetings) **(** > BesprechungsrichtlinienBearbeiten einer **RichtlinieTeilipants** >  & Gäste) oder das [Set-CsTeamsMeetingPolicy-Cmdlet](/powershell/module/skype/set-csteamsmeetingpolicy) in Teams PowerShell verwenden. 
 
 In diesem Beispiel verwenden wir PowerShell, um die globale Besprechungsrichtlinie so zu ändern, dass jeder Besprechung beginnen oder teilnehmen kann.
 
