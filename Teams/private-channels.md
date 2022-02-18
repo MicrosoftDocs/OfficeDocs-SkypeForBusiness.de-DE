@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 8d041d0fa8a182cb3cebf485c9cef92f880a99e5
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
+ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299010"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "62881550"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -83,10 +83,6 @@ In der folgenden Tabelle wird beschrieben, welche Aktionen Besitzer, Mitglieder 
 |Bearbeiten von Einstellungen|Nein|Nicht zutreffend|Nicht zutreffend|Ja|Nein|Nein|
 |Verwalten von Registerkarten und Apps|Nein|Nicht zutreffend|Nicht zutreffend|Ja, Apps müssen für das Team installiert werden|Vom Kanalbesitzer gesteuert|Nein|
 
-## <a name="manage-the-lifecycle-of-private-channels"></a>Verwalten des Lebenszyklus von privaten Kanälen
-
-Eine Anleitung zum Verwalten des Lebenszyklus von privaten Kanälen in Ihrer Organisation finden Sie unter [Verwalten des Lebenszyklus von privaten Kanälen](private-channels-life-cycle-management.md). Hier erfahren Sie, wie Sie steuern können, ob Benutzer in Ihrer Organisation private Kanäle erstellen können, wie ein privater Kanal im Auftrag eines Teambesitzers erstellt wird, wie Sie eine Liste aller Nachrichten im privaten Kanal zu Archivierungs- und Überwachungszwecken abrufen und wie Sie andere Verwaltungsaufgaben ausführen.  
-
 ## <a name="private-channel-sharepoint-sites"></a>SharePoint-Websites im privaten Kanal
 
 Jeder private Kanal hat seine eigene SharePoint-Website. Die separate Website soll sicherstellen, dass der Zugriff auf die Dateien des privaten Kanals nur für Mitglieder des privaten Kanals möglich ist. Diese Websites werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Website mit vollem Funktionsumfang erweitert werden. Jede Website wird in derselben geografischen Region wie die Website für das übergeordnete Team erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen. 
@@ -139,3 +135,5 @@ Kanalbesprechungen können nicht geplant werden.
 [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 
 [Verwenden der Microsoft Graph-API zum Arbeiten mit Teams](/graph/api/resources/teams-api-overview)
+
+[Kanalressourcentyp](/graph/api/resources/channel)
