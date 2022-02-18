@@ -8,19 +8,24 @@ ms.topic: article
 ms.service: msteams
 audience: admin
 ms.reviewer: serdars
-description: 'Erfahren Sie mehr zum Onboarding Ihrer aufgeschlossenen Benutzer gleich mit den ersten Teams und Kanälen, die Sie in Microsoft Teams erstellt haben.'
+description: Erfahren Sie mehr zum Onboarding Ihrer aufgeschlossenen Benutzer gleich mit den ersten Teams und Kanälen, die Sie in Microsoft Teams erstellt haben.
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
-  - seo-marvel-apr2020
-  - m365initiative-deployteams
+- M365-collaboration
+- seo-marvel-apr2020
+- m365initiative-deployteams
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 3ac3a069aa54e9e8d871c7daccbf068c510b0fc0
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893584"
 ---
-
 # <a name="onboard-early-adopters-to-microsoft-teams"></a>Onboarding von Early Adopters von Microsoft Teams
 
 ## <a name="invite-users-to-teams"></a>Einladen von Benutzern zu Teams
@@ -50,7 +55,7 @@ Hier geht’s zu: [Teams für Windows](#teams-for-windows) | [Teams für Mac](#t
 
 ### <a name="desktop-client"></a>Desktopclient
 
-Der Teams-Desktopclient vermittelt Windows- und Mac-Benutzern die beste Gesamterfahrung. Weitere Informationen finden Sie unter [Beziehen von Clients für Microsoft Teams (Desktopclient)](./get-clients.md#desktop-client) und [Hardwareanforderungen für die Microsoft Teams-App](./hardware-requirements-for-the-teams-app.md).
+Der Teams-Desktopclient vermittelt Windows- und Mac-Benutzern die beste Gesamterfahrung. Weitere Informationen finden Sie unter [Beziehen von Clients für Microsoft Teams (Desktopclient)](./get-clients.md#desktop-clients) und [Hardwareanforderungen für die Microsoft Teams-App](./hardware-requirements-for-the-teams-app.md).
 
 > [!NOTE]
 > Als Administrator können Sie die Methode zum Verteilen der Installationsdateien an Computer in Ihrer Organisation auswählen, z. B. Microsoft Endpoint Configuration Manager (Windows) oder Jamf Pro (macOS).

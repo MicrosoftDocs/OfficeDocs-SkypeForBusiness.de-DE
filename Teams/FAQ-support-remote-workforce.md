@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Verwenden Sie diese Anleitung, um Ihre Remotemitarbeiter zu unterstützen, produktiv zu sein, wenn sie als Reaktion auf den Ausbruch von Covid-19 (Coronavirus) von zu Hause aus arbeiten (WFH).
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 06be01aad7a8bea73c608cd4709149042daec9e2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 631fdd7668e8dd0bc8781509671dc11a1c631816
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58610522"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893534"
 ---
 # <a name="faq-support-your-remote-workforce"></a>Häufig gestellte Fragen: Unterstützung für Ihre Remotemitarbeiter
 
@@ -83,7 +83,7 @@ Teams steht über einige unterschiedliche Programme kostenlos zur Verfügung:
 
 ### <a name="i-have-microsoft-365-already-but-i-dont-use-teams-are-you-providing-trial-licenses"></a>Ich habe Microsoft 365 bereits, aber ich verwende Microsoft Teams nicht. Stellen Sie Testlizenzen bereit?
 
-Wenn Sie Microsoft 365 haben, verfügen Sie bereits über Teams. [Aktivieren Sie es](Office-365-set-up.md) für alle Ihre Benutzer. Sobald es aktiviert ist, können Ihre Benutzer Teams ausführen, indem Sie es entweder [Desktop](get-clients.md#desktop-client) und [mobile](get-clients.md#mobile-clients) Clients oder [über den Browser](get-clients.md#mobile-clients) unter [https://teams.microsoft.com](https://teams.microsoft.com) installieren. 
+Wenn Sie Microsoft 365 haben, verfügen Sie bereits über Teams. [Aktivieren Sie es](Office-365-set-up.md) für alle Ihre Benutzer. Sobald es aktiviert ist, können Ihre Benutzer Teams ausführen, indem Sie es entweder [Desktop](get-clients.md#desktop-clients) und [mobile](get-clients.md#mobile-clients) Clients oder [über den Browser](get-clients.md#mobile-clients) unter [https://teams.microsoft.com](https://teams.microsoft.com) installieren. 
 
 ### <a name="how-do-i-get-help-to-get-started-with-teams-and-make-sure-the-deployment-is-successful"></a>Wie erhalte ich Hilfe bei den ersten Schritten mit Teams und sorge dafür, dass die Bereitstellung erfolgreich ist?
 

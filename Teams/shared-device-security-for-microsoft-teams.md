@@ -20,12 +20,12 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 689899ed6e2aaf576a3d743c7a48ca36a647691c
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: c97ebd8cf9e43ada8d077ffbd33f6b39c8d9c64c
+ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58623217"
+ms.lasthandoff: 02/18/2022
+ms.locfileid: "62893544"
 ---
 # <a name="use-microsoft-teams-securely-on-shared-computers"></a>Sicheres Verwenden von Microsoft Teams auf gemeinsam genutzten Computern
 
@@ -78,6 +78,6 @@ Die oben aufgeführten Punkte sind keine umfassende Liste der bewährten Methode
 
 [Artikel zum Microsoft Defender Security Center](/windows/security/threat-protection/microsoft-defender-antivirus/microsoft-defender-security-center-antivirus)
 
-[Teams-Webclient/Teams-Web-App](./get-clients.md#web-client)
+[Teams-Webclient/Teams-Web-App](./get-clients.md#browser-client)
 
 [Sicherheit und Microsoft Teams](./teams-security-guide.md)
