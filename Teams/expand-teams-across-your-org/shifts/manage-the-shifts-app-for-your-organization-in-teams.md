@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: Hier erfahren Sie, wie Sie die Schichten-App in Ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Erfahren Sie, wie Sie die Schichten-App in Ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,18 +24,18 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: fa274c8aa068d7b17ce35d17525b58152677de07
-ms.sourcegitcommit: 159399f2325af644c20551925c1fa34bf76aad43
+ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
+ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62288373"
+ms.lasthandoff: 02/22/2022
+ms.locfileid: "62918878"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
 ## <a name="overview-of-shifts"></a>Übersicht über "Schichten"
 
-Die Schichten-App in Microsoft Teams die Frontline-Workers verbunden und synchronisiert. Es wurde zuerst für das schnelle und effektive Zeitmanagement und die Kommunikation für Teams erstellt. Schichten ermöglichen Es Mitarbeitern in der Frontlinie und ihren Vorgesetzten, ihre mobilen Geräte zu verwenden, um Zeitpläne zu verwalten und in Kontakt zu bleiben.
+Die Schichten-App in Microsoft Teams sorgt dafür, dass die Frontline-Workers verbunden und synchronisiert sind. Es wurde zuerst für das schnelle und effektive Zeitmanagement und die Kommunikation für Teams erstellt. Schichten ermöglichen Es Mitarbeitern in der Frontlinie und ihren Vorgesetzten, ihre mobilen Geräte zu verwenden, um Zeitpläne zu verwalten und in Kontakt zu bleiben.
 
 - Vorgesetzte erstellen, aktualisieren und verwalten Schichtzeitpläne für Teams. Sie können Nachrichten an eine Person ("Der Boden ist schmutzig") oder an das gesamte Team ("Der regionale Geschäftsführer kommt in 20 Minuten") senden. Sie können auch Richtliniendokumente, Bekanntmachungen und Videos senden.
 - Die Mitarbeiter sehen sich ihre bevorstehenden Schichten an, sehen, wer für den Tag noch geplant ist, fordern einen Austausch an oder bieten eine Schicht an und fordern eine Freistellung an.
@@ -52,6 +52,10 @@ Es ist wichtig zu wissen, dass Schichten Gäste zurzeit nicht unterstützen. Die
 ## <a name="location-of-shifts-data"></a>Speicherort von Daten der Schichten-App
 
 Daten der Schichten-App werden aktuell in Azure in Rechenzentren in Nordamerika, Westeuropa und im asiatisch-pazifischen Raum gespeichert. Weitere Informationen zum Speicherort von Daten finden Sie unter [Wo befinden sich meine Daten?](http://o365datacentermap.azurewebsites.net/).
+
+## <a name="shifts-data"></a>Verschiebt Daten
+
+Weitere Informationen dazu, wo Schichtendaten gespeichert werden, sowie zum Speichern, Abrufen und Verschlüsseln von Schichtdaten finden Sie unter Häufig gestellte Fragen zu Schichten[.](shifts-data-faq.md)
 
 ## <a name="set-up-shifts"></a>Einrichten von "Schichten"
 
@@ -72,7 +76,7 @@ Mithilfe von App-Setup Richtlinien können Sie Microsoft Teams so anpassen, dass
 
 Sie können eine benutzerdefinierte [App-Setuprichtlinie erstellen](../../teams-app-setup-policies.md) , indem Sie die Schichten-App hinzufügen und die Richtlinie [dann Ihren Benutzern](../../assign-policies-users-and-groups.md) zuweisen. Sie können auch die App-Setuprichtlinie verwenden, die in den Richtlinienpaketen "Frontline Worker" und "Frontline-Manager" enthalten ist.
 
-Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
+Ein [Richtlinienpaket](../../manage-policy-packages.md) in Teams ist eine Sammlung vordefinierter Richtlinien und Richtlinieneinstellungen, die Sie Benutzern zuweisen können, die ähnliche Rollen in Ihrer Organisation haben. Zu den Richtlinien in den Richtlinienpaketen für Frontline-Worker und Frontline-Manager gehört eine Richtlinie für die App-Einrichtung, die die Schichten-App anheftt, sowie andere Apps, die Kommunikations- und Zusammenarbeitsaktivitäten für diese Rolle unterstützen.
 
 Es wird empfohlen, die Richtlinienpakete für Frontline Worker und Frontline Manager zu verwenden, um sie zu vereinfachen, zu optimieren und für Konsistenz beim Verwalten von Richtlinien für Mitarbeiter an vorderer Front zu sorgen.
 
@@ -86,6 +90,7 @@ Damit Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst im 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
+- [Schichten für Teams](../shifts-for-teams-landing-page.md)
 - [Schichten-Hilfe für Mitarbeiter an vorderer Front](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
-- [Benutzern in Microsoft Teams Richtlinien zuweisen](../../policy-assignment-overview.md)
 - [Verschiebt Verbinder](shifts-connectors.md)
+- [Benutzern in Microsoft Teams Richtlinien zuweisen](../../policy-assignment-overview.md)
