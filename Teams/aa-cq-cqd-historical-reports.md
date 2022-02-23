@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: 22c2152401cd9ec08ae1fbad2bbd42eb29fc0726
-ms.sourcegitcommit: 79dfda39db208cf943d0f7b4906883bb9d034281
+ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
+ms.sourcegitcommit: d8dba15c520de3894d1781e17acb2c75fb38ed49
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "62457235"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62921873"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
@@ -75,7 +75,7 @@ Führen Sie die folgenden Schritte durch:
     microsoftcommunicationsonline/noam-4a-s7
     ```
 
-    - Die Region wird nach dem **/** angezeigt, wie im obigen Beispiel, in dem sich die Region befindet: noam
+    - Die Region wird nach dem wie **/** im obigen Beispiel angezeigt, in dem die Region "noam" ist.
 
  - Der Bericht wird mit Beispieldaten gestartet.
  
@@ -238,7 +238,7 @@ Führen Sie die folgenden Schritte durch:
 
 |Name                                    |Datentyp                |Beschreibung                              |
 |:---------------------------------------|:------------------------|:----------------------------------------|
-|***% Abgebrochene Anrufe***                 |Prozent               |Kennzahl: TotalCallCount / Anrufe gesamt<br>Verhältnis der Anzahl erfolgreicher und abgebrochener Anrufe    |
+|***% Abgebrochene Anrufe***                 |Prozent               |Measure: Anzahl der abgebrochenen Anrufe /Gesamtzahl der Anrufe    |
 |Anrufe gesamt                             |Ganze Zahl             |Kennzahl: Vom Agent beantwortete Anrufe summieren        |
 |TotalCallCount                          |Ganze Zahl             |Kennzahl: Summe (Anrufanzahl)                 |
 
@@ -249,7 +249,7 @@ Führen Sie die folgenden Schritte durch:
 |Durchschnittliche Anrufdauer (Sekunden)         |Dezimalzahl           |Zusammenfassen: Summe<br>Durchschnittliche Anrufdauer in Sekunden |
 |Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der Anrufe                  |
 |Anrufergebnis der Anrufwarteschleife                  |Text                     |Endzustand des Anrufs der Anrufwarteschleife – mögliche Werte:<br><br>§ agent_joined_conference<br>§ declined<br>§ disconnected<br>§ error<br>§ failed<br>§ invalid<br>§ overflown<br>§ timed_out<br>§ transferred_to_agent |
-|Aktion "Endzustand der Anrufwarteschleife"           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ trennen (timed_out)<br>§ disconnect_with_busy (Überlaufanrufe)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
+|Aktion "Endzustand der Anrufwarteschleife"           |Text                     |Letzte Aktion der Anrufwarteschleife – mögliche Werte:<br><br>§ trennen (timed_out Anrufe)<br>§ disconnect_with_busy (Überlaufanrufe)<br>§ failed_to_accept_call<br>§ forward<br>§ shared_voicemail<br>§ other<br>§ voicemail |
 |Anrufwarteschleifenidentität                     |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum/Uhrzeit                |Startdatum und -uhrzeit des Anrufs der Anrufwarteschleife (Stunde) (UTC)   |
 |IsAbandoned                             |Wahr/Falsch               |TRUE, wenn der Anruf nicht von einem Agent beantwortet wird           |
@@ -306,6 +306,6 @@ Führen Sie die folgenden Schritte durch:
 
 - Der Verlauf von nur 28 Tagen steht im Dashboard zur Verfügung, da Daten aus Anrufwarteschleife/automatischer Telefonkonferenz als persönliche Daten betrachtet werden und den Datenschutzrichtlinien unterliegen.
 
-- In einigen Szenarien kann die Anzahl der anrufbeantwortten Mitarbeiter im Bericht Zeitachse des Cloud-Anrufwarteschlangen-Agents von der Anzahl der im Anrufverlauf des Kunden Teams unterscheiden. Die Teams Clientanrufverlauf ist korrekt. Der Support untersucht, aber zurzeit ist keine geschätzte Zeit für eine Reparatur verfügbar.
+- In einigen Szenarien kann die Anzahl der beantworteten Anrufe des Agents im Bericht Zeitachse des Cloud-Anrufwarteschlangen-Agents von der Anzahl der im Anrufverlauf des Kunden Teams unterscheiden. Die Teams Clientanrufverlauf ist korrekt. Der Support untersucht, aber zurzeit ist keine geschätzte Zeit für eine Reparatur verfügbar.
 
 - <sup>1</sup> **Eingehende Anrufquelle** in den Diagrammen für die automatische Telefonzentrale und die Anrufwarteschleife zeigen die letzte Anrufabschnittsquelle anstelle der ersten Anrufabschnittsquelle an. Wenn beispielsweise eine automatische Telefonzentrale einen externen Anruf empfängt und den Anruf an eine andere automatische Telefonzentrale oder Anrufwarteschleife überträgt, wird die **eingehende Anrufquelle** als intern gemeldet.
