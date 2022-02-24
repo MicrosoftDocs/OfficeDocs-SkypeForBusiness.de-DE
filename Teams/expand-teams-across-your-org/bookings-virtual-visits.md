@@ -20,15 +20,15 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Erfahren Sie, wie Sie virtuelle Besuche mithilfe der Bookings-App in Ihrem Teams.
-ms.openlocfilehash: 5734dbde3db60e5595a1c712bdfb7849dc86485e
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+description: Erfahren Sie, wie Sie virtuelle Besuche mit der Bookings-App in Ihrer Teams.
+ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763799"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929270"
 ---
-# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Besuche mit Microsoft Teams und der Bookings-App
+# <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Untersuchung mit Microsoft Teams und der Bookings-App
 
 ## <a name="overview"></a>Übersicht
 
@@ -36,7 +36,7 @@ Die [Bookings-App](https://support.microsoft.com/office/what-is-bookings-42d4e85
 
 Mit der Bookings-App können Sie komplexe Planungsanforderungen einer Organisation ganz einfach verwalten. Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Lösung verwalten.
 
-Die virtuellen Termine werden durch Microsoft Teams, die stabile Funktionen für Videokonferenzen bieten. Ein Arzt kann z. B. seinen Bildschirm freigeben und die Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
+Die virtuellen Termine werden in Microsoft Teams, die stabile Funktionen für Videokonferenzen bieten. Ein Arzt kann z. B. seinen Bildschirm freigeben und die Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
 
 Jeder virtuelle Termin enthält einen Teams-Besprechungslink, der per E-Mail an die Teilnehmer gesendet wird, wo sie ganz einfach über einen Webbrowser oder in Teams auf jedem Gerät teilnehmen können. Mithilfe automatisierter E-Mail-Erinnerungen können Sie die Anzahl nicht angezeigter E-Mails reduzieren und das Engagement von Kunden und Kunden verbessern.
 
@@ -54,7 +54,7 @@ Dieser Artikel bietet Ihnen einen Überblick über das Planen, Verwalten und Dur
 
 Wenn Sie ein Administrator sind, finden Sie unter Verwalten der [Bookings-App in Teams](../bookings-app-admin.md) Informationen zu den Voraussetzungen für die Verwendung der Bookings-App in Teams, zum Steuern des Zugriffs auf Bookings in Ihrer Organisation und zu empfohlenen Richtlinien- und Administratoreinstellungen.
 
-Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihrem Teams. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen an Terminen über ihr Teams kalender Outlook oder über den Besprechungslink in ihrer Buchungsbestätigungs-E-Mail teil.
+Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihrem Teams. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen über ihren Kalender oder Teams über Outlook Besprechungslink in der Buchungsbestätigungs-E-Mail an Termine teil.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Einrichten eines neuen Buchungskalenders
 
@@ -107,7 +107,7 @@ Aus der Warteschlange können Planer eine neue Buchung hinzufügen, relevante Te
 Mitarbeiter können sogar Direkt aus der Warteschlange an Terminen teilnehmen und diese verwalten.
 
 > [!NOTE]
-> Derzeit unterstützt die Bookings-App das Hinzufügen von bis zu 100 Mitarbeitern pro Buchungskalender. Wenn Sie Graph-APIs zum Einrichten und Hinzufügen von Mitarbeitern zu einem Buchungskalender verwendet haben, wird dieser Grenzwert möglicherweise nicht erzwungen. In diesem **Szenario kann die** Registerkarte Warteschlange keine Inhalte für Kalender mit mehr als 100 Mitarbeitern rendern. Für eine optimale Erfahrung empfehlen wir, einem Buchungskalender nicht mehr als 100 Mitarbeiter hinzuzufügen. Wir arbeiten an einer Lösung dieser Einschränkung in zukünftigen Versionen.
+> Derzeit unterstützt die Bookings-App das Hinzufügen von bis zu 100 Mitarbeitern pro Buchungskalender. Wenn Sie die Graph zum Einrichten und Hinzufügen von Mitarbeitern zu einem Buchungskalender verwendet haben, wird dieser Grenzwert möglicherweise nicht erzwungen. In diesem **Szenario kann die** Registerkarte Warteschlange keine Inhalte für Kalender mit mehr als 100 Mitarbeitern rendern. Für eine optimale Erfahrung empfehlen wir, einem Buchungskalender nicht mehr als 100 Mitarbeiter hinzuzufügen. Wir arbeiten an einer Lösung dieser Einschränkung in zukünftigen Versionen.
 
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Zusätzliche Funktionen mit der Bookings-Web-App
 
@@ -118,6 +118,8 @@ Weitere Informationen finden Sie unter [Microsoft Bookings](/microsoft-365/booki
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verwalten der Teilnahmeerfahrung für Teams virtuelle Besuche in mobilen Browsern](mobile-browser-join.md)
+
+- [Teams Bericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [Erste Schritte mit Teams im Gesundheitswesen](healthcare/teams-in-hc.md)
 

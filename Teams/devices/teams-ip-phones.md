@@ -21,27 +21,27 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 5b8e7636c53add6e8ef30fa8903cff8ac3d260a3
-ms.sourcegitcommit: 86a4826472f3f1357ee9bffd512108d8778e0c5b
+ms.openlocfilehash: 1b5b32edeecd7c20840e3644583843a1c7e465b4
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62897550"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929170"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams für Android-Geräte
 
-Das zertifizierungsprogramm für Microsoft Teams-Geräte stellt sicher, dass zertifizierte Geräte einen hohen Standard erfüllen, mit höheren Leistungszielen und Qualitätsmetriken für die gesamte Teams-Oberfläche (Audio, Video, Benutzeroberfläche). Microsoft- und OEM-Partner arbeiten aktiv zusammen, um sicherzustellen, dass Geräte alle Zertifizierungsanforderungen erfüllen, einschließlich Sicherheit, Audio- und Videoqualität, Teams und Barrierefreiheit.
+Das Zertifizierungsprogramm für Microsoft Teams-Geräte stellt sicher, dass zertifizierte Geräte einen hohen Standard erfüllen, mit höheren Leistungszielen und Qualitätsmetriken für die gesamte Teams-Oberfläche (Audio, Video, Benutzeroberfläche). Microsoft- und OEM-Partner arbeiten aktiv zusammen, um sicherzustellen, dass Geräte alle Zertifizierungsanforderungen erfüllen, einschließlich Sicherheit, Audio- und Videoqualität, Teams Und Barrierefreiheit.
 
 Zertifizierungsprogramme sollen sicherstellen, dass auf allen zertifizierten Geräten eine Android-Version mit den erforderlichen Features für Teams und Teams Admin Center ausgeführt wird. Die Zertifizierungsenddaten basieren auf der Android OS-Version, die auf dem Gerät ausgeführt wird, wenn sie in das Zertifizierungsprogramm aufgenommen wird. Unsere OEM-Partner arbeiten daran, die Lebensdauer der Zertifizierung zu verlängern, indem sie die Version des Android-Betriebssystems aktualisieren und erneut zertifizieren oder neue Modelle veröffentlichen, die auf dem aktuellen Stand sind.
 
-Über den Zertifizierungszeitraum hinaus ist Microsoft bestrebt, zwei Jahre nach Ende des Zertifizierungszeitraums die neueste Version des Teams-Clients auf diesen Geräten zu unterstützen.
+Über den Zertifizierungszeitraum hinaus ist Microsoft bestrebt, zwei Jahre nach Ende des Zertifizierungszeitraums die neueste Version des Teams-Clients auf solchen Geräten zu unterstützen.
 
 >[!NOTE]
 >Die Enddaten für die Zertifizierung werden regelmäßig aktualisiert, basierend auf OEM-Partnerplänen für ein Upgrade auf eine neuere Android-Betriebssystemversion.
 
 ## <a name="certified-teams-phones"></a>Zertifizierte Teams Telefone
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Telefone zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Geräte zertifiziert:
 
 |Gerätemodell    | Firmwareversion    | Aktuelles Zertifizierungsenddatum | Android OS-Version                               |
 |:---------------------------------------|:-----------------------------------------|:-----------------------------|-----------------------------------|
@@ -65,9 +65,9 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 | Yealink MP56 | `122.15.0.6` | 5. August 2023  | 9 |
 | Yealink VP59 | `91.15.0.16` | 5. August 2023  | 9 |
 
-## <a name="certified-teams-rooms-on-android"></a>Zertifizierung Teams-Räume Android
+## <a name="certified-teams-rooms-on-android"></a>Zertifizierte Teams-Räume für Android
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams-Räume Android zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm Microsoft Teams-Räume Für Android zertifiziert:
 
 | Gerätemodell | Firmwareversion | Aktuelles Zertifizierungsenddatum | Raumgröße                                        |  Android OS-Version    |
 |:------------------------|:-----------------|:--------------|:----------------------------------------------------------|-----------------------------------|
@@ -88,14 +88,14 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 
 ## <a name="certified-teams-displays"></a>Zertifizierte Teams Anzeigen
 
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm Microsoft Teams Android zertifiziert:
+Die folgenden Geräte sind unter dem Microsoft Teams Android-Zertifizierungsprogramm zertifiziert:
 
 | Gerätemodell | Firmwareversion | Aktuelles Zertifizierungsenddatum  | Android OS-Version |
 |:------------------------|:-----------------|:--------------|----------------------------------|
 |Lenovo Think Smart View|`CD-18781Y.201006.099`| 5. Dezember 2022 |  8.1  |
 
 ## <a name="certified-teams-panels"></a>Zertifizierte Teams Panels
-Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams zertifiziert:
+Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Teams Zertifiziert:
 
 | Gerätemodell| Firmwareversion | Aktuelles Zertifizierungsenddatum | Android OS-Version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
@@ -113,7 +113,7 @@ Im Folgenden finden Sie die neuesten Teams für Telefon-Apps und Firmwareversion
 | Produktversion | Veröffentlichungsdatum  | Microsoft Teams-App-Version | Unternehmensportal-Version | Version des Administrator-Agenten |
 |:----------------|:--------------|:----------------------------|:-----------------------|:--------------------|
 | Update 2022 #1   | 7. Februar 2022   | `1449/1.0.94.2022011305` |`5.0.5304.0` | `322` |
-| 2022-Update #1B  | 7. Februar 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
+| 2022 Update #1B  | 7. Februar 2022   | `1449/1.0.94.2022020202` |`5.0.5304.0` | `322` |
 | 2021 Update #3B | 6. Dez. 2021   | `1449/1.0.94.2021112302 ` | `5.0.5304.0` | `298` |
 | 2021 Update #3A | 22. Nov 2021   | `1449/1.0.94.2021110101 ` | `5.0.5304.0` | `298` |
 | Update 2021 #3  | 3. Nov. 2021   | `1449/1.0.94.2021101205` | `5.0.5304.0` | `298` |
@@ -143,6 +143,10 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 | Yealink VP59   | `91.15.0.87`  | Update 2022 #1     |
 | Yealink CP960  | `73.15.0.150`  | Update 2022 #1         |
 | Yealink MP52 | `145.15.0.25`  | Update 2022 #1         |
+| Poly Trio C60  | `7.1.4.0250 ` | 2021 Update #3C  |
+| Poly CCX600    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX500    | `7.1.4.0253  `| 2021 Update #3C  |
+| Poly CCX400    | `7.1.4.0253  `| 2021 Update #3C  |
 | Poly Trio C60   | `7.1.4.0201`  | 2021 Update #3B                        |
 | Poly CCX400/CCX500/CCX600   | `7.1.4.0200`  | 2021 Update #3B                 |
 |Audiocodes C448HD  | `1.14.449` | Update 2021 #3  |
@@ -190,7 +194,7 @@ Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten
 
 Siehe [Microsoft Teams Anzeigen](teams-displays.md).
 
-### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams-Räume für Android
+### <a name="product-release-information-for-teams-rooms-on-android"></a>Produktveröffentlichungsinformationen für Teams-Räume android
 
 Im Folgenden finden Sie die neuesten Teams-Räume für Android-Apps und Firmware-Versionen.
 
@@ -264,7 +268,7 @@ Im Folgenden finden Sie die neuesten Microsoft Teams zeigt App- und Firmwarevers
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach  der Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen** .
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen** .
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
@@ -272,7 +276,7 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 |Lenovo Think Smart View| `CD-18781Y.210507.111` |Update 2021 #2 |
 |Lenovo Think Smart View| `CD-18781Y.210228.109` |Update 2021 #1 |
 
-### <a name="product-release-information-for-teams-panels"></a>Produktveröffentlichungsinformationen für Teams Panels
+### <a name="product-release-information-for-teams-panels"></a>Produktfreigabeinformationen für Teams Panels
 
 Im Folgenden finden Sie die neuesten Microsoft Teams Panels-App und Firmwareversionen.
 
@@ -284,7 +288,7 @@ Im Folgenden finden Sie die neuesten Microsoft Teams Panels-App und Firmwarevers
 
 #### <a name="firmware-versions"></a>Firmwareversionen
 
-Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion nach  der Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen** .
+Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie die entsprechenden Microsoft Teams-App, Unternehmensportal und den Administrator-Agent ermitteln. Die installierten Versionen finden Sie in der Spalte Enthaltene Produktversion. Suchen Sie dann die Produktversion in der **obigen Tabelle App-Versionen** .
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion|
 |:--------------|:-----------------|:-------------------------|
@@ -297,16 +301,16 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 ## <a name="more-resources"></a>Weitere Ressourcen
 
-Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Microsoft Teams telefone.
+Informationen [zu Microsoft Teams,](phones-for-teams.md) die von diesen Geräten unterstützt werden, finden Sie unter Featuresatz für Mobiltelefone.
 
 Informationen [zur Firmwareversion ihres mobilen](phones-for-teams.md) Geräts finden Sie unter Suchen der Firmwareversion auf einem mobilen Gerät.
 
-Microsoft Teams-Lizenzen können im Rahmen von Abonnements Microsoft 365 [oder Office 365 erworben werden](/office365/servicedescriptions/teams-service-description). Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung Microsoft Teams Telefonen finden Sie unter Verfügbare [Telefonsystemlizenzen](https://products.office.com/microsoft-teams/voice-calling).
+Microsoft Teams-Lizenzen können im Rahmen von Abonnements Microsoft 365 [oder Office 365 werden](/office365/servicedescriptions/teams-service-description). Weitere Informationen zu den erforderlichen Lizenzen für die Verwendung Microsoft Teams Telefonen finden Sie unter Verfügbare [Telefonsystemlizenzen](https://products.office.com/microsoft-teams/voice-calling).
 
 Weitere Informationen zum Erhalten von Teams finden Sie unter[Wie erhalte ich Zugriff auf Microsoft Teams?](https://support.office.com/article/fc7f1634-abd3-4f26-a597-9df16e4ca65b)
 
 Wenn Sie ein Lieferant sind, der am Zertifizierungsprogramm teilnehmen möchten, finden [](/skypeforbusiness/certification/how-to-join) Sie unter Teilnehmen an Anforderungen und verfügbaren Programmen weitere Informationen.
 
-[Erkunden Microsoft Teams Mobiltelefonen und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
+[Entdecken sie Microsoft Teams und zertifizierten Geräten.](https://products.office.com/microsoft-teams/across-devices/devices)
 
 [Interoperabilität von Teams und Skype](../teams-skype-interop.md)

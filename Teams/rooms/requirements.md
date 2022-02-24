@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.assetid: 6b2b2684-8e9e-49ea-8c46-1c690964f982
 ms.collection:
 - M365-collaboration
-description: Erfahren Sie mehr über die Anforderungen Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
+description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 0609fc0267a20d716d897ad4782842395b9835b1
-ms.sourcegitcommit: 5e9a8d3cdb72b57adfb842200159c5d753b70ecb
+ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
+ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62329045"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62929230"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
@@ -28,7 +28,7 @@ Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume sie
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
-Die Bereitstellung umfasst die Erstellung und Einrichtung Teams-Räume Ressourcenkontos, wie unter Bereitstellen [Microsoft Teams-Räume](rooms-deploy.md).
+Die Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonton Teams-Räume wie unter Bereitstellen [von](rooms-deploy.md) Microsoft Teams-Räume.
 
 Weitere Informationen finden Sie unter:
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams-Räume sich bei Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 anmelden und an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in der Microsoft 365 oder in Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in Microsoft 365 oder in Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
@@ -67,6 +67,16 @@ Alle aktuellen Geräte und Bundles für Microsoft Teams-Räume sind im [Raumsyst
    |[Crestron Flex UC-M70-T mit ASUS-PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-M70-T)|Core i5/i7|8 GB |128 GB |
    |[Crestron Flex UC-MX50-T mit ASUS-PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX50-T)|Core i5/i7|8 GB |128 GB |
    |[Crestron Flex UC-MX70-T mit ASUS-PC](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MX70-T)|Core i5/i7|8 GB |128 GB |
+   |Crestron FLEX UC-B30-T mit Dell IHNENPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-Bx30-T mit Dell DELLPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MM30-T mit DellPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MMX30-T mit Dell DELLPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M50-T mit DellPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MX50-T mit DellPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-M70-T mit Dell IHNENPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-MX70-T mit Dell DELLPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-C100-T mit Dell DELLPLEX|Core i5|8 GB|128 GB|
+   |Crestron FLEX UC-CX100-T mit Dell CXPLEX|Core i5|8 GB|128 GB|
   |[Crestron-Mercury Mini UC-MM30-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Tabletop-Conferencing-Systems/UC-MM30-T)|Core i5|8 GB |128 GB |
   |[Dell DemPlex 7080 mit Logitech TAP](https://www.dell.com/en-us/work/shop/cty/pdp/spd/optiplex-7080-xe-teams) | Core i7 |16 GB |128 GB|
   |[HP Elite Slice for Meeting Rooms G2](https://www8.hp.com/us/en/elite-family/elite-slice-for-meetings.html) |Core i5 |8 GB |128 GB |
@@ -140,6 +150,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Huddly IQ Lite](https://www.huddly.com/conference-cameras/iq/) |1.3.29|
 |[Huddly IQ Kamera](https://www.huddly.com/conference-cameras/iq/) |1.3.27|
 |Huddly L1 Camera with [Crestron UC-C100-T MTR](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T) kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-C100-T mit ASUS Tek Computer INC 9934 berechnen 1.0.20.246 oder höher |
+|Huddly L1 Camera with [Crestron UC-CX100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-CX100-T) MTR-W Kit | Huddly L1 Camera: 1.2.9 </br> Crestron UC-CX100-T mit ASUS Tek Computer INC 9934 1.00.20.246 oder höher |
 |Huddly L1 Camera with Crestron UC-M70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-M70-T mit ASUS Tek Computer INC 9934 berechnen 1.0.20.246 oder höher |
 |Huddly L1 Camera with Crestron UC-MX70-T MTR kit | Huddly L1 Camera: 1.2.1 </br> Crestron UC-MX70-T mit ASUS Tek Computer INC 9934 compute 1.0.20.246 oder höher |
 |[Jabra Dencast3-Kamera](https://www.jabra.com/business/video-conferencing/jabra-panacast)|1.3.9.12|
@@ -177,11 +188,13 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[IMMERS Expand 80T + 2 Extension Mics](https://www.eposaudio.com/en/us/enterprise/products/expand-80t-bluetooth-speakerphone-1000203) |Freisprechtelefon – 4.6.55 <br/> Erweiterungsmikrofon – 0.2.314|
 |[PATENTS Expand Capture 5](https://www.eposaudio.com/en/us/enterprise/products/expand-capture-5-speakerphone-1000895)  |1.0.1|
 |[Ex stamp DMP128 PLUS C V AT DSP System (DMP 128 Plus C V AT, DMP 128 Plus C AT, DMP 128 Plus C V, DMP 128 Plus C, DMP 128 Plus AT, DMP 128 Plus, DMP 128 FlexPlus C AT, DMP 128 FlexPlus C V AT)](https://www.extron.com/product/dmp128plus) | 1.08 |
+|[Exron DMP 64 PLUS C V AT DSP System (DMP 64 Plus C V AT, DMP 64 Plus C AT, DMP 64 Plus C V, DMP 64 Plus C)](https://www.extron.com/product/dmp64plus) | 1.08|
 |[Jabra 510](http://www.jabra.com/support/Jabra-SPEAK&trade;-510_7510-209)   |2.10.0   |
 |[Jabra 710](http://www.jabra.com/business/speakerphones/jabra-speak-series/jabra-speak-710)   |1.8.0   |
 |[Jabra 810](http://www.jabra.com/supportpages/jabra-speak-810)   |1.2.23   |
 |[Yamaha YVC-1000](http://www.yamaha.com/products/en/communication/usb_conference_speakerphones/yvc-1000/)   |100c   |
 |[Yamaha YVC-1000MS](https://uc.yamaha.com/products/conference-phones/usb-bluetooth/) |1.0.0 |
+|[Yamaha ADECIA Ceiling Solution](https://uc.yamaha.com/products/microphone-systems/adecia/)|1.2.0|
 |[Yealink CP900](https://www.yealink.com/products_150.html) |100.20.0.29 |
 |[Yealink UVC30](https://www.yealink.com/product/microsoft-teams-room-system-uvc30)| 105.420.0.11 |  &#x2714; |
 |[Yealink UVC34 All-in-One-Videoleiste](https://www.yealink.com/product/usb-videobar-uvc34) | 265.410.0.9 |
@@ -195,6 +208,7 @@ Diese Geräte sind in der [Produktvitrine Raumsystem-Zubehör](https://products.
 |[Shure MXA 710 2ft Table Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C Obergrenze Lautsprecher](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 2ft Table Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C-Lautsprecher: 1.1.1 |
 |[Mxre MXA 710 4ft Wall Linear Array Microphone](https://www.shure.com/products/microphones/mxa710) + </br></br> [Shure Intellimix P300 Audio Conferencing Processor](https://www.shure.com/products/mixers/p300) +</br></br> [MXN5-C Obergrenze Lautsprecher](https://www.shure.com/en-US/products/loudspeakers/mxn5)| MXA710 4ft Wall Linear Array Mic: 1.2.0 </br> P300 DSP: 4.4.8 </br> MXN5-C-Lautsprecher: 1.1.1 |
 |[Mxre MXA 910 mit Intellimix Ceiling Array Microphone](https://www.shure.com/products/microphones/mxa910) + </br> [Shure Intellimix Room Software](https://www.shure.com/products/software/intellimix_room) +</br> [Crestron UC-C100-T](https://www.crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-Flex-Integrator-Kits/UC-C100-T)| Shure Intellimix Room Software: 3.0.4.14 </br> Shure MXA 910 mit Intellimix Ceiling Array Microphone: 4.4.11 </br> MxN5-C-Lautsprecher von Mxre: 1.2.1 </br> Crestron UC-C100-T mit ASUS Tek Computer INC 9934 Compute | 
+|[Sennheiser TeamConnect Intelligent Speaker/TC ISP (T-Rock)](https://en-us.sennheiser.com/tcisp)|1.0.2|
 |[Biamp Tesira Fore AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ &Dagger;</br></br> [Sennheiser TeamConnect 2-Deckenmikrofon](https://sennheiser.com/tcc2)+ &Dagger;</br></br> [Tesira EX-UBT](https://www.biamp.com/products/tesira/tesira-expanders) &Dagger; |  Biamp DSP: 3.12.0.15  </br></br> TCC2: 1.3.3 </br></br> EX-UBT: 3.12.0.15 |
 |[Biamp Tesira FORTÉ AVB VT4 Audio DSP](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Biamp Parlé TCM-XA Ceiling Microphone](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br> [Biamp Desono C-IC6 ceiling montieren Lautsprecher](https://www.biamp.com/products/tesira-speakers)| Audio FW-Version: 3.15|
 |[Biamp TesiraFORTE AVB VT4](https://www.biamp.com/products/tesira-fixed-audio-dsp)+ </br></br>[Nenner TTM-X(Tabellenmikrofon)](https://www.biamp.com/products/product-families/parle/parle-microphones)+</br></br>[Ex-UBT]() |Audio FW-Version: 3.15|
