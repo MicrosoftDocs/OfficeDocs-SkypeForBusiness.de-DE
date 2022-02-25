@@ -9,21 +9,26 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: high
 search.appverid: MET150
 f1.keywords:
-  - CSH
+- CSH
 ms.custom:
-  - ms.teamsadmincenter.meetingsettings.invitationurls
-  - ms.teamsadmincenter.meetingsettings.network.ports
-  - ms.teamsadmincenter.meetingsettings.overview
+- ms.teamsadmincenter.meetingsettings.invitationurls
+- ms.teamsadmincenter.meetingsettings.network.ports
+- ms.teamsadmincenter.meetingsettings.overview
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-description: 'Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.'
+- M365-collaboration
+- m365initiative-meetings
+description: Hier erfahren Sie, wie Sie die Einstellungen für die von Benutzern in Ihrer Organisation geplanten Teams-Besprechungen verwalten.
+ms.openlocfilehash: 294bbac570d1f1741449c7c81cb9389b20cdcdc6
+ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62960027"
 ---
-
 # <a name="manage-meeting-settings-in-microsoft-teams"></a>Verwalten von Besprechungseinstellungen in Microsoft Teams
 
 Als Administrator verwenden Sie Teams-Besprechungseinstellungen, um zu steuern, ob anonyme Benutzer an Teams-Besprechungen teilnehmen können und um Besprechungsanfragen anzupassen. Wenn Sie Quality of Service (QoS) aktivieren möchten, können Sie Portbereiche für den Echtzeitdatenverkehr festlegen. Diese Einstellungen gelten für alle Teams-Besprechungen, die Benutzer in Ihrer Organisation planen. Sie verwalten diese Einstellungen über **Besprechungen** > **Besprechungseinstellungen** im Microsoft Teams Admin Center.
@@ -67,6 +72,14 @@ Alle anderen Wertekombinationen verhindern, dass anonyme Benutzer an Besprechung
 > [!NOTE]
 > Um die Richtlinie pro Organisator für Organisationen zu verwenden, bei denen die anonyme Teilnahme pro Organisation deaktiviert ist, müssen Administratoren eine Richtlinie erstellen und diese dann Benutzern zuweisen. Informationen dazu finden Sie unter [Verwalten von Besprechungsrichtlinien in Microsoft Teams](/microsoftteams/meeting-policies-overview).
 
+### <a name="blocking-anonymous-join-for-specific-client-types"></a>Blockieren der anonymen Teilnahme für bestimmte Clienttypen
+
+Wenn anonyme Benutzer an Besprechungen teilnehmen dürfen, können sie entweder den Teams-Client oder einen benutzerdefinierten Client verwenden, der mit [Azure Communication Services](/azure/communication-services/) erstellt wurde. Administratoren können ausgewählte Clienttypen mithilfe des Parameters **-BlockedAnonymousJoinClientTypes** in [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) blockieren.
+
+Die folgenden Werte sind möglich:
+- Null (Standard) Alle Clienttypen sind zulässig.
+- Acs. Blockiert benutzerdefinierte Clients, die mit [Azure Communication Services](/azure/communication-services/) erstellt wurden.
+- Teams. Blockiert den Teams-Client.
 
 ## <a name="allow-anonymous-users-to-interact-with-apps-in-meetings"></a>Zulassen, dass anonyme Benutzer in Besprechungen mit Apps interagieren
 
