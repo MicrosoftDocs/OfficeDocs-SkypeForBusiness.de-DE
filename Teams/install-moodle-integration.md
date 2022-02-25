@@ -20,12 +20,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 95b368bab33818332ca9c2d0eafcb1966fffb3af
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 1c6118fe7f9ffe00eb9b8cb657d1a6ea3221311b
+ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363041"
+ms.lasthandoff: 02/25/2022
+ms.locfileid: "62963386"
 ---
 # <a name="installing-the-moodle-integration-with-microsoft-teams"></a>Installation der Moodle-Integration in Microsoft Teams
 
@@ -62,7 +62,7 @@ Die Moodle-Integration in Microsoft Teams wird vom Open-Source [Moodle-Plug-In-S
 1. Melden Sie sich bei Ihrem Moodle-Server als Administrator an, und **wählen Sie im** linken Navigationsbereich Websiteverwaltung aus.
 1. Wählen Sie die Registerkarte **Plug-Ins** und klicken Sie dann auf **Plug-Ins installieren**.
 1. Klicken Sie unter dem Abschnitt **Plug-In aus ZIP-Datei installieren** auf die Schaltfläche **Datei auswählen**.
-1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, suchen Sie nach der oben heruntergeladenen Datei, und klicken Sie **Hochladen diese Datei.**
+1. Wählen Sie **Hochladen linken Navigationsbereich** die Option Datei auswählen aus, navigieren Sie zu der datei, die Sie oben heruntergeladen haben, und klicken **Sie Hochladen diese Datei.**
 1. Wählen Sie im linken Navigationsbereich die Option **Websiteverwaltung** erneut aus, um zu Ihrem Administrator-Dashboard zurückzukehren. Scrollen Sie nach unten zu **Lokale Plug-Ins** und klicken Sie auf den Link **Microsoft Office 365-Integration**. Lassen Sie diese Konfigurationsseite in einer separaten Browser-Registerkarte geöffnet, da Sie diese während des gesamten weiteren Verlaufs dieses Vorgangs verwenden werden.
 
 Weitere Informationen über die Installation von Moodle-Plug-Ins finden Sie in der [Moodle-Dokumentation](https://docs.moodle.org/34/en/Installing_plugins).
@@ -127,7 +127,7 @@ Als nächstes müssen Sie Moodle als Anwendung in Ihrem Azure Active Directory r
     * Um "OpenID Connect" zu aktivieren, klicken Sie auf den Link **Authentifizierung verwalten** und klicken Sie auf das Augensymbol in der Zeile **OpenId Connect**, wenn es abgeblendet ist.
     * Als nächstes müssen Sie die Frame-Einbettung aktivieren. Klicken Sie auf den Link **HTTP-Sicherheit** und dann auf das Kontrollkästchen neben **Frame-Einbettung zulassen**.
     * Der nächste Schritt besteht darin, Webdienste zu aktivieren, welche die Features der Moodle-API aktivieren. Klicken Sie auf den Link **Erweiterte Features**, und stellen Sie sicher, dass das Kontrollkästchen neben **Webdienste aktivieren** aktiviert ist.
-    * Schließlich müssen Sie die externen Dienste für die Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
+    * Schließlich müssen Sie die externen Dienste für den Microsoft 365 oder Office 365. Klicken Sie auf den Link **Externe Dienste**, und dann:
         * Klicken Sie auf **Bearbeiten** in der Zeile **Moodle Office 365-Webdienste**.
         * Aktivieren Sie das Kontrollkästchen neben **Aktiviert**, und klicken Sie dann auf **Änderungen speichern**
     * Als nächstes müssen Sie die Berechtigungen für authentifizierte Benutzer bearbeiten, damit Sie Webdienst-Token erstellen können. Klicken Sie auf den Link **Bearbeitungsrolle "Authentifizierter Benutzer"**. Scrollen Sie nach unten und suchen Sie die Funktion **Webdienst-Token erstellen** und aktivieren Sie das Kontrollkästchen **Zulassen**.
@@ -187,6 +187,6 @@ Nachdem Sie die App installiert haben, können Sie die Registerkarte zu jedem Ka
 
 Das ist alles. Jetzt können Sie und Ihr Team direkt von Microsoft Teams aus mit Ihren Moodle-Kursen arbeiten.
 
-Wenn Sie uns Vorschläge für neue Features oder Feedback mitteilen möchten, besuchen Sie bitte unsere Seite [User Voice](https://microsoftteams.uservoice.com/forums/916759-moodle).
+Wenn Sie Wünsche zu Features oder Feedback an uns senden möchten, besuchen Sie bitte unser [Feedbackportal](https://feedbackportal.microsoft.com).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
