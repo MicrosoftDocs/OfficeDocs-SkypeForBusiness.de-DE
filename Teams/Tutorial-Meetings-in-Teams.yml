@@ -20,12 +20,12 @@ metadata:
   - Teams_ITAdmin_RemoteWorkers
   appliesto:
   - Microsoft Teams
-  ms.openlocfilehash: bfdb7ceab9e4a3d3ffebf903b073c5ec707e7bc6
-  ms.sourcegitcommit: 3a8bec0445cee5cd776fb1991f093a0ec4351852
+  ms.openlocfilehash: 1737461b1eface3038957a862ab2bcb743ca4615
+  ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
   ms.translationtype: MT
   ms.contentlocale: de-DE
-  ms.lasthandoff: 10/28/2021
-  ms.locfileid: "60605601"
+  ms.lasthandoff: 02/25/2022
+  ms.locfileid: "62960057"
 items:
 - durationInMinutes: 1
   content: >
@@ -67,7 +67,7 @@ items:
     -   Schreiben Sie etwas im Abschnitt für Kommentare unten auf der Seite „Nächste Schritte“ dieses Tutorials.
 
 
-    Wenn Sie Produktfeedback zu Microsoft Teams übermitteln möchten, beispielsweise Ideen für neue Funktionen, besuchen Sie [UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+    Wenn Sie uns Produktfeedback zu Teams, z. B. Ideen für neue Features, geben sie, besuchen Sie Teams [Feedbackportal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 - title: Besprechungen in Microsoft Teams
   durationInMinutes: 16
   content: "\nInformationen zu Besprechungen in Microsoft Teams finden Sie unter den folgenden Links:\n-   „Teilnehmen an Besprechungen“ in [Besprechungen und Anrufe](https://support.office.com/article/Meetings-and-calls-d92432d5-dd0f-4d17-8f69-06096b6b48a8) (geschätzte Lesedauer: 6 Minuten)\n\n-   [Video: Sofortbesprechung](https://support.office.com/article/Video-Meet-now-26e06837-853d-4df1-a729-06bf700d4ecf) (1:45 Minuten)\n\n-   [Video: Geplante Besprechungen](https://support.office.com/article/Video-Scheduled-meetings-ba44d0fd-da3c-4541-a3eb-a868f5e2b137) (1:45 Minuten)\n\n-   [9 Tipps für Besprechungen in Microsoft Teams](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/9-tips-for-meeting-with-Microsoft-Teams/ba-p/151444) (Informationen zur Besprechungslobby, anonyme Teilnahme an Besprechungen und mehr, geschätzte Lesedauer: 6 Minuten)\n"
@@ -108,7 +108,7 @@ items:
 
     2.  Senden Sie uns Feedback:
         - Verwenden Sie dafür den Abschnitt für Kommentare unten auf dieser Seite.
-        - Um Produktfeedback zu Teams zu geben oder sich eine neue Funktion zu wünschen, wechseln Sie zu [Teams UserVoice](https://microsoftteams.uservoice.com/forums/555103-public).
+        - Wenn Sie uns Teams feedback geben oder ein neues Feature anfordern müssen, wechseln Sie Teams [Feedbackportal](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
     3.  Immer auf dem neuesten Stand:
         - Folgen Sie dem [Teams-Blog](https://aka.ms/teamsblog).
         - Lesen Sie die [Teams-Roadmap](https://aka.ms/O365Roadmap).

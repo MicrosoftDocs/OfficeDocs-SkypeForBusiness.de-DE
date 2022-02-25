@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Microsoft 365 Teams Telefon mit Anrufplan-Paketdokumentation
-summary: 'Erfahren Sie, wie Sie das Anrufplanpaket Microsoft 365 Teams Telefon in Ihrer Organisation planen, einrichten und verwenden. Das Teams Telefon Anrufplan-Bündels macht es kleinen und mittleren Organisationen einfach, ein leistungsfähiges und flexibles Telefonsystem zu erstellen, ohne die Kosten und Komplexität von in-House-Lösungen zu bewältigen.'
+summary: 'Hier erfahren Sie, wie Sie das Anrufplanpaket Microsoft 365 Teams Telefon In Ihrer Organisation planen, einrichten und verwenden. Das Teams Telefon Anrufplan-Bündels macht es kleinen und mittleren Organisationen einfach, ein leistungsfähiges und flexibles Telefonsystem ohne Kosten und Komplexität von in der Organisation verwendeten Lösungen zu erstellen.'
 metadata:
   title: Microsoft 365 Teams Telefon mit Anrufplan-Paketdokumentation
   description: 'Hier erfahren Sie, wie Sie das Anrufplanpaket Microsoft 365 Teams Telefon, bereitstellen und verwenden.'
@@ -71,8 +71,8 @@ productDirectory:
       links:
         - url: ../cloud-voice-landing-page.md
           text: Microsoft Teams-Dokumente für Administratoren
-        - url: 'https://microsoftteams.uservoice.com/'
-          text: Microsoft Teams UserVoice-Feedback
+        - url: 'https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472'
+          text: Microsoft Teams Feedbackportal
         - url: 'https://support.office.com/teams'
           text: Microsoft Teams-Dokumente für Clients
         - url: /office365/admin/
