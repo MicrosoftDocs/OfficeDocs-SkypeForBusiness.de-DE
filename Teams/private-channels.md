@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: edf3fc2933bf51f3c5966fa8e021fe0ff50de39b
-ms.sourcegitcommit: 2ddbaecb0bb7776dc5ab88727b1335e7e46d3704
+ms.openlocfilehash: 2ff886835258d9508e2cbe7c977ab5437d87129e
+ms.sourcegitcommit: e9b0a274fdfee3d5bc8211cb099155546b281fe0
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62881550"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "62926308"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -102,9 +102,9 @@ Wird ein privater Kanal oder ein Team, das einen privaten Kanal enthält, wieder
 >
 > Weitere Informationen zum Verwalten von [mit Microsoft Teams verbundenen Teams-Websites](/SharePoint/teams-connected-sites).
 
-## <a name="private-channel-message-compliance-records"></a>Complianceeinträge für Nachrichten in einem privaten Kanal
+## <a name="compliance-copies-of-private-channel-messages"></a>Compliancekopien von Nachrichten im privaten Kanal
 
-Einträge für Nachrichten, die in einem privaten Kanal gesendet werden, werden an das Postfach aller Mitglieder des privaten Kanals und nicht an ein Gruppenpostfach übermittelt. Die Titel der Einträge sind so formatiert, dass sie angeben, von welchem privaten Kanal sie gesendet wurden.
+Compliancekopien für Nachrichten, die in einem privaten Kanal gesendet werden, werden an das Postfach aller Mitglieder des privaten Kanals und nicht an ein Gruppenpostfach übermittelt. Die Titel der Compliancekopien sind so formatiert, dass sie angeben, von welchem privaten Kanal sie gesendet wurden.
 
 Weitere Informationen zum Durchführen einer eDiscovery-Suche nach Nachrichten eines privaten Kanals finden Sie unter [eDiscovery privater Kanäle](ediscovery-investigation.md#ediscovery-of-private-channels).
 
