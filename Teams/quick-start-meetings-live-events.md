@@ -20,12 +20,12 @@ ms.localizationpriority: high
 search.appverid: MET150
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 07d050782dfef1ce89f54891302457c2f1616fa5
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: ed6abe00ac67b6029fdb72178ad09e21ec58e80d
+ms.sourcegitcommit: edf68b7ac4f1861259a0990157ee6ae84f68ca42
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763648"
+ms.lasthandoff: 02/26/2022
+ms.locfileid: "62974452"
 ---
 # <a name="quick-start---meetings-webinars-and-live-events"></a>Schnellstart: Besprechungen, Webinare und Liveereignisse 
 
@@ -157,7 +157,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 | Artikel | Beschreibung | 
 |----------|--------|
 | [Apps, Bots und Connectors](deploy-apps-microsoft-teams-landing-page.md) | Einführung in Apps und das Bereitstellen von Apps für Ihre Organisation. |
-| [Apps für Teams-Besprechungen] (/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings | Übersicht über die Erweiterbarkeit durch Besprechungs-Apps, API-Referenzen und das Aktivieren und Konfigurieren von Apps für Besprechungen. |
+| [Apps für Microsoft Teams-Besprechungen](/microsoftteams/platform/apps-in-teams-meetings/teams-apps-in-meetings) | Übersicht über die Erweiterbarkeit durch Besprechungs-Apps, API-Referenzen und das Aktivieren und Konfigurieren von Apps für Besprechungen. |
 | [Verwalten des Whiteboards in Microsoft Teams](manage-whiteboard.md) | Beschreibung der Whiteboard-Funktionalität und dessen Aktivierung und Deaktivierung für Ihre Organisation. |
 ||
 
