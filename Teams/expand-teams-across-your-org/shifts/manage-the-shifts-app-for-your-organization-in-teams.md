@@ -12,7 +12,7 @@ searchScope:
 - Microsoft Teams
 - Microsoft Cloud for Healthcare
 - Microsoft Cloud for Retail
-description: Erfahren Sie, wie Sie die Schichten-App in Ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
+description: Hier erfahren Sie, wie Sie die Schichten-App in ihrem Teams Mitarbeiter in der Frontlinie in Ihrer Organisation einrichten und verwalten.
 f1.keywords:
 - NOCSH
 ms.localizationpriority: medium
@@ -24,12 +24,12 @@ ms.collection:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: dd40888ec8f1f7c5c05c3f5a2bf5a867ece93a65
-ms.sourcegitcommit: 10bee789272e648ea1e93d7d7c27ec645d0a8bdd
+ms.openlocfilehash: d38af9f55f1620a1f38ad5860c71366201bb9444
+ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/22/2022
-ms.locfileid: "62918878"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63039903"
 ---
 # <a name="manage-the-shifts-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Schichten-App für Ihre Organisation in Microsoft Teams
 
@@ -49,13 +49,14 @@ Es ist wichtig zu wissen, dass Schichten Gäste zurzeit nicht unterstützen. Die
 
 "Schichten" ist in allen Enterprise-SKUs verfügbar, die Microsoft Teams umfassen.
 
+> [!NOTE]
+> Schichten sind in Government Community Cloud (GCC) verfügbar, jedoch nicht in GCC High- oder DoD-Umgebungen.
+
 ## <a name="location-of-shifts-data"></a>Speicherort von Daten der Schichten-App
 
-Daten der Schichten-App werden aktuell in Azure in Rechenzentren in Nordamerika, Westeuropa und im asiatisch-pazifischen Raum gespeichert. Weitere Informationen zum Speicherort von Daten finden Sie unter [Wo befinden sich meine Daten?](http://o365datacentermap.azurewebsites.net/).
+Schichtdaten werden derzeit in Azure in Rechenzentren im asiatisch-pazifischen Raum (APAC), in der Europäischen Union (EU) und in Nordamerika gespeichert. Weitere Informationen zum Speicherort von Daten finden Sie unter [Wo befinden sich meine Daten?](http://o365datacentermap.azurewebsites.net/).
 
-## <a name="shifts-data"></a>Verschiebt Daten
-
-Weitere Informationen dazu, wo Schichtendaten gespeichert werden, sowie zum Speichern, Abrufen und Verschlüsseln von Schichtdaten finden Sie unter Häufig gestellte Fragen zu Schichten[.](shifts-data-faq.md)
+Weitere Informationen zu Schichten von Daten, einschließlich Speicherung, Aufbewahrung, Abruf und Verschlüsselung von Schichtdaten, finden Sie unter Häufig gestellte [Fragen zu Schichten](shifts-data-faq.md).
 
 ## <a name="set-up-shifts"></a>Einrichten von "Schichten"
 
@@ -88,9 +89,10 @@ Sie können das Überwachungsprotokoll durchsuchen, um die Schichtaktivität in 
 
 Damit Sie das Überwachungsprotokoll durchsuchen können, müssen Sie zuerst im [Security & Compliance Center](https://protection.office.com) die Überwachung aktivieren. Weitere Informationen finden Sie unter [Die Überwachungsprotokollsuche ein- oder ausschalten](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014). Denken Sie daran, dass Überwachungsdaten nur ab dem Zeitpunkt verfügbar sind, an dem Sie die Überwachung aktiviert haben.
 
-## <a name="related-topics"></a>Verwandte Themen
+## <a name="related-articles"></a>Verwandte Artikel
 
 - [Schichten für Teams](../shifts-for-teams-landing-page.md)
-- [Schichten-Hilfe für Mitarbeiter an vorderer Front](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
+- [Häufig gestellte Fragen (FAQ) zum Verschieben von Daten](shifts-data-faq.md)
 - [Verschiebt Verbinder](shifts-connectors.md)
+- [Schichten-Hilfe für Mitarbeiter an vorderer Front](https://support.office.com/article/apps-and-services-cc1fba57-9900-4634-8306-2360a40c665b)
 - [Benutzern in Microsoft Teams Richtlinien zuweisen](../../policy-assignment-overview.md)
