@@ -1,5 +1,5 @@
 ---
-title: Anpassen Ihrer Teams-Apps basierend auf einer Lizenz
+title: Anpassen Ihrer Teams basierend auf einer Lizenz
 author: lanachin
 ms.author: v-lanachin
 ms.reviewer: aaglick
@@ -15,14 +15,14 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 774688012d4e70a20897cd45aa78883ba7985e68
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 2d9c316c042230237089d57c23156cf6ac5284c6
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62864038"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047195"
 ---
-# <a name="tailor-your-teams-apps-based-on-license"></a>Anpassen Ihrer Teams-Apps basierend auf einer Lizenz
+# <a name="tailor-your-teams-apps-based-on-license"></a>Anpassen Ihrer Teams basierend auf einer Lizenz
 
 > [!NOTE]
 > [!INCLUDE [new-feature-coming-soon-section](includes/new-feature-coming-soon-section.md)]
@@ -32,7 +32,7 @@ ms.locfileid: "62864038"
 
 ## <a name="overview"></a>Übersicht
 
-Teams bietet eine Möglichkeit zum Anheften von Apps basierend auf einer Lizenz. Wenn sich ein Benutzer mit aktivierter Teams App-Erfahrung bei einem Konto anknappt, erhält der Benutzer eine App-Erfahrung, die auf seine Lizenz zugeschnitten ist.
+Teams bietet eine Möglichkeit zum Anheften von Apps basierend auf einer Lizenz. Wenn sich ein Benutzer bei Teams mit aktivierter maßgeschneiderte App-Erfahrung meldet, erhält der Benutzer eine App-Erfahrung, die auf seine Lizenz zugeschnitten ist.
 
 Mit diesem Feature erhalten Benutzer die relevantesten Apps in Teams ohne eine vom Administrator benötigte Aktion.
 
@@ -42,18 +42,21 @@ Apps werden an die App-Leiste angeheftet. Dabei handelt es sich um die Leiste an
 
 Angeheftete Apps für Benutzer mit einer F-Lizenz:
 
+- Viva Connections
 - Aktivität
 - Chat
 - Teams
-- Schichten
+- Walkie-Talkie
 - Aufgaben
+- Schichten
+- Genehmigungen
 
 ## <a name="admin-controls"></a>Administratorsteuerelemente
 
 > [!NOTE]
 > Das Anheften von Benutzern muss in der globalen (organisationsweiten Standard [-)](teams-app-setup-policies.md) App-Setuprichtlinie aktiviert sein, damit dieses Feature wirksam wird.
 
-Das Feature "Maßgeschneiderte App-Erfahrung" wird  durch die Einstellung Maßgeschneiderte Apps basierend auf Lizenzen organisationsweit anzeigen auf der [](manage-apps.md#manage-org-wide-app-settings) Seite Apps verwalten im Teams Admin Center gesteuert. Wenn das Feature aktivieren, erhalten alle Benutzer in Ihrer Organisation, die über eine F-Lizenz verfügen, die maßgeschneiderte App-Erfahrung.
+Das Feature "Maßgeschneiderte App Teams-Erfahrung"  wird im Admin Center auf der Seite Apps verwalten durch die Einstellung Maßgeschneiderte [](manage-apps.md#manage-org-wide-app-settings) Apps basierend auf Lizenzen anzeigen gesteuert. Wenn das Feature aktivieren, erhalten alle Benutzer in Ihrer Organisation, die über eine F-Lizenz verfügen, die maßgeschneiderte App-Erfahrung.
 
 Beachten Sie, dass alle Benutzerdefinierten Richtlinien für die App-Einrichtung, die Benutzern zugewiesen sind, Vorrang haben. Wenn einem Benutzer also bereits eine benutzerdefinierte App-Setuprichtlinie zugewiesen ist, erhält der Benutzer die Konfiguration, die in der Benutzerdefinierten App-Setuprichtlinie definiert ist. Weitere Informationen zur Funktionsweise des Features mit vorhandenen App-Setuprichtlinien, die Sie in Ihrer Organisation angewendet haben, finden Sie [](#scenarios) im Abschnitt Szenarien in diesem Artikel.
 
@@ -68,7 +71,7 @@ Verwenden Sie die Informationen in dieser Tabelle, um zu erfahren, wie das Featu
 
 |Wenn...  |Dann... |
 |---------|---------|
-|Ein Benutzer verfügt über die globale App-Setuprichtlinie, und das Feature ist ein.     | Der Benutzer erhält die angepasste App-Erfahrung.        |
+|Ein Benutzer verfügt über die globale App-Setuprichtlinie, und das Feature ist ein.     | Der Benutzer erhält die angepasste App-Erfahrung. Die in der globalen App-Setuprichtlinie definierten Apps sind weiterhin angeheftet und werden weiter unten in der Liste der angeheftet Apps angezeigt.      |
 |Ein Benutzer verfügt über eine benutzerdefinierte App-Setuprichtlinie, und das Feature ist ein.    |Der Benutzer erhält die Konfiguration, die in der Benutzerdefinierten App-Setuprichtlinie definiert ist.          |
 |Das Feature ist verfügbar, und Sie aktualisieren die Globale App-Setuprichtlinie.     |Der Benutzer erhält die angepasste App-Erfahrung basierend auf seiner Lizenz. Die in der globalen App-Setuprichtlinie definierten Apps sind weiterhin angeheftet und werden weiter unten in der Liste der angeheftet Apps angezeigt.          |
 |Das Feature ist deaktiviert.   | Der Benutzer erhält die Erfahrung, die in der globalen App-Setuprichtlinie oder der benutzerdefinierten App-Setuprichtlinie definiert ist, die ihm zugewiesen ist.          |
