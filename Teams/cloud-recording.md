@@ -19,12 +19,12 @@ description: Praktische Anleitung für die Bereitstellung von Cloud-Voice-Funkti
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a067488736a1392ac34259ba77518c299c46d203
-ms.sourcegitcommit: faeb8976299375e7658499ff31d25e8ef6003144
+ms.openlocfilehash: 7136ea224b23e29e7b4e669fbe3d364b787193fd
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "62224012"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043353"
 ---
 # <a name="teams-cloud-meeting-recording"></a>Aufzeichnung einer Teams-Cloudbesprechung
 
@@ -181,7 +181,23 @@ Set-CsTeamsMeetingPolicy -Identity Global -AllowTranscription $false
 |Ich möchte, dass die Transkription für die Mehrzahl der Benutzer deaktiviert wird, aber selektiv bestimmte Benutzer aktivieren, die in der Lage sind, Aufzeichnungen zu transkribieren. |<ol><li>Stellen Sie sicher, dass Global CsTeamsMeetingPolicy den Eintrag AllowCloudRecording = False aufweist. <li>Die Mehrzahl aller Benutzer verfügt über die globale CsTeamsMeetingPolicy ODER eine der CsTeamsMeetingPolicy-Richtlinien mit AllowCloudRecording = False. <li>Allen anderen Benutzern wurde eine der CsTeamsMeetingPolicy-Richtlinien mit dem Eintrag AllowCloudRecording = True zugewiesen. </ol>|
 
 ### <a name="terms-of-use-acceptance"></a>Zustimmung zu den Nutzungsbedingungen
-Wenn Ihre Organisation über eine Besprechungsaufzeichnungsrichtlinie verfügt, die Ihre Benutzer vor der Aufzeichnung einer Besprechung akzeptieren sollen, verwenden Sie das Feature [Azure Active Directory-Nutzungsbedingungen](/azure/active-directory/conditional-access/terms-of-use). Mit diesem Feature können Ihre Benutzer die Nutzungsbedingungen Ihrer Organisation akzeptieren, bevor sie Zugriff auf Microsoft Teams erhalten. Dieses Feature bezieht sich nicht spezifisch auf das Klicken auf die Aufzeichnungsschaltfläche, sondern auf die Verwendung von Teams oder anderen Microsoft 365 Apps insgesamt. Unser Vorschlag ist, die Informationen über Ihre Besprechungsaufzeichnungen zu Ihren allgemeinen Nutzungsbedingungen für die Verwendung von Teams oder Microsoft 365 hinzuzufügen. 
+Wenn Ihre Organisation über eine Besprechungsaufzeichnungsrichtlinie verfügt, die Ihre Benutzer vor der Aufzeichnung einer Besprechung akzeptieren sollen, verwenden Sie das Feature [Azure Active Directory-Nutzungsbedingungen](/azure/active-directory/conditional-access/terms-of-use). Mit diesem Feature können Ihre Benutzer die Nutzungsbedingungen Ihrer Organisation akzeptieren, bevor sie Zugriff auf Microsoft Teams erhalten. Dieses Feature bezieht sich nicht spezifisch auf das Klicken auf die Aufzeichnungsschaltfläche, sondern auf die Verwendung von Teams oder anderen Microsoft 365 Apps insgesamt. Unser Vorschlag ist, die Informationen über Ihre Besprechungsaufzeichnungen zu Ihren allgemeinen Nutzungsbedingungen für die Verwendung von Teams oder Microsoft 365 hinzuzufügen.
+
+### <a name="set-a-custom-privacy-policy-url"></a>Festlegen einer benutzerdefinierten Datenschutzrichtlinien-URL
+
+Als Administrator können Sie die Teams-Aufzeichnung und die Datenschutzrichtlinien-URL für Transkriptionen mit einem benutzerdefinierten Link für Ihre Organisation aktualisieren. Sie können dies im [Azure AD Admin Center](https://aad.portal.azure.com) mit den folgenden Schritten tun:
+
+1. Melden Sie sich beim Azure AD Admin Center an.
+1. Wechseln Sie zu **Azure Active Directory** > **-Eigenschaften**.
+1. Aktualisieren Sie **das URL-Feld der Datenschutzbestimmungen** mit dem Link zu Ihrer Datenschutzrichtlinie.
+
+> [!NOTE]
+> Wenn Sie dieses Feld für Ihre Organisation bereits aktualisiert haben, müssen Sie keine Änderungen vornehmen.
+
+Nach dem Hinzufügen Ihrer Datenschutzrichtlinien-URL wird die standardmäßige Datenschutzerklärung für die Aufzeichnung und Transkription von Teams-Besprechungen durch die neue URL ersetzt, die von Ihrer Organisation bereitgestellt wird.
+
+> [!NOTE]
+> Anonyme, Gast- und Verbundbenutzer, die an Teams-Besprechungen teilnehmen, die von Ihrer Organisation gehostet werden, verfügen weiterhin über die Standarddatenschutzrichtlinie für die Aufzeichnung und Transkription von Teams-Besprechungen.
 
 ## <a name="permissions-and-storage"></a>Berechtigungen und Speicher
 

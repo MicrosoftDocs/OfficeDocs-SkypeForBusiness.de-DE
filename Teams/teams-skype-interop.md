@@ -12,12 +12,12 @@ ms.reviewer: vinbel
 search.appverid: MET150
 description: Informieren Sie sich über die Interoperabilitätsfunktionen zwischen Teams-Benutzern in Ihrem Unternehmen und Skype (Heimanwender)-Benutzern.
 ms.localizationpriority: medium
-ms.openlocfilehash: 77f268ba0e249118572124cad85af95df69d55a4
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: b18933b70708661dbb9f7f3a05aaa65983792c5c
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58581179"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "63043333"
 ---
 # <a name="teams-and-skype-interoperability"></a>Interoperabilität von Teams und Skype
 
@@ -73,7 +73,7 @@ Blockierte Skype-Benutzer werden zusammen mit anderen Personen und Festnetz (Pub
 
 ## <a name="set-whether-teams-users-can-communicate-with-skype-users"></a>Festlegen, ob Teams-Benutzer mit Skype-Benutzern kommunizieren können
 
-Als Administrator verwenden Sie das Microsoft Teams Admin Center oder PowerShell, um externe Zugriffseinstellungen festzulegen, um zu steuern, ob Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern kommunizieren können. Standardmäßig ist diese Funktion für neue Mandanten aktiviert. Voraussetzung ist jedoch, dass der folgende DNS-SRV-Eintrag vom IT-Administrator konfiguriert wird, falls er nicht bereits für Ihre Domäne vorhanden ist, z. B. _sipfederationtls.contoso.com.  
+Als Administrator verwenden Sie das Microsoft Teams Admin Center oder PowerShell, um externe Zugriffseinstellungen festzulegen, um zu steuern, ob Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern kommunizieren können. Standardmäßig ist diese Funktion für neue Mandanten aktiviert. Es muss jedoch der folgende DNS SRV-Eintrag vom IT-Administrator konfiguriert werden, wenn dieser nicht bereits für Ihre Domäne verfügbar ist, z. B. _sipfederationtls._tcp.contoso.com.  
 
 **Service (Dienst)**: sipfederationtls<br/>
 **Protocol (Protokoll)**: TCP<br/>

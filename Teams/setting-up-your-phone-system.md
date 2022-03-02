@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Schrittweise Anleitung, die erläutert, wie Sie Teams Telefonsystem für Ihre Organisation in einem Microsoft 365.
-ms.openlocfilehash: 1a8f7ed554a360b94e568058be29697c0f2b1767
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
+ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
 ms.translationtype: MT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/01/2022
-ms.locfileid: "63039983"
+ms.locfileid: "63043343"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -50,7 +50,7 @@ In diesem Artikel werden die folgenden Schritte beschrieben:
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Schritt 1: Kaufen und Zuweisen einer Telefonsystem Lizenz
 
-Wenn Sie einem Telefonsystem Benutzer eine Lizenz zuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365 Lizenz. Sie können auch mehreren Benutzern Gleichzeitig Lizenzen zuweisen. Weitere Informationen zu den verfügbaren Telefonsystem und zum Erwerben und Zuweisen von Lizenzen finden Sie unter  [Add-On](/teams-add-on-licensing/microsoft-teams-add-on-licensing.md) Teams lizenzen und Zuweisen Microsoft Teams [Add-On-Lizenzen](/teams-add-on-licensing/assign-teams-add-on-licenses.md).
+Wenn Sie einem Telefonsystem Benutzer eine Lizenz zuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365 Lizenz. Sie können auch mehreren Benutzern Gleichzeitig Lizenzen zuweisen. Weitere Informationen zu verfügbaren Telefonsystem-Lizenzen und zum Erwerben und Zuweisen von Lizenzen finden Sie unter  [Add-On Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) lizenzen und Zuweisen von [Microsot Teams-Add-On-Lizenzen](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Schritt 2: Auswählen einer PSTN-Verbindungsoption 
  
