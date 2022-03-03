@@ -20,13 +20,13 @@ f1.keywords:
 - CSH
 ms.custom:
 - Phone System
-description: Erfahren Sie, wie Sie automatische Telefon telefonieren für kleine Unternehmen einrichten und Microsoft 365 Teams Telefon Anrufplan einrichten.
-ms.openlocfilehash: b5c3b27b0b7bdc835d0dbe30a9478b52f4300ab4
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+description: Erfahren Sie, wie Sie automatische Telefon telefonieren für kleine Unternehmen in Microsoft Teams Telefonsystem Anrufplan einrichten und testen.
+ms.openlocfilehash: c47733969d32f75222783d85bb9b8bcbcb5dc689
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767348"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053224"
 ---
 # <a name="set-up-an-auto-attendant---small-business-tutorial"></a>Einrichten einer automatischen Attendant – Lernprogramm für Kleinunternehmen
 

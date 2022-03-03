@@ -17,12 +17,12 @@ search.appverid: MET150
 description: Erfahren Sie, wie Sie eine automatische Telefon attendant (auch als Anrufwarteschleife bezeichnet) für Microsoft 365 Teams Telefon.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f30dcdca74306b27c2516de54e0ab25133b77803
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: a70c07e4f0d97484ada63a5bb8163884375e13aa
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766228"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63053264"
 ---
 # <a name="step-6-set-up-an-auto-attendant-for-your-companys-main-phone-number"></a>Schritt 6: Einrichten einer automatischen Telefongesellschaft für die Haupttelefonnummer Ihres Unternehmens
 
@@ -33,4 +33,4 @@ Mit einer automatischen Telefonkonferenz können Sie ein Anrufmenü einrichten, 
 Wenn Sie alle oben aufgeführten Registerkarten zum Einrichten Ihrer automatischen Attendant durchgelassen haben, klicken Sie auf die folgende Schaltfläche, um zum nächsten Artikel zu wechseln.
 
 > [!div class="nextstepaction"]
-> [Nächster Schritt: Portieren von Telefonnummern Teams Telefon](port-phone-numbers.md)
+> [Nächster Schritt: Portieren von Telefonnummern Teams Telefonsystem](port-phone-numbers.md)
