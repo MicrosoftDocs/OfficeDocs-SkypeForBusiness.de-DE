@@ -1017,7 +1017,7 @@ items:
             href: voice-case-study-call-queues.md
       - name: Leitfaden für kleine und mittelständische Unternehmen
         items:
-          - name: Telefonsystem-Leitfaden für kleine und mittelständische Unternehmen
+          - name: Leitfaden zum Telefonsystem
             href: business-voice/whats-business-voice.md
           - name: Regionale Verfügbarkeit
             href: country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md
@@ -1025,7 +1025,7 @@ items:
             href: business-voice/get-ready-internet.md
           - name: Hilfe von einem Wiederverkäufer oder Partner erhalten
             href: business-voice/reseller-partner-support.md
-          - name: Telefonsystem für kleine und mittlere Unternehmen einrichten
+          - name: Einrichten des Telefonsystems
             items:
               - name: Übersicht
                 href: business-voice/set-up-overview.md
@@ -1045,7 +1045,7 @@ items:
                 href: business-voice/port-phone-numbers.md
               - name: Ressourcen nach der Einrichtung
                 href: business-voice/set-up-finish.md
-          - name: Anpassen Ihres Telefonsystem-Setups für kleine und mittelständische Unternehmen
+          - name: Anpassen der Einrichtung Ihres Telefonsystems
             items:
               - name: Anpassungsoptionen
                 href: business-voice/customize-business-voice.md
@@ -1059,7 +1059,7 @@ items:
                 href: business-voice/create-a-phone-system-call-queue-smb.md
               - name: Einrichten einer automatischen Telefonzentrale
                 href: business-voice/create-a-phone-system-auto-attendant-smb.md
-          - name: Verwalten Ihres Telefonsystem-Setups für kleine und mittelständische Unternehmen
+          - name: Verwalten der Einrichtung ihres Telefonsystems
             items:
               - name: Erstellen eines oder mehrerer Benutzer
                 href: business-voice/create-users.md
@@ -1309,6 +1309,10 @@ items:
                 href: rooms/security.md
               - name: Onlinelizenzierung
                 href: rooms/rooms-licensing.md
+              - name: Best Practices für bedingten Zugriff und Intune-Compliance
+                href: rooms/conditional-access-and-compliance-for-devices.md
+              - name: Unterstützte Richtlinien für bedingten Zugriff und Intune-Compliance
+                href: rooms/supported-ca-and-compliance-policies.md
               - name: Planen der Verwaltung mit Azure Monitor
                 href: rooms/azure-monitor-plan.md
           - name: Bereitstellen
@@ -1566,7 +1570,7 @@ items:
             href: edu-remote-low-bandwidth.md
           - name: Richtlinienassistent für Teams für Education
             href: easy-policy-setup-edu.md
-          - name: Eltern in Teams für Education
+          - name: Elternverbindung in Teams for Education
             href: edu-parents-app.md
           - name: Karrierecoach-App in Teams für Education
             href: career-coach.md
