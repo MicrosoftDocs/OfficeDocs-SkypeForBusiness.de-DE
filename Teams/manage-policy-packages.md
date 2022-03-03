@@ -19,13 +19,13 @@ ms.custom:
 - seo-marvel-apr2020
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
-ms.openlocfilehash: f90febffb5385a3b91859d63db1b4b320e0a94a7
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+description: Hier erfahren Sie, wie Sie Richtlinienpakete in Microsoft Teams verwenden und verwalten, um die Verwaltung von Richtlinien für Benutzergruppen zu vereinfachen, zu optimieren und für Einheitlichkeit zu sorgen.
+ms.openlocfilehash: 173d5d1488196ea048a64ce12916f8115362c572
+ms.sourcegitcommit: e86e3824c300c24e022d5cb1848338278a5a96a8
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62425306"
+ms.lasthandoff: 03/03/2022
+ms.locfileid: "63055305"
 ---
 # <a name="manage-policy-packages-for-microsoft-teams"></a>Verwalten von Richtlinienpaketen für Microsoft Teams
 
@@ -69,8 +69,8 @@ Teams enthält derzeit die folgenden Richtlinienpakete.
 |Klinischer Mitarbeiter im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen klinische Mitarbeiter wie Krankenschwestern, Krankenschwestern, Ärzte und Sozialarbeiter uneingeschränkten Zugriff auf Chat, Anrufe, Schichtmanagement und Besprechungen erhalten. |
 |Informationsbeauftragter für das Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, mit denen Informationsbeauftragte wie IT-Personal, Informatikpersonal, Finanzpersonal und Compliance-Beauftragte uneingeschränkten Zugriff auf Chat, Anrufe und Besprechungen erhalten.|
 |Patientenzimmer im Gesundheitswesen  |Erstellt eine Reihe von Richtlinien und Richtlinieneinstellungen, die für Patientenzimmer in Ihrer Gesundheitsorganisation gelten.|
-|Benutzer für kleine und mittelständische Unternehmen (Teams Telefon Anrufplan) |Erstellt eine App-Setuprichtlinie, die die Apps für einen Anrufplan Teams Telefon Anrufplanerfahrung enthält.|
-|Benutzer für kleine und mittelständische Unternehmen (Teams Telefon Anrufplan) |Erstellt eine App-Setuprichtlinie, die für kleine und mittelständische Teams (Nicht-Benutzer Teams Telefon Anrufplanerfahrung) relevant ist.
+|Benutzer für kleine und mittelständische Unternehmen (Teams Telefonsystem Anrufplanpaket) |Erstellt eine App-Setuprichtlinie, die die Apps für einen Anrufplan Teams Telefonsystem Anrufplan-Bündelerfahrung enthält.|
+|Benutzer für kleine und mittelständische Unternehmen (Teams Telefonsystem Anrufplanpaket) |Erstellt eine App-Setuprichtlinie, die für kleine und mittelständische Teams (nicht mit Anrufplan-Teams Telefonsystem Bündelung) relevant ist.
 |Public Safety Officer   |Erstellt einen Satz von Richtlinien und Richtlinieneinstellungen, die für Öffentliche Sicherheitsbeauftragte in Ihrer Organisation gelten.|
 
 > [!NOTE]
@@ -128,7 +128,7 @@ Hier sind die Schritte zum Anzeigen, Zuweisen und Anpassen von Richtlinienpakete
 
 Sie können die Einstellungen einer Richtlinie über die Seite "Richtlinienpakete" oder direkt zur Richtlinienseite im Microsoft Teams Admin Center ändern.
 
-1. Gehen Sie im linken Navigationsbereich Microsoft Teams Admin Center wie folgt vor:
+1. Gehen Sie in der linken Navigationsleiste Microsoft Teams Admin Center wie folgt vor:
     - Klicken **Sie auf Richtlinienpakete**, und wählen Sie dann das Richtlinienpaket aus, indem Sie links des Paketnamens klicken.
     - Klicken Sie auf den Richtlinientyp.  Klicken Sie beispielsweise auf **Messagingrichtlinien**.
 
@@ -143,6 +143,6 @@ Sie können ein Richtlinienpaket einem einzelnen Benutzer, einer Gruppe oder ein
 ## <a name="related-topics"></a>Verwandte Themen
 
 - [Zuweisen von Richtlinienpaketen](assign-policy-packages.md)
-- [Teams von Richtlinienpaketen für EDU-Administratoren](policy-packages-edu.md)
+- [Teams Richtlinienpakete für EDU-Administratoren](policy-packages-edu.md)
 - [Teams Richtlinienpakete-Pakete für das Gesundheitswesen](policy-packages-healthcare.md)
 - [Teams von Richtlinienpaketen für Behörden](policy-packages-gov.md)
