@@ -21,12 +21,12 @@ ms.custom:
 - seo-marvel-mar2020
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 52347a620d6f441bfff68764d053a0adf71427b1
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: b3b16b3015771cd136f3e5ee7333619008ada332
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62191106"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047135"
 ---
 # <a name="manage-microsoft-teams-settings-for-your-organization"></a>Verwalten von Microsoft Teams-Einstellungen in Ihrer Organisation
 
@@ -34,7 +34,23 @@ ms.locfileid: "62191106"
 
 Sie verwalten Apps für Ihre Organisation in **Teams-Apps** im [Microsoft Teams Admin Center](https://admin.teams.microsoft.com). Z. B. können Sie Richtlinien festlegen, um zu steuern, welche Apps organisationsweit oder für bestimmte Benutzer von Microsoft Teams verfügbar sind, und Sie können Microsoft Teams anpassen, indem Sie die Apps anheften, die für Ihre Benutzer am wichtigsten sind.
 
-Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).  
+Weitere Informationen finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).
+
+### <a name="workflows-in-teams"></a>Workflows in Teams
+
+Mit Workflows können Sie sich wiederholende Aufgaben und Prozesse mithilfe von Power Automate automatisieren. Sie können Workflows für Ihre Organisation in Teams mithilfe einer **App-Berechtigungsrichtlinie** oder über die Seite **Apps verwalten** deaktivieren, indem Sie Power Automate blockieren. Dieses Feature ist standardmäßig aktiviert. Weitere Informationen zu Workflows finden Sie unter [Durchsuchen und Hinzufügen von Workflows](https://support.microsoft.com/office/browse-and-add-workflows-4998095c-8b72-4b0e-984c-f2ad39e6ba9a).
+
+Wenn Sie Workflows mit einer App-Berechtigungsrichtlinie deaktivieren möchten, bearbeiten Sie die globale (organisationsweite Standard-) Richtlinie so, dass Power Automate in die Liste blockierter Apps aufgenommen oder aus der Liste zugelassener Apps entfernt wird.
+
+Sie können Power Automate auch über die Seite **Apps verwalten** blockieren.
+
+1. Wechseln Sie [**Teams-Apps** > **Apps verwalten**](https://admin.teams.microsoft.com/policies/manage-apps).
+1. Suchen Sie nach **Power Automate**.
+1. Wählen Sie die App aus.
+1. Ändern Sie den **Status** von **Zulässig** auf **Blockiert**.
+
+> [!NOTE]
+> Wenn Sie Workflows deaktivieren, werden die App im Teams-App-Store, die Nachrichtenerweiterungen und das Menü „Weitere Aktionen“ ausgeblendet. Wenn Sie Workflows deaktivieren, werden auch alle aktiven Flows deaktiviert.
 
 ## <a name="teams-external-access-and-guest-access-settings-in-the-microsoft-teams-admin-center"></a>Einstellungen für externen Zugriff und Gastzugriff auf Teams im Microsoft Teams Admin Center
 

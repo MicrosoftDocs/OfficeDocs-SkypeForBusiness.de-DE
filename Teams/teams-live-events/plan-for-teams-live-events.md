@@ -8,20 +8,25 @@ ms.service: msteams
 audience: admin
 ms.reviewer: sonua
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
-  - m365initiative-meetings-enabler
-  - enabler-strategic
+- M365-collaboration
+- m365initiative-meetings
+- m365initiative-meetings-enabler
+- enabler-strategic
 search.appverid: MET150
-description: 'In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.'
+description: In diesem Artikel erfahren Sie, welche Faktoren zu berücksichtigen sind, wenn Sie Liveereignisse in Microsoft Teams einrichten.
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7ce782db18c15e3b08367e0956003f7af2dde75
+ms.sourcegitcommit: 5b1d8d6f811fab0b350a09e5187d982f952d0edb
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "63047145"
 ---
-
 # <a name="plan-for-live-events-in-microsoft-teams"></a>Planen von Liveereignissen in Microsoft Teams
 
 Wenn Sie Live Events in Teams planen, um große Besprechungen in Ihrer Organisation abzuhalten, gibt es mehrere Faktoren, die Sie vor Beginn der Einrichtung berücksichtigen müssen.
@@ -181,7 +186,10 @@ Sie können Teams-Liveereignisse in mehreren Regionen der Welt nutzen. Die folge
 **Ausschlüsse und Überlegungen**.
 
 - **Datenspeicherort:** Teams-Datenspeicherorte außerhalb der oben aufgeführten werden derzeit nicht unterstützt.
-- **China:** Mitglieder und Teilnehmer des Ereignisteams können die Liveereignisse des Teams nicht nutzen, da das Azure CDN in China nicht zugänglich ist. Eine Problemumgehung ist die Verwendung einer Firmen-VPN-Verbindung, die den Client über das Firmennetzwerk des Kunden mit dem CDN verbindet.
+
+>[!Note]
+> Liveereignisse sind auf Azure CDN-Dienste angewiesen, die in einigen Ländern möglicherweise nicht verfügbar sind. Als Administrator müssen Sie möglicherweise ein VPN in Übereinstimmung mit allen geltenden Gesetzen und Vorschriften einrichten, um eine Verbindung mit Ihrem Unternehmensnetzwerk herzustellen, damit diese Apps reibungslos funktionieren. Sobald dies abgeschlossen ist, können Personen in Ihrer Organisation Liveereignisse planen und daran teilnehmen.
+
 
 ## <a name="next-steps"></a>Nächste Schritte
 
