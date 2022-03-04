@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.localizationpriority: medium
 description: Dieser Artikel enthält Anleitungen zur Verwendung von Teams-Panels.
-ms.openlocfilehash: bd1a7a865d6e07cec47838a518d19523afef5134
-ms.sourcegitcommit: f8b935e009895138eddfc1ae360b7b2ace747d3c
+ms.openlocfilehash: e39b54d290ac3c8d4809f9da011c2e28451c2ae7
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "63050901"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062539"
 ---
 # <a name="how-to-use-microsoft-teams-panels"></a>So wird's Microsoft Teams verwendet
 
@@ -204,7 +204,7 @@ Melden Sie Teams Anmeldeinformationen im Anmeldebereich an.
 
 Mit den Einstellungen für das Einchecken und die Raumfreigabe können Benutzer sich über Teams-Panels in dem Raum, den sie zu Beginn der Besprechung reserviert haben, in eine Besprechung einchecken. Wenn sich ein Benutzer nicht innerhalb einer festgelegten Frist nach dem Start der Besprechung eincheckt, wird der Raum freigegeben und kann von anderen reserviert werden.
 
-Wenn ein Teams-Panels mit einem Microsoft Teams-Raum unter Android gekoppelt ist, können Einchecken-Benachrichtigungen aktiviert werden, wenn Besprechungen zu spät an der Vorderseite angezeigt werden.
+Wenn Teams-Panels mit einem Microsoft Teams Room unter Android gekoppelt sind, können Einchecken-Benachrichtigungen aktiviert werden, wenn Besprechungen verspätet an der Vorderseite angezeigt werden.
 
 Informationen zum Aktivieren des Eincheckens und der Raumfreigabe finden Sie unter Einchecken und Raumfreigabe [Microsoft Teams Panels](check-in-and-room-release.md).
 

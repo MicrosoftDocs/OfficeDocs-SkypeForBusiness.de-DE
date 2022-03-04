@@ -17,18 +17,22 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: af6433cb3e5ca0e1849322bdd128915e826e219b
-ms.sourcegitcommit: 2044fdcb0c5db10dbc77c5d66e382c1b927ccdc4
+ms.openlocfilehash: 8d1b84fc78558fcbb1945cbc56b311b5e06234a5
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63040063"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062529"
 ---
 # <a name="set-up-parent-connection-in-microsoft-teams-for-education"></a>Einrichten der übergeordneten Verbindung in Microsoft Teams für Education
 
 Die Elternverbindung in Teams für Education hilft Lehrkräften, sich mithilfe von Teams-Chats sicher mit den Eltern und Erziehungsberechtigten der Kursteilnehmer in ihren Kursteams zu verbinden und zu interagieren. Dieser wird auf die gesamte Organisation des Lehrers verteilt. Alle Daten zu Eltern und Erziehungsberechtigten werden mithilfe von School Data Sync bereitgestellt, sodass it-Mitarbeiter alles reibungslos einrichten können.
 
-Nachdem Eltern und Erziehungsberechtigte eingerichtet wurden, können sie mit den Lehrkräften ihrer Schüler/Studenten chatten, indem Teams chatten. Anleitungen dazu, wie Sie Eltern und Erziehungsberechtigte mit Lehrkräften in Verbindung Verbinden, finden Sie unter Zusammenarbeit mit [Lehrkräften in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+Sobald Lehrkräfte und Erziehungsberechtigte eingerichtet sind, können sie miteinander über Teams chatten. 
+
+Anleitungen dazu, wie Sie Eltern und Erziehungsberechtigte mit Lehrkräften in Verbindung Verbinden, finden Sie unter Zusammenarbeit mit [Lehrkräften in Teams](https://support.microsoft.com/topic/connect-with-educators-in-teams-ec2430c3-952a-4ba4-9891-1d1cab577960).
+
+Anleitungen dazu, wie Sie Lehrkräfte für die Kommunikation mit Eltern und Erziehungsberechtigten einrichten, finden Sie unter [Kommunizieren mit Erziehungsberechtigten in Microsoft Teams](https://support.microsoft.com/topic/communicate-with-guardians-in-microsoft-teams-01471ecd-eb5d-4eda-9c5d-0064d672960e?ui=en-us&rs=en-us&ad=us).
 
 Eltern funktioniert auch mit "Überwachter Chat". Eltern und Erziehungsberechtigte haben keine vollständigen Teams-Berechtigungen, was bedeutet, dass sie keine Unterhaltungen mit Schülern/Studenten beginnen oder Benutzer mit Vollzugriff (z. B. Lehrkräfte) aus Chats entfernen können. Weitere Informationen zu überwachten Chats finden Sie unter [Verwenden überwachter Chats in Microsoft Teams](supervise-chats-edu.md).
 
@@ -61,7 +65,7 @@ Eltern funktioniert auch mit "Überwachter Chat". Eltern und Erziehungsberechtig
 > [!NOTE]
 >Eltern und Erziehungsberechtigte werden im Feature "Eltern" als externe Benutzer klassifiziert, was bedeutet, dass sie nicht über vollständige Mandantenrechte verfügen. Sie haben nur Zugriff auf den Chat oder die Chats, zu dem sie hinzugefügt werden, sowie auf Dateien, Bilder und andere im Chat freigegebene Inhalte.
 >
->Darüber hinaus können externe Benutzer die Anwesenheitseinstellungen (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mit PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration, und](/powershell/module/skype/set-csprivacyconfiguration?view=skype-ps) legen Sie auf .``EnablePrivacyMode=true``
+>Darüber hinaus können externe Benutzer die Anwesenheitseinstellungen (offline, verfügbar, beschäftigt usw.) der Benutzer Ihrer Organisation sehen, dies kann jedoch mit PowerShell deaktiviert werden, um die Privatsphäre der Benutzer zu schützen. Verwenden Sie in PowerShell [Set-CsPrivacyConfiguration, und](/powershell/module/skype/set-csprivacyconfiguration) legen Sie auf .``EnablePrivacyMode=true``
 >
 >Obwohl Eltern und Erziehungsberechtigte externe Benutzer sind, können sie ihre Beiträge zu Chats finden. Unter Durchführen einer [eDiscovery-Untersuchung Teams eDiscovery eine eDiscovery-Untersuchung von Inhalten in einem Microsoft Teams](ediscovery-investigation.md).
 
