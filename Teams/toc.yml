@@ -1389,6 +1389,8 @@ items:
             href: rooms/multi-tenant-management-customer.md
           - name: Überwachungsprotokolle für Raumaktivitäten
             href: rooms/multi-tenant-auditing.md
+          - name: Standards und Raumplaner
+            href: rooms/standards-and-room-planner.md
       - name: Geräte
         items:
           - name: Verwalten Ihrer Geräte in Teams
