@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 01fc283f8787ad659678b4e09ad3f573f34eb66d
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: e5e554672156f70556ebc18625115cd9a1ce8c58
+ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363031"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "63062689"
 ---
 # <a name="it-admin-guide-to-education-insights-in-microsoft-teams"></a>Leitfaden für IT-Administratoren zu Education Insights in Microsoft Teams
 
@@ -135,6 +135,7 @@ Derzeit werden Daten aus den folgenden Bereichen in Klassenteams gesammelt:
 | **Besprechungen** |    Anwesenheit (ohne Besprechungsinhalt).|
 | **[Lesefortschritt](https://support.microsoft.com/topic/e71705a2-a79a-4d7e-bcef-a1e0aa336017)** |    Genauigkeitsrate, anspruchsvollste Wörter und Wörter pro Minute.  |
 | **[Spiegeln](reflect.md)** |   Überprüfungen (einschließlich Werte).|
+| **Karrierecoach** | Der Schüler/Student hat Hauptfach (Studienfach) und Schul-/Studienjahr, Schüler-/Studentenktivitäten in der Karrierecoach-App bereitgestellt, einschließlich: Qualifikationen, Interesse an Qualifikationen, Berufsinteresse, Lerninteresse und berufsbezogene Aktivitäten.|
 
 > [!NOTE]
 > Die meisten der gesammelten Daten werden innerhalb weniger Minuten in Insights angezeigt. Teilnahmedaten von Klassenbesprechungen (Besprechungen, die einem der Klassenkanäle zugeordnet sind) erscheinen einige Stunden nach Ende der Besprechung, in der Regel bis zu 24 Stunden später.
@@ -239,12 +240,24 @@ Die Verwendung von Insights erfordert *nicht* die Verwendung von SDS. Sie könne
 
 * Folgen Sie den Anweisungen in [Bereitstellen von SDS für Insights](/schooldatasync/how-to-deploy-sds-for-insights), um sie wieder zu aktivieren.
 
-### <a name="how-to-delete-your-data"></a>So löschen Sie Ihre Daten
-Insights speichert die Aktionen von Schülern/Studenten und Lehrkräften, die im Zusammenhang mit einem Klassenteam durchgeführt wurden. Diese Daten werden als gemischter Datensatz betrachtet und daher nicht automatisch aus dem Dienst gelöscht, sobald die Benutzerkonten von Schülern/Studenten oder Lehrkräften aus Ihrer Organisation gelöscht werden.
-Hinweis: Das Löschen von Daten beeinträchtigt die Fähigkeit von Insights, das Engagement von Klassenteams im Zeitverlauf zu analysieren.
-* [Öffnen Sie ein Supportticket](https://aka.ms/edusupport). Das Supportticket muss eindeutig die Anforderung für einen "GDPR Delete DSR"-Vorgang angeben und die zu löschende Benutzerobjekt-ID enthalten. Es gibt keine Möglichkeit, den Datensatz oder das Zeitfenster des Löschvorgangs zu begrenzen.
-*   Nach dem Einreichen wartet das Supportticket eine Woche lang in der Warteschlange, um die Compliance-Richtlinie zur minimalen Aufbewahrung von Daten zu erfüllen. Sie haben während dieser Zeit die Möglichkeit, den Vorgang abzubrechen.
-*   Nach einer Woche ergreift das Education Insights-Team Maßnahmen, um sicherzustellen, dass alle Daten im Zusammenhang mit der Benutzer-ID aus dem Dienst gelöscht werden. Der Microsoft-Support überwacht das Ticket und benachrichtigt Sie, sobald der Löschvorgang abgeschlossen ist, spätestens nach 28 Tagen.
+### <a name="how-to-delete-user-data-from-education-insights"></a>Löschen von Benutzerdaten aus Education Insights
+Education Insights speichert Aktivitäten von Kursteilnehmern und Lehrkräften, die in Microsoft Teams Education ausgeführt wurden.
+
+Es gibt zwei Arten von Daten gesammelt:
+* **Gemischte Daten**: Daten, die im Rahmen der Kurslernaktivitäten generiert werden.
+* **Nicht-gemischte (private) Daten**: In Microsoft Teams Education erfasste Daten zu Schüler-/Studentenaktivitäten, die nicht Teil der Kurslernaktivität sind. 
+
+[Hier](class-insights.md#data-collection) sind alle Daten aufgelistet, die von Education Insights gesammelt wurden.
+
+Um Lehrkräften und Bildungseinrichtungen Vollständigkeit und Integrität der Daten für frühere Zeitrahmen zu bieten, löscht Education Insights standardmäßig keine Daten automatisch aus dem Dienst, wenn Benutzerkonten von Studierenden oder Lehrkräften geschlossen werden. Der IT-Administrator der Organisation kann durch Ausführen der folgenden Schritte das manuelle Löschen von Benutzerdaten (Lehrkräfte oder Schüler/Studenten) anfordern:
+* Öffnen Sie ein [Supportticket](https://aka.ms/edusupport). Das Supportticket muss eindeutig die Anforderung für einen "GDPR Delete DSR"-Vorgang angeben und die zu löschende Benutzerobjekt-ID enthalten.
+Es gibt keine Möglichkeit, den Datensatz oder das Zeitfenster des Löschvorgangs zu begrenzen.
+* In der Anforderung sollte der IT-Administrator den Typ der Daten, die für diesen Benutzer gelöscht werden müssen, anhand der folgenden Optionen eindeutig angeben:
+  - Alle Daten (gemischt und privat)
+  - Alle privaten Daten 
+  - Nur Daten zu Karrierecoachs
+* Nach dem Einreichen wartet das Supportticket eine Woche lang in der Warteschlange, um die Compliance-Richtlinie zur minimalen Aufbewahrung von Daten zu erfüllen. Sie haben während dieser Zeit die Möglichkeit, den Vorgang abzubrechen.
+* Nach einer Woche ergreift das Education Insights-Team Maßnahmen, um sicherzustellen, dass alle Daten im Zusammenhang mit der Benutzer-ID und dem oben beschriebenen Typus aus dem Dienst gelöscht werden. Der Microsoft-Support überwacht das Ticket und benachrichtigt Sie, sobald der Löschvorgang abgeschlossen ist, spätestens nach 28 Tagen.
 
 ## <a name="troubleshooting"></a>Problembehandlung
 ### <a name="why-doesnt-my-institution-see-any-data-in-insights"></a>Warum sieht meine Einrichtung keine Daten in Insights?
