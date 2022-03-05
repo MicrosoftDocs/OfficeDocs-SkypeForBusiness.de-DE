@@ -15,12 +15,12 @@ ms.collection:
 - Teams_ITAdmin_FLW
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 4520d34c62829e2db50cc18d0edcc6450a440f25
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 34614a6c1b45ea9660552b77b7c91d87e5c30d5f
+ms.sourcegitcommit: 2d4dab7a6436e53db9475d67695504753896ca86
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062749"
+ms.lasthandoff: 03/05/2022
+ms.locfileid: "63065243"
 ---
 # <a name="tailor-your-teams-apps-based-on-license"></a>Anpassen Ihrer Teams basierend auf einer Lizenz
 
@@ -42,13 +42,13 @@ Apps werden an die App-Leiste angeheftet. Dabei handelt es sich um die Leiste an
 
 Angeheftete Apps für Benutzer mit einer F-Lizenz:
 
-- Aktivität
-- Chat
-- Teams
-- Walkie-Talkie
-- Aufgaben
-- Schichten
-- Genehmigungen
+- [Aktivität](https://support.microsoft.com/office/explore-the-activity-feed-in-teams-91c635a1-644a-4c60-9c98-233db3e13a56)
+- [Chat](https://support.microsoft.com/office/get-started-with-chat-0b506ce2-eb6d-4fca-9668-e56980ba755e)
+- [Microsoft Teams](https://support.microsoft.com/office/teams-and-channels-in-microsoft-teams-c6d0e61d-a61e-44a6-a972-04f2a8fa4155)
+- [Walkie-Talkie](https://support.microsoft.com/office/get-started-with-teams-walkie-talkie-25bdc3d5-bbb2-41b7-89bf-650fae0c8e0c)
+- [Aufgaben](https://support.microsoft.com/office/use-the-tasks-app-in-teams-e32639f3-2e07-4b62-9a8c-fd706c12c070)
+- [Schichten](https://support.microsoft.com/office/what-is-shifts-f8efe6e4-ddb3-4d23-b81b-bb812296b821)
+- [Genehmigungen](https://support.microsoft.com/office/what-is-approvals-a9a01c95-e0bf-4d20-9ada-f7be3fc283d3)
 
 ## <a name="admin-controls"></a>Administratorsteuerelemente
 
@@ -66,7 +66,7 @@ Diese Funktion ist standardmäßig aktiviert. Wenn Sie jedoch nicht möchten, da
 
 ## <a name="scenarios"></a>Szenarien
 
-Verwenden Sie die Informationen in dieser Tabelle, um zu erfahren, wie das Feature "maßgeschneiderte App-Erfahrung" in verschiedenen Szenarien funktioniert, z. B. wenn Sie vorhandene App-Setuprichtlinien angewendet haben.
+Verwenden Sie die Informationen in dieser Tabelle, um zu erfahren, wie die maßgeschneiderte App-Erfahrung in verschiedenen Szenarien funktioniert, z. B. wenn Sie vorhandene App-Setuprichtlinien angewendet haben.
 
 |Wenn...  |Dann... |
 |---------|---------|
@@ -83,5 +83,9 @@ Verwenden Sie die Informationen in dieser Tabelle, um zu erfahren, wie das Featu
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
+- [Verwalten der Walkie-Talkie-App in Teams](walkie-talkie.md)
+- [Verwalten der Aufgaben-App in Teams](manage-tasks-app.md)
+- [Verwalten der Schichten-App in Teams](expand-teams-across-your-org/shifts/manage-the-shifts-app-for-your-organization-in-teams.md)
+- [Verwalten der Genehmigungen-App in Teams](approval-admin.md)
 - [Verwalten von Richtlinien für App-Setup in Teams](teams-app-setup-policies.md)
 - [Verwalten von Richtlinien für App-Berechtigungen in Teams](teams-app-permission-policies.md)
