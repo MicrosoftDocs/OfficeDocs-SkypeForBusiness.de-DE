@@ -1,8 +1,8 @@
 ---
 title: Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 06/20/2019
 ms.topic: article
 ms.service: msteams
@@ -16,12 +16,12 @@ search.appverid: MET150
 description: Hier erfahren Sie, wie Sie integrierte und benutzerdefinierte Registerkarten verwenden können, um Funktionen wie Unterhaltungen, Dateien, Karten usw. einzubeziehen.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cf48eef40ec71d1ca661b98ce6f6c842fe636942
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: fe954d5f6ec08e13db666e94c3dd7cc3d9121e61
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727174"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070244"
 ---
 # <a name="use-built-in-and-custom-tabs-in-microsoft-teams"></a>Verwenden von integrierten und benutzerdefinierten Registerkarten in Microsoft Teams
 
@@ -43,21 +43,21 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 
     ![Screenshot der Registerkarten in einem Chat](media/Use_built-in_and_custom_tabs_add_tabs_to_a_chat.png)
 
-- Besitzer und Teammitglieder können einem Kanal oder Chat weitere  Registerkarten hinzufügen, indem sie auf Registerkarte hinzufügen klicken Screenshot der Schaltfläche "Registerkarte hinzufügen" mit einem ![ +-Zeichen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand des Kanals oder Chats aus.
+- Besitzer und Teammitglieder ![können einem Kanal oder Chat weitere Registerkarten hinzufügen, indem sie auf Registerkarte **hinzufügen klicken Screenshot** der Schaltfläche "Registerkarte hinzufügen" mit einem +-Zeichen.](media/Use_built-in_and_custom_tabs_add_a_tab_button.png) am oberen Rand des Kanals oder Chats aus.
 
-- Excel, PowerPoint, Word- und PDF-Dateien müssen auf  die Registerkarte Dateien hochgeladen werden, bevor sie in Registerkarten konvertiert werden können. Jede vorhandene hochgeladene Datei kann mit nur einem Klick in eine Registerkarte konvertiert werden, wie unten dargestellt.
+- Excel, PowerPoint, Word- und PDF-Dateien müssen auf die Registerkarte Dateien hochgeladen werden, bevor sie  in Registerkarten konvertiert werden können. Jede vorhandene hochgeladene Datei kann mit nur einem Klick in eine Registerkarte konvertiert werden, wie unten dargestellt.
 
     ![Screenshot der Registerkarte „Dateien“ mit ausgewählter PowerPoint-Datei](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image2.png)
 
 - Zum Hinzufügen einer Website muss die URL mit einem **HTTPS-Präfix** beginnen, damit ausgetauschte Informationen sicher bleiben.
 
-- Detaillierte Anweisungen finden Sie, wenn ein Teammitglied versucht, eine benutzerdefinierte Registerkarte zu seinem Kanal oder Chat hinzuzufügen. Wenn eine benutzerdefinierte Registerkarte zu  einem Kanal hinzugefügt wird, wird eine Registerkarten-Unterhaltung erstellt, die es Teammitgliedern ermöglicht, gezielte Diskussionen über den Inhalt zu führen.
+- Detaillierte Anweisungen finden Sie, wenn ein Teammitglied versucht, eine benutzerdefinierte Registerkarte zu seinem Kanal oder Chat hinzuzufügen. Wenn eine benutzerdefinierte Registerkarte zu einem Kanal hinzugefügt wird,  wird eine Registerkarten-Unterhaltung erstellt, die es Teammitgliedern ermöglicht, gezielte Diskussionen über den Inhalt zu führen.
 
     ![Screenshot einer benutzerdefinierten Registerkarte mit einer Registerkarten-Unterhaltung auf der rechten Seite](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image3.png)
 
 ## <a name="develop-custom-tabs"></a>Entwickeln von benutzerdefinierten Registerkarten
 
-Zusätzlich zu den integrierten Registerkarten können Sie ihre eigenen Registerkarten entwerfen und entwickeln, um sie Teams und die Freigabe für die restliche Community zu integrieren. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/tabs/what-are-tabs).
+Zusätzlich zu den integrierten Registerkarten können Sie ihre eigenen Registerkarten entwerfen und entwickeln, um sie Teams die Community zu integrieren oder für die restliche Community zu teilen. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/tabs/what-are-tabs).
 
 ![Screenshot einer benutzerdefinierten Beispielregisterkarte in Microsoft Teams](media/Use_built-in_and_custom_tabs_in_Microsoft_Teams_image5.png)
 

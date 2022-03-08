@@ -25,12 +25,12 @@ ms.custom:
 - Phone System
 - Calling Plans
 description: Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Microsoft Teams für Südafrika.
-ms.openlocfilehash: cccc1b801b2627ecb93eafd38b0ab944baac91aa
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: 7c56d5bb6fd8ee3449b110b21b00000eda9dac55
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190816"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070574"
 ---
 # <a name="availability-in-south-africa"></a>Verfügbarkeit in Südafrika
 
@@ -59,9 +59,10 @@ Hier finden Sie die Microsoft 365 und Office 365 für Skype for Business und Mic
 
 |**Feature**|**Details**|
 |:-----|:-----|
-|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Nein  <br/> |
-|Verfügbare Minuten für Anrufpläne  <br/> |Nicht zutreffend  <br/> |
-|Sind ausgehende Anrufe möglich?  <br/> |Nicht zutreffend  <br/> |
+|Sind Anrufpläne zum Kauf verfügbar?  <br/> |Ja  <br/> |
+|Verfügbare Minuten für Anrufpläne. |Pro Kalendermonat stehen vier Tarifoptionen zur Verfügung: <ul><li>120-Minuten-Plan für Inlandsrufe </li><li>240-Minuten-Plan für Inlandsrufe</li></li><li>1200-Minuten-Plan für Inlandsrufe </li></li><li>Anrufplan für Inlands- und Auslandsrufe: 1.200 Minuten für Inlands- oder 600 Minuten für Auslandsrufe (die im Kalendermonat zuerst erreicht werden)</li></li></ul>|
+|Kann man ausgehende Anrufe an Premium-Nummern tätigen?  <br/> | Wird zurzeit nicht unterstützt. <br/> |
+|Sind ausgehende Anrufe möglich?  <br/> | In 196 Länder oder Regionen, einschließlich [dieser](users-can-make-outbound-calls-to-these-countries-and-regions.md).<br/> |
 
 Wenn Anrufpläne nicht erhältlich sind, finden Sie unter [PSTN-Konnektivitätsoptionen](../pstn-connectivity.md) alle verfügbaren Optionen.
    

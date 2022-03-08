@@ -17,36 +17,36 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Microsoft Teams-Räume Konten in einem verwalteten Microsoft Teams-Räume Premium registrieren.
 f1keywords: ''
-ms.openlocfilehash: 79dee52cc9c814338c6c5dc4c91245155ef2fd41
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: d00c4f84447e8ba41f0328cca9b907db45e8fdb7
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766968"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070414"
 ---
 # <a name="enroll-a-device-in-the-microsoft-teams-rooms-premium-managed-service"></a>Registrieren eines Geräts beim verwalteten Microsoft Teams-Räume Premium Dienst
 
-Um ein Microsoft Teams-Räume-Gerät beim verwalteten Dienst Teams-Räume Premium zu registrieren, müssen Sie dem Administrator für verwaltete Dienste einen weiteren Benutzer zuweisen und dann die Registrierungsschritte mit diesem Benutzer ausführen.
+Um ein Microsoft Teams-Räume-Gerät beim verwalteten Dienst von Teams-Räume Premium zu registrieren, müssen Sie dem Administrator für verwaltete Dienste einen oder mehrere Benutzer zuweisen und dann die Registrierungsschritte mit diesem Benutzer ausführen.
 
 ## <a name="assign-users-to-the-managed-service-administrator-role"></a>Zuweisen von Benutzern zur Administratorrolle "Verwalteter Dienst"
 
 Führen Sie die folgenden Schritte aus, um Benutzer der Administratorrolle "Verwalteter Dienst" zuzuordnen:
 
-1. Melden Sie sich beim [Teams-Räume Premium-Portal](https://portal.rooms.microsoft.com/) mit den gleichen Administratorrechten wie bei der Anmeldung beim Microsoft 365 Admin Center.
-2. Navigieren Sie **zu Einstellungen**  >    >  **Einstellungen,** und wählen Sie dann **Administrator für verwaltete Dienste aus.**
-3. Wählen **Sie unter Administrator für verwaltete** Dienste die **Registerkarte** Aufgaben und dann Hinzufügen **aus.**
+1. Melden Sie sich beim [Teams-Räume Premium-Portal](https://portal.rooms.microsoft.com/) mit den gleichen Administratorrechten an, die Sie für die Anmeldung beim Microsoft 365 Admin Center.
+2. Navigieren Sie **zu Einstellungen** >  **Einstellungen** > **,** und wählen Sie dann Administrator **für verwaltete Dienste aus**.
+3. Wählen **Sie unter Administrator für verwaltete** **Dienste die Registerkarte** Aufgaben und dann Hinzufügen **aus**.
 4. Folgen Sie dem Assistenten, um die Aufgabe zu benennen und die Benutzer auszuwählen, die der Aufgabe hinzugefügt werden sollen. Die Zuweisung gilt für alle Räume und Raumgruppen.
-5. Wählen Sie am Ende des Aufgaben-Assistenten Aufgabe **hinzufügen aus.**
+5. Wählen Sie am Ende des Aufgaben-Assistenten Aufgabe **hinzufügen aus**.
 
-Benutzer, denen die Rolle "Administrator für verwaltete Dienste" zugewiesen ist, sind für die Täglichen Verwaltung und Überwachung des Portals Teams-Räume Premium Dienstverwaltung verantwortlich.
+Benutzer, denen die Rolle "Administrator für verwaltete Dienste" zugewiesen wurde, sind für die täglichen Verwaltung und Überwachung des Teams-Räume Premium Dienstportals verantwortlich.
 
-Nachdem Sie Benutzer der Administratorrolle für verwaltete [](#enroll-a-teams-rooms-device) Dienste zugewiesen haben, fahren Sie mit dem Abschnitt Registrieren eines Geräts fort, um dem Portal für verwaltete Dienste ein Teams-Räume-Gerät hinzuzufügen.
+Nachdem Sie Benutzer der Rolle "Administrator für verwaltete Dienste" zugewiesen haben, fahren Sie mit dem Registrieren eines [Teams-Räume-Geräts](enroll-a-device.md) fort, um dem Portal für verwaltete Dienste ein Teams-Räume-Gerät hinzuzufügen.
 
-## <a name="enroll-a-teams-rooms-device"></a>Registrieren eines Teams-Räume Geräts
+<!-- ## Enroll a Teams Rooms device
 
- Informationen zum Registrieren eines Geräts bei Teams-Räume Premium Dienst finden Sie unter [Überwachen der Gerätesoftwareinstallation.](monitor-software-installation-guide.md)
+ To enroll a device in the Teams Rooms Premium managed service, see [Monitoring device software installation](monitor-software-installation-guide.md).
 
-<!--2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
+2. Select on the **?** icon at the top right-hand corner of the portal to launch the help menu. The help menu includes an [Installation guide](https://portal.rooms.microsoft.com/docs/MMR%20Monitoring%20Software%20Installation%20Guide%20Feb%202021.pdf) containing detailed enrollment instructions:
 
     1. Review the **Pre-requisites** section in the Installation guide. Confirm that the URLs listed in the **URLs Required for Communication** list are added to your firewall's traffic allow list.
     2. Follow the instructions in the **Enabling TPM Settings** section to enable the Trusted Platform Module (TPM) functionality on your device.

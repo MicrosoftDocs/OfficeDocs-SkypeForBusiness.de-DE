@@ -1,9 +1,9 @@
 ---
 title: Ressourcenspezifische Zustimmung in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: nkramer
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -13,12 +13,12 @@ ms.localizationpriority: medium
 ms.collection: M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 9e2c77e33165bedbb5302a1202f85906a64cea9a
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: 9e6e2f0e7827dab36645fec7105a9cbe0c439472
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62400829"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070654"
 ---
 # <a name="resource-specific-consent-in-microsoft-teams"></a>Ressourcenspezifische Zustimmung in Microsoft Teams
 
@@ -26,7 +26,7 @@ ms.locfileid: "62400829"
 
 Mit der ressourcenspezifischen Zustimmung in Microsoft Teams Teambesitzern die Zustimmung von Apps für den Zugriff auf Teamdaten erteilt. Beispiele für einen solchen Zugriff sind die Möglichkeit, Kanalnachrichten zu lesen, Kanäle zu erstellen und zu löschen sowie Kanalregisterkarten zu erstellen und zu entfernen.
 
-Als Administrator steuern Sie, ob Teambesitzer in Ihrer Organisation über Einstellungen, die Sie mithilfe des Azure Active Directory(Azure AD) PowerShell-Moduls oder des Azure-Portals und des Microsoft Teams Admin Centers konfigurieren, ihre Zustimmung geben können.  
+Als Administrator steuern Sie, ob Teambesitzer in Ihrer Organisation über Einstellungen, die Sie mithilfe des Azure Active Directory(Azure AD) PowerShell-Moduls oder des Azure-Portals und des Microsoft Teams Admin Centers konfigurieren, ihre Zustimmung erteilen können.  
 
 ## <a name="set-whether-team-owners-can-give-consent-to-apps"></a>Festlegen, ob Teambesitzer Apps die Zustimmung erteilen können
 
@@ -43,8 +43,8 @@ Die folgenden beiden Einstellungen bestimmen, ob Teambesitzer Apps die Zustimmun
 
 Diese Einstellung steuert, ob Benutzer in Ihrer Organisation Apps in ihrem Namen zustimmen können. Damit Teambesitzer ihre Zustimmung geben können, muss diese Einstellung auf Ja **festgelegt sein**. Gehen Sie wie folgt vor, um diese Einstellung zu verwalten:
 
-1. Wechseln Sie im Azure-Portal zu **Enterprise** **AnwendungenUser-Einstellungen** > .
-2. Legen **Enterprise apps** die Gruppe Benutzer können Apps den Zugriff auf Unternehmensdaten **in** ihrem Namen zustimmen auf **Nein** oder **Ja ein**.
+1. Wechseln Sie im Azure-Portal zu **Enterprise** **User-Einstellungen** > .
+2. Legen **Enterprise apps** können apps **den Zugriff** auf Unternehmensdaten in ihrem Namen zustimmen auf **Nein** oder **Ja.**
 
 Sie können diese Einstellung auch mithilfe von PowerShell verwalten. Weitere Informationen finden Sie unter [Konfigurieren von Benutzerinhalten für Anwendungen](/azure/active-directory/manage-apps/configure-user-consent#configure-user-consent-to-applications).
 
@@ -54,7 +54,7 @@ Mit dieser Einstellung wird kontrolliert, ob Benutzer in Ihrer Organisation Apps
 
 ### <a name="settings-in-the-microsoft-teams-admin-center"></a>Einstellungen im Microsoft Teams Admin Center
 
-Zusätzlich zu den Einstellungen in Azure AD bestimmen organisationsweite App-Einstellungen auf der Seite Apps verwalten[](manage-apps.md), ob eine App auf der Seite Apps verwalten blockiert oder zulässig ist[](manage-apps.md#allow-and-block-apps), und die dem Teambesitzer [](teams-app-permission-policies.md) zugewiesene [App-Berechtigungsrichtlinie](manage-apps.md#manage-org-wide-app-settings) bestimmt, ob ein Teambesitzer seine Zustimmung erteilen kann.
+Zusätzlich zu den Einstellungen in Azure AD bestimmen organisationsweite App-Einstellungen auf der Seite Apps verwalten [](manage-apps.md) auf der Seite Apps verwalten, ob eine App blockiert oder zulässig ist[](manage-apps.md#allow-and-block-apps), und die dem Teambesitzer [](teams-app-permission-policies.md) zugewiesene [App-Berechtigungsrichtlinie](manage-apps.md#manage-org-wide-app-settings) bestimmt, ob ein Teambesitzer seine Zustimmung erteilen kann.
 
 > [!IMPORTANT]
 > Eine Änderung dieser Einstellungen wirkt sich nicht auf den Datenzugriff für Apps aus, für die bereits die Zustimmung erteilt wurde. Wenn Sie beispielsweise Apps von Drittanbietern organisationsweit deaktivieren oder bestimmte Apps blockieren, um zu verhindern, dass Teambesitzer ihre Zustimmung geben, werden durch diese Änderungen nicht bereits gewährte Datenzugriffe entfernt.  
@@ -63,7 +63,7 @@ Zusätzlich zu den Einstellungen in Azure AD bestimmen organisationsweite App-Ei
 
 Diese organisationsweite App-Einstellung steuert, ob Benutzer in Ihrer Organisation Apps von Drittanbietern verwenden können. Diese Einstellung muss aktiviert sein, damit Teambesitzer ihre Zustimmung erteilen können. Gehen Sie wie folgt vor, um diese Einstellung zu verwalten:
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams Apps** >  **Verwalten** von Apps, und klicken Sie dann auf **Organisationsweite App-Einstellungen**.
+1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Center zu **Teams Apps** >  **Verwalten** von Apps, und klicken Sie dann auf **Organisationsweite App-Einstellungen**.
 2. Deaktivieren **oder aktivieren Sie unter Apps** von Drittanbietern Die Apps **von Drittanbietern zulassen**.
 
     ![Screenshot der Einstellung "Drittanbieter-Apps in Teams zulassen"](media/resource-specific-consent-org-wide-setting.png)

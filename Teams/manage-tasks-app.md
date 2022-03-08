@@ -1,28 +1,33 @@
 ---
 title: Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: conceptual
 ms.service: msteams
 ms.reviewer: andfried
 search.appverid: MET150
 searchScope:
-  - Microsoft Teams
-  - Microsoft Cloud for Healthcare
-  - Microsoft Cloud for Retail
+- Microsoft Teams
+- Microsoft Cloud for Healthcare
+- Microsoft Cloud for Retail
 audience: admin
-description: 'Hier erfahren Sie, wie Sie die Tasks-App für Mitarbeiter in Ihrer Organisation verwalten können.'
+description: Hier erfahren Sie, wie Sie die Tasks-App für Mitarbeiter in Ihrer Organisation verwalten können.
 ms.localizationpriority: medium
 MS.collection:
-  - Teams_ITAdmin_Help
-  - M365-collaboration
-  - microsoftcloud-healthcare
-  - microsoftcloud-retail
+- Teams_ITAdmin_Help
+- M365-collaboration
+- microsoftcloud-healthcare
+- microsoftcloud-retail
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 2ad0324509849700ea74afe582d4ce7a4934dc3e
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070594"
 ---
-
 # <a name="manage-the-tasks-app-for-your-organization-in-microsoft-teams"></a>Verwalten der Tasks-App für Ihre Organisation in Microsoft Teams
 
 ## <a name="overview-of-tasks"></a>Übersicht über Tasks
@@ -42,7 +47,7 @@ Tasks ist als App und als Registerkarte in einem Kanal verfügbar. In der App we
 
 Mit Tasks erhalten die Benutzer eine Desktop-, Web- und mobile Erfahrung. Wenn Tasks auf dem Teams-Desktopclient installiert ist, wird es den Benutzern auch in ihren Web- und mobilen Clients von Teams angezeigt. Eine Ausnahme bilden Gäste. Es ist wichtig zu wissen, dass Gäste nur über den mobilen Teams-Client als App auf Aufgaben zugreifen können. Gästen werden die Tasks-Registerkarten sowohl auf dem Teams-Desktop als auch auf Webclients angezeigt.
 
-**Meine Aufgaben** zeigt die individuellen Aufgaben eines Benutzers an. **Freigegebene Pläne** zeigen Aufgaben an, an denen das gesamte Team arbeitet, und enthält alle Aufgabenlisten, die einem Kanal als Tasks-Registerkarte hinzugefügt wurden. Beachten Sie die folgenden Beziehungen zwischen Vorgängen in "Aufgaben", "To Do" und "Planner":
+**Meine Aufgaben** zeigt die individuellen Aufgaben eines Benutzers an. **Freigegebene Pläne** zeigen Aufgaben an, an denen das gesamte Team arbeitet, und enthält alle Aufgabenlisten, die einem Kanal als Tasks-Registerkarte hinzugefügt wurden. Beachten Sie die folgenden Beziehungen zwischen Aufgaben in "Aufgaben", "To Do" und "Planner":
 
 - Aufgabenlisten, die ein Benutzer in der Tasks-App erstellt, werden auch in den Aufgabenclients für diesen Benutzer angezeigt. Ähnlich dazu werden Aufgabenlisten, die ein Benutzer in der To Do-App erstellt, auch in **Meine Aufgaben** in Tasks für diesen Benutzer angezeigt. Das Gleiche gilt für individuelle Aufgaben.
 
@@ -80,7 +85,7 @@ Wenn Sie die Tasks-App für Ihre Benutzer anheften möchten, können Sie die glo
 
 Wenn ein Benutzer **Meine Aufgaben** nicht sehen soll, können Sie es ausblenden. Um Meine **Aufgaben auszublenden**, [entfernen Sie die Lizenz Exchange Online Benutzers](/microsoft-365/admin/manage/remove-licenses-from-users). Es ist wichtig zu wissen, dass der Benutzer nach dem Entfernen einer Exchange Online-Lizenz keinen Zugriff mehr auf sein Postfach hat.  Postfachdaten werden 30 Tage lang gespeichert. Danach werden die Daten entfernt und können nicht wiederhergestellt werden, es sei denn, das Postfach wird in [In-Situ-Aufbewahrung oder Aufbewahrung für juristische Zwecke](/exchange/security-and-compliance/in-place-and-litigation-holds) gestellt.
 
-Wir raten davon ab, eine Exchange Online-Lizenz für Information-Workers zu entfernen. Es kann jedoch einige Szenarien geben, in denen  Sie Meine Aufgaben auf diese Weise ausblenden können, z. B. für Frontline-Mitarbeiter, die nicht von E-Mails abhängig sind.
+Wir raten davon ab, eine Exchange Online-Lizenz für Information-Workers zu entfernen, aber es gibt einige Szenarien, in denen Sie  Meine Aufgaben auf diese Weise ausblenden können, z. B. für Frontline Workers, die nicht von E-Mail abhängig sind.
 
 ## <a name="task-publishing"></a>Aufgabenveröffentlichung
 

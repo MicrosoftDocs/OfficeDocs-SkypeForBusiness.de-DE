@@ -1,8 +1,8 @@
 ---
 title: Verwalten Ihrer Apps im Microsoft Teams Admin Center
-author: KarliStites
-ms.author: kastites
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.topic: article
 ms.service: msteams
 audience: admin
@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite Apps verwalten 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 8e0c475eaf2186c13174d27687a5bd10c2fa1057
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062549"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070224"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
@@ -55,7 +55,7 @@ Sie können jede App einschließlich der folgenden Informationen zu jeder App an
 ![Screenshot der Seite "Apps-Details" für eine App](media/app-detail-page.jpg)
 
 - **Name**: Der App-Name. Wählen Sie den App-Namen aus, um zur Seite mit den App-Details zu wechseln, um weitere Informationen zur App anzuzeigen. Dies umfasst eine Beschreibung der App, ob zulässig oder blockiert, Version, Datenschutzrichtlinie, Nutzungsbedingungen, Kategorien, die für die App gelten, den Zertifizierungsstatus, unterstützte Funktionen und die App-ID.
-- **Zertifizierung**: Wenn die App die Zertifizierung durchgegangen ist, sehen Sie entweder Microsoft 365  Zertifizierung oder **Publisher Nachweis**. Wählen Sie den Link aus, um Zertifizierungsdetails für die App anzuzeigen. Wenn "" angezeigt **--** wird, gibt es keine Zertifizierungsinformationen für die App. Weitere Informationen zu zertifizierten Apps in Teams finden Sie Microsoft 365 [Zertifizierungsprogramm für Apps](/microsoft-365-app-certification/overview).
+- **Zertifizierung**: Wenn die App die Zertifizierung durchgegangen ist, sehen Sie entweder Microsoft 365  Zertifizierung oder **Publisher Nachweis**. Wählen Sie den Link aus, um Zertifizierungsdetails für die App anzuzeigen. Wenn angezeigt wird `--`, gibt es keine Zertifizierungsinformationen für die App. Weitere Informationen zu zertifizierten Apps in Teams finden Sie Microsoft 365 [Zertifizierungsprogramm für Apps](/microsoft-365-app-certification/overview).
 - **Publisher**: Name des Herausgebers.
 - **Veröffentlichungsstatus**: Veröffentlichungsstatus von benutzerdefinierten Apps.
 - **Status**: Status der App auf Organisationsebene. Dies kann einer der folgenden sein:

@@ -1,9 +1,9 @@
 ---
 title: Verfügbarkeit der App "Genehmigungen" in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: farhazk
-manager: serdars
+manager: prkosh
 ms.topic: article
 audience: admin
 ms.service: msteams
@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: ea3da24dc0fa3a64d90b38a67b13be0fa4d041ce
-ms.sourcegitcommit: 5880de47e986854fca873ae75f76a7ecad194dff
+ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "62421548"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070434"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -41,7 +41,7 @@ Durch die erste mit der App "Genehmigungen" erstellte Genehmigung wird die Berei
 In diesem Artikel werden die Anforderungen und Rollen für die App "Genehmigungen" beschrieben.
 
 > [!NOTE]
-> Dieses Feature wurde noch nicht für Benutzer von Government Community Cloud High (GCCH) und Department of Defense (DOD) veröffentlicht.
+> Dieses Feature wurde noch nicht für Benutzer Government Community Cloud High (GCCH) und Department of Defense (DOD) veröffentlicht.
 
 ## <a name="required-permissions-and-licenses"></a>Erforderliche Berechtigungen und Lizenzen
 
@@ -57,7 +57,7 @@ Zum Bereitstellen der Genehmigungen-App benötigen Sie Berechtigungen für die f
 
 - Für Benutzer ist eine Lizenz für Microsoft Forms erforderlich, damit sie neue Genehmigungsvorlagen einrichten können.
 
-Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird bei Ihrer ersten Genehmigungszuweisung automatisch der Genehmigungen-Benutzerrolle in der Zielumgebung hinzugefügt.
+Um die Genehmigungen-App verwenden zu können, benötigen Sie eine Lizenz für Power Automate, und Ihr Konto wird der Genehmigungen-Benutzerrolle in der Zielumgebung bei Ihrer ersten Genehmigungszuweisung automatisch hinzugefügt.
 
 ## <a name="storage-with-cds"></a>Speicher mit CDS
 
@@ -65,7 +65,7 @@ Das allgemeine Datenmodell (Common Data Model, CDM) ist die gemeinsame Datenspra
 
 Weitere Informationen zum [Genehmigungsworkflow](/power-automate/modern-approvals).
 
-Genehmigungen, die aus einer Vorlage erstellt werden, speichern weiterhin Daten in CDS, z. B. Titel, Details, Vorlagen-ID und vieles mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Erfahren Sie mehr  [über Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
+Genehmigungen, die aus einer Vorlage erstellt wurden, werden weiterhin Daten in CDS gespeichert, z. B. Titel, Details, Vorlagen-ID und vieles mehr. Antworten, die über die Genehmigungsanforderung übermittelt werden, werden in Forms gespeichert. Erfahren Sie mehr  [über Datenspeicherung für Microsoft Forms](https://support.microsoft.com/office/data-storage-for-microsoft-forms-97a34e2e-98e1-4dc2-b6b4-7a8444cb1dc3#:~:text=Where%20data%20is%20stored%20for%20Microsoft%20Forms.%20Microsoft,European-based%20tenants%20is%20stored%20on%20servers%20in%20Europe).
 
 >[!Note]
 >Wenn Sie die Formularvorlage auf der Microsoft Forms-Website löschen, wird ihre Genehmigungsvorlage nicht mehr angezeigt, und die Benutzer können die Anforderung nicht starten. Benutzern wird die Fehlermeldung "CDB TableNotFound" angezeigt, wenn sie versuchen, eine Genehmigungsvorlage zu öffnen, die in Microsoft Forms gelöscht wurde.
@@ -110,11 +110,11 @@ Die App "Genehmigungen" ist standardmäßig verfügbar. Sie können die App im M
 
   1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-  2. Wechseln Sie **zu Teams Apps** >  **Verwalten von Apps**.
+  2. Wechseln Sie **Teams-Apps** > **Apps verwalten**.
 
   3. Suchen Sie nach der App "Genehmigungen".
 
-     ![Zeigt die Admin Center-Navigation mit Teams Apps > "Apps verwalten" hervorgehoben.](media/manage-approval-apps.png)
+     ![Zeigt die Admin Center-Navigation mit hervorgehobener Teams Apps > Apps verwalten.](media/manage-approval-apps.png)
 
   4. Wählen Sie **Genehmigungen** aus.
 
@@ -202,7 +202,7 @@ Um das E-Genehmigungen-Signaturfeature ihrer App verwenden zu können, benötige
 
 Sie können das Teams Admin Center verwenden, um zu steuern, welche Drittanbieter-E-Signatur-Anbieter für Ihre Benutzer in der App verfügbar Genehmigungen sind. Standardmäßig sind E-Signatur-Anbieter in der App Genehmigungen aktiviert. Wenn Sie einen E-Signatur-Anbieter deaktivieren, haben die Benutzer keinen Zugriff auf diesen Anbieter, wenn sie Genehmigungen erstellen. Ihre Benutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter erstellt wurden.
 
-1. Navigieren Sie in der linken Navigationsleiste Teams Admin Center zu Apps **Teams** >  **Verwalten von Apps**.
+1. Wechseln Sie in der linken Navigationsleiste Teams Admin Center zu Apps **Teams** >  **Verwalten von Apps**.
 2. Suchen Sie nach Genehmigungen App, und wählen Sie sie aus.
 3. Wechseln Sie zur **registerkarte Einstellungen**, und gehen Sie dann wie folgt vor:
 

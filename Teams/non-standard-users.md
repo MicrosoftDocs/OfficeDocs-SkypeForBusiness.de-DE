@@ -1,24 +1,29 @@
 ---
 title: Teams von Apps für Nicht-Standardbenutzer
-author: SerdarSoysal
-ms.author: serdars
+author: guptaashish
+ms.author: guptaashish
 ms.reviewer: joglocke
 manager: serdars
 ms.topic: article
 audience: admin
 ms.service: msteams
 search.appverid: MET150
-description: 'Hier erfahren Sie, wie Microsoft Teams sich für Nicht-Standardbenutzer verhalten.'
+description: Hier erfahren Sie, wie Microsoft Teams sich für Nicht-Standardbenutzer verhalten.
 ms.localizationpriority: medium
 f1.keywords:
-  - NOCSH
+- NOCSH
 ms.collection:
-  - M365-collaboration
-  - m365initiative-meetings
+- M365-collaboration
+- m365initiative-meetings
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: 4dd2a96b7df3ebcb3ae8659222744ed0f3273fa3
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070214"
 ---
-
 # <a name="microsoft-teams-apps-behavior-for-non-standard-users"></a>Microsoft Teams von Apps für Nicht-Standardbenutzer
 
 In diesem Artikel wird beschrieben, wie Teams verhalten, wenn Gastbenutzer, externe Benutzer (Partnerbenutzer) und anonyme Benutzer in einem Teams sind.

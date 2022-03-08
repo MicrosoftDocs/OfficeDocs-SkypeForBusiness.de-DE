@@ -1,5 +1,5 @@
 ---
-title: Teams Contact Center
+title: Teams-Kontaktcenter
 author: cazawideh
 ms.author: czawideh
 manager: serdars
@@ -13,20 +13,20 @@ f1.keywords:
 description: Eine Übersicht über die integrierte CCaaS-Lösung (Contact Center as a Service) für Microsoft Teams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7593264efff9935df0606c1fad7e32006ea52c44
-ms.sourcegitcommit: 1190cd73656dbc9131d46e0a827e28bcd960dfc5
+ms.openlocfilehash: 52de716c35e934e13140af278814a93620dd4962
+ms.sourcegitcommit: 2c8d6183920fd0df7e0491cf4e79b2311503dba7
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "62863908"
+ms.lasthandoff: 03/08/2022
+ms.locfileid: "63073743"
 ---
 # <a name="contact-center-integrations-for-microsoft-teams"></a>Integrationen von Kontaktcentern für Microsoft Teams
 
-  Dieser Artikel bietet eine Übersicht über die Integration von Contact Center-Lösungen in Microsoft Teams und die lösungsanbieter, die am Microsoft Teams Connected Contact Center-Zertifizierungsprogramm teilnehmen.
+  Dieser Artikel bietet eine Übersicht über die Integration von Contact Center-Lösungen in Microsoft Teams und die Lösungsanbieter, die am Microsoft Teams Connected Contact Center-Zertifizierungsprogramm teilnehmen.
 
-## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Was ist die Integration von Kontaktcentern für Microsoft Teams?
+## <a name="what-is-contact-center-integration-for-microsoft-teams"></a>Was ist die Integration von Kontaktcentern Microsoft Teams?
 
-Microsoft Teams unterstützt Arbeitsstreams für die Kundeninteraktion, indem er als Hub für interne und externe Kundenverbindung über ihre Kommunikationsmodi hinweg– einschließlich Chat, Videobesprechungen und Anrufen – agiert. Einige Organisationen erfüllen Microsoft Teams [Cloud-Sprachfunktionen](./cloud-voice-landing-page.md), einschließlich automatischer Telefonant [und](./what-are-phone-system-auto-attendants.md) Anrufwarteschleifen[, ihre](./create-a-phone-system-call-queue.md) Anforderungen.
+Microsoft Teams unterstützt Arbeitsstreams für die Kundeninteraktion, indem er als Hub für interne und externe Kundenverbindung über die Kommunikationsmodi hinweg, einschließlich Chats, Videobesprechungen und Anrufen, auftritt. Einige Organisationen erfüllen Microsoft Teams [Cloud-Sprachfunktionen](./cloud-voice-landing-page.md), einschließlich der automatischen Telefon [attendant](./what-are-phone-system-auto-attendants.md) und Anrufwarteschleifen[, ihren](./create-a-phone-system-call-queue.md) Anforderungen.
 
 Für Organisationen, die Lösungen mit Geschäftstools und Workflows für den Kunden ein fördern möchten, ermöglicht die Integration von Kontaktcentern für Microsoft Teams CCaaS-Lösungsanbieter (Contact Center as a Service) die Integration ihrer Lösungen in Teams.
 
@@ -35,7 +35,7 @@ Für Organisationen, die Lösungen mit Geschäftstools und Workflows für den Ku
 
 Das Connected Contact Center für Microsoft Teams-Zertifizierungsprogramm überprüft, ob die Lösung jedes teilnehmenden Anbieters die Qualität, Kompatibilität und Zuverlässigkeit bietet, die von Microsoft-Lösungen erwartet wird.
 
-Wenn Sie als Organisation nach einer integrierten Contact Center-Lösung suchen, finden Sie unter Zertifizierte [Microsoft Teams-Lösungen](https://cloudpartners.transform.microsoft.com/contact-center-solutions) für Kontaktcenter eine Liste mit zertifizierten Lösungsanbietern und unter Verbundene [Kontaktcenter-Lösungen](#connected-contact-center-solutions) eine Liste der Anbieter im Zertifizierungsprozess.
+Wenn Sie als Organisation nach einer integrierten Kontaktcenterlösung suchen, finden Sie unter Zertifizierte [Microsoft Teams-Lösungen](https://cloudpartners.transform.microsoft.com/contact-center-solutions) für Kontaktcenter eine Liste mit zertifizierten Lösungsanbietern, und [](#connected-contact-center-solutions) unter Verbundene Kontaktcenter-Lösungen finden Sie eine Liste der Anbieter im Zertifizierungsprozess.
 
 Wenn Sie als Anbieter am Zertifizierungsprogramm teilnehmen möchten, senden Sie eine E-Mail an <Teamscategorypartner@microsoft.com>.
 
@@ -60,6 +60,7 @@ Die folgenden Anbieter bieten Contact Center-Lösungen, die mithilfe eines Teams
 | `Five9` | https://www.five9.com/products/application-integration/uc-integration                                                   |
 | `Genesys` | https://www.genesys.com/campaign/get-started-genesys-cloud-microsoft-teams                                      |
 | `NICE inContact` | https://www.niceincontact.com/microsoft-teams                                                            |
+| `Tendfor` | https://www.tendfor.com                                                            |
 
 ### <a name="solutions-currently-in-the-certification-process"></a>Lösungen, die derzeit im Zertifizierungsprozess sind
 
@@ -78,6 +79,5 @@ Die folgenden Anbieter bieten Contact Center-Lösungen, die mithilfe eines Teams
 | `Netcall` | https://www.netcall.com/platform/contact-centre/                         |
 | `novomind` | https://www.novomind.com/en/customer-service-software-call-center/microsoft-teams/                             |
 | `talkdesk` | https://www.talkdesk.com/cloud-contact-center/integrations/microsoft-teams/                                  |
-| `Tendfor` | https://www.tendfor.com/en/                                                                                     |
 
 Diese Liste wird aktualisiert, sobald weitere Lösungsanbieter beitreten und die Zertifizierungskriterien erfüllen.

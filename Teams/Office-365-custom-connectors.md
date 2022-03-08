@@ -1,8 +1,8 @@
 ---
 title: Verwenden Microsoft 365 und benutzerdefinierten Verbindern
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.date: 09/25/2017
 ms.topic: article
 ms.service: msteams
@@ -17,23 +17,23 @@ description: Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: e3cc7bcd060caf737b23193e006dad20e316eec7
-ms.sourcegitcommit: efd56988b22189dface73c156f6f8738f273fa61
+ms.openlocfilehash: 39bc677b57a0cec5381c0d8f05b33d18b072769f
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/30/2021
-ms.locfileid: "60011769"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070724"
 ---
 # <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams 
 
-Connectors halten Ihr Team auf dem laufenden, indem häufig verwendete Inhalts- und Dienstupdates direkt in einem Kanal zur Verfügung gestellt werden. Mit Connectors können Microsoft Teams Benutzer Updates von beliebten Diensten wie Trello, Wunderlist, GitHub und Azure DevOps Services innerhalb des Chatstreams ihres Teams erhalten. 
+Connectors halten Ihr Team auf dem laufenden, indem häufig verwendete Inhalts- und Dienstupdates direkt in einem Kanal zur Verfügung gestellt werden. Mit Connectors können benutzer Microsoft Teams Updates von beliebten Diensten wie Trello, Wunderlist, GitHub und Azure DevOps Services innerhalb des Chatstreams im Team erhalten. 
 
 Jedes Mitglied eines Teams kann sein Team mit beliebten Clouddiensten über die Connectors verbinden, sofern die Teamberechtigungen dies zulassen, und alle Teammitglieder werden über Aktivitäten dieses Diensts benachrichtigt. Verbinder funktionieren auch nach dem Verlassen des Verbinders weiterhin, nachdem das Mitglied, das den Verbinder eingerichtet hat, den Connector verlassen hat. Jedes Teammitglied mit der Berechtigung zum Hinzufügen\Entfernen kann die Einrichtung von Connectors durch andere Mitglieder ändern.
 
-Microsoft 365 Connectors können sowohl mit Microsoft Teams- als auch Microsoft 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher wird, synchronisiert zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als Exchange verwenden dasselbe Verbindermodell, das es Ihnen ermöglicht, die gleichen Verbinder auf beiden Plattformen zu verwenden. Es ist jedoch zu erwähnen, dass das Deaktivieren von Connectors für die Gruppe Microsoft 365, von der ein Team abhängig ist, die Möglichkeit zum Erstellen von Connectors auch für dieses Team deaktiviert.
+Microsoft 365 Connectors können sowohl mit Microsoft Teams als auch Microsoft 365-Gruppen verwendet werden, wodurch es für alle Mitglieder einfacher wird, synchronisiert zu bleiben und relevante Informationen schnell zu erhalten. Sowohl Microsoft Teams als Exchange verwenden dasselbe Verbindermodell, das es Ihnen ermöglicht, die gleichen Verbinder auf beiden Plattformen zu verwenden. Es ist jedoch zu erwähnen, dass das Deaktivieren von Connectors für die Microsoft 365-Gruppe, von der ein Team abhängig ist, die Möglichkeit zum Erstellen von Connectors auch für dieses Team deaktiviert.
 
 > [!NOTE]
-> Connectors sind in Government Cloud Community (GCC) standardmäßig deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true SetOrganizationConfig-Cmdlet fest. Sie müssen eine Verbindung mit der Exchange Online [PowerShell herstellen.](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+> Connectors sind in Government Cloud Community (GCC) standardmäßig deaktiviert. Wenn Sie sie aktivieren müssen, legen Sie die Parameter ConnectorsEnabled oder ConnectorsEnabledForTeams auf $true SetOrganizationConfig-Cmdlet fest. Sie müssen eine Verbindung mit der Exchange Online [PowerShell herstellen](/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps).
 
 ## <a name="add-a-connector-to-a-channel"></a>Hinzufügen eines Connectors zu einem Kanal
 
@@ -42,9 +42,9 @@ Derzeit können Sie Connectors mithilfe Microsoft Teams Desktop- und Webclients 
 1. Wenn Sie einem Kanal einen Verbinder hinzufügen möchten, klicken Sie auf die drei **Punkte (...),** rechts neben einem Kanalnamen, und klicken Sie dann auf **Verbinder**.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot der benutzeroberfläche Teams mit ausgewählter Option "Verbinder".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
+    > ![Screenshot der Benutzeroberfläche Teams mit ausgewählter Option "Verbinder".](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image1.png)
 
-2. Sie können aus einer Vielzahl von verfügbaren Verbindern auswählen und dann auf **Hinzufügen klicken.**
+2. Sie können aus einer Vielzahl von verfügbaren Verbindern auswählen und dann auf **Hinzufügen klicken**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot des Dialogfelds "Verbinder" mit den verfügbaren Verbindern](media/Use_Office_365_and_custom_connectors_in_Microsoft_Teams_image2.png)
@@ -63,7 +63,7 @@ Derzeit können Sie Connectors mithilfe Microsoft Teams Desktop- und Webclients 
 > [!IMPORTANT]
 > **Updatebenachrichtigung über die Connector-URL**
 >
-> Die Teams Connectors werden auf eine neue URL umstellen, um die Sicherheit zu erhöhen. Während dieses Übergangs erhalten Sie bestimmte Benachrichtigungen zum Aktualisieren des konfigurierten Connectors für die Verwendung der neuen URL. Es wird dringend empfohlen, den Verbinder sofort zu aktualisieren, um Unterbrechungen der Connectordienste zu verhindern. Um die URL zu aktualisieren, müssen Sie die folgenden Schritte ausführen:
+> Die Teams Connectors werden zur Verbesserung der Sicherheit auf eine neue URL umstellen. Während dieses Übergangs erhalten Sie bestimmte Benachrichtigungen zum Aktualisieren des konfigurierten Connectors für die Verwendung der neuen URL. Es wird dringend empfohlen, den Verbinder sofort zu aktualisieren, um Unterbrechungen der Connectordienste zu verhindern. Um die URL zu aktualisieren, müssen Sie die folgenden Schritte ausführen:
 > 1. Auf der Konfigurationsseite für Connectors wird unter der Schaltfläche "Verwalten" die Meldung "Achtung erforderlich" für die Verbindungen angezeigt, die aktualisiert werden müssen.
 > ![Screenshot der Meldung "Achtung erforderlich".](media/Teams_Attention_Required_message.png)
 > 2. Bei eingehenden Webhook-Connectors können Benutzer die Verbindung neu herstellen, indem sie einfach **URL aktualisieren** auswählen und die neu generierte Webhook-URL verwenden.

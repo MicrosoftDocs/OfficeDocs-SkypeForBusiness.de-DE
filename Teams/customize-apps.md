@@ -1,25 +1,30 @@
 ---
 title: Anpassen von Apps in Microsoft Teams
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 ms.reviewer: v-tbasra
 ms.topic: article
 ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 ms.collection:
-  - M365-collaboration
-  - Teams_ITAdmin_Help
+- M365-collaboration
+- Teams_ITAdmin_Help
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: 'Erfahren Sie, wie Sie Apps in Microsoft Teams.'
+description: Erfahren Sie, wie Sie Apps in Microsoft Teams.
+ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070424"
 ---
-
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
  Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams werden kann. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Teams Admin Center **Apps verwalten anpassen oder umbenennen**. Die Details können Sie anpassen:
@@ -34,7 +39,7 @@ description: 'Erfahren Sie, wie Sie Apps in Microsoft Teams.'
 - Symbol "Gliederung"
 - Akzentfarbe
 
-Details zu [den](/microsoftteams/platform/resources/schema/manifest-schema) Feldern, die Sie anpassen können, finden Sie im Schema "Manifest Teams".
+Details zu den Feldern, die Sie anpassen können, finden Sie im Teams [Manifestschema](/microsoftteams/platform/resources/schema/manifest-schema).
 
 > [!NOTE]
 > Das Anpassen von Apps wird in Government Community Cloud High (GCCH) oder Department of Defense (DoD) derzeit nicht unterstützt.
@@ -46,7 +51,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern sie **Teams Apps,** und wählen Sie **Apps verwalten aus**.
+2. Erweitern Teams **Apps, und** wählen Sie **Apps verwalten aus**.
 
 3. Überprüfen Sie die **Spalte Anpassbar** der App-Liste, und sortieren Sie nach anpassbaren Apps.
 
@@ -82,7 +87,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
 5. Erweitern Sie **den Bereich Symbol** .
 
-   1. Hochladen Sie ein Symbol. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
+   1. Hochladen symbol. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
 
    1. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie ein transparentes Gliederungspixel (32 x 32) im PNG-Format.
 
@@ -98,7 +103,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
 Jetzt können Teams Benutzer ihren Client Teams öffnen, um die angepasste App zu sehen.
 
-   ![Angepasste App im Teams-Client.](media/contoso-app.png)
+   ![Angepasste App im Teams Client.](media/contoso-app.png)
 
 ### <a name="special-considerations-for-customizing-an-app"></a>Besondere Aspekte beim Anpassen einer App
 
@@ -134,7 +139,7 @@ Sie können die App-Details jederzeit auf die ursprünglichen Einstellungen zur�
 
 1. Melden Sie sich beim Microsoft Teams Admin Center an.
 
-2. Erweitern sie **Teams Apps,** und wählen Sie **Apps verwalten aus**.
+2. Erweitern Teams **Apps, und** wählen Sie **Apps verwalten aus**.
 
 3. Wählen Sie den App-Namen aus.
 
