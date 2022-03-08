@@ -3,9 +3,9 @@ title: Apps, Bots und Connectors in Microsoft Teams
 ms.reviewer: ''
 description: Erfahren Sie mehr über Apps, Bots und Connectors und darüber, wie Sie entscheiden können, welche dieser Komponenten basierend auf den Profil- und Geschäftsanforderungen Ihrer Organisation in Microsoft Teams bereitgestellt werden.
 ms.topic: article
-author: SerdarSoysal
-ms.author: serdars
-manager: serdars
+author: guptaashish
+ms.author: guptaashish
+manager: prkosh
 audience: admin
 ms.date: 02/10/2021
 ms.service: msteams
@@ -18,12 +18,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: a2789e522e666894ca58c8b22e9d571b35a4fb26
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: 05d683bbefa9b3cc564e4f97e52f0fad441f2763
+ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58618511"
+ms.lasthandoff: 03/07/2022
+ms.locfileid: "63070394"
 ---
 # <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
 
@@ -37,7 +37,7 @@ Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Auf
 
 ## <a name="use-third-party-apps"></a>Verwenden von Drittanbieter-Apps
 
-Zusätzlich zu den von Microsoft bereitgestellten Apps können Sie auch von Microsoft zertifizierte Apps von Drittanbietern verwenden. Microsoft arbeitet mit Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die benötigt werden, um Entscheidungen über die Verwendung von Teams-Apps und Add-Ins zu beschleunigen. Weitere Informationen finden Sie unter [Microsoft Teams-App-Sicherheit und -Compliance](/microsoft-365-app-certification/teams/teams-apps).
+Zusätzlich zu von Microsoft bereitgestellten Apps können Sie von Microsoft zertifizierte Drittanbieter-Apps verwenden. Microsoft arbeitet mit Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die benötigt werden, um Entscheidungen zur Verwendung von Teams-Apps und -Add-Ins zu beschleunigen. Weitere Informationen finden Sie unter [Microsoft Teams App – Sicherheit und Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-teams-templates"></a>Verwenden von Teams-Vorlagen
 
@@ -69,7 +69,7 @@ Standardmäßig sind alle von Microsoft bereitgestellten, Drittanbieter- und ben
 
 ### <a name="app-permissions-and-other-considerations"></a>App-Berechtigungen und andere Überlegungen
 
-Apps erhalten ein Einverständnis von den Benutzern und werden vom Administrator oder IT-Experten mithilfe von Richtlinien verwaltet. Großenteils sind allerdings die Berechtigungen und Risikoprofile einer App in der App selbst definiert. 
+Apps erhalten ein Einverständnis von den Benutzern und werden vom Administrator oder IT-Experten mithilfe von Richtlinien verwaltet. App-Berechtigungen und Risikoprofil werden jedoch in der App selbst definiert.
 
 | Frage | Aktion |
 |--------------|--------|
