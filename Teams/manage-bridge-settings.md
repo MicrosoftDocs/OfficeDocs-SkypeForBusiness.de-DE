@@ -1,7 +1,7 @@
 ---
 title: Verwalten von Brücke-Einstellungen in Teams
-author: HowlinWolf-92
-ms.author: v-mahoffman
+author: SerdarSoysal
+ms.author: serdars
 manager: serdars
 ms.reviewer: ''
 ms.topic: article
@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Einstellungen für Brücke in Microsoft Teams
-ms.openlocfilehash: 5eac35e18a3b5958cd2c333f17cb5d539206e007
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: 4fb6a51b7413f9a4137cda70467003d7c0009498
+ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60829565"
+ms.lasthandoff: 02/05/2022
+ms.locfileid: "62401639"
 ---
 # <a name="manage-bridge-settings-in-teams"></a>Verwalten von Brücke-Einstellungen in Teams
 
