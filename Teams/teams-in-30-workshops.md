@@ -13,25 +13,25 @@ ms.collection:
 - Teams_ITAdmin_RemoteWorkers
 ms.reviewer: landerl, nsuter
 search.appverid: MET150
-description: Live, interaktive Workshops, die dafür entwickelt wurden, Ihnen in nur 30 Tagen mit Microsoft Teams den Ersten zu machen.
+description: Live, interaktive Workshops, die dafür entwickelt wurden, Ihnen in nur 30 Tagen den ersten Microsoft Teams zu bieten.
 f1.keywords:
 - CSH
 ms.custom: ms.teamsadmincenter.dashboard.trainingvideos.enduserteamstraining
 ROBOTS: NOINDEX
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: f9b4175769ea9d6cc57167c086b28ee5ef4e742d
-ms.sourcegitcommit: 67324fe43f50c8414bb65c52f5b561ac30b52748
+ms.openlocfilehash: b030ed9efd92a33ef38029088edcd8e2cf6023b5
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/08/2021
-ms.locfileid: "60850528"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392897"
 ---
 # <a name="teams-in-30"></a>Teams von 30
 <div id="main" class="v2">
     <div class="container">
-        <p>Microsoft möchte Sie zu <strong>Teams in 30</strong>einladen, einer Reihe von interaktiven Live-Workshops, die mittelständische Organisationen (500 bis 5000 Mitarbeiter) in bis zu 30 Tagen mit Microsoft Teams an den Laufen halten sollen. Nehmen Sie an uns teil, um bewährte Anleitungen und bewährte Methoden zu erhalten und Teams Antworten auf Ihre Fragen zu erhalten. Workshopteilnehmer erhalten darüber hinaus eine exklusive Einladung für Freisprechstunden mit einem Teams Experten.
-           <p><font color="#6264A7">Sind Sie bereit zum Springen?</font> Wir empfehlen allen Mitgliedern Ihres Projektteams, mit der Zusammenarbeit Erste Schritte <i>30-Teams zu</i> beginnen. Klicken Sie unten auf einen Sitzungstitel, um sich zu registrieren.
+        <p>Microsoft lädt Sie zu <strong>Teams in 30</strong>, einer Reihe von interaktiven Live-Workshops ein, die mittelständische Organisationen (500 bis 5000 Mitarbeiter) in bis zu 30 Tagen mit Microsoft Teams an den Laufen halten sollen. Nehmen Sie an uns teil, um bewährte Anleitungen und bewährte Methoden zu erhalten und Antworten Teams Fragen zu erhalten. Workshopteilnehmer erhalten außerdem eine exklusive Einladung für Freisprechstunden mit einem Teams Experten.
+           <p>Sind Sie bereit zum Springen? Wir empfehlen allen Mitgliedern Ihres Projektteams, mit der Zusammenarbeit Erste Schritte <i>30-Teams zu</i> beginnen. Klicken Sie unten auf einen Sitzungstitel, um sich zu registrieren.
  <ul id="home-all" class="panelContent cardsF cols cols2">        
     <li>
         <a href="https://aka.ms/GetstartedT30"target="_blank">
@@ -44,8 +44,8 @@ ms.locfileid: "60850528"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Erste Schritte mit Teams in 30 (Hier beginnen!)</h3>
-                        <P>Beginnen Sie Teams mit 30 auf dem rechten Fuß. Verstehen Sie das Programm, wer teilnehmen soll und welche Ressourcen Sie verwenden können, um Ihren Erfolg zu gewährleisten.</P>
+                        <h3>Erste Schritte mit Teams in 30 (Hier starten!)</h3>
+                        <P>Beginnen Sie Teams 30er-Reise auf dem rechten Fuß. Verstehen Sie das Programm, wer teilnehmen soll und welche Ressourcen Sie verwenden können, um Ihren Erfolg zu gewährleisten.</P>
                         <p><i>Zielgruppe: Business-Sponsoren, IT-Administratoren, Einführung und Besitzer ändern</i></p>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ ms.locfileid: "60850528"
                     </div>
                     <div class="cardText">
                         <h3>Bereitschaft Ihrer Endbenutzer</h3>
-                    <p>Entdecken Sie Strategien und Ressourcen für die Bereitstellung Ihrer Benutzer, erstellen Sie eine Großeinnahme von Anwendern, und stellen Sie sicher, dass die Benutzerakzeptanz als zentrale Komponente Ihres Teams wird.</p><p><i>Zielgruppe: Einführung und Ändern der Besitzer</i></p>
+                    <p>Entdecken Sie Strategien und Ressourcen für die Bereitstellung Ihrer Benutzer, erstellen Sie eine große Anzahl von Anwendern, und stellen Sie sicher, dass die Benutzerakzeptanz als Kernkomponente Ihres Teams wird.</p><p><i>Zielgruppe: Einführung und Ändern der Besitzer</i></p>
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@ ms.locfileid: "60850528"
                     </div>
                     <div class="cardText">
                     <h3>Vorbereiten der Umgebung – Teil I</h3>
-                    <p>Legen Sie die Grundlage für Ihr Teams Ihres Rollouts. Identifizieren Teams Voraussetzungen, bewährte Methoden für Netzwerke und Sicherheit, Richtlinien für die Koexistenz, Analysen und Berichte sowie Empfehlungen zur Clientverteilung.</p><p><i>Zielgruppe: IT-Administratoren</i></p>
+                    <p>Legen Sie die Grundlage für Das Rollout Teams Ihres Kontos. Identifizieren Teams Voraussetzungen, bewährte Methoden für Netzwerke und Sicherheit, Richtlinien für die Koexistenz, Analysen und Berichte sowie Empfehlungen zur Clientverteilung.</p><p><i>Zielgruppe: IT-Administratoren</i></p>
 </div>
                 </div>
             </div>
@@ -142,7 +142,7 @@ ms.locfileid: "60850528"
                     <div class="cardText">
                     <h3>Teams Kreidegespräche</h3>
                     <p>Diese interaktiven Onlineworkshops, die von Fachleuten unterstützt werden, bieten eine einzigartige Gelegenheit, bewährte Methoden und praktische Anleitungen zu einigen der beliebtesten und interessantesten Szenarien in Teams. Kreidegespräche gehen davon aus, dass Sie eine grundlegende Einführung Teams haben.</p>
-                    <p><strong>Voraussetzung:</strong>Teams teilnahme an 30 Workshop-Arbeiten ODER bereits für Teams Organisation aktiviert.</p>
+                    <p><strong>Voraussetzung</strong>: Teams an 30 Workshop-Teilnahmen teilnehmen ODER bereits für Teams Organisation aktiviert sind.</p>
                     <p><i>Zielgruppe: IT-Administratoren</i></p>
                     </div>
                 </div>
