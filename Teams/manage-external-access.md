@@ -21,22 +21,22 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 5a52e479b7dd813af786c33e494675fe7b8e9743
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61766608"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388097"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
-Der externe Zugriff ermöglicht es Microsoft Teams-Benutzern von außerhalb Ihrer Organisation, in Microsoft Teams nach Ihnen zu suchen, mit Ihnen zu telefonieren und zu chatten sowie Besprechungen einzurichten. Über externen Zugriff können Sie auch mit Personen aus anderen Organisationen kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype (in der Vorschau) verwenden.
+Der externe Zugriff ermöglicht es Microsoft Teams-Benutzern von außerhalb Ihrer Organisation, in Microsoft Teams nach Ihnen zu suchen, mit Ihnen zu telefonieren und zu chatten sowie Besprechungen einzurichten. Über externen Zugriff können Sie auch mit Personen aus anderen Organisationen kommunizieren, die noch Skype for Business (online oder lokal) bzw. Skype verwenden.
 
 Wenn Sie externen Benutzern hingegen den Zugriff auf Ihre Teams und Kanäle gewähren möchten, verwenden Sie stattdessen den Gastzugriff. Weitere Informationen zu den Unterschieden zwischen externem Zugriff und Gastzugriff finden Sie unter [Vergleich von externem Zugriff und Gastzugriff](communicate-with-users-from-other-organizations.md#compare-external-and-guest-access). 
 
 Verwenden Sie den externen Zugriff in folgenden Situationen:
   
-- Verschiedene Benutzer in externen Domänen müssen zusammenarbeiten können. Beispiel: Rob@contoso.com und Ann@northwindtraders.com arbeiten mit einigen anderen Personen in den Domänen „contoso.com" und „northwindtraders.com" an einem Projekt zusammen.
+- Verschiedene Benutzer in externen Domänen müssen chatten können. Beispiel: Rob@contoso.com und Ann@northwindtraders.com arbeiten mit einigen anderen Personen in den Domänen „contoso.com“ und „northwindtraders.com“ an einem Projekt zusammen.
 
 - Sie möchten den Personen in Ihrer Organisation die Möglichkeit geben, Microsoft Teams zu verwenden, um Personen in bestimmten Unternehmen außerhalb Ihrer Organisation zu kontaktieren.
 
@@ -44,30 +44,36 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 
 ## <a name="plan-for-external-access"></a>Plan für externen Zugriff
 
-Der externe Zugriff ist in Teams standardmäßig aktiviert. Das bedeutet, dass Ihre Organisation mit allen externen Domänen kommunizieren kann. Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Die Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zugelassen werden. Es gibt drei Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center (**Benutzer** > **Externer Zugriff**):
+Richtlinien für externen Zugriff umfassen Steuerelemente für jeden Verbundtyp sowohl auf Organisationsebene als auch auf Benutzerebene. Durch das Deaktivieren einer Richtlinie auf Organisationsebene wird sie für alle Benutzer deaktiviert, unabhängig von der Einstellung auf Benutzerebene. Alle Einstellungen für externen Zugriff sind standardmäßig aktiviert.
+
+Das Teams Admin Center steuert den externen Zugriff auf Organisationsebene. Wenn Sie den externen Zugriff auf Benutzerebene steuern möchten, müssen Sie PowerShell verwenden. Weitere Informationen finden Sie weiter unten unter [Verwenden von PowerShell](#using-powershell).
+
+> [!NOTE]
+> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können Personen außerhalb Ihrer Organisation an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](meeting-settings-in-teams.md).
 
 > [!NOTE]
 > Benutzer von Microsoft Teams können Apps hinzufügen, wenn sie Besprechungen oder Chats mit Personen aus anderen Organisationen hosten. Sie können auch Apps verwenden, die von Personen in anderen Organisationen freigegeben werden, wenn sie an Besprechungen oder Chats teilnehmen, die von diesen Organisationen gehostet werden. Es werden die Datenrichtlinien der Organisation des Hostingbenutzers sowie die Datenfreigabemethoden von Drittanbieter-Apps, die von der Organisation dieses Benutzers freigegen werden, angewendet.
 
-> [!NOTE]
-> Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können externe Benutzer an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](meeting-settings-in-teams.md).
+## <a name="allow-or-block-domains"></a>Zulassen oder Blockieren von Domänen
+
+Wenn Sie blockierte Domänen hinzufügen, sind alle anderen Domänen zulässig, und wenn Sie zulässige Domänen hinzufügen, werden alle anderen Domänen blockiert. Die Ausnahme von dieser Regel ist, wenn anonyme Teilnehmer in Besprechungen zugelassen werden. Es gibt vier Szenarien für das Einrichten des externen Zugriffs im Microsoft Teams Admin Center (**Benutzer** > **Externer Zugriff**):
 
 - **Alle externen Domänen zulassen**: Dies ist die Standardeinstellung in Microsoft Teams, die es Personen in Ihrer Organisation erlaubt, nach Personen in einer beliebigen Domäne außerhalb Ihrer Organisation zu suchen, mit ihnen zu telefonieren oder zu chatten und Besprechungen einzurichten.
 
-    In diesem Szenario können Ihre Benutzer mit allen externen Domänen kommunizieren, die Microsoft Teams oder Skype for Business ausführen bzw. externe Domänen zulassen oder Ihre Domäne zu ihrer Zulassungsliste hinzugefügt haben.
+    In diesem Szenario können Ihre Benutzer mit allen externen Domänen kommunizieren, die Microsoft Teams oder Skype for Business ausführen, sofern der andere Mandant die externe Kommunikation ebenfalls erlaubt.
+    
+- **Nur bestimmte externe Domänen zulassen**: Durch das Hinzufügen von Domänen zu einer **Zulassungsliste** beschränken Sie den externen Zugriff auf diese erlaubten Domänen. Sobald Sie eine Liste der erlaubten Domänen eingerichtet haben, werden alle anderen Domänen gesperrt. 
 
-- **Nur bestimmte externe Domänen zulassen**: Durch das Hinzufügen von Domänen zu einer **Zulassungsliste** beschränken Sie den externen Zugriff auf diese erlaubten Domänen. Sobald Sie eine Liste der erlaubten Domänen eingerichtet haben, werden alle anderen Domänen gesperrt. Um bestimmte Domänen zuzulassen, klicken Sie auf **Domäne hinzufügen**, fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne**, und wählen Sie dann **Zulässig** aus.
-
-- **Bestimmte Domänen blockieren**: Indem Sie Domänen zu einer **Sperrliste** hinzufügen, können Sie mit allen externen Domänen *außer* den blockierten Domänen kommunizieren. Um bestimmte Domänen zu blockieren, klicken Sie auf **Domäne hinzufügen**, fügen Sie den Domänennamen hinzu, klicken Sie auf **Erforderliche Aktion für diese Domäne**, und wählen Sie dann **Blockiert** aus. Sobald Sie eine Liste blockierter Domänen erstellt haben, werden alle anderen Domänen zugelassen.
+- **Bestimmte Domänen blockieren**: Indem Sie Domänen zu einer **Sperrliste** hinzufügen, können Sie mit allen externen Domänen *außer* den blockierten Domänen kommunizieren.  Sobald Sie eine Liste blockierter Domänen erstellt haben, werden alle anderen Domänen zugelassen.
 
 - **Alle externen Domänen blockieren**: Verhindert, dass Personen in Ihrer Organisation nach Personen in einer Domäne außerhalb Ihrer Organisation suchen, mit ihnen telefonieren, chatten und Besprechungen einrichten.
 
 > [!NOTE]
 > Die zugelassenen oder blockierten Domänen werden auf Besprechungen nur dann angewendet, wenn der anonyme Zugriff auf Besprechungen deaktiviert ist.
 
-## <a name="allow-or-block-domains"></a>Zulassen oder Blockieren von Domänen
+![Screenshot der Einstellungen für externe Domänen](./media/external-access-domain-settings.png)
 
-  **Verwenden des Microsoft Teams Admin Centers**
+**Verwenden des Microsoft Teams Admin Centers**
 
 Vorgehensweise, um bestimmte Domänen zuzulassen
 
@@ -97,13 +103,35 @@ Vorgehensweise, um bestimmte Domänen zu blockieren
 
 6. Klicken Sie auf **Speichern**.
 
-Stellen Sie sicher, dass der Administrator in der anderen Microsoft Teams-Organisation die gleichen Schritte ausführt. Ist in der anderen Organisation beispielsweise die Kommunikation mit Benutzern anderer Organisationen eingeschränkt, muss der Administrator der anderen Organisation die Domäne Ihres Unternehmens zur Liste der **zulässigen Domänen** hinzufügen.
+Um mit einem anderen Mandanten zu kommunizieren, muss dieser entweder **Alle externen Domänen zulassen** aktivieren oder Ihren Mandanten zu seiner Liste der zulässigen Domänen hinzufügen, indem er die oben beschriebenen Schritte ausführt.  
 
-## <a name="communicate-with-skype-users-preview"></a>Kommunizieren mit Skype-Benutzern (Vorschau)
+## <a name="manage-contact-with-external-teams-users-not-managed-by-an-organization"></a>Verwalten von Kontakten mit externen Teams-Benutzern, die nicht von einer Organisation verwaltet werden
+
+Administratoren können die Kommunikation mit externen Teams-Benutzern, die nicht von einer Organisation verwaltet werden („nicht verwaltet“) aktivieren oder deaktivieren. Wenn diese Funktion aktiviert ist, können sie auch noch steuern, ob Personen mit nicht verwalteten Teams-Konten Kontakte initiieren können (siehe folgende Abbildung). Wenn die Option **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren** deaktiviert ist, können nicht verwaltete Teams-Benutzer nicht die vollständige E-Mail-Adresse durchsuchen, um Kontakte in der Organisation zu finden, und die gesamte Kommunikation mit nicht verwalteten Teams-Benutzern muss von Benutzern der Organisation initiiert werden.
+
+Wechseln Sie im Microsoft Teams Admin Center zu **Benutzer** > **Externer Zugriff**.
+
+![Screenshot der Einstellungen für externe Konten](./media/external-access-accounts-not-managed-by-org.png)
+
+So hindern Sie Teams-Benutzer in Ihrer Organisation an der Kommunikation mit externen Teams-Benutzern, deren Konten nicht von einer Organisation verwaltet werden:
+1. Deaktivieren Sie die Einstellung **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden**.
+2. Deaktivieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
+
+So erlauben Sie Teams-Benutzern in Ihrer Organisation die Kommunikation mit externen Teams-Benutzern, deren Konten nicht von einer Organisation verwaltet werden, sofern Ihre Teams-Benutzer den Kontakt initiiert haben:
+1. Aktivieren Sie die Einstellung **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden**.
+2. Deaktivieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
+
+So erlauben Sie Teams-Benutzern in Ihrer Organisation die Kommunikation mit externen Teams-Benutzern, deren Konten nicht von einer Organisation verwaltet werden, sowie den Empfang von Kommunikationsanforderungen von diesen externen Teams-Benutzern:
+1. Aktivieren Sie die Einstellung **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden**.
+2. Aktivieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
+
+## <a name="communicate-with-skype-users"></a>Kommunizieren mit Skype-Benutzern
 
 Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisation mit Skype-Benutzern chatten und diese anrufen können. Teams-Benutzer können dann nach schriftlichen Einzelunterhaltungen oder Audio/Video-Anrufen mit Skype-Benutzern suchen und diese starten.
 
-  **Verwenden des Microsoft Teams Admin Centers**
+![Screenshot der Einstellung für Skype-Benutzer](./media/external-access-skype-settings.png)
+
+**Verwenden des Microsoft Teams Admin Centers**
 
 1. Navigieren Sie im linken Navigationsbereich zu **Benutzer** > **Externer Zugriff**.
 
@@ -111,42 +139,35 @@ Führen Sie die folgenden Schritte aus, damit Teams-Benutzer in Ihrer Organisati
 
 Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams- und Skype-Benutzern, einschließlich der Einschränkungen, finden Sie unter [Interoperabilität von Teams und Skype](teams-skype-interop.md).
 
-## <a name="block-unsolicited-contact-with-external-unmanaged-teams-users"></a>Unerwünschte Kontakt mit externen, nicht verwalteten Teams-Benutzern blockieren
+## <a name="using-powershell"></a>Verwendung von PowerShell
 
-Führen Sie diese Schritte aus, um Teams-Benutzer in Ihrer Organisation vor unerwünschten Kontakten mit externen Teams-Benutzern zu schützen, deren Konten nicht von einer Organisation verwaltet werden.
+Einstellungen auf Organisationsebene können mit [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) konfiguriert werden, und Einstellungen auf Benutzerebene können mit [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) konfiguriert werden.
 
-  **Verwenden des Microsoft Teams Admin Centers**
+Die folgende Tabelle zeigt die Cmdletparameter, die zum Konfigurieren des Partnerverbunds verwendet werden. Beachten Sie, dass das Konfigurieren des Partnerverbunds mit bestimmten Domänen nur auf Organisationsebene und nicht auf Benutzerebene erfolgen kann.
 
-1. Navigieren Sie im linken Navigationsbereich zu **Benutzer** > **Externer Zugriff**.
+|Konfiguration|Organisationsebene (Set-CSTenantFederationConfiguration)|Benutzerebene (Set-CsExternalAccessPolicy)|
+|:-------|:--------|:------------------|
+|Aktivieren/Deaktivieren des Partnerverbunds mit anderen Teams-Organisationen und Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
+|Aktivieren des Partnerverbunds mit bestimmten Domänen|`-AllowedDomains`|–|
+|Deaktivieren des Partnerverbunds mit bestimmten Domänen|`-Blocked Domains`|–|
+|Aktivieren/Deaktivieren des Partnerverbunds mit Teams-Benutzern, die nicht von einer Organisation verwaltet werden|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
+|Aktivieren/Deaktivieren der Möglichkeit für Teams-Benutzer, die nicht von einer Organisation verwaltet werden, Unterhaltungen zu initiieren|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
+|Aktivieren/Deaktivieren des Partnerverbunds mit Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-2. Führen Sie einen der folgenden Schritte durch:
+Es ist wichtig zu beachten, dass beim Deaktivieren einer Richtlinie ein „Rolldown“ von Mandant auf Benutzer erfolgt. Zum Beispiel: 
 
-    - Um zu verhindern, dass Teams-Benutzer in Ihrer Organisation mit externen Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden, deaktivieren Sie die Einstellung **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** und löschen Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
+```PowerShell
+Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
+Set-CsExternalAccessPolicy -EnableFederationAccess $true
+```
 
-    - Damit Teams-Benutzer in Ihrer Organisation mit externen Teams-Benutzern kommunizieren können, deren Konten nicht von einer Organisation verwaltet werden, wenn Ihre Teams-Benutzer den Kontakt initiiert haben, aktivieren Sie die Einstellung **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** und löschen Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
-
-    - Damit Teams-Benutzer in Ihrer Organisation mit externen Teams-Benutzern kommunizieren können, deren Konten nicht von einer Organisation verwaltet werden, und Anforderungen zur Kommunikation mit diesen externen Teams-Benutzern erhalten, aktivieren Sie die Einstellung **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** und markieren Sie das Kontrollkästchen **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.
-
-## <a name="test-access"></a>Zugriff testen
-
-Um Ihr Setup zu testen, benötigen Sie einen Microsoft Teams-Benutzer, der sich nicht hinter der Firewall befindet.
-  
-1. Nachdem Sie und der Administrator der Organisation die Einstellungen für den **externen Zugriff** geändert haben, sollte es funktionieren.
-
-2. Suchen Sie in der Teams-App anhand der E-Mail-Adresse nach der Person, und senden Sie eine Chatanfrage.
-
-3. Bitten Sie Ihren Microsoft Teams-Kontakt, Ihnen eine Chatanfrage zu senden. Wenn Sie die Anfrage nicht erhalten, liegt das Problem bei den Firewalleinstellungen (vorausgesetzt, Ihr Kontakt hat die eigenen Firewalleinstellungen bereits überprüft).
-
-4. Eine weitere Möglichkeit zu testen, ob das Problem bei der Firewall liegt, besteht darin, an einen WLAN-Standort zu wechseln, der sich nicht hinter Ihrer Firewall befindet (zum Beispiel ein Café). Senden Sie von dort mit Skype for Business eine Chatanfrage an Ihren Kontakt. Wenn die Nachricht zugestellt werden kann, an Ihrem Arbeitsplatz aber nicht, wissen Sie, dass die Firewall das Problem darstellt.
-
-> [!NOTE]
-> Wenn Sie und ein anderer Benutzer sowohl den externen Zugriff aktivieren als auch die Domänen des anderen zulassen, funktioniert das. Wenn es nicht funktioniert, sollte der andere Benutzer sich vergewissern, dass seine Konfiguration Ihre Domäne nicht blockiert.
+In diesem Beispiel können Benutzer nicht mit verwalteten Teams-Benutzern oder Skype for Business-Benutzern kommunizieren, obwohl die Richtlinie auf Benutzerebene aktiviert ist, da dieser Verbundtyp auf Organisationsebene deaktiviert wurde. Wenn Sie diese Steuerelemente für eine Teilmenge von Benutzern aktivieren möchten, müssen Sie daher das Steuerelement auf Organisationsebene aktivieren und zwei Gruppenrichtlinien erstellen – eine, die für die Benutzer gilt, für die das Steuerelement deaktiviert werden soll, und eine, die für die Benutzer gilt, für die das Steuerelement aktiviert sein soll.
 
 ## <a name="limit-external-access-to-specific-people"></a>Einschränken des externen Zugriffs auf bestimmte Personen
 
-Wenn Sie die Option **Benutzer in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** aktivieren, können Sie den externen Zugriff auf bestimmte Personen mithilfe von PowerShell einschränken.
+Wenn Sie Steuerelemente für externen Zugriff auf Organisationsebene aktiviert haben, können Sie den externen Zugriff mithilfe von PowerShell auf bestimmte Benutzer beschränken.
 
-Sie können das folgende Beispielskript verwenden, indem Sie *PolicyName* durch den Namen ersetzen, den Sie der Richtlinie zuweisen möchten, und *UserName* für jeden Benutzer, den Sie für den externen Zugriff verwenden möchten.
+Sie können das folgende Beispielskript verwenden: Ersetzen Sie dabei *Control* durch das Steuerelement, das Sie ändern möchten, *PolicyName* durch den Namen, den Sie der Richtlinie geben möchten, und *UserName* durch die einzelnen Benutzer, für die Sie den externen Zugriff aktivieren/deaktivieren möchten.
 
 Stellen Sie sicher, dass Sie das [Microsoft Teams PowerShell-Modul](/microsoftteams/teams-powershell-install) installiert haben, bevor Sie das Skript ausführen.
 
@@ -154,10 +175,10 @@ Stellen Sie sicher, dass Sie das [Microsoft Teams PowerShell-Modul](/microsoftte
 Connect-MicrosoftTeams
 
 # Disable external access globally
-Set-CsExternalAccessPolicy -EnableTeamsConsumerAccess $false
+Set-CsExternalAccessPolicy -<Control> $false
 
 # Create a new external access policy
-New-CsExternalAccessPolicy -Identity <PolicyName> -EnableTeamsConsumerAccess $true
+New-CsExternalAccessPolicy -Identity <PolicyName> -<Control> $true
 
 # Assign users to the policy
 $users_ids = @("<UserName1>", "<UserName2>")
@@ -165,7 +186,7 @@ New-CsBatchPolicyAssignmentOperation -PolicyType ExternalAccessPolicy -PolicyNam
 
 ```
 
-Zum Beispiel: 
+So ermöglichen Sie z. B. die Kommunikation mit externen Teams-Benutzern, die nicht von einer Organisation verwaltet werden:
 
 ```PowerShell
 Connect-MicrosoftTeams
@@ -183,32 +204,43 @@ Weitere Beispiele zum Kompilieren einer Benutzerliste finden Sie unter [New-CsBa
 
 Sie können die neue Richtlinie anzeigen, indem Sie `Get-CsExternalAccessPolicy` ausführen.
 
-
 Siehe auch [New-CsExternalAccessPolicy](/powershell/module/skype/new-csexternalaccesspolicy) und [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy).
 
 ## <a name="common-external-access-scenarios"></a>Häufige Szenarien für den externen Zugriff
 
 In den folgenden Abschnitten wird beschrieben, wie Sie den Partnerverbund für gängige externe Zugriffsszenarien aktivieren und wie die TeamsUpgradePolicy die Zustellung eingehender Chats und Anrufe bestimmt.
 
-### <a name="enable-federation"></a>Aktivieren des Partnerverbunds
+### <a name="enable-federation-between-users-in-your-organization-and-other-organizations"></a>Aktivieren des Partnerverbunds zwischen Benutzern in Ihrer Organisation und anderen Organisationen
 
 Damit Benutzer in Ihrer Organisation mit Benutzern in einer anderen Organisation kommunizieren können, müssen beide Organisationen den Partnerverbund aktivieren. Die Schritte zur Aktivierung des Partnerverbunds für eine bestimmte Organisation hängen davon ab, ob es sich um eine reine Online-, eine Hybrid- oder eine reine lokale Organisation handelt.
 
 | Wenn Ihre Organisation | Aktivieren Sie den Partnerverbund wie folgt |
 |:---------|:-----------------------|
-|Online ohne lokales Skype for Business. Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern.| Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass die Domänen, mit denen Sie kommunizieren möchten, in "Externer Zugriff" zulässig sind.<br><br>Wird PowerShell verwendet:<br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowFederatedUsers=true` anzeigen. <br>– Stellen Sie sicher, dass der effektive Wert `CsExternalAccessPolicy` des Benutzers `EnableFederationAccess=true` aufweist.<br>– Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` von `CsTenantFederationConfiguration` enthalten ist. |
-|Reine lokale Organisation | In lokalen Tools: <br>– Stellen Sie sicher, dass der Partnerverbund in `CsAccessEdgeConfiguration` aktiviert ist.<br>– Stellen Sie sicher, dass der Partnerverbund für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie). <br> – Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` enthalten ist. |
+|Online ohne lokales Skype for Business. Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern.| Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass die Domänen, mit denen Sie kommunizieren möchten, für den externen Zugriff zulässig sind.<br><br>Wird PowerShell verwendet:<br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowFederatedUsers=true` anzeigen. <br>– Stellen Sie sicher, dass der effektive Wert von `CsExternalAccessPolicy` auf `EnableFederationAccess=true` festgelegt ist.<br>– Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` von `CsTenantFederationConfiguration` enthalten ist. |
+|Nur lokal| In lokalen Tools: <br>– Stellen Sie sicher, dass der Partnerverbund in `CsAccessEdgeConfiguration` aktiviert ist.<br>– Stellen Sie sicher, dass der Partnerverbund für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie). <br> – Wenn Sie keinen offenen Verbund verwenden, stellen Sie sicher, dass die Zieldomäne in `AllowedDomains` enthalten ist.|
 |Hybridorganisation mit einigen Onlinebenutzern (entweder in Skype for Business oder Teams) und einigen lokalen Benutzern. | Führen Sie die oben stehenden Schritte sowohl für die Online- als auch die lokale Organisation aus. |
 
 ### <a name="delivery-of-incoming-chats-and-calls"></a>Zustellung von eingehenden Chats und Anrufen 
 
-Eingehende Chats und Anrufe von einer Verbundorganisation landen im Teams- oder Skype for Business-Client des Benutzers, je nach dem Modus des empfangenden Benutzers in TeamsUpgradePolicy.
+Eingehende Chats und Anrufe von einer Verbundorganisation landen im Teams- oder Skype for Business-Client des Benutzers, je nach dem Modus des empfangenden Benutzers in „TeamsUpgradePolicy“.
 
 | Sie möchten | Gehen Sie so vor: |
 |:---------|:-----------------------|
-| Sicherstellen, dass eingehende Verbundchats und -anrufe im Teams-Client des Benutzers ankommen: | Konfigurieren Sie für Ihre Benutzer den „TeamsOnly“-Modus.
-| Sicherstellen, dass eingehende Verbundchats und -anrufe im Skype for Business-Client des Benutzers ankommen: | Konfigurieren Sie für Ihre Benutzer einen beliebigen Modus außer „TeamsOnly“. |
+|Sicherstellen, dass eingehende Verbundchats und -anrufe im Teams-Client des Benutzers ankommen|Konfigurieren Sie für Ihre Benutzer den „TeamsOnly“-Modus.
+|Sicherstellen, dass eingehende Verbundchats und -anrufe im Skype for Business-Client des Benutzers ankommen|Konfigurieren Sie für Ihre Benutzer einen beliebigen Modus außer „TeamsOnly“.|
 
+### <a name="enable-federation-between-users-in-your-organization-and-unmanaged-teams-users"></a>Aktivieren des Partnerverbunds zwischen Benutzern in Ihrer Organisation und nicht verwalteten Teams-Benutzern
+
+So aktivieren Sie den Partnerverbund zwischen Benutzern in Ihrer Organisation und nicht verwalteten Teams-Benutzern:
+
+| Wenn Ihre Organisation | Aktivieren Sie den Partnerverbund wie folgt |
+|:---------|:-----------------------|
+|Online ohne lokales Skype for Business. Dazu gehören Organisationen mit „Nur Teams“-Benutzern und/oder Skype for Business Online-Benutzern.| Wird Teams Admin Center verwendet:<br>– Stellen Sie sicher, dass **Personen in meiner Organisation können mit Teams-Benutzern kommunizieren, deren Konten nicht von einer Organisation verwaltet werden** in **Externer Zugriff** aktiviert ist.<br>– Wenn Sie möchten, dass nicht verwaltete Teams-Konten Chats initiieren können, aktivieren Sie das Kontrollkästchen für **Externe Benutzer mit Teams-Konten, die nicht von einer Organisation verwaltet werden, können Benutzer in meiner Organisation kontaktieren**.<br><br>Wird PowerShell verwendet:<br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowTeamsConsumer=true` anzeigen.<br>– Stellen Sie sicher, dass der effektive Wert von `CsExternalAccessPolicy` auf `EnableTeamsConsumerAccess=true` festgelegt ist.<br>– Stellen Sie sicher, dass der Mandant aktiviert ist, damit nicht verwaltete Benutzer Chats initiieren können: `Get-CsTenantFederationConfiguration` muss auf `AllowTeamsConsumerInbound=true` festgelegt sein.<br>– Stellen Sie sicher, dass der effektive Wert von `CsExternalAccessPolicy` auf `EnableTeamsConsumerInbound=true` festgelegt ist.|
+|Nur lokal| Das Chatten mit nicht verwalteten Teams-Benutzern wird für lokale Organisationen nicht unterstützt.|
+|Hybridorganisation mit einigen Onlinebenutzern (entweder in Skype for Business oder Teams) und einigen lokalen Benutzern. | Führen Sie die zuvor beschriebenen Schritte für Onlineorganisationen aus. Beachten Sie, dass das Chatten mit nicht verwalteten Teams-Benutzern für lokale Benutzer nicht unterstützt wird.|
+
+> [!IMPORTANT]
+> Sie müssen keine **Teams-Domänen** als zulässige Domänen hinzufügen, um es Teams-Benutzern zu ermöglichen, mit nicht verwalteten Teams-Benutzern von außerhalb Ihrer Organisation zu kommunizieren. Es sind alle **nicht verwalteten Teams-Domänen** zulässig.
 
 ### <a name="enable-federation-between-users-in-your-organization-and-consumer-users-of-skype"></a>Aktivieren des Partnerverbunds zwischen Benutzern in Ihrer Organisation und Endbenutzern von Skype
 
@@ -216,10 +248,9 @@ So aktivieren Sie den Partnerverbund zwischen Benutzern in Ihrer Organisation un
 
 | Wenn Ihre Organisation | Aktivieren Sie den Verbraucherverbund wie folgt |
 |:---------|:-----------------------|
-| Nur online ohne lokales Skype for Business.  Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern. | Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass **Benutzern in meiner Organisation erlauben, mit Skype-Benutzern zu kommunizieren** in "Externer Zugriff" aktiviert ist.<br><br>Wird PowerShell verwendet: <br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowPublicUsers=true` anzeigen. <br> – Stellen Sie sicher, dass der effektive Wert `CsExternalAccessPolicy` des Benutzers `EnablePublicCloudAccess=true` aufweist. |
-| Reine lokale Organisation | In lokalen Tools: <br> – Stellen Sie sicher, dass Skype als Verbundpartner aktiviert ist. <br> – Stellen Sie sicher, dass der `EnablePublicCloudAccess=true` für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie).|
+|Online nur ohne lokales Skype for Business. Dazu gehören Organisationen mit TeamsOnly-Benutzern und/oder Skype for Business Online-Benutzern. | Wird Teams Admin Center verwendet: <br>– Stellen Sie sicher, dass **Benutzern in meiner Organisation erlauben, mit Skype-Benutzern zu kommunizieren** in "Externer Zugriff" aktiviert ist.<br><br>Wird PowerShell verwendet: <br>– Stellen Sie sicher, dass der Mandant für den Verbund aktiviert ist: `Get-CsTenantFederationConfiguration` muss `AllowPublicUsers=true` anzeigen. <br> – Stellen Sie sicher, dass der effektive Wert von `CsExternalAccessPolicy` auf `EnablePublicCloudAccess=true` festgelegt ist. |
+|Nur lokal| In lokalen Tools: <br> – Stellen Sie sicher, dass Skype als Verbundpartner aktiviert ist. <br> – Stellen Sie sicher, dass der `EnablePublicCloudAccess=true` für den Benutzer über `ExternalAccessPolicy` aktiviert ist (entweder über die globale Richtlinie, die Standortrichtlinie oder die dem Benutzer zugewiesene Richtlinie).|
 | Hybridorganisation mit einigen Onlinebenutzern (entweder in Skype for Business oder Teams) und einigen lokalen Benutzern.| Führen Sie die oben stehenden Schritte sowohl für die Online- als auch die lokale Organisation aus.
-
 
 > [!IMPORTANT]
 > Sie müssen keine **Skype-Domänen** als zulässige Domänen hinzufügen, um es Microsoft Teams- oder Skype for Business Online-Benutzern zu ermöglichen, mit Skype-Benutzern innerhalb oder außerhalb Ihrer Organisation zu kommunizieren. Es sind alle **Skype-Domänen** zulässig.
@@ -240,4 +271,4 @@ Wenn Sie ein Administrator sind, können Sie mit dem folgenden Diagnosetool übe
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Native Chaterfahrung für externe Benutzer (im Verbund)](native-chat-for-external-users.md)
+[Native Chaterfahrung für externe Benutzer (im Verbund)](native-chat-for-external-users.md)

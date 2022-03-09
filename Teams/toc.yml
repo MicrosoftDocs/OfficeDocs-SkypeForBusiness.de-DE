@@ -365,7 +365,7 @@ items:
                 href: guest-access.md
               - name: Gast-Erfahrung
                 href: guest-experience.md
-              - name: Aktivieren oder Deaktivieren des Gastzugriffs
+              - name: Aktivieren und Deaktivieren des Gastzugriffs
                 href: set-up-guests.md
               - name: Anzeigen von Gästen in einem Team
                 href: view-guests.md
