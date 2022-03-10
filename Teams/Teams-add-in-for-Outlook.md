@@ -19,12 +19,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ddd88bb34c383f5a712e7db1f946a156f68c1f4
-ms.sourcegitcommit: 59d209ed669c13807e38196dd2a2c0a4127d3621
+ms.openlocfilehash: c734fe5d6326d0fc4bfddfbc381d66339303d36e
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/05/2022
-ms.locfileid: "62389797"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63392873"
 ---
 # <a name="use-the-teams-meeting-add-in-in-outlook"></a>Verwenden des Microsoft Teams-Besprechungs-Add-Ins in Outlook
 
@@ -32,7 +32,7 @@ Mit dem Microsoft Teams-Besprechungs-Add-Ins können Benutzer eine Teambesprechu
 
 ## <a name="teams-meeting-add-in-in-outlook-for-windows"></a>Microsoft Teams-Besprechungs-Add-In in Outlook für Windows
 
-Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013, Office 2016 oder Office 2019 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
+Das Microsoft Teams-Besprechungs-Add-In wird für Benutzer, auf deren Windows-PC Microsoft Teams und entweder Office 2013, Office 2016, Office 2019 oder Office 2021 installiert ist, automatisch installiert. Die Benutzer sehen auf dem Menüband „Kalender“ in Outlook das Microsoft Teams-Besprechungs-Add-In.
 
 ![Screenshot des Teams-Besprechungs-Add-Ins auf dem Outlook-Menüband.](media/Teams-add-in-for-Outlook.png)
 
@@ -100,7 +100,7 @@ Kunden können [von Skype for Business auf Microsoft Teams](upgrade-and-coexiste
 
 Wenn Benutzer im Inselmodus eine Besprechung in Outlook planen, erwarten sie in der Regel, dass sie auswählen können, ob Sie eine Skype for Business- oder eine Microsoft Teams-Besprechung planen. In Outlook im Web, Outlook für Windows und Outlook für Mac werden Benutzern standardmäßig sowohl Skype for Business- als auch Microsoft Teams-Add-Ins angezeigt, wenn sie den Inselmodus verwenden. Sie können eine Richtlinieneinstellung für Microsoft Teams-Besprechungen konfigurieren, um zu steuern, ob Benutzer im Inselmodus nur das Microsoft Teams-Besprechungs-Add-In oder sowohl dieses als auch das Skype for Business-Besprechungs-Add-In verwenden können.
 
-Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile nur das Erstellen von Besprechungen in Skype for Business **oder** Microsoft Teams unterstützen. Details finden Sie in der folgenden Tabelle.
+Aufgrund bestimmter Einschränkungen in der ersten Version kann Outlook Mobile nur das Erstellen von Besprechungen in Skype for Business **oder** Microsoft Teams unterstützen. Details dazu finden Sie in der folgenden Tabelle.
 
 | Koexistenzmodus im Microsoft Teams Admin Center | Standardmäßiger Besprechungsanbieter in Outlook Mobile |
 | --------------------------------------|---------------------------------------------|

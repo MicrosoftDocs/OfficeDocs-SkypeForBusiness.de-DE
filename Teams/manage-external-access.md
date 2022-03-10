@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: 86a1b83ab0eb2d15810f94d61d0f7faccc226aa4
-ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
+ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
+ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
 ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/09/2022
-ms.locfileid: "63388097"
+ms.locfileid: "63392917"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -46,7 +46,7 @@ Verwenden Sie den externen Zugriff in folgenden Situationen:
 
 Richtlinien für externen Zugriff umfassen Steuerelemente für jeden Verbundtyp sowohl auf Organisationsebene als auch auf Benutzerebene. Durch das Deaktivieren einer Richtlinie auf Organisationsebene wird sie für alle Benutzer deaktiviert, unabhängig von der Einstellung auf Benutzerebene. Alle Einstellungen für externen Zugriff sind standardmäßig aktiviert.
 
-Das Teams Admin Center steuert den externen Zugriff auf Organisationsebene. Wenn Sie den externen Zugriff auf Benutzerebene steuern möchten, müssen Sie PowerShell verwenden. Weitere Informationen finden Sie weiter unten unter [Verwenden von PowerShell](#using-powershell).
+Das Teams Admin Center steuert den externen Zugriff auf Organisationsebene. Die meisten Optionen (mit Ausnahme von Domäneneinschränkungen) stehen mithilfe von PowerShell auf Benutzerebene zur Verfügung. Weitere Informationen finden Sie weiter unten unter [Verwenden von PowerShell](#using-powershell).
 
 > [!NOTE]
 > Wenn Sie den externen Zugriff in Ihrer Organisation deaktivieren, können Personen außerhalb Ihrer Organisation an Besprechungen dennoch über die anonyme Teilnahme teilnehmen. Weitere Informationen finden Sie unter [Verwalten von Besprechungseinstellungen in Teams](meeting-settings-in-teams.md).
@@ -143,18 +143,18 @@ Weitere Informationen über die Möglichkeiten der Kommunikation zwischen Teams-
 
 Einstellungen auf Organisationsebene können mit [Set-CSTenantFederationConfiguration](/powershell/module/skype/set-cstenantfederationconfiguration) konfiguriert werden, und Einstellungen auf Benutzerebene können mit [Set-CsExternalAccessPolicy](/powershell/module/skype/set-csexternalaccesspolicy) konfiguriert werden.
 
-Die folgende Tabelle zeigt die Cmdletparameter, die zum Konfigurieren des Partnerverbunds verwendet werden. Beachten Sie, dass das Konfigurieren des Partnerverbunds mit bestimmten Domänen nur auf Organisationsebene und nicht auf Benutzerebene erfolgen kann.
+Die folgende Tabelle zeigt die Cmdletparameter, die zum Konfigurieren des Partnerverbunds verwendet werden.
 
 |Konfiguration|Organisationsebene (Set-CSTenantFederationConfiguration)|Benutzerebene (Set-CsExternalAccessPolicy)|
 |:-------|:--------|:------------------|
 |Aktivieren/Deaktivieren des Partnerverbunds mit anderen Teams-Organisationen und Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
-|Aktivieren des Partnerverbunds mit bestimmten Domänen|`-AllowedDomains`|–|
-|Deaktivieren des Partnerverbunds mit bestimmten Domänen|`-Blocked Domains`|–|
+|Aktivieren des Partnerverbunds mit bestimmten Domänen|`-AllowedDomains`|Nicht verfügbar|
+|Deaktivieren des Partnerverbunds mit bestimmten Domänen|`-Blocked Domains`|Nicht verfügbar|
 |Aktivieren/Deaktivieren des Partnerverbunds mit Teams-Benutzern, die nicht von einer Organisation verwaltet werden|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Aktivieren/Deaktivieren der Möglichkeit für Teams-Benutzer, die nicht von einer Organisation verwaltet werden, Unterhaltungen zu initiieren|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Aktivieren/Deaktivieren des Partnerverbunds mit Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|
 
-Es ist wichtig zu beachten, dass beim Deaktivieren einer Richtlinie ein „Rolldown“ von Mandant auf Benutzer erfolgt. Zum Beispiel: 
+Es ist wichtig zu beachten, dass beim Deaktivieren einer Richtlinie ein „Rolldown“ von Mandant auf Benutzer erfolgt. Beispiel:
 
 ```PowerShell
 Set-CsTenantFederationConfiguration -AllowFederatedUsers $false
