@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: d91fb5f4c95fd63fda1d953c73ba26d105f05083
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 7c33126f02a4a3236fb451e8e9efc0103c68abdd
+ms.sourcegitcommit: 47b14f57bc64544d63aec67b023ead13c71342b4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392887"
+ms.lasthandoff: 03/10/2022
+ms.locfileid: "63418827"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams für Android-Geräte
 
@@ -223,22 +223,23 @@ Wenn Sie eine neue Firmwareversion auf Ihrem Gerät installieren, können Sie di
 
 | Gerätemodell  | Firmwareversion | Enthaltene Produktversion |
 |:--------------|:-----------------|:-------------------------|
+| Logi Chasbar    |   `1.5.705`   | Update 2022 #1    |
 | EXPAND Vision 3T |`1.2.4.22042.05`   | Update 2022 #1 |
 | AudioCodes RECEIVERV80 | `1.16.164 `   | Update 2022 #1 |
 | Yealink VC210 | `118.15.0.65`   | Update 2022 #1    |
 | Yealink MeetingBar A20 | `133.15.0.80 `   | Update 2022 #1   |
 | Yealink MeetingBar A30 | `133.15.0.80 `   | Update 2022 #1   |
-| Yealink CTP18 | ` 137.15.0.49 `    | Update 2022 #1   |
+| Yealink CTP18 | `137.15.0.49`    | Update 2022 #1   |
 | Poly Studio X30 | `3.9.0` | 2021 Update #2F   |
 | Poly Studio X50 | `3.9.0` | 2021 Update #2F   |
 | Poly TC8        | `3.9.0`          | 2021 Update #2F   |
 | Poly Studio X30 | `3.8.0`          | Update 2021 #2    |
 | Poly Studio X50 | `3.8.0`          | Update 2021 #2    |
 | Poly TC8        | `3.8.0`          | Update 2021 #2    |
-| Logi Chasbar    | 1.3.538         | 2021 Update #2B    |
-| Logi-Leiste Mini | 1.3.538       | 2021 Update #2B    |
-| Logi Chasbar    | 1.4.228         | 2021 Update #2B    |
-| Logi-Leiste Mini | 1.4.228       | 2021 Update #2B    |
+| Logi Chasbar    | `1.3.538`         | 2021 Update #2B    |
+| Logi-Leiste Mini | `1.3.538`       | 2021 Update #2B    |
+| Logi Chasbar    | `1.4.228`         | 2021 Update #2B    |
+| Logi-Leiste Mini | `1.4.228`       | 2021 Update #2B    |
 | Poly Studio X30 | `3.7.0`          | 2021 Update #2A    |
 | Poly Studio X50 | `3.7.0`          | 2021 Update #2A    |
 | Poly TC8        | `3.7.0`          | 2021 Update #2A    |
