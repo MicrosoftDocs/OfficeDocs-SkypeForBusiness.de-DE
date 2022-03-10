@@ -3,7 +3,7 @@ title: End-to-End-Verschlüsselung für Microsoft Teams
 author: kccross
 ms.author: krowley
 manager: laurawi
-ms.date: 10/23/2021
+ms.date: 03/08/2022
 ms.topic: conceptual
 ms.service: msteams
 audience: admin
@@ -19,21 +19,21 @@ ms.custom:
 - Security
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cdce0e30c1aaa3b40f362acda47c1a9ffa35161f
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: 202aee527896b331a6c8e64e1fc8736fa4942ecb
+ms.sourcegitcommit: fe71ecbe35b8adfb9166188923ed1111b3b8e2a1
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518937"
+ms.lasthandoff: 03/09/2022
+ms.locfileid: "63388189"
 ---
-# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls-public-preview"></a>Verwenden der End-to-End-Verschlüsselung für 1:1-Anrufe in Microsoft Teams (öffentliche Vorschau)
+# <a name="use-end-to-end-encryption-for-one-to-one-microsoft-teams-calls"></a>Verwenden der End-to-End-Verschlüsselung für 1:1-Anrufe in Microsoft Teams (öffentliche Vorschau)
 
 > [!IMPORTANT]
 > Das Teams-Dienstmodell und sein Verschlüsselungssupport können sich ändern, um die Benutzererfahrung zu verbessern. Der Dienst veraltet beispielsweise regelmäßig Chiffriersammlungen, die nicht mehr als sicher gelten. Solche Änderungen würden vorgenommen, um die Sicherheit und Vertrauenswürdigkeit von Teams zu gewährleisten. Darüber hinaus sind alle Kundeninhalte in Microsoft-Rechenzentren verschlüsselt. Weitere Informationen über Verschlüsselungsebenen in Microsoft 365 finden Sie unter [Verschlüsselung in Microsoft 365](/microsoft-365/compliance/encryption).
 
 Die End-to-End-Verschlüsselung (oder E2EE) wird durchgeführt, wenn Inhalte verschlüsselt werden, bevor sie gesendet und nur vom vorgesehenen Empfänger entschlüsselt werden. Bei der End-to-End-Verschlüsselung sind nur die beiden Endpunktsysteme an der Verschlüsselung und Entschlüsselung der Anrufdaten beteiligt. Keine andere Partei, einschließlich Microsoft, hat Zugriff auf die entschlüsselte Unterhaltung.
 
-Mit dieser öffentlichen Vorschauversion führen wir E2EE für ungeplante 1:1-Anrufe ein. Nur der Echtzeitmedienfluss, d. h. Video- und Sprachdaten, für 1:1-Teams-Anrufe wird End-to-End verschlüsselt. Beide Parteien müssen diese Einstellung aktivieren, um die End-to-End-Verschlüsselung zu aktivieren. [Verschlüsselung in Microsoft 365](/microsoft-365/compliance/encryption) schützt Chat-, Dateifreigabe-, Anwesenheits- und andere Inhalte im Anruf.
+Mit E2EE für ungeplante 1:1-Anrufe wird nur der Echtzeit-Medienfluss, d. h. Video- und Sprachdaten, für 1:1-Teams-Anrufe End-to-End verschlüsselt. Beide Parteien müssen diese Einstellung aktivieren, um die End-to-End-Verschlüsselung zu aktivieren. [Verschlüsselung in Microsoft 365](/microsoft-365/compliance/encryption) schützt Chat-, Dateifreigabe-, Anwesenheits- und andere Inhalte im Anruf.
 
 Wenn Sie die End-to-End-Verschlüsselung nicht aktivieren, sichert Teams weiterhin einen Anruf oder eine Besprechung mittels Verschlüsselung basierend auf Branchenstandards. Daten, die bei Anrufen ausgetauscht werden, sind während der Übertragung und im Ruhezustand immer sicher. Weitere Informationen finden Sie unter [Medienverschlüsselung für Teams](teams-security-guide.md#media-encryption).
 
@@ -123,7 +123,7 @@ Dabei gilt Folgendes:
 
 #### <a name="to-disable-end-to-end-encryption-for-your-entire-tenant-using-the-global-policy"></a>So deaktivieren Sie die End-to-End-Verschlüsselung für Ihren gesamten Mandanten mithilfe der globalen Richtlinie
 
-Standardmäßig ist die End-to-End-Verschlüsselung deaktiviert. Wenn Sie Änderungen an der globalen Richtlinie vorgenommen haben, können Sie die Einstellung wieder ändern, indem Sie das Cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) wie folgt ausführen.
+Wenn Sie Änderungen an der globalen Richtlinie vorgenommen haben, können Sie die Einstellung wieder ändern, indem Sie das Cmdlet [Grant-CsTeamsEnhancedEncryptionPolicy](/powershell/module/teams/Grant-CsTeamsEnhancedEncryptionPolicy) wie folgt ausführen.
 
 ```powershell
 Grant-CsTeamsEnhancedEncryptionPolicy -Identity Global -CallingEndtoEndEncryptionEnabledType Disabled
@@ -149,7 +149,7 @@ Dabei gilt Folgendes:
 
 - *`policyname`* ist der Name, den Sie für die Richtlinie verwenden möchten. Richtliniennamen dürfen keine Leerzeichen enthalten, z. B. ContosoE2EEUserPolicy.
 
-Benutzer müssen in ihren Teams-Einstellungen trotzdem noch verschlüsselte End-to-End-Anrufe aktivieren, bevor sie einen verschlüsselten End-to-End-Anruf tätigen können. Anweisungen finden Sie unter [Verwenden der End-to-End-Verschlüsselung für Teams-Anrufe](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
+Benutzer müssen noch End-to-End-verschlüsselte Anrufe in ihren Teams-Einstellungen aktivieren, bevor sie einen End-to-End-verschlüsselten Anruf tätigen können. Anweisungen finden Sie unter [End-to-End-Verschlüsselung für Teams-Anrufe verwenden](https://support.microsoft.com/office/1274b4d2-b5c5-4b24-a376-606fa6728a90).
 
 Zum Beispiel: 
 
