@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Ihre benutzerdefinierten Apps in den App Store Ihrer Organisation im admin center Microsoft Teams hochladen.
-ms.openlocfilehash: f9cbbfb60b2bb93cb3f687e6da8c6595f5cc185b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b797d8728fba283ccb2f62a46bc6ac00a947c29a
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070184"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435829"
 ---
 # <a name="publish-a-custom-app-by-uploading-an-app-package"></a>Veröffentlichen einer benutzerdefinierten App durch Hochladen eines App-Pakets
 
@@ -116,12 +116,10 @@ In den meisten Fällen wird nach Abschluss einer App-Aktualisierung die neue Ver
 * Ein Bot wurde hinzugefügt oder entfernt
 * Die "botId"-Eigenschaft eines vorhandenen Bots wurde geändert
 * Die IsNotificationOnly-Eigenschaft eines vorhandenen Bots wurde geändert
-* Die Eigenschaft "supportsFiles" des Bots wurde geändert
-* Eine Messaging-Erweiterung wurde hinzugefügt oder entfernt
+* Die Funktionen SupportsCalling, SupportsVideo und SupportsFiles eines Bots wurden hinzugefügt.
+* Eine Nachrichtenerweiterung wurde hinzugefügt.
 * Ein neuer Connector wurde hinzugefügt
-* Eine neue statische Registerkarte wurde hinzugefügt
-* Eine neue konfigurierbare Registerkarte wurde hinzugefügt
-* Eigenschaften in "webApplicationInfo" wurden geändert
+* Berechtigungen innerhalb von "Autorisierung" wurden hinzugefügt oder geändert
 
 ![Screenshot der App-Liste mit Apps, für die eine neue Version verfügbar ist](media/manage-your-custom-apps-update1.png)
 

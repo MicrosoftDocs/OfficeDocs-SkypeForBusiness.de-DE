@@ -20,25 +20,25 @@ ms.collection:
 - m365solution-healthcare
 - m365solution-scenario
 ms.reviewer: ''
-description: Erfahren Sie, wie Sie virtuelle Besuche mit der Bookings-App in Ihrer Teams.
-ms.openlocfilehash: 6241c377cc5daa0986081fbfa30eca5fa7146efc
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+description: Erfahren Sie, wie Sie virtuelle Besuche planen, verwalten und durchführen, indem Sie die Bookings-App in Teams.
+ms.openlocfilehash: ec3b2023d7413b3cb3e0710f201bea0224e49c59
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929270"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435929"
 ---
 # <a name="virtual-visits-with-microsoft-teams-and-the-bookings-app"></a>Virtuelle Untersuchung mit Microsoft Teams und der Bookings-App
 
 ## <a name="overview"></a>Übersicht
 
-Die [Bookings-App](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams Bietet Organisationen eine einfache Möglichkeit zum Planen und Verwalten virtueller Termine für Mitarbeiter und Teilnehmer. Verwenden Sie es zum Planen von Terminen wie Arztbesuchen, Finanzberatungen, Vorstellungsgesprächen, Kundensupport, virtuellen Ein treffen und Beratungsgesprächen, Sprechstunden für Bildungseinrichtungen und vieles mehr.
+Die [Bookings-App](https://support.microsoft.com/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) in Microsoft Teams Organisationen eine einfache Möglichkeit zum Planen und Verwalten virtueller Termine für Mitarbeiter und Teilnehmer. Verwenden Sie es zum Planen von Terminen wie Arztbesuchen, Finanzberatungen, Vorstellungsgesprächen, Kundensupport, virtuellen Ein treffen und Beratungsgesprächen, Sprechstunden für Bildungseinrichtungen und vieles mehr.
 
 Mit der Bookings-App können Sie komplexe Planungsanforderungen einer Organisation ganz einfach verwalten. Die planenden Personen können mehrere Abteilungs- und Mitarbeiterkalender sowie die Kommunikation mit internen und externen Teilnehmern über eine einzige Lösung verwalten.
 
-Die virtuellen Termine werden in Microsoft Teams, die stabile Funktionen für Videokonferenzen bieten. Ein Arzt kann z. B. seinen Bildschirm freigeben und die Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
+Die virtuellen Termine werden in Microsoft Teams stattfinden, die stabile Videokonferenzfunktionen bieten. Ein Arzt kann z. B. seinen Bildschirm freigeben und die Testergebnisse mit einem Patienten überprüfen. Oder ein Bankberater kann elektronische Signaturen für Dokumente anfordern, sodass er Transaktionen remote schließen kann.
 
-Jeder virtuelle Termin enthält einen Teams-Besprechungslink, der per E-Mail an die Teilnehmer gesendet wird, wo sie ganz einfach über einen Webbrowser oder in Teams auf jedem Gerät teilnehmen können. Mithilfe automatisierter E-Mail-Erinnerungen können Sie die Anzahl nicht angezeigter E-Mails reduzieren und das Engagement von Kunden und Kunden verbessern.
+Jeder virtuelle Termin enthält einen Link Teams Besprechung, der per E-Mail an die Teilnehmer gesendet wird. Dort können sie ganz einfach über einen Webbrowser oder über Teams beliebigen Gerät teilnehmen. Mithilfe automatisierter E-Mail-Erinnerungen können Sie die Anzahl nicht angezeigter E-Mails reduzieren und das Engagement von Kunden und Kunden verbessern.
 
 Mit Bookings erhalten Sie eine Erfahrung, die auf Ihre Branche zugeschnitten ist. Im Folgenden finden Sie einige Beispiele für die Verwendung in Ihrer Organisation:
 
@@ -48,13 +48,13 @@ Mit Bookings erhalten Sie eine Erfahrung, die auf Ihre Branche zugeschnitten ist
 |Einzelhandel   | Virtuelle Anproben und Beratungsgespräche <br/>Planen und verwalten Sie Termine für Ihre Vertriebsmitarbeiter, Produktexperten und Designberater, um virtuelle Einpassungen und Beratungsgespräche mit Kunden zu führen.   |
 |Gesundheitswesen   |  Virtuelle Visite für die Patientenpflege <br/>Planen und verwalten Sie Termine für die Mitglieder Ihres Pflegeteams, die sich mit Patienten oder anderen Gesundheitswesensanbietern treffen, um die medizinische Behandlung zu besprechen.   |
 
-Dieser Artikel bietet Ihnen einen Überblick über das Planen, Verwalten und Durchführen virtueller Besuche mithilfe der Bookings-App in Teams.
+Dieser Artikel gibt Ihnen einen Überblick über das Planen, Verwalten und Durchführen virtueller Besuche mithilfe der Bookings-App in Teams.
 
 ## <a name="before-you-get-started"></a>Bevor Sie beginnen
 
 Wenn Sie ein Administrator sind, finden Sie unter Verwalten der [Bookings-App in Teams](../bookings-app-admin.md) Informationen zu den Voraussetzungen für die Verwendung der Bookings-App in Teams, zum Steuern des Zugriffs auf Bookings in Ihrer Organisation und zu empfohlenen Richtlinien- und Administratoreinstellungen.
 
-Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihrem Teams. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen über ihren Kalender oder Teams über Outlook Besprechungslink in der Buchungsbestätigungs-E-Mail an Termine teil.
+Denken Sie daran, dass nur Planer in Ihrer Organisation die Bookings-App in Ihrem Teams. Mitarbeiter, die virtuelle Termine durchführen oder daran teilnehmen, benötigen die App nicht. Sie nehmen an Terminen über ihr Teams Kalender Outlook, oder sie verwenden den Besprechungslink in ihrer Buchungsbestätigungs-E-Mail.
 
 ## <a name="set-up-a-new-booking-calendar"></a>Einrichten eines neuen Buchungskalenders
 
@@ -111,15 +111,21 @@ Mitarbeiter können sogar Direkt aus der Warteschlange an Terminen teilnehmen un
 
 ## <a name="additional-capabilities-with-the-bookings-web-app"></a>Zusätzliche Funktionen mit der Bookings-Web-App
 
-Die Bookings-Web-App bietet Ihnen zusätzliche Funktionen. So können Sie beispielsweise eine Selbstbedienungs-Onlinebuchungsseite veröffentlichen, auf der Personen Termine mit Ihren Mitarbeitern planen können. Wenn Sie auf die Bookings-Web-App zugreifen möchten, wechseln Sie zu **Weitere Optionen** (...) > **Open Bookings-Web-App**.
+Die Bookings-Web-App bietet Ihnen zusätzliche Funktionen. So können Sie beispielsweise eine Selbstbedienungs-Onlinebuchungsseite veröffentlichen, auf der Personen Termine mit Ihren Mitarbeitern planen können. Wenn Sie auf die Bookings-Web-App zugreifen möchten, wechseln Sie zu Weitere **Optionen** (...) > **Open Bookings-Web-App**.
 
 Weitere Informationen finden Sie unter [Microsoft Bookings](/microsoft-365/bookings/bookings-overview).
+
+## <a name="get-insight-into-virtual-visits-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Besuche
+
+Der [Verwendungsbericht "](../teams-analytics-and-reports/virtual-visits-usage-report.md)Virtuelle Besuche" im Microsoft Teams Admin Center gibt Administratoren einen Überblick über Teams Aktivitäten "Virtuelle Besuche" in Ihrer Organisation. Der Bericht zeigt detaillierte Analysen für virtuelle Termine, einschließlich Bookings-Besuche.
+
+Sie können wichtige Metriken wie Wartezeit des Wartebereichs und Dauer des Besuchs anzeigen. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, um Sie bei der Optimierung virtueller Besuche zu unterstützen, um bessere Unternehmensergebnisse zu erzielen.
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
 - [Verwalten der Teilnahmeerfahrung für Teams virtuelle Besuche in mobilen Browsern](mobile-browser-join.md)
 
-- [Teams Bericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Teams bericht "Virtuelle Besuche"](../teams-analytics-and-reports/virtual-visits-usage-report.md)
 
 - [Erste Schritte mit Teams im Gesundheitswesen](healthcare/teams-in-hc.md)
 

@@ -23,23 +23,23 @@ appliesto:
 - Microsoft Teams
 ms.reviewer: ansantam
 description: Hier erfahren Sie, wie Sie den Connector Teams EHR integrieren, damit Anbieter im Gesundheitswesen in Ihrer Organisation virtuelle Visiten mit Patienten oder anderen Anbietern in Teams direkt vom Cerner EHR-System durchführen können.
-ms.openlocfilehash: fd37b32acfd2a33cde61b56c7f17191e7470923e
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d7f34be9729989f7930cc6f478738b43b716f6ac
+ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929330"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63435879"
 ---
 # <a name="virtual-visits-with-teams---integration-into-cerner-ehr"></a>Virtuelle Besuche mit Teams - Integration in Cerner EHR
 
 [!INCLUDE [preview-feature](../../includes/preview-feature.md)]
 
-Mit Microsoft Teams Connector für elektronische Krankenakte (EHR) können Klinikieren einen virtuellen Patientenbesuch starten oder sich direkt vom Cerner EHR-System mit einem anderen Anbieter in Microsoft Teams beraten. Das auf der Microsoft 365-Cloud Teams-Programm ermöglicht einfache, sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung von HIPAA, HITECH-Zertifizierung und mehr unterstützt.
+Der Microsoft Teams Connector für elektronische Krankenakten (EHR) erleichtert Klinikbetreibern die Einführung eines virtuellen Patientenbesuchs oder die Konsultieren eines anderen Anbieters in Microsoft Teams direkt vom Cerner EHR-System. Das auf der Microsoft 365-Cloud Teams-Programm ermöglicht einfache, sichere Zusammenarbeit und Kommunikation mit Chat-, Video-, Sprach- und Gesundheitstools in einem einzigen Hub, der die Einhaltung von HIPAA, HITECH-Zertifizierung und mehr unterstützt.
 
-Die Kommunikations- und Zusammenarbeitsplattform von Teams macht es für Klinikisten einfach, die Unübersichtlichkeit fragmentierter Systeme zu durchschneiden, sodass sie sich auf die Bereitstellung der bestmöglichen Pflege konzentrieren können. Mit dem Teams EHR-Verbinder können Sie:
+Die Kommunikations- und Zusammenarbeitsplattform von Teams macht es klinikieren, die Unübersichtlichkeit fragmentierter Systeme zu überschneiden, sodass sie sich auf die Bereitstellung der bestmöglichen Behandlung konzentrieren können. Mit dem Teams EHR-Verbinder können Sie:
 
-- Durchführen Teams virtuellen Besuche von Ihrem Cerner EHR-System mit einem integrierten klinischen Workflow.
-- Ermöglichen Sie Patienten die Teilnahme an virtuellen Teams-Mails oder SMS-Benachrichtigungen.
+- Durchführen Teams Besuche von Ihrem Cerner EHR-System mit einem integrierten klinischen Workflow.
+- Ermöglichen Sie Es Patienten, an virtuellen Visiten Teams E-Mail- oder SMS-Benachrichtigungen teilnehmen.
 - Zeigen Sie Verbrauchsdatenberichte und anpassbare Informationen zur Anrufqualität für mit EHR verbundene Besuche an.
 
 In diesem Artikel wird beschrieben, wie Sie den EHR Teams Connector für die Integration in die Cerner-Plattform einrichten und konfigurieren. Außerdem erhalten Sie einen Überblick über die Erfahrung Teams virtuellen Besuche vom Cerner EHR-System.
@@ -51,10 +51,10 @@ In diesem Artikel wird beschrieben, wie Sie den EHR Teams Connector für die Int
 
 ### <a name="prerequisites"></a>Voraussetzungen
 
-Vor der Integration des Teams EHR-Connectors in Ihrer Gesundheitsorganisation müssen Sie über Folgendes verfügen:
+Bevor Sie den Teams EHR-Connector in Ihrer Organisation im Gesundheitswesen integrieren können, müssen Sie über Folgendes verfügen:
 
-- Ein aktives Abonnement Microsoft Teams eigenständiges EHR-Connectorangebot (nur beim Testen in einer EHR-Produktionsumgebung erzwungen).
-- Benutzer verfügen über eine geeignete Microsoft 365 oder Office 365 Lizenz, die Teams umfasst.
+- Ein aktives Abonnement für Microsoft Teams EHR-Connector (wird nur beim Testen in einer EHR-Produktionsumgebung erzwungen).
+- Die Benutzer verfügen über eine geeignete Microsoft 365 oder Office 365 Lizenz, die Teams umfasst.
 - Teams in Ihrer Gesundheitsorganisation verbreitet und verwendet.
 - Ihre Systeme erfüllen alle [Software- und Browseranforderungen für](../../hardware-requirements-for-the-teams-app.md) Teams.
 - Cerner-Version November 2018 oder höher
@@ -81,7 +81,7 @@ Ihr Microsoft 365 kann eine einzelne Abteilung oder mehrere Abteilungen konfigur
 
 Als Nächstes fügt Ihr Microsoft 365-Administrator eine Fast Health Interoperability Resources (FBRO)-Basis-URL von Cerner hinzu und gibt die Umgebung an. Konfigurieren Sie je nach Anforderungen Ihrer Organisation und den umgebungen, die Sie testen möchten, so viele F URL-Basis-URLs wie erforderlich.
 
-:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot der Seite "Konfigurationsinformationen" im Teams EHR-Connectorkonfigurationsportals." lightbox="media/ehr-admin-cerner-configuration.png":::
+:::image type="content" source="media/ehr-admin-cerner-configuration.png" alt-text="Screenshot der Seite "Konfigurationsinformationen" des Teams EHR-Connectorkonfigurationsportals" lightbox="media/ehr-admin-cerner-configuration.png":::
 
 - Die F ZAHL-Basis-URL ist eine statische Adresse, die Ihrem Server-FSTAT-API-Endpunkt entspricht. Eine Beispiel-URL ist `https://lamnahealthcare.org/fihr/auth/connect-ocurprd-oauth/api/FHDST`.
 
@@ -125,27 +125,27 @@ Zum Aktivieren von SMS-Benachrichtigungen geht Microsoft 365 Administrator wie f
 Es werden Integrationsaufzeichnungen für patienten- und Anbieterstarts präsentiert. Diese Einträge sind erforderlich, um die Konfiguration virtueller Besuche in Cerner abschließen zu können. Weitere Informationen finden Sie im Cerner-Microsoft Teams zur Telehealth-Integration.
 
 > [!NOTE]
-> Der Administrator Ihres Microsoft 365 kann sich jederzeit beim Konfigurationsportal anmelden, um Integrationseinträge anzeigen und bei Bedarf Konfigurationseinstellungen ändern.
+> Der Administrator Ihres Microsoft 365 sich jederzeit beim Konfigurationsportal anmelden, um Integrationseinträge anzeigen und bei Bedarf Konfigurationseinstellungen ändern zu können.
 
-## <a name="launch-teams-virtual-visits"></a>Starten Teams virtuellen Besuche
+## <a name="launch-teams-virtual-visits"></a>Starten Teams virtueller Besuche
 
-Nachdem Sie die Schritte für den EHR-Connector und die Cerner-Konfiguration abgeschlossen haben, ist Ihre Organisation bereit, Videobesuche mit ihrem Teams.
+Nachdem Sie die Schritte für den EHR-Connector und die Cerner-Konfiguration abgeschlossen haben, kann Ihre Organisation Videobesuche mit ihrem Teams.
 
 ### <a name="virtual-visits-prerequisites"></a>Voraussetzungen für virtuelle Besuche
 
-- Ihre Systeme müssen alle Software[- und Browseranforderungen für die](../../hardware-requirements-for-the-teams-app.md) Teams.
-- Sie haben die Integrationseinrichtung zwischen der Cerner-Organisation und Ihrer Microsoft 365 abgeschlossen.
+- Ihre Systeme müssen alle Software- [und Browseranforderungen für die](../../hardware-requirements-for-the-teams-app.md) Teams.
+- Sie haben die Integrationseinrichtung zwischen der Cerner-Organisation und Ihrer Organisation Microsoft 365 abgeschlossen.
 
 ### <a name="provider-experience"></a>Anbietererfahrung
 
-Dienstanbieter im Gesundheitswesen in Ihrer Organisation können mit Ihrem Teams über das PowerChart-Portal an Besuchen teilnehmen. Der Anbieter muss zu der Patientenakte navigieren, in der Teams Option verfügbar ist.
+Dienstanbieter im Gesundheitswesen in Ihrer Organisation können mithilfe von Teams über das PowerChart-Portal an Besuchen teilnehmen. Der Anbieter muss zu der Patientenakte navigieren, in der Teams Option verfügbar ist.
 
 Von dort aus kann der Anbieter Informationen zu besuchen, an Besuchen teilnehmen und den Besprechungslink senden. Nach der einmal ausgeführten Anmeldung wird der Anbieter direkt zu dem virtuellen Termin in der Teams.
 
 Hauptmerkmale der Anbietererfahrung:
 
 - Anbieter können mit unterstützten Browsern oder der App Teams teilnehmen.
-- Anbieter können alle unterstützten Features Teams, einschließlich Bildschirmfreigabe, benutzerdefiniertem Hintergrund und Aufzeichnung, verwenden.
+- Anbieter können alle unterstützten Features Teams, einschließlich Bildschirmfreigabe, benutzerdefiniertem Hintergrund und Aufzeichnung.
 - Anbieter können Updates von Patienten, die zu einem Besuch für einen bestimmten Termin kommen, in PowerChart in Echtzeit sehen.
 - Die Anbieterinformationen sind für Patienten während des Besuchs nicht sichtbar.
 
@@ -164,16 +164,22 @@ Wichtige Features der Patientenerfahrung
 - Die Patienten werden in einem Wartebereich platziert, bis der Anbieter ihnen beitritt und sie zugibt.
 - Patienten können ihr Video und Mikrofon im Wartebereich testen, bevor sie dem Besuch beitreten.
 
+## <a name="get-insight-into-virtual-visits-usage"></a>Erhalten Sie Einblicke in die Nutzung virtueller Besuche
+
+Der [Verwendungsbericht "](../../teams-analytics-and-reports/virtual-visits-usage-report.md)Virtuelle Besuche" im Microsoft Teams Admin Center gibt Administratoren einen Überblick über Teams Aktivitäten "Virtuelle Besuche" in Ihrer Organisation. Der Bericht enthält detaillierte Analysen für virtuelle Termine, einschließlich Teams EHR-integrierten Besprechungen, die von Ihrem EHR-System durchgeführt werden.
+
+Sie können wichtige Metriken wie Wartezeit des Wartebereichs und Dauer des Besuchs anzeigen. Verwenden Sie diese Informationen, um Einblicke in Nutzungstrends zu erhalten, um Sie bei der Optimierung virtueller Besuche zu unterstützen, um bessere Unternehmensergebnisse zu erzielen.
+
 ## <a name="privacy-and-location-of-data"></a>Datenschutz und Speicherort der Daten
 
 Teams Integration in EHR-Systeme optimiert die Datenmenge, die während der Integration und der Flüsse für virtuelle Besuche verwendet und gespeichert wird. Die Lösung folgt den allgemeinen Grundsätzen und Richtlinien für den Datenschutz und das Datenmanagement von Teams, die unter Datenschutz für Teams aufgeführt sind.
 
 Der Teams EHR-Connector enthält keine identifizierbaren persönlichen Daten oder Krankenakten von Patienten oder Gesundheitswesensanbietern vom EHR-System. Die einzigen Daten, die der EHR-Connector speichert, ist die eindeutige ID des EHR-Benutzers, die während Teams Besprechung verwendet wird.
 
-Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations) beschrieben sind. Alle Chats, Aufzeichnungen und anderen daten, die von Teams Besprechungsteilnehmern freigegeben werden, werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Teams finden Sie unter [Speicherort der Daten in Teams](../../location-of-data-in-teams.md).
+Die eindeutige ID des EGA-Benutzers wird in einer der drei geografischen Regionen gespeichert, die unter [Wo Ihre Microsoft 365-Kundendaten gespeichert sind](/microsoft-365/enterprise/o365-data-locations) beschrieben sind. Alle Chats, Aufzeichnungen und anderen von Teams freigegebenen Daten werden gemäß den vorhandenen Speicherrichtlinien gespeichert. Weitere Informationen zum Speicherort von Daten in Teams finden Sie unter Speicherort [von Daten in Teams](../../location-of-data-in-teams.md).
 
 ## <a name="related-articles"></a>Verwandte Artikel
 
-- [Teams Bericht "Virtuelle Besuche"](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
+- [Teams bericht "Virtuelle Besuche"](../../teams-analytics-and-reports/virtual-visits-usage-report.md)
 - [Teams EHR-Connectoradministratorberichte](ehr-admin-reports.md)
 - [Erste Schritte mit Teams im Gesundheitswesen](teams-in-hc.md)
