@@ -829,6 +829,8 @@ items:
             href: dial-pad-configuration.md
           - name: Musik wird angehalten
             href: music-on-hold.md
+          - name: Konfigurieren von Anrufeinstellungen für Ihre Benutzer
+            href: user-call-settings.md
       - name: PSTN-Konnektivitätsoptionen
         items:
           - name: Übersicht
@@ -1323,12 +1325,6 @@ items:
                 href: rooms/rooms-deploy.md
               - name: Konfigurieren von Konten
                 href: rooms/rooms-configure-accounts.md
-              - name: Surface Hub
-                items:
-                  - name: Koordinierte Besprechungen einrichten
-                    href: rooms/coordinated-meetings.md
-                  - name: Microsoft Teams-Einstellungen verwalten
-                    href: rooms/surface-hub-manage-config.md
               - name: Mit Office 365
                 href: rooms/with-office-365.md
               - name: Mit Skype for Business Server
@@ -1337,6 +1333,8 @@ items:
                 href: rooms/with-exchange-online.md
               - name: Mit lokaler Exchange-Bereitstellung (Hybrid)
                 href: rooms/with-exchange-on-premises.md
+              - name: Bereitstellen von Microsoft Teams-Räumen in Android
+                href: devices/collab-bar-deploy.md
               - name: Konfigurieren einer Konsole
                 href: rooms/console.md
               - name: Manuelle Aktualisierung eines Geräts
@@ -1353,6 +1351,12 @@ items:
                 href: rooms/content-camera.md
               - name: Spracherkennungssteuerelemente für intelligente Lautsprecher
                 href: rooms/voice-recognition.md
+              - name: Surface Hub
+                items:
+                  - name: Koordinierte Besprechungen einrichten
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams-Einstellungen verwalten
+                    href: rooms/surface-hub-manage-config.md
           - name: Verwalten
             items:
               - name: Verwaltung (Übersicht)
@@ -1395,66 +1399,74 @@ items:
             href: rooms/standards-and-room-planner.md
       - name: Geräte
         items:
-          - name: Verwalten Ihrer Geräte in Teams
-            href: devices/device-management.md
-          - name: Remotebereitstellung und -Anmeldung
-            href: devices/remote-provision-remote-login.md
-          - name: Remoteanmeldung und -abmeldung
-            href: devices/remote-sign-in-and-sign-out.md
-          - name: Remoteaktualisierung Ihrer Geräte
-            href: devices/remote-update.md
-          - name: Verwalten von Teams-Gerätetags
-            href: devices/manage-device-tags.md
-          - name: Planung der Telefon- und Anzeigebereitstellung
-            href: devices/plan-device-deployment.md
-          - name: Telefone für Teams
-            href: devices/phones-for-teams.md
-          - name: Einrichten von Telefonen in öffentlichen Bereichen
-            href: set-up-common-area-phones.md
-          - name: Teams-Anzeigen
-            href: devices/teams-displays.md
-          - name: Teams-Bereiche
+          - name: Bereitstellen
             items:
+              - name: Bereitstellen von Teams-Telefonen und Teams-Anzeigen mit Intune
+                href: devices/phones-displays-deploy.md
+              - name: Einrichten von Telefonen in öffentlichen Bereichen
+                href: set-up-common-area-phones.md
+              - name: SIP Gateway
+                items:
+                  - name: SIP-Gateway planen
+                    href: sip-gateway-plan.md
+                  - name: SIP-Gateway konfigurieren
+                    href: sip-gateway-configure.md
+              - name: Automatische Antwort für Teams Android-Geräte einrichten
+                href: set-up-auto-answer-on-teams-android.md
+              - name: Remotebereitstellung und -Anmeldung
+                href: devices/remote-provision-remote-login.md
+              - name: Remoteanmeldung und -abmeldung
+                href: devices/remote-sign-in-and-sign-out.md
+              - name: Bewährte Authentifizierungsmethoden für Android-Geräte
+                href: devices/authentication-best-practices-for-android-devices.md
+          - name: Verwalten und Überwachen
+            items:
+              - name: Verwalten Ihrer Geräte in Teams
+                href: devices/device-management.md
+              - name: Verwenden von Verwaltungseinheiten zum Verwalten von Geräten
+                href: administrative-unit.md
+              - name: Verwalten von Teams-Gerätetags
+                href: devices/manage-device-tags.md
+              - name: Remoteaktualisierung Ihrer Geräte
+                href: devices/remote-update.md
+              - name: Telefone für Teams
+                href: devices/phones-for-teams.md
+              - name: Teams-Anzeigen
+                href: devices/teams-displays.md
+              - name: Teams-Telefone auf Teams-Anzeigen upgraden
+                href: devices/upgrade-phones-to-displays.md
               - name: Teams-Bereiche
-                href: devices/teams-panels.md
-              - name: Teams-Bereiche verwenden
-                href: devices/use-teams-panels.md
-              - name: App-Unterstützung in Teams-Bereichen
-                href: app-support-on-Teams-panels.md
-              - name: Einchecken und Raumfreigabe
-                href: devices/check-in-and-room-release.md
-          - name: Teams-Telefone auf Teams-Anzeigen upgraden
-            href: devices/upgrade-phones-to-displays.md
-          - name: Bereitstellen von Teams-Telefonen und Teams-Anzeigen mit Intune
-            href: devices/phones-displays-deploy.md
-          - name: USB-Audio- und -Videogeräte
-            href: devices/usb-devices.md
-          - name: Bereitstellen von Microsoft Teams-Räumen in Android
-            href: devices/collab-bar-deploy.md
-          - name: Festlegen der Benutzeroberfläche für Microsoft Teams Android-Geräte
-            href: devices/Teams-Android-devices-user-interface.md
-          - name: Bewährte Authentifizierungsmethoden für Android-Geräte
-            href: devices/authentication-best-practices-for-android-devices.md
-          - name: Automatische Antwort für Teams Android-Geräte einrichten
-            href: set-up-auto-answer-on-teams-android.md
-          - name: Besprechungsraumgeräte und Lösungen
-            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+                items:
+                  - name: Teams-Bereiche
+                    href: devices/teams-panels.md
+                  - name: Teams-Bereiche verwenden
+                    href: devices/use-teams-panels.md
+                  - name: App-Unterstützung in Teams-Bereichen
+                    href: app-support-on-Teams-panels.md
+                  - name: Einchecken und Raumfreigabe
+                    href: devices/check-in-and-room-release.md
+              - name: Teams-Telefone auf Teams-Anzeigen upgraden
+                href: devices/upgrade-phones-to-displays.md
+              - name: Bereitstellen von Teams-Telefonen und Teams-Anzeigen mit Intune
+                href: devices/phones-displays-deploy.md
+              - name: USB-Audio- und -Videogeräte
+                href: devices/usb-devices.md
+              - name: Überwachung
+                items:
+                  - name: Teams-Alarmierung und -Überwachung
+                    href: alerts/teams-admin-alerts.md
+                  - name: Teams-Geräteintegritätsüberwachung
+                    href: alerts/device-health-status.md
+                  - name: Teams- und Peripheriegeräte
+                    href: teams-device-health.md
+      - name: Referenz
+        items:
           - name: Teams-zertifizierte Geräte
             href: devices/teams-ip-phones.md
-          - name: SIP Gateway
-            items:
-              - name: SIP-Gateway planen
-                href: sip-gateway-plan.md
-              - name: SIP-Gateway konfigurieren
-                href: sip-gateway-configure.md
-          - name: Teams-Alarmierung und -Überwachung
-            href: alerts/teams-admin-alerts.md
-          - name: Teams-Geräteintegritätsüberwachung
-            href: alerts/device-health-status.md
-          - name: Teams- und Peripheriegeräte
-            href: teams-device-health.md
-          - name: Verwenden von Verwaltungseinheiten zum Verwalten von Geräten
-            href: administrative-unit.md
+          - name: Besprechungsraumgeräte und Lösungen
+            href: /skypeforbusiness/certification/devices-meeting-rooms?toc=/MicrosoftTeams/toc.json&bc=/microsoftteams/breadcrumb/toc.json
+          - name: Planung der Telefon- und Anzeigebereitstellung
+            href: devices/plan-device-deployment.md
   - name: 'Apps, Bots und Connectors'
     items:
       - name: Übersicht
@@ -1527,6 +1539,8 @@ items:
             href: non-standard-users.md
           - name: Aktualisieren der Benutzererfahrung von Apps
             href: apps-update-experience.md
+          - name: Verwalten des Zugriffs auf Microsoft Teams-Apps von Drittanbietern über Microsoft 365
+            href: manage-third-party-teams-apps.md
   - name: Branchen- und Regierungsrichtlinien
     items:
       - name: Übersicht
@@ -1799,6 +1813,8 @@ items:
             href: teams-powershell-managing-teams.md
           - name: Team PowerShell – Anmerkungen zu dieser Version
             href: teams-powershell-release-notes.md
+          - name: Unterstützte Versionen von Teams PowerShell.
+            href: teams-powershell-supported-versions.md
           - name: Wechseln vom Skype for Business Online-Connector zum PowerShell-Modul von Teams
             href: teams-powershell-move-from-sfbo.md
           - name: Cmdlet-Referenz für Teams
