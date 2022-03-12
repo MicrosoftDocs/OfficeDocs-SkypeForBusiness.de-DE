@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: adfdfa74dd00314cb0b7fad5524a89619e8772d2
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070744"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442341"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -51,7 +51,7 @@ Apps sind an:
 
 |Microsoft Teams-Desktopclient  |Mobile Microsoft Teams-Clients |
 |---------|---------|
-|![Der Teams Desktopclient.](media/app-setup-policies-desktop-app-bar.png)<br>  |   ![Der Teams-Client](media/mobile-app-ui.png)      |
+|![Der Teams Desktopclient.](media/app-setup-policies-desktop-app-bar.png)<  |   ![Der Teams-Client](media/mobile-app-ui.png)      |
 
 > [!NOTE]
 > Wenn Sie über Teams für Education verfügen, ist es wichtig zu wissen, dass die Aufgaben-App standardmäßig in der globalen Richtlinie angeheftet ist, obwohl sie derzeit nicht in der globalen Richtlinie aufgeführt ist. Dies ist die vierte App in der Liste der angeheftet Apps auf Teams Clients.
@@ -193,7 +193,7 @@ Um alle Apps anzuzeigen, die für einen Benutzer angeheftet sind, müssen Benutz
 |Microsoft Teams-Desktopclient |Mobile Microsoft Teams-Clients |
 |---------|---------|
 |Wählen Sie auf der App-Leiste Teams **aus, ... Weitere Apps.**| Wischen Sie in der App-Leiste am Teams Bildschirmrand nach oben.|
-|![Weitere Apps im Teams-Desktopclients.](media/app-setup-policies-desktop-more-apps.png)<br>   |![Weitere Apps im mobilen Teams-Client](media/app-setup-policies-mobile-more-apps.png)  
+|![Weitere Apps im Teams-Desktopclients.](media/app-setup-policies-desktop-more-apps.png)   |![Weitere Apps im mobilen Teams-Client](media/app-setup-policies-mobile-more-apps.png)  
 
 #### <a name="what-do-i-need-to-know-about-the-teams-mobile-experience"></a>Was muss ich über die mobile Teams wissen?
 

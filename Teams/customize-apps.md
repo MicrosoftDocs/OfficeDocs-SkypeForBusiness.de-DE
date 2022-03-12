@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: 7fb940ed512c96bd4aa4519bcdabbf9adcbe86a8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 1f32b7f7d00b6737d959a1687574ce4560bd4725
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070424"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442641"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
@@ -85,19 +85,19 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 > [!Note]
 > Nur die Felder, die der App-Entwickler als anpassbar zugewiesen hat, sind sichtbar.
 
-5. Erweitern Sie **den Bereich Symbol** .
+1. Erweitern Sie **den Bereich Symbol** .
 
-   1. Hochladen symbol. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
+1. Hochladen symbol. Verwenden Sie ein Vollfarbsymbol (192 x 192) Pixel im PNG-Format.
 
-   1. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie ein transparentes Gliederungspixel (32 x 32) im PNG-Format.
+1. Wählen Sie eine Symbolkonturfarbe aus. Verwenden Sie ein transparentes Gliederungspixel (32 x 32) im PNG-Format.
 
-   1. Wählen Sie eine App-Akzentfarbe aus, die dem Symbol entspricht.
+1. Wählen Sie eine App-Akzentfarbe aus, die dem Symbol entspricht.
 
-    ![Passen Sie die Farboptionen für den Symbolbereich an.](media/customize-app-colors.png)
+   ![Passen Sie die Farboptionen für den Symbolbereich an.](media/customize-app-colors.png)
 
-6. Nachdem Ihre App angepasst wurde, wählen Sie **Übernehmen aus**.
+1. Nachdem Ihre App angepasst wurde, wählen Sie **Übernehmen aus**.
 
-7. Wählen Sie **Veröffentlichen** aus, um die angepasste App zu veröffentlichen.
+1. Wählen Sie **Veröffentlichen** aus, um die angepasste App zu veröffentlichen.
 
    Die angepasste App wird jetzt auf der Seite **Apps verwalten** aufgeführt. Sie verfügen nur über eine Version der App, da beim Anpassen der App-Features keine Kopie der App erstellt wird.
 
@@ -110,6 +110,7 @@ Jetzt können Teams Benutzer ihren Client Teams öffnen, um die angepasste App z
 Die folgende Notiz enthält wichtige Details zum Anpassen einer App.
 
 > [!Note]
+>
 > - Achten Sie beim Anpassen von Apps und beschreibungen im Zusammenhang mit einer App darauf, dass Sie alle Anpassungsrichtlinien befolgen, die vom App-Herausgeber in der Dokumentation oder den Nutzungsbedingungen bereitgestellt werden. Sie sind auch für die Einhaltung der Rechte anderer im Hinblick auf Bilder von Drittanbietern verantwortlich, die Sie möglicherweise verwenden.
 > - Vom Administrator bereitgestellte Anpassungsdaten werden in der nächstgelegenen Region gespeichert.
 > - Sie sind dafür verantwortlich sicherzustellen, dass Links zu Nutzungsbedingungen oder Datenschutzrichtlinien gültig sind.

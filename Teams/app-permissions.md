@@ -19,12 +19,12 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 59d8303943b8912f7ed0578bd911b633b618f113
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96755d4396e47ea1a6a3c4266a157cce63008372
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070554"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442701"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
@@ -38,7 +38,6 @@ Microsoft Teams-Apps bieten eine Möglichkeit, eine oder mehrere Funktionen in e
 Apps werden von Benutzern aus Richtlinienperspektive unterstützt und von der IT verwaltet. Die Berechtigungen und Das Risikoprofil einer App werden jedoch in den meisten Meisten durch die Berechtigungen und Risikoprofile der Funktionen definiert, die die App enthält. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf der Funktionsebene.
 
 Die unten in Großbuchstaben aufgeführten Berechtigungen, z. B. RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden in der Microsoft Teams-Entwicklerdokumentation oder [](/microsoftteams/platform/overview) in den Berechtigungen für [Microsoft Graph.](/graph/permissions-reference) Sie sind einfach eine beschreibende Kurzhand für den Zweck dieses Artikels.
-
 
 | Titel   | Beschreibung    |
 |-----------|------------|
@@ -82,10 +81,10 @@ Keine
 - POST_MESSAGE_TEAM. Ermöglicht den Bots einer App, jederzeit direkte (proaktive) Nachrichten an jedes Teammitglied zu senden, auch wenn der Benutzer noch nie mit dem Bot gesprochen hat.
 
 - Im Folgenden werden keine expliziten Berechtigungen, sondern RECEIVE_MESSAGE und REPLYTO_MESSAGE und die Bereiche, in denen die Bots verwendet werden können, impliziert, die im Manifest deklariert werden:
- 
-    - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
-    - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-    - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
+
+  - RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
+  - RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
+  - RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
 
 - SEND_FILES, RECEIVE_FILES. <sup>2</sup> Steuert, ob ein Bot Dateien in persönlichen Chats senden und empfangen kann (wird für Gruppenchats oder Kanäle noch nicht unterstützt).
 
@@ -105,9 +104,9 @@ Keine
 
 - Bots können die Liste der Kanäle in einem Team abrufen (und speichern). diese Daten das Unternehmensnetzwerk verlässt.
 
-- Wenn eine Datei an einen Bot gesendet wird, verlässt die Datei das Unternehmensnetzwerk. Zum Senden und Empfangen von Dateien ist eine Genehmigung durch den Benutzer für jede Datei erforderlich. 
+- Wenn eine Datei an einen Bot gesendet wird, verlässt die Datei das Unternehmensnetzwerk. Zum Senden und Empfangen von Dateien ist eine Genehmigung durch den Benutzer für jede Datei erforderlich.
 
-- Standardmäßig haben Bots keine Möglichkeit, im Namen des Benutzers zu handeln, aber Bots können Benutzer zur Anmeldung bitten. Sobald sich der Benutzer meldet, hat der Bot ein Zugriffstoken, mit dem er weitere Dinge tun kann. Was genau diese zusätzlichen Dinge sind, hängt vom Bot und davon ab, wo sich der Benutzer angemeldet hat: Ein Bot ist eine Azure AD-Apphttps://apps.dev.microsoft.com/, die unter registriert ist und über einen eigenen Satz von Berechtigungen verfügen kann.
+- Standardmäßig haben Bots keine Möglichkeit, im Namen des Benutzers zu handeln, aber Bots können Benutzer zur Anmeldung bitten. Sobald sich der Benutzer meldet, hat der Bot ein Zugriffstoken, mit dem er weitere Dinge tun kann. Was genau diese zusätzlichen Dinge sind, hängt vom Bot und davon ab, wo sich der Benutzer anmeldet: Ein Bot ist eine im [](https://apps.dev.microsoft.com/?referrer=https:%2f%2fdocs.microsoft.com%2f#/appList) Anwendungsregistrierungsportal registrierte Azure AD-App und kann über einen eigenen Satz von Berechtigungen verfügen.
 
 - Bots werden immer dann informiert, wenn Benutzer zu einem Team hinzugefügt oder aus einem Team gelöscht werden.
 
@@ -140,7 +139,7 @@ Keine (aktuell)
 
 ### <a name="considerations"></a>Überlegungen
 
-- Das Risikoprofil für eine Registerkarte ist nahezu identisch mit der Website, die auf einer Browserregisterkarte ausgeführt wird. 
+- Das Risikoprofil für eine Registerkarte ist nahezu identisch mit der Website, die auf einer Browserregisterkarte ausgeführt wird.
 
 - Eine Registerkarte ruft auch den Kontext ab, in dem sie ausgeführt wird, einschließlich Anmeldename und UPN des aktuellen Benutzers, der Azure AD-Objekt-ID für den aktuellen Benutzer, der ID der Microsoft 365-Gruppe, in der sie sich befindet (wenn es sich um ein Team befindet), die Mandanten-ID und das aktuelle Locale des Benutzers. Um diese IDs jedoch den Informationen eines Benutzers zu zuordnungen, muss sich der Benutzer über die Registerkarte bei einem Azure AD.
 
@@ -177,7 +176,7 @@ REPLYTO_CONNECTOR_MESSAGE. Bestimmte Connectors unterstützen handlungsbehbare N
 
 ## <a name="outgoing-webhooks"></a>Ausgehende Webhooks
 
-*Ausgehende Webhooks* werden von Teambesitzern oder Teammitgliedern im Web erstellt. Sie sind keine Funktionen Teams Apps; diese Informationen sind der Vollständigkeit halber enthalten.
+_Ausgehende Webhooks_ werden von Teambesitzern oder Teammitgliedern im Web erstellt. Sie sind keine Funktionen Teams Apps; diese Informationen sind der Vollständigkeit halber enthalten.
 
 ### <a name="required-permissions"></a>Erforderliche Berechtigungen
 

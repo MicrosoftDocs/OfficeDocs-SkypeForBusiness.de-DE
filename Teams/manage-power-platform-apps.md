@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie den Zugriff auf benutzerdefinierte Apps verwalten, die auf der Microsoft Power Platform im Microsoft Teams Admin Center erstellt wurden.
-ms.openlocfilehash: d2ccb100a0d6354b1fca62911b17afdd3479887b
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: c093d432faa8d4977f4d931ac948a35dc6fe6509
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070534"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442671"
 ---
 # <a name="manage-microsoft-power-platform-apps-in-the-microsoft-teams-admin-center"></a>Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center
 
@@ -76,7 +76,7 @@ Standardmäßig sind **freigegebene Power Apps** **und virtuelle Power Virtual A
 
 ### <a name="allow-or-block-microsoft-power-platform-apps-for-specific-users"></a>Zulassen oder Blockieren von Microsoft Power Platform-Apps für bestimmte Benutzer
 
-Wenn Sie bestimmten Benutzern in Ihrer Organisation den Zugriff auf in Power Apps oder Power Virtual Agents erstellte Apps gestatten oder blockieren möchten, erstellen Sie eine oder mehrere benutzerdefinierte [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), und weisen Sie sie zu. 
+Wenn Sie bestimmten Benutzern in Ihrer Organisation den Zugriff auf in Power Apps oder Power Virtual Agents erstellte Apps gestatten oder blockieren möchten, erstellen Sie eine oder mehrere benutzerdefinierte [App-Berechtigungsrichtlinien](teams-app-permission-policies.md), und weisen Sie sie zu.
 
 Um beispielsweise für bestimmte Benutzer den Zugriff auf in Power Apps erstellte Apps zu blockieren, erstellen Sie eine benutzerdefinierte App-Berechtigungsrichtlinie, um freigegebene **Power Apps zu** blockieren, und weisen Sie die Richtlinie dann diesen Benutzern zu.
 
@@ -84,7 +84,7 @@ Um beispielsweise für bestimmte Benutzer den Zugriff auf in Power Apps erstellt
 
 ### <a name="use-audit-logs-to-investigate-microsoft-power-platform-installation-activity"></a>Verwenden von Überwachungsprotokollen zum Untersuchen der Installationsaktivitäten der Microsoft Power Platform
 
-Mithilfe von Überwachungsprotokollen für Teams Ereignisse untersuchen, bei denen Benutzer Microsoft Power Platform-Apps im Abschnitt Von Ihren  Kollegen erstellt auf der Seite Apps in Teams. Durchsuchen Sie dazu das [](./audit-log-events.md) Überwachungsprotokoll nach dem Teams-Ereignis der installierten App (unter dem Vorgang **"AppInstalled**") nach einem Benutzer oder einer Gruppe von Benutzern. Um Apps zu **finden, die** unter Von Ihren Kollegen erstellt installiert wurden, suchen Sie in den Details eines bestimmten Datensatzes in der **AppDistributionMode-Eigenschaft** nach dem **TemplatedInstance-Wert**. 
+Mithilfe von Überwachungsprotokollen für Teams Ereignisse untersuchen, bei denen Benutzer Microsoft Power Platform-Apps im Abschnitt Von Ihren  Kollegen erstellt auf der Seite Apps in Teams. Durchsuchen Sie dazu das [](./audit-log-events.md) Überwachungsprotokoll nach dem Teams-Ereignis der installierten App (unter dem Vorgang **"AppInstalled**") nach einem Benutzer oder einer Gruppe von Benutzern. Um Apps zu **finden, die** unter Von Ihren Kollegen erstellt installiert wurden, suchen Sie in den Details eines bestimmten Datensatzes in der **AppDistributionMode-Eigenschaft** nach dem **TemplatedInstance-Wert**.
 
 :::image type="content" source="media/manage-power-platform-apps-audit.png" alt-text="Screenshot des TemplatedInstance-Werts in der Eigenschaft "AppDistributionMode".":::
 

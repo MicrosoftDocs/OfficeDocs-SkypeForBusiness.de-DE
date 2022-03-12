@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite Apps verwalten 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: ad1dd28f4de0bc6db0ab7b2870a1cf7b2dae007a
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070224"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442291"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
@@ -165,7 +165,7 @@ Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer e
     - **Drittanbieter-Apps zulassen**: Steuert, ob Benutzer Drittanbieter-Apps verwenden können. Wenn Sie diese Einstellung deaktivieren, können Ihre Benutzer keine Drittanbieter-Apps installieren oder verwenden, und der **App-Status** dieser Apps wird in der Tabelle als "Blockiert" angezeigt.
 
         > [!NOTE]
-        > Wenn Drittanbieter-Apps zulassen deaktiviert ist, sind ausgehende [Webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) weiterhin für alle Benutzer aktiviert, aber Sie können sie auf Benutzerebene steuern, indem Sie die ausgehende Webhook-App über **App-Berechtigungsrichtlinien** zulassen oder [blockieren.](teams-app-permission-policies.md) <br><br>Wenn Sie über vorhandene App-Berechtigungsrichtlinien für **Microsoft-Apps** verfügen,  die die Einstellung Bestimmte Apps zulassen und alle anderen blockieren verwenden, und Sie ausgehende Webhooks für Benutzer aktivieren möchten, fügen Sie die ausgehende Webhook-App zur Liste hinzu.[](teams-app-permission-policies.md)
+        > Wenn Drittanbieter-Apps zulassen deaktiviert ist, sind ausgehende [Webhooks](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors) weiterhin für alle Benutzer aktiviert, aber Sie können sie auf Benutzerebene steuern, indem Sie die ausgehende Webhook-App über **App-Berechtigungsrichtlinien** zulassen oder [blockieren.](teams-app-permission-policies.md) Wenn Sie über vorhandene App-Berechtigungsrichtlinien für **Microsoft-Apps** verfügen,  die die Einstellung Bestimmte Apps zulassen und alle anderen blockieren verwenden, und Sie ausgehende Webhooks für Benutzer aktivieren möchten, fügen Sie die ausgehende Webhook-App zur Liste hinzu.[](teams-app-permission-policies.md)
 
         > [!NOTE]
         > Benutzer von Microsoft Teams können Apps hinzufügen, wenn sie Besprechungen oder Chats mit Personen aus anderen Organisationen hosten. Sie können auch Apps verwenden, die von Personen in anderen Organisationen freigegeben werden, wenn sie an Besprechungen oder Chats teilnehmen, die von diesen Organisationen gehostet werden. Es werden die Datenrichtlinien der Organisation des Hostingbenutzers sowie die Datenfreigabemethoden von Drittanbieter-Apps, die von der Organisation dieses Benutzers freigegen werden, angewendet.

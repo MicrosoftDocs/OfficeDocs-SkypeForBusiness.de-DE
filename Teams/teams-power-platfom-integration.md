@@ -17,12 +17,12 @@ f1.keywords:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie Teams Integration in Microsoft Power Platform-Tools, einschließlich Power BI, Power-Apps, Power-Automatisierung und Power Virtual Agents.
-ms.openlocfilehash: a0e0854f5827e1496147ac88123fc91bca600ed8
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: f902e0a137f5a5f996623a9207e9e192b90bb6b7
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070564"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442491"
 ---
 # <a name="teams-integration-with-microsoft-power-platform"></a>Teams in die Microsoft Power Platform
 
@@ -47,7 +47,7 @@ Die neuen Funktionen stehen für ausgewählte Abonnements Microsoft 365 zur Verf
 
 - Weitere Informationen zu den Lizenzierungsanforderungen für Power Apps, Power Automate, Power Virtual Agents und Dataverse für Teams finden Sie unter [Lizenzierung.](/power-platform/admin/about-teams-environment)
 - Weitere Informationen zu den Lizenzierungsanforderungen für Power BI finden Sie unter [Anforderungen](/power-bi/collaborate-share/service-collaborate-microsoft-teams).
- 
+
 ## <a name="how-do-i-get-started"></a>Wie beginne ich?
 
 - [Power BI und Teams](/power-bi/collaborate-share/service-collaborate-microsoft-teams)

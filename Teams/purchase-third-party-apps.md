@@ -16,12 +16,12 @@ description: Informationen zum Erwerben von Drittanbieter-Apps für Apps Teams S
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 0ce9458bbec59eb80d399a78e5d3bce1611ca381
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 77a54fc6c6cf45492143d0548e488324514b500a
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070204"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442651"
 ---
 # <a name="purchase-third-party-apps-for-teams"></a>Erwerben Sie Apps von Drittanbietern für Teams
 
@@ -39,25 +39,26 @@ Hier können Sie auch Lizenzen für Dienste kaufen, die von Drittanbieter-Apps f
 > Wenn Sie ihren Benutzern den Kauf einer App über den Teams-App-Store sperren möchten, müssen Sie die App blockieren. Weitere Informationen zum Blockieren einer App finden Sie unter Verwalten von [App-Richtlinien](app-policies.md) oder Informationen zum Blockieren einer App [auf Organisationsebene](manage-apps.md#allow-and-block-apps).
 
 1. Wechseln Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Teams-Apps** > **Apps verwalten**. Sie müssen ein globaler Administrator oder ein Teams sein, um auf die Seite zugreifen zu können.
-2. Suchen Sie nach der App, die Sie verwenden möchten. Um Apps mit einem kostenpflichtigen SaaS-Abonnement zu identifizieren, sehen Sie in der Spalte **Lizenzen** nach. Jede App hat einen der folgenden Werte:
+1. Suchen Sie nach der App, die Sie verwenden möchten. Um Apps mit einem kostenpflichtigen SaaS-Abonnement zu identifizieren, sehen Sie in der Spalte **Lizenzen** nach. Jede App hat einen der folgenden Werte:
     - **Kauf**: Die App bietet ein SaaS-Abonnement und kann zum Kauf angeboten werden.  
     - **Gekauft**: Die App bietet ein SaaS-Abonnement, und Sie haben Lizenzen dafür erworben.
     - **- -**: Die App bietet kein SaaS-Abonnement an.
-3. Wenn Sie die App finden, **klicken Sie auf** Kaufen, um  auf der Seite mit den App-Details zur Registerkarte Pläne und Preise zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen benötigen, wählen Sie **Weitere Informationen** aus, um zur App-Seite in [AppSource zu wechseln](https://appsource.microsoft.com/).
+1. Wenn Sie die App finden, **klicken Sie auf** Kaufen, um  auf der Seite mit den App-Details zur Registerkarte Pläne und Preise zu wechseln. Überprüfen Sie die Pläne und Preisinformationen für das SaaS-Angebot für die App. Wenn Sie weitere Informationen benötigen, wählen Sie **Weitere Informationen** aus, um zur App-Seite in [AppSource zu wechseln](https://appsource.microsoft.com/).
 
-> [!NOTE]
-> Private Pläne können ebenfalls zum Kauf aufgeführt werden, z. B. Sonderpreise, die Ihre Organisation zuvor mit einem ISV ausgehandelt hat. Diese Pläne haben die Bezeichnung **Privater Plan** unter dem Plannamen.
+   > [!NOTE]
+   > Private Pläne können ebenfalls zum Kauf aufgeführt werden, z. B. Sonderpreise, die Ihre Organisation zuvor mit einem ISV ausgehandelt hat. Diese Pläne haben die Bezeichnung **Privater Plan** unter dem Plannamen.
 
-4. Wenn Sie eine App abonnieren möchten, wählen Sie den plan und dann Kaufen **aus**. Der Auscheckvorgang wird direkt im Admin Center Teams geöffnet.
-5. Wählen Sie die Anzahl der Benutzerlizenzen aus, die Sie kaufen möchten.
-6. Überprüfen Sie, ob das Abrechnungskonto und die verkaufte Adresse korrekt sind. Wenn Sie noch kein Konto haben, fügen Sie ein neues hinzu, indem Sie Hinzufügen **auswählen**. Weitere Informationen zu Abrechnungskonten finden Sie unter [Verstehen von Abrechnungskonten](/microsoft-365/commerce/manage-billing-accounts).
+1. Wenn Sie eine App abonnieren möchten, wählen Sie den plan und dann Kaufen **aus**. Der Auscheckvorgang wird direkt im Admin Center Teams geöffnet.
 
-> [!NOTE]
-> Sie müssen ein globaler Administrator sein, um ein neues Abrechnungskonto hinzufügen zu können.
+1. Wählen Sie die Anzahl der Benutzerlizenzen aus, die Sie kaufen möchten.
+1. Überprüfen Sie, ob das Abrechnungskonto und die verkaufte Adresse korrekt sind. Wenn Sie noch kein Konto haben, fügen Sie ein neues hinzu, indem Sie Hinzufügen **auswählen**. Weitere Informationen zu Abrechnungskonten finden Sie unter [Verstehen von Abrechnungskonten](/microsoft-365/commerce/manage-billing-accounts).
 
-7. Überprüfen Sie, ob das richtige Abrechnungsprofil ausgewählt ist. Wenn Sie noch keines haben, fügen Sie ein neues hinzu, indem Sie **Neu hinzufügen auswählen**. Sie haben die Möglichkeit, mit Kreditkarte, DEBIT-Karte oder mit [Rechnungsabrechnung zu bezahlen](#invoice-billing). Über das Abrechnungsprofil können Sie auch eine Bestellnummer hinzufügen, um Ihre Bestellung später zu identifizieren. Weitere Informationen zu Abrechnungsprofilen finden Sie unter [Verstehen von Abrechnungsprofilen](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
-8. Wählen Sie **Bestellung bestellen aus**.
-9. Wählen **Sie Einrichten aus** , um Ihr Abonnement auf der Website des Herausgebers zu aktivieren. Wenn Sie Ihr Abonnement nach Ihrem Kauf nicht einrichten, können Sie dies später tun, indem Sie **Lizenzen verwalten auswählen**.
+   > [!NOTE]
+   > Sie müssen ein globaler Administrator sein, um ein neues Abrechnungskonto hinzufügen zu können.
+
+1. Überprüfen Sie, ob das richtige Abrechnungsprofil ausgewählt ist. Wenn Sie noch keines haben, fügen Sie ein neues hinzu, indem Sie **Neu hinzufügen auswählen**. Sie haben die Möglichkeit, mit Kreditkarte, DEBIT-Karte oder mit [Rechnungsabrechnung zu bezahlen](#invoice-billing). Über das Abrechnungsprofil können Sie auch eine Bestellnummer hinzufügen, um Ihre Bestellung später zu identifizieren. Weitere Informationen zu Abrechnungsprofilen finden Sie unter [Verstehen von Abrechnungsprofilen](/microsoft-365/commerce/billing-and-payments/manage-billing-profiles).
+1. Wählen Sie **Bestellung bestellen aus**.
+1. Wählen **Sie Einrichten aus** , um Ihr Abonnement auf der Website des Herausgebers zu aktivieren. Wenn Sie Ihr Abonnement nach Ihrem Kauf nicht einrichten, können Sie dies später tun, indem Sie **Lizenzen verwalten auswählen**.
 
 Nachdem Sie das SaaS-Angebot erworben haben, das der Teams-App zugeordnet ist, können Sie auf der Seite mit den App-Details auf der Registerkarte Pläne und Preise die folgenden Kaufdetails anzeigen.
 

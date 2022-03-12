@@ -21,12 +21,12 @@ f1.keywords:
 ms.custom:
 - Calling Plans
 description: Erfahren Sie, wie Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organisation routen.
-ms.openlocfilehash: 4d9c40a0b4a01f7fae4a755603cb5cf7eb132f5c
-ms.sourcegitcommit: a969502c0a5237caf041d7726f4f1edefdd75b44
+ms.openlocfilehash: f53e83b3d4f26123feed70bdecad32cb45bc5588
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/12/2022
-ms.locfileid: "61767368"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442793"
 ---
 # <a name="routing-calls-to-unassigned-numbers"></a>Weiterleiten von Anrufen an nicht zugewiesene Nummern
 
@@ -36,13 +36,13 @@ Als Administrator können Sie Anrufe an nicht zugewiesene Nummern in Ihrer Organ
 
 - Routen aller Anrufe an eine bestimmte nicht zugewiesene Nummer an die Hauptschaltfläche.
 
-Sie können Anrufe an nicht zugewiesene Nummern an einen Benutzer, an ein Ressourcenkonto, das einem automatische Telefonzentrale-Konto oder einer Anrufwarteschleife zugeordnet ist, oder an einen Ankündigungsdienst, der dem Anrufer eine benutzerdefinierte Audiodatei wiedergibt, routen.
+Sie können Anrufe an nicht zugewiesene Nummern an einen Benutzer, an ein Ressourcenkonto, das einem automatische Telefonzentrale- oder Anrufwarteschleifen zugeordnet ist, oder an einen Ankündigungsdienst, der dem Anrufer eine benutzerdefinierte Audiodatei wiedergibt, weiter routen.
 
 ## <a name="configuration"></a>Konfiguration
 
-Um Anrufe an eine nicht zugewiesene Nummer weiterzuweisen, verwenden Sie das Cmd Teams let New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment, das im PowerShell-Modul 2.5.1 oder höher verfügbar ist.
+Um Anrufe an eine nicht zugewiesene Nummer weiterzuweisen, verwenden Sie das Cmdlet New/Get/Set/Remove-CsTeamsUnassignedNumberTreatment, das Teams im PowerShell-Modul 2.5.1 oder höher verfügbar ist.
 
-Sie müssen die aufgerufene Nummer oder den Nummernbereich sowie das zugehörige Routing für Anrufe an diese Nummern angeben. Mit dem folgenden Befehl wird beispielsweise angegeben, dass alle Aufrufe der Zahl +1 (555) 222-3333 an das Ressourcenkonto und aa@contoso.com:
+Sie müssen die aufgerufene Nummer oder den Nummernbereich sowie das zugehörige Routing für Anrufe an diese Nummern angeben. Mit dem folgenden Befehl wird beispielsweise angegeben, dass alle Aufrufe der Nummer +1 (555) 222-3333 an das Ressourcenkonto und aa@contoso.com:
 
 ``` PowerShell
 $RAObjectId = (Get-CsOnlineApplicationInstance -Identity aa@contoso.com).ObjectId
@@ -67,9 +67,9 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 
 - Wenn das Routing zu einer Ankündigung geht, wird die Audiodatei einmal für den Anrufer abgespielt.
 
-- Um Anrufe an nicht zugewiesene Abonnentennummern des Microsoft-Anrufplans weiter zu routen, muss Ihr Mandant über Guthaben [für Kommunikationen verfügen.](what-are-communications-credits.md)
+- Um Anrufe an nicht zugewiesene Microsoft Calling Plan-Abonnentennummern weiter zu senden, muss Ihr Mandant über Guthaben für [Kommunikationen verfügen](what-are-communications-credits.md).
 
-- Um Anrufe an nicht zugewiesene Microsoft-Anrufplan-Servicenummern weiter zu senden, muss Ihr Mandant über mindestens eine Lizenz Telefonsystem – virtueller Benutzer verfügen.
+- Um Anrufe an nicht zugewiesene Microsoft-Anrufplan-Servicenummern weiter zu senden, muss Ihr Mandant mindestens eine Lizenz Telefonsystem – virtueller Benutzer haben.
 
 - Die unterstützten Benutzerdefinierten Audiodateiformate sind WAV (unkomprimiert, linearer PCM mit 8/16/32-Bit-Tiefe in Mono oder Stereo), WMA (nur Mono) und MP3. Der Inhalt der Audiodatei darf nicht größer als 5 MB sein.
 
@@ -82,3 +82,5 @@ New-CsTeamsUnassignedNumberTreatment -Identity TR1 -Pattern "^\+1555333\d{4}$" -
 - [Set-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/set-csteamsunassignednumbertreatment)
 
 - [Remove-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/remove-csteamsunassignednumbertreatment)
+
+- [Test-CsTeamsUnassignedNumberTreatment](/powershell/module/teams/test-csteamsunassignednumbertreatment)

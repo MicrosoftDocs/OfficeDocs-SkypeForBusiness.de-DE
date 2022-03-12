@@ -18,12 +18,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 10adab9046a7cbd8cebccf6167075e38b1204dea
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: 0c2ec3432a503755ba6164f4a46f7b35f9696271
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070434"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442311"
 ---
 # <a name="teams-approvals-app-availability"></a>Verfügbarkeit der Microsoft Teams-App "Genehmigungen"
 
@@ -198,6 +198,7 @@ Weitere Informationen über die [Microsoft Dataverse- und modellgesteuerte App-A
 ## <a name="approvals-e-signature-integration"></a>Genehmigungen E-Signatur-Integration
 
 Um das E-Genehmigungen-Signaturfeature ihrer App verwenden zu können, benötigen Sie eine Lizenz für den jeweiligen E-Signatur-Anbieter, den Sie verwenden möchten. Um eine Lizenz für Ihre Organisation zu erhalten, müssen Sie zur Website des Anbieters wechseln.
+
 ### <a name="enable-or-disable-e-signature-providers"></a>Aktivieren oder Deaktivieren von E-Signatur-Anbietern
 
 Sie können das Teams Admin Center verwenden, um zu steuern, welche Drittanbieter-E-Signatur-Anbieter für Ihre Benutzer in der App verfügbar Genehmigungen sind. Standardmäßig sind E-Signatur-Anbieter in der App Genehmigungen aktiviert. Wenn Sie einen E-Signatur-Anbieter deaktivieren, haben die Benutzer keinen Zugriff auf diesen Anbieter, wenn sie Genehmigungen erstellen. Ihre Benutzer können auch keine E-Signatur-Anforderungen anzeigen, die mit diesem Anbieter erstellt wurden.

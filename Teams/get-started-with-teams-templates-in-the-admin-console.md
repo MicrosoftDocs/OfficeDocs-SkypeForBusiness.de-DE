@@ -18,30 +18,32 @@ ms.custom:
 - NewAdminCenter_Update
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: dd07e375a35ea212bccd988395b5c1adbd721011
-ms.sourcegitcommit: d3c48f0c147cf0c47d5eb4ea1128b5bca13be718
+ms.openlocfilehash: e65f7a0eef62197e90f77876129af95f32f4d6bc
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/01/2022
-ms.locfileid: "62299050"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442481"
 ---
 # <a name="get-started-with-team-templates-in-the-teams-admin-center"></a>Erste Schritte mit Teamvorlagen im Microsoft Teams Admin Center
 
 **Die Möglichkeit zum Erstellen von benutzerdefinierten Vorlagen wird für EDU-Kunden noch nicht unterstützt.**
 
 > [!NOTE]
-> Private Kanäle und Vertraulichkeitsbezeichnungen werden in Teamvorlagen derzeit nicht unterstützt. Die Erstellung privater Kanäle ist nicht in den Vorlagendefinitionen enthalten. Die Option für Vertraulichkeitsbeschriftung in **Team aus** Vorlagenfluss erstellen wird nicht auf das Team angewendet.
+> - Private Kanäle werden in Teamvorlagen derzeit nicht unterstützt. Die Erstellung privater Kanäle ist nicht in den Vorlagendefinitionen enthalten.
+>
+> - Vertraulichkeitsbezeichnungen werden in Teamvorlagen in GCC unterstützt. Die Option für Vertraulichkeitsbeschriftung im Fluss Team aus Vorlage erstellen wird nicht auf das Team angewendet.
 
 ## <a name="overview"></a>Übersicht
 
 Eine Teamvorlage in Microsoft Teams ist eine Definition der Teamstruktur, die auf einen geschäftlichen Bedarf oder ein geschäftliches Projekt ausgelegt ist. Als Administrator können Sie Vorlagen verwenden, um auf einfache Weise konsistente Teams in Der gesamten Organisation zu implementieren. Mit Vorlagen können Benutzer schnell umfangreiche Bereiche für die Zusammenarbeit mit vordefinierten Einstellungen, Kanälen und Apps erstellen.
 
-Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen](#create-your-own-team-templates). Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen in einem Dokument für Teams.
+Sie können Teamvorlagen im Microsoft Teams Admin Center oder mithilfe von PowerShell verwalten. Sie können die vordefinierten Vorlagen verwenden, die wir bereitstellen, und Sie können [auch eigene benutzerdefinierte Vorlagen erstellen](#create-your-own-team-templates). Sie können auch [Vorlagenrichtlinien anwenden,](#apply-team-template-policies) um zu steuern, welche Vorlagen für Ihre Benutzer in einem Teams.
 
 Dieser Artikel gibt Ihnen einen Überblick über die Arbeit mit Teamvorlagen im Teams Admin Center. Sie erfahren mehr über die eigenschaften, die von Vorlagen unterstützt werden, die von uns erstellten vordefinierten Vorlagen, die Grenzwerte für die Vorlagengröße, das Erstellen und Verwalten von Vorlagen und vieles mehr.
 
 > [!NOTE]
-> Ihre Benutzer können [Teams aus vordefinierten oder benutzerdefinierten Teamvorlagen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in der App Teams erstellen. Entwickler können Teams auch mithilfe von Microsoft-Vorlagen programmgesteuert aus vordefinierten Teamvorlagen Graph. Weitere Informationen finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md).
+> Ihre Benutzer können [Teams aus vordefinierten oder benutzerdefinierten Teamvorlagen](https://support.microsoft.com/office/create-a-team-from-a-template-a90c30f3-9940-4897-ab5b-988e69e4cd9c) in der App Teams erstellen. Entwickler können Teams auch programmgesteuert aus vordefinierten Teamvorlagen mithilfe von Microsoft Graph. Weitere Informationen finden Sie unter [Erste Schritte mit Teamvorlagen mit Microsoft Graph](get-started-with-teams-templates.md).
 
 ## <a name="team-template-capabilities"></a>Funktionen für Teamvorlagen
 
@@ -63,7 +65,7 @@ Die meisten Eigenschaften in einem Team werden eingeschlossen und von Teamvorlag
 
 ## <a name="pre-built-team-templates-in-the-teams-admin-center"></a>Vordefinierte Teamvorlagen im Teams Admin Center
 
-Dies sind die vordefinierten Teamvorlagen, die im Admin Center Teams sind. Vordefinierte Vorlagen sind Vorlagen, die wir für bestimmte Branchen erstellt haben. Zum Anzeigen dieser Vorlagen wechseln Sie in der linken Navigationsleiste Teams Admin Center **zu** >  Teams **Teamvorlagen**.
+Dies sind die vordefinierten Teamvorlagen, die im Admin Center Teams sind. Vordefinierte Vorlagen sind Vorlagen, die wir für bestimmte Branchen erstellt haben. Zum Anzeigen dieser Vorlagen wechseln Sie in der linken Navigationsleiste Teams Admin Center  >  zu Teams **Teamvorlagen**.
 
 Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie die Eigenschaften in einer vordefinierten Vorlage ändern möchten, können Sie eine neue Vorlage aus einer vorhandenen Vorlage erstellen und dann die von Ihnen verwendeten Eigenschaften hinzufügen oder entfernen. Beachten Sie, dass bestimmte Eigenschaften in einigen Vorlagen nicht geändert werden können.
 
@@ -76,10 +78,10 @@ Sie können vordefinierte Vorlagen duplizieren, aber nicht bearbeiten. Wenn Sie 
 |Helpdesk organisieren| `com.microsoft.teams.template.OrganizeHelpDesk`|Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Häufig gestellte Fragen</li></ul>Apps:<ul><li>Wiki</li><li>OneNote</li><li>Aufgaben </li><li>Lob</li><li>Problemmelder</li><li>Power Automate</li><li>Bulletins</li></ul> |
 | Patientenversorgung| `com.microsoft.teams.template.healthcareWard`| Kanäle:<ul><li>Allgemein</li><li>Ankündigungen</li><li>Huddles</li><li>Runden</li><li>Personal</li><li>Schulung</li></ul> Apps: <ul><li>Wiki</li><li>Listen  </li><li>Genehmigungen</li><li>Bulletins</li><li>Prüfung</li></ul>|
 | Kommunikation über Krisen |`com.microsoft.teams.template.CollaborateOnAGlobalCrisisOrEvent`| Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Nachrichten auf der ganzen Welt</li><li>Interne Kommas</li><li>Externe Kommas</li><li>Genehmigungen anfordern</li><li>Kundeneskalation</li><li>Update für Geschäftsleitung</li><li>Planung</li><li>Logistik</li></ul>Apps: <ul><li>Website</li><li>Aufgaben</li><li>Problemmelder</li><li>Genehmigungen</li><li>Bulletins</li><li>OneNote</li><li>Power Automate</li><li>SharePoint</li></ul>|
-|Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen anfrage </li><li>Coaching</li><li>Kompetenzentwicklung</li><li>Kreditbearbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problemmelder</li><li>Wiki</li><li>Kalender</li><li>Genehmigungen</li><li>Bulletins</li><li>Ideen</li></ul>|
+|Bankfiliale| `com.microsoft.teams.template.CollaborateWithinABankBranch`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Huddles</li><li>Kundenbesprechungen</li><li>Genehmigungen anforderung </li><li>Coaching</li><li>Kompetenzentwicklung</li><li>Kreditbearbeitung</li><li>Kundenbeschwerden</li><li>Kudos</li><li>Lustiges</li><li>Compliance</li></ul>Apps:<ul><li>Lob </li><li>Problemmelder</li><li>Wiki</li><li>Kalender</li><li>Genehmigungen</li><li>Bulletins</li><li>Ideen</li></ul>|
 |Reaktion auf Vorfälle| `com.microsoft.teams.template.CoordinateIncidentResponse`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Logistik</li><li>Planung</li><li>Wiederherstellung</li><li>Dringend</li></ul> Apps: <ul><li>Wiki</li><li>Excel</li><li>OneNote</li><li>SharePoint</li><li>Aufgaben</li> <li>Genehmigungen</li> <li>Prüfung</li> <li>Power Automate</li><li>Bulletins</li><li>Meilensteine</li></ul>|
 |Krankenhaus| `com.microsoft.teams.template.healthcareHospital` |Kanäle: <ul><li>Allgemein</li><li>Ankündigungen</li><li>Compliance</li><li>Sorgerecht</li><li>Personalwesen</li><li>Apotheke</li></ul> Apps: <ul><li>Wiki</li><li>Listen</li><li>Aufgaben</li><li>Genehmigungen</li><li>Schichten</li><li>Bulletins</li><li>Prüfung</li><li>Ideen</li></ul>|
-|Organisieren Sie eine Filiale| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
+|Ein Store organisieren| `com.microsoft.teams.template.retailStore` |Kanäle: <ul><li>Allgemein<li>Schichtübergabe</li><li>Bereitschaft der Filiale</li><li>Learning</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Schichten</li><li>Prüfung</li></ul>|
 |Einzelhandel für leitende Angestellte| `com.microsoft.teams.template.retailManagerCollaboration` |Kanäle: <ul><li>Allgemein<li>Vorgänge</li><li>Lernen</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li><li>Prüfung</li></ul>|
 |Qualität und Sicherheit |`com.microsoft.teams.template.QualitySafety`|Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Leadership</li><li>Wartung</li><li>Production Line 1</li><li>Production Line 2</li><li>Production Line 3</li><li>Gesundheit und Sicherheit</li><li>Schulung</li><li>Lustiges</li></ul> Apps: <ul><li>Wiki</li><li>Aufgaben</li> <li>Problemmelder</li> <li>Prüfung</li> </ul>|
 |Freiwillige verwalten| `com.microsoft.teams.template.ManageVolunteers` |Kanäle: <ul><li>Allgemein<li>Ankündigungen</li><li>Berichterstellung</li><li>Freiwilligenverwaltung</li><li>Engagement-Möglichkeiten</li><li>Onboarding von Freiwilligen</li></ul> Apps: <ul><li>Website</li><li>YouTube</li><li>Power BI</li><li>Power Apps</li><li>Aufgaben</li><li>SharePoint</li><li>OneNote</li></ul>|
@@ -119,7 +121,7 @@ Weitere Informationen finden Sie unter [Grenzwerte und Spezifikationen Teams](li
 
 #### <a name="view-team-templates"></a>Anzeigen von Teamvorlagen
 
-Zum Anzeigen von Teamvorlagen navigieren Sie in der linken Navigationsleiste Teams Admin Center zu **Teams** >  **Teamvorlagen**. Wählen Sie eine Vorlage aus, um weitere Details anzuzeigen, einschließlich der Kanäle und Apps, die sie enthält.
+Zum Anzeigen von Teamvorlagen wechseln Sie in der linken Navigationsleiste Teams Admin Center  >  zu Teams **Teamvorlagen**. Wählen Sie eine Vorlage aus, um weitere Details anzuzeigen, einschließlich der Kanäle und Apps, die sie enthält.
 
 #### <a name="create-your-own-team-templates"></a>Erstellen eigener Teamvorlagen
 

@@ -17,16 +17,16 @@ description: Mithilfe von Connectors bleiben Ihre Teams auf dem Laufenden, indem
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 39bc677b57a0cec5381c0d8f05b33d18b072769f
-ms.sourcegitcommit: de6eb0478a79e178c5d02cdab8cca44a88beb853
+ms.openlocfilehash: e42ef850c089633a6c9145935d6e70a92cdb6801
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/07/2022
-ms.locfileid: "63070724"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442691"
 ---
-# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams 
+# <a name="use-microsoft-365-and-custom-connectors-in-microsoft-teams"></a>Verwenden Microsoft 365 und benutzerdefinierten Verbindern in Microsoft Teams
 
-Connectors halten Ihr Team auf dem laufenden, indem häufig verwendete Inhalts- und Dienstupdates direkt in einem Kanal zur Verfügung gestellt werden. Mit Connectors können benutzer Microsoft Teams Updates von beliebten Diensten wie Trello, Wunderlist, GitHub und Azure DevOps Services innerhalb des Chatstreams im Team erhalten. 
+Connectors halten Ihr Team auf dem laufenden, indem häufig verwendete Inhalts- und Dienstupdates direkt in einem Kanal zur Verfügung gestellt werden. Mit Connectors können benutzer Microsoft Teams Updates von beliebten Diensten wie Trello, Wunderlist, GitHub und Azure DevOps Services innerhalb des Chatstreams im Team erhalten.
 
 Jedes Mitglied eines Teams kann sein Team mit beliebten Clouddiensten über die Connectors verbinden, sofern die Teamberechtigungen dies zulassen, und alle Teammitglieder werden über Aktivitäten dieses Diensts benachrichtigt. Verbinder funktionieren auch nach dem Verlassen des Verbinders weiterhin, nachdem das Mitglied, das den Verbinder eingerichtet hat, den Connector verlassen hat. Jedes Teammitglied mit der Berechtigung zum Hinzufügen\Entfernen kann die Einrichtung von Connectors durch andere Mitglieder ändern.
 
@@ -64,6 +64,7 @@ Derzeit können Sie Connectors mithilfe Microsoft Teams Desktop- und Webclients 
 > **Updatebenachrichtigung über die Connector-URL**
 >
 > Die Teams Connectors werden zur Verbesserung der Sicherheit auf eine neue URL umstellen. Während dieses Übergangs erhalten Sie bestimmte Benachrichtigungen zum Aktualisieren des konfigurierten Connectors für die Verwendung der neuen URL. Es wird dringend empfohlen, den Verbinder sofort zu aktualisieren, um Unterbrechungen der Connectordienste zu verhindern. Um die URL zu aktualisieren, müssen Sie die folgenden Schritte ausführen:
+>
 > 1. Auf der Konfigurationsseite für Connectors wird unter der Schaltfläche "Verwalten" die Meldung "Achtung erforderlich" für die Verbindungen angezeigt, die aktualisiert werden müssen.
 > ![Screenshot der Meldung "Achtung erforderlich".](media/Teams_Attention_Required_message.png)
 > 2. Bei eingehenden Webhook-Connectors können Benutzer die Verbindung neu herstellen, indem sie einfach **URL aktualisieren** auswählen und die neu generierte Webhook-URL verwenden.
@@ -72,8 +73,6 @@ Derzeit können Sie Connectors mithilfe Microsoft Teams Desktop- und Webclients 
 > 4. Nach dem erfolgreichen Aktualisieren der URL wird die Meldung "DIE URL ist aktuell" angezeigt.
 > ![Screenshot der Meldung "DIE URL ist aktuell".](media/Teams_URL_up_to_date.png)
 
-
 ## <a name="develop-custom-connectors"></a>Entwickeln von benutzerdefinierten Connectors
-
 
 Sie können auch benutzerdefinierte Connectors sowie eingehende und ausgehende Webhooks erstellen. Weitere Informationen finden Sie in der [Dokumentation für Entwickler](/microsoftteams/platform/webhooks-and-connectors/what-are-webhooks-and-connectors).

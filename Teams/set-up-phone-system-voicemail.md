@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie Cloud-Voicemail für Ihre Benutzer einrichten.
-ms.openlocfilehash: d2bb29130bad312dbd420c0adb8b16558232c258
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
+ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392867"
+ms.lasthandoff: 03/11/2022
+ms.locfileid: "63442321"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloud-Voicemail
 
@@ -107,7 +107,7 @@ Zum Verschlüsseln der Voicemailnachricht können Sie eine Vertraulichkeitsbezei
 
 Wenn Sie geschützte Voicemail aktivieren, können Benutzer geschützte Voicemailnachrichten abhören, indem sie sich in ihr Voicemail-Postfach einrufen oder indem sie die Nachricht in Outlook, Outlook im Web oder Outlook für Android oder iOS öffnen. Geschützte Voicemailnachrichten können nicht in einer Microsoft Teams oder Skype für Busimess geöffnet werden.
 
-Informationen zum Erstellen einer Vertraulichkeitsbezeichnung für Voicemail finden Sie unter [Verwenden von Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Wählen **Sie in Outlook eine der folgenden Einschränkungen** durch, und wählen Sie dann die Option Nicht **weiterleiten** aus.
+Informationen zum Erstellen einer Vertraulichkeitsbezeichnung für Voicemail finden Sie unter [Verwenden von Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Wählen Sie **im Abschnitt Verschlüsselung** die Option **Benutzern das Zuweisen von Berechtigungen gestatten, wenn sie die Bezeichnung anwenden aus**. Wählen **Sie in Outlook eine der folgenden Einschränkungen** durch, und wählen Sie dann die Option Nicht **weiterleiten** aus.
 
 Informationen zum Erstellen der Richtlinie zum automatischen Anwenden einer Vertraulichkeitsbezeichnung auf Voicemail finden Sie unter Konfigurieren von Richtlinien für die automatische [Bezeichnung und Angeben](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) der folgenden spezifischen Einstellungen:
 
