@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 2127ada4a289a04176a2ae743299c3176df4a661
-ms.sourcegitcommit: 766199440a152d97c95c2c45b7c4654815e64d9a
+ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
+ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62963396"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "63463748"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -85,14 +85,14 @@ In der folgenden Tabelle wird beschrieben, welche Aktionen Besitzer, Mitglieder 
 
 ## <a name="private-channel-sharepoint-sites"></a>SharePoint-Websites im privaten Kanal
 
-Jeder private Kanal hat seine eigene SharePoint-Website. Die separate Website soll sicherstellen, dass der Zugriff auf die Dateien des privaten Kanals nur für Mitglieder des privaten Kanals möglich ist. Diese Websites werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Website mit vollem Funktionsumfang erweitert werden. Jede Website wird in derselben geografischen Region wie die Website für das übergeordnete Team erstellt. Diese Lightweight-Websites verfügen über eine benutzerdefinierte Vorlagen-ID, "TEAMCHANNEL # 0", um die Verwaltung über PowerShell und die Graph-API zu vereinfachen. 
+Jeder private Kanal hat seine eigene SharePoint-Website. Die separate Website soll sicherstellen, dass der Zugriff auf die Dateien des privaten Kanals nur für Mitglieder des privaten Kanals möglich ist. Diese Websites werden standardmäßig mit einer Dokumentbibliothek erstellt und können über die [Benutzeroberfläche für die Websiteverwaltung](https://support.office.com/article/A2F2A5C2-093D-4897-8B7F-37F86D83DF04) auf einfache Weise in eine Website mit vollem Funktionsumfang erweitert werden. Jede Website wird in derselben geografischen Region wie die Website für das übergeordnete Team erstellt. Diese abgespeckten Websites verfügen über eine benutzerdefinierte Vorlagen-ID, „TEAMCHANNEL#0“ oder „TEAMCHANNEL#1“, um die Verwaltung über PowerShell und die Graph-API zu vereinfachen. 
 
 > [!NOTE]
 > Nur Personen mit Besitzer- oder Mitgliedsberechtigungen im Kanal haben Zugriff auf Inhalte auf der freigegebenen Kanalwebsite. Personen im übergeordneten Team und Administratoren haben keinen Zugriff, es sei denn, sie sind auch Kanalmitglieder.
 
 Eine Website eines privaten Kanals synchronisiert die Datenklassifizierung und erbt Gastzugriffsberechtigungen von der Website des übergeordneten Teams. Die Mitgliedschaft bei den Gruppen "Besitzer" oder "Mitglied" der Website wird mit der Mitgliedschaft des privaten Kanals innerhalb von Teams synchronisiert. Websiteberechtigungen für die Website eines privaten Kanals können nicht unabhängig über SharePoint verwaltet werden. 
 
-Teams verwaltet den Lebenszyklus der Website des privaten Kanals. Wenn die Website außerhalb von Teams gelöscht wird, kann die Website in einem Hintergrundauftrag innerhalb von vier Stunden wiederhergestellt werden, sofern der private Kanal noch aktiv ist.
+Teams verwaltet den Lebenszyklus der privaten Kanalsite. Wenn die Website außerhalb von Teams gelöscht wird, stellt ein Hintergrundauftrag die Website innerhalb von vier Stunden wieder her, solange der private Kanal noch aktiv ist.
 
 Wird ein privater Kanal oder ein Team, das einen privaten Kanal enthält, wiederhergestellt, werden die Websites darin wiederhergestellt. Wenn eine Website eines privaten Kanals wiederhergestellt wird und das 30-Tage-Fenster für "vorläufiges Löschen" für den privaten Kanal überschritten ist, wird die Website als eigenständige Website ausgeführt.
 
