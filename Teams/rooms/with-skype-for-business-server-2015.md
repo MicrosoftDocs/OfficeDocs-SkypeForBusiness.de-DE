@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen Microsoft Teams-Räume mit Skype for Business Server
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,16 +15,16 @@ ms.collection:
 ms.assetid: a038e34d-8bc8-4a59-8ed2-3fc00ec33dd7
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Skype for Business Server.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 702eb2128dd37980fd3fc76548638102d45d7af9
-ms.sourcegitcommit: 1165a74b1d2e79e1a085b01e0e00f7c65483d729
+ms.openlocfilehash: 358fa9295ec150f9c57a18252c76d309078b8e29
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/08/2021
-ms.locfileid: "61355620"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503482"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-skype-for-business-server"></a>Bereitstellen Microsoft Teams-Räume mit Skype for Business Server
   
-In diesem Thema wird erläutert, wie Sie ein Ressourcenkonto für eine Microsoft Teams-Räume bei einer lokalen Bereitstellung mit einer Gesamtstruktur hinzufügen.
+In diesem Thema wird erläutert, wie Sie ein Ressourcenkonto für Microsoft Teams-Räume bei einer lokalen Bereitstellung mit einer Gesamtstruktur hinzufügen.
   
 Wenn Sie über eine lokale Bereitstellung mit einer Gesamtstruktur mit Exchange 2013 SP1 oder höher und Skype for Business Server 2015 oder höher verfügen, können Sie die bereitgestellten Windows PowerShell-Skripts verwenden, um Gerätekonten zu erstellen. Wenn Sie eine Bereitstellung mit mehreren Gesamtstrukturen verwenden, können Sie entsprechende Cmdlets verwenden, die dieselben Ergebnisse erzeugen. Diese Cmdlets werden in diesem Abschnitt beschrieben.
   
@@ -60,7 +60,7 @@ Bevor Sie mit der Bereitstellung Microsoft Teams-Räume, stellen Sie sicher, das
    -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String <password> -AsPlainText -Force)
    ```
 
-3. Sie können verschiedene Exchange Eigenschaften für das Ressourcenkonto Teams-Räume festlegen, um die Besprechungserfahrung für die Benutzer zu verbessern. Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.
+3. Sie können verschiedene Exchange-Eigenschaften für das Ressourcenkonto Teams-Räume festlegen, um die Besprechungserfahrung für die Benutzer zu verbessern. Im Abschnitt zu den Exchange-Eigenschaften sehen Sie, welche Eigenschaften Sie festlegen müssen.
 
    ``` Powershell
    Set-CalendarProcessing -Identity ConferenceRoom01 -AutomateProcessing AutoAccept -AddOrganizerToSubject $false -AllowConflicts $false -DeleteComments
@@ -80,16 +80,16 @@ Bevor Sie mit der Bereitstellung Microsoft Teams-Räume, stellen Sie sicher, das
    Set-AdUser ConferenceRoom01@contoso.com -Enabled $true
    ```
 
-6. Aktivieren Sie das Ressourcenkonto mit Skype for Business Server, indem Sie Ihr Microsoft Teams-Räume Active Directory-Konto in einem Skype for Business Server aktivieren:
+6. Aktivieren Sie das Ressourcenkonto für Skype for Business Server, indem Sie Ihr Microsoft Teams-Räume Active Directory-Konto in einem Skype for Business Server aktivieren:
 
    ``` Powershell
    Enable-CsMeetingRoom -Identity ConferenceRoom01 -SipAddress sip:ConferenceRoom01@contoso.com -DomainController DC-ND-001.contoso.com
    -RegistrarPool LYNCPool15.contoso.com 
    ```
 
-    Ändern Sie die `-DomainController` `-RegistrarPool` Attribute und in Werte, die für Ihre Umgebung geeignet sind.
+    Ändern Sie die `-DomainController` Attribute `-RegistrarPool` und in Werte, die für Ihre Umgebung geeignet sind.
 
-7. **Optional.** Sie können Benutzern auch Microsoft Teams-Räume, Telefonanrufe im öffentlichen Telefonnetz (PSTN) zu erstellen und zu empfangen, indem Sie Enterprise-VoIP Für Ihr Konto aktivieren. Enterprise-VoIP ist für Microsoft Teams-Räume keine Voraussetzung, aber wenn Sie PSTN-Wählfunktionen für Microsoft Teams-Räume verwenden möchten, können Sie sie wie hier gezeigt aktivieren:
+7. **Optional.** Sie können Benutzern auch Microsoft Teams-Räume, Telefonanrufe im öffentlichen Telefonnetz (PSTN) zu erstellen und zu empfangen, indem Sie Enterprise-VoIP Für Ihr Konto aktivieren. Enterprise-VoIP ist keine Voraussetzung für Microsoft Teams-Räume, aber wenn Sie PSTN-Wählfunktionen für Microsoft Teams-Räume verwenden möchten, können Sie sie wie hier gezeigt aktivieren:
 
    ``` Powershell
    Set-CsMeetingRoom -Identity ConferenceRoom01 -DomainController DC-ND-001.contoso.com -LineURI "tel:+14255550555;ext=50555"

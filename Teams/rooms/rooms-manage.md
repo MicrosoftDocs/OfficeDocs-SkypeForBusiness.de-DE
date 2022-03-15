@@ -1,7 +1,7 @@
 ---
 title: Microsoft Teams-Räume verwalten
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -13,42 +13,42 @@ ms.localizationpriority: medium
 ms.assetid: 39d7dc65-22c3-400f-91f1-87ed2fd792b6
 ms.collection:
 - M365-collaboration
-description: Hier erfahren Sie, wie Sie laufende Wartungs- und Betriebsvorgänge entwickeln und ausführen, um sicherzustellen, dass Microsoft Teams-Räume-System für Ihre Benutzer verfügbar sind.
+description: Hier erfahren Sie, wie Sie laufende Wartungs- und Betriebsvorgänge entwickeln und ausführen, um sicherzustellen, dass ihre Microsoft Teams-Räume-Systeme für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 72e6a89e23ddb8874c6fe9e262759d2aab4522e7
-ms.sourcegitcommit: fd4d7557997c537c094e79ada21c569acde65aa6
+ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/02/2022
-ms.locfileid: "62312248"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504102"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams-Räume verwalten
 
-Wenn Sie über Microsoft Teams-Räume in Ihrer Organisation verfügen, haben Sie flexible Verwaltungsoptionen.  Sie können die Geräte selbst an demselben zentralen Ort verwalten, an dem Sie alle ihre Teams, Microsoft Teams Admin Center verwalten. Alternativ können Sie Verwaltungsverantwortliche an dedizierte Experten übertragen, die [Microsoft Teams-Räume Dienste verwenden](https://portal.rooms.microsoft.com).  Sie können für eine der Optionen auch den Verwaltungszugriff an einen Partner Ihrer Wahl delegieren.
+Wenn Sie über Microsoft Teams-Räume in Ihrer Organisation verfügen, haben Sie flexible Verwaltungsoptionen.  Sie können die Geräte selbst an demselben zentralen Ort verwalten, an dem Sie alle ihre Teams verwalten, Microsoft Teams Admin Center. Alternativ können Sie Verwaltungsverantwortliches an dedizierte Experten übertragen, die [Microsoft Teams-Räume Dienste verwenden](https://portal.rooms.microsoft.com).  Sie können für eine der Optionen auch den Verwaltungszugriff an einen Partner Ihrer Wahl delegieren.
 
 Mit Microsoft Teams Admin Center können Sie:
 
 - Ausführen der Geräteverwaltung wie Neustarten von Geräten und Herunterladen von Geräteprotokollen
 - Anwenden Teams spezifischen Einstellungen
-- Überprüfen sie den Integritätsstatus Microsoft Teams-Räume Und ihre Peripheriegeräte, einschließlich Kameras, Displays, Mikrofone und so weiter
+- Überprüfen Des Integritätsstatus Microsoft Teams-Räume Peripheriegeräten, einschließlich Kameras, Anzeigen, Mikrofonen und so weiter
 - Überprüfen der aktuellen und vergangenen Besprechungsaktivität (z. B. Details zur Anrufqualität, Netzwerkinte health und Konnektivität und Anzahl der Teilnehmer)
 - Peripheriegeräte (z. B. Kameras und Projektoren) sehen, die an Microsoft Teams-Räume
 
 Um Ihre Teams-Räume zu verwalten, öffnen Sie [das Microsoft Teams Admin Center](https://admin.teams.microsoft.com), und wechseln Sie zu Teams **Geräte** >  **Teams-Räume auf Windows**.
 
-:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams-Räume Zusammenfassungsseite im Teams Admin Center anzeigen.":::
+:::image type="content" source="../media/teams-rooms-summary2.png" alt-text="Teams-Räume Zusammenfassungsseite im Teams Admin Center.":::
 
 
 > [!IMPORTANT]
-> Um Geräte mithilfe des Teams Admin Centers zu verwalten, müssen Ihnen die Rollen "Globaler Administrator", "Teams-Administrator" oder "Teams Geräteadministrator" zugewiesen sein.
+> Um Geräte mithilfe des Teams Admin Centers zu verwalten, müssen Ihnen die Rollen "Globaler Administrator", "Teams-Administrator" oder "Teams-Geräteadministrator" zugewiesen sein.
 
 ## <a name="make-changes-to-teams-rooms-devices"></a>Vornehmen von Änderungen an Teams-Räume-Geräten
 
-Wenn Sie über mehrere Teams-Räume verfügen, können Sie die meisten Aktionen auf mehreren Geräten gleichzeitig ausführen. So können Sie beispielsweise Teams-App-Einstellungen für alle Ihre Teams-Räume gleichzeitig festlegen.
+Wenn Sie über mehrere Teams-Räume verfügen, können Sie die meisten Aktionen auf mehreren Geräten gleichzeitig ausführen. Sie können z. B. Teams App-Einstellungen für alle Ihre Teams-Räume gleichzeitig festlegen.
 
 ### <a name="device-settings"></a>Geräteeinstellungen
 
-Sie können Einstellungen für einen oder mehrere Teams-Räume in Ihrer Organisation ändern. Wenn Sie Einstellungen ändern möchten, wählen Sie das gerät oder die Geräte aus, die Sie verwalten möchten, und wählen Sie dann Bearbeiten **Einstellungen**. Ein neuer Bereich mit allen Einstellungen, die Sie ändern können, wird geöffnet. In der folgenden Tabelle sind die Einstellungen aufgeführt, die Sie mithilfe des Teams Admin Center ändern können. Einige Einstellungen sind nur verfügbar, wenn Sie ein einzelnes Teams-Räume.
+Sie können Einstellungen für einen oder Teams-Räume in Ihrer Organisation ändern. Um Einstellungen zu ändern, wählen Sie das zu verwaltende Gerät oder die Geräte und dann Bearbeiten **Einstellungen.** Ein neuer Bereich mit allen Einstellungen, die Sie ändern können, wird geöffnet. In der folgenden Tabelle sind die Einstellungen aufgeführt, die Sie über das admin center Teams können. Einige Einstellungen sind nur verfügbar, wenn Sie ein einzelnes Teams-Räume.
 
 Wenn Sie mehrere Optionen auswählen, werden für Einstellungen, die die Massenbearbeitung unterstützen, die beiden folgenden Optionen angezeigt:
 
@@ -107,19 +107,19 @@ Wenn Sie mehrere Optionen auswählen, werden für Einstellungen, die die Massenb
 
 ### <a name="cortana-settings"></a>Cortana-Einstellungen
 
-Sie können _Cortana für die_ Sprachaktivierung _oder Push_ aktivieren, um mithilfe von PowerShell für alle Geräte in Ihrer Organisation oder für jedes Gerät separat zu sprechen.
+Sie können _Cortana Sprachaktivierung_ oder _Push aktivieren_, um mithilfe von PowerShell für alle Geräte in Ihrer Organisation oder für jedes Gerät separat zu sprechen.
 
 Weitere [Microsoft Teams-Räume der Windows](../cortana-in-teams.md) im Artikel "Cortana Sprachunterstützung in Teams".
 
 ### <a name="front-row-layout-settings"></a>Layouteinstellungen für die Erste Zeile
 
-Die erste Zeile ist die Layoutoption für die Besprechungsansicht Teams-Räume Besprechungen Windows.
+Die erste Zeile ist die Layoutoption für Besprechungsansichten Teams-Räume Besprechungen Windows.
 
 | Teams Gerät | App-Version | Vor dem Raumanzeige |
 |--------------|-------------|-----------------------|
 |Microsoft Teams-Räume auf Windows | 4.11.12.0 oder höher (Die neueste Version wird empfohlen) | Unterstützt single- und duale Anzeigen. Mindestgröße: 46 Zoll; Seitenverhältnis 16:9 mit Einer Auflösung von 1920*1080 oder 21:9 mit einer Auflösung von 2560 x 1080; Alle Anzeigen sollten in den Einstellungen Windows 100 % Windows werden |
 
-Informationen [Microsoft Teams-Räume Wartungs- und Betriebsvorgänge](rooms-operations.md#change-scale-and-resolution) finden Sie unter Anpassen der Anzeigeeinstellungen an die Anforderungen der Zeile "Front".
+Informationen [Microsoft Teams-Räume, wie Sie die](rooms-operations.md#change-scale-and-resolution) Anzeigeeinstellungen an die Anforderungen der Zeile "Front Row" anpassen können, finden Sie unter Wartung und Vorgänge.
 
 Informationen zum Festlegen der Zeile "Vorn" als Standardlayout für einen Raum oder zum Deaktivieren finden Sie unter Remoteverwaltung einer Microsoft Teams-Räume-Konsoleneinstellungen mit einer [XML-Konfigurationsdatei](xml-config-file.md#set-front-row-as-the-default-layout).
 
@@ -145,7 +145,7 @@ Wenn Sie ein Gerät entfernen und es weiterhin mit einem gültigen Benutzernamen
 
 Gehen Sie wie folgt vor, um ein oder mehrere Geräte zu entfernen:
 
-1. Wechseln Sie **zu Teams Geräte** >  **Teams-Räume auf Windows**, und wählen Sie die Geräte aus, die Sie entfernen möchten.
+1. Wechseln Sie **Teams Geräte** >  **Teams-Räume auf Windows**, und wählen Sie die Geräte aus, die Sie entfernen möchten.
 2. Wählen Sie **Entfernen** aus.
 
 ## <a name="download-device-logs"></a>Herunterladen von Geräteprotokollen
@@ -164,16 +164,16 @@ Im Teams Admin Center können Sie den Gesamtstatus aller Geräte in Ihrer Organi
 
 ### <a name="teams-rooms-system-dashboard"></a>Teams-Räume Systemdashboard
 
-Im Teams-Räume-Systemdashboard können Sie den Status und Status aller Ihrer Geräte auf einen Blick sehen.
+Im Teams-Räume Systemdashboard können Sie den Status und Status aller Ihrer Geräte auf einen Blick sehen.
 
 ### <a name="device-details-view"></a>Ansicht "Gerätedetails"
 
 Wenn Sie detaillierte Informationen zu einem Gerät anzeigen möchten, wählen Sie dessen Namen aus der Geräteliste aus. In der Detailansicht werden die folgenden Informationen zu Ihrem Gerät angezeigt:
 
-- **Integritätsstatus** Zeigt den Gesamtzustand des Teams Raumgeräts an. Der Status kann entweder fehlerfrei **oder** **fehlerhaft sein**.
+- **Integritätsstatus** Zeigt den Gesamtzustand des Teams des Raumgeräts an. Der Status kann entweder fehlerfrei **oder** **fehlerhaft sein**.
 - **Offline seit** Zeigt an, wie Microsoft 365 zuletzt mit dem Gerät kommunizieren konnte.
-- **Gerätestatus** Zeigt den aktuellen Status des Geräts an: **Idle (Leerlauf**), **Teams Besprechung**, **Skype Besprechung** oder **Ingest (Ingest**).
-- **Peripheriegeräte** Zeigt die an Ihr Gerät Teams angeschlossenen Peripheriegeräte und deren Integritätsstatus an. Statusstatus kann entweder Verbunden **oder** Getrennt **sein**.
+- **Gerätestatus** Zeigt den aktuellen Status des Geräts an: **Inaktiv**, **Teams Besprechung**, **Skype oder** **Erfassung**.
+- **Peripheriegeräte** Zeigt die an ihr Gerät Teams angeschlossenen Peripheriegeräte und deren Integritätsstatus an. Statusstatus kann entweder Verbunden **oder** Getrennt **sein**.
 - **Integrität** Zeigt detaillierte Informationen zu Peripheriegeräten, die an Ihr Teams-Raumgerät angeschlossen sind, Netzwerkverbindung, Anmeldestatus bei erforderlichen Diensten und Informationen zur Softwareversion.
 - **Details** Zeigt Herstellerinformationen, Netzwerk-IP-Adresse und Teams Seriennummer/MAC-Adresse des Raumgeräts an.
 - **Aktivität** Zeigt vergangene Besprechungsdetails an, einschließlich Datum und Uhrzeit der Besprechung, Anzahl der Teilnehmer, Dauer und Audioqualität. Weitere Informationen zu Besprechungsdetails finden Sie im Abschnitt [Details](#meeting-activity-details) zur Besprechungsaktivität weiter unten in diesem Artikel.
@@ -181,7 +181,7 @@ Wenn Sie detaillierte Informationen zu einem Gerät anzeigen möchten, wählen S
 
 #### <a name="meeting-activity-details"></a>Details zur Besprechungsaktivität
 
-Auf **der** Registerkarte "Aktivität" in Teams Raumgeräts werden auf hoher Ebene detaillierte Informationen zu allen Besprechungen angezeigt, an der das Gerät im Laufe der Zeit teilgenommen hat. Auf der **Registerkarte Aktivität** können Sie sehen, wann eine Besprechung abgehalten wurde, wie viele Teilnehmer an der Besprechung teilgenommen haben und wie gut die Audioqualität während der Besprechung war.
+Auf **der** Registerkarte Aktivität in Teams Des Raumgeräts werden auf hoher Ebene detaillierte Informationen zu allen Besprechungen angezeigt, an der das Gerät im Laufe der Zeit teilgenommen hat. Auf der **Registerkarte Aktivität** können Sie sehen, wann eine Besprechung abgehalten wurde, wie viele Teilnehmer an der Besprechung teilgenommen haben und wie gut die Audioqualität während der Besprechung war.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-summary.png" alt-text="Teams Zusammenfassung der Aktivitäten des Raumgeräts.":::
 
@@ -191,10 +191,10 @@ Wenn Sie die Detailinformationen zu einer bestimmten Besprechung sehen möchten,
 
 Auf der Teilnehmerzusammenfassungsseite werden alle Teilnehmer angezeigt, die an der Besprechung teilgenommen haben. Sie können sehen, wann jeder Teilnehmer der Besprechung beigetreten ist, seinen Namen, die Audioqualität und die Funktionen sehen, die während der Sitzung verwendet wurden. Um die Details der Sitzung eines Teilnehmers anzuzeigen, wählen Sie die Startzeit der Sitzung für den Teilnehmer aus.
 
-:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Sie Konferenzdetails für Raumgeräte.":::
+:::image type="content" source="../media/teams-rooms-meeting-activity-participant-summary.png" alt-text="Teams Konferenzdetails für Raumgeräte an.":::
 
 ##### <a name="participant-details"></a>Teilnehmerdetails
 
-Auf der Seite "Teilnehmerdetails" werden End-to-End-Diagnoseinformationen für die Sitzung dieses Teilnehmers angezeigt. Wie in der folgenden Abbildung gezeigt, werden **Geräte**-, **System**- und Verbindungsinformationen für den Teilnehmer und das Teams-Räume bereitgestellt. **Darüber** hinaus werden Netzwerkdiagnoseinformationen zwischen dem Teilnehmer und Teams-Räume Gerät bereitgestellt. Wählen Sie das Symbol für den Kontext aus, zu dem Sie weitere Informationen wünschen. Um weitere Diagnoseinformationen zu erhalten, wählen Sie die **Registerkarte Erweitert** aus.
+Auf der Seite "Teilnehmerdetails" werden End-to-End-Diagnoseinformationen für die Sitzung dieses Teilnehmers angezeigt. Wie in der folgenden Abbildung gezeigt, werden **Geräte**-, **System**- und **Konnektivitätsinformationen** für den Teilnehmer und das Teams-Räume bereitgestellt. **Darüber** hinaus werden Netzwerkdiagnoseinformationen zwischen dem Teilnehmer und Teams-Räume Gerät bereitgestellt. Wählen Sie das Symbol für den Kontext aus, zu dem Sie weitere Informationen wünschen. Um weitere Diagnoseinformationen zu erhalten, wählen Sie die **Registerkarte Erweitert** aus.
 
 :::image type="content" source="../media/teams-rooms-meeting-activity-participant-details.png" alt-text="Teams Sie Anrufdetails für Raumgeräte.":::

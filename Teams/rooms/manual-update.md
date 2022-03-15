@@ -1,7 +1,7 @@
 ---
-title: Manuelles Aktualisieren eines Microsoft Teams-Räume Geräts
-ms.author: dstrome
-author: dstrome
+title: Manuelles Aktualisieren Microsoft Teams-Räume Geräts
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -15,16 +15,16 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Erfahren Sie, wie Sie Ihr Microsoft Teams-Räume auf eine bestimmte Version aktualisieren.
-ms.openlocfilehash: 0b8ec08880d3f8c7ecce28293c92fb6ada901277
-ms.sourcegitcommit: d2c76fe7705acf6e53f7673861671b1b018813dd
+ms.openlocfilehash: 647a961e238d452fd3bfe162ffe8552e64329677
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/13/2022
-ms.locfileid: "62014995"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503722"
 ---
-# <a name="manually-update-a-microsoft-teams-rooms-device"></a>Manuelles Aktualisieren eines Microsoft Teams-Räume Geräts
+# <a name="manually-update-a-microsoft-teams-rooms-device"></a>Manuelles Aktualisieren Microsoft Teams-Räume Geräts
 
-Die Microsoft Teams-Räume-App wird über die App Microsoft Store. Updates für die App werden während der nächtlichen Wartung automatisch Microsoft Store installiert. Dies ist die empfohlene Methode zum Erhalten von Updates. Es gibt jedoch einige Situationen, in denen ein Teams-Räume keine Updates vom Gerät empfangen Microsoft Store. Sicherheitsrichtlinien lassen beispielsweise möglicherweise nicht zu, dass Geräte eine Verbindung mit dem Internet herstellen, oder sie gestatten nicht, Apps aus dem Internet Microsoft Store. Oder Sie möchten ein Gerät aktualisieren, bevor Sie das Setup durchführen, während dessen Microsoft Store nicht verfügbar ist.
+Die Microsoft Teams-Räume-App wird über die App Microsoft Store. Updates für die App werden während der Nachtwartung automatisch Microsoft Store installiert. Dies ist die empfohlene Methode, um Updates zu erhalten. Es gibt jedoch einige Situationen, in denen ein Teams-Räume keine Updates vom Gerät empfangen Microsoft Store. Sicherheitsrichtlinien lassen beispielsweise möglicherweise nicht zu, dass Geräte eine Verbindung mit dem Internet herstellen, oder sie gestatten das Herunterladen von Apps aus Microsoft Store. Oder Sie möchten ein Gerät aktualisieren, bevor Sie das Setup durchführen, während dessen Microsoft Store nicht verfügbar ist.
 
 Wenn Sie keine Updates von Microsoft Store erhalten können, können Sie ein PowerShell-Skript für offline-App-Updates verwenden, um Ihre Teams-Räume-Geräte manuell auf eine neuere Version der Teams-Räume-App zu aktualisieren. Führen Sie die Schritte in diesem Artikel aus, um Ihre Teams-Räume zu aktualisieren.
 
@@ -33,7 +33,7 @@ Wenn Sie keine Updates von Microsoft Store erhalten können, können Sie ein Pow
 
 ## <a name="step-1-download-the-offline-app-update-script"></a>Schritt 1: Herunterladen des Aktualisierungsskripts für die Offline-App
 
-Laden Sie zuerst die neueste Version des Aktualisierungsskripts für Offline-Apps herunter. Um das Skript herunterzuladen, klicken Sie auf <https://go.microsoft.com/fwlink/?linkid=2151817> . Das Skript wird in den Standardordner für Downloads auf Ihrem Gerät heruntergeladen.
+Laden Sie zuerst die neueste Version des Aktualisierungsskripts für Offline-Apps herunter. Um das Skript herunterzuladen, klicken Sie auf <https://go.microsoft.com/fwlink/?linkid=2151817>. Das Skript wird in den Standardordner für Downloads auf Ihrem Gerät heruntergeladen.
 
 Heruntergeladene Dateien werden möglicherweise von anderen als blockiert Windows. Wenn Sie das Skript ohne Interaktion ausführen müssen, müssen Sie die Blockierung des Skripts aufheben. Gehen Sie zum Aufheben der Blockierung des Skripts wie folgt vor:
 
@@ -42,25 +42,25 @@ Heruntergeladene Dateien werden möglicherweise von anderen als blockiert Window
 3. Wählen Sie **Blockierung aufheben aus.**
 4. Klicken Sie **auf OK.**
 
-Informationen zum Aufheben der Blockierung des Skripts mithilfe von PowerShell finden Sie unter [Aufheben der Blockierung von -Datei.](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1)
+Informationen zum Aufheben der Blockierung des Skripts mithilfe von PowerShell finden Sie unter [Aufheben der Blockierung von Dateien](/powershell/module/microsoft.powershell.utility/unblock-file?view=powershell-7.1).
 
 Nachdem das Updateskript für die Offline-App heruntergeladen wurde, übertragen Sie die Datei auf das Teams-Räume Gerät. Sie können eine Datei auf das Gerät übertragen, indem Sie ein USB-Laufwerk verwenden oder über eine Netzwerkdateifreigabe auf die Datei zugreifen, während Sie sich auf dem Gerät im Administratormodus befinden. Notieren Sie sich unbedingt, wo Sie die Datei auf dem Gerät speichern.
 
 ## <a name="step-2-run-the-script-to-update-the-teams-rooms-app"></a>Schritt 2: Ausführen des Skripts zum Aktualisieren der Teams-Räume App
 
-Das Skript für die Offline-App-Aktualisierung muss über eine Eingabeaufforderung mit erhöhten Rechten ausgeführt werden, während der Skype-Benutzer (der Benutzer, unter dem die App ausgeführt wird) noch angemeldet ist. Weitere Informationen dazu, wie Sie sich bei einem Administratorkonto anmelden, um die Eingabeaufforderung mit erhöhten Rechten zu verwenden, während der Skype-Benutzer noch angemeldet ist, finden Sie unter Wechseln in den Administratormodus und zurück, wenn die [Microsoft Teams-Räume-App](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes)abstürzt.
+Das Skript für die Offline-App-Aktualisierung muss über eine Eingabeaufforderung mit erhöhten Rechten ausgeführt werden, während der Skype-Benutzer (der Benutzer, unter dem die App ausgeführt wird) noch angemeldet ist. Weitere Informationen dazu, wie Sie sich bei einem Administratorkonto anmelden, um die Eingabeaufforderung mit erhöhten Rechten zu verwenden, während der Skype-Benutzer noch angemeldet ist, finden Sie unter Wechseln in den Administratormodus und zurück, wenn die [Microsoft Teams-Räume-App](rooms-operations.md#switching-to-admin-mode-and-back-when-the-microsoft-teams-rooms-app-crashes) abstürzt.
 
 Führen Sie die folgenden Schritte aus, um das Skript über eine Eingabeaufforderung mit erhöhten Rechten auszuführen:
 
 1. Wechseln in den Administratormodus
 2. Klicken Sie auf das Symbol "Start", geben **Sie Eingabeaufforderung** ein, und wählen Sie **dann Als Administrator ausführen aus.**
-3. Führen Sie den folgenden Befehl aus, der den vollständigen `<path to script>` Pfad zum Skript und den Namen der Skriptdatei enthält:
+3. Führen Sie den folgenden Befehl aus, `<path to script>` der den vollständigen Pfad zum Skript und den Namen der Skriptdatei enthält:
 
     ```console
     PowerShell -ExecutionPolicy Unrestricted "<path to script>"
     ```
 
-Wenn sich die Skriptdatei beispielsweise in befindet und der Skriptdateiname `C:\Users\Admin\Downloads` `MTR-Update-4.5.6.7.ps1` der ist, führen Sie den folgenden Befehl aus:
+Wenn sich die Skriptdatei beispielsweise in `C:\Users\Admin\Downloads``MTR-Update-4.5.6.7.ps1`befindet und der Skriptdateiname der ist, führen Sie den folgenden Befehl aus:
 
 ```console
 PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.5.6.7.ps1"
@@ -68,7 +68,7 @@ PowerShell -ExecutionPolicy Unrestricted "C:\Users\Admin\Downloads\MTR-Update-4.
 
 Ausführen des Skripts zulassen Wenn das Skript fertig ist, wird das Skript neu gestartet, Teams-Räume gerät.
 
-Sie können das Skript auch mithilfe der Remote-PowerShell ausführen. Weitere Informationen zur Verwendung von Remote-PowerShell mit Teams-Räume-Geräten finden Sie unter [Remoteverwaltung mithilfe von PowerShell.](rooms-operations.md#remote-management-using-powershell)
+Sie können das Skript auch mithilfe der Remote-PowerShell ausführen. Weitere Informationen zur Verwendung von Remote-PowerShell mit Teams-Räume-Geräten finden Sie unter [Remoteverwaltung mit PowerShell](rooms-operations.md#remote-management-using-powershell).
 
 ## <a name="step-3-verify-the-app-has-been-updated-successfully"></a>Schritt 3: Überprüfen, ob die App erfolgreich aktualisiert wurde
 

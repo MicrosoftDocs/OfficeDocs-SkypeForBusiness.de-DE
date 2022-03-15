@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Räumen mit Office 365
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f09f4c2a-2608-473a-9a27-f94017d6e9dd
 description: In diesem Thema finden Sie Informationen zum Bereitstellen Microsoft Teams-Räume mit Office 365.
-ms.openlocfilehash: d4c66fb863c5c41a717808ddca43002752510fb5
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: f54e7f7e201127b0a61c99f09fee2084378dbbd9
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62056025"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503712"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-office-365"></a>Bereitstellen von Microsoft Teams-Räumen mit Office 365
 
@@ -28,11 +28,11 @@ In diesem Thema finden Sie Informationen zum Bereitstellen Microsoft Teams-Räum
 
 ## <a name="requirements"></a>Anforderungen
 
-Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
+Bevor Sie Ihre Microsoft Teams-Räume mit Office 365, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen](requirements.md).
 
 ### <a name="add-a-resource-account"></a>Hinzufügen eines Ressourcenkontos
 
-1. Verbinden Sie Exchange Online PowerShell. Anweisungen finden Sie [unter Verbinden zum Exchange Online von PowerShell.](https://go.microsoft.com/fwlink/p/?linkid=396554)
+1. Verbinden Sie Exchange Online PowerShell. Anweisungen finden Sie [unter Verbinden Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554).
 
 2. Erstellen Exchange Online in PowerShell ein neues Raumpostfach, oder ändern Sie ein vorhandenes Raumpostfach. Raumpostfächern sind standardmäßig keine Konten zugeordnet. Sie müssen ein Konto hinzufügen, wenn Sie ein Raumpostfach erstellen oder ändern, das seine Authentifizierung ermöglicht.
 
@@ -62,13 +62,13 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
      Set-Mailbox -Identity <RoomMailboxIdentity> -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '<Password>' -AsPlainText -Force)
      ```
 
-     In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, das den Aliaswert ConferenceRoom02 hat, und das Kennwort auf 9898P@$$W 0rd.
+     In diesem Beispiel wird das Konto für das vorhandene Raumpostfach aktiviert, das den Aliaswert ConferenceRoom02 hat, und das Kennwort auf 9898P@ $$W 0rd.
 
      ``` PowerShell
      Set-Mailbox -Identity 'ConferenceRoom02' -EnableRoomMailboxAccount $true -RoomMailboxPassword (ConvertTo-SecureString -String '9898P@$$W0rd' -AsPlainText -Force)
      ```
 
-   Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) und [Set-Mailbox.](/powershell/module/exchange/mailboxes/set-mailbox)
+   Ausführliche Informationen zu Syntax und Parametern finden Sie unter [New-Mailbox](/powershell/module/exchange/mailboxes/new-mailbox) und [Set-Mailbox](/powershell/module/exchange/mailboxes/set-mailbox).
 
 
 3. Konfigurieren Exchange Online PowerShell die folgenden Einstellungen für das Raumpostfach, um die Besprechungserfahrung zu verbessern:
@@ -95,7 +95,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
 
    Ausführliche Informationen zu Syntax und Parametern finden Sie unter [Set-CalendarProcessing](/powershell/module/exchange/mailboxes/set-calendarprocessing).
    
-4. Verbinden MS Online PowerShell active Directory-Werte festlegen, indem Sie das PowerShell-Cmdlet "Verbinden-MsolService -Credential $cred" ausführen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0) 
+4. Verbinden MS Online PowerShell active Directory-Werte festlegen, indem Sie das Powershell-Cmdlet "Verbinden-MsolService -Credential $cred" ausführen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0). 
 
    > [!NOTE]
    > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt. 
@@ -107,7 +107,7 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
     ```
 
 
-1. Das Ressourcenkonto muss über eine gültige Lizenz Office 365 verfügen, um eine Verbindung mit Microsoft Teams. Außerdem müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Mit können `Get-MsolAccountSku` Sie eine Liste der verfügbaren SKUs für Ihren Mandanten Office 365 abrufen. Sie können eine Lizenz mit dem `Set-MsolUserLicense` Cmdlet hinzufügen.
+1. Das Ressourcenkonto muss über eine gültige Lizenz Office 365 verfügen, um eine Verbindung mit ihrem Microsoft Teams. Außerdem müssen Sie Ihrem Gerätekonto einen Verwendungsstandort zuweisen. Dies bestimmt, welche Lizenz-SKUs für Ihr Konto verfügbar sind. Mit können Sie `Get-MsolAccountSku` eine Liste der verfügbaren SKUs für Ihren Mandanten Office 365 abrufen. Sie können eine Lizenz mit dem Cmdlet `Set-MsolUserLicense` hinzufügen.
 
    In diesem Beispiel wird die Besprechungsraum einem Benutzer in den USA zugewiesen.
 
@@ -118,12 +118,12 @@ Bevor Sie Ihre Microsoft Teams-Räume mit Office 365 bereitstellen, vergewissern
   ``` 
 
 
-   Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell.](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell)
+   Ausführliche Anweisungen finden Sie unter [Zuweisen von Lizenzen zu Benutzerkonten mit Office 365 PowerShell](/office365/enterprise/powershell/assign-licenses-to-user-accounts-with-office-365-powershell#use-the-microsoft-azure-active-directory-module-for-windows-powershell).
 
 
 ## <a name="validate"></a>Überprüfen
 
-Zur Überprüfung sollten Sie in der Lage sein, sich mit einem beliebigen Microsoft Teams-Client bei dem von Ihnen erstellten Konto anmelden.
+Zur Überprüfung sollten Sie in der Lage sein, sich mit Microsoft Teams-Client bei dem von Ihnen erstellten Konto anmelden.
 
 ## <a name="see-also"></a>Mehr dazu
 [Aktualisieren von Raumpostfächern mit zusätzlichen Metadaten, um eine bessere Erfahrung mit Such- und Raumvorschlägen zu ermöglichen](/powershell/module/exchange/set-place)

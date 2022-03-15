@@ -1,7 +1,7 @@
 ---
 title: Anmerkungen zu dieser Microsoft Teams-Räume
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -14,12 +14,12 @@ ms.collection:
 - M365-collaboration
 description: Der Administrator kann die Versionshinweise für Microsoft Teams-Räume lesen, in denen kumulierte Verbesserungen in Microsoft Teams-Räume.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 8a8d08bd37fe3d2f32fcdb8f3a4989dba97e8a40
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 3350068646420dcd9a53b1a56c6a144783956e44
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062569"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63504092"
 ---
 # <a name="release-notes-for-microsoft-teams-rooms"></a>Anmerkungen zu dieser Microsoft Teams-Räume
 

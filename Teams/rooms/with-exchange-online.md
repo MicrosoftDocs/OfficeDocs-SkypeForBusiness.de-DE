@@ -1,7 +1,7 @@
 ---
 title: Bereitstellen von Microsoft Teams-Raum mit Exchange online
-ms.author: v-lanac
-author: lanachin
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 ms.reviewer: sohailta
@@ -15,33 +15,33 @@ ms.collection:
 ms.custom: ''
 ms.assetid: f3ba85b8-442c-4133-963f-76f1c8a1fff9
 description: In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Exchange Online.
-ms.openlocfilehash: e6eb3253d7edb999ba74d28ef9a6d8ae835ac16d
-ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
+ms.openlocfilehash: ad3b621ef541fcec471e329d1696e4f7000f4cb5
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/15/2022
-ms.locfileid: "62055485"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503742"
 ---
 # <a name="deploy-microsoft-teams-rooms-with-exchange-online"></a>Bereitstellen von Microsoft Teams-Raum mit Exchange online
 
 In diesem Thema finden Sie Informationen zum Bereitstellen von Microsoft Teams-Räume mit Exchange Online.
   
-Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. Dieses Thema befasst sich mit Hybridbereitstellungen für Microsoft Teams-Räume mit Exchange online gehosteten Bereitstellungen. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfiehlt es sich, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, sowie für andere Bereitstellungsoptionen.
+Wenn Ihre Organisation über eine Mischung von Diensten verfügt, von denen einige lokal und einige online gehostet werden, hängt Ihre Konfiguration davon ab, wo die einzelnen Dienste gehostet werden. In diesem Thema werden Hybridbereitstellungen für Microsoft Teams-Räume mit online Exchange Bereitstellung behandelt. Da es bei diesem Bereitstellungstyp so viele verschiedene Varianten gibt, können keine detaillierten Anweisungen für alle Bereitstellungen zur Verfügung stehen. Das folgende Verfahren funktioniert für viele Konfigurationen. Wenn der Vorgang für Ihre Einrichtung nicht richtig ist, empfiehlt es sich, Windows PowerShell zu verwenden, um dasselbe Endergebnis wie hier dokumentiert zu erzielen, sowie für andere Bereitstellungsoptionen.
 
 ## <a name="requirements"></a>Anforderungen
 
-Bevor Sie Ihre Microsoft Teams-Räume mit Exchange Online bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen.](requirements.md)
+Bevor Sie Ihre Microsoft Teams-Räume mit Exchange Online bereitstellen, vergewissern Sie sich, dass Sie die Anforderungen erfüllt haben. Weitere Informationen finden Sie unter [Microsoft Teams-Räume Anforderungen](requirements.md).
   
-Zum Bereitstellen Microsoft Teams-Räume mit Exchange Online, führen Sie die folgenden Schritte aus. Stellen Sie sicher, dass Sie über die erforderlichen Berechtigungen zum Ausführen der Cmdlets verfügen. 
+Führen Sie die Microsoft Teams-Räume mit einem Exchange Online aus, und führen Sie die folgenden Schritte aus. Stellen Sie sicher, dass Sie über die erforderlichen Berechtigungen zum Ausführen der Cmdlets verfügen. 
 
    > [!NOTE]
-   >  Das Azure Active Directory-Modul für [Windows PowerShell-Cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) in diesem Abschnitt (z. B. Set-MsolUser) wurde unter Einrichten von Konten für Microsoft Teams-Räume. Es ist möglich, dass andere Cmdlets funktionieren, aber in diesem speziellen Szenario noch nicht getestet wurden.
+   >  Das [Azure Active Directory-Modul für Windows PowerShell-Cmdlets](/powershell/azure/active-directory/overview?view=azureadps-1.0) in diesem Abschnitt (z. B. Set-MsolUser) wurde unter Einrichten von Konten für Microsoft Teams-Räume. Es ist möglich, dass andere Cmdlets funktionieren, aber in diesem speziellen Szenario noch nicht getestet wurden.
 
 Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen Sie das Benutzerkonto möglicherweise in einen verwalteten Benutzer konvertieren, bevor Sie diese Schritte ausführen, und dann den Benutzer wieder in einen Partnerbenutzer konvertieren, nachdem Sie diese Schritte abgeschlossen haben.
   
 ### <a name="create-an-account-and-set-exchange-properties"></a>Erstellen eines Kontos und Festlegen der Exchange-Eigenschaften
 
-1. Starten Sie eine Windows PowerShell-Sitzung auf einem PC, und stellen Sie wie folgt eine Exchange Online Verbindung mit dem Computer dar:
+1. Starten Sie eine Windows PowerShell-Sitzung auf einem PC, und stellen Sie wie folgt Exchange Online Verbindung mit dem Gerät dar:
 
     ``` Powershell
    Connect-ExchangeOnline
@@ -70,19 +70,19 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 
 ### <a name="add-an-email-address-for-your-on-premises-domain-account"></a>Hinzufügen einer E-Mail-Adresse für Ihr lokales Domänenkonto
 
-1. Klicken **Sie im Active Directory-Ad-Tool** Benutzer und Computer mit der rechten Maustaste auf den Container oder die Organisationseinheit, in dem Ihre Microsoft Teams-Räume-Konten erstellt werden, klicken Sie auf Neu und dann auf **Benutzer.** 
-2. Geben Sie den Anzeigenamen (- Identity) aus dem vorherigen Cmdlet  (Set-Mailbox oder New-Mailbox) in das Feld Vollständiger Name und den Alias in das Feld **Benutzeranmeldungsname** ein. Klicken Sie auf **Weiter**.
+1. Klicken **Sie im Active Directory-Ad-Tool** Benutzer und Computer mit der rechten Maustaste auf den Container oder die Organisationseinheit, in dem Ihre Microsoft Teams-Räume-Konten erstellt werden, klicken Sie auf **Neu, und** klicken Sie dann auf **Benutzer**.
+2. Geben Sie den Anzeigenamen (- Identity) aus dem vorherigen Cmdlet (Set-Mailbox oder New-Mailbox)  in das Feld Vollständiger Name und den Alias in das Feld **Benutzeranmeldungsname** ein. Klicken Sie auf **Weiter**.
 3. Geben Sie das Kennwort für dieses Konto ein. Sie müssen das Kennwort zur Bestätigung erneut eingeben. Stellen Sie sicher, dass als einzige Option das Kontrollkästchen **Kennwort läuft nie ab** aktiviert ist.
 
     > [!NOTE]
-    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung für Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. In diesem Falls müssen Sie für jedes einzelne Benutzerkonto Microsoft Teams-Räume erstellen.
+    > Die **Auswahl von Kennwort läuft nie ab** ist eine Voraussetzung für Microsoft Teams-Räume. Möglicherweise verhindern Ihre Domänenregeln nicht ablaufende Kennwörter. Wenn dies derFall ist, müssen Sie eine Ausnahme für jedes einzelne Microsoft Teams-Räume erstellen.
   
 4. Klicken Sie auf **Fertig stellen**, um das Konto zu erstellen.
 5. Nachdem Sie das Konto erstellt haben, führen Sie eine Verzeichnissynchronisierung aus. Dies kann mithilfe von [Set-MsolDirSyncConfiguration](/powershell/module/msonline/set-msoldirsyncconfiguration?view=azureadps-1.0) in PowerShell erreicht werden. Wechseln Sie nach Abschluss des Vorgangs zur Seite des Benutzers, und vergewissern Sie sich, dass die beiden in den vorherigen Schritten erstellten Konten zusammengeführt wurden.
 
 ### <a name="assign-an-office-365-license"></a>Zuweisen einer Office 365-Lizenz
 
-1. Stellen Sie zunächst eine Verbindung mit Azure AD, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0.](/powershell/azure/active-directory/overview?view=azureadps-1.0)
+1. Stellen Sie zunächst eine Verbindung mit Azure AD, um einige Kontoeinstellungen anzuwenden. Sie können dieses Cmdlet ausführen, um die Verbindung herzustellen. Details zu Active Directory finden Sie unter [Azure ActiveDirectory (MSOnline) 1.0](/powershell/azure/active-directory/overview?view=azureadps-1.0).
 
    > [!NOTE]
    > [Azure Active Directory wird PowerShell 2.0](/powershell/azure/active-directory/overview?view=azureadps-2.0) nicht unterstützt.
@@ -103,7 +103,7 @@ Wenn Sie Active Directory-Verbunddienste (AD FS) bereitgestellt haben, müssen S
 
 ## <a name="validate"></a>Überprüfen
 
-Zur Überprüfung sollten Sie in der Lage sein, sich mit einem beliebigen Microsoft Teams-Client bei dem von Ihnen erstellten Konto anmelden.
+Zur Überprüfung sollten Sie in der Lage sein, sich mit Microsoft Teams-Client bei dem von Ihnen erstellten Konto anmelden.
   
 ## <a name="see-also"></a>Mehr dazu
 

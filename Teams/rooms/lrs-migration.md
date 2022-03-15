@@ -1,7 +1,7 @@
 ---
-title: Migrieren von Lync Room System-Geräten zu Microsoft Teams-Räume
-ms.author: dstrome
-author: dstrome
+title: Migrieren von Lync Room System-Geräten Microsoft Teams-Räume
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,20 +15,20 @@ ms.collection:
 ms.assetid: ''
 description: In diesem Thema erfahren Sie, wie Sie Lync Room System-Geräte für die Verwendung der Raumsystemsoftware Microsoft Teams-Räume können.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 98604c36a987dde15633e9d9b1a3a283c0f36fa2
-ms.sourcegitcommit: 556fffc96729150efcc04cd5d6069c402012421e
+ms.openlocfilehash: aae146767f66327e5678956a14dfe72d957a8164
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "58608822"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503512"
 ---
 # <a name="migrate-lync-room-system-lrs-devices-to-microsoft-teams-rooms"></a>Migrieren von Geräten des Lync Room System (LRS) zu Microsoft Teams-Räume
 
-Lync Room System (LRS)-Geräte mit Skype Room System Version 1 (SRS v1)-Software haben das Ende des Supportendes am [9. Oktober 2018 erreicht.](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018) Dies bedeutet, dass keine Produktupdates oder -fixes mehr für die Skype Room Systems v1-Software zur Verfügung gestellt werden. Kunden mit Lync Room System-Geräten und Skype Room System v1-Software empfehlen wir, ihre Geräte auf Microsoft Teams-Räume zu aktualisieren.
+Geräte des Lync Room System (LRS) mit Skype Room System Version 1 (SRS v1)-Software haben das Ende des Supportendes am [9. Oktober 2018 erreicht](https://support.microsoft.com/help/4043450/products-reaching-end-of-support-for-2018). Dies bedeutet, dass keine Produktupdates oder -fixes mehr für die Skype Room Systems v1-Software zur Verfügung gestellt werden. Kunden mit Lync Room System-Geräten und Skype Room System v1-Software empfehlen wir, ihre Geräte auf Microsoft Teams-Räume zu aktualisieren.
 
 Microsoft Teams-Räume Software funktioniert mit Microsoft Teams zusätzlich zu Skype for Business Server- und Onlinediensten für Besprechungen und Anrufe auf allen unterstützten Microsoft Teams-Räume Geräten.
 
-Ihre **vorhandenen Geräte können** auch nach dem Ende des Skype Room System v1-Softwareunterstützung weiterhin funktionieren. Wenn diese Software jedoch auf einen Softwarefehler trifft, der von Microsoft zur Veröffentlichung eines Fixes benötigt wird, wird sie nicht unterstützt. SRS v1 verwendet TLS 1.0/ 1.1, das von Microsoft in Zukunft nicht mehr unterstützt wird. Hier finden Sie weitere Informationen zum Vorbereiten für das Veralteten [von TLS 1.0/1.1.](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608) 
+Ihre **vorhandenen Geräte funktionieren** nach Ende des Skype Room System v1-Softwareunterstützung weiterhin. Wenn diese Software jedoch auf einen Softwarefehler trifft, der von Microsoft zur Veröffentlichung eines Fixes benötigt wird, wird sie nicht unterstützt. SRS v1 verwendet TLS 1.0/ 1.1, das von Microsoft in Zukunft nicht mehr unterstützt wird. Hier finden Sie weitere Informationen zum [Vorbereiten für das Veralteten von TLS 1.0/1.1](https://techcommunity.microsoft.com/t5/Skype-for-Business-Blog/Preparing-for-TLS-1-0-1-1-Deprecation-O365-Skype-for-Business/bc-p/223608). 
 
 ## <a name="which-devices-are-affected"></a>Welche Geräte sind betroffen?
 
@@ -49,16 +49,16 @@ Durch das Crestron wird ein Upgrade auf das [Crestron SR-System](https://www.cre
 
 ### <a name="crestron-rl2-upgrade-to-microsoft-teams-rooms"></a>Upgrade auf das Upgrade auf Microsoft Teams-Räume
 
-Bestehende Kunden von Crestron RL2 (auch als "Crestron RL200" bezeichnet) können ein Upgrade-Kit erwerben, um das aktuelle RL2 auf RL3 zu aktualisieren, und dafür minimale Kosten pro Gerät zu verwenden. Details zu diesem Programm finden [Sie hier.](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT)
+Bestehende Kunden von Crestron RL2 (auch als "Crestron RL200" bezeichnet) können ein Upgrade-Kit erwerben, um das aktuelle RL2 auf RL3 zu aktualisieren, und dafür minimale Kosten pro Gerät zu verwenden. Weitere Informationen zu diesem Programm finden [Sie hier](https://crestron.com/Products/Workspace-Solutions/Unified-Communications/Crestron-RL-2/CCS-UC-250-KIT).
 
 ### <a name="smart-room-systems-upgrade"></a>Upgrade auf SMART Room Systems
 
-Für SMART LRS-Kunden arbeitet SMART neben dem Hardware-Trade-In-Programm "Crestron" auch an der Bereitstellung einer Lösung für das Upgrade auf Microsoft Teams-Räume. Dieses Upgrade wird von SMART Technologies Inc. kunden unter Produktsupport bereitgestellt. Weitere Informationen dazu finden Sie [hier.](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml)
+Für SMART LRS-Kunden arbeitet SMART neben dem Hardware-Trade-In-Programm "Crestron" auch an der Bereitstellung einer Lösung für das Upgrade auf Microsoft Teams-Räume. Dieses Upgrade wird von SMART Technologies Inc. kunden unter Produktsupport bereitgestellt. Weitere Informationen dazu finden Sie [hier](https://support.smarttech.com/docs/hardware/room-systems-skype/srs-skype-v2/en/about/default.cshtml).
 
 
 ## <a name="what-should-you-do"></a>Was sollten Sie tun?
 
-Es wird empfohlen, die Lync Room System-Geräte so zu aktualisieren Microsoft Teams-Räume dass TLS 1.0/1.1 nicht mehr unterstützt wird, indem Sie die oben genannten Upgradeoptionen verwenden. Darüber hinaus können Sie auch vorhandene Geräte durch neue Geräte ersetzen, die für die Microsoft Teams-Räume. Details [finden Sie unter](https://aka.ms/roomdevices) Raumgeräte, und sehen Sie sich auch die Microsoft Teams-Räume [an.](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements)  
+Es wird empfohlen, die Lync Room System-Geräte so zu aktualisieren Microsoft Teams-Räume dass TLS 1.0/1.1 nicht mehr unterstützt wird, indem Sie die oben genannten Upgradeoptionen verwenden. Darüber hinaus können Sie auch vorhandene Geräte durch neue Geräte ersetzen, die für die Microsoft Teams-Räume. Details [finden Sie unter](https://aka.ms/roomdevices) Raumgeräte, und sehen Sie sich auch die [Microsoft Teams-Räume an](/skypeforbusiness/plan-your-deployment/clients-and-devices/requirements).  
 
 
 > [!NOTE]

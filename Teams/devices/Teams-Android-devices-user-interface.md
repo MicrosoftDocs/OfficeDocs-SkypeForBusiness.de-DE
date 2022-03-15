@@ -1,7 +1,7 @@
 ---
-title: Festlegen Microsoft Teams Benutzeroberfläche für Android-Geräte
-ms.author: mitressl
-author: flinchbot
+title: Festlegen Microsoft Teams benutzeroberfläche für Android-Geräte
+ms.author: czawideh
+author: cazawideh
 manager: serdars
 audience: ITPro
 appliesto:
@@ -13,14 +13,14 @@ ms.localizationpriority: medium
 ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie die Benutzeroberfläche auf Teams Android-Geräten festlegen.
-ms.openlocfilehash: 32f5129330bf46657f126fc00f7eddc2fc30f090
-ms.sourcegitcommit: 909b0a709983d21fa6f2b547a78cc6a1222188df
+ms.openlocfilehash: c1872fffef3f21c3fec6a9c693b02e218d5d8337
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/30/2022
-ms.locfileid: "62279383"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503775"
 ---
-# <a name="set-microsoft-teams-android-devices-user-interface"></a>Festlegen Microsoft Teams Benutzeroberfläche für Android-Geräte
+# <a name="set-microsoft-teams-android-devices-user-interface"></a>Festlegen Microsoft Teams benutzeroberfläche für Android-Geräte
 
 Microsoft Teams Android-Geräten können eine bestimmte Benutzeroberfläche basierend auf dem Lizenztyp anzeigen, der dem angemeldeten Konto zugewiesen ist. Sie können dieses Verhalten überschreiben und steuern, welche Schnittstelle angezeigt wird. In diesem Artikel wird erläutert, wie die Standard-Benutzeroberfläche ausgewählt wird und wie Sie die Benutzeroberfläche mithilfe einer Powershell-Richtlinie ändern können.
 
@@ -30,7 +30,7 @@ Es gibt drei Arten von Benutzeroberflächen auf Teams Android-Geräten:
 2. Gemeinsamer Bereich
 3. Besprechung
 
-Wenn Sie [einem](/microsoftteams/user-access) Konto, z. B. einer E3- oder E5-Lizenz, eine Benutzerlizenz zuweisen, zeigt das Teams-Gerät die standardmäßige Endbenutzerschnittstelle an, die in den meisten Benutzerszenarien vollständig unterstützt wird. Wenn ein Gerät jedoch eine bestimmte Funktion, z. B. ein Telefon in einem gemeinsamen Bereich oder einen Besprechungsraum, ausführen soll, gibt es bestimmte Benutzeroberflächen für diese Verwendungen.
+Wenn Sie [](/microsoftteams/user-access) einem Konto, z. B. einer E3- oder E5-Lizenz, eine Benutzerlizenz zuweisen, zeigt das Teams-Gerät die standardmäßige Endbenutzerschnittstelle an, die in den meisten Benutzerszenarien vollständig unterstützt wird. Wenn ein Gerät jedoch eine bestimmte Funktion, z. B. ein Telefon in einem gemeinsamen Bereich oder einen Besprechungsraum, ausführen soll, gibt es bestimmte Benutzeroberflächen für diese Verwendungen.
 
 Die folgenden drei Abbildungen zeigen, wie sich die Benutzeroberfläche basierend auf der Dem Benutzerkonto zugewiesenen Lizenz ändert. 
 
@@ -60,16 +60,16 @@ Diese Abbildung zeigt ein Benutzerkonto mit einer [Microsoft Teams-Räume Standa
 
 ## <a name="override-automatic-user-interface-detection"></a>Außerkraft setzen der automatischen Erkennung der Benutzeroberfläche
 
-In einigen Fällen können Sie einem Konto, das nicht der vorgesehenen Verwendung zu entsprechen, eine Lizenz zuweisen. Beispielsweise können Sie einem Konto, das zum Anmelden bei einem Konto auf Android-Geräten Teams-Räume, eine Benutzerlizenz zuweisen. Standardmäßig wird anstelle der Besprechungsraumoberfläche die Endbenutzerschnittstelle angezeigt. Um die Standardschnittstelle zu überschreiben, erstellen Sie eine neue Teams [IP Telefon-Richtlinie,](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps) und wenden Sie sie auf dieses Konto an.
+In einigen Fällen können Sie einem Konto, das nicht der vorgesehenen Verwendung zu entsprechen, eine Lizenz zuweisen. Sie können z. B. einem Konto, das zum Anmelden bei einem Konto auf Android-Geräten Teams-Räume, eine Benutzerlizenz zuweisen. Standardmäßig wird anstelle der Besprechungsraumoberfläche die Endbenutzerschnittstelle angezeigt. Um die Standardschnittstelle zu überschreiben, erstellen Sie eine neue Teams [IP Telefon-Richtlinie](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps), und wenden Sie sie auf dieses Konto an.
 
 > [!NOTE]
-> Die dem Benutzerkonto zugewiesene Lizenz muss mindestens die gleichen Lizenzberechtigungen wie die gewünschte Benutzeroberfläche haben. Die common area Telefon-Lizenz lässt nur die Benutzeroberfläche für Telefone im gemeinsamen Bereich zu. Die Besprechungsraumlizenz ermöglicht Besprechungsraum und gemeinsame Telefon-Benutzeroberflächen. Eine E3- oder E5-Lizenz unterstützt alle Anmeldemodi.
+> Die dem Benutzerkonto zugewiesene Lizenz muss mindestens die gleichen Lizenzberechtigungen wie die gewünschte Benutzeroberfläche haben. Die common area Telefon-Lizenz lässt nur die Benutzeroberfläche des Telefons im gemeinsamen Bereich zu. Die Besprechungsraumlizenz ermöglicht Besprechungsraum und gemeinsame Telefon-Benutzeroberflächen. Eine E3- oder E5-Lizenz unterstützt alle Anmeldemodi.
 
 Das folgende Beispiel zeigt, wie Sie die automatische Lizenzerkennung außer Kraft setzen. Gehen Sie in diesem Beispiel davon aus, dass einem Ressourcenkonto für Besprechungsraum conf-adams@contoso.com eine E3-Lizenz zugewiesen wurde. Wenn dieses Konto angemeldet ist, soll den Benutzern die Benutzeroberfläche des Besprechungsraums angezeigt werden.
 
 ### <a name="create-a-new-policy-and-assign-to-user"></a>Erstellen einer neuen Richtlinie und Zuweisen zu Benutzern
 
-1. Starten Sie eine Remote Windows PowerShell Sitzung, und stellen Sie mithilfe Microsoft Teams folgenden Cmdlets eine Verbindung mit ihrem Computer herzustellen:
+1. Starten Sie eine Remote Windows PowerShell sitzung, und stellen Sie mithilfe Microsoft Teams folgenden Cmdlets eine Verbindung mit ihrem Computer herzustellen:
 
     ``` Powershell
     Connect-MicrosoftTeams

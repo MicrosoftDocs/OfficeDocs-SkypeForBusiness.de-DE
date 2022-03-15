@@ -1,7 +1,7 @@
 ---
 title: Voraussetzungen für Microsoft Teams-Räume
-ms.author: dstrome
-author: dstrome
+ms.author: czawideh
+author: cazawideh
 ms.reviewer: sohailta
 manager: serdars
 audience: ITPro
@@ -15,20 +15,20 @@ ms.collection:
 - M365-collaboration
 description: Erfahren Sie mehr über die Anforderungen an die Microsoft Teams-Räume, einschließlich der Auswahl des geeigneten Geräts, der Mikrofone, Lautsprecher, Kameras und Anzeigen.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 83430fd401a601ede397de188d956a61c93ac206
-ms.sourcegitcommit: 5ca04ee10e3f254e1b24506de116591fdfd51d18
+ms.openlocfilehash: d479ff31b95acf349bf7e34aaf29bbe64c10309b
+ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "62929230"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "63503732"
 ---
 # <a name="microsoft-teams-rooms-requirements"></a>Voraussetzungen für Microsoft Teams-Räume
 
-Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume sie eine Breite von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und Der Raumnutzung. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, über große Konferenzräume und Konferenzräumen nach oben umgeknallten Plätzen.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
+Microsoft Teams-Räume auf verschiedene Raumgrößen skalieren. Teams-Räume können eine Vielzahl von zertifizierten Audio- und Videoperipheriegeräten basierend auf der Größe und der Nutzung des Raum verwenden. Indem Sie das richtige Kerngerät und die richtige Konsole auswählen, können Sie in Kombination mit Mikrofonen, Lautsprechern, Kameras und Displays, die für den Raum geeignet sind, Microsoft Teams-Räume in Räumen beliebiger Größe bereitstellen, von kleinen, umhingenden Plätzen durch große Konferenzräume und Konferenzräume.  Der vollständige Satz aller verfügbaren zertifizierten Audio- und Videoperipheriegeräte, die zur Konfiguration Ihres Raumes verwendet werden können, ist im [Geräte-Showcase](https://products.office.com/microsoft-teams/across-devices) verfügbar.
 
 Dieser Artikel fasst die Gerätebereitstellungs- und Konfigurationsvoraussetzungen für die Unterstützung von Microsoft Teams-Räume zusammen.
 
-Die Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonton Teams-Räume wie unter Bereitstellen [von](rooms-deploy.md) Microsoft Teams-Räume.
+Die Bereitstellung umfasst die Erstellung und Einrichtung von Ressourcenkonton Teams-Räume wie unter Bereitstellen [von Microsoft Teams-Räume](rooms-deploy.md).
 
 Weitere Informationen finden Sie unter:
 
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter:
 > [!NOTE]
 > Microsoft Teams-Räume sich bei Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 anmelden und an Besprechungen teilnehmen, die von einem dieser Dienste gehostet werden.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in Microsoft 365 oder in Office 365 21Vianet- oder DoD-Umgebungen nicht unterstützt.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt. Microsoft Teams-Räume wird in den von 21Vianet Microsoft 365 oder Office 365 oder DoD-Umgebungen betriebenen Umgebungen nicht unterstützt.
 >
 > Wenn Sie über einen lokalen Exchange-Server verfügen, ist die Verwendung von Exchange Server 2013 SP1 oder höher für Microsoft Teams-Räume erforderlich.
 
