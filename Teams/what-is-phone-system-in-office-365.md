@@ -22,12 +22,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-overview
 description: In diesem Artikel erfahren Sie mehr über die Telefonsystem Technologie in Microsoft 365.
-ms.openlocfilehash: 739745c288e24b1cdb7ddc4cf65644a9fd98cb9e
-ms.sourcegitcommit: 5e9b50cd1b513f06734be6c024ac06d293b27089
+ms.openlocfilehash: a838561b25a737025838095e643bd78a2c69af92
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "62518597"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514556"
 ---
 # <a name="what-is-phone-system"></a>Was ist das Telefonsystem?
 
@@ -35,28 +35,30 @@ ms.locfileid: "62518597"
 
 Telefonsystem kann mit Teams und zertifizierten Geräten verwendet werden. Mit dem Telefonsystem können Sie Ihr bestehendes Nebenstellensystem durch eine Reihe von Funktionen ersetzen, die direkt über Microsoft 365 bereitgestellt werden.
 
-Anrufe zwischen Benutzern in Ihrer Organisation werden intern in Telefonsystem verarbeitet und niemals an das Public Switched Telephone Network (PSTN) umgestellt, wodurch die Kosten für die Ferngesprächsweite bei internen Anrufen entfernt werden. 
+Anrufe zwischen Benutzern in Ihrer Organisation werden intern innerhalb von Telefonsystem verarbeitet und niemals zum öffentlichen Telefonnetz (PSTN) umgestellt– dadurch werden die Kosten für die Ferngesprächsweite bei internen Anrufen entfernt. 
 
 Für externe Anrufe bietet Telefonsystem Add-On-Optionen zum Herstellen einer Verbindung mit dem PSTN. Weitere Informationen zu Sprachlösungen und PSTN-Konnektivitätsoptionen finden Sie unter [Planen ihrer Teams-Sprachlösung](cloud-voice-landing-page.md) und Verbinden [PSTN](#connect-to-the-public-switched-telephone-network-pstn).
 
-## <a name="phone-system-features"></a>Telefonsystem features
+Telefonsystem ist weltweit mit Ausnahme von Macau verfügbar. 
 
-Mit Telefonsystem können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Telefonsystem Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams person anrufen. Zum Ein- und Empfangen von Anrufen können Telefonsystem-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
+## <a name="phone-system-features"></a>Telefonsystem-Features
+
+Mit Telefonsystem können Benutzer mithilfe von Teams Anrufe ein- und empfangen, Anrufe durch andere übertragen sowie Anrufe stummschalten bzw. die Stummschaltung wieder auflösen. Telefonsystem Benutzer können auf einen Namen in ihrem Adressbuch klicken und Teams diese Person anrufen. Zum Ein- und Empfangen von Anrufen können Telefonsystem-Benutzer ihre mobilen Geräte, ein Headset mit einem Laptop oder PC oder eines der vielen IP-Telefone verwenden, die mit Ihrem Teams. 
 
 Telefonsystem-Administratoren können Anrufoptionen und -einstellungen über dieselbe Konsole verwalten, die für Messaging, Zusammenarbeit und andere Dienste verwendet wird.
 
-Weitere Informationen zu den Telefonsystem finden Sie unter Dies ist das, [was Sie von Ihren Telefonsystem](here-s-what-you-get-with-phone-system.md).
+Weitere Informationen zu den Telefonsystem finden Sie unter Dies ist das, [was Sie mit Ihren Telefonsystem](here-s-what-you-get-with-phone-system.md).
   
 
 ## <a name="connect-to-the-public-switched-telephone-network-pstn"></a>Verbinden zum öffentlichen Telefonnetz (PSTN)
   
-Bei externen Anrufen können Telefonsystem auf eine von mehreren Arten mit dem PSTN verbunden werden:
+Bei externen Anrufen kann Telefonsystem auf eine von mehreren Arten mit dem PSTN verbunden werden:
   
 - Erwerben Sie einen Microsoft-Anrufplan (in- oder inlands und international). Microsoft Calling Plan ist eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Netzbetreiber. Weitere Informationen hierzu finden Sie in [Telefonsystem und Anrufpläne](calling-plan-landing-page.md).
 
 - Verwenden Sie Ihre vorhandene Telefonieinfrastruktur für lokale PSTN-Anbindung.
 
-  Sie können Ihre lokale Telefonie-Infrastruktur mit anderen Telefonsystem verbinden, indem Sie operator Verbinden Calling oder Direct Routing verwenden. 
+  Sie können Ihre lokale Telefonieinfrastruktur mit ihrem Telefonie-Telefonsystem mithilfe von Operator Verbinden Calling oder Direct Routing verbinden. 
 
 Weitere Informationen zu allen PstN-Konnektivitätsoptionen finden Sie unter [PstN-Konnektivitätsoptionen](pstn-connectivity.md).
 
@@ -69,13 +71,13 @@ Telefonsystem kann für Dienste und Voicemail verwendet werden, z. B.:
 
 - **Anrufwarteschleifen** – Anrufwarteschlangen-Begrüßungen können verwendet werden, wenn jemand eine Telefonnummer für Ihre Organisation anruft. Diese Begrüßungen enthalten die Möglichkeit, die Anrufe automatisch zu halten und nach dem nächsten verfügbaren Telefonmitarbeiter für die Verarbeitung des Anrufs zu suchen. Die Warteschleifen können auch Musik hören, während sie in der Warteschleife sind. Sie können eine einzige Anrufwarteschleife oder mehrere Anrufwarteschleifen für Ihre Organisation erstellen. Siehe [Erstellen einer Cloudanrufwarteschleife](create-a-phone-system-call-queue.md).
 
-- **Voicemail** – Cloud-Voicemail wird automatisch eingerichtet und für alle Benutzer Teams bereitgestellt. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
+- **Voicemail** – Cloud-Voicemail wird automatisch für alle Benutzer Teams eingerichtet und bereitgestellt. Siehe [Einrichten von Cloud Voicemail](set-up-phone-system-voicemail.md).
 
-Weitere Informationen zu Features finden Sie unter [Dies ist das, was Sie mit Ihrer Telefonsystem](here-s-what-you-get-with-phone-system.md). Wenn Sie bereit für die ersten Schritte sind, lesen Sie einrichten [Telefonsystem in Ihrer Organisation](setting-up-your-phone-system.md).
+Weitere Informationen zu Features finden Sie unter [So](here-s-what-you-get-with-phone-system.md) erhalten Sie Telefonsystem. Wenn Sie bereit für die ersten Schritte sind, lesen Sie einrichten [Telefonsystem in Ihrer Organisation](setting-up-your-phone-system.md).
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Telefonsystem features](here-s-what-you-get-with-phone-system.md)
+- [Telefonsystem-Features](here-s-what-you-get-with-phone-system.md)
 - [Einrichten des Telefonsystems](setting-up-your-phone-system.md)
 - [Planen Ihrer Microsoft Teams-Anruflösung](cloud-voice-landing-page.md)
 - [PSTN-Konnektivitätsoptionen](pstn-connectivity.md)

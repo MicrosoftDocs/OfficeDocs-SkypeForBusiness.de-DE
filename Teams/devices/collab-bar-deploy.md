@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: ''
 ms.assetid: 678689e4-d547-499b-be64-7d8f16dd8668
 description: In diesem Artikel erfahren Sie, wie Sie Apps Microsoft Teams-Räume Android bereitstellen.
-ms.openlocfilehash: 55e410b1863effd671f08cba663211b78f76e30f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 7b37f03bdecf0bb6b1d3f3545d096836aa81b805
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503542"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514516"
 ---
 # <a name="deploy-microsoft-teams-rooms-on-android"></a>Bereitstellen Microsoft Teams-Räume Apps unter Android
 
@@ -122,6 +122,4 @@ Im Rahmen der Bereitstellung sollten Sie Ihr Ressourcenregister mit dem Raumname
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Konfigurieren von Konten für Microsoft Teams-Räume mithilfe Microsoft Teams Admin Centers](resource-account-ui.md)
-
-<!-- [Configure accounts for collaboration bars for Microsoft Teams using PowerShell](resource-account-ps.md) -->
+[Erstellen von Ressourcenkonten für Räume und freigegebene Teams Geräte](../rooms/with-office-365.md)

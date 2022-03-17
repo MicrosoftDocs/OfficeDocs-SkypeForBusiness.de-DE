@@ -15,12 +15,12 @@ ms.localizationpriority: medium
 f1.keywords:
 - NOCSH
 description: Erfahren Sie, welche USB-Peripheriegeräte (z. B. Headsets, Freisprechgeräte, Webcams und Monitore) für die Microsoft Teams.
-ms.openlocfilehash: 0e85a2317ba79bdedeca30dbd566ab84b557ec6f
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 3fccae62c996e0301e6bbe928cae17ff163c650e
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63503552"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514526"
 ---
 # <a name="usb-audio-and-video-devices-certified-for-microsoft-teams"></a>USB-Audio- und Videogeräte, die für die Microsoft Teams
 
@@ -78,6 +78,9 @@ Wenn Sie ein Hersteller sind und am Zertifizierungsprogramm teilnehmen möchten,
 
 | Hersteller        | Modell                                                     | Qualifiziert      | Zertifiziertes Programm                                      |
 |:--------------------|:----------------------------------------------------------|:---------------|:-------------------------------------------------------|
+|DEN 8.                 |ADAPT 661                                                  |3/11/2022       |Zertifiziert für Microsoft Teams                           |
+|DEN 8.                 |ADAPT 461S                                                 |3/11/2022       |Zertifiziert für Microsoft Teams                           |
+|DEN 8.                 |ADAPT 361                                                  |3/11/2022       |Zertifiziert für Microsoft Teams                           |
 |Dell                 |Freisprechtelefon SP3022                                        |2/7/2022        |Zertifiziert für Microsoft Teams                           |
 |Dell                 |Slim Conferencing Soundbar SB522A                          |1/25/2022       |Zertifiziert für Microsoft Teams                           | 
 |Lenovo               |Go Wired ANC Headset                                       |1/12/2022       |Zertifiziert für Microsoft Teams                           |

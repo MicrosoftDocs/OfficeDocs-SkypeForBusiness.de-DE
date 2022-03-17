@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: seo-marvel-apr2020
 ms.assetid: dae1bfb6-7262-4030-bf53-dc3b3fe971ea
 description: In diesem Artikel wird beschrieben, wie Sie die Microsoft Teams-Räume und ihre Peripheriegeräte einrichten und konfigurieren.
-ms.openlocfilehash: 42f10ffe4ed2b577e91ed13b57ea8efcae67a1a4
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: c13a247f2ce9d7fee7571f7f3a202310b2ce8b41
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504012"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514720"
 ---
 # <a name="build-a-microsoft-teams-rooms-image"></a>Erstellen eines Microsoft Teams-Räume Bilds
 
@@ -117,30 +117,36 @@ In Creators Update müssen Sie das ApplyCurrentRegionAndLanguage.ps1-Skript in S
     
 4. Wählen Sie **Zeitsprache &amp; aus**.
     
-5. Wählen Sie **Region &amp; Sprache aus**.
+5. Wählen Sie **die Sprache aus**.
     
 6. Wählen Sie **Sprache hinzufügen** aus.
     
 7. Wählen Sie die Sprache aus, die Sie hinzufügen möchten.
     
-8. Wählen Sie die Sprache aus, die Sie gerade zur Liste "Sprachen" hinzugefügt haben.
+8. Installieren von Sprachfeatures
     
-9. Wählen Sie **Als Standard** aus.
+9. Aktivieren Sie nicht Als Anzeigesprache Windows Festlegen.
     
-10. Wenn Sie Sprachen entfernen möchten, gehen Sie so vor:
+10. Wählen Sie **Installieren aus**.
+    
+11. Wählen Sie die Sprache aus, die Sie gerade zur Liste "Sprachen" hinzugefügt haben.
+    
+12. Als Standard festlegen – Nach oben-Pfeil zum Festlegen der Standardeinstellung
+
+13. Wenn Sie Sprachen entfernen möchten, gehen Sie so vor:
     
     a. Wählen Sie die Sprache aus, die Sie entfernen möchten.
     
-    b. Wählen Sie **Entfernen** aus.
-    
-11. Starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
-    
-12. Führen Sie den folgenden Befehl aus: 
+    b. Wählen Sie Entfernen aus.
+
+14. Starten Sie eine Eingabeaufforderung mit erhöhten Rechten.
+
+15. Führen Sie den folgenden Befehl aus: 
     ```PowerShell
     powershell -executionpolicy unrestricted c:\Rigel\x64\scripts\provisioning\scriptlaunch.ps1 ApplyCurrentRegionAndLanguage.ps1
     ```
     
-13. Starten Sie das System neu.
+16. Starten Sie das System neu.
     
 Die gewünschte Sprache wird nun auf die Microsoft Teams-Räume angewendet.
 ## <a name="initial-set-up-of-the-console"></a>Erste Einrichtung der Konsole
@@ -154,12 +160,12 @@ Nachdem Windows installiert wurde, Microsoft Teams-Räume die App in den anfäng
    
 3. Wählen Sie den unterstützten Besprechungsmodus Microsoft Teams, Skype for Business Oder eine der beiden Optionen für gemischten Modus aus. Aktivieren Sie bei Bedarf die moderne Authentifizierung.
 
-4. Klicken Sie auf **Weiter**.
+4. Wählen Sie **Weiter aus**.
     
 5. Wenn Sie Skype for Business verwenden und sich die sip-Domäne Skype for Business von der Exchange-Domäne des Benutzers unterscheiden, legen Sie im Abschnitt Erweitert den FQDN für Skype for Business Server -Domäne ein. Wenn Sie eine Domäne nicht Skype for Business oder die SIP-Domäne der Domäne Exchange, lassen Sie diesen Abschnitt leer.
-6. Klicken Sie auf **Weiter**.
+6. Wählen Sie **Weiter aus**.
     
-7. Klicken Sie auf **Fertig stellen**.
+7. Wählen Sie **Fertig stellen aus**.
     
 Die Microsoft Teams-Räume-App sollte sich mit den oben eingegebenen Anmeldeinformationen bei Microsoft Teams oder Skype for Business Server anmelden und außerdem mit der Synchronisierung ihres Kalenders mit Exchange mit denselben Anmeldeinformationen beginnen. Details zur Verwendung von Teams-Räume finden Sie in der Microsoft Teams-Räume [Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
   
@@ -195,7 +201,7 @@ Microsoft Teams-Räume muss den Zertifikaten vertrauen, die von den Servern verw
 ### <a name="join-an-active-directory-domain-optional"></a>Beitreten zu einer Active Directory-Domäne (optional)
 <a name="Certs"> </a>
 
-Sie können ihrer Microsoft Teams-Räume beitreten. Microsoft Teams-Räume sollten in einer separaten Organisationseinheit von Ihren PC-Arbeitsstationen platziert werden, da viele Arbeitsstationsrichtlinien nicht mit den Arbeitsstationen kompatibel Microsoft Teams-Räume. Ein häufiges Beispiel sind Richtlinien zur Kennworterwingung, die verhindern, dass Microsoft Teams-Räume automatisch gestartet wird. Informationen zur Verwaltung von Gruppenrichtlinienobjekteinstellungen finden Sie unter Verwalten [Microsoft Teams-Räume](rooms-operations.md).
+Sie können ihrer Microsoft Teams-Räume beitreten. Microsoft Teams-Räume sollten in einer separaten Organisationseinheit von Ihren PC-Arbeitsstationen platziert werden, da viele Arbeitsstationsrichtlinien nicht mit den Arbeitsstationen kompatibel Microsoft Teams-Räume. Ein häufiges Beispiel ist eine Richtlinie zur Erzwingung von Kennwörtern, die verhindert, Microsoft Teams-Räume automatisch gestartet werden kann. Informationen zur Verwaltung von Gruppenrichtlinienobjekteinstellungen finden Sie unter Verwalten [Microsoft Teams-Räume](rooms-operations.md).
   
 ### <a name="to-join-microsoft-teams-rooms-to-a-domain"></a>So treten Sie Microsoft Teams-Räume Domäne bei
 
