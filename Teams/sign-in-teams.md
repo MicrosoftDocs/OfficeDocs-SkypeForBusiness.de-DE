@@ -17,12 +17,12 @@ f1.keywords:
 - NOCSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 716a18efda2c2c7f55adf68314dae4b1e07e387b
-ms.sourcegitcommit: 75adb0cc163974772617c5e78a1678d9dbd9d76f
+ms.openlocfilehash: a00561f10e78a18acc146df4ed8a76b103c937c9
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/22/2021
-ms.locfileid: "60537056"
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514566"
 ---
 # <a name="sign-in-to-microsoft-teams"></a>Anmelden bei Microsoft Teams
 
@@ -92,7 +92,7 @@ Microsoft Teams für iOS und Android bietet IT-Administratoren die Möglichkeit,
 
 Sie können die Konfigurationseinstellungen über Intune im Azure-Portal bereitstellen, wenn Benutzer bei Microsoft Intune angemeldet sind.
 
-Sobald die Kontoeinrichtungskonfiguration beim MDM-Anbieter festgelegt sind und nachdem der Benutzer das Gerät registriert hat, wird Microsoft Teams für iOS und Android auf der Teams-Anmeldeseite nur noch die erlaubten Konten anzeigen. Der Benutzer kann auf jedes der zulässigen Konten auf dieser Seite tippen, um sich anzumelden.
+Sobald die Setup-Konfiguration des Kontos beim MDM-Anbieter festgelegt sind und nachdem der Benutzer das Gerät registriert hat, wird Microsoft Teams für iOS und Android auf der Teams-Anmeldeseite nur noch die zulässigen Konten anzeigen. Der Benutzer kann auf eines der zulässigen Konten auf dieser Seite tippen, um sich anzumelden.
 
 Legen Sie die folgenden Konfigurationsparameter im Azure Intune-Portal für verwaltete Geräte fest.
 
@@ -139,7 +139,7 @@ Beispiel: SOFTWARE\Policies\Microsoft\Office\16.0\Teams\RestrictTeamsSignInToAcc
 
 ### <a name="global-sign-in"></a>Globale Anmeldung
 
-Die Android-App von Teams unterstützt jetzt die globale Anmeldung, um den Mitarbeitern in Service und Produktion eine problemlose Anmeldung zu ermöglichen. Ein Mitarbeiter kann ein Gerät aus dem Pool geteilter Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung zu "seinem" machen. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Weitere Informationen finden Sie unter [Abmeldung von Teams](sign-out-of-teams.md). Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines "Freigegeben"-Gerätemodus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+Die Android-App von Teams unterstützt jetzt die globale Anmeldung, um den Mitarbeitern in Service und Produktion eine problemlose Anmeldung zu ermöglichen. Ein Mitarbeiter kann ein Gerät aus dem Pool geteilter Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung zu "seinem" machen. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Weitere Informationen finden Sie unter [Abmeldung von Teams](sign-out-of-teams.md). Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Stellen Sie sicher, dass alle aktiven Besprechungen oder Anrufe auf dem Gerät beendet sind, bevor Sie sich abmelden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines „Freigegeben“-Gerätemodus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 Die Anmeldeoberfläche ähnelt unserer standardmäßigen Teams-Anmeldeoberfläche.
 

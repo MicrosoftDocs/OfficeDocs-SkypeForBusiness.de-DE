@@ -8,17 +8,22 @@ ms.topic: article
 ms.service: msteams
 search.appverid: MET150
 ms.reviewer: sbhatta
-description: 'Erfahren Sie, wie Sie sich von Microsoft Teams abmelden.'
+description: Erfahren Sie, wie Sie sich von Microsoft Teams abmelden.
 ms.custom: seo-marvel-apr2020
 ms.localizationpriority: high
 ms.collection:
-  - M365-collaboration
+- M365-collaboration
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
+ms.openlocfilehash: b453295c02ef371c06c3adea4c2c8489c0a58468
+ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.translationtype: HT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/16/2022
+ms.locfileid: "63514710"
 ---
-
 # <a name="sign-out-of-microsoft-teams"></a>Melden Sie sich von Microsoft Teams ab
 
 Es wird empfohlen, dass Benutzer bei der Microsoft Teams-App angemeldet bleiben, um weiterhin Chats, eingehende Anrufe und andere Aktivitäten zu empfangen. Uns ist klar, dass Benutzer sich manchmal aus verschiedenen Gründen von Teams abmelden möchten:
@@ -49,7 +54,7 @@ Auf einem mobilen Gerät können Sie sich von Teams abmelden, indem Sie zum Men�
 
 ### <a name="global-sign-in-and-sign-out-for-frontline-workers"></a>Globales An- und Abmelden für Mitarbeiter in Service und Produktion
 
-Die Teams-Android-App unterstützt jetzt das globale An- und Abmelden, um Mitarbeitern in Service und Produktion eine einfache An- und Abmeldung zu ermöglichen. Ein Mitarbeiter kann ein Gerät aus dem Pool freigegebenen Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung „zu seinem machen“. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines "Freigegeben"-Gerätemodus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
+Die Teams-Android-App unterstützt jetzt das globale An- und Abmelden, um Mitarbeitern in Service und Produktion eine einfache An- und Abmeldung zu ermöglichen. Ein Mitarbeiter kann ein Gerät aus dem Pool freigegebenen Geräte auswählen und es für die Dauer seiner Schicht mittels einmaliger Anmeldung „zu seinem machen“. Am Ende der Schicht sollte er sich global von dem Gerät abmelden können. Dadurch werden alle seine persönlichen Informationen und Unternehmensinformationen von dem Gerät entfernt, damit er es wieder zurück in den Gerätepool geben kann. Um diese Funktion nutzen zu können, muss sich das Gerät im Modus "Freigegeben" befinden.  Stellen Sie sicher, dass alle aktiven Besprechungen oder Anrufe auf dem Gerät beendet sind, bevor Sie sich abmelden. Wenn Sie erfahren möchten, wie ein freigegebenes Gerät eingerichtet wird, lesen Sie [Verwenden eines „Gerät freigegebenen“-Modus in Android](/azure/active-directory/develop/tutorial-v2-shared-device-mode#set-up-an-android-device-in-shared-mode).
 
 ## <a name="manual-cleanup"></a>Manuelle Bereinigung
 

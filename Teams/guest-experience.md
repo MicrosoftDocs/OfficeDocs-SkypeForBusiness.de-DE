@@ -19,16 +19,19 @@ appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
-ms.openlocfilehash: 5d8bb9ab670da0a4002f69cf5ddec9f245cd9c13
-ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
+ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 01/25/2022
-ms.locfileid: "62190691"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556631"
 ---
 # <a name="guest-experience-in-teams"></a>Gast Erfahrung in Teams
 
 Wenn ein Gast zu einem Team eingeladen wird, erhält er eine Willkommens-E-Mail-Nachricht. Diese Nachricht enthält einige Informationen zum Team und was ihn jetzt als Mitglied erwartet. Der Gast muss die Einladung in der E-Mail-Nachricht durch das Klicken auf **Microsoft Teams öffnen** annehmen, bevor er auf das Team und dessen Kanäle zugreifen kann.
+
+> [!NOTE]
+> Nachdem ein Gast einem Team hinzugefügt wurde, kann es einige Stunden dauern, bis er Zugriff hat.
     
 ![Screenshot mit einem Beispiel einer Willkommens-E-Mail-Nachricht.](media/guest-experience-image1.png)
     

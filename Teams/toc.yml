@@ -1325,16 +1325,16 @@ items:
                 href: rooms/rooms-deploy.md
               - name: Konfigurieren von Konten
                 href: rooms/rooms-configure-accounts.md
-              - name: Mit Office 365
+              - name: Surface Hub
+                items:
+                  - name: Koordinierte Besprechungen einrichten
+                    href: rooms/coordinated-meetings.md
+                  - name: Microsoft Teams-Einstellungen verwalten
+                    href: rooms/surface-hub-manage-config.md
+              - name: Ressourcenkonten erstellen
                 href: rooms/with-office-365.md
               - name: Mit Skype for Business Server
                 href: rooms/with-skype-for-business-server-2015.md
-              - name: Mit Exchange Online (Hybrid)
-                href: rooms/with-exchange-online.md
-              - name: Mit lokaler Exchange-Bereitstellung (Hybrid)
-                href: rooms/with-exchange-on-premises.md
-              - name: Bereitstellen von Microsoft Teams-Räumen in Android
-                href: devices/collab-bar-deploy.md
               - name: Konfigurieren einer Konsole
                 href: rooms/console.md
               - name: Manuelle Aktualisierung eines Geräts
@@ -1785,8 +1785,6 @@ items:
         items:
           - name: Microsoft 365-Gruppen und Teams
             href: office-365-groups.md
-          - name: Erstellen eines Microsoft 365-Ressourcenkontos mithilfe des Microsoft 365 Admin Centers
-            href: devices/resource-account-ui.md
           - name: Erweitern von vorhandenen Microsoft 365-Gruppen mit Teams
             href: enhance-office-365-groups.md
           - name: Interaktion von Exchange und Teams

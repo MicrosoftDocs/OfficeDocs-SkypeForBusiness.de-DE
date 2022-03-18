@@ -15,12 +15,12 @@ ms.collection:
 - M365-collaboration
 description: Hier erfahren Sie, wie Sie laufende Wartungs- und Betriebsvorgänge entwickeln und ausführen, um sicherzustellen, dass ihre Microsoft Teams-Räume-Systeme für Ihre Benutzer verfügbar sind.
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 82725093e67b0f7619ea97837b53fd841b965146
-ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
+ms.openlocfilehash: 12738e544e8bf0f2e46979df0a1d64ea762bfa1f
+ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/15/2022
-ms.locfileid: "63504102"
+ms.lasthandoff: 03/17/2022
+ms.locfileid: "63556641"
 ---
 # <a name="manage-microsoft-teams-rooms"></a>Microsoft Teams-Räume verwalten
 
@@ -117,7 +117,7 @@ Die erste Zeile ist die Layoutoption für Besprechungsansichten Teams-Räume Bes
 
 | Teams Gerät | App-Version | Vor dem Raumanzeige |
 |--------------|-------------|-----------------------|
-|Microsoft Teams-Räume auf Windows | 4.11.12.0 oder höher (Die neueste Version wird empfohlen) | Unterstützt single- und duale Anzeigen. Mindestgröße: 46 Zoll; Seitenverhältnis 16:9 mit Einer Auflösung von 1920*1080 oder 21:9 mit einer Auflösung von 2560 x 1080; Alle Anzeigen sollten in den Einstellungen Windows 100 % Windows werden |
+|Microsoft Teams-Räume auf Windows | 4.11.12.0 oder höher (Die neueste Version wird empfohlen) | Unterstützt single- und duale Anzeigen. Mindestgröße: 46 Zoll; Seitenverhältnis 16:9 mit einer Auflösung von 1920 x 1080 oder 21:9 mit einer Auflösung von 2560 x 1080; Alle Anzeigen sollten in den Einstellungen Windows 100 % Windows werden |
 
 Informationen [Microsoft Teams-Räume, wie Sie die](rooms-operations.md#change-scale-and-resolution) Anzeigeeinstellungen an die Anforderungen der Zeile "Front Row" anpassen können, finden Sie unter Wartung und Vorgänge.
 
