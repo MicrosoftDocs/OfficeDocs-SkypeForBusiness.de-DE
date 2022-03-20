@@ -23,12 +23,12 @@ ms.custom:
 - Calling Plans
 ROBOTS: NOINDEX, NOFOLLOW
 description: Wenn Sie Telefonnummern oder Portnummern für Ihre Organisation erhalten, benötigen Sie möglicherweise Hilfe und Support beim TNS Service Desk.
-ms.openlocfilehash: c32a6ed98cc54d04783025eacd03cb178e7f9120
-ms.sourcegitcommit: bf350ea47032bd926e75a5433eadce3905e731ca
+ms.openlocfilehash: b7ac8edd3c3c740f3b87feedc44535a193280a77
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/03/2021
-ms.locfileid: "60733869"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660690"
 ---
 # <a name="telephone-number-services-tns---service-desk"></a>Telefonnummerndienste (TNS) – Service Desk 
 
@@ -39,11 +39,13 @@ Es gibt einen neuen Prozess für die Interaktion mit dem TNS-Service Desk (Telep
 
 So wenden Sie sich an den Service Desk:
 
-1. Melden Sie sich bei Ihrem Teams Admin Center an – admin.teams.microsoft.com.
+1. Melden Sie sich bei Ihrem [Teams Admin Center an](https://admin.teams.microsoft.com).
 
-2. Wählen Sie im linken Bereich **Telefonnummern** aus.
+2. Wählen Sie im linken Bereich Sprache **aus, und** wählen Sie **dann Telefon aus**.
 
-3. Wählen Sie oben auf der Seite **Telefonnummernsupport abrufen** aus. Das Telefonnummern-Servicecenter wird angezeigt.  
+3. Wählen Sie **Hinzufügen** oder **Portieren aus**.
+
+4. Wählen Sie oben auf der Seite **Telefonnummernsupport abrufen** aus. Das Telefonnummern-Servicecenter wird angezeigt.  
 
 > [!NOTE]
 > Nur eine Person aus demselben Mandanten kann einen Fall erstellen. Das heißt, jemand von @fabrikam.com kann keinen Fall im Auftrag von @contoso.com erstellen. 
@@ -192,7 +194,7 @@ Sie können Ihre Fälle anzeigen, indem Sie **Meine vorhandenen Fälle anzeigen*
 
 - **Filtern Sie Ihre Fälle**, indem Sie **Offene Fälle**,  **Alle Fälle** oder **Geschlossene Fälle** auswählen.
 
-- **Kommunizieren Sie mit dem TNS-Service Desk** zu Ihrem Fall, indem Sie einen vorhandenen Fall öffnen, nach unten scrollen und **Kommentar hinzufügen auswählen.** Ein neues Fenster wird angezeigt. Geben Sie Ihre Nachricht in das Kommentarfeld ein. Fügen Sie alle unterstützenden Dokumente (sofern verfügbar) an, die bei Ihrer Anforderung hilfreich sein können, und wählen Sie **Submit** aus.  
+- **Kommunizieren Sie mit dem TNS-Service Desk** zu Ihrem Fall, indem Sie einen vorhandenen Fall öffnen, nach unten scrollen und **Kommentar hinzufügen auswählen**. Ein neues Fenster wird angezeigt. Geben Sie Ihre Nachricht in das Kommentarfeld ein. Fügen Sie alle unterstützenden Dokumente (sofern verfügbar) an, die bei Ihrer Anforderung hilfreich sein können, und wählen Sie **Submit** aus.  
 
   Antworten vom **TNS-Service Desk** werden unter derselben Zeitachse angezeigt. Wenn in Ihrem Fall ein Update vorhanden ist, erhalten Sie eine automatisierte E-Mail-Benachrichtigung über das Update. 
 

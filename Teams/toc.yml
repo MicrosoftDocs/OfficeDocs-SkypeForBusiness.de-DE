@@ -1539,7 +1539,7 @@ items:
             href: non-standard-users.md
           - name: Aktualisieren der Benutzererfahrung von Apps
             href: apps-update-experience.md
-          - name: Verwalten des Zugriffs auf Microsoft Teams-Apps von Drittanbietern über Microsoft 365
+          - name: Verwalten des Zugriffs auf Teams-Apps über Microsoft 365
             href: manage-third-party-teams-apps.md
   - name: Branchen- und Regierungsrichtlinien
     items:

@@ -18,18 +18,18 @@ f1.keywords:
 - NOCSH
 description: Erfahren Sie, wie Microsoft verteilbare Standortinformationen zur Unterstützung von Notrufen unterstützt.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 7d241cee858d3ac19747be56b5a53e157b563f64
-ms.sourcegitcommit: 05e7c8ac9d6d6f712742d08820d43118c8949bbc
+ms.openlocfilehash: d80854fc36e6914ba48e8993d298c75b136bd06f
+ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/07/2021
-ms.locfileid: "61323000"
+ms.lasthandoff: 03/19/2022
+ms.locfileid: "63660710"
 ---
 # <a name="emergency-addresses-for-remote-locations"></a>Notfalladressen für Remotestandorte
 
 In diesem Artikel wird der Support von Microsoft für Informationen zum Standort für Notrufe in den USA beschrieben. Durch diese Unterstützung wird sichergestellt, dass die präzisesten Standortinformationen für die Benutzer bereitgestellt werden, Teams Notrufe abrufen. Unabhängig vom Standort des Anrufers (vor Ort oder von zu Hause aus) müssen die Standortinformationen eines Anrufers, die an den Public Safety Answering Point (PSAP) gesendet werden, genau sein.
 
-Dieser Artikel enthält Informationen zur Compliance von Microsoft mit RAY BAUM's Act for Multi Line Telephone Systems (MLTS). Mit RAY BAUM'S Act werden die Law-Anforderungen von Kari erweitert, die Anfang 2021 in Kraft gelaufen sind. Weitere Informationen zu RAY BAUM's Act und Karis Law finden Sie unter Verteilerfähige Position für [911-Anrufe](https://www.fcc.gov/911-dispatchable-location) und mehrstufige Telefonsysteme [– Kari's Law und Ray BAUM S Act 911 Direct Dialing, Notification und Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
+Dieser Artikel enthält Informationen zur Compliance von Microsoft mit RAY BAUM's Act for Multi Line Telephone Systems (MLTS). Mit RAY BAUM'S Act werden die Law-Anforderungen von Kari erweitert, die Anfang 2021 in Kraft gelaufen sind. Weitere Informationen zu RAY BAUM's Act und Karis Law finden Sie unter [Dispatchable Location for 911](https://www.fcc.gov/911-dispatchable-location) Calls and [Multi-line Telephone Systems – Kari's Law and RAY BAUM S Act 911 Direct Dialing, Notification and Dispatchable Location Requirements](https://www.fcc.gov/mlts-911-requirements). 
 
 Benutzer, die zu Hause arbeiten, können jetzt ihre eigenen Notfalladressen festlegen (falls zutreffend). In diesem Artikel wird beschrieben, wie Sie Benutzerrichtlinien so konfigurieren können, dass Ihre Endbenutzer ihre Notfalladressen festlegen können.
 
@@ -46,7 +46,7 @@ Dieser Artikel enthält die folgenden Abschnitte:
 
 ## <a name="support-for-emergency-calling-location-information"></a>Unterstützung für Standortinformationen für Notrufe
 
-Zur Unterstützung dieser Anforderungen verwendet Teams die Standortdienste, die vom jeweiligen Betriebssystem bereitgestellt werden, um eine Adresse vorschlagen – sofern vom Administrator oder Benutzer die entsprechende Berechtigung gewährt wurde. Der Endbenutzer kann den Standort einer vorgeschlagenen Adresse bestätigen, bearbeiten oder manuell eine neue Adresse eingeben. Eine bestätigt, bearbeitete oder manuell eingegebene Adresse wird dann auf dem Teams-Client gespeichert, sodass die vom Benutzer bestätigten Adressen automatisch verwendet werden, wenn der Client mit dem Netzwerk verbunden ist. Die vom Benutzer gespeicherten Adressen werden automatisch gelöscht, wenn Teams-Client angemeldet ist.
+Zur Unterstützung dieser Anforderungen verwendet Teams die Standortdienste, die vom jeweiligen Betriebssystem bereitgestellt werden, um eine Adresse vorschlagen – sofern vom Administrator oder Benutzer die entsprechende Berechtigung gewährt wurde. Der Endbenutzer kann den Standort einer vorgeschlagenen Adresse bestätigen, bearbeiten oder manuell eine neue Adresse eingeben. Eine bestätigt, bearbeitete oder manuell eingegebene Adresse wird dann auf dem Teams-Client gespeichert, sodass die vom Benutzer bestätigten Adresse automatisch verwendet wird, wenn der Client mit diesem Netzwerk verbunden ist. Die vom Benutzer gespeicherten Adressen werden automatisch gelöscht, wenn Teams-Client abge-
 
 
 ## <a name="location-precedence"></a>Rangfolge des Standorts
@@ -80,7 +80,7 @@ Die folgende Tabelle enthält die Typen von Notfalladressen und zugeordneten Rou
 
 ## <a name="enable-end-users-to-configure-their-emergency-address"></a>Ermöglichen der Konfiguration der Notfalladresse für Endbenutzer
 
-Um dieses Feature für ihre Endbenutzer zu aktivieren, verwenden Sie das New-CsTeamsEmergencyCallingPolicy PowerShell-Cmdlet, und legen Sie den Parameter ExternalLocationLookupMode auf Aktiviert. Sehen Sie sich das folgende Beispiel an: 
+Um dieses Feature für Ihre Endbenutzer zu aktivieren, verwenden Sie das New-CsTeamsEmergencyCallingPolicy PowerShell-Cmdlet, und legen Sie den Parameter ExternalLocationLookupMode auf Aktiviert. Sehen Sie sich das folgende Beispiel an: 
 
 
 ``` PowerShell
@@ -91,9 +91,9 @@ New-CsTeamsEmergencyCallingPolicy -Identity E911WFH -ExternalLocationLookupMode 
 Grant-CsTeamsEmergencyCallingPolicy -PolicyName E911WFH -Identity user@contoso.com
 ```
 
-Nachdem diese Funktion für die Endbenutzer aktiviert wurde, kann der Benutzer auf der Registerkarte Anrufe eine Notfalladresse hinzufügen, bearbeiten oder bestätigen und die Adresse anzeigen, nachdem sie festgelegt wurde. 
+Nachdem diese Funktion für die Endbenutzer aktiviert wurde, kann der Benutzer auf der Registerkarte Anrufe eine Notfalladresse hinzufügen, bearbeiten oder bestätigen und die Adresse anzeigen, nachdem sie festgelegt wurde. Weitere Informationen dazu, wie Endbenutzer Standortdienste festlegen können, finden Sie unter Arbeit über den Notfall zu Hause [911: Aktivieren von Standortdiensten](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live).
 
-Auf Windows können Sie den Windows-Positionsdienst verwalten und bestimmen, ob Anwendungen auf den Speicherort zugreifen können, indem Sie eine Gruppenrichtlinie oder [MDM (Mobile Device Management) verwenden.](https://docs.microsoft.com/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation)
+Auf Windows können Sie den Windows-Standortdienst verwalten und bestimmen, ob Anwendungen auf den Speicherort zugreifen können, indem Sie eine Gruppenrichtlinie oder [MDM (Mobile Device Management](/windows/client-management/mdm/policy-csp-privacy#privacy-letappsaccesslocation), Verwaltung mobiler Geräte) verwenden.
 
 Weitere Informationen zu Windows Positionsdienst finden Sie unter Windows [positionsdienst und Datenschutz](https://support.microsoft.com/windows/windows-location-service-and-privacy-3a8eee0a-5b0b-dc07-eede-2a5ca1c49088).
 
@@ -107,12 +107,14 @@ Berücksichtigen Sie dabei Folgendes:
 
 - Teams-Telefone unterstützen die Arbeit von zu Hause aus nicht.
 
-- Teams mobile Geräte unterstützt die automatische Standorterkennung, jedoch nicht die beschriebene Benutzerfreundlichkeit.
+- Teams Mobile unterstützt die automatische Standorterkennung, jedoch nicht die beschriebene Benutzerfreundlichkeit.
 
 - Datenschutzeinstellungen können mit der automatischen Standorterkennung im Konflikt stehen – Die Verwaltung mobiler Geräte kann verwendet werden.
 
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-[Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
+- [Verwalten von Notrufen](what-are-emergency-locations-addresses-and-call-routing.md)
+
+- [Arbeit von Home Emergency 911: Standortdienste aktivieren](https://support.microsoft.com/office/work-from-home-emergency-911-enable-location-services-583dd649-87fc-4b23-aed6-f4e2279297f9?storagetype=live)
 
