@@ -17,12 +17,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Erstellen und erstellen Sie Standards basierend auf intelligenten Empfehlungen aus Ihrer Umgebung.
 f1keywords: ''
-ms.openlocfilehash: 2eb0681999664cd3fd29876fbfa3550eee9fb507
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: 978975bdd4ed02f248cf0a36d88109d2e281b8d4
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062838"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711531"
 ---
 # <a name="standards-and-room-planner"></a>Standards und Raumplaner
 
@@ -37,7 +37,7 @@ Diese Seite enthält auch eine Befehlsleiste, über die Sie den  Standardworkflo
 ![Screenshot der Startseite zum Erstellen von Standards](../media/standards-and-room-planner-001.png)
 ### <a name="create-standards"></a>Erstellen von Standards
 
-Verwenden Sie den **Workflow Standard erstellen** , um einen Standard zu erstellen.
+Verwenden Sie den **Standardworkflow** erstellen, um einen Standard zu erstellen.
 
 ![Screenshot of Standards General Details](../media/standards-and-room-planner-001.png)
 
@@ -45,15 +45,15 @@ Verwenden Sie den **Workflow Standard erstellen** , um einen Standard zu erstell
 
 1. Wählen **Sie MTR-Standard erstellen** aus, und geben Sie allgemeine Details wie Name und Beschreibung für den Standard an.
 
-   ![Screenshot der Standardauswahl Besprechungsraum](../media/standards-and-room-planner-002.png)
+   ![Screenshot of Standards Select Besprechungsraum type](../media/standards-and-room-planner-002.png)
 
 1. Wählen Sie den Typ Ihres Besprechungsraums für diesen Standard aus.
 
    ![Screenshot of Standards Select Recommended devices](../media/standards-and-room-planner-003.png)
 
-1. Wählen Sie das Gerät für Besprechungsraum aus den empfohlenen Teams in Ihrem Hardwareinventar aus.
+1. Wählen Sie in Ihrem Hardwareinventar Teams empfohlenen Vorlagen für zertifizierte Raum aus. Die Liste variiert je nach dem im vorherigen Schritt ausgewählten Raumtyp.
 
-   ![Screenshot of Standards General Details](../media/standards-and-room-planner-004.png)
+   ![Screenshot von "Select the Standard MTRs" (Standard-MTRs auswählen)](../media/standards-and-room-planner-004.png)
 
 
 1. Lesen Sie die MTR Standard-Informationen.
@@ -64,14 +64,13 @@ Verwenden Sie den **Workflow Standard erstellen** , um einen Standard zu erstell
 
    ![Screenshot der Orte, an denen die Standards veröffentlicht werden können](../media/standards-and-room-planner-006.png)
 
-Nachdem Sie den Workflow abgeschlossen haben, wird der Standard erfolgreich erstellt und auf der Website, in der Region, im Gebäude oder in einem Besprechungsraum veröffentlicht. Jetzt sollen diese Standards zu Planungszwecken verwendet werden.
+Nach der Veröffentlichung werden die Standards zu Planungszwecken verwendet.
 
 ![Screenshot des erfolgreich veröffentlichten Standards](../media/standards-and-room-planner-008.png)
 ### <a name="discovered-devices"></a>Ermittelte Geräte
 
 Wählen Sie in Standards die Option **Ermittelte Geräte** aus, um alle nicht standardmäßig erkannten Geräte in Ihrer Organisation zu sehen.
 
-![Screenshot der erkannten Geräte eines Raums](../media/standards-and-room-planner-008.png)
 
 Sie können Maßnahmen ergreifen, um Standards von diesen ermittelten Geräten in Ihrem Bestand zu überprüfen und zu erstellen.
 

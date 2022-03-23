@@ -15,14 +15,14 @@ appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
-description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden, um Ihre Lernumgebung sicher zu halten.
+description: Erfahren Sie, wie Sie mithilfe Teams für Education Richtlinien-Assistenten auf einfache Weise Richtlinien für Schüler/Studierende und Lehrkräfte anwenden können, um Ihre Lernumgebung sicher zu halten.
 f1keywords: ''
-ms.openlocfilehash: 9834aceeffc6c5604c144e801405cea968df5a69
-ms.sourcegitcommit: 2612020cd932117148440b60be818ba31208b1d1
+ms.openlocfilehash: 4a793baeb725b497310e46db351e12e6c0540477
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/14/2022
-ms.locfileid: "62805456"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711689"
 ---
 # <a name="use-the-teams-for-education-policy-wizard-to-easily-apply-policies-for-a-safe-learning-environment"></a>Verwenden des Teams für Education-Richtlinien-Assistenten zum einfachen Anwenden von Richtlinien für eine sichere Lernumgebung
 
@@ -56,7 +56,7 @@ Der Assistent richtet Richtlinien basierend auf dem Bildungseinrichtungstyp (Pri
 
 Sie müssen den Assistenten nur einmal ausführen. Neuen Kursteilnehmern werden automatisch die vom Assistenten angewendeten globalen Richtliniendefinitionen (Organisationsweit) zugewiesen, und neuen Mitarbeitern, die Sie der ausgewählten Gruppe hinzufügen, werden automatisch die benutzerdefinierten Richtlinien zugewiesen.
 
-Außerdem wird bei jedem Hinzufügen eines neuen Features zu Teams der entsprechende EDU-relevante Standardwert der Richtlinie für dieses Feature automatisch zum globalen (organisationsweiten Standard) hinzugefügt, ohne dass ein Administratoreingriff erforderlich ist. Dadurch wird sichergestellt, dass die richtigen Richtlinien aktiv sind, um die Schüler sicher und engagiert zu halten.
+Außerdem wird immer, wenn ein neues Feature zu Teams hinzugefügt wird, der entsprechende EDU-relevante Standardwert der Richtlinie für dieses Feature automatisch zum globalen (organisationsweiten Standard) hinzugefügt, ohne dass ein Administratoreingriff erforderlich ist. Dadurch wird sichergestellt, dass die richtigen Richtlinien aktiv sind, um die Schüler sicher und engagiert zu halten.
 
 > [!NOTE]
 > Eine [detaillierte Liste der vom](#policies-applied-by-the-wizard) Assistenten angewendeten Richtliniendefinitionen finden Sie unter Vom Assistenten angewendete Richtlinien.
@@ -105,7 +105,7 @@ In Teams kann eine Richtlinie für einen bestimmten Richtlinienbereich auf folge
 - Zuweisung an eine Gruppe, bei der der Benutzer Mitglied ist
 - Wenn dem Benutzer eine Richtlinie nicht direkt zugewiesen wurde oder kein Mitglied einer Gruppe ist, der eine Richtlinie zugewiesen wurde, erhält der Benutzer automatisch die globale (organisationsweite Standard)-Richtlinie.
 
-Wenn für einen Benutzer mehrere dieser Richtlinienzuweisungen vorhanden sind, ermittelt Teams, welche Richtlinienzuweisung wirksam wird. Weitere Informationen finden Sie unter Welche [Richtlinie Vorrang hat](policy-assignment-overview.md#which-policy-takes-precedence) oder [Rangfolgeregeln für Gruppen](assign-policies-users-and-groups.md#precedence-rules).
+Wenn mehrere dieser Richtlinienzuweisungen für einen Benutzer vorhanden sind, ermittelt Teams, welche Richtlinienzuweisung wirksam wird. Weitere Informationen finden Sie unter Welche [Richtlinie Vorrang hat](policy-assignment-overview.md#which-policy-takes-precedence) oder [Rangfolgeregeln für Gruppen](assign-policies-users-and-groups.md#precedence-rules).
 
 |Richtlinienzuweisungen eines Benutzers|Richtlinie, die wirksam wird |
 |---------|---------|
@@ -131,15 +131,15 @@ Beispielsweise haben Sie Lehrkräften eine Besprechungsrichtlinie direkt zugewie
 
 Diese Richtlinien werden vom Assistenten automatisch [angepasst und angewendet](#policies-applied-by-the-wizard). Es gibt ein paar zusätzliche Maßnahmen, die Sie möglicherweise basierend auf den Anforderungen Ihrer Einrichtung ergreifen sollten, um ihre Sicherheit zu gewährleisten.
 
-Weitere [Sicherheitsempfehlungen](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) finden Sie unter Teams Sicherheit bei der Nutzung von Fernunterricht.
+Weitere [Sicherheitsempfehlungen](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8#ID0EBBAAA) finden Sie unter Teams Sicherheit bei der Verwendung von Fernunterricht.
 
 <a name="polwiz_mc"> </a>
 
 ### <a name="step-3-check-message-center-for-policy-updates"></a>Schritt 3: Überprüfen des Nachrichtencenters auf Richtlinienupdates
 
-Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn ausführen. Es ist wichtig zu wissen, dass, sobald neue Richtlinien in Teams verfügbar werden, die globalen (organisationsweiten) Einstellungen für die Sicherheit von Kursteilnehmern vom Assistenten automatisch aktualisiert werden.
+Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn ausführen. Es ist wichtig zu wissen, dass die globalen (organisationsweiten) Einstellungen für die Sicherheit von Kursteilnehmern automatisch vom Assistenten aktualisiert werden, sobald neue Richtlinien in Teams verfügbar werden.
 
-Überprüfen Sie [das Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in der Microsoft 365 Admin Center) jedoch regelmäßig, um sich über die neuen Features und deren Richtlinien und Richtlinieneinstellungen in Teams.
+Überprüfen Sie [das Nachrichtencenter](https://admin.microsoft.com/AdminPortal/Home?#/MessageCenter) (in der Microsoft 365 Admin Center) aber regelmäßig, um sich über neue Features und deren Richtlinien und Richtlinieneinstellungen in ihrer Version Teams.
 
 ## <a name="make-changes-in-the-wizard"></a>Änderungen im Assistenten vornehmen
 
@@ -147,7 +147,7 @@ Derzeit wendet der Assistent unsere empfohlenen Richtlinien an, wenn Sie ihn aus
 
 Wenn Sie nach dem Ausführen des Assistenten Änderungen vornehmen müssen, können Sie ihn erneut ausführen und Ihre Auswahl ändern.
 
-1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams **Admin Centers zu Start**, und wählen Sie dann in der Kachel  Einfaches Einrichten einer Richtlinie für eine sichere Lernumgebung die Option **Ändern aus**.
+1. Navigieren Sie in der linken Navigationsleiste des Microsoft Teams Admin Centers zu **Start**, und wählen Sie dann in der Kachel Einfaches Richtlinien-Setup für eine sichere Lernumgebung die Option **Ändern aus**.
 2. Fahren Sie von hier aus mit den einzelnen Seiten des Assistenten fort, um Ihre Änderungen vorzunehmen. Sie können den Typ Ihrer Einrichtung, die Gruppen von Lehrkräften und Mitarbeitern, denen Sie Richtlinien zuweisen möchten, oder beides ändern.
 
 In der folgenden Tabelle ist zusammengefasst, was geschieht, wenn Sie im Assistenten eine Änderung ausführen.
@@ -194,6 +194,9 @@ Hier sehen Sie die Richtlinienbereiche und die entsprechenden Richtliniennamen, 
 
 Hier ist eine Zusammenfassung der Einstellungen, die vom Assistenten für jeden Richtlinienbereich angewendet werden.
 
+> [!NOTE]
+> Nur Teambesitzer können freigegebene Kanäle erstellen.<br><br>Freigegebene Kanäle für andere Organisationen erfordern die Konfiguration [Azure AD B2B Direct Connect](/azure/active-directory/external-identities/b2b-direct-connect-overview), die standardmäßig deaktiviert ist. Informationen [zum Aktivieren dieses Features finden Sie unter](/microsoft-365/solutions/collaborate-teams-direct-connect) Zusammenarbeiten mit externen Teilnehmern in einem Kanal.
+
 #### <a name="students"></a>[**Schüler/Studenten**](#tab/student-settings/)
 
 Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, die vom Assistenten angepasst und auf Schüler und Studenten angewendet wurden.
@@ -201,11 +204,14 @@ Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, 
 |Richtlinienbereich |Unterbereich  |Richtlinieneinstellung  |Primär oder Sekundär |Höhere Bildung |
 |---------|---------|---------|---------|---------|
 |Teams-Richtlinie   |         |Erstellen privater Kanäle         |Aus       |Ein|
-|Besprechungsrichtlinie    |Allgemein         |Jetzt in Kanälen treffen         |Aus      |Ein|
-|  |        |Outlook-Add-In         |Aus       |Ein|
-|  |        |Planen von Kanal-Besprechungen        |Aus      |Ein|
-|  |        |Private Besprechungsplanung       |Aus      |Ein|
-|  |        |Besprechungsregistrierung              |Ein       |Ein|
+|               |         |Erstellen freigegebener Kanäle         |Ein       |Ein|
+|               |         |Kanal für externe Teilnehmer freigeben         |Ein       |Ein|
+|               |         |Teilnehmen an einem externen freigegebenen Kanal         |Ein       |Ein|
+|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechungen in Kanälen zulassen         |Aus      |Ein|
+|  |        |Outlook-Add-In zulassen         |Aus       |Ein|
+|  |        |Planung von Kanalbesprechungen zulassen        |Aus      |Ein|
+|  |        |Planung privater Besprechungen zulassen       |Aus      |Ein|
+|  |        |Besprechungsregistrierung zulassen              |Ein       |Ein|
 |  |        |Wer kann registriert werden    |Jeder in der Organisation      |Jeder in der Organisation|
 |  |Audio & Video        |Transkription        |Ein       |Ein|
 |  |        |Cloudaufzeichnung         |Aus      |Ein|
@@ -247,7 +253,7 @@ Hier ist eine Liste der globalen (organisationsweiten) Richtliniendefinitionen, 
 |  |       |Erstellen von Sprachnachrichten         |In Chats und Kanälen zulässig         |In Chats und Kanälen zulässig|
 |  |       |Auf Mobilgeräten bevorzugte Kanäle über aktuellen Chats anzeigen     |Aktiviert         |Aktiviert|
 |  |       |Entfernen von Benutzern aus Gruppenchats         |Aus         |Ein|
-|App-Berechtigungsrichtlinie  |       |Microsoft-Apps         |Blockieren bestimmter Apps und Zulassen, dass alle > Walkie-Talkie blockiert werden         |Alle Apps zulassen|
+|App-Berechtigungsrichtlinie  |       |Microsoft-Apps         |Blockieren bestimmter Apps und Zulassen, dass > Walkie-Talkie blockiert ist         |Alle Apps zulassen|
 |  |       |Drittanbieter-Apps         |Alle Apps zulassen         |Alle Apps zulassen|
 |  |       |Benutzerdefinierte Apps         |Alle Apps zulassen         |Alle Apps zulassen|
 |App-Setuprichtlinie  |           |Hochladen von benutzerdefinierten Apps           |Aus         |Aus|
@@ -271,11 +277,14 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Im 
 |Richtlinienbereich |Unterbereich  |Richtlinieneinstellung  |Primär oder Sekundär |Höhere Bildung |
 |---------|---------|---------|---------|---------|
 |Teams-Richtlinie   |         |Erstellen privater Kanäle         |Ein       |Ein|
-|Besprechungsrichtlinie    |Allgemein         |Jetzt in Kanälen treffen         |Ein      |Ein|
-|  |        |Outlook-Add-In         |Ein       |Ein|
-|  |        |Planen von Kanal-Besprechungen        |Ein      |Ein|
-|  |        |Private Besprechungsplanung       |Ein      |Ein|
-|  |        |Besprechungsregistrierung              |Ein       |Ein|
+|               |         |Erstellen freigegebener Kanäle         |Ein       |Ein|
+|               |         |Kanal für externe Teilnehmer freigeben         |Ein       |Ein|
+|               |         |Teilnehmen an einem externen freigegebenen Kanal         |Ein       |Ein|
+|Besprechungsrichtlinie    |Allgemein         |Sofortbesprechungen in Kanälen zulassen         |Ein      |Ein|
+|  |        |Outlook-Add-In zulassen         |Ein       |Ein|
+|  |        |Planung von Kanalbesprechungen zulassen        |Ein      |Ein|
+|  |        |Planung privater Besprechungen zulassen       |Ein      |Ein|
+|  |        |Besprechungsregistrierung zulassen              |Ein       |Ein|
 |  |        |Wer kann registriert werden    |Jeder in der Organisation      |Jeder in der Organisation|
 |  |Audio & Video        |Transkription        |Ein       |Ein|
 |  |        |Cloudaufzeichnung         |Ein      |Ein|
@@ -333,4 +342,4 @@ Hier ist eine Liste der benutzerdefinierten Richtliniendefinitionen, die den Im 
 
 - [Teams-Richtlinien und Richtlinienpakete für Bildung](policy-packages-edu.md)
 - [Zuweisen von Richtlinien zu großen Gruppen von Benutzern in Ihrer Schule](batch-group-policy-assignment-edu.md)
-- [Sicherheit von Kursteilnehmern bei der Nutzung Teams für den Fernunterricht](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)
+- [Sicherheit von Kursteilnehmern bei der Verwendung Teams für den Fernunterricht](https://support.microsoft.com/office/keeping-students-safe-while-using-teams-for-distance-learning-f00fa399-0473-4d31-ab72-644c137e11c8)

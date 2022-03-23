@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 7a4a05e6dabc3e319171cb71525b6c2175c8235c
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893624"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711439"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -58,7 +58,7 @@ Zur Nutzung von Teams in einer virtualisierten Umgebung sind die folgenden Kompo
 
 Die Teams-Desktop-App wurde bei führenden Virtualisierungslösungsanbietern überprüft. Bei mehreren Marktanbietern empfehlen wir, dass Sie Sich an Ihren Virtualisierungslösungsanbieter wenden, um sicherzustellen, dass Sie die Mindestanforderungen erfüllen.
   
-Derzeit ist Teams VDI mit Audio/Video(AV)-Optimierung mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
+Derzeit sind Teams VDI mit Audio/Video-Optimierung (AV) mit Azure Virtual Desktop, Citrix und VMware zertifiziert. Überprüfen Sie die Informationen in diesem Abschnitt, um sicherzustellen, dass Sie alle Anforderungen an die ordnungsgemäße Funktionalität erfüllen.
 
 ### <a name="platforms-certified-for-teams"></a>Für Teams zertifizierte Plattformen
 
@@ -72,11 +72,11 @@ Die folgenden Plattformen verfügen über Lösungen für die virtuelle Desktopin
 
 ### <a name="azure-virtual-desktop"></a>Virtueller Azure-Desktop
 
-Der virtuelle Azure-Desktop bietet AV-Optimierung für Teams mit VDI. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop.](/azure/virtual-desktop/teams-on-wvd)
+Azure Virtual Desktop bietet AV-Optimierung für die Teams von VDI. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden [Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd).
 
 ### <a name="windows-365"></a>Windows 365
 
-Windows 365 verwendet die von Azure Virtual Desktop bereitgestellte AV-Optimierung, um optimale Benutzererfahrungen Teams Cloud-PCs zu gewährleisten. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden Teams [auf Cloud-PCs](/windows-365/enterprise/teams-on-cloud-pc).
+Windows 365 verwendet die von Azure Virtual Desktop bereitgestellte AV-Optimierung, um optimale Ergebnisse Teams Cloud-PCs zu gewährleisten. Weitere Informationen zu Anforderungen und Installation finden Sie unter Verwenden Teams [auf Cloud-PCs](/windows-365/enterprise/teams-on-cloud-pc).
 
 ### <a name="citrix-virtual-apps-and-desktops-requirements"></a>Anforderungen für Citrix Virtual Apps und Desktops
 
@@ -122,7 +122,7 @@ Im Folgenden finden Sie die empfohlene Mindestkonfiguration für VM.
 
 Bei einem nicht-beständigen Setup werden die Änderungen des lokalen Betriebssystems der Benutzer nicht beibehalten, nachdem sich die Benutzer abgemeldet haben. Bei solchen Setups handelt es sich in der Regel um gemeinsam genutzte Mehrbenutzersitzungen. Die VM-Konfiguration variiert je nach Anzahl der Benutzer und verfügbaren physischen Serverressourcen.
 
-Für ein nicht beständiges Setup muss die Teams-Desktop-App auf Computerbasis auf dem Golden Image installiert sein. Dadurch wird ein effizientes Starten der App Teams während einer Benutzersitzung sichergestellt. Weitere Informationen finden Sie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi).
+Für ein nicht beständiges Setup muss die Teams-Desktop-App auf Computerbasis auf dem Golden Image installiert sein. Dadurch wird ein effizientes Starten der app Teams während einer Benutzersitzung sichergestellt. Weitere Informationen finden Sie im Abschnitt [Installieren oder Aktualisieren der Teams-Desktop-App auf VDI](#install-or-update-the-teams-desktop-app-on-vdi).
 
 Die Teams-Daten in einem nicht persistenten Setup erfordert auch einen Profil-Zwischenspeicherungs-Manager, um eine Teams Laufzeitdatensynchronisierung effizient durchführen zu können. Effiziente Datensynchronisierung stellt sicher, dass die entsprechenden benutzerspezifischen Informationen (z. B. die Daten, das Profil oder die Einstellungen eines Benutzers) während der Sitzung des Benutzers zwischengespeichert werden. Stellen Sie sicher, dass die Daten in diesen beiden Ordnern synchronisiert werden:<br>
 
@@ -136,7 +136,7 @@ Es stehen eine Vielzahl von Lösungen für caching Manager zur Verfügung, z. B.
 
 ##### <a name="teams-cached-content-exclusion-list-for-non-persistent-setup"></a>Ausschlussliste für zwischengespeicherte Inhalte von Teams für nicht beständiges Setup
 
-Schließen Sie Folgendes aus dem Teams Zwischenspeicherungsordners aus. `%AppData%/Microsoft/Teams` Mit dem Ausschließen dieser Elemente kann die Größe des Zwischenspeicherns von Benutzer verringert werden, um das nicht beständige Setup weiter zu optimieren.
+Schließen Sie folgendes im Ordner Teams Zwischenspeicherung aus. `%AppData%/Microsoft/Teams` Mit dem Ausschließen dieser Elemente kann die Größe des Zwischenspeicherns von Benutzer verringert werden, um das nicht beständige Setup weiter zu optimieren.
 
 - TXT-Dateien
 - Ordner "Medienstapel"
@@ -195,21 +195,21 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
         reg add "HKLM\SOFTWARE\Microsoft\Teams" /v IsWVDEnvironment /t REG_DWORD /d 1 /f
         ```
 
-        Bei diesem Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
+        Durch diesen Vorgang wird dem Computer ein erforderlicher Registrierungsschlüssel hinzugefügt, der das Teams informiert, dass es sich um eine VDI-Instanz handelt.  Ohne sie wird vom Installationsprogramm ein Fehler angezeigt, der besagt: "Fehler bei der Installation.  Kann nicht für alle Benutzer installiert werden, wenn keine VDI-Umgebung erkannt wird."
 
         ```console
         msiexec /i <path_to_msi> /l*v <install_logfile_name> ALLUSER=1 ALLUSERS=1
         ```
 
-        Bei diesem Verfahren Teams `%ProgramFiles(x86)%` In den Ordner unter einem 64-Bit-Betriebssystem `%ProgramFiles%` und in den Ordner unter einem 32-Bit-Betriebssystem installiert. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen.
+        Mit diesem Verfahren Teams `%ProgramFiles(x86)%` Ordner unter einem 64-Bit-Betriebssystem `%ProgramFiles%` und in den Ordner unter einem 32-Bit-Betriebssystem installiert. An diesem Punkt ist die Einrichtung des „Golden Image“ abgeschlossen.
 
         > [!IMPORTANT]
         >  Für nicht beständige Setups ist eine Installation von Teams auf Computerbasis erforderlich.
 
-        Wenn die nächste interaktive Anmeldesitzung gestartet wird, wird Teams, und Sie werden nach Anmeldeinformationen gefragt.
+        Wenn die nächste interaktive Anmeldesitzung gestartet wird, Teams anmeldet und um Ihre Anmeldeinformationen bittet.
 
         > [!NOTE]
-        > In diesen Beispielen wird auch der - `ALLUSERS=1` Parameter verwendet. Wenn Sie diesen Parameter festlegen, **Teams Machine-Wide Installer** **in der** Systemsteuerung **unter Programme** und Funktionen und in Apps **&-Features** in **Windows Einstellungen** für alle Benutzer des Computers angezeigt. Alle Benutzer können Teams dann deinstallieren, wenn Sie über Administratorrechte auf dem Computer verfügen.
+        > In diesen Beispielen wird auch der - `ALLUSERS=1` Parameter verwendet. Wenn Sie diesen Parameter festlegen, **wird Teams Machine-Wide Installer** **in der** Systemsteuerung unter Programme und Funktionen  und in Den **Apps &-Features** in **Windows Einstellungen** für alle Benutzer des Computers angezeigt. Alle Benutzer können Teams dann deinstallieren, wenn Sie über Administratorrechte auf dem Computer verfügen.
         >
         > Es ist wichtig, den Unterschied zwischen und zu `ALLUSERS=1` verstehen `ALLUSER=1`. Der `ALLUSERS=1` -Parameter kann in Nicht-VDI- und VDI-Umgebungen verwendet werden, `ALLUSER=1` während der Parameter nur in VDI-Umgebungen verwendet wird, um eine Installation pro Computer anzugeben.
 
@@ -222,15 +222,15 @@ Weitere Informationen zu Teams und Microsoft 365 Apps for Enterprise finden Sie 
       msiexec /passive /x <path_to_msi> /l*v <uninstall_logfile_name>
       ```
 
-      Bei diesem Vorgang werden Teams Ordner je nach `%ProgramFiles(x86)%` `%ProgramFiles%` Betriebssystemumgebung deinstalliert.
+      Bei diesem Vorgang wird Teams Ordner deinstalliert `%ProgramFiles(x86)%` `%ProgramFiles%`, je nach Betriebssystemumgebung.
 
 ## <a name="teams-on-vdi-performance-considerations"></a>Überlegungen zur Leistung von Teams auf VDI
 
 Es gibt eine Vielzahl von virtualisierten Setupkonfigurationen, bei deren Optimierung jeweils ein anderer Fokus liegt. Eine Konfiguration kann sich z. B. auf die Benutzerdichte konzentrieren. Berücksichtigen Sie bei der Planung die folgenden Punkte, um Ihr Setup basierend auf den Workloadanforderungen Ihrer Organisation zu optimieren.
 
 - **Mindestanforderung**: Einige Arbeitslasten erfordern möglicherweise eine Einrichtung mit Ressourcen, die über den Mindestanforderungen liegen. Beispielsweise Workloads für Entwickler, die Anwendungen verwenden, die mehr Computerressourcen erfordern.
-- **Abhängigkeiten**: Hierzu gehören Abhängigkeiten von Der Infrastruktur, Arbeitsauslastung und andere Umweltaspekte außerhalb Teams Desktop-App.
-- **Deaktivierte VDI-Features**: Teams GPU-intensive Features für VDI deaktiviert, wodurch sich vorübergehende CPU-Auslastungen verbessern lassen. Die folgenden Funktionen sind deaktiviert:
+- **Abhängigkeiten**: Hierzu gehören Abhängigkeiten von der Infrastruktur, der Arbeitsauslastung und andere Umweltaspekte außerhalb Teams Desktop-App.
+- **Deaktivierte Features für VDI**: Teams GPU-intensive Features für VDI deaktiviert, wodurch sich vorübergehende CPU-Auslastungen verbessern lassen. Die folgenden Funktionen sind deaktiviert:
     - CSS-Animation für Teams
     - Giphy-Autostart
 
@@ -238,7 +238,7 @@ Es gibt eine Vielzahl von virtualisierten Setupkonfigurationen, bei deren Optimi
 
 Zusätzlich zu Chat und Zusammenarbeit ist Teams auf VDI mit Anrufen und Besprechungen mit unterstützten Virtualisierungsanbieter-Plattformen verfügbar. Unterstützte Features basieren auf dem WebRTC-Medienstapel und der Implementierung eines Virtualisierungsanbieters. Das folgende Diagramm bietet einen Überblick über die Architektur.
 
-![Diagramm, das Teams VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
+![Diagramm, das Teams zur VDI-Architektur zeigt.](media/teams-on-vdi-architecture.png)
 
 > [!IMPORTANT]
 > Wenn Sie derzeit Teams ohne AV-Optimierung in VDI ausführen und Features verwenden, die noch nicht für die Optimierung unterstützt sind (z. B. das Geben und Übernehmen von Kontrolle beim Freigeben von Apps), müssen Sie Richtlinien für Virtualisierungsanbieter festlegen, um die Teams-Umleitung zu deaktivieren. Dies bedeutet, dass Teams-Mediensitzungen nicht optimiert werden. Schritte zum Festlegen von Richtlinien zum Deaktivieren der Teams-Umleitung erhalten Sie von Ihrem Virtualisierungsanbieter.
@@ -275,7 +275,7 @@ Wenn Ihre Organisation nur die Chat- und Zusammenarbeitsfeatures in Teams verwen
 
 Sie können Richtlinien über Teams Admin Center oder PowerShell festlegen. Es kann bis zu ein paar Stunden dauern, bis die Richtlinienänderungen weitervererbt wurden. Wenn Sie Änderungen für ein bestimmtes Konto nicht sofort sehen, versuchen Sie es nach ein paar Stunden erneut.
 
-[**Anrufrichtlinien**](teams-calling-policy.md): Teams enthält **die integrierte Richtlinie** Anrufrichtlinie "Anruf nicht zu verwenden", in der alle Anruffunktionen deaktiviert sind. Weisen Sie **die Richtlinie "Anruf** nicht berechtigt" allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
+[**Anrufrichtlinien**](teams-calling-policy.md): Teams enthält **die integrierte Richtlinie** Anrufrichtlinie "Anruf nicht zu todrufen", in der alle Anruffeatures deaktiviert sind. Weisen Sie **die Richtlinie "Anruf** nicht berechtigt" allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
 
 [**Besprechungsrichtlinien**](meeting-policies-overview.md): Teams enthält die integrierte **AllOff-Besprechungsrichtlinie**, in der alle Besprechungsfeatures deaktiviert sind. Weisen Sie **die AllOff-Richtlinie** allen Benutzern in Ihrer Organisation zu, die Teams in einer virtualisierten Umgebung verwenden.
 
@@ -283,7 +283,7 @@ Sie können Richtlinien über Teams Admin Center oder PowerShell festlegen. Es k
 
 So weisen Sie einem Benutzer **die** Richtlinie Für Nichtanrufanrufe und **die AllOff-Besprechungsrichtlinie** zu:
 
-1. Wechseln Sie in der linken Navigationsleiste Teams Admin Center zu **Benutzer**.
+1. Navigieren Sie in der linken Navigationsleiste Teams Admin Center zu **Benutzer**.
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Gehen Sie folgendermaßen vor:
     1. Klicken Sie unter **Anrufrichtlinie** auf **DisallowCalling**.
@@ -331,15 +331,15 @@ Wenn Sie über eine Implementierung von Teams auf VDI mit Chat und Zusammenarbei
 
 Sie können das Teams Admin Center oder PowerShell verwenden, um Anruf- und Besprechungsrichtlinien für Ihre Benutzer zu erstellen und zu zuweisen. Es kann einige Zeit (ein paar Stunden) dauern, bis Richtlinienänderungen verteilt werden. Wenn Sie Änderungen für ein bestimmtes Konto nicht sofort sehen, versuchen Sie es nach ein paar Stunden erneut.
 
-[**Anrufrichtlinien**](teams-calling-policy.md): Anrufrichtlinien in Teams steuern, welche Anruffunktionen den Benutzern zur Verfügung stehen. Teams enthält die integrierte Richtlinie für Anrufanrufe zulassen, in der alle Anruffunktionen aktiviert sind. Um alle Anruffunktionen zu aktivieren, weisen Sie die **Richtlinie Anruf zulassen** zu. Oder erstellen Sie eine benutzerdefinierte Anrufrichtlinie, um die von Ihnen gewünschen Anruffeatures zu aktivieren und sie Benutzern zuzuweisen.
+[**Anrufrichtlinien**](teams-calling-policy.md): Anrufrichtlinien in Teams steuern, welche Anruffunktionen den Benutzern zur Verfügung stehen. Teams enthält die integrierte Richtlinie **für Anrufanrufe** zulassen, in der alle Anruffunktionen aktiviert sind. Um alle Anruffunktionen zu aktivieren, weisen Sie die **Richtlinie Anruf zulassen** zu. Oder erstellen Sie eine benutzerdefinierte Anrufrichtlinie, um die von Ihnen gewünschen Anruffeatures zu aktivieren und sie Benutzern zuzuweisen.
 
-[**Besprechungsrichtlinien**](meeting-policies-overview.md): Besprechungsrichtlinien in Teams steuern die Arten von Besprechungen, die Benutzer erstellen können, und die Funktionen, die für Besprechungsteilnehmer verfügbar sind, die von Benutzern in Ihrer Organisation geplant werden. Teams enthält die integrierte **AllOn-Besprechungsrichtlinie**, in der alle Besprechungsfeatures aktiviert sind. Um alle Besprechungsfeatures zu aktivieren, weisen Sie die **AllOn-Richtlinie** zu. Oder erstellen Sie eine benutzerdefinierte Besprechungsrichtlinie, um die von Ihnen gewünschen Besprechungsfeatures zu aktivieren, die Sie Benutzern zuweisen möchten.
+[**Besprechungsrichtlinien**](meeting-policies-overview.md): Besprechungsrichtlinien in Teams steuern die Arten von Besprechungen, die Benutzer erstellen können, und die Funktionen, die für Besprechungsteilnehmer verfügbar sind, die von Benutzern in Ihrer Organisation geplant werden. Teams enthält die integrierte **AllOn-Besprechungsrichtlinie**, in der alle Besprechungsfunktionen aktiviert sind. Um alle Besprechungsfeatures zu aktivieren, weisen Sie die **AllOn-Richtlinie** zu. Oder erstellen Sie eine benutzerdefinierte Besprechungsrichtlinie, um die von Ihnen gewünschen Besprechungsfeatures zu aktivieren, die Sie Benutzern zuweisen möchten.
 
 #### <a name="assign-policies-using-the-teams-admin-center"></a>Zuweisen von Richtlinien über Teams Admin Center
 
 So weisen Sie **einem** Benutzer die Richtlinie für Anrufanrufe zulassen und die **AllOn-Besprechungsrichtlinie** zu:
 
-1. Wechseln Sie in der linken Navigationsleiste Teams Admin Center zu **Benutzer**.
+1. Navigieren Sie in der linken Navigationsleiste Teams Admin Center zu **Benutzer**.
 2. Wählen Sie den Nutzer aus, indem Sie links neben den Nutzernamen klicken, und klicken Sie dann auf **Einstellungen bearbeiten**.
 3. Gehen Sie folgendermaßen vor:
     1. Klicken Sie unter **Anrufrichtlinie** auf **AllowCalling**.
@@ -420,7 +420,7 @@ Get-Command -Noun *VDI*
 
 ### <a name="set-policies-to-limit-calling-features"></a>Festlegen von Richtlinien zum Einschränken von Anruffunktionen
 
-Benutzer, deren VDI-Richtlinie `DisableCallsAndMeetings` `$true` für die Teams von VDI festgelegt ist, haben dies nicht:
+Wenn Benutzer, für deren VDI-Richtlinie `DisableCallsAndMeetings` `$true` die Anmeldung Teams VDI festgelegt ist, nicht:
 
 - Anrufe.
 - Nehmen Sie an Besprechungen teil.
@@ -493,8 +493,7 @@ if($cleanup){
 Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
 
 - Alle Funktionen in mehreren Fenstern, wie die neuen Besprechungsfunktionen oder alle Funktionen im Zusammenhang mit der neuen Besprechungserfahrung
-- Erweiterte Notfalldienste
-- HID-Schaltflächen und LED-Steuerelemente zwischen der Teams-App und den Geräten
+- HID-Schaltflächen und LED-Steuerelemente zwischen der Teams und Geräten für Citrix und VMware
 - Verschwimmen des Hintergrunds und Hintergrundeffekte
 - Übertragungs- und Liveveranstaltungs-Produzent- und Referentenrollen
 - Standortbasiertes Routing (LBR)

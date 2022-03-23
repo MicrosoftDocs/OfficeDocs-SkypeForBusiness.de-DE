@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 968e79952381b04f5165f285807cfe3a07237307
-ms.sourcegitcommit: abe942c294ed5fca70efdf039d38d611b9c21fe9
+ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/18/2022
-ms.locfileid: "63564767"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711719"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -109,7 +109,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **Chat-Berechtigungsrolle** Verwenden Sie diese Einstellung, um die Rolle des überwachten Chats des Benutzers zu definieren.  Erfahren Sie mehr über den [beaufsichtigten Chat](supervise-chats-edu.md).
 
 > [!NOTE]
-> Einige dieser Einstellungen, z. B. die Verwendung von Giphys, können auch auf Teamebene von Teambesitzern und auf privater Kanalebene von den Besitzern dieser privaten Kanäle konfiguriert werden.
+> Einige dieser Einstellungen, z. B. die Verwendung von Giphys, können auch auf Teamebene von Teambesitzern und auf privater oder freigegebener Kanalebene von Kanalbesitzern konfiguriert werden.
 
 ### <a name="related-topics"></a>Verwandte Themen
 

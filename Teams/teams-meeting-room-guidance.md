@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb74dcb92328890b71317818b3230571151fd0a6
-ms.sourcegitcommit: e97c981489ff1f02674df57426da3b22cc6d68c1
+ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "63062716"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711569"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Leitfaden für Besprechungsraum Teams
 
@@ -536,11 +536,12 @@ Weitere Optionen:
 
 ### <a name="displays"></a>Anzeigen
 
--   Ein kurzer, hochauflösungs Laserprojektor mit automatischer Synchronisierung und Abkühlen während des Ruhezustands.
+- Ein Kurz- oder Ultra-Short Throw, ein Laserprojektor mit hoher Auflösung und hoher Helligkeit mit automatischer Synchronisierung und Abkühlen während des Ruhezustands. Ein Projektor mit geringer Projektorqualität mit eigenschaften, die die Umgebungsbeleuchtung ablehnen, bietet in hellen Räumen die beste Bildqualität.
 
-Wie gezeigt:
+Wie gezeigt: 
 
-Epson EpiqVision™ Ultra LS500
+- [Epson EB-PU1007-Projektor mit ELPLX01S Ultra Short Throw-Objektiv](https://epson.com/For-Work/Projectors/Large-Venue/EB-PU1007B-WUXGA-3LCD-Laser-Projector-with-4K-Enhancement/p/V11HA34820)
+- [Da-Lite U TB Contour Screen | HD Progressive 0,6-| Cinemascope 138" Diagonal](https://www.legrandav.com/products/da-lite/screens/fixed_frame_screens/utb_contour)
 
 Weitere Optionen:
 

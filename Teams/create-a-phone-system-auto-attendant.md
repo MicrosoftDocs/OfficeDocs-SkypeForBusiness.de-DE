@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie automatische Attendants für große Organisationen in Ihrer Organisation einrichten und Microsoft Teams.
-ms.openlocfilehash: 1b212edfc750210aa7ab66bb0184dfa07541280e
-ms.sourcegitcommit: 4af3638637456f21bc97f510ed9d2f7ff2da07e2
+ms.openlocfilehash: 3a501ee9cdea0cf04466be1cbbd9c8f4407a9842
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/19/2022
-ms.locfileid: "63660590"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711919"
 ---
 # <a name="set-up-an-auto-attendant"></a>Einrichten einer automatischen Telefonzentrale
 
@@ -149,6 +149,8 @@ Sie können die Erweiterung im [Microsoft 365 Admin Center admin](https://admin.
 
 > [!NOTE]
 > Wenn Sie sowohl die Funktionen Namensanwahl als auch Nach  Durchwahl wählen verwenden möchten, können Sie in Ihrer automatischen Haupttelefon attendant eine Wähltaste zuweisen, um eine automatische Telefon attendant zu erreichen, die für die Namensanwahl **aktiviert ist**. Innerhalb dieser automatischen Telefon attendant können Sie die 1-Taste (der keine Buchstaben zugeordnet sind) zuweisen, um die automatische  Telefon attendant für Die Durchwahl zu erreichen.
+
+Weitere Informationen [finden Sie unter Wähl-](dial-voice-reference.md) und Sprachreferenz.
 
 Nachdem Sie eine Option für die **Verzeichnissuche ausgewählt haben** , wählen Sie Weiter **aus**.
 

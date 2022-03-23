@@ -13,12 +13,12 @@ ms.collection:
 description: Erfahren Sie mehr über die neuesten Änderungen in Teams PowerShell.
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8e45a80f4e16c211ae37579dc7de273c53f64d16
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
+ms.openlocfilehash: dea6b9d93d3950d4a831fdf669a98e28028f3c41
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435739"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711709"
 ---
 # <a name="microsoft-teams-powershell-release-notes"></a>Microsoft Teams zu PowerShell-Versionshinweisen
 
@@ -31,6 +31,7 @@ Auf dieser Seite finden Sie Teams PowerShell-Änderungsprotokoll für allgemeine
 
 | Datum | Version | Updates |
 |------- | -------------------- | ------------------------------ |
+| März 2022 | [4.0.1-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.1-preview) |<li>Behebt Probleme mit dem allgemeinen ErrorAction-Parameter.</li>
 | März 2022 | [4.0.0](https://www.powershellgallery.com/packages/MicrosoftTeams/4.0.0) |<li>Mit dieser GA-Version wird die Veröffentlichung aller cmdlets abgeschlossen, die nur für Teams relevant sind. Die modernen Versionen werden schrittweise eingeführt, daher werden einige Organisationen weiterhin die älteren Remoting-Versionen sehen.</li><li>Gibt [NewSetRemove\|\|]-CsUserCallingDelegate und [GetSet\|]-CsUserCallingSettings-Cmdlets in GA frei.</li><li>[UMBRUCHÄNDERUNG] Außer New-CsVoiceNormalizationRule; der InMemory-Schalter wird für andere Cmdlets nicht mehr unterstützt.</li><li>Die folgenden Cmdlets werden nicht mehr verwendet: ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [GetSet\|]-CsNetworkConfiguration, [SetRemove\|]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetPacktNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy,[GetRemoveSet\|\|]-CsVoiceNormalizationRule.</li>
 | Februar 2022 | [3.2.0-Vorschau](https://www.powershellgallery.com/packages/MicrosoftTeams/3.2.0-preview) |<li>Mit dieser Version wird die Veröffentlichung aller cmdlets abgeschlossen, die nur für Teams relevant sind. Die modernen Versionen werden schrittweise eingeführt, daher werden einige Organisationen weiterhin die älteren Remoting-Versionen sehen.</li><li>[UMBRUCHÄNDERUNG] Außer New-CsVoiceNormalizationRule; der InMemory-Schalter wird für andere Cmdlets nicht mehr unterstützt.</li><li>Connect-MicrosoftTeams Leistungsverbesserungen.</li><li>Fixes für Import-Module mit Präfix.</li><li>Behebt die Behandlung von Ports mit dem Schrägstrich "/" in [GetSetRemove\|\|]-CsOnlineLisPort.</li><li>Gibt Test-CsTeamsUnassignedNumberTreatment cmdlet frei.</li><li>Die folgenden Cmdlets werden nicht mehr verwendet: ConvertTo-JsonForPSWS, Set-CsUserServicesPolicy, [GetSet\|]-CsNetworkConfiguration, [SetRemove\|]-CsTenantNetworkConfiguration, New-CsNetworkMediaBypassConfiguration, [GetPacktNewRemoveSet\|\|\|\|]-CsTeamsVerticalPackagePolicy, [GetRemoveSet\|\|]-CsVoiceNormalizationRule.</li>
 | Februar 2022 | [3.1.1](https://www.powershellgallery.com/packages/MicrosoftTeams/3.1.1) |<li>Leistungsverbesserungen für "Import-Module".</li><li>Das Deserialisierungsproblem mit PSListModifier wurde behoben.</li>

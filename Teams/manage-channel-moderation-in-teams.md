@@ -18,12 +18,12 @@ ms.localizationpriority: medium
 search.appverid: MET150
 description: Hier erfahren Sie, wie Sie Kanäle für Moderation in Microsoft Teams einrichten, und erfahren Sie, wie Sie Teammitglieder als Kanalmoderatoren hinzufügen.
 ms.custom: seo-marvel-mar2020
-ms.openlocfilehash: 4441eea880b5dcf1d71ca11f0ad32cf148f90cf4
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: b53a7d71fe7dfde77e9038ef4343539e2375985f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62960007"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711319"
 ---
 # <a name="set-up-and-manage-channel-moderation-in-microsoft-teams"></a>Einrichten und Verwalten der Kanalmoderation in Microsoft Teams
 
@@ -32,7 +32,7 @@ In Microsoft Teams können Teambesitzer die Moderation für einen Standardkanal 
 Teambesitzer können auch Teammitglieder als Moderatoren hinzufügen. Ein Teambesitzer verfügt möglicherweise nicht über das Fachwissen auf Kanalebene, um die Kanalmoderation optimal zu unterstützen. Wenn sie es bestimmten Teammitgliedern ermöglichen, einen Kanal zu moderieren, wird die Verantwortung für die Verwaltung von Inhalten und Kontext in einem Kanal zwischen Teambesitzern und Kanalmoderatoren geteilt. Ein Teambesitzer kann beispielsweise Geschäftsbesitzer oder Inhaltsbesitzer als Moderatoren hinzufügen, wodurch er die Freigabe von Informationen in diesem Kanal steuern kann.
 
 > [!NOTE]
-> Die Kanalmoderation steht für Standardkanäle zur Verfügung. Sie ist für den Kanal "Allgemein" oder private Kanäle nicht verfügbar.
+> Die Kanalmoderation steht für Standardkanäle zur Verfügung. Sie ist nicht für den Kanal Allgemein oder für private oder freigegebene Kanäle verfügbar.
 
 ## <a name="what-can-a-channel-moderator-do"></a>Was kann ein Kanalmoderator tun?
 
@@ -44,7 +44,7 @@ Kanalmoderatoren können:
 
 ## <a name="scenarios"></a>Szenarien
 
-Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in Ihrer Teams.
+Hier finden Sie einige Beispiele dafür, wie Ihre Organisation die Kanalmoderation in ihrer Organisation Teams.
 
 ### <a name="use-a-channel-as-an-announcement-channel"></a>Verwenden eines Kanals als Ankündigungskanal
 
@@ -54,7 +54,7 @@ In diesem Szenario fügt der Teambesitzer "Marketing Leads" als Moderatoren hinz
 
 ### <a name="use-a-channel-for-class-discussions-in-teams-for-education"></a>Verwenden eines Kanals für Kursdiskussionen in Teams für Education
 
-In Teams für Education soll eine Lehrkraft einen Kanal nutzen, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
+In Teams für Education möchte eine Naturwissenschaftliche Lehrkraft einen Kanal verwenden, um Schüler/Studenten an zielgerichteten Diskussionen zu bestimmten Unterrichtsthemen zu beteiligen.
 
 In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal zu moderieren. Die Lehrassistenten können dann neue Beiträge erstellen, um Diskussionen mit Schülern/Studenten zu starten und zu leiten.
 
@@ -62,7 +62,7 @@ In diesem Szenario ermöglicht es der Lehrkraft ihren Lehrassistenten, den Kanal
 
 Wechseln Teams zum Kanal, und klicken Sie auf **Weitere Optionen...** >  **Kanal verwalten.** Hier können Sie die Moderation aktivieren und deaktivieren, Teammitglieder als Moderatoren hinzufügen und Einstellungen festlegen.
 
-Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung auf Mandantenebene für die Kanalmoderation. Wenn Sie möchten, dass wir eine Einstellung für die Kanalmoderation auf Mandantenebene hinzufügen, fordern Sie diese im [feedback-Teams an](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
+Die Kanalmoderation ist eine Einstellung pro Kanal. Es gibt keine Einstellung auf Mandantenebene für die Kanalmoderation. Wenn Sie möchten, dass wir eine Einstellung für die Kanalmoderation auf Mandantenebene hinzufügen, fordern Sie diese im [Feedbackportal Teams an](https://feedbackportal.microsoft.com/feedback/forum/ad198462-1c1c-ec11-b6e7-0022481f8472).
 
 [!INCLUDE [uservoice-disclaimer-note](includes/uservoice-disclaimer-note.md)]
 

@@ -22,12 +22,12 @@ ms.custom:
 - ms.teamsadmincenter.directrouting.cqd
 - ms.lync.lac.ToolsCallQualityDashboard
 description: Erfahren Sie, wie Sie den Power BI-Bericht „Anrufqualitäts-Dashboard“ verwenden, um Verlaufsdaten der automatischen Telefonzentrale und der Anrufwarteschleife anzuzeigen.
-ms.openlocfilehash: bb83a31b083387bc945f7f4b4388ee6643c00f10
-ms.sourcegitcommit: eb5fadedacbf4651ed5b05f1b0d6abf57e9eda2d
+ms.openlocfilehash: 57552af3a1df108dbbf86172793bb9ea86ed1b10
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/25/2022
-ms.locfileid: "62921873"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711489"
 ---
 # <a name="auto-attendant--call-queue-historical-report"></a>Verlaufsbericht für automatische Telefonzentrale und Anrufwarteschleife
 
@@ -289,9 +289,9 @@ Führen Sie die folgenden Schritte durch:
 |Name                                    |Datentyp                |Beschreibung                                         |
 |:---------------------------------------|:------------------------|:---------------------------------------------------|
 |Name des Agents                              |Text                     |Benutzer-UPN<br>Wenn der vollständige Benutzername **user@microsoft.com** ist, lautet dieser Wert wie folgt: **user** |
-|Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Die durchschnittliche Dauer der Anrufe der Anrufwarteschleife in Sekunden |
-|Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der vom Agent verarbeiteten Anrufe                    |
-|Anrufdauer (Minute)                  |Ganze Zahl             |Zusammenfassen: Summe<br>Anrufdauer der Anrufe der Anrufwarteschleife insgesamt in Minuten  |
+|Durchschnittliche Anrufdauer (Sekunde)          |Dezimalzahl           |Zusammenfassen: Summe<br>Die durchschnittliche Dauer von beantworteten Anrufwarteschleifenanrufen in Sekunden |
+|Anrufanzahl                              |Ganze Zahl             |Zusammenfassen: Summe<br>Anzahl der von einem Mitarbeiter präsentierten und beantworteten Anrufe     |
+|Anrufdauer (Minute)                  |Ganze Zahl             |Zusammenfassen: Summe<br>Gesamtdauer von Anrufwarteschleifenanrufen in Minuten (abgerundet auf die nächste Minute)  |
 |Name der Anrufwarteschleife                         |Text                     |Name des Ressourcenkontos, das an die Anrufwarteschleife angefügt ist<br><br>Wenn der vollständige Ressourcenkontoname **cq_test@microsoft.com** ist, lautet dieser Wert wie folgt: **cq_test** |
 |Datum                                    |Datum                     |                                                    |
 

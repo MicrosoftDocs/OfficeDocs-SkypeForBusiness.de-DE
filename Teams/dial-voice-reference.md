@@ -22,23 +22,23 @@ ms.custom:
 - Phone System
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die automatische Telefon attendant und die Optionen für Anrufwarteschleifenwählen und Spracherkennung in Teams.
-ms.openlocfilehash: 7ea18f5ca1f9fba619fe00f28e93e245a7a8f074
-ms.sourcegitcommit: 38a4d2f41270633479afb3412c749365922554e5
+ms.openlocfilehash: db9eb9b4a31bd4d78c2e2519943cb405022e9fc6
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 12/10/2021
-ms.locfileid: "61410676"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711279"
 ---
 # <a name="auto-attendant-and-call-queue-dialing-and-voice-recognition-reference"></a>Referenz zu automatischer Telefonant- und Anrufwarteschleifen-Wähl- und Spracherkennung
 
-"Nach Name wählen" oder "Durchwahl" ist eine automatische Telefonkonferenzfunktion, mit der Anrufer Teams in Ihrer Organisation erreichen können. Mithilfe der Sprach- oder Telefontastenanrufe können Anrufer den vollständigen oder teilweisen Namen oder die Durchwahl der Person, die sie erreichen möchten, sagen oder eingeben. Die automatische Telefongesellschaft durchsucht das Firmenverzeichnis, sucht die Person und übertiert dann den Anrufer.  Namensanwahl oder Durchwahl durch Durchwahl sind Optionen, die Sie einrichten, wenn Sie die Anrufflusseinstellungen [in einer automatischen Telefonkonferenz konfigurieren.](create-a-phone-system-auto-attendant.md#call-flow)
+"Nach Name wählen" oder "Durchwahl" ist eine automatische Telefonkonferenzfunktion, mit der Anrufer Teams in Ihrer Organisation erreichen können. Mithilfe der Sprach- oder Telefontastenanrufe können Anrufer den vollständigen oder teilweisen Namen oder die Durchwahl der Person, die sie erreichen möchten, sagen oder eingeben. Die automatische Telefongesellschaft durchsucht das Firmenverzeichnis, sucht die Person und übertiert dann den Anrufer.  Namensanwahl oder Durchwahl durch Durchwahl sind Optionen, die Sie einrichten, wenn Sie die Anrufflusseinstellungen [in einer automatischen Telefonkonferenz konfigurieren](create-a-phone-system-auto-attendant.md#call-flow).
 
 
 ## <a name="searching-for-users"></a>Suchen nach Benutzern
 
-Teams Benutzer, die über die Namensanwahl erreicht werden können, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen für Enterprise-VoIP Benutzer Skype for Business Server sein. Bei multinationalen Organisationen werden mit der Namensanwahl Anrufer für Benutzer in Microsoft Teams verschiedenen Ländern oder Regionen suchen und übertragen.
+Teams Benutzer, die über die Namensanwahl erreicht werden können, müssen keine Telefonnummer oder Anrufpläne haben **,** aber sie müssen für Enterprise-VoIP Benutzer Skype for Business Server aktiviert sein. Bei multinationalen Organisationen werden durch namensanwahl Anrufer nach Personen Microsoft Teams in verschiedenen Ländern oder Regionen suchen und übertragen.
 
-Teams Benutzer, die über die Durchwahl erreichbar sind, müssen keine Telefonnummer oder Anrufpläne **haben,** aber sie müssen für Skype for Business Server-Benutzer Enterprise-VoIP aktiviert sein. Darüber hinaus benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Bei multinationalen Organisationen finden und übertragen die Durchwahlanrufe Anrufer Microsoft Teams Benutzer in verschiedenen Ländern oder Regionen. 
+Teams-Benutzer, die über die Durchwahl erreichbar sind, müssen keine Telefonnummer oder Anrufpläne haben, aber sie müssen **für** Enterprise-VoIP-Benutzer Skype for Business Server aktiviert sein. Darüber hinaus benötigen Sie einen entsprechend konfigurierten Wählplan für Ihre Benutzer. Bei multinationalen Organisationen werden mit der Durchwahl durch Durchwahl Anrufer nach Benutzern in Microsoft Teams verschiedenen Ländern oder Regionen suchen und übertragen. 
 
 Angesichts der erforderlichen Voraussetzungen muss "Nach Name wählen" oder "Durchwahl" beim Konfigurieren einer automatischen Telefonant explizit aktiviert sein.
 
@@ -52,10 +52,10 @@ Es gibt keine Beschränkung der Anzahl der Active Directory-Benutzer, die die Na
 |Sprache (Spracheingabe) |Vorname  <br/> Nachname  <br/> Vorname + Nachname  <br/> Nachname + Vorname  | 80.000 Benutzer |
 
 > [!NOTE]
-> Wenn Sie die Namensanwahl mit Spracherkennung verwenden, active Directory aber mehr als 80.000 Benutzer in Ihrer Organisation [](create-a-phone-system-auto-attendant.md#dial-scope) ist und Sie den Bereich der Namensanwahl nicht mithilfe der Funktion "Wählbereich" eingeschränkt haben, funktioniert die Namensanwahl weiterhin für Ihre Anrufer über die Wähltasten eines Telefons, und Spracheingaben stehen in allen anderen Szenarien zur Verfügung. Sie können das Feature "Wählbereich" verwenden, um die Namen zu ein grenzen, die erreichbar sind, indem Sie den Bereich der Namensanwahl für eine bestimmte automatische Telefon attendant ändern.
+> Wenn Sie die Namensanwahl mit Spracherkennung verwenden, active Directory aber mehr als 80.000 Benutzer in Ihrer Organisation ist und Sie den Bereich der Namensanwahl nicht mithilfe der Funktion "Wählbereich" eingeschränkt [](create-a-phone-system-auto-attendant.md#dial-scope) haben, funktioniert die Namensanwahl weiterhin für Ihre Anrufer über die Wähltasten eines Telefons, und Spracheingaben stehen in allen anderen Szenarien zur Verfügung. Sie können das Feature "Wählbereich" verwenden, um die Namen zu ein grenzen, die erreichbar sind, indem Sie den Bereich der Namensanwahl für eine bestimmte automatische Telefon attendant ändern.
  
 ### <a name="search-considerations"></a>Überlegungen zur Suche 
-Namenswählen durchsucht das Verzeichnis der Organisation und filtert die Ergebnisse nach konfigurierten Ein- oder Ausschließen von Wählbereichslisten. Wenn die erste Suche mehr als 100 Benutzer zurückgibt, werden die Listen des Wählbereichs nicht angewendet, die Suche fehlschlägt, und dem Anrufer wird mitgeteilt, dass zu viele Namen gefunden wurden.
+Namenswählen durchsucht zuerst das Verzeichnis der gesamten Organisation, bevor konfigurierte Listen zum Ein- oder Ausschließen von Wählbereich angewendet werden. Wenn die erste Suche im gesamten Verzeichnis mehr als 100 Benutzer zurückgibt, werden die Listen des Wählbereichs nicht angewendet, die Suche fehlschlägt, und dem Anrufer wird mitgeteilt, dass zu viele Namen gefunden wurden.
  
  
 ## <a name="dial-by-name---keypad-dtmf-entry"></a>Namensanwahl - Eingabe über die Wähltastatur (MFV)
@@ -114,7 +114,7 @@ Anrufer können Namen in den folgenden Formaten sagen:
   
 ## <a name="language-support"></a>Sprachunterstützung
 
-Sprachunterstützung für Text-zu-Sprache und Spracherkennung ist in diesen [unterstützten Sprachen verfügbar.](create-a-phone-system-auto-attendant-languages.md)
+Sprachunterstützung für Text-zu-Sprache und Spracherkennung ist in diesen unterstützten [Sprachen verfügbar](create-a-phone-system-auto-attendant-languages.md).
 
 Die folgenden Sprachbefehle sind für die Spracherkennung verfügbar: 
   

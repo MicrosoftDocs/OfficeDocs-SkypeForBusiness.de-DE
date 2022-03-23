@@ -18,12 +18,12 @@ appliesto:
 ms.localizationpriority: high
 search.appverid: MET150
 description: Erfahren Sie, wie Sie private Kanäle in Microsoft Teams nutzen und verwalten können.
-ms.openlocfilehash: 097c7e4c43c6127b59423cab94b97ac949a2df57
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: e3b8208f760d2ec549e242d390190fce8acba5fd
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463748"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711469"
 ---
 # <a name="private-channels-in-microsoft-teams"></a>Private Kanäle in Microsoft Teams
 
@@ -97,7 +97,7 @@ Teams verwaltet den Lebenszyklus der privaten Kanalsite. Wenn die Website außer
 Wird ein privater Kanal oder ein Team, das einen privaten Kanal enthält, wiederhergestellt, werden die Websites darin wiederhergestellt. Wenn eine Website eines privaten Kanals wiederhergestellt wird und das 30-Tage-Fenster für "vorläufiges Löschen" für den privaten Kanal überschritten ist, wird die Website als eigenständige Website ausgeführt.
 
 > [!NOTE]
-> Wenn Sie ein neues Team oder einen privaten Kanal in Microsoft Teams erstellen, wird automatisch eine Teamwebsite in SharePoint erstellt. Um die Websitebeschreibung oder -klassifizierung für diese Teamwebsite zu bearbeiten, wechseln Sie zu den [-Einstellungen des entsprechenden Kanals in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
+> Wenn Sie ein neues Team, einen privaten Kanal oder einen freigegebenen Kanal in Microsoft Teams erstellen, wird automatisch eine Teamwebsite in SharePoint erstellt. Um die Websitebeschreibung oder -klassifizierung für diese Teamwebsite zu bearbeiten, wechseln Sie zu den [-Einstellungen des entsprechenden Kanals in Microsoft Teams](https://support.microsoft.com/office/change-a-team-s-data-security-classification-in-teams-bf39798f-90d2-44fb-a750-55fa05a56f1d).
 >
 > Weitere Informationen zum Verwalten von [mit Microsoft Teams verbundenen Teams-Websites](/SharePoint/teams-connected-sites).
 
@@ -105,7 +105,7 @@ Wird ein privater Kanal oder ein Team, das einen privaten Kanal enthält, wieder
 
 Compliancekopien für Nachrichten, die in einem privaten Kanal gesendet werden, werden an das Postfach aller Mitglieder des privaten Kanals und nicht an ein Gruppenpostfach übermittelt. Die Titel der Compliancekopien sind so formatiert, dass sie angeben, von welchem privaten Kanal sie gesendet wurden.
 
-Weitere Informationen zum Durchführen einer eDiscovery-Suche nach Nachrichten eines privaten Kanals finden Sie unter [eDiscovery privater Kanäle](ediscovery-investigation.md#ediscovery-of-private-channels).
+Weitere Informationen zum Durchführen einer eDiscovery-Suche nach Nachrichten eines privaten Kanals finden Sie unter [eDiscovery privater Kanäle](ediscovery-investigation.md#ediscovery-of-private-and-shared-channels).
 
 ## <a name="considerations-around-file-access-in-private-channels"></a>Überlegungen zum Zugriff auf Dateien in privaten Kanälen
 
@@ -123,11 +123,13 @@ Jedes Team kann maximal 30 private Kanäle nutzen, und jeder private Kanal kann 
 
 Wenn Sie ein Team aus einem bestehenden Team erstellen, werden private Kanäle des bestehenden Teams nicht übernommen.
 
-Benachrichtigungen aus privaten Kanälen sind derzeit in E-Mails zu verpassten Aktivitäten nicht eingeschlossen.
+Benachrichtigungen aus privaten Kanälen sind in E-Mails zu verpassten Aktivitäten nicht eingeschlossen.
 
 Kanalbesprechungen können nicht geplant werden.
 
 ## <a name="related-topics"></a>Verwandte Themen
+
+[Freigegebene Kanäle in Microsoft Teams](/MicrosoftTeams/shared-channels)
 
 [Übersicht über Teams und Kanäle in Teams](teams-channels-overview.md)
 

@@ -18,12 +18,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 6c18871756c8081b7013666d98d1599cfec4117f
-ms.sourcegitcommit: b635f3765498ae23f535a33fa9ffea5068eecb14
+ms.openlocfilehash: f70378e2be1dd47126ee3d83009759c63643ae2f
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "63463738"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711759"
 ---
 # <a name="skype-for-business-online-retirement"></a>Einstellung von Skype for Business Online
 
@@ -31,9 +31,7 @@ Am 31. Juli 2021 wurde Microsoft Skype for Business Online eingestellt. Diese K�
 
 ## <a name="why-is-skype-for-business-online-retiring"></a>Warum wird Skype for Business Online nicht mehr verfügbar?
 
-Seit seiner Einführung ist Skype for Business Online ein wertvolles Tool für Millionen von Menschen auf der ganzen Welt. Durch die Kombination von Chat, Anrufen und Video hat Skype for Business Online neue Möglichkeiten für die Geschäftskommunikation geschaffen. Teams ist das nächste Kapitel in dieser Vision. 
-
-Die Funktionen von Microsoft Teams gehen über die Funktionen von Skype for Business Online hinaus. Fortlaufende Plattformin innovation und entwicklung bedeutet, Teams Benutzer von einer reichhaltigere Leistung, Funktionalität, Flexibilität und Sicherheit profitieren. Durch die Kombination der folgenden Funktionen in einer einzelnen Bearbeitung ermöglicht Teams neue Arbeitsweise:
+Seit seiner Einführung ist Skype for Business Online ein wertvolles Tool für Millionen von Menschen auf der ganzen Welt. Durch die Kombination von Chat, Anrufen und Video hat Skype for Business Online neue Möglichkeiten für die Geschäftskommunikation geschaffen. Teams ist das nächste Kapitel in dieser Vision.  Die Funktionen von Microsoft Teams gehen über die Funktionen von Skype for Business Online hinaus. Fortlaufende Plattformin innovation und entwicklung bedeutet, Teams Benutzer von einer reichhaltigere Leistung, Funktionalität, Flexibilität und Sicherheit profitieren. Durch die Kombination der folgenden Funktionen in einer einzelnen Bearbeitung ermöglicht Teams neue Arbeitsweise:
 
 - Chat
 - Video
@@ -43,15 +41,13 @@ Die Funktionen von Microsoft Teams gehen über die Funktionen von Skype for Busi
 
 Teams ist mehr als ein Upgrade für Skype for Business Online. Es ist ein leistungsfähiges Tool, das es Schulen und Organisationen ermöglicht, agiler zu werden und die Effizienz wichtiger Workflows zu verbessern. Weitere Informationen zu den Vorteilen von Teams finden Sie im Whitepaper Forrester: Die gesamten wirtschaftlichen [Auswirkungen™ Microsoft Teams](https://www.microsoft.com/microsoft-365/blog/wp-content/uploads/sites/2/2019/04/Total-Economic-Impact-Microsoft-Teams.pdf?rtc=1).
 
-Weitere Informationen zur Online-Skype for Business finden Sie unter Häufig gestellte Fragen [– Upgrade von Skype for Business auf Microsoft Teams](FAQ-journey.yml).
-
 ## <a name="organizations-with-skype-for-business-online"></a>Organisationen mit Skype for Business Online
 
 Microsoft stellt einen unterstützten Upgradeprozess zur Verfügung, damit Organisationen die verbleibenden Skype for Business Online-Benutzer ausschließlich auf Teams verschieben können. Teams ist in den meisten Microsoft 365 Business- und Enterprise-Plänen verfügbar, und vorhandene Investitionen in die Lizenzierung werden auf Teams. Funktionen, bei denen es sich heute in Skype for Business Online um Premium-Arbeitsauslastungen handelt, gelten auch in Teams als Premium-Arbeitsauslastungen. Wenn Sie beispielsweise audio conferencing standalone oder als Teil von E5 mit Skype for Business erworben haben, werden Audiokonferenzen in Teams.
 
 ## <a name="organizations-with-on-premises-deployments-of-skype-for-business-server"></a>Organisationen mit lokalen Bereitstellungen von Skype for Business Server
 
-Das Ende von Skype for Business Online wirkt sich nicht auf die Unterstützung für lokale Bereitstellungen von Skype for Business Server und Lync Server 2013 aus. Hybridkunden mit einer Mischung aus online und lokal behausten Benutzern müssen jedoch ein Upgrade aller *Onlinebenutzer* durchführen. Diesen Onlinebenutzern muss mithilfe von TeamsUpgradePolicy Teams Nur-Modus zugewiesen werden. Microsoft stellt Support-Upgrades zur Verfügung, um das Upgrade der verbleibenden Skype for Business Online-Benutzer auf den Teams zu automatisieren. Hybridorganisationen müssen *ihre lokalen Benutzer* Skype for Business diese Rente nicht in die Cloud verschieben. Microsoft unterstützt Hybridorganisationen vollständig mit einer Kombination aus Teams nur Benutzern und lokalen Skype for Business Benutzern. Kunden mit Hybridbereitstellungen von Skype for Business Server oder Lync Server 2013 sollten die Auswirkungen der bevorstehenden Rente von [Skype for Business Online lesen](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
+Das Ende von Skype for Business Online wirkt sich nicht auf die Unterstützung für lokale Bereitstellungen von Skype for Business Server und Lync Server 2013 aus. Hybridkunden mit einer Mischung aus online und lokal behausten Benutzern müssen jedoch ein Upgrade aller *Onlinebenutzer* durchführen. Diesen Onlinebenutzern muss mithilfe von TeamsUpgradePolicy Teams Nur-Modus zugewiesen werden. Microsoft stellt Support-Upgrades zur Verfügung, um das Upgrade der verbleibenden Skype for Business Online-Benutzer auf den Teams zu automatisieren. Hybridorganisationen müssen *ihre lokalen Benutzer* Skype for Business diese Rente nicht in die Cloud verschieben. Microsoft unterstützt Hybridorganisationen vollständig mit einer Kombination aus Teams nur Benutzern und lokalen Skype for Business Benutzern. Kunden mit Hybridbereitstellungen von Skype for Business Server oder Lync Server 2013 sollten die Auswirkungen der Skype for Business [Online überprüfen](/skypeforbusiness/hybrid/plan-hybrid-connectivity#implications-of-the-upcoming-retirement-of-skype-for-business-online).
 
 ## <a name="what-to-expect-post-retirement"></a>Was Sie nach der Rente erwarten können
 
@@ -87,7 +83,8 @@ Nutzen Sie die verfügbaren Ressourcen, um ihre Bereitstellung Teams und das Upg
 
 - [Microsoft Teams Blog](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/bg-p/MicrosoftTeamsBlog) – finden Teams Informationen zu neuen Features, Ressourcen zur Einführung und Nutzung, Teams geräte und zur Integration in andere Geschäftsanwendungen.
 
-Wenn Sie ein aktueller Online-Kunde Skype for Business, beginnen Sie mit der Planung Ihres Upgrades auf Teams heute. Wir freuen uns, dass Sie die leistungsfähigen Funktionen für Kommunikation und Zusammenarbeit nutzen können, und wir sind bestrebt, Ihnen beim Weg zu helfen.
+Wenn Sie ein aktueller Online-Kunde Skype for Business, beginnen Sie mit der Planung Ihres Upgrades auf Teams heute. Wir freuen uns, dass Sie die leistungsfähigen Funktionen für Kommunikation und Zusammenarbeit nutzen können, und wir sind bestrebt, Ihnen beim Weg zu helfen.  Weitere Informationen zur Online-Skype for Business finden Sie unter Häufig gestellte Fragen [– Upgrade von Skype for Business auf Microsoft Teams](FAQ-journey.yml).
+
 
 
 
