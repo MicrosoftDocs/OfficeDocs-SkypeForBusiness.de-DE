@@ -19,12 +19,12 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3260ec894de12b405e0fea8e0d3c75a550d896d4
-ms.sourcegitcommit: 4df3d144296b9b8982109be7edaffd636aabdf29
+ms.openlocfilehash: 647e5e12f7140abc3da8dc63964d5b94d9785e16
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/15/2021
-ms.locfileid: "60959914"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711509"
 ---
 # <a name="limits-and-specifications-for-microsoft-teams"></a>Grenzwerte und Spezifikationen für Microsoft Teams
 
@@ -59,7 +59,10 @@ In diesem Artikel werden einige der Grenzwerte, Spezifikationen und anderen Anfo
 
 <sup>5</sup> 28 KB ist ein ungefährer Grenzwert, da er die Nachricht selbst (Text, Bildlinks usw.), @Erwähnungen, die Anzahl der Connectors und Reaktionen umfasst.
 
-<sup>6</sup> Teams in der GCC können 25 000 Mitglieder aufnehmen, aber Teams in der GCCH/DoD nur 2.500 Mitglieder. Beachten Sie des Weiteren, dass Teams-/Kanal-Erwähnungen in Teams mit mehr 10.000 Mitgliedern geblockt sind.
+<sup>6</sup> Mitglieder von freigegebenen Kanälen von außerhalb des Teams werden auf diesen Grenzwert angerechnet. Teams in der GCC können 25 000 Mitglieder aufnehmen, aber Teams in der GCCH/DoD nur 2500 Mitglieder. Beachten Sie des Weiteren, dass Teams-/Kanal-Erwähnungen in Teams mit mehr 10.000 Mitgliedern geblockt sind.
+
+> [!NOTE]
+> Grenzwerte für die Vorschau der freigegebenen Kanäle finden Sie unter [Grenzwerte für freigegebene Kanäle (Vorschau)](/MicrosoftTeams/shared-channels#limits-for-shared-channels-preview).
 
 ## <a name="messaging"></a>Messaging
 

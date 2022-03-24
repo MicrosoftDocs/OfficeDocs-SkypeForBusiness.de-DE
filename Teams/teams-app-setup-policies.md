@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: b5100bd09b371d90d5bede76b440f423eb527b9c
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442341"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774014"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -35,6 +35,9 @@ Als Administrator können Sie App-Setuprichtlinien verwenden, um Apps zu install
 - **Hochladen Benutzerdefinierte Apps: Mit** Richtlinien für das Einrichten von Apps können Sie Benutzern das Hochladen benutzerdefinierter Apps auf Teams. Weitere Informationen finden Sie unter [Hochladen von benutzerdefinierten Apps](#upload-custom-apps).
 
 ## <a name="pin-apps"></a>Anheften von Apps
+
+> [!NOTE]
+> Für Mitarbeiter in der Frontline in Ihrer Organisation empfehlen wir die Verwendung der maßgeschneiderten Frontline-App-Erfahrung. Mit diesem Feature werden die relevantesten Apps in Teams Benutzer mit einer [F-Lizenz fixiert](https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline?rtc=1#office-SKUChooser-0dbn8nt). Weitere Informationen finden Sie unter [Anpassen Teams Apps für Ihre Mitarbeiter an vorderer Front](pin-teams-apps-based-on-license.md).
 
 Mit dem Anheften von Apps können Sie Apps präsentieren, die Benutzer in Ihrer Organisation benötigen, einschließlich Apps, die von Drittanbietern oder von Entwicklern in Ihrer Organisation erstellt wurden.
 

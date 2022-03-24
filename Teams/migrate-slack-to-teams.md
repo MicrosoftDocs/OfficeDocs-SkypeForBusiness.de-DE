@@ -18,12 +18,12 @@ ms.localizationpriority: high
 f1.keywords:
 - NOCSH
 description: Umfassender Leitfaden für das Migrieren von Slack auf Microsoft Teams.
-ms.openlocfilehash: 9342c7e251cc7466df0d70e8cb699d7e514455b4
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 7879e839c8f5597761827fe42ea75b1f0c8dddf9
+ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456355"
+ms.lasthandoff: 03/22/2022
+ms.locfileid: "63711889"
 ---
 # <a name="migrate-from-slack-to-microsoft-teams"></a>Migrieren von Slack auf Microsoft Teams
 
@@ -55,7 +55,7 @@ Folgende Begriffe sollten Sie nach Abschluss dieses Abschnitts kennen:
 ### <a name="assess-your-slack-workspaces"></a>Bewerten Sie Ihre Slack-Arbeitsbereiche
 Bevor Sie den Migrationsplan Ihrer Organisation planen können, müssen Sie einige Informationen über Ihre Slack-Arbeitsbereiche zusammenstellen. Wenn Sie verstehen, wie Ihre Slack-Arbeitsbereiche genutzt werden, können Sie den Umfang Ihrer Migration bestimmen. Zum Beispiel, wie viele Arbeitsbereiche werden verschoben? Werden sie von einer bestimmten Abteilung, von vielen oder von einer ganzen Organisation verwendet?
 
-Wenn Sie Mitglied der Slack-Arbeitsbereiche sind, die Sie migrieren möchten, können Sie die Nutzung selbst analysieren, indem Sie zu *\<your Slack workspace\>.slack.com/stats* gehen. Überprüfen Sie die Registerkarten „Kanäle“ und „Mitglieder“, um nach Nutzungsmustern zu suchen. Entscheiden Sie, welche Arbeitsbereiche Sie migrieren möchten (und welche Sie zurücklassen möchten). 
+Wenn Sie ein Mitglied der zu migrierenden Slack-Arbeitsbereiche sind, können Sie die Nutzung selbst analysieren, indem Sie zu *\<your Slack workspace\>.slack.com/stats* wechseln. Überprüfen Sie die Registerkarten „Kanäle“ und „Mitglieder“, um nach Nutzungsmustern zu suchen. Entscheiden Sie, welche Arbeitsbereiche Sie migrieren wollen (und welche Sie zurücklassen möchten). 
 
 > [!NOTE]
 > Wenn Sie keinen Zugriff auf die Seite „Statistiken“ haben, sind Sie kein Administrator oder Besitzer. 

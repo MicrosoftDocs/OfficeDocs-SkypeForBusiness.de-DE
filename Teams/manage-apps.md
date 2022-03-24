@@ -17,12 +17,12 @@ description: Erfahren Sie, wie Sie Ihre Teams-Apps auf der Seite Apps verwalten 
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: medium
-ms.openlocfilehash: 96acf3151c2b805fead94979010669520b7a000f
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: f8130d8f6d9d8609ce37d5f43f18dd083a5106e0
+ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442291"
+ms.lasthandoff: 03/23/2022
+ms.locfileid: "63774074"
 ---
 # <a name="manage-your-apps-in-the-microsoft-teams-admin-center"></a>Verwalten Ihrer Apps im Microsoft Teams Admin Center
 
@@ -150,14 +150,16 @@ Mit ressourcenspezifischen Zustimmungsberechtigungen (RSC) können Teambesitzer 
 
 ## <a name="manage-org-wide-app-settings"></a>Verwalten von organisationsweiten App-Einstellungen
 
-Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer eine angepasste App-Erfahrung basierend auf der Lizenz erhalten (in Kürze verfügbar), ob Benutzer Apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte Apps in Ihrer Organisation hochladen oder damit interagieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft. Sie können sie verwenden, um bösartige oder problematische Apps zu kontrollieren.
+Verwenden Sie organisationsweite App-Einstellungen, um zu steuern, ob Benutzer mit einer [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) die maßgeschneiderte Frontline-App-Erfahrung erhalten (in Kürze verfügbar), ob Benutzer Apps von Drittanbietern installieren können und ob Benutzer benutzerdefinierte Apps in Ihrer Organisation hochladen oder damit interagieren können. Organisationsweite App-Einstellungen regeln das Verhalten für alle Benutzer und setzen alle anderen App-Berechtigungsrichtlinien, die den Benutzern zugewiesen wurden, außer Kraft. Sie können sie verwenden, um bösartige oder problematische Apps zu kontrollieren.
 
 > [!NOTE]
 > Informationen zur Verwendung von organisationsweiten App-Einstellungen in Microsoft 365 Government – Government Community Cloud High GCCH and Department of Defense (DoD)-Bereitstellungen von Teams finden Sie unter Verwalten von Richtlinien für App-Berechtigungen [in Teams](teams-app-permission-policies.md).
 
-1. Wählen Sie auf der Seite Apps verwalten die **Option Organisationsweite App-Einstellungen aus**. Sie können in dem Fenster dann die gewünschten Einstellungen konfigurieren.
+1. Wählen Sie auf der Seite Apps verwalten die **Option Organisationsweite App-Einstellungen aus**. Anschließend können Sie die im Bereich angezeigten Einstellungen konfigurieren.
 
-1. (In Kürze folgen) Deaktivieren **oder aktivieren Sie unter** Maßgeschneiderte Apps die Maßgeschneiderte Apps **basierend auf Lizenzen anzeigen**. Wenn diese Einstellung aktivieren, erhalten Die Benutzer eine Erfahrung, in der Apps basierend auf ihrer Lizenz angeheftet werden. Weitere Informationen finden Sie unter [Anpassen Ihrer Teams basierend auf einer Lizenz](pin-teams-apps-based-on-license.md).
+    :::image type="content" source="media/manage-apps-org-wide-app-settings.png" alt-text="Screenshot des Bereichs "Organisationsweite App-Einstellungen" auf der Seite "Apps verwalten"":::
+
+1. (In Kürze folgen) Deaktivieren **oder aktivieren Sie unter** Maßgeschneiderte Apps die Maßgeschneiderte **Apps anzeigen**. Wenn diese Einstellung aktivieren, erhalten Benutzer mit einer [F-Lizenz](https://www.microsoft.com/microsoft-365/enterprise/frontline#office-SKUChooser-0dbn8nt) die maßgeschneiderte Frontline-App-Erfahrung. Auf diese Benutzererfahrung heften sich die relevantesten Apps in Teams für Mitarbeiter an vorderer Front an. Weitere Informationen finden Sie unter [Anpassen Teams Apps für Ihre Mitarbeiter an vorderer Front](pin-teams-apps-based-on-license.md).
 
     Dieses Feature ist für F-Lizenzen verfügbar. Andere Lizenztypen werden in Zukunft unterstützt.
 1. Aktivieren oder deaktivieren Sie unter **Drittanbieter-Apps** diese Einstellungen, um den Zugriff auf Drittanbieter-Apps zu steuern:
