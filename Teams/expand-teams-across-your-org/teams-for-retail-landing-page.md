@@ -20,12 +20,12 @@ searchScope:
 - Microsoft Cloud for Retail
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: cb32190c05dcbe165e203d9e4f097622d60943b8
-ms.sourcegitcommit: 2e8daa3511cd198b3e0d43b153dd37a59cb21692
+ms.openlocfilehash: f611afe731bc178759427efff2fe35d925ca0def
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/11/2022
-ms.locfileid: "62763400"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403966"
 ---
 # <a name="get-started-with-teams-for-retail"></a>Erste Schritte mit Teams für den Einzelhandel
 
@@ -33,8 +33,7 @@ Einzelhandelsumgebungen mit rotierenden Zeitplänen und Mitarbeitern, die ständ
 
 1. [Wählen Sie die Szenarien aus](#choose-your-scenarios), die Sie für Ihr Unternehmen implementieren möchten.
 :::image type="content" source="../media/retail-teams-scenarios.png" alt-text="Das Diagramm zeigt Teams-Szenarien für den Einzelhandel." lightbox="../media/retail-teams-scenarios.png":::
-1. [Einrichten der Grundlagen](#set-up-the-fundamentals) – Unterstützen Sie Ihre Mitarbeiter bei den grundlegenden Aufgaben: Verwalten von Konten und Geräten und stellen Sie sicher, dass die entsprechenden Teams-Richtlinien verwendet werden.
-:::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Das Diagramm zeigt grundlegende Informationen, einschließlich Teams-Richtlinien, Konten und Geräte." lightbox="../media/retail-teams-fundamentals.png":::
+1. [Einrichten der Grundlagen](#set-up-the-fundamentals) – Unterstützen Sie Ihre Mitarbeiter bei den grundlegenden Aufgaben: Verwalten von Konten und Geräten, und stellen Sie sicher, dass die entsprechenden Teams-Richtlinien verwendet werden. :::image type="content" source="../media/retail-teams-fundamentals.png" alt-text="Diagramm mit Grundlagen, einschließlich Teams-Richtlinien, Konten und Geräten." lightbox="../media/retail-teams-fundamentals.png":::
 1. [Einrichten von Teams und Apps](#set-up-teams-and-apps) – Verwenden Sie Teamvorlagen zum schnellen Einrichten der benötigten Teams, einschließlich der Kanäle und Apps, die Sie für Ihr Unternehmen benötigen. Fügen Sie nach Bedarf andere Apps von Microsoft hinzu, um Ihre Szenarien zu unterstützen.
 :::image type="content" source="../media/retail-teams-apps.png" alt-text="Das Diagramm zeigt Teams, Teamvorlagen und Apps, die einbezogen werden können." lightbox="../media/retail-teams-apps.png":::
 
@@ -79,7 +78,7 @@ Weitere Informationen: [Virtuelle Besuche mit Microsoft Teams und der Bookings-A
 
 ### <a name="simplify-business-processes"></a>Vereinfachen von Geschäftsprozessen
 
-Sie können Teams-Apps, Power Apps und Power BI zur Vereinfachung von Geschäftsprozessen verwenden. Sie verfügen über folgende Möglichkeiten:
+Sie können Teams-Apps, Power Apps und Power BI verwenden, um Geschäftsprozesse für Ihre Einzelhandelsteams zu vereinfachen. Sie verfügen über folgende Möglichkeiten:
 
 - Mit Schichten können Sie Zeitpläne für Ihre Mitarbeiter festlegen und verwalten.
 - Führen Sie Filialrundgänge und Inventuren mit Power Apps durch.
@@ -168,7 +167,7 @@ Für Einzelhandelsumgebungen können Ihnen die folgenden Apps und Dienste dabei 
 | Weitere Apps und Dienste von Microsoft | Beschreibung | Verwalten | Hilfe |
 | ----- | ----- | ----- | ----- |
 | Bookings | Aktivieren von virtuellen Anproben und Beratungsgesprächen. | [Virtuelle Untersuchung mit Microsoft Teams und der Bookings-App](bookings-virtual-visits.md) | [Verwenden von Bookings](https://support.microsoft.com/en-us/office/what-is-bookings-42d4e852-8e99-4d8f-9b70-d7fc93973cb5) |
-| Power Apps und die Power Platform | Ermöglichen die Integration von Geschäftsprozessen, und die schnelle Aktualisierungen von Daten, z. B. Lagerbestand, Verkaufszahlen, Schadensberichte und mehr. | [Integration von Teams in die Microsoft Power Platform](../teams-power-platfom-integration.md) und [Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center](../manage-power-platform-apps.md) | -  |
+| Power Apps und die Power Platform | Ermöglichen die Integration von Geschäftsprozessen, und die schnelle Aktualisierungen von Daten, z. B. Lagerbestand, Verkaufszahlen, Schadensberichte und mehr. | [Integration von Teams in die Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) und [Verwalten von Microsoft Power Platform-Apps im Microsoft Teams Admin Center](../manage-power-platform-apps.md) | -  |
 | SharePoint | Wenn Sie ein neues Team erstellen, wird eine neue SharePoint-Site erstellt und mit dem Team verbunden. Viele der oben genannten Szenarien basieren auf bereits in Teams integrierten SharePoint-Features, z. B. das Freigeben von Dokumenten für die Zusammenarbeit im Team. | [Integration von Teams und SharePoint](/sharepoint/teams-connected-sites) | [Einfügen einer SharePoint-Seite, -Liste oder -Dokumentbibliothek als Registerkarte in Teams](https://support.microsoft.com/office/add-a-sharepoint-page-list-or-document-library-as-a-tab-in-teams-131edef1-455f-4c67-a8ce-efa2ebf25f0b)|
 | Viva Connections | Viva Connections erstellt einen Hub in Teams, in dem Ihre Einzelhandelsmitarbeiter einen maßgeschneiderten Newsfeed von Ihrer Organisation und ein personalisiertes Dashboard mit benötigten Ressourcen anzeigen können. | [Übersicht über Viva Connections](/sharepoint/viva-connections-overview) | [Viva Connections in Microsoft Teams](https://support.microsoft.com/office/your-intranet-is-now-in-microsoft-teams-8b4e7f76-f305-49a9-b6d2-09378476f95b) |
 | Viva Learning | Stellen Sie bei Bedarf Schulungen direkt im Arbeitsablauf zur Verfügung. | [Verwalten von Viva Learning](/microsoft-365/learning/) | [Verwenden von Viva Learning (Vorschau)](https://support.microsoft.com/office/viva-learning-preview-01bfed12-c327-41e0-a68f-7fa527dcc98a) |

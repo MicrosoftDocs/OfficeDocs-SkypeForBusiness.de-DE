@@ -19,12 +19,12 @@ ms.custom:
 - ms.teamsadmincenter.meetingpolicies.contentsharing
 - seo-marvel-apr2020
 description: Erfahren Sie, wie Sie Besprechungsrichtlinieneinstellungen in Teams für die Inhaltsfreigabe verwalten.
-ms.openlocfilehash: 6c713800aa0f95c7adfd6655455e6ff332f91595
-ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
+ms.openlocfilehash: dccf36a257cde5731c140f2000e3d0733d3366c3
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "61205315"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403986"
 ---
 # <a name="meeting-policy-settings---content-sharing"></a>Besprechungsrichtlinieneinstellungen – Inhaltsfreigabe
 
@@ -35,7 +35,7 @@ In diesem Artikel werden die folgenden Besprechungsrichtlinieneinstellungen im Z
 - [Bildschirmübertragungsmodus](#screen-sharing-mode)
 - [Zulassen, dass ein Teilnehmer die Steuerung erteilt oder anfordert](#allow-a-participant-to-give-or-request-control)
 - [Zulassen, dass ein externer Teilnehmer die Steuerung erteilt oder anfordert](#allow-an-external-participant-to-give-or-request-control)
-- [PowerPoint Freigeben](#powerpoint-sharing)
+- [PowerPoint Live](#powerpoint-live)
 - [Whiteboard](#whiteboard)
 - [Freigegebene Notizen](#shared-notes)
 
@@ -99,13 +99,13 @@ Bei dieser Einstellung handelt es sich um eine Benutzerrichtlinie. Ob eine Organ
 
 Verwenden Sie das "AllowExternalParticipantGiveRequestControl"-Cmdlet, um mithilfe von PowerShell zu steuern, ob externe Teilnehmer die Steuerung übergeben oder entsprechende Anforderungen annehmen können.
 
-### <a name="powerpoint-sharing"></a>PowerPoint Freigeben
+### <a name="powerpoint-live"></a>PowerPoint Live
 
 Hierbei handelt es sich um eine benutzerspezifische Richtlinie. Mit dieser Einstellung wird gesteuert, ob der Benutzer PowerPoint-Folien in einer Besprechung übertragen kann. Externe Benutzer, einschließlich anonyme, Gast- und Verbundbenutzer, erben die Richtlinie des Besprechungsorganisators.
 
 Sehen Sie sich das folgende Beispiel an.
 
-|Benutzer |Besprechungsrichtlinie  |PowerPoint Freigeben |
+|Benutzer |Besprechungsrichtlinie  |PowerPoint Live |
 |---------|---------|---------|
 |Daniela   | Global   | Ein       |
 |Amalia   | Location1MeetingPolicy        | Aus   |

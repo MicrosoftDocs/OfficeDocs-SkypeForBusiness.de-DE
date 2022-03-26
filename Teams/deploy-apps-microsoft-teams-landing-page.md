@@ -18,14 +18,14 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 3a9566ceb6d99bb7d665efea975ecee048607dc9
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: be7ee83b510096d8d6ffc0c4a0a5984917ad55c5
+ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442501"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "64403976"
 ---
-# <a name="apps-bots--connectors-in-microsoft-teams"></a>Apps, Bots und Connectors in Microsoft Teams
+# <a name="about-apps-in-microsoft-teams"></a>Informationen zu Apps in Microsoft Teams
 
 Mithilfe von Apps finden Sie Inhalte aus Ihren bevorzugten Diensten und teilen sie in Teams. Sie helfen Ihnen beim Anheften von Diensten oben in einem Kanal, beim Chat mit Bots, beim Teilen und Zuweisen von Aufgaben und ähnlichen Tätigkeiten. Weitere Informationen finden Sie unter [Übersicht über Apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
@@ -39,13 +39,13 @@ Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Auf
 
 Zusätzlich zu von Microsoft bereitgestellten Apps können Sie von Microsoft zertifizierte Drittanbieter-Apps verwenden. Microsoft arbeitet mit Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die benötigt werden, um Entscheidungen zur Verwendung von Teams-Apps und -Add-Ins zu beschleunigen. Weitere Informationen finden Sie unter [Microsoft Teams App – Sicherheit und Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
-## <a name="use-teams-templates"></a>Verwenden von Teams-Vorlagen
+## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Verwenden von Open-Source-Beispiel-Apps, die von Microsoft bereitgestellt werden
 
 Sie können auch [Teams-Vorlagen](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=%2fMicrosoftTeams%2ftoc.json) verwenden. Das sind in GitHub verfügbare communitygesteuerte, produktionsbereite Open Source-Apps für Microsoft Teams.
 
 ## <a name="create-custom-apps"></a>Erstellen von benutzerdefinierten Apps
 
-Sie können schnell benutzerdefinierte Low-Code-Lösungen erstellen, indem Sie von der Integration von Teams mit [Microsoft Power Platform](teams-power-platfom-integration.md) profitieren. Sie können auch eine eigene App erstellen, die Ihren geschäftlichen Anforderungen entspricht. Weitere Informationen finden Sie unter [Erstellen von Apps für Microsoft Teams](/microsoftteams/platform/overview).  
+Sie können schnell benutzerdefinierte Low-Code-Lösungen erstellen, indem Sie von der Integration von Teams mit [Microsoft Power Platform](/microsoftteams/platform/samples/teams-low-code-solutions) profitieren. Sie können auch eine eigene App erstellen, die Ihren geschäftlichen Anforderungen entspricht. Weitere Informationen finden Sie unter [Erstellen von Apps für Microsoft Teams](/microsoftteams/platform/overview).  
 
 ## <a name="apps-deployment-decisions"></a>Entscheidungen bei der Bereitstellung von Apps
 
@@ -65,7 +65,6 @@ Standardmäßig sind alle von Microsoft bereitgestellten, Drittanbieter- und ben
 | Frage | Aktion |
 |--------------|--------|
 |Müssen Sie die Teams-Standardeinstellungen für Apps ändern? | Weitere Informationen zu Richtlinien und Einstellungen, die Sie zum Verwalten von Apps in Ihrer Organisation verwenden können, finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
-|||
 
 ### <a name="app-permissions-and-other-considerations"></a>App-Berechtigungen und andere Überlegungen
 
@@ -76,7 +75,6 @@ Apps erhalten ein Einverständnis von den Benutzern und werden vom Administrator
 | Frage | Aktion |
 |--------------|--------|
 |<br>Auf welche Apps möchte ich den Zugriff erlauben? Auf welche möchte ich keinen Zugriff erlauben?  | <ul><li>Eine Liste der Gesichtspunkte, die Sie beim Zulassen des Zugriffs auf eine App, einen Bot, eine Registerkarte oder einen Connector berücksichtigen sollten, finden Sie unter [Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu](app-permissions.md).</li><li>Unter [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md) finden Sie Informationen zur Bereitstellung einer App für Benutzer in Ihrer Organisation.</li></ul>|
-|||
 
 ### <a name="bots-for-private-chats-and-channels"></a>Bots für private Chats und Kanäle
 
@@ -85,7 +83,6 @@ Bots sind automatisierte Programme, die auf Abfragen antworten oder Updates und 
 | Frage | Aktion |
 |--------------|--------|
 |Möchte ich benutzerdefinierte Bots in meiner Organisation zulassen?|Weitere Informationen zum Hinzufügen von Bots finden Sie unter [Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Informationen zum Aktivieren oder Deaktivieren von benutzerdefinierten Bots finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
-|||
 
 ### <a name="built-in-and-custom-tabs"></a>Integrierte und benutzerdefinierte Registerkarten
 
@@ -94,7 +91,6 @@ Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem 
 | Frage | Aktion |
 |--------------|--------|
 |Möchte ich benutzerdefinierte Registerkarten in meiner Organisation zulassen?|Weitere Informationen finden Sie unter [Verwenden integrierter und benutzerdefinierter Registerkarten in Teams](built-in-custom-tabs.md).|
-|||
 
 ### <a name="custom-connectors"></a>Benutzerdefinierte Connectors
 
@@ -103,7 +99,6 @@ Connectors halten Ihr Team auf dem neuesten Stand, indem Sie Inhalte und Updates
 | Frage | Aktion |
 |--------------|--------|
 |Möchte ich Benutzern das Erstellen benutzerdefinierter Connectors erlauben?|Weitere Informationen finden Sie unter [Verwenden von benutzerdefinierten Connectors in Teams](office-365-custom-connectors.md).|
-|||
 
 ## <a name="additional-deployment-decisions"></a>Zusätzliche Bereitstellungsentscheidungen
 
@@ -116,7 +111,6 @@ Mithilfe von Aktivitätsberichten können Sie erfahren, wie Benutzer in Ihrer Or
 | Frage | Aktion |
 |--------------|--------|
 | <br>Wer muss in der Lage sein, die Aktivitätsberichte zu sehen, und verfügen die betreffenden Benutzer über die richtigen Berechtigungen, um sie anzuzeigen? |<ul><li>Wenn Sie einem Benutzer keine Administratorrolle zuweisen möchten, können Sie die [Leseberechtigung für Berichte zuweisen](teams-activity-reports.md#reports-reader-role).</li><li>Informationen zum Zuweisen von Administratorrollen in Azure Active Directory finden Sie unter [Rollen und Berechtigungen](/azure/active-directory/users-groups-roles/directory-assign-admin-roles) und [Anzeigen und Zuweisen von Rollen](/azure/active-directory/users-groups-roles/directory-manage-roles-portal).</li></ul> |
-|||
 
 ### <a name="app-templates"></a>App-Vorlagen
 
@@ -127,4 +121,3 @@ Der gesamte Quellcode steht ebenfalls zur Verfügung. Sie können ihn im Detail 
 | Frage | Aktion |
 |--------------|--------|
 | Möchte ich irgendwelche Teams-App-Vorlagen wie Icebreaker installieren? |Weitere Informationen finden Sie unter [App-Vorlagen für Teams](/microsoftteams/platform/samples/app-templates?bc=%2fmicrosoftteams%2fbreadcrumb%2ftoc.json&toc=MicrosoftTeams%2ftoc.json).|
-|||

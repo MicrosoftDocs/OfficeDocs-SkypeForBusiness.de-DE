@@ -19,7 +19,7 @@ appliesto:
 - Microsoft Teams
 ms.openlocfilehash: c5db10ce87dc98cfb793eefb1daa953385c95f6d
 ms.sourcegitcommit: 7cc7e237b0da270c9cf4a3e535db16dd113e4300
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 11/25/2021
 ms.locfileid: "61205286"
@@ -43,7 +43,7 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
 
 2. Wählen Sie auf der Seite **Besprechungsrichtlinien** die Option **Hinzufügen** aus.
 
-    ![Die Meldung "Besprechungsrichtlinien"](media/addMeeting.png)
+    ![Die Besprechungsrichtliniennachricht.](media/addMeeting.png)
 
 3. Weisen Sie Ihrer Richtlinie einen eindeutigen Titel zu und geben Sie eine kurze Beschreibung ein.
 
@@ -72,7 +72,7 @@ Um die Bildschirmfreigabe zu konfigurieren, erstellen Sie eine neue Besprechungs
 
 Sie können auch das Cmdlet [Set-CsTeamsMeetingPolicy](/powershell/module/skype/set-csteamsmeetingpolicy) verwenden, um die Desktopfreigabe zu steuern. Legen Sie die folgenden Parameter fest:
 
-- Description
+- Beschreibung
 - ScreenSharingMode
 - AllowPrivateCalling
 - AllowParticipantGiveRequestControl

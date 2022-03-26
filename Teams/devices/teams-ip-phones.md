@@ -21,12 +21,12 @@ ms.custom:
 - dn947482
 - seo-marvel-apr2020
 description: Erfahren Sie, welche Telefone und Telefonkonferenzen für Microsoft Teams, um optimale Ergebnisse zu erzielen.
-ms.openlocfilehash: 745252b624f6b64800c91b91a9d1a6ee60f21614
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 3418abb7196e855ab86fff72bc7c1e10eb37bfc0
+ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711949"
+ms.lasthandoff: 03/24/2022
+ms.locfileid: "63783914"
 ---
 # <a name="microsoft-teams-certified-android-devices"></a>Microsoft Teams für Android-Geräte
 
@@ -102,6 +102,7 @@ Die folgenden Geräte sind unter dem Zertifizierungsprogramm für Microsoft Team
 
 | Gerätemodell| Firmwareversion | Aktuelles Zertifizierungsenddatum | Android OS-Version |                                         
 |:------------------------|:-----------------|:--------------|-----------------------|
+|Ordentlicher Balken         | `NFB1.20220211.1158` | 5. August 2023 | 9 |
 |Crestron TSS-770 | `1.003.0082` |5. Dezember 2022  | 8.1 |
 |Crestron TSS-1070 | `1.003.0082`|5. Dezember 2022 | 8.1 |
 |Yealink RoomPanel | `147.15.0.1`|5. August 2023   | 9 |
