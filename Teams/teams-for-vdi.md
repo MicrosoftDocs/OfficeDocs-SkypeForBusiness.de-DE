@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-deployteams
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 5ff97fae1fb2483dcddf301715018b6a94f908a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: d0f2364471b3800042e7536d1013b82d76209a02
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711439"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457068"
 ---
 # <a name="teams-for-virtualized-desktop-infrastructure"></a>Microsoft Teams für Virtualized Desktop Infrastructure
 
@@ -488,6 +488,10 @@ if($cleanup){
 - Azure Virtual Desktop unterstützt zurzeit keine macOS- und Linux-basierten Clients.
 - Ein schneller Mandantenwechsel kann zu Problemen mit Anrufen bei VDI führen, z. B. dass die Bildschirmfreigabe nicht verfügbar ist. Durch einen Neustart des Clients werden diese Probleme minimiert.
 
+### <a name="notifications"></a>Benachrichtigungen
+
+- Benachrichtigung über die Nachrichtenanzahl und Anwesenheit auf der Windows-Taskleiste werden auf einem Windows Server 2016 nicht unterstützt.
+
 ### <a name="calling-and-meetings"></a>Anrufe und Besprechungen
 
 Die folgenden Anruf- und Besprechungsfeatures werden nicht unterstützt:
@@ -538,6 +542,6 @@ Starten Sie dann VDA neu. Weitere Informationen finden Sie im Artikel Problembeh
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Masseninstallation Teams mit Windows Installer (MSI)](msi-deployment.md)
+- [Masseninstallation von Teams mithilfe von Windows Installer](msi-deployment.md)
 - [Übersicht über PowerShell für Microsoft Teams](teams-powershell-overview.md)
 - [Verwenden Microsoft Teams Azure Virtual Desktop](/azure/virtual-desktop/teams-on-wvd)

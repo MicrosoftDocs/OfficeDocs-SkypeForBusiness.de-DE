@@ -16,31 +16,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: fe74237f1f1cfd93d92e0de01a01d3b576a82ec2
-ms.sourcegitcommit: 15e90083c47eb5bcb03ca80c2e83feffe67646f2
+ms.openlocfilehash: 90e14b79c53bf37772c7c5b4c655c293b91d5c2a
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 08/30/2021
-ms.locfileid: "58727624"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480647"
 ---
 # <a name="configure-the-skype-meetings-app-to-work-with-teams"></a>Konfigurieren der Skype-Besprechungs-App für die Verwendung mit Teams
 
-Nachdem ein Benutzer auf Microsoft Teams aktualisiert wurde, können Administratoren das Microsoft Teams Admin Center verwenden, um die bevorzugte App anzugeben, mit der Benutzer an Besprechungen Skype for Business werden.
+Nachdem ein Benutzer auf Microsoft Teams aktualisiert wurde, können Administratoren im Microsoft Teams Admin Center die bevorzugte App angeben, mit der Benutzer an Besprechungen Skype for Business werden.
 
 So geben Sie Skype App für Besprechungen als bevorzugte App an:
 
 1. Melden Sie sich beim Admin Center für Microsoft Teams an.
-2. Wählen Sie im linken Bereich unter **Organisationsweite** Einstellungen die Option Teams **aus.**
-3. Wählen Sie Teams Upgradeseite für Besprechungen unter App-Einstellungen in der Dropdownliste bevorzugte App für benutzerseitige Besprechungen die Option Skype-Besprechungs-Skype for Business **App** aus. 
+2. Wählen Sie im linken Bereich **unter Teams** die Option **Teams Upgradeeinstellungen aus**.
+3. Wählen Sie Teams Upgradeseite für Besprechungen unter App-Einstellungen in der Dropdownliste bevorzugte App für benutzerseitige Besprechungen Skype Besprechungs-Skype for Business **App** aus.
 
-    ![Wählen Sie Bevorzugte App aus, damit Benutzer an Besprechungen Skype for Business können.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
+    ![Wählen Sie Bevorzugte App, damit Benutzer an Besprechungen Skype for Business teilnehmen können.](media/teams-configure-skype-meetings-app-to-work-with-teams-image1.png)
 
 ## <a name="known-limitations"></a>Bekannte Einschränkungen
 
 Benutzer, die die Skype-Besprechungs-App Teams verwenden, unterliegen den folgenden Einschränkungen:
 
 - Benutzer haben keine Möglichkeit, ihr Videogerät zu ändern.
-- Nachdem ein Benutzer auf Teams aktualisiert wurde und der Benutzer mit der Skype-Besprechungs-App an einer Besprechung teilnimmt und dann am Teams einen Anruf erhält, wird die Besprechung in der Skype-Besprechungs-App nicht im Halteraum platziert. Stattdessen ist der Benutzer mit beiden Anrufen verbunden.
+- Wenn ein Benutzer mit der App für Skype-Besprechungen an einer Besprechung teilnimmt und am Teams einen Anruf empfängt, wird die Besprechung in der Skype-Besprechungs-App nicht im Halteraum platziert. Teams Stattdessen ist der Benutzer mit beiden Anrufen verbunden.
 
 ## <a name="more-information"></a>Weitere Informationen
 

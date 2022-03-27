@@ -21,18 +21,18 @@ ms.custom:
 - Phone System
 - seo-marvel-mar2020
 description: 'Erfahren Sie, wie Sie Telefone im allgemeinen Bereich für Lobbys, Empfangsbereiche und Konferenzräume einrichten. '
-ms.openlocfilehash: 144e32e1bf56bc3e2d64d0c6a1a137fd501442b7
-ms.sourcegitcommit: 5aae5eace62e491dac655882d24974824ce1aa07
+ms.openlocfilehash: 313a17d1829c8f3584ec5fb7f37e5f1ec49231d0
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "62856663"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456938"
 ---
-# <a name="deploy-common-area-phones-for-microsoft-teams"></a>Bereitstellen von Telefonen für gemeinsame Microsoft Teams
+# <a name="deploy-common-area-phones-for-microsoft-teams"></a>Bereitstellen von Telefonen für häufig verwendeten Microsoft Teams
 
-Ein Telefon in der Nähe eines Telefons befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem anderen Bereich, der für viele Personen zum Anrufen zur Verfügung steht. z. B. einen Empfangsbereich, einen Wartebereich oder ein Konferenztelefon. Telefone in gängigen Gegenden sind mit Konten angemeldet, die mit einer gemeinsamen Telefon sind.
+Ein Telefon in der Nähe eines Telefons befindet sich normalerweise in einem Bereich wie einem Wartebereich oder einem anderen Bereich, der für viele Personen zum Anrufen zur Verfügung steht. z. B. einen Empfangsbereich, einen Wartebereich oder ein Konferenztelefon. Telefone in gängigen Gegenden sind mit Konten angemeldet, die an eine gemeinsame Telefon gebunden sind.
 
-Dieser Artikel bietet eine Übersicht über das Bereitstellen und Konfigurieren Teams Telefonen als allgemeine Telefone in der Nähe für gemeinsam genutzte Bereiche. Für eine vollständigere Besprechungsraumerfahrung, einschließlich Audiokonferenzen, sollten Sie die dedizierte Lizenz Besprechungsraum einem Besprechungsraumgerät erwerben.
+Dieser Artikel enthält eine Übersicht über das Bereitstellen und Konfigurieren Teams Telefonen als allgemeine Telefone in der Nähe für gemeinsam genutzte Bereiche. Für eine vollständigere Besprechungsraumerfahrung, einschließlich Audiokonferenzen, sollten Sie die dedizierte Lizenz Besprechungsraum einem Besprechungsraumgerät erwerben.
 
 ## <a name="overview"></a>Übersicht
 
@@ -44,18 +44,18 @@ Die Telefon-Lizenz unterstützt:
 |Skype for Business |   &#x2714; |
 |Microsoft Teams |   &#x2714; |
 |Telefonsystem |    &#x2714; |
-|Audiokonferenzen |       &#x2718; &sup1;  |
+|Audiokonferenzen |       &#x2718; &Sup1;  |
 |Microsoft Intune |    &#x2718; |
-|Weltweite Verfügbarkeit |       &#x2718; &sup2;  |
+|Weltweite Verfügbarkeit |       &#x2718; &Sup2;  |
 |Verfügbarkeit von Kanälen |    EA, EAS, CSP, GCC, EES, Web Direct  |
 |      |         |
 
-&sup1; Telefone vor Ort können über die vom Besprechungsorganisator bereitgestellte Einwahlnummer an Audiokonferenzen teilnehmen.
+&Sup1; Telefone vor Ort können über die vom Besprechungsorganisator bereitgestellte Einwahlnummer an Audiokonferenzen teilnehmen.
 
-&sup2; In souveränen Wolken nicht verfügbar  
+&Sup2; In souveränen Wolken nicht verfügbar  
 
 >[!NOTE]
-> Konten für telefonübliche Objekte, die in Skype for Business Server erstellt wurden, können nicht zu Microsoft Teams. Führen Sie die Schritte in diesem Artikel aus, um diese Konten für ihre Teams neu zu erstellen und, falls erforderlich, Ihre PTSN-Verbindung zu migrieren.
+> Konten für telefonübliche Objekte, die in Skype for Business Server erstellt wurden, können nicht zu Microsoft Teams. Führen Sie die Schritte in diesem Artikel aus, um diese Konten für Teams neu zu erstellen und, falls erforderlich, Ihre PTSN-Verbindung zu migrieren.
 
 ## <a name="step-1---buy-the-licenses"></a>Schritt 1 - Lizenzen kaufen
 
@@ -82,7 +82,7 @@ Wenn Sie mehrere Smartphones in einem allgemeinen Bereich gleichzeitig bereitste
 
 Wenn Sie ein Gerät bereitstellen:
 
-1. Wechseln Sie Microsoft 365 Admin Center Der Benutzer zu **BenutzerAktive** >  **BenutzerHinzufügen** >  eines Benutzers.
+1. Wechseln Sie Microsoft 365 Admin Center **Zu BenutzerAktive** >  **BenutzerHinzufügen** >  **eines Benutzers**.
 
 2. Geben Sie einen Benutzernamen wie "Main" für den Vornamen und "Empfang" für den zweiten Namen ein.
 
@@ -95,16 +95,16 @@ Wenn Sie ein Gerät bereitstellen:
     >[!Important]
     > Das manuelle Festlegen eines Kennworts für Allgemeine Telefone in der Nähe wird dringend empfohlen, um Anmeldeprobleme für Ihre Endbenutzer zu vermeiden.
 
-6. Wählen Sie den Verwendungsstandort des Geräts aus, und weisen Sie dem Telefon den gemeinsamen Bereich zu. Wenn andere Lizenzen erforderlich sind, z. B. Anrufpläne, weisen Sie diese zu.
+6. Wählen Sie den Verwendungsstandort des Geräts aus, und weisen Sie Telefon dem Konto den gemeinsamen Bereich zu. Wenn andere Lizenzen erforderlich sind, z. B. Anrufpläne, weisen Sie diese zu.
 
 >[!NOTE]
 > Sie müssen keine Lizenz Telefonsystem hinzufügen. Sie ist in der Lizenz Telefon für gemeinsame Bereiche enthalten.
 >
->Wenn Sie keine Anrufplanlizenzen Microsoft-Telefon System Direct Routing oder Operator Verbinden, können Sie Anrufplanlizenzen hinzufügen. Weitere Informationen zu Lizenzen finden Sie unter [Microsoft Teams Add-On-Lizenzierung](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+>Wenn Sie keine Anrufplanlizenzen Microsoft-Telefon System Direct Routing oder Operator Verbinden, können Sie Anrufplanlizenzen hinzufügen. Weitere Informationen zu Lizenzen finden Sie unter Microsoft Teams [Add-On-Lizenzierung](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
 
 ### <a name="using-powershell"></a>Verwendung von PowerShell
 
-Verwenden Sie PowerShell, wenn Sie Lizenzen für mehrere Benutzerkonten gleichzeitig erstellen und zuweisen möchten. Weitere [Informationen finden Microsoft 365](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) Unter Erstellen von Microsoft 365 mit PowerShell und Zuweisen von Microsoft 365 zu Benutzerkonten mit [PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide).
+Verwenden Sie PowerShell, wenn Sie Lizenzen für mehrere Benutzerkonten gleichzeitig erstellen und zuweisen möchten. Weitere Informationen Microsoft 365 Sie unter Erstellen [von Benutzerkonten mit PowerShell](/microsoft-365/enterprise/create-user-accounts-with-microsoft-365-powershell?view=o365-worldwide) und Microsoft 365 Zuweisen von Microsoft 365 zu Benutzerkonten mit [PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell?view=o365-worldwide).
 
 ## <a name="step-3---set-policies-for-common-area-phones"></a>Schritt 3 – Festlegen von Richtlinien für Telefone im allgemeinen Bereich
 
@@ -115,9 +115,9 @@ Mithilfe von Richtlinien können Sie steuern, welche Features für Benutzer auf 
 
 ### <a name="ip-phone-policies"></a>IP-Telefonrichtlinien
 
-Bei Telefonen, die mit Konten angemeldet sind, denen eine gemeinsame Telefon zugewiesen wurde, wird die benutzerfreundliche Umgebung des gemeinsamen Bereichs angezeigt.
+Bei Telefonen, die mit Konten angemeldet sind, denen eine gemeinsame Telefon zugewiesen wurde, wird die gemeinsame Benutzeroberfläche angezeigt.
 
-Wenn Sie die Standardschnittstelle eines Smartphones überschreiben möchten, sollten Sie eine [IP-Telefonrichtlinie erstellen](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps). Wenn beispielsweise ein telefonübliches Telefon in einem öffentlichen Bereich verwendet wird, legen Sie eine IP-Telefonrichtlinie zum Einschränken der Suche im globalen Adressbuch Ihrer Organisation und zum Blockieren von Hot-King-Adressen für ihr Unternehmen auf. Weitere [Informationen Teams Sie unter Festlegen Teams Benutzeroberfläche](devices/Teams-Android-devices-user-interface.md) für Android-Geräte.
+Wenn Sie die Standardschnittstelle eines Smartphones überschreiben möchten, sollten Sie eine [IP-Telefonrichtlinie erstellen](/powershell/module/skype/new-csteamsipphonepolicy?view=skype-ps). Wenn beispielsweise ein telefonübliches Telefon in einem öffentlichen Bereich verwendet wird, legen Sie eine IP-Telefonrichtlinie zum Einschränken der Suche im globalen Adressbuch Ihrer Organisation und zum Blockieren von Hot-King-Adressen für ihr Unternehmen auf. Weitere [Informationen finden Teams unter Festlegen der Benutzeroberfläche für](devices/Teams-Android-devices-user-interface.md) Android-Geräte.
 
 ### <a name="calling-policies"></a>Anrufpläne
 
@@ -147,6 +147,9 @@ So melden Sie sich lokal mit einem Benutzernamen und Kennwort an:
 
 3. Folgen Sie den Anmeldebeschreibungen auf dem Gerät. Sobald Sie angemeldet sind, wird auf dem Telefon die gemeinsame Benutzererfahrung des Telefons angezeigt.
 
+> [!NOTE]
+> Wenn Sie eine benutzerdefinierte Setuprichtlinie verwenden, mit der die aufrufende App entkoppelt wird, wird die Wähltaste im Bereich "Allgemein" nicht Telefon. Weitere Informationen zu Setuprichtlinien Teams Sie unter [Verwalten von Richtlinien für die App-Einrichtung in Microsoft Teams](/microsoftteams/teams-app-setup-policies).
+
 ### <a name="sign-in-from-another-device"></a>Anmelden von einem anderen Gerät aus
 
 Sie können sich auch mit einem Code von einem anderen Gerät aus bei einem gemeinsamen Telefon vor Ort anmelden. Wenn Sie sich auf diese Weise anmelden, geben Sie den Benutzernamen und das Kennwort auf einem anderen Gerät und nicht auf dem Smartphone selbst ein.
@@ -167,6 +170,6 @@ Nachdem Sie Telefone in einem gemeinsamen Bereich für Ihre Organisation eingeri
 
 ## <a name="related-topics"></a>Verwandte Themen
 
-- [Remoteaktualisierung Microsoft Teams Geräte](devices/remote-update.md)
+- [Remoteupdate für Microsoft Teams Geräte](devices/remote-update.md)
 - [Verwalten Microsoft Teams von Gerätetags](devices/manage-device-tags.md)
 - [Microsoft Teams der Geräteinte health-Überwachung](alerts/device-health-status.md)

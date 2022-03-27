@@ -15,13 +15,13 @@ ms.localizationpriority: medium
 search.appverid: MET150
 f1.keywords:
 - CSH
-description: Erfahren Sie, wie Sie Geräte im Store für Geräte im Teams Admin Center durchsuchen und kaufen.
-ms.openlocfilehash: cf67b4e99dabab45dec5cb46ca3996a15183d66a
-ms.sourcegitcommit: 42c355d3f4bbe52c063b8f2119baefc0b88f9563
+description: Erfahren Sie, wie Sie Geräte im Gerätespeicher Teams Admin Center durchsuchen und kaufen.
+ms.openlocfilehash: f83fd22192a8145167ff04a2bd73b88746dd3ce7
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "64404069"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457078"
 ---
 # <a name="purchase-devices-in-the-teams-device-store"></a>Kaufen von Geräten im Teams Store für Geräte
 
@@ -38,7 +38,7 @@ Um den Gerätespeicher verwenden zu können, müssen Sie ein globaler Administra
 
 ## <a name="browse-the-store"></a>Store durchsuchen
 
-Der Gerätespeicher enthält alle Geräte, die für Teams zertifiziert sind, einschließlich Headsets, Webkameras und Teams-Geräten wie Teams-Räume, Tischtelefonen und Teams Displays. Sie können sortieren, filtern oder suchen, um das gerät zu finden, das Ihre Organisation benötigt.
+Der Gerätespeicher enthält alle Geräte, die für Teams zertifiziert sind, einschließlich Headsets, Webkameras und Teams-Geräten wie Teams-Räume, Tischtelefonen und Teams Displays. Sie können sortieren, filtern oder suchen, um das für Ihre Organisation benötigte Gerät zu finden.
 
 ## <a name="purchase-devices"></a>Geräte kaufen
 
@@ -52,7 +52,7 @@ Alle Bestellungen können bis zu 30 Tage nach der Lieferung zurückgegeben werde
 
 Der Teams-Gerätespeicher muss grundlegende Benutzer- und Unternehmensinformationen, einschließlich Benutzer- und Mandanten-GUIDs, mit UnifiedCommunications.com teilen, um den Einkauf im Teams Admin Center zu ermöglichen.
 
-Die Datenfreigabe ist standardmäßig deaktiviert. Um es zu aktivieren, wechseln Sie zum Store Teams Geräte, wählen Sie das Symbol "Einstellungen" aus, und aktivieren Sie Datenverarbeitung und -freigabe.  
+Die Datenfreigabe ist standardmäßig deaktiviert. Um es zu aktivieren, wechseln Sie zum Store Teams Geräte, wählen Sie das Symbol "Einstellungen" aus, und aktivieren Sie die Einstellung.  
 
 Wenn diese Einstellung deaktiviert ist, werden keine Daten freigegeben, und Sie können den Teams-Gerätespeicher durchsuchen, jedoch keine Einkäufe tätigen. Die Daten, die gesammelt und an den Erfüllungsanbieter weitergegeben wurden, während die Einstellung auf festgelegt war, werden wie in den Datenschutzbestimmungen angegeben verarbeitet.
 
@@ -64,6 +64,6 @@ Bestellungen, die im Teams-Gerätespeicher platziert wurden, und alle ihnen zuge
 
 ## <a name="provision-devices"></a>Bereitstellen von Geräten
 
-Wenn Sie Geräte erwerben, die Remotebereitstellung unterstützen, wird die MAC-Adresse dieser Geräte beim Versand des Geräts automatisch zum Teams Admin Center hinzugefügt. Je nach Bestellung und Versand kann es ungefähr 5 Tage dauern, bis die MAC-Adresse in TAC angezeigt wird.
+Wenn Sie Geräte erwerben, die Remotebereitstellung unterstützen, wird die MAC-Adresse dieser Geräte beim Versand des Geräts automatisch zum Teams Admin Center hinzugefügt. Je nach Bestellung und Versandzeit kann es ungefähr 5 Tage dauern, bis die MAC-Adresse im Teams Admin Center angezeigt wird.
 
 Sobald die Geräte geliefert wurden, lesen Sie [Remotebereitstellung von Geräten](remote-provision-remote-login.md#generate-a-verification-code) , um den Bereitstellungs- und Anmeldevorgang abschließen zu können.

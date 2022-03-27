@@ -18,31 +18,31 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 8becd4a83bb544747fa59a823bae37461c3642c3
-ms.sourcegitcommit: d3d3d5a70a69359fc71f072ad6c651556f4eda00
+ms.openlocfilehash: a162a9151413137282d80e47f8f2b08c841e171a
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/24/2022
-ms.locfileid: "63783894"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456888"
 ---
 # <a name="assisted-upgrades-from-skype-for-business-online-to-microsoft-teams"></a>Unterstützte Upgrades von Skype for Business Online zu Microsoft Teams
 
 Microsoft hat Skype for Business Online am 31. Juli 2021 eingestellt.  Microsoft stellt einen unterstützten Upgradeprozess zur Verfügung, damit Organisationen die verbleibenden Skype for Business Online-Benutzer ausschließlich auf Teams verschieben können.  Von Microsoft unterstützte Upgrades verringern die Anzahl der technischen Aufgaben und vereinfachen den Umstieg auf eine Welt, ohne Skype for Business Online zu verwenden, unabhängig davon, ob Ihre Organisation:
  - Eine reine Onlineorganisation, die ein Upgrade von *Skype for Business Online* durchführen muss, um zu einem reinen Teams werden, oder
- - Eine Hybridorganisation mit Benutzern sowohl in *Skype for Business Online*  als auch in einer lokalen *Skype for Business Server-Umgebung*, für die nur h für die Benutzer in Skype for Business *Online* ein Upgrade auf "Nur für Teams erforderlich ist.
+ - Eine Hybridorganisation mit Benutzern sowohl in *Skype for Business Online*  als auch in einer lokalen *Skype for Business Server-Umgebung*, für die nur der Skype for Business *Online-Benutzer* auf "Nur für Teams aktualisieren muss.
 
 Wir empfehlen, dass Sie sich vor [dem Upgrade einen Überblick](https://aka.ms/SkypeToTeams) über unsere Upgradeanleitungen machen. Unser Upgradeleitfaden enthält empfohlene Aktivitäten und hilfreiche Ressourcen für den Abschluss eines Upgrades von Skype for Business Online auf Teams. Dieser Leitfaden gilt für alle Organisationen, die ein Upgrade auf Teams planen, ganz gleich, ob sie alle Aspekte des Upgrades verwalten oder den unterstützten Prozess verwenden.
 
 ## <a name="the-assisted-upgrade-experience"></a>Die Upgrade-Unterstützung
 Skype for Business Online-Kunden, die für unterstützte Upgrades auf Teams geplant sind, erhalten verschiedene Arten von Benachrichtigungen *: Planen* der Änderung von Beiträgen im Microsoft 365-Nachrichtencenter, Upgrade von Dashboardbenachrichtigungen im Teams Admin Center und In-App-Kennzeichnungen für Endbenutzer. Die Upgradebenachrichtigung im Nachrichtencenter und Teams Admin Center enthält das geplante Datum des unterstützten Upgrades sowie einen Link zu Upgraderessourcen und Schulungen, um die Einführung und Nutzung des Upgrades zu Teams.
 
-Je nachdem, ob Benutzer in Ihrer Organisation in einer lokalen Umgebung oder in einer lokalen Umgebung Skype for Business Server sind, unterscheiden sich die Erfahrungen beim unterstützten Upgrade geringfügig:
-- **Reine Onlineorganisationen** Für Organisationen *ohne* lokales Konto Skype Busineess Server-Benutzer `TeamsUpgradeOverridePolicy` wendet der unterstützte Upgradeprozess die Richtlinie auf Ihre Organisation an. Wenn diese Richtlinie angewendet wird, werden alle Benutzer von Skype for Business Online in den Teams Modus gesetzt.
-- **Hybridorganisationen mit lokalen** Skype for Business Dies schließt Organisationen mit allen in Skype for Business Server benutzerverteilten Benutzern ein, unabhängig davon, ob hybrid konfiguriert wurde. Diese Organisationen haben möglicherweise Benutzer, die in eine der folgenden Kategorien fallen:
+Die Umgebung für das unterstützte Upgrade unterscheidet sich geringfügig, je nachdem, ob in Ihrer Organisation Benutzer in einer lokalen Umgebung Skype for Business Server sind:
+- **Reine Onlineorganisationen:** Für Organisationen *ohne* lokales Konto Skype Busineess Server-Benutzer `TeamsUpgradeOverridePolicy` wendet der unterstützte Upgradeprozess die Richtlinie auf Ihre Organisation an. Wenn diese Richtlinie angewendet wird, werden alle Benutzer Skype for Business Online im TeamsOnly-Modus platziert.
+- **Hybridorganisationen mit lokalen Skype for Business:** Dies umfasst Organisationen mit allen in Skype for Business Server be hauseten Benutzern, unabhängig davon, ob hybrid konfiguriert wurde. Diese Organisationen haben möglicherweise Benutzer, die in eine der folgenden Kategorien fallen:
 
   - Lokale Benutzer, die auf einem lokalen Skype for Business Server sind (die Benutzer Teams verwenden können oder nicht, Teams sind)
-  - Teams nur Benutzer, die in Skype for Business Online Skype for Business wurden
-  - Nicht Teams Nur Benutzer, die in Ihrer online Skype for Business sind
+  - TeamsOnly-Benutzer, die in Skype for Business Online Skype for Business wurden
+  - Nicht-TeamsOnly-Benutzer, die in Ihrer Skype for Business Online
 
 Der unterstützte Upgradeprozess wirkt sich nur auf die letzte Benutzerkategorie aus: Nicht Teams Nur in Skype for Business Online unterstützte Benutzer werden auf den Teams Modus aktualisiert. Lokale Skype for Business und vorhandene TeamsOnly-Benutzer sind vom unterstützten Upgradeprozess nicht betroffen.
 

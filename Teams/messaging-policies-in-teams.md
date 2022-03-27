@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 9716fe3ba9a2162a3c6c85cfa61ef5541f34fb38
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
+ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711719"
+ms.lasthandoff: 03/26/2022
+ms.locfileid: "64480667"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -34,6 +34,9 @@ ms.locfileid: "63711719"
 Nachrichtenrichtlinien werden genutzt, um zu steuern, welche Chat- und Nachrichtenkanalfunktionen den [Benutzern (Besitzern und Mitgliedern)](assign-roles-permissions.md) in Microsoft Teams zur Verfügung stehen. Sie können die globale (standardmäßig organisationsweit geltende) Richtlinie verwenden, oder benutzerdefinierte Richtlinien erstellen und diese gezielt zuweisen.
 
 Die Benutzer in Ihrer Organisation erhalten automatisch die globale Richtlinie, es sei denn, Sie erstellen und weisen eine benutzerdefinierte Richtlinie zu. Bearbeiten Sie die Einstellungen in der globalen Richtlinie, oder erstellen und weisen Sie mindestens eine benutzerdefinierte Richtlinie zu, um die von Ihnen verwendeten Features zu aktivieren oder zu deaktivieren.
+
+> [!NOTE]
+> Um eine Synchronisierung nach einer Richtlinienänderung sicherzustellen, ist für bestimmte Instanzen möglicherweise ein Neustart erforderlich. 
 
 ## <a name="create-a-custom-messaging-policy"></a>Erstellen einer benutzerdefinierten Nachrichtenrichtlinie
 
@@ -106,7 +109,8 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 - **Entfernen von Benutzern aus Gruppenchats** Aktivieren Sie diese Einstellung, damit ein Benutzer andere Benutzer aus einem Gruppenchat entfernen kann. Mithilfe dieses Features können Sie mit einer kleineren Gruppe von Personen chatten, ohne den Chatverlauf zu verlieren.
 - **Textvorhersagen** Aktivieren Sie diese Einstellung, damit Benutzer Textvorhersagen für Chatnachrichten erhalten.
 - **Vorgeschlagene Antworten**  Aktivieren Sie diese Einstellung, um vorgeschlagene Antworten für Chatnachrichten zu aktivieren.
-- **Chat-Berechtigungsrolle** Verwenden Sie diese Einstellung, um die Rolle des überwachten Chats des Benutzers zu definieren.  Erfahren Sie mehr über den [beaufsichtigten Chat](supervise-chats-edu.md).
+- **Chat-Berechtigungsrolle** Verwenden Sie diese Einstellung, um die Rolle des überwachten Chats des Benutzers zu definieren. Erfahren Sie mehr über den [beaufsichtigten Chat](supervise-chats-edu.md).
+- **Benutzer mit vollständigen Chatberechtigungen können jede Nachricht löschen.** Verwenden Sie diese Einstellung, um Benutzern mit voll berechtigten Berechtigungen das Löschen von Gruppen- oder Besprechungschatnachrichten zu ermöglichen.
 
 > [!NOTE]
 > Einige dieser Einstellungen, z. B. die Verwendung von Giphys, können auch auf Teamebene von Teambesitzern und auf privater oder freigegebener Kanalebene von Kanalbesitzern konfiguriert werden.
