@@ -25,7 +25,7 @@ ms.custom:
 description: Hier erfahren Sie, für welche Länder und Regionen Dial-in-Konferenztelefonnummern verfügbar sind und wie diese automatisch zugewiesen werden.
 ms.openlocfilehash: c91f555d1ad38071f6e1857f62aeb81bf9baaba8
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/15/2022
 ms.locfileid: "62055685"
@@ -36,7 +36,7 @@ Wenn Sie **Audiokonferenzen** für Microsoft Teams einrichten, werden Ihrer Orga
 
 ## <a name="audio-conferencing-coverage-and-pricing"></a>Verfügbarkeit von Audiokonferenzen und Preise
 
-Eine vollständige Liste aller Länder/Regionen und Städte, in denen Audiokonferenzen verfügbar sind, finden Sie unter [Verfügbarkeit von Audiokonferenzen und Anrufplänen nach Ländern und Regionen](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).
+Eine umfassende Liste aller Länder/Regionen und Städte, in denen Audiokonferenzen verfügbar sind, finden Sie unter [Länder- und Regionenverfügbarkeit für Audiokonferenzen und Anrufpläne](country-and-region-availability-for-audio-conferencing-and-calling-plans/country-and-region-availability-for-audio-conferencing-and-calling-plans.md). Informationen zu den Preisen finden Sie unter [Preise für Audiokonferenzen](https://go.microsoft.com/fwlink/?linkid=799762).
 
 ## <a name="dial-in-phone-numbers-in-a-meeting-invite"></a>Dial-in-Telefonnummern in einer Besprechungseinladung
 
@@ -62,7 +62,7 @@ Eine Liste der Länder/Regionen, in denen Organisationen automatisch Telefonnumm
 > Das Land bzw. die Region, in dem bzw. in der sich Ihre Organisation befindet, finden Sie nach der Anmeldung im **Microsoft Office 365 Admin Center** unter **Organisationsprofil**.
 
 > [!CAUTION]
-> Aufgrund der eingeschränkten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten wird Organisationen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Audiokonferenz-Telefonnummer zugewiesen. Gebührenfreie Telefonnummern für diese Standorte stehen je nach verfügbarem Bestand zur Verfügung.
+> Aufgrund der begrenzten Verfügbarkeit von gebührenpflichtigen Telefonnummern in Venezuela, Indonesien und den Vereinigten Arabischen Emiraten (VAE) werden Unternehmen aus diesen Ländern/Regionen nicht automatisch eine gebührenpflichtige Telefonnummer für Audiokonferenzen zugewiesen bekommen. Kostenlose Nummern aus diesen Ländern sind je nach Verfügbarkeit erhältlich.
 
 ## <a name="what-else-should-you-know"></a>Was sollten Sie noch wissen?
 

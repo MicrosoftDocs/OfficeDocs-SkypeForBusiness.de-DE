@@ -18,16 +18,16 @@ appliesto:
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie, wie Sie Apps in Microsoft Teams.
-ms.openlocfilehash: a8862e5c8b8d7d63f88274ed47cf647572b54401
-ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
+ms.openlocfilehash: 2696768bbd7ed930652d8671600f9721f15960b7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/25/2022
-ms.locfileid: "64456898"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504125"
 ---
 # <a name="customize-apps-in-microsoft-teams"></a>Anpassen von Apps in Microsoft Teams
 
- Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams werden kann. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Teams Admin Center **Apps verwalten anpassen oder umbenennen**. Die Details können Sie anpassen:
+ Microsoft Teams bietet App-Anpassungen, um die Benutzererfahrung Teams verbessern. Einige App-Entwickler lassen zu, dass eine App vom Administrator Teams werden kann. Der Administrator kann die App-Eigenschaften basierend auf den Organisationsanforderungen über die Seite Microsoft Teams Admin Center **Apps verwalten anpassen oder umbenennen**. Die Details können Sie anpassen:
 
 - Kurzname
 - Kurzbeschreibung
@@ -49,7 +49,7 @@ Details zu den Feldern, die Sie anpassen können, finden Sie im Teams [Manifests
 
 Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginnen:
 
-1. Melden Sie sich beim Microsoft Teams Admin Center an.
+1. Melden Sie sich beim [Teams Admin Center an](https://admin.teams.microsoft.com/dashboard).
 
 2. Erweitern Teams **Apps, und** wählen Sie **Apps verwalten aus**.
 
@@ -63,7 +63,7 @@ Führen Sie die folgenden Schritte aus, um mit dem Anpassen einer App zu beginne
 
      ![Die Option "Auswahl anpassen" 1.](media/select-app-to-customize1.png)
 
-   - Wählen Sie den App-Namen und dann **Anpassbar aus**.
+   - Wählen Sie den App-Namen und dann das Symbol "Bearbeiten" in **Anpassbar aus**.
 
      ![Die Option "Auswahl anpassen" 2.](media/app-details-customizable.png)
 

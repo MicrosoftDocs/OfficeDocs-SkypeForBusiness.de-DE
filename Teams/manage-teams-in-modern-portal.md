@@ -19,12 +19,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b84957e7451b75b804d2c279e160a260dabfbea8
-ms.sourcegitcommit: b57e19e20900ff02f3196c811bf1dd1acd149c79
+ms.openlocfilehash: d00cc5cd41d0b48f55564894a78f066406288151
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/26/2021
-ms.locfileid: "60579535"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64456948"
 ---
 # <a name="manage-teams-in-the-microsoft-teams-admin-center"></a>Verwalten von Teams im Microsoft Teams Admin Center
 
@@ -32,18 +32,19 @@ ms.locfileid: "60579535"
 
 In diesem Artikel finden Sie eine Übersicht über die Verwaltungstools für Teams im Microsoft Teams Admin Center.
 
-Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisieren, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, oder Wartungsaktionen ausführen, z. b. Teams, die keinen Besitzer haben, einen zuweisen. Sie können die in Ihrer Organisation bestehenden Teams sowohl über das PowerShell-Modul von Microsoft Teams als auch über das Microsoft Teams Admin Center verwalten. Unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> können Sie auf das Admin Center zugreifen. Um die vollständigen Verwaltungsfunktionen, die diese beiden Toolsets bieten, nutzen zu können, sollten Sie sicherstellen, dass Sie eine der folgenden Rollen besitzen:
+Als Administrator müssen Sie möglicherweise die Teams anzeigen oder aktualisieren, die Ihre Organisation für die Zusammenarbeit eingerichtet hat, oder Wartungsaktionen ausführen, z. b. Teams, die keinen Besitzer haben, einen zuweisen. Sie können die in Ihrer Organisation bestehenden Teams sowohl über das PowerShell-Modul von Microsoft Teams als auch über das Microsoft Teams Admin Center verwalten. Unter <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> können Sie auf das Admin Center zugreifen. Um die vollständigen Verwaltungsfunktionen, die diese beiden Toolsets bieten, nutzen zu können, sollten Sie sicherstellen, dass Ihnen eine der folgenden Rollen zugewiesen ist:
 
 - Globaler Administrator
 - Teams-Administrator
 
 Weitere Informationen zu Administratorrollen in Teams finden Sie unter [Verwenden von Microsoft Teams-Administratorrollen zum Verwalten von Teams](using-admin-roles.md). Um mehr über die Nutzung von PowerShell-Cmdlets für die Verwaltung von Teams zu erfahren, lesen Sie die [Microsoft Teams-Cmdlet-Referenz](/powershell/teams/).
 
-
+> [!NOTE]
+> Skype for Business Online-Administratoren können sowohl **Teams** als auch **Skype for Business Online**-App-Richtlinien über PowerShell verwalten.
 
 ## <a name="teams-overview-grid"></a>Teams-Übersichtraster
 
-Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem Knoten **Teams**. (Wählen Sie **Teams** > **Teams verwalten** im Admin Center aus.) Jedes Team wird von einer Microsoft 365-Gruppe unterstützt. Dieser Knoten bietet eine Übersicht über Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
+Verwaltungstools für Teams befinden sich im Microsoft Teams Admin Center unter dem **Teams** -Knoten. (Wählen Sie im Admin Center **Teams** > **Teams verwalten** aus.) Jedes Team wird von einer Microsoft 365-Gruppe unterstützt, und dieser Knoten bietet eine Ansicht der Gruppen, die in Ihrer Organisation für Microsoft Teams aktiviert wurden.
 
 ![Screenshot: Teams-Übersichtraster.](media/manage-teams-in-modern-portal-grid.png)  
 
@@ -65,7 +66,7 @@ Das Raster zeigt die folgenden Eigenschaften an:
 
 ### <a name="add"></a>Hinzufügen
 
-Klicken Sie auf **Hinzufügen**, um ein neues Team hinzuzufügen. Geben Sie im Bereich **Neues Team hinzufügen** einen Namen und eine Beschreibung ein, legen Sie fest, ob es sich um ein privates oder öffentliches Team handelt und legen Sie die Klassifizierung fest.
+Um ein neues Team hinzuzufügen, klicken Sie auf **Hinzufügen**. Geben Sie im Bereich **Neues Team hinzufügen** einen Namen und eine Beschreibung für das Team ein, legen Sie fest, ob es ein privates oder öffentliches Team werden soll, und legen Sie die Klassifizierung fest.
 
 > [!NOTE]
 > Neu erstellte Teams können sofort im Teams Admin Center verwaltet werden, anders als in anderen Clients wie z. B. Outlook.

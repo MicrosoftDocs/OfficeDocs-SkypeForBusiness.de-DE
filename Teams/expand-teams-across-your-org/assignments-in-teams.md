@@ -21,12 +21,12 @@ description: Erfahren Sie, wie Sie Aufgaben im Microsoft Teams Admin Center in T
 ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 88414131b5ba8fee750efef8d0b6f6f5313e13fd
-ms.sourcegitcommit: 1129841e68e927fe7cc31de3ad63a3e9247253cd
+ms.openlocfilehash: 529240db27824ce8bf872d23636b904198ef7db1
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/03/2022
-ms.locfileid: "62363141"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504135"
 ---
 # <a name="assignments-in-teams-for-education"></a>Aufgaben in Teams für Bildungseinrichtungen
 
@@ -49,16 +49,16 @@ Erziehungsberechtigte E-Mails werden an jedem Wochenende an Eltern oder Erziehun
 
 1. Importieren Sie Kontaktinformationen von Eltern über die Synchronisierung von Eltern und Erziehungsberechtigten in SDS. Anweisungen zum Aktivieren der Synchronisierung von Eltern und Erziehungsberechtigten finden Sie unter Aktivieren der Synchronisierung von Eltern [und Erziehungsberechtigten](/schooldatasync/parent-contact-sync#enabling-parent-and-guardian-sync).
 
-2. Aktivieren Sie im Microsoft Teams Admin Center die Einstellung für Erziehungsberechtigte, da die Einstellung standardmäßig deaktiviert ist. Auf diese Weise können Lehrkräfte eine wöchentliche Digest senden.
+2. Aktivieren Sie die Einstellung für Erziehungsberechtigte im Microsoft Teams Admin Center, da die Einstellung standardmäßig deaktiviert ist. Auf diese Weise können Lehrkräfte eine wöchentliche Digest senden.
 
    > [!NOTE]
-   > Lehrer können die Digest-Benachrichtigung deaktivieren, indem sie die Einstellung in ihrem eigenen persönlichen Kursteam deaktivieren (Aufgaben Einstellungen > E-Mails für Eltern **/Erziehungsberechtigte**).
+   > Lehrkräfte können die Digest-Benachrichtigung deaktivieren, indem sie die Einstellung in ihrem eigenen persönlichen Kursteam deaktivieren (Aufgaben Einstellungen > E-Mails für Eltern **/Erziehungsberechtigte**).
 
 Um zu überprüfen, ob "Eltern" die E-Mail erhalten wird, müssen die folgenden drei Punkte zutreffen:
 
 - E-Mail-Adresse, die an das Schülerprofil in SDS angefügt und als Elternteil _oder Erziehungsberechtigter_ markiert _ist_. Details finden Sie unter [Dateiformat für die Synchronisierung von Eltern und Erziehungsberechtigten](/schooldatasync/parent-contact-sync-file-format).
 
-- Schüler gehören mindestens einem Kurs an, in dem E-Mail-Nachrichten nicht vom Lehrer in den [Aufgabeneinstellungen deaktiviert werden](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
+- Schüler gehören mindestens einem Kurs an, in dem E-Mail-Nachrichten vom Lehrer in den Aufgabeneinstellungen [nicht deaktiviert werden](https://support.microsoft.com/office/adjust-assignment-settings-in-your-class-team-05bb3b89-1cdf-415a-b6c7-44add0376a77).
 
 - Die E-Mails enthalten Informationen zu Aufgaben, deren Fälligkeitsdatum in der vorherigen oder in der kommenden Woche liegt.
 
@@ -113,22 +113,22 @@ Wenn **Sie für diese** Einstellung im Admin Center auf die Schaltfläche Speich
 
 ## <a name="assignments-data"></a>Zuordnungsdaten
 
-Aufgaben speichert Informationen, die von Lehrkräften und Schülern/Studenten generiert werden. Alle Daten werden gemeinsam zwischen dem Lehrer und dem jeweiligen Kursteilnehmer freigegeben, für den die Informationen im Kurs vorgesehen sind. Es gibt zwei Stores hier von SharePoint außerhalb SharePoint.
+Aufgaben speichert Informationen, die von Lehrkräften und Schülern/Studenten generiert werden. Alle Daten werden gemeinsam zwischen dem Lehrer und dem jeweiligen Kursteilnehmer freigegeben, für den die Informationen im Kurs vorgesehen sind. Es gibt zwei Speicher dieser Daten, SharePoint und außerhalb SharePoint.
 
 >[!NOTE]
 >Die gleichen Regeln gelten auch für Erst-Party-Integrationen, z. B. Lesefortschritt.
 
 ### <a name="assignments-data-in-sharepoint-document-libraries"></a>Zuordnungsdaten in SharePoint Dokumentbibliotheken
 
-Die Dateien der Kursteilnehmer, die einer Übermittlung für Aufgaben zugeordnet sind, werden in einer Dokumentbibliothek gespeichert (name: *Student Work*). Dateien, die Aufgaben zugeordnet sind, die von Lehrkräften erstellt werden und auf die die Kursteilnehmer zugreifen können, werden in einer anderen Dokumentbibliothek (mit *Namen Kursdateien*) auf der entsprechenden Kursteamwebsite SharePoint gespeichert. Drittanbieterintegrationen können auch Aufgabendaten auf derselben entsprechenden Kursteamwebsite SharePoint (benannt: *Aufgabentitel + Zeitstempel) speichern*.
+Die Dateien der Kursteilnehmer, die einer Übermittlung für Aufgaben zugeordnet sind, werden in einer Dokumentbibliothek gespeichert (name: *Student Work*). Dateien, die Aufgaben zugeordnet sind, die von Lehrkräften erstellt werden und auf die die Kursteilnehmer zugreifen können, werden in einer anderen Dokumentbibliothek (namens "Kursdateien *") auf* der entsprechenden Kursteamwebsite SharePoint gespeichert. Drittanbieterintegrationen können auch Aufgabendaten auf derselben entsprechenden Kursteamwebsite SharePoint (benannt: *Aufgabentitel + Zeitstempel) speichern*.
 
 #### <a name="files-associated-with-the-student"></a>Dem Schüler/Studenten zugeordnete Dateien
 
-IT-Administratoren können das Tool für die Inhaltssuche verwenden, um nach Kursteilnehmerdateien (Student *Work*, *Class Files*, or other 1st-party integration files) zu suchen, die sich auf Zuweisungsübermittlungen und Dateien im Zusammenhang mit Aufgaben befinden. Beispielsweise könnte ein Administrator alle SharePoint-Websites in der Organisation durchsuchen und den Namen des Kursteilnehmers sowie den Kurs- oder Aufgabennamen in der Suchabfrage verwenden, um Daten zu finden, die für eine Datensubjektanforderung (Data Subject Request, DSR) relevant sind.
+IT-Administratoren können das Tool für die Inhaltssuche verwenden, um nach Kursteilnehmerdateien (Student *Work*, *Class Files*, or other 1st-party integration files) zu suchen, die sich auf Zuweisungsübermittlungen und Dateien im Zusammenhang mit Aufgaben befinden. Beispielsweise könnte ein Administrator alle SharePoint-Websites in der Organisation durchsuchen und den Namen des Kursteilnehmers sowie den Kurs- oder Aufgabennamen in der Suchabfrage verwenden, um für eine Datensubjektanforderung (Data Subject Request, DSR) relevante Daten zu finden.
 
 #### <a name="files-associated-with-the-teacher"></a>Dem Lehrer zugeordnete Dateien
 
-IT-Administratoren können das Tool für die Inhaltssuche verwenden, um nach Lehrerdateien (Student *Work*, *Class Files*, or other 1st-party integration files) zu suchen, die mit Aufgaben in Zusammenhang stehen, sowie nach Dateien, die von den Lehrkräften in einem Kurs zu Aufgaben an Kursteilnehmer verteilt wurden. Beispielsweise könnte ein Administrator alle SharePoint-Websites in der Organisation durchsuchen und den Namen des Lehrers sowie den Kurs- oder Aufgabennamen in der Suchabfrage verwenden, um für eine DSR relevante Daten zu finden.
+IT-Administratoren können das Tool für die Inhaltssuche verwenden, um nach Lehrerdateien (Student *Work*, *Class Files*, or other 1st-party integration files) zu suchen, die mit Aufgaben und Dateien in Zusammenhang stehen, die von den Lehrkräften eines Kurs zu Aufgaben an Kursteilnehmer verteilt wurden. Beispielsweise könnte ein Administrator alle SharePoint-Websites in der Organisation durchsuchen und den Namen des Lehrers sowie den Kurs- oder Aufgabennamen in der Suchabfrage verwenden, um für eine DSR relevante Daten zu finden.
 
 ### <a name="assignments-data-outside-of-sharepoint-document-libraries"></a>Aufgabendaten außerhalb SharePoint Dokumentbibliotheken
 
@@ -168,7 +168,7 @@ Wenn Sie ein ``ClassId`` -Element bereitstellen, kann der Administrator nur Info
 
 Da die Daten einer Aufgabe für einen Lehrer im Kurs freigegeben werden, gibt es keine Option zum Massenlöschen. Stattdessen kann sich der Administrator selbst zur -Klasse hinzufügen, zur App wechseln und die Aufgabe löschen.
 
-Weitere Informationen finden Sie unter  [Konfigurieren von Aufgaben Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
+Weitere Informationen finden Sie  [unterConfigure assignments for Teams](/microsoft-365/education/deploy/configure-assignments-for-teams).
 
 ## <a name="removing-assignments-and-grades"></a>Entfernen von Aufgaben und Noten
 
@@ -176,4 +176,37 @@ Sie können auch die Teams verwenden, um Zuweisungen und Noten für einen bestim
 
 Um Aufgaben und Noten für einen einzelnen Benutzer zu entfernen, wechseln Sie zum **Teams Admin Center**, und navigieren Sie zu **Teams-Apps > Berechtigungsrichtlinien**, um eine neue Definition der App-Berechtigungsrichtlinie zu erstellen.  Legen Sie beim Erstellen der neuen Richtliniendefinition die **Richtlinie für Microsoft-Apps** auf Bestimmte Apps blockieren und alle anderen Apps  blockieren sowie Zuweisungen zur Liste der blockierten Anwendungen hinzu. Nachdem Sie die neue Richtliniendefinition gespeichert haben, weisen Sie sie den entsprechenden Benutzern zu.
 
-Wenn Sie Aufgaben und Noten für den gesamten Mandanten entfernen möchten, wechseln Sie zum **Teams Admin Center**, navigieren Sie zu **Teams-Apps >** Apps verwalten, und suchen und wählen Sie in der Anwendungsliste  nach Aufgaben aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Aufgabenanwendung in _Blockiert_.
+Wenn Sie Aufgaben und Noten für den gesamten Mandanten entfernen möchten, wechseln Sie zum **Teams Admin Center**, navigieren Sie zu **Teams-Apps >** Apps verwalten, und suchen und wählen Sie aufgaben in der Anwendungsliste aus. Ändern Sie die Statuseinstellung auf der Seite Einstellungen der Aufgabenanwendung in _Blockiert_.
+
+## <a name="assignments-diagnostic-tool-for-users"></a>Assignments diagnostic tool for users
+
+Microsoft Support hat ein Tool zum Sammeln von Diagnosedaten für das Microsoft-Entwicklungsteam erstellt, um Probleme im Zusammenhang mit dem Feature "Aufgaben" zu untersuchen.
+
+Auf dieses Tool kann innerhalb von "Aufgaben" auf jedem Bildschirm zugegriffen werden, auf dem ein Problem für die Benutzer angezeigt wird.
+
+Benutzer können zum Pull up the diagnostic tool in Teams:
+
+- **Auf dem Desktop und im Web:**
+  - Wählen Sie STRG+/ aus.
+- **Auf mobilen Geräten:**
+  - Berühren Sie den Bildschirm mit zwei Fingern, und drehen Sie die Finger um 45 Grad, oder
+  - Tippen Sie 15 Sekunden lang mit drei Fingern auf den Bildschirm.
+
+Sobald das Diagnosetool angezeigt wird, sehen die Benutzer eine Liste der Daten, die möglicherweise vom technischen Support von Microsoft benötigt werden.
+
+Dies können die folgenden Daten sein:
+
+- Gruppen-ID
+- Mandanten-ID
+- Sitzungs-ID
+- Zuordnungs-ID
+- Übermittlungs-ID
+- Benutzer-ID
+
+Diese Daten werden nicht automatisch an Microsoft gesendet. Benutzer müssen die Daten kopieren und an einen Microsoft-Supportmitarbeiter bezüglich eines Supporttickets einfügen.
+
+Wenn ein Benutzer das Diagnosetool nach oben zieht und es schließt, werden keine Daten gesendet.
+
+Wenn die Daten an einen Microsoft-Supportmitarbeiter gesendet werden, werden sie als Supportdaten im Rahmen der Servicevereinbarungen Microsoft 365 Organisation behandelt.
+
+Anweisungen zur Verwendung dieses Diagnosetools, das Sie für Lehrkräfte und Schüler/Studenten freigeben können, finden Sie unter Erhalten von Diagnosedaten [zur Problembehandlung bei Aufgaben](https://support.microsoft.com/topic/b40793f5-dbae-4c8a-841a-6baa7f232e2e).

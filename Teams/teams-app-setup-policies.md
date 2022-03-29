@@ -19,12 +19,12 @@ f1.keywords:
 - CSH
 ms.custom:
 - ms.teamsadmincenter.appsetuppolicies.overview
-ms.openlocfilehash: 677ee2b0d57477ee79a9af7510d0ccf2dfbcae28
-ms.sourcegitcommit: b91d83739a078b175770c797c17d602eb5c83a4f
+ms.openlocfilehash: 1ed41c595a386607942c81dda8f151435a1d1ac7
+ms.sourcegitcommit: ecc67b7b9378cc72f85517f30c32680045056fda
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63774014"
+ms.lasthandoff: 03/28/2022
+ms.locfileid: "64504145"
 ---
 # <a name="manage-app-setup-policies-in-microsoft-teams"></a>Verwalten von Richtlinien für das App-Setup in Microsoft Teams
 
@@ -61,28 +61,30 @@ Apps sind an:
 
 Gehen Sie wie folgt vor, um eine App-Setuprichtlinie zum Anheften von Apps zu erstellen:
 
-1. Navigieren Sie in der linken Navigationsleiste [des Teams Admin Center](https://www.admin.teams.microsoft.com) zu Teams **Setup-Richtlinien** > .
+1. Melden Sie sich beim [Microsoft Teams Admin Center an](https://admin.teams.microsoft.com).
 
-2. Klicken Sie auf **Hinzufügen**.
+1. Wechseln Sie im linken Bereich zu App **Teams** >  **Setup-Richtlinien**.
 
-3. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
+1. Klicken Sie auf **Hinzufügen**.
 
-4. Aktivieren Sie **Benutzerheftung**.
+1. Geben Sie einen Namen und eine Beschreibung für die Richtlinie ein.
+
+1. Aktivieren Sie **Benutzerheftung**.
 
    > [!NOTE]
    > **Die Einstellung** zum Anheften von Benutzern steht im Teams Admin Center in Microsoft 365 Government Community Cloud-Umgebungen (GCC GCC, GCC High und DoD) zur Verfügung, hat aber aktuell keine Auswirkung.
 
-5. Wählen **Sie unter Angeheftet Apps** die Option **Apps hinzufügen aus**.
+1. Wählen **Sie unter Angeheftet Apps** die Option **Apps hinzufügen aus**.
 
-6. Suchen Sie **im Bereich Angeheftet Apps hinzufügen** nach den Apps, die Sie hinzufügen möchten, und wählen Sie dann **Hinzufügen aus**. Sie können Apps auch nach der App-Berechtigungsrichtlinie filtern.
+1. Suchen Sie **im Bereich Angeheftet Apps hinzufügen** nach den Apps, die Sie hinzufügen möchten, und wählen Sie dann **Hinzufügen aus**. Sie können Apps auch nach der App-Berechtigungsrichtlinie filtern.
 
-7. Klicken Sie auf **Hinzufügen**.
+1. Klicken Sie auf **Hinzufügen**.
 
-8. Ordnen Sie **die Apps** unter der **App-Leiste** oder messaging-Erweiterungen in der Reihenfolge an, in der sie in der App-Teams.
+1. Ordnen Sie **die Apps** unter der **App-Leiste** oder messaging-Erweiterungen in der Reihenfolge an, in der sie in der App-Teams.
 
    ![im Abschnitt "Angeheftet Apps".](media/pin-messaging-extensions.png)
 
-9. Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **Speichern**.
 
 ## <a name="install-apps"></a>Installieren von Apps
 

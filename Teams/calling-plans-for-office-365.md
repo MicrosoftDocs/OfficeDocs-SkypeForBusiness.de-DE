@@ -28,14 +28,14 @@ ms.custom:
 description: 'Erfahren Sie mehr über die Optionen für Anrufpläne (PSTN-Anrufpläne) für Skype for Business und wie Sie Lizenzen für Ihre Organisation erhalten. '
 ms.openlocfilehash: 02283da362baf520ab0c3d28d809dfee39c9b378
 ms.sourcegitcommit: 9ef6e36eeba7db70971f4eb1a45f0ded394b1fe6
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/25/2022
 ms.locfileid: "62190676"
 ---
 # <a name="calling-plans-for-microsoft-365"></a>Anrufpläne für Microsoft 365
 
-Anrufe an andere Skype for Business- und Microsoft Teams-Benutzer sind kostenlos. Wenn Sie Ihre Benutzer jedoch in die Lage versetzen möchten, reguläre Telefonanschlüsse anzurufen, und nicht bereits über einen Dienstanbieter für Sprachanrufe verfügen, müssen Sie einen Anrufplan kaufen. Weitere Informationen hierzu finden Sie in [Telefonsystem und Anrufpläne](calling-plan-landing-page.md).
+Anrufe zu anderen Skype for Business- und Microsoft Teams-Nutzer*innen sind kostenlos. Wenn Sie jedoch möchten, dass Ihre Nutzer*innen auch normale Telefone anrufen können, und Sie noch keinen Dienstanbieter für Sprachanrufe haben, müssen Sie einen Anrufplan kaufen. Weitere Informationen finden Sie unter [Telefonsystem und Anrufpläne](calling-plan-landing-page.md).
   
 Nachfolgend die Optionen für Anrufpläne:
   
@@ -51,9 +51,9 @@ Besuchen Sie [Verfügbarkeit nach Ländern und Regionen](country-and-region-avai
 > Das Land/die Region basiert auf dem Speicherort der Benutzerlizenz unter **Microsoft 365 Admin Center** > **Aktive Benutzer** und **NICHT** auf der Abrechnungsadresse unter dem **Organisationsprofil** im **Microsoft 365 Admin Center**. 
 
 > [!NOTE]
-> Pooling ist nur bei identischen Anrufplänen verfügbar.
+> Die Zusammenlegung ist nur bei identischen Anrufplänen möglich.
 
-![Screenshot des Lizenzspeicherorts des Benutzers.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
+![Bildschirmfoto vom Standort der Nutzer*innen-Lizenz.](media/cc1e16d1-8a5e-43e0-99a3-dc991efdfbab.png)
   
 Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen erhalten Sie unter [Audiokonferenz – Zeitraum für ﻿kostenlose ausgehende Anrufe](complimentary-dial-out-period.md).
   
@@ -64,9 +64,9 @@ Ausführliche Informationen zu Nutzungsbeschränkungen und Nutzungsbedingungen e
     ![Screenshot, der die Option für den Kauf eines VoIP-Anrufplans zeigt.](media/5893fca0-292c-4cdf-9b43-c507a8b44b74.png)
   
     > [!NOTE]
-    > Je nach Ihrem Plan müssen Sie möglicherweise weitere Add-Ons erwerben, bevor Sie Telefonsystem-Lizenzen kaufen können. Weitere Informationen finden Sie unter [Lizenzierung für Microsoft Teams-Add-On](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
+    > Abhängig von Ihrem Plan benötigen Sie möglicherweise weitere Add-Ons, bevor Sie Lizenzen für die Telefonanlage erwerben können. Weitere Informationen finden Sie unter [Lizenzierung von Add-Ons für Microsoft Teams](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   
-2. Nachdem Sie Telefonsystem-Lizenzen gekauft haben, können Sie den Anrufplan erwerben, indem Sie sich beim **Microsoft 365 Admin Center** anmelden, **Abrechnung** > **Dienste erwerben** > **Add-On-Abonnements** auswählen und dann auf **Jetzt kaufen** klicken. Dort sehen Sie die Anrufpläne.
+2. Nachdem Sie Telefonanlagenlizenzen gekauft haben, können Sie den Anrufplan kaufen, indem Sie sich im **Microsoft 365 Admin Center** anmelden, **Abrechnung** > **Abrechnungsdienste** > **Add-on-Abonnenments** wählen und dann auf **Jetzt kaufen** klicken. Dort sehen Sie die Anrufpläne.
       
 Sie können unterschiedliche Anrufpläne für verschiedene Benutzer abhängig von den Anforderungen Ihrer Organisation kaufen und zuweisen. Nachdem Sie die benötigten Anrufpläne ausgewählt haben, gehen Sie zur Kasse. Sie weisen jedem Benutzer im Microsoft 365 Admin Center einen Plan zu. Um Näheres zur Vorgehensweise zu erfahren, lesen Sie [Zuweisen von Microsoft Teams-Add-On-Lizenzen](./teams-add-on-licensing/microsoft-teams-add-on-licensing.md).
   

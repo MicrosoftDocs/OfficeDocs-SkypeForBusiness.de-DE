@@ -25,14 +25,14 @@ ms.custom:
 description: 'Hier erfahren Sie, wie Sie Einwahl- oder Audiokonferenzen für Personen in Ihrem Unternehmen einrichten, die telefonisch an Konferenzanrufen teilnehmen müssen. '
 ms.openlocfilehash: 742393413ccf1a9e8a9d715f4ddfa199a4c4e35c
 ms.sourcegitcommit: 8f999bd2e20f177c6c6d8b174ededbff43ff5076
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 01/15/2022
 ms.locfileid: "62055155"
 ---
 # <a name="set-up-audio-conferencing-for-microsoft-teams"></a>Einrichten von Audiokonferenzen für Microsoft Teams
 
-In einigen Fällen müssen Mitarbeiter in Ihrer Organisation sich über ein Telefon in eine Besprechung einwählen. Microsoft Teams bietet genau für solche Situationen das Audiokonferenz-Feature! Personen können sich in Teams-Besprechungen mit einem Telefon einwählen, anstatt die Microsoft Teams-App auf einem mobilen Gerät oder einem PC zu verwenden.
+Manchmal müssen Mitarbeiter in Ihrer Organisation ein Telefon nutzen, um sich in eine Besprechung einzuwählen. Für genau diese Situation ist die Audiokonferenzfunktion in Microsoft Teams gedacht. Die Mitarbeiter können sich mit einem Telefon in Teams-Besprechungen einwählen, anstatt die Teams-App auf einem Mobilgerät oder PC zu verwenden.
   
 You only need to set up Audio Conferencing for people who plan to schedule or lead meetings. Meeting attendees who dial in don't need any licenses assigned to them or other setup.
   
@@ -75,9 +75,9 @@ Sobald Sie Ihre gebührenpflichtigen und/oder gebührenfreien Telefonnummern fü
 
 Führen Sie die folgenden Schritte aus, um Ihrer Audiokonferenzbrücke eine neue Rufnummer zuzuweisen:
 
- **Verwenden des Microsoft Teams Admin Centers:**
+ **Verwenden des Microsoft Teams Admin Centers**:
 
- 1. Wechseln Sie von Start zu  >  **Sprachanrufnummern Telefon**.
+ 1. Gehen Sie auf der Startseite zu **Sprache** > **Telefonnummern**.
  2. Wählen Sie die entsprechende Telefonnummer aus, und klicken Sie auf **Zuweisen**.
 
 Weitere Informationen finden Sie unter [Ändern der Telefonnummern Ihrer Audiokonferenzbrücke](change-the-phone-numbers-on-your-audio-conferencing-bridge.md).
@@ -86,19 +86,19 @@ Weitere Informationen finden Sie unter [Ändern der Telefonnummern Ihrer Audioko
 
  Als Nächstes sollten Sie die [Sprachen für die automatische Telefonzentrale für Audiokonferenzen in Microsoft Teams](set-auto-attendant-languages-for-audio-conferencing-in-teams.md) festlegen, die die automatische Telefonkonferenzzentrale verwendet, um einen Anrufer zu begrüßen, wenn er sich mit einer Telefonnummer für Audiokonferenzen einwählt.
 
- **Verwenden des Microsoft Teams Admin Centers:**
+ **Verwenden des Microsoft Teams Admin Centers**:
 
-1. Wechseln Sie von Start zu **Besprechungen**  >  **Konferenzbrücken**.
+1. Gehen Sie auf der Startseite zu **Besprechungen** > **Konferenzbrücken**.
 2. Wählen Sie die Telefonnummer der Konferenzbrücke, klicken Sie auf **Bearbeiten**, und wählen Sie dann die Standardsprache aus.
 
 ## <a name="step-6-set-your-conferencing-bridge-settings"></a>Schritt 6: Servicenummern für Ihre Konferenzbrücken einstellen
 
 Nachdem Sie Ihre Konferenzbrücke eingerichtet haben, vergewissern Sie sich, dass die Standardeinstellungen, wie z. B. Ein-/Ausgangsbenachrichtigungen und PIN-Länge, die sind, die Sie verwenden möchten; wenn nicht, können Sie sie ändern.
 
- **Verwenden des Microsoft Teams Admin Centers:**
+ **Verwenden des Microsoft Teams Admin Centers**:
 
-1. Wechseln Sie von Start zu **Besprechungen**  >  **Konferenzbrücken**.
-2. Wählen Sie **Brückeneinstellungen** aus. Der **Brücke**-Einstellungsbereich wird geöffnet.
+1. Gehen Sie auf der Startseite zu **Besprechungen** > **Konferenzbrücken**.
+2. Wählen Sie **Brückeneinstellungen** aus. Daraufhin wird der Bereich **Brückeneinstellungen** geöffnet.
 
 Weitere Informationen finden Sie unter [Einstellungen für eine Audiokonferenzbrücke ändern](change-the-settings-for-an-audio-conferencing-bridge.md).
 
@@ -108,16 +108,16 @@ Nachdem Sie eine Audiokonferenzbrücke erstellt haben, müssen Sie die gebühren
 
 Sie müssen dies für alle Personen in Ihrer Organisation tun, die Besprechungen leiten oder planen.
 
- **Verwenden des Microsoft Teams Admin Centers:**
+ **Verwenden des Microsoft Teams Admin Centers**:
 
-1. Klicken Sie auf der Startseite auf **Benutzer**, wählen Sie den Benutzer in der Liste aus, und wählen Sie **Bearbeiten aus.**
+1. Klicken Sie auf der Startseite auf **Benutzer**, wählen Sie den Benutzer aus der Liste aus, und wählen Sie dann **Bearbeiten** aus.
 2. Klicken Sie neben **Audiokonferenzen** auf **Bearbeiten**, und wählen Sie dann im Bereich **Audiokonferenzen** eine Nummer aus den Listen der **gebührenpflichtigen** und **gebührenfreien** Telefonnummern aus.
 
 Weitere Informationen finden Sie unter [Zuweisen von Microsoft als Anbieter von Audiokonferenzen](/skypeforbusiness/audio-conferencing-in-office-365/assign-microsoft-as-the-audio-conferencing-provider).
 
 ## <a name="step-8-set-up-meeting-invitations-optional"></a>Schritt 8: Besprechungseinladungen einrichten (optional)
 
-Die für den Nutzer festgelegten Einwahlnummern werden automatisch den Besprechungseinladungen hinzugefügt, die Besprechungsteilnehmern zugesendet werden. Sie können jedoch Ihre eigenen Hilfe- und rechtliche Links, eine SMS und eine kleine Firmengrafik hinzufügen, wenn Sie möchten. Siehe [Anpassen von Besprechungseinladungen](meeting-settings-in-teams.md#customize-meeting-invitations).
+Die Einwahlnummern, die für den Benutzer festgelegt sind, werden automatisch zu den Besprechungseinladungen hinzugefügt, die an die Teilnehmer gesendet werden. Sie können jedoch Ihre eigene Hilfe- und rechtlichen Links, eine Textnachricht und eine kleine Firmengrafik hinzufügen, wenn Sie dies möchten. Weitere Informationen dazu finden Sie unter [Anpassen von Besprechungseinladungen](meeting-settings-in-teams.md#customize-meeting-invitations).
 
 ## <a name="related-topics"></a>Verwandte Themen
 

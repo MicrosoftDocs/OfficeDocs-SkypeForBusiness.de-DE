@@ -19,12 +19,12 @@ appliesto:
 - Microsoft Teams
 ms.custom:
 - seo-marvel-mar2020
-ms.openlocfilehash: f9e11a089c75f1060e509dc9895e97176fc30345
-ms.sourcegitcommit: cf2f96dbd485ac4cc822c5a591ccce6b47f12cc7
+ms.openlocfilehash: 748380aec60c578ff6c2b7687cd51a8a07a8024c
+ms.sourcegitcommit: 39378888464ade3cb45879a449143f40f202f3e9
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 09/20/2021
-ms.locfileid: "59456345"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "64457058"
 ---
 # <a name="prepare-your-organizations-network-for-microsoft-teams"></a>Vorbereiten des Netzwerks Ihres Unternehmens für Microsoft Teams 
 
@@ -91,7 +91,7 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="even">
 <td>Advisor für Teams</td>
-<td><a href="/microsoftteams/use-advisor-teams-roll-out">Advisor für Teams</a> ist Teil des <a href="https://admin.teams.microsoft.com">Teams Admin Center</a>. Er analysiert Ihre Microsoft 365- oder Office 365-Umgebung und identifiziert die am häufigsten verwendeten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie den Rollout von Teams erfolgreich durchführen können.</td>
+<td><a href="/microsoftteams/use-advisor-teams-roll-out">Advisor für Teams</a> ist Teil des <a href="https://admin.teams.microsoft.com">Teams Admin Center</a>. Es bewertet Ihre Microsoft 365 oder Office 365-Umgebung und identifiziert die gängigsten Konfigurationen, die Sie möglicherweise aktualisieren oder ändern müssen, bevor Sie Teams erfolgreich bereitstellen können.</td>
 </tr>
 <tr class="odd">
 <td>Externe Namensauflösung</td>
@@ -106,7 +106,7 @@ Eine ausführliche Beschreibung der Netzwerkoptimierung, einschließlich Anleitu
 </tr>
 <tr class="even">
 <td>Routing zu Microsoft-Rechenzentren</td>
-<td><a href="/office365/enterprise/client-connectivity">Implementieren Sie das effizienteste Routing zu Microsoft-Rechenzentren</a>. Identifizieren Sie Standorte, die lokale oder regionale Ausgangspunkte verwenden können, um eine möglichst effiziente Verbindung zum Microsoft-Netzwerk herzustellen.</td>
+<td><a href="/office365/enterprise/client-connectivity">Implementieren Sie das effizienteste Routing zu Microsoft-Rechenzentren</a>. Identifizieren Sie Standorte, die lokale oder regionale Ausgangspunkte verwenden können, um so effizient wie möglich eine Verbindung mit dem Microsoft-Netzwerk herzustellen.</td>
 </tr>
 <tr class="odd">
 <td>Anleitung zur Angriffserkennung und zum Eindringschutz</td>
@@ -153,7 +153,7 @@ In dieser Tabelle wird veranschaulicht, wie Teams Bandbreite nutzt. Microsoft Te
       **Modalität**
    :::column-end:::
    :::column span="3":::
-      **Bandbreitenanforderungen (Bitrate KB/s hoch/herunter)**
+      **Bandbreitenanforderungen (Bitrate KB/s hoch/herunter)**    
    :::column-end:::
 :::row-end:::
 :::row:::
