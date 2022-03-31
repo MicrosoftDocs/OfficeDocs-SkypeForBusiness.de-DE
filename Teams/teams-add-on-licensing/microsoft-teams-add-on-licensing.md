@@ -20,12 +20,12 @@ ms.custom:
 - LIL_Placement
 - seo-marvel-mar2020
 description: Erfahren Sie mehr über Add-On-Lizenzen für Microsoft Teams und die Funktionen, die Sie mit jeder Lizenz erhalten.
-ms.openlocfilehash: 47481383c2ea4941eb29675216209e5b98a97e71
-ms.sourcegitcommit: ff975c21725e1812e6db8fc9fe37de1362f168c3
-ms.translationtype: HT
+ms.openlocfilehash: b5282cfe166a04cd58dbe5042cc2fc3e25e7405f
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63435699"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556306"
 ---
 # <a name="microsoft-teams-add-on-licenses"></a>Add-On-Lizenzen für Microsoft Teams
 
@@ -97,6 +97,12 @@ Im Folgenden finden Sie eine Zusammenfassung, welche Microsoft-Sprach- und Anruf
 </tr>
 </tbody>
 </table>
+
+## <a name="unassign-licenses-from-users"></a>Zuweisen von Lizenzen von Benutzern
+
+Sie haben zwei Möglichkeiten, um den Benutzerzugriff auf bestimmte Produkte zu entfernen: Dies ist das Entfernen von Produktlizenzen für bestimmte Benutzer oder das Entfernen von Benutzerlizenzen für ein bestimmtes Produkt.
+
+Anweisungen zum Entfernen der Lizenzzuweisung finden Sie unter Entfernen der [Lizenzzuweisung für Benutzer](/microsoft-365/admin/manage/remove-licenses-from-users).
 
 ## <a name="more-guidance-on-microsoft-plans"></a>Weitere Hinweise zu Microsoft-Plänen
 

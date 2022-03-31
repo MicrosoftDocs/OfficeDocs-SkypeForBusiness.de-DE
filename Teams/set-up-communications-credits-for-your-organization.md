@@ -23,12 +23,12 @@ ms.custom:
 - Licensing
 - seo-marvel-apr2020
 description: 'Erfahren Sie, wie Sie Abrechnungslizenzen für Guthaben für Kommunikationen (PSTN-Verbrauch) für Ihre Benutzer und Ihre Organisation einrichten. '
-ms.openlocfilehash: 39ee93d35bbcb5055a6c5565df4f92374a18ed2e
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: f13580dcfa6d40802b414999e5fe047f3371b87e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392907"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556466"
 ---
 # <a name="set-up-communications-credits-for-your-organization"></a>Einrichten von Guthaben für Kommunikationen für Ihre Organisation
 
@@ -60,11 +60,13 @@ Weitere Informationen finden Sie unter [Microsoft Teams- und Add-On-Lizenzierung
 
 1. Melden Sie sich bei der [Microsoft 365 Admin Center](https://portal.office.com/Adminportal) mit Ihrem Arbeits- oder Schulkonto an.
     
-2. Navigieren Sie in der linken Navigationsleiste Microsoft 365 Admin Center **BillingPurchase** >  Services. Scrollen Sie nach unten, **und wählen Sie Add-Ons aus**.
+2. Navigieren Sie in der linken Navigationsleiste Microsoft 365 Admin Center **BillingPurchase** >  Services.
 
-3. Wählen Sie **Guthaben für Kommunikationen aus**.
+3. Suchen Sie **in der** **Add-On-Kategorie** nach Guthaben für Kommunikationen, oder suchen Sie im Suchfeld Alle Produktkategorien durchsuchen nach "Guthaben für Kommunikationen", und wählen Sie **Details aus**.
     
-4. Geben Sie **auf der Abonnementseite** Guthaben für Kommunikationen Ihre Informationen ein, und klicken Sie dann auf **Weiter**:
+4. Überprüfen Sie die Dienstinformationen, und wählen Sie **Kaufen aus**. (Hinweis: Eine festgelegte Anzahl von Lizenzen für Guthaben für Kommunikationen wird automatisch in jeder Bestellung ausgewählt.)
+
+5. Geben Sie auf der Seite Auschecken Ihre Zahlungsinformationen ein, und geben Sie die erforderlichen Informationen ein:
     
    - **Guthaben hinzufügen**: Geben Sie den Betrag ein, den Sie Ihrem Konto hinzufügen möchten. Wenn Sie das automatische Aufladen nicht aktivieren, werden nach dem Aufbrauchen des Guthabens die Anruffunktionen, die über das Guthaben für Kommunikationen aktiviert werden, unterbrochen (z. B. eingehende gebührenfreie Dienste). Um zu vermeiden, dass Sie den Guthabensaldo für Kommunikationen jedes Mal auffüllen müssen, wenn er 0 (null) erreicht, empfehlen wir, die automatische Aufladefunktion zu aktivieren.
     
@@ -81,7 +83,7 @@ Weitere Informationen finden Sie unter [Microsoft Teams- und Add-On-Lizenzierung
      > 
      > Wenn Sie die Funktion für das automatische Aufladen verwenden, wird die Fakturierung für Guthaben für Kommunikationen generiert, wenn der Triggerbetrag erreicht und eine Aufladetransaktion verarbeitet wird. Beträge von Kommunikationsguthaben werden zuerst auf die erste Weise verwendet. Informationen zum Überprüfen der monatlichen Nutzung finden Sie im Bericht [Microsoft Teams PSTN-Nutzung](/microsoftteams/teams-analytics-and-reports/pstn-usage-report).
     
-5. Geben Sie jetzt Ihre Zahlungsinformationen ein, und wählen Sie **Bestellung aufgeben** aus.
+6. Wählen Sie **Bestellung bestellen aus**.
     >[!IMPORTANT]
     >If you are a volume licensing customer, you may choose your enterprise agreement number for payment. If you have multiple enterprise agreement numbers, you will be able to select which enterprise agreement you would like to use for payment. You will also be given an opportunity to specify a purchase order number to associate with the enterprise agreement number (if applicable).
     

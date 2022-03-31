@@ -19,32 +19,36 @@ ms.localizationpriority: medium
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 2b15625ae6e487a54fb5dbad122064148465b0ad
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: c95f5ab273112b29b91a312111000ba2dac76f9e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711699"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556326"
 ---
 # <a name="microsoft-teams-apps-permissions-and-considerations"></a>Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu
 
-Microsoft Teams-Apps bieten eine Möglichkeit, eine oder mehrere Funktionen in einem App-Paket  zusammen zu aggregieren, das installiert, aktualisiert und deinstalliert werden kann. Zu den Funktionen gehören:
+Microsoft Teams-Apps bieten eine Möglichkeit, eine oder mehrere Funktionen in Apps zu aggregieren, die installiert, aktualisiert und deinstalliert werden können. Zu den Funktionen von Apps gehören die folgenden:
 
 * Bots
 * Messaging-Erweiterungen
 * Registerkarten
 * Verbinder
 
-Apps werden von Benutzern aus Richtlinienperspektive unterstützt und von der IT verwaltet. Die Berechtigungen und das Risikoprofil einer App werden jedoch durch die Berechtigungen und Risikoprofile der in der App enthaltenen Funktionen definiert. Daher konzentriert sich dieser Artikel auf Berechtigungen und Überlegungen auf der Funktionsebene.
+Als Administrator verwalten Sie nur Apps. Der Schwerpunkt dieses Artikels liegt jedoch auf Berechtigungen und Überlegungen auf der Funktionsebene, da sich Funktionen in einer App auf die erforderlichen Berechtigungen und Risikoprofile der App auswirken. Bei der Nutzung werden Apps von Benutzern aus Richtlinienperspektive unterstützt und von IT-Experten verwaltet.
 
-Die unten in Großbuchstaben aufgeführten Berechtigungen, z. B. RECEIVE_MESSAGE und REPLYTO_MESSAGE, werden in der Microsoft Teams-Entwicklerdokumentation oder [](/microsoftteams/platform/overview) in den Berechtigungen für [Microsoft Graph.](/graph/permissions-reference)
+Die unten in Großbuchstaben aufgeführten Berechtigungen `RECEIVE_MESSAGE` `REPLYTO_MESSAGE` dienen nur zur Veranschaulichung und Erläuterung. Diese Zeichenfolgen oder Berechtigungen werden an keinem Ort in der Dokumentation Microsoft Teams [Entwicklern](/microsoftteams/platform/overview) oder den [Berechtigungen für Microsoft Graph](/graph/permissions-reference).
 
-| Titel   | Beschreibung    |
+<!--- TBD: What does this table mean? The icons are not used anywhere in this article so commenting this for now.
+
+| Title   | Description    |
 |-----------|------------|
-| ![Symbol, das einen Entscheidungspunkt darstellt](media/audio_conferencing_image7.png) <br/>Entscheidungspunkt|<ul><li>Verwenden Sie die nachstehenden Tabellen als Leitfaden, um zu verstehen, welche Berechtigungen die von Ihnen untersuchten Apps anfordern.</li></ul> |
-| ![Ein Symbol, das den nächsten Schritt darstellt](media/audio_conferencing_image9.png)<br/>Nächster Schritt|<ul><li>Recherchieren Sie über die App oder den Dienst selbst, um zu entscheiden, ob Sie innerhalb Ihrer Organisation zugriffen möchten. Bots senden und empfangen beispielsweise Nachrichten von Benutzern und befinden sich – mit Ausnahme benutzerdefinierter Enterprise-Bots – außerhalb der Compliancegrenze. Daher erfordert jede App, die einen Bot enthält, diese Berechtigungen und besitzt das minimale Risikoprofil. </li></ul>|
+| ![An icon depicting a decision point](media/audio_conferencing_image7.png) <br/>Decision point|<ul><li>Use the tables below as a guide to understand which permissions the apps you're investigating are requesting.</li></ul> |
+| ![An icon depicting the next step](media/audio_conferencing_image9.png)<br/>Next step|<ul><li>Research the app or service itself to decide whether you want to allow access to it within your organization. For example, bots send and receive messages from users, and—except for enterprise custom bots—they're located outside the compliance boundary. Therefore, any app that includes a bot requires those permissions and has that minimum risk profile. </li></ul>|
 
-Siehe auch [Anfordern von Geräteberechtigungen für Microsoft Teams Registerkarte.](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions)
+See also [Request device permissions for your Microsoft Teams tab](/microsoftteams/platform/concepts/device-capabilities/native-device-permissions).
+
+--->
 
 ## <a name="global-app-permissions-and-considerations"></a>Globale App-Berechtigungen und Überlegungen
 
@@ -62,7 +66,7 @@ Keine
 
 * [Ressourcenspezifische Zustimmung bietet](resource-specific-consent.md) eine Reihe von Berechtigungen, die Apps anfordern können, die auf dem Installationsbildschirm der App angezeigt werden. Weitere Informationen zu ressourcenspezifischen Zustimmungsberechtigungen finden Sie unter Graph [zu Berechtigungen](/graph/permissions-reference#teams-resource-specific-consent-permissions).
 
-* Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Zustimmungsberechtigungen. Nach der Installation einer App kann die App die Graph einer Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes Azure AD der App-Zustimmung](/azure/active-directory/develop/application-consent-experience). Sie können IM Azure-Portal API-Berechtigungen und -Zustimmung konfigurieren. Weitere Informationen finden Sie unter [Azure Active Directory-Framework.](/azure/active-directory/develop/consent-framework)
+* Apps benötigen möglicherweise auch andere Berechtigungen als ressourcenspezifische Zustimmungsberechtigungen. Nach der Installation einer App kann die App die Graph einer Zustimmungsaufforderung anfordern. Weitere Informationen finden Sie unter [Grundlegendes Azure AD der App-Zustimmung](/azure/active-directory/develop/application-consent-experience). Sie können api-Berechtigungen und Zustimmung im Azure-Portal. Weitere Informationen finden Sie unter [Azure Active Directory-Framework.](/azure/active-directory/develop/consent-framework)
 
 ## <a name="bots-and-messaging-extensions"></a>Bots und Messaging-Erweiterungen
 
@@ -94,8 +98,7 @@ Keine
 
   * RECEIVE_MESSAGE_PERSONAL, REPLYTO_MESSAGE_PERSONAL
   * RECEIVE_MESSAGE_GROUPCHAT, REPLYTO_MESSAGE_GROUPCHAT
-  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM    
-
+  * RECEIVE_MESSAGE_TEAM, REPLYTO_MESSAGE_TEAM
 
 * SEND_FILES, RECEIVE_FILES:<sup>2</sup> Steuert, ob ein Bot Dateien in persönlichen Chats senden und empfangen kann (wird für Gruppenchats oder Kanäle noch nicht unterstützt).
 

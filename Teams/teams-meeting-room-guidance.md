@@ -20,12 +20,12 @@ f1.keywords:
 localization_priority: Normal
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b02e3f441ad7a4a338c86e89b2740561d3d552d7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: ac7ac28eca8a139d9a7d1ff5a8100af1de772955
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711569"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556276"
 ---
 # <a name="meeting-room-guidance-for-teams"></a>Leitfaden für Besprechungsraum Teams
 
@@ -232,7 +232,7 @@ In Zukunft unterstützt Teams-Räume Audiosysteme, die ein Konzept mit dem Namen
 
 Eine ultrawide-Winkelkamera ist an der Vorderseite des Raums unterhalb des Displays positioniert, um jeden im Raum zu erfassen.
 
-Die Ultrawide-Angel-Kamera bietet eine intelligente Nachverfolgung von Besprechungsteilnehmern, sodass sie einzeln in einer großen Ansicht und nicht als Gesichter in einem großen Bild des gesamten Raum dargestellt werden können.
+Die ultrawidewinkelte Kamera bietet eine intelligente Nachverfolgung von Besprechungsteilnehmern, sodass sie einzeln in einer großen Ansicht und nicht als Gesichter in einem großen Bild des gesamten Raum dargestellt werden können.
 
 ![Rendern eines erweiterten Besprechungsraums über eine Zusätzliche Ansicht.](media/emr5.png)
 
@@ -246,7 +246,7 @@ Um den Teilnehmern im Raum ein besseres Gefühl der Verbindung zu Remoteteilnehm
 
 Besprechungsinhalte sind umgeben von kontextbezogenen flüssigen Komponenten wie der Tagesordnung, Aufgaben und Notizen, die in Echtzeit aktualisiert werden können, wodurch die Teilnehmer engagiert und produktiv bleiben. Darüber hinaus wird der Besprechungschat deutlich sichtbar, sodass Sie bei der Teilnahme an einer Teams-Besprechung über einen Teams-Raum die Unterhaltung ganz einfach in Echtzeit sehen und daran teilnehmen können. In einem erweiterten Microsoft Teams-Raum wird dieser Inhalt auf einem Bildschirm mit breitem Seitenverhältnis angezeigt, um die Größe des Besprechungsinhalts und die Anzahl der Teilnehmer zu maximieren, die gleichzeitig angezeigt werden können.
 
-Dieses Layout wird sowohl bei Einzel- als auch bei Konfigurationen mit zwei Monitoren unterstützt und über ein Teams-Räume verfügbar gemacht. Das Layout der vorderen Zeile wirkt sich in einem erweiterten Raum besonders gut aus, die erste Zeile kann jedoch unabhängig von der Möbel- und Hardwarekonfiguration in jedem Teams-Raum verwendet werden, der auf Windows ausgeführt wird.
+Dieses Layout wird sowohl bei Einzel- als auch bei Konfigurationen mit zwei Monitoren unterstützt. Das Layout der vorderen Zeile wirkt sich in einem erweiterten Raum besonders gut aus, die erste Zeile kann jedoch unabhängig von der Möbel- und Hardwarekonfiguration in jedem Teams-Raum verwendet werden, der auf Windows ausgeführt wird.
 
 ### <a name="how-do-you-co-create-content"></a>Wie erstellen Sie Inhalte gemeinsam?
 

@@ -9,17 +9,22 @@ ms.tgt.pltfrm: cloud
 ms.service: msteams
 audience: Admin
 f1.keywords:
-  - NOCSH
+- NOCSH
 appliesto:
-  - Microsoft Teams
+- Microsoft Teams
 ms.localizationpriority: medium
 search.appverid: MET150
 description: Erfahren Sie mehr über überwachte Chats in Microsoft Teams Besprechungen.
+ms.openlocfilehash: 5027e214de2ee85c2898676b15f4fa04352e1566
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.translationtype: MT
+ms.contentlocale: de-DE
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556486"
 ---
-
 # <a name="supervised-chats-in-microsoft-teams"></a>Überwachen von Chats in Microsoft Teams
 
-Bildungseinrichtungen bieten Schülern und Studenten einen sicheren und gesunden digitalen Bereich. Der digitale Bereich umfasst E-Mails, Onlinebesprechungen und -anrufe sowie Messaging in Teams. Um unangemessenes Nachrichtenverhalten zu verhindern, deaktivieren viele Schulen den privaten Chat in Teams. Unglücklicherweise blockiert das Deaktivieren des Chats auch die Möglichkeit für Lehrer, Schüler privat zum personalisierten Lernen zu erreichen. Wenn der Chat deaktiviert ist, können die Kursteilnehmer Lehrer nicht erreichen, wenn sie es vorziehen, die Nachrichten nicht öffentlich in Kursteams zu veröffentlichen.
+Bildungseinrichtungen bieten Schülern und Studenten einen sicheren und gesunden digitalen Bereich. Der digitale Bereich umfasst E-Mails, Onlinebesprechungen und -anrufe sowie Messaging in Teams. Um unangemessenes Nachrichtenverhalten zu verhindern, deaktivieren viele Schulen private Chats in Teams. Unglücklicherweise blockiert das Deaktivieren des Chats auch die Möglichkeit für Lehrer, Schüler privat zum personalisierten Lernen zu erreichen. Wenn der Chat deaktiviert ist, können die Kursteilnehmer Lehrer nicht erreichen, wenn sie es vorziehen, die Nachrichten nicht öffentlich in Kursteams zu veröffentlichen.
 
 Durch einen überwachten Chat können bestimmte Lehrkräfte Chats mit Kursteilnehmern initiieren und Schüler/Studierende am Starten neuer Chats sperren, es sei denn, eine geeignete Lehrkraft ist anwesend. Wenn die Chatüberwachung aktiviert ist, dürfen Supervisor keine Chats verlassen, und andere Teilnehmer dürfen sie nicht entfernen, um sicherzustellen, dass Chats, die Schüler/Studierende beteiligt, ordnungsgemäß überwacht werden.
 
@@ -53,17 +58,17 @@ Damit der überwachte Chat wie erwartet funktioniert, muss jedem Benutzer in Ihr
 
 - *Eingeschränkte* Berechtigungen – Diese Rolle eignet sich ideal für Mitarbeiter, die nur den Zugriff auf Schüler/Studierende überwachen und vollzugriff auf andere Mitarbeiter und Lehrkräfte haben sollten. Sie können Chats mit allen oder eingeschränkten Benutzern, aber nicht mit eingeschränkten Benutzern starten. Wenn ein Benutzer mit voll berechtigten Berechtigungen einen Chat mit einem eingeschränkten Benutzer beginnt, können nur eingeschränkte Benutzer zur Unterhaltung teilnehmen. Dieser Zugriff erfolgt, weil ein Benutzer mit vollständigen Berechtigungen anwesend ist, um die Zusammenarbeit zwischen eingeschränkten und eingeschränkten Benutzern zu beaufsichtigen.
 
-- *Eingeschränkte* Berechtigungen: Diese Rolle eignet sich ideal für Schüler/Studierende, die überwacht werden müssen. Sie können nur Chats mit Benutzern starten, die über vollständige Berechtigungen verfügen. Sie können an jeder Unterhaltung teilnehmen, zu der ein Benutzer mit vollständigen Berechtigungen eingeladen wird. In Partnerchat-Fällen können eingeschränkte Benutzer nur von benutzern mit vollständigen Berechtigungen zu Chats hinzugefügt werden, die vom Mandanten des eingeschränkten Benutzers kommen.
+- *Eingeschränkte* Berechtigungen: Diese Rolle eignet sich ideal für Schüler/Studierende, die überwacht werden müssen. Sie können nur Chats mit Benutzern starten, die über vollständige Berechtigungen verfügen. Sie können an jeder Unterhaltung teilnehmen, die ein Benutzer mit vollständigen Berechtigungen beginnt und zu der er dann eingeladen wird. In Partnerchat-Fällen können eingeschränkte Benutzer nur von benutzern mit vollständigen Berechtigungen zu Chats hinzugefügt werden, die vom Mandanten des eingeschränkten Benutzers kommen.
 
-Verwenden Sie zum Festlegen der Chatberechtigungsrolle Ihrer Benutzer   die Rollenrichtlinie Chatberechtigungen, die in den Optionen für Messagingrichtlinien im Teams-Verwaltungsportal zu finden ist. Sie können PowerShell verwenden, um Rollen mithilfe der Richtlinie ChatPermissionRole mit den Werten "Full", "Limited" oder "Restricted" zu definieren. Diese Richtlinie befindet sich unter CsTeamsMessagingPolicy.
+Zum Festlegen der Chatberechtigungsrolle Ihrer Benutzer verwenden Sie die **Rollenrichtlinie**  Chatberechtigungen, die in den Optionen für Messagingrichtlinien im Teams-Verwaltungsportal zu finden ist. Sie können PowerShell verwenden, um Rollen mithilfe der Richtlinie ChatPermissionRole mit den Werten "Full", "Limited" oder "Restricted" zu definieren. Diese Richtlinie befindet sich unter CsTeamsMessagingPolicy.
 
-Weitere Informationen zum Festlegen. Teams Richtlinien finden Sie Teams Richtlinienpakete für Bildungseinrichtungen und Zuweisen von Richtlinien zu großen Gruppen von Benutzerhandbüchern.
+Weitere Informationen zum Festlegen. Teams Richtlinien finden sie Teams Richtlinienpakete für Bildungseinrichtungen und Zuweisen von Richtlinien zu großen Gruppen von Benutzerhandbüchern.
 
 Rollen können Gäste in Ihrem Mandanten nicht zugewiesen werden. Gästen wird die eingeschränkte Rolle zugewiesen.
 
 ### <a name="allow-supervised-chat"></a>Zulassen eines überwachten Chats
 
-Überwachter Chat ist für Ihren Mandanten standardmäßig deaktiviert. Nachdem Sie Chat-Berechtigungsrollen für Ihre Benutzer festgelegt haben, können Sie die Überwachung von Chats innerhalb Ihres Mandanten aktivieren, indem Sie zu **Teams** &gt; **Teams-Einstellungen** und die Richtlinie rollenbasierte Chatberechtigungen auf Ein *festlegen.*  Sie können auch PowerShell verwenden, um den überwachten Chat zu aktivieren, indem Sie AllowRoleBasedChatPermissions auf True festlegen. Dieses Cmdlet befindet sich unter CsTeamsClientConfiguration.
+Überwachter Chat ist für Ihren Mandanten standardmäßig deaktiviert. Nachdem Sie Chat-Berechtigungsrollen für Ihre Benutzer festgelegt haben, können Sie den **überwachten** Chat innerhalb Ihres Mandanten aktivieren, indem Sie zu Teams &gt; **Teams-Einstellungen** und die Richtlinie rollenbasierte **Chatberechtigungen** auf Ein festlegen *.* Sie können auch PowerShell verwenden, um den überwachten Chat zu aktivieren, indem Sie AllowRoleBasedChatPermissions auf True festlegen. Dieses Cmdlet befindet sich unter CsTeamsClientConfiguration.
 
 Überwachter Chat muss für alle Benutzer im Mandanten aktiviert sein und kann nicht nur für einen Teil Ihrer Benutzer aktiviert werden.
 

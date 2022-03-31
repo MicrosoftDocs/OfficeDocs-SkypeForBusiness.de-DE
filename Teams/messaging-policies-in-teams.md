@@ -20,12 +20,12 @@ ms.custom:
 - ms.teamsadmincenter.messagingpolicies.overview
 - seo-marvel-apr2020
 description: Erfahren Sie mehr über die Nachrichtenrichtlinie, und wie Sie sie zur Steuerung des Chat-Messagings in Teams genutzt werden können.
-ms.openlocfilehash: 0f4001fc2a646b83f005d9cc48948fbbb314f042
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: 74b9474eda7fd3c6bfe7224f62fbf58f61689743
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480667"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556246"
 ---
 # <a name="manage-messaging-policies-in-teams"></a>Verwalten von Nachrichtenrichtlinien in Teams
 
@@ -80,6 +80,7 @@ Dies sind die Nachrichteneinstellungen, die Sie konfigurieren können.
 
 - **Besitzer können gesendete Nachrichten löschen**  Verwenden Sie diese Einstellung, damit Besitzer Kanalnachrichten oder Beiträge löschen können, die Benutzer gesendet haben.
 - **Gesendete Nachrichten löschen** Verwenden Sie diese Einstellung, um Benutzern das Löschen von nachrichten zu ermöglichen, die sie im Chat gesendet haben.
+- **Löschen eines Chats** Verwenden Sie diese Einstellung, um Benutzern das Löschen von nachrichten zu ermöglichen, die sie im Chat gesendet haben.
 - **Gesendete Nachrichten bearbeiten** Verwenden Sie diese Einstellung, um Benutzern das Bearbeiten von Nachrichten zu ermöglichen, die sie in einem Chat gesendet haben.
 - **Lesebestätigungen** Lesebestätigungen ermöglichen es dem Absender einer Chatnachricht, benachrichtigt zu werden, wenn der Empfänger seine Nachricht in 1:1 und Gruppenchats 20 oder weniger Personen gelesen hat. Lesebestätigungen für Nachrichten nehmen die Ungewissheit, ob eine Nachricht gelesen wurde und verbessern so die Kommunikation im Team. In eDiscovery-Berichten werden keine Lesebestätigungen erfasst.  
     - **Benutzergesteuert**: Das bedeutet, dass Benutzer entscheiden können, ob Sie die Funktion „Lesebestätigungen“ aktivieren oder deaktivieren möchten. Die Standardeinstellung in der App ist „aktiviert“. Benutzer können Sie dann auf „deaktiviert“ ändern.

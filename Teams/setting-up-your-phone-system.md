@@ -24,12 +24,12 @@ ms.custom:
 - seo-marvel-apr2020
 - intro-get-started
 description: Schrittweise Anleitung, die erläutert, wie Sie Teams Telefonsystem für Ihre Organisation in einem Microsoft 365.
-ms.openlocfilehash: 3a5c275c7d7d881ff770e6e84a3d4fa935d2827f
-ms.sourcegitcommit: 71edff2670367082312de59c4e21775682871418
+ms.openlocfilehash: 6b56c68e7316c78c7c1881d6e9d6ca39b13823b1
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "63043343"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556296"
 ---
 # <a name="set-up-phone-system-in-your-organization"></a>Einrichten des Telefonsystems in Ihrer Organisation
 
@@ -50,7 +50,7 @@ In diesem Artikel werden die folgenden Schritte beschrieben:
 
 ## <a name="step-1-buy-and-assign-a-phone-system-license"></a>Schritt 1: Kaufen und Zuweisen einer Telefonsystem Lizenz
 
-Wenn Sie einem Telefonsystem Benutzer eine Lizenz zuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365 Lizenz. Sie können auch mehreren Benutzern Gleichzeitig Lizenzen zuweisen. Weitere Informationen zu verfügbaren Telefonsystem-Lizenzen und zum Erwerben und Zuweisen von Lizenzen finden Sie unter  [Add-On Teams](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) lizenzen und Zuweisen von [Microsot Teams-Add-On-Lizenzen](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
+Wenn Sie einem Telefonsystem Benutzer eine Lizenz zuweisen, sind die Schritte identisch mit dem Zuweisen einer Microsoft 365 Lizenz. Sie können auch mehreren Benutzern Gleichzeitig Lizenzen zuweisen. Weitere Informationen zu den verfügbaren Telefonsystem und zum Erwerben und Zuweisen von Lizenzen finden Sie unter  [Add-On](/microsoftteams//teams-add-on-licensing/microsoft-teams-add-on-licensing) Teams lizenzen und Zuweisen Microsoft Teams [Add-On-Lizenzen](/microsoftteams/teams-add-on-licensing/assign-teams-add-on-licenses).
 
 ## <a name="step-2-choose-a-pstn-connectivity-option"></a>Schritt 2: Auswählen einer PSTN-Verbindungsoption 
  
@@ -58,7 +58,7 @@ Damit Ihre Benutzer externe Anrufe verwenden und empfangen können, müssen Sie 
 
 - Anrufplan. Eine All-in-the-Cloud-Lösung mit Microsoft als Ihrem PSTN-Anbieter. 
 
-- Operatoren Verbinden. Wenn Ihr bestehender Netzbetreiber am Microsoft Operator Verbinden-Programm teil nimmt, können diese PSTN-Anrufe und Session Border Controller (SBCs) für Sie verwalten. 
+- Telefonieanbieter. Wenn Ihr bestehender Netzbetreiber am Microsoft Telefonieanbieter-Programm teil nimmt, kann er PSTN-Anrufe und Session Border Controller (SBCs) für Sie verwalten. 
 
 - Direktes Routing. Verwenden Sie Ihren eigenen PstN-Netzbetreiber, indem Sie Ihre SBCs mit Telefonsystem. 
 
@@ -81,12 +81,12 @@ Informationen zum Verwalten von Telefonnummern für Ihre Benutzer finden Sie in 
 
 Sie können nicht nur Telefonnummern für Ihre Benutzer erhalten, sondern auch gebührenpflichtige oder gebührenfreie Telefonnummern für Dienste wie automatische Telefonkonferenzen und Anrufwarteschleifen erwerben. Eine Servicenummer kann Hunderte von Anrufen gleichzeitig verarbeiten, während die Telefonnummer eines Benutzers nur einige wenige Anrufe gleichzeitig verarbeiten kann.   
 
-Sie können Servicenummern von Microsoft erhalten, die in Ihrer Lizenzierung enthalten sind. Wenn Sie pstN-Konnektivität über Operator Verbinden Direct Routing haben, können Sie die von Ihrem eigenen Netzbetreiber oder Netzbetreiber bereitgestellten Leistungsnummern verwenden. 
+Sie können Servicenummern von Microsoft erhalten, die in Ihrer Lizenzierung enthalten sind. Wenn Sie über PSTN-Konnektivität über Telefonieanbieter oder Direct-Routing verfügen, können Sie die von Ihrem eigenen Netzbetreiber oder Netzbetreiber bereitgestellten Leistungsnummern verwenden. 
 
 Weitere Informationen finden Sie unter:
 
 - [Verwalten von Telefonnummern für](manage-phone-numbers-landing-page.md) Ihre Organisation – Bietet eine Übersicht über Telefonnummerntypen mit Links zu bestimmten Artikeln zum Abrufen und Verwalten von Nummern je nach Ihrer PSTN-Verbindungsoption.  
-Beschreibt [service phone numbers](manage-phone-numbers-landing-page.md#service-telephone-numbers) available from Microsoft that are included in your licensing. Wenn Sie Informationen zu den von der Netzbetreiber-Verbinden Direct Routing bereitgestellten Leistungsnummern erhalten, wenden Sie sich an Ihren Anbieter. 
+Beschreibt [service phone numbers](manage-phone-numbers-landing-page.md#service-telephone-numbers) available from Microsoft that are included in your licensing. Wenn Sie Informationen zu den von Ihrem Anbieter Telefonieanbieter Direct Routing erhalten haben, wenden Sie sich an Ihren Anbieter. 
 
 - [Wie viele Telefonnummern erhalten](how-many-phone-numbers-can-you-get.md) Sie? – Beschreibt, wie viele Telefonnummern Sie erhalten können, je nachdem, welche Arten von Telefonnummern Sie gekauft und zugewiesen haben. 
 

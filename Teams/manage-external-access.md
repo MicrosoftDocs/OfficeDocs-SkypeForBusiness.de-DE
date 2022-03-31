@@ -21,12 +21,12 @@ description: Ihr Microsoft Teams- oder IT-Administrator kann den externen Zugrif
 appliesto:
 - Microsoft Teams
 ms.localizationpriority: high
-ms.openlocfilehash: ec2ee80d2475742380944b2e834b5c7b7cf24275
-ms.sourcegitcommit: c5f281342c5f2af65492692ab1249789c637e457
+ms.openlocfilehash: 8505a57ff0ab9bb2e79607ffe13768058bab26d6
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/09/2022
-ms.locfileid: "63392917"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556316"
 ---
 # <a name="manage-external-access-in-microsoft-teams"></a>Verwaltung des externen Zugriffs in Microsoft Teams
 
@@ -149,7 +149,7 @@ Die folgende Tabelle zeigt die Cmdletparameter, die zum Konfigurieren des Partne
 |:-------|:--------|:------------------|
 |Aktivieren/Deaktivieren des Partnerverbunds mit anderen Teams-Organisationen und Skype for Business|`-AllowFederatedUsers`|`-EnableFederationAccess`|
 |Aktivieren des Partnerverbunds mit bestimmten Domänen|`-AllowedDomains`|Nicht verfügbar|
-|Deaktivieren des Partnerverbunds mit bestimmten Domänen|`-Blocked Domains`|Nicht verfügbar|
+|Deaktivieren des Partnerverbunds mit bestimmten Domänen|`-BlockedDomains`|Nicht verfügbar|
 |Aktivieren/Deaktivieren des Partnerverbunds mit Teams-Benutzern, die nicht von einer Organisation verwaltet werden|`-AllowTeamsConsumer`|`-EnableTeamsConsumerAccess`|
 |Aktivieren/Deaktivieren der Möglichkeit für Teams-Benutzer, die nicht von einer Organisation verwaltet werden, Unterhaltungen zu initiieren|`-AllowTeamsConsumerInbound`|`-EnableTeamsConsumerInbound`|
 |Aktivieren/Deaktivieren des Partnerverbunds mit Skype|`-AllowPublicUsers`|`-EnablePublicCloudAccess`|

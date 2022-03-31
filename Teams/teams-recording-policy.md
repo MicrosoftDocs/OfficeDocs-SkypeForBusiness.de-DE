@@ -21,12 +21,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 18e7b02a52a0ddc7c380ed3fb4c5879b45fe18dc
-ms.sourcegitcommit: b878c57b8e822913b7aac8c105f476bc4ebfcd7d
+ms.openlocfilehash: 554c2e893272ca8dfca1fde6c746e72f1b462f1e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/23/2022
-ms.locfileid: "63761929"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556556"
 ---
 # <a name="introduction-to-teams-policy-based-recording-for-callings--meetings"></a>Einführung in Teams Richtlinienbasierte Aufzeichnung für Anrufe & Besprechungen
 
@@ -138,7 +138,7 @@ Die Anforderungen für Azure und Windows VM gelten nur für die Komponente "Team
 
 ## <a name="compliance-recording-policy-assignment-and-provisioning"></a>Richtlinienzuweisung und -bereitstellung für die Complianceaufzeichnung
 
-IT-Administratoren können festlegen, welche Benutzer aufgezeichnet und welche Aufzeichnungsgeräte für jeden Benutzer verwendet werden sollen, indem sie Richtlinien für die Konformitätsaufzeichnung erstellen und zuweisen. Aufzeichnungen werden basierend auf der Konfiguration dieser Richtlinien automatisch zur Teilnahme an Unterhaltungen eingeladen, wenn eine Kommunikationsinteraktion stattfindet. Richtlinien für die Complianceaufzeichnung werden mithilfe [von Microsoft PowerShell](./teams-powershell-overview.md) verwaltet und können auf Mandanten-, Benutzer- und Sicherheitsgruppenebene für jede Organisation angewendet werden. Weitere Informationen finden Sie unter Microsoft Docs für [Besprechungsrichtlinien](./meeting-policies-overview.md), [Anrufrichtlinien](./teams-calling-policy.md) und  [Gruppenrichtlinien](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group).
+IT-Administratoren können festlegen, welche Benutzer aufgezeichnet und welche Aufzeichnungsgeräte für jeden Benutzer verwendet werden sollen, indem sie Richtlinien für die Konformitätsaufzeichnung erstellen und zuweisen. Aufzeichnungen werden basierend auf der Konfiguration dieser Richtlinien automatisch zur Teilnahme an Unterhaltungen eingeladen, wenn eine Kommunikationsinteraktion stattfindet. Richtlinien für die Complianceaufzeichnung werden mithilfe [von Microsoft PowerShell](./teams-powershell-overview.md) verwaltet und können auf Mandanten-, Benutzer- und Sicherheitsgruppenebene für jede Organisation angewendet werden. Weitere Informationen zu Besprechungsrichtlinien [Microsoft-Dokumentation Anrufrichtlinien](./meeting-policies-overview.md) und [Gruppenrichtlinien finden Sie hier](./assign-policies-users-and-groups.md#assign-a-policy-to-a-group). [](./teams-calling-policy.md)
 
 1. Erstellen Sie eine Anwendungsinstanz in Ihrem Mandanten.
 
@@ -226,7 +226,8 @@ Die folgenden Partner haben ihre Lösung für die Microsoft Teams.<br/><br/>
 |CallCabinet |[https://www.callcabinet.com/compliance-microsoft-teams-call-recording](https://www.callcabinet.com/compliance-microsoft-teams-call-recording ) |
 |Dubber |[https://www.dubber.net/call-recording/](https://www.dubber.net/call-recording/) |
 |Aufschlussreiche Technologie |[https://insightfultechnology.com/teams/](https://insightfultechnology.com/teams/) |
-|NICE |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
+|NICE Engage |[https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage](https://www.nice.com/products/workforce-engagement/call-recording/air-and-engage) |
+|NICE NTR |[https://www.niceactimize.com/compliance/ms-teams-recording.html](https://www.niceactimize.com/compliance/ms-teams-recording.html) |
 |Numonix |[https://numonix.cloud](https://numonix.cloud)    |
 |Oak Innovation |[https://www.oakinnovate.com/clarify](https://www.oakinnovate.com/clarify) |
 |Rotes Kästchen |[https://www.redboxvoice.com/compliance-recording-for-microsoft-teams](https://www.redboxvoice.com/compliance-recording-for-microsoft-teams)  |

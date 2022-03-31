@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 765c0b97d5e277bd086ac4b25ee11ac80cb6fc11
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: fe3ad067844de3c7a5dda0a042dee837a9638eae
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711479"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556286"
 ---
 # <a name="microsoft-teams-apps-behavior-based-on-types-of-users"></a>Microsoft Teams von Apps basierend auf Benutzertypen
 
@@ -49,7 +49,7 @@ Gäste können eine App verwenden, wenn die App von einem systemeigenen Benutzer
 
 #### <a name="bots-installed-to-a-channel"></a>In einem Kanal installierte Bots
 
-Bots können Proaktiv Nachrichten für Gastbenutzer senden, aber Gäste können nicht mit dem Bot interagieren. Gäste können dem Bot keine 1:1-Nachrichten senden, den Bot erwähnen oder mit adaptiven Karten interagieren, die mit dem Bot kommunizieren.
+Gastbenutzer können den Bot erwähnen und mit adaptiven Karten interagieren.
 
 #### <a name="personal-bots-installed-with-policies"></a>Persönliche Bots, die mit Richtlinien installiert wurden
 

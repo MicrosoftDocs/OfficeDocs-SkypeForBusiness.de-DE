@@ -19,7 +19,7 @@ appliesto:
 ms.custom: seo-marvel-mar2020
 ms.openlocfilehash: 523d35fd1e7981a52e5972232f0c00c276435f7f
 ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/22/2022
 ms.locfileid: "63711879"
@@ -47,7 +47,7 @@ Erfahren Sie mithilfe dieser schnellen Tipps für Endbenutzer mehr über die [Ar
 
 Wir empfehlen als bewährte Methode, größere Teams mit mehreren Kanälen zu erstellen. Minimieren Sie die Anzahl der Teams, in denen die Teilnahme einer Person notwendig ist. Stellen Sie sich Kanäle in einem Team wie Themen oder Arbeitsabläufe vor, die dem Team dabei helfen, seine Arbeit zur Erreichung des gemeinsamen Zieles zu organisieren. Es muss keine bestimmte Anzahl von Kanälen erstellt werden. Jedes Team sollte Kanäle auf der Grundlage seiner Arbeit, seiner Prioritäten und seiner Anforderungen erstellen.
 
-Verwenden Sie Standardkanäle für Unterhaltungen, zu denen alle Teammitglieder beitragen können. Nutzen Sie die Vorteile [privater Kanäle](private-channels.md) , wenn Sie einen Platz für die Zusammenarbeit mit einer ausgewählten Gruppe von Teammitgliedern benötigen. Verwenden [Sie freigegebene](shared-channels.md) Kanäle, wenn Sie mit Personen außerhalb des Teams zusammenarbeiten müssen.
+Verwenden Sie Standardkanäle für Unterhaltungen, zu denen alle Teammitglieder beitragen können. Nutzen Sie die Vorteile von [privaten Kanälen](private-channels.md), wenn Sie einen fokussierten Platz zur Zusammenarbeit mit einer ausgewählten Gruppe von Teammitgliedern benötigen. Verwenden Sie [freigegebene Kanäle](shared-channels.md), wenn Sie mit Personen außerhalb des Teams zusammenarbeiten müssen.
 
 Größere Organisationen können Teams als "Vorlagen" erstellen, um Informationen zu standardisieren, die sie über bestimmte Arten von Arbeit erfassen. Dies ist eine nützliche Vorgehensweise für die strategische Kundenverwaltung, die Kursraumverwaltung, im Gesundheitswesen, für das Forderungsmanagement, das Störfallmanagement und andere Szenarien in einer bestimmten Branche. Weitere Informationen hierzu finden Sie unter [Erste Schritte mit Teams-Vorlagen](get-started-with-teams-templates.md) und [Teams-Vorlagen für kleine und mittlere Unternehmen](smb-templates.md).
 

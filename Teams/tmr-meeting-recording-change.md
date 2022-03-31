@@ -17,12 +17,12 @@ ms.collection:
 - m365initiative-meetings
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: bf1f393c8f6caf27a53ec45af0f04401f93b6793
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: 8d2863517ae4a147f9ded902dffff40ef315642e
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514536"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556336"
 ---
 # <a name="use-onedrive-for-business-and-sharepoint-or-stream-for-meeting-recordings"></a>Verwenden von OneDrive for Business und SharePoint oder Stream für Besprechungsaufzeichnungen
 
@@ -171,9 +171,9 @@ Das Video wird im Videoplayer von OneDrive for Business oder SharePoint abgespie
 
 **Wenn man plant, das Hinzufügen zu Stream zu einzustellen, bleiben dann die vorhandenen Videos erhalten und für wie lange?**
 
-Stream als Plattform wird in naher Zukunft nicht eingestellt. Die Videos, die sich aktuell in Stream befinden, bleiben dort, bis wir mit der Migration beginnen. Bei der Migration werden diese Videos auch nach OneDrive for Business oder SharePoint migriert. Weitere Informationen finden Sie unter [klassische Migration von Stream](/stream/streamnew/classic-migration).
+Stream als Plattform wird in naher Zukunft nicht eingestellt. Die Videos, die sich aktuell in Stream befinden, bleiben dort, bis wir mit der Migration beginnen. Bei der Migration werden diese Videos auch nach OneDrive for Business oder SharePoint migriert. Weitere [Informationen finden Sie unter Migrationsdetails](/stream/streamnew/migration-details) .
 
-**Wie kann ich eine Aufbewahrungsbezeichnung auf Microsoft Teams anwenden?**
+**Gewusst wie eine Aufbewahrungsbezeichnung auf Microsoft Teams anwenden?**
 
 Siehe [Aufbewahrungsbezeichnungen automatisch anwenden](/microsoft-365/compliance/apply-retention-labels-automatically).
 

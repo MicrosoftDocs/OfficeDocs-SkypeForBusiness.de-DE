@@ -14,11 +14,11 @@ ms.localizationpriority: medium
 ms.collection:
 - m365initiative-meetings
 ms.assetid: b4e0ad1e-12e5-4130-aec1-d8c9cd3a5965
-description: Erfahren Sie, wie Sie Microsoft Teams-Räume, einschließlich Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
+description: Hier erfahren Sie, wie Sie Microsoft Teams-Räume einrichten, einschließlich Planung, Bereitstellung und Verwaltung des Systems, um Ihren idealen virtuellen Besprechungsraum zu erstellen.
 ms.custom: seo-marvel-may2020
 ms.openlocfilehash: 0458513bc75bf352aed1b611895ef918fc621dcc
 ms.sourcegitcommit: a894e9397050e09bfaab02e700e943a3bbeb1302
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/15/2022
 ms.locfileid: "63504112"
@@ -27,16 +27,16 @@ ms.locfileid: "63504112"
 
 :::row:::
     :::column span="2":::
-       Verwandeln Sie Besprechungsräume – von kleinen, zusammengeknützten Bereichen bis hin zu großen Konferenzräumen – mit einem reichhaltigen, Teams-Benutzererlebnis, das einfach zu verwenden, zu implementieren und zu verwalten ist.
+       Verwandeln Sie Besprechungsräume von kleinen Gruppenräumen bis hin zu großen Konferenzräumen mit einer umfassenden, kollaborativen Teams-Erfahrung, die sich einfach bedienen, bereitstellen und verwalten lässt.
 
        Starten Sie Besprechungen pünktlich mit einem Klick, projizieren Sie sie dann sofort auf das Display im Raum und teilen Sie es mit Remote-Teilnehmer.
 
-       Wählen Sie die richtigen System- und Audiovideoperipheriegeräte von einem unserer Partner aus: Dell, Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
+       Wählen Sie die richtigen System- und Audio-Video-Peripheriegeräte von einem unserer Partner aus: Dell, Yealink, Logitech, Crestron, Polycom, Lenovo und HP.
 
-       Um eine kurze Einführung in Teams-Räume zu finden, klicken Sie auf das Video auf der rechten Seite.
+       Um eine kurze Einführung in Teams-Räume zu erhalten, klicken Sie auf das Video auf der rechten Seite.
     :::column-end:::
     :::column:::
-       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics-Video an.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+       [:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Video zu Microsoft Mechanics und Microsoft Teams-Räume.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
     :::column-end:::
 :::row-end:::
 
@@ -47,14 +47,14 @@ ms.locfileid: "63504112"
 |  **[Plan](./rooms-plan.md)** |  **[Bereitstellen](./rooms-deploy.md)** |  **[Verwalten](./rooms-manage.md)** |
 
 
-[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Microsoft Teams-Räume Microsoft Mechanics-Video an.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
+[:::image type="content" source="../media/teams-rooms-microsoft-mechanics.jpg" alt-text="Video zu Microsoft Mechanics und Microsoft Teams-Räume.":::](https://www.youtube.com/watch?v=z4N-Z6mT09Q)
 
 > [!NOTE]
-> Microsoft Teams-Räume ist für Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 vorgesehen.
+> Microsoft Teams-Räume ist für die Verwendung mit Microsoft Teams, Skype for Business Server 2019 oder Skype for Business Server 2015 vorgesehen.
 >
-> Frühere Plattformen wie Lync Server 2013 werden von anderen Plattformen Microsoft Teams-Räume.
+> Frühere Plattformen wie Lync Server 2013 werden von Microsoft Teams-Räume nicht unterstützt.
 
-Diese Artikel sind für Personen bestimmt, die mit der Planung, Bereitstellung und Verwaltung dieser Artikel Microsoft Teams-Räume. Endbenutzer sind stärker an der Onlinehilfe für Microsoft Teams-Räume [interessiert](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2).
+Diese Artikel richten sich an Personen, die mit der Planung, Bereitstellung und Verwaltung dieser Microsoft-Teams-Räume betraut sind. Endbenutzer werden mehr Interesse an der [Online-Hilfe](https://support.office.com/article/Skype-Room-Systems-version-2-help-e667f40e-5aab-40c1-bd68-611fe0002ba2) zu Microsoft Teams-Räume haben.
 
 > [!NOTE]
 > [Skype Room System](../rooms/lrs-migration.md) (früher Lync Room System) und Microsoft Teams-Räume sind zwei verschiedene Produkte mit unterschiedlichen Abhängigkeiten und Bereitstellungsverfahren.

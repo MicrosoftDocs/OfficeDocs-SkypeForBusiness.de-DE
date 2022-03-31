@@ -21,7 +21,7 @@ ms.custom: seo-marvel-apr2020
 description: In diesem Artikel finden Sie Informationen zu den Funktionen für Gäste in Microsoft Teams.
 ms.openlocfilehash: c7052eb22a68b146c3ee998b57ba877da82e11b4
 ms.sourcegitcommit: 640f55fe6144ff867b41b57e52f45b8a64cf779e
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 03/17/2022
 ms.locfileid: "63556631"
@@ -33,15 +33,15 @@ Wenn ein Gast zu einem Team eingeladen wird, erhält er eine Willkommens-E-Mail-
 > [!NOTE]
 > Nachdem ein Gast einem Team hinzugefügt wurde, kann es einige Stunden dauern, bis er Zugriff hat.
     
-![Screenshot mit einem Beispiel einer Willkommens-E-Mail-Nachricht.](media/guest-experience-image1.png)
+![Screenshot mit einem Beispiel einer Willkommens-E-Mail.](media/guest-experience-image1.png)
     
 Alle Teammitglieder sehen eine Nachricht in einem Kanal-Thread. Darin werden die Mitglieder darüber informiert, dass der Teambesitzer einen Gast hinzugefügt hat, und der Name des Gasts wird angezeigt. Jeder im Team kann also sofort sehen, bei welchem Mitglied es sich um einen Gast handelt. Ein Tag in der oberen rechten Ecke des Kanal-Threads zeigt die Anzahl der Gäste im Team an und neben dem Namen jedes Gasts wird eine **(Gast)** -Beschriftung angezeigt.
 
-![Screenshot mit einer Markierung, die die Anzahl der Gäste im Team angibt.](media/guest-experience-image2.png)
+![Screenshot des Tags, das die Anzahl der Gäste im Team anzeigt.](media/guest-experience-image2.png)
 
 Schauen Sie sich diese Videos zu den Gast Erfahrungen in Teams an:
-- [Teilnehmen an Teams Besprechung als Gast](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
-- [Zusammenarbeiten mit externen Gästen in einer Teams Besprechung](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
+- [Teilnehmen an einer Teams-Besprechung als Gast](https://support.microsoft.com/office/join-a-teams-meeting-078e9868-f1aa-4414-8bb9-ee88e9236ee4)
+- [Zusammenarbeiten mit externen Gästen in einer Teams-Besprechung](https://support.microsoft.com/office/work-with-external-guests-180ed260-d3ef-4247-9f24-1984fc76d5f0)
 
 ## <a name="comparison-of-team-member-and-guest-capabilities"></a>Vergleich der Funktionen für Team-Mitglieder und -Gäste
 
@@ -103,7 +103,7 @@ In der folgenden Tabelle werden die für Gäste verfügbaren Anruf- und Besprech
 <sup>1</sup> Dieses Feature wird in Kürze verfügbar sein.
 
 > [!NOTE]
-> Die Richtlinie für **Gastbenutzer Zugriffseinschränkungen** in Azure Active Directory (Azure AD) bestimmt die Berechtigungen für Gäste in Ihrem Verzeichnis. Es gibt drei Richtlinienoptionen.
+> Die Richtlinie **Zugriffseinschränkungen für Gastbenutzer** in Azure Active Directory (Azure AD) bestimmt die Berechtigungen für Gäste in Ihrem Verzeichnis. Es gibt drei Richtlinienoptionen.
 >  - Die Einstellung **Gastbenutzer haben denselben Zugriff wie Mitglieder (am umfassendsten)** bedeutet, dass Gäste denselben Zugriff auf Verzeichnisdaten haben wie normale Benutzer in Ihrem Verzeichnis.
 >  - Die Einstellung **Gastbenutzer haben eingeschränkten Zugriff auf Eigenschaften und die Mitgliedschaft bei Verzeichnisobjekten** bedeutet, dass Gäste keine Berechtigungen für bestimmte Verzeichnisaufgaben haben, z. B. das Auflisten von Benutzern, Gruppen oder anderen Verzeichnisressourcen mithilfe von Microsoft Graph.
 >  - Die Einstellung **Gastbenutzerzugriff ist eingeschränkt auf Eigenschaften und Mitgliedschaften bei ihren eigenen Verzeichnisobjekten (am restriktivsten)** bedeutet, dass Gäste nur auf Ihre eigenen Verzeichnisobjekte zugreifen können.

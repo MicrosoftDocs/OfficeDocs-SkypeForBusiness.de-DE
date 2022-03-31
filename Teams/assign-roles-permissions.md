@@ -16,12 +16,12 @@ ms.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: a9ca46e3fa967019e674651ea27299b6552144a7
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: b2f14993f47cdea5690413a32c9d286587db7324
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711959"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556346"
 ---
 # <a name="assign-team-owners-and-members-in-microsoft-teams"></a>Zuweisen von Teambesitzern und -mitgliedern in Microsoft Teams
 
@@ -63,7 +63,7 @@ Die folgende Tabelle zeigt den Unterschied zwischen den Berechtigungen eines Bes
 
 ## <a name="moderator-capabilities"></a>Moderatorfunktionen
 
-Besitzern und Mitgliedern können neben anderen Funktionen auch Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation für ein Team aktiviert wurde). Moderatoren können neue Beiträge in einem Kanal starten und steuern, ob Teammitglieder auf vorhandene Kanalnachrichten antworten können. Sie können auch steuern, ob Bots und Konnektoren Kanalnachrichten senden können.
+Besitzern und Mitgliedern können neben anderen Funktionen auch Moderatorfunktionen für einen bestimmten Kanal zugeordnet werden (sofern die Moderation für ein Team aktiviert wurde). Moderatoren können neue Beiträge in einem Kanal starten und steuern, ob Teammitglieder auf vorhandene Kanalnachrichten antworten können. Moderatoren können auch steuern, ob Apps mit Bots und Connectors Kanalnachrichten senden können.
 
 Moderatorfunktionen werden auf Kanalebene zugewiesen. Teambesitzer verfügen standardmäßig über Moderatorfunktionen. Bei Teammitgliedern ist die Funktion "Moderatoren" standardmäßig deaktiviert, ein Teambesitzer kann einem Teammitglied jedoch Moderatorfunktionen für einen Kanal zuweisen. Moderatoren können weitere Moderatoren innerhalb eines ihnen zugewiesenen Kanals hinzufügen und entfernen.
 
