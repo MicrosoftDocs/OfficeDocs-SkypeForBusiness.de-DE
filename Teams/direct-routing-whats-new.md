@@ -15,12 +15,12 @@ MS.collection:
 - M365-collaboration
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: b6f2ec21ec3e7f4278443d6bcab4b4220db3619f
-ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
+ms.openlocfilehash: 53a1c2730ebf6db06fb92ac2fc4e0873563c98ce
+ms.sourcegitcommit: 9e868a155bcd20dd5dafdedcff091ff77ca7398b
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/30/2022
-ms.locfileid: "64556739"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64584329"
 ---
 # <a name="whats-new-for-direct-routing"></a>Neues bei Direct-Routing
 
@@ -62,7 +62,7 @@ Ab April 2022 lehnet Direct Routing SIP-Anforderungen ab, für die "Replaces hea
 
 Überprüfen Sie Ihre SBC-Konfigurationen, und stellen Sie sicher, dass Sie "Replaces headers" nicht in SIP-Anforderungen verwenden.
 
-## <a name="tls10-and-10"></a>TLS1.0 und 1.0
+## <a name="tls10-and-11"></a>TLS1.0 und 1.1
 
 Um unseren Kunden die erstklassige Verschlüsselung zu ermöglichen, plant Microsoft, die Transport Layer Security (TLS)-Versionen 1.0 und 1.1 zu veraltet. Am 3. April 2022 erzwingen Microsoft die Verwendung von TLS1.2 für die Direct-Routing-SIP-Schnittstelle.
 

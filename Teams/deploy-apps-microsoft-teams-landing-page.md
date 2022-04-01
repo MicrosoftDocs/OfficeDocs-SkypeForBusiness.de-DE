@@ -1,7 +1,7 @@
 ---
-title: Apps, Bots und Connectors in Microsoft Teams
+title: Wissenswertes über Apps in Microsoft Teams
 ms.reviewer: ''
-description: Erfahren Sie mehr über Apps, Bots und Connectors und darüber, wie Sie entscheiden können, welche dieser Komponenten basierend auf den Profil- und Geschäftsanforderungen Ihrer Organisation in Microsoft Teams bereitgestellt werden.
+description: Erfahren Sie mehr über Apps, und entscheiden Sie, welche Apps in Teams basierend auf dem Profil und den Geschäftsanforderungen Ihrer Organisation zugelassen werden sollen.
 ms.topic: article
 author: guptaashish
 ms.author: guptaashish
@@ -18,26 +18,26 @@ search.appverid: MET150
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: bd5ab3395aa870d0be073a0afcd08aafe9110637
-ms.sourcegitcommit: 867e8b4120e81c93c029c0c1b9cb69c161fc87a4
+ms.openlocfilehash: b6fd5ef344550cf85420faef1748c34f6e87e88b
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/26/2022
-ms.locfileid: "64480657"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556526"
 ---
 # <a name="about-apps-in-microsoft-teams"></a>Informationen zu Apps in Microsoft Teams
 
-Mithilfe von Apps finden Sie Inhalte aus Ihren bevorzugten Diensten und teilen sie in Teams. Sie helfen Ihnen beim Anheften von Diensten oben in einem Kanal, beim Chat mit Bots, beim Teilen und Zuweisen von Aufgaben und ähnlichen Tätigkeiten. Weitere Informationen finden Sie unter [Übersicht über Apps in Teams](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
+Mithilfe von Apps können Benutzer Inhalte in Ihren bevorzugten Diensten suchen und sie in Teams teilen. Sie ermöglichen Ihnen das Erledigen von Aufgaben wie beispielsweise das Anheften von Diensten am oberen Rand eines Kanals, das Automatisieren von Benachrichtigungen mithilfe von Bots oder das Freigeben und Zuweisen von Aufgaben. Weitere Informationen zur Verwendung von Apps finden Sie unter [Überblick der Apps für Endbenutzer](https://support.office.com/article/overview-of-apps-in-teams-747492ee-7cdd-4115-a993-8c7e7f98a3d0).
 
-Sie können Apps zu Ihrer Teams-Bereitstellung hinzufügen, indem Sie die mit Microsoft Teams bereitgestellten Apps verwenden, zertifizierte Apps und Vorlagen von Drittanbietern nutzen und Ihre eigenen benutzerdefinierten Apps erstellen.
+Die verschiedenen Arten von Apps, die Ihre Endbenutzer in Teams verwenden können, sind Apps, die von Microsoft erstellt wurden, zertifizierte Apps von Drittanbietern und benutzerdefinierte Apps, die von Ihrer eigenen Organisation erstellt wurden.
 
 ## <a name="use-microsoft-provided-apps"></a>Von Microsoft bereitgestellte Apps verwenden
 
-Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Aufgaben, Lob, Genehmigungen und mehr. Es ist empfehlenswert, die von Teams vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie mit fortschreitender Einführung von Teams weitere Apps, Bots und Connectors hinzu.
+Teams wird mit einer Reihe von integrierten Apps geliefert, darunter Listen, Aufgaben, Lob, Genehmigungen und mehr. Es ist empfehlenswert, die von Teams vorgeschlagenen Apps – wie etwa Planner – in Ihre erstmalige Teams-Bereitstellung mit aufzunehmen. Fügen Sie weitere Apps hinzu, während Sie die Einführung von Teams vorantreiben. Einige Standardfunktionen wie Aktivitätenliste, Chat, Kalender und Anrufe sind standardmäßig verfügbar und auch angeheftet, um Endbenutzern den Zugriff zu erleichtern.
 
 ## <a name="use-third-party-apps"></a>Verwenden von Drittanbieter-Apps
 
-Zusätzlich zu von Microsoft bereitgestellten Apps können Sie von Microsoft zertifizierte Drittanbieter-Apps verwenden. Microsoft arbeitet mit Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die benötigt werden, um Entscheidungen zur Verwendung von Teams-Apps und -Add-Ins zu beschleunigen. Weitere Informationen finden Sie unter [Microsoft Teams App – Sicherheit und Compliance](/microsoft-365-app-certification/teams/teams-apps).
+Zusätzlich zu von Microsoft bereitgestellten Apps können Sie von Microsoft validierte Drittanbieter-Apps verwenden. Microsoft arbeitet mit Microsoft 365-Entwicklerpartnern zusammen, um die Informationen bereitzustellen, die benötigt werden, um Entscheidungen zur Verwendung von Teams-Apps zu beschleunigen. Weitere Informationen finden Sie unter [Microsoft Teams-App – Sicherheit und Compliance](/microsoft-365-app-certification/teams/teams-apps).
 
 ## <a name="use-open-source-sample-apps-provided-by-microsoft"></a>Verwenden von Open-Source-Beispiel-Apps, die von Microsoft bereitgestellt werden
 
@@ -68,41 +68,43 @@ Standardmäßig sind alle von Microsoft bereitgestellten, Drittanbieter- und ben
 
 ### <a name="app-permissions-and-other-considerations"></a>App-Berechtigungen und andere Überlegungen
 
-Apps erhalten ein Einverständnis von den Benutzern und werden vom Administrator oder IT-Experten mithilfe von Richtlinien verwaltet. Großenteils sind allerdings die Berechtigungen und Risikoprofile einer App in der App selbst definiert.
-
 Apps erhalten ein Einverständnis von den Benutzern und werden vom Administrator oder IT-Experten mithilfe von Richtlinien verwaltet. App-Berechtigungen und Risikoprofil werden jedoch in der App selbst definiert.
 
 | Frage | Aktion |
 |--------------|--------|
 |<br>Auf welche Apps möchte ich den Zugriff erlauben? Auf welche möchte ich keinen Zugriff erlauben?  | <ul><li>Eine Liste der Gesichtspunkte, die Sie beim Zulassen des Zugriffs auf eine App, einen Bot, eine Registerkarte oder einen Connector berücksichtigen sollten, finden Sie unter [Berechtigungen für Microsoft Teams-Apps und Überlegungen dazu](app-permissions.md).</li><li>Unter [Verwalten Ihrer Apps im Microsoft Teams Admin Center](manage-apps.md) finden Sie Informationen zur Bereitstellung einer App für Benutzer in Ihrer Organisation.</li></ul>|
 
-### <a name="bots-for-private-chats-and-channels"></a>Bots für private Chats und Kanäle
+<!--- TBD: Rewrite this to talk about bots and tabs as a capability of apps. Admins do not govern bots, tabs, etc. Admins only govern apps that contain capabilities such as connectors, bots, etc. This writeup gives an impression that admins manage apps + bots + tabs + connectors, etc.
 
-Bots sind automatisierte Programme, die auf Abfragen antworten oder Updates und Benachrichtigungen zu Details herausgeben, die Benutzer interessant finden oder über die sie auf dem Laufenden bleiben möchten. Mithilfe von Bots können Benutzer mit Clouddiensten wie Aufgabenverwaltung, Planung und Abstimmung in einem Teams-Chat interagieren. Teams unterstützt Bots in privaten Chats und Kanälen. Administratoren können steuern, ob die Verwendung von Bots in einer Microsoft 365- oder Office 365-Organisation zulässig ist.
+### Bots for private chats and channels
 
-| Frage | Aktion |
+Bots are automated programs that respond to queries or give updates and notifications about details users find interesting or want to stay informed about. Bots allow users to interact with cloud services such as task management, scheduling, and polling in a Teams chat. Teams supports bots in private chats and channels. Administrators can control whether the use of bots is allowed in a Microsoft 365 or Office 365 organization.
+
+| Ask yourself | Action |
 |--------------|--------|
-|Möchte ich benutzerdefinierte Bots in meiner Organisation zulassen?|Weitere Informationen zum Hinzufügen von Bots finden Sie unter [Hinzufügen von Bots für private Chats und Kanäle in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). Informationen zum Aktivieren oder Deaktivieren von benutzerdefinierten Bots finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).|
+|Do I want to allow custom bots in my organization?|For more information about adding bots, see [Add bots for private chats and channels in Microsoft Teams](/microsoftteams/platform/bots/what-are-bots). For information about turning custom bots on or off, see [Admin settings for apps in Microsoft Teams](admin-settings.md).|
 
-### <a name="built-in-and-custom-tabs"></a>Integrierte und benutzerdefinierte Registerkarten
+### Built-in and custom tabs
 
-Besitzer und Teammitglieder können einem Kanal, einem privaten Chat oder einem Gruppenchat Registerkarten hinzufügen, um ihre Clouddienste besser integrieren zu können. Fügen Sie Registerkarten hinzu, um Benutzer bei Zugriff und Verwaltung der am häufigsten benötigten Daten zu unterstützen. In Kanälen werden standardmäßig die Registerkarten “Unterhaltungen” und “Dateien” erstellt. In jedem privaten Chat werden standardmäßig die Registerkarten “Unterhaltungen”, “Dateien”, “Organisation” und “Aktivität” erstellt. Über diese integrierten Registerkarten hinaus können Sie benutzerdefinierte Registerkarten entwerfen und hinzufügen. Informationen zum Aktivieren oder Deaktivieren von Registerkarten für Ihre Organisation finden Sie unter [Administratoreinstellungen für Apps in Microsoft Teams](admin-settings.md).
+Owners and team members can add tabs to a channel, private chat, and group chat to help integrate their cloud services. Add tabs to help users access and manage the data they need or use the most. In channels, the Conversations and Files tabs are created by default. In every private chat, the Conversations, Files, Organization, and Activity tabs are created by default. In addition to these built-in tabs, you can design and add custom tabs. To learn about turning Teams apps on or off for your organization, read [Admin settings for apps in Teams](admin-settings.md).
 
-| Frage | Aktion |
+| Ask yourself | Action |
 |--------------|--------|
-|Möchte ich benutzerdefinierte Registerkarten in meiner Organisation zulassen?|Weitere Informationen finden Sie unter [Verwenden integrierter und benutzerdefinierter Registerkarten in Teams](built-in-custom-tabs.md).|
+|Do I want to allow custom tabs in my organization?|For more information, see [Use built-in and custom tabs in Teams](built-in-custom-tabs.md).|
 
-### <a name="custom-connectors"></a>Benutzerdefinierte Connectors
+### Custom connectors
 
-Connectors halten Ihr Team auf dem neuesten Stand, indem Sie Inhalte und Updates von Diensten, die Sie häufig verwenden, direkt in einem Kanal bereitstellen. Mit Connectors können Ihre Teams-Benutzer Updates von beliebten Diensten wie Trello, Wunderlist, GitHub und Azure DevOps Services in ihren Teams-Chats erhalten.
+Connectors keep your team current by delivering content and updates from services you frequently use directly into a channel. With connectors, your Teams users can receive updates from popular services such as Trello, Wunderlist, GitHub, and Azure DevOps Services in their Teams chats.
 
-| Frage | Aktion |
+| Ask yourself | Action |
 |--------------|--------|
-|Möchte ich Benutzern das Erstellen benutzerdefinierter Connectors erlauben?|Weitere Informationen finden Sie unter [Verwenden von benutzerdefinierten Connectors in Teams](office-365-custom-connectors.md).|
+|Do I want to allow users to create custom connectors?|For more information, see [Use custom connectors in Teams](office-365-custom-connectors.md).|
+
+--->
 
 ## <a name="additional-deployment-decisions"></a>Zusätzliche Bereitstellungsentscheidungen
 
-Je nach den Bedürfnissen und der Konfiguration Ihrer Organisation kann es sinnvoll sein, diese Einstellungen zu ändern.
+Sie können diese Einstellungen je nach den Bedürfnissen und der Konfiguration Ihrer Organisation ändern.
 
 ### <a name="activity-reports"></a>Aktivitätsberichte
 
@@ -114,7 +116,7 @@ Mithilfe von Aktivitätsberichten können Sie erfahren, wie Benutzer in Ihrer Or
 
 ### <a name="app-templates"></a>App-Vorlagen
 
-App-Vorlagen sind in GitHub verfügbare communitygesteuerte, produktionsbereite Quell-Apps für Microsoft Teams.  Jede enthält detaillierte Anweisungen dazu, wie Sie diese App für Ihre Organisation bereitstellen und installieren, indem sie eine anwendungsbereite App zur Verfügung stellt, die Sie umgehend installieren und verwenden können.
+App-Vorlagen sind produktionsbereite Apps für Microsoft, die von der Community gefördert werden, Open Source sind und in GitHub zur Verfügung stehen. Jede App enthält detaillierte Anweisungen zum Bereitstellen und Installieren für Ihre Organisation und ist eine sofort einsatzbereite App, die Sie installieren und sofort verwenden können.
 
 Der gesamte Quellcode steht ebenfalls zur Verfügung. Sie können ihn im Detail durchsuchen oder abzweigen, um ihn Ihren Anforderungen entsprechend zu ändern.
 

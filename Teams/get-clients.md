@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 appliesto:
 - Microsoft Teams
-ms.openlocfilehash: 0e02013ddc158e1e64386bc22652404ec387aee1
-ms.sourcegitcommit: a9a056b93b4add3a4d978bb341ea4b66a042b4d0
+ms.openlocfilehash: 4b922607955d8b825006217bd2fe333eaadbc1ce
+ms.sourcegitcommit: cbdc80c302e97d18a923ef57bb5d4b6cf7676d00
 ms.translationtype: HT
 ms.contentlocale: de-DE
-ms.lasthandoff: 02/18/2022
-ms.locfileid: "62893554"
+ms.lasthandoff: 03/30/2022
+ms.locfileid: "64556566"
 ---
 # <a name="get-clients-for-microsoft-teams"></a>Beziehen von Clients für Microsoft Teams
 
@@ -46,7 +46,7 @@ Der Teams-Desktopclient ist als eigenständige Anwendung und als Teil von [Micro
 - Linux (in den Formaten `.deb` und `.rpm`)
 - Chrome-Betriebssystem (Weitere Informationen finden Sie unter [Verwendung von Microsoft Office auf einem Chromebook](https://support.office.com/article/how-to-install-and-run-microsoft-office-on-a-chromebook-32f14a23-2c1a-4579-b973-d4b1d78561ad))
 
-Desktopclients können von Endbenutzern direkt von [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) heruntergeladen und installiert werden, wenn sie über die entsprechenden lokalen Berechtigungen verfügen. Administratorberechtigungen sind nicht erforderlich, um den Teams-Client auf Windows-PCs zu installieren, sie sind aber auf Macs erforderlich.
+Desktopclients können von Endbenutzern von [https://teams.microsoft.com/downloads](https://go.microsoft.com/fwlink/?linkid=855754) direkt heruntergeladen und installiert werden, sofern sie über die entsprechenden lokalen Berechtigungen verfügen. Administratorberechtigungen sind zum Installieren des Teams-Clients auf einem Windows-PC nicht erforderlich, auf einem Mac jedoch schon.
 
 IT-Experten können ihre bevorzugte Methode für die Verteilung der Installationsdateien an die Computer in ihrer Organisation auswählen. Einige Beispiele hierfür sind Microsoft Endpoint Configuration Manager (Windows) oder Jamf Pro (macOS). Für weitere Informationen zum Verteilen von Teams lesen Sie Folgendes.
 
@@ -63,9 +63,9 @@ IT-Experten können ihre bevorzugte Methode für die Verteilung der Installation
 
 Teams unter Windows bietet herunterladbare MSI-Installationsprogramme in [32-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&managedInstaller=true&download=true)-, [64-Bit](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=x64&managedInstaller=true&download=true)- und [ARM64](https://teams.microsoft.com/downloads/desktopurl?env=production&plat=windows&arch=arm64&managedInstaller=true&download=true)-Architekturen. Die x86-Architektur (32 Bit oder 64 Bit) von Microsoft Teams ist unabhängig von der Architektur der installierten Windows- und Office-Version. Wir empfehlen die 64-Bit-Version von Teams auf 64-Bit-Systemen.
 
-Teams erfordert .NET Framework 4.5 oder höher. Wenn .NET Framework oder höher nicht installiert ist, bietet das Teams-Installationsprogramm die Installation für Sie an.
+Teams erfordert .NET Framework 4.5 oder höher. Wenn .NET Framework 4.5 oder höher nicht installiert ist, bietet Ihnen das Teams-Installationsprogramm die Installation an.
 
-Der Windows-Client wird im Ordner AppData bereitgestellt, der sich im Profil des Benutzers befindet. Die Bereitstellung im lokalen Profil des Benutzers ermöglicht die Installation des Clients, ohne dass erhöhte Rechte erforderlich sind. Der Windows-Client nutzt die folgenden Speicherorte:
+Der Windows-Client wird im Ordner AppData bereitgestellt, der sich im Profil des Benutzers befindet. Die Bereitstellung im lokalen Profil des Benutzers ermöglicht die Installation des Clients, ohne dass erhöhte Berechtigungen erforderlich sind. Der Windows-Client nutzt die folgenden Speicherorte:
 
 - %LocalAppData%\\Microsoft\\Teams
 
@@ -179,7 +179,7 @@ sudo zypper install teams
 
 ## <a name="mobile-clients"></a>Mobile Clients
 
-Die Teams-Apps für Mobilgeräte stehen für Android und iOS zur Verfügung und sind auf mobile Benutzer ausgelegt, die an Chat-basierten Unterhaltungen teilnehmen. Außerdem ermöglichen sie Peer-zu-Peer-Audioanrufe. Rufen Sie den entsprechenden Store für mobile Apps – Google Play oder Apple App Store – auf, um die Apps herunterzuladen.
+Die mobilen Teams-Apps sind für Android und iOS verfügbar und richten sich an Benutzer, die sich unterwegs an chatbasierten Unterhaltungen beteiligen möchten, und sie ermöglichen Peer-zu-Peer-Audioanrufe. Sie finden die mobilen Apps in den jeweiligen mobilen Stores Google Play und dem Apple App Store.
 
 Unterstützte mobile Plattformen für Teams-Apps für Mobilgeräte sind die Folgenden:
 
@@ -205,4 +205,4 @@ Der Browserclient ([https://teams.microsoft.com](https://go.microsoft.com/fwlink
 
 [!INCLUDE [browser-support](includes/browser-support.md)]
 
-Der Browserclient führt beim Herstellen einer Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) eine Erkennung der Browserversion durch. Wenn eine nicht unterstützte Browserversion erkannt wird, wird der Zugriff auf die Browserschnittstelle blockiert, und dem Benutzer wird empfohlen, den Desktopclient oder die mobile App herunterzuladen.
+Der Browserclient führt beim Herstellen der Verbindung mit [https://teams.microsoft.com](https://go.microsoft.com/fwlink/?linkid=855753) eine Erkennung der Browserversion durch. Wenn eine nicht unterstützte Browserversion erkannt wird, wird der Zugriff auf die Browserschnittstelle blockiert, und dem Benutzer wird empfohlen, den Desktopclient oder die mobile App herunterzuladen.

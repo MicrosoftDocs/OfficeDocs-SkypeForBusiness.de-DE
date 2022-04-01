@@ -17,12 +17,12 @@ f1.keywords:
 - CSH
 ms.custom: ''
 description: Erfahren Sie, wie Sie besprechungsrichtlinieneinstellungen verwenden, um den Ablauf von Besprechungen in einem Microsoft Teams.
-ms.openlocfilehash: d4752251f65dac0afb41ba357ad03063b3f6dfb0
-ms.sourcegitcommit: dafe48cea1643e1bd79390482da9b002d7e9e0bb
+ms.openlocfilehash: ed76ea0278cdbf8a00bbd0d3e8434103aad2f270
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/16/2022
-ms.locfileid: "63514688"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592810"
 ---
 # <a name="meeting-policies-and-meeting-expiration-in-microsoft-teams"></a>Besprechungsrichtlinien und Besprechungsablauf in Microsoft Teams
 
@@ -76,9 +76,6 @@ Wenn Sie Personen den Zugriff auf Besprechungen wünschen, die zuvor von einem b
 > Wenn die Besprechung von einer Stellvertretung gesendet wurde, der die Berechtigung zum Senden von Besprechungseinladungen im Auftrag einer anderen Person, z. B. eines Vorgesetzten, erteilt wurde, wird die Einstellung der Besprechungsrichtlinie auf die Person angewendet, die die Berechtigung erteilt hat (der Vorgesetzte).
 
 ## <a name="changes-to-meeting-expiration"></a>Änderungen am Ablauf von Besprechungen
-
-> [!IMPORTANT]
-> Wenn Sie den Ablauf der Teams ihres Mandanten vorzeitig aktivieren möchten, wenden Sie sich an das Early [Adopter-Programm Microsoft Teams](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbR8YMDA0A9INMv_DZ8yW5uG1URDc3U1VVMklPTzVMS0RLR0pUQTlWU1BEVC4u) Ablauf der Besprechung.
 
 Alle neu erstellten Teams (TMRs) haben einen Standardablauf von 120 Tagen. Diese ist standardmäßig für alle Mandanten aktiviert. Dies bedeutet, dass alle TMRs, die  nach dem Aktivieren dieses Features erstellt wurden, standardmäßig 120 Tage nach dem Erstellungsdatum gelöscht werden. Administratoren können Besprechungen auch so einrichten, dass **sie nie automatisch ablaufen**. Das OneDrive und SharePoint-System überwacht das für alle TMRs festgelegte Ablaufdatum und verschiebt TMRs automatisch am Ablaufdatum in den Papierkorb.
 
@@ -155,7 +152,7 @@ Nein, für migrierte Microsoft Teams-Besprechungsaufzeichnungen wird kein Ablauf
 
 Wenn eine Aufzeichnung nicht auf OneDrive oder SharePoint hochgeladen werden kann, zeigt die Teams-Anwendung im Chat eine Meldung an, dass Benutzer bis zu 21 Tage Zeit haben, die TMR herunterzuladen, bevor sie endgültig vom Teams-Server gelöscht wird. Diese vorhandene Ablauferfahrung aufgrund fehlgeschlagener TMR-Uploads steht nicht im Zusammenhang mit OneDrive und SharePoint automatische Ablauffunktion, die im Hilfedokument erläutert wird.
 
-### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Wo kann ich die Verteilung der TMR-Wiedergaben kennen, damit ich weiß, welche optimale Standardeinstellung für den automatischen Ablauf für meinen Mandanten sein sollte?
+### <a name="how-do-i-know-the-distribution-of-tmr-playbacks-so-i-know-what-the-optimal-auto-expiration-default-should-be-for-my-tenant"></a>Gewusst wie die Verteilung der TMR-Wiedergaben kennen, damit ich weiß, welche optimale Standardeinstellung für den automatischen Ablauf für meinen Mandanten sein sollte?
 
 1. Suchen Sie das Video in der Bibliothek.
 1. Wählen Sie **... aus.** >  **Details**

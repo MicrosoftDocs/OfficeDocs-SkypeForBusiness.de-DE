@@ -22,12 +22,12 @@ f1.keywords:
 ms.custom:
 - Phone System
 description: Erfahren Sie, wie Sie Cloud-Voicemail für Ihre Benutzer einrichten.
-ms.openlocfilehash: d78942c5cbfc6af8e921c26c806378b45f480835
-ms.sourcegitcommit: c7b95254dec4420ba0a697fd49d11b448364c919
+ms.openlocfilehash: dd98275ac768990337a47f1f4ba6dacbdb385087
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/11/2022
-ms.locfileid: "63442321"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592720"
 ---
 # <a name="set-up-cloud-voicemail"></a>Einrichten von Cloud-Voicemail
 
@@ -41,7 +41,7 @@ Für Teams Benutzer wird Cloud-Voicemail automatisch eingerichtet und bereitgest
 
 Die Bereitstellung Teams Benutzer ist nicht dasselbe wie für Skype for Business Online-Benutzer. Für Skype for Business Online-Benutzer wurde Cloud-Voicemail automatisch eingerichtet und bereitgestellt, wenn den Benutzern eine Telefonsystem-Lizenz zugewiesen wurde und Enterprise-VoIP Bereitstellungssystem aktiviert wurde.
 
-Für Skype for Business Server lokalen Benutzer wird Cloud-Voicemail automatisch eingerichtet und bereitgestellt. Sie müssen jedoch die Umgebung für Skype for Business Server konfigurieren, um Anrufe an Cloud-Voicemail. Weitere Informationen finden Sie unter [Cloud-Voicemail dienst für lokale Benutzer.](/skypeforbusiness/hybrid/plan-cloud-voicemail.md)
+Für Skype for Business Server lokalen Benutzer wird Cloud-Voicemail automatisch eingerichtet und bereitgestellt. Sie müssen jedoch die Umgebung für Skype for Business Server konfigurieren, um Anrufe an Cloud-Voicemail. Weitere Informationen finden Sie unter [Cloud-Voicemail dienst für lokale Benutzer.](/skypeforbusiness/hybrid/plan-cloud-voicemail)
 
 ## <a name="cloud-voicemail-storage"></a>Cloud-Voicemail von Speicher
 
@@ -55,7 +55,7 @@ Das Exchange Postfach eines Benutzers speichert alle benutzerdefinierten aufgeze
 
 Die Aufzeichnung und Transkription der Cloud-Voicemail beginnt in Microsoft 365, wenn der Anruf an die andere Cloud-Voicemail. Die Nachricht wird dann an das Postfach des Exchange zugestellt.
 
-Wenn beispielsweise ein Anruf bei einem nicht verfügbaren Direct Routing-Benutzer über einen Session Border Controller (SBC) in Europa einkommt, erfolgt die Voicemailaufzeichnung und -transkription in Europa. Die Nachricht wird dann an das Postfach des Exchange zugestellt. Ein weiteres Beispiel: Angenommen, ein Teams in Nordamerika ruft einen nicht verfügbaren Teams in Europa an. In diesem Fall beginnt der Anruf in Nordamerika, die Verarbeitung erfolgt in Nordamerika, und dann wird die Voicemail an das Exchange Postfach des Benutzers in Europa übermittelt.
+Wenn beispielsweise ein Anruf bei einem nicht verfügbaren Direct Routing-Benutzer über einen Session Border Controller (SBC) in Europa einkommt, erfolgt die Voicemailaufzeichnung und -transkription in Europa. Die Nachricht wird dann an das Postfach des Exchange zugestellt. Ein weiteres Beispiel: Angenommen, ein Teams in Nordamerika anruft einen nicht verfügbaren Teams in Europa. In diesem Fall beginnt der Anruf in Nordamerika, die Verarbeitung erfolgt in Nordamerika, und die Voicemail wird dann an das Postfach des Benutzers Exchange in Europa übermittelt.
 
 Die Zustellung einer Voicemail an ein Exchange-Postfach erfolgt wie jede andere E-Mail mithilfe von SMTP (Simple Mail Transport Protocol).
 
@@ -75,7 +75,7 @@ Sie können auch Cloud-Voicemail für einen Benutzer deaktivieren, indem Sie das
 
 Die Standardeinstellung für alle benutzer, die für Cloud-Voicemail bereitgestellt werden, ist das Weiterleiten von Anrufen an Cloud-Voicemail und das Weiterleiten von Anrufen an Cloud-Voicemail.
 
-Mit dem cmdlet Set-CsTeamsCallingPolicy AllowVoicemail können Sie steuern, ob Cloud-Voicemail Weiterleitung von Anrufen an Teams Benutzer zulässig ist. Weitere Informationen finden Sie  [unterSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy.md).
+Mit dem cmdlet Set-CsTeamsCallingPolicy AllowVoicemail können Sie steuern, ob Cloud-Voicemail Weiterleitung von Anrufen an Teams Benutzer zulässig ist. Weitere Informationen finden Sie  [unterSet-CsTeamsCallingPolicy](/powershell/module/skype/set-csteamscallingpolicy).
 
 - Wenn Sie AllowVoicemail auf AlwaysDisabled festlegen, werden Anrufe nie an die Voicemail weitergeleitet – unabhängig von den Einstellungen für die Weiterleitung oder die Einstellungen für nicht beantwortete Anrufe eines Benutzers. Voicemail ist in der Standardeinstellung für Anruf weiterleiten oder nicht Teams.
 
@@ -105,11 +105,11 @@ Mithilfe Microsoft Information Protection können Sie die Voicemailnachrichten v
 
 Zum Verschlüsseln der Voicemailnachricht können Sie eine Vertraulichkeitsbezeichnung erstellen. Mit der automatischen Beschriftungsfunktion können Sie sicherstellen, dass die Bezeichnung automatisch auf eingehende Voicemailnachrichten angewendet wird. 
 
-Wenn Sie geschützte Voicemail aktivieren, können Benutzer geschützte Voicemailnachrichten abhören, indem sie sich in ihr Voicemail-Postfach einrufen oder indem sie die Nachricht in Outlook, Outlook im Web oder Outlook für Android oder iOS öffnen. Geschützte Voicemailnachrichten können nicht in einer Microsoft Teams oder Skype für Busimess geöffnet werden.
+Wenn Sie geschützte Voicemail aktivieren, können Benutzer geschützte Voicemailnachrichten abhören, indem sie sich in ihr Voicemail-Postfach einrufen oder indem sie die Nachricht in Outlook, Outlook im Web oder Outlook für Android oder iOS öffnen. Geschützte Voicemailnachrichten können nicht in anderen Microsoft Teams oder auf Skype for Business.
 
 Informationen zum Erstellen einer Vertraulichkeitsbezeichnung für Voicemail finden Sie unter [Verwenden von Vertraulichkeitsbezeichnungen](/microsoft-365/compliance/encryption-sensitivity-labels?view=o365-worldwide#let-users-assign-permissions). Wählen Sie **im Abschnitt Verschlüsselung** die Option **Benutzern das Zuweisen von Berechtigungen gestatten, wenn sie die Bezeichnung anwenden aus**. Wählen **Sie in Outlook eine der folgenden Einschränkungen** durch, und wählen Sie dann die Option Nicht **weiterleiten** aus.
 
-Informationen zum Erstellen der Richtlinie zum automatischen Anwenden einer Vertraulichkeitsbezeichnung auf Voicemail finden Sie unter Konfigurieren von Richtlinien für die automatische [Bezeichnung und Angeben](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) der folgenden spezifischen Einstellungen:
+Informationen zum Erstellen der Automatischen Kennzeichnungsrichtlinie, um eine Vertraulichkeitsbezeichnung auf Voicemail anzuwenden, finden Sie unter Konfigurieren von Richtlinien für die automatische [Beschriftung und Festlegen](/microsoft-365/compliance/apply-sensitivity-label-automatically?view=o365-worldwide#how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange) der folgenden spezifischen Einstellungen:
 
 -   Wählen **Sie für Informationen auswählen, auf die diese Bezeichnung angewendet werden soll** die Option **Benutzerdefinierte Richtlinie aus**.
 

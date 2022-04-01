@@ -16,12 +16,12 @@ f1.keywords:
 appliesto:
 - Microsoft Teams
 ms.custom: seo-marvel-apr2020
-ms.openlocfilehash: 4d8ae47e2e9963a6379c6516a6739f8fcf180154
-ms.sourcegitcommit: fcac607fb4ad342a0936527f848e04c85f153ba5
+ms.openlocfilehash: 41d5cf86085c944e414e1c78e3160f8f2678d0d1
+ms.sourcegitcommit: 2388838163812eeabcbd5331aaf680b79da3ccba
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 03/22/2022
-ms.locfileid: "63711939"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "64592940"
 ---
 # <a name="information-barriers-in-microsoft-teams"></a>Informationsbarrieren in Microsoft Teams
 
@@ -110,7 +110,7 @@ IB-Richtlinien werden aktiviert, wenn die Teams Ereignisse stattfinden:
 
 - Ein Benutzer hält einen Telefonanruf **in Teams**: Immer wenn ein Benutzer einen Sprachanruf (über VOIP) für einen anderen Benutzer oder eine Benutzergruppe initiiert, wird der Anruf ausgewertet, um sicherzustellen, dass er nicht gegen die IB-Richtlinien anderer Teammitglieder verstößt. Wenn ein Verstoß vor liegt, wird der Sprachanruf blockiert.
 
-- **Gäste in Teams**: IB-Richtlinien gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des Gastzugriffs [in Microsoft 365 Gruppen](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Sobald Gäste ermittelt werden können, können Sie [IB-Richtlinien definieren](/office365/securitycompliance/information-barriers-policies).
+- **Gäste in Teams**: IB-Richtlinien gelten auch für Gäste in Teams. Wenn Gäste in der globalen Adressliste Ihrer Organisation ermittelt werden müssen, lesen Sie Verwalten des [Gastzugriffs in Microsoft 365-Gruppen](/microsoft-365/admin/create-groups/manage-guest-access-in-groups). Sobald Gäste ermittelt werden können, können Sie [IB-Richtlinien definieren](/office365/securitycompliance/information-barriers-policies).
 
 ## <a name="how-policy-changes-impact-existing-chats"></a>Auswirkungen von Richtlinienänderungen auf vorhandene Chats
 
@@ -188,7 +188,7 @@ Der Informationsbarrieremodus hilft dabei, die Personen zu stärken, die einem T
 
 - **Offen**: Diese Konfiguration ist der standardmäßige IB-Modus für alle vorhandenen Gruppen, die vor der Aktivierung von Informationsbarrieren bereitgestellt wurden. In diesem Modus gelten keine IB-Richtlinien.
 - **Implizit**: Diese Konfiguration ist der standardmäßige IB-Modus, wenn ein Team bereitgestellt wird, nachdem Informationsbarrieren aktiviert wurden. Im impliziten Modus können Sie alle kompatiblen Benutzer in der Gruppe hinzufügen.
-- **Besitzer moderiert (Vorschau):** Dieser Modus wird für ein Team festgelegt, wenn Sie die Zusammenarbeit zwischen inkompatiblen Segmentbenutzern zulassen möchten, die vom Besitzer moderiert werden. Der Teambesitzer kann neue Mitglieder nach der IB-Richtlinie hinzufügen.
+- **Besitzer moderiert**: Dieser Modus wird für ein Team festgelegt, wenn Sie die Zusammenarbeit zwischen inkompatiblen Segmentbenutzern zulassen möchten, die vom Besitzer moderiert werden. Der Teambesitzer kann neue Mitglieder nach der IB-Richtlinie hinzufügen.
 
 Teams vor der Aktivierung einer Informationsbarriererichtlinie in Ihrem Mandanten erstellt wurden, werden standardmäßig automatisch auf "*Öffnen*"-Modus festgelegt. Nachdem Sie IB-Richtlinien für Ihren Mandanten aktiviert haben, müssen Sie den Modus Ihrer vorhandenen Teams auf *"Implicit* " aktualisieren, um sicherzustellen, dass vorhandene Teams IB-konform sind.
 
@@ -202,7 +202,7 @@ Set-UnifiedGroup -InformationBarrierMode Implicit
 
 Um den Modus von "Öffnen" in "Implizit" für alle vorhandenen Teams zu aktualisieren, verwenden Sie dieses [PowerShell-Skript](information-barriers-mode-script.md).
 
-Wenn Sie die Open-Modus-Konfiguration für vorhandene mit Teams verbundene Gruppen ändern, um die Complianceanforderungen Ihrer Organisation zu erfüllen, müssen Sie die [IB-Modi](/sharepoint/information-barriers.md#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) für zugeordnete SharePoint-Websites aktualisieren, die mit dem Teams-Team verbunden sind.
+Wenn Sie die Open-Modus-Konfiguration für vorhandene mit Teams verbundene Gruppen ändern, um die Complianceanforderungen Ihrer Organisation zu erfüllen, müssen Sie die [IB-Modi](/sharepoint/information-barriers#view-and-manage-ib-modes-as-an-administrator-with-sharepoint-powershell) für zugeordnete SharePoint-Websites aktualisieren, die mit dem Teams-Team verbunden sind.
 
 ## <a name="required-licenses-and-permissions"></a>Erforderliche Lizenzen und Berechtigungen
 
@@ -218,11 +218,10 @@ Weitere Informationen zu Lizenzen und Berechtigungen, Plänen und Preisen finden
 ## <a name="more-information"></a>Weitere Informationen
 
 - Weitere Informationen zu PSP-Daten finden Sie unter [Informationsbarrieren](/office365/securitycompliance/information-barriers).
-- Informationen zum Einrichten von IB-Richtlinien finden Sie unter [Erste Schritte mit Informationsbarrieren](/office365/securitycompliance/information-barriers-policies).
+- Informationen zum Einrichten von IB-Richtlinien finden Sie [unter Erste Schritte mit Informationsbarrieren](/office365/securitycompliance/information-barriers-policies).
 - Informationen zum Bearbeiten oder Entfernen von IB-Richtlinien finden Sie unter [Verwalten von Richtlinien zur Informationsbarriere](/microsoft-365/compliance/information-barriers-edit-segments-policies).
 - [Informationsbarrieren und freigegebene Kanäle](information-barriers-shared-channels.md)
 
 ## <a name="availability"></a>Verfügbarkeit
 
-- Das Feature ist in unserer öffentlichen Cloud verfügbar. Im Januar 2021 haben wir Informationsbarrieren in der Cloud GCC.
-- Das Feature ist in den Wolken GCC " Hoch" und "DOD" noch nicht verfügbar.
+Informationsbarrieren in Teams sind in unseren öffentlichen Cloudn GCC, GCC – High und DOD-Wolken verfügbar.
